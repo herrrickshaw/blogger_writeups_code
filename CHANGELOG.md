@@ -14875,3 +14875,9 @@ Index: AI and offshored sectors post
 **Re-dated** (publication date changed; body and URL unchanged)
 
 - `ai-is-not-taking-indias-offshore-work` — 2026-10-18 &rarr; 2026-10-18
+
+## 2026-10-18T08:52:51+05:30 — 374 posts live
+
+**Added**
+
+- `how-to-use-cachememorycleaner-free-mac` **v1.0.0** — How to use cache_memory_cleaner: free Mac disk space without losing data (21,964 bytes)
