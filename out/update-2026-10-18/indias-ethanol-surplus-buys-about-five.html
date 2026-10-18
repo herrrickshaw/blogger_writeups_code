@@ -1,0 +1,436 @@
+<div class="artx edsx">
+<style>
+/* ---- typography (gs-typo-unify-v1): keep in sync across all posts ---- */
+.edsx{font-family:Georgia,'Times New Roman',serif;line-height:1.6;color:#111}
+.edsx h1,.edsx h2,.edsx h3{line-height:1.3}
+
+/* ---- palette: define every colour as a custom property here. Do not add
+       raw hex elsewhere in a post's <style> block — reference these vars, so
+       a future palette change is a 4-line edit instead of a find-and-replace
+       across every post. ----
+   --ink     #111    body text, light-locked (see below)
+   --accent  #8a4b08  eyebrow text, h2 rule, table header bg, stat numbers —
+                       the one colour that carries this post's "brand"
+   --rule    #e8dcc4  hairline borders, h2 underline, table cell borders
+   --panel   #fdf7ec  stat-card bg, even table rows — the palette's one tint
+*/
+.edsx{--ink:#111;--accent:#8a4b08;--rule:#e8dcc4;--panel:#fdf7ec;--good:#1a7a4c;--good-soft:#eaf6ef;--bad:#a5402c;--bad-soft:#fff4f0}
+
+/* ---- mono-label convention (added 2026-09-17, borrowed from the
+       india-trade-sector-policy-recommendations design system): the eyebrow
+       kicker and the source line read as data-journalism metadata, not
+       article prose, so they get a monospace face — a system stack, not a
+       hosted webfont, so no post gains an extra network request or a
+       flash-of-unstyled-text risk. Body text (h1/p/li/table) keeps the
+       serif — this is a two-place accent, not a font-pairing overhaul. ---- */
+.edsx{--mono:ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace}
+
+/* ---- light lock (gs-light-lock): a dark Blogger theme (and a browser/OS
+       set to prefers-color-scheme:dark) must not repaint text. Re-assert
+       the same values with !important — verified 2026-08-14 across 5 live
+       posts with the browser's colour scheme forced to dark: body/h1/p/table
+       all stayed light-background/dark-text with no low-contrast pairs.
+       Do NOT add selectors here for panels that are meant to be dark —
+       those go in the guard below. ---- */
+.edsx,.edsx p,.edsx li,.edsx td,.edsx th{color:var(--ink)!important}
+.edsx{background:#fff!important}
+
+/* ---- structure: title + subtitle ----
+   .eyebrow    = the small-caps kicker ABOVE the h1 — "Section · Topic ·
+                 Subtopic", sets context before the reader hits the claim
+   h1          = the headline itself. Write it as the CLAIM, not the topic
+                 ("The Rouble Is the Outlier, Not the Dollar" beats
+                 "Currency Trends Update"). font-size 1.5rem is the deliberate
+                 site-wide size — do not bump it per-post.
+   .standfirst = the one/two-sentence SUBTITLE directly under the h1. This is
+                 also what Blogger's snippet extractor and the JSON-LD meta
+                 description both read (see the gs-head-order block below) —
+                 write it as a real, complete sentence a reader could act on,
+                 not a fragment.
+*/
+.edsx .eyebrow{font-size:.8rem;font-weight:700;letter-spacing:.04em;color:var(--accent);text-transform:uppercase;margin:0 0 6px;font-family:var(--mono)}
+.edsx h1{margin:0 0 10px;font-size:1.5rem}
+.edsx .standfirst{font-size:1.05rem;color:#333!important;margin:0 0 18px}
+.edsx .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px;margin:18px 0}
+.edsx .stat{background:var(--panel);border:1px solid var(--rule);border-radius:10px;padding:12px 14px}
+.edsx .stat b{display:block;font-size:1.2rem;color:var(--accent)}
+.edsx .stat span{font-size:.8rem}
+.edsx h2{color:var(--accent);border-bottom:2px solid var(--rule);padding-bottom:6px;margin-top:30px;font-size:1.15rem}
+
+/* ---- tables: units live in the header, cells carry bare numbers.
+       .tw is the mobile-overflow fix — see the MOBILE comment above. ---- */
+.edsx .tw{overflow-x:auto}
+.edsx table{width:100%;border-collapse:collapse;margin:14px 0;font-size:.88rem}
+.edsx th,.edsx td{border:1px solid var(--rule);padding:7px 9px;text-align:right;word-wrap:break-word;overflow-wrap:break-word}
+.edsx th:first-child,.edsx td:first-child{text-align:left}
+.edsx th{background:var(--accent);color:#fff!important;font-weight:600}
+.edsx tr:nth-child(even){background:var(--panel)}
+
+.edsx .note{background:#eef4ff;border-left:4px solid #2a78d6;padding:12px 16px;margin:18px 0;border-radius:0 8px 8px 0;font-size:.93rem}
+.edsx .warn{background:var(--bad-soft);border-left:4px solid var(--bad);padding:12px 16px;margin:18px 0;border-radius:0 8px 8px 0;font-size:.93rem}
+/* ---- .good (added 2026-09-17): third semantic tier alongside .note (neutral
+       framing) and .warn (a caveat/scope limit) — for the case a caveat block
+       would otherwise get stretched to cover: confirming a figure checked out,
+       a correction that resolved cleanly, a claim that survived cross-check.
+       Same shape as .note/.warn on purpose, so all three read as one family. */
+.edsx .good{background:var(--good-soft);border-left:4px solid var(--good);padding:12px 16px;margin:18px 0;border-radius:0 8px 8px 0;font-size:.93rem}
+/* ---- .chip (added 2026-09-17): formalises a labelling pattern several posts
+       already built ad hoc in JS (e.g. "PLI coverage: strong/partial/gap")
+       into one reusable inline component, so a new post doesn't reinvent it.
+       Use inline: <span class="chip chip-good">Strong</span>. ---- */
+.edsx .chip{display:inline-block;font-family:var(--mono);font-size:.72rem;font-weight:700;letter-spacing:.02em;padding:.15rem .5rem;border-radius:99px;line-height:1.5}
+.edsx .chip-good{background:var(--good-soft);color:var(--good)}
+.edsx .chip-warn{background:var(--panel);color:var(--accent)}
+.edsx .chip-bad{background:var(--bad-soft);color:var(--bad)}
+.edsx .src{font-size:.84rem;font-family:var(--mono);border-top:1px solid var(--rule);padding-top:12px;margin-top:24px}
+.edsx .disclaimer{font-size:.82rem;color:#555;margin-top:10px}
+.edsx .revised{font-size:.8rem;color:#555!important;margin:0 0 14px}
+.edsx .revised code{font-family:inherit;background:var(--panel);padding:1px 5px;border-radius:4px}
+</style>
+<div class="gs-head-order" style="display:flex;flex-direction:column">
+<p class="standfirst" style="order:4">India's ethanol industry was offered 1,776 crore litres against a need of about 1,050 in 2025-26, but that surplus covers only about five more points of petrol blending. E30, isobutanol in diesel and jet fuel from ethanol would together need more than twice what today's distilleries can deliver.</p>
+<div class="topnav-index-link" style="order:1;font-size:.82em;margin:6px 0 14px"><a href="https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html" style="color:#0b5394;text-decoration:none">&#8592; All Articles (Index)</a></div>
+<p class="eyebrow" style="order:2">Energy &middot; Ethanol &middot; Supply vs demand</p>
+<h1 style="order:3">India's Ethanol Surplus Buys About Five Blend Points. E30, Diesel and Jet Fuel Need Twice the Supply.</h1>
+</div>
+
+<a href="#" id="gs-skip-link" class="gs-skip-link" style="position:absolute;left:-9999px;top:auto;background:#1a1a1a;color:#fff;padding:.6rem 1rem;z-index:1000;border-radius:4px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.85rem">Skip to article content</a>
+<style>.gs-skip-link:focus{left:8px!important;top:8px!important}
+.gs-a11y-bar{display:flex;align-items:center;gap:.55rem;flex-wrap:wrap;background:#f4f5f7;border:1px solid #dfe3e8;border-radius:8px;padding:.55rem .8rem;margin:10px 0 16px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
+.gs-a11y-bar .gs-a11y-label{font-size:.68rem;font-weight:700;letter-spacing:.08em;color:#666;text-transform:uppercase;margin-right:.15rem}
+.gs-a11y-bar button{cursor:pointer;border:1px solid #c7cbd1;background:#fff;color:#1a1a1a;border-radius:5px;padding:.32rem .65rem;font-family:inherit;line-height:1}
+.gs-a11y-bar button.gs-a11y-fs{font-weight:700;min-width:2rem;text-align:center}
+.gs-a11y-bar button.gs-a11y-fs[data-size="sm"]{font-size:.8rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="md"]{font-size:1rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="lg"]{font-size:1.2rem}
+.gs-a11y-bar button.gs-a11y-fs[aria-pressed="true"]{background:#1a1a1a;color:#fff;border-color:#1a1a1a}
+.gs-a11y-bar button:hover{border-color:#8a4b08}
+.gs-a11y-bar button:focus-visible{outline:2px solid #8a4b08;outline-offset:1px}
+.gs-a11y-bar .gs-a11y-sep{width:1px;align-self:stretch;background:#dfe3e8;margin:0 .1rem}</style>
+<div class="gs-a11y-bar" role="group" aria-label="Accessibility controls">
+<span class="gs-a11y-label">Text Size</span>
+<button type="button" class="gs-a11y-fs" data-size="sm" aria-pressed="false" aria-label="Small text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="md" aria-pressed="true" aria-label="Medium text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="lg" aria-pressed="false" aria-label="Large text">A</button>
+<span class="gs-a11y-sep"></span>
+<button type="button" id="gs-a11y-listen" aria-label="Read this article aloud">&#128266; Listen</button>
+<button type="button" id="gs-a11y-stop" aria-label="Stop reading aloud">&#9632; Stop</button>
+</div>
+<script>(function(){
+var KEY='gs-a11y-fontsize', SIZES={sm:'0.92',md:'1',lg:'1.15'};
+function pb(){return document.querySelector('.post-body')||document.querySelector('.artx,.mdrx');}
+function apply(sz){
+  var el=pb(); if(!el||!SIZES[sz]) return;
+  el.style.fontSize=SIZES[sz]+'em';
+  var btns=document.querySelectorAll('.gs-a11y-fs');
+  for(var i=0;i<btns.length;i++){
+    var on=btns[i].getAttribute('data-size')===sz;
+    btns[i].setAttribute('aria-pressed', on?'true':'false');
+  }
+  try{localStorage.setItem(KEY,sz);}catch(e){}
+}
+var fsBtns=document.querySelectorAll('.gs-a11y-fs');
+for(var j=0;j<fsBtns.length;j++){
+  fsBtns[j].addEventListener('click',(function(b){return function(){apply(b.getAttribute('data-size'));};})(fsBtns[j]));
+}
+var saved; try{saved=localStorage.getItem(KEY);}catch(e){}
+apply(saved&&SIZES[saved]?saved:'md');
+
+var listenBtn=document.getElementById('gs-a11y-listen'), stopBtn=document.getElementById('gs-a11y-stop');
+if(listenBtn){
+  listenBtn.addEventListener('click', function(){
+    if(!('speechSynthesis' in window)){ alert('Text-to-speech is not supported in this browser.'); return; }
+    window.speechSynthesis.cancel();
+    var src=pb(); if(!src) return;
+    var clone=src.cloneNode(true);
+    var strip=clone.querySelectorAll('script,style,svg');
+    for(var k=0;k<strip.length;k++){ strip[k].parentNode.removeChild(strip[k]); }
+    var text=clone.textContent.replace(/\s+/g,' ').trim();
+    if(!text) return;
+    var chunks=text.match(/[\s\S]{1,180}(?:[.!?]|$)/g)||[text];
+    var idx=0;
+    function speakNext(){
+      if(idx>=chunks.length) return;
+      var u=new SpeechSynthesisUtterance(chunks[idx]);
+      u.onend=function(){ idx++; speakNext(); };
+      window.speechSynthesis.speak(u);
+    }
+    speakNext();
+  });
+}
+if(stopBtn){
+  stopBtn.addEventListener('click', function(){
+    if('speechSynthesis' in window) window.speechSynthesis.cancel();
+  });
+}
+var skip=document.getElementById('gs-skip-link');
+if(skip){
+  skip.addEventListener('click', function(ev){
+    ev.preventDefault();
+    var h=document.querySelector('.post-body h1')||document.querySelector('.artx h1,.mdrx h1,h1');
+    if(h){ h.setAttribute('tabindex','-1'); h.focus(); h.scrollIntoView(); }
+  });
+}
+})();</script>
+<style>.goog-te-menu-frame{max-width:340px!important;max-height:70vh!important;overflow:auto!important;box-shadow:0 6px 24px rgba(0,0,0,.25)!important}</style>
+<div id="google_translate_element" style="margin:8px 0 16px;"></div><script type="text/javascript">function googleTranslateElementInit(){new google.translate.TranslateElement({pageLanguage:"en",includedLanguages:"hi,bn,ta,te,mr,gu,kn,ml,pa,or,as,ur,sa,ne,sd",layout:google.translate.TranslateElement.InlineLayout.SIMPLE,autoDisplay:false},"google_translate_element");}</script><script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+<p class="revised" data-gs-revision-v1="1">Revised
+<time datetime="2026-10-04" itemprop="dateModified">4 October 2026</time>
+&middot; <code>v2.3.0</code> &middot; <a href="#changelog">what changed</a></p>
+
+<div class="stats">
+<div class="stat"><b>~2,000</b><span>Installed ethanol capacity, crore litres (PIB, Jul 2026)</span></div>
+<div class="stat"><b>1,776</b><span>Crore litres offered to OMCs for ESY 2025-26, against 1,050 required</span></div>
+<div class="stat"><b>E24</b><span>Blend that today's offers cover by 2029-30, as petrol demand grows</span></div>
+<div class="stat"><b>3,832</b><span>Crore litres needed in 2029-30 for E30, 5% isobutanol in diesel and SAF</span></div>
+</div>
+
+<p>On paper India has too much ethanol. Oil marketing companies (OMCs) received offers of 1,776 crore litres for the 2025-26 ethanol supply year and allocated 1,048. About 576 crore litres of offered capacity has no buyer, even counting a proposed Q4 top-up. That surplus is real, but it is small next to what comes next. Petrol demand is growing about 6% a year, the government has said it is moving towards 30% blending, diesel blending with isobutanol is in trials, and jet fuel from ethanol has notified targets. This piece sets out current availability from PIB and ChiniMandi, then forecasts demand with the method NITI Aayog used for its 2021 E20 roadmap.</p>
+
+<div class="warn" style="border-left:4px solid #a5402c;background:rgba(165,64,44,.07);padding:.8em 1em;margin:1.2em 0;border-radius:4px"><b>Updated 18 October 2026.</b> The extra 149 crore litres for the fourth quarter was no longer only a proposal when this piece was published. Press and legal reports (<a href="https://www.business-standard.com/industry/news/supreme-court-allows-omcs-additional-ethanol-procurement-esy-2025-26-126080500241_1.html">Business Standard</a>, <a href="https://www.livelawbiz.com/top-stories/oil-marketing-companies-propose-additional-149-crore-litres-ethanol-allocation-for-fourth-quarter-before-supreme-court-546047">LiveLaw</a>) say the Supreme Court, on 4 August 2026, allowed the oil companies to award it to fourth-quarter bidders as an interim arrangement: about 55.5 crore litres to 80 dedicated ethanol plants and about 93.3 crore litres to 122 other bidders. The &ldquo;status quo&rdquo; order mentioned below relates to a separate Karnataka High Court dispute over allocations (<a href="https://www.barandbench.com/news/litigation/supreme-court-orders-status-quo-on-karnataka-hc-direction-to-revisit-ethanol-allocation-after-bpcl-says-it-will-affect-e20-fuel-programme">Bar and Bench</a>). Whether the dedicated plants that won are the same plants commissioned under the second expression of interest was not confirmed. The tender table&rsquo;s ~1,197 crore litre total already includes the 149 crore litres, so the surplus arithmetic is unchanged. <i>The original text below is unchanged.</i></div>
+<h2>What the 2025-26 tender shows</h2>
+<div class="tw">
+<table>
+<tr><th>Stage</th><th>Ethanol (crore litres)</th><th style="text-align:left">Note</th></tr>
+<tr><td>Offered</td><td>1,776</td><td style="text-align:left">1,305 grain-based, 472 sugar-based</td></tr><tr><td>Required (C1 tender)</td><td>1,050</td><td style="text-align:left">Tender of 23 Sep 2025</td></tr><tr><td>Allocated</td><td>1,048</td><td style="text-align:left">378 bidders</td></tr><tr><td>With proposed Q4 top-up</td><td>~1,197</td><td style="text-align:left">OMCs proposed 149 more for Q4</td></tr>
+</table>
+</div>
+<p>No fresh tender has been floated since C1, so dedicated plants commissioned under the second Expression of Interest (EOI-2) after September 2025 have no orders. They have asked the Supreme Court to include them in the extra 149 crore litres; the Court has ordered status quo on allocations.</p>
+
+<h2>Grain carries the supply, at the highest price</h2>
+<div class="tw">
+<table>
+<tr><th>Feedstock</th><th>Allocated (crore litres)</th><th>Share (%)</th><th>Ex-mill price (&#8377;/litre)</th><th>Supplied vs Q1&#8211;Q3 contract (%)</th></tr>
+<tr><td>Maize</td><td>478.9</td><td>45.7</td><td>71.86</td><td>86</td></tr><tr><td>FCI surplus rice</td><td>233.3</td><td>22.3</td><td>60.32</td><td>76</td></tr><tr><td>Damaged food grain</td><td>47.6</td><td>4.5</td><td>64.00</td><td>85</td></tr><tr><td>Sugarcane juice / syrup</td><td>165.9</td><td>15.8</td><td>65.61</td><td>89</td></tr><tr><td>B-heavy molasses</td><td>110.5</td><td>10.5</td><td>60.73</td><td>85</td></tr><tr><td>C-heavy molasses</td><td>12.2</td><td>1.2</td><td>57.97</td><td>75</td></tr><tr><td><b>Total / weighted</b></td><td><b>1,048</b></td><td><b>100</b></td><td><b>66.61</b></td><td><b>83</b></td></tr>
+</table>
+</div>
+<p>Grain-based feedstock is 72% of allocations. Sugar routes got 289 crore litres, which diverts about 34 lakh tonnes of sugar. By 30 June 2026 OMCs had received 718 crore litres, 83% of the volume contracted for the first three quarters. Including GST and freight, the landed cost to OMCs is about &#8377;71.2 a litre.</p>
+
+<h2>Cooperative sugar mills: the new incentives</h2>
+<div class="tw">
+<table>
+<tr><th>Measure</th><th style="text-align:left">What it gives</th><th style="text-align:left">Status</th></tr>
+<tr><td>Tender priority</td><td style="text-align:left">Cooperative mills moved to first priority in the 2025-26 C1 tender; dedicated grain plants with long-term offtake agreements moved to second</td><td style="text-align:left">OMC tender, Sep 2025</td></tr><tr><td>Multi-feed conversion</td><td style="text-align:left">Interest subvention of 6% a year or 50% of the bank rate, whichever is lower, for five years including a one-year moratorium, to add maize and damaged-grain lines</td><td style="text-align:left">DFPD, notified 7 Mar 2025</td></tr><tr><td>NCDC finance</td><td style="text-align:left">&#8377;1,000 crore Central grant to NCDC; NCDC has released &#8377;10,005 crore to 56 cooperative mills for ethanol, cogeneration and working capital</td><td style="text-align:left">Rajya Sabha reply, Dec 2025</td></tr><tr><td>Shared plants</td><td style="text-align:left">Two &#8377;1,500 crore cooperative projects in Kolhapur: a common ethanol, CBG and citric-acid facility for mills that cannot build alone, and a machinery initiative</td><td style="text-align:left">Announced 20 Jun 2026</td></tr><tr><td>Higher ethanol quota</td><td style="text-align:left">A larger ethanol quota for sugar mills, discussed with the Cooperation Minister</td><td style="text-align:left">Reported 28 May 2026; not notified</td></tr>
+</table>
+</div>
+<p>Cane is crushed for only four to five months a year, so a mill's distillery sits idle most of the year. Conversion lets it run in the off-season on grain. That raises how many days existing capacity works, but it does not add feedstock, and the extra litres come from maize, the most expensive feedstock. The priority shift also cost dedicated grain plants: Mongabay India reported that Bihar's procurement quota was cut by about half, and some plants shut temporarily in December 2025.</p>
+
+<h2>2026-27 depends on sugar</h2>
+<p>ChiniMandi reports that sugar output next season may fall below 300 lakh tonnes against consumption of about 290 lakh tonnes. Ex-mill sugar is around &#8377;42&#8211;46 a kilo, at or above many mills' cost, so diverting cane juice and B-heavy molasses to ethanol pays less. The government has made domestic sugar supply its priority, with stock limits and up to 10 lakh tonnes of duty-free raw imports. Grain offers alone (1,305 crore litres) still exceed the full E20 need, so the more likely result is costlier ethanol, not a shortage.</p>
+
+<h2>How the forecast works</h2>
+<p>NITI Aayog's 2021 roadmap estimated ethanol demand as petrol sales (million tonnes) &#215; 141.1 crore litres per million tonnes &#215; blend share, under three electric-vehicle scenarios. The forecast here keeps that method and adds four things:</p>
+<ul>
+<li>Higher blends carry less energy per litre, so the same distance needs slightly more fuel: about 1.9% more volume at E30 and 3.9% at E40.</li>
+<li>Isobutanol at up to 10% of diesel.</li>
+<li>Jet fuel from ethanol (alcohol-to-jet, ATJ) at the notified 1%, 2% and 5% of international aviation fuel.</li>
+<li>A supply check at 85% of installed capacity.</li>
+</ul>
+<div class="tw">
+<table>
+<tr><th>2025-26</th><th>NITI projection (2021)</th><th>Actual</th><th>Difference (%)</th></tr>
+<tr><td>Petrol (million tonnes)</td><td>36.0</td><td>42.6</td><td>+18</td></tr><tr><td>Fuel ethanol at E20 (crore litres)</td><td>1,016</td><td>~1,202</td><td>+18</td></tr><tr><td>Capacity (crore litres)</td><td>1,500</td><td>1,970</td><td>+31</td></tr>
+</table>
+</div>
+<p>NITI's petrol growth assumption of 3&#8211;4% a year proved too low. The forecast therefore grows underlying petrol demand at 6.5% a year to 2030 (FY26 actual: +6.45%) and subtracts electric vehicles separately: 6% of petrol energy by 2029-30, 15% by 2034-35 and 28% by 2039-40 in the central case.</p>
+
+<h2>Where the gap opens</h2>
+<figure style="margin:16px 0"><svg viewBox="0 0 760 370" width="100%" role="img" aria-label="Stacked bars of India ethanol demand by end use, 2025-26 to 2039-40, against a flat deliverable supply line of 1,674 crore litres" style="max-width:100%;height:auto;background:#fff"><line x1="56" y1="330.0" x2="752" y2="330.0" stroke="#e8dcc4" stroke-width="1"/><text x="50" y="334.0" font-size="11" text-anchor="end" fill="#555">0</text><line x1="56" y1="257.5" x2="752" y2="257.5" stroke="#e8dcc4" stroke-width="1"/><text x="50" y="261.5" font-size="11" text-anchor="end" fill="#555">2,000</text><line x1="56" y1="185.0" x2="752" y2="185.0" stroke="#e8dcc4" stroke-width="1"/><text x="50" y="189.0" font-size="11" text-anchor="end" fill="#555">4,000</text><line x1="56" y1="112.5" x2="752" y2="112.5" stroke="#e8dcc4" stroke-width="1"/><text x="50" y="116.5" font-size="11" text-anchor="end" fill="#555">6,000</text><line x1="56" y1="40.0" x2="752" y2="40.0" stroke="#e8dcc4" stroke-width="1"/><text x="50" y="44.0" font-size="11" text-anchor="end" fill="#555">8,000</text><rect x="64.0" y="315.5" width="30" height="14.5" fill="#9aa5a9"/><rect x="64.0" y="271.9" width="30" height="43.6" fill="#2b5f9e"/><text x="79.0" y="346" font-size="10" text-anchor="middle" fill="#555">25-26</text><rect x="109.9" y="314.9" width="30" height="15.1" fill="#9aa5a9"/><rect x="109.9" y="269.2" width="30" height="45.7" fill="#2b5f9e"/><text x="124.9" y="346" font-size="10" text-anchor="middle" fill="#555">26-27</text><rect x="155.7" y="314.3" width="30" height="15.7" fill="#9aa5a9"/><rect x="155.7" y="261.4" width="30" height="52.9" fill="#2b5f9e"/><rect x="155.7" y="260.9" width="30" height="0.5" fill="#6b4fa0"/><text x="170.7" y="346" font-size="10" text-anchor="middle" fill="#555">27-28</text><rect x="201.6" y="313.8" width="30" height="16.2" fill="#9aa5a9"/><rect x="201.6" y="250.4" width="30" height="63.4" fill="#2b5f9e"/><rect x="201.6" y="235.1" width="30" height="15.3" fill="#e0a030"/><rect x="201.6" y="234.1" width="30" height="1.0" fill="#6b4fa0"/><text x="216.6" y="346" font-size="10" text-anchor="middle" fill="#555">28-29</text><rect x="247.5" y="313.1" width="30" height="16.9" fill="#9aa5a9"/><rect x="247.5" y="232.6" width="30" height="80.5" fill="#2b5f9e"/><rect x="247.5" y="192.9" width="30" height="39.7" fill="#e0a030"/><rect x="247.5" y="191.1" width="30" height="1.8" fill="#6b4fa0"/><text x="262.5" y="346" font-size="10" text-anchor="middle" fill="#555">29-30</text><rect x="293.3" y="312.5" width="30" height="17.5" fill="#9aa5a9"/><rect x="293.3" y="223.3" width="30" height="89.2" fill="#2b5f9e"/><rect x="293.3" y="161.8" width="30" height="61.4" fill="#e0a030"/><rect x="293.3" y="159.0" width="30" height="2.8" fill="#6b4fa0"/><text x="308.3" y="346" font-size="10" text-anchor="middle" fill="#555">30-31</text><rect x="339.2" y="311.8" width="30" height="18.2" fill="#9aa5a9"/><rect x="339.2" y="213.4" width="30" height="98.4" fill="#2b5f9e"/><rect x="339.2" y="128.8" width="30" height="84.5" fill="#e0a030"/><rect x="339.2" y="125.3" width="30" height="3.6" fill="#6b4fa0"/><text x="354.2" y="346" font-size="10" text-anchor="middle" fill="#555">31-32</text><rect x="385.1" y="311.1" width="30" height="18.9" fill="#9aa5a9"/><rect x="385.1" y="202.9" width="30" height="108.2" fill="#2b5f9e"/><rect x="385.1" y="116.2" width="30" height="86.6" fill="#e0a030"/><rect x="385.1" y="111.8" width="30" height="4.4" fill="#6b4fa0"/><text x="400.1" y="346" font-size="10" text-anchor="middle" fill="#555">32-33</text><rect x="430.9" y="310.4" width="30" height="19.6" fill="#9aa5a9"/><rect x="430.9" y="191.9" width="30" height="118.5" fill="#2b5f9e"/><rect x="430.9" y="103.0" width="30" height="88.8" fill="#e0a030"/><rect x="430.9" y="97.7" width="30" height="5.3" fill="#6b4fa0"/><text x="445.9" y="346" font-size="10" text-anchor="middle" fill="#555">33-34</text><rect x="476.8" y="309.6" width="30" height="20.4" fill="#9aa5a9"/><rect x="476.8" y="180.1" width="30" height="129.4" fill="#2b5f9e"/><rect x="476.8" y="89.1" width="30" height="91.0" fill="#e0a030"/><rect x="476.8" y="82.8" width="30" height="6.3" fill="#6b4fa0"/><text x="491.8" y="346" font-size="10" text-anchor="middle" fill="#555">34-35</text><rect x="522.7" y="308.7" width="30" height="21.3" fill="#9aa5a9"/><rect x="522.7" y="177.6" width="30" height="131.1" fill="#2b5f9e"/><rect x="522.7" y="84.8" width="30" height="92.8" fill="#e0a030"/><rect x="522.7" y="77.4" width="30" height="7.4" fill="#6b4fa0"/><text x="537.7" y="346" font-size="10" text-anchor="middle" fill="#555">35-36</text><rect x="568.5" y="307.9" width="30" height="22.1" fill="#9aa5a9"/><rect x="568.5" y="175.2" width="30" height="132.7" fill="#2b5f9e"/><rect x="568.5" y="80.5" width="30" height="94.7" fill="#e0a030"/><rect x="568.5" y="71.2" width="30" height="9.3" fill="#6b4fa0"/><text x="583.5" y="346" font-size="10" text-anchor="middle" fill="#555">36-37</text><rect x="614.4" y="307.0" width="30" height="23.0" fill="#9aa5a9"/><rect x="614.4" y="172.9" width="30" height="134.1" fill="#2b5f9e"/><rect x="614.4" y="76.3" width="30" height="96.6" fill="#e0a030"/><rect x="614.4" y="64.9" width="30" height="11.4" fill="#6b4fa0"/><text x="629.4" y="346" font-size="10" text-anchor="middle" fill="#555">37-38</text><rect x="660.3" y="306.0" width="30" height="24.0" fill="#9aa5a9"/><rect x="660.3" y="170.6" width="30" height="135.4" fill="#2b5f9e"/><rect x="660.3" y="72.1" width="30" height="98.5" fill="#e0a030"/><rect x="660.3" y="58.4" width="30" height="13.7" fill="#6b4fa0"/><text x="675.3" y="346" font-size="10" text-anchor="middle" fill="#555">38-39</text><rect x="706.1" y="305.1" width="30" height="24.9" fill="#9aa5a9"/><rect x="706.1" y="168.5" width="30" height="136.6" fill="#2b5f9e"/><rect x="706.1" y="68.0" width="30" height="100.5" fill="#e0a030"/><rect x="706.1" y="51.8" width="30" height="16.2" fill="#6b4fa0"/><text x="721.1" y="346" font-size="10" text-anchor="middle" fill="#555">39-40</text><line x1="56" y1="269.3" x2="752" y2="269.3" stroke="#a5402c" stroke-width="2.5" stroke-dasharray="7 5"/><rect x="56" y="12" width="12" height="12" fill="#2b5f9e"/><text x="73" y="22" font-size="12" fill="#333">Petrol</text><rect x="125.6" y="12" width="12" height="12" fill="#e0a030"/><text x="142.6" y="22" font-size="12" fill="#333">Isobutanol</text><rect x="221.6" y="12" width="12" height="12" fill="#6b4fa0"/><text x="238.6" y="22" font-size="12" fill="#333">ATJ-SAF</text><rect x="297.79999999999995" y="12" width="12" height="12" fill="#9aa5a9"/><text x="314.79999999999995" y="22" font-size="12" fill="#333">Potable + industrial</text><line x1="459.79999999999995" y1="18" x2="485.79999999999995" y2="18" stroke="#a5402c" stroke-width="2.5" stroke-dasharray="7 5"/><text x="491.79999999999995" y="22" font-size="12" font-weight="700" fill="#a5402c">Deliverable supply 1,674 (1,970 &#215; 85%)</text><text x="14" y="185.0" font-size="11" fill="#555" transform="rotate(-90 14 185.0)" text-anchor="middle">crore litres</text></svg><figcaption style="font-size:.84rem;color:#555">Ethanol demand by end use against deliverable supply, crore litres. Central EV case; petrol blend rising to E30 by 2029-30 and E40 by 2034-35; isobutanol rising to 10% of diesel by 2031-32; SAF at 1%, 2% and 5% of international aviation fuel, extrapolated after 2030.</figcaption></figure>
+<div class="tw">
+<table>
+<tr><th>Demand</th><th>2025-26 (crore litres)</th><th>2029-30 (crore litres)</th><th>2034-35 (crore litres)</th><th>2039-40 (crore litres)</th></tr>
+<tr><td>Petrol blending</td><td>1,202</td><td>2,221</td><td>3,570</td><td>3,768</td></tr><tr><td>Isobutanol for diesel</td><td>0</td><td>1,095</td><td>2,511</td><td>2,772</td></tr><tr><td>Jet fuel (ATJ-SAF)</td><td>0</td><td>51</td><td>175</td><td>446</td></tr><tr><td>Potable + industrial</td><td>400</td><td>465</td><td>564</td><td>687</td></tr><tr><td><b>Total</b></td><td><b>1,602</b></td><td><b>3,832</b></td><td><b>6,819</b></td><td><b>7,673</b></td></tr>
+</table>
+</div>
+<p>Demand passes deliverable supply (1,674 crore litres) in 2026-27 and reaches 4.6 times it by 2039-40. Petrol alone tells the story of the current surplus: on the 2029-30 petrol pool, today's 1,776 crore litres of offers cover only about E24.</p>
+<div class="tw">
+<table>
+<tr><th>Blend</th><th>Ethanol for petrol, 2025-26 (crore litres)</th><th>Ethanol for petrol, 2029-30 (crore litres)</th></tr>
+<tr><td>E20</td><td>1,202</td><td>1,453</td></tr><tr><td>E25</td><td>1,516</td><td>1,833</td></tr><tr><td>E27</td><td>1,644</td><td>1,987</td></tr><tr><td>E30</td><td>1,837</td><td>2,221</td></tr><tr><td>E35</td><td>2,164</td><td>2,616</td></tr><tr><td>E40</td><td>2,498</td><td>3,020</td></tr>
+</table>
+</div>
+
+<h2>On a global scale: the US and Brazil</h2>
+<p>To see how large this demand is, compare it with the world's two largest producers. The US made a record 16.49 billion gallons in 2025 and had 18.44 billion gallons a year of nameplate capacity in February 2026. Brazil made 33.72 billion litres in the 2025-26 season, 27% of it from corn.</p>
+<div class="tw">
+<table>
+<tr><th>Producer or demand</th><th>Volume (crore litres)</th><th>Volume (billion litres)</th></tr>
+<tr><td>USA, nameplate capacity (Feb 2026)</td><td>6,979</td><td>69.8</td></tr>
+<tr><td>USA, production 2025 (record)</td><td>6,242</td><td>62.4</td></tr>
+<tr><td>Brazil, production 2025-26 season</td><td>3,372</td><td>33.7</td></tr>
+<tr><td>India, installed capacity 2026</td><td>~2,000</td><td>~20.0</td></tr>
+<tr><td>India, total demand 2025-26</td><td>1,602</td><td>16.0</td></tr>
+<tr><td>India, demand 2029-30 (central case)</td><td>3,832</td><td>38.3</td></tr>
+<tr><td>India, demand 2034-35 (central case)</td><td>6,819</td><td>68.2</td></tr>
+<tr><td>India, demand 2039-40 (central case)</td><td>7,673</td><td>76.7</td></tr>
+</table>
+</div>
+<p>In the central case, India's demand passes Brazil's entire output by 2029-30. By 2034-35 it roughly equals everything the US produces, and by 2039-40 it exceeds total US capacity. Both countries built that scale over decades on large, dedicated corn and cane surpluses, which is the feedstock question in the next sections. Brazil's turn to corn, now over a quarter of its output, is the same shift India has made with maize.</p>
+
+<h2>E100 is now legal: demand the forecast does not yet count</h2>
+<p>The forecast above treats petrol blending as a pool average. A second route now exists alongside it. On 27 April 2026 the Ministry of Road Transport and Highways published draft amendments to the Central Motor Vehicles Rules (G.S.R. 313(E)). They add E85, E100 and B100 as fuel categories and give E100 vehicles their own compliance annexure. On 13 June 2026 Nitin Gadkari said he had signed the final rules giving 100% ethanol legal standing as a motor fuel. On 1 October he said the next focus is flex-fuel engines that can run entirely on ethanol. Maruti Suzuki's WagonR flex-fuel and several Hero MotoCorp motorcycles have been shown, and more launches are expected.</p>
+<div class="tw">
+<table>
+<tr><th>Each 1% of petrol energy moved to E100</th><th>2029-30 (crore litres)</th><th>2034-35 (crore litres)</th></tr>
+<tr><td>Ethanol needed as E100</td><td>102</td><td>121</td></tr><tr><td>Less ethanol already in that share at E20</td><td>15</td><td>17</td></tr><tr><td>Net additional ethanol</td><td>88</td><td>104</td></tr>
+</table>
+</div>
+<p>E100 carries about 30% less energy per litre than E20, so moving 1% of petrol energy to flex-fuel vehicles on E100 adds about 90&#8211;100 crore litres a year on top of the blending path. A flex-fuel fleet doing 5% of petrol kilometres by 2034-35 would add about 500 crore litres, more than all of India's potable and industrial alcohol use today. E100 removes the vehicle-compatibility limit that caps pool blending. It does nothing for the feedstock limit set out below, and it makes that limit bind sooner.</p>
+
+<h2>Diesel is the swing demand; jet fuel is small</h2>
+<p>Diesel use is about 2.2 times petrol, so even a 5% isobutanol blend is as large as the step from E20 to E30. At 10% in 2034-35, India would need about 11.9 million tonnes of isobutanol. How much ethanol that takes depends on the production route:</p>
+<div class="tw">
+<table>
+<tr><th>Isobutanol route</th><th>Ethanol, 2034-35 (crore litres)</th><th style="text-align:left">Note</th></tr>
+<tr><td>Ethanol + methanol (Guerbet)</td><td>1,180</td><td style="text-align:left">Also needs about 12.9 million tonnes of methanol a year</td></tr><tr><td>Fermentation (ethanol-equivalent feedstock)</td><td>1,981</td><td style="text-align:left">Same sugar or grain, fermented to isobutanol directly</td></tr><tr><td>Ethanol-only upgrading</td><td>2,511</td><td style="text-align:left">Pre-commercial; mostly yields n-butanol</td></tr>
+</table>
+</div>
+<p>The commercial path now points to the fermentation route. On 16 September 2026 Praj Industries and Gevo signed a Development &amp; Commercialization Agreement for bio-isobutanol in India. Praj gets exclusive rights to deploy Gevo's technology in India, with diesel blending as the main application. Praj is also building India's first commercial bio-isobutanol demonstration plant for an oil marketing company, on Gevo's licensed technology. Gevo ferments sugar or starch directly to isobutanol rather than upgrading ethanol, so the 1,981 crore-litre fermentation row is the closest guide to the feedstock this would draw on. It is grain and cane that would otherwise make ethanol.</p>
+<p>Jet fuel from ethanol takes about 2.4 kg of ethanol per kg of fuel. Even so, the notified 5% of international aviation fuel by 2030 needs only about 77 crore litres. The limits for SAF are plant capital and price, not ethanol supply.</p>
+
+<h2>Scenarios: blend policy matters more than EVs</h2>
+<div class="tw">
+<table>
+<tr><th>Total demand 2034-35</th><th>E20 hold (crore litres)</th><th>E30 by 2029-30 (crore litres)</th><th>E40 by 2034-35 (crore litres)</th></tr>
+<tr><td>Low EV uptake</td><td>5,149</td><td>6,152</td><td>7,197</td></tr><tr><td>Central EV uptake</td><td>4,967</td><td>5,874</td><td>6,819</td></tr><tr><td>High EV uptake</td><td>4,664</td><td>5,411</td><td>6,189</td></tr>
+</table>
+</div>
+<p>Moving from E20 to E40 changes 2034-35 demand by about 2,000 crore litres; moving from low to high EV uptake changes it by about 1,000. All nine cases include the diesel and aviation legs, which is why even the lowest one is 2.8 times deliverable supply.</p>
+
+<h2>Feedstock is the ceiling: rice, maize and sugarcane</h2>
+<p>To turn litres into crops, the calculation holds the 2025-26 allocation mix constant: maize 45.7%, FCI rice 22.3%, damaged grain 4.5%, sugarcane juice 15.8%, B-heavy molasses 10.5% and C-heavy molasses 1.2%. It then applies NITI's yields per tonne (maize 380 litres, FCI rice 450, damaged grain 400, and 70 litres per tonne of cane crushed for juice) to the fuel-ethanol demand in the central case. Sugar diversion uses this year's observed ratio, 289 crore litres for 34 lakh tonnes of sugar, which is about 850 litres per tonne. Production baselines are the Agriculture Ministry's third advance estimates for 2025-26.</p>
+<div class="tw">
+<table>
+<tr><th>Feedstock need at today's mix</th><th>2025-26</th><th>2029-30</th><th>2034-35</th><th>2039-40</th><th>2025-26 output (million tonnes)</th></tr>
+<tr><td>Fuel ethanol (crore litres)</td><td>1,202</td><td>3,367</td><td>6,255</td><td>6,986</td><td>&#8212;</td></tr><tr><td>Maize (million tonnes)</td><td>14.4</td><td>40.5</td><td>75.2</td><td>84.0</td><td>55.1</td></tr><tr><td>&#8230; share of maize crop (%)</td><td>26</td><td>73</td><td>136</td><td>152</td><td></td></tr><tr><td>Rice, FCI and broken (million tonnes)</td><td>7.3</td><td>20.5</td><td>38.0</td><td>42.5</td><td>154.0</td></tr><tr><td>&#8230; share of rice crop (%)</td><td>5</td><td>13</td><td>25</td><td>28</td><td></td></tr><tr><td>Sugarcane crushed for juice (million tonnes)</td><td>27</td><td>76</td><td>141</td><td>158</td><td>500.1</td></tr><tr><td>&#8230; share of cane crop (%)</td><td>5</td><td>15</td><td>28</td><td>32</td><td></td></tr><tr><td>Sugar diverted, all cane routes (million tonnes)</td><td>3.9</td><td>10.9</td><td>20.3</td><td>22.6</td><td>under 30 (sugar)</td></tr>
+</table>
+</div>
+<p>Maize breaks first. At today's mix, it would take almost three-quarters of the 2025-26 maize crop by 2029-30, and more than the whole crop by 2034-35. Maize also feeds the poultry and starch industries, and it is already the dearest ethanol litre. Sugar is the next limit: 20 million tonnes of diversion in 2034-35 is about two-thirds of national sugar output, with consumption near 29 million tonnes. Rice has the most headroom on paper, but FCI's surplus depends on procurement policy, not on harvest size. The mix therefore cannot stay as it is. Each step beyond E27 needs either a new crop or higher yields.</p>
+
+<h2>A fourth crop: BPCL's sorghum research</h2>
+<p>One candidate is sweet sorghum. In February 2025, at India Energy Week, BPCL signed an MoU with the National Sugar Institute, Kanpur, and committed &#8377;5 crore of R&amp;D. The work covers sorghum yields and farming practice, juice extraction and fermentation, and the use of leftover biomass for compressed biogas, through field trials and commercial-viability studies. Sweet sorghum grows faster than cane, and its stalk juice can be fermented in the same equipment as cane juice. That would let a cane distillery run in the months it now sits idle. Coverage of the MoU put yields at 4,000&#8211;5,000 litres of ethanol a hectare, but that is a temperate-climate or whole-plant figure (juice plus bagasse converted as second-generation ethanol). Indian trials of the juice route come in much lower. ICRISAT's multi-location trials computed 925&#8211;1,440 litres a hectare. Released cultivars give about 1,200&#8211;1,300, with experimental hybrids up to about 3,300. The ICRISAT and Vasantdada Sugar Institute pilot put the crop at about 2,800 litres a hectare a year over two crops (40 litres per tonne of stalk). A distillery trial in Andhra Pradesh recovered only about 16 litres per tonne of stalk. On the Indian evidence, one million hectares would add about 100&#8211;150 crore litres per crop, or about 280 crore litres a year with two crops. That is about an eighth of the 2029-30 petrol-blending need, not a fifth. Supplying the 2034-35 maize volume (about 2,860 crore litres) would take roughly 200 lakh hectares of single-crop sorghum, about the same land as maize, or about 100 lakh hectares cropped twice a year. Sweet sorghum's real advantages are timing and water, not yield. It is a four-month crop that fits the idle months of a cane distillery, and it needs about 8,000 cubic metres of water a hectare over two crops against about 36,000 for one cane crop. No BPCL&#8211;NSI trial results had been published as of October 2026.</p>
+<p>A second channel for this kind of work opened in August 2026. On 19 August the Petroleum Secretary and the heads of the public-sector oil companies launched MC&#178;+ Ignite at IIT Madras. It is an accelerator run by the MoPNG-backed MC&#178; Foundation, chaired by the Petroleum Secretary, with partner institutions including IIT Madras, IIT Kanpur, IIT Kharagpur, C-CAMP and Venture Center, Pune. It takes technology problem statements from the oil companies to start-ups, offering up to &#8377;2 crore in funding, mentoring, and visibility for PSU procurement when a product is ready. The launch material does not single out ethanol. The feedstock and conversion problems above (sorghum agronomy, second-generation ethanol, isobutanol and ATJ catalysts) are the kind of problem statements it was set up to take.</p>
+
+<h2>A crop mix that could meet the demand, with SAF on domestic flights</h2>
+<p>To test what supply mix could meet these volumes, the model fills demand from the sources that need the least new land first, each within a cap. In order: molasses, second-generation (2G) ethanol from straw and bagasse, FCI and broken rice, cane juice (about 5,950 litres a hectare at UPAg yields), sweet sorghum (2,800 litres a hectare a year over two crops), then maize from trend growth after feed and food use. Whatever is left is a gap that needs extra maize land or imports. Isobutanol here uses the fermentation route that the Praj&#8211;Gevo agreement points to. Each demand case runs with the SAF mandate on international flights only, and on all flights. Extending it to domestic flights multiplies SAF ethanol by 2.5.</p>
+<div class="tw">
+<table>
+<tr><th>Gap after all supply (crore litres)</th><th style="text-align:left">SAF scope</th><th>2029-30</th><th>2034-35</th><th>2039-40</th></tr>
+<tr><td>E20, no isobutanol</td><td style="text-align:left">International</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>E20, no isobutanol</td><td style="text-align:left">All flights</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>E30 + isobutanol, base caps</td><td style="text-align:left">All flights</td><td>1,584</td><td>2,273</td><td>1,755</td></tr>
+<tr><td>E30 + isobutanol, stretch caps</td><td style="text-align:left">International</td><td>951</td><td>495</td><td>0</td></tr>
+<tr><td>E30 + isobutanol, stretch caps</td><td style="text-align:left">All flights</td><td>1,028</td><td>758</td><td>0</td></tr>
+<tr><td>E40 + isobutanol, stretch caps</td><td style="text-align:left">All flights</td><td>1,028</td><td>1,703</td><td>538</td></tr>
+</table>
+</div>
+<p>Putting domestic flights under the mandate adds about 77 crore litres of ethanol in 2029-30, 263 in 2034-35 and 669 in 2039-40. That is roughly 5, 14 and 30 lakh hectares of maize. Even with domestic flights, E20 alone fits within supply. The binding constraint is the diesel isobutanol leg. Under stretch caps, the central case with SAF on all flights would need this mix in 2034-35:</p>
+<div class="tw">
+<table>
+<tr><th>Feedstock, 2034-35 (central case, SAF on all flights)</th><th>Ethanol (crore litres)</th><th>Share (%)</th><th>Share in 2025-26 (%)</th><th style="text-align:left">New land</th></tr>
+<tr><td>Maize from trend growth</td><td>1,291</td><td>23</td><td>46 (maize)</td><td style="text-align:left">none beyond trend</td></tr>
+<tr><td>Maize on extra land</td><td>758</td><td>14</td><td></td><td style="text-align:left">about 40 lakh ha</td></tr>
+<tr><td>Cane juice</td><td>1,071</td><td>19</td><td>16</td><td style="text-align:left">+15 lakh ha of cane</td></tr>
+<tr><td>Sweet sorghum, two crops</td><td>840</td><td>15</td><td>0</td><td style="text-align:left">30 lakh ha, rainfed</td></tr>
+<tr><td>2G from straw and bagasse</td><td>800</td><td>14</td><td>~0</td><td style="text-align:left">none; ~32 Mt of residue</td></tr>
+<tr><td>FCI and broken rice</td><td>700</td><td>12</td><td>27</td><td style="text-align:left">none; 13&#8211;15 Mt of rice</td></tr>
+<tr><td>Molasses</td><td>149</td><td>3</td><td>12</td><td style="text-align:left">none</td></tr>
+<tr><td><b>Total</b></td><td><b>5,609</b></td><td><b>100</b></td><td><b></b></td><td style="text-align:left"><b></b></td></tr>
+</table>
+</div>
+<p>In this mix, maize falls from about 46% to 37% of supply and rice from 27% to 12%, which keeps FCI stocks as a food buffer. Cane juice, sweet sorghum and 2G become about half of supply. A shortfall of about 760 crore litres remains, needing about 40 lakh hectares of extra maize or about 20 million tonnes of imported grain. The caps are assumptions, not estimates of national potential. 2G in particular depends on plants that are not yet running at scale.</p>
+
+<h2>What 2G ethanol costs today</h2>
+<p>No Indian 2G plant publishes its production cost. The table below combines disclosed capital costs and operating data with independent estimates.</p>
+<div class="tw">
+<table>
+<tr><th>Plant or source</th><th style="text-align:left">Technology</th><th>Capex per litre of annual capacity (&#8377;)</th><th style="text-align:left">Cost per litre (&#8377;)</th></tr>
+<tr><td>IOCL Panipat, 100 KLPD, rice straw (&#8377;984 crore)</td><td style="text-align:left">Praj enfinity</td><td>~300</td><td style="text-align:left">79&#8211;92 at 90% use; 101&#8211;114 at the 62% reached in Dec 2025 (author's build-up)</td></tr>
+<tr><td>NRL Numaligarh, 185 KLPD, bamboo (~&#8377;4,930 crore)</td><td style="text-align:left">Chempolis</td><td>~810</td><td style="text-align:left">~95 from capital alone, before furfural and acetic-acid credits</td></tr>
+<tr><td>ICCT techno-economic analysis for India (2021)</td><td style="text-align:left">Crop residues</td><td>&#8212;</td><td style="text-align:left">80&#8211;95; 70&#8211;80 with viability-gap funding</td></tr>
+<tr><td>Oil-marketing-company executive (Oct 2024)</td><td style="text-align:left">Early operations</td><td>&#8212;</td><td style="text-align:left">~160</td></tr>
+<tr><td>Raízen Bonfim, Brazil, 82 million litres a year</td><td style="text-align:left">Cane bagasse</td><td>~230</td><td style="text-align:left">not disclosed</td></tr>
+<tr><td>Clariant sunliquid, Romania</td><td style="text-align:left">sunliquid</td><td>&#8212;</td><td style="text-align:left">closed Dec 2023 after failing to reach nameplate</td></tr>
+<tr><td>1G ethanol, ESY 2025-26</td><td style="text-align:left">&#8212;</td><td>~40 (grain)</td><td style="text-align:left">66.61 weighted ex-mill; maize 71.86</td></tr>
+</table>
+</div>
+<p>The Panipat build-up recovers capital at 10% over 20 years. Straw costs &#8377;1,900 a tonne at the gate, which is what IOCL pays straw-baling contractors, and yields about 150 litres a tonne. Enzymes add &#8377;7&#8211;15 a litre, other running costs &#8377;10&#8211;15, and maintenance 3% of capex a year. That lands on ICCT's independent &#8377;80&#8211;95. Two things follow:</p>
+<ul>
+<li><b>Running rate matters more than straw price.</b> Falling from 90% to 62% use adds about &#8377;20 a litre, against about &#8377;7 for straw at &#8377;3,000 a tonne.</li>
+<li><b>2G needs a subsidy.</b> At a &#8377;15&#8211;30 premium over 1G, the 800 crore litres of 2G in the stretch mix would cost &#8377;12,000&#8211;24,000 crore a year.</li>
+</ul>
+<p>Chempolis's bamboo plant carries more than twice Panipat's capex per litre, so it works only as a multi-product biorefinery. Clariant's closure in Romania is the cautionary case: the plant failed on running rate, not chemistry.</p>
+
+<h2>Fertiliser and natural gas: what the extra crops would need</h2>
+<p>The extra cane, maize and sorghum need fertiliser, and India makes its urea from natural gas. This estimate covers only the land added beyond 2025-26 ethanol crops (maize 33 lakh hectares, cane juice 2.8 lakh hectares). It uses ICAR's recommended doses: maize 120:60:40, sugarcane 250:90:120, and sweet sorghum 80:40:40 per crop over two crops a year, in kilograms of N, P<sub>2</sub>O<sub>5</sub> and K<sub>2</sub>O per hectare. Phosphate comes as DAP, the rest of the nitrogen as urea, and potash as MOP. Urea made in India takes 22.8&#8211;30 MMBtu of gas a tonne. The low end is the NIPU-2026 plant basis; the high end is the industry all-in figure.</p>
+<div class="tw">
+<table>
+<tr><th>Scenario, 2034-35</th><th>Extra crop land (lakh ha)</th><th>Urea (Mt)</th><th>DAP (Mt)</th><th>MOP (Mt)</th><th>Gas for that urea if made in India (mmscmd)</th></tr>
+<tr><td>E20, SAF on all flights</td><td>26</td><td>0.9</td><td>0.5</td><td>0.4</td><td>1.5&#8211;2.0</td></tr>
+<tr><td>E30 + isobutanol, SAF on all flights (central)</td><td>120</td><td>3.1</td><td>1.8</td><td>1.2</td><td>5.4&#8211;7.1</td></tr>
+<tr><td>E40 + isobutanol, SAF on all flights</td><td>169</td><td>4.2</td><td>2.4</td><td>1.5</td><td>7.2&#8211;9.5</td></tr>
+</table>
+</div>
+<p>In the central case, the crop expansion adds about 3.1 million tonnes of urea a year by 2034-35. Replacing the nutrients removed with rice straw for 2G adds about 0.4 million tonnes more, for a total of 8&#8211;9% of today's roughly 40 million tonnes. That is about two and a half new 1.27 million-tonne urea plants, or more imports on top of the 10 million tonnes India already buys. Making that urea at home would need 5.4&#8211;7.1 mmscmd of gas, almost all of it imported LNG. That is 9&#8211;12% more than the fertiliser sector's 58 mmscmd (PNGRB, 2023-24). Phosphate and potash are an import bill rather than a gas bill: about 1.8 million tonnes more DAP and 1.2 million tonnes more MOP, all of the MOP imported. Straw removal nearly doubles the potash need.</p>
+<div class="note"><b>The bigger gas lever is the isobutanol route.</b> The ethanol-plus-methanol (Guerbet) route would need about 12.9 million tonnes of methanol a year at 10% isobutanol in 2034-35. At 28&#8211;30 MMBtu a tonne, that is about 28&#8211;30 mmscmd of gas, four to five times the fertiliser increase. The fermentation route that Praj and Gevo are commercialising needs none. Distillery fuel matters too: if new distilleries burned gas rather than bagasse, rice husk or stillage biogas, they would add up to 19&#8211;25 mmscmd by 2034&#8211;40, using the US dry-mill benchmark of about 23,900 Btu a gallon. E20 alone adds only about 1 million tonnes of urea and 2 mmscmd of gas.</div>
+
+<h2>Land: how much of India's farmland ethanol would take</h2>
+<p>India's reporting area is 306.6 million hectares. In 2022-23, 180.0 million hectares (58.7%) was agricultural land: 140.7 million hectares net sown, 24.6 million fallow (13.5 current, 11.1 older), 11.7 million culturable waste and 3.0 million under tree crops. Forests covered 72.0 million hectares (23.5%). Because much land is sown more than once a year, the gross cropped area was 219.4 million hectares, a cropping intensity of 155.9%. In 2023-24 the net sown area was 139.0 million hectares and the gross sown area 217.9 million.</p>
+<div class="tw">
+<table>
+<tr><th>Share of gross cropped area (%)</th><th>2022-23</th><th>2025-26 (est.)</th><th>2034-35, central case</th><th>2039-40, central case</th></tr>
+<tr><td>Rice</td><td>21.8</td><td>23.1</td><td>21.6</td><td>21.5</td></tr>
+<tr><td>Wheat</td><td>14.3</td><td>14.7</td><td>13.7</td><td>13.7</td></tr>
+<tr><td>Maize</td><td>4.9</td><td>6.3</td><td>9.3</td><td>8.0</td></tr>
+<tr><td>Sugarcane</td><td>2.7</td><td>2.6</td><td>3.0</td><td>3.2</td></tr>
+<tr><td>Sweet sorghum (two crops)</td><td>0</td><td>0</td><td>2.5</td><td>4.1</td></tr>
+<tr><td>Pulses</td><td>13.2</td><td>12.5</td><td>11.7</td><td>11.6</td></tr>
+<tr><td>Oilseeds</td><td>13.8</td><td>13.5</td><td>12.6</td><td>12.6</td></tr>
+<tr><td>Cotton</td><td>5.9</td><td>5.0</td><td>4.7</td><td>4.7</td></tr>
+<tr><td>Fruit, vegetables, fodder, spices, plantations</td><td>17.1</td><td>16.4</td><td>15.3</td><td>15.2</td></tr>
+<tr><td><b>Ethanol feedstock crops in total</b></td><td><b>~1.6</b></td><td><b>~1.6</b></td><td><b>~7.6</b></td><td><b>~7.9</b></td></tr>
+</table>
+</div>
+<p>Ethanol crops (about 33 lakh hectares of maize and 2.8 lakh hectares of cane juice) take about 1.6% of the gross cropped area today. In the central case they reach about 7.6% by 2034-35, or about 10% with E40 and isobutanol. Holding other crops at their current hectares, that needs about 16 million hectares more gross cropped area. Total maize area rises from 144 to about 228 lakh hectares. There are three places that land could come from:</p>
+<ul>
+<li><b>Fallow land.</b> The 16 million hectares is about two-thirds of India's 24.6 million hectares of fallow land.</li>
+<li><b>Cropping intensity.</b> With net sown area flat, intensity would need to rise from about 162% today (estimated) to about 174%: more rabi maize after kharif rice, and sweet sorghum in the cane off-season. The national figure has held at 155&#8211;157% through 2021&#8211;24.</li>
+<li><b>Displacement.</b> Otherwise ethanol crops would push out pulses, oilseeds or cotton, which India already imports. That food-versus-fuel trade-off does not show up in the land totals.</li>
+</ul>
+<p>The 2025-26 gross cropped area of about 229 million hectares is an estimate. Land-use statistics lag crop estimates by about three years, so this holds the area under other crops (horticulture, fodder, plantations) at its 2022-23 level. That area was a similar 365 lakh hectares in 2023-24.</p>
+
+<div class="warn"><b>Caveats.</b> The isobutanol blend has no notified mandate; ARAI has only run trials. SAF percentages after 2030 are extrapolations. Potable (290 crore litres) and industrial (110 crore litres) demand are estimates. E30 and E40 assume vehicles rated for them and dual dispensing. Fiscal years stand in for ethanol supply years (November to October).</div>
+
+<h2>What follows</h2>
+<ul>
+<li><b>Use the surplus for E25&#8211;E27.</b> It covers about five blend points on today's petrol pool, and fewer each year after.</li>
+<li><b>Build before E30.</b> E30 with 5% isobutanol in diesel needs about 4,500 crore litres of capacity by 2029-30, against about 2,000 installed.</li>
+<li><b>Start isobutanol on the route that uses the least ethanol,</b> and plan for the methanol it needs.</li>
+<li><b>Count E100 separately.</b> Flex-fuel vehicles on E100 add about 90&#8211;100 crore litres for each 1% of petrol energy they take over, on top of the blending path.</li>
+<li><b>Treat E40 as conditional</b> on an E40-rated vehicle fleet and on new feedstock (second-generation ethanol, sweet sorghum, higher maize yields), not on the number of distilleries.</li>
+</ul>
+
+<div class="note"><b>Related on this site.</b> Earlier pieces covered <a href="https://masaladeutsch.blogspot.com/2026/08/india-hit-e20-on-maize-and-rice-not.html">how India reached E20 on maize and rice rather than sugarcane</a>, <a href="https://masaladeutsch.blogspot.com/2026/08/7186-litre-why-maize-is-indias-priciest.html">why maize is the priciest ethanol feedstock</a>, <a href="https://masaladeutsch.blogspot.com/2026/08/the-ethanol-sectors-buyers-market.html">overcapacity and cooperative mills in the ethanol sector</a>, and <a href="https://masaladeutsch.blogspot.com/2026/09/under-corsias-own-numbers-corn-ethanol.html">how corn ethanol scores as jet fuel under CORSIA</a>.</div>
+
+<p class="src">Sources: PIB, Ethanol Blended Petrol Programme Q&amp;A and Backgrounder (10 Jul 2026, PRID 2283118 and 2283376); PIB PRID 2109157 (7 Mar 2025), multi-feed conversion scheme for cooperative sugar mills; ChiniMandi: ESY 2025-26 C1 offers and allocation, supply to 30 Jun 2026 (24 Jul 2026), procurement cost (30 Jul 2026), EOI-2 and Q4 top-up (11 Aug 2026), ESY 2026-27 sugar economics (13 Sep 2026), NCDC releases to cooperative mills (5 Dec 2025), Kolhapur projects (20 Jun 2026); Mongabay India, Bihar ethanol plants (Feb 2026); NITI Aayog &amp; MoPNG, Roadmap for Ethanol Blending in India 2020-25 (Jun 2021), Tables 4.1, 6.3, 7.2&#8211;7.4; PPAC consumption for FY 2025-26 via FIPI Policy &amp; Economic Report (Apr 2026); Biofuels Digest on 10% isobutanol in diesel (2025); PIB PRID 2265965, third advance estimates of crop production 2025-26 (rice 154.0, maize 55.1, sugarcane 500.1 million tonnes); Indian Chemical News, BPCL&#8211;NSI Kanpur sweet sorghum MoU (15 Feb 2025), sorghum yields from Reddy et al., <i>International Sorghum and Millets Newsletter</i> 46:79&#8211;86 (ICRISAT, 2005); ICRISAT Information Bulletin 77, <i>Sweet Sorghum for Biofuel and Strategies for its Improvement</i> (2009); ICRISAT/NAIP, <i>Developing a Sweet Sorghum Ethanol Value Chain</i> (2013); with the temperate range from field trials in T&#252;rkiye, Ukraine and Korea (2015&#8211;2026), found via OpenAlex; Lok Sabha reply on IOCL Panipat 2G plant cost and utilisation via ChiniMandi (4 Apr 2026); Tribune India on Panipat straw prices; Indian Chemical News and NITI Aayog on the Numaligarh bamboo biorefinery; ICCT, <i>Techno-economic analysis of cellulosic ethanol in India using agricultural residues</i> (2021); AutocarPro (30 Oct 2024); Clariant press release (6 Dec 2023); NREL cellulosic ethanol cost fact sheet; meta-analysis of cellulosic ethanol techno-economic studies, <i>Renewable and Sustainable Energy Reviews</i> (2021). ICAR/AICRP recommended fertiliser doses for maize, sugarcane and sorghum; PNGRB fertiliser-sector gas baseline (58 mmscmd, 2023-24); urea consumption and imports for 2025-26 via Mongabay India and Global Agriculture; NIPU-2026 plant gas basis via Hindustan Herald; Mueller &amp; Kwik (2013) US dry-mill energy survey. Directorate of Economics and Statistics, <i>Land Use Statistics at a Glance 2022-23</i> and state-wise land-use pattern 2023-24; UPAg all-India crop-wise area, production and yield, 2021-22 to 2025-26. Crop mix, 2G cost build-up, fertiliser/gas and land-share projections are the author's calculations; Praj Industries press release, Praj and Gevo Development &amp; Commercialization Agreement for Bio-IBA (16 Sep 2026); IIT Madras and Indian Chemical News on the MC&#178;+ Ignite launch (19&#8211;22 Aug 2026); MoRTH draft Central Motor Vehicles (Amendment) Rules 2026, G.S.R. 313(E) (27 Apr 2026), via TeamLease RegTech and ChiniMandi (29 Apr 2026); Gadkari on signing the E100 rules, via Financial Express and The Quint (13&#8211;14 Jun 2026); ChiniMandi/PTI on E100 flex-fuel engines (1 Oct 2026). Renewable Fuels Association, US production record (Mar 2026); EIA biofuels capacity via Ethanol Producer Magazine (18.44 billion gallons a year, 2026); UNICA via Ethanol Producer Magazine, Brazil 2025-26 (33.72 billion litres, 27% corn); 1 US gallon = 3.785 litres. The final E100 gazette number was not located; the E100 litres are the author's calculation. The higher ethanol quota for sugar mills was reported after a 28 May 2026 meeting between the Maharashtra Chief Minister and the Cooperation Minister and has not been notified. The demand forecast is the author's model; its figures are scenarios, not official projections.</p>
+
+<div id="changelog" class="note">
+<b>Revision history.</b>
+<ul>
+<li><b>v2.3.0</b> &mdash; 4 October 2026 &mdash; added India's land-use summary and crop shares of gross cropped area, now and projected.</li>
+<li><b>v2.2.0</b> &mdash; 3 October 2026 &mdash; added fertiliser and natural-gas demand implied by the crop expansion.</li>
+<li><b>v2.1.0</b> &mdash; 3 October 2026 &mdash; added a crop-mix allocation with SAF on domestic flights, and current 2G ethanol cost estimates.</li>
+<li><b>v2.0.0</b> &mdash; 3 October 2026 &mdash; <b>correction:</b> the sweet sorghum yield of 4,000&#8211;5,000 litres a hectare reported in coverage of the BPCL&#8211;NSI MoU is a temperate or whole-plant figure. Replaced with ICRISAT field and pilot evidence for India (about 1,000&#8211;1,500 litres a hectare per crop, about 2,800 a year over two crops), and revised the land and volume estimates that depended on it.</li>
+<li><b>v1.3.0</b> &mdash; 3 October 2026 &mdash; added the comparison with US and Brazilian production and capacity.</li>
+<li><b>v1.2.0</b> &mdash; 3 October 2026 &mdash; added the E100 rules (G.S.R. 313(E), April 2026; final rules signed June 2026) and what flex-fuel E100 adds to demand.</li>
+<li><b>v1.1.0</b> &mdash; 3 October 2026 &mdash; added the Praj&#8211;Gevo bio-isobutanol agreement and the MC&#178;+ Ignite accelerator at IIT Madras.</li>
+<li><b>v1.0.0</b> &mdash; 3 October 2026 &mdash; first published.</li>
+</ul>
+</div>
+
+<p class="disclaimer" data-gs-ai-disclosure-v1="1"><strong>About this article:</strong> Researched, written and edited by Umashankar Triplicane Dwarakanathan, with AI research assistance; every figure is meant to trace to the primary source cited. See the <a href="https://masaladeutsch.blogspot.com/p/disclaimer.html">Editorial Policy</a> for how sourcing, AI use and corrections work.</p>
+
+</div>
+
+<div id="gs-idx"></div><script defer="defer" src="https://herrrickshaw.github.io/masaladeutsch/accordion.js"></script>
