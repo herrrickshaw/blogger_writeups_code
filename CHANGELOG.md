@@ -14918,3 +14918,28 @@ Index: six how-to posts (RAG, patient, battery, screener RAG, news, router)
 **Changed**
 
 - `article-index-start-here` — 738,913 → 744,949 bytes (+6,036)
+
+## 2026-10-18T07:24:13+00:00 — 380 posts live
+
+scheduled sync
+
+
+**Versions**
+
+- `how-to-use-ship2shorerag-offline` **1.0.0 → 1.0.1** (PATCH) — visible text identical; only markup/styling changed
+- `how-to-use-patient-history-tracking` **1.0.0 → 1.0.1** (PATCH) — visible text identical; only markup/styling changed
+- `how-to-use-marketscreenerrag-backtested` **1.0.0 → 1.0.1** (PATCH) — visible text identical; only markup/styling changed
+- `how-to-use-news-tracker-score-headlines` **1.0.0 → 1.0.1** (PATCH) — visible text identical; only markup/styling changed
+- `how-to-use-bms-battery-management` **1.0.0 → 1.0.1** (PATCH) — visible text identical; only markup/styling changed
+- `how-to-use-claude-lmstudio-router-keep` **1.0.0 → 1.0.1** (PATCH) — visible text identical; only markup/styling changed
+- `how-to-use-cachememorycleaner-free-mac` **1.0.0 → 1.0.1** (PATCH) — visible text identical; only markup/styling changed
+
+**Changed**
+
+- `how-to-use-ship2shorerag-offline` — 24,190 → 24,309 bytes (+119)
+- `how-to-use-patient-history-tracking` — 23,143 → 23,262 bytes (+119)
+- `how-to-use-marketscreenerrag-backtested` — 23,155 → 23,274 bytes (+119)
+- `how-to-use-news-tracker-score-headlines` — 22,067 → 22,186 bytes (+119)
+- `how-to-use-bms-battery-management` — 22,194 → 22,313 bytes (+119)
+- `how-to-use-claude-lmstudio-router-keep` — 24,260 → 24,379 bytes (+119)
+- `how-to-use-cachememorycleaner-free-mac` — 21,964 → 22,083 bytes (+119)

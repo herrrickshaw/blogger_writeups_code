@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/10/how-to-use-cachememorycleaner-free-mac.html",
   "slug": "how-to-use-cachememorycleaner-free-mac",
   "published": "2026-10-18T08:51:05.000+05:30",
-  "updated": "2026-10-18T08:51:24.725+05:30",
+  "updated": "2026-10-18T09:06:00.251+05:30",
   "labels": [
     "Open-Source Tools & How-To"
   ],
-  "bytes": 21964,
-  "sha256": "14a50b4a261c59a9a881bb5a9879d9a499a57149f90d82c533860dd7e15ce61e",
+  "bytes": 22083,
+  "sha256": "22c32df399fdd3bddf327a45112628fdb285832a788df74b95485b81b7c0ca29",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -29,6 +29,19 @@
       "level": "initial",
       "reason": "first snapshot",
       "note": ""
+    },
+    {
+      "version": "1.0.1",
+      "date": "2026-10-18T07:24:13+00:00",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        21964,
+        22083
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
     }
   ]
 }
