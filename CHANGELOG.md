@@ -14858,3 +14858,20 @@ New post: AI and India's offshored work by sector
 **Added**
 
 - `ai-is-not-taking-indias-offshore-work` **v1.0.0** — AI Is Not Taking India's Offshore Work Evenly: A Sector-by-Sector Check, and the Government Backlogs the Same Skills Could Clear (55,940 bytes)
+
+## 2026-10-18T08:28:22+05:30 — 373 posts live
+
+Index: AI and offshored sectors post
+
+
+**Versions**
+
+- `article-index-start-here` **60.8.0 → 60.9.0** (MINOR) — forced via --as minor (figures changed (+1/-1 distinct numbers))
+
+**Changed**
+
+- `article-index-start-here` — 736,481 → 738,204 bytes (+1,723)
+
+**Re-dated** (publication date changed; body and URL unchanged)
+
+- `ai-is-not-taking-indias-offshore-work` — 2026-10-18 &rarr; 2026-10-18

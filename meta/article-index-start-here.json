@@ -4,10 +4,10 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html",
   "slug": "article-index-start-here",
   "published": "2026-08-02T10:43:26.000+05:30",
-  "updated": "2026-10-18T07:29:36.644+05:30",
+  "updated": "2026-10-18T08:27:53.007+05:30",
   "labels": [],
-  "bytes": 736481,
-  "sha256": "ce4a73e2339d199d250078ae803c258cdb198e7d305c6bd81a25fd3cff348828",
+  "bytes": 738204,
+  "sha256": "643b544770543b7d98ffb473a2e92182013620a5691e552fb12b8252d466aaa8",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "60.8.0",
+  "version": "60.9.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -1976,6 +1976,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Index: health-IT vs tax-ID post"
+    },
+    {
+      "version": "60.9.0",
+      "date": "2026-10-18T08:28:22+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+1/-1 distinct numbers))",
+      "bytes": [
+        736481,
+        738204
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Index: AI and offshored sectors post"
     }
   ]
 }
