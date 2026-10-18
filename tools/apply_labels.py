@@ -754,6 +754,7 @@ SLUG_CONTAINS = {
     "biogas-is-priority-sector": ["Energy & Fuels", "Gas & LNG", "City Gas Distribution", "Markets & Finance"],
     "petrol-pump-margins": ["Energy & Fuels", "Fuel Retail & Pricing", "Ethanol & Biofuels"],
     "lpg-distributors-commission": ["Energy & Fuels", "Fuel Retail & Pricing", "Prices & Inflation"],
+    "india-tracks-every-taxpayer": ["Healthcare", "Industrial Policy", "Scheme Delivery Gap"],
 }
 
 
