@@ -1,8 +1,8 @@
 # Masala Deutsch — All Posts, Summarised
 
-*369 published posts, 78 topic labels. Each entry is the post's own published standfirst — not a re-summary.*
+*378 published posts, 79 topic labels. Each entry is the post's own published standfirst — not a re-summary.*
 
-*Generated 17 October 2026 — regenerated daily by tools/update_summary_cron.sh.*
+*Generated 18 October 2026 — regenerated daily by tools/update_summary_cron.sh.*
 
 
 ## Units & Figures Used in This Blog
@@ -669,8 +669,10 @@
 - **[India's Mobile-Phone PLI Beat Every Target. Its Chip-Fab Scheme Has 5 of 12 Plants Actually Producing.](https://masaladeutsch.blogspot.com/2026/08/indias-mobile-phone-pli-beat-every.html)** — 2026-08-30
   India's mobile-phone PLI scheme beat its own five-year investment target by 294% and its production target by 142% — a genuine, government-reported overperformance. Its chip-fabrication cousin, the Semicon India Programme, has 12 approved plants and, as of SEMICON India 2026 in September, 5 producing anything (up from 3 when this piece was first published). The gap between the two tells you which parts of India's electronics-manufacturing push are working and which are still mostly paper.
 
-### Energy & Fuels (113)
+### Energy & Fuels (114)
 
+- **[How to use bms-battery-management: simulate an EV battery pack in Python](https://masaladeutsch.blogspot.com/2026/10/how-to-use-bms-battery-management.html)** — 2026-10-18
+  A small Python library that simulates battery management for electric scooters, retrofitted cars and buses, so you can watch charge level, ageing, heat and faults on your laptop before any hardware exists.
 - **[The LPG Distributor's Commission Rose 16 Times Since 2004. After Inflation, It Is Back Where It Was in 2012](https://masaladeutsch.blogspot.com/2026/10/the-lpg-distributors-commission-rose-16.html)** — 2026-10-17
   PPAC’s record shows the commission on a domestic cylinder going from Rs 16.71 in 2004 to Rs 73.08 in 2023. In today’s rupees, the revisions of 2012 to 2018 only kept pace with prices, the 2019 raise was the one real gain, and inflation has since taken it back.
 - **[Biogas Is a Priority-Sector Loan. The 43% Higher CBG Price Is Worth About 50 Times the Cost of the Repo Hike, for the Plants It Reaches](https://masaladeutsch.blogspot.com/2026/10/biogas-is-priority-sector-loan-43.html)** — 2026-10-16
@@ -920,8 +922,12 @@
 - **[India EC Approval Funnel — PARIVESH 2.0](https://masaladeutsch.blogspot.com/2026/07/india-ec-approval-funnel-parivesh-20.html)** — 2026-07-22
   How 113,970 EC proposals move from filing to grant on PARIVESH 2.0 (2022–2026). A current-state snapshot: each proposal shows its latest status, so proposals counted as "granted" have already passed through the ToR (Terms of Reference) and appraisal stages.
 
-### Equity Markets & Stock Screening (6)
+### Equity Markets & Stock Screening (8)
 
+- **[How to use the news tracker: score headlines and check them against stock picks](https://masaladeutsch.blogspot.com/2026/10/how-to-use-news-tracker-score-headlines.html)** — 2026-10-18
+  Score market news with a plain finance word list and see whether the news agrees with what your stock screens picked.
+- **[How to use market_screener_rag: backtested stock strategies by country](https://masaladeutsch.blogspot.com/2026/10/how-to-use-marketscreenerrag-backtested.html)** — 2026-10-18
+  market_screener_rag is an offline command-line tool that tells you which stock-picking approach survived backtesting in each of six markets and applies it to a bundled snapshot of company data.
 - **[India's Live IPO Queue Has 232 Companies in It. Power and Renewables Outnumbers Oil and Gas Nearly 5 to 1.](https://masaladeutsch.blogspot.com/2026/09/indias-live-ipo-queue-has-232-companies.html)** — 2026-09-28
   SEBI's live mainboard IPO pipeline — every company with a Draft Red Herring Prospectus currently filed, approved, under review or withdrawn — runs to 232 companies as of mid-2026. Nineteen of them are power-and-renewables businesses. Four are oil and gas. That gap, and a second one buried in the approval data, says something concrete about where growth-stage capital is actually queuing up to list — read carefully, because a stock exchange filing gate is not the same thing as a verdict on an industry.
 - **[Why Bet on One Horse, When You Can Buy the Stable?](https://masaladeutsch.blogspot.com/2026/08/why-bet-on-one-horse-when-you-can-buy.html)** — 2026-08-11
@@ -1153,8 +1159,12 @@
 - **[The Price of Grain: MSP, MSV, and the Arithmetic of the Indian Grain State](https://masaladeutsch.blogspot.com/2026/07/the-price-of-grain-msp-msv-and.html)** — 2026-07-23
   How India prices its harvest — for farmers, for ration shops, for distilleries, for the world market — and why pairing the Minimum Support Price with a Minimum Support Volume is the design that creates value on both sides of the ledger.
 
-### Healthcare (13)
+### Healthcare (15)
 
+- **[How to use patient-history-tracking: a demo ICU dashboard and linked record](https://masaladeutsch.blogspot.com/2026/10/how-to-use-patient-history-tracking.html)** — 2026-10-18
+  A small open prototype that replays real, de-identified ICU vitals into a multi-bed dashboard and ties alarms, a synthetic health ID, simulated insurance, prescriptions and a discharge summary to one record, using demo data that is not for clinical use.
+- **[India Tracks Every Taxpayer in Minutes. Its Patients Got a Digital ID in 2021, While Indian IT Earns Billions From Foreign Healthcare](https://masaladeutsch.blogspot.com/2026/10/india-tracks-every-taxpayer-in-minutes.html)** — 2026-10-18
+  India has had a permanent tax number since 1972 and now issues one in about ten minutes; its patient ID dates from 2021 and is still optional. Indian IT firms built the tax system and a multibillion-dollar business serving American insurers and hospitals. Most of Asia uses the national ID and a dated mandate for health; India has neither. The gap is mandate and money, not technology.
 - **[India Imported $28 Million of Sucralose in FY26, Up 49%. Sugar Mills Make the Raw Material. Making the Sweetener Is a Chlorination Problem, Not a Sugar One](https://masaladeutsch.blogspot.com/2026/10/india-imported-28-million-of-sucralose.html)** — 2026-10-10
   Diabetes is pulling intense sweeteners into India’s drinks and tabletop market, and sucralose imports are rising on a falling price. Sugar mills make the sucrose it starts from, but the tonnage is trivial and no Indian factory could be verified.
 - **[Cough Syrup in a Lollipop? For Babies, the Evidence Points to a 2 mm Tablet Instead](https://masaladeutsch.blogspot.com/2026/10/cough-syrup-in-lollipop-for-babies.html)** — 2026-10-06
@@ -1240,8 +1250,12 @@
 - **[Chemical Import Substitution Analysis: Executive Summary](https://masaladeutsch.blogspot.com/2026/07/chemical-import-substitution-analysis.html)** — 2026-08-01
   A re-derivation of this analysis against DGCI&S TradeStat on 2 August 2026 found that several HS-8 codes cited below do not exist in India’s tariff schedule, and the import values attached to them are not supported by the data. Specifically: ethylene was cited as 29011100 / $2,800M (the real line is 29012100, $44M); propylene as 29011200 / $1,400M (real: 29012200, $14M); polyethylene as 39021010/30 / $8.5bn (real 3901 lines total ~$2.8bn; 3902 is polypropylene); lecithin as 29239090 / $100M (real: 29232090, ~$19M); polypropylene as 39021100 (real: 39021000, value $1,372M is correct).
 
-### India (31)
+### India (33)
 
+- **[How to use patient-history-tracking: a demo ICU dashboard and linked record](https://masaladeutsch.blogspot.com/2026/10/how-to-use-patient-history-tracking.html)** — 2026-10-18
+  A small open prototype that replays real, de-identified ICU vitals into a multi-bed dashboard and ties alarms, a synthetic health ID, simulated insurance, prescriptions and a discharge summary to one record, using demo data that is not for clinical use.
+- **[How to use the news tracker: score headlines and check them against stock picks](https://masaladeutsch.blogspot.com/2026/10/how-to-use-news-tracker-score-headlines.html)** — 2026-10-18
+  Score market news with a plain finance word list and see whether the news agrees with what your stock screens picked.
 - **[India's Biofuel Rules Are Being Written in Court: E20 Survives, States Gain Alcohol Powers, and Ethanol Contracts Go on Trial](https://masaladeutsch.blogspot.com/2026/10/indias-biofuel-rules-are-being-written.html)** — 2026-10-03
   Indian courts have backed E20, handed States power over denatured alcohol, kept biodiesel outside petroleum-control law, and opened the oil companies' ethanol contracts to judicial review. This is how five rulings are reshaping the ethanol blending programme.
 - **[India's Draft Seeds Bill Cuts States' Committee Seats From 22 to 5. That's the Provision Farmer Groups Are Actually Fighting.](https://masaladeutsch.blogspot.com/2026/09/indias-draft-seeds-bill-cuts-states.html)** — 2026-09-10
@@ -1334,8 +1348,12 @@
 - **[India Grows the Soybean, Exports the Meal, Leads in Lecithin — and Barely Makes Tofu Yet](https://masaladeutsch.blogspot.com/2026/08/india-grows-soybean-exports-meal-leads.html)** — 2026-08-15
   Madhya Pradesh and Maharashtra between them sow roughly 93 lakh hectares of soybean a year — a scale that ought to make India a soy-food powerhouse. Almost none of that crop becomes tofu, soy milk or protein isolate on an Indian plate. Trace the harvested bean through a crusher and it splits into meal, most of which used to be exported, and oil, which still leaves India roughly two-thirds reliant on imports to meet its own edible-oil demand. The one soy-derived product where India genuinely leads the world — lecithin — is a byproduct of that same oil-crushing step, not a separate industry. This piece follows the bean from MP and Maharashtra's fields through crushing, lecithin, and the still-small frontier of tofu, soy protein and edamame.
 
-### Industrial Policy (106)
+### Industrial Policy (108)
 
+- **[India Tracks Every Taxpayer in Minutes. Its Patients Got a Digital ID in 2021, While Indian IT Earns Billions From Foreign Healthcare](https://masaladeutsch.blogspot.com/2026/10/india-tracks-every-taxpayer-in-minutes.html)** — 2026-10-18
+  India has had a permanent tax number since 1972 and now issues one in about ten minutes; its patient ID dates from 2021 and is still optional. Indian IT firms built the tax system and a multibillion-dollar business serving American insurers and hospitals. Most of Asia uses the national ID and a dated mandate for health; India has neither. The gap is mandate and money, not technology.
+- **[AI Is Not Taking India's Offshore Work Evenly: A Sector-by-Sector Check, and the Government Backlogs the Same Skills Could Clear](https://masaladeutsch.blogspot.com/2026/10/ai-is-not-taking-indias-offshore-work.html)** — 2026-10-18
+  Customer support, application maintenance and labour-billed back-office work are being hit first; airline back office and AI data work are still arriving. The common pattern is fewer fresher hires and lower prices, not layoffs, with India taking a larger share of a smaller pool. Meanwhile courts, claims and grievance systems at home carry backlogs of the same work.
 - **[The Hydrogen Behind the Biofuel Mandate: A Country-by-Country Map of Who Is Covered, What Counts, and Which Hydrogen Gets Paid For](https://masaladeutsch.blogspot.com/2026/10/the-hydrogen-behind-biofuel-mandate.html)** — 2026-10-14
   Biofuel rules cover road fuel, aviation and shipping in very different ways, and only the EU, the UK and a few of their member states tie a numbered hydrogen quota to them. This maps the rules and the hydrogen incentives country by country, with each status flagged, from summaries because no primary text was opened.
 - **[India's First Tourism Survey Since 2014-15 Finds Pilgrimage Is 48% of Overnight Trips and Holidays 22%. The Ministry's 428 Crore Visits Are Not Comparable With It](https://masaladeutsch.blogspot.com/2026/10/indias-first-tourism-survey-since-2014.html)** — 2026-10-09
@@ -1667,8 +1685,14 @@
 - **[How India's Automotive Clusters Rewired Themselves Around Just-in-Time Delivery](https://masaladeutsch.blogspot.com/2026/08/how-indias-automotive-clusters-rewired.html)** — 2026-08-15
   Maruti Suzuki gets over 76% of its 246 suppliers within 100km of its assembly lines, and its "e-Nagare" system cut the order-to-shopfloor cycle from 30 hours to 2. That single number is the clearest evidence of how India's automotive clusters actually work today — not as five separate manufacturing hubs, but as increasingly tight, just-in-time-organised ecosystems where component suppliers sit inside the same radius as the OEM. This piece maps the clusters, the mechanics of the JIT shift, and the one real crisis — the 2021 semiconductor shortage — that showed exactly where that model breaks.
 
-### Markets & Finance (50)
+### Markets & Finance (53)
 
+- **[How to use the news tracker: score headlines and check them against stock picks](https://masaladeutsch.blogspot.com/2026/10/how-to-use-news-tracker-score-headlines.html)** — 2026-10-18
+  Score market news with a plain finance word list and see whether the news agrees with what your stock screens picked.
+- **[How to use market_screener_rag: backtested stock strategies by country](https://masaladeutsch.blogspot.com/2026/10/how-to-use-marketscreenerrag-backtested.html)** — 2026-10-18
+  market_screener_rag is an offline command-line tool that tells you which stock-picking approach survived backtesting in each of six markets and applies it to a bundled snapshot of company data.
+- **[AI Is Not Taking India's Offshore Work Evenly: A Sector-by-Sector Check, and the Government Backlogs the Same Skills Could Clear](https://masaladeutsch.blogspot.com/2026/10/ai-is-not-taking-indias-offshore-work.html)** — 2026-10-18
+  Customer support, application maintenance and labour-billed back-office work are being hit first; airline back office and AI data work are still arriving. The common pattern is fewer fresher hires and lower prices, not layoffs, with India taking a larger share of a smaller pool. Meanwhile courts, claims and grievance systems at home carry backlogs of the same work.
 - **[Biogas Is a Priority-Sector Loan. The 43% Higher CBG Price Is Worth About 50 Times the Cost of the Repo Hike, for the Plants It Reaches](https://masaladeutsch.blogspot.com/2026/10/biogas-is-priority-sector-loan-43.html)** — 2026-10-16
   A biogas developer on a floating-rate loan pays more interest after the RBI’s hike to 5.50% while earning more per kilogram of gas. On the published numbers the price rise dwarfs the rate rise, except for plants that never receive the new price, and RBI data on CBG lending do not exist.
 - **[India's FDI Moved to Software and Trading After 2017: Software Rose From 7.4% to 22.7% of Inflow, Townships Fell From 7.3% to 0.7%](https://masaladeutsch.blogspot.com/2026/10/indias-fdi-moved-to-software-and.html)** — 2026-10-10
@@ -1775,8 +1799,10 @@
 - **[What Seven Model Stock Portfolios Look Like Once You Check Them Against the Index](https://masaladeutsch.blogspot.com/2026/08/what-seven-model-stock-portfolios-look.html)** — 2026-08-28
   Stack eight stock-picking factors — breakout, quality, value, momentum, and a machine-learning bullish flag among them — and group what survives into co-movement model portfolios, and two separate questions come apart: does the result actually differ from an index fund, and does it actually beat one? Checked against public sector benchmarks, this factor stack's portfolios are almost uniformly differentiated from the index — but only one of seven is currently outperforming it once the broad market's own rise is stripped out.
 
-### Mobility & EV (14)
+### Mobility & EV (15)
 
+- **[How to use bms-battery-management: simulate an EV battery pack in Python](https://masaladeutsch.blogspot.com/2026/10/how-to-use-bms-battery-management.html)** — 2026-10-18
+  A small Python library that simulates battery management for electric scooters, retrofitted cars and buses, so you can watch charge level, ageing, heat and faults on your laptop before any hardware exists.
 - **[India's New Car Rules Count Every EV as Three Cars. Europe, the US and China Used Smaller Multipliers, Then Phased Them Out.](https://masaladeutsch.blogspot.com/2026/10/indias-new-car-rules-count-every-ev-as.html)** — 2026-10-02
   India’s third-phase fuel-efficiency rules for cars, notified on 30 September 2026, borrow almost every tool used in Europe, the US, China, Japan and Brazil: weight-based targets, credits for efficiency technologies, trading between carmakers and a price for falling short. Where they differ is generosity. Each battery EV counts as three cars, a bigger multiplier than any other major market has used, with no step-down reported; every petrol car running on E20 gets an 8% discount; and flex-fuel cars get the kind of ethanol credit the US dropped because owners rarely bought the fuel. On a like-for-like test cycle the FY2032 target is about 97 g/km, close to Europe’s current level — but with 10% EV sales, the credits would let the fleet’s actual tailpipe emissions stay near today’s.
 - **[Every Litre of Petrol Pays ₹5 for Roads. Electric Vehicles Pay Nothing — and the Gap Is Still Small Enough to Fix.](https://masaladeutsch.blogspot.com/2026/10/every-litre-of-petrol-pays-5-for-roads.html)** — 2026-10-01
@@ -1823,6 +1849,23 @@
   S&P Global's oilfield cost indexes say building and running an oil or gas project got roughly 6–8% more expensive over the past year. The same year, the industry spent less money doing it — global upstream capital spending is falling for a second straight year running. India's own oil and gas public-sector companies just posted their first first-quarter capex decline in at least five years. None of this is a coincidence; it's the same cost squeeze showing up in three different data sets.
 - **[India's Oil Fields Are Running Down: 36.96 to 28.70 MMT in a Decade, and the Targets Have Stopped Meaning Anything](https://masaladeutsch.blogspot.com/2026/08/indias-oil-fields-are-running-down-3696.html)** — 2026-08-06
   DGH's own ten-year table shows crude output falling every year but one since 2014-15. Gas has held up — but only because private deepwater replaced the state fields that were shrinking underneath it.
+
+### Open-Source Tools & How-To (7)
+
+- **[How to use ship2shore_rag: offline answers from open maritime reports](https://masaladeutsch.blogspot.com/2026/10/how-to-use-ship2shorerag-offline.html)** — 2026-10-18
+  ship2shore_rag lets you ask plain-English questions of open maritime literature and accident reports, with cited passages, on a shore server or offline on a ship.
+- **[How to use patient-history-tracking: a demo ICU dashboard and linked record](https://masaladeutsch.blogspot.com/2026/10/how-to-use-patient-history-tracking.html)** — 2026-10-18
+  A small open prototype that replays real, de-identified ICU vitals into a multi-bed dashboard and ties alarms, a synthetic health ID, simulated insurance, prescriptions and a discharge summary to one record, using demo data that is not for clinical use.
+- **[How to use the news tracker: score headlines and check them against stock picks](https://masaladeutsch.blogspot.com/2026/10/how-to-use-news-tracker-score-headlines.html)** — 2026-10-18
+  Score market news with a plain finance word list and see whether the news agrees with what your stock screens picked.
+- **[How to use market_screener_rag: backtested stock strategies by country](https://masaladeutsch.blogspot.com/2026/10/how-to-use-marketscreenerrag-backtested.html)** — 2026-10-18
+  market_screener_rag is an offline command-line tool that tells you which stock-picking approach survived backtesting in each of six markets and applies it to a bundled snapshot of company data.
+- **[How to use bms-battery-management: simulate an EV battery pack in Python](https://masaladeutsch.blogspot.com/2026/10/how-to-use-bms-battery-management.html)** — 2026-10-18
+  A small Python library that simulates battery management for electric scooters, retrofitted cars and buses, so you can watch charge level, ageing, heat and faults on your laptop before any hardware exists.
+- **[How to use cache_memory_cleaner: free Mac disk space without losing data](https://masaladeutsch.blogspot.com/2026/10/how-to-use-cachememorycleaner-free-mac.html)** — 2026-10-18
+  A macOS shell script that sorts any folder into five safety tiers before you delete it, and previews cache cleanup with a dry run.
+- **[How to use claude-lmstudio-router: keep working when Claude is unavailable](https://masaladeutsch.blogspot.com/2026/10/how-to-use-claude-lmstudio-router-keep.html)** — 2026-10-18
+  claude-lmstudio-router sends your prompt to Claude first and falls back to a model running on your own laptop in LM Studio, and it can also run the Claude Code agent entirely on a local model.
 
 ### Parliamentary Scheme Tracking (5)
 
@@ -1967,8 +2010,12 @@
 - **[Tamil Nadu's Wind Potential, According to NIWE: A Third Built, Two-Thirds Still on the Table](https://masaladeutsch.blogspot.com/2026/08/tamil-nadus-wind-potential-according-to.html)** — 2026-08-14
   NIWE's own wind atlas says Tamil Nadu has installed only about a third of its assessed onshore potential, and almost none of its offshore potential, despite being India's most mature wind state. This piece works through NIWE's numbers, what's actually been built, and why the gap between potential and installed capacity has less to do with wind resource and more to do with an ageing turbine fleet and a transmission grid built for a smaller sector.
 
-### Scheme Delivery Gap (3)
+### Scheme Delivery Gap (5)
 
+- **[India Tracks Every Taxpayer in Minutes. Its Patients Got a Digital ID in 2021, While Indian IT Earns Billions From Foreign Healthcare](https://masaladeutsch.blogspot.com/2026/10/india-tracks-every-taxpayer-in-minutes.html)** — 2026-10-18
+  India has had a permanent tax number since 1972 and now issues one in about ten minutes; its patient ID dates from 2021 and is still optional. Indian IT firms built the tax system and a multibillion-dollar business serving American insurers and hospitals. Most of Asia uses the national ID and a dated mandate for health; India has neither. The gap is mandate and money, not technology.
+- **[AI Is Not Taking India's Offshore Work Evenly: A Sector-by-Sector Check, and the Government Backlogs the Same Skills Could Clear](https://masaladeutsch.blogspot.com/2026/10/ai-is-not-taking-indias-offshore-work.html)** — 2026-10-18
+  Customer support, application maintenance and labour-billed back-office work are being hit first; airline back office and AI data work are still arriving. The common pattern is fewer fresher hires and lower prices, not layoffs, with India taking a larger share of a smaller pool. Meanwhile courts, claims and grievance systems at home carry backlogs of the same work.
 - **[India Allocated ₹6,000 Crore for Fisheries Under PM-MKSSY. It Has Paid Out ₹4.73 Crore So Far.](https://masaladeutsch.blogspot.com/2026/08/indias-6000-crore-fisheries-scheme.html)** — 2026-08-30
   PM-MKSSY, the fisheries sub-scheme launched in 2023–24, has ₹6,000 crore allocated to it. As of this piece's publication, live registration data from the scheme's own digital platform show 36.88 lakh fishers, fish farmers and vendors signed up. Parliament's own answers show that of those, 127 have received the scheme's aquaculture-insurance incentive and 21 have actually been paid a performance grant. The parent scheme's infrastructure money moves at a respectable clip — it's the money meant to go straight into individual hands that hasn't.
 - **[West Bengal Sanctioned 12.6 Lakh PMAY-G Houses. It Has Finished 1.5 Lakh. The Reason Is a Four-Year Funds Freeze.](https://masaladeutsch.blogspot.com/2026/08/west-bengal-sanctioned-126-lakh-pmay-g.html)** — 2026-08-30
@@ -1985,8 +2032,10 @@
 - **[India's Draft Seeds Bill Cuts States' Committee Seats From 22 to 5. That's the Provision Farmer Groups Are Actually Fighting.](https://masaladeutsch.blogspot.com/2026/09/indias-draft-seeds-bill-cuts-states.html)** — 2026-09-10
   India's draft Seeds Bill, 2025 would replace a 60-year-old law and restructure the committee that governs seed regulation nationally — cutting states' own seats on it from 22 to 5, on the count several secondary sources give. The bill's own November 2025 announcement frames it as decriminalising minor paperwork offences to ease compliance burden; by September 2026, government messaging around the same bill was leading with "stringent" penalties and "seed mafias." Both are true of the same document — it is a tiered bill, lighter on administrative lapses and harder on fraud — but the state-representation cut is the provision farmer-group criticism has focused on, not the fines.
 
-### Shipping & Maritime Fuels (5)
+### Shipping & Maritime Fuels (6)
 
+- **[How to use ship2shore_rag: offline answers from open maritime reports](https://masaladeutsch.blogspot.com/2026/10/how-to-use-ship2shorerag-offline.html)** — 2026-10-18
+  ship2shore_rag lets you ask plain-English questions of open maritime literature and accident reports, with cited passages, on a shore server or offline on a ship.
 - **[India Pays $5-8 Billion a Year to Ship Its Own Oil. Only 20% of That Cargo Travels on an Indian Vessel.](https://masaladeutsch.blogspot.com/2026/09/india-pays-5-8-billion-year-to-ship-its.html)** — 2026-09-28
   India's crude and gas imports are worth more than $150 billion a year, entirely seaborne, and make up nearly 28 per cent of the country's total trade by volume — yet only around a fifth of that cargo travels on a ship India actually flags or owns. The Petroleum Minister went to Korea in November 2025 to do something about it, and the numbers he cited while he was there are the clearest official statement yet of what that gap costs and what closing it would require.
 - **[Shipping's Net-Zero Vote Keeps Getting Delayed. The Fuel Switch Is Happening Without It.](https://masaladeutsch.blogspot.com/2026/09/shippings-net-zero-vote-keeps-getting.html)** — 2026-09-24
@@ -4095,3 +4144,48 @@ The average Indian outlet earns about Rs 4.77 lakh a month in gross commission, 
 *2026-10-17 · Energy & Fuels, Fuel Retail & Pricing, Prices & Inflation*
 
 PPAC’s record shows the commission on a domestic cylinder going from Rs 16.71 in 2004 to Rs 73.08 in 2023. In today’s rupees, the revisions of 2012 to 2018 only kept pace with prices, the 2019 raise was the one real gain, and inflation has since taken it back.
+
+### [How to use ship2shore_rag: offline answers from open maritime reports](https://masaladeutsch.blogspot.com/2026/10/how-to-use-ship2shorerag-offline.html)
+*2026-10-18 · Open-Source Tools & How-To, Shipping & Maritime Fuels*
+
+ship2shore_rag lets you ask plain-English questions of open maritime literature and accident reports, with cited passages, on a shore server or offline on a ship.
+
+### [How to use patient-history-tracking: a demo ICU dashboard and linked record](https://masaladeutsch.blogspot.com/2026/10/how-to-use-patient-history-tracking.html)
+*2026-10-18 · Healthcare, India, Open-Source Tools & How-To*
+
+A small open prototype that replays real, de-identified ICU vitals into a multi-bed dashboard and ties alarms, a synthetic health ID, simulated insurance, prescriptions and a discharge summary to one record, using demo data that is not for clinical use.
+
+### [How to use the news tracker: score headlines and check them against stock picks](https://masaladeutsch.blogspot.com/2026/10/how-to-use-news-tracker-score-headlines.html)
+*2026-10-18 · Equity Markets & Stock Screening, India, Markets & Finance, Open-Source Tools & How-To*
+
+Score market news with a plain finance word list and see whether the news agrees with what your stock screens picked.
+
+### [How to use market_screener_rag: backtested stock strategies by country](https://masaladeutsch.blogspot.com/2026/10/how-to-use-marketscreenerrag-backtested.html)
+*2026-10-18 · Equity Markets & Stock Screening, Markets & Finance, Open-Source Tools & How-To*
+
+market_screener_rag is an offline command-line tool that tells you which stock-picking approach survived backtesting in each of six markets and applies it to a bundled snapshot of company data.
+
+### [How to use bms-battery-management: simulate an EV battery pack in Python](https://masaladeutsch.blogspot.com/2026/10/how-to-use-bms-battery-management.html)
+*2026-10-18 · Energy & Fuels, Mobility & EV, Open-Source Tools & How-To*
+
+A small Python library that simulates battery management for electric scooters, retrofitted cars and buses, so you can watch charge level, ageing, heat and faults on your laptop before any hardware exists.
+
+### [How to use cache_memory_cleaner: free Mac disk space without losing data](https://masaladeutsch.blogspot.com/2026/10/how-to-use-cachememorycleaner-free-mac.html)
+*2026-10-18 · Open-Source Tools & How-To*
+
+A macOS shell script that sorts any folder into five safety tiers before you delete it, and previews cache cleanup with a dry run.
+
+### [How to use claude-lmstudio-router: keep working when Claude is unavailable](https://masaladeutsch.blogspot.com/2026/10/how-to-use-claude-lmstudio-router-keep.html)
+*2026-10-18 · Open-Source Tools & How-To*
+
+claude-lmstudio-router sends your prompt to Claude first and falls back to a model running on your own laptop in LM Studio, and it can also run the Claude Code agent entirely on a local model.
+
+### [India Tracks Every Taxpayer in Minutes. Its Patients Got a Digital ID in 2021, While Indian IT Earns Billions From Foreign Healthcare](https://masaladeutsch.blogspot.com/2026/10/india-tracks-every-taxpayer-in-minutes.html)
+*2026-10-18 · Healthcare, Industrial Policy, Scheme Delivery Gap*
+
+India has had a permanent tax number since 1972 and now issues one in about ten minutes; its patient ID dates from 2021 and is still optional. Indian IT firms built the tax system and a multibillion-dollar business serving American insurers and hospitals. Most of Asia uses the national ID and a dated mandate for health; India has neither. The gap is mandate and money, not technology.
+
+### [AI Is Not Taking India's Offshore Work Evenly: A Sector-by-Sector Check, and the Government Backlogs the Same Skills Could Clear](https://masaladeutsch.blogspot.com/2026/10/ai-is-not-taking-indias-offshore-work.html)
+*2026-10-18 · Industrial Policy, Markets & Finance, Scheme Delivery Gap*
+
+Customer support, application maintenance and labour-billed back-office work are being hit first; airline back office and AI data work are still arriving. The common pattern is fewer fresher hires and lower prices, not layoffs, with India taking a larger share of a smaller pool. Meanwhile courts, claims and grievance systems at home carry backlogs of the same work.
