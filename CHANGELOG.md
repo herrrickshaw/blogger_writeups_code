@@ -14724,3 +14724,30 @@ Index: labels for LPG commission post
 **Changed**
 
 - `article-index-start-here` — 731,347 → 733,393 bytes (+2,046)
+
+## 2026-10-18T06:06:35+05:30 — 371 posts live
+
+Sweep 4: Seeds Bill note and stale-claim notes on 7 posts
+
+
+**Versions**
+
+- `india-let-oil-companies-put-solar-on` **1.0.1 → 1.1.0** (MINOR) — forced via --as minor (figures changed (+9/-0 distinct numbers))
+- `indias-draft-seeds-bill-cuts-states` **1.1.0 → 1.2.0** (MINOR) — forced via --as minor (figures changed (+2/-0 distinct numbers))
+- `lng-trucks-cost-about-what-diesel-does` **1.1.0 → 1.2.0** (MINOR) — forced via --as minor (figures changed (+4/-0 distinct numbers))
+- `west-bengal-sanctioned-126-lakh-pmay-g` **1.1.0 → 1.2.0** (MINOR) — forced via --as minor (figures changed (+1/-0 distinct numbers))
+- `beyond-pump-what-upi-fee-would-cost` **5.1.0 → 5.2.0** (MINOR) — forced via --as minor (figures changed (+2/-0 distinct numbers))
+- `upi-fees-are-now-legal-petrol-pumps` **14.1.0 → 14.2.0** (MINOR) — forced via --as minor (figures changed (+1/-0 distinct numbers))
+- `fuel-pricing-to-crude-cost` **2.1.0 → 2.2.0** (MINOR) — forced via --as minor (figures changed (+7/-0 distinct numbers))
+- `announced-vs-delivered-three-indian` **4.2.0 → 4.3.0** (MINOR) — forced via --as minor (figures changed (+3/-0 distinct numbers))
+
+**Changed**
+
+- `india-let-oil-companies-put-solar-on` — 28,546 → 29,796 bytes (+1,250)
+- `indias-draft-seeds-bill-cuts-states` — 24,660 → 26,788 bytes (+2,128)
+- `lng-trucks-cost-about-what-diesel-does` — 34,081 → 35,276 bytes (+1,195)
+- `west-bengal-sanctioned-126-lakh-pmay-g` — 25,873 → 27,382 bytes (+1,509)
+- `beyond-pump-what-upi-fee-would-cost` — 42,167 → 43,412 bytes (+1,245)
+- `upi-fees-are-now-legal-petrol-pumps` — 46,669 → 47,741 bytes (+1,072)
+- `fuel-pricing-to-crude-cost` — 88,001 → 89,425 bytes (+1,424)
+- `announced-vs-delivered-three-indian` — 53,799 → 55,332 bytes (+1,533)

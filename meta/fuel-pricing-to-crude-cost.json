@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/fuel-pricing-to-crude-cost.html",
   "slug": "fuel-pricing-to-crude-cost",
   "published": "2026-08-05T08:39:37.000+05:30",
-  "updated": "2026-10-01T08:23:59.490+05:30",
+  "updated": "2026-10-18T06:05:38.101+05:30",
   "labels": [
     "Energy & Fuels",
     "Fuel Retail & Pricing"
   ],
-  "bytes": 88001,
-  "sha256": "64b0e7d2e14c08e2cb8d53a61623516d162a508c0afac3d08f5a0fcd2ee53a76",
+  "bytes": 89425,
+  "sha256": "2dd8980870d2ce3c19751c3ce4f9ea47c9062558053e7c279f23738f66b28a10",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.1.0",
+  "version": "2.2.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -338,6 +338,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Rule 8 retrofit: added What would fix this section"
+    },
+    {
+      "version": "2.2.0",
+      "date": "2026-10-18T06:06:35+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+7/-0 distinct numbers))",
+      "bytes": [
+        88001,
+        89425
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Sweep 4: Seeds Bill note and stale-claim notes on 7 posts"
     }
   ]
 }

@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/announced-vs-delivered-three-indian.html",
   "slug": "announced-vs-delivered-three-indian",
   "published": "2026-08-02T18:31:16.000+05:30",
-  "updated": "2026-10-14T16:24:01.148+05:30",
+  "updated": "2026-10-18T06:04:37.785+05:30",
   "labels": [
     "Industrial Policy",
     "Mobility & EV",
     "State Investment Incentives"
   ],
-  "bytes": 53799,
-  "sha256": "2029cb555cb82eebf2038f9b6e50bbd1cd7897022c1be1d83a7f081621050b32",
+  "bytes": 55332,
+  "sha256": "0bfc9b0bae5067e97a499aa27570a9f95e0dc5abbd4ae8e06fe1666aff91c42b",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "4.2.0",
+  "version": "4.3.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -317,6 +317,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Update notes 12-13 Oct 2026 from the currency sweeps (45 posts)"
+    },
+    {
+      "version": "4.3.0",
+      "date": "2026-10-18T06:06:35+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+3/-0 distinct numbers))",
+      "bytes": [
+        53799,
+        55332
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Sweep 4: Seeds Bill note and stale-claim notes on 7 posts"
     }
   ]
 }

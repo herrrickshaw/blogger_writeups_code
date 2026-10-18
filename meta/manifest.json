@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-10-17T08:23:57+05:30",
+  "snapshot": "2026-10-18T06:06:35+05:30",
   "count": 371,
   "posts": {
     "1023631151138981087": {
@@ -2232,15 +2232,15 @@
       "url": "https://masaladeutsch.blogspot.com/2026/09/indias-draft-seeds-bill-cuts-states.html",
       "slug": "indias-draft-seeds-bill-cuts-states",
       "published": "2026-09-10T08:27:41.000+05:30",
-      "updated": "2026-10-01T08:33:24.684+05:30",
+      "updated": "2026-10-18T06:04:22.416+05:30",
       "labels": [
         "Agriculture & Fertilisers",
         "India",
         "Industrial Policy",
         "Seeds & Plant Genetics"
       ],
-      "bytes": 24660,
-      "sha256": "a1f819e500c6fadd9bf660b7c57b09306b0c31e23201c1c347d5691ad481e18f",
+      "bytes": 26788,
+      "sha256": "63a05ee586dd0cdea7058b8f07b9e3aa91911d252002c2b0e1c345225b41f511",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -2252,7 +2252,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.1.0",
+      "version": "1.2.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -2312,6 +2312,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Rule 8 retrofit: added What would fix this section"
+        },
+        {
+          "version": "1.2.0",
+          "date": "2026-10-18T06:06:35+05:30",
+          "level": "minor",
+          "reason": "forced via --as minor (figures changed (+2/-0 distinct numbers))",
+          "bytes": [
+            24660,
+            26788
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Sweep 4: Seeds Bill note and stale-claim notes on 7 posts"
         }
       ]
     },
@@ -8539,15 +8552,15 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/upi-fees-are-now-legal-petrol-pumps.html",
       "slug": "upi-fees-are-now-legal-petrol-pumps",
       "published": "2026-08-08T16:24:01.000+05:30",
-      "updated": "2026-10-01T08:58:22.211+05:30",
+      "updated": "2026-10-18T06:05:24.348+05:30",
       "labels": [
         "Energy & Fuels",
         "Fuel Retail & Pricing",
         "Industrial Policy",
         "Markets & Finance"
       ],
-      "bytes": 46669,
-      "sha256": "c57a606ce3875afdf5424a329f4b9b1100e78511ddba2829cad0a296d66ff72d",
+      "bytes": 47741,
+      "sha256": "15819665540aaa6c10a444530f3409d4d3cdf1d933bc963ae6e6ca939dd4aa87",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -8559,7 +8572,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "14.1.0",
+      "version": "14.2.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -8918,6 +8931,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Rule 8 retrofit: added What would fix this section"
+        },
+        {
+          "version": "14.2.0",
+          "date": "2026-10-18T06:06:35+05:30",
+          "level": "minor",
+          "reason": "forced via --as minor (figures changed (+1/-0 distinct numbers))",
+          "bytes": [
+            46669,
+            47741
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Sweep 4: Seeds Bill note and stale-claim notes on 7 posts"
         }
       ]
     },
@@ -9653,14 +9679,14 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/announced-vs-delivered-three-indian.html",
       "slug": "announced-vs-delivered-three-indian",
       "published": "2026-08-02T18:31:16.000+05:30",
-      "updated": "2026-10-14T16:24:01.148+05:30",
+      "updated": "2026-10-18T06:04:37.785+05:30",
       "labels": [
         "Industrial Policy",
         "Mobility & EV",
         "State Investment Incentives"
       ],
-      "bytes": 53799,
-      "sha256": "2029cb555cb82eebf2038f9b6e50bbd1cd7897022c1be1d83a7f081621050b32",
+      "bytes": 55332,
+      "sha256": "0bfc9b0bae5067e97a499aa27570a9f95e0dc5abbd4ae8e06fe1666aff91c42b",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -9672,7 +9698,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "4.2.0",
+      "version": "4.3.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -9966,6 +9992,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Update notes 12-13 Oct 2026 from the currency sweeps (45 posts)"
+        },
+        {
+          "version": "4.3.0",
+          "date": "2026-10-18T06:06:35+05:30",
+          "level": "minor",
+          "reason": "forced via --as minor (figures changed (+3/-0 distinct numbers))",
+          "bytes": [
+            53799,
+            55332
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Sweep 4: Seeds Bill note and stale-claim notes on 7 posts"
         }
       ]
     },
@@ -18196,14 +18235,14 @@
       "url": "https://masaladeutsch.blogspot.com/2026/09/india-let-oil-companies-put-solar-on.html",
       "slug": "india-let-oil-companies-put-solar-on",
       "published": "2026-09-28T15:57:52.000+05:30",
-      "updated": "2026-09-29T09:06:05.431+05:30",
+      "updated": "2026-10-18T06:05:49.005+05:30",
       "labels": [
         "Energy & Fuels",
         "Oil & Gas Exploration",
         "Renewable Power & Storage"
       ],
-      "bytes": 28546,
-      "sha256": "7610f094e910c65ad6fe8304ed15ccd4f5dd1e30cb0b677cbf5d420c65402426",
+      "bytes": 29796,
+      "sha256": "114d167302492d44bd115c67be91202f697450f31e2e6d247d5463371d9ede93",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -18215,7 +18254,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.1",
+      "version": "1.1.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -18236,6 +18275,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "scheduled sync"
+        },
+        {
+          "version": "1.1.0",
+          "date": "2026-10-18T06:06:35+05:30",
+          "level": "minor",
+          "reason": "forced via --as minor (figures changed (+9/-0 distinct numbers))",
+          "bytes": [
+            28546,
+            29796
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Sweep 4: Seeds Bill note and stale-claim notes on 7 posts"
         }
       ]
     },
@@ -28210,14 +28262,14 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/west-bengal-sanctioned-126-lakh-pmay-g.html",
       "slug": "west-bengal-sanctioned-126-lakh-pmay-g",
       "published": "2026-08-30T08:03:08.000+05:30",
-      "updated": "2026-10-01T08:59:02.884+05:30",
+      "updated": "2026-10-18T06:04:48.178+05:30",
       "labels": [
         "India",
         "Infrastructure & Investment",
         "Scheme Delivery Gap"
       ],
-      "bytes": 25873,
-      "sha256": "fe311e95fb1a798c94e282bbe20d0e2d38b78cdfce11bfc4738e696ba0e14347",
+      "bytes": 27382,
+      "sha256": "02591b1dfdc77ef6afebe3e268f80dff891f392de59782c2251e2bde1e88de4f",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -28229,7 +28281,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.1.0",
+      "version": "1.2.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -28315,6 +28367,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Rule 8 retrofit: added What would fix this section"
+        },
+        {
+          "version": "1.2.0",
+          "date": "2026-10-18T06:06:35+05:30",
+          "level": "minor",
+          "reason": "forced via --as minor (figures changed (+1/-0 distinct numbers))",
+          "bytes": [
+            25873,
+            27382
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Sweep 4: Seeds Bill note and stale-claim notes on 7 posts"
         }
       ]
     },
@@ -31660,13 +31725,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/beyond-pump-what-upi-fee-would-cost.html",
       "slug": "beyond-pump-what-upi-fee-would-cost",
       "published": "2026-08-08T20:01:53.000+05:30",
-      "updated": "2026-10-01T08:14:55.921+05:30",
+      "updated": "2026-10-18T06:05:10.618+05:30",
       "labels": [
         "Industrial Policy",
         "Markets & Finance"
       ],
-      "bytes": 42167,
-      "sha256": "f200a1adff14312c38a80a5ba55411248aab92c2ba5329909b002085570d9a67",
+      "bytes": 43412,
+      "sha256": "f1615d2b6be832197dc75db55cd583d21287aecf1b4961a1fec4bde0130eed3d",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -31678,7 +31743,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "5.1.0",
+      "version": "5.2.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -31933,6 +31998,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Rule 8 retrofit: added What would fix this section"
+        },
+        {
+          "version": "5.2.0",
+          "date": "2026-10-18T06:06:35+05:30",
+          "level": "minor",
+          "reason": "forced via --as minor (figures changed (+2/-0 distinct numbers))",
+          "bytes": [
+            42167,
+            43412
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Sweep 4: Seeds Bill note and stale-claim notes on 7 posts"
         }
       ]
     },
@@ -33985,13 +34063,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/fuel-pricing-to-crude-cost.html",
       "slug": "fuel-pricing-to-crude-cost",
       "published": "2026-08-05T08:39:37.000+05:30",
-      "updated": "2026-10-01T08:23:59.490+05:30",
+      "updated": "2026-10-18T06:05:38.101+05:30",
       "labels": [
         "Energy & Fuels",
         "Fuel Retail & Pricing"
       ],
-      "bytes": 88001,
-      "sha256": "64b0e7d2e14c08e2cb8d53a61623516d162a508c0afac3d08f5a0fcd2ee53a76",
+      "bytes": 89425,
+      "sha256": "2dd8980870d2ce3c19751c3ce4f9ea47c9062558053e7c279f23738f66b28a10",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -34003,7 +34081,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "2.1.0",
+      "version": "2.2.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -34319,6 +34397,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Rule 8 retrofit: added What would fix this section"
+        },
+        {
+          "version": "2.2.0",
+          "date": "2026-10-18T06:06:35+05:30",
+          "level": "minor",
+          "reason": "forced via --as minor (figures changed (+7/-0 distinct numbers))",
+          "bytes": [
+            88001,
+            89425
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Sweep 4: Seeds Bill note and stale-claim notes on 7 posts"
         }
       ]
     },
@@ -35470,14 +35561,14 @@
       "url": "https://masaladeutsch.blogspot.com/2026/09/lng-trucks-cost-about-what-diesel-does.html",
       "slug": "lng-trucks-cost-about-what-diesel-does",
       "published": "2026-09-01T22:28:14.000+05:30",
-      "updated": "2026-10-01T08:40:49.875+05:30",
+      "updated": "2026-10-18T06:04:58.807+05:30",
       "labels": [
         "Energy & Fuels",
         "Gas & LNG",
         "LNG Trucking & Fleet Conversion"
       ],
-      "bytes": 34081,
-      "sha256": "c9a6c738b90f66a216ad78aab9e78218fb3851498bfd0e10f7fed98e366844ad",
+      "bytes": 35276,
+      "sha256": "3c130f9daa8c9040432f3de833ca57999a9cbc6991f8ada9d21dee9d761ea8cd",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -35489,7 +35580,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.1.0",
+      "version": "1.2.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -35562,6 +35653,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Rule 8 retrofit: added What would fix this section"
+        },
+        {
+          "version": "1.2.0",
+          "date": "2026-10-18T06:06:35+05:30",
+          "level": "minor",
+          "reason": "forced via --as minor (figures changed (+4/-0 distinct numbers))",
+          "bytes": [
+            34081,
+            35276
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Sweep 4: Seeds Bill note and stale-claim notes on 7 posts"
         }
       ]
     },

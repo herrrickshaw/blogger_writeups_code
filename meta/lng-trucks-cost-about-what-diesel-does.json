@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/lng-trucks-cost-about-what-diesel-does.html",
   "slug": "lng-trucks-cost-about-what-diesel-does",
   "published": "2026-09-01T22:28:14.000+05:30",
-  "updated": "2026-10-01T08:40:49.875+05:30",
+  "updated": "2026-10-18T06:04:58.807+05:30",
   "labels": [
     "Energy & Fuels",
     "Gas & LNG",
     "LNG Trucking & Fleet Conversion"
   ],
-  "bytes": 34081,
-  "sha256": "c9a6c738b90f66a216ad78aab9e78218fb3851498bfd0e10f7fed98e366844ad",
+  "bytes": 35276,
+  "sha256": "3c130f9daa8c9040432f3de833ca57999a9cbc6991f8ada9d21dee9d761ea8cd",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.1.0",
+  "version": "1.2.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -96,6 +96,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Rule 8 retrofit: added What would fix this section"
+    },
+    {
+      "version": "1.2.0",
+      "date": "2026-10-18T06:06:35+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+4/-0 distinct numbers))",
+      "bytes": [
+        34081,
+        35276
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Sweep 4: Seeds Bill note and stale-claim notes on 7 posts"
     }
   ]
 }

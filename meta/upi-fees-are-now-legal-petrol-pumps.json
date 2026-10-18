@@ -4,15 +4,15 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/upi-fees-are-now-legal-petrol-pumps.html",
   "slug": "upi-fees-are-now-legal-petrol-pumps",
   "published": "2026-08-08T16:24:01.000+05:30",
-  "updated": "2026-10-01T08:58:22.211+05:30",
+  "updated": "2026-10-18T06:05:24.348+05:30",
   "labels": [
     "Energy & Fuels",
     "Fuel Retail & Pricing",
     "Industrial Policy",
     "Markets & Finance"
   ],
-  "bytes": 46669,
-  "sha256": "c57a606ce3875afdf5424a329f4b9b1100e78511ddba2829cad0a296d66ff72d",
+  "bytes": 47741,
+  "sha256": "15819665540aaa6c10a444530f3409d4d3cdf1d933bc963ae6e6ca939dd4aa87",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "14.1.0",
+  "version": "14.2.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -383,6 +383,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Rule 8 retrofit: added What would fix this section"
+    },
+    {
+      "version": "14.2.0",
+      "date": "2026-10-18T06:06:35+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+1/-0 distinct numbers))",
+      "bytes": [
+        46669,
+        47741
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Sweep 4: Seeds Bill note and stale-claim notes on 7 posts"
     }
   ]
 }

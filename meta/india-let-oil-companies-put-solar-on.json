@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/india-let-oil-companies-put-solar-on.html",
   "slug": "india-let-oil-companies-put-solar-on",
   "published": "2026-09-28T15:57:52.000+05:30",
-  "updated": "2026-09-29T09:06:05.431+05:30",
+  "updated": "2026-10-18T06:05:49.005+05:30",
   "labels": [
     "Energy & Fuels",
     "Oil & Gas Exploration",
     "Renewable Power & Storage"
   ],
-  "bytes": 28546,
-  "sha256": "7610f094e910c65ad6fe8304ed15ccd4f5dd1e30cb0b677cbf5d420c65402426",
+  "bytes": 29796,
+  "sha256": "114d167302492d44bd115c67be91202f697450f31e2e6d247d5463371d9ede93",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.1",
+  "version": "1.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -44,6 +44,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "scheduled sync"
+    },
+    {
+      "version": "1.1.0",
+      "date": "2026-10-18T06:06:35+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+9/-0 distinct numbers))",
+      "bytes": [
+        28546,
+        29796
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Sweep 4: Seeds Bill note and stale-claim notes on 7 posts"
     }
   ]
 }
