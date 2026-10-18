@@ -14894,3 +14894,14 @@ Index: cache_memory_cleaner how-to post
 **Changed**
 
 - `article-index-start-here` — 738,204 → 738,913 bytes (+709)
+
+## 2026-10-18T08:55:47+05:30 — 380 posts live
+
+**Added**
+
+- `how-to-use-ship2shorerag-offline` **v1.0.0** — How to use ship2shore_rag: offline answers from open maritime reports (24,190 bytes)
+- `how-to-use-patient-history-tracking` **v1.0.0** — How to use patient-history-tracking: a demo ICU dashboard and linked record (23,143 bytes)
+- `how-to-use-marketscreenerrag-backtested` **v1.0.0** — How to use market_screener_rag: backtested stock strategies by country (23,155 bytes)
+- `how-to-use-news-tracker-score-headlines` **v1.0.0** — How to use the news tracker: score headlines and check them against stock picks (22,067 bytes)
+- `how-to-use-bms-battery-management` **v1.0.0** — How to use bms-battery-management: simulate an EV battery pack in Python (22,194 bytes)
+- `how-to-use-claude-lmstudio-router-keep` **v1.0.0** — How to use claude-lmstudio-router: keep working when Claude is unavailable (24,260 bytes)

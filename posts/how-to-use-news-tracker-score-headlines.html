@@ -1,0 +1,233 @@
+<div class="artx htuglobal">
+<style>
+/* ---- typography (gs-typo-unify-v1): keep in sync across all posts ---- */
+.htuglobal{font-family:Georgia,'Times New Roman',serif;line-height:1.6;color:#111}
+.htuglobal h1,.htuglobal h2,.htuglobal h3{line-height:1.3}
+
+/* ---- palette: define every colour as a custom property here. Do not add
+       raw hex elsewhere in a post's <style> block — reference these vars, so
+       a future palette change is a 4-line edit instead of a find-and-replace
+       across every post. ----
+   --ink     #111    body text, light-locked (see below)
+   --accent  #8a4b08  eyebrow text, h2 rule, table header bg, stat numbers —
+                       the one colour that carries this post's "brand"
+   --rule    #e8dcc4  hairline borders, h2 underline, table cell borders
+   --panel   #fdf7ec  stat-card bg, even table rows — the palette's one tint
+*/
+.htuglobal{--ink:#111;--accent:#8a4b08;--rule:#e8dcc4;--panel:#fdf7ec;--good:#1a7a4c;--good-soft:#eaf6ef;--bad:#a5402c;--bad-soft:#fff4f0}
+
+/* ---- mono-label convention (added 2026-09-17, borrowed from the
+       india-trade-sector-policy-recommendations design system): the eyebrow
+       kicker and the source line read as data-journalism metadata, not
+       article prose, so they get a monospace face — a system stack, not a
+       hosted webfont, so no post gains an extra network request or a
+       flash-of-unstyled-text risk. Body text (h1/p/li/table) keeps the
+       serif — this is a two-place accent, not a font-pairing overhaul. ---- */
+.htuglobal{--mono:ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace}
+
+/* ---- light lock (gs-light-lock): a dark Blogger theme (and a browser/OS
+       set to prefers-color-scheme:dark) must not repaint text. Re-assert
+       the same values with !important — verified 2026-08-14 across 5 live
+       posts with the browser's colour scheme forced to dark: body/h1/p/table
+       all stayed light-background/dark-text with no low-contrast pairs.
+       Do NOT add selectors here for panels that are meant to be dark —
+       those go in the guard below. ---- */
+.htuglobal,.htuglobal p,.htuglobal li,.htuglobal td,.htuglobal th{color:var(--ink)!important}
+.htuglobal{background:#fff!important}
+
+/* ---- structure: title + subtitle ----
+   .eyebrow    = the small-caps kicker ABOVE the h1 — "Section · Topic ·
+                 Subtopic", sets context before the reader hits the claim
+   h1          = the headline itself. Write it as the CLAIM, not the topic
+                 ("The Rouble Is the Outlier, Not the Dollar" beats
+                 "Currency Trends Update"). font-size 1.5rem is the deliberate
+                 site-wide size — do not bump it per-post.
+   .standfirst = the one/two-sentence SUBTITLE directly under the h1. This is
+                 also what Blogger's snippet extractor and the JSON-LD meta
+                 description both read (see the gs-head-order block below) —
+                 write it as a real, complete sentence a reader could act on,
+                 not a fragment.
+*/
+.htuglobal .eyebrow{font-size:.8rem;font-weight:700;letter-spacing:.04em;color:var(--accent);text-transform:uppercase;margin:0 0 6px;font-family:var(--mono)}
+.htuglobal h1{margin:0 0 10px;font-size:1.5rem}
+.htuglobal .standfirst{font-size:1.05rem;color:#333!important;margin:0 0 18px}
+.htuglobal .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px;margin:18px 0}
+.htuglobal .stat{background:var(--panel);border:1px solid var(--rule);border-radius:10px;padding:12px 14px}
+.htuglobal .stat b{display:block;font-size:1.2rem;color:var(--accent)}
+.htuglobal .stat span{font-size:.8rem}
+.htuglobal h2{color:var(--accent);border-bottom:2px solid var(--rule);padding-bottom:6px;margin-top:30px;font-size:1.15rem}
+
+/* ---- tables: units live in the header, cells carry bare numbers.
+       .tw is the mobile-overflow fix — see the MOBILE comment above. ---- */
+.htuglobal .tw{overflow-x:auto}
+.htuglobal table{width:100%;border-collapse:collapse;margin:14px 0;font-size:.88rem}
+.htuglobal th,.htuglobal td{border:1px solid var(--rule);padding:7px 9px;text-align:right;word-wrap:break-word;overflow-wrap:break-word}
+.htuglobal th:first-child,.htuglobal td:first-child{text-align:left}
+.htuglobal th{background:var(--accent);color:#fff!important;font-weight:600}
+.htuglobal tr:nth-child(even){background:var(--panel)}
+
+.htuglobal .note{background:#eef4ff;border-left:4px solid #2a78d6;padding:12px 16px;margin:18px 0;border-radius:0 8px 8px 0;font-size:.93rem}
+.htuglobal .warn{background:var(--bad-soft);border-left:4px solid var(--bad);padding:12px 16px;margin:18px 0;border-radius:0 8px 8px 0;font-size:.93rem}
+/* ---- .good (added 2026-09-17): third semantic tier alongside .note (neutral
+       framing) and .warn (a caveat/scope limit) — for the case a caveat block
+       would otherwise get stretched to cover: confirming a figure checked out,
+       a correction that resolved cleanly, a claim that survived cross-check.
+       Same shape as .note/.warn on purpose, so all three read as one family. */
+.htuglobal .good{background:var(--good-soft);border-left:4px solid var(--good);padding:12px 16px;margin:18px 0;border-radius:0 8px 8px 0;font-size:.93rem}
+/* ---- .chip (added 2026-09-17): formalises a labelling pattern several posts
+       already built ad hoc in JS (e.g. "PLI coverage: strong/partial/gap")
+       into one reusable inline component, so a new post doesn't reinvent it.
+       Use inline: <span class="chip chip-good">Strong</span>. ---- */
+.htuglobal .chip{display:inline-block;font-family:var(--mono);font-size:.72rem;font-weight:700;letter-spacing:.02em;padding:.15rem .5rem;border-radius:99px;line-height:1.5}
+.htuglobal .chip-good{background:var(--good-soft);color:var(--good)}
+.htuglobal .chip-warn{background:var(--panel);color:var(--accent)}
+.htuglobal .chip-bad{background:var(--bad-soft);color:var(--bad)}
+.htuglobal .src{font-size:.84rem;font-family:var(--mono);border-top:1px solid var(--rule);padding-top:12px;margin-top:24px}
+.htuglobal .disclaimer{font-size:.82rem;color:#555;margin-top:10px}
+.htuglobal .revised{font-size:.8rem;color:#555!important;margin:0 0 14px}
+.htuglobal .revised code{font-family:inherit;background:var(--panel);padding:1px 5px;border-radius:4px}
+</style>
+
+
+<div class="gs-head-order" style="display:flex;flex-direction:column">
+<p class="standfirst" style="order:4">Score market news with a plain finance word list and see whether the news agrees with what your stock screens picked.</p>
+<div class="topnav-index-link" style="order:1;font-size:.82em;margin:6px 0 14px"><a href="https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html" style="color:#0b5394;text-decoration:none">&#8592; All Articles (Index)</a></div>
+<p class="eyebrow" style="order:2">Open-source tools · How-to · News sentiment</p>
+<h1 style="order:3">How to use the news tracker: score headlines and check them against stock picks</h1>
+</div>
+
+
+<a href="#" id="gs-skip-link" class="gs-skip-link" style="position:absolute;left:-9999px;top:auto;background:#1a1a1a;color:#fff;padding:.6rem 1rem;z-index:1000;border-radius:4px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.85rem">Skip to article content</a>
+<style>.gs-skip-link:focus{left:8px!important;top:8px!important}
+.gs-a11y-bar{display:flex;align-items:center;gap:.55rem;flex-wrap:wrap;background:#f4f5f7;border:1px solid #dfe3e8;border-radius:8px;padding:.55rem .8rem;margin:10px 0 16px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
+.gs-a11y-bar .gs-a11y-label{font-size:.68rem;font-weight:700;letter-spacing:.08em;color:#666;text-transform:uppercase;margin-right:.15rem}
+.gs-a11y-bar button{cursor:pointer;border:1px solid #c7cbd1;background:#fff;color:#1a1a1a;border-radius:5px;padding:.32rem .65rem;font-family:inherit;line-height:1}
+.gs-a11y-bar button.gs-a11y-fs{font-weight:700;min-width:2rem;text-align:center}
+.gs-a11y-bar button.gs-a11y-fs[data-size="sm"]{font-size:.8rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="md"]{font-size:1rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="lg"]{font-size:1.2rem}
+.gs-a11y-bar button.gs-a11y-fs[aria-pressed="true"]{background:#1a1a1a;color:#fff;border-color:#1a1a1a}
+.gs-a11y-bar button:hover{border-color:#8a4b08}
+.gs-a11y-bar button:focus-visible{outline:2px solid #8a4b08;outline-offset:1px}
+.gs-a11y-bar .gs-a11y-sep{width:1px;align-self:stretch;background:#dfe3e8;margin:0 .1rem}</style>
+<div class="gs-a11y-bar" role="group" aria-label="Accessibility controls">
+<span class="gs-a11y-label">Text Size</span>
+<button type="button" class="gs-a11y-fs" data-size="sm" aria-pressed="false" aria-label="Small text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="md" aria-pressed="true" aria-label="Medium text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="lg" aria-pressed="false" aria-label="Large text">A</button>
+<span class="gs-a11y-sep"></span>
+<button type="button" id="gs-a11y-listen" aria-label="Read this article aloud">&#128266; Listen</button>
+<button type="button" id="gs-a11y-stop" aria-label="Stop reading aloud">&#9632; Stop</button>
+</div>
+<script>(function(){
+var KEY='gs-a11y-fontsize', SIZES={sm:'0.92',md:'1',lg:'1.15'};
+function pb(){return document.querySelector('.post-body')||document.querySelector('.artx,.mdrx');}
+function apply(sz){
+  var el=pb(); if(!el||!SIZES[sz]) return;
+  el.style.fontSize=SIZES[sz]+'em';
+  var btns=document.querySelectorAll('.gs-a11y-fs');
+  for(var i=0;i<btns.length;i++){
+    var on=btns[i].getAttribute('data-size')===sz;
+    btns[i].setAttribute('aria-pressed', on?'true':'false');
+  }
+  try{localStorage.setItem(KEY,sz);}catch(e){}
+}
+var fsBtns=document.querySelectorAll('.gs-a11y-fs');
+for(var j=0;j<fsBtns.length;j++){
+  fsBtns[j].addEventListener('click',(function(b){return function(){apply(b.getAttribute('data-size'));};})(fsBtns[j]));
+}
+var saved; try{saved=localStorage.getItem(KEY);}catch(e){}
+apply(saved&&SIZES[saved]?saved:'md');
+
+var listenBtn=document.getElementById('gs-a11y-listen'), stopBtn=document.getElementById('gs-a11y-stop');
+if(listenBtn){
+  listenBtn.addEventListener('click', function(){
+    if(!('speechSynthesis' in window)){ alert('Text-to-speech is not supported in this browser.'); return; }
+    window.speechSynthesis.cancel();
+    var src=pb(); if(!src) return;
+    var clone=src.cloneNode(true);
+    var strip=clone.querySelectorAll('script,style,svg');
+    for(var k=0;k<strip.length;k++){ strip[k].parentNode.removeChild(strip[k]); }
+    var text=clone.textContent.replace(/\s+/g,' ').trim();
+    if(!text) return;
+    var chunks=text.match(/[\s\S]{1,180}(?:[.!?]|$)/g)||[text];
+    var idx=0;
+    function speakNext(){
+      if(idx>=chunks.length) return;
+      var u=new SpeechSynthesisUtterance(chunks[idx]);
+      u.onend=function(){ idx++; speakNext(); };
+      window.speechSynthesis.speak(u);
+    }
+    speakNext();
+  });
+}
+if(stopBtn){
+  stopBtn.addEventListener('click', function(){
+    if('speechSynthesis' in window) window.speechSynthesis.cancel();
+  });
+}
+var skip=document.getElementById('gs-skip-link');
+if(skip){
+  skip.addEventListener('click', function(ev){
+    ev.preventDefault();
+    var h=document.querySelector('.post-body h1')||document.querySelector('.artx h1,.mdrx h1,h1');
+    if(h){ h.setAttribute('tabindex','-1'); h.focus(); h.scrollIntoView(); }
+  });
+}
+})();</script>
+<style>.goog-te-menu-frame{max-width:340px!important;max-height:70vh!important;overflow:auto!important;box-shadow:0 6px 24px rgba(0,0,0,.25)!important}</style>
+<div id="google_translate_element" style="margin:8px 0 16px;"></div><script type="text/javascript">function googleTranslateElementInit(){new google.translate.TranslateElement({pageLanguage:"en",includedLanguages:"hi,bn,ta,te,mr,gu,kn,ml,pa,or,as,ur,sa,ne,sd",layout:google.translate.TranslateElement.InlineLayout.SIMPLE,autoDisplay:false},"google_translate_element");}</script><script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+
+<p class="revised" data-gs-revision-v1="1">Revised
+<time datetime="2026-10-18" itemprop="dateModified">18 October 2026</time>
+&middot; <code>v1.0.0</code> &middot; <a href="#changelog">what changed</a></p>
+
+<style>.htuglobal pre{background:#f6f3ea!important;color:#111!important;border:1px solid var(--rule);border-radius:8px;padding:10px 12px;overflow-x:auto;font-size:.82rem;line-height:1.45}.htuglobal pre code{background:none!important;color:#111!important;font-family:var(--mono)}.htuglobal code{font-family:var(--mono);font-size:.88em}.htuglobal .vid{position:relative;padding-bottom:56.25%;height:0;margin:16px 0;max-width:100%}.htuglobal .vid iframe{position:absolute;inset:0;width:100%;height:100%;border:0}</style><div class="stats"><div class="stat"><b>30</b><span>filter picks checked in the saved convergence report</span></div><div class="stat"><b>7 / 3 / 20</b><span>convergent / neutral / no news</span></div><div class="stat"><b>440</b><span>rows in the India validation history (27 Aug to 17 Oct)</span></div><div class="stat"><b>1</b><span>news unit test passed</span></div></div>
+<p>Code: <a href="https://github.com/herrrickshaw/global-market-data">github.com/herrrickshaw/global-market-data</a></p>
+<h2>Watch the walkthrough</h2>
+<div class="vid"><iframe src="https://www.youtube.com/embed/QvPbq-ryaHk" title="How to use the news tracker: score headlines and check them against stock picks" allowfullscreen loading="lazy"></iframe></div><p>Watch on YouTube: <a href="https://youtu.be/QvPbq-ryaHk">youtu.be/QvPbq-ryaHk</a></p>
+<h2>What it is for</h2>
+<p>There is no single repo called &#x27;global news tracker&#x27;. The demo treats it as a set of files: pipeline_news.py in global-market-data (live news sentiment), news_sentiment.py in global-market-scanners (a finance word-list scorer), and several news_*.py scripts in the market-pipeline code.</p>
+<p>The problem it addresses: general news feeds only match a ticker by name, so a quiet stock gets zero articles, and having no coverage looks the same as neutral sentiment. The tracker scores headlines and article bodies, then labels each screen pick as CONVERGENT (news agrees), DIVERGENT, NEUTRAL or NO_NEWS.</p>
+<p>The pipeline has four stages: market mood, per-ticker scoring, a forward log of sentiment over time, and a join to realised price moves. Free sources are RSS feeds from Moneycontrol, Economic Times, BusinessLine and LiveMint.</p>
+<p><b>Who it is for</b></p>
+<ul><li>People who want a transparent, keyless sentiment score to sit next to a stock screen</li><li>Engineers building a news-versus-price dataset over time</li><li>Researchers who want to see how coverage differs across screening strategies</li></ul>
+<div class="warn"><b>Not for.</b><ul><li>Predicting prices. The demo measures news attention, not returns</li><li>Anyone expecting a polished single product: this is a set of scripts across repos</li><li>Investment decisions. Not investment advice</li></ul></div>
+<h2>What you need</h2>
+<div class="tw"><table><tr><th>Requirement</th><th>Why</th><th>How to get it</th></tr><tr><td>Python 3 and pip</td><td>runs the scorer and tests</td><td>python.org (the demo used Python 3.14.7 with pytest 9.1.1)</td></tr><tr><td>Packages from requirements.txt</td><td>pandas, numpy, yfinance, requests and others in each repo</td><td>pip install -r requirements.txt in each repo</td></tr><tr><td>Network access</td><td>live RSS feeds and yfinance headlines. The saved reports and tests work offline</td><td>none needed for the tests</td></tr><tr><td>News API keys (optional)</td><td>Marketaux, Alpha Vantage, Finnhub and NewsData.io add more sources</td><td>set the keys as environment variables. The free RSS sources need no key</td></tr><tr><td>Not needed</td><td>no GPU, no database, no language model</td><td>the scorer is a word list, not an LLM</td></tr></table></div>
+<h2>Get the code and an AI assistant</h2>
+<p>You do not have to be a programmer. Get the repository, give it to an AI assistant, and ask in plain language. Any of these routes works:</p>
+<div class="tw"><table><tr><th>Tool</th><th>What you need</th><th>Best for</th></tr><tr><td><b>GitHub</b></td><td>Free account to fork or star; <code>git</code> to clone, or the green <b>Code</b> button, then <b>Download ZIP</b>, or open in <b>Codespaces</b></td><td>Getting the code and keeping up with updates</td></tr><tr><td><b>Claude Code</b></td><td>Claude subscription or API key; run <code>claude</code> inside the cloned folder</td><td>Letting the AI read and run the whole repo</td></tr><tr><td><b>Gemini CLI</b></td><td>Google account; run <code>gemini</code> inside the cloned folder</td><td>The same hands-on workflow with Gemini</td></tr><tr><td><b>Claude.ai, Gemini or ChatGPT in the browser</b></td><td>A chat account; upload <code>README.md</code> and the files you care about (or paste the output of <code>git ls-files</code>)</td><td>Understanding the project and asking questions without installing anything</td></tr><tr><td><b>Other tools</b> (Copilot Chat, Cursor, Codex CLI)</td><td>Open the cloned folder in the tool and point it at <code>README.md</code> first</td><td>Editing and extending the code</td></tr></table></div>
+<pre><code>git clone https://github.com/herrrickshaw/global-market-data.git
+cd global-market-data
+claude      # or: gemini</code></pre>
+<h2>Install</h2><ol><li>Clone the scanners repo, which holds the scorer and its test<pre><code>git clone https://github.com/herrrickshaw/global-market-scanners.git
+cd global-market-scanners</code></pre></li><li>Create a virtual environment and install requirements<pre><code>python3 -m venv .venv &amp;&amp; source .venv/bin/activate
+pip install -r requirements.txt
+pip install pytest</code></pre></li><li>Optional: clone the repo with the live pipeline<pre><code>git clone https://github.com/herrrickshaw/global-market-data.git</code></pre></li></ol>
+<h2>Quick start: commands and what you should see</h2>
+<p><b>Run the news scorer&#x27;s unit test</b></p>
+<pre><code>pytest tests/test_core.py -k news -v</code></pre>
+<p>1 selected, 118 deselected, test_news_sentiment_lexicon_scoring PASSED in 1.92 seconds.</p>
+<p><b>Look at the saved crawler sample, and the other saved reports in the market-pipeline reports folder</b></p>
+<pre><code>head news_crawl_sample.csv</code></pre>
+<p>10 saved rows: 7 scored from headlines and 3 from article bodies, for example RELIANCE and INFY, with scores between about -0.10 and +0.30. The same folder holds news_convergence.csv: of 30 filter passes, 7 CONVERGENT (for example ADANIPORTS, ADANIGREEN), 3 NEUTRAL, 20 NO_NEWS, no DIVERGENT. In strategy_news_validation_history.csv for India on 17 October 2026, Darvas picks were covered 7.7% of the time (26 of 339, lift 1.90) and Piotroski 1.2% (4 of 334, lift 0.30).</p>
+<h2>Ways to use it</h2>
+<div class="tw"><table><tr><th>Method</th><th>How it works</th></tr><tr><td>Command line</td><td>news_sentiment.py (--tickers, --market, --top) and pipeline_news.py (--mood, --tickers, --monitor, --join, --watchlist) take these flags per their file headers. These live commands were not run in the demo.</td></tr><tr><td>Library import</td><td>news_sentiment.py exposes score_text and score_headlines, which are pure functions covered by a unit test.</td></tr><tr><td>Saved reports</td><td>Read the CSV outputs (convergence, strategy validation history, crawl sample) in any spreadsheet.</td></tr><tr><td>Via an AI assistant</td><td>Ask the assistant to read the news_*.py files and explain or run them for your tickers.</td></tr></table></div>
+<h2>Sample prompts for your AI assistant</h2><p>Copy, paste and edit the parts in [brackets].</p>
+<ul><li>Read news_sentiment.py and explain how the finance word list turns a headline into a score between -1 and +1.</li><li>Run the news unit test in tests/test_core.py and tell me what it checks.</li><li>Read pipeline_news.py and explain the four stages. Which ones need a network and which need API keys?</li><li>Score these headlines with news_sentiment.py: [paste headlines]. Show the positive and negative hits for each.</li><li>In the convergence report, why would 20 of 30 picks have no news, and why is that not a good sign?</li><li>List the weak points in how tickers are matched to headlines. Two different tickers got the same Arvind Fashions headline.</li></ul>
+<h2>Limits and honest caveats</h2>
+<div class="warn"><ul><li>The identification of &#x27;global news tracker&#x27; with these files was an assumption. No repo has that name.</li><li>The news_pipeline_results folder was empty, so live runs were not performed in the demo. It used saved reports and offline tests.</li><li>In the convergence file, 20 of 30 picks had no news. Absence of coverage is not good news.</li><li>Some matches look loose: ARVINDFASN and AARNAV both received an Arvind Fashions headline.</li><li>The word list is compact and gives 0 to any headline without finance words.</li><li>Attention is not returns. The strategy validation report does not show whether any strategy is profitable.</li><li>News sentiment is noisy and may lead or lag price. Not investment advice.</li></ul></div>
+<p class="src">Sources: pipeline_news.py header in github.com/herrrickshaw/global-market-data; news_sentiment.py and tests in github.com/herrrickshaw/global-market-scanners; saved reports from the market-pipeline code; demo run on 18 October 2026.</p>
+<div id="changelog" class="note">
+<b>Revision history.</b>
+<ul>
+<li><b>v1.0.0</b> &mdash; 18 October 2026 &mdash; first published.</li>
+</ul>
+</div>
+
+
+<p class="disclaimer" data-gs-ai-disclosure-v1="1"><strong>About this article:</strong> Researched, written and edited by Umashankar Triplicane Dwarakanathan, with AI research assistance; every figure is meant to trace to the primary source cited. See the <a href="https://masaladeutsch.blogspot.com/p/disclaimer.html">Editorial Policy</a> for how sourcing, AI use and corrections work.</p>
+
+</div>
