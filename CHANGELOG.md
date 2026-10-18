@@ -14849,3 +14849,12 @@ Health-IT post: AI and jobs conclusion
 **Changed**
 
 - `india-tracks-every-taxpayer-in-minutes` — 45,823 → 51,434 bytes (+5,611)
+
+## 2026-10-18T08:26:58+05:30 — 373 posts live
+
+New post: AI and India's offshored work by sector
+
+
+**Added**
+
+- `ai-is-not-taking-indias-offshore-work` **v1.0.0** — AI Is Not Taking India's Offshore Work Evenly: A Sector-by-Sector Check, and the Government Backlogs the Same Skills Could Clear (55,940 bytes)
