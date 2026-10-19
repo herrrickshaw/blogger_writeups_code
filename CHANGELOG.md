@@ -14982,3 +14982,24 @@ Index: digital-twin-for-ipa how-to
 **Changed**
 
 - `article-index-start-here` — 744,949 → 745,857 bytes (+908)
+
+## 2026-10-19T10:22:53+05:30 — 389 posts live
+
+**Added**
+
+- `how-to-use-biomass-to-syngas-opensource` **v1.0.0** — How to use biomass-to-syngas-opensource: size a biomass gasifier (21,474 bytes)
+- `how-to-use-agentic-insurance-agent-open` **v1.0.0** — How to use agentic-insurance-agent: open-source insurance workflows with safe AI (23,681 bytes)
+- `how-to-use-amazon-product-selector` **v1.0.0** — How to use amazon-product-selector: a gated shortlist of rising Amazon keywords you can actually enter (22,514 bytes)
+- `how-to-use-agri-commodity-tracker-india` **v1.0.0** — How to use agri-commodity-tracker: India mandi prices and an agriculture panel in one DuckDB file (24,652 bytes)
+- `how-to-use-fci-warehouse-mspvsmsv-grain` **v1.0.0** — How to use FCI-warehouse-MSPvsMSV: grain procurement, MSP and mandi-price data with working models (24,895 bytes)
+- `how-to-use-cbsepaperpatterns-check` **v1.0.0** — How to use CBSE_paper_patterns: check which Class 12 topics keep coming back at high marks (24,627 bytes)
+- `how-to-use-bazartalkspy2cplus-c-port-of` **v1.0.0** — How to use Bazartalks_Py2Cplus: a C++ port of a quant research platform, with its Python-vs-C++ benchmark (24,819 bytes)
+- `how-to-use-bazaartalks-multi-market` **v1.0.0** — How to use BazaarTalks: a multi-market quant research platform you can query with DuckDB (25,170 bytes)
+
+**Versions**
+
+- `how-to-use-bms-battery-management` **1.0.2 → 1.0.3** (PATCH) — wording changed; no figures, sections or claims moved
+
+**Changed**
+
+- `how-to-use-bms-battery-management` — 22,569 → 22,450 bytes (-119)

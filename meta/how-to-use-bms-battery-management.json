@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/10/how-to-use-bms-battery-management.html",
   "slug": "how-to-use-bms-battery-management",
   "published": "2026-10-18T08:54:46.000+05:30",
-  "updated": "2026-10-19T09:05:42.582+05:30",
+  "updated": "2026-10-19T10:21:31.869+05:30",
   "labels": [
     "Energy & Fuels",
     "Mobility & EV",
     "Open-Source Tools & How-To"
   ],
-  "bytes": 22569,
-  "sha256": "1bfbcd319642b321ad1bd6b99d1470c742fb266b2a2c7dac25a3814bc3de624e",
+  "bytes": 22450,
+  "sha256": "d393e0188aefcc1556ada1a5c4c6b6bf1ac1d45a0c80666a9d3f1372a08f1a09",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.2",
+  "version": "1.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -53,6 +53,19 @@
       "bytes": [
         22313,
         22569
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.3",
+      "date": "2026-10-19T10:22:53+05:30",
+      "level": "patch",
+      "reason": "wording changed; no figures, sections or claims moved",
+      "bytes": [
+        22569,
+        22450
       ],
       "url_changed": null,
       "markers_changed": null,

@@ -1,0 +1,268 @@
+<div class="artx htucbsepa">
+<style>
+/* ---- typography (gs-typo-unify-v1): keep in sync across all posts ---- */
+.htucbsepa{font-family:Georgia,'Times New Roman',serif;line-height:1.6;color:#111}
+.htucbsepa h1,.htucbsepa h2,.htucbsepa h3{line-height:1.3}
+
+/* ---- palette: define every colour as a custom property here. Do not add
+       raw hex elsewhere in a post's <style> block — reference these vars, so
+       a future palette change is a 4-line edit instead of a find-and-replace
+       across every post. ----
+   --ink     #111    body text, light-locked (see below)
+   --accent  #8a4b08  eyebrow text, h2 rule, table header bg, stat numbers —
+                       the one colour that carries this post's "brand"
+   --rule    #e8dcc4  hairline borders, h2 underline, table cell borders
+   --panel   #fdf7ec  stat-card bg, even table rows — the palette's one tint
+*/
+.htucbsepa{--ink:#111;--accent:#8a4b08;--rule:#e8dcc4;--panel:#fdf7ec;--good:#1a7a4c;--good-soft:#eaf6ef;--bad:#a5402c;--bad-soft:#fff4f0}
+
+/* ---- mono-label convention (added 2026-09-17, borrowed from the
+       india-trade-sector-policy-recommendations design system): the eyebrow
+       kicker and the source line read as data-journalism metadata, not
+       article prose, so they get a monospace face — a system stack, not a
+       hosted webfont, so no post gains an extra network request or a
+       flash-of-unstyled-text risk. Body text (h1/p/li/table) keeps the
+       serif — this is a two-place accent, not a font-pairing overhaul. ---- */
+.htucbsepa{--mono:ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace}
+
+/* ---- light lock (gs-light-lock): a dark Blogger theme (and a browser/OS
+       set to prefers-color-scheme:dark) must not repaint text. Re-assert
+       the same values with !important — verified 2026-08-14 across 5 live
+       posts with the browser's colour scheme forced to dark: body/h1/p/table
+       all stayed light-background/dark-text with no low-contrast pairs.
+       Do NOT add selectors here for panels that are meant to be dark —
+       those go in the guard below. ---- */
+.htucbsepa,.htucbsepa p,.htucbsepa li,.htucbsepa td,.htucbsepa th{color:var(--ink)!important}
+.htucbsepa{background:#fff!important}
+
+/* ---- structure: title + subtitle ----
+   .eyebrow    = the small-caps kicker ABOVE the h1 — "Section · Topic ·
+                 Subtopic", sets context before the reader hits the claim
+   h1          = the headline itself. Write it as the CLAIM, not the topic
+                 ("The Rouble Is the Outlier, Not the Dollar" beats
+                 "Currency Trends Update"). font-size 1.5rem is the deliberate
+                 site-wide size — do not bump it per-post.
+   .standfirst = the one/two-sentence SUBTITLE directly under the h1. This is
+                 also what Blogger's snippet extractor and the JSON-LD meta
+                 description both read (see the gs-head-order block below) —
+                 write it as a real, complete sentence a reader could act on,
+                 not a fragment.
+*/
+.htucbsepa .eyebrow{font-size:.8rem;font-weight:700;letter-spacing:.04em;color:var(--accent);text-transform:uppercase;margin:0 0 6px;font-family:var(--mono)}
+.htucbsepa h1{margin:0 0 10px;font-size:1.5rem}
+.htucbsepa .standfirst{font-size:1.05rem;color:#333!important;margin:0 0 18px}
+.htucbsepa .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px;margin:18px 0}
+.htucbsepa .stat{background:var(--panel);border:1px solid var(--rule);border-radius:10px;padding:12px 14px}
+.htucbsepa .stat b{display:block;font-size:1.2rem;color:var(--accent)}
+.htucbsepa .stat span{font-size:.8rem}
+.htucbsepa h2{color:var(--accent);border-bottom:2px solid var(--rule);padding-bottom:6px;margin-top:30px;font-size:1.15rem}
+
+/* ---- tables: units live in the header, cells carry bare numbers.
+       .tw is the mobile-overflow fix — see the MOBILE comment above. ---- */
+.htucbsepa .tw{overflow-x:auto}
+.htucbsepa table{width:100%;border-collapse:collapse;margin:14px 0;font-size:.88rem}
+.htucbsepa th,.htucbsepa td{border:1px solid var(--rule);padding:7px 9px;text-align:right;word-wrap:break-word;overflow-wrap:break-word}
+.htucbsepa th:first-child,.htucbsepa td:first-child{text-align:left}
+.htucbsepa th{background:var(--accent);color:#fff!important;font-weight:600}
+.htucbsepa tr:nth-child(even){background:var(--panel)}
+
+.htucbsepa .note{background:#eef4ff;border-left:4px solid #2a78d6;padding:12px 16px;margin:18px 0;border-radius:0 8px 8px 0;font-size:.93rem}
+.htucbsepa .warn{background:var(--bad-soft);border-left:4px solid var(--bad);padding:12px 16px;margin:18px 0;border-radius:0 8px 8px 0;font-size:.93rem}
+/* ---- .good (added 2026-09-17): third semantic tier alongside .note (neutral
+       framing) and .warn (a caveat/scope limit) — for the case a caveat block
+       would otherwise get stretched to cover: confirming a figure checked out,
+       a correction that resolved cleanly, a claim that survived cross-check.
+       Same shape as .note/.warn on purpose, so all three read as one family. */
+.htucbsepa .good{background:var(--good-soft);border-left:4px solid var(--good);padding:12px 16px;margin:18px 0;border-radius:0 8px 8px 0;font-size:.93rem}
+/* ---- .chip (added 2026-09-17): formalises a labelling pattern several posts
+       already built ad hoc in JS (e.g. "PLI coverage: strong/partial/gap")
+       into one reusable inline component, so a new post doesn't reinvent it.
+       Use inline: <span class="chip chip-good">Strong</span>. ---- */
+.htucbsepa .chip{display:inline-block;font-family:var(--mono);font-size:.72rem;font-weight:700;letter-spacing:.02em;padding:.15rem .5rem;border-radius:99px;line-height:1.5}
+.htucbsepa .chip-good{background:var(--good-soft);color:var(--good)}
+.htucbsepa .chip-warn{background:var(--panel);color:var(--accent)}
+.htucbsepa .chip-bad{background:var(--bad-soft);color:var(--bad)}
+.htucbsepa .src{font-size:.84rem;font-family:var(--mono);border-top:1px solid var(--rule);padding-top:12px;margin-top:24px}
+.htucbsepa .disclaimer{font-size:.82rem;color:#555;margin-top:10px}
+.htucbsepa .revised{font-size:.8rem;color:#555!important;margin:0 0 14px}
+.htucbsepa .revised code{font-family:inherit;background:var(--panel);padding:1px 5px;border-radius:4px}
+</style>
+
+
+<div class="gs-head-order" style="display:flex;flex-direction:column">
+<p class="standfirst" style="order:4">An analysis of 1,955 CBSE Class XII question papers (2022 to 2026) that measures how often high-mark questions reuse the same wording. This post uses only the derived aggregate tables, not the question text.</p>
+<div class="topnav-index-link" style="order:1;font-size:.82em;margin:6px 0 14px"><a href="https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html" style="color:#0b5394;text-decoration:none">&#8592; All Articles (Index)</a></div>
+<p class="eyebrow" style="order:2">Open-Source Tools · How-To · Govt data &amp; research ops</p>
+<h1 style="order:3">How to use CBSE_paper_patterns: check which Class 12 topics keep coming back at high marks</h1>
+</div>
+
+
+<a href="#" id="gs-skip-link" class="gs-skip-link" style="position:absolute;left:-9999px;top:auto;background:#1a1a1a;color:#fff;padding:.6rem 1rem;z-index:1000;border-radius:4px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.85rem">Skip to article content</a>
+<style>.gs-skip-link:focus{left:8px!important;top:8px!important}
+.gs-a11y-bar{display:flex;align-items:center;gap:.55rem;flex-wrap:wrap;background:#f4f5f7;border:1px solid #dfe3e8;border-radius:8px;padding:.55rem .8rem;margin:10px 0 16px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
+.gs-a11y-bar .gs-a11y-label{font-size:.68rem;font-weight:700;letter-spacing:.08em;color:#666;text-transform:uppercase;margin-right:.15rem}
+.gs-a11y-bar button{cursor:pointer;border:1px solid #c7cbd1;background:#fff;color:#1a1a1a;border-radius:5px;padding:.32rem .65rem;font-family:inherit;line-height:1}
+.gs-a11y-bar button.gs-a11y-fs{font-weight:700;min-width:2rem;text-align:center}
+.gs-a11y-bar button.gs-a11y-fs[data-size="sm"]{font-size:.8rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="md"]{font-size:1rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="lg"]{font-size:1.2rem}
+.gs-a11y-bar button.gs-a11y-fs[aria-pressed="true"]{background:#1a1a1a;color:#fff;border-color:#1a1a1a}
+.gs-a11y-bar button:hover{border-color:#8a4b08}
+.gs-a11y-bar button:focus-visible{outline:2px solid #8a4b08;outline-offset:1px}
+.gs-a11y-bar .gs-a11y-sep{width:1px;align-self:stretch;background:#dfe3e8;margin:0 .1rem}</style>
+<div class="gs-a11y-bar" role="group" aria-label="Accessibility controls">
+<span class="gs-a11y-label">Text Size</span>
+<button type="button" class="gs-a11y-fs" data-size="sm" aria-pressed="false" aria-label="Small text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="md" aria-pressed="true" aria-label="Medium text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="lg" aria-pressed="false" aria-label="Large text">A</button>
+<span class="gs-a11y-sep"></span>
+<button type="button" id="gs-a11y-listen" aria-label="Read this article aloud">&#128266; Listen</button>
+<button type="button" id="gs-a11y-stop" aria-label="Stop reading aloud">&#9632; Stop</button>
+</div>
+<script>(function(){
+var KEY='gs-a11y-fontsize', SIZES={sm:'0.92',md:'1',lg:'1.15'};
+function pb(){return document.querySelector('.post-body')||document.querySelector('.artx,.mdrx');}
+function apply(sz){
+  var el=pb(); if(!el||!SIZES[sz]) return;
+  el.style.fontSize=SIZES[sz]+'em';
+  var btns=document.querySelectorAll('.gs-a11y-fs');
+  for(var i=0;i<btns.length;i++){
+    var on=btns[i].getAttribute('data-size')===sz;
+    btns[i].setAttribute('aria-pressed', on?'true':'false');
+  }
+  try{localStorage.setItem(KEY,sz);}catch(e){}
+}
+var fsBtns=document.querySelectorAll('.gs-a11y-fs');
+for(var j=0;j<fsBtns.length;j++){
+  fsBtns[j].addEventListener('click',(function(b){return function(){apply(b.getAttribute('data-size'));};})(fsBtns[j]));
+}
+var saved; try{saved=localStorage.getItem(KEY);}catch(e){}
+apply(saved&&SIZES[saved]?saved:'md');
+
+var listenBtn=document.getElementById('gs-a11y-listen'), stopBtn=document.getElementById('gs-a11y-stop');
+if(listenBtn){
+  listenBtn.addEventListener('click', function(){
+    if(!('speechSynthesis' in window)){ alert('Text-to-speech is not supported in this browser.'); return; }
+    window.speechSynthesis.cancel();
+    var src=pb(); if(!src) return;
+    var clone=src.cloneNode(true);
+    var strip=clone.querySelectorAll('script,style,svg');
+    for(var k=0;k<strip.length;k++){ strip[k].parentNode.removeChild(strip[k]); }
+    var text=clone.textContent.replace(/\s+/g,' ').trim();
+    if(!text) return;
+    var chunks=text.match(/[\s\S]{1,180}(?:[.!?]|$)/g)||[text];
+    var idx=0;
+    function speakNext(){
+      if(idx>=chunks.length) return;
+      var u=new SpeechSynthesisUtterance(chunks[idx]);
+      u.onend=function(){ idx++; speakNext(); };
+      window.speechSynthesis.speak(u);
+    }
+    speakNext();
+  });
+}
+if(stopBtn){
+  stopBtn.addEventListener('click', function(){
+    if('speechSynthesis' in window) window.speechSynthesis.cancel();
+  });
+}
+var skip=document.getElementById('gs-skip-link');
+if(skip){
+  skip.addEventListener('click', function(ev){
+    ev.preventDefault();
+    var h=document.querySelector('.post-body h1')||document.querySelector('.artx h1,.mdrx h1,h1');
+    if(h){ h.setAttribute('tabindex','-1'); h.focus(); h.scrollIntoView(); }
+  });
+}
+})();</script>
+<style>.goog-te-menu-frame{max-width:340px!important;max-height:70vh!important;overflow:auto!important;box-shadow:0 6px 24px rgba(0,0,0,.25)!important}</style>
+<div id="google_translate_element" style="margin:8px 0 16px;"></div><script type="text/javascript">function googleTranslateElementInit(){new google.translate.TranslateElement({pageLanguage:"en",includedLanguages:"hi,bn,ta,te,mr,gu,kn,ml,pa,or,as,ur,sa,ne,sd",layout:google.translate.TranslateElement.InlineLayout.SIMPLE,autoDisplay:false},"google_translate_element");}</script><script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+
+<p class="revised" data-gs-revision-v1="1">Revised
+<time datetime="2026-10-28" itemprop="dateModified">28 October 2026</time>
+&middot; <code>v1.0.0</code> &middot; <a href="#changelog">what changed</a></p>
+
+<style>.htucbsepa pre{background:#f6f3ea!important;color:#111!important;border:1px solid var(--rule);border-radius:8px;padding:10px 12px;overflow-x:auto;font-size:.82rem;line-height:1.45}.htucbsepa pre code{background:none!important;color:#111!important;font-family:var(--mono)}.htucbsepa code{font-family:var(--mono);font-size:.88em}.htucbsepa .vid{position:relative;padding-bottom:56.25%;height:0;margin:16px 0;max-width:100%}.htucbsepa .vid iframe{position:absolute;inset:0;width:100%;height:100%;border:0}</style><div class="stats"><div class="stat"><b>1,955</b><span>Class XII papers analysed (2022-2026)</span></div><div class="stat"><b>49%</b><span>Accountancy repetition index (highest)</span></div><div class="stat"><b>0%</b><span>English Core repetition index</span></div><div class="stat"><b>2</b><span>content topics recurring at high marks in 4 of 5 years</span></div></div>
+<p>Code: <a href="https://github.com/herrrickshaw/CBSE_paper_patterns">github.com/herrrickshaw/CBSE_paper_patterns</a></p>
+<h2>Watch the walkthrough</h2>
+<div class="vid"><iframe src="https://www.youtube.com/embed/PnWtmpgs4Hg" title="How to use CBSE_paper_patterns: check which Class 12 topics keep coming back at high marks" allowfullscreen loading="lazy"></iframe></div><p>Watch on YouTube: <a href="https://youtu.be/PnWtmpgs4Hg">youtu.be/PnWtmpgs4Hg</a></p>
+<h2>Why it is useful</h2>
+<ul><li>Teachers, students and tutors get an evidence-based answer to &#x27;do the papers repeat?&#x27; by subject, instead of coaching-industry folklore.</li><li>It replaces gut feeling with one number per subject: the share of marks in 4-mark-or-higher questions sitting on a phrase that recurs in at least 3 of 5 exam years.</li><li>The result is uneven: Accountancy 49%, Physics 44%, Economics 38% versus Chemistry and Biology at 5%. The repo explains this measures repeated wording, not repeated concepts.</li><li>Evidence from the run: the subject table and the mined topic list load from CSV in seconds and match the README; the heavy corpus rebuild was not run.</li></ul>
+<h2>What it is for</h2>
+<p>The repo mines 2 to 4 word phrases that recur across at least three exam years in high-mark questions, and reports a repetition index per subject. It also documents paper structure, syllabus coverage and three parsing traps for anyone processing CBSE PDFs.</p>
+<p>This post uses only the derived tables in data/ (subject_repetition.csv and recurring_topics.csv phrase counts). It does not reproduce question text.</p>
+<p><b>Who it is for</b></p>
+<ul><li>Teachers and tutors planning revision emphasis by subject</li><li>Researchers studying exam design and assessment patterns</li><li>Data people who want a worked example of parsing messy PDF exam papers</li></ul>
+<div class="warn"><b>Not for.</b><ul><li>Predicting next year&#x27;s paper: lexical repetition is not a guarantee that a topic will appear</li><li>Skipping syllabus topics. Revise the whole syllabus; this is a descriptive pattern, not advice on what to leave out</li><li>Redistributing CBSE question papers: they remain CBSE&#x27;s copyright (see limits)</li></ul></div>
+<h2>What you need</h2>
+<div class="tw"><table><tr><th>Requirement</th><th>Why</th><th>How to get it</th></tr><tr><td>Python 3.9+</td><td>Reading the aggregate CSVs needs only the standard library</td><td>python.org</td></tr><tr><td>git</td><td>To clone the repo (about 246 MB because it carries the corpus)</td><td>git-scm.com; use a shallow clone (git clone --depth 1) to save time</td></tr><tr><td>A Mac plus a 6 GB download (for the full rebuild only)</td><td>README steps fetch about 6 GB of PDFs and use macOS Vision OCR for scans</td><td>Not needed for this post and not run</td></tr></table></div>
+<h2>Get the code and an AI assistant</h2>
+<p>You do not have to be a programmer. Get the repository, give it to an AI assistant, and ask in plain language. Any of these routes works:</p>
+<div class="tw"><table><tr><th>Tool</th><th>What you need</th><th>Best for</th></tr><tr><td><b>GitHub</b></td><td>Free account to fork or star; <code>git</code> to clone, or the green <b>Code</b> button, then <b>Download ZIP</b>, or open in <b>Codespaces</b></td><td>Getting the code and keeping up with updates</td></tr><tr><td><b>Claude Code</b></td><td>Claude subscription or API key; run <code>claude</code> inside the cloned folder</td><td>Letting the AI read and run the whole repo</td></tr><tr><td><b>Gemini CLI</b></td><td>Google account; run <code>gemini</code> inside the cloned folder</td><td>The same hands-on workflow with Gemini</td></tr><tr><td><b>Claude.ai, Gemini or ChatGPT in the browser</b></td><td>A chat account; upload <code>README.md</code> and the files you care about (or paste the output of <code>git ls-files</code>)</td><td>Understanding the project and asking questions without installing anything</td></tr><tr><td><b>Other tools</b> (Copilot Chat, Cursor, Codex CLI)</td><td>Open the cloned folder in the tool and point it at <code>README.md</code> first</td><td>Editing and extending the code</td></tr></table></div>
+<pre><code>git clone https://github.com/herrrickshaw/CBSE_paper_patterns.git
+cd CBSE_paper_patterns
+claude      # or: gemini</code></pre>
+<h2>Install</h2><ol><li>Shallow-clone the repository<pre><code>git clone --depth 1 https://github.com/herrrickshaw/CBSE_paper_patterns.git
+cd CBSE_paper_patterns</code></pre></li><li>No install is needed to read the aggregates:<pre><code>ls data/</code></pre></li></ol>
+<h2>Quick start: commands and what you should see</h2>
+<p><b>Read the repetition index by subject</b></p>
+<pre><code>python3 -I -c &quot;import csv;[print(r[&#x27;subject&#x27;],r[&#x27;papers&#x27;],round(float(r[&#x27;repetition_index&#x27;])*100)) for r in csv.DictReader(open(&#x27;data/subject_repetition.csv&#x27;))]&quot;</code></pre>
+<p>One line per subject with paper count and repetition percentage.</p>
+<p><b>List the recurring content topics for one subject</b></p>
+<pre><code>python3 -I topics_for.py Physics   # 8-line filter on data/recurring_topics.csv, kind=content_topic</code></pre>
+<p>Phrases with the years they recurred in, number of papers and total marks (see sample output).</p>
+<h2>Sample outputs</h2><p>Real output from a run on the date shown in the sources line; trimmed to fit.</p>
+<p><b>Repetition index by subject (data/subject_repetition.csv, read 19 October 2026)</b></p>
+<pre><code>python3 -I print_index.py
+Subject             Papers  Questions  High-mark Qs  Repetition index
+Accountancy             50      1,020           109               49%
+Physics                 64      1,266           120               44%
+Economics               61      1,269           173               38%
+Mathematics             62      1,072            90               22%
+Business Studies        54      1,035           119               16%
+History                 67      1,569           167               16%
+Geography               60      1,036           229               14%
+Political Science       60        989           200                7%
+Chemistry               72      1,384           133                5%
+Biology                 62      1,373           169                5%
+English Core            72        757           259                0%</code></pre>
+<p>Matches the table in the README. Only the top rows were re-derived from the CSV; the rest were read as printed.</p>
+<p><b>Recurring physics topics (data/recurring_topics.csv, content_topic rows, phrase counts only)</b></p>
+<pre><code>python3 -I topics_for.py Physics
+phrase                     years  year_list            papers  marks
+electric field                4    2023,2024,2025,2026     14     84
+magnetic field                4    2023,2024,2025,2026     11     73
+parallel plate capacitor      3    2024,2025,2026          10     55
+refractive index              3    2024,2025,2026           8     54
+field due                     3    2024,2025,2026           7     35</code></pre>
+<p>Example question text in the CSV is deliberately not shown here.</p>
+<p><b>Recurring accountancy topics</b></p>
+<pre><code>python3 -I topics_for.py Accountancy
+phrase                     years  year_list            papers  marks
+partners firm                 3    2023,2025,2026          14    139
+balance sheet                 3    2024,2025,2026          20    139
+firm sharing profits          3    2023,2025,2026          13    121
+calculate cash                3    2024,2025,2026           9     57
+investing activities          3    2024,2025,2026           9     57
+firm was dissolved            3    2022,2025,2026           7     41</code></pre>
+<p>Overlapping phrases (partners firm / firm sharing profits) are one topic seen through different n-grams.</p>
+<h2>Ways to use it</h2>
+<div class="tw"><table><tr><th>Method</th><th>How it works</th></tr><tr><td>Read the analysis</td><td>analysis/topic_recurrence.md, paper_structure.md and syllabus_vs_papers.md explain the method and findings.</td></tr><tr><td>Load the CSVs</td><td>data/subject_repetition.csv, recurring_topics.csv, question_type_mix.csv and paper_structures.csv in pandas or a spreadsheet.</td></tr><tr><td>Reuse the parsing lessons</td><td>The three traps (reprinted options, Hindi-medium mojibake, exam sets counted as separate papers) apply to any PDF exam corpus.</td></tr><tr><td>Through an AI assistant</td><td>Ask an assistant to explain the index or chart it for a school staff meeting.</td></tr></table></div>
+<h2>Sample prompts for your AI assistant</h2><p>Copy, paste and edit the parts in [brackets].</p>
+<ul><li>Read analysis/topic_recurrence.md and explain in plain English what the repetition index does and does not measure.</li><li>Load data/subject_repetition.csv and make a bar chart of the index by subject, with a note that it measures wording, not concepts.</li><li>Why does Chemistry score 5% while Physics scores 44%? Quote the repo&#x27;s explanation.</li><li>Summarise the three parsing traps for a developer starting a similar project on another board&#x27;s papers.</li><li>Compare data/question_type_mix.csv across Physics and Accountancy and describe the difference in plain terms.</li></ul>
+<h2>Limits and honest caveats</h2>
+<div class="warn"><ul><li>Only the derived aggregate CSVs were used. The 6 GB corpus download, the parsing scripts and the OCR step were not run.</li><li>The index measures lexical repetition, not conceptual repetition; the repo itself warns that Chemistry and Biology are understated.</li><li>Marks across the full archive are regex-parsed and approximate; only the 32-paper subset is checked against stated maximums.</li><li>Hindi-medium and image-only papers are only partly recovered; 8 files still lack text.</li><li>Copyright: the repo&#x27;s description says papers are not redistributed, but the README says the corpus Markdown of CBSE question papers is included for research use under a take-down offer. Check CBSE&#x27;s terms yourself before reusing the corpus text.</li><li>Do not treat recurring topics as a reason to skip other syllabus content. This is a descriptive analysis, not exam or educational advice.</li></ul></div>
+<p class="src">Sources: the CBSE_paper_patterns README, analysis/topic_recurrence.md, data/subject_repetition.csv and data/recurring_topics.csv, read and filtered on 19 October 2026 from a fresh clone. No scripts were run on the corpus.</p>
+<div id="changelog" class="note">
+<b>Revision history.</b>
+<ul>
+<li><b>v1.0.0</b> &mdash; 28 October 2026 &mdash; first published.</li>
+</ul>
+</div>
+
+
+<style>/* gs-light-lock-v1 */.htucbsepa{--ink:#111!important;--accent:#8a4b08!important;--rule:#e8dcc4!important;--panel:#fdf7ec!important;--good:#1a7a4c!important;--good-soft:#eaf6ef!important;--bad:#a5402c!important;--bad-soft:#fff4f0!important}</style>
+<p class="disclaimer" data-gs-ai-disclosure-v1="1"><strong>About this article:</strong> Researched, written and edited by Umashankar Triplicane Dwarakanathan, with AI research assistance; every figure is meant to trace to the primary source cited. See the <a href="https://masaladeutsch.blogspot.com/p/disclaimer.html">Editorial Policy</a> for how sourcing, AI use and corrections work.</p>
+
+</div>

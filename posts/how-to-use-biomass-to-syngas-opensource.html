@@ -1,0 +1,233 @@
+<div class="artx htubiomas">
+<style>
+/* ---- typography (gs-typo-unify-v1): keep in sync across all posts ---- */
+.htubiomas{font-family:Georgia,'Times New Roman',serif;line-height:1.6;color:#111}
+.htubiomas h1,.htubiomas h2,.htubiomas h3{line-height:1.3}
+
+/* ---- palette: define every colour as a custom property here. Do not add
+       raw hex elsewhere in a post's <style> block — reference these vars, so
+       a future palette change is a 4-line edit instead of a find-and-replace
+       across every post. ----
+   --ink     #111    body text, light-locked (see below)
+   --accent  #8a4b08  eyebrow text, h2 rule, table header bg, stat numbers —
+                       the one colour that carries this post's "brand"
+   --rule    #e8dcc4  hairline borders, h2 underline, table cell borders
+   --panel   #fdf7ec  stat-card bg, even table rows — the palette's one tint
+*/
+.htubiomas{--ink:#111;--accent:#8a4b08;--rule:#e8dcc4;--panel:#fdf7ec;--good:#1a7a4c;--good-soft:#eaf6ef;--bad:#a5402c;--bad-soft:#fff4f0}
+
+/* ---- mono-label convention (added 2026-09-17, borrowed from the
+       india-trade-sector-policy-recommendations design system): the eyebrow
+       kicker and the source line read as data-journalism metadata, not
+       article prose, so they get a monospace face — a system stack, not a
+       hosted webfont, so no post gains an extra network request or a
+       flash-of-unstyled-text risk. Body text (h1/p/li/table) keeps the
+       serif — this is a two-place accent, not a font-pairing overhaul. ---- */
+.htubiomas{--mono:ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace}
+
+/* ---- light lock (gs-light-lock): a dark Blogger theme (and a browser/OS
+       set to prefers-color-scheme:dark) must not repaint text. Re-assert
+       the same values with !important — verified 2026-08-14 across 5 live
+       posts with the browser's colour scheme forced to dark: body/h1/p/table
+       all stayed light-background/dark-text with no low-contrast pairs.
+       Do NOT add selectors here for panels that are meant to be dark —
+       those go in the guard below. ---- */
+.htubiomas,.htubiomas p,.htubiomas li,.htubiomas td,.htubiomas th{color:var(--ink)!important}
+.htubiomas{background:#fff!important}
+
+/* ---- structure: title + subtitle ----
+   .eyebrow    = the small-caps kicker ABOVE the h1 — "Section · Topic ·
+                 Subtopic", sets context before the reader hits the claim
+   h1          = the headline itself. Write it as the CLAIM, not the topic
+                 ("The Rouble Is the Outlier, Not the Dollar" beats
+                 "Currency Trends Update"). font-size 1.5rem is the deliberate
+                 site-wide size — do not bump it per-post.
+   .standfirst = the one/two-sentence SUBTITLE directly under the h1. This is
+                 also what Blogger's snippet extractor and the JSON-LD meta
+                 description both read (see the gs-head-order block below) —
+                 write it as a real, complete sentence a reader could act on,
+                 not a fragment.
+*/
+.htubiomas .eyebrow{font-size:.8rem;font-weight:700;letter-spacing:.04em;color:var(--accent);text-transform:uppercase;margin:0 0 6px;font-family:var(--mono)}
+.htubiomas h1{margin:0 0 10px;font-size:1.5rem}
+.htubiomas .standfirst{font-size:1.05rem;color:#333!important;margin:0 0 18px}
+.htubiomas .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px;margin:18px 0}
+.htubiomas .stat{background:var(--panel);border:1px solid var(--rule);border-radius:10px;padding:12px 14px}
+.htubiomas .stat b{display:block;font-size:1.2rem;color:var(--accent)}
+.htubiomas .stat span{font-size:.8rem}
+.htubiomas h2{color:var(--accent);border-bottom:2px solid var(--rule);padding-bottom:6px;margin-top:30px;font-size:1.15rem}
+
+/* ---- tables: units live in the header, cells carry bare numbers.
+       .tw is the mobile-overflow fix — see the MOBILE comment above. ---- */
+.htubiomas .tw{overflow-x:auto}
+.htubiomas table{width:100%;border-collapse:collapse;margin:14px 0;font-size:.88rem}
+.htubiomas th,.htubiomas td{border:1px solid var(--rule);padding:7px 9px;text-align:right;word-wrap:break-word;overflow-wrap:break-word}
+.htubiomas th:first-child,.htubiomas td:first-child{text-align:left}
+.htubiomas th{background:var(--accent);color:#fff!important;font-weight:600}
+.htubiomas tr:nth-child(even){background:var(--panel)}
+
+.htubiomas .note{background:#eef4ff;border-left:4px solid #2a78d6;padding:12px 16px;margin:18px 0;border-radius:0 8px 8px 0;font-size:.93rem}
+.htubiomas .warn{background:var(--bad-soft);border-left:4px solid var(--bad);padding:12px 16px;margin:18px 0;border-radius:0 8px 8px 0;font-size:.93rem}
+/* ---- .good (added 2026-09-17): third semantic tier alongside .note (neutral
+       framing) and .warn (a caveat/scope limit) — for the case a caveat block
+       would otherwise get stretched to cover: confirming a figure checked out,
+       a correction that resolved cleanly, a claim that survived cross-check.
+       Same shape as .note/.warn on purpose, so all three read as one family. */
+.htubiomas .good{background:var(--good-soft);border-left:4px solid var(--good);padding:12px 16px;margin:18px 0;border-radius:0 8px 8px 0;font-size:.93rem}
+/* ---- .chip (added 2026-09-17): formalises a labelling pattern several posts
+       already built ad hoc in JS (e.g. "PLI coverage: strong/partial/gap")
+       into one reusable inline component, so a new post doesn't reinvent it.
+       Use inline: <span class="chip chip-good">Strong</span>. ---- */
+.htubiomas .chip{display:inline-block;font-family:var(--mono);font-size:.72rem;font-weight:700;letter-spacing:.02em;padding:.15rem .5rem;border-radius:99px;line-height:1.5}
+.htubiomas .chip-good{background:var(--good-soft);color:var(--good)}
+.htubiomas .chip-warn{background:var(--panel);color:var(--accent)}
+.htubiomas .chip-bad{background:var(--bad-soft);color:var(--bad)}
+.htubiomas .src{font-size:.84rem;font-family:var(--mono);border-top:1px solid var(--rule);padding-top:12px;margin-top:24px}
+.htubiomas .disclaimer{font-size:.82rem;color:#555;margin-top:10px}
+.htubiomas .revised{font-size:.8rem;color:#555!important;margin:0 0 14px}
+.htubiomas .revised code{font-family:inherit;background:var(--panel);padding:1px 5px;border-radius:4px}
+</style>
+
+
+<div class="gs-head-order" style="display:flex;flex-direction:column">
+<p class="standfirst" style="order:4">Estimate what a biomass gasifier produces from straw, how much tar it makes and whether the syngas is good enough for power or for chemicals.</p>
+<div class="topnav-index-link" style="order:1;font-size:.82em;margin:6px 0 14px"><a href="https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html" style="color:#0b5394;text-decoration:none">&#8592; All Articles (Index)</a></div>
+<p class="eyebrow" style="order:2">Open-source tools · How-to · Biomass gasification</p>
+<h1 style="order:3">How to use biomass-to-syngas-opensource: size a biomass gasifier</h1>
+</div>
+
+
+<a href="#" id="gs-skip-link" class="gs-skip-link" style="position:absolute;left:-9999px;top:auto;background:#1a1a1a;color:#fff;padding:.6rem 1rem;z-index:1000;border-radius:4px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.85rem">Skip to article content</a>
+<style>.gs-skip-link:focus{left:8px!important;top:8px!important}
+.gs-a11y-bar{display:flex;align-items:center;gap:.55rem;flex-wrap:wrap;background:#f4f5f7;border:1px solid #dfe3e8;border-radius:8px;padding:.55rem .8rem;margin:10px 0 16px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
+.gs-a11y-bar .gs-a11y-label{font-size:.68rem;font-weight:700;letter-spacing:.08em;color:#666;text-transform:uppercase;margin-right:.15rem}
+.gs-a11y-bar button{cursor:pointer;border:1px solid #c7cbd1;background:#fff;color:#1a1a1a;border-radius:5px;padding:.32rem .65rem;font-family:inherit;line-height:1}
+.gs-a11y-bar button.gs-a11y-fs{font-weight:700;min-width:2rem;text-align:center}
+.gs-a11y-bar button.gs-a11y-fs[data-size="sm"]{font-size:.8rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="md"]{font-size:1rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="lg"]{font-size:1.2rem}
+.gs-a11y-bar button.gs-a11y-fs[aria-pressed="true"]{background:#1a1a1a;color:#fff;border-color:#1a1a1a}
+.gs-a11y-bar button:hover{border-color:#8a4b08}
+.gs-a11y-bar button:focus-visible{outline:2px solid #8a4b08;outline-offset:1px}
+.gs-a11y-bar .gs-a11y-sep{width:1px;align-self:stretch;background:#dfe3e8;margin:0 .1rem}</style>
+<div class="gs-a11y-bar" role="group" aria-label="Accessibility controls">
+<span class="gs-a11y-label">Text Size</span>
+<button type="button" class="gs-a11y-fs" data-size="sm" aria-pressed="false" aria-label="Small text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="md" aria-pressed="true" aria-label="Medium text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="lg" aria-pressed="false" aria-label="Large text">A</button>
+<span class="gs-a11y-sep"></span>
+<button type="button" id="gs-a11y-listen" aria-label="Read this article aloud">&#128266; Listen</button>
+<button type="button" id="gs-a11y-stop" aria-label="Stop reading aloud">&#9632; Stop</button>
+</div>
+<script>(function(){
+var KEY='gs-a11y-fontsize', SIZES={sm:'0.92',md:'1',lg:'1.15'};
+function pb(){return document.querySelector('.post-body')||document.querySelector('.artx,.mdrx');}
+function apply(sz){
+  var el=pb(); if(!el||!SIZES[sz]) return;
+  el.style.fontSize=SIZES[sz]+'em';
+  var btns=document.querySelectorAll('.gs-a11y-fs');
+  for(var i=0;i<btns.length;i++){
+    var on=btns[i].getAttribute('data-size')===sz;
+    btns[i].setAttribute('aria-pressed', on?'true':'false');
+  }
+  try{localStorage.setItem(KEY,sz);}catch(e){}
+}
+var fsBtns=document.querySelectorAll('.gs-a11y-fs');
+for(var j=0;j<fsBtns.length;j++){
+  fsBtns[j].addEventListener('click',(function(b){return function(){apply(b.getAttribute('data-size'));};})(fsBtns[j]));
+}
+var saved; try{saved=localStorage.getItem(KEY);}catch(e){}
+apply(saved&&SIZES[saved]?saved:'md');
+
+var listenBtn=document.getElementById('gs-a11y-listen'), stopBtn=document.getElementById('gs-a11y-stop');
+if(listenBtn){
+  listenBtn.addEventListener('click', function(){
+    if(!('speechSynthesis' in window)){ alert('Text-to-speech is not supported in this browser.'); return; }
+    window.speechSynthesis.cancel();
+    var src=pb(); if(!src) return;
+    var clone=src.cloneNode(true);
+    var strip=clone.querySelectorAll('script,style,svg');
+    for(var k=0;k<strip.length;k++){ strip[k].parentNode.removeChild(strip[k]); }
+    var text=clone.textContent.replace(/\s+/g,' ').trim();
+    if(!text) return;
+    var chunks=text.match(/[\s\S]{1,180}(?:[.!?]|$)/g)||[text];
+    var idx=0;
+    function speakNext(){
+      if(idx>=chunks.length) return;
+      var u=new SpeechSynthesisUtterance(chunks[idx]);
+      u.onend=function(){ idx++; speakNext(); };
+      window.speechSynthesis.speak(u);
+    }
+    speakNext();
+  });
+}
+if(stopBtn){
+  stopBtn.addEventListener('click', function(){
+    if('speechSynthesis' in window) window.speechSynthesis.cancel();
+  });
+}
+var skip=document.getElementById('gs-skip-link');
+if(skip){
+  skip.addEventListener('click', function(ev){
+    ev.preventDefault();
+    var h=document.querySelector('.post-body h1')||document.querySelector('.artx h1,.mdrx h1,h1');
+    if(h){ h.setAttribute('tabindex','-1'); h.focus(); h.scrollIntoView(); }
+  });
+}
+})();</script>
+<style>.goog-te-menu-frame{max-width:340px!important;max-height:70vh!important;overflow:auto!important;box-shadow:0 6px 24px rgba(0,0,0,.25)!important}</style>
+<div id="google_translate_element" style="margin:8px 0 16px;"></div><script type="text/javascript">function googleTranslateElementInit(){new google.translate.TranslateElement({pageLanguage:"en",includedLanguages:"hi,bn,ta,te,mr,gu,kn,ml,pa,or,as,ur,sa,ne,sd",layout:google.translate.TranslateElement.InlineLayout.SIMPLE,autoDisplay:false},"google_translate_element");}</script><script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+
+<p class="revised" data-gs-revision-v1="1">Revised
+<time datetime="2026-10-18" itemprop="dateModified">18 October 2026</time>
+&middot; <code>v1.0.0</code> &middot; <a href="#changelog">what changed</a></p>
+
+<style>.htubiomas pre{background:#f6f3ea!important;color:#111!important;border:1px solid var(--rule);border-radius:8px;padding:10px 12px;overflow-x:auto;font-size:.82rem;line-height:1.45}.htubiomas pre code{background:none!important;color:#111!important;font-family:var(--mono)}.htubiomas code{font-family:var(--mono);font-size:.88em}.htubiomas .vid{position:relative;padding-bottom:56.25%;height:0;margin:16px 0;max-width:100%}.htubiomas .vid iframe{position:absolute;inset:0;width:100%;height:100%;border:0}</style><div class="stats"><div class="stat"><b>18</b><span>tests passed in the demo</span></div><div class="stat"><b>100 t/day</b><span>rice straw in the worked example</span></div><div class="stat"><b>75.8%</b><span>cold gas efficiency (same at every temperature tested)</span></div><div class="stat"><b>50.2%</b><span>inert fraction in the syngas</span></div></div>
+<p>Code: <a href="https://github.com/herrrickshaw/biomass-to-syngas-opensource">github.com/herrrickshaw/biomass-to-syngas-opensource</a></p>
+<h2>Watch the walkthrough</h2>
+<div class="vid"><iframe src="https://www.youtube.com/embed/xHoqtYSpsn0" title="How to use biomass-to-syngas-opensource: size a biomass gasifier" allowfullscreen loading="lazy"></iframe></div><p>Watch on YouTube: <a href="https://youtu.be/xHoqtYSpsn0">youtu.be/xHoqtYSpsn0</a></p>
+<h2>What it is for</h2>
+<p>India has an estimated 230 million tonnes a year of unutilised agricultural biomass, and open-field burning is a seasonal air-quality problem. Gasification is one proposed alternative, but it needs a sizing estimate first.</p>
+<p>This toolkit gives a traceable first estimate: feedstock characterisation, a gasifier at a chosen temperature and type, tar and particulate cleanup, and a screening of syngas quality for its likely use.</p>
+<p><b>Who it is for</b></p>
+<ul><li>Students and analysts exploring biomass-to-energy options</li><li>Early-stage project teams who need a quick comparison of gasifier types</li><li>Anyone who wants an estimate they can trace to a literature source</li></ul>
+<div class="warn"><b>Not for.</b><ul><li>Detailed engineering design</li><li>Rate-based cleanup sizing or collection and logistics planning</li></ul></div>
+<h2>What you need</h2>
+<div class="tw"><table><tr><th>Requirement</th><th>Why</th><th>How to get it</th></tr><tr><td>Python 3.10 or newer</td><td>The package declares requires-python &gt;= 3.10</td><td>python.org, or brew install python on macOS</td></tr><tr><td>Python packages: CoolProp, scipy, numpy, streamlit, pandas</td><td>Property correlations, calculations, tables and the web app</td><td>Installed automatically by pip install -e &quot;.[dev]&quot;</td></tr><tr><td>A terminal and git</td><td>To clone the repo and run the commands</td><td>Terminal on macOS/Linux, or WSL/Git Bash on Windows; or use GitHub Codespaces</td></tr><tr><td>Internet for the first install only</td><td>pip downloads the packages</td><td>No internet is needed to run the sizing code afterwards</td></tr><tr><td>API keys, accounts, licences</td><td>None required</td><td>No database, server, GPU, model download or API key is needed. The demo used none.</td></tr></table></div>
+<h2>Get the code and an AI assistant</h2>
+<p>You do not have to be a programmer. Get the repository, give it to an AI assistant, and ask in plain language. Any of these routes works:</p>
+<div class="tw"><table><tr><th>Tool</th><th>What you need</th><th>Best for</th></tr><tr><td><b>GitHub</b></td><td>Free account to fork or star; <code>git</code> to clone, or the green <b>Code</b> button, then <b>Download ZIP</b>, or open in <b>Codespaces</b></td><td>Getting the code and keeping up with updates</td></tr><tr><td><b>Claude Code</b></td><td>Claude subscription or API key; run <code>claude</code> inside the cloned folder</td><td>Letting the AI read and run the whole repo</td></tr><tr><td><b>Gemini CLI</b></td><td>Google account; run <code>gemini</code> inside the cloned folder</td><td>The same hands-on workflow with Gemini</td></tr><tr><td><b>Claude.ai, Gemini or ChatGPT in the browser</b></td><td>A chat account; upload <code>README.md</code> and the files you care about (or paste the output of <code>git ls-files</code>)</td><td>Understanding the project and asking questions without installing anything</td></tr><tr><td><b>Other tools</b> (Copilot Chat, Cursor, Codex CLI)</td><td>Open the cloned folder in the tool and point it at <code>README.md</code> first</td><td>Editing and extending the code</td></tr></table></div>
+<pre><code>git clone https://github.com/herrrickshaw/biomass-to-syngas-opensource.git
+cd biomass-to-syngas-opensource
+claude      # or: gemini</code></pre>
+<h2>Install</h2><ol><li>Make sure Python 3.10 or newer is installed<pre><code>python3 --version</code></pre></li><li>Create and activate a virtual environment (keeps the install tidy)<pre><code>python3 -m venv .venv &amp;&amp; source .venv/bin/activate</code></pre></li><li>Install the package with the test tools. The dependencies (CoolProp, pandas, plotly, streamlit or scipy/numpy) come in automatically from pyproject.toml.<pre><code>pip install -e &quot;.[dev]&quot;</code></pre></li></ol>
+<h2>Quick start: commands and what you should see</h2>
+<p><b>Run the tests</b></p>
+<pre><code>pytest -q tests</code></pre>
+<p>18 passed in about 1.3 seconds in the demo.</p>
+<p><b>Size a gasifier for 100 t/day of rice straw</b></p>
+<pre><code>python examples/full_chain_worked_example.py</code></pre>
+<p>87.43 mol/s of syngas at 850 C in a fluidized bed, 75.8% cold gas efficiency, tar cut from 29.40 g/s to 0.882 g/s after cleanup, H2:CO of 1.73:1, LHV 5.71 MJ/Nm3 and 50.2% inert gas. The recommended use is direct combustion or gas-engine power only, because the inert share is too high for chemical synthesis.</p>
+<p><b>Optional: interactive app</b></p>
+<pre><code>streamlit run streamlit_app.py</code></pre>
+<p>A local web page opens. Present in the repo; not part of the captured demo.</p>
+<h2>Ways to use it</h2>
+<div class="tw"><table><tr><th>Method</th><th>How it works</th></tr><tr><td>Command line (example scripts)</td><td>Run the worked example in examples/ and read the printed numbers.</td></tr><tr><td>Python library</td><td>Import the modules from the package in your own script or notebook and call them with your own feed and plant size.</td></tr><tr><td>Interactive web app</td><td>Run streamlit run streamlit_app.py from the repo folder for a browser-based version with sliders and charts.</td></tr><tr><td>Through an AI assistant</td><td>Open the cloned folder in Claude Code or Gemini CLI and ask it to run the example, change the inputs, or explain a result. Or upload README.md and docs/VALIDATION.md to a chat assistant.</td></tr></table></div>
+<h2>Sample prompts for your AI assistant</h2><p>Copy, paste and edit the parts in [brackets].</p>
+<ul><li>Explain this repository in plain English: what does it size, what goes in and what comes out?</li><li>Run the tests and the worked example, then summarise the results in a short table.</li><li>Compare downdraft, fluidized bed and updraft gasifiers for my feed and explain the tar numbers.</li><li>Open docs/VALIDATION.md and tell me where this model matches published figures and where it does not.</li><li>What would I need from a vendor or a licensed simulator before I could rely on these numbers?</li><li>Change the plant size to [your tonnes per day] and show me which outputs change most.</li></ul>
+<h2>Limits and honest caveats</h2>
+<div class="warn"><ul><li>Conceptual sizing, not detailed engineering design.</li><li>Measured in the demo: tar yield stayed at 29.39 g/s from 750 to 950 C. It is a lookup by gasifier type, not a temperature model.</li><li>Measured: cold gas efficiency was 75.8% at every temperature in the sweep, so do not use the model to find an optimum temperature.</li><li>The syngas was 50.2% inert, so it is rated for power, not as a chemical synthesis feed.</li><li>The README notes fixed conversions and no rate-based cleanup sizing. Collection and logistics of the straw are the real barrier.</li><li>The repo as checked has no LICENSE file; check the repo page before reusing the code.</li></ul></div>
+<p class="src">Sources: the biomass-to-syngas-opensource README, docs/VALIDATION.md and examples/ folder, and the video demo run of 18 October 2026.</p>
+<div id="changelog" class="note">
+<b>Revision history.</b>
+<ul>
+<li><b>v1.0.0</b> &mdash; 18 October 2026 &mdash; first published.</li>
+</ul>
+</div>
+
+
+<style>/* gs-light-lock-v1 */.htubiomas{--ink:#111!important;--accent:#8a4b08!important;--rule:#e8dcc4!important;--panel:#fdf7ec!important;--good:#1a7a4c!important;--good-soft:#eaf6ef!important;--bad:#a5402c!important;--bad-soft:#fff4f0!important}</style>
+<p class="disclaimer" data-gs-ai-disclosure-v1="1"><strong>About this article:</strong> Researched, written and edited by Umashankar Triplicane Dwarakanathan, with AI research assistance; every figure is meant to trace to the primary source cited. See the <a href="https://masaladeutsch.blogspot.com/p/disclaimer.html">Editorial Policy</a> for how sourcing, AI use and corrections work.</p>
+
+</div>
