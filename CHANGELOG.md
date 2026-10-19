@@ -15003,3 +15003,16 @@ Index: digital-twin-for-ipa how-to
 **Changed**
 
 - `how-to-use-bms-battery-management` — 22,569 → 22,450 bytes (-119)
+
+## 2026-10-19T10:23:53+05:30 — 389 posts live
+
+Index: nine more how-to posts with public videos
+
+
+**Versions**
+
+- `article-index-start-here` **60.12.0 → 60.13.0** (MINOR) — forced via --as minor (figures changed (+2/-2 distinct numbers))
+
+**Changed**
+
+- `article-index-start-here` — 745,857 → 754,063 bytes (+8,206)

@@ -4,10 +4,10 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html",
   "slug": "article-index-start-here",
   "published": "2026-08-02T10:43:26.000+05:30",
-  "updated": "2026-10-19T10:16:58.134+05:30",
+  "updated": "2026-10-19T10:23:22.934+05:30",
   "labels": [],
-  "bytes": 745857,
-  "sha256": "1f9ebb093f38e7749d7280328805155c9b3d58dd772b7cdeb05992676e03661b",
+  "bytes": 754063,
+  "sha256": "f50b4a2ca0310dc8110a3a50ef02fd7d9b591b63c1333fed3d55d83f100d7219",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "60.12.0",
+  "version": "60.13.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -2028,6 +2028,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Index: digital-twin-for-ipa how-to"
+    },
+    {
+      "version": "60.13.0",
+      "date": "2026-10-19T10:23:53+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+2/-2 distinct numbers))",
+      "bytes": [
+        745857,
+        754063
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Index: nine more how-to posts with public videos"
     }
   ]
 }
