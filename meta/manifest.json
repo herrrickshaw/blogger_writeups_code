@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-10-20T03:04:58+05:30",
+  "snapshot": "2026-10-20T03:14:24+05:30",
   "count": 390,
   "posts": {
     "1023631151138981087": {
@@ -21447,18 +21447,18 @@
     },
     "3965092070651993137": {
       "id": "3965092070651993137",
-      "title": "India's 2026-27 Ethanol Tender Drops Cane Juice, Cuts Maize by Rs 3 a Litre and Puts the Cheapest Grain First",
+      "title": "India's 2026-27 Ethanol Tender Drops Cane Juice, Cuts Maize by Rs 3 a Litre and Flips From Sugar-First to Cheapest-First",
       "url": "https://masaladeutsch.blogspot.com/2026/10/indias-2026-27-ethanol-tender-drops.html",
       "slug": "indias-2026-27-ethanol-tender-drops",
       "published": "2026-10-20T03:02:30.000+05:30",
-      "updated": "2026-10-20T03:03:11.168+05:30",
+      "updated": "2026-10-20T03:13:52.744+05:30",
       "labels": [
         "Agriculture & Fertilisers",
         "Energy & Fuels",
         "Ethanol & Biofuels"
       ],
-      "bytes": 34256,
-      "sha256": "a0b2aa759277102f0b7cacd768d3b3d577f1537de4ef247a0179d030e74dc412",
+      "bytes": 34065,
+      "sha256": "5172870e3203e3044ba927a7558ec8164da632bc46c35b99b20c00035eed3652",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -21470,7 +21470,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -21478,6 +21478,19 @@
           "level": "initial",
           "reason": "first snapshot",
           "note": "New post: ESY 2026-27 ethanol tender vs last year"
+        },
+        {
+          "version": "1.0.1",
+          "date": "2026-10-20T03:14:24+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (figures changed (+18/-4 distinct numbers))",
+          "bytes": [
+            34256,
+            34065
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Ethanol tender post: compared against the ESY 2025-26 tender document"
         }
       ]
     },

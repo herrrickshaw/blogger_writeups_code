@@ -15042,3 +15042,16 @@ Index: ESY 2026-27 ethanol tender post
 **Re-dated** (publication date changed; body and URL unchanged)
 
 - `indias-2026-27-ethanol-tender-drops` — 2026-10-20 &rarr; 2026-10-20
+
+## 2026-10-20T03:14:24+05:30 — 390 posts live
+
+Ethanol tender post: compared against the ESY 2025-26 tender document
+
+
+**Versions**
+
+- `indias-2026-27-ethanol-tender-drops` **1.0.0 → 1.0.1** (PATCH) — forced via --as patch (figures changed (+18/-4 distinct numbers))
+
+**Changed**
+
+- `indias-2026-27-ethanol-tender-drops` — 34,256 → 34,065 bytes (-191)
