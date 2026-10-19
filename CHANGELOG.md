@@ -15016,3 +15016,12 @@ Index: nine more how-to posts with public videos
 **Changed**
 
 - `article-index-start-here` — 745,857 → 754,063 bytes (+8,206)
+
+## 2026-10-20T03:03:02+05:30 — 390 posts live
+
+New post: ESY 2026-27 ethanol tender vs last year
+
+
+**Added**
+
+- `indias-2026-27-ethanol-tender-drops` **v1.0.0** — India's 2026-27 Ethanol Tender Drops Cane Juice, Cuts Maize by Rs 3 a Litre and Puts the Cheapest Grain First (34,256 bytes)
