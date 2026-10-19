@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/10/how-to-use-patient-history-tracking.html",
   "slug": "how-to-use-patient-history-tracking",
   "published": "2026-10-18T08:54:52.000+05:30",
-  "updated": "2026-10-18T09:05:22.087+05:30",
+  "updated": "2026-10-19T09:05:19.702+05:30",
   "labels": [
     "Healthcare",
     "India",
     "Open-Source Tools & How-To"
   ],
-  "bytes": 23262,
-  "sha256": "d82163fd8fa89c2aab68993686462c7cfd35b0c405923d01098d2638f76c3b1a",
+  "bytes": 23518,
+  "sha256": "0ad2554902f56222056444562c98ec16346fa4513e01e2e9ab22ce35274e4656",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -44,6 +44,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "scheduled sync"
+    },
+    {
+      "version": "1.0.2",
+      "date": "2026-10-19T10:16:14+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        23262,
+        23518
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

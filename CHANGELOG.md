@@ -14943,3 +14943,29 @@ scheduled sync
 - `how-to-use-bms-battery-management` — 22,194 → 22,313 bytes (+119)
 - `how-to-use-claude-lmstudio-router-keep` — 24,260 → 24,379 bytes (+119)
 - `how-to-use-cachememorycleaner-free-mac` — 21,964 → 22,083 bytes (+119)
+
+## 2026-10-19T10:16:14+05:30 — 381 posts live
+
+**Added**
+
+- `how-to-use-digital-twin-for-ipa` **v1.0.0** — How to use digital-twin-for-ipa: a searchable map of India's investment incentives (23,788 bytes)
+
+**Versions**
+
+- `how-to-use-ship2shorerag-offline` **1.0.1 → 1.0.2** (PATCH) — visible text identical; only markup/styling changed
+- `how-to-use-patient-history-tracking` **1.0.1 → 1.0.2** (PATCH) — visible text identical; only markup/styling changed
+- `how-to-use-marketscreenerrag-backtested` **1.0.1 → 1.0.2** (PATCH) — visible text identical; only markup/styling changed
+- `how-to-use-news-tracker-score-headlines` **1.0.1 → 1.0.2** (PATCH) — visible text identical; only markup/styling changed
+- `how-to-use-bms-battery-management` **1.0.1 → 1.0.2** (PATCH) — visible text identical; only markup/styling changed
+- `how-to-use-claude-lmstudio-router-keep` **1.0.1 → 1.0.2** (PATCH) — visible text identical; only markup/styling changed
+- `how-to-use-cachememorycleaner-free-mac` **1.0.1 → 1.0.2** (PATCH) — visible text identical; only markup/styling changed
+
+**Changed**
+
+- `how-to-use-ship2shorerag-offline` — 24,309 → 24,565 bytes (+256)
+- `how-to-use-patient-history-tracking` — 23,262 → 23,518 bytes (+256)
+- `how-to-use-marketscreenerrag-backtested` — 23,274 → 23,530 bytes (+256)
+- `how-to-use-news-tracker-score-headlines` — 22,186 → 22,442 bytes (+256)
+- `how-to-use-bms-battery-management` — 22,313 → 22,569 bytes (+256)
+- `how-to-use-claude-lmstudio-router-keep` — 24,379 → 24,635 bytes (+256)
+- `how-to-use-cachememorycleaner-free-mac` — 22,083 → 22,339 bytes (+256)

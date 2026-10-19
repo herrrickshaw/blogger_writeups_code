@@ -4,15 +4,15 @@
   "url": "https://masaladeutsch.blogspot.com/2026/10/how-to-use-news-tracker-score-headlines.html",
   "slug": "how-to-use-news-tracker-score-headlines",
   "published": "2026-10-18T08:54:48.000+05:30",
-  "updated": "2026-10-18T09:05:38.403+05:30",
+  "updated": "2026-10-19T09:05:35.493+05:30",
   "labels": [
     "Equity Markets & Stock Screening",
     "India",
     "Markets & Finance",
     "Open-Source Tools & How-To"
   ],
-  "bytes": 22186,
-  "sha256": "90b78c9038f8e37ff28842f0104f22eaf0f5eb81cf7bab75823d151366f25d8d",
+  "bytes": 22442,
+  "sha256": "08eb01cc07a8d422b09d6522cc73bb6288d39ff60769faa7d53e898f3e3609cc",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -45,6 +45,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "scheduled sync"
+    },
+    {
+      "version": "1.0.2",
+      "date": "2026-10-19T10:16:14+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        22186,
+        22442
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

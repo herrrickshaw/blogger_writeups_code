@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/10/how-to-use-marketscreenerrag-backtested.html",
   "slug": "how-to-use-marketscreenerrag-backtested",
   "published": "2026-10-18T08:54:50.000+05:30",
-  "updated": "2026-10-18T09:05:30.187+05:30",
+  "updated": "2026-10-19T09:05:27.653+05:30",
   "labels": [
     "Equity Markets & Stock Screening",
     "Markets & Finance",
     "Open-Source Tools & How-To"
   ],
-  "bytes": 23274,
-  "sha256": "b8e3c3e1dbbb151a89708163585a9c930f80009fc6de6e416758ba7e9e8067e2",
+  "bytes": 23530,
+  "sha256": "d9f589caff3c935f448d048e14762db6ed9bf66cff448a7c0cbfc9515fdacf16",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -44,6 +44,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "scheduled sync"
+    },
+    {
+      "version": "1.0.2",
+      "date": "2026-10-19T10:16:14+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        23274,
+        23530
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

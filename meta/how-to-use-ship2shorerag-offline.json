@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/10/how-to-use-ship2shorerag-offline.html",
   "slug": "how-to-use-ship2shorerag-offline",
   "published": "2026-10-18T08:54:54.000+05:30",
-  "updated": "2026-10-18T09:05:13.905+05:30",
+  "updated": "2026-10-19T09:05:12.627+05:30",
   "labels": [
     "Open-Source Tools & How-To",
     "Shipping & Maritime Fuels"
   ],
-  "bytes": 24309,
-  "sha256": "bde875dbaaa6f2524329239dc2f7b57c65ee86bfe0d0ea992512b1d10d13c488",
+  "bytes": 24565,
+  "sha256": "ebb4d3195291140d221c76bfd7275d79f5425f32d891c62df1446ea4594a6bea",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -43,6 +43,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "scheduled sync"
+    },
+    {
+      "version": "1.0.2",
+      "date": "2026-10-19T10:16:14+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        24309,
+        24565
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }
