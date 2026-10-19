@@ -14969,3 +14969,16 @@ scheduled sync
 - `how-to-use-bms-battery-management` — 22,313 → 22,569 bytes (+256)
 - `how-to-use-claude-lmstudio-router-keep` — 24,379 → 24,635 bytes (+256)
 - `how-to-use-cachememorycleaner-free-mac` — 22,083 → 22,339 bytes (+256)
+
+## 2026-10-19T10:17:31+05:30 — 381 posts live
+
+Index: digital-twin-for-ipa how-to
+
+
+**Versions**
+
+- `article-index-start-here` **60.11.0 → 60.12.0** (MINOR) — forced via --as minor (figures changed (+2/-1 distinct numbers))
+
+**Changed**
+
+- `article-index-start-here` — 744,949 → 745,857 bytes (+908)
