@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-10-20T03:03:02+05:30",
+  "snapshot": "2026-10-20T03:04:58+05:30",
   "count": 390,
   "posts": {
     "1023631151138981087": {
@@ -21450,9 +21450,13 @@
       "title": "India's 2026-27 Ethanol Tender Drops Cane Juice, Cuts Maize by Rs 3 a Litre and Puts the Cheapest Grain First",
       "url": "https://masaladeutsch.blogspot.com/2026/10/indias-2026-27-ethanol-tender-drops.html",
       "slug": "indias-2026-27-ethanol-tender-drops",
-      "published": "2026-10-20T03:02:30.767+05:30",
-      "updated": "2026-10-20T03:02:30.767+05:30",
-      "labels": [],
+      "published": "2026-10-20T03:02:30.000+05:30",
+      "updated": "2026-10-20T03:03:11.168+05:30",
+      "labels": [
+        "Agriculture & Fertilisers",
+        "Energy & Fuels",
+        "Ethanol & Biofuels"
+      ],
       "bytes": 34256,
       "sha256": "a0b2aa759277102f0b7cacd768d3b3d577f1537de4ef247a0179d030e74dc412",
       "markers": {
@@ -40186,10 +40190,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html",
       "slug": "article-index-start-here",
       "published": "2026-08-02T10:43:26.000+05:30",
-      "updated": "2026-10-19T10:23:22.934+05:30",
+      "updated": "2026-10-20T03:04:24.594+05:30",
       "labels": [],
-      "bytes": 754063,
-      "sha256": "f50b4a2ca0310dc8110a3a50ef02fd7d9b591b63c1333fed3d55d83f100d7219",
+      "bytes": 755676,
+      "sha256": "f428e45f2e083e291f38edcc5500b604b521ad2d4b5c142c409f1c683d011b9c",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -40201,7 +40205,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "60.13.0",
+      "version": "60.14.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -42223,6 +42227,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Index: nine more how-to posts with public videos"
+        },
+        {
+          "version": "60.14.0",
+          "date": "2026-10-20T03:04:58+05:30",
+          "level": "minor",
+          "reason": "forced via --as minor (figures changed (+2/-3 distinct numbers))",
+          "bytes": [
+            754063,
+            755676
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Index: ESY 2026-27 ethanol tender post"
         }
       ]
     },
