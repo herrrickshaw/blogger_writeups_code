@@ -1,8 +1,8 @@
 # Masala Deutsch — All Posts, Summarised
 
-*378 published posts, 79 topic labels. Each entry is the post's own published standfirst — not a re-summary.*
+*388 published posts, 80 topic labels. Each entry is the post's own published standfirst — not a re-summary.*
 
-*Generated 19 October 2026 — regenerated daily by tools/update_summary_cron.sh.*
+*Generated 20 October 2026 — regenerated daily by tools/update_summary_cron.sh.*
 
 
 ## Units & Figures Used in This Blog
@@ -219,8 +219,10 @@
 ## By Topic
 
 
-### Agriculture & Fertilisers (67)
+### Agriculture & Fertilisers (68)
 
+- **[India's 2026-27 Ethanol Tender Drops Cane Juice, Cuts Maize by Rs 3 a Litre and Flips From Sugar-First to Cheapest-First](https://masaladeutsch.blogspot.com/2026/10/indias-2026-27-ethanol-tender-drops.html)** — 2026-10-20
+  The oil companies want 1,100 crore litres for November 2026 to October 2027. Unlike last year, they will buy no ethanol from cane juice or B-heavy molasses, pay Rs 68.86 instead of Rs 71.86 for maize, cap FCI rice at 108 crore litres a quarter instead of requiring 40% of grain offers from it, and allocate the cheapest feedstock first where last year put sugar first. Every award is subject to Supreme Court cases on allocation.
 - **[Methionine, Not Lysine, Is India's Biggest Amino-Acid Gap. It Is Made From Petrochemicals, Not Sugar, and Glycine Is Now an Anti-Dumping Case](https://masaladeutsch.blogspot.com/2026/10/methionine-not-lysine-is-indias-biggest.html)** — 2026-10-12
   India’s deficit across eight amino-acid lines is $354 million, and methionine alone is 48% of it. It is made from acrolein, methyl mercaptan and hydrogen cyanide, not sugar, while MSG imports grow and glycine trade is balanced but under a DGTR case.
 - **[Bagasse Is the One Crop Residue Already Sitting at a Factory Gate. Labs Have Liquefied and Hydrolysed It. Nobody Has Priced It Against the Boiler](https://masaladeutsch.blogspot.com/2026/10/bagasse-is-one-crop-residue-already.html)** — 2026-10-10
@@ -408,6 +410,11 @@
 - **[Raising Green Debt Globally: The REC EuroYen Playbook, the CBI Stamp, and Every Avenue an Indian Issuer Actually Has](https://masaladeutsch.blogspot.com/2026/08/raising-green-debt-globally-rec-euroyen.html)** — 2026-08-03
   On 28 November 2025 the Climate Bonds Standard Board approved post-issuance certification of REC Limited's EuroYen Green Bonds — the letter, signed by CBI chief Sean Kidney, sits in front of us. That one page is the end of a chain that starts with a ¥61.1 billion bond, runs through a verifier's audit of where every yen went — solar, wind, biogas, pumped storage, electric buses — and ends with access to a class of global investors that plain-vanilla debt never reaches. This piece uses the REC deal, the CBI standard, SBI's framework and India's own sovereign programme to map every avenue an Indian issuer has for raising sustainable debt globally, and what the green label is actually worth.
 
+### Business & Strategy (1)
+
+- **[How to use amazon-product-selector: a gated shortlist of rising Amazon keywords you can actually enter](https://masaladeutsch.blogspot.com/2026/10/how-to-use-amazon-product-selector.html)** — 2026-10-19
+  A standard-library Python tool that ranks candidate keywords by rising search demand, then rejects the ones whose category is too entrenched, separately for consumer (B2C) and bulk (B2B) selling on Amazon India.
+
 ### Carbon Capture & Storage (2)
 
 - **[The Green Shift: What India's Oil Ministry Thinks Global Majors Owe the Climate](https://masaladeutsch.blogspot.com/2026/08/the-green-shift-what-indias-oil.html)** — 2026-08-28
@@ -532,8 +539,10 @@
 - **[India Fuel Retail Outlets — 82k Geocoded Map (Part 2 of 3)](https://masaladeutsch.blogspot.com/2026/07/india-fuel-retail-outlets-82k-geocoded.html)** — 2026-07-22
   Part 2 of 3 in the CNG/CGD retail-mapping series. Companion posts: the CGD GA district map (Part 1) and the cold-chain × outlet integrated map (Part 3). Served live from GitHub Pages.
 
-### Climate & Carbon (21)
+### Climate & Carbon (22)
 
+- **[How to use biomass-to-syngas-opensource: size a biomass gasifier](https://masaladeutsch.blogspot.com/2026/10/how-to-use-biomass-to-syngas-opensource.html)** — 2026-10-19
+  Estimate what a biomass gasifier produces from straw, how much tar it makes and whether the syngas is good enough for power or for chemicals.
 - **[Thermocol Dissolves in Orange-Peel Oil, as Researchers Showed in 1998. The Published Record Stops Where the Recycling Begins](https://masaladeutsch.blogspot.com/2026/10/thermocol-dissolves-in-orange-peel-oil.html)** — 2026-10-10
   Limonene shrinks foam to about a twentieth of its volume and a first plant was built in the 1990s. No study found measures what the recovered polystyrene smells of, how the solvent ages, or what the process costs, and the industrial solvent routes use other solvents.
 - **[Refiners Won the Exemption Fight, Biofuels Kept the Volumes: What Eight Court Rulings Did to America's Biofuel Credits](https://masaladeutsch.blogspot.com/2026/10/refiners-won-exemption-fight-biofuels.html)** — 2026-10-03
@@ -669,8 +678,12 @@
 - **[India's Mobile-Phone PLI Beat Every Target. Its Chip-Fab Scheme Has 5 of 12 Plants Actually Producing.](https://masaladeutsch.blogspot.com/2026/08/indias-mobile-phone-pli-beat-every.html)** — 2026-08-30
   India's mobile-phone PLI scheme beat its own five-year investment target by 294% and its production target by 142% — a genuine, government-reported overperformance. Its chip-fabrication cousin, the Semicon India Programme, has 12 approved plants and, as of SEMICON India 2026 in September, 5 producing anything (up from 3 when this piece was first published). The gap between the two tells you which parts of India's electronics-manufacturing push are working and which are still mostly paper.
 
-### Energy & Fuels (114)
+### Energy & Fuels (116)
 
+- **[India's 2026-27 Ethanol Tender Drops Cane Juice, Cuts Maize by Rs 3 a Litre and Flips From Sugar-First to Cheapest-First](https://masaladeutsch.blogspot.com/2026/10/indias-2026-27-ethanol-tender-drops.html)** — 2026-10-20
+  The oil companies want 1,100 crore litres for November 2026 to October 2027. Unlike last year, they will buy no ethanol from cane juice or B-heavy molasses, pay Rs 68.86 instead of Rs 71.86 for maize, cap FCI rice at 108 crore litres a quarter instead of requiring 40% of grain offers from it, and allocate the cheapest feedstock first where last year put sugar first. Every award is subject to Supreme Court cases on allocation.
+- **[How to use biomass-to-syngas-opensource: size a biomass gasifier](https://masaladeutsch.blogspot.com/2026/10/how-to-use-biomass-to-syngas-opensource.html)** — 2026-10-19
+  Estimate what a biomass gasifier produces from straw, how much tar it makes and whether the syngas is good enough for power or for chemicals.
 - **[How to use bms-battery-management: simulate an EV battery pack in Python](https://masaladeutsch.blogspot.com/2026/10/how-to-use-bms-battery-management.html)** — 2026-10-18
   A small Python library that simulates battery management for electric scooters, retrofitted cars and buses, so you can watch charge level, ageing, heat and faults on your laptop before any hardware exists.
 - **[The LPG Distributor's Commission Rose 16 Times Since 2004. After Inflation, It Is Back Where It Was in 2012](https://masaladeutsch.blogspot.com/2026/10/the-lpg-distributors-commission-rose-16.html)** — 2026-10-17
@@ -922,8 +935,12 @@
 - **[India EC Approval Funnel — PARIVESH 2.0](https://masaladeutsch.blogspot.com/2026/07/india-ec-approval-funnel-parivesh-20.html)** — 2026-07-22
   How 113,970 EC proposals move from filing to grant on PARIVESH 2.0 (2022–2026). A current-state snapshot: each proposal shows its latest status, so proposals counted as "granted" have already passed through the ToR (Terms of Reference) and appraisal stages.
 
-### Equity Markets & Stock Screening (8)
+### Equity Markets & Stock Screening (10)
 
+- **[How to use Bazartalks_Py2Cplus: a C++ port of a quant research platform, with its Python-vs-C++ benchmark](https://masaladeutsch.blogspot.com/2026/10/how-to-use-bazartalkspy2cplus-c-port-of.html)** — 2026-10-19
+  Bazartalks_Py2Cplus (BazaarTalks-cpp) reimplements the storage, streaming, quant-compute, backtest and serving layers of BazaarTalks in C++, keeping Python only for data acquisition and ML training. This post is a not-run, README-based guide to building it, plus the benchmark the repo itself committed. Not investment advice.
+- **[How to use BazaarTalks: a multi-market quant research platform you can query with DuckDB](https://masaladeutsch.blogspot.com/2026/10/how-to-use-bazaartalks-multi-market.html)** — 2026-10-19
+  BazaarTalks (README title: Global Market Scanners) is a research platform for multi-market equity screening, point-in-time backtests and factor research, with a DuckDB warehouse, optional Cassandra and Kafka backbone, and a small FastAPI dashboard. Not investment advice.
 - **[How to use the news tracker: score headlines and check them against stock picks](https://masaladeutsch.blogspot.com/2026/10/how-to-use-news-tracker-score-headlines.html)** — 2026-10-18
   Score market news with a plain finance word list and see whether the news agrees with what your stock screens picked.
 - **[How to use market_screener_rag: backtested stock strategies by country](https://masaladeutsch.blogspot.com/2026/10/how-to-use-marketscreenerrag-backtested.html)** — 2026-10-18
@@ -941,8 +958,10 @@
 - **[US Stock Picks — Multi-Screen Quant Shortlist (24 Jul 2026)](https://masaladeutsch.blogspot.com/2026/07/us-stock-picks-multi-screen-quant.html)** — 2026-07-24
   Follow-up: see how the model portfolios built from these screens actually performed, cross-checked against public index benchmarks.
 
-### Ethanol & Biofuels (26)
+### Ethanol & Biofuels (27)
 
+- **[India's 2026-27 Ethanol Tender Drops Cane Juice, Cuts Maize by Rs 3 a Litre and Flips From Sugar-First to Cheapest-First](https://masaladeutsch.blogspot.com/2026/10/indias-2026-27-ethanol-tender-drops.html)** — 2026-10-20
+  The oil companies want 1,100 crore litres for November 2026 to October 2027. Unlike last year, they will buy no ethanol from cane juice or B-heavy molasses, pay Rs 68.86 instead of Rs 71.86 for maize, cap FCI rice at 108 crore litres a quarter instead of requiring 40% of grain offers from it, and allocate the cheapest feedstock first where last year put sugar first. Every award is subject to Supreme Court cases on allocation.
 - **[Petrol-Pump Margins and E20: The First Dealer Raise in Seven Years, Not Tied to Ethanol, While Oil-Company Margins Followed Crude Into the Red in 2026](https://masaladeutsch.blogspot.com/2026/10/petrol-pump-margins-and-e20-one-dealer.html)** — 2026-10-16
   The average Indian outlet earns about Rs 4.77 lakh a month in gross commission, and the October 2024 revision, a litigation settlement, was the first increase in seven years and did not restore what inflation had taken. The oil companies’ margin followed crude, and the clear gainer from E20 is the ethanol supplier.
 - **[The Hydrogen Behind the Biofuel Mandate: A Country-by-Country Map of Who Is Covered, What Counts, and Which Hydrogen Gets Paid For](https://masaladeutsch.blogspot.com/2026/10/the-hydrogen-behind-biofuel-mandate.html)** — 2026-10-14
@@ -1250,8 +1269,20 @@
 - **[Chemical Import Substitution Analysis: Executive Summary](https://masaladeutsch.blogspot.com/2026/07/chemical-import-substitution-analysis.html)** — 2026-08-01
   A re-derivation of this analysis against DGCI&S TradeStat on 2 August 2026 found that several HS-8 codes cited below do not exist in India’s tariff schedule, and the import values attached to them are not supported by the data. Specifically: ethylene was cited as 29011100 / $2,800M (the real line is 29012100, $44M); propylene as 29011200 / $1,400M (real: 29012200, $14M); polyethylene as 39021010/30 / $8.5bn (real 3901 lines total ~$2.8bn; 3902 is polypropylene); lecithin as 29239090 / $100M (real: 29232090, ~$19M); polypropylene as 39021100 (real: 39021000, value $1,372M is correct).
 
-### India (33)
+### India (39)
 
+- **[How to use biomass-to-syngas-opensource: size a biomass gasifier](https://masaladeutsch.blogspot.com/2026/10/how-to-use-biomass-to-syngas-opensource.html)** — 2026-10-19
+  Estimate what a biomass gasifier produces from straw, how much tar it makes and whether the syngas is good enough for power or for chemicals.
+- **[How to use digital-twin-for-ipa: a searchable map of India's investment incentives](https://masaladeutsch.blogspot.com/2026/10/how-to-use-digital-twin-for-ipa.html)** — 2026-10-19
+  digital-twin-for-ipa is an open-source, machine-readable model of India's investment-promotion apparatus: 312 central and state incentive instruments, how they link, and a SQLite database of the companies around them.
+- **[How to use amazon-product-selector: a gated shortlist of rising Amazon keywords you can actually enter](https://masaladeutsch.blogspot.com/2026/10/how-to-use-amazon-product-selector.html)** — 2026-10-19
+  A standard-library Python tool that ranks candidate keywords by rising search demand, then rejects the ones whose category is too entrenched, separately for consumer (B2C) and bulk (B2B) selling on Amazon India.
+- **[How to use agri-commodity-tracker: India mandi prices and an agriculture panel in one DuckDB file](https://masaladeutsch.blogspot.com/2026/10/how-to-use-agri-commodity-tracker-india.html)** — 2026-10-19
+  Daily APMC mandi prices from Agmarknet (via data.gov.in) plus World Bank, FAOSTAT and NASA POWER agriculture data, all from open sources and stored in a local DuckDB file.
+- **[How to use FCI-warehouse-MSPvsMSV: grain procurement, MSP and mandi-price data with working models](https://masaladeutsch.blogspot.com/2026/10/how-to-use-fci-warehouse-mspvsmsv-grain.html)** — 2026-10-19
+  A research and data repository on India's foodgrain procurement: the MSP series, mandi prices against MSP, FCI stocks and storage, a dashboard, and small Python models for holding economics and grain processing.
+- **[How to use CBSE_paper_patterns: check which Class 12 topics keep coming back at high marks](https://masaladeutsch.blogspot.com/2026/10/how-to-use-cbsepaperpatterns-check.html)** — 2026-10-19
+  An analysis of 1,955 CBSE Class XII question papers (2022 to 2026) that measures how often high-mark questions reuse the same wording. This post uses only the derived aggregate tables, not the question text.
 - **[How to use patient-history-tracking: a demo ICU dashboard and linked record](https://masaladeutsch.blogspot.com/2026/10/how-to-use-patient-history-tracking.html)** — 2026-10-18
   A small open prototype that replays real, de-identified ICU vitals into a multi-bed dashboard and ties alarms, a synthetic health ID, simulated insurance, prescriptions and a discharge summary to one record, using demo data that is not for clinical use.
 - **[How to use the news tracker: score headlines and check them against stock picks](https://masaladeutsch.blogspot.com/2026/10/how-to-use-news-tracker-score-headlines.html)** — 2026-10-18
@@ -1567,8 +1598,10 @@
 - **[India Trade — Sector & Policy Recommendations (Chart Library)](https://masaladeutsch.blogspot.com/2026/07/india-trade-sector-policy.html)** — 2026-07-21
   Every chart and dataset in this project, served directly via GitHub Pages. Companion repo: India Trade & Macro Data Analysis (the descriptive half).
 
-### Infrastructure & Investment (9)
+### Infrastructure & Investment (10)
 
+- **[How to use digital-twin-for-ipa: a searchable map of India's investment incentives](https://masaladeutsch.blogspot.com/2026/10/how-to-use-digital-twin-for-ipa.html)** — 2026-10-19
+  digital-twin-for-ipa is an open-source, machine-readable model of India's investment-promotion apparatus: 312 central and state incentive instruments, how they link, and a SQLite database of the companies around them.
 - **[India Is Piping Jet Fuel to Five New Airports at Once. Only Six Had It Before](https://masaladeutsch.blogspot.com/2026/09/india-is-piping-jet-fuel-to-five-new.html)** — 2026-09-08
   India has had a dedicated jet-fuel pipeline into an airport since 2008, at Bengaluru — and by this piece's count, at most six other airports since. Between 2022 and 2026, the regulator has authorised or bid out roughly six more, timed to new or expanding airports at Navi Mumbai, Noida's Jewar, Hyderabad, Ahmedabad and Bengaluru's own second line, with Visakhapatnam's new Bhogapuram airport and a handful of others still at the proposal stage. This piece maps what exists, what's being built, and the regulatory shift behind it — PNGRB now wants every new airport pipeline built open to more than one fuel supplier — with the same upfront caveat as always about how thin the public record on some of these lines still is.
 - **[Mapping India's Other Pipelines: Every Major Crude, Petrol-Diesel and LPG Line, By Company](https://masaladeutsch.blogspot.com/2026/09/mapping-indias-other-pipelines-every.html)** — 2026-09-08
@@ -1685,8 +1718,16 @@
 - **[How India's Automotive Clusters Rewired Themselves Around Just-in-Time Delivery](https://masaladeutsch.blogspot.com/2026/08/how-indias-automotive-clusters-rewired.html)** — 2026-08-15
   Maruti Suzuki gets over 76% of its 246 suppliers within 100km of its assembly lines, and its "e-Nagare" system cut the order-to-shopfloor cycle from 30 hours to 2. That single number is the clearest evidence of how India's automotive clusters actually work today — not as five separate manufacturing hubs, but as increasingly tight, just-in-time-organised ecosystems where component suppliers sit inside the same radius as the OEM. This piece maps the clusters, the mechanics of the JIT shift, and the one real crisis — the 2021 semiconductor shortage — that showed exactly where that model breaks.
 
-### Markets & Finance (53)
+### Markets & Finance (57)
 
+- **[How to use agri-commodity-tracker: India mandi prices and an agriculture panel in one DuckDB file](https://masaladeutsch.blogspot.com/2026/10/how-to-use-agri-commodity-tracker-india.html)** — 2026-10-19
+  Daily APMC mandi prices from Agmarknet (via data.gov.in) plus World Bank, FAOSTAT and NASA POWER agriculture data, all from open sources and stored in a local DuckDB file.
+- **[How to use agentic-insurance-agent: open-source insurance workflows with safe AI](https://masaladeutsch.blogspot.com/2026/10/how-to-use-agentic-insurance-agent-open.html)** — 2026-10-19
+  agentic-insurance-agent is an open-source way to run insurance processes (policy issue, premium collection, claims) as diagrams and rules, with an AI layer that can recommend but not move money.
+- **[How to use Bazartalks_Py2Cplus: a C++ port of a quant research platform, with its Python-vs-C++ benchmark](https://masaladeutsch.blogspot.com/2026/10/how-to-use-bazartalkspy2cplus-c-port-of.html)** — 2026-10-19
+  Bazartalks_Py2Cplus (BazaarTalks-cpp) reimplements the storage, streaming, quant-compute, backtest and serving layers of BazaarTalks in C++, keeping Python only for data acquisition and ML training. This post is a not-run, README-based guide to building it, plus the benchmark the repo itself committed. Not investment advice.
+- **[How to use BazaarTalks: a multi-market quant research platform you can query with DuckDB](https://masaladeutsch.blogspot.com/2026/10/how-to-use-bazaartalks-multi-market.html)** — 2026-10-19
+  BazaarTalks (README title: Global Market Scanners) is a research platform for multi-market equity screening, point-in-time backtests and factor research, with a DuckDB warehouse, optional Cassandra and Kafka backbone, and a small FastAPI dashboard. Not investment advice.
 - **[How to use the news tracker: score headlines and check them against stock picks](https://masaladeutsch.blogspot.com/2026/10/how-to-use-news-tracker-score-headlines.html)** — 2026-10-18
   Score market news with a plain finance word list and see whether the news agrees with what your stock screens picked.
 - **[How to use market_screener_rag: backtested stock strategies by country](https://masaladeutsch.blogspot.com/2026/10/how-to-use-marketscreenerrag-backtested.html)** — 2026-10-18
@@ -1850,8 +1891,26 @@
 - **[India's Oil Fields Are Running Down: 36.96 to 28.70 MMT in a Decade, and the Targets Have Stopped Meaning Anything](https://masaladeutsch.blogspot.com/2026/08/indias-oil-fields-are-running-down-3696.html)** — 2026-08-06
   DGH's own ten-year table shows crude output falling every year but one since 2014-15. Gas has held up — but only because private deepwater replaced the state fields that were shrinking underneath it.
 
-### Open-Source Tools & How-To (7)
+### Open-Source Tools & How-To (16)
 
+- **[How to use biomass-to-syngas-opensource: size a biomass gasifier](https://masaladeutsch.blogspot.com/2026/10/how-to-use-biomass-to-syngas-opensource.html)** — 2026-10-19
+  Estimate what a biomass gasifier produces from straw, how much tar it makes and whether the syngas is good enough for power or for chemicals.
+- **[How to use digital-twin-for-ipa: a searchable map of India's investment incentives](https://masaladeutsch.blogspot.com/2026/10/how-to-use-digital-twin-for-ipa.html)** — 2026-10-19
+  digital-twin-for-ipa is an open-source, machine-readable model of India's investment-promotion apparatus: 312 central and state incentive instruments, how they link, and a SQLite database of the companies around them.
+- **[How to use amazon-product-selector: a gated shortlist of rising Amazon keywords you can actually enter](https://masaladeutsch.blogspot.com/2026/10/how-to-use-amazon-product-selector.html)** — 2026-10-19
+  A standard-library Python tool that ranks candidate keywords by rising search demand, then rejects the ones whose category is too entrenched, separately for consumer (B2C) and bulk (B2B) selling on Amazon India.
+- **[How to use agri-commodity-tracker: India mandi prices and an agriculture panel in one DuckDB file](https://masaladeutsch.blogspot.com/2026/10/how-to-use-agri-commodity-tracker-india.html)** — 2026-10-19
+  Daily APMC mandi prices from Agmarknet (via data.gov.in) plus World Bank, FAOSTAT and NASA POWER agriculture data, all from open sources and stored in a local DuckDB file.
+- **[How to use FCI-warehouse-MSPvsMSV: grain procurement, MSP and mandi-price data with working models](https://masaladeutsch.blogspot.com/2026/10/how-to-use-fci-warehouse-mspvsmsv-grain.html)** — 2026-10-19
+  A research and data repository on India's foodgrain procurement: the MSP series, mandi prices against MSP, FCI stocks and storage, a dashboard, and small Python models for holding economics and grain processing.
+- **[How to use agentic-insurance-agent: open-source insurance workflows with safe AI](https://masaladeutsch.blogspot.com/2026/10/how-to-use-agentic-insurance-agent-open.html)** — 2026-10-19
+  agentic-insurance-agent is an open-source way to run insurance processes (policy issue, premium collection, claims) as diagrams and rules, with an AI layer that can recommend but not move money.
+- **[How to use Bazartalks_Py2Cplus: a C++ port of a quant research platform, with its Python-vs-C++ benchmark](https://masaladeutsch.blogspot.com/2026/10/how-to-use-bazartalkspy2cplus-c-port-of.html)** — 2026-10-19
+  Bazartalks_Py2Cplus (BazaarTalks-cpp) reimplements the storage, streaming, quant-compute, backtest and serving layers of BazaarTalks in C++, keeping Python only for data acquisition and ML training. This post is a not-run, README-based guide to building it, plus the benchmark the repo itself committed. Not investment advice.
+- **[How to use CBSE_paper_patterns: check which Class 12 topics keep coming back at high marks](https://masaladeutsch.blogspot.com/2026/10/how-to-use-cbsepaperpatterns-check.html)** — 2026-10-19
+  An analysis of 1,955 CBSE Class XII question papers (2022 to 2026) that measures how often high-mark questions reuse the same wording. This post uses only the derived aggregate tables, not the question text.
+- **[How to use BazaarTalks: a multi-market quant research platform you can query with DuckDB](https://masaladeutsch.blogspot.com/2026/10/how-to-use-bazaartalks-multi-market.html)** — 2026-10-19
+  BazaarTalks (README title: Global Market Scanners) is a research platform for multi-market equity screening, point-in-time backtests and factor research, with a DuckDB warehouse, optional Cassandra and Kafka backbone, and a small FastAPI dashboard. Not investment advice.
 - **[How to use ship2shore_rag: offline answers from open maritime reports](https://masaladeutsch.blogspot.com/2026/10/how-to-use-ship2shorerag-offline.html)** — 2026-10-18
   ship2shore_rag lets you ask plain-English questions of open maritime literature and accident reports, with cited passages, on a shore server or offline on a ship.
 - **[How to use patient-history-tracking: a demo ICU dashboard and linked record](https://masaladeutsch.blogspot.com/2026/10/how-to-use-patient-history-tracking.html)** — 2026-10-18
@@ -4189,3 +4248,53 @@ India has had a permanent tax number since 1972 and now issues one in about ten 
 *2026-10-18 · Industrial Policy, Markets & Finance, Scheme Delivery Gap*
 
 Customer support, application maintenance and labour-billed back-office work are being hit first; airline back office and AI data work are still arriving. The common pattern is fewer fresher hires and lower prices, not layoffs, with India taking a larger share of a smaller pool. Meanwhile courts, claims and grievance systems at home carry backlogs of the same work.
+
+### [How to use biomass-to-syngas-opensource: size a biomass gasifier](https://masaladeutsch.blogspot.com/2026/10/how-to-use-biomass-to-syngas-opensource.html)
+*2026-10-19 · Climate & Carbon, Energy & Fuels, India, Open-Source Tools & How-To*
+
+Estimate what a biomass gasifier produces from straw, how much tar it makes and whether the syngas is good enough for power or for chemicals.
+
+### [How to use digital-twin-for-ipa: a searchable map of India's investment incentives](https://masaladeutsch.blogspot.com/2026/10/how-to-use-digital-twin-for-ipa.html)
+*2026-10-19 · India, Infrastructure & Investment, Open-Source Tools & How-To*
+
+digital-twin-for-ipa is an open-source, machine-readable model of India's investment-promotion apparatus: 312 central and state incentive instruments, how they link, and a SQLite database of the companies around them.
+
+### [How to use amazon-product-selector: a gated shortlist of rising Amazon keywords you can actually enter](https://masaladeutsch.blogspot.com/2026/10/how-to-use-amazon-product-selector.html)
+*2026-10-19 · Business & Strategy, India, Open-Source Tools & How-To*
+
+A standard-library Python tool that ranks candidate keywords by rising search demand, then rejects the ones whose category is too entrenched, separately for consumer (B2C) and bulk (B2B) selling on Amazon India.
+
+### [How to use agri-commodity-tracker: India mandi prices and an agriculture panel in one DuckDB file](https://masaladeutsch.blogspot.com/2026/10/how-to-use-agri-commodity-tracker-india.html)
+*2026-10-19 · India, Markets & Finance, Open-Source Tools & How-To*
+
+Daily APMC mandi prices from Agmarknet (via data.gov.in) plus World Bank, FAOSTAT and NASA POWER agriculture data, all from open sources and stored in a local DuckDB file.
+
+### [How to use FCI-warehouse-MSPvsMSV: grain procurement, MSP and mandi-price data with working models](https://masaladeutsch.blogspot.com/2026/10/how-to-use-fci-warehouse-mspvsmsv-grain.html)
+*2026-10-19 · India, Open-Source Tools & How-To*
+
+A research and data repository on India's foodgrain procurement: the MSP series, mandi prices against MSP, FCI stocks and storage, a dashboard, and small Python models for holding economics and grain processing.
+
+### [How to use agentic-insurance-agent: open-source insurance workflows with safe AI](https://masaladeutsch.blogspot.com/2026/10/how-to-use-agentic-insurance-agent-open.html)
+*2026-10-19 · Markets & Finance, Open-Source Tools & How-To*
+
+agentic-insurance-agent is an open-source way to run insurance processes (policy issue, premium collection, claims) as diagrams and rules, with an AI layer that can recommend but not move money.
+
+### [How to use Bazartalks_Py2Cplus: a C++ port of a quant research platform, with its Python-vs-C++ benchmark](https://masaladeutsch.blogspot.com/2026/10/how-to-use-bazartalkspy2cplus-c-port-of.html)
+*2026-10-19 · Equity Markets & Stock Screening, Markets & Finance, Open-Source Tools & How-To*
+
+Bazartalks_Py2Cplus (BazaarTalks-cpp) reimplements the storage, streaming, quant-compute, backtest and serving layers of BazaarTalks in C++, keeping Python only for data acquisition and ML training. This post is a not-run, README-based guide to building it, plus the benchmark the repo itself committed. Not investment advice.
+
+### [How to use CBSE_paper_patterns: check which Class 12 topics keep coming back at high marks](https://masaladeutsch.blogspot.com/2026/10/how-to-use-cbsepaperpatterns-check.html)
+*2026-10-19 · India, Open-Source Tools & How-To*
+
+An analysis of 1,955 CBSE Class XII question papers (2022 to 2026) that measures how often high-mark questions reuse the same wording. This post uses only the derived aggregate tables, not the question text.
+
+### [How to use BazaarTalks: a multi-market quant research platform you can query with DuckDB](https://masaladeutsch.blogspot.com/2026/10/how-to-use-bazaartalks-multi-market.html)
+*2026-10-19 · Equity Markets & Stock Screening, Markets & Finance, Open-Source Tools & How-To*
+
+BazaarTalks (README title: Global Market Scanners) is a research platform for multi-market equity screening, point-in-time backtests and factor research, with a DuckDB warehouse, optional Cassandra and Kafka backbone, and a small FastAPI dashboard. Not investment advice.
+
+### [India's 2026-27 Ethanol Tender Drops Cane Juice, Cuts Maize by Rs 3 a Litre and Flips From Sugar-First to Cheapest-First](https://masaladeutsch.blogspot.com/2026/10/indias-2026-27-ethanol-tender-drops.html)
+*2026-10-20 · Agriculture & Fertilisers, Energy & Fuels, Ethanol & Biofuels*
+
+The oil companies want 1,100 crore litres for November 2026 to October 2027. Unlike last year, they will buy no ethanol from cane juice or B-heavy molasses, pay Rs 68.86 instead of Rs 71.86 for maize, cap FCI rice at 108 crore litres a quarter instead of requiring 40% of grain offers from it, and allocate the cheapest feedstock first where last year put sugar first. Every award is subject to Supreme Court cases on allocation.
