@@ -15055,3 +15055,34 @@ Ethanol tender post: compared against the ESY 2025-26 tender document
 **Changed**
 
 - `indias-2026-27-ethanol-tender-drops` — 34,256 → 34,065 bytes (-191)
+
+## 2026-10-20T07:54:23+00:00 — 390 posts live
+
+scheduled sync
+
+
+**Versions**
+
+- `how-to-use-biomass-to-syngas-opensource` **1.0.0 → 1.0.1** (PATCH) — visible text identical; only markup/styling changed
+- `how-to-use-agentic-insurance-agent-open` **1.0.0 → 1.0.1** (PATCH) — visible text identical; only markup/styling changed
+- `how-to-use-amazon-product-selector` **1.0.0 → 1.0.1** (PATCH) — visible text identical; only markup/styling changed
+- `how-to-use-agri-commodity-tracker-india` **1.0.0 → 1.0.1** (PATCH) — visible text identical; only markup/styling changed
+- `how-to-use-fci-warehouse-mspvsmsv-grain` **1.0.0 → 1.0.1** (PATCH) — visible text identical; only markup/styling changed
+- `how-to-use-cbsepaperpatterns-check` **1.0.0 → 1.0.1** (PATCH) — visible text identical; only markup/styling changed
+- `how-to-use-bazartalkspy2cplus-c-port-of` **1.0.0 → 1.0.1** (PATCH) — visible text identical; only markup/styling changed
+- `how-to-use-bazaartalks-multi-market` **1.0.0 → 1.0.1** (PATCH) — visible text identical; only markup/styling changed
+- `how-to-use-digital-twin-for-ipa` **1.0.0 → 1.0.1** (PATCH) — visible text identical; only markup/styling changed
+- `how-to-use-bms-battery-management` **1.0.3 → 1.0.4** (PATCH) — visible text identical; only markup/styling changed
+
+**Changed**
+
+- `how-to-use-biomass-to-syngas-opensource` — 21,474 → 21,593 bytes (+119)
+- `how-to-use-agentic-insurance-agent-open` — 23,681 → 23,800 bytes (+119)
+- `how-to-use-amazon-product-selector` — 22,514 → 22,633 bytes (+119)
+- `how-to-use-agri-commodity-tracker-india` — 24,652 → 24,771 bytes (+119)
+- `how-to-use-fci-warehouse-mspvsmsv-grain` — 24,895 → 25,014 bytes (+119)
+- `how-to-use-cbsepaperpatterns-check` — 24,627 → 24,746 bytes (+119)
+- `how-to-use-bazartalkspy2cplus-c-port-of` — 24,819 → 24,938 bytes (+119)
+- `how-to-use-bazaartalks-multi-market` — 25,170 → 25,289 bytes (+119)
+- `how-to-use-digital-twin-for-ipa` — 23,788 → 23,907 bytes (+119)
+- `how-to-use-bms-battery-management` — 22,450 → 22,569 bytes (+119)
