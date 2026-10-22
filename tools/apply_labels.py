@@ -757,6 +757,7 @@ SLUG_CONTAINS = {
     "india-tracks-every-taxpayer": ["Healthcare", "Industrial Policy", "Scheme Delivery Gap"],
     "ai-is-not-taking-indias-offshore": ["Markets & Finance", "Industrial Policy", "Scheme Delivery Gap"],
     "2026-27-ethanol-tender": ["Ethanol & Biofuels", "Energy & Fuels", "Agriculture & Fertilisers"],
+    "whey-protein": ["Livestock & Dairy", "Import Substitution", "Agriculture & Food Processing"],
 }
 
 
