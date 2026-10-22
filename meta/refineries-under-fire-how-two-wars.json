@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/refineries-under-fire-how-two-wars.html",
   "slug": "refineries-under-fire-how-two-wars",
   "published": "2026-08-20T10:22:11.000+05:30",
-  "updated": "2026-10-14T16:30:06.479+05:30",
+  "updated": "2026-10-22T16:58:46.946+05:30",
   "labels": [
     "Energy & Fuels",
     "Industrial Policy"
   ],
-  "bytes": 40076,
-  "sha256": "d04f7b5a389a0bc14140746155f878fa6718df44f1dae1b4e4d767bb9434f180",
+  "bytes": 41158,
+  "sha256": "2616a42a20beeed59f9b6e29b4c008801a2574a12b8e675385b1c067fa5fd179",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.2.0",
+  "version": "2.2.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -147,6 +147,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Update notes 12-13 Oct 2026 from the currency sweeps (45 posts)"
+    },
+    {
+      "version": "2.2.1",
+      "date": "2026-10-22T17:02:34+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (figures changed (+4/-0 distinct numbers))",
+      "bytes": [
+        40076,
+        41158
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Sweep 4 MEDIUM items: dated update notes on 59 posts"
     }
   ]
 }

@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/the-easiest-ev-conversion-in-india.html",
   "slug": "the-easiest-ev-conversion-in-india",
   "published": "2026-08-31T15:51:11.000+05:30",
-  "updated": "2026-10-14T16:27:41.692+05:30",
+  "updated": "2026-10-22T17:00:50.255+05:30",
   "labels": [
     "Industrial Policy",
     "Mobility & EV"
   ],
-  "bytes": 37401,
-  "sha256": "1366187f0cb9760ae78e4249807f248e184642ca0673a02854568d4148aab97a",
+  "bytes": 38420,
+  "sha256": "62a96b81c542752bace5c173dd2e14ddd4c62ab24d45cee8851751192d3fdcfa",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.2.0",
+  "version": "2.2.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -134,6 +134,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Update notes 12-13 Oct 2026 from the currency sweeps (45 posts)"
+    },
+    {
+      "version": "2.2.1",
+      "date": "2026-10-22T17:02:34+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (figures changed (+7/-0 distinct numbers))",
+      "bytes": [
+        37401,
+        38420
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Sweep 4 MEDIUM items: dated update notes on 59 posts"
     }
   ]
 }

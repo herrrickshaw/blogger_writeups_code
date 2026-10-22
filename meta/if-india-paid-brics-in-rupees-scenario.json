@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/if-india-paid-brics-in-rupees-scenario.html",
   "slug": "if-india-paid-brics-in-rupees-scenario",
   "published": "2026-08-04T16:05:00.000+05:30",
-  "updated": "2026-10-01T08:26:15.598+05:30",
+  "updated": "2026-10-22T16:53:08.765+05:30",
   "labels": [
     "Markets & Finance",
     "Trade & Tariffs"
   ],
-  "bytes": 37617,
-  "sha256": "72423e04aa555a357644c9efb543b7eb74b68f215948fe397b526a1d753039b2",
+  "bytes": 38830,
+  "sha256": "b52c62ba462f9a49d1e03c44f7796704f7e46b7d5204bf98e0121e2b485dd86b",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.1.0",
+  "version": "2.1.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -269,6 +269,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Rule 8 retrofit: added What would fix this section"
+    },
+    {
+      "version": "2.1.1",
+      "date": "2026-10-22T17:02:34+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (figures changed (+3/-0 distinct numbers))",
+      "bytes": [
+        37617,
+        38830
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Sweep 4 MEDIUM items: dated update notes on 59 posts"
     }
   ]
 }

@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/annadata-to-urjadata-farmer-income-case.html",
   "slug": "annadata-to-urjadata-farmer-income-case",
   "published": "2026-08-04T16:10:00.000+05:30",
-  "updated": "2026-10-01T08:14:11.579+05:30",
+  "updated": "2026-10-22T16:50:24.563+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Energy & Fuels"
   ],
-  "bytes": 44028,
-  "sha256": "187ec5e1d545d0eb505e8cf2733c5be4a5909f2cf8cecdf94c3398af1fb411f8",
+  "bytes": 45155,
+  "sha256": "825b32ec2e25177c0a2540928eb6d8efae3648743c597d634ec3c6c975f271b9",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.1.0",
+  "version": "3.1.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -277,6 +277,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Rule 8 retrofit: added What would fix this section"
+    },
+    {
+      "version": "3.1.1",
+      "date": "2026-10-22T17:02:34+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (figures changed (+3/-0 distinct numbers))",
+      "bytes": [
+        44028,
+        45155
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Sweep 4 MEDIUM items: dated update notes on 59 posts"
     }
   ]
 }

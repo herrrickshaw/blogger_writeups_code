@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/the-50-tariff-and-234-one-untangling.html",
   "slug": "the-50-tariff-and-234-one-untangling",
   "published": "2026-09-12T22:12:05.000+05:30",
-  "updated": "2026-10-01T08:50:43.618+05:30",
+  "updated": "2026-10-22T17:00:14.833+05:30",
   "labels": [
     "India Trade & Policy",
     "Trade & Tariffs",
     "Trade Remedies & Antidumping"
   ],
-  "bytes": 54948,
-  "sha256": "a3fd8061926c96930fb47d6f51f3ddb41d71f9e8f57665c79349bbe33a0dbe1d",
+  "bytes": 55923,
+  "sha256": "773239001f04c9f4e155c04d1dd6416e2b5d01e0509b7db7e63308b8b204d99f",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.4.0",
+  "version": "1.4.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -109,6 +109,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Rule 8 retrofit: added What would fix this section"
+    },
+    {
+      "version": "1.4.1",
+      "date": "2026-10-22T17:02:34+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (figures changed (+2/-0 distinct numbers))",
+      "bytes": [
+        54948,
+        55923
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Sweep 4 MEDIUM items: dated update notes on 59 posts"
     }
   ]
 }

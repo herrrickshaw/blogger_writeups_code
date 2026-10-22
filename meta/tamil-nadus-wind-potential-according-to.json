@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/tamil-nadus-wind-potential-according-to.html",
   "slug": "tamil-nadus-wind-potential-according-to",
   "published": "2026-08-14T15:04:38.000+05:30",
-  "updated": "2026-10-01T08:49:18.226+05:30",
+  "updated": "2026-10-22T17:00:03.242+05:30",
   "labels": [
     "Energy & Fuels",
     "Renewable Power & Storage"
   ],
-  "bytes": 28378,
-  "sha256": "69cf2f6a9021003df3f978538b144ded181340794f79f253c9cfafd7882b603e",
+  "bytes": 29802,
+  "sha256": "af092228dbd1a9e0fdd85a9e8c9d0547a141b503a11193fdeaaba620a35b35aa",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.1.0",
+  "version": "3.1.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -160,6 +160,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Rule 8 retrofit: added What would fix this section"
+    },
+    {
+      "version": "3.1.1",
+      "date": "2026-10-22T17:02:34+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (figures changed (+8/-0 distinct numbers))",
+      "bytes": [
+        28378,
+        29802
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Sweep 4 MEDIUM items: dated update notes on 59 posts"
     }
   ]
 }

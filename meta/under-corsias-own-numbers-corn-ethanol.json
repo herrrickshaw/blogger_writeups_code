@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/under-corsias-own-numbers-corn-ethanol.html",
   "slug": "under-corsias-own-numbers-corn-ethanol",
   "published": "2026-09-23T16:31:55.000+05:30",
-  "updated": "2026-10-07T06:47:00.440+05:30",
+  "updated": "2026-10-22T17:01:37.691+05:30",
   "labels": [
     "Energy & Fuels",
     "Ethanol & Biofuels"
   ],
-  "bytes": 32986,
-  "sha256": "2ff312778cddfe9829e157250935f4b39847675c1c8d0c91b199e48912d6ea8d",
+  "bytes": 34427,
+  "sha256": "274a0fcf8b91c5921d716eed36ac6837cda52443bbd53bc122d62721a6cff572",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.0",
+  "version": "2.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -82,6 +82,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Maize used for ethanol corrected to 29% of crop (12.6 MT, govt Lok Sabha reply)"
+    },
+    {
+      "version": "2.0.1",
+      "date": "2026-10-22T17:02:34+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (figures changed (+3/-0 distinct numbers))",
+      "bytes": [
+        32986,
+        34427
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Sweep 4 MEDIUM items: dated update notes on 59 posts"
     }
   ]
 }

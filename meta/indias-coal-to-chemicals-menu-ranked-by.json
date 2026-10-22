@@ -4,15 +4,15 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/indias-coal-to-chemicals-menu-ranked-by.html",
   "slug": "indias-coal-to-chemicals-menu-ranked-by",
   "published": "2026-08-27T03:43:38.000+05:30",
-  "updated": "2026-10-01T08:32:58.686+05:30",
+  "updated": "2026-10-22T16:54:41.699+05:30",
   "labels": [
     "Chemicals",
     "Coal & Coal Gasification",
     "Energy & Fuels",
     "Industrial Policy"
   ],
-  "bytes": 64992,
-  "sha256": "0c86dc4b78d7c64339c5e45c7ec17470fdecb52954522f1533bdbef7b4589c0e",
+  "bytes": 66000,
+  "sha256": "6d5fdf0c597650f6019dbf8e879ab9d595b35be775c6db7c9dd537f02a2a35bd",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.2.0",
+  "version": "2.2.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -149,6 +149,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Rule 8 retrofit: added What would fix this section"
+    },
+    {
+      "version": "2.2.1",
+      "date": "2026-10-22T17:02:34+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (figures changed (+2/-0 distinct numbers))",
+      "bytes": [
+        64992,
+        66000
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Sweep 4 MEDIUM items: dated update notes on 59 posts"
     }
   ]
 }

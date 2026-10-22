@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/indias-trade-story-has-three-big-wins.html",
   "slug": "indias-trade-story-has-three-big-wins",
   "published": "2026-08-08T21:53:13.000+05:30",
-  "updated": "2026-10-01T08:38:36.741+05:30",
+  "updated": "2026-10-22T16:56:19.105+05:30",
   "labels": [
     "Free Trade Agreements",
     "Industrial Policy",
     "Trade & Tariffs"
   ],
-  "bytes": 26329,
-  "sha256": "727b6febf42ccc6f8d917fcc7dde6a5d848b4e411c98c8b29d19abac6491819a",
+  "bytes": 27270,
+  "sha256": "53a3932d3520b188b6194326e624b8477e5660691107a276837500b90c47566d",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.1.0",
+  "version": "3.1.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -239,6 +239,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Rule 8 retrofit: added What would fix this section"
+    },
+    {
+      "version": "3.1.1",
+      "date": "2026-10-22T17:02:34+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (figures changed (+7/-0 distinct numbers))",
+      "bytes": [
+        26329,
+        27270
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Sweep 4 MEDIUM items: dated update notes on 59 posts"
     }
   ]
 }

@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/tamil-nadus-water-infrastructure-runs.html",
   "slug": "tamil-nadus-water-infrastructure-runs",
   "published": "2026-08-25T10:48:07.000+05:30",
-  "updated": "2026-10-02T16:21:20.425+05:30",
+  "updated": "2026-10-22T16:59:50.492+05:30",
   "labels": [
     "India",
     "Infrastructure & Investment",
     "Water Infrastructure Financing"
   ],
-  "bytes": 27938,
-  "sha256": "ea004321be33a8991969e008e7f4a7f7770f6d10f1b0f4555e3c8f8deeea45b4",
+  "bytes": 29306,
+  "sha256": "1bacb5ee04ae3df6b30e8a769ebcc864fa676260bcfc26c189c7b4fa1e0605b2",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.0",
+  "version": "3.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -122,6 +122,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "3.0.1",
+      "date": "2026-10-22T17:02:34+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (figures changed (+3/-0 distinct numbers))",
+      "bytes": [
+        27938,
+        29306
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Sweep 4 MEDIUM items: dated update notes on 59 posts"
     }
   ]
 }

@@ -4,10 +4,10 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/indias-labour-codes-took-six-years-to.html",
   "slug": "indias-labour-codes-took-six-years-to",
   "published": "2026-09-16T13:11:13.000+05:30",
-  "updated": "2026-10-01T09:17:49.670+05:30",
+  "updated": "2026-10-22T16:55:15.396+05:30",
   "labels": [],
-  "bytes": 21645,
-  "sha256": "e7bb7196a4d017e374f063120f4b48345e2b7890993c2b32ae4f541df78f28b5",
+  "bytes": 22826,
+  "sha256": "1d4f3bd26031da2b1749291108ac0b4f12087ad6110ae13d7708da7665069df9",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.3.0",
+  "version": "1.3.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -92,6 +92,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Labour-codes retrofit retry; road cess post: NH tolls and satellite-tolling sections"
+    },
+    {
+      "version": "1.3.1",
+      "date": "2026-10-22T17:02:34+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (figures changed (+3/-0 distinct numbers))",
+      "bytes": [
+        21645,
+        22826
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Sweep 4 MEDIUM items: dated update notes on 59 posts"
     }
   ]
 }

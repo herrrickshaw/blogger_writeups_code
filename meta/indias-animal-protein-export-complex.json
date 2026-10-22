@@ -4,7 +4,7 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/indias-animal-protein-export-complex.html",
   "slug": "indias-animal-protein-export-complex",
   "published": "2026-08-05T14:53:50.000+05:30",
-  "updated": "2026-10-01T08:32:28.651+05:30",
+  "updated": "2026-10-22T16:54:14.882+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Energy & Fuels",
@@ -12,8 +12,8 @@
     "Livestock & Dairy",
     "Trade & Tariffs"
   ],
-  "bytes": 16879,
-  "sha256": "2fe696a26610bce31b1eb8b644c37473071f7d179297e537bb670f23144f702e",
+  "bytes": 17806,
+  "sha256": "01f437289323397dbae5b7cab19ad1dea984b33ba2ece8f02b68c792e805c8b1",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": true,
@@ -25,7 +25,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.2.0",
+  "version": "2.2.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -259,6 +259,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Rule 8 retrofit: added What would fix this section"
+    },
+    {
+      "version": "2.2.1",
+      "date": "2026-10-22T17:02:34+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (figures changed (+5/-0 distinct numbers))",
+      "bytes": [
+        16879,
+        17806
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Sweep 4 MEDIUM items: dated update notes on 59 posts"
     }
   ]
 }

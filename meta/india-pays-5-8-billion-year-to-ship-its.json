@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/india-pays-5-8-billion-year-to-ship-its.html",
   "slug": "india-pays-5-8-billion-year-to-ship-its",
   "published": "2026-09-28T17:00:17.000+05:30",
-  "updated": "2026-10-14T16:29:17.152+05:30",
+  "updated": "2026-10-22T16:53:29.372+05:30",
   "labels": [
     "Energy & Fuels",
     "Industrial Policy",
     "Shipping & Maritime Fuels"
   ],
-  "bytes": 20136,
-  "sha256": "e26947cb2f6fa51d402b595e868a5714d797655ecb6167ffe74ace2447817e87",
+  "bytes": 21409,
+  "sha256": "02180c3e9809bbe5f0401151ceeeedaa592cc98fdfe124777e293faf8a5a0b3d",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.1.0",
+  "version": "1.1.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -57,6 +57,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Update notes 12-13 Oct 2026 from the currency sweeps (45 posts)"
+    },
+    {
+      "version": "1.1.1",
+      "date": "2026-10-22T17:02:34+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (figures changed (+1/-0 distinct numbers))",
+      "bytes": [
+        20136,
+        21409
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Sweep 4 MEDIUM items: dated update notes on 59 posts"
     }
   ]
 }

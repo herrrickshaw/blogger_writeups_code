@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/inflation-trends-globally-what-five.html",
   "slug": "inflation-trends-globally-what-five",
   "published": "2026-08-08T08:31:31.000+05:30",
-  "updated": "2026-10-18T06:24:22.114+05:30",
+  "updated": "2026-10-22T16:56:43.230+05:30",
   "labels": [
     "Prices & Inflation"
   ],
-  "bytes": 60205,
-  "sha256": "e85a548782fbe3ad7bde66cac3437a9bf29f2942d73c164a73cdd1fd8f3b0dc6",
+  "bytes": 61281,
+  "sha256": "b42f80f0a1185b9dd68c9a0322c46a43959dab10c87f74cf1c3d5b9450ef1907",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "4.2.0",
+  "version": "4.2.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -328,6 +328,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Sweep 4: notes for posts 81-200"
+    },
+    {
+      "version": "4.2.1",
+      "date": "2026-10-22T17:02:34+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (figures changed (+4/-0 distinct numbers))",
+      "bytes": [
+        60205,
+        61281
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Sweep 4 MEDIUM items: dated update notes on 59 posts"
     }
   ]
 }

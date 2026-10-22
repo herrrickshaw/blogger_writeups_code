@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/indias-carbon-credit-market-domestic.html",
   "slug": "indias-carbon-credit-market-domestic",
   "published": "2026-08-02T21:37:31.000+05:30",
-  "updated": "2026-10-01T08:32:48.782+05:30",
+  "updated": "2026-10-22T16:54:30.866+05:30",
   "labels": [
     "Climate & Carbon"
   ],
-  "bytes": 35083,
-  "sha256": "3412ab474d4f4199510e7378d389f2ce1b9e5964ed13fec853c0690e00f3d7d6",
+  "bytes": 36152,
+  "sha256": "bc5e3911ddc44de9cb11d4fe6d612824f46e1f852224a2f367a89e07afe04b0b",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.1.0",
+  "version": "3.1.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -276,6 +276,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Rule 8 retrofit: added What would fix this section"
+    },
+    {
+      "version": "3.1.1",
+      "date": "2026-10-22T17:02:34+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (figures changed (+2/-0 distinct numbers))",
+      "bytes": [
+        35083,
+        36152
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Sweep 4 MEDIUM items: dated update notes on 59 posts"
     }
   ]
 }

@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/the-levelised-cost-of-hydrogen.html",
   "slug": "the-levelised-cost-of-hydrogen",
   "published": "2026-08-20T06:13:26.000+05:30",
-  "updated": "2026-10-01T08:54:15.010+05:30",
+  "updated": "2026-10-22T17:01:15.325+05:30",
   "labels": [
     "Energy & Fuels",
     "Hydrogen",
     "Industrial Policy"
   ],
-  "bytes": 56844,
-  "sha256": "b98ba0cd271f93282be6eb12c4693f4e8a7fcc1b367ca1a70fff34521cb1aece",
+  "bytes": 58133,
+  "sha256": "97d858467c766ab6890c8a88c34f2d14060e7297d8a88c22d57a2431478b2610",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.1.0",
+  "version": "2.1.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -187,6 +187,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Rule 8 retrofit: added What would fix this section"
+    },
+    {
+      "version": "2.1.1",
+      "date": "2026-10-22T17:02:34+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (figures changed (+5/-0 distinct numbers))",
+      "bytes": [
+        56844,
+        58133
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Sweep 4 MEDIUM items: dated update notes on 59 posts"
     }
   ]
 }

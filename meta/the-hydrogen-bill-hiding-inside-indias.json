@@ -4,15 +4,15 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/the-hydrogen-bill-hiding-inside-indias.html",
   "slug": "the-hydrogen-bill-hiding-inside-indias",
   "published": "2026-08-26T19:10:24.000+05:30",
-  "updated": "2026-10-01T08:54:04.508+05:30",
+  "updated": "2026-10-22T17:01:00.703+05:30",
   "labels": [
     "Energy & Fuels",
     "Ethanol & Biofuels",
     "Hydrogen",
     "Industrial Policy"
   ],
-  "bytes": 44609,
-  "sha256": "cb4a8f1969f3f8ce3c084e99a2332b7464eb165b69baf770a844be37785448a3",
+  "bytes": 45529,
+  "sha256": "64ed6163318d2b8105556bf3941c435cc92eade04eb544a4f3e4aa68761cb9df",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.1.0",
+  "version": "1.1.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -110,6 +110,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Rule 8 retrofit: added What would fix this section"
+    },
+    {
+      "version": "1.1.1",
+      "date": "2026-10-22T17:02:34+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (figures changed (+2/-0 distinct numbers))",
+      "bytes": [
+        44609,
+        45529
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Sweep 4 MEDIUM items: dated update notes on 59 posts"
     }
   ]
 }

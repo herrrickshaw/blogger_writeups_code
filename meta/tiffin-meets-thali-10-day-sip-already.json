@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/tiffin-meets-thali-10-day-sip-already.html",
   "slug": "tiffin-meets-thali-10-day-sip-already",
   "published": "2026-08-11T13:45:20.000+05:30",
-  "updated": "2026-10-01T08:57:25.312+05:30",
+  "updated": "2026-10-22T17:01:29.205+05:30",
   "labels": [
     "Markets & Finance",
     "Personal Finance & Retail Investing Access"
   ],
-  "bytes": 22623,
-  "sha256": "013bd0d46adc33cbe9a8a440113983e0934737debf06536f98ac56d67be046ec",
+  "bytes": 23629,
+  "sha256": "854835fcc0297e0be95392bed0746adf1dfc88313a29b519f5d115ca2bad5ad7",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.2.0",
+  "version": "2.2.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -225,6 +225,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Rule 8 retrofit: added What would fix this section"
+    },
+    {
+      "version": "2.2.1",
+      "date": "2026-10-22T17:02:34+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (figures changed (+1/-0 distinct numbers))",
+      "bytes": [
+        22623,
+        23629
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Sweep 4 MEDIUM items: dated update notes on 59 posts"
     }
   ]
 }

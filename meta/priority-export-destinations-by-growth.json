@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/priority-export-destinations-by-growth.html",
   "slug": "priority-export-destinations-by-growth",
   "published": "2026-08-02T13:49:40.000+05:30",
-  "updated": "2026-10-14T16:29:55.930+05:30",
+  "updated": "2026-10-22T16:58:18.731+05:30",
   "labels": [
     "Trade & Tariffs"
   ],
-  "bytes": 42970,
-  "sha256": "38d4225402d52c0149bf4d4efe9dfc5fe60d57734ffbfc6b87e3e84a887bf8b3",
+  "bytes": 44348,
+  "sha256": "c57e70c20107eeab1078f110026d07e7c46be27d2bf51d3f0710b1969ec64c25",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.3.0",
+  "version": "3.3.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -281,6 +281,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Update notes 12-13 Oct 2026 from the currency sweeps (45 posts)"
+    },
+    {
+      "version": "3.3.1",
+      "date": "2026-10-22T17:02:34+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (figures changed (+9/-0 distinct numbers))",
+      "bytes": [
+        42970,
+        44348
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Sweep 4 MEDIUM items: dated update notes on 59 posts"
     }
   ]
 }

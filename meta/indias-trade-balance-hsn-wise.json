@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/indias-trade-balance-hsn-wise.html",
   "slug": "indias-trade-balance-hsn-wise",
   "published": "2026-08-02T14:00:15.000+05:30",
-  "updated": "2026-10-01T08:38:24.990+05:30",
+  "updated": "2026-10-22T16:56:05.097+05:30",
   "labels": [
     "Trade & Tariffs"
   ],
-  "bytes": 63622,
-  "sha256": "56fd67ae3a21874422917be7dbf74c48a1085a4fd635f8fea4515706a5a8ab4c",
+  "bytes": 65011,
+  "sha256": "437db8be3e6062f4954f8e3aace3bd6730bbd6decfd1b50bce8fa46b6b40531b",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": true,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.1.0",
+  "version": "3.1.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -268,6 +268,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Rule 8 retrofit: added What would fix this section"
+    },
+    {
+      "version": "3.1.1",
+      "date": "2026-10-22T17:02:34+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (figures changed (+8/-0 distinct numbers))",
+      "bytes": [
+        63622,
+        65011
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Sweep 4 MEDIUM items: dated update notes on 59 posts"
     }
   ]
 }
