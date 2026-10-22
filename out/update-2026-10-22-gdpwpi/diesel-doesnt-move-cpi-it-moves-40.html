@@ -1,0 +1,445 @@
+<div class="artx dsl">
+<style>/*gs-typo-unify-v1*/
+.dsl{font-family:Georgia,'Times New Roman',serif;line-height:1.62;color:#1a1a1a;max-width:54rem;margin:0 auto}
+.dsl h1,.dsl h2,.dsl h3{line-height:1.3}
+.dsl p,.dsl li{max-width:38rem}
+.dsl .eyebrow{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.72rem;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:#8a4b08;margin:0 0 .8rem}
+.dsl h1{font-weight:400;font-size:2.15rem;letter-spacing:-.01em;margin:0 0 .9rem;max-width:24ch;color:#1a1a1a}
+.dsl .standfirst{font-size:1.2rem;line-height:1.5;color:#4a4a4a;max-width:38rem;margin:0 0 1.4rem}
+.dsl h2{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.75rem;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:#595959;border-top:1px solid #e2e2e2;padding-top:.8rem;margin:2.8rem 0 .35rem;max-width:38rem}
+.dsl .h2sub{font-size:1.55rem;font-weight:400;line-height:1.26;margin:0 0 1rem;max-width:26ch;color:#1a1a1a}
+.dsl h3{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:1rem;font-weight:600;margin:1.7rem 0 .4rem}
+.dsl .stats{display:grid;gap:0 2rem;grid-template-columns:repeat(auto-fit,minmax(10rem,1fr));margin:1.8rem 0}
+.dsl .stat{padding:.85rem 0;border-top:1px solid #e2e2e2}
+.dsl .stat b{display:block;font-size:1.9rem;line-height:1;color:#8a4b08;margin-bottom:.3rem;font-weight:400}
+.dsl .stat span{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.78rem;color:#595959;display:block;line-height:1.35}
+.dsl .exhibit{margin:2.2rem 0}
+.dsl .exno{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.69rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:#0a4c6a;margin:0 0 .25rem}
+.dsl .extitle{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:1.12rem;font-weight:700;line-height:1.3;margin:0 0 .15rem;max-width:46ch}
+.dsl .exsub{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.94rem;font-style:italic;color:#595959;margin:0 0 .8rem;max-width:52ch}
+.dsl .exsrc{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.72rem;color:#595959;line-height:1.45;margin:.6rem 0 0}
+.dsl .tw{overflow-x:auto}
+/* The overflow-x:auto wrapper cannot scroll a width:100% table — it fits,
+   so it compresses instead. width:auto lets it exceed and engages the scroller. */
+.dsl table{width:auto;min-width:100%;border-collapse:collapse;font-size:.85rem;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
+.dsl thead th{text-align:right;font-weight:600;font-size:.7rem;letter-spacing:.05em;text-transform:uppercase;color:#595959;border-bottom:1px solid #000;padding:.45rem .65rem;vertical-align:bottom}
+.dsl thead th:first-child,.dsl tbody td:first-child{text-align:left}
+.dsl tbody td{text-align:right;padding:.46rem .65rem;border-bottom:1px dotted #d9d9d9;font-variant-numeric:tabular-nums}
+.dsl th,.dsl td{white-space:nowrap}
+.dsl tbody tr:last-child td{border-bottom:1px solid #000}
+.dsl .note,.dsl .warn{border-left:2px solid #e2e2e2;padding:.1rem 0 .1rem 1rem;margin:1.6rem 0;font-size:.95rem;color:#4a4a4a}
+.dsl .warn{border-left-color:#db2b27}
+.dsl a{color:#12408f}
+.dsl .sources{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.78rem;color:#595959;max-width:46rem;margin:2.6rem 0 0;padding-top:.9rem;border-top:1px solid #e2e2e2}
+.dsl .revised{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.76rem;color:#595959;margin:0 0 1.2rem}
+.dsl .disclaimer{font-size:.8rem;color:#555;margin-top:1.4rem;max-width:46rem}
+.dsl img,.dsl svg{max-width:100%;height:auto}
+
+/*gs-table-v1 — scoped to .post-body, not .artx: several posts use other
+  wrapper classes (.tblwrap among them) and an .artx-scoped rule silently did
+  nothing on them. Verified on a canary post before the batch. */
+.post-body .tw{overflow-x:auto;margin:1.1rem 0}
+/* display:block makes the table its OWN scroller, so it works whether or not
+   the post wrapped it in .tw — several posts use .tblwrap or nothing, and a
+   width:auto table with no scroller pushes the whole page sideways. */
+.post-body table{display:block;overflow-x:auto;max-width:100%;width:max-content;
+ min-width:100%;border-collapse:collapse;font-size:.86rem}
+.post-body thead th,.post-body tr:first-child th{background:#111;color:#fff;font-weight:700;
+ text-align:right;vertical-align:bottom;padding:.6rem .7rem;border:1px solid #111;
+ white-space:normal;overflow-wrap:normal;word-break:keep-all;min-width:5.5rem}
+.post-body thead th:first-child,.post-body tr:first-child th:first-child{text-align:left}
+.post-body td{border:1px solid #d9d9d9;padding:.5rem .7rem;text-align:right;
+ font-variant-numeric:tabular-nums;white-space:nowrap;color:#111;background:#fff}
+.post-body td:first-child{text-align:left;white-space:normal;min-width:8rem}
+.post-body tbody tr:nth-child(even) td{background:#fafafa}
+</style>
+
+<div class="gs-head-order" style="display:flex;flex-direction:column">
+<p style="order:4" class="standfirst">The case for moving Indian fleets off diesel is usually made on inflation: diesel drives prices, so switching fuel eases them. Fifteen years of official data do not show that link. The real case is different and stronger &mdash; a &#8377;40-per-litre gap between how the same fuel is sold to two sets of buyers, a stationary segment that is trivial to convert, and a fuel that is far harder to siphon out of a tanker.</p>
+<div class="topnav-index-link" style="order:1;font-size:.82em;margin:6px 0 14px"><a href="https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html" style="color:#0b5394;text-decoration:none">&#8592; All Articles (Index)</a></div>
+<p style="order:2" class="eyebrow">Fuel pricing &middot; Inflation &middot; Freight</p>
+<h1 style="order:3">From Diesel to CNG: Where the Switch Actually Pays</h1>
+</div>
+
+<figure class="gb-figure" style="margin:1.5rem 0 1.75rem;text-align:center">
+<svg role="img" style="width:100%;height:auto;max-width:700px;display:block;margin:0 auto" viewBox="0 0 700 445" xmlns="http://www.w3.org/2000/svg" font-family="Georgia,'Times New Roman',serif">
+  <rect x="0" y="0" width="700" height="445" fill="#f8f9fa" />
+  <text x="40" y="38" font-size="19" fill="#1a1a1a" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-weight="700">Modelled running cost per kilometre, Delhi, July 2026</text>
+  <text x="40" y="58" font-size="12.5" fill="#595959" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif">Sedan and compact SUV segments &#8212; &#8377; per km</text>
+
+  <line x1="70" y1="355" x2="660" y2="355" stroke="#1a1a1a" stroke-width="1.5" />
+
+  <g stroke="#e2e2e2" stroke-width="1">
+    <line x1="70" y1="288.3" x2="660" y2="288.3" />
+    <line x1="70" y1="221.7" x2="660" y2="221.7" />
+    <line x1="70" y1="155" x2="660" y2="155" />
+  </g>
+  <g font-size="11" fill="#8a8a8a" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" text-anchor="end">
+    <text x="62" y="359">0</text>
+    <text x="62" y="292.3">2</text>
+    <text x="62" y="225.7">4</text>
+    <text x="62" y="159">6</text>
+    <text x="62" y="119">8 &#8377;/km</text>
+  </g>
+
+  <g>
+    <rect x="120" y="118.7" width="46" height="236.3" fill="#9aa5ad" />
+    <text x="143" y="111" font-size="12.5" text-anchor="middle" fill="#1a1a1a" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif">7.09</text>
+
+    <rect x="172" y="210.7" width="46" height="144.3" fill="#0b5794" />
+    <text x="195" y="203" font-size="12.5" text-anchor="middle" fill="#1a1a1a" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif">4.33</text>
+
+    <rect x="224" y="248.3" width="46" height="106.7" fill="#1a8f4c" />
+    <text x="247" y="241" font-size="12.5" text-anchor="middle" fill="#1a1a1a" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif">3.20</text>
+
+    <text x="195" y="380" font-size="13.5" text-anchor="middle" fill="#1a1a1a" font-weight="600" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif">Sedan</text>
+    <text x="195" y="397" font-size="12" text-anchor="middle" fill="#1a8f4c" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif">CNG &minus;26% vs diesel</text>
+  </g>
+
+  <g>
+    <rect x="380" y="87.7" width="46" height="267.3" fill="#9aa5ad" />
+    <text x="403" y="80" font-size="12.5" text-anchor="middle" fill="#1a1a1a" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif">8.18</text>
+
+    <rect x="432" y="188" width="46" height="167" fill="#0b5794" />
+    <text x="455" y="180" font-size="12.5" text-anchor="middle" fill="#1a1a1a" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif">5.01</text>
+
+    <rect x="484" y="228.9" width="46" height="126.1" fill="#1a8f4c" />
+    <text x="507" y="221" font-size="12.5" text-anchor="middle" fill="#1a1a1a" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif">3.78</text>
+
+    <text x="455" y="380" font-size="13.5" text-anchor="middle" fill="#1a1a1a" font-weight="600" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif">Compact SUV</text>
+    <text x="455" y="397" font-size="12" text-anchor="middle" fill="#1a8f4c" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif">CNG &minus;25% vs diesel</text>
+  </g>
+
+  <g font-size="12" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif">
+    <rect x="560" y="130" width="14" height="14" fill="#9aa5ad" />
+    <text x="580" y="141" fill="#1a1a1a">Petrol E20</text>
+    <rect x="560" y="152" width="14" height="14" fill="#0b5794" />
+    <text x="580" y="163" fill="#1a1a1a">Diesel</text>
+    <rect x="560" y="174" width="14" height="14" fill="#1a8f4c" />
+    <text x="580" y="185" fill="#1a1a1a">CNG</text>
+  </g>
+
+  <text fill="#8a8a8a" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" x="40" y="420" text-anchor="start" font-size="10.5"><tspan x="40" dy="0">Source: 303 ARAI-certified SIAM BS-VI fuel-efficiency declarations and OMC city fuel boards, via masaladeutsch</tspan><tspan x="40" dy="13.125">vehicle_fuel_mileage model</tspan></text>
+</svg>
+<figcaption style="font-size:.8em;color:#868e96;font-family:-apple-system,'Segoe UI',sans-serif;margin-top:.5rem">CNG runs at roughly three-quarters of diesel's per-kilometre cost, per ARAI/SIAM-calibrated modelling for Delhi, July 2026.</figcaption>
+</figure>
+
+<a href="#" id="gs-skip-link" class="gs-skip-link" style="position:absolute;left:-9999px;top:auto;background:#1a1a1a;color:#fff;padding:.6rem 1rem;z-index:1000;border-radius:4px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.85rem">Skip to article content</a>
+<style>.gs-skip-link:focus{left:8px!important;top:8px!important}
+.gs-a11y-bar{display:flex;align-items:center;gap:.55rem;flex-wrap:wrap;background:#f4f5f7;border:1px solid #dfe3e8;border-radius:8px;padding:.55rem .8rem;margin:10px 0 16px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
+.gs-a11y-bar .gs-a11y-label{font-size:.68rem;font-weight:700;letter-spacing:.08em;color:#666;text-transform:uppercase;margin-right:.15rem}
+.gs-a11y-bar button{cursor:pointer;border:1px solid #c7cbd1;background:#fff;color:#1a1a1a;border-radius:5px;padding:.32rem .65rem;font-family:inherit;line-height:1}
+.gs-a11y-bar button.gs-a11y-fs{font-weight:700;min-width:2rem;text-align:center}
+.gs-a11y-bar button.gs-a11y-fs[data-size="sm"]{font-size:.8rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="md"]{font-size:1rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="lg"]{font-size:1.2rem}
+.gs-a11y-bar button.gs-a11y-fs[aria-pressed="true"]{background:#1a1a1a;color:#fff;border-color:#1a1a1a}
+.gs-a11y-bar button:hover{border-color:#8a4b08}
+.gs-a11y-bar button:focus-visible{outline:2px solid #8a4b08;outline-offset:1px}
+.gs-a11y-bar .gs-a11y-sep{width:1px;align-self:stretch;background:#dfe3e8;margin:0 .1rem}</style>
+<div class="gs-a11y-bar" role="group" aria-label="Accessibility controls">
+<span class="gs-a11y-label">Text Size</span>
+<button type="button" class="gs-a11y-fs" data-size="sm" aria-pressed="false" aria-label="Small text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="md" aria-pressed="true" aria-label="Medium text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="lg" aria-pressed="false" aria-label="Large text">A</button>
+<span class="gs-a11y-sep"></span>
+<button type="button" id="gs-a11y-listen" aria-label="Read this article aloud">&#128266; Listen</button>
+<button type="button" id="gs-a11y-stop" aria-label="Stop reading aloud">&#9632; Stop</button>
+</div>
+<script>(function(){
+var KEY='gs-a11y-fontsize', SIZES={sm:'0.92',md:'1',lg:'1.15'};
+function pb(){return document.querySelector('.post-body')||document.querySelector('.artx,.mdrx');}
+function apply(sz){
+  var el=pb(); if(!el||!SIZES[sz]) return;
+  el.style.fontSize=SIZES[sz]+'em';
+  var btns=document.querySelectorAll('.gs-a11y-fs');
+  for(var i=0;i<btns.length;i++){
+    var on=btns[i].getAttribute('data-size')===sz;
+    btns[i].setAttribute('aria-pressed', on?'true':'false');
+  }
+  try{localStorage.setItem(KEY,sz);}catch(e){}
+}
+var fsBtns=document.querySelectorAll('.gs-a11y-fs');
+for(var j=0;j<fsBtns.length;j++){
+  fsBtns[j].addEventListener('click',(function(b){return function(){apply(b.getAttribute('data-size'));};})(fsBtns[j]));
+}
+var saved; try{saved=localStorage.getItem(KEY);}catch(e){}
+apply(saved&&SIZES[saved]?saved:'md');
+
+var listenBtn=document.getElementById('gs-a11y-listen'), stopBtn=document.getElementById('gs-a11y-stop');
+if(listenBtn){
+  listenBtn.addEventListener('click', function(){
+    if(!('speechSynthesis' in window)){ alert('Text-to-speech is not supported in this browser.'); return; }
+    window.speechSynthesis.cancel();
+    var src=pb(); if(!src) return;
+    var clone=src.cloneNode(true);
+    var strip=clone.querySelectorAll('script,style,svg');
+    for(var k=0;k<strip.length;k++){ strip[k].parentNode.removeChild(strip[k]); }
+    var text=clone.textContent.replace(/\s+/g,' ').trim();
+    if(!text) return;
+    var chunks=text.match(/[\s\S]{1,180}(?:[.!?]|$)/g)||[text];
+    var idx=0;
+    function speakNext(){
+      if(idx>=chunks.length) return;
+      var u=new SpeechSynthesisUtterance(chunks[idx]);
+      u.onend=function(){ idx++; speakNext(); };
+      window.speechSynthesis.speak(u);
+    }
+    speakNext();
+  });
+}
+if(stopBtn){
+  stopBtn.addEventListener('click', function(){
+    if('speechSynthesis' in window) window.speechSynthesis.cancel();
+  });
+}
+var skip=document.getElementById('gs-skip-link');
+if(skip){
+  skip.addEventListener('click', function(ev){
+    ev.preventDefault();
+    var h=document.querySelector('.post-body h1')||document.querySelector('.artx h1,.mdrx h1,h1');
+    if(h){ h.setAttribute('tabindex','-1'); h.focus(); h.scrollIntoView(); }
+  });
+}
+})();</script>
+<style>.goog-te-menu-frame{max-width:340px!important;max-height:70vh!important;overflow:auto!important;box-shadow:0 6px 24px rgba(0,0,0,.25)!important}</style><div id="google_translate_element" style="margin:8px 0 16px;"></div><script type="text/javascript">function googleTranslateElementInit(){new google.translate.TranslateElement({pageLanguage:"en",includedLanguages:"hi,bn,ta,te,mr,gu,kn,ml,pa,or,as,ur,sa,ne,sd",layout:google.translate.TranslateElement.InlineLayout.SIMPLE,autoDisplay:false},"google_translate_element");}</script><script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+
+<p class="revised" data-gs-revision-v1="1">Revised <time datetime="2026-08-06" itemprop="dateModified">6 August 2026</time> &middot; v2.2.0</p>
+<figure style="margin:1.6rem 0">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Bharat_Petroleum_Fuel_Filling_Station_Chengannor_%28Joseph_Joseph%29.jpg/960px-Bharat_Petroleum_Fuel_Filling_Station_Chengannor_%28Joseph_Joseph%29.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail" alt="A Bharat Petroleum diesel filling station in Kerala" loading="lazy" style="width:100%;height:auto;border-radius:6px;display:block"/>
+<figcaption class="gb-note" style="margin-top:.4rem">A diesel-dispensing fuel station in Kerala &#8212; the retail side of the &#8377;40-per-litre direct-sales/retail gap this piece traces through fifteen years of price data. <a href="https://commons.wikimedia.org/wiki/File:Bharat_Petroleum_Fuel_Filling_Station_Chengannor_(Joseph_Joseph).jpg" rel="noopener noreferrer">Bharat Petroleum Fuel Filling Station Chengannor</a>, Dr. Chinchu C., CC BY-SA 3.0, via Wikimedia Commons.</figcaption>
+</figure>
+
+<div class="stats">
+<div class="stat"><b>+0.11</b><span>Correlation, diesel WPI growth vs CPI headline growth, FY2012&ndash;FY2026</span></div>
+<div class="stat"><b>&gt;&#8377;40</b><span>Per-litre gap between direct-sales and retail diesel, PPAC, May 2026</span></div>
+<div class="stat"><b>43.3%</b><span>Diesel&rsquo;s share of India&rsquo;s total petroleum product market, May 2026</span></div>
+<div class="stat"><b>&minus;34.7%</b><span>Private oil marketing companies&rsquo; diesel sales, May 2026, year on year</span></div>
+</div>
+
+<div class="warn" style="border-left:4px solid #a5402c;background:rgba(165,64,44,.07);padding:.8em 1em;margin:1.2em 0;border-radius:4px"><b>Correction, 22 October 2026.</b> The source lines below described the wholesale price series as &ldquo;rebased 2022-23 = 100&rdquo;. The FY2012&ndash;FY2026 series used here are the 2011-12-base indices, which ran from April 2012 to April 2026; the official 2022-23-base series starts only in April 2023. The labels have been corrected. The correlations are calculated from year-on-year growth rates, so the base does not change them, and the findings stand. Nothing else has changed.</div>
+<h2>The claim</h2>
+<p class="h2sub">Everyone knows diesel drives inflation. The data does not.</p>
+
+
+<p>The argument is intuitive enough that it rarely gets tested. Diesel moves freight; freight moves food; food moves the consumer price index. Therefore holding diesel prices down holds inflation down. It appears in market commentary as settled fact &mdash; one widely-read explainer walks through the entire chain, from tractors to irrigation to the Reserve Bank&rsquo;s rate stance, without offering a single pass-through estimate, basket weight or citation.</p>
+
+<p>So we tested it against fifteen years of official series: wholesale price indices for diesel, urea and DAP from DPIIT&rsquo;s Office of the Economic Adviser, consumer price indices from MoSPI, April-anchored, FY2012 through FY2026.</p>
+
+<div class="exhibit">
+<p class="exno">Exhibit 1</p>
+<p class="extitle">Diesel tracks the wholesale index almost perfectly, and the retail index barely at all</p>
+<p class="exsub">Pearson correlation of year-on-year growth rates, April anchor, n = 15 years</p>
+<div class="tw">
+<table>
+<thead><tr><th>Pair</th><th>r</th><th>Reading</th></tr></thead>
+<tbody>
+<tr><td>Diesel vs WPI headline</td><td>+0.92</td><td>Mechanical &mdash; diesel is a WPI component</td></tr>
+<tr><td>WPI headline vs CPI headline</td><td>+0.25</td><td>Weak wholesale-to-retail link</td></tr>
+<tr><td>Diesel vs CPI headline</td><td>+0.11</td><td>Essentially nothing</td></tr>
+<tr><td>Diesel vs CPI food</td><td>&minus;0.16</td><td>Wrong sign</td></tr>
+<tr><td>Diesel (t) vs CPI food (t+1)</td><td>+0.09</td><td>The lag does not rescue it</td></tr>
+</tbody>
+</table>
+</div>
+<p class="exsrc">Source: WPI &mdash; DPIIT/Office of the Economic Adviser, base 2011-12 = 100, April 2012 to April 2026. CPI &mdash; MoSPI. Author&rsquo;s calculation on April-anchored annual growth rates.</p>
+</div>
+
+<p>The +0.92 is not evidence of transmission. Diesel sits <em>inside</em> the wholesale index, so the index partly measures diesel by construction. The number that would matter is diesel against retail inflation, and it is +0.11 &mdash; indistinguishable from noise. Against food inflation specifically, where the freight story is supposed to be strongest, the sign is negative. Lagging diesel by a year, which is how a cost shock would plausibly reach the shelf, gives +0.09.</p>
+
+<div class="warn">
+<b>What this test can and cannot settle.</b> Fifteen annual observations cannot see a pass-through that operates over weeks; monthly data would be a fairer test. Neither series is controlled for crude, so diesel and food could co-move simply because both follow Brent. And there is a peer-reviewed study on precisely this question &mdash; Ghosh, <i>Impact of India&rsquo;s diesel subsidy reforms and pricing policy on growth and inflation</i>, Energy Economics 113 (2022) &mdash; which we have not been able to read. If it finds transmission at higher frequency, the finding here is a frequency artefact. Treat this as a null result at annual frequency, not a settled fact.
+</div>
+
+<h2>What is actually happening</h2>
+<p class="h2sub">Two prices for one fuel, forty rupees apart</p>
+
+<p>If diesel&rsquo;s wholesale signal is not reaching retail prices, something is absorbing it. PPAC&rsquo;s Industry Consumption Report for May 2026 says what.</p>
+
+<p>Diesel sold directly by oil marketing companies to bulk buyers &mdash; industry, railways, mining, shipping &mdash; is priced <strong>more than &#8377;40 per litre above the same fuel at a retail pump</strong>. Bulk buyers have responded exactly as anyone would: they buy at the pump instead.</p>
+
+<div class="exhibit">
+<p class="exno">Exhibit 2</p>
+<p class="extitle">The direct-sales channel is collapsing into the retail channel</p>
+<p class="exsub">Diesel sales by channel and by seller, April&ndash;May 2026 against April&ndash;May 2025</p>
+<div class="tw">
+<table>
+<thead><tr><th>Measure</th><th>Apr&ndash;May 2025</th><th>Apr&ndash;May 2026</th></tr></thead>
+<tbody>
+<tr><td>Retail share of diesel (%)</td><td>88</td><td>92</td></tr>
+<tr><td>Direct-sales share (%)</td><td>12</td><td>8</td></tr>
+<tr><td>Direct-sales volume (TMT)</td><td>2,090</td><td>1,411</td></tr>
+<tr><td>PSU OMC market share (%)</td><td>87.3</td><td>91.8</td></tr>
+<tr><td>PSU sales growth, May (%)</td><td>&mdash;</td><td>+6.9</td></tr>
+<tr><td>Private OMC sales growth, May (%)</td><td>&mdash;</td><td>&minus;34.7</td></tr>
+</tbody>
+</table>
+</div>
+<p class="exsrc">Source: PPAC, Industry Consumption Report POL &amp; NG, May 2026. PSU share gain of 4.54 percentage points as stated in the report.</p>
+</div>
+
+<p>A &#8377;40 gap between two channels for an identical commodity is not a market outcome. It is the visible edge of an administered retail price, measured against a channel left closer to cost. Private marketers, who have no obligation to sell below cost and no PSU balance sheet to absorb the difference, lost more than a third of their volume in a single year.</p>
+
+<p><strong>This is the strongest available evidence that Indian retail diesel is held below cost-reflective levels.</strong> It is a current, official, unambiguous number, and it does not depend on a correlation. It also reframes the policy question. Price control is real and large. Its observable effect is not a lower CPI print &mdash; it is channel arbitrage and the retreat of private competition.</p>
+
+<h2>Where the fuel goes</h2>
+<p class="h2sub">Diesel is a freight fuel, and the freight is growing faster than the fuel</p>
+
+<p>Diesel remains India&rsquo;s dominant petroleum product at <strong>43.3% of the market</strong>. May 2026 consumption was 8.73 million tonnes, up 1.6% year on year; the April&ndash;May total was 17.06 MMT, up 1.2%.</p>
+
+<p>That is modest growth, and it sits oddly beside every proxy for freight activity in the same report.</p>
+
+<div class="exhibit">
+<p class="exno">Exhibit 3</p>
+<p class="extitle">Freight indicators are running three to seven times faster than diesel demand</p>
+<p class="exsub">Year-on-year growth, May 2026</p>
+<div class="tw">
+<table>
+<thead><tr><th>Indicator</th><th>Growth (%)</th></tr></thead>
+<tbody>
+<tr><td>E-way bills generated</td><td>+11.0</td></tr>
+<tr><td>Commercial vehicle sales</td><td>+5.3</td></tr>
+<tr><td>Major-port cargo throughput</td><td>+4.5</td></tr>
+<tr><td>Tractor sales</td><td>+11.2</td></tr>
+<tr><td>Diesel consumption</td><td>+1.6</td></tr>
+</tbody>
+</table>
+</div>
+<p class="exsrc">Source: PPAC Industry Consumption Report, May 2026, drawing on GSTN (e-way bills, 1,360.79 lakh in May), FADA (vehicle sales) and ipa.nic.in (port cargo, 153.91 MMT).</p>
+</div>
+
+<p>Goods are moving considerably faster than diesel is being burnt. Some of that is efficiency and some is a shift to rail &mdash; railways rose from 9% to 12% of direct-sales diesel over the year. But the gap is wide enough to be worth naming as an open question rather than explaining away, and it is the natural place to ask what else could be carrying freight.</p>
+
+<div class="note">
+<b>A caution on the sectoral numbers.</b> PPAC publishes an end-use breakdown for <em>direct sales only</em> &mdash; that is 8% of diesel, and the channel shrank by a third this year, so its internal shares shift for composition reasons rather than demand reasons. Within that 8%: road transport 27%, miscellaneous industry 22%, mining and quarrying 18%, railways 12%, shipping 10%, manufacturing 7%, agriculture 2%, power generation 2%. The last economy-wide end-use survey is the PPAC/Nielsen study of 2,000-plus retail outlets across 16 states &mdash; whose fieldwork ran from January 2012 to June 2013. It found transport at about 70% of diesel, with heavy and light commercial vehicles at 28.25%, buses 9.55% and agriculture 13%. Those proportions are thirteen years old, they predate the collapse of the diesel passenger car after BS-VI, and they predate diesel deregulation in October 2014. Use them for structure; do not quote them as today&rsquo;s levels.
+</div>
+
+<h2>The leakage</h2>
+<p class="h2sub">A price gap on a bulk liquid is an invitation</p>
+
+<p>Arbitrage on a commodity does not stay theoretical. When the same litre is worth &#8377;40 more depending on who is buying it, and a second subsidised liquid exists that looks similar in a tank, the incentive to move fuel between categories is substantial.</p>
+
+<p>Both halves of that incentive appear in the same PPAC report. The &#8377;40 gap is one. The other is kerosene: subsidised PDS kerosene accounted for <strong>73% of kerosene consumption</strong> in May 2026, against 27% non-PDS. Kerosene is the classic diesel adulterant.</p>
+
+<p>The enforcement record is consistent with it. In Bengaluru in 2025, the Central Crime Branch arrested four people siphoning diesel destined for BMTC and KSRTC bus depots, seizing roughly 60,000 litres from three tankers; the method was to draw about 50 litres from each tanker in transit using duplicate keys and report the shortfall to depot managers as spillage. In Udupi, a tanker driver was arrested with 1,020 litres recovered, charged under the Bharatiya Nyaya Sanhita, the Essential Commodities Act 1955 and the Petroleum Act. The central government has separately directed state chief secretaries to act against fuel adulteration.</p>
+
+<div class="warn">
+<b>No national figure exists, and we are not going to invent one.</b> These are individual seizures reported in the press, not a measured rate. They establish that the mechanism operates; they say nothing about its scale. A defensible national estimate would have to come from CAG audits of state transport undertakings, whose fuel-consumption-per-kilometre variances are auditable. We have not obtained those.
+</div>
+
+<h2>The recommendation</h2>
+<p class="h2sub">Convert the depot-based fleet; close the wedge; do not cut the retail price</p>
+
+<p>Three independent lines of evidence point at the same segment of demand.</p>
+
+<p><strong>Structure.</strong> Heavy and light commercial vehicles plus buses were roughly 38% of diesel in the last economy-wide survey &mdash; the largest single block, and the one least likely to have shrunk since.</p>
+
+<p><strong>Feasibility.</strong> That segment is depot-based and route-bound. Refuelling infrastructure for compressed natural gas is tractable where vehicles return to a known point each night, and intractable where they do not. Agriculture, at around 13% of diesel, is dispersed and seasonal; it is the wrong target. Private diesel cars are solving themselves.</p>
+
+<p><strong>Leakage.</strong> Compressed gas is physically far harder to divert than a liquid. It cannot be siphoned into a can, decanted at the roadside, or blended with kerosene. It is dispensed under pressure into a sealed, metered vessel. For state transport undertakings and municipal fleets &mdash; exactly the buyers in the Bengaluru case &mdash; conversion removes a whole category of loss alongside the emissions case.</p>
+
+<p>Which leaves the price question, and here the evidence cuts against the obvious ask. <strong>Arguing for a cut in retail diesel prices is arguing against PPAC&rsquo;s own report.</strong> Retail diesel already sits &#8377;40 below the unregulated channel. Cutting it further would widen the arbitrage that drives diversion, deepen the fiscal absorption, and weaken the economics of every fleet considering a switch.</p>
+
+<p>The coherent ask is different: <strong>close the tax wedge on commercial fleet fuel while converting those fleets to gas.</strong> That shrinks the arbitrage from both ends &mdash; a smaller gap to exploit, and a fuel that is harder to exploit it with &mdash; and it preserves the relative advantage that makes conversion worth financing.</p>
+
+<div class="note">
+<b>The dependency this does not solve.</b> Gas is not an escape from imports. India&rsquo;s crude import dependency reached 88.2% in FY2024-25 and self-sufficiency in products from indigenous crude fell to 11.8%. But domestic gas production also fell 0.9% while LNG imports rose 15.4%. A diesel-to-CNG shift swaps one import exposure for another, partly rupee-denominated one. It is a better exposure &mdash; but it should be argued as a swap, not an escape.
+</div>
+
+<h2>The stationary segment</h2>
+<p class="h2sub">Generators and telecom towers burn diesel that never moves</p>
+
+<p>The freight argument above concerns diesel that travels. A second block does not move at all, and it is the easier conversion.</p>
+
+<div class="exhibit">
+<p class="exno">Exhibit 4</p>
+<p class="extitle">Roughly an eighth of India&rsquo;s diesel is burnt standing still</p>
+<p class="exsub">Stationary end-uses as a share of all diesel, retail and direct sales combined</p>
+<div class="tw">
+<table>
+<thead><tr><th>End use</th><th>Share of diesel (%)</th></tr></thead>
+<tbody>
+<tr><td>Gensets, non-industry</td><td>6.45</td></tr>
+<tr><td>Gensets, industry</td><td>4.06</td></tr>
+<tr><td>Mobile towers</td><td>1.54</td></tr>
+<tr><td>Stationary total</td><td>12.05</td></tr>
+</tbody>
+</table>
+</div>
+<p class="exsrc">Source: PPAC / Nielsen India, All India Study on Sectoral Demand of Diesel &amp; Petrol, Figure 1. Fieldwork January 2012 to June 2013. Shares are of the period studied and are not current levels; see the caution above.</p>
+</div>
+
+<p>A generator is the best conversion candidate in the entire fuel system. It sits on a known site, it has a fixed address for a gas connection or a cylinder cascade, it does not need a refuelling network, and its duty cycle is predictable. Gas gensets are a mature product; the constraint is piped-gas availability at the site, not technology.</p>
+
+<p>Telecom towers deserve separate mention because the sector has spent fifteen years trying to leave diesel and still burned <strong>1.54%</strong> of national consumption in the study period &mdash; more than aviation and shipping combined. Towers are the clearest case of diesel used purely as backup for an unreliable grid, and the improving power position weakens the case for it: peak demand of <strong>270.82 GW</strong> in April&ndash;May 2026 was met in full, with a deficit of 0.0%.</p>
+
+<div class="note">
+<b>Why stationary conversion is not already done.</b> Freight can refuel wherever a station exists; a generator can only use the gas that reaches its plot. City gas distribution geography, not economics, is the binding constraint &mdash; which makes genset conversion a question about CGD network rollout rather than about fuel prices. That is a different policy lever from the one this article has been discussing, and a more tractable one.
+</div>
+
+<h2>Doorstep delivery</h2>
+<p class="h2sub">The arbitrage, formalised and licensed</p>
+
+<p>There is now a legal industry built on the gap this article has been describing. Doorstep diesel delivery brings fuel to the consumer in a licensed mobile dispenser rather than requiring the consumer to reach a pump.</p>
+
+<p>The operators are real businesses at scale. <strong>FuelBuddy</strong>, founded in 2020, acquired <strong>MyPetrolPump</strong> in May 2021. <strong>Humsafar</strong>, founded in 2016, supplies non-automotive diesel to industrial, healthcare and hospitality customers. <strong>Repos Energy</strong>, backed by Ratan Tata, reports a presence in 130 cities. <strong>Pepfuels</strong> operates in the same segment, and the public-sector oil marketing companies have themselves invited start-ups into doorstep delivery.</p>
+
+<p>The regulatory shape matters more than the company list. Delivery is licensed by the <strong>Petroleum and Explosives Safety Organisation</strong>, which specifies the tankers, requires periodic inspection of mobile dispensers, and mandates documentation of quantity, quality and delivery location for every transaction. Critically, <strong>it is permitted for approved business locations and generators, not for private vehicles or personal use.</strong></p>
+
+<p>Two things follow. First, the customer base is precisely the stationary segment above &mdash; gensets and industrial sites &mdash; so doorstep delivery and genset conversion are competing answers to the same problem. Second, a licensed channel with per-transaction documentation of quantity and location is the opposite of the siphoning described earlier. The same demand that fuels diversion also supports a formal channel; policy determines which one grows.</p>
+
+<div class="warn">
+<b>An open question this article cannot answer.</b> Does doorstep delivery price off the retail rate or the direct-sales rate? Given the &#8377;40-per-litre gap, the answer decides whether this channel arbitrages the wedge or merely adds convenience on top of retail. Nothing read for this piece states it, and the operators do not publish it. It is the single most useful fact anyone could add here.
+</div>
+
+<h2>The running-cost gap</h2>
+<p class="h2sub">Where CNG&rsquo;s advantage is actually measured</p>
+
+<p>The clearest argument for switching is not environmental &mdash; it is arithmetic. A companion piece on this blog models cost per kilometre from <strong>303 ARAI-certified SIAM fuel-efficiency declarations</strong> and OMC-published city fuel boards, on a Delhi July 2026 basis.</p>
+
+<div class="exhibit">
+<p class="exno">Exhibit 5</p>
+<p class="extitle">CNG runs at roughly three-quarters of the diesel cost per kilometre</p>
+<p class="exsub">Modelled running cost, Delhi, July 2026 basis, four-wheeler segments</p>
+<div class="tw">
+<table>
+<thead><tr><th>Segment</th><th>Petrol E20 (&#8377;/km)</th><th>Diesel (&#8377;/km)</th><th>CNG (&#8377;/km)</th><th>CNG vs diesel (%)</th></tr></thead>
+<tbody>
+<tr><td>Sedan</td><td>7.09</td><td>4.33</td><td>3.20</td><td>&minus;26</td></tr>
+<tr><td>Compact SUV</td><td>8.18</td><td>5.01</td><td>3.78</td><td>&minus;25</td></tr>
+<tr><td>Hatchback</td><td>6.65</td><td>&mdash;</td><td>2.97</td><td>&mdash;</td></tr>
+<tr><td>Two-wheeler</td><td>1.93</td><td>&mdash;</td><td>0.81</td><td>&mdash;</td></tr>
+</tbody>
+</table>
+</div>
+<p class="exsrc">Source: <a href="https://masaladeutsch.blogspot.com/2026/08/state-by-state-who-actually-earns-from.html">State by State: Who Actually Earns From the Fuel You Buy</a>, modelled in the vehicle_fuel_mileage repository from 303 ARAI-certified SIAM BS-VI fuel-efficiency declarations and OMC city fuel boards. Diesel is modelled only for sedan and compact SUV, consistent with what the market actually offers. CNG-vs-diesel column is the author&rsquo;s calculation from the modelled costs.</p>
+</div>
+
+<p>A quarter off the per-kilometre running cost is the switching case, and it does not depend on any claim about inflation or emissions. Two features of the comparison are worth drawing out. The CNG gain comes from combustion efficiency and per-unit price together, and &mdash; unlike ethanol blending, which dilutes one liquid with another and costs 2&ndash;6% in mileage on the ARAI/SIAM range &mdash; a petrol-to-CNG conversion on the same nameplate vehicle shows a mileage <em>gain</em>. The two fuel shifts move in opposite directions on efficiency.</p>
+
+<div class="warn">
+<b>This table is four-wheelers; the recommendation is not.</b> The segments modelled are passenger cars. This article&rsquo;s conversion case is about heavy and light commercial vehicles, buses and gensets, where duty cycles, load factors and gas pricing all differ. The direction of the advantage transfers; the per-kilometre numbers do not. A commercial-fleet equivalent would need bowser or bulk CNG pricing and real duty-cycle data, and has not been built.
+</div>
+
+<div class="note">
+<b>On &ldquo;greener&rdquo;.</b> Nothing above is an emissions figure, and this article does not carry one. CNG&rsquo;s environmental case against diesel is strongest on particulates and oxides of nitrogen, weaker on carbon dioxide, and methane slip erodes part of the well-to-wheel advantage. Those are real claims that need real measurement, and until this blog publishes that measurement the case made here is a cost, import-exposure and leakage case &mdash; not a carbon one.
+</div>
+
+<p class="sources"><b>Sources.</b> Cost per kilometre &mdash; vehicle_fuel_mileage repository, calibrated on 303 ARAI-certified SIAM BS-VI fuel-efficiency declarations and OMC city fuel boards. Wholesale price indices &mdash; DPIIT, Office of the Economic Adviser, base 2011-12 = 100, April 2012 to April 2026; consumer price indices &mdash; MoSPI; correlations are the author&rsquo;s calculation on April-anchored annual growth rates, FY2012&ndash;FY2026. Consumption, channel shares, the direct-versus-retail price gap, sectoral direct-sales breakdown, kerosene shares, e-way bills, port cargo and vehicle sales &mdash; PPAC, <i>Industry Consumption Report POL &amp; NG, May 2026</i>. Economy-wide diesel end-use &mdash; PPAC / Nielsen India, <i>All India Study on Sectoral Demand of Diesel &amp; Petrol</i>, fieldwork January 2012 to June 2013, report dated 20 December 2013. Import dependency and self-sufficiency &mdash; PPAC, <i>Snapshot of India&rsquo;s Oil &amp; Gas Data, March 2025</i>. Peer-reviewed study cited but not read: P. P. Ghosh, &ldquo;Impact of India&rsquo;s diesel subsidy reforms and pricing policy on growth and inflation&rdquo;, <i>Energy Economics</i> 113 (2022), <a href="https://doi.org/10.1016/j.eneco.2022.106195">doi:10.1016/j.eneco.2022.106195</a>. Diesel siphoning cases &mdash; Deccan Herald reporting on the Bengaluru and Udupi arrests; fuel-adulteration directive &mdash; Autocar India. Press reports are secondary sources and are labelled as such in the text.</p>
+
+
+<h2>What would fix this</h2>
+<ul>
+<li><b>PPAC should commission and publish a fresh economy-wide diesel end-use survey</b>, so that the sectoral shares used for policy &mdash; commercial vehicles, buses, agriculture, gensets, towers &mdash; no longer rest on fieldwork from January 2012 to June 2013 that predates BS-VI and diesel deregulation.</li>
+<li><b>PPAC should publish the monthly retail and direct-sales diesel price series side by side in its Industry Consumption Report</b>, so that the more-than-₹40-per-litre gap driving channel shift and private-marketer losses can be tracked as a number rather than a single statement.</li>
+<li><b>The CAG should audit diesel consumption per kilometre at state transport undertakings and publish depot-level variances</b>, so that the scale of siphoning shown in cases like the 60,000 litres seized in Bengaluru can be measured instead of inferred from press seizures.</li>
+<li><b>PESO should require licensed doorstep-diesel operators to report whether each sale is priced off the retail or the direct-sales rate</b>, so that it is known whether this channel formalises the ₹40 arbitrage or merely adds delivery on top of the pump price.</li>
+</ul>
+<p>These are proposals from this blog, not recommendations any agency has adopted.</p>
+
+<p class="disclaimer" data-gs-ai-disclosure-v1="1"><strong>About this article:</strong> Researched, written and edited by Umashankar Triplicane Dwarakanathan, with AI research assistance; every figure is meant to trace to the primary source cited. See the <a href="https://masaladeutsch.blogspot.com/p/disclaimer.html">Editorial Policy</a> for how sourcing, AI use and corrections work.</p>
+
+</div>
+
+<div id="gs-idx"></div><script defer="defer" src="https://herrrickshaw.github.io/masaladeutsch/accordion.js"></script>
