@@ -15108,3 +15108,20 @@ New post: cheese and whey integration
 **Added**
 
 - `india-imports-whey-protein-its-cheese` **v1.0.0** — India Imports the Whey Protein Its Cheese Makers Pour Away. The Fix Is Shared Whey Hubs, Not a Dryer in Every Dairy (30,846 bytes)
+
+## 2026-10-22T12:20:12+05:30 — 391 posts live
+
+Cheese post: link to whey follow-up
+
+
+**Versions**
+
+- `the-milk-india-doesnt-drink-cheese-and` **2.1.0 → 2.1.1** (PATCH) — forced via --as patch (wording changed; no figures, sections or claims moved)
+
+**Changed**
+
+- `the-milk-india-doesnt-drink-cheese-and` — 43,392 → 43,566 bytes (+174)
+
+**Re-dated** (publication date changed; body and URL unchanged)
+
+- `india-imports-whey-protein-its-cheese` — 2026-10-22 &rarr; 2026-10-22
