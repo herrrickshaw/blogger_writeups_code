@@ -15086,3 +15086,16 @@ scheduled sync
 - `how-to-use-bazaartalks-multi-market` — 25,170 → 25,289 bytes (+119)
 - `how-to-use-digital-twin-for-ipa` — 23,788 → 23,907 bytes (+119)
 - `how-to-use-bms-battery-management` — 22,450 → 22,569 bytes (+119)
+
+## 2026-10-22T12:18:44+05:30 — 390 posts live
+
+Health/tax post: ABHA count 97.6 crore
+
+
+**Versions**
+
+- `india-tracks-every-taxpayer-in-minutes` **1.1.0 → 1.1.1** (PATCH) — forced via --as patch (figures changed (+3/-0 distinct numbers))
+
+**Changed**
+
+- `india-tracks-every-taxpayer-in-minutes` — 51,434 → 52,153 bytes (+719)
