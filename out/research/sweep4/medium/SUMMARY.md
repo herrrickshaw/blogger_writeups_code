@@ -1,0 +1,81 @@
+# Sweep 4 MEDIUM items: applied 22 October 2026
+
+83 MEDIUM findings across 73 posts. Notes applied to 59 posts; 14 posts skipped (some applied posts also had individual items left out; see the logs).
+Update files: out/update-2026-10-22-sweep4m/<slug>.html (live copy plus one dated note; verified that nothing else differs).
+
+## Skipped posts
+- indias-lng-trucks-grew-75-in-2025-about: Reviewer confidence Low; single outlet with date doubts; says check MoPNG/PIB before posting
+- the-rbi-has-put-bonds-and-rupees-on-one: Reviewer confidence Low; says confirm against RBI Annual Report/Handbook before posting
+- where-indias-gigawatt-data-centre-bets: Reviewer: unverified, recheck original 80 MW source before note runs
+- indias-oil-fields-are-running-down-3696: SKIP 12.md#4: reviewer says confirm against PPAC annual data before posting; single secondary provisional source
+- three-different-eu-rules-are-making: SKIP 05.md#2: reviewer confidence Low on whether the Algeciras-Panama MoU belongs to the flagship the post describes (the point of the correction)
+- upi-fees-are-now-legal-petrol-pumps: SKIP 09.md#2: finding has no source URL (since-events list + reviewer arithmetic); dealer commission unchanged is unverified; existing 27 Sep note already says fuel gets flat Rs5 fee, not full-ticket
+- india-hit-e20-on-maize-and-rice-not: reviewer says check 2026-27 rice figures against DFPD/FCI order (single summary); AIDA delivery data only confirms post
+- mopsws-25000-crore-maritime-development: reviewer confidence low-to-moderate; 3% rate from undated summary, MoU detail from single exam-prep source
+- ahidf-has-sanctioned-19751-crore-in: Reviewer confidence Low to moderate; the new fact (31 Mar 2027 disbursement cut-off) is single non-official source, unverified; scheme end FY2025-26 already in post
+- cheap-yen-rupee-roads-where-carry-trade: Confidence Unverified; only absence of reported NaBFID PCE issuance (has-not-happened, no new fact); reviewer suggests checking rating-agency releases
+- fourteen-states-reimburse-investors: Confidence Low; HP policy outcome after 12 Oct unverified, single-source items
+- icra-rates-most-of-indias-economy: Rests on not finding a 2026 tariff hike (has-not-happened); reviewer says check operators tariff cards before posting
+- sugarcanes-third-claimant-whats: Confidence Low; single trade-press summary on PLA; reviewer says check gazette text before adding any note
+- top-15-chemicals-for-import: #6 absence-only (no DGTR dyes finding, has-not-happened) and DGTR unverified; #7 confidence low, reviewer says verify against CBIC notifications before posting
+
+## Applied posts
+- 574-gw-and-counting-indias-wind-fleet (10.md#3)
+- alimco-jaipur-foot-and-bionic-gap-in (07.md#2)
+- cpi-wpi-trends-mospi-bulletin (10.md#1)
+- fipis-biggest-ask-is-getting-natural (10.md#6)
+- fourteen-years-of-indian-wholesale (08.md#3)
+- if-india-paid-brics-in-rupees-scenario (06.md#4)
+- indian-it-in-ai-era (08.md#6)
+- indias-coal-to-chemicals-menu-ranked-by (04.md#2)
+- indias-semaglutide-patent-cliff-26 (20.md#5)
+- inflation-trends-globally-what-five (20.md#3)
+- one-refinery-flipped-nigeria-from (03.md#1)
+- priority-export-destinations-by-growth (13.md#4, 13.md#5)
+- scan-bottle-deliver-what-ppacs-numbers (22.md#2)
+- tamil-nadus-water-infrastructure-runs (22.md#4)
+- the-currency-rupee-trends-piece-left (14.md#4)
+- under-corsias-own-numbers-corn-ethanol (24.md#7)
+- a-2013-vision-saw-india-needing-746 (02.md#5)
+- annadata-to-urjadata-farmer-income-case (03.md#3 (price and stock parts only; allocation figures left out))
+- effective-buying-power-china-comparison (08.md#4, 08.md#5)
+- five-year-synthesis-trade-currency (16.md#2)
+- fy2025-26-sample-report-india-trade (11.md#4 (11.md#3 skipped: reviewer asks to check RBI WSS before posting))
+- india-ended-63-years-of-state-nuclear (11.md#2)
+- indian-railways-98-to-earn-100-business (12.md#2)
+- indias-epr-regime-just-got-teeth-and (03.md#6)
+- indias-trade-balance-hsn-wise (12.md#5, 12.md#6)
+- interest-subvention-built-499-ethanol (04.md#4 (~2,000 crore litre level only; low-confidence 2,019/478 figures left out))
+- pli-medical-devices-coverage-and-gaps (09.md#5)
+- re-spinning-charkha (21.md#3)
+- securitising-deficit-what-it-would (05.md#1)
+- tamil-nadus-wind-potential-according-to (13.md#7, 13.md#8)
+- the-easiest-ev-conversion-in-india (01.md#6)
+- a-slice-of-apple-costs-about-1700-slice (15.md#1)
+- biomass-power-at-night-dispatchable (15.md#2, 15.md#3)
+- ethanol-freed-up-refinery-capacity-for (10.md#4)
+- five-years-and-25000-crore-later-china (17.md#1)
+- greenhouse-emissions-reduction-and-cbam (06.md#3)
+- indias-animal-protein-export-complex (19.md#4)
+- indias-gas-pipelines-run-at-half (19.md#2)
+- indias-oil-psus-say-they-clear-their_01269248608 (01.md#5)
+- indias-trade-story-has-three-big-wins (12.md#7)
+- pngrb-hydrogen-blending-pilots-real (02.md#3, 02.md#4)
+- refineries-under-fire-how-two-wars (13.md#6)
+- sugar-at-5570-kilo-why-cane-acreage (22.md#3)
+- the-50-tariff-and-234-one-untangling (02.md#2)
+- the-hydrogen-bill-hiding-inside-indias (23.md#1)
+- tiffin-meets-thali-10-day-sip-already (14.md#2)
+- uttar-pradeshs-gst-puzzle-growing (24.md#2)
+- ethanols-coal-boilers-briquette-gap-and (06.md#2)
+- india-pays-5-8-billion-year-to-ship-its (18.md#2)
+- indias-carbon-credit-market-domestic (01.md#4)
+- indias-labour-codes-took-six-years-to (04.md#3)
+- indias-renewable-energy-certificates (20.md#4)
+- indias-wholesale-prices-next-to (13.md#3)
+- nature-versus-nurture-indias-fertiliser (01.md#2, 01.md#3)
+- pngrbs-own-2025-committee-now-expects (03.md#5)
+- refiners-won-exemption-fight-biofuels (22.md#1)
+- the-barrel-really-is-shifting-indias (09.md#8)
+- the-levelised-cost-of-hydrogen (09.md#4)
+- what-india-is-actually-paying-for (24.md#5)

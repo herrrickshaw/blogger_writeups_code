@@ -1,0 +1,273 @@
+<div class="artx bfx">
+<style>
+/* ---- typography (gs-typo-unify-v1): keep in sync across all posts ---- */
+.bfx{font-family:Georgia,'Times New Roman',serif;line-height:1.6;color:#111}
+.bfx h1,.bfx h2,.bfx h3{line-height:1.3}
+
+/* ---- palette: define every colour as a custom property here. Do not add
+       raw hex elsewhere in a post's <style> block — reference these vars, so
+       a future palette change is a 4-line edit instead of a find-and-replace
+       across every post. ----
+   --ink     #111    body text, light-locked (see below)
+   --accent  #8a4b08  eyebrow text, h2 rule, table header bg, stat numbers —
+                       the one colour that carries this post's "brand"
+   --rule    #e8dcc4  hairline borders, h2 underline, table cell borders
+   --panel   #fdf7ec  stat-card bg, even table rows — the palette's one tint
+*/
+.bfx{--ink:#111;--accent:#8a4b08;--rule:#e8dcc4;--panel:#fdf7ec;--good:#1a7a4c;--good-soft:#eaf6ef;--bad:#a5402c;--bad-soft:#fff4f0}
+
+/* ---- mono-label convention (added 2026-09-17, borrowed from the
+       india-trade-sector-policy-recommendations design system): the eyebrow
+       kicker and the source line read as data-journalism metadata, not
+       article prose, so they get a monospace face — a system stack, not a
+       hosted webfont, so no post gains an extra network request or a
+       flash-of-unstyled-text risk. Body text (h1/p/li/table) keeps the
+       serif — this is a two-place accent, not a font-pairing overhaul. ---- */
+.bfx{--mono:ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace}
+
+/* ---- light lock (gs-light-lock): a dark Blogger theme (and a browser/OS
+       set to prefers-color-scheme:dark) must not repaint text. Re-assert
+       the same values with !important — verified 2026-08-14 across 5 live
+       posts with the browser's colour scheme forced to dark: body/h1/p/table
+       all stayed light-background/dark-text with no low-contrast pairs.
+       Do NOT add selectors here for panels that are meant to be dark —
+       those go in the guard below. ---- */
+.bfx,.bfx p,.bfx li,.bfx td,.bfx th{color:var(--ink)!important}
+.bfx{background:#fff!important}
+
+/* ---- structure: title + subtitle ----
+   .eyebrow    = the small-caps kicker ABOVE the h1 — "Section · Topic ·
+                 Subtopic", sets context before the reader hits the claim
+   h1          = the headline itself. Write it as the CLAIM, not the topic
+                 ("The Rouble Is the Outlier, Not the Dollar" beats
+                 "Currency Trends Update"). font-size 1.5rem is the deliberate
+                 site-wide size — do not bump it per-post.
+   .standfirst = the one/two-sentence SUBTITLE directly under the h1. This is
+                 also what Blogger's snippet extractor and the JSON-LD meta
+                 description both read (see the gs-head-order block below) —
+                 write it as a real, complete sentence a reader could act on,
+                 not a fragment.
+*/
+.bfx .eyebrow{font-size:.8rem;font-weight:700;letter-spacing:.04em;color:var(--accent);text-transform:uppercase;margin:0 0 6px;font-family:var(--mono)}
+.bfx h1{margin:0 0 10px;font-size:1.5rem}
+.bfx .standfirst{font-size:1.05rem;color:#333!important;margin:0 0 18px}
+.bfx .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px;margin:18px 0}
+.bfx .stat{background:var(--panel);border:1px solid var(--rule);border-radius:10px;padding:12px 14px}
+.bfx .stat b{display:block;font-size:1.2rem;color:var(--accent)}
+.bfx .stat span{font-size:.8rem}
+.bfx h2{color:var(--accent);border-bottom:2px solid var(--rule);padding-bottom:6px;margin-top:30px;font-size:1.15rem}
+
+/* ---- tables: units live in the header, cells carry bare numbers.
+       .tw is the mobile-overflow fix — see the MOBILE comment above. ---- */
+.bfx .tw{overflow-x:auto}
+.bfx table{width:100%;border-collapse:collapse;margin:14px 0;font-size:.88rem}
+.bfx th,.bfx td{border:1px solid var(--rule);padding:7px 9px;text-align:right;word-wrap:break-word;overflow-wrap:break-word}
+.bfx th:first-child,.bfx td:first-child{text-align:left}
+.bfx th{background:var(--accent);color:#fff!important;font-weight:600}
+.bfx tr:nth-child(even){background:var(--panel)}
+
+.bfx .note{background:#eef4ff;border-left:4px solid #2a78d6;padding:12px 16px;margin:18px 0;border-radius:0 8px 8px 0;font-size:.93rem}
+.bfx .warn{background:var(--bad-soft);border-left:4px solid var(--bad);padding:12px 16px;margin:18px 0;border-radius:0 8px 8px 0;font-size:.93rem}
+/* ---- .good (added 2026-09-17): third semantic tier alongside .note (neutral
+       framing) and .warn (a caveat/scope limit) — for the case a caveat block
+       would otherwise get stretched to cover: confirming a figure checked out,
+       a correction that resolved cleanly, a claim that survived cross-check.
+       Same shape as .note/.warn on purpose, so all three read as one family. */
+.bfx .good{background:var(--good-soft);border-left:4px solid var(--good);padding:12px 16px;margin:18px 0;border-radius:0 8px 8px 0;font-size:.93rem}
+/* ---- .chip (added 2026-09-17): formalises a labelling pattern several posts
+       already built ad hoc in JS (e.g. "PLI coverage: strong/partial/gap")
+       into one reusable inline component, so a new post doesn't reinvent it.
+       Use inline: <span class="chip chip-good">Strong</span>. ---- */
+.bfx .chip{display:inline-block;font-family:var(--mono);font-size:.72rem;font-weight:700;letter-spacing:.02em;padding:.15rem .5rem;border-radius:99px;line-height:1.5}
+.bfx .chip-good{background:var(--good-soft);color:var(--good)}
+.bfx .chip-warn{background:var(--panel);color:var(--accent)}
+.bfx .chip-bad{background:var(--bad-soft);color:var(--bad)}
+.bfx .src{font-size:.84rem;font-family:var(--mono);border-top:1px solid var(--rule);padding-top:12px;margin-top:24px}
+.bfx .disclaimer{font-size:.82rem;color:#555;margin-top:10px}
+.bfx .revised{font-size:.8rem;color:#555!important;margin:0 0 14px}
+.bfx .revised code{font-family:inherit;background:var(--panel);padding:1px 5px;border-radius:4px}
+</style>
+
+<div class="gs-head-order" style="display:flex;flex-direction:column">
+<p class="standfirst" style="order:4">Eight US court rulings from 2023 to 2026 show refiners winning the small-refinery-exemption fight while biofuel producers keep record-high Renewable Fuel Standard volumes. What decides RIN prices now is EPA's discretion to reallocate exempted gallons.</p>
+<div class="topnav-index-link" style="order:1;font-size:.82em;margin:6px 0 14px"><a href="https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html" style="color:#0b5394;text-decoration:none">&#8592; All Articles (Index)</a></div>
+<p class="eyebrow" style="order:2">Ethanol &amp; Biofuels &middot; Law &middot; RFS credits</p>
+<h1 style="order:3">Refiners Won the Exemption Fight, Biofuels Kept the Volumes: What Eight Court Rulings Did to America's Biofuel Credits</h1>
+</div>
+<a href="#" id="gs-skip-link" class="gs-skip-link" style="position:absolute;left:-9999px;top:auto;background:#1a1a1a;color:#fff;padding:.6rem 1rem;z-index:1000;border-radius:4px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.85rem">Skip to article content</a>
+<style>.gs-skip-link:focus{left:8px!important;top:8px!important}
+.gs-a11y-bar{display:flex;align-items:center;gap:.55rem;flex-wrap:wrap;background:#f4f5f7;border:1px solid #dfe3e8;border-radius:8px;padding:.55rem .8rem;margin:10px 0 16px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
+.gs-a11y-bar .gs-a11y-label{font-size:.68rem;font-weight:700;letter-spacing:.08em;color:#666;text-transform:uppercase;margin-right:.15rem}
+.gs-a11y-bar button{cursor:pointer;border:1px solid #c7cbd1;background:#fff;color:#1a1a1a;border-radius:5px;padding:.32rem .65rem;font-family:inherit;line-height:1}
+.gs-a11y-bar button.gs-a11y-fs{font-weight:700;min-width:2rem;text-align:center}
+.gs-a11y-bar button.gs-a11y-fs[data-size="sm"]{font-size:.8rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="md"]{font-size:1rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="lg"]{font-size:1.2rem}
+.gs-a11y-bar button.gs-a11y-fs[aria-pressed="true"]{background:#1a1a1a;color:#fff;border-color:#1a1a1a}
+.gs-a11y-bar button:hover{border-color:#8a4b08}
+.gs-a11y-bar button:focus-visible{outline:2px solid #8a4b08;outline-offset:1px}
+.gs-a11y-bar .gs-a11y-sep{width:1px;align-self:stretch;background:#dfe3e8;margin:0 .1rem}</style>
+<div class="gs-a11y-bar" role="group" aria-label="Accessibility controls">
+<span class="gs-a11y-label">Text Size</span>
+<button type="button" class="gs-a11y-fs" data-size="sm" aria-pressed="false" aria-label="Small text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="md" aria-pressed="true" aria-label="Medium text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="lg" aria-pressed="false" aria-label="Large text">A</button>
+<span class="gs-a11y-sep"></span>
+<button type="button" id="gs-a11y-listen" aria-label="Read this article aloud">&#128266; Listen</button>
+<button type="button" id="gs-a11y-stop" aria-label="Stop reading aloud">&#9632; Stop</button>
+</div>
+<script>(function(){
+var KEY='gs-a11y-fontsize', SIZES={sm:'0.92',md:'1',lg:'1.15'};
+function pb(){return document.querySelector('.post-body')||document.querySelector('.artx,.mdrx');}
+function apply(sz){
+  var el=pb(); if(!el||!SIZES[sz]) return;
+  el.style.fontSize=SIZES[sz]+'em';
+  var btns=document.querySelectorAll('.gs-a11y-fs');
+  for(var i=0;i<btns.length;i++){
+    var on=btns[i].getAttribute('data-size')===sz;
+    btns[i].setAttribute('aria-pressed', on?'true':'false');
+  }
+  try{localStorage.setItem(KEY,sz);}catch(e){}
+}
+var fsBtns=document.querySelectorAll('.gs-a11y-fs');
+for(var j=0;j<fsBtns.length;j++){
+  fsBtns[j].addEventListener('click',(function(b){return function(){apply(b.getAttribute('data-size'));};})(fsBtns[j]));
+}
+var saved; try{saved=localStorage.getItem(KEY);}catch(e){}
+apply(saved&&SIZES[saved]?saved:'md');
+
+var listenBtn=document.getElementById('gs-a11y-listen'), stopBtn=document.getElementById('gs-a11y-stop');
+if(listenBtn){
+  listenBtn.addEventListener('click', function(){
+    if(!('speechSynthesis' in window)){ alert('Text-to-speech is not supported in this browser.'); return; }
+    window.speechSynthesis.cancel();
+    var src=pb(); if(!src) return;
+    var clone=src.cloneNode(true);
+    var strip=clone.querySelectorAll('script,style,svg');
+    for(var k=0;k<strip.length;k++){ strip[k].parentNode.removeChild(strip[k]); }
+    var text=clone.textContent.replace(/\s+/g,' ').trim();
+    if(!text) return;
+    var chunks=text.match(/[\s\S]{1,180}(?:[.!?]|$)/g)||[text];
+    var idx=0;
+    function speakNext(){
+      if(idx>=chunks.length) return;
+      var u=new SpeechSynthesisUtterance(chunks[idx]);
+      u.onend=function(){ idx++; speakNext(); };
+      window.speechSynthesis.speak(u);
+    }
+    speakNext();
+  });
+}
+if(stopBtn){
+  stopBtn.addEventListener('click', function(){
+    if('speechSynthesis' in window) window.speechSynthesis.cancel();
+  });
+}
+var skip=document.getElementById('gs-skip-link');
+if(skip){
+  skip.addEventListener('click', function(ev){
+    ev.preventDefault();
+    var h=document.querySelector('.post-body h1')||document.querySelector('.artx h1,.mdrx h1,h1');
+    if(h){ h.setAttribute('tabindex','-1'); h.focus(); h.scrollIntoView(); }
+  });
+}
+})();</script>
+<style>.goog-te-menu-frame{max-width:340px!important;max-height:70vh!important;overflow:auto!important;box-shadow:0 6px 24px rgba(0,0,0,.25)!important}</style>
+<div id="google_translate_element" style="margin:8px 0 16px;"></div><script type="text/javascript">function googleTranslateElementInit(){new google.translate.TranslateElement({pageLanguage:"en",includedLanguages:"hi,bn,ta,te,mr,gu,kn,ml,pa,or,as,ur,sa,ne,sd",layout:google.translate.TranslateElement.InlineLayout.SIMPLE,autoDisplay:false},"google_translate_element");}</script><script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+<p class="revised" data-gs-revision-v1="1">Revised
+<time datetime="2026-10-03" itemprop="dateModified">3 October 2026</time>
+&middot; <code>v1.0.0</code></p>
+
+<div class="stats">
+<div class="stat"><b>25.82 bn</b><span>RINs required for 2026, the highest in the programme's history (EPA final rule)</span></div>
+<div class="stat"><b>70%</b><span>Share of 2023&ndash;25 exempted gallons EPA reallocated to other refiners</span></div>
+<div class="stat"><b>105</b><span>Exemption petitions EPA denied wholesale in 2022, a denial later vacated in court</span></div>
+<div class="stat"><b>$500 M+</b><span>Fraudulent biodiesel credits collected in the Washakie scheme (US v. Dermen)</span></div>
+</div>
+
+<p>America's Renewable Fuel Standard (RFS) works through tradeable credits. Each gallon of qualifying biofuel generates a RIN (Renewable Identification Number), and refiners must retire enough RINs to meet a yearly quota. Small refineries can ask to be exempted if compliance causes them "disproportionate economic hardship". The value of a RIN therefore depends on two numbers that EPA controls: how many gallons it mandates, and how many gallons it lets small refineries walk away from. Over the past three years the courts have reshaped both. We read the full text of every major ruling, pulled from the open <a href="https://www.courtlistener.com/">CourtListener</a> archive run by the non-profit Free Law Project. The pattern is clear: <b>refiners have won almost every fight over exemptions, biofuel producers have won almost every fight over volumes, and the outcome now turns on EPA's discretion to reallocate.</b></p>
+
+<div class="warn" style="border-left:4px solid #a5402c;background:rgba(165,64,44,.07);padding:.8em 1em;margin:1.2em 0;border-radius:4px"><b>Updated 22 October 2026.</b> This post lists EPA's decisions on the 2016&ndash;2024 exemption petitions as something to watch, and describes a 70% reallocation of 2023&ndash;25 exempted gallons. EPA had already acted before this post. On 22 August 2025 it decided 175 petitions from 38 refineries for 2016&ndash;2024: 63 granted in full, 77 in part, 28 denied and 7 found ineligible. On 31 August 2026 it decided 34 petitions for 2025, granting full or partial exemptions to 29 refineries, about 1.76 billion RINs. It also said it would propose reallocating 100% of the 2025 shortfall into the 2026 and 2027 obligations, beyond the 70% in the Set 2 rule. Whether that proposal has been published is unconfirmed. Sources: <a href="https://eponline.com/articles/2025/08/22/epa-clears-backlog-of-small-refinery-exemptions.aspx">EP Online</a>, <a href="https://www.epa.gov/renewable-fuel-standard/august-31-2026-decisions-petitions-rfs-small-refinery-exemptions">EPA</a>, <a href="https://www.opis.com/resources/energy-market-news-from-opis/industry-reaction-mixed-on-epas-2025-sre-decisions-with-proposed-100-reallocation-into-2026-2027-rvos/">OPIS</a>. <i>The original text below is unchanged.</i></div>
+<h2>The scorecard</h2>
+<div class="tw"><table>
+<tr><th>Decided</th><th>Court</th><th>Case</th><th>Issue</th><th>Winner</th></tr>
+<tr><td>Jun 2025</td><td>US Supreme Court</td><td>EPA v. Calumet Shreveport</td><td>Which court hears exemption denials</td><td><span class="chip chip-warn">EPA (venue)</span></td></tr>
+<tr><td>Aug 2024</td><td>D.C. Cir.</td><td>Sinclair Wyoming v. EPA (22-1073)</td><td>2022 blanket denial of 105 petitions</td><td><span class="chip chip-bad">Refiners</span></td></tr>
+<tr><td>Nov 2023</td><td>5th Cir.</td><td>Calumet / Wynnewood v. EPA</td><td>Same denials (later vacated on venue)</td><td><span class="chip chip-bad">Refiners</span></td></tr>
+<tr><td>Apr 2026</td><td>D.C. Cir.</td><td>Alon Refining Krotz Springs v. EPA</td><td>Eligibility for 2024 exemptions</td><td><span class="chip chip-bad">Refiners</span></td></tr>
+<tr><td>May 2024</td><td>D.C. Cir.</td><td>Sinclair Wyoming v. EPA (22-1210)</td><td>2020&ndash;22 volumes; projected exemptions</td><td><span class="chip chip-good">EPA / biofuels</span></td></tr>
+<tr><td>Jun 2025</td><td>D.C. Cir.</td><td>Center for Biological Diversity v. EPA</td><td>2023&ndash;25 volumes</td><td><span class="chip chip-good">Volumes stand</span> (remanded on climate &amp; ESA)</td></tr>
+<tr><td>Mar 2026</td><td>D.C. Cir.</td><td>Clean Fuels Alliance v. EPA</td><td>Must EPA reallocate past exemptions?</td><td><span class="chip chip-warn">Moot</span></td></tr>
+<tr><td>Jul 2025</td><td>10th Cir.</td><td>United States v. Dermen</td><td>RIN and tax-credit fraud</td><td><span class="chip chip-good">Prosecution</span></td></tr>
+</table></div>
+
+<h2>1. The exemption fight: EPA's blanket "no" did not survive</h2>
+<p>In 2022 EPA denied all 105 pending small-refinery petitions (compliance years 2016&ndash;2021) on two nationwide theories:</p>
+<ul>
+<li>hardship counts only if RFS compliance is its <i>sole</i> cause;</li>
+<li>refiners never really bear RIN costs, because they pass them through in the price of fuel.</li>
+</ul>
+<p>Both theories have now failed. In <i>Sinclair Wyoming Refining v. EPA</i> (No. 22-1073, Aug. 2024) the D.C. Circuit held that EPA had read "other economic factors" out of the statute: <i>"the statute nowhere suggests that this must be the sole cause of the hardship."</i> It called the pass-through finding arbitrary because EPA ignored three things:</p>
+<ul>
+<li>its own 2019 view that real-time RIN retirement is infeasible;</li>
+<li>weekend fuel sales, about 28% of transactions, when no RIN price is quoted;</li>
+<li>evidence that pass-through is not immediate.</li>
+</ul>
+<p>The court added that EPA "cannot sunset the small refinery exemption by regulatory fiat." The Fifth Circuit reached a similar result in November 2023.</p>
+<p>The Supreme Court then settled <i>where</i> these fights belong. In <i>EPA v. Calumet</i> (7&ndash;2, June 2025) it held that each denial is a local action. Because EPA's denials rested on nationwide determinations, chiefly the pass-through theory, review lies only in the D.C. Circuit. That wiped out the Fifth Circuit's ruling as precedent and left the D.C. Circuit's <i>Sinclair</i> decision as the controlling merits ruling. Refiners lose the ability to pick a friendlier court, but the merits ruling they would have gone there for already stands.</p>
+<p>In April 2026, <i>Alon Refining Krotz Springs v. EPA</i> widened eligibility. EPA had refused 2024 exemptions to two refineries whose 2023 throughput topped 75,000 barrels a day. The court read EPA's own 2014 rule as looking at a single year. For a 2025 petition about 2024, that year is 2024. Judge Rao went further and said the Clean Air Act itself defines a small refinery by one year of throughput.</p>
+
+<div class="warn"><b>Why this matters for RIN prices.</b> Every granted exemption returns retired RINs to the market and lowers net demand. The court in <i>Alon</i> noted that returned 2024 RINs expire after the 2025 compliance deadline, which limits their value. (Our inference, not a holding: easier eligibility and a weaker basis for denial point to more exemptions.)</div>
+
+<h2>2. The volume fight: biofuels keep winning</h2>
+<p>On volumes, EPA and the biofuel industry have a near-perfect record:</p>
+<ul>
+<li><i>Sinclair Wyoming v. EPA</i> (No. 22-1210, May 2024) upheld the 2020&ndash;22 mandates and a 250-million-gallon make-up volume. It also upheld EPA's switch to subtracting exemptions it <i>projects</i> it will grant when setting each refiner's percentage. That shifts the obligation onto non-exempt refiners in advance.</li>
+<li><i>Center for Biological Diversity v. EPA</i> (June 2025) upheld the 2023&ndash;25 volumes against refiners, biodiesel groups and Neste. It held that the statute does not require a cost-benefit analysis and called rising RIN prices "a completely understandable effect" of the programme.</li>
+</ul>
+<p>The environmental groups did win two points in that case. EPA's climate analysis was arbitrary because it used 2010 lifecycle numbers for crop-based fuels, corn ethanol above all, without explaining why it set aside its own newer literature review. The Fish and Wildlife Service's "no effect" finding ignored EPA's own land-conversion models. The remedy was a remand <i>without</i> vacatur, so the volumes stand.</p>
+<div class="note"><b>The dissent to watch.</b> Judge Katsas dissented in part in both volume cases. In 2025 he set consumer costs of about $41 billion over three years against a quantified energy-security benefit of about $0.5 billion, and would have vacated. That argument is now the blueprint for refiners' challenges to the 2026&ndash;27 rule.</div>
+
+<h2>3. Reallocation: the open question</h2>
+<p>Biofuel groups argued for years that EPA must add exempted gallons back onto other refiners. In <i>Clean Fuels Alliance America v. EPA</i> (March 2026) the D.C. Circuit dismissed that challenge as moot. It added that since 2022, <i>"EPA's duty now is to 'ensure' achievement of targets EPA itself has broad discretion to determine."</i> That is double-edged: reallocation is not mandatory, but EPA is free to do it.</p>
+<p>EPA did exactly that. Its final 2026&ndash;27 "Set 2" rule (March 2026) sets record volumes of 25.82 billion RINs for 2026 and 25.98 billion for 2027. It also reallocates 70% of the gallons exempted for 2023&ndash;25: roughly 0.99 billion RINs in 2026 and 1.04 billion in 2027. The refiners' trade group AFPM and environmental groups petitioned the D.C. Circuit in June 2026, and compliance applies unless a court orders otherwise. Expect the arguments from the earlier cases to return: cost-benefit (Katsas), the age of the lifecycle data and the ESA consultation (<i>CBD</i>), and discretion (<i>Clean Fuels</i>).</p>
+
+<h2>4. Credit integrity: the criminal edge</h2>
+<p><i>United States v. Dermen</i> (10th Cir., July 2025) affirmed a 40-year sentence in the Washakie Renewable Energy scheme. Finished biodiesel was relabelled as feedstock, moved through related companies on false invoices, and "processed" only on paper. It then generated RINs and the per-gallon blending tax credit, often several times over on the same fuel.</p>
+<ul>
+<li>Washakie filed more than $1 billion in false claims and collected more than $500 million.</li>
+<li>The court ordered $442.6 million in restitution and a $181.8 million money judgment.</li>
+<li>Forfeiture reached assets in Turkey and Luxembourg.</li>
+</ul>
+<p>The court's own words explain why this matters to anyone holding credits: <i>"RINs carry independent economic value from the renewable fuel from which they are generated."</i> The red flags for credit buyers are circular counterparty flows, below-market resales to related parties, and processing that leaves no physical trace.</p>
+
+<h2>5. The European mirror</h2>
+<p>The EU runs a parallel system of mandates and sustainability certification, and its courts are drawing similar lines.</p>
+<ul>
+<li><b>BP France (C-624/22, July 2024).</b> The Court of Justice held that the Renewable Energy Directive's mass-balance and voluntary schemes certify sustainability; they do not fix how much of a co-processed fuel counts as renewable. France could not require a carbon-14 lab test on co-processed renewable diesel (HVO) imported from another member state when its own plants were spared it. That would breach free movement of goods (Article 34 TFEU).</li>
+<li><b>ePURE and Pannonia Bio (T-1165/23 and T-45/24, February 2025).</b> The European ethanol industry's challenges to FuelEU Maritime's treatment of crop-based fuels and to ReFuelEU Aviation's SAF mandate were dismissed as inadmissible.</li>
+</ul>
+<div class="note"><b>For India.</b> India is designing credits for sustainable aviation fuel (SAF) and co-processing. The lessons are concrete:</div>
+<ul>
+<li><i>BP France</i>: write proof-of-content rules that treat domestic and imported fuel alike.</li>
+<li><i>Dermen</i>: build physical verification into credit issuance.</li>
+<li><i>Sinclair</i>: when a regulator grants or denies hardship relief, make the decision individual and well-reasoned.</li>
+</ul>
+
+<h2>What to watch</h2>
+<ul>
+<li>The D.C. Circuit's ruling on the 2026&ndash;27 Set 2 petitions, especially on the 70% reallocation.</li>
+<li>EPA's remand decisions on the 2016&ndash;2024 exemption petitions after <i>Sinclair</i> and <i>Alon</i>, and how many RINs come back to the market.</li>
+<li>EPA's redo of the corn-ethanol lifecycle analysis ordered in <i>CBD</i>.</li>
+<li>45Z clean-fuel tax credit: IRS Notice 2026-53 (September 2026) published the 2026 emissions-rate table, at a credit of up to $1.00 per gallon.</li>
+</ul>
+
+<p class="src">Sources: full opinions retrieved from CourtListener (Free Law Project): EPA v. Calumet Shreveport Refining, 605 U.S. 627 (2025), No. 23-1229; Sinclair Wyoming Refining Co. v. EPA, D.C. Cir. Nos. 22-1073 (amended op. 14 Aug 2024) and 22-1210 (14 May 2024); Calumet Shreveport Refining v. EPA, 5th Cir. No. 22-60266 et al. (22 Nov 2023); Alon Refining Krotz Springs v. EPA, D.C. Cir. No. 25-1187 (7 Apr 2026); Clean Fuels Alliance America v. EPA, D.C. Cir. No. 20-1107 (13 Mar 2026); Center for Biological Diversity v. EPA, D.C. Cir. No. 23-1177 (20 Jun 2025); United States v. Dermen, 10th Cir. No. 23-4074 (9 Jul 2025). EU: CJEU C-624/22 BP France (29 Jul 2024); General Court T-1165/23 and T-45/24 (25 Feb 2025), via EUR-Lex. Volumes: EPA, Final Renewable Fuel Standards for 2026 and 2027; DTN, 27 Mar 2026. 45Z: IRS Notice 2026-53. Quotations are from slip opinions. This is a summary of public court records, not legal advice.</p>
+
+<style id="gs-light-lock-v1">/* gs-light-lock-v1 BW-OVERRIDE */:root,.bfx{--ink:#111!important;--accent:#8a4b08!important;--rule:#e8dcc4!important;--panel:#fdf7ec!important;--good:#1a7a4c!important;--good-soft:#eaf6ef!important;--bad:#a5402c!important;--bad-soft:#fff4f0!important}</style>
+<p class="disclaimer" data-gs-ai-disclosure-v1="1"><strong>About this article:</strong> Researched, written and edited by Umashankar Triplicane Dwarakanathan, with AI research assistance; every figure is meant to trace to the primary source cited. See the <a href="https://masaladeutsch.blogspot.com/p/disclaimer.html">Editorial Policy</a> for how sourcing, AI use and corrections work.</p>
+
+</div>
+
+<div id="gs-idx"></div><script defer="defer" src="https://herrrickshaw.github.io/masaladeutsch/accordion.js"></script>
