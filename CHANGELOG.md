@@ -15125,3 +15125,16 @@ Cheese post: link to whey follow-up
 **Re-dated** (publication date changed; body and URL unchanged)
 
 - `india-imports-whey-protein-its-cheese` — 2026-10-22 &rarr; 2026-10-22
+
+## 2026-10-22T12:21:58+05:30 — 391 posts live
+
+Index: cheese and whey post
+
+
+**Versions**
+
+- `article-index-start-here` **60.14.0 → 60.15.0** (MINOR) — forced via --as minor (figures changed (+1/-2 distinct numbers))
+
+**Changed**
+
+- `article-index-start-here` — 755,676 → 757,096 bytes (+1,420)
