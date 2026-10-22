@@ -15138,3 +15138,16 @@ Index: cheese and whey post
 **Changed**
 
 - `article-index-start-here` — 755,676 → 757,096 bytes (+1,420)
+
+## 2026-10-22T12:46:56+05:30 — 391 posts live
+
+Whey post: demand projections and plant builders section
+
+
+**Versions**
+
+- `india-imports-whey-protein-its-cheese` **1.0.0 → 1.1.0** (MINOR) — forced via --as minor (figures changed (+18/-0 distinct numbers))
+
+**Changed**
+
+- `india-imports-whey-protein-its-cheese` — 30,846 → 37,396 bytes (+6,550)

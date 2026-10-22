@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/10/india-imports-whey-protein-its-cheese.html",
   "slug": "india-imports-whey-protein-its-cheese",
   "published": "2026-10-22T12:18:52.000+05:30",
-  "updated": "2026-10-22T12:19:30.940+05:30",
+  "updated": "2026-10-22T12:46:27.706+05:30",
   "labels": [
     "Agriculture & Food Processing",
     "Import Substitution",
     "Livestock & Dairy"
   ],
-  "bytes": 30846,
-  "sha256": "684a2de3246aa41843b776c864a7203180211a91e106ad02e38c4b38c0065357",
+  "bytes": 37396,
+  "sha256": "ffd95018f08488608b25eb349c31a197d739a478c4c17f333a46cdf22052fd97",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -31,6 +31,19 @@
       "level": "initial",
       "reason": "first snapshot",
       "note": "New post: cheese and whey integration"
+    },
+    {
+      "version": "1.1.0",
+      "date": "2026-10-22T12:46:56+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+18/-0 distinct numbers))",
+      "bytes": [
+        30846,
+        37396
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Whey post: demand projections and plant builders section"
     }
   ]
 }
