@@ -15099,3 +15099,12 @@ Health/tax post: ABHA count 97.6 crore
 **Changed**
 
 - `india-tracks-every-taxpayer-in-minutes` — 51,434 → 52,153 bytes (+719)
+
+## 2026-10-22T12:19:22+05:30 — 391 posts live
+
+New post: cheese and whey integration
+
+
+**Added**
+
+- `india-imports-whey-protein-its-cheese` **v1.0.0** — India Imports the Whey Protein Its Cheese Makers Pour Away. The Fix Is Shared Whey Hubs, Not a Dryer in Every Dairy (30,846 bytes)
