@@ -1,0 +1,460 @@
+{
+ "slug": "japan-ran-out-of-matcha-assam-just-sold",
+ "text_sha1": "3bcc59378cd489c0",
+ "chars": 20346,
+ "checked": "2026-10-23T14:52:24",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "Tencha auction prices doubled in a year to ¥10,843 a kilo",
+     "value": "¥10,843 a kilo",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "MAFF / trade press",
+     "series": "Tencha auction price",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "a 40-gram retail tin went from ¥1,500 to ¥6,500.",
+     "value": "¥1,500",
+     "period": "Before",
+     "period_end": null,
+     "publisher": "trade press / specialist importers",
+     "series": "Retail 40g tin price",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "a 40-gram retail tin went from ¥1,500 to ¥6,500.",
+     "value": "¥6,500",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "trade press / specialist importers",
+     "series": "Retail 40g tin price",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "On 3 July 2026 a tea estate in Tinsukia sold India’s first commercial matcha — five kilograms, at ₹3,000 a kilo.",
+     "value": "five kilograms",
+     "period": "3 July 2026",
+     "period_end": "2026-07-03",
+     "publisher": "Indian press / Assam government",
+     "series": "First Indian commercial matcha lot volume",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "On 3 July 2026 a tea estate in Tinsukia sold India’s first commercial matcha — five kilograms, at ₹3,000 a kilo.",
+     "value": "₹3,000 a kilo",
+     "period": "3 July 2026",
+     "period_end": "2026-07-03",
+     "publisher": "Indian press / Assam government",
+     "series": "First Indian commercial matcha lot price",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "India grows 342 times more tea than the world makes matcha",
+     "value": "342 times",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "Tea Board of India / MAFF",
+     "series": "India tea production vs Japan matcha output ratio",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Japan made about 4,000 tonnes of matcha in 2025.",
+     "value": "4,000 tonnes",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "MAFF",
+     "series": "Japan matcha output",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "India made 1,370 million kg of tea.",
+     "value": "1,370 million kg",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "Tea Board of India",
+     "series": "India tea production",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Japan tencha output, 2025 | 6,278 tonnes",
+     "value": "6,278 tonnes",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "MAFF",
+     "series": "Japan tencha output",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Japan green tea exports, 2025 | 12,612 tonnes",
+     "value": "12,612 tonnes",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "MAFF",
+     "series": "Japan green tea exports",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "powdered green tea 8,718 t",
+     "value": "8,718 tonnes",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "MAFF",
+     "series": "Japan powdered green tea exports",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Assam produced 687.76 million kg of tea in 2025",
+     "value": "687.76 million kg",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "Tea Board of India",
+     "series": "Assam tea production",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "West Bengal | 411.18 million kg | 30.01%",
+     "value": "411.18 million kg",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "Tea Board of India",
+     "series": "West Bengal tea production",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "India tea exports, 2025 | 280.40 million kg",
+     "value": "280.40 million kg",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "Tea Board of India",
+     "series": "India tea exports",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Tamil Nadu | 171.44 million kg",
+     "value": "171.44 million kg",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "Tea Board of India",
+     "series": "Tamil Nadu tea production",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Kerala | 58.21 million kg",
+     "value": "58.21 million kg",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "Tea Board of India",
+     "series": "Kerala tea production",
+     "frequency": "annual",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "Tencha auction prices doubled in a year to ¥10,843 a kilo",
+     "value": "¥10,843/kg",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "MAFF (via trade press)",
+     "series": "Tencha auction price",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "a 40-gram retail tin went from ¥1,500 to ¥6,500",
+     "value": "¥1,500 → ¥6,500 (40g tin)",
+     "period": null,
+     "period_end": null,
+     "publisher": "MAFF (via trade press)",
+     "series": "Retail matcha tin price",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "Japan made about 4,000 tonnes of matcha in 2025",
+     "value": "4,000 tonnes",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "MAFF (via trade press)",
+     "series": "Matcha output",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "India made 1,370 million kg of tea",
+     "value": "1,370 million kg",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "Tea Board of India",
+     "series": "Total tea production",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Assam produced 687.76 million kg of tea in 2025",
+     "value": "687.76 million kg",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "Tea Board of India",
+     "series": "Assam tea production",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "India grows 342 times more tea than the world makes matcha",
+     "value": "342×",
+     "period": null,
+     "period_end": null,
+     "publisher": "Derived (Tea Board/MAFF)",
+     "series": "Tea-to-matcha production ratio",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "Japan tencha output, 2025 | 6,278 tonnes | 3.2× the 2014 level",
+     "value": "6,278 tonnes",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "MAFF (via trade press)",
+     "series": "Tencha output",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Japan green tea exports, 2025 | 12,612 tonnes | powdered green tea 8,718 t, or 69% of the total",
+     "value": "12,612 tonnes (total) / 8,718 tonnes (powdered)",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "MAFF (via trade press)",
+     "series": "Green tea exports",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "On 3 July 2026 a tea estate in Tinsukia sold India’s first commercial matcha — five kilograms, at ₹3,000 a kilo",
+     "value": "5 kg at ₹3,000/kg",
+     "period": "3 July 2026",
+     "period_end": "2026-07-03",
+     "publisher": "Assam government / Indian press",
+     "series": "First commercial matcha sale",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "Global matcha demand rose roughly eightfold in five years",
+     "value": "8×",
+     "period": "2021–2026",
+     "period_end": "2026-12-31",
+     "publisher": "Global Japanese Tea Association (trade press)",
+     "series": "Matcha demand growth",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India tea exports, 2025 | 280.40 million kg | black tea is 96% of them",
+     "value": "280.40 million kg (total) / 96% black tea",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "Tea Board of India",
+     "series": "Tea exports",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Tencha auction price, 2026 | ¥10,843/kg | ₹6,539/kg — roughly double 2025",
+     "value": "¥10,843/kg (≈₹6,539/kg)",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "MAFF (via trade press)",
+     "series": "Tencha auction price",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Retail 40 g tin, 2026 | ¥6,500 | ₹3,920",
+     "value": "¥6,500 (≈₹3,920) for 40g",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "MAFF (via trade press)",
+     "series": "Retail matcha tin price",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Retail 40g tin, before | ¥1,500 | ₹905",
+     "value": "¥1,500 (≈₹905) for 40g",
+     "period": null,
+     "period_end": null,
+     "publisher": "MAFF (via trade press)",
+     "series": "Retail matcha tin price (pre-2026)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Japan matcha output, 2025 | ~4,000 tonnes | the finished ground product",
+     "value": "~4,000 tonnes",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "MAFF (via trade press)",
+     "series": "Matcha output",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Kagoshima has overtaken Shizuoka, historically the centre of Japanese tea, as the largest tencha producer",
+     "value": "Kagoshima > Shizuoka (regional production shift)",
+     "period": null,
+     "period_end": null,
+     "publisher": "MAFF (via trade press)",
+     "series": "Tencha production geography",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Nestlé Japan launched KitKat Uji Matcha in 2004",
+     "value": "2004",
+     "period": "2004",
+     "period_end": "2004-12-31",
+     "publisher": "Nestlé corporate material",
+     "series": "KitKat Uji Matcha launch",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Nestlé took the green tea matcha version to Europe — a Japanese regional flavour exported back out as a global product. That is the template, and it is not a tea template. The bar did three things for matcha that no teahouse could: it removed the preparation ritual, it fixed the dose, and it put the flavour into a format people already ate.",
+     "value": "2019 (European launch)",
+     "period": "2019",
+     "period_end": "2019-12-31",
+     "publisher": "Nestlé corporate material",
+     "series": "KitKat Uji Matcha European launch",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The shortage is a tencha problem, not a tea problem. Since autumn 2024 the Global Japanese Tea Association has described what is happening as the first matcha shortage in history.",
+     "value": "Autumn 2024 (shortage onset)",
+     "period": "2024",
+     "period_end": "2024-09-30",
+     "publisher": "Global Japanese Tea Association",
+     "series": "Matcha shortage declaration",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India’s first commercial lot sold at ₹3,000/kg — about 3 per cent of the Japanese retail-equivalent price.",
+     "value": "₹3,000/kg (≈3% of Japanese retail-equivalent)",
+     "period": "3 July 2026",
+     "period_end": "2026-07-03",
+     "publisher": "Indian press / Assam government",
+     "series": "First commercial matcha price",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The shortage is the opportunity. Tencha output is already 3.2 times its 2014 level and planting continues.",
+     "value": "3.2× (vs. 2014)",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "MAFF (via trade press)",
+     "series": "Tencha output growth",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "The shortage is the opportunity. Tencha output is already 3.2 times its 2014 level; 8.6% of Japan’s crude-tea output",
+     "value": "8.6% of crude-tea output",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "MAFF (via trade press)",
+     "series": "Tencha share of crude-tea output",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "India tea production, 2025 | 1,370 million kg | +5% on 2024",
+     "value": "1,370 million kg (+5% YoY)",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "Tea Board of India",
+     "series": "Tea production growth",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "of which Assam | 687.76 million kg | 50.20% of the national crop",
+     "value": "687.76 million kg (50.20%)",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "Tea Board of India",
+     "series": "Assam tea production share",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "of which West Bengal | 411.18 million kg | 30.01%",
+     "value": "411.18 million kg (30.01%)",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "Tea Board of India",
+     "series": "West Bengal tea production share",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "of which Tamil Nadu | 171.44 million kg",
+     "value": "171.44 million kg",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "Tea Board of India",
+     "series": "Tamil Nadu tea production",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "of which Kerala | 58.21 million kg",
+     "value": "58.21 million kg",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "Tea Board of India",
+     "series": "Kerala tea production",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "The first Indian lot went at ₹3,000/kg. That is roughly 46 per cent of the Japanese tencha leaf auction price",
+     "value": "₹3,000/kg (≈46% of Japanese tencha auction price)",
+     "period": "3 July 2026",
+     "period_end": "2026-07-03",
+     "publisher": "Derived (article)",
+     "series": "Indian vs. Japanese tencha price comparison",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,560 @@
+{
+ "slug": "indias-trade-balance-hsn-wise",
+ "text_sha1": "c394e71384530827",
+ "chars": 12603,
+ "checked": "2026-10-23T14:40:40",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "-$147.5bn",
+     "value": "-$147.5bn",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TRADESTAT Commodity-wise Export and Commodity-wise Import reports",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "-$81.1bn",
+     "value": "-$81.1bn",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TRADESTAT Commodity-wise Export and Commodity-wise Import reports",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "-$50.9bn",
+     "value": "-$50.9bn",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TRADESTAT Commodity-wise Export and Commodity-wise Import reports",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "-$37.4bn",
+     "value": "-$37.4bn",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TRADESTAT Commodity-wise Export and Commodity-wise Import reports",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "-$17.5bn",
+     "value": "-$17.5bn",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TRADESTAT Commodity-wise Export and Commodity-wise Import reports",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "+$6.8bn",
+     "value": "+$6.8bn",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TRADESTAT Commodity-wise Export and Commodity-wise Import reports",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "+$7.3bn",
+     "value": "+$7.3bn",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TRADESTAT Commodity-wise Export and Commodity-wise Import reports",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "+$11.9bn",
+     "value": "+$11.9bn",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TRADESTAT Commodity-wise Export and Commodity-wise Import reports",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "+$16.6bn",
+     "value": "+$16.6bn",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TRADESTAT Commodity-wise Export and Commodity-wise Import reports",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "+$21.4bn",
+     "value": "+$21.4bn",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TRADESTAT Commodity-wise Export and Commodity-wise Import reports",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "widening from -$184.0bn to -$334.3bn",
+     "value": "-$184.0bn to -$334.3bn",
+     "period": "FY2018-19 to FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TRADESTAT Commodity-wise Export and Commodity-wise Import reports",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "narrows the FY2024-25 gap from -$283.5bn to -$94.6bn",
+     "value": "-$283.5bn to -$94.6bn",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "RBI",
+     "series": "Balance of Payments Invisibles (Non-factor Services)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "put the current-account deficit at about $25.2bn (0.6% of GDP), against $22.9bn in FY2024-25",
+     "value": "$25.2bn",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "RBI",
+     "series": "Balance of Payments data",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "against $22.9bn in FY2024-25",
+     "value": "$22.9bn",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "RBI",
+     "series": "Balance of Payments data",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "put the combined goods-and-services deficit at about $119bn, wider than FY2024-25's $94.6bn",
+     "value": "$119bn",
+     "period": "April 2026",
+     "period_end": "2026-04-30",
+     "publisher": "Commerce Ministry",
+     "series": "Commerce Ministry estimate",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "reserves at about $734.6bn in the week ended 2 October 2026",
+     "value": "$734.6bn",
+     "period": "week ended 2 October 2026",
+     "period_end": "2026-10-02",
+     "publisher": "RBI",
+     "series": "RBI weekly data",
+     "frequency": "weekly",
+     "headline": false
+    },
+    {
+     "quote": "well above the $666.9bn trough cited here",
+     "value": "$666.9bn",
+     "period": "trough",
+     "period_end": null,
+     "publisher": "RBI",
+     "series": "Foreign Exchange Reserves",
+     "frequency": "weekly",
+     "headline": false
+    },
+    {
+     "quote": "spending down reserves (from a $728.5bn peak to a $666.9bn trough)",
+     "value": "$728.5bn",
+     "period": "peak",
+     "period_end": null,
+     "publisher": "RBI",
+     "series": "Foreign Exchange Reserves",
+     "frequency": "weekly",
+     "headline": false
+    },
+    {
+     "quote": "TIA Portal reports FY2025-26 merchandise imports of $776,013.65 million against this bulletin's own $776,013.6 million",
+     "value": "$776,013.65 million",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Commerce Ministry",
+     "series": "Trade Intelligence and Analytics (TIA) Portal",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "HS27 (mineral fuels) at $55,871.2 million on both",
+     "value": "$55,871.2 million",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Commerce Ministry",
+     "series": "Trade Intelligence and Analytics (TIA) Portal / DGCI&S",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "PIB's official release states FY2025-26 merchandise exports of $441.78bn and a merchandise trade deficit of $333.19bn",
+     "value": "$441.78bn",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "PIB / ministry",
+     "series": "PIB press release",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "and a merchandise trade deficit of $333.19bn",
+     "value": "$333.19bn",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "PIB / ministry",
+     "series": "PIB press release",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "TIA Portal's own FY2025-26 export total reads $451.07bn, about 2% (~$9.3bn) above both this bulletin and PIB",
+     "value": "$451.07bn",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Commerce Ministry",
+     "series": "Trade Intelligence and Analytics (TIA) Portal",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "proposed investment in Electricals Equipment rose from ₹65,979 crore (2021) to ₹233,829 crore (2024)",
+     "value": "₹65,979 crore",
+     "period": "2021",
+     "period_end": "2021-12-31",
+     "publisher": "DPIIT",
+     "series": "Industrial Entrepreneur Memorandum (IEM) Part-A investment-intention data",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "to ₹233,829 crore (2024)",
+     "value": "₹233,829 crore",
+     "period": "2024",
+     "period_end": "2024-12-31",
+     "publisher": "DPIIT",
+     "series": "Industrial Entrepreneur Memorandum (IEM) Part-A investment-intention data",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "and in Fertilizers from ₹1,112 crore (2021) to ₹41,127 crore (2024)",
+     "value": "₹1,112 crore",
+     "period": "2021",
+     "period_end": "2021-12-31",
+     "publisher": "DPIIT",
+     "series": "Industrial Entrepreneur Memorandum (IEM) Part-A investment-intention data",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "to ₹41,127 crore (2024)",
+     "value": "₹41,127 crore",
+     "period": "2024",
+     "period_end": "2024-12-31",
+     "publisher": "DPIIT",
+     "series": "Industrial Entrepreneur Memorandum (IEM) Part-A investment-intention data",
+     "frequency": "annual",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "Imports have exceeded exports in all 8 fiscal years of merchandise data (FY2018-19 to FY2025-26), widening from -$184.0bn to -$334.3bn.",
+     "value": "-$184.0bn (FY2018-19) to -$334.3bn (FY2025-26)",
+     "period": "FY2018-19 to FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "Merchandise trade balance (goods only)",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Mineral fuels & oils (HS27) -$147.5bn",
+     "value": "-$147.5bn",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TRADESTAT (HS chapter-level trade balance)",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Pearls, gems & jewellery (HS71) -$81.1bn",
+     "value": "-$81.1bn",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TRADESTAT (HS chapter-level trade balance)",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Electrical machinery (HS85) -$50.9bn",
+     "value": "-$50.9bn",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TRADESTAT (HS chapter-level trade balance)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Machinery & appliances (HS84) -$37.4bn",
+     "value": "-$37.4bn",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TRADESTAT (HS chapter-level trade balance)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Animal/veg. fats & oils (HS15) -$17.5bn",
+     "value": "-$17.5bn",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TRADESTAT (HS chapter-level trade balance)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Apparel (knitted) (HS61) +$6.8bn",
+     "value": "+$6.8bn",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TRADESTAT (HS chapter-level trade balance)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Apparel (woven) (HS62) +$7.3bn",
+     "value": "+$7.3bn",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TRADESTAT (HS chapter-level trade balance)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Cereals (HS10) +$11.9bn",
+     "value": "+$11.9bn",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TRADESTAT (HS chapter-level trade balance)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Vehicles (HS87) +$16.6bn",
+     "value": "+$16.6bn",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TRADESTAT (HS chapter-level trade balance)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Pharmaceuticals (HS30) +$21.4bn",
+     "value": "+$21.4bn",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TRADESTAT (HS chapter-level trade balance)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Adding in India's services-trade surplus (from RBI's Balance of Payments data) narrows the FY2024-25 gap from -$283.5bn to -$94.6bn",
+     "value": "-$283.5bn (goods) to -$94.6bn (goods + services)",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "RBI",
+     "series": "Balance of Payments (Non-factor Services)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "A Commerce Ministry estimate from April 2026 ... put the combined goods-and-services deficit at about $119bn",
+     "value": "$119bn",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Commerce Ministry (estimate)",
+     "series": "Combined goods-and-services trade deficit",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "RBI released full-year FY2025-26 balance-of-payments data in June 2026. Press reports put the current-account deficit at about $25.2bn",
+     "value": "$25.2bn",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "RBI (via press reports)",
+     "series": "Current-Account Deficit",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "RBI weekly data ... show reserves at about $734.6bn in the week ended 2 October 2026",
+     "value": "$734.6bn",
+     "period": "Week ended 2026-10-02",
+     "period_end": "2026-10-02",
+     "publisher": "RBI",
+     "series": "Foreign Exchange Reserves",
+     "frequency": "weekly",
+     "headline": false
+    },
+    {
+     "quote": "TIA Portal reports FY2025-26 merchandise imports of $776,013.65 million",
+     "value": "$776,013.65 million",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Commerce Ministry (TIA Portal)",
+     "series": "Merchandise imports",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "PIB's official release states FY2025-26 merchandise exports of $441.78bn",
+     "value": "$441.78bn",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "PIB",
+     "series": "Merchandise exports",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "PIB's official release ... a merchandise trade deficit of $333.19bn",
+     "value": "$333.19bn",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "PIB",
+     "series": "Merchandise trade deficit",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "TIA Portal's own FY2025-26 export total reads $451.07bn",
+     "value": "$451.07bn",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Commerce Ministry (TIA Portal)",
+     "series": "Merchandise exports",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "proposed investment in Electricals Equipment rose from ₹65,979 crore (2021) to ₹233,829 crore (2024)",
+     "value": "₹65,979 crore (2021) to ₹233,829 crore (2024)",
+     "period": "2021 and 2024",
+     "period_end": "2024-03-31",
+     "publisher": "DPIIT (IEM Part-A)",
+     "series": "Investment-intention data (Electricals Equipment)",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "in Fertilizers from ₹1,112 crore (2021) to ₹41,127 crore (2024)",
+     "value": "₹1,112 crore (2021) to ₹41,127 crore (2024)",
+     "period": "2021 and 2024",
+     "period_end": "2024-03-31",
+     "publisher": "DPIIT (IEM Part-A)",
+     "series": "Investment-intention data (Fertilizers)",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "the current-account deficit at about $22.9bn in FY2024-25",
+     "value": "$22.9bn",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "RBI (via press reports)",
+     "series": "Current-Account Deficit",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "RBI weekly data ... show reserves at about $666.9bn trough",
+     "value": "$666.9bn",
+     "period": null,
+     "period_end": null,
+     "publisher": "RBI",
+     "series": "Foreign Exchange Reserves (trough)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "RBI weekly data ... show reserves at about $728.5bn peak",
+     "value": "$728.5bn",
+     "period": null,
+     "period_end": null,
+     "publisher": "RBI",
+     "series": "Foreign Exchange Reserves (peak)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "HS27 (mineral fuels) at $55,871.2 million",
+     "value": "$55,871.2 million",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S (cross-validated)",
+     "series": "TRADESTAT (HS27 trade value)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "FY2025-26 merchandise exports of $441.7bn and a merchandise trade deficit of $334.3bn",
+     "value": "$441.7bn (exports), -$334.3bn (deficit)",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S (article's own calculation)",
+     "series": "TRADESTAT (national totals)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "FY2024-25's $94.6bn",
+     "value": "$94.6bn",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "RBI (via article's calculation)",
+     "series": "Goods + Services Trade Deficit",
+     "frequency": "annual",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

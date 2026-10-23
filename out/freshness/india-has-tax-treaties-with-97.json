@@ -1,0 +1,420 @@
+{
+ "slug": "india-has-tax-treaties-with-97",
+ "text_sha1": "cd85310a4f4feb06",
+ "chars": 14347,
+ "checked": "2026-10-23T12:40:43",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "97 countries with a comprehensive DTAA",
+     "value": "97",
+     "period": "30 July 2026",
+     "period_end": "2026-07-30",
+     "publisher": "Income Tax Department",
+     "series": "Income Tax Department DTAA database",
+     "frequency": "live",
+     "headline": true
+    },
+    {
+     "quote": "38 countries under 9 \"new generation\" FTAs since 2021",
+     "value": "38",
+     "period": "6 March 2026",
+     "period_end": "2026-03-06",
+     "publisher": "PIB / ministry",
+     "series": "PIB, Ministry of Commerce & Industry",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "10 agreements pre-dating the post-2021 wave",
+     "value": "10",
+     "period": "6 March 2026",
+     "period_end": "2026-03-06",
+     "publisher": "PIB / ministry",
+     "series": "PIB, Ministry of Commerce & Industry",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "173 Total DTAA-related instruments on record",
+     "value": "173",
+     "period": "30 July 2026",
+     "period_end": "2026-07-30",
+     "publisher": "Income Tax Department",
+     "series": "Income Tax Department DTAA database",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "Nine FTAs spanning 38 countries",
+     "value": "9",
+     "period": "6 March 2026",
+     "period_end": "2026-03-06",
+     "publisher": "PIB / ministry",
+     "series": "PIB, Ministry of Commerce & Industry",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Ten agreements pre-date the current wave",
+     "value": "10",
+     "period": "6 March 2026",
+     "period_end": "2026-03-06",
+     "publisher": "PIB / ministry",
+     "series": "PIB, Ministry of Commerce & Industry",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "India Has Tax Treaties With 97 Countries and Trade Treaties With a Fraction of Them",
+     "value": "97 countries",
+     "period": null,
+     "period_end": null,
+     "publisher": "PIB / Ministry of Commerce & Industry",
+     "series": "Tax Treaties (DTAA) count",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "97 Countries with a comprehensive Double Taxation Avoidance Agreement (DTAA) in force with India",
+     "value": "97",
+     "period": "as on 30 July 2026",
+     "period_end": "2026-07-30",
+     "publisher": "Income Tax Department (CBDT, Ministry of Finance)",
+     "series": "Income Tax Department live DTAA database (Comprehensive Agreements)",
+     "frequency": "live",
+     "headline": true
+    },
+    {
+     "quote": "173 Total DTAA-related instruments on record — comprehensive agreements, limited agreements, TIEAs, protocols and synthesised texts combined",
+     "value": "173",
+     "period": "as on 30 July 2026",
+     "period_end": "2026-07-30",
+     "publisher": "Income Tax Department (CBDT, Ministry of Finance)",
+     "series": "Income Tax Department live DTAA database (All instrument types)",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "India's 'new generation' free trade agreement network, per the government's own March 2026 count — this article could identify only 8 of the 9 by name",
+     "value": "38 countries",
+     "period": "as on 6 March 2026",
+     "period_end": "2026-03-06",
+     "publisher": "PIB / Ministry of Commerce & Industry",
+     "series": "New Generation FTAs (count of countries covered)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Nine FTAs spanning 38 countries",
+     "value": "9 FTAs",
+     "period": "as on 6 March 2026",
+     "period_end": "2026-03-06",
+     "publisher": "PIB / Ministry of Commerce & Industry",
+     "series": "New Generation FTAs (number of agreements)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "10 Older FTAs/CEPAs pre-dating the post-2021 wave",
+     "value": "10 agreements",
+     "period": null,
+     "period_end": null,
+     "publisher": "DGFT, Appendix 2A",
+     "series": "Pre-2021 FTAs/CEPAs",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India–UAE CEPA (in force May 2022)",
+     "value": "May 2022",
+     "period": "India–UAE CEPA in force",
+     "period_end": "2022-05-31",
+     "publisher": "DGFT, Appendix 2A",
+     "series": "India–UAE CEPA implementation date",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India–Australia ECTA (implemented December 2022)",
+     "value": "December 2022",
+     "period": "India–Australia ECTA in force",
+     "period_end": "2022-12-31",
+     "publisher": "DGFT, Appendix 2A",
+     "series": "India–Australia ECTA implementation date",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India–EFTA TEPA (signed 10 March 2024, entered into force 1 October 2025)",
+     "value": "1 October 2025",
+     "period": "India–EFTA TEPA in force",
+     "period_end": "2025-10-01",
+     "publisher": "DGFT, Appendix 2A",
+     "series": "India–EFTA TEPA implementation date",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India–UK CETA (signed July 2025, in force 15 July 2026)",
+     "value": "15 July 2026",
+     "period": "India–UK CETA in force",
+     "period_end": "2026-07-15",
+     "publisher": "DGFT, Appendix 2A / PIB PRID 2274280",
+     "series": "India–UK CETA implementation date",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India–Oman CEPA (December 2025, in force 1 June 2026)",
+     "value": "1 June 2026",
+     "period": "India–Oman CEPA in force",
+     "period_end": "2026-06-01",
+     "publisher": "DGFT, Appendix 2A / PIB PRID 2268595",
+     "series": "India–Oman CEPA implementation date",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India–New Zealand FTA (announced 22 December 2025, not yet in force)",
+     "value": "not yet in force as of 12 October 2026",
+     "period": "as on 27 April 2026 (signed), 12 October 2026 (article update)",
+     "period_end": "2026-10-12",
+     "publisher": "PIB / Ministry of Commerce & Industry",
+     "series": "India–New Zealand FTA status",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India–EU FTA (concluded in January 2026, in legal vetting, likely in early 2027)",
+     "value": "early 2027 (likely)",
+     "period": "as on July 2026",
+     "period_end": "2026-07-31",
+     "publisher": "PIB / Ministry of Commerce & Industry",
+     "series": "India–EU FTA entry into force",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Global System of Trade Preferences among developing countries (GSTP, 1989, 46 members though India exchanges concessions with only 12 of them)",
+     "value": "46 members (GSTP)",
+     "period": "1989",
+     "period_end": "1989-12-31",
+     "publisher": "DGFT, Appendix 2A",
+     "series": "GSTP membership count",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India exchanges concessions with only 12 of them (GSTP)",
+     "value": "12 countries",
+     "period": null,
+     "period_end": null,
+     "publisher": "DGFT, Appendix 2A",
+     "series": "India’s active GSTP concessions",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India–Afghanistan PTA (2003)",
+     "value": "2003",
+     "period": "India–Afghanistan PTA signed",
+     "period_end": "2003-12-31",
+     "publisher": "DGFT, Appendix 2A",
+     "series": "India–Afghanistan PTA signing date",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India–MERCOSUR PTA (2009, tariff concessions on 450+ tariff lines each way)",
+     "value": "450+ tariff lines",
+     "period": "2009",
+     "period_end": "2009-12-31",
+     "publisher": "DGFT, Appendix 2A",
+     "series": "India–MERCOSUR PTA tariff concessions",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "South Asian Free Trade Area (SAFTA) | 2004 | 2006",
+     "value": "2006 (in force)",
+     "period": "SAFTA in force",
+     "period_end": "2006-12-31",
+     "publisher": "DGFT, Appendix 2A",
+     "series": "SAFTA implementation date",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "ASEAN–India Trade in Goods Agreement phased in across ten ASEAN members (2010–2011)",
+     "value": "2010–2011",
+     "period": "ASEAN–India Trade in Goods Agreement phased in",
+     "period_end": "2011-12-31",
+     "publisher": "DGFT, Appendix 2A",
+     "series": "ASEAN–India Trade in Goods Agreement phased implementation",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "protocol amending the India–Brazil DTAA (30 March 2026)",
+     "value": "30 March 2026",
+     "period": "India–Brazil DTAA protocol",
+     "period_end": "2026-03-30",
+     "publisher": "Income Tax Department",
+     "series": "DTAA notification log",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "enforcement of a fresh MoU under the India–Japan DTAA (2 April 2026)",
+     "value": "2 April 2026",
+     "period": "India–Japan DTAA MoU enforcement",
+     "period_end": "2026-04-02",
+     "publisher": "Income Tax Department",
+     "series": "DTAA notification log",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "protocol amending the India–Belgium agreement (10 November 2025)",
+     "value": "10 November 2025",
+     "period": "India–Belgium DTAA protocol",
+     "period_end": "2025-11-10",
+     "publisher": "Income Tax Department",
+     "series": "DTAA notification log",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "an entirely new India–Qatar DTAA (24 October 2025)",
+     "value": "24 October 2025",
+     "period": "India–Qatar DTAA signed",
+     "period_end": "2025-10-24",
+     "publisher": "Income Tax Department",
+     "series": "DTAA notification log",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "protocol amending the India–Oman agreement (25 June 2025)",
+     "value": "25 June 2025",
+     "period": "India–Oman DTAA protocol",
+     "period_end": "2025-06-25",
+     "publisher": "Income Tax Department",
+     "series": "DTAA notification log",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India–Singapore CECA (2005)",
+     "value": "2005",
+     "period": "India–Singapore CECA signed",
+     "period_end": "2005-12-31",
+     "publisher": "DGFT, Appendix 2A",
+     "series": "India–Singapore CECA signing date",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India–South Korea CEPA (2009)",
+     "value": "2009",
+     "period": "India–South Korea CEPA signed",
+     "period_end": "2009-12-31",
+     "publisher": "DGFT, Appendix 2A",
+     "series": "India–South Korea CEPA signing date",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India–Japan CEPA (2011)",
+     "value": "2011",
+     "period": "India–Japan CEPA signed",
+     "period_end": "2011-12-31",
+     "publisher": "DGFT, Appendix 2A",
+     "series": "India–Japan CEPA signing date",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India–Malaysia CECA (2011)",
+     "value": "2011",
+     "period": "India–Malaysia CECA signed",
+     "period_end": "2011-12-31",
+     "publisher": "DGFT, Appendix 2A",
+     "series": "India–Malaysia CECA signing date",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India–Mauritius CECPA (2021)",
+     "value": "2021",
+     "period": "India–Mauritius CECPA signed",
+     "period_end": "2021-12-31",
+     "publisher": "DGFT, Appendix 2A",
+     "series": "India–Mauritius CECPA signing date",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India–Bhutan Trade, Commerce & Transit | 1972 | 2006 (revised)",
+     "value": "1972 (signed), 2006 (revised)",
+     "period": "India–Bhutan Trade, Commerce & Transit",
+     "period_end": "2006-12-31",
+     "publisher": "DGFT, Appendix 2A",
+     "series": "India–Bhutan Trade, Commerce & Transit signing and revision dates",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Indo–Nepal Treaty of Trade | 1991 | 2009 (revised)",
+     "value": "1991 (signed), 2009 (revised)",
+     "period": "Indo–Nepal Treaty of Trade",
+     "period_end": "2009-12-31",
+     "publisher": "DGFT, Appendix 2A",
+     "series": "Indo–Nepal Treaty of Trade signing and revision dates",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India–Sri Lanka FTA (2000)",
+     "value": "2000",
+     "period": "India–Sri Lanka FTA signed",
+     "period_end": "2000-12-31",
+     "publisher": "DGFT, Appendix 2A",
+     "series": "India–Sri Lanka FTA signing date",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India–Thailand Early Harvest Scheme (2004)",
+     "value": "2004",
+     "period": "India–Thailand Early Harvest Scheme signed",
+     "period_end": "2004-12-31",
+     "publisher": "DGFT, Appendix 2A",
+     "series": "India–Thailand Early Harvest Scheme signing date",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Asia Pacific Trade Agreement (APTA, 1976, later joined by Bangladesh, China, Laos, South Korea, Sri Lanka and Mongolia)",
+     "value": "1976 (founded)",
+     "period": "APTA founding",
+     "period_end": "1976-12-31",
+     "publisher": "DGFT, Appendix 2A",
+     "series": "Asia Pacific Trade Agreement founding date",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

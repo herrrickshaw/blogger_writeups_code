@@ -1,0 +1,610 @@
+{
+ "slug": "how-to-use-cng-cgd-retail-outlet",
+ "text_sha1": "359fda81c9733e23",
+ "chars": 9270,
+ "checked": "2026-10-23T12:06:11",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "82,593 outlets in the linkage table",
+     "value": "82,593 outlets",
+     "period": "30 October 2026",
+     "period_end": "2026-10-30",
+     "publisher": "PIB / ministry",
+     "series": "cng-cgd-retail-outlet-mapping linkage table",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "82,261 inside an authorised gas area (99.6%)",
+     "value": "82,261 outlets",
+     "period": "30 October 2026",
+     "period_end": "2026-10-30",
+     "publisher": "PIB / ministry",
+     "series": "cng-cgd-retail-outlet-mapping linkage table",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "11,198 outlets already flagged CNG-equipped",
+     "value": "11,198 outlets",
+     "period": "30 October 2026",
+     "period_end": "2026-10-30",
+     "publisher": "PIB / ministry",
+     "series": "cng-cgd-retail-outlet-mapping linkage table",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "Gujarat has 23.9% of its outlets already CNG-equipped",
+     "value": "23.9%",
+     "period": "30 October 2026",
+     "period_end": "2026-10-30",
+     "publisher": "PIB / ministry",
+     "series": "cng-cgd-retail-outlet-mapping linkage table",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "Haryana 22.1%",
+     "value": "22.1%",
+     "period": "30 October 2026",
+     "period_end": "2026-10-30",
+     "publisher": "PIB / ministry",
+     "series": "cng-cgd-retail-outlet-mapping linkage table",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "about 10% in West Bengal, Karnataka and Rajasthan",
+     "value": "10%",
+     "period": "30 October 2026",
+     "period_end": "2026-10-30",
+     "publisher": "PIB / ministry",
+     "series": "cng-cgd-retail-outlet-mapping linkage table",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "PNGRB's list of authorised City Gas Distribution geographical areas (309 areas, 58 companies)",
+     "value": "309 areas",
+     "period": "22 Jul 2026",
+     "period_end": "2026-07-22",
+     "publisher": "PNGRB",
+     "series": "Authorised City Gas Distribution geographical areas",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "PNGRB's list of authorised City Gas Distribution geographical areas (309 areas, 58 companies)",
+     "value": "58 companies",
+     "period": "22 Jul 2026",
+     "period_end": "2026-07-22",
+     "publisher": "PNGRB",
+     "series": "Authorised City Gas Distribution geographical areas",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Gujarat 6,325 1,510 23.9%",
+     "value": "6,325 outlets",
+     "period": "30 October 2026",
+     "period_end": "2026-10-30",
+     "publisher": "PIB / ministry",
+     "series": "CNG share of outlets by state",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Gujarat 6,325 1,510 23.9%",
+     "value": "1,510 outlets",
+     "period": "30 October 2026",
+     "period_end": "2026-10-30",
+     "publisher": "PIB / ministry",
+     "series": "CNG share of outlets by state",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Haryana 3,160 699 22.1%",
+     "value": "3,160 outlets",
+     "period": "30 October 2026",
+     "period_end": "2026-10-30",
+     "publisher": "PIB / ministry",
+     "series": "CNG share of outlets by state",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Haryana 3,160 699 22.1%",
+     "value": "699 outlets",
+     "period": "30 October 2026",
+     "period_end": "2026-10-30",
+     "publisher": "PIB / ministry",
+     "series": "CNG share of outlets by state",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Uttar Pradesh 9,814 1,612 16.4%",
+     "value": "9,814 outlets",
+     "period": "30 October 2026",
+     "period_end": "2026-10-30",
+     "publisher": "PIB / ministry",
+     "series": "CNG share of outlets by state",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Uttar Pradesh 9,814 1,612 16.4%",
+     "value": "1,612 outlets",
+     "period": "30 October 2026",
+     "period_end": "2026-10-30",
+     "publisher": "PIB / ministry",
+     "series": "CNG share of outlets by state",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Maharashtra 8,270 1,276 15.4%",
+     "value": "8,270 outlets",
+     "period": "30 October 2026",
+     "period_end": "2026-10-30",
+     "publisher": "PIB / ministry",
+     "series": "CNG share of outlets by state",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Maharashtra 8,270 1,276 15.4%",
+     "value": "1,276 outlets",
+     "period": "30 October 2026",
+     "period_end": "2026-10-30",
+     "publisher": "PIB / ministry",
+     "series": "CNG share of outlets by state",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "West Bengal, 2,596 251 9.7%",
+     "value": "2,596 outlets",
+     "period": "30 October 2026",
+     "period_end": "2026-10-30",
+     "publisher": "PIB / ministry",
+     "series": "CNG share of outlets by state",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "West Bengal, 2,596 251 9.7%",
+     "value": "251 outlets",
+     "period": "30 October 2026",
+     "period_end": "2026-10-30",
+     "publisher": "PIB / ministry",
+     "series": "CNG share of outlets by state",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Karnataka 5,954 584 9.8%",
+     "value": "5,954 outlets",
+     "period": "30 October 2026",
+     "period_end": "2026-10-30",
+     "publisher": "PIB / ministry",
+     "series": "CNG share of outlets by state",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Karnataka 5,954 584 9.8%",
+     "value": "584 outlets",
+     "period": "30 October 2026",
+     "period_end": "2026-10-30",
+     "publisher": "PIB / ministry",
+     "series": "CNG share of outlets by state",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Andhra Pradesh 4,040 399 9.9%",
+     "value": "4,040 outlets",
+     "period": "30 October 2026",
+     "period_end": "2026-10-30",
+     "publisher": "PIB / ministry",
+     "series": "CNG share of outlets by state",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Andhra Pradesh 4,040 399 9.9%",
+     "value": "399 outlets",
+     "period": "30 October 2026",
+     "period_end": "2026-10-30",
+     "publisher": "PIB / ministry",
+     "series": "CNG share of outlets by state",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Rajasthan 6,369 635 10.0%",
+     "value": "6,369 outlets",
+     "period": "30 October 2026",
+     "period_end": "2026-10-30",
+     "publisher": "PIB / ministry",
+     "series": "CNG share of outlets by state",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Rajasthan 6,369 635 10.0%",
+     "value": "635 outlets",
+     "period": "30 October 2026",
+     "period_end": "2026-10-30",
+     "publisher": "PIB / ministry",
+     "series": "CNG share of outlets by state",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Indian Oil Corporation Limited 846",
+     "value": "846 outlets",
+     "period": "30 October 2026",
+     "period_end": "2026-10-30",
+     "publisher": "PIB / ministry",
+     "series": "CNG-equipped outlets by authorized company",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Adani Total Gas Limited 808",
+     "value": "808 outlets",
+     "period": "30 October 2026",
+     "period_end": "2026-10-30",
+     "publisher": "PIB / ministry",
+     "series": "CNG-equipped outlets by authorized company",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Bharat Petroleum Corp. Ltd 800",
+     "value": "800 outlets",
+     "period": "30 October 2026",
+     "period_end": "2026-10-30",
+     "publisher": "PIB / ministry",
+     "series": "CNG-equipped outlets by authorized company",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Gujarat Gas Limited 798",
+     "value": "798 outlets",
+     "period": "30 October 2026",
+     "period_end": "2026-10-30",
+     "publisher": "PIB / ministry",
+     "series": "CNG-equipped outlets by authorized company",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "GAIL Gas Limited 622",
+     "value": "622 outlets",
+     "period": "30 October 2026",
+     "period_end": "2026-10-30",
+     "publisher": "PIB / ministry",
+     "series": "CNG-equipped outlets by authorized company",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Indian Oil-Adani Gas Pvt Ltd 605",
+     "value": "605 outlets",
+     "period": "30 October 2026",
+     "period_end": "2026-10-30",
+     "publisher": "PIB / ministry",
+     "series": "CNG-equipped outlets by authorized company",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Snapshot of 22 Jul 2026; the SSRI source has since grown to 107,380 raw records",
+     "value": "107,380 raw records",
+     "period": "19 October 2026",
+     "period_end": "2026-10-19",
+     "publisher": "PIB / ministry",
+     "series": "SSRI raw records",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "82,593 outlets in the linkage table",
+     "value": "82,593 outlets",
+     "period": null,
+     "period_end": null,
+     "publisher": "PNGRB (via GitHub repo: herrrickshaw/cng-cgd-retail-outlet-mapping)",
+     "series": "Authorised CGD retail outlet linkage table (outlets_cgd.csv.gz)",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "82,261 inside an authorised gas area (99.6%)",
+     "value": "82,261 outlets",
+     "period": null,
+     "period_end": "2026-07-22",
+     "publisher": "PNGRB (via GitHub repo: herrrickshaw/cng-cgd-retail-outlet-mapping)",
+     "series": "Authorised CGD geographical area (GA) linkage with retail outlets",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "11,198 outlets already flagged CNG-equipped",
+     "value": "11,198 outlets",
+     "period": null,
+     "period_end": "2026-07-22",
+     "publisher": "PNGRB (via GitHub repo: herrrickshaw/cng-cgd-retail-outlet-mapping)",
+     "series": "CNG-equipped retail outlets (has_cng field in outlets_cgd.csv.gz)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Gujarat has 23.9% of its outlets already CNG-equipped",
+     "value": "23.9%",
+     "period": null,
+     "period_end": "2026-07-22",
+     "publisher": "PNGRB (via GitHub repo: herrrickshaw/cng-cgd-retail-outlet-mapping)",
+     "series": "State-wise CNG-equipped outlet share (derived from outlets_cgd.csv.gz)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Haryana 22.1%, against about 10% in West Bengal, Karnataka and Rajasthan",
+     "value": "22.1% (Haryana), ~10% (West Bengal, Karnataka, Rajasthan)",
+     "period": null,
+     "period_end": "2026-07-22",
+     "publisher": "PNGRB (via GitHub repo: herrrickshaw/cng-cgd-retail-outlet-mapping)",
+     "series": "State-wise CNG-equipped outlet share (derived from outlets_cgd.csv.gz)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "309 areas, 58 companies",
+     "value": "309 authorised CGD areas, 58 companies",
+     "period": null,
+     "period_end": "2026-07-22",
+     "publisher": "PNGRB (via GitHub repo: herrrickshaw/cng-cgd-retail-outlet-mapping)",
+     "series": "Authorised City Gas Distribution geographical areas (cgd_ga_allotment.csv)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "305 in districts with no authorised company",
+     "value": "305 outlets",
+     "period": null,
+     "period_end": "2026-07-22",
+     "publisher": "PNGRB (via GitHub repo: herrrickshaw/cng-cgd-retail-outlet-mapping)",
+     "series": "Outlets without authorised CGD company (outlets_cgd.csv.gz)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "27 outside the district map",
+     "value": "27 outlets",
+     "period": null,
+     "period_end": "2026-07-22",
+     "publisher": "PNGRB (via GitHub repo: herrrickshaw/cng-cgd-retail-outlet-mapping)",
+     "series": "Outlets outside district mapping (outlets_cgd.csv.gz)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Indian Oil Corporation Limited 846",
+     "value": "846 outlets",
+     "period": null,
+     "period_end": "2026-07-22",
+     "publisher": "PNGRB (via GitHub repo: herrrickshaw/cng-cgd-retail-outlet-mapping)",
+     "series": "CNG-equipped outlets by authorised company (cgd_ga_allotment.csv + outlets_cgd.csv.gz)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Adani Total Gas Limited 808",
+     "value": "808 outlets",
+     "period": null,
+     "period_end": "2026-07-22",
+     "publisher": "PNGRB (via GitHub repo: herrrickshaw/cng-cgd-retail-outlet-mapping)",
+     "series": "CNG-equipped outlets by authorised company (cgd_ga_allotment.csv + outlets_cgd.csv.gz)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Bharat Petroleum Corp. Ltd 800",
+     "value": "800 outlets",
+     "period": null,
+     "period_end": "2026-07-22",
+     "publisher": "PNGRB (via GitHub repo: herrrickshaw/cng-cgd-retail-outlet-mapping)",
+     "series": "CNG-equipped outlets by authorised company (cgd_ga_allotment.csv + outlets_cgd.csv.gz)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Gujarat Gas Limited 798",
+     "value": "798 outlets",
+     "period": null,
+     "period_end": "2026-07-22",
+     "publisher": "PNGRB (via GitHub repo: herrrickshaw/cng-cgd-retail-outlet-mapping)",
+     "series": "CNG-equipped outlets by authorised company (cgd_ga_allotment.csv + outlets_cgd.csv.gz)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "GAIL Gas Limited 622",
+     "value": "622 outlets",
+     "period": null,
+     "period_end": "2026-07-22",
+     "publisher": "PNGRB (via GitHub repo: herrrickshaw/cng-cgd-retail-outlet-mapping)",
+     "series": "CNG-equipped outlets by authorised company (cgd_ga_allotment.csv + outlets_cgd.csv.gz)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Indian Oil-Adani Gas Pvt Ltd 605",
+     "value": "605 outlets",
+     "period": null,
+     "period_end": "2026-07-22",
+     "publisher": "PNGRB (via GitHub repo: herrrickshaw/cng-cgd-retail-outlet-mapping)",
+     "series": "CNG-equipped outlets by authorised company (cgd_ga_allotment.csv + outlets_cgd.csv.gz)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "45 districts fall under more than one area",
+     "value": "45 districts",
+     "period": null,
+     "period_end": "2026-07-22",
+     "publisher": "PNGRB (via GitHub repo: herrrickshaw/cng-cgd-retail-outlet-mapping)",
+     "series": "Overlapping authorised CGD geographical areas (cgd_ga_allotment.csv)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The committed list runs through round 12A and was a 22 Jul 2026 snapshot",
+     "value": "12A",
+     "period": "22 Jul 2026",
+     "period_end": "2026-07-22",
+     "publisher": "PNGRB",
+     "series": "City Gas Distribution bidding rounds",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "The SSRI source has since grown to 107,380 raw records",
+     "value": "107,380 raw records",
+     "period": null,
+     "period_end": "2026-10-19",
+     "publisher": "SSRI (State Smart Data Infrastructure)",
+     "series": "Retail outlet database",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "Gujarat 6,325 outlets; 1,510 CNG-equipped",
+     "value": "6,325 outlets, 1,510 CNG-equipped",
+     "period": null,
+     "period_end": "2026-07-22",
+     "publisher": "PNGRB (via GitHub repo: herrrickshaw/cng-cgd-retail-outlet-mapping)",
+     "series": "State-wise outlet and CNG-equipped counts (derived from outlets_cgd.csv.gz)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Haryana 3,160 outlets; 699 CNG-equipped",
+     "value": "3,160 outlets, 699 CNG-equipped",
+     "period": null,
+     "period_end": "2026-07-22",
+     "publisher": "PNGRB (via GitHub repo: herrrickshaw/cng-cgd-retail-outlet-mapping)",
+     "series": "State-wise outlet and CNG-equipped counts (derived from outlets_cgd.csv.gz)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Uttar Pradesh 9,814 outlets; 1,612 CNG-equipped",
+     "value": "9,814 outlets, 1,612 CNG-equipped",
+     "period": null,
+     "period_end": "2026-07-22",
+     "publisher": "PNGRB (via GitHub repo: herrrickshaw/cng-cgd-retail-outlet-mapping)",
+     "series": "State-wise outlet and CNG-equipped counts (derived from outlets_cgd.csv.gz)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Maharashtra 8,270 outlets; 1,276 CNG-equipped",
+     "value": "8,270 outlets, 1,276 CNG-equipped",
+     "period": null,
+     "period_end": "2026-07-22",
+     "publisher": "PNGRB (via GitHub repo: herrrickshaw/cng-cgd-retail-outlet-mapping)",
+     "series": "State-wise outlet and CNG-equipped counts (derived from outlets_cgd.csv.gz)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "West Bengal 2,596 outlets; 251 CNG-equipped",
+     "value": "2,596 outlets, 251 CNG-equipped",
+     "period": null,
+     "period_end": "2026-07-22",
+     "publisher": "PNGRB (via GitHub repo: herrrickshaw/cng-cgd-retail-outlet-mapping)",
+     "series": "State-wise outlet and CNG-equipped counts (derived from outlets_cgd.csv.gz)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Karnataka 5,954 outlets; 584 CNG-equipped",
+     "value": "5,954 outlets, 584 CNG-equipped",
+     "period": null,
+     "period_end": "2026-07-22",
+     "publisher": "PNGRB (via GitHub repo: herrrickshaw/cng-cgd-retail-outlet-mapping)",
+     "series": "State-wise outlet and CNG-equipped counts (derived from outlets_cgd.csv.gz)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Andhra Pradesh 4,040 outlets; 399 CNG-equipped",
+     "value": "4,040 outlets, 399 CNG-equipped",
+     "period": null,
+     "period_end": "2026-07-22",
+     "publisher": "PNGRB (via GitHub repo: herrrickshaw/cng-cgd-retail-outlet-mapping)",
+     "series": "State-wise outlet and CNG-equipped counts (derived from outlets_cgd.csv.gz)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Rajasthan 6,369 outlets; 635 CNG-equipped",
+     "value": "6,369 outlets, 635 CNG-equipped",
+     "period": null,
+     "period_end": "2026-07-22",
+     "publisher": "PNGRB (via GitHub repo: herrrickshaw/cng-cgd-retail-outlet-mapping)",
+     "series": "State-wise outlet and CNG-equipped counts (derived from outlets_cgd.csv.gz)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The raw outlet source contains duplicate rows; the repo removes them before linking",
+     "value": "Duplicate rows removed",
+     "period": null,
+     "period_end": "2026-07-22",
+     "publisher": "SSRI (State Smart Data Infrastructure)",
+     "series": "Retail outlet database cleaning process",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The pipeline cannot be fully rerun from a fresh clone: join_final.py needs a 47 MB district geojson that is not committed",
+     "value": "47 MB",
+     "period": null,
+     "period_end": null,
+     "publisher": "PNGRB (via GitHub repo: herrrickshaw/cng-cgd-retail-outlet-mapping)",
+     "series": "District geojson file size",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The README says 11,194 CNG-equipped; the file I read has 11,198",
+     "value": "11,194 (README), 11,198 (file)",
+     "period": null,
+     "period_end": "2026-07-22",
+     "publisher": "PNGRB (via GitHub repo: herrrickshaw/cng-cgd-retail-outlet-mapping)",
+     "series": "CNG-equipped outlet count discrepancy",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

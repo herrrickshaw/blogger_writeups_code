@@ -1,0 +1,160 @@
+{
+ "slug": "indias-lng-trucks-grew-75-in-2025-about",
+ "text_sha1": "0a65f2681fe64f3c",
+ "chars": 7236,
+ "checked": "2026-10-23T14:18:59",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "1,309 LNG trucks on Indian roads by end-2025, up from 747 in 2024",
+     "value": "1,309 LNG trucks",
+     "period": "end-2025",
+     "period_end": "2025-12-31",
+     "publisher": "Business Standard / Essar",
+     "series": "LNG trucks on Indian roads",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "+75% Actual 2025 growth — against an industry expectation of roughly 3×",
+     "value": "+75%",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "Business Standard / Essar",
+     "series": "Year-on-year growth",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "~30% Share of China's 2024 heavy-duty truck sales that were LNG",
+     "value": "~30%",
+     "period": "2024",
+     "period_end": "2024-12-31",
+     "publisher": "Wood Mackenzie / IEEFA",
+     "series": "China's heavy-duty truck sales",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "0 Transport-sector LNG incentives offered by the Government of India",
+     "value": "0",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "PIB / ministry",
+     "series": "Transport-sector LNG incentives",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "747 baseline, end of 2024",
+     "value": "747",
+     "period": "end of 2024",
+     "period_end": "2024-12-31",
+     "publisher": "Business Standard / Essar",
+     "series": "LNG trucks on Indian roads",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "~1,309 (+75%) real growth, but well short of plan",
+     "value": "~1,309",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "Business Standard / Essar",
+     "series": "LNG trucks on Indian roads",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "~3× (not met) roughly 3× the actual 75% growth rate",
+     "value": "~3×",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "Business Standard / Vahan-based forecasts",
+     "series": "Growth industry expected going into 2025",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "up from below 10% in late 2023",
+     "value": "below 10%",
+     "period": "late 2023",
+     "period_end": "2023-12-31",
+     "publisher": "Wood Mackenzie / IEEFA",
+     "series": "China's heavy-duty truck sales",
+     "frequency": "annual",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "1,309 LNG trucks on Indian roads by end-2025, up from 747 in 2024",
+     "value": "1,309 units (end-2025) / 747 units (2024)",
+     "period": "2024 / end-2025",
+     "period_end": "2024-12-31 / 2025-12-31",
+     "publisher": "Vahan registration estimates (via Business Standard/Essar)",
+     "series": "Vahan registrations of goods vehicles by fuel type (unofficial estimate)",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "+75% Actual 2025 growth — against an industry expectation of roughly 3×",
+     "value": "75% (growth rate) / ~3× (expected growth)",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "Business Standard/Essar (Jan 2026) + industry forecasts",
+     "series": "LNG-truck fleet growth projections (industry estimates)",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "close to 30% of China's heavy-duty truck sales in 2024",
+     "value": "~30% (share of heavy-duty truck sales)",
+     "period": "2024",
+     "period_end": "2024-12-31",
+     "publisher": "Wood Mackenzie / IEEFA",
+     "series": "China heavy-duty truck sales by fuel type",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "below 10% in late 2023 — a shift driven by ...",
+     "value": "<10% (share of heavy-duty truck sales)",
+     "period": "late 2023",
+     "period_end": "2023-12-31",
+     "publisher": "IEEFA (inferred)",
+     "series": "China heavy-duty truck sales by fuel type",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "Some retail LNG stations have shut for lack of truck traffic to serve",
+     "value": "some stations (number unspecified)",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "Business Standard/Essar (Jan 2026)",
+     "series": "Retail LNG station operational status",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "state-run refiners paused expansion plans in 2026",
+     "value": "paused (no expansion)",
+     "period": "2026",
+     "period_end": "2026-03-31",
+     "publisher": "Business Standard/Essar (Jan 2026)",
+     "series": "State-run refiner LNG retail expansion plans",
+     "frequency": "annual",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

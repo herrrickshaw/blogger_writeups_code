@@ -1,0 +1,350 @@
+{
+ "slug": "how-to-use-ship2shorerag-offline",
+ "text_sha1": "fa16243507186854",
+ "chars": 9582,
+ "checked": "2026-10-23T12:13:37",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "131 documents in the demo corpus",
+     "value": "131 documents",
+     "period": "18 October 2026",
+     "period_end": "2026-10-18",
+     "publisher": "GitHub / author",
+     "series": "demo corpus",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "1,884 text chunks searched",
+     "value": "1,884 text chunks",
+     "period": "18 October 2026",
+     "period_end": "2026-10-18",
+     "publisher": "GitHub / author",
+     "series": "demo corpus search",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "0.76 to 0.82 recall@5 without and with reranking (17 test queries)",
+     "value": "0.76 to 0.82",
+     "period": "18 October 2026",
+     "period_end": "2026-10-18",
+     "publisher": "GitHub / author",
+     "series": "eval recall@5",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "0 API keys used in the demo",
+     "value": "0 API keys",
+     "period": "18 October 2026",
+     "period_end": "2026-10-18",
+     "publisher": "GitHub / author",
+     "series": "demo usage",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "125 documents, 1,571 chunks, 7 MiB",
+     "value": "125 documents",
+     "period": "18 October 2026",
+     "period_end": "2026-10-18",
+     "publisher": "GitHub / author",
+     "series": "snapshots/ship2shore.sqlite3",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "125 documents, 1,571 chunks, 7 MiB",
+     "value": "1,571 chunks",
+     "period": "18 October 2026",
+     "period_end": "2026-10-18",
+     "publisher": "GitHub / author",
+     "series": "snapshots/ship2shore.sqlite3",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "125 documents, 1,571 chunks, 7 MiB",
+     "value": "7 MiB",
+     "period": "18 October 2026",
+     "period_end": "2026-10-18",
+     "publisher": "GitHub / author",
+     "series": "snapshots/ship2shore.sqlite3",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "recall@5 = 0.76 and MRR = 0.706",
+     "value": "0.76",
+     "period": "18 October 2026",
+     "period_end": "2026-10-18",
+     "publisher": "GitHub / author",
+     "series": "eval retrieval quality",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "recall@5 = 0.76 and MRR = 0.706",
+     "value": "0.706",
+     "period": "18 October 2026",
+     "period_end": "2026-10-18",
+     "publisher": "GitHub / author",
+     "series": "eval retrieval quality",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "recall@5 = 0.82 and MRR = 0.824",
+     "value": "0.82",
+     "period": "18 October 2026",
+     "period_end": "2026-10-18",
+     "publisher": "GitHub / author",
+     "series": "eval retrieval quality",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "recall@5 = 0.82 and MRR = 0.824",
+     "value": "0.824",
+     "period": "18 October 2026",
+     "period_end": "2026-10-18",
+     "publisher": "GitHub / author",
+     "series": "eval retrieval quality",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The eval has 17 queries, so treat 0.76 and 0.82 as indicative",
+     "value": "17 queries",
+     "period": "18 October 2026",
+     "period_end": "2026-10-18",
+     "publisher": "GitHub / author",
+     "series": "eval queries",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The committed snapshot holds 125 documents",
+     "value": "125 documents",
+     "period": "18 October 2026",
+     "period_end": "2026-10-18",
+     "publisher": "GitHub / author",
+     "series": "committed snapshot",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The demo used a local file with 131 documents",
+     "value": "131 documents",
+     "period": "18 October 2026",
+     "period_end": "2026-10-18",
+     "publisher": "GitHub / author",
+     "series": "demo local file",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "131 documents in the demo corpus 1,884 text chunks searched",
+     "value": "131 documents; 1,884 text chunks",
+     "period": null,
+     "period_end": null,
+     "publisher": "demo run (article author)",
+     "series": "ship2shore_rag demo corpus and chunking",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "0.76 to 0.82 recall@5 without and with reranking (17 test queries)",
+     "value": "recall@5 = 0.76 (without reranking); recall@5 = 0.82 (with reranking)",
+     "period": null,
+     "period_end": null,
+     "publisher": "demo run (article author)",
+     "series": "ship2shore_rag evaluation metrics",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The demo used a larger local file with 131 documents",
+     "value": "131 documents (demo corpus)",
+     "period": null,
+     "period_end": null,
+     "publisher": "demo run (article author)",
+     "series": "ship2shore_rag demo corpus",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The repo ships snapshots/ship2shore.sqlite3 (125 documents, 1,571 chunks, 7 MiB)",
+     "value": "125 documents; 1,571 chunks; 7 MiB",
+     "period": null,
+     "period_end": null,
+     "publisher": "ship2shore_rag repository",
+     "series": "ship2shore_rag SQLite snapshot",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The embedding model is about 90 MB and runs on CPU",
+     "value": "90 MB",
+     "period": null,
+     "period_end": null,
+     "publisher": "ship2shore_rag repository",
+     "series": "model size and hardware requirements",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The demo ran every command with --no-generate and with models loaded from the local cache in offline mode",
+     "value": "offline mode (local cache)",
+     "period": null,
+     "period_end": null,
+     "publisher": "demo run (article author)",
+     "series": "ship2shore_rag offline evaluation",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Three questions still missed with reranking on, including man overboard on a bulk carrier and the growth of maritime trade in 2023",
+     "value": "3 missed queries (man overboard, growth of maritime trade in 2023, and 1 other)",
+     "period": "2023",
+     "period_end": "2023-12-31",
+     "publisher": "demo run (article author)",
+     "series": "ship2shore_rag evaluation misses",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The committed snapshot holds 125 documents",
+     "value": "125 documents",
+     "period": null,
+     "period_end": null,
+     "publisher": "ship2shore_rag repository",
+     "series": "ship2shore_rag SQLite snapshot",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The demo author noted these were only loosely related, because the corpus is small",
+     "value": "small corpus (131 documents)",
+     "period": null,
+     "period_end": null,
+     "publisher": "demo run (article author)",
+     "series": "ship2shore_rag corpus size",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The eval has 17 queries",
+     "value": "17 test queries",
+     "period": null,
+     "period_end": null,
+     "publisher": "demo run (article author)",
+     "series": "ship2shore_rag evaluation queries",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The demo ran on 18 October 2026",
+     "value": "18 October 2026",
+     "period": "18 October 2026",
+     "period_end": "2026-10-18",
+     "publisher": "article author",
+     "series": "article revision date",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Python 3.10 or newer is a safe choice",
+     "value": "Python 3.10+",
+     "period": null,
+     "period_end": null,
+     "publisher": "ship2shore_rag repository",
+     "series": "Python version requirement",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "About 1 GB of disk and some RAM",
+     "value": "1 GB disk; unspecified RAM",
+     "period": null,
+     "period_end": null,
+     "publisher": "ship2shore_rag repository",
+     "series": "hardware requirements",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The repo ships snapshots/ship2shore.sqlite3 (125 documents, 1,571 chunks, 7 MiB)",
+     "value": "7 MiB",
+     "period": null,
+     "period_end": null,
+     "publisher": "ship2shore_rag repository",
+     "series": "SQLite snapshot file size",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The demo used a larger local file with 131 documents",
+     "value": "131 documents (demo corpus)",
+     "period": null,
+     "period_end": null,
+     "publisher": "demo run (article author)",
+     "series": "demo corpus size",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The demo ran every command with --no-generate and with models loaded from the local cache in offline mode",
+     "value": "17 test queries (eval/queries.yaml)",
+     "period": null,
+     "period_end": null,
+     "publisher": "demo run (article author)",
+     "series": "evaluation queries",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Rerank off: recall@5 = 0.76 and MRR = 0.706. Rerank on: recall@5 = 0.82 and MRR = 0.824",
+     "value": "recall@5 = 0.76 (without reranking); MRR = 0.706 (without reranking); recall@5 = 0.82 (with reranking); MRR = 0.824 (with reranking)",
+     "period": null,
+     "period_end": null,
+     "publisher": "demo run (article author)",
+     "series": "ship2shore_rag evaluation metrics",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Questions that found nothing are listed as MISS.",
+     "value": "3 MISS queries",
+     "period": null,
+     "period_end": null,
+     "publisher": "demo run (article author)",
+     "series": "ship2shore_rag evaluation misses",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The demo ran every command with --no-generate and with models loaded from the local cache in offline mode.",
+     "value": "0 API keys used in the demo",
+     "period": null,
+     "period_end": null,
+     "publisher": "demo run (article author)",
+     "series": "demo API usage",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

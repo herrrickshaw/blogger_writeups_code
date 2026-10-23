@@ -1,0 +1,350 @@
+{
+ "slug": "indias-live-ipo-queue-has-232-companies",
+ "text_sha1": "a2ca39929f057b96",
+ "chars": 10184,
+ "checked": "2026-10-23T14:17:18",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "232 Companies in SEBI's live mainboard DRHP pipeline, Dec 2024–Jun 2026",
+     "value": "232 companies",
+     "period": "Dec 2024-Jun 2026",
+     "period_end": "2026-06-30",
+     "publisher": "SEBI",
+     "series": "Live mainboard DRHP pipeline",
+     "frequency": "live",
+     "headline": true
+    },
+    {
+     "quote": "19 vs 4 Power & Renewables filings against Oil & Gas filings — the widest gap between any two energy-adjacent sectors in the pipeline",
+     "value": "19 Power & Renewables filings, 4 Oil & Gas filings",
+     "period": "Dec 2024-Jun 2026",
+     "period_end": "2026-06-30",
+     "publisher": "SEBI",
+     "series": "Live mainboard DRHP pipeline by sector",
+     "frequency": "live",
+     "headline": true
+    },
+    {
+     "quote": "155 / 64 / 13 Approved / Still under process / Withdrawn or returned, across all 232 filings",
+     "value": "155 Approved, 64 Still under process, 13 Withdrawn or returned",
+     "period": "Dec 2024-Jun 2026",
+     "period_end": "2026-06-30",
+     "publisher": "SEBI",
+     "series": "Live mainboard DRHP pipeline status breakdown",
+     "frequency": "live",
+     "headline": true
+    },
+    {
+     "quote": "28 Engineering & Capital Goods filings — the single largest sector, ahead of every energy or infrastructure theme individually",
+     "value": "28 filings",
+     "period": "Dec 2024-Jun 2026",
+     "period_end": "2026-06-30",
+     "publisher": "SEBI",
+     "series": "Live mainboard DRHP pipeline by sector",
+     "frequency": "live",
+     "headline": true
+    },
+    {
+     "quote": "Chemicals, Plastics & Materials | 15 | 13 | 0 | 100% |",
+     "value": "15 filed, 13 approved, 0 withdrawn, 100% rate",
+     "period": "Dec 2024-Jun 2026",
+     "period_end": "2026-06-30",
+     "publisher": "SEBI",
+     "series": "DRHP filings resolution by sector",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "Healthcare & Pharma | 16 | 13 | 0 | 100% |",
+     "value": "16 filed, 13 approved, 0 withdrawn, 100% rate",
+     "period": "Dec 2024-Jun 2026",
+     "period_end": "2026-06-30",
+     "publisher": "SEBI",
+     "series": "DRHP filings resolution by sector",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "Power & Renewables | 19 | 11 | 2 | 85% |",
+     "value": "19 filed, 11 approved, 2 withdrawn, 85% rate",
+     "period": "Dec 2024-Jun 2026",
+     "period_end": "2026-06-30",
+     "publisher": "SEBI",
+     "series": "DRHP filings resolution by sector",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "Metals & Steel | 17 | 11 | 2 | 85% |",
+     "value": "17 filed, 11 approved, 2 withdrawn, 85% rate",
+     "period": "Dec 2024-Jun 2026",
+     "period_end": "2026-06-30",
+     "publisher": "SEBI",
+     "series": "DRHP filings resolution by sector",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "Oil & Gas | 4 | 1 | 1 | 50% |",
+     "value": "4 filed, 1 approved, 1 withdrawn, 50% rate",
+     "period": "Dec 2024-Jun 2026",
+     "period_end": "2026-06-30",
+     "publisher": "SEBI",
+     "series": "DRHP filings resolution by sector",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "Five companies in this dataset — PhonePe, Zepto, Zetwerk, OYO and PGP Glass — carry blank revenue and profit figures because they used SEBI's confidential pre-filing route",
+     "value": "5 companies",
+     "period": "Dec 2024-Jun 2026",
+     "period_end": "2026-06-30",
+     "publisher": "SEBI",
+     "series": "Confidential pre-filing route dataset",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "Engineering & Capital Goods has 28 live filings — more than Power & Renewables and Oil & Gas combined, and nearly double Metals & Steel (17) or Real Estate & Infrastructure (17), the next-largest sectors.",
+     "value": "17 filings",
+     "period": "Dec 2024-Jun 2026",
+     "period_end": "2026-06-30",
+     "publisher": "SEBI",
+     "series": "Live mainboard DRHP pipeline by sector",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "Defence & Drones, despite heavy policy and media attention, has just 2 live filings",
+     "value": "2 filings",
+     "period": "Dec 2024-Jun 2026",
+     "period_end": "2026-06-30",
+     "publisher": "SEBI",
+     "series": "Live mainboard DRHP pipeline by sector",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "Media, Gaming & Entertainment has 4, three of them still under process.",
+     "value": "4 filings",
+     "period": "Dec 2024-Jun 2026",
+     "period_end": "2026-06-30",
+     "publisher": "SEBI",
+     "series": "Live mainboard DRHP pipeline by sector",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "SEBI's full historical DRHP archive, which runs to roughly 2,132 records over about 20 years",
+     "value": "2,132 records",
+     "period": "Approx 20 years",
+     "period_end": null,
+     "publisher": "SEBI",
+     "series": "Full historical DRHP archive",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "SEBI's live mainboard IPO pipeline — every company with a Draft Red Herring Prospectus currently filed, approved, under review or withdrawn — runs to 232 companies as of mid-2026.",
+     "value": "232 companies",
+     "period": "Dec 2024–Jun 2026",
+     "period_end": "2026-06-30",
+     "publisher": "SEBI",
+     "series": "Public Issues filings page (live mainboard DRHP pipeline)",
+     "frequency": "live",
+     "headline": true
+    },
+    {
+     "quote": "Nineteen of them are power-and-renewables businesses. Four are oil and gas.",
+     "value": "19 (Power & Renewables), 4 (Oil & Gas)",
+     "period": null,
+     "period_end": null,
+     "publisher": "SEBI (via IPOPlatform.com DRHP tracker)",
+     "series": "Sector classification of live DRHP filings",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "155 / 64 / 13 Approved / Still under process / Withdrawn or returned, across all 232 filings",
+     "value": "155 approved, 64 under process, 13 withdrawn/returned",
+     "period": "Dec 2024–Jun 2026",
+     "period_end": "2026-06-30",
+     "publisher": "SEBI (via IPOPlatform.com DRHP tracker)",
+     "series": "DRHP status breakdown",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "28 Engineering & Capital Goods filings — the single largest sector, ahead of every energy or infrastructure theme individually",
+     "value": "28 companies",
+     "period": "Dec 2024–Jun 2026",
+     "period_end": "2026-06-30",
+     "publisher": "SEBI (via IPOPlatform.com DRHP tracker)",
+     "series": "Sector classification of live DRHP filings",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "Chemicals, Plastics & Materials has filed 15 DRHPs; 13 have been approved and zero withdrawn or returned",
+     "value": "15 filed, 13 approved, 0 withdrawn/returned",
+     "period": "Dec 2024–Jun 2026",
+     "period_end": "2026-06-30",
+     "publisher": "SEBI (via IPOPlatform.com DRHP tracker)",
+     "series": "Sector approval/withdrawal statistics (Chemicals, Plastics & Materials)",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "Healthcare & Pharma has 16 filings, 13 approved, 0 withdrawn",
+     "value": "16 filed, 13 approved, 0 withdrawn/returned",
+     "period": "Dec 2024–Jun 2026",
+     "period_end": "2026-06-30",
+     "publisher": "SEBI (via IPOPlatform.com DRHP tracker)",
+     "series": "Sector approval/withdrawal statistics (Healthcare & Pharma)",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "Power & Renewables | 19 | 11 | 2 | 85% |",
+     "value": "19 filed, 11 approved, 2 withdrawn/returned (85% approval rate)",
+     "period": "Dec 2024–Jun 2026",
+     "period_end": "2026-06-30",
+     "publisher": "SEBI (via IPOPlatform.com DRHP tracker)",
+     "series": "Sector approval/withdrawal statistics (Power & Renewables)",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "Metals & Steel | 17 | 11 | 2 | 85% |",
+     "value": "17 filed, 11 approved, 2 withdrawn/returned (85% approval rate)",
+     "period": "Dec 2024–Jun 2026",
+     "period_end": "2026-06-30",
+     "publisher": "SEBI (via IPOPlatform.com DRHP tracker)",
+     "series": "Sector approval/withdrawal statistics (Metals & Steel)",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "Oil & Gas | 4 | 1 | 1 | 50% |",
+     "value": "4 filed, 1 approved, 1 withdrawn/returned (50% approval rate)",
+     "period": "Dec 2024–Jun 2026",
+     "period_end": "2026-06-30",
+     "publisher": "SEBI (via IPOPlatform.com DRHP tracker)",
+     "series": "Sector approval/withdrawal statistics (Oil & Gas)",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "Defence & Drones, despite heavy policy and media attention, has just 2 live filings",
+     "value": "2 companies",
+     "period": "Dec 2024–Jun 2026",
+     "period_end": "2026-06-30",
+     "publisher": "SEBI (via IPOPlatform.com DRHP tracker)",
+     "series": "Sector classification of live DRHP filings",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "Media, Gaming & Entertainment has 4, three of them still under process",
+     "value": "4 companies (3 under process)",
+     "period": "Dec 2024–Jun 2026",
+     "period_end": "2026-06-30",
+     "publisher": "SEBI (via IPOPlatform.com DRHP tracker)",
+     "series": "Sector classification of live DRHP filings",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "Real Estate & Infrastructure has 17 live filings",
+     "value": "17 companies",
+     "period": "Dec 2024–Jun 2026",
+     "period_end": "2026-06-30",
+     "publisher": "SEBI (via IPOPlatform.com DRHP tracker)",
+     "series": "Sector classification of live DRHP filings",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "SEBI's full historical DRHP archive, which runs to roughly 2,132 records over about 20 years",
+     "value": "2,132 records (≈20 years)",
+     "period": "≈2006–2026",
+     "period_end": "2026-06-30",
+     "publisher": "SEBI",
+     "series": "Historical DRHP archive",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "Five companies in this dataset — PhonePe, Zepto, Zetwerk, OYO and PGP Glass — carry blank revenue and profit figures because they used SEBI's confidential pre-filing route",
+     "value": "5 companies (PhonePe, Zepto, Zetwerk, OYO, PGP Glass)",
+     "period": null,
+     "period_end": null,
+     "publisher": "SEBI",
+     "series": "Confidential pre-filing route usage",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "Steamhouse India Limited (Surat, filed July 2025, Approved)",
+     "value": "1 company (Steamhouse India Limited, filed July 2025)",
+     "period": "July 2025",
+     "period_end": "2025-07-31",
+     "publisher": "SEBI (via IPOPlatform.com DRHP tracker)",
+     "series": "Oil & Gas sector filings",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "Bvishal Oil and Energy Limited (Ahmedabad, filed March 2026, Under Process)",
+     "value": "1 company (Bvishal Oil and Energy Limited, filed March 2026)",
+     "period": "March 2026",
+     "period_end": "2026-03-31",
+     "publisher": "SEBI (via IPOPlatform.com DRHP tracker)",
+     "series": "Oil & Gas sector filings",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "Punjab Carbonic Limited (Bathinda, filed March 2026, Under Process)",
+     "value": "1 company (Punjab Carbonic Limited, filed March 2026)",
+     "period": "March 2026",
+     "period_end": "2026-03-31",
+     "publisher": "SEBI (via IPOPlatform.com DRHP tracker)",
+     "series": "Oil & Gas sector filings",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "Advanced Sys-tek Limited (Vadodara, filed February 2025, Withdrawn)",
+     "value": "1 company (Advanced Sys-tek Limited, filed February 2025)",
+     "period": "February 2025",
+     "period_end": "2025-02-28",
+     "publisher": "SEBI (via IPOPlatform.com DRHP tracker)",
+     "series": "Oil & Gas sector filings",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "Compiled via document research on 28 September 2026.",
+     "value": "28 September 2026",
+     "period": "28 September 2026",
+     "period_end": "2026-09-28",
+     "publisher": "Author (Umashankar Triplicane Dwarakanathan)",
+     "series": "Article compilation date",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,290 @@
+{
+ "slug": "india-irrigates-itself-966-of-its",
+ "text_sha1": "88c20d88cce477d0",
+ "chars": 8059,
+ "checked": "2026-10-23T13:09:19",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "India's own irrigation census counted 23.14 million minor irrigation schemes as of 2017-18",
+     "value": "23.14 million",
+     "period": "2017-18",
+     "period_end": "2018-03-31",
+     "publisher": "Ministry of Jal Shakti",
+     "series": "6th Minor Irrigation Census",
+     "frequency": "multi-year",
+     "headline": true
+    },
+    {
+     "quote": "India Irrigates Itself. 96.6% of Its Irrigation Schemes Are Privately Owned.",
+     "value": "96.6%",
+     "period": "2017-18",
+     "period_end": "2018-03-31",
+     "publisher": "Ministry of Jal Shakti",
+     "series": "6th Minor Irrigation Census",
+     "frequency": "multi-year",
+     "headline": true
+    },
+    {
+     "quote": "94.8% of schemes draw groundwater, not canals",
+     "value": "94.8%",
+     "period": "2017-18",
+     "period_end": "2018-03-31",
+     "publisher": "Ministry of Jal Shakti",
+     "series": "6th Minor Irrigation Census",
+     "frequency": "multi-year",
+     "headline": true
+    },
+    {
+     "quote": "79.5% of single-source-financed schemes paid for from farmers' own savings",
+     "value": "79.5%",
+     "period": "2017-18",
+     "period_end": "2018-03-31",
+     "publisher": "Ministry of Jal Shakti",
+     "series": "6th Minor Irrigation Census",
+     "frequency": "multi-year",
+     "headline": true
+    },
+    {
+     "quote": "21.93 million — 94.8% — are groundwater (borewells and tubewells), not canal-fed.",
+     "value": "21.93 million",
+     "period": "2017-18",
+     "period_end": "2018-03-31",
+     "publisher": "Ministry of Jal Shakti",
+     "series": "6th Minor Irrigation Census",
+     "frequency": "multi-year",
+     "headline": true
+    },
+    {
+     "quote": "Groundwater (borewell/tubewell) | 21.93 | 94.8 | 98.3 |",
+     "value": "98.3%",
+     "period": "2017-18",
+     "period_end": "2018-03-31",
+     "publisher": "Ministry of Jal Shakti",
+     "series": "6th Minor Irrigation Census - Groundwater schemes by ownership",
+     "frequency": "multi-year",
+     "headline": true
+    },
+    {
+     "quote": "Surface water (canal/tank-fed) | 1.21 | 5.2 | 64.2 |",
+     "value": "1.21 million",
+     "period": "2017-18",
+     "period_end": "2018-03-31",
+     "publisher": "Ministry of Jal Shakti",
+     "series": "6th Minor Irrigation Census - Surface water schemes",
+     "frequency": "multi-year",
+     "headline": true
+    },
+    {
+     "quote": "Surface water (canal/tank-fed) | 1.21 | 5.2 | 64.2 |",
+     "value": "5.2%",
+     "period": "2017-18",
+     "period_end": "2018-03-31",
+     "publisher": "Ministry of Jal Shakti",
+     "series": "6th Minor Irrigation Census - Surface water schemes share",
+     "frequency": "multi-year",
+     "headline": true
+    },
+    {
+     "quote": "Surface water (canal/tank-fed) | 1.21 | 5.2 | 64.2 |",
+     "value": "64.2%",
+     "period": "2017-18",
+     "period_end": "2018-03-31",
+     "publisher": "Ministry of Jal Shakti",
+     "series": "6th Minor Irrigation Census - Surface water schemes by ownership",
+     "frequency": "multi-year",
+     "headline": true
+    },
+    {
+     "quote": "Growth over the previous (5th) census was +1.42 million schemes overall",
+     "value": "+1.42 million",
+     "period": "2017-18",
+     "period_end": "2018-03-31",
+     "publisher": "Ministry of Jal Shakti",
+     "series": "6th Minor Irrigation Census",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "groundwater schemes up 6.9%",
+     "value": "6.9%",
+     "period": "2017-18",
+     "period_end": "2018-03-31",
+     "publisher": "Ministry of Jal Shakti",
+     "series": "6th Minor Irrigation Census - Groundwater schemes growth",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "surface-water schemes up just 1.2%",
+     "value": "1.2%",
+     "period": "2017-18",
+     "period_end": "2018-03-31",
+     "publisher": "Ministry of Jal Shakti",
+     "series": "6th Minor Irrigation Census - Surface-water schemes growth",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "97.0% of counted schemes are recorded as currently in use.",
+     "value": "97.0%",
+     "period": "2017-18",
+     "period_end": "2018-03-31",
+     "publisher": "Ministry of Jal Shakti",
+     "series": "6th Minor Irrigation Census - Schemes operational status",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "18.1% of individually-owned schemes are owned by women.",
+     "value": "18.1%",
+     "period": "2017-18",
+     "period_end": "2018-03-31",
+     "publisher": "Ministry of Jal Shakti",
+     "series": "6th Minor Irrigation Census - Gender-wise ownership",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "Of the schemes with a single, identifiable source of finance — 60.2% of the total — 79.5% were financed by the individual farmer's own savings.",
+     "value": "60.2%",
+     "period": "2017-18",
+     "period_end": "2018-03-31",
+     "publisher": "Ministry of Jal Shakti",
+     "series": "6th Minor Irrigation Census - Single source of finance share",
+     "frequency": "multi-year",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "23.14M minor irrigation schemes counted, reference year 2017-18",
+     "value": "23.14 million",
+     "period": "2017-18",
+     "period_end": "2018-03-31",
+     "publisher": "Ministry of Jal Shakti (Department of Water Resources, River Development and Ganga Rejuvenation)",
+     "series": "6th Minor Irrigation Census (All-India Volume I)",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "96.6% of all schemes are privately owned",
+     "value": "96.6%",
+     "period": "2017-18",
+     "period_end": "2018-03-31",
+     "publisher": "Ministry of Jal Shakti (Department of Water Resources, River Development and Ganga Rejuvenation)",
+     "series": "6th Minor Irrigation Census (All-India Volume I)",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "94.8% of schemes draw groundwater, not canals",
+     "value": "94.8%",
+     "period": "2017-18",
+     "period_end": "2018-03-31",
+     "publisher": "Ministry of Jal Shakti (Department of Water Resources, River Development and Ganga Rejuvenation)",
+     "series": "6th Minor Irrigation Census (All-India Volume I)",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "Groundwater (borewell/tubewell) | 21.93 | 94.8 | 98.3",
+     "value": "21.93 million",
+     "period": "2017-18",
+     "period_end": "2018-03-31",
+     "publisher": "Ministry of Jal Shakti (Department of Water Resources, River Development and Ganga Rejuvenation)",
+     "series": "6th Minor Irrigation Census (All-India Volume I)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Surface water (canal/tank-fed) | 1.21 | 5.2 | 64.2",
+     "value": "1.21 million",
+     "period": "2017-18",
+     "period_end": "2018-03-31",
+     "publisher": "Ministry of Jal Shakti (Department of Water Resources, River Development and Ganga Rejuvenation)",
+     "series": "6th Minor Irrigation Census (All-India Volume I)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Growth over the previous (5th) census was +1.42 million schemes overall",
+     "value": "+1.42 million",
+     "period": "between 5th and 6th census (2012-13 to 2017-18)",
+     "period_end": "2018-03-31",
+     "publisher": "Ministry of Jal Shakti (Department of Water Resources, River Development and Ganga Rejuvenation)",
+     "series": "6th Minor Irrigation Census (All-India Volume I)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "groundwater schemes up 6.9% and surface-water schemes up just 1.2%",
+     "value": "6.9% (groundwater), 1.2% (surface-water)",
+     "period": "between 5th and 6th census (2012-13 to 2017-18)",
+     "period_end": "2018-03-31",
+     "publisher": "Ministry of Jal Shakti (Department of Water Resources, River Development and Ganga Rejuvenation)",
+     "series": "6th Minor Irrigation Census (All-India Volume I)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "97.0% of counted schemes are recorded as currently in use",
+     "value": "97.0%",
+     "period": "2017-18",
+     "period_end": "2018-03-31",
+     "publisher": "Ministry of Jal Shakti (Department of Water Resources, River Development and Ganga Rejuvenation)",
+     "series": "6th Minor Irrigation Census (All-India Volume I)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "18.1% of individually-owned schemes are owned by women",
+     "value": "18.1%",
+     "period": "2017-18",
+     "period_end": "2018-03-31",
+     "publisher": "Ministry of Jal Shakti (Department of Water Resources, River Development and Ganga Rejuvenation)",
+     "series": "6th Minor Irrigation Census (All-India Volume I)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Of the schemes with a single, identifiable source of finance — 60.2% of the total — 79.5% were financed by the individual farmer's own savings",
+     "value": "60.2%",
+     "period": "2017-18",
+     "period_end": "2018-03-31",
+     "publisher": "Ministry of Jal Shakti (Department of Water Resources, River Development and Ganga Rejuvenation)",
+     "series": "6th Minor Irrigation Census (All-India Volume I)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "79.5% of single-source-financed schemes paid for from farmers' own savings",
+     "value": "79.5%",
+     "period": "2017-18",
+     "period_end": "2018-03-31",
+     "publisher": "Ministry of Jal Shakti (Department of Water Resources, River Development and Ganga Rejuvenation)",
+     "series": "6th Minor Irrigation Census (single-source financing subset)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The 6th Minor Irrigation Census, reference year 2017-18, counts something different: 23.14 million minor irrigation schemes nationwide",
+     "value": "23.14 million",
+     "period": "2017-18",
+     "period_end": "2018-03-31",
+     "publisher": "Ministry of Jal Shakti (Department of Water Resources, River Development and Ganga Rejuvenation)",
+     "series": "6th Minor Irrigation Census (All-India Volume I)",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

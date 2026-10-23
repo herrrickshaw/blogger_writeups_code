@@ -1,0 +1,780 @@
+{
+ "slug": "dgh-has-awarded-172-oalp-blocks-and-436_0369361351",
+ "text_sha1": "b628fd17130a7347",
+ "chars": 40404,
+ "checked": "2026-10-23T11:06:00",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "India has awarded roughly 172 exploration blocks under OALP, backed by $4.36 billion in committed investment.",
+     "value": "172 blocks",
+     "period": "as of Sep 2026",
+     "period_end": null,
+     "publisher": "Whalesbook",
+     "series": "OALP exploration blocks awarded",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "India has awarded roughly 172 exploration blocks under OALP, backed by $4.36 billion in committed investment.",
+     "value": "$4.36 billion",
+     "period": "as of Sep 2026",
+     "period_end": null,
+     "publisher": "Whalesbook",
+     "series": "Committed exploration investment",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "Fourteen of them have produced a discovery. One has actually reached production.",
+     "value": "14 discoveries",
+     "period": "as of Sep 2026",
+     "period_end": null,
+     "publisher": "Whalesbook",
+     "series": "OALP discoveries",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "Fourteen of them have produced a discovery. One has actually reached production.",
+     "value": "1 producing field",
+     "period": "as of Sep 2026",
+     "period_end": null,
+     "publisher": "Whalesbook",
+     "series": "OALP producing fields",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "the first seven rounds under HELP awarded 134 blocks across roughly 207,691 sq km spanning 19 basins",
+     "value": "134 blocks",
+     "period": "Rounds I-VII",
+     "period_end": null,
+     "publisher": "PIB / ministry",
+     "series": "HELP rounds awarded",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "the first seven rounds under HELP awarded 134 blocks across roughly 207,691 sq km spanning 19 basins",
+     "value": "207,691 sq km",
+     "period": "Rounds I-VII",
+     "period_end": null,
+     "publisher": "PIB / ministry",
+     "series": "HELP rounds area",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "adding Round VIII brings the combined total to roughly 144 blocks.",
+     "value": "144 blocks",
+     "period": "Rounds I-VIII",
+     "period_end": null,
+     "publisher": "PIB / ministry",
+     "series": "HELP rounds combined blocks",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Round IX (28 blocks, ~136,596 sq km across 8 basins, 38% in areas previously off-limits as \"No-Go\")",
+     "value": "28 blocks",
+     "period": "Round IX",
+     "period_end": "2024-09-30",
+     "publisher": "PIB / ministry",
+     "series": "Round IX blocks",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Round IX (28 blocks, ~136,596 sq km across 8 basins, 38% in areas previously off-limits as \"No-Go\")",
+     "value": "136,596 sq km",
+     "period": "Round IX",
+     "period_end": "2024-09-30",
+     "publisher": "PIB / ministry",
+     "series": "Round IX area",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Round IX (28 blocks, ~136,596 sq km across 8 basins, 38% in areas previously off-limits as \"No-Go\")",
+     "value": "38%",
+     "period": "Round IX",
+     "period_end": "2024-09-30",
+     "publisher": "PIB / ministry",
+     "series": "Round IX No-Go area share",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Round X, India's largest single round at 25 blocks and roughly 192,000 sq km (91% offshore)",
+     "value": "25 blocks",
+     "period": "Round X",
+     "period_end": null,
+     "publisher": "PIB / ministry",
+     "series": "Round X blocks",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Round X, India's largest single round at 25 blocks and roughly 192,000 sq km (91% offshore)",
+     "value": "192,000 sq km",
+     "period": "Round X",
+     "period_end": null,
+     "publisher": "PIB / ministry",
+     "series": "Round X area",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Round X, India's largest single round at 25 blocks and roughly 192,000 sq km (91% offshore)",
+     "value": "91%",
+     "period": "Round X",
+     "period_end": null,
+     "publisher": "PIB / ministry",
+     "series": "Round X offshore share",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Round XI (21 blocks, ~80,000 sq km)",
+     "value": "21 blocks",
+     "period": "Round XI",
+     "period_end": null,
+     "publisher": "PIB / ministry",
+     "series": "Round XI blocks",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Round XI (21 blocks, ~80,000 sq km)",
+     "value": "80,000 sq km",
+     "period": "Round XI",
+     "period_end": null,
+     "publisher": "PIB / ministry",
+     "series": "Round XI area",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "government's own answer to Parliament (13 discoveries, one Gujarat gas block at 0.44 MMSCMD, dated March 2025)",
+     "value": "13 discoveries",
+     "period": "March 2025",
+     "period_end": "2025-03-31",
+     "publisher": "PIB / ministry",
+     "series": "Parliamentary answer discoveries",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "government's own answer to Parliament (13 discoveries, one Gujarat gas block at 0.44 MMSCMD, dated March 2025)",
+     "value": "0.44 MMSCMD",
+     "period": "March 2025",
+     "period_end": "2025-03-31",
+     "publisher": "PIB / ministry",
+     "series": "Gujarat gas block output",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Vedanta's founder has publicly argued India runs barely 200 active exploration licenses against a need for 2,000",
+     "value": "200 licenses",
+     "period": "as of Sep 2026",
+     "period_end": null,
+     "publisher": "PIB / ministry",
+     "series": "Active exploration licenses",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Vedanta's founder has publicly argued India runs barely 200 active exploration licenses against a need for 2,000",
+     "value": "2,000 licenses",
+     "period": "as of Sep 2026",
+     "period_end": null,
+     "publisher": "PIB / ministry",
+     "series": "Needed exploration licenses",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "four rounds from 2001-2008 plus two special rounds since 2021 have awarded 40 CBM blocks so far, per PIB's own count",
+     "value": "40 blocks",
+     "period": "2001-2026",
+     "period_end": "2026-09-02",
+     "publisher": "PIB / ministry",
+     "series": "CBM blocks awarded",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "roughly 46,960 line-kilometres of 2D seismic survey work had been completed under it",
+     "value": "46,960 line-km",
+     "period": "as of Sep 2026",
+     "period_end": null,
+     "publisher": "DGH",
+     "series": "National Seismic Program 2D seismic survey",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "a committed-investment figure to that same scope: $3.137 billion",
+     "value": "$3.137 billion",
+     "period": "as of March 2025",
+     "period_end": "2025-03-27",
+     "publisher": "PIB / ministry",
+     "series": "Committed investment for Rounds I-VIII",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "four competitive CBM bid rounds ran in 2001, 2003, 2005 and 2008, together awarding 33 blocks across roughly 16,613 sq km",
+     "value": "33 blocks",
+     "period": "2001-2008",
+     "period_end": "2008-12-31",
+     "publisher": "PIB / ministry",
+     "series": "Competitive CBM rounds blocks",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "four competitive CBM bid rounds ran in 2001, 2003, 2005 and 2008, together awarding 33 blocks across roughly 16,613 sq km",
+     "value": "16,613 sq km",
+     "period": "2001-2008",
+     "period_end": "2008-12-31",
+     "publisher": "PIB / ministry",
+     "series": "Competitive CBM rounds area",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "8 blocks had reached the production or development phase",
+     "value": "8 blocks",
+     "period": "as of Sep 2026",
+     "period_end": null,
+     "publisher": "PIB / ministry",
+     "series": "CBM blocks in production or development",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "a fifth, \"Special\" CBM Bid Round (SCBM-21) followed in 2021, awarding 4 further blocks across roughly 3,860 sq km",
+     "value": "4 blocks",
+     "period": "2021",
+     "period_end": "2021-12-31",
+     "publisher": "PIB / ministry",
+     "series": "SCBM-21 blocks",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "a fifth, \"Special\" CBM Bid Round (SCBM-21) followed in 2021, awarding 4 further blocks across roughly 3,860 sq km",
+     "value": "3,860 sq km",
+     "period": "2021",
+     "period_end": "2021-12-31",
+     "publisher": "PIB / ministry",
+     "series": "SCBM-21 area",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "a subsequent SCBM-2022 round added 3 more blocks",
+     "value": "3 blocks",
+     "period": "2022",
+     "period_end": "2022-12-31",
+     "publisher": "PIB / ministry",
+     "series": "SCBM-2022 blocks",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India's CBM resources at roughly 92 trillion cubic feet (about 2,600 billion cubic metres) across those 12 states",
+     "value": "92 trillion cubic feet",
+     "period": "as of Sep 2026",
+     "period_end": null,
+     "publisher": "PIB / ministry",
+     "series": "Prognosticated CBM resources",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India's CBM resources at roughly 92 trillion cubic feet (about 2,600 billion cubic metres) across those 12 states",
+     "value": "2,600 billion cubic metres",
+     "period": "as of Sep 2026",
+     "period_end": null,
+     "publisher": "PIB / ministry",
+     "series": "Prognosticated CBM resources",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "onshore crude royalty fell from 16.66% to 10%",
+     "value": "16.66%",
+     "period": "May 2026",
+     "period_end": "2026-05-08",
+     "publisher": "PIB / ministry",
+     "series": "Onshore crude royalty rate",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "onshore crude royalty fell from 16.66% to 10%",
+     "value": "10%",
+     "period": "May 2026",
+     "period_end": "2026-05-08",
+     "publisher": "PIB / ministry",
+     "series": "Onshore crude royalty rate",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "offshore/shallow-water crude from 9.09% to 8%",
+     "value": "9.09%",
+     "period": "May 2026",
+     "period_end": "2026-05-08",
+     "publisher": "PIB / ministry",
+     "series": "Offshore/shallow-water crude royalty rate",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "offshore/shallow-water crude from 9.09% to 8%",
+     "value": "8%",
+     "period": "May 2026",
+     "period_end": "2026-05-08",
+     "publisher": "PIB / ministry",
+     "series": "Offshore/shallow-water crude royalty rate",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "gas royalty from 10% to 8%",
+     "value": "10%",
+     "period": "May 2026",
+     "period_end": "2026-05-08",
+     "publisher": "PIB / ministry",
+     "series": "Gas royalty rate",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "gas royalty from 10% to 8%",
+     "value": "8%",
+     "period": "May 2026",
+     "period_end": "2026-05-08",
+     "publisher": "PIB / ministry",
+     "series": "Gas royalty rate",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "royalty on nominated/pre-NELP onshore blocks fell from 20% to 12.5%",
+     "value": "20%",
+     "period": "May 2026",
+     "period_end": "2026-05-08",
+     "publisher": "PIB / ministry",
+     "series": "Nominated/pre-NELP onshore blocks royalty rate",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "royalty on nominated/pre-NELP onshore blocks fell from 20% to 12.5%",
+     "value": "12.5%",
+     "period": "May 2026",
+     "period_end": "2026-05-08",
+     "publisher": "PIB / ministry",
+     "series": "Nominated/pre-NELP onshore blocks royalty rate",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "DGH has awarded 172 OALP blocks and $4.36 billion in pledges. One has reached production.",
+     "value": "172 blocks, $4.36 billion",
+     "period": null,
+     "period_end": null,
+     "publisher": "DGH (via Whalesbook trade coverage)",
+     "series": "OALP blocks awarded and committed investment",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "per PIB's own count, the first seven rounds under HELP awarded 134 blocks across roughly 207,691 sq km spanning 19 basins",
+     "value": "134 blocks, ~207,691 sq km, 19 basins",
+     "period": "Rounds I-VII (HELP/OALP)",
+     "period_end": "2024-09-30",
+     "publisher": "PIB",
+     "series": "OALP blocks awarded by round",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "adding Round VIII brings the combined total to roughly 144 blocks",
+     "value": "144 blocks",
+     "period": "Rounds I-VIII (combined)",
+     "period_end": "2024-09-30",
+     "publisher": "PIB (secondary)",
+     "series": "OALP blocks awarded by round",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Round IX (28 blocks, ~136,596 sq km across 8 basins, 38% in areas previously off-limits as 'No-Go')",
+     "value": "28 blocks, ~136,596 sq km, 8 basins",
+     "period": "Round IX",
+     "period_end": "2024-09-30",
+     "publisher": "PIB",
+     "series": "OALP Round IX details",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Round X, India's largest single round at 25 blocks and roughly 192,000 sq km (91% offshore)",
+     "value": "25 blocks, ~192,000 sq km (91% offshore)",
+     "period": "Round X",
+     "period_end": null,
+     "publisher": "DGH / PIB (secondary)",
+     "series": "OALP Round X details",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Round XI (21 blocks, ~80,000 sq km)",
+     "value": "21 blocks, ~80,000 sq km",
+     "period": "Round XI",
+     "period_end": null,
+     "publisher": "DGH / trade coverage",
+     "series": "OALP Round XI details",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "the 19 June 2026 date closed only the onshore/shallow-water portion; the deepwater and ultra-deepwater portion has since been extended twice more",
+     "value": "19 June 2026 (onshore/shallow-water), 15 November 2026 (deepwater/ultra-deepwater)",
+     "period": "Round X/XI bid deadlines",
+     "period_end": "2026-11-15",
+     "publisher": "DGH / trade coverage",
+     "series": "OALP bid deadline extensions",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "four rounds from 2001-2008 plus two special rounds since 2021 have awarded 40 CBM blocks so far",
+     "value": "40 CBM blocks",
+     "period": "2001-2022 (CBM bidding rounds)",
+     "period_end": "2022-12-31",
+     "publisher": "PIB",
+     "series": "CBM blocks awarded",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "four competitive CBM bid rounds ran in 2001, 2003, 2005 and 2008, together awarding 33 blocks across roughly 16,613 sq km",
+     "value": "33 blocks, ~16,613 sq km",
+     "period": "2001, 2003, 2005, 2008",
+     "period_end": "2008-12-31",
+     "publisher": "PIB",
+     "series": "CBM competitive rounds",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "a further Special CBM Bid Round — SCBM-2026 — has since been launched, per DGH's own indexed notices",
+     "value": "SCBM-2026 (open)",
+     "period": "2026",
+     "period_end": null,
+     "publisher": "DGH",
+     "series": "CBM Special Bid Round",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India's CBM resources at roughly 92 trillion cubic feet (about 2,600 billion cubic metres)",
+     "value": "92 TCF (2,600 bcm)",
+     "period": null,
+     "period_end": null,
+     "publisher": "PIB",
+     "series": "CBM resource estimate",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "only 14 discoveries have been reported and just one marginal field has reached production",
+     "value": "14 discoveries, 1 producing field",
+     "period": "OALP blocks awarded through Round IX",
+     "period_end": "2024-09-30",
+     "publisher": "Whalesbook / Lok Sabha (MoPNG)",
+     "series": "OALP discoveries and production",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "a Lok Sabha unstarred question... independently states that OALP blocks had yielded 13 hydrocarbon discoveries, with only one — a gas-producing block in Gujarat, output given as 0.44 MMSCMD — actually in production",
+     "value": "13 discoveries, 0.44 MMSCMD (Gujarat gas block)",
+     "period": "as of March 2025",
+     "period_end": "2025-03-31",
+     "publisher": "Lok Sabha (MoPNG)",
+     "series": "OALP discoveries and production (Parliamentary answer)",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "a committed-investment figure of $3.137 billion attached to that same scope [144 blocks]",
+     "value": "$3.137 billion",
+     "period": "Rounds I-VIII (144 blocks)",
+     "period_end": "2024-09-30",
+     "publisher": "Lok Sabha (MoPNG)",
+     "series": "OALP committed investment",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "the government's own stated ambition for the round [Round X] — a figure worth treating as the government's own stated ambition for the round rather than a confirmed, contracted commitment — is a potential $100 billion in exploration and production investment",
+     "value": "$100 billion (ambition)",
+     "period": "Round X",
+     "period_end": null,
+     "publisher": "Government messaging (secondary)",
+     "series": "OALP Round X investment ambition",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "roughly 46,960 line-kilometres of 2D seismic survey work had been completed under [the National Seismic Program]",
+     "value": "~46,960 line-km",
+     "period": "as of research date (2026)",
+     "period_end": null,
+     "publisher": "DGH (NSP dashboard)",
+     "series": "National Seismic Program progress",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "onshore crude royalty fell from 16.66% to 10%, offshore/shallow-water crude from 9.09% to 8%, gas royalty from 10% to 8%",
+     "value": "onshore: 16.66% → 10%, offshore/shallow-water: 9.09% → 8%, gas: 10% → 8%",
+     "period": "8 May 2026",
+     "period_end": "2026-05-08",
+     "publisher": "psuwatch (government reform)",
+     "series": "Royalty rate rationalisation",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Phase II of exploration runs four years and is specifically for drilling exploratory wells",
+     "value": "4 years",
+     "period": null,
+     "period_end": null,
+     "publisher": "DGH (Model Revenue Sharing Contract)",
+     "series": "OALP Exploration Phase II duration",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "a Field Development Plan must then follow, submitted within 24 months of the appraisal programme for onshore discoveries or 36 months for offshore ones",
+     "value": "24 months (onshore), 36 months (offshore)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Secondary sourcing (RSC terms)",
+     "series": "FDP submission timelines",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "a Petroleum Mining Lease, normally granted for 20 years and extendable by a further 10",
+     "value": "20 years + 10-year extension",
+     "period": null,
+     "period_end": null,
+     "publisher": "Secondary sourcing (RSC terms)",
+     "series": "Petroleum Mining Lease duration",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "wells must be permanently plugged; the contractor is required to notify DGH within 180 days of production ceasing",
+     "value": "180 days",
+     "period": null,
+     "period_end": null,
+     "publisher": "DGH (Site Restoration and Abandonment Guidelines 2018)",
+     "series": "Abandonment notification timeline",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The Oilfields (Regulation and Development) Amendment Act, 2025 received Presidential assent on 28 March 2025 and came into force on 15 April 2025",
+     "value": "28 March 2025 (assent), 15 April 2025 (force)",
+     "period": "2025",
+     "period_end": "2025-04-15",
+     "publisher": "TeamLease RegTech / Legality Simplified",
+     "series": "Oilfields Amendment Act timeline",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Coal India Limited and its subsidiaries hold a standing right to explore and exploit CBM within any coal-bearing area they already hold under a coal mining lease",
+     "value": "Coal India's CBM right (non-competitive)",
+     "period": "as of 3 November 2015 (notification)",
+     "period_end": "2015-11-30",
+     "publisher": "PIB (government notification)",
+     "series": "CBM non-competitive allocation",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "the government only extended unconventional-hydrocarbon rights to these legacy PSC, CBM-contract and nomination-field holders through a separate policy notified 20 August 2018",
+     "value": "20 August 2018",
+     "period": "2018",
+     "period_end": "2018-08-20",
+     "publisher": "PIB (Cabinet approval)",
+     "series": "Unconventional-hydrocarbon rights extension",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "the National Seismic Program (NSP), a CCEA-approved scheme that began appraising previously unmapped onland basins from September 2016",
+     "value": "September 2016",
+     "period": "NSP start date",
+     "period_end": "2016-09-30",
+     "publisher": "DGH (NSP dashboard)",
+     "series": "National Seismic Program timeline",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "11 blocks awarded so far traced directly to NSP-generated data (seven in Rajasthan, two in the Mahanadi basin, two on the Assam Shelf)",
+     "value": "11 blocks (7 Rajasthan, 2 Mahanadi, 2 Assam Shelf)",
+     "period": null,
+     "period_end": null,
+     "publisher": "DGH (NSP dashboard)",
+     "series": "NSP-sourced block awards",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "the 23 of its 28 blocks trace to Expressions of Interest filed by companies between April 2022 and March 2023",
+     "value": "23 blocks (EoI, Apr 2022–Mar 2023)",
+     "period": "Round IX",
+     "period_end": "2023-03-31",
+     "publisher": "PIB",
+     "series": "OALP Round IX EoI breakdown",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "the 144-block/242,056 sq km combined total for Rounds I-VIII is independently confirmed on DGH's own site",
+     "value": "144 blocks, ~242,056 sq km",
+     "period": "Rounds I-VIII",
+     "period_end": "2024-09-30",
+     "publisher": "DGH",
+     "series": "OALP cumulative blocks and area",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "CBM blocks in total are spread across 12 states: Andhra Pradesh, Chhattisgarh, Gujarat, Jharkhand, Madhya Pradesh, Maharashtra, Assam, Odisha, Rajasthan, Tamil Nadu, Telangana and West Bengal.",
+     "value": "12 states",
+     "period": null,
+     "period_end": null,
+     "publisher": "PIB",
+     "series": "CBM block geographic spread",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "8 blocks had reached the production or development phase as of the most recent PIB figures",
+     "value": "8 blocks (production/development)",
+     "period": null,
+     "period_end": null,
+     "publisher": "PIB",
+     "series": "CBM blocks in production/development",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Commercial CBM production is already running at three named sites: Raniganj (South) in West Bengal, operated by Great Eastern Energy Corporation Limited; Raniganj (East), operated by Essar Oil & Gas Exploration & Production; and Sohagpur (West), operated by Reliance Industries.",
+     "value": "3 sites (Raniganj South, Raniganj East, Sohagpur West)",
+     "period": null,
+     "period_end": null,
+     "publisher": "PIB",
+     "series": "CBM commercial production sites",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "a Special CBM Bid Round (SCBM-21) followed in 2021, awarding 4 further blocks across roughly 3,860 sq km",
+     "value": "4 blocks, ~3,860 sq km",
+     "period": "SCBM-21 (2021)",
+     "period_end": "2021-12-31",
+     "publisher": "PIB",
+     "series": "CBM SCBM-21 awards",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "a subsequent SCBM-2022 round added 3 more blocks",
+     "value": "3 blocks",
+     "period": "SCBM-2022",
+     "period_end": null,
+     "publisher": "PIB",
+     "series": "CBM SCBM-2022 awards",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "a further Special CBM Bid Round — SCBM-2026 — has since been launched, per DGH's own indexed notices, with its bid submission window closing 18 February 2026",
+     "value": "18 February 2026",
+     "period": "SCBM-2026 bid deadline",
+     "period_end": "2026-02-18",
+     "publisher": "DGH",
+     "series": "CBM SCBM-2026 bid deadline",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "the government-funded National Seismic Program (NSP) began appraising previously unmapped onland basins from September 2016",
+     "value": "~46,960 line-km completed",
+     "period": "as of research date (2026)",
+     "period_end": null,
+     "publisher": "DGH (NSP dashboard)",
+     "series": "National Seismic Program progress",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "the Directorate General of Hydrocarbons was set up on 8 April 1993",
+     "value": "8 April 1993",
+     "period": "DGH founding date",
+     "period_end": "1993-04-08",
+     "publisher": "DGH / Tesseract Academy",
+     "series": "DGH establishment date",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "the Hydrocarbon Exploration and Licensing Policy was approved by the Cabinet on 10 March 2016",
+     "value": "10 March 2016",
+     "period": "HELP approval date",
+     "period_end": "2016-03-10",
+     "publisher": "Wikipedia / Consulate General of India, Houston",
+     "series": "HELP policy approval",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "the Open Acreage Licensing Programme launched in June 2017",
+     "value": "June 2017",
+     "period": "OALP launch",
+     "period_end": "2017-06-30",
+     "publisher": "drishtiias / DGH",
+     "series": "OALP launch date",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

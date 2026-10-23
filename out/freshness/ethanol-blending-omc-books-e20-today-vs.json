@@ -1,0 +1,730 @@
+{
+ "slug": "ethanol-blending-omc-books-e20-today-vs",
+ "text_sha1": "c42dd149e8790c89",
+ "chars": 10267,
+ "checked": "2026-10-23T11:17:30",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "pushing the total contribution from ₹7,243 cr/yr at E20 to ₹11,094 cr/yr at E30.",
+     "value": "₹7,243 cr/yr",
+     "period": "Current",
+     "period_end": null,
+     "publisher": "PIB / ministry",
+     "series": "OMC / refiner throughput + export + handling margin",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "pushing the total contribution from ₹7,243 cr/yr at E20 to ₹11,094 cr/yr at E30.",
+     "value": "₹11,094 cr/yr",
+     "period": "Future",
+     "period_end": null,
+     "publisher": "PIB / ministry",
+     "series": "OMC / refiner throughput + export + handling margin",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Exchequer revenue foregone \n −39,400 → −55,966 \n wider \n Excise + VAT the exchequer no longer collects. A 5% ethanol SGST returns ₹5,513 cr of it to states.",
+     "value": "−39,400",
+     "period": "Current",
+     "period_end": null,
+     "publisher": "PIB / ministry",
+     "series": "Exchequer revenue foregone",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Exchequer revenue foregone \n −39,400 → −55,966 \n wider \n Excise + VAT the exchequer no longer collects. A 5% ethanol SGST returns ₹5,513 cr of it to states.",
+     "value": "−55,966",
+     "period": "Future",
+     "period_end": null,
+     "publisher": "PIB / ministry",
+     "series": "Exchequer revenue foregone",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "A 5% ethanol SGST returns ₹5,513 cr of it to states.",
+     "value": "₹5,513 cr",
+     "period": "Future",
+     "period_end": null,
+     "publisher": "PIB / ministry",
+     "series": "Ethanol SGST return to states",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Freed-petrol export (forex) \n +49,834 → +74,751 \n $5.9→8.8 bn",
+     "value": "+49,834",
+     "period": "Current",
+     "period_end": null,
+     "publisher": "PIB / ministry",
+     "series": "Freed-petrol export, gross forex",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Freed-petrol export (forex) \n +49,834 → +74,751 \n $5.9→8.8 bn",
+     "value": "+74,751",
+     "period": "Future",
+     "period_end": null,
+     "publisher": "PIB / ministry",
+     "series": "Freed-petrol export, gross forex",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "sold abroad at ~$86/bbl",
+     "value": "$86/bbl",
+     "period": "FY24-25",
+     "period_end": "2025-03-31",
+     "publisher": "PPAC",
+     "series": "Oil & Gas Ready Reckoner Table 4.11",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "excise was raised by ₹2 to about ₹21.90 a litre from 8 April 2025",
+     "value": "₹21.90 a litre",
+     "period": "from 8 April 2025",
+     "period_end": "2025-04-08",
+     "publisher": "PIB / ministry",
+     "series": "Central excise on petrol",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "special additional excise duty was then cut by ₹10 on 26 March 2026, leaving about ₹11.90",
+     "value": "₹11.90",
+     "period": "as on 26 March 2026",
+     "period_end": "2026-03-26",
+     "publisher": "PIB / ministry",
+     "series": "Special additional excise duty on petrol",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Centre petrol excise foregone | −21,500 | −32,250 | −10,750 |",
+     "value": "−21,500",
+     "period": "Current · E20",
+     "period_end": null,
+     "publisher": "PPAC",
+     "series": "Centre petrol excise foregone",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Centre petrol excise foregone | −21,500 | −32,250 | −10,750 |",
+     "value": "−32,250",
+     "period": "Future · E30 + SGST",
+     "period_end": null,
+     "publisher": "PPAC",
+     "series": "Centre petrol excise foregone",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "States VAT foregone, net of new SGST | −17,900 | −23,716 | −5,816 |",
+     "value": "−17,900",
+     "period": "Current · E20",
+     "period_end": null,
+     "publisher": "PPAC",
+     "series": "States VAT foregone, net of new SGST",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "States VAT foregone, net of new SGST | −17,900 | −23,716 | −5,816 |",
+     "value": "−23,716",
+     "period": "Future · E30 + SGST",
+     "period_end": null,
+     "publisher": "PPAC",
+     "series": "States VAT foregone, net of new SGST",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Nation freed-petrol export, gross forex | +49,834 | +74,751 | +24,917 |",
+     "value": "+49,834",
+     "period": "Current · E20",
+     "period_end": null,
+     "publisher": "PPAC",
+     "series": "Nation freed-petrol export, gross forex",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Nation freed-petrol export, gross forex | +49,834 | +74,751 | +24,917 |",
+     "value": "+74,751",
+     "period": "Future · E30 + SGST",
+     "period_end": null,
+     "publisher": "PPAC",
+     "series": "Nation freed-petrol export, gross forex",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "an estimated ₹1,540cr already recovered through existing state GST on ethanol sales in ESY2025-26",
+     "value": "₹1,540cr",
+     "period": "ESY2025-26",
+     "period_end": "2026-10-31",
+     "publisher": "PIB / ministry",
+     "series": "State GST on ethanol sales",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "At E20 that is ~8 MMT, roughly half of India's entire petrol export book; at E30, ~12 MMT.",
+     "value": "8 MMT",
+     "period": "Current · E20",
+     "period_end": null,
+     "publisher": "PPAC",
+     "series": "Petrol export book",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "At E20 that is ~8 MMT, roughly half of India's entire petrol export book; at E30, ~12 MMT.",
+     "value": "12 MMT",
+     "period": "Future · E30",
+     "period_end": null,
+     "publisher": "PPAC",
+     "series": "Petrol export book",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "base-case petrol grows 40 → 53.6 MMT , FY2024-25 to FY31",
+     "value": "40 MMT",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "PPAC",
+     "series": "Domestic petrol demand",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "base-case petrol grows 40 → 53.6 MMT , FY2024-25 to FY31",
+     "value": "53.6 MMT",
+     "period": "FY31",
+     "period_end": "2031-03-31",
+     "publisher": "PPAC",
+     "series": "Domestic petrol demand",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Ethanol need nearly doubles — ~1,150 → ~2,170 cr L .",
+     "value": "~1,150 cr L",
+     "period": "Current",
+     "period_end": null,
+     "publisher": "PPAC",
+     "series": "Ethanol need",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Ethanol need nearly doubles — ~1,150 → ~2,170 cr L .",
+     "value": "~2,170 cr L",
+     "period": "Future",
+     "period_end": null,
+     "publisher": "PPAC",
+     "series": "Ethanol need",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Installed capacity is now ~2,000 cr L (CareEdge, ESY 2025-26)",
+     "value": "~2,000 cr L",
+     "period": "ESY 2025-26",
+     "period_end": "2026-10-31",
+     "publisher": "CareEdge",
+     "series": "Installed ethanol distillation capacity",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "with a further ~400 cr L due by FY27.",
+     "value": "~400 cr L",
+     "period": "FY27",
+     "period_end": "2027-03-31",
+     "publisher": "CareEdge",
+     "series": "Additional ethanol distillation capacity",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Fuels refinery $15–25",
+     "value": "$15–25",
+     "period": "Current",
+     "period_end": null,
+     "publisher": "Digital Refining",
+     "series": "Gross Refining Margin",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "COTC (Crude-Oil-to-Chemicals) complex $60–80",
+     "value": "$60–80",
+     "period": "Current",
+     "period_end": null,
+     "publisher": "Digital Refining",
+     "series": "Gross Refining Margin",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "up to 45% of crude → chemicals (vs <15% standalone)",
+     "value": "45%",
+     "period": "Current",
+     "period_end": null,
+     "publisher": "Digital Refining",
+     "series": "Crude to chemicals conversion share",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "up to 45% of crude → chemicals (vs <15% standalone)",
+     "value": "<15%",
+     "period": "Current",
+     "period_end": null,
+     "publisher": "Digital Refining",
+     "series": "Crude to chemicals conversion share (standalone)",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "bolting petrochemical units onto a fuels refinery lifts GRM +$1.5–2/bbl — across India's ~250 MMT throughput, ~ ₹24,000–31,000 cr/yr if adopted system-wide.",
+     "value": "+$1.5–2/bbl",
+     "period": "Current",
+     "period_end": null,
+     "publisher": "Digital Refining",
+     "series": "GRM uplift from petrochemical integration",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "bolting petrochemical units onto a fuels refinery lifts GRM +$1.5–2/bbl — across India's ~250 MMT throughput, ~ ₹24,000–31,000 cr/yr if adopted system-wide.",
+     "value": "~250 MMT",
+     "period": "Current",
+     "period_end": null,
+     "publisher": "PPAC",
+     "series": "India total refinery throughput",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "bolting petrochemical units onto a fuels refinery lifts GRM +$1.5–2/bbl — across India's ~250 MMT throughput, ~ ₹24,000–31,000 cr/yr if adopted system-wide.",
+     "value": "~ ₹24,000–31,000 cr/yr",
+     "period": "Current",
+     "period_end": null,
+     "publisher": "Digital Refining",
+     "series": "Total financial lift from petrochemical integration",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Domestic petrol 54.05 bn L (40 MMT, PPAC FY24-25).",
+     "value": "54.05 bn L",
+     "period": "FY24-25",
+     "period_end": "2025-03-31",
+     "publisher": "PPAC",
+     "series": "Domestic petrol volume",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Domestic petrol 54.05 bn L (40 MMT, PPAC FY24-25).",
+     "value": "40 MMT",
+     "period": "FY24-25",
+     "period_end": "2025-03-31",
+     "publisher": "PPAC",
+     "series": "Domestic petrol volume",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Central excise ₹19.9/L; state VAT ~₹18/L national average (RR Table 8.17).",
+     "value": "₹19.9/L",
+     "period": "Current",
+     "period_end": null,
+     "publisher": "PPAC",
+     "series": "Central excise on petrol",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Central excise ₹19.9/L; state VAT ~₹18/L national average (RR Table 8.17).",
+     "value": "~₹18/L",
+     "period": "Current",
+     "period_end": null,
+     "publisher": "PPAC",
+     "series": "Oil & Gas Ready Reckoner Table 8.17 State VAT",
+     "frequency": "annual",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "Ethanol lifts OMC/refiner margin across three lines — export margin on freed petrol is the biggest piece — pushing the total contribution from ₹7,243 cr/yr at E20 to ₹11,094 cr/yr at E30.",
+     "value": "₹7,243 cr/yr (E20) → ₹11,094 cr/yr (E30)",
+     "period": "Current · E20 / Future · E30",
+     "period_end": null,
+     "publisher": "PPAC (model repo india-omc-fuel-fleet-model)",
+     "series": "OMC/refiner margin uplift by ethanol blending",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "OMC total contribution by source: Throughput uplift ₹4,324 cr (E20) / ₹6,484 cr (E30); Export margin ₹2,162 cr (E20) / ₹3,243 cr (E30); Handling margin ₹7,243 cr (E20) / ₹11,094 cr (E30).",
+     "value": "Throughput uplift: ₹4,324 cr (E20) / ₹6,484 cr (E30); Export margin: ₹2,162 cr (E20) / ₹3,243 cr (E30); Handling margin: ₹7,243 cr (E20) / ₹11,094 cr (E30)",
+     "period": "Current · E20 / Future · E30",
+     "period_end": null,
+     "publisher": "PPAC (model repo india-omc-fuel-fleet-model)",
+     "series": "OMC margin breakdown by source",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "Exchequer revenue foregone: −₹39,400 cr (E20) → −₹55,966 cr (E30 + SGST).",
+     "value": "₹39,400 cr (E20) → ₹55,966 cr (E30 + SGST)",
+     "period": "Current · E20 / Future · E30 + SGST",
+     "period_end": null,
+     "publisher": "PPAC (model repo india-omc-fuel-fleet-model)",
+     "series": "Exchequer revenue foregone (central excise + VAT)",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "Freed-petrol export (forex): +₹49,834 cr (E20) → +₹74,751 cr (E30).",
+     "value": "₹49,834 cr (E20) → ₹74,751 cr (E30)",
+     "period": "Current · E20 / Future · E30",
+     "period_end": null,
+     "publisher": "PPAC (model repo india-omc-fuel-fleet-model)",
+     "series": "Freed-petrol export forex earnings",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "Freed-petrol export in $: ~$5.9 bn (E20) → ~$8.8 bn (E30).",
+     "value": "$5.9 bn (E20) → $8.8 bn (E30)",
+     "period": "Current · E20 / Future · E30",
+     "period_end": null,
+     "publisher": "PPAC (model repo india-omc-fuel-fleet-model)",
+     "series": "Freed-petrol export forex (USD)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Petrol displaced by ethanol: ~8 MMT (E20) → ~12 MMT (E30).",
+     "value": "8.0 MMT (E20) → 12.0 MMT (E30)",
+     "period": "Current · E20 / Future · E30",
+     "period_end": null,
+     "publisher": "PPAC (model repo india-omc-fuel-fleet-model)",
+     "series": "Ethanol-displaced petrol volume",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Domestic petrol volume: 54.05 bn L (40 MMT, PPAC FY24-25).",
+     "value": "54.05 bn L (40 MMT)",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "PPAC (Oil & Gas Ready Reckoner FY2025-26)",
+     "series": "Domestic petrol demand",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Ethanol needed: ~1,150 cr L (FY2024-25) → ~2,170 cr L (FY31).",
+     "value": "1,150 cr L (FY2024-25) → 2,170 cr L (FY31)",
+     "period": "FY2024-25 → FY31",
+     "period_end": "2031-03-31",
+     "publisher": "PPAC (model repo india-omc-fuel-fleet-model)",
+     "series": "Ethanol demand projection",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "Installed ethanol capacity: ~2,000 cr L (ESY 2025-26), with ~400 cr L due by FY27.",
+     "value": "2,000 cr L (ESY 2025-26) + 400 cr L (FY27)",
+     "period": "ESY2025-26 / FY27",
+     "period_end": "2026-03-31",
+     "publisher": "CareEdge (ESY 2025-26)",
+     "series": "Ethanol distillation capacity",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Petrol demand grows from 40 MMT (FY2024-25) to 53.6 MMT (FY31).",
+     "value": "40 MMT (FY2024-25) → 53.6 MMT (FY31)",
+     "period": "FY2024-25 → FY31",
+     "period_end": "2031-03-31",
+     "publisher": "PPAC (model repo india-omc-fuel-fleet-model)",
+     "series": "Petrol demand projection",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "GRM build-up: $1.5–2/bbl from petrochemicals integration.",
+     "value": "$1.5–2/bbl",
+     "period": null,
+     "period_end": null,
+     "publisher": "Digital Refining (cited)",
+     "series": "Gross Refining Margin uplift",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Full crude-to-chemicals complex margin: $60–80/bbl vs fuels refinery $15–25/bbl.",
+     "value": "$60–80/bbl (COTC) vs $15–25/bbl (fuels)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Digital Refining (cited)",
+     "series": "Crude-to-chemicals margin",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Petrochemicals adoption across ~250 MMT throughput: ₹24,000–31,000 cr/yr.",
+     "value": "₹24,000–31,000 cr/yr",
+     "period": null,
+     "period_end": null,
+     "publisher": "PPAC (model repo india-omc-fuel-fleet-model)",
+     "series": "Potential petrochemical margin uplift",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Ethanol SGST clawback: ₹5,513 cr to states.",
+     "value": "₹5,513 cr",
+     "period": null,
+     "period_end": null,
+     "publisher": "PPAC (model repo india-omc-fuel-fleet-model)",
+     "series": "Ethanol SGST revenue recovery",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Gross VAT foregone: ~₹19,440 cr; net VAT foregone: ~₹17,900 cr (ESY2025-26).",
+     "value": "₹19,440 cr (gross) / ₹17,900 cr (net)",
+     "period": "ESY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "PPAC (model repo india-omc-fuel-fleet-model)",
+     "series": "State VAT foregone (net of ethanol GST)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Central excise foregone at ₹11.90/L: ~₹12,850 cr (E20) / ~₹19,300 cr (E30).",
+     "value": "₹12,850 cr (E20) / ₹19,300 cr (E30)",
+     "period": null,
+     "period_end": null,
+     "publisher": "PPAC (model repo india-omc-fuel-fleet-model)",
+     "series": "Central excise foregone (revised rate)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Petrol export realisation: ~₹46/L (~$86/bbl, FY24-25).",
+     "value": "₹46/L (~$86/bbl)",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "RR Table 4.11 (cited)",
+     "series": "Petrol export price",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "State VAT on displaced petrol: ~₹18/L national average.",
+     "value": "₹18/L",
+     "period": null,
+     "period_end": null,
+     "publisher": "RR Table 8.17 (cited)",
+     "series": "State VAT rate on petrol",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Central excise on petrol: ₹19.9/L (model assumption, outdated).",
+     "value": "₹19.9/L",
+     "period": null,
+     "period_end": null,
+     "publisher": "PPAC (model repo india-omc-fuel-fleet-model)",
+     "series": "Central excise rate (assumed)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Ethanol-vs-petrol fiscal space: ~₹15/L (model assumption).",
+     "value": "₹15/L",
+     "period": null,
+     "period_end": null,
+     "publisher": "PPAC (model repo india-omc-fuel-fleet-model)",
+     "series": "Fiscal space for ethanol SGST",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Ethanol capacity utilisation constraint: ~2,000 cr L installed, but feedstock/feedstock utilisation is binding.",
+     "value": "~2,000 cr L (installed capacity)",
+     "period": "ESY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "CareEdge (ESY 2025-26)",
+     "series": "Ethanol distillation capacity utilisation",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Ethanol displaced volume: E20 = 10.8 bn L, E30 = 16.2 bn L.",
+     "value": "10.8 bn L (E20) / 16.2 bn L (E30)",
+     "period": null,
+     "period_end": null,
+     "publisher": "PPAC (model repo india-omc-fuel-fleet-model)",
+     "series": "Ethanol-displaced petrol volume (calculated)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Petrol demand CAGR: 5.0% (FY2024-25 to FY31).",
+     "value": "5.0% CAGR",
+     "period": "FY2024-25 → FY31",
+     "period_end": "2031-03-31",
+     "publisher": "PPAC (model repo india-omc-fuel-fleet-model)",
+     "series": "Petrol demand growth rate",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "Ethanol-vs-petrol VAT parity would require ~27% SGST.",
+     "value": "~27%",
+     "period": null,
+     "period_end": null,
+     "publisher": "PPAC (model repo india-omc-fuel-fleet-model)",
+     "series": "VAT parity rate estimate",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "OMC throughput uplift from mileage penalty: 4% (E20) / 7% (E30).",
+     "value": "4% (E20) / 7% (E30)",
+     "period": null,
+     "period_end": null,
+     "publisher": "PPAC (model repo india-omc-fuel-fleet-model)",
+     "series": "Throughput uplift rate",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Export margin at a ₹4/L refining margin.",
+     "value": "₹4/L",
+     "period": null,
+     "period_end": null,
+     "publisher": "PPAC (model repo india-omc-fuel-fleet-model)",
+     "series": "Refining margin assumption",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Handling margin: ₹2/L.",
+     "value": "₹2/L",
+     "period": null,
+     "period_end": null,
+     "publisher": "PPAC (model repo india-omc-fuel-fleet-model)",
+     "series": "Blending handling margin",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Petrol export volume at E20: roughly half of India's entire petrol export book.",
+     "value": "~8 MMT (half of total exports)",
+     "period": "Current · E20",
+     "period_end": null,
+     "publisher": "PPAC (model repo india-omc-fuel-fleet-model)",
+     "series": "Ethanol-displaced petrol share of exports",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Petrochemicals adoption: up to 45% of crude → chemicals (vs <15% standalone).",
+     "value": "45% (vs <15%)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Digital Refining (cited)",
+     "series": "Crude-to-chemicals penetration",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Ethanol GST: 5%.",
+     "value": "5%",
+     "period": null,
+     "period_end": null,
+     "publisher": "PPAC (model repo india-omc-fuel-fleet-model)",
+     "series": "Ethanol SGST rate",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Petrol excise foregone at E20: ~₹21,500 cr (model).",
+     "value": "₹21,500 cr",
+     "period": "Current · E20",
+     "period_end": null,
+     "publisher": "PPAC (model repo india-omc-fuel-fleet-model)",
+     "series": "Central excise foregone (model)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Petrol excise foregone at E30: ~₹32,250 cr (model).",
+     "value": "₹32,250 cr",
+     "period": "Future · E30",
+     "period_end": null,
+     "publisher": "PPAC (model repo india-omc-fuel-fleet-model)",
+     "series": "Central excise foregone (model)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "States VAT foregone, net of new SGST: −₹17,900 cr (E20) → −₹23,716 cr (E30).",
+     "value": "₹17,900 cr (E20) → ₹23,716 cr (E30)",
+     "period": "Current · E20 / Future · E30 + SGST",
+     "period_end": null,
+     "publisher": "PPAC (model repo india-omc-fuel-fleet-model)",
+     "series": "States VAT foregone (net of SGST)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Ethanol-vs-petrol fiscal space for SGST: ~₹15/L.",
+     "value": "₹15/L",
+     "period": null,
+     "period_end": null,
+     "publisher": "PPAC (model repo india-omc-fuel-fleet-model)",
+     "series": "Fiscal space for SGST",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Ethanol displaced volume: E20 = 10.8 bn L, E30 = 16.2 bn L (from 54.05 bn L domestic petrol).",
+     "value": "10.8 bn L (E20) / 16.2 bn L (E30)",
+     "period": null,
+     "period_end": null,
+     "publisher": "PPAC (model repo india-omc-fuel-fleet-model)",
+     "series": "Ethanol-displaced petrol volume (calculated)",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

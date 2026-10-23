@@ -1,0 +1,740 @@
+{
+ "slug": "do-cbse-past-papers-actually-help",
+ "text_sha1": "11f387d64bbca889",
+ "chars": 12953,
+ "checked": "2026-10-23T11:08:54",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "Parsing 30,734 questions from five years of CBSE Class-XII papers",
+     "value": "30,734 questions",
+     "period": "five years (2022-2026)",
+     "period_end": "2026-03-31",
+     "publisher": "CBSE",
+     "series": "CBSE Class-XII question papers",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "1,955 CBSE Class-XII papers parsed, 2022–2026",
+     "value": "1,955 papers",
+     "period": "2022–2026",
+     "period_end": "2026-03-31",
+     "publisher": "CBSE",
+     "series": "CBSE Class-XII question papers",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "49% of Accountancy's high-mark marks sit on a recurring topic",
+     "value": "49%",
+     "period": "2022-2026",
+     "period_end": "2026-03-31",
+     "publisher": "CBSE",
+     "series": "Repetition index, %",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "0% of English Core's high-mark marks do",
+     "value": "0%",
+     "period": "2022-2026",
+     "period_end": "2026-03-31",
+     "publisher": "CBSE",
+     "series": "Repetition index, %",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "10/10 sample-paper sessions, 2015-16–2024-25, testing Physics's “electric field”",
+     "value": "10/10 sessions",
+     "period": "2015-16–2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "CBSE",
+     "series": "Sample Question Paper archive",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Accountancy | 50 | 109 | 49 |",
+     "value": "50 papers",
+     "period": "2022-2026",
+     "period_end": "2026-03-31",
+     "publisher": "CBSE",
+     "series": "Repetition index by subject",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Accountancy | 50 | 109 | 49 |",
+     "value": "109 High-mark Qs",
+     "period": "2022-2026",
+     "period_end": "2026-03-31",
+     "publisher": "CBSE",
+     "series": "Repetition index by subject",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Physics | 64 | 120 | 44 |",
+     "value": "64 papers",
+     "period": "2022-2026",
+     "period_end": "2026-03-31",
+     "publisher": "CBSE",
+     "series": "Repetition index by subject",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Physics | 64 | 120 | 44 |",
+     "value": "120 High-mark Qs",
+     "period": "2022-2026",
+     "period_end": "2026-03-31",
+     "publisher": "CBSE",
+     "series": "Repetition index by subject",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Economics | 61 | 173 | 38 |",
+     "value": "61 papers",
+     "period": "2022-2026",
+     "period_end": "2026-03-31",
+     "publisher": "CBSE",
+     "series": "Repetition index by subject",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Economics | 61 | 173 | 38 |",
+     "value": "173 High-mark Qs",
+     "period": "2022-2026",
+     "period_end": "2026-03-31",
+     "publisher": "CBSE",
+     "series": "Repetition index by subject",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Mathematics | 62 | 90 | 22 |",
+     "value": "62 papers",
+     "period": "2022-2026",
+     "period_end": "2026-03-31",
+     "publisher": "CBSE",
+     "series": "Repetition index by subject",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Mathematics | 62 | 90 | 22 |",
+     "value": "90 High-mark Qs",
+     "period": "2022-2026",
+     "period_end": "2026-03-31",
+     "publisher": "CBSE",
+     "series": "Repetition index by subject",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Business Studies | 54 | 119 | 16 |",
+     "value": "54 papers",
+     "period": "2022-2026",
+     "period_end": "2026-03-31",
+     "publisher": "CBSE",
+     "series": "Repetition index by subject",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Business Studies | 54 | 119 | 16 |",
+     "value": "119 High-mark Qs",
+     "period": "2022-2026",
+     "period_end": "2026-03-31",
+     "publisher": "CBSE",
+     "series": "Repetition index by subject",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "History | 67 | 167 | 16 |",
+     "value": "67 papers",
+     "period": "2022-2026",
+     "period_end": "2026-03-31",
+     "publisher": "CBSE",
+     "series": "Repetition index by subject",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "History | 67 | 167 | 16 |",
+     "value": "167 High-mark Qs",
+     "period": "2022-2026",
+     "period_end": "2026-03-31",
+     "publisher": "CBSE",
+     "series": "Repetition index by subject",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Geography | 60 | 229 | 14 |",
+     "value": "60 papers",
+     "period": "2022-2026",
+     "period_end": "2026-03-31",
+     "publisher": "CBSE",
+     "series": "Repetition index by subject",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Geography | 60 | 229 | 14 |",
+     "value": "229 High-mark Qs",
+     "period": "2022-2026",
+     "period_end": "2026-03-31",
+     "publisher": "CBSE",
+     "series": "Repetition index by subject",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Political Science | 60 | 200 | 7 |",
+     "value": "60 papers",
+     "period": "2022-2026",
+     "period_end": "2026-03-31",
+     "publisher": "CBSE",
+     "series": "Repetition index by subject",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Political Science | 60 | 200 | 7 |",
+     "value": "200 High-mark Qs",
+     "period": "2022-2026",
+     "period_end": "2026-03-31",
+     "publisher": "CBSE",
+     "series": "Repetition index by subject",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Chemistry | 72 | 133 | 5 |",
+     "value": "72 papers",
+     "period": "2022-2026",
+     "period_end": "2026-03-31",
+     "publisher": "CBSE",
+     "series": "Repetition index by subject",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Chemistry | 72 | 133 | 5 |",
+     "value": "133 High-mark Qs",
+     "period": "2022-2026",
+     "period_end": "2026-03-31",
+     "publisher": "CBSE",
+     "series": "Repetition index by subject",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Biology | 62 | 169 | 5 |",
+     "value": "62 papers",
+     "period": "2022-2026",
+     "period_end": "2026-03-31",
+     "publisher": "CBSE",
+     "series": "Repetition index by subject",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Biology | 62 | 169 | 5 |",
+     "value": "169 High-mark Qs",
+     "period": "2022-2026",
+     "period_end": "2026-03-31",
+     "publisher": "CBSE",
+     "series": "Repetition index by subject",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "English Core | 72 | 259 | 0 |",
+     "value": "72 papers",
+     "period": "2022-2026",
+     "period_end": "2026-03-31",
+     "publisher": "CBSE",
+     "series": "Repetition index by subject",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "English Core | 72 | 259 | 0 |",
+     "value": "259 High-mark Qs",
+     "period": "2022-2026",
+     "period_end": "2026-03-31",
+     "publisher": "CBSE",
+     "series": "Repetition index by subject",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "admission/retirement of a partner (14 papers across 2023/25/26, 139 marks)",
+     "value": "14 papers",
+     "period": "2023/2025/2026",
+     "period_end": "2026-03-31",
+     "publisher": "CBSE",
+     "series": "Accountancy exam papers",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "admission/retirement of a partner (14 papers across 2023/25/26, 139 marks)",
+     "value": "139 marks",
+     "period": "2023/2025/2026",
+     "period_end": "2026-03-31",
+     "publisher": "CBSE",
+     "series": "Accountancy exam papers",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "balance sheet incl. Common Size Balance Sheet (20 papers across 2024/25/26, 139 marks)",
+     "value": "20 papers",
+     "period": "2024/2025/2026",
+     "period_end": "2026-03-31",
+     "publisher": "CBSE",
+     "series": "Accountancy exam papers",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "balance sheet incl. Common Size Balance Sheet (20 papers across 2024/25/26, 139 marks)",
+     "value": "139 marks",
+     "period": "2024/2025/2026",
+     "period_end": "2026-03-31",
+     "publisher": "CBSE",
+     "series": "Accountancy exam papers",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "electric field (14 papers, 84 marks)",
+     "value": "14 papers",
+     "period": "2022-2026",
+     "period_end": "2026-03-31",
+     "publisher": "CBSE",
+     "series": "Physics exam papers",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "electric field (14 papers, 84 marks)",
+     "value": "84 marks",
+     "period": "2022-2026",
+     "period_end": "2026-03-31",
+     "publisher": "CBSE",
+     "series": "Physics exam papers",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "magnetic field (11 papers, 73 marks)",
+     "value": "11 papers",
+     "period": "2022-2026",
+     "period_end": "2026-03-31",
+     "publisher": "CBSE",
+     "series": "Physics exam papers",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "magnetic field (11 papers, 73 marks)",
+     "value": "73 marks",
+     "period": "2022-2026",
+     "period_end": "2026-03-31",
+     "publisher": "CBSE",
+     "series": "Physics exam papers",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "“for a hypothetical economy, it is known that…” problem appears in 14 papers worth 133 marks",
+     "value": "14 papers",
+     "period": "2022-2026",
+     "period_end": "2026-03-31",
+     "publisher": "CBSE",
+     "series": "Economics exam papers",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "“for a hypothetical economy, it is known that…” problem appears in 14 papers worth 133 marks",
+     "value": "133 marks",
+     "period": "2022-2026",
+     "period_end": "2026-03-31",
+     "publisher": "CBSE",
+     "series": "Economics exam papers",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "devotes roughly 10 of its 50–60 marks — 17–20% — to an identical five-unit Employability Skills block",
+     "value": "10 marks",
+     "period": "2022-2026",
+     "period_end": "2026-03-31",
+     "publisher": "CBSE",
+     "series": "Skill Education electives",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "devotes roughly 10 of its 50–60 marks — 17–20% — to an identical five-unit Employability Skills block",
+     "value": "50–60 marks",
+     "period": "2022-2026",
+     "period_end": "2026-03-31",
+     "publisher": "CBSE",
+     "series": "Skill Education electives",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Physics · “electric field” | 10 (2015-16 to 2024-25) | 10 of 10 |",
+     "value": "10 sessions",
+     "period": "2015-16 to 2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "CBSE",
+     "series": "Sample Question Paper archive",
+     "frequency": "annual",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "1,955 CBSE Class-XII papers parsed, 2022–2026",
+     "value": "1,955 papers",
+     "period": "2022–2026",
+     "period_end": "2026-03-31",
+     "publisher": "CBSE (via cbse.gov.in)",
+     "series": "Administered Class-XII question papers (main and compartment sittings)",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "30,734 questions extracted",
+     "value": "30,734 questions",
+     "period": "2022–2026",
+     "period_end": "2026-03-31",
+     "publisher": "CBSE (via cbse.gov.in)",
+     "series": "Extracted questions from Class-XII papers",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "16,633 usable English-medium text",
+     "value": "16,633 questions",
+     "period": "2022–2026",
+     "period_end": "2026-03-31",
+     "publisher": "CBSE (via cbse.gov.in)",
+     "series": "English-medium question text subset",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "49% of Accountancy's high-mark marks sit on a recurring topic",
+     "value": "49%",
+     "period": "2022–2026",
+     "period_end": "2026-03-31",
+     "publisher": "CBSE (via parsed data)",
+     "series": "Repetition index for Accountancy (high-mark questions)",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "0% of English Core's high-mark marks do [recur]",
+     "value": "0%",
+     "period": "2022–2026",
+     "period_end": "2026-03-31",
+     "publisher": "CBSE (via parsed data)",
+     "series": "Repetition index for English Core (high-mark questions)",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "10/10 sample-paper sessions, 2015-16–2024-25, testing Physics's 'electric field'",
+     "value": "10 sessions",
+     "period": "2015-16–2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "CBSE (via cbseacademic.nic.in)",
+     "series": "Sample Question Papers (SQP) for Physics",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "Accountancy | 50 | 109 | 49",
+     "value": "49%",
+     "period": "2022–2026",
+     "period_end": "2026-03-31",
+     "publisher": "CBSE (via parsed data)",
+     "series": "Repetition index for Accountancy (high-mark questions)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Physics | 64 | 120 | 44",
+     "value": "44%",
+     "period": "2022–2026",
+     "period_end": "2026-03-31",
+     "publisher": "CBSE (via parsed data)",
+     "series": "Repetition index for Physics (high-mark questions)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Economics | 61 | 173 | 38",
+     "value": "38%",
+     "period": "2022–2026",
+     "period_end": "2026-03-31",
+     "publisher": "CBSE (via parsed data)",
+     "series": "Repetition index for Economics (high-mark questions)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Mathematics | 62 | 90 | 22",
+     "value": "22%",
+     "period": "2022–2026",
+     "period_end": "2026-03-31",
+     "publisher": "CBSE (via parsed data)",
+     "series": "Repetition index for Mathematics (high-mark questions)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Business Studies | 54 | 119 | 16",
+     "value": "16%",
+     "period": "2022–2026",
+     "period_end": "2026-03-31",
+     "publisher": "CBSE (via parsed data)",
+     "series": "Repetition index for Business Studies (high-mark questions)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "History | 67 | 167 | 16",
+     "value": "16%",
+     "period": "2022–2026",
+     "period_end": "2026-03-31",
+     "publisher": "CBSE (via parsed data)",
+     "series": "Repetition index for History (high-mark questions)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Geography | 60 | 229 | 14",
+     "value": "14%",
+     "period": "2022–2026",
+     "period_end": "2026-03-31",
+     "publisher": "CBSE (via parsed data)",
+     "series": "Repetition index for Geography (high-mark questions)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Political Science | 60 | 200 | 7",
+     "value": "7%",
+     "period": "2022–2026",
+     "period_end": "2026-03-31",
+     "publisher": "CBSE (via parsed data)",
+     "series": "Repetition index for Political Science (high-mark questions)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Chemistry | 72 | 133 | 5",
+     "value": "5%",
+     "period": "2022–2026",
+     "period_end": "2026-03-31",
+     "publisher": "CBSE (via parsed data)",
+     "series": "Repetition index for Chemistry (high-mark questions)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Biology | 62 | 169 | 5",
+     "value": "5%",
+     "period": "2022–2026",
+     "period_end": "2026-03-31",
+     "publisher": "CBSE (via parsed data)",
+     "series": "Repetition index for Biology (high-mark questions)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "English Core | 72 | 259 | 0",
+     "value": "0%",
+     "period": "2022–2026",
+     "period_end": "2026-03-31",
+     "publisher": "CBSE (via parsed data)",
+     "series": "Repetition index for English Core (high-mark questions)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Accountancy: admission/retirement of a partner (14 papers across 2023/25/26, 139 marks)",
+     "value": "14 papers, 139 marks",
+     "period": "2023/25/26",
+     "period_end": "2026-03-31",
+     "publisher": "CBSE (via parsed data)",
+     "series": "Recurring topics in Accountancy high-mark questions",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Accountancy: balance sheet incl. Common Size Balance Sheet (20 papers across 2024/25/26, 139 marks)",
+     "value": "20 papers, 139 marks",
+     "period": "2024/25/26",
+     "period_end": "2026-03-31",
+     "publisher": "CBSE (via parsed data)",
+     "series": "Recurring topics in Accountancy high-mark questions",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Physics: electric field (14 papers, 84 marks)",
+     "value": "14 papers, 84 marks",
+     "period": "2022–2026",
+     "period_end": "2026-03-31",
+     "publisher": "CBSE (via parsed data)",
+     "series": "Recurring topics in Physics high-mark questions",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Physics: magnetic field (11 papers, 73 marks)",
+     "value": "11 papers, 73 marks",
+     "period": "2022–2026",
+     "period_end": "2026-03-31",
+     "publisher": "CBSE (via parsed data)",
+     "series": "Recurring topics in Physics high-mark questions",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Economics: 'for a hypothetical economy' problem appears in 14 papers worth 133 marks",
+     "value": "14 papers, 133 marks",
+     "period": "2022–2026",
+     "period_end": "2026-03-31",
+     "publisher": "CBSE (via parsed data)",
+     "series": "Recurring numerical format in Economics high-mark questions",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Skill Education electives: roughly 10 of its 50–60 marks (17–20%) to Employability Skills block",
+     "value": "10 marks (17–20%)",
+     "period": null,
+     "period_end": null,
+     "publisher": "CBSE (via parsed data)",
+     "series": "Employability Skills block marks distribution in Skill Education papers",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Physics · 'electric field' | 10 (2015-16 to 2024-25) | 10 of 10",
+     "value": "10 sessions, 10 of 10",
+     "period": "2015-16–2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "CBSE (via cbseacademic.nic.in)",
+     "series": "Sample Question Papers (SQP) for Physics",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "Physics · 'magnetic field' | 10 (2015-16 to 2024-25) | 10 of 10",
+     "value": "10 sessions, 10 of 10",
+     "period": "2015-16–2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "CBSE (via cbseacademic.nic.in)",
+     "series": "Sample Question Papers (SQP) for Physics",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "Economics · 'aggregate demand' | 10 (2015-16 to 2024-25) | 10 of 10",
+     "value": "10 sessions, 10 of 10",
+     "period": "2015-16–2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "CBSE (via cbseacademic.nic.in)",
+     "series": "Sample Question Papers (SQP) for Economics",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "Accountancy · 'balance sheet' | 7 (2018-19 to 2024-25) | 7 of 7",
+     "value": "7 sessions, 7 of 7",
+     "period": "2018-19–2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "CBSE (via cbseacademic.nic.in)",
+     "series": "Sample Question Papers (SQP) for Accountancy",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "Accountancy · partner admission/retirement | 7 (2018-19 to 2024-25) | 2 of 7",
+     "value": "2 of 7 sessions",
+     "period": "2018-19–2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "CBSE (via cbseacademic.nic.in)",
+     "series": "Sample Question Papers (SQP) for Accountancy",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "32-paper 2024-25 subset whose marks were checked against each paper's own General Instructions",
+     "value": "32 papers",
+     "period": "2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "CBSE (via parsed data)",
+     "series": "Marks reconciliation subset",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "English-medium ~54% of parsed questions",
+     "value": "~54%",
+     "period": "2022–2026",
+     "period_end": "2026-03-31",
+     "publisher": "CBSE (via parsed data)",
+     "series": "English-medium question share",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Skill Education electives: 6 subjects (Artificial Intelligence, Information Technology, Web Applications, Taxation, Financial Markets Management, Typography & Computer Applications)",
+     "value": "6 subjects",
+     "period": null,
+     "period_end": null,
+     "publisher": "CBSE (via parsed data)",
+     "series": "Skill Education electives list",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Employability Skills block: communication, self-management, ICT basics, entrepreneurship, and green skills",
+     "value": "5 units",
+     "period": null,
+     "period_end": null,
+     "publisher": "CBSE (via parsed data)",
+     "series": "Employability Skills block components",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

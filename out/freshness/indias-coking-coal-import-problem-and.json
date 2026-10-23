@@ -1,0 +1,620 @@
+{
+ "slug": "indias-coking-coal-import-problem-and",
+ "text_sha1": "c3e813dabed1d713",
+ "chars": 32257,
+ "checked": "2026-10-23T13:58:34",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "India mines more coal than almost any country on earth — 1,047.5 million tonnes in FY2024-25, the highest annual total in the country's history",
+     "value": "1,047.5 million tonnes",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "PIB / ministry",
+     "series": "Ministry of Coal's Year End Review",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "overall coal imports fell 7.9% in FY2024-25 to 243.62 MT, saving an estimated $7.93 billion (₹60,681.67 crore) in foreign exchange",
+     "value": "243.62 MT",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "PIB / ministry",
+     "series": "Ministry of Coal's Year End Review",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "overall coal imports fell 7.9% in FY2024-25 to 243.62 MT, saving an estimated $7.93 billion (₹60,681.67 crore) in foreign exchange",
+     "value": "$7.93 billion",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "PIB / ministry",
+     "series": "Ministry of Coal's Year End Review",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "overall coal imports fell 7.9% in FY2024-25 to 243.62 MT, saving an estimated $7.93 billion (₹60,681.67 crore) in foreign exchange",
+     "value": "₹60,681.67 crore",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "PIB / ministry",
+     "series": "Ministry of Coal's Year End Review",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "coal imported specifically to blend into thermal power plants fell 54.17% year-on-year, from 12 MT to just 5.5 MT by December 2025 (down from 35 MT in 2022-23)",
+     "value": "5.5 MT",
+     "period": "December 2025",
+     "period_end": "2025-12-31",
+     "publisher": "MoSPI",
+     "series": "Thermal power plant coal blending imports",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "coal imported specifically to blend into thermal power plants fell 54.17% year-on-year, from 12 MT to just 5.5 MT by December 2025 (down from 35 MT in 2022-23)",
+     "value": "35 MT",
+     "period": "2022-23",
+     "period_end": "2023-03-31",
+     "publisher": "MoSPI",
+     "series": "Thermal power plant coal blending imports",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "while India is broadly self-sufficient in the iron ore that goes into steel, it imports an estimated 90% of the coking coal that goes in alongside it",
+     "value": "90%",
+     "period": null,
+     "period_end": null,
+     "publisher": "PIB / ministry",
+     "series": "Government and industry reporting on coking coal requirement",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "59.6 MT Domestic raw coking coal production, FY2024-25 (Ministry of Coal)",
+     "value": "59.6 MT",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "MoSPI",
+     "series": "Domestic raw coking coal production",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "140 MT Mission Coking Coal's domestic production target for FY2029-30",
+     "value": "140 MT",
+     "period": "FY2029-30",
+     "period_end": "2030-03-31",
+     "publisher": "MoSPI",
+     "series": "Mission Coking Coal domestic production target",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Domestic raw coking coal production stood at 59.6 MT in FY2024-25. The Ministry's target for FY2025-26 is 83 MT, rising to 140 MT by FY2029-30",
+     "value": "83 MT",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "MoSPI",
+     "series": "Mission Coking Coal production target",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "The Ministry's plan takes coking-coal washery capacity from 30 MT today to 58 MT by FY2030",
+     "value": "30 MT",
+     "period": "today",
+     "period_end": null,
+     "publisher": "MoSPI",
+     "series": "Coking-coal washery capacity",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "The Ministry's plan takes coking-coal washery capacity from 30 MT today to 58 MT by FY2030",
+     "value": "58 MT",
+     "period": "FY2030",
+     "period_end": "2030-03-31",
+     "publisher": "MoSPI",
+     "series": "Coking-coal washery capacity target",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "demanded a combined ₹61.85 crore in environmental compensation",
+     "value": "₹61.85 crore",
+     "period": "as on 26 Dec 2025",
+     "period_end": "2025-12-26",
+     "publisher": "PIB / ministry",
+     "series": "CAQM environmental compensation demand order",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Talwandi Sabo Power Ltd (Vedanta) | Punjab | ₹33.02 crore",
+     "value": "₹33.02 crore",
+     "period": "as on 26 Dec 2025",
+     "period_end": "2025-12-26",
+     "publisher": "PIB / ministry",
+     "series": "CAQM environmental compensation demand order",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Panipat Thermal Power Station | Haryana | ₹8.98 crore",
+     "value": "₹8.98 crore",
+     "period": "as on 26 Dec 2025",
+     "period_end": "2025-12-26",
+     "publisher": "PIB / ministry",
+     "series": "CAQM environmental compensation demand order",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Deenbandhu Chhotu Ram TPS | Haryana | ₹6.69 crore",
+     "value": "₹6.69 crore",
+     "period": "as on 26 Dec 2025",
+     "period_end": "2025-12-26",
+     "publisher": "PIB / ministry",
+     "series": "CAQM environmental compensation demand order",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Rajiv Gandhi Thermal Power Plant | Haryana | ₹5.55 crore",
+     "value": "₹5.55 crore",
+     "period": "as on 26 Dec 2025",
+     "period_end": "2025-12-26",
+     "publisher": "PIB / ministry",
+     "series": "CAQM environmental compensation demand order",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Guru Hargobind Thermal Power Plant | Punjab | ₹4.87 crore",
+     "value": "₹4.87 crore",
+     "period": "as on 26 Dec 2025",
+     "period_end": "2025-12-26",
+     "publisher": "PIB / ministry",
+     "series": "CAQM environmental compensation demand order",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Harduaganj Thermal Power Station | Uttar Pradesh | ₹2.74 crore",
+     "value": "₹2.74 crore",
+     "period": "as on 26 Dec 2025",
+     "period_end": "2025-12-26",
+     "publisher": "PIB / ministry",
+     "series": "CAQM environmental compensation demand order",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "biomass pellets in the roughly ₹9,000–13,000 per tonne range against coal at around ₹5,000 per tonne",
+     "value": "₹9,000–13,000 per tonne",
+     "period": null,
+     "period_end": null,
+     "publisher": "CEA",
+     "series": "Regulated landed-cost estimates for biomass pellets",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "biomass pellets in the roughly ₹9,000–13,000 per tonne range against coal at around ₹5,000 per tonne",
+     "value": "₹5,000 per tonne",
+     "period": null,
+     "period_end": null,
+     "publisher": "CEA",
+     "series": "Regulated landed-cost estimates for coal",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "co-firing at mandated levels added on the order of ₹0.13 per unit to the generation cost",
+     "value": "₹0.13 per unit",
+     "period": null,
+     "period_end": null,
+     "publisher": "CEA",
+     "series": "Regulatory cost estimate for co-firing generation cost impact",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India's total annual agricultural residue generation, the feedstock pool this research draws its inputs from",
+     "value": "600M tonnes/yr",
+     "period": null,
+     "period_end": null,
+     "publisher": "MoSPI",
+     "series": "Agricultural residue generation",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "2020-21 | 15,665.39",
+     "value": "15,665.39 US$M",
+     "period": "2020-21",
+     "period_end": "2021-03-31",
+     "publisher": "DGCI&S",
+     "series": "TradeStat HS 2701 imports",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "2021-22 | 30,628.92",
+     "value": "30,628.92 US$M",
+     "period": "2021-22",
+     "period_end": "2022-03-31",
+     "publisher": "DGCI&S",
+     "series": "TradeStat HS 2701 imports",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "2022-23 | 48,034.94",
+     "value": "48,034.94 US$M",
+     "period": "2022-23",
+     "period_end": "2023-03-31",
+     "publisher": "DGCI&S",
+     "series": "TradeStat HS 2701 imports",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "2023-24 | 37,480.94",
+     "value": "37,480.94 US$M",
+     "period": "2023-24",
+     "period_end": "2024-03-31",
+     "publisher": "DGCI&S",
+     "series": "TradeStat HS 2701 imports",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "2024-25 | 29,549.39 | 217.08 | 1,536.90 | 40.85",
+     "value": "29,549.39 US$M",
+     "period": "2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "DGCI&S",
+     "series": "TradeStat HS 2701 imports",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "2024-25 | 29,549.39 | 217.08 | 1,536.90 | 40.85",
+     "value": "217.08 US$M",
+     "period": "2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "DGCI&S",
+     "series": "TradeStat HS 2701 exports",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "2024-25 | 29,549.39 | 217.08 | 1,536.90 | 40.85",
+     "value": "1,536.90 US$M",
+     "period": "2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "DGCI&S",
+     "series": "TradeStat HS 2704 imports",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "2024-25 | 29,549.39 | 217.08 | 1,536.90 | 40.85",
+     "value": "40.85 US$M",
+     "period": "2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "DGCI&S",
+     "series": "TradeStat HS 2704 exports",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "2025-26† | 26,729.10 | 178.45 | 1,160.14 | 36.38",
+     "value": "26,729.10 US$M",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TradeStat HS 2701 imports",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "2025-26† | 26,729.10 | 178.45 | 1,160.14 | 36.38",
+     "value": "178.45 US$M",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TradeStat HS 2701 exports",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "2025-26† | 26,729.10 | 178.45 | 1,160.14 | 36.38",
+     "value": "1,160.14 US$M",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TradeStat HS 2704 imports",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "2025-26† | 26,729.10 | 178.45 | 1,160.14 | 36.38",
+     "value": "36.38 US$M",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TradeStat HS 2704 exports",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "2022-23 | 19,285.76",
+     "value": "19,285.76 US$M",
+     "period": "2022-23",
+     "period_end": "2023-03-31",
+     "publisher": "DGCI&S",
+     "series": "TradeStat HS 27011910 Coking Coal imports",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "2023-24 | 15,964.75",
+     "value": "15,964.75 US$M",
+     "period": "2023-24",
+     "period_end": "2024-03-31",
+     "publisher": "DGCI&S",
+     "series": "TradeStat HS 27011910 Coking Coal imports",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "2024-25 | 12,151.72",
+     "value": "12,151.72 US$M",
+     "period": "2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "DGCI&S",
+     "series": "TradeStat HS 27011910 Coking Coal imports",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "2025-26† | 11,767.63",
+     "value": "11,767.63 US$M",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TradeStat HS 27011910 Coking Coal imports",
+     "frequency": "annual",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "India imports roughly 90% of the coking coal its steel mills need",
+     "value": "90%",
+     "period": null,
+     "period_end": null,
+     "publisher": "Government and industry reporting",
+     "series": "Coking coal import dependency estimate",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "India mines more coal than almost any country on earth — 1,047.5 million tonnes in FY2024-25",
+     "value": "1,047.5 million tonnes",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "Ministry of Coal",
+     "series": "Year End Review (coal production)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "overall coal imports fell 7.9% in FY2024-25 to 243.62 MT",
+     "value": "243.62 million tonnes",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "Ministry of Coal",
+     "series": "Coal import volume",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "saving an estimated $7.93 billion (₹60,681.67 crore) in foreign exchange",
+     "value": "$7.93 billion (₹60,681.67 crore)",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "Ministry of Coal",
+     "series": "Foreign exchange savings from coal imports",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "the coal imported specifically to blend into thermal power plants fell 54.17% year-on-year, from 12 MT to just 5.5 MT by December 2025",
+     "value": "54.17% decrease (from 12 MT to 5.5 MT)",
+     "period": "2022-23 to December 2025",
+     "period_end": "2025-12-31",
+     "publisher": "Ministry of Coal",
+     "series": "Thermal coal imports for blending",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Domestic raw coking coal production stood at 59.6 MT in FY2024-25",
+     "value": "59.6 million tonnes",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "Ministry of Coal",
+     "series": "Raw coking coal production",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "The Ministry's target for FY2025-26 is 83 MT, rising to 140 MT by FY2029-30",
+     "value": "83 million tonnes (FY2025-26), 140 million tonnes (FY2029-30)",
+     "period": "FY2025-26, FY2029-30",
+     "period_end": "2026-03-31, 2030-03-31",
+     "publisher": "Ministry of Coal",
+     "series": "Mission Coking Coal production targets",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "washery capacity from 30 MT today to 58 MT by FY2030",
+     "value": "30 million tonnes (current), 58 million tonnes (FY2030)",
+     "period": "FY2030",
+     "period_end": "2030-03-31",
+     "publisher": "Ministry of Coal",
+     "series": "Coking coal washery capacity",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "The SAMARTH Mission mandates that coal-based thermal power plants co-fire 5% biomass pellets from FY2024-25, rising to 7% from FY2025-26",
+     "value": "5% (FY2024-25), 7% (FY2025-26)",
+     "period": "FY2024-25, FY2025-26",
+     "period_end": "2025-03-31, 2026-03-31",
+     "publisher": "Ministry of Power",
+     "series": "SAMARTH Mission biomass co-firing mandate",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "CAQM's own enforcement, the requirement was 3% for FY2024-25, stepping up to 7% for FY2025-26",
+     "value": "3% (FY2024-25), 7% (FY2025-26)",
+     "period": "FY2024-25, FY2025-26",
+     "period_end": "2025-03-31, 2026-03-31",
+     "publisher": "Commission for Air Quality Management (CAQM)",
+     "series": "Delhi-NCR biomass co-firing mandate",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "combined ₹61.85 crore in environmental compensation",
+     "value": "₹61.85 crore",
+     "period": null,
+     "period_end": "2025-12-26",
+     "publisher": "Commission for Air Quality Management (CAQM)",
+     "series": "Environmental compensation for non-compliance",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "biomass pellets in the roughly ₹9,000–13,000 per tonne range against coal at around ₹5,000 per tonne",
+     "value": "₹9,000–13,000/tonne (biomass), ₹5,000/tonne (coal)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Regulatory cost estimate",
+     "series": "Landed cost of biomass vs coal",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "added on the order of ₹0.13 per unit to the generation cost",
+     "value": "₹0.13/unit",
+     "period": null,
+     "period_end": null,
+     "publisher": "Regulatory cost estimate",
+     "series": "Increase in generation cost due to biomass co-firing",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "On 24 August 2024, SAIL's Rourkela Steel Plant began injecting biochar into Blast Furnace #1, replacing a portion of the plant's Pulverized Coal Injection (PCI)",
+     "value": "Up to 10% of PCI replaced (pilot scale)",
+     "period": "24 August 2024",
+     "period_end": "2024-08-24",
+     "publisher": "SAIL / RDCIS",
+     "series": "Biochar injection trial in Blast Furnace #1",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "best-performing blends were narrower than the full range tested: roughly 70:30 coal-to-biochar for coconut-shell and groundnut-shell biochar, and 80:20 for sawdust biochar",
+     "value": "70:30 (coconut/groundnut shell), 80:20 (sawdust)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Fuel Processing Technology (2023)",
+     "series": "Bio-coke blend ratios in research",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "an 85:15 coal-to-coconut-shell-char blend achieved a CRI of 29.8 and CSR of 55.1",
+     "value": "CRI: 29.8, CSR: 55.1 (85:15 blend)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Fuel Processing Technology (2023)",
+     "series": "Coke quality metrics for bio-coke",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India's total annual agricultural residue generation, the feedstock pool this research draws its inputs from (not all of it is bio-coke-suitable)",
+     "value": "600 million tonnes/year",
+     "period": null,
+     "period_end": null,
+     "publisher": "ScienceDirect (broader biochar research)",
+     "series": "Agricultural residue generation",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "HS 2701 imports, US$M | ... 2024-25 | 29,549.39 | ... HS 2704 (coke) imports, US$M | ... 2024-25 | 1,536.90",
+     "value": "$29,549.39 million (HS 2701), $1,536.90 million (HS 2704)",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "DGCI&S TradeStat",
+     "series": "Coal and coke imports by HS code",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "HS 27011910 ('COKING COAL') imports, US$M | ... 2024-25 | 12,151.72",
+     "value": "$12,151.72 million",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "DGCI&S TradeStat",
+     "series": "Coking coal imports (HS 27011910)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Australia alone supplies roughly 43–46% of India's coking coal import bill in both years shown",
+     "value": "43–46%",
+     "period": "FY2024-25, FY2025-26",
+     "period_end": "2025-03-31, 2026-03-31",
+     "publisher": "DGCI&S TradeStat",
+     "series": "Country-wise coking coal import share",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Coking Coal Imports, HS 27011910 ... $19,285.76M 2022-23 ... $11,767.63 2025-26†",
+     "value": "$19,285.76 million (FY2022-23), $11,767.63 million (FY2025-26)",
+     "period": "FY2022-23, FY2025-26",
+     "period_end": "2023-03-31, 2026-03-31",
+     "publisher": "DGCI&S TradeStat",
+     "series": "Coking coal imports (HS 27011910) by fiscal year",
+     "frequency": "annual",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

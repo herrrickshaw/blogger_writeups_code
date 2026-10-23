@@ -1,0 +1,190 @@
+{
+ "slug": "a-2223-crore-coal-freight-railway-line",
+ "text_sha1": "a957d1c310642466",
+ "chars": 8059,
+ "checked": "2026-10-23T10:20:02",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "₹2,223cr approved project cost",
+     "value": "₹2,223 crore",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "PIB / ministry",
+     "series": "Dongargarh–Gondia Fourth Railway Line approved project cost",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "84.10 km route length, Chhattisgarh & Maharashtra",
+     "value": "84.10 km",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "PIB / ministry",
+     "series": "Dongargarh–Gondia Fourth Railway Line route length",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "52 MTPA additional freight capacity the line adds",
+     "value": "52 MTPA",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "PIB / ministry",
+     "series": "Dongargarh–Gondia Fourth Railway Line additional freight capacity",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "30 days window for affected landholders to file objections",
+     "value": "30 days",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "PIB / ministry",
+     "series": "Railways Act Section 20D(1) objection window",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "On 27 August 2026, South East Central Railway notified its intention to acquire land in Goregaon Tehsil, Gondia District, Maharashtra, for the Dongargarh–Gondia Fourth Railway Line",
+     "value": "84.10 km, ₹2,223 crore",
+     "period": "27 August 2026",
+     "period_end": "2026-08-27",
+     "publisher": "PIB / ministry",
+     "series": "S.O. 4828(E), Ministry of Railways – South East Central Railway Gazette notification",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Tumkheda Bk. | 400 | Jahirchand Bakaram Nagpure | 0.2021 ha |",
+     "value": "0.2021 ha",
+     "period": "27 August 2026",
+     "period_end": "2026-08-27",
+     "publisher": "PIB / ministry",
+     "series": "Land Acquisition Schedule, Tumkheda Bk. village (Survey 400)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Tumkheda Bk. | 396 | Ritesh Jahirchand Nagpure | 0.0093 ha |",
+     "value": "0.0093 ha",
+     "period": "27 August 2026",
+     "period_end": "2026-08-27",
+     "publisher": "PIB / ministry",
+     "series": "Land Acquisition Schedule, Tumkheda Bk. village (Survey 396)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Tumkheda Bk. | 403/2 | Kantilal alias Kantikumar Kawadu Kawale | 0.8440 ha (across three linked parcels) |",
+     "value": "0.8440 ha",
+     "period": "27 August 2026",
+     "period_end": "2026-08-27",
+     "publisher": "PIB / ministry",
+     "series": "Land Acquisition Schedule, Tumkheda Bk. village (Survey 403/2)",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "₹2,223 crore approved project cost",
+     "value": "₹2,223 crore",
+     "period": null,
+     "period_end": null,
+     "publisher": "Railway Board / Cabinet approval (via trade coverage)",
+     "series": "Project approval figures (Dongargarh–Gondia Fourth Railway Line)",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "84.10 km route length, Chhattisgarh & Maharashtra",
+     "value": "84.10 km",
+     "period": null,
+     "period_end": null,
+     "publisher": "Railway Board / Cabinet approval (via trade coverage)",
+     "series": "Project route length (Dongargarh–Gondia Fourth Railway Line)",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "52 MTPA additional freight capacity the line adds",
+     "value": "52 million tonnes per annum (MTPA)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Railway Board / Cabinet approval (via trade coverage)",
+     "series": "Project capacity addition (Dongargarh–Gondia Fourth Railway Line)",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "On 27 August 2026, South East Central Railway notified its intention to acquire land...",
+     "value": "27 August 2026",
+     "period": "27 August 2026",
+     "period_end": "2026-08-27",
+     "publisher": "Ministry of Railways – South East Central Railway (Gazette of India)",
+     "series": "Land acquisition notification (S.O. 4828(E))",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Anyone with an interest... 30 days from publication to file a written objection...",
+     "value": "30 days",
+     "period": "from 27 August 2026",
+     "period_end": "2026-09-26",
+     "publisher": "Railways Act, 1989 (Section 20D(1))",
+     "series": "Objection filing window (Section 20A land acquisition)",
+     "frequency": "one-off per notification",
+     "headline": false
+    },
+    {
+     "quote": "Tumkheda Bk. | 400 | Jahirchand Bakaram Nagpure | 0.2021 ha",
+     "value": "0.2021 hectares (ha)",
+     "period": "as of 27 August 2026",
+     "period_end": "2026-08-27",
+     "publisher": "Ministry of Railways – South East Central Railway (OCR'd notification)",
+     "series": "Land acquisition schedule (Tumkheda Bk., Survey No. 400)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Tumkheda Bk. | 396 | Ritesh Jahirchand Nagpure | 0.0093 ha",
+     "value": "0.0093 hectares (ha)",
+     "period": "as of 27 August 2026",
+     "period_end": "2026-08-27",
+     "publisher": "Ministry of Railways – South East Central Railway (OCR'd notification)",
+     "series": "Land acquisition schedule (Tumkheda Bk., Survey No. 396)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Tumkheda Bk. | 403/2 | Kantilal alias Kantikumar Kavadu Kawale | 0.8440 ha (across three linked parcels)",
+     "value": "0.8440 hectares (ha)",
+     "period": "as of 27 August 2026",
+     "period_end": "2026-08-27",
+     "publisher": "Ministry of Railways – South East Central Railway (OCR'd notification)",
+     "series": "Land acquisition schedule (Tumkheda Bk., Survey No. 403/2)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The smallest line in the schedule... 0.0093 hectares — roughly 93 square metres",
+     "value": "≈93 square metres",
+     "period": "as of 27 August 2026",
+     "period_end": "2026-08-27",
+     "publisher": "Ministry of Railways – South East Central Railway (OCR'd notification)",
+     "series": "Land acquisition schedule (smallest parcel, Tumkheda Bk.)",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

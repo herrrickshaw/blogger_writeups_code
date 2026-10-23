@@ -1,0 +1,710 @@
+{
+ "slug": "ai-is-not-taking-indias-offshore-work",
+ "text_sha1": "bec01294c7dd8d21",
+ "chars": 29216,
+ "checked": "2026-10-23T10:29:16",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "+0.4% Growth in India’s BPO exports in FY26, against +11% for computer services",
+     "value": "+0.4%",
+     "period": "FY26",
+     "period_end": "2026-03-31",
+     "publisher": "RBI",
+     "series": "software and IT-enabled services exports",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "9,000 to 5,000 Salesforce’s own support staff after its AI agents took on about half of conversations",
+     "value": "9,000 to 5,000",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "Salesforce",
+     "series": "support staff headcount",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "25 to 18.5-21.4 lakh The Philippines’ 2028 jobs target for its outsourcing industry, cut in July 2026 with AI among the reasons",
+     "value": "25 to 18.5-21.4 lakh",
+     "period": "2028",
+     "period_end": "2028-12-31",
+     "publisher": "IBPAP",
+     "series": "outsourcing industry jobs target",
+     "frequency": "multi-year",
+     "headline": true
+    },
+    {
+     "quote": "5.6 crore Cases pending in Indian courts, a backlog of the transcription, translation and review work India exports",
+     "value": "5.6 crore",
+     "period": "October 2026",
+     "period_end": "2026-10-18",
+     "publisher": "Bar and Bench",
+     "series": "court pendency",
+     "frequency": "live",
+     "headline": true
+    },
+    {
+     "quote": "Customer service representatives \n -5.5%",
+     "value": "-5.5%",
+     "period": "2024-34",
+     "period_end": "2034-12-31",
+     "publisher": "US Bureau of Labor Statistics",
+     "series": "Employment Projections",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "Claims adjusters and examiners \n -5.1%",
+     "value": "-5.1%",
+     "period": "2024-34",
+     "period_end": "2034-12-31",
+     "publisher": "US Bureau of Labor Statistics",
+     "series": "Employment Projections",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "Medical transcriptionists \n -4.9%",
+     "value": "-4.9%",
+     "period": "2024-34",
+     "period_end": "2034-12-31",
+     "publisher": "US Bureau of Labor Statistics",
+     "series": "Employment Projections",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "All occupations \n +3.1%",
+     "value": "+3.1%",
+     "period": "2024-34",
+     "period_end": "2034-12-31",
+     "publisher": "US Bureau of Labor Statistics",
+     "series": "Employment Projections",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "Software developers \n +15.8%",
+     "value": "+15.8%",
+     "period": "2024-34",
+     "period_end": "2034-12-31",
+     "publisher": "US Bureau of Labor Statistics",
+     "series": "Employment Projections",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "Computer services (US$138.1bn to ~153.4bn) \n +11.1%",
+     "value": "+11.1%",
+     "period": "FY25 to FY26",
+     "period_end": "2026-03-31",
+     "publisher": "RBI",
+     "series": "software and IT-enabled services exports",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "All software and ITES (204.7 to 221.4) \n +8.2%",
+     "value": "+8.2%",
+     "period": "FY25 to FY26",
+     "period_end": "2026-03-31",
+     "publisher": "RBI",
+     "series": "software and IT-enabled services exports",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "IT-enabled services (66.6 to 68.0) \n +2.1%",
+     "value": "+2.1%",
+     "period": "FY25 to FY26",
+     "period_end": "2026-03-31",
+     "publisher": "RBI",
+     "series": "software and IT-enabled services exports",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "of which BPO (55.8 to 56.0) \n +0.4%",
+     "value": "+0.4%",
+     "period": "FY25 to FY26",
+     "period_end": "2026-03-31",
+     "publisher": "RBI",
+     "series": "software and IT-enabled services exports",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "business services, which includes most capability-centre work, grew faster, from US$107.2 billion to US$124.2 billion",
+     "value": "US$107.2 billion to US$124.2 billion",
+     "period": "FY25 to FY26",
+     "period_end": "2026-03-31",
+     "publisher": "RBI",
+     "series": "balance-of-payments business services",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Genpact, Advanced Technology Solutions (Q1 2026) \n 27.0%",
+     "value": "27.0%",
+     "period": "Q1 2026",
+     "period_end": "2026-03-31",
+     "publisher": "Genpact",
+     "series": "Advanced Technology Solutions revenue share",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "TCS, AI run-rate over FY26 revenue (Q2 FY27) \n 10.3%",
+     "value": "10.3%",
+     "period": "Q2 FY27",
+     "period_end": "2026-09-30",
+     "publisher": "TCS",
+     "series": "AI run-rate over revenue",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "Infosys, AI services (Q1 FY27) \n 8.2%",
+     "value": "8.2%",
+     "period": "Q1 FY27",
+     "period_end": "2026-06-30",
+     "publisher": "Infosys",
+     "series": "AI services revenue share",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "HCLTech, Advanced AI (Q1 FY27) \n 4.7%",
+     "value": "4.7%",
+     "period": "Q1 FY27",
+     "period_end": "2026-06-30",
+     "publisher": "HCLTech",
+     "series": "Advanced AI revenue share",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "India, IT-BPM (FY26) \n 6.00m",
+     "value": "6.00m",
+     "period": "FY26",
+     "period_end": "2026-03-31",
+     "publisher": "NASSCOM",
+     "series": "Offshore services workforce",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Philippines, IT-BPM (2025) \n 1.89m",
+     "value": "1.89m",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "IBPAP",
+     "series": "Offshore services workforce",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Poland, business-services centres (Q1 2026) \n 0.50m",
+     "value": "0.50m",
+     "period": "Q1 2026",
+     "period_end": "2026-03-31",
+     "publisher": "ABSL",
+     "series": "Offshore services workforce",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "Romania (2025) \n 0.28m",
+     "value": "0.28m",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "ABSL",
+     "series": "Offshore services workforce",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Czechia (2025, approx.) \n 0.20m",
+     "value": "0.20m",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "ABS",
+     "series": "Offshore services workforce",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Egypt (FY2025/26) \n 0.20m",
+     "value": "0.20m",
+     "period": "FY2025/26",
+     "period_end": "2026-06-30",
+     "publisher": "ITIDA",
+     "series": "Offshore services workforce",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Hungary (2025) \n 0.12m",
+     "value": "0.12m",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "HIPA",
+     "series": "Offshore services workforce",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Bulgaria (2022, latest found) \n 0.10m",
+     "value": "0.10m",
+     "period": "2022",
+     "period_end": "2022-12-31",
+     "publisher": "AIBEST",
+     "series": "Offshore services workforce",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Public grievances (CPGRAMS, central ministries) \n 1.4-1.6 lakh a month; 66,000-78,000 pending at any time; about 15 days average",
+     "value": "1.4-1.6 lakh a month",
+     "period": "October 2025",
+     "period_end": "2025-10-31",
+     "publisher": "CPGRAMS",
+     "series": "Public grievances workload",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Cyber-fraud helpline 1930 \n About 50,000 calls a day (Feb 2024)",
+     "value": "50,000 calls a day",
+     "period": "February 2024",
+     "period_end": "2024-02-29",
+     "publisher": "I4C",
+     "series": "Cyber-fraud helpline volume",
+     "frequency": "daily",
+     "headline": false
+    },
+    {
+     "quote": "Provident fund claims (EPFO) \n 8.31 crore settled in FY26, up 38%; 71% of advance claims settled automatically",
+     "value": "8.31 crore",
+     "period": "FY26",
+     "period_end": "2026-03-31",
+     "publisher": "EPFO",
+     "series": "Provident fund claims settled",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Crop insurance (PMFBY) \n Rs 5,405 crore (5.9%) of claims pending for 2020-21 to Kharif 2024",
+     "value": "Rs 5,405 crore",
+     "period": "Kharif 2024",
+     "period_end": "2024-10-31",
+     "publisher": "Lok Sabha reply / PMFBY",
+     "series": "Crop insurance claims pending",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Government health insurance (PM-JAY) \n 2.74 crore hospital admissions authorised in FY26",
+     "value": "2.74 crore",
+     "period": "FY26",
+     "period_end": "2026-03-31",
+     "publisher": "National Health Authority",
+     "series": "PM-JAY hospital admissions authorised",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Courts \n About 5.6 crore cases pending; about 53,000 Supreme Court judgments translated by 2024; Rs 53.57 crore of the Rs 7,210 crore e-Courts budget is for AI",
+     "value": "53,000",
+     "period": "2024",
+     "period_end": "2024-12-31",
+     "publisher": "Supreme Court of India",
+     "series": "SUVAS judgments translated",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Income-tax returns \n About 8.8 crore filed for AY 2025-26; 24.6 lakh unprocessed after 90 days (Feb 2026)",
+     "value": "8.8 crore",
+     "period": "AY 2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Income Tax Department",
+     "series": "Income-tax returns filed",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Income-tax returns \n About 8.8 crore filed for AY 2025-26; 24.6 lakh unprocessed after 90 days (Feb 2026)",
+     "value": "24.6 lakh",
+     "period": "February 2026",
+     "period_end": "2026-02-28",
+     "publisher": "Income Tax Department",
+     "series": "Unprocessed income-tax returns",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Land records \n 99.8% of records computerised, but integrated in only 84% of villages; automatic mutation in 17 states",
+     "value": "99.8%",
+     "period": "October 2026",
+     "period_end": "2026-10-18",
+     "publisher": "Ministry of Rural Development",
+     "series": "Land records computerised",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Land records \n 99.8% of records computerised, but integrated in only 84% of villages; automatic mutation in 17 states",
+     "value": "84%",
+     "period": "October 2026",
+     "period_end": "2026-10-18",
+     "publisher": "Ministry of Rural Development",
+     "series": "Land records village integration",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Delivery network \n About 5 lakh Common Service Centres, each run by a village entrepreneur",
+     "value": "5 lakh",
+     "period": "October 2026",
+     "period_end": "2026-10-18",
+     "publisher": "CSC e-Governance Services India",
+     "series": "Common Service Centres count",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "+0.4% Growth in India’s BPO exports in FY26, against +11% for computer services",
+     "value": "+0.4% (BPO exports), +11% (computer services)",
+     "period": "FY26",
+     "period_end": "2026-03-31",
+     "publisher": "RBI",
+     "series": "Software exports survey (annual)",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "9,000 to 5,000 Salesforce’s own support staff after its AI agents took on about half of conversations",
+     "value": "9,000 → 5,000",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "Salesforce (company statement)",
+     "series": "Support staff headcount",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "25 to 18.5-21.4 lakh The Philippines’ 2028 jobs target for its outsourcing industry, cut in July 2026 with AI among the reasons",
+     "value": "25 lakh → 18.5–21.4 lakh",
+     "period": "2028 (target revised in July 2026)",
+     "period_end": "2028-12-31",
+     "publisher": "IBPAP (Philippines)",
+     "series": "Outsourcing industry roadmap",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "5.6 crore Cases pending in Indian courts, a backlog of the transcription, translation and review work India exports",
+     "value": "5.6 crore",
+     "period": null,
+     "period_end": null,
+     "publisher": "Ministry of Law and Justice (Bar and Bench)",
+     "series": "Court pendency statistics",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Customer service representatives −5.5%, claims adjusters and examiners −5.1%, medical transcriptionists −4.9% (US Bureau of Labor Statistics, Employment Projections 2024-34)",
+     "value": "-5.5% (customer service), -5.1% (claims adjusters), -4.9% (medical transcriptionists)",
+     "period": "2024-34",
+     "period_end": "2034-12-31",
+     "publisher": "US Bureau of Labor Statistics",
+     "series": "Employment Projections",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "61% of service firms use AI; about 1% laid people off because of it; 12% of users hired fewer (US, New York Fed surveys, 2025-26)",
+     "value": "61% (AI adoption), 1% (layoffs), 12% (fewer hires)",
+     "period": "2025-26",
+     "period_end": "2026-12-31",
+     "publisher": "New York Fed",
+     "series": "Firm surveys on AI impact",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Workers aged 22-25 in the most exposed jobs, including software and customer service, 19% behind less-exposed peers (Stanford payroll study, 2025-26)",
+     "value": "19% (productivity gap)",
+     "period": "2025-26",
+     "period_end": "2026-12-31",
+     "publisher": "Stanford Digital Economy Lab",
+     "series": "Payroll study on youth employment",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Jobs for 15-29-year-olds fell 2.85 lakh in four years, 94% in AI-exposed sectors; programming −16.6% (South Korea, Bank of Korea, Aug 2026)",
+     "value": "2.85 lakh (job loss), 94% (exposed sectors), -16.6% (programming)",
+     "period": "four years (2022-26)",
+     "period_end": "2026-08-31",
+     "publisher": "Bank of Korea",
+     "series": "Youth employment trends",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "US$138.1bn to ~US$153.4bn (computer services, FY25 to FY26)",
+     "value": "US$138.1bn → US$153.4bn",
+     "period": "FY25 to FY26",
+     "period_end": "2026-03-31",
+     "publisher": "RBI",
+     "series": "Software exports survey",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "All software and ITES (204.7 to 221.4)",
+     "value": "US$204.7bn → US$221.4bn",
+     "period": "FY25 to FY26",
+     "period_end": "2026-03-31",
+     "publisher": "RBI",
+     "series": "Software exports survey",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "IT-enabled services (66.6 to 68.0)",
+     "value": "US$66.6bn → US$68.0bn",
+     "period": "FY25 to FY26",
+     "period_end": "2026-03-31",
+     "publisher": "RBI",
+     "series": "Software exports survey",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "of which BPO (55.8 to 56.0)",
+     "value": "US$55.8bn → US$56.0bn",
+     "period": "FY25 to FY26",
+     "period_end": "2026-03-31",
+     "publisher": "RBI",
+     "series": "Software exports survey",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Business services (US$107.2 billion to US$124.2 billion)",
+     "value": "US$107.2bn → US$124.2bn",
+     "period": null,
+     "period_end": null,
+     "publisher": "RBI (balance-of-payments data)",
+     "series": "Business services exports",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "TTEC’s customer-care revenue fell 12.1% (Q2 2026)",
+     "value": "-12.1%",
+     "period": "Q2 2026",
+     "period_end": "2026-06-30",
+     "publisher": "TTEC (10-Q filing)",
+     "series": "Customer-care revenue",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "Firstsource grew revenue 19.7% with headcount flat at about 36,000-37,000",
+     "value": "+19.7% (revenue), flat (~36,000–37,000)",
+     "period": "FY26",
+     "period_end": "2026-03-31",
+     "publisher": "Firstsource (presentation)",
+     "series": "Revenue and headcount",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Genpact’s AI-led unit grew 24% while the rest grew about 1.5% (Q1 2026)",
+     "value": "+24% (AI unit), +1.5% (rest)",
+     "period": "Q1 2026",
+     "period_end": "2026-03-31",
+     "publisher": "Genpact (Q1 call)",
+     "series": "Segmental revenue growth",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "JPMorgan guided to 10% fewer operations staff; ops down about 4% by Feb 2026",
+     "value": "-10% (guidance), -4% (actual)",
+     "period": "Feb 2026",
+     "period_end": "2026-02-29",
+     "publisher": "JPMorgan (guidance update)",
+     "series": "Operations staff trends",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "Standard Chartered to cut about 7,000 roles by 2030, with Chennai and Bengaluru centres most affected",
+     "value": "7,000 roles",
+     "period": "by 2030",
+     "period_end": "2030-12-31",
+     "publisher": "Standard Chartered (internal report)",
+     "series": "Role-cut announcements",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "RSM US plans to go from about 2,000 to 5,000 Indian staff",
+     "value": "2,000 → 5,000",
+     "period": null,
+     "period_end": null,
+     "publisher": "RSM US (company statement)",
+     "series": "Indian staff expansion",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "8.31 crore claims settled in FY26, up 38%; 71% of advance claims settled automatically (EPFO)",
+     "value": "8.31 crore (settled), +38% (growth), 71% (automated)",
+     "period": "FY26",
+     "period_end": "2026-03-31",
+     "publisher": "EPFO",
+     "series": "Claims processing statistics",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Rs 5,405 crore of claims pending for 2020-21 to Kharif 2024 (PMFBY)",
+     "value": "Rs 5,405 crore",
+     "period": "2020-21 to Kharif 2024",
+     "period_end": "2024-10-31",
+     "publisher": "Ministry of Agriculture (Lok Sabha reply)",
+     "series": "Crop insurance claims backlog",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "2.74 crore hospital admissions authorised in FY26 (PM-JAY)",
+     "value": "2.74 crore",
+     "period": "FY26",
+     "period_end": "2026-03-31",
+     "publisher": "Ministry of Health (PM-JAY data)",
+     "series": "Health insurance authorisations",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "1.4-1.6 lakh public grievances a month; 66,000-78,000 pending at any time (CPGRAMS)",
+     "value": "1.4–1.6 lakh (monthly), 66,000–78,000 (pending)",
+     "period": null,
+     "period_end": null,
+     "publisher": "CPGRAMS (central ministries)",
+     "series": "Public grievance statistics",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "About 50,000 calls a day (Cyber-fraud helpline 1930, Feb 2024)",
+     "value": "50,000 calls/day",
+     "period": "Feb 2024",
+     "period_end": "2024-02-29",
+     "publisher": "I4C (presentation)",
+     "series": "Helpline call volume",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "About 8.8 crore income-tax returns filed for AY 2025-26; 24.6 lakh unprocessed after 90 days (Feb 2026)",
+     "value": "8.8 crore (filed), 24.6 lakh (unprocessed)",
+     "period": "Feb 2026",
+     "period_end": "2026-02-29",
+     "publisher": "Income Tax Department",
+     "series": "ITR processing statistics",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "6.00m (India, IT-BPM, FY26)",
+     "value": "6.00 million",
+     "period": "FY26",
+     "period_end": "2026-03-31",
+     "publisher": "NASSCOM",
+     "series": "IT-BPM workforce",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Tech workforce could fall from 75-80 lakh to about 60 lakh by 2031 (NITI Aayog, Oct 2025)",
+     "value": "75–80 lakh → 60 lakh",
+     "period": "by 2031",
+     "period_end": "2031-12-31",
+     "publisher": "NITI Aayog (with NASSCOM/BCG)",
+     "series": "Tech workforce projections",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "AI services (8.2% of revenue, Infosys, Q1 FY27)",
+     "value": "8.2%",
+     "period": "Q1 FY27",
+     "period_end": "2026-09-30",
+     "publisher": "Infosys",
+     "series": "AI revenue share",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "AI run-rate over FY26 revenue (10.3%, TCS, Q2 FY27)",
+     "value": "10.3%",
+     "period": "Q2 FY27",
+     "period_end": "2026-12-31",
+     "publisher": "TCS",
+     "series": "AI revenue run-rate",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "Advanced Technology Solutions (27.0%, Genpact, Q1 2026)",
+     "value": "27.0%",
+     "period": "Q1 2026",
+     "period_end": "2026-03-31",
+     "publisher": "Genpact",
+     "series": "AI-led revenue segment",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "Advanced AI (4.7%, HCLTech, Q1 FY27)",
+     "value": "4.7%",
+     "period": "Q1 FY27",
+     "period_end": "2026-09-30",
+     "publisher": "HCLTech",
+     "series": "AI revenue segment",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "IT-services postings down 4%; AI and machine-learning postings up 20% (Naukri JobSpeak, Sep 2026)",
+     "value": "-4% (IT-services), +20% (AI/ML)",
+     "period": "Sep 2026",
+     "period_end": "2026-09-30",
+     "publisher": "Naukri",
+     "series": "Job posting trends",
+     "frequency": "monthly",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

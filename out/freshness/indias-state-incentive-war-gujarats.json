@@ -1,0 +1,898 @@
+{
+ "slug": "indias-state-incentive-war-gujarats",
+ "text_sha1": "a89a0869d000527a",
+ "chars": 25240,
+ "checked": "2026-10-23T14:36:50",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "33.8% Gujarat's share of India's implemented industrial investment, FY2021-25 (₹6.60 lakh cr of ₹19.52 lakh cr national total)",
+     "value": "33.8%",
+     "period": "FY2021-25",
+     "period_end": "2025-03-31",
+     "publisher": "DPIIT",
+     "series": "DPIIT IEM Part-B",
+     "frequency": "multi-year",
+     "headline": true
+    },
+    {
+     "quote": "22.8% vs 2.2% Karnataka's FDI share vs. its implementation share — the starkest state-level inversion in the data",
+     "value": "22.8%",
+     "period": "CY2021-25",
+     "period_end": "2025-12-31",
+     "publisher": "DPIIT",
+     "series": "DPIIT FDI state synopsis",
+     "frequency": "multi-year",
+     "headline": true
+    },
+    {
+     "quote": "~15% National PLI disbursed (₹28,748cr) against a ₹1.91–1.97 lakh cr outlay",
+     "value": "~15%",
+     "period": "as of 31 Dec 2025",
+     "period_end": "2025-12-31",
+     "publisher": "PIB / ministry",
+     "series": "Production-Linked Incentive schemes",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "₹0 ACC Battery Storage PLI disbursed of an ₹18,100cr outlay, as of 31 Dec 2025",
+     "value": "₹0",
+     "period": "as of 31 Dec 2025",
+     "period_end": "2025-12-31",
+     "publisher": "PIB / ministry",
+     "series": "ACC Battery Storage PLI",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "33.8",
+     "value": "33.8%",
+     "period": "2021-25",
+     "period_end": "2025-12-31",
+     "publisher": "DPIIT",
+     "series": "DPIIT IEM Part-B and FDI data",
+     "frequency": "multi-year",
+     "headline": true
+    },
+    {
+     "quote": "10.2",
+     "value": "10.2%",
+     "period": "2021-25",
+     "period_end": "2025-12-31",
+     "publisher": "DPIIT",
+     "series": "DPIIT IEM Part-B and FDI data",
+     "frequency": "multi-year",
+     "headline": true
+    },
+    {
+     "quote": "17.2",
+     "value": "17.2%",
+     "period": "2021-25",
+     "period_end": "2025-12-31",
+     "publisher": "DPIIT",
+     "series": "DPIIT IEM Part-B and FDI data",
+     "frequency": "multi-year",
+     "headline": true
+    },
+    {
+     "quote": "0.08",
+     "value": "0.08%",
+     "period": "2021-25",
+     "period_end": "2025-12-31",
+     "publisher": "DPIIT",
+     "series": "DPIIT IEM Part-B and FDI data",
+     "frequency": "multi-year",
+     "headline": true
+    },
+    {
+     "quote": "12.2",
+     "value": "12.2%",
+     "period": "2021-25",
+     "period_end": "2025-12-31",
+     "publisher": "DPIIT",
+     "series": "DPIIT IEM Part-B and FDI data",
+     "frequency": "multi-year",
+     "headline": true
+    },
+    {
+     "quote": "32.5",
+     "value": "32.5%",
+     "period": "2021-25",
+     "period_end": "2025-12-31",
+     "publisher": "DPIIT",
+     "series": "DPIIT IEM Part-B and FDI data",
+     "frequency": "multi-year",
+     "headline": true
+    },
+    {
+     "quote": "7.2",
+     "value": "7.2%",
+     "period": "2021-25",
+     "period_end": "2025-12-31",
+     "publisher": "DPIIT",
+     "series": "DPIIT IEM Part-B and FDI data",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "0.6",
+     "value": "0.6%",
+     "period": "2021-25",
+     "period_end": "2025-12-31",
+     "publisher": "DPIIT",
+     "series": "DPIIT IEM Part-B and FDI data",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "3.8",
+     "value": "3.8%",
+     "period": "2021-25",
+     "period_end": "2025-12-31",
+     "publisher": "DPIIT",
+     "series": "DPIIT IEM Part-B and FDI data",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "0.9",
+     "value": "0.9%",
+     "period": "2021-25",
+     "period_end": "2025-12-31",
+     "publisher": "DPIIT",
+     "series": "DPIIT IEM Part-B and FDI data",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "2.3",
+     "value": "2.3%",
+     "period": "2021-25",
+     "period_end": "2025-12-31",
+     "publisher": "DPIIT",
+     "series": "DPIIT IEM Part-B and FDI data",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "6.2",
+     "value": "6.2%",
+     "period": "2021-25",
+     "period_end": "2025-12-31",
+     "publisher": "DPIIT",
+     "series": "DPIIT IEM Part-B and FDI data",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "2.2",
+     "value": "2.2%",
+     "period": "2021-25",
+     "period_end": "2025-12-31",
+     "publisher": "DPIIT",
+     "series": "DPIIT IEM Part-B and FDI data",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "22.8",
+     "value": "22.8%",
+     "period": "2021-25",
+     "period_end": "2025-12-31",
+     "publisher": "DPIIT",
+     "series": "DPIIT IEM Part-B and FDI data",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "₹7,037 crore in capital subsidy to Tarq Semiconductors, plus ₹321 crore in land-cost refund",
+     "value": "₹7,037 crore",
+     "period": null,
+     "period_end": null,
+     "publisher": "PIB / ministry",
+     "series": "Uttar Pradesh Semiconductor Policy",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹321 crore in land-cost refund",
+     "value": "₹321 crore",
+     "period": null,
+     "period_end": null,
+     "publisher": "PIB / ministry",
+     "series": "Uttar Pradesh Semiconductor Policy",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "6,60,254",
+     "value": "6,60,254 ₹cr",
+     "period": "2021-25",
+     "period_end": "2025-12-31",
+     "publisher": "DPIIT",
+     "series": "DPIIT IEM Part-B",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "26,073",
+     "value": "26,073 US$M",
+     "period": "CY2021-25",
+     "period_end": "2025-12-31",
+     "publisher": "DPIIT",
+     "series": "DPIIT FDI state synopsis",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "3,36,487",
+     "value": "3,36,487 ₹cr",
+     "period": "2021-25",
+     "period_end": "2025-12-31",
+     "publisher": "DPIIT",
+     "series": "DPIIT IEM Part-B",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "212",
+     "value": "212 US$M",
+     "period": "CY2021-25",
+     "period_end": "2025-12-31",
+     "publisher": "DPIIT",
+     "series": "DPIIT FDI state synopsis",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "2,37,988",
+     "value": "2,37,988 ₹cr",
+     "period": "2021-25",
+     "period_end": "2025-12-31",
+     "publisher": "DPIIT",
+     "series": "DPIIT IEM Part-B",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "82,870",
+     "value": "82,870 US$M",
+     "period": "CY2021-25",
+     "period_end": "2025-12-31",
+     "publisher": "DPIIT",
+     "series": "DPIIT FDI state synopsis",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "1,40,445",
+     "value": "1,40,445 ₹cr",
+     "period": "2021-25",
+     "period_end": "2025-12-31",
+     "publisher": "DPIIT",
+     "series": "DPIIT IEM Part-B",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "1,435",
+     "value": "1,435 US$M",
+     "period": "CY2021-25",
+     "period_end": "2025-12-31",
+     "publisher": "DPIIT",
+     "series": "DPIIT FDI state synopsis",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "73,954",
+     "value": "73,954 ₹cr",
+     "period": "2021-25",
+     "period_end": "2025-12-31",
+     "publisher": "DPIIT",
+     "series": "DPIIT IEM Part-B",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "2,291",
+     "value": "2,291 US$M",
+     "period": "CY2021-25",
+     "period_end": "2025-12-31",
+     "publisher": "DPIIT",
+     "series": "DPIIT FDI state synopsis",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "44,627",
+     "value": "44,627 ₹cr",
+     "period": "2021-25",
+     "period_end": "2025-12-31",
+     "publisher": "DPIIT",
+     "series": "DPIIT IEM Part-B",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "15,826",
+     "value": "15,826 US$M",
+     "period": "CY2021-25",
+     "period_end": "2025-12-31",
+     "publisher": "DPIIT",
+     "series": "DPIIT FDI state synopsis",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "42,463",
+     "value": "42,463 ₹cr",
+     "period": "2021-25",
+     "period_end": "2025-12-31",
+     "publisher": "DPIIT",
+     "series": "DPIIT IEM Part-B",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "58,149",
+     "value": "58,149 US$M",
+     "period": "CY2021-25",
+     "period_end": "2025-12-31",
+     "publisher": "DPIIT",
+     "series": "DPIIT FDI state synopsis",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "₹9,555 crore",
+     "value": "₹9,555 crore",
+     "period": "October 2019 to December 2024",
+     "period_end": "2024-12-31",
+     "publisher": "DPIIT",
+     "series": "DPIIT state synopsis",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹8,813 crore",
+     "value": "₹8,813 crore",
+     "period": "October 2019 to December 2024",
+     "period_end": "2024-12-31",
+     "publisher": "DPIIT",
+     "series": "DPIIT state synopsis",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹8,278 crore",
+     "value": "₹8,278 crore",
+     "period": "October 2019 to December 2024",
+     "period_end": "2024-12-31",
+     "publisher": "DPIIT",
+     "series": "DPIIT state synopsis",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹8,341 crore",
+     "value": "₹8,341 crore",
+     "period": "October 2019 to December 2024",
+     "period_end": "2024-12-31",
+     "publisher": "DPIIT",
+     "series": "DPIIT state synopsis",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹7,642 crore",
+     "value": "₹7,642 crore",
+     "period": "October 2019 to December 2024",
+     "period_end": "2024-12-31",
+     "publisher": "DPIIT",
+     "series": "DPIIT state synopsis",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "cumulative disbursal has since risen to ₹36,754 crore as of 30 June 2026",
+     "value": "₹36,754 crore",
+     "period": "as of 30 June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "PIB / ministry",
+     "series": "Production-Linked Incentive schemes",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "33.8% Gujarat's share of India's implemented industrial investment, FY2021-25 (₹6.60 lakh cr of ₹19.52 lakh cr national total)",
+     "value": "33.8% (₹6.60 lakh cr)",
+     "period": "FY2021-25",
+     "period_end": "2025-03-31",
+     "publisher": "DPIIT",
+     "series": "IEM Part-B (Implemented Investment)",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "₹6.60 lakh cr of ₹19.52 lakh cr national total",
+     "value": "₹19.52 lakh cr",
+     "period": "FY2021-25",
+     "period_end": "2025-03-31",
+     "publisher": "DPIIT",
+     "series": "IEM Part-B (Implemented Investment)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "22.8% vs 2.2% Karnataka's FDI share vs. its implementation share",
+     "value": "22.8% (FDI share), 2.2% (implementation share)",
+     "period": "CY2021–25",
+     "period_end": "2025-12-31",
+     "publisher": "DPIIT",
+     "series": "FDI State Synopsis and IEM Part-B",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "~15% National PLI disbursed (₹28,748cr) against a ₹1.91–1.97 lakh cr outlay",
+     "value": "₹28,748 cr (disbursed), ₹1.91–1.97 lakh cr (outlay)",
+     "period": null,
+     "period_end": null,
+     "publisher": "PIB",
+     "series": "PLI Scheme Disbursement",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "₹0 ACC Battery Storage PLI disbursed of an ₹18,100cr outlay, as of 31 Dec 2025",
+     "value": "₹0 (disbursed), ₹18,100 cr (outlay)",
+     "period_end": "2025-12-31",
+     "publisher": "PIB",
+     "series": "ACC Battery Storage PLI Scheme",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "₹7,037 crore in capital subsidy to Tarq Semiconductors, plus ₹321 crore in land-cost refund",
+     "value": "₹7,037 cr (capital subsidy), ₹321 cr (land-cost refund)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Uttar Pradesh",
+     "series": "Semiconductor Policy 2024",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "35–50% capex ceiling by tier; +40% of central ISM subsidy (~20pp, to ~70% total)",
+     "value": "35–50% (capex ceiling), +40% (semiconductor top-up)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Gujarat",
+     "series": "Viksit Gujarat Industrial Policy 2026",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "+50pp on ISM; ECMS top-up equals central payout (doubles it)",
+     "value": "+50 percentage points (ISM top-up), doubles central payout (ECMS)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Uttar Pradesh",
+     "series": "Semiconductor Policy 2024 and ECMS 2025",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "100% SGST reimbursement, 15 years, no cap",
+     "value": "100% SGST reimbursement, 15 years, no rupee ceiling",
+     "period": null,
+     "period_end": null,
+     "publisher": "Tamil Nadu",
+     "series": "Industrial Policy 2021",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "75% SGST reimbursement (7yr) OR 13–28% capital subsidy (10yr) OR 1.2–2.0% of turnover (10yr)",
+     "value": "75% SGST reimbursement (7 years), 13–28% capital subsidy (10 years), 1.2–2.0% of turnover (10 years)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Rajasthan",
+     "series": "RIPS 2024",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Up to 100–125% of fixed capital investment, absolute cap ₹500cr; 75% SGST reimbursement",
+     "value": "100–125% of fixed capital investment (₹500 cr cap), 75% SGST reimbursement",
+     "period": null,
+     "period_end": null,
+     "publisher": "Punjab",
+     "series": "IBDP 2026",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "20–30% of plant & machinery cost with NO upper limit; 100% net SGST reimbursement up to 200–300%",
+     "value": "20–30% of plant & machinery cost (uncapped), 100–300% SGST reimbursement",
+     "period": null,
+     "period_end": null,
+     "publisher": "Odisha",
+     "series": "IPR 2022",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "10–25% of fixed assets by zone, OR 1.0–2.5% of net sales turnover for 7 years",
+     "value": "10–25% of fixed assets, 1.0–2.5% of net sales turnover (7 years)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Karnataka",
+     "series": "Industrial Policy 2025-30",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹3,736cr confirmed arrears (overlapping counts run higher, >₹4,500cr since 2016-17)",
+     "value": "₹3,736 cr (confirmed arrears), >₹4,500 cr (total since 2016-17)",
+     "period": "2016-17 to present",
+     "period_end": null,
+     "publisher": "Telangana",
+     "series": "Industrial Incentive Arrears",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "₹3,000–5,000cr pending; prior-government-era disbursal averaged only ~₹2,000cr over 5 years",
+     "value": "₹3,000–5,000 cr (pending), ~₹2,000 cr (annual disbursal)",
+     "period": "5-year prior government era",
+     "period_end": null,
+     "publisher": "Andhra Pradesh",
+     "series": "Industrial Incentive Arrears",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "~₹83cr disbursed in FY24 against a ₹28,400cr outlay under its industrial policy",
+     "value": "₹83 cr (disbursed), ₹28,400 cr (outlay)",
+     "period": "FY2024",
+     "period_end": "2024-03-31",
+     "publisher": "Jammu & Kashmir",
+     "series": "Industrial Policy",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "₹765.78cr FY25, +293% YoY",
+     "value": "₹765.78 cr (FY2025), +293% YoY",
+     "period": "FY2025",
+     "period_end": "2025-03-31",
+     "publisher": "Rajasthan",
+     "series": "RIPS Disbursal",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "₹7,864cr to ~1.3 lakh MSMEs, FY2020-21 to FY2024-25",
+     "value": "₹7,864 cr (total), ~1.3 lakh MSMEs",
+     "period": "FY2020-21 to FY2024-25",
+     "period_end": "2024-03-31",
+     "publisher": "Gujarat",
+     "series": "MSME Track Disbursal",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "₹28,748cr disbursed as of 31 Dec 2025",
+     "value": "₹28,748 cr",
+     "period_end": "2025-12-31",
+     "publisher": "PIB",
+     "series": "PLI Scheme Disbursement",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "₹36,754 crore as of 30 June 2026 (₹15,519 crore disbursed in FY2025-26 alone)",
+     "value": "₹36,754 cr (total), ₹15,519 cr (FY2025-26)",
+     "period": "FY2025-26, Q1 FY2026-27",
+     "period_end": "2026-06-30",
+     "publisher": "DPIIT",
+     "series": "PLI Scheme Disbursement",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "₹1.91–1.97 lakh cr outlay",
+     "value": "₹1.91–1.97 lakh cr",
+     "period": null,
+     "period_end": null,
+     "publisher": "PIB",
+     "series": "PLI Scheme Outlay",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "₹2.58 lakh cr in actual realised investment",
+     "value": "₹2.58 lakh cr",
+     "period": null,
+     "period_end": null,
+     "publisher": "DPIIT",
+     "series": "PLI Scheme Realised Investment",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "₹23.79 lakh cr in production/sales",
+     "value": "₹23.79 lakh cr",
+     "period": null,
+     "period_end": null,
+     "publisher": "DPIIT",
+     "series": "PLI Scheme Production/Sales",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "14.57 lakh direct-plus-indirect jobs",
+     "value": "14.57 lakh jobs",
+     "period": null,
+     "period_end": null,
+     "publisher": "DPIIT",
+     "series": "PLI Scheme Employment",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "₹15,554cr combined (Electronics LSEM+ITHW) ~137% of committed target",
+     "value": "₹15,554 cr (disbursed), ~137% of target",
+     "period": null,
+     "period_end": null,
+     "publisher": "PIB",
+     "series": "Electronics PLI Scheme",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "₹5,433cr (Pharmaceuticals formulations) 36%",
+     "value": "₹5,433 cr (disbursed), 36% of outlay",
+     "period": null,
+     "period_end": null,
+     "publisher": "PIB",
+     "series": "Pharmaceuticals PLI Scheme",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "₹1,175cr (Telecom & Networking) ~9.6%",
+     "value": "₹1,175 cr (disbursed), ~9.6% of outlay",
+     "period": null,
+     "period_end": null,
+     "publisher": "PIB",
+     "series": "Telecom & Networking PLI Scheme",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "₹2,378cr (Automobile & Auto Components) 9.2%",
+     "value": "₹2,378 cr (disbursed), 9.2% of outlay",
+     "period": null,
+     "period_end": null,
+     "publisher": "PIB",
+     "series": "Automobile PLI Scheme",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "₹157cr (Medical Devices) 4.6%",
+     "value": "₹157 cr (disbursed), 4.6% of outlay",
+     "period": null,
+     "period_end": null,
+     "publisher": "PIB",
+     "series": "Medical Devices PLI Scheme",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "₹281cr (White Goods) 4.5%",
+     "value": "₹281 cr (disbursed), 4.5% of outlay",
+     "period": null,
+     "period_end": null,
+     "publisher": "PIB",
+     "series": "White Goods PLI Scheme",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "₹55cr (Bulk Drugs) 0.8%",
+     "value": "₹55 cr (disbursed), 0.8% of outlay",
+     "period": null,
+     "period_end": null,
+     "publisher": "PIB",
+     "series": "Bulk Drugs PLI Scheme",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "₹48cr (Specialty Steel) 0.8%",
+     "value": "₹48 cr (disbursed), 0.8% of outlay",
+     "period": null,
+     "period_end": null,
+     "publisher": "PIB",
+     "series": "Specialty Steel PLI Scheme",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "₹54.5cr (Textiles) 0.5% (paid to exactly 2 companies)",
+     "value": "₹54.5 cr (disbursed), 0.5% of outlay",
+     "period": null,
+     "period_end": null,
+     "publisher": "PIB",
+     "series": "Textiles PLI Scheme",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "₹0 (Solar PV Modules) 0% by design",
+     "value": "₹0 (disbursed), 0% of outlay",
+     "period": null,
+     "period_end": null,
+     "publisher": "PIB",
+     "series": "Solar PV PLI Scheme",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "₹26,073 US$M (FDI) for Gujarat, 10.2% of national total",
+     "value": "₹26,073 US$M (FDI), 10.2% of national total",
+     "period": "CY2021–25",
+     "period_end": "2025-12-31",
+     "publisher": "DPIIT",
+     "series": "FDI State Synopsis",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "₹212 US$M (FDI) for Odisha, 0.08% of national total",
+     "value": "₹212 US$M (FDI), 0.08% of national total",
+     "period": "CY2021–25",
+     "period_end": "2025-12-31",
+     "publisher": "DPIIT",
+     "series": "FDI State Synopsis",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "₹82,870 US$M (FDI) for Maharashtra, 32.5% of national total",
+     "value": "₹82,870 US$M (FDI), 32.5% of national total",
+     "period": "CY2021–25",
+     "period_end": "2025-12-31",
+     "publisher": "DPIIT",
+     "series": "FDI State Synopsis",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "₹15,826 US$M (FDI) for Tamil Nadu, 6.2% of national total",
+     "value": "₹15,826 US$M (FDI), 6.2% of national total",
+     "period": "CY2021–25",
+     "period_end": "2025-12-31",
+     "publisher": "DPIIT",
+     "series": "FDI State Synopsis",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "₹58,149 US$M (FDI) for Karnataka, 22.8% of national total",
+     "value": "₹58,149 US$M (FDI), 22.8% of national total",
+     "period": "CY2021–25",
+     "period_end": "2025-12-31",
+     "publisher": "DPIIT",
+     "series": "FDI State Synopsis",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "₹24.26 crore ($2.88 million) FDI equity inflow in FY2024-25 for Assam",
+     "value": "₹24.26 crore ($2.88 million)",
+     "period": "FY2024-25",
+     "period_end": "2024-03-31",
+     "publisher": "DPIIT",
+     "series": "FDI Equity Inflow",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "₹19,51,828 crore nationally implemented projects worth across 4,859 projects",
+     "value": "₹19,51,828 crore",
+     "period": "2021–25",
+     "period_end": "2025-12-31",
+     "publisher": "DPIIT",
+     "series": "IEM Part-B",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "₹6,60,254 crore implemented investment for Gujarat",
+     "value": "₹6,60,254 crore",
+     "period": "2021–25",
+     "period_end": "2025-12-31",
+     "publisher": "DPIIT",
+     "series": "IEM Part-B",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "₹3,36,487 crore implemented investment for Odisha",
+     "value": "₹3,36,487 crore",
+     "period": "2021–25",
+     "period_end": "2025-12-31",
+     "publisher": "DPIIT",
+     "series": "IEM Part-B",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "₹2,37,988 crore implemented investment for Maharashtra",
+     "value": "₹2,37,988 crore",
+     "period": "2021–25",
+     "period_end": "2025-12-31",
+     "publisher": "DPIIT",
+     "series": "IEM Part-B",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "₹1,40,445 crore implemented investment for Andhra Pradesh",
+     "value": "₹1,40,445 crore",
+     "period": "2021–25",
+     "period_end": "2025-12-31",
+     "publisher": "DPIIT",
+     "series": "IEM Part-B",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "₹73,954 crore implemented investment for Uttar Pradesh",
+     "value": "₹73,954 crore",
+     "period": "2021–25",
+     "period_end": "2025-12-31",
+     "publisher": "DPIIT",
+     "series": "IEM Part-B",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "₹44,627 crore implemented investment for Tamil Nadu",
+     "value": "₹44,627 crore",
+     "period": "2021–25",
+     "period_end": "2025-12-31",
+     "publisher": "DPIIT",
+     "series": "IEM Part-B",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "₹42,463 crore implemented investment for Karnataka",
+     "value": "₹42,463 crore",
+     "period": "2021–25",
+     "period_end": "2025-12-31",
+     "publisher": "DPIIT",
+     "series": "IEM Part-B",
+     "frequency": "annual",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

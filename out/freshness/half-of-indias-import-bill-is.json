@@ -1,0 +1,479 @@
+{
+ "slug": "half-of-indias-import-bill-is",
+ "text_sha1": "082efcfc3add020c",
+ "chars": 11734,
+ "checked": "2026-10-23T11:53:31",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "India's merchandise trade deficit hit −$334 billion in FY2025-26.",
+     "value": "-$334 billion",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "Merchandise trade deficit",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "it is $372 billion of imports, 48% of everything the country buys abroad",
+     "value": "$372 billion",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "Commodity imports",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "The FY2025-26 headline: total merchandise imports $776 bn, exports $442 bn, deficit −$334 bn (PIB/DGCI&S provisional)",
+     "value": "$776 bn",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "PIB / DGCI&S",
+     "series": "Total merchandise imports",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "total merchandise imports $776 bn, exports $442 bn, deficit −$334 bn",
+     "value": "$442 bn",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "PIB / DGCI&S",
+     "series": "Total merchandise exports",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Mineral fuels (ch. 27) — crude, products, coal, LNG | 203.4 | 26.2",
+     "value": "$203.4bn",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "TRADESTAT/DGCI&S",
+     "series": "Mineral fuels imports",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Precious metals & stones (ch. 71) | 109.4 | 14.1",
+     "value": "$109.4bn",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "TRADESTAT/DGCI&S",
+     "series": "Precious metals & stones imports",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "— of which bare gold (HS 7108) alone | 72.0 | 9.3",
+     "value": "$72.0bn",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "TRADESTAT/DGCI&S",
+     "series": "Bare gold imports",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Base-metal chapters (Fe, Cu, Al, Pb, Zn, Ni, Sn + ores) | ~ 59 | ~7.6",
+     "value": "~$59bn",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "TRADESTAT/DGCI&S",
+     "series": "Base-metal chapters imports",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Commodity total | 372.3 | 48",
+     "value": "$372.3bn",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "TRADESTAT/DGCI&S",
+     "series": "Commodity total imports",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Silver imports rose 2.5× to $12.1 bn in a single year (from $4.8 bn).",
+     "value": "$12.1 bn",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "TRADESTAT/DGCI&S",
+     "series": "Silver imports",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Silver imports rose 2.5× to $12.1 bn in a single year (from $4.8 bn).",
+     "value": "$4.8 bn",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "TRADESTAT/DGCI&S",
+     "series": "Silver imports",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "copper scrap imports of $3.4 bn and aluminium scrap imports of $4.6 bn",
+     "value": "$3.4 bn",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "TRADESTAT/DGCI&S",
+     "series": "Copper scrap imports",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "copper scrap imports of $3.4 bn and aluminium scrap imports of $4.6 bn",
+     "value": "$4.6 bn",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "TRADESTAT/DGCI&S",
+     "series": "Aluminium scrap imports",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "In FY2025-26, India's lead exports (chapter 78, $1.27 bn) exceeded its lead imports ($1.17 bn)",
+     "value": "$1.27 bn",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "TRADESTAT/DGCI&S",
+     "series": "Lead exports",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "India's lead exports (chapter 78, $1.27 bn) exceeded its lead imports ($1.17 bn)",
+     "value": "$1.17 bn",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "TRADESTAT/DGCI&S",
+     "series": "Lead imports",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Jain Resource Recycling | Non-ferrous scrap → LME-brand lead, copper, aluminium | 9,543 | +76 | 3.4 | 34",
+     "value": "9,543 ₹ cr",
+     "period": "TTM",
+     "period_end": "2026-08-03",
+     "publisher": "yfinance",
+     "series": "Jain Resource Recycling Revenue TTM",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "Gravita India | Lead + Al + plastics, multinational smelting | 4,700 | +42 | 9.7 | 31",
+     "value": "4,700 ₹ cr",
+     "period": "TTM",
+     "period_end": "2026-08-03",
+     "publisher": "yfinance",
+     "series": "Gravita India Revenue TTM",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "Pondy Oxides | Secondary lead → copper diversification | 2,958 | +79 | 5.7 | 31",
+     "value": "2,958 ₹ cr",
+     "period": "TTM",
+     "period_end": "2026-08-03",
+     "publisher": "yfinance",
+     "series": "Pondy Oxides Revenue TTM",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "Nile Ltd | Secondary lead → Li-ion battery recycling | 1,041 | +21 | 6.6 | —",
+     "value": "1,041 ₹ cr",
+     "period": "TTM",
+     "period_end": "2026-08-03",
+     "publisher": "yfinance",
+     "series": "Nile Ltd Revenue TTM",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "Nupur Recyclers | Non-ferrous scrap (Al/Cu), small scale | 217 | +49 | 5.0 | 53",
+     "value": "217 ₹ cr",
+     "period": "TTM",
+     "period_end": "2026-08-03",
+     "publisher": "yfinance",
+     "series": "Nupur Recyclers Revenue TTM",
+     "frequency": "quarterly",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "India's merchandise trade deficit hit −$334 billion in FY2025-26.",
+     "value": "-$334 billion",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "PIB / DGCI&S",
+     "series": "Merchandise trade balance (provisional)",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "This piece traces that structural half of the deficit through the Commerce Ministry's own TRADESTAT data, and then asks... $372 billion of imports, 48% of everything the country buys abroad.",
+     "value": "$372 billion",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TRADESTAT (commodity imports)",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "total merchandise imports $776 bn, exports $442 bn, deficit −$334 bn (PIB/DGCI&S provisional)",
+     "value": "$776 billion",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "PIB / DGCI&S",
+     "series": "Merchandise trade balance (provisional)",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Mineral fuels (ch. 27) — crude, products, coal, LNG | 203.4 | 26.2",
+     "value": "$203.4 billion",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TRADESTAT (HS chapter 27 imports)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Precious metals & stones (ch. 71) | 109.4 | 14.1",
+     "value": "$109.4 billion",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TRADESTAT (HS chapter 71 imports)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "of which bare gold (HS 7108) alone: $72.0bn | 14.1% of imports",
+     "value": "$72.0 billion",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TRADESTAT (HS 7108 imports)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Base metals (Fe/Cu/Al/Pb/Zn/Ni/Sn+ores) | ~$59bn | ~7.6%",
+     "value": "~$59 billion",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TRADESTAT (base metals imports)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "The deficit widened from −$184 bn in FY2018-19.",
+     "value": "-$184 billion",
+     "period": "FY2018-19",
+     "period_end": "2019-03-31",
+     "publisher": "DGCI&S",
+     "series": "Merchandise trade balance",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Oil sets the floor (~$200 bn/yr, price-driven)",
+     "value": "~$200 billion",
+     "period": null,
+     "period_end": null,
+     "publisher": "Mineral-Oil Dashboard (DGCI&S)",
+     "series": "Mineral fuels (HS chapter 27) imports",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "the platinum-group line collapsed −92% ($5.4 bn → $0.4 bn)",
+     "value": "$5.4 billion (collapsed to $0.4 billion)",
+     "period": null,
+     "period_end": null,
+     "publisher": "DGCI&S",
+     "series": "TRADESTAT (platinum-group metals imports)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "silver imports rose 2.5× to $12.1 bn in a single year (from $4.8 bn)",
+     "value": "$12.1 billion (from $4.8 billion)",
+     "period": null,
+     "period_end": null,
+     "publisher": "DGCI&S",
+     "series": "TRADESTAT (silver imports)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "The rupee slid ~12% over the past year (₹86 → ₹96.4)",
+     "value": "~12%",
+     "period": null,
+     "period_end": null,
+     "publisher": null,
+     "series": null,
+     "frequency": null,
+     "headline": false
+    },
+    {
+     "quote": "services surplus (~$189 bn)",
+     "value": "~$189 billion",
+     "period": null,
+     "period_end": null,
+     "publisher": null,
+     "series": null,
+     "frequency": null,
+     "headline": false
+    },
+    {
+     "quote": "copper scrap imports of $3.4 bn and aluminium scrap imports of $4.6 bn",
+     "value": "$3.4 billion (copper scrap), $4.6 billion (aluminium scrap)",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TRADESTAT (scrap imports)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "India's lead exports (chapter 78, $1.27 bn) exceeded its lead imports ($1.17 bn)",
+     "value": "$1.27 billion (exports), $1.17 billion (imports)",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TRADESTAT (lead trade)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Jain Resource Recycling | Revenue (₹ cr) | 9,543",
+     "value": "₹9,543 crore",
+     "period": "TTM (as of 3 Aug 2026)",
+     "period_end": "2026-08-03",
+     "publisher": "yfinance",
+     "series": "Company financials (TTM)",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "Gravita India | Revenue (₹ cr) | 4,700",
+     "value": "₹4,700 crore",
+     "period": "TTM (as of 3 Aug 2026)",
+     "period_end": "2026-08-03",
+     "publisher": "yfinance",
+     "series": "Company financials (TTM)",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "Pondy Oxides | Revenue (₹ cr) | 2,958",
+     "value": "₹2,958 crore",
+     "period": "TTM (as of 3 Aug 2026)",
+     "period_end": "2026-08-03",
+     "publisher": "yfinance",
+     "series": "Company financials (TTM)",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "Nile Ltd | Revenue (₹ cr) | 1,041",
+     "value": "₹1,041 crore",
+     "period": "TTM (as of 3 Aug 2026)",
+     "period_end": "2026-08-03",
+     "publisher": "yfinance",
+     "series": "Company financials (TTM)",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "Nupur Recyclers | Revenue (₹ cr) | 217",
+     "value": "₹217 crore",
+     "period": "TTM (as of 3 Aug 2026)",
+     "period_end": "2026-08-03",
+     "publisher": "yfinance",
+     "series": "Company financials (TTM)",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "₹1.97 lakh crore of forex avoided and 316 lakh MT of crude displaced",
+     "value": "₹1.97 lakh crore, 316 lakh metric tonnes",
+     "period": null,
+     "period_end": null,
+     "publisher": "Annadata to Urjadata (MoP)",
+     "series": "Ethanol blending program results",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Chemical Import Substitution executive summary and the Top-15 deep dive isolate a $67.9 bn deficit across 827 HSN-8 codes",
+     "value": "$67.9 billion",
+     "period": null,
+     "period_end": null,
+     "publisher": "MoC / DPIIT",
+     "series": "Chemical import substitution analysis",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "BPCL/RIL capex as the counterforce (tier base case ~$8.3 bn/yr by FY30)",
+     "value": "~$8.3 billion/year",
+     "period": "FY30 (projected)",
+     "period_end": "2029-03-31",
+     "publisher": "BPCL / RIL",
+     "series": "Capex plans for chemical import substitution",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "urea imports +148%, DAP +76% in FY25-26",
+     "value": "+148% (urea), +76% (DAP)",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "Fertilizer imports",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "₹1,500 crore recycling incentive under the National Critical Mineral Mission",
+     "value": "₹1,500 crore",
+     "period": null,
+     "period_end": null,
+     "publisher": "Ministry of Mines",
+     "series": "National Critical Mineral Mission",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "PV recycling loses ₹10–12k/tonne today, ... 11,221 kilotonnes of cumulative PV waste projected by 2047",
+     "value": "₹10,000–₹12,000/tonne, 11,221 kilotonnes",
+     "period": "2025 (study), 2047 (projection)",
+     "period_end": "2025-11-30, 2047-12-31",
+     "publisher": "CEEW",
+     "series": "Solar PV recycling economics study",
+     "frequency": "one-off"
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,431 @@
+{
+ "slug": "how-to-use-colab-market-fundamentals",
+ "text_sha1": "aafcba5ee9adc5a0",
+ "chars": 9450,
+ "checked": "2026-10-23T12:07:47",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "32,590 tickers in tickers.csv",
+     "value": "32,590 tickers",
+     "period": "2026",
+     "period_end": "2026-10-19",
+     "publisher": "GitHub / authors",
+     "series": "tickers.csv",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "20 market codes",
+     "value": "20 markets",
+     "period": "2026",
+     "period_end": "2026-10-19",
+     "publisher": "GitHub / authors",
+     "series": "tickers.csv",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "3 of 3 IP probe names returned data",
+     "value": "3 names",
+     "period": "2026",
+     "period_end": "2026-10-19",
+     "publisher": "Yahoo Finance",
+     "series": "IP probe",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "12 rows for 3 DE tickers (4 years each)",
+     "value": "12 rows",
+     "period": "2026",
+     "period_end": "2026-10-19",
+     "publisher": "Yahoo Finance",
+     "series": "Annual fundamentals test",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "q": "AU: 1509",
+     "quote": "'AU': 1509",
+     "value": "1509 tickers",
+     "period": "2026",
+     "period_end": "2026-10-19",
+     "publisher": "Yahoo Finance",
+     "series": "tickers.csv universe by market",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "'BR': 243",
+     "value": "243 tickers",
+     "period": "2026",
+     "period_end": "2026-10-19",
+     "publisher": "Yahoo Finance",
+     "series": "tickers.csv universe by market",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "'CA': 2091",
+     "value": "2091 tickers",
+     "period": "2026",
+     "period_end": "2026-10-19",
+     "publisher": "Yahoo Finance",
+     "series": "tickers.csv universe by market",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "'CH': 192",
+     "value": "192 tickers",
+     "period": "2026",
+     "period_end": "2026-10-19",
+     "publisher": "Yahoo Finance",
+     "series": "tickers.csv universe by market",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "'CN': 2895",
+     "value": "2895 tickers",
+     "period": "2026",
+     "period_end": "2026-10-19",
+     "publisher": "Yahoo Finance",
+     "series": "tickers.csv universe by market",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "'DE': 449",
+     "value": "449 tickers",
+     "period": "2026",
+     "period_end": "2026-10-19",
+     "publisher": "Yahoo Finance",
+     "series": "tickers.csv universe by market",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "'DK': 104",
+     "value": "104 tickers",
+     "period": "2026",
+     "period_end": "2026-10-19",
+     "publisher": "Yahoo Finance",
+     "series": "tickers.csv universe by market",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "'EU': 1067",
+     "value": "1067 tickers",
+     "period": "2026",
+     "period_end": "2026-10-19",
+     "publisher": "Yahoo Finance",
+     "series": "tickers.csv universe by market",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "'FI': 171",
+     "value": "171 tickers",
+     "period": "2026",
+     "period_end": "2026-10-19",
+     "publisher": "Yahoo Finance",
+     "series": "tickers.csv universe by market",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "'HK': 2793",
+     "value": "2793 tickers",
+     "period": "2026",
+     "period_end": "2026-10-19",
+     "publisher": "Yahoo Finance",
+     "series": "tickers.csv universe by market",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "'IN': 2368",
+     "value": "2368 tickers",
+     "period": "2026",
+     "period_end": "2026-10-19",
+     "publisher": "Yahoo Finance",
+     "series": "tickers.csv universe by market",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "'JP': 3709",
+     "value": "3709 tickers",
+     "period": "2026",
+     "period_end": "2026-10-19",
+     "publisher": "Yahoo Finance",
+     "series": "tickers.csv universe by market",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "'KR': 2768",
+     "value": "2768 tickers",
+     "period": "2026",
+     "period_end": "2026-10-19",
+     "publisher": "Yahoo Finance",
+     "series": "tickers.csv universe by market",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "'SA': 374",
+     "value": "374 tickers",
+     "period": "2026",
+     "period_end": "2026-10-19",
+     "publisher": "Yahoo Finance",
+     "series": "tickers.csv universe by market",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "'SE': 564",
+     "value": "564 tickers",
+     "period": "2026",
+     "period_end": "2026-10-19",
+     "publisher": "Yahoo Finance",
+     "series": "tickers.csv universe by market",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "'SG': 614",
+     "value": "614 tickers",
+     "period": "2026",
+     "period_end": "2026-10-19",
+     "publisher": "Yahoo Finance",
+     "series": "tickers.csv universe by market",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "'TW': 2204",
+     "value": "2204 tickers",
+     "period": "2026",
+     "period_end": "2026-10-19",
+     "publisher": "Yahoo Finance",
+     "series": "tickers.csv universe by market",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "'UK': 854",
+     "value": "854 tickers",
+     "period": "2026",
+     "period_end": "2026-10-19",
+     "publisher": "Yahoo Finance",
+     "series": "tickers.csv universe by market",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "'US': 7441",
+     "value": "7441 tickers",
+     "period": "2026",
+     "period_end": "2026-10-19",
+     "publisher": "Yahoo Finance",
+     "series": "tickers.csv universe by market",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "'ZA': 180",
+     "value": "180 tickers",
+     "period": "2026",
+     "period_end": "2026-10-19",
+     "publisher": "Yahoo Finance",
+     "series": "tickers.csv universe by market",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "SAP.DE 2024-12-31 3.124e9 3.4176e10 5.207e9 2025-03-31",
+     "value": "3.124e9 EUR net income",
+     "period": "CY2024",
+     "period_end": "2024-12-31",
+     "publisher": "Yahoo Finance",
+     "series": "SAP annual financials",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "SAP.DE 2025-12-31 7.161e9 3.680e10 9.156e9 2026-03-31",
+     "value": "7.161e9 EUR net income",
+     "period": "CY2025",
+     "period_end": "2025-12-31",
+     "publisher": "Yahoo Finance",
+     "series": "SAP annual financials",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "SIE.DE 2024-09-30 8.301e9 7.5930e10 1.1665e10 2024-12-29",
+     "value": "8.301e9 EUR net income",
+     "period": "FY2024",
+     "period_end": "2024-09-30",
+     "publisher": "Yahoo Finance",
+     "series": "Siemens annual financials",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "SIE.DE 2025-09-30 9.620e9 7.8914e10 1.3257e10 2025-12-29",
+     "value": "9.620e9 EUR net income",
+     "period": "FY2025",
+     "period_end": "2025-09-30",
+     "publisher": "Yahoo Finance",
+     "series": "Siemens annual financials",
+     "frequency": "annual",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "32,590 tickers in tickers.csv 20 market codes",
+     "value": "32,590 tickers; 20 markets",
+     "period": null,
+     "period_end": null,
+     "publisher": "yfinance (Yahoo Finance)",
+     "series": "Ticker universe dataset (collected via yfinance)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "universe: 32590 tickers, 20 markets",
+     "value": "32,590 tickers; 20 markets",
+     "period": null,
+     "period_end": null,
+     "publisher": "yfinance (Yahoo Finance)",
+     "series": "Ticker universe dataset (collected via yfinance)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "'AU': 1509, 'BR': 243, 'CA': 2091, 'CH': 192, 'CN': 2895, 'DE': 449, 'DK': 104, 'EU': 1067, 'FI': 171, 'HK': 2793, 'IN': 2368, 'JP': 3709, 'KR': 2768, 'SA': 374, 'SE': 564, 'SG': 614, 'TW': 2204, 'UK': 854, 'US': 7441, 'ZA': 180",
+     "value": "India (IN): 2,368 tickers",
+     "period": null,
+     "period_end": null,
+     "publisher": "yfinance (Yahoo Finance)",
+     "series": "Ticker universe dataset (collected via yfinance)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Three large companies, four fiscal years each, 13 columns.",
+     "value": "4 fiscal years per company",
+     "period": null,
+     "period_end": null,
+     "publisher": "yfinance (Yahoo Finance)",
+     "series": "Company financials (annual)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "SAP.DE 2024-12-31 3.124e9 3.4176e10 5.207e9 2025-03-31",
+     "value": "Net Income: 3.124 billion EUR; Revenue: 34.176 billion EUR; Cash Flow: 5.207 billion EUR",
+     "period": "2024-12-31",
+     "period_end": "2024-12-31",
+     "publisher": "yfinance (Yahoo Finance)",
+     "series": "SAP annual financials",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "SAP.DE 2025-12-31 7.161e9 3.680e10 9.156e9 2026-03-31",
+     "value": "Net Income: 7.161 billion EUR; Revenue: 36.800 billion EUR; Cash Flow: 9.156 billion EUR",
+     "period": "2025-12-31",
+     "period_end": "2025-12-31",
+     "publisher": "yfinance (Yahoo Finance)",
+     "series": "SAP annual financials",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "SIE.DE 2024-09-30 8.301e9 7.5930e10 1.1665e10 2024-12-29",
+     "value": "Net Income: 8.301 billion EUR; Revenue: 75.930 billion EUR; Cash Flow: 11.665 billion EUR",
+     "period": "2024-09-30",
+     "period_end": "2024-09-30",
+     "publisher": "yfinance (Yahoo Finance)",
+     "series": "Siemens annual financials",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "SIE.DE 2025-09-30 9.620e9 7.8914e10 1.3257e10 2025-12-29",
+     "value": "Net Income: 9.620 billion EUR; Revenue: 78.914 billion EUR; Cash Flow: 13.257 billion EUR",
+     "period": "2025-09-30",
+     "period_end": "2025-09-30",
+     "publisher": "yfinance (Yahoo Finance)",
+     "series": "Siemens annual financials",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "The data come from Yahoo Finance through yfinance, so they are third-party and unaudited.",
+     "value": "Five years of annual company financials per market",
+     "period": "2021-2026 (approx.)",
+     "period_end": "2026-12-31",
+     "publisher": "yfinance (Yahoo Finance)",
+     "series": "Company financials (annual)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "The notebook already handles Yahoo blocking, retries and checkpoints.",
+     "value": "Every three minutes",
+     "period": null,
+     "period_end": null,
+     "publisher": "yfinance (Yahoo Finance)",
+     "series": "Data collection frequency",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "The 'filed' date is an assumption (fiscal year end plus 90 days)",
+     "value": "90 days after fiscal year-end",
+     "period": null,
+     "period_end": null,
+     "publisher": "yfinance (Yahoo Finance)",
+     "series": "Filing date estimation",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Ran the notebook's cell 1 logic and collector cell 3 (with probe) locally in a throwaway virtualenv on 19 October 2026",
+     "value": "19 October 2026",
+     "period": "19 October 2026",
+     "period_end": "2026-10-19",
+     "publisher": "Author (Umashankar Triplicane Dwarakanathan)",
+     "series": "Article revision date",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "v1.0.0 — 23 October 2026 — first published.",
+     "value": "23 October 2026",
+     "period": "23 October 2026",
+     "period_end": "2026-10-23",
+     "publisher": "Author (Umashankar Triplicane Dwarakanathan)",
+     "series": "Article publication date",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

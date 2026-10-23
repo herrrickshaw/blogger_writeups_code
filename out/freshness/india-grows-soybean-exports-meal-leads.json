@@ -1,0 +1,640 @@
+{
+ "slug": "india-grows-soybean-exports-meal-leads",
+ "text_sha1": "38a8a7b81386e557",
+ "chars": 21145,
+ "checked": "2026-10-23T12:34:45",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "Madhya Pradesh and Maharashtra between them sow roughly 93 lakh hectares of soybean a year",
+     "value": "93 lakh hectares",
+     "period": "a year",
+     "period_end": null,
+     "publisher": "SOPA / Department of Agriculture & Farmers' Welfare",
+     "series": "State-wise soybean area estimates",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "55.40 \n 50.17 \n 2024-25 final \n 43.25 \n 52.23 \n Kharif 2025 estimate \n Madhya Pradesh \n Maharashtra",
+     "value": "55.40 lakh tonnes",
+     "period": "2024-25 final",
+     "period_end": "2025-03-31",
+     "publisher": "SOPA",
+     "series": "State-wise crop estimates (Madhya Pradesh production)",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "55.40 \n 50.17 \n 2024-25 final \n 43.25 \n 52.23 \n Kharif 2025 estimate \n Madhya Pradesh \n Maharashtra",
+     "value": "50.17 lakh tonnes",
+     "period": "2024-25 final",
+     "period_end": "2025-03-31",
+     "publisher": "SOPA",
+     "series": "State-wise crop estimates (Maharashtra production)",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "55.40 \n 50.17 \n 2024-25 final \n 43.25 \n 52.23 \n Kharif 2025 estimate \n Madhya Pradesh \n Maharashtra",
+     "value": "43.25 lakh tonnes",
+     "period": "Kharif 2025 estimate",
+     "period_end": "2025-10-31",
+     "publisher": "SOPA",
+     "series": "State-wise crop estimates (Madhya Pradesh production)",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "55.40 \n 50.17 \n 2024-25 final \n 43.25 \n 52.23 \n Kharif 2025 estimate \n Madhya Pradesh \n Maharashtra",
+     "value": "52.23 lakh tonnes",
+     "period": "Kharif 2025 estimate",
+     "period_end": "2025-10-31",
+     "publisher": "SOPA",
+     "series": "State-wise crop estimates (Maharashtra production)",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "From 24 September 2026 the basic customs duty on crude palm and crude soybean oil fell from 10% to 5%",
+     "value": "5%",
+     "period": "From 24 September 2026",
+     "period_end": "2026-09-24",
+     "publisher": "Department of Consumer Affairs / PIB",
+     "series": "Basic customs duty on crude palm and crude soybean oil",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "crude sunflower oil went to nil (about 5.5% effective), and refined palm and soybean oil fell from 32.5% to 27.5%, with refined sunflower oil at 22.5%.",
+     "value": "27.5%",
+     "period": "From 24 September 2026",
+     "period_end": "2026-09-24",
+     "publisher": "Department of Consumer Affairs / PIB",
+     "series": "Basic customs duty on refined palm and soybean oil",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "Madhya Pradesh | 52.01 | 1,065 | 55.40 | 2024-25 final |",
+     "value": "52.01 lakh ha",
+     "period": "2024-25 final",
+     "period_end": "2025-03-31",
+     "publisher": "SOPA / Department of Agriculture & Farmers' Welfare",
+     "series": "State-wise soybean sown area (Madhya Pradesh)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Madhya Pradesh | 52.01 | 1,065 | 55.40 | 2024-25 final |",
+     "value": "1,065 kg/ha",
+     "period": "2024-25 final",
+     "period_end": "2025-03-31",
+     "publisher": "SOPA / Department of Agriculture & Farmers' Welfare",
+     "series": "State-wise soybean yield (Madhya Pradesh)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Maharashtra | 45.01 | 1,115 | 50.17 | 2024-25 final |",
+     "value": "45.01 lakh ha",
+     "period": "2024-25 final",
+     "period_end": "2025-03-31",
+     "publisher": "SOPA / Department of Agriculture & Farmers' Welfare",
+     "series": "State-wise soybean sown area (Maharashtra)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Maharashtra | 45.01 | 1,115 | 50.17 | 2024-25 final |",
+     "value": "1,115 kg/ha",
+     "period": "2024-25 final",
+     "period_end": "2025-03-31",
+     "publisher": "SOPA / Department of Agriculture & Farmers' Welfare",
+     "series": "State-wise soybean yield (Maharashtra)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Madhya Pradesh | 48.64 | 889 | 43.25 | Kharif 2025 estimate |",
+     "value": "48.64 lakh ha",
+     "period": "Kharif 2025 estimate",
+     "period_end": "2025-10-31",
+     "publisher": "SOPA / Department of Agriculture & Farmers' Welfare",
+     "series": "State-wise soybean sown area (Madhya Pradesh)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Madhya Pradesh | 48.64 | 889 | 43.25 | Kharif 2025 estimate |",
+     "value": "889 kg/ha",
+     "period": "Kharif 2025 estimate",
+     "period_end": "2025-10-31",
+     "publisher": "SOPA / Department of Agriculture & Farmers' Welfare",
+     "series": "State-wise soybean yield (Madhya Pradesh)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Maharashtra | 44.68 | 1,169 | 52.23 | Kharif 2025 estimate |",
+     "value": "44.68 lakh ha",
+     "period": "Kharif 2025 estimate",
+     "period_end": "2025-10-31",
+     "publisher": "SOPA / Department of Agriculture & Farmers' Welfare",
+     "series": "State-wise soybean sown area (Maharashtra)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Maharashtra | 44.68 | 1,169 | 52.23 | Kharif 2025 estimate |",
+     "value": "1,169 kg/ha",
+     "period": "Kharif 2025 estimate",
+     "period_end": "2025-10-31",
+     "publisher": "SOPA / Department of Agriculture & Farmers' Welfare",
+     "series": "State-wise soybean yield (Maharashtra)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Rajasthan | 9.07 | 705 | 6.39 | Kharif 2025 estimate |",
+     "value": "9.07 lakh ha",
+     "period": "Kharif 2025 estimate",
+     "period_end": "2025-10-31",
+     "publisher": "SOPA / Department of Agriculture & Farmers' Welfare",
+     "series": "State-wise soybean sown area (Rajasthan)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Karnataka | 4.22 | 865 | 3.65 | Kharif 2025 estimate |",
+     "value": "4.22 lakh ha",
+     "period": "Kharif 2025 estimate",
+     "period_end": "2025-10-31",
+     "publisher": "SOPA / Department of Agriculture & Farmers' Welfare",
+     "series": "State-wise soybean sown area (Karnataka)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Telangana | 1.45 | 865 | 1.25 | Kharif 2025 estimate |",
+     "value": "1.45 lakh ha",
+     "period": "Kharif 2025 estimate",
+     "period_end": "2025-10-31",
+     "publisher": "SOPA / Department of Agriculture & Farmers' Welfare",
+     "series": "State-wise soybean sown area (Telangana)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "National output for the 2025-26 oil year is estimated by SOPA at around 105.36 lakh tonnes",
+     "value": "105.36 lakh tonnes",
+     "period": "2025-26 oil year",
+     "period_end": "2026-09-30",
+     "publisher": "SOPA",
+     "series": "National soybean output estimate",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "national maize area rose to roughly 93.34 lakh hectares in 2025 from 83.58 lakh hectares in 2024",
+     "value": "93.34 lakh hectares",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "Department of Agriculture & Farmers' Welfare",
+     "series": "National maize sown area",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "the government's floor price of ₹4,892 per 100kg has been running 10-20% above actual mandi prices since the October 2024 marketing year began",
+     "value": "₹4,892 per 100kg",
+     "period": "October 2024 marketing year",
+     "period_end": "2025-09-30",
+     "publisher": "CACP / Ministry of Agriculture",
+     "series": "Soybean Minimum Support Price (MSP)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "The state government disbursed ₹653 crore to 8.84 lakh farmers across 3,554 villages",
+     "value": "₹653 crore",
+     "period": "Kharif 2025",
+     "period_end": "2025-10-31",
+     "publisher": "Madhya Pradesh Farmer Welfare and Agriculture Development Department",
+     "series": "Crop-loss compensation disbursed",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "covering roughly 6.53 lakh hectares of combined rain-and-YMV crop damage",
+     "value": "6.53 lakh hectares",
+     "period": "Kharif 2025",
+     "period_end": "2025-10-31",
+     "publisher": "Madhya Pradesh Farmer Welfare and Agriculture Development Department",
+     "series": "Crop damage area covered by compensation",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Soybean MSP for the season was set at ₹5,328 per quintal",
+     "value": "₹5,328 per quintal",
+     "period": "Kharif 2025",
+     "period_end": "2025-10-31",
+     "publisher": "CACP / Ministry of Agriculture",
+     "series": "Soybean Minimum Support Price (MSP)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "while mandi prices were running ₹3,800–4,000/quintal",
+     "value": "₹3,800–4,000/quintal",
+     "period": "Kharif 2025",
+     "period_end": "2025-10-31",
+     "publisher": "Department of Agriculture / Mandi data",
+     "series": "Soybean mandi prices",
+     "frequency": "daily",
+     "headline": false
+    },
+    {
+     "quote": "In late October 2025 the Union government cleared a combined ₹15,000 crore Kharif procurement package for soybean across four states",
+     "value": "₹15,000 crore",
+     "period": "late October 2025",
+     "period_end": "2025-10-31",
+     "publisher": "Union Ministry of Agriculture / Central Government",
+     "series": "Kharif soybean procurement package",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India exported around 21 lakh tonnes of soybean meal in 2023-24, up 16% on the year",
+     "value": "21 lakh tonnes",
+     "period": "2023-24",
+     "period_end": "2024-03-31",
+     "publisher": "SOPA / DGCI&S",
+     "series": "Soybean meal exports",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "with soymeal exports for October 2023-June 2024 running at 19.5 lakh tonnes.",
+     "value": "19.5 lakh tonnes",
+     "period": "October 2023-June 2024",
+     "period_end": "2024-06-30",
+     "publisher": "SOPA / DGCI&S",
+     "series": "Soybean meal exports",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "India's oilmeal exports fell 51% year-on-year to just 1.62 lakh tonnes in November 2025",
+     "value": "1.62 lakh tonnes",
+     "period": "November 2025",
+     "period_end": "2025-11-30",
+     "publisher": "SEA / DGCI&S",
+     "series": "Oilmeal exports",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "In May 2025 the government cut the import duty on crude soybean, sunflower and palm oil from 20% to 10%",
+     "value": "10%",
+     "period": "May 2025",
+     "period_end": "2025-05-31",
+     "publisher": "Ministry of Finance / CBIC",
+     "series": "Import duty on crude edible oil",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "By shipment count, India is the world's largest soy lecithin exporter (8,582 shipments)",
+     "value": "8,582 shipments",
+     "period": null,
+     "period_end": null,
+     "publisher": "Volza",
+     "series": "Soy lecithin export shipments count (HSN 2923 / 29232010)",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "India tofu market | $36.2 million (2024) | $109.1 million (2035) | ~10.5% |",
+     "value": "$36.2 million",
+     "period": "2024",
+     "period_end": "2024-12-31",
+     "publisher": "IMARC / Mordor Intelligence / Spherical Insights",
+     "series": "India tofu market size",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India soy protein market | $571.8 million (2025) | $761.9 million (2030) | ~5.9% |",
+     "value": "$571.8 million",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "IMARC / Mordor Intelligence / Spherical Insights",
+     "series": "India soy protein market size",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India plant-based protein market (broader category) | $634-779 million (2025, per differing vendor reports)",
+     "value": "$634-779 million",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "IMARC / Mordor Intelligence / Spherical Insights",
+     "series": "India plant-based protein market size",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "Madhya Pradesh and Maharashtra between them sow roughly 93 lakh hectares of soybean a year",
+     "value": "93 lakh hectares",
+     "period": "annual",
+     "period_end": null,
+     "publisher": "SOPA (Soybean Processors Association of India)",
+     "series": "State-wise sown area estimates for soybean",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Madhya Pradesh's soybean output fell and Maharashtra's rose between the two most recent seasons — a reversal tied to a Yellow Mosaic Virus outbreak in MP's Mandsaur belt.",
+     "value": "55.40 lakh tonnes (MP, 2024-25 final) vs 50.17 lakh tonnes (MH, 2024-25 final)",
+     "period": "2024-25 final",
+     "period_end": "2025-03-31",
+     "publisher": "SOPA",
+     "series": "State-wise soybean production estimates",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Madhya Pradesh | 52.01 | 1,065 | 55.40 | 2024-25 final",
+     "value": "55.40 lakh tonnes",
+     "period": "2024-25 final",
+     "period_end": "2025-03-31",
+     "publisher": "SOPA (compiled from Department of Agriculture & Farmers' Welfare)",
+     "series": "Madhya Pradesh soybean production",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Maharashtra | 45.01 | 1,115 | 50.17 | 2024-25 final",
+     "value": "50.17 lakh tonnes",
+     "period": "2024-25 final",
+     "period_end": "2025-03-31",
+     "publisher": "SOPA (compiled from Department of Agriculture & Farmers' Welfare)",
+     "series": "Maharashtra soybean production",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Madhya Pradesh | 48.64 | 889 | 43.25 | Kharif 2025 estimate",
+     "value": "43.25 lakh tonnes",
+     "period": "Kharif 2025 estimate",
+     "period_end": "2025-11-30",
+     "publisher": "SOPA (compiled from Department of Agriculture & Farmers' Welfare)",
+     "series": "Madhya Pradesh soybean production (estimate)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Maharashtra | 44.68 | 1,169 | 52.23 | Kharif 2025 estimate",
+     "value": "52.23 lakh tonnes",
+     "period": "Kharif 2025 estimate",
+     "period_end": "2025-11-30",
+     "publisher": "SOPA (compiled from Department of Agriculture & Farmers' Welfare)",
+     "series": "Maharashtra soybean production (estimate)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "National output for the 2025-26 oil year is estimated by SOPA at around 105.36 lakh tonnes, down roughly 16% from the prior season's 125.82 lakh tonnes.",
+     "value": "105.36 lakh tonnes (2025-26) and 125.82 lakh tonnes (prior season)",
+     "period": "2025-26 oil year",
+     "period_end": "2026-03-31",
+     "publisher": "SOPA",
+     "series": "National soybean production estimates",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "India exported around 21 lakh tonnes of soybean meal in 2023-24, up 16% on the year, with soymeal exports for October 2023-June 2024 running at 19.5 lakh tonnes.",
+     "value": "21 lakh tonnes (2023-24) and 19.5 lakh tonnes (Oct 2023-Jun 2024)",
+     "period": "2023-24 and partial 2024",
+     "period_end": "2024-06-30",
+     "publisher": "ExportImportData.in and Business Standard",
+     "series": "Soybean meal export volumes",
+     "frequency": "annual/partial-year",
+     "headline": false
+    },
+    {
+     "quote": "India's oilmeal exports fell 51% year-on-year to just 1.62 lakh tonnes in November 2025",
+     "value": "1.62 lakh tonnes",
+     "period": "November 2025",
+     "period_end": "2025-11-30",
+     "publisher": "Business Standard",
+     "series": "Soybean meal export volumes",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "India still imports roughly two-thirds of its total vegetable-oil demand",
+     "value": "two-thirds (~66.67%)",
+     "period": null,
+     "period_end": null,
+     "publisher": "USDA FAS Oilseeds and Products",
+     "series": "India's vegetable-oil import dependence",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "palm oil alone covers 55-60% of that import bill, with soybean oil (mainly from Argentina and Brazil) and sunflower oil making up most of the rest.",
+     "value": "55-60% (palm oil) and unspecified shares (soybean/sunflower oil)",
+     "period": null,
+     "period_end": null,
+     "publisher": "USDA FAS Oilseeds and Products",
+     "series": "India's vegetable-oil import composition",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "The duty cut described below has since gone further. From 24 September 2026 the basic customs duty on crude palm and crude soybean oil fell from 10% to 5% (total effective duty about 11%, down from 16.5%)",
+     "value": "10% to 5% (effective duty 16.5% to 11%)",
+     "period": "24 September 2026",
+     "period_end": "2026-09-24",
+     "publisher": "Department of Consumer Affairs (PIB)",
+     "series": "Customs duty on crude palm and soybean oil",
+     "frequency": "one-off update",
+     "headline": false
+    },
+    {
+     "quote": "crude sunflower oil went to nil (about 5.5% effective)",
+     "value": "0% (effective duty ~5.5%)",
+     "period": "24 September 2026",
+     "period_end": "2026-09-24",
+     "publisher": "Department of Consumer Affairs (PIB)",
+     "series": "Customs duty on crude sunflower oil",
+     "frequency": "one-off update",
+     "headline": false
+    },
+    {
+     "quote": "refined palm and soybean oil fell from 32.5% to 27.5%, with refined sunflower oil at 22.5%",
+     "value": "32.5% to 27.5% (palm/soybean) and 22.5% (sunflower)",
+     "period": "24 September 2026",
+     "period_end": "2026-09-24",
+     "publisher": "Department of Consumer Affairs (PIB)",
+     "series": "Customs duty on refined oils",
+     "frequency": "one-off update",
+     "headline": false
+    },
+    {
+     "quote": "Madhya Pradesh's soybean belt, particularly the Mandsaur district cluster, faced a serious Yellow Mosaic Virus outbreak in 2025",
+     "value": "Yellow Mosaic Virus outbreak in Mandsaur district (2025)",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "Global Agriculture and World Grain",
+     "series": "Crop disease reports",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "MP disbursed ₹653 crore to 8.84 lakh farmers across 3,554 villages",
+     "value": "₹653 crore",
+     "period": null,
+     "period_end": null,
+     "publisher": "The Hans India and similar wire-service reporting",
+     "series": "MP crop-loss compensation disbursement",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹653 crore ... covering roughly 6.53 lakh hectares of combined rain-and-YMV crop damage",
+     "value": "6.53 lakh hectares",
+     "period": null,
+     "period_end": null,
+     "publisher": "Madhya Pradesh government",
+     "series": "Crop damage area covered by compensation",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Union government cleared a combined ₹15,000 crore Kharif procurement package for soybean across four states",
+     "value": "₹15,000 crore",
+     "period": "late October 2025",
+     "period_end": "2025-10-31",
+     "publisher": "Union Agriculture Ministry (reported by Business Standard, mandibhav.com)",
+     "series": "Kharif soybean procurement package",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Telangana's share of that package was 25%",
+     "value": "25%",
+     "period": "late October 2025",
+     "period_end": "2025-10-31",
+     "publisher": "Union Agriculture Ministry (reported by Business Standard)",
+     "series": "Telangana's share of procurement package",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Telangana's own soybean base is small next to MP and Maharashtra — 1.25 lakh tonnes in the Kharif 2025 estimate",
+     "value": "1.25 lakh tonnes",
+     "period": "Kharif 2025 estimate",
+     "period_end": "2025-11-30",
+     "publisher": "SOPA (compiled from Department of Agriculture & Farmers' Welfare)",
+     "series": "Telangana soybean production (estimate)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Soybean MSP for the season was set at ₹5,328 per quintal, while mandi prices were running ₹3,800–4,000/quintal",
+     "value": "₹5,328/quintal (MSP) and ₹3,800–4,000/quintal (mandi)",
+     "period": "late October 2025",
+     "period_end": "2025-10-31",
+     "publisher": "Union Agriculture Ministry (reported by Business Standard)",
+     "series": "Soybean MSP vs. mandi prices",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "national maize area rose to roughly 93.34 lakh hectares in 2025 from 83.58 lakh hectares in 2024",
+     "value": "93.34 lakh hectares (2025) and 83.58 lakh hectares (2024)",
+     "period": "2024 and 2025",
+     "period_end": "2025-12-31",
+     "publisher": "Global Agriculture reporting",
+     "series": "Maize sown area",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "India is the world's largest soy lecithin exporter (8,582 shipments)",
+     "value": "8,582 shipments",
+     "period": null,
+     "period_end": null,
+     "publisher": "Volza trade-data compilations",
+     "series": "Soy lecithin export shipment counts",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "India tofu market | $36.2 million (2024) | $109.1 million (2035)",
+     "value": "$36.2 million (2024) and $109.1 million (2035)",
+     "period": "2024 and 2035",
+     "period_end": "2035-12-31",
+     "publisher": "Spherical Insights (vendor-modelled estimates)",
+     "series": "India tofu market size",
+     "frequency": "multi-year (estimates)",
+     "headline": false
+    },
+    {
+     "quote": "India soy protein market | $571.8 million (2025) | $761.9 million (2030)",
+     "value": "$571.8 million (2025) and $761.9 million (2030)",
+     "period": "2025 and 2030",
+     "period_end": "2030-12-31",
+     "publisher": "Mordor Intelligence (vendor-modelled estimates)",
+     "series": "India soy protein market size",
+     "frequency": "multi-year (estimates)",
+     "headline": false
+    },
+    {
+     "quote": "India plant-based protein market (broader category) | $634-779 million (2025)",
+     "value": "$634-779 million (2025)",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "Spherical Insights/Mordor Intelligence (vendor-modelled estimates)",
+     "series": "India plant-based protein market size",
+     "frequency": "annual (estimates)",
+     "headline": false
+    },
+    {
+     "quote": "lactose intolerance affecting an estimated 61% of Indian adults",
+     "value": "61%",
+     "period": null,
+     "period_end": null,
+     "publisher": "Vendor-modelled estimates (not specified)",
+     "series": "Lactose intolerance prevalence in India",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Nutrela (Ruchi Soya/Patanjali Foods) product information; soya chunks/nuggets/granules ... roughly 52%-protein",
+     "value": "52% protein",
+     "period": null,
+     "period_end": null,
+     "publisher": "Nutrela (Ruchi Soya/Patanjali Foods)",
+     "series": "Soya chunks/nuggets/granules protein content",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,310 @@
+{
+ "slug": "fci-storage-scenario-capacity-stock-and",
+ "text_sha1": "942623895e6141ad",
+ "chars": 7357,
+ "checked": "2026-10-23T11:30:10",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "FCI+State storage capacity rose from 851.54 LMT (2018) to 917.83 LMT (2025)",
+     "value": "851.54 LMT",
+     "period": "2018",
+     "period_end": "2018-12-31",
+     "publisher": "PIB / ministry",
+     "series": "FCI+State covered+CAP capacity",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "FCI+State storage capacity rose from 851.54 LMT (2018) to 917.83 LMT (2025)",
+     "value": "917.83 LMT",
+     "period": "2025",
+     "period_end": "2025-07-01",
+     "publisher": "PIB / ministry",
+     "series": "FCI+State covered+CAP capacity",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "the ₹1-lakh-crore cooperative plan targets 2,150 LMT total agri-storage",
+     "value": "₹1 lakh cr",
+     "period": "2023",
+     "period_end": "2023-12-31",
+     "publisher": "PIB / ministry",
+     "series": "World's Largest Grain Storage Plan",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "the ₹1-lakh-crore cooperative plan targets 2,150 LMT total agri-storage",
+     "value": "2,150 LMT",
+     "period": "2023",
+     "period_end": "2023-12-31",
+     "publisher": "PIB / ministry",
+     "series": "total agri-storage target",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "Central-pool wheat and rice stocks were reported at about 930 LMT on 1 June 2026",
+     "value": "about 930 LMT",
+     "period": "1 June 2026",
+     "period_end": "2026-06-01",
+     "publisher": "Business Today",
+     "series": "Central-pool wheat and rice stocks",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "about 926 LMT on 1 July 2026",
+     "value": "about 926 LMT",
+     "period": "1 July 2026",
+     "period_end": "2026-07-01",
+     "publisher": "Business Today",
+     "series": "Central-pool wheat and rice stocks",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "about 870 LMT by 1 September",
+     "value": "about 870 LMT",
+     "period": "1 September 2026",
+     "period_end": "2026-09-01",
+     "publisher": "Business Today",
+     "series": "Central-pool wheat and rice stocks",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "FCI 1,923 warehouses / 371.93 LMT, 01-07-2023",
+     "value": "1,923 warehouses",
+     "period": "01-07-2023",
+     "period_end": "2023-07-01",
+     "publisher": "PIB / ministry",
+     "series": "FCI warehouses",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "FCI 1,923 warehouses / 371.93 LMT, 01-07-2023",
+     "value": "371.93 LMT",
+     "period": "01-07-2023",
+     "period_end": "2023-07-01",
+     "publisher": "PIB / ministry",
+     "series": "FCI warehouse capacity",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "only ~147 LMT owned of FCI's own ~482 LMT capacity",
+     "value": "~147 LMT",
+     "period": "2023",
+     "period_end": "2023-12-31",
+     "publisher": "PIB / ministry",
+     "series": "FCI owned storage capacity",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "only ~147 LMT owned of FCI's own ~482 LMT capacity",
+     "value": "~482 LMT",
+     "period": "2023",
+     "period_end": "2023-12-31",
+     "publisher": "PIB / ministry",
+     "series": "FCI total storage capacity",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "an additional +700 LMT cooperative capacity",
+     "value": "+700 LMT",
+     "period": "2023",
+     "period_end": "2023-12-31",
+     "publisher": "PIB / ministry",
+     "series": "World's Largest Grain Storage Plan",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "India's grain-storage system has grown slowly (851→918 LMT, FCI+State, 2018→2025)",
+     "value": "851.54 LMT",
+     "period": "31-12-2018",
+     "period_end": "2018-12-31",
+     "publisher": "PIB",
+     "series": "FCI+State covered storage capacity",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India's grain-storage system has grown slowly (851→918 LMT, FCI+State, 2018→2025)",
+     "value": "917.83 LMT",
+     "period": "01-07-2025",
+     "period_end": "2025-07-01",
+     "publisher": "PIB",
+     "series": "FCI+State covered+CAP storage capacity",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The World's Largest Grain Storage Plan (2023, ₹1 lakh cr) now adds +700 LMT of cooperative (PACS) capacity",
+     "value": "700 LMT",
+     "period": null,
+     "period_end": null,
+     "publisher": "PIB",
+     "series": "Cooperative (PACS) storage capacity addition under the plan",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "total agri-storage from 1,450 to 2,150 LMT",
+     "value": "1,450 LMT",
+     "period": "2023",
+     "period_end": "2023-12-31",
+     "publisher": "PIB",
+     "series": "Total agri-storage capacity",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "total agri-storage from 1,450 to 2,150 LMT",
+     "value": "2,150 LMT",
+     "period": null,
+     "period_end": null,
+     "publisher": "PIB",
+     "series": "Total agri-storage capacity target under the plan",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "record stock ~907 LMT (2021)",
+     "value": "~907 LMT",
+     "period": "mid-2021",
+     "period_end": "2021-06-30",
+     "publisher": "DFPD Foodgrain Bulletin",
+     "series": "Central-pool stock (record)",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Central-pool wheat and rice stocks were reported at about 930 LMT on 1 June 2026",
+     "value": "about 930 LMT",
+     "period": "01-06-2026",
+     "period_end": "2026-06-01",
+     "publisher": "Reuters (via Business Today)",
+     "series": "Central-pool stock (wheat and rice)",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "Central-pool wheat and rice stocks were reported at about 926 LMT on 1 July 2026",
+     "value": "about 926 LMT",
+     "period": "01-07-2026",
+     "period_end": "2026-07-01",
+     "publisher": "Reuters (via Business Today)",
+     "series": "Central-pool stock (wheat and rice)",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "about 870 LMT by 1 September",
+     "value": "about 870 LMT",
+     "period": "01-09-2026",
+     "period_end": "2026-09-01",
+     "publisher": "Reuters (via Business Today)",
+     "series": "Central-pool stock (wheat and rice)",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "FCI's own owned covered-storage capacity is only about 147 LMT of its roughly 482 LMT total",
+     "value": "about 147 LMT",
+     "period": null,
+     "period_end": null,
+     "publisher": "PIB",
+     "series": "FCI owned covered-storage capacity",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "FCI's own owned covered-storage capacity is only about 147 LMT of its roughly 482 LMT total",
+     "value": "roughly 482 LMT",
+     "period": null,
+     "period_end": null,
+     "publisher": "PIB",
+     "series": "FCI total covered-storage capacity",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "FCI 1,923 warehouses / 371.93 LMT, 01-07-2023",
+     "value": "371.93 LMT",
+     "period": "01-07-2023",
+     "period_end": "2023-07-01",
+     "publisher": "PIB",
+     "series": "FCI warehouses and covered storage capacity",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "central-pool stock swings roughly 300–907 LMT with the crop cycle",
+     "value": "300 LMT",
+     "period": null,
+     "period_end": null,
+     "publisher": null,
+     "series": "Central-pool stock range (minimum)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "central-pool stock swings roughly 300–907 LMT with the crop cycle",
+     "value": "907 LMT",
+     "period": null,
+     "period_end": null,
+     "publisher": null,
+     "series": "Central-pool stock range (maximum)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "FCI is 70% hired",
+     "value": "70%",
+     "period": null,
+     "period_end": null,
+     "publisher": null,
+     "series": "Percentage of FCI storage capacity hired",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "village-level cooperative godowns (1,000 MT units, with 2,000 MT hubs)",
+     "value": "1,000 MT",
+     "period": null,
+     "period_end": null,
+     "publisher": null,
+     "series": "Cooperative godowns (PACS) unit capacity",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "village-level cooperative godowns (1,000 MT units, with 2,000 MT hubs)",
+     "value": "2,000 MT",
+     "period": null,
+     "period_end": null,
+     "publisher": null,
+     "series": "Cooperative godowns (PACS) hub capacity",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

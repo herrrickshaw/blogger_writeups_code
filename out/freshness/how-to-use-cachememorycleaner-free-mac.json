@@ -1,0 +1,49 @@
+{
+ "slug": "how-to-use-cachememorycleaner-free-mac",
+ "text_sha1": "434fbeffc3932de9",
+ "chars": 7482,
+ "checked": "2026-10-23T12:02:14",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": []
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "0 files deleted in the demo (dry run only) 99% disk-full session the tool came from",
+     "value": "99%",
+     "period": null,
+     "period_end": null,
+     "publisher": "demo run (author's observation)",
+     "series": "disk fullness percentage (demo observation)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "In the demo, a folder dormant for 1,386 days and untracked came back as Tier 3",
+     "value": "1,386 days",
+     "period": null,
+     "period_end": null,
+     "publisher": "demo run (author's observation)",
+     "series": "folder dormancy duration (demo observation)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The demo ended with 'Free space: 21GB -> 21GB', since nothing was removed.",
+     "value": "21GB",
+     "period": null,
+     "period_end": null,
+     "publisher": "demo run (author's observation)",
+     "series": "free disk space (demo observation)",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

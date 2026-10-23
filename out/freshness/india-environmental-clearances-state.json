@@ -1,0 +1,180 @@
+{
+ "slug": "india-environmental-clearances-state",
+ "text_sha1": "7deb5bcea1f65a18",
+ "chars": 6748,
+ "checked": "2026-10-23T12:26:31",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "Environmental Clearances grant at 88.7% of decided proposals",
+     "value": "88.7%",
+     "period": "2022–2026",
+     "period_end": "2026-12-31",
+     "publisher": "MoEFCC",
+     "series": "PARIVESH 2.0 full clearance register",
+     "frequency": "live",
+     "headline": true
+    },
+    {
+     "quote": "Wildlife clearances, the real bottleneck, at just 10.7%.",
+     "value": "10.7%",
+     "period": "2022–2026",
+     "period_end": "2026-12-31",
+     "publisher": "MoEFCC",
+     "series": "PARIVESH 2.0 full clearance register",
+     "frequency": "live",
+     "headline": true
+    },
+    {
+     "quote": "113,970 EC proposals filed (2022–2026)",
+     "value": "113,970 proposals",
+     "period": "2022–2026",
+     "period_end": "2026-12-31",
+     "publisher": "MoEFCC",
+     "series": "PARIVESH 2.0 full EC register",
+     "frequency": "live",
+     "headline": true
+    },
+    {
+     "quote": "54,406 ECs granted",
+     "value": "54,406 ECs",
+     "period": "2022–2026",
+     "period_end": "2026-12-31",
+     "publisher": "MoEFCC",
+     "series": "PARIVESH 2.0 full EC register",
+     "frequency": "live",
+     "headline": true
+    },
+    {
+     "quote": "49% of proposals are fresh new projects",
+     "value": "49%",
+     "period": "2022–2026",
+     "period_end": "2026-12-31",
+     "publisher": "MoEFCC",
+     "series": "PARIVESH 2.0 full EC register",
+     "frequency": "live",
+     "headline": true
+    },
+    {
+     "quote": "auto-delisting (22%) and pipeline backlog",
+     "value": "22%",
+     "period": "2022–2026",
+     "period_end": "2026-12-31",
+     "publisher": "MoEFCC",
+     "series": "PARIVESH 2.0 full EC register",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "22% are mostly re-appraisals of expiring minor-mineral leases",
+     "value": "22%",
+     "period": "2022–2026",
+     "period_end": "2026-12-31",
+     "publisher": "MoEFCC",
+     "series": "PARIVESH 2.0 full EC register",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "only about half of all proposals are genuinely new projects rather than re-appraisals",
+     "value": "half",
+     "period": "2022–2026",
+     "period_end": "2026-12-31",
+     "publisher": "MoEFCC",
+     "series": "PARIVESH 2.0 full EC register",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "only 10.7% of decided wildlife proposals are granted",
+     "value": "10.7%",
+     "period": "2022–2026",
+     "period_end": "2026-12-31",
+     "publisher": "MoEFCC",
+     "series": "PARIVESH 2.0 wildlife clearance register",
+     "frequency": "live",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "Environmental Clearances grant at 88.7% of decided proposals — Wildlife clearances, the real bottleneck, at just 10.7%.",
+     "value": "88.7%",
+     "period": "2022–2026",
+     "period_end": "2026-12-31",
+     "publisher": "PARIVESH 2.0",
+     "series": "full clearance register (Environmental Clearance grant rate)",
+     "frequency": "live",
+     "headline": true
+    },
+    {
+     "quote": "Environmental Clearances grant at 88.7% of decided proposals — Wildlife clearances, the real bottleneck, at just 10.7%.",
+     "value": "10.7%",
+     "period": "2022–2026",
+     "period_end": "2026-12-31",
+     "publisher": "PARIVESH 2.0",
+     "series": "full clearance register (Wildlife Clearance grant rate)",
+     "frequency": "live",
+     "headline": true
+    },
+    {
+     "quote": "The full national EC register from PARIVESH 2.0's open API — 113,970 proposals (2022–2026), sliced by state, sub-sector and status, with interactive tables and charts.",
+     "value": "113,970",
+     "period": "2022–2026",
+     "period_end": "2026-12-31",
+     "publisher": "PARIVESH 2.0",
+     "series": "full EC register (total proposals filed)",
+     "frequency": "live",
+     "headline": true
+    },
+    {
+     "quote": "Headline numbers: ... 54,406 ECs granted",
+     "value": "54,406",
+     "period": "2022–2026",
+     "period_end": "2026-12-31",
+     "publisher": "PARIVESH 2.0",
+     "series": "full EC register (total ECs granted)",
+     "frequency": "live",
+     "headline": true
+    },
+    {
+     "quote": "Headline numbers: ... 88.7% grant rate of decided proposals",
+     "value": "88.7%",
+     "period": "2022–2026",
+     "period_end": "2026-12-31",
+     "publisher": "PARIVESH 2.0",
+     "series": "full clearance register (grant rate of decided proposals)",
+     "frequency": "live",
+     "headline": true
+    },
+    {
+     "quote": "Headline numbers: ... 49% of proposals are fresh new projects",
+     "value": "49%",
+     "period": "2022–2026",
+     "period_end": "2026-12-31",
+     "publisher": "PARIVESH 2.0",
+     "series": "full EC register (fresh new projects share)",
+     "frequency": "live",
+     "headline": true
+    },
+    {
+     "quote": "... auto-delisting (22%) and pipeline backlog, not rejection; ...",
+     "value": "22%",
+     "period": null,
+     "period_end": null,
+     "publisher": "PARIVESH 2.0",
+     "series": "auto-delisted EC proposals (attrition rate)",
+     "frequency": "live",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

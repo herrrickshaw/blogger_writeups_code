@@ -1,0 +1,430 @@
+{
+ "slug": "brazil-pumps-e30-at-every-station",
+ "text_sha1": "7299f4a159fe9c91",
+ "chars": 28635,
+ "checked": "2026-10-23T10:47:18",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "Today that blend is 30%, the highest mandatory rate anywhere, and a separate pump at the same station sells pure ethanol for the 82% of the light-vehicle fleet that can run on it.",
+     "value": "30%",
+     "period": "1 September 2026",
+     "period_end": "2026-09-01",
+     "publisher": "PIB / ministry",
+     "series": "Fuel blending mandate",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "Today that blend is 30%, the highest mandatory rate anywhere, and a separate pump at the same station sells pure ethanol for the 82% of the light-vehicle fleet that can run on it.",
+     "value": "82%",
+     "period": "1 September 2026",
+     "period_end": "2026-09-01",
+     "publisher": "PIB / ministry",
+     "series": "Flex-fuel light-vehicle fleet share",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "India crossed 20% nationwide in April 2026 and has already published the standards for 22-30%.",
+     "value": "20%",
+     "period": "April 2026",
+     "period_end": "2026-04-30",
+     "publisher": "PIB / ministry",
+     "series": "Nationwide petrol ethanol blend",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "Brazil's regulator, ANP, raised the mandatory blend of anhydrous ethanol in regular petrol (\"gasolina C\") to 30% (E30) on 1 August 2025, up from 27.5%; premium petrol blends at 25%.",
+     "value": "30%",
+     "period": "1 August 2025",
+     "period_end": "2025-08-01",
+     "publisher": "ANP",
+     "series": "Gasolina C mandatory blend",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "Brazil's regulator, ANP, raised the mandatory blend of anhydrous ethanol in regular petrol (\"gasolina C\") to 30% (E30) on 1 August 2025, up from 27.5%; premium petrol blends at 25%.",
+     "value": "27.5%",
+     "period": "1 August 2025",
+     "period_end": "2025-08-01",
+     "publisher": "ANP",
+     "series": "Gasolina C previous blend",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "Brazil's regulator, ANP, raised the mandatory blend of anhydrous ethanol in regular petrol (\"gasolina C\") to 30% (E30) on 1 August 2025, up from 27.5%; premium petrol blends at 25%.",
+     "value": "25%",
+     "period": "1 August 2025",
+     "period_end": "2025-08-01",
+     "publisher": "ANP",
+     "series": "Premium petrol blend",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "Flex-fuel vehicles are now reported at roughly 82% of Brazil's ~40 million-vehicle light fleet by stock, and over 90% of new car sales.",
+     "value": "82%",
+     "period": "1 September 2026",
+     "period_end": "2026-09-01",
+     "publisher": "ANFAVEA / ANP",
+     "series": "Flex-fuel fleet stock share",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Flex-fuel vehicles are now reported at roughly 82% of Brazil's ~40 million-vehicle light fleet by stock, and over 90% of new car sales.",
+     "value": "~40 million-vehicle",
+     "period": "1 September 2026",
+     "period_end": "2026-09-01",
+     "publisher": "ANFAVEA / ANP",
+     "series": "Light fleet total stock",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Flex-fuel vehicles are now reported at roughly 82% of Brazil's ~40 million-vehicle light fleet by stock, and over 90% of new car sales.",
+     "value": "90%",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "ANFAVEA / ANP",
+     "series": "Flex-fuel new car sales share",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "E20 became the only petrol sold nationwide on 1 April 2026",
+     "value": "E20",
+     "period": "1 April 2026",
+     "period_end": "2026-04-01",
+     "publisher": "PIB / ministry",
+     "series": "Nationwide petrol standard",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "ethanol output rose from around 220 million litres in 1975 to 2.8 billion litres by 1979",
+     "value": "220 million litres",
+     "period": "1975",
+     "period_end": "1975-12-31",
+     "publisher": "PIB / ministry",
+     "series": "Proálcool ethanol output",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "ethanol output rose from around 220 million litres in 1975 to 2.8 billion litres by 1979",
+     "value": "2.8 billion litres",
+     "period": "1979",
+     "period_end": "1979-12-31",
+     "publisher": "PIB / ministry",
+     "series": "Proálcool ethanol output",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "roughly 350,000 of them by 1982.",
+     "value": "350,000",
+     "period": "1982",
+     "period_end": "1982-12-31",
+     "publisher": "PIB / ministry",
+     "series": "E100 cars on road",
+     "frequency": "annual",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "Brazil has sold ethanol-blended petrol at every pump in the country, without exception, since 1938. Today that blend is 30%, the highest mandatory rate anywhere",
+     "value": "30%",
+     "period": "as of 2026",
+     "period_end": null,
+     "publisher": "ANP (Agência Nacional do Petróleo, Gás Natural e Biocombustíveis)",
+     "series": "Mandatory ethanol blend rate in regular petrol (gasolina C)",
+     "frequency": "annual (with periodic adjustments)",
+     "headline": true
+    },
+    {
+     "quote": "Brazil's regulator, ANP, raised the mandatory blend of anhydrous ethanol in regular petrol ('gasolina C') to 30% (E30) on 1 August 2025, up from 27.5%; premium petrol blends at 25%.",
+     "value": "30% (E30) for regular petrol, 25% for premium petrol",
+     "period": "1 August 2025",
+     "period_end": "2025-08-01",
+     "publisher": "ANP",
+     "series": "Mandatory ethanol blend rate in petrol (Portaria ANP)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "The legal basis is the 'Fuel of the Future Law' (Law 14.993/2024), signed by President Lula in October 2024, which widened ANP's authorised blending band from 18-27.5% to 22-35%.",
+     "value": "22-35%",
+     "period": "as of Law 14.993/2024 (signed 8 October 2024)",
+     "period_end": "2024-10-08",
+     "publisher": "ANP (via Law 14.993/2024)",
+     "series": "Authorised ethanol blend range in petrol",
+     "frequency": "one-off (law change)",
+     "headline": false
+    },
+    {
+     "quote": "Flex-fuel vehicles are now reported at roughly 82% of Brazil's ~40 million-vehicle light fleet by stock, and over 90% of new car sales.",
+     "value": "82% of ~40 million-vehicle light fleet (stock), over 90% of new car sales (2025)",
+     "period": "2025 (new car sales), ~2026 (fleet stock estimate)",
+     "period_end": "2025-12-31",
+     "publisher": "Secondary sources (not independently reconciled with ANFAVEA/ANP)",
+     "series": "Flex-fuel vehicle penetration",
+     "frequency": "one-off (estimates)",
+     "headline": false
+    },
+    {
+     "quote": "Proálcool's first phase pushed anhydrous ethanol into the existing petrol blend; ethanol output rose from around 220 million litres in 1975 to 2.8 billion litres by 1979.",
+     "value": "220 million litres (1975), 2.8 billion litres (1979)",
+     "period": "1975, 1979",
+     "period_end": "1975-12-31, 1979-12-31",
+     "publisher": "Secondary academic-case study summary (IIASA-linked research)",
+     "series": "Ethanol production under Proálcool",
+     "frequency": "one-off (estimates)",
+     "headline": false
+    },
+    {
+     "quote": "The first mass-market flex-fuel car, the Volkswagen Gol 1.6 Total Flex, was launched in 2003.",
+     "value": "2003",
+     "period": "2003",
+     "period_end": "2003-12-31",
+     "publisher": "just-auto.com (contemporary trade coverage)",
+     "series": "Launch year of first mass-market flex-fuel car",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India crossed 20% nationwide in April 2026 and has already published the standards for 22-30%.",
+     "value": "20% (as of April 2026), 22-30% (standards published)",
+     "period": "April 2026, 15 May 2026 (IS 19850:2026 notification)",
+     "period_end": "2026-04-30, 2026-05-15",
+     "publisher": "Bureau of Indian Standards (BIS)",
+     "series": "Mandatory ethanol blend rate in petrol (IS 19850)",
+     "frequency": "one-off (standards notification)",
+     "headline": true
+    },
+    {
+     "quote": "E20 became the only petrol sold nationwide on 1 April 2026, ending widespread retail availability of the older E10 blend.",
+     "value": "E20 (as of 1 April 2026), E10 (retired)",
+     "period": "1 April 2026",
+     "period_end": "2026-04-01",
+     "publisher": "Trade and consumer reporting (Outlook India, aggregator sites)",
+     "series": "Ethanol blend rate in Indian petrol",
+     "frequency": "one-off (policy change)",
+     "headline": true
+    },
+    {
+     "quote": "The Bureau of Indian Standards notified IS 19850:2026 on 15 May 2026, setting formal fuel specifications for E22, E25, E27 and E30 petrol.",
+     "value": "E22, E25, E27, E30 (IS 19850:2026)",
+     "period": "15 May 2026",
+     "period_end": "2026-05-15",
+     "publisher": "Bureau of Indian Standards (BIS)",
+     "series": "Indian ethanol-blend petrol specifications (IS 19850)",
+     "frequency": "one-off (standards notification)",
+     "headline": false
+    },
+    {
+     "quote": "Ethanol blending in Brazilian petrol has been compulsory, without a gap, since 1938; the rate touched as high as 50% during the Second World War, was fixed by law at 22% in 1993, ran in a 20-25% band from 2003, rose to 25% in July 2007, was cut to 18% in April 2011 during an ethanol supply shortage, climbed back to 27% by March 2015, and held in an 18-27.5% band from 2015 until the 2024-25 law change.",
+     "value": "50% (WWII), 22% (1993), 20-25% (2003), 25% (July 2007), 18% (April 2011), 27% (March 2015), 18-27.5% (2015-2024)",
+     "period": "1938, 1942-45, 1993, 2003, July 2007, April 2011, March 2015, 2015-2024",
+     "period_end": "1938-12-31, 1945-12-31, 1993-12-31, 2003-12-31, 2007-07-31, 2011-04-30, 2015-03-31, 2024-12-31",
+     "publisher": "Wikipedia (cross-checked with Transport Policy/IEA)",
+     "series": "Historical ethanol blend rates in Brazilian petrol",
+     "frequency": "multi-year (historical)",
+     "headline": false
+    },
+    {
+     "quote": "Proálcool programme's first phase pushed anhydrous ethanol into the existing petrol blend; ethanol output rose from around 220 million litres in 1975 to 2.8 billion litres by 1979.",
+     "value": "~220 million litres (1975), ~2.8 billion litres (1979)",
+     "period": "1975, 1979",
+     "period_end": "1975-12-31, 1979-12-31",
+     "publisher": "Secondary academic-case study summary (IIASA-linked research)",
+     "series": "Ethanol production under Proálcool (Phase 1)",
+     "frequency": "one-off (estimates)",
+     "headline": false
+    },
+    {
+     "quote": "Proálcool's second phase put pure-ethanol (E100) cars on the road directly — roughly 350,000 of them by 1982.",
+     "value": "~350,000 E100 cars (by 1982)",
+     "period": "by 1982",
+     "period_end": "1982-12-31",
+     "publisher": "Secondary academic-case study summary (IIASA-linked research)",
+     "series": "E100 vehicle fleet under Proálcool (Phase 2)",
+     "frequency": "one-off (estimate)",
+     "headline": false
+    },
+    {
+     "quote": "Brazil's light-duty fleet is approximately 40 million vehicles.",
+     "value": "~40 million vehicles",
+     "period": "as of 2025 (estimate)",
+     "period_end": "2025-12-31",
+     "publisher": "Secondary sources (not independently reconciled with ANFAVEA/ANP)",
+     "series": "Brazil's light-duty vehicle fleet size",
+     "frequency": "one-off (estimate)",
+     "headline": false
+    },
+    {
+     "quote": "INMETRO metrology certification (currently Portaria INMETRO 227/2022), and UL do Brasil product listing (UL 87).",
+     "value": "Portaria INMETRO 227/2022, UL 87",
+     "period": "as of 2022 (Portaria), 2007 (UL certification)",
+     "period_end": "2022-12-31, 2007-12-31",
+     "publisher": "INMETRO, UL do Brasil",
+     "series": "Dispenser certification regimes for ethanol-blend fuels",
+     "frequency": "annual (Portaria), one-off (UL certification)",
+     "headline": false
+    },
+    {
+     "quote": "UL do Brasil lists dispensing equipment against UL 87, the standard for power-operated flammable-liquid dispensing devices; UL's own materials state it has certified equipment for ethanol blends above 10% (including E25 and E85) since 2007.",
+     "value": "E25, E85 (certified since 2007)",
+     "period": "since 2007",
+     "period_end": null,
+     "publisher": "UL Solutions",
+     "series": "Ethanol-blend dispenser certification under UL 87",
+     "frequency": "one-off (certification milestone)",
+     "headline": false
+    },
+    {
+     "quote": "Wertco Fueling Solutions is a Brazilian manufacturer of commercial and retail fuel dispensers, confirmed as a venture of Companytec, a Brazilian fuel-station-automation firm.",
+     "value": "Companytec (parent company)",
+     "period": "as of 2026 (ownership confirmation)",
+     "period_end": null,
+     "publisher": "Companytec's own site",
+     "series": "Wertco Fueling Solutions ownership",
+     "frequency": "one-off (ownership confirmation)",
+     "headline": false
+    },
+    {
+     "quote": "Companytec describes itself as a leading Brazilian fuel-station-automation firm based in Pelotas, Rio Grande do Sul, present across all Brazilian states plus Uruguay, Argentina, Mexico and Peru.",
+     "value": "Brazil, Uruguay, Argentina, Mexico, Peru (footprint)",
+     "period": "as of 2026 (self-description)",
+     "period_end": null,
+     "publisher": "Companytec's own materials",
+     "series": "Companytec's operational footprint",
+     "frequency": "one-off (self-description)",
+     "headline": false
+    },
+    {
+     "quote": "Wayne/Dover Fueling Solutions' Rio de Janeiro plant has run continuously since 1931, marking 90 years of Brazilian operations in July 2021.",
+     "value": "90 years (1931-2021)",
+     "period": "1931-2021",
+     "period_end": "2021-07-31",
+     "publisher": "Brazilian trade coverage (brasilpostos.com.br)",
+     "series": "Wayne/Dover Fueling Solutions' Brazilian manufacturing history",
+     "frequency": "one-off (anniversary marker)",
+     "headline": false
+    },
+    {
+     "quote": "India's oil marketing companies replaced seals and washers in petrol dispensing units with neoprene rubber specifically to handle the higher ethanol content.",
+     "value": "neoprene rubber (seals/washers retrofit)",
+     "period": "as of 2026 (E20 rollout)",
+     "period_end": null,
+     "publisher": "Trade and consumer reporting (Outlook India, aggregator sites)",
+     "series": "Dispenser component retrofits for E20 in India",
+     "frequency": "one-off (retrofit action)",
+     "headline": false
+    },
+    {
+     "quote": "The Bureau of Indian Standards notified IS 19850:2026 on 15 May 2026, requiring dispensing pumps to label clearly which of those blends they're selling ('E22 PETROL,' 'E25 PETROL,' etc.).",
+     "value": "E22, E25, E27, E30 (labeling requirement)",
+     "period": "15 May 2026",
+     "period_end": "2026-05-15",
+     "publisher": "Bureau of Indian Standards (BIS)",
+     "series": "Pump labeling requirements under IS 19850:2026",
+     "frequency": "one-off (standards notification)",
+     "headline": false
+    },
+    {
+     "quote": "Brazil's light-vehicle fleet is roughly 82% flex-fuel vehicles.",
+     "value": "82%",
+     "period": "as of 2026 (fleet stock estimate)",
+     "period_end": null,
+     "publisher": "Secondary sources (not independently reconciled with ANFAVEA/ANP)",
+     "series": "Flex-fuel vehicle penetration in Brazil (fleet stock)",
+     "frequency": "one-off (estimate)",
+     "headline": false
+    },
+    {
+     "quote": "Over 90% of new light-vehicle sales in Brazil were flex-fuel models in 2025.",
+     "value": "over 90%",
+     "period": "2025 (new car sales)",
+     "period_end": "2025-12-31",
+     "publisher": "Secondary sources (not independently reconciled with ANFAVEA/ANP)",
+     "series": "Flex-fuel vehicle penetration in Brazil (new sales)",
+     "frequency": "one-off (estimate)",
+     "headline": false
+    },
+    {
+     "quote": "Proálcool was launched by decree (Decree 76.593) on 14 November 1975, directly in response to the 1973 oil shock.",
+     "value": "14 November 1975",
+     "period": "14 November 1975",
+     "period_end": "1975-11-14",
+     "publisher": "Secondary academic-case study summary (IIASA-linked research)",
+     "series": "Proálcool launch date",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Imports covered more than 80% of Brazil's oil consumption at the time of the 1973 oil shock.",
+     "value": "more than 80%",
+     "period": "1973 (oil shock)",
+     "period_end": "1973-12-31",
+     "publisher": "Secondary academic-case study summary (IIASA-linked research)",
+     "series": "Brazil's oil import dependency (1973)",
+     "frequency": "one-off (historical)",
+     "headline": false
+    },
+    {
+     "quote": "The 2003 VW Gol 1.6 Total Flex launch was a joint development with Magneti Marelli.",
+     "value": "2003",
+     "period": "2003",
+     "period_end": "2003-12-31",
+     "publisher": "just-auto.com (contemporary trade coverage)",
+     "series": "VW Gol 1.6 Total Flex launch",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Brazil's flex-fuel vehicles are now reported at roughly 82% of Brazil's ~40 million-vehicle light fleet by stock.",
+     "value": "~40 million vehicles (light fleet)",
+     "period": "as of 2026 (estimate)",
+     "period_end": null,
+     "publisher": "Secondary sources (not independently reconciled with ANFAVEA/ANP)",
+     "series": "Brazil's light-vehicle fleet size (stock)",
+     "frequency": "one-off (estimate)",
+     "headline": false
+    },
+    {
+     "quote": "The first mass-market flex-fuel car, the Volkswagen Gol 1.6 Total Flex, was launched in 2003.",
+     "value": "2003",
+     "period": "2003",
+     "period_end": "2003-12-31",
+     "publisher": "just-auto.com (contemporary trade coverage)",
+     "series": "Launch year of first mass-market flex-fuel car",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Brazil's flex-fuel vehicles are now reported at roughly 82% of Brazil's ~40 million-vehicle light fleet by stock, and over 90% of new car sales.",
+     "value": "~40 million vehicles (light fleet)",
+     "period": "as of 2026 (estimate)",
+     "period_end": null,
+     "publisher": "Secondary sources (not independently reconciled with ANFAVEA/ANP)",
+     "series": "Brazil's light-vehicle fleet size (stock)",
+     "frequency": "one-off (estimate)",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

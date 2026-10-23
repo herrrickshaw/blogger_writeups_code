@@ -1,0 +1,460 @@
+{
+ "slug": "577-of-indias-plant-variety",
+ "text_sha1": "7dda9ead3b3ad711",
+ "chars": 9506,
+ "checked": "2026-10-23T10:15:25",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "India's Plant Variety Authority has issued 10,885 certificates as of 31 August 2026",
+     "value": "10,885 certificates",
+     "period": "as on 31 Aug 2026",
+     "period_end": "2026-08-31",
+     "publisher": "PPV&FR Authority",
+     "series": "certificate count by crop category",
+     "frequency": "live",
+     "headline": true
+    },
+    {
+     "quote": "57.7% of them are cereals",
+     "value": "57.7%",
+     "period": "as on 31 Aug 2026",
+     "period_end": "2026-08-31",
+     "publisher": "PPV&FR Authority",
+     "series": "certificate count by crop category",
+     "frequency": "live",
+     "headline": true
+    },
+    {
+     "quote": "This blog's own $4.45 billion spice-export book, covering eight distinct crops, rests on 151 registered varieties.",
+     "value": "$4.45 billion",
+     "period": "as on 31 Jul 2026",
+     "period_end": "2026-07-31",
+     "publisher": "PPV&FR Authority / blog reporting",
+     "series": "spice export book",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "151 certificates covering spices, as on 31 Jul 2026",
+     "value": "151 certificates",
+     "period": "as on 31 Jul 2026",
+     "period_end": "2026-07-31",
+     "publisher": "PPV&FR Authority",
+     "series": "certificate count by crop category",
+     "frequency": "live",
+     "headline": true
+    },
+    {
+     "quote": "49.3% share registered to farmers — just under half",
+     "value": "49.3%",
+     "period": "as on 31 Aug 2026",
+     "period_end": "2026-08-31",
+     "publisher": "PPV&FR Authority",
+     "series": "registration-type split",
+     "frequency": "live",
+     "headline": true
+    },
+    {
+     "quote": "Cereals | 6,280 | 57.7 |",
+     "value": "6,280 certificates",
+     "period": "as on 31 Aug 2026",
+     "period_end": "2026-08-31",
+     "publisher": "PPV&FR Authority",
+     "series": "certificate count by crop category",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "Vegetables | 1,386 | 12.7 |",
+     "value": "1,386 certificates",
+     "period": "as on 31 Aug 2026",
+     "period_end": "2026-08-31",
+     "publisher": "PPV&FR Authority",
+     "series": "certificate count by crop category",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "Fibre | 1,006 | 9.2 |",
+     "value": "1,006 certificates",
+     "period": "as on 31 Aug 2026",
+     "period_end": "2026-08-31",
+     "publisher": "PPV&FR Authority",
+     "series": "certificate count by crop category",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "Legumes | 872 | 8.0 |",
+     "value": "872 certificates",
+     "period": "as on 31 Aug 2026",
+     "period_end": "2026-08-31",
+     "publisher": "PPV&FR Authority",
+     "series": "certificate count by crop category",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "Oilseeds | 577 | 5.3 |",
+     "value": "577 certificates",
+     "period": "as on 31 Aug 2026",
+     "period_end": "2026-08-31",
+     "publisher": "PPV&FR Authority",
+     "series": "certificate count by crop category",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "Fruits | 429 | 3.9 |",
+     "value": "429 certificates",
+     "period": "as on 31 Aug 2026",
+     "period_end": "2026-08-31",
+     "publisher": "PPV&FR Authority",
+     "series": "certificate count by crop category",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "Sugar | 93 | 0.9 |",
+     "value": "93 certificates",
+     "period": "as on 31 Aug 2026",
+     "period_end": "2026-08-31",
+     "publisher": "PPV&FR Authority",
+     "series": "certificate count by crop category",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "Other (Spices, Trees, Flowers, Cash crops, Medicinal & Aromatic) | 242 | 2.2 |",
+     "value": "242 certificates",
+     "period": "as on 31 Aug 2026",
+     "period_end": "2026-08-31",
+     "publisher": "PPV&FR Authority",
+     "series": "certificate count by crop category",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "Spices 151, Trees 43, Flowers 36, Cash crops 5, and Medicinal & Aromatic 4.",
+     "value": "151 certificates",
+     "period": "as on 31 Jul 2026",
+     "period_end": "2026-07-31",
+     "publisher": "PPV&FR Authority",
+     "series": "certificate count by crop category",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Spices 151, Trees 43, Flowers 36, Cash crops 5, and Medicinal & Aromatic 4.",
+     "value": "43 certificates",
+     "period": "as on 31 Jul 2026",
+     "period_end": "2026-07-31",
+     "publisher": "PPV&FR Authority",
+     "series": "certificate count by crop category",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Spices 151, Trees 43, Flowers 36, Cash crops 5, and Medicinal & Aromatic 4.",
+     "value": "36 certificates",
+     "period": "as on 31 Jul 2026",
+     "period_end": "2026-07-31",
+     "publisher": "PPV&FR Authority",
+     "series": "certificate count by crop category",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Spices 151, Trees 43, Flowers 36, Cash crops 5, and Medicinal & Aromatic 4.",
+     "value": "5 certificates",
+     "period": "as on 31 Jul 2026",
+     "period_end": "2026-07-31",
+     "publisher": "PPV&FR Authority",
+     "series": "certificate count by crop category",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Spices 151, Trees 43, Flowers 36, Cash crops 5, and Medicinal & Aromatic 4.",
+     "value": "4 certificates",
+     "period": "as on 31 Jul 2026",
+     "period_end": "2026-07-31",
+     "publisher": "PPV&FR Authority",
+     "series": "certificate count by crop category",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Farmer | 5,368 | 49.3 |",
+     "value": "5,368 certificates",
+     "period": "as on 31 Aug 2026",
+     "period_end": "2026-08-31",
+     "publisher": "PPV&FR Authority",
+     "series": "registration-type split",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "Extant Notified | 2,025 | 18.6 |",
+     "value": "2,025 certificates",
+     "period": "as on 31 Aug 2026",
+     "period_end": "2026-08-31",
+     "publisher": "PPV&FR Authority",
+     "series": "registration-type split",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "New | 1,921 | 17.7 |",
+     "value": "1,921 certificates",
+     "period": "as on 31 Aug 2026",
+     "period_end": "2026-08-31",
+     "publisher": "PPV&FR Authority",
+     "series": "registration-type split",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "Extant VCK (village/farming community knowledge) | 1,557 | 14.3 |",
+     "value": "1,557 certificates",
+     "period": "as on 31 Aug 2026",
+     "period_end": "2026-08-31",
+     "publisher": "PPV&FR Authority",
+     "series": "registration-type split",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "Essentially Derived Variety (EDV) | 14 | 0.13 |",
+     "value": "14 certificates",
+     "period": "as on 31 Aug 2026",
+     "period_end": "2026-08-31",
+     "publisher": "PPV&FR Authority",
+     "series": "registration-type split",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "claimed 4,847 of 9,210 certificates (52.6%) went to farmers",
+     "value": "4,847 certificates",
+     "period": null,
+     "period_end": null,
+     "publisher": "PPV&FR Authority",
+     "series": "registration-type split",
+     "frequency": "live",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "India's Plant Variety Authority has issued 10,885 certificates as of 31 August 2026",
+     "value": "10,885 certificates",
+     "period": "as of 31 August 2026",
+     "period_end": "2026-08-31",
+     "publisher": "Protection of Plant Varieties and Farmers' Rights (PPV&FR) Authority",
+     "series": "Total certificates issued",
+     "frequency": "live",
+     "headline": true
+    },
+    {
+     "quote": "57.7% of them are cereals — the crop group the public breeding system already worked on for decades",
+     "value": "57.7%",
+     "period": "as of 31 August 2026",
+     "period_end": "2026-08-31",
+     "publisher": "Protection of Plant Varieties and Farmers' Rights (PPV&FR) Authority",
+     "series": "Certificates by crop category (share)",
+     "frequency": "live",
+     "headline": true
+    },
+    {
+     "quote": "More than half of them — 6,280, or 57.7% — are cereals",
+     "value": "6,280 certificates",
+     "period": "as of 31 August 2026",
+     "period_end": "2026-08-31",
+     "publisher": "Protection of Plant Varieties and Farmers' Rights (PPV&FR) Authority",
+     "series": "Certificates by crop category (cereals)",
+     "frequency": "live",
+     "headline": true
+    },
+    {
+     "quote": "this blog's own $4.45 billion spice-export book, covering eight distinct crops, rests on 151 registered varieties",
+     "value": "$4.45 billion",
+     "period": null,
+     "period_end": null,
+     "publisher": "Blog's own reporting (not re-verified in this piece)",
+     "series": "Spice export value",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "151 certificates covering spices, as on 31 Jul 2026",
+     "value": "151 certificates",
+     "period": "as on 31 July 2026",
+     "period_end": "2026-07-31",
+     "publisher": "Protection of Plant Varieties and Farmers' Rights (PPV&FR) Authority",
+     "series": "Certificates by crop category (spices)",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "Vegetables | 1,386 | 12.7",
+     "value": "1,386 certificates",
+     "period": "as on 31 August 2026",
+     "period_end": "2026-08-31",
+     "publisher": "Protection of Plant Varieties and Farmers' Rights (PPV&FR) Authority",
+     "series": "Certificates by crop category (vegetables)",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "Fibre | 1,006 | 9.2",
+     "value": "1,006 certificates",
+     "period": "as on 31 August 2026",
+     "period_end": "2026-08-31",
+     "publisher": "Protection of Plant Varieties and Farmers' Rights (PPV&FR) Authority",
+     "series": "Certificates by crop category (fibre)",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "Legumes | 872 | 8.0",
+     "value": "872 certificates",
+     "period": "as on 31 August 2026",
+     "period_end": "2026-08-31",
+     "publisher": "Protection of Plant Varieties and Farmers' Rights (PPV&FR) Authority",
+     "series": "Certificates by crop category (legumes)",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "Oilseeds | 577 | 5.3",
+     "value": "577 certificates",
+     "period": "as on 31 August 2026",
+     "period_end": "2026-08-31",
+     "publisher": "Protection of Plant Varieties and Farmers' Rights (PPV&FR) Authority",
+     "series": "Certificates by crop category (oilseeds)",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "Fruits | 429 | 3.9",
+     "value": "429 certificates",
+     "period": "as on 31 August 2026",
+     "period_end": "2026-08-31",
+     "publisher": "Protection of Plant Varieties and Farmers' Rights (PPV&FR) Authority",
+     "series": "Certificates by crop category (fruits)",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "Sugar | 93 | 0.9",
+     "value": "93 certificates",
+     "period": "as on 31 August 2026",
+     "period_end": "2026-08-31",
+     "publisher": "Protection of Plant Varieties and Farmers' Rights (PPV&FR) Authority",
+     "series": "Certificates by crop category (sugar)",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "Other (Spices, Trees, Flowers, Cash crops, Medicinal & Aromatic) | 242 | 2.2",
+     "value": "242 certificates",
+     "period": "as on 31 August 2026",
+     "period_end": "2026-08-31",
+     "publisher": "Protection of Plant Varieties and Farmers' Rights (PPV&FR) Authority",
+     "series": "Certificates by crop category (Other)",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "Farmer | 5,368 | 49.3",
+     "value": "5,368 certificates",
+     "period": "as of 31 August 2026",
+     "period_end": "2026-08-31",
+     "publisher": "Protection of Plant Varieties and Farmers' Rights (PPV&FR) Authority",
+     "series": "Certificates by registration type (Farmer)",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "Essentially Derived Variety (EDV) | 14 | 0.13",
+     "value": "14 certificates",
+     "period": "as of 31 August 2026",
+     "period_end": "2026-08-31",
+     "publisher": "Protection of Plant Varieties and Farmers' Rights (PPV&FR) Authority",
+     "series": "Certificates by registration type (EDV)",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "Spices 151, Trees 43, Flowers 36, Cash crops 5, and Medicinal & Aromatic 4",
+     "value": "151 certificates (Spices)",
+     "period": "as on 31 July 2026",
+     "period_end": "2026-07-31",
+     "publisher": "Protection of Plant Varieties and Farmers' Rights (PPV&FR) Authority",
+     "series": "Certificates by sub-category (Spices)",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "Spices 151, Trees 43, Flowers 36, Cash crops 5, and Medicinal & Aromatic 4. Those five categories summed to 239 certificates",
+     "value": "239 certificates (sum of sub-categories)",
+     "period": "as on 31 July 2026",
+     "period_end": "2026-07-31",
+     "publisher": "Protection of Plant Varieties and Farmers' Rights (PPV&FR) Authority",
+     "series": "Certificates by sub-category (sum)",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "By 31 August they had been folded into a single 'Other' line of 242",
+     "value": "242 certificates (Other)",
+     "period": "as on 31 August 2026",
+     "period_end": "2026-08-31",
+     "publisher": "Protection of Plant Varieties and Farmers' Rights (PPV&FR) Authority",
+     "series": "Certificates by aggregated category (Other)",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "Extant Notified | 2,025 | 18.6",
+     "value": "2,025 certificates",
+     "period": "as of 31 August 2026",
+     "period_end": "2026-08-31",
+     "publisher": "Protection of Plant Varieties and Farmers' Rights (PPV&FR) Authority",
+     "series": "Certificates by registration type (Extant Notified)",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "New | 1,921 | 17.7",
+     "value": "1,921 certificates",
+     "period": "as of 31 August 2026",
+     "period_end": "2026-08-31",
+     "publisher": "Protection of Plant Varieties and Farmers' Rights (PPV&FR) Authority",
+     "series": "Certificates by registration type (New)",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "Extant VCK (village/farming community knowledge) | 1,557 | 14.3",
+     "value": "1,557 certificates",
+     "period": "as of 31 August 2026",
+     "period_end": "2026-08-31",
+     "publisher": "Protection of Plant Varieties and Farmers' Rights (PPV&FR) Authority",
+     "series": "Certificates by registration type (Extant VCK)",
+     "frequency": "live",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

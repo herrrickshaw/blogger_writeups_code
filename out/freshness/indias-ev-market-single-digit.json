@@ -1,0 +1,780 @@
+{
+ "slug": "indias-ev-market-single-digit",
+ "text_sha1": "211c81c8ab6c36d7",
+ "chars": 25322,
+ "checked": "2026-10-23T14:08:12",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "E-3W (three-wheelers)\n 30.5%",
+     "value": "30.5%",
+     "period": "FY26",
+     "period_end": "2026-03-31",
+     "publisher": "CEEW-GFC / JMK Research / IESA",
+     "series": "EV Penetration by Segment",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "National average (all EVs)\n 8.5%",
+     "value": "8.5%",
+     "period": "FY26",
+     "period_end": "2026-03-31",
+     "publisher": "CEEW-GFC / JMK Research / IESA",
+     "series": "EV Penetration by Segment",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "E-2W (two-wheelers, 58% of EV volume)\n 6.5%",
+     "value": "6.5%",
+     "period": "FY26",
+     "period_end": "2026-03-31",
+     "publisher": "CEEW-GFC / JMK Research / IESA",
+     "series": "EV Penetration by Segment",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "E-goods (trucks/LGV, first year in scheme)\n 1.4%",
+     "value": "1.4%",
+     "period": "FY26",
+     "period_end": "2026-03-31",
+     "publisher": "CEEW-GFC / JMK Research / IESA",
+     "series": "EV Penetration by Segment",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "India registered roughly 2.5 million electric vehicles in FY2025-26 — up 24% year-on-year",
+     "value": "2.5 million",
+     "period": "FY2025-26",
+     "period_end": "2025-03-31",
+     "publisher": "Vahan / CEEW-GFC",
+     "series": "EV registrations",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "up 24% year-on-year",
+     "value": "24%",
+     "period": "FY2025-26",
+     "period_end": "2025-03-31",
+     "publisher": "Vahan / CEEW-GFC",
+     "series": "EV registrations YoY growth",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "national EV penetration sits at 8.5% of all vehicle sales",
+     "value": "8.5%",
+     "period": "FY26",
+     "period_end": "2026-03-31",
+     "publisher": "CEEW-GFC / JMK Research / IESA",
+     "series": "National EV penetration",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "the e-2W allocation rose from ₹1,772 crore to ₹2,767 crore",
+     "value": "₹1,772 crore",
+     "period": "August 2026",
+     "period_end": "2026-08-31",
+     "publisher": "Ministry of Heavy Industries / PIB",
+     "series": "PM E-DRIVE e-2W allocation",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "to ₹2,767 crore",
+     "value": "₹2,767 crore",
+     "period": "August 2026",
+     "period_end": "2026-08-31",
+     "publisher": "Ministry of Heavy Industries / PIB",
+     "series": "PM E-DRIVE e-2W allocation",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "2.5 Mn+ EV registrations, FY26 (+24% YoY)",
+     "value": "2.5 Mn+",
+     "period": "FY26",
+     "period_end": "2026-03-31",
+     "publisher": "CEEW-GFC / JMK Research / IESA",
+     "series": "EV registrations",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "8.5% National EV penetration (vs 6.8% FY24)",
+     "value": "6.8%",
+     "period": "FY24",
+     "period_end": "2024-03-31",
+     "publisher": "CEEW-GFC / JMK Research / IESA",
+     "series": "National EV penetration",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "58% Of EV sales are e-2Ws — 1.4 Mn units",
+     "value": "1.4 Mn units",
+     "period": "FY26",
+     "period_end": "2026-03-31",
+     "publisher": "CEEW-GFC / JMK Research / IESA",
+     "series": "E-2W sales volume",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "29,000+ Public charging stations (CEEW-GFC/Vahan basis), 55% in 5 states",
+     "value": "29,000+",
+     "period": "FY26",
+     "period_end": "2026-03-31",
+     "publisher": "CEEW-GFC / Vahan",
+     "series": "Public charging stations",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "55% in 5 states",
+     "value": "55%",
+     "period": "FY26",
+     "period_end": "2026-03-31",
+     "publisher": "CEEW-GFC / Vahan",
+     "series": "Public charging station concentration",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "IEA counts ~88,000 for India on a different methodology",
+     "value": "~88,000",
+     "period": "CY2025",
+     "period_end": "2025-12-31",
+     "publisher": "IEA",
+     "series": "Global EV Outlook charging points",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "India registered ~28.2 million vehicles across all fuel types in CY2025",
+     "value": "~28.2 million",
+     "period": "CY2025",
+     "period_end": "2025-12-31",
+     "publisher": "Vahan / JMK Research",
+     "series": "Total vehicle registrations",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "EVs crossed 2.3 million of that, or ~8%",
+     "value": "2.3 million",
+     "period": "CY2025",
+     "period_end": "2025-12-31",
+     "publisher": "Vahan / JMK Research",
+     "series": "Total EV registrations",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "or ~8%",
+     "value": "~8%",
+     "period": "CY2025",
+     "period_end": "2025-12-31",
+     "publisher": "Vahan / JMK Research",
+     "series": "EV share of total vehicle registrations",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "E-2W (two-wheelers) | 1.4 Mn units, 58% of all EV sales | +22% | 6.5%",
+     "value": "+22%",
+     "period": "FY26",
+     "period_end": "2026-03-31",
+     "publisher": "CEEW-GFC / JMK Research / IESA",
+     "series": "E-2W YoY growth",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "E-goods (trucks/LGV, first year in scheme) | Under PM E-DRIVE, first-time inclusion | +172% | 1.4%",
+     "value": "+172%",
+     "period": "FY26",
+     "period_end": "2026-03-31",
+     "publisher": "CEEW-GFC / JMK Research / IESA",
+     "series": "E-goods YoY growth",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Passenger e-cars stayed small in absolute terms (~1.75–1.9 lakh units)",
+     "value": "~1.75–1.9 lakh units",
+     "period": "FY26",
+     "period_end": "2026-03-31",
+     "publisher": "CEEW-GFC / JMK Research / IESA",
+     "series": "Passenger e-car sales volume",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Mahindra's e-car volumes grew 434% YoY to 47,316 units",
+     "value": "434%",
+     "period": "FY26",
+     "period_end": "2026-03-31",
+     "publisher": "CEEW-GFC / JMK Research / IESA",
+     "series": "Mahindra e-car YoY growth",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "to 47,316 units",
+     "value": "47,316 units",
+     "period": "FY26",
+     "period_end": "2026-03-31",
+     "publisher": "CEEW-GFC / JMK Research / IESA",
+     "series": "Mahindra e-car sales volume",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "JSW MG grew 79% to 58,661 units",
+     "value": "79%",
+     "period": "FY26",
+     "period_end": "2026-03-31",
+     "publisher": "CEEW-GFC / JMK Research / IESA",
+     "series": "JSW MG e-car YoY growth",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "to 58,661 units",
+     "value": "58,661 units",
+     "period": "FY26",
+     "period_end": "2026-03-31",
+     "publisher": "CEEW-GFC / JMK Research / IESA",
+     "series": "JSW MG e-car sales volume",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "TVS, Bajaj, and Hero MotoCorp now holding 61% of the e-2W market between them",
+     "value": "61%",
+     "period": "FY26",
+     "period_end": "2026-03-31",
+     "publisher": "CEEW-GFC / JMK Research / IESA",
+     "series": "Incumbent e-2W market share",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Uttar Pradesh alone accounts for 18% of national EV sales",
+     "value": "18%",
+     "period": "FY26",
+     "period_end": "2026-03-31",
+     "publisher": "CEEW-GFC",
+     "series": "Uttar Pradesh share of national EV sales",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "(2.74 lakh of roughly 8 lakh national three-wheeler sales came from UP)",
+     "value": "2.74 lakh",
+     "period": "FY26",
+     "period_end": "2026-03-31",
+     "publisher": "CEEW-GFC",
+     "series": "Uttar Pradesh 3W EV sales",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "roughly 8 lakh national three-wheeler sales",
+     "value": "8 lakh",
+     "period": "FY26",
+     "period_end": "2026-03-31",
+     "publisher": "CEEW-GFC",
+     "series": "National 3W sales",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Tripura | 16.9 | Highest penetration nationally",
+     "value": "16.9%",
+     "period": "FY26",
+     "period_end": "2026-03-31",
+     "publisher": "CEEW-GFC / JMK Research / IESA",
+     "series": "State EV penetration",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Delhi | 14 | Metro personal-EV adoption",
+     "value": "14%",
+     "period": "FY26",
+     "period_end": "2026-03-31",
+     "publisher": "CEEW-GFC / JMK Research / IESA",
+     "series": "State EV penetration",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Assam | 14 | —",
+     "value": "14%",
+     "period": "FY26",
+     "period_end": "2026-03-31",
+     "publisher": "CEEW-GFC / JMK Research / IESA",
+     "series": "State EV penetration",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Kerala | 12 | —",
+     "value": "12%",
+     "period": "FY26",
+     "period_end": "2026-03-31",
+     "publisher": "CEEW-GFC / JMK Research / IESA",
+     "series": "State EV penetration",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Maharashtra | 16.5 (e-2W specifically) | Affluent west, personal e-2W",
+     "value": "16.5%",
+     "period": "FY26",
+     "period_end": "2026-03-31",
+     "publisher": "CEEW-GFC / JMK Research / IESA",
+     "series": "State e-2W penetration",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Karnataka | 12.9 (e-2W specifically) | Affluent south, personal e-2W",
+     "value": "12.9%",
+     "period": "FY26",
+     "period_end": "2026-03-31",
+     "publisher": "CEEW-GFC / JMK Research / IESA",
+     "series": "State e-2W penetration",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "announced 2024-09-11, with an outlay of ₹10,900 crore over two years",
+     "value": "₹10,900 crore",
+     "period": "2024-09-11",
+     "period_end": "2024-09-11",
+     "publisher": "PIB",
+     "series": "PM E-DRIVE outlay",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "carries a separate ₹3,435 crore credit-guarantee outlay",
+     "value": "₹3,435 crore",
+     "period": "2024-09-11",
+     "period_end": "2024-09-11",
+     "publisher": "PIB",
+     "series": "PM-eBus Sewa Payment Security Mechanism outlay",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "EV — scooter | 0.35",
+     "value": "₹0.35/km",
+     "period": "July 2026",
+     "period_end": "2026-07-31",
+     "publisher": "~/vehicle_fuel_mileage repo",
+     "series": "Running cost/km",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "EV — hatchback | 1.41",
+     "value": "₹1.41/km",
+     "period": "July 2026",
+     "period_end": "2026-07-31",
+     "publisher": "~/vehicle_fuel_mileage repo",
+     "series": "Running cost/km",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "CNG | 2.97",
+     "value": "₹2.97/km",
+     "period": "July 2026",
+     "period_end": "2026-07-31",
+     "publisher": "~/vehicle_fuel_mileage repo",
+     "series": "Running cost/km",
+     "frequency": "monthly",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "India registered roughly 2.5 million electric vehicles in FY2025-26 — up 24% year-on-year, and about double the volume of three years earlier.",
+     "value": "2.5 million",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "CEEW-GFC Electric Mobility Dashboard (Vahan registrations)",
+     "series": "EV registrations by fiscal year",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "India registered ~28.2 million vehicles across all fuel types in CY2025; EVs crossed 2.3 million of that, or ~8%.",
+     "value": "2.3 million",
+     "period": "CY2025",
+     "period_end": "2025-12-31",
+     "publisher": "India EV Market Evaluation FY26 deck",
+     "series": "EV registrations vs total vehicle registrations (calendar year)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "EV penetration by segment, FY26 (% of category sold): E-2W (two-wheelers, 58% of EV volume) — 6.5%.",
+     "value": "6.5%",
+     "period": "FY26",
+     "period_end": "2026-03-31",
+     "publisher": "India EV Market Evaluation FY26 deck",
+     "series": "EV penetration by segment (two-wheelers)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "E-3W (three-wheelers) have already crossed the tipping point on unsubsidised commercial TCO; ... E-3W (three-wheelers) — 30.5%.",
+     "value": "30.5%",
+     "period": "FY26",
+     "period_end": "2026-03-31",
+     "publisher": "India EV Market Evaluation FY26 deck",
+     "series": "EV penetration by segment (three-wheelers)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "E-goods (trucks/LGV, first year in scheme) — 1.4%.",
+     "value": "1.4%",
+     "period": "FY26",
+     "period_end": "2026-03-31",
+     "publisher": "India EV Market Evaluation FY26 deck",
+     "series": "EV penetration by segment (goods vehicles)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "E-2W (two-wheelers) | 1.4 Mn units, 58% of all EV sales | +22% YoY | 6.5% |",
+     "value": "1.4 million units",
+     "period": "FY26",
+     "period_end": "2026-03-31",
+     "publisher": "India EV Market Evaluation FY26 deck",
+     "series": "EV sales volume by segment (two-wheelers)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "E-4W (passenger cars) | ~1.75–1.9 lakh units | Fastest-intensifying competition | Small but contested |",
+     "value": "1.75–1.9 lakh units",
+     "period": "FY26",
+     "period_end": "2026-03-31",
+     "publisher": "India EV Market Evaluation FY26 deck",
+     "series": "EV sales volume by segment (passenger cars)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Mahindra's e-car volumes grew 434% YoY to 47,316 units on new BEV launches, JSW MG grew 79% to 58,661 units.",
+     "value": "47,316 units",
+     "period": "FY26",
+     "period_end": "2026-03-31",
+     "publisher": "India EV Market Evaluation FY26 deck",
+     "series": "EV sales volume by OEM (Mahindra)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "JSW MG grew 79% to 58,661 units led by the Windsor EV,",
+     "value": "58,661 units",
+     "period": "FY26",
+     "period_end": "2026-03-31",
+     "publisher": "India EV Market Evaluation FY26 deck",
+     "series": "EV sales volume by OEM (JSW MG)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "TVS, Bajaj, and Hero MotoCorp now hold 61% of the e-2W market between them",
+     "value": "61%",
+     "period": null,
+     "period_end": null,
+     "publisher": "India EV Market Evaluation FY26 deck",
+     "series": "Market share of e-2W by OEM",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "29,000+ Public charging stations (CEEW-GFC/Vahan basis), 55% in 5 states — IEA counts ~88,000 for India on a different methodology;",
+     "value": "29,000+",
+     "period": null,
+     "period_end": null,
+     "publisher": "CEEW-GFC Electric Mobility Dashboard",
+     "series": "Public charging stations count",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "IEA counts ~88,000 for India on a different methodology;",
+     "value": "88,000",
+     "period": "CY2025",
+     "period_end": "2025-12-31",
+     "publisher": "IEA Global EV Outlook 2026 Data Explorer",
+     "series": "Public charging points count",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "The rate is unchanged at ₹2,500 a kWh, capped at ₹5,000 a vehicle; the e-2W allocation rose from ₹1,772 crore to ₹2,767 crore,",
+     "value": "₹2,500 per kWh",
+     "period": null,
+     "period_end": null,
+     "publisher": "Ministry of Heavy Industries (MoHI)",
+     "series": "Subsidy rate for electric two-wheelers",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "the e-2W allocation rose from ₹1,772 crore to ₹2,767 crore",
+     "value": "₹2,767 crore",
+     "period": null,
+     "period_end": null,
+     "publisher": "Ministry of Heavy Industries (MoHI)",
+     "series": "Budget allocation for e-2W subsidies",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "PM E-DRIVE (PM Electric Drive Revolution in Innovative Vehicle Enhancement) ... with an outlay of ₹10,900 crore over two years",
+     "value": "₹10,900 crore",
+     "period": "2024-09-11 to 2026-09-11",
+     "period_end": "2026-09-11",
+     "publisher": "PIB scheme record",
+     "series": "PM E-DRIVE budget outlay",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "PM-eBus Sewa Payment Security Mechanism (also dated 2024-09-11), carries a separate ₹3,435 crore credit-guarantee outlay",
+     "value": "₹3,435 crore",
+     "period": "2024-09-11",
+     "period_end": "2024-09-11",
+     "publisher": "PIB scheme record",
+     "series": "PM-eBus Sewa credit-guarantee outlay",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "EV — scooter | Cost per km, ₹/km | 0.35 |",
+     "value": "₹0.35/km",
+     "period": "July 2026 (Delhi basis)",
+     "period_end": "2026-07-31",
+     "publisher": "vehicle_fuel_mileage cost-per-km model",
+     "series": "Cost-per-km for electric scooters",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "EV — hatchback | Cost per km, ₹/km | 1.41 |",
+     "value": "₹1.41/km",
+     "period": "July 2026 (Delhi basis)",
+     "period_end": "2026-07-31",
+     "publisher": "vehicle_fuel_mileage cost-per-km model",
+     "series": "Cost-per-km for electric hatchbacks",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "CNG | 2.97 |",
+     "value": "₹2.97/km",
+     "period": "July 2026 (Delhi basis)",
+     "period_end": "2026-07-31",
+     "publisher": "vehicle_fuel_mileage cost-per-km model",
+     "series": "Cost-per-km for CNG vehicles",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "FADA's FY26 data puts CNG at roughly 22% of passenger-vehicle sales nationally",
+     "value": "22%",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "FADA (Federation of Automobile Dealers Associations)",
+     "series": "CNG share of passenger-vehicle sales",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "China | 13,000,000 | 53 |",
+     "value": "13,000,000 units",
+     "period": "CY2025",
+     "period_end": "2025-12-31",
+     "publisher": "IEA Global EV Outlook 2026 Data Explorer",
+     "series": "EV car sales (China)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "India | 170,000 | 4 |",
+     "value": "170,000 units",
+     "period": "CY2025",
+     "period_end": "2025-12-31",
+     "publisher": "IEA Global EV Outlook 2026 Data Explorer",
+     "series": "EV car sales (India)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "World | 21,000,000 | 25 |",
+     "value": "21,000,000 units",
+     "period": "CY2025",
+     "period_end": "2025-12-31",
+     "publisher": "IEA Global EV Outlook 2026 Data Explorer",
+     "series": "Global EV car sales",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "China ~50% electric, Viet Nam 22%, world average 15%, India ~10% (IEA, CY2025)",
+     "value": "~10%",
+     "period": "CY2025",
+     "period_end": "2025-12-31",
+     "publisher": "IEA Global EV Outlook 2026 Data Explorer",
+     "series": "EV penetration in two/three-wheelers (India)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "75 million electric cars on the world's roads; ~7.0 million public charging points (India: ~88,000)",
+     "value": "~88,000",
+     "period": "CY2025",
+     "period_end": "2025-12-31",
+     "publisher": "IEA Global EV Outlook 2026 Data Explorer",
+     "series": "Public charging points in India",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "1,191 GWh of EV battery deployment in the year (cars 1,000 GWh, 2/3W 51 GWh);",
+     "value": "51 GWh",
+     "period": "CY2025",
+     "period_end": "2025-12-31",
+     "publisher": "IEA Global EV Outlook 2026 Data Explorer",
+     "series": "EV battery deployment for 2/3-wheelers",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "India's share of that displacement is ~0.025 Mbd — about 1.5% of the world total, and 60% of it comes from two/three-wheelers",
+     "value": "~0.025 Mbd",
+     "period": null,
+     "period_end": null,
+     "publisher": "IEA Global EV Outlook 2026 Data Explorer",
+     "series": "Oil displacement by India's EV fleet",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The ACMA report states that China 'produces nearly two-thirds of all Li-ion batteries in the world'",
+     "value": "~66.67%",
+     "period": null,
+     "period_end": null,
+     "publisher": "ACMA/YES BANK (July 2021)",
+     "series": "Global Li-ion battery production share (China)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The ACMA report projected e-2W sales would reach 2,417,100 units by FY26. Actual FY26 e-2W sales ... were 1.4 million units",
+     "value": "2,417,100 units (projected), 1.4 million units (actual)",
+     "period": "FY26 (projected), FY2025-26 (actual)",
+     "period_end": "2026-03-31",
+     "publisher": "ACMA/YES BANK (July 2021)",
+     "series": "Forecasted vs actual e-2W sales",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The global e4W and LCV-plus market was ~1.7 million and ~40,000 units respectively as of 2021, projected ... to reach ~4.5 million and ~1.1 million by FY2026",
+     "value": "~1.7 million (e4W), ~40,000 (LCV-plus)",
+     "period": "2021",
+     "period_end": "2021-12-31",
+     "publisher": "ACMA/YES BANK (July 2021)",
+     "series": "Global e4W and LCV-plus market size (projected)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The global e4W and LCV-plus market ... projected ... to reach ~4.5 million and ~1.1 million by FY2026",
+     "value": "~4.5 million (e4W), ~1.1 million (LCV-plus)",
+     "period": "FY2026",
+     "period_end": "2026-03-31",
+     "publisher": "ACMA/YES BANK (July 2021)",
+     "series": "Global e4W and LCV-plus market size (projected)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "State | EV penetration (share of vehicle sales), % | Driver | ... India (national avg.) | 8.5 | — |",
+     "value": "8.5%",
+     "period": "FY26",
+     "period_end": "2026-03-31",
+     "publisher": "India EV Market Evaluation FY26 deck",
+     "series": "National EV penetration (all categories)",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Tripura | 16.9 | Highest penetration nationally |",
+     "value": "16.9%",
+     "period": "FY26",
+     "period_end": "2026-03-31",
+     "publisher": "India EV Market Evaluation FY26 deck",
+     "series": "EV penetration by state (Tripura)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Delhi | 14 | Metro personal-EV adoption |",
+     "value": "14%",
+     "period": "FY26",
+     "period_end": "2026-03-31",
+     "publisher": "India EV Market Evaluation FY26 deck",
+     "series": "EV penetration by state (Delhi)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Maharashtra | 16.5 (e-2W specifically) | Affluent west, personal e-2W |",
+     "value": "16.5%",
+     "period": "FY26",
+     "period_end": "2026-03-31",
+     "publisher": "India EV Market Evaluation FY26 deck",
+     "series": "EV penetration by state (Maharashtra, e-2W)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Karnataka | 12.9 (e-2W specifically) | Affluent south, personal e-2W |",
+     "value": "12.9%",
+     "period": "FY26",
+     "period_end": "2026-03-31",
+     "publisher": "India EV Market Evaluation FY26 deck",
+     "series": "EV penetration by state (Karnataka, e-2W)",
+     "frequency": "annual",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

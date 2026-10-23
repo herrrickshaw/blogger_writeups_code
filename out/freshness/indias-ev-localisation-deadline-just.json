@@ -1,0 +1,360 @@
+{
+ "slug": "indias-ev-localisation-deadline-just",
+ "text_sha1": "210bda3bff73d1b7",
+ "chars": 13834,
+ "checked": "2026-10-23T14:07:21",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "₹10,900cr PM E-DRIVE's total outlay, Oct 2024–Mar 2026",
+     "value": "₹10,900 crore",
+     "period": "Oct 2024–Mar 2026",
+     "period_end": "2026-03-31",
+     "publisher": "PIB / ministry",
+     "series": "PM E-DRIVE total outlay",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "14,028 e-buses the scheme funds, at ₹4,391cr",
+     "value": "14,028 e-buses",
+     "period": "Oct 2024–Mar 2026",
+     "period_end": "2026-03-31",
+     "publisher": "PIB / ministry",
+     "series": "PM E-DRIVE e-bus procurement support",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "5th amendment to the e-Truck PMP schedule since July 2025, this one included",
+     "value": "5 amendments",
+     "period": "July 2025–Sep 2026",
+     "period_end": "2026-09-03",
+     "publisher": "Ministry of Heavy Industries",
+     "series": "e-Truck PMP schedule amendments",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "1 Apr 2027 new deadline for the magnet-dependent steps, both vehicle classes",
+     "value": "1 Apr 2027",
+     "period": "1 Apr 2027",
+     "period_end": "2027-04-01",
+     "publisher": "Ministry of Heavy Industries",
+     "series": "PMP deadline for magnet-dependent steps",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "PM E-DRIVE (the Electric Drive Revolution in Innovative Vehicle Enhancement scheme) was approved by the Cabinet on 11 September 2024 with a ₹10,900 crore outlay running from 1 October 2024 to 31 March 2026.",
+     "value": "₹10,900 crore",
+     "period": "1 October 2024 to 31 March 2026",
+     "period_end": "2026-03-31",
+     "publisher": "PIB / ministry",
+     "series": "PM E-DRIVE scheme outlay",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "plus 72,300 fast chargers.",
+     "value": "72,300 fast chargers",
+     "period": "Oct 2024–Mar 2026",
+     "period_end": "2026-03-31",
+     "publisher": "PIB / ministry",
+     "series": "PM E-DRIVE charging infrastructure coverage",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "e-2W / e-3W / e-ambulance / e-truck demand incentives | 3,679 | 24.79 lakh e-2Ws, 3.16 lakh e-3Ws, plus e-trucks and ambulances",
+     "value": "₹3,679 crore",
+     "period": "Oct 2024–Mar 2026",
+     "period_end": "2026-03-31",
+     "publisher": "PIB / ministry",
+     "series": "PM E-DRIVE budget by component",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "e-2W / e-3W / e-ambulance / e-truck demand incentives | 3,679 | 24.79 lakh e-2Ws, 3.16 lakh e-3Ws, plus e-trucks and ambulances",
+     "value": "24.79 lakh e-2Ws",
+     "period": "Oct 2024–Mar 2026",
+     "period_end": "2026-03-31",
+     "publisher": "PIB / ministry",
+     "series": "PM E-DRIVE coverage",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "e-2W / e-3W / e-ambulance / e-truck demand incentives | 3,679 | 24.79 lakh e-2Ws, 3.16 lakh e-3Ws, plus e-trucks and ambulances",
+     "value": "3.16 lakh e-3Ws",
+     "period": "Oct 2024–Mar 2026",
+     "period_end": "2026-03-31",
+     "publisher": "PIB / ministry",
+     "series": "PM E-DRIVE coverage",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "e-bus procurement support | 4,391 | 14,028 e-buses via STUs / public transport agencies",
+     "value": "₹4,391 crore",
+     "period": "Oct 2024–Mar 2026",
+     "period_end": "2026-03-31",
+     "publisher": "PIB / ministry",
+     "series": "PM E-DRIVE budget by component",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Charging infrastructure | 2,000 | 72,300 fast chargers across 2W/3W/4W and bus segments",
+     "value": "₹2,000 crore",
+     "period": "Oct 2024–Mar 2026",
+     "period_end": "2026-03-31",
+     "publisher": "PIB / ministry",
+     "series": "PM E-DRIVE budget by component",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Charging infrastructure | 2,000 | 72,300 fast chargers across 2W/3W/4W and bus segments",
+     "value": "72,300 fast chargers",
+     "period": "Oct 2024–Mar 2026",
+     "period_end": "2026-03-31",
+     "publisher": "PIB / ministry",
+     "series": "PM E-DRIVE charging infrastructure coverage",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "₹10,900cr PM E-DRIVE's total outlay, Oct 2024–Mar 2026",
+     "value": "₹10,900 crore",
+     "period": "Oct 2024–Mar 2026",
+     "period_end": "2026-03-31",
+     "publisher": "MoHI (Ministry of Heavy Industries)",
+     "series": "PM E-DRIVE scheme budget outlay",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "14,028 e-buses the scheme funds, at ₹4,391cr",
+     "value": "14,028 e-buses",
+     "period": "Oct 2024–Mar 2026",
+     "period_end": "2026-03-31",
+     "publisher": "MoHI",
+     "series": "PM E-DRIVE e-bus procurement support",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "₹4,391cr funds 14,028 e-buses via STUs/public transport agencies",
+     "value": "₹4,391 crore",
+     "period": "Oct 2024–Mar 2026",
+     "period_end": "2026-03-31",
+     "publisher": "MoHI",
+     "series": "PM E-DRIVE budget allocation for e-bus procurement",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "e-2W / e-3W / e-ambulance / e-truck demand incentives | 3,679 | 24.79 lakh e-2Ws, 3.16 lakh e-3Ws, plus e-trucks and ambulances",
+     "value": "24.79 lakh e-2Ws, 3.16 lakh e-3Ws",
+     "period": "Oct 2024–Mar 2026",
+     "period_end": "2026-03-31",
+     "publisher": "MoHI",
+     "series": "PM E-DRIVE demand incentives coverage",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Charging infrastructure | 2,000 | 72,300 fast chargers across 2W/3W/4W and bus segments",
+     "value": "72,300 fast chargers",
+     "period": "Oct 2024–Mar 2026",
+     "period_end": "2026-03-31",
+     "publisher": "MoHI",
+     "series": "PM E-DRIVE charging infrastructure allocation",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹2,000cr for charging infrastructure",
+     "value": "₹2,000 crore",
+     "period": "Oct 2024–Mar 2026",
+     "period_end": "2026-03-31",
+     "publisher": "MoHI",
+     "series": "PM E-DRIVE budget allocation for charging infrastructure",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "PM E-DRIVE’s original window ran from 1 October 2024 to 31 March 2026. ... extended it to 31 March 2028",
+     "value": "31 March 2028",
+     "period": "extension of PM E-DRIVE",
+     "period_end": "2028-03-31",
+     "publisher": "MoHI (via press reports)",
+     "series": "PM E-DRIVE scheme extension",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The e-two-wheeler incentive was extended to 31 March 2028 by an order of 10 August 2026",
+     "value": "31 March 2028",
+     "period": "e-two-wheeler incentive extension",
+     "period_end": "2028-03-31",
+     "publisher": "MoHI",
+     "series": "PM E-DRIVE e-two-wheeler incentive extension",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "~Mar 2025 | e-Bus | PMP for e-buses first notified",
+     "value": "March 2025",
+     "period": "first notification of PMP for e-buses",
+     "period_end": "2025-03-31",
+     "publisher": "MoHI",
+     "series": "Phased Manufacturing Programme (PMP) for e-buses",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "10 Jul 2025 | e-Truck | PMP for e-trucks (N2/N3) first notified",
+     "value": "10 July 2025",
+     "period": "first notification of PMP for e-trucks",
+     "period_end": "2025-07-10",
+     "publisher": "MoHI",
+     "series": "Phased Manufacturing Programme (PMP) for e-trucks",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "30 Sep 2025 | Both | First amendment to both PMPs",
+     "value": "30 September 2025",
+     "period": "first amendment to PMPs",
+     "period_end": "2025-09-30",
+     "publisher": "MoHI",
+     "series": "Phased Manufacturing Programme (PMP) amendments",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "3 Mar 2026 | Both | Second amendment to both PMPs",
+     "value": "3 March 2026",
+     "period": "second amendment to PMPs",
+     "period_end": "2026-03-03",
+     "publisher": "MoHI",
+     "series": "Phased Manufacturing Programme (PMP) amendments",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "29 Apr 2026 | e-Truck only | Third amendment to the e-Truck PMP",
+     "value": "29 April 2026",
+     "period": "third amendment to e-Truck PMP",
+     "period_end": "2026-04-29",
+     "publisher": "MoHI",
+     "series": "Phased Manufacturing Programme (PMP) for e-trucks",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "3 Sep 2026 | Both | This notification: third amendment for e-Buses, fifth for e-Trucks",
+     "value": "3 September 2026",
+     "period": "third amendment for e-buses, fifth for e-trucks",
+     "period_end": "2026-09-03",
+     "publisher": "MoHI",
+     "series": "Phased Manufacturing Programme (PMP) amendments",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "e-Bus (M2/M3) | Rotor + stator assembly, bearing, enclosure, connector, cable fitment | 1 Sep 2026",
+     "value": "1 September 2026",
+     "period": "domestic manufacture required for e-bus components",
+     "period_end": "2026-09-01",
+     "publisher": "MoHI",
+     "series": "Phased Manufacturing Programme (PMP) for e-buses",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "e-Bus (M2/M3) | Magnet fitment, shaft fitment | 1 Apr 2027",
+     "value": "1 April 2027",
+     "period": "domestic manufacture required for e-bus magnets and shaft",
+     "period_end": "2027-04-01",
+     "publisher": "MoHI",
+     "series": "Phased Manufacturing Programme (PMP) for e-buses",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "e-Truck (N2/N3), standalone traction motor | Full build ... | 1 Apr 2027 (no earlier milestone)",
+     "value": "1 April 2027",
+     "period": "domestic manufacture required for standalone e-truck traction motor",
+     "period_end": "2027-04-01",
+     "publisher": "MoHI",
+     "series": "Phased Manufacturing Programme (PMP) for e-trucks",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "e-Truck (N2/N3), motor integrated with transmission | Assembly ... | 1 Sep 2025 (already in force)",
+     "value": "1 September 2025",
+     "period": "domestic manufacture required for integrated e-truck motor assembly",
+     "period_end": "2025-09-01",
+     "publisher": "MoHI",
+     "series": "Phased Manufacturing Programme (PMP) for e-trucks",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "e-Truck (N2/N3), motor integrated with transmission | Deeper build ... | 1 Apr 2027",
+     "value": "1 April 2027",
+     "period": "domestic manufacture required for deeper build of integrated e-truck motor",
+     "period_end": "2027-04-01",
+     "publisher": "MoHI",
+     "series": "Phased Manufacturing Programme (PMP) for e-trucks",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "SIAM reportedly wrote to the Ministry in July 2026",
+     "value": "July 2026",
+     "period": "SIAM letter to Ministry of Heavy Industries",
+     "period_end": "2026-07-31",
+     "publisher": "SIAM (Society of Indian Automobile Manufacturers)",
+     "series": "Industry representation on PMP deadlines",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "China's export restrictions on heavy rare-earth elements ... took effect from April 2025",
+     "value": "April 2025",
+     "period": "China export restrictions on rare-earth elements",
+     "period_end": "2025-04-30",
+     "publisher": "China (via trade-press coverage)",
+     "series": "Export restrictions on heavy rare-earth elements",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹7,280 Crore Bet on the EV Supply Chain's Missing Middle",
+     "value": "₹7,280 crore",
+     "period": null,
+     "period_end": null,
+     "publisher": "MoHI (referenced in related article)",
+     "series": "EV supply chain investment",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

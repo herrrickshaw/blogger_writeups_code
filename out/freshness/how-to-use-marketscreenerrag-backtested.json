@@ -1,0 +1,210 @@
+{
+ "slug": "how-to-use-marketscreenerrag-backtested",
+ "text_sha1": "a89c2febed53038d",
+ "chars": 8632,
+ "checked": "2026-10-23T12:11:45",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "+4.83% Korea long/short edge per 6 months, t-stat 4.17 (gross)",
+     "value": "+4.83%",
+     "period": "6 months",
+     "period_end": null,
+     "publisher": "market_screener_rag authors",
+     "series": "winning_strategies.json",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "15 names in the India long list in the demo",
+     "value": "15 names",
+     "period": null,
+     "period_end": null,
+     "publisher": "market_screener_rag authors",
+     "series": "bundled snapshot",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "6 markets covered: India, US, Korea, Japan, Europe, China",
+     "value": "6 markets",
+     "period": null,
+     "period_end": null,
+     "publisher": "market_screener_rag authors",
+     "series": "market_screener_rag coverage",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "+4.83% per 6 months at t 4.17",
+     "value": "+4.83%",
+     "period": "6 months",
+     "period_end": null,
+     "publisher": "market_screener_rag authors",
+     "series": "winning_strategies.json",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Japan shows +6.6% per 6 months (t 4.84)",
+     "value": "+6.6%",
+     "period": "6 months",
+     "period_end": null,
+     "publisher": "market_screener_rag authors",
+     "series": "winning_strategies.json",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "China shows value failing, with a spread near 0% (t 0.04)",
+     "value": "0%",
+     "period": null,
+     "period_end": null,
+     "publisher": "market_screener_rag authors",
+     "series": "winning_strategies.json",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "shorting fails in India (-1.0% per 6 months)",
+     "value": "-1.0%",
+     "period": "6 months",
+     "period_end": null,
+     "publisher": "market_screener_rag authors",
+     "series": "winning_strategies.json",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Capacity is small: roughly 300 to 500 thousand dollars before the illiquidity edge decays.",
+     "value": "300 to 500 thousand dollars",
+     "period": null,
+     "period_end": null,
+     "publisher": "market_screener_rag authors",
+     "series": "backtest limits",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The Japan panel is a sample of about 1,437 firms",
+     "value": "1,437 firms",
+     "period": null,
+     "period_end": null,
+     "publisher": "market_screener_rag authors",
+     "series": "Japan panel sample",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "China coverage is thin (426 of about 3,454 liquid stocks)",
+     "value": "426",
+     "period": null,
+     "period_end": null,
+     "publisher": "market_screener_rag authors",
+     "series": "China coverage sample",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "China coverage is thin (426 of about 3,454 liquid stocks)",
+     "value": "3,454 liquid stocks",
+     "period": null,
+     "period_end": null,
+     "publisher": "market_screener_rag authors",
+     "series": "China coverage universe",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "+4.83% Korea long/short edge per 6 months, t-stat 4.17 (gross)",
+     "value": "+4.83% per 6 months (t-stat 4.17)",
+     "period": "6 months",
+     "period_end": "2026-04-30",
+     "publisher": "market_screener_rag (backtested data in winning_strategies.json)",
+     "series": "Korea long/short strategy backtest earnings and significance",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "15 names in the India long list in the demo",
+     "value": "15 names",
+     "period": null,
+     "period_end": null,
+     "publisher": "market_screener_rag (demo output)",
+     "series": "India long stock list (snapshot)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Japan shows +6.6% per 6 months (t 4.84)",
+     "value": "+6.6% per 6 months (t-stat 4.84)",
+     "period": "6 months",
+     "period_end": "2026-04-30",
+     "publisher": "market_screener_rag (backtested data in winning_strategies.json)",
+     "series": "Japan strategy backtest earnings and significance",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "China shows value failing, with a spread near 0% (t 0.04)",
+     "value": "0% (t-stat 0.04)",
+     "period": "6 months",
+     "period_end": "2026-04-30",
+     "publisher": "market_screener_rag (backtested data in winning_strategies.json)",
+     "series": "China value strategy backtest earnings and significance",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "no short book, because shorting fails in India (-1.0% per 6 months)",
+     "value": "-1.0% per 6 months",
+     "period": "6 months",
+     "period_end": "2026-04-30",
+     "publisher": "market_screener_rag (backtested data in winning_strategies.json)",
+     "series": "India short strategy backtest earnings",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The Japan panel is a sample of about 1,437 firms",
+     "value": "1,437 firms",
+     "period": null,
+     "period_end": null,
+     "publisher": "market_screener_rag (backtested data in winning_strategies.json)",
+     "series": "Japan stock universe sample size",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "China coverage is thin (426 of about 3,454 liquid stocks)",
+     "value": "426/3,454 liquid stocks",
+     "period": null,
+     "period_end": null,
+     "publisher": "market_screener_rag (backtested data in winning_strategies.json)",
+     "series": "China liquid stock coverage",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Capacity is small: roughly 300 to 500 thousand dollars before the illiquidity edge decays",
+     "value": "USD 300,000–500,000",
+     "period": null,
+     "period_end": null,
+     "publisher": "market_screener_rag (README)",
+     "series": "Backtested strategy capacity estimate",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

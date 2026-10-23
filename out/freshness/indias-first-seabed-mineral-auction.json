@@ -1,0 +1,390 @@
+{
+ "slug": "indias-first-seabed-mineral-auction",
+ "text_sha1": "e7df15d10750c7b9",
+ "chars": 10990,
+ "checked": "2026-10-23T14:12:00",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "13 → 0 Blocks offered in India’s first offshore mineral auction, and blocks awarded, before it was annulled in December 2025",
+     "value": "13 blocks",
+     "period": "December 2025",
+     "period_end": "2025-12-31",
+     "publisher": "PIB / ministry",
+     "series": "Offshore mineral auction first tranche",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "2 Blocks in the second attempt, launched on 1 October 2026: both polymetallic nodules off Great Nicobar",
+     "value": "2 blocks",
+     "period": "1 October 2026",
+     "period_end": "2026-10-01",
+     "publisher": "PIB / ministry",
+     "series": "Offshore mineral auction second attempt",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "3 → 2 Technically qualified bidders now needed for the auction to go ahead, after a rule change on 24 September",
+     "value": "2 bidders",
+     "period": "24 September 2026",
+     "period_end": "2026-09-24",
+     "publisher": "PIB / ministry",
+     "series": "Auction rules qualified bidders threshold",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "28 Dec Bid deadline for the two blocks, 1,632 sq km between them",
+     "value": "1,632 sq km",
+     "period": "28 December 2026",
+     "period_end": "2026-12-28",
+     "publisher": "PIB / ministry",
+     "series": "Second attempt block area",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "The Ministry of Earth Sciences’ Deep Ocean Mission, approved in 2021 at about ₹4,077 crore, is building the submersible and collector technology",
+     "value": "₹4,077 crore",
+     "period": "2021",
+     "period_end": "2021-12-31",
+     "publisher": "PIB / ministry",
+     "series": "Deep Ocean Mission outlay",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Its International Seabed Authority contract for 75,000 square kilometres of the Central Indian Ocean Basin was signed in 2002",
+     "value": "75,000 square kilometres",
+     "period": "2002",
+     "period_end": "2002-12-31",
+     "publisher": "PIB / ministry",
+     "series": "International Seabed Authority contract area",
+     "frequency": "multi-year",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "13 → 0 Blocks offered in India’s first offshore mineral auction, and blocks awarded, before it was annulled in December 2025",
+     "value": "13 blocks offered; 0 blocks awarded",
+     "period": "Nov 2024 – Dec 2025",
+     "period_end": "2025-12-31",
+     "publisher": "PIB / Ministry of Mines",
+     "series": "Offshore mineral auction tranche (first attempt)",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "2 Blocks in the second attempt, launched on 1 October 2026: both polymetallic nodules off Great Nicobar",
+     "value": "2 blocks",
+     "period": "1 Oct 2026 – ongoing",
+     "period_end": null,
+     "publisher": "PIB / Ministry of Mines",
+     "series": "Offshore mineral auction tranche (second attempt)",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "28 Dec Bid deadline for the two blocks, 1,632 sq km between them",
+     "value": "1,632 sq km (total for both blocks)",
+     "period": "28 Dec 2026",
+     "period_end": "2026-12-28",
+     "publisher": "PIB / Ministry of Mines",
+     "series": "Offshore mineral auction bid deadline",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "West Sewell Ridge-01 (1,000 sq km) and Sewell Rise-01 (632 sq km), both nodules and crusts off Great Nicobar Island",
+     "value": "1,000 sq km (West Sewell Ridge-01); 632 sq km (Sewell Rise-01)",
+     "period": "1 Oct 2026 – ongoing",
+     "period_end": null,
+     "publisher": "PIB / Ministry of Mines",
+     "series": "Offshore mineral block sizes (second attempt)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "3 → 2 Technically qualified bidders now needed for the auction to go ahead, after a rule change on 24 September 2026",
+     "value": "3 (original); 2 (revised)",
+     "period": "24 Sep 2026 – ongoing",
+     "period_end": "2026-09-24",
+     "publisher": "PIB / Ministry of Mines",
+     "series": "Qualified bidder threshold for offshore mineral auction",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The tender material for the West Sewell Ridge blocks said that estimated resources ‘have not been reported’",
+     "value": "Resources: not reported",
+     "period": "Nov 2024 (first tranche tender)",
+     "period_end": "2024-11-30",
+     "publisher": "Ministry of Mines",
+     "series": "Offshore mineral block resource estimates (first tranche)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "a government document puts the Andaman seamounts that carry these crusts and nodules at roughly 600 to 1,300 metres down",
+     "value": "600–1,300 metres",
+     "period": null,
+     "period_end": null,
+     "publisher": "Ministry of Mines (government document)",
+     "series": "Seamount depth for polymetallic nodules/crusts",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Kerala’s fishing unions held a coastal hartal on 27 February 2025",
+     "value": "1 (hartal event)",
+     "period": "27 Feb 2025",
+     "period_end": "2025-02-27",
+     "publisher": "Kerala Assembly / local media (Onmanorama, Deccan Herald)",
+     "series": "Coastal hartal against offshore mining",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Kerala Assembly unanimously asked the Centre to withdraw the 2023 amendment that made the auction possible",
+     "value": "1 (resolution)",
+     "period": "4 Mar 2025",
+     "period_end": "2025-03-04",
+     "publisher": "Kerala Assembly",
+     "series": "Assembly resolution on offshore mining amendment",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "bid deadline was pushed back twice, to 1 May 2025",
+     "value": "1 May 2025 (final deadline)",
+     "period": "1 May 2025",
+     "period_end": "2025-05-01",
+     "publisher": "Offshore Engineer (via article)",
+     "series": "Offshore mineral auction bid deadline (first tranche)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India’s International Seabed Authority contract for 75,000 square kilometres of the Central Indian Ocean Basin was signed in 2002, extended in 2017 and again in 2022, and is due to expire in March 2027",
+     "value": "75,000 sq km (contract area)",
+     "period": "2002–2027 (extended)",
+     "period_end": "2027-03-31",
+     "publisher": "International Seabed Authority (ISA)",
+     "series": "ISA contract for seabed nodules (Central Indian Ocean Basin)",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "its 2024 application for cobalt crusts on the Afanasy Nikitin seamount has stalled",
+     "value": "1 (application stalled)",
+     "period": "2024 (ongoing stall)",
+     "period_end": null,
+     "publisher": "Ministry of Earth Sciences (via ISA)",
+     "series": "Cobalt crust exploration application (Afanasy Nikitin seamount)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Deep Ocean Mission, approved in 2021 at about ₹4,077 crore",
+     "value": "₹4,077 crore",
+     "period": "2021 (approval)",
+     "period_end": "2021-12-31",
+     "publisher": "Ministry of Earth Sciences",
+     "series": "Deep Ocean Mission budget",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "its crewed 6,000-metre dive has been reported as slipping to December 2027",
+     "value": "6,000 metres (target depth)",
+     "period": "Dec 2027 (slipped from earlier date)",
+     "period_end": "2027-12-31",
+     "publisher": "Ministry of Earth Sciences (Deccan Herald)",
+     "series": "Deep Ocean Mission crewed dive milestone",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "an area off Daman was reserved for the Vadhvan port being built by the Jawaharlal Nehru Port Authority",
+     "value": "1 block (off Daman)",
+     "period": "Dec 2023 (reserved); Feb 2025 (LOI handed)",
+     "period_end": "2025-02-28",
+     "publisher": "PIB / Ministry of Mines",
+     "series": "Offshore mineral concession (non-auction)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The sand will be used to reclaim land for the port. That is the model that has worked so far: a public buyer with a known use, in shallow water. (20–25 metres deep)",
+     "value": "20–25 metres (depth)",
+     "period": "Dec 2023 (reservation)",
+     "period_end": "2023-12-31",
+     "publisher": "Ministry of Mines",
+     "series": "Offshore sand block depth (Daman)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Offshore Areas Mineral (Development and Regulation) Act passed; India signs its first International Seabed Authority (ISA) contract, for 75,000 sq km of nodules in the Central Indian Ocean Basin | 2002",
+     "value": "75,000 sq km (ISA contract area)",
+     "period": "2002",
+     "period_end": "2002-12-31",
+     "publisher": "International Seabed Authority (ISA)",
+     "series": "ISA contract signing (Central Indian Ocean Basin)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Parliament amends the Act: auction becomes the only route for private companies, blocks can be reserved for government companies, and an Offshore Areas Mineral Trust is created | Aug 2023",
+     "value": "1 amendment (2023)",
+     "period": "Aug 2023",
+     "period_end": "2023-08-03",
+     "publisher": "PIB / Ministry of Mines",
+     "series": "Offshore Areas Mineral Act amendment",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Draft auction rules published; an area off Daman is reserved for the Vadhvan port | Dec 2023",
+     "value": "1 (draft rules published)",
+     "period": "Dec 2023",
+     "period_end": "2023-12-28",
+     "publisher": "PIB / Ministry of Mines",
+     "series": "Draft offshore mineral auction rules",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "First tranche of 13 blocks launched | Nov 2024",
+     "value": "13 blocks (first tranche)",
+     "period": "28 Nov 2024",
+     "period_end": "2024-11-28",
+     "publisher": "PIB / Ministry of Mines",
+     "series": "Offshore mineral auction (first tranche launch)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Letter of intent to the Jawaharlal Nehru Port Authority for the Daman sand block, India’s first offshore mineral concession | Feb 2025",
+     "value": "1 (LOI issued)",
+     "period": "28 Feb 2025",
+     "period_end": "2025-02-28",
+     "publisher": "PIB / Ministry of Mines",
+     "series": "Offshore mineral concession LOI (Daman)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Kerala fishers hold a coastal hartal (27 Feb) | Mar 2025: Kerala Assembly passes a unanimous resolution asking the Centre to withdraw the 2023 amendment",
+     "value": "1 (resolution passed)",
+     "period": "Mar 2025",
+     "period_end": "2025-03-04",
+     "publisher": "Kerala Assembly",
+     "series": "Assembly resolution on offshore mining amendment",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Second extended bid deadline for the first tranche passes | May 2025",
+     "value": "1 May 2025 (deadline)",
+     "period": "May 2025",
+     "period_end": "2025-05-01",
+     "publisher": "Offshore Engineer (via article)",
+     "series": "Offshore mineral auction bid deadline (first tranche)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Andaman Sea blocks notified (21 Sep); qualified-bidder minimum cut from three to two (24 Sep) | Sep 2026",
+     "value": "2 blocks notified; 3→2 bidder threshold",
+     "period": "21–24 Sep 2026",
+     "period_end": "2026-09-24",
+     "publisher": "PIB / Ministry of Mines (gazette notifications)",
+     "series": "Offshore mineral auction (second attempt) notifications",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Second attempt launched (1 Oct); pre-bid conference 4 Nov; bids due 28 Dec | Oct 2026",
+     "value": "1 Oct (launch); 4 Nov (pre-bid); 28 Dec (deadline)",
+     "period": "1 Oct–28 Dec 2026",
+     "period_end": "2026-12-28",
+     "publisher": "PIB / Ministry of Mines",
+     "series": "Offshore mineral auction (second attempt) timeline",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "ISA contract for seabed nodules... is due to expire in March 2027",
+     "value": "March 2027",
+     "period": "Mar 2027",
+     "period_end": "2027-03-31",
+     "publisher": "International Seabed Authority (ISA)",
+     "series": "ISA contract expiration (Central Indian Ocean Basin)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India’s application for cobalt crusts on the Afanasy Nikitin seamount has stalled because the area is also claimed as continental shelf, reportedly by Sri Lanka",
+     "value": "1 (application stalled)",
+     "period": "2024 (ongoing stall)",
+     "period_end": null,
+     "publisher": "Ministry of Earth Sciences (via ISA)",
+     "series": "Cobalt crust exploration dispute (Afanasy Nikitin seamount)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Ministry of Earth Sciences’ Deep Ocean Mission... crewed 6,000-metre dive has been reported as slipping to December 2027",
+     "value": "6,000 metres (target depth)",
+     "period": "Dec 2027 (slipped from earlier date)",
+     "period_end": "2027-12-31",
+     "publisher": "Ministry of Earth Sciences (Deccan Herald)",
+     "series": "Deep Ocean Mission crewed dive milestone",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India’s ISA nodule exploration contract... is due to expire in March 2027",
+     "value": "March 2027",
+     "period": "Mar 2027",
+     "period_end": "2027-03-31",
+     "publisher": "International Seabed Authority (ISA)",
+     "series": "ISA contract expiration (nodule exploration)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India was the first country registered as a pioneer investor for seabed nodules, in 1987",
+     "value": "1987",
+     "period": "1987",
+     "period_end": "1987-12-31",
+     "publisher": "International Seabed Authority (ISA)",
+     "series": "India’s pioneer investor registration (seabed nodules)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India’s application for cobalt crusts on the Afanasy Nikitin seamount has stalled because the area is also claimed as continental shelf, reportedly by Sri Lanka",
+     "value": "1 (dispute)",
+     "period": "2024 (ongoing)",
+     "period_end": null,
+     "publisher": "Ministry of Earth Sciences (via ISA)",
+     "series": "Cobalt crust exploration dispute (Afanasy Nikitin seamount)",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

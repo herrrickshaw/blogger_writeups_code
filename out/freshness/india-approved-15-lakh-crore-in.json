@@ -1,0 +1,820 @@
+{
+ "slug": "india-approved-15-lakh-crore-in",
+ "text_sha1": "d4a96f2cef7ee72c",
+ "chars": 26253,
+ "checked": "2026-10-23T12:21:20",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "Across the whole PLI programme, the government's own headline is ₹35,354 crore disbursed by March 2026 against a ₹1.97 lakh crore approved outlay — about 18% paid out",
+     "value": "₹35,354 crore",
+     "period": "March 2026",
+     "period_end": "2026-03-31",
+     "publisher": "PIB / ministry",
+     "series": "PLI programme disbursement",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "Across the whole PLI programme, the government's own headline is ₹35,354 crore disbursed by March 2026 against a ₹1.97 lakh crore approved outlay",
+     "value": "₹1.97 lakh crore",
+     "period": "March 2026",
+     "period_end": "2026-03-31",
+     "publisher": "PIB / ministry",
+     "series": "PLI programme approved outlay",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "PLI Auto \n ₹25,938 cr outlay \n ₹2,386 cr paid",
+     "value": "₹25,938 crore",
+     "period": "March 2026",
+     "period_end": "2026-03-31",
+     "publisher": "MoHI",
+     "series": "PLI Auto scheme outlay",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "PLI Auto \n ₹25,938 cr outlay \n ₹2,386 cr paid",
+     "value": "₹2,386 crore",
+     "period": "March 2026",
+     "period_end": "2026-03-31",
+     "publisher": "MoHI",
+     "series": "PLI Auto scheme disbursement",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "PLI Solar \n ₹18,500 cr outlay — ₹0 disbursed",
+     "value": "₹18,500 crore",
+     "period": "March 2026",
+     "period_end": "2026-03-31",
+     "publisher": "MNRE / Ministry",
+     "series": "PLI Solar scheme outlay",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "PLI Solar \n ₹18,500 cr outlay — ₹0 disbursed",
+     "value": "₹0",
+     "period": "March 2026",
+     "period_end": "2026-03-31",
+     "publisher": "MNRE / Ministry",
+     "series": "PLI Solar scheme disbursement",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "PLI-ACC (batteries) \n ₹18,100 cr outlay — ₹0 disbursed",
+     "value": "₹18,100 crore",
+     "period": "March 2026",
+     "period_end": "2026-03-31",
+     "publisher": "MoHI",
+     "series": "PLI-ACC scheme outlay",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "PLI-ACC (batteries) \n ₹18,100 cr outlay — ₹0 disbursed",
+     "value": "₹0",
+     "period": "March 2026",
+     "period_end": "2026-03-31",
+     "publisher": "MoHI",
+     "series": "PLI-ACC scheme disbursement",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "NGHM/SIGHT (H₂) \n ₹17,490 cr outlay — ₹0 disbursed",
+     "value": "₹17,490 crore",
+     "period": "March 2026",
+     "period_end": "2026-03-31",
+     "publisher": "Ministry",
+     "series": "NGHM/SIGHT scheme outlay",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "NGHM/SIGHT (H₂) \n ₹17,490 cr outlay — ₹0 disbursed",
+     "value": "₹0",
+     "period": "March 2026",
+     "period_end": "2026-03-31",
+     "publisher": "Ministry",
+     "series": "NGHM/SIGHT scheme disbursement",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "PLI Pharmaceuticals \n ₹15,000 cr outlay \n ₹6,659 cr paid",
+     "value": "₹15,000 crore",
+     "period": "March 2026",
+     "period_end": "2026-03-31",
+     "publisher": "DoP",
+     "series": "PLI Pharmaceuticals outlay",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "PLI Pharmaceuticals \n ₹15,000 cr outlay \n ₹6,659 cr paid",
+     "value": "₹6,659 crore",
+     "period": "March 2026",
+     "period_end": "2026-03-31",
+     "publisher": "DoP",
+     "series": "PLI Pharmaceuticals disbursement",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "PLI Bulk Drugs \n ₹6,940 cr outlay — ₹88 cr paid (~1%)",
+     "value": "₹6,940 crore",
+     "period": "March 2026",
+     "period_end": "2026-03-31",
+     "publisher": "DoP",
+     "series": "PLI Bulk Drugs outlay",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "PLI Bulk Drugs \n ₹6,940 cr outlay — ₹88 cr paid (~1%)",
+     "value": "₹88 crore",
+     "period": "March 2026",
+     "period_end": "2026-03-31",
+     "publisher": "DoP",
+     "series": "PLI Bulk Drugs disbursement",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "PLI Medical Devices \n ₹3,420 cr outlay — ₹267 cr paid (~8%)",
+     "value": "₹3,420 crore",
+     "period": "March 2026",
+     "period_end": "2026-03-31",
+     "publisher": "DoP",
+     "series": "PLI Medical Devices outlay",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "PLI Medical Devices \n ₹3,420 cr outlay — ₹267 cr paid (~8%)",
+     "value": "₹267 crore",
+     "period": "March 2026",
+     "period_end": "2026-03-31",
+     "publisher": "DoP",
+     "series": "PLI Medical Devices disbursement",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "the Economic Survey 2025-26 put cumulative disbursement at ₹23,946 crore as of September 2025",
+     "value": "₹23,946 crore",
+     "period": "September 2025",
+     "period_end": "2025-09-30",
+     "publisher": "MoSPI",
+     "series": "Economic Survey cumulative disbursement",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "government sources cited a further milestone of roughly ₹28,748 crore by December 2025",
+     "value": "₹28,748 crore",
+     "period": "December 2025",
+     "period_end": "2025-12-31",
+     "publisher": "PIB / ministry",
+     "series": "PLI cumulative disbursement",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "attracted over ₹3.2 lakh crore in realised investment",
+     "value": "₹3.2 lakh crore",
+     "period": "March 2026",
+     "period_end": "2026-03-31",
+     "publisher": "PIB / ministry",
+     "series": "PLI realised investment",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "generated over ₹18.7 lakh crore in incremental production and sales",
+     "value": "₹18.7 lakh crore",
+     "period": "March 2026",
+     "period_end": "2026-03-31",
+     "publisher": "PIB / ministry",
+     "series": "PLI incremental production and sales",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "produced over ₹8.2 lakh crore in exports since the programme's 2020 launch",
+     "value": "₹8.2 lakh crore",
+     "period": "March 2026",
+     "period_end": "2026-03-31",
+     "publisher": "PIB / ministry",
+     "series": "PLI exports",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "MHI expects ~₹4,700 cr disbursed for FY2026-27, ~₹700 cr of it already released as of Aug 2026",
+     "value": "₹4,700 cr",
+     "period": "FY2026-27",
+     "period_end": "2027-03-31",
+     "publisher": "MoHI",
+     "series": "PLI Auto expected disbursement",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "MHI expects ~₹4,700 cr disbursed for FY2026-27, ~₹700 cr of it already released as of Aug 2026",
+     "value": "₹700 cr",
+     "period": "as on 31 Aug 2026",
+     "period_end": "2026-08-31",
+     "publisher": "MoHI",
+     "series": "PLI Auto disbursed amount",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Wistron ₹953cr, Foxconn ₹357cr — 25 of 32 beneficiaries at nil",
+     "value": "₹953 cr",
+     "period": "March 2026",
+     "period_end": "2026-03-31",
+     "publisher": "MeitY",
+     "series": "PLI-LSEM disbursements",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Wistron ₹953cr, Foxconn ₹357cr — 25 of 32 beneficiaries at nil",
+     "value": "₹357 cr",
+     "period": "March 2026",
+     "period_end": "2026-03-31",
+     "publisher": "MeitY",
+     "series": "PLI-LSEM disbursements",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "PLI Telecom & Networking | ₹1,984 cr claimed | ₹1,850 cr paid",
+     "value": "₹1,984 cr",
+     "period": "March 2026",
+     "period_end": "2026-03-31",
+     "publisher": "DoT",
+     "series": "PLI Telecom claims",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "PLI Telecom & Networking | ₹1,984 cr claimed | ₹1,850 cr paid",
+     "value": "₹1,850 cr",
+     "period": "March 2026",
+     "period_end": "2026-03-31",
+     "publisher": "DoT",
+     "series": "PLI Telecom paid",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "PLI Drones | ₹120 cr | ₹60.62 cr, to ~12 of 23 | ~51%",
+     "value": "₹120 cr",
+     "period": "March 2026",
+     "period_end": "2026-03-31",
+     "publisher": "Ministry of Civil Aviation",
+     "series": "PLI Drones outlay",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "PLI Drones | ₹120 cr | ₹60.62 cr, to ~12 of 23 | ~51%",
+     "value": "₹60.62 cr",
+     "period": "March 2026",
+     "period_end": "2026-03-31",
+     "publisher": "Ministry of Civil Aviation",
+     "series": "PLI Drones paid",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "PLI Textiles | — | ₹8,117.64 cr invested, 170/170 complete | fully executed",
+     "value": "₹8,117.64 cr",
+     "period": "March 2026",
+     "period_end": "2026-03-31",
+     "publisher": "Ministry of Textiles",
+     "series": "PLI Textiles investment",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "All four have claimed zero incentive to date, against ₹5,180 crore invested and 1,277 direct jobs.",
+     "value": "₹5,180 crore",
+     "period": "August 2026",
+     "period_end": "2026-08-12",
+     "publisher": "MoHI",
+     "series": "PLI-ACC investment",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "twelve approved units under the India Semiconductor Mission, roughly ₹1.64 lakh crore in sanctioned investment",
+     "value": "₹1.64 lakh crore",
+     "period": "September 2026",
+     "period_end": "2026-09-30",
+     "publisher": "DPIIT / ISM",
+     "series": "India Semiconductor Mission sanctioned investment",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Tata Electronics' Gujarat fab (₹91,526 crore) and Assam ATMP plant (₹27,120 crore) alone account for roughly 72%",
+     "value": "₹91,526 crore",
+     "period": "September 2026",
+     "period_end": "2026-09-30",
+     "publisher": "ISM",
+     "series": "Tata Electronics Gujarat fab investment",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Tata Electronics' Gujarat fab (₹91,526 crore) and Assam ATMP plant (₹27,120 crore) alone account for roughly 72%",
+     "value": "₹27,120 crore",
+     "period": "September 2026",
+     "period_end": "2026-09-30",
+     "publisher": "ISM",
+     "series": "Tata Electronics Assam ATMP investment",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Micron's Gujarat facility is the clean reference case: ₹22,516 crore (~$2.75 billion), production live since February 2026",
+     "value": "₹22,516 crore",
+     "period": "February 2026",
+     "period_end": "2026-02-28",
+     "publisher": "ISM",
+     "series": "Micron Gujarat facility investment",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "27 approved projects have drawn ₹1,153.07 crore in actual investment against a committed ₹1,136.23 crore",
+     "value": "₹1,153.07 crore",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "DoP",
+     "series": "PLI Medical Devices actual investment",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "27 approved projects have drawn ₹1,153.07 crore in actual investment against a committed ₹1,136.23 crore",
+     "value": "₹1,136.23 crore",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "DoP",
+     "series": "PLI Medical Devices committed investment",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "₹266.64 crore has been disbursed under the scheme itself, plus a further ₹209.8 crore released separately for medical-device-park infrastructure",
+     "value": "₹266.64 crore",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "DoP",
+     "series": "PLI Medical Devices scheme disbursement",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "₹266.64 crore has been disbursed under the scheme itself, plus a further ₹209.8 crore released separately for medical-device-park infrastructure",
+     "value": "₹209.8 crore",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "DoP",
+     "series": "Medical-device-park infrastructure release",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "India's rare-earth permanent-magnet manufacturing scheme — ₹7,280 crore, up to five slots",
+     "value": "₹7,280 crore",
+     "period": "December 2025",
+     "period_end": "2025-12-31",
+     "publisher": "MoHI",
+     "series": "Rare-earth permanent-magnet scheme outlay",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "₹25,938 crore for auto",
+     "value": "₹25,938 cr",
+     "period": null,
+     "period_end": null,
+     "publisher": "unspecified (headline)",
+     "series": null,
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "₹18,500 crore for solar",
+     "value": "₹18,500 cr",
+     "period": null,
+     "period_end": null,
+     "publisher": "unspecified (headline)",
+     "series": null,
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "a $1.5 billion LG-JSW battery gigafactory",
+     "value": "$1.5 billion",
+     "period": "Dec 2024",
+     "period_end": "2024-12-31",
+     "publisher": "trade press (unspecified)",
+     "series": null,
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "India approved ₹1.5 lakh crore in manufacturing subsidies",
+     "value": "₹1.5 lakh crore",
+     "period": null,
+     "period_end": null,
+     "publisher": "unspecified (headline)",
+     "series": null,
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "₹25,938 cr outlay for PLI Auto; ₹2,386 cr paid",
+     "value": "₹25,938 cr",
+     "period": null,
+     "period_end": null,
+     "publisher": "Lok Sabha/Rajya Sabha unstarred questions",
+     "series": "PLI Auto approved outlay",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹25,938 cr outlay for PLI Auto; ₹2,386 cr paid",
+     "value": "₹2,386 cr",
+     "period": "as of 31 March 2026",
+     "period_end": "2026-03-31",
+     "publisher": "Lok Sabha/Rajya Sabha unstarred questions, MoHI",
+     "series": "PLI Auto disbursed",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "₹18,500 cr outlay for PLI Solar — ₹0 disbursed",
+     "value": "₹18,500 cr",
+     "period": null,
+     "period_end": null,
+     "publisher": "Lok Sabha/Rajya Sabha unstarred questions",
+     "series": "PLI Solar approved outlay",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹18,500 cr outlay for PLI Solar — ₹0 disbursed",
+     "value": "₹0",
+     "period": "as of Feb 2026",
+     "period_end": "2026-02-29",
+     "publisher": "Lok Sabha/Rajya Sabha unstarred questions",
+     "series": "PLI Solar disbursed",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "₹18,100 cr outlay for PLI-ACC (batteries) — ₹0 disbursed",
+     "value": "₹18,100 cr",
+     "period": null,
+     "period_end": null,
+     "publisher": "Lok Sabha/Rajya Sabha unstarred questions",
+     "series": "PLI-ACC approved outlay",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹18,100 cr outlay for PLI-ACC (batteries) — ₹0 disbursed",
+     "value": "₹0",
+     "period": null,
+     "period_end": null,
+     "publisher": "Lok Sabha/Rajya Sabha unstarred questions",
+     "series": "PLI-ACC disbursed",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹17,490 cr committed for NGHM/SIGHT (green hydrogen) — ₹0 disbursed",
+     "value": "₹17,490 cr",
+     "period": null,
+     "period_end": null,
+     "publisher": "Lok Sabha/Rajya Sabha unstarred questions",
+     "series": "NGHM/SIGHT approved outlay",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹17,490 cr committed for NGHM/SIGHT (green hydrogen) — ₹0 disbursed",
+     "value": "₹0",
+     "period": null,
+     "period_end": null,
+     "publisher": "Lok Sabha/Rajya Sabha unstarred questions",
+     "series": "NGHM/SIGHT disbursed",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹15,000 cr outlay for PLI Pharmaceuticals; ₹6,659 cr paid",
+     "value": "₹15,000 cr",
+     "period": null,
+     "period_end": null,
+     "publisher": "Lok Sabha/Rajya Sabha unstarred questions",
+     "series": "PLI Pharmaceuticals approved outlay",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹15,000 cr outlay for PLI Pharmaceuticals; ₹6,659 cr paid",
+     "value": "₹6,659 cr",
+     "period": null,
+     "period_end": null,
+     "publisher": "Lok Sabha/Rajya Sabha unstarred questions",
+     "series": "PLI Pharmaceuticals disbursed",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹6,940 cr outlay for PLI Bulk Drugs — ₹88 cr paid (~1%)",
+     "value": "₹6,940 cr",
+     "period": null,
+     "period_end": null,
+     "publisher": "Lok Sabha/Rajya Sabha unstarred questions",
+     "series": "PLI Bulk Drugs approved outlay",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹6,940 cr outlay for PLI Bulk Drugs — ₹88 cr paid (~1%)",
+     "value": "₹88 cr",
+     "period": null,
+     "period_end": null,
+     "publisher": "Lok Sabha/Rajya Sabha unstarred questions",
+     "series": "PLI Bulk Drugs disbursed",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹3,420 cr outlay for PLI Medical Devices — ₹267 cr paid (~8%)",
+     "value": "₹3,420 cr",
+     "period": null,
+     "period_end": null,
+     "publisher": "Lok Sabha/Rajya Sabha unstarred questions",
+     "series": "PLI Medical Devices approved outlay",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹3,420 cr outlay for PLI Medical Devices — ₹267 cr paid (~8%)",
+     "value": "₹267 cr",
+     "period": null,
+     "period_end": null,
+     "publisher": "Lok Sabha/Rajya Sabha unstarred questions",
+     "series": "PLI Medical Devices disbursed",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹35,354 crore disbursed by March 2026 against a ₹1.97 lakh crore approved outlay",
+     "value": "₹35,354 cr",
+     "period": "as of March 2026",
+     "period_end": "2026-03-31",
+     "publisher": "Lok Sabha/Rajya Sabha unstarred questions",
+     "series": "Total PLI disbursed",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "₹35,354 crore disbursed by March 2026 against a ₹1.97 lakh crore approved outlay",
+     "value": "₹1.97 lakh crore",
+     "period": null,
+     "period_end": null,
+     "publisher": "Lok Sabha/Rajya Sabha unstarred questions",
+     "series": "Total PLI approved outlay",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹23,946 cr disbursed as of September 2025",
+     "value": "₹23,946 cr",
+     "period": "as of September 2025",
+     "period_end": "2025-09-30",
+     "publisher": "Economic Survey 2025-26",
+     "series": "Total PLI disbursed",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "₹28,748 cr disbursed by December 2025",
+     "value": "₹28,748 cr",
+     "period": "as of December 2025",
+     "period_end": "2025-12-31",
+     "publisher": "government sources",
+     "series": "Total PLI disbursed",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "₹3.2 lakh crore realised investment",
+     "value": "₹3.2 lakh crore",
+     "period": null,
+     "period_end": null,
+     "publisher": "Forbes India (citing government milestones)",
+     "series": "PLI realised investment",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹18.7 lakh crore incremental production and sales",
+     "value": "₹18.7 lakh crore",
+     "period": null,
+     "period_end": null,
+     "publisher": "Forbes India (citing government milestones)",
+     "series": "PLI incremental production",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "14 lakh direct and indirect jobs created",
+     "value": "14 lakh jobs",
+     "period": null,
+     "period_end": null,
+     "publisher": "Forbes India (citing government milestones)",
+     "series": "PLI employment impact",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹8.2 lakh crore in exports",
+     "value": "₹8.2 lakh crore",
+     "period": null,
+     "period_end": null,
+     "publisher": "Forbes India (citing government milestones)",
+     "series": "PLI export impact",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹15,473 cr approved for PLI-LSEM (mobile phones)",
+     "value": "₹15,473 cr",
+     "period": null,
+     "period_end": null,
+     "publisher": "Lok Sabha/Rajya Sabha unstarred questions",
+     "series": "PLI-LSEM approved outlay",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹1,984 cr claimed for PLI Telecom & Networking; ₹1,850 cr paid",
+     "value": "₹1,984 cr",
+     "period": null,
+     "period_end": null,
+     "publisher": "Lok Sabha/Rajya Sabha unstarred questions",
+     "series": "PLI Telecom & Networking claimed",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹1,984 cr claimed for PLI Telecom & Networking; ₹1,850 cr paid",
+     "value": "₹1,850 cr",
+     "period": null,
+     "period_end": null,
+     "publisher": "Lok Sabha/Rajya Sabha unstarred questions",
+     "series": "PLI Telecom & Networking disbursed",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹120 cr outlay for PLI Drones; ₹60.62 cr disbursed",
+     "value": "₹120 cr",
+     "period": null,
+     "period_end": null,
+     "publisher": "Lok Sabha/Rajya Sabha unstarred questions",
+     "series": "PLI Drones approved outlay",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹120 cr outlay for PLI Drones; ₹60.62 cr disbursed",
+     "value": "₹60.62 cr",
+     "period": null,
+     "period_end": null,
+     "publisher": "Lok Sabha/Rajya Sabha unstarred questions",
+     "series": "PLI Drones disbursed",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹7,280 crore rare-earth magnet manufacturing programme",
+     "value": "₹7,280 cr",
+     "period": "notified in December 2025",
+     "period_end": "2025-12-31",
+     "publisher": "Ministry of Heavy Industries",
+     "series": "Rare-earth magnet manufacturing approved outlay",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹91,526 crore for Tata Electronics' Gujarat fab",
+     "value": "₹91,526 cr",
+     "period": null,
+     "period_end": null,
+     "publisher": "MeitY parliamentary answer",
+     "series": "Semiconductor investment (Tata Electronics)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹22,516 crore for Micron's Gujarat facility",
+     "value": "₹22,516 cr",
+     "period": null,
+     "period_end": null,
+     "publisher": "MeitY parliamentary answer",
+     "series": "Semiconductor investment (Micron)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹27,120 crore for Tata Electronics' Assam ATMP plant",
+     "value": "₹27,120 cr",
+     "period": null,
+     "period_end": null,
+     "publisher": "MeitY parliamentary answer",
+     "series": "Semiconductor investment (Tata Electronics)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹15,000 crore valuation for Haier India stake sale",
+     "value": "₹15,000 cr",
+     "period": "announced December 2025",
+     "period_end": "2025-12-31",
+     "publisher": "Business Standard, Warburg Pincus, Outlook Business",
+     "series": "Haier India stake sale valuation",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹4,150 crore minimum investment for SPMEPCI scheme",
+     "value": "₹4,150 cr",
+     "period": null,
+     "period_end": null,
+     "publisher": "unspecified (scheme terms)",
+     "series": "SPMEPCI minimum investment",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹1,153.07 crore actual investment for PLI Medical Devices",
+     "value": "₹1,153.07 cr",
+     "period": null,
+     "period_end": null,
+     "publisher": "Department of Pharmaceuticals",
+     "series": "PLI Medical Devices actual investment",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹1,136.23 crore committed for PLI Medical Devices",
+     "value": "₹1,136.23 cr",
+     "period": null,
+     "period_end": null,
+     "publisher": "Department of Pharmaceuticals",
+     "series": "PLI Medical Devices committed investment",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹209.8 crore released for medical-device-park infrastructure",
+     "value": "₹209.8 cr",
+     "period": "FY25",
+     "period_end": "2025-03-31",
+     "publisher": "Department of Pharmaceuticals",
+     "series": "Medical-device-park infrastructure disbursement",
+     "frequency": "annual",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

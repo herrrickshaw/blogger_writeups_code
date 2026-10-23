@@ -1,0 +1,680 @@
+{
+ "slug": "india-leads-world-in-jute-and-ranks",
+ "text_sha1": "39ec9d0f3d9ba95a",
+ "chars": 16068,
+ "checked": "2026-10-23T13:16:15",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "~60% India's share of world jute production — but Bangladesh does ~70% of world jute exports",
+     "value": "~60%",
+     "period": null,
+     "period_end": null,
+     "publisher": "WorldAtlas and Wings2Fashion",
+     "series": "global jute-trade data",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "42,033 t India's raw silk production, 2025-26, up from 26,000 t in 2014 — still #2 globally behind China",
+     "value": "42,033 t",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Central Silk Board",
+     "series": "raw silk production",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": ">$150m India's annual raw silk import bill, mostly for grades its own farms don't produce enough of",
+     "value": ">$150 million",
+     "period": "annual",
+     "period_end": null,
+     "publisher": "DGCI&S",
+     "series": "raw silk import bill",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "92.2M kg Raw wool imports in 2023-24, despite India holding the world's third-largest sheep flock",
+     "value": "92.2 million kilograms",
+     "period": "2023-24",
+     "period_end": "2024-03-31",
+     "publisher": "IBEF",
+     "series": "raw wool imports",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Bangladesh, the world's number-two jute producer, accounts for about 70 per cent of global jute exports",
+     "value": "70 per cent",
+     "period": null,
+     "period_end": null,
+     "publisher": "WorldAtlas and Wings2Fashion",
+     "series": "global jute-trade data",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "requires 100 per cent of foodgrains and 20 per cent of sugar moved through government channels to be packed in jute bags",
+     "value": "100 per cent",
+     "period": null,
+     "period_end": null,
+     "publisher": "PIB / ministry",
+     "series": "Jute Packaging Materials (Compulsory Use in Packing Commodities) Act",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "requires 100 per cent of foodgrains and 20 per cent of sugar moved through government channels to be packed in jute bags",
+     "value": "20 per cent",
+     "period": null,
+     "period_end": null,
+     "publisher": "PIB / ministry",
+     "series": "Jute Packaging Materials (Compulsory Use in Packing Commodities) Act",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "with the Ministry retaining discretion to relax the norm by up to 30 per cent during supply shortages",
+     "value": "30 per cent",
+     "period": null,
+     "period_end": null,
+     "publisher": "PIB / ministry",
+     "series": "Jute Packaging Materials (Compulsory Use in Packing Commodities) Act",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The government buys jute bags worth more than ₹7,500 crore a year under this mandate",
+     "value": "₹7,500 crore",
+     "period": "a year",
+     "period_end": null,
+     "publisher": "PIB / ministry",
+     "series": "government jute bag purchases",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "supporting roughly 7 lakh direct workers and 40 lakh jute farmers",
+     "value": "7 lakh",
+     "period": null,
+     "period_end": null,
+     "publisher": "PIB / ministry",
+     "series": "jute sector employment",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "supporting roughly 7 lakh direct workers and 40 lakh jute farmers",
+     "value": "40 lakh",
+     "period": null,
+     "period_end": null,
+     "publisher": "PIB / ministry",
+     "series": "jute sector employment",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "National raw jute output fell from about 97.6 lakh bales (180 kg each) in 2021-22",
+     "value": "97.6 lakh bales",
+     "period": "2021-22",
+     "period_end": "2022-03-31",
+     "publisher": "MoSPI",
+     "series": "national raw jute output",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "to roughly 91.8 lakh bales more recently",
+     "value": "91.8 lakh bales",
+     "period": "recent",
+     "period_end": null,
+     "publisher": "MoSPI",
+     "series": "national raw jute output",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "with one industry estimate citing 83.08 lakh bales against a prior year's 92.52 lakh",
+     "value": "83.08 lakh bales",
+     "period": "recent",
+     "period_end": null,
+     "publisher": "industry estimate",
+     "series": "national raw jute output",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "with one industry estimate citing 83.08 lakh bales against a prior year's 92.52 lakh",
+     "value": "92.52 lakh bales",
+     "period": "prior year",
+     "period_end": null,
+     "publisher": "industry estimate",
+     "series": "national raw jute output",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "West Bengal grows about half of India's raw jute and hosts 89 of the country's 120 composite jute mills as of December 2025",
+     "value": "about half",
+     "period": "as on December 2025",
+     "period_end": "2025-12-31",
+     "publisher": "Business Standard",
+     "series": "West Bengal jute production share",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "hosts 89 of the country's 120 composite jute mills as of December 2025",
+     "value": "89",
+     "period": "as on December 2025",
+     "period_end": "2025-12-31",
+     "publisher": "Business Standard",
+     "series": "composite jute mills count",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "hosts 89 of the country's 120 composite jute mills as of December 2025",
+     "value": "120",
+     "period": "as on December 2025",
+     "period_end": "2025-12-31",
+     "publisher": "Business Standard",
+     "series": "composite jute mills count",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "from ₹5,335 to ₹5,650 a quintal for 2025-26",
+     "value": "₹5,335",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Commission for Agricultural Costs and Prices (CACP)",
+     "series": "Minimum Support Price for raw jute",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "from ₹5,335 to ₹5,650 a quintal for 2025-26",
+     "value": "₹5,650",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Commission for Agricultural Costs and Prices (CACP)",
+     "series": "Minimum Support Price for raw jute",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "and to ₹5,925 a quintal for 2026-27",
+     "value": "₹5,925",
+     "period": "2026-27",
+     "period_end": "2027-03-31",
+     "publisher": "Commission for Agricultural Costs and Prices (CACP)",
+     "series": "Minimum Support Price for raw jute",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "a cumulative 147 per cent increase since 2014-15",
+     "value": "147 per cent",
+     "period": "since 2014-15",
+     "period_end": "2025-03-31",
+     "publisher": "Commission for Agricultural Costs and Prices (CACP)",
+     "series": "Minimum Support Price for raw jute",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "National production rose from about 26,000 tonnes in 2014 to 42,033 tonnes in 2025-26",
+     "value": "26,000 tonnes",
+     "period": "2014",
+     "period_end": "2014-12-31",
+     "publisher": "Central Silk Board",
+     "series": "raw silk production",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "National production rose from about 26,000 tonnes in 2014 to 42,033 tonnes in 2025-26",
+     "value": "42,033 tonnes",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Central Silk Board",
+     "series": "raw silk production",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "up 2.22 per cent year-on-year in the most recent Central Silk Board count",
+     "value": "2.22 per cent",
+     "period": "most recent year",
+     "period_end": null,
+     "publisher": "Central Silk Board",
+     "series": "raw silk production growth",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Mulberry cultivation area expanded to about 269,670–276,231 hectares",
+     "value": "269,670 hectares",
+     "period": "recent",
+     "period_end": null,
+     "publisher": "Central Silk Board",
+     "series": "mulberry cultivation area",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Mulberry cultivation area expanded to about 269,670–276,231 hectares",
+     "value": "276,231 hectares",
+     "period": "recent",
+     "period_end": null,
+     "publisher": "Central Silk Board",
+     "series": "mulberry cultivation area",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Sericulture employs an estimated 9.76 million people across more than 52,500 villages in FY25",
+     "value": "9.76 million people",
+     "period": "FY25",
+     "period_end": "2025-03-31",
+     "publisher": "Central Silk Board",
+     "series": "sericulture employment",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Sericulture employs an estimated 9.76 million people across more than 52,500 villages in FY25",
+     "value": "52,500 villages",
+     "period": "FY25",
+     "period_end": "2025-03-31",
+     "publisher": "Central Silk Board",
+     "series": "sericulture employment villages",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "India's silk output splits into mulberry silk (32,250 tonnes) and non-mulberry \"Vanya\" silks",
+     "value": "32,250 tonnes",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Central Silk Board",
+     "series": "mulberry silk production",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "and non-mulberry \"Vanya\" silks — tasar, eri and muga — which actually fell 2.19 per cent to 9,783 tonnes in the same year.",
+     "value": "2.19 per cent",
+     "period": "same year",
+     "period_end": null,
+     "publisher": "Central Silk Board",
+     "series": "Vanya silk production growth",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "and non-mulberry \"Vanya\" silks — tasar, eri and muga — which actually fell 2.19 per cent to 9,783 tonnes in the same year.",
+     "value": "9,783 tonnes",
+     "period": "same year",
+     "period_end": null,
+     "publisher": "Central Silk Board",
+     "series": "Vanya silk production",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "the higher-quality bivoltine grade... rose a strong 10.52 per cent to 11,229 tonnes",
+     "value": "10.52 per cent",
+     "period": "same year",
+     "period_end": null,
+     "publisher": "Central Silk Board",
+     "series": "bivoltine silk production growth",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "the higher-quality bivoltine grade... rose a strong 10.52 per cent to 11,229 tonnes",
+     "value": "11,229 tonnes",
+     "period": "same year",
+     "period_end": null,
+     "publisher": "Central Silk Board",
+     "series": "bivoltine silk production",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "about 27.8 lakh kilograms in one recent year cited, sourced mainly from Vietnam (~$96 million) and China (~$59 million)",
+     "value": "27.8 lakh kilograms",
+     "period": "recent year",
+     "period_end": null,
+     "publisher": "DGCI&S",
+     "series": "raw silk imports by volume",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "sourced mainly from Vietnam (~$96 million) and China (~$59 million)",
+     "value": "$96 million",
+     "period": "recent year",
+     "period_end": null,
+     "publisher": "DGCI&S",
+     "series": "raw silk imports from Vietnam",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "sourced mainly from Vietnam (~$96 million) and China (~$59 million)",
+     "value": "$59 million",
+     "period": "recent year",
+     "period_end": null,
+     "publisher": "DGCI&S",
+     "series": "raw silk imports from China",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "India holds the world's third-largest sheep population, over 64 million head",
+     "value": "64 million head",
+     "period": "recent",
+     "period_end": null,
+     "publisher": "Department of Animal Husbandry and Dairying",
+     "series": "Livestock Census / sheep population",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "annual wool production runs in the 43–46 million kilogram range",
+     "value": "43 million kilogram",
+     "period": "annual",
+     "period_end": null,
+     "publisher": "Department of Animal Husbandry and Dairying",
+     "series": "annual wool production",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "annual wool production runs in the 43–46 million kilogram range",
+     "value": "46 million kilogram",
+     "period": "annual",
+     "period_end": null,
+     "publisher": "Department of Animal Husbandry and Dairying",
+     "series": "annual wool production",
+     "frequency": "annual",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "India grows roughly 60 per cent of the world's jute",
+     "value": "60%",
+     "period": null,
+     "period_end": null,
+     "publisher": "WorldAtlas, Wings2Fashion",
+     "series": "Global jute production share",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "Bangladesh, the number-two producer, does 70 per cent of world's jute exporting",
+     "value": "70%",
+     "period": null,
+     "period_end": null,
+     "publisher": "WorldAtlas, Wings2Fashion",
+     "series": "Global jute export share",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "India's raw silk production, 2025-26, up from 26,000 t in 2014 — up roughly 60 per cent over the decade",
+     "value": "42,033 tonnes (2025-26), 26,000 tonnes (2014)",
+     "period": "2025-26, 2014",
+     "period_end": "2026-03-31, 2014-12-31",
+     "publisher": "Fibre2Fashion, Vision IAS, Tribune India, IBEF",
+     "series": "National raw silk production",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "India still imports over $150 million of raw silk a year",
+     "value": "$150 million",
+     "period": "annual",
+     "period_end": null,
+     "publisher": "Substack analysis (trade data)",
+     "series": "Annual raw silk imports",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "India holds the world's third-largest sheep flock on the planet, over 64 million head",
+     "value": "64+ million",
+     "period": null,
+     "period_end": null,
+     "publisher": "Drishti IAS, Down To Earth, IBEF",
+     "series": "Global sheep population",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "92.2M kg Raw wool imports in 2023-24",
+     "value": "92.2 million kg",
+     "period": "2023-24",
+     "period_end": "2024-03-31",
+     "publisher": "Drishti IAS, Down To Earth, IBEF",
+     "series": "Annual raw wool imports",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "The government buys jute bags worth more than ₹7,500 crore a year under this mandate",
+     "value": "₹7,500 crore",
+     "period": "annual",
+     "period_end": null,
+     "publisher": "Government press release (MoT)",
+     "series": "Annual government jute-bag procurement",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "This is a captive domestic market created by statute, supporting roughly 7 lakh direct workers and 40 lakh jute farmers",
+     "value": "7 lakh direct workers, 40 lakh jute farmers",
+     "period": null,
+     "period_end": null,
+     "publisher": "Government press release (MoT)",
+     "series": "Jute sector employment",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "National raw jute output fell from about 97.6 lakh bales (180 kg each) in 2021-22 to roughly 91.8 lakh bales more recently",
+     "value": "97.6 lakh bales (2021-22), 91.8 lakh bales (recent)",
+     "period": "2021-22, more recent",
+     "period_end": "2022-03-31, null",
+     "publisher": "Wikipedia, indianagri.com",
+     "series": "National raw jute production",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Jute Corporation of India has raised MSP from ₹5,335 to ₹5,650 a quintal for 2025-26, and to ₹5,925 a quintal for 2026-27",
+     "value": "₹5,335 (2025-26), ₹5,650 (2025-26), ₹5,925 (2026-27)",
+     "period": "2025-26, 2026-27",
+     "period_end": "2026-03-31, 2027-03-31",
+     "publisher": "Tribune India, agrijob.in",
+     "series": "Jute Minimum Support Price (MSP)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "India's silk output splits into mulberry silk (32,250 tonnes) and non-mulberry 'Vanya' silks — tasar, eri and muga — which fell 2.19% to 9,783 tonnes",
+     "value": "32,250 tonnes (mulberry), 9,783 tonnes (Vanya)",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Fibre2Fashion, Vision IAS, Tribune India",
+     "series": "National raw silk production by type",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "bivoltine grade rose a strong 10.52% to 11,229 tonnes",
+     "value": "11,229 tonnes (+10.52%)",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Fibre2Fashion, Vision IAS",
+     "series": "Bivoltine silk production",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Mulberry cultivation area expanded to about 269,670–276,231 hectares",
+     "value": "269,670–276,231 hectares",
+     "period": null,
+     "period_end": null,
+     "publisher": "Fibre2Fashion, Vision IAS",
+     "series": "Mulberry cultivation area",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Sericulture employs an estimated 9.76 million people across more than 52,500 villages in FY25",
+     "value": "9.76 million people, 52,500+ villages",
+     "period": "FY2025",
+     "period_end": "2025-03-31",
+     "publisher": "Fibre2Fashion, IBEF",
+     "series": "Sericulture employment",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "India still imports upward of $150 million of raw silk a year — about 27.8 lakh kilograms in one recent year",
+     "value": "$150 million, 27.8 lakh kg",
+     "period": "annual, recent year",
+     "period_end": null,
+     "publisher": "Substack analysis (trade data)",
+     "series": "Annual raw silk imports by value and volume",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "India's wool production runs in the 43–46 million kilogram range",
+     "value": "43–46 million kg",
+     "period": null,
+     "period_end": null,
+     "publisher": "Drishti IAS, IBEF",
+     "series": "National wool production",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "West Bengal grows about half of India's raw jute and hosts 89 of the country's 120 composite jute mills as of December 2025",
+     "value": "50% of raw jute, 89 of 120 mills",
+     "period": "as of December 2025",
+     "period_end": "2025-12-31",
+     "publisher": "Business Standard",
+     "series": "West Bengal jute production and mill count",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India is the world's largest producer of bananas",
+     "value": "world's largest producer",
+     "period": null,
+     "period_end": null,
+     "publisher": "Fibre2Fashion, Springer Nature",
+     "series": "Global banana production",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India's broader sustainable-fashion market was valued at about $272.51 million in 2024",
+     "value": "$272.51 million",
+     "period": "2024",
+     "period_end": "2024-12-31",
+     "publisher": "Industry market-sizing report",
+     "series": "Sustainable-fashion market value",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "with one projection putting it at $1.6 billion by 2033",
+     "value": "$1.6 billion",
+     "period": "2033",
+     "period_end": "2033-12-31",
+     "publisher": "Industry market-sizing report",
+     "series": "Sustainable-fashion market projection",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The Jute Packaging Materials (Compulsory Use in Packing Commodities) Act, 1987 requires 100% of foodgrains and 20% of sugar moved through government channels to be packed in jute bags",
+     "value": "100% (foodgrains), 20% (sugar)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Drishti IAS, IAS Gyan, worldtradescanner.com",
+     "series": "Jute Packaging Materials Act reservation",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The reservation is credited with supporting roughly 7 lakh direct workers and 40 lakh jute farmers",
+     "value": "7 lakh direct workers, 40 lakh jute farmers",
+     "period": null,
+     "period_end": null,
+     "publisher": "Government press release (MoT)",
+     "series": "Jute sector employment",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "National raw jute output fell from about 97.6 lakh bales (180 kg each) in 2021-22 to roughly 83.08 lakh bales against a prior year's 92.52 lakh",
+     "value": "97.6 lakh bales (2021-22), 83.08 lakh bales, 92.52 lakh bales (prior year)",
+     "period": "2021-22, prior year",
+     "period_end": "2022-03-31, null",
+     "publisher": "Wikipedia, indianagri.com",
+     "series": "National raw jute production (recent estimates)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "The Jute Corporation of India has responded by raising MSP substantially — from ₹5,335 to ₹5,650 a quintal for 2025-26, and to ₹5,925 a quintal for 2026-27",
+     "value": "₹5,335 (2014-15), ₹5,650 (2025-26), ₹5,925 (2026-27)",
+     "period": "2014-15, 2025-26, 2026-27",
+     "period_end": "2015-03-31, 2026-03-31, 2027-03-31",
+     "publisher": "Tribune India, agrijob.in",
+     "series": "Jute Minimum Support Price (MSP) historical and future",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "India imports more raw wool by weight than it produces domestically",
+     "value": "92.2 million kg (imports) vs. 43–46 million kg (domestic production)",
+     "period": "2023-24",
+     "period_end": "2024-03-31",
+     "publisher": "Drishti IAS, Down To Earth, IBEF",
+     "series": "Raw wool imports vs. domestic production",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "raw wool imports reached 92.2 million kilograms in 2023-24, with roughly 18% sourced from Australia",
+     "value": "92.2 million kg (total), 18% from Australia",
+     "period": "2023-24",
+     "period_end": "2024-03-31",
+     "publisher": "Drishti IAS, Down To Earth, IBEF",
+     "series": "Raw wool imports by source",
+     "frequency": "annual",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

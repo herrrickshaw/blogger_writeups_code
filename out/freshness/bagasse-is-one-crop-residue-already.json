@@ -1,0 +1,580 @@
+{
+ "slug": "bagasse-is-one-crop-residue-already",
+ "text_sha1": "9af7deae5f68c9ca",
+ "chars": 16171,
+ "checked": "2026-10-23T10:36:53",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "ISMA’s third advance estimate (February 2026) put 2025-26 gross sugar output at about 324 lakh tonnes",
+     "value": "324 lakh tonnes",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "ISMA",
+     "series": "third advance estimate gross sugar output",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "with about 31 lakh tonnes diverted to ethanol and net output about 293 lakh tonnes",
+     "value": "31 lakh tonnes",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "ISMA",
+     "series": "sugar diverted to ethanol",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "and net output about 293 lakh tonnes, 12% above last season’s net.",
+     "value": "293 lakh tonnes",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "ISMA",
+     "series": "net sugar output",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "About 456 mills were crushing in mid-February, against 460 a year earlier.",
+     "value": "456 mills",
+     "period": "mid-February 2026",
+     "period_end": "2026-02-15",
+     "publisher": "ISMA / trade press",
+     "series": "active sugar mills crushing",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "~80 Mt Wet bagasse India’s sugar mills generate a year, a secondary estimate; most is burned",
+     "value": "80 million tonnes",
+     "period": "annual",
+     "period_end": null,
+     "publisher": "Waste Management World / trade sources",
+     "series": "wet bagasse generation",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "bagasse cogeneration capacity was 9,806 MW at the end of 2024 according to MNRE data reported in the trade press",
+     "value": "9,806 MW",
+     "period": "end of 2024",
+     "period_end": "2024-12-31",
+     "publisher": "MNRE",
+     "series": "bagasse cogeneration capacity",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "and the ministry’s July 2026 table put combined bagasse and other biomass cogeneration at about 11,748 MW.",
+     "value": "11,748 MW",
+     "period": "July 2026",
+     "period_end": "2026-07-31",
+     "publisher": "MNRE",
+     "series": "combined bagasse and other biomass cogeneration capacity",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "India has about 527 sugar mills, of which about 456 were crushing in mid-February 2026",
+     "value": "527",
+     "period": "mid-February 2026",
+     "period_end": "2026-02-15",
+     "publisher": "Waste Management World / trade sources",
+     "series": "total sugar mills in India",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "about 240 million tonnes of cane",
+     "value": "240 million tonnes",
+     "period": "annual",
+     "period_end": null,
+     "publisher": "Waste Management World / trade sources",
+     "series": "sugarcane production",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Cellulose 40.4",
+     "value": "40.4%",
+     "period": "one-off sample",
+     "period_end": null,
+     "publisher": "regional-journal paper",
+     "series": "raw sugarcane bagasse composition",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Hemicellulose 23.8",
+     "value": "23.8%",
+     "period": "one-off sample",
+     "period_end": null,
+     "publisher": "regional-journal paper",
+     "series": "raw sugarcane bagasse composition",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Lignin 27.2",
+     "value": "27.2%",
+     "period": "one-off sample",
+     "period_end": null,
+     "publisher": "regional-journal paper",
+     "series": "raw sugarcane bagasse composition",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Ash 3.0",
+     "value": "3.0%",
+     "period": "one-off sample",
+     "period_end": null,
+     "publisher": "regional-journal paper",
+     "series": "raw sugarcane bagasse composition",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "extractives 4.4",
+     "value": "4.4%",
+     "period": "one-off sample",
+     "period_end": null,
+     "publisher": "regional-journal paper",
+     "series": "raw sugarcane bagasse composition",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Sugar yield 27–55 g per 100 g across 115 cane varieties",
+     "value": "27-55 g per 100 g",
+     "period": "one-off study",
+     "period_end": null,
+     "publisher": "Industrial Crops and Products",
+     "series": "sugar yield across cane varieties",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "About 75% liquefied in 9 minutes at 150°C (microwave)",
+     "value": "75%",
+     "period": "one-off study",
+     "period_end": null,
+     "publisher": "Materials",
+     "series": "solvent liquefaction conversion",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "About 36 wt% for sugarcane bagasse",
+     "value": "36 wt%",
+     "period": "one-off study",
+     "period_end": null,
+     "publisher": "IIT Madras record",
+     "series": "hydrothermal liquefaction bio-crude yield",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Up to 30% of the phenol replaced, interior-grade plywood",
+     "value": "30%",
+     "period": "one-off study",
+     "period_end": null,
+     "publisher": "Industrial Crops and Products",
+     "series": "lignin phenol replacement in phenolic resin",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "27.3–55.2 g sugar per 100 g dry matter",
+     "value": "27.3-55.2 g per 100 g",
+     "period": "one-off study",
+     "period_end": null,
+     "publisher": "Industrial Crops and Products",
+     "series": "pretreatment and enzymes sugar yield",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "282.85 (acid-only, in a comparison table: up to 487.5) mg reducing sugar per g",
+     "value": "282.85 to 487.5 mg per g",
+     "period": "2016",
+     "period_end": "2016-12-31",
+     "publisher": "Journal of Energy",
+     "series": "dilute acid hydrolysis sugar yield",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "81.6 % total sugar yield, 5% solids",
+     "value": "81.6%",
+     "period": "one-off study",
+     "period_end": null,
+     "publisher": "PubMed",
+     "series": "potassium hydroxide pretreatment sugar yield",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "85.33 conversion; 443.52 % of cellulose; mg sugar per g",
+     "value": "85.33%",
+     "period": "one-off study",
+     "period_end": null,
+     "publisher": "PubMed",
+     "series": "sodium hydroxide pretreatment conversion",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "42.2, stated as 93.8% of the glucose g glucose per 100 g raw bagasse",
+     "value": "42.2 g per 100 g",
+     "period": "one-off study",
+     "period_end": null,
+     "publisher": "PubMed",
+     "series": "ferric chloride and surfactant pretreatment glucose yield",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "256, 320, 384 after 72 h mg glucose per g dry bagasse",
+     "value": "256, 320, 384 mg per g",
+     "period": "one-off study",
+     "period_end": null,
+     "publisher": "PMC",
+     "series": "lime pretreatment glucose yield",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "90.4 % sugar yield",
+     "value": "90.4%",
+     "period": "one-off study",
+     "period_end": null,
+     "publisher": "ScienceDirect / deep eutectic study",
+     "series": "deep eutectic solvent pretreatment sugar yield",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "98.0 % sugar yield",
+     "value": "98.0%",
+     "period": "one-off study",
+     "period_end": null,
+     "publisher": "ScienceDirect / ionic liquid study",
+     "series": "ionic liquid pretreatment sugar yield",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Thermal conductivity fell from 0.035 to 0.029, which is better insulation.",
+     "value": "0.035 to 0.029",
+     "period": "one-off study",
+     "period_end": null,
+     "publisher": "ScienceDirect",
+     "series": "foam thermal conductivity",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "the best mix reached 10.4 MPa at 28 days, more than 40% above the baseline",
+     "value": "10.4 MPa",
+     "period": "28 days",
+     "period_end": null,
+     "publisher": "Composites Part B",
+     "series": "geopolymer compressive strength with bagasse polyol",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "hydroxyl values of 426 to 505 mg KOH per g for its polyols.",
+     "value": "426 to 505 mg KOH per g",
+     "period": "2015",
+     "period_end": "2015-12-31",
+     "publisher": "Materials",
+     "series": "polyol hydroxyl values",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "~75% Bagasse flour converted to liquid in 9 minutes at 150°C in one microwave study",
+     "value": "75%",
+     "period": null,
+     "period_end": null,
+     "publisher": "one microwave study (Xie et al., Materials 8, 2015)",
+     "series": "microwave liquefaction study of bagasse",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "27–55 g Sugar per 100 g of dry bagasse, across 115 cane varieties after pretreatment and enzymes",
+     "value": "27–55 g per 100 g dry bagasse",
+     "period": null,
+     "period_end": null,
+     "publisher": "Industrial Crops and Products (abstract)",
+     "series": "sugar yield from hydrolysis of 115 cane varieties",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "80 Mt Wet bagasse India’s sugar mills generate a year, a secondary estimate; most is burned",
+     "value": "80 Mt (wet)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Waste Management World (secondary estimate)",
+     "series": "annual wet bagasse generation by sugar mills",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "ISMA’s third advance estimate (February 2026) put 2025-26 gross sugar output at about 324 lakh tonnes",
+     "value": "324 lakh tonnes",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "ISMA (Indian Sugar Mills Association)",
+     "series": "gross sugar output advance estimate",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "about 31 lakh tonnes diverted to ethanol and net output about 293 lakh tonnes, 12% above last season’s net",
+     "value": "31 lakh tonnes (ethanol), 293 lakh tonnes (net output)",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "ISMA",
+     "series": "sugar output and ethanol diversion",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "About 456 mills were crushing in mid-February, against 460 a year earlier",
+     "value": "456 mills (mid-February 2026), 460 mills (year earlier)",
+     "period": "mid-February 2026",
+     "period_end": "2026-02-15",
+     "publisher": "trade press",
+     "series": "sugar mills crushing count",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India has about 527 sugar mills",
+     "value": "527 mills",
+     "period": null,
+     "period_end": null,
+     "publisher": "Waste Management World",
+     "series": "total sugar mills in India",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "bagasse cogeneration capacity was 9,806 MW at the end of 2024",
+     "value": "9,806 MW",
+     "period": "2024",
+     "period_end": "2024-12-31",
+     "publisher": "MNRE (Ministry of New and Renewable Energy) via trade press",
+     "series": "bagasse cogeneration capacity",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "the ministry’s July 2026 table put combined bagasse and other biomass cogeneration at about 11,748 MW",
+     "value": "11,748 MW (combined bagasse and other biomass)",
+     "period": "July 2026",
+     "period_end": "2026-07-31",
+     "publisher": "MNRE",
+     "series": "combined biomass cogeneration capacity",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "40.4 Cellulose, 23.8 Hemicellulose, 27.2 Lignin, Ash 3.0 and extractives 4.4 (grey)",
+     "value": "40.4% cellulose, 23.8% hemicellulose, 27.2% lignin, 3.0% ash, 4.4% extractives",
+     "period": null,
+     "period_end": null,
+     "publisher": "regional-journal paper (search summary)",
+     "series": "composition of dry bagasse",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "About 75% was liquefied within 9 minutes at 150°C, with one part bagasse to four of solvent",
+     "value": "75% liquefied in 9 minutes at 150°C",
+     "period": null,
+     "period_end": null,
+     "publisher": "Xie et al., Materials 8, 2015",
+     "series": "microwave liquefaction efficiency",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "About 36 wt% for sugarcane bagasse",
+     "value": "36 wt%",
+     "period": null,
+     "period_end": null,
+     "publisher": "IIT Madras record",
+     "series": "hydrothermal liquefaction yield",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Up to 30% of the phenol replaced, interior-grade plywood",
+     "value": "up to 30%",
+     "period": null,
+     "period_end": null,
+     "publisher": "Industrial Crops and Products (2013)",
+     "series": "bagasse lignin replacement in phenolic resin",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "81.6 % total sugar yield, 5% solids",
+     "value": "81.6% (total sugar yield)",
+     "period": null,
+     "period_end": null,
+     "publisher": "PubMed 40126807",
+     "series": "sugar yield with potassium hydroxide pretreatment",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "85.33 conversion; 443.52 mg sugar per g",
+     "value": "85.33% conversion, 443.52 mg sugar per g",
+     "period": null,
+     "period_end": null,
+     "publisher": "sodium hydroxide study",
+     "series": "sugar yield with sodium hydroxide pretreatment",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "42.2, stated as 93.8% of the glucose",
+     "value": "42.2 g glucose per 100 g raw bagasse (93.8% of glucose)",
+     "period": null,
+     "period_end": null,
+     "publisher": "PubMed 28110130",
+     "series": "sugar yield with ferric chloride and surfactant pretreatment",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "256, 320, 384 after 72 h",
+     "value": "256–384 mg glucose per g dry bagasse (after 72 h)",
+     "period": null,
+     "period_end": null,
+     "publisher": "PMC4667421",
+     "series": "sugar yield with lime pretreatment",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "90.4 % sugar yield",
+     "value": "90.4%",
+     "period": null,
+     "period_end": null,
+     "publisher": "deep eutectic study (choline chloride and lactic acid)",
+     "series": "sugar yield with deep eutectic solvent",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "98.0 % sugar yield",
+     "value": "98.0%",
+     "period": null,
+     "period_end": null,
+     "publisher": "protic ionic liquid study",
+     "series": "sugar yield with ionic liquid [BMIM][OAc]",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "282.85 (acid-only, in a comparison table: up to 487.5)",
+     "value": "282.85 mg reducing sugar per g (acid-only), up to 487.5 mg reducing sugar per g",
+     "period": null,
+     "period_end": null,
+     "publisher": "Timung et al., Journal of Energy 2016",
+     "series": "sugar yield with dilute acid pretreatment",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "10.4 MPa at 28 days, more than 40% above the baseline",
+     "value": "10.4 MPa (28 days), 40% above baseline",
+     "period": null,
+     "period_end": null,
+     "publisher": "Composites Part B paper (March 2026)",
+     "series": "geopolymer strength with bagasse polyol",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "thermal conductivity fell from 0.035 to 0.029",
+     "value": "0.035 to 0.029 (thermal conductivity)",
+     "period": null,
+     "period_end": null,
+     "publisher": "ScienceDirect study (2022)",
+     "series": "thermal conductivity of bagasse-polyol foam",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "compressive strength from 0.171 to 0.057 MPa",
+     "value": "0.171 to 0.057 MPa (compressive strength)",
+     "period": null,
+     "period_end": null,
+     "publisher": "cassava-bagasse study",
+     "series": "compressive strength of bagasse-type foam",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "426 to 505 mg KOH per g for its polyols",
+     "value": "426–505 mg KOH per g",
+     "period": null,
+     "period_end": null,
+     "publisher": "Xie et al., Materials 8, 2015",
+     "series": "hydroxyl number of bagasse polyols",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "about 190 kg levulinic acid per tonne of dry bagasse",
+     "value": "190 kg per tonne",
+     "period": null,
+     "period_end": null,
+     "publisher": "RSC Advances 2016",
+     "series": "levulinic acid yield from bagasse",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "about 75 mol% levulinic acid and 85 mol% furfural from pretreated bagasse",
+     "value": "75 mol% levulinic acid, 85 mol% furfural",
+     "period": null,
+     "period_end": null,
+     "publisher": "RSC Advances 2016",
+     "series": "platform chemicals yield from bagasse",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "100% selectivity from a sugar yield of 82%",
+     "value": "100% selectivity, 82% sugar yield",
+     "period": null,
+     "period_end": null,
+     "publisher": "CICEQ 2023 / Frontiers in Nutrition 2022",
+     "series": "xylitol yield from bagasse",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

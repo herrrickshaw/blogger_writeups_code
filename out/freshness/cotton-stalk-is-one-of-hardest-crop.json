@@ -1,0 +1,720 @@
+{
+ "slug": "cotton-stalk-is-one-of-hardest-crop",
+ "text_sha1": "9c524bf0d952f5e3",
+ "chars": 37921,
+ "checked": "2026-10-23T10:58:54",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "29.7 Mt Surplus cotton stalk a year, of about 234 Mt of surplus crop residue, as estimated in a 2025 review",
+     "value": "29.7 Mt",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "Kulkarni and Shastri",
+     "series": "review of compressed biogas (CBG) from agricultural residues",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "234 Mt of surplus crop residue, as estimated in a 2025 review",
+     "value": "234 Mt",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "Kulkarni and Shastri",
+     "series": "review of compressed biogas (CBG) from agricultural residues",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "~50 Mt Rice straw burnt in India each year, nearly half of it in the north-west, per a 2022 review",
+     "value": "~50 Mt",
+     "period": "2022",
+     "period_end": "2022-12-31",
+     "publisher": "Agronomy for Sustainable Development",
+     "series": "review of rice straw and burning",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "₹98/kg GOBARdhan's administered price for compressed biogas from August 2026, with the manure incentive folded in",
+     "value": "₹98/kg",
+     "period": "August 2026",
+     "period_end": "2026-08-31",
+     "publisher": "Ministry of Petroleum and Natural Gas",
+     "series": "GOBARdhan scheme administered price",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "0 of 11 North Indian CBG plants studied by TERI that used cotton stalk; one used paddy straw, ten used cow dung",
+     "value": "0 of 11",
+     "period": "January 2025",
+     "period_end": "2025-01-31",
+     "publisher": "TERI",
+     "series": "Global Methane Initiative study on India's Compressed Biogas plants",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "India's cotton lint yield peaked at 566 kg a hectare in 2013–14 and was estimated at under 450 kg in 2024–25",
+     "value": "566 kg a hectare",
+     "period": "2013–14",
+     "period_end": "2014-03-31",
+     "publisher": "PIB / ministry",
+     "series": "cotton lint yield",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "India's cotton lint yield peaked at 566 kg a hectare in 2013–14 and was estimated at under 450 kg in 2024–25",
+     "value": "under 450 kg",
+     "period": "2024–25",
+     "period_end": "2025-03-31",
+     "publisher": "PIB / ministry",
+     "series": "cotton lint yield",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "A 2014 inventory by Jain and co-authors put India's crop residue at about 620 million tonnes in 2008–09",
+     "value": "620 million tonnes",
+     "period": "2008–09",
+     "period_end": "2009-03-31",
+     "publisher": "Jain et al.",
+     "series": "crop residue inventory",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India grows rice on about 43.8 million hectares, producing an estimated 165.8 million tonnes of straw a year",
+     "value": "43.8 million hectares",
+     "period": "2022",
+     "period_end": "2022-12-31",
+     "publisher": "Agronomy for Sustainable Development",
+     "series": "rice area and straw production review",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India grows rice on about 43.8 million hectares, producing an estimated 165.8 million tonnes of straw a year",
+     "value": "165.8 million tonnes",
+     "period": "2022",
+     "period_end": "2022-12-31",
+     "publisher": "Agronomy for Sustainable Development",
+     "series": "rice area and straw production review",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The Punjab Energy Development Agency has allotted 57 CBG projects with about 816 tonnes a day of capacity",
+     "value": "57 projects",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "Punjab Energy Development Agency",
+     "series": "CBG projects and capacity",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "The Punjab Energy Development Agency has allotted 57 CBG projects with about 816 tonnes a day of capacity",
+     "value": "816 tonnes a day",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "Punjab Energy Development Agency",
+     "series": "CBG projects and capacity",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "six, with about 107 tonnes a day, were operating in 2025 and using about 3.5 lakh tonnes of straw a year",
+     "value": "6",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "Punjab Energy Development Agency",
+     "series": "operating CBG projects",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "six, with about 107 tonnes a day, were operating in 2025 and using about 3.5 lakh tonnes of straw a year",
+     "value": "107 tonnes a day",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "Punjab Energy Development Agency",
+     "series": "operating CBG capacity",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "six, with about 107 tonnes a day, were operating in 2025 and using about 3.5 lakh tonnes of straw a year",
+     "value": "3.5 lakh tonnes",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "Punjab Energy Development Agency",
+     "series": "straw usage in operating CBG plants",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "India harvested a record of about 43.4 million tonnes in 2024–25, up from 37.9 million the year before",
+     "value": "43.4 million tonnes",
+     "period": "2024–25",
+     "period_end": "2025-03-31",
+     "publisher": "PIB / ministry",
+     "series": "maize production",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "India harvested a record of about 43.4 million tonnes in 2024–25, up from 37.9 million the year before",
+     "value": "37.9 million tonnes",
+     "period": "2023–24",
+     "period_end": "2024-03-31",
+     "publisher": "PIB / ministry",
+     "series": "maize production",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Close to 29% of the crop went to ethanol distilleries in 2024–25, and maize became the largest single source of fuel ethanol, supplying about 431 crore litres of the 837 crore litres allocated",
+     "value": "29%",
+     "period": "2024–25",
+     "period_end": "2025-03-31",
+     "publisher": "industry and press reporting",
+     "series": "maize to ethanol allocation",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "supplying about 431 crore litres of the 837 crore litres allocated",
+     "value": "431 crore litres",
+     "period": "2024–25",
+     "period_end": "2025-03-31",
+     "publisher": "industry and press reporting",
+     "series": "fuel ethanol allocation",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "supplying about 431 crore litres of the 837 crore litres allocated",
+     "value": "837 crore litres",
+     "period": "2024–25",
+     "period_end": "2025-03-31",
+     "publisher": "industry and press reporting",
+     "series": "fuel ethanol allocation",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "India grew soybean on about 118 lakh hectares in 2024–25 at about 1,063 kg a hectare, up from 1,002 the year before",
+     "value": "118 lakh hectares",
+     "period": "2024–25",
+     "period_end": "2025-03-31",
+     "publisher": "Soybean Processors Association of India",
+     "series": "soybean area",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "India grew soybean on about 118 lakh hectares in 2024–25 at about 1,063 kg a hectare, up from 1,002 the year before",
+     "value": "1,063 kg a hectare",
+     "period": "2024–25",
+     "period_end": "2025-03-31",
+     "publisher": "Soybean Processors Association of India",
+     "series": "soybean yield",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "India grew soybean on about 118 lakh hectares in 2024–25 at about 1,063 kg a hectare, up from 1,002 the year before",
+     "value": "1,002 kg a hectare",
+     "period": "2023–24",
+     "period_end": "2024-03-31",
+     "publisher": "Soybean Processors Association of India",
+     "series": "soybean yield",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Madhya Pradesh, the largest grower, produced about 55 lakh tonnes from about 52 lakh hectares",
+     "value": "55 lakh tonnes",
+     "period": "2024–25",
+     "period_end": "2025-03-31",
+     "publisher": "Soybean Processors Association of India",
+     "series": "Madhya Pradesh soybean production",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Madhya Pradesh, the largest grower, produced about 55 lakh tonnes from about 52 lakh hectares",
+     "value": "52 lakh hectares",
+     "period": "2024–25",
+     "period_end": "2025-03-31",
+     "publisher": "Soybean Processors Association of India",
+     "series": "Madhya Pradesh soybean area",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "SOPA's figures for 2025–26 show Madhya Pradesh's area down by over 6% and its yield down by nearly 14% to 916 kg",
+     "value": "916 kg a hectare",
+     "period": "2025–26",
+     "period_end": "2026-03-31",
+     "publisher": "Soybean Processors Association of India",
+     "series": "Madhya Pradesh soybean yield",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "India has 132 CBG plants of all kinds, producing about 920 tonnes a day between them",
+     "value": "132 plants",
+     "period": "2026",
+     "period_end": "2026-10-01",
+     "publisher": "PIB / ministry",
+     "series": "CBG plants count and production",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "India has 132 CBG plants of all kinds, producing about 920 tonnes a day between them",
+     "value": "920 tonnes a day",
+     "period": "2026",
+     "period_end": "2026-10-01",
+     "publisher": "PIB / ministry",
+     "series": "CBG plants count and production",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "An administered CBG price of ₹2,110 per million British thermal units",
+     "value": "₹2,110 per million British thermal units",
+     "period": "August 2026",
+     "period_end": "2026-08-31",
+     "publisher": "Ministry of Petroleum and Natural Gas",
+     "series": "GOBARdhan administered price",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "A ₹500 crore ecosystem fund for 2026–27 to 2030–31",
+     "value": "₹500 crore",
+     "period": "2026–27 to 2030–31",
+     "period_end": "2031-03-31",
+     "publisher": "Ministry of Petroleum and Natural Gas",
+     "series": "GOBARdhan ecosystem fund",
+     "frequency": "multi-year",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "29.7 Mt Surplus cotton stalk a year, of about 234 Mt of surplus crop residue, as estimated in a 2025 review",
+     "value": "29.7 Mt cotton stalk; 234 Mt surplus crop residue",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "Kulkarni and Shastri (Renewable and Sustainable Energy Reviews)",
+     "series": "Surplus crop residue inventory",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "54–276 Millilitres of methane per gram of organic matter from untreated cotton stalk at the low end and maize stover at the high end, in published lab tests",
+     "value": "54–276 mL methane/g organic matter (cotton stalk: ~54; maize stover: 276)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Zhang et al. (Scientific Reports, 2018); You et al. (Energy & Fuels, 2013)",
+     "series": "Biochemical methane potential (BMP) lab tests",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "~50 Mt Rice straw burnt in India each year, nearly half of it in the north-west, per a 2022 review",
+     "value": "~50 Mt rice straw burnt annually",
+     "period": "2022",
+     "period_end": "2022-12-31",
+     "publisher": "Kaur et al. (Agronomy for Sustainable Development)",
+     "series": "Crop residue burning estimates",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "₹98/kg GOBARdhan's administered price for compressed biogas from August 2026, with the manure incentive folded in",
+     "value": "₹98/kg CBG (₹2,110/MBTU, 95% methane)",
+     "period": "from 01 Aug 2026",
+     "period_end": "2026-08-01",
+     "publisher": "Ministry of Petroleum and Natural Gas (GOBARdhan scheme handbook)",
+     "series": "CBG administered price",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "0 of 11 North Indian CBG plants studied by TERI that used cotton stalk; one used paddy straw, ten used cow dung",
+     "value": "0/11 plants used cotton stalk; 1/11 used paddy straw; 10/11 used cow dung",
+     "period": "Jan 2025",
+     "period_end": "2025-01-31",
+     "publisher": "TERI (Global Methane Initiative)",
+     "series": "CBG plant feedstock survey",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India's cotton lint yield peaked at 566 kg a hectare in 2013–14 and was estimated at under 450 kg in 2024–25",
+     "value": "566 kg/ha (2013–14 peak); <450 kg/ha (2024–25)",
+     "period": "2013–14 and 2024–25",
+     "period_end": "2014-03-31, 2025-03-31",
+     "publisher": "Blog's earlier reporting (unspecified source)",
+     "series": "Cotton lint yield time series",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "India grows rice on about 43.8 million hectares, producing an estimated 165.8 million tonnes of straw a year",
+     "value": "43.8 Mha rice area; 165.8 Mt straw annually",
+     "period": null,
+     "period_end": null,
+     "publisher": "Kaur et al. (Agronomy for Sustainable Development, 2022)",
+     "series": "Rice straw production estimates",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Punjab is where the plants are going up. The Punjab Energy Development Agency has allotted 57 CBG projects with about 816 tonnes a day of capacity",
+     "value": "57 CBG projects; 816 t/day capacity",
+     "period": null,
+     "period_end": null,
+     "publisher": "Punjab Energy Development Agency (PEDA)",
+     "series": "CBG project allocation",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "six, with about 107 tonnes a day, were operating in 2025 and using about 3.5 lakh tonnes of straw a year",
+     "value": "6 plants; 107 t/day CBG; 3.5 lakh t/year straw",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "PEDA (via Renewable Watch)",
+     "series": "Operating CBG plants in Punjab",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "India harvested a record of about 43.4 million tonnes in 2024–25, up from 37.9 million the year before",
+     "value": "43.4 Mt maize (2024–25); 37.9 Mt (2023–24)",
+     "period": "2024–25 and 2023–24",
+     "period_end": "2025-03-31, 2024-03-31",
+     "publisher": "Press/industry reporting (unspecified source)",
+     "series": "Maize production time series",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Close to 29% of the crop went to ethanol distilleries in 2024–25, and maize became the largest single source of fuel ethanol, supplying about 431 crore litres of the 837 crore litres allocated",
+     "value": "29% maize to ethanol (2024–25); 431 crore litres maize ethanol; 837 crore litres total allocation",
+     "period": "2024–25",
+     "period_end": "2025-03-31",
+     "publisher": "Press/industry reporting (unspecified source)",
+     "series": "Ethanol allocation and maize diversion",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "India grew [soybean] on about 118 lakh hectares in 2024–25 at about 1,063 kg a hectare, up from 1,002 the year before",
+     "value": "118 lakh ha soybean area (2024–25); 1,063 kg/ha yield (2024–25); 1,002 kg/ha (2023–24)",
+     "period": "2024–25 and 2023–24",
+     "period_end": "2025-03-31, 2024-03-31",
+     "publisher": "Soybean Processors Association of India",
+     "series": "Soybean area and yield",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "SOPA's figures for 2025–26 show Madhya Pradesh's area down by over 6% and its yield down by nearly 14% to 916 kg",
+     "value": "Madhya Pradesh: 6% area decline; 14% yield decline; 916 kg/ha (2025–26)",
+     "period": "2025–26",
+     "period_end": "2026-03-31",
+     "publisher": "Soybean Processors Association of India",
+     "series": "Soybean area/yield projections",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "A 2014 inventory by Jain and co-authors put India's crop residue at about 620 million tonnes in 2008–09, of which about 16% was burnt",
+     "value": "620 Mt crop residue (2008–09); 16% burnt (~99 Mt)",
+     "period": "2008–09",
+     "period_end": "2009-03-31",
+     "publisher": "Jain et al. (Aerosol and Air Quality Research)",
+     "series": "Crop residue inventory",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "A 2025 review of compressed biogas (CBG) from agricultural residues by Kulkarni and Shastri estimates about 234 million tonnes of surplus residue, ... and puts the CBG potential of all residues at about 20 million tonnes a year",
+     "value": "234 Mt surplus residue; 20 Mt CBG potential annually",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "Kulkarni and Shastri (Renewable and Sustainable Energy Reviews)",
+     "series": "CBG potential estimates",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "A 2016 review of sugar-industry by-products estimated that recycling all of India's press mud through agriculture would return about 32,000 tonnes of nitrogen, 28,000 tonnes of phosphorus and 14,000 tonnes of potassium a year to the soil",
+     "value": "32,000 t N; 28,000 t P; 14,000 t K annually",
+     "period": null,
+     "period_end": null,
+     "publisher": "Unspecified review (International Journal of Recycling of Organic Waste in Agriculture)",
+     "series": "Press mud nutrient recycling estimates",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India has 132 CBG plants of all kinds, producing about 920 tonnes a day between them",
+     "value": "132 CBG plants; 920 t/day total production",
+     "period": null,
+     "period_end": null,
+     "publisher": "Blog's earlier reporting",
+     "series": "CBG plant capacity summary",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Verbio's Lehragaga plant shows that straw can work at scale too: about 1 lakh tonnes of paddy straw a year in, 33 tonnes a day of CBG and 600–650 tonnes a day of wet bio-manure out",
+     "value": "1 lakh t/year paddy straw; 33 t/day CBG; 600–650 t/day bio-manure",
+     "period": null,
+     "period_end": null,
+     "publisher": "Verbio (company/press reports)",
+     "series": "Lehragaga CBG plant performance",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "A 2023 field-survey study by Kapoor, Navinya and co-authors ... concluded that the bioenergy potential of surplus residue at 1,313 petajoules",
+     "value": "1,313 PJ bioenergy potential (surplus residue)",
+     "period": "2023",
+     "period_end": "2023-12-31",
+     "publisher": "Kapoor et al. (Journal of Environmental Management)",
+     "series": "Bioenergy potential reassessment",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The Cabinet approved a central GOBARdhan scheme on 6 August 2026 that brings most CBG support under one roof ... ₹1.25 crore per tonne-a-day of plant capacity, plus up to ₹0.75 crore per tonne-a-day for feedstock-aggregation and manure-processing machinery",
+     "value": "₹1.25 crore/t/day plant capacity; ₹0.75 crore/t/day feedstock/manure machinery",
+     "period": "from 06 Aug 2026",
+     "period_end": "2026-08-06",
+     "publisher": "Ministry of Petroleum and Natural Gas (GOBARdhan scheme handbook)",
+     "series": "Capital subsidy structure",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "₹30 crore cap on combined capital assistance for plants whose feedstock is mainly crop residue",
+     "value": "₹30 crore cap (plant + machinery)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Ministry of Petroleum and Natural Gas (GOBARdhan scheme handbook)",
+     "series": "Capital subsidy cap",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "CEEW survey found companies other than Verbio losing 15–25% of their stored bales a year to decay",
+     "value": "15–25% straw bale loss annually",
+     "period": null,
+     "period_end": null,
+     "publisher": "CEEW (Centre for Energy and Environmental Research)",
+     "series": "Straw storage decay rates",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "A 2021 study in Carbon Resources Conversion found that cutting particles to 3 mm or below raised methane yield by 20–26% and shortened digestion from about 31 days to 25",
+     "value": "20–26% methane yield increase; 31→25 days digestion time",
+     "period": null,
+     "period_end": null,
+     "publisher": "Unspecified study (Carbon Resources Conversion)",
+     "series": "Mechanical pretreatment effects",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "A 2008 study and a classic 1986 one ... caustic soda raised rice-straw biogas by 27–65% in a 2008 study and wheat-straw methane by 37% in a classic 1986 one",
+     "value": "27–65% rice straw biogas increase (caustic soda); 37% wheat straw methane increase",
+     "period": "2008 and 1986",
+     "period_end": "2008-12-31, 1986-12-31",
+     "publisher": "He et al. (Energy & Fuels, 2008); Hashimoto (Biotechnology and Bioengineering, 1986)",
+     "series": "Alkali pretreatment effects",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "A 2023 study in Science of the Total Environment found maize's share of India's residue burning roughly doubled from 4% (0.30 million tonnes) in 2011 to 8% (1.60 million tonnes) in 2020",
+     "value": "4%→8% maize residue burning share; 0.30 Mt→1.60 Mt (2011→2020)",
+     "period": "2011 and 2020",
+     "period_end": "2011-12-31, 2020-12-31",
+     "publisher": "Unspecified study (Science of the Total Environment)",
+     "series": "Residue burning share trends",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "A 2011 study at the Sugarcane Research Institute in Muzaffarnagar found yields fall in successive ratoons, on soils that become compacted and less fertile",
+     "value": "25–30% cost reduction in ratoons; yield decline in successive cycles",
+     "period": "2011",
+     "period_end": "2011-12-31",
+     "publisher": "Singh et al. (Journal of Agricultural Science)",
+     "series": "Sugarcane ratoon yield trends",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "A Haryana trial reported in the Journal of the Indian Society of Soil Science found a 6-tonne trash mulch raised soil organic carbon by about 20% and cane yield by about 12%",
+     "value": "20% soil organic carbon increase; 12% cane yield increase",
+     "period": null,
+     "period_end": null,
+     "publisher": "Dahiya et al. (Journal of the Indian Society of Soil Science)",
+     "series": "Sugarcane trash mulch effects",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "A 2009 synthesis in GCB Bioenergy found that harvesting 25–100% of corn residue consistently lowered soil organic carbon by 3–8 tonnes a hectare",
+     "value": "3–8 t/ha soil organic carbon loss (25–100% residue removal)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Anderson-Teixeira et al. (GCB Bioenergy)",
+     "series": "Residue removal soil carbon impact",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "A 2017 review of harvest residues for biogas noted there was little information on soybean straw",
+     "value": "Limited data on soybean straw biogas potential",
+     "period": null,
+     "period_end": null,
+     "publisher": "Unspecified review (unspecified source)",
+     "series": "Soybean straw biogas literature review",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "A 2024 study found that heating pigeon pea stalks to 200°C for two hours produced 88% more biogas than mechanically pretreated stalks",
+     "value": "88% biogas increase (thermal pretreatment vs. mechanical)",
+     "period": "2024",
+     "period_end": "2024-12-31",
+     "publisher": "Unspecified study (unspecified source)",
+     "series": "Pigeon pea stalk pretreatment effects",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "A 2017 study that co-digested rice straw with soybean straw ... got 318% more biogas than the untreated mix",
+     "value": "318% biogas increase (rice straw + soybean straw co-digestion)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Deng et al. (Environmental Progress & Sustainable Energy)",
+     "series": "Soybean straw co-digestion effects",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "A 2019 review of bioenergy from cotton stalk notes that the residue must be buried or burnt for pest-management reasons",
+     "value": "Cotton stalk must be buried/burnt (pink bollworm control)",
+     "period": null,
+     "period_end": null,
+     "publisher": "IntechOpen chapter (unspecified source)",
+     "series": "Cotton stalk pest-management guidelines",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "A 2015 review ... found that the organic matter left after digestion is more resistant to breakdown than the raw feedstock",
+     "value": "Digestate organic matter more resistant to decay",
+     "period": null,
+     "period_end": null,
+     "publisher": "Kurt Möller (Agronomy for Sustainable Development)",
+     "series": "Digestate decomposition resistance",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "A 2013 review by scientists at ICAR's Directorate of Soybean Research put India's average at about 1.1–1.2 tonnes a hectare against a world average of 2.2",
+     "value": "1.1–1.2 t/ha (India); 2.2 t/ha (world)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Agarwal et al. (Agricultural Research)",
+     "series": "Soybean yield comparison",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "A 2019 global meta-analysis in SOIL by Oldfield and co-authors found maize and wheat yields rise with soil organic carbon up to about 2%, after which the gains level off",
+     "value": "2% soil organic carbon threshold for yield gains",
+     "period": null,
+     "period_end": null,
+     "publisher": "Oldfield et al. (SOIL)",
+     "series": "Yield-soil carbon relationship",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Rattan Lal puts the level soils must regain before they start to recover at 1.0–1.5%",
+     "value": "1.0–1.5% soil organic carbon target",
+     "period": null,
+     "period_end": null,
+     "publisher": "Rattan Lal (unspecified source)",
+     "series": "Soil organic carbon recovery threshold",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "A 2017 review in AMB Express by Amin and co-authors put pretreatment at 20% or more of total production cost",
+     "value": "20%+ pretreatment cost share",
+     "period": null,
+     "period_end": null,
+     "publisher": "Amin et al. (AMB Express)",
+     "series": "Pretreatment cost analysis",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "A 2018 study in Scientific Reports tested seven pretreatments on cotton stalk: the best, 3% alkaline hydrogen peroxide, produced 192.4 millilitres of methane per gram of volatile solids",
+     "value": "192.4 mL methane/g volatile solids (alkaline peroxide pretreatment)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Zhang et al. (Scientific Reports)",
+     "series": "Cotton stalk pretreatment BMP",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "A 2021 study in Carbon Resources Conversion found that cutting particles to 3 mm or below raised methane yield by 20–26% and shortened digestion from about 31 days to 25",
+     "value": "20–26% methane yield increase; 31→25 days digestion time",
+     "period": null,
+     "period_end": null,
+     "publisher": "Unspecified study (Carbon Resources Conversion)",
+     "series": "Mechanical pretreatment effects",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "A 2016 review of sugar-industry by-products estimated that recycling all of India's press mud through agriculture would return about 32,000 tonnes of nitrogen, 28,000 tonnes of phosphorus and 14,000 tonnes of potassium a year to the soil",
+     "value": "32,000 t N; 28,000 t P; 14,000 t K annually",
+     "period": null,
+     "period_end": null,
+     "publisher": "Unspecified review (International Journal of Recycling of Organic Waste in Agriculture)",
+     "series": "Press mud nutrient recycling estimates",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

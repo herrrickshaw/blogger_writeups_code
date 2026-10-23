@@ -1,0 +1,830 @@
+{
+ "slug": "a-slice-of-apple-costs-about-1700-slice",
+ "text_sha1": "e09d4e90b75b6a03",
+ "chars": 35876,
+ "checked": "2026-10-23T10:21:25",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "India has roughly 23.15 crore demat accounts as of June 2026",
+     "value": "23.15 crore demat accounts",
+     "period": "June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "PIB / ministry",
+     "series": "Total Number of Demat Accounts in India",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "over 2.5 million added in June 2026 alone",
+     "value": "2.5 million demat accounts",
+     "period": "June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "PIB / ministry",
+     "series": "New Demat Account Openings",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "MRF Ltd (NSE, India's highest-priced listed stock) | ₹1,31,740 | 10 Aug 2026",
+     "value": "₹1,31,740",
+     "period": "10 Aug 2026",
+     "period_end": "2026-08-10",
+     "publisher": "Screener.in",
+     "series": "Company stock price",
+     "frequency": "daily",
+     "headline": true
+    },
+    {
+     "quote": "Berkshire Hathaway Class A (NYSE) | ~$780,000 (≈₹6.7 crore) | early Aug 2026",
+     "value": "~$780,000",
+     "period": "early Aug 2026",
+     "period_end": "2026-08-10",
+     "publisher": "CNBC",
+     "series": "Berkshire Hathaway share price",
+     "frequency": "daily",
+     "headline": true
+    },
+    {
+     "quote": "NPCI's own July 2026 UPI statistics show 741 banks live on the network processing ₹29,87,880 crore across 23,658 million transactions that month",
+     "value": "741 banks",
+     "period": "July 2026",
+     "period_end": "2026-07-31",
+     "publisher": "NPCI",
+     "series": "UPI Product Statistics",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "processing ₹29,87,880 crore across 23,658 million transactions that month",
+     "value": "₹29,87,880 crore",
+     "period": "July 2026",
+     "period_end": "2026-07-31",
+     "publisher": "NPCI",
+     "series": "UPI Product Statistics",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "across 23,658 million transactions that month",
+     "value": "23,658 million transactions",
+     "period": "July 2026",
+     "period_end": "2026-07-31",
+     "publisher": "NPCI",
+     "series": "UPI Product Statistics",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "the average ticket size specifically for UPI person-to-merchant payments... was ₹589 in the first half of 2025",
+     "value": "₹589",
+     "period": "1H 2025",
+     "period_end": "2025-06-30",
+     "publisher": "Worldline",
+     "series": "India Digital Payments Report",
+     "frequency": "half-yearly",
+     "headline": false
+    },
+    {
+     "quote": "PropshareTitania (REIT) | 544462 (BSE) | 11,00,000 | +4.8 | n/a",
+     "value": "₹11,00,000",
+     "period": "11 Aug 2026",
+     "period_end": "2026-08-11",
+     "publisher": "Screener.in",
+     "series": "Company stock price",
+     "frequency": "daily",
+     "headline": false
+    },
+    {
+     "quote": "PropsharePlatina (REIT) | 544295 (BSE) | 10,93,000 | +11.1 | n/a",
+     "value": "₹10,93,000",
+     "period": "11 Aug 2026",
+     "period_end": "2026-08-11",
+     "publisher": "Screener.in",
+     "series": "Company stock price",
+     "frequency": "daily",
+     "headline": false
+    },
+    {
+     "quote": "Propshare Celestia (REIT) | 544752 (BSE) | 10,15,005 | n/a | n/a",
+     "value": "₹10,15,005",
+     "period": "11 Aug 2026",
+     "period_end": "2026-08-11",
+     "publisher": "Screener.in",
+     "series": "Company stock price",
+     "frequency": "daily",
+     "headline": false
+    },
+    {
+     "quote": "Elcid Investment | ELCIDIN | 1,11,110 | −17.0 | +6.0",
+     "value": "₹1,11,110",
+     "period": "11 Aug 2026",
+     "period_end": "2026-08-11",
+     "publisher": "Screener.in",
+     "series": "Company stock price",
+     "frequency": "daily",
+     "headline": false
+    },
+    {
+     "quote": "Bosch | BOSCHLTD | 45,590 | +12.4 | +16.5",
+     "value": "₹45,590",
+     "period": "11 Aug 2026",
+     "period_end": "2026-08-11",
+     "publisher": "Screener.in",
+     "series": "Company stock price",
+     "frequency": "daily",
+     "headline": false
+    },
+    {
+     "quote": "Page Industries | PAGEIND | 38,615 | −14.1 | +18.3",
+     "value": "₹38,615",
+     "period": "11 Aug 2026",
+     "period_end": "2026-08-11",
+     "publisher": "Screener.in",
+     "series": "Company stock price",
+     "frequency": "daily",
+     "headline": false
+    },
+    {
+     "quote": "Honeywell Automation India | HONAUT | 37,879 | +5.9 | +3.1",
+     "value": "₹37,879",
+     "period": "11 Aug 2026",
+     "period_end": "2026-08-11",
+     "publisher": "Screener.in",
+     "series": "Company stock price",
+     "frequency": "daily",
+     "headline": false
+    },
+    {
+     "quote": "3M India | 3MINDIA | 36,047 | +14.7 | +29.6",
+     "value": "₹36,047",
+     "period": "11 Aug 2026",
+     "period_end": "2026-08-11",
+     "publisher": "Screener.in",
+     "series": "Company stock price",
+     "frequency": "daily",
+     "headline": false
+    },
+    {
+     "quote": "Hitachi Energy India | POWERINDIA | 34,939 | +73.0 | +52.1",
+     "value": "₹34,939",
+     "period": "11 Aug 2026",
+     "period_end": "2026-08-11",
+     "publisher": "Screener.in",
+     "series": "Company stock price",
+     "frequency": "daily",
+     "headline": false
+    },
+    {
+     "quote": "Yamuna Syndicate | 540980 (BSE) | 30,800 | −20.7 | −14.7",
+     "value": "₹30,800",
+     "period": "11 Aug 2026",
+     "period_end": "2026-08-11",
+     "publisher": "Screener.in",
+     "series": "Company stock price",
+     "frequency": "daily",
+     "headline": false
+    },
+    {
+     "quote": "Abbott India | ABBOTINDIA | 27,683 | −16.5 | +17.5",
+     "value": "₹27,683",
+     "period": "11 Aug 2026",
+     "period_end": "2026-08-11",
+     "publisher": "Screener.in",
+     "series": "Company stock price",
+     "frequency": "daily",
+     "headline": false
+    },
+    {
+     "quote": "Shree Cement | SHREECEM | 25,590 | −14.8 | −5.9",
+     "value": "₹25,590",
+     "period": "11 Aug 2026",
+     "period_end": "2026-08-11",
+     "publisher": "Screener.in",
+     "series": "Company stock price",
+     "frequency": "daily",
+     "headline": false
+    },
+    {
+     "quote": "Neuland Laboratories | NEULANDLAB | 22,735 | +67.1 | +38.5",
+     "value": "₹22,735",
+     "period": "11 Aug 2026",
+     "period_end": "2026-08-11",
+     "publisher": "Screener.in",
+     "series": "Company stock price",
+     "frequency": "daily",
+     "headline": false
+    },
+    {
+     "quote": "Bombay Oxygen Investments | 509470 (BSE) | 19,575 | −15.4 | n/a",
+     "value": "₹19,575",
+     "period": "11 Aug 2026",
+     "period_end": "2026-08-11",
+     "publisher": "Screener.in",
+     "series": "Company stock price",
+     "frequency": "daily",
+     "headline": false
+    },
+    {
+     "quote": "PTC Industries | PTCIL | 19,098 | +35.8 | +96.0",
+     "value": "₹19,098",
+     "period": "11 Aug 2026",
+     "period_end": "2026-08-11",
+     "publisher": "Screener.in",
+     "series": "Company stock price",
+     "frequency": "daily",
+     "headline": false
+    },
+    {
+     "quote": "Solar Industries India | SOLARINDS | 18,684 | +26.4 | +44.6",
+     "value": "₹18,684",
+     "period": "11 Aug 2026",
+     "period_end": "2026-08-11",
+     "publisher": "Screener.in",
+     "series": "Company stock price",
+     "frequency": "daily",
+     "headline": false
+    },
+    {
+     "quote": "Force Motors | FORCEMOT | 18,273 | −1.3 | +65.5",
+     "value": "₹18,273",
+     "period": "11 Aug 2026",
+     "period_end": "2026-08-11",
+     "publisher": "Screener.in",
+     "series": "Company stock price",
+     "frequency": "daily",
+     "headline": false
+    },
+    {
+     "quote": "LMW | LMW | 17,410 | +18.9 | +15.8",
+     "value": "₹17,410",
+     "period": "11 Aug 2026",
+     "period_end": "2026-08-11",
+     "publisher": "Screener.in",
+     "series": "Company stock price",
+     "frequency": "daily",
+     "headline": false
+    },
+    {
+     "quote": "Apar Industries | APARINDS | 16,580 | +88.6 | +43.0",
+     "value": "₹16,580",
+     "period": "11 Aug 2026",
+     "period_end": "2026-08-11",
+     "publisher": "Screener.in",
+     "series": "Company stock price",
+     "frequency": "daily",
+     "headline": false
+    },
+    {
+     "quote": "TVS Holdings | TVSHLTD | 14,652 | +30.8 | +38.7",
+     "value": "₹14,652",
+     "period": "11 Aug 2026",
+     "period_end": "2026-08-11",
+     "publisher": "Screener.in",
+     "series": "Company stock price",
+     "frequency": "daily",
+     "headline": false
+    },
+    {
+     "quote": "Maruti Suzuki | MARUTI | 14,129 | +11.9 | +26.0",
+     "value": "₹14,129",
+     "period": "11 Aug 2026",
+     "period_end": "2026-08-11",
+     "publisher": "Screener.in",
+     "series": "Company stock price",
+     "frequency": "daily",
+     "headline": false
+    },
+    {
+     "quote": "Dixon Technologies | DIXON | 14,031 | −12.3 | +54.0",
+     "value": "₹14,031",
+     "period": "11 Aug 2026",
+     "period_end": "2026-08-11",
+     "publisher": "Screener.in",
+     "series": "Company stock price",
+     "frequency": "daily",
+     "headline": false
+    },
+    {
+     "quote": "Maharashtra Scooters | MAHSCOOTER | 13,828 | −8.0 | +104.2",
+     "value": "₹13,828",
+     "period": "11 Aug 2026",
+     "period_end": "2026-08-11",
+     "publisher": "Screener.in",
+     "series": "Company stock price",
+     "frequency": "daily",
+     "headline": false
+    },
+    {
+     "quote": "JSW Holdings | JSWHL | 12,033 | −33.8 | +13.4",
+     "value": "₹12,033",
+     "period": "11 Aug 2026",
+     "period_end": "2026-08-11",
+     "publisher": "Screener.in",
+     "series": "Company stock price",
+     "frequency": "daily",
+     "headline": false
+    },
+    {
+     "quote": "DISA India | DISAQ | 11,873 | −16.8 | +18.5",
+     "value": "₹11,873",
+     "period": "11 Aug 2026",
+     "period_end": "2026-08-11",
+     "publisher": "Screener.in",
+     "series": "Company stock price",
+     "frequency": "daily",
+     "headline": false
+    },
+    {
+     "quote": "Oracle Financial Services | OFSS | 11,809 | +41.5 | +8.2",
+     "value": "₹11,809",
+     "period": "11 Aug 2026",
+     "period_end": "2026-08-11",
+     "publisher": "Screener.in",
+     "series": "Company stock price",
+     "frequency": "daily",
+     "headline": false
+    },
+    {
+     "quote": "Elantas Beck India | ELANTAS | 11,794 | +8.1 | +19.1",
+     "value": "₹11,794",
+     "period": "11 Aug 2026",
+     "period_end": "2026-08-11",
+     "publisher": "Screener.in",
+     "series": "Company stock price",
+     "frequency": "daily",
+     "headline": false
+    },
+    {
+     "quote": "UltraTech Cement | ULTRACEMCO | 11,788 | −3.0 | +7.7",
+     "value": "₹11,788",
+     "period": "11 Aug 2026",
+     "period_end": "2026-08-11",
+     "publisher": "Screener.in",
+     "series": "Company stock price",
+     "frequency": "daily",
+     "headline": false
+    },
+    {
+     "quote": "Bajaj Auto | BAJAJ-AUTO | 11,725 | +41.1 | +18.1",
+     "value": "₹11,725",
+     "period": "11 Aug 2026",
+     "period_end": "2026-08-11",
+     "publisher": "Screener.in",
+     "series": "Company stock price",
+     "frequency": "daily",
+     "headline": false
+    },
+    {
+     "quote": "Saraswati Commercial | ZSARACOM | 11,680 | −10.9 | +31.6",
+     "value": "₹11,680",
+     "period": "11 Aug 2026",
+     "period_end": "2026-08-11",
+     "publisher": "Screener.in",
+     "series": "Company stock price",
+     "frequency": "daily",
+     "headline": false
+    },
+    {
+     "quote": "Bajaj Holdings & Investment | BAJAJHLDNG | 11,529 | −18.3 | +17.2",
+     "value": "₹11,529",
+     "period": "11 Aug 2026",
+     "period_end": "2026-08-11",
+     "publisher": "Screener.in",
+     "series": "Company stock price",
+     "frequency": "daily",
+     "headline": false
+    },
+    {
+     "quote": "Polson | 507645 (BSE) | 11,422 | −8.5 | −11.0",
+     "value": "₹11,422",
+     "period": "11 Aug 2026",
+     "period_end": "2026-08-11",
+     "publisher": "Screener.in",
+     "series": "Company stock price",
+     "frequency": "daily",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "India has roughly 23.15 crore demat accounts as of June 2026, and the pace of new account openings has been accelerating again — over 2.5 million added in June 2026 alone, the highest monthly count in months.",
+     "value": "23.15 crore demat accounts (as of June 2026); 2.5 million new accounts in June 2026",
+     "period": "June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "SBI Securities (cross-checked with industry reporting)",
+     "series": "Demat account count and monthly additions",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Ninety percent of listed stocks, by count, already trade under ₹1,000 a share — an investor with ₹1,000 can already buy a whole share of the large majority of what's listed, no fractional access required.",
+     "value": "90.2% of 5,390 NSE/BSE stocks under ₹1,000; 4,862 stocks",
+     "period": "as of 11 Aug 2026",
+     "period_end": "2026-08-11",
+     "publisher": "Screener.in",
+     "series": "India's listed market, split by share price band",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "But those cheap stocks carry only 42% of the market's total value; the ₹1,000–3,000 band alone, just 6.8% of stocks by count, carries nearly as much combined market cap as the entire sub-₹1,000 universe.",
+     "value": "41.8% of market cap under ₹1,000; 38.7% of market cap in ₹1,000–₹3,000 band",
+     "period": "as of 11 Aug 2026",
+     "period_end": "2026-08-11",
+     "publisher": "Screener.in",
+     "series": "India's listed market, split by share price band",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Bands above ₹1,000 — just 9.9% of stocks by count — hold 58.2% of India's total listed market cap.",
+     "value": "9.9% of stocks above ₹1,000; 58.2% of total market cap",
+     "period": "as of 11 Aug 2026",
+     "period_end": "2026-08-11",
+     "publisher": "Screener.in",
+     "series": "India's listed market, split by share price band",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "NPCI's own July 2026 UPI statistics show 741 banks live on the network processing ₹29,87,880 crore across 23,658 million transactions that month — an average of about ₹1,263 per transaction.",
+     "value": "₹29,87,880 crore processed in July 2026; 23,658 million transactions; average ₹1,263 per transaction",
+     "period": "July 2026",
+     "period_end": "2026-07-31",
+     "publisher": "NPCI (National Payments Corporation of India)",
+     "series": "UPI Product Statistics",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Worldline's India Digital Payments Report narrows that further: the average ticket size specifically for UPI person-to-merchant payments was ₹589 in the first half of 2025, down from ₹643 a year earlier.",
+     "value": "₹589 average ticket size for UPI P2M payments (1H 2025); ₹643 in 1H 2024",
+     "period": "1H 2025",
+     "period_end": "2025-06-30",
+     "publisher": "Worldline",
+     "series": "India Digital Payments Report",
+     "frequency": "half-yearly",
+     "headline": false
+    },
+    {
+     "quote": "Liberalised Remittance Scheme (LRS) capped at US$250,000 per resident individual per financial year, cumulative across all banks and linked to PAN.",
+     "value": "US$250,000 annual LRS limit per individual",
+     "period": null,
+     "period_end": null,
+     "publisher": "RBI",
+     "series": "Liberalised Remittance Scheme (LRS) outflows",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Remittances above ₹10 lakh in a financial year attract 20% Tax Collected at Source (TCS).",
+     "value": "20% TCS on remittances above ₹10 lakh per financial year",
+     "period": null,
+     "period_end": null,
+     "publisher": "RBI / INDmoney",
+     "series": "Tax Collected at Source (TCS) on foreign remittances",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "MRF Ltd (NSE, India's highest-priced listed stock) | ₹1,31,740 | 10 Aug 2026 (week-ending close)",
+     "value": "₹1,31,740 (MRF Ltd, week-ending 10 Aug 2026)",
+     "period": "week-ending 10 Aug 2026",
+     "period_end": "2026-08-10",
+     "publisher": "StockAnalysis.com",
+     "series": "Stock price (MRF Ltd)",
+     "frequency": "daily",
+     "headline": false
+    },
+    {
+     "quote": "Berkshire Hathaway Class A shares are the same story taken to an extreme: Warren Buffett has kept them unsplit since the 1960s precisely to keep short-term speculators out, which also means keeping ordinary savers out unless they can find a fractional route in.",
+     "value": "~$780,000 (≈₹6.7 crore) for Berkshire Hathaway Class A shares (early Aug 2026)",
+     "period": "early Aug 2026",
+     "period_end": "2026-08-08",
+     "publisher": "CNBC",
+     "series": "Stock price (Berkshire Hathaway Class A)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "MRF's price is famous specifically because the company has never split its stock — a deliberate choice, not a reflection of the business being 10x the size of its tyre-industry peers.",
+     "value": "MRF stock price (₹1,31,740) as of 10 Aug 2026",
+     "period": "as of 10 Aug 2026",
+     "period_end": "2026-08-10",
+     "publisher": "StockAnalysis.com",
+     "series": "Stock price (MRF Ltd)",
+     "frequency": "daily",
+     "headline": false
+    },
+    {
+     "quote": "PropshareTitania (REIT) | 544462 (BSE) | 11,00,000 | +4.8 | n/a",
+     "value": "₹11,00,000 (PropshareTitania REIT, 1-year return +4.8%)",
+     "period": "as of 11 Aug 2026",
+     "period_end": "2026-08-11",
+     "publisher": "Screener.in",
+     "series": "Stock price and 1-year return (REITs)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "PropsharePlatina (REIT) | 544295 (BSE) | 10,93,000 | +11.1 | n/a",
+     "value": "₹10,93,000 (PropsharePlatina REIT, 1-year return +11.1%)",
+     "period": "as of 11 Aug 2026",
+     "period_end": "2026-08-11",
+     "publisher": "Screener.in",
+     "series": "Stock price and 1-year return (REITs)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Propshare Celestia (REIT) | 544752 (BSE) | 10,15,005 | n/a | n/a",
+     "value": "₹10,15,005 (Propshare Celestia REIT)",
+     "period": "as of 11 Aug 2026",
+     "period_end": "2026-08-11",
+     "publisher": "Screener.in",
+     "series": "Stock price (REITs)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "MRF | MRF | 1,31,740 | −5.9 | +14.1",
+     "value": "₹1,31,740 (MRF Ltd, 1-year return −5.9%, 5-year EPS growth +14.1%)",
+     "period": "as of 11 Aug 2026",
+     "period_end": "2026-08-11",
+     "publisher": "Screener.in",
+     "series": "Stock price, 1-year return, and 5-year EPS growth (MRF Ltd)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Elcid Investment | ELCIDIN | 1,11,110 | −17.0 | +6.0",
+     "value": "₹1,11,110 (Elcid Investment, 1-year return −17.0%, 5-year EPS growth +6.0%)",
+     "period": "as of 11 Aug 2026",
+     "period_end": "2026-08-11",
+     "publisher": "Screener.in",
+     "series": "Stock price, 1-year return, and 5-year EPS growth (Elcid Investment)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Bosch | BOSCHLTD | 45,590 | +12.4 | +16.5",
+     "value": "₹45,590 (Bosch Ltd, 1-year return +12.4%, 5-year EPS growth +16.5%)",
+     "period": "as of 11 Aug 2026",
+     "period_end": "2026-08-11",
+     "publisher": "Screener.in",
+     "series": "Stock price, 1-year return, and 5-year EPS growth (Bosch Ltd)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "MRF's real three-year beta comes out to 1.06",
+     "value": "1.06 (MRF Ltd beta vs. Nifty 50, 3-year weekly)",
+     "period": "as of 11 Aug 2026",
+     "period_end": "2026-08-11",
+     "publisher": "Yahoo Finance (via Investopedia methodology)",
+     "series": "Beta vs. Nifty 50 (MRF Ltd)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Under ₹1,000 | Stocks, count | 4,862 | Share of stocks, % | 90.2 | Combined market cap, ₹ lakh crore | 207.9 | Share of market cap, % | 41.8",
+     "value": "4,862 stocks under ₹1,000; 90.2% of stocks; ₹207.9 lakh crore market cap; 41.8% of market cap",
+     "period": "as of 11 Aug 2026",
+     "period_end": "2026-08-11",
+     "publisher": "Screener.in",
+     "series": "India's listed market, split by share price band",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹1,000–3,000 | Stocks, count | 365 | Share of stocks, % | 6.8 | Combined market cap, ₹ lakh crore | 192.8 | Share of market cap, % | 38.7",
+     "value": "365 stocks in ₹1,000–₹3,000 band; 6.8% of stocks; ₹192.8 lakh crore market cap; 38.7% of market cap",
+     "period": "as of 11 Aug 2026",
+     "period_end": "2026-08-11",
+     "publisher": "Screener.in",
+     "series": "India's listed market, split by share price band",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹3,000–5,000 | Stocks, count | 73 | Share of stocks, % | 1.4 | Combined market cap, ₹ lakh crore | 46.2 | Share of market cap, % | 9.3",
+     "value": "73 stocks in ₹3,000–₹5,000 band; 1.4% of stocks; ₹46.2 lakh crore market cap; 9.3% of market cap",
+     "period": "as of 11 Aug 2026",
+     "period_end": "2026-08-11",
+     "publisher": "Screener.in",
+     "series": "India's listed market, split by share price band",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹5,000–10,000 | Stocks, count | 52 | Share of stocks, % | 1.0 | Combined market cap, ₹ lakh crore | 25.9 | Share of market cap, % | 5.2",
+     "value": "52 stocks in ₹5,000–₹10,000 band; 1.0% of stocks; ₹25.9 lakh crore market cap; 5.2% of market cap",
+     "period": "as of 11 Aug 2026",
+     "period_end": "2026-08-11",
+     "publisher": "Screener.in",
+     "series": "India's listed market, split by share price band",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Above ₹10,000 | Stocks, count | 38 | Share of stocks, % | 0.7 | Combined market cap, ₹ lakh crore | 25.0 | Share of market cap, % | 5.0",
+     "value": "38 stocks above ₹10,000; 0.7% of stocks; ₹25.0 lakh crore market cap; 5.0% of market cap",
+     "period": "as of 11 Aug 2026",
+     "period_end": "2026-08-11",
+     "publisher": "Screener.in",
+     "series": "India's listed market, split by share price band",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Under ₹1,000 | Median 3-month return, % | −1.9 | Median 6-month return, % | −3.3 | Median 1-year return, % | −13.7",
+     "value": "−1.9% (3-month return), −3.3% (6-month return), −13.7% (1-year return) for under ₹1,000 band",
+     "period": "as of 11 Aug 2026",
+     "period_end": "2026-08-11",
+     "publisher": "Screener.in",
+     "series": "Stock returns by price band",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹1,000–3,000 | Median 3-month return, % | 10.4 | Median 6-month return, % | 12.9 | Median 1-year return, % | 10.4",
+     "value": "10.4% (3-month return), 12.9% (6-month return), 10.4% (1-year return) for ₹1,000–₹3,000 band",
+     "period": "as of 11 Aug 2026",
+     "period_end": "2026-08-11",
+     "publisher": "Screener.in",
+     "series": "Stock returns by price band",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹3,000–5,000 | Median 3-month return, % | 12.1 | Median 6-month return, % | 15.4 | Median 1-year return, % | 22.5",
+     "value": "12.1% (3-month return), 15.4% (6-month return), 22.5% (1-year return) for ₹3,000–₹5,000 band",
+     "period": "as of 11 Aug 2026",
+     "period_end": "2026-08-11",
+     "publisher": "Screener.in",
+     "series": "Stock returns by price band",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹5,000–10,000 | Median 3-month return, % | 5.0 | Median 6-month return, % | 9.4 | Median 1-year return, % | 12.7",
+     "value": "5.0% (3-month return), 9.4% (6-month return), 12.7% (1-year return) for ₹5,000–₹10,000 band",
+     "period": "as of 11 Aug 2026",
+     "period_end": "2026-08-11",
+     "publisher": "Screener.in",
+     "series": "Stock returns by price band",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Above ₹10,000 | Median 3-month return, % | 9.4 | Median 6-month return, % | 3.9 | Median 1-year return, % | 8.1",
+     "value": "9.4% (3-month return), 3.9% (6-month return), 8.1% (1-year return) for above ₹10,000 band",
+     "period": "as of 11 Aug 2026",
+     "period_end": "2026-08-11",
+     "publisher": "Screener.in",
+     "series": "Stock returns by price band",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Under ₹1,000 | Median YoY quarterly profit growth, % | 17.5 | Median 3-year EPS growth, % | 14.6",
+     "value": "17.5% (YoY quarterly profit growth), 14.6% (3-year EPS growth) for under ₹1,000 band",
+     "period": "as of 11 Aug 2026",
+     "period_end": "2026-08-11",
+     "publisher": "Screener.in",
+     "series": "Profit growth by price band",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹1,000–3,000 | Median YoY quarterly profit growth, % | 27.2 | Median 3-year EPS growth, % | 17.0",
+     "value": "27.2% (YoY quarterly profit growth), 17.0% (3-year EPS growth) for ₹1,000–₹3,000 band",
+     "period": "as of 11 Aug 2026",
+     "period_end": "2026-08-11",
+     "publisher": "Screener.in",
+     "series": "Profit growth by price band",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹3,000–5,000 | Median YoY quarterly profit growth, % | 24.7 | Median 3-year EPS growth, % | 16.9",
+     "value": "24.7% (YoY quarterly profit growth), 16.9% (3-year EPS growth) for ₹3,000–₹5,000 band",
+     "period": "as of 11 Aug 2026",
+     "period_end": "2026-08-11",
+     "publisher": "Screener.in",
+     "series": "Profit growth by price band",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹5,000–10,000 | Median YoY quarterly profit growth, % | 15.4 | Median 3-year EPS growth, % | 19.9",
+     "value": "15.4% (YoY quarterly profit growth), 19.9% (3-year EPS growth) for ₹5,000–₹10,000 band",
+     "period": "as of 11 Aug 2026",
+     "period_end": "2026-08-11",
+     "publisher": "Screener.in",
+     "series": "Profit growth by price band",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Above ₹10,000 | Median YoY quarterly profit growth, % | 22.8 | Median 3-year EPS growth, % | 22.6",
+     "value": "22.8% (YoY quarterly profit growth), 22.6% (3-year EPS growth) for above ₹10,000 band",
+     "period": "as of 11 Aug 2026",
+     "period_end": "2026-08-11",
+     "publisher": "Screener.in",
+     "series": "Profit growth by price band",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Under ₹1,000 | Median beta | 0.93 | Mean beta | 0.84",
+     "value": "Median beta 0.93, mean beta 0.84 (under ₹1,000 band)",
+     "period": "as of 11 Aug 2026",
+     "period_end": "2026-08-11",
+     "publisher": "Yahoo Finance (via Investopedia methodology)",
+     "series": "Beta vs. Nifty 50 by price band",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹1,000–3,000 | Median beta | 1.05 | Mean beta | 1.07",
+     "value": "Median beta 1.05, mean beta 1.07 (₹1,000–₹3,000 band)",
+     "period": "as of 11 Aug 2026",
+     "period_end": "2026-08-11",
+     "publisher": "Yahoo Finance (via Investopedia methodology)",
+     "series": "Beta vs. Nifty 50 by price band",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹3,000–5,000 | Median beta | 1.08 | Mean beta | 1.02",
+     "value": "Median beta 1.08, mean beta 1.02 (₹3,000–₹5,000 band)",
+     "period": "as of 11 Aug 2026",
+     "period_end": "2026-08-11",
+     "publisher": "Yahoo Finance (via Investopedia methodology)",
+     "series": "Beta vs. Nifty 50 by price band",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹5,000–10,000 | Median beta | 0.93 | Mean beta | 0.93",
+     "value": "Median beta 0.93, mean beta 0.93 (₹5,000–₹10,000 band)",
+     "period": "as of 11 Aug 2026",
+     "period_end": "2026-08-11",
+     "publisher": "Yahoo Finance (via Investopedia methodology)",
+     "series": "Beta vs. Nifty 50 by price band",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Above ₹10,000 | Median beta | 1.10 | Mean beta | 1.05",
+     "value": "Median beta 1.10, mean beta 1.05 (above ₹10,000 band)",
+     "period": "as of 11 Aug 2026",
+     "period_end": "2026-08-11",
+     "publisher": "Yahoo Finance (via Investopedia methodology)",
+     "series": "Beta vs. Nifty 50 by price band",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "A Companies Amendment Bill introduced in the Lok Sabha on 23 March 2026 left fractional shares out, reportedly over concerns for minority shareholders, since such shares would carry no voting rights.",
+     "value": "Companies Amendment Bill introduced in Lok Sabha on 23 March 2026",
+     "period": "23 March 2026",
+     "period_end": "2026-03-23",
+     "publisher": "Lok Sabha",
+     "series": "Companies Amendment Bill",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "SEBI asked the Ministry of Corporate Affairs to add [fractional shares] in August 2026, as reported by 5paisa and CA Alley.",
+     "value": "SEBI asked Ministry of Corporate Affairs to add fractional shares in August 2026",
+     "period": "August 2026",
+     "period_end": "2026-08-31",
+     "publisher": "SEBI / 5paisa / CA Alley",
+     "series": "Regulatory communication on fractional shares",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "SEBI admitted a Bengaluru-based startup, Xaults, into its innovation sandbox to test a new custody model in July 2025.",
+     "value": "Xaults admitted to SEBI's innovation sandbox in July 2025",
+     "period": "July 2025",
+     "period_end": "2025-07-31",
+     "publisher": "SEBI / Business Standard / Moneycontrol",
+     "series": "Innovation sandbox admission (Xaults)",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

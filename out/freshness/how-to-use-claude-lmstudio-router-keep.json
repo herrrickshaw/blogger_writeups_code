@@ -1,0 +1,129 @@
+{
+ "slug": "how-to-use-claude-lmstudio-router-keep",
+ "text_sha1": "ff234c778f17619e",
+ "chars": 9607,
+ "checked": "2026-10-23T12:05:14",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": []
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "2 tools: router.py and claude_code_proxy.py 2 retries on 429 or 529 before the local fallback",
+     "value": "2 retries",
+     "period": null,
+     "period_end": null,
+     "publisher": "GitHub README (author)",
+     "series": "Fallback retry logic for Claude API errors",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "1 JSON log line per call (router_log.jsonl)",
+     "value": "1 JSON log line",
+     "period": null,
+     "period_end": null,
+     "publisher": "GitHub README (author)",
+     "series": "Logging format for router.py",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "0 real LM Studio model calls in the demo",
+     "value": "0 real LM Studio model calls",
+     "period": "demo run",
+     "period_end": "2026-10-18",
+     "publisher": "GitHub README (author)",
+     "series": "Demo execution metrics",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The demo used port 1239 was a small canned server, not LM Studio.",
+     "value": "port 1239",
+     "period": "demo run",
+     "period_end": "2026-10-18",
+     "publisher": "GitHub README (author)",
+     "series": "Demo server configuration",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The demo used port 8792 through PROXY_PORT. The default is 8787.",
+     "value": "port 8792 (demo) / 8787 (default)",
+     "period": "demo run",
+     "period_end": "2026-10-18",
+     "publisher": "GitHub README (author)",
+     "series": "Proxy server port settings",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The README suggests qwen2.5-coder-7b-instruct, qwen2.5-7b-instruct or llama-3.1-8b-instruct, and larger ones if you have memory.",
+     "value": "qwen2.5-coder-7b-instruct, qwen2.5-7b-instruct, llama-3.1-8b-instruct (suggested)",
+     "period": null,
+     "period_end": null,
+     "publisher": "GitHub README (author)",
+     "series": "Recommended local models for proxy",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Reasoning-only models often fail",
+     "value": "reasoning-only models (failure rate unspecified)",
+     "period": null,
+     "period_end": null,
+     "publisher": "GitHub README (author)",
+     "series": "Model compatibility notes",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The default model name (claude-sonnet-4-6) is set inside router.py.",
+     "value": "claude-sonnet-4-6",
+     "period": null,
+     "period_end": null,
+     "publisher": "GitHub README (author)",
+     "series": "Default Claude model in router.py",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Neither tool starts LM Studio for you. You load the model and click Start Server.",
+     "value": "manual LM Studio startup",
+     "period": null,
+     "period_end": null,
+     "publisher": "GitHub README (author)",
+     "series": "LM Studio server initiation",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The demo used a canned stand-in server, not LM Studio. Live model calls were not run, so latency, answer quality and real tool-use loops were not measured.",
+     "value": "no live model calls in demo",
+     "period": "demo run",
+     "period_end": "2026-10-18",
+     "publisher": "GitHub README (author)",
+     "series": "Demo execution limitations",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "v1.0.0 — 18 October 2026 — first published.",
+     "value": "18 October 2026",
+     "period": "publication date",
+     "period_end": "2026-10-18",
+     "publisher": "GitHub README (author)",
+     "series": "Article revision history",
+     "frequency": "one-off",
+     "headline": true
+    }
+   ]
+  }
+ }
+}

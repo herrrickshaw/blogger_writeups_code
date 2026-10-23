@@ -1,0 +1,530 @@
+{
+ "slug": "indias-renewable-energy-certificates",
+ "text_sha1": "6f382706dda839ba",
+ "chars": 24098,
+ "checked": "2026-10-23T14:32:13",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "A Renewable Energy Certificate traded at ₹2,300 in early 2022, ₹115 by August 2024, and back near ₹380 in mid-2026",
+     "value": "₹2,300, ₹115, ₹380",
+     "period": "mid-2026",
+     "period_end": "2026-06-30",
+     "publisher": "IEX session reports and trade-press coverage",
+     "series": "REC session data",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "REC prices swung 20x once CERC removed the price floor and ceiling in May 2022 — from ₹2,300 to an all-time low of ₹115, then back to ~₹380.",
+     "value": "₹2,300, ₹115, ~₹380",
+     "period": "May 2022",
+     "period_end": "2022-05-31",
+     "publisher": "IEX session reports and trade-press coverage",
+     "series": "REC session data",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "REC prices have moved from ₹2,300 (early 2022) to ₹115 (August 2024) to roughly ₹380 (mid-2026)",
+     "value": "₹2,300, ₹115, ₹380",
+     "period": "mid-2026",
+     "period_end": "2026-06-30",
+     "publisher": "IEX session reports and trade-press coverage",
+     "series": "REC session data",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "Feb 2022 | ₹1,000 (Non-Solar) / ₹2,300 (Solar)",
+     "value": "₹1,000, ₹2,300",
+     "period": "Feb 2022",
+     "period_end": "2022-02-28",
+     "publisher": "IEX",
+     "series": "IEX session data",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "1 Apr 2022 | ₹1,000 (Non-Solar)",
+     "value": "₹1,000",
+     "period": "1 Apr 2022",
+     "period_end": "2022-04-01",
+     "publisher": "IEX",
+     "series": "IEX session data",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "28 Dec 2022 | ₹1,000",
+     "value": "₹1,000",
+     "period": "28 Dec 2022",
+     "period_end": "2022-12-28",
+     "publisher": "IEX",
+     "series": "IEX session data",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "14/28 Aug 2024 | ₹118 / ₹115",
+     "value": "₹118 / ₹115",
+     "period": "14/28 Aug 2024",
+     "period_end": "2024-08-28",
+     "publisher": "IEX",
+     "series": "IEX session data",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "11/26 Dec 2024 | ₹260 / ₹316",
+     "value": "₹260 / ₹316",
+     "period": "11/26 Dec 2024",
+     "period_end": "2024-12-26",
+     "publisher": "IEX",
+     "series": "IEX session data",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Mar 2025 | ₹348 / ₹347",
+     "value": "₹348 / ₹347",
+     "period": "Mar 2025",
+     "period_end": "2025-03-31",
+     "publisher": "IEX",
+     "series": "IEX session data",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "9/30 Apr 2025 | ₹300 / ₹350",
+     "value": "₹300 / ₹350",
+     "period": "9/30 Apr 2025",
+     "period_end": "2025-04-30",
+     "publisher": "IEX",
+     "series": "IEX session data",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "14/28 May 2025 | ₹345 / ₹349",
+     "value": "₹345 / ₹349",
+     "period": "14/28 May 2025",
+     "period_end": "2025-05-28",
+     "publisher": "IEX",
+     "series": "IEX session data",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Jul 2026 (two sessions) | ₹380 / ₹376 | Trading volume down 56.3% year-on-year, to 7.11 lakh certificates",
+     "value": "₹380 / ₹376",
+     "period": "Jul 2026",
+     "period_end": "2026-07-31",
+     "publisher": "IEX",
+     "series": "IEX session data",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Jul 2026 (two sessions) | ₹380 / ₹376 | Trading volume down 56.3% year-on-year, to 7.11 lakh certificates",
+     "value": "56.3%",
+     "period": "Jul 2026",
+     "period_end": "2026-07-31",
+     "publisher": "IEX",
+     "series": "IEX session data",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Trading volume down 56.3% year-on-year, to 7.11 lakh certificates",
+     "value": "7.11 lakh certificates",
+     "period": "Jul 2026",
+     "period_end": "2026-07-31",
+     "publisher": "IEX",
+     "series": "IEX session data",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "In 2015, reporting citing REC Registry data put roughly 96 lakh RECs available for trade against only about 30.6 lakh actually traded in a comparable window, leaving an estimated 1.22 crore (12.2 million) unsold certificates in inventory at the time.",
+     "value": "96 lakh RECs",
+     "period": "2015",
+     "period_end": "2015-12-31",
+     "publisher": "REC Registry",
+     "series": "REC Registry data",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "In 2015, reporting citing REC Registry data put roughly 96 lakh RECs available for trade against only about 30.6 lakh actually traded in a comparable window, leaving an estimated 1.22 crore (12.2 million) unsold certificates in inventory at the time.",
+     "value": "30.6 lakh certificates",
+     "period": "2015",
+     "period_end": "2015-12-31",
+     "publisher": "REC Registry",
+     "series": "REC Registry data",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "In 2015, reporting citing REC Registry data put roughly 96 lakh RECs available for trade against only about 30.6 lakh actually traded in a comparable window, leaving an estimated 1.22 crore (12.2 million) unsold certificates in inventory at the time.",
+     "value": "1.22 crore certificates",
+     "period": "2015",
+     "period_end": "2015-12-31",
+     "publisher": "REC Registry",
+     "series": "REC Registry data",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "On-shore Wind and Solar | 1",
+     "value": "1",
+     "period": "2022",
+     "period_end": "2022-12-31",
+     "publisher": "CERC",
+     "series": "Certificate Multiplier",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Hydro | 1.5",
+     "value": "1.5",
+     "period": "2022",
+     "period_end": "2022-12-31",
+     "publisher": "CERC",
+     "series": "Certificate Multiplier",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Municipal Solid Waste (MSW) and non-fossil-fuel-based cogeneration | 2",
+     "value": "2",
+     "period": "2022",
+     "period_end": "2022-12-31",
+     "publisher": "CERC",
+     "series": "Certificate Multiplier",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Biomass and Biofuel | 2.5",
+     "value": "2.5",
+     "period": "2022",
+     "period_end": "2022-12-31",
+     "publisher": "CERC",
+     "series": "Certificate Multiplier",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "PAT cycle III traded ~1.8 lakh certificates in 2024",
+     "value": "~1.8 lakh certificates",
+     "period": "2024",
+     "period_end": "2024-12-31",
+     "publisher": "BEE / CERC",
+     "series": "PAT scheme",
+     "frequency": "annual",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "A Renewable Energy Certificate traded at ₹2,300 in early 2022, ₹115 by August 2024, and back near ₹380 in mid-2026",
+     "value": "₹2,300 (Feb 2022), ₹115 (Aug 2024), ~₹380 (mid-2026)",
+     "period": "Feb 2022, Aug 2024, mid-2026",
+     "period_end": "2022-02-28, 2024-08-31, 2026-06-30",
+     "publisher": "IEX session data (via Mercom India/SolarQuarter)",
+     "series": "IEX REC trading session prices (Non-Solar/Solar pre-2022, unified post-2022)",
+     "frequency": "live",
+     "headline": true
+    },
+    {
+     "quote": "₹2,300 (Non-Solar) / ₹2,300 (Solar) in Feb 2022",
+     "value": "₹2,300 (Solar REC), ₹2,300 (Non-Solar REC)",
+     "period": "Feb 2022",
+     "period_end": "2022-02-28",
+     "publisher": "CERC/IEX",
+     "series": "REC Regulations, 2010 (pre-merger)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹1,000 (Non-Solar) in 1 Apr 2022",
+     "value": "₹1,000 (Non-Solar REC)",
+     "period": "1 Apr 2022",
+     "period_end": "2022-04-01",
+     "publisher": "IEX",
+     "series": "REC trading session prices (pre-merger)",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "₹118 / ₹115 in Aug 2024 (all-time low)",
+     "value": "₹115 (Aug 2024)",
+     "period": "14/28 Aug 2024",
+     "period_end": "2024-08-28",
+     "publisher": "IEX session reports",
+     "series": "REC trading session prices (unified)",
+     "frequency": "live",
+     "headline": true
+    },
+    {
+     "quote": "₹260 / ₹316 in Dec 2024",
+     "value": "₹316 (Dec 2024)",
+     "period": "11/26 Dec 2024",
+     "period_end": "2024-12-26",
+     "publisher": "Mercom India/SolarQuarter",
+     "series": "REC trading session prices (unified)",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "₹348 in Mar 2025",
+     "value": "₹348 (Mar 2025)",
+     "period": "Mar 2025",
+     "period_end": "2025-03-31",
+     "publisher": "IEX session reports",
+     "series": "REC trading session prices (unified)",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "₹380 in Jul 2026 (two sessions)",
+     "value": "₹380 (Jul 2026)",
+     "period": "Jul 2026",
+     "period_end": "2026-07-31",
+     "publisher": "IEX session reports",
+     "series": "REC trading session prices (unified)",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "trading volume down 56.3% year-on-year, to 7.11 lakh certificates in Jul 2026",
+     "value": "7.11 lakh REC (Jul 2026)",
+     "period": "Jul 2026",
+     "period_end": "2026-07-31",
+     "publisher": "IEX session reports",
+     "series": "REC trading volume (unified)",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "roughly 96 lakh RECs available for trade against only about 30.6 lakh actually traded in 2015",
+     "value": "1.22 crore (12.2 million) unsold REC (2015)",
+     "period": "2015",
+     "period_end": "2015-12-31",
+     "publisher": "REC Registry data (via Eco-Business/PTI)",
+     "series": "REC unsold inventory",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "PAT cycle III traded ~1.8 lakh certificates in 2024",
+     "value": "1.8 lakh ESCerts (2024)",
+     "period": "2024",
+     "period_end": "2024-12-31",
+     "publisher": "BEE/PIB",
+     "series": "PAT Scheme trading volume",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "CCTS trading to start by October 2026",
+     "value": "October 2026 (expected)",
+     "period": "by Oct 2026",
+     "period_end": "2026-10-31",
+     "publisher": "CERC draft regulation (No. RA-14026(13)/1/2024-CERC)",
+     "series": "CCTS compliance market launch",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Indian Carbon Market Portal launched on 21 March 2026",
+     "value": "21 Mar 2026",
+     "period": "21 Mar 2026",
+     "period_end": "2026-03-21",
+     "publisher": "CERC/Ministry of Power",
+     "series": "CCTS portal launch",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "CERC removed the administratively-fixed floor and ceiling price in May 2022",
+     "value": "9 May 2022",
+     "period": "9 May 2022",
+     "period_end": "2022-05-09",
+     "publisher": "CERC",
+     "series": "REC Regulations, 2022 (No. RA-14026(11)/1/2022-CERC)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "CCTS notified by the Ministry of Power via gazette notification S.O. 2825(E) dated 28 June 2023",
+     "value": "28 Jun 2023",
+     "period": "28 Jun 2023",
+     "period_end": "2023-06-28",
+     "publisher": "Ministry of Power",
+     "series": "CCTS scheme notification",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Used Lube Oil EPR Certificate operational since 1 Apr 2024",
+     "value": "1 Apr 2024",
+     "period": "1 Apr 2024",
+     "period_end": "2024-04-01",
+     "publisher": "CPCB",
+     "series": "Used Lube Oil EPR Certificate launch",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Plastic & Battery Waste EPR Certificates operational since 2022 (plastic) / 2023 (battery)",
+     "value": "2022 (plastic), 2023 (battery)",
+     "period": "2022, 2023",
+     "period_end": "2022-12-31, 2023-12-31",
+     "publisher": "CPCB",
+     "series": "Plastic/Battery Waste EPR Certificates launch",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "E-waste EPR Certificate operational; unified cross-scheme EPR trading platform launched Feb 2026",
+     "value": "Feb 2026 (platform)",
+     "period": "Feb 2026",
+     "period_end": "2026-02-29",
+     "publisher": "CPCB",
+     "series": "E-waste EPR trading platform",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Tyre/Rubber Waste EPR Certificate operational since FY2023-24",
+     "value": "FY2023-24",
+     "period": "FY2023-24",
+     "period_end": "2024-03-31",
+     "publisher": "CPCB",
+     "series": "Tyre/Rubber Waste EPR Certificate launch",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Priority Sector Lending Certificate (PSLC) operational since 2016",
+     "value": "2016",
+     "period": "2016",
+     "period_end": "2016-12-31",
+     "publisher": "RBI",
+     "series": "PSLC launch",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "CCTS compliance market not yet live; voluntary offset mechanism trading since June 2025",
+     "value": "Jun 2025 (voluntary)",
+     "period": "Jun 2025",
+     "period_end": "2025-06-30",
+     "publisher": "CERC/BEE",
+     "series": "CCTS voluntary trading",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "APTEL issued directions on RPO enforcement on 20 April 2015",
+     "value": "20 Apr 2015",
+     "period": "20 Apr 2015",
+     "period_end": "2015-04-20",
+     "publisher": "APTEL",
+     "series": "APTEL Order O.P. No. 1 of 2013",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "CCTS trading regulation (No. RA-14026(13)/1/2024-CERC) read directly",
+     "value": "2024 (draft regulation)",
+     "period": "2024",
+     "period_end": "2024-12-31",
+     "publisher": "CERC",
+     "series": "CCTS trading regulations",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "CERC notified the final regulations on 27 February 2026",
+     "value": "27 Feb 2026",
+     "period": "27 Feb 2026",
+     "period_end": "2026-02-27",
+     "publisher": "CERC",
+     "series": "CCTS final regulations",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "CCTS compliance trading expected by October 2026, with trading from November 2026 to January 2027 (Carbon Pulse)",
+     "value": "Nov 2026–Jan 2027 (expected)",
+     "period": "Nov 2026–Jan 2027",
+     "period_end": "2027-01-31",
+     "publisher": "Carbon Pulse",
+     "series": "CCTS compliance trading timeline",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "CCTS compliance market not yet live; first issuance or compliance trade not reported as of mid-October 2026",
+     "value": "mid-Oct 2026 (no trades)",
+     "period": "mid-Oct 2026",
+     "period_end": "2026-10-15",
+     "publisher": "SolarQuarter/Mercom",
+     "series": "CCTS trading status",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "BEE as planning to issue credits in October 2026, with trading from November 2026 to January 2027",
+     "value": "Oct 2026 (issuance), Nov 2026–Jan 2027 (trading)",
+     "period": "Oct 2026–Jan 2027",
+     "period_end": "2027-01-31",
+     "publisher": "Carbon Pulse",
+     "series": "CCTS issuance and trading timeline",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "CERC removed the administratively-fixed floor and ceiling price in May 2022 — market fully price-discovered since",
+     "value": "May 2022 (price band removal)",
+     "period": "May 2022",
+     "period_end": "2022-05-31",
+     "publisher": "CERC",
+     "series": "REC Regulations, 2022",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "RECs trade on two CERC-approved power exchanges — the Indian Energy Exchange (IEX) and Power Exchange India Limited (PXIL) — in sessions that moved from monthly to twice-monthly",
+     "value": "twice-monthly (post-May 2022)",
+     "period": "post-May 2022",
+     "period_end": null,
+     "publisher": "CERC",
+     "series": "REC trading session frequency",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "A certificate is valid for roughly three years from issuance",
+     "value": "~1,095 days (3 years)",
+     "period": null,
+     "period_end": null,
+     "publisher": "NLDC/Grid-India (recregistryindia.nic.in)",
+     "series": "REC validity period",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

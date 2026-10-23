@@ -1,0 +1,520 @@
+{
+ "slug": "from-cane-to-code-digital-layer",
+ "text_sha1": "f4aede6bef5527b7",
+ "chars": 13052,
+ "checked": "2026-10-23T11:40:28",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "20% Nationwide ethanol blending achieved in ESY2025-26 — five years ahead of the 2030 target",
+     "value": "20%",
+     "period": "ESY2025-26",
+     "period_end": "2026-10-31",
+     "publisher": "KPMG–ChiniMandi",
+     "series": "Beyond E20",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "₹1.67 lakh crore Cumulative forex saved by ethanol blending since ESY2014-15",
+     "value": "₹1.67 lakh crore",
+     "period": "ESY2014-15 to January 2026",
+     "period_end": "2026-01-31",
+     "publisher": "PIB / ministry",
+     "series": "Rajya Sabha unstarred question",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "4–8% Additional ethanol yield claimed from AI-tuned fermentation, same molasses input",
+     "value": "4–8%",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "ChiniMandi / BioEnergy Times",
+     "series": "Reported AI efficiency gains in India's sugar-ethanol sector",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "10–20% Farm yield improvement claimed for growers on an AI advisory pilot in Maharashtra",
+     "value": "10–20%",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "ChiniMandi / BioEnergy Times",
+     "series": "Reported AI efficiency gains in India's sugar-ethanol sector",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "blending that ran at 1.5% in ESY2013-14 reached 19.2% in ESY2024-25 and touched 20.0% in the opening months of ESY2025-26.",
+     "value": "1.5%",
+     "period": "ESY2013-14",
+     "period_end": "2014-10-31",
+     "publisher": "KPMG–ChiniMandi",
+     "series": "Ethanol blending rate, % of petrol, by Ethanol Supply Year",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "blending that ran at 1.5% in ESY2013-14 reached 19.2% in ESY2024-25 and touched 20.0% in the opening months of ESY2025-26.",
+     "value": "19.2%",
+     "period": "ESY2024-25",
+     "period_end": "2025-10-31",
+     "publisher": "KPMG–ChiniMandi",
+     "series": "Ethanol blending rate, % of petrol, by Ethanol Supply Year",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "blending that ran at 1.5% in ESY2013-14 reached 19.2% in ESY2024-25 and touched 20.0% in the opening months of ESY2025-26.",
+     "value": "20.0%",
+     "period": "ESY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "KPMG–ChiniMandi",
+     "series": "Ethanol blending rate, % of petrol, by Ethanol Supply Year",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "2013-14 | 38 | 1.5 |",
+     "value": "38 crore litres",
+     "period": "2013-14",
+     "period_end": "2014-10-31",
+     "publisher": "India Climate & Energy Dashboard and NITI Aayog",
+     "series": "India's ethanol blending build-out",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "2016-17 | 67 | 2.1 |",
+     "value": "67 crore litres",
+     "period": "2016-17",
+     "period_end": "2017-10-31",
+     "publisher": "India Climate & Energy Dashboard and NITI Aayog",
+     "series": "India's ethanol blending build-out",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "2019-20 | 171 | 5.0 |",
+     "value": "171 crore litres",
+     "period": "2019-20",
+     "period_end": "2020-10-31",
+     "publisher": "India Climate & Energy Dashboard and NITI Aayog",
+     "series": "India's ethanol blending build-out",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "2021-22 | 434 | 10.0 |",
+     "value": "434 crore litres",
+     "period": "2021-22",
+     "period_end": "2022-10-31",
+     "publisher": "India Climate & Energy Dashboard and NITI Aayog",
+     "series": "India's ethanol blending build-out",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "2023-24 | 707 | 14.6 |",
+     "value": "707 crore litres",
+     "period": "2023-24",
+     "period_end": "2024-10-31",
+     "publisher": "India Climate & Energy Dashboard and NITI Aayog",
+     "series": "India's ethanol blending build-out",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "2024-25 | 1,022 | 19.2 |",
+     "value": "1,022 crore litres",
+     "period": "2024-25",
+     "period_end": "2025-10-31",
+     "publisher": "India Climate & Energy Dashboard and NITI Aayog",
+     "series": "India's ethanol blending build-out",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "2025-26 (partial, to March) | 450 | 20.0 |",
+     "value": "450 crore litres",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "India Climate & Energy Dashboard and NITI Aayog",
+     "series": "India's ethanol blending build-out",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "283 lakh tonnes of crude oil displaced",
+     "value": "283 lakh tonnes",
+     "period": "ESY2014-15 to January 2026",
+     "period_end": "2026-01-31",
+     "publisher": "PIB / ministry",
+     "series": "Rajya Sabha unstarred question",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹1.67 lakh crore in foreign exchange saved",
+     "value": "₹1.67 lakh crore",
+     "period": "ESY2014-15 to January 2026",
+     "period_end": "2026-01-31",
+     "publisher": "PIB / ministry",
+     "series": "Rajya Sabha unstarred question",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹1.47 lakh crore paid to farmers through the ethanol value chain",
+     "value": "₹1.47 lakh crore",
+     "period": "ESY2014-15 to January 2026",
+     "period_end": "2026-01-31",
+     "publisher": "PIB / ministry",
+     "series": "Rajya Sabha unstarred question",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "851 lakh tonnes of CO₂ avoided",
+     "value": "851 lakh tonnes",
+     "period": "ESY2014-15 to January 2026",
+     "period_end": "2026-01-31",
+     "publisher": "PIB / ministry",
+     "series": "Rajya Sabha unstarred question",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Sugar recovery (percentage points), AI co-pilot in boiling/pan house (Maharashtra mill) | +0.5–1.2",
+     "value": "+0.5–1.2 percentage points",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "ChiniMandi / BioEnergy Times",
+     "series": "Reported AI efficiency gains in India's sugar-ethanol sector",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Steam use, same boiling/pan-house deployment | −5 to −15",
+     "value": "−5 to −15%",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "ChiniMandi / BioEnergy Times",
+     "series": "Reported AI efficiency gains in India's sugar-ethanol sector",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Ethanol yield from same molasses, fermentation control (370 KLPD distillery) | +4–8",
+     "value": "+4–8%",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "ChiniMandi / BioEnergy Times",
+     "series": "Reported AI efficiency gains in India's sugar-ethanol sector",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Steam use, distillation column optimisation | −8 to −15",
+     "value": "−8 to −15%",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "ChiniMandi / BioEnergy Times",
+     "series": "Reported AI efficiency gains in India's sugar-ethanol sector",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Margin from optimised feedstock routing (juice vs molasses) | +2–3",
+     "value": "+2–3%",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "ChiniMandi / BioEnergy Times",
+     "series": "Reported AI efficiency gains in India's sugar-ethanol sector",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Farm yield, AI advisory (Super 50 AI Farmers, Jalna district) | +10–20",
+     "value": "+10–20%",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "ChiniMandi / BioEnergy Times",
+     "series": "Reported AI efficiency gains in India's sugar-ethanol sector",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Farm water use, satellite-guided precision irrigation | −20 to −30",
+     "value": "−20 to −30%",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "ChiniMandi / BioEnergy Times",
+     "series": "Reported AI efficiency gains in India's sugar-ethanol sector",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "India hit 20% ethanol blending five years ahead of its own 2030 target",
+     "value": "20%",
+     "period": "ESY2025-26 (partial, Nov 2025–Mar 2026)",
+     "period_end": "2026-03-31",
+     "publisher": "KPMG–ChiniMandi (via Rajya Sabha unstarred question, 9 March 2026)",
+     "series": "India Climate & Energy Dashboard / NITI Aayog (Ethanol Blending Rate)",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "blending that ran at 1.5% in ESY2013-14 reached 19.2% in ESY2024-25 and touched 20.0% in the opening months of ESY2025-26",
+     "value": "1.5%",
+     "period": "ESY2013-14",
+     "period_end": "2014-10-31",
+     "publisher": "KPMG–ChiniMandi (via Rajya Sabha unstarred question, 9 March 2026)",
+     "series": "India Climate & Energy Dashboard / NITI Aayog (Ethanol Blending Rate)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "blending that ran at 1.5% in ESY2013-14 reached 19.2% in ESY2024-25 and touched 20.0% in the opening months of ESY2025-26",
+     "value": "19.2%",
+     "period": "ESY2024-25",
+     "period_end": "2025-10-31",
+     "publisher": "KPMG–ChiniMandi (via Rajya Sabha unstarred question, 9 March 2026)",
+     "series": "India Climate & Energy Dashboard / NITI Aayog (Ethanol Blending Rate)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "blending that ran at 1.5% in ESY2013-14 reached 19.2% in ESY2024-25 and touched 20.0% in the opening months of ESY2025-26",
+     "value": "20.0%",
+     "period": "ESY2025-26 (partial, Nov 2025–Mar 2026)",
+     "period_end": "2026-03-31",
+     "publisher": "KPMG–ChiniMandi (via Rajya Sabha unstarred question, 9 March 2026)",
+     "series": "India Climate & Energy Dashboard / NITI Aayog (Ethanol Blending Rate)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Government figures put ... ₹1.67 lakh crore in foreign exchange saved",
+     "value": "₹1.67 lakh crore",
+     "period": "ESY2014-15 to January 2026",
+     "period_end": "2026-01-31",
+     "publisher": "Rajya Sabha unstarred question, 9 March 2026",
+     "series": "Ethanol Blended Petrol (EBP) Programme cumulative impact",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "Government figures put ... 283 lakh tonnes of crude oil displaced",
+     "value": "283 lakh tonnes",
+     "period": "ESY2014-15 to January 2026",
+     "period_end": "2026-01-31",
+     "publisher": "Rajya Sabha unstarred question, 9 March 2026",
+     "series": "Ethanol Blended Petrol (EBP) Programme cumulative impact",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Government figures put ... ₹1.47 lakh crore paid to farmers through the ethanol value chain",
+     "value": "₹1.47 lakh crore",
+     "period": "ESY2014-15 to January 2026",
+     "period_end": "2026-01-31",
+     "publisher": "Rajya Sabha unstarred question, 9 March 2026",
+     "series": "Ethanol Blended Petrol (EBP) Programme cumulative impact",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Government figures put ... 851 lakh tonnes of CO₂ avoided",
+     "value": "851 lakh tonnes",
+     "period": "ESY2014-15 to January 2026",
+     "period_end": "2026-01-31",
+     "publisher": "Rajya Sabha unstarred question, 9 March 2026",
+     "series": "Ethanol Blended Petrol (EBP) Programme cumulative impact",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Ethanol blended, crore litres | Blending rate, % ... 2013-14 | 38 | 1.5",
+     "value": "38 crore litres",
+     "period": "ESY2013-14",
+     "period_end": "2014-10-31",
+     "publisher": "KPMG–ChiniMandi (via India Climate & Energy Dashboard, NITI Aayog)",
+     "series": "Ethanol Blending Volume (crore litres)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Ethanol blended, crore litres | Blending rate, % ... 2016-17 | 67 | 2.1",
+     "value": "67 crore litres",
+     "period": "ESY2016-17",
+     "period_end": "2017-10-31",
+     "publisher": "KPMG–ChiniMandi (via India Climate & Energy Dashboard, NITI Aayog)",
+     "series": "Ethanol Blending Volume (crore litres)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Ethanol blended, crore litres | Blending rate, % ... 2019-20 | 171 | 5.0",
+     "value": "171 crore litres",
+     "period": "ESY2019-20",
+     "period_end": "2020-10-31",
+     "publisher": "KPMG–ChiniMandi (via India Climate & Energy Dashboard, NITI Aayog)",
+     "series": "Ethanol Blending Volume (crore litres)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Ethanol blended, crore litres | Blending rate, % ... 2021-22 | 434 | 10.0",
+     "value": "434 crore litres",
+     "period": "ESY2021-22",
+     "period_end": "2022-10-31",
+     "publisher": "KPMG–ChiniMandi (via India Climate & Energy Dashboard, NITI Aayog)",
+     "series": "Ethanol Blending Volume (crore litres)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Ethanol blended, crore litres | Blending rate, % ... 2023-24 | 707 | 14.6",
+     "value": "707 crore litres",
+     "period": "ESY2023-24",
+     "period_end": "2024-10-31",
+     "publisher": "KPMG–ChiniMandi (via India Climate & Energy Dashboard, NITI Aayog)",
+     "series": "Ethanol Blending Volume (crore litres)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Ethanol blended, crore litres | Blending rate, % ... 2024-25 | 1,022 | 19.2",
+     "value": "1,022 crore litres",
+     "period": "ESY2024-25",
+     "period_end": "2025-10-31",
+     "publisher": "KPMG–ChiniMandi (via India Climate & Energy Dashboard, NITI Aayog)",
+     "series": "Ethanol Blending Volume (crore litres)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Ethanol blended, crore litres | Blending rate, % ... 2025-26 (partial, to March) | 450 | 20.0",
+     "value": "450 crore litres",
+     "period": "ESY2025-26 (partial, Nov 2025–Mar 2026)",
+     "period_end": "2026-03-31",
+     "publisher": "KPMG–ChiniMandi (via India Climate & Energy Dashboard, NITI Aayog)",
+     "series": "Ethanol Blending Volume (crore litres)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "4–8% Additional ethanol yield claimed from AI-tuned fermentation, same molasses input",
+     "value": "4–8%",
+     "period": null,
+     "period_end": null,
+     "publisher": "Findability Sciences (vendor-reported, via BioEnergy Times, 2026)",
+     "series": "AI-tuned fermentation efficiency gains",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "10–20% Farm yield improvement claimed for growers on an AI advisory pilot in Maharashtra",
+     "value": "10–20%",
+     "period": null,
+     "period_end": null,
+     "publisher": "Findability Sciences (vendor-reported, via trade press, 2026)",
+     "series": "AI advisory pilot (Super 50 AI Farmers, Jalna district)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Sugar recovery (percentage points), AI co-pilot in boiling/pan house (Maharashtra mill) | +0.5–1.2",
+     "value": "+0.5–1.2 percentage points",
+     "period": null,
+     "period_end": null,
+     "publisher": "Findability Sciences (vendor-reported, via trade press, 2026)",
+     "series": "AI co-pilot in boiling/pan house (sugar recovery)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Steam use, same boiling/pan-house deployment | −5 to −15",
+     "value": "−5 to −15%",
+     "period": null,
+     "period_end": null,
+     "publisher": "Findability Sciences (vendor-reported, via trade press, 2026)",
+     "series": "Steam use reduction (boiling/pan house)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Ethanol yield from same molasses, fermentation control (370 KLPD distillery) | +4–8",
+     "value": "+4–8%",
+     "period": null,
+     "period_end": null,
+     "publisher": "Findability Sciences (vendor-reported, via trade press, 2026)",
+     "series": "Ethanol yield from molasses (fermentation control)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Steam use, distillation column optimisation | −8 to −15",
+     "value": "−8 to −15%",
+     "period": null,
+     "period_end": null,
+     "publisher": "Findability Sciences (vendor-reported, via trade press, 2026)",
+     "series": "Steam use reduction (distillation column optimisation)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Margin from optimised feedstock routing (juice vs molasses) | +2–3",
+     "value": "+2–3%",
+     "period": null,
+     "period_end": null,
+     "publisher": "Findability Sciences (vendor-reported, via trade press, 2026)",
+     "series": "Feedstock routing optimisation margin",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Farm yield, AI advisory (Super 50 AI Farmers, Jalna district) | +10–20",
+     "value": "+10–20%",
+     "period": null,
+     "period_end": null,
+     "publisher": "Findability Sciences (vendor-reported, via trade press, 2026)",
+     "series": "AI advisory pilot (farm yield)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Farm water use, satellite-guided precision irrigation | −20 to −30",
+     "value": "−20 to −30%",
+     "period": null,
+     "period_end": null,
+     "publisher": "Findability Sciences (vendor-reported, via trade press, 2026)",
+     "series": "Precision irrigation water use reduction",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Maruti Suzuki launch India's first flex-fuel car (June 2026)",
+     "value": "June 2026",
+     "period": "June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "KPMG–ChiniMandi (via Rajya Sabha unstarred question, 9 March 2026)",
+     "series": "Flex-fuel vehicle launch timeline",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

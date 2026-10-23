@@ -1,0 +1,410 @@
+{
+ "slug": "e20-doesnt-cut-tailpipe-co2-by-30-run",
+ "text_sha1": "1315a48f0911ddc9",
+ "chars": 13649,
+ "checked": "2026-10-23T11:12:15",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "65.8% ethanol's energy density as a share of petrol's",
+     "value": "65.8%",
+     "period": "18 September 2026",
+     "period_end": "2026-09-18",
+     "publisher": "PIB / ministry",
+     "series": "fuel energy-density and combustion-CO2 figures calculated directly for this piece from standard physical constants",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "6.8% maximum per-litre tailpipe CO2 cut at E20 (stoichiometric)",
+     "value": "6.8%",
+     "period": "18 September 2026",
+     "period_end": "2026-09-18",
+     "publisher": "PIB / ministry",
+     "series": "fuel energy-density and combustion-CO2 figures calculated directly for this piece from standard physical constants",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "~0% net per-km CO2 cut at E20 in an uncalibrated engine",
+     "value": "~0%",
+     "period": "18 September 2026",
+     "period_end": "2026-09-18",
+     "publisher": "PIB / ministry",
+     "series": "fuel energy-density and combustion-CO2 figures calculated directly for this piece from standard physical constants",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "2–6% India's own measured E20 mileage loss range (govt. data)",
+     "value": "2-6%",
+     "period": "30 July 2026",
+     "period_end": "2026-07-30",
+     "publisher": "PIB / ministry",
+     "series": "Lok Sabha written reply by the Minister of Road Transport and Highways",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "states that E20 can reduce fuel efficiency by 2% to 6% , depending on vehicle category and age.",
+     "value": "2% to 6%",
+     "period": "30 July 2026",
+     "period_end": "2026-07-30",
+     "publisher": "PIB / ministry",
+     "series": "Lok Sabha written reply by the Minister of Road Transport and Highways",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "roughly 6–7% mileage loss for four-wheelers designed for E0 and only calibrated for E10, 3–4% for two-wheelers in the same category, and 1–2% for four-wheelers actually designed and calibrated for E10→E20.",
+     "value": "6-7% for four-wheelers, 3-4% for two-wheelers, 1-2% for four-wheelers",
+     "period": "June 2021",
+     "period_end": "2021-06-30",
+     "publisher": "NITI Aayog",
+     "series": "Expert Committee roadmap, Roadmap for Ethanol Blending in India 2020-25 (via ARAI/SIAM/IOCL joint testing)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "SIAM's own independent figure for E20 is 2–4%.",
+     "value": "2-4%",
+     "period": "June 2021",
+     "period_end": "2021-06-30",
+     "publisher": "SIAM",
+     "series": "SIAM independent testing via Expert Committee roadmap",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Ethanol's lower heating value (about 26.8 MJ/kg at a density of 0.789 kg/L, giving roughly 21.15 MJ/L)",
+     "value": "26.8 MJ/kg, 0.789 kg/L, 21.15 MJ/L",
+     "period": "18 September 2026",
+     "period_end": "2026-09-18",
+     "publisher": "PIB / ministry",
+     "series": "fuel energy-density and combustion-CO2 figures calculated directly for this piece from standard physical constants",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "petrol's (about 43.4 MJ/kg at 0.74 kg/L, roughly 32.12 MJ/L)",
+     "value": "43.4 MJ/kg, 0.74 kg/L, 32.12 MJ/L",
+     "period": "18 September 2026",
+     "period_end": "2026-09-18",
+     "publisher": "PIB / ministry",
+     "series": "fuel energy-density and combustion-CO2 figures calculated directly for this piece from standard physical constants",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Petrol (modelled as octane, C8H18) emits about 2.281 kg CO2 per litre burned; ethanol (C2H5OH) emits about 1.507 kg CO2 per litre",
+     "value": "2.281 kg CO2 per litre, 1.507 kg CO2 per litre",
+     "period": "18 September 2026",
+     "period_end": "2026-09-18",
+     "publisher": "PIB / ministry",
+     "series": "fuel energy-density and combustion-CO2 figures calculated directly for this piece from standard physical constants",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "carbon monoxide (around 50% for two-wheelers, 30% for four-wheelers)",
+     "value": "50% for two-wheelers, 30% for four-wheelers",
+     "period": "June 2021",
+     "period_end": "2021-06-30",
+     "publisher": "NITI Aayog",
+     "series": "Roadmap for Ethanol Blending in India 2020-25",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "roughly 65% lower GHG for sugarcane-based ethanol and roughly 50% lower for maize-based ethanol",
+     "value": "65% lower for sugarcane, 50% lower for maize",
+     "period": "June 2021",
+     "period_end": "2021-06-30",
+     "publisher": "NITI Aayog",
+     "series": "Roadmap for Ethanol Blending in India 2020-25",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "estimating the full blending roadmap could need roughly 30,000 additional sq km under cultivation.",
+     "value": "30,000 additional sq km",
+     "period": "March 2022",
+     "period_end": "2022-03-31",
+     "publisher": "IEEFA",
+     "series": "India's Ethanol Roadmap Off Course",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "finding its carbon intensity only about 22% below petrol in some markets",
+     "value": "22% below petrol",
+     "period": "July 2025",
+     "period_end": "2025-07-31",
+     "publisher": "ICCT",
+     "series": "ICCT life-cycle GHG report",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "65.8% ethanol's energy density as a share of petrol's",
+     "value": "65.8%",
+     "period": null,
+     "period_end": null,
+     "publisher": "Author's calculation (from standard physical constants)",
+     "series": "Energy density ratio (ethanol/petrol)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "6.8% maximum per-litre tailpipe CO2 cut at E20 (stoichiometric)",
+     "value": "6.8%",
+     "period": null,
+     "period_end": null,
+     "publisher": "Author's calculation (from combustion chemistry)",
+     "series": "Tailpipe CO2 reduction per litre burned",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "~0% net per-km CO2 cut at E20 in an uncalibrated engine",
+     "value": "~0%",
+     "period": null,
+     "period_end": null,
+     "publisher": "Author's calculation (from combustion chemistry)",
+     "series": "Net tailpipe CO2 cut per km (uncalibrated)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "2–6% India's own measured E20 mileage loss range (govt. data)",
+     "value": "2–6%",
+     "period": null,
+     "period_end": null,
+     "publisher": "Ministry of Road Transport and Highways (Lok Sabha reply)",
+     "series": "E20 mileage loss range (vehicle categories)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "E20 can reduce fuel efficiency by 2% to 6% ... depending on vehicle category and age",
+     "value": "2–6%",
+     "period": "30 July 2026",
+     "period_end": "2026-07-30",
+     "publisher": "Ministry of Road Transport and Highways (Lok Sabha reply)",
+     "series": "E20 mileage loss (Road Transport Minister Nitin Gadkari)",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "roughly 6–7% mileage loss for four-wheelers designed for E0 and only calibrated for E10",
+     "value": "6–7%",
+     "period": "June 2021",
+     "period_end": "2021-06-30",
+     "publisher": "NITI Aayog Expert Committee (via ARAI/SIAM/IOCL)",
+     "series": "E20 mileage loss (four-wheelers, E0-calibrated)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "3–4% for two-wheelers in the same category",
+     "value": "3–4%",
+     "period": "June 2021",
+     "period_end": "2021-06-30",
+     "publisher": "NITI Aayog Expert Committee (via ARAI/SIAM/IOCL)",
+     "series": "E20 mileage loss (two-wheelers)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "1–2% for four-wheelers actually designed and calibrated for E10→E20",
+     "value": "1–2%",
+     "period": "June 2021",
+     "period_end": "2021-06-30",
+     "publisher": "NITI Aayog Expert Committee (via ARAI/SIAM/IOCL)",
+     "series": "E20 mileage loss (four-wheelers, E10-calibrated)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "SIAM's own independent figure for E20 is 2–4%",
+     "value": "2–4%",
+     "period": null,
+     "period_end": null,
+     "publisher": "Society of Indian Automobile Manufacturers (SIAM)",
+     "series": "E20 mileage loss (SIAM estimate)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "around 50% for two-wheelers, 30% for four-wheelers [CO/HC reduction at E20]",
+     "value": "50% (two-wheelers), 30% (four-wheelers)",
+     "period": null,
+     "period_end": null,
+     "publisher": "NITI Aayog Expert Committee (via PRS India/IEA)",
+     "series": "Tailpipe CO/HC reduction at E20",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "roughly 65% lower GHG for sugarcane-based ethanol",
+     "value": "65%",
+     "period": null,
+     "period_end": null,
+     "publisher": "NITI Aayog Expert Committee (via PRS India/IEA)",
+     "series": "Lifecycle GHG reduction (sugarcane ethanol)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "roughly 50% lower for maize-based ethanol",
+     "value": "50%",
+     "period": null,
+     "period_end": null,
+     "publisher": "NITI Aayog Expert Committee (via PRS India/IEA)",
+     "series": "Lifecycle GHG reduction (maize ethanol)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "roughly 30,000 additional sq km under cultivation [for ethanol blending roadmap]",
+     "value": "30,000 sq km",
+     "period": "2022",
+     "period_end": "2022-12-31",
+     "publisher": "IEEFA (Institute for Energy Economics and Financial Analysis)",
+     "series": "Land requirement for ethanol blending",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "carbon intensity only about 22% below petrol in some markets [food-grain ethanol]",
+     "value": "22%",
+     "period": "July 2025",
+     "period_end": "2025-07-31",
+     "publisher": "ICCT (International Council on Clean Transportation)",
+     "series": "Lifecycle GHG reduction (food-grain ethanol)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "net environmental benefit of rice-based ethanol is 'negligible, if not negative'",
+     "value": "negligible to negative",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "Ideas for India",
+     "series": "Lifecycle environmental impact (rice ethanol)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "E20 petrol mandate is routinely credited with cutting vehicle CO2 emissions by roughly 30%",
+     "value": "~30%",
+     "period": null,
+     "period_end": null,
+     "publisher": null,
+     "series": "Official/press claim (unverified source)",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "lifecycle claims for the programme run as high as 40–65%",
+     "value": "40–65%",
+     "period": null,
+     "period_end": null,
+     "publisher": null,
+     "series": "Official/press claim (unverified source)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "ARAI testing reported underway, unpublished [E25 mileage]",
+     "value": "underway (unpublished)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Automotive Research Association of India (ARAI)",
+     "series": "E25 mileage testing status",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "Energy-content ceiling: 6.8% mileage loss at E20",
+     "value": "6.8%",
+     "period": null,
+     "period_end": null,
+     "publisher": "Author's calculation (from physical constants)",
+     "series": "Energy-ceiling mileage loss (E20)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Energy density, MJ/L: E20 = 29.92",
+     "value": "29.92 MJ/L",
+     "period": null,
+     "period_end": null,
+     "publisher": "Author's calculation (from physical constants)",
+     "series": "Energy density (E20)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "CO2 per litre burned, kg: E20 = 2.126",
+     "value": "2.126 kg CO2/L",
+     "period": null,
+     "period_end": null,
+     "publisher": "Author's calculation (from physical constants)",
+     "series": "Tailpipe CO2 per litre burned (E20)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Per-litre CO2 cut vs E0, %: E20 = 6.8%",
+     "value": "6.8%",
+     "period": null,
+     "period_end": null,
+     "publisher": "Author's calculation (from physical constants)",
+     "series": "Per-litre CO2 cut (E20)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "roughly 10–13% lifecycle GHG cut at E20 (proportional to 20% blend)",
+     "value": "10–13%",
+     "period": null,
+     "period_end": null,
+     "publisher": "Author's estimation (from NITI Aayog lifecycle figures)",
+     "series": "Lifecycle GHG cut (E20)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "E20 mileage loss: 1–7% by vehicle category (NITI/ARAI)",
+     "value": "1–7%",
+     "period": "June 2021",
+     "period_end": "2021-06-30",
+     "publisher": "NITI Aayog Expert Committee (via ARAI)",
+     "series": "E20 mileage loss (vehicle category breakdown)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "E20 mileage loss: 2–6% (Gadkari, Jul 2026)",
+     "value": "2–6%",
+     "period": "30 July 2026",
+     "period_end": "2026-07-30",
+     "publisher": "Ministry of Road Transport and Highways (Lok Sabha reply)",
+     "series": "E20 mileage loss (Gadkari's official figure)",
+     "frequency": "one-off",
+     "headline": true
+    }
+   ]
+  }
+ }
+}

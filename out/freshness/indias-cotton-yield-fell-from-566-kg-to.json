@@ -1,0 +1,660 @@
+{
+ "slug": "indias-cotton-yield-fell-from-566-kg-to",
+ "text_sha1": "5840438f572c4165",
+ "chars": 27054,
+ "checked": "2026-10-23T13:59:32",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "India's cotton yield peaked at 566 kilograms of lint a hectare in 2013-14",
+     "value": "566 kilograms of lint a hectare",
+     "period": "2013-14",
+     "period_end": "2014-03-31",
+     "publisher": "USDA / industry data (via secondary coverage)",
+     "series": "India cotton lint yield national peak",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "secondary estimates put 2024-25 at roughly 436 to under 450 kg/ha",
+     "value": "436 to under 450 kg/ha",
+     "period": "2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "secondary coverage / USDA",
+     "series": "India cotton lint yield estimate",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "~60 lakh bales CAI's projected record cotton imports for 2025-26",
+     "value": "~60 lakh bales",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Cotton Association of India (CAI)",
+     "series": "Cotton imports estimate",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "Estimated surplus cotton-stalk residue available nationally as biogas feedstock, mostly unused",
+     "value": "29.74 MMT",
+     "period": "current",
+     "period_end": null,
+     "publisher": "UNCTAD / academic techno-enviro-economic overview",
+     "series": "Surplus cotton-stalk residue national estimate",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "World average | 800+",
+     "value": "800+ kg/ha",
+     "period": "recent",
+     "period_end": null,
+     "publisher": "USDA / industry data",
+     "series": "World average cotton lint yield",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "China | ~1,993",
+     "value": "~1,993 kg/ha",
+     "period": "recent",
+     "period_end": null,
+     "publisher": "USDA / industry data",
+     "series": "China cotton lint yield",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Brazil | ~1,800–2,000",
+     "value": "~1,800–2,000 kg/ha",
+     "period": "recent",
+     "period_end": null,
+     "publisher": "USDA / industry data",
+     "series": "Brazil cotton lint yield",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "from 317 lakh bales in February 2026",
+     "value": "317 lakh bales",
+     "period": "February 2026",
+     "period_end": "2026-02-28",
+     "publisher": "Cotton Association of India (CAI)",
+     "series": "Crop estimate",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "to 320.5 in March",
+     "value": "320.5 lakh bales",
+     "period": "March 2026",
+     "period_end": "2026-03-31",
+     "publisher": "Cotton Association of India (CAI)",
+     "series": "Crop estimate",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "324 in April",
+     "value": "324 lakh bales",
+     "period": "April 2026",
+     "period_end": "2026-04-30",
+     "publisher": "Cotton Association of India (CAI)",
+     "series": "Crop estimate",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "and 337 lakh bales (170 kg each) by July 2026",
+     "value": "337 lakh bales",
+     "period": "July 2026",
+     "period_end": "2026-07-31",
+     "publisher": "Cotton Association of India (CAI)",
+     "series": "Crop estimate",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "CAI has put 2025-26 cotton imports at a record ~60 lakh bales , revised up from 47 lakh",
+     "value": "47 lakh bales",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Cotton Association of India (CAI)",
+     "series": "Cotton imports estimate",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "roughly 51 lakh bales had already landed by end-June",
+     "value": "51 lakh bales",
+     "period": "end-June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "Cotton Association of India (CAI)",
+     "series": "Cotton imports landed volume",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "The Confederation of Indian Textile Industry raised its consumption estimate to 348 lakh bales over the same period",
+     "value": "348 lakh bales",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Confederation of Indian Textile Industry (CITI)",
+     "series": "Cotton consumption estimate",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "CAI trimmed its export estimate to 15 lakh bales from 18 lakh the year before",
+     "value": "15 lakh bales",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Cotton Association of India (CAI)",
+     "series": "Cotton export estimate",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Gujarat alone lost an estimated 1.41 million bales in 2015, worth around $817 million",
+     "value": "1.41 million bales",
+     "period": "2015",
+     "period_end": "2015-12-31",
+     "publisher": "Peer-reviewed and trade literature",
+     "series": "Pink bollworm crop loss estimate (Gujarat)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Gujarat alone lost an estimated 1.41 million bales in 2015, worth around $817 million",
+     "value": "$817 million",
+     "period": "2015",
+     "period_end": "2015-12-31",
+     "publisher": "Peer-reviewed and trade literature",
+     "series": "Pink bollworm financial loss estimate (Gujarat)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "nationally, since 2017-18, the pest's return is estimated to cost about 13.2 lakh bales, or roughly ₹3,900 crore, a year",
+     "value": "13.2 lakh bales",
+     "period": "annual since 2017-18",
+     "period_end": "2026-03-31",
+     "publisher": "Peer-reviewed and trade literature",
+     "series": "Pink bollworm annual national crop loss estimate",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "nationally, since 2017-18, the pest's return is estimated to cost about 13.2 lakh bales, or roughly ₹3,900 crore, a year",
+     "value": "₹3,900 crore",
+     "period": "annual since 2017-18",
+     "period_end": "2026-03-31",
+     "publisher": "Peer-reviewed and trade literature",
+     "series": "Pink bollworm annual national financial loss estimate",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "raw cotton export earnings falling from close to $9 billion in 2013 to about $800 million in 2020",
+     "value": "$9 billion",
+     "period": "2013",
+     "period_end": "2013-12-31",
+     "publisher": "Review paper",
+     "series": "Raw cotton export earnings",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "raw cotton export earnings falling from close to $9 billion in 2013 to about $800 million in 2020",
+     "value": "$800 million",
+     "period": "2020",
+     "period_end": "2020-12-31",
+     "publisher": "Review paper",
+     "series": "Raw cotton export earnings",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Current Vidarbha yields run around 7–8 quintals of seed cotton (kapas) a hectare — roughly 700–800 kg",
+     "value": "7–8 quintals/ha",
+     "period": "current",
+     "period_end": null,
+     "publisher": "IndiaSpend",
+     "series": "Vidarbha seed cotton yield",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "state series showing Maharashtra averaging 285 kg/ha of lint across 2001–2025, with a low of 100 in 2001 and a high of 475 in 2017",
+     "value": "285 kg/ha",
+     "period": "2001-2025",
+     "period_end": "2025-03-31",
+     "publisher": "CEIC Data",
+     "series": "Maharashtra average lint yield",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "agro-climatic zone surveys put it at 62.6% of soils in the Malwa Plateau and 60.0% in the Nimar Valley",
+     "value": "62.6%",
+     "period": "current",
+     "period_end": null,
+     "publisher": "Agro-climatic zone micronutrient survey",
+     "series": "Zinc deficiency (Malwa Plateau)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "agro-climatic zone surveys put it at 62.6% of soils in the Malwa Plateau and 60.0% in the Nimar Valley",
+     "value": "60.0%",
+     "period": "current",
+     "period_end": null,
+     "publisher": "Agro-climatic zone micronutrient survey",
+     "series": "Zinc deficiency (Nimar Valley)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "cotton takes about 89.5 kg of nitrogen a hectare nationally",
+     "value": "89.5 kg/ha",
+     "period": "2003-04",
+     "period_end": "2004-03-31",
+     "publisher": "FAO country study",
+     "series": "Crop-by-crop fertilizer use (nitrogen)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "government and NITI Aayog analysis puts the potential at an additional 1.4 million tonnes of edible oil nationally",
+     "value": "1.4 million tonnes",
+     "period": "current",
+     "period_end": null,
+     "publisher": "NITI Aayog / PIB / RIS",
+     "series": "Cottonseed edible oil potential",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "cutting the country's edible-oil import-dependence gap by an estimated 9.7 percentage points",
+     "value": "9.7 percentage points",
+     "period": "current",
+     "period_end": null,
+     "publisher": "NITI Aayog / PIB / RIS",
+     "series": "Edible-oil import-dependence gap reduction",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "cottonseed oilcake already trades actively on NCDEX at around ₹2,900 a quintal (roughly ₹29,000 a tonne)",
+     "value": "₹2,900 a quintal",
+     "period": "current",
+     "period_end": null,
+     "publisher": "NCDEX / Feedipedia / Dairy Knowledge Portal",
+     "series": "Cottonseed oilcake commodity price",
+     "frequency": "daily",
+     "headline": false
+    },
+    {
+     "quote": "India's estimated surplus cotton-stalk residue nationally is 29.74 million tonnes , out of roughly 234 million tonnes of total surplus agricultural residue",
+     "value": "234 million tonnes",
+     "period": "current",
+     "period_end": null,
+     "publisher": "ScienceDirect / UNCTAD",
+     "series": "Total surplus agricultural residue national estimate",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Published CBG yields run 50–55 kg of gas per tonne of feedstock",
+     "value": "50–55 kg",
+     "period": "current",
+     "period_end": null,
+     "publisher": "EAI / PelletRates / CBG plant guides",
+     "series": "Compressed Biogas yield per tonne of feedstock",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "selling at roughly ₹50–75 a kilogram",
+     "value": "₹50–75 a kilogram",
+     "period": "current",
+     "period_end": null,
+     "publisher": "EAI / PelletRates / CBG plant guides",
+     "series": "Compressed Biogas market price",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "Setting up even a small CBG plant costs ₹300–500 lakh",
+     "value": "₹300–500 lakh",
+     "period": "current",
+     "period_end": null,
+     "publisher": "Industry explainer sources",
+     "series": "Small/medium CBG plant capex",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "soil surveys find roughly 1.5% of the total geographical area across the command areas of the Godavari, Ghod, Purna, Manar, Mula, Pravara, Nira and Krishna river basins ... now classified as moderately to strongly saline or sodic",
+     "value": "1.5%",
+     "period": "current",
+     "period_end": null,
+     "publisher": "Maharashtra soil-resource survey",
+     "series": "Basin command area saline/sodic soil percentage",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "India's cotton yield peaked at 566 kilograms of lint a hectare in 2013-14 and has since fallen back under 450",
+     "value": "566 kg/ha (2013-14 peak), <450 kg/ha (current)",
+     "period": "2013-14, as of 2024-25",
+     "period_end": "2014-03-31",
+     "publisher": "secondary coverage (Drishti IAS, Shankar IAS Parliament, IAS Express) summarising USDA/industry data",
+     "series": "India's cotton lint yield (secondary estimates)",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "India has the lowest lint yield of the world's top five cotton producers — a gap that has widened",
+     "value": "India: ~436–450 kg/ha; World average: >800 kg/ha; China: ~1,993 kg/ha; Brazil: ~1,800–2,000 kg/ha",
+     "period": "2013-14 (India peak), 2024-25 (India estimate)",
+     "period_end": "2025-03-31",
+     "publisher": "secondary coverage (Drishti IAS, Shankar IAS Parliament, IAS Express) summarising USDA/industry data",
+     "series": "Global cotton lint yield comparison",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "CAI has revised its 2025-26 crop estimate upward through the season — from 317 lakh bales in February 2026, to 320.5 in March, 324 in April, and 337 lakh bales by July 2026",
+     "value": "317 lakh bales (Feb 2026), 320.5 lakh (Mar 2026), 324 lakh (Apr 2026), 337 lakh (Jul 2026)",
+     "period": "2025-26 (revisions: Feb–Jul 2026)",
+     "period_end": "2026-07-31",
+     "publisher": "Cotton Association of India (CAI) via Fibre2Fashion/Apparel Resources",
+     "series": "CAI cotton crop estimate revisions",
+     "frequency": "monthly (seasonal revisions)",
+     "headline": false
+    },
+    {
+     "quote": "CAI has put 2025-26 cotton imports at a record ~60 lakh bales, revised up from 47 lakh",
+     "value": "60 lakh bales (record, 2025-26), 47 lakh bales (previous estimate)",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Cotton Association of India (CAI) via Fibre2Fashion/Apparel Resources",
+     "series": "India cotton imports",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "roughly 51 lakh bales had already landed by end-June",
+     "value": "51 lakh bales",
+     "period": "Apr–Jun 2026",
+     "period_end": "2026-06-30",
+     "publisher": "Cotton Association of India (CAI) via Fibre2Fashion/Apparel Resources",
+     "series": "India cotton imports (seasonal progress)",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "Gujarat alone lost an estimated 1.41 million bales in 2015, worth around $817 million, largely to resistant pink bollworm",
+     "value": "1.41 million bales (2015), $817 million",
+     "period": "2015",
+     "period_end": "2015-12-31",
+     "publisher": "peer-reviewed/trade literature (ScienceDirect, PMC, journals.sagepub.com)",
+     "series": "Pink bollworm resistance impact on Gujarat cotton",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "nationally, since 2017-18, the pest's return is estimated to cost about 13.2 lakh bales, or roughly ₹3,900 crore, a year",
+     "value": "13.2 lakh bales/year, ₹3,900 crore/year",
+     "period": "2017-18 onwards",
+     "period_end": null,
+     "publisher": "peer-reviewed/trade literature (ScienceDirect, PMC, journals.sagepub.com)",
+     "series": "National pink bollworm resistance impact",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Maharashtra (Vidarbha). About 97% of the state's cotton is rain-fed. Current Vidarbha yields run around 7–8 quintals of seed cotton a hectare",
+     "value": "7–8 quintals/ha (seed cotton)",
+     "period": "current (2026)",
+     "period_end": null,
+     "publisher": "IndiaSpend",
+     "series": "Vidarbha seed cotton yield",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Maharashtra averaging 285 kg/ha of lint across 2001–2025, with a low of 100 in 2001 and a high of 475 in 2017",
+     "value": "285 kg/ha (avg, 2001–2025), 100 kg/ha (low, 2001), 475 kg/ha (high, 2017)",
+     "period": "2001–2025",
+     "period_end": "2025-03-31",
+     "publisher": "CEIC Data",
+     "series": "Maharashtra cotton lint yield (state series)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Madhya Pradesh's Vertisol nutrient profile and the 62.6%/60.0% zinc-deficiency figures for the Malwa Plateau and Nimar Valley",
+     "value": "62.6% (Malwa Plateau), 60.0% (Nimar Valley)",
+     "period": "current (agro-climatic zone surveys)",
+     "period_end": null,
+     "publisher": "agro-climatic zone micronutrient survey (plantarchives.org/ResearchGate)",
+     "series": "Madhya Pradesh soil zinc deficiency",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "cotton takes about 89.5 kg of nitrogen a hectare nationally",
+     "value": "89.5 kg N/ha",
+     "period": "2003-04 (FAO country study)",
+     "period_end": "2004-12-31",
+     "publisher": "FAO country study (via blog's earlier reporting)",
+     "series": "India cotton nitrogen fertilizer use",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "cottonseed oilcake already trades actively on NCDEX at around ₹2,900 a quintal",
+     "value": "₹2,900/quintal (₹29,000/tonne)",
+     "period": "current (as of 2026)",
+     "period_end": null,
+     "publisher": "Feedipedia/Dairy Knowledge Portal",
+     "series": "Cottonseed cake market price",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "India's estimated surplus cotton-stalk residue nationally is 29.74 million tonnes",
+     "value": "29.74 million tonnes",
+     "period": "current (national surplus)",
+     "period_end": null,
+     "publisher": "UNCTAD reporting on cotton by-products",
+     "series": "India cotton stalk surplus",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "a typical ginning split leaves roughly 60–65% of the kapas by weight as cottonseed",
+     "value": "60–65%",
+     "period": "general ginning-industry ratio",
+     "period_end": null,
+     "publisher": "ginning-industry standard",
+     "series": "Cottonseed share of ginned kapas",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India's own edible-oil strategy explicitly counts cottonseed as a secondary-source opportunity: potential at an additional 1.4 million tonnes of edible oil nationally",
+     "value": "1.4 million tonnes",
+     "period": "potential (national)",
+     "period_end": null,
+     "publisher": "NITI Aayog/government edible-oil self-sufficiency strategy (PIB, RIS)",
+     "series": "Cottonseed edible-oil potential",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Berar (now Vidarbha) had a favourable combination... India's share of Britain's raw cotton imports jumped from roughly 12% before 1861 to about 90% within the first year of the American Civil War",
+     "value": "12% (pre-1861), 90% (post-1861)",
+     "period": "1861–1862 (American Civil War impact)",
+     "period_end": "1862-12-31",
+     "publisher": "University of Manchester's Cottonopolis research project",
+     "series": "India's share of Britain's raw cotton imports (colonial era)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Berar alone was reportedly exporting as much raw cotton to Manchester as the whole of Egypt by 1867",
+     "value": "Berar's exports matched Egypt's (1867)",
+     "period": "1867",
+     "period_end": "1867-12-31",
+     "publisher": "University of Manchester's Cottonopolis research project",
+     "series": "Berar cotton export volume (colonial era)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "roughly 1.5% of the total geographical area across the Godavari, Ghod, Purna, Manar, Mula, Pravara, Nira and Krishna river basins... now classified as moderately to strongly saline or sodic",
+     "value": "1.5%",
+     "period": "current (legacy of colonial irrigation)",
+     "period_end": null,
+     "publisher": "Maharashtra soil-resource survey (via ResearchGate/academic aggregators)",
+     "series": "Saline/sodic soil in Deccan basins",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "CBG yield (50–55 kg of gas per tonne of feedstock)",
+     "value": "50–55 kg CBG/tonne feedstock",
+     "period": "published industry estimates",
+     "period_end": null,
+     "publisher": "industry explainer sources (EAI, PelletRates)",
+     "series": "Compressed biogas yield from cotton stalk",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "cotton stalk can represent 80% or more of the plant's total above-ground mass",
+     "value": "80%+",
+     "period": "general botanical estimate",
+     "period_end": null,
+     "publisher": "UNCTAD/ScienceDirect",
+     "series": "Cotton stalk mass share",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "one report citing a decline as steep as 18% as farmers shift toward soybean and other pulses",
+     "value": "18%",
+     "period": "current (single-source estimate)",
+     "period_end": null,
+     "publisher": "secondary estimate (not confirmed official)",
+     "series": "Madhya Pradesh cotton area decline",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India's total surplus agricultural residue is roughly 234 million tonnes",
+     "value": "234 million tonnes",
+     "period": "current (national surplus)",
+     "period_end": null,
+     "publisher": "UNCTAD reporting",
+     "series": "India surplus agricultural residue",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "cottonseed oil. A government and NITI Aayog analysis puts the potential at an additional 1.4 million tonnes of edible oil nationally, cutting the country's edible-oil import-dependence gap by an estimated 9.7 percentage points",
+     "value": "1.4 million tonnes, 9.7 percentage points",
+     "period": "potential (national)",
+     "period_end": null,
+     "publisher": "NITI Aayog/government edible-oil strategy (PIB, RIS)",
+     "series": "Cottonseed oil potential impact",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "setting up even a small CBG plant costs ₹300–500 lakh",
+     "value": "₹300–500 lakh",
+     "period": "current (industry estimate)",
+     "period_end": null,
+     "publisher": "CBG-plant setup guides",
+     "series": "Small CBG plant capital expenditure",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "CBG sells at roughly ₹50–75 a kilogram",
+     "value": "₹50–75/kg",
+     "period": "current (market price)",
+     "period_end": null,
+     "publisher": "industry explainer sources",
+     "series": "Compressed biogas market price",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "The Confederation of Indian Textile Industry raised its consumption estimate to 348 lakh bales over the same period",
+     "value": "348 lakh bales",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Confederation of Indian Textile Industry (CITI) via Fibre2Fashion/Apparel Resources",
+     "series": "India cotton consumption estimate",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "CAI trimmed its export estimate to 15 lakh bales from 18 lakh the year before",
+     "value": "15 lakh bales (2025-26), 18 lakh bales (previous year)",
+     "period": "2025-26 vs previous year",
+     "period_end": "2026-03-31",
+     "publisher": "Cotton Association of India (CAI) via Fibre2Fashion/Apparel Resources",
+     "series": "India cotton export estimate",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "cottonseed oilcake already trades actively on NCDEX at around ₹2,900 a quintal (roughly ₹29,000 a tonne)",
+     "value": "₹2,900/quintal (₹29,000/tonne)",
+     "period": "current (as of 2026)",
+     "period_end": null,
+     "publisher": "Feedipedia/Dairy Knowledge Portal",
+     "series": "Cottonseed cake price (NCDEX)",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "cotton takes about 89.5 kg of nitrogen a hectare nationally — the third-highest of any major crop",
+     "value": "89.5 kg N/ha",
+     "period": "2003-04 (FAO country study)",
+     "period_end": "2004-12-31",
+     "publisher": "FAO country study (via blog's earlier reporting)",
+     "series": "India cotton nitrogen fertilizer use",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "cotton area itself has also been falling here, with one report citing a decline as steep as 18% as farmers shift toward soybean and other pulses",
+     "value": "18%",
+     "period": "current (single-source estimate)",
+     "period_end": null,
+     "publisher": "secondary estimate (not confirmed official)",
+     "series": "Madhya Pradesh cotton area decline",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

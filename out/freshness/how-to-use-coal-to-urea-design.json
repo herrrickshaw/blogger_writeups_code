@@ -1,0 +1,300 @@
+{
+ "slug": "how-to-use-coal-to-urea-design",
+ "text_sha1": "9c4069764804060c",
+ "chars": 6722,
+ "checked": "2026-10-23T12:07:04",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "37 tests passed in the demo 1.10 mtpa urea from the worked example 1.27 mtpa Talcher Fertilizers published urea -13.6% difference from Talcher",
+     "value": "37",
+     "period": "18 October 2026",
+     "period_end": "2026-10-18",
+     "publisher": "GitHub repo",
+     "series": "test suite",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "37 tests passed in the demo 1.10 mtpa urea from the worked example 1.27 mtpa Talcher Fertilizers published urea -13.6% difference from Talcher",
+     "value": "1.10 mtpa",
+     "period": "18 October 2026",
+     "period_end": "2026-10-18",
+     "publisher": "GitHub repo",
+     "series": "worked example urea output",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "37 tests passed in the demo 1.10 mtpa urea from the worked example 1.27 mtpa Talcher Fertilizers published urea -13.6% difference from Talcher",
+     "value": "1.27 mtpa",
+     "period": "18 October 2026",
+     "period_end": "2026-10-18",
+     "publisher": "Talcher Fertilizers",
+     "series": "published urea output",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "37 tests passed in the demo 1.10 mtpa urea from the worked example 1.27 mtpa Talcher Fertilizers published urea -13.6% difference from Talcher",
+     "value": "-13.6%",
+     "period": "18 October 2026",
+     "period_end": "2026-10-18",
+     "publisher": "GitHub repo",
+     "series": "difference from Talcher",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "The demo uses 145 kg/s of Indian high-ash coal",
+     "value": "145 kg/s",
+     "period": "18 October 2026",
+     "period_end": "2026-10-18",
+     "publisher": "GitHub repo",
+     "series": "coal feed rate",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "37 passed in about 3.5 seconds in the demo.",
+     "value": "3.5 seconds",
+     "period": "18 October 2026",
+     "period_end": "2026-10-18",
+     "publisher": "GitHub repo",
+     "series": "test execution time",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "A gasifier giving 8,584 mol/s of syngas at 64.1% cold gas efficiency",
+     "value": "8,584 mol/s",
+     "period": "18 October 2026",
+     "period_end": "2026-10-18",
+     "publisher": "GitHub repo",
+     "series": "syngas molar flow",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "A gasifier giving 8,584 mol/s of syngas at 64.1% cold gas efficiency",
+     "value": "64.1%",
+     "period": "18 October 2026",
+     "period_end": "2026-10-18",
+     "publisher": "GitHub repo",
+     "series": "cold gas efficiency",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "shift conversion of 79.7% (high temperature) and 85.9% cumulative",
+     "value": "79.7%",
+     "period": "18 October 2026",
+     "period_end": "2026-10-18",
+     "publisher": "GitHub repo",
+     "series": "high temperature shift conversion",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "shift conversion of 79.7% (high temperature) and 85.9% cumulative",
+     "value": "85.9%",
+     "period": "18 October 2026",
+     "period_end": "2026-10-18",
+     "publisher": "GitHub repo",
+     "series": "cumulative shift conversion",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "190.2 kg/s of CO2 captured",
+     "value": "190.2 kg/s",
+     "period": "18 October 2026",
+     "period_end": "2026-10-18",
+     "publisher": "GitHub repo",
+     "series": "captured CO2 mass flow",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "59.1 kg/s of ammonia",
+     "value": "59.1 kg/s",
+     "period": "18 October 2026",
+     "period_end": "2026-10-18",
+     "publisher": "GitHub repo",
+     "series": "ammonia production rate",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "34.8 kg/s of urea (1.10 mtpa)",
+     "value": "34.8 kg/s",
+     "period": "18 October 2026",
+     "period_end": "2026-10-18",
+     "publisher": "GitHub repo",
+     "series": "urea mass flow",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "3,330 mol/s of captured CO2 (77%) is surplus after urea.",
+     "value": "3,330 mol/s",
+     "period": "18 October 2026",
+     "period_end": "2026-10-18",
+     "publisher": "GitHub repo",
+     "series": "surplus CO2 molar flow",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "3,330 mol/s of captured CO2 (77%) is surplus after urea.",
+     "value": "77%",
+     "period": "18 October 2026",
+     "period_end": "2026-10-18",
+     "publisher": "GitHub repo",
+     "series": "surplus CO2 percentage",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "37 tests passed in the demo 1.10 mtpa urea from the worked example 1.27 mtpa Talcher Fertilizers published urea -13.6% difference from Talcher",
+     "value": "1.10 million tonnes per annum (mtpa)",
+     "period": null,
+     "period_end": null,
+     "publisher": "coal-to-urea-design-opensource (demo output)",
+     "series": "worked example simulation output",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "A gasifier giving 8,584 mol/s of syngas at 64.1% cold gas efficiency, ... 34.8 kg/s of urea (1.10 mtpa)",
+     "value": "8,584 moles per second (mol/s)",
+     "period": null,
+     "period_end": null,
+     "publisher": "coal-to-urea-design-opensource (demo output)",
+     "series": "syngas production simulation",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "A gasifier giving 8,584 mol/s of syngas at 64.1% cold gas efficiency, ... 34.8 kg/s of urea (1.10 mtpa)",
+     "value": "64.1%",
+     "period": null,
+     "period_end": null,
+     "publisher": "coal-to-urea-design-opensource (demo output)",
+     "series": "cold gas efficiency simulation",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "A gasifier giving 8,584 mol/s of syngas at 64.1% cold gas efficiency, shift conversion of 79.7% (high temperature) and 85.9% cumulative, ...",
+     "value": "79.7%",
+     "period": null,
+     "period_end": null,
+     "publisher": "coal-to-urea-design-opensource (demo output)",
+     "series": "water-gas shift conversion (high temperature)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "A gasifier giving 8,584 mol/s of syngas at 64.1% cold gas efficiency, shift conversion of 79.7% (high temperature) and 85.9% cumulative, ...",
+     "value": "85.9%",
+     "period": null,
+     "period_end": null,
+     "publisher": "coal-to-urea-design-opensource (demo output)",
+     "series": "cumulative water-gas shift conversion",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "A gasifier giving 8,584 mol/s of syngas at 64.1% cold gas efficiency, ... 190.2 kg/s of CO2 captured, ...",
+     "value": "190.2 kilograms per second (kg/s)",
+     "period": null,
+     "period_end": null,
+     "publisher": "coal-to-urea-design-opensource (demo output)",
+     "series": "CO2 capture simulation",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "A gasifier giving 8,584 mol/s of syngas at 64.1% cold gas efficiency, ... 59.1 kg/s of ammonia, and 34.8 kg/s of urea (1.10 mtpa)",
+     "value": "59.1 kilograms per second (kg/s)",
+     "period": null,
+     "period_end": null,
+     "publisher": "coal-to-urea-design-opensource (demo output)",
+     "series": "ammonia production simulation",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "A gasifier giving 8,584 mol/s of syngas at 64.1% cold gas efficiency, ... 34.8 kg/s of urea (1.10 mtpa)",
+     "value": "34.8 kilograms per second (kg/s)",
+     "period": null,
+     "period_end": null,
+     "publisher": "coal-to-urea-design-opensource (demo output)",
+     "series": "urea production simulation",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "A gasifier giving 8,584 mol/s of syngas at 64.1% cold gas efficiency, ... 34.8 kg/s of urea (1.10 mtpa). It ends with the comparison: 1.10 vs Talcher's 1.27 mtpa, a difference of -13.6%.",
+     "value": "1.27 million tonnes per annum (mtpa)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Talcher Fertilizers Limited (published figure)",
+     "series": "actual urea production",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "The demo uses 145 kg/s of Indian high-ash coal",
+     "value": "145 kilograms per second (kg/s)",
+     "period": null,
+     "period_end": null,
+     "publisher": "coal-to-urea-design-opensource (demo input)",
+     "series": "coal feed rate simulation",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "3,330 mol/s of captured CO2 (77%) is surplus after urea is made",
+     "value": "3,330 moles per second (mol/s)",
+     "period": null,
+     "period_end": null,
+     "publisher": "coal-to-urea-design-opensource (demo output)",
+     "series": "surplus CO2 simulation",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "3,330 mol/s of captured CO2 (77%) is surplus after urea is made",
+     "value": "77%",
+     "period": null,
+     "period_end": null,
+     "publisher": "coal-to-urea-design-opensource (demo output)",
+     "series": "surplus CO2 percentage",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "37 passed in about 3.5 seconds in the demo",
+     "value": "3.5 seconds",
+     "period": null,
+     "period_end": null,
+     "publisher": "coal-to-urea-design-opensource (demo timing)",
+     "series": "test execution time",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

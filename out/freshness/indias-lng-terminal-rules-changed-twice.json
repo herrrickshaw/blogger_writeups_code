@@ -1,0 +1,340 @@
+{
+ "slug": "indias-lng-terminal-rules-changed-twice",
+ "text_sha1": "7da3e224745f3abf",
+ "chars": 20097,
+ "checked": "2026-10-23T14:18:03",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "planned for around 7.2 million tonnes a year of capacity",
+     "value": "~7.2 million tonnes/yr",
+     "period": "as reported in this piece",
+     "period_end": null,
+     "publisher": "Crown LNG / KGLNG",
+     "series": "Kakinada GBS Terminal Planned Capacity",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "~11 km",
+     "value": "~11 km",
+     "period": "as reported in this piece",
+     "period_end": null,
+     "publisher": "Crown LNG / KGLNG",
+     "series": "Kakinada GBS Terminal Distance Offshore",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "last amended on 23 July 2025",
+     "value": "23 July 2025",
+     "period": "23 July 2025",
+     "period_end": "2025-07-23",
+     "publisher": "PNGRB",
+     "series": "Technical Standards and Specifications including Safety Standards (T4S) for LNG (INFRA/T4S/LNG/05)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "notified the Registration for Establishing and Operating Liquefied Natural Gas (LNG) Terminals) Regulations, 2025 on 8 May 2025",
+     "value": "8 May 2025",
+     "period": "8 May 2025",
+     "period_end": "2025-05-08",
+     "publisher": "PNGRB",
+     "series": "Registration for Establishing and Operating Liquefied Natural Gas (LNG) Terminals Regulations",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "The LNG-specific T4S regulation (document code INFRA/T4S/LNG/05, covering terminal layout, seismic design, jetties, unloading/loading lines and re-gasification) was last amended on 23 July 2025.",
+     "value": "23 July 2025",
+     "period": "23 July 2025",
+     "period_end": "2025-07-23",
+     "publisher": "PNGRB",
+     "series": "Technical Standards and Specifications (T4S) for LNG Terminals (INFRA/T4S/LNG/05)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "PNGRB notified the Registration for Establishing and Operating Liquefied Natural Gas (LNG) Terminals) Regulations, 2025 on 8 May 2025, effective the next day.",
+     "value": "8 May 2025",
+     "period": "8 May 2025",
+     "period_end": "2025-05-09",
+     "publisher": "PNGRB",
+     "series": "Registration for Establishing and Operating LNG Terminals Regulations, 2025",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "Crown LNG's Kakinada terminal... is planned for around 7.2 million tonnes a year of capacity — reported as India's first GBS-based LNG import terminal.",
+     "value": "7.2 million tonnes/year",
+     "period": null,
+     "period_end": null,
+     "publisher": "Crown LNG / KGLNG, Offshore Magazine, PNGRB",
+     "series": "Planned LNG Terminal Capacity (Kakinada)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Econnect Energy's Universal Transfer System/IQuay... was first deployed in 2017.",
+     "value": "2017",
+     "period": "2017",
+     "period_end": "2017-12-31",
+     "publisher": "Econnect Energy, LNG Industry, Rigzone",
+     "series": "First Deployment of Universal Transfer System",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Recent named deployments include units delivered to New Fortress Energy (2024), an offshore gas-import project at Wilhelmshaven II in Germany (2025), Puerto Bahía near Cartagena, Colombia, and a Shell-backed project in the Bahamas announced in August 2026.",
+     "value": "2024, 2025, August 2026",
+     "period": "2024, 2025, August 2026",
+     "period_end": "2025-12-31, 2026-08-31",
+     "publisher": "Econnect Energy, LNG Industry, Rigzone",
+     "series": "Deployments of Universal Transfer System",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Stena Power & LNG Solutions' Jettyless Floating Terminal design... has received Approval in Principle from Bureau Veritas and DNV for a Vietnamese project.",
+     "value": "Approval in Principle (AiP)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Bureau Veritas, DNV, Offshore Energy",
+     "series": "Jettyless Floating Terminal (JFT) Approval in Principle",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "A Gravity-Based Structure is a large concrete (sometimes steel) platform... sits roughly 11 kilometres offshore Andhra Pradesh.",
+     "value": "~11 km",
+     "period": null,
+     "period_end": null,
+     "publisher": "Wikipedia, Crown LNG, Offshore Magazine",
+     "series": "Kakinada GBS Terminal Offshore Distance",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The LNG-specific T4S regulation... was last amended on 23 July 2025, following an earlier amendment from February 2023.",
+     "value": "February 2023",
+     "period": "February 2023",
+     "period_end": "2023-02-28",
+     "publisher": "PNGRB",
+     "series": "Technical Standards and Specifications (T4S) for LNG Terminals (INFRA/T4S/LNG/05)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Econnect Energy's Universal Transfer System/IQuay... deployed for New Fortress Energy in 2024, Wilhelmshaven II in Germany in 2025, and a Shell-backed project in the Bahamas announced August 2026.",
+     "value": "2024 (New Fortress Energy), 2025 (Wilhelmshaven II)",
+     "period": "2024, 2025",
+     "period_end": "2024-12-31, 2025-12-31",
+     "publisher": "Econnect Energy, LNG Industry, Rigzone",
+     "series": "Deployments of Universal Transfer System",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Stena Power & LNG Solutions' Jettyless Floating Terminal design... developed for Delta Offshore Energy's Vietnam LNG-to-power project.",
+     "value": "Vietnam LNG-to-power project",
+     "period": null,
+     "period_end": null,
+     "publisher": "Stena Power & LNG Solutions, Offshore Energy",
+     "series": "Jettyless Floating Terminal Project",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The LNG-specific T4S regulation... dated 23 July 2025, following an earlier amendment from February 2023.",
+     "value": "INFRA/T4S/LNG/05",
+     "period": null,
+     "period_end": null,
+     "publisher": "PNGRB",
+     "series": "Document Code for LNG T4S Regulation",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Crown LNG's Kakinada terminal... is being built on a Gravity-Based Structure (GBS) — a large concrete or steel platform...",
+     "value": "India's first GBS-based LNG import terminal",
+     "period": null,
+     "period_end": null,
+     "publisher": "Crown LNG, Offshore Magazine, PNGRB",
+     "series": "Kakinada Terminal Classification",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Econnect Energy's Universal Transfer System/IQuay... the company describes as the world's first jettyless floating LNG transfer system when first deployed in 2017.",
+     "value": "world's first jettyless floating LNG transfer system",
+     "period": "2017",
+     "period_end": "2017-12-31",
+     "publisher": "Econnect Energy, LNG Industry, Rigzone",
+     "series": "First Jettyless Floating LNG Transfer System",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Stena Power & LNG Solutions' Jettyless Floating Terminal design... has Approval in Principle from Bureau Veritas and DNV for a Vietnamese project.",
+     "value": "Approval in Principle (AiP)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Bureau Veritas, DNV",
+     "series": "Jettyless Floating Terminal (JFT) Approval in Principle",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The LNG-specific T4S regulation... requires a Quantitative Risk Analysis (QRA), with Board approval, wherever a terminal's design departs from the baseline standard.",
+     "value": "Quantitative Risk Analysis (QRA)",
+     "period": null,
+     "period_end": null,
+     "publisher": "PNGRB",
+     "series": "QRA Provision in T4S Regulation",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The LNG-specific T4S regulation... was last amended on 23 July 2025.",
+     "value": "Section D.4 of PNGRB's regulation index",
+     "period": null,
+     "period_end": null,
+     "publisher": "PNGRB",
+     "series": "LNG-Specific T4S Regulation Section",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The LNG-specific T4S regulation... covers terminal layout, seismic design, jetty specifications, unloading and loading line design, and the re-gasification equipment.",
+     "value": "layout, seismic design, jetty specifications, unloading/loading lines, re-gasification equipment",
+     "period": null,
+     "period_end": null,
+     "publisher": "PNGRB",
+     "series": "Scope of T4S Regulation for LNG Terminals",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The LNG Terminal Registration Regulations, 2025... made prior registration mandatory for new or expanding LNG import terminals... and dropped an earlier requirement that terminals reserve import capacity for third-party shippers on a common-carrier basis.",
+     "value": "dropped third-party-access/common-carrier capacity-reservation rule",
+     "period": "8 May 2025",
+     "period_end": "2025-05-09",
+     "publisher": "PNGRB, Business Standard, Deccan Herald, Legalitysimplified",
+     "series": "Registration for Establishing and Operating LNG Terminals Regulations, 2025",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "The LNG Terminal Registration Regulations, 2025... made prior registration mandatory for new or expanding LNG import terminals.",
+     "value": "mandatory prior registration",
+     "period": "8 May 2025",
+     "period_end": "2025-05-09",
+     "publisher": "PNGRB, Business Standard, Deccan Herald, Legalitysimplified",
+     "series": "Registration Requirement for LNG Terminals",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "Crown LNG's Kakinada terminal... is planned for around 7.2 million tonnes a year of capacity.",
+     "value": "7.2 million tonnes/year",
+     "period": null,
+     "period_end": null,
+     "publisher": "Crown LNG, Offshore Magazine",
+     "series": "Planned Capacity of Kakinada Terminal",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Econnect Energy's Universal Transfer System/IQuay... deployed for New Fortress Energy (2024), Wilhelmshaven II in Germany (2025), Puerto Bahía near Cartagena, Colombia, and a Shell-backed project in the Bahamas announced in August 2026.",
+     "value": "August 2026 (Bahamas)",
+     "period": "August 2026",
+     "period_end": "2026-08-31",
+     "publisher": "Econnect Energy, LNG Industry, Rigzone",
+     "series": "Shell-Backed Project Deployment",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Stena Power & LNG Solutions' Jettyless Floating Terminal design... has Approval in Principle from Bureau Veritas and DNV for a Vietnamese project.",
+     "value": "Vietnamese project",
+     "period": null,
+     "period_end": null,
+     "publisher": "Bureau Veritas, DNV, Offshore Energy",
+     "series": "Jettyless Floating Terminal Project Location",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The LNG-specific T4S regulation... dated 23 July 2025, following an earlier amendment from February 2023.",
+     "value": "INFRA/T4S/LNG/05",
+     "period": "23 July 2025",
+     "period_end": "2025-07-23",
+     "publisher": "PNGRB",
+     "series": "Document Code for LNG T4S Regulation Amendment",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The LNG Terminal Registration Regulations, 2025... effective the next day [after 8 May 2025].",
+     "value": "effective 9 May 2025",
+     "period": "9 May 2025",
+     "period_end": "2025-05-09",
+     "publisher": "PNGRB",
+     "series": "Effective Date of LNG Terminal Registration Regulations, 2025",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The LNG Terminal Registration Regulations, 2025... made prior registration mandatory for new or expanding LNG import terminals.",
+     "value": "new or expanding LNG import terminals",
+     "period": "8 May 2025",
+     "period_end": "2025-05-09",
+     "publisher": "PNGRB, Business Standard, Deccan Herald, Legalitysimplified",
+     "series": "Scope of Registration Requirement",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "Crown LNG's Kakinada terminal... is being built on a Gravity-Based Structure (GBS) — a large concrete or steel platform...",
+     "value": "India's first, and possibly the world's second, GBS LNG import terminal",
+     "period": null,
+     "period_end": null,
+     "publisher": "Crown LNG, Offshore Magazine, PNGRB",
+     "series": "Kakinada Terminal Global Classification",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Stena Power & LNG Solutions' Jettyless Floating Terminal design... alongside related self-installing regasification and power-platform products.",
+     "value": "self-installing regasification and power-platform products",
+     "period": null,
+     "period_end": null,
+     "publisher": "Stena Power & LNG Solutions, Offshore Energy",
+     "series": "Stena Power & LNG Solutions Additional Products",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Econnect Energy's Universal Transfer System/IQuay... deployed for New Fortress Energy (2024), Wilhelmshaven II in Germany (2025), Puerto Bahía near Cartagena, Colombia, and a Shell-backed project in the Bahamas announced in August 2026.",
+     "value": "New Fortress Energy (2024), Wilhelmshaven II (2025), Puerto Bahía (Colombia), Bahamas (August 2026)",
+     "period": "2024, 2025, August 2026",
+     "period_end": "2024-12-31, 2025-12-31, 2026-08-31",
+     "publisher": "Econnect Energy, LNG Industry, Rigzone",
+     "series": "Deployments of Universal Transfer System",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

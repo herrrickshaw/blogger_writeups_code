@@ -1,0 +1,700 @@
+{
+ "slug": "kpler-and-vortexa-track-every-barrel",
+ "text_sha1": "c572799bef8d98d6",
+ "chars": 27458,
+ "checked": "2026-10-23T14:53:15",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "2.58–2.70M bpd India's Russian crude imports, June 2026 — a record high, per ship-tracking data cited by Reuters/LSEG and Kpler",
+     "value": "2.58–2.70M bpd",
+     "period": "June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "Kpler / Reuters / LSEG",
+     "series": "India's Russian crude imports",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "63 Non-Food-Production units enrolled to collect India's used cooking oil under FSSAI's RUCO scheme, mid-2026",
+     "value": "63",
+     "period": "mid-2026",
+     "period_end": "2026-06-30",
+     "publisher": "FSSAI",
+     "series": "RUCO scheme enrolment",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "0.07% India's actual biodiesel blend rate in 2022, against a 5%-by-2030 target — despite a decade of feedstock-mobilisation policy",
+     "value": "0.07%",
+     "period": "2022",
+     "period_end": "2022-12-31",
+     "publisher": "Invest India / USDA",
+     "series": "Biodiesel blend rate",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "$6.8bn → $11.9bn Projected growth of the global re-refined (recycled) base-oil market, 2026 to 2035",
+     "value": "$6.8bn to $11.9bn",
+     "period": "2026 to 2035",
+     "period_end": "2035-12-31",
+     "publisher": "Straits Research / Global Growth Insights",
+     "series": "Global re-refined base-oil market",
+     "frequency": "multi-year",
+     "headline": true
+    },
+    {
+     "quote": "~$451,000/day Record VLCC tanker earnings, mid-September 2026, up 68% in a week as the Hormuz disruption squeezed available tonnage",
+     "value": "~$451,000/day",
+     "period": "mid-September 2026",
+     "period_end": "2026-09-15",
+     "publisher": "Affinity Shipbrokers / Hellenic Shipping News",
+     "series": "VLCC tanker earnings",
+     "frequency": "weekly",
+     "headline": true
+    },
+    {
+     "quote": "1,300+ vessels Size of the sanctions-evading \"shadow fleet,\" per Lloyd's List — roughly a fifth of global tanker capacity, outside Kpler/Vortexa's cargo-level visibility",
+     "value": "1,300+ vessels",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "Lloyd's List Intelligence / US Treasury",
+     "series": "Shadow fleet size",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "roughly 1.09 million barrels a day (bpd) in January",
+     "value": "1.09 million bpd",
+     "period": "January 2026",
+     "period_end": "2026-01-31",
+     "publisher": "Kpler / LSEG",
+     "series": "India's imports of Russian crude",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "1.04 million bpd in February",
+     "value": "1.04 million bpd",
+     "period": "February 2026",
+     "period_end": "2026-02-28",
+     "publisher": "Kpler / LSEG",
+     "series": "India's imports of Russian crude",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "2.13 million bpd in May",
+     "value": "2.13 million bpd",
+     "period": "May 2026",
+     "period_end": "2026-05-31",
+     "publisher": "Kpler / LSEG",
+     "series": "India's imports of Russian crude",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "roughly 37 million tonnes a year (mtpa) of new LNG capacity coming online in 2026",
+     "value": "37 million tonnes a year",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "Kpler",
+     "series": "LNG market outlook capacity additions",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Iranian crude specifically held in floating storage at roughly 135 million barrels in early August, up 14% in a month",
+     "value": "135 million barrels",
+     "period": "early August 2026",
+     "period_end": "2026-08-10",
+     "publisher": "Vortexa",
+     "series": "Iranian crude floating storage",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "US Gulf-to-China at $19/bbl",
+     "value": "$19/bbl",
+     "period": "mid-September 2026",
+     "period_end": "2026-09-15",
+     "publisher": "Affinity Shipbrokers / Hellenic Shipping News",
+     "series": "VLCC freight rates",
+     "frequency": "weekly",
+     "headline": false
+    },
+    {
+     "quote": "Oman-to-Korea at $572,000/day",
+     "value": "$572,000/day",
+     "period": "mid-September 2026",
+     "period_end": "2026-09-15",
+     "publisher": "Affinity Shipbrokers / Hellenic Shipping News",
+     "series": "VLCC freight rates",
+     "frequency": "weekly",
+     "headline": false
+    },
+    {
+     "quote": "150 VLCCs were ordered in 2026 alone",
+     "value": "150 VLCCs",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "Clarksons Research",
+     "series": "VLCC orders",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Clarksons put spot rates for a standard 174,000-cubic-metre LNG carrier at roughly $24,606 a day in 2026",
+     "value": "$24,606 a day",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "Clarksons Research",
+     "series": "LNG carrier spot rates",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Global formal trade in it runs an estimated 4.5–5.0 million tonnes a year",
+     "value": "4.5–5.0 million tonnes a year",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "Fastmarkets / Transport & Environment",
+     "series": "Global formal trade in UCO",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "cumulative UCO exports of 1.37 million tonnes for January–May 2026, up 36.8% on the same period in 2025",
+     "value": "1.37 million tonnes",
+     "period": "January–May 2026",
+     "period_end": "2026-05-31",
+     "publisher": "China customs",
+     "series": "China UCO exports",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "q": "the United States (74,505 tonnes in May alone)",
+     "value": "74,505 tonnes",
+     "period": "May 2026",
+     "period_end": "2026-05-31",
+     "publisher": "China customs",
+     "series": "China UCO exports to US",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Europe today burns through an estimated 130,000 barrels of used cooking oil a day",
+     "value": "130,000 barrels a day",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "Transport & Environment",
+     "series": "Europe UCO consumption",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Non-edible industrial oils | 70 | 110 | 115 | 60 |",
+     "value": "70 thousand MT",
+     "period": "2013",
+     "period_end": "2013-12-31",
+     "publisher": "Invest India / USDA",
+     "series": "Biodiesel feedstock processed - Non-edible industrial oils",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Non-edible industrial oils | 70 | 110 | 115 | 60 |",
+     "value": "110 thousand MT",
+     "period": "2018",
+     "period_end": "2018-12-31",
+     "publisher": "Invest India / USDA",
+     "series": "Biodiesel feedstock processed - Non-edible industrial oils",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Non-edible industrial oils | 70 | 110 | 115 | 60 |",
+     "value": "115 thousand MT",
+     "period": "2022",
+     "period_end": "2022-12-31",
+     "publisher": "Invest India / USDA",
+     "series": "Biodiesel feedstock processed - Non-edible industrial oils",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Used cooking oil | 49 | 60 | 70 | 37 |",
+     "value": "49 thousand MT",
+     "period": "2013",
+     "period_end": "2013-12-31",
+     "publisher": "Invest India / USDA",
+     "series": "Biodiesel feedstock processed - Used cooking oil",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Used cooking oil | 49 | 60 | 70 | 37 |",
+     "value": "60 thousand MT",
+     "period": "2018",
+     "period_end": "2018-12-31",
+     "publisher": "Invest India / USDA",
+     "series": "Biodiesel feedstock processed - Used cooking oil",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Used cooking oil | 49 | 60 | 70 | 37 |",
+     "value": "70 thousand MT",
+     "period": "2022",
+     "period_end": "2022-12-31",
+     "publisher": "Invest India / USDA",
+     "series": "Biodiesel feedstock processed - Used cooking oil",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Animal fats & tallow | 7 | 8 | 6 | 3 |",
+     "value": "7 thousand MT",
+     "period": "2013",
+     "period_end": "2013-12-31",
+     "publisher": "Invest India / USDA",
+     "series": "Biodiesel feedstock processed - Animal fats & tallow",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Animal fats & tallow | 7 | 8 | 6 | 3 |",
+     "value": "8 thousand MT",
+     "period": "2018",
+     "period_end": "2018-12-31",
+     "publisher": "Invest India / USDA",
+     "series": "Biodiesel feedstock processed - Animal fats & tallow",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Animal fats & tallow | 7 | 8 | 6 | 3 |",
+     "value": "6 thousand MT",
+     "period": "2022",
+     "period_end": "2022-12-31",
+     "publisher": "Invest India / USDA",
+     "series": "Biodiesel feedstock processed - Animal fats & tallow",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Total biodiesel feedstock processed | 126 | 178 | 191 | 100 |",
+     "value": "126 thousand MT",
+     "period": "2013",
+     "period_end": "2013-12-31",
+     "publisher": "Invest India / USDA",
+     "series": "Total biodiesel feedstock processed",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Total biodiesel feedstock processed | 126 | 178 | 191 | 100 |",
+     "value": "178 thousand MT",
+     "period": "2018",
+     "period_end": "2018-12-31",
+     "publisher": "Invest India / USDA",
+     "series": "Total biodiesel feedstock processed",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Total biodiesel feedstock processed | 126 | 178 | 191 | 100 |",
+     "value": "191 thousand MT",
+     "period": "2022",
+     "period_end": "2022-12-31",
+     "publisher": "Invest India / USDA",
+     "series": "Total biodiesel feedstock processed",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "India's actual biodiesel blend rate was just 0.07% in 2022, itself an improvement on 0.02% in 2021",
+     "value": "0.02%",
+     "period": "2021",
+     "period_end": "2021-12-31",
+     "publisher": "Invest India / USDA",
+     "series": "Biodiesel blend rate",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Ten biodiesel plants existed nationally as of 2022 with a combined 600-million-litre capacity",
+     "value": "600 million litres",
+     "period": "2022",
+     "period_end": "2022-12-31",
+     "publisher": "Invest India",
+     "series": "Biodiesel plant capacity",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "one count puts India's UCO shipments under this code at 1,648 across March 2023–February 2024",
+     "value": "1,648 shipments",
+     "period": "March 2023–February 2024",
+     "period_end": "2024-02-29",
+     "publisher": "Volza / Seair",
+     "series": "India UCO exports (HSN 15180039)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "one industry forecast puts 2026 biodiesel production at 640 million litres",
+     "value": "640 million litres",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "OFI Magazine / USDA GAIN",
+     "series": "India biodiesel production forecast",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "the re-refined base-oil market was valued at roughly $6.8 billion in 2026 and is projected to reach $11.88 billion by 2035",
+     "value": "$6.8 billion",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "Straits Research / Global Growth Insights",
+     "series": "Re-refined base-oil market value",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "targeting 100 kilotonnes a year (KTA) of used lubricating oil collection nationally",
+     "value": "100 KTA",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "IOCL / Re Sustainability",
+     "series": "ULO collection target",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "q": "targeting 242,000 tonnes a year of Group II and Group III base stock",
+     "value": "242,000 tonnes a year",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "Chennai Petroleum Corporation (CPCL)",
+     "series": "Lube Oil Base Stock unit capacity",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "IOCL separately plans to add 1.28 million tonnes a year of Group II/III capacity across three refineries by 2027",
+     "value": "1.28 million tonnes a year",
+     "period": "by 2027",
+     "period_end": "2027-12-31",
+     "publisher": "IOCL",
+     "series": "Group II/III capacity addition",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "2.58–2.70M bpd India's Russian crude imports, June 2026 — a record high, per ship-tracking data cited by Reuters/LSEG and Kpler",
+     "value": "2.58–2.70 million barrels per day (bpd)",
+     "period": "June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "Kpler / LSEG (via Reuters)",
+     "series": "Ship-tracking data on Russian crude imports to India",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "63 Non-Food-Production units enrolled to collect India's used cooking oil under FSSAI's RUCO scheme, mid-2026",
+     "value": "63 units",
+     "period": "mid-2026",
+     "period_end": "2026-07-31",
+     "publisher": "FSSAI",
+     "series": "RUCO scheme enrolment data",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "0.07% India's actual biodiesel blend rate in 2022, against a 5%-by-2030 target",
+     "value": "0.07%",
+     "period": "2022",
+     "period_end": "2022-12-31",
+     "publisher": "Invest India (compiling USDA 2023 data)",
+     "series": "Biodiesel blend rate in India",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "$6.8bn → $11.9bn Projected growth of the global re-refined (recycled) base-oil market, 2026 to 2035",
+     "value": "$6.8 billion (2026) → $11.9 billion (2035)",
+     "period": "2026–2035",
+     "period_end": "2035-12-31",
+     "publisher": "Straits Research / Global Growth Insights (commercial forecast)",
+     "series": "Global re-refined base-oil market forecast",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "~$451,000/day Record VLCC tanker earnings, mid-September 2026, up 68% in a week as the Hormuz disruption squeezed available tonnage",
+     "value": "$451,000 per day",
+     "period": "mid-September 2026",
+     "period_end": "2026-09-15",
+     "publisher": "Hellenic Shipping News (via Affinity Shipbrokers)",
+     "series": "VLCC tanker earnings",
+     "frequency": "weekly",
+     "headline": false
+    },
+    {
+     "quote": "1,300+ vessels Size of the sanctions-evading 'shadow fleet,' per Lloyd's List — roughly a fifth of global tanker capacity",
+     "value": "1,300+ vessels",
+     "period": "2026",
+     "period_end": null,
+     "publisher": "Lloyd's List Intelligence / US Treasury",
+     "series": "Sanctions-evading shadow fleet estimate",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "1.09 million barrels a day (bpd) in January, 1.04 million bpd in February, 2.13 million bpd in May, and a reported record of between 2.58 million and 2.70 million bpd in June — different outlets citing slightly different preliminary Kpler/LSEG cuts of the same month",
+     "value": "1.09 million bpd (Jan), 1.04 million bpd (Feb), 2.13 million bpd (May), 2.58–2.70 million bpd (Jun)",
+     "period": "January–June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "Kpler / LSEG (via Reuters, Business Standard, Yahoo Finance)",
+     "series": "India's Russian crude imports by month",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Russia accounted for more than half of India's total crude imports that month",
+     "value": ">50%",
+     "period": "June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "Kpler / LSEG (via Reuters, Business Standard, Yahoo Finance)",
+     "series": "Russia's share of India's total crude imports",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "$13–15 a barrel premium for Russian crude in the immediate aftermath of the Ukraine war's escalation phase (March–May), which had flipped to a $2–5 discount by June",
+     "value": "$13–15 discount (Mar–May) → $2–5 premium (Jun)",
+     "period": "March–June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "Kpler / LSEG (via Reuters, Business Standard, Yahoo Finance)",
+     "series": "Discount/premium on Russian crude for Indian refiners",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Kpler's own 2026 gas-market outlook forecast a supply surge of roughly 37 million tonnes a year (mtpa) of new LNG capacity coming online in 2026",
+     "value": "37 million tonnes per annum (mtpa)",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "Kpler",
+     "series": "2026 LNG market outlook",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Vortexa's own tracking showed seaborne clean product exports running roughly 4–5% above the prior year's average in early 2026",
+     "value": "4–5% above prior year",
+     "period": "early 2026",
+     "period_end": "2026-03-31",
+     "publisher": "Vortexa",
+     "series": "Seaborne clean product exports growth",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "Iranian crude specifically held in floating storage at roughly 135 million barrels in early August, up 14% in a month",
+     "value": "135 million barrels",
+     "period": "early August 2026",
+     "period_end": "2026-08-15",
+     "publisher": "Vortexa (via World Oil)",
+     "series": "Iranian crude floating storage",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "150 VLCCs were ordered in 2026 alone, already the largest annual tally since 1973",
+     "value": "150 VLCCs",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "Clarkson's Research",
+     "series": "VLCC orderbook",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "spot rates for a standard 174,000-cubic-metre LNG carrier at roughly $24,606 a day in 2026, down 56% year-on-year",
+     "value": "$24,606 per day",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "Clarkson's Research",
+     "series": "LNG carrier spot rates",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Global formal trade in [used cooking oil] runs an estimated 4.5–5.0 million tonnes a year",
+     "value": "4.5–5.0 million tonnes per year",
+     "period": null,
+     "period_end": null,
+     "publisher": "Fastmarkets (via Chinese customs data)",
+     "series": "Global used cooking oil trade volume",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "China's cumulative UCO exports of 1.37 million tonnes for January–May 2026, up 36.8% on the same period in 2025",
+     "value": "1.37 million tonnes (Jan–May 2026)",
+     "period": "January–May 2026",
+     "period_end": "2026-05-31",
+     "publisher": "Chinese customs data (via Fastmarkets)",
+     "series": "China's used cooking oil exports",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "US now charges a 125% tariff on Chinese UCO, collapsing a trade that was worth $1.1 billion to China the year before",
+     "value": "$1.1 billion (2025)",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "US Trade data (via American Ag Network)",
+     "series": "US-China UCO trade value",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "China's own domestic biodiesel industry had already jumped by around 40% amid the same shift [of UCO redirection]",
+     "value": "40% increase",
+     "period": null,
+     "period_end": null,
+     "publisher": "Transport & Environment (via trade reports)",
+     "series": "China's biodiesel imports growth",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Europe today burns through an estimated 130,000 barrels of used cooking oil a day",
+     "value": "130,000 barrels per day",
+     "period": null,
+     "period_end": null,
+     "publisher": "Transport & Environment (estimate)",
+     "series": "Europe's used cooking oil consumption",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India's total annual UCO generation at roughly 3 million tonnes; this blog's own reporting cited a 1.8–2.6 million tonne range",
+     "value": "3 million tonnes (industry estimate) / 1.8–2.6 million tonnes (blog estimate)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Invest India (compiling USDA 2023 data) / Blog estimate",
+     "series": "India's used cooking oil generation",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India's actual biodiesel blend rate was just 0.07% in 2022, itself an improvement on 0.02% in 2021",
+     "value": "0.07% (2022) / 0.02% (2021)",
+     "period": "2021–2022",
+     "period_end": "2022-12-31",
+     "publisher": "Invest India (compiling USDA 2023 data)",
+     "series": "India's biodiesel blend rate",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "10 biodiesel plants existed nationally as of 2022 with a combined 600-million-litre capacity",
+     "value": "10 plants, 600 million litres capacity",
+     "period": "2022",
+     "period_end": "2022-12-31",
+     "publisher": "Invest India (compiling USDA 2023 data)",
+     "series": "India's biodiesel plant capacity",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "India's UCO shipments under HSN 15180039 at 1,648 across March 2023–February 2024, rising to roughly 1,100+ shipments in the twelve months to November 2025",
+     "value": "1,648 shipments (Mar 2023–Feb 2024) / 1,100+ shipments (Nov 2024–Nov 2025)",
+     "period": "March 2023–February 2024 / November 2024–November 2025",
+     "period_end": "2024-02-29 / 2025-11-30",
+     "publisher": "Volza / Seair (trade-data aggregators)",
+     "series": "India's UCO export shipments",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "India's 2026 biodiesel production at 640 million litres (up 15% on a revised 2025 estimate of 556 million litres) with exports rising from 76 million to 110 million litres",
+     "value": "640 million litres (2026 production) / 76 million → 110 million litres (exports)",
+     "period": "2025–2026",
+     "period_end": "2026-12-31",
+     "publisher": "OFI Magazine (via USDA GAIN)",
+     "series": "India's biodiesel production and exports",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "IOCL signed a memorandum of understanding with Re Sustainability on 13 March 2026, targeting 100 kilotonnes a year of used lubricating oil collection",
+     "value": "100 kilotonnes per year",
+     "period": "13 March 2026 (MoU signing)",
+     "period_end": "2026-03-13",
+     "publisher": "PR Newswire",
+     "series": "India's ULO collection target (IOCL–Re Sustainability MoU)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Chennai Petroleum Corporation (CPCL) began work in May 2026 on a ₹1,600-crore Lube Oil Base Stock unit at its Manali refinery, targeting 242,000 tonnes a year of Group II and Group III base stock",
+     "value": "242,000 tonnes per year",
+     "period": "May 2026 (project commencement)",
+     "period_end": "2026-05-31",
+     "publisher": "Lubes'N'Greases / BaseOilNews",
+     "series": "CPCL's lube oil base stock capacity",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "IOCL separately plans to add 1.28 million tonnes a year of Group II/III capacity across three refineries by 2027",
+     "value": "1.28 million tonnes per year",
+     "period": "by 2027",
+     "period_end": "2027-12-31",
+     "publisher": "Lubes'N'Greases / BaseOilNews",
+     "series": "IOCL's lube oil base stock capacity expansion",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The re-refined base-oil market was valued at roughly $6.8 billion in 2026 and is projected to reach $11.88 billion by 2035",
+     "value": "$6.8 billion (2026) → $11.88 billion (2035)",
+     "period": "2026–2035",
+     "period_end": "2035-12-31",
+     "publisher": "Straits Research / Global Growth Insights (commercial forecast)",
+     "series": "Global re-refined base-oil market size",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "The broader waste-oil recycling market grew an estimated 9.4% year-on-year into 2026 to around $5.24 billion",
+     "value": "$5.24 billion (2026)",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "Straits Research / Global Growth Insights (commercial forecast)",
+     "series": "Global waste-oil recycling market size",
+     "frequency": "annual",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

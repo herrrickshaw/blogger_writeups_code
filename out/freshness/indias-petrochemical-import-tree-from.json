@@ -1,0 +1,300 @@
+{
+ "slug": "indias-petrochemical-import-tree-from",
+ "text_sha1": "7374365571b4de9c",
+ "chars": 7234,
+ "checked": "2026-10-23T14:30:47",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "Polyethylene (LD/HD/LLD) \n ₹22,000 cr",
+     "value": "₹22,000 cr",
+     "period": "2023-25",
+     "period_end": "2025-12-31",
+     "publisher": "MoC / DGCI&S",
+     "series": "Statistics-at-a-Glance / TradeStat",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "PVC resin \n ₹19,000 cr",
+     "value": "₹19,000 cr",
+     "period": "2023-25",
+     "period_end": "2025-12-31",
+     "publisher": "MoC / DGCI&S",
+     "series": "Statistics-at-a-Glance / TradeStat",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Polypropylene \n ₹13,000 cr",
+     "value": "₹13,000 cr",
+     "period": "2023-25",
+     "period_end": "2025-12-31",
+     "publisher": "MoC / DGCI&S",
+     "series": "Statistics-at-a-Glance / TradeStat",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Styrene monomer \n ₹10,150 cr",
+     "value": "₹10,150 cr",
+     "period": "2023-25",
+     "period_end": "2025-12-31",
+     "publisher": "MoC / DGCI&S",
+     "series": "Statistics-at-a-Glance / TradeStat",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Methanol \n ₹7,524 cr",
+     "value": "₹7,524 cr",
+     "period": "2023-25",
+     "period_end": "2025-12-31",
+     "publisher": "MoC / DGCI&S",
+     "series": "Statistics-at-a-Glance / TradeStat",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Mono-ethylene glycol \n ₹6,666 cr",
+     "value": "₹6,666 cr",
+     "period": "2023-25",
+     "period_end": "2025-12-31",
+     "publisher": "MoC / DGCI&S",
+     "series": "Statistics-at-a-Glance / TradeStat",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Butadiene → PBR rubber \n ₹6,000 cr",
+     "value": "₹6,000 cr",
+     "period": "2023-25",
+     "period_end": "2025-12-31",
+     "publisher": "MoC / DGCI&S",
+     "series": "Statistics-at-a-Glance / TradeStat",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "₹1.25 lakh cr high-petrol-link substitutable imports / yr (~$15 bn)",
+     "value": "₹1.25 lakh cr",
+     "period": "2023-25",
+     "period_end": "2025-12-31",
+     "publisher": "MoC / DGCI&S",
+     "series": "Statistics-at-a-Glance / TradeStat",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "₹1.25 lakh cr high-petrol-link substitutable imports / yr (~$15 bn)",
+     "value": "$15 bn",
+     "period": "2023-25",
+     "period_end": "2025-12-31",
+     "publisher": "MoC / DGCI&S",
+     "series": "Statistics-at-a-Glance / TradeStat",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "22 products shown (25 in full analysis)",
+     "value": "22 products",
+     "period": "2023-25",
+     "period_end": "2025-12-31",
+     "publisher": "MoC / DGCI&S",
+     "series": "Statistics-at-a-Glance / TradeStat",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "25 in full analysis",
+     "value": "25 products",
+     "period": "2023-25",
+     "period_end": "2025-12-31",
+     "publisher": "MoC / DGCI&S",
+     "series": "Statistics-at-a-Glance / TradeStat",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "7 building blocks",
+     "value": "7 building blocks",
+     "period": "2023-25",
+     "period_end": "2025-12-31",
+     "publisher": "MoC / DGCI&S",
+     "series": "Statistics-at-a-Glance / TradeStat",
+     "frequency": "annual",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "Polyethylene (LD/HD/LLD) ₹22,000 cr",
+     "value": "₹22,000 cr/year",
+     "period": "2023–25",
+     "period_end": "2025-03-31",
+     "publisher": "MoC / DGCI&S",
+     "series": "Statistics-at-a-Glance (petrochemical imports by value)",
+     "frequency": "multi-year",
+     "headline": true
+    },
+    {
+     "quote": "PVC resin ₹19,000 cr",
+     "value": "₹19,000 cr/year",
+     "period": "2023–25",
+     "period_end": "2025-03-31",
+     "publisher": "MoC / DGCI&S",
+     "series": "Statistics-at-a-Glance (petrochemical imports by value)",
+     "frequency": "multi-year",
+     "headline": true
+    },
+    {
+     "quote": "Polypropylene ₹13,000 cr",
+     "value": "₹13,000 cr/year",
+     "period": "2023–25",
+     "period_end": "2025-03-31",
+     "publisher": "MoC / DGCI&S",
+     "series": "Statistics-at-a-Glance (petrochemical imports by value)",
+     "frequency": "multi-year",
+     "headline": true
+    },
+    {
+     "quote": "Styrene monomer ₹10,150 cr",
+     "value": "₹10,150 cr/year",
+     "period": "2023–25",
+     "period_end": "2025-03-31",
+     "publisher": "MoC / DGCI&S",
+     "series": "Statistics-at-a-Glance (petrochemical imports by value)",
+     "frequency": "multi-year",
+     "headline": true
+    },
+    {
+     "quote": "Methanol ₹7,524 cr",
+     "value": "₹7,524 cr/year",
+     "period": "2023–25",
+     "period_end": "2025-03-31",
+     "publisher": "MoC / DGCI&S",
+     "series": "Statistics-at-a-Glance (petrochemical imports by value)",
+     "frequency": "multi-year",
+     "headline": true
+    },
+    {
+     "quote": "Mono-ethylene glycol ₹6,666 cr",
+     "value": "₹6,666 cr/year",
+     "period": "2023–25",
+     "period_end": "2025-03-31",
+     "publisher": "MoC / DGCI&S",
+     "series": "Statistics-at-a-Glance (petrochemical imports by value)",
+     "frequency": "multi-year",
+     "headline": true
+    },
+    {
+     "quote": "Butadiene → PBR rubber ₹6,000 cr",
+     "value": "₹6,000 cr/year",
+     "period": "2023–25",
+     "period_end": "2025-03-31",
+     "publisher": "MoC / DGCI&S",
+     "series": "Statistics-at-a-Glance (petrochemical imports by value)",
+     "frequency": "multi-year",
+     "headline": true
+    },
+    {
+     "quote": "₹1.25 lakh cr high-petrol-link substitutable imports / yr (~$15 bn)",
+     "value": "₹125,000 cr/year (~$15 bn)",
+     "period": null,
+     "period_end": null,
+     "publisher": "MoC / DGCI&S (approximate)",
+     "series": "High-petrol-link substitutable imports estimate",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "22 products shown (25 in full analysis)",
+     "value": "22 products (25 total)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Article analysis (based on DGCI&S/TradeStat)",
+     "series": "Petrochemical import-substitution mapping",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "7 building blocks",
+     "value": "7 building blocks",
+     "period": null,
+     "period_end": null,
+     "publisher": "Article analysis (based on DGCI&S/TradeStat)",
+     "series": "Petrochemical feedstock categorization",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "import dependence: ~100% (styrene monomer, bisphenol-A/polycarbonate, MDI/TDI)",
+     "value": "~100% import dependence",
+     "period": "2023–25",
+     "period_end": "2025-03-31",
+     "publisher": "Industry commentary (qualitative)",
+     "series": "Petrochemical import dependence bands",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "import dependence: 85–90% (MDI, TDI)",
+     "value": "85–90% import dependence",
+     "period": "2023–25",
+     "period_end": "2025-03-31",
+     "publisher": "Industry commentary (qualitative)",
+     "series": "Petrochemical import dependence bands",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "import dependence: 20–40% (polyethylene, PVC, polypropylene)",
+     "value": "20–40% import dependence",
+     "period": "2023–25",
+     "period_end": "2025-03-31",
+     "publisher": "Industry commentary (qualitative)",
+     "series": "Petrochemical import dependence bands",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "methanol at roughly 90% import dependence",
+     "value": "~90% import dependence",
+     "period": "2023–25",
+     "period_end": "2025-03-31",
+     "publisher": "Industry commentary (qualitative)",
+     "series": "Petrochemical import dependence bands",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "Digital Refining: +$1.5–2/bbl marginal, $60–80/bbl full COTC",
+     "value": "$1.5–2/bbl (marginal), $60–80/bbl (full COTC)",
+     "period": null,
+     "period_end": null,
+     "publisher": "ICIS Petrochemicals Flowchart (approximate)",
+     "series": "Petrochemical value-added estimates",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹→$ at ₹86",
+     "value": "₹86/USD",
+     "period": null,
+     "period_end": null,
+     "publisher": "RBI (repo india-omc-fuel-fleet-model)",
+     "series": "Exchange rate conversion",
+     "frequency": "live",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

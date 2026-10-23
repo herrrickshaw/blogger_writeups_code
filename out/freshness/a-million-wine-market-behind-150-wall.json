@@ -1,0 +1,470 @@
+{
+ "slug": "a-million-wine-market-behind-150-wall",
+ "text_sha1": "738724896d6e4bba",
+ "chars": 22899,
+ "checked": "2026-10-23T10:20:37",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "India’s wine market was worth US$195.3 million in 2023 and is forecast to reach US$802.9 million by 2032 — a 17.01% CAGR",
+     "value": "US$195.3 million",
+     "period": "2023",
+     "period_end": "2023-12-31",
+     "publisher": "IMARC Group",
+     "series": "India Wine Market report",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "India’s wine market was worth US$195.3 million in 2023 and is forecast to reach US$802.9 million by 2032 — a 17.01% CAGR",
+     "value": "US$802.9 million",
+     "period": "2032",
+     "period_end": "2032-12-31",
+     "publisher": "IMARC Group",
+     "series": "India Wine Market report",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "India’s wine market was worth US$195.3 million in 2023 and is forecast to reach US$802.9 million by 2032 — a 17.01% CAGR",
+     "value": "17.01%",
+     "period": "2023–2032",
+     "period_end": "2032-12-31",
+     "publisher": "IMARC Group",
+     "series": "India Wine Market report",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Per-capita wine consumption is about 9 millilitres a year",
+     "value": "9 millilitres/year",
+     "period": "current",
+     "period_end": null,
+     "publisher": "trade and industry sources",
+     "series": "Per-capita wine consumption",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "A 2022 government count put Maharashtra alone at 35+ wineries on about 1,500 acres of wine grapes.",
+     "value": "35+ wineries",
+     "period": "2022",
+     "period_end": "2022-12-31",
+     "publisher": "PIB / ministry",
+     "series": "APEDA release PRID 1832846",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "A 2022 government count put Maharashtra alone at 35+ wineries on about 1,500 acres of wine grapes.",
+     "value": "1,500 acres",
+     "period": "2022",
+     "period_end": "2022-12-31",
+     "publisher": "PIB / ministry",
+     "series": "APEDA release PRID 1832846",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Sula Vineyards alone held 52.6% of the domestic 100%-grape-wine category in FY2021",
+     "value": "52.6%",
+     "period": "FY2021",
+     "period_end": "2021-03-31",
+     "publisher": "Sula Vineyards",
+     "series": "IPO disclosures",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "about 61% of the Elite/Premium segment in FY2022",
+     "value": "61%",
+     "period": "FY2022",
+     "period_end": "2022-03-31",
+     "publisher": "Sula Vineyards",
+     "series": "IPO disclosures",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "millennials aged 25–34 make up roughly 45% of wine drinkers",
+     "value": "45%",
+     "period": "current",
+     "period_end": null,
+     "publisher": "consumer-research and trade reporting",
+     "series": "Consumer demographic profile",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Sula alone drew 3.3 lakh+ visitors in FY2025",
+     "value": "3.3 lakh+ visitors",
+     "period": "FY2025",
+     "period_end": "2025-03-31",
+     "publisher": "Sula Vineyards",
+     "series": "IPO disclosures and trade reporting",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Theni district alone is 78% of the state’s grape area",
+     "value": "78%",
+     "period": "July 2025",
+     "period_end": "2025-07-31",
+     "publisher": "Tamil Nadu state horticulture data",
+     "series": "State horticulture figures",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Tamil Nadu’s grape area at roughly 2,800 hectares",
+     "value": "2,800 hectares",
+     "period": "July 2025",
+     "period_end": "2025-07-31",
+     "publisher": "Tamil Nadu state horticulture data",
+     "series": "State horticulture figures",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Theni district alone accounts for 2184 hectares (78%)",
+     "value": "2,184 hectares",
+     "period": "July 2025",
+     "period_end": "2025-07-31",
+     "publisher": "Tamil Nadu state horticulture data",
+     "series": "State horticulture figures",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "76% of the state’s grape production — about 29,338 tonnes",
+     "value": "29,338 tonnes",
+     "period": "July 2025",
+     "period_end": "2025-07-31",
+     "publisher": "Tamil Nadu state horticulture data",
+     "series": "State horticulture figures",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "with a stated capacity of about 75,000 litres a year",
+     "value": "75,000 litres/year",
+     "period": "July 2025",
+     "period_end": "2025-07-31",
+     "publisher": "Sommelier India",
+     "series": "Winery capacity data",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "a ₹960 crore offer-for-sale at a price band of ₹340–357 per share",
+     "value": "₹960 crore",
+     "period": "December 2022",
+     "period_end": "2022-12-31",
+     "publisher": "Sula Vineyards",
+     "series": "IPO disclosures",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "a price band of ₹340–357 per share",
+     "value": "₹340–357 per share",
+     "period": "December 2022",
+     "period_end": "2022-12-31",
+     "publisher": "Sula Vineyards",
+     "series": "IPO disclosures",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "India’s wine industry is worth an estimated US$195.3 million and Indians drink about 9 millilitres of it a year each",
+     "value": "US$195.3 million",
+     "period": "2023",
+     "period_end": "2023-12-31",
+     "publisher": "IMARC Group",
+     "series": "India Wine Market report",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "India’s wine market was worth US$195.3 million in 2023 and is forecast to reach US$802.9 million by 2032 — a 17.01% CAGR",
+     "value": "US$195.3 million",
+     "period": "2023",
+     "period_end": "2023-12-31",
+     "publisher": "IMARC Group",
+     "series": "India Wine Market report",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "India’s wine market was worth US$195.3 million in 2023 and is forecast to reach US$802.9 million by 2032 — a 17.01% CAGR",
+     "value": "US$802.9 million",
+     "period": "2032 (forecast)",
+     "period_end": "2032-12-31",
+     "publisher": "IMARC Group",
+     "series": "India Wine Market report",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Per-capita wine consumption is about 9 millilitres a year",
+     "value": "≈9 millilitres/year",
+     "period": null,
+     "period_end": null,
+     "publisher": "Triangulated from Wikipedia, FAO, Statista-adjacent figures",
+     "series": "Trade/consumption reporting",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Maharashtra alone at 35+ wineries on about 1,500 acres of wine grapes",
+     "value": "35+ wineries",
+     "period": null,
+     "period_end": null,
+     "publisher": "PIB / Ministry of Commerce & Industry",
+     "series": "APEDA’s participation in the London Wine Fair (PRID 1832846)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Maharashtra alone at 35+ wineries on about 1,500 acres of wine grapes",
+     "value": "≈1,500 acres",
+     "period": null,
+     "period_end": null,
+     "publisher": "PIB / Ministry of Commerce & Industry",
+     "series": "APEDA’s participation in the London Wine Fair (PRID 1832846)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Sula Vineyards alone held 52.6% of the domestic 100%-grape-wine category in FY2021",
+     "value": "52.6%",
+     "period": "FY2021",
+     "period_end": "2021-03-31",
+     "publisher": "Sula Vineyards",
+     "series": "IPO-era disclosures",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Sula Vineyards alone held ... ≈61% of the Elite/Premium segment in FY2022",
+     "value": "≈61%",
+     "period": "FY2022",
+     "period_end": "2022-03-31",
+     "publisher": "Sula Vineyards",
+     "series": "IPO-era disclosures",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Sula alone drew 3.3 lakh+ visitors in FY2025",
+     "value": "3.3 lakh+ visitors",
+     "period": "FY2025",
+     "period_end": "2025-03-31",
+     "publisher": "Sula Vineyards",
+     "series": "Trade reporting",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Tamil Nadu’s grape area at roughly 2,800 hectares",
+     "value": "≈2,800 hectares",
+     "period": null,
+     "period_end": null,
+     "publisher": "Tamil Nadu Horticulture Department",
+     "series": "State horticulture data",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Theni district alone is 78% of the state’s grape area",
+     "value": "78%",
+     "period": null,
+     "period_end": null,
+     "publisher": "Tamil Nadu Horticulture Department",
+     "series": "State horticulture data",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Theni district alone accounts for 2,184 hectares (78%) and 76% of the state’s grape production — about 29,338 tonnes",
+     "value": "2,184 hectares",
+     "period": null,
+     "period_end": null,
+     "publisher": "Tamil Nadu Horticulture Department",
+     "series": "State horticulture data",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Theni district alone accounts for ... about 29,338 tonnes",
+     "value": "≈29,338 tonnes",
+     "period": null,
+     "period_end": null,
+     "publisher": "Tamil Nadu Horticulture Department",
+     "series": "State horticulture data",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Anamalayanpatti winery capacity of about 75,000 litres a year",
+     "value": "≈75,000 litres/year",
+     "period": null,
+     "period_end": null,
+     "publisher": "Sommelier India",
+     "series": "July 2025 reporting",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India’s WTO-bound tariff ceiling on wine and spirits imports is 150%",
+     "value": "150%",
+     "period": null,
+     "period_end": null,
+     "publisher": "WTO",
+     "series": "Dispute-settlement history",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "The India–EU trade deal ... would eventually cut [wine tariffs] to 20% for premium wine and 30% for mid-range",
+     "value": "20% (premium) / 30% (mid-range)",
+     "period": null,
+     "period_end": null,
+     "publisher": "India–EU FTA trade reporting",
+     "series": "Political agreement (27 Jan 2026)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "millennials aged roughly 25 to 34 are estimated to make up about 45% of India’s wine-drinking base",
+     "value": "≈45%",
+     "period": null,
+     "period_end": null,
+     "publisher": "Consumer-research and trade reporting",
+     "series": null,
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Sula listed on the BSE and NSE in December 2022 through a ₹960 crore offer-for-sale",
+     "value": "₹960 crore",
+     "period": "December 2022",
+     "period_end": "2022-12-31",
+     "publisher": "Sula Vineyards",
+     "series": "IPO disclosures",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Sula Vineyards ... price band of ₹340–357 per share",
+     "value": "₹340–357 per share",
+     "period": "December 2022",
+     "period_end": "2022-12-31",
+     "publisher": "Sula Vineyards",
+     "series": "IPO disclosures",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India’s entire wine industry, at its 2032 target, would still be smaller than a single mid-sized FMCG brand’s annual India revenue",
+     "value": "≈0.5–2%",
+     "period": null,
+     "period_end": null,
+     "publisher": "Triangulated from trade and industry sources",
+     "series": "Wine’s share of total alcoholic-beverage volume",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Out of roughly 123,000 acres of vineyard in India, industry estimates suggest only 1–2% is grown for wine",
+     "value": "≈1–2%",
+     "period": null,
+     "period_end": null,
+     "publisher": "Trade-industry estimates",
+     "series": null,
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India’s bound tariff ceiling on wine ... has at times pushed the effective burden higher still — the reason a bottle of imported wine in an Indian shop routinely costs three to five times what the same bottle sells for elsewhere",
+     "value": "3–5 times",
+     "period": null,
+     "period_end": null,
+     "publisher": "Trade-press reporting",
+     "series": "India’s tariff structure",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The India–EU FTA’s ... tariff schedule (150%→75% initial→20%/30% phased for wine)",
+     "value": "75% (initial)",
+     "period": null,
+     "period_end": null,
+     "publisher": "India–EU FTA trade reporting",
+     "series": "Political agreement (27 Jan 2026)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The India–EU FTA’s ... tariff schedule (150%→75% initial→20%/30% phased for wine)",
+     "value": "150% (current WTO-bound ceiling)",
+     "period": null,
+     "period_end": null,
+     "publisher": "WTO",
+     "series": "Dispute-settlement history",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "The India–EU deal is not yet in force; ... entry into force realistically possible in early 2027",
+     "value": "early 2027",
+     "period": null,
+     "period_end": "2027-03-31",
+     "publisher": "European Commission / EU Council",
+     "series": "India–EU FTA ratification timeline",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The India–EU deal is not yet in force; ... signing possible by December 2026",
+     "value": "December 2026",
+     "period": null,
+     "period_end": "2026-12-31",
+     "publisher": "European Commission / EU Council",
+     "series": "India–EU FTA signature timeline",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Sula’s reported 10–12% annual revenue surge",
+     "value": "10–12%",
+     "period": null,
+     "period_end": null,
+     "publisher": "Sula Vineyards",
+     "series": "Trade reporting",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "India’s entire wine industry, at its 2032 target, would still be smaller than a single mid-sized FMCG brand’s annual India revenue",
+     "value": "17.01%",
+     "period": "2023–2032 (forecast)",
+     "period_end": "2032-12-31",
+     "publisher": "IMARC Group",
+     "series": "India Wine Market report",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

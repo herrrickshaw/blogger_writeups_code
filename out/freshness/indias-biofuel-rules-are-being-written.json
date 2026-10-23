@@ -1,0 +1,290 @@
+{
+ "slug": "indias-biofuel-rules-are-being-written",
+ "text_sha1": "62e844237d3a5101",
+ "chars": 9756,
+ "checked": "2026-10-23T13:53:53",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "8 : 1 Supreme Court majority placing industrial and denatured alcohol under State power (Lalta Prasad Vaish, 2024)",
+     "value": "8 : 1",
+     "period": "2024",
+     "period_end": "2024-12-31",
+     "publisher": "Supreme Court of India",
+     "series": "State of U.P. v. Lalta Prasad Vaish & Sons",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "1,050 cr L Ethanol sought by the oil companies for supply year 2025–26 (Tender 22376)",
+     "value": "1,050 cr L",
+     "period": "supply year 2025–26",
+     "period_end": "2026-03-31",
+     "publisher": "OMCs",
+     "series": "Tender 22376",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "3.92 / 9.26 Crore litres allotted vs bid by one dedicated ethanol plant, the cut that started the VINP case",
+     "value": "3.92 / 9.26 Crore litres",
+     "period": "supply year 2025–26",
+     "period_end": "2026-03-31",
+     "publisher": "OMCs",
+     "series": "Tender 22376",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "56% Share of demand the Attorney General said DEPs would take if their contract clause were mandatory",
+     "value": "56%",
+     "period": "supply year 2025–26",
+     "period_end": "2026-03-31",
+     "publisher": "OMCs",
+     "series": "Tender 22376",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "281 crore litres delivered",
+     "value": "281 crore litres",
+     "period": "2025-2026",
+     "period_end": "2026-02-26",
+     "publisher": "OMCs",
+     "series": "Ethanol supplies",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "149 crore litres extra",
+     "value": "149 crore litres",
+     "period": "Q4",
+     "period_end": "2026-03-31",
+     "publisher": "OMCs",
+     "series": "Q4 allocation",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "marketing-rights barrier of about ₹2,000 crore of investment",
+     "value": "₹2,000 crore",
+     "period": "2005",
+     "period_end": "2005-12-31",
+     "publisher": "MoP&NG",
+     "series": "Motor Spirit and High Speed Diesel Control Order",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "1,050 cr L Ethanol sought by the oil companies for supply year 2025–26 (Tender 22376)",
+     "value": "1,050 crore litres",
+     "period": "2025–26",
+     "period_end": "2026-03-31",
+     "publisher": "OMCs (Tender 22376)",
+     "series": "Ethanol supply tender volume",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "3.92 / 9.26 Crore litres allotted vs bid by one dedicated ethanol plant, the cut that started the VINP case",
+     "value": "3.92 crore litres (allotted) / 9.26 crore litres (bid)",
+     "period": null,
+     "period_end": null,
+     "publisher": "OMCs (Tender 22376)",
+     "series": "Ethanol allocation vs bid for VINP Distilleries",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "56% Share of demand the Attorney General said DEPs would take if their contract clause were mandatory",
+     "value": "56%",
+     "period": null,
+     "period_end": null,
+     "publisher": "Attorney General (Supreme Court, Feb 2026)",
+     "series": "Projected DEP share of ethanol demand under clause 6.8",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "281 crore litres delivered [by OMCs]",
+     "value": "281 crore litres",
+     "period": "Dec 2025 to Jan 2026",
+     "period_end": "2026-01-31",
+     "publisher": "OMCs (Supreme Court order, Feb 2026)",
+     "series": "Ethanol supply volume under interim allocation",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "149 crore litres extra [Q4 allocation to all bidders]",
+     "value": "149 crore litres",
+     "period": "Q4 2025–26",
+     "period_end": "2026-03-31",
+     "publisher": "OMCs (Supreme Court order, Aug 2026)",
+     "series": "Ethanol allocation under interim arrangement",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "300 KLPD plant in Haveri [VINP Distilleries]",
+     "value": "300 KLPD",
+     "period": null,
+     "period_end": null,
+     "publisher": "VINP Distilleries (article context)",
+     "series": "Dedicated ethanol plant capacity",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "a 2021 NITI Aayog report [cited in Akshay Malhotra v. Union of India]",
+     "value": "2021",
+     "period": "2021",
+     "period_end": "2021-12-31",
+     "publisher": "NITI Aayog",
+     "series": "Ethanol blending impact study",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "April 2023 [cutoff for ethanol-free petrol in Akshay Malhotra case]",
+     "value": "April 2023",
+     "period": "Apr 2023",
+     "period_end": "2023-04-30",
+     "publisher": "Petitioner (Akshay Malhotra v. Union of India)",
+     "series": "Ethanol-free petrol eligibility cutoff",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "2005 Motor Spirit and High Speed Diesel Control Order [barrier of] about ₹2,000 crore of investment",
+     "value": "₹2,000 crore",
+     "period": "2005",
+     "period_end": "2005-12-31",
+     "publisher": "Ministry of Petroleum & Natural Gas (Control Order)",
+     "series": "Investment barrier for biodiesel marketing",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "April 2019 [Biodiesel Sale Guidelines issued]",
+     "value": "April 2019",
+     "period": "Apr 2019",
+     "period_end": "2019-04-30",
+     "publisher": "MoPNG",
+     "series": "Biodiesel Sale Guidelines",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "2018 / 2023 [Bombay HC / Nagpur bench rulings on biodiesel]",
+     "value": "2018 (Bombay HC) / 2023 (Nagpur HC)",
+     "period": "2018 / 2023",
+     "period_end": "2023-12-31",
+     "publisher": "Bombay High Court / Nagpur Bench",
+     "series": "Biodiesel as petroleum product (My Eco Energy; Abhay Rathi)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Oct 2024 | Supreme Court (9 judges) | State of U.P. v. Lalta Prasad Vaish",
+     "value": "23 October 2024",
+     "period": "23 Oct 2024",
+     "period_end": "2024-10-23",
+     "publisher": "Supreme Court of India",
+     "series": "Judgment on State power over denatured alcohol",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "Sep 2025 | Supreme Court | Akshay Malhotra v. Union of India | E20 with no ethanol-free option",
+     "value": "1 September 2025",
+     "period": "1 Sep 2025",
+     "period_end": "2025-09-01",
+     "publisher": "Supreme Court of India",
+     "series": "Dismissal of E20-related PIL",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "Feb 2026 | Supreme Court | OMCs v. VINP (SLP 7799/2026) | Interim allocation boost for a dedicated plant",
+     "value": "26 February 2026",
+     "period": "26 Feb 2026",
+     "period_end": "2026-02-26",
+     "publisher": "Supreme Court of India",
+     "series": "Interim order on ethanol allocation",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "Jun 2026 | Karnataka HC | VINP Distilleries v. Union of India | Offtake-contract cut for a dedicated plant",
+     "value": "16 June 2026",
+     "period": "16 Jun 2026",
+     "period_end": "2026-06-16",
+     "publisher": "Karnataka High Court",
+     "series": "Judgment on ethanol allocation dispute",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "Aug 2026 | Supreme Court | Modi Biotech v. VINP and others | Appeals; Q4 allocation",
+     "value": "30 June 2026 (order) / 4 August 2026 (interim deal)",
+     "period": "30 Jun 2026 / 4 Aug 2026",
+     "period_end": "2026-08-04",
+     "publisher": "Supreme Court of India",
+     "series": "Appeals and interim Q4 allocation",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "2018 / 2023 | Bombay HC | My Eco Energy; Abhay Rathi | Is biodiesel a petroleum product?",
+     "value": "2018 (Bombay HC) / 2023 (Nagpur HC)",
+     "period": "2018 / 2023",
+     "period_end": "2023-12-31",
+     "publisher": "Bombay High Court / Nagpur Bench",
+     "series": "Biodiesel classification rulings",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "2021 the OMCs invited investors to build dedicated ethanol plants (DEPs) in ethanol-deficit states",
+     "value": "2021",
+     "period": "2021",
+     "period_end": "2021-12-31",
+     "publisher": "OMCs (tender invitation)",
+     "series": "Dedicated ethanol plant tender",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "2005 Motor Spirit and High Speed Diesel Control Order",
+     "value": "2005",
+     "period": "2005",
+     "period_end": "2005-12-31",
+     "publisher": "Ministry of Petroleum & Natural Gas",
+     "series": "Motor Spirit and High Speed Diesel Control Order",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "23 September 2026 [Supreme Court hearing on VINP cases]",
+     "value": "23 September 2026",
+     "period": "23 Sep 2026",
+     "period_end": "2026-09-23",
+     "publisher": "Supreme Court of India",
+     "series": "Hearing on ethanol contract disputes",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

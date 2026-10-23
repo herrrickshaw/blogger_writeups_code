@@ -1,0 +1,600 @@
+{
+ "slug": "biomass-power-at-night-dispatchable",
+ "text_sha1": "36f9049725ca0826",
+ "chars": 19150,
+ "checked": "2026-10-23T10:43:22",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "while India's total renewable capacity (excluding large hydro) grew 178% between December 2019 and July 2026, biomass power grew just 19%",
+     "value": "178%",
+     "period": "between December 2019 and July 2026",
+     "period_end": "2026-07-31",
+     "publisher": "MNRE / CEA",
+     "series": "state-wise installed renewable capacity table / Executive Summary on Power Sector",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "biomass power grew just 19% — the slowest of any renewable category",
+     "value": "19%",
+     "period": "between December 2019 and July 2026",
+     "period_end": "2026-07-31",
+     "publisher": "MNRE / CEA",
+     "series": "state-wise installed renewable capacity table / Executive Summary on Power Sector",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "India's total bio-power capacity... at 11,747.57 MW — against 164,594.75 MW of solar and 58,136.89 MW of wind.",
+     "value": "11,747.57 MW",
+     "period": "as on 31 July 2026",
+     "period_end": "2026-07-31",
+     "publisher": "MNRE",
+     "series": "state-wise installed renewable capacity table",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "against 164,594.75 MW of solar",
+     "value": "164,594.75 MW",
+     "period": "as on 31 July 2026",
+     "period_end": "2026-07-31",
+     "publisher": "MNRE",
+     "series": "state-wise installed renewable capacity table",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "and 58,136.89 MW of wind.",
+     "value": "58,136.89 MW",
+     "period": "as on 31 July 2026",
+     "period_end": "2026-07-31",
+     "publisher": "MNRE",
+     "series": "state-wise installed renewable capacity table",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "Solar | 34,036 | 164,594.75 | +384%",
+     "value": "+384%",
+     "period": "Dec 2019 to Jul 2026",
+     "period_end": "2026-07-31",
+     "publisher": "CSEP / CEA / MNRE",
+     "series": "state-wise installed renewable capacity table / Executive Summary on Power Sector",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "Wind | 37,608 | 58,136.89 | +55%",
+     "value": "+55%",
+     "period": "Dec 2019 to Jul 2026",
+     "period_end": "2026-07-31",
+     "publisher": "CSEP / CEA / MNRE",
+     "series": "state-wise installed renewable capacity table / Executive Summary on Power Sector",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "Bio-power | 9,861 | 11,747.57 | +19%",
+     "value": "+19%",
+     "period": "Dec 2019 to Jul 2026",
+     "period_end": "2026-07-31",
+     "publisher": "CSEP / CEA / MNRE",
+     "series": "state-wise installed renewable capacity table / Executive Summary on Power Sector",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "Small hydro | 4,677 | 5,181.76 | +11%",
+     "value": "+11%",
+     "period": "Dec 2019 to Jul 2026",
+     "period_end": "2026-07-31",
+     "publisher": "CSEP / CEA / MNRE",
+     "series": "state-wise installed renewable capacity table / Executive Summary on Power Sector",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "Total (non-hydro RE) | 86,182 | 239,660.97 | +178%",
+     "value": "+178%",
+     "period": "Dec 2019 to Jul 2026",
+     "period_end": "2026-07-31",
+     "publisher": "CSEP / CEA / MNRE",
+     "series": "state-wise installed renewable capacity table / Executive Summary on Power Sector",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "Maharashtra | 2,999.97 | 25.5",
+     "value": "2,999.97 MW",
+     "period": "as on 31.07.2026",
+     "period_end": "2026-07-31",
+     "publisher": "MNRE",
+     "series": "state-wise installed renewable-capacity table",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Uttar Pradesh | 2,329.89 | 19.8",
+     "value": "2,329.89 MW",
+     "period": "as on 31.07.2026",
+     "period_end": "2026-07-31",
+     "publisher": "MNRE",
+     "series": "state-wise installed renewable-capacity table",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Karnataka | 1,917.05 | 16.3",
+     "value": "1,917.05 MW",
+     "period": "as on 31.07.2026",
+     "period_end": "2026-07-31",
+     "publisher": "MNRE",
+     "series": "state-wise installed renewable-capacity table",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Tamil Nadu | 1,055.12 | 9.0",
+     "value": "1,055.12 MW",
+     "period": "as on 31.07.2026",
+     "period_end": "2026-07-31",
+     "publisher": "MNRE",
+     "series": "state-wise installed renewable-capacity table",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Andhra Pradesh | 615.02 | 5.2",
+     "value": "615.02 MW",
+     "period": "as on 31.07.2026",
+     "period_end": "2026-07-31",
+     "publisher": "MNRE",
+     "series": "state-wise installed renewable-capacity table",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Punjab | 582.59 | 5.0",
+     "value": "582.59 MW",
+     "period": "as on 31.07.2026",
+     "period_end": "2026-07-31",
+     "publisher": "MNRE",
+     "series": "state-wise installed renewable-capacity table",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "National total | 11,747.57 | 100",
+     "value": "11,747.57 MW",
+     "period": "as on 31.07.2026",
+     "period_end": "2026-07-31",
+     "publisher": "MNRE",
+     "series": "state-wise installed renewable-capacity table",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "average day peak (5,280 MW) and average night peak (5,256 MW) were within 0.5% of each other.",
+     "value": "5,280 MW",
+     "period": "May 2018",
+     "period_end": "2018-05-31",
+     "publisher": "Centre for Science and Environment",
+     "series": "Delhi summer electricity demand analysis",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "average night peak (5,256 MW) were within 0.5% of each other.",
+     "value": "5,256 MW",
+     "period": "May 2018",
+     "period_end": "2018-05-31",
+     "publisher": "Centre for Science and Environment",
+     "series": "Delhi summer electricity demand analysis",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "country has set a goal of installing 250 million smart meters by 2026",
+     "value": "250 million smart meters",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "PIB / Ministry of Power",
+     "series": "smart-meter rollout target",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India targeting 500 GW of non-fossil capacity by 2030",
+     "value": "500 GW",
+     "period": "2030",
+     "period_end": "2030-12-31",
+     "publisher": "MNRE",
+     "series": "non-fossil capacity target",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "sets the normative capital cost for a Rankine-cycle biomass power project at ₹638–744 lakh per MW",
+     "value": "₹638–744 lakh per MW",
+     "period": "FY2026-27",
+     "period_end": "2027-03-31",
+     "publisher": "CERC",
+     "series": "RE Tariff Order",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "₹4,262.57 per tonne in Andhra Pradesh and ₹4,852.24 per tonne in Haryana",
+     "value": "₹4,262.57 per tonne",
+     "period": "FY2026-27",
+     "period_end": "2027-03-31",
+     "publisher": "CERC",
+     "series": "RE Tariff Order",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "₹4,852.24 per tonne in Haryana",
+     "value": "₹4,852.24 per tonne",
+     "period": "FY2026-27",
+     "period_end": "2027-03-31",
+     "publisher": "CERC",
+     "series": "RE Tariff Order",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "resulting applicable tariff for a standard water-cooled, travelling-grate-boiler biomass plant comes out to roughly ₹9.6–11.1 per kWh",
+     "value": "₹9.6–11.1 per kWh",
+     "period": "FY2026-27",
+     "period_end": "2027-03-31",
+     "publisher": "CERC",
+     "series": "RE Tariff Order",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "for competitively bid solar and wind power in India, that normal tariff typically sits in the ₹2.5–3.5/kWh range",
+     "value": "₹2.5–3.5/kWh",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "CERC",
+     "series": "competitive bidding tariff benchmarks",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "levelised cost of biomass-pellet electricity was estimated at €0.12 per kWh",
+     "value": "€0.12 per kWh",
+     "period": "2018",
+     "period_end": "2018-12-31",
+     "publisher": "CEEW",
+     "series": "Biomass Pellets for Power Generation in India study",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Press reports put installations at about 58 million (5.8 crore) by 15 February 2026",
+     "value": "58 million smart meters",
+     "period": "15 February 2026",
+     "period_end": "2026-02-15",
+     "publisher": "Business Standard / The Secretariat",
+     "series": "Revamped Distribution Sector Scheme smart meter tracker",
+     "frequency": "live",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "India's total renewable capacity (excluding large hydro) grew 178% between December 2019 and July 2026",
+     "value": "178%",
+     "period": "Dec 2019 to Jul 2026",
+     "period_end": "2026-07-31",
+     "publisher": "Ministry of New & Renewable Energy (MNRE)",
+     "series": "State-wise installed renewable capacity table",
+     "frequency": "multi-year",
+     "headline": true
+    },
+    {
+     "quote": "biomass power grew just 19% — the slowest of any renewable category",
+     "value": "19%",
+     "period": "Dec 2019 to Jul 2026",
+     "period_end": "2026-07-31",
+     "publisher": "Ministry of New & Renewable Energy (MNRE)",
+     "series": "State-wise installed renewable capacity table",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "India's total bio-power capacity ... at 11,747.57 MW",
+     "value": "11,747.57 MW",
+     "period": "as on 31 Jul 2026",
+     "period_end": "2026-07-31",
+     "publisher": "Ministry of New & Renewable Energy (MNRE)",
+     "series": "State-wise installed renewable capacity table",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "solar capacity nearly quintupled (+384%)",
+     "value": "+384%",
+     "period": "Dec 2019 to Jul 2026",
+     "period_end": "2026-07-31",
+     "publisher": "Ministry of New & Renewable Energy (MNRE)",
+     "series": "State-wise installed renewable capacity table",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "solar capacity ... 164,594.75 MW",
+     "value": "164,594.75 MW",
+     "period": "Jul 2026",
+     "period_end": "2026-07-31",
+     "publisher": "Ministry of New & Renewable Energy (MNRE)",
+     "series": "State-wise installed renewable capacity table",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "wind capacity ... 58,136.89 MW",
+     "value": "58,136.89 MW",
+     "period": "Jul 2026",
+     "period_end": "2026-07-31",
+     "publisher": "Ministry of New & Renewable Energy (MNRE)",
+     "series": "State-wise installed renewable capacity table",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "biomass power/bagasse cogeneration ... 9,861 MW in Dec 2019",
+     "value": "9,861 MW",
+     "period": "Dec 2019",
+     "period_end": "2019-12-31",
+     "publisher": "Centre for Social and Economic Progress (CSEP) / CEA",
+     "series": "Executive Summary on Power Sector (2019/2020)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "peak-period tariffs ... at least 1.20 times the normal tariff",
+     "value": "1.20x",
+     "period": "as per Electricity (Rights of Consumers) Amendment Rules, 2023",
+     "period_end": null,
+     "publisher": "Ministry of Power",
+     "series": "Electricity (Rights of Consumers) Amendment Rules, 2023 (G.S.R. 437(E))",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "'solar hours' ... priced at least 20% below the normal tariff",
+     "value": "20% below normal tariff",
+     "period": "as per Electricity (Rights of Consumers) Amendment Rules, 2023",
+     "period_end": null,
+     "publisher": "Ministry of Power",
+     "series": "Electricity (Rights of Consumers) Amendment Rules, 2023 (G.S.R. 437(E))",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "peak-hour duration cannot exceed the solar-hours duration",
+     "value": "equal duration",
+     "period": "as per Electricity (Rights of Consumers) Amendment Rules, 2023",
+     "period_end": null,
+     "publisher": "Ministry of Power",
+     "series": "Electricity (Rights of Consumers) Amendment Rules, 2023 (G.S.R. 437(E))",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India has set a goal of installing 250 million smart meters by 2026",
+     "value": "250 million",
+     "period": "by 2026",
+     "period_end": "2026-12-31",
+     "publisher": "Ministry of Power (via Revamped Distribution Sector Scheme)",
+     "series": "Smart meter rollout target",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "ToD adoption is still under consideration by various state regulatory bodies and has not been uniformly implemented across states",
+     "value": "58 million (5.8 crore) installed by 15 Feb 2026",
+     "period": "as of 15 Feb 2026",
+     "period_end": "2026-02-15",
+     "publisher": "Enphase Energy / Prayas Energy Group",
+     "series": "Smart meter adoption summary",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "normative capital cost for a Rankine-cycle biomass power project at ₹638–744 lakh per MW",
+     "value": "₹638–744 lakh/MW",
+     "period": "FY2026-27",
+     "period_end": "2027-03-31",
+     "publisher": "Central Electricity Regulatory Commission (CERC)",
+     "series": "Proposed RE Tariff Order (FY2026-27)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "biomass fuel cost escalates 3.45% a year from state-specific baseline prices (₹4,262.57 per tonne in Andhra Pradesh)",
+     "value": "₹4,262.57/tonne (Andhra Pradesh)",
+     "period": "as per CERC norms",
+     "period_end": null,
+     "publisher": "Central Electricity Regulatory Commission (CERC)",
+     "series": "RE Tariff Order (FY2026-27)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "levellised tariff for biomass power ... roughly ₹9.6–11.1 per kWh",
+     "value": "₹9.6–11.1/kWh",
+     "period": "FY2026-27",
+     "period_end": "2027-03-31",
+     "publisher": "Central Electricity Regulatory Commission (CERC)",
+     "series": "RE Tariff Order (FY2026-27)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "levellised fixed-cost component of about ₹3.4–3.5/kWh",
+     "value": "₹3.4–3.5/kWh",
+     "period": "FY2026-27",
+     "period_end": "2027-03-31",
+     "publisher": "Central Electricity Regulatory Commission (CERC)",
+     "series": "RE Tariff Order (FY2026-27)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "variable fuel-cost component of ₹6.3–7.6/kWh",
+     "value": "₹6.3–7.6/kWh",
+     "period": "FY2026-27",
+     "period_end": "2027-03-31",
+     "publisher": "Central Electricity Regulatory Commission (CERC)",
+     "series": "RE Tariff Order (FY2026-27)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Maharashtra ... bio-power capacity at 2,999.97 MW",
+     "value": "2,999.97 MW",
+     "period": "as on 31 Jul 2026",
+     "period_end": "2026-07-31",
+     "publisher": "Ministry of New & Renewable Energy (MNRE)",
+     "series": "State-wise installed bio-power capacity",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "Uttar Pradesh ... bio-power capacity at 2,329.89 MW",
+     "value": "2,329.89 MW",
+     "period": "as on 31 Jul 2026",
+     "period_end": "2026-07-31",
+     "publisher": "Ministry of New & Renewable Energy (MNRE)",
+     "series": "State-wise installed bio-power capacity",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "Karnataka ... bio-power capacity at 1,917.05 MW",
+     "value": "1,917.05 MW",
+     "period": "as on 31 Jul 2026",
+     "period_end": "2026-07-31",
+     "publisher": "Ministry of New & Renewable Energy (MNRE)",
+     "series": "State-wise installed bio-power capacity",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "late-night demand exceeded afternoon demand on 21 of 31 days in May 2018",
+     "value": "21/31 days",
+     "period": "May 2018",
+     "period_end": "2018-05-31",
+     "publisher": "Centre for Science and Environment (CSE)",
+     "series": "Delhi summer electricity demand analysis",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "average day peak (5,280 MW) and average night peak (5,256 MW)",
+     "value": "5,280 MW (day) / 5,256 MW (night)",
+     "period": "May 2018",
+     "period_end": "2018-05-31",
+     "publisher": "Centre for Science and Environment (CSE)",
+     "series": "Delhi summer electricity demand analysis",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India targeting 500 GW of non-fossil capacity by 2030",
+     "value": "500 GW",
+     "period": "by 2030",
+     "period_end": "2030-12-31",
+     "publisher": "Ministry of New & Renewable Energy (MNRE)",
+     "series": "National target for non-fossil capacity",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "variable renewables expected to exceed a 50% share of the generation mix by 2029-30",
+     "value": "50%",
+     "period": "2029-30",
+     "period_end": "2030-03-31",
+     "publisher": "Council on Energy, Environment and Water (CEEW)",
+     "series": "Literature review on dynamic tariffs",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "90% of India's power is still not priced through mechanisms that reflect real-time grid conditions",
+     "value": "90%",
+     "period": "as of 2023 (CSEP working paper)",
+     "period_end": "2023-12-31",
+     "publisher": "Centre for Social and Economic Progress (CSEP)",
+     "series": "Working Paper 58 (Tongia, Dave & Dalal, 2023)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Electricity (Rights of Consumers) Amendment Rules, 2023 notified on 14 June 2023",
+     "value": "14 June 2023",
+     "period": "notified on 14 June 2023",
+     "period_end": "2023-06-14",
+     "publisher": "Ministry of Power",
+     "series": "Electricity (Rights of Consumers) Amendment Rules, 2023 (G.S.R. 437(E))",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "rule took effect for larger commercial and industrial consumers from 1 April 2024",
+     "value": "1 April 2024",
+     "period": "effective from 1 April 2024",
+     "period_end": "2024-04-01",
+     "publisher": "Ministry of Power",
+     "series": "Electricity (Rights of Consumers) Amendment Rules, 2023",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "for other consumers (except agricultural) from 1 April 2025",
+     "value": "1 April 2025",
+     "period": "effective from 1 April 2025",
+     "period_end": "2025-04-01",
+     "publisher": "Ministry of Power",
+     "series": "Electricity (Rights of Consumers) Amendment Rules, 2023",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Revamped Distribution Sector Scheme extended to 31 March 2028",
+     "value": "31 March 2028",
+     "period": "extended to 31 March 2028",
+     "period_end": "2028-03-31",
+     "publisher": "Ministry of Power",
+     "series": "Revamped Distribution Sector Scheme",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "CERC finalised its FY2026-27 generic renewable tariff order on 23 August 2026",
+     "value": "23 August 2026",
+     "period": "finalised on 23 August 2026",
+     "period_end": "2026-08-23",
+     "publisher": "Central Electricity Regulatory Commission (CERC)",
+     "series": "RE Tariff Order (FY2026-27)",
+     "frequency": "annual",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

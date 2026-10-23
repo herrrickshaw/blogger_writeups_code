@@ -1,0 +1,660 @@
+{
+ "slug": "fourteen-states-reimburse-investors",
+ "text_sha1": "790c4e1ef38230bc",
+ "chars": 20552,
+ "checked": "2026-10-23T11:37:04",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "Rajasthan (RIPS 2024)\n75%",
+     "value": "75%",
+     "period": "RIPS 2024",
+     "period_end": null,
+     "publisher": "Rajasthan state government",
+     "series": "RIPS 2024 SGST share",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "Punjab (IBDP 2026)\n75%",
+     "value": "75%",
+     "period": "IBDP 2026",
+     "period_end": null,
+     "publisher": "Punjab state government",
+     "series": "IBDP 2026 SGST share",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "Odisha (IPR 2022)\n100%",
+     "value": "100%",
+     "period": "IPR 2022",
+     "period_end": null,
+     "publisher": "Odisha state government",
+     "series": "IPR 2022 SGST share",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "Assam (2021, amended 2024)\n100%",
+     "value": "100%",
+     "period": "2021 amended 2024",
+     "period_end": null,
+     "publisher": "Assam state government",
+     "series": "SGST Reimbursement for Eligible Units Scheme, 2021 (amended 2024)",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "Tamil Nadu (IP 2021)\n100%",
+     "value": "100%",
+     "period": "Industrial Policy 2021",
+     "period_end": null,
+     "publisher": "Tamil Nadu state government",
+     "series": "Industrial Policy 2021 SGST share",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "Fourteen Indian states currently promise investors some version of “SGST reimbursement”",
+     "value": "Fourteen",
+     "period": "current",
+     "period_end": null,
+     "publisher": "state governments",
+     "series": "SGST reimbursement schemes",
+     "frequency": "live",
+     "headline": true
+    },
+    {
+     "quote": "By December 2023, the outgoing BRS government had left ₹3,736 crore in unpaid industrial incentive arrears",
+     "value": "₹3,736 crore",
+     "period": "December 2023",
+     "period_end": "2023-12-31",
+     "publisher": "Telangana industries department / Deccan Chronicle",
+     "series": "unpaid industrial incentive arrears",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹3,007 crore owed to small and medium industries",
+     "value": "₹3,007 crore",
+     "period": "December 2023",
+     "period_end": "2023-12-31",
+     "publisher": "Telangana industries department / Deccan Chronicle",
+     "series": "unpaid industrial incentive arrears for small and medium industries",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹728 crore to mega industries",
+     "value": "₹728 crore",
+     "period": "December 2023",
+     "period_end": "2023-12-31",
+     "publisher": "Telangana industries department / Deccan Chronicle",
+     "series": "unpaid industrial incentive arrears for mega industries",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "cumulative pending incentive arrears dating back to 2016 stood at ₹4,250 crore",
+     "value": "₹4,250 crore",
+     "period": "January 2025",
+     "period_end": "2025-01-31",
+     "publisher": "Telangana Directorate of Industries",
+     "series": "cumulative pending incentive arrears",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "UP runs a large capital-subsidy top-up for semiconductor investment (₹7,037 crore to Tarq Semiconductors under its ISM top-up scheme)",
+     "value": "₹7,037 crore",
+     "period": "current",
+     "period_end": null,
+     "publisher": "Uttar Pradesh state government",
+     "series": "ISM top-up scheme capital subsidy",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Tamil Nadu | Industrial Policy 2021 | 100%, on finished-product sales",
+     "value": "15 years",
+     "period": "Industrial Policy 2021",
+     "period_end": null,
+     "publisher": "Tamil Nadu state government",
+     "series": "Industrial Policy 2021 duration",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Odisha | IPR 2022 | 100%",
+     "value": "Up to 200–300% of eligible cost",
+     "period": "IPR 2022",
+     "period_end": null,
+     "publisher": "Odisha state government",
+     "series": "IPR 2022 cap",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Assam | SGST Reimbursement for Eligible Units Scheme, 2021 (amended 2024) | 100%",
+     "value": "15 years",
+     "period": "2021 amended 2024",
+     "period_end": null,
+     "publisher": "Assam state government",
+     "series": "SGST Reimbursement Scheme duration",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Assam | SGST Reimbursement for Eligible Units Scheme, 2021 (amended 2024) | 100% ... 150–250% of fixed capital investment",
+     "value": "150–250% of fixed capital investment",
+     "period": "2021 amended 2024",
+     "period_end": null,
+     "publisher": "Assam state government",
+     "series": "SGST Reimbursement Scheme cap",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Rajasthan | RIPS 2024 | 75%",
+     "value": "7 years",
+     "period": "RIPS 2024",
+     "period_end": null,
+     "publisher": "Rajasthan state government",
+     "series": "RIPS 2024 duration",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Punjab | IBDP 2026 | 75% ... Composite incentive cap ₹500 crore",
+     "value": "₹500 crore",
+     "period": "IBDP 2026",
+     "period_end": null,
+     "publisher": "Punjab state government",
+     "series": "IBDP 2026 composite incentive cap",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Chhattisgarh | IDP 2024–30 | 60–100% by sector/district category",
+     "value": "6–12 years by category",
+     "period": "2024-30",
+     "period_end": "2030-12-31",
+     "publisher": "Chhattisgarh state government",
+     "series": "IDP 2024-30 duration",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Chhattisgarh | IDP 2024–30 ... Up to 150% of fixed capital investment",
+     "value": "Up to 150% of fixed capital investment",
+     "period": "2024-30",
+     "period_end": "2030-12-31",
+     "publisher": "Chhattisgarh state government",
+     "series": "IDP 2024-30 cap",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Maharashtra | PSI 2019 ... 100% (MSME) / 50% (Large) / 40% (Special Large)",
+     "value": "7–10 years, zone-dependent",
+     "period": "PSI 2019",
+     "period_end": null,
+     "publisher": "Maharashtra state government",
+     "series": "PSI 2019 duration",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Maharashtra | PSI 2019 ... 30–80% of fixed capital investment, by district zone",
+     "value": "30–80% of fixed capital investment",
+     "period": "PSI 2019",
+     "period_end": null,
+     "publisher": "Maharashtra state government",
+     "series": "PSI 2019 cap",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Telangana | MSME Policy 2024 ... 5 years (MSME); 5–7 years for Large/Mega",
+     "value": "5 years (MSME); 5–7 years for Large/Mega",
+     "period": "2024",
+     "period_end": "2024-12-31",
+     "publisher": "Telangana state government",
+     "series": "Telangana MSME Policy duration",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Andhra Pradesh | Industrial Development Policy 4.0, 2024–29 ... 5 years (MSME); 7 years (Large)",
+     "value": "5 years (MSME); 7 years (Large)",
+     "period": "2024-29",
+     "period_end": "2029-03-31",
+     "publisher": "Andhra Pradesh state government",
+     "series": "Industrial Development Policy 4.0 duration",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Madhya Pradesh | Industrial Promotion Policy 2025 ... 7–10 years",
+     "value": "7–10 years",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "Madhya Pradesh state government",
+     "series": "Industrial Promotion Policy 2025 duration",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Madhya Pradesh | Industrial Promotion Policy 2025 ... Bundled with capital-assistance caps of ₹15–90 crore",
+     "value": "₹15–90 crore",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "Madhya Pradesh state government",
+     "series": "Industrial Promotion Policy 2025 capital-assistance caps",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Haryana | “Make in Haryana” Industrial Policy 2026 ... 30–70%",
+     "value": "30–70%",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "Haryana state government",
+     "series": "Make in Haryana Industrial Policy 2026 SGST share",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Haryana | “Make in Haryana” Industrial Policy 2026 ... 7 years (Large) / 10 years (Mega) / up to 12 years (Ultra-Mega)",
+     "value": "7 years (Large) / 10 years (Mega) / up to 12 years (Ultra-Mega)",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "Haryana state government",
+     "series": "Make in Haryana Industrial Policy 2026 duration",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Bihar | Industrial Investment Promotion Package 2025 ... 14 years",
+     "value": "14 years",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "Bihar state government",
+     "series": "BIIPP-2025 duration",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Karnataka's Industrial Policy 2025–30 gives investors a choice between a capital subsidy (10–25% of fixed assets, by zone)",
+     "value": "10–25% of fixed assets",
+     "period": "2025-30",
+     "period_end": "2030-03-31",
+     "publisher": "Karnataka state government",
+     "series": "Industrial Policy 2025-30 capital subsidy",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Karnataka's Industrial Policy 2025–30 gives investors a choice between ... a turnover-linked payout (1.0–2.5% of net sales turnover for 7 years)",
+     "value": "1.0–2.5% of net sales turnover for 7 years",
+     "period": "2025-30",
+     "period_end": "2030-03-31",
+     "publisher": "Karnataka state government",
+     "series": "Industrial Policy 2025-30 turnover-linked payout",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "Tamil Nadu offers it. So do Rajasthan, Punjab, Odisha, Maharashtra, Telangana, Andhra Pradesh, Madhya Pradesh, Haryana, Chhattisgarh, Jharkhand, Himachal Pradesh, Assam and Bihar — fourteen states in this piece alone",
+     "value": "14 states",
+     "period": null,
+     "period_end": null,
+     "publisher": "Author (unspecified)",
+     "series": "State-level SGST reimbursement schemes",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "Tamil Nadu offers 100% reimbursement... Rajasthan and Punjab offer 75%... Odisha, Assam 100%...",
+     "value": "100% of SGST reimbursement",
+     "period": null,
+     "period_end": null,
+     "publisher": "Author (unspecified)",
+     "series": "State-level SGST reimbursement schemes",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Tamil Nadu offers it... for 15 years... Assam also offers 15 years...",
+     "value": "15 years",
+     "period": null,
+     "period_end": null,
+     "publisher": "Author (unspecified)",
+     "series": "State-level SGST reimbursement duration",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Punjab and Rajasthan's 75%... Tamil Nadu, Odisha and Assam's 100%...",
+     "value": "75% of SGST reimbursement",
+     "period": null,
+     "period_end": null,
+     "publisher": "Author (unspecified)",
+     "series": "State-level SGST reimbursement schemes",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Andhra Pradesh and Telangana offer 5 years...",
+     "value": "5 years",
+     "period": null,
+     "period_end": null,
+     "publisher": "Author (unspecified)",
+     "series": "State-level SGST reimbursement duration",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Haryana’s HEEP 2020 has been replaced. The Make in Haryana Industrial Policy 2026... was notified with effect from 26 May 2026 for five years.",
+     "value": "5 years",
+     "period": "26 May 2026",
+     "period_end": "2026-05-26",
+     "publisher": "Haryana Industries and Commerce Department",
+     "series": "Make in Haryana Industrial Policy 2026",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "A Grant Thornton alert of 12 June 2026 reports net SGST reimbursement of 30–70%... over 7, 10 or 12 years...",
+     "value": "30–70% of net SGST reimbursement",
+     "period": "12 June 2026",
+     "period_end": "2026-06-12",
+     "publisher": "Grant Thornton India",
+     "series": "HEEP 2020 replacement terms (secondary source)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Himachal Pradesh’s extension was due to run out on 12 October 2026",
+     "value": "12 October 2026",
+     "period": "12 October 2026",
+     "period_end": "2026-10-12",
+     "publisher": "Himachal Pradesh Industries Department",
+     "series": "Investment Promotion Policy extension",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "By December 2023, the outgoing BRS government had left ₹3,736 crore in unpaid industrial incentive arrears...",
+     "value": "₹3,736 crore",
+     "period": "December 2023",
+     "period_end": "2023-12-31",
+     "publisher": "Telangana Industries Department (via Deccan Chronicle)",
+     "series": "Unpaid industrial incentive arrears",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Fourteen months later, in January 2025, the incoming Congress government's own Director of Industries... stated arrears at ₹4,250 crore",
+     "value": "₹4,250 crore",
+     "period": "January 2025",
+     "period_end": "2025-01-31",
+     "publisher": "Telangana Industries Department (via BizzBuzz News)",
+     "series": "Cumulative pending incentive arrears",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Special Leave Petition (Civil) 21029/2024 was last heard on 25 September 2025",
+     "value": "25 September 2025",
+     "period": "25 September 2025",
+     "period_end": "2025-09-25",
+     "publisher": "Supreme Court of India",
+     "series": "Jharkhand SGST reimbursement case (Atibir Industries Co. Ltd. v. State of Jharkhand)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The Patna High Court held that a subsequent policy amendment cannot override incentives already promised... for April–September 2021",
+     "value": "₹ (unspecified amount) for April–September 2021",
+     "period": "April–September 2021",
+     "period_end": "2021-09-30",
+     "publisher": "Patna High Court",
+     "series": "Bihar SGST/VAT reimbursement case",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Odisha: IPR 2022... 100%... tied to the cap below... Up to 200–300% of eligible cost",
+     "value": "200–300% of eligible cost",
+     "period": null,
+     "period_end": null,
+     "publisher": "Odisha Industrial Promotion Policy 2022",
+     "series": "SGST reimbursement cap",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Assam: 100%... 150–250% of fixed capital investment",
+     "value": "150–250% of fixed capital investment",
+     "period": null,
+     "period_end": null,
+     "publisher": "Assam SGST Reimbursement Scheme 2021 (amended 2024)",
+     "series": "SGST reimbursement cap",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Punjab: Composite incentive cap ₹500 crore",
+     "value": "₹500 crore",
+     "period": null,
+     "period_end": null,
+     "publisher": "Punjab Industrial Base Development Policy 2026",
+     "series": "Composite incentive cap",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Chhattisgarh: Up to 150% of fixed capital investment",
+     "value": "150% of fixed capital investment",
+     "period": null,
+     "period_end": null,
+     "publisher": "Chhattisgarh Industrial Development Policy 2024–30",
+     "series": "SGST reimbursement cap",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Maharashtra: 30–80% of fixed capital investment, by district zone",
+     "value": "30–80% of fixed capital investment",
+     "period": null,
+     "period_end": null,
+     "publisher": "Maharashtra PSI 2019",
+     "series": "SGST reimbursement cap",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Andhra Pradesh: 5% of annual turnover per year (MSME)... 7 years or 100% of fixed capital investment recovered, whichever first (Large)",
+     "value": "5% of annual turnover per year (MSME)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Andhra Pradesh Industrial Development Policy 4.0, 2024–29",
+     "series": "SGST reimbursement cap (MSME)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Madhya Pradesh: Bundled with capital-assistance caps of ₹15–90 crore by project scale",
+     "value": "₹15–90 crore",
+     "period": null,
+     "period_end": null,
+     "publisher": "Madhya Pradesh Industrial Promotion Policy 2025",
+     "series": "Capital-assistance cap",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Jharkhand: 100% of fixed capital investment (MSME)",
+     "value": "100% of fixed capital investment (MSME)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Jharkhand JIIPP 2021",
+     "series": "SGST reimbursement cap (MSME)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Himachal Pradesh: 80% or 100% of fixed capital investment",
+     "value": "80% or 100% of fixed capital investment",
+     "period": null,
+     "period_end": null,
+     "publisher": "Himachal Pradesh Investment Promotion Policy 2019",
+     "series": "SGST reimbursement cap",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Bihar: up to 300% of approved project cost",
+     "value": "300% of approved project cost",
+     "period": null,
+     "period_end": null,
+     "publisher": "Bihar Industrial Investment Promotion Package 2025",
+     "series": "SGST reimbursement cap",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Karnataka's Industrial Policy 2025–30 gives investors a choice... 1.0–2.5% of net sales turnover for 7 years",
+     "value": "1.0–2.5% of net sales turnover",
+     "period": null,
+     "period_end": null,
+     "publisher": "Karnataka Industrial Policy 2025–30",
+     "series": "Turnover-linked payout",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "West Bengal formally revoked every state industrial incentive scheme it had in 2025",
+     "value": "2025",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "West Bengal Government (Gazette Bill No. 5 of 2025)",
+     "series": "Revocations of industrial incentive schemes",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Uttar Pradesh runs a large capital-subsidy top-up for semiconductor investment (₹7,037 crore to Tarq Semiconductors)",
+     "value": "₹7,037 crore",
+     "period": null,
+     "period_end": null,
+     "publisher": "Uttar Pradesh Government (ISM top-up scheme)",
+     "series": "Capital-subsidy top-up",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Gujarat's Viksit Gujarat Industrial Policy 2026 is also not built around SGST reimbursement — it runs a tiered capital subsidy (35% up to 40–50%)",
+     "value": "35% up to 40–50% of capital subsidy",
+     "period": null,
+     "period_end": null,
+     "publisher": "Gujarat Government (Viksit Gujarat Industrial Policy 2026)",
+     "series": "Tiered capital subsidy",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Chhattisgarh: 60–100% by sector/district category; 100% for 'cutting-edge sectors'",
+     "value": "60–100% by sector/district category",
+     "period": null,
+     "period_end": null,
+     "publisher": "Chhattisgarh Industrial Development Policy 2024–30",
+     "series": "SGST reimbursement share by sector",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Maharashtra: 100% (MSME) / 50% (Large) / 40% (Special Large)",
+     "value": "100% (MSME), 50% (Large), 40% (Special Large)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Maharashtra PSI 2019",
+     "series": "SGST reimbursement share by category",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Telangana: 100% (MSME); 50% (Large) — a separate '100% Net SGST' figure also appears for Large/Mega",
+     "value": "100% (MSME), 50% (Large)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Telangana MSME Policy 2024",
+     "series": "SGST reimbursement share by category",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Andhra Pradesh: 100% (MSME); 50% (Large)",
+     "value": "100% (MSME), 50% (Large)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Andhra Pradesh Industrial Development Policy 4.0, 2024–29",
+     "series": "SGST reimbursement share by category",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Madhya Pradesh: Not isolated from bundled investment-promotion assistance in sources found",
+     "value": "₹15–90 crore (capital-assistance caps)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Madhya Pradesh Industrial Promotion Policy 2025",
+     "series": "Bundled investment-promotion assistance",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Himachal Pradesh: 60–90% (MSME, by zone); 60–80% (Large, by zone); 100% (steel 'anchor' units)",
+     "value": "60–90% (MSME), 60–80% (Large), 100% (steel anchor units)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Himachal Pradesh Investment Promotion Policy 2019",
+     "series": "SGST reimbursement share by category",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Bihar: Sources give two different figures — 'up to 300% of approved project cost' and 'up to 100%'",
+     "value": "up to 300% of approved project cost",
+     "period": null,
+     "period_end": null,
+     "publisher": "Bihar Industrial Investment Promotion Package 2025",
+     "series": "SGST reimbursement cap",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Karnataka runs a capex- or turnover-linked scheme instead, and West Bengal formally revoked every scheme in 2025",
+     "value": "2025",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "West Bengal Government",
+     "series": "Revocations of industrial incentive schemes",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

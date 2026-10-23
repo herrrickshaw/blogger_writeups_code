@@ -1,0 +1,270 @@
+{
+ "slug": "indias-petroleum-act-still-fines",
+ "text_sha1": "d5866c9ae5213509",
+ "chars": 8805,
+ "checked": "2026-10-23T14:31:34",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "₹1,000 Maximum fine today for a first offence under section 23 of the Petroleum Act, 1934, unchanged since 1970",
+     "value": "₹1,000",
+     "period": "1970",
+     "period_end": null,
+     "publisher": "PIB / ministry",
+     "series": "Petroleum Act, 1934, section 23",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "₹2.5 cr / ₹5 cr Proposed civil penalty for breaching a licence: first breach, then later breaches",
+     "value": "₹2.5 cr / ₹5 cr",
+     "period": "30 September 2026",
+     "period_end": "2026-09-30",
+     "publisher": "PIB / ministry",
+     "series": "Draft Petroleum (Amendment) Bill, 2026",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "₹25 cr Proposed maximum fine for operating without a licence, with up to 3 years in jail",
+     "value": "₹25 cr",
+     "period": "30 September 2026",
+     "period_end": "2026-09-30",
+     "publisher": "PIB / ministry",
+     "series": "Draft Petroleum (Amendment) Bill, 2026",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "30 Oct 2026 Last date for public comments on the draft",
+     "value": "30 Oct 2026",
+     "period": "30 Oct 2026",
+     "period_end": "2026-10-30",
+     "publisher": "PIB / ministry",
+     "series": "Draft Petroleum (Amendment) Bill, 2026 notice",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "covering more than 70,000 pump owners",
+     "value": "70,000",
+     "period": null,
+     "period_end": null,
+     "publisher": "PIB / ministry",
+     "series": "PESO paperless licensing for retail outlets",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "counts about 82,000",
+     "value": "82,000",
+     "period": null,
+     "period_end": null,
+     "publisher": "PIB / ministry",
+     "series": "fuel retail outlets geocoded map",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "up to ₹2.5 crore for a first breach, ₹5 crore for later ones",
+     "value": "₹2.5 crore / ₹5 crore",
+     "period": "30 September 2026",
+     "period_end": "2026-09-30",
+     "publisher": "PIB / ministry",
+     "series": "Draft Petroleum (Amendment) Bill, 2026",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "up to 3 years or up to ₹25 crore, or both; up to ₹10 lakh a day",
+     "value": "₹25 crore / ₹10 lakh a day",
+     "period": "30 September 2026",
+     "period_end": "2026-09-30",
+     "publisher": "PIB / ministry",
+     "series": "Draft Petroleum (Amendment) Bill, 2026",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "up to 5 years or ₹15 crore for a first offence, 7 years or ₹25 crore for a repeat",
+     "value": "₹15 crore / ₹25 crore",
+     "period": "30 September 2026",
+     "period_end": "2026-09-30",
+     "publisher": "PIB / ministry",
+     "series": "Draft Petroleum (Amendment) Bill, 2026",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "up to 10 years and a fine of up to ₹25 crore or the cost of the damage",
+     "value": "₹25 crore",
+     "period": "30 September 2026",
+     "period_end": "2026-09-30",
+     "publisher": "PIB / ministry",
+     "series": "Draft Petroleum (Amendment) Bill, 2026",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "A month in jail or a ₹1,000 fine, amounts unchanged since 1970",
+     "value": "₹1,000",
+     "period": null,
+     "period_end": null,
+     "publisher": "Petroleum Act, 1934 (as amended in 1970)",
+     "series": "Section 23 penalty clause for licence breaches",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "₹1,000 Maximum fine today for a first offence under section 23 of the Petroleum Act, 1934",
+     "value": "₹1,000",
+     "period": null,
+     "period_end": null,
+     "publisher": "Petroleum Act, 1934 (bare text via Lawgratis/Indian Kanoon)",
+     "series": "Section 23 penalty for first offence",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "repeat offender faces up to three months or ₹5,000",
+     "value": "₹5,000",
+     "period": null,
+     "period_end": null,
+     "publisher": "Petroleum Act, 1934 (as amended in 1970)",
+     "series": "Section 23 penalty for repeat offences",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹2.5 cr / ₹5 cr Proposed civil penalty for breaching a licence: first breach, then later breaches",
+     "value": "₹2.5 crore (first breach), ₹5 crore (later breaches)",
+     "period": null,
+     "period_end": null,
+     "publisher": "MoPNG draft Petroleum (Amendment) Bill, 2026",
+     "series": "Proposed civil penalties for licence breaches",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "₹25 cr Proposed maximum fine for operating without a licence, with up to 3 years in jail",
+     "value": "₹25 crore",
+     "period": null,
+     "period_end": null,
+     "publisher": "MoPNG draft Petroleum (Amendment) Bill, 2026",
+     "series": "Proposed penalty for unlicensed activity",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "up to ₹10 lakh a day while it continues [for unlicensed activity]",
+     "value": "₹10 lakh/day",
+     "period": null,
+     "period_end": null,
+     "publisher": "MoPNG draft Petroleum (Amendment) Bill, 2026",
+     "series": "Continuing penalty for unlicensed activity",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "up to 5 years, or a fine, or both [for licence fraud]",
+     "value": "up to 5 years imprisonment or fine",
+     "period": null,
+     "period_end": null,
+     "publisher": "MoPNG draft Petroleum (Amendment) Bill, 2026",
+     "series": "Proposed penalty for licence fraud",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "up to 5 years or ₹15 crore for a first offence, 7 years or ₹25 crore for a repeat [for damage to facilities]",
+     "value": "₹15 crore (first offence), ₹25 crore (repeat)",
+     "period": null,
+     "period_end": null,
+     "publisher": "MoPNG draft Petroleum (Amendment) Bill, 2026",
+     "series": "Proposed penalty for damage to petroleum facilities",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "up to 10 years and a fine of up to ₹25 crore or the cost of the damage [for critical infrastructure damage]",
+     "value": "₹25 crore (or cost of damage, whichever is less)",
+     "period": null,
+     "period_end": null,
+     "publisher": "MoPNG draft Petroleum (Amendment) Bill, 2026",
+     "series": "Proposed penalty for damage to critical petroleum infrastructure",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "PESO’s paperless licensing for retail outlets was described as covering more than 70,000 pump owners",
+     "value": ">70,000",
+     "period": null,
+     "period_end": null,
+     "publisher": "PESO (via PIB)",
+     "series": "Paperless licensing coverage for retail outlets",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "this blog’s map of fuel retail outlets counts about 82,000",
+     "value": "82,000",
+     "period": null,
+     "period_end": null,
+     "publisher": "Author’s geocoded map",
+     "series": "Fuel retail outlets count",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "30 Oct 2026 Last date for public comments on the draft",
+     "value": "30 October 2026",
+     "period": "30 Oct 2026",
+     "period_end": "2026-10-30",
+     "publisher": "MoPNG",
+     "series": "Public comment deadline for draft bill",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "On 30 September 2026 the ministry released a draft Petroleum (Amendment) Bill, 2026",
+     "value": "30 September 2026",
+     "period": "30 Sep 2026",
+     "period_end": "2026-09-30",
+     "publisher": "MoPNG",
+     "series": "Draft bill release date",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The Ministry of Petroleum and Natural Gas now describes them [₹1,000 penalties] as insignificant",
+     "value": "₹1,000 (described as insignificant)",
+     "period": null,
+     "period_end": null,
+     "publisher": "MoPNG",
+     "series": "Ministry’s assessment of current penalties",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹2.5 crore is 25,000 times ₹1,000",
+     "value": "25,000x",
+     "period": null,
+     "period_end": null,
+     "publisher": "Author’s calculation (based on MoPNG draft)",
+     "series": "Ratio of proposed penalty to current penalty",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

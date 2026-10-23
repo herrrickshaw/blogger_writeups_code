@@ -1,0 +1,260 @@
+{
+ "slug": "india-trade-sector-policy",
+ "text_sha1": "3fca89123fe47310",
+ "chars": 6587,
+ "checked": "2026-10-23T13:40:35",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "the $334.3bn deficit (current TradeStat running total, up from an earlier $333bn estimate)",
+     "value": "$334.3bn",
+     "period": "current",
+     "period_end": null,
+     "publisher": "TradeStat",
+     "series": "TradeStat running total",
+     "frequency": "live",
+     "headline": true
+    },
+    {
+     "quote": "CBAM export-risk flag ($20.7bn)",
+     "value": "$20.7bn",
+     "period": "current",
+     "period_end": null,
+     "publisher": "PIB / ministry",
+     "series": "CBAM export-risk flag",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "PIB-verified ethanol blending (₹1.97 lakh cr forex saved)",
+     "value": "₹1.97 lakh cr",
+     "period": "current",
+     "period_end": null,
+     "publisher": "PIB / ministry",
+     "series": "ethanol blending forex saved",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "employment (ELI ₹99,446cr)",
+     "value": "₹99,446cr",
+     "period": "current",
+     "period_end": null,
+     "publisher": "PIB / ministry",
+     "series": "Employment Linked Incentive (ELI)",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "₹28,748cr = ~15% of outlay",
+     "value": "₹28,748cr",
+     "period": "current",
+     "period_end": null,
+     "publisher": "PIB / ministry",
+     "series": "PLI incentive disbursal",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "top 3 = 63.3%",
+     "value": "63.3%",
+     "period": "2021-2025",
+     "period_end": "2025-12-31",
+     "publisher": "PIB / ministry",
+     "series": "IEM Part B implemented industrial investment",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Odisha #2 with 0.14% of FDI",
+     "value": "0.14%",
+     "period": "current",
+     "period_end": null,
+     "publisher": "DPIIT",
+     "series": "FDI equity inflow state-wise",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "~₹1.9 lakh cr of new commitments",
+     "value": "~₹1.9 lakh cr",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "PIB / ministry",
+     "series": "Non-PLI incentive wave",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Full national EC register (113,804 proposals)",
+     "value": "113,804",
+     "period": "current",
+     "period_end": null,
+     "publisher": "MoEFCC",
+     "series": "PARIVESH EC data",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "19,795 companies across 107 countries",
+     "value": "19,795",
+     "period": "current",
+     "period_end": null,
+     "publisher": "PIB / ministry",
+     "series": "Global company pools per incentivized sector",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "the $334.3bn deficit (current TradeStat running total, up from an earlier $333bn estimate) as the stakes",
+     "value": "$334.3 billion",
+     "period": null,
+     "period_end": null,
+     "publisher": "TradeStat",
+     "series": "Current Account Deficit (TradeStat running total)",
+     "frequency": "live",
+     "headline": true
+    },
+    {
+     "quote": "PIB-verified ethanol blending (₹1.97 lakh cr forex saved)",
+     "value": "₹197,000 crore",
+     "period": null,
+     "period_end": null,
+     "publisher": "PIB (Press Information Bureau)",
+     "series": "Ethanol Blending Forex Savings",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "CBAM export-risk flag ($20.7bn)",
+     "value": "$20.7 billion",
+     "period": null,
+     "period_end": null,
+     "publisher": null,
+     "series": "CBAM Export-Risk Flag",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹28,748cr = ~15% of outlay; Pharma A to ACC Battery F",
+     "value": "₹28,748 crore (~15% of total outlay)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Government of India (PLI incentive disbursal data)",
+     "series": "PLI Scheme Incentive Disbursal",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "ELI ₹99,446cr",
+     "value": "₹99,446 crore",
+     "period": null,
+     "period_end": null,
+     "publisher": null,
+     "series": "Employment-Linked Incentive (ELI) Payouts",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "top 3 = 63.3%; Odisha #2 with 0.14% of FDI",
+     "value": "63.3% (top 3 states) and 0.14% (Odisha)",
+     "period": "2021-2025",
+     "period_end": "2025-03-31",
+     "publisher": null,
+     "series": "State-wise Investment Implementation (IEM Part B)",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "~₹1.9 lakh cr of new commitments that de-risk inputs instead of paying for output",
+     "value": "₹190,000 crore (approx.)",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": null,
+     "series": "Non-PLI Incentive Wave Commitments",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Full national EC register (113,804 proposals)",
+     "value": "113,804 proposals",
+     "period": null,
+     "period_end": null,
+     "publisher": "PARIVESH EC (Environment Clearance)",
+     "series": "National Environment Clearance Register",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "19,795 companies across 107 countries mapped to the 12 incentivized sectors",
+     "value": "19,795 companies",
+     "period": null,
+     "period_end": null,
+     "publisher": null,
+     "series": "Global Company Pools per Incentivized Sector",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "93 Cabinet-register launches: new PLI schemes 11 → 1 → 1 → 0 → 2 → 0",
+     "value": "93 total launches (11 in 2021, 1 in 2022, 1 in 2023, 0 in 2024, 2 in 2025, 0 in 2026)",
+     "period": "2021–2026",
+     "period_end": "2026-12-31",
+     "publisher": "Cabinet Register",
+     "series": "PLI Scheme Launches by Year",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "8 closed-success / 8 partial / 2 laggards — every success ran on a demand-side guarantee or procurement design",
+     "value": "8 closed-success, 8 partial, 2 laggards",
+     "period": "2014–2026",
+     "period_end": "2026-12-31",
+     "publisher": null,
+     "series": "Decade Report Card on PLI Schemes",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "honest timescale ~8–10 years",
+     "value": "8–10 years",
+     "period": null,
+     "period_end": null,
+     "publisher": null,
+     "series": "PLI Scheme Maturation Timescale",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "16 ministries' sites, CMS APIs and portals + NSWS: ~100 policies with live application windows",
+     "value": "~100 policies",
+     "period": null,
+     "period_end": null,
+     "publisher": null,
+     "series": "Ministry Incentive Catalog",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "POSCO-JSW JV and RRPCL absent entirely",
+     "value": "0 (absence of POSCO-JSW JV and RRPCL)",
+     "period": null,
+     "period_end": null,
+     "publisher": "PARIVESH EC",
+     "series": "Flagship Project Status in EC Register",
+     "frequency": "live",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

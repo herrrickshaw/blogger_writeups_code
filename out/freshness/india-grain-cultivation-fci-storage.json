@@ -1,0 +1,660 @@
+{
+ "slug": "india-grain-cultivation-fci-storage",
+ "text_sha1": "67a9c05a410f0a60",
+ "chars": 11789,
+ "checked": "2026-10-23T12:30:36",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "Madhya Pradesh \n 200 LMT",
+     "value": "200 LMT",
+     "period": "Nov 2024",
+     "period_end": "2024-11-30",
+     "publisher": "DFPD",
+     "series": "Foodgrain Bulletin",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "Madhya Pradesh \n 200 LMT \n 348 FPOs",
+     "value": "348 FPOs",
+     "period": "24-02-2025",
+     "period_end": "2025-02-24",
+     "publisher": "SFAC",
+     "series": "10,000-FPO registry",
+     "frequency": "live",
+     "headline": true
+    },
+    {
+     "quote": "Punjab \n 174 LMT",
+     "value": "174 LMT",
+     "period": "Nov 2024",
+     "period_end": "2024-11-30",
+     "publisher": "DFPD",
+     "series": "Foodgrain Bulletin",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "Punjab \n 174 LMT \n 78 FPOs",
+     "value": "78 FPOs",
+     "period": "24-02-2025",
+     "period_end": "2025-02-24",
+     "publisher": "SFAC",
+     "series": "10,000-FPO registry",
+     "frequency": "live",
+     "headline": true
+    },
+    {
+     "quote": "Punjab has 569 FCI depots but only 78 FPOs.",
+     "value": "569 FCI depots",
+     "period": null,
+     "period_end": null,
+     "publisher": "FCI",
+     "series": "FCI depots (owned+hired warehouse count)",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "Haryana \n 100 LMT",
+     "value": "100 LMT",
+     "period": "Nov 2024",
+     "period_end": "2024-11-30",
+     "publisher": "DFPD",
+     "series": "Foodgrain Bulletin",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "Haryana \n 100 LMT \n 119 FPOs",
+     "value": "119 FPOs",
+     "period": "24-02-2025",
+     "period_end": "2025-02-24",
+     "publisher": "SFAC",
+     "series": "10,000-FPO registry",
+     "frequency": "live",
+     "headline": true
+    },
+    {
+     "quote": "Uttar Pradesh \n 47 LMT",
+     "value": "47 LMT",
+     "period": "Nov 2024",
+     "period_end": "2024-11-30",
+     "publisher": "DFPD",
+     "series": "Foodgrain Bulletin",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "Uttar Pradesh \n 47 LMT \n 758 FPOs (most of any state)",
+     "value": "758 FPOs",
+     "period": "24-02-2025",
+     "period_end": "2025-02-24",
+     "publisher": "SFAC",
+     "series": "10,000-FPO registry",
+     "frequency": "live",
+     "headline": true
+    },
+    {
+     "quote": "Chhattisgarh \n 36 LMT",
+     "value": "36 LMT",
+     "period": "Nov 2024",
+     "period_end": "2024-11-30",
+     "publisher": "DFPD",
+     "series": "Foodgrain Bulletin",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "Chhattisgarh \n 36 LMT \n 68 FPOs",
+     "value": "68 FPOs",
+     "period": "24-02-2025",
+     "period_end": "2025-02-24",
+     "publisher": "SFAC",
+     "series": "10,000-FPO registry",
+     "frequency": "live",
+     "headline": true
+    },
+    {
+     "quote": "Andhra Pradesh \n 25 LMT",
+     "value": "25 LMT",
+     "period": "Nov 2024",
+     "period_end": "2024-11-30",
+     "publisher": "DFPD",
+     "series": "Foodgrain Bulletin",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "Andhra Pradesh \n 25 LMT \n 247 FPOs",
+     "value": "247 FPOs",
+     "period": "24-02-2025",
+     "period_end": "2025-02-24",
+     "publisher": "SFAC",
+     "series": "10,000-FPO registry",
+     "frequency": "live",
+     "headline": true
+    },
+    {
+     "quote": "7. Telangana 24 LMT 116 FPOs",
+     "value": "24 LMT",
+     "period": "Nov 2024",
+     "period_end": "2024-11-30",
+     "publisher": "DFPD",
+     "series": "Foodgrain Bulletin",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "7. Telangana 24 LMT 116 FPOs",
+     "value": "116 FPOs",
+     "period": "24-02-2025",
+     "period_end": "2025-02-24",
+     "publisher": "SFAC",
+     "series": "10,000-FPO registry",
+     "frequency": "live",
+     "headline": true
+    },
+    {
+     "quote": "8. Maharashtra 24 LMT 213 FPOs",
+     "value": "24 LMT",
+     "period": "Nov 2024",
+     "period_end": "2024-11-30",
+     "publisher": "DFPD",
+     "series": "Foodgrain Bulletin",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "8. Maharashtra 24 LMT 213 FPOs",
+     "value": "213 FPOs",
+     "period": "24-02-2025",
+     "period_end": "2025-02-24",
+     "publisher": "SFAC",
+     "series": "10,000-FPO registry",
+     "frequency": "live",
+     "headline": true
+    },
+    {
+     "quote": "9. Bihar 21 LMT 312 FPOs",
+     "value": "21 LMT",
+     "period": "Nov 2024",
+     "period_end": "2024-11-30",
+     "publisher": "DFPD",
+     "series": "Foodgrain Bulletin",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "9. Bihar 21 LMT 312 FPOs",
+     "value": "312 FPOs",
+     "period": "24-02-2025",
+     "period_end": "2025-02-24",
+     "publisher": "SFAC",
+     "series": "10,000-FPO registry",
+     "frequency": "live",
+     "headline": true
+    },
+    {
+     "quote": "10. Tamil Nadu 21 LMT 90 FPOs",
+     "value": "21 LMT",
+     "period": "Nov 2024",
+     "period_end": "2024-11-30",
+     "publisher": "DFPD",
+     "series": "Foodgrain Bulletin",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "10. Tamil Nadu 21 LMT 90 FPOs",
+     "value": "90 FPOs",
+     "period": "24-02-2025",
+     "period_end": "2025-02-24",
+     "publisher": "SFAC",
+     "series": "10,000-FPO registry",
+     "frequency": "live",
+     "headline": true
+    },
+    {
+     "quote": "11. West Bengal 20 LMT 156 FPOs",
+     "value": "20 LMT",
+     "period": "Nov 2024",
+     "period_end": "2024-11-30",
+     "publisher": "DFPD",
+     "series": "Foodgrain Bulletin",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "11. West Bengal 20 LMT 156 FPOs",
+     "value": "156 FPOs",
+     "period": "24-02-2025",
+     "period_end": "2025-02-24",
+     "publisher": "SFAC",
+     "series": "10,000-FPO registry",
+     "frequency": "live",
+     "headline": true
+    },
+    {
+     "quote": "12. Rajasthan 16 LMT 225 FPOs",
+     "value": "16 LMT",
+     "period": "Nov 2024",
+     "period_end": "2024-11-30",
+     "publisher": "DFPD",
+     "series": "Foodgrain Bulletin",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "12. Rajasthan 16 LMT 225 FPOs",
+     "value": "225 FPOs",
+     "period": "24-02-2025",
+     "period_end": "2025-02-24",
+     "publisher": "SFAC",
+     "series": "10,000-FPO registry",
+     "frequency": "live",
+     "headline": true
+    },
+    {
+     "quote": "DFPD Foodgrain Bulletin Nov-2024 (~841 LMT all-India, all agencies",
+     "value": "~841 LMT",
+     "period": "Nov-2024",
+     "period_end": "2024-11-30",
+     "publisher": "DFPD",
+     "series": "Foodgrain Bulletin",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "SFAC 10,000-FPO registry, 24-02-2025 (3,649 — SFAC channel only",
+     "value": "3,649",
+     "period": "24-02-2025",
+     "period_end": "2025-02-24",
+     "publisher": "SFAC",
+     "series": "10,000-FPO registry",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "India-wide FPO count ~45,000 across all promoting agencies",
+     "value": "~45,000",
+     "period": null,
+     "period_end": null,
+     "publisher": "PIB / ministry",
+     "series": "All-India FPO registrations across promoting agencies",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "launched by the Prime Minister on 29 February 2020 with a ₹6,865 crore outlay running through 2027-28",
+     "value": "₹6,865 crore",
+     "period": "through 2027-28",
+     "period_end": "2028-03-31",
+     "publisher": "PIB / ministry",
+     "series": "Formation and Promotion of 10,000 Farmer Producer Organisations scheme outlay",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Each FPO is eligible for financial assistance of up to ₹18 lakh over three years",
+     "value": "up to ₹18 lakh",
+     "period": "over three years",
+     "period_end": null,
+     "publisher": "PIB / ministry",
+     "series": "Formation and Promotion of 10,000 Farmer Producer Organisations financial assistance",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "a matching equity grant of up to ₹15 lakh",
+     "value": "up to ₹15 lakh",
+     "period": null,
+     "period_end": null,
+     "publisher": "PIB / ministry",
+     "series": "Formation and Promotion of 10,000 Farmer Producer Organisations equity grant",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "a credit guarantee of up to ₹2 crore per project loan from eligible lending institutions",
+     "value": "up to ₹2 crore",
+     "period": null,
+     "period_end": null,
+     "publisher": "PIB / ministry",
+     "series": "Formation and Promotion of 10,000 Farmer Producer Organisations credit guarantee",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Haryana: 100.2 LMT storage, 119 FPOs, 262 FCI depots",
+     "value": "262 FCI depots",
+     "period": null,
+     "period_end": null,
+     "publisher": "FCI",
+     "series": "FCI depots (owned+hired warehouse count)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Uttar Pradesh: 47.2 LMT storage, 758 FPOs, 198 FCI depots",
+     "value": "198 FCI depots",
+     "period": null,
+     "period_end": null,
+     "publisher": "FCI",
+     "series": "FCI depots (owned+hired warehouse count)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Bihar: 20.9 LMT storage, 312 FPOs, 81 FCI depots",
+     "value": "81 FCI depots",
+     "period": null,
+     "period_end": null,
+     "publisher": "FCI",
+     "series": "FCI depots (owned+hired warehouse count)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Maharashtra: 24.3 LMT storage, 213 FPOs, 85 FCI depots",
+     "value": "85 FCI depots",
+     "period": null,
+     "period_end": null,
+     "publisher": "FCI",
+     "series": "FCI depots (owned+hired warehouse count)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Rajasthan: 16.4 LMT storage, 225 FPOs, 77 FCI depots",
+     "value": "77 FCI depots",
+     "period": null,
+     "period_end": null,
+     "publisher": "FCI",
+     "series": "FCI depots (owned+hired warehouse count)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Madhya Pradesh: 200.4 LMT storage, 348 FPOs, 32 FCI depots",
+     "value": "32 FCI depots",
+     "period": null,
+     "period_end": null,
+     "publisher": "FCI",
+     "series": "FCI depots (owned+hired warehouse count)",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "Madhya Pradesh 200 LMT 348 FPOs",
+     "value": "200 LMT covered storage; 348 FPOs",
+     "period": "Nov 2024",
+     "period_end": "2024-11-30",
+     "publisher": "DFPD (Foodgrain Bulletin) & SFAC",
+     "series": "State-wise covered storage capacity (DFPD Foodgrain Bulletin) and FPO count (SFAC registry)",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "Punjab 174 LMT 78 FPOs",
+     "value": "174 LMT covered storage; 78 FPOs",
+     "period": "Nov 2024",
+     "period_end": "2024-11-30",
+     "publisher": "DFPD (Foodgrain Bulletin) & SFAC",
+     "series": "State-wise covered storage capacity (DFPD Foodgrain Bulletin) and FPO count (SFAC registry)",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "Haryana 100 LMT 119 FPOs",
+     "value": "100 LMT covered storage; 119 FPOs",
+     "period": "Nov 2024",
+     "period_end": "2024-11-30",
+     "publisher": "DFPD (Foodgrain Bulletin) & SFAC",
+     "series": "State-wise covered storage capacity (DFPD Foodgrain Bulletin) and FPO count (SFAC registry)",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "Uttar Pradesh 47 LMT 758 FPOs (most of any state)",
+     "value": "47 LMT covered storage; 758 FPOs",
+     "period": "Nov 2024",
+     "period_end": "2024-11-30",
+     "publisher": "DFPD (Foodgrain Bulletin) & SFAC",
+     "series": "State-wise covered storage capacity (DFPD Foodgrain Bulletin) and FPO count (SFAC registry)",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "Chhattisgarh 36 LMT 68 FPOs",
+     "value": "36 LMT covered storage; 68 FPOs",
+     "period": "Nov 2024",
+     "period_end": "2024-11-30",
+     "publisher": "DFPD (Foodgrain Bulletin) & SFAC",
+     "series": "State-wise covered storage capacity (DFPD Foodgrain Bulletin) and FPO count (SFAC registry)",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Andhra Pradesh 25 LMT 247 FPOs",
+     "value": "25 LMT covered storage; 247 FPOs",
+     "period": "Nov 2024",
+     "period_end": "2024-11-30",
+     "publisher": "DFPD (Foodgrain Bulletin) & SFAC",
+     "series": "State-wise covered storage capacity (DFPD Foodgrain Bulletin) and FPO count (SFAC registry)",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Punjab has 569 FCI depots",
+     "value": "569 FCI depots",
+     "period": null,
+     "period_end": null,
+     "publisher": "SFAC (implied)",
+     "series": "FCI depot count by state",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Formation and Promotion of 10,000 Farmer Producer Organisations... ₹6,865 crore outlay running through 2027-28",
+     "value": "₹6,865 crore",
+     "period": "2020-27",
+     "period_end": "2027-03-31",
+     "publisher": "PIB / Ministry of Agriculture",
+     "series": "Central Sector Scheme for FPOs",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "Each FPO is eligible for financial assistance of up to ₹18 lakh over three years",
+     "value": "₹18 lakh per FPO (max)",
+     "period": null,
+     "period_end": null,
+     "publisher": "SFAC",
+     "series": "FPO financial assistance scheme",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "matching equity grant of up to ₹15 lakh",
+     "value": "₹15 lakh equity grant (max)",
+     "period": null,
+     "period_end": null,
+     "publisher": "SFAC",
+     "series": "FPO equity grant scheme",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "credit guarantee of up to ₹2 crore per project loan",
+     "value": "₹2 crore credit guarantee (max)",
+     "period": null,
+     "period_end": null,
+     "publisher": "SFAC",
+     "series": "FPO credit guarantee scheme",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The scheme hit its nationwide 10,000th-FPO milestone in February 2025",
+     "value": "10,000 FPOs (milestone)",
+     "period": "24-02-2025",
+     "period_end": "2025-02-24",
+     "publisher": "SFAC",
+     "series": "10,000 FPOs scheme milestone",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "3,649 — SFAC channel only; India-wide FPO count ~45,000 across all promoting agencies",
+     "value": "3,649 FPOs (SFAC channel); ~45,000 FPOs (all agencies)",
+     "period": "24-02-2025",
+     "period_end": "2025-02-24",
+     "publisher": "SFAC (and implied estimate)",
+     "series": "FPO registry counts",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "DFPD Foodgrain Bulletin Nov-2024 (~841 LMT all-India, all agencies)",
+     "value": "~841 LMT (all-India covered storage)",
+     "period": "Nov 2024",
+     "period_end": "2024-11-30",
+     "publisher": "DFPD",
+     "series": "All-India covered storage capacity",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Madhya Pradesh: 200.4 LMT storage, 348 FPOs, 32 FCI depots",
+     "value": "200.4 LMT covered storage; 348 FPOs; 32 FCI depots",
+     "period": null,
+     "period_end": null,
+     "publisher": "DFPD (Foodgrain Bulletin) & SFAC",
+     "series": "State-wise FCI depots, covered storage, and FPOs",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Punjab: 174.5 LMT storage, 78 FPOs, 569 FCI depots",
+     "value": "174.5 LMT covered storage; 78 FPOs; 569 FCI depots",
+     "period": null,
+     "period_end": null,
+     "publisher": "DFPD (Foodgrain Bulletin) & SFAC",
+     "series": "State-wise FCI depots, covered storage, and FPOs",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Uttar Pradesh: 47.2 LMT storage, 758 FPOs, 198 FCI depots",
+     "value": "47.2 LMT covered storage; 758 FPOs; 198 FCI depots",
+     "period": null,
+     "period_end": null,
+     "publisher": "DFPD (Foodgrain Bulletin) & SFAC",
+     "series": "State-wise FCI depots, covered storage, and FPOs",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Haryana: 100.2 LMT storage, 119 FPOs, 262 FCI depots",
+     "value": "100.2 LMT covered storage; 119 FPOs; 262 FCI depots",
+     "period": null,
+     "period_end": null,
+     "publisher": "DFPD (Foodgrain Bulletin) & SFAC",
+     "series": "State-wise FCI depots, covered storage, and FPOs",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Andaman & Nicobar: 0.2 LMT storage, 0 FPOs",
+     "value": "0.2 LMT covered storage; 0 FPOs",
+     "period": null,
+     "period_end": null,
+     "publisher": "DFPD (Foodgrain Bulletin) & SFAC",
+     "series": "State-wise covered storage and FPOs",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Bihar: 20.9 LMT storage, 312 FPOs, 81 FCI depots",
+     "value": "20.9 LMT covered storage; 312 FPOs; 81 FCI depots",
+     "period": null,
+     "period_end": null,
+     "publisher": "DFPD (Foodgrain Bulletin) & SFAC",
+     "series": "State-wise FCI depots, covered storage, and FPOs",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Chhattisgarh: 35.5 LMT storage, 68 FPOs, 78 FCI depots",
+     "value": "35.5 LMT covered storage; 68 FPOs; 78 FCI depots",
+     "period": null,
+     "period_end": null,
+     "publisher": "DFPD (Foodgrain Bulletin) & SFAC",
+     "series": "State-wise FCI depots, covered storage, and FPOs",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Gujarat: 9.8 LMT storage, 141 FPOs, 37 FCI depots",
+     "value": "9.8 LMT covered storage; 141 FPOs; 37 FCI depots",
+     "period": null,
+     "period_end": null,
+     "publisher": "DFPD (Foodgrain Bulletin) & SFAC",
+     "series": "State-wise FCI depots, covered storage, and FPOs",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Maharashtra: 24.3 LMT storage, 213 FPOs, 85 FCI depots",
+     "value": "24.3 LMT covered storage; 213 FPOs; 85 FCI depots",
+     "period": null,
+     "period_end": null,
+     "publisher": "DFPD (Foodgrain Bulletin) & SFAC",
+     "series": "State-wise FCI depots, covered storage, and FPOs",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Rajasthan: 16.4 LMT storage, 225 FPOs, 77 FCI depots",
+     "value": "16.4 LMT covered storage; 225 FPOs; 77 FCI depots",
+     "period": null,
+     "period_end": null,
+     "publisher": "DFPD (Foodgrain Bulletin) & SFAC",
+     "series": "State-wise FCI depots, covered storage, and FPOs",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Top 12 states by storage, with FPO count: Madhya Pradesh 200 LMT 348 FPOs",
+     "value": "200 LMT covered storage; 348 FPOs (Madhya Pradesh)",
+     "period": "Nov 2024",
+     "period_end": "2024-11-30",
+     "publisher": "DFPD (Foodgrain Bulletin) & SFAC",
+     "series": "Top 12 states by storage and FPO count",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "The scheme was launched by the Prime Minister on 29 February 2020",
+     "value": "29 February 2020",
+     "period": "29-02-2020",
+     "period_end": "2020-02-29",
+     "publisher": "PIB / Ministry of Agriculture",
+     "series": "FPO scheme launch date",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

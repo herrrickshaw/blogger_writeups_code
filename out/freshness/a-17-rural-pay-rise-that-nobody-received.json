@@ -1,0 +1,740 @@
+{
+ "slug": "a-17-rural-pay-rise-that-nobody-received",
+ "text_sha1": "f12a98d0d05cff7e",
+ "chars": 21808,
+ "checked": "2026-10-23T10:17:51",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "Reported, year to Mar 2026\n(new 787-village sample)\n18.12%",
+     "value": "18.12%",
+     "period": "year to Mar 2026",
+     "period_end": "2026-03-31",
+     "publisher": "Labour Bureau",
+     "series": "CPI-AL/CPI-RL rural wage growth",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "Prior trend, year to Jun 2025\n(old 600-village sample)\n6.23%",
+     "value": "6.23%",
+     "period": "year to Jun 2025",
+     "period_end": "2025-06-30",
+     "publisher": "Labour Bureau",
+     "series": "CPI-AL/CPI-RL rural wage growth",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "Break-adjusted estimate\n(analyst reconstruction)\n4.3%",
+     "value": "4.3%",
+     "period": "March 2026",
+     "period_end": "2026-03-31",
+     "publisher": "AlphaEcon analysis",
+     "series": "Break-adjusted rural wage growth estimate",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "Between June and July 2025 the average daily wage across all rural occupations rose from ₹454 to ₹511",
+     "value": "₹454",
+     "period": "June 2025",
+     "period_end": "2025-06-30",
+     "publisher": "Labour Bureau",
+     "series": "Average daily wage across all rural occupations",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Between June and July 2025 the average daily wage across all rural occupations rose from ₹454 to ₹511",
+     "value": "₹511",
+     "period": "July 2025",
+     "period_end": "2025-07-31",
+     "publisher": "Labour Bureau",
+     "series": "Average daily wage across all rural occupations",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "by March 2026 the average stood at ₹522 a day",
+     "value": "₹522 a day",
+     "period": "March 2026",
+     "period_end": "2026-03-31",
+     "publisher": "Labour Bureau",
+     "series": "Average daily wage across all rural occupations",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Coastal and deep-sea fishing wages rose 62 per cent in a single month",
+     "value": "62 per cent",
+     "period": "July 2025",
+     "period_end": "2025-07-31",
+     "publisher": "Labour Bureau",
+     "series": "Coastal and deep-sea fishing wages",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Beedi-making rose 29 per cent.",
+     "value": "29 per cent",
+     "period": "July 2025",
+     "period_end": "2025-07-31",
+     "publisher": "Labour Bureau",
+     "series": "Beedi-making wages",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "In the ten months to June 2025, wages grew 6.23 per cent year on year overall, 6.79 per cent in agriculture and 5.75 per cent outside it.",
+     "value": "6.79 per cent",
+     "period": "ten months to June 2025",
+     "period_end": "2025-06-30",
+     "publisher": "Labour Bureau",
+     "series": "Agricultural rural wage growth",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "In the ten months to June 2025, wages grew 6.23 per cent year on year overall, 6.79 per cent in agriculture and 5.75 per cent outside it.",
+     "value": "5.75 per cent",
+     "period": "ten months to June 2025",
+     "period_end": "2025-06-30",
+     "publisher": "Labour Bureau",
+     "series": "Non-agricultural rural wage growth",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "By March 2026 the same three series read 18.12, 20.16 and 16.40 per cent",
+     "value": "20.16 per cent",
+     "period": "year to March 2026",
+     "period_end": "2026-03-31",
+     "publisher": "Labour Bureau",
+     "series": "Agricultural rural wage growth",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "By March 2026 the same three series read 18.12, 20.16 and 16.40 per cent",
+     "value": "16.40 per cent",
+     "period": "year to March 2026",
+     "period_end": "2026-03-31",
+     "publisher": "Labour Bureau",
+     "series": "Non-agricultural rural wage growth",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "preliminary state-level data show inflation in the newly added regions running near 2.9 per cent against a 3.9 per cent national average in May 2026.",
+     "value": "2.9 per cent",
+     "period": "May 2026",
+     "period_end": "2026-05-31",
+     "publisher": "Labour Bureau",
+     "series": "State-level inflation in newly added regions",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "preliminary state-level data show inflation in the newly added regions running near 2.9 per cent against a 3.9 per cent national average in May 2026.",
+     "value": "3.9 per cent",
+     "period": "May 2026",
+     "period_end": "2026-05-31",
+     "publisher": "Labour Bureau",
+     "series": "National average inflation",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "for June 2025, CPI-AL and CPI-RL both stood at 134 points, with year-on-year inflation of 1.42 per cent and 1.73 per cent respectively.",
+     "value": "134 points",
+     "period": "June 2025",
+     "period_end": "2025-06-30",
+     "publisher": "Ministry of Labour and Employment",
+     "series": "CPI-AL index level",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "for June 2025, CPI-AL and CPI-RL both stood at 134 points, with year-on-year inflation of 1.42 per cent and 1.73 per cent respectively.",
+     "value": "1.42 per cent",
+     "period": "June 2025",
+     "period_end": "2025-06-30",
+     "publisher": "Ministry of Labour and Employment",
+     "series": "CPI-AL year-on-year inflation",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "for June 2025, CPI-AL and CPI-RL both stood at 134 points, with year-on-year inflation of 1.42 per cent and 1.73 per cent respectively.",
+     "value": "1.73 per cent",
+     "period": "June 2025",
+     "period_end": "2025-06-30",
+     "publisher": "Ministry of Labour and Employment",
+     "series": "CPI-RL year-on-year inflation",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "National average wage | ₹298.8/day | ₹327.4/day , up ₹28.6 (about 10%)",
+     "value": "₹298.8/day",
+     "period": "MGNREGA period",
+     "period_end": null,
+     "publisher": "Ministry of Rural Development",
+     "series": "MGNREGA national average wage",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "National average wage | ₹298.8/day | ₹327.4/day , up ₹28.6 (about 10%)",
+     "value": "₹327.4/day",
+     "period": "VB-G RAM G period",
+     "period_end": null,
+     "publisher": "Ministry of Rural Development",
+     "series": "VB-G RAM G national average wage",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "State outlay is projected to rise from about ₹8,690 crore in FY26 to ₹35,300 crore in FY27 — more than fourfold.",
+     "value": "₹8,690 crore",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Ministry of Rural Development",
+     "series": "State outlay for rural employment guarantee",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "State outlay is projected to rise from about ₹8,690 crore in FY26 to ₹35,300 crore in FY27 — more than fourfold.",
+     "value": "₹35,300 crore",
+     "period": "FY2026-27",
+     "period_end": "2027-03-31",
+     "publisher": "Ministry of Rural Development",
+     "series": "State outlay for rural employment guarantee",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "In the Union Budget for 2026-27, MGNREGA’s own line fell from ₹86,000 crore to ₹30,000 crore while VB-G RAM G received ₹95,692 crore.",
+     "value": "₹86,000 crore",
+     "period": "Union Budget 2026-27",
+     "period_end": "2027-03-31",
+     "publisher": "Ministry of Finance",
+     "series": "Union Budget allocation for MGNREGA",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "In the Union Budget for 2026-27, MGNREGA’s own line fell from ₹86,000 crore to ₹30,000 crore while VB-G RAM G received ₹95,692 crore.",
+     "value": "₹30,000 crore",
+     "period": "Union Budget 2026-27",
+     "period_end": "2027-03-31",
+     "publisher": "Ministry of Finance",
+     "series": "Union Budget allocation for MGNREGA",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "In the Union Budget for 2026-27, MGNREGA’s own line fell from ₹86,000 crore to ₹30,000 crore while VB-G RAM G received ₹95,692 crore.",
+     "value": "₹95,692 crore",
+     "period": "Union Budget 2026-27",
+     "period_end": "2027-03-31",
+     "publisher": "Ministry of Finance",
+     "series": "Union Budget allocation for VB-G RAM G",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "It has moved ₹4.47 lakh crore across 23 instalments",
+     "value": "₹4.47 lakh crore",
+     "period": "cumulative across 23 instalments",
+     "period_end": null,
+     "publisher": "PM-KISAN portal / Ministry of Agriculture",
+     "series": "PM-KISAN cumulative transfers",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "the 21st alone, in November 2025, sent ₹18,680.63 crore to 9.34 crore farmers.",
+     "value": "₹18,680.63 crore",
+     "period": "November 2025",
+     "period_end": "2025-11-30",
+     "publisher": "PM-KISAN portal / Ministry of Agriculture",
+     "series": "PM-KISAN instalment disbursement",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "the 21st alone, in November 2025, sent ₹18,680.63 crore to 9.34 crore farmers.",
+     "value": "9.34 crore farmers",
+     "period": "November 2025",
+     "period_end": "2025-11-30",
+     "publisher": "PM-KISAN portal / Ministry of Agriculture",
+     "series": "PM-KISAN beneficiary count",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "In August 2026 the Cabinet extended it from 2026-27 through 2030-31 with an outlay of ₹3.15 lakh crore",
+     "value": "₹3.15 lakh crore",
+     "period": "2026-27 through 2030-31",
+     "period_end": "2031-03-31",
+     "publisher": "Cabinet / Ministry of Agriculture",
+     "series": "PM-KISAN extension outlay",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "Direct Benefit Transfer architecture: 314 schemes across 53 central ministries",
+     "value": "314 schemes",
+     "period": "current",
+     "period_end": null,
+     "publisher": "Government of India DBT reporting",
+     "series": "Direct Benefit Transfer schemes",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "beneficiary coverage up sixteen-fold from 11 crore to 176 crore",
+     "value": "176 crore",
+     "period": "current",
+     "period_end": null,
+     "publisher": "Government of India DBT reporting",
+     "series": "Direct Benefit Transfer beneficiary coverage",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "claimed cumulative savings from plugged leakage of ₹3.48 lakh crore",
+     "value": "₹3.48 lakh crore",
+     "period": "cumulative",
+     "period_end": null,
+     "publisher": "Government of India DBT reporting",
+     "series": "Direct Benefit Transfer cumulative savings",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "Subsidy spending has fallen from about 16 per cent of total government expenditure to 9 per cent since DBT began in 2013.",
+     "value": "16 per cent",
+     "period": "2013",
+     "period_end": "2013-12-31",
+     "publisher": "Government of India",
+     "series": "Subsidy spending share of government expenditure",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Subsidy spending has fallen from about 16 per cent of total government expenditure to 9 per cent since DBT began in 2013.",
+     "value": "9 per cent",
+     "period": "current",
+     "period_end": null,
+     "publisher": "Government of India",
+     "series": "Subsidy spending share of government expenditure",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "In March 2025 the Ministry of Rural Development notified an MGNREGA national average of ₹370 a day , up from ₹349, with Haryana at ₹400 and Nagaland and Arunachal Pradesh at ₹241.",
+     "value": "₹370 a day",
+     "period": "March 2025",
+     "period_end": "2025-03-31",
+     "publisher": "Ministry of Rural Development",
+     "series": "MGNREGA notified national average wage",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "In March 2025 the Ministry of Rural Development notified an MGNREGA national average of ₹370 a day , up from ₹349, with Haryana at ₹400 and Nagaland and Arunachal Pradesh at ₹241.",
+     "value": "₹349",
+     "period": "prior period",
+     "period_end": null,
+     "publisher": "Ministry of Rural Development",
+     "series": "MGNREGA notified national average wage",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "In March 2025 the Ministry of Rural Development notified an MGNREGA national average of ₹370 a day , up from ₹349, with Haryana at ₹400 and Nagaland and Arunachal Pradesh at ₹241.",
+     "value": "₹400",
+     "period": "March 2025",
+     "period_end": "2025-03-31",
+     "publisher": "Ministry of Rural Development",
+     "series": "MGNREGA notified wage for Haryana",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "In March 2025 the Ministry of Rural Development notified an MGNREGA national average of ₹370 a day , up from ₹349, with Haryana at ₹400 and Nagaland and Arunachal Pradesh at ₹241.",
+     "value": "₹241",
+     "period": "March 2025",
+     "period_end": "2025-03-31",
+     "publisher": "Ministry of Rural Development",
+     "series": "MGNREGA notified wage for Nagaland and Arunachal Pradesh",
+     "frequency": "annual",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "Reported year-on-year rural wage growth, all occupations (per cent) ... 18.12% (new 787-village sample)",
+     "value": "18.12%",
+     "period": "year to Mar 2026",
+     "period_end": "2026-03-31",
+     "publisher": "Labour Bureau",
+     "series": "CPI-AL/CPI-RL (revised 787-village sample)",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Prior trend, year to Jun 2025 ... 6.23% (old 600-village sample)",
+     "value": "6.23%",
+     "period": "year to Jun 2025",
+     "period_end": "2025-06-30",
+     "publisher": "Labour Bureau",
+     "series": "CPI-AL/CPI-RL (old 600-village sample)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Between June and July 2025 the average daily wage across all rural occupations rose from ₹454 to ₹511",
+     "value": "₹454 to ₹511",
+     "period": "Jun-Jul 2025",
+     "period_end": "2025-07-31",
+     "publisher": "Labour Bureau",
+     "series": "Rural wage data (all occupations)",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "by March 2026 the average stood at ₹522 a day",
+     "value": "₹522/day",
+     "period": "year to Mar 2026",
+     "period_end": "2026-03-31",
+     "publisher": "Labour Bureau",
+     "series": "Rural wage data (all occupations)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Coastal and deep-sea fishing wages rose 62 per cent in a single month",
+     "value": "62%",
+     "period": "Jun-Jul 2025",
+     "period_end": "2025-07-31",
+     "publisher": "Labour Bureau",
+     "series": "Rural wage data (fishing)",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Beedi-making rose 29 per cent",
+     "value": "29%",
+     "period": "Jun-Jul 2025",
+     "period_end": "2025-07-31",
+     "publisher": "Labour Bureau",
+     "series": "Rural wage data (beedi-making)",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "The combined weight of the north-eastern states, the National Capital Region and Goa rose by roughly 11 percentage points",
+     "value": "11 percentage points",
+     "period": null,
+     "period_end": null,
+     "publisher": "Labour Bureau (analyst reconstruction)",
+     "series": "Sample village weighting adjustment",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Maharashtra down 2.6, West Bengal down 1.9, and Madhya Pradesh-Chhattisgarh and Odisha down 1.7 each",
+     "value": "2.6%, 1.9%, 1.7%",
+     "period": null,
+     "period_end": null,
+     "publisher": "Labour Bureau (analyst reconstruction)",
+     "series": "Sample village weighting adjustment",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "month-on-month growth has actually decelerated to 0.28 per cent, and to 0.18 per cent in February and March 2026",
+     "value": "0.28% (monthly), 0.18% (Feb-Mar 2026)",
+     "period": "Feb-Mar 2026",
+     "period_end": "2026-03-31",
+     "publisher": "Labour Bureau (analyst reconstruction)",
+     "series": "Rural wage growth (monthly)",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "year-on-year growth in March 2026 comes out around 4.3 per cent",
+     "value": "4.3%",
+     "period": "year to Mar 2026",
+     "period_end": "2026-03-31",
+     "publisher": "Labour Bureau (analyst reconstruction)",
+     "series": "Rural wage growth (year-on-year)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "preliminary state-level data show inflation in the newly added regions running near 2.9 per cent against a 3.9 per cent national average in May 2026",
+     "value": "2.9% (regional), 3.9% (national)",
+     "period": "May 2026",
+     "period_end": "2026-05-31",
+     "publisher": "Labour Bureau",
+     "series": "CPI-AL/CPI-RL inflation (state-level)",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "CPI-AL and CPI-RL both stood at 134 points, with year-on-year inflation of 1.42 per cent and 1.73 per cent respectively",
+     "value": "134 points (index), 1.42% (CPI-AL), 1.73% (CPI-RL)",
+     "period": "Jun 2025",
+     "period_end": "2025-06-30",
+     "publisher": "Ministry of Labour and Employment",
+     "series": "CPI-AL/CPI-RL (revised series)",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "MGNREGA national average of ₹370 a day ... up from ₹349",
+     "value": "₹370/day (2025), ₹349/day (previous)",
+     "period": "Mar 2025",
+     "period_end": "2025-03-31",
+     "publisher": "Ministry of Rural Development",
+     "series": "MGNREGA wage notification",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "VB-G RAM G, 2025 ... national average wage ₹327.4/day, up ₹28.6 (about 10%)",
+     "value": "₹327.4/day (2025), ₹298.8/day (MGNREGA)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Ministry of Rural Development",
+     "series": "VB-G RAM G wage details",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "State outlay is projected to rise from about ₹8,690 crore in FY26 to ₹35,300 crore in FY27",
+     "value": "₹8,690 crore (FY26), ₹35,300 crore (FY27)",
+     "period": "FY2026-27",
+     "period_end": "2027-03-31",
+     "publisher": "Ministry of Rural Development",
+     "series": "VB-G RAM G funding projections",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "MGNREGA’s own line fell from ₹86,000 crore to ₹30,000 crore while VB-G RAM G received ₹95,692 crore",
+     "value": "₹86,000 crore (MGNREGA), ₹30,000 crore (MGNREGA FY27), ₹95,692 crore (VB-G RAM G)",
+     "period": "FY2026-27",
+     "period_end": "2027-03-31",
+     "publisher": "Union Budget 2026-27",
+     "series": "Budget allocations",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "PM-KISAN transfers ₹6,000 a year ... ₹4.47 lakh crore across 23 instalments",
+     "value": "₹6,000/year, ₹4.47 lakh crore (total)",
+     "period": null,
+     "period_end": null,
+     "publisher": "PM-KISAN",
+     "series": "PM-KISAN transfers",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "the 21st alone, in November 2025, sent ₹18,680.63 crore to 9.34 crore farmers",
+     "value": "₹18,680.63 crore, 9.34 crore farmers",
+     "period": "Nov 2025",
+     "period_end": "2025-11-30",
+     "publisher": "PM-KISAN",
+     "series": "PM-KISAN 21st instalment",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "Cabinet extended [PM-KISAN] from 2026-27 through 2030-31 with an outlay of ₹3.15 lakh crore",
+     "value": "₹3.15 lakh crore",
+     "period": "2026-27 to 2030-31",
+     "period_end": "2031-03-31",
+     "publisher": "Cabinet",
+     "series": "PM-KISAN extension",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "314 schemes across 53 central ministries, beneficiary coverage up sixteen-fold from 11 crore to 176 crore",
+     "value": "11 crore (initial), 176 crore (current)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Government of India (DBT)",
+     "series": "Direct Benefit Transfer (DBT) coverage",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "claimed cumulative savings from plugged leakage of ₹3.48 lakh crore",
+     "value": "₹3.48 lakh crore",
+     "period": null,
+     "period_end": null,
+     "publisher": "Government of India (DBT)",
+     "series": "DBT savings estimate",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "subsidy spending has fallen from about 16 per cent of total government expenditure to 9 per cent since DBT began in 2013",
+     "value": "16% (2013), 9% (current)",
+     "period": "2013 to present",
+     "period_end": "2026-08-22",
+     "publisher": "Government of India (DBT)",
+     "series": "Subsidy spending ratio",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "VB-G RAM G received presidential assent on 21 December 2025, came into force on 1 July 2026",
+     "value": "21 Dec 2025 (assent), 1 Jul 2026 (commencement)",
+     "period": "2025-12-21 to 2026-07-01",
+     "period_end": "2026-07-01",
+     "publisher": "PIB",
+     "series": "VB-G RAM G Act",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "30 crore person-days approved in April 2026 to 43 crore in May",
+     "value": "30 crore (Apr 2026), 43 crore (May 2026)",
+     "period": "Apr-May 2026",
+     "period_end": "2026-05-31",
+     "publisher": "VB-G RAM G scheme data",
+     "series": "Person-days approved",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "The Labour Bureau revised the base year of its Consumer Price Index for Agricultural and Rural Labourers — CPI-AL and CPI-RL — from 1986-87 to 2019 = 100",
+     "value": "1986-87 to 2019 = 100",
+     "period": null,
+     "period_end": null,
+     "publisher": "Ministry of Labour and Employment",
+     "series": "CPI-AL/CPI-RL base revision",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "States and UTs covered | Old series | Revised series | ... 20 | 34",
+     "value": "20 (old), 34 (revised)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Labour Bureau",
+     "series": "CPI-AL/CPI-RL sample expansion",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Sample villages | Old series | Revised series | ... 600 | 787",
+     "value": "600 (old), 787 (revised)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Labour Bureau",
+     "series": "CPI-AL/CPI-RL sample expansion",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Items priced | Old series | Revised series | ... 65–106 | 150–200",
+     "value": "65–106 (old), 150–200 (revised)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Labour Bureau",
+     "series": "CPI-AL/CPI-RL items priced",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The newly added regions have smaller agricultural workforces, more concentrated skills, and average wages roughly 50 to 55 per cent above the states in the original sample",
+     "value": "50–55%",
+     "period": null,
+     "period_end": null,
+     "publisher": "Labour Bureau (analyst reconstruction)",
+     "series": "Wage differential analysis",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Those states held 1.15 per cent of India’s rural population and 1.22 per cent of its workforce at the 2011 Census",
+     "value": "1.15% (population), 1.22% (workforce)",
+     "period": "2011 Census",
+     "period_end": "2011-03-31",
+     "publisher": "2011 Census",
+     "series": "Rural population/workforce distribution",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "They now supply about 11 per cent of sample villages — close to ten times their demographic weight",
+     "value": "11%",
+     "period": null,
+     "period_end": null,
+     "publisher": "Labour Bureau (analyst reconstruction)",
+     "series": "Sample village weighting",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "MGNREGA, 2005 ... Guaranteed days per household | 100 | 125",
+     "value": "100 (MGNREGA), 125 (VB-G RAM G)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Ministry of Rural Development",
+     "series": "Guaranteed days comparison",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Days work is available | Year-round | 305, with up to 60 reserved as no-work during sowing and harvest",
+     "value": "Year-round (MGNREGA), 305 (VB-G RAM G), 60 (reserved)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Ministry of Rural Development",
+     "series": "Work availability comparison",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Unskilled wage cost | Centre paid in full | 40:60 state:Centre for most states; 10:90 for north-eastern and Himalayan states",
+     "value": "100% Centre (MGNREGA), 40:60 (most states), 10:90 (NE/Himalayan)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Ministry of Rural Development",
+     "series": "Wage cost-sharing comparison",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "No state below ₹300/day",
+     "value": "₹300/day (minimum wage floor)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Ministry of Rural Development",
+     "series": "VB-G RAM G wage floor",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

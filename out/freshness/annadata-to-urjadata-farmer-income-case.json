@@ -1,0 +1,760 @@
+{
+ "slug": "annadata-to-urjadata-farmer-income-case",
+ "text_sha1": "2b9ddda82eec63bf",
+ "chars": 30188,
+ "checked": "2026-10-23T10:33:26",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "The government's own numbers (PIB, July 2026) show the Ethanol Blended Petrol Programme has transferred ₹1.66 lakh crore to Indian farmers since ESY 2014-15, saved ₹1.97 lakh crore in forex, substituted 316 lakh MT of crude, and cut ~952 lakh MT of CO₂.",
+     "value": "₹1.66 lakh crore",
+     "period": "ESY 2014-15",
+     "period_end": "2015-10-31",
+     "publisher": "PIB / ministry",
+     "series": "Ethanol Blended Petrol Programme Cumulative Scoreboard",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "The government's own numbers (PIB, July 2026) show the Ethanol Blended Petrol Programme has transferred ₹1.66 lakh crore to Indian farmers since ESY 2014-15, saved ₹1.97 lakh crore in forex, substituted 316 lakh MT of crude, and cut ~952 lakh MT of CO₂.",
+     "value": "₹1.97 lakh crore",
+     "period": "ESY 2014-15",
+     "period_end": "2015-10-31",
+     "publisher": "PIB / ministry",
+     "series": "Ethanol Blended Petrol Programme Cumulative Scoreboard",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "The government's own numbers (PIB, July 2026) show the Ethanol Blended Petrol Programme has transferred ₹1.66 lakh crore to Indian farmers since ESY 2014-15, saved ₹1.97 lakh crore in forex, substituted 316 lakh MT of crude, and cut ~952 lakh MT of CO₂.",
+     "value": "316 lakh MT",
+     "period": "ESY 2014-15",
+     "period_end": "2015-10-31",
+     "publisher": "PIB / ministry",
+     "series": "Ethanol Blended Petrol Programme Cumulative Scoreboard",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "The government's own numbers (PIB, July 2026) show the Ethanol Blended Petrol Programme has transferred ₹1.66 lakh crore to Indian farmers since ESY 2014-15, saved ₹1.97 lakh crore in forex, substituted 316 lakh MT of crude, and cut ~952 lakh MT of CO₂.",
+     "value": "~952 lakh MT",
+     "period": "ESY 2014-15",
+     "period_end": "2015-10-31",
+     "publisher": "PIB / ministry",
+     "series": "Ethanol Blended Petrol Programme Cumulative Scoreboard",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "Independent analysis (CareEdge Ratings, May 2026) shows India has simultaneously built ~2,000 crore litres/year of ethanol capacity against ~1,100 crore litres of demand under the current 20% blending cap",
+     "value": "~2,000 crore litres/year",
+     "period": "May 2026",
+     "period_end": "2026-05-31",
+     "publisher": "CareEdge Ratings",
+     "series": "Ethanol Capacity and Demand Analysis",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "Independent analysis (CareEdge Ratings, May 2026) shows India has simultaneously built ~2,000 crore litres/year of ethanol capacity against ~1,100 crore litres of demand under the current 20% blending cap",
+     "value": "~1,100 crore litres",
+     "period": "May 2026",
+     "period_end": "2026-05-31",
+     "publisher": "CareEdge Ratings",
+     "series": "Ethanol Capacity and Demand Analysis",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "Central-pool rice stocks were reported at 403.11 lakh tonnes on 1 July 2026, nearly three times the buffer norm, up from the ~386 lakh MT in April 2026 cited below.",
+     "value": "403.11 lakh tonnes",
+     "period": "1 July 2026",
+     "period_end": "2026-07-01",
+     "publisher": "PIB / ministry",
+     "series": "Central-pool rice stocks",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "Central-pool rice stocks were reported at 403.11 lakh tonnes on 1 July 2026, nearly three times the buffer norm, up from the ~386 lakh MT in April 2026 cited below.",
+     "value": "~386 lakh MT",
+     "period": "April 2026",
+     "period_end": "2026-04-30",
+     "publisher": "PIB / ministry",
+     "series": "Central-pool rice stocks",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "2013-14 | ~1.53",
+     "value": "~1.53%",
+     "period": "2013-14",
+     "period_end": "2014-03-31",
+     "publisher": "MoSPI",
+     "series": "Ethanol Supply Year Average Blending",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "2018-19 | ~5",
+     "value": "~5%",
+     "period": "2018-19",
+     "period_end": "2019-03-31",
+     "publisher": "MoSPI",
+     "series": "Ethanol Supply Year Average Blending",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "2020-21 | ~8.1",
+     "value": "~8.1%",
+     "period": "2020-21",
+     "period_end": "2021-03-31",
+     "publisher": "MoSPI",
+     "series": "Ethanol Supply Year Average Blending",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "2021-22 | 10.0",
+     "value": "10.0%",
+     "period": "2021-22",
+     "period_end": "2022-03-31",
+     "publisher": "MoSPI",
+     "series": "Ethanol Supply Year Average Blending",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "2022-23 | 12.1",
+     "value": "12.1%",
+     "period": "2022-23",
+     "period_end": "2023-03-31",
+     "publisher": "MoSPI",
+     "series": "Ethanol Supply Year Average Blending",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "2023-24 | 14.6",
+     "value": "14.6%",
+     "period": "2023-24",
+     "period_end": "2024-03-31",
+     "publisher": "MoSPI",
+     "series": "Ethanol Supply Year Average Blending",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "2024-25 | 19.2",
+     "value": "19.2%",
+     "period": "2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "MoSPI",
+     "series": "Ethanol Supply Year Average Blending",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "2025-26 (Nov–Jun) | 20",
+     "value": "20%",
+     "period": "Nov–Jun ESY 2025-26",
+     "period_end": "2026-06-30",
+     "publisher": "MoSPI",
+     "series": "Ethanol Supply Year Average Blending",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "from 518 crore litres in 2017-18 to 1,623 crore litres in 2023-24",
+     "value": "518 crore litres",
+     "period": "2017-18",
+     "period_end": "2018-03-31",
+     "publisher": "MoSPI",
+     "series": "Ethanol production capacity",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "from 518 crore litres in 2017-18 to 1,623 crore litres in 2023-24",
+     "value": "1,623 crore litres",
+     "period": "2023-24",
+     "period_end": "2024-03-31",
+     "publisher": "MoSPI",
+     "series": "Ethanol production capacity",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "from 38 crore litres in 2013-14 to 707.4 crore litres in 2023-24",
+     "value": "38 crore litres",
+     "period": "2013-14",
+     "period_end": "2014-03-31",
+     "publisher": "MoSPI",
+     "series": "Ethanol supplied to OMCs",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "from 38 crore litres in 2013-14 to 707.4 crore litres in 2023-24",
+     "value": "707.4 crore litres",
+     "period": "2023-24",
+     "period_end": "2024-03-31",
+     "publisher": "MoSPI",
+     "series": "Ethanol supplied to OMCs",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Foreign exchange saved | ₹1,97,000 crore",
+     "value": "₹1,97,000 crore",
+     "period": "ESY 2014-15 to 2025-26",
+     "period_end": "2026-07-31",
+     "publisher": "PIB / ministry",
+     "series": "Ethanol Programme Cumulative Scoreboard",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Crude oil substituted | 316 lakh metric tonnes",
+     "value": "316 lakh metric tonnes",
+     "period": "ESY 2014-15 to 2025-26",
+     "period_end": "2026-07-31",
+     "publisher": "PIB / ministry",
+     "series": "Ethanol Programme Cumulative Scoreboard",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "CO₂ emissions avoided | ~952 lakh metric tonnes",
+     "value": "~952 lakh metric tonnes",
+     "period": "ESY 2014-15 to 2025-26",
+     "period_end": "2026-07-31",
+     "publisher": "PIB / ministry",
+     "series": "Ethanol Programme Cumulative Scoreboard",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Direct payments to farmers | ₹1,66,000 crore",
+     "value": "₹1,66,000 crore",
+     "period": "ESY 2014-15 to 2025-26",
+     "period_end": "2026-07-31",
+     "publisher": "PIB / ministry",
+     "series": "Ethanol Programme Cumulative Scoreboard",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Independently, CareEdge Ratings' May 2026 note on the sector puts cumulative CO₂ reduction from capacity expansion at ~8.69 crore tonnes",
+     "value": "~8.69 crore tonnes",
+     "period": "May 2026",
+     "period_end": "2026-05-31",
+     "publisher": "CareEdge Ratings",
+     "series": "Cumulative CO2 reduction from capacity expansion",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "as of July 2025 the scorecard stood at ₹1,25,000 crore paid to farmers, ₹1,44,000 crore forex saved, 244 lakh MT of crude substituted and 736 lakh MT of CO₂ avoided.",
+     "value": "₹1,25,000 crore",
+     "period": "July 2025",
+     "period_end": "2025-07-31",
+     "publisher": "PIB / ministry",
+     "series": "Ethanol Programme Cumulative Scoreboard",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "as of July 2025 the scorecard stood at ₹1,25,000 crore paid to farmers, ₹1,44,000 crore forex saved, 244 lakh MT of crude substituted and 736 lakh MT of CO₂ avoided.",
+     "value": "₹1,44,000 crore",
+     "period": "July 2025",
+     "period_end": "2025-07-31",
+     "publisher": "PIB / ministry",
+     "series": "Ethanol Programme Cumulative Scoreboard",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "as of July 2025 the scorecard stood at ₹1,25,000 crore paid to farmers, ₹1,44,000 crore forex saved, 244 lakh MT of crude substituted and 736 lakh MT of CO₂ avoided.",
+     "value": "244 lakh MT",
+     "period": "July 2025",
+     "period_end": "2025-07-31",
+     "publisher": "PIB / ministry",
+     "series": "Ethanol Programme Cumulative Scoreboard",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "as of July 2025 the scorecard stood at ₹1,25,000 crore paid to farmers, ₹1,44,000 crore forex saved, 244 lakh MT of crude substituted and 736 lakh MT of CO₂ avoided.",
+     "value": "736 lakh MT",
+     "period": "July 2025",
+     "period_end": "2025-07-31",
+     "publisher": "PIB / ministry",
+     "series": "Ethanol Programme Cumulative Scoreboard",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "C-heavy molasses | 46.66 | 57.97 | 57.97",
+     "value": "46.66 ₹/L",
+     "period": "ESY 21-22",
+     "period_end": "2022-10-31",
+     "publisher": "PIB / ministry",
+     "series": "Ethanol Feedstock Procurement Prices",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "C-heavy molasses | 46.66 | 57.97 | 57.97",
+     "value": "57.97 ₹/L",
+     "period": "ESY 24-25",
+     "period_end": "2025-10-31",
+     "publisher": "PIB / ministry",
+     "series": "Ethanol Feedstock Procurement Prices",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "C-heavy molasses | 46.66 | 57.97 | 57.97",
+     "value": "57.97 ₹/L",
+     "period": "ESY 25-26 Provisional",
+     "period_end": "2026-10-31",
+     "publisher": "PIB / ministry",
+     "series": "Ethanol Feedstock Procurement Prices",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "B-heavy molasses | 59.08 | 60.73 | 60.73",
+     "value": "59.08 ₹/L",
+     "period": "ESY 21-22",
+     "period_end": "2022-10-31",
+     "publisher": "PIB / ministry",
+     "series": "Ethanol Feedstock Procurement Prices",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "B-heavy molasses | 59.08 | 60.73 | 60.73",
+     "value": "60.73 ₹/L",
+     "period": "ESY 24-25",
+     "period_end": "2025-10-31",
+     "publisher": "PIB / ministry",
+     "series": "Ethanol Feedstock Procurement Prices",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "B-heavy molasses | 59.08 | 60.73 | 60.73",
+     "value": "60.73 ₹/L",
+     "period": "ESY 25-26 Provisional",
+     "period_end": "2026-10-31",
+     "publisher": "PIB / ministry",
+     "series": "Ethanol Feedstock Procurement Prices",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Sugarcane juice / sugar / syrup | 63.45 | 65.61 | 65.61",
+     "value": "63.45 ₹/L",
+     "period": "ESY 21-22",
+     "period_end": "2022-10-31",
+     "publisher": "PIB / ministry",
+     "series": "Ethanol Feedstock Procurement Prices",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Sugarcane juice / sugar / syrup | 63.45 | 65.61 | 65.61",
+     "value": "65.61 ₹/L",
+     "period": "ESY 24-25",
+     "period_end": "2025-10-31",
+     "publisher": "PIB / ministry",
+     "series": "Ethanol Feedstock Procurement Prices",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Sugarcane juice / sugar / syrup | 63.45 | 65.61 | 65.61",
+     "value": "65.61 ₹/L",
+     "period": "ESY 25-26 Provisional",
+     "period_end": "2026-10-31",
+     "publisher": "PIB / ministry",
+     "series": "Ethanol Feedstock Procurement Prices",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Damaged food grains | 52.92 | 64.00 | 64.00",
+     "value": "52.92 ₹/L",
+     "period": "ESY 21-22",
+     "period_end": "2022-10-31",
+     "publisher": "PIB / ministry",
+     "series": "Ethanol Feedstock Procurement Prices",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Damaged food grains | 52.92 | 64.00 | 64.00",
+     "value": "64.00 ₹/L",
+     "period": "ESY 24-25",
+     "period_end": "2025-10-31",
+     "publisher": "PIB / ministry",
+     "series": "Ethanol Feedstock Procurement Prices",
+     "frequency": "annual",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "The Ethanol Blended Petrol Programme has already put ₹1.66 lakh crore directly into farmers' hands",
+     "value": "₹1.66 lakh crore",
+     "period": "since ESY 2014-15",
+     "period_end": "2026-03-31",
+     "publisher": "PIB / Ministry of Petroleum & Natural Gas",
+     "series": "Ethanol Blended Petrol Programme cumulative farmer payments",
+     "frequency": "multi-year",
+     "headline": true
+    },
+    {
+     "quote": "saved ₹1.97 lakh crore in forex",
+     "value": "₹1.97 lakh crore",
+     "period": "since ESY 2014-15",
+     "period_end": "2026-03-31",
+     "publisher": "PIB / Ministry of Petroleum & Natural Gas",
+     "series": "Ethanol Blended Petrol Programme forex savings",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "substituted 316 lakh MT of crude oil",
+     "value": "316 lakh metric tonnes",
+     "period": "since ESY 2014-15",
+     "period_end": "2026-03-31",
+     "publisher": "PIB / Ministry of Petroleum & Natural Gas",
+     "series": "Ethanol Blended Petrol Programme crude substitution",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "cut CO₂ emissions by roughly 952 lakh tonnes",
+     "value": "~952 lakh metric tonnes",
+     "period": "since ESY 2014-15",
+     "period_end": "2026-03-31",
+     "publisher": "PIB / Ministry of Petroleum & Natural Gas",
+     "series": "Ethanol Blended Petrol Programme CO₂ emissions reduction",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "India has simultaneously built ~2,000 crore litres/year of ethanol capacity against ~1,100 crore litres of demand",
+     "value": "~2,000 crore litres/year (capacity), ~1,100 crore litres/year (demand)",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "CareEdge Ratings",
+     "series": "Ethanol production capacity vs. demand",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "India's ethanol blending rate has moved from roughly 1.5% in 2013-14 to a national average of 20% by the end of 2025",
+     "value": "~1.5% (2013-14), 20% (2025)",
+     "period": "2013-14 to 2025",
+     "period_end": "2025-03-31",
+     "publisher": "Ministry of Petroleum & Natural Gas / PIB",
+     "series": "Ethanol blending rate",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Ethanol production capacity itself has more than tripled in six years: from 518 crore litres in 2017-18 to 1,623 crore litres in 2023-24",
+     "value": "518 crore litres (2017-18), 1,623 crore litres (2023-24)",
+     "period": "2017-18, 2023-24",
+     "period_end": "2018-03-31, 2024-03-31",
+     "publisher": "Ministry of Petroleum & Natural Gas / PIB",
+     "series": "Ethanol production capacity",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "actual ethanol supplied to OMCs grew from 38 crore litres in 2013-14 to 707.4 crore litres in 2023-24",
+     "value": "38 crore litres (2013-14), 707.4 crore litres (2023-24)",
+     "period": "2013-14, 2023-24",
+     "period_end": "2014-03-31, 2024-03-31",
+     "publisher": "Ministry of Petroleum & Natural Gas / PIB",
+     "series": "Ethanol supplied to OMCs",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "India crossed the 20% blending mark in November 2025 — roughly five months ahead of its own April 2026 target",
+     "value": "20% blending (Nov 2025), April 2026 target",
+     "period": "Nov 2025",
+     "period_end": "2025-11-30",
+     "publisher": "Ministry of Petroleum & Natural Gas / PIB",
+     "series": "Ethanol blending rate milestone",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "E20 was made a mandatory nationwide specification from 1 April 2026",
+     "value": "1 April 2026",
+     "period": "1 April 2026",
+     "period_end": "2026-04-01",
+     "publisher": "Ministry of Petroleum & Natural Gas / PIB",
+     "series": "Ethanol blending mandate",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "FCI rice goes into ethanol at ₹2,320 a quintal and that the allocation runs only to 30 June 2026",
+     "value": "₹2,320/quintal (₹60.32/litre)",
+     "period": "1 Nov 2025 – 30 Jun 2026",
+     "period_end": "2026-06-30",
+     "publisher": "Rajya Sabha reply (July 2026)",
+     "series": "FCI rice ethanol procurement price and allocation",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "the price stays at ₹2,320 until 31 October 2026 and rises to ₹2,390 a quintal from 1 November 2026",
+     "value": "₹2,320/quintal (until 31 Oct 2026), ₹2,390/quintal (from 1 Nov 2026)",
+     "period": "1 Nov 2025 – 31 Oct 2026",
+     "period_end": "2026-10-31",
+     "publisher": "Bioenergy Times / Outlook",
+     "series": "FCI rice ethanol procurement price",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Central-pool rice stocks were reported at 403.11 lakh tonnes on 1 July 2026",
+     "value": "403.11 lakh metric tonnes",
+     "period": "1 July 2026",
+     "period_end": "2026-07-01",
+     "publisher": "Bioenergy Times / Outlook",
+     "series": "FCI central-pool rice stocks",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "sugar mills cleared 99.92% of cane dues for Sugar Season 2023-24 and 99.5% for 2024-25",
+     "value": "99.92% (2023-24), 99.5% (2024-25)",
+     "period": "Sugar Season 2023-24, 2024-25",
+     "period_end": "2024-03-31, 2025-03-31",
+     "publisher": "PIB / DFPD",
+     "series": "Sugar mills cane dues clearance rate",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "total sugar-mill revenue from ethanol sales at more than ₹1.29 lakh crore over 2014-15 to 2024-25",
+     "value": "₹1.29 lakh crore",
+     "period": "2014-15 to 2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "PIB",
+     "series": "Sugar-mill revenue from ethanol sales",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "the ESY 2025-26 OMC ethanol tender makes FCI's surplus rice a mandatory floor of at least 40% of the total grain-based feedstock",
+     "value": "40%",
+     "period": "ESY 2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "OMC Tender 22376 (23 Sep 2025)",
+     "series": "FCI rice allocation floor in ethanol tender",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Annual cap: 52 lakh MT of FCI rice (1 Nov 2025 – 30 Jun 2026); later raised to 72 lakh MT in 2026",
+     "value": "52 lakh MT (1 Nov 2025 – 30 Jun 2026), 72 lakh MT (2026)",
+     "period": "1 Nov 2025 – 30 Jun 2026",
+     "period_end": "2026-06-30",
+     "publisher": "OMC Tender 22376 / PIB",
+     "series": "FCI rice allocation cap",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India's central-pool rice stock stood at ~377 lakh MT on 1 July 2025 and ~386 lakh MT in April 2026",
+     "value": "~377 lakh MT (1 July 2025), ~386 lakh MT (April 2026)",
+     "period": "1 July 2025, April 2026",
+     "period_end": "2025-07-01, 2026-04-30",
+     "publisher": "Independent research project",
+     "series": "FCI central-pool rice stocks",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India's maize-to-ethanol demand reached ~125.75 lakh MT in ESY 2024-25, with ~125.78 lakh MT projected for ESY 2025-26",
+     "value": "~125.75 lakh MT (2024-25), ~125.78 lakh MT (2025-26)",
+     "period": "ESY 2024-25, ESY 2025-26",
+     "period_end": "2025-03-31, 2026-03-31",
+     "publisher": "Lok Sabha reply (Dec 2025)",
+     "series": "Maize demand for ethanol",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "India turned a net maize importer in 2024 for the first time in years (0.9 million tonnes)",
+     "value": "0.9 million tonnes",
+     "period": "2024",
+     "period_end": "2024-12-31",
+     "publisher": "DA&FW / USDA / FAO",
+     "series": "Maize imports",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "India's maize yield sits at roughly 3.3 tonnes/hectare against the US's ~11 tonnes/hectare",
+     "value": "3.3 tonnes/hectare (India), ~11 tonnes/hectare (US)",
+     "period": null,
+     "period_end": null,
+     "publisher": "DA&FW / USDA / FAO",
+     "series": "Maize yield comparison",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India's ethanol production capacity has scaled to ~2,000 crore litres/year, with another 400 crore litres due online by FY27",
+     "value": "~2,000 crore litres/year (current), ~400 crore litres/year (FY27)",
+     "period": "2025-26, FY27",
+     "period_end": "2026-03-31, 2027-03-31",
+     "publisher": "CareEdge Ratings",
+     "series": "Ethanol production capacity",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "current demand under E20 is ~1,100 crore litres/year",
+     "value": "~1,100 crore litres/year",
+     "period": "E20 blending",
+     "period_end": null,
+     "publisher": "CareEdge Ratings",
+     "series": "Ethanol demand under E20",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "non-fuel demand (chemicals, potable, etc.) is ~300–350 crore litres/year",
+     "value": "~300–350 crore litres/year",
+     "period": null,
+     "period_end": null,
+     "publisher": "CareEdge Ratings",
+     "series": "Non-fuel ethanol demand",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "grain-based ethanol producers offered 13,040 million litres for ESY 2025-26 against OMCs' combined stated requirement of only ~10,500 million litres",
+     "value": "13,040 million litres (offered), ~10,500 million litres (required)",
+     "period": "ESY 2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Independent industry reporting",
+     "series": "Ethanol supply-demand gap",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "total industry-wide offer (grain plus sugarcane-based) came to roughly 17,760 million litres",
+     "value": "~17,760 million litres",
+     "period": "ESY 2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Independent industry reporting",
+     "series": "Total ethanol industry offer",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Public sector banks have financed nearly ₹1 lakh crore cumulatively of ethanol-plant and infrastructure investment",
+     "value": "₹1 lakh crore",
+     "period": null,
+     "period_end": null,
+     "publisher": "CareEdge Ratings",
+     "series": "Ethanol-plant investment financing",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "the loan book at risk in an E20-plateau scenario at roughly ₹1.17 lakh crore",
+     "value": "₹1.17 lakh crore",
+     "period": null,
+     "period_end": null,
+     "publisher": "Unpublished E30 scenario model",
+     "series": "Ethanol-plant loan book risk",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "cutting the retail pump price of E30 blended petrol by ~₹3.50/litre",
+     "value": "~₹3.50/litre",
+     "period": null,
+     "period_end": null,
+     "publisher": "Unpublished E30 Price Compromise model",
+     "series": "E30 pump price reduction scenario",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "NIPU-2026 aims to add roughly 10 million tonnes of domestic urea production capacity",
+     "value": "10 million tonnes",
+     "period": null,
+     "period_end": null,
+     "publisher": "Cabinet approval (NIPU-2026)",
+     "series": "Urea production capacity expansion",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "fertiliser imports up 76% in FY26 over FY25",
+     "value": "76%",
+     "period": "FY26 over FY25",
+     "period_end": "2026-03-31",
+     "publisher": "This blog's own tracking",
+     "series": "Fertiliser import growth",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Pradhan Mantri JI-VAN Yojana has a total outlay of ₹1,969.5 crore",
+     "value": "₹1,969.5 crore",
+     "period": null,
+     "period_end": null,
+     "publisher": "Government notification",
+     "series": "Pradhan Mantri JI-VAN Yojana budget",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹1,800 crore of it for commercial-scale advanced (2G) biofuel projects",
+     "value": "₹1,800 crore",
+     "period": null,
+     "period_end": null,
+     "publisher": "Government notification",
+     "series": "Pradhan Mantri JI-VAN Yojana allocation",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Haryana's 2025-26 state budget sanctioned a ₹200 crore, 90 KLPD multi-feed ethanol plant",
+     "value": "₹200 crore",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Haryana Budget 2025-26",
+     "series": "State budget allocation for ethanol plant",
+     "frequency": "annual",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

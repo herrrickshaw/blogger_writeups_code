@@ -1,0 +1,610 @@
+{
+ "slug": "nature-versus-nurture-indias-fertiliser",
+ "text_sha1": "8667a586f88fa407",
+ "chars": 61739,
+ "checked": "2026-10-23T15:03:17",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "This post cites a 2025-26 foodgrain target of 362.5 MT and a 2024-25 record of 353.96 MT.",
+     "value": "362.5 MT",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "PIB / ministry",
+     "series": "foodgrain target",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "This post cites a 2025-26 foodgrain target of 362.5 MT and a 2024-25 record of 353.96 MT.",
+     "value": "353.96 MT",
+     "period": "2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "PIB / ministry",
+     "series": "foodgrain production record",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "The Ministry of Agriculture's Third Advance Estimates for 2025-26, released in late May 2026, put output at a record 376.56 MT, above the target, with wheat at 120.66 MT.",
+     "value": "376.56 MT",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "MoSPI",
+     "series": "Third Advance Estimates foodgrain output",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "The Ministry of Agriculture's Third Advance Estimates for 2025-26, released in late May 2026, put output at a record 376.56 MT, above the target, with wheat at 120.66 MT.",
+     "value": "120.66 MT",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "MoSPI",
+     "series": "Third Advance Estimates wheat output",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "The same release revised 2024-25 to 357.73 MT.",
+     "value": "357.73 MT",
+     "period": "2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "MoSPI",
+     "series": "Revised foodgrain output",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Trade press (Fertilizer Daily, citing Profercy and Bloomberg) reported lowest offers of about $390–394/t cfr in RCF's August 2026 urea tender",
+     "value": "$390–394/t",
+     "period": "August 2026",
+     "period_end": "2026-08-31",
+     "publisher": "PPAC",
+     "series": "RCF urea tender lowest offers",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "Trade press (Fertilizer Daily, citing Profercy and Bloomberg) reported lowest offers of about $390–394/t cfr in RCF's August 2026 urea tender, with China expected to supply at least 1.2 MT.",
+     "value": "1.2 MT",
+     "period": "August 2026",
+     "period_end": "2026-08-31",
+     "publisher": "PPAC",
+     "series": "China expected urea supply",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "That is below the $419/t used here as the cycle's cheapest.",
+     "value": "$419/t",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "PPAC",
+     "series": "cycle's cheapest urea tender",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "On this piece's own formula, the gas-price crossover would fall from about $10.3 to about $9.3/MMBtu.",
+     "value": "$10.3",
+     "period": "2026",
+     "period_end": "2026-07-24",
+     "publisher": "CEA",
+     "series": "gas-price crossover",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "On this piece's own formula, the gas-price crossover would fall from about $10.3 to about $9.3/MMBtu.",
+     "value": "$9.3/MMBtu",
+     "period": "2026",
+     "period_end": "2026-07-24",
+     "publisher": "CEA",
+     "series": "gas-price crossover",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The Ministry of Agriculture & Farmers Welfare has set a foodgrain production target of 362.5 million tonnes (MT) for FY 2025–26",
+     "value": "362.5 million tonnes",
+     "period": "FY 2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "PIB / ministry",
+     "series": "foodgrain production target",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "building on a record FY 2024–25 in which India achieved 353.96 MT — 12.41 MT ahead of that year's own target.",
+     "value": "353.96 MT",
+     "period": "FY 2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "PIB / ministry",
+     "series": "foodgrain production achieved",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "building on a record FY 2024–25 in which India achieved 353.96 MT — 12.41 MT ahead of that year's own target.",
+     "value": "12.41 MT",
+     "period": "FY 2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "PIB / ministry",
+     "series": "outperformance vs prior year target",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Urea imports were up 120% y/y in Apr–Nov FY25–26 even as the government completed six revived mega-plants",
+     "value": "120%",
+     "period": "Apr-Nov FY25-26",
+     "period_end": "2025-11-30",
+     "publisher": "DGCI&S",
+     "series": "urea imports growth y/y",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "DAP import-dependence rose from 56% to 67% in the same period.",
+     "value": "56%",
+     "period": "Apr-Nov FY24-25",
+     "period_end": "2024-11-30",
+     "publisher": "DGCI&S",
+     "series": "DAP import dependence",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "DAP import-dependence rose from 56% to 67% in the same period.",
+     "value": "67%",
+     "period": "Apr-Nov FY25-26",
+     "period_end": "2025-11-30",
+     "publisher": "DGCI&S",
+     "series": "DAP import dependence",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "Urea tender prices went from $419/t (Nov-25) to $959/t (Apr-26) and back to $447/t (Jun-26)",
+     "value": "$419/t",
+     "period": "Nov-25",
+     "period_end": "2025-11-30",
+     "publisher": "PPAC",
+     "series": "urea tender prices",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "Urea tender prices went from $419/t (Nov-25) to $959/t (Apr-26) and back to $447/t (Jun-26)",
+     "value": "$959/t",
+     "period": "Apr-26",
+     "period_end": "2026-04-30",
+     "publisher": "PPAC",
+     "series": "urea tender prices",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "Urea tender prices went from $419/t (Nov-25) to $959/t (Apr-26) and back to $447/t (Jun-26)",
+     "value": "$447/t",
+     "period": "Jun-26",
+     "period_end": "2026-06-30",
+     "publisher": "PPAC",
+     "series": "urea tender prices",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "At APM gas pricing ($7/MMBtu), modelled domestic urea cost (~$320/t) undercuts every import tender of this cycle.",
+     "value": "$7/MMBtu",
+     "period": "2026",
+     "period_end": "2026-03-31",
+     "publisher": "PPAC",
+     "series": "APM gas pricing",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "At APM gas pricing ($7/MMBtu), modelled domestic urea cost (~$320/t) undercuts every import tender of this cycle.",
+     "value": "~$320/t",
+     "period": "2026",
+     "period_end": "2026-03-31",
+     "publisher": "PPAC",
+     "series": "modelled domestic urea cost",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "At crisis-level spot LNG (~$20/MMBtu), domestic cost (~$710/t) is cheaper only against the April peak",
+     "value": "~$20/MMBtu",
+     "period": "Mar-Apr 2026",
+     "period_end": "2026-04-30",
+     "publisher": "PPAC",
+     "series": "crisis-level spot LNG",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "At crisis-level spot LNG (~$20/MMBtu), domestic cost (~$710/t) is cheaper only against the April peak",
+     "value": "~$710/t",
+     "period": "Mar-Apr 2026",
+     "period_end": "2026-04-30",
+     "publisher": "PPAC",
+     "series": "modelled domestic urea cost at spot LNG",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "The same Pool Fund mechanism that has uniformly priced gas to 27 urea plants since 2015 was repurposed in March 2026",
+     "value": "27",
+     "period": "2015 to 2026",
+     "period_end": "2026-03-31",
+     "publisher": "PPAC",
+     "series": "gas-based urea plants",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Foodgrain production target | 362.5 | FY 2025–26",
+     "value": "362.5",
+     "period": "FY 2025–26",
+     "period_end": "2026-03-31",
+     "publisher": "PIB / ministry",
+     "series": "Foodgrain production target",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Foodgrain production achieved | 353.96 | FY 2024–25 (record)",
+     "value": "353.96",
+     "period": "FY 2024–25",
+     "period_end": "2025-03-31",
+     "publisher": "PIB / ministry",
+     "series": "Foodgrain production achieved",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Outperformance vs. prior year's target | +12.41 | FY 2024–25",
+     "value": "+12.41",
+     "period": "FY 2024–25",
+     "period_end": "2025-03-31",
+     "publisher": "PIB / ministry",
+     "series": "Outperformance vs. prior year's target",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Rice production | 151.84 | FY 2024–25 (record, +12.4 MT y/y)",
+     "value": "151.84",
+     "period": "FY 2024–25",
+     "period_end": "2025-03-31",
+     "publisher": "PIB / ministry",
+     "series": "Rice production",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Wheat production | 120.21 | 2nd advance estimate, 2025–26 (record)",
+     "value": "120.21",
+     "period": "2025–26",
+     "period_end": "2026-03-31",
+     "publisher": "PIB / ministry",
+     "series": "Wheat production",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Maize / coarse cereals (Kharif) | 41.41 | 1st advance estimate, FY 2025–26",
+     "value": "41.41",
+     "period": "FY 2025–26",
+     "period_end": "2026-03-31",
+     "publisher": "PIB / ministry",
+     "series": "Maize / coarse cereals (Kharif) production",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Total Kharif foodgrain | 173.33 | +3.87 MT y/y",
+     "value": "173.33",
+     "period": "FY 2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "PIB / ministry",
+     "series": "Total Kharif foodgrain production",
+     "frequency": "annual",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "The Ministry of Agriculture's Third Advance Estimates for 2025–26, released in late May 2026, put output at a record 376.56 MT, above the target, with wheat at 120.66 MT.",
+     "value": "376.56 million tonnes (MT)",
+     "period": "FY 2025–26",
+     "period_end": "2026-03-31",
+     "publisher": "Ministry of Agriculture & Farmers Welfare",
+     "series": "Third Advance Estimates of Foodgrain Production",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "The Ministry of Agriculture & Farmers Welfare has set a foodgrain production target of 362.5 million tonnes (MT) for FY 2025–26, building on a record FY 2024–25 in which India achieved 353.96 MT.",
+     "value": "362.5 million tonnes (MT)",
+     "period": "FY 2025–26",
+     "period_end": "2026-03-31",
+     "publisher": "Ministry of Agriculture & Farmers Welfare",
+     "series": "Foodgrain Production Target",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "India achieved 353.96 MT in FY 2024–25, 12.41 MT ahead of that year's own target.",
+     "value": "353.96 million tonnes (MT)",
+     "period": "FY 2024–25",
+     "period_end": "2025-03-31",
+     "publisher": "Ministry of Agriculture & Farmers Welfare",
+     "series": "Foodgrain Production Achievement",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Rice production was 151.84 MT in FY 2024–25 (record, +12.4 MT y/y).",
+     "value": "151.84 million tonnes (MT)",
+     "period": "FY 2024–25",
+     "period_end": "2025-03-31",
+     "publisher": "Ministry of Agriculture & Farmers Welfare",
+     "series": "Rice Production",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Wheat production was 120.21 MT in the 2nd advance estimate, 2025–26 (record).",
+     "value": "120.21 million tonnes (MT)",
+     "period": "FY 2025–26 (2nd advance estimate)",
+     "period_end": "2026-03-31",
+     "publisher": "Ministry of Agriculture & Farmers Welfare",
+     "series": "Wheat Production",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Maize / coarse cereals (Kharif) were 41.41 MT in the 1st advance estimate, FY 2025–26.",
+     "value": "41.41 million tonnes (MT)",
+     "period": "FY 2025–26 (1st advance estimate)",
+     "period_end": "2026-03-31",
+     "publisher": "Ministry of Agriculture & Farmers Welfare",
+     "series": "Maize/Coarse Cereals Production",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Total Kharif foodgrain was 173.33 MT, +3.87 MT y/y.",
+     "value": "173.33 million tonnes (MT)",
+     "period": "Kharif 2025–26",
+     "period_end": "2025-11-30",
+     "publisher": "Ministry of Agriculture & Farmers Welfare",
+     "series": "Kharif Foodgrain Production",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Urea imports were up 120% y/y in Apr–Nov FY25–26 even as the government completed six revived mega-plants.",
+     "value": "120%",
+     "period": "Apr–Nov FY 2025–26",
+     "period_end": "2025-11-30",
+     "publisher": "Department of Fertilizers / Fertiliser Association of India",
+     "series": "Urea Import Growth",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "DAP import-dependence rose from 56% to 67% in the same period (Apr–Nov FY25–26).",
+     "value": "67%",
+     "period": "Apr–Nov FY 2025–26",
+     "period_end": "2025-11-30",
+     "publisher": "Department of Fertilizers / Fertiliser Association of India",
+     "series": "DAP Import Dependence",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Lowest offers of about $390–394/t cfr in RCF's August 2026 urea tender, with China expected to supply at least 1.2 MT.",
+     "value": "$390–394/tonne (cfr)",
+     "period": "August 2026",
+     "period_end": "2026-08-31",
+     "publisher": "Fertilizer Daily (citing Profercy and Bloomberg)",
+     "series": "Urea Tender Prices",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Urea sales were 25.40 MT in FY25–26 (Apr–Nov), up 2.3% y/y.",
+     "value": "25.40 million tonnes (MT)",
+     "period": "Apr–Nov FY 2025–26",
+     "period_end": "2025-11-30",
+     "publisher": "Department of Fertilizers / Fertiliser Association of India",
+     "series": "Urea Sales",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Urea domestic output was 19.75 MT in FY25–26 (Apr–Nov), down 3.7% y/y.",
+     "value": "19.75 million tonnes (MT)",
+     "period": "Apr–Nov FY 2025–26",
+     "period_end": "2025-11-30",
+     "publisher": "Department of Fertilizers / Fertiliser Association of India",
+     "series": "Urea Domestic Output",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "DAP sales were 7.12 MT in FY25–26 (Apr–Nov), down 1.0% y/y.",
+     "value": "7.12 million tonnes (MT)",
+     "period": "Apr–Nov FY 2025–26",
+     "period_end": "2025-11-30",
+     "publisher": "Department of Fertilizers / Fertiliser Association of India",
+     "series": "DAP Sales",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "DAP domestic output was 2.68 MT in FY25–26 (Apr–Nov), down 5.2% y/y.",
+     "value": "2.68 million tonnes (MT)",
+     "period": "Apr–Nov FY 2025–26",
+     "period_end": "2025-11-30",
+     "publisher": "Department of Fertilizers / Fertiliser Association of India",
+     "series": "DAP Domestic Output",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Urea imports were 7.17 MT in Apr–Nov FY25–26, up 120% y/y.",
+     "value": "7.17 million tonnes (MT)",
+     "period": "Apr–Nov FY 2025–26",
+     "period_end": "2025-11-30",
+     "publisher": "Department of Fertilizers / Fertiliser Association of India",
+     "series": "Urea Imports",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "India's net fertiliser trade deficit was $7.7 billion in 2024, all nutrient categories.",
+     "value": "$7.7 billion",
+     "period": "2024",
+     "period_end": "2024-12-31",
+     "publisher": "Department of Fertilizers / UN COMTRADE",
+     "series": "Fertiliser Trade Deficit",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "India's FY 2026–27 fertiliser subsidy budget stands at ₹1.71 lakh crore (~$18.65 billion).",
+     "value": "₹1.71 lakh crore (~$18.65 billion)",
+     "period": "FY 2026–27",
+     "period_end": "2027-03-31",
+     "publisher": "Union Budget / Department of Fertilizers",
+     "series": "Fertiliser Subsidy Budget",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Urea subsidy: ₹1.168 lakh crore; Nutrient-Based Subsidy (NBS) for P&K fertilisers: ₹0.54 lakh crore.",
+     "value": "₹1.168 lakh crore (Urea) / ₹0.54 lakh crore (NBS)",
+     "period": "FY 2026–27",
+     "period_end": "2027-03-31",
+     "publisher": "Union Budget / Department of Fertilizers",
+     "series": "Fertiliser Subsidy Allocation",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "China's DAP exports to India fell from 22.28 lakh tonnes in FY 2023–24 to 8.47 LMT in FY 2024–25.",
+     "value": "8.47 lakh metric tonnes (LMT)",
+     "period": "FY 2024–25",
+     "period_end": "2025-03-31",
+     "publisher": "Argus Media / Ministry of Commerce",
+     "series": "China-India DAP Exports",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "China's fertiliser exports to India surged 173% y/y in FY 2025–26, reaching 5.02 million tonnes.",
+     "value": "5.02 million tonnes",
+     "period": "FY 2025–26",
+     "period_end": "2026-03-31",
+     "publisher": "Argus Media / Ministry of Commerce",
+     "series": "China-India Fertiliser Exports",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Russia grew to become India's single largest fertiliser supplier at 6.8 million tonnes in FY 2025–26.",
+     "value": "6.8 million tonnes",
+     "period": "FY 2025–26",
+     "period_end": "2026-03-31",
+     "publisher": "Argus Media / Ministry of Commerce",
+     "series": "Russia-India Fertiliser Exports",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "India's total fertiliser sales in the post-crisis window (1 March–21 June 2026) reached 13.36 million tonnes.",
+     "value": "13.36 million tonnes",
+     "period": "1 March–21 June 2026",
+     "period_end": "2026-06-21",
+     "publisher": "Business Standard / External Affairs Ministry",
+     "series": "Fertiliser Sales (Post-Crisis)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Domestic production over the same window rose to 13.31 MT, matched by approximately 4.36 MT of imports.",
+     "value": "13.31 million tonnes (domestic) / 4.36 million tonnes (imports)",
+     "period": "1 March–21 June 2026",
+     "period_end": "2026-06-21",
+     "publisher": "Business Standard / External Affairs Ministry",
+     "series": "Fertiliser Production and Imports (Post-Crisis)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India's total reported area is 306.65 million hectares, of which approximately 59% is under agriculture.",
+     "value": "306.65 million hectares (total) / 59%",
+     "period": "2022–23",
+     "period_end": "2023-03-31",
+     "publisher": "Ministry of Agriculture & Farmers Welfare",
+     "series": "Land Use Statistics",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Soil samples collected: 253.49 lakh in Cycle I (2015-16 to 2016-17), 272.32 lakh in Cycle II (2017-18 to 2018-19).",
+     "value": "253.49 lakh (Cycle I) / 272.32 lakh (Cycle II)",
+     "period": "Cycle I: 2015-16 to 2016-17 / Cycle II: 2017-18 to 2018-19",
+     "period_end": "Cycle I: 2016-12-31 / Cycle II: 2019-08-23",
+     "publisher": "Ministry of Statistics & Programme Implementation",
+     "series": "Soil Health Card Sampling",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "Soil Health Cards distributed: 1,073.89 lakh in Cycle I, 1,079.52 lakh in Cycle II (as of 23.8.2019).",
+     "value": "1,073.89 lakh (Cycle I) / 1,079.52 lakh (Cycle II)",
+     "period": "Cycle I: 2015-16 to 2016-17 / Cycle II: 2017-18 to 2018-19",
+     "period_end": "Cycle I: 2016-12-31 / Cycle II: 2019-08-23",
+     "publisher": "Ministry of Statistics & Programme Implementation",
+     "series": "Soil Health Card Distribution",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "Over 25.89 crore Soil Health Cards cumulatively issued as of July 2026.",
+     "value": "25.89 crore",
+     "period": "as of July 2026",
+     "period_end": "2026-07-31",
+     "publisher": "Ministry of Agriculture & Farmers Welfare",
+     "series": "Cumulative Soil Health Cards",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "The National Mission on Natural Farming (NMNF) has expanded to 18,786 clusters covering 8.80 lakh hectares, with over 18.19 lakh farmers enrolled as of March 2026.",
+     "value": "18,786 clusters / 8.80 lakh hectares / 18.19 lakh farmers",
+     "period": "as of March 2026",
+     "period_end": "2026-03-31",
+     "publisher": "Ministry of Agriculture & Farmers Welfare",
+     "series": "National Mission on Natural Farming",
+     "frequency": "live",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,160 @@
+{
+ "slug": "india-fuel-retail-outlets-82k-geocoded",
+ "text_sha1": "cd55bfdf2a9ba2e4",
+ "chars": 8809,
+ "checked": "2026-10-23T12:30:00",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "5,665+\nCNG stations\n(built out, Mar 2023)",
+     "value": "5,665+",
+     "period": "March 2023",
+     "period_end": "2023-03-31",
+     "publisher": "PNGRB",
+     "series": "CNG stations built out",
+     "frequency": "quarterly",
+     "headline": true
+    },
+    {
+     "quote": "CGD rollout spans 307 geographical areas across roughly 784 districts (PNGRB)",
+     "value": "307",
+     "period": "March 2023",
+     "period_end": "2023-03-31",
+     "publisher": "PNGRB",
+     "series": "CGD geographical areas authorised",
+     "frequency": "quarterly",
+     "headline": true
+    },
+    {
+     "quote": "CGD rollout spans 307 geographical areas across roughly 784 districts (PNGRB)",
+     "value": "~784",
+     "period": "March 2023",
+     "period_end": "2023-03-31",
+     "publisher": "PNGRB",
+     "series": "districts covered by CGD rollout",
+     "frequency": "quarterly",
+     "headline": true
+    },
+    {
+     "quote": "holding around 530kg of gas at 250 bar",
+     "value": "530kg",
+     "period": null,
+     "period_end": null,
+     "publisher": "PNGRB",
+     "series": "mobile cascade capacity",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "holding around 530kg of gas at 250 bar",
+     "value": "250 bar",
+     "period": null,
+     "period_end": null,
+     "publisher": "PNGRB",
+     "series": "mobile cascade pressure",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "Total geocoded retail outlets vs. CNG stations built out (PNGRB, as of March 2023) ~82,000 Total retail outlets (petrol pumps, geocoded) 5,665+ CNG stations (built out, Mar 2023)",
+     "value": "82,000 petrol pumps (geocoded)",
+     "period": "as of March 2023",
+     "period_end": "2023-03-31",
+     "publisher": "PNGRB",
+     "series": "City Gas Distribution (CGD) retail-outlet network count",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "Total geocoded retail outlets vs. CNG stations built out (PNGRB, as of March 2023) ~82,000 Total retail outlets (petrol pumps, geocoded) 5,665+ CNG stations (built out, Mar 2023)",
+     "value": "5,665+ CNG stations (built out)",
+     "period": "as of March 2023",
+     "period_end": "2023-03-31",
+     "publisher": "PNGRB",
+     "series": "City Gas Distribution (CGD) station count",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "PNGRB's city-gas rollout has now authorised 307 geographical areas, reaching close to 100 per cent of India's landmass outside the islands and roughly 784 districts",
+     "value": "307 geographical areas authorised",
+     "period": null,
+     "period_end": null,
+     "publisher": "PNGRB",
+     "series": "City Gas Distribution (CGD) geographical area authorisation",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "PNGRB's city-gas rollout has now authorised 307 geographical areas, reaching close to 100 per cent of India's landmass outside the islands and roughly 784 districts",
+     "value": "~784 districts covered",
+     "period": null,
+     "period_end": null,
+     "publisher": "PNGRB",
+     "series": "City Gas Distribution (CGD) district coverage",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "PNGRB's city-gas rollout has now authorised 307 geographical areas, reaching close to 100 per cent of India's landmass outside the islands and roughly 784 districts, with over 5,665 CNG stations built out as of March 2023",
+     "value": "over 5,665 CNG stations built out",
+     "period": "as of March 2023",
+     "period_end": "2023-03-31",
+     "publisher": "PNGRB",
+     "series": "City Gas Distribution (CGD) station count (repeated)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "a cascade commonly holding around 530kg of gas at 250 bar",
+     "value": "530 kg of gas at 250 bar (cascade capacity)",
+     "period": null,
+     "period_end": null,
+     "publisher": "industry city-gas-distribution technical references",
+     "series": "CNG cascade specifications",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "a daughter booster station is the same idea with one refinement — a smaller booster compressor tops up the pressure of gas remaining in a part-used cascade, which is what lets these sites push cascade utilisation up to 70–80 per cent",
+     "value": "70–80% cascade utilisation",
+     "period": null,
+     "period_end": null,
+     "publisher": "industry city-gas-distribution technical references",
+     "series": "CNG cascade utilisation rate",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "PNGRB should publish CNG station counts for each of the 307 geographical areas every quarter",
+     "value": "quarterly CNG station counts by 307 geographical areas",
+     "period": null,
+     "period_end": null,
+     "publisher": "PNGRB (proposed)",
+     "series": "City Gas Distribution (CGD) station count by geographical area",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "The Ministry of Petroleum and Natural Gas should publish the list of retail outlets receiving compressed biogas under SATAT, with monthly volumes",
+     "value": "monthly volumes of CBG at retail outlets",
+     "period": null,
+     "period_end": null,
+     "publisher": "Ministry of Petroleum and Natural Gas (proposed)",
+     "series": "SATAT scheme CBG retail volumes",
+     "frequency": "monthly",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,450 @@
+{
+ "slug": "imported-fertiliser-fuel-prices-diesel",
+ "text_sha1": "eef9fa3004ac48b7",
+ "chars": 12122,
+ "checked": "2026-10-23T12:19:24",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "+79.0% \n Diesel (HSD) \n +41.9% \n DAP \n +13.8% \n Urea",
+     "value": "+79.0%",
+     "period": "April 2012 to April 2026",
+     "period_end": "2026-04-30",
+     "publisher": "DPIIT",
+     "series": "WPI item series (HSD, DAP, Urea)",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "+41.9% \n DAP",
+     "value": "+41.9%",
+     "period": "April 2012 to April 2026",
+     "period_end": "2026-04-30",
+     "publisher": "DPIIT",
+     "series": "WPI item series (DAP)",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "+13.8% \n Urea",
+     "value": "+13.8%",
+     "period": "April 2012 to April 2026",
+     "period_end": "2026-04-30",
+     "publisher": "DPIIT",
+     "series": "WPI item series (Urea)",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "June 2026 YoY was +32.57% for diesel, +1.09% for urea and +12.63% for DAP",
+     "value": "+32.57%",
+     "period": "June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "DPIIT",
+     "series": "WPI (2022-23 base series)",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "June 2026 YoY was +32.57% for diesel, +1.09% for urea and +12.63% for DAP",
+     "value": "+1.09%",
+     "period": "June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "DPIIT",
+     "series": "WPI (2022-23 base series)",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "June 2026 YoY was +32.57% for diesel, +1.09% for urea and +12.63% for DAP",
+     "value": "+12.63%",
+     "period": "June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "DPIIT",
+     "series": "WPI (2022-23 base series)",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "diesel (HSD) is up 79.0% , moving almost exactly with global crude and tracking WPI headline itself (same-year growth correlation r = 0.92 )",
+     "value": "0.92",
+     "period": "2012-2026",
+     "period_end": "2026-04-30",
+     "publisher": "DPIIT",
+     "series": "WPI headline and HSD sub-index correlation",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Urea is up only 13.8% over the same 14 years",
+     "value": "13.8%",
+     "period": "14 years (2012 to 2026)",
+     "period_end": "2026-04-30",
+     "publisher": "DPIIT",
+     "series": "WPI Urea series",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "DAP, with a smaller and less consistent subsidy share, is up 41.9%",
+     "value": "41.9%",
+     "period": "2012 to 2026",
+     "period_end": "2026-04-30",
+     "publisher": "DPIIT",
+     "series": "WPI DAP series",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "the actual monthly year-on-year print went from -18.17% in June 2023 to +21.24% in August 2025",
+     "value": "-18.17%",
+     "period": "June 2023",
+     "period_end": "2023-06-30",
+     "publisher": "MoSPI",
+     "series": "CPI oils & fats",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "the actual monthly year-on-year print went from -18.17% in June 2023 to +21.24% in August 2025",
+     "value": "+21.24%",
+     "period": "August 2025",
+     "period_end": "2025-08-31",
+     "publisher": "MoSPI",
+     "series": "CPI oils & fats",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "edible-oil imports (HS15) up 97.9% over FY2018-19 to FY2025-26",
+     "value": "97.9%",
+     "period": "FY2018-19 to FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "Edible-oil imports (HS15)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "diesel vs. WPI headline, r = 0.92",
+     "value": "0.92",
+     "period": "2012 to 2026",
+     "period_end": "2026-04-30",
+     "publisher": "DPIIT",
+     "series": "Pearson r on year-on-year growth rates",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "r between -0.52 and +0.29",
+     "value": "-0.52",
+     "period": "2012 to 2026",
+     "period_end": "2026-04-30",
+     "publisher": "DPIIT",
+     "series": "Pearson r on year-on-year growth rates",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "r between -0.52 and +0.29",
+     "value": "+0.29",
+     "period": "2012 to 2026",
+     "period_end": "2026-04-30",
+     "publisher": "DPIIT",
+     "series": "Pearson r on year-on-year growth rates",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "crude petroleum alone is 23.4% of India's entire import bill by value",
+     "value": "23.4%",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "PIB / ministry",
+     "series": "India import composition",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "various fertiliser categories (mixed mineral/chemical, nitrogenous) add roughly another 2%",
+     "value": "2%",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "PIB / ministry",
+     "series": "India import composition",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "weight 13.15% of WPI",
+     "value": "13.15%",
+     "period": "2011-12 base",
+     "period_end": "2026-04-30",
+     "publisher": "DPIIT",
+     "series": "Fuel & Power major group weight in WPI",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "swung from -18.17% in June 2023 to +21.24% in August 2025",
+     "value": "-18.17%",
+     "period": "June 2023",
+     "period_end": "2023-06-30",
+     "publisher": "MoSPI",
+     "series": "CPI oils and fats",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "swung from -18.17% in June 2023 to +21.24% in August 2025",
+     "value": "+21.24%",
+     "period": "August 2025",
+     "period_end": "2025-08-31",
+     "publisher": "MoSPI",
+     "series": "CPI oils and fats",
+     "frequency": "monthly",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "WPI item series, April 2012 to April 2026 (2011-12=100) +79.0% Diesel (HSD) +41.9% DAP +13.8% Urea",
+     "value": "79.0%",
+     "period": "April 2012 to April 2026",
+     "period_end": "2026-04-30",
+     "publisher": "Office of the Economic Adviser, DPIIT",
+     "series": "WPI item-level series for HSD/diesel, Urea, and Di-ammonium Phosphate (DAP)",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "WPI item series, April 2012 to April 2026 (2011-12=100) +79.0% Diesel (HSD) +41.9% DAP +13.8% Urea",
+     "value": "41.9%",
+     "period": "April 2012 to April 2026",
+     "period_end": "2026-04-30",
+     "publisher": "Office of the Economic Adviser, DPIIT",
+     "series": "WPI item-level series for DAP",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "WPI item series, April 2012 to April 2026 (2011-12=100) +79.0% Diesel (HSD) +41.9% DAP +13.8% Urea",
+     "value": "13.8%",
+     "period": "April 2012 to April 2026",
+     "period_end": "2026-04-30",
+     "publisher": "Office of the Economic Adviser, DPIIT",
+     "series": "WPI item-level series for Urea",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "June 2026 YoY was +32.57% for diesel, +1.09% for urea and +12.63% for DAP",
+     "value": "32.57%",
+     "period": "June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "Office of the Economic Adviser, DPIIT",
+     "series": "WPI item-level series (rebased to 2022-23)",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "June 2026 YoY was +32.57% for diesel, +1.09% for urea and +12.63% for DAP",
+     "value": "1.09%",
+     "period": "June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "Office of the Economic Adviser, DPIIT",
+     "series": "WPI item-level series for Urea (rebased to 2022-23)",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "June 2026 YoY was +32.57% for diesel, +1.09% for urea and +12.63% for DAP",
+     "value": "12.63%",
+     "period": "June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "Office of the Economic Adviser, DPIIT",
+     "series": "WPI item-level series for DAP (rebased to 2022-23)",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "the actual monthly year-on-year print went from -18.17% in June 2023 to +21.24% in August 2025",
+     "value": "-18.17%",
+     "period": "June 2023",
+     "period_end": "2023-06-30",
+     "publisher": "MoSPI",
+     "series": "CPI oils & fats",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "the actual monthly year-on-year print went from -18.17% in June 2023 to +21.24% in August 2025",
+     "value": "+21.24%",
+     "period": "August 2025",
+     "period_end": "2025-08-31",
+     "publisher": "MoSPI",
+     "series": "CPI oils & fats",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "edible-oil imports (HS15) up 97.9% over FY2018-19 to FY2025-26",
+     "value": "97.9%",
+     "period": "FY2018-19 to FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Author's own trade-balance bulletin",
+     "series": "Edible-oil imports (HS15)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "crude petroleum alone is 23.4% of India's entire import bill by value",
+     "value": "23.4%",
+     "period": null,
+     "period_end": null,
+     "publisher": "Yogeshwaran thesis (Indian Maritime University, 2025)",
+     "series": "India's import composition by value",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "the various fertiliser categories (mixed mineral/chemical, nitrogenous) add roughly another 2%",
+     "value": "2%",
+     "period": null,
+     "period_end": null,
+     "publisher": "Yogeshwaran thesis (Indian Maritime University, 2025)",
+     "series": "India's import composition by value (fertilisers)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "HSD is one of the ~10 items inside the WPI 'Mineral oils' group, which is itself one of three groups making up the 'Fuel & Power' major group (weight 13.15% of WPI)",
+     "value": "13.15%",
+     "period": null,
+     "period_end": null,
+     "publisher": "Office of the Economic Adviser, DPIIT",
+     "series": "WPI 'Fuel & Power' major group weight",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India's Fertiliser Import Bill Hits $18 Billion (related article)",
+     "value": "$18 Billion",
+     "period": null,
+     "period_end": null,
+     "publisher": "Not specified (related article)",
+     "series": "India's fertiliser import bill",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India's Subsidised Imports — Fertilisers Explode +76% (FY25 vs FY26) (related article)",
+     "value": "76%",
+     "period": "FY2025 vs FY2026",
+     "period_end": "2026-03-31",
+     "publisher": "Not specified (related article)",
+     "series": "Fertiliser imports growth",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "a 10% rise in fuel inflation raises food inflation by about 1% within the same month",
+     "value": "1%",
+     "period": null,
+     "period_end": null,
+     "publisher": "Bhattacharya and Gupta (NIPFP Working Paper 2015-151)",
+     "series": "Structural VAR: fuel-to-food inflation transmission",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "a 10% rise in agricultural-wage inflation raises [food inflation] by 1.6% immediately, rising to 2.4–5.5% within four months",
+     "value": "1.6%",
+     "period": null,
+     "period_end": null,
+     "publisher": "Bhattacharya and Gupta (NIPFP Working Paper 2015-151)",
+     "series": "Structural VAR: wage-to-food inflation transmission (immediate)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "a 10% rise in agricultural-wage inflation raises [food inflation] by 1.6% immediately, rising to 2.4–5.5% within four months",
+     "value": "2.4–5.5%",
+     "period": null,
+     "period_end": null,
+     "publisher": "Bhattacharya and Gupta (NIPFP Working Paper 2015-151)",
+     "series": "Structural VAR: wage-to-food inflation transmission (within four months)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "inflation above 6% starts dragging on GDP growth — that threshold literature is about headline CPI",
+     "value": "6%",
+     "period": null,
+     "period_end": null,
+     "publisher": "Elahi and Nath (JETIR, 2025) / RBI",
+     "series": "Inflation threshold for GDP growth impact",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "CPI food print (a major driver of the headline number) crossed 6% repeatedly during the 2022 and 2024 spikes",
+     "value": "6%",
+     "period": "2022 and 2024",
+     "period_end": "2024-12-31",
+     "publisher": "MoSPI",
+     "series": "CPI food inflation",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Pearson r on year-on-year growth rates, same-year unless marked. The one strong number here — diesel vs. WPI headline, r = 0.92",
+     "value": "0.92",
+     "period": null,
+     "period_end": null,
+     "publisher": "Author's analysis",
+     "series": "Pearson correlation (diesel vs. WPI headline)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "every other pair — fertiliser or fuel input costs against CPI headline, CPI food, or CPI oils & fats — comes out weak or inconsistent (r between -0.52 and +0.29)",
+     "value": "-0.52 to +0.29",
+     "period": null,
+     "period_end": null,
+     "publisher": "Author's analysis",
+     "series": "Pearson correlation (fertiliser/fuel input costs vs. CPI sub-groups)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "CPI (base 2012) only covers 2011–2025; WPI (base 2011-12) extends to April 2026",
+     "value": "2011–2025",
+     "period": "2011–2025",
+     "period_end": "2025-12-31",
+     "publisher": "MoSPI",
+     "series": "CPI (base 2012)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "WPI (base 2011-12) extends to April 2026",
+     "value": "April 2026",
+     "period": "April 2012 to April 2026",
+     "period_end": "2026-04-30",
+     "publisher": "Office of the Economic Adviser, DPIIT",
+     "series": "WPI (base 2011-12)",
+     "frequency": "annual",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,400 @@
+{
+ "slug": "india-doesnt-have-one-quality-regulator",
+ "text_sha1": "e2041f2b3cf2fa36",
+ "chars": 15082,
+ "checked": "2026-10-23T12:24:09",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "37 Statutory regulators, accreditation boards and voluntary marks that certify or license quality in India",
+     "value": "37",
+     "period": "24 September 2026",
+     "period_end": "2026-09-24",
+     "publisher": "GitHub reference repository ('How India Regulates Quality')",
+     "series": "India Quality Regulation Repository Index",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "4 Layers the system actually runs on — Acts, statutory regulators, an accreditation apex, and the certifiers/labs beneath it",
+     "value": "4",
+     "period": "24 September 2026",
+     "period_end": "2026-09-24",
+     "publisher": "GitHub reference repository ('How India Regulates Quality')",
+     "series": "India Quality Regulation Repository Index",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "150+ Product categories where the \"voluntary\" ISI mark becomes legally compulsory under a Quality Control Order",
+     "value": "150+",
+     "period": "24 September 2026",
+     "period_end": "2026-09-24",
+     "publisher": "BIS",
+     "series": "Quality Control Orders",
+     "frequency": "live",
+     "headline": true
+    },
+    {
+     "quote": "14 Jan 2026 Date BIS's \"Scheme-X\" was repealed outright — before its own September 2026 start date ever arrived",
+     "value": "14 Jan 2026",
+     "period": "14 January 2026",
+     "period_end": "2026-01-14",
+     "publisher": "Ministry of Heavy Industries",
+     "series": "Machinery and Electrical Equipment Safety (Omnibus Technical Regulation) Order",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "The Quality Council of India was set up in 1997 as a registered society",
+     "value": "1997",
+     "period": "1997",
+     "period_end": "1997-12-31",
+     "publisher": "DPIIT / QCI",
+     "series": "Quality Council of India Establishment",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "BIS itself being 1947-founded predecessor, with BIS itself constituted in 1987",
+     "value": "1947",
+     "period": "1947",
+     "period_end": "1947-12-31",
+     "publisher": "Government of India",
+     "series": "Indian Standards Institution Establishment",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "with BIS itself constituted in 1987 and re-constituted under the current BIS Act, 2016",
+     "value": "1987",
+     "period": "1987",
+     "period_end": "1987-12-31",
+     "publisher": "Parliament",
+     "series": "BIS Act",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The Bureau of Energy Efficiency's Standards & Labelling programme made star ratings mandatory for a fresh batch of appliances... from 1 January 2026",
+     "value": "1 January 2026",
+     "period": "1 January 2026",
+     "period_end": "2026-01-01",
+     "publisher": "BEE",
+     "series": "Standards & Labelling programme",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Solar-inverter manufacturers separately faced a 28 February 2026 deadline to resubmit registrations or have existing models deactivated.",
+     "value": "28 February 2026",
+     "period": "28 February 2026",
+     "period_end": "2026-02-28",
+     "publisher": "BEE",
+     "series": "Standards & Labelling programme",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The Food Safety and Standards (Prohibition and Restrictions on Sales) First Amendment Regulations, 2024, gazetted 17 October 2024",
+     "value": "17 October 2024",
+     "period": "17 October 2024",
+     "period_end": "2024-10-17",
+     "publisher": "FSSAI",
+     "series": "Food Safety and Standards Regulations",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Scheme-X's implementation date was pushed from an original August 2025 target to 1 September 2026 by the Ministry of Heavy Industries, via a Quality Control Order published 12 June 2025",
+     "value": "12 June 2025",
+     "period": "12 June 2025",
+     "period_end": "2025-06-12",
+     "publisher": "Ministry of Heavy Industries",
+     "series": "Quality Control Order",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "37 Statutory regulators, accreditation boards and voluntary marks that certify or license quality in India",
+     "value": "37",
+     "period": null,
+     "period_end": null,
+     "publisher": "GitHub repository: 'How India Regulates Quality'",
+     "series": "List of statutory regulators, accreditation boards, and voluntary marks",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "4 Layers the system actually runs on — Acts, statutory regulators, an accreditation apex, and the certifiers/labs beneath it",
+     "value": "4",
+     "period": null,
+     "period_end": null,
+     "publisher": "GitHub repository: 'How India Regulates Quality'",
+     "series": "Layered structure of quality regulation in India",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "150+ Product categories where the 'voluntary' ISI mark becomes legally compulsory under a Quality Control Order",
+     "value": "150+",
+     "period": null,
+     "period_end": null,
+     "publisher": "GitHub repository: 'How India Regulates Quality'",
+     "series": "ISI mark coverage under Quality Control Orders",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "14 Jan 2026 Date BIS's 'Scheme-X' was repealed outright — before its own September 2026 start date ever arrived",
+     "value": "14 Jan 2026",
+     "period": "14 Jan 2026",
+     "period_end": "2026-01-14",
+     "publisher": "Ministry of Heavy Industries",
+     "series": "Repeal of Machinery and Electrical Equipment Safety (Omnibus Technical Regulation) Order, 2024",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "BEE's January 2026 expansion... made star ratings mandatory for a fresh batch of appliances... from 1 January 2026",
+     "value": "1 Jan 2026",
+     "period": "1 Jan 2026",
+     "period_end": "2026-01-01",
+     "publisher": "Bureau of Energy Efficiency (BEE)",
+     "series": "Standards & Labelling programme expansion",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Gazette notification No. 5506/BEE/S&L/AL/2025-26 (dated 26 December 2025)",
+     "value": "26 Dec 2025",
+     "period": "26 Dec 2025",
+     "period_end": "2025-12-26",
+     "publisher": "BEE",
+     "series": "Standards & Labelling programme notification",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Solar-inverter manufacturers separately faced a 28 February 2026 deadline to resubmit registrations",
+     "value": "28 Feb 2026",
+     "period": "28 Feb 2026",
+     "period_end": "2026-02-28",
+     "publisher": "BEE",
+     "series": "Solar inverter registration renewal deadline",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The Food Safety and Standards (Prohibition and Restrictions on Sales) First Amendment Regulations, 2024, gazetted 17 October 2024",
+     "value": "17 Oct 2024",
+     "period": "17 Oct 2024",
+     "period_end": "2024-10-17",
+     "publisher": "FSSAI",
+     "series": "First Amendment Regulations, 2024",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Scheme-X's implementation date was pushed from an original August 2025 target to 1 September 2026... via a Quality Control Order published 12 June 2025",
+     "value": "12 Jun 2025",
+     "period": "12 Jun 2025",
+     "period_end": "2025-06-12",
+     "publisher": "Ministry of Heavy Industries",
+     "series": "Quality Control Order for Scheme-X postponement",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The Quality Council of India was set up in 1997",
+     "value": "1997",
+     "period": "1997",
+     "period_end": "1997-12-31",
+     "publisher": "DPIIT",
+     "series": "Quality Council of India establishment",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The Indian Standards Institution, BIS's 1947-founded predecessor",
+     "value": "1947",
+     "period": "1947",
+     "period_end": "1947-12-31",
+     "publisher": "Historical",
+     "series": "Indian Standards Institution founding",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "BIS itself constituted in 1987 and re-constituted under the current BIS Act, 2016",
+     "value": "1987, 2016",
+     "period": "1987, 2016",
+     "period_end": "1987-12-31, 2016-12-31",
+     "publisher": "Government of India",
+     "series": "BIS Act and BIS constitution",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "FSSAI's governing body approved the change [carve-out] in February 2024",
+     "value": "Feb 2024",
+     "period": "Feb 2024",
+     "period_end": "2024-02-29",
+     "publisher": "FSSAI",
+     "series": "Internal approval for carve-out",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "furniture joined the list [of mandatory ISI categories] in 2025",
+     "value": "2025",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "BIS",
+     "series": "Quality Control Order updates",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "The Bureau of Energy Efficiency's Standards & Labelling programme... made star ratings mandatory for... colour and UHD televisions",
+     "value": "20-year history of the programme",
+     "period": null,
+     "period_end": null,
+     "publisher": "BEE",
+     "series": "Standards & Labelling programme history",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "The source repository was fetched by that repository's own research process on 24 September 2026",
+     "value": "24 Sep 2026",
+     "period": "24 Sep 2026",
+     "period_end": "2026-09-24",
+     "publisher": "GitHub repository: 'How India Regulates Quality'",
+     "series": "Repository fetch date",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The article was researched and written on 24 September 2026",
+     "value": "24 Sep 2026",
+     "period": "24 Sep 2026",
+     "period_end": "2026-09-24",
+     "publisher": "Author",
+     "series": "Article publication date",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The article is dated 24 September 2026",
+     "value": "24 Sep 2026",
+     "period": "24 Sep 2026",
+     "period_end": "2026-09-24",
+     "publisher": "PIB / Ministry of Information & Broadcasting",
+     "series": "Article publication date",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The article was published on 24 September 2026",
+     "value": "24 Sep 2026",
+     "period": "24 Sep 2026",
+     "period_end": "2026-09-24",
+     "publisher": "PIB / Ministry of Information & Broadcasting",
+     "series": "Article publication date",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The ISI mark traces to the Indian Standards Institution, predating BIS itself by four decades",
+     "value": "four decades",
+     "period": "1947 (ISI) vs 1987 (BIS)",
+     "period_end": "1987-12-31",
+     "publisher": "Historical",
+     "series": "ISI mark history",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The BIS Act, the Food Safety and Standards Act, the Drugs & Cosmetics Act, the Energy Conservation Act, the Legal Metrology Act, the Geographical Indications Act, and others",
+     "value": "6 Acts mentioned",
+     "period": null,
+     "period_end": null,
+     "publisher": "Parliament of India",
+     "series": "Quality regulation Acts",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The BIS Act, 2016",
+     "value": "2016",
+     "period": "2016",
+     "period_end": "2016-12-31",
+     "publisher": "Parliament of India",
+     "series": "BIS Act",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The Quality Council of India was anchored by the Department for Promotion of Industry and Internal Trade (DPIIT)",
+     "value": "DPIIT",
+     "period": null,
+     "period_end": null,
+     "publisher": "DPIIT",
+     "series": "QCI establishment anchor",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Ratan Tata was its first chairman [of QCI]",
+     "value": "Ratan Tata",
+     "period": null,
+     "period_end": null,
+     "publisher": "QCI",
+     "series": "QCI first chairman",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The Quality Council of India runs four accreditation boards: NABCB, NABL, NABH, NABET",
+     "value": "4 boards",
+     "period": null,
+     "period_end": null,
+     "publisher": "QCI",
+     "series": "QCI accreditation boards",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The list keeps moving, which is exactly where the next section's correction comes in",
+     "value": "dynamic",
+     "period": null,
+     "period_end": null,
+     "publisher": "BIS",
+     "series": "Quality Control Order updates",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "The source repository's own tracking suggests this is closer to the normal rate of change for a system with three dozen independent moving parts",
+     "value": "37 moving parts",
+     "period": null,
+     "period_end": null,
+     "publisher": "GitHub repository: 'How India Regulates Quality'",
+     "series": "Rate of change in quality regulation",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

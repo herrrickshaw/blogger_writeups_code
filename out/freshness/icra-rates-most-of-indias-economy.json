@@ -1,0 +1,710 @@
+{
+ "slug": "icra-rates-most-of-indias-economy",
+ "text_sha1": "9cfd3e876fd5d592",
+ "chars": 29297,
+ "checked": "2026-10-23T12:15:28",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "an estimated ₹32,000-34,000 crore industry-wide net loss for FY2026, projected to widen to ₹36,000-38,000 crore in FY2027",
+     "value": "₹32,000-34,000 crore",
+     "period": "FY2026",
+     "period_end": "2026-03-31",
+     "publisher": "ICRA",
+     "series": "Indian Aviation Industry research",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "projected to widen to ₹36,000-38,000 crore in FY2027",
+     "value": "₹36,000-38,000 crore",
+     "period": "FY2027",
+     "period_end": "2027-03-31",
+     "publisher": "ICRA",
+     "series": "Indian Aviation Industry research",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "India's roughly ₹12.2 lakh crore infrastructure allocation directly as their demand driver",
+     "value": "₹12.2 lakh crore",
+     "period": "2025-2026",
+     "period_end": "2026-03-31",
+     "publisher": "ICRA",
+     "series": "infrastructure capital-expenditure allocation",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "credit growth expected to moderate to 11.0-11.7% from 15.9% in FY2026",
+     "value": "11.0-11.7%",
+     "period": "FY2027",
+     "period_end": "2027-03-31",
+     "publisher": "ICRA",
+     "series": "Banking credit growth",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "credit growth expected to moderate to 11.0-11.7% from 15.9% in FY2026",
+     "value": "15.9%",
+     "period": "FY2026",
+     "period_end": "2026-03-31",
+     "publisher": "ICRA",
+     "series": "Banking credit growth",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "retail assets-under-management growth projected at 16-18% for FY2027 (down only modestly from 17-19% in FY2026)",
+     "value": "16-18%",
+     "period": "FY2027",
+     "period_end": "2027-03-31",
+     "publisher": "ICRA",
+     "series": "Non-Banking Financial Companies research notes",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "retail assets-under-management growth projected at 16-18% for FY2027 (down only modestly from 17-19% in FY2026)",
+     "value": "17-19%",
+     "period": "FY2026",
+     "period_end": "2026-03-31",
+     "publisher": "ICRA",
+     "series": "Non-Banking Financial Companies research notes",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "credit costs actually expected to ease slightly (2.0-2.2%, from 2.1-2.3%)",
+     "value": "2.0-2.2%",
+     "period": "FY2027",
+     "period_end": "2027-03-31",
+     "publisher": "ICRA",
+     "series": "Non-Banking Financial Companies research notes",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "credit costs actually expected to ease slightly (2.0-2.2%, from 2.1-2.3%)",
+     "value": "2.1-2.3%",
+     "period": "FY2026",
+     "period_end": "2026-03-31",
+     "publisher": "ICRA",
+     "series": "Non-Banking Financial Companies research notes",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "industry revenue growth is projected at 8-10% for FY2026, down sharply from 14% in FY2024",
+     "value": "8-10%",
+     "period": "FY2026",
+     "period_end": "2026-03-31",
+     "publisher": "ICRA",
+     "series": "Auto components industry revenue growth",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "industry revenue growth is projected at 8-10% for FY2026, down sharply from 14% in FY2024",
+     "value": "14%",
+     "period": "FY2024",
+     "period_end": "2024-03-31",
+     "publisher": "ICRA",
+     "series": "Auto components industry revenue growth",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "operating margins holding at 11-12% and roughly ₹25,000-30,000 crore in planned capex",
+     "value": "11-12%",
+     "period": "FY2026",
+     "period_end": "2026-03-31",
+     "publisher": "ICRA",
+     "series": "Auto components operating margins",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "operating margins holding at 11-12% and roughly ₹25,000-30,000 crore in planned capex",
+     "value": "₹25,000-30,000 crore",
+     "period": "FY2026",
+     "period_end": "2026-03-31",
+     "publisher": "ICRA",
+     "series": "Auto components planned capex",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "only 30-40% of India's EV supply chain is currently localised",
+     "value": "30-40%",
+     "period": "2026",
+     "period_end": "2026-03-31",
+     "publisher": "ICRA",
+     "series": "EV supply chain localisation",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "battery cells — 35-40% of a vehicle's total cost",
+     "value": "35-40%",
+     "period": "2026",
+     "period_end": "2026-03-31",
+     "publisher": "ICRA",
+     "series": "Vehicle total cost breakdown",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "drive 7-8% volume growth in FY2027",
+     "value": "7-8%",
+     "period": "FY2027",
+     "period_end": "2027-03-31",
+     "publisher": "ICRA",
+     "series": "Cement volume growth",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "OPBIDTA per tonne compresses from an estimated ₹900-950 in FY2026 to ₹820-870 in FY2027",
+     "value": "₹900-950",
+     "period": "FY2026",
+     "period_end": "2026-03-31",
+     "publisher": "ICRA",
+     "series": "Cement OPBIDTA per tonne",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "OPBIDTA per tonne compresses from an estimated ₹900-950 in FY2026 to ₹820-870 in FY2027",
+     "value": "₹820-870",
+     "period": "FY2027",
+     "period_end": "2027-03-31",
+     "publisher": "ICRA",
+     "series": "Cement OPBIDTA per tonne",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "push demand growth from 7.6% in FY2026 to 9-10% in FY2027",
+     "value": "7.6%",
+     "period": "FY2026",
+     "period_end": "2026-03-31",
+     "publisher": "ICRA",
+     "series": "Steel demand growth",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "push demand growth from 7.6% in FY2026 to 9-10% in FY2027",
+     "value": "9-10%",
+     "period": "FY2027",
+     "period_end": "2027-03-31",
+     "publisher": "ICRA",
+     "series": "Steel demand growth",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "operating margins holding roughly flat around 14.8%",
+     "value": "14.8%",
+     "period": "FY2026",
+     "period_end": "2026-03-31",
+     "publisher": "ICRA",
+     "series": "Steel operating margins",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "sector leverage (total debt to OPBDITA) is projected to rise from 2.6x to about 3.0x",
+     "value": "2.6x",
+     "period": "FY2026",
+     "period_end": "2026-03-31",
+     "publisher": "ICRA",
+     "series": "Steel sector leverage",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "sector leverage (total debt to OPBDITA) is projected to rise from 2.6x to about 3.0x",
+     "value": "3.0x",
+     "period": "FY2027",
+     "period_end": "2027-03-31",
+     "publisher": "ICRA",
+     "series": "Steel sector leverage",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "capital intensity for new capacity, at roughly $176 per tonne of installed capacity as of March 2026",
+     "value": "$176 per tonne",
+     "period": "March 2026",
+     "period_end": "2026-03-31",
+     "publisher": "ICRA",
+     "series": "Steel capital intensity for new capacity",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "more than 150 GW of renewable capacity was under construction as of 30 June 2026",
+     "value": "150 GW",
+     "period": "30 June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "ICRA",
+     "series": "Renewable capacity under construction",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "renewable energy's share of generation (including large hydro) is projected to cross 35% by FY2029-30, up from 22% in FY2024-25",
+     "value": "35%",
+     "period": "FY2029-30",
+     "period_end": "2030-03-31",
+     "publisher": "ICRA",
+     "series": "Renewable energy share of generation",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "renewable energy's share of generation (including large hydro) is projected to cross 35% by FY2029-30, up from 22% in FY2024-25",
+     "value": "22%",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "ICRA",
+     "series": "Renewable energy share of generation",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "40-45 GW of capacity still had unsigned power purchase agreements as of April 2026",
+     "value": "40-45 GW",
+     "period": "April 2026",
+     "period_end": "2026-04-30",
+     "publisher": "ICRA",
+     "series": "Renewable capacity unsigned PPAs",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "road construction execution fell roughly 12% year-on-year in the first seven months of FY2026",
+     "value": "12%",
+     "period": "first seven months of FY2026",
+     "period_end": "2025-10-31",
+     "publisher": "ICRA",
+     "series": "Road construction execution decline",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "moderating to a projected 9,000-9,500 km for the full year against 10,660 km completed in FY2025",
+     "value": "9,000-9,500 km",
+     "period": "FY2026",
+     "period_end": "2026-03-31",
+     "publisher": "ICRA",
+     "series": "Road construction execution",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "moderating to a projected 9,000-9,500 km for the full year against 10,660 km completed in FY2025",
+     "value": "10,660 km",
+     "period": "FY2025",
+     "period_end": "2025-03-31",
+     "publisher": "ICRA",
+     "series": "Road construction execution",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Toll collection growth is still projected at a healthy 5-9% for FY2026, moderating to 5-8% in FY2027",
+     "value": "5-9%",
+     "period": "FY2026",
+     "period_end": "2026-03-31",
+     "publisher": "ICRA",
+     "series": "Toll collection growth",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Toll collection growth is still projected at a healthy 5-9% for FY2026, moderating to 5-8% in FY2027",
+     "value": "5-8%",
+     "period": "FY2027",
+     "period_end": "2027-03-31",
+     "publisher": "ICRA",
+     "series": "Toll collection growth",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "NHAI's asset-monetisation programme (via Toll-Operate-Transfer bundles) raised ₹12,357 crore in the first nine months of FY2026 alone",
+     "value": "₹12,357 crore",
+     "period": "first nine months of FY2026",
+     "period_end": "2025-12-31",
+     "publisher": "NHAI / ICRA",
+     "series": "Toll-Operate-Transfer monetisation",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "full-year proceeds expected to reach roughly ₹1.3 lakh crore",
+     "value": "₹1.3 lakh crore",
+     "period": "FY2026",
+     "period_end": "2026-03-31",
+     "publisher": "ICRA",
+     "series": "NHAI asset-monetisation full-year proceeds",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "inflation-linked toll-rate hikes for FY2027 are projected at roughly 3.2% for newer projects and 1.6-2.0% for older ones",
+     "value": "3.2%",
+     "period": "FY2027",
+     "period_end": "2027-03-31",
+     "publisher": "ICRA",
+     "series": "Inflation-linked toll-rate hikes",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "inflation-linked toll-rate hikes for FY2027 are projected at roughly 3.2% for newer projects and 1.6-2.0% for older ones",
+     "value": "1.6-2.0%",
+     "period": "FY2027",
+     "period_end": "2027-03-31",
+     "publisher": "ICRA",
+     "series": "Inflation-linked toll-rate hikes",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "new launches across the top seven cities are projected to grow 6-9% in FY2026 to roughly 620-640 million square feet",
+     "value": "6-9%",
+     "period": "FY2026",
+     "period_end": "2026-03-31",
+     "publisher": "ICRA",
+     "series": "Residential real estate new launches growth",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "roughly 620-640 million square feet, a real recovery from a 14-17% decline in FY2025",
+     "value": "620-640 million square feet",
+     "period": "FY2026",
+     "period_end": "2026-03-31",
+     "publisher": "ICRA",
+     "series": "Residential real estate new launches",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "recovery from a 14-17% decline in FY2025, though still below the record 701 million square feet launched in FY2024",
+     "value": "14-17%",
+     "period": "FY2025",
+     "period_end": "2025-03-31",
+     "publisher": "ICRA",
+     "series": "Residential real estate new launches decline",
+     "frequency": "annual",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "cement and steel both cite India's roughly ₹12.2 lakh crore infrastructure allocation directly as their demand driver.",
+     "value": "₹12.2 lakh crore",
+     "period": null,
+     "period_end": null,
+     "publisher": "ICRA",
+     "series": "Government infrastructure capital-expenditure allocation",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "banking carries a Stable outlook into FY2027, with credit growth expected to moderate to 11.0-11.7% from 15.9% in FY2026",
+     "value": "11.0-11.7% (FY2027), 15.9% (FY2026)",
+     "period": "FY2026, FY2027",
+     "period_end": "2027-03-31",
+     "publisher": "ICRA",
+     "series": "Banking credit growth",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "NBFC AUM growth projected at 16-18% for FY2027 (down only modestly from 17-19% in FY2026)",
+     "value": "16-18% (FY2027), 17-19% (FY2026)",
+     "period": "FY2026, FY2027",
+     "period_end": "2027-03-31",
+     "publisher": "ICRA",
+     "series": "NBFC assets-under-management growth",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "credit costs actually expected to ease slightly (2.0-2.2%, from 2.1-2.3%)",
+     "value": "2.0-2.2% (FY2027), 2.1-2.3% (FY2026)",
+     "period": "FY2026, FY2027",
+     "period_end": "2027-03-31",
+     "publisher": "ICRA",
+     "series": "NBFC credit costs",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "cost of funds falling 10-30 basis points",
+     "value": "10-30 basis points",
+     "period": null,
+     "period_end": null,
+     "publisher": "ICRA",
+     "series": "NBFC cost of funds",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "auto components industry revenue growth is projected at 8-10% for FY2026, down sharply from 14% in FY2024",
+     "value": "8-10% (FY2026), 14% (FY2024)",
+     "period": "FY2024, FY2026",
+     "period_end": "2026-03-31",
+     "publisher": "ICRA",
+     "series": "Auto components revenue growth",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "operating margins holding at 11-12% and roughly ₹25,000-30,000 crore in planned capex",
+     "value": "₹25,000-30,000 crore",
+     "period": null,
+     "period_end": null,
+     "publisher": "ICRA",
+     "series": "Auto components capex",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "only 30-40% of India's EV supply chain is currently localised",
+     "value": "30-40%",
+     "period": null,
+     "period_end": null,
+     "publisher": "ICRA",
+     "series": "EV supply chain localisation",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "cement, 7-8% volume growth in FY2027, even as OPBIDTA per tonne compresses from an estimated ₹900-950 in FY2026 to ₹820-870 in FY2027",
+     "value": "7-8% (FY2027 volume growth), ₹900-950 (FY2026 OPBIDTA), ₹820-870 (FY2027 OPBIDTA)",
+     "period": "FY2026, FY2027",
+     "period_end": "2027-03-31",
+     "publisher": "ICRA",
+     "series": "Cement volume growth and OPBIDTA",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "steel demand growth from 7.6% in FY2026 to 9-10% in FY2027",
+     "value": "7.6% (FY2026), 9-10% (FY2027)",
+     "period": "FY2026, FY2027",
+     "period_end": "2027-03-31",
+     "publisher": "ICRA",
+     "series": "Steel demand growth",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "operating margins holding roughly flat around 14.8% ... leverage (total debt to OPBDITA) is projected to rise from 2.6x to about 3.0x",
+     "value": "14.8% (margins), 2.6x (FY2026 leverage), 3.0x (FY2027 leverage)",
+     "period": "FY2026, FY2027",
+     "period_end": "2027-03-31",
+     "publisher": "ICRA",
+     "series": "Steel operating margins and leverage",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "capital intensity for new capacity, at roughly $176 per tonne of installed capacity as of March 2026",
+     "value": "$176 per tonne",
+     "period": "as of March 2026",
+     "period_end": "2026-03-31",
+     "publisher": "ICRA",
+     "series": "Steel capital intensity",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "more than 150 GW of renewable capacity was under construction as of 30 June 2026",
+     "value": "150+ GW",
+     "period": "as of 30 June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "ICRA",
+     "series": "Renewable energy capacity under construction",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "renewable energy's share of generation (including large hydro) is projected to cross 35% by FY2029-30, up from 22% in FY2024-25",
+     "value": "35% (FY2029-30), 22% (FY2024-25)",
+     "period": "FY2024-25, FY2029-30",
+     "period_end": "2029-03-31",
+     "publisher": "ICRA",
+     "series": "Renewable energy share of generation",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "40-45 GW of capacity still had unsigned power purchase agreements as of April 2026",
+     "value": "40-45 GW",
+     "period": "as of April 2026",
+     "period_end": "2026-04-30",
+     "publisher": "ICRA",
+     "series": "Renewable energy unsigned PPAs",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "road construction execution fell roughly 12% year-on-year in the first seven months of FY2026, moderating to a projected 9,000-9,500 km for the full year against 10,660 km completed in FY2025",
+     "value": "12% (YoY decline), 9,000-9,500 km (FY2026), 10,660 km (FY2025)",
+     "period": "FY2025, FY2026",
+     "period_end": "2026-03-31",
+     "publisher": "ICRA",
+     "series": "Road construction execution",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "toll collection growth is still projected at a healthy 5-9% for FY2026, moderating to 5-8% in FY2027",
+     "value": "5-9% (FY2026), 5-8% (FY2027)",
+     "period": "FY2026, FY2027",
+     "period_end": "2027-03-31",
+     "publisher": "ICRA",
+     "series": "Toll collection growth",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "NHAI's asset-monetisation programme ... raised ₹12,357 crore in the first nine months of FY2026 alone, with full-year proceeds expected to reach roughly ₹1.3 lakh crore",
+     "value": "₹12,357 crore (9 months FY2026), ₹1.3 lakh crore (full-year FY2026)",
+     "period": "FY2026",
+     "period_end": "2026-03-31",
+     "publisher": "ICRA",
+     "series": "NHAI asset-monetisation proceeds",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "inflation-linked toll-rate hikes for FY2027 are projected at roughly 3.2% for newer projects and 1.6-2.0% for older ones",
+     "value": "3.2% (newer projects), 1.6-2.0% (older projects)",
+     "period": "FY2027",
+     "period_end": "2027-03-31",
+     "publisher": "ICRA",
+     "series": "Toll-rate hikes",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "new launches across the top seven cities are projected to grow 6-9% in FY2026 to roughly 620-640 million square feet",
+     "value": "6-9% (FY2026 growth), 620-640 million sq ft (FY2026 launches)",
+     "period": "FY2026",
+     "period_end": "2026-03-31",
+     "publisher": "ICRA",
+     "series": "Residential real estate launches",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "pan-India premium hotel RevPAR is estimated to reach ₹5,900-6,300 in FY2026, rising further to ₹6,200-6,500 in FY2027",
+     "value": "₹5,900-6,300 (FY2026), ₹6,200-6,500 (FY2027)",
+     "period": "FY2026, FY2027",
+     "period_end": "2027-03-31",
+     "publisher": "ICRA",
+     "series": "Hospitality RevPAR",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "occupancy holding at 72-74% through both years",
+     "value": "72-74%",
+     "period": "FY2026, FY2027",
+     "period_end": "2027-03-31",
+     "publisher": "ICRA",
+     "series": "Hospitality occupancy",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "industry revenue growth slowing from 9-12% (FY2026) to 7-9% (FY2027)",
+     "value": "9-12% (FY2026), 7-9% (FY2027)",
+     "period": "FY2026, FY2027",
+     "period_end": "2027-03-31",
+     "publisher": "ICRA",
+     "series": "Hospitality revenue growth",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "spinner margins are projected to contract 50-100 basis points in FY2026, with a sample of thirteen companies representing 25-30% of industry revenue projected to see a 4-6% year-on-year revenue decline",
+     "value": "50-100 basis points (margin contraction), 4-6% (revenue decline)",
+     "period": "FY2026",
+     "period_end": "2026-03-31",
+     "publisher": "ICRA",
+     "series": "Cotton spinning margins and revenue decline",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "India's cotton output is projected to fall 1.7% year-on-year in calendar year 2026, with sown acreage now roughly 20% below its 2021 peak",
+     "value": "1.7% (cotton output decline), 20% (acreage below 2021 peak)",
+     "period": "calendar 2026",
+     "period_end": "2026-12-31",
+     "publisher": "ICRA",
+     "series": "Cotton output and acreage",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "an estimated ₹32,000-34,000 crore industry-wide net loss for FY2026, projected to widen to ₹36,000-38,000 crore in FY2027",
+     "value": "₹32,000-34,000 crore (FY2026), ₹36,000-38,000 crore (FY2027)",
+     "period": "FY2026, FY2027",
+     "period_end": "2027-03-31",
+     "publisher": "ICRA",
+     "series": "Aviation industry-wide net loss",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "domestic passenger-traffic growth guidance was cut to 3-6% for FY2027, down from an earlier 6-8% expectation",
+     "value": "3-6% (FY2027), 6-8% (earlier expectation)",
+     "period": "FY2027",
+     "period_end": "2027-03-31",
+     "publisher": "ICRA",
+     "series": "Aviation domestic passenger-traffic growth",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "fertiliser manufacturing ... urea plant operating rates are expected to stay below 80% given curtailed natural gas availability",
+     "value": "below 80%",
+     "period": null,
+     "period_end": null,
+     "publisher": "ICRA",
+     "series": "Fertiliser urea plant operating rates",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "petroleum product consumption is still projected to grow 2-3% year-on-year in FY2026 (petrol 6-7%, diesel 1-2%, aviation turbine fuel 7-8%)",
+     "value": "2-3% (FY2026), petrol 6-7%, diesel 1-2%, aviation turbine fuel 7-8%",
+     "period": "FY2026",
+     "period_end": "2026-03-31",
+     "publisher": "ICRA",
+     "series": "Petroleum product consumption growth",
+     "frequency": "annual",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

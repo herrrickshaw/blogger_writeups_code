@@ -1,0 +1,610 @@
+{
+ "slug": "indias-textile-import-export-strategy",
+ "text_sha1": "5620bbcb3b9fd791",
+ "chars": 18346,
+ "checked": "2026-10-23T14:39:25",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "$22.1B Ch 39: Polymer Imports (FY25)",
+     "value": "$22.1B",
+     "period": "FY25",
+     "period_end": "2025-03-31",
+     "publisher": "DGCI&S",
+     "series": "Chapter 39 Polymer Imports",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "$26.6B Ch 29: Chemical Imports (FY25)",
+     "value": "$26.6B",
+     "period": "FY25",
+     "period_end": "2025-03-31",
+     "publisher": "DGCI&S",
+     "series": "Chapter 29 Chemical Imports",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "-$14.0B Ch 39 Deficit (widened from -$6.4B)",
+     "value": "-$14.0B",
+     "period": "FY25",
+     "period_end": "2025-03-31",
+     "publisher": "DGCI&S",
+     "series": "Chapter 39 Net Trade",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "-$6.5B Ch 29 Deficit (sustained 4 years)",
+     "value": "-$6.5B",
+     "period": "FY25",
+     "period_end": "2025-03-31",
+     "publisher": "DGCI&S",
+     "series": "Chapter 29 Net Trade",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Total Textile Export $36.96bn/year Against $9.77bn of textile-chapter imports Net surplus $27.19bn (FY2024-25, HS Ch.50–63)",
+     "value": "$36.96bn",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "DGCI&S",
+     "series": "HS Ch.50-63 Textile Exports",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Net surplus $27.19bn (FY2024-25, HS Ch.50–63)",
+     "value": "$27.19bn",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "DGCI&S",
+     "series": "HS Ch.50-63 Net Textile Trade",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "$30.9 Billion Capex Pipeline (FY26-FY30)",
+     "value": "$30.9 Billion",
+     "period": "FY26-FY30",
+     "period_end": "2030-03-31",
+     "publisher": "PIB / ministry",
+     "series": "Capex Pipeline",
+     "frequency": "multi-year",
+     "headline": true
+    },
+    {
+     "quote": "Rs 15.76L Cr FY2022-23 Output",
+     "value": "Rs 15.76L Cr",
+     "period": "FY2022-23",
+     "period_end": "2023-03-31",
+     "publisher": "MoSPI",
+     "series": "Chemical & Petrochemical Sector Size Output",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "13% CAGR Growth FY17-23",
+     "value": "13%",
+     "period": "FY17-23",
+     "period_end": "2023-03-31",
+     "publisher": "MoSPI",
+     "series": "Chemical & Petrochemical Sector Growth CAGR",
+     "frequency": "multi-year",
+     "headline": true
+    },
+    {
+     "quote": "Total capacity: 69,308 MT ('000)",
+     "value": "69,308 MT ('000)",
+     "period": "2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "MoC&F",
+     "series": "Installed Capacity & Utilization",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Basic Major Chemicals utilization: 76.2%",
+     "value": "76.2%",
+     "period": "2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "MoC&F",
+     "series": "Basic Major Chemicals Utilization",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Basic Major Petrochemicals utilization: 80.6%",
+     "value": "80.6%",
+     "period": "2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "MoC&F",
+     "series": "Basic Major Petrochemicals Utilization",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Overall sector utilization: 79.5%",
+     "value": "79.5%",
+     "period": "2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "MoC&F",
+     "series": "Overall Sector Utilization",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Rs 4,382 crore (~$514M USD)",
+     "value": "Rs 4,382 crore",
+     "period": "December 2024",
+     "period_end": "2024-12-31",
+     "publisher": "PIB / ministry",
+     "series": "IOCL Bhadrak Investment",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "~249.2 MMTPA refining capacity",
+     "value": "249.2 MMTPA",
+     "period": "FY2025",
+     "period_end": "2025-03-31",
+     "publisher": "PPAC",
+     "series": "Refining Capacity Ecosystem",
+     "frequency": "annual",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "India's polymer trade gap: Chapter 39 imports jumped 66% in four years while exports stalled — deficit widened from $6.4bn to $14.0bn.",
+     "value": "$6.4 billion → $14.0 billion",
+     "period": "FY21–FY25",
+     "period_end": "2025-03-31",
+     "publisher": "DGCI&S",
+     "series": "Chapter 39 (Polymer) Trade Data",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Polymer imports grew +66% ($13.3bn → $22.1bn) while exports stalled",
+     "value": "$13.3 billion → $22.1 billion",
+     "period": "FY21–FY25",
+     "period_end": "2025-03-31",
+     "publisher": "DGCI&S",
+     "series": "Chapter 39 (Polymer) Imports",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Exports (USD bn) | FY21: 6.9 | FY22: 9.1 | FY23: 7.7 | FY24: 7.4 | FY25: 8.2",
+     "value": "6.9 billion (FY21), 9.1 billion (FY22), 7.7 billion (FY23), 7.4 billion (FY24), 8.2 billion (FY25)",
+     "period": "FY21–FY25",
+     "period_end": "2025-03-31",
+     "publisher": "DGCI&S",
+     "series": "Chapter 39 (Polymer) Exports",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Imports (USD bn) | FY21: 13.3 | FY22: 19.9 | FY23: 23.1 | FY24: 21.8 | FY25: 22.1",
+     "value": "13.3 billion (FY21), 19.9 billion (FY22), 23.1 billion (FY23), 21.8 billion (FY24), 22.1 billion (FY25)",
+     "period": "FY21–FY25",
+     "period_end": "2025-03-31",
+     "publisher": "DGCI&S",
+     "series": "Chapter 39 (Polymer) Imports",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Net Trade (USD bn) | FY21: -6.4 | FY22: -10.8 | FY23: -15.4 | FY24: -14.4 | FY25: -14.0",
+     "value": "-6.4 billion (FY21), -10.8 billion (FY22), -15.4 billion (FY23), -14.4 billion (FY24), -14.0 billion (FY25)",
+     "period": "FY21–FY25",
+     "period_end": "2025-03-31",
+     "publisher": "DGCI&S",
+     "series": "Chapter 39 (Polymer) Net Trade",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Ch 39: Polymer Imports (FY25) $22.1B",
+     "value": "$22.1 billion",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "DGCI&S",
+     "series": "Chapter 39 (Polymer) Imports",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Ch 29: Chemical Imports (FY25) $26.6B",
+     "value": "$26.6 billion",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "DGCI&S",
+     "series": "Chapter 29 (Organic Chemicals) Imports",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Ch 39 Deficit (widened from -$6.4B)",
+     "value": "-$6.4 billion (FY21) → -$14.0 billion (FY25)",
+     "period": "FY21–FY25",
+     "period_end": "2025-03-31",
+     "publisher": "DGCI&S",
+     "series": "Chapter 39 (Polymer) Net Trade",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Ch 29 Deficit (sustained 4 years) -$6.5B",
+     "value": "-$6.5 billion",
+     "period": "FY2022-23",
+     "period_end": "2023-03-31",
+     "publisher": "DGCI&S",
+     "series": "Chapter 29 (Organic Chemicals) Net Trade",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Exports (USD bn) | FY21: 17.9 | FY22: 22.0 | FY23: 21.4 | FY24: 20.3 | FY25: 20.1",
+     "value": "17.9 billion (FY21), 22.0 billion (FY22), 21.4 billion (FY23), 20.3 billion (FY24), 20.1 billion (FY25)",
+     "period": "FY21–FY25",
+     "period_end": "2025-03-31",
+     "publisher": "DGCI&S",
+     "series": "Chapter 29 (Organic Chemicals) Exports",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Imports (USD bn) | FY21: 19.7 | FY22: 28.5 | FY23: 29.0 | FY24: 26.7 | FY25: 26.6",
+     "value": "19.7 billion (FY21), 28.5 billion (FY22), 29.0 billion (FY23), 26.7 billion (FY24), 26.6 billion (FY25)",
+     "period": "FY21–FY25",
+     "period_end": "2025-03-31",
+     "publisher": "DGCI&S",
+     "series": "Chapter 29 (Organic Chemicals) Imports",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Net Trade (USD bn) | FY21: -1.8 | FY22: -6.5 | FY23: -7.6 | FY24: -6.4 | FY25: -6.5",
+     "value": "-1.8 billion (FY21), -6.5 billion (FY22), -7.6 billion (FY23), -6.4 billion (FY24), -6.5 billion (FY25)",
+     "period": "FY21–FY25",
+     "period_end": "2025-03-31",
+     "publisher": "DGCI&S",
+     "series": "Chapter 29 (Organic Chemicals) Net Trade",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Total Textile Export $36.96bn/year (HS Ch.50–63, FY2024-25)",
+     "value": "$36.96 billion",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "DGCI&S (estimated from indirect data)",
+     "series": "Textile Exports (HS Chapters 50–63)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Textile-chapter imports $9.77bn (FY2024-25, HS Ch.50–63)",
+     "value": "$9.77 billion",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "DGCI&S (estimated from indirect data)",
+     "series": "Textile Imports (HS Chapters 50–63)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Net surplus $27.19bn (FY2024-25, HS Ch.50–63)",
+     "value": "$27.19 billion",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "DGCI&S (estimated from indirect data)",
+     "series": "Textile Net Trade (HS Chapters 50–63)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Ch 63: Made-Up Articles +$5.5bn Net Surplus",
+     "value": "$5.5 billion",
+     "period": null,
+     "period_end": null,
+     "publisher": "DGCI&S (estimated from indirect data)",
+     "series": "Chapter 63 (Made-Up Articles) Net Trade",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Ch 61-62: Apparel $14.3bn Net Surplus (Est. from indirect data)",
+     "value": "$14.3 billion",
+     "period": null,
+     "period_end": null,
+     "publisher": "DGCI&S (estimated from indirect data)",
+     "series": "Chapters 61-62 (Apparel) Net Trade",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Current State (FY2025): ~249.2 MMTPA refining capacity",
+     "value": "249.2 million metric tonnes per annum (MMTPA)",
+     "period": "FY2025",
+     "period_end": "2025-03-31",
+     "publisher": "MoC&F (Ministry of Chemicals and Fertilizers)",
+     "series": "Refining Capacity Data",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "~250 MMT crude/year = effectively at or above nameplate capacity",
+     "value": "250 million metric tonnes per year",
+     "period": "FY2025",
+     "period_end": "2025-03-31",
+     "publisher": "MoC&F",
+     "series": "Crude Oil Processing Data",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Investment Rs 4,382 crore (~$514M USD)",
+     "value": "Rs 4,382 crore (~$514 million USD)",
+     "period": null,
+     "period_end": null,
+     "publisher": "IOCL Board",
+     "series": "IOCL Bhadrak Project Investment",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Capacity: 900 tonnes/day polymerization unit",
+     "value": "900 tonnes per day",
+     "period": null,
+     "period_end": null,
+     "publisher": "IOCL Board",
+     "series": "IOCL Bhadrak Polymerization Unit Capacity",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Products: 330 KTPA annual polyester chips",
+     "value": "330 thousand tonnes per annum (KTPA)",
+     "period": null,
+     "period_end": null,
+     "publisher": "IOCL Board",
+     "series": "IOCL Bhadrak Product Capacity",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Timeline: FY27-28 operationalization",
+     "value": "FY2027-28",
+     "period": "FY27-28",
+     "period_end": "2028-03-31",
+     "publisher": "IOCL Board",
+     "series": "IOCL Bhadrak Project Timeline",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Capex Pipeline (FY26-FY30) $30.9 Billion",
+     "value": "$30.9 billion",
+     "period": "FY26-FY30",
+     "period_end": "2030-03-31",
+     "publisher": "MoC&F (Ministry of Chemicals and Fertilizers)",
+     "series": "Capex Pipeline for Petrochemical Projects",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "Capacity Add: +5.2 MMTPA (FY26-30)",
+     "value": "5.2 million metric tonnes per annum (MMTPA)",
+     "period": "FY26-FY30",
+     "period_end": "2030-03-31",
+     "publisher": "MoC&F",
+     "series": "Capacity Addition Plan",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "Chemical & Petrochemical Sector Size: Rs 15.76L Cr (FY2022-23 Output)",
+     "value": "Rs 15,760 crore",
+     "period": "FY2022-23",
+     "period_end": "2023-03-31",
+     "publisher": "MoC&F",
+     "series": "Sector Output Data",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Total capacity: 69,308 MT ('000)",
+     "value": "69,308 thousand metric tonnes (MT)",
+     "period": null,
+     "period_end": null,
+     "publisher": "MoC&F",
+     "series": "Installed Capacity Data",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Basic Major Chemicals utilization: 76.2%",
+     "value": "76.2%",
+     "period": null,
+     "period_end": null,
+     "publisher": "MoC&F",
+     "series": "Basic Major Chemicals Utilization",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Basic Major Petrochemicals utilization: 80.6%",
+     "value": "80.6%",
+     "period": null,
+     "period_end": null,
+     "publisher": "MoC&F",
+     "series": "Basic Major Petrochemicals Utilization",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Overall sector utilization: 79.5%",
+     "value": "79.5%",
+     "period": null,
+     "period_end": null,
+     "publisher": "MoC&F",
+     "series": "Overall Sector Utilization",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India Chem 2024: 172 Exhibitors (49 international)",
+     "value": "172 exhibitors (49 international)",
+     "period": "October 2024",
+     "period_end": "2024-10-31",
+     "publisher": "India Chem 2024 Event",
+     "series": "Exhibitor Data",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Total Delegates: 1,804",
+     "value": "1,804 delegates",
+     "period": "October 2024",
+     "period_end": "2024-10-31",
+     "publisher": "India Chem 2024 Event",
+     "series": "Delegate Data",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "BHAVYA Rasayan: ₹3,030 crore for 3 chemical parks",
+     "value": "₹3,030 crore",
+     "period": "FY26-31",
+     "period_end": "2031-03-31",
+     "publisher": "Government of India",
+     "series": "BHAVYA Rasayan Investment",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "Centre: ₹1,000cr/park grant",
+     "value": "₹1,000 crore per park",
+     "period": "FY26-31",
+     "period_end": "2031-03-31",
+     "publisher": "Government of India",
+     "series": "BHAVYA Rasayan Grant",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "Target: 50-100 downstream processors (dyes, coatings, additives)",
+     "value": "50-100 downstream processors",
+     "period": "FY26-31",
+     "period_end": "2031-03-31",
+     "publisher": "Government of India",
+     "series": "BHAVYA Rasayan Target",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "PM Mitra Parks: 7 sites approved (Oct 2021)",
+     "value": "7 sites",
+     "period": "October 2021",
+     "period_end": "2021-10-31",
+     "publisher": "Government of India",
+     "series": "PM Mitra Parks Approval",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "National Fibre Mission: MMF: 75→130 lakh MT (2030-31)",
+     "value": "75 lakh metric tonnes → 130 lakh metric tonnes",
+     "period": "2030-31",
+     "period_end": "2031-03-31",
+     "publisher": "Government of India",
+     "series": "National Fibre Mission Target",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "Import reduction: $10.2 billion/year (FY30+)",
+     "value": "$10.2 billion per year",
+     "period": "FY30+",
+     "period_end": "2030-03-31+",
+     "publisher": "Article Estimate",
+     "series": "Import Reduction Projection",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Domestic premium (startup cost): -$1.5 billion/year",
+     "value": "-$1.5 billion per year",
+     "period": "FY30+",
+     "period_end": "2030-03-31+",
+     "publisher": "Article Estimate",
+     "series": "Domestic Premium Cost",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Export growth: +$2 billion/year",
+     "value": "+$2 billion per year",
+     "period": "FY30+",
+     "period_end": "2030-03-31+",
+     "publisher": "Article Estimate",
+     "series": "Export Growth Projection",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Net textile industry benefit: +$10.7 billion/year",
+     "value": "+$10.7 billion per year",
+     "period": "FY30+",
+     "period_end": "2030-03-31+",
+     "publisher": "Article Estimate",
+     "series": "Net Textile Industry Benefit",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Cumulative Impact: $6.2B import reduction + $1.5-2.5B export growth",
+     "value": "$6.2 billion import reduction, $1.5-2.5 billion export growth",
+     "period": "FY30",
+     "period_end": "2030-03-31",
+     "publisher": "Article Estimate",
+     "series": "Cumulative Impact Projection",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "PCPIRs Investment: ₹2,60,945 crore",
+     "value": "₹260,945 crore",
+     "period": null,
+     "period_end": null,
+     "publisher": "MoC&F",
+     "series": "PCPIRs Investment Data",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "PCPIRs: 824 units, 3,71,263 employment",
+     "value": "824 units, 371,263 employment",
+     "period": null,
+     "period_end": null,
+     "publisher": "MoC&F",
+     "series": "PCPIRs Employment and Units Data",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

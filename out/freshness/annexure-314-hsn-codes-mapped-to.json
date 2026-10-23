@@ -1,0 +1,450 @@
+{
+ "slug": "annexure-314-hsn-codes-mapped-to",
+ "text_sha1": "3e3ff7752bece7bb",
+ "chars": 25506,
+ "checked": "2026-10-23T10:34:40",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "Of 314 codes across 13 segment labels (the 12 official NTTM segments, plus Defence Textile), 261 (83%) are confirmed under Ministry of Textiles ownership in the DPIIT's official record.",
+     "value": "314 codes",
+     "period": "December 2025",
+     "period_end": "2025-12-31",
+     "publisher": "DPIIT",
+     "series": "Guidebook on Mapping of HSN Codes to Ministries",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "Of 314 codes across 13 segment labels (the 12 official NTTM segments, plus Defence Textile), 261 (83%) are confirmed under Ministry of Textiles ownership in the DPIIT's official record.",
+     "value": "13 segment labels",
+     "period": "December 2025",
+     "period_end": "2025-12-31",
+     "publisher": "DPIIT",
+     "series": "Guidebook on Mapping of HSN Codes to Ministries",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "Of 314 codes across 13 segment labels (the 12 official NTTM segments, plus Defence Textile), 261 (83%) are confirmed under Ministry of Textiles ownership in the DPIIT's official record.",
+     "value": "261 codes",
+     "period": "December 2025",
+     "period_end": "2025-12-31",
+     "publisher": "DPIIT",
+     "series": "Guidebook on Mapping of HSN Codes to Ministries",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "Of 314 codes across 13 segment labels (the 12 official NTTM segments, plus Defence Textile), 261 (83%) are confirmed under Ministry of Textiles ownership in the DPIIT's official record.",
+     "value": "83%",
+     "period": "December 2025",
+     "period_end": "2025-12-31",
+     "publisher": "DPIIT",
+     "series": "Guidebook on Mapping of HSN Codes to Ministries",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "The remaining 53 sit under other ministries — by chapter count, largest first: Chapter 70 glass-fibre articles (9 codes), Chapter 62 apparel/garments (8), Chapter 56 felts/waddings/twines (7), Chapter 63 made-up textiles (5), with Health/Pharmaceuticals (Chapter 30, 4 codes) and Chemicals & Petrochemicals (Chapter 39, 1 code)",
+     "value": "53 codes",
+     "period": "December 2025",
+     "period_end": "2025-12-31",
+     "publisher": "DPIIT",
+     "series": "Guidebook on Mapping of HSN Codes to Ministries",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "Chapter 70 glass-fibre articles (9 codes)",
+     "value": "9 codes",
+     "period": "December 2025",
+     "period_end": "2025-12-31",
+     "publisher": "DPIIT",
+     "series": "Guidebook on Mapping of HSN Codes to Ministries",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "Chapter 62 apparel/garments (8)",
+     "value": "8 codes",
+     "period": "December 2025",
+     "period_end": "2025-12-31",
+     "publisher": "DPIIT",
+     "series": "Guidebook on Mapping of HSN Codes to Ministries",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "Chapter 56 felts/waddings/twines (7)",
+     "value": "7 codes",
+     "period": "December 2025",
+     "period_end": "2025-12-31",
+     "publisher": "DPIIT",
+     "series": "Guidebook on Mapping of HSN Codes to Ministries",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "Chapter 63 made-up textiles (5)",
+     "value": "5 codes",
+     "period": "December 2025",
+     "period_end": "2025-12-31",
+     "publisher": "DPIIT",
+     "series": "Guidebook on Mapping of HSN Codes to Ministries",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "Health/Pharmaceuticals (Chapter 30, 4 codes)",
+     "value": "4 codes",
+     "period": "December 2025",
+     "period_end": "2025-12-31",
+     "publisher": "DPIIT",
+     "series": "Guidebook on Mapping of HSN Codes to Ministries",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "Chemicals & Petrochemicals (Chapter 39, 1 code)",
+     "value": "1 code",
+     "period": "December 2025",
+     "period_end": "2025-12-31",
+     "publisher": "DPIIT",
+     "series": "Guidebook on Mapping of HSN Codes to Ministries",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "42 of the 314 codes (13.4%), with no FY2024-25 or FY2025-26 trade activity, have no description available.",
+     "value": "42 codes",
+     "period": "FY2024-25 or FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TradeStat Eidb Commodity-wise export/import reports",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "42 of the 314 codes (13.4%), with no FY2024-25 or FY2025-26 trade activity, have no description available.",
+     "value": "13.4%",
+     "period": "FY2024-25 or FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TradeStat Eidb Commodity-wise export/import reports",
+     "frequency": "monthly",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "Of 314 codes across 13 segment labels (the 12 official NTTM segments, plus Defence Textile), 261 (83%) are confirmed under Ministry of Textiles ownership in the DPIIT's official record.",
+     "value": "314 codes (13 segments), 261 confirmed under Ministry of Textiles",
+     "period": null,
+     "period_end": null,
+     "publisher": "DPIIT",
+     "series": "Guidebook on Mapping of HSN Codes to Ministries (December 2025)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The remaining 53 sit under other ministries — by chapter count, largest first: Chapter 70 glass-fibre articles (9 codes), Chapter 62 apparel/garments (8), Chapter 56 felts/waddings/twines (7), Chapter 63 made-up textiles (5), with Health/Pharmaceuticals (Chapter 30, 4 codes) and Chemicals & Petrochemicals (Chapter 39, 1 code) further down the list",
+     "value": "53 codes under other ministries (Chapter 70: 9, Chapter 62: 8, Chapter 56: 7, Chapter 63: 5, Chapter 30: 4, Chapter 39: 1)",
+     "period": null,
+     "period_end": null,
+     "publisher": "DPIIT",
+     "series": "Guidebook on Mapping of HSN Codes to Ministries (December 2025)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "42 of the 314 codes (13.4%), with no FY2024-25 or FY2025-26 trade activity, have no description available.",
+     "value": "42 codes (13.4%) with no trade activity in FY2024-25 or FY2025-26",
+     "period": "FY2024-25, FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TradeStat Eidb Commodity-wise export/import reports (8-digit HSN)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "DPIIT 'Guidebook on Mapping of Harmonized System of Nomenclature (HSN) Codes' (December 2025, revised 16.12.2025)",
+     "value": "December 2025 (revised 16.12.2025)",
+     "period": "December 2025",
+     "period_end": "2025-12-31",
+     "publisher": "DPIIT",
+     "series": "Guidebook on Mapping of HSN Codes",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Ministry of Textiles OM No. 12015/10/2024-TTP dated 30 August 2024 (HS codes pertaining to M/o Textiles)",
+     "value": "30 August 2024",
+     "period": "30 August 2024",
+     "period_end": "2024-08-30",
+     "publisher": "Ministry of Textiles",
+     "series": "OM No. 12015/10/2024-TTP",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "DGCI&S TradeStat, Eidb Commodity-wise export/import reports, FY2024-25 & FY2025-26, report generated 30 July 2026",
+     "value": "FY2024-25 & FY2025-26 (report generated 30 July 2026)",
+     "period": "FY2024-25, FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TradeStat Eidb Commodity-wise export/import reports",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Largest 5 of 13 NTTM segments in this annexure, by code count (of 314 total): Indutech (118 codes), Sportech (34 codes), Specialty Fibres & Composites (31 codes), Meditech (23 codes), Protech (22 codes)",
+     "value": "Indutech: 118 codes, Sportech: 34 codes, Specialty Fibres & Composites: 31 codes, Meditech: 23 codes, Protech: 22 codes",
+     "period": null,
+     "period_end": null,
+     "publisher": "local HSN-to-segment mapping spreadsheet",
+     "series": "HSN-to-segment classification (314 codes)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "This 314-code list is not identical to the Ministry of Textiles' own 207-HSN-code technical-textiles trade-statistics basket",
+     "value": "207 HSN codes in Ministry of Textiles' trade-statistics basket",
+     "period": null,
+     "period_end": null,
+     "publisher": "Ministry of Textiles",
+     "series": "Technical-Textiles Trade-Statistics Basket",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "59011010 | Txtl Fbrcs Cotd Wth Gym Etc Used For Outer Book Covers, Cotton | Yes",
+     "value": "HSN Code 59011010",
+     "period": null,
+     "period_end": null,
+     "publisher": "DPIIT",
+     "series": "Guidebook on Mapping of HSN Codes to Ministries",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "59011090 | Others-Of-Textile Fabrics Coated Wth Gum/Amylaceous Substances Used For Outer Book Covers | Yes",
+     "value": "HSN Code 59011090",
+     "period": null,
+     "period_end": null,
+     "publisher": "DPIIT",
+     "series": "Guidebook on Mapping of HSN Codes to Ministries",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "59019090 | Others-Of-Tracng Clth Prepard Paintng Canvasbuckram And Smlr Stffnd Txtl Fbrcs Of A Kindused For Hat Foundations Etc | Yes",
+     "value": "HSN Code 59019090",
+     "period": null,
+     "period_end": null,
+     "publisher": "DPIIT",
+     "series": "Guidebook on Mapping of HSN Codes to Ministries",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "63051010 | Jute Bagging For Raw Cotton | Yes",
+     "value": "HSN Code 63051010",
+     "period": null,
+     "period_end": null,
+     "publisher": "DPIIT",
+     "series": "Guidebook on Mapping of HSN Codes to Ministries",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "54031010 | Viscose Rayon Type Yarn - 1,233 Decitex | Yes",
+     "value": "1,233 Decitex (Viscose Rayon Type Yarn)",
+     "period": null,
+     "period_end": null,
+     "publisher": "DGCI&S",
+     "series": "TradeStat Commodity Descriptions",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "54031020 | Viscose Rayon Type Yarn - 1,833 Decitex | Yes",
+     "value": "1,833 Decitex (Viscose Rayon Type Yarn)",
+     "period": null,
+     "period_end": null,
+     "publisher": "DGCI&S",
+     "series": "TradeStat Commodity Descriptions",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "56039100 | Other Filmnt Wghng Yes",
+     "value": "HSN Code 56039100",
+     "period": null,
+     "period_end": null,
+     "publisher": "DPIIT",
+     "series": "Guidebook on Mapping of HSN Codes to Ministries",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "56039200 | Other Filmnt Wghng Betwn 25G/Sqm And 70G/Sqm | Yes",
+     "value": "25-70 g/sqm (Film Weight)",
+     "period": null,
+     "period_end": null,
+     "publisher": "DGCI&S",
+     "series": "TradeStat Commodity Descriptions",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "56039300 | Other Filmnt Wghng Betwn 70G/Sqm And 150G/Sqm | Yes",
+     "value": "70-150 g/sqm (Film Weight)",
+     "period": null,
+     "period_end": null,
+     "publisher": "DGCI&S",
+     "series": "TradeStat Commodity Descriptions",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "56039420 | Other Filmnt Wghng >150G/Sqm-Mulch Mats | Yes",
+     "value": ">150 g/sqm (Film Weight)",
+     "period": null,
+     "period_end": null,
+     "publisher": "DGCI&S",
+     "series": "TradeStat Commodity Descriptions",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "56039410 | Other Filmnt Wghng >150G/Sqm-Non-Woven Geotextile And Articles | Yes",
+     "value": ">150 g/sqm (Film Weight)",
+     "period": null,
+     "period_end": null,
+     "publisher": "DGCI&S",
+     "series": "TradeStat Commodity Descriptions",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "56039310 | Other Filmnt Wghng Betwn 70G/Sqm And 150G/Sqm - Mulch Mats, Conforming To Is 17355 | Yes",
+     "value": "70-150 g/sqm (Film Weight, Mulch Mats)",
+     "period": null,
+     "period_end": null,
+     "publisher": "DGCI&S",
+     "series": "TradeStat Commodity Descriptions",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "59119040 | Mulch Mats, Conforming To Is 16202 | Yes",
+     "value": "Mulch Mats (Conforming to IS 16202)",
+     "period": null,
+     "period_end": null,
+     "publisher": "DGCI&S",
+     "series": "TradeStat Commodity Descriptions",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "60053710 | Other, Dyed - Shade Nets, Conforming To Is 16008 | Yes",
+     "value": "Shade Nets (Conforming to IS 16008)",
+     "period": null,
+     "period_end": null,
+     "publisher": "DGCI&S",
+     "series": "TradeStat Commodity Descriptions",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "39201013 | Sheets Of Polyethylene: Geomembrane, Confirming To Is 16352 | Yes",
+     "value": "Geomembrane (Conforming to IS 16352)",
+     "period": null,
+     "period_end": null,
+     "publisher": "DGCI&S",
+     "series": "TradeStat Commodity Descriptions",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "59119031 | Kntd/Woven Geo-Technicl Txtl-Geogrid Conforming To Is 17373 | Yes",
+     "value": "Geogrid (Conforming to IS 17373)",
+     "period": null,
+     "period_end": null,
+     "publisher": "DGCI&S",
+     "series": "TradeStat Commodity Descriptions",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "59119032 | Kntd/Woven Geo-Technicl Txtl-Geotextile Conforming To Is 16391/16392 | Yes",
+     "value": "Geotextile (Conforming to IS 16391/16392)",
+     "period": null,
+     "period_end": null,
+     "publisher": "DGCI&S",
+     "series": "TradeStat Commodity Descriptions",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "55031120 | Para-Aramid Fibre | Yes",
+     "value": "Para-Aramid Fibre",
+     "period": null,
+     "period_end": null,
+     "publisher": "DGCI&S",
+     "series": "TradeStat Commodity Descriptions",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "55039030 | Ultra High Molecular Weight Poly Ethylene Staple Fibre Conforming To Astm F2848 | Yes",
+     "value": "Ultra High Molecular Weight Polyethylene Staple Fibre (Conforming to ASTM F2848)",
+     "period": null,
+     "period_end": null,
+     "publisher": "DGCI&S",
+     "series": "TradeStat Commodity Descriptions",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "54021920 | Nylon 66 Filament Yarn Confirming To Is 13464 | Yes",
+     "value": "Nylon 66 Filament Yarn (Conforming to IS 13464)",
+     "period": null,
+     "period_end": null,
+     "publisher": "DGCI&S",
+     "series": "TradeStat Commodity Descriptions",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "55033010 | Pre Oxidised Acrylic Or Modacrylic Fibre, Conforming To Is 17308 | Yes",
+     "value": "Pre-Oxidised Acrylic/Modacrylic Fibre (Conforming to IS 17308)",
+     "period": null,
+     "period_end": null,
+     "publisher": "DGCI&S",
+     "series": "TradeStat Commodity Descriptions",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "55031930 | Nylon 66 Fibre Conforming To Is 13464 | Yes",
+     "value": "Nylon 66 Fibre (Conforming to IS 13464)",
+     "period": null,
+     "period_end": null,
+     "publisher": "DGCI&S",
+     "series": "TradeStat Commodity Descriptions",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

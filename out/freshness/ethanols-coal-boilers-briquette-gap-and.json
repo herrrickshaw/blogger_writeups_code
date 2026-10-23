@@ -1,0 +1,690 @@
+{
+ "slug": "ethanols-coal-boilers-briquette-gap-and",
+ "text_sha1": "e935fb81813dd0fe",
+ "chars": 23203,
+ "checked": "2026-10-23T11:19:47",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "India's biomass-pellet output covers roughly a tenth of what the coal co-firing mandate requires — a 12–17 million tonne annual gap.",
+     "value": "12–17 million tonnes / year",
+     "period": "FY2024-25/25-26",
+     "period_end": "2026-03-31",
+     "publisher": "Down To Earth / Ministry of Power",
+     "series": "SAMARTH biomass co-firing mandate",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "national biomass pellet/briquette production runs around 2.5 million tonnes a year, against an estimated 15–20 million tonnes needed to meet the current mandated co-firing rate across all obligated plants.",
+     "value": "2.5 million tonnes a year",
+     "period": "FY2024-25/25-26",
+     "period_end": "2026-03-31",
+     "publisher": "Down To Earth / Ministry of Power",
+     "series": "Pellet production vs. mandated demand for coal co-firing",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "national biomass pellet/briquette production runs around 2.5 million tonnes a year, against an estimated 15–20 million tonnes needed to meet the current mandated co-firing rate across all obligated plants.",
+     "value": "15–20 million tonnes / year",
+     "period": "FY2024-25/25-26",
+     "period_end": "2026-03-31",
+     "publisher": "Down To Earth / Ministry of Power",
+     "series": "Pellet production vs. mandated demand for coal co-firing",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "As on 23 December 2025, the Commission for Air Quality Management (CAQM) imposed ₹61.85 crore in environmental compensation on six thermal power plants within 300 km of Delhi",
+     "value": "₹61.85 crore",
+     "period": "as on 23 Dec 2025",
+     "period_end": "2025-12-23",
+     "publisher": "CAQM",
+     "series": "Environmental compensation on thermal power plants",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "India's ~380 ethanol distilleries split into two feedstock lines",
+     "value": "~380 distilleries",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "Ministry of Food and Public Distribution",
+     "series": "Ethanol distilleries inventory",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "up to ₹40 lakh per MW installed, capped at ₹5 crore per project",
+     "value": "₹40 lakh per MW",
+     "period": "2021-2026",
+     "period_end": "2026-03-31",
+     "publisher": "MNRE",
+     "series": "National Bioenergy Programme cogeneration subsidy",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "up to ₹40 lakh per MW installed, capped at ₹5 crore per project",
+     "value": "₹5 crore per project",
+     "period": "2021-2026",
+     "period_end": "2026-03-31",
+     "publisher": "MNRE",
+     "series": "National Bioenergy Programme cogeneration subsidy",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "mandates 5% biomass co-firing (agri-residue pellets blended with coal) in coal-based thermal power plants from FY 2024-25, rising to 7% from FY 2025-26",
+     "value": "5%",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "Ministry of Power",
+     "series": "SAMARTH biomass co-firing mandate",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "mandates 5% biomass co-firing (agri-residue pellets blended with coal) in coal-based thermal power plants from FY 2024-25, rising to 7% from FY 2025-26",
+     "value": "7%",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Ministry of Power",
+     "series": "SAMARTH biomass co-firing mandate",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "earn an estimated ₹3,000–6,000 per acre, a benefit government estimates put at potentially reaching 10–20 million farmers and injecting ₹6,000–24,000 crore a year into the rural economy",
+     "value": "₹3,000–6,000 per acre",
+     "period": "2023-2026",
+     "period_end": "2026-03-31",
+     "publisher": "PWOnlyIAS / Government",
+     "series": "Farmer income estimates from co-firing policy",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "earn an estimated ₹3,000–6,000 per acre, a benefit government estimates put at potentially reaching 10–20 million farmers and injecting ₹6,000–24,000 crore a year into the rural economy",
+     "value": "10–20 million farmers",
+     "period": "2023-2026",
+     "period_end": "2026-03-31",
+     "publisher": "PWOnlyIAS / Government",
+     "series": "Farmer income estimates from co-firing policy",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "earn an estimated ₹3,000–6,000 per acre, a benefit government estimates put at potentially reaching 10–20 million farmers and injecting ₹6,000–24,000 crore a year into the rural economy",
+     "value": "₹6,000–24,000 crore a year",
+     "period": "2023-2026",
+     "period_end": "2026-03-31",
+     "publisher": "PWOnlyIAS / Government",
+     "series": "Farmer income estimates from co-firing policy",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Burning one tonne of paddy straw releases 3 kg of particulate matter, 60 kg of CO, 1,460 kg of CO₂, 199 kg of ash and 2 kg of SO₂",
+     "value": "3 kg per tonne",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "Ministry of Agriculture & Farmers Welfare",
+     "series": "Crop residue burning emissions",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Burning one tonne of paddy straw releases 3 kg of particulate matter, 60 kg of CO, 1,460 kg of CO₂, 199 kg of ash and 2 kg of SO₂",
+     "value": "60 kg per tonne",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "Ministry of Agriculture & Farmers Welfare",
+     "series": "Crop residue burning emissions",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Burning one tonne of paddy straw releases 3 kg of particulate matter, 60 kg of CO, 1,460 kg of CO₂, 199 kg of ash and 2 kg of SO₂",
+     "value": "1,460 kg per tonne",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "Ministry of Agriculture & Farmers Welfare",
+     "series": "Crop residue burning emissions",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Burning one tonne of paddy straw releases 3 kg of particulate matter, 60 kg of CO, 1,460 kg of CO₂, 199 kg of ash and 2 kg of SO₂",
+     "value": "199 kg per tonne",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "Ministry of Agriculture & Farmers Welfare",
+     "series": "Crop residue burning emissions",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Burning one tonne of paddy straw releases 3 kg of particulate matter, 60 kg of CO, 1,460 kg of CO₂, 199 kg of ash and 2 kg of SO₂",
+     "value": "2 kg per tonne",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "Ministry of Agriculture & Farmers Welfare",
+     "series": "Crop residue burning emissions",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "destroys 5.5 kg of nitrogen, 2.3 kg of P₂O₅, 25 kg of K₂O and 400 kg of carbon per tonne",
+     "value": "5.5 kg per tonne",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "Ministry of Agriculture & Farmers Welfare",
+     "series": "Crop residue soil nutrient loss",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "destroys 5.5 kg of nitrogen, 2.3 kg of P₂O₅, 25 kg of K₂O and 400 kg of carbon per tonne",
+     "value": "2.3 kg per tonne",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "Ministry of Agriculture & Farmers Welfare",
+     "series": "Crop residue soil nutrient loss",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "destroys 5.5 kg of nitrogen, 2.3 kg of P₂O₅, 25 kg of K₂O and 400 kg of carbon per tonne",
+     "value": "25 kg per tonne",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "Ministry of Agriculture & Farmers Welfare",
+     "series": "Crop residue soil nutrient loss",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "destroys 5.5 kg of nitrogen, 2.3 kg of P₂O₅, 25 kg of K₂O and 400 kg of carbon per tonne",
+     "value": "400 kg per tonne",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "Ministry of Agriculture & Farmers Welfare",
+     "series": "Crop residue soil nutrient loss",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Individual machine ownership | Individual farmers | 50% of machinery cost",
+     "value": "50%",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "Ministry of Agriculture",
+     "series": "Crop Residue Management programme subsidy",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Custom Hiring Centres (CHCs) | Rural entrepreneurs, farmer cooperatives, FPOs, Panchayats, SHGs | 80% credit-linked, capped at ₹24 lakh/project",
+     "value": "80%",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "Ministry of Agriculture",
+     "series": "Crop Residue Management programme subsidy",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Custom Hiring Centres (CHCs) | Rural entrepreneurs, farmer cooperatives, FPOs, Panchayats, SHGs | 80% credit-linked, capped at ₹24 lakh/project",
+     "value": "₹24 lakh / project",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "Ministry of Agriculture",
+     "series": "Crop Residue Management programme subsidy",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Crop residue/paddy straw supply chain | Rural entrepreneurs, cooperatives, FPOs | 65% credit-linked, on projects up to ₹1-1.5 crore",
+     "value": "65%",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "Ministry of Agriculture",
+     "series": "Crop Residue Management programme subsidy",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Crop residue/paddy straw supply chain | Rural entrepreneurs, cooperatives, FPOs | 65% credit-linked, on projects up to ₹1-1.5 crore",
+     "value": "₹1-1.5 crore",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "Ministry of Agriculture",
+     "series": "Crop Residue Management programme subsidy",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "with a three-way cost split: roughly 65% government, 25% industry (the pellet manufacturer or offtaker), and 10% from the farmer-producer organisation itself",
+     "value": "65%",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "Ministry of Power / SAMARTH",
+     "series": "Biomass Aggregation Machinery scheme cost split",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "with a three-way cost split: roughly 65% government, 25% industry (the pellet manufacturer or offtaker), and 10% from the farmer-producer organisation itself",
+     "value": "25%",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "Ministry of Power / SAMARTH",
+     "series": "Biomass Aggregation Machinery scheme cost split",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "with a three-way cost split: roughly 65% government, 25% industry (the pellet manufacturer or offtaker), and 10% from the farmer-producer organisation itself",
+     "value": "10%",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "Ministry of Power / SAMARTH",
+     "series": "Biomass Aggregation Machinery scheme cost split",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "with indicative aggregation-unit costs running ₹1-1.8 crore depending on seasonal paddy-straw throughput.",
+     "value": "₹1-1.8 crore",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "Ministry of Power / SAMARTH",
+     "series": "Biomass Aggregation Machinery unit costs",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Punjab's own 2025 numbers show the model working at state scale, even if not yet closing the national gap: ₹395 crore disbursed for CRM machinery",
+     "value": "₹395 crore",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "Government of Punjab",
+     "series": "Crop Residue Management machinery disbursement",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "translated into a reported 53% drop in Kharif-season stubble-burning incidents, from 10,909 in 2024 to 5,114 in 2025, across 5,358 beneficiaries",
+     "value": "53%",
+     "period": "2025 Kharif season",
+     "period_end": "2025-11-30",
+     "publisher": "Government of Punjab",
+     "series": "Kharif-season stubble-burning incidents drop",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "from 10,909 in 2024 to 5,114 in 2025, across 5,358 beneficiaries — a mix of individual farmers (4,181) and CHCs, panchayats and supply-chain entities.",
+     "value": "10,909",
+     "period": "2024",
+     "period_end": "2024-12-31",
+     "publisher": "Government of Punjab",
+     "series": "Kharif-season stubble-burning incidents",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "from 10,909 in 2024 to 5,114 in 2025, across 5,358 beneficiaries — a mix of individual farmers (4,181) and CHCs, panchayats and supply-chain entities.",
+     "value": "5,114",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "Government of Punjab",
+     "series": "Kharif-season stubble-burning incidents",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "from 10,909 in 2024 to 5,114 in 2025, across 5,358 beneficiaries — a mix of individual farmers (4,181) and CHCs, panchayats and supply-chain entities.",
+     "value": "5,358",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "Government of Punjab",
+     "series": "CRM beneficiaries count",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "from 10,909 in 2024 to 5,114 in 2025, across 5,358 beneficiaries — a mix of individual farmers (4,181) and CHCs, panchayats and supply-chain entities.",
+     "value": "4,181",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "Government of Punjab",
+     "series": "CRM individual farmer beneficiaries",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Distillery-side estimates put biomass-fired process steam at roughly 50 gCO₂e/MJ against roughly 70 gCO₂e/MJ for coal-fired steam",
+     "value": "50 gCO₂e/MJ",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "Industry estimates / BEE working data",
+     "series": "Biomass-fired process steam carbon intensity",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Distillery-side estimates put biomass-fired process steam at roughly 50 gCO₂e/MJ against roughly 70 gCO₂e/MJ for coal-fired steam",
+     "value": "70 gCO₂e/MJ",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "Industry estimates / BEE working data",
+     "series": "Coal-fired process steam carbon intensity",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Ethanol fermentation produces a stream of CO₂ that's already 99.9% pure before any processing",
+     "value": "99.9%",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "Industry estimates",
+     "series": "Fermentation CO2 purity",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "puts capture-and-storage at a levelised cost of roughly $52 per tonne of CO₂e abated, delivering about a 58% reduction in the fuel's life-cycle carbon intensity.",
+     "value": "$52 per tonne of CO₂e",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "Environmental Science & Technology",
+     "series": "Levelised cost of capture-and-storage",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "India already runs a coal-to-biomass mandate that's the direct precedent for fixing that — and it's currently short by 12–17 million tonnes of biomass pellets a year",
+     "value": "12–17 million tonnes/year",
+     "period": null,
+     "period_end": null,
+     "publisher": "Down To Earth reporting on CAQM penalties",
+     "series": "Biomass pellet supply gap",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "national biomass pellet/briquette production runs around 2.5 million tonnes a year, against an estimated 15–20 million tonnes needed to meet the current mandated co-firing rate",
+     "value": "2.5 million tonnes/year (production), 15–20 million tonnes/year (demand)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Down To Earth reporting on CAQM penalties; Ministry of Power SAMARTH biomass co-firing mandate",
+     "series": "Pellet production vs. mandated demand for coal co-firing",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "India's ~380 ethanol distilleries split into two feedstock lines: sugarcane/molasses-based and grain-based (maize and rice)",
+     "value": "~380 ethanol distilleries",
+     "period": null,
+     "period_end": null,
+     "publisher": "Article estimate (no official source cited)",
+     "series": "Total ethanol distilleries in India",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The Ministry of Power's revised biomass policy mandates 5% biomass co-firing from FY 2024-25, rising to 7% from FY 2025-26",
+     "value": "5% (FY2024-25), 7% (FY2025-26)",
+     "period": "FY2024-25, FY2025-26",
+     "period_end": "2025-03-31",
+     "publisher": "Ministry of Power (PIB press release, 2 August 2023)",
+     "series": "SAMARTH Mission biomass co-firing mandate",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Farmers selling crop residue into this supply chain can earn an estimated ₹3,000–6,000 per acre",
+     "value": "₹3,000–6,000/acre",
+     "period": null,
+     "period_end": null,
+     "publisher": "PWOnlyIAS editorial analysis (cross-referenced with government figures)",
+     "series": "Farmer income from crop residue sale",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "government estimates put [farmer income benefit] at potentially reaching ₹6,000–24,000 crore a year",
+     "value": "₹6,000–24,000 crore/year",
+     "period": null,
+     "period_end": null,
+     "publisher": "PWOnlyIAS editorial analysis (cross-referenced with government figures)",
+     "series": "Rural economy benefit from crop residue sale",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "CAQM imposed ₹61.85 crore in environmental compensation on six thermal power plants for missing their co-firing thresholds",
+     "value": "₹61.85 crore",
+     "period": "2024-25 (non-compliance)",
+     "period_end": "2025-03-31",
+     "publisher": "CAQM (press release, 8 April 2026)",
+     "series": "Environmental compensation for non-compliance with co-firing rules",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Punjab's 2025 numbers show ₹395 crore disbursed for CRM machinery translated into a reported 53% drop in Kharif-season stubble-burning incidents, from 10,909 in 2024 to 5,114 in 2025",
+     "value": "₹395 crore disbursed; 10,909 (2024) → 5,114 (2025) incidents",
+     "period": "2024, 2025 (Kharif season)",
+     "period_end": "2025-10-31",
+     "publisher": "Ministry of Agriculture & Farmers Welfare (Punjab 2025 operational data)",
+     "series": "Crop Residue Management (CRM) programme impact",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "5,358 beneficiaries — a mix of individual farmers (4,181) and CHCs, panchayats and supply-chain entities",
+     "value": "5,358 beneficiaries (4,181 individual farmers)",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "Ministry of Agriculture & Farmers Welfare (Punjab 2025 operational data)",
+     "series": "CRM programme beneficiaries",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "inductive aggregation-unit costs running ₹1-1.8 crore depending on seasonal paddy-straw throughput",
+     "value": "₹1-1.8 crore/unit",
+     "period": null,
+     "period_end": null,
+     "publisher": "SAMARTH-administered Biomass Aggregation Machinery (BAM) scheme",
+     "series": "Cost of biomass aggregation machinery",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "biomass-fired process steam at roughly 50 gCO₂e/MJ against roughly 70 gCO₂e/MJ for coal-fired steam",
+     "value": "50 gCO₂e/MJ (biomass), 70 gCO₂e/MJ (coal)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Bureau of Energy Efficiency (BEE) methodology BM IN02.001",
+     "series": "Carbon intensity of boiler fuels",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "ADM's Illinois Industrial Carbon Capture and Storage project... storing roughly 428,580 to 525,002 tonnes a year",
+     "value": "428,580–525,002 tonnes/year",
+     "period": "2017–2022",
+     "period_end": "2022-12-31",
+     "publisher": "EPA-reported figures (via EESI, MIT Sequestration project database)",
+     "series": "ADM Decatur ICCS project CO₂ storage",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "cumulatively exceeding 3.5 million tonnes stored by 2022",
+     "value": "3.5 million tonnes (cumulative)",
+     "period": "2017–2022",
+     "period_end": "2022-12-31",
+     "publisher": "EPA-reported figures (via Investigate Midwest)",
+     "series": "ADM Decatur ICCS project cumulative CO₂ storage",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "ADM's Illinois project had a stated target of storing over 1 million tonnes of CO₂ a year",
+     "value": "1 million tonnes/year (target)",
+     "period": null,
+     "period_end": null,
+     "publisher": "ADM project documentation",
+     "series": "ADM Decatur ICCS project target",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Global CCS Institute's Global Status of CCS 2025 report counts 77 CCS projects operating worldwide and 47 under construction",
+     "value": "77 operating, 47 under construction",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "Global CCS Institute",
+     "series": "Global CCS project status",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "the report specifically flags seven new biofuel and bioenergy CCS projects that reached construction in the year covered",
+     "value": "7 new biofuel/bioenergy CCS projects",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "Global CCS Institute",
+     "series": "New bioenergy CCS projects under construction",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "capture capacity growing at a compound annual rate of over 30% since 2017 across all sectors",
+     "value": ">30% CAGR (2017–2025)",
+     "period": "2017–2025",
+     "period_end": "2025-12-31",
+     "publisher": "Global CCS Institute",
+     "series": "Global CCS capacity growth",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "capture-and-storage at a levelised cost of roughly $52 per tonne of CO₂e abated",
+     "value": "$52/tonne CO₂e",
+     "period": null,
+     "period_end": null,
+     "publisher": "Peer-reviewed study (US corn ethanol context)",
+     "series": "Fermentation CO₂ capture cost",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "delivering about a 58% reduction in the fuel's life-cycle carbon intensity",
+     "value": "~58% reduction in carbon intensity",
+     "period": null,
+     "period_end": null,
+     "publisher": "Peer-reviewed study (US corn ethanol context)",
+     "series": "Fermentation CO₂ capture impact",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "burning one tonne of paddy straw releases 3 kg of particulate matter, 60 kg of CO, 1,460 kg of CO₂, 199 kg of ash and 2 kg of SO₂",
+     "value": "3 kg PM, 60 kg CO, 1,460 kg CO₂, 199 kg ash, 2 kg SO₂/tonne",
+     "period": null,
+     "period_end": null,
+     "publisher": "Ministry of Agriculture & Farmers Welfare",
+     "series": "Emissions from paddy straw burning",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "destroys 5.5 kg of nitrogen, 2.3 kg of P₂O₅, 25 kg of K₂O and 400 kg of carbon per tonne that would otherwise return to the soil",
+     "value": "5.5 kg N, 2.3 kg P₂O₅, 25 kg K₂O, 400 kg C/tonne",
+     "period": null,
+     "period_end": null,
+     "publisher": "Ministry of Agriculture & Farmers Welfare",
+     "series": "Nutrient loss from paddy straw burning",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "MNRE's National Bioenergy Programme (2021–2026) offers central financial assistance for non-bagasse biomass cogeneration projects, up to ₹40 lakh per MW installed, capped at ₹5 crore per project",
+     "value": "₹40 lakh/MW (max ₹5 crore/project)",
+     "period": "2021–2026",
+     "period_end": "2026-12-31",
+     "publisher": "MNRE National Bioenergy Programme",
+     "series": "Biomass briquette/pellet subsidy",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "The Ministry of Agriculture's Crop Residue Management (CRM) programme... funds three distinct layers of this problem under its 2026 operational guidelines",
+     "value": "60:40 (Centre:State funding), 100:0 (Delhi)",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "Ministry of Agriculture & Farmers Welfare",
+     "series": "CRM programme funding ratio",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Custom Hiring Centres (CHCs) ... 80% credit-linked, capped at ₹24 lakh/project",
+     "value": "80% credit-linked, ₹24 lakh/project cap",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "Ministry of Agriculture & Farmers Welfare",
+     "series": "CRM programme CHC funding",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Crop residue/paddy straw supply chain ... 65% credit-linked, on projects up to ₹1-1.5 crore",
+     "value": "65% credit-linked, ₹1-1.5 crore/project cap",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "Ministry of Agriculture & Farmers Welfare",
+     "series": "CRM programme supply-chain funding",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "individual machine ownership ... 50% of machinery cost",
+     "value": "50% subsidy on machinery cost",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "Ministry of Agriculture & Farmers Welfare",
+     "series": "CRM programme individual farmer subsidy",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "BAM [Biomass Aggregation Machinery] funds ... roughly 65% government, 25% industry, 10% farmer-producer organisation",
+     "value": "65% government, 25% industry, 10% farmer-producer",
+     "period": null,
+     "period_end": null,
+     "publisher": "SAMARTH-administered BAM scheme",
+     "series": "Cost-sharing for biomass aggregation machinery",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

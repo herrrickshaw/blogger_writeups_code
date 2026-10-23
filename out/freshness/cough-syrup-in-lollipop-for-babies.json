@@ -1,0 +1,650 @@
+{
+ "slug": "cough-syrup-in-lollipop-for-babies",
+ "text_sha1": "e944e1cd8dc84095",
+ "chars": 18213,
+ "checked": "2026-10-23T11:00:12",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "151 of 151 Newborns aged 2–28 days who accepted a 2 mm tablet in a 2015 German trial, swallowing it more reliably than syrup",
+     "value": "151",
+     "period": "2015",
+     "period_end": "2015-12-31",
+     "publisher": "Journal of Pediatrics",
+     "series": "Klingmann et al. trial",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "24 Children in Madhya Pradesh whose deaths in 2025 were linked to Coldrif cough syrup, found to contain diethylene glycol",
+     "value": "24",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "PIB / ministry",
+     "series": "Coldrif cough syrup adverse events",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "85% Mothers in a UK study who preferred giving a medicine during breastfeeding to using a syringe",
+     "value": "85%",
+     "period": "2022",
+     "period_end": "2022-12-31",
+     "publisher": "PLOS ONE",
+     "series": "Maier et al. study",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "A Cochrane review of six small trials in 899 children aged 12 months to 18 years found that honey probably relieves cough",
+     "value": "899",
+     "period": "2018",
+     "period_end": "2018-12-31",
+     "publisher": "Cochrane",
+     "series": "Honey for acute cough in children review",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "In 1989 anaesthetists at the University of Utah tested oral transmucosal fentanyl citrate — fentanyl in a sweetened lozenge on a stick — as a pre-operative sedative in 44 children.",
+     "value": "44",
+     "period": "1989",
+     "period_end": "1989-12-31",
+     "publisher": "Anesthesia & Analgesia",
+     "series": "Streisand et al. study",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "A 2026 pilot from anaesthetists in Chile and Venezuela gave a diclofenac lollipop to 50 children aged 4–12 every eight hours after removal of tonsils and adenoids.",
+     "value": "50",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "Cureus",
+     "series": "Veraza et al. study",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The US Centers for Disease Control and Prevention reported that poison-centre calls about children swallowing melatonin rose 530% between 2012 and 2021",
+     "value": "530%",
+     "period": "2012-2021",
+     "period_end": "2021-12-31",
+     "publisher": "CDC",
+     "series": "Morbidity and Mortality Weekly Report",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "during 2019–2022 melatonin was involved in about 11,000 emergency visits by infants and young children for unsupervised ingestion, 7% of all such visits.",
+     "value": "11,000",
+     "period": "2019-2022",
+     "period_end": "2022-12-31",
+     "publisher": "CDC",
+     "series": "Morbidity and Mortality Weekly Report",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "during 2019–2022 melatonin was involved in about 11,000 emergency visits by infants and young children for unsupervised ingestion, 7% of all such visits.",
+     "value": "7%",
+     "period": "2019-2022",
+     "period_end": "2022-12-31",
+     "publisher": "CDC",
+     "series": "Morbidity and Mortality Weekly Report",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "In 47% of those cases the child had eaten gummies.",
+     "value": "47%",
+     "period": "2019-2022",
+     "period_end": "2022-12-31",
+     "publisher": "CDC",
+     "series": "Morbidity and Mortality Weekly Report",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "the data cover 4,097 hospitalisations and two deaths over the decade.",
+     "value": "4,097",
+     "period": "2012-2021",
+     "period_end": "2021-12-31",
+     "publisher": "CDC",
+     "series": "Morbidity and Mortality Weekly Report",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "the data cover 4,097 hospitalisations and two deaths over the decade.",
+     "value": "2",
+     "period": "2012-2021",
+     "period_end": "2021-12-31",
+     "publisher": "CDC",
+     "series": "Morbidity and Mortality Weekly Report",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Spomer et al., Arch Dis Child 2012 | 60, aged 6 months–6 years | A drug-free 2 mm mini-tablet was accepted at least as well as 3 ml of sweet syrup; infants of 6–12 months swallowed it fully",
+     "value": "60",
+     "period": "2012",
+     "period_end": "2012-12-31",
+     "publisher": "Archives of Disease in Childhood",
+     "series": "Spomer et al. study",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Spomer et al., Arch Dis Child 2012 | 60, aged 6 months–6 years | A drug-free 2 mm mini-tablet was accepted at least as well as 3 ml of sweet syrup; infants of 6–12 months swallowed it fully",
+     "value": "3 ml",
+     "period": "2012",
+     "period_end": "2012-12-31",
+     "publisher": "Archives of Disease in Childhood",
+     "series": "Spomer et al. study",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Klingmann et al., J Pediatr 2013 | 306, aged 6 months–5 years | Uncoated mini-tablets were more acceptable than syrup by 14.8 percentage points; no child inhaled one",
+     "value": "306",
+     "period": "2013",
+     "period_end": "2013-12-31",
+     "publisher": "Journal of Pediatrics",
+     "series": "Klingmann et al. study",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Klingmann et al., J Pediatr 2013 | 306, aged 6 months–5 years | Uncoated mini-tablets were more acceptable than syrup by 14.8 percentage points; no child inhaled one",
+     "value": "14.8 percentage points",
+     "period": "2013",
+     "period_end": "2013-12-31",
+     "publisher": "Journal of Pediatrics",
+     "series": "Klingmann et al. study",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Klingmann et al., J Pediatr 2015 | 151 newborns, 2–28 days | All accepted both the mini-tablet and 0.5 ml syrup; swallowing was better with the tablet by 10 points; none inhaled or coughed",
+     "value": "151",
+     "period": "2015",
+     "period_end": "2015-12-31",
+     "publisher": "Journal of Pediatrics",
+     "series": "Klingmann et al. study",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Klingmann et al., J Pediatr 2015 | 151 newborns, 2–28 days | All accepted both the mini-tablet and 0.5 ml syrup; swallowing was better with the tablet by 10 points; none inhaled or coughed",
+     "value": "0.5 ml",
+     "period": "2015",
+     "period_end": "2015-12-31",
+     "publisher": "Journal of Pediatrics",
+     "series": "Klingmann et al. study",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Klingmann et al., J Pediatr 2015 | 151 newborns, 2–28 days | All accepted both the mini-tablet and 0.5 ml syrup; swallowing was better with the tablet by 10 points; none inhaled or coughed",
+     "value": "10 points",
+     "period": "2015",
+     "period_end": "2015-12-31",
+     "publisher": "Journal of Pediatrics",
+     "series": "Klingmann et al. study",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Klingmann et al., Eur J Pharm Biopharm 2020 | 150 infants under 1 year | A 2 × 3 cm orodispersible film was more acceptable and better swallowed than syrup",
+     "value": "150",
+     "period": "2020",
+     "period_end": "2020-12-31",
+     "publisher": "European Journal of Pharmaceutics and Biopharmaceutics",
+     "series": "Klingmann et al. study",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Maier et al., PLOS ONE 2022 | 26 mother–infant pairs, UK neonatal unit | A solid vitamin B12 dose dissolved in breast milk during feeding raised infants’ B12 from a mean 533 to 1,871 pg/ml; 85% of mothers preferred it to a syringe",
+     "value": "26",
+     "period": "2022",
+     "period_end": "2022-12-31",
+     "publisher": "PLOS ONE",
+     "series": "Maier et al. study",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Maier et al., PLOS ONE 2022 | 26 mother–infant pairs, UK neonatal unit | A solid vitamin B12 dose dissolved in breast milk during feeding raised infants’ B12 from a mean 533 to 1,871 pg/ml; 85% of mothers preferred it to a syringe",
+     "value": "533 pg/ml",
+     "period": "2022",
+     "period_end": "2022-12-31",
+     "publisher": "PLOS ONE",
+     "series": "Maier et al. study",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Maier et al., PLOS ONE 2022 | 26 mother–infant pairs, UK neonatal unit | A solid vitamin B12 dose dissolved in breast milk during feeding raised infants’ B12 from a mean 533 to 1,871 pg/ml; 85% of mothers preferred it to a syringe",
+     "value": "1,871 pg/ml",
+     "period": "2022",
+     "period_end": "2022-12-31",
+     "publisher": "PLOS ONE",
+     "series": "Maier et al. study",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Coldrif, made by Sresan Pharmaceuticals in Tamil Nadu, was found to contain diethylene glycol at 48.6% in one batch; the deaths of 24 children in Madhya Pradesh were linked to it",
+     "value": "48.6%",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "CDSCO",
+     "series": "Coldrif batch quality report",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Cipla, Mumbai | Lopinavir/ritonavir 40/10 mg oral pellets in capsules, sprinkled on food, for HIV in children under three | US FDA tentative approval, May 2015 — the first solid form of the drug for that age",
+     "value": "40/10 mg",
+     "period": "May 2015",
+     "period_end": "2015-05-31",
+     "publisher": "US FDA",
+     "series": "Cipla Lopinavir/ritonavir approval",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Priced at under US$1 a day for children up to 14 kg; registered in 2023 in the DR Congo, Kenya, Mali, Mozambique and Uganda",
+     "value": "US$1 a day",
+     "period": "2023",
+     "period_end": "2023-12-31",
+     "publisher": "DNDi",
+     "series": "Quadrimune pricing",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Priced at under US$1 a day for children up to 14 kg; registered in 2023 in the DR Congo, Kenya, Mali, Mozambique and Uganda",
+     "value": "14 kg",
+     "period": "2023",
+     "period_end": "2023-12-31",
+     "publisher": "DNDi",
+     "series": "Quadrimune registration",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Macleods and Viatris | Dolutegravir 10 mg scored dispersible tablet, strawberry-flavoured, for children from four weeks | US$4.50 a pack, about US$36 a year for a 10–13.9 kg child, under a 2020 agreement with CHAI and Unitaid",
+     "value": "10 mg",
+     "period": "2020",
+     "period_end": "2020-12-31",
+     "publisher": "CHAI and Unitaid",
+     "series": "Dolutegravir 10 mg agreement",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Macleods and Viatris | Dolutegravir 10 mg scored dispersible tablet, strawberry-flavoured, for children from four weeks | US$4.50 a pack, about US$36 a year for a 10–13.9 kg child, under a 2020 agreement with CHAI and Unitaid",
+     "value": "US$4.50 a pack",
+     "period": "2020",
+     "period_end": "2020-12-31",
+     "publisher": "CHAI and Unitaid",
+     "series": "Dolutegravir 10 mg agreement",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Macleods and Viatris | Dolutegravir 10 mg scored dispersible tablet, strawberry-flavoured, for children from four weeks | US$4.50 a pack, about US$36 a year for a 10–13.9 kg child, under a 2020 agreement with CHAI and Unitaid",
+     "value": "US$36 a year",
+     "period": "2020",
+     "period_end": "2020-12-31",
+     "publisher": "CHAI and Unitaid",
+     "series": "Dolutegravir 10 mg agreement",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Macleods and Viatris | Dolutegravir 10 mg scored dispersible tablet, strawberry-flavoured, for children from four weeks | US$4.50 a pack, about US$36 a year for a 10–13.9 kg child, under a 2020 agreement with CHAI and Unitaid",
+     "value": "10–13.9 kg",
+     "period": "2020",
+     "period_end": "2020-12-31",
+     "publisher": "CHAI and Unitaid",
+     "series": "Dolutegravir 10 mg agreement",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Macleods | Dispersible TB combinations for children (rifampicin, isoniazid, pyrazinamide) | Launched with TB Alliance in 2015 at US$2.95 for 84 tablets; US$15.54 for a six-month course through the Global Drug Facility",
+     "value": "US$2.95 for 84 tablets",
+     "period": "2015",
+     "period_end": "2015-12-31",
+     "publisher": "TB Alliance",
+     "series": "Dispersible TB combinations launch",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Macleods | Dispersible TB combinations for children (rifampicin, isoniazid, pyrazinamide) | Launched with TB Alliance in 2015 at US$2.95 for 84 tablets; US$15.54 for a six-month course through the Global Drug Facility",
+     "value": "US$15.54 for a six-month course",
+     "period": "2015",
+     "period_end": "2015-12-31",
+     "publisher": "Global Drug Facility",
+     "series": "Dispersible TB combinations course pricing",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "ZIM Labs, Nagpur | Oral thin films; drug pellets and granules supplied to other manufacturers | EU-GMP film plant rated at 324 million strips a year; EU approvals for sildenafil, rizatriptan and, with Neuraxpharm, buprenorphine films; films were about 18% of revenue in FY2024",
+     "value": "324 million strips a year",
+     "period": "FY2024",
+     "period_end": "2024-03-31",
+     "publisher": "ZIM Labs",
+     "series": "Annual Report",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "ZIM Labs, Nagpur | Oral thin films; drug pellets and granules supplied to other manufacturers | EU-GMP film plant rated at 324 million strips a year; EU approvals for sildenafil, rizatriptan and, with Neuraxpharm, buprenorphine films; films were about 18% of revenue in FY2024",
+     "value": "18%",
+     "period": "FY2024",
+     "period_end": "2024-03-31",
+     "publisher": "ZIM Labs",
+     "series": "Annual Report",
+     "frequency": "annual",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "151 of 151 Newborns aged 2–28 days who accepted a 2 mm tablet in a 2015 German trial, swallowing it more reliably than syrup",
+     "value": "151 newborns (2–28 days)",
+     "period": "2015",
+     "period_end": "2015-12-31",
+     "publisher": "Klingmann et al. (Journal of Pediatrics)",
+     "series": "Clinical trial on mini-tablet acceptability",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "24 Children in Madhya Pradesh whose deaths in 2025 were linked to Coldrif cough syrup, found to contain diethylene glycol at 48.6%",
+     "value": "24 children (deaths) + 48.6% diethylene glycol contamination",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "The Tribune, Chemistry World, All India Radio",
+     "series": "Drug safety incident report",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "Under 2 Age below which India’s Health Ministry says cough and cold medicines should not be prescribed or dispensed at all",
+     "value": "Under 2 years",
+     "period": "as of October 2025 advisory",
+     "period_end": "2025-10-01",
+     "publisher": "Ministry of Health and Family Welfare (India)",
+     "series": "Health Ministry advisory on cough/cold medicines",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "85% Mothers in a UK study who preferred giving a medicine during breastfeeding to using a syringe",
+     "value": "85%",
+     "period": "2022 UK neonatal unit study",
+     "period_end": "2022-12-31",
+     "publisher": "Maier et al. (PLOS ONE)",
+     "series": "Acceptability study on breastfeeding medicine delivery",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "A 2020 systematic review found only three studies, only one of them high quality, and called the effect promising but asked for larger trials",
+     "value": "3 studies (2020 review)",
+     "period": "2020",
+     "period_end": "2020-12-31",
+     "publisher": "Nuvvula et al. (Oral Health & Preventive Dentistry)",
+     "series": "Systematic review on herbal lollipops for tooth decay",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "50 children aged 4–12 every eight hours after removal of tonsils and adenoids",
+     "value": "50 children (4–12 years)",
+     "period": "2026 pilot study",
+     "period_end": "2026-12-31",
+     "publisher": "Veraza et al. (Cureus)",
+     "series": "Diclofenac lollipop pilot study",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "530% rise in poison-centre calls about children swallowing melatonin between 2012 and 2021",
+     "value": "530% increase",
+     "period": "2012–2021",
+     "period_end": "2021-12-31",
+     "publisher": "US CDC (Morbidity and Mortality Weekly Report)",
+     "series": "Poison control data on melatonin ingestion",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "11,000 emergency visits by infants and young children for unsupervised melatonin ingestion (2019–2022)",
+     "value": "11,000 visits (2019–2022)",
+     "period": "2019–2022",
+     "period_end": "2022-12-31",
+     "publisher": "US CDC",
+     "series": "CDC poison control data",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "4,097 hospitalisations and two deaths from melatonin ingestion over the decade",
+     "value": "4,097 hospitalisations + 2 deaths",
+     "period": "2012–2022",
+     "period_end": "2022-12-31",
+     "publisher": "US CDC",
+     "series": "CDC poison control data",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Hard candy was the food most often involved in non-fatal choking visits to US emergency departments in a study of children published in Pediatrics in 2013",
+     "value": "Hard candy (2013 study)",
+     "period": "2013",
+     "period_end": "2013-12-31",
+     "publisher": "American Academy of Pediatrics (via Pediatrics journal)",
+     "series": "Choking hazard study",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "A drug-free 2 mm mini-tablet was accepted at least as well as 3 ml of sweet syrup; infants of 6–12 months swallowed it fully",
+     "value": "2 mm mini-tablet vs. 3 ml syrup (6–12 months)",
+     "period": "2012 trial",
+     "period_end": "2012-12-31",
+     "publisher": "Spomer et al. (Archives of Disease in Childhood)",
+     "series": "Mini-tablet acceptability study",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Uncoated mini-tablets were more acceptable than syrup by 14.8 percentage points",
+     "value": "14.8 percentage points",
+     "period": "2013 trial",
+     "period_end": "2013-12-31",
+     "publisher": "Klingmann et al. (Journal of Pediatrics)",
+     "series": "Mini-tablet vs. syrup acceptability",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "All [151 newborns] accepted both the mini-tablet and 0.5 ml syrup; swallowing was better with the tablet by 10 points",
+     "value": "10-point improvement (swallowing)",
+     "period": "2015 trial",
+     "period_end": "2015-12-31",
+     "publisher": "Klingmann et al. (Journal of Pediatrics)",
+     "series": "Newborn mini-tablet trial",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "A 2 × 3 cm orodispersible film was more acceptable and better swallowed than syrup",
+     "value": "2 × 3 cm orodispersible film",
+     "period": "2020 trial",
+     "period_end": "2020-12-31",
+     "publisher": "Klingmann et al. (European Journal of Pharmaceutics and Biopharmaceutics)",
+     "series": "Orodispersible film trial",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "A solid vitamin B12 dose dissolved in breast milk during feeding raised infants’ B12 from a mean 533 to 1,871 pg/ml",
+     "value": "533 → 1,871 pg/ml (mean)",
+     "period": "2022 UK study",
+     "period_end": "2022-12-31",
+     "publisher": "Maier et al. (PLOS ONE)",
+     "series": "Breastfeeding medicine delivery study",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "3D-printed chewable doses kept blood levels closer to target than hand-made capsules",
+     "value": "3D-printed chewable doses (4 children)",
+     "period": "2019 study",
+     "period_end": "2019-12-31",
+     "publisher": "Goyanes et al. (International Journal of Pharmaceutics)",
+     "series": "3D-printed dose study",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "WHO prequalified arpraziquantel, a 150 mg dispersible tablet for schistosomiasis in children aged three months to six years",
+     "value": "150 mg dispersible tablet (3–6 months)",
+     "period": "May 2024",
+     "period_end": "2024-05-31",
+     "publisher": "WHO (Pediatric Praziquantel Consortium)",
+     "series": "WHO prequalified medicines list",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "EU-GMP film plant rated at 324 million strips a year",
+     "value": "324 million strips/year",
+     "period": "FY2024",
+     "period_end": "2024-03-31",
+     "publisher": "ZIM Laboratories (FY2024 annual report)",
+     "series": "Film production capacity",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "films were about 18% of revenue in FY2024",
+     "value": "18% of revenue (FY2024)",
+     "period": "FY2024",
+     "period_end": "2024-03-31",
+     "publisher": "ZIM Laboratories",
+     "series": "Revenue breakdown",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Priced at under US$1 a day for children up to 14 kg",
+     "value": "<US$1/day (children <14 kg)",
+     "period": "2023 registration",
+     "period_end": "2023-12-31",
+     "publisher": "DNDi, Unitaid",
+     "series": "Quadrimune pricing",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "US$4.50 a pack, about US$36 a year for a 10–13.9 kg child",
+     "value": "US$4.50/pack + US$36/year (10–13.9 kg)",
+     "period": "2020 agreement",
+     "period_end": "2020-12-31",
+     "publisher": "Clinton Health Access Initiative",
+     "series": "Dolutegravir pricing",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "US$2.95 for 84 tablets; US$15.54 for a six-month course",
+     "value": "US$2.95 (84 tablets) + US$15.54 (6-month course)",
+     "period": "2015 launch",
+     "period_end": "2015-12-31",
+     "publisher": "TB Alliance, Global Drug Facility",
+     "series": "Paediatric TB combination pricing",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "US FDA tentative approval, May 2015 — the first solid form of the drug for that age",
+     "value": "May 2015 FDA tentative approval",
+     "period": "May 2015",
+     "period_end": "2015-05-31",
+     "publisher": "US FDA",
+     "series": "Lopinavir/ritonavir oral pellets approval",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "US FDA tentative approval, May 2023; described by the company as the first such film",
+     "value": "May 2023 FDA tentative approval",
+     "period": "May 2023",
+     "period_end": "2023-05-31",
+     "publisher": "US FDA",
+     "series": "Dolutegravir orodispersible film approval",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "A notification in April 2025 made the warning binding, and on 18 August 2026 the Health Ministry extended it to every formulation containing the two drugs",
+     "value": "18 August 2026 extension",
+     "period": "18 August 2026",
+     "period_end": "2026-08-18",
+     "publisher": "Ministry of Health and Family Welfare (India)",
+     "series": "Regulatory warning on chlorpheniramine/phenylephrine",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The drug regulator asked manufacturers in December 2023 to label the fixed-dose combination of chlorpheniramine and phenylephrine as not for children under four",
+     "value": "December 2023 warning",
+     "period": "December 2023",
+     "period_end": "2023-12-31",
+     "publisher": "Central Drugs Standard Control Organisation (CDSCO)",
+     "series": "Regulatory warning on chlorpheniramine/phenylephrine",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The WHO issued an alert on Coldrif and two other Indian syrups, Respifresh TR and ReLife",
+     "value": "3 syrups (Coldrif, Respifresh TR, ReLife)",
+     "period": "2025 (post-Coldrif incident)",
+     "period_end": "2025-12-31",
+     "publisher": "WHO",
+     "series": "Drug safety alert",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "2,439 Products. Here’s What We Know About Where Their APIs Come From",
+     "value": "2,439 products (Jan Aushadhi)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Unrelated article reference (not in this text)",
+     "series": null,
+     "frequency": null,
+     "headline": false
+    }
+   ]
+  }
+ }
+}

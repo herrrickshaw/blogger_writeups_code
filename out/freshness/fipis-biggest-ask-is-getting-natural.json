@@ -1,0 +1,320 @@
+{
+ "slug": "fipis-biggest-ask-is-getting-natural",
+ "text_sha1": "d98fc845661869ef",
+ "chars": 25006,
+ "checked": "2026-10-23T11:32:07",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "GST Council raised the tax on exploration, mining and drilling services from 12% to 18%",
+     "value": "12%",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "GST Council",
+     "series": "GST rate on exploration, mining & drilling services",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "GST Council raised the tax on exploration, mining and drilling services from 12% to 18%",
+     "value": "18%",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "GST Council",
+     "series": "GST rate on exploration, mining & drilling services",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "the 2026 edition drew 75,000-plus professionals to Goa in January",
+     "value": "75,000-plus professionals",
+     "period": "January 2026",
+     "period_end": "2026-01-31",
+     "publisher": "India Energy Week / FIPI",
+     "series": "India Energy Week attendance",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "It has roughly 95 members spanning IOCL, ONGC, BPCL, HPCL, GAIL, Reliance, Cairn (Vedanta), Oil India, Petronet LNG and others",
+     "value": "roughly 95 members",
+     "period": "as of 2026",
+     "period_end": "2026-10-22",
+     "publisher": "FIPI",
+     "series": "FIPI membership count",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "The 2026 edition, its fourth, moved to Goa and ran 27-30 January 2026, drawing more than 75,000 professionals, over 600 exhibitors, and roughly 6,200 delegates from more than 120 countries",
+     "value": "over 600 exhibitors",
+     "period": "27-30 January 2026",
+     "period_end": "2026-01-30",
+     "publisher": "India Energy Week",
+     "series": "India Energy Week exhibitors",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "The 2026 edition, its fourth, moved to Goa and ran 27-30 January 2026, drawing more than 75,000 professionals, over 600 exhibitors, and roughly 6,200 delegates from more than 120 countries",
+     "value": "roughly 6,200 delegates",
+     "period": "27-30 January 2026",
+     "period_end": "2026-01-30",
+     "publisher": "India Energy Week",
+     "series": "India Energy Week delegates",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "The 2026 edition, its fourth, moved to Goa and ran 27-30 January 2026, drawing more than 75,000 professionals, over 600 exhibitors, and roughly 6,200 delegates from more than 120 countries",
+     "value": "more than 120 countries",
+     "period": "27-30 January 2026",
+     "period_end": "2026-01-30",
+     "publisher": "India Energy Week",
+     "series": "India Energy Week participating countries",
+     "frequency": "annual",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "the GST Council raised the tax on exploration, mining and drilling services from 12% to 18% in 2026",
+     "value": "12% → 18%",
+     "period": "2025",
+     "period_end": "2025-09-22",
+     "publisher": "GST Council / CBIC",
+     "series": "GST rate notifications for exploration, mining, and drilling services",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "services for exploration, mining or drilling of crude oil and natural gas moved from 12% to 18% from 22 September 2025",
+     "value": "12% → 18%",
+     "period": "from 22 September 2025",
+     "period_end": "2025-09-22",
+     "publisher": "PTI / GST Council",
+     "series": "GST rate changes for oil & gas services",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "FIPI (Federation of Indian Petroleum Industry) was formed on 7 December 2016",
+     "value": "7 December 2016",
+     "period": null,
+     "period_end": "2016-12-07",
+     "publisher": "FIPI (via i2p2m.com)",
+     "series": "FIPI founding date",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "FIPI's membership runs to roughly 95 organisations",
+     "value": "95",
+     "period": null,
+     "period_end": null,
+     "publisher": "FIPI (search-summarized)",
+     "series": "FIPI member count",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India Energy Week 2025 ran 11-14 February 2025 in New Delhi",
+     "value": "11–14 February 2025",
+     "period": "11–14 February 2025",
+     "period_end": "2025-02-14",
+     "publisher": "FIPI / indiaenergyweek.com",
+     "series": "India Energy Week 2025 attendance",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "the 2026 edition [of India Energy Week] moved to Goa and ran 27-30 January 2026, drawing more than 75,000 professionals",
+     "value": "75,000+",
+     "period": "27–30 January 2026",
+     "period_end": "2026-01-30",
+     "publisher": "FIPI / indiaenergyweek.com",
+     "series": "India Energy Week 2026 attendance",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "the 2026 edition [...] drew more than 75,000 professionals, over 600 exhibitors, and roughly 6,200 delegates from more than 120 countries",
+     "value": "600+ exhibitors, 6,200 delegates, 120+ countries",
+     "period": "27–30 January 2026",
+     "period_end": "2026-01-30",
+     "publisher": "FIPI / indiaenergyweek.com",
+     "series": "India Energy Week 2026 demographics",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "the Student Chapters Annual Convention [...] was held 28 March 2026 at IIT-ISM Dhanbad",
+     "value": "28 March 2026",
+     "period": "28 March 2026",
+     "period_end": "2026-03-28",
+     "publisher": "FIPI (search-summarized)",
+     "series": "FIPI Student Chapters Convention 2026",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Gurmeet Singh was noted in a January 2025 editorial voicing support for India's rooftop solar initiative (PM Surya Ghar)",
+     "value": "January 2025",
+     "period": "January 2025",
+     "period_end": "2025-01-31",
+     "publisher": "LobbyMap (via search summary)",
+     "series": "FIPI Director General's editorial stance",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "FIPI's longest-running, most visible ask is bringing natural gas under GST",
+     "value": "since at least 2021-22",
+     "period": "2021-22 to 2026",
+     "period_end": "2026-09-01",
+     "publisher": "FIPI (via Business Standard, saginfotech.com)",
+     "series": "FIPI's gas-under-GST advocacy timeline",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "natural gas is one of five petroleum products [...] still kept outside GST under the original 2017 GST framework",
+     "value": "five petroleum products (crude oil, petrol, diesel, ATF, natural gas)",
+     "period": "as of 2017 (still applicable in 2026)",
+     "period_end": "2026-09-01",
+     "publisher": "GST Council / MoSPI",
+     "series": "GST-exempt petroleum products",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "FIPI's argument [...] is that this creates a 'stranded tax' problem: industry pays GST on many of its own inputs but can't claim input tax credit against that GST",
+     "value": "stranded tax problem (no quantified value)",
+     "period": null,
+     "period_end": null,
+     "publisher": "FIPI (via pre-Budget submissions)",
+     "series": "GST input tax credit loss for natural gas",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "a 2025-26 edition addressed to Union Budget 2026-27 was located as a named PDF on FIPI's site",
+     "value": "2025-26 Pre-Budget Memorandum (existence confirmed)",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "FIPI",
+     "series": "FIPI Pre-Budget Memorandum 2026-27",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "search-summarised FIPI material states the body recommended extending single-license coverage to cover blocks still operating under older Production Sharing Contracts",
+     "value": "single-license coverage extension (no specific blocks)",
+     "period": null,
+     "period_end": null,
+     "publisher": "FIPI (search-summarized)",
+     "series": "FIPI OALP/PSC recommendations",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "FIPI claims an 'instrumental role' in fine-tuning OALP, but that is FIPI's self-characterization",
+     "value": "instrumental role in OALP fine-tuning (no specific metrics)",
+     "period": null,
+     "period_end": null,
+     "publisher": "FIPI (self-attributed)",
+     "series": "FIPI OALP advocacy impact",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "FIPI's own material describes the organisation as having 'played an instrumental role in highlighting the industry pain points and further fine-tuning the policies' around HELP and OALP",
+     "value": "instrumental role in HELP/OALP policy fine-tuning (no specific metrics)",
+     "period": null,
+     "period_end": null,
+     "publisher": "FIPI (search-summarized)",
+     "series": "FIPI HELP/OALP advocacy impact",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "LobbyMap rates FIPI's climate positioning as 'partially aligned' with Paris Agreement pathways",
+     "value": "partially aligned",
+     "period": null,
+     "period_end": null,
+     "publisher": "LobbyMap / InfluenceMap",
+     "series": "FIPI climate alignment score",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "FIPI maintains what appears to be a standing page on its own site specifically making this [gas-under-GST] recommendation",
+     "value": "standing recommendation page (existence confirmed)",
+     "period": null,
+     "period_end": null,
+     "publisher": "FIPI (fipi.org.in/recomm-financegst.php)",
+     "series": "FIPI gas-under-GST recommendation page",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "FIPI's Director General (Gurmeet Singh, as of the 2024-25 annual report)",
+     "value": "Gurmeet Singh",
+     "period": "2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "FIPI Annual Report 2024-25",
+     "series": "FIPI Director General",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "FIPI's annual Pre-Budget Memorandum to the Finance Ministry — a 2025-26 edition addressed to Union Budget 2026-27 was located as a named PDF on FIPI's site",
+     "value": "2025-26 Pre-Budget Memorandum (PDF existence confirmed)",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "FIPI",
+     "series": "FIPI Pre-Budget Memorandum",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "a FIPI representation to the MoPNG Secretary in March 2024 concerning LPG supply arrangements",
+     "value": "March 2024",
+     "period": "March 2024",
+     "period_end": "2024-03-31",
+     "publisher": "FIPI (search-summarized)",
+     "series": "FIPI MoPNG representation on LPG",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "FIPI's membership list and governance/Director-General details are similarly drawn from search summaries of FIPI's own members and governing-council pages",
+     "value": "15 functional committees (approximate)",
+     "period": null,
+     "period_end": null,
+     "publisher": "FIPI (search-summarized)",
+     "series": "FIPI governance structure",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "ONGC and Oil India together account for a large majority of domestic crude and gas output",
+     "value": "large majority (no exact % given)",
+     "period": null,
+     "period_end": null,
+     "publisher": "secondary industry reporting",
+     "series": "India upstream crude & gas production share",
+     "frequency": "multi-year",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

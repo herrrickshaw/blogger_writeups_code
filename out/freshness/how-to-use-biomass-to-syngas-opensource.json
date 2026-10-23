@@ -1,0 +1,230 @@
+{
+ "slug": "how-to-use-biomass-to-syngas-opensource",
+ "text_sha1": "dd66dfd741bc718a",
+ "chars": 6772,
+ "checked": "2026-10-23T12:00:27",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "18 tests passed in the demo",
+     "value": "18 tests",
+     "period": "18 October 2026",
+     "period_end": "2026-10-18",
+     "publisher": "GitHub",
+     "series": "biomass-to-syngas-opensource test suite",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "100 t/day rice straw in the worked example",
+     "value": "100 t/day",
+     "period": "18 October 2026",
+     "period_end": "2026-10-18",
+     "publisher": "GitHub",
+     "series": "biomass-to-syngas-opensource worked example",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "75.8% cold gas efficiency (same at every temperature tested)",
+     "value": "75.8%",
+     "period": "18 October 2026",
+     "period_end": "2026-10-18",
+     "publisher": "GitHub",
+     "series": "biomass-to-syngas-opensource demo",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "50.2% inert fraction in the syngas",
+     "value": "50.2%",
+     "period": "18 October 2026",
+     "period_end": "2026-10-18",
+     "publisher": "GitHub",
+     "series": "biomass-to-syngas-opensource demo",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "India has an estimated 230 million tonnes a year of unutilised agricultural biomass",
+     "value": "230 million tonnes a year",
+     "period": "18 October 2026",
+     "period_end": "2026-10-18",
+     "publisher": "PIB / ministry",
+     "series": "agricultural biomass estimate",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "87.43 mol/s of syngas at 850 C in a fluidized bed",
+     "value": "87.43 mol/s",
+     "period": "18 October 2026",
+     "period_end": "2026-10-18",
+     "publisher": "GitHub",
+     "series": "biomass-to-syngas-opensource worked example",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "tar cut from 29.40 g/s to 0.882 g/s after cleanup",
+     "value": "29.40 g/s to 0.882 g/s",
+     "period": "18 October 2026",
+     "period_end": "2026-10-18",
+     "publisher": "GitHub",
+     "series": "biomass-to-syngas-opensource worked example",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "H2:CO of 1.73:1",
+     "value": "1.73:1",
+     "period": "18 October 2026",
+     "period_end": "2026-10-18",
+     "publisher": "GitHub",
+     "series": "biomass-to-syngas-opensource worked example",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "LHV 5.71 MJ/Nm3",
+     "value": "5.71 MJ/Nm3",
+     "period": "18 October 2026",
+     "period_end": "2026-10-18",
+     "publisher": "GitHub",
+     "series": "biomass-to-syngas-opensource worked example",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "tar yield stayed at 29.39 g/s from 750 to 950 C",
+     "value": "29.39 g/s",
+     "period": "18 October 2026",
+     "period_end": "2026-10-18",
+     "publisher": "GitHub",
+     "series": "biomass-to-syngas-opensource demo sweep",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "18 tests passed in the demo 100 t/day rice straw in the worked example",
+     "value": "100 tonnes/day",
+     "period": null,
+     "period_end": null,
+     "publisher": "Open-source tool (github.com/herrrickshaw/biomass-to-syngas-opensource)",
+     "series": "Worked example feedstock input",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "75.8% cold gas efficiency (same at every temperature tested)",
+     "value": "75.8%",
+     "period": null,
+     "period_end": null,
+     "publisher": "Open-source tool (github.com/herrrickshaw/biomass-to-syngas-opensource)",
+     "series": "Cold gas efficiency measurement",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "50.2% inert fraction in the syngas",
+     "value": "50.2%",
+     "period": null,
+     "period_end": null,
+     "publisher": "Open-source tool (github.com/herrrickshaw/biomass-to-syngas-opensource)",
+     "series": "Syngas inert fraction",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India has an estimated 230 million tonnes a year of unutilised agricultural biomass",
+     "value": "230 million tonnes/year",
+     "period": "2026 (estimated)",
+     "period_end": "2026-12-31",
+     "publisher": null,
+     "series": null,
+     "frequency": null,
+     "headline": false
+    },
+    {
+     "quote": "87.43 mol/s of syngas at 850 C in a fluidized bed",
+     "value": "87.43 mol/s",
+     "period": null,
+     "period_end": null,
+     "publisher": "Open-source tool (github.com/herrrickshaw/biomass-to-syngas-opensource)",
+     "series": "Syngas production rate",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "tar cut from 29.40 g/s to 0.882 g/s after cleanup",
+     "value": "29.40 g/s (raw) → 0.882 g/s (cleaned)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Open-source tool (github.com/herrrickshaw/biomass-to-syngas-opensource)",
+     "series": "Tar yield before/after cleanup",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "H2:CO of 1.73:1",
+     "value": "1.73:1",
+     "period": null,
+     "period_end": null,
+     "publisher": "Open-source tool (github.com/herrrickshaw/biomass-to-syngas-opensource)",
+     "series": "Syngas H2:CO ratio",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "LHV 5.71 MJ/Nm3",
+     "value": "5.71 MJ/Nm³",
+     "period": null,
+     "period_end": null,
+     "publisher": "Open-source tool (github.com/herrrickshaw/biomass-to-syngas-opensource)",
+     "series": "Syngas lower heating value",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Measured: tar yield stayed at 29.39 g/s from 750 to 950 C",
+     "value": "29.39 g/s",
+     "period": "750–950 °C",
+     "period_end": null,
+     "publisher": "Open-source tool (github.com/herrrickshaw/biomass-to-syngas-opensource)",
+     "series": "Tar yield temperature sweep",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The syngas was 50.2% inert, so it is rated for power, not as a chemical synthesis feed",
+     "value": "50.2%",
+     "period": null,
+     "period_end": null,
+     "publisher": "Open-source tool (github.com/herrrickshaw/biomass-to-syngas-opensource)",
+     "series": "Syngas inert fraction (reiterated)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "18 passed in about 1.3 seconds in the demo",
+     "value": "1.3 seconds",
+     "period": null,
+     "period_end": null,
+     "publisher": "Open-source tool (github.com/herrrickshaw/biomass-to-syngas-opensource)",
+     "series": "Test execution time",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

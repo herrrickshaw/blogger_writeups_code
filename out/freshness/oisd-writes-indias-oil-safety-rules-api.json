@@ -1,0 +1,440 @@
+{
+ "slug": "oisd-writes-indias-oil-safety-rules-api",
+ "text_sha1": "4b3f353b6c66bbf0",
+ "chars": 23145,
+ "checked": "2026-10-23T15:09:31",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "with 121 published standards/recommended practices",
+     "value": "121 standards",
+     "period": "as on 1 September 2026",
+     "period_end": "2026-09-01",
+     "publisher": "MoPNG",
+     "series": "OISD published standards and recommended practices",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Per API's own 2025 international usage report, India has formally referenced 90 API standards in its technical regulations — the 4th-highest count of any country, behind Indonesia, Canada and Brazil.",
+     "value": "90 standards",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "API",
+     "series": "International Usage Report",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "What's actually new: in April 2024, API signed a memorandum of understanding with FIPI",
+     "value": "1 MOU",
+     "period": "April 2024",
+     "period_end": "2024-04-30",
+     "publisher": "API / FIPI",
+     "series": "Memorandum of Understanding",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "FIPI (Federation of Indian Petroleum Industry, the ~95-member apex body for India's hydrocarbon sector)",
+     "value": "~95 members",
+     "period": "2023-24",
+     "period_end": "2024-03-31",
+     "publisher": "FIPI",
+     "series": "Annual Report",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "established in 1986",
+     "value": "1986",
+     "period": "1986",
+     "period_end": "1986-12-31",
+     "publisher": "MoPNG",
+     "series": "OISD Establishment",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "roughly a dozen OISD standards have been incorporated that way",
+     "value": "roughly a dozen standards",
+     "period": "as on 1 September 2026",
+     "period_end": "2026-09-01",
+     "publisher": "PESO",
+     "series": "Petroleum Rules adoption of OISD standards",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Indonesia \n 149 standards",
+     "value": "149 standards",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "API",
+     "series": "International Usage Report",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Canada \n 106 standards",
+     "value": "106 standards",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "API",
+     "series": "International Usage Report",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Brazil \n 99 standards",
+     "value": "99 standards",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "API",
+     "series": "International Usage Report",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "India \n 90 standards",
+     "value": "90 standards",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "API",
+     "series": "International Usage Report",
+     "frequency": "annual",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "India has formally referenced 90 API standards in its technical regulations — the 4th-highest count of any country, behind Indonesia, Canada and Brazil.",
+     "value": "90 API standards",
+     "period": null,
+     "period_end": null,
+     "publisher": "American Petroleum Institute (API)",
+     "series": "2025 International Usage Report",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "OISD (Oil Industry Safety Directorate, a Ministry of Petroleum & Natural Gas technical directorate set up in 1986, with 121 published standards/recommended practices)",
+     "value": "121 standards/recommended practices",
+     "period": "as of 2026",
+     "period_end": "2026-09-01",
+     "publisher": "Ministry of Petroleum & Natural Gas (MoPNG)",
+     "series": "OISD published standards and recommended practices",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "PESO (Petroleum and Explosives Safety Organisation) ... has adopted roughly a dozen OISD standards into binding rule",
+     "value": "roughly 12 OISD standards",
+     "period": null,
+     "period_end": null,
+     "publisher": "Petroleum and Explosives Safety Organisation (PESO)",
+     "series": "Adopted OISD standards under Petroleum Rules 2002",
+     "frequency": "one-off (as of article)",
+     "headline": false
+    },
+    {
+     "quote": "FIPI (Federation of Indian Petroleum Industry), the ~95-member apex body for India's hydrocarbon sector",
+     "value": "~95 members",
+     "period": "as of 2023-24",
+     "period_end": "2024-03-31",
+     "publisher": "FIPI",
+     "series": "FIPI membership count (Annual Report)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "API signed a memorandum of understanding with FIPI ... in April 2024",
+     "value": "1 MOU signed with FIPI",
+     "period": "April 2024",
+     "period_end": "2024-04-30",
+     "publisher": "American Petroleum Institute (API)",
+     "series": "API-FIPI MOU",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "API separately signed comparable MOUs with OISD and (per one government document) has an older MOU with PNGRB reported to be under renewal.",
+     "value": "2 MOUs (OISD + PNGRB)",
+     "period": null,
+     "period_end": null,
+     "publisher": "American Petroleum Institute (API)",
+     "series": "API-OISD and API-PNGRB MOUs",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "OISD is the direct, named 'competent authority' only for offshore installations, under the Petroleum & Natural Gas (Safety in Offshore Operations) Rules, 2008",
+     "value": "offshore installations only",
+     "period": "2008",
+     "period_end": "2008-12-31",
+     "publisher": "Ministry of Petroleum & Natural Gas (MoPNG)",
+     "series": "Petroleum & Natural Gas (Safety in Offshore Operations) Rules, 2008",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "PNGRB (Petroleum and Natural Gas Regulatory Board), created by its own 2006 Act",
+     "value": "2006 Act",
+     "period": "2006",
+     "period_end": "2006-12-31",
+     "publisher": "Government of India",
+     "series": "PNGRB Act",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "OISD was established in 1986",
+     "value": "1986",
+     "period": "1986",
+     "period_end": "1986-12-31",
+     "publisher": "Ministry of Petroleum & Natural Gas (MoPNG)",
+     "series": "OISD founding year",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Petroleum Act 1934/Petroleum Rules 2002",
+     "value": "1934 Act, 2002 Rules",
+     "period": "1934, 2002",
+     "period_end": "1934-12-31, 2002-12-31",
+     "publisher": "Government of India",
+     "series": "Petroleum Act and Rules",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "API 650 for tanks, API 510/570 for pressure equipment",
+     "value": "API 650, API 510, API 570",
+     "period": null,
+     "period_end": null,
+     "publisher": "American Petroleum Institute (API)",
+     "series": "API standards referenced in Indian projects",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "India's layered-but-fragmented model isn't unusual internationally. Saudi Aramco's own mandatory internal codes (SAES) are themselves built by referencing API, ASME and ASTM standards directly",
+     "value": "API, ASME, ASTM standards referenced",
+     "period": null,
+     "period_end": null,
+     "publisher": "Saudi Aramco",
+     "series": "SAES (Saudi Aramco Engineering Standards)",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "the EU's Pressure Equipment Directive maintains its own binding law while deliberately cross-referencing ISO standards aligned to API's (ISO 23251 to API 521, ISO 28300 to API 2000)",
+     "value": "ISO 23251 (API 521), ISO 28300 (API 2000)",
+     "period": null,
+     "period_end": null,
+     "publisher": "European Union",
+     "series": "Pressure Equipment Directive",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "India's oil-and-gas safety rules run through four separate bodies",
+     "value": "4 bodies",
+     "period": null,
+     "period_end": null,
+     "publisher": "Ministry of Petroleum & Natural Gas (MoPNG)",
+     "series": "Oil and Gas Safety Regulatory Framework",
+     "frequency": "live",
+     "headline": true
+    },
+    {
+     "quote": "PESO (Petroleum and Explosives Safety Organisation) is the actual statutory licensing authority under the Petroleum Act 1934/Petroleum Rules 2002",
+     "value": "statutory licensing authority",
+     "period": "1934, 2002",
+     "period_end": "1934-12-31, 2002-12-31",
+     "publisher": "Government of India",
+     "series": "Petroleum Act and Rules",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "PNGRB regulates downstream pipelines and transport economics",
+     "value": "downstream pipelines and transport economics",
+     "period": null,
+     "period_end": null,
+     "publisher": "Petroleum and Natural Gas Regulatory Board (PNGRB)",
+     "series": "PNGRB regulatory scope",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "BIS works to harmonise Indian standards with international ones",
+     "value": "harmonisation role",
+     "period": null,
+     "period_end": null,
+     "publisher": "Bureau of Indian Standards (BIS)",
+     "series": "BIS harmonisation activities",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "API signed a memorandum of understanding with FIPI ... aimed at ... 'facilitating the adoption and implementation of API standards within India's energy industry.'",
+     "value": "facilitating adoption of API standards",
+     "period": "April 2024",
+     "period_end": "2024-04-30",
+     "publisher": "American Petroleum Institute (API)",
+     "series": "API-FIPI MOU objectives",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "API has formally referenced 90 API standards in its technical regulations",
+     "value": "90 API standards",
+     "period": null,
+     "period_end": null,
+     "publisher": "API's 2025 International Usage Report",
+     "series": "API standards referenced in national regulations",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "API 650 for tanks, ASME B31.3 piping (via India's own Indian Boiler Regulations framework), OISD-118's inter-tank distance rules",
+     "value": "API 650, ASME B31.3, OISD-118",
+     "period": null,
+     "period_end": null,
+     "publisher": "API, ASME, OISD",
+     "series": "Layered compliance standards in Indian PSU projects",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "the more stringent requirement governs where they differ",
+     "value": "more stringent requirement governs",
+     "period": null,
+     "period_end": null,
+     "publisher": "ifluids.com",
+     "series": "Compliance overlap convention",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "API RP 583's carbon-steel corrosion-under-insulation temperature bands",
+     "value": "API RP 583",
+     "period": null,
+     "period_end": null,
+     "publisher": "American Petroleum Institute (API)",
+     "series": "API RP 583",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "India's oil-and-gas safety rules run through four separate bodies: OISD, PESO, PNGRB, and BIS",
+     "value": "4 bodies (OISD, PESO, PNGRB, BIS)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Ministry of Petroleum & Natural Gas (MoPNG)",
+     "series": "Oil and Gas Safety Regulatory Framework",
+     "frequency": "live",
+     "headline": true
+    },
+    {
+     "quote": "OISD is the technical directorate under the Ministry of Petroleum & Natural Gas, established in 1986",
+     "value": "1986",
+     "period": "1986",
+     "period_end": "1986-12-31",
+     "publisher": "Ministry of Petroleum & Natural Gas (MoPNG)",
+     "series": "OISD establishment year",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "PESO has adopted ~12 OISD standards into mandatory rule",
+     "value": "~12 OISD standards",
+     "period": null,
+     "period_end": null,
+     "publisher": "Petroleum and Explosives Safety Organisation (PESO)",
+     "series": "Adopted OISD standards",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "API signed MOUs with FIPI, OISD, and PNGRB",
+     "value": "3 MOUs (FIPI, OISD, PNGRB)",
+     "period": "2024",
+     "period_end": "2024-12-31",
+     "publisher": "American Petroleum Institute (API)",
+     "series": "API MOUs with Indian bodies",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "API's own 2025 International Usage Report states that India has formally referenced 90 API standards",
+     "value": "90 API standards",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "American Petroleum Institute (API)",
+     "series": "2025 International Usage Report",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "India's oil-and-gas safety rules run through four separate bodies",
+     "value": "4 bodies",
+     "period": null,
+     "period_end": null,
+     "publisher": "Ministry of Petroleum & Natural Gas (MoPNG)",
+     "series": "Regulatory framework",
+     "frequency": "live",
+     "headline": true
+    },
+    {
+     "quote": "India has formally referenced 90 API standards in its technical regulations",
+     "value": "90 API standards",
+     "period": null,
+     "period_end": null,
+     "publisher": "American Petroleum Institute (API)",
+     "series": "API standards referenced in national regulations",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "PESO has adopted roughly a dozen OISD standards into binding rule",
+     "value": "roughly 12 OISD standards",
+     "period": null,
+     "period_end": null,
+     "publisher": "Petroleum and Explosives Safety Organisation (PESO)",
+     "series": "Adopted OISD standards",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "FIPI (Federation of Indian Petroleum Industry) is a real, substantial body: an apex industry society representing roughly 95 members",
+     "value": "~95 members",
+     "period": "as of 2023-24",
+     "period_end": "2024-03-31",
+     "publisher": "FIPI",
+     "series": "FIPI membership count",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "API signed a memorandum of understanding with FIPI in April 2024",
+     "value": "1 MOU signed",
+     "period": "April 2024",
+     "period_end": "2024-04-30",
+     "publisher": "American Petroleum Institute (API)",
+     "series": "API-FIPI MOU",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

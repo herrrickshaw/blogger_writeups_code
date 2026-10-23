@@ -1,0 +1,440 @@
+{
+ "slug": "indias-semaglutide-patent-cliff-26",
+ "text_sha1": "b6c2df222cacf0d9",
+ "chars": 10753,
+ "checked": "2026-10-23T14:34:47",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "26 Semaglutide brands launched by 13 Indian companies within weeks of patent expiry",
+     "value": "26 brands",
+     "period": "March 2026",
+     "period_end": "2026-03-31",
+     "publisher": "Business Standard, BusinessToday",
+     "series": "Semaglutide brand launches",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "₹1,300–4,200 Monthly generic price range vs. the innovator's ₹10,000–22,000",
+     "value": "₹1,300–4,200",
+     "period": "March 2026",
+     "period_end": "2026-03-31",
+     "publisher": "malaymail.com (Reuters wire)",
+     "series": "Monthly generic price range",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "33% Semaglutide's share of India's GLP-1 segment in March 2026, up from 25% a month earlier",
+     "value": "33%",
+     "period": "March 2026",
+     "period_end": "2026-03-31",
+     "publisher": "CNBC, Bloomberg, Seeking Alpha and eMarketer",
+     "series": "India GLP-1 category share",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "49 Entities the drug regulator inspected in the same month, flagging irregularities at wholesalers, retailers and slimming clinics",
+     "value": "49 entities",
+     "period": "March 2026",
+     "period_end": "2026-03-31",
+     "publisher": "newsonair.gov.in / CDSCO",
+     "series": "GLP-1 regulatory inspections",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "India had roughly 89.8 million adults living with diabetes as of 2024 (a 10.5% adult prevalence)",
+     "value": "89.8 million adults",
+     "period": "2024",
+     "period_end": "2024-12-31",
+     "publisher": "MoSPI",
+     "series": "Adults living with diabetes",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "weight-loss drug sales specifically have grown roughly tenfold in five years to about $153 million as of 2026",
+     "value": "$153 million",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "malaymail.com (Reuters wire)",
+     "series": "Weight-loss drug sales",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "projections putting that past half a billion dollars by 2030",
+     "value": "$500 million",
+     "period": "2030",
+     "period_end": "2030-12-31",
+     "publisher": "malaymail.com (Reuters wire)",
+     "series": "Weight-loss drug sales projections",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Eli Lilly's overall India GLP-1 share fell from 61% to 56%",
+     "value": "61%",
+     "period": "February 2026",
+     "period_end": "2026-02-28",
+     "publisher": "CNBC, Bloomberg, Seeking Alpha and eMarketer",
+     "series": "India GLP-1 category share",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Eli Lilly's overall India GLP-1 share fell from 61% to 56%",
+     "value": "56%",
+     "period": "March 2026",
+     "period_end": "2026-03-31",
+     "publisher": "CNBC, Bloomberg, Seeking Alpha and eMarketer",
+     "series": "India GLP-1 category share",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "tirzepatide's own share of the category fell from 71% to 64%",
+     "value": "71%",
+     "period": "February 2026",
+     "period_end": "2026-02-28",
+     "publisher": "CNBC, Bloomberg, Seeking Alpha and eMarketer",
+     "series": "Tirzepatide category share",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "tirzepatide's own share of the category fell from 71% to 64%",
+     "value": "64%",
+     "period": "March 2026",
+     "period_end": "2026-03-31",
+     "publisher": "CNBC, Bloomberg, Seeking Alpha and eMarketer",
+     "series": "Tirzepatide category share",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "semaglutide's share rose from 25% to 33%",
+     "value": "25%",
+     "period": "February 2026",
+     "period_end": "2026-02-28",
+     "publisher": "CNBC, Bloomberg, Seeking Alpha and eMarketer",
+     "series": "Semaglutide category share",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "reportedly 38% off Ozempic and 48% off Wegovy",
+     "value": "38%",
+     "period": "March 2026",
+     "period_end": "2026-03-31",
+     "publisher": "CNBC, Bloomberg, Seeking Alpha and eMarketer",
+     "series": "Ozempic price cut",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "reportedly 38% off Ozempic and 48% off Wegovy",
+     "value": "48%",
+     "period": "March 2026",
+     "period_end": "2026-03-31",
+     "publisher": "CNBC, Bloomberg, Seeking Alpha and eMarketer",
+     "series": "Wegovy price cut",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "26 Semaglutide brands launched by 13 Indian companies within weeks of patent expiry",
+     "value": "26 brands from 13 companies",
+     "period": null,
+     "period_end": null,
+     "publisher": "Article headline (author)",
+     "series": "Semaglutide generic brand launches in India",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "₹1,300–4,200 Monthly generic price range vs. the innovator's ₹10,000–22,000",
+     "value": "₹1,300–4,200 (generic) vs. ₹10,000–22,000 (innovator)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Article headline (author)",
+     "series": "Semaglutide pricing comparison (India)",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "33% Semaglutide's share of India's GLP-1 segment in March 2026, up from 25% a month earlier",
+     "value": "33% (March 2026) vs. 25% (February 2026)",
+     "period": "March 2026",
+     "period_end": "2026-03-31",
+     "publisher": "CNBC, Bloomberg, Seeking Alpha, eMarketer",
+     "series": "India GLP-1 market share by molecule",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "49 Entities the drug regulator inspected in the same month, flagging irregularities at wholesalers, retailers and slimming clinics",
+     "value": "49 entities inspected",
+     "period": "March 2026",
+     "period_end": "2026-03-31",
+     "publisher": "CDSCO / newsonair.gov.in (All India Radio)",
+     "series": "GLP-1 drug regulatory inspections (India)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Novo Nordisk cut its own list prices by up to 48% in response",
+     "value": "up to 48% price cut",
+     "period": null,
+     "period_end": null,
+     "publisher": "Article text (CNBC, Bloomberg, Seeking Alpha, eMarketer)",
+     "series": "Novo Nordisk price adjustments (India)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Novo's own Indian pricing had run ₹10,000–22,000 a month depending on brand and dose; the generics that followed launched from as low as ₹1,300 up to around ₹4,200",
+     "value": "₹10,000–22,000 (Novo Nordisk) vs. ₹1,300–4,200 (generics)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Article text (company disclosures, trade press)",
+     "series": "Semaglutide pricing (India)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Eli Lilly's overall India GLP-1 share fell from 61% to 56%, tirzepatide's own share of the category fell from 71% to 64%",
+     "value": "Eli Lilly: 61% (Feb 2026) → 56% (Mar 2026); tirzepatide: 71% → 64%",
+     "period": "February 2026 vs. March 2026",
+     "period_end": "2026-03-31",
+     "publisher": "CNBC, Bloomberg, Seeking Alpha, eMarketer",
+     "series": "India GLP-1 market share by brand",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Novo Nordisk's own branded share held steady at 25% through the same period, but only because it cut its own list prices sharply",
+     "value": "25% (Novo Nordisk branded share, March 2026)",
+     "period": "March 2026",
+     "period_end": "2026-03-31",
+     "publisher": "Article text (CNBC, Bloomberg, Seeking Alpha, eMarketer)",
+     "series": "India GLP-1 market share by brand",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "India had roughly 89.8 million adults living with diabetes as of 2024",
+     "value": "89.8 million adults with diabetes",
+     "period": "2024",
+     "period_end": "2024-12-31",
+     "publisher": "Article text (malaymail.com/Reuters)",
+     "series": "Diabetes prevalence in India",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "weight-loss drug sales specifically have grown roughly tenfold in five years to about $153 million as of 2026",
+     "value": "$153 million (2026)",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "malaymail.com (Reuters)",
+     "series": "India weight-loss drug market size",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "projections putting [weight-loss drug sales] past half a billion dollars by 2030",
+     "value": "$500 million+ (projected 2030)",
+     "period": "2030",
+     "period_end": "2030-12-31",
+     "publisher": "malaymail.com (Reuters)",
+     "series": "India weight-loss drug market projection",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "brand pricing at ₹15,000–22,000 a month kept the category a premium product",
+     "value": "₹15,000–22,000 (monthly brand pricing)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Article text (malaymail.com/Reuters)",
+     "series": "Semaglutide brand pricing (India)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "CDSCO issued an advisory ... on 10 March 2026",
+     "value": "10 March 2026",
+     "period": "10 March 2026",
+     "period_end": "2026-03-10",
+     "publisher": "CDSCO / newsonair.gov.in",
+     "series": "GLP-1 drug regulatory advisory (India)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "the government had inspected 49 entities ... by 24 March 2026",
+     "value": "49 entities inspected by 24 March 2026",
+     "period": "up to 24 March 2026",
+     "period_end": "2026-03-24",
+     "publisher": "CDSCO / newsonair.gov.in",
+     "series": "GLP-1 drug regulatory inspections (India)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "more than a dozen domestic manufacturers had legal clearance to sell their own versions; within weeks, 13 companies had launched 26 distinct branded generics between them, with more than 50 brands expected eventually",
+     "value": "13 companies, 26 brands launched; >50 brands expected",
+     "period": "within weeks of 20 March 2026",
+     "period_end": null,
+     "publisher": "Article text (CDSCO approvals, Business Standard)",
+     "series": "Semaglutide generic brand launches (India)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Sun Pharma, Dr. Reddy's, Alkem, Zydus, Glenmark and Natco Pharma were all in market within days of 21 March",
+     "value": "6 companies launched within days of 21 March 2026",
+     "period": "days after 21 March 2026",
+     "period_end": null,
+     "publisher": "Article text (Business Standard, BusinessToday)",
+     "series": "Semaglutide generic brand launches (India)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "formulations for chronic weight management and type-2 diabetes were approved from September to December 2025",
+     "value": "September–December 2025 approvals",
+     "period": "September–December 2025",
+     "period_end": "2025-12-31",
+     "publisher": "CDSCO / Business Standard, BusinessToday",
+     "series": "Semaglutide formulation approvals (India)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Zydus Lifesciences, Sun Pharma and Alkem Laboratories among those cleared by January 2026",
+     "value": "Zydus, Sun Pharma, Alkem cleared by January 2026",
+     "period": "January 2026",
+     "period_end": "2026-01-31",
+     "publisher": "Article text (Business Standard, BusinessToday)",
+     "series": "Semaglutide formulation approvals (India)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Novo Nordisk's composition patent ... expired in India on 20 March 2026",
+     "value": "20 March 2026",
+     "period": "20 March 2026",
+     "period_end": "2026-03-20",
+     "publisher": "Article text (Wikimedia Commons, IP-firm summaries)",
+     "series": "Semaglutide patent expiry (India)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Novo's own Indian pricing had run ₹10,000–22,000 a month depending on brand and dose; the generics that followed launched from as low as ₹1,300 up to around ₹4,200",
+     "value": "₹1,300 (lowest generic price)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Article text (company disclosures, trade press)",
+     "series": "Semaglutide generic pricing (India)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Novo Nordisk's own branded share held steady at 25% through the same period, but only because it cut its own list prices sharply to compete with its newly cheap generic cousins — reportedly 38% off Ozempic and 48% off Wegovy",
+     "value": "38% off Ozempic; 48% off Wegovy",
+     "period": null,
+     "period_end": null,
+     "publisher": "Article text (CNBC, Bloomberg, Seeking Alpha, eMarketer)",
+     "series": "Novo Nordisk price cuts (India)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "CDSCO had cleared the regulatory path well before the patent actually lapsed — formulations for chronic weight management and type-2 diabetes were approved from September to December 2025",
+     "value": "September–December 2025 approvals",
+     "period": "September–December 2025",
+     "period_end": "2025-12-31",
+     "publisher": "CDSCO / Business Standard, BusinessToday",
+     "series": "Semaglutide formulation approvals (India)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "the launch, when it came, was immediate rather than staggered: Sun Pharma, Dr. Reddy's, Alkem, Zydus, Glenmark and Natco Pharma were all in market within days of 21 March",
+     "value": "6 companies launched within days of 21 March 2026",
+     "period": "days after 21 March 2026",
+     "period_end": null,
+     "publisher": "Article text (Business Standard, BusinessToday)",
+     "series": "Semaglutide generic brand launches (India)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "the generics didn't just take share from Novo's own branded product; they reshaped the competitive balance between two entirely different companies' drugs",
+     "value": "Market share reshaped between Novo Nordisk and Eli Lilly",
+     "period": "March 2026",
+     "period_end": "2026-03-31",
+     "publisher": "Article text (CNBC, Bloomberg, Seeking Alpha, eMarketer)",
+     "series": "India GLP-1 market dynamics",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "India's GLP-1 category was not semaglutide-versus-nothing before this, it was a two-molecule fight between Novo Nordisk's semaglutide and Eli Lilly's tirzepatide",
+     "value": "Two-molecule competition (Novo Nordisk vs. Eli Lilly)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Article text (CNBC, Bloomberg, Seeking Alpha, eMarketer)",
+     "series": "India GLP-1 market composition",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India had roughly 89.8 million adults living with diabetes as of 2024 (a 10.5% adult prevalence)",
+     "value": "10.5% adult diabetes prevalence (2024)",
+     "period": "2024",
+     "period_end": "2024-12-31",
+     "publisher": "Article text (malaymail.com/Reuters)",
+     "series": "Diabetes prevalence rate (India)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "weight-loss drug sales specifically have grown roughly tenfold in five years to about $153 million as of 2026",
+     "value": "10x growth in 5 years (2021–2026)",
+     "period": "2021–2026",
+     "period_end": "2026-12-31",
+     "publisher": "malaymail.com (Reuters)",
+     "series": "India weight-loss drug market growth",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "the government had inspected 49 entities — online pharmacy warehouses, drug wholesalers, retailers, and wellness and slimming clinics — and flagged irregularities in unauthorised sales and non-compliant promotion at several of them",
+     "value": "49 entities inspected (March 2026)",
+     "period": "March 2026",
+     "period_end": "2026-03-31",
+     "publisher": "CDSCO / newsonair.gov.in",
+     "series": "GLP-1 drug regulatory inspections (India)",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

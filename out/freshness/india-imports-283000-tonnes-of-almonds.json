@@ -1,0 +1,640 @@
+{
+ "slug": "india-imports-283000-tonnes-of-almonds",
+ "text_sha1": "628112dcfdabbfaa",
+ "chars": 17338,
+ "checked": "2026-10-23T12:57:02",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "It bought roughly 283,000 tonnes in calendar 2024, worth about US$1.09 billion — and grew about 4,100 tonnes itself.",
+     "value": "283,000 tonnes",
+     "period": "calendar 2024",
+     "period_end": "2024-12-31",
+     "publisher": "UN Comtrade / World Bank WITS",
+     "series": "HS 080211 + 080212 import volume",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "It bought roughly 283,000 tonnes in calendar 2024, worth about US$1.09 billion",
+     "value": "US$1.09 billion",
+     "period": "calendar 2024",
+     "period_end": "2024-12-31",
+     "publisher": "UN Comtrade / World Bank WITS",
+     "series": "HS 080211 + 080212 import value",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Calendar year 2024, tonnes \n 283,000 t \n Imports \n 4,100 t \n Domestic production",
+     "value": "4,100 tonnes",
+     "period": "Calendar year 2024",
+     "period_end": "2024-12-31",
+     "publisher": "USDA FAS",
+     "series": "India domestic almond production",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Almost the entire market is an import market, 95 per cent of it arrives still inside the shell for reasons that are pure tariff arithmetic",
+     "value": "95 per cent",
+     "period": "calendar 2024",
+     "period_end": "2024-12-31",
+     "publisher": "UN Comtrade / World Bank WITS",
+     "series": "In-shell almond import share (HS 080211)",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "average unit price fell a quarter, from $5.10 to $3.84 a kilo.",
+     "value": "$3.84 / kg",
+     "period": "2024",
+     "period_end": "2024-12-31",
+     "publisher": "UN Comtrade / World Bank WITS",
+     "series": "Average import unit value (HS 080211 + 080212)",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "272k 2023 283k 2024 \n $5.10 $4.15 $4.14 $4.24 $3.75 $3.84",
+     "value": "272,000 tonnes",
+     "period": "2023",
+     "period_end": "2023-12-31",
+     "publisher": "UN Comtrade / World Bank WITS",
+     "series": "HS 080211 + 080212 import volume",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "272k 2023 283k 2024 \n $5.10 $4.15 $4.14 $4.24 $3.75 $3.84",
+     "value": "$3.75 / kg",
+     "period": "2023",
+     "period_end": "2023-12-31",
+     "publisher": "UN Comtrade / World Bank WITS",
+     "series": "Average import unit value (HS 080211 + 080212)",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Reported record lows in 2026 were about 95.86 on 14 May",
+     "value": "95.86",
+     "period": "14 May 2026",
+     "period_end": "2026-05-14",
+     "publisher": "RBI",
+     "series": "INR/USD reference rate",
+     "frequency": "daily",
+     "headline": true
+    },
+    {
+     "quote": "USDA FAS GAIN | Marketing year, Aug–Jul | Partly kernel-equivalent | 177,000–190,000 |",
+     "value": "177,000–190,000 MT",
+     "period": "Aug–Jul",
+     "period_end": null,
+     "publisher": "USDA FAS",
+     "series": "GAIN India Tree Nuts Annual",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "UN Comtrade / DGCIS | Calendar year, Jan–Dec | Actual physical product weight | 272,000–283,000 |",
+     "value": "272,000–283,000 MT",
+     "period": "Calendar year, Jan–Dec",
+     "period_end": "2024-12-31",
+     "publisher": "DGCI&S",
+     "series": "India almond import volume (physical product weight)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Indian trade press (DGCIS-derived) | Fiscal year, Apr–Mar | Product weight | 248,000–260,000 |",
+     "value": "248,000–260,000 MT",
+     "period": "Fiscal year, Apr–Mar",
+     "period_end": null,
+     "publisher": "DGCI&S",
+     "series": "India almond import volume (fiscal year basis)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "0802 11 00 | Almonds, in shell | ₹35 / kg | 5% |",
+     "value": "₹35 / kg",
+     "period": "From 1 May 2026",
+     "period_end": null,
+     "publisher": "CBIC",
+     "series": "Customs Tariff Schedule, First Schedule, HS 0802 11 00",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "0802 12 00 | Almonds, shelled | ₹100 / kg | 5% |",
+     "value": "₹100 / kg",
+     "period": "From 1 May 2026",
+     "period_end": null,
+     "publisher": "CBIC",
+     "series": "Customs Tariff Schedule, First Schedule, HS 0802 12 00",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "0802 11 00 | In shell, Australia under ECTA | ₹17.50 / kg | 5% |",
+     "value": "₹17.50 / kg",
+     "period": "as on 21 August 2026",
+     "period_end": "2026-08-21",
+     "publisher": "CBIC",
+     "series": "India-Australia ECTA concessional tariff, HS 0802 11 00",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "0802 12 00 | Shelled, Australia under ECTA | ₹50 / kg | 5% |",
+     "value": "₹50 / kg",
+     "period": "as on 21 August 2026",
+     "period_end": "2026-08-21",
+     "publisher": "CBIC",
+     "series": "India-Australia ECTA concessional tariff, HS 0802 12 00",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "GST on dry fruit was cut from 12 to 5 per cent effective 22 September 2025 by the 56th GST Council",
+     "value": "5 per cent",
+     "period": "effective 22 September 2025",
+     "period_end": "2025-09-22",
+     "publisher": "GST Council",
+     "series": "GST rate on dry fruit",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "USDA’s official conversion factor is 60 per cent; the Almond Board’s orchard average is around 65 per cent.",
+     "value": "60 per cent",
+     "period": null,
+     "period_end": null,
+     "publisher": "USDA",
+     "series": "In-shell to kernel crackout conversion factor",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "the Almond Board’s orchard average is around 65 per cent.",
+     "value": "around 65 per cent",
+     "period": null,
+     "period_end": null,
+     "publisher": "Almond Board of California",
+     "series": "Papershell crackout yield",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "handed Australian almonds an immediate 50 per cent tariff cut with no phase-in, inside an annual tariff-rate quota of 34,000 tonnes .",
+     "value": "34,000 tonnes",
+     "period": "annual",
+     "period_end": null,
+     "publisher": "Department of Commerce",
+     "series": "India-Australia ECTA Almond Tariff-Rate Quota",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Its share of India’s in-shell import value has bounced between 4.8 and 11.5 per cent over the last five years",
+     "value": "4.8 to 11.5 per cent",
+     "period": "over the last five years",
+     "period_end": "2024-12-31",
+     "publisher": "UN Comtrade / World Bank WITS",
+     "series": "Australia share of India in-shell almond import value",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "against the United States’ 86 to 94 per cent",
+     "value": "86 to 94 per cent",
+     "period": "over the last five years",
+     "period_end": "2024-12-31",
+     "publisher": "UN Comtrade / World Bank WITS",
+     "series": "US share of India in-shell almond import value",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Indian dry-fruit prices typically rise 15 to 22 per cent between early October and the festival",
+     "value": "15 to 22 per cent",
+     "period": "between early October and the festival",
+     "period_end": null,
+     "publisher": "USDA FAS",
+     "series": "Festive dry-fruit seasonal price increase",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "peak-season surcharges of US$450 to 650 a container apply in exactly that window.",
+     "value": "US$450 to 650 a container",
+     "period": "August-to-October",
+     "period_end": null,
+     "publisher": "Carriers / shipping lines",
+     "series": "Peak season freight surcharge",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "The rupee has depreciated about 9.7 per cent in twelve months to 95.79 to the dollar",
+     "value": "9.7 per cent",
+     "period": "twelve months to 20 August 2026",
+     "period_end": "2026-08-20",
+     "publisher": "RBI",
+     "series": "INR/USD reference rate depreciation",
+     "frequency": "daily",
+     "headline": false
+    },
+    {
+     "quote": "Exchange rate 95.79 per US dollar as at 20 August 2026.",
+     "value": "95.79 per US dollar",
+     "period": "as at 20 August 2026",
+     "period_end": "2026-08-20",
+     "publisher": "RBI",
+     "series": "RBI reference rate INR/USD",
+     "frequency": "daily",
+     "headline": false
+    },
+    {
+     "quote": "RPAC also reports the 2026 harvest running about ten days early, with noticeably smaller kernel sizes and statewide yields expected below 2,000 pounds an acre.",
+     "value": "below 2,000 pounds an acre",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "RPAC",
+     "series": "California almond crop forecast yield",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "entry is restricted to notified PQ stations — 35 of them nationally, across 11 airports, 11 seaports and 13 land frontier points.",
+     "value": "35 stations",
+     "period": "as on 21 August 2026",
+     "period_end": "2026-08-21",
+     "publisher": "PPQS / ICEGATE",
+     "series": "Notified Plant Quarantine inspection stations",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The primary lane, Los Angeles to Nhava Sheva, runs 25 to 28 days at roughly US$3,700–4,300 for a 40-foot box",
+     "value": "US$3,700–4,300 for a 40-foot box",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "Published route data",
+     "series": "Ocean container freight rates, LA to Nhava Sheva",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "India bought roughly 283,000 tonnes in calendar 2024, worth about US$1.09 billion",
+     "value": "283,000 tonnes (volume), US$1.09 billion (value)",
+     "period": "calendar 2024",
+     "period_end": "2024-12-31",
+     "publisher": "UN Comtrade / World Bank WITS",
+     "series": "HS 080211 + 080212 (India as reporter, calendar-year product-weight basis)",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Domestic production, concentrated in a handful of Himalayan districts, runs to something like 4,100 tonnes",
+     "value": "4,100 tonnes",
+     "period": null,
+     "period_end": null,
+     "publisher": "post text (unspecified source)",
+     "series": "Domestic almond production estimate",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Volume grew 69 per cent in five years, a compound rate of about 11 per cent a year",
+     "value": "69% (volume growth over 5 years), ~11% (compound annual growth rate)",
+     "period": "2019–2024",
+     "period_end": "2024-12-31",
+     "publisher": "UN Comtrade / World Bank WITS",
+     "series": "HS 080211 + 080212 (India as reporter, calendar-year product-weight basis)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Value grew only 28 per cent over the same stretch, because the average unit price fell a quarter, from $5.10 to $3.84 a kilo",
+     "value": "28% (value growth), $5.10/kg (2019), $3.84/kg (2024)",
+     "period": "2019–2024",
+     "period_end": "2024-12-31",
+     "publisher": "UN Comtrade / World Bank WITS",
+     "series": "HS 080211 + 080212 (India as reporter, calendar-year product-weight basis)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Between 95 and 96 per cent of India’s almond imports arrive in-shell, every single year",
+     "value": "95–96%",
+     "period": null,
+     "period_end": null,
+     "publisher": "article text (implied trade logic)",
+     "series": "In-shell import share",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Tariff line | ... | In-shell, ₹35 / kg | ...",
+     "value": "₹35/kg (in-shell duty)",
+     "period": "From 1 May 2026",
+     "period_end": "2026-05-31",
+     "publisher": "CBIC (Customs Notification)",
+     "series": "Customs tariff schedule (HS 0802.11.00)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Tariff line | ... | Shelled, ₹100 / kg | ...",
+     "value": "₹100/kg (shelled duty)",
+     "period": "From 1 May 2026",
+     "period_end": "2026-05-31",
+     "publisher": "CBIC (Customs Notification)",
+     "series": "Customs tariff schedule (HS 0802.12.00)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Australia’s harvest also falls in February to April, counter-seasonal to California’s. Its share of India’s in-shell import value has bounced between 4.8 and 11.5 per cent over the last five years",
+     "value": "4.8–11.5%",
+     "period": "2021–2025",
+     "period_end": "2025-12-31",
+     "publisher": "Australian Department of Agriculture, Fisheries and Forestry",
+     "series": "ECTA almond import share (India)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "The India–Australia Economic Cooperation and Trade Agreement took effect on 29 December 2022 and handed Australian almonds an immediate 50 per cent tariff cut with no phase-in, inside an annual tariff-rate quota of 34,000 tonnes",
+     "value": "34,000 tonnes (quota)",
+     "period": "2022–present (calendar year)",
+     "period_end": "2026-12-31",
+     "publisher": "Australian Department of Agriculture, Fisheries and Forestry",
+     "series": "ECTA tariff-rate quota (HS 080211)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "The GST on dry fruit was cut from 12 to 5 per cent effective 22 September 2025",
+     "value": "12% → 5%",
+     "period": "22 September 2025",
+     "period_end": "2025-09-22",
+     "publisher": "56th GST Council",
+     "series": "GST rate on dry fruits (including almonds)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Indian dry-fruit prices typically rise 15 to 22 per cent between early October and the festival",
+     "value": "15–22%",
+     "period": "early October to Diwali (typically November)",
+     "period_end": null,
+     "publisher": "trade logic (unspecified source)",
+     "series": "Diwali festive premium",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "The rupee has depreciated about 9.7 per cent in twelve months to 95.79 to the dollar",
+     "value": "9.7% (depreciation), ₹95.79/USD",
+     "period": "2025–2026",
+     "period_end": "2026-08-20",
+     "publisher": "RBI (reference-rate data)",
+     "series": "INR/USD exchange rate",
+     "frequency": "daily",
+     "headline": false
+    },
+    {
+     "quote": "The Almond Board of California voted in December 2025 to stop funding the NASS Objective Measurement Report — the July survey that historically gave the market its first hard read on crop size",
+     "value": "NASS Objective Measurement Report discontinued (December 2025)",
+     "period": "December 2025",
+     "period_end": "2025-12-31",
+     "publisher": "Almond Board of California",
+     "series": "NASS Objective Measurement Report",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "RPAC also reports the 2026 harvest running about ten days early, with statewide yields expected below 2,000 pounds an acre",
+     "value": "2,000 pounds/acre (yield estimate)",
+     "period": "2026 crop",
+     "period_end": null,
+     "publisher": "RPAC (Ranchers Prime Almond Committee)",
+     "series": "California almond yield forecast",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "A container of US in-shell cracked in India, the festive premium is worth roughly the whole gap between a mid-twenties per cent gross margin and a low-teens one",
+     "value": "~20% (gross margin) vs. ~10% (low-teens)",
+     "period": null,
+     "period_end": null,
+     "publisher": "trade logic (unspecified source)",
+     "series": "Festive premium impact on margins",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Cargo needs to be ready at origin by early September and sailing by mid-September to land in early-to-mid October",
+     "value": "early September (origin), mid-September (sailing), early-to-mid October (arrival)",
+     "period": "2026 season",
+     "period_end": "2026-10-15",
+     "publisher": "carrier logistics (unspecified source)",
+     "series": "Almond import shipping timeline",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "peak-season surcharges of US$450 to 650 a container apply in exactly that window",
+     "value": "US$450–650/container",
+     "period": "August–October 2026",
+     "period_end": "2026-10-31",
+     "publisher": "carrier logistics (unspecified source)",
+     "series": "Peak-season freight surcharges",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "The primary lane, Los Angeles to Nhava Sheva, runs 25 to 28 days at roughly US$3,700–4,300 for a 40-foot box before the peak surcharge",
+     "value": "25–28 days (duration), US$3,700–4,300/container (freight)",
+     "period": "2026 season",
+     "period_end": null,
+     "publisher": "carrier logistics (unspecified source)",
+     "series": "Transpacific freight rates",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Melbourne to Nhava Sheva is longer at about 33 days but cheaper",
+     "value": "33 days (duration)",
+     "period": "2026 season",
+     "period_end": null,
+     "publisher": "carrier logistics (unspecified source)",
+     "series": "Trans-Tasman freight rates",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "The rupee touched an all-time low of 99.82 in March 2026",
+     "value": "₹99.82/USD",
+     "period": "March 2026",
+     "period_end": "2026-03-31",
+     "publisher": "Business Standard (unspecified source)",
+     "series": "INR/USD exchange rate",
+     "frequency": "daily",
+     "headline": false
+    },
+    {
+     "quote": "The 2026 change costs an importer nothing and is easy to miss, but it is the most consequential of the four rows. Until May, the statutory First Schedule still carried ₹42 and ₹120, with the relief delivered by an exemption notification",
+     "value": "₹42/kg (in-shell, Jun 2019–Sep 2023), ₹120/kg (shelled, Jun 2019–Sep 2023)",
+     "period": "Jun 2019–Sep 2023",
+     "period_end": "2023-09-30",
+     "publisher": "CBIC (Notification 53/2023-Customs)",
+     "series": "Customs tariff schedule (retaliatory duty)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "The removal of the 2019 retaliatory tariffs per Notification 53/2023-Customs, effective 6 September 2023",
+     "value": "₹35/kg (in-shell, Sep 2023–present), ₹100/kg (shelled, Sep 2023–present)",
+     "period": "From 6 Sep 2023",
+     "period_end": "2023-09-06",
+     "publisher": "CBIC (Notification 53/2023-Customs)",
+     "series": "Customs tariff schedule (post-retaliation)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "The February 2026 interim US–India trade agreement cut US tariffs on Indian goods from 50 to 18 per cent",
+     "value": "50% → 18%",
+     "period": "February 2026",
+     "period_end": "2026-02-29",
+     "publisher": "US-India trade agreement",
+     "series": "US tariff reduction on Indian goods",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The USDA’s official conversion factor is 60 per cent; the Almond Board’s orchard average is around 65 per cent",
+     "value": "60% (USDA), 65% (Almond Board)",
+     "period": null,
+     "period_end": null,
+     "publisher": "USDA FAS GAIN, Almond Board of California",
+     "series": "In-shell to kernel conversion factor",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The 35 to 55 per cent difference for the same period. It is not an error. In-shell almonds weigh far more than the kernel inside them; USDA nets some of that out, while the customs data reports gross weight as it crosses the dock",
+     "value": "35–55% (difference between USDA and Comtrade)",
+     "period": null,
+     "period_end": null,
+     "publisher": "USDA FAS GAIN, DGCI&S",
+     "series": "Almond import volume discrepancy",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "USDA revises its own marketing-year figures by 10,000 to 17,000 tonnes between report vintages",
+     "value": "10,000–17,000 tonnes (revision range)",
+     "period": null,
+     "period_end": null,
+     "publisher": "USDA FAS GAIN",
+     "series": "Marketing-year import volume revisions",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "The 34,000-tonne almond quota, the immediate 50 per cent in-quota tariff cut and its first-come-first-served allocation are confirmed against the Australian Department of Agriculture, Fisheries and Forestry’s India almond quota page",
+     "value": "34,000 tonnes (quota)",
+     "period": "2022–present (calendar year)",
+     "period_end": "2026-12-31",
+     "publisher": "Australian Department of Agriculture, Fisheries and Forestry",
+     "series": "ECTA tariff-rate quota (HS 080211)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "The USDA FAS GAIN | Marketing year, Aug–Jul | Partly kernel-equivalent | 177,000–190,000 |",
+     "value": "177,000–190,000 tonnes (marketing year)",
+     "period": "Aug–Jul (marketing year)",
+     "period_end": "2025-07-31",
+     "publisher": "USDA FAS GAIN",
+     "series": "Marketing-year import volume (kernel-equivalent)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Indian trade press (DGCIS-derived) | Fiscal year, Apr–Mar | Product weight | 248,000–260,000 |",
+     "value": "248,000–260,000 tonnes (fiscal year)",
+     "period": "Apr–Mar (fiscal year)",
+     "period_end": "2025-03-31",
+     "publisher": "DGCI&S (DGCIS-derived)",
+     "series": "Fiscal-year import volume (product weight)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "The 2026 harvest running about ten days early, with noticeably smaller kernel sizes and statewide yields expected below 2,000 pounds an acre",
+     "value": "2,000 pounds/acre (yield estimate)",
+     "period": "2026 crop",
+     "period_end": null,
+     "publisher": "RPAC (Ranchers Prime Almond Committee)",
+     "series": "California almond yield forecast",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "The 50 per cent tariff cut with no phase-in, inside an annual tariff-rate quota of 34,000 tonnes",
+     "value": "50% (tariff cut), 34,000 tonnes (quota)",
+     "period": "2022–present (calendar year)",
+     "period_end": "2026-12-31",
+     "publisher": "Australian Department of Agriculture, Fisheries and Forestry",
+     "series": "ECTA tariff-rate quota (HS 080211)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "The USDA’s official conversion factor is 60 per cent; the Almond Board’s orchard average is around 65 per cent",
+     "value": "60% (USDA), 65% (Almond Board)",
+     "period": null,
+     "period_end": null,
+     "publisher": "USDA FAS GAIN, Almond Board of California",
+     "series": "In-shell to kernel conversion factor",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The GST change per the 56th GST Council, effective 22 September 2025",
+     "value": "12% → 5% (GST rate)",
+     "period": "22 September 2025",
+     "period_end": "2025-09-22",
+     "publisher": "56th GST Council",
+     "series": "GST rate on dry fruits",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The rupee was about 96 to the dollar in early October",
+     "value": "₹96/USD",
+     "period": "early October 2026",
+     "period_end": "2026-10-05",
+     "publisher": "RBI (reference-rate data)",
+     "series": "INR/USD exchange rate",
+     "frequency": "daily",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

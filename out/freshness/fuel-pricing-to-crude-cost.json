@@ -1,0 +1,600 @@
+{
+ "slug": "fuel-pricing-to-crude-cost",
+ "text_sha1": "6b69ab5a0b8b1efd",
+ "chars": 21162,
+ "checked": "2026-10-23T11:43:36",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "Petrol RSP ₹94.77/l",
+     "value": "₹94.77/l",
+     "period": "as on 01.10.2025",
+     "period_end": "2025-10-01",
+     "publisher": "PPAC",
+     "series": "Ready Reckoner",
+     "frequency": "half-yearly",
+     "headline": true
+    },
+    {
+     "quote": "Dealer price ₹53.07",
+     "value": "₹53.07",
+     "period": "as on 01.10.2025",
+     "period_end": "2025-10-01",
+     "publisher": "PPAC",
+     "series": "Ready Reckoner",
+     "frequency": "half-yearly",
+     "headline": true
+    },
+    {
+     "quote": "Excise ₹21.90",
+     "value": "₹21.90",
+     "period": "as on 01.10.2025",
+     "period_end": "2025-10-01",
+     "publisher": "PPAC",
+     "series": "Ready Reckoner",
+     "frequency": "half-yearly",
+     "headline": true
+    },
+    {
+     "quote": "Commission ₹4.40",
+     "value": "₹4.40",
+     "period": "as on 01.10.2025",
+     "period_end": "2025-10-01",
+     "publisher": "PPAC",
+     "series": "Ready Reckoner",
+     "frequency": "half-yearly",
+     "headline": true
+    },
+    {
+     "quote": "VAT ₹15.40",
+     "value": "₹15.40",
+     "period": "as on 01.10.2025",
+     "period_end": "2025-10-01",
+     "publisher": "PPAC",
+     "series": "Ready Reckoner",
+     "frequency": "half-yearly",
+     "headline": true
+    },
+    {
+     "quote": "Diesel RSP ₹87.67/l",
+     "value": "₹87.67/l",
+     "period": "as on 01.10.2025",
+     "period_end": "2025-10-01",
+     "publisher": "PPAC",
+     "series": "Ready Reckoner",
+     "frequency": "half-yearly",
+     "headline": true
+    },
+    {
+     "quote": "Dealer price ₹54.01",
+     "value": "₹54.01",
+     "period": "as on 01.10.2025",
+     "period_end": "2025-10-01",
+     "publisher": "PPAC",
+     "series": "Ready Reckoner",
+     "frequency": "half-yearly",
+     "headline": true
+    },
+    {
+     "quote": "Excise ₹17.80",
+     "value": "₹17.80",
+     "period": "as on 01.10.2025",
+     "period_end": "2025-10-01",
+     "publisher": "PPAC",
+     "series": "Ready Reckoner",
+     "frequency": "half-yearly",
+     "headline": true
+    },
+    {
+     "quote": "Commission ₹3.03",
+     "value": "₹3.03",
+     "period": "as on 01.10.2025",
+     "period_end": "2025-10-01",
+     "publisher": "PPAC",
+     "series": "Ready Reckoner",
+     "frequency": "half-yearly",
+     "headline": true
+    },
+    {
+     "quote": "VAT ₹12.83",
+     "value": "₹12.83",
+     "period": "as on 01.10.2025",
+     "period_end": "2025-10-01",
+     "publisher": "PPAC",
+     "series": "Ready Reckoner",
+     "frequency": "half-yearly",
+     "headline": true
+    },
+    {
+     "quote": "$104–105/bbl Brent Crude, as of 25 Sep 2026",
+     "value": "$104–105/bbl",
+     "period": "25 Sep 2026",
+     "period_end": "2026-09-25",
+     "publisher": "Tradingeconomics, ConvexTrade, OneValor",
+     "series": "Brent Crude",
+     "frequency": "daily",
+     "headline": true
+    },
+    {
+     "quote": "~$93/bbl WTI Crude, as of 25 Sep 2026",
+     "value": "~$93/bbl",
+     "period": "25 Sep 2026",
+     "period_end": "2026-09-25",
+     "publisher": "Tradingeconomics, ConvexTrade, OneValor",
+     "series": "WTI Crude",
+     "frequency": "daily",
+     "headline": true
+    },
+    {
+     "quote": "$101.07/bbl Indian basket, 25 Sep 2026",
+     "value": "$101.07/bbl",
+     "period": "25 Sep 2026",
+     "period_end": "2026-09-25",
+     "publisher": "PPAC",
+     "series": "Indian basket",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "$78.87/bbl Brent Crude, as of 5 Aug 2026",
+     "value": "$78.87/bbl",
+     "period": "5 Aug 2026",
+     "period_end": "2026-08-05",
+     "publisher": "OilPriceAPI & Rigzone",
+     "series": "Brent Crude",
+     "frequency": "daily",
+     "headline": true
+    },
+    {
+     "quote": "$74.84/bbl WTI Crude, as of 5 Aug 2026",
+     "value": "$74.84/bbl",
+     "period": "5 Aug 2026",
+     "period_end": "2026-08-05",
+     "publisher": "OilPriceAPI & Rigzone",
+     "series": "WTI Crude",
+     "frequency": "daily",
+     "headline": true
+    },
+    {
+     "quote": "$78.30/bbl Implied Indian basket, 5 Aug 2026",
+     "value": "$78.30/bbl",
+     "period": "5 Aug 2026",
+     "period_end": "2026-08-05",
+     "publisher": "PPAC",
+     "series": "Implied Indian basket",
+     "frequency": "daily",
+     "headline": true
+    },
+    {
+     "quote": "53.60",
+     "value": "53.60",
+     "period": "as on 01.10.2025",
+     "period_end": "2025-10-01",
+     "publisher": "PPAC",
+     "series": "Ready Reckoner Tables 8.2–8.5 and 8.16A",
+     "frequency": "half-yearly",
+     "headline": false
+    },
+    {
+     "quote": "2.65",
+     "value": "2.65",
+     "period": "as on 01.10.2025",
+     "period_end": "2025-10-01",
+     "publisher": "PPAC",
+     "series": "Ready Reckoner Tables 8.2–8.5 and 8.16A",
+     "frequency": "half-yearly",
+     "headline": false
+    },
+    {
+     "quote": "2.81",
+     "value": "2.81",
+     "period": "as on 01.10.2025",
+     "period_end": "2025-10-01",
+     "publisher": "PPAC",
+     "series": "Ready Reckoner Tables 8.2–8.5 and 8.16A",
+     "frequency": "half-yearly",
+     "headline": false
+    },
+    {
+     "quote": "59.06",
+     "value": "59.06",
+     "period": "as on 01.10.2025",
+     "period_end": "2025-10-01",
+     "publisher": "PPAC",
+     "series": "Ready Reckoner Tables 8.2–8.5 and 8.16A",
+     "frequency": "half-yearly",
+     "headline": false
+    },
+    {
+     "quote": "4.8%",
+     "value": "4.8%",
+     "period": "as on 01.10.2025",
+     "period_end": "2025-10-01",
+     "publisher": "PPAC",
+     "series": "Ready Reckoner Tables 8.2–8.5 and 8.16A",
+     "frequency": "half-yearly",
+     "headline": false
+    },
+    {
+     "quote": "39.3%",
+     "value": "39.3%",
+     "period": "as on 01.10.2025",
+     "period_end": "2025-10-01",
+     "publisher": "PPAC",
+     "series": "Ready Reckoner Tables 8.2–8.5 and 8.16A",
+     "frequency": "half-yearly",
+     "headline": false
+    },
+    {
+     "quote": "34.9%",
+     "value": "34.9%",
+     "period": "as on 01.10.2025",
+     "period_end": "2025-10-01",
+     "publisher": "PPAC",
+     "series": "Ready Reckoner Tables 8.2–8.5 and 8.16A",
+     "frequency": "half-yearly",
+     "headline": false
+    },
+    {
+     "quote": "$69.89/bbl",
+     "value": "$69.89/bbl",
+     "period": "Jul–Sep 2025",
+     "period_end": "2025-09-30",
+     "publisher": "PPAC",
+     "series": "Table 8.1",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "$78.04",
+     "value": "$78.04",
+     "period": "5 Aug 2026",
+     "period_end": "2026-08-05",
+     "publisher": "OilPriceAPI",
+     "series": "Dubai benchmark",
+     "frequency": "daily",
+     "headline": false
+    },
+    {
+     "quote": "$78.26",
+     "value": "$78.26",
+     "period": "5 Aug 2026",
+     "period_end": "2026-08-05",
+     "publisher": "OilPriceAPI",
+     "series": "Oman benchmark",
+     "frequency": "daily",
+     "headline": false
+    },
+    {
+     "quote": "roughly 2,000 crore litres",
+     "value": "2,000 crore litres",
+     "period": "ESY2025-26",
+     "period_end": "2026-10-31",
+     "publisher": "CareEdge",
+     "series": "Installed ethanol distillery capacity",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "904.8 crore litres",
+     "value": "904.8 crore litres",
+     "period": "ESY2024-25",
+     "period_end": "2025-10-31",
+     "publisher": "PPAC",
+     "series": "Table 6.10",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "46.4%",
+     "value": "46.4%",
+     "period": "ESY2024-25",
+     "period_end": "2025-10-31",
+     "publisher": "PPAC",
+     "series": "Table 6.10A",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "₹71.16/l",
+     "value": "₹71.16/l",
+     "period": "ESY2025-26",
+     "period_end": "2026-10-31",
+     "publisher": "Government",
+     "series": "weighted-average delivered procurement cost",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "₹66.61/l",
+     "value": "₹66.61/l",
+     "period": "ESY2025-26",
+     "period_end": "2026-10-31",
+     "publisher": "Government",
+     "series": "ex-mill average",
+     "frequency": "annual",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "Petrol RSP ₹94.77/l; Diesel RSP ₹87.67/l (Delhi, PPAC as on 01.10.2025)",
+     "value": "Petrol: ₹94.77/litre, Diesel: ₹87.67/litre",
+     "period": "as on 01.10.2025",
+     "period_end": "2025-10-01",
+     "publisher": "PPAC",
+     "series": "PPAC Ready Reckoner, Table 8.2–8.5 and 8.16A (price build-up of Petrol/Diesel at Delhi)",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "Dealer price ₹53.07/l (petrol), ₹54.01/l (diesel), as on 01.10.2025",
+     "value": "Petrol: ₹53.07/litre, Diesel: ₹54.01/litre",
+     "period": "as on 01.10.2025",
+     "period_end": "2025-10-01",
+     "publisher": "PPAC",
+     "series": "PPAC Ready Reckoner, Table 8.2–8.5",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Excise ₹21.90/l (petrol), ₹17.80/l (diesel), as on 01.10.2025",
+     "value": "Petrol: ₹21.90/litre, Diesel: ₹17.80/litre",
+     "period": "as on 01.10.2025",
+     "period_end": "2025-10-01",
+     "publisher": "PPAC",
+     "series": "PPAC Ready Reckoner, Table 8.2–8.5 (Excise Duty)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Commission ₹4.40/l (petrol), ₹3.03/l (diesel), as on 01.10.2025",
+     "value": "Petrol: ₹4.40/litre, Diesel: ₹3.03/litre",
+     "period": "as on 01.10.2025",
+     "period_end": "2025-10-01",
+     "publisher": "PPAC",
+     "series": "PPAC Ready Reckoner, Table 8.2–8.5",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "VAT ₹15.40/l (petrol), ₹12.83/l (diesel), as on 01.10.2025",
+     "value": "Petrol: ₹15.40/litre, Diesel: ₹12.83/litre",
+     "period": "as on 01.10.2025",
+     "period_end": "2025-10-01",
+     "publisher": "PPAC",
+     "series": "PPAC Ready Reckoner, Table 8.2–8.5",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Special additional excise duty cut from ₹13 to ₹3/l (petrol), from ₹10 to nil/l (diesel), effective 26 March 2026",
+     "value": "Petrol: ₹3/litre, Diesel: ₹0/litre",
+     "period": "as of 26 March 2026",
+     "period_end": "2026-03-26",
+     "publisher": "Moneylife",
+     "series": "Notification on excise duty adjustment",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Delhi petrol ₹102.12/l, diesel ₹95.20/l after four price rises from 15 May 2026",
+     "value": "Petrol: ₹102.12/litre, Diesel: ₹95.20/litre",
+     "period": "as of 15 May 2026 (after four price rises)",
+     "period_end": "2026-05-15",
+     "publisher": "Blog’s fuel-retail piece",
+     "series": "Retail price updates",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Indian basket crude $78.30/bbl, implied for 5 August 2026",
+     "value": "$78.30/barrel",
+     "period": "as of 5 August 2026",
+     "period_end": "2026-08-05",
+     "publisher": "PPAC (via OilPriceAPI and Rigzone)",
+     "series": "Indian Basket crude price (implied)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "$101.07/bbl Indian basket, 25 September 2026 (PPAC, via secondary reporting)",
+     "value": "$101.07/barrel",
+     "period": "as of 25 September 2026",
+     "period_end": "2026-09-25",
+     "publisher": "PPAC (via Business Standard and Yahoo Finance)",
+     "series": "Indian Basket crude price",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Brent Crude $78.87/bbl, WTI Crude $74.84/bbl, 5 August 2026",
+     "value": "Brent: $78.87/barrel, WTI: $74.84/barrel",
+     "period": "as of 5 August 2026",
+     "period_end": "2026-08-05",
+     "publisher": "OilPriceAPI & Rigzone",
+     "series": "Crude price benchmarks",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Brent Crude $104–105/bbl, WTI Crude ~$93/bbl, 25 September 2026",
+     "value": "Brent: $104–105/barrel, WTI: ~$93/barrel",
+     "period": "as of 25 September 2026",
+     "period_end": "2026-09-25",
+     "publisher": "Tradingeconomics, ConvexTrade, OneValor",
+     "series": "Crude price benchmarks",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "PPAC Jul–Sep 2025 baseline Indian basket $69.89/bbl",
+     "value": "$69.89/barrel",
+     "period": "Jul–Sep 2025",
+     "period_end": "2025-09-30",
+     "publisher": "PPAC",
+     "series": "Indian Basket crude price (Table 8.1)",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "Petrol RSP ₹94.77/l, Diesel RSP ₹87.67/l (PPAC Jul–Sep 2025 baseline)",
+     "value": "Petrol: ₹94.77/litre, Diesel: ₹87.67/litre",
+     "period": "Jul–Sep 2025",
+     "period_end": "2025-09-30",
+     "publisher": "PPAC",
+     "series": "PPAC Ready Reckoner, Table 8.2–8.5",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "Past-year low Indian basket $59.16/bbl, Petrol RSP ₹87.65/l, Diesel RSP ₹80.69/l",
+     "value": "Indian basket: $59.16/barrel, Petrol: ₹87.65/litre, Diesel: ₹80.69/litre",
+     "period": "past-year low",
+     "period_end": null,
+     "publisher": "OilPriceAPI (365-day history)",
+     "series": "Crude price and retail price scenarios",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Past-year high analogue Indian basket $116.54/bbl, Petrol RSP ₹125.71/l, Diesel RSP ₹118.03/l",
+     "value": "Indian basket: $116.54/barrel, Petrol: ₹125.71/litre, Diesel: ₹118.03/litre",
+     "period": "past-year high analogue",
+     "period_end": null,
+     "publisher": "OilPriceAPI (365-day history)",
+     "series": "Crude price and retail price scenarios",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "5 Aug 2026 implied Indian basket $78.30/bbl, Petrol RSP ₹100.35/l, Diesel RSP ₹93.14/l",
+     "value": "Indian basket: $78.30/barrel, Petrol: ₹100.35/litre, Diesel: ₹93.14/litre",
+     "period": "5 August 2026",
+     "period_end": "2026-08-05",
+     "publisher": "PPAC (via OilPriceAPI and Rigzone)",
+     "series": "Crude price and retail price scenarios",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "5 Aug 2026 +10% Indian basket $86.13/bbl, Petrol RSP ₹105.54/l, Diesel RSP ₹98.24/l",
+     "value": "Indian basket: $86.13/barrel, Petrol: ₹105.54/litre, Diesel: ₹98.24/litre",
+     "period": "5 August 2026 +10%",
+     "period_end": "2026-08-05",
+     "publisher": "PPAC (via OilPriceAPI and Rigzone)",
+     "series": "Crude price and retail price scenarios",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "25 Sep 2026 Indian basket $101.07/bbl, Petrol RSP ₹115.42/l, Diesel RSP ₹107.96/l",
+     "value": "Indian basket: $101.07/barrel, Petrol: ₹115.42/litre, Diesel: ₹107.96/litre",
+     "period": "25 September 2026",
+     "period_end": "2026-09-25",
+     "publisher": "PPAC (via Business Standard and Yahoo Finance)",
+     "series": "Crude price and retail price scenarios",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Petrol RSP in Andaman & Nicobar Islands ₹82.46/l, Diesel ₹78.05/l (PPAC as on 01.10.2025)",
+     "value": "Petrol: ₹82.46/litre, Diesel: ₹78.05/litre",
+     "period": "as on 01.10.2025",
+     "period_end": "2025-10-01",
+     "publisher": "PPAC",
+     "series": "PPAC Ready Reckoner, Table 8.14",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Petrol RSP in Andhra Pradesh ₹109.74/l, Diesel ₹97.57/l (PPAC as on 01.10.2025)",
+     "value": "Petrol: ₹109.74/litre, Diesel: ₹97.57/litre",
+     "period": "as on 01.10.2025",
+     "period_end": "2025-10-01",
+     "publisher": "PPAC",
+     "series": "PPAC Ready Reckoner, Table 8.14",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Petrol RSP in Maharashtra ₹103.50/l, Diesel ₹90.03/l (PPAC as on 01.10.2025)",
+     "value": "Petrol: ₹103.50/litre, Diesel: ₹90.03/litre",
+     "period": "as on 01.10.2025",
+     "period_end": "2025-10-01",
+     "publisher": "PPAC",
+     "series": "PPAC Ready Reckoner, Table 8.14",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Petrol RSP in Tamil Nadu ₹100.80/l, Diesel ₹92.39/l (PPAC as on 01.10.2025)",
+     "value": "Petrol: ₹100.80/litre, Diesel: ₹92.39/litre",
+     "period": "as on 01.10.2025",
+     "period_end": "2025-10-01",
+     "publisher": "PPAC",
+     "series": "PPAC Ready Reckoner, Table 8.14",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India’s installed ethanol distillery capacity roughly 2,000 crore litres for ESY2025-26",
+     "value": "2,000 crore litres",
+     "period": "ESY2025-26",
+     "period_end": "2025-11-30",
+     "publisher": "CareEdge",
+     "series": "Ethanol distillery capacity estimate",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "PSU OMCs drew 904.8 crore litres of ethanol in ESY2024-25",
+     "value": "904.8 crore litres",
+     "period": "ESY2024-25",
+     "period_end": "2024-11-30",
+     "publisher": "PPAC",
+     "series": "PPAC Table 6.10",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Ethanol delivered procurement cost (ex-mill average) ₹66.61/l, FY2025-26",
+     "value": "₹66.61/litre",
+     "period": "FY2025-26",
+     "period_end": "2025-03-31",
+     "publisher": "Government disclosures (reported early August 2026)",
+     "series": "Ethanol procurement cost",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Ethanol costed at ₹71.16/l (including GST and transport), ESY2025-26",
+     "value": "₹71.16/litre",
+     "period": "ESY2025-26",
+     "period_end": "2025-11-30",
+     "publisher": "Government disclosures (reported early August 2026)",
+     "series": "Ethanol delivered procurement cost",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "46.4% of ethanol now comes from maize, per Table 6.10A",
+     "value": "46.4%",
+     "period": null,
+     "period_end": null,
+     "publisher": "PPAC",
+     "series": "Table 6.10A (Ethanol feedstock composition)",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

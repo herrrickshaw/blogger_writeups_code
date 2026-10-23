@@ -1,0 +1,570 @@
+{
+ "slug": "bio-fertiliser-and-green-credits",
+ "text_sha1": "56f187d40e75ebcc",
+ "chars": 34338,
+ "checked": "2026-10-23T10:41:06",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "a ₹1,500/MT subsidy and a tree-plantation registry",
+     "value": "₹1,500/MT",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "Department of Fertilizers",
+     "series": "Market Development Assistance (MDA) scheme",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "119 individual plants across India have been authorised by the Department of Agriculture & Farmers Welfare (DA&FW)",
+     "value": "119 plants",
+     "period": "25 February 2026",
+     "period_end": "2026-02-25",
+     "publisher": "DA&FW",
+     "series": "Gazette notifications I–VII, Department of Agriculture & Farmers Welfare",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "Actual CBG sold to oil marketing companies in FY2024-25 was about 42,800 tonnes",
+     "value": "42,800 tonnes",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "PPAC / MoPNG / PNGRB",
+     "series": "India's CBG Sector — Situation Report",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "roughly 79,200 tonnes cumulative since the scheme began in September 2019",
+     "value": "79,200 tonnes",
+     "period": "September 2019 to FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "PPAC / MoPNG / PNGRB",
+     "series": "India's CBG Sector — Situation Report",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "implying about 323,000 tonnes/year",
+     "value": "323,000 tonnes/year",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "PPAC / MoPNG / PNGRB",
+     "series": "India's CBG Sector — Situation Report",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "demand estimated around 1,620 tonnes/day against supply of only 120–150 tonnes/day as of a July 2026 note",
+     "value": "1,620 tonnes/day",
+     "period": "July 2026",
+     "period_end": "2026-07-31",
+     "publisher": "PPAC / MoPNG / PNGRB",
+     "series": "CBG Customer Willingness-to-Pay",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "demand estimated around 1,620 tonnes/day against supply of only 120–150 tonnes/day as of a July 2026 note",
+     "value": "120–150 tonnes/day",
+     "period": "July 2026",
+     "period_end": "2026-07-31",
+     "publisher": "PPAC / MoPNG / PNGRB",
+     "series": "CBG Customer Willingness-to-Pay",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "ex-plant price of ₹54/kg excluding GST",
+     "value": "₹54/kg",
+     "period": "July 2026",
+     "period_end": "2026-07-31",
+     "publisher": "PPAC / MoPNG / PNGRB",
+     "series": "SATAT",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "roughly 1,094 active Letters of Intent",
+     "value": "1,094",
+     "period": "July 2026",
+     "period_end": "2026-07-31",
+     "publisher": "PPAC / MoPNG / PNGRB",
+     "series": "SATAT",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "₹4 crore per 4,800 kg/day of capacity, capped at ₹10 crore",
+     "value": "₹4 crore",
+     "period": "July 2026",
+     "period_end": "2026-07-31",
+     "publisher": "MNRE",
+     "series": "GOBARdhan/MNRE Central Financial Assistance capital subsidy",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹4 crore per 4,800 kg/day of capacity, capped at ₹10 crore",
+     "value": "₹10 crore",
+     "period": "July 2026",
+     "period_end": "2026-07-31",
+     "publisher": "MNRE",
+     "series": "GOBARdhan/MNRE Central Financial Assistance capital subsidy",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "up to 70% of project cost at 9.75–10.75%, 10-year tenor",
+     "value": "70%",
+     "period": "July 2026",
+     "period_end": "2026-07-31",
+     "publisher": "IREDA",
+     "series": "IREDA project financing",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "up to 70% of project cost at 9.75–10.75%, 10-year tenor",
+     "value": "9.75–10.75%",
+     "period": "July 2026",
+     "period_end": "2026-07-31",
+     "publisher": "IREDA",
+     "series": "IREDA project financing",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "roughly ₹37,500 crore of investment and around 750 new projects by FY2028-29",
+     "value": "₹37,500 crore",
+     "period": "FY2028-29",
+     "period_end": "2029-03-31",
+     "publisher": "PPAC / MoPNG / PNGRB",
+     "series": "Compressed Biogas Obligation (CBO)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "roughly ₹37,500 crore of investment and around 750 new projects by FY2028-29",
+     "value": "750 projects",
+     "period": "FY2028-29",
+     "period_end": "2029-03-31",
+     "publisher": "PPAC / MoPNG / PNGRB",
+     "series": "Compressed Biogas Obligation (CBO)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "spot RLNG around ₹45/kg",
+     "value": "₹45/kg",
+     "period": "July 2026",
+     "period_end": "2026-07-31",
+     "publisher": "PPAC / MoPNG / PNGRB",
+     "series": "omc-retail-profitability-model research repository",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "press mud (15.0% IRR) and municipal solid waste (34.1% IRR)",
+     "value": "15.0%",
+     "period": "July 2026",
+     "period_end": "2026-07-31",
+     "publisher": "PPAC / MoPNG / PNGRB",
+     "series": "CBG Enzyme & Efficiency Analysis",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "press mud (15.0% IRR) and municipal solid waste (34.1% IRR)",
+     "value": "34.1%",
+     "period": "July 2026",
+     "period_end": "2026-07-31",
+     "publisher": "PPAC / MoPNG / PNGRB",
+     "series": "CBG Enzyme & Efficiency Analysis",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "cattle dung — the feedstock most naturally available in arid and semi-arid, livestock-heavy regions — is currently the least commercially viable feedstock of all, at roughly -18.6% IRR",
+     "value": "-18.6%",
+     "period": "July 2026",
+     "period_end": "2026-07-31",
+     "publisher": "PPAC / MoPNG / PNGRB",
+     "series": "CBG 5TPD Combined Feedstock Strategy",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "about 20 kg CBG per tonne of input",
+     "value": "20 kg",
+     "period": "July 2026",
+     "period_end": "2026-07-31",
+     "publisher": "PPAC / MoPNG / PNGRB",
+     "series": "CBG 5TPD Combined Feedstock Strategy",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "relatively high feedstock cost (around ₹1,000/tonne)",
+     "value": "₹1,000/tonne",
+     "period": "July 2026",
+     "period_end": "2026-07-31",
+     "publisher": "PPAC / MoPNG / PNGRB",
+     "series": "CBG 5TPD Combined Feedstock Strategy",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "agri-residue is only marginally better at around -6.0% IRR",
+     "value": "-6.0%",
+     "period": "July 2026",
+     "period_end": "2026-07-31",
+     "publisher": "PPAC / MoPNG / PNGRB",
+     "series": "CBG 5TPD Combined Feedstock Strategy",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "revised in August 2022 to a 45% reduction in GHG emission intensity by 2030 from 2005 levels",
+     "value": "45%",
+     "period": "August 2022",
+     "period_end": "2022-08-31",
+     "publisher": "MoEFCC / UNFCCC",
+     "series": "Nationally Determined Contributions (NDCs)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Indian industrial units achieved documented savings of over 106 million tonnes of CO₂ emissions between 2015 and June 2024",
+     "value": "106 million tonnes",
+     "period": "2015 to June 2024",
+     "period_end": "2024-06-30",
+     "publisher": "Bureau of Energy Efficiency (BEE)",
+     "series": "Perform, Achieve and Trade (PAT) scheme",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "119 biogas plants, a ₹1,500/MT subsidy and a tree-plantation registry — the candidate 'better nurture' for soil that urea has been quietly drawing down.",
+     "value": "119 plants",
+     "period": null,
+     "period_end": null,
+     "publisher": "Department of Agriculture & Farmers Welfare (DA&FW)",
+     "series": "GOBARdhan authorised plants for bulk FOM/LFOM/PROM sale",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "₹1,500/MT subsidy and a tree-plantation registry — the candidate 'better nurture' for soil that urea has been quietly drawing down.",
+     "value": "₹1,500 per MT",
+     "period": null,
+     "period_end": null,
+     "publisher": "Department of Fertilizers",
+     "series": "Market Development Assistance (MDA) subsidy for FOM/LFOM/PROM",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "as of the most recent Gazette notification (25 February 2026), 119 individual plants across India have been authorised...",
+     "value": "119 plants",
+     "period": "as of 25 Feb 2026",
+     "period_end": "2026-02-25",
+     "publisher": "Department of Agriculture & Farmers Welfare (DA&FW)",
+     "series": "GOBARdhan Gazette notifications (S.O. 1018(E))",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "The 119-plant total was built up gradually across seven separate Gazette notifications between November 2023 and February 2026:",
+     "value": "7 notifications",
+     "period": "Nov 2023–Feb 2026",
+     "period_end": "2026-02-25",
+     "publisher": "Department of Agriculture & Farmers Welfare (DA&FW)",
+     "series": "GOBARdhan Gazette notifications (S.O. 4918(E) to S.O. 1018(E))",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Notification | Date | S.O. Number | Plants added | ... Total | | 119 |",
+     "value": "119 plants",
+     "period": "Nov 2023–Feb 2026",
+     "period_end": "2026-02-25",
+     "publisher": "Department of Agriculture & Farmers Welfare (DA&FW)",
+     "series": "Cumulative GOBARdhan plants authorised",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Uttar Pradesh alone holds 28 plants — roughly a quarter of the national total — and the top six states account for about 70% of all authorised plants:",
+     "value": "28 plants (UP), ~70% in top 6 states",
+     "period": null,
+     "period_end": null,
+     "publisher": "Department of Agriculture & Farmers Welfare (DA&FW)",
+     "series": "State-wise distribution of GOBARdhan plants",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "an independent situation report... puts the national registered pipeline at roughly 1,150 plants as of August 2025: about 160 actually operational, roughly 244 under construction (2.78 MMSCMD of capacity), and roughly 744 that have registered but not yet started (3.58 MMSCMD).",
+     "value": "1,150 plants (160 operational, 244 under construction, 744 registered)",
+     "period": "as of Aug 2025",
+     "period_end": "2025-08-31",
+     "publisher": "Petroleum Planning & Analysis Cell (PPAC), MoPNG, PNGRB",
+     "series": "India's CBG Sector Situation Report (July 2026)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Actual CBG sold to oil marketing companies in FY2024-25 was about 42,800 tonnes... against a rated capacity across the 160 operational plants implying about 323,000 tonnes/year — a utilisation rate of only around 13%.",
+     "value": "42,800 tonnes (FY2024-25), 323,000 tonnes/year (rated capacity)",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "Petroleum Planning & Analysis Cell (PPAC), MoPNG, PNGRB",
+     "series": "CBG production and capacity utilisation",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "demand estimated around 1,620 tonnes/day against supply of only 120–150 tonnes/day as of a July 2026 note",
+     "value": "1,620 tonnes/day (demand), 120–150 tonnes/day (supply)",
+     "period": "July 2026",
+     "period_end": "2026-07-31",
+     "publisher": "Oil Marketing Companies (OMCs)",
+     "series": "CBG demand-supply shortfall",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "the government's CBG Blending Obligation (1% in FY26, rising to 5% by FY29)",
+     "value": "1% (FY2026), 5% (FY2029)",
+     "period": "FY2026–FY2029",
+     "period_end": "2029-03-31",
+     "publisher": "Ministry of Petroleum & Natural Gas (MoPNG)",
+     "series": "CBG Blending Obligation (CBO)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "the CBO mandate alone is projected to pull in roughly ₹37,500 crore of investment and around 750 new projects by FY2028-29",
+     "value": "₹37,500 crore (investment), 750 projects",
+     "period": "by FY2028-29",
+     "period_end": "2028-03-31",
+     "publisher": "Ministry of Petroleum & Natural Gas (MoPNG)",
+     "series": "CBG investment projections",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "SATAT's assured ex-plant gas price of ₹54/kg excluding GST",
+     "value": "₹54/kg",
+     "period": null,
+     "period_end": null,
+     "publisher": "Ministry of Petroleum & Natural Gas (MoPNG)",
+     "series": "SATAT ex-plant CBG price",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "GOBARdhan/MNRE Central Financial Assistance capital subsidy (₹4 crore per 4,800 kg/day of capacity, capped at ₹10 crore)",
+     "value": "₹4 crore (per 4,800 kg/day), capped at ₹10 crore",
+     "period": null,
+     "period_end": null,
+     "publisher": "Ministry of New and Renewable Energy (MNRE)",
+     "series": "GOBARdhan Central Financial Assistance (CFA)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "the Green Credit Programme's own registry portal shows no populated uptake data as of this check",
+     "value": "0 (Registered Plantation Activities, Completed Plantation, Ongoing Plantation, Green Credit Issued)",
+     "period": "as of check (Oct 2026)",
+     "period_end": "2026-10-13",
+     "publisher": "Indian Council of Forestry Research and Education (ICFRE)",
+     "series": "Green Credit Programme registry (moefcc-gcp.in/registry/tree-plantation)",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "Indian industrial units achieved documented savings of over 106 million tonnes of CO₂ emissions between 2015 and June 2024",
+     "value": "106 million tonnes CO₂e",
+     "period": "2015–Jun 2024",
+     "period_end": "2024-06-30",
+     "publisher": "Bureau of Energy Efficiency (BEE)",
+     "series": "PAT Scheme savings record",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "press mud (15.0% IRR), municipal solid waste (34.1% IRR), cattle dung (−18.6% IRR), agri-residue (−6.0% IRR)",
+     "value": "15.0% (press mud), 34.1% (MSW), −18.6% (cattle dung), −6.0% (agri-residue)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Independent financial modelling (July 2026)",
+     "series": "CBG plant IRR by feedstock type",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "the government's stated national target of 5,000 plants",
+     "value": "5,000 plants",
+     "period": null,
+     "period_end": null,
+     "publisher": "Ministry of Petroleum & Natural Gas (MoPNG)",
+     "series": "National CBG plant target",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "the Fertiliser (Control) Order, 1985 (FCO), clause 22(c), lets the Central Government name specific manufacturers for bulk/loose direct-to-farmer sale",
+     "value": "clause 22(c) of FCO 1985",
+     "period": null,
+     "period_end": null,
+     "publisher": "Ministry of Chemicals and Fertilizers",
+     "series": "Fertiliser (Control) Order, 1985",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "the FCO Fourth Amendment Order, 2023 (in force 17 May 2023) waived a separate authorisation-letter requirement (clause 8(3)) for FOM/LFOM manufacturers for three years",
+     "value": "3 years (waiver period)",
+     "period": "17 May 2023–17 May 2026",
+     "period_end": "2026-05-17",
+     "publisher": "Ministry of Chemicals and Fertilizers",
+     "series": "FCO Fourth Amendment Order, 2023",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "each consignment needs three uploaded proofs (QC certificate, weighbridge receipt, photo of the loaded truck) plus full transport records, with a 40 MT vehicle-capacity cap per consignment",
+     "value": "40 MT (vehicle-capacity cap per consignment)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Department of Fertilizers",
+     "series": "Bulk-sale logistics requirements for FOM/LFOM/PROM",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "the ₹1,500/MT MDA subsidy is not automatic even then — it requires State-level verification through two pro forma certificates (B1-MDA for quantity, B2-MDA for quality)",
+     "value": "₹1,500/MT (MDA subsidy)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Department of Fertilizers",
+     "series": "Market Development Assistance (MDA) subsidy conditions",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "the Green Credit Rules, notified 12 October 2023 under the Environment (Protection) Act, 1986",
+     "value": "12 Oct 2023",
+     "period": "12 Oct 2023",
+     "period_end": "2023-10-12",
+     "publisher": "Ministry of Environment, Forest and Climate Change (MoEFCC)",
+     "series": "Green Credit Rules notification",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India's Nationally Determined Contributions (NDCs) commitment — a 45% reduction in GHG emission intensity by 2030 from 2005 levels",
+     "value": "45% reduction (GHG emission intensity)",
+     "period": "2005–2030",
+     "period_end": "2030-12-31",
+     "publisher": "Ministry of Power (MoP)",
+     "series": "India's NDCs under Paris Agreement",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "the Bureau of Energy Efficiency (BEE) identified sectors and set trajectories and targets, and issued the carbon credit certificates themselves",
+     "value": "9 sectors (Compliance Mechanism) + 10 categories (Offset Mechanism)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Bureau of Energy Efficiency (BEE)",
+     "series": "Carbon Credit Trading Scheme (CCTS)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "the GOBARdhan portal's own circular index lists a regulatory item on 'carbon credit eligibility under Paris Agreement Article 6.2' for CBG-relevant projects",
+     "value": "Article 6.2 eligibility (CBG projects)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Ministry of Environment, Forest and Climate Change (MoEFCC)",
+     "series": "GOBARdhan circular on carbon credit eligibility",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "the earliest cohort (Notification I) starts coming up for renewal in November 2026",
+     "value": "Nov 2026",
+     "period": "Nov 2026",
+     "period_end": "2026-11-30",
+     "publisher": "Department of Agriculture & Farmers Welfare (DA&FW)",
+     "series": "GOBARdhan plant authorisation renewal",
+     "frequency": "triennial",
+     "headline": false
+    },
+    {
+     "quote": "the three-year waiver would otherwise have run out around 17 May 2026",
+     "value": "17 May 2026",
+     "period": "17 May 2026",
+     "period_end": "2026-05-17",
+     "publisher": "Ministry of Chemicals and Fertilizers",
+     "series": "FCO clause 8(3) waiver expiry",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "the Seventh Amendment Order of 29 June 2026 (S.O. 3482(E)) is reported to exempt [FOM/LFOM manufacturers] from the letter for ten years from publication",
+     "value": "10 years (exemption period)",
+     "period": "from 29 Jun 2026",
+     "period_end": "2036-06-29",
+     "publisher": "Ministry of Chemicals and Fertilizers",
+     "series": "Seventh Amendment Order (S.O. 3482(E))",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "the Eighth Amendment Order (July 2026) was not examined",
+     "value": "July 2026",
+     "period": "July 2026",
+     "period_end": "2026-07-31",
+     "publisher": "Ministry of Chemicals and Fertilizers",
+     "series": "Eighth Amendment Order (unexamined)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "the 'before November 2026' renewal question for the 27 named plants may also be affected",
+     "value": "27 plants (Notification I cohort)",
+     "period": "before Nov 2026",
+     "period_end": "2026-11-30",
+     "publisher": "Department of Agriculture & Farmers Welfare (DA&FW)",
+     "series": "GOBARdhan plant renewal status",
+     "frequency": "triennial",
+     "headline": false
+    },
+    {
+     "quote": "the 'before November 2026' renewal question for the 27 named plants may also be affected",
+     "value": "27 plants (Notification I cohort)",
+     "period": "before Nov 2026",
+     "period_end": "2026-11-30",
+     "publisher": "Department of Agriculture & Farmers Welfare (DA&FW)",
+     "series": "GOBARdhan plant renewal status",
+     "frequency": "triennial",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

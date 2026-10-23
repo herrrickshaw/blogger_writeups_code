@@ -1,0 +1,970 @@
+{
+ "slug": "do-cheap-stocks-stay-cheap-price-band",
+ "text_sha1": "88355fa9c26d26d0",
+ "chars": 19258,
+ "checked": "2026-10-23T11:09:53",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "18.2%",
+     "value": "18.2%",
+     "period": "2 Jan 2023 – 7 Aug 2026",
+     "period_end": "2026-08-07",
+     "publisher": "Screener.in / local historical NSE OHLCV warehouse",
+     "series": "Confirmed NSE equities, price-band migration",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "65.7%",
+     "value": "65.7%",
+     "period": "2 Jan 2023 – 7 Aug 2026",
+     "period_end": "2026-08-07",
+     "publisher": "Screener.in / local historical NSE OHLCV warehouse",
+     "series": "Confirmed NSE equities, price-band migration",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "73.0%",
+     "value": "73.0%",
+     "period": "2 Jan 2023 – 7 Aug 2026",
+     "period_end": "2026-08-07",
+     "publisher": "Screener.in / local historical NSE OHLCV warehouse",
+     "series": "Confirmed NSE equities, price-band migration",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "63.7%",
+     "value": "63.7%",
+     "period": "2 Jan 2023 – 7 Aug 2026",
+     "period_end": "2026-08-07",
+     "publisher": "Screener.in / local historical NSE OHLCV warehouse",
+     "series": "Confirmed NSE equities, price-band migration",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "63.2%",
+     "value": "63.2%",
+     "period": "2 Jan 2023 – 7 Aug 2026",
+     "period_end": "2026-08-07",
+     "publisher": "Screener.in / local historical NSE OHLCV warehouse",
+     "series": "Confirmed NSE equities, price-band migration",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "69.8%",
+     "value": "69.8%",
+     "period": "2 Jan 2023 – 7 Aug 2026",
+     "period_end": "2026-08-07",
+     "publisher": "Screener.in / local historical NSE OHLCV warehouse",
+     "series": "Confirmed NSE equities, price-band migration",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "83.8%",
+     "value": "83.8%",
+     "period": "2 Jan 2023 – 7 Aug 2026",
+     "period_end": "2026-08-07",
+     "publisher": "Screener.in / local historical NSE OHLCV warehouse",
+     "series": "Confirmed NSE equities, price-band migration",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "44.8%",
+     "value": "44.8%",
+     "period": "2 Jan 2023 – 7 Aug 2026",
+     "period_end": "2026-08-07",
+     "publisher": "Screener.in / local historical NSE OHLCV warehouse",
+     "series": "Confirmed NSE equities, price-band migration",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "70.6%",
+     "value": "70.6%",
+     "period": "2 Jan 2023 – 7 Aug 2026",
+     "period_end": "2026-08-07",
+     "publisher": "Screener.in / local historical NSE OHLCV warehouse",
+     "series": "Confirmed NSE equities, price-band migration",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "45.0%",
+     "value": "45.0%",
+     "period": "2 Jan 2023 – 7 Aug 2026",
+     "period_end": "2026-08-07",
+     "publisher": "Screener.in / local historical NSE OHLCV warehouse",
+     "series": "Confirmed NSE equities, price-band migration",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "16.7%",
+     "value": "16.7%",
+     "period": "2 Jan 2023 – 7 Aug 2026",
+     "period_end": "2026-08-07",
+     "publisher": "Screener.in / local historical NSE OHLCV warehouse",
+     "series": "Confirmed NSE equities, price-band migration",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "5,390 equity tickers",
+     "value": "5,390 equity tickers",
+     "period": "2 Jan 2023 – 7 Aug 2026",
+     "period_end": "2026-08-07",
+     "publisher": "Screener.in / local historical NSE OHLCV warehouse",
+     "series": "Confirmed NSE equities universe",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "26.6",
+     "value": "26.6%",
+     "period": "2 Jan 2023 – 7 Aug 2026",
+     "period_end": "2026-08-07",
+     "publisher": "Screener.in / local historical NSE OHLCV warehouse",
+     "series": "Confirmed NSE equities, price-band coverage",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "44.7",
+     "value": "44.7%",
+     "period": "2 Jan 2023 – 7 Aug 2026",
+     "period_end": "2026-08-07",
+     "publisher": "Screener.in / local historical NSE OHLCV warehouse",
+     "series": "Confirmed NSE equities, price-band coverage",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "49.7",
+     "value": "49.7%",
+     "period": "2 Jan 2023 – 7 Aug 2026",
+     "period_end": "2026-08-07",
+     "publisher": "Screener.in / local historical NSE OHLCV warehouse",
+     "series": "Confirmed NSE equities, price-band coverage",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "55.4",
+     "value": "55.4%",
+     "period": "2 Jan 2023 – 7 Aug 2026",
+     "period_end": "2026-08-07",
+     "publisher": "Screener.in / local historical NSE OHLCV warehouse",
+     "series": "Confirmed NSE equities, price-band coverage",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "76.9",
+     "value": "76.9%",
+     "period": "2 Jan 2023 – 7 Aug 2026",
+     "period_end": "2026-08-07",
+     "publisher": "Screener.in / local historical NSE OHLCV warehouse",
+     "series": "Confirmed NSE equities, price-band coverage",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "65.2",
+     "value": "65.2%",
+     "period": "2 Jan 2023 – 7 Aug 2026",
+     "period_end": "2026-08-07",
+     "publisher": "Screener.in / local historical NSE OHLCV warehouse",
+     "series": "Confirmed NSE equities, price-band coverage",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "68.2",
+     "value": "68.2%",
+     "period": "2 Jan 2023 – 7 Aug 2026",
+     "period_end": "2026-08-07",
+     "publisher": "Screener.in / local historical NSE OHLCV warehouse",
+     "series": "Confirmed NSE equities, price-band coverage",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "60.5",
+     "value": "60.5%",
+     "period": "2 Jan 2023 – 7 Aug 2026",
+     "period_end": "2026-08-07",
+     "publisher": "Screener.in / local historical NSE OHLCV warehouse",
+     "series": "Confirmed NSE equities, price-band coverage",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "46.6",
+     "value": "46.6%",
+     "period": "2 Jan 2023 – 7 Aug 2026",
+     "period_end": "2026-08-07",
+     "publisher": "Screener.in / local historical NSE OHLCV warehouse",
+     "series": "Confirmed NSE equities, price-band coverage",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "38.5",
+     "value": "38.5%",
+     "period": "2 Jan 2023 – 7 Aug 2026",
+     "period_end": "2026-08-07",
+     "publisher": "Screener.in / local historical NSE OHLCV warehouse",
+     "series": "Confirmed NSE equities, price-band coverage",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "31.6",
+     "value": "31.6%",
+     "period": "2 Jan 2023 – 7 Aug 2026",
+     "period_end": "2026-08-07",
+     "publisher": "Screener.in / local historical NSE OHLCV warehouse",
+     "series": "Confirmed NSE equities, price-band coverage",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "1,761 confirmed equity tickers",
+     "value": "1,761 equity tickers",
+     "period": "2 Jan 2023 – 7 Aug 2026",
+     "period_end": "2026-08-07",
+     "publisher": "Screener.in / local historical NSE OHLCV warehouse",
+     "series": "K-means clustering equity dataset",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "368",
+     "value": "368 stocks",
+     "period": "2 Jan 2023 – 7 Aug 2026",
+     "period_end": "2026-08-07",
+     "publisher": "Screener.in / local historical NSE OHLCV warehouse",
+     "series": "K-means Cluster 0",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "22.36",
+     "value": "₹22.36",
+     "period": "2 Jan 2023 – 7 Aug 2026",
+     "period_end": "2026-08-07",
+     "publisher": "Screener.in / local historical NSE OHLCV warehouse",
+     "series": "K-means Cluster 0 Median price",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "-14.76",
+     "value": "-14.76% p.a.",
+     "period": "2 Jan 2023 – 7 Aug 2026",
+     "period_end": "2026-08-07",
+     "publisher": "Screener.in / local historical NSE OHLCV warehouse",
+     "series": "K-means Cluster 0 Median return",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "52.09",
+     "value": "52.09% p.a.",
+     "period": "2 Jan 2023 – 7 Aug 2026",
+     "period_end": "2026-08-07",
+     "publisher": "Screener.in / local historical NSE OHLCV warehouse",
+     "series": "K-means Cluster 0 Median volatility",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "1.31",
+     "value": "1.31",
+     "period": "2 Jan 2023 – 7 Aug 2026",
+     "period_end": "2026-08-07",
+     "publisher": "Screener.in / local historical NSE OHLCV warehouse",
+     "series": "K-means Cluster 0 Median beta",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "527",
+     "value": "527 stocks",
+     "period": "2 Jan 2023 – 7 Aug 2026",
+     "period_end": "2026-08-07",
+     "publisher": "Screener.in / local historical NSE OHLCV warehouse",
+     "series": "K-means Cluster 3",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "240.6",
+     "value": "₹240.6",
+     "period": "2 Jan 2023 – 7 Aug 2026",
+     "period_end": "2026-08-07",
+     "publisher": "Screener.in / local historical NSE OHLCV warehouse",
+     "series": "K-means Cluster 3 Median price",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "10.85",
+     "value": "10.85% p.a.",
+     "period": "2 Jan 2023 – 7 Aug 2026",
+     "period_end": "2026-08-07",
+     "publisher": "Screener.in / local historical NSE OHLCV warehouse",
+     "series": "K-means Cluster 3 Median return",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "45.0",
+     "value": "45.0% p.a.",
+     "period": "2 Jan 2023 – 7 Aug 2026",
+     "period_end": "2026-08-07",
+     "publisher": "Screener.in / local historical NSE OHLCV warehouse",
+     "series": "K-means Cluster 3 Median volatility",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "1.41",
+     "value": "1.41",
+     "period": "2 Jan 2023 – 7 Aug 2026",
+     "period_end": "2026-08-07",
+     "publisher": "Screener.in / local historical NSE OHLCV warehouse",
+     "series": "K-means Cluster 3 Median beta",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "655",
+     "value": "655 stocks",
+     "period": "2 Jan 2023 – 7 Aug 2026",
+     "period_end": "2026-08-07",
+     "publisher": "Screener.in / local historical NSE OHLCV warehouse",
+     "series": "K-means Cluster 1",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "603.25",
+     "value": "₹603.25",
+     "period": "2 Jan 2023 – 7 Aug 2026",
+     "period_end": "2026-08-07",
+     "publisher": "Screener.in / local historical NSE OHLCV warehouse",
+     "series": "K-means Cluster 1 Median price",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "9.0",
+     "value": "9.0% p.a.",
+     "period": "2 Jan 2023 – 7 Aug 2026",
+     "period_end": "2026-08-07",
+     "publisher": "Screener.in / local historical NSE OHLCV warehouse",
+     "series": "K-means Cluster 1 Median return",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "33.3",
+     "value": "33.3% p.a.",
+     "period": "2 Jan 2023 – 7 Aug 2026",
+     "period_end": "2026-08-07",
+     "publisher": "Screener.in / local historical NSE OHLCV warehouse",
+     "series": "K-means Cluster 1 Median volatility",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "0.91",
+     "value": "0.91",
+     "period": "2 Jan 2023 – 7 Aug 2026",
+     "period_end": "2026-08-07",
+     "publisher": "Screener.in / local historical NSE OHLCV warehouse",
+     "series": "K-means Cluster 1 Median beta",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "211",
+     "value": "211 stocks",
+     "period": "2 Jan 2023 – 7 Aug 2026",
+     "period_end": "2026-08-07",
+     "publisher": "Screener.in / local historical NSE OHLCV warehouse",
+     "series": "K-means Cluster 2",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "Confirmed NSE equities, by starting price band, 2 Jan 2023 – 7 Aug 2026 (3.5 years)",
+     "value": "3.5 years",
+     "period": "2 Jan 2023 – 7 Aug 2026",
+     "period_end": "2026-08-07",
+     "publisher": "Screener.in",
+     "series": "Local historical NSE OHLCV warehouse (adjusted close, year-partitioned parquet)",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "Restricted to the 5,390 equity tickers used throughout this series",
+     "value": "5,390",
+     "period": null,
+     "period_end": null,
+     "publisher": "Screener.in",
+     "series": "Confirmed equity tickers universe",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Starting price band, ₹ | Stocks tracked (of Screener universe) | Coverage, % | Moved to a different band, % | ...",
+     "value": "555 of 2,086",
+     "period": "2 Jan 2023 – 7 Aug 2026",
+     "period_end": "2026-08-07",
+     "publisher": "Screener.in",
+     "series": "₹0–50 price band coverage",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Starting price band, ₹ | Stocks tracked (of Screener universe) | Coverage, % | Moved to a different band, % | ...",
+     "value": "26.6%",
+     "period": "2 Jan 2023 – 7 Aug 2026",
+     "period_end": "2026-08-07",
+     "publisher": "Screener.in",
+     "series": "₹0–50 price band coverage rate",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Starting price band, ₹ | Stocks tracked (of Screener universe) | Coverage, % | Moved to a different band, % | ...",
+     "value": "18.2%",
+     "period": "2 Jan 2023 – 7 Aug 2026",
+     "period_end": "2026-08-07",
+     "publisher": "Screener.in",
+     "series": "₹0–50 price band migration rate",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "Starting price band, ₹ | Stocks tracked (of Screener universe) | Coverage, % | Moved to a different band, % | ...",
+     "value": "332 of 743",
+     "period": "2 Jan 2023 – 7 Aug 2026",
+     "period_end": "2026-08-07",
+     "publisher": "Screener.in",
+     "series": "₹50–100 price band coverage",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Starting price band, ₹ | Stocks tracked (of Screener universe) | Coverage, % | Moved to a different band, % | ...",
+     "value": "44.7%",
+     "period": "2 Jan 2023 – 7 Aug 2026",
+     "period_end": "2026-08-07",
+     "publisher": "Screener.in",
+     "series": "₹50–100 price band coverage rate",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Starting price band, ₹ | Stocks tracked (of Screener universe) | Coverage, % | Moved to a different band, % | ...",
+     "value": "65.7%",
+     "period": "2 Jan 2023 – 7 Aug 2026",
+     "period_end": "2026-08-07",
+     "publisher": "Screener.in",
+     "series": "₹50–100 price band migration rate",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Starting price band, ₹ | Stocks tracked (of Screener universe) | Coverage, % | Moved to a different band, % | ...",
+     "value": "233 of 469",
+     "period": "2 Jan 2023 – 7 Aug 2026",
+     "period_end": "2026-08-07",
+     "publisher": "Screener.in",
+     "series": "₹100–150 price band coverage",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Starting price band, ₹ | Stocks tracked (of Screener universe) | Coverage, % | Moved to a different band, % | ...",
+     "value": "49.7%",
+     "period": "2 Jan 2023 – 7 Aug 2026",
+     "period_end": "2026-08-07",
+     "publisher": "Screener.in",
+     "series": "₹100–150 price band coverage rate",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Starting price band, ₹ | Stocks tracked (of Screener universe) | Coverage, % | Moved to a different band, % | ...",
+     "value": "73.0%",
+     "period": "2 Jan 2023 – 7 Aug 2026",
+     "period_end": "2026-08-07",
+     "publisher": "Screener.in",
+     "series": "₹100–150 price band migration rate",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Starting price band, ₹ | Stocks tracked (of Screener universe) | Coverage, % | Moved to a different band, % | ...",
+     "value": "306 of 552",
+     "period": "2 Jan 2023 – 7 Aug 2026",
+     "period_end": "2026-08-07",
+     "publisher": "Screener.in",
+     "series": "₹150–250 price band coverage",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Starting price band, ₹ | Stocks tracked (of Screener universe) | Coverage, % | Moved to a different band, % | ...",
+     "value": "55.4%",
+     "period": "2 Jan 2023 – 7 Aug 2026",
+     "period_end": "2026-08-07",
+     "publisher": "Screener.in",
+     "series": "₹150–250 price band coverage rate",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Starting price band, ₹ | Stocks tracked (of Screener universe) | Coverage, % | Moved to a different band, % | ...",
+     "value": "63.7%",
+     "period": "2 Jan 2023 – 7 Aug 2026",
+     "period_end": "2026-08-07",
+     "publisher": "Screener.in",
+     "series": "₹150–250 price band migration rate",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Starting price band, ₹ | Stocks tracked (of Screener universe) | Coverage, % | Moved to a different band, % | ...",
+     "value": "437 of 568",
+     "period": "2 Jan 2023 – 7 Aug 2026",
+     "period_end": "2026-08-07",
+     "publisher": "Screener.in",
+     "series": "₹250–500 price band coverage",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Starting price band, ₹ | Stocks tracked (of Screener universe) | Coverage, % | Moved to a different band, % | ...",
+     "value": "76.9%",
+     "period": "2 Jan 2023 – 7 Aug 2026",
+     "period_end": "2026-08-07",
+     "publisher": "Screener.in",
+     "series": "₹250–500 price band coverage rate",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Starting price band, ₹ | Stocks tracked (of Screener universe) | Coverage, % | Moved to a different band, % | ...",
+     "value": "63.2%",
+     "period": "2 Jan 2023 – 7 Aug 2026",
+     "period_end": "2026-08-07",
+     "publisher": "Screener.in",
+     "series": "₹250–500 price band migration rate",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Starting price band, ₹ | Stocks tracked (of Screener universe) | Coverage, % | Moved to a different band, % | ...",
+     "value": "189 of 290",
+     "period": "2 Jan 2023 – 7 Aug 2026",
+     "period_end": "2026-08-07",
+     "publisher": "Screener.in",
+     "series": "₹500–750 price band coverage",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Starting price band, ₹ | Stocks tracked (of Screener universe) | Coverage, % | Moved to a different band, % | ...",
+     "value": "65.2%",
+     "period": "2 Jan 2023 – 7 Aug 2026",
+     "period_end": "2026-08-07",
+     "publisher": "Screener.in",
+     "series": "₹500–750 price band coverage rate",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Starting price band, ₹ | Stocks tracked (of Screener universe) | Coverage, % | Moved to a different band, % | ...",
+     "value": "69.8%",
+     "period": "2 Jan 2023 – 7 Aug 2026",
+     "period_end": "2026-08-07",
+     "publisher": "Screener.in",
+     "series": "₹500–750 price band migration rate",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Starting price band, ₹ | Stocks tracked (of Screener universe) | Coverage, % | Moved to a different band, % | ...",
+     "value": "105 of 154",
+     "period": "2 Jan 2023 – 7 Aug 2026",
+     "period_end": "2026-08-07",
+     "publisher": "Screener.in",
+     "series": "₹750–1,000 price band coverage",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Starting price band, ₹ | Stocks tracked (of Screener universe) | Coverage, % | Moved to a different band, % | ...",
+     "value": "68.2%",
+     "period": "2 Jan 2023 – 7 Aug 2026",
+     "period_end": "2026-08-07",
+     "publisher": "Screener.in",
+     "series": "₹750–1,000 price band coverage rate",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Starting price band, ₹ | Stocks tracked (of Screener universe) | Coverage, % | Moved to a different band, % | ...",
+     "value": "83.8%",
+     "period": "2 Jan 2023 – 7 Aug 2026",
+     "period_end": "2026-08-07",
+     "publisher": "Screener.in",
+     "series": "₹750–1,000 price band migration rate",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Starting price band, ₹ | Stocks tracked (of Screener universe) | Coverage, % | Moved to a different band, % | ...",
+     "value": "221 of 365",
+     "period": "2 Jan 2023 – 7 Aug 2026",
+     "period_end": "2026-08-07",
+     "publisher": "Screener.in",
+     "series": "₹1,000–3,000 price band coverage",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Starting price band, ₹ | Stocks tracked (of Screener universe) | Coverage, % | Moved to a different band, % | ...",
+     "value": "60.5%",
+     "period": "2 Jan 2023 – 7 Aug 2026",
+     "period_end": "2026-08-07",
+     "publisher": "Screener.in",
+     "series": "₹1,000–3,000 price band coverage rate",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Starting price band, ₹ | Stocks tracked (of Screener universe) | Coverage, % | Moved to a different band, % | ...",
+     "value": "44.8%",
+     "period": "2 Jan 2023 – 7 Aug 2026",
+     "period_end": "2026-08-07",
+     "publisher": "Screener.in",
+     "series": "₹1,000–3,000 price band migration rate",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Starting price band, ₹ | Stocks tracked (of Screener universe) | Coverage, % | Moved to a different band, % | ...",
+     "value": "34 of 73",
+     "period": "2 Jan 2023 – 7 Aug 2026",
+     "period_end": "2026-08-07",
+     "publisher": "Screener.in",
+     "series": "₹3,000–5,000 price band coverage",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Starting price band, ₹ | Stocks tracked (of Screener universe) | Coverage, % | Moved to a different band, % | ...",
+     "value": "46.6%",
+     "period": "2 Jan 2023 – 7 Aug 2026",
+     "period_end": "2026-08-07",
+     "publisher": "Screener.in",
+     "series": "₹3,000–5,000 price band coverage rate",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Starting price band, ₹ | Stocks tracked (of Screener universe) | Coverage, % | Moved to a different band, % | ...",
+     "value": "70.6%",
+     "period": "2 Jan 2023 – 7 Aug 2026",
+     "period_end": "2026-08-07",
+     "publisher": "Screener.in",
+     "series": "₹3,000–5,000 price band migration rate",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Starting price band, ₹ | Stocks tracked (of Screener universe) | Coverage, % | Moved to a different band, % | ...",
+     "value": "20 of 52",
+     "period": "2 Jan 2023 – 7 Aug 2026",
+     "period_end": "2026-08-07",
+     "publisher": "Screener.in",
+     "series": "₹5,000–10,000 price band coverage",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Starting price band, ₹ | Stocks tracked (of Screener universe) | Coverage, % | Moved to a different band, % | ...",
+     "value": "38.5%",
+     "period": "2 Jan 2023 – 7 Aug 2026",
+     "period_end": "2026-08-07",
+     "publisher": "Screener.in",
+     "series": "₹5,000–10,000 price band coverage rate",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Starting price band, ₹ | Stocks tracked (of Screener universe) | Coverage, % | Moved to a different band, % | ...",
+     "value": "45.0%",
+     "period": "2 Jan 2023 – 7 Aug 2026",
+     "period_end": "2026-08-07",
+     "publisher": "Screener.in",
+     "series": "₹5,000–10,000 price band migration rate",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Starting price band, ₹ | Stocks tracked (of Screener universe) | Coverage, % | Moved to a different band, % | ...",
+     "value": "12 of 38",
+     "period": "2 Jan 2023 – 7 Aug 2026",
+     "period_end": "2026-08-07",
+     "publisher": "Screener.in",
+     "series": "₹10,000+ price band coverage",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Starting price band, ₹ | Stocks tracked (of Screener universe) | Coverage, % | Moved to a different band, % | ...",
+     "value": "31.6%",
+     "period": "2 Jan 2023 – 7 Aug 2026",
+     "period_end": "2026-08-07",
+     "publisher": "Screener.in",
+     "series": "₹10,000+ price band coverage rate",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Starting price band, ₹ | Stocks tracked (of Screener universe) | Coverage, % | Moved to a different band, % | ...",
+     "value": "16.7%",
+     "period": "2 Jan 2023 – 7 Aug 2026",
+     "period_end": "2026-08-07",
+     "publisher": "Screener.in",
+     "series": "₹10,000+ price band migration rate",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Same correction applied here: K-means clustering (four clusters, standardised features) was re-run using only the 1,761 confirmed equity tickers",
+     "value": "1,761",
+     "period": null,
+     "period_end": null,
+     "publisher": "Screener.in",
+     "series": "Confirmed equity tickers for clustering",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Cluster | Character | Stocks | Median price, ₹ | Median return, % p.a. | Median volatility, % p.a. | Median beta |",
+     "value": "368",
+     "period": "2 Jan 2023 – 7 Aug 2026",
+     "period_end": "2026-08-07",
+     "publisher": "Screener.in",
+     "series": "K-means Cluster 0 (Cheap & distressed) stock count",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Cluster | Character | Stocks | Median price, ₹ | Median return, % p.a. | Median volatility, % p.a. | Median beta |",
+     "value": "22.36",
+     "period": "2 Jan 2023 – 7 Aug 2026",
+     "period_end": "2026-08-07",
+     "publisher": "Screener.in",
+     "series": "K-means Cluster 0 (Cheap & distressed) median price",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Cluster | Character | Stocks | Median price, ₹ | Median return, % p.a. | Median volatility, % p.a. | Median beta |",
+     "value": "-14.76%",
+     "period": "2 Jan 2023 – 7 Aug 2026",
+     "period_end": "2026-08-07",
+     "publisher": "Screener.in",
+     "series": "K-means Cluster 0 (Cheap & distressed) median return",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Cluster | Character | Stocks | Median price, ₹ | Median return, % p.a. | Median volatility, % p.a. | Median beta |",
+     "value": "52.09%",
+     "period": "2 Jan 2023 – 7 Aug 2026",
+     "period_end": "2026-08-07",
+     "publisher": "Screener.in",
+     "series": "K-means Cluster 0 (Cheap & distressed) median volatility",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Cluster | Character | Stocks | Median price, ₹ | Median return, % p.a. | Median volatility, % p.a. | Median beta |",
+     "value": "1.31",
+     "period": "2 Jan 2023 – 7 Aug 2026",
+     "period_end": "2026-08-07",
+     "publisher": "Screener.in",
+     "series": "K-means Cluster 0 (Cheap & distressed) median beta",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "DBSCAN: one dense core, and 293 genuine outliers",
+     "value": "293",
+     "period": "2 Jan 2023 – 7 Aug 2026",
+     "period_end": "2026-08-07",
+     "publisher": "Screener.in",
+     "series": "DBSCAN outliers count",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "DBSCAN: one dense core, and 293 genuine outliers",
+     "value": "16.6%",
+     "period": "2 Jan 2023 – 7 Aug 2026",
+     "period_end": "2026-08-07",
+     "publisher": "Screener.in",
+     "series": "DBSCAN outliers percentage",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "DBSCAN: one dense core, and 293 genuine outliers",
+     "value": "1,468",
+     "period": "2 Jan 2023 – 7 Aug 2026",
+     "period_end": "2026-08-07",
+     "publisher": "Screener.in",
+     "series": "DBSCAN dense core stock count",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "DBSCAN: one dense core, and 293 genuine outliers",
+     "value": "290",
+     "period": "2 Jan 2023 – 7 Aug 2026",
+     "period_end": "2026-08-07",
+     "publisher": "Screener.in",
+     "series": "DBSCAN dense core median price",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "DBSCAN: one dense core, and 293 genuine outliers",
+     "value": "7.4%",
+     "period": "2 Jan 2023 – 7 Aug 2026",
+     "period_end": "2026-08-07",
+     "publisher": "Screener.in",
+     "series": "DBSCAN dense core median return",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "DBSCAN: one dense core, and 293 genuine outliers",
+     "value": "1.18",
+     "period": "2 Jan 2023 – 7 Aug 2026",
+     "period_end": "2026-08-07",
+     "publisher": "Screener.in",
+     "series": "DBSCAN dense core median beta",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "DBSCAN: one dense core, and 293 genuine outliers",
+     "value": "28.7%",
+     "period": "2 Jan 2023 – 7 Aug 2026",
+     "period_end": "2026-08-07",
+     "publisher": "Screener.in",
+     "series": "DBSCAN outliers median return",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "DBSCAN: one dense core, and 293 genuine outliers",
+     "value": "56.6%",
+     "period": "2 Jan 2023 – 7 Aug 2026",
+     "period_end": "2026-08-07",
+     "publisher": "Screener.in",
+     "series": "DBSCAN outliers median volatility",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Cluster | Character | Stocks | Median price, ₹ | Median return, % p.a. | Median volatility, % p.a. | Median beta |",
+     "value": "211",
+     "period": "2 Jan 2023 – 7 Aug 2026",
+     "period_end": "2026-08-07",
+     "publisher": "Screener.in",
+     "series": "K-means Cluster 2 (High-growth / momentum) stock count",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Cluster | Character | Stocks | Median price, ₹ | Median return, % p.a. | Median volatility, % p.a. | Median beta |",
+     "value": "61.76%",
+     "period": "2 Jan 2023 – 7 Aug 2026",
+     "period_end": "2026-08-07",
+     "publisher": "Screener.in",
+     "series": "K-means Cluster 2 (High-growth / momentum) median return",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Cluster | Character | Stocks | Median price, ₹ | Median return, % p.a. | Median volatility, % p.a. | Median beta |",
+     "value": "54.56%",
+     "period": "2 Jan 2023 – 7 Aug 2026",
+     "period_end": "2026-08-07",
+     "publisher": "Screener.in",
+     "series": "K-means Cluster 2 (High-growth / momentum) median volatility",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Cluster | Character | Stocks | Median price, ₹ | Median return, % p.a. | Median volatility, % p.a. | Median beta |",
+     "value": "1.39",
+     "period": "2 Jan 2023 – 7 Aug 2026",
+     "period_end": "2026-08-07",
+     "publisher": "Screener.in",
+     "series": "K-means Cluster 2 (High-growth / momentum) median beta",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Cluster | Character | Stocks | Median price, ₹ | Median return, % p.a. | Median volatility, % p.a. | Median beta |",
+     "value": "321",
+     "period": "2 Jan 2023 – 7 Aug 2026",
+     "period_end": "2026-08-07",
+     "publisher": "Screener.in",
+     "series": "Hierarchical Cluster 2 (High-growth / momentum) stock count",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Cluster | Character | Stocks | Median price, ₹ | Median return, % p.a. | Median volatility, % p.a. | Median beta |",
+     "value": "44.82%",
+     "period": "2 Jan 2023 – 7 Aug 2026",
+     "period_end": "2026-08-07",
+     "publisher": "Screener.in",
+     "series": "Hierarchical Cluster 2 (High-growth / momentum) median return",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

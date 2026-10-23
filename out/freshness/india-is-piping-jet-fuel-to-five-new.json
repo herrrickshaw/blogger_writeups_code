@@ -1,0 +1,590 @@
+{
+ "slug": "india-is-piping-jet-fuel-to-five-new",
+ "text_sha1": "28d5a68a92d52625",
+ "chars": 25355,
+ "checked": "2026-10-23T13:12:19",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "~157–165 Operational airports nationwide, 2024–26 government figures",
+     "value": "~157–165",
+     "period": "2024–26",
+     "period_end": "2026-03-31",
+     "publisher": "PIB / ministry",
+     "series": "Operational airports count",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "8.85 MT India's ATF consumption, calendar year 2024 (PPAC via S&P Global), +9.2% y/y",
+     "value": "8.85 MT",
+     "period": "calendar year 2024",
+     "period_end": "2024-12-31",
+     "publisher": "PPAC",
+     "series": "ATF consumption",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "8.85 MT India's ATF consumption, calendar year 2024 (PPAC via S&P Global), +9.2% y/y",
+     "value": "+9.2%",
+     "period": "calendar year 2024",
+     "period_end": "2024-12-31",
+     "publisher": "PPAC",
+     "series": "ATF consumption growth y/y",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "after a reported 11.8% jump in FY2023-24",
+     "value": "11.8%",
+     "period": "FY2023-24",
+     "period_end": "2024-03-31",
+     "publisher": "PPAC",
+     "series": "ATF consumption growth y/y",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "and a 47.1% jump the year before that",
+     "value": "47.1%",
+     "period": "FY2022-23",
+     "period_end": "2023-03-31",
+     "publisher": "PPAC",
+     "series": "ATF consumption growth y/y",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "gives its declared common-carrier capacity as 0.7 MMTPA, and records it running at 116.2% of that capacity in FY26.",
+     "value": "0.7 MMTPA",
+     "period": "FY26",
+     "period_end": "2026-03-31",
+     "publisher": "PNGRB",
+     "series": "Devangonthi–Devanhalli pipeline declared capacity",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "gives its declared common-carrier capacity as 0.7 MMTPA, and records it running at 116.2% of that capacity in FY26.",
+     "value": "116.2%",
+     "period": "FY26",
+     "period_end": "2026-03-31",
+     "publisher": "PNGRB",
+     "series": "Devangonthi–Devanhalli pipeline capacity utilisation",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "lists the \"Panipat–Bijwasan\" line by name at 111 km, 1 MMTPA, running at 111.1% utilisation in FY26.",
+     "value": "1 MMTPA",
+     "period": "FY26",
+     "period_end": "2026-03-31",
+     "publisher": "PNGRB",
+     "series": "Panipat–Bijwasan pipeline capacity",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "lists the \"Panipat–Bijwasan\" line by name at 111 km, 1 MMTPA, running at 111.1% utilisation in FY26.",
+     "value": "111.1%",
+     "period": "FY26",
+     "period_end": "2026-03-31",
+     "publisher": "PNGRB",
+     "series": "Panipat–Bijwasan pipeline capacity utilisation",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "lists an HPCL \"Mumbai Refinery–Mumbai International Airport\" line at 20 km, 0.5 MMTPA, running at 99.3% utilisation",
+     "value": "0.5 MMTPA",
+     "period": "FY26",
+     "period_end": "2026-03-31",
+     "publisher": "PNGRB",
+     "series": "Mumbai Refinery–Mumbai International Airport pipeline capacity",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "lists an HPCL \"Mumbai Refinery–Mumbai International Airport\" line at 20 km, 0.5 MMTPA, running at 99.3% utilisation",
+     "value": "99.3%",
+     "period": "FY26",
+     "period_end": "2026-03-31",
+     "publisher": "PNGRB",
+     "series": "Mumbai Refinery–Mumbai International Airport pipeline utilisation",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "and a second, separate BPCL line to \"Mumbai Refinery–Mumbai International Airport (Santacruz)\" at 12 km, 1.3 MMTPA, running at 70%",
+     "value": "1.3 MMTPA",
+     "period": "FY26",
+     "period_end": "2026-03-31",
+     "publisher": "PNGRB",
+     "series": "Mumbai Refinery–Mumbai International Airport (Santacruz) pipeline capacity",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "and a second, separate BPCL line to \"Mumbai Refinery–Mumbai International Airport (Santacruz)\" at 12 km, 1.3 MMTPA, running at 70%",
+     "value": "70%",
+     "period": "FY26",
+     "period_end": "2026-03-31",
+     "publisher": "PNGRB",
+     "series": "Mumbai Refinery–Mumbai International Airport (Santacruz) pipeline utilisation",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "named in the committee report as \"Chennai ATF\": 95 km, 0.2 MMTPA, running at 150.6% of capacity in FY26.",
+     "value": "0.2 MMTPA",
+     "period": "FY26",
+     "period_end": "2026-03-31",
+     "publisher": "PNGRB",
+     "series": "Chennai ATF pipeline capacity",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "named in the committee report as \"Chennai ATF\": 95 km, 0.2 MMTPA, running at 150.6% of capacity in FY26.",
+     "value": "150.6%",
+     "period": "FY26",
+     "period_end": "2026-03-31",
+     "publisher": "PNGRB",
+     "series": "Chennai ATF pipeline capacity utilisation",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "the committee report gives this exactly as \"Kochi Refinery–Kochi Airport,\" 34 km (this piece's earlier \"roughly 33-km\" estimate was close but not exact), 0.6 MMTPA, running at 103.3%.",
+     "value": "0.6 MMTPA",
+     "period": "FY26",
+     "period_end": "2026-03-31",
+     "publisher": "PNGRB",
+     "series": "Kochi Refinery–Kochi Airport pipeline capacity",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "the committee report gives this exactly as \"Kochi Refinery–Kochi Airport,\" 34 km (this piece's earlier \"roughly 33-km\" estimate was close but not exact), 0.6 MMTPA, running at 103.3%.",
+     "value": "103.3%",
+     "period": "FY26",
+     "period_end": "2026-03-31",
+     "publisher": "PNGRB",
+     "series": "Kochi Refinery–Kochi Airport pipeline capacity utilisation",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "the committee report lists it as \"Kolkata ATF,\" 27 km, 0.2 MMTPA, running at 97.5%.",
+     "value": "0.2 MMTPA",
+     "period": "FY26",
+     "period_end": "2026-03-31",
+     "publisher": "PNGRB",
+     "series": "Kolkata ATF pipeline capacity",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "the committee report lists it as \"Kolkata ATF,\" 27 km, 0.2 MMTPA, running at 97.5%.",
+     "value": "97.5%",
+     "period": "FY26",
+     "period_end": "2026-03-31",
+     "publisher": "PNGRB",
+     "series": "Kolkata ATF pipeline capacity utilisation",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "lists a \"Lucknow ATF\" pipeline by name in PNGRB's own dedicated-pipeline register — Indian Oil, 6 km, 0.2 MMTPA, running at only 36.2% of capacity in FY26.",
+     "value": "0.2 MMTPA",
+     "period": "FY26",
+     "period_end": "2026-03-31",
+     "publisher": "PNGRB",
+     "series": "Lucknow ATF pipeline capacity",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "lists a \"Lucknow ATF\" pipeline by name in PNGRB's own dedicated-pipeline register — Indian Oil, 6 km, 0.2 MMTPA, running at only 36.2% of capacity in FY26.",
+     "value": "36.2%",
+     "period": "FY26",
+     "period_end": "2026-03-31",
+     "publisher": "PNGRB",
+     "series": "Lucknow ATF pipeline capacity utilisation",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "4.45 MMTPA — confirmed exactly by the same report",
+     "value": "4.45 MMTPA",
+     "period": "FY26",
+     "period_end": "2026-03-31",
+     "publisher": "PNGRB",
+     "series": "JNPT to Navi Mumbai International Airport pipeline capacity",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "4.58 MMTPA — confirmed by the same report, resolving the unit ambiguity this piece had flagged",
+     "value": "4.58 MMTPA",
+     "period": "FY26",
+     "period_end": "2026-03-31",
+     "publisher": "PNGRB",
+     "series": "Piyala–Jewar pipeline capacity",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "PNGRB's order sets a minimum bid capacity of 0.75 MMTPA",
+     "value": "0.75 MMTPA",
+     "period": "July 2024",
+     "period_end": "2024-07-31",
+     "publisher": "PNGRB",
+     "series": "Malkapur–RGIA Hyderabad pipeline minimum bid capacity",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "a separate register entry puts the authorised capacity at 4.99 MMTPA",
+     "value": "4.99 MMTPA",
+     "period": "July 2024",
+     "period_end": "2024-07-31",
+     "publisher": "PNGRB",
+     "series": "Malkapur–RGIA Hyderabad pipeline authorised capacity",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "2.5 MMTPA | Reported authorised May 2026",
+     "value": "2.5 MMTPA",
+     "period": "May 2026",
+     "period_end": "2026-05-31",
+     "publisher": "PNGRB",
+     "series": "Bengaluru second ATF line authorised capacity",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "a roughly 20-km line from Sempora to Srinagar airport, sized at 0.5 MMTPA, on which PNGRB opened consultation in April 2025",
+     "value": "0.5 MMTPA",
+     "period": "April 2025",
+     "period_end": "2025-04-30",
+     "publisher": "PNGRB",
+     "series": "Sempora–Srinagar airport pipeline proposed capacity",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Indian Oil's own capacity filing splitting that line's approved 0.66 million-tonne capacity into 0.16 million tonnes reserved as common-carrier capacity",
+     "value": "0.66 million tonnes",
+     "period": null,
+     "period_end": null,
+     "publisher": "PNGRB",
+     "series": "Devanagonthi–Devanhalli pipeline approved capacity",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "into 0.16 million tonnes reserved as common-carrier capacity and 0.44 million tonnes for Indian Oil's own use.",
+     "value": "0.16 million tonnes",
+     "period": null,
+     "period_end": null,
+     "publisher": "PNGRB",
+     "series": "Devanagonthi–Devanhalli pipeline reserved common-carrier capacity",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "and 0.44 million tonnes for Indian Oil's own use.",
+     "value": "0.44 million tonnes",
+     "period": null,
+     "period_end": null,
+     "publisher": "PNGRB",
+     "series": "Devanagonthi–Devanhalli pipeline own-use capacity",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "6–8 Airports with an existing dedicated ATF pipeline, by this piece's count",
+     "value": "6–8 airports",
+     "period": null,
+     "period_end": null,
+     "publisher": "Article author (count)",
+     "series": "Estimated existing ATF pipeline airports",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "~157–165 Operational airports nationwide, 2024–26 government figures",
+     "value": "157–165 airports",
+     "period": "2024–2026",
+     "period_end": "2026-12-31",
+     "publisher": "Government of India",
+     "series": "Operational airports count",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "6 New ATF pipelines authorised or at active bidding, 2022–2026",
+     "value": "6 pipelines",
+     "period": "2022–2026",
+     "period_end": "2026-12-31",
+     "publisher": "Article author (count)",
+     "series": "New ATF pipeline authorisations",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "8.85 MT India's ATF consumption, calendar year 2024 (PPAC via S&P Global), +9.2% y/y",
+     "value": "8.85 million tonnes (MT)",
+     "period": "2024 (calendar year)",
+     "period_end": "2024-12-31",
+     "publisher": "PPAC (via S&P Global)",
+     "series": "Aviation Turbine Fuel (ATF) consumption",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Indian Oil laid a 36-km line from its Devanagonthi terminal... sized initially at over 156,000 litres an hour",
+     "value": "36 km (length), over 156,000 litres/hour (capacity)",
+     "period": "October 2008",
+     "period_end": "2008-10-31",
+     "publisher": "Indian Oil, PNGRB Expert Committee report",
+     "series": "Bengaluru Kempegowda Airport ATF pipeline",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "PNGRB's own committee report confirms the 36 km figure exactly... 0.7 MMTPA, and records it running at 116.2% of that capacity in FY26",
+     "value": "0.7 million tonnes per annum (MMTPA), 116.2% utilisation",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "PNGRB Expert Committee report",
+     "series": "Bengaluru ATF pipeline utilisation",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Delhi's IGI Airport is fed through an Indian Oil line... reportedly carrying around 6,000 kilolitres a day",
+     "value": "6,000 kilolitres/day",
+     "period": null,
+     "period_end": null,
+     "publisher": "Article author (reported)",
+     "series": "Delhi IGI Airport ATF pipeline flow",
+     "frequency": "daily",
+     "headline": false
+    },
+    {
+     "quote": "PNGRB's own committee report lists the 'Panipat–Bijwasan' line at 111 km, 1 MMTPA, running at 111.1% utilisation in FY26",
+     "value": "111 km (length), 1 MMTPA (capacity), 111.1% utilisation",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "PNGRB Expert Committee report",
+     "series": "Panipat–Bijwasan ATF pipeline",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Mumbai's Chhatrapati Shivaji Maharaj International Airport turns out to be fed by two separate pipelines... HPCL 'Mumbai Refinery–Mumbai International Airport' line at 20 km, 0.5 MMTPA, running at 99.3% utilisation",
+     "value": "20 km (length), 0.5 MMTPA (capacity), 99.3% utilisation",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "PNGRB Expert Committee report",
+     "series": "HPCL Mumbai Airport ATF pipeline",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "...a second, separate BPCL line to 'Mumbai Refinery–Mumbai International Airport (Santacruz)' at 12 km, 1.3 MMTPA, running at 70%",
+     "value": "12 km (length), 1.3 MMTPA (capacity), 70% utilisation",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "PNGRB Expert Committee report",
+     "series": "BPCL Mumbai Airport ATF pipeline",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Chennai has an Indian Oil line... named in the committee report as 'Chennai ATF': 95 km, 0.2 MMTPA, running at 150.6% of capacity in FY26",
+     "value": "95 km (length), 0.2 MMTPA (capacity), 150.6% utilisation",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "PNGRB Expert Committee report",
+     "series": "Chennai ATF pipeline",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Kochi's Cochin International Airport draws on a BPCL line... the committee report gives this exactly as 'Kochi Refinery–Kochi Airport,' 34 km, 0.6 MMTPA, running at 103.3%",
+     "value": "34 km (length), 0.6 MMTPA (capacity), 103.3% utilisation",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "PNGRB Expert Committee report",
+     "series": "Kochi Airport ATF pipeline",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Kolkata's Netaji Subhas Chandra Bose International Airport has been supplied via an Indian Oil pipeline... the committee report lists it as 'Kolkata ATF,' 27 km, 0.2 MMTPA, running at 97.5%",
+     "value": "27 km (length), 0.2 MMTPA (capacity), 97.5% utilisation",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "PNGRB Expert Committee report",
+     "series": "Kolkata ATF pipeline",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Lucknow ATF pipeline by name in PNGRB's own dedicated-pipeline register — Indian Oil, 6 km, 0.2 MMTPA, running at only 36.2% of capacity in FY26",
+     "value": "6 km (length), 0.2 MMTPA (capacity), 36.2% utilisation",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "PNGRB Expert Committee report",
+     "series": "Lucknow ATF pipeline",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Navi Mumbai | Indian Oil, JNPT/JNPA terminal → airport fuel farm | 22 km... 4.45 MMTPA... Authorised August 2022; airport opened October 2025",
+     "value": "22 km (length), 4.45 MMTPA (capacity), authorised August 2022, opened October 2025",
+     "period": "August 2022 (authorised), October 2025 (opened)",
+     "period_end": "2025-10-31",
+     "publisher": "PNGRB Expert Committee report",
+     "series": "Navi Mumbai ATF pipeline",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Noida (Jewar) | BPCL, Piyala terminal (Faridabad) → airport tank farm | 34 km... 4.58 MMTPA... Authorised February 2023; construction reported 'nearing completion' in late 2025. Airport inaugurated March 2026",
+     "value": "34 km (length), 4.58 MMTPA (capacity), authorised February 2023, inaugurated March 2026",
+     "period": "February 2023 (authorised), March 2026 (inaugurated)",
+     "period_end": "2026-03-31",
+     "publisher": "PNGRB Expert Committee report, BPCL press release",
+     "series": "Jewar Airport ATF pipeline",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Hyderabad | BPCL, Malkapur installation (Sangareddy) → RGIA fuel farm... PNGRB's order sets a minimum bid capacity of 0.75 MMTPA; a separate register entry puts the authorised capacity at 4.99 MMTPA... PNGRB order on BPCL's bid, July 2024",
+     "value": "0.75 MMTPA (bid floor), 4.99 MMTPA (authorised capacity), July 2024 (bid order)",
+     "period": "July 2024 (bid order)",
+     "period_end": "2024-07-31",
+     "publisher": "PNGRB, BPCL",
+     "series": "Hyderabad ATF pipeline bid and capacity",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Bengaluru (second line) | Mangalore Refinery (MRPL), Devanagonthi terminal → a new satellite fuel farm | 2.5 MMTPA... Reported authorised May 2026",
+     "value": "2.5 MMTPA (capacity), authorised May 2026",
+     "period": "May 2026",
+     "period_end": "2026-05-31",
+     "publisher": "Article author (reported)",
+     "series": "Bengaluru second ATF pipeline",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Ahmedabad | Contractor (Dilip Buildcon, via a special-purpose vehicle), Navgam → airport | Letter of award reported February 2026; contract value roughly ₹124 crore",
+     "value": "₹124 crore (contract value), February 2026 (award)",
+     "period": "February 2026",
+     "period_end": "2026-02-29",
+     "publisher": "Article author (reported)",
+     "series": "Ahmedabad ATF pipeline contract",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Visakhapatnam (Bhogapuram) | HPCL, from its Visakhapatnam refinery / a proposed new terminal | Roughly 60 km... Demand projected at 1.0 MMTPA by 2050... new Bhogapuram airport opened August 2026",
+     "value": "60 km (length), 1.0 MMTPA (projected demand), August 2026 (opened)",
+     "period": "August 2026 (opened), projected 2050",
+     "period_end": "2026-08-31",
+     "publisher": "Article author (reported), HPCL",
+     "series": "Visakhapatnam Bhogapuram ATF pipeline",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "ATF consumption at 8.85 million tonnes in calendar year 2024, up 9.2% on the year before, after a reported 11.8% jump in FY2023-24 and a 47.1% jump the year before that",
+     "value": "8.85 MT (2024), +9.2% y/y; +11.8% (FY2023-24), +47.1% (FY2022-23)",
+     "period": "FY2022-23, FY2023-24, 2024 (calendar year)",
+     "period_end": "2024-12-31",
+     "publisher": "PPAC (via S&P Global)",
+     "series": "Aviation Turbine Fuel (ATF) consumption growth",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Indian Oil's Mathura–Delhi pipeline... then running at '40-50% only' utilisation",
+     "value": "40–50% utilisation",
+     "period": null,
+     "period_end": null,
+     "publisher": "Sanmarg Projects (2021 stakeholder submission)",
+     "series": "Mathura–Delhi pipeline utilisation",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Indian Oil's EOI... specified a 14-inch outer-diameter, 0.25-inch wall-thickness pipeline, 36 km long, with a design capacity of 2.50 million tonnes a year",
+     "value": "36 km (length), 2.50 MT/year (capacity)",
+     "period": "2021 (proposal)",
+     "period_end": null,
+     "publisher": "Indian Oil (EOI Ref. PL/PJ/S/PJATFPL/I)",
+     "series": "Original Jewar pipeline proposal",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "PNGRB's February 2024 consultation paper... 'only a limited number of airports are linked with pipelines'",
+     "value": "limited number of airports with pipelines",
+     "period": "February 2024",
+     "period_end": "2024-02-29",
+     "publisher": "PNGRB",
+     "series": "ATF pipeline coverage",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "PNGRB's own committee report... confirms the pattern: the seven existing ATF lines... run between 70% and 150.6% of nameplate capacity in FY26",
+     "value": "70–150.6% utilisation (FY2025-26)",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "PNGRB Expert Committee report",
+     "series": "Existing ATF pipeline utilisation",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Indian Oil's filing did for Bengaluru (0.16 of 0.66 million tonnes)",
+     "value": "0.16 MMTPA (common-carrier capacity), 0.66 MMTPA (total capacity)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Indian Oil",
+     "series": "Bengaluru ATF pipeline capacity allocation",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "a roughly 20-km line from Sempora to Srinagar airport, sized at 0.5 MMTPA, on which PNGRB opened consultation in April 2025",
+     "value": "20 km (length), 0.5 MMTPA (capacity), April 2025 (consultation)",
+     "period": "April 2025",
+     "period_end": "2025-04-30",
+     "publisher": "PNGRB",
+     "series": "Sempora–Srinagar ATF pipeline proposal",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

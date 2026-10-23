@@ -1,0 +1,590 @@
+{
+ "slug": "guar-gum-indias-35-billion-export-peak",
+ "text_sha1": "376c2a91f7db5898",
+ "chars": 15490,
+ "checked": "2026-10-23T11:51:41",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "India supplies roughly 80% of the world's guar gum, per APEDA's own data",
+     "value": "80%",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "APEDA",
+     "series": "GuarGum commodity page",
+     "frequency": "live",
+     "headline": true
+    },
+    {
+     "quote": "guar gum exports peaked at $3.5 billion in 2012-13",
+     "value": "$3.5 billion",
+     "period": "2012-13",
+     "period_end": "2013-03-31",
+     "publisher": "APEDA / DGCIS",
+     "series": "Export value",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "crashed to $467 million within four years",
+     "value": "$467 million",
+     "period": "2016-17",
+     "period_end": "2017-03-31",
+     "publisher": "APEDA / DGCIS",
+     "series": "Export value",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "sat at $541.65 million in 2023-24",
+     "value": "$541.65 million",
+     "period": "2023-24",
+     "period_end": "2024-03-31",
+     "publisher": "APEDA / DGCIS",
+     "series": "Export value",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "$550.12 million (474,519.44 MT) | Latest full year, per APEDA's own live data (DGCIS-sourced)",
+     "value": "$550.12 million",
+     "period": "2024-25 (FY25)",
+     "period_end": "2025-03-31",
+     "publisher": "APEDA",
+     "series": "GuarGum commodity page",
+     "frequency": "live",
+     "headline": true
+    },
+    {
+     "quote": "$550.12 million (474,519.44 MT)",
+     "value": "474,519.44 MT",
+     "period": "2024-25 (FY25)",
+     "period_end": "2025-03-31",
+     "publisher": "APEDA",
+     "series": "GuarGum commodity page",
+     "frequency": "live",
+     "headline": true
+    },
+    {
+     "quote": "India's guar gum exports went from ₹121 crore ($20.2 million) in 2003-04",
+     "value": "₹121 crore",
+     "period": "2003-04",
+     "period_end": "2004-03-31",
+     "publisher": "APEDA / DGCIS",
+     "series": "Export value",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "India's guar gum exports went from ₹121 crore ($20.2 million) in 2003-04",
+     "value": "$20.2 million",
+     "period": "2003-04",
+     "period_end": "2004-03-31",
+     "publisher": "APEDA / DGCIS",
+     "series": "Export value",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "to ₹21,287 crore ($3.5 billion) in 2012-13",
+     "value": "₹21,287 crore",
+     "period": "2012-13",
+     "period_end": "2013-03-31",
+     "publisher": "APEDA / DGCIS",
+     "series": "Export value",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Guar seed prices went from roughly ₹3,000/quintal to a peak of ₹30,000/quintal in March 2012",
+     "value": "₹3,000/quintal",
+     "period": "2007",
+     "period_end": "2007-12-31",
+     "publisher": "AgriBazaar / Business Standard",
+     "series": "Guar seed price",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Guar seed prices went from roughly ₹3,000/quintal to a peak of ₹30,000/quintal in March 2012",
+     "value": "₹30,000/quintal",
+     "period": "March 2012",
+     "period_end": "2012-03-31",
+     "publisher": "AgriBazaar / Business Standard",
+     "series": "Guar seed price",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "guar gum itself peaked around $11,135 a tonne",
+     "value": "$11,135 a tonne",
+     "period": "2012",
+     "period_end": "2012-12-31",
+     "publisher": "Tridge / CEIC Data",
+     "series": "Guar gum spot price",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "2020-21 | ₹1,949 crore (~$260M) | Still well below pre-boom-adjusted trend",
+     "value": "₹1,949 crore",
+     "period": "2020-21",
+     "period_end": "2021-03-31",
+     "publisher": "APEDA / DGCIS",
+     "series": "Export value",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "2020-21 | ₹1,949 crore (~$260M)",
+     "value": "$260 million",
+     "period": "2020-21",
+     "period_end": "2021-03-31",
+     "publisher": "APEDA / DGCIS",
+     "series": "Export value",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "2023-24 | $541.65 million (417,674 MT) | Partial recovery, +2.67% YoY by volume, per APEDA",
+     "value": "417,674 MT",
+     "period": "2023-24",
+     "period_end": "2024-03-31",
+     "publisher": "APEDA",
+     "series": "Official Guar Gum profile",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "72% of that from Rajasthan alone",
+     "value": "72%",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "APEDA",
+     "series": "GuarGum commodity page",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "Jan 2015 \n 4,200",
+     "value": "4,200 ₹/quintal",
+     "period": "January 2015",
+     "period_end": "2015-01-31",
+     "publisher": "AgriBazaar / Business Standard",
+     "series": "Guar seed price",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "~5,300 \n 2024",
+     "value": "5,300 ₹/quintal",
+     "period": "2024",
+     "period_end": "2024-12-31",
+     "publisher": "AgriBazaar / Business Standard",
+     "series": "Guar seed price",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Apr 2026 \n 4,776",
+     "value": "4,776 ₹/quintal",
+     "period": "April 2026",
+     "period_end": "2026-04-30",
+     "publisher": "AgriBazaar / Business Standard",
+     "series": "Guar seed price",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "traded in a ₹8,440-11,671/quintal band on NCDEX's Jodhpur spot market through 2024-25",
+     "value": "₹8,440-11,671/quintal",
+     "period": "2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "NCDEX",
+     "series": "Jodhpur spot market price",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "APEDA's own live data puts it at 72%, with Haryana contributing roughly 12% and Gujarat roughly 11%",
+     "value": "12%",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "APEDA",
+     "series": "GuarGum commodity page",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "APEDA's own live data puts it at 72%, with Haryana contributing roughly 12% and Gujarat roughly 11%",
+     "value": "11%",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "APEDA",
+     "series": "GuarGum commodity page",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "Total guar seed sowing area runs to about 29 lakh hectares (2,902,732 ha)",
+     "value": "2,902,732 ha",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "APEDA / state-government data",
+     "series": "Guar seed sowing area",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "~46,200 MT/year guar gum powder capacity plus a 100% export-oriented unit for guar polymers (~39,900 TPA)",
+     "value": "46,200 MT/year",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Vikas WSP Ltd",
+     "series": "Installed capacity disclosures",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "plus a 100% export-oriented unit for guar polymers (~39,900 TPA)",
+     "value": "39,900 TPA",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Vikas WSP Ltd",
+     "series": "Installed capacity disclosures",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Guar is a rainfed summer legume that needs only 300-400mm of annual rainfall",
+     "value": "300-400mm",
+     "period": "annual",
+     "period_end": null,
+     "publisher": "Rajasthan Agricultural Competitiveness Project",
+     "series": "Guar value-chain analysis",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "India supplies roughly 80% of the world's guar gum, per APEDA's own data",
+     "value": "80%",
+     "period": null,
+     "period_end": null,
+     "publisher": "APEDA",
+     "series": "Global guar gum production share",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "guar gum exports peaked at $3.5 billion in 2012-13 on a US shale-fracking demand spike",
+     "value": "$3.5 billion",
+     "period": "2012-13",
+     "period_end": "2013-03-31",
+     "publisher": "APEDA / DGCIS",
+     "series": "Guar gum export value",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "crashed to $467 million within four years when that demand evaporated",
+     "value": "$467 million",
+     "period": "2016-17",
+     "period_end": "2017-03-31",
+     "publisher": "APEDA / DGCIS",
+     "series": "Guar gum export value",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "sat at $541.65 million in 2023-24",
+     "value": "$541.65 million (417,674 MT)",
+     "period": "2023-24",
+     "period_end": "2024-03-31",
+     "publisher": "APEDA",
+     "series": "Guar gum export value and volume",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "India's guar gum export value, $550.12 million (474,519.44 MT) in 2024-25",
+     "value": "$550.12 million (474,519.44 MT)",
+     "period": "2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "APEDA / DGCIS",
+     "series": "Guar gum export value and volume",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "India's guar gum exports went from ₹121 crore ($20.2 million) in 2003-04 to ₹21,287 crore ($3.5 billion) in 2012-13",
+     "value": "₹121 crore (~$20.2M)",
+     "period": "2003-04",
+     "period_end": "2004-03-31",
+     "publisher": "APEDA",
+     "series": "Guar gum export value",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "guar seed prices went from roughly ₹3,000/quintal to a peak of ₹30,000/quintal in March 2012",
+     "value": "₹3,000/quintal (roughly)",
+     "period": null,
+     "period_end": null,
+     "publisher": "AgriBazaar, Business Standard, BankBazaar",
+     "series": "Guar seed price",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "guar seed prices ... peak of ₹30,000/quintal in March 2012",
+     "value": "₹30,000/quintal",
+     "period": "March 2012",
+     "period_end": "2012-03-31",
+     "publisher": "AgriBazaar, Business Standard, BankBazaar",
+     "series": "Guar seed price",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "guar seed prices ... trough January 2015, ₹4,200/quintal",
+     "value": "₹4,200/quintal",
+     "period": "January 2015",
+     "period_end": "2015-01-31",
+     "publisher": "AgriBazaar, Business Standard, BankBazaar",
+     "series": "Guar seed price",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "guar gum itself peaked around $11,135 a tonne",
+     "value": "$11,135/tonne",
+     "period": "2012",
+     "period_end": "2012-12-31",
+     "publisher": "Tridge, CEIC Data",
+     "series": "Guar gum price",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "guar gum traded in a ₹8,440-11,671/quintal band on NCDEX's Jodhpur spot market through 2024-25",
+     "value": "₹8,440-11,671/quintal",
+     "period": "2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "NCDEX",
+     "series": "Guar gum spot price",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "APEDA's own live data puts [Rajasthan's share of national production] at 72%, with Haryana contributing roughly 12% and Gujarat roughly 11%",
+     "value": "72% (Rajasthan), 12% (Haryana), 11% (Gujarat)",
+     "period": null,
+     "period_end": null,
+     "publisher": "APEDA",
+     "series": "Guar seed production share by state",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "total guar seed sowing area runs to about 29 lakh hectares (2,902,732 ha)",
+     "value": "29 lakh hectares (2,902,732 ha)",
+     "period": null,
+     "period_end": null,
+     "publisher": "APEDA / state-government data",
+     "series": "Guar seed sowing area",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Vikas WSP Ltd ... ~46,200 MT/year guar gum powder capacity",
+     "value": "46,200 MT/year",
+     "period": null,
+     "period_end": null,
+     "publisher": "Vikas WSP Ltd (NSE/BSE disclosures)",
+     "series": "Guar gum powder production capacity",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Vikas WSP Ltd ... a 100% export-oriented unit for guar polymers (~39,900 TPA)",
+     "value": "39,900 TPA",
+     "period": null,
+     "period_end": null,
+     "publisher": "Vikas WSP Ltd (NSE/BSE disclosures)",
+     "series": "Guar polymer production capacity",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "guar is a rainfed summer legume that needs only 300-400mm of annual rainfall",
+     "value": "300-400mm",
+     "period": null,
+     "period_end": null,
+     "publisher": "Rajasthan Agricultural Competitiveness Project",
+     "series": "Rainfall requirement for guar cultivation",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "APEDA's own page states that roughly 90% of the guar gum India processes is exported",
+     "value": "90%",
+     "period": null,
+     "period_end": null,
+     "publisher": "APEDA",
+     "series": "Guar gum export share",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "roughly 90% of those exports still go to oil and shale-gas extraction industries",
+     "value": "90%",
+     "period": null,
+     "period_end": null,
+     "publisher": "APEDA",
+     "series": "Guar gum export end-use distribution",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "guar seed price, ₹4,776/quintal April 2026",
+     "value": "₹4,776/quintal",
+     "period": "April 2026",
+     "period_end": "2026-04-30",
+     "publisher": "AgriBazaar, Business Standard, BankBazaar",
+     "series": "Guar seed price",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "guar gum's 2024-25 NCDEX Jodhpur spot-price band through 2024-25, ₹5,100-5,500/quintal 2024",
+     "value": "₹5,100-5,500/quintal",
+     "period": "2024",
+     "period_end": "2024-12-31",
+     "publisher": "NCDEX",
+     "series": "Guar gum spot price",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "India still dominates the trade — APEDA's own page puts India at 80% of world guar produce",
+     "value": "80%",
+     "period": null,
+     "period_end": null,
+     "publisher": "APEDA",
+     "series": "Global guar gum production share",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India's guar gum export value, 2020-21: ₹1,949 crore (~$260M)",
+     "value": "₹1,949 crore (~$260M)",
+     "period": "2020-21",
+     "period_end": "2021-03-31",
+     "publisher": "APEDA",
+     "series": "Guar gum export value",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "guar gum exports ... partial recovery, +2.67% YoY by volume, per APEDA",
+     "value": "+2.67% YoY",
+     "period": "2023-24",
+     "period_end": "2024-03-31",
+     "publisher": "APEDA",
+     "series": "Guar gum export volume growth rate",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "2025-26 destination countries for guar gum: Germany, the US, Russia, Norway and China",
+     "value": "Germany, US, Russia, Norway, China",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "APEDA",
+     "series": "Guar gum export destinations",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "guar gum's viscosity properties made it a critical ... fracking-fluid additive. ~90% of exports still go to oil & shale-gas industries",
+     "value": "90%",
+     "period": null,
+     "period_end": null,
+     "publisher": "APEDA",
+     "series": "Guar gum export end-use distribution",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "guar gum exports ... 2016-17: ~$467 million",
+     "value": "~$467 million",
+     "period": "2016-17",
+     "period_end": "2017-03-31",
+     "publisher": "APEDA / DGCIS",
+     "series": "Guar gum export value",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "guar gum exports ... 2020-21: ₹1,949 crore (~$260M)",
+     "value": "₹1,949 crore (~$260M)",
+     "period": "2020-21",
+     "period_end": "2021-03-31",
+     "publisher": "APEDA",
+     "series": "Guar gum export value",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "guar gum exports ... 2023-24: $541.65 million (417,674 MT)",
+     "value": "$541.65 million (417,674 MT)",
+     "period": "2023-24",
+     "period_end": "2024-03-31",
+     "publisher": "APEDA",
+     "series": "Guar gum export value and volume",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "guar gum exports ... 2024-25: $550.12 million (474,519.44 MT)",
+     "value": "$550.12 million (474,519.44 MT)",
+     "period": "2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "APEDA / DGCIS",
+     "series": "Guar gum export value and volume",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "guar gum's 2012 dollar peak and its 2024-25 NCDEX Jodhpur spot-price band",
+     "value": "$11,135/tonne (2012 peak)",
+     "period": "2012",
+     "period_end": "2012-12-31",
+     "publisher": "Tridge, CEIC Data",
+     "series": "Guar gum price",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "guar gum traded in a ₹8,440-11,671/quintal band on NCDEX's Jodhpur spot market through 2024-25",
+     "value": "₹5,100-5,500/quintal (2024)",
+     "period": "2024",
+     "period_end": "2024-12-31",
+     "publisher": "NCDEX",
+     "series": "Guar gum spot price",
+     "frequency": "annual",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

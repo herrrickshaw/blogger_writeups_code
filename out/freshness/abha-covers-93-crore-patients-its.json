@@ -1,0 +1,490 @@
+{
+ "slug": "abha-covers-93-crore-patients-its",
+ "text_sha1": "adb5442200601338",
+ "chars": 14293,
+ "checked": "2026-10-23T10:25:19",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "93+cr ABHA patient accounts, mid-2026",
+     "value": "93+ crore",
+     "period": "mid-2026",
+     "period_end": "2026-06-30",
+     "publisher": "PIB / ministry",
+     "series": "ABHA / ABDM",
+     "frequency": "live",
+     "headline": true
+    },
+    {
+     "quote": "67% Share of India's ~1.42 crore registered doctors who also hold a Healthcare Professional ID (HPR)",
+     "value": "67%",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "PIB / ministry",
+     "series": "Healthcare Professionals Registry (HPR)",
+     "frequency": "live",
+     "headline": true
+    },
+    {
+     "quote": "95%+ Share of Estonia's doctors actively using its national EHR, a system live since 2008",
+     "value": "95%+",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "Invest in Estonia",
+     "series": "National Health Information System (X-Road)",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "roughly 97.6 crore ABHA IDs and 119.95 crore linked health records as of 17 September 2026",
+     "value": "97.6 crore ABHA IDs",
+     "period": "as on 17 Sep 2026",
+     "period_end": "2026-09-17",
+     "publisher": "PIB / ministry",
+     "series": "ABHA / ABDM",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "roughly 97.6 crore ABHA IDs and 119.95 crore linked health records as of 17 September 2026",
+     "value": "119.95 crore linked health records",
+     "period": "as on 17 Sep 2026",
+     "period_end": "2026-09-17",
+     "publisher": "PIB / ministry",
+     "series": "ABHA / ABDM",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "~100% of residents",
+     "value": "~100%",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "Invest in Estonia",
+     "series": "National Health Information System (X-Road)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "96% recognition; CPR-linked for all residents",
+     "value": "96%",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "Healthcare Denmark",
+     "series": "Sundhed.dk / Shared Medication Record",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "96%+ (55M+ people), <5% opted out",
+     "value": "96%+",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "NHS England",
+     "series": "Summary Care Record",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "55M+ people",
+     "value": "55 million+",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "NHS England",
+     "series": "Summary Care Record",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "<5% opted out",
+     "value": "<5%",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "NHS England",
+     "series": "Summary Care Record",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "90.1% (opt-out since 2019)",
+     "value": "90.1%",
+     "period": "May 2024",
+     "period_end": "2024-05-31",
+     "publisher": "Australian Digital Health Agency",
+     "series": "My Health Record",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "23.21 crore Scan-and-Share tokens actually generated",
+     "value": "23.21 crore",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "PIB / ministry",
+     "series": "ABHA / ABDM",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "enrolled over 950,000 doctors as of 2026",
+     "value": "950,000+",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "PIB / ministry",
+     "series": "Healthcare Professionals Registry (HPR)",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "National Medical Commission count of roughly 1,421,853 total registered doctors in India (Indian Medical Register, April 2026)",
+     "value": "1,421,853",
+     "period": "April 2026",
+     "period_end": "2026-04-30",
+     "publisher": "MoSPI",
+     "series": "Indian Medical Register",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "roughly 80,000 SCR views a week",
+     "value": "80,000",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "NHS England",
+     "series": "Summary Care Record",
+     "frequency": "weekly",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "India's ABHA has 93+ crore patient accounts — a bigger number than Estonia's entire population, several times over.",
+     "value": "93+ crore",
+     "period": "mid-2026",
+     "period_end": "2026-06-30",
+     "publisher": "PIB (Press Information Bureau)",
+     "series": "ABHA (Ayushman Bharat Health Account) patient accounts",
+     "frequency": "live",
+     "headline": true
+    },
+    {
+     "quote": "The 93+ crore accounts / 104+ crore records figures... now superseded... puts the count at roughly 97.6 crore ABHA IDs and 119.95 crore linked health records as of 17 September 2026",
+     "value": "97.6 crore ABHA IDs",
+     "period": "as of 17 September 2026",
+     "period_end": "2026-09-17",
+     "publisher": "PIB",
+     "series": "ABHA (Ayushman Bharat Digital Mission) patient accounts",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The 93+ crore accounts / 104+ crore records figures... now superseded... puts the count at roughly 97.6 crore ABHA IDs and 119.95 crore linked health records as of 17 September 2026",
+     "value": "119.95 crore linked health records",
+     "period": "as of 17 September 2026",
+     "period_end": "2026-09-17",
+     "publisher": "PIB",
+     "series": "ABHA (Ayushman Bharat Digital Mission) linked health records",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "only 67% of India's registered doctors have a matching Healthcare Professional ID",
+     "value": "67%",
+     "period": null,
+     "period_end": null,
+     "publisher": "HPR (Healthcare Professionals Registry) / NMC (National Medical Commission)",
+     "series": "Healthcare Professional ID (HPID) coverage among registered doctors",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "HPR... had enrolled over 950,000 doctors as of 2026, against a National Medical Commission count of roughly 1,421,853 total registered doctors in India",
+     "value": "950,000+ doctors enrolled in HPR",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "NMC (National Medical Commission)",
+     "series": "Indian Medical Register (HPR enrolment)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "HPR... had enrolled over 950,000 doctors as of 2026, against a National Medical Commission count of roughly 1,421,853 total registered doctors in India",
+     "value": "1,421,853 total registered doctors in India",
+     "period": "April 2026",
+     "period_end": "2026-04-30",
+     "publisher": "NMC (National Medical Commission)",
+     "series": "Indian Medical Register",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "the national insurance-claims exchange still isn't mandatory for insurers to use",
+     "value": "not mandatory",
+     "period": "as of this writing (September 2026)",
+     "period_end": "2026-09-17",
+     "publisher": "IRDAI (Insurance Regulatory and Development Authority of India)",
+     "series": "National Health Claims Exchange (NHCX) insurer participation",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "NHCX went live in June 2024... IRDAI-constituted panel has only recommended mandating NHCX integration for insurers, in August 2026",
+     "value": "June 2024",
+     "period": "NHCX launch date",
+     "period_end": "2024-06-30",
+     "publisher": "IRDAI",
+     "series": "National Health Claims Exchange (NHCX)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "IRDAI-constituted panel has only recommended mandating NHCX integration for insurers, in August 2026",
+     "value": "August 2026",
+     "period": "IRDAI panel recommendation date",
+     "period_end": "2026-08-31",
+     "publisher": "IRDAI",
+     "series": "NHCX mandatory integration recommendation",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Estonia's digital identity card... 95%+ Share of Estonia's doctors actively using its national EHR",
+     "value": "95%+",
+     "period": null,
+     "period_end": null,
+     "publisher": "Invest in Estonia",
+     "series": "Estonia national EHR doctor usage",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Estonia's digital identity card... 95%+ Share of Estonia's doctors actively using its national EHR, with the system queried roughly 2.5 million times a month",
+     "value": "2.5 million doctor queries a month",
+     "period": null,
+     "period_end": null,
+     "publisher": "Invest in Estonia",
+     "series": "Estonia national EHR monthly queries",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Denmark's Sundhed.dk / Shared Medication Record | 96% recognition; CPR-linked for all residents",
+     "value": "96% recognition",
+     "period": null,
+     "period_end": null,
+     "publisher": "Healthcare Denmark / Council of Europe",
+     "series": "Sundhed.dk population recognition",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Denmark's Sundhed.dk / Shared Medication Record | 2.3 million monthly Sundhed.dk visits",
+     "value": "2.3 million monthly unique visitors",
+     "period": null,
+     "period_end": null,
+     "publisher": "Healthcare Denmark / Council of Europe",
+     "series": "Sundhed.dk monthly unique visitors",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "UK (England) | Summary Care Record | 96%+ (55M+ people), <5% opted out",
+     "value": "96%+",
+     "period": null,
+     "period_end": null,
+     "publisher": "NHS England",
+     "series": "Summary Care Record population coverage",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "UK (England) | Summary Care Record | 96%+ (55M+ people), <5% opted out",
+     "value": "55 million+ people",
+     "period": null,
+     "period_end": null,
+     "publisher": "NHS England",
+     "series": "Summary Care Record population",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "UK (England) | Summary Care Record | ... roughly 80,000 SCR views a week by clinicians",
+     "value": "80,000 SCR views a week",
+     "period": null,
+     "period_end": null,
+     "publisher": "NHS England",
+     "series": "Summary Care Record weekly clinician views",
+     "frequency": "weekly",
+     "headline": false
+    },
+    {
+     "quote": "Australia | My Health Record | 90.1% (opt-out since 2019)",
+     "value": "90.1%",
+     "period": "as of May 2024",
+     "period_end": "2024-05-31",
+     "publisher": "Australian Digital Health Agency",
+     "series": "My Health Record participation rate",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "This blog's own ABHA piece already found the one genuinely comparable usage number — 23.21 crore Scan-and-Share tokens actually generated at real hospital visits",
+     "value": "23.21 crore Scan-and-Share tokens",
+     "period": null,
+     "period_end": null,
+     "publisher": "Blog's own reporting",
+     "series": "ABHA Scan-and-Share tokens generated",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Estonia's national EHR is used by more than 95% of the country's doctors... with the system queried roughly 2.5 million times a month",
+     "value": "~100% of residents with a digital health record (Estonia)",
+     "period": "2008",
+     "period_end": "2008-12-31",
+     "publisher": "Invest in Estonia",
+     "series": "Estonia National Health Information System (X-Road) population coverage",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "UK (England) | Summary Care Record | ... <5% opted out and roughly 80,000 SCR views a week... Single Patient Record... not due to reach patients via the NHS App until 2028",
+     "value": "2028",
+     "period": "Single Patient Record target date",
+     "period_end": "2028-12-31",
+     "publisher": "NHS England",
+     "series": "Single Patient Record NHS App rollout",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "UK (England) | Summary Care Record | ... 2010 rollout",
+     "value": "2010",
+     "period": "Summary Care Record rollout",
+     "period_end": "2010-12-31",
+     "publisher": "NHS England",
+     "series": "Summary Care Record rollout date",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Estonia's digital identity card... The same eID infrastructure underlies tax filing, voting and the national health record — one identity layer doing every job, not a health-specific one built in parallel",
+     "value": "2008",
+     "period": "X-Road live since",
+     "period_end": "2008-12-31",
+     "publisher": "Invest in Estonia",
+     "series": "Estonia X-Road infrastructure",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Denmark's CPR number has existed since 1968, decades before any digital health record",
+     "value": "1968",
+     "period": "CPR number origin",
+     "period_end": "1968-12-31",
+     "publisher": "Nordic Council of Ministers / PubMed",
+     "series": "Denmark CPR number origin",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Australia | My Health Record | 90.1% (opt-out since 2019)",
+     "value": "2019",
+     "period": "opt-out model adoption",
+     "period_end": "2019-12-31",
+     "publisher": "Australian Digital Health Agency",
+     "series": "My Health Record opt-out model",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Australia | My Health Record | 90.1% (opt-out since 2019) | 2012 (opt-in), 2019 (opt-out)",
+     "value": "2012",
+     "period": "My Health Record launch (opt-in)",
+     "period_end": "2012-12-31",
+     "publisher": "Australian Digital Health Agency",
+     "series": "My Health Record launch date",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "This blog's own ABHA piece already found the one genuinely comparable usage number — 23.21 crore Scan-and-Share tokens actually generated at real hospital visits",
+     "value": "23.21 crore Scan-and-Share tokens",
+     "period": null,
+     "period_end": null,
+     "publisher": "Blog's own reporting",
+     "series": "ABHA Scan-and-Share tokens generated at real hospital visits",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "NHCX is live, FHIR-compliant claim formats are a real technical standard already in use by early adopters",
+     "value": "June 2024",
+     "period": "NHCX live",
+     "period_end": "2024-06-30",
+     "publisher": "IRDAI",
+     "series": "National Health Claims Exchange (NHCX) launch",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "UK (England) | Summary Care Record | ... <5% opted out",
+     "value": "<5%",
+     "period": null,
+     "period_end": null,
+     "publisher": "NHS England",
+     "series": "Summary Care Record opt-out rate",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "This blog's own ABHA piece already found the one genuinely comparable usage number — 23.21 crore Scan-and-Share tokens actually generated at real hospital visits",
+     "value": "23.21 crore Scan-and-Share tokens",
+     "period": null,
+     "period_end": null,
+     "publisher": "Blog's own reporting",
+     "series": "ABHA Scan-and-Share tokens generated at real hospital visits",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "NHCX went live in June 2024 as a standardised, FHIR-based pipe for insurance claims",
+     "value": "FHIR-based",
+     "period": "June 2024",
+     "period_end": "2024-06-30",
+     "publisher": "IRDAI",
+     "series": "NHCX technical standard",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Estonia's national EHR is used by more than 95% of the country's doctors, per Invest in Estonia's own figures, with the system queried roughly 2.5 million times a month",
+     "value": "2.5 million monthly doctor queries",
+     "period": null,
+     "period_end": null,
+     "publisher": "Invest in Estonia",
+     "series": "Estonia national EHR monthly queries",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "UK (England) | Summary Care Record | ... <5% opted out and roughly 80,000 SCR views a week by clinicians in urgent and emergency care",
+     "value": "80,000 SCR views a week",
+     "period": null,
+     "period_end": null,
+     "publisher": "NHS England",
+     "series": "Summary Care Record weekly clinician views in urgent/emergency care",
+     "frequency": "weekly",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

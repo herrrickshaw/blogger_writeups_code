@@ -1,0 +1,630 @@
+{
+ "slug": "india-forest-wildlife-crz-clearances",
+ "text_sha1": "1955d764176ffb8c",
+ "chars": 7382,
+ "checked": "2026-10-23T12:29:05",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "42.0%\n Forest Clearance\n 6,134 of 14,613 decided",
+     "value": "42.0%",
+     "period": "as on 22 Jul 2026",
+     "period_end": "2026-07-22",
+     "publisher": "MoEFCC",
+     "series": "PARIVESH 2.0 Forest Clearance register",
+     "frequency": "live",
+     "headline": true
+    },
+    {
+     "quote": "31.3%\n CRZ Clearance\n 468 of 1,493 decided",
+     "value": "31.3%",
+     "period": "as on 22 Jul 2026",
+     "period_end": "2026-07-22",
+     "publisher": "MoEFCC",
+     "series": "PARIVESH 2.0 CRZ Clearance register",
+     "frequency": "live",
+     "headline": true
+    },
+    {
+     "quote": "10.7%\n Wildlife Clearance\n 517 of 4,836 decided",
+     "value": "10.7%",
+     "period": "as on 22 Jul 2026",
+     "period_end": "2026-07-22",
+     "publisher": "MoEFCC",
+     "series": "PARIVESH 2.0 Wildlife Clearance register",
+     "frequency": "live",
+     "headline": true
+    },
+    {
+     "quote": "28,999 \n 6,134 granted \n 8,479 in process \n 2,663 dead \n 11,723 delisted",
+     "value": "28,999",
+     "period": "as on 22 Jul 2026",
+     "period_end": "2026-07-22",
+     "publisher": "MoEFCC",
+     "series": "PARIVESH 2.0 Forest Clearance register",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "4,919 \n 517 granted \n 4,319 in process \n 83 dead \n 0 delisted",
+     "value": "4,919",
+     "period": "as on 22 Jul 2026",
+     "period_end": "2026-07-22",
+     "publisher": "MoEFCC",
+     "series": "PARIVESH 2.0 Wildlife Clearance register",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "2,264 \n 468 granted \n 1,025 in process \n 82 dead \n 689 delisted",
+     "value": "2,264",
+     "period": "as on 22 Jul 2026",
+     "period_end": "2026-07-22",
+     "publisher": "MoEFCC",
+     "series": "PARIVESH 2.0 CRZ Clearance register",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "49,641 ha forest land — final diversion granted",
+     "value": "49,641 ha",
+     "period": "as on 22 Jul 2026",
+     "period_end": "2026-07-22",
+     "publisher": "MoEFCC",
+     "series": "PARIVESH 2.0 Forest Clearance register",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "122,666 acres, granted",
+     "value": "122,666 acres",
+     "period": "as on 22 Jul 2026",
+     "period_end": "2026-07-22",
+     "publisher": "MoEFCC",
+     "series": "PARIVESH 2.0 Forest Clearance register",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "6,134 approved proposals of 28,999",
+     "value": "6,134",
+     "period": "as on 22 Jul 2026",
+     "period_end": "2026-07-22",
+     "publisher": "MoEFCC",
+     "series": "PARIVESH 2.0 Forest Clearance register",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "~253,720\ndeveloped-and-vacant acres",
+     "value": "~253,720 acres",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "DPIIT",
+     "series": "Industrial Information & Land Bank",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "Tripura | 44 | 108 | 184,758 |",
+     "value": "44 ha",
+     "period": "as on 22 Jul 2026",
+     "period_end": "2026-07-22",
+     "publisher": "MoEFCC",
+     "series": "PARIVESH 2.0 Forest area by state",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "Chhattisgarh | 8,061 | 19,920 | 146,970 |",
+     "value": "8,061 ha",
+     "period": "as on 22 Jul 2026",
+     "period_end": "2026-07-22",
+     "publisher": "MoEFCC",
+     "series": "PARIVESH 2.0 Forest area by state",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "Madhya Pradesh | 21,146 | 52,252 | 146,905 |",
+     "value": "21,146 ha",
+     "period": "as on 22 Jul 2026",
+     "period_end": "2026-07-22",
+     "publisher": "MoEFCC",
+     "series": "PARIVESH 2.0 Forest area by state",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "Maharashtra | 1,087 | 2,686 | 88,062 |",
+     "value": "1,087 ha",
+     "period": "as on 22 Jul 2026",
+     "period_end": "2026-07-22",
+     "publisher": "MoEFCC",
+     "series": "PARIVESH 2.0 Forest area by state",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "Andhra Pradesh | 738 | 1,824 | 71,232 |",
+     "value": "738 ha",
+     "period": "as on 22 Jul 2026",
+     "period_end": "2026-07-22",
+     "publisher": "MoEFCC",
+     "series": "PARIVESH 2.0 Forest area by state",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "Assam | 7,746 | 19,141 | 49,780 |",
+     "value": "7,746 ha",
+     "period": "as on 22 Jul 2026",
+     "period_end": "2026-07-22",
+     "publisher": "MoEFCC",
+     "series": "PARIVESH 2.0 Forest area by state",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "Odisha | 1,611 | 3,980 | 44,518 |",
+     "value": "1,611 ha",
+     "period": "as on 22 Jul 2026",
+     "period_end": "2026-07-22",
+     "publisher": "MoEFCC",
+     "series": "PARIVESH 2.0 Forest area by state",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "Arunachal Pradesh | 1,084 | 2,679 | 42,080 |",
+     "value": "1,084 ha",
+     "period": "as on 22 Jul 2026",
+     "period_end": "2026-07-22",
+     "publisher": "MoEFCC",
+     "series": "PARIVESH 2.0 Forest area by state",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "Rajasthan | 1,343 | 3,320 | 35,289 |",
+     "value": "1,343 ha",
+     "period": "as on 22 Jul 2026",
+     "period_end": "2026-07-22",
+     "publisher": "MoEFCC",
+     "series": "PARIVESH 2.0 Forest area by state",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "Meghalaya | 9 | 21 | 34,793 |",
+     "value": "9 ha",
+     "period": "as on 22 Jul 2026",
+     "period_end": "2026-07-22",
+     "publisher": "MoEFCC",
+     "series": "PARIVESH 2.0 Forest area by state",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "Jharkhand | 17 | 42 | 26,582 |",
+     "value": "17 ha",
+     "period": "as on 22 Jul 2026",
+     "period_end": "2026-07-22",
+     "publisher": "MoEFCC",
+     "series": "PARIVESH 2.0 Forest area by state",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "Karnataka | 81 | 200 | 26,109 |",
+     "value": "81 ha",
+     "period": "as on 22 Jul 2026",
+     "period_end": "2026-07-22",
+     "publisher": "MoEFCC",
+     "series": "PARIVESH 2.0 Forest area by state",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "MAHESH NAIR (likely a data-entry artifact — an individual's name, not an agency) | 1,697 |",
+     "value": "1,697 proposals",
+     "period": "as on 22 Jul 2026",
+     "period_end": "2026-07-22",
+     "publisher": "MoEFCC",
+     "series": "PARIVESH 2.0 Top user agencies (FC)",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "Jal Shakti Department | 1,223 |",
+     "value": "1,223 proposals",
+     "period": "as on 22 Jul 2026",
+     "period_end": "2026-07-22",
+     "publisher": "MoEFCC",
+     "series": "PARIVESH 2.0 Top user agencies (FC)",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "HIMACHAL PRADESH PUBLIC WORK DEPARTMENT | 769 |",
+     "value": "769 proposals",
+     "period": "as on 22 Jul 2026",
+     "period_end": "2026-07-22",
+     "publisher": "MoEFCC",
+     "series": "PARIVESH 2.0 Top user agencies (FC)",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "Public Works Department | 708 |",
+     "value": "708 proposals",
+     "period": "as on 22 Jul 2026",
+     "period_end": "2026-07-22",
+     "publisher": "MoEFCC",
+     "series": "PARIVESH 2.0 Top user agencies (FC)",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "BHARAT SANCHAR NIGAM LIMITED | 409 |",
+     "value": "409 proposals",
+     "period": "as on 22 Jul 2026",
+     "period_end": "2026-07-22",
+     "publisher": "MoEFCC",
+     "series": "PARIVESH 2.0 Top user agencies (FC)",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "Rural Development | 384 |",
+     "value": "384 proposals",
+     "period": "as on 22 Jul 2026",
+     "period_end": "2026-07-22",
+     "publisher": "MoEFCC",
+     "series": "PARIVESH 2.0 Top user agencies (FC)",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "JIO DIGITAL FIBRE PRIVATE LTD | 321 |",
+     "value": "321 proposals",
+     "period": "as on 22 Jul 2026",
+     "period_end": "2026-07-22",
+     "publisher": "MoEFCC",
+     "series": "PARIVESH 2.0 Top user agencies (FC)",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "Department of Irrigation | 279 |",
+     "value": "279 proposals",
+     "period": "as on 22 Jul 2026",
+     "period_end": "2026-07-22",
+     "publisher": "MoEFCC",
+     "series": "PARIVESH 2.0 Top user agencies (FC)",
+     "frequency": "live",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "Forest Clearance 6,134 of 14,613 decided 31.3%",
+     "value": "6,134 granted (of 14,613 decided)",
+     "period": null,
+     "period_end": null,
+     "publisher": "PARIVESH 2.0",
+     "series": "Forest Clearance register (decided cases)",
+     "frequency": "live",
+     "headline": true
+    },
+    {
+     "quote": "CRZ Clearance 468 of 1,493 decided 10.7%",
+     "value": "468 granted (of 1,493 decided)",
+     "period": null,
+     "period_end": null,
+     "publisher": "PARIVESH 2.0",
+     "series": "CRZ Clearance register (decided cases)",
+     "frequency": "live",
+     "headline": true
+    },
+    {
+     "quote": "Wildlife Clearance 517 of 4,836 decided 10.7%",
+     "value": "517 granted (of 4,836 decided)",
+     "period": null,
+     "period_end": null,
+     "publisher": "PARIVESH 2.0",
+     "series": "Wildlife Clearance register (decided cases)",
+     "frequency": "live",
+     "headline": true
+    },
+    {
+     "quote": "Grant rate of decided (granted ÷ granted+in-process): 42.0% · 36 states/UTs",
+     "value": "42.0%",
+     "period": null,
+     "period_end": null,
+     "publisher": "PARIVESH 2.0",
+     "series": "Forest Clearance grant rate (decided cases)",
+     "frequency": "live",
+     "headline": true
+    },
+    {
+     "quote": "Grant rate of decided: 10.7% · 36 states/UTs",
+     "value": "10.7%",
+     "period": null,
+     "period_end": null,
+     "publisher": "PARIVESH 2.0",
+     "series": "Wildlife Clearance grant rate (decided cases)",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "Grant rate of decided: 31.3% · 17 states/UTs",
+     "value": "31.3%",
+     "period": null,
+     "period_end": null,
+     "publisher": "PARIVESH 2.0",
+     "series": "CRZ Clearance grant rate (decided cases)",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "28,999 [Forest Clearance total proposals]",
+     "value": "28,999",
+     "period": null,
+     "period_end": null,
+     "publisher": "PARIVESH 2.0",
+     "series": "Forest Clearance register (total proposals)",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "6,134 granted [Forest Clearance]",
+     "value": "6,134 granted",
+     "period": null,
+     "period_end": null,
+     "publisher": "PARIVESH 2.0",
+     "series": "Forest Clearance register (granted)",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "8,479 in process [Forest Clearance]",
+     "value": "8,479 in process",
+     "period": null,
+     "period_end": null,
+     "publisher": "PARIVESH 2.0",
+     "series": "Forest Clearance register (in-process)",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "2,663 dead [Forest Clearance]",
+     "value": "2,663 dead",
+     "period": null,
+     "period_end": null,
+     "publisher": "PARIVESH 2.0",
+     "series": "Forest Clearance register (dead cases)",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "11,723 delisted [Forest Clearance]",
+     "value": "11,723 delisted",
+     "period": null,
+     "period_end": null,
+     "publisher": "PARIVESH 2.0",
+     "series": "Forest Clearance register (delisted cases)",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "4,919 [Wildlife Clearance total proposals]",
+     "value": "4,919",
+     "period": null,
+     "period_end": null,
+     "publisher": "PARIVESH 2.0",
+     "series": "Wildlife Clearance register (total proposals)",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "517 granted [Wildlife Clearance]",
+     "value": "517 granted",
+     "period": null,
+     "period_end": null,
+     "publisher": "PARIVESH 2.0",
+     "series": "Wildlife Clearance register (granted)",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "4,319 in process [Wildlife Clearance]",
+     "value": "4,319 in process",
+     "period": null,
+     "period_end": null,
+     "publisher": "PARIVESH 2.0",
+     "series": "Wildlife Clearance register (in-process)",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "83 dead [Wildlife Clearance]",
+     "value": "83 dead",
+     "period": null,
+     "period_end": null,
+     "publisher": "PARIVESH 2.0",
+     "series": "Wildlife Clearance register (dead cases)",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "2,264 [CRZ Clearance total proposals]",
+     "value": "2,264",
+     "period": null,
+     "period_end": null,
+     "publisher": "PARIVESH 2.0",
+     "series": "CRZ Clearance register (total proposals)",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "468 granted [CRZ Clearance]",
+     "value": "468 granted",
+     "period": null,
+     "period_end": null,
+     "publisher": "PARIVESH 2.0",
+     "series": "CRZ Clearance register (granted)",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "1,025 in process [CRZ Clearance]",
+     "value": "1,025 in process",
+     "period": null,
+     "period_end": null,
+     "publisher": "PARIVESH 2.0",
+     "series": "CRZ Clearance register (in-process)",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "82 dead [CRZ Clearance]",
+     "value": "82 dead",
+     "period": null,
+     "period_end": null,
+     "publisher": "PARIVESH 2.0",
+     "series": "CRZ Clearance register (dead cases)",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "689 delisted [CRZ Clearance]",
+     "value": "689 delisted",
+     "period": null,
+     "period_end": null,
+     "publisher": "PARIVESH 2.0",
+     "series": "CRZ Clearance register (delisted cases)",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "49,641 ha forest land — final diversion granted",
+     "value": "49,641 hectares",
+     "period": null,
+     "period_end": null,
+     "publisher": "PARIVESH 2.0",
+     "series": "Forest land with final diversion orders granted",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "122,666 acres, granted",
+     "value": "122,666 acres",
+     "period": null,
+     "period_end": null,
+     "publisher": "PARIVESH 2.0",
+     "series": "Forest land with final diversion orders granted (converted to acres)",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "~253,720 developed-and-vacant acres (Industrial Information & Land Bank)",
+     "value": "253,720 acres",
+     "period": "2026-07-22",
+     "period_end": "2026-07-22",
+     "publisher": "Industrial Information & Land Bank (likely MoHUA or DPIIT)",
+     "series": "National Industrial Land Bank (developed-and-vacant acres)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "1.05 million ha in the pipeline (inflated by delisted applications and one ~74,000-ha outlier)",
+     "value": "1,050,000 hectares (pipeline)",
+     "period": null,
+     "period_end": null,
+     "publisher": "PARIVESH 2.0",
+     "series": "Forest Clearance pipeline (all statuses)",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "~74,000-ha outlier [in pipeline]",
+     "value": "74,000 hectares",
+     "period": null,
+     "period_end": null,
+     "publisher": "PARIVESH 2.0",
+     "series": "Forest Clearance pipeline outlier",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "Tripura | 44 | 108 | 184,758",
+     "value": "184,758 hectares (pipeline)",
+     "period": null,
+     "period_end": null,
+     "publisher": "PARIVESH 2.0",
+     "series": "Forest Clearance pipeline by state (Tripura)",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "Chhattisgarh | 8,061 | 19,920 | 146,970",
+     "value": "146,970 hectares (pipeline)",
+     "period": null,
+     "period_end": null,
+     "publisher": "PARIVESH 2.0",
+     "series": "Forest Clearance pipeline by state (Chhattisgarh)",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "Madhya Pradesh | 21,146 | 52,252 | 146,905",
+     "value": "146,905 hectares (pipeline)",
+     "period": null,
+     "period_end": null,
+     "publisher": "PARIVESH 2.0",
+     "series": "Forest Clearance pipeline by state (Madhya Pradesh)",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "MAHESH NAIR | 1,697 [proposals]",
+     "value": "1,697 proposals",
+     "period": null,
+     "period_end": null,
+     "publisher": "PARIVESH 2.0",
+     "series": "Forest Clearance proposals by user agency (likely data artifact)",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "Jal Shakti Department | 1,223 [proposals]",
+     "value": "1,223 proposals",
+     "period": null,
+     "period_end": null,
+     "publisher": "PARIVESH 2.0",
+     "series": "Forest Clearance proposals by user agency",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "25,546 fresh (Form-A) · 2,097 re-diversion (Form-E) · 213 renewal · 261 transfer [Forest Clearance]",
+     "value": "25,546 (Form-A), 2,097 (Form-E), 213 (renewal), 261 (transfer)",
+     "period": null,
+     "period_end": null,
+     "publisher": "PARIVESH 2.0",
+     "series": "Forest Clearance proposals by type",
+     "frequency": "live",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

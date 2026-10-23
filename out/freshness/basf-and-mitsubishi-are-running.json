@@ -1,0 +1,430 @@
+{
+ "slug": "basf-and-mitsubishi-are-running",
+ "text_sha1": "f4f5b882836e52b9",
+ "chars": 11297,
+ "checked": "2026-10-23T10:37:47",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "Rice yield under Japan's dual-axis solar array climbed from 75% to 85% of a conventional paddy's yield across two growing seasons",
+     "value": "75% to 85%",
+     "period": "2025",
+     "period_end": "2023-12-31",
+     "publisher": "Journal of Photonics for Energy",
+     "series": "Miyada-mura agrivoltaic pilot",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "Verra invalidated 37 rice-methane projects and 4.5 million credits in 2024",
+     "value": "37 projects and 4.5 million credits",
+     "period": "2024",
+     "period_end": "2024-12-31",
+     "publisher": "Verra",
+     "series": "Rice-methane project registry",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "BASF's global target of a 30% GHG cut from rice cultivation",
+     "value": "30%",
+     "period": null,
+     "period_end": null,
+     "publisher": "BASF",
+     "series": "Global GHG cut target",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "TGRA alliance | Bayer, GenZero (Temasek), Shell, Mitsubishi | Four-company consortium, AWD + Direct Seeded Rice (DSR) across 9 Indian states, 10,000+ farmers enrolled covering 25,000+ hectares",
+     "value": "9 Indian states, 10,000+ farmers, 25,000+ hectares",
+     "period": null,
+     "period_end": null,
+     "publisher": "TGRA alliance",
+     "series": "TGRA alliance enrollment",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "AWD cuts methane emissions from flooded rice paddies by roughly 30-70% by periodically letting fields dry",
+     "value": "30-70%",
+     "period": null,
+     "period_end": null,
+     "publisher": "IRRI",
+     "series": "GHG Mitigation in Rice programme",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Gold Standard's rice carbon methodology, launched in July 2023 and still active today",
+     "value": "July 2023",
+     "period": "July 2023",
+     "period_end": "2023-07-31",
+     "publisher": "Gold Standard",
+     "series": "Rice carbon methodology",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "In August 2024, Verra — the largest voluntary carbon standard — invalidated 37 rice-methane projects representing 4.5 million credits, effectively all (99.9%) of the rice credits it had ever issued",
+     "value": "99.9%",
+     "period": "August 2024",
+     "period_end": "2024-08-31",
+     "publisher": "Verra",
+     "series": "Rice-methane project invalidation",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Over two growing seasons, rice yield under the panels reached 75% and then 85% of a conventional nearby paddy's yield",
+     "value": "75% and 85%",
+     "period": "2025",
+     "period_end": "2023-12-31",
+     "publisher": "Journal of Photonics for Energy",
+     "series": "Miyada-mura agrivoltaic pilot",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The panels themselves generated close to 44,000 kWh a year, an efficiency (961.4 kWh per installed kW)",
+     "value": "44,000 kWh a year, 961.4 kWh per installed kW",
+     "period": "2025",
+     "period_end": "2023-12-31",
+     "publisher": "Journal of Photonics for Energy",
+     "series": "Miyada-mura agrivoltaic pilot generation",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Japan had approved 6,137 agrivoltaic sites covering 1,361.6 hectares of farmland by the end of fiscal 2023",
+     "value": "6,137 sites, 1,361.6 hectares",
+     "period": "FY2023",
+     "period_end": "2024-03-31",
+     "publisher": "Government of Japan",
+     "series": "Agrivoltaic site approvals",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "energy company Idemitsu has built the country's first next-generation 2MW agrivoltaic plant",
+     "value": "2MW",
+     "period": null,
+     "period_end": null,
+     "publisher": "Idemitsu",
+     "series": "Agrivoltaic plant capacity",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "Rice yield under Japan's dual-axis solar array climbed from 75% to 85% of a conventional paddy's yield across two growing seasons",
+     "value": "75% and 85% of conventional paddy yield",
+     "period": "Season 1 and Season 2",
+     "period_end": "2025-06-30",
+     "publisher": "Journal of Photonics for Energy",
+     "series": "Miyada-mura agrivoltaic pilot study",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "the panels themselves generated close to 44,000 kWh a year, an efficiency (961.4 kWh per installed kW)",
+     "value": "44,000 kWh/year and 961.4 kWh per installed kW",
+     "period": null,
+     "period_end": null,
+     "publisher": "Journal of Photonics for Energy",
+     "series": "Miyada-mura agrivoltaic pilot study",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Japan had approved 6,137 agrivoltaic sites covering 1,361.6 hectares of farmland by the end of fiscal 2023",
+     "value": "6,137 sites and 1,361.6 hectares",
+     "period": "FY2023",
+     "period_end": "2023-03-31",
+     "publisher": "pv magazine",
+     "series": "Japan’s national agrivoltaic site approvals",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "BASF's global target of a 30% GHG cut from rice cultivation",
+     "value": "30% GHG reduction",
+     "period": null,
+     "period_end": null,
+     "publisher": "BASF",
+     "series": "Global agriculture sustainability targets",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Bilateral, Odisha & Jharkhand, 2-year AWD emissions trial (started August 2025)",
+     "value": "2-year trial in Odisha & Jharkhand (started August 2025)",
+     "period": "August 2025 – August 2027",
+     "period_end": "2027-08-31",
+     "publisher": "BASF",
+     "series": "BASF-ICAR-CRRI trial programme",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "TGRA alliance ... covering 25,000+ hectares",
+     "value": "25,000+ hectares",
+     "period": null,
+     "period_end": null,
+     "publisher": "Agro Spectrum India / Business Standard",
+     "series": "TGRA alliance farmer enrolment",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Verra invalidated 37 rice-methane projects and 4.5 million credits in 2024",
+     "value": "37 projects and 4.5 million credits",
+     "period": "2024",
+     "period_end": "2024-12-31",
+     "publisher": "Verra",
+     "series": "Verra rice-methane project invalidations",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "Rice credits had made up nearly a third of all agricultural credits in the voluntary carbon market before the collapse",
+     "value": "~33% of agricultural credits",
+     "period": null,
+     "period_end": null,
+     "publisher": "RMI / S&P Global",
+     "series": "Voluntary carbon market composition",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "IRRI climate scientists contributed the stratification methodology ... Gold Standard's rice carbon methodology, launched in July 2023",
+     "value": "July 2023",
+     "period": "July 2023",
+     "period_end": "2023-07-31",
+     "publisher": "Gold Standard / IRRI",
+     "series": "Gold Standard rice carbon methodology",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "AWD cuts methane emissions from flooded rice paddies by roughly 30-70%",
+     "value": "30-70% methane reduction",
+     "period": null,
+     "period_end": null,
+     "publisher": "IRRI",
+     "series": "GHG Mitigation in Rice programme",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Verra's replacement methodology, VM0051, launched in early 2025",
+     "value": "VM0051 (early 2025)",
+     "period": "Early 2025",
+     "period_end": "2025-03-31",
+     "publisher": "Verra",
+     "series": "VM0051 methodology",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "only one project had registered under [VM0051] ... had not yet issued a single credit",
+     "value": "1 registered project, 0 issued credits (as of mid-2025)",
+     "period": "Mid-2025",
+     "period_end": "2025-06-30",
+     "publisher": "Verra / RMI",
+     "series": "VM0051 project registration and issuance",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "TGRA alliance ... 10,000+ farmers enrolled",
+     "value": "10,000+ farmers",
+     "period": null,
+     "period_end": null,
+     "publisher": "Agro Spectrum India / Business Standard",
+     "series": "TGRA alliance farmer enrolment",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "four-company consortium ... across 9 Indian states",
+     "value": "9 Indian states",
+     "period": null,
+     "period_end": null,
+     "publisher": "Agro Spectrum India / Business Standard",
+     "series": "TGRA alliance scope",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Verra invalidated ... 37 rice-methane projects representing 4.5 million credits ... after a 17-month review",
+     "value": "17-month review period",
+     "period": "2023–2024",
+     "period_end": "2024-01-31",
+     "publisher": "Verra",
+     "series": "Verra rice-methane project review",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Verra also sanctioned four verification bodies over the failures",
+     "value": "4 verification bodies sanctioned",
+     "period": "August 2024",
+     "period_end": "2024-08-31",
+     "publisher": "Verra",
+     "series": "Verification body sanctions",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "the large majority of [Verra rice] projects in China",
+     "value": "Majority in China (implied)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Verra / RMI",
+     "series": "Verra rice-methane project geography",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "the panels adjusting tilt daily and seasonally — favouring more light-through during the growing season",
+     "value": "Dual-axis sun-tracking array",
+     "period": null,
+     "period_end": null,
+     "publisher": "Journal of Photonics for Energy",
+     "series": "Miyada-mura agrivoltaic pilot design",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Idemitsu has built the country's first next-generation 2MW agrivoltaic plant",
+     "value": "2MW agrivoltaic plant",
+     "period": null,
+     "period_end": null,
+     "publisher": "pv magazine",
+     "series": "Idemitsu agrivoltaic plant",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Verra invalidated ... 99.9% of the rice credits it had ever issued",
+     "value": "99.9% of rice credits invalidated",
+     "period": "2024",
+     "period_end": "2024-12-31",
+     "publisher": "Verra",
+     "series": "Verra rice-credit invalidation rate",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "the panels suspended three metres above a working rice paddy",
+     "value": "3 metres above paddy",
+     "period": null,
+     "period_end": null,
+     "publisher": "Journal of Photonics for Energy",
+     "series": "Miyada-mura agrivoltaic pilot design",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "rice yield under the panels reached 75% and then 85% of a conventional nearby paddy's yield",
+     "value": "75% and 85% of conventional yield",
+     "period": "Season 1 and Season 2",
+     "period_end": "2025-06-30",
+     "publisher": "Journal of Photonics for Energy",
+     "series": "Miyada-mura agrivoltaic pilot yield",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "the panels generated close to 44,000 kWh a year, an efficiency (961.4 kWh per installed kW)",
+     "value": "961.4 kWh per installed kW",
+     "period": null,
+     "period_end": null,
+     "publisher": "Journal of Photonics for Energy",
+     "series": "Miyada-mura agrivoltaic pilot efficiency",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "the large majority of projects in China",
+     "value": "Majority of rice-methane projects in China",
+     "period": null,
+     "period_end": null,
+     "publisher": "Verra / RMI",
+     "series": "Verra rice-methane project geography",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "the panels adjusting tilt daily and seasonally — favouring more light-through during the growing season, maximising power generation in the off-season",
+     "value": "Daily and seasonal tilt adjustment",
+     "period": null,
+     "period_end": null,
+     "publisher": "Journal of Photonics for Energy",
+     "series": "Miyada-mura agrivoltaic pilot design",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "the panels themselves generated close to 44,000 kWh a year",
+     "value": "44,000 kWh/year",
+     "period": null,
+     "period_end": null,
+     "publisher": "Journal of Photonics for Energy",
+     "series": "Miyada-mura agrivoltaic pilot energy generation",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Verra's replacement methodology, VM0051, launched in early 2025 with stronger additionality tests",
+     "value": "VM0051 (early 2025)",
+     "period": "Early 2025",
+     "period_end": "2025-03-31",
+     "publisher": "Verra",
+     "series": "VM0051 methodology launch",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "the large majority of projects in China",
+     "value": "Majority of rice-methane projects in China",
+     "period": null,
+     "period_end": null,
+     "publisher": "Verra / RMI",
+     "series": "Verra rice-methane project geography",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "the panels generated close to 44,000 kWh a year, an efficiency (961.4 kWh per installed kW) that compares well against similar European agrivoltaic systems",
+     "value": "961.4 kWh per installed kW",
+     "period": null,
+     "period_end": null,
+     "publisher": "Journal of Photonics for Energy",
+     "series": "Miyada-mura agrivoltaic pilot efficiency comparison",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "the panels adjusting tilt daily and seasonally — favouring more light-through during the growing season",
+     "value": "Daily and seasonal tilt adjustment",
+     "period": null,
+     "period_end": null,
+     "publisher": "Journal of Photonics for Energy",
+     "series": "Miyada-mura agrivoltaic pilot design",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

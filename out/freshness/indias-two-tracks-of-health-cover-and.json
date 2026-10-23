@@ -1,0 +1,370 @@
+{
+ "slug": "indias-two-tracks-of-health-cover-and",
+ "text_sha1": "825cbd1a6f62a806",
+ "chars": 13430,
+ "checked": "2026-10-23T14:42:37",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "PM-JAY's 43.52-crore-card, all-36-state reach and the private sector's GST-driven 29.7% premium surge are both real",
+     "value": "43.52 crore cards",
+     "period": "June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "PIB / ministry",
+     "series": "Ayushman Bharat PM-JAY dashboard",
+     "frequency": "live",
+     "headline": true
+    },
+    {
+     "quote": "PM-JAY's 43.52-crore-card, all-36-state reach and the private sector's GST-driven 29.7% premium surge are both real",
+     "value": "29.7%",
+     "period": "Oct–Mar 2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "IRDAI",
+     "series": "Individual health insurance premium growth",
+     "frequency": "half-yearly",
+     "headline": true
+    },
+    {
+     "quote": "Individual health insurance premiums (including family floater) grew 29.7% in the October–March 2025-26 period, against 7.0% growth in the same period a year earlier",
+     "value": "7.0%",
+     "period": "Oct–Mar 2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "IRDAI",
+     "series": "Individual health insurance premium growth",
+     "frequency": "half-yearly",
+     "headline": true
+    },
+    {
+     "quote": "Individual life insurance saw a smaller but still real acceleration, 11.2% versus 7.7%.",
+     "value": "11.2%",
+     "period": "Oct–Mar 2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "IRDAI",
+     "series": "Individual life insurance premium growth",
+     "frequency": "half-yearly",
+     "headline": true
+    },
+    {
+     "quote": "Individual life insurance saw a smaller but still real acceleration, 11.2% versus 7.7%.",
+     "value": "7.7%",
+     "period": "Oct–Mar 2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "IRDAI",
+     "series": "Individual life insurance premium growth",
+     "frequency": "half-yearly",
+     "headline": true
+    },
+    {
+     "quote": "Ayushman Bharat PM-JAY has issued over 48.5 crore cards",
+     "value": "48.5 crore cards",
+     "period": "as on 23 September 2026",
+     "period_end": "2026-09-23",
+     "publisher": "PIB / ministry",
+     "series": "Ayushman Bharat PM-JAY dashboard",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "As of this piece's original reporting, 43.52 crore Ayushman cards had been created nationally, with 12.69 crore cumulative hospital admissions authorised as of 30 June 2026 and over ₹1.92 lakh crore in approved claims.",
+     "value": "12.69 crore",
+     "period": "as on 30 June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "PIB / ministry",
+     "series": "Ayushman Bharat PM-JAY hospital admissions",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "As of this piece's original reporting, 43.52 crore Ayushman cards had been created nationally, with 12.69 crore cumulative hospital admissions authorised as of 30 June 2026 and over ₹1.92 lakh crore in approved claims.",
+     "value": "₹1.92 lakh crore",
+     "period": "as on 30 June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "PIB / ministry",
+     "series": "Ayushman Bharat PM-JAY approved claims",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "the government reported over 48.54 crore Ayushman cards created, 13.25 crore hospital admissions funded (as of 31 August 2026), and ₹2.03 lakh crore in treatment support",
+     "value": "48.54 crore cards",
+     "period": "23 September 2026",
+     "period_end": "2026-09-23",
+     "publisher": "PIB / ministry",
+     "series": "Ayushman Bharat PM-JAY dashboard",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "the government reported over 48.54 crore Ayushman cards created, 13.25 crore hospital admissions funded (as of 31 August 2026), and ₹2.03 lakh crore in treatment support",
+     "value": "13.25 crore admissions",
+     "period": "as on 31 Aug 2026",
+     "period_end": "2026-08-31",
+     "publisher": "PIB / ministry",
+     "series": "Ayushman Bharat PM-JAY hospital admissions",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "the government reported over 48.54 crore Ayushman cards created, 13.25 crore hospital admissions funded (as of 31 August 2026), and ₹2.03 lakh crore in treatment support",
+     "value": "₹2.03 lakh crore",
+     "period": "23 September 2026",
+     "period_end": "2026-09-23",
+     "publisher": "PIB / ministry",
+     "series": "Ayushman Bharat PM-JAY treatment support",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "bringing an estimated 1.43 crore families (roughly 6 crore individuals) into the scheme.",
+     "value": "1.43 crore families",
+     "period": "June 2026",
+     "period_end": "2026-06-08",
+     "publisher": "National Health Authority",
+     "series": "Ayushman Bharat PM-JAY state implementation",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "bringing an estimated 1.43 crore families (roughly 6 crore individuals) into the scheme.",
+     "value": "6 crore individuals",
+     "period": "June 2026",
+     "period_end": "2026-06-08",
+     "publisher": "National Health Authority",
+     "series": "Ayushman Bharat PM-JAY state implementation",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India's insurance penetration — premiums as a share of GDP — sits at 3.7%, well below the 7.3% global average",
+     "value": "3.7%",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "IRDAI",
+     "series": "Insurance penetration",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "India's insurance penetration — premiums as a share of GDP — sits at 3.7%, well below the 7.3% global average",
+     "value": "7.3%",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "IRDAI",
+     "series": "Global insurance penetration",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "roughly a 4.6 percentage-point increase",
+     "value": "4.6 percentage-points",
+     "period": "2023",
+     "period_end": "2023-12-31",
+     "publisher": "MoSPI",
+     "series": "PM-JAY effect on private-facility utilisation study",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "the roughly 43% of India's total health expenditure that NHA 2022-23 still records as out-of-pocket",
+     "value": "43%",
+     "period": "FY2022-23",
+     "period_end": "2023-03-31",
+     "publisher": "MoSPI",
+     "series": "National Health Accounts Estimates",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "taking the count of active IIOs from roughly 8 to around 24.",
+     "value": "8",
+     "period": "2026",
+     "period_end": "2026-03-31",
+     "publisher": "IFSCA",
+     "series": "GIFT City insurance offices active count",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "taking the count of active IIOs from roughly 8 to around 24.",
+     "value": "24",
+     "period": "2026",
+     "period_end": "2026-09-30",
+     "publisher": "IFSCA",
+     "series": "GIFT City insurance offices active count",
+     "frequency": "live",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "Ayushman Bharat PM-JAY has issued over 48.5 crore cards (up from 43.52 crore when this piece was first written)",
+     "value": "48.5 crore cards",
+     "period": null,
+     "period_end": null,
+     "publisher": "NHA / government (via organiser.org, ddindia.co.in, thenewsmill.com)",
+     "series": "Ayushman Bharat PM-JAY card issuance count",
+     "frequency": "live",
+     "headline": true
+    },
+    {
+     "quote": "43.52 crore Ayushman cards had been created nationally",
+     "value": "43.52 crore cards",
+     "period": null,
+     "period_end": null,
+     "publisher": "NHA / government (original reporting)",
+     "series": "Ayushman Bharat PM-JAY card issuance count",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "12.69 crore cumulative hospital admissions authorised as of 30 June 2026",
+     "value": "12.69 crore hospital admissions",
+     "period": "as of 30 June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "NHA / government",
+     "series": "Ayushman Bharat PM-JAY hospital admissions",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "over ₹1.92 lakh crore in approved claims",
+     "value": "₹1.92 lakh crore",
+     "period": null,
+     "period_end": null,
+     "publisher": "NHA / government (original reporting)",
+     "series": "Ayushman Bharat PM-JAY approved claims",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "by the scheme's 8th anniversary (23 September 2026), the government reported over 48.54 crore Ayushman cards created",
+     "value": "48.54 crore cards",
+     "period": "as of 23 September 2026",
+     "period_end": "2026-09-23",
+     "publisher": "NHA / government (via organiser.org, ddindia.co.in, thenewsmill.com)",
+     "series": "Ayushman Bharat PM-JAY card issuance count",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "13.25 crore hospital admissions funded (as of 31 August 2026)",
+     "value": "13.25 crore hospital admissions",
+     "period": "as of 31 August 2026",
+     "period_end": "2026-08-31",
+     "publisher": "NHA / government",
+     "series": "Ayushman Bharat PM-JAY hospital admissions",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "₹2.03 lakh crore in treatment support",
+     "value": "₹2.03 lakh crore",
+     "period": "as of 23 September 2026",
+     "period_end": "2026-09-23",
+     "publisher": "NHA / government (via organiser.org, ddindia.co.in, thenewsmill.com)",
+     "series": "Ayushman Bharat PM-JAY approved claims",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "West Bengal, the sole remaining holdout, signed its implementation MoU with the National Health Authority on 8 June 2026, bringing an estimated 1.43 crore families (roughly 6 crore individuals) into the scheme",
+     "value": "1.43 crore families (6 crore individuals)",
+     "period": "as of 8 June 2026",
+     "period_end": "2026-06-08",
+     "publisher": "NHA / government (via organiser.org, ddindia.co.in, thenewsmill.com)",
+     "series": "Ayushman Bharat PM-JAY state coverage expansion",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India's insurance penetration — premiums as a share of GDP — sits at 3.7%, well below the 7.3% global average",
+     "value": "3.7% (India) vs 7.3% (global average)",
+     "period": null,
+     "period_end": null,
+     "publisher": "PIB (National Health Accounts Estimates for India 2022-23)",
+     "series": "Insurance penetration ratio (premiums/GDP)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "individual health insurance premiums (including family floater) grew 29.7% in the October–March 2025-26 period, against 7.0% growth in the same period a year earlier",
+     "value": "29.7% (Oct–Mar 2025-26) vs 7.0% (Oct–Mar 2024-25)",
+     "period": "Oct–Mar 2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "IRDAI (via VATupdate, citing a2ztaxcorp.net)",
+     "series": "Individual health insurance premium growth (family floater incl.)",
+     "frequency": "quarterly",
+     "headline": true
+    },
+    {
+     "quote": "individual life insurance saw a smaller but still real acceleration, 11.2% versus 7.7%",
+     "value": "11.2% (Oct–Mar 2025-26) vs 7.7% (Oct–Mar 2024-25)",
+     "period": "Oct–Mar 2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "IRDAI (via VATupdate, citing a2ztaxcorp.net)",
+     "series": "Individual life insurance premium growth",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "the effect shows up directly in premium collection data: individual health insurance premiums (including family floater) grew 29.7% in the October–March 2025-26 period",
+     "value": "29.7%",
+     "period": "Oct–Mar 2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "IRDAI (via VATupdate, citing a2ztaxcorp.net)",
+     "series": "Individual health insurance premium growth (family floater incl.)",
+     "frequency": "quarterly",
+     "headline": true
+    },
+    {
+     "quote": "enrollment is associated with a higher ... probability of visiting a private facility — roughly a 4.6 percentage-point increase",
+     "value": "4.6 percentage points",
+     "period": null,
+     "period_end": null,
+     "publisher": "PLOS One and Health Systems & Reform (Tandfonline)",
+     "series": "PM-JAY enrollment impact on private-facility utilization",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "roughly 43% of India's total health expenditure that NHA 2022-23 still records as out-of-pocket",
+     "value": "43%",
+     "period": "2022-23",
+     "period_end": "2023-03-31",
+     "publisher": "PIB (National Health Accounts Estimates for India 2022-23)",
+     "series": "Out-of-pocket health expenditure share",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "the count of active IIOs from roughly 8 to around 24",
+     "value": "8 to 24 active IIOs",
+     "period": "this financial year (2026)",
+     "period_end": "2026-03-31",
+     "publisher": "IFSCA (via Insurance Business Magazine, Reinsurance News, Insurance Journal)",
+     "series": "Active International Insurance Offices (IIOs) in GIFT City",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "the GST Council recommended, and the government implemented from 22 September 2025, a full GST exemption on individual life and health insurance policies",
+     "value": "22 September 2025",
+     "period": "effective from 22 September 2025",
+     "period_end": "2025-09-22",
+     "publisher": "Department of Financial Services, Ministry of Finance",
+     "series": "GST exemption on individual life/health insurance policies",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

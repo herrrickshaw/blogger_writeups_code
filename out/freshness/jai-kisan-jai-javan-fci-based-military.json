@@ -1,0 +1,570 @@
+{
+ "slug": "jai-kisan-jai-javan-fci-based-military",
+ "text_sha1": "853ce2014e8df6a0",
+ "chars": 9337,
+ "checked": "2026-10-23T14:50:37",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "₹150 Cr \n FCI \n 50%",
+     "value": "₹150 Cr",
+     "period": "proposal's own procurement-channel figures",
+     "period_end": null,
+     "publisher": "internal strategy presentation",
+     "series": "Multi-Channel Ration Sourcing",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "₹60 Cr \n State Boards \n 20%",
+     "value": "₹60 Cr",
+     "period": "proposal's own procurement-channel figures",
+     "period_end": null,
+     "publisher": "internal strategy presentation",
+     "series": "Multi-Channel Ration Sourcing",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "₹45 Cr \n APMC/Direct \n 15%",
+     "value": "₹45 Cr",
+     "period": "proposal's own procurement-channel figures",
+     "period_end": null,
+     "publisher": "internal strategy presentation",
+     "series": "Multi-Channel Ration Sourcing",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "₹30 Cr \n NAFED \n 10%",
+     "value": "₹30 Cr",
+     "period": "proposal's own procurement-channel figures",
+     "period_end": null,
+     "publisher": "internal strategy presentation",
+     "series": "Multi-Channel Ration Sourcing",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "₹15 Cr \n SFAC/FPO \n 5%",
+     "value": "₹15 Cr",
+     "period": "proposal's own procurement-channel figures",
+     "period_end": null,
+     "publisher": "internal strategy presentation",
+     "series": "Multi-Channel Ration Sourcing",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "62% projected cost cut, ₹71 → ₹27/unit",
+     "value": "62%",
+     "period": "proposal projections",
+     "period_end": null,
+     "publisher": "internal strategy presentation",
+     "series": "Cost/savings/timeline figures",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "₹71 → ₹27/unit",
+     "value": "₹71",
+     "period": "proposal projections",
+     "period_end": null,
+     "publisher": "internal strategy presentation",
+     "series": "Cost/savings/timeline figures",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "₹71 → ₹27/unit",
+     "value": "₹27",
+     "period": "proposal projections",
+     "period_end": null,
+     "publisher": "internal strategy presentation",
+     "series": "Cost/savings/timeline figures",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "₹8.51 Cr projected 5-year savings vs private vendors",
+     "value": "₹8.51 Cr",
+     "period": "5-year",
+     "period_end": null,
+     "publisher": "internal strategy presentation",
+     "series": "Cost/savings/timeline figures",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "53g target daily protein vs 8-12g today",
+     "value": "53g",
+     "period": "target daily",
+     "period_end": null,
+     "publisher": "internal strategy presentation",
+     "series": "Nutrition redesign",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "53g target daily protein vs 8-12g today",
+     "value": "8-12g",
+     "period": "current",
+     "period_end": null,
+     "publisher": "internal strategy presentation",
+     "series": "Nutrition redesign",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "54,700 jobs projected (farmers + logistics)",
+     "value": "54,700",
+     "period": "projected",
+     "period_end": null,
+     "publisher": "internal strategy presentation",
+     "series": "Jobs projection",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "vendor pricing rising ~8.3%/year against a 5-6% budget growth ceiling",
+     "value": "~8.3%/year",
+     "period": "annual",
+     "period_end": null,
+     "publisher": "internal strategy presentation",
+     "series": "Vendor pricing trend",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "~70% of supply from just 4 companies",
+     "value": "~70%",
+     "period": "current",
+     "period_end": null,
+     "publisher": "internal strategy presentation",
+     "series": "Vendor concentration",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "12-15% rejection rate at intake",
+     "value": "12-15%",
+     "period": "current",
+     "period_end": null,
+     "publisher": "internal strategy presentation",
+     "series": "Quality variance",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "~15% of spice/flavouring inputs imported",
+     "value": "~15%",
+     "period": "current",
+     "period_end": null,
+     "publisher": "internal strategy presentation",
+     "series": "Import dependency",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Year-1 setup cost \n 2.85",
+     "value": "2.85 crore ₹/yr",
+     "period": "Year-1",
+     "period_end": null,
+     "publisher": "internal strategy presentation",
+     "series": "Financial case",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Operating cost, Year 2+ \n 1.2-1.4",
+     "value": "1.2-1.4 crore ₹/yr",
+     "period": "Year 2+",
+     "period_end": null,
+     "publisher": "internal strategy presentation",
+     "series": "Financial case",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Claimed ROI \n 150%",
+     "value": "150%",
+     "period": "proposal projections",
+     "period_end": null,
+     "publisher": "internal strategy presentation",
+     "series": "Financial case",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Claimed payback period \n 12 months",
+     "value": "12 months",
+     "period": "proposal projections",
+     "period_end": null,
+     "publisher": "internal strategy presentation",
+     "series": "Financial case",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Perpetual annual savings (Yr 2+, gross \n 4.5",
+     "value": "4.5 crore ₹/yr",
+     "period": "Yr 2+",
+     "period_end": null,
+     "publisher": "internal strategy presentation",
+     "series": "Financial case",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Months 7-9: Pilot production, 100K units",
+     "value": "100K units",
+     "period": "Months 7-9",
+     "period_end": null,
+     "publisher": "internal strategy presentation",
+     "series": "18-month rollout plan",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "₹300 Cr procurement budget, split across five sourcing channels",
+     "value": "₹300 cr",
+     "period": null,
+     "period_end": null,
+     "publisher": "proposal (Cabinet-Committee-on-Security-style pitch deck)",
+     "series": "projected procurement budget for military rations",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹150 Cr FCI, 50%",
+     "value": "₹150 cr (50%)",
+     "period": null,
+     "period_end": null,
+     "publisher": "proposal (Cabinet-Committee-on-Security-style pitch deck)",
+     "series": "multi-channel ration sourcing allocation",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹60 Cr State Boards, 20%",
+     "value": "₹60 cr (20%)",
+     "period": null,
+     "period_end": null,
+     "publisher": "proposal (Cabinet-Committee-on-Security-style pitch deck)",
+     "series": "multi-channel ration sourcing allocation",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹45 Cr APMC/Direct, 15%",
+     "value": "₹45 cr (15%)",
+     "period": null,
+     "period_end": null,
+     "publisher": "proposal (Cabinet-Committee-on-Security-style pitch deck)",
+     "series": "multi-channel ration sourcing allocation",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹30 Cr NAFED, 10%",
+     "value": "₹30 cr (10%)",
+     "period": null,
+     "period_end": null,
+     "publisher": "proposal (Cabinet-Committee-on-Security-style pitch deck)",
+     "series": "multi-channel ration sourcing allocation",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹15 Cr SFAC/FPO, 5%",
+     "value": "₹15 cr (5%)",
+     "period": null,
+     "period_end": null,
+     "publisher": "proposal (Cabinet-Committee-on-Security-style pitch deck)",
+     "series": "multi-channel ration sourcing allocation",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "vendor pricing rising ~8.3%/year against a 5-6% budget growth ceiling",
+     "value": "~8.3% annual",
+     "period": null,
+     "period_end": null,
+     "publisher": "proposal (Cabinet-Committee-on-Security-style pitch deck)",
+     "series": "vendor pricing trend",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "~70% of supply from just 4 companies",
+     "value": "~70%",
+     "period": null,
+     "period_end": null,
+     "publisher": "proposal (Cabinet-Committee-on-Security-style pitch deck)",
+     "series": "vendor concentration in current ration supply",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "±25% batch-to-batch variance, 12-15% rejection rate at intake",
+     "value": "±25% variance, 12-15%",
+     "period": null,
+     "period_end": null,
+     "publisher": "proposal (Cabinet-Committee-on-Security-style pitch deck)",
+     "series": "current ration quality metrics",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "~15% of spice/flavouring inputs imported",
+     "value": "~15%",
+     "period": null,
+     "period_end": null,
+     "publisher": "proposal (Cabinet-Committee-on-Security-style pitch deck)",
+     "series": "import dependency in current ration supply",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Unit cost: ₹71 → ₹27 (-62%)",
+     "value": "₹71 → ₹27 (-62%)",
+     "period": null,
+     "period_end": null,
+     "publisher": "proposal (Cabinet-Committee-on-Security-style pitch deck)",
+     "series": "ration unit cost comparison",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "Supply reliability: ~70% → 100%",
+     "value": "~70% → 100%",
+     "period": null,
+     "period_end": null,
+     "publisher": "proposal (Cabinet-Committee-on-Security-style pitch deck)",
+     "series": "ration supply reliability comparison",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Quality variance: ±25% → ±5%",
+     "value": "±25% → ±5%",
+     "period": null,
+     "period_end": null,
+     "publisher": "proposal (Cabinet-Committee-on-Security-style pitch deck)",
+     "series": "ration quality variance comparison",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Domestic content: ~85% → 100%",
+     "value": "~85% → 100%",
+     "period": null,
+     "period_end": null,
+     "publisher": "proposal (Cabinet-Committee-on-Security-style pitch deck)",
+     "series": "ration domestic content comparison",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "53g target daily protein vs 8-12g today",
+     "value": "53g (target) vs 8-12g (current)",
+     "period": null,
+     "period_end": null,
+     "publisher": "proposal (Cabinet-Committee-on-Security-style pitch deck)",
+     "series": "ration protein content comparison",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "₹8.51 Cr projected 5-year savings vs private vendors",
+     "value": "₹8.51 cr (5-year)",
+     "period": "5 years",
+     "period_end": "2026-08-31",
+     "publisher": "proposal (Cabinet-Committee-on-Security-style pitch deck)",
+     "series": "projected savings vs private vendors",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "54,700 jobs projected (farmers + logistics)",
+     "value": "54,700 jobs",
+     "period": null,
+     "period_end": null,
+     "publisher": "proposal (Cabinet-Committee-on-Security-style pitch deck)",
+     "series": "job creation projection",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Year-1 setup cost: ₹2.85 Cr",
+     "value": "₹2.85 cr",
+     "period": "Year 1",
+     "period_end": "2027-03-31",
+     "publisher": "proposal (Cabinet-Committee-on-Security-style pitch deck)",
+     "series": "setup cost",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Operating cost, Year 2+: ₹1.2–1.4 Cr/yr",
+     "value": "₹1.2–1.4 cr/year",
+     "period": "Year 2+",
+     "period_end": "2027-03-31",
+     "publisher": "proposal (Cabinet-Committee-on-Security-style pitch deck)",
+     "series": "operating cost",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Claimed ROI: 150%",
+     "value": "150%",
+     "period": null,
+     "period_end": null,
+     "publisher": "proposal (Cabinet-Committee-on-Security-style pitch deck)",
+     "series": "return on investment",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Claimed payback period: 12 months",
+     "value": "12 months",
+     "period": null,
+     "period_end": null,
+     "publisher": "proposal (Cabinet-Committee-on-Security-style pitch deck)",
+     "series": "payback period",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Perpetual annual savings (Yr 2+): ₹4.5 Cr",
+     "value": "₹4.5 cr/year",
+     "period": "Year 2+",
+     "period_end": "2027-03-31",
+     "publisher": "proposal (Cabinet-Committee-on-Security-style pitch deck)",
+     "series": "annual savings (gross)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "4.1M units/year",
+     "value": "4.1 million units/year",
+     "period": null,
+     "period_end": null,
+     "publisher": "proposal (Cabinet-Committee-on-Security-style pitch deck)",
+     "series": "production capacity target",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "20 distributed mills",
+     "value": "20 mills",
+     "period": null,
+     "period_end": null,
+     "publisher": "proposal (Cabinet-Committee-on-Security-style pitch deck)",
+     "series": "milling capacity",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Powdered eggs: 15g protein/serving, ₹18/pouch",
+     "value": "15g protein, ₹18/pouch",
+     "period": null,
+     "period_end": null,
+     "publisher": "proposal (Cabinet-Committee-on-Security-style pitch deck)",
+     "series": "MRE protein content and cost",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Chicken tikka: 18g protein/serving, ₹50/pouch",
+     "value": "18g protein, ₹50/pouch",
+     "period": null,
+     "period_end": null,
+     "publisher": "proposal (Cabinet-Committee-on-Security-style pitch deck)",
+     "series": "MRE protein content and cost",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Mutton keema: 20g protein/serving, ₹58/pouch",
+     "value": "20g protein, ₹58/pouch",
+     "period": null,
+     "period_end": null,
+     "publisher": "proposal (Cabinet-Committee-on-Security-style pitch deck)",
+     "series": "MRE protein content and cost",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Fish curry: 16g protein/serving, ₹48/pouch",
+     "value": "16g protein, ₹48/pouch",
+     "period": null,
+     "period_end": null,
+     "publisher": "proposal (Cabinet-Committee-on-Security-style pitch deck)",
+     "series": "MRE protein content and cost",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Soya mock meat: 16g protein/serving, ₹32/pouch",
+     "value": "16g protein, ₹32/pouch",
+     "period": null,
+     "period_end": null,
+     "publisher": "proposal (Cabinet-Committee-on-Security-style pitch deck)",
+     "series": "MRE protein content and cost",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Protein bars: 12g protein/bar, ₹22/bar",
+     "value": "12g protein, ₹22/bar",
+     "period": null,
+     "period_end": null,
+     "publisher": "proposal (Cabinet-Committee-on-Security-style pitch deck)",
+     "series": "MRE protein content and cost",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹11 Cr annual output (current)",
+     "value": "₹11 cr/year",
+     "period": null,
+     "period_end": null,
+     "publisher": "proposal (Cabinet-Committee-on-Security-style pitch deck)",
+     "series": "current annual output",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "₹1.2–1.4 Cr/yr opex",
+     "value": "₹1.2–1.4 cr/year",
+     "period": null,
+     "period_end": null,
+     "publisher": "proposal (Cabinet-Committee-on-Security-style pitch deck)",
+     "series": "operational expenditure",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "100K units pilot production",
+     "value": "100,000 units",
+     "period": "Months 7-9",
+     "period_end": "2027-06-30",
+     "publisher": "proposal (Cabinet-Committee-on-Security-style pitch deck)",
+     "series": "pilot production volume",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

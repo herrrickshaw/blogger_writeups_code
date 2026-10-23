@@ -1,0 +1,440 @@
+{
+ "slug": "india-has-132-compressed-biogas-plants",
+ "text_sha1": "233daea80a640d3d",
+ "chars": 14211,
+ "checked": "2026-10-23T12:37:56",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "5,000 Original SATAT target for CBG plants by 2023-24",
+     "value": "5,000 CBG plants",
+     "period": "by 2023-24",
+     "period_end": "2024-03-31",
+     "publisher": "MoPNG",
+     "series": "SATAT target",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "132 CBG plants actually commissioned, as of January 2026 (920 tonnes/day output)",
+     "value": "132 CBG plants",
+     "period": "as of January 2026",
+     "period_end": "2026-01-31",
+     "publisher": "MoPNG",
+     "series": "Commissioned CBG plants under SATAT",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "132 CBG plants actually commissioned, as of January 2026 (920 tonnes/day output)",
+     "value": "920 tonnes/day",
+     "period": "as of January 2026",
+     "period_end": "2026-01-31",
+     "publisher": "MoPNG",
+     "series": "CBG plant daily output",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "17 Of the ~130 functional plants, connected to a CGD network by dedicated pipeline (PNGRB, Sept 2026)",
+     "value": "17 plants",
+     "period": "Sept 2026",
+     "period_end": "2026-09-30",
+     "publisher": "PNGRB",
+     "series": "Action Taken Report on the Annual Plan 2025-26",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "17 Of the ~130 functional plants, connected to a CGD network by dedicated pipeline (PNGRB, Sept 2026)",
+     "value": "~130 functional plants",
+     "period": "Sept 2026",
+     "period_end": "2026-09-30",
+     "publisher": "PNGRB",
+     "series": "Action Taken Report on the Annual Plan 2025-26",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "~20 More plants with CGD connectivity infrastructure under construction",
+     "value": "~20 plants",
+     "period": "Sept 2026",
+     "period_end": "2026-09-30",
+     "publisher": "PNGRB",
+     "series": "Action Taken Report on the Annual Plan 2025-26",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "174 / 425 More plants under construction / not yet started, per the scheme's own pipeline count",
+     "value": "174 plants",
+     "period": "Jan 2026",
+     "period_end": "2026-01-31",
+     "publisher": "MoPNG",
+     "series": "SATAT pipeline status",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "174 / 425 More plants under construction / not yet started, per the scheme's own pipeline count",
+     "value": "425 plants",
+     "period": "Jan 2026",
+     "period_end": "2026-01-31",
+     "publisher": "MoPNG",
+     "series": "SATAT pipeline status",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "1% → 5% Mandatory CBG blending obligation on CNG/PNG, ramping FY2025-26 to FY2028-29 and beyond",
+     "value": "1% to 5%",
+     "period": "FY2025-26 to FY2028-29",
+     "period_end": "2029-03-31",
+     "publisher": "MoPNG",
+     "series": "Compressed Biogas Blending Obligation (CBO)",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "4,911 Sitting Lok Sabha MPs, Rajya Sabha MPs and state MLAs combined, across ~800 districts",
+     "value": "4,911",
+     "period": null,
+     "period_end": null,
+     "publisher": "Parliament / Election Commission of India",
+     "series": "Total elected representatives",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "only 40 plants existed by the scheme's original 2023-24 deadline",
+     "value": "40 plants",
+     "period": "2023-24",
+     "period_end": "2024-03-31",
+     "publisher": "MoPNG",
+     "series": "Operational CBG plants",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "103 were operational by mid-2024",
+     "value": "103 plants",
+     "period": "mid-2024",
+     "period_end": "2024-06-30",
+     "publisher": "MoPNG",
+     "series": "Operational CBG plants",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "A PNGRB October 2025 deck lists 17 plants connected",
+     "value": "17 plants",
+     "period": "October 2025",
+     "period_end": "2025-10-31",
+     "publisher": "PNGRB",
+     "series": "CBG connectivity status deck",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "while a February 2026 status report lists 24",
+     "value": "24 plants",
+     "period": "February 2026",
+     "period_end": "2026-02-28",
+     "publisher": "PNGRB",
+     "series": "CBG connectivity status report",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "a PNGRB FY2025-26 connectivity report (August 2026) is summarised as 24 of 207 functional plants connected",
+     "value": "24 connected of 207 functional plants",
+     "period": "August 2026",
+     "period_end": "2026-08-31",
+     "publisher": "PNGRB",
+     "series": "FY2025-26 connectivity report",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "A Gobardhan-portal summary puts commissioned CBG plants at about 210 as of June 2026.",
+     "value": "about 210 CBG plants",
+     "period": "as of June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "Unified GOBARdhan Portal",
+     "series": "Commissioned CBG plants",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "1% in FY2025-26, 3% in FY2026-27, 4% in FY2027-28, and 5% from FY2028-29 onward.",
+     "value": "1%",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "MoPNG",
+     "series": "Compressed Biogas Blending Obligation (CBO)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "1% in FY2025-26, 3% in FY2026-27, 4% in FY2027-28, and 5% from FY2028-29 onward.",
+     "value": "3%",
+     "period": "FY2026-27",
+     "period_end": "2027-03-31",
+     "publisher": "MoPNG",
+     "series": "Compressed Biogas Blending Obligation (CBO)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "1% in FY2025-26, 3% in FY2026-27, 4% in FY2027-28, and 5% from FY2028-29 onward.",
+     "value": "4%",
+     "period": "FY2027-28",
+     "period_end": "2028-03-31",
+     "publisher": "MoPNG",
+     "series": "Compressed Biogas Blending Obligation (CBO)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "1% in FY2025-26, 3% in FY2026-27, 4% in FY2027-28, and 5% from FY2028-29 onward.",
+     "value": "5%",
+     "period": "FY2028-29",
+     "period_end": "2029-03-31",
+     "publisher": "MoPNG",
+     "series": "Compressed Biogas Blending Obligation (CBO)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Lok Sabha has 543 directly elected, single-member geographic constituencies",
+     "value": "543 constituencies",
+     "period": null,
+     "period_end": null,
+     "publisher": "Election Commission of India",
+     "series": "Lok Sabha constituencies",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "state Legislative Assemblies add a further 4,123 Assembly constituencies across the country",
+     "value": "4,123 constituencies",
+     "period": null,
+     "period_end": null,
+     "publisher": "Election Commission of India",
+     "series": "Legislative Assembly constituencies",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Rajya Sabha's 245 members (233 elected by state and Union Territory legislatures, 12 nominated)",
+     "value": "245 members",
+     "period": null,
+     "period_end": null,
+     "publisher": "Parliament of India",
+     "series": "Rajya Sabha strength",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India is also divided into roughly 800 districts",
+     "value": "roughly 800 districts",
+     "period": null,
+     "period_end": null,
+     "publisher": "Ministry of Home Affairs",
+     "series": "Administrative districts",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "SATAT set out in 2018 to build 5,000 compressed biogas plants by 2023-24.",
+     "value": "5,000 plants",
+     "period": "by 2023-24",
+     "period_end": "2024-03-31",
+     "publisher": "SATAT scheme (MoPNG)",
+     "series": "Original SATAT target for CBG plants",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "India has commissioned 132 CBG plants actually commissioned, as of January 2026, producing roughly 920 tonnes a day.",
+     "value": "132 plants",
+     "period": "as of January 2026",
+     "period_end": "2026-01-31",
+     "publisher": "Energetica India Magazine / PRS India",
+     "series": "SATAT plant commissioning history",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "India has commissioned 132 CBG plants... producing roughly 920 tonnes a day.",
+     "value": "920 tonnes/day",
+     "period": "as of January 2026",
+     "period_end": "2026-01-31",
+     "publisher": "Energetica India Magazine",
+     "series": "CBG plant output (tonnes/day)",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "only 17 are actually connected to a city gas network by dedicated pipeline — PNGRB, Sept 2026",
+     "value": "17 plants",
+     "period": "September 2026",
+     "period_end": "2026-09-30",
+     "publisher": "PNGRB (Petroleum and Natural Gas Regulatory Board)",
+     "series": "CBG plants connected to CGD network (Action Taken Report)",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "connectivity of 17 CBG plants through dedicated CBG pipelines was achieved... connectivity infrastructure for around 20 Functional plants... under various stages of construction.",
+     "value": "17 plants connected",
+     "period": "September 2026",
+     "period_end": "2026-09-30",
+     "publisher": "PNGRB",
+     "series": "CBG pipeline connectivity status (Action Taken Report)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "connectivity infrastructure for around 20 Functional plants... under various stages of construction.",
+     "value": "20 plants (connectivity infrastructure under construction)",
+     "period": "September 2026",
+     "period_end": "2026-09-30",
+     "publisher": "PNGRB",
+     "series": "CBG pipeline connectivity projects (Action Taken Report)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "PNGRB's Compressed Bio-Gas Division reports... mapping and monitoring of around 130 functional CBG plants...",
+     "value": "130 functional plants",
+     "period": "September 2026",
+     "period_end": "2026-09-30",
+     "publisher": "PNGRB",
+     "series": "Functional CBG plants mapping (Action Taken Report)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "1% in FY2025-26, 3% in FY2026-27, 4% in FY2027-28, and 5% from FY2028-29 onward.",
+     "value": "1% (FY2025-26), 3% (FY2026-27), 4% (FY2027-28), 5% (FY2028-29+)",
+     "period": "FY2025-26 to FY2028-29+",
+     "period_end": "2029-03-31",
+     "publisher": "MoPNG (via industry-scheme summaries)",
+     "series": "Compressed Bio-Gas Blending Obligation (CBO) ramp",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Lok Sabha has 543 directly elected, single-member geographic constituencies; state Legislative Assemblies add a further 4,123 Assembly constituencies... for 4,911 sitting national and state legislators to 4,911.",
+     "value": "543 Lok Sabha MPs",
+     "period": null,
+     "period_end": null,
+     "publisher": "Election Commission of India / Parliament",
+     "series": "Lok Sabha constituency count",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "state Legislative Assemblies add a further 4,123 Assembly constituencies... for 4,911 sitting national and state legislators to 4,911.",
+     "value": "4,123 MLAs",
+     "period": null,
+     "period_end": null,
+     "publisher": "Secondary aggregation of state Legislative Assembly seat counts",
+     "series": "State Legislative Assembly constituency count",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Lok Sabha has 543 directly elected, single-member geographic constituencies; state Legislative Assemblies add a further 4,123 Assembly constituencies... for 4,911 sitting national and state legislators to 4,911.",
+     "value": "4,911 (MPs + MLAs combined)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Election Commission of India / Parliament",
+     "series": "Total sitting national and state legislators",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India is also divided into roughly 800 districts, a number that keeps rising as states carve out new ones.",
+     "value": "~800 districts",
+     "period": null,
+     "period_end": null,
+     "publisher": "Current district-list compilations",
+     "series": "District count in India",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "Operational, mid-2024 | 103 | 2.1",
+     "value": "103 plants",
+     "period": "mid-2024",
+     "period_end": "2024-06-30",
+     "publisher": "PRS India",
+     "series": "SATAT operational plants (implementation review)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Under construction (any stage) | 174 | 3.5",
+     "value": "174 plants under construction",
+     "period": null,
+     "period_end": null,
+     "publisher": "SATAT scheme pipeline count",
+     "series": "CBG plants under construction",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Not yet started | 425 | 8.5",
+     "value": "425 plants not yet started",
+     "period": null,
+     "period_end": null,
+     "publisher": "SATAT scheme pipeline count",
+     "series": "CBG plants not yet started",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Lok Sabha has 543 directly elected, single-member geographic constituencies; state Legislative Assemblies add a further 4,123 Assembly constituencies across the country, for 4,666 directly elected geographic seats in total.",
+     "value": "4,666 directly elected geographic seats (Lok Sabha + MLAs)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Election Commission of India / Parliament",
+     "series": "Directly elected geographic seats",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Rajya Sabha's 245 members (233 elected by state and Union Territory legislatures, 12 nominated)",
+     "value": "245 Rajya Sabha members",
+     "period": null,
+     "period_end": null,
+     "publisher": "Parliament",
+     "series": "Rajya Sabha member count",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "A Delimitation Bill that would have raised Lok Sabha strength to 850 seats failed to pass in April 2026 and was withdrawn, so 543 remains the operative figure.",
+     "value": "850 (proposed Lok Sabha seats, failed bill)",
+     "period": "April 2026",
+     "period_end": "2026-04-17",
+     "publisher": "PRS India",
+     "series": "Proposed Lok Sabha seat increase (Delimitation Bill 2026)",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

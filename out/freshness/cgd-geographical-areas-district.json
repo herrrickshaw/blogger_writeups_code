@@ -1,0 +1,330 @@
+{
+ "slug": "cgd-geographical-areas-district",
+ "text_sha1": "31411561d56f73fd",
+ "chars": 8627,
+ "checked": "2026-10-23T10:49:20",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "Natural gas's share of India's primary energy mix: 6.2% (2025) vs the government's 15% target for 2030",
+     "value": "6.2%",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "PNGRB / Ministry of Petroleum and Natural Gas",
+     "series": "Natural gas's share of India's primary energy mix",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Natural gas's share of India's primary energy mix: 6.2% (2025) vs the government's 15% target for 2030",
+     "value": "15%",
+     "period": "2030",
+     "period_end": "2030-12-31",
+     "publisher": "PNGRB / Ministry of Petroleum and Natural Gas",
+     "series": "Natural gas's share of India's primary energy mix",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "the 11th round that preceded it had already pushed potential coverage to about 98 per cent of India's population and 88 per cent of its land area.",
+     "value": "98 per cent",
+     "period": "Round 11",
+     "period_end": null,
+     "publisher": "PNGRB",
+     "series": "CGD bidding rounds potential coverage",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "the 11th round that preceded it had already pushed potential coverage to about 98 per cent of India's population and 88 per cent of its land area.",
+     "value": "88 per cent",
+     "period": "Round 11",
+     "period_end": null,
+     "publisher": "PNGRB",
+     "series": "CGD bidding rounds potential coverage",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "PNGRB had authorised 307 GAs spanning close to 100 per cent of India's geographical area across roughly 733–784 districts",
+     "value": "307 GAs",
+     "period": "after Round 12/12A",
+     "period_end": null,
+     "publisher": "PNGRB",
+     "series": "Authorised Geographical Areas",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "PNGRB had authorised 307 GAs spanning close to 100 per cent of India's geographical area across roughly 733–784 districts",
+     "value": "733 districts",
+     "period": "after Round 12/12A",
+     "period_end": null,
+     "publisher": "PNGRB",
+     "series": "Authorised districts count",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "PNGRB had authorised 307 GAs spanning close to 100 per cent of India's geographical area across roughly 733–784 districts",
+     "value": "784 districts",
+     "period": "after Round 12/12A",
+     "period_end": null,
+     "publisher": "PNGRB",
+     "series": "Authorised districts count",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "set a target of roughly 12.63 crore piped natural gas (PNG) domestic connections nationally by 2032",
+     "value": "12.63 crore",
+     "period": "2032",
+     "period_end": "2032-12-31",
+     "publisher": "PNGRB / Ministry of Petroleum and Natural Gas",
+     "series": "Piped natural gas domestic connections target",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "backed by a stated $67 billion investment plan across the natural gas sector over six years.",
+     "value": "$67 billion",
+     "period": "six years",
+     "period_end": null,
+     "publisher": "PNGRB / Ministry of Petroleum and Natural Gas",
+     "series": "Natural gas sector investment plan",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "natural gas's share of India's primary energy mix: 6.2% (2025) vs the government's 15% target for 2030",
+     "value": "6.2% (2025) → 15% (2030)",
+     "period": "2025 (current) / 2030 (target)",
+     "period_end": "2030-12-31",
+     "publisher": "PNGRB / Ministry of Petroleum and Natural Gas",
+     "series": "Primary energy mix share of natural gas",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "the 11th round that preceded it had already pushed potential coverage to about 98 per cent of India's population and 88 per cent of its land area",
+     "value": "98% of population / 88% of land area",
+     "period": "after Round 11",
+     "period_end": null,
+     "publisher": "PNGRB",
+     "series": "City Gas Distribution (CGD) geographical coverage",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "After the 12/12A round concluded, PNGRB had authorised 307 GAs spanning close to 100 per cent of India's geographical area across roughly 733–784 districts",
+     "value": "307 GAs / ~733–784 districts",
+     "period": "after Round 12/12A",
+     "period_end": null,
+     "publisher": "PNGRB",
+     "series": "Authorised CGD geographical areas and district coverage",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "PNGRB and the Ministry of Petroleum and Natural Gas have set a target of roughly 12.63 crore piped natural gas (PNG) domestic connections nationally by 2032",
+     "value": "12.63 crore (126,300,000) PNG connections",
+     "period": "by 2032",
+     "period_end": "2032-12-31",
+     "publisher": "PNGRB / Ministry of Petroleum and Natural Gas",
+     "series": "Piped Natural Gas (PNG) connection target",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "a stated $67 billion investment plan across the natural gas sector over six years",
+     "value": "$67 billion",
+     "period": "six-year period (unspecified start)",
+     "period_end": null,
+     "publisher": "PNGRB / Ministry of Petroleum and Natural Gas",
+     "series": "Natural gas sector investment plan",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "the 12th CGD bidding round explicitly framed around reaching 100 per cent geographical coverage of the country",
+     "value": "100% geographical coverage",
+     "period": "Round 12",
+     "period_end": null,
+     "publisher": "PNGRB",
+     "series": "CGD bidding round objectives",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "the 11th round that preceded it had already pushed potential coverage to about 98 per cent of India's population and 88 per cent of its land area",
+     "value": "98% population / 88% land area",
+     "period": "after Round 11",
+     "period_end": null,
+     "publisher": "PNGRB",
+     "series": "CGD coverage (population/land)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "PNGRB should publish, for each of the 307 geographical areas, actual domestic PNG connections, CNG stations and pipeline laid against the authorised entity's committed work programme, updated annually",
+     "value": "307 geographical areas (proposed reporting)",
+     "period": "annual updates (proposed)",
+     "period_end": null,
+     "publisher": "PNGRB (proposed)",
+     "series": "CGD progress reporting (connections, CNG stations, pipeline)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "The Ministry of Petroleum and Natural Gas should publish year-wise, state-wise milestones towards the 12.63 crore PNG connection target for 2032",
+     "value": "12.63 crore PNG connections (2032 target)",
+     "period": "year-wise (proposed)",
+     "period_end": "2032-12-31",
+     "publisher": "Ministry of Petroleum and Natural Gas (proposed)",
+     "series": "PNG connection milestones",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "PNGRB should report national coverage as two separate figures — population and area authorised, and population with an actual PNG connection available",
+     "value": "dual reporting (population/area authorised vs. PNG-connected population)",
+     "period": null,
+     "period_end": null,
+     "publisher": "PNGRB (proposed)",
+     "series": "CGD coverage reporting methodology",
+     "frequency": "one-off (proposal)",
+     "headline": false
+    },
+    {
+     "quote": "PNGRB should publish one dated, authoritative list of the districts covered by each geographical area after Round 12/12A",
+     "value": "authoritative district list (proposed)",
+     "period": "after Round 12/12A",
+     "period_end": null,
+     "publisher": "PNGRB (proposed)",
+     "series": "CGD district coverage mapping",
+     "frequency": "one-off (proposal)",
+     "headline": false
+    },
+    {
+     "quote": "the 11th round that preceded it had already pushed potential coverage to about 98 per cent of India's population and 88 per cent of its land area",
+     "value": "98% population / 88% land area",
+     "period": "after Round 11",
+     "period_end": null,
+     "publisher": "PNGRB",
+     "series": "CGD coverage (population/land)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "the 12th CGD bidding round explicitly framed around reaching 100 per cent geographical coverage of the country",
+     "value": "100% geographical coverage",
+     "period": "Round 12",
+     "period_end": null,
+     "publisher": "PNGRB",
+     "series": "CGD bidding round objectives",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "the 11th round that preceded it had already pushed potential coverage to about 98 per cent of India's population and 88 per cent of its land area",
+     "value": "98% population / 88% land area",
+     "period": "after Round 11",
+     "period_end": null,
+     "publisher": "PNGRB",
+     "series": "CGD coverage (population/land)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "PNGRB had authorised 307 GAs spanning close to 100 per cent of India's geographical area across roughly 733–784 districts",
+     "value": "307 GAs / ~733–784 districts",
+     "period": "after Round 12/12A",
+     "period_end": null,
+     "publisher": "PNGRB",
+     "series": "Authorised CGD geographical areas and district coverage",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "the Petroleum Minister has cited directly, meant to displace liquid-fuel and coal demand with a cleaner-burning, more easily transportable fuel",
+     "value": "near-threefold increase in natural gas share (implied)",
+     "period": "2025–2030",
+     "period_end": "2030-12-31",
+     "publisher": "Ministry of Petroleum and Natural Gas",
+     "series": "Natural gas share growth target",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "the 11th round that preceded it had already pushed potential coverage to about 98 per cent of India's population and 88 per cent of its land area",
+     "value": "98% population / 88% land area",
+     "period": "after Round 11",
+     "period_end": null,
+     "publisher": "PNGRB",
+     "series": "CGD coverage (population/land)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "the 12th CGD bidding round explicitly framed around reaching 100 per cent geographical coverage of the country",
+     "value": "100% geographical coverage",
+     "period": "Round 12",
+     "period_end": null,
+     "publisher": "PNGRB",
+     "series": "CGD bidding round objectives",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "the 11th round that preceded it had already pushed potential coverage to about 98 per cent of India's population and 88 per cent of its land area",
+     "value": "98% population / 88% land area",
+     "period": "after Round 11",
+     "period_end": null,
+     "publisher": "PNGRB",
+     "series": "CGD coverage (population/land)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "the 12th CGD bidding round explicitly framed around reaching 100 per cent geographical coverage of the country",
+     "value": "100% geographical coverage",
+     "period": "Round 12",
+     "period_end": null,
+     "publisher": "PNGRB",
+     "series": "CGD bidding round objectives",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "the 11th round that preceded it had already pushed potential coverage to about 98 per cent of India's population and 88 per cent of its land area",
+     "value": "98% population / 88% land area",
+     "period": "after Round 11",
+     "period_end": null,
+     "publisher": "PNGRB",
+     "series": "CGD coverage (population/land)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "the 12th CGD bidding round explicitly framed around reaching 100 per cent geographical coverage of the country",
+     "value": "100% geographical coverage",
+     "period": "Round 12",
+     "period_end": null,
+     "publisher": "PNGRB",
+     "series": "CGD bidding round objectives",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,360 @@
+{
+ "slug": "abu-dhabi-paid-2-billion-for-binance",
+ "text_sha1": "23d46d19ca6e20f4",
+ "chars": 18512,
+ "checked": "2026-10-23T10:26:54",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "$2 bn MGX of Abu Dhabi’s investment in Binance in 2025, settled in the USD1 stablecoin: the largest crypto-paid investment reported",
+     "value": "US$2 billion",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "CoinDesk and Bloomberg / Forbes",
+     "series": "MGX investment in Binance",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "$48 bn FDI the UAE attracted in 2025, ninth in the world, per UNCTAD; it targets $65 bn a year by 2031",
+     "value": "US$48 billion",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "UNCTAD",
+     "series": "World Investment Report",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "$25.6 bn Cumulative UAE FDI equity into India to March 2026, the seventh-largest source, all of it through banks",
+     "value": "US$25.6 billion",
+     "period": "to March 2026",
+     "period_end": "2026-03-31",
+     "publisher": "DPIIT",
+     "series": "FDI equity inflows",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "0 Routes in India’s FDI rules for paying for Indian shares in crypto or stablecoins",
+     "value": "0",
+     "period": "as on 2 October 2026",
+     "period_end": "2026-10-02",
+     "publisher": "DPIIT / RBI",
+     "series": "Foreign Exchange Management Act FDI rules",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "Updated 23 October 2026. DPIIT’s fact sheet to June 2026 puts cumulative UAE FDI equity into India at $26.45 billion (April 2000 to June 2026), including $868 million in April–June 2026 and $2.74 billion in 2025-26 as a whole.",
+     "value": "US$26.45 billion",
+     "period": "April 2000 to June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "DPIIT",
+     "series": "Fact sheet on foreign direct investment",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "including $868 million in April–June 2026 and $2.74 billion in 2025-26 as a whole.",
+     "value": "US$868 million",
+     "period": "April–June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "DPIIT",
+     "series": "Fact sheet on foreign direct investment",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "and $2.74 billion in 2025-26 as a whole.",
+     "value": "US$2.74 billion",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DPIIT",
+     "series": "Fact sheet on foreign direct investment",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "after which IHC moved about AED 110 million on ADI Chain",
+     "value": "AED 110 million",
+     "period": "February 2026",
+     "period_end": "2026-02-28",
+     "publisher": "First Abu Dhabi Bank and IHC",
+     "series": "DDSC stablecoin transfers",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "A pilot from May 2025 to February 2026 channelled over AED 18.5 million into tokenised real-estate investments",
+     "value": "AED 18.5 million",
+     "period": "May 2025 to February 2026",
+     "period_end": "2026-02-28",
+     "publisher": "Virtual Assets Regulatory Authority",
+     "series": "Tokenised property pilot",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "It reports that FDI into the UAE rose 49% in 2024 to US$45.6 billion while global flows fell 11%",
+     "value": "US$45.6 billion",
+     "period": "2024",
+     "period_end": "2024-12-31",
+     "publisher": "Ministry of Investment",
+     "series": "From Capital Exporter to Financial Architect: The UAE’s Evolving Role in Global Finance",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "finance and insurance have accounted for 21% of inward FDI stock since 2022",
+     "value": "21%",
+     "period": "since 2022",
+     "period_end": "2026-02-28",
+     "publisher": "Ministry of Investment",
+     "series": "From Capital Exporter to Financial Architect: The UAE’s Evolving Role in Global Finance",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Of 45 million trades on the LocalBitcoins peer-to-peer platform, over 7% used bitcoin only as a vehicle to move fiat money",
+     "value": "45 million trades",
+     "period": "2023",
+     "period_end": "2023-12-31",
+     "publisher": "Graf von Luckner, Reinhart and Rogoff",
+     "series": "Journal of Monetary Economics study",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Tether → Adecoagro, 2025 | Stablecoin issuer bought 70% of the Argentine agribusiness by tender at US$12.41 a share, rising to 74.3% by December 2025",
+     "value": "70%",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "Adecoagro SEC filings",
+     "series": "Adecoagro acquisition",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "rising to 74.3% by December 2025",
+     "value": "74.3%",
+     "period": "December 2025",
+     "period_end": "2025-12-31",
+     "publisher": "Adecoagro SEC filings",
+     "series": "Adecoagro acquisition",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "including US$2.45 billion in April–December 2025.",
+     "value": "US$2.45 billion",
+     "period": "April–December 2025",
+     "period_end": "2025-12-31",
+     "publisher": "DPIIT",
+     "series": "FDI equity inflows",
+     "frequency": "monthly",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "$2 bn MGX of Abu Dhabi’s investment in Binance in 2025, settled in the USD1 stablecoin: the largest crypto-paid investment reported",
+     "value": "US$2 billion",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "CoinDesk, Bloomberg, Forbes",
+     "series": "Crypto-paid investment deals",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "$48 bn FDI the UAE attracted in 2025, ninth in the world, per UNCTAD; it targets $65 bn a year by 2031",
+     "value": "US$48 billion",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "UNCTAD",
+     "series": "World Investment Report 2026",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "$25.6 bn Cumulative UAE FDI equity into India to March 2026, the seventh-largest source, all of it through banks",
+     "value": "US$25.6 billion",
+     "period": "April 2000 to March 2026",
+     "period_end": "2026-03-31",
+     "publisher": "DPIIT",
+     "series": "FDI equity inflows into India (fact sheet, Annex A, Table I.D)",
+     "frequency": "cumulative",
+     "headline": true
+    },
+    {
+     "quote": "The UAE set up a US$10 billion National Investment Fund to double annual inflows to US$65 billion by 2031",
+     "value": "US$10 billion",
+     "period": "2025 (announcement)",
+     "period_end": "2025-12-31",
+     "publisher": "UAE Ministry of Economy / US State Department",
+     "series": "National Investment Fund",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "FDI into the UAE rose 49% in 2024 to US$45.6 billion while global flows fell 11%",
+     "value": "US$45.6 billion",
+     "period": "2024",
+     "period_end": "2024-12-31",
+     "publisher": "UAE Ministry of Investment",
+     "series": "From Capital Exporter to Financial Architect (whitepaper, Feb 2026)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Finance and insurance have accounted for 21% of inward FDI stock since 2022",
+     "value": "21%",
+     "period": "2022–2025",
+     "period_end": "2025-12-31",
+     "publisher": "UAE Ministry of Investment",
+     "series": "From Capital Exporter to Financial Architect (whitepaper, Feb 2026)",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "The UAE had brought in more than 90 companies, including Coinbase, Ripple, Polygon and Qualcomm, and was expected to add about US$500 million to the economy",
+     "value": "US$500 million",
+     "period": "2022–2026",
+     "period_end": "2026-07-00",
+     "publisher": "UAE Ministry of Economy",
+     "series": "NextGen FDI programme",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "Over AED 110 million moved on ADI Chain using the DDSC dirham stablecoin",
+     "value": "AED 110 million",
+     "period": "2026",
+     "period_end": "2026-02-29",
+     "publisher": "First Abu Dhabi Bank / IHC",
+     "series": "Dirham stablecoin transactions (DDSC)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Over AED 18.5 million into tokenised real-estate investments, May 2025 to February 2026",
+     "value": "AED 18.5 million",
+     "period": "May 2025–February 2026",
+     "period_end": "2026-02-29",
+     "publisher": "Dubai Virtual Assets Regulatory Authority",
+     "series": "Tokenised property pilot",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The UAE is the seventh-largest source of FDI equity into India, with cumulative inflows of about US$25.6 billion to March 2026, including US$2.45 billion in April–December 2025",
+     "value": "US$2.45 billion",
+     "period": "April–December 2025",
+     "period_end": "2025-12-31",
+     "publisher": "DPIIT",
+     "series": "FDI equity inflows into India (fact sheet)",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "DPIIT’s fact sheet to June 2026 puts cumulative UAE FDI equity into India at $26.45 billion (April 2000 to June 2026), including $868 million in April–June 2026 and $2.74 billion in 2025-26 as a whole",
+     "value": "US$26.45 billion",
+     "period": "April 2000 to June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "DPIIT",
+     "series": "FDI equity inflows into India (fact sheet)",
+     "frequency": "cumulative",
+     "headline": false
+    },
+    {
+     "quote": "$868 million in April–June 2026",
+     "value": "US$868 million",
+     "period": "April–June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "DPIIT",
+     "series": "FDI equity inflows into India (fact sheet)",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "$2.74 billion in 2025-26 as a whole",
+     "value": "US$2.74 billion",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DPIIT",
+     "series": "FDI equity inflows into India (fact sheet)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "The UAE’s third place in Henley’s 2024 ranking of crypto-friendly countries",
+     "value": "3rd place",
+     "period": "2024",
+     "period_end": "2024-12-31",
+     "publisher": "Henley Passport Index",
+     "series": "Crypto-friendly countries ranking",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Over 7% of 45 million trades on LocalBitcoins were international capital flight",
+     "value": "7%",
+     "period": "2019–2023 (study period)",
+     "period_end": "2023-12-31",
+     "publisher": "Graf von Luckner, Reinhart, Rogoff (Journal of Monetary Economics)",
+     "series": "Peer-to-peer crypto trade analysis",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Over a quarter of bitcoin exchange volume in China was capital flight",
+     "value": "25%",
+     "period": "2019–2021 (study period)",
+     "period_end": "2021-12-31",
+     "publisher": "Hu, Lee, Putniñš (2021)",
+     "series": "Capital flight via crypto",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Tether bought 70% of Adecoagro at US$12.41 a share, rising to 74.3% by December 2025",
+     "value": "US$12.41 per share",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "Adecoagro SEC filings",
+     "series": "Stablecoin-backed FDI",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The UAE left the FATF’s grey list in February 2024",
+     "value": "February 2024",
+     "period": "2024-02",
+     "period_end": "2024-02-29",
+     "publisher": "Financial Action Task Force (FATF)",
+     "series": "Grey list status",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The UAE’s Ministry of Economy launched NextGen FDI in July 2022, aimed at bringing 300 digital companies within a year",
+     "value": "300 companies",
+     "period": "2022",
+     "period_end": "2023-07-00",
+     "publisher": "UAE Ministry of Economy",
+     "series": "NextGen FDI programme",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

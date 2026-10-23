@@ -1,0 +1,624 @@
+{
+ "slug": "india-imported-28-million-of-sucralose",
+ "text_sha1": "149c4987e19e0ba7",
+ "chars": 19581,
+ "checked": "2026-10-23T12:54:00",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "101 mn Indians with diabetes (11.4%), plus 136 million with prediabetes, in the ICMR-INDIAB estimate",
+     "value": "101 million",
+     "period": "2023",
+     "period_end": "2023-12-31",
+     "publisher": "ICMR",
+     "series": "ICMR-INDIAB estimate",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "$28.4 mn Sucralose imported in FY26, up 49% in value and 71% in volume, on a falling price",
+     "value": "$28.4 million",
+     "period": "FY26",
+     "period_end": "2026-03-31",
+     "publisher": "Department of Commerce",
+     "series": "Tariff line 29321400",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "60–65% Share of Indian sugar demand that comes from institutional buyers, mostly drinks and confectionery",
+     "value": "60–65%",
+     "period": "2023-24",
+     "period_end": "2024-03-31",
+     "publisher": "ISMA",
+     "series": "Institutional buyers demand share",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "0 Indian sucralose factories verified; most directory sellers list Chinese-made product",
+     "value": "0",
+     "period": "as on 12 October 2026",
+     "period_end": "2026-10-12",
+     "publisher": "one-off",
+     "series": "Verified Indian sucralose factories",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "ISMA’s domestic sugar requirement for 2025-26 is 28.5 million tonnes.",
+     "value": "28.5 million tonnes",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "ISMA",
+     "series": "Domestic sugar requirement",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "ICMR-INDIAB, Lancet Diabetes & Endocrinology 2023, as reported in the press. Survey 2008–2020.",
+     "value": "11.4%",
+     "period": "2008–2020",
+     "period_end": "2020-12-31",
+     "publisher": "ICMR",
+     "series": "ICMR-INDIAB study",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Goa at 26.4% and Uttar Pradesh at 4.8%.",
+     "value": "26.4%",
+     "period": "2008–2020",
+     "period_end": "2020-12-31",
+     "publisher": "ICMR",
+     "series": "ICMR-INDIAB study",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Uttar Pradesh (lowest) \n 4.8%",
+     "value": "4.8%",
+     "period": "2008–2020",
+     "period_end": "2020-12-31",
+     "publisher": "ICMR",
+     "series": "ICMR-INDIAB study",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "estimated that 11.4% of Indians, about 101 million people, have diabetes, and 15.3% have prediabetes, about 136 million.",
+     "value": "15.3%",
+     "period": "2008–2020",
+     "period_end": "2020-12-31",
+     "publisher": "ICMR",
+     "series": "ICMR-INDIAB study",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The International Diabetes Federation’s 2024 estimate is lower, 89.8 million adults aged 20–79 (10.5% age-standardised)",
+     "value": "89.8 million",
+     "period": "2024",
+     "period_end": "2024-12-31",
+     "publisher": "International Diabetes Federation",
+     "series": "IDF Diabetes Atlas",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "rising to about 157 million by 2050, with 43% undiagnosed.",
+     "value": "157 million",
+     "period": "2050",
+     "period_end": "2050-12-31",
+     "publisher": "International Diabetes Federation",
+     "series": "IDF Diabetes Atlas",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "rising to about 157 million by 2050, with 43% undiagnosed.",
+     "value": "43%",
+     "period": "2024",
+     "period_end": "2024-12-31",
+     "publisher": "International Diabetes Federation",
+     "series": "IDF Diabetes Atlas",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "found about one in five with diabetes (50.4 million), and urban prevalence about double rural.",
+     "value": "50.4 million",
+     "period": "2017–19",
+     "period_end": "2019-12-31",
+     "publisher": "The Lancet Global Health",
+     "series": "National survey of people aged 45 and over",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Domestic sugar use was about 28 million tonnes in 2024-25 by the sugar industry’s estimate",
+     "value": "28 million tonnes",
+     "period": "2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "ISMA",
+     "series": "Domestic sugar use",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "and a record 29 million in 2023-24;",
+     "value": "29 million tonnes",
+     "period": "2023-24",
+     "period_end": "2024-03-31",
+     "publisher": "ISMA",
+     "series": "Domestic sugar use",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "The Indian Sugar and Bio-Energy Manufacturers Association (ISMA) found institutional buyers took 60–65% of demand in 2023-24, up from 50–55% in 2018-19;",
+     "value": "50–55%",
+     "period": "2018-19",
+     "period_end": "2019-03-31",
+     "publisher": "ISMA",
+     "series": "Institutional buyers demand share",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Households took the remaining 35–40%, and the study said affluent households",
+     "value": "35–40%",
+     "period": "2023-24",
+     "period_end": "2024-03-31",
+     "publisher": "ISMA",
+     "series": "Household demand share",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Aspartame, for example, is capped at 700 ppm in soft drinks.",
+     "value": "700 ppm",
+     "period": "current",
+     "period_end": null,
+     "publisher": "FSSAI",
+     "series": "Food Safety and Standards Regulations",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "In May 2023 the World Health Organization advised against using non-sugar sweeteners to control weight or reduce the risk of non-communicable disease, on the basis of 283 studies",
+     "value": "283",
+     "period": "May 2023",
+     "period_end": "2023-05-31",
+     "publisher": "WHO",
+     "series": "Non-sugar sweeteners guideline review",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "while the joint expert committee JECFA kept its limit of 40 mg per kg of body weight a day;",
+     "value": "40 mg per kg",
+     "period": "July 2023",
+     "period_end": "2023-07-31",
+     "publisher": "JECFA",
+     "series": "Aspartame safety evaluation",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Under tariff line 29321400, India imported $28.4 million in FY26 and exported about $0.7 million, a deficit of $27.7 million.",
+     "value": "$0.7 million",
+     "period": "FY26",
+     "period_end": "2026-03-31",
+     "publisher": "Department of Commerce",
+     "series": "Tariff line 29321400 exports",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Under tariff line 29321400, India imported $28.4 million in FY26 and exported about $0.7 million, a deficit of $27.7 million.",
+     "value": "$27.7 million",
+     "period": "FY26",
+     "period_end": "2026-03-31",
+     "publisher": "Department of Commerce",
+     "series": "Tariff line 29321400 deficit",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Value rose 49.3%, volume 71.0% and the unit price fell 12.4%.",
+     "value": "49.3%",
+     "period": "FY26",
+     "period_end": "2026-03-31",
+     "publisher": "Department of Commerce",
+     "series": "Tariff line 29321400 value growth",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Value rose 49.3%, volume 71.0% and the unit price fell 12.4%.",
+     "value": "71.0%",
+     "period": "FY26",
+     "period_end": "2026-03-31",
+     "publisher": "Department of Commerce",
+     "series": "Tariff line 29321400 volume growth",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Value rose 49.3%, volume 71.0% and the unit price fell 12.4%.",
+     "value": "12.4%",
+     "period": "FY26",
+     "period_end": "2026-03-31",
+     "publisher": "Department of Commerce",
+     "series": "Tariff line 29321400 unit price change",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "A third-party aggregation of customs data puts FY25 imports at ₹161.79 crore, consistent with that growth.",
+     "value": "₹161.79 crore",
+     "period": "FY25",
+     "period_end": "2025-03-31",
+     "publisher": "Customs",
+     "series": "Customs data aggregation",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Basic customs duty is shown as 7.5% on two tariff sites",
+     "value": "7.5%",
+     "period": "current",
+     "period_end": null,
+     "publisher": "Customs",
+     "series": "Basic customs duty",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "China holds more than 85–90% of world capacity by two market reports,",
+     "value": "85–90%",
+     "period": "2024",
+     "period_end": "2024-12-31",
+     "publisher": "Market reports",
+     "series": "World sucralose capacity share",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "and global output was above 23,000 tonnes in 2024 at an average price near $22 a kilogram.",
+     "value": "23,000 tonnes",
+     "period": "2024",
+     "period_end": "2024-12-31",
+     "publisher": "Market reports",
+     "series": "Global sucralose output",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "and global output was above 23,000 tonnes in 2024 at an average price near $22 a kilogram.",
+     "value": "$22 a kilogram",
+     "period": "2024",
+     "period_end": "2024-12-31",
+     "publisher": "Market reports",
+     "series": "Global sucralose average price",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "29054900 | $9.8 mn imports, deficit $8.4 mn; value −25.6%",
+     "value": "$9.8 million",
+     "period": "FY26",
+     "period_end": "2026-03-31",
+     "publisher": "Department of Commerce",
+     "series": "Tariff line 29054900 imports",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "29054900 | $9.8 mn imports, deficit $8.4 mn; value −25.6%",
+     "value": "$8.4 million",
+     "period": "FY26",
+     "period_end": "2026-03-31",
+     "publisher": "Department of Commerce",
+     "series": "Tariff line 29054900 deficit",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "29054900 | $9.8 mn imports, deficit $8.4 mn; value −25.6%",
+     "value": "25.6%",
+     "period": "FY26",
+     "period_end": "2026-03-31",
+     "publisher": "Department of Commerce",
+     "series": "Tariff line 29054900 value change",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "38246010, 38246090 | Sorbitol, in aqueous solution and other | $2.5 mn and $1.6 mn",
+     "value": "$2.5 million",
+     "period": "FY26",
+     "period_end": "2026-03-31",
+     "publisher": "Department of Commerce",
+     "series": "Tariff line 38246010 imports",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "38246010, 38246090 | Sorbitol, in aqueous solution and other | $2.5 mn and $1.6 mn",
+     "value": "$1.6 million",
+     "period": "FY26",
+     "period_end": "2026-03-31",
+     "publisher": "Department of Commerce",
+     "series": "Tariff line 38246090 imports",
+     "frequency": "annual",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "India Imported $28 Million of Sucralose in FY26, Up 49%.",
+     "value": "$28.4 million",
+     "period": "FY26",
+     "period_end": "2026-03-31",
+     "publisher": "this blog’s trade registry (customs data)",
+     "series": "HS 29321400 (Sucralose) imports by value",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "$28.4 mn Sucralose imported in FY26, up 49% in value and 71% in volume, on a falling price",
+     "value": "$28.4 million (value), +49.3% (value growth), +71.0% (volume growth), -12.4% (price change)",
+     "period": "FY26",
+     "period_end": "2026-03-31",
+     "publisher": "this blog’s trade registry (customs data)",
+     "series": "HS 29321400 (Sucralose) imports by value/volume/price",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "India imported $28.4 million in FY26 and exported about $0.7 million, a deficit of $27.7 million.",
+     "value": "$28.4 million (imports), $0.7 million (exports), $27.7 million (deficit)",
+     "period": "FY26",
+     "period_end": "2026-03-31",
+     "publisher": "this blog’s trade registry (customs data)",
+     "series": "HS 29321400 (Sucralose) trade balance",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "A third-party aggregation of customs data puts FY25 imports at ₹161.79 crore.",
+     "value": "₹161.79 crore",
+     "period": "FY25",
+     "period_end": "2025-03-31",
+     "publisher": "third-party customs data aggregation",
+     "series": "HS 29321400 (Sucralose) imports by value",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "China holds more than 85–90% of world capacity by two market reports, and global output was above 23,000 tonnes in 2024 at an average price near $22 a kilogram.",
+     "value": "85–90% (China’s global capacity share), 23,000+ tonnes (global output), $22/kg (average price)",
+     "period": "2024",
+     "period_end": "2024-12-31",
+     "publisher": "market reports",
+     "series": "Global sucralose production and pricing",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Domestic sugar use was about 28 million tonnes in 2024-25 by the sugar industry’s estimate, and a record 29 million in 2023-24; ISMA’s first advance estimate for 2025-26 put the domestic requirement at 28.5 million.",
+     "value": "28 million tonnes (2024-25), 29 million tonnes (2023-24), 28.5 million tonnes (2025-26 estimate)",
+     "period": "2023-24, 2024-25, 2025-26 (estimate)",
+     "period_end": [
+      "2024-03-31",
+      "2025-03-31",
+      "2026-03-31"
+     ],
+     "publisher": "ISMA (Indian Sugar and Bio-Energy Manufacturers Association)",
+     "series": "Domestic sugar requirement estimates",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "ISMA’s domestic sugar requirement for 2025-26 is 28.5 million tonnes.",
+     "value": "28.5 million tonnes",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "ISMA",
+     "series": "Domestic sugar requirement estimate",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "60–65% Share of Indian sugar demand that comes from institutional buyers, mostly drinks and confectionery",
+     "value": "60–65%",
+     "period": "2023-24",
+     "period_end": "2024-03-31",
+     "publisher": "ISMA",
+     "series": "Institutional sugar demand share",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "The ICMR-INDIAB study, published in The Lancet Diabetes & Endocrinology in 2023, estimated that 11.4% of Indians, about 101 million people, have diabetes, and 15.3% have prediabetes, about 136 million.",
+     "value": "11.4% (diabetes prevalence), 101 million (diabetes cases), 15.3% (prediabetes prevalence), 136 million (prediabetes cases)",
+     "period": "2021 (extrapolated from 2008–2020 survey)",
+     "period_end": "2021-12-31",
+     "publisher": "ICMR-INDIAB (Indian Council of Medical Research - Diabetes Initiative)",
+     "series": "ICMR-INDIAB diabetes prevalence study",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The ICMR-INDIAB study... Goa at 26.4% and Uttar Pradesh at 4.8%.",
+     "value": "26.4% (Goa diabetes prevalence), 4.8% (Uttar Pradesh diabetes prevalence)",
+     "period": "2021 (extrapolated from 2008–2020 survey)",
+     "period_end": "2021-12-31",
+     "publisher": "ICMR-INDIAB",
+     "series": "State-level diabetes prevalence",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "A national survey... found about one in five with diabetes (50.4 million), and urban prevalence about double rural.",
+     "value": "50.4 million (diabetes cases), urban prevalence ~double rural",
+     "period": "2017–2019 (fieldwork), published Feb 2026",
+     "period_end": "2019-12-31",
+     "publisher": "The Lancet Global Health",
+     "series": "National diabetes survey (adults aged 45+)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The International Diabetes Federation’s 2024 estimate is 89.8 million adults aged 20–79, below the 101 million ICMR-INDIAB projection.",
+     "value": "89.8 million (IDF estimate, adults aged 20–79)",
+     "period": "2024",
+     "period_end": "2024-12-31",
+     "publisher": "International Diabetes Federation (IDF)",
+     "series": "IDF Diabetes Atlas country estimates",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Zydus Wellness’s Sugar Free, launched in 1988, says its share of the Indian tabletop market is above 90%, with aspartame, sucralose and stevia variants.",
+     "value": ">90%",
+     "period": null,
+     "period_end": null,
+     "publisher": "Zydus Wellness (Nielsen figures)",
+     "series": "Tabletop sweetener market share",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Sucrose-6-acetate: about 88–91% yield",
+     "value": "88–91%",
+     "period": null,
+     "period_end": null,
+     "publisher": "US patents (e.g., 8283464)",
+     "series": "Sucrose-6-acetate esterification yield",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "crude only 68–73% pure",
+     "value": "68–73%",
+     "period": null,
+     "period_end": null,
+     "publisher": "US patents (e.g., 8283464)",
+     "series": "Crude sucralose purity post-chlorination",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "99% purity at 79.9% yield; DMF 80–90% recoverable",
+     "value": "99% purity, 79.9% yield, 80–90% DMF recovery",
+     "period": null,
+     "period_end": null,
+     "publisher": "US patents (e.g., 8283464)",
+     "series": "Sucralose crystallisation yield and DMF recovery",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Xylose yield 82% then 100% selectivity to xylitol in one study; fermentation route 54.4%",
+     "value": "82% (xylose yield), 100% (selectivity to xylitol), 54.4% (fermentation route)",
+     "period": null,
+     "period_end": null,
+     "publisher": "CICEQ (2023) and Frontiers in Nutrition (2022)",
+     "series": "Xylose-to-xylitol conversion studies",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Basic customs duty is shown as 7.5% on two tariff sites, which was not checked against the official schedule.",
+     "value": "7.5%",
+     "period": null,
+     "period_end": null,
+     "publisher": "tariff sites",
+     "series": "Basic customs duty on sucralose",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "FSSAI permits five artificial sweeteners... Aspartame, for example, is capped at 700 ppm in soft drinks.",
+     "value": "700 ppm (aspartame limit in soft drinks)",
+     "period": null,
+     "period_end": null,
+     "publisher": "FSSAI (Food Safety and Standards Authority of India)",
+     "series": "Permitted sweeteners and ppm limits",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "WHO advised against using non-sugar sweeteners to control weight or reduce the risk of non-communicable disease, on the basis of 283 studies... May 2023",
+     "value": "283 studies",
+     "period": "May 2023",
+     "period_end": "2023-05-31",
+     "publisher": "World Health Organization (WHO)",
+     "series": "Non-sugar sweeteners guideline",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "IARC classed aspartame as ‘possibly carcinogenic’... July 2023",
+     "value": "possibly carcinogenic",
+     "period": "July 2023",
+     "period_end": "2023-07-31",
+     "publisher": "IARC (International Agency for Research on Cancer)",
+     "series": "Aspartame carcinogenicity classification",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "JECFA kept its limit of 40 mg per kg of body weight a day; an adult of 70 kg would need more than 9 to 14 cans of diet drink a day to exceed it.",
+     "value": "40 mg/kg/day (JECFA limit), 70 kg adult threshold: 9–14 cans/day",
+     "period": null,
+     "period_end": null,
+     "publisher": "JECFA (Joint FAO/WHO Expert Committee on Food Additives)",
+     "series": "Aspartame acceptable daily intake (ADI)",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "FSSAI proposed a single-phase front-of-pack regime... expects about four months to finalise draft rules, then 60 days of comment and a 365-day voluntary period",
+     "value": "4 months (draft finalisation), 60 days (comment period), 365 days (voluntary period)",
+     "period": "23 September 2026 (proposal)",
+     "period_end": "2026-09-23",
+     "publisher": "FSSAI",
+     "series": "Front-of-pack labelling proposal timeline",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "$9.8 mn imports, deficit $8.4 mn; value −25.6%",
+     "value": "$9.8 million (imports), $8.4 million (deficit), -25.6% (value change)",
+     "period": null,
+     "period_end": null,
+     "publisher": "this blog’s trade registry (customs data)",
+     "series": "HS 29054900 (polyhydric alcohols) imports by value",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "$2.5 mn and $1.6 mn",
+     "value": "$2.5 million (sorbitol aqueous solution), $1.6 million (other sorbitol)",
+     "period": null,
+     "period_end": null,
+     "publisher": "this blog’s trade registry (customs data)",
+     "series": "HS 38246010, 38246090 (sorbitol) imports by value",
+     "frequency": "annual",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

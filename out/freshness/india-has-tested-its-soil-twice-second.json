@@ -1,0 +1,149 @@
+{
+ "slug": "india-has-tested-its-soil-twice-second",
+ "text_sha1": "f26ce0add835913c",
+ "chars": 10447,
+ "checked": "2026-10-23T12:44:40",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "25.89 cr Soil Health Cards issued as of July 2026, per reporting of ministry figures",
+     "value": "25.89 cr",
+     "period": "as of July 2026",
+     "period_end": "2026-07-31",
+     "publisher": "PIB / Ministry of Agriculture & Farmers Welfare",
+     "series": "Soil Health Cards issued",
+     "frequency": "live",
+     "headline": true
+    },
+    {
+     "quote": "The Soil Health Card scheme has been measuring organic carbon on every card it issues since 2015 — more than 25 crore cards by 2026",
+     "value": "more than 25 crore cards",
+     "period": "by 2026",
+     "period_end": "2026-12-31",
+     "publisher": "Ministry of Agriculture & Farmers Welfare",
+     "series": "Soil Health Cards issued",
+     "frequency": "live",
+     "headline": true
+    },
+    {
+     "quote": "12 Parameters on every card, including organic carbon (OC)",
+     "value": "12 Parameters",
+     "period": null,
+     "period_end": null,
+     "publisher": "Ministry of Agriculture & Farmers Welfare",
+     "series": "Soil Health Card parameters",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "Cards issued: ministry figures as reported by All India Radio (over 25 crore, January 2026)",
+     "value": "over 25 crore",
+     "period": "January 2026",
+     "period_end": "2026-01-31",
+     "publisher": "Ministry of Agriculture & Farmers Welfare",
+     "series": "Soil Health Cards issued",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "a card is reissued every three years under the current cycle; the 25.89 crore figure is cards",
+     "value": "three years",
+     "period": null,
+     "period_end": null,
+     "publisher": "Ministry of Agriculture & Farmers Welfare",
+     "series": "Soil Health Card cycle duration",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "more than 25 crore cards by 2026, the only national soil panel India has.",
+     "value": "25 crore",
+     "period": "by 2026",
+     "period_end": "2026-12-31",
+     "publisher": "Ministry of Agriculture & Farmers Welfare (via All India Radio & Vision IAS)",
+     "series": "Soil Health Card issuance count",
+     "frequency": "one-off (cumulative)",
+     "headline": false
+    },
+    {
+     "quote": "25.89 cr Soil Health Cards issued as of July 2026, per reporting of ministry figures",
+     "value": "25.89 cr",
+     "period": "as of July 2026",
+     "period_end": "2026-07-31",
+     "publisher": "Ministry of Agriculture & Farmers Welfare (via Vision IAS)",
+     "series": "Soil Health Card issuance count",
+     "frequency": "one-off (cumulative)",
+     "headline": true
+    },
+    {
+     "quote": "12 Parameters on every card, including organic carbon (OC)",
+     "value": "12 parameters",
+     "period": null,
+     "publisher": "Ministry of Agriculture & Farmers Welfare",
+     "series": "Soil Health Card parameters",
+     "frequency": "one-off (scheme design)",
+     "headline": false
+    },
+    {
+     "quote": "April 2023 When the rebuilt app, auto-captured coordinates and QR-linked geo-mapped labs came into use, per the ministry's own decade release",
+     "value": "April 2023",
+     "period": "April 2023",
+     "period_end": "2023-04-30",
+     "publisher": "Ministry of Agriculture & Farmers Welfare",
+     "series": "Soil Health Card sampling system upgrade",
+     "frequency": "one-off (system change)",
+     "headline": false
+    },
+    {
+     "quote": "2017–2023 Window of the ICAR study on organic-carbon decline now widely cited — which crosses the seam",
+     "value": "2017–2023",
+     "period": "2017–2023",
+     "period_end": "2023-12-31",
+     "publisher": "Indian Council of Agricultural Research (ICAR) / Indian Institute of Soil Science (IISS), Bhopal",
+     "series": "Organic carbon decline study (sampling period)",
+     "frequency": "one-off (study)",
+     "headline": false
+    },
+    {
+     "quote": "The revamped portal and mobile application were formally inaugurated by the Union Agriculture and Rural Development ministers in early 2024 (PIB PRID 2012238)",
+     "value": "early 2024",
+     "period": "early 2024",
+     "period_end": "2024-03-31",
+     "publisher": "PIB (Press Information Bureau)",
+     "series": "Soil Health Card portal inauguration",
+     "frequency": "one-off (event)",
+     "headline": false
+    },
+    {
+     "quote": "The Ministry of Agriculture's 'Celebrating a Decade of Soil Health Cards' release of 18 February 2025 describes the upgraded system as in use since April 2023.",
+     "value": "18 February 2025",
+     "period": "18 February 2025",
+     "period_end": "2025-02-18",
+     "publisher": "Ministry of Agriculture & Farmers Welfare",
+     "series": "Celebrating a Decade of Soil Health Cards (release date)",
+     "frequency": "one-off (report)",
+     "headline": false
+    },
+    {
+     "quote": "The blog's source register verified in September 2026 that the dashboard's data endpoint is live.",
+     "value": "September 2026",
+     "period": "September 2026",
+     "period_end": "2026-09-30",
+     "publisher": "Soil Health Card portal (soilhealth.dac.gov.in)",
+     "series": "Nutrient Dashboard data endpoint",
+     "frequency": "live",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

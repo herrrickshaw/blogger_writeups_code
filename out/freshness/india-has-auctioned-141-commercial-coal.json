@@ -1,0 +1,493 @@
+{
+ "slug": "india-has-auctioned-141-commercial-coal",
+ "text_sha1": "307c3e32bfdc2379",
+ "chars": 10525,
+ "checked": "2026-10-23T12:39:14",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "141 Commercial coal mines auctioned in the first 14 rounds, June 2020 to 2025",
+     "value": "141",
+     "period": "June 2020 to 2025",
+     "period_end": "2025-12-31",
+     "publisher": "Ministry of Coal",
+     "series": "Commercial coal mines auctioned, rounds 1–14",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "15 Of those, mines producing coal on 30 June 2026",
+     "value": "15",
+     "period": "as on 30 June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "Ministry of Coal",
+     "series": "Commercial coal mines producing coal",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "26 Mt Output of commercial mines in 2025-26, against a rated capacity of 366 million tonnes a year",
+     "value": "26 Mt",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "PIB / Ministry of Coal",
+     "series": "Output of commercial mines",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "26 Mt Output of commercial mines in 2025-26, against a rated capacity of 366 million tonnes a year",
+     "value": "366 million tonnes a year",
+     "period": "as on 30 June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "Ministry of Coal",
+     "series": "Rated capacity of auctioned commercial coal mines (rounds 1–14)",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "25 Blocks on offer in the 16th round, announced on 16 September 2026",
+     "value": "25 blocks",
+     "period": "16 September 2026",
+     "period_end": "2026-09-16",
+     "publisher": "Ministry of Coal",
+     "series": "Commercial coal mine auctions, 16th round blocks on offer",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "132 of the first 141 mines allocated",
+     "value": "132",
+     "period": "as on 30 June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "Ministry of Coal",
+     "series": "Allocation orders issued, rounds 1–14",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "23 cleared to open",
+     "value": "23",
+     "period": "as on 30 June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "Ministry of Coal",
+     "series": "Mine opening permission granted, rounds 1–14",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "147 mines sold over 15 rounds, a combined peak capacity of nearly 378 million tonnes a year",
+     "value": "147 mines",
+     "period": "June 2020 to August 2026",
+     "period_end": "2026-08-31",
+     "publisher": "Ministry of Coal",
+     "series": "Commercial mines auctioned",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "a combined peak capacity of nearly 378 million tonnes a year",
+     "value": "377.97 million tonnes a year",
+     "period": "June 2020 to August 2026",
+     "period_end": "2026-08-31",
+     "publisher": "Ministry of Coal",
+     "series": "Peak rated capacity of commercial mines auctioned",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "bidders offering the government an average of 24% of the value of their coal, six times the 4% floor",
+     "value": "24.17%",
+     "period": "June 2020 to August 2026",
+     "period_end": "2026-08-31",
+     "publisher": "Ministry of Coal",
+     "series": "Average revenue share bid",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "Of which, rounds 1–14 | 141; 366.35 million tonnes a year | PIB 2293366, 3 August 2026",
+     "value": "366.35 million tonnes a year",
+     "period": "as on 30 June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "PIB / Ministry of Coal",
+     "series": "Rated capacity of rounds 1–14 commercial mines",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "Output of commercial mines, 2025-26 | About 26.12 million tonnes | PIB 2293366",
+     "value": "26.12 million tonnes",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "PIB / Ministry of Coal",
+     "series": "Output of commercial mines",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Output of all captive and commercial mines, 2025-26 | 210.46 million tonnes, against a target of 225.69 | PIB 2248300, 2 April 2026",
+     "value": "210.46 million tonnes",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "PIB / Ministry of Coal",
+     "series": "Output of captive and commercial mines",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Output of all captive and commercial mines, 2025-26 | 210.46 million tonnes, against a target of 225.69 | PIB 2248300, 2 April 2026",
+     "value": "225.69 million tonnes",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "PIB / Ministry of Coal",
+     "series": "Production target for captive and commercial mines",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Share of captive and commercial mines in India’s coal output | 10.9% in 2021-22; 20.2% in 2025-26 | PIB 2248300",
+     "value": "10.9%",
+     "period": "2021-22",
+     "period_end": "2022-03-31",
+     "publisher": "PIB / Ministry of Coal",
+     "series": "Share of captive and commercial mines in India's coal output",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Share of captive and commercial mines in India’s coal output | 10.9% in 2021-22; 20.2% in 2025-26 | PIB 2248300",
+     "value": "20.2%",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "PIB / Ministry of Coal",
+     "series": "Share of captive and commercial mines in India's coal output",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Blocks given mine opening permission in 2025-26 | 12, of which 7 started producing in the year | PIB 2248300",
+     "value": "12",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "PIB / Ministry of Coal",
+     "series": "Blocks given mine opening permission",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Blocks given mine opening permission in 2025-26 | 12, of which 7 started producing in the year | PIB 2248300",
+     "value": "7",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "PIB / Ministry of Coal",
+     "series": "Blocks starting production in the year",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Target for captive and commercial mines | 383.56 million tonnes by 2029-30 | Ministry of Coal, as reported",
+     "value": "383.56 million tonnes",
+     "period": "2029-30",
+     "period_end": "2030-03-31",
+     "publisher": "Ministry of Coal",
+     "series": "Target for captive and commercial mines",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "An analysis of Right to Information replies, reported by the Indian Express in March 2026, found that 31 of 98 blocks that should have been operational had missed their deadlines",
+     "value": "31 of 98 blocks",
+     "period": "March 2026",
+     "period_end": "2026-03-31",
+     "publisher": "Ministry of Coal / Indian Express",
+     "series": "Blocks missing operational deadline (RTI)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "It also counted 35 blocks surrendered and 55 producing out of 209 auctioned or allotted since 2015.",
+     "value": "35 blocks",
+     "period": "March 2026",
+     "period_end": "2026-03-31",
+     "publisher": "Ministry of Coal / Indian Express",
+     "series": "Blocks surrendered since 2015 (RTI)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "It also counted 35 blocks surrendered and 55 producing out of 209 auctioned or allotted since 2015.",
+     "value": "55 producing out of 209",
+     "period": "March 2026",
+     "period_end": "2026-03-31",
+     "publisher": "Ministry of Coal / Indian Express",
+     "series": "Blocks producing out of total auctioned or allotted since 2015 (RTI)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "agreements for six mines from the previous round, with a combined capacity of 11.62 million tonnes a year and reserves of about 1,504 million tonnes.",
+     "value": "11.62 million tonnes a year",
+     "period": "August 2026",
+     "period_end": "2026-08-31",
+     "publisher": "PIB / Ministry of Coal",
+     "series": "15th round allocated mines combined capacity",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "agreements for six mines from the previous round, with a combined capacity of 11.62 million tonnes a year and reserves of about 1,504 million tonnes.",
+     "value": "1,504 million tonnes",
+     "period": "August 2026",
+     "period_end": "2026-08-31",
+     "publisher": "PIB / Ministry of Coal",
+     "series": "15th round allocated mines reserves",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "141 Commercial coal mines auctioned in the first 14 rounds, June 2020 to 2025",
+     "value": "141",
+     "period": "June 2020 to 2025",
+     "period_end": "2025-12-31",
+     "publisher": "Ministry of Coal (via PIB)",
+     "series": "Commercial coal mine auctions (rounds 1–14)",
+     "frequency": "multi-year",
+     "headline": true
+    },
+    {
+     "quote": "15 Of those, mines producing coal on 30 June 2026",
+     "value": "15",
+     "period": "as on 30 June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "Ministry of Coal (reply to Parliament, August 2026)",
+     "series": "Status of auctioned commercial coal mines (producing units)",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "26 Mt Output of commercial mines in 2025-26, against a rated capacity of 366 million tonnes a year",
+     "value": "26 million tonnes",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Ministry of Coal (PIB 2293366)",
+     "series": "Commercial coal mine production vs. rated capacity",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "25 Blocks on offer in the 16th round, announced on 16 September 2026",
+     "value": "25 blocks",
+     "period": "16th round (announced 16 Sep 2026)",
+     "period_end": "2026-09-16",
+     "publisher": "Ministry of Coal (PIB 2310924)",
+     "series": "Commercial coal mine auction blocks (16th round)",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "147 mines sold over 15 rounds, a combined peak capacity of nearly 378 million tonnes a year",
+     "value": "378 million tonnes/year",
+     "period": "over 15 rounds (Jun 2020–Aug 2026)",
+     "period_end": "2026-08-31",
+     "publisher": "Ministry of Coal (backgrounder, September 2026)",
+     "series": "Peak rated capacity of auctioned commercial coal mines",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "Of the 141 mines auctioned in the first 14 rounds, 132 had allocation orders by 30 June 2026",
+     "value": "132 allocation orders",
+     "period": "as on 30 June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "Ministry of Coal (reply to Parliament, August 2026)",
+     "series": "Allocation orders issued for commercial coal mines",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Mine opening permission granted: 23",
+     "value": "23",
+     "period": "as on 30 June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "Ministry of Coal (reply to Parliament, August 2026)",
+     "series": "Mine opening permissions granted (commercial coal)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "109 allocated mines did not yet have permission to open",
+     "value": "109",
+     "period": "as on 30 June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "Ministry of Coal (implied)",
+     "series": "Allocated coal mines without opening permission",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Output of commercial mines, 2025-26: About 26.12 million tonnes",
+     "value": "26.12 million tonnes",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "PIB (2293366)",
+     "series": "Commercial coal mine production",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Output of all captive and commercial mines, 2025-26: 210.46 million tonnes, against a target of 225.69",
+     "value": "210.46 million tonnes",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "PIB (2248300)",
+     "series": "Captive + commercial coal mine production",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Share of captive and commercial mines in India’s coal output: 10.9% in 2021-22; 20.2% in 2025-26",
+     "value": "10.9% (2021-22), 20.2% (2025-26)",
+     "period": "2021-22 and 2025-26",
+     "period_end": [
+      "2022-03-31",
+      "2026-03-31"
+     ],
+     "publisher": "PIB (2248300)",
+     "series": "Captive + commercial coal share of total output",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Blocks given mine opening permission in 2025-26: 12, of which 7 started producing in the year",
+     "value": "12 (permission), 7 (production)",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "PIB (2248300)",
+     "series": "Mine opening permissions and production (2025-26)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Target for captive and commercial mines: 383.56 million tonnes by 2029-30",
+     "value": "383.56 million tonnes",
+     "period": "2029-30",
+     "period_end": "2030-03-31",
+     "publisher": "Ministry of Coal (as reported)",
+     "series": "Coal production target (captive + commercial)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Average revenue share bid: 24% of the value of their coal, against a 4% floor",
+     "value": "24.17%",
+     "period": null,
+     "period_end": null,
+     "publisher": "Ministry of Coal (as reported)",
+     "series": "Average revenue share bid in coal auctions",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "winning bidder 51 months to start producing from an explored block and 66 months from a partially explored one",
+     "value": "51 months (explored), 66 months (partially explored)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Ministry of Coal (auction documents)",
+     "series": "Development timelines for coal blocks",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "31 of 98 blocks that should have been operational had missed their deadlines",
+     "value": "31 blocks",
+     "period": null,
+     "period_end": null,
+     "publisher": "Indian Express (RTI analysis, March 2026)",
+     "series": "Delayed coal block operationalization",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "35 blocks surrendered and 55 producing out of 209 auctioned or allotted since 2015",
+     "value": "35 surrendered, 55 producing",
+     "period": "since 2015",
+     "period_end": "2026-03-31",
+     "publisher": "Indian Express (RTI analysis, March 2026)",
+     "series": "Status of coal blocks (surrendered/producing)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Six blocks auctioned in the 15th round and a second attempt of the 13th (PIB 2294522)",
+     "value": "6 blocks (15th round)",
+     "period": "August 2026",
+     "period_end": "2026-08-31",
+     "publisher": "PIB (2294522)",
+     "series": "15th round coal auction blocks",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "agreements handed over for six mines from the previous round, with a combined capacity of 11.62 million tonnes a year",
+     "value": "11.62 million tonnes/year",
+     "period": "16th round (16 Sep 2026)",
+     "period_end": "2026-09-16",
+     "publisher": "Ministry of Coal (as reported)",
+     "series": "Production capacity of transferred coal blocks",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "reserves of about 1,504 million tonnes",
+     "value": "1,504 million tonnes",
+     "period": null,
+     "period_end": null,
+     "publisher": "Ministry of Coal (as reported)",
+     "series": "Coal reserves in transferred blocks",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "a coal block typically takes four to five years to develop",
+     "value": "4–5 years",
+     "period": null,
+     "period_end": null,
+     "publisher": "ICRA (rating agency, March 2026)",
+     "series": "Development timeline for coal blocks",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "14th round launched with the Koyla Shakti dashboard and the CLAMP land acquisition portal (PIB 2183223)",
+     "value": "14th round (Oct 2025)",
+     "period": "October 2025",
+     "period_end": "2025-10-31",
+     "publisher": "PIB (2183223)",
+     "series": "Launch of Koyla Shakti dashboard and CLAMP portal",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Koyla Shakti dashboard and the CLAMP land portal launched in October 2025",
+     "value": "October 2025",
+     "period": "October 2025",
+     "period_end": "2025-10-31",
+     "publisher": "Ministry of Coal (PIB 2183223)",
+     "series": "Koyla Shakti dashboard and CLAMP portal launch",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

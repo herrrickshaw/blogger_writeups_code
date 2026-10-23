@@ -1,0 +1,209 @@
+{
+ "slug": "how-to-use-news-tracker-score-headlines",
+ "text_sha1": "6f45fd91ed200b17",
+ "chars": 7632,
+ "checked": "2026-10-23T12:12:18",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": []
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "30 filter picks checked in the saved convergence report 7 / 3 / 20 convergent / neutral / no news",
+     "value": "30",
+     "period": null,
+     "period_end": null,
+     "publisher": "github.com/herrrickshaw/global-market-data (saved reports)",
+     "series": "convergence report (filter picks)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "440 rows in the India validation history (27 Aug to 17 Oct)",
+     "value": "440",
+     "period": "27 Aug 2026 to 17 Oct 2026",
+     "period_end": "2026-10-17",
+     "publisher": "github.com/herrrickshaw/market-pipeline (saved reports)",
+     "series": "India validation history (strategy news validation)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "In strategy_news_validation_history.csv for India on 17 October 2026, Darvas picks were covered 7.7% of the time (26 of 339, lift 1.90) and Piotroski 1.2% (4 of 334, lift 0.30).",
+     "value": "7.7% (26 of 339)",
+     "period": "as on 17 Oct 2026",
+     "period_end": "2026-10-17",
+     "publisher": "github.com/herrrickshaw/market-pipeline (saved reports)",
+     "series": "strategy news validation history (Darvas picks coverage)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "In strategy_news_validation_history.csv for India on 17 October 2026, Darvas picks were covered 7.7% of the time (26 of 339, lift 1.90) and Piotroski 1.2% (4 of 334, lift 0.30).",
+     "value": "1.2% (4 of 334)",
+     "period": "as on 17 Oct 2026",
+     "period_end": "2026-10-17",
+     "publisher": "github.com/herrrickshaw/market-pipeline (saved reports)",
+     "series": "strategy news validation history (Piotroski picks coverage)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The same folder holds news_convergence.csv: of 30 filter passes, 7 CONVERGENT (for example ADANIPORTS, ADANIGREEN), 3 NEUTRAL, 20 NO_NEWS, no DIVERGENT.",
+     "value": "7 CONVERGENT",
+     "period": null,
+     "period_end": null,
+     "publisher": "github.com/herrrickshaw/market-pipeline (saved reports)",
+     "series": "convergence report (filter passes)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The same folder holds news_convergence.csv: of 30 filter passes, 7 CONVERGENT (for example ADANIPORTS, ADANIGREEN), 3 NEUTRAL, 20 NO_NEWS, no DIVERGENT.",
+     "value": "3 NEUTRAL",
+     "period": null,
+     "period_end": null,
+     "publisher": "github.com/herrrickshaw/market-pipeline (saved reports)",
+     "series": "convergence report (filter passes)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The same folder holds news_convergence.csv: of 30 filter passes, 7 CONVERGENT (for example ADANIPORTS, ADANIGREEN), 3 NEUTRAL, 20 NO_NEWS, no DIVERGENT.",
+     "value": "20 NO_NEWS",
+     "period": null,
+     "period_end": null,
+     "publisher": "github.com/herrrickshaw/market-pipeline (saved reports)",
+     "series": "convergence report (filter passes)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The same folder holds news_convergence.csv: of 30 filter passes, 7 CONVERGENT (for example ADANIPORTS, ADANIGREEN), 3 NEUTRAL, 20 NO_NEWS, no DIVERGENT.",
+     "value": "0 DIVERGENT",
+     "period": null,
+     "period_end": null,
+     "publisher": "github.com/herrrickshaw/market-pipeline (saved reports)",
+     "series": "convergence report (filter passes)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "10 saved rows: 7 scored from headlines and 3 from article bodies, for example RELIANCE and INFY, with scores between about -0.10 and +0.30.",
+     "value": "-0.10 to +0.30",
+     "period": null,
+     "period_end": null,
+     "publisher": "github.com/herrrickshaw/market-pipeline (saved reports)",
+     "series": "news crawl sample (scores)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "pytest tests/test_core.py -k news -v ... test_news_sentiment_lexicon_scoring PASSED in 1.92 seconds.",
+     "value": "1.92 seconds",
+     "period": null,
+     "period_end": null,
+     "publisher": "pytest (unit test)",
+     "series": "news sentiment lexicon scoring test",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "In the convergence file, 20 of 30 picks had no news.",
+     "value": "20 of 30",
+     "period": null,
+     "period_end": null,
+     "publisher": "github.com/herrrickshaw/market-pipeline (saved reports)",
+     "series": "convergence report (no news)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Darvas picks were covered 7.7% of the time (26 of 339, lift 1.90) and Piotroski 1.2% (4 of 334, lift 0.30).",
+     "value": "1.90",
+     "period": "as on 17 Oct 2026",
+     "period_end": "2026-10-17",
+     "publisher": "github.com/herrrickshaw/market-pipeline (saved reports)",
+     "series": "strategy news validation history (lift for Darvas picks)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Darvas picks were covered 7.7% of the time (26 of 339, lift 1.90) and Piotroski 1.2% (4 of 334, lift 0.30).",
+     "value": "0.30",
+     "period": "as on 17 Oct 2026",
+     "period_end": "2026-10-17",
+     "publisher": "github.com/herrrickshaw/market-pipeline (saved reports)",
+     "series": "strategy news validation history (lift for Piotroski picks)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The demo used Python 3.14.7 with pytest 9.1.1",
+     "value": "3.14.7",
+     "period": null,
+     "period_end": null,
+     "publisher": "python.org",
+     "series": "Python version used in demo",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The demo used Python 3.14.7 with pytest 9.1.1",
+     "value": "9.1.1",
+     "period": null,
+     "period_end": null,
+     "publisher": "pytest",
+     "series": "pytest version used in demo",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Revised 18 October 2026",
+     "value": "18 October 2026",
+     "period": "revision date",
+     "period_end": "2026-10-18",
+     "publisher": "Article revision date",
+     "series": "article revision history",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "v1.0.0 — 18 October 2026 — first published.",
+     "value": "18 October 2026",
+     "period": "publication date",
+     "period_end": "2026-10-18",
+     "publisher": "Article revision history",
+     "series": "article version history",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "26 of 339",
+     "value": "339",
+     "period": "as on 17 Oct 2026",
+     "period_end": "2026-10-17",
+     "publisher": "github.com/herrrickshaw/market-pipeline (saved reports)",
+     "series": "strategy news validation history (total Darvas picks)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "4 of 334",
+     "value": "334",
+     "period": "as on 17 Oct 2026",
+     "period_end": "2026-10-17",
+     "publisher": "github.com/herrrickshaw/market-pipeline (saved reports)",
+     "series": "strategy news validation history (total Piotroski picks)",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

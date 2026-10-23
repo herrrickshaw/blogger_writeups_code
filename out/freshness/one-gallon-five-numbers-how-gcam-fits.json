@@ -1,0 +1,290 @@
+{
+ "slug": "one-gallon-five-numbers-how-gcam-fits",
+ "text_sha1": "8aea8048268297dd",
+ "chars": 17604,
+ "checked": "2026-10-23T15:10:19",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "ADAGE\n−0.95 gCO₂e/MJ\nnet carbon sink in this run",
+     "value": "-0.95 gCO₂e/MJ",
+     "period": "2023",
+     "period_end": "2023-12-31",
+     "publisher": "US EPA",
+     "series": "Model Comparison Exercise (EPA-420-R-23-017)",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "GREET\n7.4 gCO₂e/MJ\nEPA's own 2020 estimate",
+     "value": "7.4 gCO₂e/MJ",
+     "period": "2020",
+     "period_end": "2020-12-31",
+     "publisher": "US EPA / Argonne National Laboratory",
+     "series": "Model Comparison Exercise (EPA-420-R-23-017)",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "Highest of the 5 models\n~41 gCO₂e/MJ",
+     "value": "~41 gCO₂e/MJ",
+     "period": "2023",
+     "period_end": "2023-12-31",
+     "publisher": "US EPA",
+     "series": "Model Comparison Exercise (EPA-420-R-23-017)",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "70–80% GHG savings a biofuel must clear under EU RED III",
+     "value": "70–80%",
+     "period": "RED III",
+     "period_end": null,
+     "publisher": "European Commission",
+     "series": "EU Renewable Energy Directive (RED III) thresholds",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "reported land-use-change GHG estimates for corn ethanol ranged from ADAGE's −0.95 gCO₂e/MJ... up to roughly 41 gCO₂e/MJ",
+     "value": "-0.95 to ~41 gCO₂e/MJ",
+     "period": "2023",
+     "period_end": "2023-12-31",
+     "publisher": "US EPA",
+     "series": "Model Comparison Exercise (EPA-420-R-23-017)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "put its carbon intensity at 35.2 gCO₂e/MJ — a 62% reduction against US gasoline blendstock",
+     "value": "35.2 gCO₂e/MJ",
+     "period": "RenovaBio",
+     "period_end": null,
+     "publisher": "UNICA / GREET evaluation",
+     "series": "RenovaBio lifecycle data evaluation",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "a net carbon removal of 8–9 Mt CO₂e/year by 2050",
+     "value": "8–9 Mt CO₂e/year",
+     "period": "by 2050",
+     "period_end": "2050-12-31",
+     "publisher": "PLOS ONE study",
+     "series": "MAgPIE India biofuel-blending model run",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "swing from +46 Mt CO₂e/year of land-use emissions by 2030 to −11 Mt CO₂e/year by 2050",
+     "value": "+46 Mt CO₂e/year",
+     "period": "by 2030",
+     "period_end": "2030-12-31",
+     "publisher": "PLOS ONE study",
+     "series": "MAgPIE India biofuel-blending model run",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "swing from +46 Mt CO₂e/year of land-use emissions by 2030 to −11 Mt CO₂e/year by 2050",
+     "value": "-11 Mt CO₂e/year",
+     "period": "by 2050",
+     "period_end": "2050-12-31",
+     "publisher": "PLOS ONE study",
+     "series": "MAgPIE India biofuel-blending model run",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "land-use-change emissions estimates ranging from −0.95 to roughly 41 grams of CO₂e per megajoule",
+     "value": "-0.95 to ~41 gCO₂e/MJ",
+     "period": "2023",
+     "period_end": "2023-12-31",
+     "publisher": "EPA (via Model Comparison Exercise)",
+     "series": "EPA Model Comparison Exercise (2023) on land-use-change emissions for corn ethanol",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "ADAGE's −0.95 gCO₂e/MJ (implying land-use change was a net carbon sink in that model's run)",
+     "value": "-0.95 gCO₂e/MJ",
+     "period": null,
+     "period_end": null,
+     "publisher": "EPA (via Model Comparison Exercise)",
+     "series": "ADAGE model results (EPA-420-R-23-017)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "GREET's own 2020 estimate landing at 7.4 gCO₂e/MJ",
+     "value": "7.4 gCO₂e/MJ",
+     "period": "2020",
+     "period_end": "2020-12-31",
+     "publisher": "EPA (via GREET model)",
+     "series": "GREET model (EPA-420-R-23-017)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "~41 gCO₂e/MJ at the high end across the five frameworks",
+     "value": "~41 gCO₂e/MJ",
+     "period": null,
+     "period_end": null,
+     "publisher": "EPA (via Model Comparison Exercise)",
+     "series": "Highest land-use-change estimate (EPA-420-R-23-017)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "moved the resulting land-use-change carbon-intensity estimate by 7 gCO₂e/MJ (19%) between the baseline and the GTAP-style variant",
+     "value": "7 gCO₂e/MJ (19%)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Peer-reviewed study (PMC9132210)",
+     "series": "GCAM v5.1.2 land-representation sensitivity study",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "by 11 gCO₂e/MJ (32%) between the baseline and the 90%-protection variant",
+     "value": "11 gCO₂e/MJ (32%)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Peer-reviewed study (PMC9132210)",
+     "series": "GCAM v5.1.2 land-representation sensitivity study",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "70–80% GHG savings a biofuel must clear under EU RED III",
+     "value": "70–80%",
+     "period": null,
+     "period_end": null,
+     "publisher": "European Commission",
+     "series": "RED III GHG-savings thresholds",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "1 CBIO = 1 tonne CO₂e avoided vs. fossil baseline",
+     "value": "1 CBIO = 1 tonne CO₂e",
+     "period": null,
+     "period_end": null,
+     "publisher": "Brazil (RenovaBio)",
+     "series": "CBIO tradable credit mechanism",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "35.2 gCO₂e/MJ ... giving a real, checkable cross-system comparison point against the corn-ethanol land-use-change spread",
+     "value": "35.2 gCO₂e/MJ",
+     "period": null,
+     "period_end": null,
+     "publisher": "Peer-reviewed study (PMC10433513)",
+     "series": "GREET-model evaluation of Brazilian sugarcane ethanol",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "sugarcane-juice-heavy pathways can turn into a net carbon removal of 8–9 Mt CO₂e/year by 2050",
+     "value": "8–9 Mt CO₂e/year",
+     "period": "2050",
+     "period_end": "2050-12-31",
+     "publisher": "PLOS ONE study",
+     "series": "India's ethanol-blending land-use emissions (MAgPIE model)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "swinging from +46 Mt CO₂e/year of land-use emissions by 2030 to −11 Mt CO₂e/year by 2050",
+     "value": "+46 Mt CO₂e/year (2030) to −11 Mt CO₂e/year (2050)",
+     "period": "2030–2050",
+     "period_end": "2050-12-31",
+     "publisher": "PLOS ONE study",
+     "series": "India's ethanol-blending land-use emissions (MAgPIE model)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "GCAM-T, 2020–2050 |",
+     "value": "2020–2050",
+     "period": "2020–2050",
+     "period_end": "2050-12-31",
+     "publisher": "PNNL (GCAM-T)",
+     "series": "GCAM-T modelled period",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "GTAP-BIO, 2014 |",
+     "value": "2014",
+     "period": "2014",
+     "period_end": "2014-12-31",
+     "publisher": "Purdue University (GTAP-BIO)",
+     "series": "GTAP-BIO baseline year",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "ADAGE, 2020–2050 |",
+     "value": "2020–2050",
+     "period": "2020–2050",
+     "period_end": "2050-12-31",
+     "publisher": "RTI International (ADAGE)",
+     "series": "ADAGE modelled period",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "GLOBIOM, 2020–2050 |",
+     "value": "2020–2050",
+     "period": "2020–2050",
+     "period_end": "2050-12-31",
+     "publisher": "IIASA (GLOBIOM)",
+     "series": "GLOBIOM modelled period",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "GREET + CCLUB, 2030 |",
+     "value": "2030",
+     "period": "2030",
+     "period_end": "2030-12-31",
+     "publisher": "Argonne National Laboratory (GREET + CCLUB)",
+     "series": "GREET + CCLUB modelled period",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "baseline variant protects 36% of non-commercial land",
+     "value": "36%",
+     "period": null,
+     "period_end": null,
+     "publisher": "Peer-reviewed study (GCAM v5.1.2)",
+     "series": "GCAM land-protection assumption (baseline)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "a stricter '90% Protection' variant assumes the default GCAM v5.1.2 approach of protecting 90% of [non-commercial land]",
+     "value": "90%",
+     "period": null,
+     "period_end": null,
+     "publisher": "Peer-reviewed study (GCAM v5.1.2)",
+     "series": "GCAM land-protection assumption (90% Protection variant)",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

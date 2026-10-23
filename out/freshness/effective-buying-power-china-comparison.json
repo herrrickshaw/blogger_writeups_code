@@ -1,0 +1,350 @@
+{
+ "slug": "effective-buying-power-china-comparison",
+ "text_sha1": "fbd1ac467eaf60cf",
+ "chars": 11895,
+ "checked": "2026-10-23T11:13:09",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "Nominal rate (₹62.23 → ₹96.37) \n +54.9%",
+     "value": "+54.9%",
+     "period": "January 2015 to 17 Jul 2026",
+     "period_end": "2026-07-17",
+     "publisher": "MoSPI / RBI",
+     "series": "Nominal rate",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "Real, PPP-adjusted rate (₹62.23 → ₹85.64 effective) \n +37.6%",
+     "value": "+37.6%",
+     "period": "January 2015 to 17 Jul 2026",
+     "period_end": "2026-07-17",
+     "publisher": "MoSPI / RBI",
+     "series": "Real, PPP-adjusted rate",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "Rupee's effective buying power lost \n −27%",
+     "value": "-27%",
+     "period": "January 2015 to 17 Jul 2026",
+     "period_end": "2026-07-17",
+     "publisher": "MoSPI / RBI",
+     "series": "Rupee's effective buying power",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "reserves hit a record of about $785bn in the week ended 4 September 2026",
+     "value": "$785bn",
+     "period": "week ended 4 September 2026",
+     "period_end": "2026-09-04",
+     "publisher": "RBI",
+     "series": "Foreign Exchange Reserves",
+     "frequency": "weekly",
+     "headline": true
+    },
+    {
+     "quote": "fell for four straight weeks to about $734bn by 2 October",
+     "value": "$734bn",
+     "period": "2 October 2026",
+     "period_end": "2026-10-02",
+     "publisher": "RBI",
+     "series": "Foreign Exchange Reserves",
+     "frequency": "weekly",
+     "headline": true
+    },
+    {
+     "quote": "Nominally the rupee fell 11.9% (₹86.11 → ₹96.37).",
+     "value": "11.9%",
+     "period": "last twelve months",
+     "period_end": "2026-07-17",
+     "publisher": "RBI",
+     "series": "Nominal rate",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "reserves fell from a $728.5bn peak to a $666.9bn trough",
+     "value": "$728.5bn",
+     "period": "peak period",
+     "period_end": null,
+     "publisher": "RBI",
+     "series": "Foreign Exchange Reserves",
+     "frequency": "weekly",
+     "headline": false
+    },
+    {
+     "quote": "reserves fell from a $728.5bn peak to a $666.9bn trough, an 8.5% drawdown",
+     "value": "$666.9bn",
+     "period": "trough period",
+     "period_end": null,
+     "publisher": "RBI",
+     "series": "Foreign Exchange Reserves",
+     "frequency": "weekly",
+     "headline": false
+    },
+    {
+     "quote": "reserves fell from a $728.5bn peak to a $666.9bn trough, an 8.5% drawdown",
+     "value": "8.5%",
+     "period": "drawdown period",
+     "period_end": null,
+     "publisher": "RBI",
+     "series": "Foreign Exchange Reserves",
+     "frequency": "weekly",
+     "headline": false
+    },
+    {
+     "quote": "put real GDP growth at 7.8% and nominal growth at 8.6%",
+     "value": "7.8%",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "MoSPI",
+     "series": "Provisional Estimates for national accounts",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "put real GDP growth at 7.8% and nominal growth at 8.6%",
+     "value": "8.6%",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "MoSPI",
+     "series": "Provisional Estimates for national accounts",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "First Advance Estimate (7% real, 8% nominal)",
+     "value": "7%",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "MoSPI",
+     "series": "First Advance Estimate",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "First Advance Estimate (7% real, 8% nominal)",
+     "value": "8%",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "MoSPI",
+     "series": "First Advance Estimate",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "about 25% against the dollar since 2005",
+     "value": "25%",
+     "period": "2005 to recent",
+     "period_end": null,
+     "publisher": "People's Bank of China / Brookings",
+     "series": "Renminbi exchange rate",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "Change since January 2015 (₹62.23/US$1 baseline) Nominal rate (₹62.23 → ₹96.37) +54.9%",
+     "value": "+54.9% nominal rupee-dollar rate change since Jan 2015",
+     "period": "January 2015 – 17 Jul 2026",
+     "period_end": "2026-07-17",
+     "publisher": "MoSPI (via connector) + RBI Reference Rate Archive",
+     "series": "Nominal rupee-dollar exchange rate",
+     "frequency": "daily",
+     "headline": true
+    },
+    {
+     "quote": "Real, PPP-adjusted rate (₹62.23 → ₹85.64 effective) +37.6%",
+     "value": "+37.6% real PPP-adjusted rupee-dollar rate change since Jan 2015",
+     "period": "January 2015 – 17 Jul 2026",
+     "period_end": "2026-07-17",
+     "publisher": "MoSPI (implied GDP deflator) + BLS CPI-U",
+     "series": "Real PPP-adjusted rupee-dollar exchange rate",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Rupee's effective buying power lost −27%",
+     "value": "−27% effective buying power loss since Jan 2015",
+     "period": "January 2015 – 17 Jul 2026",
+     "period_end": "2026-07-17",
+     "publisher": "MoSPI (implied GDP deflator) + BLS CPI-U",
+     "series": "Real PPP-adjusted rupee-dollar exchange rate analysis",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "MoSPI's Provisional Estimates for FY2025-26 ... real GDP growth at 7.8% and nominal growth at 8.6%",
+     "value": "7.8% real GDP growth (FY2025-26)",
+     "period": "FY2025-26 (Apr 2025 – Mar 2026)",
+     "period_end": "2026-03-31",
+     "publisher": "MoSPI",
+     "series": "National Accounts Provisional Estimates",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "MoSPI's Provisional Estimates for FY2025-26 ... nominal growth at 8.6%",
+     "value": "8.6% nominal GDP growth (FY2025-26)",
+     "period": "FY2025-26 (Apr 2025 – Mar 2026)",
+     "period_end": "2026-03-31",
+     "publisher": "MoSPI",
+     "series": "National Accounts Provisional Estimates",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "implied Indian inflation of about 0.9% from the FY2025-26 First Advance Estimate",
+     "value": "~0.9% implied inflation (FY2025-26)",
+     "period": "FY2025-26 (Apr 2025 – Jun 2025)",
+     "period_end": "2025-06-30",
+     "publisher": "MoSPI (implied from NAS data)",
+     "series": "GDP deflator (implied inflation)",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "US inflation ~2.6–2.8% (extrapolated from partial-year 2026 CPI readings)",
+     "value": "~2.6–2.8% US inflation (calendar 2026)",
+     "period": "2026 (partial year)",
+     "period_end": "2026-12-31",
+     "publisher": "BLS (CPI-U)",
+     "series": "Annual Consumer Price Index",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "nominally the rupee fell 11.9% (₹86.11 → ₹96.37)",
+     "value": "11.9% nominal rupee fall (₹86.11 → ₹96.37)",
+     "period": "12 months prior to 17 Jul 2026",
+     "period_end": "2026-07-17",
+     "publisher": "RBI Reference Rate Archive",
+     "series": "Nominal rupee-dollar exchange rate",
+     "frequency": "daily",
+     "headline": false
+    },
+    {
+     "quote": "reserves hit a record of about $785bn in the week ended 4 September 2026",
+     "value": "$785bn foreign exchange reserves (week ended 4 Sep 2026)",
+     "period": "2026-09-01 to 2026-09-07",
+     "period_end": "2026-09-07",
+     "publisher": "Bloomberg (via Business Today)",
+     "series": "Foreign Exchange Reserves",
+     "frequency": "weekly",
+     "headline": false
+    },
+    {
+     "quote": "reserves fell from a $728.5bn peak to a $666.9bn trough",
+     "value": "$728.5bn peak reserves",
+     "period": "prior to 2026-09-07",
+     "period_end": null,
+     "publisher": "RBI (via Business Today)",
+     "series": "Foreign Exchange Reserves",
+     "frequency": "weekly",
+     "headline": false
+    },
+    {
+     "quote": "reserves fell from a $728.5bn peak to a $666.9bn trough, an 8.5% drawdown",
+     "value": "$666.9bn trough reserves",
+     "period": "prior to 2026-09-07",
+     "period_end": null,
+     "publisher": "RBI (via Business Today)",
+     "series": "Foreign Exchange Reserves",
+     "frequency": "weekly",
+     "headline": false
+    },
+    {
+     "quote": "reserves fell from a $728.5bn peak to a $666.9bn trough, an 8.5% drawdown",
+     "value": "8.5% drawdown in reserves",
+     "period": "prior to 2026-09-07",
+     "period_end": null,
+     "publisher": "RBI",
+     "series": "Foreign Exchange Reserves",
+     "frequency": "weekly",
+     "headline": false
+    },
+    {
+     "quote": "reserves hit a record of about $785bn in the week ended 4 September 2026 ... then fell for four straight weeks to about $734bn by 2 October",
+     "value": "$734bn reserves (by 2 Oct 2026)",
+     "period": "2026-09-29 to 2026-10-02",
+     "period_end": "2026-10-02",
+     "publisher": "Bloomberg (via Business Today)",
+     "series": "Foreign Exchange Reserves",
+     "frequency": "weekly",
+     "headline": false
+    },
+    {
+     "quote": "China was formally designated a currency manipulator in August 2019",
+     "value": "August 2019 (currency manipulator designation)",
+     "period": "August 2019",
+     "period_end": "2019-08-31",
+     "publisher": "U.S. Treasury",
+     "series": "Currency Manipulator Designation",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "China was formally designated a manipulator in August 2019 ... label removed in January 2020",
+     "value": "January 2020 (currency manipulator label removal)",
+     "period": "January 2020",
+     "period_end": "2020-01-31",
+     "publisher": "U.S. Treasury",
+     "series": "Currency Manipulator Designation",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "China's own long-run pattern ... about 25% against the dollar since 2005",
+     "value": "25% renminbi depreciation against the dollar since 2005",
+     "period": "2005 – 2019 (approximate)",
+     "period_end": "2019-12-31",
+     "publisher": "Brookings Institution",
+     "series": "Renminbi exchange rate analysis",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "U.S. Treasury's framework ... bilateral goods trade surplus with the US above a set threshold (originally $20bn)",
+     "value": "$20bn bilateral goods trade surplus threshold",
+     "period": null,
+     "period_end": null,
+     "publisher": "U.S. Treasury (2015 Trade Facilitation Act)",
+     "series": "Currency Manipulator Framework",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "current account surplus above roughly 2–3% of GDP",
+     "value": "2–3% of GDP current account surplus threshold",
+     "period": null,
+     "period_end": null,
+     "publisher": "U.S. Treasury (2015 Trade Facilitation Act)",
+     "series": "Currency Manipulator Framework",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "net purchases of foreign currency exceeding about 2% of GDP over 12 months",
+     "value": "2% of GDP net foreign currency purchase threshold",
+     "period": "12 months",
+     "period_end": null,
+     "publisher": "U.S. Treasury (2015 Trade Facilitation Act)",
+     "series": "Currency Manipulator Framework",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

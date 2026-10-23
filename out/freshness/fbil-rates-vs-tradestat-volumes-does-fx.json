@@ -1,0 +1,480 @@
+{
+ "slug": "fbil-rates-vs-tradestat-volumes-does-fx",
+ "text_sha1": "8fb29ab5ec0b8f77",
+ "chars": 8855,
+ "checked": "2026-10-23T11:28:28",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "FX Volatility vs. Import/Export Ratio, Five Partners \n n=5, correlation +0.88 (drops to ~0 excluding Russia)",
+     "value": "+0.88",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S / FBIL",
+     "series": "FX volatility vs. import/export ratio",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "China | 131,620.29 | 19,471.08 | −$112.1bn | 6.76× | 7.03%",
+     "value": "131,620.29 million USD",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TradeStat, Country-wise all Commodities report",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "China | 131,620.29 | 19,471.08 | −$112.1bn | 6.76× | 7.03%",
+     "value": "19,471.08 million USD",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TradeStat, Country-wise all Commodities report",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "China | 131,620.29 | 19,471.08 | −$112.1bn | 6.76× | 7.03%",
+     "value": "-$112.1bn",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TradeStat, Country-wise all Commodities report",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "China | 131,620.29 | 19,471.08 | −$112.1bn | 6.76× | 7.03%",
+     "value": "6.76x",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TradeStat, Country-wise all Commodities report",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "China | 131,620.29 | 19,471.08 | −$112.1bn | 6.76× | 7.03%",
+     "value": "7.03%",
+     "period": "10-year",
+     "period_end": null,
+     "publisher": "FBIL",
+     "series": "Reference rates / 10-year annualised standard deviation",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "UAE | 63,888.81 | 37,359.11 | −$26.5bn | 1.71× | 6.01%",
+     "value": "63,888.81 million USD",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TradeStat, Country-wise all Commodities report",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "UAE | 63,888.81 | 37,359.11 | −$26.5bn | 1.71× | 6.01%",
+     "value": "37,359.11 million USD",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TradeStat, Country-wise all Commodities report",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "UAE | 63,888.81 | 37,359.11 | −$26.5bn | 1.71× | 6.01%",
+     "value": "-$26.5bn",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TradeStat, Country-wise all Commodities report",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "UAE | 63,888.81 | 37,359.11 | −$26.5bn | 1.71× | 6.01%",
+     "value": "1.71x",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TradeStat, Country-wise all Commodities report",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "UAE | 63,888.81 | 37,359.11 | −$26.5bn | 1.71× | 6.01%",
+     "value": "6.01%",
+     "period": "10-year",
+     "period_end": null,
+     "publisher": "FBIL",
+     "series": "Reference rates / 10-year annualised standard deviation",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Russia | 55,363.11 | 4,493.51 | −$50.9bn | 12.32× | 52.25%",
+     "value": "55,363.11 million USD",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TradeStat, Country-wise all Commodities report",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Russia | 55,363.11 | 4,493.51 | −$50.9bn | 12.32× | 52.25%",
+     "value": "4,493.51 million USD",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TradeStat, Country-wise all Commodities report",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Russia | 55,363.11 | 4,493.51 | −$50.9bn | 12.32× | 52.25%",
+     "value": "-$50.9bn",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TradeStat, Country-wise all Commodities report",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Russia | 55,363.11 | 4,493.51 | −$50.9bn | 12.32× | 52.25%",
+     "value": "12.32x",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TradeStat, Country-wise all Commodities report",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Russia | 55,363.11 | 4,493.51 | −$50.9bn | 12.32× | 52.25%",
+     "value": "52.25%",
+     "period": "10-year",
+     "period_end": null,
+     "publisher": "FBIL",
+     "series": "Reference rates / 10-year annualised standard deviation",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "USA | 53,453.22 | 87,312.75 | +$33.9bn | 0.61× | 6.00%",
+     "value": "53,453.22 million USD",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TradeStat, Country-wise all Commodities report",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "USA | 53,453.22 | 87,312.75 | +$33.9bn | 0.61× | 6.00%",
+     "value": "87,312.75 million USD",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TradeStat, Country-wise all Commodities report",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "USA | 53,453.22 | 87,312.75 | +$33.9bn | 0.61× | 6.00%",
+     "value": "+$33.9bn",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TradeStat, Country-wise all Commodities report",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "USA | 53,453.22 | 87,312.75 | +$33.9bn | 0.61× | 6.00%",
+     "value": "0.61x",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TradeStat, Country-wise all Commodities report",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "USA | 53,453.22 | 87,312.75 | +$33.9bn | 0.61× | 6.00%",
+     "value": "6.00%",
+     "period": "10-year",
+     "period_end": null,
+     "publisher": "FBIL",
+     "series": "Reference rates / 10-year annualised standard deviation",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Saudi Arabia | 30,790.22 | 10,281.13 | −$20.5bn | 2.99× | 9.62%",
+     "value": "30,790.22 million USD",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TradeStat, Country-wise all Commodities report",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Saudi Arabia | 30,790.22 | 10,281.13 | −$20.5bn | 2.99× | 9.62%",
+     "value": "10,281.13 million USD",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TradeStat, Country-wise all Commodities report",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Saudi Arabia | 30,790.22 | 10,281.13 | −$20.5bn | 2.99× | 9.62%",
+     "value": "-$20.5bn",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TradeStat, Country-wise all Commodities report",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Saudi Arabia | 30,790.22 | 10,281.13 | −$20.5bn | 2.99× | 9.62%",
+     "value": "2.99x",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TradeStat, Country-wise all Commodities report",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Saudi Arabia | 30,790.22 | 10,281.13 | −$20.5bn | 2.99× | 9.62%",
+     "value": "9.62%",
+     "period": "10-year",
+     "period_end": null,
+     "publisher": "FBIL",
+     "series": "Reference rates / 10-year annualised standard deviation",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Import value | −0.20 | −0.35 |",
+     "value": "-0.20",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S / FBIL",
+     "series": "FX volatility vs import value correlation",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Absolute trade imbalance ($) | +0.02 | −0.16 |",
+     "value": "+0.02",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S / FBIL",
+     "series": "FX volatility vs absolute trade imbalance correlation",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Total trade volume (imports+exports) | −0.50 | — |",
+     "value": "-0.50",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S / FBIL",
+     "series": "FX volatility vs total trade volume correlation",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Import/export ratio | +0.88 | weak/unstable |",
+     "value": "+0.88",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S / FBIL",
+     "series": "FX volatility vs import/export ratio correlation",
+     "frequency": "annual",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "n=5, correlation +0.88 (drops to ~0 excluding Russia)",
+     "value": "0.88 (drops to ~0 excluding Russia)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Author's analysis (derived from FBIL & DGCI&S)",
+     "series": "Correlation coefficient of FX volatility vs. import/export ratio (n=5)",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "China | 131,620.29 | 19,471.08 | −$112.1bn | 6.76× | 7.03%",
+     "value": "Imports: $131,620.29M, Exports: $19,471.08M, Trade balance: −$112.1bn, Import/export ratio: 6.76×, FX annualised volatility: 7.03%",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S (TradeStat)",
+     "series": "Country-wise all Commodities report",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "UAE | 63,888.81 | 37,359.11 | −$26.5bn | 1.71× | 6.01%",
+     "value": "Imports: $63,888.81M, Exports: $37,359.11M, Trade balance: −$26.5bn, Import/export ratio: 1.71×, FX annualised volatility: 6.01%",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S (TradeStat)",
+     "series": "Country-wise all Commodities report",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Russia | 55,363.11 | 4,493.51 | −$50.9bn | 12.32× | 52.25%",
+     "value": "Imports: $55,363.11M, Exports: $4,493.51M, Trade balance: −$50.9bn, Import/export ratio: 12.32×, FX annualised volatility: 52.25%",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S (TradeStat)",
+     "series": "Country-wise all Commodities report",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "USA | 53,453.22 | 87,312.75 | +$33.9bn | 0.61× | 6.00%",
+     "value": "Imports: $53,453.22M, Exports: $87,312.75M, Trade balance: +$33.9bn, Import/export ratio: 0.61×, FX annualised volatility: 6.00%",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S (TradeStat)",
+     "series": "Country-wise all Commodities report",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Saudi Arabia | 30,790.22 | 10,281.13 | −$20.5bn | 2.99× | 9.62%",
+     "value": "Imports: $30,790.22M, Exports: $10,281.13M, Trade balance: −$20.5bn, Import/export ratio: 2.99×, FX annualised volatility: 9.62%",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S (TradeStat)",
+     "series": "Country-wise all Commodities report",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Trade figures from DGCI&S TradeStat as reported in 'Can Rupee Trade Actually Offset the Inflation India Is Importing?'",
+     "value": "Trade figures (FY2025-26) for five countries",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TradeStat, Country-wise all Commodities report",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "FX volatility as derived in 'Where the Rupee Actually Stands.'",
+     "value": "FX annualised volatility (10-year) for INR against five countries",
+     "period": "10-year (as of article date)",
+     "period_end": "2026-08-14",
+     "publisher": "FBIL (via Yahoo Finance daily closes)",
+     "series": "Reference rates (10-year annualised standard deviation)",
+     "frequency": "one-off (derived from daily data)",
+     "headline": false
+    },
+    {
+     "quote": "China is the clearest case: the single largest, most lopsided import relationship in dollar terms (−$112.1bn, 6.76× ratio)",
+     "value": "Trade imbalance: −$112.1bn, Import/export ratio: 6.76×",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S (TradeStat)",
+     "series": "Country-wise all Commodities report",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Russia: ... the single highest currency-volatility risk in the set by a wide margin — exactly why the rupee-settlement infrastructure exists there first.",
+     "value": "FX annualised volatility: 52.25%",
+     "period": "10-year (as of article date)",
+     "period_end": "2026-08-14",
+     "publisher": "FBIL (via Yahoo Finance)",
+     "series": "Reference rates (10-year annualised standard deviation)",
+     "frequency": "one-off (derived from daily data)",
+     "headline": false
+    },
+    {
+     "quote": "Correlation (n=5) | Correlation, ex-Russia (n=4) | Import value | −0.20 | −0.35",
+     "value": "Import value correlation: −0.20 (n=5), −0.35 (n=4, ex-Russia)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Author's analysis (derived from FBIL & DGCI&S)",
+     "series": "Correlation coefficient of FX volatility vs. import value",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Absolute trade imbalance ($) | +0.02 | −0.16",
+     "value": "Absolute trade imbalance correlation: +0.02 (n=5), −0.16 (n=4, ex-Russia)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Author's analysis (derived from FBIL & DGCI&S)",
+     "series": "Correlation coefficient of FX volatility vs. absolute trade imbalance",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Total trade volume (imports+exports) | −0.50 | —",
+     "value": "Total trade volume correlation: −0.50 (n=5)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Author's analysis (derived from FBIL & DGCI&S)",
+     "series": "Correlation coefficient of FX volatility vs. total trade volume",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Russia sits at both extremes simultaneously: the most volatile currency in the set (52.25%)",
+     "value": "FX annualised volatility: 52.25%",
+     "period": "10-year (as of article date)",
+     "period_end": "2026-08-14",
+     "publisher": "FBIL (via Yahoo Finance)",
+     "series": "Reference rates (10-year annualised standard deviation)",
+     "frequency": "one-off (derived from daily data)",
+     "headline": false
+    },
+    {
+     "quote": "Russia: ... the most import-heavy relationship (12.3× more imports than exports)",
+     "value": "Import/export ratio: 12.3×",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S (TradeStat)",
+     "series": "Country-wise all Commodities report",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "USA: the one relationship in the set with a trade surplus for India, and low currency risk",
+     "value": "Trade balance: +$33.9bn, FX annualised volatility: 6.00%",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S (TradeStat) / FBIL (via Yahoo Finance)",
+     "series": "Country-wise all Commodities report / Reference rates",
+     "frequency": "annual / one-off (derived from daily data)",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

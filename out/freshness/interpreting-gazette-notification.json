@@ -1,0 +1,730 @@
+{
+ "slug": "interpreting-gazette-notification",
+ "text_sha1": "a166bcc2fd66781a",
+ "chars": 30813,
+ "checked": "2026-10-23T14:49:15",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "A fresh rebuild of the project’s database now gives 2,637 notifications and 2,150 cross-references , up from 2,591 and 2,113: Consumer Affairs, Food and Public Distribution doubled from 26 to 52 notifications, External Affairs went from 23 to 37, Defence from 27 to 32 and Space from 4 to 5.",
+     "value": "2,637 notifications",
+     "period": "October 2026",
+     "period_end": "2026-10-09",
+     "publisher": "Gazette Trail project",
+     "series": "database notifications total",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "A fresh rebuild of the project’s database now gives 2,637 notifications and 2,150 cross-references , up from 2,591 and 2,113: Consumer Affairs, Food and Public Distribution doubled from 26 to 52 notifications, External Affairs went from 23 to 37, Defence from 27 to 32 and Space from 4 to 5.",
+     "value": "2,150 cross-references",
+     "period": "October 2026",
+     "period_end": "2026-10-09",
+     "publisher": "Gazette Trail project",
+     "series": "database cross-references total",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "Consumer Affairs, Food and Public Distribution doubled from 26 to 52 notifications",
+     "value": "52 notifications",
+     "period": "October 2026",
+     "period_end": "2026-10-09",
+     "publisher": "Gazette Trail project",
+     "series": "Consumer Affairs notifications",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "External Affairs went from 23 to 37",
+     "value": "37 notifications",
+     "period": "October 2026",
+     "period_end": "2026-10-09",
+     "publisher": "Gazette Trail project",
+     "series": "External Affairs notifications",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "Defence from 27 to 32",
+     "value": "32 notifications",
+     "period": "October 2026",
+     "period_end": "2026-10-09",
+     "publisher": "Gazette Trail project",
+     "series": "Defence notifications",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "Space from 4 to 5.",
+     "value": "5 notifications",
+     "period": "October 2026",
+     "period_end": "2026-10-09",
+     "publisher": "Gazette Trail project",
+     "series": "Space notifications",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "2,637 notifications and 2,150 cross-references across all 53 central ministries and departments , up from 400/285 at first publication.",
+     "value": "53 central ministries and departments",
+     "period": "October 2026",
+     "period_end": "2026-10-09",
+     "publisher": "Gazette Trail project",
+     "series": "ministries and departments covered",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "a meaningful minority (18% of all cross-references, see §10) were instead independently opened and read directly from egazette.gov.in's own PDFs",
+     "value": "18%",
+     "period": "October 2026",
+     "period_end": "2026-10-09",
+     "publisher": "Gazette Trail project",
+     "series": "cross-references provenance tier",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "the Department of Personnel & Training holds 455 cross-references overall, more than double the next-busiest ministry (§6).",
+     "value": "455 cross-references",
+     "period": "October 2026",
+     "period_end": "2026-10-09",
+     "publisher": "Gazette Trail project",
+     "series": "DoPT cross-references",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "DoPT (folded into the Ministry of Personnel, Public Grievances and Pensions) is the source of 455 cross-references — more than double the next-busiest ministry, Communications (246), and well ahead of Finance (147), Ports & Shipping (113), and Jal Shakti (84).",
+     "value": "246 cross-references",
+     "period": "October 2026",
+     "period_end": "2026-10-09",
+     "publisher": "Gazette Trail project",
+     "series": "Communications cross-references",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "DoPT (folded into the Ministry of Personnel, Public Grievances and Pensions) is the source of 455 cross-references — more than double the next-busiest ministry, Communications (246), and well ahead of Finance (147), Ports & Shipping (113), and Jal Shakti (84).",
+     "value": "147 cross-references",
+     "period": "October 2026",
+     "period_end": "2026-10-09",
+     "publisher": "Gazette Trail project",
+     "series": "Finance cross-references",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "DoPT (folded into the Ministry of Personnel, Public Grievances and Pensions) is the source of 455 cross-references — more than double the next-busiest ministry, Communications (246), and well ahead of Finance (147), Ports & Shipping (113), and Jal Shakti (84).",
+     "value": "113 cross-references",
+     "period": "October 2026",
+     "period_end": "2026-10-09",
+     "publisher": "Gazette Trail project",
+     "series": "Ports & Shipping cross-references",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "DoPT (folded into the Ministry of Personnel, Public Grievances and Pensions) is the source of 455 cross-references — more than double the next-busiest ministry, Communications (246), and well ahead of Finance (147), Ports & Shipping (113), and Jal Shakti (84).",
+     "value": "84 cross-references",
+     "period": "October 2026",
+     "period_end": "2026-10-09",
+     "publisher": "Gazette Trail project",
+     "series": "Jal Shakti cross-references",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Across the full 2,150-edge dataset, amends outnumbers every other relation more than ten to one (1,655 of 2,150 edges, 77.0%)",
+     "value": "1,655 edges",
+     "period": "October 2026",
+     "period_end": "2026-10-09",
+     "publisher": "Gazette Trail project",
+     "series": "amends relation edges",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Across the full 2,150-edge dataset, amends outnumbers every other relation more than ten to one (1,655 of 2,150 edges, 77.0%)",
+     "value": "77.0%",
+     "period": "October 2026",
+     "period_end": "2026-10-09",
+     "publisher": "Gazette Trail project",
+     "series": "amends relation share",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Supersedes (155) and rescinds (32) together account for under 9% of all edges",
+     "value": "155 edges",
+     "period": "October 2026",
+     "period_end": "2026-10-09",
+     "publisher": "Gazette Trail project",
+     "series": "supersedes relation edges",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Supersedes (155) and rescinds (32) together account for under 9% of all edges",
+     "value": "32 edges",
+     "period": "October 2026",
+     "period_end": "2026-10-09",
+     "publisher": "Gazette Trail project",
+     "series": "rescinds relation edges",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Corrigenda — formal typo-fixes to an already-published notification — number 90",
+     "value": "90 edges",
+     "period": "October 2026",
+     "period_end": "2026-10-09",
+     "publisher": "Gazette Trail project",
+     "series": "corrigendum relation edges",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The Ministry of Ports, Shipping and Waterways is the only ministry in the dataset where full replacement genuinely outpaces incremental fixing: 45 supersedes edges against just 20 amends",
+     "value": "45 supersedes edges",
+     "period": "October 2026",
+     "period_end": "2026-10-09",
+     "publisher": "Gazette Trail project",
+     "series": "Ports, Shipping and Waterways supersedes edges",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The Ministry of Ports, Shipping and Waterways is the only ministry in the dataset where full replacement genuinely outpaces incremental fixing: 45 supersedes edges against just 20 amends",
+     "value": "20 amends edges",
+     "period": "October 2026",
+     "period_end": "2026-10-09",
+     "publisher": "Gazette Trail project",
+     "series": "Ports, Shipping and Waterways amends edges",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The Ministry of Finance sits at the opposite extreme: 101 amends against just 33 supersedes",
+     "value": "101 amends edges",
+     "period": "October 2026",
+     "period_end": "2026-10-09",
+     "publisher": "Gazette Trail project",
+     "series": "Finance amends edges",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The Ministry of Finance sits at the opposite extreme: 101 amends against just 33 supersedes",
+     "value": "33 supersedes edges",
+     "period": "October 2026",
+     "period_end": "2026-10-09",
+     "publisher": "Gazette Trail project",
+     "series": "Finance supersedes edges",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Mines (40 amends vs. 8 supersedes)",
+     "value": "40 amends edges",
+     "period": "October 2026",
+     "period_end": "2026-10-09",
+     "publisher": "Gazette Trail project",
+     "series": "Mines amends edges",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Mines (40 amends vs. 8 supersedes)",
+     "value": "8 supersedes edges",
+     "period": "October 2026",
+     "period_end": "2026-10-09",
+     "publisher": "Gazette Trail project",
+     "series": "Mines supersedes edges",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Social Justice and Empowerment (38 amends vs. 6 supersedes)",
+     "value": "38 amends edges",
+     "period": "October 2026",
+     "period_end": "2026-10-09",
+     "publisher": "Gazette Trail project",
+     "series": "Social Justice and Empowerment amends edges",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Social Justice and Empowerment (38 amends vs. 6 supersedes)",
+     "value": "6 supersedes edges",
+     "period": "October 2026",
+     "period_end": "2026-10-09",
+     "publisher": "Gazette Trail project",
+     "series": "Social Justice and Empowerment supersedes edges",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "amends | 1,655 | 77.0 |",
+     "value": "1,655",
+     "period": "October 2026",
+     "period_end": "2026-10-09",
+     "publisher": "Gazette Trail project",
+     "series": "cross-reference relation type count",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "cites | 213 | 9.9 |",
+     "value": "213",
+     "period": "October 2026",
+     "period_end": "2026-10-09",
+     "publisher": "Gazette Trail project",
+     "series": "cross-reference relation type count",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "supersedes | 155 | 7.2 |",
+     "value": "155",
+     "period": "October 2026",
+     "period_end": "2026-10-09",
+     "publisher": "Gazette Trail project",
+     "series": "cross-reference relation type count",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "corrigendum | 90 | 4.2 |",
+     "value": "90",
+     "period": "October 2026",
+     "period_end": "2026-10-09",
+     "publisher": "Gazette Trail project",
+     "series": "cross-reference relation type count",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "rescinds | 32 | 1.5 |",
+     "value": "32",
+     "period": "October 2026",
+     "period_end": "2026-10-09",
+     "publisher": "Gazette Trail project",
+     "series": "cross-reference relation type count",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "repeals | 5 | 0.2 |",
+     "value": "5",
+     "period": "October 2026",
+     "period_end": "2026-10-09",
+     "publisher": "Gazette Trail project",
+     "series": "cross-reference relation type count",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "1,762 edges (82.0%) are research-agent-quoted",
+     "value": "1,762 edges",
+     "period": "October 2026",
+     "period_end": "2026-10-09",
+     "publisher": "Gazette Trail project",
+     "series": "research-agent-quoted provenance tier",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "1,762 edges (82.0%) are research-agent-quoted",
+     "value": "82.0%",
+     "period": "October 2026",
+     "period_end": "2026-10-09",
+     "publisher": "Gazette Trail project",
+     "series": "research-agent-quoted provenance tier share",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "381 edges (17.7%) sit across several higher-confidence primary-source tiers",
+     "value": "381 edges",
+     "period": "October 2026",
+     "period_end": "2026-10-09",
+     "publisher": "Gazette Trail project",
+     "series": "primary-source tiers provenance count",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "381 edges (17.7%) sit across several higher-confidence primary-source tiers",
+     "value": "17.7%",
+     "period": "October 2026",
+     "period_end": "2026-10-09",
+     "publisher": "Gazette Trail project",
+     "series": "primary-source tiers provenance share",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "a final 7 edges (0.3%) are explicitly lower-confidence",
+     "value": "7 edges",
+     "period": "October 2026",
+     "period_end": "2026-10-09",
+     "publisher": "Gazette Trail project",
+     "series": "lower-confidence provenance count",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "a final 7 edges (0.3%) are explicitly lower-confidence",
+     "value": "0.3%",
+     "period": "October 2026",
+     "period_end": "2026-10-09",
+     "publisher": "Gazette Trail project",
+     "series": "lower-confidence provenance share",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Tourism's tracker coverage runs to only 4 notifications total",
+     "value": "4 notifications",
+     "period": "October 2026",
+     "period_end": "2026-10-09",
+     "publisher": "Gazette Trail project",
+     "series": "Tourism notifications coverage",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Panchayati Raj has just 2 tracked notifications",
+     "value": "2 notifications",
+     "period": "October 2026",
+     "period_end": "2026-10-09",
+     "publisher": "Gazette Trail project",
+     "series": "Panchayati Raj notifications coverage",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "a fresh rebuild of the project’s database now gives 2,637 notifications and 2,150 cross-references, up from 2,591 and 2,113",
+     "value": "2,637 notifications; 2,150 cross-references",
+     "period": null,
+     "period_end": null,
+     "publisher": "Gazette Trail (independent research project)",
+     "series": "Gazette Trail database rebuild (as of 9 Oct 2026)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Consumer Affairs, Food and Public Distribution doubled from 26 to 52 notifications",
+     "value": "52 notifications (Consumer Affairs, Food and Public Distribution)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Gazette Trail (independent research project)",
+     "series": "Ministry-specific notification counts (updated 9 Oct 2026)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "External Affairs went from 23 to 37, Defence from 27 to 32 and Space from 4 to 5",
+     "value": "37 notifications (External Affairs); 32 notifications (Defence); 5 notifications (Space)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Gazette Trail (independent research project)",
+     "series": "Ministry-specific notification counts (updated 9 Oct 2026)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "the Ravi and Beas Waters Tribunal’s report deadline has been extended by gazette notification 36 times since 1986",
+     "value": "36 extensions",
+     "period": "1986–2026",
+     "period_end": "2026-06-11",
+     "publisher": "Gazette Trail (independent research project)",
+     "series": "Ravi and Beas Waters Tribunal deadline extensions",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "the Indian Post Office Rules, 1933 were amended 207 separate times between 19 December 1975 and 29 December 2022",
+     "value": "207 amendments",
+     "period": "1975-12-19 to 2022-12-29",
+     "period_end": "2022-12-29",
+     "publisher": "Gazette Trail (independent research project)",
+     "series": "Indian Post Office Rules, 1933 amendment history",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "the single most-cited notification in the entire corpus is a 1986 rule on which government bodies fall under the Central Administrative Tribunal, cited 26 times since",
+     "value": "26 citations",
+     "period": "1986–2026",
+     "period_end": null,
+     "publisher": "Gazette Trail (independent research project)",
+     "series": "DoPT notification citation count (G.S.R. 730(E), 2 May 1986)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "the Department of Personnel & Training holds 455 cross-references overall",
+     "value": "455 cross-references",
+     "period": null,
+     "period_end": null,
+     "publisher": "Gazette Trail (independent research project)",
+     "series": "Ministry-level citation totals (DoPT)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "amends outnumbers every other relation more than ten to one (1,655 of 2,150 edges, 77.0%)",
+     "value": "1,655 amends",
+     "period": null,
+     "period_end": null,
+     "publisher": "Gazette Trail (independent research project)",
+     "series": "Gazette cross-reference relation types (rebuild as of 9 Oct 2026)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "supersedes (155) and rescinds (32) together account for under 9% of all edges",
+     "value": "155 supersedes; 32 rescinds",
+     "period": null,
+     "period_end": null,
+     "publisher": "Gazette Trail (independent research project)",
+     "series": "Gazette cross-reference relation types (rebuild as of 9 Oct 2026)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "corrigenda — formal typo-fixes to an already-published notification — number 90",
+     "value": "90 corrigenda",
+     "period": null,
+     "period_end": null,
+     "publisher": "Gazette Trail (independent research project)",
+     "series": "Gazette cross-reference relation types (rebuild as of 9 Oct 2026)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "the Ministry of Ports, Shipping and Waterways is the only ministry in the dataset where full replacement genuinely outpaces incremental fixing: 45 supersedes edges against just 20 amends",
+     "value": "45 supersedes; 20 amends",
+     "period": null,
+     "period_end": null,
+     "publisher": "Gazette Trail (independent research project)",
+     "series": "Ministry-level relation type breakdown (Ports, Shipping and Waterways)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "the Ministry of Finance sits at the opposite extreme: 101 amends against just 33 supersedes",
+     "value": "101 amends; 33 supersedes",
+     "period": null,
+     "period_end": null,
+     "publisher": "Gazette Trail (independent research project)",
+     "series": "Ministry-level relation type breakdown (Finance)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "a 12-notification chain for the Warehousing (Development and Regulation) Registration of Warehouses Rules, 2017 runs to February 2025",
+     "value": "12 notifications",
+     "period": "up to 2025-02",
+     "period_end": "2025-02-28",
+     "publisher": "Gazette Trail (independent research project)",
+     "series": "Warehousing Rules amendment chain",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "the Aadhaar-seeding notification, S.O. 371(E) of 8 February 2017, has been amended by eight deadline-extension notifications",
+     "value": "8 extensions",
+     "period": "2023-06-15 to 2025-03-26",
+     "period_end": "2025-03-26",
+     "publisher": "Gazette Trail (independent research project)",
+     "series": "Aadhaar seeding deadline extensions",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "the newer Post Office Regulations, 2024 — a different, more recent rulebook — already has its own 15-notification amendment chain running December 2024 to August 2026",
+     "value": "15 notifications",
+     "period": "2024-12 to 2026-08",
+     "period_end": "2026-08-31",
+     "publisher": "Gazette Trail (independent research project)",
+     "series": "Post Office Regulations, 2024 amendment chain",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "a 14-node chain for MGNREGA Schedule I wage-rate amendments from 2013 to 2025",
+     "value": "14 notifications",
+     "period": "2013–2025",
+     "period_end": "2025-12-31",
+     "publisher": "Gazette Trail (independent research project)",
+     "series": "MGNREGA wage-rate amendments",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "the project’s own gate file for the return pass records which ministries grew and which two (Youth Affairs and Sports, and Women and Child Development) were re-checked and left unchanged",
+     "value": "2 ministries unchanged (Youth Affairs and Sports; Women and Child Development)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Gazette Trail (independent research project)",
+     "series": "Ministry-level update status (7 Sep 2026 pass)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "the project’s own gate file claims: 53 ministries, 2,591 notifications, 2,113 cross-references; 141 tests passed",
+     "value": "53 ministries; 2,591 notifications; 2,113 cross-references",
+     "period": null,
+     "period_end": null,
+     "publisher": "Gazette Trail (independent research project)",
+     "series": "Depth pass status (as of 7 Sep 2026)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "the project’s own final status file claims: 53 ministries, 2,637 notifications, 2,150 cross-references",
+     "value": "53 ministries; 2,637 notifications; 2,150 cross-references",
+     "period": null,
+     "period_end": null,
+     "publisher": "Gazette Trail (independent research project)",
+     "series": "Database rebuild totals (as of 9 Oct 2026)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "1,762 edges (82.0%) are research-agent-quoted; 381 edges (17.7%) are primary-source tiers; 7 edges (0.3%) are lower-confidence",
+     "value": "1,762 research-agent-quoted; 381 primary-source; 7 lower-confidence",
+     "period": null,
+     "period_end": null,
+     "publisher": "Gazette Trail (independent research project)",
+     "series": "Cross-reference provenance tier distribution",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Law and Justice’s real amendment pairs all cite Act or Regulation numbers, never a G.S.R./S.O./S.R.O.; Tourism’s tracker coverage runs to only 4 notifications total",
+     "value": "4 notifications (Tourism)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Gazette Trail (independent research project)",
+     "series": "Ministry coverage gaps (Tourism)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Panchayati Raj has just 2 tracked notifications, both standalone Resolutions with no relationship between them",
+     "value": "2 notifications (Panchayati Raj)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Gazette Trail (independent research project)",
+     "series": "Ministry coverage gaps (Panchayati Raj)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "the project now reads new items directly from egazette.gov.in’s own PDFs instead",
+     "value": "18% of cross-references (381 edges)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Gazette Trail (independent research project)",
+     "series": "Primary-source verification rate",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "the project’s own gate file for the return pass records which ministries grew and which two (Youth Affairs and Sports, and Women and Child Development) were re-checked and left unchanged",
+     "value": "46 notifications added in six ministries (return pass)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Gazette Trail (independent research project)",
+     "series": "Return pass notification additions (7 Sep 2026)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "the project’s own gate file for the return pass records which ministries grew and which two (Youth Affairs and Sports, and Women and Child Development) were re-checked and left unchanged",
+     "value": "2 ministries unchanged (Youth Affairs and Sports; Women and Child Development)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Gazette Trail (independent research project)",
+     "series": "Ministry-level update status (7 Sep 2026 pass)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "the project’s own gate file for the return pass records which ministries grew and which two (Youth Affairs and Sports, and Women and Child Development) were re-checked and left unchanged",
+     "value": "6 ministries updated (return pass)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Gazette Trail (independent research project)",
+     "series": "Ministry-level update status (7 Sep 2026 pass)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "the project’s own gate file for the return pass records which ministries grew and which two (Youth Affairs and Sports, and Women and Child Development) were re-checked and left unchanged",
+     "value": "2 ministries unchanged (Youth Affairs and Sports; Women and Child Development)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Gazette Trail (independent research project)",
+     "series": "Ministry-level update status (7 Sep 2026 pass)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "the project’s own gate file for the return pass records which ministries grew and which two (Youth Affairs and Sports, and Women and Child Development) were re-checked and left unchanged",
+     "value": "2 ministries unchanged (Youth Affairs and Sports; Women and Child Development)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Gazette Trail (independent research project)",
+     "series": "Ministry-level update status (7 Sep 2026 pass)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "the project’s own gate file for the return pass records which ministries grew and which two (Youth Affairs and Sports, and Women and Child Development) were re-checked and left unchanged",
+     "value": "2 ministries unchanged (Youth Affairs and Sports; Women and Child Development)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Gazette Trail (independent research project)",
+     "series": "Ministry-level update status (7 Sep 2026 pass)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "the project’s own gate file for the return pass records which ministries grew and which two (Youth Affairs and Sports, and Women and Child Development) were re-checked and left unchanged",
+     "value": "2 ministries unchanged (Youth Affairs and Sports; Women and Child Development)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Gazette Trail (independent research project)",
+     "series": "Ministry-level update status (7 Sep 2026 pass)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "the project’s own gate file for the return pass records which ministries grew and which two (Youth Affairs and Sports, and Women and Child Development) were re-checked and left unchanged",
+     "value": "2 ministries unchanged (Youth Affairs and Sports; Women and Child Development)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Gazette Trail (independent research project)",
+     "series": "Ministry-level update status (7 Sep 2026 pass)",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

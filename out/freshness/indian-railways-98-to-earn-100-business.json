@@ -1,0 +1,500 @@
+{
+ "slug": "indian-railways-98-to-earn-100-business",
+ "text_sha1": "11bc20e6ac4e92bd",
+ "chars": 16604,
+ "checked": "2026-10-23T13:44:27",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "Indian Railways is budgeted to spend ₹98.43 to earn every ₹100 in FY2025-26",
+     "value": "98.43",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "PRS Legislative Research / Ministry of Railways",
+     "series": "Demand for Grants",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "98.36 \n FY2019-20",
+     "value": "98.36",
+     "period": "FY2019-20",
+     "period_end": "2020-03-31",
+     "publisher": "PRS Legislative Research / Railways' Demand for Grants; CAG",
+     "series": "Indian Railways' Operating Ratio",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "107.00 \n FY2021-22",
+     "value": "107.00",
+     "period": "FY2021-22",
+     "period_end": "2022-03-31",
+     "publisher": "PRS Legislative Research / Railways' Demand for Grants; CAG",
+     "series": "Indian Railways' Operating Ratio",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "98.90 \n FY2024-25 (RE)",
+     "value": "98.90",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "PRS Legislative Research / Railways' Demand for Grants; CAG",
+     "series": "Indian Railways' Operating Ratio",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "98.43 \n FY2025-26 (BE)",
+     "value": "98.43",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "PRS Legislative Research / Railways' Demand for Grants; CAG",
+     "series": "Indian Railways' Operating Ratio",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "FY2025-26's budget estimate of ₹3,041 crore is actually a 126.7% jump over the FY2024-25 revised estimate of just ₹1,341 crore",
+     "value": "₹3,041 crore",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "PRS Legislative Research / Ministry of Railways",
+     "series": "Demand for Grants / Net Revenue",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "FY2024-25 revised estimate of just ₹1,341 crore — itself a 52.1% shortfall against that year's original budget estimate of ₹2,800 crore",
+     "value": "₹1,341 crore",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "PRS Legislative Research / Ministry of Railways",
+     "series": "Demand for Grants / Net Revenue",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Against total expenditure of roughly ₹5.61 lakh crore budgeted for FY2025-26",
+     "value": "₹5.61 lakh crore",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "PRS Legislative Research / Ministry of Railways",
+     "series": "Demand for Grants / Total Expenditure",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Railways budgeted ₹2,65,200 crore in capital expenditure for FY2025-26",
+     "value": "₹2,65,200 crore",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "PRS Legislative Research / Ministry of Railways",
+     "series": "Demand for Grants / Capital Expenditure",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Railways' own internal revenue, forecast at ₹3,02,100 crore for the year",
+     "value": "₹3,02,100 crore",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "PRS Legislative Research / Ministry of Railways",
+     "series": "Demand for Grants / Internal Revenue",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "freight charges ran almost three times passenger charges as of 2018-19",
+     "value": "almost three times",
+     "period": "2018-19",
+     "period_end": "2019-03-31",
+     "publisher": "NITI Aayog",
+     "series": "Freight and Passenger Charges Analysis",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "between 2009 and 2019, freight rates rose 91% while passenger fares rose just 28%",
+     "value": "91%",
+     "period": "2009 to 2019",
+     "period_end": "2019-12-31",
+     "publisher": "NITI Aayog / PRS",
+     "series": "Freight Rates and Passenger Fares Growth",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "between 2009 and 2019, freight rates rose 91% while passenger fares rose just 28%",
+     "value": "28%",
+     "period": "2009 to 2019",
+     "period_end": "2019-12-31",
+     "publisher": "NITI Aayog / PRS",
+     "series": "Freight Rates and Passenger Fares Growth",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "CAG reported a loss of about ₹26,388 crore for 2019-20",
+     "value": "₹26,388 crore",
+     "period": "2019-20",
+     "period_end": "2020-03-31",
+     "publisher": "Comptroller and Auditor General",
+     "series": "CAG Audit Report",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "rail's share of India's passenger inter-modal mix is just 6%, against roughly 94% for buses",
+     "value": "6%",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "The Hindu Centre / R. Badri Narayan and A. Madhukumar Reddy",
+     "series": "Passenger Inter-Modal Mix",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "rail's share of India's passenger inter-modal mix is just 6%, against roughly 94% for buses",
+     "value": "94%",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "The Hindu Centre / R. Badri Narayan and A. Madhukumar Reddy",
+     "series": "Passenger Inter-Modal Mix",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "At the time, 102 Vande Bharat trains ran on 100 routes across 24 states and union territories",
+     "value": "102",
+     "period": "April 2024",
+     "period_end": "2024-04-16",
+     "publisher": "Railway Ministry / RTI Reply",
+     "series": "Vande Bharat Operations",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "At the time, 102 Vande Bharat trains ran on 100 routes across 24 states and union territories",
+     "value": "100",
+     "period": "April 2024",
+     "period_end": "2024-04-16",
+     "publisher": "Railway Ministry / RTI Reply",
+     "series": "Vande Bharat Operations",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "At the time, 102 Vande Bharat trains ran on 100 routes across 24 states and union territories",
+     "value": "24",
+     "period": "April 2024",
+     "period_end": "2024-04-16",
+     "publisher": "Railway Ministry / RTI Reply",
+     "series": "Vande Bharat Operations",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Reported figures for FY2025-26 put scrap-sales revenue at ₹6,813.86 crore",
+     "value": "₹6,813.86 crore",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "News aggregators / The Analyzer",
+     "series": "Scrap-Sales Revenue",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "exceeding Railways' own internal target of ₹6,000 crore",
+     "value": "₹6,000 crore",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Ministry of Railways",
+     "series": "Scrap-Sales Internal Target",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "non-fare revenue — station and train advertising, commercial use of railway land... is reported at ₹777 crore",
+     "value": "₹777 crore",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "News aggregators / The Analyzer",
+     "series": "Non-Fare Revenue",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "the Eastern Dedicated Freight Corridor (1,337 km, Ludhiana to Dankuni) is already operational",
+     "value": "1,337 km",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "PSA India / DFCCIL",
+     "series": "Eastern Dedicated Freight Corridor Length",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Western Dedicated Freight Corridor (1,506 km, Dadri to Mumbai's port cluster) was reported at 93% complete",
+     "value": "1,506 km",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "PSA India / DFCCIL",
+     "series": "Western Dedicated Freight Corridor Length",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Western Dedicated Freight Corridor (1,506 km, Dadri to Mumbai's port cluster) was reported at 93% complete as of late 2025",
+     "value": "93%",
+     "period": "late 2025",
+     "period_end": "2025-12-31",
+     "publisher": "PSA India",
+     "series": "Western Dedicated Freight Corridor Completion Progress",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "the FY2025-26 ratio was revised to 98.82%, worse than budgeted",
+     "value": "98.82%",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Business Standard / Indian Infrastructure / Union Budget",
+     "series": "Operating Ratio Revised Estimate",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "FY2026-27 is budgeted at 98.4%",
+     "value": "98.4%",
+     "period": "FY2026-27",
+     "period_end": "2027-03-31",
+     "publisher": "Union Budget",
+     "series": "Operating Ratio Budget Estimate",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "record railway capital spending of about ₹2.92 lakh crore",
+     "value": "₹2.92 lakh crore",
+     "period": "FY2026-27",
+     "period_end": "2027-03-31",
+     "publisher": "Union Budget",
+     "series": "Capital Spending",
+     "frequency": "annual",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "Indian Railways is budgeted to spend ₹98.43 to earn every ₹100 in FY2025-26 — an operating ratio that has stayed above 96% every year since 2016-17.",
+     "value": "₹98.43 spent per ₹100 earned",
+     "period": "FY2025-26 (BE)",
+     "period_end": "2026-03-31",
+     "publisher": "PRS Legislative Research",
+     "series": "Railways' Demand for Grants",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "The Comptroller and Auditor General has noted that without certain one-off adjustments (advance receipts booked in 2018-19, deferred pension costs in 2019-20 and 2020-21), the ratio would have crossed 100% in those years too.",
+     "value": "100%+ (hypothetical)",
+     "period": "2018-19, 2019-20, 2020-21",
+     "period_end": "2021-03-31",
+     "publisher": "CAG",
+     "series": "Audit Reports",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "FY2025-26's budget estimate of ₹3,041 crore is actually a 126.7% jump over the FY2024-25 revised estimate of just ₹1,341 crore — itself a 52.1% shortfall against that year's original budget estimate of ₹2,800 crore.",
+     "value": "₹3,041 crore (BE), ₹1,341 crore (RE), ₹2,800 crore (original)",
+     "period": "FY2024-25 (RE), FY2025-26 (BE)",
+     "period_end": "2025-03-31",
+     "publisher": "PRS Legislative Research",
+     "series": "Railways' Demand for Grants",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Against total expenditure of roughly ₹5.61 lakh crore budgeted for FY2025-26, that surplus is a rounding error. Railways budgeted ₹2,65,200 crore in capital expenditure for FY2025-26, and central government budgetary support covers 95% of it.",
+     "value": "₹5.61 lakh crore (total expenditure), ₹2,65,200 crore (capital expenditure)",
+     "period": "FY2025-26 (BE)",
+     "period_end": "2026-03-31",
+     "publisher": "PRS Legislative Research",
+     "series": "Railways' Demand for Grants",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Railways' own internal revenue, forecast at ₹3,02,100 crore for the year, funds working expenses and little else.",
+     "value": "₹3,02,100 crore",
+     "period": "FY2025-26 (BE)",
+     "period_end": "2026-03-31",
+     "publisher": "PRS Legislative Research",
+     "series": "Railways' Demand for Grants",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "CAG reported a loss of about ₹26,388 crore for 2019-20, with the operating ratio that year at 98.36%, up from 97.29% the year before.",
+     "value": "₹26,388 crore (loss), 98.36% (operating ratio)",
+     "period": "FY2019-20",
+     "period_end": "2020-03-31",
+     "publisher": "CAG",
+     "series": "Audit Reports",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "freight charges ran almost three times passenger charges as of 2018-19; between 2009 and 2019, freight rates rose 91% while passenger fares rose just 28%.",
+     "value": "3x (freight vs. passenger charges), 91% (freight growth), 28% (passenger growth)",
+     "period": "2009-2019, 2018-19",
+     "period_end": "2019-03-31",
+     "publisher": "NITI Aayog",
+     "series": "2023 Analysis",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "on average only 57 per cent of travel cost is recovered from passenger fares.",
+     "value": "57%",
+     "period": null,
+     "period_end": null,
+     "publisher": "R. Badri Narayan & A. Madhukumar Reddy (The Hindu Centre)",
+     "series": "January 2025 Analysis",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "rail's share of India's passenger inter-modal mix is just 6%, against roughly 94% for buses.",
+     "value": "6% (rail), 94% (buses)",
+     "period": null,
+     "period_end": null,
+     "publisher": "R. Badri Narayan & A. Madhukumar Reddy (The Hindu Centre)",
+     "series": "January 2025 Analysis",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "102 Vande Bharat trains ran on 100 routes across 24 states and union territories, with over 2 crore cumulative passengers and an overall utilisation rate above 92%.",
+     "value": "102 trains, 2 crore passengers, 92%+ utilisation",
+     "period": "FY2023-24",
+     "period_end": "2024-03-31",
+     "publisher": "Railway Ministry (RTI response)",
+     "series": "Vande Bharat Operations",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "scrap-sales revenue at ₹6,813.86 crore, exceeding Railways' own internal target of ₹6,000 crore",
+     "value": "₹6,813.86 crore (scrap-sales), ₹6,000 crore (target)",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "News aggregator reporting (unverified)",
+     "series": "Scrap Sales Revenue",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "non-fare revenue — station and train advertising, commercial use of railway land, asset monetisation such as retail kiosks and co-working spaces — is reported at ₹777 crore, roughly 168% higher than five years earlier",
+     "value": "₹777 crore (non-fare revenue)",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "News aggregator reporting (unverified)",
+     "series": "Non-Fare Revenue",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Eastern Dedicated Freight Corridor (1,337 km, Ludhiana to Dankuni) is already operational, and the Western Dedicated Freight Corridor (1,506 km, Dadri to Mumbai's port cluster) was reported at 93% complete as of late 2025",
+     "value": "1,337 km (operational), 1,506 km (93% complete)",
+     "period": "Late 2025",
+     "period_end": "2025-12-31",
+     "publisher": "PSA India",
+     "series": "Dedicated Freight Corridor Progress",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "Western Dedicated Freight Corridor was reported complete in 2026",
+     "value": "100% complete",
+     "period": "2026",
+     "period_end": "2026-03-31",
+     "publisher": "Wikipedia / India Sea Trade News",
+     "series": "Dedicated Freight Corridor Completion",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Indian Railways' operating ratio — working expenses as a share of traffic receipts — is estimated at 98.43% for FY2025-26, per PRS Legislative Research's analysis of the Railways' Demand for Grants, marginally better than the FY2024-25 revised estimate of 98.9%.",
+     "value": "98.43% (FY2025-26), 98.9% (FY2024-25 RE)",
+     "period": "FY2024-25 (RE), FY2025-26 (BE)",
+     "period_end": "2025-03-31",
+     "publisher": "PRS Legislative Research",
+     "series": "Railways' Demand for Grants",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "The Comptroller and Auditor General has noted that without certain one-off adjustments (advance receipts booked in 2018-19, deferred pension costs in 2019-20 and 2020-21), the ratio would have crossed 100% in those years too.",
+     "value": "100%+ (hypothetical)",
+     "period": "2018-19, 2019-20, 2020-21",
+     "period_end": "2021-03-31",
+     "publisher": "CAG",
+     "series": "Audit Reports",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Indian Railways' operating ratio — working expenses as a share of traffic receipts — is estimated at 98.43% for FY2025-26, per PRS Legislative Research's analysis of the Railways' Demand for Grants, marginally better than the FY2024-25 revised estimate of 98.9%. A lower ratio means better profitability; Railways' ratio has stayed above 96% every year since 2016-17, and hit 107% in 2021-22 — meaning it spent ₹107 to earn every ₹100 that year.",
+     "value": "98.43% (FY2025-26), 98.9% (FY2024-25 RE), 107% (FY2021-22)",
+     "period": "FY2016-17 onwards, FY2021-22, FY2024-25 (RE), FY2025-26 (BE)",
+     "period_end": "2026-03-31",
+     "publisher": "PRS Legislative Research / CAG",
+     "series": "Operating Ratio Analysis",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Indian Railways' freight and passenger fleet, run on the ₹98-to-earn-₹100 operating ratio this piece examines. ... ₹100 breakeven ... 98.36 ... FY2019-20 ... 107.00 ... FY2021-22 ... 98.90 ... FY2024-25 (RE) ... 98.43 ... FY2025-26 (BE)",
+     "value": "98.36 (FY2019-20), 107.00 (FY2021-22), 98.90 (FY2024-25 RE), 98.43 (FY2025-26 BE)",
+     "period": "FY2019-20, FY2021-22, FY2024-25 (RE), FY2025-26 (BE)",
+     "period_end": "2026-03-31",
+     "publisher": "PRS Legislative Research / CAG",
+     "series": "Operating Ratio (Chart)",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "According to Business Standard and Indian Infrastructure's coverage of the 2026-27 Union Budget (1 February 2026), the FY2025-26 ratio was revised to 98.82%, worse than budgeted.",
+     "value": "98.82%",
+     "period": "FY2025-26 (RE)",
+     "period_end": "2026-03-31",
+     "publisher": "Business Standard / Indian Infrastructure",
+     "series": "Union Budget Coverage",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "FY2026-27 is budgeted at 98.4%, with record railway capital spending of about ₹2.92 lakh crore",
+     "value": "98.4%, ₹2.92 lakh crore",
+     "period": "FY2026-27 (BE)",
+     "period_end": "2027-03-31",
+     "publisher": "PRS Legislative Research",
+     "series": "Demand for Grants 2026-27",
+     "frequency": "annual",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

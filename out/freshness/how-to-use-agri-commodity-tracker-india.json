@@ -1,0 +1,560 @@
+{
+ "slug": "how-to-use-agri-commodity-tracker-india",
+ "text_sha1": "afb65e0bab171ca7",
+ "chars": 9530,
+ "checked": "2026-10-23T11:56:58",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "10 tests passed in the demo",
+     "value": "10 tests",
+     "period": "19 October 2026",
+     "period_end": "2026-10-19",
+     "publisher": "PIB / ministry",
+     "series": "agri-commodity-tracker test suite",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "463,023 mandi price rows in the committed snapshot",
+     "value": "463,023 rows",
+     "period": "21 Jul to 24 Sep 2026",
+     "period_end": "2026-09-24",
+     "publisher": "data.gov.in",
+     "series": "Agmarknet mandi prices",
+     "frequency": "daily",
+     "headline": true
+    },
+    {
+     "quote": "13,375 rows in the fullest day (24 Sep 2026)",
+     "value": "13,375 rows",
+     "period": "24 Sep 2026",
+     "period_end": "2026-09-24",
+     "publisher": "data.gov.in",
+     "series": "Agmarknet mandi prices",
+     "frequency": "daily",
+     "headline": true
+    },
+    {
+     "quote": "227 commodities, 28 states",
+     "value": "227 commodities",
+     "period": "24 Sep 2026",
+     "period_end": "2026-09-24",
+     "publisher": "data.gov.in",
+     "series": "Agmarknet mandi prices",
+     "frequency": "daily",
+     "headline": true
+    },
+    {
+     "quote": "227 commodities, 28 states",
+     "value": "28 states",
+     "period": "24 Sep 2026",
+     "period_end": "2026-09-24",
+     "publisher": "data.gov.in",
+     "series": "Agmarknet mandi prices",
+     "frequency": "daily",
+     "headline": true
+    },
+    {
+     "quote": "9 World Bank agriculture indicators",
+     "value": "9 indicators",
+     "period": null,
+     "period_end": null,
+     "publisher": "World Bank",
+     "series": "World Bank agriculture indicators",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "Wood 1005 605 -39.8",
+     "value": "-39.8%",
+     "period": "24 vs 23 Sep 2026",
+     "period_end": "2026-09-24",
+     "publisher": "data.gov.in",
+     "series": "Agmarknet mandi prices",
+     "frequency": "daily",
+     "headline": false
+    },
+    {
+     "quote": "Pineapple 4978 5779 +16.1",
+     "value": "+16.1%",
+     "period": "24 vs 23 Sep 2026",
+     "period_end": "2026-09-24",
+     "publisher": "data.gov.in",
+     "series": "Agmarknet mandi prices",
+     "frequency": "daily",
+     "headline": false
+    },
+    {
+     "quote": "Tender Coconut 4209 4617 +9.7",
+     "value": "+9.7%",
+     "period": "24 vs 23 Sep 2026",
+     "period_end": "2026-09-24",
+     "publisher": "data.gov.in",
+     "series": "Agmarknet mandi prices",
+     "frequency": "daily",
+     "headline": false
+    },
+    {
+     "quote": "Rice 4410 3998 -9.4",
+     "value": "-9.4%",
+     "period": "24 vs 23 Sep 2026",
+     "period_end": "2026-09-24",
+     "publisher": "data.gov.in",
+     "series": "Agmarknet mandi prices",
+     "frequency": "daily",
+     "headline": false
+    },
+    {
+     "quote": "Water Melon 1840 1969 +7.0",
+     "value": "+7.0%",
+     "period": "24 vs 23 Sep 2026",
+     "period_end": "2026-09-24",
+     "publisher": "data.gov.in",
+     "series": "Agmarknet mandi prices",
+     "frequency": "daily",
+     "headline": false
+    },
+    {
+     "quote": "Soyabean 73 6040 5894 -0.4",
+     "value": "-0.4%",
+     "period": "24 vs 23 Sep 2026",
+     "period_end": "2026-09-24",
+     "publisher": "data.gov.in",
+     "series": "Agmarknet mandi prices",
+     "frequency": "daily",
+     "headline": false
+    },
+    {
+     "quote": "Bajra 30 2400 2435 +0.2",
+     "value": "+0.2%",
+     "period": "24 vs 23 Sep 2026",
+     "period_end": "2026-09-24",
+     "publisher": "data.gov.in",
+     "series": "Agmarknet mandi prices",
+     "frequency": "daily",
+     "headline": false
+    },
+    {
+     "quote": "Cotton 35 7967 7978 0.0",
+     "value": "0.0%",
+     "period": "24 vs 23 Sep 2026",
+     "period_end": "2026-09-24",
+     "publisher": "data.gov.in",
+     "series": "Agmarknet mandi prices",
+     "frequency": "daily",
+     "headline": false
+    },
+    {
+     "quote": "Garlic 105 17213 17177 0.0",
+     "value": "0.0%",
+     "period": "24 vs 23 Sep 2026",
+     "period_end": "2026-09-24",
+     "publisher": "data.gov.in",
+     "series": "Agmarknet mandi prices",
+     "frequency": "daily",
+     "headline": false
+    },
+    {
+     "quote": "Manubazar (Tripura) 6200",
+     "value": "6200 rupees per quintal",
+     "period": "24 Sep 2026",
+     "period_end": "2026-09-24",
+     "publisher": "data.gov.in",
+     "series": "Agmarknet mandi prices",
+     "frequency": "daily",
+     "headline": false
+    },
+    {
+     "quote": "Damnagar APMC (Gujarat) 5000",
+     "value": "5000 rupees per quintal",
+     "period": "24 Sep 2026",
+     "period_end": "2026-09-24",
+     "publisher": "data.gov.in",
+     "series": "Agmarknet mandi prices",
+     "frequency": "daily",
+     "headline": false
+    },
+    {
+     "quote": "Bolpur APMC (West Bengal) 4960",
+     "value": "4960 rupees per quintal",
+     "period": "24 Sep 2026",
+     "period_end": "2026-09-24",
+     "publisher": "data.gov.in",
+     "series": "Agmarknet mandi prices",
+     "frequency": "daily",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "463,023 mandi price rows in the committed snapshot",
+     "value": "463,023 rows",
+     "period": "2026-07-21 to 2026-09-24",
+     "period_end": "2026-09-24",
+     "publisher": "Agmarknet (via data.gov.in)",
+     "series": "APMC mandi price dataset",
+     "frequency": "daily",
+     "headline": false
+    },
+    {
+     "quote": "13,375 rows in the fullest day (24 Sep 2026), 227 commodities, 28 states",
+     "value": "13,375 rows",
+     "period": "2026-09-24",
+     "period_end": "2026-09-24",
+     "publisher": "Agmarknet (via data.gov.in)",
+     "series": "APMC mandi price dataset",
+     "frequency": "daily",
+     "headline": false
+    },
+    {
+     "quote": "Wood at -39.8% (naive day-on-day comparison, 24 vs 23 Sep 2026)",
+     "value": "-39.8%",
+     "period": "2026-09-23 to 2026-09-24",
+     "period_end": "2026-09-24",
+     "publisher": "Agmarknet (via data.gov.in)",
+     "series": "APMC mandi price dataset (modal price)",
+     "frequency": "daily",
+     "headline": false
+    },
+    {
+     "quote": "Pineapple +16.1% (naive day-on-day comparison, 24 vs 23 Sep 2026)",
+     "value": "+16.1%",
+     "period": "2026-09-23 to 2026-09-24",
+     "period_end": "2026-09-24",
+     "publisher": "Agmarknet (via data.gov.in)",
+     "series": "APMC mandi price dataset (modal price)",
+     "frequency": "daily",
+     "headline": false
+    },
+    {
+     "quote": "Tender Coconut +9.7% (naive day-on-day comparison, 24 vs 23 Sep 2026)",
+     "value": "+9.7%",
+     "period": "2026-09-23 to 2026-09-24",
+     "period_end": "2026-09-24",
+     "publisher": "Agmarknet (via data.gov.in)",
+     "series": "APMC mandi price dataset (modal price)",
+     "frequency": "daily",
+     "headline": false
+    },
+    {
+     "quote": "Rice -9.4% (naive day-on-day comparison, 24 vs 23 Sep 2026)",
+     "value": "-9.4%",
+     "period": "2026-09-23 to 2026-09-24",
+     "period_end": "2026-09-24",
+     "publisher": "Agmarknet (via data.gov.in)",
+     "series": "APMC mandi price dataset (modal price)",
+     "frequency": "daily",
+     "headline": false
+    },
+    {
+     "quote": "Water Melon +7.0% (naive day-on-day comparison, 24 vs 23 Sep 2026)",
+     "value": "+7.0%",
+     "period": "2026-09-23 to 2026-09-24",
+     "period_end": "2026-09-24",
+     "publisher": "Agmarknet (via data.gov.in)",
+     "series": "APMC mandi price dataset (modal price)",
+     "frequency": "daily",
+     "headline": false
+    },
+    {
+     "quote": "Soyabean -0.4% (like-for-like comparison, 24 vs 23 Sep 2026)",
+     "value": "-0.4%",
+     "period": "2026-09-23 to 2026-09-24",
+     "period_end": "2026-09-24",
+     "publisher": "Agmarknet (via data.gov.in)",
+     "series": "APMC mandi price dataset (modal price, same markets)",
+     "frequency": "daily",
+     "headline": false
+    },
+    {
+     "quote": "Bajra +0.2% (like-for-like comparison, 24 vs 23 Sep 2026)",
+     "value": "+0.2%",
+     "period": "2026-09-23 to 2026-09-24",
+     "period_end": "2026-09-24",
+     "publisher": "Agmarknet (via data.gov.in)",
+     "series": "APMC mandi price dataset (modal price, same markets)",
+     "frequency": "daily",
+     "headline": false
+    },
+    {
+     "quote": "Cotton 0.0% (like-for-like comparison, 24 vs 23 Sep 2026)",
+     "value": "0.0%",
+     "period": "2026-09-23 to 2026-09-24",
+     "period_end": "2026-09-24",
+     "publisher": "Agmarknet (via data.gov.in)",
+     "series": "APMC mandi price dataset (modal price, same markets)",
+     "frequency": "daily",
+     "headline": false
+    },
+    {
+     "quote": "Garlic 0.0% (like-for-like comparison, 24 vs 23 Sep 2026)",
+     "value": "0.0%",
+     "period": "2026-09-23 to 2026-09-24",
+     "period_end": "2026-09-24",
+     "publisher": "Agmarknet (via data.gov.in)",
+     "series": "APMC mandi price dataset (modal price, same markets)",
+     "frequency": "daily",
+     "headline": false
+    },
+    {
+     "quote": "Manubazar (Tripura) Tomato modal price: 6200 rupees per quintal (24 Sep 2026)",
+     "value": "6200 ₹/quintal",
+     "period": "2026-09-24",
+     "period_end": "2026-09-24",
+     "publisher": "Agmarknet (via data.gov.in)",
+     "series": "APMC mandi price dataset (Tomato modal price)",
+     "frequency": "daily",
+     "headline": false
+    },
+    {
+     "quote": "Damnagar APMC (Gujarat) Tomato modal price: 5000 rupees per quintal (24 Sep 2026)",
+     "value": "5000 ₹/quintal",
+     "period": "2026-09-24",
+     "period_end": "2026-09-24",
+     "publisher": "Agmarknet (via data.gov.in)",
+     "series": "APMC mandi price dataset (Tomato modal price)",
+     "frequency": "daily",
+     "headline": false
+    },
+    {
+     "quote": "Bolpur APMC (West Bengal) Tomato modal price: 4960 rupees per quintal (24 Sep 2026)",
+     "value": "4960 ₹/quintal",
+     "period": "2026-09-24",
+     "period_end": "2026-09-24",
+     "publisher": "Agmarknet (via data.gov.in)",
+     "series": "APMC mandi price dataset (Tomato modal price)",
+     "frequency": "daily",
+     "headline": false
+    },
+    {
+     "quote": "Wood modal price: 1005 rupees per quintal (23 Sep 2026)",
+     "value": "1005 ₹/quintal",
+     "period": "2026-09-23",
+     "period_end": "2026-09-23",
+     "publisher": "Agmarknet (via data.gov.in)",
+     "series": "APMC mandi price dataset (modal price)",
+     "frequency": "daily",
+     "headline": false
+    },
+    {
+     "quote": "Wood modal price: 605 rupees per quintal (24 Sep 2026)",
+     "value": "605 ₹/quintal",
+     "period": "2026-09-24",
+     "period_end": "2026-09-24",
+     "publisher": "Agmarknet (via data.gov.in)",
+     "series": "APMC mandi price dataset (modal price)",
+     "frequency": "daily",
+     "headline": false
+    },
+    {
+     "quote": "Pineapple modal price: 4978 rupees per quintal (23 Sep 2026)",
+     "value": "4978 ₹/quintal",
+     "period": "2026-09-23",
+     "period_end": "2026-09-23",
+     "publisher": "Agmarknet (via data.gov.in)",
+     "series": "APMC mandi price dataset (modal price)",
+     "frequency": "daily",
+     "headline": false
+    },
+    {
+     "quote": "Pineapple modal price: 5779 rupees per quintal (24 Sep 2026)",
+     "value": "5779 ₹/quintal",
+     "period": "2026-09-24",
+     "period_end": "2026-09-24",
+     "publisher": "Agmarknet (via data.gov.in)",
+     "series": "APMC mandi price dataset (modal price)",
+     "frequency": "daily",
+     "headline": false
+    },
+    {
+     "quote": "Tender Coconut modal price: 4209 rupees per quintal (23 Sep 2026)",
+     "value": "4209 ₹/quintal",
+     "period": "2026-09-23",
+     "period_end": "2026-09-23",
+     "publisher": "Agmarknet (via data.gov.in)",
+     "series": "APMC mandi price dataset (modal price)",
+     "frequency": "daily",
+     "headline": false
+    },
+    {
+     "quote": "Tender Coconut modal price: 4617 rupees per quintal (24 Sep 2026)",
+     "value": "4617 ₹/quintal",
+     "period": "2026-09-24",
+     "period_end": "2026-09-24",
+     "publisher": "Agmarknet (via data.gov.in)",
+     "series": "APMC mandi price dataset (modal price)",
+     "frequency": "daily",
+     "headline": false
+    },
+    {
+     "quote": "Rice modal price: 4410 rupees per quintal (23 Sep 2026)",
+     "value": "4410 ₹/quintal",
+     "period": "2026-09-23",
+     "period_end": "2026-09-23",
+     "publisher": "Agmarknet (via data.gov.in)",
+     "series": "APMC mandi price dataset (modal price)",
+     "frequency": "daily",
+     "headline": false
+    },
+    {
+     "quote": "Rice modal price: 3998 rupees per quintal (24 Sep 2026)",
+     "value": "3998 ₹/quintal",
+     "period": "2026-09-24",
+     "period_end": "2026-09-24",
+     "publisher": "Agmarknet (via data.gov.in)",
+     "series": "APMC mandi price dataset (modal price)",
+     "frequency": "daily",
+     "headline": false
+    },
+    {
+     "quote": "Water Melon modal price: 1840 rupees per quintal (23 Sep 2026)",
+     "value": "1840 ₹/quintal",
+     "period": "2026-09-23",
+     "period_end": "2026-09-23",
+     "publisher": "Agmarknet (via data.gov.in)",
+     "series": "APMC mandi price dataset (modal price)",
+     "frequency": "daily",
+     "headline": false
+    },
+    {
+     "quote": "Water Melon modal price: 1969 rupees per quintal (24 Sep 2026)",
+     "value": "1969 ₹/quintal",
+     "period": "2026-09-24",
+     "period_end": "2026-09-24",
+     "publisher": "Agmarknet (via data.gov.in)",
+     "series": "APMC mandi price dataset (modal price)",
+     "frequency": "daily",
+     "headline": false
+    },
+    {
+     "quote": "Soyabean modal price: 73 rupees per quintal (23 Sep 2026, same markets)",
+     "value": "73 ₹/quintal",
+     "period": "2026-09-23",
+     "period_end": "2026-09-23",
+     "publisher": "Agmarknet (via data.gov.in)",
+     "series": "APMC mandi price dataset (modal price, same markets)",
+     "frequency": "daily",
+     "headline": false
+    },
+    {
+     "quote": "Soyabean modal price: 6040 rupees per quintal (23 Sep 2026, same markets)",
+     "value": "6040 ₹/quintal",
+     "period": "2026-09-23",
+     "period_end": "2026-09-23",
+     "publisher": "Agmarknet (via data.gov.in)",
+     "series": "APMC mandi price dataset (modal price, same markets)",
+     "frequency": "daily",
+     "headline": false
+    },
+    {
+     "quote": "Soyabean modal price: 5894 rupees per quintal (24 Sep 2026, same markets)",
+     "value": "5894 ₹/quintal",
+     "period": "2026-09-24",
+     "period_end": "2026-09-24",
+     "publisher": "Agmarknet (via data.gov.in)",
+     "series": "APMC mandi price dataset (modal price, same markets)",
+     "frequency": "daily",
+     "headline": false
+    },
+    {
+     "quote": "Bajra modal price: 2400 rupees per quintal (23 Sep 2026, same markets)",
+     "value": "2400 ₹/quintal",
+     "period": "2026-09-23",
+     "period_end": "2026-09-23",
+     "publisher": "Agmarknet (via data.gov.in)",
+     "series": "APMC mandi price dataset (modal price, same markets)",
+     "frequency": "daily",
+     "headline": false
+    },
+    {
+     "quote": "Bajra modal price: 2435 rupees per quintal (24 Sep 2026, same markets)",
+     "value": "2435 ₹/quintal",
+     "period": "2026-09-24",
+     "period_end": "2026-09-24",
+     "publisher": "Agmarknet (via data.gov.in)",
+     "series": "APMC mandi price dataset (modal price, same markets)",
+     "frequency": "daily",
+     "headline": false
+    },
+    {
+     "quote": "Cotton modal price: 7967 rupees per quintal (23 Sep 2026, same markets)",
+     "value": "7967 ₹/quintal",
+     "period": "2026-09-23",
+     "period_end": "2026-09-23",
+     "publisher": "Agmarknet (via data.gov.in)",
+     "series": "APMC mandi price dataset (modal price, same markets)",
+     "frequency": "daily",
+     "headline": false
+    },
+    {
+     "quote": "Cotton modal price: 7978 rupees per quintal (24 Sep 2026, same markets)",
+     "value": "7978 ₹/quintal",
+     "period": "2026-09-24",
+     "period_end": "2026-09-24",
+     "publisher": "Agmarknet (via data.gov.in)",
+     "series": "APMC mandi price dataset (modal price, same markets)",
+     "frequency": "daily",
+     "headline": false
+    },
+    {
+     "quote": "Garlic modal price: 17213 rupees per quintal (23 Sep 2026, same markets)",
+     "value": "17213 ₹/quintal",
+     "period": "2026-09-23",
+     "period_end": "2026-09-23",
+     "publisher": "Agmarknet (via data.gov.in)",
+     "series": "APMC mandi price dataset (modal price, same markets)",
+     "frequency": "daily",
+     "headline": false
+    },
+    {
+     "quote": "Garlic modal price: 17177 rupees per quintal (24 Sep 2026, same markets)",
+     "value": "17177 ₹/quintal",
+     "period": "2026-09-24",
+     "period_end": "2026-09-24",
+     "publisher": "Agmarknet (via data.gov.in)",
+     "series": "APMC mandi price dataset (modal price, same markets)",
+     "frequency": "daily",
+     "headline": false
+    },
+    {
+     "quote": "9 World Bank agriculture indicators",
+     "value": "9 indicators",
+     "period": null,
+     "period_end": null,
+     "publisher": "World Bank",
+     "series": "Agriculture indicators panel",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "NASA POWER monthly rainfall and temperature for 14 Indian states",
+     "value": "14 states (monthly rainfall and temperature)",
+     "period": null,
+     "period_end": null,
+     "publisher": "NASA POWER",
+     "series": "Monthly rainfall and temperature data",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "FAOSTAT producer prices and crop production",
+     "value": "Producer prices and crop production data",
+     "period": null,
+     "period_end": null,
+     "publisher": "FAOSTAT",
+     "series": "Producer prices and crop production",
+     "frequency": "multi-year",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

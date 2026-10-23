@@ -1,0 +1,706 @@
+{
+ "slug": "indias-used-oil-epr-wants-half-of-all",
+ "text_sha1": "89f7539ead505c05",
+ "chars": 14891,
+ "checked": "2026-10-23T14:44:12",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "ramping from 5% this year to 50% by 2030-31.",
+     "value": "5%",
+     "period": "2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "MoEFCC",
+     "series": "Hazardous and Other Wastes (Management and Transboundary Movement) Second Amendment Rules, 2023",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "ramping from 5% this year to 50% by 2030-31.",
+     "value": "50%",
+     "period": "2030-31",
+     "period_end": "2031-03-31",
+     "publisher": "MoEFCC",
+     "series": "Hazardous and Other Wastes (Management and Transboundary Movement) Second Amendment Rules, 2023",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "CPCB's own live portal shows the target for 2024-25 alone: 68,946 tonnes of used oil to be recycled, and 119 producers granted registration against 252 applications received.",
+     "value": "68,946 tonnes",
+     "period": "2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "CPCB",
+     "series": "CPCB Used Oil EPR Portal",
+     "frequency": "live",
+     "headline": true
+    },
+    {
+     "quote": "CPCB's own live portal shows the target for 2024-25 alone: 68,946 tonnes of used oil to be recycled, and 119 producers granted registration against 252 applications received.",
+     "value": "119",
+     "period": "as on 10 August 2026",
+     "period_end": "2026-08-10",
+     "publisher": "CPCB",
+     "series": "CPCB Used Oil EPR Portal",
+     "frequency": "live",
+     "headline": true
+    },
+    {
+     "quote": "CPCB's own live portal shows the target for 2024-25 alone: 68,946 tonnes of used oil to be recycled, and 119 producers granted registration against 252 applications received.",
+     "value": "252",
+     "period": "as on 10 August 2026",
+     "period_end": "2026-08-10",
+     "publisher": "CPCB",
+     "series": "CPCB Used Oil EPR Portal",
+     "frequency": "live",
+     "headline": true
+    },
+    {
+     "quote": "252 Applications received",
+     "value": "252",
+     "period": "as of 10 August 2026",
+     "period_end": "2026-08-10",
+     "publisher": "CPCB",
+     "series": "CPCB national dashboard, Producer tab",
+     "frequency": "live",
+     "headline": true
+    },
+    {
+     "quote": "119 Granted",
+     "value": "119",
+     "period": "as of 10 August 2026",
+     "period_end": "2026-08-10",
+     "publisher": "CPCB",
+     "series": "CPCB national dashboard, Producer tab",
+     "frequency": "live",
+     "headline": true
+    },
+    {
+     "quote": "39 Under process",
+     "value": "39",
+     "period": "as of 10 August 2026",
+     "period_end": "2026-08-10",
+     "publisher": "CPCB",
+     "series": "CPCB national dashboard, Producer tab",
+     "frequency": "live",
+     "headline": true
+    },
+    {
+     "quote": "94 Incomplete",
+     "value": "94",
+     "period": "as of 10 August 2026",
+     "period_end": "2026-08-10",
+     "publisher": "CPCB",
+     "series": "CPCB national dashboard, Producer tab",
+     "frequency": "live",
+     "headline": true
+    },
+    {
+     "quote": "2024-25 EPR target: 68,946 tonnes recycled (5% of base-year sales)",
+     "value": "68,946 tonnes",
+     "period": "2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "CPCB",
+     "series": "CPCB national dashboard",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "5% of base oil/lubrication oil sold or imported in 2022-23",
+     "value": "5%",
+     "period": "2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "CPCB",
+     "series": "Rule 27(2) EPR obligation schedule",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "10% of base oil/lubrication oil sold or imported in 2023-24",
+     "value": "10%",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "CPCB",
+     "series": "Rule 27(2) EPR obligation schedule",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "20% of base oil/lubrication oil sold or imported in 2024-25",
+     "value": "20%",
+     "period": "2026-27",
+     "period_end": "2027-03-31",
+     "publisher": "CPCB",
+     "series": "Rule 27(2) EPR obligation schedule",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "20% of base oil/lubrication oil sold or imported in 2025-26",
+     "value": "20%",
+     "period": "2027-28",
+     "period_end": "2028-03-31",
+     "publisher": "CPCB",
+     "series": "Rule 27(2) EPR obligation schedule",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "40% of base oil/lubrication oil sold or imported in 2026-27",
+     "value": "40%",
+     "period": "2028-29",
+     "period_end": "2029-03-31",
+     "publisher": "CPCB",
+     "series": "Rule 27(2) EPR obligation schedule",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "40% of base oil/lubrication oil sold or imported in 2027-28",
+     "value": "40%",
+     "period": "2029-30",
+     "period_end": "2030-03-31",
+     "publisher": "CPCB",
+     "series": "Rule 27(2) EPR obligation schedule",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "50% of base oil/lubrication oil sold or imported two years earlier",
+     "value": "50%",
+     "period": "2030-31 onward",
+     "period_end": "2031-03-31",
+     "publisher": "CPCB",
+     "series": "Rule 27(2) EPR obligation schedule",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "1.0 for producing re-refined base oil or lubrication oil, versus only 0.25 for co-processing or energy recovery",
+     "value": "1.0",
+     "period": "one-off",
+     "period_end": null,
+     "publisher": "CPCB",
+     "series": "EPR certificate formula weightage",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "1.0 for producing re-refined base oil or lubrication oil, versus only 0.25 for co-processing or energy recovery",
+     "value": "0.25",
+     "period": "one-off",
+     "period_end": null,
+     "publisher": "CPCB",
+     "series": "EPR certificate formula weightage",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "25,000 (<5,000 t sold)",
+     "value": "₹25,000",
+     "period": "one-off",
+     "period_end": null,
+     "publisher": "CPCB",
+     "series": "Used Oil EPR FAQ Table 1 - Producer fee",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "10,00,000 (>1,00,000 t sold)",
+     "value": "₹10,00,000",
+     "period": "one-off",
+     "period_end": null,
+     "publisher": "CPCB",
+     "series": "Used Oil EPR FAQ Table 1 - Producer fee",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "25,000 (<500 t)",
+     "value": "₹25,000",
+     "period": "one-off",
+     "period_end": null,
+     "publisher": "CPCB",
+     "series": "Used Oil EPR FAQ Table 2 - Importer fee",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "10,00,000 (>1,00,000 t)",
+     "value": "₹10,00,000",
+     "period": "one-off",
+     "period_end": null,
+     "publisher": "CPCB",
+     "series": "Used Oil EPR FAQ Table 2 - Importer fee",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "25,000 (<5,000 t capacity)",
+     "value": "₹25,000",
+     "period": "one-off",
+     "period_end": null,
+     "publisher": "CPCB",
+     "series": "Used Oil EPR FAQ Table 3 - Recycler fee",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "75,000 (>20,000 t capacity)",
+     "value": "₹75,000",
+     "period": "one-off",
+     "period_end": null,
+     "publisher": "CPCB",
+     "series": "Used Oil EPR FAQ Table 3 - Recycler fee",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "500 (<500 t capacity)",
+     "value": "₹500",
+     "period": "one-off",
+     "period_end": null,
+     "publisher": "CPCB",
+     "series": "Used Oil EPR FAQ Table 4 - Collection agent fee",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "10,000 (>10,000 t capacity)",
+     "value": "₹10,000",
+     "period": "one-off",
+     "period_end": null,
+     "publisher": "CPCB",
+     "series": "Used Oil EPR FAQ Table 4 - Collection agent fee",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "2,412",
+     "value": "2,412 thousand tonnes",
+     "period": "2023-24",
+     "period_end": "2024-03-31",
+     "publisher": "PPAC",
+     "series": "Import/Export of Crude Oil and Petroleum Products",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "15",
+     "value": "15 thousand tonnes",
+     "period": "2023-24",
+     "period_end": "2024-03-31",
+     "publisher": "PPAC",
+     "series": "Import/Export of Crude Oil and Petroleum Products",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "19,129",
+     "value": "₹19,129 crore",
+     "period": "2023-24",
+     "period_end": "2024-03-31",
+     "publisher": "PPAC",
+     "series": "Import/Export of Crude Oil and Petroleum Products",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "200",
+     "value": "₹200 crore",
+     "period": "2023-24",
+     "period_end": "2024-03-31",
+     "publisher": "PPAC",
+     "series": "Import/Export of Crude Oil and Petroleum Products",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "2,864",
+     "value": "2,864 thousand tonnes",
+     "period": "2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "PPAC",
+     "series": "Import/Export of Crude Oil and Petroleum Products",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "17",
+     "value": "17 thousand tonnes",
+     "period": "2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "PPAC",
+     "series": "Import/Export of Crude Oil and Petroleum Products",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "21,894",
+     "value": "₹21,894 crore",
+     "period": "2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "PPAC",
+     "series": "Import/Export of Crude Oil and Petroleum Products",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "306",
+     "value": "₹306 crore",
+     "period": "2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "PPAC",
+     "series": "Import/Export of Crude Oil and Petroleum Products",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "3,177",
+     "value": "3,177 thousand tonnes",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "PPAC",
+     "series": "Import/Export of Crude Oil and Petroleum Products",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "11",
+     "value": "11 thousand tonnes",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "PPAC",
+     "series": "Import/Export of Crude Oil and Petroleum Products",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "23,924",
+     "value": "₹23,924 crore",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "PPAC",
+     "series": "Import/Export of Crude Oil and Petroleum Products",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "164",
+     "value": "₹164 crore",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "PPAC",
+     "series": "Import/Export of Crude Oil and Petroleum Products",
+     "frequency": "annual",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "a recycling target — a Rule 27 obligation under the Hazardous and Other Wastes (Management and Transboundary Movement) Second Amendment Rules, 2023, ramping from 5% this year to 50% by 2030-31.",
+     "value": "5% → 50%",
+     "period": "2024-25 to 2030-31 onward",
+     "period_end": "2031-03-31",
+     "publisher": "MoEFCC",
+     "series": "Rule 27(2) of the Hazardous and Other Wastes (Management and Transboundary Movement) Second Amendment Rules, 2023",
+     "frequency": "multi-year",
+     "headline": true
+    },
+    {
+     "quote": "CPCB's own live portal shows the target for 2024-25 alone: 68,946 tonnes of used oil to be recycled",
+     "value": "68,946 tonnes",
+     "period": "2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "CPCB",
+     "series": "Used Oil EPR Portal, national dashboard",
+     "frequency": "live",
+     "headline": true
+    },
+    {
+     "quote": "119 producers granted registration against 252 applications received",
+     "value": "119 granted / 252 received",
+     "period": "as of 10 August 2026",
+     "period_end": "2026-08-10",
+     "publisher": "CPCB",
+     "series": "Used Oil EPR Portal, Producer tab",
+     "frequency": "live",
+     "headline": true
+    },
+    {
+     "quote": "fees scale with volume, from ₹25,000 for a small producer to ₹10 lakh for a large one",
+     "value": "₹25,000 (small) to ₹10,00,000 (large)",
+     "period": null,
+     "publisher": "CPCB",
+     "series": "Used Oil EPR FAQ, Table 1 (Producer fees)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹25,000 (<500 t) to ₹10,00,000 (>1,00,000 t) for used-oil importer",
+     "value": "₹25,000 (<500 tonnes) to ₹10,00,000 (>1,00,000 tonnes)",
+     "period": null,
+     "publisher": "CPCB",
+     "series": "Used Oil EPR FAQ, Table 2 (Importer fees)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹25,000 (<5,000 t capacity) to ₹75,000 (>20,000 t capacity) for Recycler",
+     "value": "₹25,000 (<5,000 tonnes capacity) to ₹75,000 (>20,000 tonnes capacity)",
+     "period": null,
+     "publisher": "CPCB",
+     "series": "Used Oil EPR FAQ, Table 3 (Recycler fees)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹500 (<500 t capacity) to ₹10,000 (>10,000 t capacity) for Collection agent",
+     "value": "₹500 (<500 tonnes capacity) to ₹10,000 (>10,000 tonnes capacity)",
+     "period": null,
+     "publisher": "CPCB",
+     "series": "Used Oil EPR FAQ, Table 4 (Collection agent fees)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "2023-24 | 2,412 (’000 tonnes) imports | 15 (’000 tonnes) exports",
+     "value": "2,412,000 tonnes imported / 15,000 tonnes exported",
+     "period": "2023-24",
+     "period_end": "2024-03-31",
+     "publisher": "PPAC",
+     "series": "Import/Export of Crude Oil and Petroleum Products (LOBS/Lube oil line)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "2024-25 | 2,864 (’000 tonnes) imports | 17 (’000 tonnes) exports",
+     "value": "2,864,000 tonnes imported / 17,000 tonnes exported",
+     "period": "2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "PPAC",
+     "series": "Import/Export of Crude Oil and Petroleum Products (LOBS/Lube oil line)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "2025-26 (provisional) | 3,177 (’000 tonnes) imports | 11 (’000 tonnes) exports",
+     "value": "3,177,000 tonnes imported / 11,000 tonnes exported",
+     "period": "2025-26 (provisional)",
+     "period_end": "2026-03-31",
+     "publisher": "PPAC",
+     "series": "Import/Export of Crude Oil and Petroleum Products (LOBS/Lube oil line)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "2023-24 | Import value (₹ crore) 19,129 | Export value (₹ crore) 200",
+     "value": "₹19,129 crore (import value) / ₹200 crore (export value)",
+     "period": "2023-24",
+     "period_end": "2024-03-31",
+     "publisher": "PPAC",
+     "series": "Import/Export of Crude Oil and Petroleum Products (LOBS/Lube oil line)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "2024-25 | Import value (₹ crore) 21,894 | Export value (₹ crore) 306",
+     "value": "₹21,894 crore (import value) / ₹306 crore (export value)",
+     "period": "2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "PPAC",
+     "series": "Import/Export of Crude Oil and Petroleum Products (LOBS/Lube oil line)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "2025-26 (provisional) | Import value (₹ crore) 23,924 | Export value (₹ crore) 164",
+     "value": "₹23,924 crore (import value) / ₹164 crore (export value)",
+     "period": "2025-26 (provisional)",
+     "period_end": "2026-03-31",
+     "publisher": "PPAC",
+     "series": "Import/Export of Crude Oil and Petroleum Products (LOBS/Lube oil line)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "an annual processing charge of 25% of the applicable registration fee applies on top",
+     "value": "25%",
+     "period": null,
+     "period_end": null,
+     "publisher": "CPCB",
+     "series": "Used Oil EPR FAQ",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "EPR certificates themselves are priced within a CPCB-set band — the ceiling equal to 100% of the Environmental Compensation rate for non-fulfilment, the floor 30% of it",
+     "value": "30% (floor) to 100% (ceiling) of Environmental Compensation rate",
+     "period": null,
+     "period_end": null,
+     "publisher": "CPCB",
+     "series": "Used Oil EPR FAQ",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "implied a base-year sales volume in the region of 13.8 lakh tonnes",
+     "value": "13.8 lakh tonnes",
+     "period": "2022-23",
+     "period_end": "2023-03-31",
+     "publisher": "CPCB",
+     "series": "Used Oil EPR Portal, national dashboard (inferred)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "a claim that India imports roughly 4 million tonnes of base oil a year against only 2.8 million tonnes of consumption doesn't match PPAC's own LOBS/Lube oil trade line above — imports ran 2.4 to 3.2 million tonnes a year",
+     "value": "2.4 to 3.2 million tonnes",
+     "period": "2023-24 to 2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "PPAC",
+     "series": "Import/Export of Crude Oil and Petroleum Products (LOBS/Lube oil line)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "exports (11,000-17,000 tonnes) are two orders of magnitude smaller than either figure",
+     "value": "11,000 to 17,000 tonnes",
+     "period": "2023-24 to 2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "PPAC",
+     "series": "Import/Export of Crude Oil and Petroleum Products (LOBS/Lube oil line)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "a 10-15% discount to virgin base oil",
+     "value": "10-15%",
+     "period": null,
+     "period_end": null,
+     "publisher": "Enviro Oil Savers Association (webinar)",
+     "series": "Informal industry panel discussion",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "IS 18722:2024 BIS standard for Re-refined Base Oil, published ~10 months after the EPR rules",
+     "value": "IS 18722:2024",
+     "period": "published ~10 months after 18 September 2023",
+     "period_end": "2024-07-18",
+     "publisher": "BIS",
+     "series": "IS 18722:2024 (Re-refined Base Oil)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "39 under process, 94 incomplete",
+     "value": "39 under process / 94 incomplete",
+     "period": "as of 10 August 2026",
+     "period_end": "2026-08-10",
+     "publisher": "CPCB",
+     "series": "Used Oil EPR Portal, Producer tab",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "The instrument is Chapter VII of the Hazardous and Other Wastes (Management and Transboundary Movement) Second Amendment Rules, 2023 — notified by the Ministry of Environment, Forest and Climate Change via G.S.R. 677(E) on 18 September 2023",
+     "value": "18 September 2023",
+     "period": "notified date",
+     "period_end": "2023-09-18",
+     "publisher": "MoEFCC",
+     "series": "Hazardous and Other Wastes (Management and Transboundary Movement) Second Amendment Rules, 2023",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "EPR obligations commencing 1 April 2024",
+     "value": "1 April 2024",
+     "period": "obligation commencement",
+     "period_end": "2024-04-01",
+     "publisher": "MoEFCC",
+     "series": "Hazardous and Other Wastes (Management and Transboundary Movement) Second Amendment Rules, 2023",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "2024-25 | 5% of base oil/lubrication oil sold or imported in 2022-23",
+     "value": "5% of base oil/lubrication oil sold/imported in 2022-23",
+     "period": "2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "CPCB",
+     "series": "EPR Obligation Schedule (FAQs)",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "2025-26 | 10% of base oil/lubrication oil sold or imported in 2023-24",
+     "value": "10% of base oil/lubrication oil sold/imported in 2023-24",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "CPCB",
+     "series": "EPR Obligation Schedule (FAQs)",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "2026-27 | 20% of base oil/lubrication oil sold or imported in 2024-25",
+     "value": "20% of base oil/lubrication oil sold/imported in 2024-25",
+     "period": "2026-27",
+     "period_end": "2027-03-31",
+     "publisher": "CPCB",
+     "series": "EPR Obligation Schedule (FAQs)",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "2027-28 | 20% of base oil/lubrication oil sold or imported in 2025-26",
+     "value": "20% of base oil/lubrication oil sold/imported in 2025-26",
+     "period": "2027-28",
+     "period_end": "2028-03-31",
+     "publisher": "CPCB",
+     "series": "EPR Obligation Schedule (FAQs)",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "2028-29 | 40% of base oil/lubrication oil sold or imported in 2026-27",
+     "value": "40% of base oil/lubrication oil sold/imported in 2026-27",
+     "period": "2028-29",
+     "period_end": "2029-03-31",
+     "publisher": "CPCB",
+     "series": "EPR Obligation Schedule (FAQs)",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "2029-30 | 40% of base oil/lubrication oil sold or imported in 2027-28",
+     "value": "40% of base oil/lubrication oil sold/imported in 2027-28",
+     "period": "2029-30",
+     "period_end": "2030-03-31",
+     "publisher": "CPCB",
+     "series": "EPR Obligation Schedule (FAQs)",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "2030-31 onward | 50% of base oil/lubrication oil sold or imported two years earlier",
+     "value": "50% of base oil/lubrication oil sold/imported two years earlier",
+     "period": "2030-31 onward",
+     "period_end": "2031-03-31",
+     "publisher": "CPCB",
+     "series": "EPR Obligation Schedule (FAQs)",
+     "frequency": "multi-year",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

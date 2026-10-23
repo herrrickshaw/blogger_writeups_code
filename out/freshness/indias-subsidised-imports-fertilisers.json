@@ -1,0 +1,840 @@
+{
+ "slug": "indias-subsidised-imports-fertilisers",
+ "text_sha1": "a15498ccfe7dd8ce",
+ "chars": 17934,
+ "checked": "2026-10-23T14:38:06",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "Fertiliser-grade urea up 148% — extraordinary.",
+     "value": "148%",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "TradeStat",
+     "series": "TradeStat EIDB",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Roughly $633bn of the official $775bn FY2025-26 import bill (PIB: imports $774.98bn, deficit $333.19bn) sits in these protected categories.",
+     "value": "$633bn",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "TradeStat",
+     "series": "TradeStat EIDB",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Roughly $633bn of the official $775bn FY2025-26 import bill (PIB: imports $774.98bn, deficit $333.19bn) sits in these protected categories.",
+     "value": "$775bn",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "PIB / ministry",
+     "series": "Official import bill",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "PIB: imports $774.98bn, deficit $333.19bn",
+     "value": "$774.98bn",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "PIB / ministry",
+     "series": "Merchandise import bill",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "PIB: imports $774.98bn, deficit $333.19bn",
+     "value": "$333.19bn",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "PIB / ministry",
+     "series": "Merchandise trade deficit",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Total All Commodities (official, PIB) | 720.2 | 775.0 | +7.60 | 100",
+     "value": "720.2 USD bn",
+     "period": "FY 2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "PIB / ministry",
+     "series": "Total All Commodities Import Expense",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Total All Commodities (official, PIB) | 720.2 | 775.0 | +7.60 | 100",
+     "value": "775.0 USD bn",
+     "period": "FY 2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "PIB / ministry",
+     "series": "Total All Commodities Import Expense",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Total All Commodities (official, PIB) | 720.2 | 775.0 | +7.60 | 100",
+     "value": "+7.60%",
+     "period": "FY2024-25 to FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "PIB / ministry",
+     "series": "Total All Commodities Growth",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "12 Subsidised Categories | 591.4 | 632.8 | +6.99 | 81.6",
+     "value": "591.4 USD bn",
+     "period": "FY 2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "TradeStat",
+     "series": "12 Subsidised Categories Import Expense",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "12 Subsidised Categories | 591.4 | 632.8 | +6.99 | 81.6",
+     "value": "632.8 USD bn",
+     "period": "FY 2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "TradeStat",
+     "series": "12 Subsidised Categories Import Expense",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "12 Subsidised Categories | 591.4 | 632.8 | +6.99 | 81.6",
+     "value": "+6.99%",
+     "period": "FY2024-25 to FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "TradeStat",
+     "series": "12 Subsidised Categories Growth",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "12 Subsidised Categories | 591.4 | 632.8 | +6.99 | 81.6",
+     "value": "81.6%",
+     "period": "FY 2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "TradeStat",
+     "series": "Share of Total Imports",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Fertilisers | +76.0%",
+     "value": "+76.0%",
+     "period": "FY2024-25 vs FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "TradeStat",
+     "series": "TradeStat EIDB",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Inorganic Chemicals | +24.6%",
+     "value": "+24.6%",
+     "period": "FY2024-25 vs FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "TradeStat",
+     "series": "TradeStat EIDB",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Gems & Jewellery | +23.0%",
+     "value": "+23.0%",
+     "period": "FY2024-25 vs FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "TradeStat",
+     "series": "TradeStat EIDB",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Electrical Machinery | +18.4%",
+     "value": "+18.4%",
+     "period": "FY2024-25 vs FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "TradeStat",
+     "series": "TradeStat EIDB",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Machinery & Mech. Appliances | +15.1%",
+     "value": "+15.1%",
+     "period": "FY2024-25 vs FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "TradeStat",
+     "series": "TradeStat EIDB",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Edible Oils (Animal/Veg Fats) | +12.4%",
+     "value": "+12.4%",
+     "period": "FY2024-25 vs FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "TradeStat",
+     "series": "TradeStat EIDB",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Optical/Medical Instruments | +11.1%",
+     "value": "+11.1%",
+     "period": "FY2024-25 vs FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "TradeStat",
+     "series": "TradeStat EIDB",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Plastics | +0.5%",
+     "value": "+0.5%",
+     "period": "FY2024-25 vs FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "TradeStat",
+     "series": "TradeStat EIDB",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Aircraft & Spacecraft | −1.0%",
+     "value": "−1.0%",
+     "period": "FY2024-25 vs FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "TradeStat",
+     "series": "TradeStat EIDB",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Organic Chemicals | −4.4%",
+     "value": "−4.4%",
+     "period": "FY2024-25 vs FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "TradeStat",
+     "series": "TradeStat EIDB",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Mineral Fuels & Oils | −6.9%",
+     "value": "−6.9%",
+     "period": "FY2024-25 vs FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "TradeStat",
+     "series": "TradeStat EIDB",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Iron & Steel | −9.5%",
+     "value": "−9.5%",
+     "period": "FY2024-25 vs FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "TradeStat",
+     "series": "TradeStat EIDB",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Total Expense | 218,456 | 203,415 | −15,041 | −6.88 ⬇️",
+     "value": "218,456 USD M",
+     "period": "FY24-25",
+     "period_end": "2025-03-31",
+     "publisher": "TradeStat",
+     "series": "Mineral Fuels & Oils Total Expense",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Total Expense | 218,456 | 203,415 | −15,041 | −6.88 ⬇️",
+     "value": "203,415 USD M",
+     "period": "FY25-26",
+     "period_end": "2026-03-31",
+     "publisher": "TradeStat",
+     "series": "Mineral Fuels & Oils Total Expense",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Crude Oil : $134,717M (66.2% of fuels) — down 5.8% YoY",
+     "value": "$134,717M",
+     "period": "FY25-26",
+     "period_end": "2026-03-31",
+     "publisher": "TradeStat",
+     "series": "Mineral Fuels Breakdown - Crude Oil",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "LNG : $13,338M (6.6%) — down 10.4% YoY",
+     "value": "$13,338M",
+     "period": "FY25-26",
+     "period_end": "2026-03-31",
+     "publisher": "TradeStat",
+     "series": "Mineral Fuels Breakdown - LNG",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Coking Coal : $11,768M (5.8%) — down 3.2% YoY",
+     "value": "$11,768M",
+     "period": "FY25-26",
+     "period_end": "2026-03-31",
+     "publisher": "TradeStat",
+     "series": "Mineral Fuels Breakdown - Coking Coal",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Other petroleum products : $43,592M (21.4%) — down 6.5% YoY",
+     "value": "$43,592M",
+     "period": "FY25-26",
+     "period_end": "2026-03-31",
+     "publisher": "TradeStat",
+     "series": "Mineral Fuels Breakdown - Other petroleum products",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Gold (≥99.5% purity) : $46,861M (42.8% of gems) — massive inflow",
+     "value": "$46,861M",
+     "period": "FY25-26",
+     "period_end": "2026-03-31",
+     "publisher": "TradeStat",
+     "series": "Pearls, Gems & Jewellery Breakdown - Gold",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Unwrought forms (other) : $24,859M (22.7%) — silver, platinum, etc.",
+     "value": "$24,859M",
+     "period": "FY25-26",
+     "period_end": "2026-03-31",
+     "publisher": "TradeStat",
+     "series": "Pearls, Gems & Jewellery Breakdown - Unwrought forms",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Silver (≥99.9%) : $10,849M (9.9%)",
+     "value": "$10,849M",
+     "period": "FY25-26",
+     "period_end": "2026-03-31",
+     "publisher": "TradeStat",
+     "series": "Pearls, Gems & Jewellery Breakdown - Silver",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Diamonds : $10,247M (9.4%)",
+     "value": "$10,247M",
+     "period": "FY25-26",
+     "period_end": "2026-03-31",
+     "publisher": "TradeStat",
+     "series": "Pearls, Gems & Jewellery Breakdown - Diamonds",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "PLI disbursement recorded at ~₹35,354 crore total as of March 2026",
+     "value": "~₹35,354 crore",
+     "period": "March 2026",
+     "period_end": "2026-03-31",
+     "publisher": "PIB / ministry",
+     "series": "PLI disbursement",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Digital ICs : $17,543M (16.7% of HS85) — up 15.8% YoY",
+     "value": "$17,543M",
+     "period": "FY25-26",
+     "period_end": "2026-03-31",
+     "publisher": "TradeStat",
+     "series": "Electrical Machinery Breakdown - Digital ICs",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Electrical parts for phones/telegraphy : $15,810M (15.1%) — up 14.4%",
+     "value": "$15,810M",
+     "period": "FY25-26",
+     "period_end": "2026-03-31",
+     "publisher": "TradeStat",
+     "series": "Electrical Machinery Breakdown - Electrical parts",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Memory chips : $6,793M (6.5%) — up 53.4% (AI-accelerator demand)",
+     "value": "$6,793M",
+     "period": "FY25-26",
+     "period_end": "2026-03-31",
+     "publisher": "TradeStat",
+     "series": "Electrical Machinery Breakdown - Memory chips",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Printed circuits : $5,389M (5.1%) — up 21.1%",
+     "value": "$5,389M",
+     "period": "FY25-26",
+     "period_end": "2026-03-31",
+     "publisher": "TradeStat",
+     "series": "Electrical Machinery Breakdown - Printed circuits",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Semiconductors (discrete) : $4,082M (3.9%) — up 9.2%",
+     "value": "$4,082M",
+     "period": "FY25-26",
+     "period_end": "2026-03-31",
+     "publisher": "TradeStat",
+     "series": "Electrical Machinery Breakdown - Semiconductors",
+     "frequency": "annual",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "Nearly 82% of India's entire import bill goes to commodities in these 12 tracked/watch categories",
+     "value": "82%",
+     "period": null,
+     "period_end": null,
+     "publisher": "TradeStat (article estimate)",
+     "series": "India's import bill share by tracked categories",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "India's Import Bill: Growth by Category, FY24-25 → FY25-26",
+     "value": "FY2024-25 to FY2025-26",
+     "period": "FY2024-25 → FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "TradeStat EIDB",
+     "series": "India's import bill growth by category",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Fertilisers grew faster than any other subsidised import category in FY2025-26 — up 76% year-on-year",
+     "value": "76.0%",
+     "period": "FY2024-25 vs FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "TradeStat EIDB",
+     "series": "Fertilisers import growth rate",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Fertilisers is the fastest-growing category, driven by DAP (+75.8%) and urea (+148%)",
+     "value": "75.8%",
+     "period": "FY2024-25 vs FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "TradeStat EIDB",
+     "series": "DAP import growth rate",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Fertilisers is the fastest-growing category, driven by DAP (+75.8%) and urea (+148%)",
+     "value": "148%",
+     "period": "FY2024-25 vs FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "TradeStat EIDB",
+     "series": "Fertiliser-grade urea import growth rate",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Total All Commodities (official, PIB): 720.2 (USD bn) → 775.0 (USD bn)",
+     "value": "720.2 USD bn",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "PIB",
+     "series": "India's total merchandise imports",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Total All Commodities (official, PIB): 720.2 (USD bn) → 775.0 (USD bn)",
+     "value": "775.0 USD bn",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "PIB",
+     "series": "India's total merchandise imports",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "12 Subsidised Categories: 591.4 (USD bn) → 632.8 (USD bn)",
+     "value": "591.4 USD bn",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "TradeStat EIDB",
+     "series": "Subsidised categories import value",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "12 Subsidised Categories: 591.4 (USD bn) → 632.8 (USD bn)",
+     "value": "632.8 USD bn",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "TradeStat EIDB",
+     "series": "Subsidised categories import value",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Total Expense | Mineral Fuels & Oils: 218,456 (USD M) → 203,415 (USD M)",
+     "value": "218,456 USD M",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "TradeStat EIDB",
+     "series": "Mineral Fuels & Oils import expense",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Total Expense | Mineral Fuels & Oils: 218,456 (USD M) → 203,415 (USD M)",
+     "value": "203,415 USD M",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "TradeStat EIDB",
+     "series": "Mineral Fuels & Oils import expense",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Total Expense | Pearls, Gems & Jewellery: 88,976 (USD M) → 109,430 (USD M)",
+     "value": "88,976 USD M",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "TradeStat EIDB",
+     "series": "Gems & Jewellery import expense",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Total Expense | Pearls, Gems & Jewellery: 88,976 (USD M) → 109,430 (USD M)",
+     "value": "109,430 USD M",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "TradeStat EIDB",
+     "series": "Gems & Jewellery import expense",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Total Expense | Electrical Machinery: 88,596 (USD M) → 104,853 (USD M)",
+     "value": "88,596 USD M",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "TradeStat EIDB",
+     "series": "Electrical Machinery import expense",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Total Expense | Electrical Machinery: 88,596 (USD M) → 104,853 (USD M)",
+     "value": "104,853 USD M",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "TradeStat EIDB",
+     "series": "Electrical Machinery import expense",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Total Expense | Machinery & Mech. Appliances: 64,302 (USD M) → 74,019 (USD M)",
+     "value": "64,302 USD M",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "TradeStat EIDB",
+     "series": "Machinery & Mechanical Appliances import expense",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Total Expense | Machinery & Mech. Appliances: 64,302 (USD M) → 74,019 (USD M)",
+     "value": "74,019 USD M",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "TradeStat EIDB",
+     "series": "Machinery & Mechanical Appliances import expense",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Total Expense | Organic Chemicals: 26,590 (USD M) → 25,411 (USD M)",
+     "value": "26,590 USD M",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "TradeStat EIDB",
+     "series": "Organic Chemicals import expense",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Total Expense | Organic Chemicals: 26,590 (USD M) → 25,411 (USD M)",
+     "value": "25,411 USD M",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "TradeStat EIDB",
+     "series": "Organic Chemicals import expense",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Total Expense | Plastics: 22,116 (USD M) → 22,234 (USD M)",
+     "value": "22,116 USD M",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "TradeStat EIDB",
+     "series": "Plastics import expense",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Total Expense | Plastics: 22,116 (USD M) → 22,234 (USD M)",
+     "value": "22,234 USD M",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "TradeStat EIDB",
+     "series": "Plastics import expense",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Total Expense | Edible Oils (Animal/Veg Fats): 17,592 (USD M) → 19,777 (USD M)",
+     "value": "17,592 USD M",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "TradeStat EIDB",
+     "series": "Edible Oils import expense",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Total Expense | Edible Oils (Animal/Veg Fats): 17,592 (USD M) → 19,777 (USD M)",
+     "value": "19,777 USD M",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "TradeStat EIDB",
+     "series": "Edible Oils import expense",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Total Expense | Iron & Steel: 17,400 (USD M) → 15,753 (USD M)",
+     "value": "17,400 USD M",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "TradeStat EIDB",
+     "series": "Iron & Steel import expense",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Total Expense | Iron & Steel: 17,400 (USD M) → 15,753 (USD M)",
+     "value": "15,753 USD M",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "TradeStat EIDB",
+     "series": "Iron & Steel import expense",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Total Expense | Optical/Medical Instruments: 13,842 (USD M) → 15,375 (USD M)",
+     "value": "13,842 USD M",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "TradeStat EIDB",
+     "series": "Optical/Medical Instruments import expense",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Total Expense | Optical/Medical Instruments: 13,842 (USD M) → 15,375 (USD M)",
+     "value": "15,375 USD M",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "TradeStat EIDB",
+     "series": "Optical/Medical Instruments import expense",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Total Expense | Fertilisers: 8,285 (USD M) → 14,580 (USD M)",
+     "value": "8,285 USD M",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "TradeStat EIDB",
+     "series": "Fertilisers import expense",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Total Expense | Fertilisers: 8,285 (USD M) → 14,580 (USD M)",
+     "value": "14,580 USD M",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "TradeStat EIDB",
+     "series": "Fertilisers import expense",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Total Expense | Inorganic Chemicals: 11,377 (USD M) → 14,180 (USD M)",
+     "value": "11,377 USD M",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "TradeStat EIDB",
+     "series": "Inorganic Chemicals import expense",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Total Expense | Inorganic Chemicals: 11,377 (USD M) → 14,180 (USD M)",
+     "value": "14,180 USD M",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "TradeStat EIDB",
+     "series": "Inorganic Chemicals import expense",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Total Expense | Aircraft & Spacecraft: 13,912 (USD M) → 13,775 (USD M)",
+     "value": "13,912 USD M",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "TradeStat EIDB",
+     "series": "Aircraft & Spacecraft import expense",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Total Expense | Aircraft & Spacecraft: 13,912 (USD M) → 13,775 (USD M)",
+     "value": "13,775 USD M",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "TradeStat EIDB",
+     "series": "Aircraft & Spacecraft import expense",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "PIB: imports $774.98bn, deficit $333.19bn",
+     "value": "774.98 USD bn",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "PIB",
+     "series": "India's merchandise imports and trade deficit",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "PIB: imports $774.98bn, deficit $333.19bn",
+     "value": "333.19 USD bn",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "PIB",
+     "series": "India's trade deficit",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Estimated Annual Subsidy Cost (FY 2025-26): Mineral Fuels (Crude/Diesel/LNG) ₹50,000–70,000 crore/year",
+     "value": "₹50,000–70,000 crore",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Article estimate (based on historical data)",
+     "series": "Fuel subsidy cost",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Estimated Annual Subsidy Cost (FY 2025-26): Fertilisers (Urea/DAP) ₹1,50,000–1,70,000 crore/year",
+     "value": "₹1,50,000–1,70,000 crore",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Article estimate",
+     "series": "Fertiliser subsidy cost",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Estimated Annual Subsidy Cost (FY 2025-26): Edible Oils ₹15,000–20,000 crore/year",
+     "value": "₹15,000–20,000 crore",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Article estimate",
+     "series": "Edible oils subsidy cost",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "PLI disbursement recorded at ~₹35,354 crore total as of March 2026",
+     "value": "₹35,354 crore",
+     "period": "as of 2026-03-31",
+     "period_end": "2026-03-31",
+     "publisher": "Article estimate (based on PLI programme data)",
+     "series": "PLI disbursement for Electrical Machinery",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "PLI Steel disbursal ~₹3,862 crore (very low, D-grade)",
+     "value": "₹3,862 crore",
+     "period": null,
+     "period_end": null,
+     "publisher": "Article estimate",
+     "series": "PLI disbursement for Specialty Steel",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "PLI Medical Devices covers ~₹500–700 crore/year",
+     "value": "₹500–700 crore",
+     "period": null,
+     "period_end": null,
+     "publisher": "Article estimate",
+     "series": "PLI disbursement for Medical Devices",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "TOTAL SUBSIDY COST (6 categories above) ₹2.2–2.8 lakh crore/year",
+     "value": "₹2.2–2.8 lakh crore",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Article estimate",
+     "series": "Total subsidy cost for 6 categories",
+     "frequency": "annual",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,360 @@
+{
+ "slug": "cheap-yen-rupee-roads-where-carry-trade",
+ "text_sha1": "04cb318212ee50e9",
+ "chars": 12725,
+ "checked": "2026-10-23T10:50:08",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "NaBFID’s credit-enhancement facility, backed by a $500 million multilateral risk line.",
+     "value": "$500 million",
+     "period": null,
+     "period_end": null,
+     "publisher": "ADB / World Bank",
+     "series": "ADB project 59474-001 (PACE-FIN)",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "Ranked bar chart: PFC-JBIC facility 120bn yen (Jan 2025), REC EuroYen green bond 61.1bn yen (Jan 2024), IREDA yen loan 26bn yen (Mar 2025, hedged all-in under 7%), NLC yen loan 15.46bn yen (Dec 2025).",
+     "value": "120bn yen",
+     "period": "Jan 2025",
+     "period_end": "2025-01-31",
+     "publisher": "this blog's Raising Green Debt Globally piece",
+     "series": "PFC-JBIC facility",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "Ranked bar chart: PFC-JBIC facility 120bn yen (Jan 2025), REC EuroYen green bond 61.1bn yen (Jan 2024), IREDA yen loan 26bn yen (Mar 2025, hedged all-in under 7%), NLC yen loan 15.46bn yen (Dec 2025).",
+     "value": "61.1bn yen",
+     "period": "Jan 2024",
+     "period_end": "2024-01-31",
+     "publisher": "this blog's Raising Green Debt Globally piece",
+     "series": "REC EuroYen green bond",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "Ranked bar chart: PFC-JBIC facility 120bn yen (Jan 2025), REC EuroYen green bond 61.1bn yen (Jan 2024), IREDA yen loan 26bn yen (Mar 2025, hedged all-in under 7%), NLC yen loan 15.46bn yen (Dec 2025).",
+     "value": "26bn yen",
+     "period": "Mar 2025",
+     "period_end": "2025-03-31",
+     "publisher": "this blog's Raising Green Debt Globally piece",
+     "series": "IREDA yen loan",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "Ranked bar chart: PFC-JBIC facility 120bn yen (Jan 2025), REC EuroYen green bond 61.1bn yen (Jan 2024), IREDA yen loan 26bn yen (Mar 2025, hedged all-in under 7%), NLC yen loan 15.46bn yen (Dec 2025).",
+     "value": "15.46bn yen",
+     "period": "Dec 2025",
+     "period_end": "2025-12-31",
+     "publisher": "this blog's Raising Green Debt Globally piece",
+     "series": "NLC yen loan",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "₹15,000 cr Bond issuance targeted under that facility in H2 FY2025-26",
+     "value": "₹15,000 crore",
+     "period": "H2 FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Business Standard / NaBFID",
+     "series": "Budget announcement and target",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "4.25pp RBI–Bank of Japan policy-rate gap, 7 October 2026 — the visible carry, after the Bank of Japan’s September hike to 1.25% and the RBI’s October hike to 5.50%",
+     "value": "4.25 percentage points",
+     "period": "7 October 2026",
+     "period_end": "2026-10-07",
+     "publisher": "RBI / Bank of Japan",
+     "series": "BIS WS_CBPOL",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "Bank of Japan raised its rate to 1.25% on 18 September 2026",
+     "value": "1.25%",
+     "period": "18 September 2026",
+     "period_end": "2026-09-18",
+     "publisher": "Bank of Japan",
+     "series": "BIS WS_CBPOL",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Reserve Bank of India raised its repo rate to 5.50% on 7 October 2026",
+     "value": "5.50%",
+     "period": "7 October 2026",
+     "period_end": "2026-10-07",
+     "publisher": "RBI",
+     "series": "BIS WS_CBPOL",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "REC EuroYen green bond | 61.1, Jan 2024 | 1.76–2.20% coupons",
+     "value": "1.76–2.20%",
+     "period": "Jan 2024",
+     "period_end": "2024-01-31",
+     "publisher": "this blog's Raising Green Debt Globally piece",
+     "series": "REC EuroYen green bond",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "IREDA yen loan (SBI Tokyo) | 26, 5-yr, Mar 2025",
+     "value": "5 years",
+     "period": "Mar 2025",
+     "period_end": "2025-03-31",
+     "publisher": "this blog's Raising Green Debt Globally piece",
+     "series": "IREDA yen loan",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "NaBFID’s credit-enhancement facility, backed by a $500 million multilateral risk line.",
+     "value": "$500 million",
+     "period": null,
+     "period_end": null,
+     "publisher": "ADB (Asian Development Bank) / World Bank",
+     "series": "PACE-FIN (Partial Credit Enhancement for Infrastructure in India)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "PFC-JBIC facility ¥120bn yen (Jan 2025)",
+     "value": "¥120 billion yen",
+     "period": "Jan 2025",
+     "period_end": "2025-01-31",
+     "publisher": "JBIC (Japan Bank for International Cooperation)",
+     "series": "Yen-denominated infrastructure loans",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "REC EuroYen green bond ¥61.1bn yen (Jan 2024)",
+     "value": "¥61.1 billion yen",
+     "period": "Jan 2024",
+     "period_end": "2024-01-31",
+     "publisher": "REC (Rural Electrification Corporation)",
+     "series": "EuroYen green bonds",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "IREDA yen loan ¥26bn yen (Mar 2025, hedged all-in under 7%)",
+     "value": "¥26 billion yen (hedged all-in <7%)",
+     "period": "Mar 2025",
+     "period_end": "2025-03-31",
+     "publisher": "IREDA (Indian Renewable Energy Development Agency)",
+     "series": "Yen-denominated loans",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "NLC yen loan ¥15.46bn yen (Dec 2025)",
+     "value": "¥15.46 billion yen",
+     "period": "Dec 2025",
+     "period_end": "2025-12-31",
+     "publisher": "NLC India Limited",
+     "series": "Yen-denominated loans",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹15,000 crore of bonds targeted under NaBFID’s facility in H2 FY2025-26",
+     "value": "₹15,000 crore",
+     "period": "H2 FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "NaBFID (National Bank for Financing Infrastructure and Development)",
+     "series": "Partial Credit Enhancement Facility",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "4–5 projects, ~₹15,000 crore of bonds, H2 FY2025-26; mainly renewables and roads",
+     "value": "₹15,000 crore (4–5 projects)",
+     "period": "H2 FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "NaBFID",
+     "series": "Partial Credit Enhancement Facility (near-term target)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Bank of Japan’s September hike to 1.25% and the RBI’s October hike to 5.50%",
+     "value": "Bank of Japan rate: 1.25%, RBI repo rate: 5.50%",
+     "period": "as of 7 October 2026",
+     "period_end": "2026-10-07",
+     "publisher": "Bank of Japan / RBI (Reserve Bank of India)",
+     "series": "Policy rates (BIS WS_CBPOL)",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "4.25pp RBI–Bank of Japan policy-rate gap, 7 October 2026",
+     "value": "4.25 percentage points",
+     "period": "7 October 2026",
+     "period_end": "2026-10-07",
+     "publisher": "RBI / Bank of Japan",
+     "series": "Policy rate differential",
+     "frequency": "daily",
+     "headline": false
+    },
+    {
+     "quote": "RBI at 5.25% against the Bank of Japan at 1.00% when that chart was drawn",
+     "value": "RBI: 5.25%, Bank of Japan: 1.00%",
+     "period": null,
+     "period_end": null,
+     "publisher": "RBI / Bank of Japan",
+     "series": "Policy rates (BIS WS_CBPOL)",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "REC EuroYen green bond 1.76–2.20% coupons",
+     "value": "1.76–2.20%",
+     "period": "Jan 2024",
+     "period_end": "2024-01-31",
+     "publisher": "REC",
+     "series": "EuroYen bond coupons",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "IREDA’s yen loan, hedged all-in under 7%",
+     "value": "<7%",
+     "period": "Mar 2025",
+     "period_end": "2025-03-31",
+     "publisher": "IREDA",
+     "series": "Hedged all-in cost of yen loan",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "A → AA Rating lift NaBFID’s first-loss guarantee is built to deliver",
+     "value": "A to AA",
+     "period": null,
+     "period_end": null,
+     "publisher": "NaBFID",
+     "series": "Partial Credit Enhancement Facility (rating objective)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Budget 2025-26 announced a Partial Credit Enhancement facility at NaBFID",
+     "value": "Budget 2025-26",
+     "period": "Budget 2025-26",
+     "period_end": "2025-03-31",
+     "publisher": "Government of India (MoF)",
+     "series": "Budget announcement",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "ADB PACE-FIN: $500 million risk-sharing line, co-financed with the World Bank",
+     "value": "$500 million",
+     "period": null,
+     "period_end": null,
+     "publisher": "ADB / World Bank",
+     "series": "PACE-FIN risk-sharing line",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The Bank of Japan raised its rate to 1.25% on 18 September 2026",
+     "value": "1.25%",
+     "period": "18 September 2026",
+     "period_end": "2026-09-18",
+     "publisher": "Bank of Japan",
+     "series": "Policy rate",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "The Reserve Bank of India raised its repo rate to 5.50% on 7 October 2026",
+     "value": "5.50%",
+     "period": "7 October 2026",
+     "period_end": "2026-10-07",
+     "publisher": "RBI",
+     "series": "Repo rate",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "The gap is wide: RBI at 5.25% against the Bank of Japan at 1.00%",
+     "value": "RBI: 5.25%, Bank of Japan: 1.00%",
+     "period": null,
+     "period_end": null,
+     "publisher": "RBI / Bank of Japan",
+     "series": "Policy rate differential (BIS WS_CBPOL)",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "The Bank of Japan raised its rate to 1.25% on 18 September 2026, narrowing the gap to 4.00 percentage points",
+     "value": "4.00 percentage points",
+     "period": "18 September 2026",
+     "period_end": "2026-09-18",
+     "publisher": "Bank of Japan / RBI",
+     "series": "Policy rate differential",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "₹15,000 crore of bonds, H2 FY2025-26; mainly renewables and roads",
+     "value": "₹15,000 crore",
+     "period": "H2 FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "NaBFID",
+     "series": "Partial Credit Enhancement Facility (near-term target)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Business Standard (1 Feb 2025; 30 Sep 2025) Budget announcement and target",
+     "value": "₹15,000 crore (target)",
+     "period": "30 Sep 2025",
+     "period_end": "2025-09-30",
+     "publisher": "Business Standard",
+     "series": "Budget 2025-26 announcement and target",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The 2015 bank-PCE framework produced almost no issuance",
+     "value": "almost no issuance",
+     "period": "2015",
+     "period_end": "2015-12-31",
+     "publisher": "RBI (2015 bank-PCE framework)",
+     "series": "Partial Credit Enhancement framework",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The facility became operational in 2025-26",
+     "value": "2025-26",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "NaBFID",
+     "series": "Partial Credit Enhancement Facility",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

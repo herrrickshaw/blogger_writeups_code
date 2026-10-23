@@ -1,0 +1,630 @@
+{
+ "slug": "how-to-use-cbsepaperpatterns-check",
+ "text_sha1": "48e52da03d7cf227",
+ "chars": 8927,
+ "checked": "2026-10-23T12:03:15",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "1,955 CBSE Class XII question papers (2022 to 2026)",
+     "value": "1,955 papers",
+     "period": "2022 to 2026",
+     "period_end": "2026-12-31",
+     "publisher": "CBSE",
+     "series": "CBSE Class XII question papers",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "49% Accountancy repetition index (highest)",
+     "value": "49%",
+     "period": "2022 to 2026",
+     "period_end": "2026-12-31",
+     "publisher": "CBSE_paper_patterns",
+     "series": "subject_repetition.csv",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "0% English Core repetition index",
+     "value": "0%",
+     "period": "2022 to 2026",
+     "period_end": "2026-12-31",
+     "publisher": "CBSE_paper_patterns",
+     "series": "subject_repetition.csv",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "2 content topics recurring at high marks in 4 of 5 years",
+     "value": "2 topics",
+     "period": "2022 to 2026",
+     "period_end": "2026-12-31",
+     "publisher": "CBSE_paper_patterns",
+     "series": "recurring_topics.csv",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "Accountancy 49%, Physics 44%, Economics 38% versus Chemistry and Biology at 5%.",
+     "value": "49%",
+     "period": "2022 to 2026",
+     "period_end": "2026-12-31",
+     "publisher": "CBSE_paper_patterns",
+     "series": "subject_repetition.csv",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Accountancy 49%, Physics 44%, Economics 38% versus Chemistry and Biology at 5%.",
+     "value": "44%",
+     "period": "2022 to 2026",
+     "period_end": "2026-12-31",
+     "publisher": "CBSE_paper_patterns",
+     "series": "subject_repetition.csv",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Accountancy 49%, Physics 44%, Economics 38% versus Chemistry and Biology at 5%.",
+     "value": "38%",
+     "period": "2022 to 2026",
+     "period_end": "2026-12-31",
+     "publisher": "CBSE_paper_patterns",
+     "series": "subject_repetition.csv",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Accountancy 49%, Physics 44%, Economics 38% versus Chemistry and Biology at 5%.",
+     "value": "5%",
+     "period": "2022 to 2026",
+     "period_end": "2026-12-31",
+     "publisher": "CBSE_paper_patterns",
+     "series": "subject_repetition.csv",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Accountancy 50 1,020 109 49%",
+     "value": "50",
+     "period": "2022 to 2026",
+     "period_end": "2026-12-31",
+     "publisher": "CBSE_paper_patterns",
+     "series": "subject_repetition.csv",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Accountancy 50 1,020 109 49%",
+     "value": "1,020",
+     "period": "2022 to 2026",
+     "period_end": "2026-12-31",
+     "publisher": "CBSE_paper_patterns",
+     "series": "subject_repetition.csv",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Accountancy 50 1,020 109 49%",
+     "value": "109",
+     "period": "2022 to 2026",
+     "period_end": "2026-12-31",
+     "publisher": "CBSE_paper_patterns",
+     "series": "subject_repetition.csv",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Physics 64 1,266 120 44%",
+     "value": "64",
+     "period": "2022 to 2026",
+     "period_end": "2026-12-31",
+     "publisher": "CBSE_paper_patterns",
+     "series": "subject_repetition.csv",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Physics 64 1,266 120 44%",
+     "value": "1,266",
+     "period": "2022 to 2026",
+     "period_end": "2026-12-31",
+     "publisher": "CBSE_paper_patterns",
+     "series": "subject_repetition.csv",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Physics 64 1,266 120 44%",
+     "value": "120",
+     "period": "2022 to 2026",
+     "period_end": "2026-12-31",
+     "publisher": "CBSE_paper_patterns",
+     "series": "subject_repetition.csv",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Economics 61 1,269 173 38%",
+     "value": "61",
+     "period": "2022 to 2026",
+     "period_end": "2026-12-31",
+     "publisher": "CBSE_paper_patterns",
+     "series": "subject_repetition.csv",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Economics 61 1,269 173 38%",
+     "value": "1,269",
+     "period": "2022 to 2026",
+     "period_end": "2026-12-31",
+     "publisher": "CBSE_paper_patterns",
+     "series": "subject_repetition.csv",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Economics 61 1,269 173 38%",
+     "value": "173",
+     "period": "2022 to 2026",
+     "period_end": "2026-12-31",
+     "publisher": "CBSE_paper_patterns",
+     "series": "subject_repetition.csv",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Mathematics 62 1,072 90 22%",
+     "value": "62",
+     "period": "2022 to 2026",
+     "period_end": "2026-12-31",
+     "publisher": "CBSE_paper_patterns",
+     "series": "subject_repetition.csv",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Mathematics 62 1,072 90 22%",
+     "value": "1,072",
+     "period": "2022 to 2026",
+     "period_end": "2026-12-31",
+     "publisher": "CBSE_paper_patterns",
+     "series": "subject_repetition.csv",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Mathematics 62 1,072 90 22%",
+     "value": "90",
+     "period": "2022 to 2026",
+     "period_end": "2026-12-31",
+     "publisher": "CBSE_paper_patterns",
+     "series": "subject_repetition.csv",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Business Studies 54 1,035 119 16%",
+     "value": "54",
+     "period": "2022 to 2026",
+     "period_end": "2026-12-31",
+     "publisher": "CBSE_paper_patterns",
+     "series": "subject_repetition.csv",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Business Studies 54 1,035 119 16%",
+     "value": "1,035",
+     "period": "2022 to 2026",
+     "period_end": "2026-12-31",
+     "publisher": "CBSE_paper_patterns",
+     "series": "subject_repetition.csv",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Business Studies 54 1,035 119 16%",
+     "value": "119",
+     "period": "2022 to 2026",
+     "period_end": "2026-12-31",
+     "publisher": "CBSE_paper_patterns",
+     "series": "subject_repetition.csv",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "History 67 1,569 167 16%",
+     "value": "67",
+     "period": "2022 to 2026",
+     "period_end": "2026-12-31",
+     "publisher": "CBSE_paper_patterns",
+     "series": "subject_repetition.csv",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "History 67 1,569 167 16%",
+     "value": "1,569",
+     "period": "2022 to 2026",
+     "period_end": "2026-12-31",
+     "publisher": "CBSE_paper_patterns",
+     "series": "subject_repetition.csv",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "History 67 1,569 167 16%",
+     "value": "167",
+     "period": "2022 to 2026",
+     "period_end": "2026-12-31",
+     "publisher": "CBSE_paper_patterns",
+     "series": "subject_repetition.csv",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Geography 60 1,036 229 14%",
+     "value": "60",
+     "period": "2022 to 2026",
+     "period_end": "2026-12-31",
+     "publisher": "CBSE_paper_patterns",
+     "series": "subject_repetition.csv",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Geography 60 1,036 229 14%",
+     "value": "1,036",
+     "period": "2022 to 2026",
+     "period_end": "2026-12-31",
+     "publisher": "CBSE_paper_patterns",
+     "series": "subject_repetition.csv",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Geography 60 1,036 229 14%",
+     "value": "229",
+     "period": "2022 to 2026",
+     "period_end": "2026-12-31",
+     "publisher": "CBSE_paper_patterns",
+     "series": "subject_repetition.csv",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Political Science 60 989 200 7%",
+     "value": "60",
+     "period": "2022 to 2026",
+     "period_end": "2026-12-31",
+     "publisher": "CBSE_paper_patterns",
+     "series": "subject_repetition.csv",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "1,955 Class XII papers analysed (2022-2026) 49% Accountancy repetition index (highest) 0% English Core repetition index",
+     "value": "1,955 papers (2022-2026)",
+     "period": "2022-2026",
+     "period_end": "2026-12-31",
+     "publisher": "CBSE_paper_patterns repo (author-derived analysis)",
+     "series": "Class XII CBSE question paper corpus (2022–2026)",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "Accountancy 49% Accountancy repetition index (highest)",
+     "value": "49%",
+     "period": "2022-2026",
+     "period_end": "2026-12-31",
+     "publisher": "CBSE_paper_patterns repo (author-derived analysis)",
+     "series": "Subject repetition index (high-mark questions)",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "Physics 44%",
+     "value": "44%",
+     "period": "2022-2026",
+     "period_end": "2026-12-31",
+     "publisher": "CBSE_paper_patterns repo (author-derived analysis)",
+     "series": "Subject repetition index (high-mark questions)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Economics 38%",
+     "value": "38%",
+     "period": "2022-2026",
+     "period_end": "2026-12-31",
+     "publisher": "CBSE_paper_patterns repo (author-derived analysis)",
+     "series": "Subject repetition index (high-mark questions)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Chemistry and Biology at 5%",
+     "value": "5%",
+     "period": "2022-2026",
+     "period_end": "2026-12-31",
+     "publisher": "CBSE_paper_patterns repo (author-derived analysis)",
+     "series": "Subject repetition index (high-mark questions)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Accountancy 50 1,020 109 49%",
+     "value": "50 papers",
+     "period": "2022-2026",
+     "period_end": "2026-12-31",
+     "publisher": "CBSE_paper_patterns repo (data/subject_repetition.csv)",
+     "series": "Accountancy question paper count",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Physics 64 1,266 120 44%",
+     "value": "64 papers",
+     "period": "2022-2026",
+     "period_end": "2026-12-31",
+     "publisher": "CBSE_paper_patterns repo (data/subject_repetition.csv)",
+     "series": "Physics question paper count",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Economics 61 1,269 173 38%",
+     "value": "61 papers",
+     "period": "2022-2026",
+     "period_end": "2026-12-31",
+     "publisher": "CBSE_paper_patterns repo (data/subject_repetition.csv)",
+     "series": "Economics question paper count",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "electric field 4 2023,2024,2025,2026 14 84",
+     "value": "4 years (2023–2026), 14 papers, 84 marks",
+     "period": "2023-2026",
+     "period_end": "2026-12-31",
+     "publisher": "CBSE_paper_patterns repo (data/recurring_topics.csv)",
+     "series": "Physics recurring topic (electric field)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "magnetic field 4 2023,2024,2025,2026 11 73",
+     "value": "4 years (2023–2026), 11 papers, 73 marks",
+     "period": "2023-2026",
+     "period_end": "2026-12-31",
+     "publisher": "CBSE_paper_patterns repo (data/recurring_topics.csv)",
+     "series": "Physics recurring topic (magnetic field)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "partners firm 3 2023,2025,2026 14 139",
+     "value": "3 years (2023, 2025, 2026), 14 papers, 139 marks",
+     "period": "2023, 2025, 2026",
+     "period_end": "2026-12-31",
+     "publisher": "CBSE_paper_patterns repo (data/recurring_topics.csv)",
+     "series": "Accountancy recurring topic (partners firm)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "balance sheet 3 2024,2025,2026 20 139",
+     "value": "3 years (2024–2026), 20 papers, 139 marks",
+     "period": "2024-2026",
+     "period_end": "2026-12-31",
+     "publisher": "CBSE_paper_patterns repo (data/recurring_topics.csv)",
+     "series": "Accountancy recurring topic (balance sheet)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "firm sharing profits 3 2023,2025,2026 13 121",
+     "value": "3 years (2023, 2025, 2026), 13 papers, 121 marks",
+     "period": "2023, 2025, 2026",
+     "period_end": "2026-12-31",
+     "publisher": "CBSE_paper_patterns repo (data/recurring_topics.csv)",
+     "series": "Accountancy recurring topic (firm sharing profits)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "parallel plate capacitor 3 2024,2025,2026 10 55",
+     "value": "3 years (2024–2026), 10 papers, 55 marks",
+     "period": "2024-2026",
+     "period_end": "2026-12-31",
+     "publisher": "CBSE_paper_patterns repo (data/recurring_topics.csv)",
+     "series": "Physics recurring topic (parallel plate capacitor)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "refractive index 3 2024,2025,2026 8 54",
+     "value": "3 years (2024–2026), 8 papers, 54 marks",
+     "period": "2024-2026",
+     "period_end": "2026-12-31",
+     "publisher": "CBSE_paper_patterns repo (data/recurring_topics.csv)",
+     "series": "Physics recurring topic (refractive index)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "field due 3 2024,2025,2026 7 35",
+     "value": "3 years (2024–2026), 7 papers, 35 marks",
+     "period": "2024-2026",
+     "period_end": "2026-12-31",
+     "publisher": "CBSE_paper_patterns repo (data/recurring_topics.csv)",
+     "series": "Physics recurring topic (field due)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "firm was dissolved 3 2022,2025,2026 7 41",
+     "value": "3 years (2022, 2025, 2026), 7 papers, 41 marks",
+     "period": "2022, 2025, 2026",
+     "period_end": "2026-12-31",
+     "publisher": "CBSE_paper_patterns repo (data/recurring_topics.csv)",
+     "series": "Accountancy recurring topic (firm was dissolved)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "2 to 4 word phrases that recur across at least three exam years in high-mark questions",
+     "value": "≥3 exam years",
+     "period": null,
+     "period_end": null,
+     "publisher": "CBSE_paper_patterns repo (methodology)",
+     "series": "Lexical repetition criteria",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "8 files still lack text",
+     "value": "8 files",
+     "period": null,
+     "period_end": null,
+     "publisher": "CBSE_paper_patterns repo (caveats)",
+     "series": "Missing text in corpus",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The repo explains this measures repeated wording, not repeated concepts.",
+     "value": "Lexical repetition (not conceptual)",
+     "period": null,
+     "period_end": null,
+     "publisher": "CBSE_paper_patterns repo (README/analysis)",
+     "series": "Methodological note on repetition index",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Chemistry and Biology are understated",
+     "value": "Chemistry/Biology understated",
+     "period": null,
+     "period_end": null,
+     "publisher": "CBSE_paper_patterns repo (caveats)",
+     "series": "Subject-specific bias note",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Marks across the full archive are regex-parsed and approximate; only the 32-paper subset is checked against stated maximums.",
+     "value": "32-paper subset verified",
+     "period": null,
+     "period_end": null,
+     "publisher": "CBSE_paper_patterns repo (caveats)",
+     "series": "Marks validation note",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Hindi-medium and image-only papers are only partly recovered; 8 files still lack text.",
+     "value": "8 files missing text",
+     "period": null,
+     "period_end": null,
+     "publisher": "CBSE_paper_patterns repo (caveats)",
+     "series": "Corpus recovery rate",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The repo's description says papers are not redistributed, but the README says the corpus Markdown of CBSE question papers is included for research use under a take-down offer.",
+     "value": "Corpus available under take-down offer",
+     "period": null,
+     "period_end": null,
+     "publisher": "CBSE_paper_patterns repo (README)",
+     "series": "Corpus licensing note",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "git clone --depth 1 https://github.com/herrrickshaw/CBSE_paper_patterns.git",
+     "value": "246 MB (shallow clone)",
+     "period": null,
+     "period_end": null,
+     "publisher": "GitHub repo metadata",
+     "series": "Repository size",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The 6 GB corpus download, the parsing scripts and the OCR step were not run.",
+     "value": "6 GB corpus (not processed)",
+     "period": null,
+     "period_end": null,
+     "publisher": "CBSE_paper_patterns repo (caveats)",
+     "series": "Corpus size note",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Only the top rows were re-derived from the CSV; the rest were read as printed.",
+     "value": "Top rows re-derived from CSV",
+     "period": null,
+     "period_end": null,
+     "publisher": "CBSE_paper_patterns repo (methodology)",
+     "series": "Data derivation note",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Read the repetition index by subject: Accountancy 49%, Physics 44%, Economics 38% versus Chemistry and Biology at 5%.",
+     "value": "Accountancy: 49%, Physics: 44%, Economics: 38%, Chemistry/Biology: 5%",
+     "period": "2022-2026",
+     "period_end": "2026-12-31",
+     "publisher": "CBSE_paper_patterns repo (derived analysis)",
+     "series": "Subject repetition index comparison",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "2 content topics recurring at high marks in 4 of 5 years",
+     "value": "2 topics recurring in 4/5 years",
+     "period": "2022-2026",
+     "period_end": "2026-12-31",
+     "publisher": "CBSE_paper_patterns repo (headline)",
+     "series": "Topic recurrence frequency",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "The repo was read and filtered on 19 October 2026 from a fresh clone.",
+     "value": "19 October 2026",
+     "period": "19 October 2026",
+     "period_end": "2026-10-19",
+     "publisher": "CBSE_paper_patterns repo (sources)",
+     "series": "Data extraction timestamp",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "v1.0.0 — 28 October 2026 — first published.",
+     "value": "28 October 2026",
+     "period": "28 October 2026",
+     "period_end": "2026-10-28",
+     "publisher": "CBSE_paper_patterns repo (revision history)",
+     "series": "Article publication date",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

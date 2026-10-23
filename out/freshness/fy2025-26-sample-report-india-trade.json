@@ -1,0 +1,620 @@
+{
+ "slug": "fy2025-26-sample-report-india-trade",
+ "text_sha1": "1b61503a33ea9bfc",
+ "chars": 12469,
+ "checked": "2026-10-23T11:44:35",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "441,745.9 \n Exports",
+     "value": "441,745.9 US$ Million",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "TRADESTAT",
+     "series": "Merchandise trade",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "776,013.7 \n Imports",
+     "value": "776,013.7 US$ Million",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "TRADESTAT",
+     "series": "Merchandise trade",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "334,267.7 \n Deficit",
+     "value": "334,267.7 US$ Million",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "TRADESTAT",
+     "series": "Merchandise trade",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "Merchandise exports 441,745.9 TRADESTAT figure",
+     "value": "441,745.9 US$ Million",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "TRADESTAT",
+     "series": "Merchandise exports",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Merchandise imports 776,013.7 Confirmed across all 3 independent sources",
+     "value": "776,013.7 US$ Million",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "TRADESTAT",
+     "series": "Merchandise imports",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Merchandise deficit 334,267.7 PIB's figure: -333,190.0",
+     "value": "334,267.7 US$ Million",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "PIB",
+     "series": "Merchandise deficit",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "GDP growth (real, FAE) +7%",
+     "value": "+7%",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "MoSPI",
+     "series": "First Advance Estimate GDP growth",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "current-account deficit of $25.2 billion (0.6% of GDP), against $22.9 billion in FY2024-25",
+     "value": "$25.2 billion",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "RBI",
+     "series": "Current-account deficit",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "against $22.9 billion in FY2024-25",
+     "value": "$22.9 billion",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "RBI",
+     "series": "Current-account deficit",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "with a surplus of $7.1 billion in January to March 2026",
+     "value": "$7.1 billion",
+     "period": "January to March 2026",
+     "period_end": "2026-03-31",
+     "publisher": "RBI",
+     "series": "Current-account surplus",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "Net services receipts in that quarter were $60.4 billion, up from $53.3 billion a year earlier",
+     "value": "$60.4 billion",
+     "period": "January to March 2026",
+     "period_end": "2026-03-31",
+     "publisher": "RBI",
+     "series": "Net services receipts",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "up from $53.3 billion a year earlier",
+     "value": "$53.3 billion",
+     "period": "January to March 2025",
+     "period_end": "2025-03-31",
+     "publisher": "RBI",
+     "series": "Net services receipts",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "TRADESTAT (this repo's primary source) | 441,745.9 | 776,013.7 | -334,267.7",
+     "value": "441,745.9 US$ Million",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "TRADESTAT",
+     "series": "Merchandise trade",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "TIA Portal (Dept. of Commerce) | 451,070.0 | 776,013.65 | -324,943.7",
+     "value": "451,070.0 US$ Million",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Dept. of Commerce",
+     "series": "TIA Portal Merchandise Exports",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "PIB press release | 441,780.0 | 774,970.0 | -333,190.0",
+     "value": "441,780.0 US$ Million",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "PIB",
+     "series": "PIB Merchandise Exports",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "PLI Auto & Auto Components | 25,938 | FY22-23–FY24-25 | 82.61 | 3,139.8",
+     "value": "25,938 ₹ Crore",
+     "period": "FY22-23–FY24-25",
+     "period_end": "2025-03-31",
+     "publisher": "PIB / ministry",
+     "series": "PLI Auto & Auto Components",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "PLI ACC Battery Storage | 18,100 | FY21-22–FY24-25 | 80.58 | 2,246.1",
+     "value": "18,100 ₹ Crore",
+     "period": "FY21-22–FY24-25",
+     "period_end": "2025-03-31",
+     "publisher": "PIB / ministry",
+     "series": "PLI ACC Battery Storage",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "PLI Bulk Drugs | 6,940 | FY22-23–FY24-25 | 82.61 | 840.1",
+     "value": "6,940 ₹ Crore",
+     "period": "FY22-23–FY24-25",
+     "period_end": "2025-03-31",
+     "publisher": "PIB / ministry",
+     "series": "PLI Bulk Drugs",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "PLI Textiles (MMF) | 10,683 | FY21-22–FY24-25 | 80.58 | 1,325.7",
+     "value": "10,683 ₹ Crore",
+     "period": "FY21-22–FY24-25",
+     "period_end": "2025-03-31",
+     "publisher": "PIB / ministry",
+     "series": "PLI Textiles (MMF)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "PLI Specialty Steel 1.0/1.1 ‡ | 6,322 | FY21-22–FY24-25 | 80.58 | 784.6",
+     "value": "6,322 ₹ Crore",
+     "period": "FY21-22–FY24-25",
+     "period_end": "2025-03-31",
+     "publisher": "PIB / ministry",
+     "series": "PLI Specialty Steel 1.0/1.1",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "PLI Specialty Steel 1.2 | 11,887 | FY24-25 only † | 84.68 | 1,403.8",
+     "value": "11,887 ₹ Crore",
+     "period": "FY24-25",
+     "period_end": "2025-03-31",
+     "publisher": "PIB / ministry",
+     "series": "PLI Specialty Steel 1.2",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "PLI White Goods (committed) | 11,198 | FY21-22–FY24-25 | 80.58 | 1,389.6",
+     "value": "11,198 ₹ Crore",
+     "period": "FY21-22–FY24-25",
+     "period_end": "2025-03-31",
+     "publisher": "PIB / ministry",
+     "series": "PLI White Goods (committed)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "PLI White Goods (production target) | 190,050 | FY21-22–FY24-25 | 80.58 | 23,584.5",
+     "value": "190,050 ₹ Crore",
+     "period": "FY21-22–FY24-25",
+     "period_end": "2025-03-31",
+     "publisher": "PIB / ministry",
+     "series": "PLI White Goods (production target)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "PLI total cumulative outlay, 14 sectors (Dec 2025) | 197,000 | FY19-20–FY24-25 | 77.91 | 25,285.6",
+     "value": "197,000 ₹ Crore",
+     "period": "FY19-20–FY24-25",
+     "period_end": "2025-03-31",
+     "publisher": "PIB / ministry",
+     "series": "PLI total cumulative outlay, 14 sectors",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "USD/INR spot rate | 96.3665 | 2026-07-17 | current",
+     "value": "96.3665",
+     "period": "2026-07-17",
+     "period_end": "2026-07-17",
+     "publisher": "RBI",
+     "series": "USD/INR spot rate",
+     "frequency": "daily",
+     "headline": false
+    },
+    {
+     "quote": "USD/INR FY2024-25 average | 84.68 | FY2024-25 | last completed FY avg",
+     "value": "84.68",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "RBI",
+     "series": "USD/INR FY average",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Forex reserves (MoSPI connector) | 698,100.0 | 2025-06 | 13 months stale",
+     "value": "698,100.0 US$M",
+     "period": "June 2025",
+     "period_end": "2025-06-30",
+     "publisher": "MoSPI",
+     "series": "Forex reserves",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Forex reserves (RBI weekly scrape) | 675,157.0 | 2026-07-10 | current, use this one",
+     "value": "675,157.0 US$M",
+     "period": "2026-07-10",
+     "period_end": "2026-07-10",
+     "publisher": "RBI",
+     "series": "Forex reserves",
+     "frequency": "weekly",
+     "headline": false
+    },
+    {
+     "quote": "Forex reserves, all-time peak | 728,494.0 | 2026-02-27 | confirmed peak",
+     "value": "728,494.0 US$M",
+     "period": "2026-02-27",
+     "period_end": "2026-02-27",
+     "publisher": "RBI",
+     "series": "Forex reserves",
+     "frequency": "weekly",
+     "headline": false
+    },
+    {
+     "quote": "India's blended goods+services trade reached $1.84 trillion in FY2025-26",
+     "value": "$1.84 trillion",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "NITI Aayog",
+     "series": "Blended goods+services trade",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "NITI Aayog's pharma-sector thematic figure ($35.8bn pharma+API exports)",
+     "value": "$35.8 billion",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "NITI Aayog",
+     "series": "Pharma+API exports",
+     "frequency": "quarterly",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "India's trade, currency & policy snapshot for FY2025-26 — every figure in one unit India Merchandise Trade — FY2025-26 US$ Million, TRADESTAT baseline (PIB agrees within 0.3%) 441,745.9 Exports 776,013.7 Imports 334,267.7 Deficit",
+     "value": "441,745.9 US$ million (Exports)",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "TRADESTAT (MoSPI)",
+     "series": "TRADESTAT baseline merchandise exports",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "India's trade, currency & policy snapshot for FY2025-26 — every figure in one unit India Merchandise Trade — FY2025-26 US$ Million, TRADESTAT baseline (PIB agrees within 0.3%) 441,745.9 Exports 776,013.7 Imports 334,267.7 Deficit",
+     "value": "776,013.7 US$ million (Imports)",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "TRADESTAT (MoSPI)",
+     "series": "TRADESTAT baseline merchandise imports",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "India's trade, currency & policy snapshot for FY2025-26 — every figure in one unit India Merchandise Trade — FY2025-26 US$ Million, TRADESTAT baseline (PIB agrees within 0.3%) 441,745.9 Exports 776,013.7 Imports 334,267.7 Deficit",
+     "value": "334,267.7 US$ million (Deficit)",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "TRADESTAT (MoSPI)",
+     "series": "TRADESTAT baseline merchandise trade deficit",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Merchandise exports 441,745.9 TRADESTAT figure; PIB agrees to within 0.01%",
+     "value": "441,745.9 US$ million (Exports)",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "TRADESTAT / PIB",
+     "series": "Merchandise exports",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Merchandise imports 776,013.7 Confirmed across all 3 independent sources",
+     "value": "776,013.7 US$ million (Imports)",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "TRADESTAT / TIA Portal / PIB",
+     "series": "Merchandise imports",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Merchandise deficit 334,267.7 PIB's figure: -333,190.0 (0.3% narrower)",
+     "value": "333,190.0 US$ million (Deficit, PIB)",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "PIB",
+     "series": "Merchandise trade deficit",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "TIA Portal (Dept. of Commerce) | 451,070.0 | Exports",
+     "value": "451,070.0 US$ million (Exports, TIA Portal)",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "TIA Portal (DPIIT)",
+     "series": "TIA Portal merchandise exports",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "PIB press release | 441,780.0 | Exports",
+     "value": "441,780.0 US$ million (Exports, PIB)",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "PIB",
+     "series": "PIB press release exports",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "RBI's balance-of-payments data now cover all of FY2025-26... current-account deficit of $25.2 billion (0.6% of GDP)",
+     "value": "25.2 billion US$ (Current-Account Deficit)",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "RBI",
+     "series": "Balance-of-Payments data",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "current-account deficit of $25.2 billion... against $22.9 billion in FY2024-25",
+     "value": "22.9 billion US$ (Current-Account Deficit, FY2024-25)",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "RBI",
+     "series": "Balance-of-Payments data",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "with a surplus of $7.1 billion in January to March 2026",
+     "value": "7.1 billion US$ (Surplus, Jan-Mar 2026)",
+     "period": "Jan-Mar 2026",
+     "period_end": "2026-03-31",
+     "publisher": "RBI",
+     "series": "Balance-of-Payments data",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "Net services receipts in that quarter were $60.4 billion, up from $53.3 billion a year earlier",
+     "value": "60.4 billion US$ (Net services receipts, Jan-Mar 2026)",
+     "period": "Jan-Mar 2026",
+     "period_end": "2026-03-31",
+     "publisher": "Outlook Business",
+     "series": "Services trade receipts",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "Net services receipts in that quarter were $60.4 billion... $53.3 billion a year earlier",
+     "value": "53.3 billion US$ (Net services receipts, Jan-Mar 2025)",
+     "period": "Jan-Mar 2025",
+     "period_end": "2025-03-31",
+     "publisher": "Outlook Business",
+     "series": "Services trade receipts",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "GDP growth (real, FAE) +7% First Advance Estimate — MoSPI's Provisional Estimate",
+     "value": "+7% (Real GDP growth, FAE)",
+     "period": null,
+     "period_end": null,
+     "publisher": "MoSPI",
+     "series": "First Advance Estimate of GDP growth",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "USD/INR spot rate | 96.3665 | 2026-07-17",
+     "value": "96.3665 (USD/INR spot rate)",
+     "period": "2026-07-17",
+     "period_end": "2026-07-17",
+     "publisher": "RBI",
+     "series": "USD/INR exchange rate",
+     "frequency": "daily",
+     "headline": false
+    },
+    {
+     "quote": "USD/INR FY2024-25 average | 84.68 | FY2024-25",
+     "value": "84.68 (USD/INR average, FY2024-25)",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "RBI",
+     "series": "FY average USD/INR exchange rate",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Forex reserves (MoSPI connector) | 698,100.0 | 2025-06",
+     "value": "698,100.0 US$ million (Forex reserves)",
+     "period": "2025-06",
+     "period_end": "2025-06-30",
+     "publisher": "MoSPI",
+     "series": "Forex reserves via MoSPI connector",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Forex reserves (RBI weekly scrape) | 675,157.0 | 2026-07-10",
+     "value": "675,157.0 US$ million (Forex reserves)",
+     "period": "2026-07-10",
+     "period_end": "2026-07-10",
+     "publisher": "RBI",
+     "series": "Forex reserves via RBI Weekly Statistical Supplement",
+     "frequency": "weekly",
+     "headline": false
+    },
+    {
+     "quote": "Forex reserves, all-time peak | 728,494.0 | 2026-02-27",
+     "value": "728,494.0 US$ million (Forex reserves peak)",
+     "period": "2026-02-27",
+     "period_end": "2026-02-27",
+     "publisher": "RBI",
+     "series": "Forex reserves",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "PLI Auto & Auto Components | 25,938 | FY22-23–FY24-25 | 82.61 | 3,139.8",
+     "value": "3,139.8 US$ million (PLI Auto & Auto Components)",
+     "period": "FY22-23–FY24-25",
+     "period_end": "2025-03-31",
+     "publisher": "DPIIT",
+     "series": "PLI scheme funding",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "PLI ACC Battery Storage | 18,100 | FY21-22–FY24-25 | 80.58 | 2,246.1",
+     "value": "2,246.1 US$ million (PLI ACC Battery Storage)",
+     "period": "FY21-22–FY24-25",
+     "period_end": "2025-03-31",
+     "publisher": "DPIIT",
+     "series": "PLI scheme funding",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "PLI Bulk Drugs | 6,940 | FY22-23–FY24-25 | 82.61 | 840.1",
+     "value": "840.1 US$ million (PLI Bulk Drugs)",
+     "period": "FY22-23–FY24-25",
+     "period_end": "2025-03-31",
+     "publisher": "DPIIT",
+     "series": "PLI scheme funding",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "PLI Specialty Steel 1.2 | 11,887 | FY24-25 only | 84.68 | 1,403.8",
+     "value": "1,403.8 US$ million (PLI Specialty Steel 1.2)",
+     "period": "FY24-25",
+     "period_end": "2025-03-31",
+     "publisher": "DPIIT",
+     "series": "PLI scheme funding",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "PLI total cumulative outlay, 14 sectors (Dec 2025) | 197,000 | FY19-20–FY24-25 | 77.91 | 25,285.6",
+     "value": "25,285.6 US$ million (PLI total cumulative outlay)",
+     "period": "FY19-20–FY24-25",
+     "period_end": "2025-03-31",
+     "publisher": "DPIIT",
+     "series": "PLI cumulative outlay",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "India's blended goods+services trade reached $1.84 trillion in FY2025-26 (exports +4.2%, imports +6.5% y-o-y)",
+     "value": "1.84 trillion US$ (Blended goods+services trade)",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "NITI Aayog",
+     "series": "Trade Watch Quarterly",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "India's blended goods+services trade reached $1.84 trillion... exports +4.2%",
+     "value": "+4.2% (Exports growth, y-o-y)",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "NITI Aayog",
+     "series": "Trade Watch Quarterly",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "India's blended goods+services trade reached $1.84 trillion... imports +6.5%",
+     "value": "+6.5% (Imports growth, y-o-y)",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "NITI Aayog",
+     "series": "Trade Watch Quarterly",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "NITI Aayog's pharma-sector thematic figure ($35.8bn pharma+API exports)",
+     "value": "35.8 billion US$ (Pharma+API exports)",
+     "period": null,
+     "period_end": null,
+     "publisher": "NITI Aayog",
+     "series": "Pharma sector thematic figure",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "this repo's own HS30-only figure ($25,073.4M)",
+     "value": "25,073.4 US$ million (HS30-only pharma exports)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Internal report",
+     "series": "HS30 pharma exports",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,190 @@
+{
+ "slug": "how-to-use-cbg-design-opensource-size",
+ "text_sha1": "80e1d8dc1bf8b6fc",
+ "chars": 6840,
+ "checked": "2026-10-23T12:02:43",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "32 tests passed in the demo",
+     "value": "32 tests",
+     "period": "18 October 2026",
+     "period_end": "2026-10-18",
+     "publisher": "cbg-design-opensource",
+     "series": "test suite",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "225 t/day feedstock in the worked example",
+     "value": "225 t/day",
+     "period": "18 October 2026",
+     "period_end": "2026-10-18",
+     "publisher": "cbg-design-opensource",
+     "series": "worked example feedstock",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "10.14 t/day CBG from a pure dung feed vs 10 published",
+     "value": "10.14 t/day",
+     "period": "18 October 2026",
+     "period_end": "2026-10-18",
+     "publisher": "cbg-design-opensource",
+     "series": "CBG output from pure dung feed",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "29.31 t/day CBG from pure straw, 2.93x the published figure",
+     "value": "29.31 t/day",
+     "period": "18 October 2026",
+     "period_end": "2026-10-18",
+     "publisher": "cbg-design-opensource",
+     "series": "CBG output from pure straw feed",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "49,102 Nm3/day raw biogas at 50.4% CH4",
+     "value": "49,102 Nm3/day",
+     "period": "18 October 2026",
+     "period_end": "2026-10-18",
+     "publisher": "cbg-design-opensource",
+     "series": "raw biogas output (50/50 split)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "upgrading to 98.0% CH4 that meets IS 16087",
+     "value": "98.0%",
+     "period": "18 October 2026",
+     "period_end": "2026-10-18",
+     "publisher": "BIS",
+     "series": "IS 16087 gas standard",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "about 583 kW",
+     "value": "583 kW",
+     "period": "18 October 2026",
+     "period_end": "2026-10-18",
+     "publisher": "cbg-design-opensource",
+     "series": "upgrading power requirement",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "4-stage compression to 250 bar at about 277 kW",
+     "value": "277 kW",
+     "period": "18 October 2026",
+     "period_end": "2026-10-18",
+     "publisher": "cbg-design-opensource",
+     "series": "compression power requirement",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "609 m3/day of digestate",
+     "value": "609 m3/day",
+     "period": "18 October 2026",
+     "period_end": "2026-10-18",
+     "publisher": "cbg-design-opensource",
+     "series": "digestate output",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "225 t/day feedstock in the worked example (Barsana Phase I scale)",
+     "value": "225 tonnes/day",
+     "period": null,
+     "period_end": null,
+     "publisher": "Barsana Phase I (published plant, referenced in article)",
+     "series": "SATAT scheme plant feedstock input (Barsana Phase I)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "about 10 tonnes a day of CBG. ... 10.14 t/day CBG from a pure dung feed vs 10 published",
+     "value": "10 tonnes/day",
+     "period": null,
+     "period_end": null,
+     "publisher": "Barsana Phase I (published plant, referenced in article)",
+     "series": "SATAT scheme plant CBG output (pure dung feedstock)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "29.31 t/day CBG from pure straw, 2.93x the published figure",
+     "value": "29.31 tonnes/day",
+     "period": null,
+     "period_end": null,
+     "publisher": "Published literature (article citation)",
+     "series": "SATAT scheme plant CBG output (pure straw feedstock)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "49,102 Nm3/day raw biogas at 50.4% CH4, upgrading to 98.0% CH4 that meets IS 16087",
+     "value": "49,102 Nm³/day (raw biogas) at 50.4% CH4; upgraded to 98.0% CH4",
+     "period": null,
+     "period_end": null,
+     "publisher": "Literature correlations (article citation)",
+     "series": "CBG plant biogas production and upgrading (50/50 dung-straw mix)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "about 583 kW",
+     "value": "583 kilowatts",
+     "period": null,
+     "period_end": null,
+     "publisher": "Literature correlations (article citation)",
+     "series": "CBG plant power output (upgraded biogas)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "4-stage compression to 250 bar at about 277 kW",
+     "value": "277 kilowatts",
+     "period": null,
+     "period_end": null,
+     "publisher": "Literature correlations (article citation)",
+     "series": "CBG plant compression energy consumption (250 bar)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "609 m³/day of digestate",
+     "value": "609 cubic meters/day",
+     "period": null,
+     "period_end": null,
+     "publisher": "Literature correlations (article citation)",
+     "series": "CBG plant digestate output (50/50 dung-straw mix)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "32 tests passed in the demo",
+     "value": "32 tests",
+     "period": "18 Oct 2026",
+     "period_end": "2026-10-18",
+     "publisher": "cbg-design-opensource (article author)",
+     "series": "Test suite validation results",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

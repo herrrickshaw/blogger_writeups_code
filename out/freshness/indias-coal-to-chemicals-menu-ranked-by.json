@@ -1,0 +1,710 @@
+{
+ "slug": "indias-coal-to-chemicals-menu-ranked-by",
+ "text_sha1": "c489e481e146fc8f",
+ "chars": 44435,
+ "checked": "2026-10-23T13:55:42",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "India's import bill for LNG, urea, ammonium nitrate, ammonia, coking coal, methanol, DME and related products stood at approximately ₹2.77 lakh crore in FY2025",
+     "value": "₹2.77 lakh crore",
+     "period": "FY2025",
+     "period_end": "2025-03-31",
+     "publisher": "PIB / ministry",
+     "series": "Cabinet press release on Surface Coal/Lignite Gasification Projects",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "India's National Coal Gasification Mission targets 100 million tonnes of coal gasification capacity by 2030.",
+     "value": "100 million tonnes",
+     "period": "2030",
+     "period_end": "2030-12-31",
+     "publisher": "PIB / ministry",
+     "series": "National Coal Gasification Mission targets",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "As of the most recent reporting, roughly 22.6 million tonnes per annum is operational or under implementation — about 23% of the 2030 target",
+     "value": "22.6 million tonnes per annum",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "PIB / ministry",
+     "series": "National Coal Gasification Mission capacity reporting",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "the ₹8,500 crore Scheme for Promotion of Coal/Lignite Gasification, sanctioned in January 2024 (7 of those 8 projects finalised, 3 with bhoomi pujan completed, as of April 2026)",
+     "value": "₹8,500 crore",
+     "period": "January 2024",
+     "period_end": "2024-01-31",
+     "publisher": "PIB / ministry",
+     "series": "Scheme for Promotion of Coal/Lignite Gasification",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "the ₹37,500 crore is a second, larger, separate Scheme for Promotion of Surface Coal/Lignite Gasification Projects, Cabinet-approved on 13 May 2026, targeting an additional 75 million tonnes of coal/lignite gasification",
+     "value": "₹37,500 crore",
+     "period": "13 May 2026",
+     "period_end": "2026-05-13",
+     "publisher": "PIB / ministry",
+     "series": "Scheme for Promotion of Surface Coal/Lignite Gasification Projects",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "representative e-auction prices for non-coking coal have run around ₹1,800–1,900 a tonne for mid-grade coal in early-to-mid 2026",
+     "value": "₹1,800–1,900 a tonne",
+     "period": "early-to-mid 2026",
+     "period_end": "2026-06-30",
+     "publisher": "CEIC",
+     "series": "e-auction non-coking coal representative-price series",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "a fraction of the roughly ₹9,000–11,600 a tonne landed cost of imported sub-bituminous or thermal coal.",
+     "value": "₹9,000–11,600 a tonne",
+     "period": "early-to-mid 2026",
+     "period_end": "2026-06-30",
+     "publisher": "trade-press reporting",
+     "series": "imported sub-bituminous or thermal coal landed cost",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Ammonia ~100% imported, urea ~20% imported (per Cabinet's own May 2026 figures)",
+     "value": "~20% imported",
+     "period": "May 2026",
+     "period_end": "2026-05-31",
+     "publisher": "PIB / ministry",
+     "series": "Cabinet press release",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Ammonia ~$428/t; urea spot spikes toward $700/t in supply shocks",
+     "value": "$428/t",
+     "period": "early-to-mid 2026",
+     "period_end": "2026-06-30",
+     "publisher": "Intratec / ChemAnalyst / Argus Media",
+     "series": "global commodity pricing aggregators",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Methanol >90% imported",
+     "value": ">90%",
+     "period": "early-to-mid 2026",
+     "period_end": "2026-06-30",
+     "publisher": "Intratec / ChemAnalyst / IMARC",
+     "series": "import-dependence series",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Methanol ~$298/t (2025 average)",
+     "value": "$298/t",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "Intratec / ChemAnalyst / IMARC",
+     "series": "global methanol price average",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Coal India–GAIL SNG JV (₹13,052.81 crore)",
+     "value": "₹13,052.81 crore",
+     "period": "August 2024",
+     "period_end": "2024-08-31",
+     "publisher": "PIB / ministry",
+     "series": "CIL-GAIL SNG joint venture cost",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "MEG ~$550–665/t (Q1–Q2 2026 global)",
+     "value": "$550–665/t",
+     "period": "Q1-Q2 2026",
+     "period_end": "2026-06-30",
+     "publisher": "Intratec / ChemAnalyst / trade reporting",
+     "series": "global MEG price",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "PE global reference price ~$1,420–1,450/t in early 2026",
+     "value": "$1,420–1,450/t",
+     "period": "early 2026",
+     "period_end": "2026-03-31",
+     "publisher": "global commodity reference",
+     "series": "PE global reference price",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "BCGCL ammonium-nitrate JV (now costed at over ₹25,000 crore, up from ₹11,782 crore at 2024 JVA signing)",
+     "value": "₹11,782 crore",
+     "period": "February 2024",
+     "period_end": "2024-02-28",
+     "publisher": "PIB / ministry",
+     "series": "BCGCL project cost at JVA signing",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "from ₹11,782 crore at signing to a precise ₹25,016 crore in the PM's Office's own pre-event release",
+     "value": "₹25,016 crore",
+     "period": "June 2026",
+     "period_end": "2026-06-19",
+     "publisher": "PIB / ministry",
+     "series": "PMO pre-event release project cost",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The plant is designed to produce 0.66 million tonnes a year (2,000 tonnes a day) of technical-grade ammonium nitrate",
+     "value": "0.66 million tonnes a year",
+     "period": "June 2026",
+     "period_end": "2026-06-20",
+     "publisher": "PIB / ministry",
+     "series": "BCGCL project capacity",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "fed by 0.79 million tonnes a year of washed coal plus 1.19 million tonnes a year of reject coal from MCL's Ib Valley washery",
+     "value": "0.79 million tonnes a year",
+     "period": "June 2026",
+     "period_end": "2026-06-20",
+     "publisher": "PIB / ministry",
+     "series": "BCGCL washed coal input",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "fed by 0.79 million tonnes a year of washed coal plus 1.19 million tonnes a year of reject coal from MCL's Ib Valley washery",
+     "value": "1.19 million tonnes a year",
+     "period": "June 2026",
+     "period_end": "2026-06-20",
+     "publisher": "PIB / ministry",
+     "series": "BCGCL reject coal input",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "a ₹1,350 crore financial incentive from the Ministry of Coal.",
+     "value": "₹1,350 crore",
+     "period": "December 2024",
+     "period_end": "2024-12-12",
+     "publisher": "PIB / ministry",
+     "series": "Ministry of Coal financial incentive letter of award",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "targeting 1.83 million standard cubic metres a day (80,000 Nm³/hour, 633.6 million Nm³ a year) of SNG at a cost of ₹13,052.81 crore",
+     "value": "1.83 million standard cubic metres a day",
+     "period": "August 2024",
+     "period_end": "2024-08-06",
+     "publisher": "PIB / ministry",
+     "series": "CGIL Sonepur Bazari SNG capacity",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "(CIL's own equity share, ₹1,997.08 crore at a 70:30 debt-equity ratio)",
+     "value": "₹1,997.08 crore",
+     "period": "August 2024",
+     "period_end": "2024-08-06",
+     "publisher": "PIB / ministry",
+     "series": "CIL equity share for CGIL SNG project",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "a ₹12,214 crore, 633.6 million Nm³/year synthetic natural gas project",
+     "value": "₹12,214 crore",
+     "period": "December 2024",
+     "period_end": "2024-12-02",
+     "publisher": "PSU Watch / trade reporting",
+     "series": "CIL-BPCL SNG project cost",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "A near-identically costed SNG project (₹12,214.86 crore, also 1.83 MMSCMD)",
+     "value": "₹12,214.86 crore",
+     "period": "December 2024",
+     "period_end": "2024-12-12",
+     "publisher": "PIB / ministry",
+     "series": "Niljai Ext. OC Wani Area SNG project cost",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "that ₹667 crore, 18 KTPA coal-to-ethanol demonstration unit (capturing roughly 20,144 tonnes of CO₂ a year via CCUS)",
+     "value": "₹667 crore",
+     "period": "December 2024",
+     "period_end": "2024-12-12",
+     "publisher": "PIB / ministry",
+     "series": "New Era Cleantech coal-to-ethanol unit cost",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "that ₹667 crore, 18 KTPA coal-to-ethanol demonstration unit",
+     "value": "18 KTPA",
+     "period": "December 2024",
+     "period_end": "2024-12-12",
+     "publisher": "PIB / ministry",
+     "series": "New Era Cleantech coal-to-ethanol capacity",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "(capturing roughly 20,144 tonnes of CO₂ a year via CCUS)",
+     "value": "20,144 tonnes of CO₂ a year",
+     "period": "December 2024",
+     "period_end": "2024-12-12",
+     "publisher": "PIB / ministry",
+     "series": "New Era Cleantech CO2 capture volume",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "a total investment of ₹20,000 crore across two phases",
+     "value": "₹20,000 crore",
+     "period": "March 2026",
+     "period_end": "2026-03-15",
+     "publisher": "The Live Nagpur / trade reporting",
+     "series": "New Era Cleantech Bhadravati complex investment",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "A separate PIB-disclosed Category-II incentive of ₹1,000 crore, against a ₹6,976 crore project cost, for New Era Cleantech ammonium-nitrate and hydrogen capacity (0.33 MMTPA and 0.1 MMTPA respectively)",
+     "value": "₹1,000 crore",
+     "period": "December 2024",
+     "period_end": "2024-12-12",
+     "publisher": "PIB / ministry",
+     "series": "Category-II incentive award for New Era Cleantech",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "against a ₹6,976 crore project cost",
+     "value": "₹6,976 crore",
+     "period": "December 2024",
+     "period_end": "2024-12-12",
+     "publisher": "PIB / ministry",
+     "series": "New Era Cleantech ammonium-nitrate/hydrogen project cost",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "New Era Cleantech ammonium-nitrate and hydrogen capacity (0.33 MMTPA and 0.1 MMTPA respectively)",
+     "value": "0.33 MMTPA",
+     "period": "December 2024",
+     "period_end": "2024-12-12",
+     "publisher": "PIB / ministry",
+     "series": "New Era Cleantech ammonium-nitrate capacity",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "New Era Cleantech ammonium-nitrate and hydrogen capacity (0.33 MMTPA and 0.1 MMTPA respectively)",
+     "value": "0.1 MMTPA",
+     "period": "December 2024",
+     "period_end": "2024-12-12",
+     "publisher": "PIB / ministry",
+     "series": "New Era Cleantech hydrogen capacity",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "a five-year, ₹20,000 crore Union Budget 2026-27 outlay covering CCUS technology deployment",
+     "value": "₹20,000 crore",
+     "period": "Union Budget 2026-27",
+     "period_end": "2027-03-31",
+     "publisher": "Union Budget / Ministry of Finance",
+     "series": "national CCUS Mission budget outlay",
+     "frequency": "multi-year",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "representative e-auction prices for non-coking coal have run around ₹1,800–1,900 a tonne for mid-grade coal in early-to-mid 2026",
+     "value": "₹1,800–1,900/tonne",
+     "period": "early-to-mid 2026",
+     "period_end": "2026-06-30",
+     "publisher": "CEIC (via trade-press reporting)",
+     "series": "Non-coking coal e-auction prices",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "landed cost of imported sub-bituminous or thermal coal roughly ₹9,000–11,600 a tonne",
+     "value": "₹9,000–11,600/tonne",
+     "period": "as of article (2026)",
+     "period_end": null,
+     "publisher": "CEIC (via trade-press reporting)",
+     "series": "Imported coal landed cost",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "ammonia ~100% imported, urea ~20% imported (per Cabinet's own May 2026 figures)",
+     "value": "ammonia: 100% imported; urea: 20% imported",
+     "period": "May 2026",
+     "period_end": "2026-05-31",
+     "publisher": "Cabinet of India",
+     "series": "Import dependence (ammonia, urea)",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "ammonia ~$428/t; urea spot spikes toward $700/t in supply shocks",
+     "value": "ammonia: ~$428/tonne; urea: ~$700/tonne (spike)",
+     "period": "as of article (2026)",
+     "period_end": null,
+     "publisher": "Global Agriculture, Reclimatize, Argus Media",
+     "series": "Fertiliser import prices",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Methanol >90% imported | ~$298/t (2025 average)",
+     "value": "~$298/tonne (2025 average)",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "Intratec, ChemAnalyst",
+     "series": "Methanol import price",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "MEG ~$550–665/t (Q1–Q2 2026 global)",
+     "value": "$550–665/tonne",
+     "period": "Q1–Q2 2026",
+     "period_end": "2026-06-30",
+     "publisher": "Argus Media, ChemAnalyst",
+     "series": "Monoethylene glycol (MEG) import price",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "polyethylene price ~$1,420–1,450/t in early 2026",
+     "value": "$1,420–1,450/tonne",
+     "period": "early 2026",
+     "period_end": "2026-03-31",
+     "publisher": "Argus Media",
+     "series": "Polyethylene (PE) global reference price",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "India's coal is cheap, but its high ash content is exactly the handicap... ash content running up to 40%",
+     "value": "up to 40% ash content",
+     "period": "as of article (2026)",
+     "period_end": null,
+     "publisher": "USISPF report, Business Standard",
+     "series": "Indian coal ash content",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "ammonia → urea: ~1.3–2.0 t coal/t (~3.0 t coal/t for BCGCL's ammonium-nitrate route)",
+     "value": "ammonia/urea: 1.3–2.0 tonnes coal/tonne product; ammonium nitrate: ~3.0 tonnes coal/tonne",
+     "period": "as of article (2026)",
+     "period_end": null,
+     "publisher": "Deutsche Bank/ICIS, coal-gasification technical literature",
+     "series": "Coal intensity (ammonia, urea, ammonium nitrate)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Methanol: ~1.5–2.5 t coal/t",
+     "value": "1.5–2.5 tonnes coal/tonne",
+     "period": "as of article (2026)",
+     "period_end": null,
+     "publisher": "coal-gasification technical literature",
+     "series": "Coal intensity (methanol)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "MEG: ~3.0–3.5 t coal/t",
+     "value": "3.0–3.5 tonnes coal/tonne",
+     "period": "as of article (2026)",
+     "period_end": null,
+     "publisher": "coal-gasification technical literature",
+     "series": "Coal intensity (MEG)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Olefins (ethylene/propylene): ~6.2 t coal/t",
+     "value": "6.2 tonnes coal/tonne",
+     "period": "as of article (2026)",
+     "period_end": null,
+     "publisher": "Deutsche Bank/ICIS",
+     "series": "Coal intensity (olefins)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "BCGCL's Lakhanpur project: 0.66 million tonnes a year (2,000 tonnes a day) of technical-grade ammonium nitrate",
+     "value": "0.66 million tonnes per year (2,000 tonnes per day)",
+     "period": "as of June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "PIB (Release ID 2275757)",
+     "series": "BCGCL Lakhanpur ammonium nitrate capacity",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "BCGCL's coal input: 0.79 million tonnes washed coal + 1.19 million tonnes reject coal",
+     "value": "0.79 million tonnes washed coal + 1.19 million tonnes reject coal",
+     "period": "as of June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "PIB (Release ID 2247912)",
+     "series": "BCGCL coal input (washed + reject)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "BCGCL project cost: over ₹25,016 crore (up from ₹11,782 crore at 2024 JVA signing)",
+     "value": "₹25,016 crore (up from ₹11,782 crore)",
+     "period": "June 2026 (cost escalation)",
+     "period_end": "2026-06-30",
+     "publisher": "PIB (Release ID 2275058)",
+     "series": "BCGCL project cost",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Coal India–GAIL SNG JV: ₹13,052.81 crore (CIL's equity share: ₹1,997.08 crore)",
+     "value": "₹13,052.81 crore (total); ₹1,997.08 crore (CIL equity)",
+     "period": "as of August 2024 (JVA signing)",
+     "period_end": "2024-08-05",
+     "publisher": "PIB (Release ID 2042019), CIL investor disclosures",
+     "series": "CGIL Sonepur Bazari SNG project cost",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "CGIL SNG capacity: 1.83 million standard cubic metres a day (633.6 million Nm³/year)",
+     "value": "1.83 million standard cubic metres/day (633.6 million Nm³/year)",
+     "period": "as of August 2024 (JVA signing)",
+     "period_end": "2024-08-05",
+     "publisher": "PIB (Release ID 2042019)",
+     "series": "CGIL SNG capacity",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "National Coal Gasification Mission target: 100 million tonnes of coal gasification capacity by 2030",
+     "value": "100 million tonnes per annum",
+     "period": "by 2030",
+     "period_end": "2030-12-31",
+     "publisher": "Ministry of Coal (National Coal Gasification Mission)",
+     "series": "Coal gasification capacity target",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Current operational/under-implementation capacity: ~22.6 million tonnes per annum",
+     "value": "~22.6 million tonnes per annum",
+     "period": "as of April 2026",
+     "period_end": "2026-04-30",
+     "publisher": "PIB (Release ID 2247912)",
+     "series": "Operational/under-implementation coal gasification capacity",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "₹8,500 crore Scheme for Promotion of Coal/Lignite Gasification (₹4,050 crore PSUs, ₹3,850 crore private/PSU, ₹600 crore demo/small-scale)",
+     "value": "₹8,500 crore total (₹4,050 crore PSUs; ₹3,850 crore private/PSU; ₹600 crore demo/small-scale)",
+     "period": "January 2024",
+     "period_end": "2024-01-31",
+     "publisher": "PIB (Release ID 2037489)",
+     "series": "Coal gasification incentive scheme (₹8,500 crore)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹37,500 crore Scheme for Promotion of Surface Coal/Lignite Gasification Projects (May 2026)",
+     "value": "₹37,500 crore",
+     "period": "13 May 2026",
+     "period_end": "2026-05-13",
+     "publisher": "PIB (Release ID 2260621)",
+     "series": "Coal gasification incentive scheme (₹37,500 crore)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India's import bill for LNG, urea, ammonium nitrate, ammonia, coking coal, methanol, DME and related products stood at approximately ₹2.77 lakh crore in FY2025",
+     "value": "₹2.77 lakh crore",
+     "period": "FY2025",
+     "period_end": "2025-03-31",
+     "publisher": "Cabinet of India (May 2026 press release)",
+     "series": "Import bill for key chemicals/fuels",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "New Era Cleantech's ₹20,000 crore Bhadravati complex: ~1,650 acres, 5+ million tonnes/year design throughput",
+     "value": "₹20,000 crore; ~1,650 acres; 5+ million tonnes/year",
+     "period": "as of March 2026 (Bhoomi Pujan)",
+     "period_end": "2026-03-15",
+     "publisher": "The Live Nagpur, EPC World, Daily Pioneer",
+     "series": "New Era Cleantech Bhadravati complex",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "New Era Cleantech coal-to-ethanol demonstration unit: ₹667 crore, 18 KTPA ethanol via CCUS",
+     "value": "₹667 crore; 18,000 tonnes per annum",
+     "period": "as of December 2024 (LOA)",
+     "period_end": "2024-12-31",
+     "publisher": "PIB (Release ID 2083788)",
+     "series": "New Era Cleantech ethanol unit",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹1,350 crore Category-I financial incentive awarded to BCGCL, CGIL, and Utkarsh (December 2024)",
+     "value": "₹1,350 crore",
+     "period": "12 December 2024",
+     "period_end": "2024-12-12",
+     "publisher": "PIB (Release ID 2083788)",
+     "series": "Category-I financial incentive (coal gasification)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹1,000 crore Category-II incentive for New Era Cleantech ammonium-nitrate/hydrogen capacity",
+     "value": "₹1,000 crore",
+     "period": "as of December 2024 (LOA)",
+     "period_end": "2024-12-31",
+     "publisher": "PIB (Release ID 2083788)",
+     "series": "Category-II financial incentive (coal gasification)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "JSL's 8 MTPA syngas capacity (steel-sector gasification byproduct)",
+     "value": "8 million tonnes per annum",
+     "period": "as of article (2026)",
+     "period_end": null,
+     "publisher": "PIB (Release ID 2037489)",
+     "series": "JSL syngas capacity",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Talcher Fertilisers: 2.6 MTPA",
+     "value": "2.6 million tonnes per annum",
+     "period": "as of article (2026)",
+     "period_end": null,
+     "publisher": "PIB (Release ID 2037489)",
+     "series": "Talcher Fertilisers capacity",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "₹2.5–3.0 lakh crore expected investment mobilisation under ₹37,500 crore scheme",
+     "value": "₹2.5–3.0 lakh crore",
+     "period": "as of May 2026 (scheme approval)",
+     "period_end": "2026-05-13",
+     "publisher": "PIB (Release ID 2260621)",
+     "series": "Expected investment under ₹37,500 crore scheme",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹46,000 crore combined cumulative outlay of both incentive schemes (₹8,500 crore + ₹37,500 crore)",
+     "value": "₹46,000 crore",
+     "period": "as of June 2026 (PMO pre-event release)",
+     "period_end": "2026-06-20",
+     "publisher": "PIB (Release ID 2275058)",
+     "series": "Combined incentive scheme outlay",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "New Era Cleantech ammonium-nitrate/hydrogen capacity: 0.33 MMTPA",
+     "value": "0.33 million tonnes per annum",
+     "period": "as of December 2024 (LOA)",
+     "period_end": "2024-12-31",
+     "publisher": "PIB (Release ID 2083788)",
+     "series": "New Era Cleantech ammonium-nitrate/hydrogen capacity",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "New Era Cleantech hydrogen capacity: 0.1 MMTPA",
+     "value": "0.1 million tonnes per annum",
+     "period": "as of December 2024 (LOA)",
+     "period_end": "2024-12-31",
+     "publisher": "PIB (Release ID 2083788)",
+     "series": "New Era Cleantech hydrogen capacity",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "CIL-BPCL SNG project: ₹12,214 crore, 633.6 million Nm³/year",
+     "value": "₹12,214 crore; 633.6 million Nm³/year",
+     "period": "as of December 2024 (MoU)",
+     "period_end": "2024-12-02",
+     "publisher": "PSU Watch (trade reporting)",
+     "series": "CIL-BPCL SNG project",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹12,214.86 crore SNG project at Niljai Ext. OC, Wani Area (Category-I incentive)",
+     "value": "₹12,214.86 crore",
+     "period": "as of December 2024 (LOA)",
+     "period_end": "2024-12-12",
+     "publisher": "PIB (Release ID 2083788)",
+     "series": "SNG project at Niljai Ext. OC, Wani Area",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "WCL/Utkarsh ammonium-nitrate-melt capacity: ~0.66 MTPA",
+     "value": "~0.66 million tonnes per annum",
+     "period": "as of 2022 (EOI)",
+     "period_end": "2022-12-31",
+     "publisher": "Western Coalfields Limited (EOI/2021-2022/01)",
+     "series": "WCL Utkarsh ammonium-nitrate-melt capacity",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹12,214 crore CIL-BPCL SNG project (same cost as Niljai Ext. OC project)",
+     "value": "₹12,214 crore",
+     "period": "as of December 2024 (MoU)",
+     "period_end": "2024-12-02",
+     "publisher": "PSU Watch (trade reporting)",
+     "series": "CIL-BPCL SNG project cost",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

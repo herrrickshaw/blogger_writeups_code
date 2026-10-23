@@ -1,0 +1,280 @@
+{
+ "slug": "how-to-use-patient-history-tracking",
+ "text_sha1": "f24c6b08d78a1b71",
+ "chars": 8508,
+ "checked": "2026-10-23T12:13:01",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "7 beds replayed from VitalDB cases (6 normal + 1 fast-cycle demo bed)",
+     "value": "7 beds",
+     "period": "18 October 2026",
+     "period_end": "2026-10-18",
+     "publisher": "herrrickshaw/patient-history-tracking",
+     "series": "VitalDB cases replay",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "27 timeline events for the demo bed",
+     "value": "27 events",
+     "period": "18 October 2026",
+     "period_end": "2026-10-18",
+     "publisher": "herrrickshaw/patient-history-tracking",
+     "series": "demo bed timeline events",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "0 credentials needed for the VitalDB data",
+     "value": "0 credentials",
+     "period": "18 October 2026",
+     "period_end": "2026-10-18",
+     "publisher": "VitalDB",
+     "series": "VitalDB access credentials",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "Bed-DEMO has a 40-second encounter and is marked demo=True.",
+     "value": "40 seconds",
+     "period": "18 October 2026",
+     "period_end": "2026-10-18",
+     "publisher": "herrrickshaw/patient-history-tracking",
+     "series": "Bed-DEMO encounter duration",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "At sim_t=8, Bed-A showed HR 76, SpO2 100, RR 19.",
+     "value": "sim_t=8",
+     "period": "18 October 2026",
+     "period_end": "2026-10-18",
+     "publisher": "VitalDB",
+     "series": "WebSocket /ws/vitals simulation time",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "At sim_t=8, Bed-A showed HR 76, SpO2 100, RR 19.",
+     "value": "HR 76",
+     "period": "18 October 2026",
+     "period_end": "2026-10-18",
+     "publisher": "VitalDB",
+     "series": "Bed-A heart rate",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "At sim_t=8, Bed-A showed HR 76, SpO2 100, RR 19.",
+     "value": "SpO2 100",
+     "period": "18 October 2026",
+     "period_end": "2026-10-18",
+     "publisher": "VitalDB",
+     "series": "Bed-A oxygen saturation",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "At sim_t=8, Bed-A showed HR 76, SpO2 100, RR 19.",
+     "value": "RR 19",
+     "period": "18 October 2026",
+     "period_end": "2026-10-18",
+     "publisher": "VitalDB",
+     "series": "Bed-A respiratory rate",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "age 53, sex F, General surgery, Cholecystectomy",
+     "value": "age 53",
+     "period": "18 October 2026",
+     "period_end": "2026-10-18",
+     "publisher": "herrrickshaw/patient-history-tracking",
+     "series": "Bed-A synthetic patient age",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "27 events in total.",
+     "value": "27 events",
+     "period": "18 October 2026",
+     "period_end": "2026-10-18",
+     "publisher": "herrrickshaw/patient-history-tracking",
+     "series": "Bed-DEMO record timeline events",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Vitals ranges (for example HR 71 to 82, SpO2 99 to 100)",
+     "value": "HR 71 to 82",
+     "period": "18 October 2026",
+     "period_end": "2026-10-18",
+     "publisher": "herrrickshaw/patient-history-tracking",
+     "series": "Bed-DEMO discharge summary vitals range",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Vitals ranges (for example HR 71 to 82, SpO2 99 to 100)",
+     "value": "SpO2 99 to 100",
+     "period": "18 October 2026",
+     "period_end": "2026-10-18",
+     "publisher": "herrrickshaw/patient-history-tracking",
+     "series": "Bed-DEMO discharge summary vitals range",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The README reports handwriting OCR misread 650mg as 850mg",
+     "value": "650mg",
+     "period": "18 October 2026",
+     "period_end": "2026-10-18",
+     "publisher": "herrrickshaw/patient-history-tracking",
+     "series": "OCR handwriting test",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The README reports handwriting OCR misread 650mg as 850mg",
+     "value": "850mg",
+     "period": "18 October 2026",
+     "period_end": "2026-10-18",
+     "publisher": "herrrickshaw/patient-history-tracking",
+     "series": "OCR handwriting test",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "7 beds replayed from VitalDB cases (6 normal + 1 fast-cycle demo bed)",
+     "value": "7 beds",
+     "period": null,
+     "period_end": null,
+     "publisher": "VitalDB (CC BY-NC-SA 4.0)",
+     "series": "VitalDB de-identified surgical cases dataset",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "27 timeline events for the demo bed",
+     "value": "27 events",
+     "period": null,
+     "period_end": null,
+     "publisher": "VitalDB (CC BY-NC-SA 4.0)",
+     "series": "Demo bed patient record timeline",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Seven beds, Bed-A to Bed-F plus Bed-DEMO, each backed by a VitalDB case (for example Bed-A is case 4096). Bed-DEMO has a 40-second encounter and is marked demo=True.",
+     "value": "40 seconds",
+     "period": null,
+     "period_end": null,
+     "publisher": "VitalDB (CC BY-NC-SA 4.0)",
+     "series": "Bed-DEMO encounter duration",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "At sim_t=8, Bed-A showed HR 76, SpO2 100, RR 19.",
+     "value": "HR 76 bpm, SpO2 100%, RR 19 breaths/min",
+     "period": null,
+     "period_end": null,
+     "publisher": "VitalDB (CC BY-NC-SA 4.0)",
+     "series": "Vitals replay data for Bed-A",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Vitals ranges (for example HR 71 to 82, SpO2 99 to 100)",
+     "value": "HR 71–82 bpm, SpO2 99–100%",
+     "period": null,
+     "period_end": null,
+     "publisher": "VitalDB (CC BY-NC-SA 4.0)",
+     "series": "Vitals ranges in discharge summary",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The README reports handwriting OCR misread 650mg as 850mg",
+     "value": "650mg misread as 850mg",
+     "period": null,
+     "period_end": null,
+     "publisher": "Tesseract OCR (system program)",
+     "series": "OCR misread example",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Six illustrative orders that show as discontinued after the demo bed's discharge.",
+     "value": "6 orders",
+     "period": null,
+     "period_end": null,
+     "publisher": "Synthetic data (demo)",
+     "series": "Prescription orders for Bed-DEMO",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "An approved claim (CLM-0585570804).",
+     "value": "CLM-0585570804",
+     "period": null,
+     "period_end": null,
+     "publisher": "Synthetic data (demo)",
+     "series": "Simulated insurance claim number",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "A generated name, a synthetic ABHA-style number, age 53, sex F, General surgery, Cholecystectomy",
+     "value": "age 53, sex F",
+     "period": null,
+     "period_end": null,
+     "publisher": "Synthetic data (demo)",
+     "series": "Synthetic patient identity attributes",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The demo called the API in-process; with the server running, request the same path on port 8710",
+     "value": "port 8710",
+     "period": null,
+     "period_end": null,
+     "publisher": "FastAPI backend (demo)",
+     "series": "Backend API port",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The demo called the API in-process rather than through a running server, so the browser dashboard itself was not shown in the numbers above.",
+     "value": "demo run on 18 October 2026",
+     "period": "18 October 2026",
+     "period_end": "2026-10-18",
+     "publisher": "Author (Umashankar Triplicane Dwarakanathan)",
+     "series": "Article revision date",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "v1.0.0 — 18 October 2026 — first published.",
+     "value": "18 October 2026",
+     "period": "18 October 2026",
+     "period_end": "2026-10-18",
+     "publisher": "GitHub repository",
+     "series": "Repository release date",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

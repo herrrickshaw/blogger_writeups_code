@@ -1,0 +1,580 @@
+{
+ "slug": "india-cannot-sell-china-free-medicine",
+ "text_sha1": "5a8fd313c0f764b9",
+ "chars": 21829,
+ "checked": "2026-10-23T12:23:08",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "India’s pharmaceutical exports crossed $31 billion in 2025-26",
+     "value": "$31 billion",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Pharmexcil",
+     "series": "Pharmaceutical exports",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "the ₹6,940 crore Bulk Drugs scheme built to cut China dependence produced ₹2,720 crore in sales",
+     "value": "₹6,940 crore",
+     "period": "to December 2025",
+     "period_end": "2025-12-31",
+     "publisher": "Department of Pharmaceuticals",
+     "series": "PLI — Bulk Drugs",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "the ₹15,000 crore Pharmaceuticals PLI aimed at scale produced ₹3.17 lakh crore — 116x more.",
+     "value": "₹15,000 crore",
+     "period": "to September 2025",
+     "period_end": "2025-09-30",
+     "publisher": "Department of Pharmaceuticals",
+     "series": "PLI — Pharmaceuticals",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "India’s pharma exports hit $31.1 billion in 2025-26, up 2.1 per cent",
+     "value": "$31.1 billion",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Pharmexcil",
+     "series": "Pharmaceutical exports",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "India’s pharmaceutical exports reached $31.1 billion in FY2025-26, per Pharmexcil, up 2.1 per cent on the year and worth ₹2,75,078 crore.",
+     "value": "₹2,75,078 crore",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Pharmexcil",
+     "series": "Pharmaceutical exports",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Drug formulations & biologicals | 23.1 | ~75% | +0.7%",
+     "value": "$23.1 billion",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Pharmexcil",
+     "series": "Drug formulations & biologicals exports",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Vaccines | 1.5 | ~5% | +30% (fastest)",
+     "value": "$1.5 billion",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Pharmexcil",
+     "series": "Vaccine exports",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "AYUSH & herbal | 0.6 | ~2% | −10% (only decline)",
+     "value": "$0.6 billion",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Pharmexcil",
+     "series": "AYUSH & herbal exports",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Residual (bulk, surgicals, other) | 5.9 | ~19% | —",
+     "value": "$5.9 billion",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Pharmexcil",
+     "series": "Residual pharmaceutical exports",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "United States | 9,460 | ~30% | Fell 10% in a year, lost about 4 points of share",
+     "value": "$9,460 million",
+     "period": "FY26",
+     "period_end": "2026-03-31",
+     "publisher": "Pharmexcil",
+     "series": "Pharmaceutical exports by destination - United States",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Brazil | 916 | ~3% | LatAm growing",
+     "value": "$916 million",
+     "period": "FY26",
+     "period_end": "2026-03-31",
+     "publisher": "Pharmexcil",
+     "series": "Pharmaceutical exports by destination - Brazil",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "United Kingdom | 903 | ~3% | UK itself −1.2%",
+     "value": "$903 million",
+     "period": "FY26",
+     "period_end": "2026-03-31",
+     "publisher": "Pharmexcil",
+     "series": "Pharmaceutical exports by destination - United Kingdom",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "France | 785 | ~3% |   ",
+     "value": "$785 million",
+     "period": "FY26",
+     "period_end": "2026-03-31",
+     "publisher": "Pharmexcil",
+     "series": "Pharmaceutical exports by destination - France",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Netherlands | 756 | ~2% |   ",
+     "value": "$756 million",
+     "period": "FY26",
+     "period_end": "2026-03-31",
+     "publisher": "Pharmexcil",
+     "series": "Pharmaceutical exports by destination - Netherlands",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Rest of world | 18,290 | ~59% | Africa +13.0%, Oceania +11.5%, West Asia & North Africa −4.0%",
+     "value": "$18,290 million",
+     "period": "FY26",
+     "period_end": "2026-03-31",
+     "publisher": "Pharmexcil",
+     "series": "Pharmaceutical exports by destination - Rest of world",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Total pharma imports, FY2024-25 | ₹63,573 crore | ~$7.5bn, +8.8% YoY.",
+     "value": "₹63,573 crore",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "Department of Pharmaceuticals / DGCI&S",
+     "series": "Total pharmaceutical imports",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Trade surplus, FY2024-25 | ₹1,82,389 crore | Widened about ₹26,500 crore year on year",
+     "value": "₹1,82,389 crore",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "Department of Pharmaceuticals / DGCI&S",
+     "series": "Trade surplus",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "China share of pharma imports | 43.45% | FY2023-24, ≈$3.6bn. Official, PIB.",
+     "value": "43.45%",
+     "period": "FY2023-24",
+     "period_end": "2024-03-31",
+     "publisher": "PIB",
+     "series": "China share of pharma imports",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "6-APA, the penicillin intermediate | 94.1% from China | $407.64mn — the single most import-dependent input.",
+     "value": "94.1%",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "Department of Pharmaceuticals / DGCI&S",
+     "series": "Import dependence for 6-APA",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Pharma imports of ₹58,440 crore (FY24)",
+     "value": "₹58,440 crore",
+     "period": "FY2023-24",
+     "period_end": "2024-03-31",
+     "publisher": "Department of Pharmaceuticals and DGCI&S",
+     "series": "Total pharma imports",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "trade surplus of ₹1,60,999 crore (FY24)",
+     "value": "₹1,60,999 crore",
+     "period": "FY2023-24",
+     "period_end": "2024-03-31",
+     "publisher": "Department of Pharmaceuticals and DGCI&S",
+     "series": "Trade surplus",
+     "frequency": "annual",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "India’s pharmaceutical exports crossed $31 billion in 2025-26 — and 43.45 per cent of what goes into making them, by value, comes from China.",
+     "value": "$31 billion",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Pharmexcil",
+     "series": "Pharma export total",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "India’s pharmaceutical exports hit $31.1 billion in FY2025-26, up 2.1 per cent — the industry’s own $32 billion target was missed.",
+     "value": "$31.1 billion",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Pharmexcil",
+     "series": "Pharma export total",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "India’s pharmaceutical exports reached $31.1 billion in FY2025-26, per Pharmexcil, up 2.1 per cent on the year and worth ₹2,75,078 crore.",
+     "value": "₹2,75,078 crore",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Pharmexcil",
+     "series": "Pharma export total (INR)",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Drug formulations & biologicals | 23.1 | ~75% | +0.7%",
+     "value": "$23.1 billion",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Pharmexcil",
+     "series": "Pharma export category split (Drug formulations & biologicals)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Vaccines | 1.5 | ~5% | +30% (fastest)",
+     "value": "$1.5 billion",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Pharmexcil",
+     "series": "Pharma export category split (Vaccines)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "AYUSH & herbal | 0.6 | ~2% | −10% (only decline)",
+     "value": "$0.6 billion",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Pharmexcil",
+     "series": "Pharma export category split (AYUSH & herbal)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Residual (bulk, surgicals, other) | 5.9 | ~19%",
+     "value": "$5.9 billion",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Pharmexcil",
+     "series": "Pharma export category split (Residual)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "United States | 9,460 | ~30% | Fell 10% in a year, lost about 4 points of share",
+     "value": "$9,460 million",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Pharmexcil",
+     "series": "Pharma export destination (United States)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Brazil | 916 | ~3% | LatAm growing",
+     "value": "$916 million",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Pharmexcil",
+     "series": "Pharma export destination (Brazil)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Rest of world | 18,290 | ~59% | Africa +13.0%, Oceania +11.5%, West Asia & North Africa −4.0%",
+     "value": "$18,290 million",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Pharmexcil",
+     "series": "Pharma export destination (Rest of world)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "On 2 April 2026 the United States issued a Section 232 proclamation imposing a 100 per cent tariff on patented pharmaceuticals, effective 31 July 2026 for most importers and 29 September 2026 for seventeen named large drug companies.",
+     "value": "100% tariff",
+     "period": "31 July 2026 (most importers), 29 September 2026 (17 companies)",
+     "period_end": "2026-09-29",
+     "publisher": "US Commerce Department",
+     "series": "Section 232 tariff proclamation",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The exemption comes up for review within a year.",
+     "value": "1 year",
+     "period": "Review period starting from 2 April 2026",
+     "period_end": "2027-04-02",
+     "publisher": "US Commerce Department",
+     "series": "Section 232 generics exemption review",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The proclamation sets an announced schedule — 0 per cent until 1 August 2028, then 100 per cent, then 200 per cent from 2029 —",
+     "value": "0% (until 1 August 2028), 100% (from 1 August 2028), 200% (from 2029)",
+     "period": "Announced schedule",
+     "period_end": null,
+     "publisher": "US Commerce Department",
+     "series": "Section 232 tariff schedule",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Total pharma imports, FY2024-25 | ₹63,573 crore | ~$7.5bn, +8.8% YoY.",
+     "value": "₹63,573 crore (~$7.5 billion)",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "Department of Pharmaceuticals / DGCI&S",
+     "series": "Pharma import total",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Trade surplus, FY2024-25 | ₹1,82,389 crore | Widened about ₹26,500 crore year on year",
+     "value": "₹1,82,389 crore",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "Department of Pharmaceuticals / DGCI&S",
+     "series": "Pharma trade surplus",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "China share of pharma imports | 43.45% | FY2023-24, ≈$3.6bn. Official, PIB.",
+     "value": "43.45%",
+     "period": "FY2023-24",
+     "period_end": "2024-03-31",
+     "publisher": "PIB",
+     "series": "China share of pharma imports",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "APIs where China supplies ≥70% | 97 distinct active ingredients | Official, PIB, FY24 and FY25",
+     "value": "97 distinct active ingredients",
+     "period": "FY2024 and FY2025",
+     "period_end": "2025-03-31",
+     "publisher": "PIB",
+     "series": "APIs with ≥70% China supply",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "6-APA, the penicillin intermediate | 94.1% from China | $407.64mn — the single most import-dependent input.",
+     "value": "94.1%",
+     "period": null,
+     "period_end": null,
+     "publisher": "Department of Pharmaceuticals / DGCI&S",
+     "series": "China share of 6-APA imports",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Penicillin G itself is 77% from China.",
+     "value": "77%",
+     "period": null,
+     "period_end": null,
+     "publisher": "Department of Pharmaceuticals / DGCI&S",
+     "series": "China share of Penicillin G imports",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "PLI — Bulk Drugs (KSM / DI / API) | Outlay: ₹6,940 crore | Cumulative sales: ₹2,720 crore",
+     "value": "₹6,940 crore",
+     "period": "Outlay",
+     "period_end": null,
+     "publisher": "Department of Pharmaceuticals",
+     "series": "PLI Bulk Drugs outlay",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "PLI — Bulk Drugs (KSM / DI / API) | ... | Cumulative sales: ₹2,720 crore",
+     "value": "₹2,720 crore",
+     "period": "to December 2025",
+     "period_end": "2025-12-31",
+     "publisher": "Department of Pharmaceuticals",
+     "series": "PLI Bulk Drugs cumulative sales",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "PLI — Bulk Drugs ... has substituted a cumulative ₹2,192 crore of imports",
+     "value": "₹2,192 crore",
+     "period": "to December 2025",
+     "period_end": "2025-12-31",
+     "publisher": "Department of Pharmaceuticals",
+     "series": "PLI Bulk Drugs import substitution",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "PLI — Pharmaceuticals | Outlay: ₹15,000 crore | Cumulative sales: ₹3,16,797 crore",
+     "value": "₹15,000 crore",
+     "period": "Outlay",
+     "period_end": null,
+     "publisher": "Department of Pharmaceuticals",
+     "series": "PLI Pharmaceuticals outlay",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "PLI — Pharmaceuticals ... produced ₹3,16,797 crore of cumulative sales",
+     "value": "₹3,16,797 crore",
+     "period": "to September 2025",
+     "period_end": "2025-09-30",
+     "publisher": "Department of Pharmaceuticals",
+     "series": "PLI Pharmaceuticals cumulative sales",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "The ₹15,000 crore scheme aimed at scale produced ₹3.17 lakh crore of sales.",
+     "value": "₹3.17 lakh crore",
+     "period": "to September 2025",
+     "period_end": "2025-09-30",
+     "publisher": "Department of Pharmaceuticals",
+     "series": "PLI Pharmaceuticals cumulative sales (alternate)",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "The Bulk Drugs PLI contributed 30 per cent of bulk drug exports and 26.5 per cent of formulation exports in FY2024-25.",
+     "value": "30% (bulk drug exports), 26.5% (formulation exports)",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "Department of Pharmaceuticals",
+     "series": "PLI Bulk Drugs export contribution",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "The BIOSECURE Act ... opportunity for Indian contract research and manufacturing at roughly $700 million a year",
+     "value": "$700 million",
+     "period": "annual",
+     "period_end": null,
+     "publisher": "Jefferies (analyst estimate)",
+     "series": "BIOSECURE Act opportunity sizing",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "The sector’s $3.0–3.5 billion FY26 sales at an 18% CAGR to FY30.",
+     "value": "$3.0–3.5 billion (FY26 sales)",
+     "period": "FY2026",
+     "period_end": "2026-03-31",
+     "publisher": "Jefferies (analyst estimate)",
+     "series": "Indian CRDMO sector sales",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "IQVIA puts FY26 market growth at 10.0 per cent (volume +2.7, price +4.4, new products +2.8);",
+     "value": "10.0%",
+     "period": "FY2026",
+     "period_end": "2026-03-31",
+     "publisher": "IQVIA",
+     "series": "Indian domestic pharma market growth (volume)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "PharmaTrac puts the market at ₹2,45,943 crore, up 8.6 per cent in value and just 0.6 per cent in units.",
+     "value": "₹2,45,943 crore",
+     "period": "FY2026",
+     "period_end": "2026-03-31",
+     "publisher": "PharmaTrac/AWACS",
+     "series": "Indian domestic pharma market size",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "PharmaTrac puts ... up 8.6 per cent in value",
+     "value": "8.6%",
+     "period": "FY2026",
+     "period_end": "2026-03-31",
+     "publisher": "PharmaTrac/AWACS",
+     "series": "Indian domestic pharma market growth (value)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "DGCI&S records $25.1 billion of FY2025-26 exports under HS Chapter 30, pharmaceutical products",
+     "value": "$25.1 billion",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "Pharma exports under HS Chapter 30",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Adding those headings (HS 2933, 2934, 2937 and 2941) to the Chapter 30 total gives $31.6 billion",
+     "value": "$31.6 billion",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S (article's own analysis)",
+     "series": "Pharma exports including API headings",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "The Bulk Drugs PLI approved 48 projects, commissioned 38, added about 56,800 tonnes of capacity",
+     "value": "56,800 tonnes",
+     "period": "to December 2025",
+     "period_end": "2025-12-31",
+     "publisher": "Department of Pharmaceuticals",
+     "series": "PLI Bulk Drugs capacity addition",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "The Bulk Drugs scheme localised 28 molecules including Penicillin G, Clavulanic Acid, Rifampicin and Atorvastatin.",
+     "value": "28 molecules",
+     "period": "to December 2025",
+     "period_end": "2025-12-31",
+     "publisher": "Department of Pharmaceuticals",
+     "series": "PLI Bulk Drugs molecules localised",
+     "frequency": "multi-year",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,578 @@
+{
+ "slug": "india-and-mercosur-are-expanding-450",
+ "text_sha1": "a8e1ba805b9c9223",
+ "chars": 11606,
+ "checked": "2026-10-23T12:20:26",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "$21.8 bn India’s two-way trade with the four MERCOSUR members in 2025-26, about 25% more than the $17.5 billion of 2024-25",
+     "value": "$21.8 billion",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Commerce ministry",
+     "series": "Two-way trade",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "about 25% more than the $17.5 billion of 2024-25",
+     "value": "$17.5 billion",
+     "period": "2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "Commerce ministry",
+     "series": "Two-way trade",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "−$4.9 bn India’s deficit with the bloc in 2025-26, against about −$1.2 billion a year earlier",
+     "value": "-$4.9 billion",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Commerce ministry",
+     "series": "Trade deficit",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "against about −$1.2 billion a year earlier",
+     "value": "-$1.2 billion",
+     "period": "2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "Commerce ministry",
+     "series": "Trade deficit",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "81% Share of that deficit that is Argentina, which sold India $5.0 billion and bought $1.0 billion",
+     "value": "81%",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Commerce ministry",
+     "series": "Trade deficit share",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Argentina, which sold India $5.0 billion and bought $1.0 billion",
+     "value": "$5.0 billion",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Commerce ministry",
+     "series": "India imports from Argentina",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Argentina, which sold India $5.0 billion and bought $1.0 billion",
+     "value": "$1.0 billion",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Commerce ministry",
+     "series": "India exports to Argentina",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Brazil | 7,022 | 8,051 | −1,029 |",
+     "value": "7,022",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Commerce ministry",
+     "series": "Trade Intelligence and Analytics portal",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Brazil | 7,022 | 8,051 | −1,029 |",
+     "value": "8,051",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Commerce ministry",
+     "series": "Trade Intelligence and Analytics portal",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Argentina | 1,013 | 4,955 | −3,942 |",
+     "value": "1,013",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Commerce ministry",
+     "series": "Trade Intelligence and Analytics portal",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Argentina | 1,013 | 4,955 | −3,942 |",
+     "value": "4,955",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Commerce ministry",
+     "series": "Trade Intelligence and Analytics portal",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Uruguay | 238 | 290 | −52 |",
+     "value": "238",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "PIB / ministry",
+     "series": "trade-briefing table",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Uruguay | 238 | 290 | −52 |",
+     "value": "290",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "PIB / ministry",
+     "series": "trade-briefing table",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Paraguay | 188 | 26 | +162 |",
+     "value": "188",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "PIB / ministry",
+     "series": "trade-briefing table",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Paraguay | 188 | 26 | +162 |",
+     "value": "26",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "PIB / ministry",
+     "series": "trade-briefing table",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Four members, 2025-26 | 8,461 | 13,322 | −4,860 |",
+     "value": "8,461",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Commerce ministry",
+     "series": "Four members trade total",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Four members, 2025-26 | 8,461 | 13,322 | −4,860 |",
+     "value": "13,322",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Commerce ministry",
+     "series": "Four members trade total",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Four members, 2024-25 (as reported) | 8,120 | 9,360 | −1,240 |",
+     "value": "8,120",
+     "period": "2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "PIB / ministry",
+     "series": "Four members trade total",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Four members, 2024-25 (as reported) | 8,120 | 9,360 | −1,240 |",
+     "value": "9,360",
+     "period": "2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "PIB / ministry",
+     "series": "Four members trade total",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "A partial-year press figure for April–October 2025 was $5.22 billion exports and $6.62 billion imports.",
+     "value": "$5.22 billion",
+     "period": "April–October 2025",
+     "period_end": "2025-10-31",
+     "publisher": "PIB / ministry",
+     "series": "partial-year trade",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "A partial-year press figure for April–October 2025 was $5.22 billion exports and $6.62 billion imports.",
+     "value": "$6.62 billion",
+     "period": "April–October 2025",
+     "period_end": "2025-10-31",
+     "publisher": "PIB / ministry",
+     "series": "partial-year trade",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India’s largest exports to Brazil in 2025-26 were organic chemicals ($0.92 billion), vehicles ($0.83 billion) and pharmaceuticals ($0.60 billion)",
+     "value": "$0.92 billion",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Commerce ministry",
+     "series": "India exports to Brazil by product",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "organic chemicals ($0.92 billion), vehicles ($0.83 billion) and pharmaceuticals ($0.60 billion)",
+     "value": "$0.83 billion",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Commerce ministry",
+     "series": "India exports to Brazil by product",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "vehicles ($0.83 billion) and pharmaceuticals ($0.60 billion)",
+     "value": "$0.60 billion",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Commerce ministry",
+     "series": "India exports to Brazil by product",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "worth about $3.7 billion, with the sunflower complex adding $0.8 billion",
+     "value": "$3.7 billion",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "PIB / ministry",
+     "series": "Argentine soybean oil to India",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "with the sunflower complex adding $0.8 billion",
+     "value": "$0.8 billion",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "PIB / ministry",
+     "series": "Argentine sunflower complex to India",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "with a record 530,000 tonnes shipped between September and April.",
+     "value": "530,000 tonnes",
+     "period": "September-April",
+     "period_end": "2026-04-30",
+     "publisher": "Ukragroconsult",
+     "series": "sunflower oil shipments",
+     "frequency": "annual",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "India’s trade with the four members reached about $21.8 billion in 2025-26 and its deficit about $4.9 billion",
+     "value": "$21.8 billion (trade), −$4.9 billion (deficit)",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Commerce Ministry (Trade Intelligence and Analytics portal)",
+     "series": "India-MERCOSUR two-way trade and trade deficit",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "$21.8 bn India’s two-way trade with the four MERCOSUR members in 2025-26, about 25% more than the $17.5 billion of 2024-25",
+     "value": "$21.8 billion (2025-26 trade), $17.5 billion (2024-25 trade)",
+     "period": "2025-26, 2024-25",
+     "period_end": [
+      "2026-03-31",
+      "2025-03-31"
+     ],
+     "publisher": "Commerce Ministry (Trade Intelligence and Analytics portal) / press reports",
+     "series": "India-MERCOSUR two-way trade",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "−$4.9 bn India’s deficit with the bloc in 2025-26, against about −$1.2 billion a year earlier",
+     "value": "−$4.9 billion (2025-26 deficit), −$1.2 billion (2024-25 deficit)",
+     "period": "2025-26, 2024-25",
+     "period_end": [
+      "2026-03-31",
+      "2025-03-31"
+     ],
+     "publisher": "Commerce Ministry (Trade Intelligence and Analytics portal) / press reports",
+     "series": "India-MERCOSUR trade deficit",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "81% Share of that deficit that is Argentina, which sold India $5.0 billion and bought $1.0 billion",
+     "value": "$5.0 billion (Argentina exports to India), $1.0 billion (Argentina imports from India)",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Commerce Ministry (Trade Intelligence and Analytics portal) / Argentine ambassador & trade press",
+     "series": "India-Argentina bilateral trade",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "India’s imports rose from about $9.4 billion in 2024-25 to about $13.3 billion in 2025-26",
+     "value": "$9.4 billion (2024-25 imports), $13.3 billion (2025-26 imports)",
+     "period": "2024-25, 2025-26",
+     "period_end": [
+      "2025-03-31",
+      "2026-03-31"
+     ],
+     "publisher": "Commerce Ministry (Trade Intelligence and Analytics portal) / press reports",
+     "series": "India-MERCOSUR imports",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "its exports rose from $8.1 billion to $8.5 billion",
+     "value": "$8.1 billion (2024-25 exports), $8.5 billion (2025-26 exports)",
+     "period": "2024-25, 2025-26",
+     "period_end": [
+      "2025-03-31",
+      "2026-03-31"
+     ],
+     "publisher": "Commerce Ministry (Trade Intelligence and Analytics portal) / press reports",
+     "series": "India-MERCOSUR exports",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "India’s trade by MERCOSUR member, 2025-26, US$ billion: Brazil: $7.02 billion (exports), $8.05 billion (imports)",
+     "value": "$7.02 billion (India exports to Brazil), $8.05 billion (India imports from Brazil)",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Commerce Ministry (Trade Intelligence and Analytics portal)",
+     "series": "India-Brazil bilateral trade",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Argentina: $1.01 billion (exports), $4.96 billion (imports)",
+     "value": "$1.01 billion (India exports to Argentina), $4.96 billion (India imports from Argentina)",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Commerce Ministry (Trade Intelligence and Analytics portal)",
+     "series": "India-Argentina bilateral trade",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Uruguay: $0.24 billion (exports), $0.29 billion (imports)",
+     "value": "$0.24 billion (India exports to Uruguay), $0.29 billion (India imports from Uruguay)",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Trade-briefing table (unofficial)",
+     "series": "India-Uruguay bilateral trade",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Paraguay: $0.19 billion (exports), $0.03 billion (imports)",
+     "value": "$0.19 billion (India exports to Paraguay), $0.03 billion (India imports from Paraguay)",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Trade-briefing table (unofficial)",
+     "series": "India-Paraguay bilateral trade",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Four members, 2025-26: $8.461 billion (exports), $13.322 billion (imports)",
+     "value": "$8.461 billion (India exports to MERCOSUR), $13.322 billion (India imports from MERCOSUR)",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Commerce Ministry (Trade Intelligence and Analytics portal) / trade-briefing table",
+     "series": "India-MERCOSUR two-way trade",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Four members, 2024-25 (as reported): $8.12 billion (exports), $9.36 billion (imports)",
+     "value": "$8.12 billion (2024-25 exports), $9.36 billion (2024-25 imports)",
+     "period": "2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "Press reports of official data",
+     "series": "India-MERCOSUR two-way trade",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "India’s largest exports to Brazil in 2025-26 were organic chemicals ($0.92 billion), vehicles ($0.83 billion) and pharmaceuticals ($0.60 billion)",
+     "value": "$0.92 billion (organic chemicals), $0.83 billion (vehicles), $0.60 billion (pharmaceuticals)",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Commerce Ministry (trade data)",
+     "series": "India-Brazil export composition",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Argentina’s ambassador has said India was the main destination for Argentine soybean oil in 2025, worth about $3.7 billion",
+     "value": "$3.7 billion (Argentine soybean oil exports to India)",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "Argentine ambassador / trade press",
+     "series": "Argentina-India soybean oil exports",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "trade press reports Argentina overtaking Ukraine as India’s sunflower oil supplier in the 2025-26 marketing year, with a record 530,000 tonnes shipped between September and April",
+     "value": "530,000 tonnes (sunflower oil)",
+     "period": "Sep 2025–Apr 2026",
+     "period_end": "2026-04-30",
+     "publisher": "Trade press (Ukragroconsult)",
+     "series": "Argentina-India sunflower oil trade",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India–Brazil joint declaration on deepening the agreement; next step a technical dialogue and a Joint Administration Committee meeting (PIB 2180058)",
+     "value": "Joint declaration (16 Oct 2025)",
+     "period": "16 Oct 2025",
+     "period_end": "2025-10-16",
+     "publisher": "PIB (Press Information Bureau)",
+     "series": "India-MERCOSUR negotiation milestones",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Brazil’s President in New Delhi; the commerce minister calls for bilateral trade beyond $15 billion (PIB 2231335)",
+     "value": "$15 billion (target trade volume)",
+     "period": "21 Feb 2026",
+     "period_end": "2026-02-21",
+     "publisher": "PIB (Press Information Bureau)",
+     "series": "India-Brazil trade target",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Brazil’s account of the October 2025 declaration says the parties aim to conclude within a year of the launch, which would be about September 2027",
+     "value": "September 2027 (target completion date)",
+     "period": "Sep 2027 (target)",
+     "period_end": "2027-09-30",
+     "publisher": "Brazilian Foreign Ministry",
+     "series": "India-MERCOSUR negotiation timeline",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "A partial-year press figure for April–October 2025 was $5.22 billion exports and $6.62 billion imports",
+     "value": "$5.22 billion (exports), $6.62 billion (imports)",
+     "period": "Apr–Oct 2025",
+     "period_end": "2025-10-31",
+     "publisher": "Press reports",
+     "series": "India-MERCOSUR partial-year trade",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The 2009 pact is narrow: it gives preferences on about 450 Indian and 452 MERCOSUR tariff lines",
+     "value": "450 (Indian tariff lines), 452 (MERCOSUR tariff lines)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Launch statements / WTO committee discussion",
+     "series": "India-MERCOSUR tariff lines covered",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Brazil’s President in New Delhi; the commerce minister calls for bilateral trade beyond $15 billion (PIB 2231335)",
+     "value": "$15 billion (target trade volume)",
+     "period": "21 Feb 2026",
+     "period_end": "2026-02-21",
+     "publisher": "PIB (Press Information Bureau)",
+     "series": "India-Brazil trade target",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The 2009 pact is narrow: it gives preferences on about 450 Indian and 452 MERCOSUR tariff lines",
+     "value": "450 (Indian tariff lines), 452 (MERCOSUR tariff lines)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Launch statements / WTO committee discussion",
+     "series": "India-MERCOSUR tariff lines covered",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The terms of reference were still being finalised on 14 September; one outlet says they were completed by 1 October",
+     "value": "1 Oct 2026 (terms of reference completion)",
+     "period": "1 Oct 2026",
+     "period_end": "2026-10-01",
+     "publisher": "Single trade press outlet",
+     "series": "India-MERCOSUR negotiation terms of reference",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India–Brazil Trade Monitoring Mechanism, seventh meeting, discusses expansion (PIB 2176041)",
+     "value": "7 Oct 2025 (meeting date)",
+     "period": "7 Oct 2025",
+     "period_end": "2025-10-07",
+     "publisher": "PIB (Press Information Bureau)",
+     "series": "India-MERCOSUR negotiation meetings",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India–Brazil joint declaration on deepening the MERCOSUR–India agreement (16 October 2025, PIB 2180058)",
+     "value": "16 Oct 2025 (declaration date)",
+     "period": "16 Oct 2025",
+     "period_end": "2025-10-16",
+     "publisher": "PIB (Press Information Bureau)",
+     "series": "India-MERCOSUR negotiation declarations",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The 2009 pact is narrow: it gives preferences on about 450 Indian and 452 MERCOSUR tariff lines",
+     "value": "450 (Indian tariff lines), 452 (MERCOSUR tariff lines)",
+     "period": "2009",
+     "period_end": "2009-06-01",
+     "publisher": "Launch statements / WTO committee discussion",
+     "series": "India-MERCOSUR tariff lines covered (2009)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Preferential trade agreement signed, as reported; it takes five years to come into force",
+     "value": "25 Jan 2004 (agreement signed), 1 Jun 2009 (in force)",
+     "period": [
+      "25 Jan 2004",
+      "1 Jun 2009"
+     ],
+     "period_end": [
+      "2004-01-25",
+      "2009-06-01"
+     ],
+     "publisher": "WTO committee discussion / PIB",
+     "series": "India-MERCOSUR agreement timeline",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

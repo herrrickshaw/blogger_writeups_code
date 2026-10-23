@@ -1,0 +1,570 @@
+{
+ "slug": "574-gw-and-counting-indias-wind-fleet",
+ "text_sha1": "71b80d3891a74d03",
+ "chars": 11955,
+ "checked": "2026-10-23T10:14:28",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "India's wind fleet crossed 57,443 MW in June 2026",
+     "value": "57,443 MW",
+     "period": "June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "MNRE",
+     "series": "Cumulative installed wind capacity",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "695.5 GW of onshore potential at 120m hub height",
+     "value": "695.5 GW",
+     "period": null,
+     "period_end": null,
+     "publisher": "NIWE",
+     "series": "Onshore wind potential at 120m hub height",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "offshore wind, with 70 GW of technical potential off the Gujarat and Tamil Nadu coasts",
+     "value": "70 GW",
+     "period": null,
+     "period_end": null,
+     "publisher": "GWEC",
+     "series": "Global Offshore Wind Report",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "302 GW of installable potential at 100m hub height",
+     "value": "302 GW",
+     "period": null,
+     "period_end": null,
+     "publisher": "NIWE",
+     "series": "Wind resource atlas at 100m hub height",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "695.5 GW at 120m, and 1,163.9 GW at 150m",
+     "value": "1,163.9 GW",
+     "period": null,
+     "period_end": null,
+     "publisher": "NIWE",
+     "series": "Wind resource atlas at 150m hub height",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "roughly 6 GW of new wind capacity was added in FY2025-26, a 44 per cent increase over FY2024-25's additions",
+     "value": "6 GW",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "MNRE",
+     "series": "Annual wind capacity additions",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "credits India with adding 6.3 GW of new wind capacity in calendar year 2025",
+     "value": "6.3 GW",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "GWEC",
+     "series": "Global Wind Report",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Gujarat | 16,086.66 | ~28% | 2,965 MW (49% of new additions) | 33,706 million units",
+     "value": "16,086.66 MW",
+     "period": "June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "MNRE",
+     "series": "State-wise cumulative installed wind capacity",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "2,965 MW (49% of new additions)",
+     "value": "2,965 MW",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "MNRE",
+     "series": "State-wise annual wind capacity additions",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "33,706 million units",
+     "value": "33,706 million units",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "MNRE",
+     "series": "State-wise wind generation",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Tamil Nadu | 12,273.69 | ~21.4% | — | 24,200 million units",
+     "value": "12,273.69 MW",
+     "period": "June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "MNRE",
+     "series": "State-wise cumulative installed wind capacity",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "24,200 million units",
+     "value": "24,200 million units",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "MNRE",
+     "series": "State-wise wind generation",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Karnataka | 8,896.34 | ~15.5% | 1,379 MW (23% of new additions) | 18,804 million units",
+     "value": "8,896.34 MW",
+     "period": "June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "MNRE",
+     "series": "State-wise cumulative installed wind capacity",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "1,379 MW (23% of new additions)",
+     "value": "1,379 MW",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "MNRE",
+     "series": "State-wise annual wind capacity additions",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "18,804 million units",
+     "value": "18,804 million units",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "MNRE",
+     "series": "State-wise wind generation",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Maharashtra | 6,318 | — | 643 MW (11% of new additions) | —",
+     "value": "6,318 MW",
+     "period": "June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "MNRE",
+     "series": "State-wise cumulative installed wind capacity",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "643 MW (11% of new additions)",
+     "value": "643 MW",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "MNRE",
+     "series": "State-wise annual wind capacity additions",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Rajasthan | 5,516 | — | — | —",
+     "value": "5,516 MW",
+     "period": "June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "MNRE",
+     "series": "State-wise cumulative installed wind capacity",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "total offshore capacity reaching only around 2 GW by 2035",
+     "value": "2 GW",
+     "period": "2035",
+     "period_end": "2035-12-31",
+     "publisher": "GWEC",
+     "series": "Global Offshore Wind Report",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "put the total at about 59.2 GW on 30 September 2026",
+     "value": "59.2 GW",
+     "period": "30 September 2026",
+     "period_end": "2026-09-30",
+     "publisher": "MNRE",
+     "series": "Cumulative installed wind capacity",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "after 680.75 MW was added in September",
+     "value": "680.75 MW",
+     "period": "September 2026",
+     "period_end": "2026-09-30",
+     "publisher": "MNRE",
+     "series": "Monthly wind capacity additions",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "An MNRE official has said India is on track to add 7.5–8 GW of wind in 2026-27",
+     "value": "7.5–8 GW",
+     "period": "2026-27",
+     "period_end": "2027-03-31",
+     "publisher": "MNRE",
+     "series": "Wind capacity addition outlook",
+     "frequency": "annual",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "India's wind fleet crossed 57,443 MW in June 2026",
+     "value": "57,443 MW",
+     "period": "June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "MNRE",
+     "series": "Cumulative Installed Wind Capacity",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "India's cumulative installed wind capacity reached 57,443.39 MW by the end of June 2026",
+     "value": "57,443.39 MW",
+     "period": "June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "MNRE",
+     "series": "Cumulative Installed Wind Capacity",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "roughly 6 GW of new wind capacity was added in FY2025-26, a 44 per cent increase over FY2024-25's additions",
+     "value": "6 GW (FY2025-26 additions)",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "MNRE",
+     "series": "Annual Wind Capacity Additions",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "India's total installed base ranks fourth globally, behind only China, the United States, and Germany",
+     "value": "57.4 GW (India's total installed wind capacity)",
+     "period": null,
+     "period_end": null,
+     "publisher": "GWEC (Global Wind Energy Council)",
+     "series": "Global Wind Report 2025",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "GWEC's Global Wind Report 2025 credits India with adding 6.3 GW of new wind capacity in calendar year 2025",
+     "value": "6.3 GW",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "GWEC",
+     "series": "Global Wind Report 2025",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Gujarat | 16,086.66 | ~28% | 2,965 MW (49% of new additions) | 33,706 million units",
+     "value": "16,086.66 MW",
+     "period": "June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "MNRE (via secondary compilations)",
+     "series": "State-wise Installed Wind Capacity",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Gujarat | ... | 2,965 MW (49% of new additions) | ...",
+     "value": "2,965 MW",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "MNRE (via secondary compilations)",
+     "series": "FY2025-26 Wind Capacity Additions by State",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Tamil Nadu | 12,273.69 | ~21.4% | — | 24,200 million units",
+     "value": "12,273.69 MW",
+     "period": "June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "MNRE (via secondary compilations)",
+     "series": "State-wise Installed Wind Capacity",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Karnataka | 8,896.34 | ~15.5% | 1,379 MW (23% of new additions) | 18,804 million units",
+     "value": "8,896.34 MW",
+     "period": "June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "MNRE (via secondary compilations)",
+     "series": "State-wise Installed Wind Capacity",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Karnataka | ... | 1,379 MW (23% of new additions) | ...",
+     "value": "1,379 MW",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "MNRE (via secondary compilations)",
+     "series": "FY2025-26 Wind Capacity Additions by State",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Maharashtra | 6,318 | — | 643 MW (11% of new additions) | —",
+     "value": "6,318 MW",
+     "period": "June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "MNRE (via secondary compilations)",
+     "series": "State-wise Installed Wind Capacity",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Maharashtra | ... | 643 MW (11% of new additions) | ...",
+     "value": "643 MW",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "MNRE (via secondary compilations)",
+     "series": "FY2025-26 Wind Capacity Additions by State",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Rajasthan | 5,516 | — | — | —",
+     "value": "5,516 MW",
+     "period": "June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "MNRE (via secondary compilations)",
+     "series": "State-wise Installed Wind Capacity",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "NIWE potential at 100m hub height, 302 GW",
+     "value": "302 GW",
+     "period": null,
+     "period_end": null,
+     "publisher": "NIWE",
+     "series": "Onshore Wind Resource Atlas (100m hub height)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "NIWE potential at 120m hub height, 695.5 GW",
+     "value": "695.5 GW",
+     "period": null,
+     "period_end": null,
+     "publisher": "NIWE",
+     "series": "Onshore Wind Resource Atlas (120m hub height)",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "NIWE potential at 150m hub height, 1,163.9 GW",
+     "value": "1,163.9 GW",
+     "period": null,
+     "period_end": null,
+     "publisher": "NIWE",
+     "series": "Onshore Wind Resource Atlas (150m hub height)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India's entire 57.4 GW fleet represents barely 8 per cent utilisation of the national onshore resource",
+     "value": "8%",
+     "period": null,
+     "period_end": null,
+     "publisher": "NIWE",
+     "series": "Onshore Wind Resource Utilization (based on 120m hub height potential)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India has an estimated 70 GW of technical offshore wind potential along the Gujarat and Tamil Nadu coasts",
+     "value": "70 GW",
+     "period": null,
+     "period_end": null,
+     "publisher": "GWEC",
+     "series": "Global Offshore Wind Report 2026",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "MNRE's monthly data... put the total at about 59.2 GW on 30 September 2026, after 680.75 MW was added in September",
+     "value": "59.2 GW",
+     "period": "September 2026",
+     "period_end": "2026-09-30",
+     "publisher": "MNRE",
+     "series": "Monthly Installed Wind Capacity",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "MNRE's monthly data... after 680.75 MW was added in September",
+     "value": "680.75 MW",
+     "period": "September 2026",
+     "period_end": "2026-09-30",
+     "publisher": "MNRE",
+     "series": "Monthly Wind Capacity Additions",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "MNRE official has said India is on track to add 7.5–8 GW of wind in 2026-27",
+     "value": "7.5–8 GW",
+     "period": "FY2026-27",
+     "period_end": "2027-03-31",
+     "publisher": "MNRE",
+     "series": "Annual Wind Capacity Additions Forecast",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "NIWE has surveyed India's onshore wind resource at progressively taller hub heights... 900+ monitoring stations",
+     "value": "900+",
+     "period": null,
+     "period_end": null,
+     "publisher": "NIWE",
+     "series": "Wind Monitoring Stations",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "NIWE has surveyed India's onshore wind resource... 500m spatial resolution",
+     "value": "500m",
+     "period": null,
+     "period_end": null,
+     "publisher": "NIWE",
+     "series": "Spatial Resolution of Wind Resource Atlas",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "GWEC's own forecast is candid about the timeline this implies: it expects India's first offshore wind projects to actually come online in the early 2030s, with total offshore capacity reaching only around 2 GW by 2035",
+     "value": "2 GW",
+     "period": "2035",
+     "period_end": "2035-12-31",
+     "publisher": "GWEC",
+     "series": "Offshore Wind Capacity Forecast",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "a revised tender schedule is expected in the second half of 2026",
+     "value": "H2 2026",
+     "period": "Second half of 2026",
+     "period_end": "2026-06-30",
+     "publisher": "GWEC",
+     "series": "Offshore Wind Tender Schedule",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "GWEC's Global Offshore Wind Report 2026... first commissioning expected early 2030s",
+     "value": "early 2030s",
+     "period": "Early 2030s",
+     "period_end": "2032-12-31",
+     "publisher": "GWEC",
+     "series": "Offshore Wind Commissioning Timeline",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The National Repowering & Life Extension Policy for Wind Power Projects (issued 7 December 2023)",
+     "value": "7 December 2023",
+     "period": "7 December 2023",
+     "period_end": "2023-12-07",
+     "publisher": "MNRE",
+     "series": "National Repowering & Life Extension Policy Notification",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Tamil Nadu's NIWE numbers found, has roughly a third of its own assessed onshore potential built out",
+     "value": "~1/3",
+     "period": null,
+     "period_end": null,
+     "publisher": "NIWE",
+     "series": "Tamil Nadu Onshore Wind Potential Utilization",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Gujarat's H1 2026 capacity additions",
+     "value": "Not specified (part of 2,965 MW FY2025-26 additions)",
+     "period": "H1 2026",
+     "period_end": "2026-06-30",
+     "publisher": "WindInsider",
+     "series": "State-wise Wind Capacity Additions",
+     "frequency": "half-yearly",
+     "headline": false
+    },
+    {
+     "quote": "Gujarat's 49% share of FY2025-26's new wind additions",
+     "value": "49%",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "MNRE (via secondary compilations)",
+     "series": "State-wise Share of New Wind Additions",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Gujarat's H1 2026 capacity additions... 33,706 million units",
+     "value": "33,706 million units",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "MNRE (via secondary compilations)",
+     "series": "State-wise Wind Generation",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Tamil Nadu... 24,200 million units",
+     "value": "24,200 million units",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "MNRE (via secondary compilations)",
+     "series": "State-wise Wind Generation",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Karnataka... 18,804 million units",
+     "value": "18,804 million units",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "MNRE (via secondary compilations)",
+     "series": "State-wise Wind Generation",
+     "frequency": "annual",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

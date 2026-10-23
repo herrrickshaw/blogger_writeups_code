@@ -1,0 +1,350 @@
+{
+ "slug": "indias-labour-codes-took-six-years-to",
+ "text_sha1": "e8316b0735aabe6c",
+ "chars": 10886,
+ "checked": "2026-10-23T14:16:33",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "60.4% → 75.5% government's targeted rise in the formal-workforce share, once fully rolled out",
+     "value": "60.4% to 75.5%",
+     "period": "once fully rolled out",
+     "period_end": null,
+     "publisher": "SBI Research",
+     "series": "formal-workforce share target",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "29 → 4 central labour laws consolidated into the four codes",
+     "value": "29 to 4",
+     "period": "2019-2020",
+     "period_end": "2020-12-31",
+     "publisher": "Parliament",
+     "series": "central labour laws consolidation",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "~11 of 28 states with final rules notified, per the most recent single-date tracker found",
+     "value": "11 of 28 states",
+     "period": "9 July 2026",
+     "period_end": "2026-07-09",
+     "publisher": "employmentlaw.lkslaw.com",
+     "series": "state-wise tracker",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "This post's latest count, from a 9 July 2026 tracker, put 11 states at final rules notified.",
+     "value": "11 states",
+     "period": "9 July 2026",
+     "period_end": "2026-07-09",
+     "publisher": "employmentlaw.lkslaw.com",
+     "series": "state-wise tracker",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "An earlier March 2026 snapshot listed a different, overlapping set of six states with all four codes' rules notified",
+     "value": "6 states",
+     "period": "March 2026",
+     "period_end": "2026-03-31",
+     "publisher": "trade coverage",
+     "series": "state-wise tracker snapshot",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "at least 17 states had taken some concrete implementation step (draft or final rules for at least one code), out of India's 28 states.",
+     "value": "17 states",
+     "period": "most recent Parliament reply",
+     "period_end": null,
+     "publisher": "Parliament",
+     "series": "Parliament reply implementation progress",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Final rules notified \n 11 \n per a 9 July 2026 state-wise tracker snapshot",
+     "value": "11",
+     "period": "9 July 2026",
+     "period_end": "2026-07-09",
+     "publisher": "employmentlaw.lkslaw.com tracker",
+     "series": "state-wise tracker snapshot",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Took at least some step \n 17 \n draft or final rules for at least one of the four codes, per Parliament reply",
+     "value": "17",
+     "period": "most recent Parliament reply",
+     "period_end": null,
+     "publisher": "Parliament",
+     "series": "Parliament reply implementation progress",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "All Indian states \n 28",
+     "value": "28",
+     "period": "current",
+     "period_end": null,
+     "publisher": "Parliament",
+     "series": "state count",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "formal protection for more than 90% of informal workers, a rise in the overall formal-workforce share from an estimated 60.4% to a targeted 75.5%, and social-security coverage reaching 85%.",
+     "value": "90%",
+     "period": "once fully rolled out",
+     "period_end": null,
+     "publisher": "SBI Research",
+     "series": "informal-worker protection target",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "formal protection for more than 90% of informal workers, a rise in the overall formal-workforce share from an estimated 60.4% to a targeted 75.5%, and social-security coverage reaching 85%.",
+     "value": "60.4%",
+     "period": "estimated",
+     "period_end": null,
+     "publisher": "SBI Research",
+     "series": "formal-workforce share baseline estimate",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "formal protection for more than 90% of informal workers, a rise in the overall formal-workforce share from an estimated 60.4% to a targeted 75.5%, and social-security coverage reaching 85%.",
+     "value": "75.5%",
+     "period": "targeted",
+     "period_end": null,
+     "publisher": "SBI Research",
+     "series": "formal-workforce share target",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "formal protection for more than 90% of informal workers, a rise in the overall formal-workforce share from an estimated 60.4% to a targeted 75.5%, and social-security coverage reaching 85%.",
+     "value": "85%",
+     "period": "targeted",
+     "period_end": null,
+     "publisher": "SBI Research",
+     "series": "social-security coverage target",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "Parliament passed India's four labour codes in 2019 and 2020, consolidating 29 laws into four.",
+     "value": "29 laws consolidated into 4",
+     "period": null,
+     "period_end": null,
+     "publisher": "PIB / Ministry of Labour and Employment",
+     "series": "Labour Code Consolidation (2019-2020)",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "They only came into legal force on 21 November 2025",
+     "value": "21 November 2025",
+     "period": "21 November 2025",
+     "period_end": "2025-11-21",
+     "publisher": "PIB",
+     "series": "Labour Codes Notification Date",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "The government notified the labour codes into force and wrote the Central Rules that operate them — but for most Indian workers, whether anything actually changes now depends on each state's own rulemaking.",
+     "value": "28 states and UTs",
+     "period": null,
+     "period_end": null,
+     "publisher": "Constitutional Framework (Concurrent List)",
+     "series": "States and Union Territories",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "The most recent single-date count located, dated 9 July 2026, put 11 states at final rules notified",
+     "value": "11 states",
+     "period": "as of 9 July 2026",
+     "period_end": "2026-07-09",
+     "publisher": "employmentlaw.lkslaw.com",
+     "series": "State-wise Labour Code Rules Notification Tracker",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "An earlier March 2026 snapshot listed a different, overlapping set of six states with all four codes' rules notified",
+     "value": "6 states",
+     "period": "as of March 2026",
+     "period_end": "2026-03-31",
+     "publisher": "employmentlaw.lkslaw.com (via trade coverage)",
+     "series": "State-wise Labour Code Rules Notification Tracker",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "at least 17 states had taken some concrete implementation step (draft or final rules for at least one code)",
+     "value": "17 states",
+     "period": null,
+     "period_end": null,
+     "publisher": "Parliament reply (as reported in trade coverage)",
+     "series": "State-wise Labour Code Implementation Progress",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The government's original target was to bring all four codes into effect by financial year 2024, i.e. around April 2023.",
+     "value": "FY2024 (April 2023)",
+     "period": "FY2024",
+     "period_end": "2023-03-31",
+     "publisher": "Government of India (ISAS, Drishti Judiciary analysis)",
+     "series": "Labour Code Rollout Target",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Draft Central Rules were published for public comment on 30 December 2025 — a 30-day objection window for the Industrial Relations Code's rules, 45 days for the other three.",
+     "value": "30 December 2025",
+     "period": "30 December 2025",
+     "period_end": "2025-12-30",
+     "publisher": "Ministry of Labour and Employment",
+     "series": "Draft Central Rules Publication",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The Ministry of Labour and Employment actually notified the final Central Rules under all four codes on 8 May 2026 (G.S.R. 343(E))",
+     "value": "8 May 2026",
+     "period": "8 May 2026",
+     "period_end": "2026-05-08",
+     "publisher": "Ministry of Labour and Employment",
+     "series": "Central Rules Notification (G.S.R. 343(E))",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "government officials indicated the final rules would be notified by 1 April 2026",
+     "value": "1 April 2026",
+     "period": "1 April 2026",
+     "period_end": "2026-04-01",
+     "publisher": "Ministry of Labour and Employment (officials)",
+     "series": "Central Rules Target Notification Date",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The Centre hoped every state and UT would notify rules under all four codes by 31 October 2026.",
+     "value": "31 October 2026",
+     "period": "31 October 2026",
+     "period_end": "2026-10-31",
+     "publisher": "Labour Secretary Chandra Bhushan Kumar (Business Standard)",
+     "series": "State Rules Notification Target",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The government's stated goals for full rollout: ... a rise in the overall formal-workforce share from an estimated 60.4% to a targeted 75.5%",
+     "value": "60.4% → 75.5%",
+     "period": null,
+     "period_end": null,
+     "publisher": "SBI Research (as reported in trade press)",
+     "series": "Formal Workforce Share Target",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The government's stated goals for full rollout: ... social-security coverage reaching 85%.",
+     "value": "85%",
+     "period": null,
+     "period_end": null,
+     "publisher": "SBI Research (as reported in trade press)",
+     "series": "Social Security Coverage Target",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The Central Rules apply only where the central government is the 'appropriate government' under India's labour-law framework: banking, insurance, telecommunications, mining, air transport, railways (including metro), major ports, oilfields, and central public-sector undertakings.",
+     "value": "9 sectors (banking, insurance, telecommunications, mining, air transport, railways, major ports, oilfields, CPSEs)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Constitutional Framework (Concurrent List)",
+     "series": "Central Rules Applicability",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "The net read: 'India's labour codes took effect on 21 November 2025' is true and also not the whole story. The Central Rules that actually operationalise the codes took another five and a half months",
+     "value": "5.5 months",
+     "period": "21 November 2025 to 8 May 2026",
+     "period_end": "2026-05-08",
+     "publisher": "Article analysis",
+     "series": "Central Rules Rollout Delay",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "more than nine months after the codes came into force, well under half of India's states had finished notifying their own rules.",
+     "value": "9 months",
+     "period": "21 November 2025 to 22 October 2026",
+     "period_end": "2026-10-22",
+     "publisher": "Article analysis",
+     "series": "State Rules Rollout Delay",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The original text below is unchanged. Revised 16 September 2026. Updated 22 October 2026.",
+     "value": "16 September 2026 (first published), 22 October 2026 (updated)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Article revision history",
+     "series": "Article Update Dates",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The Ministry of Labour and Employment should maintain a public tracker showing, for every state and union territory, the gazette date of draft and final rules under each of the four codes",
+     "value": "28 states + 8 UTs",
+     "period": null,
+     "period_end": null,
+     "publisher": "Ministry of Labour and Employment (proposed)",
+     "series": "State-wise Gazette Dates Tracker",
+     "frequency": "live (proposed)",
+     "headline": false
+    },
+    {
+     "quote": "India's 28 states, labour-code state-rules rollout (most recent snapshots located)",
+     "value": "28 states",
+     "period": null,
+     "period_end": null,
+     "publisher": "Constitutional Framework",
+     "series": "States and Union Territories",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "The Ministry of Labour and Employment should agree and publish target dates with each state that has not notified final rules",
+     "value": "17 states (as of 22 October 2026)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Ministry of Labour and Employment (proposed)",
+     "series": "State Rules Notification Target Dates",
+     "frequency": "one-off (proposed)",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

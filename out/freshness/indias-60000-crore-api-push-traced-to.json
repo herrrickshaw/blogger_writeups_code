@@ -1,0 +1,510 @@
+{
+ "slug": "indias-60000-crore-api-push-traced-to",
+ "text_sha1": "87f3ed21e42a9739",
+ "chars": 12383,
+ "checked": "2026-10-23T13:49:06",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "43.45% Share of India's pharma imports still coming from China — the number this push hasn't moved much yet",
+     "value": "43.45%",
+     "period": "recent",
+     "period_end": null,
+     "publisher": "PIB / ministry",
+     "series": "pharma imports from China",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "₹4,814cr Actually invested under the Bulk Drugs PLI by Dec 2025, against a ₹6,940cr outlay",
+     "value": "₹4,814 crore",
+     "period": "Dec 2025",
+     "period_end": "2025-12-31",
+     "publisher": "PIB / ministry",
+     "series": "Bulk Drugs PLI actual investment",
+     "frequency": "quarterly",
+     "headline": true
+    },
+    {
+     "quote": "33 Drugs covered by the scheme's 48 approved projects, per Parliament, March 2026",
+     "value": "33 drugs",
+     "period": "March 2026",
+     "period_end": "2026-03-31",
+     "publisher": "PIB / ministry",
+     "series": "Bulk Drugs PLI approved projects and drugs",
+     "frequency": "quarterly",
+     "headline": true
+    },
+    {
+     "quote": "₹60,000cr Reported December 2025 \"API push\" — a roll-up, not one appropriation",
+     "value": "₹60,000 crore",
+     "period": "December 2025",
+     "period_end": "2025-12-31",
+     "publisher": "PIB / ministry",
+     "series": "API push roll-up outlay",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "PLI — Pharmaceuticals \n 15,000 \n Feb 2021",
+     "value": "₹15,000 crore",
+     "period": "Feb 2021",
+     "period_end": "2021-02-28",
+     "publisher": "PIB / ministry",
+     "series": "PLI — Pharmaceuticals government outlay",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Biopharma SHAKTI \n 10,000 \n announced 2025",
+     "value": "₹10,000 crore",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "PIB / ministry",
+     "series": "Biopharma SHAKTI government outlay",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "PLI — Bulk Drugs \n 6,940 \n 2020–2028-29",
+     "value": "₹6,940 crore",
+     "period": "2020-2028-29",
+     "period_end": "2029-03-31",
+     "publisher": "PIB / ministry",
+     "series": "PLI — Bulk Drugs government outlay",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "PRIP (research) \n 5,000 \n call-for-proposals stage; ~11,000cr total with industry co-investment",
+     "value": "₹5,000 crore",
+     "period": "call-for-proposals stage",
+     "period_end": null,
+     "publisher": "PIB / ministry",
+     "series": "PRIP government outlay",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "PRIP (research) \n 5,000 \n call-for-proposals stage; ~11,000cr total with industry co-investment",
+     "value": "~₹11,000 crore",
+     "period": "call-for-proposals stage",
+     "period_end": null,
+     "publisher": "PIB / ministry",
+     "series": "PRIP total project value with industry co-investment",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "PLI — Medical Devices \n 3,420 \n earlier PLI tranche",
+     "value": "₹3,420 crore",
+     "period": "earlier tranche",
+     "period_end": null,
+     "publisher": "PIB / ministry",
+     "series": "PLI — Medical Devices government outlay",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Bulk Drug Parks \n 3,000 \n central share; 0 of 3 parks in commercial production 5+ yrs after approval",
+     "value": "₹3,000 crore",
+     "period": "5+ yrs after approval",
+     "period_end": null,
+     "publisher": "PIB / ministry",
+     "series": "Bulk Drug Parks central share outlay",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Sept 2025 | 26 | 2,315 | 508 | 1,807",
+     "value": "26",
+     "period": "Sept 2025",
+     "period_end": "2025-09-30",
+     "publisher": "PIB / ministry",
+     "series": "Bulk Drugs PLI molecules/KSMs with capacity created",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "Sept 2025 | 26 | 2,315 | 508 | 1,807",
+     "value": "₹2,315 crore",
+     "period": "Sept 2025",
+     "period_end": "2025-09-30",
+     "publisher": "PIB / ministry",
+     "series": "Bulk Drugs PLI cumulative sales",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "Sept 2025 | 26 | 2,315 | 508 | 1,807",
+     "value": "₹508 crore",
+     "period": "Sept 2025",
+     "period_end": "2025-09-30",
+     "publisher": "PIB / ministry",
+     "series": "Bulk Drugs PLI exports",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "Sept 2025 | 26 | 2,315 | 508 | 1,807",
+     "value": "₹1,807 crore",
+     "period": "Sept 2025",
+     "period_end": "2025-09-30",
+     "publisher": "PIB / ministry",
+     "series": "Bulk Drugs PLI import substitution",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "Dec 2025 | 28 | 2,720 | 528 | 2,192",
+     "value": "28",
+     "period": "Dec 2025",
+     "period_end": "2025-12-31",
+     "publisher": "PIB / ministry",
+     "series": "Bulk Drugs PLI molecules/KSMs with capacity created",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "Dec 2025 | 28 | 2,720 | 528 | 2,192",
+     "value": "₹2,720 crore",
+     "period": "Dec 2025",
+     "period_end": "2025-12-31",
+     "publisher": "PIB / ministry",
+     "series": "Bulk Drugs PLI cumulative sales",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "Dec 2025 | 28 | 2,720 | 528 | 2,192",
+     "value": "₹528 crore",
+     "period": "Dec 2025",
+     "period_end": "2025-12-31",
+     "publisher": "PIB / ministry",
+     "series": "Bulk Drugs PLI exports",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "Dec 2025 | 28 | 2,720 | 528 | 2,192",
+     "value": "₹2,192 crore",
+     "period": "Dec 2025",
+     "period_end": "2025-12-31",
+     "publisher": "PIB / ministry",
+     "series": "Bulk Drugs PLI import substitution",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "Mar 2026 (Parliament) | 33 drugs / 48 projects | 2,722 | 528 | 2,190",
+     "value": "33 drugs",
+     "period": "March 2026",
+     "period_end": "2026-03-31",
+     "publisher": "PIB / ministry",
+     "series": "Bulk Drugs PLI molecules/KSMs with capacity created",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "Mar 2026 (Parliament) | 33 drugs / 48 projects | 2,722 | 528 | 2,190",
+     "value": "48 projects",
+     "period": "March 2026",
+     "period_end": "2026-03-31",
+     "publisher": "PIB / ministry",
+     "series": "Bulk Drugs PLI approved projects",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "Mar 2026 (Parliament) | 33 drugs / 48 projects | 2,722 | 528 | 2,190",
+     "value": "₹2,722 crore",
+     "period": "March 2026",
+     "period_end": "2026-03-31",
+     "publisher": "PIB / ministry",
+     "series": "Bulk Drugs PLI cumulative sales",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "Mar 2026 (Parliament) | 33 drugs / 48 projects | 2,722 | 528 | 2,190",
+     "value": "₹528 crore",
+     "period": "March 2026",
+     "period_end": "2026-03-31",
+     "publisher": "PIB / ministry",
+     "series": "Bulk Drugs PLI exports",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "Mar 2026 (Parliament) | 33 drugs / 48 projects | 2,722 | 528 | 2,190",
+     "value": "₹2,190 crore",
+     "period": "March 2026",
+     "period_end": "2026-03-31",
+     "publisher": "PIB / ministry",
+     "series": "Bulk Drugs PLI import substitution",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "China supplies 70% or more of 97 distinct active ingredients",
+     "value": "70%",
+     "period": "recent",
+     "period_end": null,
+     "publisher": "PIB / ministry",
+     "series": "active ingredients import concentration from China",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "China supplies 70% or more of 97 distinct active ingredients",
+     "value": "97",
+     "period": "recent",
+     "period_end": null,
+     "publisher": "PIB / ministry",
+     "series": "distinct active ingredients supplied predominantly by China",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India's API market is estimated at roughly $15.28 billion in 2026",
+     "value": "$15.28 billion",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "Mordor Intelligence",
+     "series": "India API market size",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "forecast to reach $22.18 billion by 2031 at a 7.74% CAGR",
+     "value": "$22.18 billion",
+     "period": "2031",
+     "period_end": "2031-12-31",
+     "publisher": "Mordor Intelligence",
+     "series": "India API market forecast size",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "forecast to reach $22.18 billion by 2031 at a 7.74% CAGR",
+     "value": "7.74%",
+     "period": "2026-2031",
+     "period_end": "2031-12-31",
+     "publisher": "Mordor Intelligence",
+     "series": "India API market CAGR",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "climbing toward 30–35% as China's own share is reported falling from around 45% in 2022 toward roughly 30%",
+     "value": "30-35%",
+     "period": "forecast",
+     "period_end": null,
+     "publisher": "industry estimates",
+     "series": "India share of global API supply",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "falling from around 45% in 2022 toward roughly 30%",
+     "value": "45%",
+     "period": "2022",
+     "period_end": "2022-12-31",
+     "publisher": "industry estimates",
+     "series": "China share of global API supply",
+     "frequency": "annual",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "₹60,000 crore ($7 billion) API push to cut import dependence on critical pharmaceutical ingredients.",
+     "value": "₹60,000 crore",
+     "period": "December 2025",
+     "period_end": "2025-12-31",
+     "publisher": "Elets eHealth (via India pharma trade press)",
+     "series": "API push headline figure",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "₹4,814cr Actually invested under the Bulk Drugs PLI by Dec 2025, against a ₹6,940cr outlay",
+     "value": "₹4,814 crore (actual investment) / ₹6,940 crore (outlay)",
+     "period": "by December 2025",
+     "period_end": "2025-12-31",
+     "publisher": "Parliament (via Union Minister J.P. Nadda, March 2026 statement)",
+     "series": "Bulk Drugs PLI investment vs. outlay",
+     "frequency": "quarterly (scheme data)",
+     "headline": false
+    },
+    {
+     "quote": "33 Drugs covered by the scheme's 48 approved projects, per Parliament, March 2026",
+     "value": "33 drugs / 48 projects",
+     "period": "March 2026",
+     "period_end": "2026-03-31",
+     "publisher": "Parliament (via Union Minister J.P. Nadda)",
+     "series": "Bulk Drugs PLI approved projects and molecules",
+     "frequency": "annual (scheme reporting)",
+     "headline": false
+    },
+    {
+     "quote": "43.45% Share of India's pharma imports still coming from China",
+     "value": "43.45%",
+     "period": null,
+     "period_end": null,
+     "publisher": "DGCI&S (via this blog's earlier reporting)",
+     "series": "India's pharma import share by country",
+     "frequency": "annual (survey-based)",
+     "headline": false
+    },
+    {
+     "quote": "PLI — Pharmaceuticals: ₹15,000 crore (Feb 2021)",
+     "value": "₹15,000 crore",
+     "period": "Feb 2021",
+     "period_end": "2021-02-28",
+     "publisher": "PIB (Press Information Bureau)",
+     "series": "PLI for Pharmaceuticals outlay",
+     "frequency": "one-off (scheme announcement)",
+     "headline": false
+    },
+    {
+     "quote": "Biopharma SHAKTI: ₹10,000 crore (announced 2025)",
+     "value": "₹10,000 crore",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "PIB (via Biopharma SHAKTI mission briefing)",
+     "series": "Biopharma SHAKTI outlay",
+     "frequency": "one-off (scheme announcement)",
+     "headline": false
+    },
+    {
+     "quote": "PLI — Bulk Drugs: ₹6,940 crore (2020–2028-29)",
+     "value": "₹6,940 crore",
+     "period": "2020–2028-29",
+     "period_end": "2028-03-31",
+     "publisher": "PIB",
+     "series": "PLI for Bulk Drugs outlay",
+     "frequency": "multi-year (scheme duration)",
+     "headline": false
+    },
+    {
+     "quote": "PRIP (research): ₹5,000 crore (government outlay; ~₹11,000cr total with industry co-investment)",
+     "value": "₹5,000 crore (govt) / ~₹11,000 crore (total)",
+     "period": "Call-for-proposals stage",
+     "period_end": null,
+     "publisher": "PIB (PRIP call for proposals)",
+     "series": "PRIP outlay and total project value",
+     "frequency": "one-off (scheme stage)",
+     "headline": false
+    },
+    {
+     "quote": "PLI — Medical Devices: ₹3,420 crore (earlier PLI tranche)",
+     "value": "₹3,420 crore",
+     "period": null,
+     "period_end": null,
+     "publisher": "PIB (via IBEF/India Pharma Outlook)",
+     "series": "PLI for Medical Devices outlay",
+     "frequency": "one-off (scheme roll-up)",
+     "headline": false
+    },
+    {
+     "quote": "Bulk Drug Parks: ₹3,000 crore (central share; ~₹6,300cr combined with state/industry)",
+     "value": "₹3,000 crore (central) / ~₹6,300 crore (total)",
+     "period": "2020 scheme",
+     "period_end": null,
+     "publisher": "PIB (Parliament data)",
+     "series": "Bulk Drug Parks outlay",
+     "frequency": "one-off (scheme roll-up)",
+     "headline": false
+    },
+    {
+     "quote": "0 of 3 Bulk Drug Parks in commercial production 5+ years after Cabinet approval",
+     "value": "0/3 parks",
+     "period": "5+ years after Cabinet approval (2020)",
+     "period_end": "2025-03-31 (approx.)",
+     "publisher": "PIB/Parliament (via this blog's earlier reporting)",
+     "series": "Bulk Drug Parks commercialization status",
+     "frequency": "one-off (scheme milestone check)",
+     "headline": false
+    },
+    {
+     "quote": "As of Sept 2025: ₹2,315 crore cumulative sales, ₹508 crore exports, ₹1,807 crore import substitution",
+     "value": "₹2,315 crore (sales) / ₹508 crore (exports) / ₹1,807 crore (import substitution)",
+     "period": "September 2025",
+     "period_end": "2025-09-30",
+     "publisher": "Secondary aggregators (scheme reporting)",
+     "series": "Bulk Drugs PLI performance (Sept 2025)",
+     "frequency": "quarterly (scheme data)",
+     "headline": false
+    },
+    {
+     "quote": "As of Dec 2025: ₹2,720 crore cumulative sales, ₹528 crore exports, ₹2,192 crore import substitution",
+     "value": "₹2,720 crore (sales) / ₹528 crore (exports) / ₹2,192 crore (import substitution)",
+     "period": "December 2025",
+     "period_end": "2025-12-31",
+     "publisher": "Secondary aggregators (scheme reporting)",
+     "series": "Bulk Drugs PLI performance (Dec 2025)",
+     "frequency": "quarterly (scheme data)",
+     "headline": false
+    },
+    {
+     "quote": "As of Mar 2026: ₹2,722 crore cumulative sales, ₹528 crore exports, ₹2,190 crore import substitution",
+     "value": "₹2,722 crore (sales) / ₹528 crore (exports) / ₹2,190 crore (import substitution)",
+     "period": "March 2026",
+     "period_end": "2026-03-31",
+     "publisher": "Parliament (via Union Minister J.P. Nadda)",
+     "series": "Bulk Drugs PLI performance (Mar 2026)",
+     "frequency": "quarterly (scheme data)",
+     "headline": false
+    },
+    {
+     "quote": "India's API market is estimated at roughly $15.28 billion in 2026",
+     "value": "$15.28 billion",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "Mordor Intelligence",
+     "series": "API market size (India)",
+     "frequency": "annual (market report)",
+     "headline": false
+    },
+    {
+     "quote": "forecast to reach $22.18 billion by 2031 at a 7.74% CAGR",
+     "value": "$22.18 billion (2031) / 7.74% CAGR",
+     "period": "2026–2031",
+     "period_end": "2031-12-31",
+     "publisher": "Mordor Intelligence",
+     "series": "API market forecast (India)",
+     "frequency": "annual (market report)",
+     "headline": false
+    },
+    {
+     "quote": "India's share of global API supply climbing toward 30–35%, China's share falling from ~45% in 2022 to ~30%",
+     "value": "India: 30–35% / China: ~45% (2022) → ~30% (current)",
+     "period": "2022–current",
+     "period_end": "2026-09-16",
+     "publisher": "Mordor Intelligence",
+     "series": "Global API market share (India/China)",
+     "frequency": "annual (market report)",
+     "headline": false
+    },
+    {
+     "quote": "₹41,500 crore API export figure (Union Minister J.P. Nadda, March 2026)",
+     "value": "₹41,500 crore",
+     "period": "March 2026",
+     "period_end": "2026-03-31",
+     "publisher": "newsonair.gov.in (Akashvani/Prasar Bharati)",
+     "series": "API export value (annualized)",
+     "frequency": "annual (ministerial statement)",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

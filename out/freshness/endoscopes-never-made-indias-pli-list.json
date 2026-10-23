@@ -1,0 +1,310 @@
+{
+ "slug": "endoscopes-never-made-indias-pli-list",
+ "text_sha1": "e2e76b36e6f9e236",
+ "chars": 12672,
+ "checked": "2026-10-23T11:14:40",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "$112mn in imports, Japan-dominated, no applicant.",
+     "value": "$112mn",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TradeStat fetch",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "endoscopes already run 57% export coverage",
+     "value": "57%",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TradeStat fetch",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "Dialysis machines (PLI — Nipro)\n \n 71%",
+     "value": "71%",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TradeStat fetch",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "Ophthalmic instruments (no PLI)\n \n 18%",
+     "value": "18%",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TradeStat fetch",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "Oxygen concentrators (PLI — 4 applicants)\n \n 9%",
+     "value": "9%",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TradeStat fetch",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "Pacemakers (in PLI scope, 0 applicants)\n \n 1%",
+     "value": "1%",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TradeStat fetch",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "$3,097mn in imports, +10.5% YoY, 48% coverage\noverall.",
+     "value": "$3,097mn",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TradeStat fetch",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "$3,097mn in imports, +10.5% YoY, 48% coverage\noverall.",
+     "value": "+10.5%",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TradeStat fetch",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "$3,097mn in imports, +10.5% YoY, 48% coverage\noverall.",
+     "value": "48%",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TradeStat fetch",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "Quote": "The National Medical Devices Policy 2023's 10–12% global-share target by 2047",
+     "value": "10–12%",
+     "period": "2047",
+     "period_end": "2047-12-31",
+     "publisher": "PIB / ministry",
+     "series": "National Medical Devices Policy 2023",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "endoscopes as one of ten device categories the scheme never touched — $112mn in imports, Japan-dominated, no applicant.",
+     "value": "$112 million",
+     "period": "FY2025-26 (provisional)",
+     "period_end": "2026-03-31",
+     "publisher": "TradeStat (DoP)",
+     "series": "FY2025-26 TradeStat fetch (imports for endoscopes)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "endoscopes already run 57% export coverage — better than every device family PLI actually subsidised except renal care.",
+     "value": "57%",
+     "period": "FY2025-26 (provisional)",
+     "period_end": "2026-03-31",
+     "publisher": "TradeStat (DoP)",
+     "series": "FY2025-26 TradeStat fetch (export coverage for endoscopes)",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "India exports roughly $64mn against that $112mn of imports.",
+     "value": "$64 million",
+     "period": "FY2025-26 (provisional)",
+     "period_end": "2026-03-31",
+     "publisher": "TradeStat (DoP)",
+     "series": "FY2025-26 TradeStat fetch (exports for endoscopes)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Dialysis machines (PLI — Nipro) 71%.",
+     "value": "71%",
+     "period": "FY2025-26 (provisional)",
+     "period_end": "2026-03-31",
+     "publisher": "TradeStat (DoP)",
+     "series": "FY2025-26 TradeStat fetch (export coverage for dialysis machines)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Ophthalmic instruments (no PLI) 18%.",
+     "value": "18%",
+     "period": "FY2025-26 (provisional)",
+     "period_end": "2026-03-31",
+     "publisher": "TradeStat (DoP)",
+     "series": "FY2025-26 TradeStat fetch (export coverage for ophthalmic instruments)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Oxygen concentrators (PLI — 4 applicants) 9%.",
+     "value": "9%",
+     "period": "FY2025-26 (provisional)",
+     "period_end": "2026-03-31",
+     "publisher": "TradeStat (DoP)",
+     "series": "FY2025-26 TradeStat fetch (export coverage for oxygen concentrators)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Pacemakers (in PLI scope, 0 applicants) 1%.",
+     "value": "1%",
+     "period": "FY2025-26 (provisional)",
+     "period_end": "2026-03-31",
+     "publisher": "TradeStat (DoP)",
+     "series": "FY2025-26 TradeStat fetch (export coverage for pacemakers)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "surgical & diagnostic instruments family that the trade-gap piece tracks separately: $3,097mn in imports, +10.5% YoY, 48% coverage overall.",
+     "value": "$3,097 million",
+     "period": null,
+     "period_end": null,
+     "publisher": "TradeStat (DoP)",
+     "series": "Surgical & diagnostic instruments import data (YoY growth)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "surgical & diagnostic instruments family... 48% coverage overall.",
+     "value": "48%",
+     "period": null,
+     "period_end": null,
+     "publisher": "TradeStat (DoP)",
+     "series": "Surgical & diagnostic instruments export coverage",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "The Department of Pharmaceuticals’ call for proposals under the SMDI scheme opened on 23 June 2026 and closed on 23 July 2026.",
+     "value": "23 June 2026 to 23 July 2026",
+     "period": null,
+     "period_end": "2026-07-23",
+     "publisher": "Department of Pharmaceuticals",
+     "series": "SMDI call for proposals timeline",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "PLI-MD closes to new applicants in March 2027 with a one-year gestation period",
+     "value": "March 2027",
+     "period": null,
+     "period_end": "2027-03-31",
+     "publisher": "PIB (Department of Pharmaceuticals)",
+     "series": "PLI-MD scheme closure date",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "PLI-MD's official list of 38 high-end devices under the scheme... 13 February 2026",
+     "value": "38",
+     "period": null,
+     "period_end": null,
+     "publisher": "PIB",
+     "series": "PLI-MD approved device list count",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The National Medical Devices Policy 2023's 10–12% global-share target by 2047",
+     "value": "10–12%",
+     "period": "2047",
+     "period_end": "2047-12-31",
+     "publisher": "NITI Aayog (via National Medical Devices Policy 2023)",
+     "series": "Global market share target for medical devices",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "PLI-MD approved-applicant list, revised 25 April 2023",
+     "value": "25 April 2023",
+     "period": null,
+     "period_end": "2023-04-25",
+     "publisher": "Department of Pharmaceuticals",
+     "series": "PLI-MD approved-applicant list revision date",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "PIB Press Release ID 2227618, 13 February 2026, official 38-device PLI-MD list",
+     "value": "13 February 2026",
+     "period": null,
+     "period_end": "2026-02-13",
+     "publisher": "PIB",
+     "series": "PLI-MD official device list release date",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "PIB Press Release ID 2204598, 16 December 2025, Lok Sabha statement on scheme closure",
+     "value": "16 December 2025",
+     "period": null,
+     "period_end": "2025-12-16",
+     "publisher": "PIB",
+     "series": "PLI-MD Lok Sabha statement",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "SMDI operational guidelines, Department of Pharmaceuticals, components/accessories window live since June 2026.",
+     "value": "June 2026",
+     "period": null,
+     "period_end": null,
+     "publisher": "Department of Pharmaceuticals",
+     "series": "SMDI components/accessories window launch date",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Capsule endoscopy (PillCam, now Medtronic) — first cleared by the US FDA in 2001",
+     "value": "2001",
+     "period": null,
+     "period_end": "2001-12-31",
+     "publisher": "US FDA",
+     "series": "FDA clearance date for capsule endoscopy",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The Department of Pharmaceuticals should publish an annual table for the 148-code device basket listing imports, exports, export coverage and PLI-MD or SMDI applicants for each line",
+     "value": "annual",
+     "period": null,
+     "period_end": null,
+     "publisher": "Department of Pharmaceuticals (proposed)",
+     "series": "Annual 148-code device basket table (proposed)",
+     "frequency": "annual",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

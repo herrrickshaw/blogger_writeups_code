@@ -1,0 +1,610 @@
+{
+ "slug": "biogas-is-priority-sector-loan-43",
+ "text_sha1": "ebba16193cd1c13a",
+ "chars": 18712,
+ "checked": "2026-10-23T10:42:22",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "+43% Rise in the administered CBG price, Rs 1,478 to Rs 2,110 a MMBtu, from September 2026",
+     "value": "+43%",
+     "period": "September 2026",
+     "period_end": "2026-09-30",
+     "publisher": "PIB / ministry",
+     "series": "GOBARdhan administered CBG price",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "5.50% Repo rate after the 25 bp hike of 7 October, the first since February 2023",
+     "value": "5.50%",
+     "period": "7 October 2026",
+     "period_end": "2026-10-07",
+     "publisher": "RBI",
+     "series": "Repo rate",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "Rs 2,110 per MMBtu",
+     "value": "Rs 2,110 per MMBtu",
+     "period": "September 2026",
+     "period_end": "2026-09-30",
+     "publisher": "PIB / ministry",
+     "series": "GOBARdhan administered CBG price",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "Rs 1,478 per MMBtu",
+     "value": "Rs 1,478 per MMBtu",
+     "period": "June to October 2025",
+     "period_end": "2025-10-31",
+     "publisher": "PIB / ministry",
+     "series": "GOBARdhan administered CBG price",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Rs 1,380 in May 2025",
+     "value": "Rs 1,380",
+     "period": "May 2025",
+     "period_end": "2025-05-31",
+     "publisher": "PIB / ministry",
+     "series": "GOBARdhan administered CBG price",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Delhi’s IGL charged Rs 86.98 a kilogram after a hike on 29 August 2026",
+     "value": "Rs 86.98 a kilogram",
+     "period": "29 August 2026",
+     "period_end": "2026-08-29",
+     "publisher": "PIB / ministry",
+     "series": "CNG retail price",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Mumbai’s MGL Rs 88 from 1 September",
+     "value": "Rs 88",
+     "period": "1 September 2026",
+     "period_end": "2026-09-01",
+     "publisher": "PIB / ministry",
+     "series": "CNG retail price",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Standing Deposit Facility; Marginal Standing Facility and Bank Rate | 5.25%; 5.75%",
+     "value": "5.25%",
+     "period": "7 October 2026",
+     "period_end": "2026-10-07",
+     "publisher": "RBI",
+     "series": "Standing Deposit Facility",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Standing Deposit Facility; Marginal Standing Facility and Bank Rate | 5.25%; 5.75%",
+     "value": "5.75%",
+     "period": "7 October 2026",
+     "period_end": "2026-10-07",
+     "publisher": "RBI",
+     "series": "Marginal Standing Facility and Bank Rate",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Weighted average lending rate, fresh loans (August 2026) | 8.61%",
+     "value": "8.61%",
+     "period": "August 2026",
+     "period_end": "2026-08-31",
+     "publisher": "RBI",
+     "series": "Weighted average lending rate, fresh loans",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Weighted average lending rate, outstanding loans (August 2026) | 8.96%",
+     "value": "8.96%",
+     "period": "August 2026",
+     "period_end": "2026-08-31",
+     "publisher": "RBI",
+     "series": "Weighted average lending rate, outstanding loans",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Share of floating-rate loans linked to an external benchmark (end-June 2026) | 68.2%",
+     "value": "68.2%",
+     "period": "end-June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "RBI",
+     "series": "Share of floating-rate loans linked to an external benchmark",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "Agriculture infrastructure (CBG plants named in the indicative list) | Rs 100 crore across the banking system",
+     "value": "Rs 100 crore",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "RBI",
+     "series": "Priority Sector Lending Directions",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Renewable energy (generators, public utilities) | Rs 35 crore (earlier Rs 30 crore)",
+     "value": "Rs 35 crore",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "RBI",
+     "series": "Priority Sector Lending Directions",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Individual households (renewable energy) | Rs 10 lakh",
+     "value": "Rs 10 lakh",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "RBI",
+     "series": "Priority Sector Lending Directions",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Start-ups | Rs 50 crore under the 2020 revision",
+     "value": "Rs 50 crore",
+     "period": "2020",
+     "period_end": "2020-12-31",
+     "publisher": "RBI",
+     "series": "Priority Sector Lending Directions",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "Micro Rs 2.5 crore investment or Rs 10 crore turnover",
+     "value": "Rs 2.5 crore",
+     "period": "1 Apr 2025",
+     "period_end": "2025-04-01",
+     "publisher": "MoSPI",
+     "series": "MSME definition",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Micro Rs 2.5 crore investment or Rs 10 crore turnover",
+     "value": "Rs 10 crore",
+     "period": "1 Apr 2025",
+     "period_end": "2025-04-01",
+     "publisher": "MoSPI",
+     "series": "MSME definition",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "small Rs 25 crore or Rs 100 crore",
+     "value": "Rs 25 crore",
+     "period": "1 Apr 2025",
+     "period_end": "2025-04-01",
+     "publisher": "MoSPI",
+     "series": "MSME definition",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "small Rs 25 crore or Rs 100 crore",
+     "value": "Rs 100 crore",
+     "period": "1 Apr 2025",
+     "period_end": "2025-04-01",
+     "publisher": "MoSPI",
+     "series": "MSME definition",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "medium Rs 125 crore or Rs 500 crore",
+     "value": "Rs 125 crore",
+     "period": "1 Apr 2025",
+     "period_end": "2025-04-01",
+     "publisher": "MoSPI",
+     "series": "MSME definition",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "medium Rs 125 crore or Rs 500 crore",
+     "value": "Rs 500 crore",
+     "period": "1 Apr 2025",
+     "period_end": "2025-04-01",
+     "publisher": "MoSPI",
+     "series": "MSME definition",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Bank of Baroda | Repo-linked, spread 2.65% | Repo-linked, at least quarterly under RBI rules | 7.90% to 8.15% from 8 Oct",
+     "value": "7.90% to 8.15%",
+     "period": "8 Oct 2026",
+     "period_end": "2026-10-08",
+     "publisher": "PIB / ministry",
+     "series": "Bank of Baroda CBG loan rate",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Punjab National Bank | Repo-linked, spread 2.85% over the new repo | Same | 8.10% to 8.35% from 8 Oct",
+     "value": "8.10% to 8.35%",
+     "period": "8 Oct 2026",
+     "period_end": "2026-10-08",
+     "publisher": "PIB / ministry",
+     "series": "Punjab National Bank CBG loan rate",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Indian Bank | Repo-linked | Same | 7.95% to 8.20%",
+     "value": "7.95% to 8.20%",
+     "period": "8 Oct 2026",
+     "period_end": "2026-10-08",
+     "publisher": "PIB / ministry",
+     "series": "Indian Bank CBG loan rate",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "IREDA, private-sector CBG | Its own rate card: 9.75% to 10.75% by credit grade, from 1 Jun 2026",
+     "value": "9.75% to 10.75%",
+     "period": "1 Jun 2026",
+     "period_end": "2026-06-01",
+     "publisher": "IREDA",
+     "series": "IREDA private-sector CBG rate card",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India Has 132 Compressed Biogas Plants Running. The Pipeline to Actually Use That Gas Reaches 17 of Them.",
+     "value": "132",
+     "period": "2026",
+     "period_end": "2026-10-14",
+     "publisher": "PIB / ministry",
+     "series": "Functional compressed biogas plants count",
+     "frequency": "live",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "43% Rise in the administered CBG price, Rs 1,478 to Rs 2,110 a MMBtu, from September 2026",
+     "value": "43% rise in CBG price from Rs 1,478 to Rs 2,110 per MMBtu",
+     "period": "September 2026",
+     "period_end": "2026-09-30",
+     "publisher": "PIB / Ministry of Petroleum and Natural Gas",
+     "series": "GOBARdhan Scheme administered CBG price",
+     "frequency": "one-off (price revision)",
+     "headline": true
+    },
+    {
+     "quote": "Rs 2,110 per MMBtu, held to 31 March 2036 with a Project Approval Board review every 12 months",
+     "value": "Rs 2,110 per MMBtu (administered CBG price)",
+     "period": "01 Sep 2026 to 31 Mar 2036 (with annual reviews)",
+     "period_end": "2036-03-31",
+     "publisher": "PIB / Ministry of Petroleum and Natural Gas",
+     "series": "GOBARdhan Scheme administered CBG price",
+     "frequency": "annual (with fixed end date)",
+     "headline": false
+    },
+    {
+     "quote": "previous procurement price was Rs 1,478 per MMBtu, valid from June to October 2025",
+     "value": "Rs 1,478 per MMBtu (CBG price)",
+     "period": "Jun 2025 to Oct 2025",
+     "period_end": "2025-10-31",
+     "publisher": "PIB / Ministry of Petroleum and Natural Gas",
+     "series": "CBG procurement price (pre-GOBARdhan)",
+     "frequency": "one-off (price revision)",
+     "headline": false
+    },
+    {
+     "quote": "Rs 1,380 in May 2025",
+     "value": "Rs 1,380 per MMBtu (CBG price)",
+     "period": "May 2025",
+     "period_end": "2025-05-31",
+     "publisher": "PIB / Ministry of Petroleum and Natural Gas",
+     "series": "CBG procurement price (pre-GOBARdhan)",
+     "frequency": "one-off (price revision)",
+     "headline": false
+    },
+    {
+     "quote": "Rs 632, or 42.8% jump",
+     "value": "Rs 632 per MMBtu (price increase)",
+     "period": "May 2025 to Sep 2026",
+     "period_end": "2026-09-30",
+     "publisher": "PIB / Ministry of Petroleum and Natural Gas",
+     "series": "CBG price revision",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Rs 105 a kilogram (Government’s factsheet) vs. Rs 98 (Business Standard, ministry’s affordability figure)",
+     "value": "Rs 98–Rs 105 per kg (CBG price in ₹/kg)",
+     "period": null,
+     "period_end": null,
+     "publisher": "PIB / Ministry of Petroleum and Natural Gas (factsheet) and Business Standard",
+     "series": "CBG price conversion (per kg)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Rs 1,478 is about Rs 69 a kilogram and Rs 2,110 about Rs 98",
+     "value": "Rs 69 per kg (Rs 1,478/MMBtu) and Rs 98 per kg (Rs 2,110/MMBtu)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Article author (derived from published inputs)",
+     "series": "CBG price conversion (per kg)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "GOBARdhan scheme outlay of Rs 23,731 crore over FY2026-27 to FY2035-36",
+     "value": "Rs 23,731 crore",
+     "period": "FY2026-27 to FY2035-36",
+     "period_end": "2035-03-31",
+     "publisher": "PIB / Ministry of Rural Development",
+     "series": "GOBARdhan Scheme budget allocation",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "5.50% Repo rate after the 25 bp hike of 7 October 2026",
+     "value": "5.50% (Repo rate)",
+     "period": "7 Oct 2026",
+     "period_end": "2026-10-07",
+     "publisher": "RBI",
+     "series": "Repo Rate",
+     "frequency": "one-off (hike)",
+     "headline": true
+    },
+    {
+     "quote": "first hike since February 2023",
+     "value": "5.25% (Repo rate, Feb 2023)",
+     "period": "Feb 2023",
+     "period_end": "2023-02-28",
+     "publisher": "RBI",
+     "series": "Repo Rate",
+     "frequency": "one-off (historical)",
+     "headline": false
+    },
+    {
+     "quote": "Repo path: 6.50% at the start of 2025, 125 bp of cuts to 5.25% by December 2025",
+     "value": "6.50% (start of 2025) to 5.25% (Dec 2025)",
+     "period": "2025-01-01 to 2025-12-31",
+     "period_end": "2025-12-31",
+     "publisher": "RBI",
+     "series": "Repo Rate adjustments",
+     "frequency": "annual (with cuts)",
+     "headline": false
+    },
+    {
+     "quote": "Weighted average lending rate, fresh loans (August 2026) | 8.61%",
+     "value": "8.61% (fresh loans)",
+     "period": "Aug 2026",
+     "period_end": "2026-08-31",
+     "publisher": "RBI",
+     "series": "Weighted Average Lending Rate (fresh loans)",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Weighted average lending rate, outstanding loans (August 2026) | 8.96%",
+     "value": "8.96% (outstanding loans)",
+     "period": "Aug 2026",
+     "period_end": "2026-08-31",
+     "publisher": "RBI",
+     "series": "Weighted Average Lending Rate (outstanding loans)",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Share of floating-rate loans linked to an external benchmark (end-June 2026) | 68.2%",
+     "value": "68.2% (floating-rate loans)",
+     "period": "Jun 2026",
+     "period_end": "2026-06-30",
+     "publisher": "RBI",
+     "series": "Floating-Rate Loan Benchmark Linkage",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "Governor’s April 2026 remark on the 125 bp of cuts | About 90 bp had passed through to outstanding loans",
+     "value": "90 bp (pass-through to outstanding loans)",
+     "period": "Apr 2026",
+     "period_end": "2026-04-30",
+     "publisher": "RBI Governor",
+     "series": "Repo Rate Pass-Through",
+     "frequency": "one-off (remark)",
+     "headline": false
+    },
+    {
+     "quote": "Agriculture infrastructure (CBG plants) | Rs 100 crore across the banking system",
+     "value": "Rs 100 crore (priority-sector limit for CBG plants)",
+     "period": null,
+     "period_end": null,
+     "publisher": "RBI",
+     "series": "Priority Sector Lending Directions (2025)",
+     "frequency": "annual (amended)",
+     "headline": false
+    },
+    {
+     "quote": "Renewable energy (generators) | Rs 35 crore",
+     "value": "Rs 35 crore (priority-sector limit for renewable energy)",
+     "period": null,
+     "period_end": null,
+     "publisher": "RBI",
+     "series": "Priority Sector Lending Directions (2025)",
+     "frequency": "annual (amended)",
+     "headline": false
+    },
+    {
+     "quote": "Micro (renewable energy) | Rs 10 lakh",
+     "value": "Rs 10 lakh (priority-sector limit for individual households)",
+     "period": null,
+     "period_end": null,
+     "publisher": "RBI",
+     "series": "Priority Sector Lending Directions (2025)",
+     "frequency": "annual (amended)",
+     "headline": false
+    },
+    {
+     "quote": "MSME definition: Micro Rs 2.5 crore investment or Rs 10 crore turnover",
+     "value": "Rs 2.5 crore (investment) or Rs 10 crore (turnover)",
+     "period": "1 Apr 2025",
+     "period_end": "2025-04-01",
+     "publisher": "Ministry of MSME",
+     "series": "MSME Definition (Notification S.O. 1364(E))",
+     "frequency": "one-off (amendment)",
+     "headline": false
+    },
+    {
+     "quote": "Capex of Rs 8.5 crore a tonne a day and 70% debt, the Rs 100 crore limit covers about 17 tonnes a day",
+     "value": "Rs 8.5 crore (capex per tonne/day) and Rs 100 crore (priority-sector limit)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Article author (derived from industry analysis)",
+     "series": "CBG Plant Economics",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Indian Bank’s Rs 836 crore to nine IOC-GPS plants in September 2025",
+     "value": "Rs 836 crore (loan amount)",
+     "period": "Sep 2025",
+     "period_end": "2025-09-30",
+     "publisher": "Indian Bank",
+     "series": "CBG Loan Disbursement",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Bank of Baroda: Repo-linked, spread 2.65% | 7.90% to 8.15% from 8 Oct",
+     "value": "7.90%–8.15% (loan rate)",
+     "period": "8 Oct 2026",
+     "period_end": "2026-10-08",
+     "publisher": "Bank of Baroda",
+     "series": "CBG Loan Pricing",
+     "frequency": "quarterly (repo-linked)",
+     "headline": false
+    },
+    {
+     "quote": "Punjab National Bank: Repo-linked, spread 2.85% over the new repo | 8.10% to 8.35% from 8 Oct",
+     "value": "8.10%–8.35% (loan rate)",
+     "period": "8 Oct 2026",
+     "period_end": "2026-10-08",
+     "publisher": "Punjab National Bank",
+     "series": "CBG Loan Pricing",
+     "frequency": "quarterly (repo-linked)",
+     "headline": false
+    },
+    {
+     "quote": "SBI, CBG loans to MSMEs: Repo plus 2.65% | Implies 8.15% at repo 5.50%",
+     "value": "8.15% (loan rate)",
+     "period": "7 Oct 2026",
+     "period_end": "2026-10-07",
+     "publisher": "State Bank of India",
+     "series": "CBG Loan Pricing (MSME)",
+     "frequency": "quarterly (repo-linked)",
+     "headline": false
+    },
+    {
+     "quote": "IREDA rate card: 9.75% to 10.75% by credit grade, from 1 Jun 2026",
+     "value": "9.75%–10.75% (loan rate)",
+     "period": "1 Jun 2026",
+     "period_end": "2026-06-01",
+     "publisher": "IREDA",
+     "series": "CBG Loan Rate Card",
+     "frequency": "annual (reset)",
+     "headline": false
+    },
+    {
+     "quote": "Higher CBG price (Rs 1,478 to 2,110 a MMBtu) | +77.6 lakh annual effect on a 1 tonne-a-day plant",
+     "value": "+Rs 77.6 lakh (annual revenue gain)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Article author (derived illustration)",
+     "series": "CBG Price Impact (1 tonne/day plant)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Repo hike of 25 bp (7 Oct), extra interest | −1.5 lakh",
+     "value": "−Rs 1.5 lakh (annual interest cost)",
+     "period": "7 Oct 2026",
+     "period_end": "2026-10-07",
+     "publisher": "Article author (derived illustration)",
+     "series": "Repo Rate Impact (25 bp hike)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Rs 8.5 crore capex, 70% debt, 80% utilisation, 330 days",
+     "value": "Rs 8.5 crore (capex), Rs 5.95 crore (debt), 80% utilisation, 330 days",
+     "period": null,
+     "period_end": null,
+     "publisher": "Article author (derived illustration)",
+     "series": "CBG Plant Financial Assumptions",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Pressmud was reported at Rs 500 to 600 a tonne, up from about Rs 100 in two years",
+     "value": "Rs 500–600/tonne (pressmud cost) vs. Rs 100/tonne (2 years ago)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Trade press (unspecified)",
+     "series": "Feedstock Cost Trends",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Delhi’s IGL charged Rs 86.98 a kilogram after a hike on 29 August 2026",
+     "value": "Rs 86.98 per kg (CNG price)",
+     "period": "29 Aug 2026",
+     "period_end": "2026-08-29",
+     "publisher": "IGL (Indraprastha Gas)",
+     "series": "CNG Retail Price",
+     "frequency": "one-off (price hike)",
+     "headline": false
+    },
+    {
+     "quote": "Mumbai’s MGL Rs 88 from 1 September 2026",
+     "value": "Rs 88 per kg (CNG price)",
+     "period": "1 Sep 2026",
+     "period_end": "2026-09-01",
+     "publisher": "MGL (Maharashtra Gas)",
+     "series": "CNG Retail Price",
+     "frequency": "one-off (price hike)",
+     "headline": false
+    },
+    {
+     "quote": "About 130 functional plants, regulator reports 17 connected to a city-gas network by September 2026",
+     "value": "130 functional plants, 17 connected to city-gas network",
+     "period": "Sep 2026",
+     "period_end": "2026-09-30",
+     "publisher": "PNGRB (Pipeline and Gas Regulatory Board)",
+     "series": "CBG Plant Connectivity",
+     "frequency": "quarterly (report)",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,160 @@
+{
+ "slug": "cold-chain-fuel-outlet-integrated-map",
+ "text_sha1": "4978a48d6b939278",
+ "chars": 9173,
+ "checked": "2026-10-23T10:58:18",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "Snowman Logistics runs 44 facilities across 21 cities; Flex Foods runs one, in Dehradun.",
+     "value": "44 facilities",
+     "period": "current as of this piece's research",
+     "period_end": null,
+     "publisher": "company/industry reporting",
+     "series": "Snowman Logistics facility count",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "Snowman Logistics runs 44 facilities across 21 cities; Flex Foods runs one, in Dehradun.",
+     "value": "21 cities",
+     "period": "current as of this piece's research",
+     "period_end": null,
+     "publisher": "company/industry reporting",
+     "series": "Snowman Logistics city count",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "Flex Foods runs one, in Dehradun.",
+     "value": "1 facility",
+     "period": "current as of this piece's research",
+     "period_end": null,
+     "publisher": "company/industry reporting",
+     "series": "Flex Foods facility count",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "Part 2 of this series mapped India's roughly 82,000 geocoded retail outlets and the CNG supply chain behind them",
+     "value": "82,000 retail outlets",
+     "period": "current as of this piece's research",
+     "period_end": null,
+     "publisher": "Part 2 of this series / industry reporting",
+     "series": "geocoded retail outlets",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "runs the largest network of its kind in the country: 44 cold-storage and dry warehouses across 21 cities, over 3 million square feet of facility area, a combined pallet capacity above 1,41,000, and a fleet of 600-plus vehicles",
+     "value": "44 warehouses",
+     "period": "current as of this piece's research",
+     "period_end": null,
+     "publisher": "Snowman Logistics company reporting",
+     "series": "Snowman Logistics warehouse count",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "runs the largest network of its kind in the country: 44 cold-storage and dry warehouses across 21 cities, over 3 million square feet of facility area, a combined pallet capacity above 1,41,000, and a fleet of 600-plus vehicles",
+     "value": "21 cities",
+     "period": "current as of this piece's research",
+     "period_end": null,
+     "publisher": "Snowman Logistics company reporting",
+     "series": "Snowman Logistics city presence count",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "runs the largest network of its kind in the country: 44 cold-storage and dry warehouses across 21 cities, over 3 million square feet of facility area, a combined pallet capacity above 1,41,000, and a fleet of 600-plus vehicles",
+     "value": "3 million square feet",
+     "period": "current as of this piece's research",
+     "period_end": null,
+     "publisher": "Snowman Logistics company reporting",
+     "series": "Snowman Logistics facility area",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "runs the largest network of its kind in the country: 44 cold-storage and dry warehouses across 21 cities, over 3 million square feet of facility area, a combined pallet capacity above 1,41,000, and a fleet of 600-plus vehicles",
+     "value": "1,41,000 pallets",
+     "period": "current as of this piece's research",
+     "period_end": null,
+     "publisher": "Snowman Logistics company reporting",
+     "series": "Snowman Logistics pallet capacity",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "runs the largest network of its kind in the country: 44 cold-storage and dry warehouses across 21 cities, over 3 million square feet of facility area, a combined pallet capacity above 1,41,000, and a fleet of 600-plus vehicles",
+     "value": "600 vehicles",
+     "period": "current as of this piece's research",
+     "period_end": null,
+     "publisher": "Snowman Logistics company reporting",
+     "series": "Snowman Logistics vehicle fleet count",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "India's roughly 82,000 geocoded retail outlets",
+     "value": "82,000",
+     "period": null,
+     "period_end": null,
+     "publisher": "Author's Part 2 series (geocoded retail outlets mapping)",
+     "series": "Geocoded retail fuel outlets (CNG/CGD network)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Snowman Logistics runs 44 cold-storage and dry warehouses across 21 cities, over 3 million square feet of facility area, a combined pallet capacity above 1,41,000",
+     "value": "44 facilities; 3,000,000 sq ft; 141,000+ pallets",
+     "period": null,
+     "period_end": null,
+     "publisher": "Company reporting (Snowman Logistics)",
+     "series": "Cold-storage and dry warehouse network",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Snowman Logistics ... a fleet of 600-plus vehicles including dedicated reefer trucks and 40-foot trailers",
+     "value": "600+ vehicles",
+     "period": null,
+     "period_end": null,
+     "publisher": "Company reporting (Snowman Logistics)",
+     "series": "Cold-chain logistics fleet",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Flex Foods Ltd ... single-location plant, Dehradun, Uttarakhand",
+     "value": "1 facility",
+     "period": null,
+     "period_end": null,
+     "publisher": "Company reporting (Flex Foods Ltd)",
+     "series": "Cold-storage/processing facilities",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Snowman Logistics ... runs 44 facilities across 21 cities",
+     "value": "21 cities",
+     "period": null,
+     "period_end": null,
+     "publisher": "Company reporting (Snowman Logistics)",
+     "series": "Geographic coverage of cold-storage network",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

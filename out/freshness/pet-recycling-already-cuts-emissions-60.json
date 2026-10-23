@@ -1,0 +1,360 @@
+{
+ "slug": "pet-recycling-already-cuts-emissions-60",
+ "text_sha1": "6074eddee12990fc",
+ "chars": 12368,
+ "checked": "2026-10-23T15:14:57",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "Recycled PET uses 70-79% less energy than making the same plastic from scratch",
+     "value": "70-79%",
+     "period": null,
+     "period_end": null,
+     "publisher": "industry lifecycle-comparison sources",
+     "series": "rPET energy savings",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "put rPET at around 1.4kg CO2-equivalent per kilogram of resin against roughly 3.4kg CO2e/kg for virgin PET, a reduction in the 59-79% range",
+     "value": "1.4kg CO2-equivalent per kilogram",
+     "period": null,
+     "period_end": null,
+     "publisher": "industry lifecycle-comparison sources",
+     "series": "rPET carbon footprint",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "industry estimates put substituting 200,000 tonnes of rPET for virgin PET at avoiding roughly 0.8 million tonnes of CO2-equivalent emissions a year",
+     "value": "200,000 tonnes",
+     "period": "a year",
+     "period_end": null,
+     "publisher": "industry sources",
+     "series": "rPET substitution emission avoidance",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "India's PET recovery rate is widely reported in the 90-95% range — one industry figure puts it at 92% (1.75 of 1.9 million tonnes used in bottles recovered), with CPCB data cited elsewhere at roughly 95% as of 2022",
+     "value": "90-95%",
+     "period": null,
+     "period_end": null,
+     "publisher": "National Recycling Corporation and Council on Sustainable Development",
+     "series": "PET recovery rate",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "one industry figure puts it at 92% (1.75 of 1.9 million tonnes used in bottles recovered)",
+     "value": "92%",
+     "period": null,
+     "period_end": null,
+     "publisher": "National Recycling Corporation and Council on Sustainable Development",
+     "series": "PET recovery rate",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "with CPCB data cited elsewhere at roughly 95% as of 2022",
+     "value": "95%",
+     "period": "2022",
+     "period_end": "2022-12-31",
+     "publisher": "CPCB",
+     "series": "PET recovery rate",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "paying roughly ₹8-15 per kg for PET bottles",
+     "value": "₹8-15 per kg",
+     "period": null,
+     "period_end": null,
+     "publisher": "WIEGO and Down To Earth",
+     "series": "PET bottle scrap price",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "handles an estimated 90% of the country's solid waste collection and sorting, employing on the order of 1% of the urban population",
+     "value": "90%",
+     "period": null,
+     "period_end": null,
+     "publisher": "WIEGO and Down To Earth",
+     "series": "informal solid waste collection share",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Category I (rigid packaging) | 30 | 60 |",
+     "value": "30%",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "MOEFCC",
+     "series": "Plastic Waste Management Rules Recycled-Content Target - Category I",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Category I (rigid packaging) | 30 | 60 |",
+     "value": "60%",
+     "period": "FY2028-29",
+     "period_end": "2029-03-31",
+     "publisher": "MOEFCC",
+     "series": "Plastic Waste Management Rules Recycled-Content Target - Category I",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Category II | 10 | 20 |",
+     "value": "10%",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "MOEFCC",
+     "series": "Plastic Waste Management Rules Recycled-Content Target - Category II",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Category II | 10 | 20 |",
+     "value": "20%",
+     "period": "FY2028-29",
+     "period_end": "2029-03-31",
+     "publisher": "MOEFCC",
+     "series": "Plastic Waste Management Rules Recycled-Content Target - Category II",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Category III (incl. multi-layered) | 5 | 10 |",
+     "value": "5%",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "MOEFCC",
+     "series": "Plastic Waste Management Rules Recycled-Content Target - Category III",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Category III (incl. multi-layered) | 5 | 10 |",
+     "value": "10%",
+     "period": "FY2028-29",
+     "period_end": "2029-03-31",
+     "publisher": "MOEFCC",
+     "series": "Plastic Waste Management Rules Recycled-Content Target - Category III",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "PET in food-grade packaging specifically | 30 (rigid); 40 from 1 April 2026 |",
+     "value": "30%",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "MOEFCC",
+     "series": "PET in food-grade packaging recycled-content target",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "PET in food-grade packaging specifically | 30 (rigid); 40 from 1 April 2026 |",
+     "value": "40%",
+     "period": "1 April 2026",
+     "period_end": "2026-04-01",
+     "publisher": "MOEFCC",
+     "series": "PET in food-grade packaging recycled-content target",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "10% for small containers (0.9-4.9 litres), 70% for large water packaging, and 10% for large non-water packaging in FY2025-26",
+     "value": "10%",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "MOEFCC",
+     "series": "Rigid packaging reuse targets - small containers",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "70% for large water packaging",
+     "value": "70%",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "MOEFCC",
+     "series": "Rigid packaging reuse targets - large water packaging",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "10% for large non-water packaging in FY2025-26",
+     "value": "10%",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "MOEFCC",
+     "series": "Rigid packaging reuse targets - large non-water packaging",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "unlocking an estimated 3 lakh tonnes a year of bottle-to-bottle recycling capacity",
+     "value": "3 lakh tonnes a year",
+     "period": "March 2026",
+     "period_end": "2026-03-31",
+     "publisher": "FSSAI",
+     "series": "Food-grade rPET manufacturing plant capacity",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Industry estimates (Burman Capital) put the B2B rPET opportunity these EPR norms have created at roughly ₹15,000 crore",
+     "value": "₹15,000 crore",
+     "period": null,
+     "period_end": null,
+     "publisher": "Burman Capital",
+     "series": "B2B rPET market opportunity estimate",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "recycled PET uses an estimated 70-79% less energy to produce than virgin PET made from scratch, and carries a correspondingly smaller carbon footprint — commonly cited figures put rPET at around 1.4kg CO2-equivalent per kilogram of resin against roughly 3.4kg CO2e/kg for virgin PET",
+     "value": "70-79% less energy; 1.4kg CO2e/kg (rPET) vs 3.4kg CO2e/kg (virgin PET)",
+     "period": null,
+     "period_end": null,
+     "publisher": "INTCO Recycling, Ganesha Ecopet/RecyclingInside, Rudra Ecovation (industry lifecycle-comparison sources)",
+     "series": "Industry-reported energy and emissions savings for rPET vs virgin PET",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "substituting 200,000 tonnes of rPET for virgin PET at avoiding roughly 0.8 million tonnes of CO2-equivalent emissions a year",
+     "value": "200,000 tonnes rPET substitution → 0.8 million tonnes CO2e/year",
+     "period": null,
+     "period_end": null,
+     "publisher": "INTCO Recycling, Ganesha Ecopet/RecyclingInside, Rudra Ecovation (industry lifecycle-comparison sources)",
+     "series": "India-specific emissions avoidance estimate for rPET substitution",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India's PET recovery rate is widely reported in the 90-95% range — one industry figure puts it at 92% (1.75 of 1.9 million tonnes used in bottles recovered)",
+     "value": "92% (1.75 million tonnes recovered / 1.9 million tonnes used)",
+     "period": "2022",
+     "period_end": "2022-12-31",
+     "publisher": "CPCB (via Council on Sustainable Development industry reporting)",
+     "series": "India PET recovery rate (industry-reported)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "India's PET recovery rate is widely reported in the 90-95% range — one industry figure puts it at 92% (1.75 of 1.9 million tonnes used in bottles recovered), with CPCB data cited elsewhere at roughly 95% as of 2022",
+     "value": "95%",
+     "period": "2022",
+     "period_end": "2022-12-31",
+     "publisher": "CPCB",
+     "series": "India PET recovery rate (CPCB data)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "India's informal waste sector — kabadiwalas and itinerant scrap buyers, paying roughly ₹8-15 per kg for PET bottles — handles an estimated 90% of the country's solid waste collection and sorting, employing on the order of 1% of the urban population",
+     "value": "90% of solid waste collection; 1% of urban population employed",
+     "period": null,
+     "period_end": null,
+     "publisher": "WIEGO, Down To Earth (industry reporting)",
+     "series": "Informal waste sector scale (kabadiwalas)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Category I (rigid packaging) | 30 | 60 |",
+     "value": "30% (FY2025-26) → 60% (FY2028-29)",
+     "period": "FY2025-26 → FY2028-29",
+     "period_end": "2028-03-31",
+     "publisher": "MOEFCC (Plastic Waste Management Amendment Rules, 2026)",
+     "series": "Recycled-content targets for Category I rigid packaging",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Category II | 10 | 20 |",
+     "value": "10% (FY2025-26) → 20% (FY2028-29)",
+     "period": "FY2025-26 → FY2028-29",
+     "period_end": "2028-03-31",
+     "publisher": "MOEFCC (Plastic Waste Management Amendment Rules, 2026)",
+     "series": "Recycled-content targets for Category II packaging",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Category III (incl. multi-layered) | 5 | 10 |",
+     "value": "5% (FY2025-26) → 10% (FY2028-29)",
+     "period": "FY2025-26 → FY2028-29",
+     "period_end": "2028-03-31",
+     "publisher": "MOEFCC (Plastic Waste Management Amendment Rules, 2026)",
+     "series": "Recycled-content targets for Category III packaging",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "PET in food-grade packaging specifically | 30 (rigid); 40 from 1 April 2026 | — |",
+     "value": "30% (rigid); 40% (from 2026-04-01)",
+     "period": "from 2026-04-01",
+     "period_end": "2026-04-01",
+     "publisher": "MOEFCC (Plastic Waste Management Amendment Rules, 2026)",
+     "series": "Recycled-content targets for food-grade PET",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "reuse targets for rigid packaging — 10% for small containers (0.9-4.9 litres), 70% for large water packaging, and 10% for large non-water packaging in FY2025-26",
+     "value": "10% (small containers); 70% (large water packaging); 10% (large non-water packaging)",
+     "period": "FY2025-26",
+     "period_end": "2025-03-31",
+     "publisher": "MOEFCC (Plastic Waste Management Amendment Rules, 2026)",
+     "series": "Reuse targets for rigid packaging",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "In March 2026, FSSAI granted food-contact authorisation to 17 recycled-PET manufacturing plants across the country, unlocking an estimated 3 lakh tonnes a year of bottle-to-bottle recycling capacity",
+     "value": "17 plants; 3 lakh tonnes/year",
+     "period": "March 2026",
+     "period_end": "2026-03-31",
+     "publisher": "FSSAI (via Waste Recycling Magazine)",
+     "series": "Food-grade rPET manufacturing capacity authorisations",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "industry estimates (Burman Capital) put the B2B rPET opportunity these EPR norms have created at roughly ₹15,000 crore",
+     "value": "₹15,000 crore",
+     "period": null,
+     "period_end": null,
+     "publisher": "Burman Capital (industry market-sizing estimate)",
+     "series": "B2B rPET market opportunity estimate",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The Plastic Waste Management (Amendment) Rules, 2026, notified by MOEFCC in early 2026",
+     "value": "19 January 2026",
+     "period": "19 January 2026",
+     "period_end": "2026-01-19",
+     "publisher": "MOEFCC (via Corporate Professionals, Aleph India)",
+     "series": "Notification date of Plastic Waste Management Amendment Rules, 2026",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,300 @@
+{
+ "slug": "nobody-blockaded-hormuz-to-slow-india",
+ "text_sha1": "36123dcc894864ca",
+ "chars": 21611,
+ "checked": "2026-10-23T15:06:44",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": ">95% Collapse in daily Hormuz vessel crossings at the April 2026 peak",
+     "value": ">95%",
+     "period": "April 2026 peak",
+     "period_end": "2026-04-30",
+     "publisher": "Wikipedia / USNI News / NPR",
+     "series": "Timeline of the 2026 Iran war, 2026 Strait of Hormuz campaign/crisis",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "~$25bn Global business cost attributed to the war, mostly via Hormuz (ECFR)",
+     "value": "~$25bn",
+     "period": "2026",
+     "period_end": "2026-09-22",
+     "publisher": "European Council on Foreign Relations",
+     "series": "Disruption/cost figures",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "39% / 31% Share of global trade / shipments disrupted by Sept 2026 (Hormuz + Red Sea + pipeline)",
+     "value": "39%",
+     "period": "Sept 2026",
+     "period_end": "2026-09-30",
+     "publisher": "European Council on Foreign Relations",
+     "series": "Disruption/cost figures",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "39% / 31% Share of global trade / shipments disrupted by Sept 2026 (Hormuz + Red Sea + pipeline)",
+     "value": "31%",
+     "period": "Sept 2026",
+     "period_end": "2026-09-30",
+     "publisher": "European Council on Foreign Relations",
+     "series": "Disruption/cost figures",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "up to 30% IMEC's projected freight-cost saving vs. traditional routing",
+     "value": "up to 30%",
+     "period": "2023",
+     "period_end": "2023-12-31",
+     "publisher": "G20 / trade-logistics coverage",
+     "series": "IMEC projected savings",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "adding 10–14 days and a 25–30% cost premium on Asia-Europe container rates",
+     "value": "25–30%",
+     "period": "2026",
+     "period_end": "2026-09-22",
+     "publisher": "AGBI / Freightos / OilPrice.com",
+     "series": "Red Sea/Cape reroute premium",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "war-risk surcharges of up to $1,500/TEU",
+     "value": "up to $1,500/TEU",
+     "period": "2026",
+     "period_end": "2026-09-22",
+     "publisher": "AGBI / Freightos / OilPrice.com",
+     "series": "Hormuz-specific war-risk surcharge",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "emergency freight premiums of $3,000+/FEU on top",
+     "value": "$3,000+/FEU",
+     "period": "2026",
+     "period_end": "2026-09-22",
+     "publisher": "AGBI / Freightos / OilPrice.com",
+     "series": "Emergency freight premium",
+     "frequency": "monthly",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "India-EU Free Trade Agreement was concluded on 27 January 2026",
+     "value": "27 January 2026",
+     "period": "27 January 2026",
+     "period_end": "2026-01-27",
+     "publisher": "Ministry of Commerce & Industry (MoCI)",
+     "series": "India–EU Free Trade Agreement (FTA) timeline",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "US and Israeli forces began simultaneous strikes on Iran on 28 February 2026",
+     "value": "28 February 2026",
+     "period": "28 February 2026",
+     "period_end": "2026-02-28",
+     "publisher": "Wikipedia (Timeline of the 2026 Iran war)",
+     "series": "Operation Epic Fury and Operation Roaring Lion",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": ">95% Collapse in daily Hormuz vessel crossings at the April 2026 peak",
+     "value": ">95%",
+     "period": "April 2026",
+     "period_end": "2026-04-30",
+     "publisher": "Wikipedia (2026 Strait of Hormuz campaign)",
+     "series": "Vessel traffic data (Strait of Hormuz)",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "~$25bn Global business cost attributed to the war, mostly via Hormuz (ECFR)",
+     "value": "~$25 billion",
+     "period": "2026 (war period)",
+     "period_end": "2026-09-30",
+     "publisher": "European Council on Foreign Relations (ECFR)",
+     "series": "War-related economic disruption cost estimates",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "39% / 31% Share of global trade / shipments disrupted by Sept 2026 (Hormuz + Red Sea + pipeline)",
+     "value": "39% (global trade), 31% (global shipments)",
+     "period": "September 2026",
+     "period_end": "2026-09-30",
+     "publisher": "European Council on Foreign Relations (ECFR)",
+     "series": "Global trade and shipment disruption metrics",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "up to 30% IMEC's projected freight-cost saving vs. traditional routing — a ceiling estimate for a corridor not yet built",
+     "value": "up to 30%",
+     "period": null,
+     "period_end": null,
+     "publisher": "Fortune (trade-logistics coverage)",
+     "series": "IMEC projected cost savings",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Red Sea/Cape reroute premium | 25–30% on FAK rates",
+     "value": "25–30%",
+     "period": "late 2023 – present",
+     "period_end": "2026-09-30",
+     "publisher": "AGBI (Hormuz and Red Sea: the 'double-hit threat' to shipping costs)",
+     "series": "Freight rates for Asia-Europe container routes",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "Hormuz-specific war-risk surcharge | Up to $1,500/TEU",
+     "value": "up to $1,500/TEU",
+     "period": "2026 (blockade period)",
+     "period_end": "2026-09-30",
+     "publisher": "Freightos",
+     "series": "War-risk surcharge on Gulf-linked lanes",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "emergency freight premium | $3,000+/FEU",
+     "value": "$3,000+/FEU",
+     "period": "2026 (blockade periods)",
+     "period_end": "2026-09-30",
+     "publisher": "OilPrice.com",
+     "series": "Emergency freight premiums on Gulf lanes",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "Formal Council signature [of India-EU FTA] only went forward in September 2026",
+     "value": "September 2026",
+     "period": "September 2026",
+     "period_end": "2026-09-30",
+     "publisher": "European Commission",
+     "series": "India-EU FTA ratification timeline",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "entry into force [of India-EU FTA] projected for early 2027",
+     "value": "early 2027",
+     "period": "early 2027",
+     "period_end": "2027-03-31",
+     "publisher": "European Commission",
+     "series": "India-EU FTA entry into force",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "IRGC declared the Strait of Hormuz closed to any vessel bound to or from US, Israeli or allied ports, backing the declaration with attacks and mining on 27 March",
+     "value": "27 March 2026",
+     "period": "27 March 2026",
+     "period_end": "2026-03-27",
+     "publisher": "Wikipedia (2026 Strait of Hormuz campaign)",
+     "series": "Strait of Hormuz closure declaration",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "US imposed its own naval blockade of Iranian ports on 13 April, after ceasefire talks in Islamabad failed",
+     "value": "13 April 2026",
+     "period": "13 April 2026",
+     "period_end": "2026-04-13",
+     "publisher": "Wikipedia (2026 United States naval blockade of Iran)",
+     "series": "US naval blockade timeline",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "truce and memorandum of understanding signed 17 June lifted the blockade for 60 days",
+     "value": "17 June 2026",
+     "period": "17 June 2026",
+     "period_end": "2026-06-17",
+     "publisher": "Wikipedia (Timeline of the 2026 Iran war)",
+     "series": "Blockade truce timeline",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Iraq's East-West Crude Oil Pipeline shut down on 11 September",
+     "value": "11 September 2026",
+     "period": "11 September 2026",
+     "period_end": "2026-09-11",
+     "publisher": "NPR reporting",
+     "series": "Pipeline disruption timeline",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "the US Mint began selling $1 and gold commemorative coins bearing President Trump's likeness on 2 September 2026",
+     "value": "2 September 2026",
+     "period": "2 September 2026",
+     "period_end": "2026-09-02",
+     "publisher": "U.S. Mint press releases",
+     "series": "Commemorative coin release",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "MT DAVINA in the Indian Ocean on 5 June 2026",
+     "value": "5 June 2026",
+     "period": "5 June 2026",
+     "period_end": "2026-06-05",
+     "publisher": "CBS News",
+     "series": "Iran-linked oil tanker boarding",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "IMEC was unveiled at the 2023 G20 summit in New Delhi",
+     "value": "2023",
+     "period": "2023",
+     "period_end": "2023-12-31",
+     "publisher": "G20 Summit (New Delhi)",
+     "series": "India-Middle East-Europe Economic Corridor (IMEC) announcement",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "optimistic: late 2020s for initial segments; more conservative assessments: full operation in the 2030s",
+     "value": "late 2020s (initial segments), 2030s (full operation)",
+     "period": null,
+     "period_end": null,
+     "publisher": "ORF Middle East (Special Report No. 310)",
+     "series": "IMEC construction timeline estimates",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "the truce and memorandum of understanding... formally expired in August",
+     "value": "August 2026",
+     "period": "August 2026",
+     "period_end": "2026-08-31",
+     "publisher": "Wikipedia (Timeline of the 2026 Iran war)",
+     "series": "Blockade truce expiration",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

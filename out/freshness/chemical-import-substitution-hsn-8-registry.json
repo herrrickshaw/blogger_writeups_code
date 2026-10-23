@@ -1,0 +1,390 @@
+{
+ "slug": "chemical-import-substitution-hsn-8-registry",
+ "text_sha1": "f32ae4eaaca261f1",
+ "chars": 7941,
+ "checked": "2026-10-23T10:52:12",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "827 codes, US$67.9B combined deficit",
+     "value": "US$67.9B",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TradeStat",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "493",
+     "value": "493",
+     "period": "FY2024-25 to FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TradeStat Value and Quantity files",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "209",
+     "value": "209",
+     "period": "FY2024-25 to FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TradeStat Value and Quantity files",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "65",
+     "value": "65",
+     "period": "FY2024-25 to FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TradeStat Value and Quantity files",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "34",
+     "value": "34",
+     "period": "FY2024-25 to FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TradeStat Value and Quantity files",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "99 codes flagged as real substitution candidates (12% of 801 matched)",
+     "value": "99 codes",
+     "period": "FY2024-25 to FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TradeStat",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "801/827 codes matched",
+     "value": "801/827 codes",
+     "period": "FY2024-25 to FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TradeStat Value and Quantity files",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "DAP (31053000) $4.87B, +76% YoY",
+     "value": "$4.87B, +76%",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TradeStat",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Phosphoric Acid (28092010) $2.67B",
+     "value": "$2.67B",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TradeStat",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "PVC Suspension Resin (39041020) $1.63B, −23%",
+     "value": "$1.63B, −23%",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TradeStat",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "PTA (29173600) $1.47B, −8%",
+     "value": "$1.47B, −8%",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TradeStat",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Gold Compounds (28433000) $4.01B",
+     "value": "$4.01B",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TradeStat",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "835 rows in total",
+     "value": "835 rows",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TradeStat",
+     "frequency": "annual",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "827 qualifying HSN-8 codes $67.9B combined FY26 deficit",
+     "value": "US$67.9 billion",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TradeStat (commodity-wise Import Value)",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "801 Chemical HSN-8 Codes Landed",
+     "value": "801 codes",
+     "period": null,
+     "period_end": null,
+     "publisher": "DGCI&S",
+     "series": "TradeStat (matched Value/Quantity files)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "No Signal — 493 codes",
+     "value": "493 codes",
+     "period": "FY2024-25 → FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TradeStat (Value/Volume/Price Signal Framework)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Deepening — 209 codes",
+     "value": "209 codes",
+     "period": "FY2024-25 → FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TradeStat (Value/Volume/Price Signal Framework)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Inelastic Target — 65 codes",
+     "value": "65 codes",
+     "period": "FY2024-25 → FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TradeStat (Value/Volume/Price Signal Framework)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Scissors Effect — 34 codes",
+     "value": "34 codes",
+     "period": "FY2024-25 → FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TradeStat (Value/Volume/Price Signal Framework)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "DAP (31053000) $4.87B, +76% YoY",
+     "value": "US$4.87 billion",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S (confirmed by Outlook Business, MarineLink)",
+     "series": "TradeStat (Import Value)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Phosphoric Acid (28092010) $2.67B",
+     "value": "US$2.67 billion",
+     "period": null,
+     "period_end": null,
+     "publisher": "DGCI&S (confirmed by public reporting)",
+     "series": "TradeStat (Import Value)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "PVC Suspension Resin (39041020) $1.63B, −23%",
+     "value": "US$1.63 billion, −23%",
+     "period": "FY2024-25 → FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S (confirmed direction by public reporting)",
+     "series": "TradeStat (Import Value)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "PTA (29173600) $1.47B, −8%",
+     "value": "US$1.47 billion, −8%",
+     "period": "FY2024-25 → FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S (confirmed direction by public reporting)",
+     "series": "TradeStat (Import Value)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Gold Compounds (28433000) $4.01B",
+     "value": "US$4.01 billion",
+     "period": null,
+     "period_end": null,
+     "publisher": "DGCI&S (corrected by India Seatrade News)",
+     "series": "TradeStat (Import Value)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "835 rows in total — 827 HSN-8 codes across Chapters 28, 29, 31, 32, 33, 34, 38 and 39",
+     "value": "827 codes",
+     "period": null,
+     "period_end": null,
+     "publisher": "DGCI&S",
+     "series": "TradeStat (HSN-8 Registry)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "report generated 30 Jul 2026",
+     "value": "30 July 2026",
+     "period": null,
+     "period_end": "2026-07-30",
+     "publisher": "DGCI&S",
+     "series": "TradeStat (report generation date)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "DGFT moved 28433000 from 'free' to 'restricted' in June 2025",
+     "value": "June 2025",
+     "period": null,
+     "period_end": "2025-06-30",
+     "publisher": "DGFT",
+     "series": "Trade Policy Change",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "anti-dumping duty was actually scrapped Nov 2025",
+     "value": "November 2025",
+     "period": null,
+     "period_end": "2025-11-30",
+     "publisher": "Public reporting (implied)",
+     "series": "Trade Policy Change",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "imports here spiked up to ~9x YoY in some quarters",
+     "value": "~9 times YoY",
+     "period": null,
+     "period_end": null,
+     "publisher": "India Seatrade News",
+     "series": "Trade Press Reporting",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "Scissors Effect — import value AND volume both falling ≥10% while unit price rises ≥5%",
+     "value": "≥10% volume fall, ≥5% price rise",
+     "period": "FY2024-25 → FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TradeStat (Signal Framework)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Inelastic Target — top-quartile import value, price flat (±8%), value not declining",
+     "value": "top-quartile import value, price flat (±8%)",
+     "period": "FY2024-25 → FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TradeStat (Signal Framework)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Deepening — value AND volume both rising ≥15%",
+     "value": "≥15% value and volume rise",
+     "period": "FY2024-25 → FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TradeStat (Signal Framework)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "99 codes flagged as real substitution candidates (12% of 801 matched)",
+     "value": "99 codes (12% of 801)",
+     "period": "FY2024-25 → FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TradeStat (Signal Framework)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "FY2025-26 is still the latest complete fiscal year DGCI&S TradeStat covers",
+     "value": "FY2025-26",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TradeStat (latest fiscal year)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "827 codes $67.9B combined deficit",
+     "value": "US$67.9 billion",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TradeStat (combined deficit)",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "34 Scissors Effect (active substitution)",
+     "value": "34 codes",
+     "period": "FY2024-25 → FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TradeStat (Signal Framework)",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "65 high-value inelastic targets",
+     "value": "65 codes",
+     "period": "FY2024-25 → FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TradeStat (Signal Framework)",
+     "frequency": "annual",
+     "headline": true
+    }
+   ]
+  }
+ }
+}

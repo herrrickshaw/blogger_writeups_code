@@ -1,0 +1,240 @@
+{
+ "slug": "india-ended-63-years-of-state-nuclear",
+ "text_sha1": "c8331e4f21e178df",
+ "chars": 12108,
+ "checked": "2026-10-23T12:25:51",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "9 GW → 100 GW India's nuclear capacity, current vs. 2047 target",
+     "value": "9 GW",
+     "period": "current",
+     "period_end": null,
+     "publisher": "Tribune/ANI and Down To Earth / government capacity target",
+     "series": "India's Path to 100 GW of Nuclear by 2047",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "9 GW → 100 GW India's nuclear capacity, current vs. 2047 target",
+     "value": "100 GW",
+     "period": "2047",
+     "period_end": "2047-12-31",
+     "publisher": "Tribune/ANI and Down To Earth / government capacity target",
+     "series": "India's Path to 100 GW of Nuclear by 2047",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "₹25 lakh cr TERI's estimated investment need to hit that target",
+     "value": "₹25 lakh cr",
+     "period": "2047 target",
+     "period_end": "2047-12-31",
+     "publisher": "TERI",
+     "series": "TERI assessment investment need",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "20+ GW private-sector nuclear projects already announced since the law took effect",
+     "value": "20+ GW",
+     "period": "since 21 Dec 2025",
+     "period_end": "2026-09-15",
+     "publisher": "industry / Tribune/ANI and Down To Earth",
+     "series": "private-sector nuclear projects announced",
+     "frequency": "live",
+     "headline": true
+    },
+    {
+     "quote": "1962–2025 years of exclusive state control over nuclear power plant ownership",
+     "value": "63 years",
+     "period": "1962-2025",
+     "period_end": "2025-12-21",
+     "publisher": "PIB / ministry",
+     "series": "exclusive state control duration",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "NPCIL (projected) \n 50+ GW",
+     "value": "50+ GW",
+     "period": "2047 target",
+     "period_end": "2047-12-31",
+     "publisher": "Tribune/ANI and Down To Earth",
+     "series": "NPCIL projected capacity share",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "NTPC (stated plans) \n 30 GW",
+     "value": "30 GW",
+     "period": "2047 target",
+     "period_end": "2047-12-31",
+     "publisher": "Tribune/ANI and Down To Earth",
+     "series": "NTPC stated plans",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Private (announced) \n 20+ GW",
+     "value": "20+ GW",
+     "period": "since SHANTI took effect on 21 Dec 2025",
+     "period_end": "2026-09-15",
+     "publisher": "Tribune/ANI and Down To Earth",
+     "series": "Private announced capacity",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "from ₹3,000 crore for the largest reactors down to ₹100 crore for the smallest",
+     "value": "₹3,000 crore",
+     "period": "draft rules dated 14 August 2026",
+     "period_end": "2026-08-14",
+     "publisher": "Department of Atomic Energy",
+     "series": "draft SHANTI Rules operator liability caps",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "down to ₹100 crore for the smallest",
+     "value": "₹100 crore",
+     "period": "draft rules dated 14 August 2026",
+     "period_end": "2026-08-14",
+     "publisher": "Department of Atomic Energy",
+     "series": "draft SHANTI Rules operator liability caps",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "India's nuclear capacity, current vs. 2047 target: 9 GW → 100 GW",
+     "value": "9 GW (current), 100 GW (target)",
+     "period": "as of 2026-09-15 (article revision date)",
+     "period_end": "2047-12-31",
+     "publisher": "government capacity target (via Tribune/ANI, Down To Earth)",
+     "series": "India's nuclear capacity target (2047)",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "TERI's estimated investment need to hit that target: ₹25 lakh cr",
+     "value": "₹25,00,00,00,00,000 (₹25 lakh cr)",
+     "period": null,
+     "period_end": null,
+     "publisher": "TERI (The Energy and Resources Institute)",
+     "series": "TERI's assessment of nuclear energy investment requirements",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "NPCIL (projected): 50+ GW",
+     "value": "50+ GW",
+     "period": "projected contribution to 100 GW target by 2047",
+     "period_end": "2047-12-31",
+     "publisher": "NPCIL (via Tribune/ANI, Down To Earth)",
+     "series": "NPCIL's projected nuclear capacity contribution",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "NTPC (stated plans): 30 GW",
+     "value": "30 GW",
+     "period": "stated plans for contribution to 100 GW target by 2047",
+     "period_end": "2047-12-31",
+     "publisher": "NTPC (via Tribune/ANI, Down To Earth)",
+     "series": "NTPC's nuclear capacity plans",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Private (announced): 20+ GW announced since the law took effect on 21 Dec 2025",
+     "value": "20+ GW",
+     "period": "since 21 December 2025",
+     "period_end": "2026-09-15",
+     "publisher": "private-sector announcements (via Tribune/ANI, Down To Earth)",
+     "series": "Private-sector nuclear project announcements",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "introduced in the Lok Sabha on 15 December 2025, passed there on 17 December, passed by the Rajya Sabha on 18 December, and given presidential assent on 20 December",
+     "value": "15 Dec 2025 (Lok Sabha introduction), 17 Dec 2025 (Lok Sabha passage), 18 Dec 2025 (Rajya Sabha passage), 20 Dec 2025 (presidential assent)",
+     "period": "15–20 December 2025",
+     "period_end": "2025-12-20",
+     "publisher": "PRS India's bill tracker (via World Nuclear News, Deccan Herald)",
+     "series": "Legislative timeline of SHANTI Bill 2025",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "took effect the next day [after presidential assent]",
+     "value": "21 December 2025",
+     "period": "effective date of SHANTI Act",
+     "period_end": "2025-12-21",
+     "publisher": "PRS India's bill tracker (via World Nuclear News, Deccan Herald)",
+     "series": "SHANTI Act enforcement date",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "1962–2025 years of exclusive state control over nuclear power plant ownership",
+     "value": "63 years",
+     "period": "1962–2025",
+     "period_end": "2025-12-31",
+     "publisher": "Atomic Energy Act of 1962 (repealed by SHANTI)",
+     "series": "Duration of state nuclear monopoly",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The Department of Atomic Energy published draft SHANTI Rules on 14 August 2026, with comments invited until 4 September",
+     "value": "14 August 2026 (publication), 4 September 2026 (comments deadline)",
+     "period": "14 Aug–4 Sep 2026",
+     "period_end": "2026-09-04",
+     "publisher": "Department of Atomic Energy",
+     "series": "Draft SHANTI Rules consultation period",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "operator liability caps from ₹3,000 crore for the largest reactors down to ₹100 crore for the smallest",
+     "value": "₹3,000 crore (largest reactors), ₹100 crore (smallest)",
+     "period": "as per draft SHANTI Rules (2026)",
+     "period_end": "2026-09-04",
+     "publisher": "Department of Atomic Energy",
+     "series": "Draft SHANTI Rules: Operator liability caps",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "A petition filed in the Supreme Court in February 2026 challenges [the supplier-liability clause]",
+     "value": "February 2026",
+     "period": "petition filing date",
+     "period_end": "2026-02-29",
+     "publisher": "Supreme Court of India (via SC Observer)",
+     "series": "Supplier-liability clause challenge",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "SHANTI is a genuine structural break... has been law for nine months as of this writing",
+     "value": "9 months",
+     "period": "as of 15 September 2026",
+     "period_end": "2026-09-15",
+     "publisher": "article revision date (15 Sep 2026)",
+     "series": "Duration of SHANTI Act enforcement (as of article revision)",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

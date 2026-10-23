@@ -1,0 +1,540 @@
+{
+ "slug": "five-year-synthesis-trade-currency",
+ "text_sha1": "16d4732bbc8a1fc9",
+ "chars": 9986,
+ "checked": "2026-10-23T11:32:59",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "Goods deficit\n-$191.0bn\nFY2021-22\n-$283.5bn\nFY2024-25",
+     "value": "-$191.0bn",
+     "period": "FY2021-22",
+     "period_end": "2022-03-31",
+     "publisher": "DGCI&S",
+     "series": "Goods trade balance",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "Goods deficit\n-$191.0bn\nFY2021-22\n-$283.5bn\nFY2024-25",
+     "value": "-$283.5bn",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "DGCI&S",
+     "series": "Goods trade balance",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "Services surplus\n$107.6bn\nFY2021-22\n$188.9bn\nFY2024-25",
+     "value": "$107.6bn",
+     "period": "FY2021-22",
+     "period_end": "2022-03-31",
+     "publisher": "RBI",
+     "series": "Services trade balance",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "Services surplus\n$107.6bn\nFY2021-22\n$188.9bn\nFY2024-25",
+     "value": "$188.9bn",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "RBI",
+     "series": "Services trade balance",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "imports grew nearly six times faster than exports",
+     "value": "nearly six times",
+     "period": "FY2021-22 to FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "Merchandise trade",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "Goods deficit widened by $92.5bn over five years; the services surplus grew $81.3bn, absorbing roughly 88% of the extra shortfall.",
+     "value": "$92.5bn",
+     "period": "FY2021-22 to FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "DGCI&S",
+     "series": "Trade balance",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "reserves peaked at $728.5bn on 27 February 2026",
+     "value": "$728.5bn",
+     "period": "27 February 2026",
+     "period_end": "2026-02-27",
+     "publisher": "RBI",
+     "series": "Weekly Statistical Supplement",
+     "frequency": "weekly",
+     "headline": false
+    },
+    {
+     "quote": "fell to $666.9bn by 26 June",
+     "value": "$666.9bn",
+     "period": "26 June 2026",
+     "period_end": "2026-06-26",
+     "publisher": "RBI",
+     "series": "Weekly Statistical Supplement",
+     "frequency": "weekly",
+     "headline": false
+    },
+    {
+     "quote": "put reserves at $734.61bn in the week ended 2 October 2026",
+     "value": "$734.61bn",
+     "period": "week ended 2 October 2026",
+     "period_end": "2026-10-02",
+     "publisher": "RBI",
+     "series": "Weekly Statistical Supplement",
+     "frequency": "weekly",
+     "headline": false
+    },
+    {
+     "quote": "net services receipts at about $216.6 billion against $188.8 billion in FY2024-25",
+     "value": "$216.6 billion",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "RBI",
+     "series": "Balance of payments",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "net services receipts at about $216.6 billion against $188.8 billion in FY2024-25",
+     "value": "$188.8 billion",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "RBI",
+     "series": "Balance of payments",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "current account deficit at $25.2 billion (0.6% of GDP).",
+     "value": "$25.2 billion",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "RBI",
+     "series": "Balance of payments",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "current account deficit at $25.2 billion (0.6% of GDP).",
+     "value": "0.6%",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "RBI",
+     "series": "Balance of payments",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "provisional estimate of 29 May 2026 puts FY2025-26 growth at 7.7%",
+     "value": "7.7%",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "MoSPI",
+     "series": "GDP provisional estimate",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "with FY2024-25 revised to 7.1%",
+     "value": "7.1%",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "MoSPI",
+     "series": "GDP revision",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "spot rate was about 96.3 to the dollar in early October 2026.",
+     "value": "96.3",
+     "period": "early October 2026",
+     "period_end": "2026-10-07",
+     "publisher": "RBI / market data",
+     "series": "USD-INR spot rate",
+     "frequency": "daily",
+     "headline": false
+    },
+    {
+     "quote": "Imports grew 26.6% over the five years ($613.1bn → $776.0bn)",
+     "value": "26.6%",
+     "period": "FY2021-22 to FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "Imports",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Imports grew 26.6% over the five years ($613.1bn → $776.0bn)",
+     "value": "$613.1bn",
+     "period": "FY2021-22",
+     "period_end": "2022-03-31",
+     "publisher": "DGCI&S",
+     "series": "Imports",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Imports grew 26.6% over the five years ($613.1bn → $776.0bn)",
+     "value": "$776.0bn",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "Imports",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "exports grew 4.7% ($422.0bn → $441.7bn)",
+     "value": "4.7%",
+     "period": "FY2021-22 to FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "Exports",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "exports grew 4.7% ($422.0bn → $441.7bn)",
+     "value": "$422.0bn",
+     "period": "FY2021-22",
+     "period_end": "2022-03-31",
+     "publisher": "DGCI&S",
+     "series": "Exports",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "exports grew 4.7% ($422.0bn → $441.7bn)",
+     "value": "$441.7bn",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "Exports",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "rupee's FY-average depreciation (74.50 → 84.68, +13.7% through FY2024-25)",
+     "value": "74.50",
+     "period": "FY2021-22",
+     "period_end": "2022-03-31",
+     "publisher": "RBI",
+     "series": "USD-INR exchange rate",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "rupee's FY-average depreciation (74.50 → 84.68, +13.7% through FY2024-25)",
+     "value": "84.68",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "RBI",
+     "series": "USD-INR exchange rate",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "rupee's FY-average depreciation (74.50 → 84.68, +13.7% through FY2024-25)",
+     "value": "+13.7%",
+     "period": "FY2021-22 to FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "RBI",
+     "series": "USD-INR exchange rate",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "spot INR/USD hit 96.37 by mid-July 2026",
+     "value": "96.37",
+     "period": "mid-July 2026",
+     "period_end": "2026-07-15",
+     "publisher": "RBI / market data",
+     "series": "USD-INR spot rate",
+     "frequency": "daily",
+     "headline": false
+    },
+    {
+     "quote": "up 11.9% in the twelve months from July 2025 alone.",
+     "value": "11.9%",
+     "period": "July 2025 to July 2026",
+     "period_end": "2026-07-31",
+     "publisher": "RBI / market data",
+     "series": "USD-INR spot rate",
+     "frequency": "daily",
+     "headline": false
+    },
+    {
+     "quote": "Reserves grew from $588.0bn (Apr-2021) to $675.2bn",
+     "value": "$588.0bn",
+     "period": "Apr-2021",
+     "period_end": "2021-04-30",
+     "publisher": "RBI",
+     "series": "Weekly Statistical Supplement",
+     "frequency": "weekly",
+     "headline": false
+    },
+    {
+     "quote": "Reserves grew from $588.0bn (Apr-2021) to $675.2bn",
+     "value": "$675.2bn",
+     "period": "July 2026",
+     "period_end": "2026-07-10",
+     "publisher": "RBI",
+     "series": "Weekly Statistical Supplement",
+     "frequency": "weekly",
+     "headline": false
+    },
+    {
+     "quote": "up 14.8%, well behind the import bill's 26.6% growth",
+     "value": "14.8%",
+     "period": "April 2021 to July 2026",
+     "period_end": "2026-07-10",
+     "publisher": "RBI",
+     "series": "Weekly Statistical Supplement",
+     "frequency": "weekly",
+     "headline": false
+    },
+    {
+     "quote": "China still supplied ~62% of India's electronic components in the 2020-22 data",
+     "value": "~62%",
+     "period": "2020-22",
+     "period_end": "2022-12-31",
+     "publisher": "DGCI&S",
+     "series": "Electronic components trade",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "more recent estimates put China alone at ~40% plus Hong Kong ~16%",
+     "value": "~40%",
+     "period": "recent estimate",
+     "period_end": null,
+     "publisher": "Trade data",
+     "series": "Electronic components trade",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "more recent estimates put China alone at ~40% plus Hong Kong ~16%",
+     "value": "~16%",
+     "period": "recent estimate",
+     "period_end": null,
+     "publisher": "Trade data",
+     "series": "Electronic components trade",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "₹1.97 lakh crore committed across 14 sectors",
+     "value": "₹1.97 lakh crore",
+     "period": "2020-21 to Dec 2025",
+     "period_end": "2025-12-31",
+     "publisher": "PIB",
+     "series": "Production Linked Incentive scheme",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "one mid-2025 PIB release cites a revised ₹1.91 lakh crore",
+     "value": "₹1.91 lakh crore",
+     "period": "mid-2025",
+     "period_end": "2025-06-30",
+     "publisher": "PIB",
+     "series": "Production Linked Incentive scheme",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "Goods deficit -$191.0bn FY2021-22; -$283.5bn FY2024-25",
+     "value": "-$191.0 billion (FY2021-22), -$283.5 billion (FY2024-25)",
+     "period": "FY2021-22, FY2024-25",
+     "period_end": "2022-03-31, 2025-03-31",
+     "publisher": "MoSPI (via repo's tradestat_hsn_export_import)",
+     "series": "Goods trade deficit (current account balance)",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Services surplus $107.6bn FY2021-22; $188.9bn FY2024-25",
+     "value": "$107.6 billion (FY2021-22), $188.9 billion (FY2024-25)",
+     "period": "FY2021-22, FY2024-25",
+     "period_end": "2022-03-31, 2025-03-31",
+     "publisher": "MoSPI (via repo's services_trade_and_overall_balance)",
+     "series": "Services trade surplus (current account balance)",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Goods deficit widened by $92.5bn over five years; services surplus grew $81.3bn",
+     "value": "$92.5 billion (goods deficit increase), $81.3 billion (services surplus increase)",
+     "period": "FY2021-22 to FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "MoSPI (via repo's tradestat_hsn_export_import, services_trade_and_overall_balance)",
+     "series": "Trade balance change (goods vs. services)",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Imports grew 26.6% over five years ($613.1bn → $776.0bn)",
+     "value": "$613.1 billion (FY2021-22), $776.0 billion (FY2024-25)",
+     "period": "FY2021-22 to FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "MoSPI (via repo's tradestat_hsn_export_import)",
+     "series": "Imports (current account balance)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Exports grew 4.7% ($422.0bn → $441.7bn) over five years",
+     "value": "$422.0 billion (FY2021-22), $441.7 billion (FY2024-25)",
+     "period": "FY2021-22 to FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "MoSPI (via repo's tradestat_hsn_export_import)",
+     "series": "Exports (current account balance)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "The rupee's FY-average depreciation (74.50 → 84.68, +13.7%)",
+     "value": "74.50 INR/USD (FY2021-22), 84.68 INR/USD (FY2024-25)",
+     "period": "FY2021-22 to FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "RBI (via repo's rbi_usd_inr_exchange_rate)",
+     "series": "Average INR/USD exchange rate",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Reserves peaked at $728.5bn on 27 February 2026 and fell to $666.9bn by 26 June",
+     "value": "$728.5 billion (27 Feb 2026), $666.9 billion (26 Jun 2026)",
+     "period": "27 Feb 2026, 26 Jun 2026",
+     "period_end": "2026-02-27, 2026-06-26",
+     "publisher": "RBI",
+     "series": "Forex reserves (daily)",
+     "frequency": "daily",
+     "headline": false
+    },
+    {
+     "quote": "Reserves at $734.61bn in the week ended 2 October 2026, about $43.5bn above end-March 2026 level",
+     "value": "$734.61 billion (week ended 2 Oct 2026), $43.5 billion above end-March 2026",
+     "period": "Week ended 2 Oct 2026, Mar 2026",
+     "period_end": "2026-10-02, 2026-03-31",
+     "publisher": "RBI (via press report, 9 Oct 2026)",
+     "series": "Forex reserves (weekly)",
+     "frequency": "weekly",
+     "headline": false
+    },
+    {
+     "quote": "Reserves grew from $588.0bn (Apr-2021) to $675.2bn (RBI Weekly Statistical Supplement, retrieved 10 Jul 2026)",
+     "value": "$588.0 billion (Apr 2021), $675.2 billion (Jun 2025)",
+     "period": "Apr 2021, Jun 2025",
+     "period_end": "2021-03-31, 2025-06-30",
+     "publisher": "RBI (Weekly Statistical Supplement)",
+     "series": "Forex reserves (start of FY)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Spot INR/USD hit 96.37 by mid-July 2026, up 11.9% in the twelve months from July 2025 alone",
+     "value": "96.37 INR/USD (mid-Jul 2026), +11.9% YoY",
+     "period": "Jul 2025 to mid-Jul 2026",
+     "period_end": "2026-07-15",
+     "publisher": "Bank of Baroda (9 Jun 2026)",
+     "series": "Spot INR/USD exchange rate",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Real GDP growth ran 10% → 8% → 9% → 6% → 7% (First Advance Estimate) across the five years",
+     "value": "10% (FY2021-22), 8% (FY2022-23), 9% (FY2023-24), 6% (FY2024-25), 7% (FY2025-26)",
+     "period": "FY2021-22 to FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "MoSPI (First Advance Estimate, 29 May 2026)",
+     "series": "Real GDP growth rate",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "FY2025-26 net services receipts at about $216.6 billion (Bank of Baroda, CEIC data)",
+     "value": "$216.6 billion (FY2025-26)",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Bank of Baroda (using CEIC data)",
+     "series": "Net services receipts (current account balance)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Current account deficit at $25.2 billion (0.6% of GDP) in FY2025-26",
+     "value": "$25.2 billion (0.6% of GDP)",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Bank of Baroda (using CEIC data)",
+     "series": "Current account deficit",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "₹1.97 lakh crore committed across 14 sectors (PIB, 2020-21 Budget cycle)",
+     "value": "₹197,000 crore",
+     "period": "2020-21 Budget cycle (ongoing)",
+     "period_end": null,
+     "publisher": "DPIIT (PIB)",
+     "series": "PLI outlay commitment",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Revised ₹1.91 lakh crore cited in a mid-2025 PIB release",
+     "value": "₹191,000 crore",
+     "period": "Mid-2025",
+     "period_end": "2025-06-30",
+     "publisher": "DPIIT (PIB)",
+     "series": "PLI outlay revised commitment",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "China supplied ~62% of India's electronic components in the 2020-22 data",
+     "value": "~62%",
+     "period": "2020-22",
+     "period_end": "2022-03-31",
+     "publisher": "Repo's import-side bulletin (unspecified source)",
+     "series": "China's share in India's electronic component imports",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "China alone at ~40% plus Hong Kong ~16% (more recent estimates)",
+     "value": "~40% (China), ~16% (Hong Kong)",
+     "period": "Recent estimates (post-2022)",
+     "period_end": null,
+     "publisher": "Repo's import-side bulletin (unspecified source)",
+     "series": "China/Hong Kong share in India's electronic component imports",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

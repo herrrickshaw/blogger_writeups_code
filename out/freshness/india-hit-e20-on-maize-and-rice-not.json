@@ -1,0 +1,410 @@
+{
+ "slug": "india-hit-e20-on-maize-and-rice-not",
+ "text_sha1": "850700d47c9a4018",
+ "chars": 12552,
+ "checked": "2026-10-23T12:47:15",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "Blending is at 20 per cent through ESY 2025-26, held month after month.",
+     "value": "20%",
+     "period": "ESY 2025-26",
+     "period_end": "2026-10-31",
+     "publisher": "ChiniMandi / BioEnergy Times",
+     "series": "Ethanol Blending Percentage",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "Oil marketing companies allocated about 1,048 crore litres for the year, against 1,776 crore litres offered — a 59 per cent allocation rate.",
+     "value": "1,048 crore litres",
+     "period": "ESY 2025-26 cycle 1",
+     "period_end": "2026-10-31",
+     "publisher": "OMCs / ChiniMandi",
+     "series": "Ethanol Allocation",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "against 1,776 crore litres offered — a 59 per cent allocation rate.",
+     "value": "1,776 crore litres",
+     "period": "ESY 2025-26 cycle 1",
+     "period_end": "2026-10-31",
+     "publisher": "OMCs / ChiniMandi",
+     "series": "Ethanol Volume Offered",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Grain supplies 72.5 per cent of that allocation.",
+     "value": "72.5%",
+     "period": "ESY 2025-26 cycle 1",
+     "period_end": "2026-10-31",
+     "publisher": "OMCs / ChiniMandi",
+     "series": "Grain-based Ethanol Allocation Share",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Cane, in all its forms, supplies 27.5 per cent.",
+     "value": "27.5%",
+     "period": "ESY 2025-26 cycle 1",
+     "period_end": "2026-10-31",
+     "publisher": "OMCs / ChiniMandi",
+     "series": "Cane-based Ethanol Allocation Share",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Maize alone is 45.7 per cent , up from 6.2 per cent in ESY 2022-23 — a sevenfold shift in three years.",
+     "value": "45.7%",
+     "period": "ESY 2025-26 cycle 1",
+     "period_end": "2026-10-31",
+     "publisher": "OMCs / ChiniMandi",
+     "series": "Maize Share of Ethanol Allocation",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "up from 6.2 per cent in ESY 2022-23 — a sevenfold shift in three years.",
+     "value": "6.2%",
+     "period": "ESY 2022-23",
+     "period_end": "2023-10-31",
+     "publisher": "ChiniMandi / BioEnergy Times",
+     "series": "Maize Share of Ethanol Allocation",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Surplus FCI rice is 22.3 per cent , more than direct sugarcane juice.",
+     "value": "22.3%",
+     "period": "ESY 2025-26 cycle 1",
+     "period_end": "2026-10-31",
+     "publisher": "OMCs / ChiniMandi",
+     "series": "Surplus FCI Rice Share of Ethanol Allocation",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Maize | 45.68 | 478.9 | Grain |",
+     "value": "478.9 crore litres",
+     "period": "ESY 2025-26 cycle 1",
+     "period_end": "2026-10-31",
+     "publisher": "OMCs / ChiniMandi",
+     "series": "Ethanol Feedstock Allocation Volume - Maize",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Surplus FCI rice | 22.25 | 233.3 | Grain |",
+     "value": "233.3 crore litres",
+     "period": "ESY 2025-26 cycle 1",
+     "period_end": "2026-10-31",
+     "publisher": "OMCs / ChiniMandi",
+     "series": "Ethanol Feedstock Allocation Volume - Surplus FCI Rice",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Direct sugarcane juice | 15.82 | 165.9 | Cane |",
+     "value": "15.82%",
+     "period": "ESY 2025-26 cycle 1",
+     "period_end": "2026-10-31",
+     "publisher": "OMCs / ChiniMandi",
+     "series": "Ethanol Feedstock Allocation Share - Direct Sugarcane Juice",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Direct sugarcane juice | 15.82 | 165.9 | Cane |",
+     "value": "165.9 crore litres",
+     "period": "ESY 2025-26 cycle 1",
+     "period_end": "2026-10-31",
+     "publisher": "OMCs / ChiniMandi",
+     "series": "Ethanol Feedstock Allocation Volume - Direct Sugarcane Juice",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "B-heavy molasses | 10.54 | 110.5 | Cane |",
+     "value": "10.54%",
+     "period": "ESY 2025-26 cycle 1",
+     "period_end": "2026-10-31",
+     "publisher": "OMCs / ChiniMandi",
+     "series": "Ethanol Feedstock Allocation Share - B-heavy Molasses",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "B-heavy molasses | 10.54 | 110.5 | Cane |",
+     "value": "110.5 crore litres",
+     "period": "ESY 2025-26 cycle 1",
+     "period_end": "2026-10-31",
+     "publisher": "OMCs / ChiniMandi",
+     "series": "Ethanol Feedstock Allocation Volume - B-heavy Molasses",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Damaged food grains | 4.54 | 47.6 | Grain |",
+     "value": "4.54%",
+     "period": "ESY 2025-26 cycle 1",
+     "period_end": "2026-10-31",
+     "publisher": "OMCs / ChiniMandi",
+     "series": "Ethanol Feedstock Allocation Share - Damaged Food Grains",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Damaged food grains | 4.54 | 47.6 | Grain |",
+     "value": "47.6 crore litres",
+     "period": "ESY 2025-26 cycle 1",
+     "period_end": "2026-10-31",
+     "publisher": "OMCs / ChiniMandi",
+     "series": "Ethanol Feedstock Allocation Volume - Damaged Food Grains",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "C-heavy molasses | 1.16 | 12.2 | Cane |",
+     "value": "1.16%",
+     "period": "ESY 2025-26 cycle 1",
+     "period_end": "2026-10-31",
+     "publisher": "OMCs / ChiniMandi",
+     "series": "Ethanol Feedstock Allocation Share - C-heavy Molasses",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "C-heavy molasses | 1.16 | 12.2 | Cane |",
+     "value": "12.2 crore litres",
+     "period": "ESY 2025-26 cycle 1",
+     "period_end": "2026-10-31",
+     "publisher": "OMCs / ChiniMandi",
+     "series": "Ethanol Feedstock Allocation Volume - C-heavy Molasses",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Half-year supply of about 515 crore litres against 1,059 crore litres contracted, with roughly 333 crore litres grain-based, is attributed to All India Distillers’ Association estimates",
+     "value": "515 crore litres",
+     "period": "half-year ESY 2025-26",
+     "period_end": "2026-04-30",
+     "publisher": "All India Distillers' Association / Business Today",
+     "series": "Ethanol Supply",
+     "frequency": "half-yearly",
+     "headline": false
+    },
+    {
+     "quote": "against 1,059 crore litres contracted, with roughly 333 crore litres grain-based, is attributed to All India Distillers’ Association estimates reported via Business Today on 12 May 2026",
+     "value": "1,059 crore litres",
+     "period": "ESY 2025-26",
+     "period_end": "2026-10-31",
+     "publisher": "All India Distillers' Association / Business Today",
+     "series": "Ethanol Contracted Volume",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "with roughly 333 crore litres grain-based, is attributed to All India Distillers’ Association estimates reported via Business Today on 12 May 2026",
+     "value": "333 crore litres",
+     "period": "half-year ESY 2025-26",
+     "period_end": "2026-04-30",
+     "publisher": "All India Distillers' Association / Business Today",
+     "series": "Grain-based Ethanol Supply",
+     "frequency": "half-yearly",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "blending is at 20 per cent through ESY 2025-26, held month after month",
+     "value": "20%",
+     "period": "ESY 2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "ChiniMandi / BioEnergy Times (trade reporting)",
+     "series": "Ethanol blending rate (monthly supply figures)",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "Oil marketing companies allocated about 1,048 crore litres for the year, against 1,776 crore litres offered — a 59 per cent allocation rate",
+     "value": "1,048 crore litres allocated; 1,776 crore litres offered",
+     "period": "ESY 2025-26 cycle 1",
+     "period_end": "2026-03-31",
+     "publisher": "ChiniMandi",
+     "series": "OMC ethanol allocation vs. distillery capacity",
+     "frequency": "annual (per ESY)",
+     "headline": true
+    },
+    {
+     "quote": "Grain now supplies 72.5 per cent of allocated ethanol — maize alone 45.7 per cent, up from 6.2 per cent three years earlier",
+     "value": "72.5% grain; 45.7% maize (up from 6.2%)",
+     "period": "ESY 2025-26 (vs. ESY 2022-23)",
+     "period_end": "2026-03-31",
+     "publisher": "ChiniMandi / BioEnergy Times",
+     "series": "Ethanol feedstock allocation share",
+     "frequency": "annual (per ESY)",
+     "headline": true
+    },
+    {
+     "quote": "Surplus FCI rice supplies more of India’s fuel than sugarcane juice does. A fifth of India’s petrol blend comes out of the public foodgrain stock.",
+     "value": "22.3% surplus FCI rice (vs. 15.82% direct sugarcane juice)",
+     "period": "ESY 2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "ChiniMandi",
+     "series": "Ethanol feedstock allocation (FCI rice)",
+     "frequency": "annual (per ESY)",
+     "headline": false
+    },
+    {
+     "quote": "Maize supplied 45.68 per cent of India's ethanol allocation in 2025-26, up from 6.2 per cent three supply years earlier.",
+     "value": "45.68% maize (up from 6.2%)",
+     "period": "ESY 2025-26 (vs. ESY 2022-23)",
+     "period_end": "2026-03-31",
+     "publisher": "ChiniMandi",
+     "series": "Ethanol feedstock allocation (maize)",
+     "frequency": "annual (per ESY)",
+     "headline": false
+    },
+    {
+     "quote": "Feedstock | Share per cent | Volume crore litres | ... Maize | 45.68 | 478.9 | ...",
+     "value": "45.68% (478.9 crore litres) maize",
+     "period": "ESY 2025-26 cycle 1",
+     "period_end": "2026-03-31",
+     "publisher": "ChiniMandi",
+     "series": "OMC ethanol feedstock allocation table",
+     "frequency": "annual (per ESY cycle)",
+     "headline": false
+    },
+    {
+     "quote": "... Surplus FCI rice | 22.25 | 233.3 | ...",
+     "value": "22.25% (233.3 crore litres) surplus FCI rice",
+     "period": "ESY 2025-26 cycle 1",
+     "period_end": "2026-03-31",
+     "publisher": "ChiniMandi",
+     "series": "OMC ethanol feedstock allocation table",
+     "frequency": "annual (per ESY cycle)",
+     "headline": false
+    },
+    {
+     "quote": "... Direct sugarcane juice | 15.82 | 165.9 | ...",
+     "value": "15.82% (165.9 crore litres) direct sugarcane juice",
+     "period": "ESY 2025-26 cycle 1",
+     "period_end": "2026-03-31",
+     "publisher": "ChiniMandi",
+     "series": "OMC ethanol feedstock allocation table",
+     "frequency": "annual (per ESY cycle)",
+     "headline": false
+    },
+    {
+     "quote": "... B-heavy molasses | 10.54 | 110.5 | ...",
+     "value": "10.54% (110.5 crore litres) B-heavy molasses",
+     "period": "ESY 2025-26 cycle 1",
+     "period_end": "2026-03-31",
+     "publisher": "ChiniMandi",
+     "series": "OMC ethanol feedstock allocation table",
+     "frequency": "annual (per ESY cycle)",
+     "headline": false
+    },
+    {
+     "quote": "... Damaged food grains | 4.54 | 47.6 | ...",
+     "value": "4.54% (47.6 crore litres) damaged food grains",
+     "period": "ESY 2025-26 cycle 1",
+     "period_end": "2026-03-31",
+     "publisher": "ChiniMandi",
+     "series": "OMC ethanol feedstock allocation table",
+     "frequency": "annual (per ESY cycle)",
+     "headline": false
+    },
+    {
+     "quote": "... C-heavy molasses | 1.16 | 12.2 | ...",
+     "value": "1.16% (12.2 crore litres) C-heavy molasses",
+     "period": "ESY 2025-26 cycle 1",
+     "period_end": "2026-03-31",
+     "publisher": "ChiniMandi",
+     "series": "OMC ethanol feedstock allocation table",
+     "frequency": "annual (per ESY cycle)",
+     "headline": false
+    },
+    {
+     "quote": "Grain-based total | 72.47 | 759.8 | ... Cane-based total | 27.52 | 288.6 | ...",
+     "value": "72.47% grain (759.8 crore litres); 27.52% cane (288.6 crore litres)",
+     "period": "ESY 2025-26 cycle 1",
+     "period_end": "2026-03-31",
+     "publisher": "ChiniMandi",
+     "series": "OMC ethanol feedstock allocation subtotals",
+     "frequency": "annual (per ESY cycle)",
+     "headline": false
+    },
+    {
+     "quote": "Allocated | 99.99 | 1,048.4 | ...",
+     "value": "1,048.4 crore litres allocated",
+     "period": "ESY 2025-26 cycle 1",
+     "period_end": "2026-03-31",
+     "publisher": "ChiniMandi",
+     "series": "OMC ethanol allocation total",
+     "frequency": "annual (per ESY cycle)",
+     "headline": false
+    },
+    {
+     "quote": "Distillers offered 1,776 crore litres. Oil marketing companies allocated 1,048 crore litres.",
+     "value": "1,776 crore litres offered; 1,048 crore litres allocated",
+     "period": "ESY 2025-26 cycle 1",
+     "period_end": "2026-03-31",
+     "publisher": "ChiniMandi",
+     "series": "Ethanol capacity vs. allocation",
+     "frequency": "annual (per ESY cycle)",
+     "headline": false
+    },
+    {
+     "quote": "728 crore litres of offered capacity did not [find a buyer]",
+     "value": "728 crore litres unallocated",
+     "period": "ESY 2025-26 cycle 1",
+     "period_end": "2026-03-31",
+     "publisher": "ChiniMandi",
+     "series": "Unallocated ethanol capacity",
+     "frequency": "annual (per ESY cycle)",
+     "headline": false
+    },
+    {
+     "quote": "Half-year supply of about 515 crore litres against 1,059 crore litres contracted",
+     "value": "515 crore litres supplied (vs. 1,059 crore litres contracted)",
+     "period": "Apr-Sep 2025 (half-year)",
+     "period_end": "2025-09-30",
+     "publisher": "All India Distillers’ Association (via Business Today)",
+     "series": "Ethanol supply vs. contracted volume",
+     "frequency": "half-yearly",
+     "headline": false
+    },
+    {
+     "quote": "... roughly 333 crore litres grain-based ...",
+     "value": "333 crore litres grain-based (half-year)",
+     "period": "Apr-Sep 2025",
+     "period_end": "2025-09-30",
+     "publisher": "All India Distillers’ Association (via Business Today)",
+     "series": "Half-year grain-based ethanol supply",
+     "frequency": "half-yearly",
+     "headline": false
+    },
+    {
+     "quote": "maize is India’s priciest ethanol feedstock at ₹71.86 a litre",
+     "value": "₹71.86 per litre (maize)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Author’s earlier piece (unspecified source)",
+     "series": "Ethanol feedstock cost",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

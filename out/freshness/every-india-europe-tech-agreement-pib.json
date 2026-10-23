@@ -1,0 +1,329 @@
+{
+ "slug": "every-india-europe-tech-agreement-pib",
+ "text_sha1": "4bfe0d34eab0b4e9",
+ "chars": 14384,
+ "checked": "2026-10-23T11:25:11",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": []
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "India has built nine separate technology relationships with Europe since 2010 — one with the European Union as a bloc, eight with individual European countries",
+     "value": "9",
+     "period": "since 2010",
+     "period_end": null,
+     "publisher": "PIB (Press Information Bureau)",
+     "series": "India-Europe technology agreements inventory",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "The Indo-German Science & Technology Centre has funded joint projects since 2010",
+     "value": "2010",
+     "period": "2010",
+     "period_end": "2010-12-31",
+     "publisher": "PIB",
+     "series": "Indo-German Science & Technology Centre (IGSTC) establishment",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India-EU Trade and Technology Council (TTC) — established | Announced Apr 2022; launched 6 Feb 2023",
+     "value": "6 Feb 2023",
+     "period": "launched 6 Feb 2023",
+     "period_end": "2023-02-06",
+     "publisher": "PIB",
+     "series": "India-EU Trade and Technology Council (TTC)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "1st TTC Ministerial Meeting | 16 May 2023, Brussels",
+     "value": "16 May 2023",
+     "period": "16 May 2023",
+     "period_end": "2023-05-16",
+     "publisher": "PIB",
+     "series": "TTC Ministerial Meetings",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "2nd TTC Ministerial Meeting, Joint Statement | 28 Feb 2025, New Delhi",
+     "value": "28 Feb 2025",
+     "period": "28 Feb 2025",
+     "period_end": "2025-02-28",
+     "publisher": "PIB",
+     "series": "TTC Ministerial Meetings",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "TTC WG2 — EV Charging Technology Workshop | Feb 2025, Pune",
+     "value": "Feb 2025",
+     "period": "Feb 2025",
+     "period_end": "2025-02-28",
+     "publisher": "PIB",
+     "series": "TTC Working Group 2 (WG2) activities",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "TTC WG2 — Green & Clean Energy Technologies Workshop | 2024",
+     "value": "2024",
+     "period": "2024",
+     "period_end": "2024-12-31",
+     "publisher": "PIB",
+     "series": "TTC Working Group 2 (WG2) activities",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "TTC — EV Battery Recycling Startup Collaboration | 2024",
+     "value": "2024",
+     "period": "2024",
+     "period_end": "2024-12-31",
+     "publisher": "PIB",
+     "series": "TTC EV Battery Recycling Collaboration",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Indo-German Science & Technology Centre (IGSTC) | Established 2010, ongoing",
+     "value": "2010",
+     "period": "2010",
+     "period_end": "2010-12-31",
+     "publisher": "PIB",
+     "series": "IGSTC establishment",
+     "frequency": "ongoing",
+     "headline": false
+    },
+    {
+     "quote": "Joint Declaration on R&D in Advanced Materials | 2024, 7th Inter-Governmental Consultations",
+     "value": "2024",
+     "period": "2024",
+     "period_end": "2024-12-31",
+     "publisher": "PIB",
+     "series": "Inter-Governmental Consultations (IGC)",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "Critical/emerging tech cooperation (semiconductors, telecom, bioeconomy) | 2024, 7th IGC",
+     "value": "2024",
+     "period": "2024",
+     "period_end": "2024-12-31",
+     "publisher": "PIB",
+     "series": "Critical/emerging tech cooperation",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "Joint Declaration on Innovation Partnership for a Sustainable Future | Apr 2018",
+     "value": "Apr 2018",
+     "period": "Apr 2018",
+     "period_end": "2018-04-30",
+     "publisher": "PIB",
+     "series": "Sweden-India Innovation Partnership",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Healthcare Innovation Centre — Statement of Intent | 20 Aug 2020",
+     "value": "20 Aug 2020",
+     "period": "20 Aug 2020",
+     "period_end": "2020-08-20",
+     "publisher": "PIB",
+     "series": "Sweden-India Healthcare Innovation Centre",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "DST–VINNOVA Collaborative Industrial R&D calls | Recurring",
+     "value": "Recurring",
+     "period": null,
+     "period_end": null,
+     "publisher": "PIB",
+     "series": "DST–VINNOVA Collaborative Industrial R&D",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "MoU on Biotechnology | ~2019",
+     "value": "~2019",
+     "period": "2019",
+     "period_end": "2019-12-31",
+     "publisher": "PIB",
+     "series": "Finland-India Biotechnology MoU",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Indo-Finnish Virtual Network Centre on Quantum Computing | ~2021",
+     "value": "~2021",
+     "period": "2021",
+     "period_end": "2021-12-31",
+     "publisher": "PIB",
+     "series": "Indo-Finnish Quantum Computing Centre",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Green Strategic Partnership — Joint Statement | 28 Sep 2020",
+     "value": "28 Sep 2020",
+     "period": "28 Sep 2020",
+     "period_end": "2020-09-28",
+     "publisher": "PIB",
+     "series": "Denmark-India Green Strategic Partnership",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India-Denmark Energy Partnership (INDEP) — offshore wind | ~2022",
+     "value": "~2022",
+     "period": "2022",
+     "period_end": "2022-12-31",
+     "publisher": "PIB",
+     "series": "India-Denmark Energy Partnership",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Task Force on Blue Economy for Sustainable Development | ~2019",
+     "value": "~2019",
+     "period": "2019",
+     "period_end": "2019-12-31",
+     "publisher": "PIB",
+     "series": "Norway-India Blue Economy Task Force",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Integrated Ocean Management & Research Initiative (Marine Spatial Planning pilots) | Ongoing since 2019",
+     "value": "Ongoing since 2019",
+     "period": "2019",
+     "period_end": "2019-12-31",
+     "publisher": "PIB",
+     "series": "Norway-India Ocean Management Initiative",
+     "frequency": "ongoing",
+     "headline": false
+    },
+    {
+     "quote": "MoU on Rail Technical Cooperation | 31 Aug 2017",
+     "value": "31 Aug 2017",
+     "period": "31 Aug 2017",
+     "period_end": "2017-08-31",
+     "publisher": "PIB",
+     "series": "Switzerland-India Rail Technical Cooperation",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Indian Railways–DETEC MoU renewal | 2023",
+     "value": "2023",
+     "period": "2023",
+     "period_end": "2023-12-31",
+     "publisher": "PIB",
+     "series": "Switzerland-India Rail Infrastructure MoU renewal",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Semiconductor MoU (part of multi-country set) | PM visit, May 2026",
+     "value": "May 2026",
+     "period": "May 2026",
+     "period_end": "2026-05-31",
+     "publisher": "PIB",
+     "series": "Netherlands-India Semiconductor MoU",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "President Macron's official visit to India ran 17–19 February 2026",
+     "value": "17–19 Feb 2026",
+     "period": "17–19 Feb 2026",
+     "period_end": "2026-02-19",
+     "publisher": "PIB",
+     "series": "France-India Presidential Visit",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India-France Innovation Roadmap 2030 | 17 Feb 2026 (visit); release posted 15 Jun 2026",
+     "value": "17 Feb 2026",
+     "period": "17 Feb 2026",
+     "period_end": "2026-02-17",
+     "publisher": "PIB",
+     "series": "India-France Innovation Roadmap 2030",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India-France Year of Innovation 2026 — launch | 17 Feb 2026",
+     "value": "17 Feb 2026",
+     "period": "17 Feb 2026",
+     "period_end": "2026-02-17",
+     "publisher": "PIB",
+     "series": "India-France Year of Innovation 2026",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Indo-French Centre for AI in Health (AIIMS) | 17 Feb 2026",
+     "value": "17 Feb 2026",
+     "period": "17 Feb 2026",
+     "period_end": "2026-02-17",
+     "publisher": "PIB",
+     "series": "Indo-French Centre for AI in Health",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "DST–CNRS Digital Sciences Centre | 17 Feb 2026",
+     "value": "17 Feb 2026",
+     "period": "17 Feb 2026",
+     "period_end": "2026-02-17",
+     "publisher": "PIB",
+     "series": "DST–CNRS Digital Sciences Centre",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The table below stops at the second Trade and Technology Council ministerial of 28 February 2025",
+     "value": "28 Feb 2025",
+     "period": "28 Feb 2025",
+     "period_end": "2025-02-28",
+     "publisher": "PIB",
+     "series": "TTC Ministerial Meetings",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "a third India–EU TTC ministerial in Brussels on 15 July 2026",
+     "value": "15 July 2026",
+     "period": "15 July 2026",
+     "period_end": "2026-07-15",
+     "publisher": "Tribune / Manorama Yearbook",
+     "series": "TTC Ministerial Meetings",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "and a 27 January 2026 India–EU summit",
+     "value": "27 Jan 2026",
+     "period": "27 Jan 2026",
+     "period_end": "2026-01-27",
+     "publisher": "Tribune / Manorama Yearbook",
+     "series": "India-EU Summit",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

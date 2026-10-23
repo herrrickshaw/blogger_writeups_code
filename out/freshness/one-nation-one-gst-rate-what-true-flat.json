@@ -1,0 +1,470 @@
+{
+ "slug": "one-nation-one-gst-rate-what-true-flat",
+ "text_sha1": "46b9c7122c794577",
+ "chars": 17070,
+ "checked": "2026-10-23T15:11:01",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "~4 India's GST rate count didn't actually drop to two on 22 September 2025 — it's still 0%/5%/18%/40%, plus narrower carve-outs",
+     "value": "0%/5%/18%/40%",
+     "period": "September 2025",
+     "period_end": "2025-09-30",
+     "publisher": "PIB / ministry",
+     "series": "GST Reforms 2025: Relief for Common Man",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "15–15.5% The single revenue-neutral rate India's own 2015 committee calculated — and explicitly declined to adopt as a literal one-rate system",
+     "value": "15-15.5%",
+     "period": "2015",
+     "period_end": "2015-12-31",
+     "publisher": "Department of Economic Affairs / PIB",
+     "series": "Subramanian Committee Revenue Neutral Rate Report",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "9% / 5% / 15% Singapore's, the UAE's and New Zealand's \"flat\" GST/VAT rates — none of which apply to 100% of consumption",
+     "value": "9%, 5%, 15%",
+     "period": "2024-2026",
+     "period_end": "2026-09-29",
+     "publisher": "Singapore IRAS / UAE Ministry of Finance / New Zealand Inland Revenue",
+     "series": "International VAT/GST rates",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "133× How much larger India's population is than Singapore's or the UAE's — the scale gap behind the political-economy gap",
+     "value": "133x",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "UN Population Fund / World Bank / Singapore Department of Statistics",
+     "series": "Population statistics",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Singapore | 9% | 1 Jan 2024",
+     "value": "9%",
+     "period": "1 Jan 2024",
+     "period_end": "2024-01-01",
+     "publisher": "Singapore IRAS",
+     "series": "Singapore GST Rate",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "UAE | 5% | 1 Jan 2018",
+     "value": "5%",
+     "period": "1 Jan 2018",
+     "period_end": "2018-01-01",
+     "publisher": "UAE Ministry of Finance",
+     "series": "UAE VAT Rate",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Saudi Arabia | 15% | 1 Jul 2020 (from 5%)",
+     "value": "15%",
+     "period": "1 Jul 2020",
+     "period_end": "2020-07-01",
+     "publisher": "Zakat, Tax and Customs Authority Saudi Arabia",
+     "series": "Saudi Arabia VAT Rate",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Bahrain | 10% | 1 Jan 2022 (from 5%)",
+     "value": "10%",
+     "period": "1 Jan 2022",
+     "period_end": "2022-01-01",
+     "publisher": "National Bureau for Revenue Bahrain",
+     "series": "Bahrain VAT Rate",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Oman | 5% | 16 Apr 2021",
+     "value": "5%",
+     "period": "16 Apr 2021",
+     "period_end": "2021-04-16",
+     "publisher": "Oman Tax Authority",
+     "series": "Oman VAT Rate",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "New Zealand | 15% | 1 Oct 2010 (from 12.5%)",
+     "value": "15%",
+     "period": "1 Oct 2010",
+     "period_end": "2010-10-01",
+     "publisher": "New Zealand Inland Revenue",
+     "series": "New Zealand GST Rate",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Chile (a flat 19% VAT with no reduced-rate band)",
+     "value": "19%",
+     "period": "2026",
+     "period_end": "2026-09-29",
+     "publisher": "OECD",
+     "series": "OECD Consumption Tax Trends",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "The World Bank's most recent Gini figure for India (25.5, from the 2022-23 Household Consumption Expenditure Survey)",
+     "value": "25.5",
+     "period": "2022-23",
+     "period_end": "2023-03-31",
+     "publisher": "World Bank / MoSPI",
+     "series": "Household Consumption Expenditure Survey",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "India's population is roughly 1.46 billion against Singapore's roughly 6.1 million and the UAE's roughly 11 million",
+     "value": "1.46 billion",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "UN Population Fund / World Bank",
+     "series": "Population estimates",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Singapore's (~6.1 million)",
+     "value": "6.1 million",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "Singapore Department of Statistics",
+     "series": "Population in Brief",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "the UAE's (~11 million)",
+     "value": "11 million",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "UN",
+     "series": "UN-derived demographic estimates",
+     "frequency": "annual",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "India's GST rate count didn't actually drop to two on 22 September 2025 — it's still 0%/5%/18%/40%, plus narrower carve-outs",
+     "value": "0%, 5%, 18%, 40% (plus carve-outs)",
+     "period": "as of 22 September 2025",
+     "period_end": "2025-09-22",
+     "publisher": "CBIC (Central Board of Indirect Taxes and Customs)",
+     "series": "GST rate structure",
+     "frequency": "one-off (post-2025 reform)",
+     "headline": true
+    },
+    {
+     "quote": "The GST compensation cess on tobacco and pan masala ended on 1 February 2026; since then pan masala, cigarettes and other tobacco products carry 40% GST",
+     "value": "40% GST on tobacco and pan masala (since 1 February 2026)",
+     "period": "as of 1 February 2026",
+     "period_end": "2026-02-01",
+     "publisher": "MoF (Ministry of Finance) / PIB",
+     "series": "GST cess transition timeline",
+     "frequency": "one-off (cess removal)",
+     "headline": false
+    },
+    {
+     "quote": "The single revenue-neutral rate India's own 2015 committee calculated — and explicitly declined to adopt as a literal one-rate system — was 15–15.5%.",
+     "value": "15–15.5%",
+     "period": "2015 (RNR calculation)",
+     "period_end": "2015-12-31",
+     "publisher": "CEA (Chief Economic Adviser’s 2015 Subramanian Committee)",
+     "series": "Revenue Neutral Rate (RNR) study",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Singapore's GST rate is 9% since 1 January 2024, with carve-outs for exports, residential property, and financial services.",
+     "value": "9%",
+     "period": "since 1 January 2024",
+     "period_end": "2024-01-01",
+     "publisher": "IRAS (Singapore’s Inland Revenue Authority of Singapore)",
+     "series": "Singapore GST rate and exemptions",
+     "frequency": "annual (rate change)",
+     "headline": false
+    },
+    {
+     "quote": "The UAE's VAT rate is 5% since 1 January 2018, with exemptions for residential rents, bare land, and some financial services.",
+     "value": "5%",
+     "period": "since 1 January 2018",
+     "period_end": "2018-01-01",
+     "publisher": "UAE Ministry of Finance",
+     "series": "UAE VAT rate and exemptions",
+     "frequency": "annual (rate change)",
+     "headline": false
+    },
+    {
+     "quote": "New Zealand's GST rate is 15% since 1 October 2010, with exemptions for residential rents and financial services.",
+     "value": "15%",
+     "period": "since 1 October 2010",
+     "period_end": "2010-10-01",
+     "publisher": "New Zealand Inland Revenue",
+     "series": "New Zealand GST rate and exemptions",
+     "frequency": "annual (rate change)",
+     "headline": false
+    },
+    {
+     "quote": "Saudi Arabia's VAT rate is 15% since 1 July 2020 (from 5%), with zero-rated exports and exemptions for some medicines and financial services.",
+     "value": "15%",
+     "period": "since 1 July 2020",
+     "period_end": "2020-07-01",
+     "publisher": "Saudi Arabia Tax Authority",
+     "series": "Saudi Arabia VAT rate and exemptions",
+     "frequency": "annual (rate change)",
+     "headline": false
+    },
+    {
+     "quote": "Bahrain's VAT rate is 10% since 1 January 2022 (from 5%), with zero-rated exports, basic food, healthcare, education, and oil & gas.",
+     "value": "10%",
+     "period": "since 1 January 2022",
+     "period_end": "2022-01-01",
+     "publisher": "Bahrain Tax Authority",
+     "series": "Bahrain VAT rate and exemptions",
+     "frequency": "annual (rate change)",
+     "headline": false
+    },
+    {
+     "quote": "Oman's VAT rate is 5% since 16 April 2021, with zero-rated exports, international transport, and basic food.",
+     "value": "5%",
+     "period": "since 16 April 2021",
+     "period_end": "2021-04-16",
+     "publisher": "Oman Tax Authority",
+     "series": "Oman VAT rate and exemptions",
+     "frequency": "annual (rate change)",
+     "headline": false
+    },
+    {
+     "quote": "India's population is roughly 1.46 billion against Singapore's roughly 6.1 million and the UAE's roughly 11 million — India is about 133 times larger.",
+     "value": "1.46 billion (India), 6.1 million (Singapore), 11 million (UAE)",
+     "period": "2025 estimates",
+     "period_end": "2025-12-31",
+     "publisher": "UN Population Fund / World Bank (India), Singapore DoS (Singapore), UN estimates (UAE)",
+     "series": "Population data",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "The 2015 Subramanian Committee recommended a merit rate of roughly 12%, a standard rate of 17–18%, and a demerit rate of around 40% for luxury goods.",
+     "value": "12% (merit), 17–18% (standard), 40% (demerit)",
+     "period": "2015 (recommendation)",
+     "period_end": "2015-12-31",
+     "publisher": "CEA (Chief Economic Adviser’s 2015 Subramanian Committee)",
+     "series": "GST rate structure recommendations",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The World Bank's most recent Gini figure for India is 25.5, from the 2022-23 Household Consumption Expenditure Survey.",
+     "value": "25.5 (Gini coefficient)",
+     "period": "2022-23",
+     "period_end": "2023-03-31",
+     "publisher": "World Bank",
+     "series": "Household Consumption Expenditure Survey (HCES)",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "India's GST Council meeting on 3 September 2025 approved the 2025 reforms, with notifications issued on 17 September and effective from 22 September 2025.",
+     "value": "3 September 2025 (meeting), 17 September 2025 (notifications), 22 September 2025 (effective)",
+     "period": "2025-09-03 to 2025-09-22",
+     "period_end": "2025-09-22",
+     "publisher": "MoF (Ministry of Finance) / PIB",
+     "series": "GST Council meeting and notification timeline",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The GST Council's Article 279A gives the Centre one-third of the weighted vote and all states combined two-thirds, requiring three-quarters of the weighted vote for decisions.",
+     "value": "Centre: 1/3 weighted vote, States: 2/3 weighted vote, Decision threshold: 3/4 weighted vote",
+     "period": null,
+     "period_end": null,
+     "publisher": "Constitution of India / TaxGuru",
+     "series": "GST Council voting structure",
+     "frequency": "one-off (constitutional provision)",
+     "headline": false
+    },
+    {
+     "quote": "The 2015 Subramanian Committee's Revenue Neutral Rate report was distributed via the Department of Economic Affairs and PIB.",
+     "value": "15–15.5% (RNR)",
+     "period": "2015",
+     "period_end": "2015-12-31",
+     "publisher": "Department of Economic Affairs / PIB",
+     "series": "Revenue Neutral Rate (RNR) study",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The OECD Taxation Working Paper No. 49 (2020) found that consumption taxes are close to proportional or mildly progressive due to reduced rates and exemptions for food and necessities.",
+     "value": "Proportional/mildly progressive (OECD finding)",
+     "period": "2020",
+     "period_end": "2020-12-31",
+     "publisher": "OECD",
+     "series": "OECD Taxation Working Paper No. 49",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The IMF Working Paper WP/2024/078 (2024) proposed a single-rate VAT with real-time cash rebates for low-income households.",
+     "value": "Single-rate VAT + real-time cash rebates (IMF proposal)",
+     "period": "2024",
+     "period_end": "2024-12-31",
+     "publisher": "IMF",
+     "series": "Designing a Progressive VAT (IMF Working Paper)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The UAE's most recent Gini estimate dates to roughly 2018 and is measured only once every several years.",
+     "value": "~2018 (Gini estimate)",
+     "period": "circa 2018",
+     "period_end": "2018-12-31",
+     "publisher": "UAE National Bureau of Statistics (estimated)",
+     "series": "UAE Gini coefficient",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "The 2015 Subramanian Committee's 40% demerit-rate figure resurfaced almost unchanged in the 2025 GST 2.0 policy for sin and luxury goods.",
+     "value": "40%",
+     "period": "2025 (adopted), 2015 (proposed)",
+     "period_end": "2025-09-22",
+     "publisher": "CEA (Chief Economic Adviser’s 2015 Subramanian Committee) / CBIC",
+     "series": "GST demerit rate alignment",
+     "frequency": "one-off (comparison)",
+     "headline": false
+    },
+    {
+     "quote": "The GST Council approved reforms at its 56th meeting on 3 September 2025.",
+     "value": "56th meeting",
+     "period": "3 September 2025",
+     "period_end": "2025-09-03",
+     "publisher": "MoF (Ministry of Finance) / PIB",
+     "series": "GST Council meeting count",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The 2022-23 Household Consumption Expenditure Survey (HCES) by the World Bank shows India's consumption-based Gini coefficient as 25.5.",
+     "value": "25.5 (Gini coefficient)",
+     "period": "2022-23",
+     "period_end": "2023-03-31",
+     "publisher": "World Bank",
+     "series": "Household Consumption Expenditure Survey (HCES)",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "The 2015 Subramanian Committee recommended a preference for the lower end of the 15–15.5% RNR range.",
+     "value": "15% (preferred RNR)",
+     "period": "2015",
+     "period_end": "2015-12-31",
+     "publisher": "CEA (Chief Economic Adviser’s 2015 Subramanian Committee)",
+     "series": "Revenue Neutral Rate (RNR) preference",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The GST compensation cess-backed borrowing for tobacco and pan masala must be repaid before transitioning to the new rate structure.",
+     "value": "Deferred transition (cess repayment pending)",
+     "period": null,
+     "period_end": null,
+     "publisher": "MoF (Ministry of Finance) / PIB",
+     "series": "GST cess repayment timeline",
+     "frequency": "one-off (pending)",
+     "headline": false
+    },
+    {
+     "quote": "The 2015 Subramanian Committee's report was cross-checked against a KPMG Flash News summary.",
+     "value": "15–15.5% (RNR), 12% (merit), 17–18% (standard), 40% (demerit)",
+     "period": "2015",
+     "period_end": "2015-12-31",
+     "publisher": "CEA (Chief Economic Adviser’s 2015 Subramanian Committee) / KPMG",
+     "series": "GST rate structure recommendations (cross-checked)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The GST Council meeting on 3 September 2025 was corroborated by CBIC's own notifications as summarized in an EY India tax alert.",
+     "value": "3 September 2025 (meeting), 17 September 2025 (notifications)",
+     "period": "2025-09-03 to 2025-09-17",
+     "period_end": "2025-09-17",
+     "publisher": "CBIC / EY India",
+     "series": "GST Council meeting and notification timeline (corroborated)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The current GST rate structure (0%/5%/18%/40%) is from PIB sources and a PIB factsheet, 'GST Reforms 2025: Relief for Common Man'.",
+     "value": "0%, 5%, 18%, 40% (current structure)",
+     "period": "as of 2025-2026",
+     "period_end": "2026-09-29",
+     "publisher": "PIB (Press Information Bureau)",
+     "series": "GST Reforms 2025: Relief for Common Man (factsheet)",
+     "frequency": "one-off (post-2025 reform)",
+     "headline": false
+    },
+    {
+     "quote": "The 3% gold/jewellery and 0.25% rough-diamond rates are from secondary tax-advisory summaries (ClearTax, Bajaj Finserv, JewelOve).",
+     "value": "3% (gold/jewellery), 0.25% (rough diamonds)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Tax-advisory summaries (ClearTax, Bajaj Finserv, JewelOve)",
+     "series": "GST carve-out rates (secondary sources)",
+     "frequency": "one-off (summary)",
+     "headline": false
+    },
+    {
+     "quote": "The UAE's VAT rate is 5% with exemptions for residential rents, bare land, and some financial services.",
+     "value": "5% (UAE VAT rate)",
+     "period": "since 1 January 2018",
+     "period_end": "2018-01-01",
+     "publisher": "UAE Ministry of Finance",
+     "series": "UAE VAT exemptions",
+     "frequency": "annual (rate change)",
+     "headline": false
+    },
+    {
+     "quote": "The 2015 Subramanian Committee's report was distributed via the Department of Economic Affairs and PIB.",
+     "value": "15–15.5% (RNR), tiered structure (12%, 17–18%, 40%)",
+     "period": "2015",
+     "period_end": "2015-12-31",
+     "publisher": "Department of Economic Affairs / PIB",
+     "series": "GST rate structure recommendations (distribution)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The GST Council meeting on 3 September 2025 was the 56th meeting.",
+     "value": "56th meeting",
+     "period": "3 September 2025",
+     "period_end": "2025-09-03",
+     "publisher": "MoF (Ministry of Finance) / PIB",
+     "series": "GST Council meeting count (56th)",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

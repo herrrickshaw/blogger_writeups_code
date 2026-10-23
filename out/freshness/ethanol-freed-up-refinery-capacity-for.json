@@ -1,0 +1,460 @@
+{
+ "slug": "ethanol-freed-up-refinery-capacity-for",
+ "text_sha1": "4160424cf6b99eaf",
+ "chars": 33464,
+ "checked": "2026-10-23T11:18:47",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "20% Ethanol's share of every litre of E20 petrol sold nationwide since 2025-26",
+     "value": "20%",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "PIB / ministry",
+     "series": "Ethanol Blended Petrol programme and E20 mandate",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "13% National refinery petrochemical intensity (PII), up from 7.7% before this cycle of investment",
+     "value": "13%",
+     "period": "today",
+     "period_end": null,
+     "publisher": "PIB / ministry",
+     "series": "Refinery Petrochemical Intensity (PII)",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "+101% India's naphtha exports to China, FY2024-25 → FY2025-26 — the same year E20 took hold nationwide",
+     "value": "+101%",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TradeStat Export Country-wise-all-commodities (China), HS 27101221 + 27101229",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "43.45% Share of India's pharma imports, by value, sourced from China",
+     "value": "43.45%",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "PIB / ministry",
+     "series": "Bulk Drugs PLI Annexure / pharma imports",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "₹2,720cr Cumulative sales from the ₹6,940cr PLI scheme built specifically to cut that dependence",
+     "value": "₹2,720cr",
+     "period": "current",
+     "period_end": null,
+     "publisher": "PIB / ministry",
+     "series": "Bulk Drugs PLI scheme sales",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "7.7% National average, prior to the current investment cycle",
+     "value": "7.7%",
+     "period": "before this cycle of investment",
+     "period_end": null,
+     "publisher": "PIB / ministry",
+     "series": "Refinery Petrochemical Intensity (PII)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "13% National average today, with individual refiners targeting above it",
+     "value": "13%",
+     "period": "today",
+     "period_end": null,
+     "publisher": "PIB / ministry",
+     "series": "Refinery Petrochemical Intensity (PII)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "$1,865.4mn in FY2022-23",
+     "value": "$1,865.4mn",
+     "period": "FY2022-23",
+     "period_end": "2023-03-31",
+     "publisher": "DGCI&S",
+     "series": "TradeStat Export Country-wise-all-commodities (China), HS 27101221 + 27101229",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "$1,123.9mn in FY2023-24",
+     "value": "$1,123.9mn",
+     "period": "FY2023-24",
+     "period_end": "2024-03-31",
+     "publisher": "DGCI&S",
+     "series": "TradeStat Export Country-wise-all-commodities (China), HS 27101221 + 27101229",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "$1,207.1mn in FY2024-25",
+     "value": "$1,207.1mn",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "DGCI&S",
+     "series": "TradeStat Export Country-wise-all-commodities (China), HS 27101221 + 27101229",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "$2,425.0mn in FY2025-26",
+     "value": "$2,425.0mn",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TradeStat Export Country-wise-all-commodities (China), HS 27101221 + 27101229",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "258.1 MMTPA in FY2024-25",
+     "value": "258.1 MMTPA",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "MoPNG",
+     "series": "Installed refining capacity",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "roughly 295 MMTPA (Crisil Ratings",
+     "value": "295 MMTPA",
+     "period": "2030",
+     "period_end": "2030-12-31",
+     "publisher": "CEA",
+     "series": "Crisil Ratings national capacity estimate",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "about 310 MMTPA depending on how many announced projects are counted",
+     "value": "310 MMTPA",
+     "period": "2030",
+     "period_end": "2030-12-31",
+     "publisher": "MoPNG",
+     "series": "Installed refining capacity projections",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "20% Ethanol's share of every litre of E20 petrol sold nationwide since 2025-26",
+     "value": "20%",
+     "period": "since 2025-26",
+     "period_end": "2025-03-31",
+     "publisher": "this blog's own reporting",
+     "series": "E20 petrol ethanol blending share",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "13% National refinery petrochemical intensity (PII), up from 7.7% before this cycle of investment",
+     "value": "13% (up from 7.7%)",
+     "period": null,
+     "period_end": null,
+     "publisher": "this blog's own reporting on India's refiners' petrochemical pivot, drawn from PIB and company disclosures",
+     "series": "Refinery Petrochemical Intensity (PII)",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "+101% India's naphtha exports to China, FY2024-25 → FY2025-26 — the same year E20 took hold nationwide",
+     "value": "+101%",
+     "period": "FY2024-25 → FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S TradeStat",
+     "series": "India's naphtha exports to China (HS 27101221, 27101229)",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "43.45% Share of India's pharma imports, by value, sourced from China",
+     "value": "43.45%",
+     "period": null,
+     "period_end": null,
+     "publisher": "this blog's own reporting, drawn from PIB and company disclosures",
+     "series": "China share of India's pharma imports by value",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "₹2,720cr Cumulative sales from the ₹6,940cr PLI scheme built specifically to cut that dependence",
+     "value": "₹2,720 cr (out of ₹6,940 cr)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Department of Pharmaceuticals",
+     "series": "Bulk Drugs PLI scheme sales and outlay",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "India's ethanol distillation industry already running roughly 19.9 billion litres of annual capacity against an E20 requirement of around 11 billion litres",
+     "value": "19.9 billion litres (capacity) vs. 11 billion litres (requirement)",
+     "period": null,
+     "period_end": null,
+     "publisher": "this blog's earlier piece on FCC",
+     "series": "Ethanol distillation capacity vs. E20 requirement",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "grain-based producers alone offered roughly 13,040 million litres against OMCs' stated ESY2025-26 requirement of about 10,500 million litres",
+     "value": "13,040 million litres (offered) vs. 10,500 million litres (required)",
+     "period": "ESY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "this blog's earlier piece on FCC",
+     "series": "Ethanol supply-demand (grain-based producers)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "the industry-wide offer across grain and sugarcane feedstocks came to about 17,760 million litres",
+     "value": "17,760 million litres",
+     "period": null,
+     "period_end": null,
+     "publisher": "this blog's earlier piece on FCC",
+     "series": "Ethanol supply-demand (industry-wide)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "IOCL's Panipat PBR project ... 60 KTPA plant was 88.7% complete at 30 June 2026, with start-up expected alongside the Panipat refinery expansion in December 2026",
+     "value": "60 KTPA (60,000 tonnes per annum), 88.7% complete",
+     "period": "as of 30 June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "Oil & Gas Journal, reporting IOC's 31 July 2026 filing",
+     "series": "IOCL Panipat PBR project status",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "IOCL, Paradip (Odisha) | PX-PTA unit 1,200 KTA + dual-feed cracker (1.4 MTPA ethylene, 0.65 MTPA propylene, 650 KTPA polypropylene)",
+     "value": "1,200 KTA (PX-PTA) + 1.4 MTPA (ethylene) + 0.65 MTPA (propylene) + 650 KTPA (polypropylene)",
+     "period": null,
+     "period_end": null,
+     "publisher": "company disclosures",
+     "series": "IOCL Paradip petrochemical capacity",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "IOCL, Panipat (Haryana) — Styrene Monomer project | 387 KTPA — India's first domestic styrene production, against ~900 KTPA of consumption currently met entirely by imports",
+     "value": "387 KTPA (production) vs. 900 KTPA (consumption)",
+     "period": null,
+     "period_end": null,
+     "publisher": "company disclosures",
+     "series": "IOCL Panipat Styrene Monomer project",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "IOCL, Gujarat/Koyali (Vadodara) — LuPech project | Refining 13.7→18 MTPA + 0.5 MTPA polypropylene + 235 KTPA lube oil base stock",
+     "value": "13.7→18 MTPA (refining) + 0.5 MTPA (polypropylene) + 235 KTPA (lube oil base stock)",
+     "period": null,
+     "period_end": null,
+     "publisher": "company disclosures",
+     "series": "IOCL Koyali LuPech project",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Reliance Industries, Jamnagar (Gujarat) | Chemicals-yield deepening (targeting >30% chemicals yield by 2027) + Dahej/Nagothane PVC-CPVC capacity, 1.5 MTPA",
+     "value": ">30% (chemicals yield target by 2027) + 1.5 MTPA (PVC-CPVC capacity)",
+     "period": "by 2027",
+     "period_end": "2027-12-31",
+     "publisher": "company disclosures",
+     "series": "Reliance Jamnagar petrochemical targets",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "BPCL + Oil India, southern India (site TBC) | New refinery-cum-petrochemical complex, 1.5 MTPA ethylene cracker",
+     "value": "1.5 MTPA (ethylene cracker)",
+     "period": "targeted FY2030 start-up",
+     "period_end": "2029-12-31",
+     "publisher": "company disclosures",
+     "series": "BPCL + Oil India petrochemical complex",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "ONGC, Uttar Pradesh (proposed) | 12 MTPA refinery-cum-petrochemical complex",
+     "value": "12 MTPA",
+     "period": "proposed",
+     "period_end": null,
+     "publisher": "company disclosures",
+     "series": "ONGC Uttar Pradesh petrochemical complex",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Nayara Energy, Vadinar (Gujarat) | 450 KTPA polypropylene unit; a separately proposed 1.5 MTPA ethane cracker",
+     "value": "450 KTPA (polypropylene) + 1.5 MTPA (ethane cracker, proposed)",
+     "period": null,
+     "period_end": null,
+     "publisher": "company disclosures",
+     "series": "Nayara Energy Vadinar petrochemical projects",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "BPCL, Ramayapatnam (Andhra Pradesh) — Project Aspire | 1.5 MTPA ethylene cracker",
+     "value": "1.5 MTPA (ethylene cracker)",
+     "period": null,
+     "period_end": null,
+     "publisher": "company disclosures",
+     "series": "BPCL Ramayapatnam Project Aspire",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "ONGC (via OPaL), Dahej (Gujarat) | 1.5 MTPA polymers + 0.5 MTPA chemicals since 2017 (~12% of India's polymer market)",
+     "value": "1.5 MTPA (polymers) + 0.5 MTPA (chemicals)",
+     "period": "since 2017",
+     "period_end": "2026-09-17",
+     "publisher": "company disclosures",
+     "series": "ONGC OPaL Dahej petrochemical capacity",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "BPCL, Kochi (Kerala) | PDPP: 500 KTPA propylene refined to 160 KTPA acrylic acid + 212 KTPA oxo-alcohols/acrylates (operational)",
+     "value": "500 KTPA (propylene) → 160 KTPA (acrylic acid) + 212 KTPA (oxo-alcohols/acrylates)",
+     "period": "operational",
+     "period_end": "2026-09-17",
+     "publisher": "company disclosures",
+     "series": "BPCL Kochi PDPP project",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "HPCL (HRRL), Pachpadra/Barmer (Rajasthan) | 9 MMTPA refinery-cum-petrochemical complex, including 2.4 MMTPA of dedicated petrochemical capacity",
+     "value": "9 MMTPA (refinery) + 2.4 MMTPA (petrochemical capacity)",
+     "period": "commissioned 4 Jul 2026",
+     "period_end": "2026-07-04",
+     "publisher": "company disclosures",
+     "series": "HPCL Barmer refinery-cum-petrochemical complex",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India's installed refining capacity stood at about 258.1 MMTPA in FY2024-25",
+     "value": "258.1 MMTPA",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "Crisil Ratings",
+     "series": "India's installed refining capacity",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "credible estimates for 2030 range from roughly 295 MMTPA to about 310 MMTPA",
+     "value": "295 MMTPA to 310 MMTPA",
+     "period": "2030",
+     "period_end": "2030-12-31",
+     "publisher": "Crisil Ratings",
+     "series": "India's projected refining capacity",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "NRL, Numaligarh (Assam) | To 9 MMTPA, ... target March 2027",
+     "value": "9 MMTPA (target)",
+     "period": "target March 2027",
+     "period_end": "2027-03-31",
+     "publisher": "company disclosures",
+     "series": "Numaligarh Refinery expansion",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "IOCL, Panipat (Haryana) | To 25 MMTPA, ... ~94% complete",
+     "value": "25 MMTPA (target), ~94% complete",
+     "period": "as of 2026-09-17",
+     "period_end": "2026-09-17",
+     "publisher": "company disclosures",
+     "series": "IOCL Panipat refinery expansion",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "IOCL, Barauni (Bihar) | To 9 MMTPA — ... 91.6% complete as of 30 June 2026",
+     "value": "9 MMTPA (target), 91.6% complete",
+     "period": "as of 30 June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "Oil & Gas Journal, Chemical Industry Digest",
+     "series": "IOCL Barauni refinery expansion",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India's Naphtha Exports to China, by Fiscal Year: FY2022-23 $1,865.4mn, FY2023-24 $1,123.9mn, FY2024-25 $1,207.1mn, FY2025-26 $2,425.0mn (+101%)",
+     "value": "$1,865.4mn (FY2022-23), $1,123.9mn (FY2023-24), $1,207.1mn (FY2024-25), $2,425.0mn (FY2025-26)",
+     "period": "FY2022-23 to FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S TradeStat",
+     "series": "India's naphtha exports to China (HS 27101221, 27101229)",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "91% of India's paracetamol API imports come from China",
+     "value": "91%",
+     "period": null,
+     "period_end": null,
+     "publisher": "this blog's own reporting, drawn from PIB and company disclosures",
+     "series": "China share of India's paracetamol API imports",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "99.34% China-dependent in FY2023-24, improved to 80.73% by FY2024-25",
+     "value": "99.34% (FY2023-24) → 80.73% (FY2024-25)",
+     "period": "FY2023-24 → FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "this blog's own reporting, drawn from PIB Annexure PRID 2237414",
+     "series": "China dependency of India's ibuprofen imports",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "72–80% import-dependent on China, by the same Shandong-KSM route as ibuprofen",
+     "value": "72–80%",
+     "period": null,
+     "period_end": null,
+     "publisher": "industry commentary",
+     "series": "China dependency of India's diclofenac sodium imports",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹1,877 crore committed to internal infrastructure [for Andhra Pradesh Bulk Drug Park]",
+     "value": "₹1,877 crore",
+     "period": null,
+     "period_end": null,
+     "publisher": "Department of Pharmaceuticals",
+     "series": "Andhra Pradesh Bulk Drug Park infrastructure funding",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

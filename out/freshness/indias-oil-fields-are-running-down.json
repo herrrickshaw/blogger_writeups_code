@@ -1,0 +1,460 @@
+{
+ "slug": "indias-oil-fields-are-running-down",
+ "text_sha1": "922611088f2ed775",
+ "chars": 15189,
+ "checked": "2026-10-23T14:27:47",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "Domestic crude output fell from 36.96 to 28.70 million tonnes in a decade",
+     "value": "36.96 to 28.70 million tonnes",
+     "period": "a decade",
+     "period_end": null,
+     "publisher": "MoSPI / PPAC / industry sources",
+     "series": "Domestic crude output",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "50% / 75% Cess cut on ER-project oil from nomination fields / royalty discount on ER-project gas, for 120 months from first production",
+     "value": "50% / 75%",
+     "period": "120 months",
+     "period_end": null,
+     "publisher": "PIB / Ministry",
+     "series": "Policy Framework to Promote and Incentivize Enhanced Recovery Methods for Oil and Gas",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "₹547 cr ONGC's April 2026 contract for full-field polymer injection at Bechraji, Mehsana — the largest such award found",
+     "value": "₹547 cr",
+     "period": "April 2026",
+     "period_end": "2026-04-30",
+     "publisher": "ONGC / trade coverage",
+     "series": "Polymer Injection Facilities — Phase 2 contract",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "~30% Recovery factor at Mangala, India's largest onshore field: ~1 billion barrels recoverable of 3.6 billion in place",
+     "value": "~30%",
+     "period": "as found",
+     "period_end": null,
+     "publisher": "Vedanta / Cairn Oil & Gas",
+     "series": "Mangala field recovery factor",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "~1 billion barrels recoverable of 3.6 billion in place",
+     "value": "~1 billion barrels recoverable / 3.6 billion in place",
+     "period": "as found",
+     "period_end": null,
+     "publisher": "Vedanta / Cairn Oil & Gas",
+     "series": "Mangala field reserves",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "Primary recovery — reservoir pressure pushing oil to the well — typically yields 10–20%.",
+     "value": "10–20%",
+     "period": "as found",
+     "period_end": null,
+     "publisher": "NETL and SPE",
+     "series": "Primary recovery yield",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Secondary recovery, chiefly injecting water to sweep oil toward producers, takes it to the 30–40% range that most mature fields worldwide sit in.",
+     "value": "30–40%",
+     "period": "as found",
+     "period_end": null,
+     "publisher": "NETL and SPE",
+     "series": "Secondary recovery yield",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "ONGC surfactant-polymer pilot at Bechraji running since March 2023",
+     "value": "since March 2023",
+     "period": "March 2023",
+     "period_end": "2023-03-31",
+     "publisher": "ONGC",
+     "series": "Bechraji surfactant-polymer pilot",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "ONGC–IOCL Gandhar study (10–15% incremental recovery in IRS-ONGC simulation)",
+     "value": "10–15%",
+     "period": "as found",
+     "period_end": null,
+     "publisher": "ONGC / IRS",
+     "series": "Gandhar CO2-EOR simulation",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "In August 2026 Vedanta announced a US$200 million FY27 capex plan specifically to accelerate recovery at Mangala.",
+     "value": "US$200 million",
+     "period": "FY27",
+     "period_end": "2027-03-31",
+     "publisher": "Vedanta",
+     "series": "Mangala capex plan",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "ONGC awarded SNF Flopam India a ₹547 crore (about US$59 million) contract in April 2026",
+     "value": "US$59 million",
+     "period": "April 2026",
+     "period_end": "2026-04-30",
+     "publisher": "ONGC",
+     "series": "Polymer Injection Facilities — Phase 2 contract",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "172 OALP blocks awarded, $4.36 billion pledged, one block in production.",
+     "value": "172",
+     "period": "as found",
+     "period_end": null,
+     "publisher": "DGH",
+     "series": "OALP blocks awarded",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "172 OALP blocks awarded, $4.36 billion pledged, one block in production.",
+     "value": "$4.36 billion",
+     "period": "as found",
+     "period_end": null,
+     "publisher": "DGH",
+     "series": "OALP pledged investment",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "172 OALP blocks awarded, $4.36 billion pledged, one block in production.",
+     "value": "1",
+     "period": "as found",
+     "period_end": null,
+     "publisher": "DGH",
+     "series": "OALP blocks in production",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "Domestic crude output fell from 36.96 to 28.70 million tonnes in a decade",
+     "value": "36.96 million tonnes (initial) to 28.70 million tonnes (current)",
+     "period": "a decade",
+     "period_end": "2026-09-19",
+     "publisher": "Author's own reporting (citing earlier blog post)",
+     "series": "Domestic crude oil production (India)",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "Oct 2018 Cabinet approval of the Enhanced Recovery policy",
+     "value": "October 2018",
+     "period": "October 2018",
+     "period_end": "2018-10-31",
+     "publisher": "PIB (Press Information Bureau)",
+     "series": "Policy Framework to Promote and Incentivize Enhanced Recovery Methods for Oil and Gas",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "50% / 75% Cess cut on ER-project oil from nomination fields / royalty discount on ER-project gas, for 120 months from first production",
+     "value": "50% cess cut on oil; 75% royalty discount on gas; 120 months duration",
+     "period": "from first production in each project",
+     "period_end": null,
+     "publisher": "DGH (Directorate General of Hydrocarbons)",
+     "series": "Fiscal incentives under Enhanced Recovery Policy",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹547 cr ONGC's April 2026 contract for full-field polymer injection at Bechraji, Mehsana",
+     "value": "₹547 crore (≈US$59 million)",
+     "period": "April 2026",
+     "period_end": "2026-04-30",
+     "publisher": "SNF Flopam India / Chemical Industry Digest",
+     "series": "Contract award for Polymer Injection Facilities – Phase 2 (Bechraji)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "~30% Recovery factor at Mangala, India's largest onshore field: ~1 billion barrels recoverable of 3.6 billion in place",
+     "value": "~30% recovery factor; ~1 billion barrels recoverable; 3.6 billion barrels in place",
+     "period": null,
+     "period_end": null,
+     "publisher": "Vedanta/Cairn Oil & Gas (field-level data)",
+     "series": "Mangala field recovery metrics",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "A field's recovery factor is the share of the oil originally in place that will ever be produced. Primary recovery — reservoir pressure pushing oil to the well — typically yields 10–20%. Secondary recovery, chiefly injecting water to sweep oil toward producers, takes it to the 30–40% range that most mature fields worldwide sit in.",
+     "value": "10–20% (primary recovery); 30–40% (secondary recovery)",
+     "period": null,
+     "period_end": null,
+     "publisher": "NETL / SPE (standard reservoir-engineering reference)",
+     "series": "Global recovery factor benchmarks",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "ONGC awarded SNF Flopam India a ₹547 crore contract in April 2026 for 'Polymer Injection Facilities — Phase 2'",
+     "value": "₹547 crore",
+     "period": "April 2026",
+     "period_end": "2026-04-30",
+     "publisher": "SNF Flopam India / Chemical Industry Digest",
+     "series": "Polymer Injection Facilities – Phase 2 (Bechraji)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "ONGC awarded SNF Flopam India a ₹547 crore contract in April 2026 for 'Polymer Injection Facilities — Phase 2': design, supply, commissioning and ten years of operation of a full-field polymer flood.",
+     "value": "10 years of operation",
+     "period": "from commissioning (post-April 2026)",
+     "period_end": null,
+     "publisher": "SNF Flopam India / Chemical Industry Digest",
+     "series": "Polymer Injection Facilities – Phase 2 (Bechraji)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "A separate surfactant-polymer pilot — a five-spot pattern, six months of surfactant slug then two and a half years of chase polymer — has been running there since March 2023",
+     "value": "6 months (surfactant slug) + 2.5 years (chase polymer)",
+     "period": "March 2023 – August 2025",
+     "period_end": "2025-08-31",
+     "publisher": "SPE ADIPEC 2025 abstract",
+     "series": "Surfactant-Polymer Pilot (Bechraji)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "ONGC–IOCL Gandhar study (10–15% incremental recovery in IRS-ONGC simulation)",
+     "value": "10–15% incremental recovery",
+     "period": null,
+     "period_end": null,
+     "publisher": "ONGC Institute of Reservoir Studies (IRS)",
+     "series": "CO₂-EOR simulation results (Gandhar)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Vedanta announced a US$200 million FY27 capex plan specifically to accelerate recovery at Mangala",
+     "value": "US$200 million",
+     "period": "FY2027 (April 2026 – March 2027)",
+     "period_end": "2027-03-31",
+     "publisher": "Vedanta / Business Standard / ANI",
+     "series": "Mangala recovery acceleration capex",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The policy sunsets ten years from notification; the incentives run for 120 months from the start of production in each project.",
+     "value": "10 years (sunset); 120 months (incentive duration)",
+     "period": "from October 2018 (notification)",
+     "period_end": "2028-10-31",
+     "publisher": "DGH (Directorate General of Hydrocarbons)",
+     "series": "Policy Framework sunset and incentive duration",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "A December 2024 Business Standard report said a modified policy to revive ageing fields was expected in 2025",
+     "value": "Expected in 2025",
+     "period": "December 2024 report",
+     "period_end": "2024-12-31",
+     "publisher": "Business Standard",
+     "series": "Modified policy timeline",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Mangala (Vedanta / Cairn Oil & Gas, Rajasthan). India's largest onshore field, producing since 2009, with roughly 3.6 billion barrels in place and a recovery factor around 30%.",
+     "value": "3.6 billion barrels in place; ~30% recovery factor; producing since 2009",
+     "period": "as of 2026",
+     "period_end": "2026-09-19",
+     "publisher": "Vedanta/Cairn Oil & Gas / SPE conference papers",
+     "series": "Mangala field metrics",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Cairn ran polymer injectivity tests and a chemical-EOR pilot in 2012, an ASP pilot reported as a success in 2016, and moved to what it calls India's largest commercial ASP injection",
+     "value": "2012 (polymer injectivity tests); 2016 (ASP pilot success)",
+     "period": "2012, 2016",
+     "period_end": "2012-12-31, 2016-12-31",
+     "publisher": "SPE Improved Oil Recovery Conference papers",
+     "series": "Mangala pilot projects timeline",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "ONGC has run MEOR trials historically; no current named project found",
+     "value": "Historical MEOR trials (no current projects)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Author's reporting (ONGC historical data)",
+     "series": "Microbial EOR (MEOR) projects",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "A 2025 systematic review (ACS Omega) finds field use confined to heavy-oil/oil-sands pilots, held back by power cost, capex and equipment failure",
+     "value": "2025 (review publication)",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "ACS Omega",
+     "series": "Electrically Enhanced Oil Recovery (EEOR) review",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The policy sunsets ten years from notification; the incentives run for 120 months from the start of production in each project.",
+     "value": "120 months (10 years)",
+     "period": "from first production in each project",
+     "period_end": null,
+     "publisher": "DGH (Directorate General of Hydrocarbons)",
+     "series": "Incentive duration under Enhanced Recovery Policy",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "ONGC's wider ER programme is under-represented. ONGC has run polymer, MEOR and thermal work at several Gujarat fields (Kalol, Sanand, Ankleshwar, Santhal) over decades;",
+     "value": "Decades-long polymer, MEOR, and thermal work (no current commercial status confirmed)",
+     "period": "over decades (historical)",
+     "period_end": null,
+     "publisher": "Author's reporting (ONGC historical data)",
+     "series": "ONGC Enhanced Recovery projects (Gujarat fields)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The Hazira/Dahej pilot, sourcing CO₂ from nearby industrial emitters, was covered on this blog as a storage project with an EOR side-objective; it remains at MoU-and-consultant stage",
+     "value": "MoU-and-consultant stage (no deployment)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Author's reporting (blog coverage)",
+     "series": "Hazira/Dahej CO₂-EOR pilot status",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "ONGC's heavy-oil work at Mehsana (Becharaji/Santhal) is the historic Indian case; current commercial scale not established here",
+     "value": "Historic case (no current commercial scale)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Author's reporting (ONGC historical data)",
+     "series": "Thermal EOR (Mehsana/Becharaji/Santhal)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The policy sunsets ten years from notification; the incentives run for 120 months from the start of production in each project.",
+     "value": "10 years (sunset from October 2018)",
+     "period": "October 2018 – October 2028",
+     "period_end": "2028-10-31",
+     "publisher": "DGH (Directorate General of Hydrocarbons)",
+     "series": "Policy Framework sunset",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "A field's recovery factor is the share of the oil originally in place that will ever be produced. Primary recovery — reservoir pressure pushing oil to the well — typically yields 10–20%. Secondary recovery, chiefly injecting water to sweep oil toward producers, takes it to the 30–40% range that most mature fields worldwide sit in.",
+     "value": "30–40% (secondary recovery global benchmark)",
+     "period": null,
+     "period_end": null,
+     "publisher": "NETL / SPE",
+     "series": "Global secondary recovery factor benchmark",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "ONGC awarded SNF Flopam India a ₹547 crore contract in April 2026 for 'Polymer Injection Facilities — Phase 2': design, supply, commissioning and ten years of operation of a full-field polymer flood.",
+     "value": "Full-field polymer flood (Phase 2)",
+     "period": "April 2026 – 2036 (10 years)",
+     "period_end": "2036-04-30",
+     "publisher": "SNF Flopam India / Chemical Industry Digest",
+     "series": "Polymer Injection Facilities – Phase 2 (Bechraji)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "ONGC–IOCL Gandhar study (10–15% incremental recovery in IRS-ONGC simulation); Hazira/Dahej pilot MoU covered earlier on this blog",
+     "value": "10–15% incremental recovery (simulation)",
+     "period": null,
+     "period_end": null,
+     "publisher": "ONGC Institute of Reservoir Studies (IRS)",
+     "series": "CO₂-EOR simulation results (Gandhar)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "A December 2024 Business Standard report said a modified policy to revive ageing fields was expected in 2025",
+     "value": "Expected in 2025 (modified policy)",
+     "period": "December 2024 report",
+     "period_end": "2024-12-31",
+     "publisher": "Business Standard",
+     "series": "Modified policy timeline",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "A field's recovery factor is the share of the oil originally in place that will ever be produced. Primary recovery — reservoir pressure pushing oil to the well — typically yields 10–20%. Secondary recovery, chiefly injecting water to sweep oil toward producers, takes it to the 30–40% range that most mature fields worldwide sit in.",
+     "value": "10–20% (primary recovery)",
+     "period": null,
+     "period_end": null,
+     "publisher": "NETL / SPE",
+     "series": "Global primary recovery factor benchmark",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "The policy sunsets ten years from notification; the incentives run for 120 months from the start of production in each project.",
+     "value": "120 months (10 years)",
+     "period": "from first production in each project",
+     "period_end": null,
+     "publisher": "DGH (Directorate General of Hydrocarbons)",
+     "series": "Incentive duration under Enhanced Recovery Policy",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "A field's recovery factor is the share of the oil originally in place that will ever be produced. Everything beyond that is tertiary or 'enhanced' recovery, and it is where the arithmetic gets interesting: on a field with 3.6 billion barrels in place, like Vedanta's Mangala in Rajasthan, each additional percentage point of recovery is 36 million barrels — more than a year of the field's output.",
+     "value": "36 million barrels per percentage point (at 3.6 billion barrels in place)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Author's calculation (based on Mangala data)",
+     "series": "Enhanced recovery incremental value",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "A December 2024 Business Standard report said a modified policy to revive ageing fields was expected in 2025; this piece could not establish whether it has been notified.",
+     "value": "Expected in 2025 (modified policy)",
+     "period": "December 2024 report",
+     "period_end": "2024-12-31",
+     "publisher": "Business Standard",
+     "series": "Modified policy notification status",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

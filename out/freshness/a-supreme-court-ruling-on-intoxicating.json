@@ -1,0 +1,318 @@
+{
+ "slug": "a-supreme-court-ruling-on-intoxicating",
+ "text_sha1": "a235df97ecfe90e9",
+ "chars": 12457,
+ "checked": "2026-10-23T10:22:56",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "₹1/BL Punjab's new ethanol regulatory fee (Policy 2025-26) — the first state to act on the ruling",
+     "value": "₹1/BL",
+     "period": "Policy 2025-26",
+     "period_end": null,
+     "publisher": "Punjab state excise department",
+     "series": "Punjab Excise Policy",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "0.7% India's actual biodiesel blend rate as of 2025 (up from 0.07% in 2022) against a 5% target",
+     "value": "0.7%",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "industry reporting",
+     "series": "Biodiesel blending rate",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "up from 0.07% in 2022",
+     "value": "0.07%",
+     "period": "2022",
+     "period_end": "2022-12-31",
+     "publisher": "industry reporting",
+     "series": "Biodiesel blending rate",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Maharashtra | June 2025: IMFL retail prices up roughly 50%, duty raised to about 4.5× manufacturing cost",
+     "value": "50%",
+     "period": "June 2025",
+     "period_end": "2025-06-30",
+     "publisher": "Maharashtra state excise department",
+     "series": "IMFL retail prices and duty",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "~20% blending achieved, ahead of schedule",
+     "value": "~20%",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "MoSPI / industry reporting",
+     "series": "Ethanol blending rate",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "1.05% achieved against a 1% FY26 requirement — ahead of target, charge not triggered",
+     "value": "1.05%",
+     "period": "FY26",
+     "period_end": "2026-03-31",
+     "publisher": "PIB / PNGRB",
+     "series": "Compressed Biogas (CBG) blending compliance",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "1% by 2027, rising to 5% by 2030",
+     "value": "1%",
+     "period": "2027",
+     "period_end": "2027-12-31",
+     "publisher": "MoPNG",
+     "series": "Sustainable Aviation Fuel (SAF) mandate",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "5% by 2030",
+     "value": "5%",
+     "period": "2030",
+     "period_end": "2030-12-31",
+     "publisher": "MoPNG",
+     "series": "Sustainable Aviation Fuel (SAF) mandate",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "₹1/BL Punjab's new ethanol regulatory fee (Policy 2025-26) — the first state to act on the ruling",
+     "value": "₹1 per bulk litre (BL)",
+     "period": "Policy 2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Punjab Excise Department",
+     "series": "Ethanol Regulatory Fee Schedule (Policy 2025-26)",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "4–6 Separate levies states already stack on the same litre of industrial alcohol",
+     "value": "4 to 6 levies per litre",
+     "period": null,
+     "period_end": null,
+     "publisher": "State Excise Departments (general observation)",
+     "series": "State excise levies on industrial alcohol",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "0.7% India's actual biodiesel blend rate as of 2025 (up from 0.07% in 2022) against a 5% target",
+     "value": "0.7% (2025) and 0.07% (2022)",
+     "period": "2025 and 2022",
+     "period_end": [
+      "2025-12-31",
+      "2022-12-31"
+     ],
+     "publisher": "Industry reporting on 2025 biodiesel production and blending",
+     "series": "Biodiesel Blend Rate",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Rajasthan's schedule is the most completely documented: a bottling fee of ₹4/BL for Indian-Made Foreign Liquor, ₹5/BL for country liquor and ENA-based rectified spirit, and duty of ₹310–370 per litre of proof litre plus 75% of the ex-distillery price",
+     "value": [
+      "₹4/BL (IMFL bottling fee)",
+      "₹5/BL (country liquor/ENA-based rectified spirit bottling fee)",
+      "₹310–370 per litre (duty) + 75% ex-distillery price"
+     ],
+     "period": null,
+     "period_end": null,
+     "publisher": "Rajasthan Excise Department (primary-sourced from excise.rajasthan.gov.in)",
+     "series": "Rajasthan State Excise Fee Schedule",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Punjab's cow-welfare cess, for instance, at ₹1.5 per proof litre",
+     "value": "₹1.5 per proof litre",
+     "period": null,
+     "period_end": null,
+     "publisher": "Punjab Excise Department",
+     "series": "Cow-Welfare Cess on Potable Alcohol",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Maharashtra: June 2025: IMFL retail prices up roughly 50%, duty raised to about 4.5× manufacturing cost",
+     "value": [
+      "50% increase in IMFL retail prices",
+      "duty raised to ~4.5× manufacturing cost"
+     ],
+     "period": "June 2025",
+     "period_end": "2025-06-30",
+     "publisher": "Maharashtra Excise Department",
+     "series": "IMFL Retail Price and Duty Adjustments",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "India's 2022 Budget legislated an additional ₹2-per-litre excise duty on both unblended petrol and unblended diesel — petrol's penalty took effect 1 November 2022, diesel's (tied to biodiesel blending) on 1 April 2023",
+     "value": [
+      "₹2 per litre excise duty (petrol, from 1 Nov 2022)",
+      "₹2 per litre excise duty (diesel, from 1 Apr 2023)"
+     ],
+     "period": [
+      "1 Nov 2022",
+      "1 Apr 2023"
+     ],
+     "period_end": [
+      "2022-11-01",
+      "2023-04-01"
+     ],
+     "publisher": "Finance Act 2022 (PIB / Ministry of Finance)",
+     "series": "Unblended Fuel Excise Duty",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "~20% blending achieved, ahead of schedule (for petrol/ethanol)",
+     "value": "~20%",
+     "period": null,
+     "period_end": null,
+     "publisher": "Industry reporting on 2025 ethanol blending",
+     "series": "Ethanol Blending Compliance Rate",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "~0.7% as of 2025 against a 5% target (for biodiesel)",
+     "value": "0.7% (2025)",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "Industry reporting on 2025 biodiesel production and blending",
+     "series": "Biodiesel Blending Compliance Rate",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "1.05% achieved against a 1% FY26 requirement (for CNG/PNG/CBG)",
+     "value": "1.05%",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "PIB / PNGRB",
+     "series": "Compressed Biogas Blending Obligation Compliance",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "8 April 2025 rollback request to Punjab",
+     "value": "8 April 2025",
+     "period": "8 Apr 2025",
+     "period_end": "2025-04-08",
+     "publisher": "Ministry of Petroleum and Natural Gas (MoPNG)",
+     "series": "Rollback Request on Punjab Ethanol Fee",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "1% by 2027, rising to 5% by 2030 (for SAF mandate)",
+     "value": [
+      "1% (by 2027)",
+      "5% (by 2030)"
+     ],
+     "period": [
+      "2027",
+      "2030"
+     ],
+     "period_end": [
+      "2027-12-31",
+      "2030-12-31"
+     ],
+     "publisher": "MoPNG / Aviation Turbine Fuel (Regulation of Marketing) Order",
+     "series": "Sustainable Aviation Fuel (SAF) Mandate",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "The mechanism is identical for both fuels. What differs is whether it worked: ethanol blending reached 20% in petrol, five years ahead of its original target",
+     "value": "5 years ahead of schedule (for ethanol blending)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Industry reporting on ethanol blending progress",
+     "series": "Ethanol Blending Programme Timeline",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "The Supreme Court of India, New Delhi, whose nine-judge bench decided State of UP v. Lalta Prasad Vaish in October 2024",
+     "value": "23 Oct 2024",
+     "period": "23 Oct 2024",
+     "period_end": "2024-10-23",
+     "publisher": "Supreme Court of India",
+     "series": "State of UP v. Lalta Prasad Vaish (Judgment)",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "The Ministry of Petroleum and Natural Gas formally asked Punjab to roll back its new ethanol fee on 8 April 2025 — a real, dated signal that the central government sees this as a genuine threat to the blending programme's economics",
+     "value": "8 April 2025",
+     "period": "8 Apr 2025",
+     "period_end": "2025-04-08",
+     "publisher": "Ministry of Petroleum and Natural Gas (MoPNG)",
+     "series": "Rollback Request on Punjab Ethanol Fee",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The same ₹2/litre stick was applied to both [petrol and diesel]; only one had enough feedstock behind it to respond.",
+     "value": "₹2 per litre",
+     "period": [
+      "1 Nov 2022 (petrol)",
+      "1 Apr 2023 (diesel)"
+     ],
+     "period_end": [
+      "2022-11-01",
+      "2023-04-01"
+     ],
+     "publisher": "Finance Act 2022 (PIB / Ministry of Finance)",
+     "series": "Unblended Fuel Excise Penalty Mechanism",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "The mechanism is identical for both fuels. What differs is whether it worked: ethanol blending reached 20% in petrol, five years ahead of its original target, on the back of India's large sugarcane and grain feedstock base.",
+     "value": "20% blending achieved (five years ahead of schedule)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Industry reporting on ethanol blending progress",
+     "series": "Ethanol Blending Programme Compliance",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "The same ₹2/litre statutory excise ethanol does, just applied to a far more supply-constrained feedstock.",
+     "value": "₹2 per litre",
+     "period": [
+      "1 Apr 2023 (diesel/biodiesel)"
+     ],
+     "period_end": [
+      "2023-04-01"
+     ],
+     "publisher": "Finance Act 2022 (PIB / Ministry of Finance)",
+     "series": "Unblended Diesel Excise Penalty Mechanism",
+     "frequency": "annual",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

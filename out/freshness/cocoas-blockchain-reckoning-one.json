@@ -1,0 +1,250 @@
+{
+ "slug": "cocoas-blockchain-reckoning-one",
+ "text_sha1": "4d61d2ef075a835b",
+ "chars": 12495,
+ "checked": "2026-10-23T10:56:48",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "3,360 Male cocoa farmers GIZ's MiCacao project aimed to train in Colombia and Peru — a target, not a reported result",
+     "value": "3,360",
+     "period": "July 2023",
+     "period_end": "2023-07-31",
+     "publisher": "GIZ",
+     "series": "MiCacao – Digital Traceability Solution for the Cocoa Supply Chain",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "10% Price premium MiCacao’s own logframe targets for roughly 30% of trained farmers — a target, not a reported result",
+     "value": "10%",
+     "period": "July 2023",
+     "period_end": "2023-07-31",
+     "publisher": "GIZ",
+     "series": "MiCacao – Digital Traceability Solution for the Cocoa Supply Chain",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "30 Dec 2026 The EU Deforestation Regulation’s new deadline for large and medium operators — twice delayed already",
+     "value": "30 Dec 2026",
+     "period": "December 2025",
+     "period_end": "2026-12-30",
+     "publisher": "PIB / ministry",
+     "series": "EU Deforestation Regulation timeline",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "Trained in tool \n 3,360 \n 840",
+     "value": "3,360 male, 840 female",
+     "period": "July 2023",
+     "period_end": "2023-07-31",
+     "publisher": "GIZ",
+     "series": "MiCacao factsheet EZM-24",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Target: applying tool \n 2,688 * \n 672 *",
+     "value": "2,688 male, 672 female",
+     "period": "April 2025",
+     "period_end": "2025-04-30",
+     "publisher": "GIZ",
+     "series": "MiCacao factsheet EZM-24",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Target: 10%+ price premium \n 1,008 * \n 252 *",
+     "value": "1,008 male, 252 female",
+     "period": "April 2025",
+     "period_end": "2025-04-30",
+     "publisher": "GIZ",
+     "series": "MiCacao factsheet EZM-24",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Farmers in the initial blockchain-prototype pilot phase | 200 (100 Colombia, 100 Peru) |",
+     "value": "200",
+     "period": "July 2023",
+     "period_end": "2023-07-31",
+     "publisher": "GIZ",
+     "series": "MiCacao factsheet EZM-24",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Indicator target: farmers applying the traceability tool (male / female) | 2,688 / 672 |",
+     "value": "2,688 / 672",
+     "period": "April 2025",
+     "period_end": "2025-04-30",
+     "publisher": "GIZ",
+     "series": "MiCacao factsheet EZM-24",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Indicator target: farmers achieving a 10%-above-market price (male / female) | 1,008 / 252 |",
+     "value": "1,008 / 252",
+     "period": "April 2025",
+     "period_end": "2025-04-30",
+     "publisher": "GIZ",
+     "series": "MiCacao factsheet EZM-24",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "cocoa farmers work 23% and 12% of each country's cocoa-growing area respectively",
+     "value": "23% and 12%",
+     "period": "July 2023",
+     "period_end": "2023-07-31",
+     "publisher": "GIZ",
+     "series": "MiCacao factsheet EZM-24",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "estimated 2.3 million children working in cocoa fields in Ghana and Côte d'Ivoire",
+     "value": "2.3 million",
+     "period": "2019",
+     "period_end": "2019-12-31",
+     "publisher": "PIB / ministry",
+     "series": "Cocoa labor estimates",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "Maersk and IBM's TradeLens went fully offline, after failing commercially 2023",
+     "value": "fully offline by end of Q1 2023",
+     "period": "2023",
+     "period_end": "2023-03-31",
+     "publisher": "Maersk (A.P. Moller-Maersk)",
+     "series": "TradeLens platform status announcement",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "Maersk and IBM announced TradeLens's discontinuation on 29 November 2022",
+     "value": "29 November 2022",
+     "period": "29 November 2022",
+     "period_end": "2022-11-29",
+     "publisher": "Maersk (A.P. Moller-Maersk)",
+     "series": "TradeLens discontinuation announcement",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "3,360 Male cocoa farmers GIZ's MiCacao project aimed to train in Colombia and Peru — a target, not a reported result",
+     "value": "3,360 male farmers trained (target)",
+     "period": "December 2022–April 2025",
+     "period_end": "2025-04-30",
+     "publisher": "GIZ (Deutsche Gesellschaft für Internationale Zusammenarbeit)",
+     "series": "MiCacao project logframe indicators (EZM-24, i4Ag Fund)",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "Farmers trained in the traceability tool (male) | 3,360",
+     "value": "3,360 male farmers trained",
+     "period": "December 2022–April 2025",
+     "period_end": "2025-04-30",
+     "publisher": "GIZ",
+     "series": "MiCacao – Digital Traceability Solution for the Cocoa Supply Chain (factsheet EZM-24)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Farmers trained in the traceability tool (female) | 840",
+     "value": "840 female farmers trained",
+     "period": "December 2022–April 2025",
+     "period_end": "2025-04-30",
+     "publisher": "GIZ",
+     "series": "MiCacao – Digital Traceability Solution for the Cocoa Supply Chain (factsheet EZM-24)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Indicator target: farmers applying the traceability tool (male / female) | 2,688 / 672",
+     "value": "2,688 male farmers applying tool (target) / 672 female farmers applying tool (target)",
+     "period": "December 2022–April 2025",
+     "period_end": "2025-04-30",
+     "publisher": "GIZ",
+     "series": "MiCacao logframe targets (EZM-24)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Indicator target: farmers achieving a 10%-above-market price (male / female) | 1,008 / 252",
+     "value": "1,008 male farmers achieving 10%+ price premium (target) / 252 female farmers achieving 10%+ price premium (target)",
+     "period": "December 2022–April 2025",
+     "period_end": "2025-04-30",
+     "publisher": "GIZ",
+     "series": "MiCacao logframe targets (EZM-24)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The EU's new deforestation-free sourcing requirement... originally due to apply from 30 December 2024, it was pushed back a year, then postponed again in December 2025 to 30 December 2026 for large and medium operators",
+     "value": "30 December 2026 (large and medium operators)",
+     "period": "December 2025 postponement",
+     "period_end": "2026-12-30",
+     "publisher": "European Commission / Council of the European Union",
+     "series": "EU Deforestation Regulation (EUDR) timeline",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "small and micro operators get until 30 June 2027",
+     "value": "30 June 2027 (small and micro operators)",
+     "period": "December 2025 postponement",
+     "period_end": "2027-06-30",
+     "publisher": "European Commission / Council of the European Union",
+     "series": "EU Deforestation Regulation (EUDR) timeline",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "estimated 2.3 million children working in cocoa fields in Ghana and Côte d'Ivoire under exploitative conditions",
+     "value": "2.3 million children",
+     "period": null,
+     "period_end": null,
+     "publisher": "Tony's Chocolonely / Accenture (cited in PYMNTS, 2019)",
+     "series": "Beantracker pilot context (industry estimate)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "cocoa farmers work 23% and 12% of each country's cocoa-growing area respectively, per the same factsheet",
+     "value": "23% (Colombia) / 12% (Peru)",
+     "period": "December 2022–April 2025",
+     "period_end": "2025-04-30",
+     "publisher": "GIZ",
+     "series": "MiCacao project factsheet (EZM-24)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Farmers in the initial blockchain-prototype pilot phase | 200 (100 Colombia, 100 Peru)",
+     "value": "200 farmers (100 Colombia, 100 Peru)",
+     "period": "December 2022–April 2025",
+     "period_end": "2025-04-30",
+     "publisher": "GIZ",
+     "series": "MiCacao project logframe indicators (EZM-24)",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

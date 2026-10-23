@@ -1,0 +1,660 @@
+{
+ "slug": "foreign-capital-found-indias-hospitals",
+ "text_sha1": "befcc3b658aa9492",
+ "chars": 20848,
+ "checked": "2026-10-23T11:35:49",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "1.59 \n India \n (2021, down from 2.13 in 2000)",
+     "value": "1.59 hospital beds per 1,000 population",
+     "period": "2021",
+     "period_end": "2021-12-31",
+     "publisher": "World Bank / WHO",
+     "series": "SH.MED.BEDS.ZS",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "3.29 \n World average \n (2021)",
+     "value": "3.29 hospital beds per 1,000 population",
+     "period": "2021",
+     "period_end": "2021-12-31",
+     "publisher": "World Bank / WHO",
+     "series": "SH.MED.BEDS.ZS",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "4.66 \n OECD average \n (2021)",
+     "value": "4.66 hospital beds per 1,000 population",
+     "period": "2021",
+     "period_end": "2021-12-31",
+     "publisher": "World Bank / WHO",
+     "series": "SH.MED.BEDS.ZS",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "$8.89 billion cumulative into “Hospital & Diagnostic Centres” from April 2000 to June 2023",
+     "value": "$8.89 billion",
+     "period": "April 2000 to June 2023",
+     "period_end": "2023-06-30",
+     "publisher": "DPIIT",
+     "series": "FDI Equity Inflows",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "roughly $21.6 billion for Drugs & Pharmaceuticals over a similar span",
+     "value": "$21.6 billion",
+     "period": "April 2000 to June 2023",
+     "period_end": "2023-06-30",
+     "publisher": "DPIIT",
+     "series": "FDI Equity Inflows",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "peaked at 4.3% of all inflow in CY2023",
+     "value": "4.3%",
+     "period": "CY2023",
+     "period_end": "2023-12-31",
+     "publisher": "DPIIT",
+     "series": "FDI Equity Inflows",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "fallen back to 2.0% in H1 2025",
+     "value": "2.0%",
+     "period": "H1 2025",
+     "period_end": "2025-06-30",
+     "publisher": "DPIIT",
+     "series": "FDI Equity Inflows",
+     "frequency": "half-yearly",
+     "headline": true
+    },
+    {
+     "quote": "against about 1.3% before April 2017",
+     "value": "1.3%",
+     "period": "before April 2017",
+     "period_end": "2017-03-31",
+     "publisher": "DPIIT",
+     "series": "FDI Equity Inflows",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "India has roughly 1.4–1.6 hospital beds per 1,000 people",
+     "value": "1.4–1.6 beds per 1,000 people",
+     "period": "latest",
+     "period_end": null,
+     "publisher": "PIB / ministry",
+     "series": "industry figure",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "government facilities alone run at just 0.79 per 1,000",
+     "value": "0.79 beds per 1,000",
+     "period": "latest",
+     "period_end": null,
+     "publisher": "PIB / ministry",
+     "series": "government-facility-only figure",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "DPIIT’s fact sheet to June 2026 puts cumulative FDI equity into hospitals and diagnostic centres at $13.23 billion (April 2000 to June 2026)",
+     "value": "$13.23 billion",
+     "period": "April 2000 to June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "DPIIT",
+     "series": "FDI Equity Inflows fact sheet",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "against $25.43 billion for drugs and pharmaceuticals",
+     "value": "$25.43 billion",
+     "period": "April 2000 to June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "DPIIT",
+     "series": "FDI Equity Inflows fact sheet",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "From January to June 2026, by difference from the December 2025 sheet, hospitals drew $499 million",
+     "value": "$499 million",
+     "period": "January to June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "DPIIT",
+     "series": "FDI Equity Inflows fact sheet",
+     "frequency": "half-yearly",
+     "headline": false
+    },
+    {
+     "quote": "1.6% of all equity inflow",
+     "value": "1.6%",
+     "period": "January to June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "DPIIT",
+     "series": "FDI Equity Inflows fact sheet",
+     "frequency": "half-yearly",
+     "headline": false
+    },
+    {
+     "quote": "Over July 2023 to June 2026 as a whole, hospitals took about $4.3 billion (2.7%)",
+     "value": "$4.3 billion",
+     "period": "July 2023 to June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "DPIIT",
+     "series": "FDI Equity Inflows fact sheet",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "pharmaceuticals about $3.9 billion (2.4%)",
+     "value": "$3.9 billion",
+     "period": "July 2023 to June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "DPIIT",
+     "series": "FDI Equity Inflows fact sheet",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "hospitals and diagnostic centres at $4.34 billion of $332.0 billion of FDI equity inflow from 2000-01 to 2016-17 (1.3%)",
+     "value": "$4.34 billion",
+     "period": "2000-01 to 2016-17",
+     "period_end": "2017-03-31",
+     "publisher": "DPIIT",
+     "series": "financial-year sector tables",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "at about $4.55 billion of about $313.4 billion from April 2017 to June 2023 (1.5%)",
+     "value": "$4.55 billion",
+     "period": "April 2017 to June 2023",
+     "period_end": "2023-06-30",
+     "publisher": "DPIIT",
+     "series": "financial-year sector tables",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "Cumulative, Apr 2000–Dec 2016 | 4,235",
+     "value": "4,235 US$ mn",
+     "period": "Apr 2000–Dec 2016",
+     "period_end": "2016-12-31",
+     "publisher": "DPIIT",
+     "series": "Consolidated FDI sector-wise tables",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "2017 | 750",
+     "value": "750 US$ mn",
+     "period": "2017",
+     "period_end": "2017-12-31",
+     "publisher": "DPIIT",
+     "series": "Consolidated FDI sector-wise tables",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "2018 | 1,009",
+     "value": "1,009 US$ mn",
+     "period": "2018",
+     "period_end": "2018-12-31",
+     "publisher": "DPIIT",
+     "series": "Consolidated FDI sector-wise tables",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "2019 | 630",
+     "value": "630 US$ mn",
+     "period": "2019",
+     "period_end": "2019-12-31",
+     "publisher": "DPIIT",
+     "series": "Consolidated FDI sector-wise tables",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "2020 | 409 | 1,350",
+     "value": "409 US$ mn",
+     "period": "2020",
+     "period_end": "2020-12-31",
+     "publisher": "DPIIT",
+     "series": "Consolidated FDI sector-wise tables",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "2021 | 694 | 1,451",
+     "value": "694 US$ mn",
+     "period": "2021",
+     "period_end": "2021-12-31",
+     "publisher": "DPIIT",
+     "series": "Consolidated FDI sector-wise tables",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "2022 | 767 | 2,026",
+     "value": "767 US$ mn",
+     "period": "2022",
+     "period_end": "2022-12-31",
+     "publisher": "DPIIT",
+     "series": "Consolidated FDI sector-wise tables",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Cumulative, Apr 2000–Jun 2023 | 8,890 | 21,595",
+     "value": "8,890 US$ mn",
+     "period": "Apr 2000–Jun 2023",
+     "period_end": "2023-06-30",
+     "publisher": "DPIIT",
+     "series": "Consolidated FDI sector-wise tables",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "Calendar year 2023 | 1,323 | — | 4.26%",
+     "value": "1,323 US$ mn",
+     "period": "Calendar year 2023",
+     "period_end": "2023-12-31",
+     "publisher": "DPIIT",
+     "series": "Consolidated FDI sector-wise tables",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "H1 2024 (Jan–Jun) | 901 | — | 3.95%",
+     "value": "901 US$ mn",
+     "period": "H1 2024",
+     "period_end": "2024-06-30",
+     "publisher": "DPIIT",
+     "series": "Consolidated FDI sector-wise tables",
+     "frequency": "half-yearly",
+     "headline": false
+    },
+    {
+     "quote": "H1 2025 (Jan–Jun) | 568 | — | 2.03%",
+     "value": "568 US$ mn",
+     "period": "H1 2025",
+     "period_end": "2025-06-30",
+     "publisher": "DPIIT",
+     "series": "Consolidated FDI sector-wise tables",
+     "frequency": "half-yearly",
+     "headline": false
+    },
+    {
+     "quote": "Raised combined stake to ~59%; company valued around ₹40,000 crore",
+     "value": "₹40,000 crore",
+     "period": "2023",
+     "period_end": "2023-12-31",
+     "publisher": "business-press",
+     "series": "deal valuation",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹600 crore (~$72mn), majority stake",
+     "value": "₹600 crore",
+     "period": "Sep 2023",
+     "period_end": "2023-09-30",
+     "publisher": "business-press",
+     "series": "deal valuation",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Quality Care India separately acquired ~80% of KIMS Health for ₹3,300 crore ($400mn)",
+     "value": "₹3,300 crore",
+     "period": "Oct 2023",
+     "period_end": "2023-10-31",
+     "publisher": "business-press",
+     "series": "deal valuation",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "$1.39bn for full ownership of 24 hospitals, ~4,800 beds",
+     "value": "$1.39bn",
+     "period": "2024–25",
+     "period_end": "2025-03-31",
+     "publisher": "business-press",
+     "series": "deal valuation",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹6,300–6,400 crore, majority; takes Manipal to ~49 hospitals",
+     "value": "₹6,300–6,400 crore",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "business-press",
+     "series": "deal valuation",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "industry-wide PE plus FDI into hospitals is estimated at roughly $8bn across 2022–2024",
+     "value": "$8bn",
+     "period": "2022–2024",
+     "period_end": "2024-12-31",
+     "publisher": "Bain",
+     "series": "healthcare private-equity report",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "PE about $5bn, FDI about $3.2bn per Bain’s 2024 healthcare private-equity report",
+     "value": "$5bn",
+     "period": "2022–2024",
+     "period_end": "2024-12-31",
+     "publisher": "Bain",
+     "series": "healthcare private-equity report",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "greenfield hospitals earning better post-tax margins, around 10–12 per cent",
+     "value": "10–12 per cent",
+     "period": "latest",
+     "period_end": null,
+     "publisher": "trade-press",
+     "series": "analyst commentary",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "roughly 30,000 additional beds, about ₹35,000 crore of capex , over the next four to five years",
+     "value": "₹35,000 crore",
+     "period": "next four to five years",
+     "period_end": "2030-12-31",
+     "publisher": "trade-press",
+     "series": "capex pipeline",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "India's hospital beds fall well short of world norms. Hospital beds per 1,000 population, latest published year: 1.59 India (2021, down from 2.13 in 2000); 3.29 World average (2021); 4.66 OECD average (2021).",
+     "value": "1.59 beds per 1,000 population (India, 2021); 2.13 beds per 1,000 population (India, 2000); 3.29 beds per 1,000 population (World, 2021); 4.66 beds per 1,000 population (OECD, 2021)",
+     "period": "2000, 2021",
+     "period_end": "2021-12-31",
+     "publisher": "World Bank / WHO",
+     "series": "SH.MED.BEDS.ZS (Hospital beds, per 1,000 people)",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Government facilities alone run at just 0.79 per 1,000.",
+     "value": "0.79 beds per 1,000 population (government hospitals)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Trade press citation (The South First)",
+     "series": "Government hospital beds per 1,000 population",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Actual inflow has stayed small: $8.89 billion cumulative into 'Hospital & Diagnostic Centres' from April 2000 to June 2023, against roughly $21.6 billion for Drugs & Pharmaceuticals over a similar span, and a single-digit share of total FDI that peaked at 4.3% of all inflow in CY2023 and has fallen back to 2.0% in H1 2025.",
+     "value": "$8.89 billion (Hospital & Diagnostic Centres, Apr 2000–Jun 2023); $21.6 billion (Drugs & Pharmaceuticals, similar span); 4.3% (Hospital share of total FDI, CY2023); 2.0% (Hospital share of total FDI, H1 2025)",
+     "period": "Apr 2000–Jun 2023, CY2023, H1 2025",
+     "period_end": "2023-06-30, 2023-12-31, 2025-06-30",
+     "publisher": "DPIIT",
+     "series": "FDI Equity Inflows (Hospital & Diagnostic Centres, Drugs & Pharmaceuticals)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "DPIIT’s fact sheet to June 2026 puts cumulative FDI equity into hospitals and diagnostic centres at $13.23 billion (April 2000 to June 2026), against $25.43 billion for drugs and pharmaceuticals.",
+     "value": "$13.23 billion (Hospital & Diagnostic Centres, Apr 2000–Jun 2026); $25.43 billion (Drugs & Pharmaceuticals, Apr 2000–Jun 2026)",
+     "period": "Apr 2000–Jun 2026",
+     "period_end": "2026-06-30",
+     "publisher": "DPIIT",
+     "series": "FDI Equity Inflows (Hospital & Diagnostic Centres, Drugs & Pharmaceuticals)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "From January to June 2026, by difference from the December 2025 sheet, hospitals drew $499 million, 1.6% of all equity inflow.",
+     "value": "$499 million (Hospital & Diagnostic Centres, Jan–Jun 2026); 1.6% (Hospital share of total FDI, Jan–Jun 2026)",
+     "period": "Jan–Jun 2026",
+     "period_end": "2026-06-30",
+     "publisher": "DPIIT",
+     "series": "FDI Equity Inflows (Hospital & Diagnostic Centres)",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "DPIIT Consolidated FDI sector-wise tables put hospitals and diagnostic centres at $4.34 billion of $332.0 billion of FDI equity inflow from 2000-01 to 2016-17 (1.3%), and at about $4.55 billion of about $313.4 billion from April 2017 to June 2023 (1.5%).",
+     "value": "$4.34 billion (Hospital & Diagnostic Centres, 2000-01–2016-17); $332.0 billion (Total FDI, 2000-01–2016-17); $4.55 billion (Hospital & Diagnostic Centres, Apr 2017–Jun 2023); $313.4 billion (Total FDI, Apr 2017–Jun 2023)",
+     "period": "2000-01–2016-17, Apr 2017–Jun 2023",
+     "period_end": "2016-03-31, 2023-06-30",
+     "publisher": "DPIIT",
+     "series": "FDI Equity Inflows (Sector-wise tables)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Calendar year 2023 | 1,323 (Hospital & Diagnostic Centres US$ mn) | 4.26% (Hospitals as % of total FDI)",
+     "value": "$1,323 million (Hospital & Diagnostic Centres, CY2023); 4.26% (Hospital share of total FDI, CY2023)",
+     "period": "CY2023",
+     "period_end": "2023-12-31",
+     "publisher": "DPIIT",
+     "series": "FDI Equity Inflows (Calendar Year)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "H1 2024 (Jan–Jun) | 901 (Hospital & Diagnostic Centres US$ mn) | 3.95% (Hospitals as % of total FDI)",
+     "value": "$901 million (Hospital & Diagnostic Centres, H1 2024); 3.95% (Hospital share of total FDI, H1 2024)",
+     "period": "Jan–Jun 2024",
+     "period_end": "2024-06-30",
+     "publisher": "DPIIT",
+     "series": "FDI Equity Inflows (Half-Year)",
+     "frequency": "half-yearly",
+     "headline": false
+    },
+    {
+     "quote": "H1 2025 (Jan–Jun) | 568 (Hospital & Diagnostic Centres US$ mn) | 2.03% (Hospitals as % of total FDI)",
+     "value": "$568 million (Hospital & Diagnostic Centres, H1 2025); 2.03% (Hospital share of total FDI, H1 2025)",
+     "period": "Jan–Jun 2025",
+     "period_end": "2025-06-30",
+     "publisher": "DPIIT",
+     "series": "FDI Equity Inflows (Half-Year)",
+     "frequency": "half-yearly",
+     "headline": false
+    },
+    {
+     "quote": "Temasek (Sheares Health) & Mubadala | Manipal Health Enterprises | 2023 | Raised combined stake to ~59%; company valued around ₹40,000 crore",
+     "value": "₹40,000 crore (Manipal Health Enterprises valuation, 2023)",
+     "period": "2023",
+     "period_end": "2023-12-31",
+     "publisher": "Business press (Business Standard, Bloomberg, Reuters, DealStreetAsia, Mubadala)",
+     "series": "Private equity and sovereign fund deals in hospitals",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Blackstone took 72.5% of Quality Care India (TPG retained 27.5%); Quality Care India separately acquired ~80% of KIMS Health for ₹3,300 crore ($400mn); combined platform of 23 facilities and 4,000+ beds, Blackstone's total commitment close to $1bn",
+     "value": "₹3,300 crore ($400 million) (KIMS Health acquisition, 2023); 4,000+ beds (KIMS Health platform); $1 billion (Blackstone's total commitment)",
+     "period": "2023",
+     "period_end": "2023-12-31",
+     "publisher": "Business press (Business Standard, Bloomberg, Reuters, DealStreetAsia, Trilegal)",
+     "series": "Private equity and sovereign fund deals in hospitals",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "KKR | Medicover’s Indian hospital business | 2024–25 | $1.39bn for full ownership of 24 hospitals, ~4,800 beds",
+     "value": "$1.39 billion (Medicover’s Indian hospital business acquisition, 2024–25); 24 hospitals; ~4,800 beds",
+     "period": "2024–25",
+     "period_end": "2025-12-31",
+     "publisher": "Business press (Business Standard, Bloomberg, Reuters, DealStreetAsia, BioSpectrum India)",
+     "series": "Private equity and sovereign fund deals in hospitals",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Industry projections do point to roughly 30,000 additional beds, about ₹35,000 crore of capex, over the next four to five years",
+     "value": "30,000 additional beds; ₹35,000 crore (capex)",
+     "period": "next four to five years (2026–2030)",
+     "period_end": "2030-12-31",
+     "publisher": "Trade press (DealFlowIQ's India Hospitals Report 2025, BusinessToday)",
+     "series": "Industry projections on hospital capex",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "greenfield hospitals earn better post-tax margins, around 10–12 per cent",
+     "value": "10–12% (post-tax margins for greenfield hospitals)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Industry commentary",
+     "series": "Hospital margins (post-tax)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "nearly half of India’s leading hospital chains are now owned or controlled by global private equity",
+     "value": "~50% (leading hospital chains owned/controlled by global private equity)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Trade press (DealFlowIQ's India Hospitals Report 2025, BusinessToday)",
+     "series": "Ownership of leading hospital chains",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "greenfield pharmaceutical manufacturing is 100 per cent automatic but brownfield pharma (buying an existing plant) is capped at 74 per cent automatic",
+     "value": "100% (greenfield pharmaceutical manufacturing FDI cap); 74% (brownfield pharmaceutical manufacturing FDI cap)",
+     "period": null,
+     "period_end": null,
+     "publisher": "DPIIT",
+     "series": "FDI Policy (Pharmaceuticals)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "health insurance sits under the general insurance cap of 74 per cent automatic",
+     "value": "74% (health insurance FDI cap)",
+     "period": null,
+     "period_end": null,
+     "publisher": "DPIIT",
+     "series": "FDI Policy (Health Insurance)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The sector’s average inflow also rose, from about $0.26 billion a year to about $0.73 billion.",
+     "value": "$0.26 billion/year (pre-Apr 2017); $0.73 billion/year (post-Apr 2017)",
+     "period": "pre-Apr 2017, post-Apr 2017",
+     "period_end": null,
+     "publisher": "DPIIT",
+     "series": "FDI Equity Inflows (Hospital & Diagnostic Centres)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Over July 2023 to June 2026 as a whole, hospitals took about $4.3 billion (2.7%) and pharmaceuticals about $3.9 billion (2.4%), by subtraction of the June 2023 table.",
+     "value": "$4.3 billion (Hospital & Diagnostic Centres, Jul 2023–Jun 2026); $3.9 billion (Pharmaceuticals, Jul 2023–Jun 2026)",
+     "period": "Jul 2023–Jun 2026",
+     "period_end": "2026-06-30",
+     "publisher": "DPIIT",
+     "series": "FDI Equity Inflows (Hospital & Diagnostic Centres, Drugs & Pharmaceuticals)",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "Industry-wide PE plus FDI into hospitals is estimated at roughly $8bn across 2022–2024 (PE about $5bn, FDI about $3.2bn per Bain’s 2024 healthcare private-equity report)",
+     "value": "$8 billion (Industry-wide PE + FDI, 2022–2024); $5 billion (PE); $3.2 billion (FDI)",
+     "period": "2022–2024",
+     "period_end": "2024-12-31",
+     "publisher": "Bain’s 2024 healthcare private-equity report",
+     "series": "Healthcare and Pharma M&A-and-PE",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "healthcare and pharma M&A-and-PE total of $30bn-plus over the same window.",
+     "value": "$30 billion+ (Healthcare and Pharma M&A-and-PE, 2022–2024)",
+     "period": "2022–2024",
+     "period_end": "2024-12-31",
+     "publisher": null,
+     "series": "Healthcare and Pharma M&A-and-PE",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "Manipal Hospitals (Temasek-backed) | Sahyadri Hospitals (from Ontario Teachers’ Pension Plan) | 2025 | ₹6,300–6,400 crore, majority; takes Manipal to ~49 hospitals",
+     "value": "₹6,300–6,400 crore (Sahyadri Hospitals acquisition, 2025); ~49 hospitals (Manipal Hospitals total)",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "Business press (Business Standard, Bloomberg, Reuters, DealStreetAsia)",
+     "series": "Private equity and sovereign fund deals in hospitals",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The commonly cited case for hospital investment is a straightforward capacity gap. Measure | Value | Note | All hospital beds per 1,000 population (industry figure) | ~1.4",
+     "value": "~1.4 beds per 1,000 population (industry figure)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Trade press",
+     "series": "Hospital beds per 1,000 population (industry figure)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The World Bank’s own WHO-sourced series (SH.MED.BEDS.ZS) puts India at 1.59 as of 2021, the latest year published, on a slow multi-decade decline from 2.13 in 2000",
+     "value": "1.59 beds per 1,000 population (India, 2021); 2.13 beds per 1,000 population (India, 2000)",
+     "period": "2000, 2021",
+     "period_end": "2021-12-31",
+     "publisher": "World Bank / WHO",
+     "series": "SH.MED.BEDS.ZS (Hospital beds, per 1,000 people)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "government facilities alone run at just 0.79 per 1,000 . Neither figure has moved because of this capital.",
+     "value": "0.79 beds per 1,000 population (government hospitals)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Trade press citation (The South First)",
+     "series": "Government hospital beds per 1,000 population",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "This, not a formal WHO minimum-standard target, is what the commonly cited '3.5' approximates — it is roughly the current global average, not a WHO-mandated norm.",
+     "value": "3.5 beds per 1,000 population (commonly cited reference figure)",
+     "period": null,
+     "period_end": null,
+     "publisher": "World Bank / WHO",
+     "series": "World average hospital beds per 1,000 population",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

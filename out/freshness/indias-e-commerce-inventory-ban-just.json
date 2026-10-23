@@ -1,0 +1,350 @@
+{
+ "slug": "indias-e-commerce-inventory-ban-just",
+ "text_sha1": "6930ea43cd731887",
+ "chars": 10219,
+ "checked": "2026-10-23T14:02:27",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "₹10 lakh e-commerce courier export cap, up from ₹5 lakh under FTP 2023",
+     "value": "₹10 lakh",
+     "period": "FTP 2023",
+     "period_end": null,
+     "publisher": "DGFT / PIB / ministry",
+     "series": "Foreign Trade Policy 2023 courier-route export consignment cap",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "₹5 lakh under FTP 2023",
+     "value": "₹5 lakh",
+     "period": "FTP 2023",
+     "period_end": null,
+     "publisher": "DGFT / PIB / ministry",
+     "series": "Foreign Trade Policy 2023 courier-route export consignment cap",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "Up to 100%, automatic route, subject to compliance conditions",
+     "value": "100%",
+     "period": null,
+     "period_end": null,
+     "publisher": "DPIIT / RBI",
+     "series": "FDI policy for e-commerce - Marketplace model",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Up to 100%, automatic route — the marketplace/inventory distinction doesn't apply",
+     "value": "100%",
+     "period": null,
+     "period_end": null,
+     "publisher": "DPIIT / RBI",
+     "series": "FDI policy for e-commerce - B2B e-commerce",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "$200–300 billion by 2030",
+     "value": "$200–300 billion",
+     "period": "2030",
+     "period_end": "2030-12-31",
+     "publisher": "DGFT / PIB / ministry",
+     "series": "Foreign Trade Policy 2023 e-commerce export potential",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "$2 trillion export target for the same year",
+     "value": "$2 trillion",
+     "period": "2030",
+     "period_end": "2030-12-31",
+     "publisher": "DGFT / PIB / ministry",
+     "series": "Foreign Trade Policy 2023 overall export target",
+     "frequency": "multi-year",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "the 19th amendment to the FEMA Non-Debt Instruments Rules since Oct 2019, this one included the 4th amendment to the same rule in 2026 alone",
+     "value": "19 amendments total; 4 in 2026",
+     "period": "Oct 2019–2 Sep 2026",
+     "period_end": "2026-09-02",
+     "publisher": "Department of Economic Affairs (MoF)",
+     "series": "Foreign Exchange Management (Non-Debt Instruments) Rules, 2019 amendment history",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "₹10 lakh e-commerce courier export cap, up from ₹5 lakh under FTP 2023",
+     "value": "₹10 lakh (courier consignment cap for e-commerce exports)",
+     "period": "FTP 2023–2026",
+     "period_end": "2026-09-02",
+     "publisher": "DGFT (via Foreign Trade Policy 2023)",
+     "series": "Foreign Trade Policy 2023 – Courier Export Consignment Cap",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Foreign Trade Policy 2023 puts e-commerce export potential at $200–300 billion by 2030, against an overall $2 trillion export target for the same year",
+     "value": "$200–300 billion (e-commerce export target by 2030); $2 trillion (total export target by 2030)",
+     "period": "2030",
+     "period_end": "2030-12-31",
+     "publisher": "DGFT (Foreign Trade Policy 2023)",
+     "series": "Foreign Trade Policy 2023 – Export Targets",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Dec 2019 – Apr 2022 | 10 (Dec 2019, Apr 2020 ×2, Jul 2020, Dec 2020, Aug 2021 ×2, Oct 2021 ×2, Apr 2022)",
+     "value": "10 amendments (Dec 2019–Apr 2022)",
+     "period": "Dec 2019–Apr 2022",
+     "period_end": "2022-04-30",
+     "publisher": "Department of Economic Affairs (MoF)",
+     "series": "Foreign Exchange Management (Non-Debt Instruments) Rules, 2019 amendment history",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "Jan 2024 – Aug 2024 | 4 (Jan, Mar, Apr, Aug)",
+     "value": "4 amendments (Jan–Aug 2024)",
+     "period": "Jan 2024–Aug 2024",
+     "period_end": "2024-08-31",
+     "publisher": "Department of Economic Affairs (MoF)",
+     "series": "Foreign Exchange Management (Non-Debt Instruments) Rules, 2019 amendment history",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "Jun 2025 | 1",
+     "value": "1 amendment (Jun 2025)",
+     "period": "Jun 2025",
+     "period_end": "2025-06-30",
+     "publisher": "Department of Economic Affairs (MoF)",
+     "series": "Foreign Exchange Management (Non-Debt Instruments) Rules, 2019 amendment history",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "May – Jun 2026 | 3 (two in early May, one in June)",
+     "value": "3 amendments (May–Jun 2026)",
+     "period": "May–Jun 2026",
+     "period_end": "2026-06-30",
+     "publisher": "Department of Economic Affairs (MoF)",
+     "series": "Foreign Exchange Management (Non-Debt Instruments) Rules, 2019 amendment history",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "The Non-Debt Instruments Rules were first notified on 7 October 2019",
+     "value": "7 Oct 2019 (initial notification date)",
+     "period": "7 Oct 2019",
+     "period_end": "2019-10-07",
+     "publisher": "Department of Economic Affairs (MoF)",
+     "series": "Foreign Exchange Management (Non-Debt Instruments) Rules, 2019",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "18 amendments before this one",
+     "value": "18 amendments (Oct 2019–2 Sep 2026, excluding the 19th)",
+     "period": "Oct 2019–2 Sep 2026",
+     "period_end": "2026-09-02",
+     "publisher": "Department of Economic Affairs (MoF)",
+     "series": "Foreign Exchange Management (Non-Debt Instruments) Rules, 2019 amendment history",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "4 amendments in 5 months, ending in the export carve-out itself",
+     "value": "4 amendments (May–Sep 2026)",
+     "period": "May–Sep 2026",
+     "period_end": "2026-09-02",
+     "publisher": "Department of Economic Affairs (MoF)",
+     "series": "Foreign Exchange Management (Non-Debt Instruments) Rules, 2019 amendment history",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "This amendment lands inside a larger, explicitly stated push: India's Foreign Trade Policy 2023 puts e-commerce export potential at $200–300 billion by 2030",
+     "value": "$200–300 billion (e-commerce export target by 2030)",
+     "period": "2030",
+     "period_end": "2030-12-31",
+     "publisher": "DGFT (Foreign Trade Policy 2023)",
+     "series": "Foreign Trade Policy 2023 – E-Commerce Export Target",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹5 lakh under FTP 2023",
+     "value": "₹5 lakh (previous courier consignment cap for e-commerce exports)",
+     "period": "FTP 2023",
+     "period_end": "2023-12-31",
+     "publisher": "DGFT (Foreign Trade Policy 2023)",
+     "series": "Foreign Trade Policy 2023 – Courier Export Consignment Cap",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "On 2 September 2026, India's Department of Economic Affairs quietly inserted nine lines into Schedule I of the Foreign Exchange Management (Non-Debt Instruments) Rules, 2019.",
+     "value": "9 lines added (2 Sep 2026)",
+     "period": "2 Sep 2026",
+     "period_end": "2026-09-02",
+     "publisher": "Department of Economic Affairs (MoF)",
+     "series": "Foreign Exchange Management (Non-Debt Instruments) Rules, 2019 – Schedule I",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The 19th amendment to the FEMA Non-Debt Instruments Rules since Oct 2019, this one included the 4th amendment to the same rule in 2026 alone",
+     "value": "4th amendment in 2026",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "Department of Economic Affairs (MoF)",
+     "series": "Foreign Exchange Management (Non-Debt Instruments) Rules, 2019 amendment history",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "The 19th amendment to the FEMA Non-Debt Instruments Rules since Oct 2019, this one included the 4th amendment to the same rule in 2026 alone",
+     "value": "19th amendment overall",
+     "period": "2 Sep 2026",
+     "period_end": "2026-09-02",
+     "publisher": "Department of Economic Affairs (MoF)",
+     "series": "Foreign Exchange Management (Non-Debt Instruments) Rules, 2019 amendment history",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "The rule that has been rewritten four times in nine months.",
+     "value": "4 amendments in 9 months (2026)",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "Department of Economic Affairs (MoF)",
+     "series": "Foreign Exchange Management (Non-Debt Instruments) Rules, 2019 amendment history",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "The Non-Debt Instruments Rules were first notified on 7 October 2019 and have been amended at least eighteen times since, per the notification's own recital of its history — averaging roughly one amendment every four months.",
+     "value": "~1 amendment every 4 months (Oct 2019–Sep 2026)",
+     "period": "Oct 2019–Sep 2026",
+     "period_end": "2026-09-02",
+     "publisher": "Department of Economic Affairs (MoF)",
+     "series": "Foreign Exchange Management (Non-Debt Instruments) Rules, 2019 amendment history",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "2018 Press Note 2 bans inventory-owned FDI e-commerce for domestic B2C sales",
+     "value": "1 Feb 2019 (effective date of Press Note 2, 2018)",
+     "period": "1 Feb 2019",
+     "period_end": "2019-02-01",
+     "publisher": "DPIIT (Press Note 2, 2018 Series)",
+     "series": "FDI Policy for E-Commerce (Press Note 2, 2018)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "An inventory-based model — where the e-commerce entity owns the goods it sells directly to consumers — gets none.",
+     "value": "0% FDI allowed for inventory-based B2C e-commerce (since 2018)",
+     "period": "2018–present",
+     "period_end": null,
+     "publisher": "DPIIT (Press Note 2, 2018 Series)",
+     "series": "FDI Policy for E-Commerce (Press Note 2, 2018)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "A marketplace model — an e-commerce entity that simply operates the platform connecting buyers and sellers, without owning what's sold — can take up to 100% FDI under the automatic route.",
+     "value": "Up to 100% FDI for marketplace model (since 2018)",
+     "period": "2018–present",
+     "period_end": null,
+     "publisher": "DPIIT (Press Note 2, 2018 Series)",
+     "series": "FDI Policy for E-Commerce (Press Note 2, 2018)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "B2B e-commerce (either model) | Up to 100%, automatic route — the marketplace/inventory distinction doesn't apply",
+     "value": "Up to 100% FDI for B2B e-commerce (since 2018)",
+     "period": "2018–present",
+     "period_end": null,
+     "publisher": "DPIIT (Press Note 2, 2018 Series)",
+     "series": "FDI Policy for E-Commerce (Press Note 2, 2018)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India's FDI policy for e-commerce, set out in Press Note 2 of 2018 (effective 1 February 2019)",
+     "value": "1 Feb 2019 (effective date of Press Note 2, 2018)",
+     "period": "1 Feb 2019",
+     "period_end": "2019-02-01",
+     "publisher": "DPIIT (Press Note 2, 2018 Series)",
+     "series": "FDI Policy for E-Commerce (Press Note 2, 2018)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India has flatly barred foreign-funded e-commerce companies from owning the inventory they sell to Indian consumers, through 18 amendments to the same rule.",
+     "value": "18 amendments (since 2018)",
+     "period": "2018–2 Sep 2026",
+     "period_end": "2026-09-02",
+     "publisher": "Department of Economic Affairs (MoF)",
+     "series": "Foreign Exchange Management (Non-Debt Instruments) Rules, 2019 amendment history",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "The wall that hasn't moved since 2018: India's FDI policy for e-commerce, set out in Press Note 2 of 2018 (effective 1 February 2019)",
+     "value": "2018 (inception of the ban)",
+     "period": "2018",
+     "period_end": "2018-12-31",
+     "publisher": "DPIIT (Press Note 2, 2018 Series)",
+     "series": "FDI Policy for E-Commerce (Press Note 2, 2018)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The policy exists to stop foreign-funded platforms from competing directly against India's kirana stores and small retailers by underwriting their own stock the way a conventional retailer would.",
+     "value": "No explicit figure, but policy rationale tied to kirana stores and small retailers",
+     "period": null,
+     "period_end": null,
+     "publisher": "DPIIT (Press Note 2, 2018 Series)",
+     "series": "FDI Policy for E-Commerce (Press Note 2, 2018)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Foreign Trade Policy 2023's e-commerce export figures, the courier consignment cap increase and the E-Commerce Export Hub / Dak Niryat Kendra proposals per PIB and trade-press coverage of the policy's launch.",
+     "value": "E-Commerce Export Hubs and Dak Niryat Kendra facilities (proposed)",
+     "period": "FTP 2023–present",
+     "period_end": null,
+     "publisher": "DGFT (Foreign Trade Policy 2023) / PIB",
+     "series": "Foreign Trade Policy 2023 – Export Facilitation Proposals",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "$2 trillion export target for the same year [2030]",
+     "value": "$2 trillion (total export target by 2030)",
+     "period": "2030",
+     "period_end": "2030-12-31",
+     "publisher": "DGFT (Foreign Trade Policy 2023)",
+     "series": "Foreign Trade Policy 2023 – Export Targets",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,230 @@
+{
+ "slug": "indias-ethanol-plants-are-sitting-on",
+ "text_sha1": "c8cda1ec1e6266dc",
+ "chars": 13808,
+ "checked": "2026-10-23T14:04:07",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "$169.7m → $347.8m India's spice-extract market, 2025 to a 2033 projection, per industry market-research estimates",
+     "value": "$169.7m",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "industry market-research estimates",
+     "series": "India's spice-extract market",
+     "frequency": "multi-year",
+     "headline": true
+    },
+    {
+     "quote": "$169.7m → $347.8m India's spice-extract market, 2025 to a 2033 projection, per industry market-research estimates",
+     "value": "$347.8m",
+     "period": "2033",
+     "period_end": "2033-12-31",
+     "publisher": "industry market-research estimates",
+     "series": "India's spice-extract market",
+     "frequency": "multi-year",
+     "headline": true
+    },
+    {
+     "quote": "~0.95 kg CO₂ produced per kg of ethanol from fermentation, by simple stoichiometry — roughly 98 tonnes/day from a 200 KLPD plant",
+     "value": "~0.95 kg",
+     "period": null,
+     "period_end": null,
+     "publisher": "PIB / ministry",
+     "series": "fermentation stoichiometry",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "~0.95 kg CO₂ produced per kg of ethanol from fermentation, by simple stoichiometry — roughly 98 tonnes/day from a 200 KLPD plant",
+     "value": "98 tonnes/day",
+     "period": null,
+     "period_end": null,
+     "publisher": "PIB / ministry",
+     "series": "fermentation CO2 generation from 200 KLPD plant",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "99.9% / ≤30ppm O₂ ISBT's food/beverage-grade CO₂ purity standard, the same bar ethanol-plant CO₂ recovery units are built to hit",
+     "value": "99.9%",
+     "period": null,
+     "period_end": null,
+     "publisher": "International Society of Beverage Technologists",
+     "series": "ISBT Carbon Dioxide Guidelines",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "99.9% / ≤30ppm O₂ ISBT's food/beverage-grade CO₂ purity standard, the same bar ethanol-plant CO₂ recovery units are built to hit",
+     "value": "≤30ppm",
+     "period": null,
+     "period_end": null,
+     "publisher": "International Society of Beverage Technologists",
+     "series": "ISBT Carbon Dioxide Guidelines",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "31.1°C / 73.8 bar CO₂'s critical point — above it, CO₂ becomes the \"supercritical\" solvent that extracts oleoresins",
+     "value": "31.1°C",
+     "period": null,
+     "period_end": null,
+     "publisher": "CEA",
+     "series": "CO2 critical point",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "31.1°C / 73.8 bar CO₂'s critical point — above it, CO₂ becomes the \"supercritical\" solvent that extracts oleoresins",
+     "value": "73.8 bar",
+     "period": null,
+     "period_end": null,
+     "publisher": "CEA",
+     "series": "CO2 critical point",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "India's spice-extract market is estimated at roughly $169.7 million in 2025, projected to reach $347.8 million by 2033",
+     "value": "$169.7 million",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "industry market-research estimates",
+     "series": "India's spice-extract market",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "India's spice-extract market is estimated at roughly $169.7 million in 2025, projected to reach $347.8 million by 2033",
+     "value": "$347.8 million",
+     "period": "2033",
+     "period_end": "2033-12-31",
+     "publisher": "industry market-research estimates",
+     "series": "India's spice-extract market",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "India's ethanol sector, in 2025 reporting, hit its 20 per cent ethanol-blending target roughly five years ahead of its original 2030 schedule",
+     "value": "20 per cent",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "PIB / ministry",
+     "series": "ethanol-blending target",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "distilleries running at only around 60 per cent utilisation. If that figure holds, it implies more spare fermentation capacity",
+     "value": "60 per cent",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "Whalesbook",
+     "series": "distillery utilisation rate",
+     "frequency": "annual",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "roughly 98 tonnes/day from a 200 KLPD plant",
+     "value": "98 tonnes/day",
+     "period": null,
+     "period_end": null,
+     "publisher": "industry rule-of-thumb (pre-feasibility/environmental-clearance filings)",
+     "series": "ethanol plant CO₂ byproduct generation estimate",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "99.9% / ≤30ppm O₂ ISBT's food/beverage-grade CO₂ purity standard",
+     "value": "99.9% purity, ≤30ppm O₂",
+     "period": null,
+     "period_end": null,
+     "publisher": "International Society of Beverage Technologists (ISBT)",
+     "series": "ISBT Carbon Dioxide Guidelines",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "31.1°C / 73.8 bar CO₂'s critical point",
+     "value": "31.1°C, ~73.8 bar",
+     "period": null,
+     "period_end": null,
+     "publisher": "standard physical chemistry (cross-checked via academic sources)",
+     "series": "CO₂ critical point data",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "$169.7m → $347.8m India's spice-extract market, 2025 to a 2033 projection",
+     "value": "$169.7 million (2025), projected $347.8 million (2033)",
+     "period": "2025–2033",
+     "period_end": "2033-12-31",
+     "publisher": "industry market-research estimates",
+     "series": "spice-extract market size projections",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "India's ethanol sector, in 2025 reporting, hit its 20% ethanol-blending target roughly five years ahead of its original 2030 schedule",
+     "value": "20% ethanol-blending target achieved by 2025 (originally 2030)",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "industry coverage (Whalesbook)",
+     "series": "ethanol-blending progress",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "close to seven billion litres of installed capacity against current blending demand, with distilleries running at only around 60% utilisation",
+     "value": "7 billion litres installed capacity, ~60% utilisation",
+     "period": null,
+     "period_end": null,
+     "publisher": "Whalesbook (industry news)",
+     "series": "ethanol plant capacity and utilisation",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "~0.95 kg CO₂ produced per kg of ethanol from fermentation, by simple stoichiometry",
+     "value": "0.95 kg CO₂ per kg ethanol",
+     "period": null,
+     "period_end": null,
+     "publisher": "basic stoichiometry (independently verifiable chemistry)",
+     "series": "ethanol fermentation CO₂ yield",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "maximum curcuminoid yield from turmeric at around 300 bar and 45°C",
+     "value": "300 bar, 45°C (turmeric extraction)",
+     "period": null,
+     "period_end": null,
+     "publisher": "peer-reviewed academic extraction studies (ScienceDirect)",
+     "series": "supercritical CO₂ extraction parameters",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "maximum oleoresin-plus-carotenoid yield from red pepper and capsicum at pressures reported anywhere from roughly 200 to 500 bar",
+     "value": "200–500 bar (red pepper/capsicum extraction)",
+     "period": null,
+     "period_end": null,
+     "publisher": "peer-reviewed academic extraction studies (ScienceDirect)",
+     "series": "supercritical CO₂ extraction parameters",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

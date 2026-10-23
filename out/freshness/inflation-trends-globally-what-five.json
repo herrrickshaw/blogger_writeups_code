@@ -1,0 +1,660 @@
+{
+ "slug": "inflation-trends-globally-what-five",
+ "text_sha1": "5c6fa0411e249e21",
+ "chars": 36060,
+ "checked": "2026-10-23T14:46:19",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "+3.5% Total Chinese consumer price rise over the five years to 2025",
+     "value": "+3.5%",
+     "period": "five years to 2025",
+     "period_end": "2025-12-31",
+     "publisher": "World Bank",
+     "series": "Inflation, consumer prices (annual %)",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "+35.7% Brazil, the same five years — ten times China’s",
+     "value": "+35.7%",
+     "period": "five years to 2025",
+     "period_end": "2025-12-31",
+     "publisher": "World Bank",
+     "series": "Inflation, consumer prices (annual %)",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "+47.9% Brazilian producer prices over four years, the steepest here",
+     "value": "+47.9%",
+     "period": "four years to 2024",
+     "period_end": "2024-12-31",
+     "publisher": "World Bank",
+     "series": "Global Database of Inflation, producer price inflation",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "+12.3% US producer inflation, May 2026 — the 2026 turn is global",
+     "value": "+12.3%",
+     "period": "May 2026",
+     "period_end": "2026-05-31",
+     "publisher": "US Bureau of Labor Statistics",
+     "series": "Producer Price Index by Commodity: All Commodities",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "CPI-U rose 3.7% in the year to September 2026; prices rose 0.6% in September, with gasoline up 9.1% in that month.",
+     "value": "3.7%",
+     "period": "year to September 2026",
+     "period_end": "2026-09-30",
+     "publisher": "US Bureau of Labor Statistics",
+     "series": "CPI release",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "prices rose 0.6% in September, with gasoline up 9.1% in that month.",
+     "value": "0.6%",
+     "period": "September 2026",
+     "period_end": "2026-09-30",
+     "publisher": "US Bureau of Labor Statistics",
+     "series": "CPI release",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "gasoline up 9.1% in that month.",
+     "value": "9.1%",
+     "period": "September 2026",
+     "period_end": "2026-09-30",
+     "publisher": "US Bureau of Labor Statistics",
+     "series": "CPI release",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "final-demand producer prices up 5.4% in the year to August 2026, with energy up 24.4%.",
+     "value": "5.4%",
+     "period": "year to August 2026",
+     "period_end": "2026-08-31",
+     "publisher": "US Bureau of Labor Statistics",
+     "series": "PPI",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "energy up 24.4%.",
+     "value": "24.4%",
+     "period": "year to August 2026",
+     "period_end": "2026-08-31",
+     "publisher": "US Bureau of Labor Statistics",
+     "series": "PPI",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "wholesale inflation was reported at 9.92% in August and 11.39% in September 2026",
+     "value": "9.92%",
+     "period": "August 2026",
+     "period_end": "2026-08-31",
+     "publisher": "Office of the Economic Adviser",
+     "series": "WPI",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "wholesale inflation was reported at 9.92% in August and 11.39% in September 2026",
+     "value": "11.39%",
+     "period": "September 2026",
+     "period_end": "2026-09-30",
+     "publisher": "Office of the Economic Adviser",
+     "series": "WPI",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Argentina | 1,811.3 | 80.4 | 0.9 |",
+     "value": "1,811.3%",
+     "period": "2020 to 2025",
+     "period_end": "2025-12-31",
+     "publisher": "World Bank",
+     "series": "Inflation, consumer prices (annual %)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "India | 27.4 | 5.0 | 14.5 |",
+     "value": "27.4%",
+     "period": "2020 to 2025",
+     "period_end": "2025-12-31",
+     "publisher": "World Bank",
+     "series": "Inflation, consumer prices (annual %)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "United States | 21.2 | 4.9 | 14.6 |",
+     "value": "21.2%",
+     "period": "2020 to 2024",
+     "period_end": "2024-12-31",
+     "publisher": "World Bank",
+     "series": "Inflation, consumer prices (annual %)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "China | 3.5 | 0.7 | 103.4 |",
+     "value": "3.5%",
+     "period": "2020 to 2025",
+     "period_end": "2025-12-31",
+     "publisher": "World Bank",
+     "series": "Inflation, consumer prices (annual %)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "India | 3.7 | 6.6 | 5.1 | 6.7 | 5.7 | 5.0 | 2.4 |",
+     "value": "3.7%",
+     "period": "2019",
+     "period_end": "2019-12-31",
+     "publisher": "World Bank",
+     "series": "Inflation, consumer prices (annual %)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "EU-27 annual average, 2025 | 2.5 |",
+     "value": "2.5%",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "Eurostat",
+     "series": "HICP-based annual inflation, EU-27",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "EU-27 historical peak, 2022 | 9.2 |",
+     "value": "9.2%",
+     "period": "2022",
+     "period_end": "2022-12-31",
+     "publisher": "Eurostat",
+     "series": "HICP-based annual inflation, EU-27",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Highest member state, 2025 (Romania) | 6.8 |",
+     "value": "6.8%",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "Eurostat",
+     "series": "HICP-based annual inflation, EU-27",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Lowest member state, 2025 (Cyprus) | 0.8 |",
+     "value": "0.8%",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "Eurostat",
+     "series": "HICP-based annual inflation, EU-27",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Insurance & financial services, 2025 (highest-rising category) | 5.3 |",
+     "value": "5.3%",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "Eurostat",
+     "series": "HICP-based annual inflation, EU-27",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Education services, 2025 | 4.7 |",
+     "value": "4.7%",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "Eurostat",
+     "series": "HICP-based annual inflation, EU-27",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Information & communication, 2025 (only category falling) | −1.7 |",
+     "value": "-1.7%",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "Eurostat",
+     "series": "HICP-based annual inflation, EU-27",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Brazil | 29.2 | 17.8 | 35.4 | 14.1 | −6.3 | 2.2 | 47.9 | 3.0 | +2.5 Jun |",
+     "value": "29.2%",
+     "period": "2019",
+     "period_end": "2019-12-31",
+     "publisher": "World Bank",
+     "series": "Global Database of Inflation, producer price inflation",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "India | 1.9 | 0.5 | 10.8 | 12.2 | 3.3 | 1.7 | 30.7 | 0.9 | +8.3 Apr |",
+     "value": "1.9%",
+     "period": "2019",
+     "period_end": "2019-12-31",
+     "publisher": "World Bank",
+     "series": "Global Database of Inflation, producer price inflation",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "January | +2.4 | +1.9 | — | +2.4 | −1.9 | −4.4 |",
+     "value": "+2.4%",
+     "period": "January 2026",
+     "period_end": "2026-01-31",
+     "publisher": "US Bureau of Labor Statistics",
+     "series": "PPI All Commodities",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "February | +3.9 | +2.5 | — | +2.1 | −2.7 | −4.4 |",
+     "value": "+3.9%",
+     "period": "February 2026",
+     "period_end": "2026-02-28",
+     "publisher": "US Bureau of Labor Statistics",
+     "series": "PPI All Commodities",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "March | +6.8 | +4.2 | — | +2.9 | +1.6 | −1.6 |",
+     "value": "+6.8%",
+     "period": "March 2026",
+     "period_end": "2026-03-31",
+     "publisher": "US Bureau of Labor Statistics",
+     "series": "PPI All Commodities",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "April | +9.4 | +7.2 | +8.3 | +5.4 | +4.1 | +1.1 |",
+     "value": "+9.4%",
+     "period": "April 2026",
+     "period_end": "2026-04-30",
+     "publisher": "US Bureau of Labor Statistics",
+     "series": "PPI All Commodities",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "May | +12.3 | +8.6 | — | +6.6 | +4.9 | +2.0 |",
+     "value": "+12.3%",
+     "period": "May 2026",
+     "period_end": "2026-05-31",
+     "publisher": "US Bureau of Labor Statistics",
+     "series": "PPI All Commodities",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "June | +10.1 | +8.6 | — | +7.1 | +4.2 | +2.5 |",
+     "value": "+10.1%",
+     "period": "June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "US Bureau of Labor Statistics",
+     "series": "PPI All Commodities",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "OECD area headline inflation, Q4 2025 | 3.7% |",
+     "value": "3.7%",
+     "period": "Q4 2025",
+     "period_end": "2025-12-31",
+     "publisher": "OECD",
+     "series": "OECD Wage Bulletin",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "Down from its Q3 2022 peak of | 10.4% (less than half) |",
+     "value": "10.4%",
+     "period": "Q3 2022",
+     "period_end": "2022-09-30",
+     "publisher": "OECD",
+     "series": "OECD Wage Bulletin",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "Average real wage growth across 37 OECD countries, Q3 2025 | 1.8% (half the Q3 2024 pace) |",
+     "value": "1.8%",
+     "period": "Q3 2025",
+     "period_end": "2025-09-30",
+     "publisher": "OECD",
+     "series": "OECD Wage Bulletin",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "OECD countries where real wages are still below Q1 2021 levels | 19 of 37 — half |",
+     "value": "19 of 37",
+     "period": "Q3 2025",
+     "period_end": "2025-09-30",
+     "publisher": "OECD",
+     "series": "OECD Wage Bulletin",
+     "frequency": "quarterly",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "Cumulative consumer price rise, 2020 to 2025: Argentina 1,811.3%, Brazil 35.7%, Mexico 30.8%, South Africa 28.0%, India 27.4%, United Kingdom 26.7%, Euro area 23.6%, Australia 22.9%, Germany 21.9%, United States 21.2%.",
+     "value": "1,811.3% (Argentina), 35.7% (Brazil), 30.8% (Mexico), 28.0% (South Africa), 27.4% (India), 26.7% (UK), 23.6% (Euro area), 22.9% (Australia), 21.9% (Germany), 21.2% (US)",
+     "period": "2020 to 2025",
+     "period_end": "2025-12-31",
+     "publisher": "World Bank",
+     "series": "Inflation, consumer prices (annual %) (FP.CPI.TOTL.ZG)",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "+3.5% Total Chinese consumer price rise over the five years to 2025",
+     "value": "3.5%",
+     "period": "2020 to 2025",
+     "period_end": "2025-12-31",
+     "publisher": "World Bank",
+     "series": "Inflation, consumer prices (annual %) (FP.CPI.TOTL.ZG)",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "+35.7% Brazil, the same five years — ten times China’s",
+     "value": "35.7%",
+     "period": "2020 to 2025",
+     "period_end": "2025-12-31",
+     "publisher": "World Bank",
+     "series": "Inflation, consumer prices (annual %) (FP.CPI.TOTL.ZG)",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "+47.9% Brazilian producer prices over four years, the steepest here",
+     "value": "47.9%",
+     "period": "2021 to 2024",
+     "period_end": "2024-12-31",
+     "publisher": "World Bank",
+     "series": "Global Database of Inflation (Ha, Kose & Ohnsorge), producer price inflation",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "+12.3% US producer inflation, May 2026",
+     "value": "12.3%",
+     "period": "May 2026",
+     "period_end": "2026-05-31",
+     "publisher": "US Bureau of Labor Statistics (BLS)",
+     "series": "Producer Price Index by Commodity: All Commodities (PPIACO)",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "wholesale inflation was reported at 9.92% in August and 11.39% in September 2026",
+     "value": "9.92% (August 2026), 11.39% (September 2026)",
+     "period": "August 2026, September 2026",
+     "period_end": "2026-09-30",
+     "publisher": "Office of the Economic Adviser, DPIIT",
+     "series": "Wholesale Price Index (WPI) base 2022-23",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "CPI-U rose 3.7% in the year to September 2026; prices rose 0.6% in September, with gasoline up 9.1% in that month.",
+     "value": "3.7% (year-to-September 2026), 0.6% (September 2026), 9.1% (gasoline, September 2026)",
+     "period": "Year-to-September 2026, September 2026",
+     "period_end": "2026-09-30",
+     "publisher": "US Bureau of Labor Statistics (BLS)",
+     "series": "Consumer Price Index (CPI-U)",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "final-demand producer prices up 5.4% in the year to August 2026, with energy up 24.4%.",
+     "value": "5.4% (year-to-August 2026), 24.4% (energy, year-to-August 2026)",
+     "period": "Year-to-August 2026",
+     "period_end": "2026-08-31",
+     "publisher": "US Bureau of Labor Statistics (BLS)",
+     "series": "Producer Price Index (PPI) final-demand",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "India’s 2019 consumer inflation was 3.7%, not 7.7%.",
+     "value": "3.7%",
+     "period": "2019",
+     "period_end": "2019-12-31",
+     "publisher": "World Bank",
+     "series": "Inflation, consumer prices (annual %) (FP.CPI.TOTL.ZG)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "India’s producer-side acceleration has continued since the April print of 8.3%.",
+     "value": "8.3%",
+     "period": "April 2026",
+     "period_end": "2026-04-30",
+     "publisher": "Office of the Economic Adviser, DPIIT",
+     "series": "Wholesale Price Index (WPI) base 2022-23",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "India’s 2025 reading of 2.4% is the first genuinely low print of the period.",
+     "value": "2.4%",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "World Bank",
+     "series": "Inflation, consumer prices (annual %) (FP.CPI.TOTL.ZG)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "EU-27 annual average, 2025: 2.5%. Highest member state, 2025 (Romania): 6.8%. Lowest member state, 2025 (Cyprus): 0.8%.",
+     "value": "2.5% (EU-27), 6.8% (Romania), 0.8% (Cyprus)",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "Eurostat",
+     "series": "HICP-based annual inflation, EU-27",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Insurance & financial services, 2025 (highest-rising category): 5.3%. Education services, 2025: 4.7%. Information & communication, 2025 (only category falling): −1.7%.",
+     "value": "5.3% (insurance & financial services), 4.7% (education services), −1.7% (information & communication)",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "Eurostat",
+     "series": "HICP-based annual inflation, EU-27",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Cumulative producer price inflation over the four years to 2024: Brazil 47.9%, South Africa 34.7%, India 30.7%, Germany 29.4%, United States 22.4%, Japan 21.6%, Korea 19.6%.",
+     "value": "47.9% (Brazil), 34.7% (South Africa), 30.7% (India), 29.4% (Germany), 22.4% (US), 21.6% (Japan), 19.6% (Korea)",
+     "period": "2021 to 2024",
+     "period_end": "2024-12-31",
+     "publisher": "World Bank",
+     "series": "Global Database of Inflation (Ha, Kose & Ohnsorge), producer price inflation",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Producer prices accelerating again through the first half of 2026: US PPI +12.3% (May), Korea PPI +8.6% (May), India WPI +8.3% (April), Japan PPI +7.1% (June), Euro area PPI +4.9% (May).",
+     "value": "12.3% (US, May 2026), 8.6% (Korea, May 2026), 8.3% (India, April 2026), 7.1% (Japan, June 2026), 4.9% (Euro area, May 2026)",
+     "period": "Jan-Jun 2026",
+     "period_end": "2026-06-30",
+     "publisher": "Various (BLS, Bank of Japan, Bank of Korea, Eurostat, Office of the Economic Adviser)",
+     "series": "Producer Price Index (PPI) / Wholesale Price Index (WPI)",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "OECD area headline inflation, Q4 2025: 3.7%. Down from its Q3 2022 peak of 10.4%.",
+     "value": "3.7% (Q4 2025), 10.4% (Q3 2022)",
+     "period": "Q4 2025, Q3 2022",
+     "period_end": "2025-12-31, 2022-09-30",
+     "publisher": "OECD",
+     "series": "Wage Bulletin findings, headline inflation",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "Average real wage growth across 37 OECD countries, Q3 2025: 1.8%.",
+     "value": "1.8%",
+     "period": "Q3 2025",
+     "period_end": "2025-09-30",
+     "publisher": "OECD",
+     "series": "Wage Bulletin findings, real wage growth",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "OECD countries where real wages are still below Q1 2021 levels: 19 of 37.",
+     "value": "19 of 37",
+     "period": "Q3 2025",
+     "period_end": "2025-09-30",
+     "publisher": "OECD",
+     "series": "Wage Bulletin findings, real wage levels",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "Countries more than 2% below Q1 2021 real wages: Australia, New Zealand, Denmark, Estonia, Finland, Sweden, Czechia, Slovak Republic, Italy, Spain.",
+     "value": "Australia, New Zealand, Denmark, Estonia, Finland, Sweden, Czechia, Slovak Republic, Italy, Spain",
+     "period": "Q3 2025",
+     "period_end": "2025-09-30",
+     "publisher": "OECD",
+     "series": "Wage Bulletin findings, real wage decline",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "Weakest real-wage recovery from the cost-of-living trough: New Zealand (10% recovered), Australia (16%).",
+     "value": "10% (New Zealand), 16% (Australia)",
+     "period": "Q3 2025",
+     "period_end": "2025-09-30",
+     "publisher": "OECD",
+     "series": "Wage Bulletin findings, real wage recovery",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "India’s 2021–2024 consumer inflation between 5% and 6.7% for four consecutive years.",
+     "value": "5% to 6.7%",
+     "period": "2021 to 2024",
+     "period_end": "2024-12-31",
+     "publisher": "World Bank",
+     "series": "Inflation, consumer prices (annual %) (FP.CPI.TOTL.ZG)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Brazil’s producer prices rose 11.1% in 2020, peaked at +31.6% in 2021.",
+     "value": "11.1% (2020), 31.6% (2021)",
+     "period": "2020, 2021",
+     "period_end": "2020-12-31, 2021-12-31",
+     "publisher": "World Bank",
+     "series": "Global Database of Inflation (Ha, Kose & Ohnsorge), producer price inflation",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "China’s producer prices fell −3.0% and −2.2% in consecutive years.",
+     "value": "−3.0%, −2.2%",
+     "period": "2022, 2023",
+     "period_end": "2023-12-31",
+     "publisher": "World Bank",
+     "series": "Global Database of Inflation (Ha, Kose & Ohnsorge), producer price inflation",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "OECD area headline inflation, Q3 2022 peak: 10.4%.",
+     "value": "10.4%",
+     "period": "Q3 2022",
+     "period_end": "2022-09-30",
+     "publisher": "OECD",
+     "series": "Wage Bulletin findings, headline inflation",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "Average real wage growth across 37 OECD countries, Q3 2024: pace not specified but referenced.",
+     "value": "Not specified (referenced as half of Q3 2025 pace)",
+     "period": "Q3 2024",
+     "period_end": "2024-09-30",
+     "publisher": "OECD",
+     "series": "Wage Bulletin findings, real wage growth",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "Japan’s highest reading of the whole period is 3.3% in 2023.",
+     "value": "3.3%",
+     "period": "2023",
+     "period_end": "2023-12-31",
+     "publisher": "World Bank",
+     "series": "Inflation, consumer prices (annual %) (FP.CPI.TOTL.ZG)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "India’s producer-consumer gap over five years is the narrowest in this comparison at 4.2 points.",
+     "value": "4.2 points",
+     "period": "2020 to 2025",
+     "period_end": "2025-12-31",
+     "publisher": "Author’s calculation",
+     "series": "Producer vs. Consumer Price Inflation Gap",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "S&P Global reports the US recording ‘the steepest rise in selling prices among advanced economies’ in July.",
+     "value": "Steepest rise (qualitative, no exact figure)",
+     "period": "July 2026",
+     "period_end": "2026-07-31",
+     "publisher": "S&P Global Market Intelligence",
+     "series": "Purchasing Managers’ Index (PMI) commentary",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Brazil still the steepest but cooling to a four-month low, mainland China the weakest, and faster rates of inflation in Russia and India.",
+     "value": "Steepest (Brazil), weakest (China), faster rates (Russia, India)",
+     "period": "July 2026",
+     "period_end": "2026-07-31",
+     "publisher": "S&P Global Market Intelligence",
+     "series": "Purchasing Managers’ Index (PMI) commentary",
+     "frequency": "monthly",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,240 @@
+{
+ "slug": "india-pays-5-8-billion-year-to-ship-its",
+ "text_sha1": "5c65e2c3e634b5a4",
+ "chars": 10459,
+ "checked": "2026-10-23T13:31:59",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "$150bn+ Value of India's crude and gas imports, entirely seaborne — ~28% of India's total trade by volume",
+     "value": "$150 billion+",
+     "period": "November 2025",
+     "period_end": "2025-11-30",
+     "publisher": "PIB / ministry",
+     "series": "Crude and gas imports value",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "~28% of India's total trade by volume",
+     "value": "28 per cent",
+     "period": "November 2025",
+     "period_end": "2025-11-30",
+     "publisher": "PIB / ministry",
+     "series": "Oil and gas sector share of total trade by volume",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "~20% Share of that oil-and-gas cargo carried on Indian-flagged or Indian-owned vessels",
+     "value": "20 per cent",
+     "period": "November 2025",
+     "period_end": "2025-11-30",
+     "publisher": "PIB / ministry",
+     "series": "Share of oil-and-gas cargo on Indian-flagged or owned vessels",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "$5-8bn/yr What India spends annually on freight for its energy imports, per the Petroleum Minister",
+     "value": "$5-8 billion a year",
+     "period": "November 2025",
+     "period_end": "2025-11-30",
+     "publisher": "PIB / ministry",
+     "series": "Annual freight spend for energy imports",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "1,500 → 2,500 India's targeted commercial fleet size under the Maritime Amrit Kaal Vision, with a stated $24bn investment",
+     "value": "1,500 to 2,500 vessels",
+     "period": "November 2025",
+     "period_end": "2025-11-30",
+     "publisher": "PIB / ministry",
+     "series": "Commercial fleet size target under Maritime Amrit Kaal Vision",
+     "frequency": "multi-year",
+     "headline": true
+    },
+    {
+     "quote": "stated $24bn investment",
+     "value": "$24 billion",
+     "period": "November 2025",
+     "period_end": "2025-11-30",
+     "publisher": "PIB / ministry",
+     "series": "Maritime Amrit Kaal Vision investment",
+     "frequency": "multi-year",
+     "headline": true
+    },
+    {
+     "quote": "Indian-flagged vessels carry only around 4-5 per cent of India's overall overseas cargo, across all commodities",
+     "value": "4-5 per cent",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "PIB / ministry",
+     "series": "Indian-flagged carriage share across all trade",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "including a separately announced $8 billion specifically earmarked for fleet expansion",
+     "value": "$8 billion",
+     "period": "November 2025",
+     "period_end": "2025-11-30",
+     "publisher": "PIB / ministry",
+     "series": "Fleet expansion allocation",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "Indian public-sector undertakings alone could procure as many as 59 crude, LNG and ethane vessels",
+     "value": "59 vessels",
+     "period": "November 2025",
+     "period_end": "2025-11-30",
+     "publisher": "PIB / ministry",
+     "series": "PSU crude, LNG and ethane vessel procurement",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "ONGC's own projected need for close to 100 offshore service and platform-supply vessels by 2034",
+     "value": "100 vessels",
+     "period": "2034",
+     "period_end": "2034-12-31",
+     "publisher": "PIB / ministry",
+     "series": "ONGC offshore service and platform-supply requirement",
+     "frequency": "multi-year",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "$150bn+ Value of India's crude and gas imports, entirely seaborne — ~28% of India's total trade by volume",
+     "value": "$150 billion+",
+     "period": "annual",
+     "period_end": "2025-12-31",
+     "publisher": "MoPNG / PIB",
+     "series": "India's crude and gas import value and trade-by-volume share",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "nearly 28 per cent of India's total trade by volume",
+     "value": "28%",
+     "period": "annual",
+     "period_end": "2025-12-31",
+     "publisher": "MoPNG / PIB",
+     "series": "India's total trade by volume share of oil and gas",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "only around a fifth of that cargo travels on a vessel India flags or owns",
+     "value": "20%",
+     "period": null,
+     "period_end": null,
+     "publisher": "MoPNG / PIB",
+     "series": "Indian-flagged/Indian-owned share of oil-and-gas cargo",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "India's crude and gas imports are worth over $150 billion a year",
+     "value": "$150 billion+",
+     "period": "annual",
+     "period_end": "2025-12-31",
+     "publisher": "MoPNG / PIB",
+     "series": "India's crude and gas import value",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "India's own freight bill for that exposure runs to $5 billion to $8 billion a year",
+     "value": "$5-8 billion",
+     "period": "annual",
+     "period_end": "2025-12-31",
+     "publisher": "MoPNG / PIB",
+     "series": "India's annual freight bill for oil and gas imports",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "India plans to grow its commercial fleet from 1,500 to 2,500 vessels",
+     "value": "1,500 → 2,500",
+     "period": null,
+     "period_end": null,
+     "publisher": "HD Hyundai (as per PIB release)",
+     "series": "India's commercial fleet size target under Maritime Amrit Kaal Vision",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "including a separately announced $8 billion specifically earmarked for fleet expansion",
+     "value": "$8 billion",
+     "period": null,
+     "period_end": null,
+     "publisher": "HD Hyundai (as per PIB release)",
+     "series": "Fleet expansion investment under Maritime Amrit Kaal Vision",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Indian public-sector undertakings alone could procure as many as 59 crude, LNG and ethane vessels",
+     "value": "59 vessels",
+     "period": null,
+     "period_end": null,
+     "publisher": "MoPNG / PIB",
+     "series": "PSU procurement target for crude/LNG/ethane vessels",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "ONGC's own projected need for close to 100 offshore service and platform-supply vessels by 2034",
+     "value": "~100 vessels",
+     "period": "by 2034",
+     "period_end": "2034-12-31",
+     "publisher": "MoPNG / PIB",
+     "series": "ONGC's offshore service and platform-supply vessel requirement",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "nearly 20% of global vessels expected to either come to or go from India in the next 15 years",
+     "value": "20%",
+     "period": "next 15 years",
+     "period_end": "2040-12-31",
+     "publisher": "MoPNG / PIB",
+     "series": "India's projected share of global vessel traffic",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "HD Hyundai is to hold the largest stake and run operations [at a $4 billion yard at Thoothukudi]",
+     "value": "$4 billion",
+     "period": null,
+     "period_end": null,
+     "publisher": "Korea Times, IANS",
+     "series": "Proposed shipbuilding yard investment at Thoothukudi",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India's Maritime Amrit Kaal Vision, the government's long-horizon plan to expand India's commercial fleet, build up domestic shipbuilding capacity, and improve competitiveness across ship operations, shipyards and maritime-plant manufacturing",
+     "value": "$24 billion",
+     "period": null,
+     "period_end": null,
+     "publisher": "HD Hyundai (as per PIB release)",
+     "series": "Maritime Amrit Kaal Vision investment",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

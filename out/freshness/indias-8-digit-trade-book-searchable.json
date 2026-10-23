@@ -1,0 +1,460 @@
+{
+ "slug": "indias-8-digit-trade-book-searchable",
+ "text_sha1": "95cdf97b70f1bd66",
+ "chars": 11242,
+ "checked": "2026-10-23T13:50:59",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "31.8% \n Exports, HS8 \n ~39% \n Imports, HS8 \n <1% \n Both, HS4 heading",
+     "value": "31.8%",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TradeStat EIDB",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "~39% \n Imports, HS8",
+     "value": "~39%",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TradeStat EIDB",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "<1% \n Both, HS4 heading",
+     "value": "<1%",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TradeStat EIDB",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "7,786 HSN-8 commodity lines — every code India traded above $1 million in 2025-26",
+     "value": "7,786",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TradeStat EIDB",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "31.8 per cent of 2025-26 export value sits on codes that did not exist in 2017-18",
+     "value": "31.8 per cent",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TradeStat EIDB",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "import side it is worse still at about 39 per cent.",
+     "value": "about 39 per cent",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TradeStat EIDB",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Smartphones are the clearest case: the largest single export line in the country, $29.4 billion, on a code that begins in 2022-23.",
+     "value": "$29.4 billion",
+     "period": "2022-23",
+     "period_end": "2023-03-31",
+     "publisher": "DGCI&S",
+     "series": "TradeStat EIDB",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Petroleum crude is labelled KGS throughout while its implied unit value moves from 316.1 to 0.5 dollars per “kilogramme”.",
+     "value": "316.1 to 0.5 dollars per kilogramme",
+     "period": "FY2017-18 to FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TradeStat EIDB",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "71023910 — cut diamonds, $23.5 billion to $12.1 billion on a code that never changed.",
+     "value": "$23.5 billion to $12.1 billion",
+     "period": "FY2017-18 to FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TradeStat EIDB",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "03061790 then 03061720 — “other shrimps” falling 95 per cent while Vannamei shrimp appears from nothing.",
+     "value": "95 per cent",
+     "period": "FY2017-18 to FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TradeStat EIDB",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "85423100 — monolithic digital ICs. $17.5 billion of imports against $160 million of exports",
+     "value": "$17.5 billion",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TradeStat EIDB",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "$17.5 billion of imports against $160 million of exports",
+     "value": "$160 million",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TradeStat EIDB",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "dressed human hair looks outstanding here and turns out to send 75.8 per cent of its value to a single destination.",
+     "value": "75.8 per cent",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TradeStat commodity-wise all-countries export report",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "The dataset behind this page is a single JSON file, about two megabytes",
+     "value": "about two megabytes",
+     "period": "2026",
+     "period_end": "2026-08-23",
+     "publisher": "herrrickshaw.github.io",
+     "series": "trade8.json",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The dashboard holds every code with more than $1 million of trade in FY2025-26 on either side — 7,786 of roughly 12,700 codes in the source.",
+     "value": "7,786",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TradeStat EIDB",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "7,786 of roughly 12,700 codes in the source.",
+     "value": "roughly 12,700 codes",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TradeStat EIDB",
+     "frequency": "annual",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "every code India traded above $1 million in 2025-26, in either direction.",
+     "value": "7,786 HSN-8 commodity lines",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TradeStat EIDB (commodity-wise export/import reports, 8-digit HS level)",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "31.8 per cent of 2025-26 export value sits on codes that did not exist in 2017-18",
+     "value": "31.8%",
+     "period": "FY2025-26 (exports)",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S (audit by blog)",
+     "series": "HS8 codes churn analysis (FY2017-18 to FY2025-26)",
+     "frequency": "multi-year",
+     "headline": true
+    },
+    {
+     "quote": "on the import side it is worse still at about 39 per cent.",
+     "value": "~39%",
+     "period": "FY2025-26 (imports)",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S (audit by blog)",
+     "series": "HS8 codes churn analysis (FY2017-18 to FY2025-26)",
+     "frequency": "multi-year",
+     "headline": true
+    },
+    {
+     "quote": "the largest single export line in the country, $29.4 billion, on a code that begins in 2022-23.",
+     "value": "$29.4 billion",
+     "period": "FY2025-26 (smartphones export)",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TradeStat EIDB (HS8 commodity-wise exports)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "cut diamonds, $23.5 billion to $12.1 billion on a code that never changed.",
+     "value": "$23.5 billion → $12.1 billion",
+     "period": "FY2017-18 to FY2025-26 (code 71023910)",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TradeStat EIDB (HS8 commodity-wise exports)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "$17.5 billion of imports against $160 million of exports, the single largest one-directional dependency in the data.",
+     "value": "$17.5 billion (imports) vs. $160 million (exports)",
+     "period": "FY2025-26 (code 85423100)",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TradeStat EIDB (HS8 commodity-wise trade)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Petroleum crude is labelled KGS throughout while its implied unit value moves from 316.1 to 0.5 dollars per “kilogramme”",
+     "value": "$316.1 → $0.5 per kg",
+     "period": "FY2017-18 to FY2025-26 (code 27090010)",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S (audit by blog)",
+     "series": "TradeStat EIDB (HS8 commodity-wise imports)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Codes below that threshold are omitted for file size and carry a negligible share of total trade.",
+     "value": "~12,700 total codes",
+     "period": null,
+     "period_end": null,
+     "publisher": "DGCI&S",
+     "series": "TradeStat EIDB (HS8 commodity-wise trade)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "dressed human hair looks outstanding here and turns out to send 75.8 per cent of its value to a single destination.",
+     "value": "75.8%",
+     "period": "FY2025-26 (dressed human hair exports)",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TradeStat EIDB (commodity-wise all-countries export report)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "the export series has no FY2021-22; that gap is drawn as a break rather than interpolated.",
+     "value": "FY2021-22 missing",
+     "period": "FY2021-22 (exports)",
+     "period_end": "2021-03-31",
+     "publisher": "DGCI&S",
+     "series": "TradeStat EIDB (commodity-wise exports)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Aggregating 8-digit codes up to the 4-digit HS heading removes almost all the churn",
+     "value": "<1%",
+     "period": "FY2017-18 to FY2025-26 (HS4 heading aggregation)",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S (audit by blog)",
+     "series": "HS4 heading churn analysis",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "HS8 codes churn by a third; HS4 headings barely move.",
+     "value": "~31.8% (HS8) vs. <1% (HS4)",
+     "period": "FY2017-18 to FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S (audit by blog)",
+     "series": "TradeStat EIDB (HS8/HS4 churn analysis)",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "Retired DGCI&S marks the commodity name with an asterisk. It is a weak marker — it catches only about a quarter of codes that actually stop trading, and 46 asterisked codes still carry value",
+     "value": "~25% coverage; 46 codes still active",
+     "period": null,
+     "period_end": null,
+     "publisher": "DGCI&S",
+     "series": "TradeStat EIDB (RETIRED flag)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "the sparkline spans FY2017-18 to FY2025-26, scaled to each row’s own maximum.",
+     "value": "FY2017-18 to FY2025-26",
+     "period": "FY2017-18 to FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TradeStat EIDB (8-year sparkline)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "85423100 — monolithic digital ICs. $17.5 billion of imports against $160 million of exports",
+     "value": "$17.5 billion (imports)",
+     "period": "FY2025-26 (code 85423100)",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TradeStat EIDB (HS8 commodity-wise trade)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "03061790 then 03061720 — “other shrimps” falling 95 per cent while Vannamei shrimp appears from nothing.",
+     "value": "95% drop (03061790) / new code (03061720)",
+     "period": "FY2017-18 to FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TradeStat EIDB (HS8 commodity-wise trade)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "India’s biggest import line and the least usable series in the file.",
+     "value": "27090010 (crude petroleum)",
+     "period": "FY2017-18 to FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TradeStat EIDB (HS8 commodity-wise imports)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "the export series has no FY2021-22; that gap is drawn as a break rather than interpolated.",
+     "value": "FY2021-22 gap",
+     "period": "FY2021-22",
+     "period_end": "2021-03-31",
+     "publisher": "DGCI&S",
+     "series": "TradeStat EIDB (commodity-wise exports)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "the implied unit value jumps by more than 300× between adjacent years, the tonnes-to-kilogrammes signature.",
+     "value": ">300× jump",
+     "period": "FY2017-18 to FY2025-26 (unit change)",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S (audit by blog)",
+     "series": "TradeStat EIDB (unit-value anomalies)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Unit-value changes shown in the table are capped: anything outside a factor of eight over eight years is left blank.",
+     "value": "Factor of 8 cap",
+     "period": "FY2017-18 to FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S (blog analysis)",
+     "series": "TradeStat EIDB (unit-value adjustments)",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "the export series has no FY2021-22; that gap is drawn as a break rather than interpolated.",
+     "value": "FY2021-22 missing",
+     "period": "FY2021-22",
+     "period_end": "2021-03-31",
+     "publisher": "DGCI&S",
+     "series": "TradeStat EIDB (commodity-wise exports)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "the largest single export line in the country, $29.4 billion, on a code that begins in 2022-23.",
+     "value": "$29.4 billion (smartphones)",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TradeStat EIDB (HS8 commodity-wise exports)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "the export series has no FY2021-22; that gap is drawn as a break rather than interpolated.",
+     "value": "FY2021-22 missing",
+     "period": "FY2021-22",
+     "period_end": "2021-03-31",
+     "publisher": "DGCI&S",
+     "series": "TradeStat EIDB (commodity-wise exports)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "the sparkline spans FY2017-18 to FY2025-26, scaled to each row’s own maximum.",
+     "value": "FY2017-18 to FY2025-26",
+     "period": "FY2017-18 to FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TradeStat EIDB (8-year sparkline)",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "Codes below that threshold are omitted for file size and carry a negligible share of total trade.",
+     "value": "~12,700 total codes",
+     "period": null,
+     "period_end": null,
+     "publisher": "DGCI&S",
+     "series": "TradeStat EIDB (HS8 commodity-wise trade)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "the export series has no FY2021-22; that gap is drawn as a break rather than interpolated.",
+     "value": "FY2021-22 missing",
+     "period": "FY2021-22",
+     "period_end": "2021-03-31",
+     "publisher": "DGCI&S",
+     "series": "TradeStat EIDB (commodity-wise exports)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "the export series has no FY2021-22; that gap is drawn as a break rather than interpolated.",
+     "value": "FY2021-22 missing",
+     "period": "FY2021-22",
+     "period_end": "2021-03-31",
+     "publisher": "DGCI&S",
+     "series": "TradeStat EIDB (commodity-wise exports)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "the export series has no FY2021-22; that gap is drawn as a break rather than interpolated.",
+     "value": "FY2021-22 missing",
+     "period": "FY2021-22",
+     "period_end": "2021-03-31",
+     "publisher": "DGCI&S",
+     "series": "TradeStat EIDB (commodity-wise exports)",
+     "frequency": "annual",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

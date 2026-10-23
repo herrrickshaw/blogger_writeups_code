@@ -1,0 +1,260 @@
+{
+ "slug": "a-textile-sez-built-to-re-employ-mill",
+ "text_sha1": "06c224b632c242a5",
+ "chars": 8864,
+ "checked": "2026-10-23T10:24:42",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "38.04 ha original notified area, 2007",
+     "value": "38.04 ha",
+     "period": "2007",
+     "period_end": "2007-12-31",
+     "publisher": "PIB / ministry",
+     "series": "GIDC Apparel Park SEZ Notified Area",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "4.82 ha resultant area after this de-notification, 2026",
+     "value": "4.82 ha",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "PIB / ministry",
+     "series": "GIDC Apparel Park SEZ Notified Area",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "87% of the original area de-notified since 2007",
+     "value": "87%",
+     "period": "2007-2026",
+     "period_end": "2026-08-31",
+     "publisher": "PIB / ministry",
+     "series": "GIDC Apparel Park SEZ De-notification Share",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "2 de-notifications, both in the last two years (2024, 2026)",
+     "value": "2",
+     "period": "2024, 2026",
+     "period_end": "2026-12-31",
+     "publisher": "PIB / ministry",
+     "series": "GIDC Apparel Park SEZ De-notifications Count",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "On 31 August 2026, the Ministry of Commerce and Industry de-notified another 5.6 hectares",
+     "value": "5.6 hectares",
+     "period": "31 August 2026",
+     "period_end": "2026-08-31",
+     "publisher": "PIB / ministry",
+     "series": "SEZ De-notification Order",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "38.043 ha",
+     "value": "38.043 ha",
+     "period": "2007",
+     "period_end": "2007-12-31",
+     "publisher": "PIB / ministry",
+     "series": "S.O. 543(E)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "De-notified 17.6264 ha",
+     "value": "17.6264 ha",
+     "period": "28 Aug 2024",
+     "period_end": "2024-08-28",
+     "publisher": "PIB / ministry",
+     "series": "S.O. 3639(E)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "~20.45 ha",
+     "value": "~20.45 ha",
+     "period": "28 Aug 2024",
+     "period_end": "2024-08-28",
+     "publisher": "PIB / ministry",
+     "series": "S.O. 3639(E)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "De-notified 5.59989 ha",
+     "value": "5.59989 ha",
+     "period": "31 Aug 2026",
+     "period_end": "2026-08-31",
+     "publisher": "PIB / ministry",
+     "series": "S.O. 4849(E)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "~4.82 ha",
+     "value": "~4.82 ha",
+     "period": "31 Aug 2026",
+     "period_end": "2026-08-31",
+     "publisher": "PIB / ministry",
+     "series": "S.O. 4849(E)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "de-notified 22.767 hectares combined across an IT SEZ in Greater Noida, a solar-panel SEZ in Kerala, and an IT/ITES SEZ in Telangana.",
+     "value": "22.767 hectares",
+     "period": "recent batch",
+     "period_end": null,
+     "publisher": "PIB / ministry",
+     "series": "SEZ De-notification Batch",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "found only 15 operational, 29 yet to start any commercial activity, and 6 already de-notified",
+     "value": "15 operational, 29 yet to start, 6 de-notified",
+     "period": "2014",
+     "period_end": "2014-12-31",
+     "publisher": "PIB / ministry",
+     "series": "CAG SEZ Sample Review",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "38.04 ha original notified area, 2007",
+     "value": "38.04 hectares",
+     "period": "2007",
+     "period_end": "2007-12-31",
+     "publisher": "Ministry of Commerce and Industry",
+     "series": "SEZ notification (S.O. 543(E))",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "4.82 ha resultant area after this de-notification, 2026",
+     "value": "4.82 hectares",
+     "period": "2026",
+     "period_end": "2026-08-31",
+     "publisher": "Ministry of Commerce and Industry",
+     "series": "SEZ notification (S.O. 4849(E))",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "87% of the original area de-notified since 2007",
+     "value": "87%",
+     "period": "2007–2026",
+     "period_end": "2026-08-31",
+     "publisher": "Ministry of Commerce and Industry",
+     "series": "SEZ notification (S.O. 543(E), S.O. 3639(E), S.O. 4849(E))",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "2 de-notifications, both in the last two years (2024, 2026)",
+     "value": "2",
+     "period": "2024–2026",
+     "period_end": "2026-08-31",
+     "publisher": "Ministry of Commerce and Industry",
+     "series": "SEZ de-notification notifications",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "On 31 August 2026, the Ministry of Commerce and Industry de-notified another 5.6 hectares...",
+     "value": "5.59989 hectares",
+     "period": "31 August 2026",
+     "period_end": "2026-08-31",
+     "publisher": "Ministry of Commerce and Industry",
+     "series": "SEZ notification (S.O. 4849(E))",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "28 Aug 2024 | S.O. 3639(E) | De-notified 17.6264 ha",
+     "value": "17.6264 hectares",
+     "period": "28 August 2024",
+     "period_end": "2024-08-28",
+     "publisher": "Ministry of Commerce and Industry",
+     "series": "SEZ notification (S.O. 3639(E))",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "~20.45 ha resultant area after the 2024 de-notification",
+     "value": "20.45 hectares",
+     "period": "2024",
+     "period_end": "2024-08-28",
+     "publisher": "Ministry of Commerce and Industry",
+     "series": "SEZ notification (S.O. 3639(E))",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "a single recent batch of notifications... de-notified 22.767 hectares combined",
+     "value": "22.767 hectares",
+     "period": null,
+     "period_end": null,
+     "publisher": "Ministry of Commerce and Industry",
+     "series": "SEZ de-notification notifications (Ansal IT City, Carborundum Universal, Phoenix Living Spaces)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "A Comptroller and Auditor General review of a sample of 50 approved SEZs... found only 15 operational",
+     "value": "15 operational SEZs",
+     "period": "2014 (snapshot)",
+     "period_end": "2014-12-31",
+     "publisher": "CAG (Comptroller and Auditor General of India)",
+     "series": "Sample review of 50 approved SEZs",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "developer benefits under Section 10AA lapsed from April 2017",
+     "value": "April 2017",
+     "period": "April 2017",
+     "period_end": "2017-04-30",
+     "publisher": "Income Tax Act (Government of India)",
+     "series": "Section 10AA sunset clause",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "unit-holder benefits from April 2020 (extended to September 2020)",
+     "value": "April 2020 (extended to September 2020)",
+     "period": "April 2020–September 2020",
+     "period_end": "2020-09-30",
+     "publisher": "Income Tax Act (Government of India)",
+     "series": "Section 10AA sunset clause",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The zone did not become operational until 2013 — six years after its 2007 notification.",
+     "value": "2013",
+     "period": "2013",
+     "period_end": "2013-12-31",
+     "publisher": "Fibre2Fashion (trade coverage)",
+     "series": "SEZ operational timeline",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

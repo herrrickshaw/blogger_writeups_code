@@ -1,0 +1,360 @@
+{
+ "slug": "india-rewrote-its-entire-maritime-legal",
+ "text_sha1": "01965d16eada0dea",
+ "chars": 9388,
+ "checked": "2026-10-23T13:35:56",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "Indian-flagged ships still carry only about 5% of the country's own overseas trade.",
+     "value": "about 5%",
+     "period": null,
+     "period_end": null,
+     "publisher": "DG Shipping",
+     "series": "Indian Shipping Statistics",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "~5% share of India's overseas trade carried by Indian-flagged ships",
+     "value": "~5%",
+     "period": null,
+     "period_end": null,
+     "publisher": "DG Shipping",
+     "series": "Indian Shipping Statistics",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "$75bn India's estimated annual freight bill paid to foreign shipping lines",
+     "value": "$75bn",
+     "period": "annual",
+     "period_end": null,
+     "publisher": "DG Shipping",
+     "series": "Indian Shipping Statistics",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "16–20% extra cost of operating a ship under the Indian flag vs. a foreign one",
+     "value": "16–20%",
+     "period": null,
+     "period_end": null,
+     "publisher": "DG Shipping",
+     "series": "Indian Shipping Statistics",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "1,592 vessels, 14.02m GT — ~2% of world tonnage (Dec 2025)",
+     "value": "1,592 vessels",
+     "period": "Dec 2025",
+     "period_end": "2025-12-31",
+     "publisher": "DG Shipping",
+     "series": "Indian Shipping Statistics",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "1,592 vessels, 14.02m GT — ~2% of world tonnage (Dec 2025)",
+     "value": "14.02m GT",
+     "period": "Dec 2025",
+     "period_end": "2025-12-31",
+     "publisher": "DG Shipping",
+     "series": "Indian Shipping Statistics",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "1,592 vessels, 14.02m GT — ~2% of world tonnage (Dec 2025)",
+     "value": "~2%",
+     "period": "Dec 2025",
+     "period_end": "2025-12-31",
+     "publisher": "DG Shipping",
+     "series": "Indian Shipping Statistics",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Indian-flagged vessels carry only around 4–5% of the country's own overseas cargo.",
+     "value": "4–5%",
+     "period": null,
+     "period_end": null,
+     "publisher": "DG Shipping",
+     "series": "Indian Shipping Statistics",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "As of December 2025, India's shipping fleet stood at 1,592 vessels totalling 14.02 million gross tonnes",
+     "value": "1,592 vessels",
+     "period": "December 2025",
+     "period_end": "2025-12-31",
+     "publisher": "DG Shipping",
+     "series": "Indian Shipping Statistics",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "As of December 2025, India's shipping fleet stood at 1,592 vessels totalling 14.02 million gross tonnes",
+     "value": "14.02 million gross tonnes",
+     "period": "December 2025",
+     "period_end": "2025-12-31",
+     "publisher": "DG Shipping",
+     "series": "Indian Shipping Statistics",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "India pays close to $75 billion a year in freight to foreign shipping lines",
+     "value": "$75 billion a year",
+     "period": "annual",
+     "period_end": null,
+     "publisher": "DG Shipping",
+     "series": "Indian Shipping Statistics",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Operating a vessel under the Indian flag costs an estimated 16–20% more than operating the same vessel under a foreign flag.",
+     "value": "16–20%",
+     "period": null,
+     "period_end": null,
+     "publisher": "DG Shipping",
+     "series": "Indian Shipping Statistics",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "a $20 billion investment roadmap announced in 2025 covering shipping infrastructure",
+     "value": "$20 billion",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "PMIndia",
+     "series": "Investment roadmap",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "re-flagging 300 foreign-owned vessels under the Indian flag by 2030",
+     "value": "300 vessels",
+     "period": "by 2030",
+     "period_end": "2030-12-31",
+     "publisher": "Ministry of Ports, Shipping and Waterways",
+     "series": "Fleet targets",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "adding roughly 100 more ships to the merchant fleet over five years.",
+     "value": "100 ships",
+     "period": "over five years",
+     "period_end": null,
+     "publisher": "Ministry of Ports, Shipping and Waterways",
+     "series": "Fleet targets",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "the ₹25,000 crore Maritime Development Fund's Guidelines, approved by Cabinet on 24 September 2025",
+     "value": "₹25,000 crore",
+     "period": "24 September 2025",
+     "period_end": "2025-09-24",
+     "publisher": "Cabinet / MoPSW",
+     "series": "Maritime Development Fund Guidelines",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "Indian-flagged ships still carry only about 5% of the country's own overseas trade.",
+     "value": "5%",
+     "period": null,
+     "period_end": null,
+     "publisher": "DG Shipping (via ITLN, Marine Insight, Business Standard)",
+     "series": "Indian Shipping Statistics (share of overseas trade by flag)",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "~5% share of India's overseas trade carried by Indian-flagged ships",
+     "value": "~5%",
+     "period": null,
+     "period_end": null,
+     "publisher": null,
+     "series": null,
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "$75bn India's estimated annual freight bill paid to foreign shipping lines",
+     "value": "$75 billion/year",
+     "period": null,
+     "period_end": null,
+     "publisher": "DG Shipping (via ITLN, Marine Insight, Business Standard; ICRA March 2025)",
+     "series": "Indian Shipping Statistics (freight bill estimates)",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "1,592 vessels, 14.02m GT — ~2% of world tonnage (Dec 2025)",
+     "value": "1,592 vessels, 14.02 million gross tonnes (~2% of world tonnage)",
+     "period": "December 2025",
+     "period_end": "2025-12-31",
+     "publisher": "DG Shipping (via ITLN, Marine Insight, Business Standard)",
+     "series": "Indian Shipping Statistics (fleet size and tonnage)",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "~$75bn/year paid to foreign shipping lines",
+     "value": "~$75 billion/year",
+     "period": null,
+     "period_end": null,
+     "publisher": "DG Shipping (via ICRA March 2025 shipping-sector note)",
+     "series": "Freight bill estimates (annual)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "16–20% extra cost of operating a ship under the Indian flag vs. a foreign one",
+     "value": "16–20%",
+     "period": null,
+     "period_end": null,
+     "publisher": "DG Shipping (via ICRA March 2025 shipping-sector note)",
+     "series": "Flag cost differential estimates",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "a $20 billion investment roadmap announced in 2025 covering shipping infrastructure...",
+     "value": "$20 billion",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "PMIndia (via trade coverage)",
+     "series": "Shipping infrastructure investment roadmap",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "re-flagging 300 foreign-owned vessels under the Indian flag by 2030",
+     "value": "300 vessels (re-flagging target)",
+     "period": "by 2030",
+     "period_end": "2030-12-31",
+     "publisher": "PMIndia (via trade coverage)",
+     "series": "Shipping fleet re-flagging targets",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "adding roughly 100 more ships to the merchant fleet over five years",
+     "value": "~100 ships (five-year target)",
+     "period": "five years (post-2025)",
+     "period_end": null,
+     "publisher": "PMIndia (via trade coverage)",
+     "series": "Shipping fleet expansion targets",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹25,000 crore Maritime Development Fund's Guidelines, approved by Cabinet on 24 September 2025",
+     "value": "₹25,000 crore",
+     "period": "approved on 24 September 2025",
+     "period_end": "2025-09-24",
+     "publisher": "MoPSW (Ministry of Ports, Shipping and Waterways)",
+     "series": "Maritime Development Fund Guidelines",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Bills of Lading Act, 1856 (169 yrs) | Bills of Lading Act, 2025 | ... | Assent | 24 Jul 2025",
+     "value": "169 years (age of Bills of Lading Act, 1856)",
+     "period": "1856–2025",
+     "period_end": "2025-07-24",
+     "publisher": "PRS India / PIB",
+     "series": "Legislative age and assent dates",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Carriage of Goods by Sea Act, 1925 (100 yrs) | Carriage of Goods by Sea Act, 2025 | ... | Assent | 8 Aug 2025",
+     "value": "100 years (age of Carriage of Goods by Sea Act, 1925)",
+     "period": "1925–2025",
+     "period_end": "2025-08-08",
+     "publisher": "PRS India / PIB",
+     "series": "Legislative age and assent dates",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Merchant Shipping Act, 1958, Part XIV (67 yrs) | Coastal Shipping Act, 2025 | ... | Assent | 9 Aug 2025",
+     "value": "67 years (age of Merchant Shipping Act, 1958, Part XIV)",
+     "period": "1958–2025",
+     "period_end": "2025-08-09",
+     "publisher": "PRS India / PIB",
+     "series": "Legislative age and assent dates",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Merchant Shipping Act, 1958 (67 yrs) | Merchant Shipping Act, 2025 | ... | Assent | 18 Aug 2025",
+     "value": "67 years (age of Merchant Shipping Act, 1958)",
+     "period": "1958–2025",
+     "period_end": "2025-08-18",
+     "publisher": "PRS India / PIB",
+     "series": "Legislative age and assent dates",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Four Acts rewrote the legal code in five months.",
+     "value": "5 months (March–August 2025)",
+     "period": "March–August 2025",
+     "period_end": "2025-08-31",
+     "publisher": "PRS India / PIB",
+     "series": "Parliamentary legislative timeline",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "all four [Acts] received presidential assent within a four-week window in the middle of 2025",
+     "value": "4 weeks (assent window)",
+     "period": "middle of 2025",
+     "period_end": null,
+     "publisher": "PRS India / PIB",
+     "series": "Presidential assent timeline",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Indian-flagged vessels carry only around 4–5% of the country's own overseas cargo.",
+     "value": "4–5%",
+     "period": null,
+     "period_end": null,
+     "publisher": "DG Shipping (via ITLN, Marine Insight, Business Standard)",
+     "series": "Indian Shipping Statistics (share of overseas trade by flag)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "The financial consequence is direct: India pays close to $75 billion a year in freight to foreign shipping lines...",
+     "value": "close to $75 billion/year",
+     "period": null,
+     "period_end": null,
+     "publisher": "DG Shipping (via ICRA March 2025)",
+     "series": "Freight bill estimates (annual)",
+     "frequency": "annual",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

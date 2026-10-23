@@ -1,0 +1,720 @@
+{
+ "slug": "indias-ethanol-surplus-buys-about-five",
+ "text_sha1": "7d2567f63671c939",
+ "chars": 33569,
+ "checked": "2026-10-23T14:05:25",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "~2,000 Installed ethanol capacity, crore litres (PIB, Jul 2026)",
+     "value": "~2,000 crore litres",
+     "period": "Jul 2026",
+     "period_end": "2026-07-31",
+     "publisher": "PIB",
+     "series": "Installed ethanol capacity",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "1,776 Crore litres offered to OMCs for ESY 2025-26, against 1,050 required",
+     "value": "1,776 crore litres",
+     "period": "2025-26",
+     "period_end": "2026-10-31",
+     "publisher": "PIB / ministry",
+     "series": "Ethanol Blended Petrol Programme Q&A and Backgrounder",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "3,832 Crore litres needed in 2029-30 for E30, 5% isobutanol in diesel and SAF",
+     "value": "3,832 crore litres",
+     "period": "2029-30",
+     "period_end": "2030-03-31",
+     "publisher": "PIB / ministry",
+     "series": "Roadmap for Ethanol Blending in India",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "Oil marketing companies (OMCs) received offers of 1,776 crore litres for the 2025-26 ethanol supply year and allocated 1,048.",
+     "value": "1,048 crore litres",
+     "period": "2025-26",
+     "period_end": "2026-10-31",
+     "publisher": "PIB / ministry",
+     "series": "Ethanol Blended Petrol Programme",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "about 55.5 crore litres to 80 dedicated ethanol plants and about 93.3 crore litres to 122 other bidders.",
+     "value": "55.5 crore litres",
+     "period": "2026",
+     "period_end": "2026-08-04",
+     "publisher": "PIB / ministry",
+     "series": "Supreme Court interim arrangement allocations",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "about 55.5 crore litres to 80 dedicated ethanol plants and about 93.3 crore litres to 122 other bidders.",
+     "value": "93.3 crore litres",
+     "period": "2026",
+     "period_end": "2026-08-04",
+     "publisher": "PIB / ministry",
+     "series": "Supreme Court interim arrangement allocations",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Offered | 1,776 | 1,305 grain-based, 472 sugar-based",
+     "value": "1,305 crore litres",
+     "period": "2025-26",
+     "period_end": "2026-10-31",
+     "publisher": "PIB / ministry",
+     "series": "ESY 2025-26 C1 offers",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Offered | 1,776 | 1,305 grain-based, 472 sugar-based",
+     "value": "472 crore litres",
+     "period": "2025-26",
+     "period_end": "2026-10-31",
+     "publisher": "PIB / ministry",
+     "series": "ESY 2025-26 C1 offers",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Required (C1 tender) | 1,050 | Tender of 23 Sep 2025",
+     "value": "1,050 crore litres",
+     "period": "2025-09-23",
+     "period_end": "2025-09-23",
+     "publisher": "PIB / ministry",
+     "series": "C1 Tender",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Allocated | 1,048 | 378 bidders",
+     "value": "1,048 crore litres",
+     "period": "2025-26",
+     "period_end": "2026-10-31",
+     "publisher": "PIB / ministry",
+     "series": "ESY 2025-26 Allocations",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "With proposed Q4 top-up | ~1,197 | OMCs proposed 149 more for Q4",
+     "value": "~1,197 crore litres",
+     "period": "2025-26",
+     "period_end": "2026-10-31",
+     "publisher": "PIB / ministry",
+     "series": "ESY 2025-26 Q4 top-up",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "With proposed Q4 top-up | ~1,197 | OMCs proposed 149 more for Q4",
+     "value": "149 crore litres",
+     "period": "2025-26",
+     "period_end": "2026-10-31",
+     "publisher": "PIB / ministry",
+     "series": "ESY 2025-26 Q4 top-up",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Maize | 478.9 | 45.7 | 71.86 | 86",
+     "value": "478.9 crore litres",
+     "period": "2025-26",
+     "period_end": "2026-10-31",
+     "publisher": "PIB / ministry",
+     "series": "ESY Allocations by Feedstock",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Maize | 478.9 | 45.7 | 71.86 | 86",
+     "value": "71.86 ₹/litre",
+     "period": "2025-26",
+     "period_end": "2026-10-31",
+     "publisher": "PIB / ministry",
+     "series": "Ex-mill price",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "FCI surplus rice | 233.3 | 22.3 | 60.32 | 76",
+     "value": "233.3 crore litres",
+     "period": "2025-26",
+     "period_end": "2026-10-31",
+     "publisher": "PIB / ministry",
+     "series": "ESY Allocations by Feedstock",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "FCI surplus rice | 233.3 | 22.3 | 60.32 | 76",
+     "value": "60.32 ₹/litre",
+     "period": "2025-26",
+     "period_end": "2026-10-31",
+     "publisher": "PIB / ministry",
+     "series": "Ex-mill price",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Damaged food grain | 47.6 | 4.5 | 64.00 | 85",
+     "value": "47.6 crore litres",
+     "period": "2025-26",
+     "period_end": "2026-10-31",
+     "publisher": "PIB / ministry",
+     "series": "ESY Allocations by Feedstock",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Damaged food grain | 47.6 | 4.5 | 64.00 | 85",
+     "value": "64.00 ₹/litre",
+     "period": "2025-26",
+     "period_end": "2026-10-31",
+     "publisher": "PIB / ministry",
+     "series": "Ex-mill price",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Sugarcane juice / syrup | 165.9 | 15.8 | 65.61 | 89",
+     "value": "165.9 crore litres",
+     "period": "2025-26",
+     "period_end": "2026-10-31",
+     "publisher": "PIB / ministry",
+     "series": "ESY Allocations by Feedstock",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Sugarcane juice / syrup | 165.9 | 15.8 | 65.61 | 89",
+     "value": "65.61 ₹/litre",
+     "period": "2025-26",
+     "period_end": "2026-10-31",
+     "publisher": "PIB / ministry",
+     "series": "Ex-mill price",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "B-heavy molasses | 110.5 | 10.5 | 60.73 | 85",
+     "value": "110.5 crore litres",
+     "period": "2025-26",
+     "period_end": "2026-10-31",
+     "publisher": "PIB / ministry",
+     "series": "ESY Allocations by Feedstock",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "B-heavy molasses | 110.5 | 10.5 | 60.73 | 85",
+     "value": "60.73 ₹/litre",
+     "period": "2025-26",
+     "period_end": "2026-10-31",
+     "publisher": "PIB / ministry",
+     "series": "Ex-mill price",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "C-heavy molasses | 12.2 | 1.2 | 57.97 | 75",
+     "value": "12.2 crore litres",
+     "period": "2025-26",
+     "period_end": "2026-10-31",
+     "publisher": "PIB / ministry",
+     "series": "ESY Allocations by Feedstock",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "C-heavy molasses | 12.2 | 1.2 | 57.97 | 75",
+     "value": "57.97 ₹/litre",
+     "period": "2025-26",
+     "period_end": "2026-10-31",
+     "publisher": "PIB / ministry",
+     "series": "Ex-mill price",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Total / weighted | 1,048 | 100 | 66.61 | 83",
+     "value": "66.61 ₹/litre",
+     "period": "2025-26",
+     "period_end": "2026-10-31",
+     "publisher": "PIB / ministry",
+     "series": "Ex-mill price",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Sugar routes got 289 crore litres, which diverts about 34 lakh tonnes of sugar.",
+     "value": "289 crore litres",
+     "period": "2025-26",
+     "period_end": "2026-10-31",
+     "publisher": "PIB / ministry",
+     "series": "Sugar routes allocation",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Sugar routes got 289 crore litres, which diverts about 34 lakh tonnes of sugar.",
+     "value": "34 lakh tonnes",
+     "period": "2025-26",
+     "period_end": "2026-10-31",
+     "publisher": "PIB / ministry",
+     "series": "Sugar diverted",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "By 30 June 2026 OMCs had received 718 crore litres, 83% of the volume contracted for the first three quarters.",
+     "value": "718 crore litres",
+     "period": "As on 30 Jun 2026",
+     "period_end": "2026-06-30",
+     "publisher": "PIB / ministry",
+     "series": "OMC receipts",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Including GST and freight, the landed cost to OMCs is about ₹71.2 a litre.",
+     "value": "₹71.2 a litre",
+     "period": "2025-26",
+     "period_end": "2026-10-31",
+     "publisher": "PIB / ministry",
+     "series": "Landed cost to OMCs",
+     "frequency": "annual",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "India's ethanol industry was offered 1,776 crore litres against a need of about 1,050 in 2025-26",
+     "value": "1,776 crore litres (offered), 1,050 crore litres (required)",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "PIB / Ministry of Petroleum & Natural Gas",
+     "series": "Ethanol Supply Year (ESY) tender allocations",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "OMCs received offers of 1,776 crore litres for the 2025-26 ethanol supply year and allocated 1,048",
+     "value": "1,776 crore litres (offered), 1,048 crore litres (allocated)",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "PIB / Ministry of Petroleum & Natural Gas",
+     "series": "Ethanol Supply Year (ESY) tender allocations",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "About 576 crore litres of offered capacity has no buyer, even counting a proposed Q4 top-up",
+     "value": "576 crore litres",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "PIB / Ministry of Petroleum & Natural Gas",
+     "series": "Ethanol Supply Year (ESY) tender allocations",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "OMCs proposed 149 more for Q4, about 55.5 crore litres to 80 dedicated ethanol plants and about 93.3 crore litres to 122 other bidders",
+     "value": "149 crore litres (Q4 top-up), 55.5 crore litres (dedicated plants), 93.3 crore litres (other bidders)",
+     "period": "Q4 2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Supreme Court (order on 4 Aug 2026)",
+     "series": "Ethanol Supply Year (ESY) tender top-up",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "~1,197 crore litres total already includes the 149 crore litres",
+     "value": "1,197 crore litres",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "PIB / Ministry of Petroleum & Natural Gas",
+     "series": "Ethanol Supply Year (ESY) tender allocations",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "~2,000 Installed ethanol capacity, crore litres (PIB, Jul 2026)",
+     "value": "2,000 crore litres",
+     "period": null,
+     "period_end": null,
+     "publisher": "PIB / Ministry of Petroleum & Natural Gas",
+     "series": "Installed ethanol capacity",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "3,832 Crore litres needed in 2029-30 for E30, 5% isobutanol in diesel and SAF",
+     "value": "3,832 crore litres",
+     "period": "2029-30",
+     "period_end": "2030-03-31",
+     "publisher": "NITI Aayog (author's forecast)",
+     "series": "Ethanol demand forecast",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "Petrol demand is growing about 6% a year, the government has said it is moving towards 30% blending",
+     "value": "6% annual growth",
+     "period": null,
+     "period_end": null,
+     "publisher": "Government of India (MoPNG)",
+     "series": "Petrol demand growth",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "OMCs had received 718 crore litres, 83% of the volume contracted for the first three quarters",
+     "value": "718 crore litres (received), 83%",
+     "period": "Q1–Q3 2025-26",
+     "period_end": "2025-12-31",
+     "publisher": "ChiniMandi",
+     "series": "Ethanol procurement progress",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "Including GST and freight, the landed cost to OMCs is about ₹71.2 a litre",
+     "value": "₹71.2 per litre",
+     "period": null,
+     "period_end": null,
+     "publisher": "ChiniMandi",
+     "series": "Ethanol procurement cost",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹1,000 crore Central grant to NCDC; NCDC has released ₹10,005 crore to 56 cooperative mills for ethanol, cogeneration and working capital",
+     "value": "₹1,000 crore (grant), ₹10,005 crore (released)",
+     "period": "Dec 2025",
+     "period_end": "2025-12-31",
+     "publisher": "Rajya Sabha reply",
+     "series": "NCDC grant and disbursements",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "ChiniMandi reports that sugar output next season may fall below 300 lakh tonnes against consumption of about 290 lakh tonnes",
+     "value": "300 lakh tonnes (output), 290 lakh tonnes (consumption)",
+     "period": "2026-27",
+     "period_end": "2027-03-31",
+     "publisher": "ChiniMandi",
+     "series": "Sugar production and consumption",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Ex-mill sugar is around ₹42–46 a kilo, at or above many mills' cost",
+     "value": "₹42–46 per kilo",
+     "period": null,
+     "period_end": null,
+     "publisher": "ChiniMandi",
+     "series": "Sugar price",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Petrol (million tonnes) | 36.0 | 42.6 | +18",
+     "value": "36.0 million tonnes (NITI projection), 42.6 million tonnes (actual)",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "NITI Aayog",
+     "series": "Petrol demand projection vs actual",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Fuel ethanol at E20 (crore litres) | 1,016 | ~1,202 | +18",
+     "value": "1,016 crore litres (NITI projection), ~1,202 crore litres (actual)",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "NITI Aayog",
+     "series": "Ethanol demand projection vs actual",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Capacity (crore litres) | 1,500 | 1,970 | +31",
+     "value": "1,500 crore litres (NITI projection), 1,970 crore litres (actual)",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "NITI Aayog",
+     "series": "Ethanol capacity projection vs actual",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "NITI's petrol growth assumption of 3–4% a year proved too low. The forecast therefore grows underlying petrol demand at 6.5% a year to 2030",
+     "value": "3–4% (NITI assumption), 6.5% (forecast)",
+     "period": "2025-2030",
+     "period_end": "2030-03-31",
+     "publisher": "NITI Aayog",
+     "series": "Petrol demand growth forecast",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Deliverable supply (1,674 crore litres) Ethanol demand by end use against deliverable supply",
+     "value": "1,674 crore litres (deliverable supply)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Author's calculation (85% of installed capacity)",
+     "series": "Ethanol deliverable supply",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Demand passes deliverable supply (1,674 crore litres) in 2026-27 and reaches 4.6 times it by 2039-40",
+     "value": "1,674 crore litres (deliverable supply)",
+     "period": "2026-27 to 2039-40",
+     "period_end": "2040-03-31",
+     "publisher": "Author's calculation",
+     "series": "Ethanol demand vs deliverable supply",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Petrol blending | 1,202 | 2,221 | 3,570 | 3,768",
+     "value": "1,202 crore litres (2025-26), 2,221 crore litres (2029-30), 3,570 crore litres (2034-35), 3,768 crore litres (2039-40)",
+     "period": "2025-26 to 2039-40",
+     "period_end": "2040-03-31",
+     "publisher": "Author's forecast",
+     "series": "Ethanol demand for petrol blending",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Isobutanol for diesel | 0 | 1,095 | 2,511 | 2,772",
+     "value": "0 crore litres (2025-26), 1,095 crore litres (2029-30), 2,511 crore litres (2034-35), 2,772 crore litres (2039-40)",
+     "period": "2025-26 to 2039-40",
+     "period_end": "2040-03-31",
+     "publisher": "Author's forecast",
+     "series": "Ethanol demand for isobutanol in diesel",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Jet fuel (ATJ-SAF) | 0 | 51 | 175 | 446",
+     "value": "0 crore litres (2025-26), 51 crore litres (2029-30), 175 crore litres (2034-35), 446 crore litres (2039-40)",
+     "period": "2025-26 to 2039-40",
+     "period_end": "2040-03-31",
+     "publisher": "Author's forecast",
+     "series": "Ethanol demand for jet fuel (ATJ-SAF)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Potable + industrial | 400 | 465 | 564 | 687",
+     "value": "400 crore litres (2025-26), 465 crore litres (2029-30), 564 crore litres (2034-35), 687 crore litres (2039-40)",
+     "period": "2025-26 to 2039-40",
+     "period_end": "2040-03-31",
+     "publisher": "Author's estimate",
+     "series": "Ethanol demand for potable and industrial use",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "USA, production 2025 (record) | 6,242 crore litres",
+     "value": "6,242 crore litres",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "Renewable Fuels Association",
+     "series": "US ethanol production",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Brazil, production 2025-26 season | 3,372 crore litres",
+     "value": "3,372 crore litres",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "UNICA",
+     "series": "Brazil ethanol production",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "India, installed capacity 2026 | ~2,000 crore litres",
+     "value": "~2,000 crore litres",
+     "period": "2026",
+     "period_end": "2026-03-31",
+     "publisher": "PIB",
+     "series": "India ethanol installed capacity",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "India, total demand 2025-26 | 1,602 crore litres",
+     "value": "1,602 crore litres",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Author's calculation",
+     "series": "India ethanol demand",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "India, demand 2029-30 (central case) | 3,832 crore litres",
+     "value": "3,832 crore litres",
+     "period": "2029-30",
+     "period_end": "2030-03-31",
+     "publisher": "Author's forecast",
+     "series": "India ethanol demand forecast",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Each 1% of petrol energy moved to E100 | 2029-30 (crore litres) | 102",
+     "value": "102 crore litres",
+     "period": "2029-30",
+     "period_end": "2030-03-31",
+     "publisher": "Author's calculation",
+     "series": "Ethanol demand for E100",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Isobutanol route | Ethanol, 2034-35 (crore litres) | 1,981 (fermentation route)",
+     "value": "1,981 crore litres",
+     "period": "2034-35",
+     "period_end": "2035-03-31",
+     "publisher": "Author's calculation",
+     "series": "Ethanol demand for isobutanol via fermentation",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Jet fuel from ethanol takes about 2.4 kg of ethanol per kg of fuel. Even so, the notified 5% of international aviation fuel by 2030 needs only about 77 crore litres",
+     "value": "77 crore litres",
+     "period": "2030",
+     "period_end": "2030-03-31",
+     "publisher": "Author's calculation",
+     "series": "Ethanol demand for jet fuel (ATJ-SAF)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Total demand 2034-35 | E20 hold (crore litres) | 5,149",
+     "value": "5,149 crore litres (E20 hold)",
+     "period": "2034-35",
+     "period_end": "2035-03-31",
+     "publisher": "Author's forecast",
+     "series": "Ethanol demand scenarios",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Gap after all supply (crore litres) | SAF scope | 2029-30 | 0 (E20, no isobutanol, international)",
+     "value": "0 crore litres",
+     "period": "2029-30",
+     "period_end": "2030-03-31",
+     "publisher": "Author's calculation",
+     "series": "Ethanol supply-demand gap",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Feedstock, 2034-35 (central case, SAF on all flights) | Ethanol (crore litres) | Maize from trend growth | 1,291",
+     "value": "1,291 crore litres",
+     "period": "2034-35",
+     "period_end": "2035-03-31",
+     "publisher": "Author's calculation",
+     "series": "Ethanol supply mix",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "IOCL Panipat, 100 KLPD, rice straw (₹984 crore) | Cost per litre (₹) | 79–92 at 90% use",
+     "value": "₹79–92 per litre",
+     "period": null,
+     "period_end": null,
+     "publisher": "Lok Sabha reply via ChiniMandi",
+     "series": "2G ethanol production cost",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "NRL Numaligarh, 185 KLPD, bamboo (~₹4,930 crore) | Cost per litre (₹) | ~95 from capital alone",
+     "value": "~₹95 per litre",
+     "period": null,
+     "period_end": null,
+     "publisher": "Indian Chemical News",
+     "series": "2G ethanol production cost",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Extra crop land (lakh ha) | Urea (Mt) | E30 + isobutanol, SAF on all flights (central) | 120 | 3.1",
+     "value": "3.1 million tonnes",
+     "period": "2034-35",
+     "period_end": "2035-03-31",
+     "publisher": "Author's calculation",
+     "series": "Fertiliser demand for ethanol feedstock",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Gas for that urea if made in India (mmscmd) | E30 + isobutanol, SAF on all flights (central) | 5.4–7.1",
+     "value": "5.4–7.1 mmscmd",
+     "period": "2034-35",
+     "period_end": "2035-03-31",
+     "publisher": "Author's calculation",
+     "series": "Natural gas demand for urea production",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Net sown area was 139.0 million hectares and the gross sown area 217.9 million hectares",
+     "value": "139.0 million hectares (net sown), 217.9 million hectares (gross sown)",
+     "period": "2023-24",
+     "period_end": "2024-03-31",
+     "publisher": "Directorate of Economics and Statistics",
+     "series": "Land use statistics",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Ethanol feedstock crops in total | 2022-23 | ~1.6% of gross cropped area",
+     "value": "~1.6% of gross cropped area",
+     "period": "2022-23",
+     "period_end": "2023-03-31",
+     "publisher": "Directorate of Economics and Statistics",
+     "series": "Ethanol feedstock land share",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Ethanol crops (about 33 lakh hectares of maize and 2.8 lakh hectares of cane juice) take about 1.6% of the gross cropped area today",
+     "value": "33 lakh hectares (maize), 2.8 lakh hectares (cane juice)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Author's calculation",
+     "series": "Ethanol feedstock land use",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

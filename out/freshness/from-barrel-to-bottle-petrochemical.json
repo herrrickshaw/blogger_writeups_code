@@ -1,0 +1,460 @@
+{
+ "slug": "from-barrel-to-bottle-petrochemical",
+ "text_sha1": "b32f9c684352edda",
+ "chars": 18950,
+ "checked": "2026-10-23T11:39:41",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "13.04 cr 14.2 kg-equivalent LPG cylinders delivered nationally in May 2026 alone, per PPAC",
+     "value": "13.04 cr",
+     "period": "May 2026",
+     "period_end": "2026-05-31",
+     "publisher": "PPAC",
+     "series": "Industry Consumption Report POL & NG",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "70% Supply cap imposed on commercial/industrial LPG demand by the 8 March 2026 Control Order, to protect household supply",
+     "value": "70%",
+     "period": "as on 8 March 2026",
+     "period_end": "2026-03-08",
+     "publisher": "PPAC",
+     "series": "Industry Consumption Report POL & NG",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "33.31 cr Active domestic LPG connections nationally as of end-May 2026, per PPAC",
+     "value": "33.31 cr",
+     "period": "end-May 2026",
+     "period_end": "2026-05-31",
+     "publisher": "PPAC",
+     "series": "Industry Consumption Report POL & NG",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "~15.3 kg Typical empty (tare) weight of a standard steel 14.2 kg domestic cylinder",
+     "value": "15.3 kg",
+     "period": "as on 13 October 2026",
+     "period_end": "2026-10-13",
+     "publisher": "mylpg.co.in",
+     "series": "gas-cylinder weight reference",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "₹3,000 Security deposit for the 10 kg Xtralite variant, non-subsidised domestic category",
+     "value": "₹3,000",
+     "period": "as on 13 October 2026",
+     "period_end": "2026-10-13",
+     "publisher": "IOCL",
+     "series": "Xtralite composite cylinder product page",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "15.3 \n Standard steel \n 14.2 kg domestic cylinder",
+     "value": "15.3 kg",
+     "period": "as on 13 October 2026",
+     "period_end": "2026-10-13",
+     "publisher": "mylpg.co.in",
+     "series": "standard steel cylinder tare weight",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "5.2 \n LiteSafe composite \n Time Technoplast, 14.5 L",
+     "value": "5.2 kg",
+     "period": "as on 13 October 2026",
+     "period_end": "2026-10-13",
+     "publisher": "Time Technoplast",
+     "series": "LiteSafe spec table",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "PPAC’s provisional January–June 2026 consumption was about 8% lower than a year earlier",
+     "value": "8%",
+     "period": "January–June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "PPAC",
+     "series": "Industry Consumption Report POL & NG",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "June down nearly 17%",
+     "value": "17%",
+     "period": "June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "PPAC",
+     "series": "Industry Consumption Report POL & NG",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "32.68 crore active domestic LPG consumers served by the public-sector OMCs as of 1 July 2024",
+     "value": "32.68 crore",
+     "period": "1 July 2024",
+     "period_end": "2024-07-01",
+     "publisher": "PIB / ministry",
+     "series": "Rajya Sabha written reply",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "more than 50 crore cylinders in circulation",
+     "value": "50 crore",
+     "period": "as on 1 July 2024",
+     "period_end": "2024-07-01",
+     "publisher": "PIB / ministry",
+     "series": "Rajya Sabha written reply",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "roughly ₹3.35 lakh crore in refiner-led petrochemical investment currently underway across seven named projects",
+     "value": "₹3.35 lakh crore",
+     "period": "as on 13 October 2026",
+     "period_end": "2026-10-13",
+     "publisher": "CEA",
+     "series": "petrochemical investment table",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "IOCL itself already runs 650 KTA of combined HDPE/LDPE capacity across two lines, one of them (300 KTA) dedicated specifically to HDPE",
+     "value": "650 KTA",
+     "period": "as on 13 October 2026",
+     "period_end": "2026-10-13",
+     "publisher": "GlobeNewswire / Plastemart",
+     "series": "India HDPE/polyolefin capacity reporting",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "one of them (300 KTA) dedicated specifically to HDPE",
+     "value": "300 KTA",
+     "period": "as on 13 October 2026",
+     "period_end": "2026-10-13",
+     "publisher": "GlobeNewswire / Plastemart",
+     "series": "India HDPE/polyolefin capacity reporting",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "a further 200 KTA project reported for commercialisation",
+     "value": "200 KTA",
+     "period": "as on 13 October 2026",
+     "period_end": "2026-10-13",
+     "publisher": "GlobeNewswire / Plastemart",
+     "series": "India HDPE/polyolefin capacity reporting",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "GAIL's own reported 500 KTA polypropylene addition",
+     "value": "500 KTA",
+     "period": "as on 13 October 2026",
+     "period_end": "2026-10-13",
+     "publisher": "GlobeNewswire / Plastemart",
+     "series": "India HDPE/polyolefin capacity reporting",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India's domestic HDPE market was estimated at roughly 3,450 thousand tonnes in FY2023",
+     "value": "3,450 thousand tonnes",
+     "period": "FY2023",
+     "period_end": "2023-03-31",
+     "publisher": "ChemAnalyst",
+     "series": "India HDPE market report",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "growing at a reported 6.79% CAGR through FY2030",
+     "value": "6.79%",
+     "period": "FY2023 through FY2030",
+     "period_end": "2030-03-31",
+     "publisher": "ChemAnalyst",
+     "series": "India HDPE market report",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Reliance, GAIL and IOCL together holding about 55% of domestic polyolefin nameplate capacity",
+     "value": "55%",
+     "period": "as on 13 October 2026",
+     "period_end": "2026-10-13",
+     "publisher": "ChemAnalyst",
+     "series": "India HDPE market report",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "National LPG consumption fell 20.5% year-on-year that month",
+     "value": "20.5%",
+     "period": "May 2026",
+     "period_end": "2026-05-31",
+     "publisher": "PPAC",
+     "series": "Industry Consumption Report POL & NG",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Bulk LPG consumption specifically fell 83.1%",
+     "value": "83.1%",
+     "period": "May 2026",
+     "period_end": "2026-05-31",
+     "publisher": "PPAC",
+     "series": "Industry Consumption Report POL & NG",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "10.57 crore PMUY beneficiary connections as of end-May 2026, per the same PPAC report",
+     "value": "10.57 crore",
+     "period": "end-May 2026",
+     "period_end": "2026-05-31",
+     "publisher": "PPAC",
+     "series": "Industry Consumption Report POL & NG",
+     "frequency": "monthly",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "India has roughly 50 crore LPG cylinders in circulation, almost all of them steel",
+     "value": "50 crore",
+     "period": null,
+     "period_end": null,
+     "publisher": "PIB / Ministry of Petroleum and Natural Gas",
+     "series": "Rajya Sabha written reply: Replacement of Steel Cylinders with New Age Fibre Based Cylinders",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "32.68 crore active domestic LPG consumers served by the public-sector OMCs as of 1 July 2024",
+     "value": "32.68 crore",
+     "period": "1 July 2024",
+     "period_end": "2024-07-01",
+     "publisher": "PIB / Ministry of Petroleum and Natural Gas",
+     "series": "Rajya Sabha written reply: Replacement of Steel Cylinders with New Age Fibre Based Cylinders",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "A standard steel domestic LPG cylinder weighs about 15.3 kg empty",
+     "value": "15.3 kg",
+     "period": null,
+     "period_end": null,
+     "publisher": "mylpg.co.in",
+     "series": "Standard steel cylinder tare weight",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "Time Technoplast's published LiteSafe composite cylinder weighs 5.2 kg empty for a comparably sized cylinder",
+     "value": "5.2 kg",
+     "period": null,
+     "period_end": null,
+     "publisher": "Time Technoplast",
+     "series": "LiteSafe composite cylinder specification table",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "₹3,000 Security deposit for the 10 kg Xtralite variant, non-subsidised domestic category",
+     "value": "₹3,000",
+     "period": null,
+     "period_end": null,
+     "publisher": "IOCL",
+     "series": "Xtralite composite cylinder deposit",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "National LPG consumption fell 20.5% year-on-year in May 2026",
+     "value": "20.5%",
+     "period": "May 2026",
+     "period_end": "2026-05-31",
+     "publisher": "PPAC",
+     "series": "Industry Consumption Report POL & NG",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Bulk LPG consumption specifically fell 83.1% in May 2026",
+     "value": "83.1%",
+     "period": "May 2026",
+     "period_end": "2026-05-31",
+     "publisher": "PPAC",
+     "series": "Industry Consumption Report POL & NG",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "13.04 cr 14.2 kg-equivalent LPG cylinders were delivered nationally in May 2026 alone",
+     "value": "13.04 crore",
+     "period": "May 2026",
+     "period_end": "2026-05-31",
+     "publisher": "PPAC",
+     "series": "Industry Consumption Report POL & NG",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "33.31 cr Active domestic LPG connections nationally as of end-May 2026",
+     "value": "33.31 crore",
+     "period": "end-May 2026",
+     "period_end": "2026-05-31",
+     "publisher": "PPAC",
+     "series": "Industry Consumption Report POL & NG",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "10.57 crore PMUY beneficiary connections as of end-May 2026",
+     "value": "10.57 crore",
+     "period": "end-May 2026",
+     "period_end": "2026-05-31",
+     "publisher": "PPAC",
+     "series": "Industry Consumption Report POL & NG",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "70% Supply cap imposed on commercial/industrial LPG demand by the 8 March 2026 Control Order",
+     "value": "70%",
+     "period": "8 March 2026",
+     "period_end": "2026-03-08",
+     "publisher": "PPAC",
+     "series": "Industry Consumption Report POL & NG",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "PPAC’s provisional January–June 2026 consumption was about 8% lower than a year earlier",
+     "value": "8%",
+     "period": "Jan-Jun 2026",
+     "period_end": "2026-06-30",
+     "publisher": "PPAC",
+     "series": "Industry Consumption Report POL & NG (provisional)",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "India's domestic HDPE market was estimated at roughly 3,450 thousand tonnes in FY2023",
+     "value": "3,450 thousand tonnes",
+     "period": "FY2023",
+     "period_end": "2023-03-31",
+     "publisher": "ChemAnalyst",
+     "series": "India HDPE market report",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "growing at a reported 6.79% CAGR through FY2030",
+     "value": "6.79%",
+     "period": "FY2023-FY2030",
+     "period_end": "2030-03-31",
+     "publisher": "ChemAnalyst",
+     "series": "India HDPE market report",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "Reliance, GAIL and IOCL together hold about 55% of domestic polyolefin nameplate capacity",
+     "value": "55%",
+     "period": null,
+     "period_end": null,
+     "publisher": "ChemAnalyst",
+     "series": "India HDPE/polyolefin capacity reporting",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "IOCL itself already runs 650 KTA of combined HDPE/LDPE capacity",
+     "value": "650 KTA",
+     "period": null,
+     "period_end": null,
+     "publisher": "GlobeNewswire / Plastemart",
+     "series": "IOCL HDPE/LDPE capacity reporting",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "GAIL's reported 500 KTA polypropylene addition",
+     "value": "500 KTA",
+     "period": null,
+     "period_end": null,
+     "publisher": "GlobeNewswire / Plastemart",
+     "series": "GAIL polypropylene capacity reporting",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "IOCL's 300 KTA dedicated specifically to HDPE",
+     "value": "300 KTA",
+     "period": null,
+     "period_end": null,
+     "publisher": "GlobeNewswire / Plastemart",
+     "series": "IOCL HDPE capacity reporting",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹3.35 lakh crore in refinery-led petrochemical investment currently underway across seven projects",
+     "value": "₹3.35 lakh crore",
+     "period": null,
+     "period_end": null,
+     "publisher": "Earlier piece on this site",
+     "series": "FCC-yield lever and petrochemical investment table",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "HPCL signed an MoU with Swiggy Instamart on 15 July 2026",
+     "value": "15 July 2026",
+     "period": "15 July 2026",
+     "period_end": "2026-07-15",
+     "publisher": "Channel Iam and other coverage",
+     "series": "HPCL–Swiggy Instamart MoU",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The Petroleum Ministry reportedly removed the sectoral restrictions on non-domestic packed LPG on 25 June 2026",
+     "value": "25 June 2026",
+     "period": "25 June 2026",
+     "period_end": "2026-06-25",
+     "publisher": "The Week / Business Today",
+     "series": "Petroleum Ministry announcement",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "bulk supply relaxed to 50% of pre-crisis levels",
+     "value": "50%",
+     "period": "post-25 June 2026",
+     "period_end": null,
+     "publisher": "The Week / Business Today",
+     "series": "Petroleum Ministry announcement",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

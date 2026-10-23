@@ -1,0 +1,490 @@
+{
+ "slug": "chemical-import-substitution-quarterly",
+ "text_sha1": "d2225c6f5e01a07d",
+ "chars": 16110,
+ "checked": "2026-10-23T10:53:03",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "Capex Planned \n ₹1.38 trillion",
+     "value": "₹1.38 trillion",
+     "period": "FY26-30",
+     "period_end": "2030-03-31",
+     "publisher": "PIB / ministry",
+     "series": "Quarterly Tracking Dashboard (FY26-30)",
+     "frequency": "quarterly",
+     "headline": true
+    },
+    {
+     "quote": "Capex Budget \n ₹1,45,000 cr \n (revised up from ₹1,00,000 cr, Sep 2026)",
+     "value": "₹1,45,000 cr",
+     "period": "Sep 2026",
+     "period_end": "2026-09-30",
+     "publisher": "PIB / ministry",
+     "series": "BPCL Athena Project (AP)",
+     "frequency": "quarterly",
+     "headline": true
+    },
+    {
+     "quote": "Capex Budget \n ₹75,000 cr",
+     "value": "₹75,000 cr",
+     "period": "Q2-FY27",
+     "period_end": "2026-09-30",
+     "publisher": "PIB / ministry",
+     "series": "RIL O2C Expansion",
+     "frequency": "quarterly",
+     "headline": true
+    },
+    {
+     "quote": "Capex Budget \n ₹600-1,200 cr",
+     "value": "₹600-1,200 cr",
+     "period": "Q2-FY27",
+     "period_end": "2026-09-30",
+     "publisher": "PIB / ministry",
+     "series": "BPCL Bina LLDPE (L&T EPC)",
+     "frequency": "quarterly",
+     "headline": true
+    },
+    {
+     "quote": "Total Budget \n ₹3,030 cr",
+     "value": "₹3,030 cr",
+     "period": "Q2-FY27",
+     "period_end": "2026-09-30",
+     "publisher": "PIB / ministry",
+     "series": "BHAVYA Dye Parks",
+     "frequency": "quarterly",
+     "headline": true
+    },
+    {
+     "quote": "Tier 1 (Ethylene, PP, HDPE, TPA) \n $5.0bn",
+     "value": "$5.0bn",
+     "period": "FY30",
+     "period_end": "2030-03-31",
+     "publisher": "PIB / ministry",
+     "series": "Capex-Driven Savings (Base Case)",
+     "frequency": "quarterly",
+     "headline": true
+    },
+    {
+     "quote": "Tier 3 (Dyes, Aniline, others) \n $0.9bn",
+     "value": "$0.9bn",
+     "period": "FY30",
+     "period_end": "2030-03-31",
+     "publisher": "PIB / ministry",
+     "series": "Capex-Driven Savings (Base Case)",
+     "frequency": "quarterly",
+     "headline": true
+    },
+    {
+     "quote": "TPA Duty (15-20%) \n +$220-290mn",
+     "value": "+$220-290mn",
+     "period": "FY30",
+     "period_end": "2030-03-31",
+     "publisher": "DGTR",
+     "series": "Anti-Dumping Duty Upside",
+     "frequency": "quarterly",
+     "headline": true
+    },
+    {
+     "quote": "ANTU (if approved) \n +$80-120mn",
+     "value": "+$80-120mn",
+     "period": "FY30",
+     "period_end": "2030-03-31",
+     "publisher": "DGTR",
+     "series": "Anti-Dumping Duty Upside",
+     "frequency": "quarterly",
+     "headline": true
+    },
+    {
+     "quote": "Pharma Bulk Drugs PLI (4%) | +30-50 | US$ million |",
+     "value": "+30-50 US$ million",
+     "period": "annual",
+     "period_end": null,
+     "publisher": "PIB / ministry",
+     "series": "PLI & Other Schemes",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Textiles PLI (4%) | +25-40 | US$ million |",
+     "value": "+25-40 US$ million",
+     "period": "annual",
+     "period_end": null,
+     "publisher": "PIB / ministry",
+     "series": "PLI & Other Schemes",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "BHAVYA Parks (capex grant) | 400-600 | ₹ crore (FY26-28) |",
+     "value": "400-600 ₹ crore",
+     "period": "FY26-28",
+     "period_end": "2028-03-31",
+     "publisher": "PIB / ministry",
+     "series": "PLI & Other Schemes",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "GST Exemption (18% capex) | ~3 | US$ billion (capex phase) |",
+     "value": "~3 US$ billion",
+     "period": "capex phase",
+     "period_end": null,
+     "publisher": "PIB / ministry",
+     "series": "PLI & Other Schemes",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "Capex Planned ₹1.38 trillion",
+     "value": "₹1.38 trillion",
+     "period": null,
+     "period_end": null,
+     "publisher": "dashboard project-tracking figures",
+     "series": "Capex Planned (Chemical Import Substitution Strategy)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "BPCL AP (Athena) Capex Budget ₹1,45,000 cr (revised up from ₹1L cr, Sep 2026)",
+     "value": "₹1,45,000 cr",
+     "period": "Sep 2026",
+     "period_end": "2026-09-30",
+     "publisher": "BPCL CMD statement, Business Standard, New Projects Tracker",
+     "series": "Capex Budget (BPCL Athena Project)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Capacity (KTPA) Ethylene: 350 | Propylene: 280 | PP: 200",
+     "value": "Ethylene: 350 KTPA, Propylene: 280 KTPA, PP: 200 KTPA",
+     "period": null,
+     "period_end": null,
+     "publisher": "BPCL Athena Project",
+     "series": "Project Capacity",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "RIL O2C Expansion Capex Budget ₹75,000 cr",
+     "value": "₹75,000 cr",
+     "period": null,
+     "period_end": null,
+     "publisher": "dashboard project-tracking figures",
+     "series": "Capex Budget (RIL O2C Expansion)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Capacity (KTPA) Ethylene: 1,200 | Aromatics: 600 | Glycol: 400",
+     "value": "Ethylene: 1,200 KTPA, Aromatics: 600 KTPA, Glycol: 400 KTPA",
+     "period": null,
+     "period_end": null,
+     "publisher": "RIL O2C Expansion",
+     "series": "Project Capacity",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "BPCL Bina LLDPE Capex Budget ₹600-1,200 cr",
+     "value": "₹600-1,200 cr",
+     "period": null,
+     "period_end": null,
+     "publisher": "dashboard project-tracking figures",
+     "series": "Capex Budget (BPCL Bina LLDPE)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Capacity (KTPA) LLDPE: 200-250",
+     "value": "LLDPE: 200-250 KTPA",
+     "period": null,
+     "period_end": null,
+     "publisher": "BPCL Bina LLDPE",
+     "series": "Project Capacity",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "BHAVYA Dye Parks Total Budget ₹3,030 cr",
+     "value": "₹3,030 cr",
+     "period": null,
+     "period_end": null,
+     "publisher": "dashboard project-tracking figures",
+     "series": "Total Budget (BHAVYA Dye Parks)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Parks Planned Jharkhand (₹1,200cr) | Tamil Nadu (₹1,030cr) | Gujarat (₹800cr TBD)",
+     "value": "Jharkhand: ₹1,200 cr, Tamil Nadu: ₹1,030 cr, Gujarat: ₹800 cr",
+     "period": null,
+     "period_end": null,
+     "publisher": "dashboard project-tracking figures",
+     "series": "Budget Allocation (BHAVYA Dye Parks)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Final determinations will increase FY30 savings by $430-640mn",
+     "value": "$430-640 million",
+     "period": null,
+     "period_end": null,
+     "publisher": "DGTR (Directorate General of Trade Remedies)",
+     "series": "FY30 Savings Impact (Anti-Dumping Duty)",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "Expected Duty Rate TPA (29173600) 15-20% | FY30 Impact +$220-290mn",
+     "value": "15-20% duty rate, +$220-290 million",
+     "period": null,
+     "period_end": null,
+     "publisher": "DGTR",
+     "series": "Anti-Dumping Duty (TPA)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Expected Decision TPA (29173600) Aug-Sep 2026 (IMMINENT)",
+     "value": "Aug-Sep 2026",
+     "period": "Aug-Sep 2026",
+     "period_end": "2026-09-30",
+     "publisher": "DGTR",
+     "series": "Expected Decision Date (TPA)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Land: ~75% of 6,000 acres handed over, remainder due by second week of October 2026",
+     "value": "~75% of 6,000 acres (~4,500 acres)",
+     "period": "as of second week of October 2026",
+     "period_end": "2026-10-15",
+     "publisher": "BPCL CMD statement, Business Standard",
+     "series": "Land Acquisition Progress (BPCL AP)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Impact if delayed: 6-12 month delay → FY29 commissioning → $200-300mn FY30 savings deferred to FY31",
+     "value": "$200-300 million",
+     "period": null,
+     "period_end": null,
+     "publisher": "Risk Register",
+     "series": "FY30 Savings Impact (BPCL AP Delay)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Pharma Bulk Drugs PLI (4%) | +30-50 | US$ million",
+     "value": "+$30-50 million",
+     "period": null,
+     "period_end": null,
+     "publisher": "Department of Pharmaceuticals (PLI Scheme)",
+     "series": "PLI Scheme Savings (Pharma Bulk Drugs)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Textiles PLI (4%) | +25-40 | US$ million",
+     "value": "+$25-40 million",
+     "period": null,
+     "period_end": null,
+     "publisher": "Ministry of Textiles (PLI Scheme)",
+     "series": "PLI Scheme Savings (Textiles)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "BHAVYA Parks (capex grant) | 400-600 | ₹ crore (FY26-28)",
+     "value": "₹400-600 crore",
+     "period": "FY26-28",
+     "period_end": "2028-03-31",
+     "publisher": "Ministry of Textiles",
+     "series": "Capex Grant (BHAVYA Parks)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "GST Exemption (18% capex) | ~3 | US$ billion (capex phase)",
+     "value": "~$3 billion",
+     "period": null,
+     "period_end": null,
+     "publisher": "GST Council",
+     "series": "GST Exemption Savings",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "TOTAL (Schemes) | +55-90 | US$ million (annual PLI recurring only)",
+     "value": "+$55-90 million",
+     "period": null,
+     "period_end": null,
+     "publisher": "PLI Schemes (Pharma, Textiles)",
+     "series": "Total Savings from PLI Schemes",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Capex-Driven Savings (Base Case) Tier 1 (Ethylene, PP, HDPE, TPA) $5.0bn",
+     "value": "$5.0 billion",
+     "period": null,
+     "period_end": null,
+     "publisher": "dashboard project-tracking figures",
+     "series": "Capex-Driven Savings (Tier 1)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Tier 3 (Dyes, Aniline, others) $0.9bn",
+     "value": "$0.9 billion",
+     "period": null,
+     "period_end": null,
+     "publisher": "dashboard project-tracking figures",
+     "series": "Capex-Driven Savings (Tier 3)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "ANTU (if approved) +$80-120mn",
+     "value": "+$80-120 million",
+     "period": null,
+     "period_end": null,
+     "publisher": "DGTR",
+     "series": "Anti-Dumping Duty Upside (ANTU)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "BPCL AP Environmental Clearance — Update (19 Sep 2026): Cost revised up to ₹1,45,000 cr",
+     "value": "₹1,45,000 cr",
+     "period": "Sep 2026",
+     "period_end": "2026-09-19",
+     "publisher": "BPCL CMD statement, Business Standard",
+     "series": "Project Cost Revision (BPCL AP)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Expected by end-September 2026; not yet granted as of this revision",
+     "value": "end-September 2026",
+     "period": "end-September 2026",
+     "period_end": "2026-09-30",
+     "publisher": "PARIVESH (Ministry of Environment)",
+     "series": "Expected EC Grant Date (BPCL AP)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Land acquisition 50% complete (Jharkhand 60%, TN 40%)",
+     "value": "50% complete (Jharkhand: 60%, Tamil Nadu: 40%)",
+     "period": "Q2-FY27",
+     "period_end": "2026-09-30",
+     "publisher": "Ministry of Textiles / IIDCL, SIPCOT",
+     "series": "Land Acquisition Progress (BHAVYA Parks)",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "Impact if delayed: Park operationalization pushed from FY29 to FY30 → Dye producer migration delays → ₹150-200 crore FY30 substitution savings hit",
+     "value": "₹150-200 crore",
+     "period": null,
+     "period_end": null,
+     "publisher": "Risk Register",
+     "series": "FY30 Savings Impact (BHAVYA Parks Delay)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "BPCL AP (Athena) Execution Progress 20%",
+     "value": "20%",
+     "period": "Q2-FY27",
+     "period_end": "2026-09-30",
+     "publisher": "dashboard project-tracking figures",
+     "series": "Execution Progress (BPCL AP)",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "RIL O2C Expansion Execution Progress 35%",
+     "value": "35%",
+     "period": "Q2-FY27",
+     "period_end": "2026-09-30",
+     "publisher": "dashboard project-tracking figures",
+     "series": "Execution Progress (RIL O2C Expansion)",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "BPCL Bina LLDPE Execution Progress 45%",
+     "value": "45%",
+     "period": "Q2-FY27",
+     "period_end": "2026-09-30",
+     "publisher": "dashboard project-tracking figures",
+     "series": "Execution Progress (BPCL Bina LLDPE)",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "BHAVYA Dye Parks Overall Progress 25%",
+     "value": "25%",
+     "period": "Q2-FY27",
+     "period_end": "2026-09-30",
+     "publisher": "dashboard project-tracking figures",
+     "series": "Overall Progress (BHAVYA Dye Parks)",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "Equipment procurement 60% complete (BPCL Bina LLDPE)",
+     "value": "60%",
+     "period": "Q2-FY27",
+     "period_end": "2026-09-30",
+     "publisher": "BPCL / L&T (EPC) / Suppliers",
+     "series": "Equipment Procurement Progress (BPCL Bina LLDPE)",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "Expected Decision Window: Aug 31, 2026",
+     "value": "Aug 31, 2026",
+     "period": "Aug 31, 2026",
+     "period_end": "2026-08-31",
+     "publisher": "DGTR",
+     "series": "Expected Decision Date (DGTR TPA/Dyes)",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "Target Completion: Sep 30, 2026 (RIL O2C EPC Bid)",
+     "value": "Sep 30, 2026",
+     "period": "Sep 30, 2026",
+     "period_end": "2026-09-30",
+     "publisher": "RIL / EPC Contractors",
+     "series": "Target Completion (RIL O2C EPC Bid)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Target Completion: Oct 31, 2026 (BPCL Bina LLDPE Equipment Procurement)",
+     "value": "Oct 31, 2026",
+     "period": "Oct 31, 2026",
+     "period_end": "2026-10-31",
+     "publisher": "BPCL / L&T (EPC) / Suppliers",
+     "series": "Target Completion (BPCL Bina Equipment Procurement)",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

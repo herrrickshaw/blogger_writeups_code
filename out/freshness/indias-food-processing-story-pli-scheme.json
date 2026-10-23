@@ -1,0 +1,713 @@
+{
+ "slug": "indias-food-processing-story-pli-scheme",
+ "text_sha1": "e1f00958286c7cca",
+ "chars": 12499,
+ "checked": "2026-10-23T14:13:36",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "3.39L Jobs created under the food-processing PLI scheme, against a 2.5 lakh target",
+     "value": "3.39 lakh",
+     "period": "June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "MoFPI",
+     "series": "Production Linked Incentive Scheme for Food Processing Industries (PLISFPI) Progress",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "₹92,651cr Estimated annual loss from inadequate cold storage and supply-chain gaps",
+     "value": "₹92,651 crore",
+     "period": null,
+     "period_end": null,
+     "publisher": "NABARD / MoFPI / Sector Compilations",
+     "series": "Estimated annual economic loss from inadequate cold storage",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "~30% Share of India's fruit and vegetable output that spoils before reaching consumers",
+     "value": "30%",
+     "period": null,
+     "period_end": null,
+     "publisher": "NABARD / MoFPI / Sector Compilations",
+     "series": "Fruit and vegetable spoilage share",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "20.4% Processed food's share of agri exports, up from 13.7% a decade ago",
+     "value": "20.4%",
+     "period": "a decade ago / current",
+     "period_end": null,
+     "publisher": "IBEF / Government Data",
+     "series": "Processed food's share of agricultural exports",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "carries a ₹10,900 crore outlay.",
+     "value": "₹10,900 crore",
+     "period": "2026-27",
+     "period_end": "2027-03-31",
+     "publisher": "MoFPI / Union Budget",
+     "series": "PLISFPI Scheme Outlay",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "it had 170 applications approved (Sept 2025)",
+     "value": "170",
+     "period": "Sept 2025",
+     "period_end": "2025-09-30",
+     "publisher": "MoFPI",
+     "series": "PLISFPI Approved Applications",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "attracted ₹9,207 crore in private investment (Sept 2025)",
+     "value": "₹9,207 crore",
+     "period": "Sept 2025",
+     "period_end": "2025-09-30",
+     "publisher": "MoFPI",
+     "series": "PLISFPI Private Investment",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "added 35 lakh tonnes a year of processing capacity (Sept 2025)",
+     "value": "35 lakh tonnes/year",
+     "period": "Sept 2025",
+     "period_end": "2025-09-30",
+     "publisher": "MoFPI",
+     "series": "PLISFPI Processing Capacity Added",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Incentive disbursement stood at ₹3,271.44 crore through June 2026.",
+     "value": "₹3,271.44 crore",
+     "period": "through June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "MoFPI",
+     "series": "PLISFPI Incentive Disbursement",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Cumulative export sales of PLI beneficiaries, Apr 2021–Sep 2025, ₹ crore | 89,053.44",
+     "value": "₹89,053.44 crore",
+     "period": "Apr 2021–Sep 2025",
+     "period_end": "2025-09-30",
+     "publisher": "MoFPI",
+     "series": "Cumulative export sales of PLI beneficiaries",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Sales of PLI-supported products, FY2019-20, ₹ crore | 58,758",
+     "value": "₹58,758 crore",
+     "period": "FY2019-20",
+     "period_end": "2020-03-31",
+     "publisher": "MoFPI",
+     "series": "Sales of PLI-supported products",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Sales of PLI-supported products, FY2025-26, ₹ crore | 1,08,854",
+     "value": "₹1,08,854 crore",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "MoFPI",
+     "series": "Sales of PLI-supported products",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "government has approved 41 Mega Food Parks across 25 states, of which 25 are operational",
+     "value": "41",
+     "period": "current",
+     "period_end": null,
+     "publisher": "MoFPI",
+     "series": "Mega Food Parks Approved",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "of which 25 are operational",
+     "value": "25",
+     "period": "current",
+     "period_end": null,
+     "publisher": "MoFPI",
+     "series": "Mega Food Parks Operational",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "adding a further 28.57 lakh tonnes of preservation",
+     "value": "28.57 lakh tonnes",
+     "period": "current",
+     "period_end": null,
+     "publisher": "MoFPI",
+     "series": "Mega Food Parks Preservation Capacity",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "15.41 lakh tonnes of processing capacity",
+     "value": "15.41 lakh tonnes",
+     "period": "current",
+     "period_end": null,
+     "publisher": "MoFPI",
+     "series": "Mega Food Parks Processing Capacity",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "reaching an estimated 86,881 farmers with roughly 1.02 lakh direct and indirect jobs.",
+     "value": "86,881",
+     "period": "current",
+     "period_end": null,
+     "publisher": "MoFPI",
+     "series": "Mega Food Parks Farmers Reached",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "reaching an estimated 86,881 farmers with roughly 1.02 lakh direct and indirect jobs.",
+     "value": "1.02 lakh",
+     "period": "current",
+     "period_end": null,
+     "publisher": "MoFPI",
+     "series": "Mega Food Parks Jobs Created",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Food processing accounts for 8.80% of manufacturing GVA",
+     "value": "8.80%",
+     "period": "current",
+     "period_end": null,
+     "publisher": "IBEF",
+     "series": "Food Processing share of manufacturing GVA",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "8.39% of agriculture GVA",
+     "value": "8.39%",
+     "period": "current",
+     "period_end": null,
+     "publisher": "IBEF",
+     "series": "Food Processing share of agriculture GVA",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "13% of national exports",
+     "value": "13%",
+     "period": "current",
+     "period_end": null,
+     "publisher": "IBEF",
+     "series": "Food Processing share of national exports",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "6% of overall industrial investment",
+     "value": "6%",
+     "period": "current",
+     "period_end": null,
+     "publisher": "IBEF",
+     "series": "Food Processing share of overall industrial investment",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "FDI into the sector, which sits under the 100% automatic route, totalled roughly ₹1,15,596 crore (US$13.4 billion) from April 2000 to June 2025.",
+     "value": "₹1,15,596 crore",
+     "period": "April 2000 to June 2025",
+     "period_end": "2025-06-30",
+     "publisher": "DPIIT / IBEF",
+     "series": "FDI into Food Processing Sector",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "FDI into the sector, which sits under the 100% automatic route, totalled roughly ₹1,15,596 crore (US$13.4 billion) from April 2000 to June 2025.",
+     "value": "US$13.4 billion",
+     "period": "April 2000 to June 2025",
+     "period_end": "2025-06-30",
+     "publisher": "DPIIT / IBEF",
+     "series": "FDI into Food Processing Sector",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Agricultural exports as a whole reached US$52.55 billion in FY26",
+     "value": "US$52.55 billion",
+     "period": "FY26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S / IBEF",
+     "series": "Total Agricultural Exports",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "up from US$51.1 billion in FY25",
+     "value": "US$51.1 billion",
+     "period": "FY25",
+     "period_end": "2025-03-31",
+     "publisher": "DGCI&S / IBEF",
+     "series": "Total Agricultural Exports",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "processed food specifically estimated at around US$12.5 billion in FY25 — a 15% year-on-year rise.",
+     "value": "US$12.5 billion",
+     "period": "FY25",
+     "period_end": "2025-03-31",
+     "publisher": "IBEF",
+     "series": "Processed Food Exports",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "processed food specifically estimated at around US$12.5 billion in FY25 — a 15% year-on-year rise.",
+     "value": "15%",
+     "period": "FY25",
+     "period_end": "2025-03-31",
+     "publisher": "IBEF",
+     "series": "Processed Food Export Growth",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Rice (basmati + non-basmati) | 12.95 | FY25",
+     "value": "12.95 US$ billion",
+     "period": "FY25",
+     "period_end": "2025-03-31",
+     "publisher": "DGCI&S",
+     "series": "Rice Exports",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Marine products | 7.45 | FY25",
+     "value": "7.45 US$ billion",
+     "period": "FY25",
+     "period_end": "2025-03-31",
+     "publisher": "DGCI&S",
+     "series": "Marine Products Exports",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Buffalo meat, dairy & poultry (combined) | 1.18 | Q1 FY26 (+17% YoY)",
+     "value": "1.18 US$ billion",
+     "period": "Q1 FY26",
+     "period_end": "2025-06-30",
+     "publisher": "DGCI&S",
+     "series": "Buffalo Meat, Dairy & Poultry Exports",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "India produces over 300 million tonnes of fruit and vegetables a year",
+     "value": "300 million tonnes",
+     "period": "annual",
+     "period_end": null,
+     "publisher": "MoSPI / Ministry of Agriculture",
+     "series": "Fruit and Vegetable Production",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "NABARD's own assessment puts the additional cold-storage capacity India needs at 3.5 million tonnes",
+     "value": "3.5 million tonnes",
+     "period": "current",
+     "period_end": null,
+     "publisher": "NABARD",
+     "series": "Additional Cold-Storage Capacity Gap",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The Union Budget 2026-27 allocated ₹4,064 crore to the Ministry of Food Processing Industries in total",
+     "value": "₹4,064 crore",
+     "period": "FY2026-27",
+     "period_end": "2027-03-31",
+     "publisher": "Ministry of Finance / Union Budget",
+     "series": "MoFPI Total Budget Allocation",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "₹1,200 crore to PLISFPI",
+     "value": "₹1,200 crore",
+     "period": "FY2026-27",
+     "period_end": "2027-03-31",
+     "publisher": "Ministry of Finance / Union Budget",
+     "series": "PLISFPI Budget Allocation",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "₹1,700 crore to PMFME",
+     "value": "₹1,700 crore",
+     "period": "FY2026-27",
+     "period_end": "2027-03-31",
+     "publisher": "Ministry of Finance / Union Budget",
+     "series": "PMFME Budget Allocation",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "₹915 crore to PMKSY",
+     "value": "₹915 crore",
+     "period": "FY2026-27",
+     "period_end": "2027-03-31",
+     "publisher": "Ministry of Finance / Union Budget",
+     "series": "PMKSY Budget Allocation",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Under PMKSY, 399 cold-chain projects have been approved to date.",
+     "value": "399",
+     "period": "current",
+     "period_end": null,
+     "publisher": "MoFPI",
+     "series": "PMKSY Approved Cold-Chain Projects",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "In April–October of FY2023-24, the same export category fell 9.32% year-on-year",
+     "value": "9.32%",
+     "period": "April–October FY2023-24",
+     "period_end": "2023-10-31",
+     "publisher": "DGCI&S",
+     "series": "Agricultural and Processed Food Exports Growth",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "earnings dropped from US$15,423 million to US$13,985 million",
+     "value": "US$15,423 million",
+     "period": "April–October FY2022-23",
+     "period_end": "2022-10-31",
+     "publisher": "DGCI&S",
+     "series": "Agricultural and Processed Food Export Earnings",
+     "frequency": "monthly",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "PLISFPI: a job-creation target it already beat 3.39L Jobs created under the food-processing PLI scheme vs. its own 2.5 lakh target",
+     "value": "3.39 lakh jobs created vs. 2.5 lakh target",
+     "period": "June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "Ministry of Food Processing Industries (MoFPI)",
+     "series": "PLISFPI progress data (jobs created)",
+     "frequency": "live",
+     "headline": true
+    },
+    {
+     "quote": "Scheme outlay: ₹10,900 crore",
+     "value": "₹10,900 crore",
+     "period": null,
+     "period_end": null,
+     "publisher": "Ministry of Food Processing Industries (MoFPI)",
+     "series": "PLISFPI scheme outlay",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Applications approved (as of Sept 2025), 170",
+     "value": "170 applications",
+     "period": "September 2025",
+     "period_end": "2025-09-30",
+     "publisher": "Ministry of Food Processing Industries (MoFPI)",
+     "series": "PLISFPI applications approved",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "Private investment attracted, ₹9,207 crore (Sept 2025)",
+     "value": "₹9,207 crore",
+     "period": "September 2025",
+     "period_end": "2025-09-30",
+     "publisher": "Ministry of Food Processing Industries (MoFPI)",
+     "series": "PLISFPI private investment attracted",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "Processing capacity added, 35 lakh MT/year (Sept 2025)",
+     "value": "35 lakh tonnes/year",
+     "period": "September 2025",
+     "period_end": "2025-09-30",
+     "publisher": "Ministry of Food Processing Industries (MoFPI)",
+     "series": "PLISFPI processing capacity added",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "Incentive disbursement stood at ₹3,271.44 crore through June 2026",
+     "value": "₹3,271.44 crore",
+     "period": "June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "Ministry of Food Processing Industries (MoFPI)",
+     "series": "PLISFPI incentive disbursement",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "Cumulative export sales of PLI beneficiaries, Apr 2021–Sep 2025, ₹89,053.44 crore",
+     "value": "₹89,053.44 crore",
+     "period": "April 2021–September 2025",
+     "period_end": "2025-09-30",
+     "publisher": "Ministry of Food Processing Industries (MoFPI)",
+     "series": "PLISFPI cumulative export sales",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "Sales of PLI-supported products, FY2019-20, ₹58,758 crore",
+     "value": "₹58,758 crore",
+     "period": "FY2019-20",
+     "period_end": "2020-03-31",
+     "publisher": "Ministry of Food Processing Industries (MoFPI)",
+     "series": "PLISFPI sales of supported products",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Sales of PLI-supported products, FY2025-26, ₹1,08,854 crore",
+     "value": "₹1,08,854 crore",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Ministry of Food Processing Industries (MoFPI)",
+     "series": "PLISFPI sales of supported products",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "41 Mega Food Parks across 25 states, of which 25 are operational",
+     "value": "41 approved, 25 operational",
+     "period": null,
+     "period_end": null,
+     "publisher": "Ministry of Food Processing Industries (MoFPI)",
+     "series": "Mega Food Parks progress",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "adding a further 28.57 lakh tonnes of preservation and 15.41 lakh tonnes of processing capacity",
+     "value": "28.57 lakh tonnes (preservation) and 15.41 lakh tonnes (processing)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Ministry of Food Processing Industries (MoFPI)",
+     "series": "Mega Food Parks capacity addition",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "reaching an estimated 86,881 farmers with roughly 1.02 lakh direct and indirect jobs",
+     "value": "86,881 farmers reached, 1.02 lakh jobs",
+     "period": null,
+     "period_end": null,
+     "publisher": "Ministry of Food Processing Industries (MoFPI)",
+     "series": "Mega Food Parks impact",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "Food processing accounts for 8.80% of manufacturing GVA, 8.39% of agriculture GVA, 13% of national exports, and 6% of overall industrial investment",
+     "value": "8.80% (manufacturing GVA), 8.39% (agriculture GVA), 13% (national exports), 6% (industrial investment)",
+     "period": null,
+     "period_end": null,
+     "publisher": "IBEF",
+     "series": "Food processing sector shares",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "FDI into the sector... totalled roughly ₹1,15,596 crore (US$13.4 billion) from April 2000 to June 2025",
+     "value": "₹1,15,596 crore (US$13.4 billion)",
+     "period": "April 2000–June 2025",
+     "period_end": "2025-06-30",
+     "publisher": "IBEF",
+     "series": "FDI in food processing sector",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "Agricultural exports as a whole reached US$52.55 billion in FY26, up from US$51.1 billion in FY25",
+     "value": "US$52.55 billion (FY26), US$51.1 billion (FY25)",
+     "period": "FY2025, FY2026",
+     "period_end": [
+      "2025-03-31",
+      "2026-03-31"
+     ],
+     "publisher": "Eastern Mirror Nagaland / Rural Voice / IBEF",
+     "series": "Agricultural exports",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "processed food specifically estimated at around US$12.5 billion in FY25 — a 15% year-on-year rise",
+     "value": "US$12.5 billion (FY25), 15% YoY rise",
+     "period": "FY2025",
+     "period_end": "2025-03-31",
+     "publisher": "IBEF",
+     "series": "Processed food exports",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "processed food's share of India's total agricultural exports has risen from 13.7% to 20.4% over the last decade",
+     "value": "13.7% (a decade ago) to 20.4% (current)",
+     "period": null,
+     "period_end": null,
+     "publisher": "IBEF",
+     "series": "Processed food share of agricultural exports",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "India produces over 300 million tonnes of fruit and vegetables a year; an estimated 30% of it spoils before reaching a consumer",
+     "value": "300 million tonnes (annual production), ~30% spoilage",
+     "period": null,
+     "period_end": null,
+     "publisher": "NABARD (widely cited)",
+     "series": "Fruit and vegetable production and spoilage",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "NABARD's own assessment puts the additional cold-storage capacity India needs at 3.5 million tonnes",
+     "value": "3.5 million tonnes (additional cold-storage capacity needed)",
+     "period": null,
+     "period_end": null,
+     "publisher": "NABARD",
+     "series": "Cold storage capacity gap",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "an annual economic loss from inadequate cold-chain and supply-chain infrastructure at ₹92,651 crore",
+     "value": "₹92,651 crore (annual loss)",
+     "period": null,
+     "period_end": null,
+     "publisher": "NABARD (widely cited)",
+     "series": "Annual economic loss due to cold-chain gaps",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Union Budget 2026-27 allocated ₹4,064 crore to the Ministry of Food Processing Industries",
+     "value": "₹4,064 crore (total allocation)",
+     "period": "Union Budget 2026-27",
+     "period_end": "2026-03-31",
+     "publisher": "Ministry of Finance (via agrijob.in)",
+     "series": "Union Budget allocations to MoFPI",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "₹1,200 crore to PLISFPI, ₹1,700 crore to PMFME, ₹915 crore to PMKSY",
+     "value": "₹1,200 crore (PLISFPI), ₹1,700 crore (PMFME), ₹915 crore (PMKSY)",
+     "period": "Union Budget 2026-27",
+     "period_end": "2026-03-31",
+     "publisher": "Ministry of Finance (via agrijob.in)",
+     "series": "Budget allocations to specific schemes",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "399 cold-chain projects have been approved to date",
+     "value": "399 projects approved",
+     "period": null,
+     "period_end": null,
+     "publisher": "Ministry of Food Processing Industries (PMKSY)",
+     "series": "PMKSY cold-chain projects",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "export of processed, agricultural products saw a decline of 9.32% in April–October of FY2023-24",
+     "value": "9.32% decline (YoY)",
+     "period": "April–October FY2023-24",
+     "period_end": "2023-10-31",
+     "publisher": "The Tribune",
+     "series": "Agricultural product export decline",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "earnings dropped from US$15,423 million to US$13,985 million",
+     "value": "US$15,423 million (FY2022-23) to US$13,985 million (FY2023-24)",
+     "period": "April–October FY2023-24",
+     "period_end": "2023-10-31",
+     "publisher": "The Tribune",
+     "series": "Export earnings decline",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "cereal exports down nearly 24% and non-basmati rice exports down over 20%",
+     "value": "24% (cereal exports), >20% (non-basmati rice exports)",
+     "period": "April–October FY2023-24",
+     "period_end": "2023-10-31",
+     "publisher": "The Tribune",
+     "series": "Export decline by category",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "Rice (basmati + non-basmati) | 12.95 | FY25",
+     "value": "US$12.95 billion",
+     "period": "FY2025",
+     "period_end": "2025-03-31",
+     "publisher": "Eastern Mirror Nagaland / Rural Voice / IBEF",
+     "series": "Top agricultural export category (Rice)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Marine products | 7.45 | FY25",
+     "value": "US$7.45 billion",
+     "period": "FY2025",
+     "period_end": "2025-03-31",
+     "publisher": "Eastern Mirror Nagaland / Rural Voice / IBEF",
+     "series": "Top agricultural export category (Marine products)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Buffalo meat, dairy & poultry (combined) | 1.18 | Q1 FY26 (+17% YoY)",
+     "value": "US$1.18 billion (Q1 FY26), +17% YoY",
+     "period": "Q1 FY2026",
+     "period_end": "2025-09-30",
+     "publisher": "Eastern Mirror Nagaland / Rural Voice",
+     "series": "Top agricultural export category (Buffalo meat, dairy & poultry)",
+     "frequency": "quarterly",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

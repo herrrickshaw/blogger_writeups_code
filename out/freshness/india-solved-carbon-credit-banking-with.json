@@ -1,0 +1,390 @@
+{
+ "slug": "india-solved-carbon-credit-banking-with",
+ "text_sha1": "da72290761b99bf7",
+ "chars": 24336,
+ "checked": "2026-10-23T13:38:42",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "Eligible sectors approved \n 10 sectors",
+     "value": "10 sectors",
+     "period": "January 2025",
+     "period_end": "2025-01-31",
+     "publisher": "BEE",
+     "series": "Offset Mechanism eligible sectors",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "Methodologies released \n 12 methodologies",
+     "value": "12 methodologies",
+     "period": "January 2025",
+     "period_end": "2025-01-31",
+     "publisher": "BEE",
+     "series": "Offset Mechanism methodologies",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "\"Phase 1\" categories covered \n 6 categories",
+     "value": "6 categories",
+     "period": "January 2025",
+     "period_end": "2025-01-31",
+     "publisher": "BEE",
+     "series": "Offset Mechanism Phase 1 categories",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "Chestnut Carbon's US reforestation project, got there through a 25-year take-or-pay offtake agreement with Microsoft that let J.P. Morgan... structure a $210 million non-recourse project-finance facility around it",
+     "value": "$210 million",
+     "period": "as on 1 September 2026",
+     "period_end": "2026-09-01",
+     "publisher": "J.P. Morgan",
+     "series": "Chestnut Carbon project-finance facility",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "CEEW's 2026 report on durable carbon removal (produced with the Carbon Removal India Alliance) estimates India could supply 10-30% of global durable carbon-dioxide-removal capacity by 2050",
+     "value": "10-30%",
+     "period": "2050",
+     "period_end": "2050-12-31",
+     "publisher": "CEEW",
+     "series": "durable carbon-dioxide-removal capacity estimate",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "CERC's Terms and Conditions for Purchase and Sale of Carbon Credit Certificates Regulations, 2026 (notified 27 February, gazetted 3 March 2026) let an entity carry forward a surplus Carbon Credit Certificate indefinitely, with no vintage-based expiry.",
+     "value": "indefinite carry-forward period for surplus Carbon Credit Certificates (CCCs)",
+     "period": "as of notification (27 Feb 2026)",
+     "period_end": "2026-03-03",
+     "publisher": "CERC",
+     "series": "Terms and Conditions for Purchase and Sale of Carbon Credit Certificates Regulations, 2026",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "BEE has approved 10 eligible sectors, released 12 methodologies for six 'Phase 1' categories for public comment in January 2025.",
+     "value": "10 eligible sectors, 12 methodologies, 6 Phase 1 categories",
+     "period": "January 2025",
+     "period_end": "2025-01-31",
+     "publisher": "BEE",
+     "series": "Offset Mechanism methodologies for CCTS",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Chestnut Carbon's Sustainable Restoration Project, a 60,000-plus-acre afforestation, reforestation and revegetation effort... secured a $210 million non-recourse project-finance facility led by J.P. Morgan.",
+     "value": "$210 million non-recourse project-finance facility",
+     "period": "as of deal announcement (no specific date given)",
+     "period_end": null,
+     "publisher": "J.P. Morgan / PR Newswire / ESG Today",
+     "series": "Project finance deal for Chestnut Carbon's US reforestation project",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "FASB ASU 2026-02... issued 19 May 2026, effective for public companies' annual periods beginning after 15 December 2027.",
+     "value": "19 May 2026 (issuance date), effective 15 Dec 2027 (effective date)",
+     "period": "19 May 2026",
+     "period_end": "2026-05-19",
+     "publisher": "FASB",
+     "series": "ASU 2026-02: Environmental Credits and Environmental Credit Obligations",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "CEEW's 2026 report... estimates India could supply 10-30% of global durable carbon-dioxide-removal capacity by 2050.",
+     "value": "10-30% of global durable carbon-dioxide-removal capacity by 2050",
+     "period": "2050 (projection)",
+     "period_end": "2050-12-31",
+     "publisher": "CEEW",
+     "series": "Durable Carbon Removal Report 2026",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "first actual trading was expected around October 2026",
+     "value": "October 2026 (expected start of trading)",
+     "period": "October 2026",
+     "period_end": "2026-10-31",
+     "publisher": "Carbon Pulse / ESG Today",
+     "series": "CCTS trading start date",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "CERC's Terms and Conditions for Purchase and Sale of Carbon Credit Certificates Regulations, 2026 — notified 27 February 2026 and gazetted on 3 March 2026",
+     "value": "27 February 2026 (notification), 3 March 2026 (gazetted)",
+     "period": "27 Feb 2026 / 3 Mar 2026",
+     "period_end": "2026-03-03",
+     "publisher": "CERC",
+     "series": "Regulations notification and gazette dates",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "a 25-year take-or-pay offtake agreement with Microsoft covering roughly 7.5 million tons of CO2 removal",
+     "value": "7.5 million tons of CO2 removal (Microsoft offtake agreement)",
+     "period": "25-year agreement (no specific start date given)",
+     "period_end": null,
+     "publisher": "J.P. Morgan / PR Newswire",
+     "series": "Microsoft offtake agreement for Chestnut Carbon",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "trading is mandatory on CERC-approved power exchanges — the Indian Energy Exchange (IEX), Power Exchange India Ltd (PXIL), and Hindustan Power Exchange (HPX)",
+     "value": "3 approved power exchanges: IEX, PXIL, HPX",
+     "period": "as of CCTS framework (no specific date)",
+     "period_end": null,
+     "publisher": "CERC",
+     "series": "Approved trading venues for CCTS",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Grid Controller of India (GRID-INDIA) is the designated registry tracking issuance, transfer and surrender",
+     "value": "GRID-INDIA as designated registry for CCTS",
+     "period": "as of CCTS framework (no specific date)",
+     "period_end": null,
+     "publisher": "CERC",
+     "series": "Registry for CCTS transactions",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "BEE issues the certificates on Central Government approval",
+     "value": "BEE issues CCCs on Central Government approval",
+     "period": "as of CCTS framework (no specific date)",
+     "period_end": null,
+     "publisher": "BEE",
+     "series": "Certificate issuance process",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "CCTS's Offset Mechanism now has real content: BEE has approved 10 eligible sectors... spanning renewable energy, green hydrogen, industrial energy efficiency, afforestation and mangroves, and improved cookstoves.",
+     "value": "10 eligible sectors (renewable energy, green hydrogen, industrial energy efficiency, afforestation/mangroves, improved cookstoves)",
+     "period": "as of BEE approval (no specific date)",
+     "period_end": null,
+     "publisher": "BEE",
+     "series": "Eligible sectors for Offset Mechanism",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "those methodologies are adapted from existing UNFCCC Clean Development Mechanism (CDM) methodologies... released 12 methodologies covering six 'Phase 1' categories for public comment in January 2025",
+     "value": "12 methodologies adapted from UNFCCC CDM",
+     "period": "January 2025 (public comment release)",
+     "period_end": "2025-01-31",
+     "publisher": "BEE / UNFCCC",
+     "series": "Offset Mechanism methodologies",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Governance runs through the National Steering Committee for Indian Carbon Market (NSCICM), co-chaired by the Ministry of Power and the Ministry of Environment, Forest and Climate Change, with BEE as scheme administrator.",
+     "value": "NSCICM co-chaired by Ministry of Power and MoEFCC, BEE as administrator",
+     "period": "as of CCTS framework (no specific date)",
+     "period_end": null,
+     "publisher": "BEE / MoP / MoEFCC",
+     "series": "Governance structure for CCTS",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "CEEW's 2026 report... identifies finance and demand predictability — explicitly, 'predictable demand, bankable revenue streams, and risk-sharing mechanisms' — as one of three cross-cutting barriers",
+     "value": "3 cross-cutting barriers: finance, demand predictability, risk-sharing mechanisms",
+     "period": "2026 (report year)",
+     "period_end": "2026-12-31",
+     "publisher": "CEEW",
+     "series": "Durable Carbon Removal Report 2026",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "a lending syndicate that included Société Générale, CoBank, Bank of Montreal and East West Bank",
+     "value": "4 banks in lending syndicate: Société Générale, CoBank, Bank of Montreal, East West Bank",
+     "period": "as of Chestnut Carbon deal (no specific date)",
+     "period_end": null,
+     "publisher": "J.P. Morgan / PR Newswire",
+     "series": "Lending syndicate for Chestnut Carbon deal",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "FASB ASU 2026-02... effective for public companies' annual periods beginning after 15 December 2027",
+     "value": "effective 15 Dec 2027",
+     "period": "15 Dec 2027 (effective date)",
+     "period_end": "2027-12-15",
+     "publisher": "FASB",
+     "series": "ASU 2026-02 effective date",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "CEEW's report on durable carbon removal recommends India adopt something closer to Japan's GX-ETS model",
+     "value": "Japan's GX-ETS model as recommended design for India",
+     "period": "2026 (report year)",
+     "period_end": "2026-12-31",
+     "publisher": "CEEW",
+     "series": "Durable Carbon Removal Report 2026",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "over-the-counter trading is barred",
+     "value": "OTC trading explicitly barred for CCTS",
+     "period": "as of CCTS framework (no specific date)",
+     "period_end": null,
+     "publisher": "CERC",
+     "series": "Trading rules for CCTS",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "CERC sets the actual trading rules and a floor/forbearance price band",
+     "value": "CERC sets floor/forbearance price band for CCTS",
+     "period": "as of CCTS framework (no specific date)",
+     "period_end": null,
+     "publisher": "CERC",
+     "series": "Trading rules and price band",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "a 25-year take-or-pay offtake agreement with Microsoft",
+     "value": "25-year take-or-pay offtake agreement",
+     "period": "25-year duration (no specific start date)",
+     "period_end": null,
+     "publisher": "Chestnut Carbon / Microsoft",
+     "series": "Offtake agreement for Chestnut Carbon",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "a carbon-market information portal ('Prakriti 2026') having launched in New Delhi ahead of that [trading start]",
+     "value": "Prakriti 2026 portal launched in New Delhi",
+     "period": "ahead of October 2026 trading start",
+     "period_end": "2026-10-31",
+     "publisher": "Carbon Pulse / ESG Today",
+     "series": "Prakriti 2026 portal launch",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "the same infrastructure India already uses for Renewable Energy Certificates",
+     "value": "same infrastructure as Renewable Energy Certificates (RECs)",
+     "period": "as of CCTS framework (no specific date)",
+     "period_end": null,
+     "publisher": "CERC",
+     "series": "Trading infrastructure for CCTS",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "the Integrity Council for Voluntary Carbon Markets' (ICVCM) Core Carbon Principles... predates ICVCM's 2023 Core Carbon Principles entirely",
+     "value": "ICVCM Core Carbon Principles (2023)",
+     "period": "2023 (Core Carbon Principles release)",
+     "period_end": "2023-12-31",
+     "publisher": "ICVCM",
+     "series": "Core Carbon Principles",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "CEEW's 2026 report... estimates India could supply 10-30% of global durable carbon-dioxide-removal capacity by 2050",
+     "value": "10-30% of global durable carbon-dioxide-removal capacity by 2050",
+     "period": "2050 (projection)",
+     "period_end": "2050-12-31",
+     "publisher": "CEEW",
+     "series": "Durable Carbon Removal Report 2026",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Chestnut Carbon's Sustainable Restoration Project, a 60,000-plus-acre afforestation, reforestation and revegetation effort",
+     "value": "60,000-plus acres for afforestation/reforestation/revegetation",
+     "period": "as of project scope (no specific date)",
+     "period_end": null,
+     "publisher": "J.P. Morgan / PR Newswire",
+     "series": "Chestnut Carbon project scope",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "a lending syndicate that included Société Générale, CoBank, Bank of Montreal and East West Bank",
+     "value": "4 banks in lending syndicate: Société Générale, CoBank, Bank of Montreal, East West Bank",
+     "period": "as of Chestnut Carbon deal (no specific date)",
+     "period_end": null,
+     "publisher": "J.P. Morgan / PR Newswire",
+     "series": "Lending syndicate for Chestnut Carbon deal",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "the same infrastructure India already uses for Renewable Energy Certificates",
+     "value": "same infrastructure as RECs for CCTS trading",
+     "period": "as of CCTS framework (no specific date)",
+     "period_end": null,
+     "publisher": "CERC",
+     "series": "Trading infrastructure for CCTS",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "a 25-year take-or-pay offtake agreement with Microsoft covering roughly 7.5 million tons of CO2 removal",
+     "value": "7.5 million tons of CO2 removal (Microsoft offtake)",
+     "period": "25-year agreement (no specific start date)",
+     "period_end": null,
+     "publisher": "J.P. Morgan / PR Newswire",
+     "series": "Offtake agreement for Chestnut Carbon",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "the 25-year take-or-pay offtake agreement with Microsoft that let J.P. Morgan... structure a $210 million non-recourse project-finance facility",
+     "value": "$210 million non-recourse project-finance facility",
+     "period": "as of deal announcement (no specific date)",
+     "period_end": null,
+     "publisher": "J.P. Morgan / PR Newswire",
+     "series": "Project finance deal for Chestnut Carbon",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "a lending syndicate that included Société Générale, CoBank, Bank of Montreal and East West Bank",
+     "value": "4 banks in lending syndicate: Société Générale, CoBank, Bank of Montreal, East West Bank",
+     "period": "as of Chestnut Carbon deal (no specific date)",
+     "period_end": null,
+     "publisher": "J.P. Morgan / PR Newswire",
+     "series": "Lending syndicate for Chestnut Carbon deal",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "the same infrastructure India already uses for Renewable Energy Certificates",
+     "value": "same infrastructure as RECs for CCTS trading",
+     "period": "as of CCTS framework (no specific date)",
+     "period_end": null,
+     "publisher": "CERC",
+     "series": "Trading infrastructure for CCTS",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,550 @@
+{
+ "slug": "india-tracks-every-taxpayer-in-minutes",
+ "text_sha1": "f8f3a7eb80b6658f",
+ "chars": 26600,
+ "checked": "2026-10-23T13:39:36",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "80 crore PANs allotted by March 2025",
+     "value": "80 crore PANs",
+     "period": "March 2025",
+     "period_end": "2025-03-31",
+     "publisher": "Income Tax Department",
+     "series": "PAN allotment statistics",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "1.3 of 5.47 lakh Health facilities actually connected to the digital health mission, against those registered",
+     "value": "1.3 lakh of 5.47 lakh health facilities",
+     "period": "August 2026",
+     "period_end": "2026-08-31",
+     "publisher": "Digital Health News",
+     "series": "Facility registry and connection count",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "US$6.35bn Cognizant’s health-sciences revenue in 2025, 30% of the total, from a workforce more than 85% in India",
+     "value": "US$6.35 billion",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "Cognizant",
+     "series": "Annual Report / 10-K",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "about 97.6 crore ABHAs (September)",
+     "value": "about 97.6 crore ABHAs",
+     "period": "September 2026",
+     "period_end": "2026-09-30",
+     "publisher": "PIB",
+     "series": "Ayushman Bharat Digital Mission update",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "7.8 crore income-tax returns filed by 31 August",
+     "value": "7.8 crore returns",
+     "period": "by 31 August 2026",
+     "period_end": "2026-08-31",
+     "publisher": "IBEF",
+     "series": "Income-tax returns filed",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "1.67 crore active GST taxpayers",
+     "value": "1.67 crore taxpayers",
+     "period": "2026",
+     "period_end": "2026-08-31",
+     "publisher": "GSTN",
+     "series": "GST taxpayer base",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Rs 350 crore budgeted for 2026-27",
+     "value": "Rs 350 crore",
+     "period": "2026-27",
+     "period_end": "2027-03-31",
+     "publisher": "budget coverage",
+     "series": "ABDM budget estimate",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "passed 50 crore consultations in September 2026",
+     "value": "50 crore consultations",
+     "period": "September 2026",
+     "period_end": "2026-09-30",
+     "publisher": "News on AIR",
+     "series": "eSanjeevani teleconsultation count",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "TCS earned 10.4% of its FY2025-26 revenue from life sciences and healthcare",
+     "value": "10.4%",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "TCS",
+     "series": "Results release",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "Cognizant (CY2025, 85%+ staff in India) \n 30.1%",
+     "value": "30.1%",
+     "period": "CY2025",
+     "period_end": "2025-12-31",
+     "publisher": "Cognizant",
+     "series": "Healthcare and life sciences, % of revenue",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "HCLTech (Q1 FY26) \n 14.5%",
+     "value": "14.5%",
+     "period": "Q1 FY26",
+     "period_end": "2025-06-30",
+     "publisher": "HCLTech",
+     "series": "Healthcare and life sciences, % of revenue",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "Wipro (Q4 FY26) \n 14.4%",
+     "value": "14.4%",
+     "period": "Q4 FY26",
+     "period_end": "2026-03-31",
+     "publisher": "Wipro",
+     "series": "Healthcare and life sciences, % of revenue",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "Infosys (Q1 FY27) \n 8.0%",
+     "value": "8.0%",
+     "period": "Q1 FY27",
+     "period_end": "2026-06-30",
+     "publisher": "Infosys",
+     "series": "Healthcare and life sciences, % of revenue",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "Tech Mahindra (Q4 FY26) \n 7.4%",
+     "value": "7.4%",
+     "period": "Q4 FY26",
+     "period_end": "2026-03-31",
+     "publisher": "Tech Mahindra",
+     "series": "Healthcare and life sciences, % of revenue",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "Novartis has more than 9,000 staff in India, about 11% of its global workforce",
+     "value": "9,000 staff",
+     "period": "September 2025",
+     "period_end": "2025-09-30",
+     "publisher": "Novartis India",
+     "series": "Workforce breakdown",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Sanofi has raised its Hyderabad centre’s target to about 4,500",
+     "value": "4,500 staff",
+     "period": "September 2025",
+     "period_end": "2025-09-30",
+     "publisher": "Sanofi",
+     "series": "Hyderabad centre target",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Centralised Processing Centre, Bengaluru (Infosys) | 1,078.59 | 2009 approval, revised 2014",
+     "value": "Rs 1,078.59 crore",
+     "period": "2014",
+     "period_end": "2014-12-31",
+     "publisher": "pmindia.gov.in summary",
+     "series": "Centralised Processing Centre, Bengaluru",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Integrated e-filing and CPC 2.0 (Infosys) | 4,241.97 | approved Jan 2019, 8.5 years",
+     "value": "Rs 4,241.97 crore",
+     "period": "Jan 2019",
+     "period_end": "2019-01-31",
+     "publisher": "Lok Sabha reply via Business Today",
+     "series": "Integrated e-filing and CPC 2.0",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "GST Network (Infosys) | 1,380 | 2015, 5 years",
+     "value": "Rs 1,380 crore",
+     "period": "2015",
+     "period_end": "2015-12-31",
+     "publisher": "press",
+     "series": "GST Network",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "PAN 2.0 | 1,435 | approved Nov 2024",
+     "value": "Rs 1,435 crore",
+     "period": "Nov 2024",
+     "period_end": "2024-11-30",
+     "publisher": "Business Standard",
+     "series": "PAN 2.0",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Ayushman Bharat Digital Mission | 1,600 | approved Feb 2022, for 2021-26",
+     "value": "Rs 1,600 crore",
+     "period": "2021-26",
+     "period_end": "2026-03-31",
+     "publisher": "press",
+     "series": "Ayushman Bharat Digital Mission",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "ABDM budget estimate, 2026-27 | 350 | one year; 0.33% of the health ministry’s Rs 1,06,530 crore",
+     "value": "Rs 1,06,530 crore",
+     "period": "2026-27",
+     "period_end": "2027-03-31",
+     "publisher": "budget coverage",
+     "series": "Health ministry budget",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Digital Health Incentive Scheme, paid | 136 | to 18 Jun 2026; Rs 26 crore of it to software firms",
+     "value": "Rs 136 crore",
+     "period": "to 18 Jun 2026",
+     "period_end": "2026-06-18",
+     "publisher": "PIB backgrounder",
+     "series": "Digital Health Incentive Scheme",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "PM-JAY authorised 2.74 crore hospital admissions in 2025-26",
+     "value": "2.74 crore admissions",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Kashmir Life",
+     "series": "PM-JAY hospital admissions",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "private insurers processed 3.26 crore health claims in 2024-25, of which 8% were rejected",
+     "value": "3.26 crore health claims",
+     "period": "2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "Business Standard on IRDAI data",
+     "series": "Private health insurance claims",
+     "frequency": "annual",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "80 crore PANs allotted by March 2025; a new one takes about ten minutes, and a new company gets one at incorporation",
+     "value": "80.08 crore PANs",
+     "period": "as on 31 Mar 2025",
+     "period_end": "2025-03-31",
+     "publisher": "Income Tax Department",
+     "series": "Permanent Account Number (PAN) allotment statistics",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "7.8 crore income-tax returns filed by 31 August 2026",
+     "value": "7.8 crore income-tax returns",
+     "period": "AY 2026-27 (as on 31 Aug 2026)",
+     "period_end": "2026-08-31",
+     "publisher": "Income Tax Department",
+     "series": "Income Tax Returns filed",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "1.67 crore active GST taxpayers",
+     "value": "1.67 crore active GST taxpayers",
+     "period": "as on 31 Aug 2026",
+     "period_end": "2026-08-31",
+     "publisher": "GST Network (GSTN)",
+     "series": "Active GST taxpayer base",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "1.3 of 5.47 lakh Health facilities actually connected to the digital health mission",
+     "value": "1.3 lakh connected health facilities",
+     "period": null,
+     "period_end": null,
+     "publisher": "National Health Authority",
+     "series": "Health facility registry and connectivity",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "About 97.6 crore ABHAs (September)",
+     "value": "97.6 crore ABHAs",
+     "period": "as on 17 Sep 2026",
+     "period_end": "2026-09-17",
+     "publisher": "National Health Authority (PIB)",
+     "series": "Ayushman Bharat Health Account (ABHA) registrations",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "Rs 350 crore budgeted for 2026-27",
+     "value": "Rs 350 crore",
+     "period": "2026-27",
+     "period_end": "2027-03-31",
+     "publisher": "Health Ministry",
+     "series": "Ayushman Bharat Digital Mission (ABDM) budget",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Rs 1,600 crore approved for the mission, 2021-26",
+     "value": "Rs 1,600 crore",
+     "period": "2021-26",
+     "period_end": "2026-03-31",
+     "publisher": "Health Ministry",
+     "series": "Ayushman Bharat Digital Mission (ABDM) approved outlay",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "Digital Health Incentive Scheme, paid | 136 crore to 18 Jun 2026",
+     "value": "Rs 136 crore",
+     "period": "as on 18 Jun 2026",
+     "period_end": "2026-06-18",
+     "publisher": "PIB / Health Ministry",
+     "series": "Digital Health Incentive Scheme disbursements",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "Rs 1,078.59 crore (revised to) for the Centralised Processing Centre, Bengaluru",
+     "value": "Rs 1,078.59 crore",
+     "period": "2009 approval, revised 2014",
+     "period_end": "2014-03-31",
+     "publisher": "PMO / Finance Ministry",
+     "series": "Centralised Processing Centre (CPC) contract value",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Rs 4,241.97 crore approved for integrated e-filing and CPC 2.0 (Infosys)",
+     "value": "Rs 4,241.97 crore",
+     "period": "approved Jan 2019",
+     "period_end": "2019-01-31",
+     "publisher": "Lok Sabha / Finance Ministry",
+     "series": "Integrated e-filing and CPC 2.0 contract",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Rs 1,380 crore GST Network contract",
+     "value": "Rs 1,380 crore",
+     "period": "2015, 5 years",
+     "period_end": "2020-03-31",
+     "publisher": "Finance Ministry",
+     "series": "GST Network (GSTN) contract value",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Rs 1,435 crore PAN 2.0 approved",
+     "value": "Rs 1,435 crore",
+     "period": "approved Nov 2024",
+     "period_end": "2024-11-30",
+     "publisher": "Finance Ministry",
+     "series": "PAN 2.0 contract value",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "eSanjeevani passed 50 crore consultations in September 2026",
+     "value": "50 crore consultations",
+     "period": "as on Sep 2026",
+     "period_end": "2026-09-30",
+     "publisher": "National Health Authority (C-DAC)",
+     "series": "eSanjeevani teleconsultation volumes",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "US$6.35bn Cognizant’s health-sciences revenue in 2025, 30% of the total",
+     "value": "US$6.35 billion",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "Cognizant 10-K",
+     "series": "Health sciences revenue",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "TCS earned 10.4% of its FY2025-26 revenue from life sciences and healthcare, about US$3.1 billion",
+     "value": "US$3.1 billion (≈ Rs 27,000 crore)",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "TCS results release",
+     "series": "Life sciences and healthcare revenue",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "About 3 lakh health and life-sciences capability-centre employment in India",
+     "value": "3 lakh employees",
+     "period": null,
+     "period_end": null,
+     "publisher": "Nexdigm (single secondary source)",
+     "series": "Health and life-sciences capability-centre employment",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "PM-JAY authorised 2.74 crore hospital admissions in 2025-26",
+     "value": "2.74 crore admissions",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Lok Sabha reply / IRDAI",
+     "series": "Ayushman Bharat Pradhan Mantri Jan Arogya Yojana (PM-JAY) admissions",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Private insurers processed 3.26 crore health claims in 2024-25, of which 8% were rejected",
+     "value": "3.26 crore claims (8% rejected)",
+     "period": "2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "IRDAI / Business Standard",
+     "series": "Private health insurance claims",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "23 crore Scan-and-Share tokens",
+     "value": "23 crore Scan-and-Share tokens",
+     "period": null,
+     "period_end": null,
+     "publisher": "National Health Authority",
+     "series": "ABHA Scan-and-Share usage",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Digital Personal Data Protection Rules notified in November 2025, obligations phasing in by about May 2027",
+     "value": "May 2027",
+     "period": "obligations phase-in",
+     "period_end": "2027-05-31",
+     "publisher": "Ministry of Electronics and IT",
+     "series": "Digital Personal Data Protection Rules",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "About 9,000 staff in India, about 11% of its global workforce; Novartis",
+     "value": "9,000 staff in India",
+     "period": null,
+     "period_end": null,
+     "publisher": "Novartis India",
+     "series": "Novartis India capability centre employment",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Sanofi has raised its Hyderabad centre’s target to about 4,500",
+     "value": "4,500 staff",
+     "period": null,
+     "period_end": null,
+     "publisher": "Sanofi release",
+     "series": "Sanofi Hyderabad centre employment target",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Elevance Health’s Indian arm, Carelon Global Solutions, is estimated at about 22,900 people",
+     "value": "22,900 people",
+     "period": null,
+     "period_end": null,
+     "publisher": "Revelio Labs (third-party estimate)",
+     "series": "Elevance Health (Carelon) capability centre employment",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "23 of the world’s 50 largest life-sciences companies have a capability centre in India",
+     "value": "23 companies",
+     "period": "as on Sep 2025",
+     "period_end": "2025-09-30",
+     "publisher": "EY survey",
+     "series": "Life-sciences capability centres in India",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Infosys agreed in March 2026 to buy Optimum Healthcare IT for up to US$465 million",
+     "value": "US$465 million",
+     "period": "March 2026",
+     "period_end": "2026-03-31",
+     "publisher": "Infosys press release",
+     "series": "Optimum Healthcare IT acquisition",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Cognizant was reported in July 2026 to have won a multi-year deal from the US insurer Centene worth more than US$500 million",
+     "value": "US$500 million+",
+     "period": "July 2026",
+     "period_end": "2026-07-31",
+     "publisher": "Business Standard",
+     "series": "Cognizant-Centene deal",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "US Bureau of Labor Statistics projects medical transcriptionists to fall about 5% between 2024 and 2034, from roughly 43,900 to 41,800",
+     "value": "43,900 (2024) → 41,800 (2034)",
+     "period": "2024-2034",
+     "period_end": "2034-12-31",
+     "publisher": "US Bureau of Labor Statistics",
+     "series": "Medical transcriptionist employment projections",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "Prime Minister’s 2019 statement that PM-JAY would create 11 lakh jobs",
+     "value": "11 lakh jobs",
+     "period": "2019",
+     "period_end": "2019-12-31",
+     "publisher": "Prime Minister’s Office",
+     "series": "PM-JAY job creation estimate",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,229 @@
+{
+ "slug": "ai-high-demand-launch-tracker",
+ "text_sha1": "2161888902ebb10f",
+ "chars": 6478,
+ "checked": "2026-10-23T10:28:35",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": []
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "Three rounds announced 1 Sep – 7 Oct 2026 · $690M combined · Temporal confirmed; Nous and AIR per TechCrunch",
+     "value": "$690M combined",
+     "period": "1 Sep – 7 Oct 2026",
+     "period_end": "2026-10-07",
+     "publisher": "TechCrunch (for Nous and AIR), Temporal blog (for Temporal)",
+     "series": "AI-agent infrastructure funding rounds",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "$550M · Temporal · Series E",
+     "value": "$550M",
+     "period": "1 Sep – 7 Oct 2026",
+     "period_end": "2026-10-07",
+     "publisher": "Temporal blog",
+     "series": "Temporal Series E funding round",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "$90M · Nous Research · Series B",
+     "value": "$90M",
+     "period": "1 Sep – 7 Oct 2026",
+     "period_end": "2026-10-07",
+     "publisher": "TechCrunch",
+     "series": "Nous Research Series B funding round",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "$50M · AIR · Two seed rounds",
+     "value": "$50M",
+     "period": "1 Sep – 7 Oct 2026",
+     "period_end": "2026-10-07",
+     "publisher": "TechCrunch",
+     "series": "AIR seed funding rounds",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The August rounds (HappyRobot, Convex, Sapiom, $242M) were logged in the previous refresh.",
+     "value": "$242M",
+     "period": "August 2026",
+     "period_end": "2026-08-31",
+     "publisher": "Previous AI Tracker refresh",
+     "series": "AI-agent infrastructure funding rounds (August 2026)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Ruflo (67.6k stars / 8.1k forks) and Graphify (16 stars / 4 forks) are still the 11 August 2026 snapshot",
+     "value": "67,600 stars, 8,100 forks (Ruflo); 16 stars, 4 forks (Graphify)",
+     "period": "11 August 2026",
+     "period_end": "2026-08-11",
+     "publisher": "GitHub API",
+     "series": "GitHub star and fork counts",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Several SEO blogs claim '85,000+ stars' for 'Graphify'",
+     "value": "85,000+ stars",
+     "period": null,
+     "period_end": null,
+     "publisher": "Unverified SEO blogs",
+     "series": "Unverified GitHub star counts for Graphify",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Gemini Spark’s $99.99/mo price is still single-source.",
+     "value": "$99.99/month",
+     "period": null,
+     "period_end": null,
+     "publisher": "Single-source (unspecified)",
+     "series": "Gemini Spark pricing",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Instinct, $1B; Manus, over $500M",
+     "value": "$1B (Instinct), over $500M (Manus)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Aggregator reports (unspecified)",
+     "series": "AI funding rounds (Instinct, Manus)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Composio $25M Series A, 14 Sep 2026",
+     "value": "$25M",
+     "period": "14 Sep 2026",
+     "period_end": "2026-09-14",
+     "publisher": "Aggregator (unspecified)",
+     "series": "Composio Series A funding round",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "OpenAI’s GPT-6 rollout and its 29 September DevDay",
+     "value": "GPT-6 rollout, DevDay on 29 September 2026",
+     "period": "29 September 2026",
+     "period_end": "2026-09-29",
+     "publisher": "OpenAI",
+     "series": "GPT-6 and Agents API releases",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "Google’s Gemini agent for work and its restricted Gemini 4 Argon",
+     "value": "Gemini agent for work, Gemini 4 Argon (restricted)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Google",
+     "series": "Gemini model releases",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Meta’s consumer Muse agent",
+     "value": "Muse agent (consumer)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Meta",
+     "series": "Muse agent release",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Cursor Origin (changelog 17 Aug, an older listing 13 Aug, TechCrunch 18 Aug)",
+     "value": "Cursor Origin (dates: 13 Aug, 17 Aug, 18 Aug)",
+     "period": "13 Aug – 18 Aug 2026",
+     "period_end": "2026-08-18",
+     "publisher": "Cursor changelog, TechCrunch",
+     "series": "Cursor Origin release dates",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Qwen3.8-Flash-Next (repo 24 Aug, press 26–28 Aug)",
+     "value": "Qwen3.8-Flash-Next (repo: 24 Aug, press: 26–28 Aug)",
+     "period": "24 Aug – 28 Aug 2026",
+     "period_end": "2026-08-28",
+     "publisher": "Qwen repo, press releases",
+     "series": "Qwen3.8-Flash-Next release",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "UiPath voice agents (14 or 17 Sep)",
+     "value": "UiPath voice agents (14 or 17 Sep)",
+     "period": "14 Sep or 17 Sep 2026",
+     "period_end": "2026-09-17",
+     "publisher": "UiPath",
+     "series": "UiPath voice agent release",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Qwen3.8-Max open weights (repo 8–12 Aug, CNBC 17 Aug)",
+     "value": "Qwen3.8-Max open weights (repo: 8–12 Aug, CNBC: 17 Aug)",
+     "period": "8 Aug – 17 Aug 2026",
+     "period_end": "2026-08-17",
+     "publisher": "Qwen repo, CNBC",
+     "series": "Qwen3.8-Max open weights release",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Aleph Alpha released an open-weight model called Kolibri-1 on 3 October 2026",
+     "value": "Kolibri-1 model release on 3 Oct 2026",
+     "period": "3 October 2026",
+     "period_end": "2026-10-03",
+     "publisher": "Aleph Alpha",
+     "series": "Kolibri-1 model release",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Cloudflare's Kitesurf agent browser gained WebMCP support on 28 September",
+     "value": "WebMCP support for Kitesurf on 28 Sep 2026",
+     "period": "28 September 2026",
+     "period_end": "2026-09-28",
+     "publisher": "Cloudflare",
+     "series": "Kitesurf agent browser updates",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "17 new movers added",
+     "value": "17 new movers",
+     "period": "as of 9 October 2026",
+     "period_end": "2026-10-09",
+     "publisher": "AI Tracker refresh",
+     "series": "New movers in AI Tracker",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Six existing items were updated, four carried over unchanged, and thirteen were retired",
+     "value": "6 updated, 4 unchanged, 13 retired",
+     "period": "as of 9 October 2026",
+     "period_end": "2026-10-09",
+     "publisher": "AI Tracker refresh",
+     "series": "Item status updates in AI Tracker",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,310 @@
+{
+ "slug": "indias-tyre-waste-problem-and-crumb",
+ "text_sha1": "ed9b4b09befc4efc",
+ "chars": 10581,
+ "checked": "2026-10-23T14:43:23",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "India generates roughly 1.5 million tonnes of end-of-life tyres a year",
+     "value": "1.5 million tonnes",
+     "period": "per year",
+     "period_end": null,
+     "publisher": "secondary sources",
+     "series": "waste-tyre generation",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "the formal sector recycles only about 450,000 tonnes of it — under a third.",
+     "value": "450,000 tonnes",
+     "period": "per year",
+     "period_end": null,
+     "publisher": "secondary sources",
+     "series": "formal sector tyre recycling",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "Projected India tyre market by 2026, up from ~179M in 2020",
+     "value": "211M units",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "industry estimates",
+     "series": "India tyre market projection",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "national consumption reached roughly 8.8 million tonnes in FY2023-24",
+     "value": "8.8 million tonnes",
+     "period": "FY2023-24",
+     "period_end": "2024-03-31",
+     "publisher": "PPAC / industry sources",
+     "series": "national petroleum bitumen consumption",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "projected near 10 million tonnes in FY2024-25 (+14% year-on-year)",
+     "value": "10 million tonnes",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "PPAC / industry sources",
+     "series": "national petroleum bitumen consumption projection",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "at an annual cost of about ₹25,000–30,000 crore — roughly $3.0–3.6 billion at FY24 rates",
+     "value": "₹25,000–30,000 crore",
+     "period": "FY24",
+     "period_end": "2024-03-31",
+     "publisher": "DGCI&S / Ministry of Commerce",
+     "series": "petroleum bitumen annual import cost",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Iraq, the UAE and Iran together account for about 86% of India's HSN 2713 import volumes",
+     "value": "86%",
+     "period": "latest available",
+     "period_end": null,
+     "publisher": "DGCI&S",
+     "series": "HSN 2713 import volume share by source",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Revenue was around ₹572 crore in the most recent reported year.",
+     "value": "₹572 crore",
+     "period": "most recent reported year",
+     "period_end": null,
+     "publisher": "Tinna Rubber & Infrastructure Limited",
+     "series": "company annual revenue",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "In FY2026 the company won a two-year, ₹75.79 crore contract from Indian Oil Corporation",
+     "value": "₹75.79 crore",
+     "period": "FY2026",
+     "period_end": "2026-03-31",
+     "publisher": "Indian Oil Corporation / Tinna Rubber",
+     "series": "CRM supply contract value",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Operating a 300-tonne micro tyre-recycling site in Alwar, Rajasthan",
+     "value": "300-tonne",
+     "period": "current",
+     "period_end": null,
+     "publisher": "Regrip",
+     "series": "micro tyre-recycling site capacity",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Tinna Rubber reported ₹23.9 crore in EPR-credit revenue in just the first nine months of FY2026",
+     "value": "₹23.9 crore",
+     "period": "first nine months of FY2026",
+     "period_end": "2025-12-31",
+     "publisher": "Tinna Rubber & Infrastructure Limited",
+     "series": "EPR-credit revenue",
+     "frequency": "quarterly",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "India generates roughly 1.5 million tonnes of end-of-life tyres a year",
+     "value": "1.5 million tonnes",
+     "period": "per year",
+     "period_end": null,
+     "publisher": "secondary source (article)",
+     "series": "estimated waste tyre generation",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "The formal sector recycles only about 450,000 tonnes of it — under a third",
+     "value": "450,000 tonnes",
+     "period": null,
+     "period_end": null,
+     "publisher": "secondary source (article)",
+     "series": "formal sector waste tyre recycling",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "~70% Of waste tyres estimated to be dumped or stockpiled",
+     "value": "70%",
+     "period": null,
+     "period_end": null,
+     "publisher": "secondary source (article)",
+     "series": "waste tyre disposal (dumped/stockpiled)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "211M units Projected India tyre market by 2026, up from ~179M in 2020",
+     "value": "211 million units (projected 2026), 179 million units (2020)",
+     "period": "2026 (projected), 2020",
+     "period_end": "2026-12-31 (projected), 2020-12-31",
+     "publisher": "secondary source (article)",
+     "series": "India tyre market size",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "Lab data at 0–14% crumb-rubber content by weight (SSPACE Wardha, 2025 study)",
+     "value": "0–14% by weight",
+     "period": null,
+     "period_end": null,
+     "publisher": "SSPACE Wardha (2025 study)",
+     "series": "lab test data on crumb-rubber-modified bitumen",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Penetration value (mm) — lower is harder: 5% → 69 mm, 9% → 49.33 mm, 13% → 19.67 mm, 14% → 14.33 mm",
+     "value": "69 mm (5%), 49.33 mm (9%), 19.67 mm (13%), 14.33 mm (14%)",
+     "period": null,
+     "period_end": null,
+     "publisher": "SSPACE Wardha (2025 study)",
+     "series": "penetration value of crumb-rubber-modified bitumen",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Softening point (°C) — higher resists rutting better: 5% → 50.3°C, 9% → 51.65°C, 13% → 54.5°C, 14% → 55.0°C",
+     "value": "50.3°C (5%), 51.65°C (9%), 54.5°C (13%), 55.0°C (14%)",
+     "period": null,
+     "period_end": null,
+     "publisher": "SSPACE Wardha (2025 study)",
+     "series": "softening point of crumb-rubber-modified bitumen",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "national consumption reached roughly 8.8 million tonnes in FY2023-24",
+     "value": "8.8 million tonnes",
+     "period": "FY2023-24",
+     "period_end": "2024-03-31",
+     "publisher": "secondary source (article)",
+     "series": "petroleum bitumen consumption (HSN 2713)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "projected near 10 million tonnes in FY2024-25 (+14% YoY)",
+     "value": "10 million tonnes (+14% YoY)",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "secondary source (article)",
+     "series": "petroleum bitumen consumption projection (HSN 2713)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "~40–50% of that demand is met through imports",
+     "value": "40–50%",
+     "period": null,
+     "period_end": null,
+     "publisher": "secondary source (article)",
+     "series": "import share of bitumen demand",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "annual cost of about ₹25,000–30,000 crore (~$3.0–3.6 billion at FY24 exchange rates)",
+     "value": "₹25,000–30,000 crore (~$3.0–3.6 billion)",
+     "period": "FY2024",
+     "period_end": "2024-03-31",
+     "publisher": "secondary source (article)",
+     "series": "annual bitumen import cost",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Iraq, the UAE and Iran together account for about 86% of India's HSN 2713 import volumes",
+     "value": "86%",
+     "period": null,
+     "period_end": null,
+     "publisher": "secondary source (article)",
+     "series": "top import sources for bitumen (HSN 2713)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Revenue was around ₹572 crore in the most recent reported year",
+     "value": "₹572 crore",
+     "period": "FY2026 (reported)",
+     "period_end": "2026-03-31",
+     "publisher": "Tinna Rubber & Infrastructure Ltd (company disclosure)",
+     "series": "company revenue",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "won a two-year, ₹75.79 crore contract from Indian Oil Corporation",
+     "value": "₹75.79 crore (two-year)",
+     "period": "FY2026 (contract period)",
+     "period_end": "2027-03-31",
+     "publisher": "Tinna Rubber & Infrastructure Ltd (company disclosure)",
+     "series": "government-linked CRM supply contract",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Tinna Rubber reported ₹23.9 crore in EPR-credit revenue in just the first nine months of FY2026",
+     "value": "₹23.9 crore (9 months)",
+     "period": "FY2026 (Jan-Sep)",
+     "period_end": "2025-09-30",
+     "publisher": "Tinna Rubber & Infrastructure Ltd (company disclosure)",
+     "series": "EPR-credit revenue",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "Producers, importers, recyclers and retreaders must register on the CPCB’s dedicated EPR portal and meet annual recycling obligations calculated against their own tyre production or imports two years prior. ... targets ramp up fast: 35% of 2020-21 production/imports in 2022-23, 70% in 2023-24, and 100% of the volume from two years prior, from 2024-25 onward.",
+     "value": "35% (2022-23), 70% (2023-24), 100% (2024-25 onward)",
+     "period": "2022-23, 2023-24, 2024-25 onward",
+     "period_end": "2023-03-31, 2024-03-31, 2025-03-31",
+     "publisher": "CPCB (Hazardous and Other Wastes Rules, 2022)",
+     "series": "EPR recycling obligations for waste tyres",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "A tyre is roughly 70% recoverable rubber by weight once steel and fibre are stripped out.",
+     "value": "70%",
+     "period": null,
+     "period_end": null,
+     "publisher": "secondary source (article)",
+     "series": "recoverable rubber content in waste tyres",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "~1 million tonnes still going to dumping, stockpiling or informal pyrolysis",
+     "value": "1 million tonnes",
+     "period": null,
+     "period_end": null,
+     "publisher": "secondary source (article)",
+     "series": "waste tyre informal disposal",
+     "frequency": "annual",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

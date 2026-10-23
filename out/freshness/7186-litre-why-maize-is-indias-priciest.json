@@ -1,0 +1,730 @@
+{
+ "slug": "7186-litre-why-maize-is-indias-priciest",
+ "text_sha1": "1025d68247d85efc",
+ "chars": 18302,
+ "checked": "2026-10-23T10:16:15",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "Maize is now India's most expensive ethanol feedstock by government-set price — ₹71.86 a litre",
+     "value": "₹71.86 a litre",
+     "period": "ESY 2025-26",
+     "period_end": "2026-06-30",
+     "publisher": "PIB / ministry",
+     "series": "Ex-mill ethanol prices by feedstock",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "maize-based ethanol volumes went from zero to nearly 500 crore litres in three years.",
+     "value": "498.49 crore litres",
+     "period": "ESY 2024-25",
+     "period_end": "2025-10-31",
+     "publisher": "PIB / ministry",
+     "series": "Maize-based ethanol supply to OMCs",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "actual maize acreage fell 9.7 per cent.",
+     "value": "9.7 per cent",
+     "period": "Kharif 2026 (as of 24 Jul)",
+     "period_end": "2026-07-24",
+     "publisher": "DA&FW",
+     "series": "Kharif sowing progress report - Maize area",
+     "frequency": "weekly",
+     "headline": true
+    },
+    {
+     "quote": "Rice (paddy) | Kharif 2026 (as of 24 Jul) | 234.43 lakh ha",
+     "value": "234.43 lakh ha",
+     "period": "Kharif 2026 (as of 24 Jul)",
+     "period_end": "2026-07-24",
+     "publisher": "DA&FW",
+     "series": "Kharif sowing progress report - Rice area",
+     "frequency": "weekly",
+     "headline": true
+    },
+    {
+     "quote": "Wheat | Rabi 2025-26 (final) | 341.57 lakh ha",
+     "value": "341.57 lakh ha",
+     "period": "Rabi 2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "PIB / ministry",
+     "series": "Rabi sowing final release - Wheat area",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Sugarcane | Kharif 2026 (as of 14 Aug) | 58.31 lakh ha",
+     "value": "58.31 lakh ha",
+     "period": "Kharif 2026 (as of 14 Aug)",
+     "period_end": "2026-08-14",
+     "publisher": "DA&FW",
+     "series": "Kharif sowing progress report - Sugarcane area",
+     "frequency": "weekly",
+     "headline": false
+    },
+    {
+     "quote": "Maize | Kharif 2026 (as of 24 Jul) | 77.79 lakh ha",
+     "value": "77.79 lakh ha",
+     "period": "Kharif 2026 (as of 24 Jul)",
+     "period_end": "2026-07-24",
+     "publisher": "DA&FW",
+     "series": "Kharif sowing progress report - Maize area",
+     "frequency": "weekly",
+     "headline": false
+    },
+    {
+     "quote": "area rising from 46.03 lakh hectares in 2019-20",
+     "value": "46.03 lakh hectares",
+     "period": "2019-20",
+     "period_end": "2020-03-31",
+     "publisher": "Directorate of Sugarcane Development",
+     "series": "State wise Area/Production/Productivity of Sugarcane",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "peak of 58.85 lakh hectares in 2022-23",
+     "value": "58.85 lakh hectares",
+     "period": "2022-23",
+     "period_end": "2023-03-31",
+     "publisher": "Directorate of Sugarcane Development",
+     "series": "State wise Area/Production/Productivity of Sugarcane",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "easing slightly to 57.40 lakh hectares in 2023-24",
+     "value": "57.40 lakh hectares",
+     "period": "2023-24",
+     "period_end": "2024-03-31",
+     "publisher": "Directorate of Sugarcane Development",
+     "series": "State wise Area/Production/Productivity of Sugarcane",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Yield over the same five years moved from 80.49",
+     "value": "80.49 tonnes/hectare",
+     "period": "2019-20",
+     "period_end": "2020-03-31",
+     "publisher": "Directorate of Sugarcane Development",
+     "series": "State wise Area/Production/Productivity of Sugarcane",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "peak of 84.91 tonnes/hectare (2021-22)",
+     "value": "84.91 tonnes/hectare",
+     "period": "2021-22",
+     "period_end": "2022-03-31",
+     "publisher": "Directorate of Sugarcane Development",
+     "series": "State wise Area/Production/Productivity of Sugarcane",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "slipping back to 78.95 tonnes/hectare in 2023-24",
+     "value": "78.95 tonnes/hectare",
+     "period": "2023-24",
+     "period_end": "2024-03-31",
+     "publisher": "Directorate of Sugarcane Development",
+     "series": "State wise Area/Production/Productivity of Sugarcane",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "all-India maize area rose from 96.33 lakh hectares in 2016-17",
+     "value": "96.33 lakh hectares",
+     "period": "2016-17",
+     "period_end": "2017-03-31",
+     "publisher": "DA&FW",
+     "series": "Historical Area and Production Trends (UPAg)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "120.17 lakh hectares in 2024-25 (third advance estimate)",
+     "value": "120.17 lakh hectares",
+     "period": "2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "DA&FW",
+     "series": "Historical Area and Production Trends (UPAg)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "from 259.0 to 422.81 lakh tonnes",
+     "value": "259.0 lakh tonnes",
+     "period": "2016-17",
+     "period_end": "2017-03-31",
+     "publisher": "DA&FW",
+     "series": "Historical Area and Production Trends (UPAg)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "422.81 lakh tonnes",
+     "value": "422.81 lakh tonnes",
+     "period": "2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "DA&FW",
+     "series": "Historical Area and Production Trends (UPAg)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "from roughly 2.69 tonnes/hectare in 2016-17",
+     "value": "2.69 tonnes/hectare",
+     "period": "2016-17",
+     "period_end": "2017-03-31",
+     "publisher": "DA&FW",
+     "series": "Historical Area and Production Trends (UPAg)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "peak of 3.54 in 2022-23",
+     "value": "3.54 tonnes/hectare",
+     "period": "2022-23",
+     "period_end": "2023-03-31",
+     "publisher": "DA&FW",
+     "series": "Historical Area and Production Trends (UPAg)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "maize accounting for 42.74 per cent of total ethanol feedstock volume in 2023-24",
+     "value": "42.74 per cent",
+     "period": "2023-24",
+     "period_end": "2024-03-31",
+     "publisher": "PIB / ministry",
+     "series": "Ethanol feedstock volume share",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "UPAg's own 2025-26 row (4.32 lakh hectares, 32.66 lakh tonnes) is excluded",
+     "value": "4.32 lakh hectares",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DA&FW",
+     "series": "Historical Area and Production Trends (UPAg)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "32.66 lakh tonnes",
+     "value": "32.66 lakh tonnes",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DA&FW",
+     "series": "Historical Area and Production Trends (UPAg)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Uttar Pradesh's maize area fell 37 per cent",
+     "value": "37 per cent",
+     "period": "Kharif 2026",
+     "period_end": "2026-08-21",
+     "publisher": "DA&FW",
+     "series": "State-wise kharif maize area change",
+     "frequency": "weekly",
+     "headline": false
+    },
+    {
+     "quote": "Karnataka's 34 per cent",
+     "value": "34 per cent",
+     "period": "Kharif 2026",
+     "period_end": "2026-08-21",
+     "publisher": "DA&FW",
+     "series": "State-wise kharif maize area change",
+     "frequency": "weekly",
+     "headline": false
+    },
+    {
+     "quote": "Maharashtra's 16 per cent",
+     "value": "16 per cent",
+     "period": "Kharif 2026",
+     "period_end": "2026-08-21",
+     "publisher": "DA&FW",
+     "series": "State-wise kharif maize area change",
+     "frequency": "weekly",
+     "headline": false
+    },
+    {
+     "quote": "Rajasthan's 3 per cent",
+     "value": "3 per cent",
+     "period": "Kharif 2026",
+     "period_end": "2026-08-21",
+     "publisher": "DA&FW",
+     "series": "State-wise kharif maize area change",
+     "frequency": "weekly",
+     "headline": false
+    },
+    {
+     "quote": "acreage up 8.2 per cent to 25.61 lakh hectares",
+     "value": "25.61 lakh hectares",
+     "period": "Kharif 2026",
+     "period_end": "2026-08-21",
+     "publisher": "DA&FW",
+     "series": "State-wise kharif maize area change",
+     "frequency": "weekly",
+     "headline": false
+    },
+    {
+     "quote": "Sugarcane juice / sugar / syrup | 65.61",
+     "value": "65.61 ₹/litre",
+     "period": "ESY 2025-26",
+     "period_end": "2026-06-30",
+     "publisher": "PIB / ministry",
+     "series": "Ex-mill ethanol prices by feedstock",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Damaged food grains | 64.00",
+     "value": "64.00 ₹/litre",
+     "period": "ESY 2025-26",
+     "period_end": "2026-06-30",
+     "publisher": "PIB / ministry",
+     "series": "Ex-mill ethanol prices by feedstock",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "B-heavy molasses | 60.73",
+     "value": "60.73 ₹/litre",
+     "period": "ESY 2025-26",
+     "period_end": "2026-06-30",
+     "publisher": "PIB / ministry",
+     "series": "Ex-mill ethanol prices by feedstock",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Surplus FCI rice | 60.32",
+     "value": "60.32 ₹/litre",
+     "period": "ESY 2025-26",
+     "period_end": "2026-06-30",
+     "publisher": "PIB / ministry",
+     "series": "Ex-mill ethanol prices by feedstock",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Up from ₹56.87 (ESY 2020-21)",
+     "value": "56.87 ₹/litre",
+     "period": "ESY 2020-21",
+     "period_end": "2021-10-31",
+     "publisher": "PIB / ministry",
+     "series": "Ex-mill ethanol prices by feedstock",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "C-heavy molasses | 57.97",
+     "value": "57.97 ₹/litre",
+     "period": "ESY 2025-26",
+     "period_end": "2026-06-30",
+     "publisher": "PIB / ministry",
+     "series": "Ex-mill ethanol prices by feedstock",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Up from ₹45.69 (ESY 2020-21)",
+     "value": "45.69 ₹/litre",
+     "period": "ESY 2020-21",
+     "period_end": "2021-10-31",
+     "publisher": "PIB / ministry",
+     "series": "Ex-mill ethanol prices by feedstock",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Total ethanol receipts by the three PSU OMCs (BPCL, HPCL, IOCL combined) grew from 295.55 crore litres in ESY 2020-21 to 1,040.08 crore litres in ESY 2024-25",
+     "value": "295.55 crore litres",
+     "period": "ESY 2020-21",
+     "period_end": "2021-10-31",
+     "publisher": "PIB / ministry",
+     "series": "PSU OMC total ethanol receipts",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "1,040.08 crore litres in ESY 2024-25",
+     "value": "1,040.08 crore litres",
+     "period": "ESY 2024-25",
+     "period_end": "2025-10-31",
+     "publisher": "PIB / ministry",
+     "series": "PSU OMC total ethanol receipts",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "rising from ₹17,705 crore to ₹74,004 crore over the same period.",
+     "value": "₹17,705 crore",
+     "period": "ESY 2020-21",
+     "period_end": "2021-10-31",
+     "publisher": "PIB / ministry",
+     "series": "PSU OMC spending on ethanol procurement",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "₹74,004 crore over the same period.",
+     "value": "₹74,004 crore",
+     "period": "ESY 2024-25",
+     "period_end": "2025-10-31",
+     "publisher": "PIB / ministry",
+     "series": "PSU OMC spending on ethanol procurement",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "OMCs received supply offers totalling 1,776.49 crore litres",
+     "value": "1,776.49 crore litres",
+     "period": "ESY 2025-26 Cycle 1",
+     "period_end": null,
+     "publisher": "PIB / ministry",
+     "series": "OMC ethanol tender offers",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "1,304.86 crore litres came from grain-based feedstock alone",
+     "value": "1,304.86 crore litres",
+     "period": "ESY 2025-26 Cycle 1",
+     "period_end": null,
+     "publisher": "PIB / ministry",
+     "series": "OMC ethanol tender offers by grain feedstock",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "maize-based ethanol volumes went from zero to nearly 500 crore litres in three years",
+     "value": "500 crore litres",
+     "period": "three years",
+     "period_end": null,
+     "publisher": "article inference (derived from context)",
+     "series": "maize-based ethanol production volume",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "actual maize acreage fell 9.7 per cent",
+     "value": "9.7%",
+     "period": "kharif 2026 (as of 24 Jul)",
+     "period_end": "2026-07-24",
+     "publisher": "MoA / UPAg (via ChiniMandi)",
+     "series": "maize acreage change (year-on-year)",
+     "frequency": "live",
+     "headline": true
+    },
+    {
+     "quote": "Maize | Kharif 2026 (as of 24 Jul) | 77.79 lakh ha | 86.15 lakh ha | −8.36 lakh ha (−9.7%)",
+     "value": "77.79 lakh hectares",
+     "period": "kharif 2026 (as of 24 Jul)",
+     "period_end": "2026-07-24",
+     "publisher": "MoA / UPAg (via ChiniMandi)",
+     "series": "maize acreage (all-India)",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "Maize | Kharif 2026 (as of 24 Jul) | ... | 86.15 lakh ha",
+     "value": "86.15 lakh hectares",
+     "period": "kharif 2025 (prior year)",
+     "period_end": "2025-07-24",
+     "publisher": "MoA / UPAg (via ChiniMandi)",
+     "series": "maize acreage (all-India)",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "Rice (paddy) | Kharif 2026 (as of 24 Jul) | 234.43 lakh ha | 240.62 lakh ha | −6.19 lakh ha",
+     "value": "234.43 lakh hectares",
+     "period": "kharif 2026 (as of 24 Jul)",
+     "period_end": "2026-07-24",
+     "publisher": "MoA / UPAg (via ChiniMandi)",
+     "series": "rice acreage (all-India)",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "Rice (paddy) | Kharif 2026 (as of 24 Jul) | ... | 240.62 lakh ha",
+     "value": "240.62 lakh hectares",
+     "period": "kharif 2025 (prior year)",
+     "period_end": "2025-07-24",
+     "publisher": "MoA / UPAg (via ChiniMandi)",
+     "series": "rice acreage (all-India)",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "Sugarcane | Kharif 2026 (as of 14 Aug) | 58.31 lakh ha | 58.62 lakh ha | −0.31 lakh ha",
+     "value": "58.31 lakh hectares",
+     "period": "kharif 2026 (as of 14 Aug)",
+     "period_end": "2026-08-14",
+     "publisher": "MoA / Directorate of Sugarcane Development (via ChiniMandi)",
+     "series": "sugarcane acreage (all-India)",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "Sugarcane | Kharif 2026 (as of 14 Aug) | ... | 58.62 lakh ha",
+     "value": "58.62 lakh hectares",
+     "period": "kharif 2025 (prior year)",
+     "period_end": "2025-08-14",
+     "publisher": "MoA / Directorate of Sugarcane Development (via ChiniMandi)",
+     "series": "sugarcane acreage (all-India)",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "Wheat | Rabi 2025-26 (final) | 341.57 lakh ha | ~328–334 lakh ha",
+     "value": "341.57 lakh hectares",
+     "period": "rabi 2025-26 (final)",
+     "period_end": "2026-03-31",
+     "publisher": "PIB (via secondary sources)",
+     "series": "wheat acreage (all-India)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Maize | Ex-mill price (₹/litre) | 71.86 | New category from ESY 2024-25; already the highest-priced feedstock",
+     "value": "₹71.86/litre",
+     "period": "ESY 2025-26 (to June 2026)",
+     "period_end": "2026-06-30",
+     "publisher": "MoPNG (via Parliament response, ChiniMandi)",
+     "series": "ex-mill ethanol price (maize)",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Sugarcane juice / sugar / syrup | Ex-mill price (₹/litre) | 65.61 | Flat since ESY 2022-23",
+     "value": "₹65.61/litre",
+     "period": "ESY 2025-26 (to June 2026)",
+     "period_end": "2026-06-30",
+     "publisher": "MoPNG (via Parliament response, ChiniMandi)",
+     "series": "ex-mill ethanol price (sugarcane juice)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Surplus FCI rice | Ex-mill price (₹/litre) | 60.32 | Up from ₹56.87 (ESY 2020-21)",
+     "value": "₹60.32/litre",
+     "period": "ESY 2025-26 (to June 2026)",
+     "period_end": "2026-06-30",
+     "publisher": "MoPNG (via Parliament response, ChiniMandi)",
+     "series": "ex-mill ethanol price (rice)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Maize's ethanol price didn't just rise — it started at the top of the scale the moment the category existed, and the volume response was immediate and large. ... maize-based ethanol supply to OMCs went from zero in ESY 2021-22 to 498.49 crore litres in ESY 2024-25",
+     "value": "498.49 crore litres",
+     "period": "ESY 2024-25",
+     "period_end": "2025-06-30",
+     "publisher": "MoPNG (via Parliament response, ChiniMandi)",
+     "series": "maize-based ethanol supply volume",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Total ethanol receipts by the three PSU OMCs (BPCL, HPCL, IOCL combined) grew from 295.55 crore litres in ESY 2020-21 to 1,040.08 crore litres in ESY 2024-25",
+     "value": "1,040.08 crore litres",
+     "period": "ESY 2024-25",
+     "period_end": "2025-06-30",
+     "publisher": "MoPNG (via Parliament response, ChiniMandi)",
+     "series": "total ethanol receipts (PSU OMCs)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "combined PSU OMC spending on ethanol procurement rising from ₹17,705 crore to ₹74,004 crore over the same period",
+     "value": "₹74,004 crore",
+     "period": "ESY 2024-25",
+     "period_end": "2025-06-30",
+     "publisher": "MoPNG (via Parliament response, ChiniMandi)",
+     "series": "OMC ethanol procurement expenditure",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "OMCs received supply offers totalling 1,776.49 crore litres — of which 1,304.86 crore litres came from grain-based feedstock alone — against a stated requirement of roughly 1,050 crore litres for that cycle",
+     "value": "1,776.49 crore litres (offered)",
+     "period": "ESY 2025-26 Cycle 1",
+     "period_end": "2026-03-31",
+     "publisher": "OMCs (via iamrenew.com)",
+     "series": "ethanol tender offer volume",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "OMCs received supply offers totalling ... 1,304.86 crore litres came from grain-based feedstock alone",
+     "value": "1,304.86 crore litres",
+     "period": "ESY 2025-26 Cycle 1",
+     "period_end": "2026-03-31",
+     "publisher": "OMCs (via iamrenew.com)",
+     "series": "grain-based ethanol supply volume",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "maize accounting for 42.74 per cent of total ethanol feedstock volume in 2023-24",
+     "value": "42.74%",
+     "period": "2023-24",
+     "period_end": "2024-03-31",
+     "publisher": "Down To Earth (via DA&FW)",
+     "series": "maize share in ethanol feedstock volume",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "sugarcane's own five-year run shows area rising from 46.03 lakh hectares in 2019-20 to a peak of 58.85 lakh hectares in 2022-23, before easing slightly to 57.40 lakh hectares in 2023-24",
+     "value": "58.85 lakh hectares",
+     "period": "2022-23",
+     "period_end": "2023-03-31",
+     "publisher": "Directorate of Sugarcane Development (DA&FW)",
+     "series": "sugarcane acreage (all-India)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "sugarcane's own five-year run shows area ... to 57.40 lakh hectares in 2023-24",
+     "value": "57.40 lakh hectares",
+     "period": "2023-24",
+     "period_end": "2024-03-31",
+     "publisher": "Directorate of Sugarcane Development (DA&FW)",
+     "series": "sugarcane acreage (all-India)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "yield over the same five years moved from 80.49 to a peak of 84.91 tonnes/hectare (2021-22), before slipping back to 78.95 tonnes/hectare in 2023-24",
+     "value": "84.91 tonnes/hectare",
+     "period": "2021-22",
+     "period_end": "2022-03-31",
+     "publisher": "Directorate of Sugarcane Development (DA&FW)",
+     "series": "sugarcane yield (all-India)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "yield ... slipped back to 78.95 tonnes/hectare in 2023-24",
+     "value": "78.95 tonnes/hectare",
+     "period": "2023-24",
+     "period_end": "2024-03-31",
+     "publisher": "Directorate of Sugarcane Development (DA&FW)",
+     "series": "sugarcane yield (all-India)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Maize's structural trend runs the opposite way to this season's dip. ... maize area rose from 96.33 lakh hectares in 2016-17 to 120.17 lakh hectares in 2024-25",
+     "value": "120.17 lakh hectares",
+     "period": "2024-25 (3rd advance estimate)",
+     "period_end": "2025-03-31",
+     "publisher": "DA&FW / UPAg",
+     "series": "maize acreage (all-India)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Maize's structural trend ... maize area rose from 96.33 lakh hectares in 2016-17",
+     "value": "96.33 lakh hectares",
+     "period": "2016-17",
+     "period_end": "2017-03-31",
+     "publisher": "DA&FW / UPAg",
+     "series": "maize acreage (all-India)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "production rose even faster over the same span, from 259.0 to 422.81 lakh tonnes",
+     "value": "422.81 lakh tonnes",
+     "period": "2024-25 (3rd advance estimate)",
+     "period_end": "2025-03-31",
+     "publisher": "DA&FW / UPAg",
+     "series": "maize production (all-India)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "production rose ... from 259.0 lakh tonnes",
+     "value": "259.0 lakh tonnes",
+     "period": "2016-17",
+     "period_end": "2017-03-31",
+     "publisher": "DA&FW / UPAg",
+     "series": "maize production (all-India)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "yield rose too: from roughly 2.69 tonnes/hectare in 2016-17 to a peak of 3.54 in 2022-23",
+     "value": "3.54 tonnes/hectare",
+     "period": "2022-23",
+     "period_end": "2023-03-31",
+     "publisher": "DA&FW / UPAg (calculated from area/production)",
+     "series": "maize yield (all-India)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "yield rose ... from roughly 2.69 tonnes/hectare in 2016-17",
+     "value": "2.69 tonnes/hectare",
+     "period": "2016-17",
+     "period_end": "2017-03-31",
+     "publisher": "DA&FW / UPAg (calculated from area/production)",
+     "series": "maize yield (all-India)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "sugar prices at ₹55.70/kg are now making mills prefer selling cane as sugar over diverting it to ethanol",
+     "value": "₹55.70/kg",
+     "period": null,
+     "period_end": null,
+     "publisher": "article inference (via ChiniMandi)",
+     "series": "sugar spot price",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "rice buffer-stock reserve requirement for rice from 25 per cent to 10 per cent",
+     "value": "10%",
+     "period": null,
+     "period_end": null,
+     "publisher": "MoF / FCI (via ChiniMandi)",
+     "series": "rice buffer-stock reserve requirement",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "E20 (20 per cent ethanol) blend as the mandated standard from April 2026",
+     "value": "20%",
+     "period": "April 2026 onwards",
+     "period_end": "2026-03-31",
+     "publisher": "MoPNG",
+     "series": "ethanol blending mandate",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

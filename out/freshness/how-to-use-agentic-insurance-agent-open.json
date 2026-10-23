@@ -1,0 +1,460 @@
+{
+ "slug": "how-to-use-agentic-insurance-agent-open",
+ "text_sha1": "44b160d5f1b049b9",
+ "chars": 8941,
+ "checked": "2026-10-23T11:56:09",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "3 main BPMN processes: policy issuance, premium collection, claim handling",
+     "value": "3",
+     "period": "18 October 2026",
+     "period_end": "2026-10-18",
+     "publisher": "herrrickshaw/agentic-insurance-agent",
+     "series": "BPMN processes",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "16 AI service tests passed in the demo",
+     "value": "16",
+     "period": "18 October 2026",
+     "period_end": "2026-10-18",
+     "publisher": "herrrickshaw/agentic-insurance-agent",
+     "series": "AI service tests passed",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "3 worker logic tests passed in the demo",
+     "value": "3",
+     "period": "18 October 2026",
+     "period_end": "2026-10-18",
+     "publisher": "herrrickshaw/agentic-insurance-agent",
+     "series": "worker logic tests passed",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "5 of 5 mock-provider eval scores at 1.0",
+     "value": "5 of 5",
+     "period": "18 October 2026",
+     "period_end": "2026-10-18",
+     "publisher": "herrrickshaw/agentic-insurance-agent",
+     "series": "mock-provider eval scores",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "3 passed in about 0.6 seconds.",
+     "value": "0.6 seconds",
+     "period": "18 October 2026",
+     "period_end": "2026-10-18",
+     "publisher": "herrrickshaw/agentic-insurance-agent",
+     "series": "worker logic test execution time",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "16 passed in about 3.6 seconds (10 in test_ai.py and 6 in test_governance_fairness.py).",
+     "value": "3.6 seconds",
+     "period": "18 October 2026",
+     "period_end": "2026-10-18",
+     "publisher": "herrrickshaw/agentic-insurance-agent",
+     "series": "AI service test execution time",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "10 in test_ai.py",
+     "value": "10",
+     "period": "18 October 2026",
+     "period_end": "2026-10-18",
+     "publisher": "herrrickshaw/agentic-insurance-agent",
+     "series": "test_ai.py test count",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "6 in test_governance_fairness.py",
+     "value": "6",
+     "period": "18 October 2026",
+     "period_end": "2026-10-18",
+     "publisher": "herrrickshaw/agentic-insurance-agent",
+     "series": "test_governance_fairness.py test count",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "3 main BPMN processes: policy issuance, premium collection, claim handling 16 AI service tests passed in the demo 3 worker logic tests passed in the demo 5 of 5 mock-provider eval scores at 1.0 (harness check only)",
+     "value": "3 BPMN processes",
+     "period": null,
+     "period_end": null,
+     "publisher": "agentic-insurance-agent README",
+     "series": "demo process coverage",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "3 passed in about 0.6 seconds",
+     "value": "3 worker logic tests",
+     "period": null,
+     "period_end": null,
+     "publisher": "agentic-insurance-agent demo",
+     "series": "worker logic tests",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "16 passed in about 3.6 seconds (10 in test_ai.py and 6 in test_governance_fairness.py)",
+     "value": "16 AI service tests",
+     "period": null,
+     "period_end": null,
+     "publisher": "agentic-insurance-agent demo",
+     "series": "AI service tests",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "5 of 5 mock-provider eval scores at 1.0 (harness check only)",
+     "value": "5/5 mock-provider eval scores at 1.0",
+     "period": null,
+     "period_end": null,
+     "publisher": "agentic-insurance-agent demo",
+     "series": "mock-provider evaluation scores",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The README still says 8 tests, so it is out of date.",
+     "value": "8 AI service tests (outdated)",
+     "period": null,
+     "period_end": null,
+     "publisher": "agentic-insurance-agent README",
+     "series": "AI service tests (documented)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Classification accuracy, field exact match, injection recall, adversarial issue recall and triage route accuracy all show 1.0",
+     "value": "5 metrics at 1.0 (accuracy, exact match, recall, adversarial recall, triage accuracy)",
+     "period": null,
+     "period_end": null,
+     "publisher": "agentic-insurance-agent demo",
+     "series": "mock-provider evaluation metrics",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The demo did not start the Docker and Operaton stack, so everything about the live engine comes from the README, which reports a verified live run on 2026-10-16.",
+     "value": "verified live run on 2026-10-16",
+     "period": "2026-10-16",
+     "period_end": "2026-10-16",
+     "publisher": "agentic-insurance-agent README",
+     "series": "live engine verification",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "python3 -m venv .venv .venv/bin/pip install -r requirements-dev.txt",
+     "value": "fastapi, uvicorn, pydantic, httpx, pytest, psycopg[binary], numpy (from requirements-dev.txt)",
+     "period": null,
+     "period_end": null,
+     "publisher": "agentic-insurance-agent requirements-dev.txt",
+     "series": "development dependencies",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "pyproject.toml sets requires-python to 3.12 or above",
+     "value": "Python 3.12 or newer",
+     "period": null,
+     "period_end": null,
+     "publisher": "agentic-insurance-agent pyproject.toml",
+     "series": "Python version requirement",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "DUE_IN=PT2M GRACE_IN=PT2M PAYOUT_SLA=PT2M",
+     "value": "2 minutes for DUE_IN, GRACE_IN, and PAYOUT_SLA",
+     "period": null,
+     "period_end": null,
+     "publisher": "agentic-insurance-agent README",
+     "series": "timer settings for demo",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The repo is the open-source equivalent of the orchestration layer only, not of the commercial vendors' prebuilt insurance connectors.",
+     "value": "orchestration layer only (no connectors)",
+     "period": null,
+     "period_end": null,
+     "publisher": "agentic-insurance-agent README",
+     "series": "repo scope",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Actuarial maths uses an illustrative mortality table and synthetic data (docs/ACTUARIAL_AND_PORTFOLIO.md)",
+     "value": "illustrative mortality table and synthetic data",
+     "period": null,
+     "period_end": null,
+     "publisher": "agentic-insurance-agent docs/ACTUARIAL_AND_PORTFOLIO.md",
+     "series": "actuarial assumptions",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The timer, lapse and escalation branches have not yet been exercised on the engine.",
+     "value": "timer, lapse, and escalation branches untested",
+     "period": null,
+     "period_end": null,
+     "publisher": "agentic-insurance-agent README",
+     "series": "engine feature status",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Engine state is not durable: it runs on embedded H2, and the Postgres environment variables did not switch it.",
+     "value": "embedded H2 database used",
+     "period": null,
+     "period_end": null,
+     "publisher": "agentic-insurance-agent README",
+     "series": "engine database setup",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "There is a single annual premium, and documents and notifications are log stubs.",
+     "value": "single annual premium (no real documents/notifications)",
+     "period": null,
+     "period_end": null,
+     "publisher": "agentic-insurance-agent README",
+     "series": "demo limitations",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The fraud score is a placeholder.",
+     "value": "fraud score placeholder",
+     "period": null,
+     "period_end": null,
+     "publisher": "agentic-insurance-agent README",
+     "series": "demo limitations",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Agent frameworks such as LangGraph are listed as a gap, and CI pipelines were not run.",
+     "value": "LangGraph and CI pipelines not implemented",
+     "period": null,
+     "period_end": null,
+     "publisher": "agentic-insurance-agent README",
+     "series": "unimplemented features",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The demo ran the test suites and the evaluation gate. It did not start the workflow engine or the Docker stack.",
+     "value": "test suites and evaluation gate ran, workflow engine not started",
+     "period": "18 October 2026",
+     "period_end": "2026-10-18",
+     "publisher": "agentic-insurance-agent demo",
+     "series": "demo execution status",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The repo did not include their prebuilt insurance integrations.",
+     "value": "no prebuilt insurance integrations included",
+     "period": null,
+     "period_end": null,
+     "publisher": "agentic-insurance-agent README",
+     "series": "repo limitations",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Azure OpenAI, OpenAI and Anthropic adapters are written but were never called live.",
+     "value": "3 AI provider adapters written but not live-tested",
+     "period": null,
+     "period_end": null,
+     "publisher": "agentic-insurance-agent README",
+     "series": "AI provider adapters status",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The demo used a mock model",
+     "value": "mock model used in demo",
+     "period": "18 October 2026",
+     "period_end": "2026-10-18",
+     "publisher": "agentic-insurance-agent demo",
+     "series": "demo model type",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The 100% eval scores prove that the test harness works, not that a model is good.",
+     "value": "100% eval scores (harness validation only)",
+     "period": null,
+     "period_end": null,
+     "publisher": "agentic-insurance-agent README",
+     "series": "evaluation score interpretation",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The mock model was tuned on its own golden set.",
+     "value": "mock model tuned on golden set",
+     "period": null,
+     "period_end": null,
+     "publisher": "agentic-insurance-agent README",
+     "series": "mock model tuning",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The command exits 0 if all scores pass, exits 1 if a score drops below its threshold.",
+     "value": "exit code 0 for all scores passing, exit code 1 for failure",
+     "period": null,
+     "period_end": null,
+     "publisher": "agentic-insurance-agent demo",
+     "series": "evaluation exit codes",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "No authentication on the engine REST interface.",
+     "value": "no authentication on engine REST interface",
+     "period": null,
+     "period_end": null,
+     "publisher": "agentic-insurance-agent README",
+     "series": "engine security",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The demo ran the test suites and the evaluation gate. It did not start the workflow engine or the Docker stack.",
+     "value": "Docker stack not started in demo",
+     "period": "18 October 2026",
+     "period_end": "2026-10-18",
+     "publisher": "agentic-insurance-agent demo",
+     "series": "demo Docker status",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The engine was not started in the demo.",
+     "value": "workflow engine not started in demo",
+     "period": "18 October 2026",
+     "period_end": "2026-10-18",
+     "publisher": "agentic-insurance-agent demo",
+     "series": "demo engine status",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The demo ran the test suites and the evaluation gate.",
+     "value": "test suites and evaluation gate ran in demo",
+     "period": "18 October 2026",
+     "period_end": "2026-10-18",
+     "publisher": "agentic-insurance-agent demo",
+     "series": "demo execution",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The README says python3 -I tests/test_handlers.py, but on a system Python without pytest that fails with ModuleNotFoundError.",
+     "value": "pytest dependency required for worker tests",
+     "period": null,
+     "period_end": null,
+     "publisher": "agentic-insurance-agent demo",
+     "series": "dependency requirement",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The README's own worker test uses pytest, which is in this file, so install it before running that test.",
+     "value": "pytest required for worker test",
+     "period": null,
+     "period_end": null,
+     "publisher": "agentic-insurance-agent README",
+     "series": "dependency requirement",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "A normal laptop is enough for the tests",
+     "value": "normal laptop sufficient for tests",
+     "period": null,
+     "period_end": null,
+     "publisher": "agentic-insurance-agent README",
+     "series": "hardware requirements",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The engine container needs more [disk and RAM]",
+     "value": "engine container needs more disk and RAM",
+     "period": null,
+     "period_end": null,
+     "publisher": "agentic-insurance-agent README",
+     "series": "engine hardware requirements",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The repo includes policy_issuance, premium_collection and claim_handling, plus customer_onboarding, portfolio_risk_review and records_migration.",
+     "value": "6 BPMN/DMN processes included",
+     "period": null,
+     "period_end": null,
+     "publisher": "agentic-insurance-agent README",
+     "series": "process coverage",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The demo ran the test suites and the evaluation gate.",
+     "value": "test suites and evaluation gate ran",
+     "period": "18 October 2026",
+     "period_end": "2026-10-18",
+     "publisher": "agentic-insurance-agent demo",
+     "series": "demo execution summary",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The demo did not start the workflow engine or the Docker stack.",
+     "value": "workflow engine and Docker stack not started",
+     "period": "18 October 2026",
+     "period_end": "2026-10-18",
+     "publisher": "agentic-insurance-agent demo",
+     "series": "demo execution summary",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The demo ran the test suites and the evaluation gate.",
+     "value": "test suites and evaluation gate ran in demo",
+     "period": "18 October 2026",
+     "period_end": "2026-10-18",
+     "publisher": "agentic-insurance-agent demo",
+     "series": "demo execution summary",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

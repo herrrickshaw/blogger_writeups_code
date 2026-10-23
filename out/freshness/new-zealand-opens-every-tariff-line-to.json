@@ -1,0 +1,510 @@
+{
+ "slug": "new-zealand-opens-every-tariff-line-to",
+ "text_sha1": "3ac5985bde7d6f85",
+ "chars": 10048,
+ "checked": "2026-10-23T15:04:19",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "100% Share of New Zealand’s tariff lines duty-free for Indian goods from 20 October 2026; 58% already were",
+     "value": "100%",
+     "period": "20 October 2026",
+     "period_end": "2026-10-20",
+     "publisher": "PIB / ministry",
+     "series": "New Zealand tariff lines duty-free share",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "2.3% vs 17.8% New Zealand’s average tariff against India’s, the gap that decides who concedes more",
+     "value": "2.3%",
+     "period": "as on 20 October 2026",
+     "period_end": "2026-10-20",
+     "publisher": "GTRI",
+     "series": "New Zealand average tariff against India",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "32,500 t New Zealand apples allowed in at half duty in year one, rising to 45,000 tonnes",
+     "value": "32,500 tonnes",
+     "period": "year one",
+     "period_end": null,
+     "publisher": "PIB / ministry",
+     "series": "New Zealand apple import quota",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "$1.2 bn Two-way goods trade in 2025-26, roughly balanced after India’s exports fell about a fifth",
+     "value": "$1.2 billion",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "PIB / ministry",
+     "series": "India-New Zealand two-way goods trade",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "58.3% of lines already duty-free",
+     "value": "58.3%",
+     "period": "as on 20 October 2026",
+     "period_end": "2026-10-20",
+     "publisher": "GTRI",
+     "series": "New Zealand tariff lines already duty-free share",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Average tariff 17.8%",
+     "value": "17.8%",
+     "period": "as on 20 October 2026",
+     "period_end": "2026-10-20",
+     "publisher": "GTRI",
+     "series": "India average tariff",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Apples: 32,500 tonnes at 25% duty (half the usual 50%), rising to 45,000 tonnes by year six",
+     "value": "32,500 tonnes",
+     "period": "year one",
+     "period_end": null,
+     "publisher": "PIB / ministry",
+     "series": "Apple quota volume",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Kiwifruit: 6,250 tonnes duty-free, rising to 15,000.",
+     "value": "6,250 tonnes",
+     "period": "year one",
+     "period_end": null,
+     "publisher": "PIB / ministry",
+     "series": "Kiwifruit quota volume",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "5,000 temporary employment visas a year for Indian professionals (up to three years); 1,000 working-holiday visas",
+     "value": "5,000",
+     "period": "annual",
+     "period_end": null,
+     "publisher": "PIB / ministry",
+     "series": "Temporary employment visas for Indian professionals",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "a stated aim of $20 billion of New Zealand investment in India over 15 years",
+     "value": "$20 billion",
+     "period": "15 years",
+     "period_end": null,
+     "publisher": "PIB / ministry",
+     "series": "New Zealand investment aim in India",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "711",
+     "value": "711",
+     "period": "2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "PIB / ministry",
+     "series": "India's exports to New Zealand",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "566",
+     "value": "566",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Rubix Data Sciences",
+     "series": "India's exports to New Zealand",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "587",
+     "value": "587",
+     "period": "2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "PIB / ministry",
+     "series": "India's imports from New Zealand",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "589",
+     "value": "589",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Rubix Data Sciences",
+     "series": "India's imports from New Zealand",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "873",
+     "value": "873",
+     "period": "2023-24",
+     "period_end": "2024-03-31",
+     "publisher": "PIB / ministry",
+     "series": "India-New Zealand total goods trade",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "1,298",
+     "value": "1,298",
+     "period": "2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "PIB / ministry",
+     "series": "India-New Zealand total goods trade",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "1,155",
+     "value": "1,155",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Rubix Data Sciences",
+     "series": "India-New Zealand total goods trade",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "+124",
+     "value": "+124",
+     "period": "2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "PIB / ministry",
+     "series": "India-New Zealand trade balance",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "−23",
+     "value": "−23",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Rubix Data Sciences",
+     "series": "India-New Zealand trade balance",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Services trade was a further $1.24 billion in 2024.",
+     "value": "$1.24 billion",
+     "period": "2024",
+     "period_end": "2024-12-31",
+     "publisher": "PIB / ministry",
+     "series": "India-New Zealand services trade",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "NZ$399 million in the year to December 2025 according to its trade ministry.",
+     "value": "NZ$399 million",
+     "period": "year to December 2025",
+     "period_end": "2025-12-31",
+     "publisher": "New Zealand Ministry of Foreign Affairs and Trade",
+     "series": "New Zealand forestry products export to India",
+     "frequency": "annual",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "New Zealand’s average tariff was 2.3% and more than half its lines were already free.",
+     "value": "2.3% average tariff; 58% of lines duty-free",
+     "period": null,
+     "period_end": null,
+     "publisher": "GTRI (via article)",
+     "series": "New Zealand tariff lines and average duty rates",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "India’s average is 17.8%.",
+     "value": "17.8% average tariff",
+     "period": null,
+     "period_end": null,
+     "publisher": "GTRI (via article)",
+     "series": "India’s tariff lines and average duty rates",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "32,500 t New Zealand apples allowed in at half duty in year one, rising to 45,000 tonnes",
+     "value": "32,500 tonnes (year one), 45,000 tonnes (year six)",
+     "period": null,
+     "period_end": null,
+     "publisher": "New Zealand Ministry of Foreign Affairs and Trade (MFAT)",
+     "series": "Quota for apples under FTA",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Kiwifruit: 6,250 tonnes duty-free, rising to 15,000.",
+     "value": "6,250 tonnes (duty-free), 15,000 tonnes (year six)",
+     "period": null,
+     "period_end": null,
+     "publisher": "New Zealand Ministry of Foreign Affairs and Trade (MFAT)",
+     "series": "Quota for kiwifruit under FTA",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "$1.2 bn Two-way goods trade in 2025-26",
+     "value": "$1.2 billion",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Rubix Data Sciences",
+     "series": "India-New Zealand two-way goods trade",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "India’s exports | – | 711 | 566 |",
+     "value": "$711 million (2024-25), $566 million (2025-26)",
+     "period": "2024-25, 2025-26",
+     "period_end": "2025-03-31, 2026-03-31",
+     "publisher": "Ministry of Commerce and Industry (2024-25) / Rubix Data Sciences (2025-26)",
+     "series": "India’s exports to New Zealand",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "India’s imports | – | 587 | 589 |",
+     "value": "$587 million (2024-25), $589 million (2025-26)",
+     "period": "2024-25, 2025-26",
+     "period_end": "2025-03-31, 2026-03-31",
+     "publisher": "Ministry of Commerce and Industry (2024-25) / Rubix Data Sciences (2025-26)",
+     "series": "India’s imports from New Zealand",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "India–New Zealand goods trade is small: about $1.2 billion in 2025-26.",
+     "value": "$1.2 billion",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Rubix Data Sciences",
+     "series": "India–New Zealand goods trade",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "New Zealand’s largest export to India is forestry products, NZ$399 million in the year to December 2025",
+     "value": "NZ$399 million",
+     "period": "year to December 2025",
+     "period_end": "2025-12-31",
+     "publisher": "New Zealand Ministry of Foreign Affairs and Trade (MFAT)",
+     "series": "New Zealand exports to India (forestry products)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "India’s free trade agreement with New Zealand comes into force on 20 October 2026",
+     "value": "20 October 2026",
+     "period": "20 October 2026",
+     "period_end": "2026-10-20",
+     "publisher": "Ministry of Commerce and Industry (PIB 2313143)",
+     "series": "FTA implementation date",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "India cuts duties on about 70% of lines",
+     "value": "70% of tariff lines liberalised",
+     "period": null,
+     "period_end": null,
+     "publisher": "Ministry of Commerce and Industry (PIB 2207300)",
+     "series": "India’s tariff liberalisation under FTA",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "5,000 temporary employment visas a year for Indian professionals (up to three years)",
+     "value": "5,000 temporary employment visas/year",
+     "period": null,
+     "period_end": null,
+     "publisher": "New Zealand Ministry of Foreign Affairs and Trade",
+     "series": "Employment visas under FTA",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "a stated aim of $20 billion of New Zealand investment in India over 15 years",
+     "value": "$20 billion",
+     "period": "15 years",
+     "period_end": "2041-10-20",
+     "publisher": "New Zealand Ministry of Foreign Affairs and Trade",
+     "series": "Investment facilitation target under FTA",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "India’s apple production... over two million tonnes a year",
+     "value": "over 2,000,000 tonnes",
+     "period": null,
+     "period_end": null,
+     "publisher": "General background (not FTA-specific)",
+     "series": "India’s apple production",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "India’s exports fell about a fifth",
+     "value": "about 20% fall",
+     "period": null,
+     "period_end": null,
+     "publisher": "Ministry of Commerce and Industry (implied)",
+     "series": "India’s export decline to New Zealand",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Wine: duties cut 66–83% over ten years",
+     "value": "66–83% reduction over 10 years",
+     "period": "10 years",
+     "period_end": "2036-10-20",
+     "publisher": "New Zealand Ministry of Foreign Affairs and Trade (MFAT)",
+     "series": "Wine tariff reduction under FTA",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "Mānuka honey: cut 75% over five",
+     "value": "75% reduction over 5 years",
+     "period": "5 years",
+     "period_end": "2026-10-20 + 5 years",
+     "publisher": "New Zealand Ministry of Foreign Affairs and Trade (MFAT)",
+     "series": "Mānuka honey tariff reduction under FTA",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "Bulk infant formula and some dairy preparations phased out over seven years",
+     "value": "7 years",
+     "period": "7 years",
+     "period_end": "2033-10-20",
+     "publisher": "New Zealand Ministry of Foreign Affairs and Trade (MFAT)",
+     "series": "Dairy preparations tariff reduction under FTA",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "57% of New Zealand’s exports to India duty-free at once",
+     "value": "57%",
+     "period": "from 20 October 2026",
+     "period_end": "2026-10-20",
+     "publisher": "New Zealand Ministry of Foreign Affairs and Trade (MFAT)",
+     "series": "New Zealand exports to India duty-free",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "a second round of tariff cuts on 1 January 2027",
+     "value": "1 January 2027",
+     "period": "1 January 2027",
+     "period_end": "2027-01-01",
+     "publisher": "New Zealand Ministry of Foreign Affairs and Trade (MFAT)",
+     "series": "Second round of tariff cuts under FTA",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Negotiations launched (16 March 2025)",
+     "value": "16 March 2025",
+     "period": "16 March 2025",
+     "period_end": "2025-03-16",
+     "publisher": "Ministry of Commerce and Industry (PIB 2111608)",
+     "series": "FTA negotiation launch date",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Negotiations concluded (22 December 2025)",
+     "value": "22 December 2025",
+     "period": "22 December 2025",
+     "period_end": "2025-12-22",
+     "publisher": "Ministry of Commerce and Industry (PIB 2207300)",
+     "series": "FTA negotiation conclusion date",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Agreement signed (27 April 2026)",
+     "value": "27 April 2026",
+     "period": "27 April 2026",
+     "period_end": "2026-04-27",
+     "publisher": "Ministry of Commerce and Industry (PIB 2255914)",
+     "series": "FTA signing date",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Commerce ministry announces entry into force (22 September 2026)",
+     "value": "22 September 2026",
+     "period": "22 September 2026",
+     "period_end": "2026-09-22",
+     "publisher": "Ministry of Commerce and Industry (PIB 2313143)",
+     "series": "FTA entry into force announcement",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Services trade was a further $1.24 billion in 2024.",
+     "value": "$1.24 billion",
+     "period": "2024",
+     "period_end": "2024-12-31",
+     "publisher": "Ministry of Commerce and Industry (implied)",
+     "series": "India–New Zealand services trade",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "1,000 working-holiday visas",
+     "value": "1,000 working-holiday visas/year",
+     "period": null,
+     "period_end": null,
+     "publisher": "New Zealand Ministry of Foreign Affairs and Trade",
+     "series": "Working-holiday visas under FTA",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "India’s exports | – | 711 | 566 |",
+     "value": "$1,298 million (total 2024-25)",
+     "period": "2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "Ministry of Commerce and Industry",
+     "series": "India–New Zealand total goods trade",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "India’s exports | – | 566 |",
+     "value": "$480 million (alternative estimate for 2025-26 exports)",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Other coverage (not Rubix Data Sciences)",
+     "series": "India’s exports to New Zealand (alternative estimate)",
+     "frequency": "annual",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

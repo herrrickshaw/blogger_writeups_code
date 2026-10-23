@@ -1,0 +1,390 @@
+{
+ "slug": "how-indias-automotive-clusters-rewired",
+ "text_sha1": "f3fdcb03cab03bd6",
+ "chars": 15101,
+ "checked": "2026-10-23T11:55:25",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "Maruti Suzuki gets over 76% of its 246 suppliers within 100km of its assembly lines",
+     "value": "76%",
+     "period": "as on 15 August 2026",
+     "period_end": "2026-08-15",
+     "publisher": "Maruti Suzuki JIT/JIS case-study figures",
+     "series": "Maruti Suzuki JIT/JIS case-study figures",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "Over 76% of Maruti's 246 suppliers sit within 100km of its assembly lines",
+     "value": "246 suppliers",
+     "period": "as on 15 August 2026",
+     "period_end": "2026-08-15",
+     "publisher": "Maruti Suzuki JIT/JIS case-study figures",
+     "series": "Maruti Suzuki JIT/JIS case-study figures",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "cut the order-to-shopfloor cycle from 30 hours to 2.",
+     "value": "30 hours",
+     "period": "before e-Nagare",
+     "period_end": null,
+     "publisher": "Maruti Suzuki JIT/JIS case-study figures",
+     "series": "Order-to-shopfloor cycle time",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "cut the order-to-shopfloor cycle from 30 hours to 2.",
+     "value": "2 hours",
+     "period": "after e-Nagare",
+     "period_end": null,
+     "publisher": "Maruti Suzuki JIT/JIS case-study figures",
+     "series": "Order-to-shopfloor cycle time",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "In-plant inventory levels After e-Nagare −70%",
+     "value": "-70%",
+     "period": "after e-Nagare",
+     "period_end": null,
+     "publisher": "Maruti Suzuki JIT/JIS case-study figures",
+     "series": "In-plant inventory levels",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "India's auto component industry turned over ₹6.73 lakh crore (~$80.2 billion) in FY2024-25",
+     "value": "₹6.73 lakh crore",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "ACMA",
+     "series": "Auto-component industry turnover",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "India's auto component industry turned over ₹6.73 lakh crore (~$80.2 billion) in FY2024-25",
+     "value": "$80.2 billion",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "ACMA",
+     "series": "Auto-component industry turnover",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "growing at a 14% CAGR from FY2020 to FY2025",
+     "value": "14%",
+     "period": "FY2020 to FY2025",
+     "period_end": "2025-03-31",
+     "publisher": "ACMA",
+     "series": "Auto-component industry turnover CAGR",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "material ordering cycles fell from a monthly cadence to roughly 15 days",
+     "value": "15 days",
+     "period": "after e-Nagare",
+     "period_end": null,
+     "publisher": "Maruti Suzuki JIT/JIS case-study figures",
+     "series": "Material ordering cycles",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "roughly 80% of its auto-component firms are Tier-2/Tier-3 MSMEs , with only about 20% large Tier-1 manufacturers",
+     "value": "80%",
+     "period": "as on 15 August 2026",
+     "period_end": "2026-08-15",
+     "publisher": "CSEP",
+     "series": "Delhi-Haryana (NCR) auto-component firm composition",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "roughly 80% of its auto-component firms are Tier-2/Tier-3 MSMEs , with only about 20% large Tier-1 manufacturers",
+     "value": "20%",
+     "period": "as on 15 August 2026",
+     "period_end": "2026-08-15",
+     "publisher": "CSEP",
+     "series": "Delhi-Haryana (NCR) auto-component firm composition",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Indian automakers were forced to cut output by up to 40% during the first three quarters of 2021",
+     "value": "40%",
+     "period": "first three quarters of 2021",
+     "period_end": "2021-09-30",
+     "publisher": "S&P Global Automotive Insights and Supply Chain Dive",
+     "series": "Automaker output cuts due to semiconductor shortage",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The PLI-Auto scheme, approved September 2021 with a ₹25,938 crore outlay running FY2022-23 to FY2026-27",
+     "value": "₹25,938 crore",
+     "period": "FY2022-23 to FY2026-27",
+     "period_end": "2027-03-31",
+     "publisher": "Ministry of Heavy Industries",
+     "series": "PLI-Auto scheme outlay",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "requires a minimum 50% Domestic Value Addition (DVA)",
+     "value": "50%",
+     "period": "as on 15 August 2026",
+     "period_end": "2026-08-15",
+     "publisher": "Ministry of Heavy Industries",
+     "series": "PLI-Auto Domestic Value Addition requirement",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "As of March 2026 it had attracted ₹44,326 crore in investment",
+     "value": "₹44,326 crore",
+     "period": "March 2026",
+     "period_end": "2026-03-31",
+     "publisher": "Ministry of Heavy Industries",
+     "series": "PLI-Auto scheme investment",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "and generated roughly 67,820 jobs",
+     "value": "67,820 jobs",
+     "period": "March 2026",
+     "period_end": "2026-03-31",
+     "publisher": "Ministry of Heavy Industries",
+     "series": "PLI-Auto scheme employment generation",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "by July 2026, 18 applicants held DVA certificates covering 155 Advanced Automotive Technology products and variants.",
+     "value": "18 applicants",
+     "period": "July 2026",
+     "period_end": "2026-07-31",
+     "publisher": "Ministry of Heavy Industries",
+     "series": "PLI-Auto DVA certificates",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "by July 2026, 18 applicants held DVA certificates covering 155 Advanced Automotive Technology products and variants.",
+     "value": "155 products and variants",
+     "period": "July 2026",
+     "period_end": "2026-07-31",
+     "publisher": "Ministry of Heavy Industries",
+     "series": "PLI-Auto DVA certificates",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "The auto-component industry's FY24 export base (₹ equivalent of USD21.2 billion, up 5.5% year-on-year, against USD20.9 billion of imports)",
+     "value": "USD21.2 billion",
+     "period": "FY24",
+     "period_end": "2024-03-31",
+     "publisher": "ACMA / KPMG India",
+     "series": "Auto-component export base",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "up 5.5% year-on-year",
+     "value": "5.5%",
+     "period": "FY24",
+     "period_end": "2024-03-31",
+     "publisher": "ACMA / KPMG India",
+     "series": "Auto-component export growth",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "against USD20.9 billion of imports",
+     "value": "USD20.9 billion",
+     "period": "FY24",
+     "period_end": "2024-03-31",
+     "publisher": "ACMA / KPMG India",
+     "series": "Auto-component import base",
+     "frequency": "annual",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "Maruti Suzuki's e-Nagare system cut the order-to-shopfloor cycle from 30 hours to 2",
+     "value": "30 hours → 2 hours",
+     "period": null,
+     "period_end": null,
+     "publisher": "Maruti Suzuki (JIT/JIS case-study figures)",
+     "series": "e-Nagare system order-to-shopfloor cycle time",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "Over 76% of Maruti's 246 suppliers sit within a 100km radius of its assembly lines",
+     "value": "76% of 246 suppliers within 100km",
+     "period": null,
+     "period_end": null,
+     "publisher": "Maruti Suzuki (JIT/JIS case-study figures)",
+     "series": "Supplier proximity to assembly lines",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "in-plant inventory levels dropped by ~70%",
+     "value": "70% reduction in in-plant inventory",
+     "period": null,
+     "period_end": null,
+     "publisher": "Maruti Suzuki (JIT/JIS case-study figures)",
+     "series": "In-plant inventory levels post e-Nagare",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The industry behind this story. India's auto component industry turned over ₹6.73 lakh crore (~$80.2 billion) in FY2024-25",
+     "value": "₹6.73 lakh crore (~$80.2 billion)",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "ACMA (Automotive Component Manufacturers' Association)",
+     "series": "Auto-component industry turnover",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "growing at a 14% CAGR from FY2020 to FY2025",
+     "value": "14% CAGR (FY2020–FY2025)",
+     "period": "FY2020–FY2025",
+     "period_end": "2025-03-31",
+     "publisher": "ACMA",
+     "series": "Auto-component industry growth rate",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "PLI-Auto scheme, approved September 2021 with a ₹25,938 crore outlay running FY2022-23 to FY2026-27",
+     "value": "₹25,938 crore",
+     "period": "FY2022-23 to FY2026-27 (extended to FY2027-28)",
+     "period_end": "2027-03-31",
+     "publisher": "Ministry of Heavy Industries",
+     "series": "PLI-Auto scheme outlay",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "it had attracted ₹44,326 crore in investment and generated roughly 67,820 jobs",
+     "value": "₹44,326 crore investment, 67,820 jobs",
+     "period": "as of March 2026",
+     "period_end": "2026-03-31",
+     "publisher": "Ministry of Heavy Industries",
+     "series": "PLI-Auto investment and job creation",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "18 applicants held DVA certificates covering 155 Advanced Automotive Technology products and variants",
+     "value": "155 certified products, 18 applicants",
+     "period": "as of July 2026",
+     "period_end": "2026-07-31",
+     "publisher": "Ministry of Heavy Industries",
+     "series": "PLI-Auto DVA certificates",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "auto-component industry's FY24 export base (₹ equivalent of USD21.2 billion, up 5.5% year-on-year)",
+     "value": "USD21.2 billion (₹ equivalent), +5.5% YoY",
+     "period": "FY2024",
+     "period_end": "2024-03-31",
+     "publisher": "KPMG India (Automotive Pulse India)",
+     "series": "Auto-component exports",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "auto-component industry's FY24 export base (₹ equivalent of USD20.9 billion of imports)",
+     "value": "USD20.9 billion imports",
+     "period": "FY2024",
+     "period_end": "2024-03-31",
+     "publisher": "KPMG India (Automotive Pulse India)",
+     "series": "Auto-component imports",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Indian automakers were forced to cut output by up to 40% during the first three quarters of 2021",
+     "value": "40% output cut",
+     "period": "Q1–Q3 2021",
+     "period_end": "2021-09-30",
+     "publisher": "S&P Global Automotive Insights / Supply Chain Dive",
+     "series": "Automaker output impact (semiconductor shortage)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Bosch reported a 'severe supply shortage' of imported microcontrollers",
+     "value": "severe supply shortage (microcontrollers)",
+     "period": "2021–2022",
+     "period_end": "2022-12-31",
+     "publisher": "Bosch (via S&P Global Automotive Insights)",
+     "series": "Tier-1 supplier constraints",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "chip lead times globally stretched from a pre-pandemic three-to-four months to a year or longer through 2021-22",
+     "value": "3–4 months → 12+ months",
+     "period": "2021–2022",
+     "period_end": "2022-12-31",
+     "publisher": "S&P Global Automotive Insights",
+     "series": "Semiconductor lead times",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "roughly 80% of its auto-component firms are Tier-2/Tier-3 MSMEs, with only about 20% large Tier-1 manufacturers",
+     "value": "80% Tier-2/3 MSMEs, 20% Tier-1",
+     "period": null,
+     "period_end": null,
+     "publisher": "CSEP ('Wheels of Change: Automation in India's Automotive Sector')",
+     "series": "NCR auto-component firm tier distribution",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "material ordering cycles fell from a monthly cadence to roughly 15 days",
+     "value": "monthly → ~15 days",
+     "period": null,
+     "period_end": null,
+     "publisher": "Maruti Suzuki (JIT/JIS case-study figures)",
+     "series": "Material ordering cycle time",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India's automobile sector had identified 28 key components for indigenisation under a formal 'localisation roadmap'",
+     "value": "28 components",
+     "period": null,
+     "period_end": null,
+     "publisher": "KPMG India (Automotive Pulse India)",
+     "series": "Localisation roadmap components",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

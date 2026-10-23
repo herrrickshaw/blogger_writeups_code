@@ -1,0 +1,287 @@
+{
+ "slug": "how-to-use-amazon-product-selector",
+ "text_sha1": "8c57242240094025",
+ "chars": 7647,
+ "checked": "2026-10-23T11:58:09",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "162 tests passed, 2 skipped",
+     "value": "162 tests passed, 2 skipped",
+     "period": "19 October 2026",
+     "period_end": "2026-10-19",
+     "publisher": "github.com/herrrickshaw/amazon-product-selector",
+     "series": "test suite execution",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "4 keywords in the offline fixture run",
+     "value": "4 keywords",
+     "period": "19 October 2026",
+     "period_end": "2026-10-19",
+     "publisher": "github.com/herrrickshaw/amazon-product-selector",
+     "series": "offline fixture run",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "0 API keys needed for --dry-run",
+     "value": "0 API keys",
+     "period": "19 October 2026",
+     "period_end": "2026-10-19",
+     "publisher": "github.com/herrrickshaw/amazon-product-selector",
+     "series": "dry-run API requirement",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "119 India candidate keywords shipped",
+     "value": "119 keywords",
+     "period": "19 October 2026",
+     "period_end": "2026-10-19",
+     "publisher": "github.com/herrrickshaw/amazon-product-selector",
+     "series": "candidate keywords",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "162 tests passed, and the offline dry run shortlisted 3 of 4 keywords for B2C and 2 of 4 for B2B",
+     "value": "3 of 4 keywords for B2C and 2 of 4 for B2B",
+     "period": "19 October 2026",
+     "period_end": "2026-10-19",
+     "publisher": "github.com/herrrickshaw/amazon-product-selector",
+     "series": "offline dry run shortlist",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "162 passed, 2 skipped on the demo run.",
+     "value": "162 passed, 2 skipped",
+     "period": "19 October 2026",
+     "period_end": "2026-10-19",
+     "publisher": "github.com/herrrickshaw/amazon-product-selector",
+     "series": "demo test run",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Cached responses expire (24h competition, 168h trend).",
+     "value": "24h competition, 168h trend",
+     "period": "19 October 2026",
+     "period_end": "2026-10-19",
+     "publisher": "github.com/herrrickshaw/amazon-product-selector",
+     "series": "cache expiry settings",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "1. giloy juice score 0.789 (growth 0.50 demand 0.93 openness 0.94 headroom 1.00)",
+     "value": "0.789",
+     "period": "19 October 2026",
+     "period_end": "2026-10-19",
+     "publisher": "github.com/herrrickshaw/amazon-product-selector",
+     "series": "B2C fixture shortlist",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "2. aloe vera gel score 0.445 (growth 0.50 demand 1.00 openness 0.07 headroom 0.00)",
+     "value": "0.445",
+     "period": "19 October 2026",
+     "period_end": "2026-10-19",
+     "publisher": "github.com/herrrickshaw/amazon-product-selector",
+     "series": "B2C fixture shortlist",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "3. moringa oil score 0.375 (growth 0.50 demand 0.00 openness 0.50 headroom 0.50)",
+     "value": "0.375",
+     "period": "19 October 2026",
+     "period_end": "2026-10-19",
+     "publisher": "github.com/herrrickshaw/amazon-product-selector",
+     "series": "B2C fixture shortlist",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "moringa oil median price 18.99 below 2000",
+     "value": "18.99",
+     "period": "19 October 2026",
+     "period_end": "2026-10-19",
+     "publisher": "github.com/herrrickshaw/amazon-product-selector",
+     "series": "B2B fixture rejection",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The B2B price floor is INR 2,000",
+     "value": "INR 2,000",
+     "period": "19 October 2026",
+     "period_end": "2026-10-19",
+     "publisher": "github.com/herrrickshaw/amazon-product-selector",
+     "series": "MARKETS thresholds",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "162 passed, 2 skipped, 6 warnings in 5.30s",
+     "value": "5.30s",
+     "period": "19 October 2026",
+     "period_end": "2026-10-19",
+     "publisher": "github.com/herrrickshaw/amazon-product-selector",
+     "series": "test suite execution time",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "162 tests passed, 2 skipped 4 keywords in the offline fixture run",
+     "value": "162 tests passed, 2 skipped",
+     "period": "19 October 2026",
+     "period_end": "2026-10-19",
+     "publisher": "pytest (test suite)",
+     "series": "test results for amazon-product-selector",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "0 API keys needed for --dry-run 119 India candidate keywords shipped",
+     "value": "119 India candidate keywords",
+     "period": null,
+     "publisher": "github.com/herrrickshaw/amazon-product-selector",
+     "series": "dry-run fixture data",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "--- shortlist (3 of 4) ---",
+     "value": "3 of 4 keywords shortlisted (B2C)",
+     "period": null,
+     "publisher": "fixture data (offline --dry-run)",
+     "series": "B2C keyword shortlist",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "--- rejected (1) --- chyawanprash trend is 'flat'",
+     "value": "1 keyword rejected (B2C)",
+     "period": null,
+     "publisher": "fixture data (offline --dry-run)",
+     "series": "B2C keyword rejection reasons",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "--- rejected (2) --- aloe vera gel trend is 'flat'",
+     "value": "2 keywords rejected (B2B)",
+     "period": null,
+     "publisher": "fixture data (offline --dry-run)",
+     "series": "B2B keyword rejection reasons",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "moringa oil median price 18.99 below 2000",
+     "value": "INR 18.99 (median price)",
+     "period": null,
+     "publisher": "fixture data (offline --dry-run)",
+     "series": "B2B price threshold check",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The B2B price floor is INR 2,000",
+     "value": "INR 2,000 (B2B price floor)",
+     "period": null,
+     "publisher": "amazon-product-selector (MARKETS table)",
+     "series": "B2B price threshold",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "giloy juice score 0.789 (growth 0.50 demand 0.93 openness 0.94 headroom 1.00)",
+     "value": "0.789 (score), 0.50 (growth), 0.93 (demand), 0.94 (openness), 1.00 (headroom)",
+     "period": null,
+     "publisher": "fixture data (offline --dry-run)",
+     "series": "B2C keyword scoring metrics",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "aloe vera gel score 0.445 (growth 0.50 demand 1.00 openness 0.07 headroom 0.00)",
+     "value": "0.445 (score), 0.50 (growth), 1.00 (demand), 0.07 (openness), 0.00 (headroom)",
+     "period": null,
+     "publisher": "fixture data (offline --dry-run)",
+     "series": "B2C keyword scoring metrics",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "moringa oil score 0.375 (growth 0.50 demand 0.00 openness 0.50 headroom 0.50)",
+     "value": "0.375 (score), 0.50 (growth), 0.00 (demand), 0.50 (openness), 0.50 (headroom)",
+     "period": null,
+     "publisher": "fixture data (offline --dry-run)",
+     "series": "B2C keyword scoring metrics",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Cached responses expire (24h competition, 168h trend)",
+     "value": "24 hours (competition data expiry), 168 hours (trend data expiry)",
+     "period": null,
+     "publisher": "NEXSCOPE / OPENWEB_NINJA APIs",
+     "series": "API cache expiry settings",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "162 passed, 2 skipped, 6 warnings in 5.30s",
+     "value": "5.30 seconds (test execution time)",
+     "period": "19 October 2026",
+     "period_end": "2026-10-19",
+     "publisher": "pytest (test suite)",
+     "series": "test execution duration",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Volume scales for India are estimates and uncalibrated",
+     "value": "uncalibrated estimates (India volume scales)",
+     "period": null,
+     "publisher": "amazon-product-selector (README)",
+     "series": "market volume estimates",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Python 3.11+",
+     "value": "Python 3.11+",
+     "period": null,
+     "publisher": "python.org",
+     "series": "runtime environment requirements",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "119 India candidate keywords shipped",
+     "value": "119 keywords",
+     "period": null,
+     "publisher": "github.com/herrrickshaw/amazon-product-selector",
+     "series": "keyword dataset",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

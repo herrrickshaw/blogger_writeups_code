@@ -1,0 +1,773 @@
+{
+ "slug": "mapping-indias-other-pipelines-every",
+ "text_sha1": "6cb6edd05e181fde",
+ "chars": 13629,
+ "checked": "2026-10-23T14:58:37",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": ">20,000 km Indian Oil's total pipeline network, FY2024-25 annual report",
+     "value": "20,000 km",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "Indian Oil",
+     "series": "annual report",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "~19,600 km Industry estimate of the total product-pipeline network across IOCL, HPCL and BPCL",
+     "value": "19,600 km",
+     "period": null,
+     "period_end": null,
+     "publisher": "Industry estimate",
+     "series": "total product-pipeline network",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "96.9 MT Indian Oil's liquids throughput (crude + product), FY2024-25",
+     "value": "96.9 MT",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "Indian Oil",
+     "series": "liquids throughput (crude + product)",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "~30% Share of the product-pipeline network open as common carrier, on one industry estimate",
+     "value": "30%",
+     "period": null,
+     "period_end": null,
+     "publisher": "Industry estimate",
+     "series": "product-pipeline network common carrier share",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "Salaya–Mathura | Indian Oil | 2,663 km | 25 MMTPA",
+     "value": "2,663 km",
+     "period": null,
+     "period_end": null,
+     "publisher": "Indian Oil",
+     "series": "Salaya–Mathura crude pipeline length",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Salaya–Mathura | Indian Oil | 2,663 km | 25 MMTPA",
+     "value": "25 MMTPA",
+     "period": null,
+     "period_end": null,
+     "publisher": "Indian Oil",
+     "series": "Salaya–Mathura crude pipeline capacity",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Paradip–Haldia–Barauni | Indian Oil | 1,465 km | 20.4 MMTPA",
+     "value": "1,465 km",
+     "period": null,
+     "period_end": null,
+     "publisher": "Indian Oil",
+     "series": "Paradip–Haldia–Barauni crude pipeline length",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Paradip–Haldia–Barauni | Indian Oil | 1,465 km | 20.4 MMTPA",
+     "value": "20.4 MMTPA",
+     "period": null,
+     "period_end": null,
+     "publisher": "Indian Oil",
+     "series": "Paradip–Haldia–Barauni crude pipeline capacity",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Mundra–Bathinda | HMEL (HPCL–Mittal joint venture) | 1,017 km | Up to 9 MMTPA (Phase 1); an expansion to 18 MMTPA is reported approved",
+     "value": "1,017 km",
+     "period": null,
+     "period_end": null,
+     "publisher": "HMEL",
+     "series": "Mundra–Bathinda crude pipeline length",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Mundra–Bathinda | HMEL (HPCL–Mittal joint venture) | 1,017 km | Up to 9 MMTPA (Phase 1); an expansion to 18 MMTPA is reported approved",
+     "value": "9 MMTPA",
+     "period": null,
+     "period_end": null,
+     "publisher": "HMEL",
+     "series": "Mundra–Bathinda crude pipeline capacity Phase 1",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Mundra–Bathinda | HMEL (HPCL–Mittal joint venture) | 1,017 km | Up to 9 MMTPA (Phase 1); an expansion to 18 MMTPA is reported approved",
+     "value": "18 MMTPA",
+     "period": null,
+     "period_end": null,
+     "publisher": "HMEL",
+     "series": "Mundra–Bathinda crude pipeline expansion capacity",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Mangala–Salaya (Bhogat) | Vedanta/Cairn (70%) & ONGC (30%) | 590 km | 175,000 barrels a day (original design)",
+     "value": "590 km",
+     "period": null,
+     "period_end": null,
+     "publisher": "Vedanta/Cairn & ONGC",
+     "series": "Mangala–Salaya crude pipeline length",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Mangala–Salaya (Bhogat) | Vedanta/Cairn (70%) & ONGC (30%) | 590 km | 175,000 barrels a day (original design)",
+     "value": "175,000 barrels a day",
+     "period": null,
+     "period_end": null,
+     "publisher": "Vedanta/Cairn & ONGC",
+     "series": "Mangala–Salaya crude pipeline capacity",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Naharkatiya–Barauni corridor (incl. a re-engineered, now bi-directional Bongaigaon–Barauni section) | Oil India | 1,247 km trunk line; 600 km bi-directional section | 9.65 MMTPA",
+     "value": "1,247 km",
+     "period": null,
+     "period_end": null,
+     "publisher": "Oil India",
+     "series": "Naharkatiya–Barauni crude corridor trunk length",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Naharkatiya–Barauni corridor (incl. a re-engineered, now bi-directional Bongaigaon–Barauni section) | Oil India | 1,247 km trunk line; 600 km bi-directional section | 9.65 MMTPA",
+     "value": "600 km",
+     "period": null,
+     "period_end": null,
+     "publisher": "Oil India",
+     "series": "Bongaigaon–Barauni bi-directional section length",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Naharkatiya–Barauni corridor (incl. a re-engineered, now bi-directional Bongaigaon–Barauni section) | Oil India | 1,247 km trunk line; 600 km bi-directional section | 9.65 MMTPA",
+     "value": "9.65 MMTPA",
+     "period": null,
+     "period_end": null,
+     "publisher": "Oil India",
+     "series": "Naharkatiya–Barauni corridor capacity",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Vadinar–Bina | Bharat Petroleum | 937 km | Not found in sources located",
+     "value": "937 km",
+     "period": null,
+     "period_end": null,
+     "publisher": "Bharat Petroleum",
+     "series": "Vadinar–Bina crude pipeline length",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Mumbai High–Uran–onward (Petronet MHB) | Petronet MHB (an ONGC–HPCL joint venture) | 363 km | 5.0 MMTPA",
+     "value": "363 km",
+     "period": null,
+     "period_end": null,
+     "publisher": "Petronet MHB",
+     "series": "Mumbai High–Uran crude pipeline length",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Mumbai High–Uran–onward (Petronet MHB) | Petronet MHB (an ONGC–HPCL joint venture) | 363 km | 5.0 MMTPA",
+     "value": "5.0 MMTPA",
+     "period": null,
+     "period_end": null,
+     "publisher": "Petronet MHB",
+     "series": "Mumbai High–Uran crude pipeline capacity",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "PPAC data cited by trade press put India's refinery capacity at 258.1 MMTPA as of April 2025",
+     "value": "258.1 MMTPA",
+     "period": "April 2025",
+     "period_end": "2025-04-30",
+     "publisher": "PPAC",
+     "series": "India refinery capacity",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "crude processed in the first half of FY2024-25 running at 102.9% of nameplate refining capacity",
+     "value": "102.9%",
+     "period": "first half of FY2024-25",
+     "period_end": "2024-09-30",
+     "publisher": "PPAC",
+     "series": "crude processed vs nameplate refining capacity",
+     "frequency": "half-yearly",
+     "headline": false
+    },
+    {
+     "quote": "Indian Oil's FY2024-25 report describes product-pipeline throughput of 45.4 million tonnes",
+     "value": "45.4 million tonnes",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "Indian Oil",
+     "series": "product-pipeline throughput",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "HPCL's FY2024-25 report describes \"highest-ever pipeline throughput\" of 26.90 million tonnes across a network of 17 pipelines spanning 5,134 km (3,957 km of it product pipeline, rated at 31.11 MMTPA)",
+     "value": "26.90 million tonnes",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "HPCL",
+     "series": "pipeline throughput",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "HPCL's FY2024-25 report describes \"highest-ever pipeline throughput\" of 26.90 million tonnes across a network of 17 pipelines spanning 5,134 km (3,957 km of it product pipeline, rated at 31.11 MMTPA)",
+     "value": "5,134 km",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "HPCL",
+     "series": "total pipeline network length",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "HPCL's FY2024-25 report describes \"highest-ever pipeline throughput\" of 26.90 million tonnes across a network of 17 pipelines spanning 5,134 km (3,957 km of it product pipeline, rated at 31.11 MMTPA)",
+     "value": "3,957 km",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "HPCL",
+     "series": "product pipeline length",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "HPCL's FY2024-25 report describes \"highest-ever pipeline throughput\" of 26.90 million tonnes across a network of 17 pipelines spanning 5,134 km (3,957 km of it product pipeline, rated at 31.11 MMTPA)",
+     "value": "31.11 MMTPA",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "HPCL",
+     "series": "product pipeline capacity rating",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Oil India's Numaligarh–Siliguri product line ran at a reported 91.46% utilisation in FY2024-25, prompting an approved capacity increase from 1.72 to 5.5 million tonnes a year",
+     "value": "91.46%",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "Oil India",
+     "series": "Numaligarh–Siliguri product line utilisation",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Oil India's Numaligarh–Siliguri product line ran at a reported 91.46% utilisation in FY2024-25, prompting an approved capacity increase from 1.72 to 5.5 million tonnes a year",
+     "value": "1.72 million tonnes a year",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "Oil India",
+     "series": "Numaligarh–Siliguri product line capacity",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Oil India's Numaligarh–Siliguri product line ran at a reported 91.46% utilisation in FY2024-25, prompting an approved capacity increase from 1.72 to 5.5 million tonnes a year",
+     "value": "5.5 million tonnes a year",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "Oil India",
+     "series": "Numaligarh–Siliguri product line approved capacity",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Indian Oil running 24 own-use pipelines (9,547 km, 60.2 MMTPA) plus 5 common-carrier pipelines (2,046 km, 16.6 MMTPA)",
+     "value": "9,547 km",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "PNGRB-commissioned entity-level study",
+     "series": "Indian Oil own-use pipelines length",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Indian Oil running 24 own-use pipelines (9,547 km, 60.2 MMTPA) plus 5 common-carrier pipelines (2,046 km, 16.6 MMTPA)",
+     "value": "60.2 MMTPA",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "PNGRB-commissioned entity-level study",
+     "series": "Indian Oil own-use pipelines capacity",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Indian Oil running 24 own-use pipelines (9,547 km, 60.2 MMTPA) plus 5 common-carrier pipelines (2,046 km, 16.6 MMTPA)",
+     "value": "2,046 km",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "PNGRB-commissioned entity-level study",
+     "series": "Indian Oil common-carrier pipelines length",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Indian Oil running 24 own-use pipelines (9,547 km, 60.2 MMTPA) plus 5 common-carrier pipelines (2,046 km, 16.6 MMTPA)",
+     "value": "16.6 MMTPA",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "PNGRB-commissioned entity-level study",
+     "series": "Indian Oil common-carrier pipelines capacity",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "HPCL running 10 own-use pipelines (2,128 km, 36.3 MMTPA) plus 6 common-carrier pipelines (2,481 km, 27.6 MMTPA)",
+     "value": "2,128 km",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "PNGRB-commissioned entity-level study",
+     "series": "HPCL own-use pipelines length",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "HPCL running 10 own-use pipelines (2,128 km, 36.3 MMTPA) plus 6 common-carrier pipelines (2,481 km, 27.6 MMTPA)",
+     "value": "36.3 MMTPA",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "PNGRB-commissioned entity-level study",
+     "series": "HPCL own-use pipelines capacity",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "HPCL running 10 own-use pipelines (2,128 km, 36.3 MMTPA) plus 6 common-carrier pipelines (2,481 km, 27.6 MMTPA)",
+     "value": "2,481 km",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "PNGRB-commissioned entity-level study",
+     "series": "HPCL common-carrier pipelines length",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "HPCL running 10 own-use pipelines (2,128 km, 36.3 MMTPA) plus 6 common-carrier pipelines (2,481 km, 27.6 MMTPA)",
+     "value": "27.6 MMTPA",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "PNGRB-commissioned entity-level study",
+     "series": "HPCL common-carrier pipelines capacity",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "BPCL running 4 own-use pipelines (1,978 km, 14.3 MMTPA) plus 6 common-carrier pipelines (1,419 km, 17.2 MMTPA)",
+     "value": "1,978 km",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "PNGRB-commissioned entity-level study",
+     "series": "BPCL own-use pipelines length",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "BPCL running 4 own-use pipelines (1,978 km, 14.3 MMTPA) plus 6 common-carrier pipelines (1,419 km, 17.2 MMTPA)",
+     "value": "14.3 MMTPA",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "PNGRB-commissioned entity-level study",
+     "series": "BPCL own-use pipelines capacity",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "BPCL running 4 own-use pipelines (1,978 km, 14.3 MMTPA) plus 6 common-carrier pipelines (1,419 km, 17.2 MMTPA)",
+     "value": "1,419 km",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "PNGRB-commissioned entity-level study",
+     "series": "BPCL common-carrier pipelines length",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "Indian Oil alone reports over 20,000 km of pipeline and record throughput in FY2024-25",
+     "value": "20,000 km",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "Indian Oil Corporation",
+     "series": "Annual Report (Pipeline Network Length)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "~19,600 km Industry estimate of the total product-pipeline network across IOCL, HPCL and BPCL",
+     "value": "19,600 km",
+     "period": null,
+     "period_end": null,
+     "publisher": "Industry estimate (PNGRB-commissioned study)",
+     "series": "Product-Pipeline Network Length (Estimate)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Indian Oil's liquids throughput (crude + product), FY2024-25 96.9 MT",
+     "value": "96.9 million tonnes (MT)",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "Indian Oil Corporation",
+     "series": "Annual Report (Liquids Throughput)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Indian Oil's FY2024-25 report describes product-pipeline throughput of 45.4 million tonnes",
+     "value": "45.4 million tonnes (MT)",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "Indian Oil Corporation",
+     "series": "Annual Report (Product-Pipeline Throughput)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "HPCL's FY2024-25 report describes 'highest-ever pipeline throughput' of 26.90 million tonnes",
+     "value": "26.90 million tonnes (MT)",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "HPCL",
+     "series": "Annual Report (Pipeline Throughput)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "HPCL's network of 17 pipelines spanning 5,134 km (3,957 km of it product pipeline, rated at 31.11 MMTPA)",
+     "value": "5,134 km (product pipeline: 3,957 km, 31.11 MMTPA)",
+     "period": null,
+     "period_end": null,
+     "publisher": "HPCL",
+     "series": "Annual Report (Pipeline Network Details)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Oil India's Numaligarh–Siliguri product line ran at a reported 91.46% utilisation in FY2024-25",
+     "value": "91.46%",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "Oil India",
+     "series": "Annual Report (Pipeline Utilisation)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Oil India's capacity increase from 1.72 to 5.5 million tonnes a year",
+     "value": "1.72 to 5.5 million tonnes per year (MMTPA)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Oil India",
+     "series": "Pipeline Capacity Expansion",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Indian Oil running 24 own-use pipelines (9,547 km, 60.2 MMTPA) plus 5 common-carrier pipelines (2,046 km, 16.6 MMTPA)",
+     "value": "9,547 km (own-use, 60.2 MMTPA), 2,046 km (common-carrier, 16.6 MMTPA)",
+     "period": null,
+     "period_end": null,
+     "publisher": "PNGRB-commissioned study",
+     "series": "Product-Pipeline Network Breakdown (Industry Estimate)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "HPCL running 10 own-use pipelines (2,128 km, 36.3 MMTPA) plus 6 common-carrier pipelines (2,481 km, 27.6 MMTPA)",
+     "value": "2,128 km (own-use, 36.3 MMTPA), 2,481 km (common-carrier, 27.6 MMTPA)",
+     "period": null,
+     "period_end": null,
+     "publisher": "PNGRB-commissioned study",
+     "series": "Product-Pipeline Network Breakdown (Industry Estimate)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "BPCL running 4 own-use pipelines (1,978 km, 14.3 MMTPA) plus 6 common-carrier pipelines (1,419 km, 17.2 MMTPA)",
+     "value": "1,978 km (own-use, 14.3 MMTPA), 1,419 km (common-carrier, 17.2 MMTPA)",
+     "period": null,
+     "period_end": null,
+     "publisher": "PNGRB-commissioned study",
+     "series": "Product-Pipeline Network Breakdown (Industry Estimate)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "a reported total of 55 pipelines, 19,599 km and 172.2 MMTPA of capacity across the three companies",
+     "value": "55 pipelines, 19,599 km, 172.2 MMTPA",
+     "period": null,
+     "period_end": null,
+     "publisher": "PNGRB-commissioned study",
+     "series": "Product-Pipeline Network Summary",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "roughly 30% of total pipeline length nationally runs as common carrier",
+     "value": "30%",
+     "period": null,
+     "period_end": null,
+     "publisher": "PNGRB-commissioned study",
+     "series": "Product-Pipeline Network Common Carrier Share",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "roughly 70% of total product-pipeline capacity operates in this 'self-use' mode",
+     "value": "70%",
+     "period": null,
+     "period_end": null,
+     "publisher": "PNGRB-commissioned study",
+     "series": "Product-Pipeline Capacity Self-Use Share",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "GAIL's own FY2024-25 figures give throughput of 4.478 million tonnes against a network capacity of 4.58 million tonnes",
+     "value": "4.478 million tonnes (throughput), 4.58 million tonnes (capacity)",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "GAIL",
+     "series": "Annual Report (LPG Throughput and Capacity)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "an expansion from 3.25 to 6.5 MMTPA is reported approved (Jamnagar–Loni)",
+     "value": "3.25 to 6.5 million tonnes per year (MMTPA)",
+     "period": null,
+     "period_end": null,
+     "publisher": "GAIL",
+     "series": "LPG Pipeline Expansion",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "PNGRB data cited by trade press puts the LPG pipeline network at roughly 8,296 km",
+     "value": "8,296 km",
+     "period": null,
+     "period_end": null,
+     "publisher": "PNGRB",
+     "series": "LPG Pipeline Network Length",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "LPG pipeline network carrying only around 2.5 of India's roughly 32 million tonnes of annual LPG demand",
+     "value": "2.5 million tonnes (carried), 32 million tonnes (annual demand)",
+     "period": null,
+     "period_end": null,
+     "publisher": "PNGRB",
+     "series": "LPG Pipeline Demand vs. Capacity",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "PNGRB reportedly consulting in late 2024 on nine further LPG pipelines totalling roughly 3,470 km",
+     "value": "9 pipelines, 3,470 km",
+     "period": "late 2024",
+     "period_end": "2024-12-31",
+     "publisher": "PNGRB",
+     "series": "LPG Pipeline Proposals",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India's refinery capacity at 258.1 MMTPA as of April 2025, with crude processed in the first half of FY2024-25 running at 102.9% of nameplate refining capacity",
+     "value": "258.1 MMTPA (capacity), 102.9%",
+     "period": "April 2025 (capacity), H1 FY2024-25 (throughput)",
+     "period_end": [
+      "2025-04-30",
+      "2025-09-30"
+     ],
+     "publisher": "PPAC (via trade press)",
+     "series": "Refinery Capacity and Throughput",
+     "frequency": "annual (capacity), half-yearly (throughput)",
+     "headline": false
+    },
+    {
+     "quote": "Salaya–Mathura | Indian Oil | 2,663 km | 25 MMTPA",
+     "value": "2,663 km, 25 MMTPA",
+     "period": null,
+     "period_end": null,
+     "publisher": "Indian Oil",
+     "series": "Crude Pipeline (Salaya–Mathura)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Paradip–Haldia–Barauni | Indian Oil | 1,465 km | 20.4 MMTPA",
+     "value": "1,465 km, 20.4 MMTPA",
+     "period": null,
+     "period_end": null,
+     "publisher": "Indian Oil",
+     "series": "Crude Pipeline (Paradip–Haldia–Barauni)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Mundra–Bathinda | HMEL (HPCL–Mittal joint venture) | 1,017 km | Up to 9 MMTPA (Phase 1); an expansion to 18 MMTPA is reported approved",
+     "value": "1,017 km, 9 MMTPA (Phase 1), 18 MMTPA (expansion)",
+     "period": null,
+     "period_end": null,
+     "publisher": "HMEL (HPCL–Mittal joint venture)",
+     "series": "Crude Pipeline (Mundra–Bathinda)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Mangala–Salaya (Bhogat) | Vedanta/Cairn (70%) & ONGC (30%) | 590 km | 175,000 barrels a day (original design)",
+     "value": "590 km, 175,000 barrels per day",
+     "period": null,
+     "period_end": null,
+     "publisher": "Vedanta/Cairn & ONGC",
+     "series": "Crude Pipeline (Mangala–Salaya)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Naharkatiya–Barauni corridor | Oil India | 1,247 km trunk line; 600 km bi-directional section | 9.65 MMTPA",
+     "value": "1,247 km (total), 600 km (bi-directional), 9.65 MMTPA",
+     "period": null,
+     "period_end": null,
+     "publisher": "Oil India",
+     "series": "Crude Pipeline (Naharkatiya–Barauni)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Mumbai High–Uran–onward (Petronet MHB) | Petronet MHB | 363 km | 5.0 MMTPA",
+     "value": "363 km, 5.0 MMTPA",
+     "period": null,
+     "period_end": null,
+     "publisher": "Petronet MHB (ONGC–HPCL joint venture)",
+     "series": "Crude Pipeline (Mumbai High–Uran)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Jamnagar–Loni | GAIL | 1,427 km | Part of a combined 4.58 MMTPA GAIL LPG network",
+     "value": "1,427 km, 4.58 MMTPA (combined network)",
+     "period": null,
+     "period_end": null,
+     "publisher": "GAIL",
+     "series": "LPG Pipeline (Jamnagar–Loni)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Vizag–Secunderabad | GAIL | 610 km | See combined figure above",
+     "value": "610 km (combined with Jamnagar–Loni, 4.58 MMTPA)",
+     "period": null,
+     "period_end": null,
+     "publisher": "GAIL",
+     "series": "LPG Pipeline (Vizag–Secunderabad)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Paradip–Haldia–Durgapur–Motihari | Indian Oil | ... 3.5 MMTPA",
+     "value": "3.5 MMTPA",
+     "period": null,
+     "period_end": null,
+     "publisher": "Indian Oil",
+     "series": "LPG Pipeline (Paradip–Haldia–Durgapur–Motihari)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "HPCL | 1,006 km | 4.1 MMTPA",
+     "value": "1,006 km, 4.1 MMTPA",
+     "period": null,
+     "period_end": null,
+     "publisher": "HPCL",
+     "series": "LPG Pipeline Network (HPCL)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Uran–Chakan–Shikrapur | HPCL | 169 km | 1.0 MMTPA",
+     "value": "169 km, 1.0 MMTPA",
+     "period": null,
+     "period_end": null,
+     "publisher": "HPCL",
+     "series": "LPG Pipeline (Uran–Chakan–Shikrapur)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Mumbai–Uran | BPCL | 28 km | 0.8 MMTPA",
+     "value": "28 km, 0.8 MMTPA",
+     "period": null,
+     "period_end": null,
+     "publisher": "BPCL",
+     "series": "LPG Pipeline (Mumbai–Uran)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Kandla–Gorakhpur (IHB) | ... reported as both 3.75 MMTPA and 8.5 MMTPA",
+     "value": "3.75 MMTPA (reported), 8.5 MMTPA (reported)",
+     "period": null,
+     "period_end": null,
+     "publisher": "IHB (Indian Oil–HPCL–BPCL joint venture)",
+     "series": "LPG Pipeline (Kandla–Gorakhpur)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Kandla–Gorakhpur pipeline’s completion targeted around March 2026",
+     "value": "March 2026",
+     "period": null,
+     "period_end": "2026-03-31",
+     "publisher": "IHB (Indian Oil–HPCL–BPCL joint venture)",
+     "series": "Pipeline Commissioning Milestone",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Indian Oil 11,593 km, HPCL 4,609 km, BPCL 3,397 km (combined dedicated + common-carrier length)",
+     "value": "Indian Oil: 11,593 km, HPCL: 4,609 km, BPCL: 3,397 km",
+     "period": null,
+     "period_end": null,
+     "publisher": "PNGRB-commissioned study",
+     "series": "Product Pipeline Network Length by Company",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

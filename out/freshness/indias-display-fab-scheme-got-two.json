@@ -1,0 +1,490 @@
+{
+ "slug": "indias-display-fab-scheme-got-two",
+ "text_sha1": "5ff20788381f1f06",
+ "chars": 15402,
+ "checked": "2026-10-23T14:00:29",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "up to ₹12,000 crore to whichever of at most two companies built a large-panel display factory",
+     "value": "₹12,000 crore",
+     "period": "December 2021",
+     "period_end": "2021-12-31",
+     "publisher": "MeitY",
+     "series": "Display Fab Scheme",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "proposing a combined $6.7 billion",
+     "value": "$6.7 billion",
+     "period": "February 2022",
+     "period_end": "2022-02-28",
+     "publisher": "MeitY / PIB",
+     "series": "Display Fab Scheme applications",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "a ₹3,200 crore gallium-nitride micro-LED project",
+     "value": "₹3,200 crore",
+     "period": "early May 2026",
+     "period_end": "2026-05-10",
+     "publisher": "PIB",
+     "series": "India Semiconductor Mission approved projects",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "capped at ₹12,000 crore , against a minimum capital investment of ₹10,000 crore and a minimum revenue threshold of ₹7,500 crore",
+     "value": "₹10,000 crore",
+     "period": "December 2021",
+     "period_end": "2021-12-31",
+     "publisher": "MeitY",
+     "series": "Display Fab Scheme",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "minimum revenue threshold of ₹7,500 crore in any of the three years before applying",
+     "value": "₹7,500 crore",
+     "period": "December 2021",
+     "period_end": "2021-12-31",
+     "publisher": "MeitY",
+     "series": "Display Fab Scheme",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "stated ₹24,000 crore",
+     "value": "₹24,000 crore",
+     "period": "June 2022",
+     "period_end": "2022-06-30",
+     "publisher": "PIB / MeitY",
+     "series": "Elest Display Fab Proposal",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "roughly $19.5 billion joint venture with Vedanta on 10-11 July 2023",
+     "value": "$19.5 billion",
+     "period": "10-11 July 2023",
+     "period_end": "2023-07-11",
+     "publisher": "PIB / MeitY",
+     "series": "Vedanta-Foxconn Joint Venture",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "an outlay of ₹1,27,500 crore (roughly $13.25 billion)",
+     "value": "₹1,27,500 crore",
+     "period": "15 July 2026",
+     "period_end": "2026-07-15",
+     "publisher": "Union Cabinet / MeitY",
+     "series": "Semicon 2.0",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "minimum ₹5,000 crore in revenue rather than the original ₹7,500 crore",
+     "value": "₹5,000 crore",
+     "period": "31 August 2026",
+     "period_end": "2026-08-31",
+     "publisher": "MeitY",
+     "series": "Semicon 2.0 Guidelines",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "minimum investment of just ₹1,500 crore and revenue of ₹600 crore",
+     "value": "₹1,500 crore",
+     "period": "31 August 2026",
+     "period_end": "2026-08-31",
+     "publisher": "MeitY",
+     "series": "Semicon 2.0 Micro-LED Guidelines",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "revenue of ₹600 crore",
+     "value": "₹600 crore",
+     "period": "31 August 2026",
+     "period_end": "2026-08-31",
+     "publisher": "MeitY",
+     "series": "Semicon 2.0 Micro-LED Guidelines",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "cumulative investment over ₹1.64 lakh crore",
+     "value": "₹1.64 lakh crore",
+     "period": "July 2026",
+     "period_end": "2026-07-31",
+     "publisher": "PIB",
+     "series": "India Semiconductor Mission Tally",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Tata Semiconductor Assembly and Test at Morigaon, Assam (roughly ₹27,000 crore",
+     "value": "₹27,000 crore",
+     "period": "29 February 2024",
+     "period_end": "2024-02-29",
+     "publisher": "PIB",
+     "series": "India Semiconductor Mission Approved Projects",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "CG Power's facility at Sanand... (roughly ₹7,600 crore",
+     "value": "₹7,600 crore",
+     "period": "29 February 2024",
+     "period_end": "2024-02-29",
+     "publisher": "PIB",
+     "series": "India Semiconductor Mission Approved Projects",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "India offered up to ₹12,000 crore to whichever of at most two companies built a large-panel display factory.",
+     "value": "₹12,000 crore",
+     "period": "December 2021",
+     "period_end": "2021-12-31",
+     "publisher": "MeitY",
+     "series": "Display Fab Scheme (original) – fiscal support cap",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "two bidders Vedanta and Elest apply by the Feb 2022 deadline, proposing a combined ~$6.7 billion",
+     "value": "$6.7 billion",
+     "period": "Feb 2022",
+     "period_end": "2022-02-15",
+     "publisher": "Vedanta/Elest (applications)",
+     "series": "Display Fab Scheme – combined proposed investment",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "a Vedanta-led bid, initially structured as a joint venture with Foxconn, proposing a Generation-8.6 TFT-LCD fab plus AMOLED panel capacity at Dholera, Gujarat; and a bid from Elest, backed by Rajesh Exports, proposing a Generation-6 AMOLED fab publicly announced for Telangana in June 2022 at a stated ₹24,000 crore.",
+     "value": "₹24,000 crore (Elest bid)",
+     "period": "June 2022",
+     "period_end": "2022-06-30",
+     "publisher": "Elest (public announcement)",
+     "series": "Display Fab Scheme – Elest proposed investment",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The Ministry of Electronics and Information Technology notified the 'Scheme for Setting up of Display Fabs in India' on 21 December 2021. ... could receive fiscal support of up to 50 per cent of project cost, capped at ₹12,000 crore ... minimum capital investment of ₹10,000 crore and a minimum revenue threshold of ₹7,500 crore in any of the three years before applying.",
+     "value": "₹10,000 crore (min capital investment)",
+     "period": "as of 21 Dec 2021 notification",
+     "period_end": null,
+     "publisher": "MeitY",
+     "series": "Display Fab Scheme – capital investment threshold",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The Ministry of Electronics and Information Technology notified the 'Scheme for Setting up of Display Fabs in India' on 21 December 2021. ... could receive fiscal support of up to 50 per cent of project cost, capped at ₹12,000 crore ... minimum capital investment of ₹10,000 crore and a minimum revenue threshold of ₹7,500 crore in any of the three years before applying.",
+     "value": "₹7,500 crore (min revenue threshold)",
+     "period": "as of 21 Dec 2021 notification",
+     "period_end": null,
+     "publisher": "MeitY",
+     "series": "Display Fab Scheme – revenue threshold",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The scheme allowed a maximum of two beneficiaries, ran for a notional six-year tenure, was implemented through the newly created India Semiconductor Mission as nodal agency, and required Union Cabinet approval of any selected applicant.",
+     "value": "2 (max beneficiaries)",
+     "period": "as of 21 Dec 2021 notification",
+     "period_end": null,
+     "publisher": "MeitY",
+     "series": "Display Fab Scheme – beneficiary cap",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Foxconn formally withdrew from its roughly $19.5 billion joint venture with Vedanta on 10-11 July 2023",
+     "value": "$19.5 billion",
+     "period": "10-11 July 2023",
+     "period_end": "2023-07-11",
+     "publisher": "Foxconn/Vedanta (withdrawal announcement)",
+     "series": "Vedanta-Foxconn JV – proposed investment",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The Union Cabinet approved Semicon 2.0 on 15 July 2026, an outlay of ₹1,27,500 crore",
+     "value": "₹1,27,500 crore",
+     "period": "15 July 2026",
+     "period_end": "2026-07-15",
+     "publisher": "Union Cabinet",
+     "series": "Semicon 2.0 – total outlay",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "support for silicon-based semiconductor fabs was cut from 50 per cent to 40 per cent of project cost; support for compound semiconductor fabs and display fabs together was cut to up to 35 per cent — down from the uniform 50 per cent the original 2021 scheme offered",
+     "value": "50% → 40% (silicon fabs)",
+     "period": "as of Semicon 2.0 (31 Aug 2026)",
+     "period_end": "2026-08-31",
+     "publisher": "MeitY",
+     "series": "Semicon 2.0 – fiscal support (silicon fabs)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "support for compound semiconductor fabs and display fabs together was cut to up to 35 per cent — down from the uniform 50 per cent the original 2021 scheme offered",
+     "value": "50% → 35% (compound semiconductor & display fabs)",
+     "period": "as of Semicon 2.0 (31 Aug 2026)",
+     "period_end": "2026-08-31",
+     "publisher": "MeitY",
+     "series": "Semicon 2.0 – fiscal support (compound & display fabs)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "a Generation-6-or-above OLED fab now needs a minimum ₹5,000 crore in revenue rather than the original ₹7,500 crore",
+     "value": "₹5,000 crore (OLED revenue floor)",
+     "period": "as of Semicon 2.0 (31 Aug 2026)",
+     "period_end": "2026-08-31",
+     "publisher": "MeitY",
+     "series": "Semicon 2.0 – OLED revenue threshold",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "an entirely new, much smaller Micro-LED sub-category was created, with a minimum investment of just ₹1,500 crore and revenue of ₹600 crore",
+     "value": "₹1,500 crore (Micro-LED min investment)",
+     "period": "as of Semicon 2.0 (31 Aug 2026)",
+     "period_end": "2026-08-31",
+     "publisher": "MeitY",
+     "series": "Semicon 2.0 – Micro-LED investment threshold",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹600 crore (Micro-LED min revenue)",
+     "value": "₹600 crore",
+     "period": "as of Semicon 2.0 (31 Aug 2026)",
+     "period_end": "2026-08-31",
+     "publisher": "MeitY",
+     "series": "Semicon 2.0 – Micro-LED revenue threshold",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "By its own July 2026 tally, the India Semiconductor Mission has approved 12 projects with cumulative investment over ₹1.64 lakh crore",
+     "value": "₹1.64 lakh crore",
+     "period": "July 2026",
+     "period_end": "2026-07-31",
+     "publisher": "India Semiconductor Mission (PIB)",
+     "series": "ISM project tally – cumulative investment",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "one project labelled a 'Gallium Nitride Micro LED Display Fab.' That project is Crystal Matrix Ltd, Cabinet-approved in early May 2026 for a facility at Dholera, Gujarat, producing GaN micro-LED and mini-LED wafers and panels, at a stated investment of roughly ₹3,200 crore.",
+     "value": "₹3,200 crore",
+     "period": "early May 2026",
+     "period_end": "2026-05-15",
+     "publisher": "Union Cabinet (PIB)",
+     "series": "Crystal Matrix Ltd – project investment",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Tata Semiconductor Assembly and Test at Morigaon, Assam (roughly ₹27,000 crore, approved 29 February 2024)",
+     "value": "₹27,000 crore",
+     "period": "29 Feb 2024",
+     "period_end": "2024-02-29",
+     "publisher": "Union Cabinet (PIB)",
+     "series": "Tata Semiconductor Assembly & Test – project investment",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "CG Power's facility at Sanand with Japan's Renesas Electronics and Thailand's Stars Microelectronics (roughly ₹7,600 crore, approved the same day, commercial production beginning July 2026)",
+     "value": "₹7,600 crore",
+     "period": "29 Feb 2024",
+     "period_end": "2024-02-29",
+     "publisher": "Union Cabinet (PIB)",
+     "series": "CG Power/Renesas/Stars Microelectronics – project investment",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Dixon Technologies received Indian government clearance in March 2026 — under Press Note 3 / FEMA security-screening rules — for a joint venture with China's HKC Overseas Ltd ... reportedly eyeing a roughly $3 billion capex display fab",
+     "value": "$3 billion",
+     "period": "March 2026",
+     "period_end": "2026-03-31",
+     "publisher": "Press Note 3 / FEMA clearance",
+     "series": "Dixon-HKC JV – proposed capex",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Crystal Matrix's own balance sheet, as of FY25, showed office equipment rather than fab or cleanroom infrastructure",
+     "value": "FY25",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "Angel One",
+     "series": "Crystal Matrix Ltd – FY25 balance sheet",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Micron Technology's unit at Sanand, Gujarat (Cabinet-approved June 2023, now producing commercially)",
+     "value": "June 2023",
+     "period": "June 2023",
+     "period_end": "2023-06-30",
+     "publisher": "Union Cabinet (PIB)",
+     "series": "Micron Technology – approval date",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "commercial production beginning July 2026",
+     "value": "July 2026",
+     "period": "July 2026",
+     "period_end": "2026-07-31",
+     "publisher": "CG Power/Renesas/Stars Microelectronics",
+     "series": "CG Power facility – commercial production start",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Tata Electronics with Taiwan's PSMC, at Dholera — and one silicon-carbide compound-semiconductor fab, SiCSem in Odisha with the UK's Clas-SiC Wafer Fab",
+     "value": "1 (silicon fab) + 1 (compound-semiconductor fab)",
+     "period": "as of July 2026",
+     "period_end": "2026-07-31",
+     "publisher": "India Semiconductor Mission (PIB)",
+     "series": "ISM project tally – silicon & compound-semiconductor fabs",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "nine are packaging, assembly and testing (OSAT/ATMP) facilities",
+     "value": "9 (OSAT/ATMP projects)",
+     "period": "as of September 2026",
+     "period_end": "2026-09-28",
+     "publisher": "India Semiconductor Mission (PIB)",
+     "series": "ISM project tally – OSAT/ATMP projects",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The scheme did not sit static after its first 45-day window closed without a winner. MeitY reopened both the semiconductor and display fab schemes under a 'Modified Semicon India Programme' from 1 June 2023",
+     "value": "1 June 2023",
+     "period": "1 June 2023",
+     "period_end": "2023-06-01",
+     "publisher": "MeitY",
+     "series": "Modified Semicon India Programme – reopening date",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "existing applicants, Vedanta included, were told they might need to update or resubmit their proposals under the new terms.",
+     "value": "new terms (29 May 2023)",
+     "period": "29 May 2023",
+     "period_end": "2023-05-29",
+     "publisher": "MeitY",
+     "series": "Modified Semicon India Programme – revised guidelines date",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The scheme allowed a maximum of two beneficiaries, ran for a notional six-year tenure",
+     "value": "6 years (notional tenure)",
+     "period": "as of 21 Dec 2021 notification",
+     "period_end": null,
+     "publisher": "MeitY",
+     "series": "Display Fab Scheme – tenure",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The scheme allowed a maximum of two beneficiaries, ... was implemented through the newly created India Semiconductor Mission as nodal agency",
+     "value": "India Semiconductor Mission (nodal agency)",
+     "period": "as of 21 Dec 2021 notification",
+     "period_end": null,
+     "publisher": "MeitY",
+     "series": "Display Fab Scheme – nodal agency",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The scheme allowed a maximum of two beneficiaries, ... required Union Cabinet approval of any selected applicant.",
+     "value": "Union Cabinet approval required",
+     "period": "as of 21 Dec 2021 notification",
+     "period_end": null,
+     "publisher": "MeitY",
+     "series": "Display Fab Scheme – approval requirement",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Applications opened 1 January 2022 for an initial 45-day window.",
+     "value": "45 days (application window)",
+     "period": "1 Jan 2022",
+     "period_end": "2022-02-15",
+     "publisher": "MeitY",
+     "series": "Display Fab Scheme – application window",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The Vedanta side of the story is the better documented one: Foxconn formally withdrew from its roughly $19.5 billion joint venture with Vedanta on 10-11 July 2023",
+     "value": "₹19.5 billion (Vedanta-Foxconn JV)",
+     "period": "10-11 July 2023",
+     "period_end": "2023-07-11",
+     "publisher": "Foxconn/Vedanta",
+     "series": "Vedanta-Foxconn JV – proposed investment (secondary source)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "a Vedanta-led bid, initially structured as a joint venture with Foxconn, proposing a Generation-8.6 TFT-LCD fab plus AMOLED panel capacity at Dholera, Gujarat;",
+     "value": "Generation-8.6 TFT-LCD + AMOLED",
+     "period": "as of Feb 2022 bid",
+     "period_end": null,
+     "publisher": "Vedanta",
+     "series": "Vedanta bid – proposed technology",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "a bid from Elest, backed by Rajesh Exports, proposing a Generation-6 AMOLED fab publicly announced for Telangana in June 2022 at a stated ₹24,000 crore.",
+     "value": "Generation-6 AMOLED",
+     "period": "June 2022",
+     "period_end": "2022-06-30",
+     "publisher": "Elest",
+     "series": "Elest bid – proposed technology",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "a Generation-6-or-above AMOLED fab now needs a minimum ₹5,000 crore in revenue rather than the original ₹7,500 crore (capital investment threshold unchanged at ₹10,000 crore)",
+     "value": "₹10,000 crore (unchanged capital investment threshold)",
+     "period": "as of Semicon 2.0 (31 Aug 2026)",
+     "period_end": "2026-08-31",
+     "publisher": "MeitY",
+     "series": "Semicon 2.0 – capital investment threshold (OLED)",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

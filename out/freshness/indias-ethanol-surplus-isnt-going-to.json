@@ -1,0 +1,450 @@
+{
+ "slug": "indias-ethanol-surplus-isnt-going-to",
+ "text_sha1": "e2997ddac1ed1482",
+ "chars": 12197,
+ "checked": "2026-10-23T14:06:34",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "roughly 2,100 crore litres a year of fuel-registered capacity running at only ~57% utilisation",
+     "value": "~57%",
+     "period": "May 2026",
+     "period_end": "2026-05-31",
+     "publisher": "CareEdge",
+     "series": "Ethanol overcapacity to persist for three years",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "~57% India fuel-ethanol distillery utilisation on ~2,100 cr L capacity (CareEdge)",
+     "value": "~2,100 cr L",
+     "period": "May 2026",
+     "period_end": "2026-05-31",
+     "publisher": "CareEdge",
+     "series": "Ethanol overcapacity to persist for three years",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "$0.449/L US ethanol, FOB Gulf — the world's cheapest major benchmark (USGC, 7 Jan 2026)",
+     "value": "$0.449/L",
+     "period": "7 Jan 2026",
+     "period_end": "2026-01-07",
+     "publisher": "USGC",
+     "series": "Ethanol Market and Pricing Data",
+     "frequency": "weekly",
+     "headline": true
+    },
+    {
+     "quote": "$0.587–0.611/L Brazil ethanol, FOB Santos (hydrous/anhydrous, USGC, 7 Jan 2026)",
+     "value": "$0.587–0.611/L",
+     "period": "7 Jan 2026",
+     "period_end": "2026-01-07",
+     "publisher": "USGC",
+     "series": "Ethanol Market and Pricing Data",
+     "frequency": "weekly",
+     "headline": true
+    },
+    {
+     "quote": "~$0.72/L India's own EBP administered price (₹68/L) at current INR/USD — above both",
+     "value": "~$0.72/L",
+     "period": "August 2026",
+     "period_end": "2026-08-31",
+     "publisher": "PIB / ministry",
+     "series": "Ethanol Blended Petrol (EBP) administered price",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "$0.449 per litre — the lowest of the major global benchmarks",
+     "value": "$0.449 per litre",
+     "period": "7 Jan 2026",
+     "period_end": "2026-01-07",
+     "publisher": "USGC",
+     "series": "Ethanol Market and Pricing Data",
+     "frequency": "weekly",
+     "headline": false
+    },
+    {
+     "quote": "Brazil's FOB Santos price sat at $2.314/gallon ($0.611/L) for anhydrous ethanol",
+     "value": "$0.611/L",
+     "period": "7 Jan 2026",
+     "period_end": "2026-01-07",
+     "publisher": "USGC",
+     "series": "Ethanol Market and Pricing Data",
+     "frequency": "weekly",
+     "headline": false
+    },
+    {
+     "quote": "and $2.222/gallon ($0.587/L) for hydrous",
+     "value": "$0.587/L",
+     "period": "7 Jan 2026",
+     "period_end": "2026-01-07",
+     "publisher": "USGC",
+     "series": "Ethanol Market and Pricing Data",
+     "frequency": "weekly",
+     "headline": false
+    },
+    {
+     "quote": "up sharply year-on-year (+15.6% and +18.3% respectively)",
+     "value": "+15.6%",
+     "period": "7 Jan 2026",
+     "period_end": "2026-01-07",
+     "publisher": "USGC",
+     "series": "Ethanol Market and Pricing Data",
+     "frequency": "weekly",
+     "headline": false
+    },
+    {
+     "quote": "up sharply year-on-year (+15.6% and +18.3% respectively)",
+     "value": "+18.3%",
+     "period": "7 Jan 2026",
+     "period_end": "2026-01-07",
+     "publisher": "USGC",
+     "series": "Ethanol Market and Pricing Data",
+     "frequency": "weekly",
+     "headline": false
+    },
+    {
+     "quote": "a separate Q1 2026 regional bio-ethanol price index (IMARC) puts India at $815 per tonne",
+     "value": "$815 per tonne",
+     "period": "Q1 2026",
+     "period_end": "2026-03-31",
+     "publisher": "IMARC",
+     "series": "regional bio-ethanol price index",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "that's roughly $0.64 per litre",
+     "value": "$0.64 per litre",
+     "period": "Q1 2026",
+     "period_end": "2026-03-31",
+     "publisher": "IMARC",
+     "series": "regional bio-ethanol price index",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "above China's $693/tonne (~$0.55/L)",
+     "value": "$693/tonne",
+     "period": "Q1 2026",
+     "period_end": "2026-03-31",
+     "publisher": "IMARC",
+     "series": "regional bio-ethanol price index",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "and below Brazil's index figure of $883/tonne (~$0.70/L)",
+     "value": "$883/tonne",
+     "period": "Q1 2026",
+     "period_end": "2026-03-31",
+     "publisher": "IMARC",
+     "series": "regional bio-ethanol price index",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "the government's administered EBP procurement price is approximately ₹68 per litre",
+     "value": "₹68 per litre",
+     "period": "August 2026",
+     "period_end": "2026-08-31",
+     "publisher": "PIB / ministry",
+     "series": "Ethanol Blended Petrol administered procurement price",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "at the prevailing exchange rate of roughly ₹95/$1 (August 2026), that's about $0.72 per litre",
+     "value": "₹95/$1",
+     "period": "August 2026",
+     "period_end": "2026-08-31",
+     "publisher": "Federal Reserve H.10 / market data",
+     "series": "USD/INR reference rate",
+     "frequency": "daily",
+     "headline": false
+    },
+    {
+     "quote": "Argus Media reports Indian ISO-tank offers around $0.62/L undercutting Pakistani ENA at ~$0.80/L",
+     "value": "$0.62/L",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "Argus Media",
+     "series": "ENA-grade export offers",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "undercutting Pakistani ENA at ~$0.80/L",
+     "value": "$0.80/L",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "Argus Media",
+     "series": "ENA-grade export offers",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "One industry estimate puts India's share of global ENA export shipments at around 37%",
+     "value": "37%",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "industry estimate",
+     "series": "global ENA export shipments share",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India's overall ethanol market is valued around $3.4 billion (2025)",
+     "value": "$3.4 billion",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "IMARC / Custom Market Insights / Business Research Insights",
+     "series": "India ethanol-market sizing",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "projected to reach roughly $9–12 billion by the early-to-mid 2030s",
+     "value": "$9–12 billion",
+     "period": "early-to-mid 2030s",
+     "period_end": "2035-12-31",
+     "publisher": "IMARC / Custom Market Insights / Business Research Insights",
+     "series": "India ethanol-market projections",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "pharmaceutical-grade segment — ethanol exceeding 99.5% purity... is forecast to expand at roughly 6.1% CAGR",
+     "value": "6.1%",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "IMARC / Custom Market Insights / Business Research Insights",
+     "series": "pharmaceutical-grade ethanol CAGR",
+     "frequency": "annual",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "roughly 2,100 crore litres a year of fuel-registered capacity running at only ~57% utilisation",
+     "value": "~2,100 crore litres/year; ~57%",
+     "period": null,
+     "period_end": null,
+     "publisher": "CareEdge Ratings",
+     "series": "Ethanol overcapacity report (May 2026)",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "U.S. ethanol FOB Gulf at $1.698 per gallon — $0.449 per litre — the lowest of the major global benchmarks",
+     "value": "$0.449/L (FOB Gulf, spot)",
+     "period": "7 Jan 2026",
+     "period_end": "2026-01-07",
+     "publisher": "US Grains & Bioproducts Council (USGC)",
+     "series": "Weekly Ethanol and Co-Product Pricing Report",
+     "frequency": "weekly",
+     "headline": true
+    },
+    {
+     "quote": "Brazil's FOB Santos price sat at $2.314/gallon ($0.611/L) for anhydrous ethanol and $2.222/gallon ($0.587/L) for hydrous",
+     "value": "$0.587–0.611/L (FOB Santos, hydrous/anhydrous, spot)",
+     "period": "7 Jan 2026",
+     "period_end": "2026-01-07",
+     "publisher": "US Grains & Bioproducts Council (USGC)",
+     "series": "Weekly Ethanol and Co-Product Pricing Report",
+     "frequency": "weekly",
+     "headline": true
+    },
+    {
+     "quote": "India's own EBP administered price is approximately ₹68 per litre — at ₹95/$1, that's about $0.72 per litre",
+     "value": "₹68/L (administered EBP price); ~$0.72/L (₹95/$1)",
+     "period": "August 2026",
+     "period_end": "2026-08-31",
+     "publisher": "Indian Government (administered price)",
+     "series": "Ethanol Blending Programme (EBP) procurement price",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "India's share of global ENA export shipments at around 37%",
+     "value": "~37%",
+     "period": null,
+     "period_end": null,
+     "publisher": "Industry estimate (Argus Media, All India Distillers' Association)",
+     "series": "Global ENA export market share",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India's overall ethanol market is valued around $3.4 billion (2025) and projected to reach roughly $9–12 billion by early-to-mid 2030s",
+     "value": "$3.4 billion (2025); $9–12 billion (early-to-mid 2030s)",
+     "period": "2025; early-to-mid 2030s",
+     "period_end": "2025-12-31; 2035-06-30",
+     "publisher": "IMARC / Custom Market Insights / Business Research Insights",
+     "series": "Ethanol market sizing and projections",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "pharmaceutical-grade segment — ethanol exceeding 99.5% purity — is forecast to expand at roughly 6.1% CAGR",
+     "value": "~6.1% CAGR",
+     "period": "early-to-mid 2030s",
+     "period_end": "2035-06-30",
+     "publisher": "IMARC / Custom Market Insights / Business Research Insights",
+     "series": "Pharma-grade ethanol market forecast",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "potable alcohol (IMFL, country liquor) earns a distiller 3–35 times the producer margin of fuel ethanol",
+     "value": "3–35x fuel ethanol producer margin",
+     "period": null,
+     "period_end": null,
+     "publisher": "India ethanol-market analytical report (July 2026)",
+     "series": "Ethanol blending programme economics analysis",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "state tax yield per litre of potable alcohol is up to roughly 75 times more than fuel ethanol",
+     "value": "~75x fuel ethanol state tax yield",
+     "period": null,
+     "period_end": null,
+     "publisher": "India ethanol-market analytical report (July 2026)",
+     "series": "Ethanol blending programme economics analysis",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹45–75 lakh vs. ₹5–8 lakh for a fuel-only distillery in Rajasthan's stack",
+     "value": "₹45–75 lakh (potable alcohol licence); ₹5–8 lakh (fuel-only distillery)",
+     "period": null,
+     "period_end": null,
+     "publisher": "India ethanol-market analytical report (July 2026)",
+     "series": "Licensing cost comparison",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Indian ISO-tank offers around $0.62/L undercutting Pakistani ENA at ~$0.80/L",
+     "value": "$0.62/L (Indian ENA); ~$0.80/L (Pakistani ENA)",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "Argus Media",
+     "series": "ENA export pricing report",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "volumes up sharply in 2026 from a low base",
+     "value": "sharp increase in 2026 volumes",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "Argus Media",
+     "series": "ENA export volume trends",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Brazil's anhydrous ethanol price up sharply year-on-year (+15.6%)",
+     "value": "+15.6% YoY",
+     "period": "2025–2026",
+     "period_end": "2026-01-07",
+     "publisher": "US Grains & Bioproducts Council (USGC)",
+     "series": "Weekly Ethanol and Co-Product Pricing Report",
+     "frequency": "weekly",
+     "headline": false
+    },
+    {
+     "quote": "Brazil's hydrous ethanol price up sharply year-on-year (+18.3%)",
+     "value": "+18.3% YoY",
+     "period": "2025–2026",
+     "period_end": "2026-01-07",
+     "publisher": "US Grains & Bioproducts Council (USGC)",
+     "series": "Weekly Ethanol and Co-Product Pricing Report",
+     "frequency": "weekly",
+     "headline": false
+    },
+    {
+     "quote": "Gulf-to-Santos spread — a $0.616/gallon discount, more than double the prior year's gap",
+     "value": "$0.616/gallon ($0.81/L) spread; >2x prior year",
+     "period": "2025–2026",
+     "period_end": "2026-01-07",
+     "publisher": "US Grains & Bioproducts Council (USGC)",
+     "series": "Weekly Ethanol and Co-Product Pricing Report",
+     "frequency": "weekly",
+     "headline": false
+    },
+    {
+     "quote": "India at $815 per tonne — converting at ethanol's ~0.789 kg/L density, that's roughly $0.64 per litre",
+     "value": "$815/tonne (~$0.64/L)",
+     "period": "Q1 2026",
+     "period_end": "2026-03-31",
+     "publisher": "IMARC Group",
+     "series": "Q1 2026 regional bio-ethanol price index",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "China's $693/tonne (~$0.55/L)",
+     "value": "$693/tonne (~$0.55/L)",
+     "period": "Q1 2026",
+     "period_end": "2026-03-31",
+     "publisher": "IMARC Group",
+     "series": "Q1 2026 regional bio-ethanol price index",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "Brazil's index figure of $883/tonne (~$0.70/L)",
+     "value": "$883/tonne (~$0.70/L)",
+     "period": "Q1 2026",
+     "period_end": "2026-03-31",
+     "publisher": "IMARC Group",
+     "series": "Q1 2026 regional bio-ethanol price index",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "DGFT notification effective September 2025 moved second-generation (2G) ethanol exports to 'Restricted'",
+     "value": "September 2025",
+     "period": "September 2025",
+     "period_end": "2025-09-30",
+     "publisher": "DGFT (Directorate General of Foreign Trade)",
+     "series": "Notification No. 32/2025-26",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Ethanol overcapacity to persist for three years",
+     "value": "three years",
+     "period": "May 2026",
+     "period_end": "2026-05-31",
+     "publisher": "CareEdge Ratings",
+     "series": "Ethanol overcapacity report",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "USD/INR reference rate ~95 (August 2026)",
+     "value": "₹95/$1",
+     "period": "August 2026",
+     "period_end": "2026-08-31",
+     "publisher": "Federal Reserve H.10 / market data",
+     "series": "Exchange rate",
+     "frequency": "live",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

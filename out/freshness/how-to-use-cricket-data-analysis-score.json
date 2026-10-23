@@ -1,0 +1,250 @@
+{
+ "slug": "how-to-use-cricket-data-analysis-score",
+ "text_sha1": "ff89950dc56c797f",
+ "chars": 8880,
+ "checked": "2026-10-23T12:08:28",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "6.5 MB IPL zip downloaded from Cricsheet",
+     "value": "6.5 MB",
+     "period": "19 October 2026",
+     "period_end": "2026-10-19",
+     "publisher": "Cricsheet",
+     "series": "IPL men's CSV archive",
+     "frequency": "live",
+     "headline": true
+    },
+    {
+     "quote": "1,218 decisive IPL matches, 2007/08 to 2026 (our re-computation)",
+     "value": "1,218 matches",
+     "period": "2007/08 to 2026",
+     "period_end": "2026-10-19",
+     "publisher": "Cricsheet",
+     "series": "IPL men's CSV archive",
+     "frequency": "live",
+     "headline": true
+    },
+    {
+     "quote": "73 pairings with 3+ meetings",
+     "value": "73 pairings",
+     "period": "2007/08 to 2026",
+     "period_end": "2026-10-19",
+     "publisher": "Cricsheet",
+     "series": "IPL men's CSV archive",
+     "frequency": "live",
+     "headline": true
+    },
+    {
+     "quote": "Downloaded file size: 6834886 bytes",
+     "value": "6834886 bytes",
+     "period": "19 October 2026",
+     "period_end": "2026-10-19",
+     "publisher": "Cricsheet",
+     "series": "IPL men's CSV archive",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "decisive matches 1218 seasons 2007/08 - 2026",
+     "value": "1,218 matches",
+     "period": "2007/08 to 2026",
+     "period_end": "2026-10-19",
+     "publisher": "Cricsheet",
+     "series": "IPL men's CSV archive",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "pairings with >=3 meetings 73",
+     "value": "73 pairings",
+     "period": "2007/08 to 2026",
+     "period_end": "2026-10-19",
+     "publisher": "Cricsheet",
+     "series": "IPL men's CSV archive",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "Gujarat Lions vs Sunrisers Hyderabad n= 5 dominant=Sunrisers Hyderabad 5/5 (100.0%) score=1.000",
+     "value": "1.000",
+     "period": "2007/08 to 2026",
+     "period_end": "2026-10-19",
+     "publisher": "Cricsheet",
+     "series": "IPL head-to-head predictability",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "Pune Warriors vs Royal Challengers Bengaluru n= 5 dominant=Royal Challengers Bengaluru 5/5 (100.0%) score=1.000",
+     "value": "1.000",
+     "period": "2007/08 to 2026",
+     "period_end": "2026-10-19",
+     "publisher": "Cricsheet",
+     "series": "IPL head-to-head predictability",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "Gujarat Titans vs Sunrisers Hyderabad n= 7 dominant=Gujarat Titans 6/7 (85.7%) score=0.408",
+     "value": "0.408",
+     "period": "2007/08 to 2026",
+     "period_end": "2026-10-19",
+     "publisher": "Cricsheet",
+     "series": "IPL head-to-head predictability",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "Mumbai Indians vs Pune Warriors n= 6 dominant=Mumbai Indians 5/6 (83.3%) score=0.350",
+     "value": "0.350",
+     "period": "2007/08 to 2026",
+     "period_end": "2026-10-19",
+     "publisher": "Cricsheet",
+     "series": "IPL head-to-head predictability",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "Deccan Chargers vs Kolkata Knight Riders n= 9 dominant=Kolkata Knight Riders 7/9 (77.8%) score=0.236",
+     "value": "0.236",
+     "period": "2007/08 to 2026",
+     "period_end": "2026-10-19",
+     "publisher": "Cricsheet",
+     "series": "IPL head-to-head predictability",
+     "frequency": "live",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "IPL zip downloaded from Cricsheet 1,218 decisive IPL matches, 2007/08 to 2026 (our re-computation)",
+     "value": "1,218 decisive IPL matches",
+     "period": "2007/08 to 2026",
+     "period_end": "2026-03-31",
+     "publisher": "Cricsheet (via author's re-computation)",
+     "series": "IPL decisive matches dataset (CSV archive)",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "73 pairings with 3+ meetings",
+     "value": "73 pairings",
+     "period": null,
+     "period_end": null,
+     "publisher": "Author's re-computation (Cricsheet data)",
+     "series": "IPL team pairings with ≥3 meetings",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Downloaded file size: 6.5 MB",
+     "value": "6.5 MB",
+     "period": "19 Oct 2026",
+     "period_end": "2026-10-19",
+     "publisher": "Cricsheet (cricsheet.org)",
+     "series": "IPL men's CSV archive (ipl_male_csv2.zip)",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "Gujarat Lions vs Sunrisers Hyderabad n= 5 dominant=Sunrisers Hyderabad 5/5 (100.0%) score=1.000",
+     "value": "5 matches; predictability score=1.000",
+     "period": "2007/08–2026",
+     "period_end": "2026-03-31",
+     "publisher": "Author's re-computation (Cricsheet data)",
+     "series": "IPL team pairings predictability score",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Pune Warriors vs Royal Challengers Bengaluru n= 5 dominant=Royal Challengers Bengaluru 5/5 (100.0%) score=1.000",
+     "value": "5 matches; predictability score=1.000",
+     "period": "2007/08–2026",
+     "period_end": "2026-03-31",
+     "publisher": "Author's re-computation (Cricsheet data)",
+     "series": "IPL team pairings predictability score",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Gujarat Titans vs Sunrisers Hyderabad n= 7 dominant=Gujarat Titans 6/7 (85.7%) score=0.408",
+     "value": "7 matches; predictability score=0.408",
+     "period": "2007/08–2026",
+     "period_end": "2026-03-31",
+     "publisher": "Author's re-computation (Cricsheet data)",
+     "series": "IPL team pairings predictability score",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Mumbai Indians vs Pune Warriors n= 6 dominant=Mumbai Indians 5/6 (83.3%) score=0.350",
+     "value": "6 matches; predictability score=0.350",
+     "period": "2007/08–2026",
+     "period_end": "2026-03-31",
+     "publisher": "Author's re-computation (Cricsheet data)",
+     "series": "IPL team pairings predictability score",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Deccan Chargers vs Kolkata Knight Riders n= 9 dominant=Kolkata Knight Riders 7/9 (77.8%) score=0.236",
+     "value": "9 matches; predictability score=0.236",
+     "period": "2007/08–2026",
+     "period_end": "2026-03-31",
+     "publisher": "Author's re-computation (Cricsheet data)",
+     "series": "IPL team pairings predictability score",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Downloading: https://cricsheet.org/downloads/ipl_male_csv2.zip downloaded 6.5 MB",
+     "value": "6,834,886 bytes",
+     "period": "19 Oct 2026",
+     "period_end": "2026-10-19",
+     "publisher": "Cricsheet (cricsheet.org)",
+     "series": "IPL men's CSV archive file size",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "seasons 2007/08 - 2026",
+     "value": "2007/08 to 2026 (19 seasons)",
+     "period": "2007/08–2026",
+     "period_end": "2026-03-31",
+     "publisher": "Cricsheet (via author's re-computation)",
+     "series": "IPL seasons coverage",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "Run the script Rscript fetch_and_analyze_cricket_data.R ... downloaded 6.5 MB",
+     "value": "6.5 MB",
+     "period": "19 Oct 2026",
+     "period_end": "2026-10-19",
+     "publisher": "Cricsheet (cricsheet.org)",
+     "series": "IPL men's CSV archive download",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "The script downloads the full public dataset in one step.",
+     "value": "1,218 decisive matches (re-computed)",
+     "period": "2007/08–2026",
+     "period_end": "2026-03-31",
+     "publisher": "Cricsheet (via author's re-computation)",
+     "series": "IPL decisive matches dataset",
+     "frequency": "multi-year",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

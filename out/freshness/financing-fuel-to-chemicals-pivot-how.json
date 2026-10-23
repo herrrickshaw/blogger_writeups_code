@@ -1,0 +1,560 @@
+{
+ "slug": "financing-fuel-to-chemicals-pivot-how",
+ "text_sha1": "2c44e0073597ca1a",
+ "chars": 13558,
+ "checked": "2026-10-23T11:30:54",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "₹15,000 crore of debt, roughly 30% of it — $500 million to $1 billion — sourced from foreign currency loans and bonds, to help fund a ₹35,000 crore annual capex programme.",
+     "value": "₹15,000 crore",
+     "period": "FY2026",
+     "period_end": "2026-03-31",
+     "publisher": "Indian Oil Corporation",
+     "series": "Annual capex and debt raise programme",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "$500 million to $1 billion — sourced from foreign currency loans and bonds",
+     "value": "$500 million to $1 billion",
+     "period": "FY2026",
+     "period_end": "2026-03-31",
+     "publisher": "Indian Oil Corporation",
+     "series": "Foreign currency debt raise",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "to help fund a ₹35,000 crore annual capex programme.",
+     "value": "₹35,000 crore",
+     "period": "FY2026",
+     "period_end": "2026-03-31",
+     "publisher": "Indian Oil Corporation",
+     "series": "Annual capex programme",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "India's own petrochemical intensity — the share of crude actually converted into chemicals rather than fuel — has room to grow from roughly 13% today toward a 15% national target by 2030",
+     "value": "13%",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "PIB / ministry",
+     "series": "National petrochemical intensity",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "toward a 15% national target by 2030",
+     "value": "15%",
+     "period": "2030",
+     "period_end": "2030-12-31",
+     "publisher": "PIB / ministry",
+     "series": "National petrochemical intensity target",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "IndianOil's board has separately approved ₹32,946 crore ($4.5 billion) to expand Panipat refinery from 15 to 25 MMTPA",
+     "value": "₹32,946 crore",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "Indian Oil Corporation",
+     "series": "Panipat refinery expansion project cost",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "expand Panipat refinery from 15 to 25 MMTPA",
+     "value": "15 to 25 MMTPA",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "Indian Oil Corporation",
+     "series": "Panipat refinery capacity",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "roughly ₹19,000 crore for the Gujarat (Koyali) refinery's expansion from 13.7 to 18 MMTPA",
+     "value": "₹19,000 crore",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "Indian Oil Corporation",
+     "series": "Gujarat (Koyali) refinery expansion cost",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "expansion from 13.7 to 18 MMTPA",
+     "value": "13.7 to 18 MMTPA",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "Indian Oil Corporation",
+     "series": "Gujarat (Koyali) refinery capacity",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "a five-to-six-year, ₹1 trillion commitment to petrochemicals specifically, aimed at lifting IndianOil's own petrochemical intensity from about 6.5% to 16% and its petrochemical capacity from 4.3 MMTPA to 13 MMTPA by 2030.",
+     "value": "₹1 trillion",
+     "period": "2030",
+     "period_end": "2030-12-31",
+     "publisher": "Indian Oil Corporation",
+     "series": "IOCL petrochemical commitment",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "lifting IndianOil's own petrochemical intensity from about 6.5% to 16%",
+     "value": "6.5% to 16%",
+     "period": "2030",
+     "period_end": "2030-12-31",
+     "publisher": "Indian Oil Corporation",
+     "series": "IOCL petrochemical intensity target",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "petrochemical capacity from 4.3 MMTPA to 13 MMTPA by 2030.",
+     "value": "4.3 to 13 MMTPA",
+     "period": "2030",
+     "period_end": "2030-12-31",
+     "publisher": "Indian Oil Corporation",
+     "series": "IOCL petrochemical capacity target",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Refinery 7.8→11 MMTPA",
+     "value": "7.8 to 11 MMTPA",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "BPCL",
+     "series": "Bina refinery capacity",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹31,802cr syndicated loan, SBI-led 6-bank consortium (incl. Exim Bank), against a ₹48,926cr project cost",
+     "value": "₹31,802 crore",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "BPCL",
+     "series": "Bina refinery syndicated loan",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "against a ₹48,926cr project cost",
+     "value": "₹48,926 crore",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "BPCL",
+     "series": "BPCL Bina total project cost",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹1 trillion (~$11.4bn)",
+     "value": "₹1 trillion",
+     "period": "FY2030",
+     "period_end": "2030-03-31",
+     "publisher": "BPCL / Oil India",
+     "series": "Southern India refinery-cum-petrochemical complex cost",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "HPCL has separately raised ₹10,000cr via debt for its broader capex programme",
+     "value": "₹10,000 crore",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "HPCL",
+     "series": "HPCL debt raise for capex",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹1 lakh crore proposed",
+     "value": "₹1 lakh crore",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "ONGC",
+     "series": "Uttar Pradesh proposed refinery complex cost",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹75,000cr committed across petrochemicals and new energy",
+     "value": "₹75,000 crore",
+     "period": "2027",
+     "period_end": "2027-12-31",
+     "publisher": "Reliance Industries",
+     "series": "Reliance petrochemical and new energy capital allocation",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹4,016cr project term loan for phase 1 of the PP plant",
+     "value": "₹4,016 crore",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "Nayara Energy",
+     "series": "Nayara polypropylene plant term loan",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India's stated national target is to lift refining capacity from roughly 258 MMTPA today to 450 MMTPA by 2030",
+     "value": "258 MMTPA",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "MoSPI / PIB",
+     "series": "National refining capacity",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "to 450 MMTPA by 2030",
+     "value": "450 MMTPA",
+     "period": "2030",
+     "period_end": "2030-12-31",
+     "publisher": "MoSPI / PIB",
+     "series": "National refining capacity target",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "on track to rise from around 4.1 to roughly 9.3 once currently announced projects complete",
+     "value": "4.1 to 9.3",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "PIB / ministry",
+     "series": "PSU refiners combined petrochemical intensity index",
+     "frequency": "annual",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "₹15,000 crore of debt, roughly 30% of it — $500 million to $1 billion — sourced from foreign currency loans and bonds",
+     "value": "₹15,000 crore debt; $500 million to $1 billion (foreign currency)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Indian Oil Corporation (IOCL) finance director",
+     "series": "Debt raise announcement (corporate disclosure)",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "₹35,000 crore annual capex programme",
+     "value": "₹35,000 crore",
+     "period": "annual",
+     "period_end": null,
+     "publisher": "Indian Oil Corporation (IOCL) finance director",
+     "series": "Annual capex guidance",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "IOCL petrochem programme (5–6yr): ₹1,00,000cr",
+     "value": "₹1,00,000 crore",
+     "period": "5–6 years",
+     "period_end": "2030-12-31",
+     "publisher": "Indian Oil Corporation (IOCL) investor disclosures",
+     "series": "Petrochemical expansion programme",
+     "frequency": "multi-year",
+     "headline": true
+    },
+    {
+     "quote": "BPCL–Oil India JV (proposed): ₹1,00,000cr",
+     "value": "₹1,00,000 crore",
+     "period": null,
+     "period_end": null,
+     "publisher": "BPCL/Oil India JV (proposed)",
+     "series": "Joint venture petrochemical project",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "ONGC Uttar Pradesh (proposed): ₹1,00,000cr",
+     "value": "₹1,00,000 crore",
+     "period": null,
+     "period_end": null,
+     "publisher": "ONGC (proposed)",
+     "series": "Refinery-cum-petrochemical complex",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "Reliance petrochem + new energy: ₹75,000cr",
+     "value": "₹75,000 crore",
+     "period": null,
+     "period_end": null,
+     "publisher": "Reliance Industries",
+     "series": "Petrochemical and new energy capital allocation",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "BPCL Bina total project cost: ₹48,926cr",
+     "value": "₹48,926 crore",
+     "period": null,
+     "period_end": null,
+     "publisher": "BPCL (PRNewswire, Business Standard)",
+     "series": "Bina refinery expansion + petrochemical complex",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "IOCL Panipat refinery expansion: ₹32,946cr (15→25 MMTPA)",
+     "value": "₹32,946 crore",
+     "period": null,
+     "period_end": "2026-12-31",
+     "publisher": "Indian Oil Corporation (IOCL)",
+     "series": "Panipat refinery expansion project",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "IOCL Gujarat (Koyali) expansion: ~₹19,000cr (13.7→18 MMTPA)",
+     "value": "~₹19,000 crore",
+     "period": null,
+     "period_end": null,
+     "publisher": "Indian Oil Corporation (IOCL)",
+     "series": "Gujarat (Koyali) refinery expansion",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "IOCL FY debt raise: ₹15,000cr",
+     "value": "₹15,000 crore",
+     "period": "FY2026-27",
+     "period_end": "2027-03-31",
+     "publisher": "Indian Oil Corporation (IOCL)",
+     "series": "Annual debt raise",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "HPCL Barmer refinery-cum-petrochemical complex: inaugurated Jul 2026; ₹10,000cr debt raised",
+     "value": "₹10,000 crore",
+     "period": "as on 2026-07-01",
+     "period_end": "2026-07-01",
+     "publisher": "HPCL (company disclosures)",
+     "series": "Debt raise for broader capex programme",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Nayara Energy: ₹6,000cr (PP unit); ~$8bn (proposed ethane cracker)",
+     "value": "₹6,000 crore (PP unit); ~$8 billion (proposed cracker)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Nayara Energy (PolymerUpdate, Indian Chemical News)",
+     "series": "Vadinar polypropylene unit and ethane cracker proposal",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹4,016cr project term loan for phase 1 of the PP plant",
+     "value": "₹4,016 crore",
+     "period": null,
+     "period_end": null,
+     "publisher": "Nayara Energy",
+     "series": "Project term loan for PP plant phase 1",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "IndianOil's petrochemical intensity: from about 6.5% to 16% by 2030",
+     "value": "6.5% → 16%",
+     "period": "by 2030",
+     "period_end": "2030-12-31",
+     "publisher": "Indian Oil Corporation (IOCL)",
+     "series": "Petrochemical intensity target",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "IndianOil's petrochemical capacity: from 4.3 MMTPA to 13 MMTPA by 2030",
+     "value": "4.3 MMTPA → 13 MMTPA",
+     "period": "by 2030",
+     "period_end": "2030-12-31",
+     "publisher": "Indian Oil Corporation (IOCL)",
+     "series": "Petrochemical capacity expansion",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "India's refining capacity: from roughly 258 MMTPA today to 450 MMTPA by 2030",
+     "value": "258 MMTPA → 450 MMTPA",
+     "period": "by 2030",
+     "period_end": "2030-12-31",
+     "publisher": "Ministry of Petroleum and Natural Gas (via Business Standard, DD News)",
+     "series": "National refining capacity target",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "Public-sector refiners' combined petrochemical intensity index: from around 4.1 to roughly 9.3",
+     "value": "4.1 → 9.3",
+     "period": null,
+     "period_end": null,
+     "publisher": "Ministry of Petroleum and Natural Gas (via Business Standard)",
+     "series": "Public-sector refiners' petrochemical intensity index",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India's petrochemical intensity: room to grow from roughly 13% today toward a 15% national target by 2030",
+     "value": "13% → 15%",
+     "period": "by 2030",
+     "period_end": "2030-12-31",
+     "publisher": "Ministry of Petroleum and Natural Gas (via Business Standard)",
+     "series": "National petrochemical intensity target",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "Panipat refinery expansion: 15→25 MMTPA, ~94% complete, targeted Dec 2026",
+     "value": "15→25 MMTPA",
+     "period": "as of 2026-08-14 (article date)",
+     "period_end": "2026-12-31",
+     "publisher": "Indian Oil Corporation (IOCL)",
+     "series": "Panipat refinery expansion progress",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Gujarat (Koyali) refinery expansion: 13.7→18 MMTPA, ~90% complete",
+     "value": "13.7→18 MMTPA",
+     "period": null,
+     "period_end": null,
+     "publisher": "Indian Oil Corporation (IOCL)",
+     "series": "Gujarat (Koyali) refinery expansion progress",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "BPCL Bina refinery expansion: 7.8→11 MMTPA",
+     "value": "7.8→11 MMTPA",
+     "period": null,
+     "period_end": null,
+     "publisher": "BPCL (PRNewswire, Business Standard)",
+     "series": "Bina refinery expansion scale",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "BPCL–Oil India JV: 1.5 MMTPA ethylene cracker",
+     "value": "1.5 MMTPA",
+     "period": null,
+     "period_end": null,
+     "publisher": "BPCL–Oil India JV (Inspectioneering, Hydrocarbon Processing)",
+     "series": "Ethylene cracker capacity",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Reliance Dahej/Nagothane PVC-CPVC plants: 1.5 MMTPA",
+     "value": "1.5 MMTPA",
+     "period": null,
+     "period_end": null,
+     "publisher": "Reliance Industries (PolymerUpdate, ChemIndigest)",
+     "series": "PVC-CPVC plant capacity",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Nayara Vadinar polypropylene unit: 450 KTPA",
+     "value": "450 KTPA",
+     "period": null,
+     "period_end": null,
+     "publisher": "Nayara Energy (PolymerUpdate, Indian Chemical News)",
+     "series": "Polypropylene unit capacity",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "ONGC Uttar Pradesh proposed refinery-cum-petrochemical complex: 12 MMTPA",
+     "value": "12 MMTPA",
+     "period": null,
+     "period_end": null,
+     "publisher": "ONGC (PolymerUpdate, ChemIndigest)",
+     "series": "Proposed refinery-cum-petrochemical complex scale",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "RBI's February 2026 liberalisation of the External Commercial Borrowings framework raised the automatic-route ceiling to the higher of $1 billion outstanding or 300% of net worth",
+     "value": "$1 billion outstanding or 300% of net worth",
+     "period": "as of 2026-02-01",
+     "period_end": "2026-02-01",
+     "publisher": "Reserve Bank of India (RBI)",
+     "series": "External Commercial Borrowings (ECB) framework",
+     "frequency": "one-off (policy change)",
+     "headline": false
+    },
+    {
+     "quote": "Reliance targeting >30% chemicals yield by 2027",
+     "value": ">30%",
+     "period": "by 2027",
+     "period_end": "2027-12-31",
+     "publisher": "Reliance Industries",
+     "series": "Chemicals yield target",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "₹31,802cr syndicated loan for BPCL Bina refinery expansion",
+     "value": "₹31,802 crore",
+     "period": null,
+     "period_end": null,
+     "publisher": "BPCL (PRNewswire, Business Standard)",
+     "series": "Syndicated loan for Bina refinery expansion",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "BPCL–Oil India JV: ~$11.4bn (~₹1 trillion)",
+     "value": "~$11.4 billion (~₹1 trillion)",
+     "period": null,
+     "period_end": null,
+     "publisher": "BPCL–Oil India JV (Inspectioneering, Hydrocarbon Processing)",
+     "series": "Joint venture project cost",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "ONGC Uttar Pradesh proposal: ₹1 lakh crore",
+     "value": "₹1 lakh crore",
+     "period": null,
+     "period_end": null,
+     "publisher": "ONGC (PolymerUpdate, ChemIndigest)",
+     "series": "Proposed refinery-cum-petrochemical complex cost",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India's petrochemical import dependence: still-heavy reliance on imported plastics, polymers and specialty chemicals",
+     "value": "heavy reliance on imports",
+     "period": null,
+     "period_end": null,
+     "publisher": "Ministry of Petroleum and Natural Gas (via Business Standard)",
+     "series": "Petrochemical import dependence",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

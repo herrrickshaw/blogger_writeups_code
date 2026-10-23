@@ -1,0 +1,490 @@
+{
+ "slug": "blending-on-budget-energy-density-and",
+ "text_sha1": "6c16f16262a88444",
+ "chars": 23493,
+ "checked": "2026-10-23T10:44:21",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "Ethanol carries about 32.4 MJ per litre; pure ethanol carries about 21.3 MJ per litre",
+     "value": "32.4 MJ per litre and 21.3 MJ per litre",
+     "period": "March 2024",
+     "period_end": "2024-03-31",
+     "publisher": "US Department of Energy",
+     "series": "Alternative Fuels Data Center Fuel Properties Comparison",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "ARAI's controlled testing found a 2–6% efficiency reduction on E20; SIAM cites 2–4%.",
+     "value": "2–6% and 2–4%",
+     "period": "July 2026",
+     "period_end": "2026-07-31",
+     "publisher": "ARAI / SIAM",
+     "series": "Which Gives More Bang for Your Buck?",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "starting at 1% of consumption in FY2025-26, rising to 3% in FY2026-27, 4% in FY2027-28 and 5% from FY2028-29 onward.",
+     "value": "1%, 3%, 4%, 5%",
+     "period": "FY2025-26 to FY2028-29",
+     "period_end": "2029-03-31",
+     "publisher": "PIB",
+     "series": "Compressed Biogas Blending Obligation",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Isobutanol carries about 26.6 MJ per litre against diesel's 35.8 MJ/L",
+     "value": "26.6 MJ per litre and 35.8 MJ/L",
+     "period": "June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "IEA-AMF / AFDC",
+     "series": "IEA Advanced Motor Fuels fuel property tables",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "offering up to ₹12.5 crore in combined funding: a ₹7.5 crore grant pool and a ₹5 crore prize pool",
+     "value": "₹12.5 crore, ₹7.5 crore, ₹5 crore",
+     "period": "17 July 2026",
+     "period_end": "2026-07-17",
+     "publisher": "MC² Foundation",
+     "series": "MC²+ Grand Butanol Challenge",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "India's SAF mandate starts at 1% blending from 2027, rising to 2% by 2028 and 5% by 2030",
+     "value": "1%, 2%, 5%",
+     "period": "2027 to 2030",
+     "period_end": "2030-12-31",
+     "publisher": "PIB / ministry",
+     "series": "SAF blending timeline",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "SAF traded globally in 2026 at roughly $1,817 per tonne",
+     "value": "$1,817 per tonne",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "S&P Global",
+     "series": "Global SAF spot prices",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "Petrol carries about 32.4 MJ per litre; pure ethanol carries about 21.3 MJ per litre",
+     "value": "32.4 MJ/L and 21.3 MJ/L",
+     "period": "March 2024",
+     "period_end": "2024-03-31",
+     "publisher": "NITI Aayog / US Department of Energy",
+     "series": "Roadmap for Ethanol Blending in India / AFDC",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "E20 (20% ethanol, 80% petrol) works out to about 30.2 MJ/L",
+     "value": "30.2 MJ/L",
+     "period": "July 2026",
+     "period_end": "2026-07-31",
+     "publisher": "NITI Aayog / US Department of Energy",
+     "series": "Roadmap for Ethanol Blending in India / AFDC",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "At a representative 4% drop, the extra fuel cost works out to about ₹0.27–0.33 per kilometre",
+     "value": "₹0.27–0.33 per kilometre",
+     "period": "July 2026",
+     "period_end": "2026-07-31",
+     "publisher": "PIB / ministry",
+     "series": "Which Gives More Bang for Your Buck?",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "or roughly ₹3,900–4,900 a year for an average driver on a Delhi fuel-price basis",
+     "value": "₹3,900–4,900 a year",
+     "period": "July 2026",
+     "period_end": "2026-07-31",
+     "publisher": "PIB / ministry",
+     "series": "Which Gives More Bang for Your Buck?",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "CBG is defined under India's Bureau of Indian Standards specification (IS 16087:2016) as biogas upgraded to at least 90% methane purity",
+     "value": "at least 90%",
+     "period": "2016",
+     "period_end": "2016-12-31",
+     "publisher": "Bureau of Indian Standards",
+     "series": "IS 16087:2016",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Published energy-content ranges put fossil CNG at roughly 50–56 MJ/kg and purified CBG at roughly 47–52 MJ/kg",
+     "value": "50–56 MJ/kg and 47–52 MJ/kg",
+     "period": "July 2026",
+     "period_end": "2026-07-31",
+     "publisher": "PNGRB / PIB",
+     "series": "CBG and CNG technical specifications",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "running-cost figures already published for CNG vehicles (roughly ₹2.97–3.78/km for a Delhi hatchback or compact SUV)",
+     "value": "₹2.97–3.78/km",
+     "period": "July 2026",
+     "period_end": "2026-07-31",
+     "publisher": "PIB / ministry",
+     "series": "Which Gives More Bang for Your Buck?",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Translated to cost on a Delhi diesel basis (₹4.33–5.01/km for a sedan or compact SUV today)",
+     "value": "₹4.33–5.01/km",
+     "period": "July 2026",
+     "period_end": "2026-07-31",
+     "publisher": "PIB / ministry",
+     "series": "Which Gives More Bang for Your Buck?",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "that pilot-scale loss works out to roughly ₹0.04–0.09 extra per kilometre, or about ₹650–1,300 a year for an average driver",
+     "value": "₹0.04–0.09 per kilometre and ₹650–1,300 a year",
+     "period": "July 2026",
+     "period_end": "2026-07-31",
+     "publisher": "PIB / ministry",
+     "series": "Which Gives More Bang for Your Buck?",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "put ATJ-pathway SAF at roughly 44.0 MJ/kg against Jet A-1's 43.3 MJ/kg",
+     "value": "44.0 MJ/kg and 43.3 MJ/kg",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "ASTM International",
+     "series": "ASTM D7566 / D1655 specifications",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India-specific projections for power-and-biomass-to-liquids (PBtL) SAF put the cost closer to $1.4 per litre today, falling toward $1.0/L by 2049",
+     "value": "$1.4 per litre and $1.0/L",
+     "period": "2049",
+     "period_end": "2049-12-31",
+     "publisher": "India Energy & Climate Center",
+     "series": "PBtL-SAF cost study",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "against a conventional ATF benchmark of roughly $0.6–0.8/L",
+     "value": "$0.6–0.8/L",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "S&P Global",
+     "series": "Conventional ATF benchmark",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Diesel LHV computed from AFDC's low-sulfur-diesel energy-content figure (128,488 Btu/gal).",
+     "value": "128,488 Btu/gal",
+     "period": "March 2024",
+     "period_end": "2024-03-31",
+     "publisher": "US Department of Energy",
+     "series": "AFDC Fuel Properties Comparison",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Isobutanol energy density (33.2 MJ/kg, 802 kg/m³ density) per IEA Advanced Motor Fuels (IEA-AMF) fuel property tables",
+     "value": "33.2 MJ/kg and 802 kg/m³",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "IEA-AMF",
+     "series": "IEA-AMF fuel property tables",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "Petrol carries about 32.4 MJ per litre; pure ethanol carries about 21.3 MJ per litre — roughly two-thirds of petrol's energy",
+     "value": "32.4 MJ/L (petrol), 21.3 MJ/L (ethanol)",
+     "period": null,
+     "period_end": null,
+     "publisher": "NITI Aayog / US DOE AFDC",
+     "series": "Ethanol blending energy density (NITI Aayog Roadmap 2020–25, US DOE AFDC Fuel Properties Comparison)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Blending is linear, so E20 (20% ethanol, 80% petrol) works out to about 30.2 MJ/L, a theoretical ceiling of roughly 6.9% less energy per litre than pure petrol.",
+     "value": "30.2 MJ/L (E20), 6.9% less than petrol",
+     "period": null,
+     "period_end": null,
+     "publisher": "Author's calculation (NITI Aayog/US DOE data)",
+     "series": "E20 volumetric energy density projection",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "ARAI's controlled testing found a 2–6% efficiency reduction on E20; SIAM cites 2–4%.",
+     "value": "2–6% mileage loss (ARAI), 2–4% (SIAM)",
+     "period": null,
+     "period_end": null,
+     "publisher": "ARAI / SIAM",
+     "series": "E20 mileage loss (ARAI test data, SIAM industry survey)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "At a representative 4% drop, the extra fuel cost works out to about ₹0.27–0.33 per kilometre... ₹3,900–4,900 a year for an average driver on a Delhi fuel-price basis",
+     "value": "₹0.27–0.33/km, ₹3,900–4,900/year (Delhi)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Author's cost model (July 2026 paper)",
+     "series": "E20 annual cost estimate (Delhi)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Diesel carries 35.8 MJ/L; isobutanol carries about 26.6 MJ per litre — roughly 74% of diesel's energy density",
+     "value": "35.8 MJ/L (diesel), 26.6 MJ/L (isobutanol)",
+     "period": null,
+     "period_end": null,
+     "publisher": "IEA Advanced Motor Fuels",
+     "series": "Isobutanol energy density (IEA-AMF fuel property tables)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Blended linearly at the mandate's stated ceiling of 15%, that implies a theoretical mileage-loss ceiling of about 3.9%. Early trials reported 1–2% real-world loss.",
+     "value": "3.9% (theoretical), 1–2% (pilot trials)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Author's projection / trade press",
+     "series": "Isobutanol-diesel mileage loss (projected)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Translated to cost on a Delhi diesel basis (₹4.33–5.01/km today), that pilot-scale loss works out to roughly ₹0.04–0.09 extra per kilometre, or about ₹650–1,300 a year.",
+     "value": "₹0.04–0.09/km, ₹650–1,300/year (Delhi)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Author's cost model",
+     "series": "Isobutanol-diesel annual cost estimate (Delhi)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Fossil CNG: roughly 50–56 MJ/kg and purified CBG: roughly 47–52 MJ/kg",
+     "value": "50–56 MJ/kg (fossil CNG), 47–52 MJ/kg (CBG)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Published energy-content ranges",
+     "series": "CBG vs. fossil CNG energy density",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The Compressed Biogas Blending Obligation (CBO) mandates CBG blending into the CNG... starting at 1% of consumption in FY2025-26, rising to 3% in FY2026-27, 4% in FY2027-28 and 5% from FY2028-29 onward.",
+     "value": "1% (FY2025-26) → 3% (FY2026-27) → 4% (FY2027-28) → 5% (FY2028-29)",
+     "period": "FY2025-26 to FY2028-29",
+     "period_end": "2029-03-31",
+     "publisher": "PIB / National Biofuels Coordination Committee",
+     "series": "Compressed Biogas Blending Obligation (CBO)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "SAF traded globally in 2026 at roughly $1,817 per tonne... India-specific projections for PBtL SAF put the cost closer to $1.4 per litre today, falling toward $1.0/L by 2049",
+     "value": "$1,817/tonne (global 2026), $1.4/L (India 2026) → $1.0/L (2049)",
+     "period": "2026, 2049",
+     "period_end": "2026-12-31, 2049-12-31",
+     "publisher": "S&P Global / India Energy & Climate Center",
+     "series": "SAF pricing (global spot, India PBtL)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Conventional ATF benchmark of roughly $0.6–0.8/L... SAF premium is a two-to-two-and-a-half-times premium rather than the five-times figure sometimes quoted for tighter European HEFA markets.",
+     "value": "$0.6–0.8/L (ATF), ~2–2.5× premium (SAF)",
+     "period": null,
+     "period_end": null,
+     "publisher": "India Energy & Climate Center",
+     "series": "SAF vs. ATF cost comparison",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India's SAF mandate starts at 1% blending from 2027, rising to 2% by 2028 and 5% by 2030",
+     "value": "1% (2027) → 2% (2028) → 5% (2030)",
+     "period": "2027–2030",
+     "period_end": "2030-12-31",
+     "publisher": "ICAO CORSIA Phase II / Indian government",
+     "series": "SAF blending mandate timeline",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "MC² Foundation launched the 'MC²+ Grand Butanol Challenge' on 17 July 2026, offering up to ₹12.5 crore in combined funding: a ₹7.5 crore grant pool and a ₹5 crore prize pool",
+     "value": "₹12.5 crore total (₹7.5 cr grant + ₹5 cr prize)",
+     "period": "17 July 2026",
+     "period_end": "2026-07-17",
+     "publisher": "MC² Foundation / BPCL / C-CAMP",
+     "series": "Grand Butanol Challenge funding",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Applications for the Grand Butanol Challenge closed 15 August 2026",
+     "value": "15 August 2026",
+     "period": "15 August 2026",
+     "period_end": "2026-08-15",
+     "publisher": "C-CAMP",
+     "series": "Grand Butanol Challenge application deadline",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "CNG vehicles (roughly ₹2.97–3.78/km for a Delhi hatchback or compact SUV) already implicitly include whatever share of CBG is in the pipeline blend",
+     "value": "₹2.97–3.78/km (Delhi CNG)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Author's cost model",
+     "series": "CNG running cost (Delhi)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Ethanol in petrol: Petrol (E0): 32.4 MJ/L | Ethanol (E100): 21.3 MJ/L | Ratio: ~66% | India blend status: E20 — live nationwide, 20% blend",
+     "value": "32.4 MJ/L (petrol), 21.3 MJ/L (ethanol), ~66% ratio, E20 (20% live nationwide)",
+     "period": null,
+     "period_end": null,
+     "publisher": "NITI Aayog / US DOE AFDC",
+     "series": "Ethanol blending energy density and mandate",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "CBG in CNG: Fossil CNG: ~50–56 MJ/kg | CBG: ~47–52 MJ/kg | Ratio: ~93–95% | India blend status: CBO — 1% (FY26) rising to 5% (FY29)",
+     "value": "50–56 MJ/kg (CNG), 47–52 MJ/kg (CBG), ~93–95% ratio, CBO 1% (FY2025-26) → 5% (FY2028-29)",
+     "period": "FY2025-26 to FY2028-29",
+     "period_end": "2029-03-31",
+     "publisher": "PIB / PNGRB",
+     "series": "CBG blending energy density and mandate",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Isobutanol in diesel: Diesel: 35.8 MJ/L | Isobutanol: 26.6 MJ/L | Ratio: ~74% | India blend status: Proposed, up to 15%, from 2027",
+     "value": "35.8 MJ/L (diesel), 26.6 MJ/L (isobutanol), ~74% ratio, proposed 15% (from 2027)",
+     "period": "2027 (proposed)",
+     "period_end": "2027-12-31",
+     "publisher": "IEA Advanced Motor Fuels / Ministry of Road Transport",
+     "series": "Isobutanol-diesel energy density and mandate",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "SAF in ATF: Jet A-1: 34.7 MJ/L (43.3 MJ/kg) | SAF (ATJ/HEFA): ~44.0 MJ/kg | Ratio: ~99–102% by mass | India blend status: 1% (2027) → 2% (2028) → 5% (2030)",
+     "value": "34.7 MJ/L (Jet A-1), ~44.0 MJ/kg (SAF), ~99–102% ratio, 1% (2027) → 5% (2030)",
+     "period": "2027–2030",
+     "period_end": "2030-12-31",
+     "publisher": "ASTM / ICAO",
+     "series": "SAF blending energy density and mandate",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "The MC²+ Grand Butanol Challenge... applications closed 15 August 2026. The challenge is scoped around three problem statements spanning technology-readiness levels 4–7",
+     "value": "3 problem statements (TRL 4–7), ₹12.5 crore funding, 15 Aug 2026 deadline",
+     "period": "17 July 2026–15 August 2026",
+     "period_end": "2026-08-15",
+     "publisher": "MC² Foundation / C-CAMP",
+     "series": "Grand Butanol Challenge scope and timeline",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "CBG is defined under India's Bureau of Indian Standards specification (IS 16087:2016) as biogas upgraded to at least 90% methane purity",
+     "value": "≥90% methane purity (IS 16087:2016)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Bureau of Indian Standards",
+     "series": "CBG purity specification (IS 16087:2016)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "CNG vehicles (roughly ₹2.97–3.78/km for a Delhi hatchback or compact SUV) already implicitly include whatever share of CBG is in the pipeline blend",
+     "value": "₹2.97–3.78/km (Delhi CNG)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Author's cost model",
+     "series": "CNG running cost (Delhi)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "SAF traded globally in 2026 at roughly $1,817 per tonne... India-specific projections for PBtL SAF put the cost closer to $1.4 per litre today",
+     "value": "$1,817/tonne (global 2026), $1.4/L (India 2026)",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "S&P Global / India Energy & Climate Center",
+     "series": "SAF pricing (global spot, India PBtL)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Conventional ATF benchmark of roughly $0.6–0.8/L",
+     "value": "$0.6–0.8/L (ATF)",
+     "period": null,
+     "period_end": null,
+     "publisher": "India Energy & Climate Center",
+     "series": "ATF cost benchmark",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Jet A-1: 34.7 MJ/L (43.3 MJ/kg) | SAF (ATJ/HEFA): ~44.0 MJ/kg",
+     "value": "34.7 MJ/L (Jet A-1), ~44.0 MJ/kg (SAF)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Published aviation-fuel comparisons",
+     "series": "SAF vs. Jet A-1 energy density",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The Bureau of Indian Standards specification for isobutanol–diesel blends was not found",
+     "value": "No BIS spec for isobutanol–diesel blends (as of article)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Bureau of Indian Standards",
+     "series": "Isobutanol-diesel blend specification",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

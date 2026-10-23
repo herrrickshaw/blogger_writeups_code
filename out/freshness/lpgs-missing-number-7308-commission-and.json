@@ -1,0 +1,360 @@
+{
+ "slug": "lpgs-missing-number-7308-commission-and",
+ "text_sha1": "25f750503bb09814",
+ "chars": 12843,
+ "checked": "2026-10-23T14:56:30",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "Petrol/diesel dealer \n 3.87%",
+     "value": "3.87%",
+     "period": "FY2025-26 H1",
+     "period_end": "2025-09-30",
+     "publisher": "PPAC",
+     "series": "Ready Reckoner FY2025-26 H1",
+     "frequency": "half-yearly",
+     "headline": true
+    },
+    {
+     "quote": "PDS kerosene \n 4.5%",
+     "value": "4.5%",
+     "period": "FY2025-26 H1",
+     "period_end": "2025-09-30",
+     "publisher": "PPAC",
+     "series": "Ready Reckoner FY2025-26 H1",
+     "frequency": "half-yearly",
+     "headline": true
+    },
+    {
+     "quote": "Domestic LPG (14.2kg) \n 7.76%",
+     "value": "7.76%",
+     "period": "7 August 2026",
+     "period_end": "2026-08-07",
+     "publisher": "PPAC",
+     "series": "Dealers/Distributors Commission page",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "₹73.08 Distributor commission per 14.2kg domestic cylinder, since 4 Oct 2023",
+     "value": "₹73.08",
+     "period": "since 4 Oct 2023",
+     "period_end": "2023-10-04",
+     "publisher": "PPAC",
+     "series": "Dealers/Distributors Commission on Petrol, Diesel, PDS Kerosene & Domestic LPG",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "7.8% That commission as a share of the ₹942 Delhi retail ticket",
+     "value": "7.8%",
+     "period": "7 August 2026",
+     "period_end": "2026-08-07",
+     "publisher": "PPAC",
+     "series": "Dealers/Distributors Commission page",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "₹3,642cr Annual distributor commission on Ujjwala refills alone",
+     "value": "₹3,642 crore",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "PPAC",
+     "series": "Distributor commission on Ujjwala refills",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "1 April 2004 | 16.71 |",
+     "value": "16.71",
+     "period": "1 April 2004",
+     "period_end": "2004-04-01",
+     "publisher": "PPAC",
+     "series": "Dealers/Distributors Commission on Petrol, Diesel, PDS Kerosene & Domestic LPG",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "1 August 2019 | 56.20 |",
+     "value": "56.20",
+     "period": "1 August 2019",
+     "period_end": "2019-08-01",
+     "publisher": "PPAC",
+     "series": "Dealers/Distributors Commission on Petrol, Diesel, PDS Kerosene & Domestic LPG",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "19 May 2022 | 64.84 |",
+     "value": "64.84",
+     "period": "19 May 2022",
+     "period_end": "2022-05-19",
+     "publisher": "PPAC",
+     "series": "Dealers/Distributors Commission on Petrol, Diesel, PDS Kerosene & Domestic LPG",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "4 October 2023 (current) | 73.08 |",
+     "value": "73.08",
+     "period": "4 October 2023",
+     "period_end": "2023-10-04",
+     "publisher": "PPAC",
+     "series": "Dealers/Distributors Commission on Petrol, Diesel, PDS Kerosene & Domestic LPG",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "The 5kg cylinder commission is fixed at exactly half the 14.2kg rate throughout this history — ₹36.54 today.",
+     "value": "₹36.54",
+     "period": "7 August 2026",
+     "period_end": "2026-08-07",
+     "publisher": "PPAC",
+     "series": "Dealers/Distributors Commission on Petrol, Diesel, PDS Kerosene & Domestic LPG",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "A domestic 14.2kg cylinder in Delhi cost ₹942 on 7 August 2026.",
+     "value": "₹942",
+     "period": "7 August 2026",
+     "period_end": "2026-08-07",
+     "publisher": "PIB / ministry",
+     "series": "Goodreturns LPG price tracker",
+     "frequency": "daily",
+     "headline": false
+    },
+    {
+     "quote": "India’s Pradhan Mantri Ujjwala Yojana had roughly 10.58 crore beneficiaries as of July 2026",
+     "value": "10.58 crore",
+     "period": "July 2026",
+     "period_end": "2026-07-31",
+     "publisher": "PIB / ministry",
+     "series": "Pradhan Mantri Ujjwala Yojana beneficiary count",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "refilling at an average 4.71 cylinders a year in FY2025-26",
+     "value": "4.71 cylinders",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "PIB / ministry",
+     "series": "PMUY per-consumer consumption",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "PMUY’s own 2025-26 subsidy budget (Cabinet-approved), ₹ crore/year \n 12,000",
+     "value": "12,000",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "PIB / ministry",
+     "series": "PMUY subsidy budget",
+     "frequency": "annual",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "Domestic LPG (14.2kg) 7.76%",
+     "value": "7.76% of the retail ticket",
+     "period": null,
+     "period_end": null,
+     "publisher": "PPAC",
+     "series": "Dealers/Distributors Commission on Domestic LPG",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "₹73.08 Distributor commission per 14.2kg domestic cylinder, since 4 Oct 2023",
+     "value": "₹73.08 per 14.2kg cylinder",
+     "period": "since 4 Oct 2023",
+     "period_end": "2023-10-04",
+     "publisher": "PPAC",
+     "series": "Dealers/Distributors Commission page",
+     "frequency": "multi-year",
+     "headline": true
+    },
+    {
+     "quote": "7.8% That commission as a share of the ₹942 Delhi retail ticket",
+     "value": "7.8% of ₹942",
+     "period": "7 Aug 2026",
+     "period_end": "2026-08-07",
+     "publisher": "Goodreturns LPG price tracker (via article)",
+     "series": "Delhi domestic LPG cylinder price",
+     "frequency": "daily",
+     "headline": false
+    },
+    {
+     "quote": "Petrol/diesel dealer 3.87%",
+     "value": "3.87% of the retail ticket",
+     "period": "FY2025-26 H1",
+     "period_end": "2025-03-31",
+     "publisher": "PPAC",
+     "series": "PPAC Ready Reckoner FY2025-26 H1",
+     "frequency": "half-yearly",
+     "headline": false
+    },
+    {
+     "quote": "PDS kerosene 4.5%",
+     "value": "4.5% of the retail ticket",
+     "period": "FY2025-26 H1",
+     "period_end": "2025-03-31",
+     "publisher": "PPAC",
+     "series": "PPAC Ready Reckoner FY2025-26 H1",
+     "frequency": "half-yearly",
+     "headline": false
+    },
+    {
+     "quote": "₹3,642cr Annual distributor commission on Ujjwala refills alone",
+     "value": "₹3,642 crore per year",
+     "period": "FY2025-26",
+     "period_end": "2025-03-31",
+     "publisher": "Author’s computation (based on PPAC, NITI Aayog, and press reports)",
+     "series": "Distributor commission on Ujjwala refills",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India’s Pradhan Mantri Ujjwala Yojana had roughly 10.58 crore beneficiaries as of July 2026",
+     "value": "10.58 crore beneficiaries",
+     "period": "July 2026",
+     "period_end": "2026-07-31",
+     "publisher": "Government statements (press coverage, July–August 2026)",
+     "series": "PMUY beneficiary count",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "refilling at an average 4.71 cylinders a year in FY2025-26",
+     "value": "4.71 cylinders per beneficiary per year",
+     "period": "FY2025-26",
+     "period_end": "2025-03-31",
+     "publisher": "NITI Aayog (April 2026 evaluation)",
+     "series": "PMUY per-consumer consumption",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "PMUY’s own 2025-26 subsidy budget (Cabinet-approved), ₹12,000 crore/year",
+     "value": "₹12,000 crore per year",
+     "period": "2025-26",
+     "period_end": "2025-03-31",
+     "publisher": "Cabinet approval (reported by Business Standard and PIB, August 2025)",
+     "series": "PMUY subsidy budget",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "₹300/cylinder PMUY subsidy for 2025-26 at a ₹12,000 crore outlay",
+     "value": "₹300 per cylinder",
+     "period": "2025-26",
+     "period_end": "2025-03-31",
+     "publisher": "Cabinet approval (reported by Business Standard and PIB)",
+     "series": "PMUY subsidy rate",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Total LPG connections (~31–33 crore)",
+     "value": "31–33 crore connections",
+     "period": null,
+     "period_end": null,
+     "publisher": "Government statements to Parliament and press coverage (2026)",
+     "series": "Total LPG connections",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "86.6% of Ujjwala households using LPG as primary cooking fuel",
+     "value": "86.6%",
+     "period": "April 2026",
+     "period_end": "2026-04-30",
+     "publisher": "NITI Aayog (April 2026 evaluation)",
+     "series": "Ujjwala primary-fuel usage",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹16.71 Effective date | Commission, ₹/cylinder | 1 April 2004",
+     "value": "₹16.71 per cylinder",
+     "period": "1 April 2004",
+     "period_end": "2004-04-01",
+     "publisher": "PPAC",
+     "series": "Dealers/Distributors Commission on Domestic LPG (revision history)",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "₹56.20 Effective date | Commission, ₹/cylinder | 1 August 2019",
+     "value": "₹56.20 per cylinder",
+     "period": "1 August 2019",
+     "period_end": "2019-08-01",
+     "publisher": "PPAC",
+     "series": "Dealers/Distributors Commission on Domestic LPG (revision history)",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "₹64.84 Effective date | Commission, ₹/cylinder | 19 May 2022",
+     "value": "₹64.84 per cylinder",
+     "period": "19 May 2022",
+     "period_end": "2022-05-19",
+     "publisher": "PPAC",
+     "series": "Dealers/Distributors Commission on Domestic LPG (revision history)",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "₹0.75 to ₹0.82 a cylinder until 2015, then reset almost every month between ₹0.06 and ₹0.63 from December 2015 until it ended on 1 August 2019",
+     "value": "₹0.75–₹0.82 (until 2015) and ₹0.06–₹0.63 (Dec 2015–Aug 2019) per cylinder",
+     "period": "Jan 2016–Aug 2019",
+     "period_end": "2019-08-01",
+     "publisher": "PPAC",
+     "series": "Additional commission for sale at market-determined price",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "₹73.03 a cylinder, including ₹33.65 for home delivery, against the ₹73.08 used here",
+     "value": "₹73.03 per cylinder (including ₹33.65 for home delivery)",
+     "period": "March 2024",
+     "period_end": "2024-03-31",
+     "publisher": "Goa government notice (citing Government of India)",
+     "series": "LPG distributor commission (Goa)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹437 crore UPI incentive budget",
+     "value": "₹437 crore",
+     "period": null,
+     "period_end": null,
+     "publisher": "Author’s previous fuel-retail MDR article",
+     "series": "UPI incentive budget",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹36.54 A separate, smaller commission is fixed at exactly half the 14.2kg rate",
+     "value": "₹36.54 per 5kg cylinder",
+     "period": "since 4 Oct 2023",
+     "period_end": "2023-10-04",
+     "publisher": "PPAC",
+     "series": "Dealers/Distributors Commission on 5kg LPG",
+     "frequency": "multi-year",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

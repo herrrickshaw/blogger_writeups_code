@@ -1,0 +1,360 @@
+{
+ "slug": "mrs-watanabe-traded-from-kitchen-table",
+ "text_sha1": "3f8e5d530ecb6229",
+ "chars": 14757,
+ "checked": "2026-10-23T15:01:41",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "Maharashtra \n 28.4%",
+     "value": "28.4%",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "NSE",
+     "series": "Women as a share of registered investors by state / region",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "East India \n 26.1%",
+     "value": "26.1%",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "NSE",
+     "series": "Women as a share of registered investors by state / region",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "South India \n 25.9%",
+     "value": "25.9%",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "NSE",
+     "series": "Women as a share of registered investors by state / region",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "India (national) \n 24.2–24.5%",
+     "value": "24.2-24.5%",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "NSE",
+     "series": "Women as a share of registered investors by state / region",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "North India \n 20.5%",
+     "value": "20.5%",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "NSE",
+     "series": "Women as a share of registered investors by state / region",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Uttar Pradesh \n 18.5–18.7%",
+     "value": "18.5-18.7%",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "NSE",
+     "series": "Women as a share of registered investors by state / region",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Bihar \n 15.7%",
+     "value": "15.7%",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "NSE",
+     "series": "Women as a share of registered investors by state / region",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "By 2007, Japanese retail investors were trading an estimated $9.1 billion of foreign exchange daily",
+     "value": "$9.1 billion",
+     "period": "2007",
+     "period_end": "2007-12-31",
+     "publisher": "Bloomberg Opinion",
+     "series": "Yen Retail Trading data",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "the Bank of Japan raised rates to 0.25% in July 2024",
+     "value": "0.25%",
+     "period": "July 2024",
+     "period_end": "2024-07-31",
+     "publisher": "Bank of Japan",
+     "series": "Interest rate decision",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India crossed 150 million demat accounts in March 2025",
+     "value": "150 million",
+     "period": "March 2025",
+     "period_end": "2025-03-31",
+     "publisher": "SEBI / Depositories",
+     "series": "Demat accounts count",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "roughly 30 million new accounts are being opened every year.",
+     "value": "30 million",
+     "period": "annual",
+     "period_end": null,
+     "publisher": "SEBI / Depositories",
+     "series": "Demat accounts growth",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Maharashtra, the country's largest investor base, leads outright at 28.4%, up from 25.6% two years earlier.",
+     "value": "25.6%",
+     "period": "FY2022-23",
+     "period_end": "2023-03-31",
+     "publisher": "NSE",
+     "series": "Women as a share of registered investors",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "average lump-sum investments run about 45% higher for women than men",
+     "value": "45%",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "Mutual fund industry data",
+     "series": "Average lump-sum investments by gender",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "the average SIP ticket size for women is roughly 22% above men's.",
+     "value": "22%",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "Business Standard",
+     "series": "SIP ticket size by gender",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Uttar Pradesh at around 18.5–18.7% and Bihar near 15.7%, against a national figure of 24.5%.",
+     "value": "16.9%",
+     "period": "FY2022-23",
+     "period_end": "2023-03-31",
+     "publisher": "NSE",
+     "series": "Women as a share of registered investors",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Mutual fund SIPs now start as low as ₹100–500 a month on major platforms",
+     "value": "₹100–500",
+     "period": "current",
+     "period_end": null,
+     "publisher": "Mutual-fund platforms",
+     "series": "SIP minimum ticket size",
+     "frequency": "live",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "Japanese retail investors were trading an estimated $9.1 billion of foreign exchange daily — close to a fifth of Tokyo's entire trading session",
+     "value": "$9.1 billion/day",
+     "period": "2007",
+     "period_end": "2007-12-31",
+     "publisher": "Bank for International Settlements (BIS) / Bloomberg Opinion",
+     "series": "Retail FX trading volume estimates (Japan)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Mrs Watanabe accounts came to represent roughly 28% of global retail FX flow despite Japan accounting for only about 7% of interbank spot turnover",
+     "value": "28% (global retail FX flow share) / 7% (Japan’s interbank spot turnover share)",
+     "period": "2000s (peak period)",
+     "period_end": null,
+     "publisher": "Bloomberg Opinion / BIS",
+     "series": "Retail FX market share analysis",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "the carry trade — estimated at around $4 trillion globally — began reversing",
+     "value": "$4 trillion (global carry trade exposure)",
+     "period": "post-July 2024 (Bank of Japan rate hike)",
+     "period_end": "2024-08-XX",
+     "publisher": "Bank for International Settlements (BIS)",
+     "series": "Global carry trade exposure estimates",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India crossed 150 million demat accounts in March 2025",
+     "value": "150 million demat accounts",
+     "period": "March 2025",
+     "period_end": "2025-03-31",
+     "publisher": "NSDL/CDSL (depository records)",
+     "series": "Total demat accounts (India)",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "roughly 30 million new accounts are being opened every year",
+     "value": "30 million new demat accounts/year",
+     "period": "current trend (as of article)",
+     "period_end": null,
+     "publisher": "NSDL/CDSL (inferred from growth)",
+     "series": "Annual demat account growth",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "women accounted for only about 24.2–24.5% of registered individual investors in FY2025",
+     "value": "24.2–24.5% (women’s share of registered investors)",
+     "period": "FY2024–25",
+     "period_end": "2025-03-31",
+     "publisher": "NSE",
+     "series": "Investor-participation data (registered investors by gender)",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Maharashtra 28.4% ... Uttar Pradesh at around 18.5–18.7% and Bihar near 15.7% ... national figure of 24.5%",
+     "value": "28.4% (Maharashtra) / 26.1% (East India) / 25.9% (South India) / 24.2–24.5% (national) / 20.5% (North India) / 18.5–18.7% (Uttar Pradesh) / 15.7% (Bihar)",
+     "period": "FY2024–25 (state-level: most recent available)",
+     "period_end": "2025-03-31 (varies by state)",
+     "publisher": "NSE",
+     "series": "Investor-participation data (women’s share by state)",
+     "frequency": "annual (state-level: inconsistent)",
+     "headline": true
+    },
+    {
+     "quote": "Maharashtra ... leads outright at 28.4%, up from 25.6% two years earlier",
+     "value": "28.4% (FY2024–25) / 25.6% (FY2022–23)",
+     "period": "FY2022–23 and FY2024–25",
+     "period_end": "2023-03-31 / 2025-03-31",
+     "publisher": "NSE",
+     "series": "Investor-participation data (Maharashtra)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Uttar Pradesh at around 18.5–18.7%, up from 16.9% (FY23)",
+     "value": "18.5–18.7% (FY2024–25) / 16.9% (FY2022–23)",
+     "period": "FY2022–23 and FY2024–25",
+     "period_end": "2023-03-31 / 2025-03-31",
+     "publisher": "NSE",
+     "series": "Investor-participation data (Uttar Pradesh)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "average lump-sum investments run about 45% higher for women than men",
+     "value": "45% higher (women’s lump-sum investments vs. men)",
+     "period": "current data (as of article)",
+     "period_end": null,
+     "publisher": "NSE / Mutual Fund Industry",
+     "series": "Investment ticket size by gender (lump-sum)",
+     "frequency": "one-off (reported in press)",
+     "headline": false
+    },
+    {
+     "quote": "the average SIP ticket size for women is roughly 22% above men's",
+     "value": "22% higher (women’s SIP ticket size vs. men)",
+     "period": "current data (as of article)",
+     "period_end": null,
+     "publisher": "Mutual Fund Industry",
+     "series": "Investment ticket size by gender (SIP)",
+     "frequency": "one-off (reported in press)",
+     "headline": false
+    },
+    {
+     "quote": "women held a third of individual mutual fund investor assets even while making up only about a quarter of unique investors",
+     "value": "33% (women’s share of mutual fund assets) / 24.5% (women’s share of unique investors)",
+     "period": "current data (as of article)",
+     "period_end": null,
+     "publisher": "Mutual Fund Industry",
+     "series": "Mutual fund investor assets by gender",
+     "frequency": "one-off (reported in press)",
+     "headline": false
+    },
+    {
+     "quote": "Mutual fund SIPs now start as low as ₹100–500 a month",
+     "value": "₹100–500/month (minimum SIP)",
+     "period": "current (as of article)",
+     "period_end": null,
+     "publisher": "Major Indian mutual-fund platforms",
+     "series": "SIP minimum ticket size",
+     "frequency": "live (platform-specific)",
+     "headline": false
+    },
+    {
+     "quote": "Zero or near-zero brokerage on delivery equity trades is now standard across India's major discount brokers",
+     "value": "₹0–near-zero brokerage (delivery equity trades)",
+     "period": "current (post-mid-2010s shift)",
+     "period_end": null,
+     "publisher": "Major Indian discount brokers",
+     "series": "Brokerage fee structure (delivery trades)",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "several [mutual fund platforms] offering zero account-opening fees",
+     "value": "₹0 account-opening fees (mutual funds)",
+     "period": "current (as of article)",
+     "period_end": null,
+     "publisher": "Major Indian mutual-fund platforms",
+     "series": "Account-opening fee structure",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "the Bank of Japan raised rates to 0.25% in July 2024",
+     "value": "0.25% (Bank of Japan policy rate)",
+     "period": "July 2024",
+     "period_end": "2024-07-31",
+     "publisher": "Bank of Japan",
+     "series": "Policy rate decision",
+     "frequency": "one-off (rate hike)",
+     "headline": false
+    },
+    {
+     "quote": "women’s SIP ticket size of 22% higher than men",
+     "value": "22% higher (women’s SIP ticket size vs. men)",
+     "period": "as of March 2025 (Business Standard report)",
+     "period_end": "2025-03-31",
+     "publisher": "Business Standard (citing mutual fund industry data)",
+     "series": "SIP ticket size by gender",
+     "frequency": "one-off (report)",
+     "headline": false
+    },
+    {
+     "quote": "women investors deploy bigger sums into mutual funds than men: Report",
+     "value": "45% higher (women’s lump-sum investments vs. men)",
+     "period": "as of March 2025 (Business Standard report)",
+     "period_end": "2025-03-31",
+     "publisher": "Business Standard (citing mutual fund industry data)",
+     "series": "Lump-sum investment size by gender",
+     "frequency": "one-off (report)",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

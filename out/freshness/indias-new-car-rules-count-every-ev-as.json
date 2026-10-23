@@ -1,0 +1,540 @@
+{
+ "slug": "indias-new-car-rules-count-every-ev-as",
+ "text_sha1": "2080c26581570b33",
+ "chars": 22242,
+ "checked": "2026-10-23T14:25:41",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "Each battery EV counts as three cars, a bigger multiplier than any other major market has used",
+     "value": "3",
+     "period": "April 2027",
+     "period_end": "2027-04-01",
+     "publisher": "PIB / ministry",
+     "series": "CAFE-III",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "every petrol car running on E20 gets an 8% discount",
+     "value": "8%",
+     "period": "30 September 2026",
+     "period_end": "2026-09-30",
+     "publisher": "PIB / ministry",
+     "series": "CAFE-III",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "the FY2032 target is about 97 g/km",
+     "value": "97 g/km",
+     "period": "FY2032",
+     "period_end": "2032-03-31",
+     "publisher": "PIB / ministry",
+     "series": "CAFE-III",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "94.8 → 78.9 Grams of CO 2 per km allowed for a reference-weight fleet, FY2028 to FY2032: about 17% tighter",
+     "value": "94.8 to 78.9 g/km",
+     "period": "FY2028 to FY2032",
+     "period_end": "2032-03-31",
+     "publisher": "PIB / ministry",
+     "series": "CAFE-III",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "₹2,500–4,500 Price per g CO 2 /km of shortfall that a carmaker can pay the Bureau of Energy Efficiency instead of complying",
+     "value": "₹2,500–4,500",
+     "period": "FY2028 to FY2032",
+     "period_end": "2032-03-31",
+     "publisher": "BEE",
+     "series": "CAFE-III shortfall buy-out",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "reference weight of 1,229 kg",
+     "value": "1,229 kg",
+     "period": "FY2028 to FY2032",
+     "period_end": "2032-03-31",
+     "publisher": "PIB / ministry",
+     "series": "CAFE-III reference weight",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "from 3.996 litres of petrol-equivalent per 100 km in FY2028 to 3.3273 in FY2032",
+     "value": "3.996 to 3.3273 litres per 100 km",
+     "period": "FY2028 to FY2032",
+     "period_end": "2032-03-31",
+     "publisher": "PIB / ministry",
+     "series": "CAFE-III",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Each battery or range-extended EV counts as 3 vehicles in the fleet average; each plug-in hybrid or flex-fuel strong hybrid as 2.5; each strong hybrid as 1.6; each flex-fuel ethanol car as 1.1.",
+     "value": "3, 2.5, 1.6, 1.1",
+     "period": "30 September 2026",
+     "period_end": "2026-09-30",
+     "publisher": "PIB / ministry",
+     "series": "CAFE-III Super-credits",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Declared CO 2 is cut by 8% for petrol cars, including hybrids, that run on E20 or higher blends; by 22.3% for flex-fuel ethanol cars; by 5% or the notified compressed-biogas blending share, whichever is higher, for CNG cars",
+     "value": "8%, 22.3%, 5%",
+     "period": "30 September 2026",
+     "period_end": "2026-09-30",
+     "publisher": "PIB / ministry",
+     "series": "CAFE-III Carbon Neutrality Factors",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "1 g CO 2 /km for each eligible technology — start-stop, tyre-pressure monitoring, regenerative braking, efficient alternators, LED lamps, electric water pumps, six-or-more-speed gearboxes and others — capped at 9 g/km.",
+     "value": "1 g/km, capped at 9 g/km",
+     "period": "30 September 2026",
+     "period_end": "2026-09-30",
+     "publisher": "PIB / ministry",
+     "series": "CAFE-III Technology credits",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Shortfalls can be bought out from BEE at ₹2,500 per g CO 2 /km in FY2028, rising to ₹4,500 in FY2032.",
+     "value": "₹2,500 to ₹4,500 per g CO2/km",
+     "period": "FY2028 to FY2032",
+     "period_end": "2032-03-31",
+     "publisher": "BEE",
+     "series": "CAFE-III Buy-out price",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "93.6 g CO 2 /km on the WLTP cycle for 2025–29",
+     "value": "93.6 g CO2/km",
+     "period": "2025–29",
+     "period_end": "2029-12-31",
+     "publisher": "European Commission",
+     "series": "Regulation (EU) 2019/631",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "charges an “excess emissions premium” of €95 for every g/km over target",
+     "value": "€95 per g/km",
+     "period": "2025-29",
+     "period_end": "2029-12-31",
+     "publisher": "European Commission",
+     "series": "Regulation (EU) 2019/631",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "from 2020 to 2022, cars under 50 g/km counted as 2, then 1.67, then 1.33 cars, with the total benefit capped at 7.5 g/km per manufacturer",
+     "value": "2, 1.67, 1.33, 7.5 g/km cap",
+     "period": "2020 to 2022",
+     "period_end": "2022-12-31",
+     "publisher": "European Commission",
+     "series": "Super-credits",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "Corporate Average Fuel Consumption sets a fleet target — 4.0 L/100 km in 2025, about 3.2–3.3 L/100 km by 2030",
+     "value": "4.0 to 3.2–3.3 L/100 km",
+     "period": "2025 to 2030",
+     "period_end": "2030-12-31",
+     "publisher": "DieselNet",
+     "series": "CAFC standards",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "New Energy Vehicle mandate requires credits equal to a rising share of conventional production: 48% in 2026 and 58% in 2027",
+     "value": "48% in 2026, 58% in 2027",
+     "period": "2026 to 2027",
+     "period_end": "2027-12-31",
+     "publisher": "DieselNet",
+     "series": "NEV mandate",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Japan ’s 2030 standard requires a fleet average of 25.4 km per litre, about 3.9 L/100 km, a 32% improvement on FY2016",
+     "value": "25.4 km/L, 3.9 L/100 km, 32% improvement",
+     "period": "FY2016 to 2030",
+     "period_end": "2030-03-31",
+     "publisher": "ICCT",
+     "series": "Japan 2030 fuel economy standards",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "penalties reported at about ₹7,300 crore",
+     "value": "₹7,300 crore",
+     "period": "FY2023",
+     "period_end": "2023-03-31",
+     "publisher": "BEE",
+     "series": "CAFE-II penalties",
+     "frequency": "annual",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "Each battery EV counts as three cars, a bigger multiplier than any other major market has used, with no step-down reported",
+     "value": "3.0",
+     "period": "from April 2027",
+     "period_end": "null",
+     "publisher": "Bureau of Energy Efficiency (BEE)",
+     "series": "CAFE-III super-credits for battery EVs",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "8% Discount on declared CO₂ for petrol cars that run on E20 or higher blends",
+     "value": "8%",
+     "period": "as on 30 Sep 2026",
+     "period_end": "2026-09-30",
+     "publisher": "Bureau of Energy Efficiency (BEE)",
+     "series": "Carbon Neutrality Factors for E20 petrol cars",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "flex-fuel cars get the kind of ethanol credit the US dropped because owners rarely bought the fuel",
+     "value": "22.3%",
+     "period": "as on 30 Sep 2026",
+     "period_end": "2026-09-30",
+     "publisher": "Bureau of Energy Efficiency (BEE)",
+     "series": "Carbon Neutrality Factors for flex-fuel ethanol cars",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹2,500–4,500 Price per g CO₂/km of shortfall that a carmaker can pay the Bureau of Energy Efficiency instead of complying",
+     "value": "₹2,500–₹4,500 per g CO₂/km",
+     "period": "FY2028–FY2032",
+     "period_end": "2032-03-31",
+     "publisher": "Bureau of Energy Efficiency (BEE)",
+     "series": "CAFE-III buy-out price for shortfalls",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "The main features... fleet target falls from 3.996 litres of petrol-equivalent per 100 km in FY2028 to 3.3273 in FY2032",
+     "value": "3.996 L/100 km (FY2028) → 3.3273 L/100 km (FY2032)",
+     "period": "FY2028–FY2032",
+     "period_end": "2032-03-31",
+     "publisher": "Bureau of Energy Efficiency (BEE)",
+     "series": "CAFE-III fleet fuel consumption targets (Modified Indian Driving Cycle)",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "from about 94.8 to 78.9 g CO₂/km — about 16.7% over five years",
+     "value": "94.8 g CO₂/km (FY2028) → 78.9 g CO₂/km (FY2032)",
+     "period": "FY2028–FY2032",
+     "period_end": "2032-03-31",
+     "publisher": "Bureau of Energy Efficiency (BEE)",
+     "series": "CAFE-III fleet CO₂ emission targets (Modified Indian Driving Cycle)",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "India’s CAFE-II, FY2023 | 113 g/km, MIDC",
+     "value": "113 g CO₂/km (MIDC)",
+     "period": "FY2023",
+     "period_end": "2023-03-31",
+     "publisher": "Bureau of Energy Efficiency (BEE)",
+     "series": "CAFE-II fleet CO₂ emission target",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "India CAFE-III, FY2028 | 94.8 g/km, MIDC",
+     "value": "94.8 g CO₂/km (MIDC)",
+     "period": "FY2028",
+     "period_end": "2028-03-31",
+     "publisher": "Bureau of Energy Efficiency (BEE)",
+     "series": "CAFE-III fleet CO₂ emission target (MIDC)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "India CAFE-III, FY2032 | 78.9 g/km, MIDC",
+     "value": "78.9 g CO₂/km (MIDC)",
+     "period": "FY2032",
+     "period_end": "2032-03-31",
+     "publisher": "Bureau of Energy Efficiency (BEE)",
+     "series": "CAFE-III fleet CO₂ emission target (MIDC)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "EU, 2025–29 | 93.6 g/km, WLTP",
+     "value": "93.6 g CO₂/km (WLTP)",
+     "period": "2025–2029",
+     "period_end": "2029-12-31",
+     "publisher": "European Commission",
+     "series": "EU Regulation (EU) 2019/631 fleet CO₂ emission target",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "EU, 2030–34 | 49.5 g/km, WLTP",
+     "value": "49.5 g CO₂/km (WLTP)",
+     "period": "2030–2034",
+     "period_end": "2034-12-31",
+     "publisher": "European Commission",
+     "series": "EU Regulation (EU) 2019/631 fleet CO₂ emission target",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "China, 2025 | 4.6 L/100 km, WLTC",
+     "value": "4.6 L/100 km (WLTC)",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "China’s Ministry of Industry and Information Technology",
+     "series": "CAFC fleet fuel consumption target",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Japan, FY2030 | 25.4 km per litre, about 3.9 L/100 km",
+     "value": "3.9 L/100 km (WLTC)",
+     "period": "FY2030",
+     "period_end": "2030-03-31",
+     "publisher": "Japan Ministry of Land, Infrastructure, Transport and Tourism",
+     "series": "Japan 2030 fuel economy standard",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "South Korea, 2030 | 54 g/km, US test",
+     "value": "54 g CO₂/km (US test)",
+     "period": "2030",
+     "period_end": "2030-12-31",
+     "publisher": "South Korea Ministry of Environment",
+     "series": "2030 passenger-car CO₂ emission limit",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "US CAFE, MY2031 | 34.9 mpg, US test",
+     "value": "34.9 mpg (US test)",
+     "period": "MY2031",
+     "period_end": "2031-12-31",
+     "publisher": "NHTSA",
+     "series": "CAFE fuel economy standard",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "EU’s excess emissions premium of €95 for every g/km over target",
+     "value": "€95 per g CO₂/km",
+     "period": "2025–2034",
+     "period_end": "2034-12-31",
+     "publisher": "European Commission",
+     "series": "Excess emissions premium",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "China’s NEV mandate requires credits equal to a rising share of conventional production: 48% in 2026 and 58% in 2027",
+     "value": "48% (2026) → 58% (2027)",
+     "period": "2026–2027",
+     "period_end": "2027-12-31",
+     "publisher": "China’s Ministry of Industry and Information Technology",
+     "series": "NEV credit mandate",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "BEE identified eight carmakers... with penalties reported at about ₹7,300 crore",
+     "value": "₹7,300 crore",
+     "period": "FY2023",
+     "period_end": "2023-03-31",
+     "publisher": "Bureau of Energy Efficiency (BEE)",
+     "series": "CAFE-II penalty proceedings",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India’s FY2021 fleet average of 121.3 g/km",
+     "value": "121.3 g CO₂/km",
+     "period": "FY2021",
+     "period_end": "2021-03-31",
+     "publisher": "International Council on Clean Transportation (ICCT)",
+     "series": "India new passenger cars CO₂ emission average",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "EU’s 2025–27 averaging amendment (Council, 27 May 2025)",
+     "value": "2025–2027 averaging",
+     "period": "2025–2027",
+     "period_end": "2027-12-31",
+     "publisher": "European Commission",
+     "series": "EU fleet CO₂ emission averaging period",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "EU’s 2035 target from 100% to 90% below 2021",
+     "value": "90% below 2021 levels",
+     "period": "2035",
+     "period_end": "2035-12-31",
+     "publisher": "European Commission",
+     "series": "EU 2035 CO₂ emission target",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "EU eco-innovations, cap 7 g/km until 2024, 6 g/km to 2029 and 4 g/km after",
+     "value": "7 g CO₂/km (2020–2024) → 6 g CO₂/km (2025–2029) → 4 g CO₂/km (post-2029)",
+     "period": "2020–2029+",
+     "period_end": "2029-12-31",
+     "publisher": "European Commission",
+     "series": "EU eco-innovation credits cap",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "US EPA 1.5, MY2023–24, capped at 10 g/mile",
+     "value": "1.5 multiplier, capped at 10 g/mile",
+     "period": "MY2023–2024",
+     "period_end": "2024-12-31",
+     "publisher": "US EPA",
+     "series": "EV multiplier for greenhouse-gas standards",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "China gave EVs a multiplier of 2.0 in 2021, falling to 1.0 by 2025",
+     "value": "2.0 (2021) → 1.0 (2025)",
+     "period": "2021–2025",
+     "period_end": "2025-12-31",
+     "publisher": "China’s Ministry of Industry and Information Technology",
+     "series": "EV multiplier in CAFC standards",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "EU used super-credits but kept them small and short: from 2020 to 2022, cars under 50 g/km counted as 2, then 1.67, then 1.33 cars, with the total benefit capped at 7.5 g/km per manufacturer",
+     "value": "2.0 (2020) → 1.67 (2021) → 1.33 (2022), capped at 7.5 g/km",
+     "period": "2020–2022",
+     "period_end": "2022-12-31",
+     "publisher": "European Commission",
+     "series": "EU super-credits for ultra-low-emission vehicles",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "India’s compliance blocks do what the EU’s 2025–27 averaging does, but from the start rather than as a rescue",
+     "value": "two blocks: FY2028–30 and FY2031–32",
+     "period": "FY2027–FY2032",
+     "period_end": "2032-03-31",
+     "publisher": "Bureau of Energy Efficiency (BEE)",
+     "series": "CAFE-III compliance blocks",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "technology credits... capped at 9 g/km",
+     "value": "9 g CO₂/km",
+     "period": "FY2027–FY2032",
+     "period_end": "2032-03-31",
+     "publisher": "Bureau of Energy Efficiency (BEE)",
+     "series": "CAFE-III technology credits cap",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "EU’s eco-innovations, cap 7 g/km falling to 4",
+     "value": "7 g CO₂/km (2020–2024) → 4 g CO₂/km (post-2029)",
+     "period": "2020–2029+",
+     "period_end": "2029-12-31",
+     "publisher": "European Commission",
+     "series": "EU eco-innovation credits cap",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "US off-cycle menu, cap 10–15 g/mile",
+     "value": "10–15 g/mile",
+     "period": "MY2023–2026",
+     "period_end": "2026-12-31",
+     "publisher": "US EPA",
+     "series": "off-cycle technology credits cap",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "China counted very-low-consumption models at 1.4 in 2021, falling to 1.0 by 2025",
+     "value": "1.4 (2021) → 1.0 (2025)",
+     "period": "2021–2025",
+     "period_end": "2025-12-31",
+     "publisher": "China’s Ministry of Industry and Information Technology",
+     "series": "multiplier for very-low-consumption models",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "India’s reference weight of 1,229 kg",
+     "value": "1,229 kg",
+     "period": "as on 30 Sep 2026",
+     "period_end": "2026-09-30",
+     "publisher": "Bureau of Energy Efficiency (BEE)",
+     "series": "CAFE-III reference weight",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India’s EV share of 10% would let the fleet’s actual tailpipe emissions stay near today’s",
+     "value": "10%",
+     "period": "as on 30 Sep 2026",
+     "period_end": "2026-09-30",
+     "publisher": "Bureau of Energy Efficiency (BEE)",
+     "series": "EV share for compliance illustration",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India has sold E20 petrol nationwide since 2025",
+     "value": "E20 petrol nationwide",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "Ministry of Petroleum and Natural Gas",
+     "series": "E20 petrol availability",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "India’s on-road testing so far has focused on pollutants",
+     "value": "null",
+     "period": "as on 2026",
+     "period_end": "2026-10-02",
+     "publisher": "Ministry of Road Transport and Highways",
+     "series": "on-road CO₂ emission data",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,210 @@
+{
+ "slug": "global-lng-trade-hit-record-437-million",
+ "text_sha1": "dd0537f99b03b982",
+ "chars": 6235,
+ "checked": "2026-10-23T11:47:27",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "437 Mt Global LNG trade in 2025, a record, up 6.3% year-on-year",
+     "value": "437 Mt",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "International Gas Union",
+     "series": "World LNG Report",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "68.4 Mtpa New liquefaction capacity sanctioned in 2025, the most since 2019",
+     "value": "68.4 Mtpa",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "International Gas Union",
+     "series": "World LNG Report",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "700+ Mt Global LNG supply capacity IGU expects by 2030",
+     "value": "700+ Mt",
+     "period": "2030",
+     "period_end": "2030-12-31",
+     "publisher": "International Gas Union",
+     "series": "World LNG Report",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Global LNG trade hit a record 437 million tonnes in 2025",
+     "value": "437 million tonnes",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "International Gas Union",
+     "series": "World LNG Report",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "up 6.3% on 2024 and the strongest single-year growth since 2022",
+     "value": "6.3%",
+     "period": "2024 to 2025",
+     "period_end": "2025-12-31",
+     "publisher": "International Gas Union",
+     "series": "World LNG Report",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "developers sanctioned 68.4 million tonnes per year of new liquefaction capacity in 2025 alone",
+     "value": "68.4 million tonnes per year",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "International Gas Union",
+     "series": "World LNG Report",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "~206 Mtpa (2021–25), roughly double the prior 5-year cycle",
+     "value": "~206 Mtpa",
+     "period": "2021-25",
+     "period_end": "2025-12-31",
+     "publisher": "International Gas Union",
+     "series": "World LNG Report",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "tallies about 206 million tonnes per year of new liquefaction capacity sanctioned across 2021–25",
+     "value": "206 million tonnes per year",
+     "period": "2021–25",
+     "period_end": "2025-12-31",
+     "publisher": "International Gas Union",
+     "series": "World LNG Report",
+     "frequency": "annual",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "Global LNG trade hit a record 437 million tonnes in 2025",
+     "value": "437 million tonnes",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "International Gas Union (IGU)",
+     "series": "World LNG Trade Volume",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "almost double the volume a decade earlier — and the industry just sanctioned enough new liquefaction capacity in one year to make the next decade's growth curve steeper, not flatter",
+     "value": "244.8 million tonnes (2015)",
+     "period": "2015",
+     "period_end": "2015-12-31",
+     "publisher": "International Gas Union (IGU)",
+     "series": "World LNG Trade Volume",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "437 Mt Global LNG trade in 2025, a record, up 6.3% year-on-year",
+     "value": "6.3%",
+     "period": "2025 (YoY growth vs 2024)",
+     "period_end": "2025-12-31",
+     "publisher": "International Gas Union (IGU)",
+     "series": "World LNG Trade YoY Growth Rate",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "68.4 Mtpa New liquefaction capacity sanctioned in 2025, the most since 2019",
+     "value": "68.4 million tonnes per annum (Mtpa)",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "International Gas Union (IGU)",
+     "series": "New Liquefaction Capacity Sanctioned",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "about 206 million tonnes per year of new liquefaction capacity sanctioned across 2021–25",
+     "value": "206 million tonnes per annum (Mtpa)",
+     "period": "2021–2025",
+     "period_end": "2025-12-31",
+     "publisher": "International Gas Union (IGU)",
+     "series": "New Liquefaction Capacity Sanctioned (5-year trailing)",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "total global LNG supply capacity, existing plus under construction, will exceed 700 million tonnes by 2030",
+     "value": "700 million tonnes",
+     "period": "by 2030",
+     "period_end": "2030-12-31",
+     "publisher": "International Gas Union (IGU)",
+     "series": "Global LNG Supply Capacity (Projected)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Global LNG trade almost doubled in a decade, from 244.8 Mt (2015) to a record 437 Mt (2025)",
+     "value": "78%",
+     "period": "2015–2025",
+     "period_end": "2025-12-31",
+     "publisher": "International Gas Union (IGU)",
+     "series": "Decade Growth Rate in Global LNG Trade",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "244.8 million tonnes was itself a record when the 2015 figure was set",
+     "value": "244.8 million tonnes",
+     "period": "2015",
+     "period_end": "2015-12-31",
+     "publisher": "International Gas Union (IGU)",
+     "series": "World LNG Trade Volume (2016 Report)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "the strongest single-year growth since 2022",
+     "value": "+6.3% (YoY growth)",
+     "period": "2025 (vs 2022)",
+     "period_end": "2025-12-31",
+     "publisher": "International Gas Union (IGU)",
+     "series": "World LNG Trade YoY Growth Rate",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "roughly double the volume approved in the previous five-year cycle",
+     "value": "~206 Mtpa (2021–25) vs prior 5-year cycle",
+     "period": "2021–2025",
+     "period_end": "2025-12-31",
+     "publisher": "International Gas Union (IGU)",
+     "series": "New Liquefaction Capacity Sanctioned (Comparison)",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "a roughly 40% increase from where the market stood in 2025",
+     "value": "40%",
+     "period": "2025–2030",
+     "period_end": "2030-12-31",
+     "publisher": "International Gas Union (IGU)",
+     "series": "Projected Growth in Global LNG Supply Capacity",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,149 @@
+{
+ "slug": "how-to-use-bms-battery-management",
+ "text_sha1": "f14791cb8e4d371a",
+ "chars": 7654,
+ "checked": "2026-10-23T12:01:40",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": []
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "112 tests passed in 10.33 s",
+     "value": "112 tests, 10.33 seconds",
+     "period": null,
+     "period_end": null,
+     "publisher": "GitHub repository (self-reported)",
+     "series": "pytest test suite execution",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "4 vehicle classes compared (2-wheeler to bus)",
+     "value": "4 vehicle classes",
+     "period": null,
+     "period_end": null,
+     "publisher": "GitHub repository (self-reported)",
+     "series": "vehicle class comparison",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "0.117% charge-estimate RMSE on synthetic data",
+     "value": "0.117% RMSE",
+     "period": null,
+     "period_end": null,
+     "publisher": "GitHub repository (self-reported)",
+     "series": "charge-estimate RMSE (synthetic data)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "~200 cycles to 80% health at the demo fade rate",
+     "value": "~200 cycles",
+     "period": null,
+     "period_end": null,
+     "publisher": "GitHub repository (self-reported)",
+     "series": "battery degradation cycles to 80% health",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Charging started at 15.0% and reached 56.8% at 52.2 V and 47.1 C",
+     "value": "15.0% → 56.8% SOC, 52.2 V, 47.1 C",
+     "period": null,
+     "period_end": null,
+     "publisher": "GitHub repository (self-reported)",
+     "series": "2-wheeler charge simulation",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "After discharge: SOC 53.4%, no fault, SOH 99.99%",
+     "value": "SOC 53.4%, SOH 99.99%",
+     "period": null,
+     "period_end": null,
+     "publisher": "GitHub repository (self-reported)",
+     "series": "2-wheeler discharge simulation",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Health falls 0.1% per cycle: 95.0% at cycle 50, 80.0% at cycle 200, 70.0% at cycle 300",
+     "value": "0.1% per cycle, 95.0% (cycle 50), 80.0% (cycle 200), 70.0% (cycle 300)",
+     "period": null,
+     "period_end": null,
+     "publisher": "GitHub repository (self-reported)",
+     "series": "degradation model simulation",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "resistance rising from 2.00 to 2.60 mOhm",
+     "value": "2.00 mOhm → 2.60 mOhm",
+     "period": null,
+     "period_end": null,
+     "publisher": "GitHub repository (self-reported)",
+     "series": "battery resistance change",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "End of life at 80% is about cycle 200",
+     "value": "cycle 200",
+     "period": null,
+     "period_end": null,
+     "publisher": "GitHub repository (self-reported)",
+     "series": "end-of-life cycle count",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "On synthetic data: charge-estimate RMSE 0.117% (target below 3%, PASS), voltage-model RMSE 1.07 mV (target below 20 mV, PASS), remaining-life RMSE 4.2 cycles",
+     "value": "0.117% RMSE (charge), 1.07 mV RMSE (voltage), 4.2 cycles RMSE (life)",
+     "period": null,
+     "period_end": null,
+     "publisher": "GitHub repository (self-reported)",
+     "series": "validation metrics (synthetic data)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "one degraded module found out of several",
+     "value": "1 degraded module",
+     "period": null,
+     "period_end": null,
+     "publisher": "GitHub repository (self-reported)",
+     "series": "degradation detection",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "bus LFP 128S2P 409 V (163.8 kWh)",
+     "value": "163.8 kWh",
+     "period": null,
+     "period_end": null,
+     "publisher": "GitHub repository (self-reported)",
+     "series": "bus battery capacity",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The plot run (--plot) did not finish within two minutes in the demo",
+     "value": "2 minutes",
+     "period": "18 Oct 2026",
+     "period_end": "2026-10-18",
+     "publisher": "GitHub repository (self-reported)",
+     "series": "plot run duration",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

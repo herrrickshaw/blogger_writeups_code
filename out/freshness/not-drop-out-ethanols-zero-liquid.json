@@ -1,0 +1,670 @@
+{
+ "slug": "not-drop-out-ethanols-zero-liquid",
+ "text_sha1": "327266652bf07e37",
+ "chars": 32609,
+ "checked": "2026-10-23T15:07:31",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "with a market capitalisation around ₹5,911 crore and an order backlog of ₹4,589 crore as of August 2026.",
+     "value": "₹5,911 crore",
+     "period": "as of August 2026",
+     "period_end": "2026-08-31",
+     "publisher": "Screener.in / company disclosures",
+     "series": "Praj Industries Market Capitalisation",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "with a market capitalisation around ₹5,911 crore and an order backlog of ₹4,589 crore as of August 2026.",
+     "value": "₹4,589 crore",
+     "period": "as of August 2026",
+     "period_end": "2026-08-31",
+     "publisher": "Screener.in / company disclosures",
+     "series": "Praj Industries Order Backlog",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "Ion Exchange (India) Ltd (NSE: IONEXCHANG, ~₹6,700 crore market cap)",
+     "value": "₹6,700 crore",
+     "period": "August 2026",
+     "period_end": "2026-08-31",
+     "publisher": "Screener.in / company disclosures",
+     "series": "Ion Exchange Market Capitalisation",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "VA Tech Wabag (NSE: WABAG, ~₹9,100 crore market cap) is India's largest pure-play water-treatment company, working across 30+ countries with an order book exceeding ₹12,000 crore",
+     "value": "₹9,100 crore",
+     "period": "August 2026",
+     "period_end": "2026-08-31",
+     "publisher": "Screener.in / company disclosures",
+     "series": "VA Tech Wabag Market Capitalisation",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "VA Tech Wabag (NSE: WABAG, ~₹9,100 crore market cap) is India's largest pure-play water-treatment company, working across 30+ countries with an order book exceeding ₹12,000 crore",
+     "value": "₹12,000 crore",
+     "period": "August 2026",
+     "period_end": "2026-08-31",
+     "publisher": "Screener.in / company disclosures",
+     "series": "VA Tech Wabag Order Book",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "Thermax Ltd (NSE: THERMAX, ~₹48,574 crore market cap)",
+     "value": "₹48,574 crore",
+     "period": "August 2026",
+     "period_end": "2026-08-31",
+     "publisher": "Screener.in / company disclosures",
+     "series": "Thermax Market Capitalisation",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "Sewage generated (urban India) | 72,368 | 100%",
+     "value": "72,368 MLD",
+     "period": "March 2021",
+     "period_end": "2021-03-31",
+     "publisher": "CPCB / Ministry of Jal Shakti",
+     "series": "National Inventory of Sewage Treatment Plants",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "Installed treatment capacity | 31,841 | 44%",
+     "value": "31,841 MLD",
+     "period": "March 2021",
+     "period_end": "2021-03-31",
+     "publisher": "CPCB / Ministry of Jal Shakti",
+     "series": "National Inventory of Sewage Treatment Plants",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "Proposed/planned capacity | 4,827 | 7%",
+     "value": "4,827 MLD",
+     "period": "March 2021",
+     "period_end": "2021-03-31",
+     "publisher": "CPCB / Ministry of Jal Shakti",
+     "series": "National Inventory of Sewage Treatment Plants",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Total incl. proposed | 36,668 | 51%",
+     "value": "36,668 MLD",
+     "period": "March 2021",
+     "period_end": "2021-03-31",
+     "publisher": "CPCB / Ministry of Jal Shakti",
+     "series": "National Inventory of Sewage Treatment Plants",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Operational treatment capacity | 26,869 | 37%",
+     "value": "26,869 MLD",
+     "period": "March 2021",
+     "period_end": "2021-03-31",
+     "publisher": "CPCB / Ministry of Jal Shakti",
+     "series": "National Inventory of Sewage Treatment Plants",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Actually utilised capacity | ~20,235 | ~28%",
+     "value": "20,235 MLD",
+     "period": "March 2021",
+     "period_end": "2021-03-31",
+     "publisher": "CPCB / Down To Earth",
+     "series": "National Inventory of Sewage Treatment Plants Utilisation",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "India runs about 392 molasses-based and 113 grain-based distilleries (AIDA, 2019-20), with combined installed alcohol capacity around 9.5 billion litres a year",
+     "value": "392 distilleries",
+     "period": "2019-20",
+     "period_end": "2020-03-31",
+     "publisher": "All India Distillers Association (AIDA)",
+     "series": "Distillery Count and Capacity",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "India runs about 392 molasses-based and 113 grain-based distilleries (AIDA, 2019-20), with combined installed alcohol capacity around 9.5 billion litres a year",
+     "value": "113 distilleries",
+     "period": "2019-20",
+     "period_end": "2020-03-31",
+     "publisher": "All India Distillers Association (AIDA)",
+     "series": "Distillery Count and Capacity",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "India runs about 392 molasses-based and 113 grain-based distilleries (AIDA, 2019-20), with combined installed alcohol capacity around 9.5 billion litres a year",
+     "value": "9.5 billion litres a year",
+     "period": "2019-20",
+     "period_end": "2020-03-31",
+     "publisher": "All India Distillers Association (AIDA)",
+     "series": "Distillery Count and Capacity",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "As of October 2025, 216 sewerage infrastructure projects costing ₹34,809 crore had been taken up under Namami Gange with a combined target capacity of 6,561 MLD",
+     "value": "216 projects",
+     "period": "October 2025",
+     "period_end": "2025-10-31",
+     "publisher": "National Mission for Clean Ganga (NMCG)",
+     "series": "Namami Gange Project Portfolio",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "As of October 2025, 216 sewerage infrastructure projects costing ₹34,809 crore had been taken up under Namami Gange with a combined target capacity of 6,561 MLD",
+     "value": "₹34,809 crore",
+     "period": "October 2025",
+     "period_end": "2025-10-31",
+     "publisher": "National Mission for Clean Ganga (NMCG)",
+     "series": "Namami Gange Project Portfolio",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "As of October 2025, 216 sewerage infrastructure projects costing ₹34,809 crore had been taken up under Namami Gange with a combined target capacity of 6,561 MLD",
+     "value": "6,561 MLD",
+     "period": "October 2025",
+     "period_end": "2025-10-31",
+     "publisher": "National Mission for Clean Ganga (NMCG)",
+     "series": "Namami Gange Project Portfolio",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "of which 138 projects (3,806 MLD) were completed and operational — roughly 54% of the December 2026 target",
+     "value": "138 projects",
+     "period": "October 2025",
+     "period_end": "2025-10-31",
+     "publisher": "National Mission for Clean Ganga (NMCG)",
+     "series": "Namami Gange Completed Projects",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "of which 138 projects (3,806 MLD) were completed and operational — roughly 54% of the December 2026 target",
+     "value": "3,806 MLD",
+     "period": "October 2025",
+     "period_end": "2025-10-31",
+     "publisher": "National Mission for Clean Ganga (NMCG)",
+     "series": "Namami Gange Completed Projects",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "26 projects added about 1,200 MLD in calendar 2022 alone",
+     "value": "26 projects",
+     "period": "calendar 2022",
+     "period_end": "2022-12-31",
+     "publisher": "National Mission for Clean Ganga (NMCG)",
+     "series": "Namami Gange Annual Additions",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "26 projects added about 1,200 MLD in calendar 2022 alone",
+     "value": "1,200 MLD",
+     "period": "calendar 2022",
+     "period_end": "2022-12-31",
+     "publisher": "National Mission for Clean Ganga (NMCG)",
+     "series": "Namami Gange Annual Additions",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Under the 2021-26 State Disaster Risk Management Fund, ₹1,28,122 crore (80%) is earmarked for the response-side State Disaster Response Fund (SDRF)",
+     "value": "₹1,28,122 crore",
+     "period": "2021-26",
+     "period_end": "2026-03-31",
+     "publisher": "Ministry of Home Affairs / PIB",
+     "series": "State Disaster Risk Management Fund",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "against just ₹32,031 crore (20%) for the mitigation-side State Disaster Mitigation Fund (SDMF)",
+     "value": "₹32,031 crore",
+     "period": "2021-26",
+     "period_end": "2026-03-31",
+     "publisher": "Ministry of Home Affairs / PIB",
+     "series": "State Disaster Risk Management Fund",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "Namami Gange Mission-II: 219 sewerage projects, ₹35,970 crore, target 6,610 MLD; 146 completed, 4,263 MLD created",
+     "value": "219 projects",
+     "period": "August 2026",
+     "period_end": "2026-08-06",
+     "publisher": "Ministry of Jal Shakti",
+     "series": "Namami Gange Mission-II Status",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Namami Gange Mission-II: 219 sewerage projects, ₹35,970 crore, target 6,610 MLD; 146 completed, 4,263 MLD created",
+     "value": "₹35,970 crore",
+     "period": "August 2026",
+     "period_end": "2026-08-06",
+     "publisher": "Ministry of Jal Shakti",
+     "series": "Namami Gange Mission-II Status",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Namami Gange Mission-II: 219 sewerage projects, ₹35,970 crore, target 6,610 MLD; 146 completed, 4,263 MLD created",
+     "value": "6,610 MLD",
+     "period": "August 2026",
+     "period_end": "2026-08-06",
+     "publisher": "Ministry of Jal Shakti",
+     "series": "Namami Gange Mission-II Status",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Namami Gange Mission-II: 219 sewerage projects, ₹35,970 crore, target 6,610 MLD; 146 completed, 4,263 MLD created",
+     "value": "146 projects",
+     "period": "August 2026",
+     "period_end": "2026-08-06",
+     "publisher": "Ministry of Jal Shakti",
+     "series": "Namami Gange Mission-II Status",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Namami Gange Mission-II: 219 sewerage projects, ₹35,970 crore, target 6,610 MLD; 146 completed, 4,263 MLD created",
+     "value": "4,263 MLD",
+     "period": "August 2026",
+     "period_end": "2026-08-06",
+     "publisher": "Ministry of Jal Shakti",
+     "series": "Namami Gange Mission-II Status",
+     "frequency": "monthly",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "India runs about 392 molasses-based and 113 grain-based distilleries (AIDA, 2019-20), with combined installed alcohol capacity around 9.5 billion litres a year",
+     "value": "392 molasses-based distilleries; 113 grain-based distilleries; 9.5 billion litres/year installed alcohol capacity",
+     "period": "2019-20",
+     "period_end": "2020-03-31",
+     "publisher": "All India Distillers Association (AIDA)",
+     "series": "Distillery count and installed alcohol capacity",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "every litre of which generates 8–16 litres of raw spent wash before treatment",
+     "value": "8–16 litres raw spent wash per litre alcohol",
+     "period": null,
+     "period_end": null,
+     "publisher": "CPCB (implied in distillery effluent standards)",
+     "series": "Spend wash generation ratio",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "distillery spent wash (vinasse) carries a BOD of 30,000–80,000 mg/L",
+     "value": "30,000–80,000 mg/L BOD",
+     "period": null,
+     "period_end": null,
+     "publisher": "CPCB (implied in Red Category classification)",
+     "series": "Distillery effluent BOD levels",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India's municipal sewage-treatment capacity — a separate system, tracked separately, and running at roughly 28% of what the country actually generates",
+     "value": "28% of sewage generated",
+     "period": null,
+     "period_end": null,
+     "publisher": "CPCB (National Inventory of Sewage Treatment Plants)",
+     "series": "Actual sewage treatment utilisation",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Sewage generated (urban India) | 72,368 MLD | 100%",
+     "value": "72,368 MLD sewage generated",
+     "period": "as of March 2021 (latest inventory)",
+     "period_end": "2021-03-31",
+     "publisher": "CPCB",
+     "series": "National Inventory of Sewage Treatment Plants",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "Installed treatment capacity | 31,841 MLD | 44%",
+     "value": "31,841 MLD installed treatment capacity",
+     "period": "as of March 2021",
+     "period_end": "2021-03-31",
+     "publisher": "CPCB",
+     "series": "National Inventory of Sewage Treatment Plants",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "Actually utilised capacity | ~20,235 MLD | ~28%",
+     "value": "~20,235 MLD actually utilised capacity",
+     "period": null,
+     "period_end": null,
+     "publisher": "CPCB (commentary on March 2021 report)",
+     "series": "National Inventory of Sewage Treatment Plants (utilisation)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "National Mission for Clean Ganga (NMCG) has set a goal of sanctioning a cumulative 7,000 MLD of sewerage treatment capacity by December 2026",
+     "value": "7,000 MLD sewerage treatment capacity",
+     "period": "by December 2026",
+     "period_end": "2026-12-31",
+     "publisher": "National Mission for Clean Ganga (NMCG)",
+     "series": "Namami Gange Mission-II capacity targets",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "As of October 2025, 216 sewerage infrastructure projects costing ₹34,809 crore had been taken up... with a combined target capacity of 6,561 MLD, of which 138 projects (3,806 MLD) were completed and operational",
+     "value": "6,561 MLD target capacity; 3,806 MLD completed; ₹34,809 crore cost",
+     "period": "as of October 2025",
+     "period_end": "2025-10-31",
+     "publisher": "NMCG (Namami Gange Mission-II)",
+     "series": "Sewerage infrastructure progress",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹35,970 crore, target 6,610 MLD; 146 completed, 4,263 MLD created",
+     "value": "₹35,970 crore budget; 6,610 MLD target; 4,263 MLD completed",
+     "period": "as of ~6 August 2026",
+     "period_end": "2026-08-06",
+     "publisher": "Ministry of Jal Shakti (Lok Sabha reply)",
+     "series": "Namami Gange Mission-II progress update",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Praj Industries (NSE: PRAJIND) ... with a market capitalisation around ₹5,911 crore and an order backlog of ₹4,589 crore as of August 2026",
+     "value": "₹5,911 crore market cap; ₹4,589 crore order backlog",
+     "period": "as of August 2026",
+     "period_end": "2026-08-31",
+     "publisher": "Screener.in / Tickertape (company disclosures)",
+     "series": "Praj Industries financials",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "Ion Exchange (India) Ltd (NSE: IONEXCHANG, ~₹6,700 crore market cap)",
+     "value": "₹6,700 crore market cap",
+     "period": null,
+     "period_end": null,
+     "publisher": "Screener.in / company disclosures",
+     "series": "Ion Exchange India Ltd market capitalisation",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "VA Tech Wabag (NSE: WABAG, ~₹9,100 crore market cap), ... with an order book exceeding ₹12,000 crore",
+     "value": "₹9,100 crore market cap; ₹12,000 crore+ order book",
+     "period": null,
+     "period_end": null,
+     "publisher": "Screener.in / company disclosures",
+     "series": "VA Tech Wabag financials",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "Thermax Ltd (NSE: THERMAX, ~₹48,574 crore market cap)",
+     "value": "₹48,574 crore market cap",
+     "period": null,
+     "period_end": null,
+     "publisher": "Screener.in / company disclosures",
+     "series": "Thermax Ltd market capitalisation",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "Thermax opened a dedicated water/wastewater/ZLD manufacturing plant in Pune in April 2024",
+     "value": "April 2024",
+     "period": "April 2024",
+     "period_end": "2024-04-30",
+     "publisher": "Thermax Ltd (company disclosure)",
+     "series": "Thermax ZLD plant inauguration",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The Ministry of Environment & Forests first notified fermentation-industry effluent standards under GSR 176(E) on 2 April 1996",
+     "value": "2 April 1996",
+     "period": "2 April 1996",
+     "period_end": "1996-04-02",
+     "publisher": "Ministry of Environment & Forests",
+     "series": "GSR 176(E) notification",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "CPCB's Corporate Responsibility for Environmental Protection (CREP) task force stipulated that distilleries should achieve zero discharge into inland surface watercourses by the end of 2005",
+     "value": "end of 2005",
+     "period": "by 31 December 2005",
+     "period_end": "2005-12-31",
+     "publisher": "CPCB (CREP task force)",
+     "series": "CREP 2003 task force directive",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "CPCB issued a further SOP specifically to standardise how ZLD certificates get verified and issued, on 3 July 2024",
+     "value": "3 July 2024",
+     "period": "3 July 2024",
+     "period_end": "2024-07-03",
+     "publisher": "CPCB",
+     "series": "ZLD verification SOP",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Department of Food & Public Distribution's gazette notification S.O. 148(E), dated 14 January 2021",
+     "value": "14 January 2021",
+     "period": "14 January 2021",
+     "period_end": "2021-01-14",
+     "publisher": "Department of Food & Public Distribution",
+     "series": "Ethanol interest-subvention scheme eligibility",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "maize share up to ~37% (ESY 2025-26)",
+     "value": "37% maize share",
+     "period": "Ethanol Supply Year (ESY) 2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Ministry of Petroleum and Natural Gas (parliamentary reply)",
+     "series": "Ethanol feedstock composition",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "water requirement is highest for rice among ethanol feedstocks, followed by maize, then sugarcane",
+     "value": "rice > maize > sugarcane (water intensity)",
+     "period": null,
+     "period_end": null,
+     "publisher": "2024 Expert Committee (Ministry of Agriculture)",
+     "series": "Ethanol feedstock water intensity ranking",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "modern ethanol plants typically consume 3–5 litres of processed water per litre of ethanol produced",
+     "value": "3–5 litres water per litre ethanol",
+     "period": null,
+     "period_end": null,
+     "publisher": "Ministry of Petroleum and Natural Gas (parliamentary reply)",
+     "series": "Ethanol water consumption",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹1,28,122 crore (80%) is earmarked for the State Disaster Response Fund (SDRF) against just ₹32,031 crore (20%) for the State Disaster Mitigation Fund (SDMF)",
+     "value": "₹1,28,122 crore SDRF; ₹32,031 crore SDMF",
+     "period": "2021-26",
+     "period_end": "2026-03-31",
+     "publisher": "India Water Portal / PIB",
+     "series": "State Disaster Risk Management Fund allocation",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "nearly 75% of National Disaster Mitigation Fund allocations... had not actually been transferred",
+     "value": "75% untransferred (National Disaster Mitigation Fund)",
+     "period": null,
+     "period_end": null,
+     "publisher": "CAG audit",
+     "series": "Disaster Mitigation Fund utilisation",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "over 53% of sanctioned National Disaster Response Fund (NDRF) money sat unutilised... ₹5,356 crore transferred of ₹11,474 crore sanctioned",
+     "value": "53% unutilised (NDRF); ₹5,356 crore transferred",
+     "period": null,
+     "period_end": null,
+     "publisher": "PIB / India Water Portal",
+     "series": "National Disaster Response Fund utilisation",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "global average at 56% of domestic wastewater 'safely treated' in 2024",
+     "value": "56% global wastewater treatment",
+     "period": "2024",
+     "period_end": "2024-12-31",
+     "publisher": "UN-Water/WHO/UN-Habitat (SDG 6 progress report)",
+     "series": "Global wastewater treatment progress",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Sub-Saharan Africa & Central/Southern Asia | <30%",
+     "value": "<30% wastewater treatment",
+     "period": null,
+     "period_end": null,
+     "publisher": "UN-Water/WHO/UN-Habitat (SDG 6 progress report)",
+     "series": "Regional wastewater treatment progress",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Lower-middle-income countries | 26%",
+     "value": "26% wastewater treatment",
+     "period": null,
+     "period_end": null,
+     "publisher": "UN-Water/WHO/UN-Habitat (SDG 6 progress report)",
+     "series": "Income-bracket wastewater treatment progress",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "China reported a 70.1% centralised domestic sewage collection rate in 2022, with daily treatment capacity at roughly 2.16 × 10⁸ m³/day (~216,000 MLD)",
+     "value": "70.1% collection rate; 216,000 MLD treatment capacity",
+     "period": "2022",
+     "period_end": "2022-12-31",
+     "publisher": "China National Bureau of Statistics (implied)",
+     "series": "China wastewater treatment capacity",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "US wastewater treatment plants actually treat and discharge over 34 billion gallons a day (~128,700 MLD)",
+     "value": "34 billion gallons/day (~128,700 MLD)",
+     "period": null,
+     "period_end": null,
+     "publisher": "US EPA (2022 Clean Watersheds Needs Survey)",
+     "series": "US wastewater treatment volume",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Florida DEP's published wastewater statistics: ~10,220 MLD permitted capacity",
+     "value": "~10,220 MLD permitted capacity",
+     "period": null,
+     "period_end": null,
+     "publisher": "Florida Department of Environmental Protection",
+     "series": "Florida wastewater permitted capacity",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "India's ~28% sits almost exactly at the lower-middle-income bracket's 26%",
+     "value": "~28% (India); ~26% (lower-middle-income)",
+     "period": null,
+     "period_end": null,
+     "publisher": "UN-Water/WHO/UN-Habitat (SDG 6 progress report)",
+     "series": "India vs. income-bracket wastewater treatment",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "EU reports 80.7% of its population connected to at least secondary wastewater treatment as of 2023",
+     "value": "80.7% population connected (EU)",
+     "period": "2023",
+     "period_end": "2023-12-31",
+     "publisher": "Eurostat",
+     "series": "EU wastewater treatment coverage",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "India's per-capita figure uses installed capacity against the implied urban population base of CPCB's own generation formula (~65 L/person/day)",
+     "value": "~65 L/person/day (India, urban)",
+     "period": null,
+     "period_end": null,
+     "publisher": "CPCB (implied)",
+     "series": "India wastewater treatment per capita",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "US treated volume per person is roughly 7× India's installed capacity per person (~476 L/person/day)",
+     "value": "~476 L/person/day (US)",
+     "period": null,
+     "period_end": null,
+     "publisher": "US EPA (2022 Clean Watersheds Needs Survey)",
+     "series": "US wastewater treatment per capita",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Water (Prevention and Control of Pollution) Amendment Bill, 2024 was introduced on 5 February 2024 and received Presidential assent on 15 February 2024",
+     "value": "5 February 2024 (introduced); 15 February 2024 (assented)",
+     "period": "5–15 February 2024",
+     "period_end": "2024-02-15",
+     "publisher": "Parliament of India",
+     "series": "Water (Prevention and Control of Pollution) Amendment Bill, 2024",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,320 @@
+{
+ "slug": "indias-military-quantum-plan-has-four",
+ "text_sha1": "8b1016cc88e60ffc",
+ "chars": 12608,
+ "checked": "2026-10-23T14:23:58",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "National Quantum Mission’s 2026-27 allocation at ₹900 crore",
+     "value": "₹900 crore",
+     "period": "2026-27",
+     "period_end": "2027-03-31",
+     "publisher": "Union Budget / PIB / ministry",
+     "series": "National Quantum Mission budget allocation",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "2025-26 revised estimate at ₹755 crore against another’s ₹477 crore",
+     "value": "₹755 crore",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Union Budget documents",
+     "series": "National Quantum Mission revised estimate",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "A February 2026 Lok Sabha answer, as reported, put releases to institutions at ₹699.50 crore.",
+     "value": "₹699.50 crore",
+     "period": "to February 2026",
+     "period_end": "2026-02-28",
+     "publisher": "PIB / ministry",
+     "series": "Lok Sabha answer on National Quantum Mission releases",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "National Quantum Mission outlay for 2023-24 to 2030-31; about 12% had been released to institutions by February 2026",
+     "value": "₹6,003.65 cr",
+     "period": "2023-24 to 2030-31",
+     "period_end": "2031-03-31",
+     "publisher": "Cabinet",
+     "series": "National Quantum Mission approved outlay",
+     "frequency": "multi-year",
+     "headline": true
+    },
+    {
+     "quote": "2023-24: actual spending | nil",
+     "value": "nil",
+     "period": "2023-24",
+     "period_end": "2024-03-31",
+     "publisher": "Union Budget documents",
+     "series": "National Quantum Mission actual spending",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "2024-25: budget / revised | 427 / 86",
+     "value": "427 / 86",
+     "period": "2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "Union Budget documents",
+     "series": "National Quantum Mission budget / revised estimate",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "2024-25: released / used | 43.07 / 32.77",
+     "value": "43.07 / 32.77",
+     "period": "2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "Policy Circle",
+     "series": "National Quantum Mission released / used",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "2025-26: budget / revised | 600 / 477 or 755",
+     "value": "600 / 477 or 755",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Outlook Business / budget coverage",
+     "series": "National Quantum Mission budget / revised estimate",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "2026-27: budget | 900",
+     "value": "900",
+     "period": "2026-27",
+     "period_end": "2027-03-31",
+     "publisher": "Union Budget",
+     "series": "National Quantum Mission budget estimate",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Released to institutions, to February 2026 | 699.50 of 2,330.68 sanctioned",
+     "value": "699.50 of 2,330.68 sanctioned",
+     "period": "to February 2026",
+     "period_end": "2026-02-28",
+     "publisher": "PIB / ministry",
+     "series": "Lok Sabha answer on National Quantum Mission sanctioned vs released",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "National Quantum Mission’s 2026-27 allocation at ₹900 crore",
+     "value": "₹900 crore",
+     "period": "2026-27",
+     "period_end": "2027-03-31",
+     "publisher": "PIB / Ministry of Finance (Budget coverage)",
+     "series": "National Quantum Mission annual budget allocation",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "2025-26 revised estimate at ₹755 crore against another’s ₹477 crore",
+     "value": "₹755 crore (revised estimate) / ₹477 crore (alternative estimate)",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Outlook Business / Budget documents",
+     "series": "National Quantum Mission revised budget estimate",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "₹6,003.65 crore National Quantum Mission outlay for 2023-24 to 2030-31",
+     "value": "₹6,003.65 crore",
+     "period": "2023-24 to 2030-31",
+     "period_end": "2031-03-31",
+     "publisher": "Cabinet (April 2023)",
+     "series": "National Quantum Mission approved outlay",
+     "frequency": "multi-year",
+     "headline": true
+    },
+    {
+     "quote": "about ₹750 crore a year on average",
+     "value": "₹750 crore/year",
+     "period": "2023-24 to 2030-31",
+     "period_end": "2031-03-31",
+     "publisher": "Cabinet (April 2023)",
+     "series": "National Quantum Mission average annual allocation",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "2024-25: budget / revised | 427 / 86",
+     "value": "₹427 crore (budget) / ₹86 crore (revised)",
+     "period": "2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "Union Budget documents",
+     "series": "National Quantum Mission annual budget/revised estimate",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "2024-25: released / used | 43.07 / 32.77",
+     "value": "₹43.07 crore (released) / ₹32.77 crore (used)",
+     "period": "2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "Policy Circle / Budget documents",
+     "series": "National Quantum Mission actual spending",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "₹699.50 crore had been released to institutions, about 12% of the outlay",
+     "value": "₹699.50 crore",
+     "period": "to February 2026",
+     "period_end": "2026-02-29",
+     "publisher": "Lok Sabha answer (PIB 2223187)",
+     "series": "National Quantum Mission cumulative releases",
+     "frequency": "live (cumulative)",
+     "headline": false
+    },
+    {
+     "quote": "₹2,330.68 crore of projects sanctioned",
+     "value": "₹2,330.68 crore",
+     "period": "to February 2026",
+     "period_end": "2026-02-29",
+     "publisher": "Lok Sabha answer (PIB 2223187)",
+     "series": "National Quantum Mission sanctioned projects",
+     "frequency": "live (cumulative)",
+     "headline": false
+    },
+    {
+     "quote": "DRDO’s first high-value deep-tech grant (₹500 crore fund) funds an Indian 20 mK refrigerator",
+     "value": "₹500 crore (fund size)",
+     "period": null,
+     "period_end": null,
+     "publisher": "DRDO / Ministry of Defence",
+     "series": "Deep-tech fund allocation",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "DRDO and Taqbit Labs completed military field trials of a fibre QKD system (July 2026)",
+     "value": "July 2026",
+     "period": "July 2026",
+     "period_end": "2026-07-31",
+     "publisher": "DRDO / Taqbit Labs (The Week, Janes, The Hitavada)",
+     "series": "Military QKD field trials",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "DRDO and IIT Delhi have shown QKD over 100 km of ordinary telecom fibre (2022)",
+     "value": "100 km",
+     "period": "2022",
+     "period_end": "2022-12-31",
+     "publisher": "DRDO / IIT Delhi",
+     "series": "Quantum Key Distribution (QKD) distance test",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "DRDO and IIT Delhi demonstrate entanglement-based QKD over 1 km of free space (June 2025)",
+     "value": "1 km",
+     "period": "June 2025",
+     "period_end": "2025-06-30",
+     "publisher": "DRDO / IIT Delhi",
+     "series": "Quantum Key Distribution (QKD) free-space test",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "QKD needs a dedicated fibre or line of sight, and its key rates fall with distance, so it suits fixed links between headquarters, not every radio in the field. Most of the protection against future quantum code-breaking will come from post-quantum cryptography, which is new mathematics running on existing networks. The Army said in June 2025 that applications developed at MCTE Mhow were being integrated across its networks",
+     "value": "240 bits/second (key rate)",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "Army / MCTE Mhow",
+     "series": "Quantum Key Distribution (QKD) key rate",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "DRDO tested a 6-qubit superconducting processor in August 2024",
+     "value": "6 qubits",
+     "period": "August 2024",
+     "period_end": "2024-08-31",
+     "publisher": "DRDO / Young Scientists Laboratory",
+     "series": "Quantum processor qubit count",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "an NQM-supported startup launched a 25-qubit machine (April 2025)",
+     "value": "25 qubits",
+     "period": "April 2025",
+     "period_end": "2025-04-30",
+     "publisher": "National Quantum Mission",
+     "series": "Quantum processor qubit count (startup)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "NQM reports a 1,000 km quantum-secure network, half its eight-year target of 2,000 km (April 2026)",
+     "value": "1,000 km (achieved) / 2,000 km (target)",
+     "period": "April 2026",
+     "period_end": "2026-04-30",
+     "publisher": "National Quantum Mission",
+     "series": "Quantum-secure network deployment",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Army trialled QNu Labs’ system over 150 km with trusted relay nodes in 2022",
+     "value": "150 km",
+     "period": "2022",
+     "period_end": "2022-12-31",
+     "publisher": "Ministry of Defence / iDEX",
+     "series": "Quantum Key Distribution (QKD) trial distance",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Army signs its eighth iDEX procurement contract, for QNu Labs’ QKD system, to replace algorithm-based encryption (Sep 2024)",
+     "value": "30 September 2024",
+     "period": "30 September 2024",
+     "period_end": "2024-09-30",
+     "publisher": "Ministry of Defence / iDEX",
+     "series": "Quantum Key Distribution (QKD) procurement contract",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "DRDO signed its first high-value contract from a ₹500 crore deep-tech fund with Zero mK India, an Alwar start-up, to build one [20 mK dilution refrigerator]; its first prototype is due in the fourth quarter of 2027",
+     "value": "20 mK",
+     "period": "Q4 2027",
+     "period_end": "2027-12-31",
+     "publisher": "DRDO",
+     "series": "Dilution refrigerator temperature target",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Due date for the first Indian prototype of the ultra-cold refrigerator that quantum computers need",
+     "value": "late 2027",
+     "period": "late 2027",
+     "period_end": "2027-12-31",
+     "publisher": "DRDO / Zero mK India",
+     "series": "Ultra-cold refrigerator prototype delivery",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

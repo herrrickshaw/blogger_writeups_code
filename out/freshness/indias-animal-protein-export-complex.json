@@ -1,0 +1,420 @@
+{
+ "slug": "indias-animal-protein-export-complex",
+ "text_sha1": "a8460baabb3adc0a",
+ "chars": 9126,
+ "checked": "2026-10-23T13:51:59",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "Frozen shrimp: ~66.3% of India's total ₹72,325.82cr (~$8.28bn) FY2025-26 seafood export earnings",
+     "value": "₹72,325.82 crore (~$8.28 billion)",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "MPEDA",
+     "series": "Seafood export earnings",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "$4.06bn Buffalo meat export value, FY2024-25 — 79.40% of total Animal Products exports",
+     "value": "$4.06 billion",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "APEDA",
+     "series": "Animal Products exports",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "513 plants APEDA/EIC export-registered abattoirs & meat processing plants nationally",
+     "value": "513 plants",
+     "period": "July 2026",
+     "period_end": "2026-07-31",
+     "publisher": "APEDA / EIC",
+     "series": "Export-registered abattoirs and meat processing plants",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "₹72,325.82cr Record India seafood export value, FY2025-26 (~$8.28bn, MPEDA)",
+     "value": "₹72,325.82 crore",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "MPEDA",
+     "series": "Seafood export value",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "₹47,973.13cr Frozen shrimp alone (~$5.51bn) — roughly two-thirds (66.3%) of total seafood export earnings",
+     "value": "₹47,973.13 crore",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "MPEDA",
+     "series": "Frozen shrimp export earnings",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "United States 2,56,128 MT",
+     "value": "2,56,128 MT",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "MPEDA",
+     "series": "Shrimp import volume by market",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "China 1,69,505 MT",
+     "value": "1,69,505 MT",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "MPEDA",
+     "series": "Shrimp import volume by market",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "European Union 1,35,599 MT",
+     "value": "1,35,599 MT",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "MPEDA",
+     "series": "Shrimp import volume by market",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Southeast Asia 83,810 MT",
+     "value": "83,810 MT",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "MPEDA",
+     "series": "Shrimp import volume by market",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Japan 40,776 MT",
+     "value": "40,776 MT",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "MPEDA",
+     "series": "Shrimp import volume by market",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Middle East 30,478 MT",
+     "value": "30,478 MT",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "MPEDA",
+     "series": "Shrimp import volume by market",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Commerce Ministry data, as reported in the press by August 2026, put FY2025-26 buffalo-meat exports at about $5.1bn, up about 25.6%",
+     "value": "$5.1 billion",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Commerce Ministry",
+     "series": "Buffalo-meat exports",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "West Bengal (12.62%), Uttar Pradesh (12.29%), Maharashtra (11.28%), Telangana (10.85%) and Andhra Pradesh (10.41%)",
+     "value": "12.62%",
+     "period": null,
+     "period_end": null,
+     "publisher": "MoSPI / Government of India",
+     "series": "Meat production share by state",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Uttar Pradesh (30.0% of India's buffalo population), Rajasthan (12.5%), Gujarat (9.6%) and Madhya Pradesh (9.4%)",
+     "value": "30.0%",
+     "period": null,
+     "period_end": null,
+     "publisher": "Government of India",
+     "series": "Buffalo population share by state",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "used cooking oil (UCO) accounted for roughly 35% of India's biodiesel feedstock in 2023, while animal fat and tallow contributed only about 3%.",
+     "value": "35%",
+     "period": "2023",
+     "period_end": "2023-12-31",
+     "publisher": "TERI / Statista",
+     "series": "Biodiesel feedstock share",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "tallow volumes were forecast at around 9,000 tonnes as of 2022.",
+     "value": "9,000 tonnes",
+     "period": "2022",
+     "period_end": "2022-12-31",
+     "publisher": "Statista",
+     "series": "Tallow volumes forecast",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Seafood exports hit an all-time high of ₹72,325.82 crore (~$8.28 billion) in FY2025-26, on volumes of 19.32 lakh metric tonnes",
+     "value": "19.32 lakh metric tonnes",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "MPEDA",
+     "series": "Seafood export volume",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "India's shrimp market is expected to grow at a 9.60% CAGR from 2026-2035, reaching roughly 2.55 million tonnes of volume",
+     "value": "9.60%",
+     "period": "2026-2035",
+     "period_end": "2035-12-31",
+     "publisher": "Expert Market Research",
+     "series": "Shrimp market CAGR forecast",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "frozen shrimp now makes up roughly two-thirds of India's record ₹72,325.82 crore seafood export earnings",
+     "value": "₹72,325.82 crore",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "MPEDA",
+     "series": "Seafood export earnings",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "₹72,325.82 crore Record India seafood export value, FY2025-26 (~$8.28bn, MPEDA)",
+     "value": "₹72,325.82 crore (~$8.28bn)",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "MPEDA",
+     "series": "Seafood export earnings",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "₹47,973.13cr Frozen shrimp alone (~$5.51bn) — roughly two-thirds (66.3%) of total seafood export earnings",
+     "value": "₹47,973.13 crore (~$5.51bn)",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "MPEDA",
+     "series": "Frozen shrimp export earnings",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "India's frozen shrimp exports by destination market, FY2025-26 (MPEDA): United States — 2,56,128 MT",
+     "value": "2,56,128 metric tonnes",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "MPEDA",
+     "series": "Shrimp export volume by market",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "China — 1,69,505 MT",
+     "value": "1,69,505 metric tonnes",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "MPEDA",
+     "series": "Shrimp export volume by market",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "European Union — 1,35,599 MT",
+     "value": "1,35,599 metric tonnes",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "MPEDA",
+     "series": "Shrimp export volume by market",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Southeast Asia — 83,810 MT",
+     "value": "83,810 metric tonnes",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "MPEDA",
+     "series": "Shrimp export volume by market",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Japan — 40,776 MT",
+     "value": "40,776 metric tonnes",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "MPEDA",
+     "series": "Shrimp export volume by market",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Middle East — 30,478 MT",
+     "value": "30,478 metric tonnes",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "MPEDA",
+     "series": "Shrimp export volume by market",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "$4.06bn Buffalo meat export value, FY2024-25 — 79.40% of total Animal Products exports",
+     "value": "$4.06 billion",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "Commerce Ministry (via press reports)",
+     "series": "Buffalo meat export value",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "513 plants APEDA/EIC export-registered abattoirs & meat processing plants nationally",
+     "value": "513 plants",
+     "period": "as of July 2026",
+     "period_end": "2026-07-31",
+     "publisher": "APEDA",
+     "series": "Export-registered abattoirs and meat processing plants",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "West Bengal (12.62%), Uttar Pradesh (12.29%), Maharashtra (11.28%), Telangana (10.85%) and Andhra Pradesh (10.41%) together account for well over half the national total [of meat production]",
+     "value": "12.62% (West Bengal), 12.29% (Uttar Pradesh), 11.28% (Maharashtra), 10.85% (Telangana), 10.41% (Andhra Pradesh)",
+     "period": null,
+     "period_end": null,
+     "publisher": "APEDA (implied)",
+     "series": "State-wise share of meat production",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Uttar Pradesh (30.0% of India's buffalo population), Rajasthan (12.5%), Gujarat (9.6%) and Madhya Pradesh (9.4%)",
+     "value": "30.0% (Uttar Pradesh), 12.5% (Rajasthan), 9.6% (Gujarat), 9.4% (Madhya Pradesh)",
+     "period": null,
+     "period_end": null,
+     "publisher": "APEDA (implied)",
+     "series": "State-wise share of buffalo population",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "used cooking oil (UCO) accounted for roughly 35% of India's biodiesel feedstock in 2023",
+     "value": "35%",
+     "period": "2023",
+     "period_end": "2023-12-31",
+     "publisher": "Statista",
+     "series": "Biodiesel feedstock composition",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "animal fat and tallow contributed only about 3% [of biodiesel feedstock]",
+     "value": "3%",
+     "period": "2023",
+     "period_end": "2023-12-31",
+     "publisher": "Statista",
+     "series": "Biodiesel feedstock composition",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "tallow volumes were forecast at around 9,000 tonnes as of 2022",
+     "value": "9,000 metric tonnes",
+     "period": "2022",
+     "period_end": "2022-12-31",
+     "publisher": "Statista",
+     "series": "Tallow volume forecast",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Seafood exports hit an all-time high of ₹72,325.82 crore (~$8.28 billion) in FY2025-26, on volumes of 19.32 lakh metric tonnes",
+     "value": "19.32 lakh metric tonnes",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "MPEDA",
+     "series": "Seafood export volume",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "frozen shrimp ... shipments up 4.6% in volume and 6.35% in value year-on-year",
+     "value": "4.6% (volume), 6.35% (value)",
+     "period": "FY2025-26 vs FY2024-25",
+     "period_end": "2026-03-31",
+     "publisher": "MPEDA",
+     "series": "Year-on-year growth in shrimp exports",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "India's shrimp market is expected to grow at a 9.60% CAGR from 2026-2035",
+     "value": "9.60% CAGR",
+     "period": "2026-2035",
+     "period_end": "2035-12-31",
+     "publisher": "Expert Market Research India",
+     "series": "Shrimp market growth forecast",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "reaching roughly 2.55 million tonnes of volume by the end of [2026-2035]",
+     "value": "2.55 million metric tonnes",
+     "period": "2035",
+     "period_end": "2035-12-31",
+     "publisher": "Expert Market Research India",
+     "series": "Shrimp export volume forecast",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "Commerce Ministry data ... put FY2025-26 buffalo-meat exports at about $5.1bn, up about 25.6% and above $5bn for the first time",
+     "value": "$5.1 billion",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Commerce Ministry (via Civilsdaily, Dairy News)",
+     "series": "Buffalo meat export value",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "up about 25.6% [in buffalo-meat exports]",
+     "value": "25.6%",
+     "period": "FY2025-26 vs FY2024-25",
+     "period_end": "2026-03-31",
+     "publisher": "Commerce Ministry (via press reports)",
+     "series": "Year-on-year growth in buffalo meat exports",
+     "frequency": "annual",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

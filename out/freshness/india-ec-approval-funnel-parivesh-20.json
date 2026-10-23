@@ -1,0 +1,310 @@
+{
+ "slug": "india-ec-approval-funnel-parivesh-20",
+ "text_sha1": "e4dda9b923e1a6b6",
+ "chars": 6720,
+ "checked": "2026-10-23T12:25:13",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "How 113,970 EC proposals move from filing to grant on PARIVESH 2.0 (2022–2026).",
+     "value": "113,970 proposals",
+     "period": "2022–2026",
+     "period_end": "2026-12-31",
+     "publisher": "PARIVESH 2.0 open API",
+     "series": "advanceSearchData EC register",
+     "frequency": "live",
+     "headline": true
+    },
+    {
+     "quote": "Filed \n 113,970",
+     "value": "113,970",
+     "period": "2022–2026",
+     "period_end": "2026-12-31",
+     "publisher": "PARIVESH 2.0 open API",
+     "series": "advanceSearchData EC register",
+     "frequency": "live",
+     "headline": true
+    },
+    {
+     "quote": "Live applications \n 88,909 · 78%",
+     "value": "88,909",
+     "period": "2022–2026",
+     "period_end": "2026-12-31",
+     "publisher": "PARIVESH 2.0 open API",
+     "series": "advanceSearchData EC register",
+     "frequency": "live",
+     "headline": true
+    },
+    {
+     "quote": "Reached a decision \n 61,361 · 54%",
+     "value": "61,361",
+     "period": "2022–2026",
+     "period_end": "2026-12-31",
+     "publisher": "PARIVESH 2.0 open API",
+     "series": "advanceSearchData EC register",
+     "frequency": "live",
+     "headline": true
+    },
+    {
+     "quote": "EC granted \n 54,406 · 48%",
+     "value": "54,406",
+     "period": "2022–2026",
+     "period_end": "2026-12-31",
+     "publisher": "PARIVESH 2.0 open API",
+     "series": "advanceSearchData EC register",
+     "frequency": "live",
+     "headline": true
+    },
+    {
+     "quote": "Grant rate of DECIDED proposals: 88.7%",
+     "value": "88.7%",
+     "period": "2022–2026",
+     "period_end": "2026-12-31",
+     "publisher": "PARIVESH 2.0 open API",
+     "series": "advanceSearchData EC register",
+     "frequency": "live",
+     "headline": true
+    },
+    {
+     "quote": "Only 49% of these EC proposals are fresh new projects",
+     "value": "49%",
+     "period": "2022–2026",
+     "period_end": "2026-12-31",
+     "publisher": "PARIVESH 2.0 open API",
+     "series": "clearanceCategory / proposalType field",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "22% are re-appraisals",
+     "value": "22%",
+     "period": "2022–2026",
+     "period_end": "2026-12-31",
+     "publisher": "PARIVESH 2.0 open API",
+     "series": "clearanceCategory / proposalType field",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "Auto-delisted 25,061 - 22%",
+     "value": "25,061",
+     "period": "2022–2026",
+     "period_end": "2026-12-31",
+     "publisher": "PARIVESH 2.0 open API",
+     "series": "advanceSearchData?majorClearanceType=1",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "Still in pipeline 27,548",
+     "value": "27,548",
+     "period": "2022–2026",
+     "period_end": "2026-12-31",
+     "publisher": "PARIVESH 2.0 open API",
+     "series": "advanceSearchData?majorClearanceType=1",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "ToR 15,869 - screen 7,197 appraisal 4,482",
+     "value": "15,869",
+     "period": "2022–2026",
+     "period_end": "2026-12-31",
+     "publisher": "PARIVESH 2.0 open API",
+     "series": "advanceSearchData?majorClearanceType=1",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "ToR 15,869 - screen 7,197 appraisal 4,482",
+     "value": "7,197",
+     "period": "2022–2026",
+     "period_end": "2026-12-31",
+     "publisher": "PARIVESH 2.0 open API",
+     "series": "advanceSearchData?majorClearanceType=1",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "ToR 15,869 - screen 7,197 appraisal 4,482",
+     "value": "4,482",
+     "period": "2022–2026",
+     "period_end": "2026-12-31",
+     "publisher": "PARIVESH 2.0 open API",
+     "series": "advanceSearchData?majorClearanceType=1",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "Not approved 6,954",
+     "value": "6,954",
+     "period": "2022–2026",
+     "period_end": "2026-12-31",
+     "publisher": "PARIVESH 2.0 open API",
+     "series": "advanceSearchData?majorClearanceType=1",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "rejected 2,553 - withdrawn 2,622 returned 1,779",
+     "value": "2,553",
+     "period": "2022–2026",
+     "period_end": "2026-12-31",
+     "publisher": "PARIVESH 2.0 open API",
+     "series": "advanceSearchData?majorClearanceType=1",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "rejected 2,553 - withdrawn 2,622 returned 1,779",
+     "value": "2,622",
+     "period": "2022–2026",
+     "period_end": "2026-12-31",
+     "publisher": "PARIVESH 2.0 open API",
+     "series": "advanceSearchData?majorClearanceType=1",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "rejected 2,553 - withdrawn 2,622 returned 1,779",
+     "value": "1,779",
+     "period": "2022–2026",
+     "period_end": "2026-12-31",
+     "publisher": "PARIVESH 2.0 open API",
+     "series": "advanceSearchData?majorClearanceType=1",
+     "frequency": "live",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "113,970 EC proposals, 2022–2026 (current-state snapshot) Filed 113,970",
+     "value": "113,970 proposals",
+     "period": "2022–2026",
+     "period_end": "2026-12-31",
+     "publisher": "PARIVESH 2.0",
+     "series": "advanceSearchData EC register",
+     "frequency": "live",
+     "headline": true
+    },
+    {
+     "quote": "Live applications 88,909 · 78%",
+     "value": "88,909 proposals",
+     "period": "2022–2026",
+     "period_end": "2026-12-31",
+     "publisher": "PARIVESH 2.0",
+     "series": "advanceSearchData EC register",
+     "frequency": "live",
+     "headline": true
+    },
+    {
+     "quote": "Reached a decision 61,361 · 54%",
+     "value": "61,361 proposals",
+     "period": "2022–2026",
+     "period_end": "2026-12-31",
+     "publisher": "PARIVESH 2.0",
+     "series": "advanceSearchData EC register",
+     "frequency": "live",
+     "headline": true
+    },
+    {
+     "quote": "EC granted 54,406 · 48%",
+     "value": "54,406 proposals",
+     "period": "2022–2026",
+     "period_end": "2026-12-31",
+     "publisher": "PARIVESH 2.0",
+     "series": "advanceSearchData EC register",
+     "frequency": "live",
+     "headline": true
+    },
+    {
+     "quote": "Grant rate of DECIDED proposals: 88.7%",
+     "value": "88.7%",
+     "period": "2022–2026",
+     "period_end": "2026-12-31",
+     "publisher": "PARIVESH 2.0",
+     "series": "advanceSearchData EC register (granted ÷ decided)",
+     "frequency": "live",
+     "headline": true
+    },
+    {
+     "quote": "Auto-delisted 25,061 - 22%",
+     "value": "25,061 proposals",
+     "period": "2022–2026",
+     "period_end": "2026-12-31",
+     "publisher": "PARIVESH 2.0",
+     "series": "advanceSearchData EC register",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "Still in pipeline 27,548",
+     "value": "27,548 proposals",
+     "period": "2022–2026",
+     "period_end": "2026-12-31",
+     "publisher": "PARIVESH 2.0",
+     "series": "advanceSearchData EC register",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "ToR 15,869 - screen 7,197 appraisal 4,482",
+     "value": "15,869 (ToR), 7,197 (screening), 4,482 (appraisal)",
+     "period": "2022–2026",
+     "period_end": "2026-12-31",
+     "publisher": "PARIVESH 2.0",
+     "series": "advanceSearchData EC register",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "Not approved 6,954",
+     "value": "6,954 proposals",
+     "period": "2022–2026",
+     "period_end": "2026-12-31",
+     "publisher": "PARIVESH 2.0",
+     "series": "advanceSearchData EC register",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "rejected 2,553 - withdrawn 2,622 returned 1,779",
+     "value": "2,553 (rejected), 2,622 (withdrawn), 1,779 (returned)",
+     "period": "2022–2026",
+     "period_end": "2026-12-31",
+     "publisher": "PARIVESH 2.0",
+     "series": "advanceSearchData EC register",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "Only 49% of these EC proposals are fresh new projects",
+     "value": "49%",
+     "period": null,
+     "period_end": null,
+     "publisher": "PARIVESH 2.0",
+     "series": "clearanceCategory / proposalType field",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "22% are re-appraisals",
+     "value": "22%",
+     "period": null,
+     "period_end": null,
+     "publisher": "PARIVESH 2.0",
+     "series": "clearanceCategory / proposalType field",
+     "frequency": "live",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

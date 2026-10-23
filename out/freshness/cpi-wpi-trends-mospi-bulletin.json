@@ -1,0 +1,460 @@
+{
+ "slug": "cpi-wpi-trends-mospi-bulletin",
+ "text_sha1": "0e9a7bdbb98affe7",
+ "chars": 7694,
+ "checked": "2026-10-23T11:04:01",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "Fuel & Power\n 27.41%",
+     "value": "27.41%",
+     "period": "June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "Office of the Economic Adviser, DPIIT",
+     "series": "Wholesale Price Index (Fuel & Power)",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "Headline WPI\n 9.87%",
+     "value": "9.87%",
+     "period": "June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "Office of the Economic Adviser, DPIIT",
+     "series": "Wholesale Price Index (Headline)",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "Manufactured Products\n 7.48%",
+     "value": "7.48%",
+     "period": "June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "Office of the Economic Adviser, DPIIT",
+     "series": "Wholesale Price Index (Manufactured Products)",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "Primary Articles\n 7.00%",
+     "value": "7.00%",
+     "period": "June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "Office of the Economic Adviser, DPIIT",
+     "series": "Wholesale Price Index (Primary Articles)",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "Headline WPI inflation was 9.87% in June 2026 (index 110.2, base 2022-23)",
+     "value": "110.2",
+     "period": "June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "Office of the Economic Adviser, DPIIT",
+     "series": "Wholesale Price Index",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "headline WPI inflation was 11.39% in September 2026 (provisional), up from 9.92% in August. The index rose to 112.5.",
+     "value": "11.39%",
+     "period": "September 2026",
+     "period_end": "2026-09-30",
+     "publisher": "Office of the Economic Adviser, DPIIT",
+     "series": "Wholesale Price Index (Headline)",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "up from 9.92% in August",
+     "value": "9.92%",
+     "period": "August 2026",
+     "period_end": "2026-08-31",
+     "publisher": "Office of the Economic Adviser, DPIIT",
+     "series": "Wholesale Price Index (Headline)",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "The index rose to 112.5.",
+     "value": "112.5",
+     "period": "September 2026",
+     "period_end": "2026-09-30",
+     "publisher": "Office of the Economic Adviser, DPIIT",
+     "series": "Wholesale Price Index",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Fuel & Power was 25.85%, Manufactured Products 9.76% and Primary Articles 8.67%.",
+     "value": "25.85%",
+     "period": "September 2026",
+     "period_end": "2026-09-30",
+     "publisher": "Office of the Economic Adviser, DPIIT",
+     "series": "Wholesale Price Index (Fuel & Power)",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Manufactured Products 9.76%",
+     "value": "9.76%",
+     "period": "September 2026",
+     "period_end": "2026-09-30",
+     "publisher": "Office of the Economic Adviser, DPIIT",
+     "series": "Wholesale Price Index (Manufactured Products)",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Primary Articles 8.67%",
+     "value": "8.67%",
+     "period": "September 2026",
+     "period_end": "2026-09-30",
+     "publisher": "Office of the Economic Adviser, DPIIT",
+     "series": "Wholesale Price Index (Primary Articles)",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "July 2026 was finalised at 9.78%.",
+     "value": "9.78%",
+     "period": "July 2026",
+     "period_end": "2026-07-31",
+     "publisher": "Office of the Economic Adviser, DPIIT",
+     "series": "Wholesale Price Index (Headline)",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "It also returns 8.36% for April 2026, matching that release's revised final estimate.",
+     "value": "8.36%",
+     "period": "April 2026",
+     "period_end": "2026-04-30",
+     "publisher": "Office of the Economic Adviser, DPIIT",
+     "series": "Wholesale Price Index (Headline)",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "WPI's April 2026 reading (167) is a ~3.9% one-month jump versus March's 160.8",
+     "value": "167",
+     "period": "April 2026",
+     "period_end": "2026-04-30",
+     "publisher": "Office of the Economic Adviser, DPIIT",
+     "series": "Wholesale Price Index",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "versus March's 160.8",
+     "value": "160.8",
+     "period": "March 2026",
+     "period_end": "2026-03-31",
+     "publisher": "Office of the Economic Adviser, DPIIT",
+     "series": "Wholesale Price Index",
+     "frequency": "monthly",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "WPI year-on-year inflation, June 2026: headline WPI inflation was 9.87% (index 110.2, base 2022-23), with Fuel & Power at 27.41%.",
+     "value": "9.87% (index 110.2)",
+     "period": "June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "Office of the Economic Adviser, DPIIT",
+     "series": "Wholesale Price Index (WPI) - Headline (base 2022-23)",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "Fuel & Power at 27.41% in June 2026 (index 110.2, base 2022-23).",
+     "value": "27.41%",
+     "period": "June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "Office of the Economic Adviser, DPIIT",
+     "series": "Wholesale Price Index (WPI) - Fuel & Power (base 2022-23)",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "Manufactured Products at 7.00% in June 2026 (base 2022-23 series).",
+     "value": "7.00%",
+     "period": "June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "Office of the Economic Adviser, DPIIT",
+     "series": "Wholesale Price Index (WPI) - Manufactured Products (base 2022-23)",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Primary Articles at 0% in June 2026 (base 2022-23 series).",
+     "value": "0%",
+     "period": "June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "Office of the Economic Adviser, DPIIT",
+     "series": "Wholesale Price Index (WPI) - Primary Articles (base 2022-23)",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Headline WPI inflation was 11.39% in September 2026 (provisional), up from 9.92% in August.",
+     "value": "11.39%",
+     "period": "September 2026 (provisional)",
+     "period_end": "2026-09-30",
+     "publisher": "Office of the Economic Adviser, DPIIT",
+     "series": "Wholesale Price Index (WPI) - Headline (provisional)",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Fuel & Power was 25.85% in September 2026 (provisional).",
+     "value": "25.85%",
+     "period": "September 2026 (provisional)",
+     "period_end": "2026-09-30",
+     "publisher": "Office of the Economic Adviser, DPIIT",
+     "series": "Wholesale Price Index (WPI) - Fuel & Power (provisional)",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Manufactured Products 9.76% in September 2026 (provisional).",
+     "value": "9.76%",
+     "period": "September 2026 (provisional)",
+     "period_end": "2026-09-30",
+     "publisher": "Office of the Economic Adviser, DPIIT",
+     "series": "Wholesale Price Index (WPI) - Manufactured Products (provisional)",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Primary Articles 8.67% in September 2026 (provisional).",
+     "value": "8.67%",
+     "period": "September 2026 (provisional)",
+     "period_end": "2026-09-30",
+     "publisher": "Office of the Economic Adviser, DPIIT",
+     "series": "Wholesale Price Index (WPI) - Primary Articles (provisional)",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Headline WPI inflation was 9.78% in July 2026 (finalised).",
+     "value": "9.78%",
+     "period": "July 2026",
+     "period_end": "2026-07-31",
+     "publisher": "Office of the Economic Adviser, DPIIT",
+     "series": "Wholesale Price Index (WPI) - Headline (final)",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "WPI index rose to 112.5 in September 2026 (provisional).",
+     "value": "112.5 (index)",
+     "period": "September 2026 (provisional)",
+     "period_end": "2026-09-30",
+     "publisher": "Office of the Economic Adviser, DPIIT",
+     "series": "Wholesale Price Index (WPI) - Index Level (base 2022-23)",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "WPI index was 110.2 in June 2026 (base 2022-23).",
+     "value": "110.2 (index)",
+     "period": "June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "Office of the Economic Adviser, DPIIT",
+     "series": "Wholesale Price Index (WPI) - Index Level (base 2022-23)",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "WPI's April 2026 reading (167) is a ~3.9% one-month jump versus March's 160.8.",
+     "value": "167 (index)",
+     "period": "April 2026",
+     "period_end": "2026-04-30",
+     "publisher": "Office of the Economic Adviser, DPIIT",
+     "series": "Wholesale Price Index (WPI) - Index Level (base 2011-12)",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "April 2026 WPI inflation printed 8.36% YoY (revised final estimate).",
+     "value": "8.36%",
+     "period": "April 2026",
+     "period_end": "2026-04-30",
+     "publisher": "Office of the Economic Adviser, DPIIT",
+     "series": "Wholesale Price Index (WPI) - Headline (revised final)",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "CPI year-on-year inflation is only computable from January 2026 onward in the base-year-2024 series.",
+     "value": "≥ 5%",
+     "period": "January 2026 – June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "MoSPI",
+     "series": "Consumer Price Index (CPI) - YoY Inflation (base 2024)",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "WPI retrieved 5 Aug 2026 from the published monthly index files (April 2012 to June 2026).",
+     "value": "April 2012 – June 2026",
+     "period": "April 2012 – June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "Office of the Economic Adviser, DPIIT",
+     "series": "Wholesale Price Index (WPI) - Full History (base 2011-12 and 2022-23)",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Consumer Price Index — state-wise, Jan 2025 – Jun 2026 (panels share one index scale 100–110).",
+     "value": "Jan 2025 – Jun 2026",
+     "period": "January 2025 – June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "MoSPI",
+     "series": "Consumer Price Index (CPI) - State-wise (base 2024)",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Wholesale Price Index — All India, Jan 2025 – Apr 2026 (16 months).",
+     "value": "Jan 2025 – Apr 2026",
+     "period": "January 2025 – April 2026",
+     "period_end": "2026-04-30",
+     "publisher": "Office of the Economic Adviser, DPIIT",
+     "series": "Wholesale Price Index (WPI) - All India (base 2011-12)",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Wholesale Price Index — full history, April 2012 to June 2026 (169 months on 2011-12 base · 39 months on 2022-23 base).",
+     "value": "April 2012 – June 2026 (169 months on 2011-12 base, 39 months on 2022-23 base)",
+     "period": "April 2012 – June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "Office of the Economic Adviser, DPIIT",
+     "series": "Wholesale Price Index (WPI) - Full History (both bases)",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "WPI released May and June 2026 on a new 2022-23 base — June 2026 WPI inflation printed 9.87% YoY.",
+     "value": "9.87% YoY",
+     "period": "June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "Office of the Economic Adviser, DPIIT",
+     "series": "Wholesale Price Index (WPI) - Headline (new base 2022-23)",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "RBI foreign exchange reserves lag roughly a year in this connector — latest row returned was June 2025.",
+     "value": "June 2025",
+     "period": "June 2025",
+     "period_end": "2025-06-30",
+     "publisher": "RBI",
+     "series": "Foreign Exchange Reserves",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "CPI year-on-year inflation computable from January 2026 onward in the base-year-2024 series.",
+     "value": "January 2026 onward",
+     "period": "January 2026 – present",
+     "period_end": null,
+     "publisher": "MoSPI",
+     "series": "Consumer Price Index (CPI) - YoY Inflation (base 2024)",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "WPI rebased from 2011-12 to 2022-23 inside this window (April 2023 to June 2026).",
+     "value": "April 2023 – June 2026",
+     "period": "April 2023 – June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "Office of the Economic Adviser, DPIIT",
+     "series": "Wholesale Price Index (WPI) - Current Official Series (base 2022-23)",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "WPI index level (base 2011-12 = 100) for the 16 months (April 2012 to April 2026).",
+     "value": "100 (base)",
+     "period": "April 2012 – April 2026",
+     "period_end": "2026-04-30",
+     "publisher": "Office of the Economic Adviser, DPIIT",
+     "series": "Wholesale Price Index (WPI) - Index Level (base 2011-12)",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "WPI index level, base 2022-23 = 100 (April 2023 to June 2026).",
+     "value": "100 (base)",
+     "period": "April 2023 – June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "Office of the Economic Adviser, DPIIT",
+     "series": "Wholesale Price Index (WPI) - Index Level (base 2022-23)",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "WPI inflation computed from the index itself, for June 2026: headline 9.87%, Fuel & Power 27.41%, Manufactured Products 7.48%, Primary Articles 7.00%.",
+     "value": "7.48%",
+     "period": "June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "Office of the Economic Adviser, DPIIT",
+     "series": "Wholesale Price Index (WPI) - Manufactured Products (base 2022-23, computed)",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "WPI inflation computed from the index itself, for June 2026: Primary Articles 7.00%.",
+     "value": "7.00%",
+     "period": "June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "Office of the Economic Adviser, DPIIT",
+     "series": "Wholesale Price Index (WPI) - Primary Articles (base 2022-23, computed)",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "WPI inflation computed from the index itself, for June 2026: Fuel & Power 27.41%.",
+     "value": "27.41%",
+     "period": "June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "Office of the Economic Adviser, DPIIT",
+     "series": "Wholesale Price Index (WPI) - Fuel & Power (base 2022-23, computed)",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "WPI inflation computed from the index itself, for June 2026: headline 9.87%.",
+     "value": "9.87%",
+     "period": "June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "Office of the Economic Adviser, DPIIT",
+     "series": "Wholesale Price Index (WPI) - Headline (base 2022-23, computed)",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "WPI index level for April 2026 was 167 (base 2011-12).",
+     "value": "160.8 (index)",
+     "period": "March 2026",
+     "period_end": "2026-03-31",
+     "publisher": "Office of the Economic Adviser, DPIIT",
+     "series": "Wholesale Price Index (WPI) - Index Level (base 2011-12)",
+     "frequency": "monthly",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

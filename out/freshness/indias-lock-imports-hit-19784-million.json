@@ -1,0 +1,650 @@
+{
+ "slug": "indias-lock-imports-hit-19784-million",
+ "text_sha1": "bba07b40f6df9430",
+ "chars": 13540,
+ "checked": "2026-10-23T14:19:30",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "India's Lock Imports Hit $197.84 Million.",
+     "value": "$197.84 Million",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "DGCI&S",
+     "series": "HS 8301 import value",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "China alone = 38.8% of India's $197.84M FY2024-25 lock-import bill; growing at +7.28% y/y.",
+     "value": "38.8%",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "DGCI&S",
+     "series": "HS 8301 import share by country",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "China alone = 38.8% of India's $197.84M FY2024-25 lock-import bill; growing at +7.28% y/y.",
+     "value": "+7.28%",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "DGCI&S",
+     "series": "HS 8301 import growth by country",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "FY2023-24 | 187.01 | 0.0276 | —",
+     "value": "187.01 US$ million",
+     "period": "FY2023-24",
+     "period_end": "2024-03-31",
+     "publisher": "DGCI&S",
+     "series": "HS 8301 import value",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "FY2024-25 | 197.84 | 0.0274 | +5.79% y/y",
+     "value": "197.84 US$ million",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "DGCI&S",
+     "series": "HS 8301 import value",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "FY2024-25 | 197.84 | 0.0274 | +5.79% y/y",
+     "value": "+5.79%",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "DGCI&S",
+     "series": "HS 8301 import growth",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "It's a small line in India's $721.2-billion FY2024-25 import bill",
+     "value": "$721.2 billion",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "DGCI&S",
+     "series": "Total India import bill",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "China | 71.55 | 76.76 | 7.28 | 38.8",
+     "value": "71.55 US$ million",
+     "period": "FY2023-24",
+     "period_end": "2024-03-31",
+     "publisher": "DGCI&S",
+     "series": "HS 8301 import value by country",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "China | 71.55 | 76.76 | 7.28 | 38.8",
+     "value": "76.76 US$ million",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "DGCI&S",
+     "series": "HS 8301 import value by country",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "South Korea | 27.63 | 27.73 | 0.34 | 14.0",
+     "value": "27.63 US$ million",
+     "period": "FY2023-24",
+     "period_end": "2024-03-31",
+     "publisher": "DGCI&S",
+     "series": "HS 8301 import value by country",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "South Korea | 27.63 | 27.73 | 0.34 | 14.0",
+     "value": "27.73 US$ million",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "DGCI&S",
+     "series": "HS 8301 import value by country",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Thailand | 16.26 | 18.25 | 12.26 | 9.2",
+     "value": "16.26 US$ million",
+     "period": "FY2023-24",
+     "period_end": "2024-03-31",
+     "publisher": "DGCI&S",
+     "series": "HS 8301 import value by country",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Thailand | 16.26 | 18.25 | 12.26 | 9.2",
+     "value": "18.25 US$ million",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "DGCI&S",
+     "series": "HS 8301 import value by country",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "United States | 15.84 | 16.35 | 3.23 | 8.3",
+     "value": "15.84 US$ million",
+     "period": "FY2023-24",
+     "period_end": "2024-03-31",
+     "publisher": "DGCI&S",
+     "series": "HS 8301 import value by country",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "United States | 15.84 | 16.35 | 3.23 | 8.3",
+     "value": "16.35 US$ million",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "DGCI&S",
+     "series": "HS 8301 import value by country",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Vietnam | 11.63 | 13.41 | 15.30 | 6.8",
+     "value": "11.63 US$ million",
+     "period": "FY2023-24",
+     "period_end": "2024-03-31",
+     "publisher": "DGCI&S",
+     "series": "HS 8301 import value by country",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Vietnam | 11.63 | 13.41 | 15.30 | 6.8",
+     "value": "13.41 US$ million",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "DGCI&S",
+     "series": "HS 8301 import value by country",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Germany | 8.70 | 8.77 | 0.77 | 4.4",
+     "value": "8.70 US$ million",
+     "period": "FY2023-24",
+     "period_end": "2024-03-31",
+     "publisher": "DGCI&S",
+     "series": "HS 8301 import value by country",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Germany | 8.70 | 8.77 | 0.77 | 4.4",
+     "value": "8.77 US$ million",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "DGCI&S",
+     "series": "HS 8301 import value by country",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Hong Kong | 7.27 | 7.39 | 1.64 | 3.7",
+     "value": "7.27 US$ million",
+     "period": "FY2023-24",
+     "period_end": "2024-03-31",
+     "publisher": "DGCI&S",
+     "series": "HS 8301 import value by country",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Hong Kong | 7.27 | 7.39 | 1.64 | 3.7",
+     "value": "7.39 US$ million",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "DGCI&S",
+     "series": "HS 8301 import value by country",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Japan | 5.65 | 6.26 | 10.89 | 3.2",
+     "value": "5.65 US$ million",
+     "period": "FY2023-24",
+     "period_end": "2024-03-31",
+     "publisher": "DGCI&S",
+     "series": "HS 8301 import value by country",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Japan | 5.65 | 6.26 | 10.89 | 3.2",
+     "value": "6.26 US$ million",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "DGCI&S",
+     "series": "HS 8301 import value by country",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "~2,000 manufacturers, 1990s",
+     "value": "~2,000 manufacturers",
+     "period": "1990s",
+     "period_end": "1999-12-31",
+     "publisher": "DT Next",
+     "series": "Cooperative-society and trade-press reporting",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "~60 active manufacturers, 2019",
+     "value": "~60 active manufacturers",
+     "period": "2019",
+     "period_end": "2019-12-31",
+     "publisher": "DT Next",
+     "series": "Cooperative-society and trade-press reporting",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "3,125 manufacturers cited at registration",
+     "value": "3,125 manufacturers",
+     "period": "2019",
+     "period_end": "2019-12-31",
+     "publisher": "Geographical Indications Registry",
+     "series": "GI registration filing",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "India imports nearly $200 million of locks and padlocks a year",
+     "value": "$200 million",
+     "period": null,
+     "period_end": null,
+     "publisher": null,
+     "series": null,
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "India's Lock Imports Hit $197.84 Million",
+     "value": "$197.84 million",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "DGCI&S",
+     "series": "EIDB Commodity-wise Import report, HS 8301",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "China alone = 38.8% of India's $197.84M FY2024-25 lock-import bill; growing at +7.28% y/y.",
+     "value": "38.8%",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "DGCI&S",
+     "series": "EIDB Commodity x Country-wise Import report, HS 8301",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "China alone = 38.8% of India's $197.84M FY2024-25 lock-import bill; growing at +7.28% y/y.",
+     "value": "+7.28% y/y",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "DGCI&S",
+     "series": "EIDB Commodity x Country-wise Import report, HS 8301",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "China $76.76M",
+     "value": "$76.76 million",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "DGCI&S",
+     "series": "EIDB Commodity x Country-wise Import report, HS 8301",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "South Korea $27.73M",
+     "value": "$27.73 million",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "DGCI&S",
+     "series": "EIDB Commodity x Country-wise Import report, HS 8301",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Thailand $18.25M",
+     "value": "$18.25 million",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "DGCI&S",
+     "series": "EIDB Commodity x Country-wise Import report, HS 8301",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "United States $16.35M",
+     "value": "$16.35 million",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "DGCI&S",
+     "series": "EIDB Commodity x Country-wise Import report, HS 8301",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Vietnam $13.41M",
+     "value": "$13.41 million",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "DGCI&S",
+     "series": "EIDB Commodity x Country-wise Import report, HS 8301",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Germany $8.77M",
+     "value": "$8.77 million",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "DGCI&S",
+     "series": "EIDB Commodity x Country-wise Import report, HS 8301",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Hong Kong $7.39M",
+     "value": "$7.39 million",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "DGCI&S",
+     "series": "EIDB Commodity x Country-wise Import report, HS 8301",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Japan $6.26M",
+     "value": "$6.26 million",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "DGCI&S",
+     "series": "EIDB Commodity x Country-wise Import report, HS 8301",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "FY2023-24 import value, US$ million | 187.01",
+     "value": "$187.01 million",
+     "period": "FY2023-24",
+     "period_end": "2024-03-31",
+     "publisher": "DGCI&S",
+     "series": "EIDB Commodity-wise Import report, HS 8301",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "FY2024-25 import value, US$ million | 197.84",
+     "value": "$197.84 million",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "DGCI&S",
+     "series": "EIDB Commodity-wise Import report, HS 8301",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "India's $721.2-billion FY2024-25 import bill",
+     "value": "$721.2 billion",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": null,
+     "series": null,
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "China | 71.55 | 76.76",
+     "value": "$71.55 million",
+     "period": "FY2023-24",
+     "period_end": "2024-03-31",
+     "publisher": "DGCI&S",
+     "series": "EIDB Commodity x Country-wise Import report, HS 8301",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "China | 71.55 | 76.76",
+     "value": "$76.76 million",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "DGCI&S",
+     "series": "EIDB Commodity x Country-wise Import report, HS 8301",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "South Korea | 27.63 | 27.73",
+     "value": "$27.63 million",
+     "period": "FY2023-24",
+     "period_end": "2024-03-31",
+     "publisher": "DGCI&S",
+     "series": "EIDB Commodity x Country-wise Import report, HS 8301",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "South Korea | 27.63 | 27.73",
+     "value": "$27.73 million",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "DGCI&S",
+     "series": "EIDB Commodity x Country-wise Import report, HS 8301",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Thailand | 16.26 | 18.25",
+     "value": "$16.26 million",
+     "period": "FY2023-24",
+     "period_end": "2024-03-31",
+     "publisher": "DGCI&S",
+     "series": "EIDB Commodity x Country-wise Import report, HS 8301",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Thailand | 16.26 | 18.25",
+     "value": "$18.25 million",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "DGCI&S",
+     "series": "EIDB Commodity x Country-wise Import report, HS 8301",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "United States | 15.84 | 16.35",
+     "value": "$15.84 million",
+     "period": "FY2023-24",
+     "period_end": "2024-03-31",
+     "publisher": "DGCI&S",
+     "series": "EIDB Commodity x Country-wise Import report, HS 8301",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "United States | 15.84 | 16.35",
+     "value": "$16.35 million",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "DGCI&S",
+     "series": "EIDB Commodity x Country-wise Import report, HS 8301",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Vietnam | 11.63 | 13.41",
+     "value": "$11.63 million",
+     "period": "FY2023-24",
+     "period_end": "2024-03-31",
+     "publisher": "DGCI&S",
+     "series": "EIDB Commodity x Country-wise Import report, HS 8301",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Vietnam | 11.63 | 13.41",
+     "value": "$13.41 million",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "DGCI&S",
+     "series": "EIDB Commodity x Country-wise Import report, HS 8301",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Germany | 8.70 | 8.77",
+     "value": "$8.70 million",
+     "period": "FY2023-24",
+     "period_end": "2024-03-31",
+     "publisher": "DGCI&S",
+     "series": "EIDB Commodity x Country-wise Import report, HS 8301",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Germany | 8.70 | 8.77",
+     "value": "$8.77 million",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "DGCI&S",
+     "series": "EIDB Commodity x Country-wise Import report, HS 8301",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Hong Kong | 7.27 | 7.39",
+     "value": "$7.27 million",
+     "period": "FY2023-24",
+     "period_end": "2024-03-31",
+     "publisher": "DGCI&S",
+     "series": "EIDB Commodity x Country-wise Import report, HS 8301",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Hong Kong | 7.27 | 7.39",
+     "value": "$7.39 million",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "DGCI&S",
+     "series": "EIDB Commodity x Country-wise Import report, HS 8301",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Japan | 5.65 | 6.26",
+     "value": "$5.65 million",
+     "period": "FY2023-24",
+     "period_end": "2024-03-31",
+     "publisher": "DGCI&S",
+     "series": "EIDB Commodity x Country-wise Import report, HS 8301",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Japan | 5.65 | 6.26",
+     "value": "$6.26 million",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "DGCI&S",
+     "series": "EIDB Commodity x Country-wise Import report, HS 8301",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Cooperative-society and trade-press reporting (DT Next, 2020) | ~2,000 manufacturers, 1990s | ~60 active manufacturers, 2019",
+     "value": "~2,000 manufacturers (1990s)",
+     "period": "1990s",
+     "period_end": "1999-12-31",
+     "publisher": "DT Next",
+     "series": "Trade-press reporting",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Cooperative-society and trade-press reporting (DT Next, 2020) | ~2,000 manufacturers, 1990s | ~60 active manufacturers, 2019",
+     "value": "~60 active manufacturers (2019)",
+     "period": "2019",
+     "period_end": "2019-12-31",
+     "publisher": "DT Next",
+     "series": "Trade-press reporting",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "GI registration filing, 2019 | ... | 3,125 manufacturers cited at registration",
+     "value": "3,125 manufacturers",
+     "period": "2019",
+     "period_end": "2019-08-00",
+     "publisher": "Geographical Indications Registry",
+     "series": "GI registration filing",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Cluster-directory count (undated, more recent) | ... | ~43 lock-assembling units",
+     "value": "~43 lock-assembling units",
+     "period": null,
+     "period_end": null,
+     "publisher": null,
+     "series": "Cluster-directory count",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "workshops that remain report a hard production ceiling of roughly two hand-forged locks per artisan per day",
+     "value": "2 locks per artisan per day",
+     "period": null,
+     "period_end": null,
+     "publisher": null,
+     "series": null,
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "workforce reporting is consistent about describing as aged 50-60",
+     "value": "50-60 years",
+     "period": null,
+     "period_end": null,
+     "publisher": null,
+     "series": null,
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

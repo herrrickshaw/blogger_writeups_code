@@ -1,0 +1,559 @@
+{
+ "slug": "greenhouse-emissions-reduction-and-cbam",
+ "text_sha1": "464809fc73f86c1b",
+ "chars": 19643,
+ "checked": "2026-10-23T11:50:40",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "HS72 (Iron & steel) = USD 10,316.6 million",
+     "value": "USD 10,316.6 million",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "sector_and_policy_recommendations dataset (cross-checked against NITI Aayog's Trade Watch)",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "HS73 (Iron/steel articles) = USD 10,409.0 million",
+     "value": "USD 10,409.0 million",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "sector_and_policy_recommendations dataset (cross-checked against NITI Aayog's Trade Watch)",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Combined: USD 20,725.6 million, roughly USD 20.7 billion",
+     "value": "USD 20,725.6 million",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "sector_and_policy_recommendations dataset (cross-checked against NITI Aayog's Trade Watch)",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "EU-bound, strictly CBAM-covered slice is smaller (~USD 8.2 billion per an ICWA estimate)",
+     "value": "USD 8.2 billion",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "ICWA",
+     "series": "CBAM covered iron and steel export exposure",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Specialty Steel Production-Linked Incentive scheme — a ₹6,322 crore government outlay",
+     "value": "₹6,322 crore",
+     "period": "as on 22 October 2026",
+     "period_end": "2026-10-22",
+     "publisher": "Ministry of Steel",
+     "series": "Specialty Steel Production-Linked Incentive scheme",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "drawn ₹44,106 crore in private capital investment from scheme applicants",
+     "value": "₹44,106 crore",
+     "period": "as on 22 October 2026",
+     "period_end": "2026-10-22",
+     "publisher": "Ministry of Steel",
+     "series": "Specialty Steel Production-Linked Incentive scheme",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "a further ₹11,887 crore in committed private investment",
+     "value": "₹11,887 crore",
+     "period": "as on 22 October 2026",
+     "period_end": "2026-10-22",
+     "publisher": "Ministry of Steel",
+     "series": "Specialty Steel Production-Linked Incentive scheme",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "India-EU bilateral trade in goods in 2024-25 stood at ₹11.5 lakh crore (USD 136.54 billion)",
+     "value": "₹11.5 lakh crore",
+     "period": "2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "PIB / ministry",
+     "series": "India-EU bilateral trade in goods",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "exports of ₹6.4 lakh crore (USD 75.85 billion)",
+     "value": "₹6.4 lakh crore",
+     "period": "2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "PIB / ministry",
+     "series": "India-EU bilateral trade in goods",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "imports of ₹5.1 lakh crore (USD 60.68 billion)",
+     "value": "₹5.1 lakh crore",
+     "period": "2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "PIB / ministry",
+     "series": "India-EU bilateral trade in goods",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "services trade reaching USD 83.10 billion in 2024",
+     "value": "USD 83.10 billion",
+     "period": "2024",
+     "period_end": "2024-12-31",
+     "publisher": "PIB / ministry",
+     "series": "India-EU services trade",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Over 99% of Indian exports by trade value gain preferential entry into the EU under the deal",
+     "value": "99%",
+     "period": "as on 27 January 2026",
+     "period_end": "2026-01-27",
+     "publisher": "PIB / ministry",
+     "series": "India-EU Free Trade Agreement",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "USD 75 billion of exports 'poised for take-off,' including USD 33 billion in labour-intensive sectors",
+     "value": "USD 75 billion",
+     "period": "as on 27 January 2026",
+     "period_end": "2026-01-27",
+     "publisher": "PIB / ministry",
+     "series": "India-EU Free Trade Agreement",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "including USD 33 billion in labour-intensive sectors",
+     "value": "USD 33 billion",
+     "period": "as on 27 January 2026",
+     "period_end": "2026-01-27",
+     "publisher": "PIB / ministry",
+     "series": "India-EU Free Trade Agreement",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "tariffs of up to 10% cut to zero on entry into force",
+     "value": "10%",
+     "period": "as on 27 January 2026",
+     "period_end": "2026-01-27",
+     "publisher": "PIB / ministry",
+     "series": "India-EU Free Trade Agreement",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "brought 490 entities across eight sectors under compliance obligations",
+     "value": "490 entities",
+     "period": "January 2026",
+     "period_end": "2026-01-31",
+     "publisher": "MoEFCC",
+     "series": "Carbon Credit Trading Scheme (CCTS)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "a binding USD 100bn / 1 million jobs / 15-year investment commitment",
+     "value": "USD 100bn",
+     "period": "as on 22 October 2026",
+     "period_end": "2026-10-22",
+     "publisher": "EFTA",
+     "series": "India-EFTA Trade and Economic Partnership Agreement (TEPA)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "a binding USD 100bn / 1 million jobs / 15-year investment commitment",
+     "value": "1 million jobs",
+     "period": "as on 22 October 2026",
+     "period_end": "2026-10-22",
+     "publisher": "EFTA",
+     "series": "India-EFTA Trade and Economic Partnership Agreement (TEPA)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "a binding USD 100bn / 1 million jobs / 15-year investment commitment",
+     "value": "15-year",
+     "period": "as on 22 October 2026",
+     "period_end": "2026-10-22",
+     "publisher": "EFTA",
+     "series": "India-EFTA Trade and Economic Partnership Agreement (TEPA)",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "India's CBAM Iron & Steel Export Exposure (FY2025-26) $10.32B HS72 Iron & steel $10.41B HS73 Iron/steel articles $20.7B HS72+HS73 Worldwide total $8.2B EU-bound CBAM-covered (ICWA est.)",
+     "value": "$10.32B (HS72 Iron & steel), $10.41B (HS73 Iron/steel articles), $20.7B (HS72+HS73 Worldwide total), $8.2B (EU-bound CBAM-covered)",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Cross-sector trade-policy research repository (cross-checked with NITI Aayog's Trade Watch)",
+     "series": "HS72/HS73 export exposure data for CBAM-covered sectors",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "India-EU bilateral trade in goods in 2024-25 stood at ₹11.5 lakh crore (USD 136.54 billion) — exports of ₹6.4 lakh crore (USD 75.85 billion), imports of ₹5.1 lakh crore (USD 60.68 billion)",
+     "value": "₹11.5 lakh crore (USD 136.54 billion) total, ₹6.4 lakh crore (USD 75.85 billion) exports, ₹5.1 lakh crore (USD 60.68 billion) imports",
+     "period": "2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "Ministry of Commerce & Industry (PIB Release ID 2219065)",
+     "series": "India-EU bilateral trade in goods",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "services trade reaching USD 83.10 billion in 2024",
+     "value": "USD 83.10 billion",
+     "period": "2024",
+     "period_end": "2024-12-31",
+     "publisher": "Ministry of Commerce & Industry (PIB Release ID 2219065)",
+     "series": "India-EU services trade",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "USD 75 billion of exports 'poised for take-off,' including USD 33 billion in labour-intensive sectors",
+     "value": "USD 75 billion (total exports poised for take-off), USD 33 billion (labour-intensive sectors)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Ministry of Commerce & Industry (PIB Release ID 2219065)",
+     "series": "India-EU FTA export projections",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Specialty Steel Production-Linked Incentive scheme — a ₹6,322 crore government outlay that has drawn ₹44,106 crore in private capital investment... a further ₹11,887 crore in committed private investment",
+     "value": "₹6,322 crore (government outlay), ₹44,106 crore (private capital investment), ₹11,887 crore (committed private investment)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Cross-sector trade-policy research repository",
+     "series": "Specialty Steel PLI scheme figures",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India-EFTA TEPA carries a binding USD 100bn / 1 million jobs / 15-year investment commitment",
+     "value": "USD 100 billion (investment commitment), 1 million jobs, 15-year duration",
+     "period": null,
+     "period_end": null,
+     "publisher": "Investment-promotion research repository",
+     "series": "India-EFTA TEPA investment commitment",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "490 entities across eight sectors under compliance obligations by January 2026",
+     "value": "490 entities",
+     "period": "January 2026",
+     "period_end": "2026-01-31",
+     "publisher": "India's Carbon Credit Trading Scheme (CCTS)",
+     "series": "CCTS entities under compliance",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "MoEFCC issued a revised draft GEI-target notification for 255 iron and steel units on 26 June 2026",
+     "value": "255 units",
+     "period": "26 June 2026",
+     "period_end": "2026-06-26",
+     "publisher": "MoEFCC (Ministry of Environment, Forest and Climate Change)",
+     "series": "GEI-target notification for Iron & Steel",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "CBAM certificates go on sale from 1 February 2027, and the first annual declaration, covering 2026 imports, is due by 30 September 2027",
+     "value": "1 February 2027 (CBAM certificates sale start), 30 September 2027 (first annual declaration deadline)",
+     "period": "2026 imports",
+     "period_end": "2027-09-30",
+     "publisher": "EU CBAM Guide, Andersen",
+     "series": "CBAM compliance timeline",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "CBAM's initial scope covers six sectors: iron/steel, aluminium, cement, fertiliser, hydrogen, and electricity",
+     "value": "6 sectors (iron/steel, aluminium, cement, fertiliser, hydrogen, electricity)",
+     "period": null,
+     "period_end": null,
+     "publisher": "EU CBAM Regulation (EU) 2025/2083",
+     "series": "CBAM initial scope",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India has signed trade deals with Mauritius, UAE, UK, EFTA, Oman and Australia, and announced a deal with New Zealand; in 2025 alone it signed with Oman and the UK and announced conclusion with New Zealand",
+     "value": "6 deals signed (Mauritius, UAE, UK, EFTA, Oman, Australia), 1 announced (New Zealand), 2 signed in 2025 (Oman, UK), 1 announced in 2025 (New Zealand)",
+     "period": "2014–2025",
+     "period_end": "2025-12-31",
+     "publisher": "Ministry of Commerce & Industry (PIB Release ID 2219065)",
+     "series": "India's trade agreements timeline",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "India-EU trade deal, along with India's FTA with the UK and the EFTA effectively opens up the entire European market for Indian businesses",
+     "value": "3 FTAs (India-EU, India-UK, India-EFTA)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Ministry of Commerce & Industry (PIB Release ID 2219065)",
+     "series": "India's FTAs with European partners",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India's CCTS had brought 490 entities across eight sectors under compliance obligations — Aluminium, Cement, Chlor-Alkali and Pulp & Paper from the October 2025 rollout; Petroleum Refineries, Petrochemicals, Textiles and Secondary Aluminium from January 2026",
+     "value": "8 sectors under compliance (Aluminium, Cement, Chlor-Alkali, Pulp & Paper, Petroleum Refineries, Petrochemicals, Textiles, Secondary Aluminium)",
+     "period": "October 2025 (4 sectors), January 2026 (4 sectors)",
+     "period_end": [
+      "2025-10-31",
+      "2026-01-31"
+     ],
+     "publisher": "India's Carbon Credit Trading Scheme (CCTS)",
+     "series": "CCTS sector rollout timeline",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The India-EU FTA is the government's live, if general-framework, response to CBAM exposure",
+     "value": "India-EU FTA (general-framework response)",
+     "period": "Concluded 27 January 2026",
+     "period_end": "2026-01-27",
+     "publisher": "Ministry of Commerce & Industry (PIB Release ID 2219065)",
+     "series": "India-EU FTA CBAM provisions",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India-EFTA TEPA — signed March 2024, in force October 2025",
+     "value": "Signed: March 2024, In force: October 2025",
+     "period": [
+      "March 2024",
+      "October 2025"
+     ],
+     "period_end": [
+      "2024-03-31",
+      "2025-10-31"
+     ],
+     "publisher": "Investment-promotion research repository",
+     "series": "India-EFTA TEPA timeline",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "EFTA's four member states are Iceland, Liechtenstein, Norway and Switzerland",
+     "value": "4 member states (Iceland, Liechtenstein, Norway, Switzerland)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Investment-promotion research repository",
+     "series": "EFTA member states",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India's EU-facing carbon exposure concentrates in the two sectors: Fertiliser and Iron & Steel",
+     "value": "2 sectors (Fertiliser, Iron & Steel)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Cross-sector trade-policy research repository",
+     "series": "CBAM exposure concentration",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "CBAM's definitive regime has applied since 1 January 2026",
+     "value": "1 January 2026",
+     "period": "1 January 2026",
+     "period_end": "2026-01-01",
+     "publisher": "EU CBAM Regulation (EU) 2025/2083",
+     "series": "CBAM regime start date",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "CBAM certificates go on sale from 1 February 2027, and the first annual declaration, covering 2026 imports, is due by 30 September 2027",
+     "value": "1 February 2027 (CBAM certificates sale), 30 September 2027 (first annual declaration)",
+     "period": "2026 imports",
+     "period_end": "2027-09-30",
+     "publisher": "EU CBAM Guide, Andersen",
+     "series": "CBAM compliance deadlines",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "CBAM's initial scope covers six sectors: iron/steel, aluminium, cement, fertiliser, hydrogen, and electricity",
+     "value": "6 sectors (iron/steel, aluminium, cement, fertiliser, hydrogen, electricity)",
+     "period": null,
+     "period_end": null,
+     "publisher": "EU CBAM Regulation (EU) 2025/2083",
+     "series": "CBAM initial scope",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India's CCTS had brought 490 entities across eight sectors under compliance obligations by January 2026",
+     "value": "490 entities",
+     "period": "January 2026",
+     "period_end": "2026-01-31",
+     "publisher": "India's Carbon Credit Trading Scheme (CCTS)",
+     "series": "CCTS entities under compliance",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India-EU FTA's CBAM provisions include a forward-looking most-favoured nation assurance, technical cooperation, and financial assistance",
+     "value": "General framework language (no quantified figures)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Ministry of Commerce & Industry (PIB Release ID 2219065)",
+     "series": "India-EU FTA CBAM provisions",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The India-EFTA TEPA's binding $100bn/15-year investment commitment covers offshore wind, hydrogen, autonomous shipping, aquaculture, and data centres",
+     "value": "USD 100 billion, 15-year duration, 5 sectors (offshore wind, hydrogen, autonomous shipping, aquaculture, data centres)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Investment-promotion research repository",
+     "series": "India-EFTA TEPA investment commitment",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Yara — a Norwegian nitrogen fertiliser producer — is flagged under the India-EFTA TEPA's binding $100bn/15-year investment commitment",
+     "value": "Yara (Norwegian nitrogen fertiliser producer)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Investment-promotion research repository",
+     "series": "Yara eligibility under India-EFTA TEPA",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India's India-EU FTA and India-EFTA TEPA effectively open up the entire European market for Indian businesses",
+     "value": "Entire European market access (India-EU FTA + India-EFTA TEPA)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Ministry of Commerce & Industry (PIB Release ID 2219065)",
+     "series": "India-European market access",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India's CBAM-covered iron & steel export exposure: worldwide vs. EU-bound — $20.7 billion (worldwide), ~$8.2 billion (EU-bound)",
+     "value": "$20.7 billion (worldwide), ~$8.2 billion (EU-bound)",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Cross-sector trade-policy research repository (ICWA est.)",
+     "series": "CBAM-covered iron & steel export exposure",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "India's CCTS sectors without notified GEI targets: Fertiliser and Iron & Steel",
+     "value": "2 sectors (Fertiliser, Iron & Steel)",
+     "period": null,
+     "period_end": null,
+     "publisher": "MoEFCC (Ministry of Environment, Forest and Climate Change)",
+     "series": "CCTS sectors without notified GEI targets",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India's India-EU FTA covers goods, services, trade remedies, rules of origin, customs, SMEs, and digital trade",
+     "value": "7 categories (goods, services, trade remedies, rules of origin, customs, SMEs, digital trade)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Ministry of Commerce & Industry (PIB Release ID 2219065)",
+     "series": "India-EU FTA coverage",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India-EU FTA: autos get calibrated quota-based liberalisation; agriculture sees safeguarded categories and new market access",
+     "value": "Autos: quota-based liberalisation; Agriculture: safeguarded (dairy, cereals, poultry, soymeal, select fruits/vegetables), new market access (tea, coffee, spices, fresh produce, processed foods)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Ministry of Commerce & Industry (PIB Release ID 2219065)",
+     "series": "India-EU FTA sectoral provisions",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India-EU FTA: services — India gets access to 144 EU subsectors, EU gets access to 102 Indian subsectors",
+     "value": "144 EU subsectors (India), 102 Indian subsectors (EU)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Ministry of Commerce & Industry (PIB Release ID 2219065)",
+     "series": "India-EU FTA services access",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India-EU FTA: mobility framework for Intra-Corporate Transferees, Business Visitors, Contractual Service Suppliers (37 sectors), Independent Professionals (17 sectors)",
+     "value": "Intra-Corporate Transferees, Business Visitors, Contractual Service Suppliers (37 sectors), Independent Professionals (17 sectors)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Ministry of Commerce & Industry (PIB Release ID 2219065)",
+     "series": "India-EU FTA mobility framework",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "CBAM's initial scope covers six sectors: iron/steel, aluminium, cement, fertiliser, hydrogen, and electricity",
+     "value": "6 sectors (iron/steel, aluminium, cement, fertiliser, hydrogen, electricity)",
+     "period": null,
+     "period_end": null,
+     "publisher": "EU CBAM Regulation (EU) 2025/2083",
+     "series": "CBAM initial scope",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "CBAM certificates go on sale from 1 February 2027, and the first annual declaration, covering 2026 imports, is due by 30 September 2027",
+     "value": "1 February 2027 (CBAM certificates sale), 30 September 2027 (first annual declaration)",
+     "period": "2026 imports",
+     "period_end": "2027-09-30",
+     "publisher": "EU CBAM Guide, Andersen",
+     "series": "CBAM compliance deadlines",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "CBAM's definitive regime has applied since 1 January 2026",
+     "value": "1 January 2026",
+     "period": "1 January 2026",
+     "period_end": "2026-01-01",
+     "publisher": "EU CBAM Regulation (EU) 2025/2083",
+     "series": "CBAM regime start date",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

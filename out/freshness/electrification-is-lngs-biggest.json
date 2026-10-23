@@ -1,0 +1,370 @@
+{
+ "slug": "electrification-is-lngs-biggest",
+ "text_sha1": "bdcc99d352dab0dc",
+ "chars": 18521,
+ "checked": "2026-10-23T11:13:54",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "0.35 t CO2e per tonne of LNG, global average",
+     "value": "0.35 t CO2e per tonne",
+     "period": "global average",
+     "period_end": null,
+     "publisher": "IISD / International Institute for Sustainable Development",
+     "series": "International Institute for Sustainable Development analysis",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "0.15 t CO2e per tonne, LNG Canada Phase 1's announced target",
+     "value": "0.15 t CO2e per tonne",
+     "period": "Phase 1 announced target",
+     "period_end": null,
+     "publisher": "LNG Canada",
+     "series": "LNG Canada Phase 1 design target",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "~95% electric motor efficiency vs. 25–42% for gas turbines",
+     "value": "~95%",
+     "period": "current",
+     "period_end": null,
+     "publisher": "Siemens Energy",
+     "series": "Siemens Energy conference paper",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "13.4% share of new liquefaction trains ordered electric-motor-driven in 2025",
+     "value": "13.4%",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "Global Market Insights",
+     "series": "LNG Liquefaction Train Market report",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Global LNG supply averages just under 20 grammes of CO2-equivalent per megajoule delivered",
+     "value": "20 grammes of CO2e per megajoule",
+     "period": "global average",
+     "period_end": null,
+     "publisher": "IEA",
+     "series": "emissions from LNG supply report",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "roughly 350 million tonnes of CO2-equivalent a year worldwide",
+     "value": "350 million tonnes of CO2e a year",
+     "period": "annual",
+     "period_end": null,
+     "publisher": "IEA",
+     "series": "emissions from LNG supply report",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "about 70% of it CO2 and the rest unburnt methane",
+     "value": "70%",
+     "period": "current",
+     "period_end": null,
+     "publisher": "IEA",
+     "series": "emissions from LNG supply report",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "taking Kitimat from 14 to 28 million tonnes a year",
+     "value": "14 to 28 million tonnes a year",
+     "period": "Phase 2",
+     "period_end": null,
+     "publisher": "LNG Canada",
+     "series": "Phase 2 project disclosure",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "at an announced cost of about C$33 billion",
+     "value": "C$33 billion",
+     "period": "Phase 2",
+     "period_end": null,
+     "publisher": "LNG Canada",
+     "series": "Phase 2 project disclosure",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "British Columbia's own regulatory benchmark of 0.16 tonnes CO2e/tonne for new LNG facilities",
+     "value": "0.16 tonnes CO2e/tonne",
+     "period": "regulatory benchmark",
+     "period_end": null,
+     "publisher": "British Columbia government",
+     "series": "BC regulatory benchmark for new LNG facilities",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Turbine exhaust carries roughly 60% of the fuel's lower heating value at 425–550°C",
+     "value": "60%",
+     "period": "current",
+     "period_end": null,
+     "publisher": "Global Power and Propulsion Society",
+     "series": "GPPS viewpoint on decarbonizing gas-turbine-driven LNG plants",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Turbine exhaust carries roughly 60% of the fuel's lower heating value at 425–550°C",
+     "value": "425–550°C",
+     "period": "current",
+     "period_end": null,
+     "publisher": "Global Power and Propulsion Society",
+     "series": "GPPS viewpoint on decarbonizing gas-turbine-driven LNG plants",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "a single-shaft industrial gas turbine runs at roughly 25–30% efficiency",
+     "value": "25–30%",
+     "period": "2023",
+     "period_end": "2023-12-31",
+     "publisher": "Siemens Energy",
+     "series": "Gastech, Hydrogen & Climatetech conference paper",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "an aeroderivative turbine at 38–42%",
+     "value": "38–42%",
+     "period": "2023",
+     "period_end": "2023-12-31",
+     "publisher": "Siemens Energy",
+     "series": "Gastech, Hydrogen & Climatetech conference paper",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "a full electric-drive design still comes out to about 40% overall drivetrain efficiency",
+     "value": "~40%",
+     "period": "2023",
+     "period_end": "2023-12-31",
+     "publisher": "Siemens Energy",
+     "series": "Gastech, Hydrogen & Climatetech conference paper",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "against 34–36% for the mechanical-drive design it replaces",
+     "value": "34–36%",
+     "period": "2023",
+     "period_end": "2023-12-31",
+     "publisher": "Siemens Energy",
+     "series": "Gastech, Hydrogen & Climatetech conference paper",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "projected to grow at roughly 15.4% a year through 2035",
+     "value": "15.4%",
+     "period": "2025-2035",
+     "period_end": "2035-12-31",
+     "publisher": "Global Market Insights",
+     "series": "LNG Liquefaction Train Market report",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "with 675 MW of installed electric power built in from the start",
+     "value": "675 MW",
+     "period": "current",
+     "period_end": null,
+     "publisher": "Freeport LNG",
+     "series": "plant technical configuration",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "designed to remove up to 1.2 million tonnes of CO2 a year from gas streams feeding Gulf Coast markets",
+     "value": "1.2 million tonnes of CO2 a year",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "ExxonMobil",
+     "series": "Gulf Coast CCS project targets",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "Global LNG runs at roughly 0.35 tonnes of CO2-equivalent per tonne produced on average",
+     "value": "0.35 tonnes CO2e per tonne",
+     "period": null,
+     "period_end": null,
+     "publisher": "International Energy Agency (IEA)",
+     "series": "Emissions from LNG supply",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Global LNG supply averages just under 20 grammes of CO2-equivalent per megajoule delivered",
+     "value": "20 grammes CO2e per megajoule",
+     "period": null,
+     "period_end": null,
+     "publisher": "International Energy Agency (IEA)",
+     "series": "Emissions from LNG supply",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "works out to roughly 350 million tonnes of CO2-equivalent a year worldwide, about 70% of it CO2 and the rest unburnt methane",
+     "value": "350 million tonnes CO2e per year",
+     "period": null,
+     "period_end": null,
+     "publisher": "International Energy Agency (IEA)",
+     "series": "Emissions from LNG supply",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "A separate estimate puts the average across several international facilities at 0.35 tonnes of CO2-equivalent per tonne of LNG produced",
+     "value": "0.35 tonnes CO2e per tonne",
+     "period": null,
+     "period_end": null,
+     "publisher": "International Institute for Sustainable Development (IISD)",
+     "series": "Analysis of Canadian LNG's climate impact",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "British Columbia's own limit for new LNG facilities: 0.16 tonnes CO2e/tonne",
+     "value": "0.16 tonnes CO2e per tonne",
+     "period": null,
+     "period_end": null,
+     "publisher": "British Columbia regulatory benchmark",
+     "series": "Regulatory benchmark for new LNG facilities",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "LNG Canada Phase 1's greenhouse-gas intensity at about 0.15 tonnes of CO2-equivalent per tonne of LNG",
+     "value": "0.15 tonnes CO2e per tonne",
+     "period": null,
+     "period_end": null,
+     "publisher": "LNG Canada",
+     "series": "Project's own announced target",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "~95% electric motor efficiency vs. 25–42% for gas turbines",
+     "value": "95% (electric motor), 25–42% (gas turbines)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Siemens Energy (2023)",
+     "series": "Gastech, Hydrogen & Climatetech conference paper",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "13.4% share of new liquefaction trains ordered electric-motor-driven in 2025",
+     "value": "13.4%",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "Global Market Insights",
+     "series": "LNG Liquefaction Train Market report",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "projected to grow at roughly 15.4% a year through 2035",
+     "value": "15.4% CAGR",
+     "period": "2025-2035",
+     "period_end": "2035-12-31",
+     "publisher": "Global Market Insights",
+     "series": "LNG Liquefaction Train Market report",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "two more trains, taking Kitimat from 14 to 28 million tonnes a year",
+     "value": "14 million tonnes (current), 28 million tonnes (proposed)",
+     "period": null,
+     "period_end": null,
+     "publisher": "LNG Canada",
+     "series": "LNG Canada Phase 2 announcement",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "announced cost of about C$33 billion",
+     "value": "C$33 billion",
+     "period": null,
+     "period_end": null,
+     "publisher": "LNG Canada",
+     "series": "LNG Canada Phase 2 cost estimate",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "ExxonMobil has CCS projects coming online in 2026 designed to remove up to 1.2 million tonnes of CO2 a year",
+     "value": "1.2 million tonnes CO2 per year",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "ExxonMobil",
+     "series": "Company disclosures and 2025–2026 industry trade coverage",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "turbine exhaust carries roughly 60% of the fuel's lower heating value at 425–550°C",
+     "value": "60% of fuel's lower heating value",
+     "period": null,
+     "period_end": null,
+     "publisher": "GPPS (Global Power and Propulsion Society)",
+     "series": "Viewpoint on decarbonization design options",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Freeport LNG in Texas is reportedly the world's largest all-electric LNG plant, with 675 MW of installed electric power",
+     "value": "675 MW",
+     "period": null,
+     "period_end": null,
+     "publisher": "Oil & Gas Journal, LNG Industry, GE Vernova",
+     "series": "Industry trade coverage",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Woodfibre LNG ... is reported to cut its emissions profile roughly 14-fold versus a conventional gas-turbine design",
+     "value": "14-fold reduction",
+     "period": null,
+     "period_end": null,
+     "publisher": "Oil & Gas Journal, LNG Industry, GE Vernova",
+     "series": "Industry trade coverage",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "ExxonMobil has CCS projects coming online in 2026 designed to remove up to 1.2 million tonnes of CO2 a year from gas streams",
+     "value": "1.2 million tonnes CO2 per year",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "ExxonMobil",
+     "series": "Company disclosures",
+     "frequency": "annual",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

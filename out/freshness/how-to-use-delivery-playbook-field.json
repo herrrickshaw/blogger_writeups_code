@@ -1,0 +1,69 @@
+{
+ "slug": "how-to-use-delivery-playbook-field",
+ "text_sha1": "7aad3a3bb6557cc2",
+ "chars": 10148,
+ "checked": "2026-10-23T12:09:52",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": []
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "1 self-contained HTML file (62.5 KB, no build step) 14 top-level sections 6 named process failure modes, each with a fix 4 quadrants in the volatility-vs-cost-of-failure fit-finder",
+     "value": "62.5 KB",
+     "period": null,
+     "period_end": null,
+     "publisher": "author (self-reported)",
+     "series": "delivery-playbook file size",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The committed index.html has 14 sections and 28 sub-headings",
+     "value": "14 top-level sections, 28 sub-headings",
+     "period": "as on 17 October 2026",
+     "period_end": "2026-10-17",
+     "publisher": "author (self-reported)",
+     "series": "delivery-playbook section count",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Evidence from the review: the committed index.html has 14 sections and 28 sub-headings, is a single file with no dependencies, and its further-reading list was link-checked by the author on 17 October 2026.",
+     "value": "17 October 2026",
+     "period": "link-checking date",
+     "period_end": "2026-10-17",
+     "publisher": "author (self-reported)",
+     "series": "delivery-playbook further-reading list verification",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Revised 27 October 2026 · v1.0.0 · what changed",
+     "value": "27 October 2026",
+     "period": "publication date",
+     "period_end": "2026-10-27",
+     "publisher": "author (self-reported)",
+     "series": "article revision history",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "The SAFe framework site returned HTTP 403 to the author's link check, so that source was not verified.",
+     "value": "HTTP 403",
+     "period": null,
+     "period_end": null,
+     "publisher": "SAFe framework site",
+     "series": "link-check status",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

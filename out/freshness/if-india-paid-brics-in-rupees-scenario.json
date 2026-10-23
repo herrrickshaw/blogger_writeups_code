@@ -1,0 +1,640 @@
+{
+ "slug": "if-india-paid-brics-in-rupees-scenario",
+ "text_sha1": "2244a2794f01f814",
+ "chars": 19421,
+ "checked": "2026-10-23T12:17:37",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "Only $93.4 billion of India's $321.8 billion in BRICS imports can be settled in rupees",
+     "value": "$93.4 billion",
+     "period": "FY2025-26",
+     "period_end": "2025-03-31",
+     "publisher": "Ministry of Commerce TradeStat",
+     "series": "BRICS trade imports self-financing portion",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Only $93.4 billion of India's $321.8 billion in BRICS imports can be settled in rupees",
+     "value": "$321.8 billion",
+     "period": "FY2025-26",
+     "period_end": "2025-03-31",
+     "publisher": "Ministry of Commerce TradeStat",
+     "series": "BRICS trade total imports",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "merchandise imports of $775 billion",
+     "value": "$775 billion",
+     "period": "FY2025-26",
+     "period_end": "2025-03-31",
+     "publisher": "PIB",
+     "series": "PIB trade release",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "merchandise import bill of $774.98 billion",
+     "value": "$774.98 billion",
+     "period": "FY2025-26",
+     "period_end": "2025-03-31",
+     "publisher": "PIB",
+     "series": "PIB trade release",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "$226.1 billion of bilateral deficit — 67.8% of India's total merchandise trade deficit",
+     "value": "$226.1 billion",
+     "period": "FY2025-26",
+     "period_end": "2025-03-31",
+     "publisher": "Ministry of Commerce & Industry",
+     "series": "TradeStat country-wise total trade",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "$226.1 billion of bilateral deficit — 67.8% of India's total merchandise trade deficit",
+     "value": "67.8%",
+     "period": "FY2025-26",
+     "period_end": "2025-03-31",
+     "publisher": "Ministry of Commerce & Industry",
+     "series": "TradeStat country-wise total trade",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "China \n 131.6",
+     "value": "131.6",
+     "period": "FY2025-26",
+     "period_end": "2025-03-31",
+     "publisher": "Ministry of Commerce & Industry",
+     "series": "TradeStat country-wise total trade",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Russia \n 55.4",
+     "value": "55.4",
+     "period": "FY2025-26",
+     "period_end": "2025-03-31",
+     "publisher": "Ministry of Commerce & Industry",
+     "series": "TradeStat country-wise total trade",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "UAE \n 63.9",
+     "value": "63.9",
+     "period": "FY2025-26",
+     "period_end": "2025-03-31",
+     "publisher": "Ministry of Commerce & Industry",
+     "series": "TradeStat country-wise total trade",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Saudi Arabia \n 30.8",
+     "value": "30.8",
+     "period": "FY2025-26",
+     "period_end": "2025-03-31",
+     "publisher": "Ministry of Commerce & Industry",
+     "series": "TradeStat country-wise total trade",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Indonesia \n 20.3",
+     "value": "20.3",
+     "period": "FY2025-26",
+     "period_end": "2025-03-31",
+     "publisher": "Ministry of Commerce & Industry",
+     "series": "TradeStat country-wise total trade",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "South Africa \n 8.6",
+     "value": "8.6",
+     "period": "FY2025-26",
+     "period_end": "2025-03-31",
+     "publisher": "Ministry of Commerce & Industry",
+     "series": "TradeStat country-wise total trade",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "India's entire foreign exchange reserves are $682.2 billion",
+     "value": "$682.2 billion",
+     "period": "week ended 24 July 2026",
+     "period_end": "2026-07-24",
+     "publisher": "RBI",
+     "series": "Weekly Statistical Supplement",
+     "frequency": "weekly",
+     "headline": false
+    },
+    {
+     "quote": "forex reserves $682.235bn for the week ended 24 July 2026",
+     "value": "$682.235bn",
+     "period": "week ended 24 July 2026",
+     "period_end": "2026-07-24",
+     "publisher": "RBI",
+     "series": "Weekly Statistical Supplement",
+     "frequency": "weekly",
+     "headline": false
+    },
+    {
+     "quote": "India's imports from BRICS grew 124% between FY2016-17 and FY2025-26, from $143.4 billion to $321.8 billion.",
+     "value": "124%",
+     "period": "FY2016-17 to FY2025-26",
+     "period_end": "2025-03-31",
+     "publisher": "Ministry of Commerce & Industry",
+     "series": "TradeStat country-wise total trade",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "from $143.4 billion to $321.8 billion.",
+     "value": "$143.4 billion",
+     "period": "FY2016-17",
+     "period_end": "2017-03-31",
+     "publisher": "Ministry of Commerce & Industry",
+     "series": "TradeStat country-wise total trade",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Its exports to BRICS grew only 52% , from $63.0 billion to $95.8 billion.",
+     "value": "52%",
+     "period": "FY2016-17 to FY2025-26",
+     "period_end": "2025-03-31",
+     "publisher": "Ministry of Commerce & Industry",
+     "series": "TradeStat country-wise total trade",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "from $63.0 billion to $95.8 billion.",
+     "value": "$63.0 billion",
+     "period": "FY2016-17",
+     "period_end": "2017-03-31",
+     "publisher": "Ministry of Commerce & Industry",
+     "series": "TradeStat country-wise total trade",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "from $63.0 billion to $95.8 billion.",
+     "value": "$95.8 billion",
+     "period": "FY2025-26",
+     "period_end": "2025-03-31",
+     "publisher": "Ministry of Commerce & Industry",
+     "series": "TradeStat country-wise total trade",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "The deficit grew 181%",
+     "value": "181%",
+     "period": "FY2016-17 to FY2025-26",
+     "period_end": "2025-03-31",
+     "publisher": "Ministry of Commerce & Industry",
+     "series": "TradeStat country-wise total trade",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "By FY2025-26 that had fallen to 29.8%",
+     "value": "29.8%",
+     "period": "FY2025-26",
+     "period_end": "2025-03-31",
+     "publisher": "Ministry of Commerce & Industry",
+     "series": "TradeStat country-wise total trade",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Reported standing balances of roughly $7–8 billion in late 2023 were run down to about $3–3.5 billion by September 2024",
+     "value": "$7–8 billion",
+     "period": "late 2023",
+     "period_end": "2023-12-31",
+     "publisher": "Bloomberg / Mint / Outlook Business",
+     "series": "Special Rupee Vostro Account balances",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "were run down to about $3–3.5 billion by September 2024",
+     "value": "$3–3.5 billion",
+     "period": "September 2024",
+     "period_end": "2024-09-30",
+     "publisher": "Business Standard",
+     "series": "Special Rupee Vostro Account balances",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Global USD/INR turnover was around $185 billion a day in the BIS Triennial Survey of April 2025.",
+     "value": "$185 billion a day",
+     "period": "April 2025",
+     "period_end": "2025-04-30",
+     "publisher": "BIS",
+     "series": "Triennial Central Bank Survey",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "National totals from PIB trade release of 15 April 2026 (merchandise imports $774.98bn, exports $441.78bn, deficit $333.19bn).",
+     "value": "$441.78bn",
+     "period": "FY2025-26",
+     "period_end": "2025-03-31",
+     "publisher": "PIB",
+     "series": "PIB trade release",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "National totals from PIB trade release of 15 April 2026 (merchandise imports $774.98bn, exports $441.78bn, deficit $333.19bn).",
+     "value": "$333.19bn",
+     "period": "FY2025-26",
+     "period_end": "2025-03-31",
+     "publisher": "PIB",
+     "series": "PIB trade release",
+     "frequency": "annual",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "Only $93.4 billion of India's $321.8 billion in BRICS imports can settle in rupees without foreign creditors piling up unwanted rupee claims",
+     "value": "$93.4 billion",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Ministry of Commerce & Industry (TradeStat)",
+     "series": "BRICS bilateral trade data (country-wise total trade)",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "India's $321.8 billion in BRICS imports",
+     "value": "$321.8 billion",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Ministry of Commerce & Industry (TradeStat)",
+     "series": "BRICS bilateral trade data (country-wise total trade)",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "India's imports from BRICS grew 124% between FY2016-17 and FY2025-26, from $143.4 billion to $321.8 billion",
+     "value": "$143.4 billion",
+     "period": "FY2016-17",
+     "period_end": "2017-03-31",
+     "publisher": "Ministry of Commerce & Industry (TradeStat)",
+     "series": "BRICS bilateral trade data (country-wise total trade)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "India's imports from BRICS grew 124% between FY2016-17 and FY2025-26, from $143.4 billion to $321.8 billion",
+     "value": "$321.8 billion",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Ministry of Commerce & Industry (TradeStat)",
+     "series": "BRICS bilateral trade data (country-wise total trade)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Its exports to BRICS grew only 52%, from $63.0 billion to $95.8 billion",
+     "value": "$63.0 billion",
+     "period": "FY2016-17",
+     "period_end": "2017-03-31",
+     "publisher": "Ministry of Commerce & Industry (TradeStat)",
+     "series": "BRICS bilateral trade data (country-wise total trade)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Its exports to BRICS grew only 52%, from $63.0 billion to $95.8 billion",
+     "value": "$95.8 billion",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Ministry of Commerce & Industry (TradeStat)",
+     "series": "BRICS bilateral trade data (country-wise total trade)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "India's merchandise imports of $775 billion",
+     "value": "$774.98 billion",
+     "period": null,
+     "period_end": null,
+     "publisher": "PIB (Press Information Bureau)",
+     "series": "Merchandise trade release",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "India's entire foreign exchange reserves are $682.2 billion",
+     "value": "$682.235 billion",
+     "period": "week ended 24 July 2026",
+     "period_end": "2026-07-24",
+     "publisher": "RBI (Reserve Bank of India)",
+     "series": "Weekly Statistical Supplement",
+     "frequency": "weekly",
+     "headline": false
+    },
+    {
+     "quote": "Global USD/INR turnover was around $185 billion a day in the BIS Triennial Survey of April 2025",
+     "value": "$185 billion",
+     "period": "April 2025",
+     "period_end": "2025-04-30",
+     "publisher": "BIS (Bank for International Settlements)",
+     "series": "Triennial Central Bank Survey",
+     "frequency": "triennial",
+     "headline": false
+    },
+    {
+     "quote": "India's merchandise imports of $775 billion spread over roughly 250 trading days is about $3.1 billion a day of dollar demand",
+     "value": "$3.1 billion",
+     "period": null,
+     "period_end": null,
+     "publisher": "Author's calculation (based on PIB data)",
+     "series": "Derived from merchandise imports",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India's exports covered 44% of its BRICS imports in FY2016-17",
+     "value": "44%",
+     "period": "FY2016-17",
+     "period_end": "2017-03-31",
+     "publisher": "Ministry of Commerce & Industry (TradeStat)",
+     "series": "BRICS bilateral trade data (country-wise total trade)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "By FY2025-26 that had fallen to 29.8%",
+     "value": "29.8%",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Ministry of Commerce & Industry (TradeStat)",
+     "series": "BRICS bilateral trade data (country-wise total trade)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "India sells Russia almost nothing — $4.5 billion against $55.4 billion of purchases in FY2025-26",
+     "value": "$4.5 billion",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Ministry of Commerce & Industry (TradeStat)",
+     "series": "BRICS bilateral trade data (India-Russia)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "India sells Russia almost nothing — $4.5 billion against $55.4 billion of purchases in FY2025-26",
+     "value": "$55.4 billion",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Ministry of Commerce & Industry (TradeStat)",
+     "series": "BRICS bilateral trade data (India-Russia)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Reported standing balances of roughly $7–8 billion in late 2023 were run down to about $3–3.5 billion by September 2024",
+     "value": "$7–8 billion",
+     "period": "late 2023",
+     "period_end": "2023-12-31",
+     "publisher": "Unnamed sources (Bloomberg, Mint/Outlook Business, Business Standard)",
+     "series": "Russian rupee balances (reported estimates)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Reported standing balances of roughly $7–8 billion in late 2023 were run down to about $3–3.5 billion by September 2024",
+     "value": "$3–3.5 billion",
+     "period": "September 2024",
+     "period_end": "2024-09-30",
+     "publisher": "Unnamed sources (Bloomberg, Mint/Outlook Business, Business Standard)",
+     "series": "Russian rupee balances (reported estimates)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India's entire merchandise trade deficit $333.19 billion",
+     "value": "$333.19 billion",
+     "period": null,
+     "period_end": null,
+     "publisher": "PIB (Press Information Bureau)",
+     "series": "Merchandise trade release",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "BRICS bloc also accounts for $226.1 billion of bilateral deficit — 67.8% of India's total merchandise trade deficit",
+     "value": "$226.1 billion",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Author's calculation (based on TradeStat data)",
+     "series": "BRICS bilateral trade deficit",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "BRICS bloc also accounts for $226.1 billion of bilateral deficit — 67.8% of India's total merchandise trade deficit",
+     "value": "67.8%",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Author's calculation (based on PIB and TradeStat data)",
+     "series": "BRICS bilateral trade deficit share",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India's exports to China are $19.5 billion. Its imports are $131.6 billion",
+     "value": "$19.5 billion",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Ministry of Commerce & Industry (TradeStat)",
+     "series": "BRICS bilateral trade data (India-China)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "India's exports to China are $19.5 billion. Its imports are $131.6 billion",
+     "value": "$131.6 billion",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Ministry of Commerce & Industry (TradeStat)",
+     "series": "BRICS bilateral trade data (India-China)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "China ends up holding $112.1 billion of rupees a year with no corresponding Indian goods to spend them on",
+     "value": "$112.1 billion",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Author's calculation (based on TradeStat data)",
+     "series": "Residual rupee claims (India-China)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "S3 would generate about thirty times that amount, every single year",
+     "value": "$228.5 billion",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Author's calculation (based on TradeStat data)",
+     "series": "Residual rupee claims (BRICS total)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "S3 and S4 are where the arithmetic breaks. To put $228.5 billion a year in perspective: India's entire foreign exchange reserves are $682.2 billion",
+     "value": "$228.5 billion",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Author's calculation (based on TradeStat data)",
+     "series": "Residual rupee claims (BRICS total)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Three years of S3 would create foreign rupee claims on India roughly equal to those reserves",
+     "value": "3 years",
+     "period": null,
+     "period_end": null,
+     "publisher": "Author's calculation (based on RBI and TradeStat data)",
+     "series": "Cumulative foreign rupee claims",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Five years would create claims exceeding them by two-thirds",
+     "value": "~$1.14 trillion",
+     "period": "5 years",
+     "period_end": null,
+     "publisher": "Author's calculation (based on RBI and TradeStat data)",
+     "series": "Cumulative foreign rupee claims",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India's exports invoiced in rupees at about 86% of both exports and imports",
+     "value": "86%",
+     "period": "July 2023",
+     "period_end": "2023-07-31",
+     "publisher": "RBI (Inter-Departmental Group on Internationalisation of the INR)",
+     "series": "Dollar invoicing share",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The RBI cited 5–6% conversion costs when nudging banks toward rupee-dirham settlement",
+     "value": "5–6%",
+     "period": null,
+     "period_end": null,
+     "publisher": "RBI",
+     "series": "Transaction cost savings",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India's merchandise exports $441.78 billion",
+     "value": "$441.78 billion",
+     "period": null,
+     "period_end": null,
+     "publisher": "PIB (Press Information Bureau)",
+     "series": "Merchandise trade release",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "India's BRICS imports ($321.8bn) is 41.5% of India's entire merchandise import bill of $774.98 billion",
+     "value": "41.5%",
+     "period": null,
+     "period_end": null,
+     "publisher": "Author's calculation (based on PIB and TradeStat data)",
+     "series": "BRICS import share of total imports",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "S2 — Netting only settle the balanced portion of trade both ways | $93.4 bn | 12.0%",
+     "value": "$93.4 billion",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Author's calculation (based on TradeStat data)",
+     "series": "Scenario S2 (self-financing trade)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "S2 — Netting only settle the balanced portion of trade both ways | $93.4 bn | 12.0%",
+     "value": "12.0%",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Author's calculation (based on PIB and TradeStat data)",
+     "series": "Scenario S2 (share of import bill)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "S1 — Status quo | ~$17.8 bn | 2.3%",
+     "value": "~$17.8 billion",
+     "period": null,
+     "period_end": null,
+     "publisher": "Author's calculation (based on RBI and TradeStat data)",
+     "series": "Scenario S1 (current rupee settlement)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "S1 — Status quo | ~$17.8 bn | 2.3%",
+     "value": "2.3%",
+     "period": null,
+     "period_end": null,
+     "publisher": "Author's calculation (based on PIB and TradeStat data)",
+     "series": "Scenario S1 (share of import bill)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "S3 — Full BRICS import settlement | $321.8 bn | 41.5%",
+     "value": "$321.8 billion",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Author's calculation (based on TradeStat data)",
+     "series": "Scenario S3 (full settlement)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "S3 — Full BRICS import settlement | $321.8 bn | 41.5%",
+     "value": "41.5%",
+     "period": null,
+     "period_end": null,
+     "publisher": "Author's calculation (based on PIB and TradeStat data)",
+     "series": "Scenario S3 (share of import bill)",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

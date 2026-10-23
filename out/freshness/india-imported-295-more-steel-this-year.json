@@ -1,0 +1,510 @@
+{
+ "slug": "india-imported-295-more-steel-this-year",
+ "text_sha1": "6b30b05d12358d24",
+ "chars": 11970,
+ "checked": "2026-10-23T12:55:14",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "Finished steel imports, April–August 2026: 3.49 million tonnes, with a safeguard duty in force",
+     "value": "3.49 million tonnes",
+     "period": "April–August 2026",
+     "period_end": "2026-08-31",
+     "publisher": "Joint Plant Committee",
+     "series": "Finished steel imports",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "+29.5% Finished steel imports, April–August 2026: 3.49 million tonnes",
+     "value": "+29.5%",
+     "period": "April–August 2026",
+     "period_end": "2026-08-31",
+     "publisher": "Joint Plant Committee",
+     "series": "Finished steel imports growth",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "11.5% The safeguard duty on flat steel since 21 April 2026; producers have asked for more than 20%",
+     "value": "11.5%",
+     "period": "21 Apr 2026 – 20 Apr 2027",
+     "period_end": "2027-04-20",
+     "publisher": "PIB / ministry",
+     "series": "Safeguard duty on flat steel",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "+7.4% vs +4.1% Growth in steel consumption against finished steel production in the same five months",
+     "value": "+7.4%",
+     "period": "April–August 2026",
+     "period_end": "2026-08-31",
+     "publisher": "Joint Plant Committee",
+     "series": "Steel consumption growth",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "+7.4% vs +4.1% Growth in steel consumption against finished steel production in the same five months",
+     "value": "+4.1%",
+     "period": "April–August 2026",
+     "period_end": "2026-08-31",
+     "publisher": "Joint Plant Committee",
+     "series": "Finished steel production growth",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "6 Ministry of Steel open houses on import issues announced in 2026 so far",
+     "value": "6",
+     "period": "in 2026 so far",
+     "period_end": "2026-09-24",
+     "publisher": "PIB / ministry",
+     "series": "Ministry of Steel open houses announced",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "Crude steel production\n+2.8%",
+     "value": "+2.8%",
+     "period": "April–August 2026",
+     "period_end": "2026-08-31",
+     "publisher": "Joint Plant Committee",
+     "series": "Crude steel production growth",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "Finished steel exports\n+34.1%",
+     "value": "+34.1%",
+     "period": "April–August 2026",
+     "period_end": "2026-08-31",
+     "publisher": "Joint Plant Committee",
+     "series": "Finished steel exports growth",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "Finished steel exports | 2.99 million tonnes | +34.1% |",
+     "value": "2.99 million tonnes",
+     "period": "April–August 2026",
+     "period_end": "2026-08-31",
+     "publisher": "Joint Plant Committee",
+     "series": "Finished steel exports",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "China’s share of imports | 31.8%, the largest source",
+     "value": "31.8%",
+     "period": "April–August 2026",
+     "period_end": "2026-08-31",
+     "publisher": "Joint Plant Committee",
+     "series": "China share of steel imports",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "Stainless steel imports | – | +100.7% |",
+     "value": "+100.7%",
+     "period": "April–August 2026",
+     "period_end": "2026-08-31",
+     "publisher": "Joint Plant Committee",
+     "series": "Stainless steel imports growth",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "Finished steel consumption | 70.5 million tonnes | +7.4%",
+     "value": "70.5 million tonnes",
+     "period": "April–August 2026",
+     "period_end": "2026-08-31",
+     "publisher": "Joint Plant Committee",
+     "series": "Finished steel consumption",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "Finished steel production | 68.3 million tonnes | +4.1% |",
+     "value": "68.3 million tonnes",
+     "period": "April–August 2026",
+     "period_end": "2026-08-31",
+     "publisher": "Joint Plant Committee",
+     "series": "Finished steel production",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "Crude steel production | 71.0 million tonnes | +2.8% |",
+     "value": "71.0 million tonnes",
+     "period": "April–August 2026",
+     "period_end": "2026-08-31",
+     "publisher": "Joint Plant Committee",
+     "series": "Crude steel production",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "Finished steel imports fell 34% in April to October 2025, to 3.8 million tonnes, according to earlier government data",
+     "value": "3.8 million tonnes",
+     "period": "April to October 2025",
+     "period_end": "2025-10-31",
+     "publisher": "Joint Plant Committee",
+     "series": "Finished steel imports",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Finished steel imports fell 34% in April to October 2025, to 3.8 million tonnes, according to earlier government data",
+     "value": "-34%",
+     "period": "April to October 2025",
+     "period_end": "2025-10-31",
+     "publisher": "Joint Plant Committee",
+     "series": "Finished steel imports growth",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "21 Apr 2025 – 20 Apr 2026 | 12% | Provisional duty from 21 April 2025 (PIB 2123294)",
+     "value": "12%",
+     "period": "21 Apr 2025 – 20 Apr 2026",
+     "period_end": "2026-04-20",
+     "publisher": "PIB / ministry",
+     "series": "Safeguard duty on flat steel",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "21 Apr 2027 – 20 Apr 2028 | 11% | Final year |",
+     "value": "11%",
+     "period": "21 Apr 2027 – 20 Apr 2028",
+     "period_end": "2028-04-20",
+     "publisher": "PIB / ministry",
+     "series": "Safeguard duty on flat steel",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "SARAL SIMS lets small importers register consignments of up to 10 tonnes, with an annual limit of 1,000 tonnes",
+     "value": "10 tonnes",
+     "period": null,
+     "period_end": null,
+     "publisher": "PIB / ministry",
+     "series": "SARAL SIMS consignment limit",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "SARAL SIMS lets small importers register consignments of up to 10 tonnes, with an annual limit of 1,000 tonnes",
+     "value": "1,000 tonnes",
+     "period": null,
+     "period_end": null,
+     "publisher": "PIB / ministry",
+     "series": "SARAL SIMS annual limit",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "and the regular form was cut from 56 fields to 20.",
+     "value": "20 fields",
+     "period": null,
+     "period_end": null,
+     "publisher": "PIB / ministry",
+     "series": "SIMS registration form fields",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "citing a 65% year-on-year rise in April stainless imports.",
+     "value": "+65%",
+     "period": "April",
+     "period_end": "2026-04-30",
+     "publisher": "Joint Plant Committee",
+     "series": "Stainless steel imports growth",
+     "frequency": "monthly",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "+29.5% Finished steel imports, April–August 2026: 3.49 million tonnes, with a safeguard duty in force",
+     "value": "3.49 million tonnes",
+     "period": "April–August 2026",
+     "period_end": "2026-08-31",
+     "publisher": "Joint Plant Committee (provisional data, reported by trade press)",
+     "series": "Finished steel imports (monthly)",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "India imported 3.49 million tonnes of finished steel in April to August 2026, 29.5% more than a year earlier",
+     "value": "+29.5%",
+     "period": "April–August 2026 vs. April–August 2025",
+     "period_end": "2026-08-31",
+     "publisher": "Joint Plant Committee (provisional data, reported by trade press)",
+     "series": "Year-over-year growth in finished steel imports",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "China was the largest source, at 31.8% of the total",
+     "value": "31.8%",
+     "period": "April–August 2026",
+     "period_end": "2026-08-31",
+     "publisher": "Trade press (Steelorbis, SMM, Chartforest, Reuters)",
+     "series": "China’s share of India’s finished steel imports",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Finished steel consumption: 70.5 million tonnes, +7.4% (another summary: 70.3 Mt, +7.0%)",
+     "value": "70.5 million tonnes (+7.4%)",
+     "period": "April–August 2026",
+     "period_end": "2026-08-31",
+     "publisher": "Joint Plant Committee (provisional data, reported by trade press)",
+     "series": "Finished steel consumption (monthly)",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Finished steel production: 68.3 million tonnes, +4.1%",
+     "value": "68.3 million tonnes (+4.1%)",
+     "period": "April–August 2026",
+     "period_end": "2026-08-31",
+     "publisher": "Joint Plant Committee (provisional data, reported by trade press)",
+     "series": "Finished steel production (monthly)",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Crude steel production: +2.8%",
+     "value": "+2.8%",
+     "period": "April–August 2026 vs. April–August 2025",
+     "period_end": "2026-08-31",
+     "publisher": "Joint Plant Committee (provisional data, reported by trade press)",
+     "series": "Crude steel production growth (monthly)",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Finished steel imports fell 34% in April to October 2025, to 3.8 million tonnes",
+     "value": "3.8 million tonnes (-34%)",
+     "period": "April–October 2025",
+     "period_end": "2025-10-31",
+     "publisher": "Government data (earlier report)",
+     "series": "Finished steel imports (monthly)",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Finished steel exports: 2.99 million tonnes, +34.1%",
+     "value": "2.99 million tonnes (+34.1%)",
+     "period": "April–August 2026",
+     "period_end": "2026-08-31",
+     "publisher": "Joint Plant Committee (provisional data, reported by trade press)",
+     "series": "Finished steel exports (monthly)",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Stainless steel imports: +100.7%",
+     "value": "+100.7%",
+     "period": "April–August 2026 vs. April–August 2025",
+     "period_end": "2026-08-31",
+     "publisher": "Trade press (Steelorbis, SMM, Chartforest, Reuters)",
+     "series": "Stainless steel imports growth (monthly)",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "11.5% The safeguard duty on flat steel since 21 April 2026; producers have asked for more than 20%",
+     "value": "11.5%",
+     "period": "21 April 2026 – 20 April 2027",
+     "period_end": "2027-04-20",
+     "publisher": "Finance Ministry (notification 02/2025-Customs)",
+     "series": "Safeguard duty rate on flat steel",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "12% in its first year, 11.5% since 21 April 2026, 11% from next April",
+     "value": "12%",
+     "period": "21 April 2025 – 20 April 2026",
+     "period_end": "2026-04-20",
+     "publisher": "Finance Ministry (notification 02/2025-Customs)",
+     "series": "Safeguard duty rate on flat steel (first year)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "11% from next April",
+     "value": "11%",
+     "period": "21 April 2027 – 20 April 2028",
+     "period_end": "2028-04-20",
+     "publisher": "Finance Ministry (notification 02/2025-Customs)",
+     "series": "Safeguard duty rate on flat steel (final year)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Domestic steel prices rose in August and September, after ... MSME users in Coimbatore have asked for a six-month suspension of import and safeguard duties, citing a rise of ₹8,000 to ₹10,000 a tonne",
+     "value": "₹8,000 to ₹10,000 per tonne",
+     "period": "August–September 2026",
+     "period_end": "2026-09-30",
+     "publisher": "Trade-body claim (reported)",
+     "series": "Domestic steel price increase (trade-body estimate)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "6 Ministry of Steel open houses on import issues announced in 2026 so far",
+     "value": "6",
+     "period": "2026 (as of October 2026)",
+     "period_end": "2026-10-09",
+     "publisher": "Ministry of Steel (PIB reports)",
+     "series": "Number of open houses on import issues",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "SARAL SIMS lets small importers register consignments of up to 10 tonnes, with an annual limit of 1,000 tonnes",
+     "value": "10 tonnes (per consignment), 1,000 tonnes (annual limit)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Ministry of Steel",
+     "series": "SARAL SIMS registration limits",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The regular form was cut from 56 fields to 20",
+     "value": "56 → 20 fields",
+     "period": null,
+     "period_end": null,
+     "publisher": "Ministry of Steel",
+     "series": "SIMS registration form simplification",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Stainless steel imports more than doubled in imports, citing a 65% year-on-year rise in April stainless imports",
+     "value": "+65%",
+     "period": "April 2026 vs. April 2025",
+     "period_end": "2026-04-30",
+     "publisher": "Stainless steel producers (reported)",
+     "series": "Stainless steel imports growth (monthly)",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "The reported end date of that stainless exemption differs between sources (26 October 2026 in one, 31 March in another)",
+     "value": "26 October 2026 (or 31 March 2027)",
+     "period": null,
+     "period_end": "2026-10-26",
+     "publisher": "Trade reports (conflicting sources)",
+     "series": "Stainless steel quality control order exemption end date",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Open house on steel import issues (PIB 2241582) on 23 March 2026",
+     "value": "23 March 2026",
+     "period": "23 March 2026",
+     "period_end": "2026-03-23",
+     "publisher": "PIB (Press Information Bureau)",
+     "series": "Open house on steel import issues",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Open house (PIB 2254360) on 27 April 2026",
+     "value": "27 April 2026",
+     "period": "27 April 2026",
+     "period_end": "2026-04-27",
+     "publisher": "PIB (Press Information Bureau)",
+     "series": "Open house on steel import issues",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Open house (PIB 2265152) on 27 May 2026",
+     "value": "27 May 2026",
+     "period": "27 May 2026",
+     "period_end": "2026-05-27",
+     "publisher": "PIB (Press Information Bureau)",
+     "series": "Open house on steel import issues",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Open house (PIB 2280700) on 9 July 2026",
+     "value": "9 July 2026",
+     "period": "9 July 2026",
+     "period_end": "2026-07-09",
+     "publisher": "PIB (Press Information Bureau)",
+     "series": "Open house on steel import issues",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Open house on 21 August 2026, as reported",
+     "value": "21 August 2026",
+     "period": "21 August 2026",
+     "period_end": "2026-08-21",
+     "publisher": "Trade reports",
+     "series": "Open house on steel import issues",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Open house (PIB 2311834) on 24 September 2026",
+     "value": "24 September 2026",
+     "period": "24 September 2026",
+     "period_end": "2026-09-24",
+     "publisher": "PIB (Press Information Bureau)",
+     "series": "Open house on steel import issues",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Anti-dumping investigation opened into hot-rolled steel from China, Japan and Russia, as reported in June 2026",
+     "value": "June 2026",
+     "period": "June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "Directorate General of Trade Remedies (reported)",
+     "series": "Anti-dumping investigation initiation",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Producers have asked for a duty above 20%",
+     "value": ">20%",
+     "period": null,
+     "period_end": null,
+     "publisher": "Steel producers (reported)",
+     "series": "Requested safeguard duty increase",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The ministry’s reported position, no further tightening for now, sits between the two sides, and an anti-dumping case on hot-rolled steel from China, Japan and Russia is already open as a second route",
+     "value": "No further tightening (reported)",
+     "period": "7 October 2026",
+     "period_end": "2026-10-07",
+     "publisher": "Ministry of Steel (Reuters-based report)",
+     "series": "Ministry’s safeguard duty stance",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

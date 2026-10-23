@@ -1,0 +1,440 @@
+{
+ "slug": "how-to-use-fci-warehouse-mspvsmsv-grain",
+ "text_sha1": "429d1b8b0ec017e5",
+ "chars": 9443,
+ "checked": "2026-10-23T12:10:55",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "mandi table shows 92% of bajra and 84% of moong market reports below MSP on 23 July 2026, against 19% for wheat.",
+     "value": "92%",
+     "period": "23 July 2026",
+     "period_end": "2026-07-23",
+     "publisher": "Agmarknet",
+     "series": "mandi modal prices against MSP",
+     "frequency": "daily",
+     "headline": true
+    },
+    {
+     "quote": "mandi table shows 92% of bajra and 84% of moong market reports below MSP on 23 July 2026, against 19% for wheat.",
+     "value": "84%",
+     "period": "23 July 2026",
+     "period_end": "2026-07-23",
+     "publisher": "Agmarknet",
+     "series": "mandi modal prices against MSP",
+     "frequency": "daily",
+     "headline": true
+    },
+    {
+     "quote": "mandi table shows 92% of bajra and 84% of moong market reports below MSP on 23 July 2026, against 19% for wheat.",
+     "value": "19%",
+     "period": "23 July 2026",
+     "period_end": "2026-07-23",
+     "publisher": "Agmarknet",
+     "series": "mandi modal prices against MSP",
+     "frequency": "daily",
+     "headline": true
+    },
+    {
+     "quote": "wheat 2425 768 2500.0 19 +3%",
+     "value": "Rs 2425 per quintal",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "CACP / DFPD",
+     "series": "MSP series",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "paddy 2369 335 2385.0 36 +1%",
+     "value": "Rs 2369 per quintal",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "CACP / DFPD",
+     "series": "MSP series",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "gram 5650 231 5900.0 22 +4%",
+     "value": "Rs 5650 per quintal",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "CACP / DFPD",
+     "series": "MSP series",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "maize 2400 226 2200.0 75 -8%",
+     "value": "Rs 2400 per quintal",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "CACP / DFPD",
+     "series": "MSP series",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "soybean 5328 195 7050.0 2 +32%",
+     "value": "Rs 5328 per quintal",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "CACP / DFPD",
+     "series": "MSP series",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "moong 8768 161 6901.0 84 -21%",
+     "value": "Rs 8768 per quintal",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "CACP / DFPD",
+     "series": "MSP series",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "tur 8000 129 7531.0 70 -6%",
+     "value": "Rs 8000 per quintal",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "CACP / DFPD",
+     "series": "MSP series",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "bajra 2775 84 2382.0 92 -14%",
+     "value": "Rs 2775 per quintal",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "CACP / DFPD",
+     "series": "MSP series",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "ragi 4886 14 3550.0 93 -27%",
+     "value": "Rs 4886 per quintal",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "CACP / DFPD",
+     "series": "MSP series",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "paddy 4.84 20.33 -15.48 CARRY EXCEEDS APPRECIATION",
+     "value": "4.84%",
+     "period": "14-year window",
+     "period_end": null,
+     "publisher": "repository model",
+     "series": "holding-economics model",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "wheat 5.19 16.99 -11.80 CARRY EXCEEDS APPRECIATION",
+     "value": "5.19%",
+     "period": "14-year window",
+     "period_end": null,
+     "publisher": "repository model",
+     "series": "holding-economics model",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "maize 3.81 18.50 -14.69 CARRY EXCEEDS APPRECIATION",
+     "value": "3.81%",
+     "period": "14-year window",
+     "period_end": null,
+     "publisher": "repository model",
+     "series": "holding-economics model",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "arhar_tur 5.74 13.67 -7.93 CARRY EXCEEDS APPRECIATION",
+     "value": "5.74%",
+     "period": "14-year window",
+     "period_end": null,
+     "publisher": "repository model",
+     "series": "holding-economics model",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "sugar 2.33 16.59 -14.26 CARRY EXCEEDS APPRECIATION",
+     "value": "2.33%",
+     "period": "14-year window",
+     "period_end": null,
+     "publisher": "repository model",
+     "series": "holding-economics model",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "WHEAT->ATTA OMSS-sourced: grain 2550 | revenue 2926 | gross 376 | EBITDA 196/qtl (6.7% margin)",
+     "value": "196 Rs/qtl",
+     "period": null,
+     "period_end": null,
+     "publisher": "repository model",
+     "series": "OMSS grain-processing unit economics",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "WHEAT->ATTA mandi-sourced: grain 2500 | revenue 2926 | gross 426 | EBITDA 246/qtl (8.4% margin)",
+     "value": "246 Rs/qtl",
+     "period": null,
+     "period_end": null,
+     "publisher": "repository model",
+     "series": "OMSS grain-processing unit economics",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "PADDY->RICE open-market: paddy 2385 | revenue 2520 | EBITDA -15/qtl (-0.6% margin)",
+     "value": "-15 Rs/qtl",
+     "period": null,
+     "period_end": null,
+     "publisher": "repository model",
+     "series": "OMSS grain-processing unit economics",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "SCALE: 300 TPD flour mill | EBITDA Rs 17.6 cr | capital employed ~Rs 80 cr | ROCE ~22%",
+     "value": "17.6 cr Rs",
+     "period": null,
+     "period_end": null,
+     "publisher": "repository model",
+     "series": "OMSS grain-processing unit economics",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "SCALE: 300 TPD flour mill | EBITDA Rs 17.6 cr | capital employed ~Rs 80 cr | ROCE ~22%",
+     "value": "80 cr Rs",
+     "period": null,
+     "period_end": null,
+     "publisher": "repository model",
+     "series": "OMSS grain-processing unit economics",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "SCALE: 300 TPD flour mill | EBITDA Rs 17.6 cr | capital employed ~Rs 80 cr | ROCE ~22%",
+     "value": "22%",
+     "period": null,
+     "period_end": null,
+     "publisher": "repository model",
+     "series": "OMSS grain-processing unit economics",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "14 crops in the MSP series, 2010-11 onward",
+     "value": "14 crops",
+     "period": "2010-11 onward",
+     "period_end": "2026-10-19",
+     "publisher": "CACP (Commission for Agricultural Costs & Prices)",
+     "series": "MSP series (annual)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "16 crops in the mandi-vs-MSP comparison (23 Jul 2026)",
+     "value": "16 crops",
+     "period": "23 Jul 2026",
+     "period_end": "2026-07-23",
+     "publisher": "Agmarknet (via MANIFEST.md)",
+     "series": "Mandi-vs-MSP comparison (daily)",
+     "frequency": "daily",
+     "headline": false
+    },
+    {
+     "quote": "17,247 mandi records behind that comparison",
+     "value": "17,247 records",
+     "period": "23 Jul 2026",
+     "period_end": "2026-07-23",
+     "publisher": "Agmarknet",
+     "series": "Mandi price records (daily)",
+     "frequency": "daily",
+     "headline": false
+    },
+    {
+     "quote": "the mandi table shows 92% of bajra and 84% of moong market reports below MSP on 23 July 2026",
+     "value": "92% (bajra), 84% (moong)",
+     "period": "23 Jul 2026",
+     "period_end": "2026-07-23",
+     "publisher": "Agmarknet",
+     "series": "Mandi price vs MSP share (daily)",
+     "frequency": "daily",
+     "headline": true
+    },
+    {
+     "quote": "wheat 2425 768 2500.0 19 +3%",
+     "value": "MSP: Rs 2,425/quintal (wheat), 768 market reports, modal median price: Rs 2,500.0/quintal, 19% reports below MSP, median gap: +3%",
+     "period": "2025-26 marketing year",
+     "period_end": "2026-06-30",
+     "publisher": "Agmarknet (via MANIFEST.md)",
+     "series": "Mandi price vs MSP (daily)",
+     "frequency": "daily",
+     "headline": false
+    },
+    {
+     "quote": "paddy 2369 335 2385.0 36 +1%",
+     "value": "MSP: Rs 2,369/quintal (paddy), 335 market reports, modal median price: Rs 2,385.0/quintal, 36% reports below MSP, median gap: +1%",
+     "period": "2025-26 marketing year",
+     "period_end": "2026-06-30",
+     "publisher": "Agmarknet (via MANIFEST.md)",
+     "series": "Mandi price vs MSP (daily)",
+     "frequency": "daily",
+     "headline": false
+    },
+    {
+     "quote": "maize 2400 226 2200.0 75 -8%",
+     "value": "MSP: Rs 2,400/quintal (maize), 226 market reports, modal median price: Rs 2,200.0/quintal, 75% reports below MSP, median gap: -8%",
+     "period": "23 Jul 2026",
+     "period_end": "2026-07-23",
+     "publisher": "Agmarknet (via MANIFEST.md)",
+     "series": "Mandi price vs MSP (daily)",
+     "frequency": "daily",
+     "headline": false
+    },
+    {
+     "quote": "soybean 5328 195 7050.0 2 +32%",
+     "value": "MSP: Rs 5,328/quintal (soybean), 195 market reports, modal median price: Rs 7,050.0/quintal, 2% reports below MSP, median gap: +32%",
+     "period": "23 Jul 2026",
+     "period_end": "2026-07-23",
+     "publisher": "Agmarknet (via MANIFEST.md)",
+     "series": "Mandi price vs MSP (daily)",
+     "frequency": "daily",
+     "headline": false
+    },
+    {
+     "quote": "moong 8768 161 6901.0 84 -21%",
+     "value": "MSP: Rs 8,768/quintal (moong), 161 market reports, modal median price: Rs 6,901.0/quintal, 84% reports below MSP, median gap: -21%",
+     "period": "23 Jul 2026",
+     "period_end": "2026-07-23",
+     "publisher": "Agmarknet (via MANIFEST.md)",
+     "series": "Mandi price vs MSP (daily)",
+     "frequency": "daily",
+     "headline": false
+    },
+    {
+     "quote": "bajra 2775 84 2382.0 92 -14%",
+     "value": "MSP: Rs 2,775/quintal (bajra), 84 market reports, modal median price: Rs 2,382.0/quintal, 92% reports below MSP, median gap: -14%",
+     "period": "23 Jul 2026",
+     "period_end": "2026-07-23",
+     "publisher": "Agmarknet (via MANIFEST.md)",
+     "series": "Mandi price vs MSP (daily)",
+     "frequency": "daily",
+     "headline": false
+    },
+    {
+     "quote": "ragi 4886 14 3550.0 93 -27%",
+     "value": "MSP: Rs 4,886/quintal (ragi), 14 market reports, modal median price: Rs 3,550.0/quintal, 93% reports below MSP, median gap: -27%",
+     "period": "23 Jul 2026",
+     "period_end": "2026-07-23",
+     "publisher": "Agmarknet (via MANIFEST.md)",
+     "series": "Mandi price vs MSP (daily)",
+     "frequency": "daily",
+     "headline": false
+    },
+    {
+     "quote": "paddy 4.84 20.33 -15.48 CARRY EXCEEDS APPRECIATION",
+     "value": "CAGR: 4.84%, carry cost: 20.33%, net annual verdict: -15.48% (paddy)",
+     "period": "14-year window (2010-11 to 2024-25)",
+     "period_end": "2024-03-31",
+     "publisher": "CACP (via WPI series)",
+     "series": "Holding economics model (annualized)",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "wheat 5.19 16.99 -11.80 CARRY EXCEEDS APPRECIATION",
+     "value": "CAGR: 5.19%, carry cost: 16.99%, net annual verdict: -11.80% (wheat)",
+     "period": "14-year window (2010-11 to 2024-25)",
+     "period_end": "2024-03-31",
+     "publisher": "CACP (via WPI series)",
+     "series": "Holding economics model (annualized)",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "maize 3.81 18.50 -14.69 CARRY EXCEEDS APPRECIATION",
+     "value": "CAGR: 3.81%, carry cost: 18.50%, net annual verdict: -14.69% (maize)",
+     "period": "14-year window (2010-11 to 2024-25)",
+     "period_end": "2024-03-31",
+     "publisher": "CACP (via WPI series)",
+     "series": "Holding economics model (annualized)",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "WHEAT->ATTA OMSS-sourced: grain 2550 | revenue 2926 | gross 376 | EBITDA 196/qtl (6.7% margin)",
+     "value": "EBITDA: Rs 196/quintal (6.7% margin) for wheat-to-atta (OMSS-sourced)",
+     "period": null,
+     "period_end": null,
+     "publisher": "OMSS (via omss_processing_model.py)",
+     "series": "Grain-processing unit economics (deterministic model)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "WHEAT->ATTA mandi-sourced: grain 2500 | revenue 2926 | gross 426 | EBITDA 246/qtl (8.4% margin)",
+     "value": "EBITDA: Rs 246/quintal (8.4% margin) for wheat-to-atta (mandi-sourced)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Agmarknet (via omss_processing_model.py)",
+     "series": "Grain-processing unit economics (deterministic model)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "PADDY->RICE open-market: paddy 2385 | revenue 2520 | EBITDA -15/qtl (-0.6% margin)",
+     "value": "EBITDA: -Rs 15/quintal (-0.6% margin) for paddy-to-rice (open-market)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Agmarknet (via omss_processing_model.py)",
+     "series": "Grain-processing unit economics (deterministic model)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "SCALE: 300 TPD flour mill | EBITDA Rs 17.6 cr | capital employed ~Rs 80 cr | ROCE ~22%",
+     "value": "EBITDA: Rs 17.6 cr, capital employed: ~Rs 80 cr, ROCE: ~22% (300 TPD flour mill)",
+     "period": null,
+     "period_end": null,
+     "publisher": "OMSS (via omss_processing_model.py)",
+     "series": "Grain-processing unit economics (deterministic model)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "the rabi wheat MSP of Rs 2,425 sits under 2024-25 and Rs 2,585 under 2025-26",
+     "value": "MSP: Rs 2,425/quintal (rabi wheat, 2024-25), Rs 2,585/quintal (2025-26)",
+     "period": "2024-25 and 2025-26",
+     "period_end": "2025-03-31",
+     "publisher": "CACP",
+     "series": "MSP series (annual)",
+     "frequency": "annual",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

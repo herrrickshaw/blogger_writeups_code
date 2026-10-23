@@ -1,0 +1,650 @@
+{
+ "slug": "one-refinery-flipped-nigeria-from",
+ "text_sha1": "08f7d6581a07f8a7",
+ "chars": 22831,
+ "checked": "2026-10-23T15:13:57",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "Africa's projected refined-product imports are forecast to rise from 2 million to 3.4 million barrels a day by 2050",
+     "value": "2 million to 3.4 million barrels a day",
+     "period": "2050",
+     "period_end": "2050-12-31",
+     "publisher": "African Energy Chamber",
+     "series": "Africa's Demand for Refined Products to Surge into 2050",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "650,000 Barrels/day Dangote refinery is now operating at, ~99% utilisation",
+     "value": "650,000 Barrels/day",
+     "period": "January 2026",
+     "period_end": "2026-01-31",
+     "publisher": "OilPrice.com",
+     "series": "Dangote production data",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "62% Share of Nigeria's petrol Dangote now supplies, up from a standing start",
+     "value": "62%",
+     "period": "January-February 2026",
+     "period_end": "2026-02-28",
+     "publisher": "OilPrice.com",
+     "series": "Nigeria's fuel-import reversal, as Dangote ramped",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "2 → 3.4mn Africa's refined-product imports, barrels/day, 2024 → 2050 forecast",
+     "value": "2 to 3.4 million barrels/day",
+     "period": "2024 to 2050 forecast",
+     "period_end": "2050-12-31",
+     "publisher": "African Energy Chamber",
+     "series": "Total refined-product demand vs. net imports",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "$20bn Downstream infrastructure investment the continent still needs by 2050",
+     "value": "$20 billion",
+     "period": "by 2050",
+     "period_end": "2050-12-31",
+     "publisher": "African Energy Chamber",
+     "series": "Africa's Demand for Refined Products to Surge into 2050",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "Total investment has exceeded $19 billion .",
+     "value": "$19 billion",
+     "period": "January 2026",
+     "period_end": "2026-01-31",
+     "publisher": "OilPrice.com",
+     "series": "Dangote refinery specifications",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Dangote's share of Nigeria's total fuel supply | 57 | %",
+     "value": "57%",
+     "period": "January-February 2026",
+     "period_end": "2026-02-28",
+     "publisher": "OilPrice.com",
+     "series": "Nigeria's fuel-import reversal, as Dangote ramped",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Fall in Nigeria's petrol imports, YoY, Q1 2025 | −54 | %",
+     "value": "-54%",
+     "period": "Q1 2025",
+     "period_end": "2025-03-31",
+     "publisher": "OilPrice.com",
+     "series": "Nigeria's fuel-import reversal, as Dangote ramped",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "Projected annual forex savings from reduced imports | up to 10 | $ billion/year",
+     "value": "up to $10 billion/year",
+     "period": "January-February 2026",
+     "period_end": "2026-02-28",
+     "publisher": "OilPrice.com",
+     "series": "Nigeria's fuel-import reversal, as Dangote ramped",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "combined installed capacity of 445,000 bpd",
+     "value": "445,000 bpd",
+     "period": "2018",
+     "period_end": "2018-12-31",
+     "publisher": "Nigerian National Petroleum Corporation",
+     "series": "State refineries installed capacity",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "utilization was just under 37% in 2017 and 14% in 2018",
+     "value": "37%",
+     "period": "2017",
+     "period_end": "2017-12-31",
+     "publisher": "Nigerian National Petroleum Corporation",
+     "series": "State refineries utilization",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "utilization was just under 37% in 2017 and 14% in 2018",
+     "value": "14%",
+     "period": "2018",
+     "period_end": "2018-12-31",
+     "publisher": "Nigerian National Petroleum Corporation",
+     "series": "State refineries utilization",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "ran at 65,000 bpd nameplate but produced only 39,000 bpd",
+     "value": "65,000 bpd",
+     "period": "2018",
+     "period_end": "2018-12-31",
+     "publisher": "Petroleum Africa",
+     "series": "Luanda refinery production",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "ran at 65,000 bpd nameplate but produced only 39,000 bpd",
+     "value": "39,000 bpd",
+     "period": "2018",
+     "period_end": "2018-12-31",
+     "publisher": "Petroleum Africa",
+     "series": "Luanda refinery production",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Africa's total refined-product demand stood at roughly 4 million barrels a day in 2024",
+     "value": "roughly 4 million barrels a day",
+     "period": "2024",
+     "period_end": "2024-12-31",
+     "publisher": "African Energy Chamber",
+     "series": "Africa's Demand for Refined Products to Surge into 2050",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "forecast to pass 6 million barrels a day by 2050",
+     "value": "6 million barrels a day",
+     "period": "2050",
+     "period_end": "2050-12-31",
+     "publisher": "African Energy Chamber",
+     "series": "Africa's Demand for Refined Products to Surge into 2050",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "gasoline demand alone is projected to exceed 2.2 million bpd by 2050",
+     "value": "2.2 million bpd",
+     "period": "2050",
+     "period_end": "2050-12-31",
+     "publisher": "African Energy Chamber",
+     "series": "Africa's Demand for Refined Products to Surge into 2050",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "jet fuel demand rises 65%, from 280,000 bpd in 2025 to 465,000 bpd by 2050",
+     "value": "280,000 bpd",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "African Energy Chamber",
+     "series": "Africa's Demand for Refined Products to Surge into 2050",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "jet fuel demand rises 65%, from 280,000 bpd in 2025 to 465,000 bpd by 2050",
+     "value": "465,000 bpd",
+     "period": "2050",
+     "period_end": "2050-12-31",
+     "publisher": "African Energy Chamber",
+     "series": "Africa's Demand for Refined Products to Surge into 2050",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "a population rising from roughly 1.5 billion today to 2.4 billion by 2050",
+     "value": "roughly 1.5 billion",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "African Energy Chamber",
+     "series": "Africa's Demand for Refined Products to Surge into 2050",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "a population rising from roughly 1.5 billion today to 2.4 billion by 2050",
+     "value": "2.4 billion",
+     "period": "2050",
+     "period_end": "2050-12-31",
+     "publisher": "African Energy Chamber",
+     "series": "Africa's Demand for Refined Products to Surge into 2050",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Net gasoil/diesel imports, million bpd | — | ~1.8",
+     "value": "~1.8 million bpd",
+     "period": "2050 forecast",
+     "period_end": "2050-12-31",
+     "publisher": "African Energy Chamber",
+     "series": "Africa's refined-product balance",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Net gasoline imports, million bpd | — | >1.5",
+     "value": ">1.5 million bpd",
+     "period": "2050 forecast",
+     "period_end": "2050-12-31",
+     "publisher": "African Energy Chamber",
+     "series": "Africa's refined-product balance",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "4.1 billion ordinary shares at ₦525 (about $0.40) per share",
+     "value": "4.1 billion ordinary shares",
+     "period": "14 September - 13 October 2026",
+     "period_end": "2026-10-13",
+     "publisher": "Nigerian Exchange",
+     "series": "Dangote IPO prospectus",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "targeting gross proceeds of roughly ₦2.15 trillion — about $1.6 billion",
+     "value": "₦2.15 trillion",
+     "period": "14 September - 13 October 2026",
+     "period_end": "2026-10-13",
+     "publisher": "Nigerian Exchange",
+     "series": "Dangote IPO prospectus",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "implied a valuation of roughly $47.6 billion",
+     "value": "$47.6 billion",
+     "period": "September 2026",
+     "period_end": "2026-09-30",
+     "publisher": "Nigerian Exchange",
+     "series": "Dangote IPO final terms",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Aliko Dangote's own beneficial ownership stays at roughly 84.3% after the offer",
+     "value": "84.3%",
+     "period": "September 2026",
+     "period_end": "2026-09-30",
+     "publisher": "Nigerian Exchange",
+     "series": "Dangote IPO final terms",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "only about 3.3% of the company made available to public investors",
+     "value": "3.3%",
+     "period": "September 2026",
+     "period_end": "2026-09-30",
+     "publisher": "Nigerian Exchange",
+     "series": "Dangote IPO final terms",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "take Nigeria's total national refining capacity to roughly 2.64 million barrels a day by 2031",
+     "value": "2.64 million barrels a day",
+     "period": "2031",
+     "period_end": "2031-12-31",
+     "publisher": "Economic Confidential",
+     "series": "Nigeria 24-project refinery pipeline",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "estimated 466,000 metric tonnes exported to Europe in June alone",
+     "value": "466,000 metric tonnes",
+     "period": "June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "Economic Confidential",
+     "series": "Dangote jet-fuel exports",
+     "frequency": "monthly",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "Nigeria now makes most of its own petrol and has cut fuel imports by more than half.",
+     "value": "more than 50%",
+     "period": null,
+     "period_end": null,
+     "publisher": "OilPrice.com",
+     "series": "Nigeria's fuel import reduction (YoY)",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "Africa's projected refined-product imports are forecast to rise from 2 million to 3.4 million barrels a day by 2050",
+     "value": "2 million barrels/day (2024) → 3.4 million barrels/day (2050)",
+     "period": "2024 → 2050",
+     "period_end": "2050-12-31",
+     "publisher": "African Energy Chamber",
+     "series": "Africa's refined-product imports forecast",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "Dangote refinery is now operating at 650,000 Barrels/day, ~99% utilisation",
+     "value": "650,000 barrels/day",
+     "period": null,
+     "period_end": null,
+     "publisher": "OilPrice.com",
+     "series": "Dangote refinery production",
+     "frequency": "live",
+     "headline": true
+    },
+    {
+     "quote": "Dangote now supplies 62% Share of Nigeria's petrol (PMS) specifically",
+     "value": "62%",
+     "period": "as of January–February 2026",
+     "period_end": "2026-02-29",
+     "publisher": "OilPrice.com",
+     "series": "Dangote's share of Nigeria's petrol supply",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Fall in Nigeria's petrol imports, YoY, Q1 2025 | −54 | %",
+     "value": "−54%",
+     "period": "Q1 2025",
+     "period_end": "2025-03-31",
+     "publisher": "OilPrice.com",
+     "series": "Nigeria's petrol import YoY change",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "Projected annual forex savings from reduced imports | up to 10 | $ billion/year",
+     "value": "up to $10 billion/year",
+     "period": null,
+     "period_end": null,
+     "publisher": "OilPrice.com",
+     "series": "Nigeria's forex savings from reduced fuel imports",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Nigeria's four existing state refineries ... had a combined installed capacity of 445,000 bpd",
+     "value": "445,000 barrels/day",
+     "period": null,
+     "period_end": null,
+     "publisher": "Ricardo Alves Silva and Rosário Paixão (Miranda Law Firm)",
+     "series": "Nigeria's state refineries installed capacity (2018 baseline)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Nigeria's National Petroleum Corporation's own published utilisation was just under 37% in 2017 and 14% in 2018",
+     "value": "37% (2017) and 14% (2018)",
+     "period": "2017 and 2018",
+     "period_end": "2018-12-31",
+     "publisher": "Ricardo Alves Silva and Rosário Paixão (Miranda Law Firm)",
+     "series": "Nigeria's state refineries utilisation rate",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Nigeria was importing roughly a million tonnes of fuel a month",
+     "value": "1 million tonnes/month",
+     "period": null,
+     "period_end": null,
+     "publisher": "Ricardo Alves Silva and Rosário Paixão (Miranda Law Firm)",
+     "series": "Nigeria's fuel imports (2018 baseline)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Angola's only full-scale refinery ... ran at 65,000 bpd nameplate but produced only 39,000 bpd",
+     "value": "65,000 barrels/day (nameplate) and 39,000 barrels/day (actual)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Ricardo Alves Silva and Rosário Paixão (Miranda Law Firm)",
+     "series": "Angola's Luanda refinery capacity and production",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Angola's Luanda refinery ... covered about a fifth of national demand while imports covered 80%",
+     "value": "20% (domestic supply) and 80% (imports)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Ricardo Alves Silva and Rosário Paixão (Miranda Law Firm)",
+     "series": "Angola's fuel supply-demand split",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Less than 50 refineries serve the entire continent",
+     "value": "< 50 refineries",
+     "period": null,
+     "period_end": null,
+     "publisher": "Ricardo Alves Silva and Rosário Paixão (Miranda Law Firm)",
+     "series": "Africa's total refining capacity (2018 baseline)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Africa's total refined-product demand stood at roughly 4 million barrels a day in 2024 and is forecast to pass 6 million barrels a day by 2050",
+     "value": "~4 million barrels/day (2024) → >6 million barrels/day (2050)",
+     "period": "2024 → 2050",
+     "period_end": "2050-12-31",
+     "publisher": "African Energy Chamber",
+     "series": "Africa's total refined-product demand",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "gasoline demand alone is projected to exceed 2.2 million bpd by 2050",
+     "value": ">2.2 million barrels/day (2050)",
+     "period": "2050",
+     "period_end": "2050-12-31",
+     "publisher": "African Energy Chamber",
+     "series": "Africa's gasoline demand forecast",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "diesel/gasoil demand rises by roughly 880,000 bpd to just under 2.7 million bpd",
+     "value": "~880,000 barrels/day increase → ~2.7 million barrels/day (2050)",
+     "period": "2024 → 2050",
+     "period_end": "2050-12-31",
+     "publisher": "African Energy Chamber",
+     "series": "Africa's diesel/gasoil demand forecast",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "jet fuel demand rises 65%, from 280,000 bpd in 2025 to 465,000 bpd by 2050",
+     "value": "280,000 barrels/day (2025) → 465,000 barrels/day (2050)",
+     "period": "2025 → 2050",
+     "period_end": "2050-12-31",
+     "publisher": "African Energy Chamber",
+     "series": "Africa's jet fuel demand forecast",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Africa's population rising from roughly 1.5 billion today to 2.4 billion by 2050",
+     "value": "1.5 billion (current) → 2.4 billion (2050)",
+     "period": "2026 → 2050",
+     "period_end": "2050-12-31",
+     "publisher": "African Energy Chamber",
+     "series": "Africa's population forecast",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The Dangote refinery ... began processing crude in January 2024 and started producing Premium Motor Spirit (petrol) in September 2024",
+     "value": "January 2024 (crude processing start) and September 2024 (petrol production start)",
+     "period": null,
+     "period_end": null,
+     "publisher": "OilPrice.com",
+     "series": "Dangote refinery milestones",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "By January 2026 it was running at roughly 650,000 barrels a day, about 103.3 million litres of crude daily",
+     "value": "650,000 barrels/day (650,000 bpd) and 103.3 million litres/day",
+     "period": "January 2026",
+     "period_end": "2026-01-31",
+     "publisher": "OilPrice.com",
+     "series": "Dangote refinery production and volume",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "a 25% jump from December's roughly 82.7 million litres",
+     "value": "82.7 million litres/day (December 2025)",
+     "period": "December 2025",
+     "period_end": "2025-12-31",
+     "publisher": "OilPrice.com",
+     "series": "Dangote refinery production (December 2025)",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Total investment has exceeded $19 billion",
+     "value": "$19 billion",
+     "period": null,
+     "period_end": null,
+     "publisher": "OilPrice.com",
+     "series": "Dangote refinery total investment",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Dangote's investment at the time as an estimated $10 billion, targeting 600,000 bpd",
+     "value": "$10 billion and 600,000 barrels/day",
+     "period": "2018",
+     "period_end": "2018-12-31",
+     "publisher": "Ricardo Alves Silva and Rosário Paixão (Miranda Law Firm)",
+     "series": "Dangote refinery original investment and capacity (2018)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Dangote Petroleum Refinery & Petrochemicals FZE filed for an IPO originally reported as targeting $5 billion",
+     "value": "$5 billion (original target)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Leadership Nigeria, Billionaires.Africa, Hydrocarbon Processing, CNBC Africa",
+     "series": "Dangote IPO original target",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "marketing materials ... pointed to a $40–50 billion equity valuation",
+     "value": "$40–50 billion",
+     "period": null,
+     "period_end": null,
+     "publisher": "Leadership Nigeria, Billionaires.Africa, Hydrocarbon Processing, CNBC Africa",
+     "series": "Dangote equity valuation",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "expansion plan attached to that raise is the number that matters ... to take capacity from 650,000 barrels a day to 1.4 million within three years",
+     "value": "650,000 barrels/day → 1.4 million barrels/day (within three years)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Leadership Nigeria, Billionaires.Africa, Hydrocarbon Processing, CNBC Africa",
+     "series": "Dangote refinery expansion plan",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "final offer opened on the NGX on 14 September 2026 ... targeting gross proceeds of roughly ₦2.15 trillion (~$1.6 billion)",
+     "value": "₦2.15 trillion (~$1.6 billion)",
+     "period": "14 September–13 October 2026",
+     "period_end": "2026-10-13",
+     "publisher": "Channels Television, Nairametrics, CEOWORLD, Dabafinance, The Star (Kenya)",
+     "series": "Dangote IPO final terms",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "the offer implies a valuation of roughly $47.6 billion",
+     "value": "$47.6 billion",
+     "period": null,
+     "period_end": null,
+     "publisher": "Channels Television, Nairametrics, CEOWORLD, Dabafinance, The Star (Kenya)",
+     "series": "Dangote implied equity valuation",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Nigeria is reported to have 24 grassroots refinery projects ... expected on stream before 2031 — more than the 11 each reported for the United States and Iran",
+     "value": "24 projects (Nigeria) vs 11 each (US, Iran)",
+     "period": "before 2031",
+     "period_end": "2031-12-31",
+     "publisher": "Economic Confidential",
+     "series": "Nigeria's grassroots refinery projects",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "If completed, they would take Nigeria's total national refining capacity to roughly 2.64 million barrels a day by 2031",
+     "value": "2.64 million barrels/day (2031)",
+     "period": "2031",
+     "period_end": "2031-12-31",
+     "publisher": "Economic Confidential",
+     "series": "Nigeria's total refining capacity (2031 target)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "an estimated 466,000 metric tonnes exported to Europe in June alone",
+     "value": "466,000 metric tonnes (June 2026)",
+     "period": "June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "Economic Confidential",
+     "series": "Dangote's jet fuel exports to Europe",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "over $20 billion in downstream infrastructure investment needed by 2050",
+     "value": "$20 billion",
+     "period": "by 2050",
+     "period_end": "2050-12-31",
+     "publisher": "African Energy Chamber",
+     "series": "Africa's downstream infrastructure investment gap",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "a proposed 700,000 bpd refinery at Lamu ... carrying a reported $17 billion price tag",
+     "value": "700,000 barrels/day and $17 billion",
+     "period": null,
+     "period_end": null,
+     "publisher": "News24, OilPrice.com, Billionaires.Africa",
+     "series": "Kenya's proposed Lamu refinery",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Dangote has reportedly agreed ... to take capacity from 650,000 barrels a day to 1.4 million within three years",
+     "value": "650,000 barrels/day → 1.4 million barrels/day (within three years)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Leadership Nigeria, Billionaires.Africa, Hydrocarbon Processing, CNBC Africa",
+     "series": "Dangote refinery expansion plan (reiterated)",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

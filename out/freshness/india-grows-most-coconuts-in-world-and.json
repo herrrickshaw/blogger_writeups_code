@@ -1,0 +1,620 @@
+{
+ "slug": "india-grows-most-coconuts-in-world-and",
+ "text_sha1": "5282f1a86fff3afa",
+ "chars": 17018,
+ "checked": "2026-10-23T12:33:38",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "PIB puts its share at 31.24% of global production",
+     "value": "31.24%",
+     "period": "as on 24 August 2026",
+     "period_end": null,
+     "publisher": "PIB",
+     "series": "global coconut production share",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "Kerala: ~7.54 lakh ha — largest area of any state",
+     "value": "~7.54 lakh ha",
+     "period": "2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "Coconut Development Board",
+     "series": "state-wise coconut area",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "~9,664 nuts/ha — lowest of the big four",
+     "value": "~9,664 nuts/ha",
+     "period": "2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "Coconut Development Board",
+     "series": "state-wise coconut productivity",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Karnataka | ~5.65 lakh ha | ~28.8% — largest producer by volume",
+     "value": "~5.65 lakh ha",
+     "period": "2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "Coconut Development Board",
+     "series": "state-wise coconut area",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Tamil Nadu | ~4.93 lakh ha | ~28.5%, nearly matching Karnataka | ~13,775 nuts/ha — highest of the big four",
+     "value": "~4.93 lakh ha",
+     "period": "2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "Coconut Development Board",
+     "series": "state-wise coconut area",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Tamil Nadu ... ~13,775 nuts/ha — highest of the big four",
+     "value": "~13,775 nuts/ha",
+     "period": "2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "Coconut Development Board",
+     "series": "state-wise coconut productivity",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "National figures for 2024-25: area 2.19 million hectares",
+     "value": "2.19 million hectares",
+     "period": "2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "Coconut Development Board",
+     "series": "national coconut area",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "production 20,301–21,373 million nuts (sources vary)",
+     "value": "20,301-21,373 million nuts",
+     "period": "2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "Coconut Development Board",
+     "series": "national coconut production",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "productivity 9,249–9,871 nuts/hectare",
+     "value": "9,249-9,871 nuts/hectare",
+     "period": "2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "Coconut Development Board",
+     "series": "national coconut productivity",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Exports 42.20 | Imports 14.67 | Copra HS 1203",
+     "value": "US$42.20 million",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "8-digit trade series",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Exports 42.20 | Imports 14.67 | Copra HS 1203",
+     "value": "US$14.67 million",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "8-digit trade series",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Exports 0.01 | Imports 56.83 | Coconut / Copra Oil-Cake HS 2306",
+     "value": "US$0.01 million",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "8-digit trade series",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Exports 0.01 | Imports 56.83 | Coconut / Copra Oil-Cake HS 2306",
+     "value": "US$56.83 million",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "8-digit trade series",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "net coconut-sector surplus of roughly $100 million (FY26)",
+     "value": "US$100 million",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "8-digit trade series",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "raised its new-planting grant from ₹6,500/ha to ₹56,000/ha in 2025",
+     "value": "₹6,500/ha",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "Government of Kerala",
+     "series": "new-planting grant",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "raised its new-planting grant from ₹6,500/ha to ₹56,000/ha in 2025",
+     "value": "₹56,000/ha",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "Government of Kerala",
+     "series": "new-planting grant",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "a specific figure: a 31.24% share of global production , against a smaller 17.90% share of global area.",
+     "value": "17.90%",
+     "period": "as on 24 August 2026",
+     "period_end": null,
+     "publisher": "PIB",
+     "series": "global coconut area share",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Indonesia (roughly 17–19 million tonnes)",
+     "value": "17-19 million tonnes",
+     "period": "as on 24 August 2026",
+     "period_end": null,
+     "publisher": "PIB",
+     "series": "global coconut production by tonnage",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "the Philippines (roughly 15 million tonnes)",
+     "value": "15 million tonnes",
+     "period": "as on 24 August 2026",
+     "period_end": null,
+     "publisher": "PIB",
+     "series": "global coconut production by tonnage",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Andhra Pradesh | — | ~1,182 kilotonnes",
+     "value": "~1,182 kilotonnes",
+     "period": "2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "Coconut Development Board",
+     "series": "state-wise coconut production",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "West Bengal | — | ~290 kilotonnes",
+     "value": "~290 kilotonnes",
+     "period": "2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "Coconut Development Board",
+     "series": "state-wise coconut production",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Odisha | — | ~275 kilotonnes",
+     "value": "~275 kilotonnes",
+     "period": "2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "Coconut Development Board",
+     "series": "state-wise coconut production",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Gujarat added ~4,900 ha in one recent year per state broadcaster reporting",
+     "value": "~4,900 ha",
+     "period": "one recent year",
+     "period_end": null,
+     "publisher": "state broadcaster reporting",
+     "series": "state-wise coconut area addition",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Refined coconut (copra) oil | 74.65 | 6.00",
+     "value": "US$74.65 million",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "8-digit trade series",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Refined coconut (copra) oil | 74.65 | 6.00",
+     "value": "US$6.00 million",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "8-digit trade series",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Fresh coconut | 42.63 | 0.01",
+     "value": "US$42.63 million",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "8-digit trade series",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Fresh coconut | 42.63 | 0.01",
+     "value": "US$0.01 million",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "8-digit trade series",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Desiccated coconut | 22.92 | 22.89",
+     "value": "US$22.92 million",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "8-digit trade series",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Desiccated coconut | 22.92 | 22.89",
+     "value": "US$22.89 million",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "8-digit trade series",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Other coconuts | 16.98 | 0.09",
+     "value": "US$16.98 million",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "8-digit trade series",
+     "frequency": "annual",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "India leads the world in coconut count (PIB puts its share at 31.24% of global production)",
+     "value": "31.24%",
+     "period": "global production (unspecified)",
+     "period_end": null,
+     "publisher": "PIB",
+     "series": "Global coconut production share",
+     "frequency": "multi-year",
+     "headline": true
+    },
+    {
+     "quote": "India's coconut trade gap, FY26 (US$ million) — Exports 42.20, Imports 14.67 (Copra); Exports 0.01, Imports 56.83 (Coconut/Copra Oil-Cake)",
+     "value": "42.20 US$mn (exports), 14.67 US$mn (imports) for Copra; 0.01 US$mn (exports), 56.83 US$mn (imports) for Coconut/Copra Oil-Cake",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "8-digit trade series (HS 1203, HS 2306)",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Kerala has the most area under coconut of any state but the lowest productivity of the big four (~9,664 nuts/ha)",
+     "value": "~9,664 nuts/hectare",
+     "period": null,
+     "period_end": null,
+     "publisher": "Coconut Development Board (secondary sources: Vajiram & Ravi, IBEF, TNAU)",
+     "series": "State-wise coconut productivity",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Tamil Nadu, with less land, out-yields it by roughly 40% (~13,775 nuts/ha)",
+     "value": "~13,775 nuts/hectare",
+     "period": null,
+     "period_end": null,
+     "publisher": "Coconut Development Board (secondary sources: Vajiram & Ravi, IBEF, TNAU)",
+     "series": "State-wise coconut productivity",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "India's coconut-and-derivatives trade book runs a real surplus of roughly $100 million (FY26)",
+     "value": "~$100 million",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S (article's own analysis)",
+     "series": "Coconut-related trade surplus",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Kerala raised its new-planting grant from ₹6,500/ha to ₹56,000/ha in 2025",
+     "value": "₹6,500/ha → ₹56,000/ha",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "Kerala Government (state-level reporting)",
+     "series": "New-planting grant for coconut",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "New Coconut Promotion Scheme raised the area-expansion subsidy roughly eightfold and the seedling subsidy nearly sixfold",
+     "value": "area-expansion subsidy: ~eightfold increase; seedling subsidy: ~sixfold increase",
+     "period": "Union Budget 2026-27",
+     "period_end": "2026-03-31",
+     "publisher": "PIB",
+     "series": "New Coconut Promotion Scheme",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "New Coconut Promotion Scheme: ₹350 crore allocation shared with cashew and cocoa",
+     "value": "₹350 crore",
+     "period": "2026-27",
+     "period_end": "2027-03-31",
+     "publisher": "PIB",
+     "series": "New Coconut Promotion Scheme budget",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Replanting & Rejuvenation Scheme: ₹54,000/hectare assistance over two years, covered 25,517 hectares at ₹130.46 crore over five years",
+     "value": "₹54,000/hectare, 25,517 hectares, ₹130.46 crore",
+     "period": "five years (unspecified start)",
+     "period_end": null,
+     "publisher": "Coconut Development Board (secondary sources)",
+     "series": "Replanting & Rejuvenation Scheme",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "Coconut Palm Insurance Scheme (CPIS): sum insured ₹600 per palm (age 4–15) rising to ₹1,150 per palm (age 16–60)",
+     "value": "₹600–₹1,150 per palm",
+     "period": null,
+     "period_end": null,
+     "publisher": "Lok Sabha unstarred-question PDF / eparlib.sansad.in",
+     "series": "Coconut Palm Insurance Scheme",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Productivity Improvement through Coconut-based Cropping System (PICCS): ₹42,000/hectare",
+     "value": "₹42,000/hectare",
+     "period": null,
+     "period_end": null,
+     "publisher": "Coconut Development Board (secondary sources)",
+     "series": "PICCS subsidy",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Kerala runs 204 tapping licences under its 'Kalparasa' branding against Tamil Nadu's 13",
+     "value": "204 (Kerala), 13 (Tamil Nadu)",
+     "period": null,
+     "period_end": null,
+     "publisher": "State-level reporting",
+     "series": "Neera tapping licences",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "National figures for 2024-25: area 2.19 million hectares, production 20,301–21,373 million nuts",
+     "value": "2.19 million hectares (area), 20,301–21,373 million nuts (production)",
+     "period": "2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "PIB / Directorate of Economics & Statistics",
+     "series": "National coconut area and production",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "India's coconut trade data shows a net surplus of roughly $100 million (FY26) — but imports $14.7mn of copra and $56.8mn of coconut oil-cake/meal",
+     "value": "$14.7mn (copra imports), $56.8mn (coconut oil-cake/meal imports)",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S (article's own analysis)",
+     "series": "Coconut-related trade data",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "India exports $11.61mn of coconut-shell charcoal but imports $25.92mn",
+     "value": "$11.61mn (exports), $25.92mn (imports)",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S (article's own analysis)",
+     "series": "Coconut-shell charcoal trade",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Coconut Development Board's total 2025-26 budget: ₹147.21 crore",
+     "value": "₹147.21 crore",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Lok Sabha written reply",
+     "series": "Coconut Development Board budget",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Karnataka added ~4,900 hectares in one recent year",
+     "value": "~4,900 hectares",
+     "period": null,
+     "period_end": null,
+     "publisher": "State broadcaster reporting",
+     "series": "Coconut area expansion",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Kerala: ~7.54 lakh hectares (largest area of any state)",
+     "value": "~7.54 lakh hectares",
+     "period": null,
+     "period_end": null,
+     "publisher": "Coconut Development Board (secondary sources)",
+     "series": "State-wise coconut area",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Karnataka: ~5.65 lakh hectares, ~28.8% share of national production",
+     "value": "~5.65 lakh hectares, ~28.8%",
+     "period": null,
+     "period_end": null,
+     "publisher": "Coconut Development Board (secondary sources)",
+     "series": "State-wise coconut area and production share",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Tamil Nadu: ~4.93 lakh hectares, ~28.5% share of national production",
+     "value": "~4.93 lakh hectares, ~28.5%",
+     "period": null,
+     "period_end": null,
+     "publisher": "Coconut Development Board (secondary sources)",
+     "series": "State-wise coconut area and production share",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Andhra Pradesh: ~1,182 kilotonnes",
+     "value": "~1,182 kilotonnes",
+     "period": null,
+     "period_end": null,
+     "publisher": "Secondary sources (not independently confirmed)",
+     "series": "State-wise coconut production",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "West Bengal: ~290 kilotonnes",
+     "value": "~290 kilotonnes",
+     "period": null,
+     "period_end": null,
+     "publisher": "Secondary sources",
+     "series": "State-wise coconut production",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Odisha: ~275 kilotonnes",
+     "value": "~275 kilotonnes",
+     "period": null,
+     "period_end": null,
+     "publisher": "Secondary sources",
+     "series": "State-wise coconut production",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Indonesia produces roughly 17–19 million tonnes, Philippines roughly 15 million tonnes",
+     "value": "17–19 million tonnes (Indonesia), 15 million tonnes (Philippines)",
+     "period": null,
+     "period_end": null,
+     "publisher": "PIB",
+     "series": "Global coconut production by tonnage",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "India's coconut trade data shows exports of refined coconut oil: $74.65mn, imports: $6.00mn (FY26)",
+     "value": "$74.65mn (exports), $6.00mn (imports)",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S (article's own analysis)",
+     "series": "Refined coconut oil trade",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "India's coconut trade data shows exports of fresh coconut: $42.63mn, imports: $0.01mn (FY26)",
+     "value": "$42.63mn (exports), $0.01mn (imports)",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S (article's own analysis)",
+     "series": "Fresh coconut trade",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "India's coconut trade data shows exports of crude coconut oil: $10.91mn, imports: $0.01mn (FY26)",
+     "value": "$10.91mn (exports), $0.01mn (imports)",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S (article's own analysis)",
+     "series": "Crude coconut oil trade",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "India's coconut trade data shows exports of coconut-shell charcoal: $11.61mn, imports: $25.92mn (FY26)",
+     "value": "$11.61mn (exports), $25.92mn (imports)",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S (article's own analysis)",
+     "series": "Coconut-shell charcoal trade",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "India's coconut trade data shows exports of coconut/copra oil-cake: $0.01mn, imports: $55.43mn (FY26)",
+     "value": "$0.01mn (exports), $55.43mn (imports)",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S (article's own analysis)",
+     "series": "Coconut/copra oil-cake trade",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Replanting & Rejuvenation Scheme: 2025-26 target 1,672 hectares",
+     "value": "1,672 hectares",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Coconut Development Board (secondary sources)",
+     "series": "Replanting & Rejuvenation Scheme target",
+     "frequency": "annual",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

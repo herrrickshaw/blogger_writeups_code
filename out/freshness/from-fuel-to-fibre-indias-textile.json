@@ -1,0 +1,692 @@
+{
+ "slug": "from-fuel-to-fibre-indias-textile",
+ "text_sha1": "4563125175a01cb3",
+ "chars": 23695,
+ "checked": "2026-10-23T11:41:29",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "India's textile sector doesn't have one import problem — it has a $20.4 billion/year feedstock problem",
+     "value": "$20.4 billion/year",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "DGCI&S",
+     "series": "TradeStat chapter-level",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "better-tracked $2.85 billion technical-textiles trade book (207 HSN codes, 12 segments) that is already in surplus.",
+     "value": "$2.85 billion",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "Ministry of Textiles",
+     "series": "207-HSN-code technical textiles trade table",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Exports rose from $1.45bn (FY17) to $2.84bn (FY22)",
+     "value": "$2.84bn",
+     "period": "FY22",
+     "period_end": "2022-03-31",
+     "publisher": "Ministry of Textiles",
+     "series": "Technical Textiles trade data",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "the trade balance flipped from a $277M deficit in FY17 to a $384–532M surplus by FY22–24",
+     "value": "$384–532M",
+     "period": "FY22–24",
+     "period_end": "2024-03-31",
+     "publisher": "Ministry of Textiles",
+     "series": "Technical Textiles trade data",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "alone contributed a $754M net surplus in FY24.",
+     "value": "$754M",
+     "period": "FY24",
+     "period_end": "2024-03-31",
+     "publisher": "Ministry of Textiles",
+     "series": "Technical Textiles trade data",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Mobiltech (nylon tyre cord, airbag yarn, −$214M in FY25 per the update table below)",
+     "value": "-$214M",
+     "period": "FY25",
+     "period_end": "2025-03-31",
+     "publisher": "DGCI&S",
+     "series": "TradeStat Eidb Commodity-wise",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Hometech, by contrast, has since swung to a small surplus (+$66M in FY25)",
+     "value": "+$66M",
+     "period": "FY25",
+     "period_end": "2025-03-31",
+     "publisher": "DGCI&S",
+     "series": "TradeStat Eidb Commodity-wise",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "39 — Plastics & Polymers | 13.3 | 22.1 | +66 | −14.0 |",
+     "value": "13.3 USD bn",
+     "period": "FY21",
+     "period_end": "2021-03-31",
+     "publisher": "DGCI&S",
+     "series": "TradeStat chapter-level",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "39 — Plastics & Polymers | 13.3 | 22.1 | +66 | −14.0 |",
+     "value": "22.1 USD bn",
+     "period": "FY25",
+     "period_end": "2025-03-31",
+     "publisher": "DGCI&S",
+     "series": "TradeStat chapter-level",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "39 — Plastics & Polymers | 13.3 | 22.1 | +66 | −14.0 |",
+     "value": "-14.0 USD bn",
+     "period": "FY25",
+     "period_end": "2025-03-31",
+     "publisher": "DGCI&S",
+     "series": "TradeStat chapter-level",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "29 — Organic Chemicals/Monomers | 19.7 | 26.6 | +35 | −6.5 |",
+     "value": "19.7 USD bn",
+     "period": "FY21",
+     "period_end": "2021-03-31",
+     "publisher": "DGCI&S",
+     "series": "TradeStat chapter-level",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "29 — Organic Chemicals/Monomers | 19.7 | 26.6 | +35 | −6.5 |",
+     "value": "26.6 USD bn",
+     "period": "FY25",
+     "period_end": "2025-03-31",
+     "publisher": "DGCI&S",
+     "series": "TradeStat chapter-level",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "29 — Organic Chemicals/Monomers | 19.7 | 26.6 | +35 | −6.5 |",
+     "value": "-6.5 USD bn",
+     "period": "FY25",
+     "period_end": "2025-03-31",
+     "publisher": "DGCI&S",
+     "series": "TradeStat chapter-level",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Combined | 33.0 | 48.7 | +48 | −20.4 |",
+     "value": "33.0 USD bn",
+     "period": "FY21",
+     "period_end": "2021-03-31",
+     "publisher": "DGCI&S",
+     "series": "TradeStat chapter-level",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Combined | 33.0 | 48.7 | +48 | −20.4 |",
+     "value": "48.7 USD bn",
+     "period": "FY25",
+     "period_end": "2025-03-31",
+     "publisher": "DGCI&S",
+     "series": "TradeStat chapter-level",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Combined | 33.0 | 48.7 | +48 | −20.4 |",
+     "value": "-20.4 USD bn",
+     "period": "FY25",
+     "period_end": "2025-03-31",
+     "publisher": "DGCI&S",
+     "series": "TradeStat chapter-level",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "E20 alone displaces roughly 10.8 billion litres of petrol a year; a prospective E30 would displace closer to 16 billion litres.",
+     "value": "10.8 billion litres",
+     "period": "annual",
+     "period_end": null,
+     "publisher": "PPAC",
+     "series": "Fuel blending estimates",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "a prospective E30 would displace closer to 16 billion litres.",
+     "value": "16 billion litres",
+     "period": "annual",
+     "period_end": null,
+     "publisher": "PPAC",
+     "series": "Fuel blending estimates",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Polyester (PET) | Paraxylene → PTA + MEG | MEG ~1.5–2.0 MMT | Partial |",
+     "value": "~1.5–2.0 MMT",
+     "period": "annual",
+     "period_end": null,
+     "publisher": "DGCI&S / NTTM",
+     "series": "Compendium",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Acrylic (PAN) | Propylene → Acrylonitrile | ~164 kt | ~100% |",
+     "value": "~164 kt",
+     "period": "annual",
+     "period_end": null,
+     "publisher": "DGCI&S / NTTM",
+     "series": "Compendium",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Nylon 6/6,6 | Benzene → cyclohexane → Caprolactam/adipic | ~150 kt | High |",
+     "value": "~150 kt",
+     "period": "annual",
+     "period_end": null,
+     "publisher": "DGCI&S / NTTM",
+     "series": "Compendium",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Spandex/PBT | C4+benzene → BDO → PTMEG+MDI | ~50–100 kt | High |",
+     "value": "~50–100 kt",
+     "period": "annual",
+     "period_end": null,
+     "publisher": "DGCI&S / NTTM",
+     "series": "Compendium",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "PP fibre | Propylene → Polypropylene (fibre grade) | ~1.6 MMT (all-use) | ~20–25% |",
+     "value": "~1.6 MMT",
+     "period": "annual",
+     "period_end": null,
+     "publisher": "DGCI&S / NTTM",
+     "series": "Compendium",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "PE tape | Ethylene → HDPE | ~3.1 MMT (all-use) | ~25–40% |",
+     "value": "~3.1 MMT",
+     "period": "annual",
+     "period_end": null,
+     "publisher": "DGCI&S / NTTM",
+     "series": "Compendium",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "The Cabinet approved seven parks in October 2021 at a central outlay of ₹4,445 crore over seven years (to FY2027-28)",
+     "value": "₹4,445 crore",
+     "period": "FY2027-28",
+     "period_end": "2028-03-31",
+     "publisher": "PIB / ministry",
+     "series": "PM MITRA approval",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "aiming to mobilise ₹70,000 crore in total investment and create close to 20 lakh direct and indirect jobs .",
+     "value": "₹70,000 crore",
+     "period": "target",
+     "period_end": null,
+     "publisher": "PIB / ministry",
+     "series": "PM MITRA target",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "create close to 20 lakh direct and indirect jobs",
+     "value": "20 lakh",
+     "period": "target",
+     "period_end": null,
+     "publisher": "PIB / ministry",
+     "series": "PM MITRA target",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Dhar, Madhya Pradesh | 1,150 of 2,158 acres allotted; 91 companies; most advanced | ₹24,175 Cr proposed (up from ₹21,500 Cr) |",
+     "value": "1,150 acres",
+     "period": "Feb 2026",
+     "period_end": "2026-02-28",
+     "publisher": "PIB / ministry",
+     "series": "PM MITRA progress release",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Dhar, Madhya Pradesh | 1,150 of 2,158 acres allotted; 91 companies; most advanced | ₹24,175 Cr proposed (up from ₹21,500 Cr) |",
+     "value": "2,158 acres",
+     "period": "Feb 2026",
+     "period_end": "2026-02-28",
+     "publisher": "PIB / ministry",
+     "series": "PM MITRA progress release",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Dhar, Madhya Pradesh | 1,150 of 2,158 acres allotted; 91 companies; most advanced | ₹24,175 Cr proposed (up from ₹21,500 Cr) |",
+     "value": "₹24,175 Cr",
+     "period": "Feb 2026",
+     "period_end": "2026-02-28",
+     "publisher": "PIB / ministry",
+     "series": "PM MITRA progress release",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Warangal, Telangana | 540 acres allotted; already grounded, most operational | ₹3,862 Cr grounded |",
+     "value": "540 acres",
+     "period": "Feb 2026",
+     "period_end": "2026-02-28",
+     "publisher": "PIB / ministry",
+     "series": "PM MITRA progress release",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Warangal, Telangana | 540 acres allotted; already grounded, most operational | ₹3,862 Cr grounded |",
+     "value": "₹3,862 Cr",
+     "period": "Feb 2026",
+     "period_end": "2026-02-28",
+     "publisher": "PIB / ministry",
+     "series": "PM MITRA progress release",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Virudhunagar, Tamil Nadu | Applications for 201 acres received | ₹2,076 Cr proposed |",
+     "value": "201 acres",
+     "period": "Feb 2026",
+     "period_end": "2026-02-28",
+     "publisher": "PIB / ministry",
+     "series": "PM MITRA progress release",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Virudhunagar, Tamil Nadu | Applications for 201 acres received | ₹2,076 Cr proposed |",
+     "value": "₹2,076 Cr",
+     "period": "Feb 2026",
+     "period_end": "2026-02-28",
+     "publisher": "PIB / ministry",
+     "series": "PM MITRA progress release",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Amravati, Maharashtra | Applications invited, early stage | ₹4,000 Cr target |",
+     "value": "₹4,000 Cr",
+     "period": "Feb 2026",
+     "period_end": "2026-02-28",
+     "publisher": "PIB / ministry",
+     "series": "PM MITRA progress release",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "central infrastructure spend so far: ₹564.72 Cr of ₹2,160.17 Cr approved for external site infrastructure",
+     "value": "₹564.72 Cr",
+     "period": "Feb 2026",
+     "period_end": "2026-02-28",
+     "publisher": "PIB / ministry",
+     "series": "PM MITRA progress release",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "central infrastructure spend so far: ₹564.72 Cr of ₹2,160.17 Cr approved for external site infrastructure",
+     "value": "₹2,160.17 Cr",
+     "period": "Feb 2026",
+     "period_end": "2026-02-28",
+     "publisher": "PIB / ministry",
+     "series": "PM MITRA progress release",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Chapter 29 (organic chemicals) deficit actually narrowed to -$5.0bn in FY26 (imports -4.4%)",
+     "value": "-$5.0bn",
+     "period": "FY26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TradeStat commodity-wise",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Chapter 39 (plastics) widened further to -$14.6bn",
+     "value": "-$14.6bn",
+     "period": "FY26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TradeStat commodity-wise",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Chapter 54 (man-made filaments) flipped from a $255M surplus to a $337M deficit in a single year as MMF imports rose 29.3%",
+     "value": "$255M",
+     "period": "FY25",
+     "period_end": "2025-03-31",
+     "publisher": "DGCI&S",
+     "series": "TradeStat commodity-wise",
+     "frequency": "annual",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "India's technical-textile trade under the official 207-HSN-code basket... exports rose from $1.45bn (FY17) to $2.84bn (FY22), a 28.4% jump in the final year alone, and the trade balance flipped from a $277M deficit in FY17 to a $384–532M surplus by FY22–24",
+     "value": "$1.45bn exports (FY17), $2.84bn exports (FY22), $277M deficit (FY17), $384–532M surplus (FY22–24)",
+     "period": "FY17, FY22, FY22–24",
+     "period_end": "2022-03-31",
+     "publisher": "Ministry of Textiles (eBooklet), separate Fuel-to-Fibre analysis",
+     "series": "207-HSN-code technical textiles trade balance and exports",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Packtech — jute sacks, woven polyolefin bags, tea-bag filter paper... contributed a $754M net surplus in FY24",
+     "value": "$754M net surplus (FY24)",
+     "period": "FY24",
+     "period_end": "2024-03-31",
+     "publisher": "Ministry of Textiles (update table)",
+     "series": "Packtech segment trade balance (207-HSN codes)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Mobiltech (nylon tyre cord, airbag yarn, −$214M in FY25)",
+     "value": "-$214M deficit (FY25)",
+     "period": "FY25",
+     "period_end": "2025-03-31",
+     "publisher": "Ministry of Textiles (update table)",
+     "series": "Mobiltech segment trade balance (207-HSN codes)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Specialty Fibres (imports up 275% in a single year)",
+     "value": "275% import growth (unspecified period)",
+     "period": null,
+     "publisher": "DGCI&S TradeStat (implied)",
+     "series": "Specialty Fibres segment imports",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Chapter 39 — Plastics & Polymers | FY21 Imports (USD bn) | FY25 Imports (USD bn) | Growth (%) | FY25 Deficit (USD bn) | ... 13.3 | 22.1 | +66 | −14.0 |",
+     "value": "$13.3bn imports (FY21), $22.1bn imports (FY25), +66% growth, −$14.0bn deficit (FY25)",
+     "period": "FY21, FY25",
+     "period_end": "2025-03-31",
+     "publisher": "DGCI&S TradeStat",
+     "series": "Chapter 39 (Plastics & Polymers) trade data",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Chapter 29 — Organic Chemicals/Monomers | FY21 Imports (USD bn) | FY25 Imports (USD bn) | Growth (%) | FY25 Deficit (USD bn) | ... 19.7 | 26.6 | +35 | −6.5 |",
+     "value": "$19.7bn imports (FY21), $26.6bn imports (FY25), +35% growth, −$6.5bn deficit (FY25)",
+     "period": "FY21, FY25",
+     "period_end": "2025-03-31",
+     "publisher": "DGCI&S TradeStat",
+     "series": "Chapter 29 (Organic Chemicals/Monomers) trade data",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Combined [Chapter 39+29] | ... | ... | ... | −20.4 |",
+     "value": "-$20.4bn combined deficit (FY25)",
+     "period": "FY25",
+     "period_end": "2025-03-31",
+     "publisher": "DGCI&S TradeStat",
+     "series": "Combined Chapter 39+29 trade deficit",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "E20 alone displaces roughly 10.8 billion litres of petrol a year; a prospective E30 would displace closer to 16 billion litres.",
+     "value": "10.8 billion litres (E20), 16 billion litres (E30)",
+     "period": null,
+     "publisher": "Author-derived (no explicit source)",
+     "series": "Ethanol blending petrol displacement estimates",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Polyester (PET) | Paraxylene → PTA + MEG | MEG ~1.5–2.0 MMT | Partial |",
+     "value": "MEG imports: ~1.5–2.0 MMT/year",
+     "period": null,
+     "publisher": "DGCI&S/NTTM Compendium 2024, DCPC/ICIS petrochemical tree",
+     "series": "Polyester feedstock imports (MEG)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Acrylic (PAN) | Propylene → Acrylonitrile | ~164 kt | ~100% |",
+     "value": "Acrylonitrile imports: ~164 kt/year",
+     "period": null,
+     "publisher": "DGCI&S/NTTM Compendium 2024, DCPC/ICIS petrochemical tree",
+     "series": "Acrylic feedstock imports (acrylonitrile)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Nylon 6/6,6 | Benzene → cyclohexane → Caprolactam/adipic | ~150 kt | High |",
+     "value": "Caprolactam imports: ~150 kt/year",
+     "period": null,
+     "publisher": "DGCI&S/NTTM Compendium 2024, DCPC/ICIS petrochemical tree",
+     "series": "Nylon feedstock imports (caprolactam)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "PP fibre | Propylene → Polypropylene (fibre grade) | ~1.6 MMT (all-use) | ~20–25% |",
+     "value": "Polypropylene fibre imports: ~1.6 MMT/year (all-use), ~20–25% dependence",
+     "period": null,
+     "publisher": "DGCI&S/NTTM Compendium 2024, DCPC/ICIS petrochemical tree",
+     "series": "Polypropylene fibre imports",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "freeing ~2 MMT/yr of MEG, acrylonitrile, caprolactam and BDO... worth an estimated $1.5bn/year in import substitution",
+     "value": "~2 MMT/year feedstock freed, $1.5bn/year import substitution",
+     "period": null,
+     "publisher": "Author-derived (no explicit source)",
+     "series": "Ethanol-blending import substitution estimate",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹18,500–20,600 crore/year (~$2.2–2.5bn) of import value... ₹4,500–5,500 crore/year (~$550–660M) judged substitutable by FY30",
+     "value": "₹18,500–20,600 crore/year (~$2.2–2.5bn), ₹4,500–5,500 crore/year (~$550–660M) substitutable by FY30",
+     "period": "FY30",
+     "period_end": "2029-03-31",
+     "publisher": "Author-derived (local financial-modelling work)",
+     "series": "Import substitution potential (petrochemicals)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Cabinet approved seven parks in October 2021 at a central outlay of ₹4,445 crore over seven years (to FY2027-28), aiming to mobilise ₹70,000 crore in total investment",
+     "value": "₹4,445 crore central outlay (to FY2027-28), ₹70,000 crore total investment",
+     "period": "Oct 2021 to FY2027-28",
+     "period_end": "2027-03-31",
+     "publisher": "PIB",
+     "series": "PM MITRA parks central funding and investment targets",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Progress as of February 2026... central infrastructure spend so far: ₹564.72 Cr of ₹2,160.17 Cr approved for external site infrastructure (~26% complete)",
+     "value": "₹564.72 crore spent, ₹2,160.17 crore approved (~26% complete)",
+     "period": "as of Feb 2026",
+     "period_end": "2026-02-29",
+     "publisher": "PIB PM MITRA progress release",
+     "series": "PM MITRA parks infrastructure spending",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "Dhar, Madhya Pradesh | 1,150 of 2,158 acres allotted; 91 companies; most advanced | ₹24,175 Cr proposed (up from ₹21,500 Cr) |",
+     "value": "1,150 acres allotted, ₹24,175 crore proposed investment",
+     "period": "as of Feb 2026",
+     "period_end": "2026-02-29",
+     "publisher": "PIB PM MITRA progress release, MP government",
+     "series": "PM MITRA Dhar park progress",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "Warangal, Telangana | 540 acres allotted; already grounded, most operational | ₹3,862 Cr grounded |",
+     "value": "540 acres allotted, ₹3,862 crore grounded",
+     "period": "as of Feb 2026",
+     "period_end": "2026-02-29",
+     "publisher": "PIB PM MITRA progress release",
+     "series": "PM MITRA Warangal park progress",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "Virudhunagar, Tamil Nadu | Applications for 201 acres received | ₹2,076 Cr proposed |",
+     "value": "201 acres applications received, ₹2,076 crore proposed",
+     "period": "as of Feb 2026",
+     "period_end": "2026-02-29",
+     "publisher": "PIB PM MITRA progress release",
+     "series": "PM MITRA Virudhunagar park progress",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "Trident Group is the anchor tenant at ₹4,881 crore, alongside Jain Cord Industries (₹2,515 Cr, technical nonwovens)",
+     "value": "₹4,881 crore (Trident Group), ₹2,515 crore (Jain Cord Industries)",
+     "period": null,
+     "publisher": "MP Industrial Development Corporation (land-allotment policy)",
+     "series": "PM MITRA Dhar park anchor investments",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Segment | FY22 Export (USD M) | FY22 Import (USD M) | Trade Balance | ... Mobiltech | 261 | 806 | −545, worst ratio in the basket |",
+     "value": "$261M exports, $806M imports, −$545M trade balance (FY22)",
+     "period": "FY22",
+     "period_end": "2021-12-31",
+     "publisher": "Ministry of Commerce and Industry",
+     "series": "Mobiltech segment trade data (207-HSN codes)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Chapter 29 (organic chemicals) deficit actually narrowed to -$5.0bn in FY26 (imports -4.4%) while Chapter 39 (plastics) widened further to -$14.6bn",
+     "value": "-$5.0bn deficit (Chapter 29, FY26), -$14.6bn deficit (Chapter 39, FY26)",
+     "period": "FY26",
+     "period_end": "2025-12-31",
+     "publisher": "DGCI&S TradeStat",
+     "series": "Chapter 29+39 trade deficit (FY2025-26)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Chapter 54 (man-made filaments) flipped from a $255M surplus to a $337M deficit in a single year as MMF imports rose 29.3%",
+     "value": "$255M surplus → $337M deficit (Chapter 54), +29.3% MMF imports",
+     "period": "unspecified year-over-year",
+     "period_end": null,
+     "publisher": "DGCI&S TradeStat",
+     "series": "Chapter 54 (man-made filaments) trade balance",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Segment | FY25 Export (USD M) | FY25 Import (USD M) | FY26 Export (USD M) | FY26 Import (USD M) | FY26 Net (USD M) | ... Specialty Fibres & Composites | 199 | 555 | 218 | 614 | -396 |",
+     "value": "$199M exports, $555M imports (FY25), $218M exports, $614M imports, −$396M net (FY26)",
+     "period": "FY25, FY26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S TradeStat (proxy analysis)",
+     "series": "Specialty Fibres & Composites trade data",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Indutech | 779 | 891 | 690 | 1,015 | -325 | High priority — LLDPE/HDPE-dependent; deficit nearly tripled in one year (−112 → −325)",
+     "value": "$779M exports, $891M imports (FY25), $690M exports, $1,015M imports, −$325M net (FY26)",
+     "period": "FY25, FY26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S TradeStat (proxy analysis)",
+     "series": "Indutech segment trade data",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Mobiltech | 360 | 574 | 283 | 592 | -310 | High priority — ... deficit widened as exports fell 21.4%",
+     "value": "$360M exports, $574M imports (FY25), $283M exports, $592M imports, −$310M net (FY26), −21.4% export growth",
+     "period": "FY25, FY26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S TradeStat (proxy analysis)",
+     "series": "Mobiltech segment trade data",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Hometech | 172 | 106 | 209 | 113 | +96 | Turnaround underway — exports +21.4%, surplus rebuilding",
+     "value": "$172M exports, $106M imports (FY25), $209M exports, $113M imports, +$96M net (FY26), +21.4% export growth",
+     "period": "FY25, FY26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S TradeStat (proxy analysis)",
+     "series": "Hometech segment trade data",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Defence Textile | 20 | 25 | 13 | 28 | -15 | Watch — small but strategic, deficit widening as exports fell 34.4%",
+     "value": "$20M exports, $25M imports (FY25), $13M exports, $28M imports, −$15M net (FY26), −34.4% export growth",
+     "period": "FY25, FY26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S TradeStat (proxy analysis)",
+     "series": "Defence Textile segment trade data",
+     "frequency": "annual",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

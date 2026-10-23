@@ -1,0 +1,99 @@
+{
+ "slug": "how-to-use-blog-consistency-check-is",
+ "text_sha1": "edfb30e64e6f4991",
+ "chars": 8402,
+ "checked": "2026-10-23T12:01:06",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": []
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "10 static rules per post (4 blocker, 2 major, 4 minor) 1 public post audited, read-only 1 BLOCKER and 1 MINOR found on that post",
+     "value": "10 rules (4 blocker, 2 major, 4 minor); 1 post audited; 1 blocker, 1 minor failure",
+     "period": null,
+     "period_end": null,
+     "publisher": "GitHub (blog-consistency-check repo)",
+     "series": "audit.py static rule checklist",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "auditing one live post took a few seconds with only curl and node and produced a 10-rule table plus a plain-language list of failures",
+     "value": "1 post audited in ~few seconds",
+     "period": null,
+     "period_end": null,
+     "publisher": "GitHub (blog-consistency-check repo)",
+     "series": "audit.py performance benchmark",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Run on 19 October 2026.",
+     "value": "19 October 2026",
+     "period": "19 October 2026",
+     "period_end": "2026-10-19",
+     "publisher": "GitHub (blog-consistency-check repo)",
+     "series": "audit.py run timestamp",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "posts audited: 1 · posts with at least one failure: 1",
+     "value": "1 post audited; 1 post with failures",
+     "period": "19 October 2026",
+     "period_end": "2026-10-19",
+     "publisher": "GitHub (blog-consistency-check repo)",
+     "series": "audit.py summary report",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "| severity | rule | failing | checked | ... dark-vars-locked | 1 | 1 | ... bw-override | 1 | 1 |",
+     "value": "1 blocker failure (dark-vars-locked); 1 minor failure (bw-override)",
+     "period": "19 October 2026",
+     "period_end": "2026-10-19",
+     "publisher": "GitHub (blog-consistency-check repo)",
+     "series": "audit.py rule summary table",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "1 BLOCKER failures",
+     "value": "1 blocker failure",
+     "period": "19 October 2026",
+     "period_end": "2026-10-19",
+     "publisher": "GitHub (blog-consistency-check repo)",
+     "series": "audit.py exit summary",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Whole-blog sweep | Run python3 audit.py with no arguments to walk the full feed (about 30 seconds for the static pass per the README).",
+     "value": "~30 seconds for static pass on full feed",
+     "period": null,
+     "period_end": null,
+     "publisher": "GitHub (blog-consistency-check repo)",
+     "series": "audit.py full-feed performance",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "v1.0.0 — 9 November 2026 — first published.",
+     "value": "9 November 2026",
+     "period": "9 November 2026",
+     "period_end": "2026-11-09",
+     "publisher": "GitHub (blog-consistency-check repo)",
+     "series": "article revision history",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

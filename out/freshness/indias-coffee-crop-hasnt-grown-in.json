@@ -1,0 +1,561 @@
+{
+ "slug": "indias-coffee-crop-hasnt-grown-in",
+ "text_sha1": "0e4d93933087f72a",
+ "chars": 18042,
+ "checked": "2026-10-23T13:56:49",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "India grows roughly 4% of the world's coffee and ranks 7th globally by volume",
+     "value": "4%",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Coffee Board of India / USDA",
+     "series": "Global coffee production share",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "India grows roughly 4% of the world's coffee and ranks 7th globally by volume",
+     "value": "7th",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Coffee Board of India / USDA",
+     "series": "Global coffee production rank",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Karnataka 256,695 t (~69%)",
+     "value": "256,695 t",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Coffee Board of India",
+     "series": "State-wise coffee production second-advance estimates",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Kerala 80,350 t (~22%)",
+     "value": "80,350 t",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Coffee Board of India",
+     "series": "State-wise coffee production second-advance estimates",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Tamil Nadu 19,975 t (~5%)",
+     "value": "19,975 t",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Coffee Board of India",
+     "series": "State-wise coffee production second-advance estimates",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Andhra Pradesh (Araku Valley) 15,290 t (~4%)",
+     "value": "15,290 t",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Coffee Board of India",
+     "series": "State-wise coffee production second-advance estimates",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Odisha 470 t (negligible)",
+     "value": "470 t",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Coffee Board of India",
+     "series": "State-wise coffee production second-advance estimates",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "India total: ~373,000 tonnes, 2025-26 second-advance estimate",
+     "value": "373,000 tonnes",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Coffee Board of India",
+     "series": "State-wise coffee production second-advance estimates",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "~298,000 tonnes in 2019-20",
+     "value": "298,000 tonnes",
+     "period": "2019-20",
+     "period_end": "2020-03-31",
+     "publisher": "Coffee Board of India",
+     "series": "Historical coffee production",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "~302,000 in 2010-11",
+     "value": "302,000 tonnes",
+     "period": "2010-11",
+     "period_end": "2011-03-31",
+     "publisher": "Coffee Board of India",
+     "series": "Historical coffee production",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "roughly 403,000 tonnes",
+     "value": "403,000 tonnes",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Coffee Board of India",
+     "series": "Post-blossom estimate",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "($735.87mn of a $2.14bn total, FY26)",
+     "value": "$735.87 mn",
+     "period": "FY26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "8-digit trade dataset",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "($735.87mn of a $2.14bn total, FY26)",
+     "value": "$2.14 bn",
+     "period": "FY26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "8-digit trade dataset",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "USDA projection of about 3.68 lakh tonnes for 2026-27",
+     "value": "3.68 lakh tonnes",
+     "period": "2026-27",
+     "period_end": "2027-03-31",
+     "publisher": "USDA",
+     "series": "USDA FAS GAIN Coffee reports",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "363,500 tonnes",
+     "value": "363,500 tonnes",
+     "period": "2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "Coffee Board of India",
+     "series": "Final tally",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Green/roasted beans and related (HS 0901) | 1,405.85 | 316.34",
+     "value": "1,405.85 US$mn",
+     "period": "FY26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "HS 0901 exports",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Green/roasted beans and related (HS 0901) | 1,405.85 | 316.34",
+     "value": "316.34 US$mn",
+     "period": "FY26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "HS 0901 imports",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Instant coffee, coffee extracts and concentrates (HS 2101) | 735.87 | 29.71",
+     "value": "735.87 US$mn",
+     "period": "FY26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "HS 2101 exports",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Instant coffee, coffee extracts and concentrates (HS 2101) | 735.87 | 29.71",
+     "value": "29.71 US$mn",
+     "period": "FY26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "HS 2101 imports",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Total | 2,141.72 | 346.05",
+     "value": "2,141.72 US$mn",
+     "period": "FY26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "Total coffee exports",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Total | 2,141.72 | 346.05",
+     "value": "346.05 US$mn",
+     "period": "FY26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "Total coffee imports",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "record coffee export earnings of US$1.8 billion in FY2024-25",
+     "value": "US$1.8 billion",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "Department of Commerce",
+     "series": "Coffee export earnings",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "April–September 2025 alone brought in $1.07 billion",
+     "value": "$1.07 billion",
+     "period": "April–September 2025",
+     "period_end": "2025-09-30",
+     "publisher": "Department of Commerce",
+     "series": "Coffee export earnings",
+     "frequency": "half-yearly",
+     "headline": false
+    },
+    {
+     "quote": "₹950 crore outlay",
+     "value": "₹950 crore",
+     "period": "ICDP cycle",
+     "period_end": null,
+     "publisher": "Coffee Board of India",
+     "series": "Integrated Coffee Development Project (ICDP)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "s_placeholder": "replanting subsidy ₹50,000–2.75 lakh",
+     "quote": "replanting subsidy ₹50,000–2.75 lakh",
+     "value": "₹50,000–2.75 lakh",
+     "period": "ICDP cycle",
+     "period_end": null,
+     "publisher": "Coffee Board of India",
+     "series": "Integrated Coffee Development Project (ICDP)",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "India grows roughly 4% of the world's coffee and ranks 7th globally by volume",
+     "value": "4% of world coffee output; 7th globally",
+     "period": null,
+     "period_end": null,
+     "publisher": "USDA FAS GAIN / industry press (moderate)",
+     "series": "Global coffee production share ranking",
+     "frequency": "multi-year",
+     "headline": true
+    },
+    {
+     "quote": "the crop has been essentially flat for a decade (~298,000 tonnes in 2019-20 versus ~302,000 in 2010-11)",
+     "value": "298,000 tonnes (2019-20); 302,000 tonnes (2010-11)",
+     "period": "2019-20; 2010-11",
+     "period_end": "2020-03-31; 2011-03-31",
+     "publisher": "USDA FAS GAIN / industry press (moderate)",
+     "series": "India coffee production (annual)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Karnataka alone grows roughly 69% of the national total",
+     "value": "69% of national coffee production",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Coffee Board of India",
+     "series": "State-wise coffee production share (second-advance estimates)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Karnataka: 256,695 t (~69%)",
+     "value": "256,695 tonnes",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Coffee Board of India",
+     "series": "Coffee production by state (second-advance estimates)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Kerala: 80,350 t (~22%)",
+     "value": "80,350 tonnes",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Coffee Board of India",
+     "series": "Coffee production by state (second-advance estimates)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Tamil Nadu: 19,975 t (~5%)",
+     "value": "19,975 tonnes",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Coffee Board of India",
+     "series": "Coffee production by state (second-advance estimates)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Andhra Pradesh (Araku Valley): 15,290 t (~4%)",
+     "value": "15,290 tonnes",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Coffee Board of India",
+     "series": "Coffee production by state (second-advance estimates)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Odisha: 470 t (negligible)",
+     "value": "470 tonnes",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Coffee Board of India",
+     "series": "Coffee production by state (second-advance estimates)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "India total: ~373,000 tonnes, 2025-26 second-advance estimate (~30% Arabica / ~70% Robusta)",
+     "value": "373,000 tonnes; ~30% Arabica; ~70% Robusta",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Coffee Board of India",
+     "series": "India coffee production (second-advance estimates)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Coffee Board's 2025-26 post-blossom estimate shows an 11% single-season jump to roughly 403,000 tonnes",
+     "value": "403,000 tonnes; +11% YoY",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Coffee Board of India / StoneX Market Intelligence",
+     "series": "Coffee production (post-blossom estimates)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "instant coffee and extracts (HS 2101) now make up roughly a third of coffee export value ($735.87mn of a $2.14bn total, FY26)",
+     "value": "$735.87 million (HS 2101); $2.14 billion (total)",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S (8-digit trade dataset)",
+     "series": "Coffee export value by category (HS codes)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "record coffee export earnings of US$1.8 billion in FY2024-25, up 40.2% from $1.28 billion the prior year",
+     "value": "$1.8 billion (FY2024-25); $1.28 billion (FY2023-24); +40.2% YoY",
+     "period": "FY2024-25; FY2023-24",
+     "period_end": "2025-03-31; 2024-03-31",
+     "publisher": "Department of Commerce / World Ports Organization",
+     "series": "Coffee export earnings (annual)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "April–September 2025 alone brought in $1.07 billion",
+     "value": "$1.07 billion",
+     "period": "Apr-Sep 2025",
+     "period_end": "2025-09-30",
+     "publisher": "Department of Commerce (via independent outlets)",
+     "series": "Coffee export earnings (half-year)",
+     "frequency": "half-yearly",
+     "headline": false
+    },
+    {
+     "quote": "Integrated Coffee Development Project (ICDP) funds replanting on a specific ageing-bush clock: Arabica bushes are treated as senile at 25 years, Robusta at 40, Arabica dwarf varieties at 15",
+     "value": "25 years (Arabica); 40 years (Robusta); 15 years (Arabica dwarf)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Coffee Board of India (circular/guideline PDFs)",
+     "series": "ICDP replanting age thresholds",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "labour is roughly 65–70% of India's coffee production cost",
+     "value": "65–70%",
+     "period": null,
+     "period_end": null,
+     "publisher": "ResearchGate trend paper / industry sources (moderate)",
+     "series": "Coffee production cost breakdown",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "roughly 98% of India's ~250,000 coffee growers are smallholders under 10 hectares, and 81% hold under 2 hectares",
+     "value": "98% under 10 hectares; 81% under 2 hectares",
+     "period": null,
+     "period_end": null,
+     "publisher": "ResearchGate / industry sources (moderate)",
+     "series": "Coffee grower landholding distribution",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Arabica yields down roughly 3% and Robusta down roughly 2% (2025-26)",
+     "value": "3% (Arabica); 2% (Robusta)",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Coffee Board of India (article analysis)",
+     "series": "Coffee yield decline (seasonal)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "ICDP: ₹950 crore outlay; replanting subsidy ₹50,000–2.75 lakh",
+     "value": "₹950 crore (outlay); ₹50,000–2.75 lakh (subsidy)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Coffee Board of India (circular/guideline PDFs)",
+     "series": "ICDP financial parameters",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Araku Valley programme: 50,000 tonnes by 2047 target; currently ~15,290 tonnes",
+     "value": "50,000 tonnes (target); 15,290 tonnes (current)",
+     "period": "2047 (target); 2025-26 (current)",
+     "period_end": "2047-03-31; 2026-03-31",
+     "publisher": "Coffee Board of India / Lok Sabha answer",
+     "series": "Araku Valley coffee production target",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "Northeast states combined: ~6,039 hectares under cultivation",
+     "value": "6,039 hectares",
+     "period": null,
+     "period_end": null,
+     "publisher": "Coffee Board of India (industry-compiled)",
+     "series": "Northeast coffee cultivation area",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Karnataka's area share is estimated at roughly 71% of the national ~450,000 hectares under coffee",
+     "value": "71% (Karnataka); ~450,000 hectares (national)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Coffee Board of India (industry-compiled)",
+     "series": "Coffee cultivation area by state",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "USDA projection of about 3.68 lakh tonnes for 2026-27 (down about 4%, weather)",
+     "value": "3.68 lakh tonnes (~368,000 tonnes); -4% YoY",
+     "period": "2026-27",
+     "period_end": "2027-03-31",
+     "publisher": "USDA (Agro Spectrum India)",
+     "series": "Coffee production forecast",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "roughly 85% of Indian coffee remains uncertified",
+     "value": "85%",
+     "period": null,
+     "period_end": null,
+     "publisher": "Arthapedia / industry explainers (moderate)",
+     "series": "Coffee certification coverage",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "95% of India's crop is exported",
+     "value": "95%",
+     "period": null,
+     "period_end": null,
+     "publisher": "Article analysis (article context)",
+     "series": "Coffee export share",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "yields from around 500 kg/acre to 250 kg/acre in stressed pockets",
+     "value": "500 kg/acre (historical); 250 kg/acre (current)",
+     "period": null,
+     "period_end": null,
+     "publisher": "ResearchGate / industry sources (moderate)",
+     "series": "Coffee yield decline (regional)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India's own trade data shows instant coffee and extracts (HS 2101) now make up roughly a third of coffee export value",
+     "value": "~34% of export value (HS 2101)",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S (8-digit trade dataset)",
+     "series": "Coffee export value share by category",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "India's fourth consecutive billion-dollar coffee-export year",
+     "value": "4 consecutive years",
+     "period": "FY2022-23 to FY2025-26 (implied)",
+     "period_end": "2026-03-31",
+     "publisher": "Department of Commerce / independent outlets",
+     "series": "Coffee export earnings (annual)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Italy, Germany, Belgium, Russia and the UAE were the leading destinations",
+     "value": "Italy, Germany, Belgium, Russia, UAE",
+     "period": null,
+     "period_end": null,
+     "publisher": "Department of Commerce (via independent outlets)",
+     "series": "Top coffee export destinations",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Araku Valley: 1.5 lakh tribal farmers across roughly 2.5 lakh acres",
+     "value": "1.5 lakh farmers; 2.5 lakh acres",
+     "period": null,
+     "period_end": null,
+     "publisher": "Deccan Chronicle / South Asia Monitor",
+     "series": "Araku Valley coffee cultivation",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

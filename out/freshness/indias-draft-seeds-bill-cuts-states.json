@@ -1,0 +1,420 @@
+{
+ "slug": "indias-draft-seeds-bill-cuts-states",
+ "text_sha1": "7ef6d329c582b7fb",
+ "chars": 14850,
+ "checked": "2026-10-23T14:01:30",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "cutting states' own seats on it from 22 to 5",
+     "value": "22 to 5",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "PIB / ministry",
+     "series": "Central Seed Committee composition",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "57.7% of India's Plant-Variety Certificates Are Cereals.",
+     "value": "57.7%",
+     "period": "one-off",
+     "period_end": null,
+     "publisher": "PIB / ministry",
+     "series": "Plant-Variety Certificates distribution",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "Its $4.45 Billion Spice Trade Has 151.",
+     "value": "$4.45 Billion",
+     "period": "one-off",
+     "period_end": null,
+     "publisher": "DGCI&S",
+     "series": "Spice Trade",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "fines up to ₹30 lakh with up to 3 years' imprisonment for selling spurious or unregistered seed",
+     "value": "₹30 lakh",
+     "period": "one-off",
+     "period_end": null,
+     "publisher": "PIB / ministry",
+     "series": "Draft Seeds Bill Penalties",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Fines reported from ₹1 lakh for offences such as selling sub-standard (not spurious) seed",
+     "value": "₹1 lakh",
+     "period": "one-off",
+     "period_end": null,
+     "publisher": "PIB / ministry",
+     "series": "Draft Seeds Bill Penalties",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Central Seed Committee | Reportedly restructured to 27 members; state government representation reportedly cut from 22 seats (under the 1966 Act) to 5",
+     "value": "27 members",
+     "period": "one-off",
+     "period_end": null,
+     "publisher": "PIB / ministry",
+     "series": "Central Seed Committee",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "State Seed Committees | Reportedly a new 15-member body per state",
+     "value": "15-member",
+     "period": "one-off",
+     "period_end": null,
+     "publisher": "PIB / ministry",
+     "series": "State Seed Committees",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "cutting states' own seats on it from 22 to 5, on the count several secondary sources give",
+     "value": "22 seats (1966 Act) → 5 seats (draft bill)",
+     "period": null,
+     "period_end": null,
+     "publisher": "secondary sources (UPSC, government-adjacent portals, news coverage)",
+     "series": "Central Seed Committee membership structure",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Reportedly restructured to 27 members; state government representation reportedly cut from 22 seats (under the 1966 Act) to 5",
+     "value": "27 members (total committee, draft bill)",
+     "period": null,
+     "period_end": null,
+     "publisher": "secondary sources (UPSC, government-adjacent portals, news coverage)",
+     "series": "Central Seed Committee membership structure",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "State seats, 1966 Act: 22 seats",
+     "value": "22 seats (state government representation, 1966 Act)",
+     "period": null,
+     "period_end": null,
+     "publisher": "article summary (derived from secondary sources)",
+     "series": "Central Seed Committee membership structure",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "State seats, draft bill: 5 seats",
+     "value": "5 seats (state government representation, draft bill)",
+     "period": null,
+     "period_end": null,
+     "publisher": "secondary sources (UPSC, government-adjacent portals, news coverage)",
+     "series": "Central Seed Committee membership structure",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "fines up to ₹30 lakh with up to 3 years' imprisonment for selling spurious or unregistered seed",
+     "value": "₹30 lakh (fine) and up to 3 years' imprisonment",
+     "period": null,
+     "period_end": null,
+     "publisher": "secondary sources (policy explainers, news coverage)",
+     "series": "Penalties for selling spurious/unregistered seed",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "fines reported from ₹1 lakh for offences such as selling sub-standard (not spurious) seed",
+     "value": "₹1 lakh (fine)",
+     "period": null,
+     "period_end": null,
+     "publisher": "secondary sources (policy explainers, news coverage)",
+     "series": "Penalties for minor offences (e.g., sub-standard seed)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "a draft Seeds Bill, 2025 was ready, comments were invited by 11 December, 2025",
+     "value": "11 December 2025",
+     "period": "11 December 2025",
+     "period_end": "2025-12-11",
+     "publisher": "PIB (Press Information Bureau)",
+     "series": "Public comment deadline for Draft Seeds Bill, 2025",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "On 13 November 2025, the Department of Agriculture & Farmers Welfare put out a routine-sounding press release",
+     "value": "13 November 2025",
+     "period": "13 November 2025",
+     "period_end": "2025-11-13",
+     "publisher": "PIB (Press Information Bureau)",
+     "series": "Draft Seeds Bill, 2025 announcement",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "On 10 September 2026, Union Agriculture and Farmers Welfare Minister Shivraj Singh Chouhan held a high-level consultation in New Delhi",
+     "value": "10 September 2026",
+     "period": "10 September 2026",
+     "period_end": "2026-09-10",
+     "publisher": "newsonair.gov.in",
+     "series": "Farmer consultation on Draft Seeds Bill, 2025",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "A Lok Sabha written reply of 16 December 2025 by the Minister of State for Agriculture, Ramnath Thakur",
+     "value": "16 December 2025",
+     "period": "16 December 2025",
+     "period_end": "2025-12-16",
+     "publisher": "Lok Sabha (Ministry of State for Agriculture)",
+     "series": "Written reply on Draft Seeds Bill, 2025",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "critics quoted by Mongabay in January 2026 welcomed price regulation but noted that it applies only in emergencies",
+     "value": "January 2026",
+     "period": "January 2026",
+     "period_end": "2026-01-31",
+     "publisher": "Mongabay India",
+     "series": "Criticism of Draft Seeds Bill, 2025",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "a Business Standard report of August 2026 still described it as under consultation",
+     "value": "August 2026",
+     "period": "August 2026",
+     "period_end": "2026-08-31",
+     "publisher": "Business Standard",
+     "series": "Draft Seeds Bill, 2025 status update",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "the government aimed to introduce it in the first phase of the 2026 Budget session",
+     "value": "2026 Budget session (first phase)",
+     "period": "2026 Budget session",
+     "period_end": "2026-07-31",
+     "publisher": "Business Standard (via article summary)",
+     "series": "Draft Seeds Bill, 2025 legislative timeline",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "the bill would replace the Seeds Act of 1966 and the Seeds (Control) Order of 1983",
+     "value": "1966 and 1983",
+     "period": "1966 and 1983",
+     "period_end": "1966-12-31 and 1983-12-31",
+     "publisher": "Department of Agriculture & Farmers Welfare (via PIB)",
+     "series": "Legislative history of seed regulation",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "the draft bill text itself (hosted on agriwelfare.gov.in)",
+     "value": "agriwelfare.gov.in (hosted draft bill)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Department of Agriculture & Farmers Welfare",
+     "series": "Draft Seeds Bill, 2025 (primary document)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "a new 15-member body per state",
+     "value": "15 members (State Seed Committees)",
+     "period": null,
+     "period_end": null,
+     "publisher": "secondary sources (policy explainers, news coverage)",
+     "series": "State Seed Committees membership structure",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "the draft offers no compensation to farmers who lose a crop to substandard or spurious seed",
+     "value": "no compensation for crop loss due to substandard/spurious seed",
+     "period": null,
+     "period_end": null,
+     "publisher": "Mongabay India (critics' quote)",
+     "series": "Farmers' compensation provisions",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "the Bill does not apply to farmers or to farmers’ varieties, including traditional varieties",
+     "value": "farmers and traditional varieties exempted",
+     "period": null,
+     "period_end": null,
+     "publisher": "Lok Sabha (Minister of State for Agriculture)",
+     "series": "Scope of Draft Seeds Bill, 2025",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "registration of plant nurseries",
+     "value": "registration of plant nurseries (proposed)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Lok Sabha (Minister of State for Agriculture)",
+     "series": "Draft Seeds Bill, 2025 provisions",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "regulation of seed sale prices in an emergent situation",
+     "value": "regulation of seed sale prices (emergency only)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Lok Sabha (Minister of State for Agriculture)",
+     "series": "Seed sale price regulation",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "compulsory labelling of seed performance",
+     "value": "compulsory labelling of seed performance (proposed)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Lok Sabha (Minister of State for Agriculture)",
+     "series": "Draft Seeds Bill, 2025 provisions",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "mandatory onboarding on the SATHI portal",
+     "value": "mandatory onboarding on SATHI portal",
+     "period": null,
+     "period_end": null,
+     "publisher": "Lok Sabha (Minister of State for Agriculture)",
+     "series": "SATHI portal requirements",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "the Bill at the pre-legislative consultation stage",
+     "value": "pre-legislative consultation stage (as of December 2025)",
+     "period": "December 2025",
+     "period_end": "2025-12-31",
+     "publisher": "Lok Sabha (Minister of State for Agriculture)",
+     "series": "Draft Seeds Bill, 2025 legislative stage",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "the draft bill text itself (hosted on agriwelfare.gov.in) as relayed through secondary reporting",
+     "value": "QR-code traceability, tied to a central seed-traceability system",
+     "period": null,
+     "period_end": null,
+     "publisher": "secondary sources (policy explainers, news coverage)",
+     "series": "Seed traceability system",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "the draft offers no compensation to farmers who lose a crop to substandard or spurious seed",
+     "value": "no compensation for crop loss",
+     "period": null,
+     "period_end": null,
+     "publisher": "Mongabay India (critics' quote)",
+     "series": "Farmers' compensation for crop loss",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "the draft bill text itself (hosted on agriwelfare.gov.in) as relayed through secondary reporting and policy explainers",
+     "value": "mandatory registration for seed varieties, dealers, and producers",
+     "period": null,
+     "period_end": null,
+     "publisher": "secondary sources (policy explainers, news coverage)",
+     "series": "Seed registration requirements",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "the draft bill text itself (hosted on agriwelfare.gov.in) as relayed through secondary reporting and policy explainers",
+     "value": "farmers' own traditional varieties and export-only seed are reported as exempt",
+     "period": null,
+     "period_end": null,
+     "publisher": "secondary sources (policy explainers, news coverage)",
+     "series": "Exemptions in seed registration",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "the draft bill text itself (hosted on agriwelfare.gov.in) as relayed through secondary reporting and policy explainers",
+     "value": "Seed Authentication, Traceability and Holistic Inventory (SATHI) portal",
+     "period": null,
+     "period_end": null,
+     "publisher": "secondary sources (policy explainers, news coverage)",
+     "series": "SATHI portal",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "the draft bill text itself (hosted on agriwelfare.gov.in) as relayed through secondary reporting and policy explainers",
+     "value": "Seed Traceability Portal (possibly same as SATHI)",
+     "period": null,
+     "period_end": null,
+     "publisher": "secondary sources (policy explainers, news coverage)",
+     "series": "Seed traceability system",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "the draft bill text itself (hosted on agriwelfare.gov.in) as relayed through secondary reporting and policy explainers",
+     "value": "6 goals for the draft bill: regulate quality, affordable access, curb spurious sales, protect farmers, liberalise imports, safeguard rights",
+     "period": null,
+     "period_end": null,
+     "publisher": "PIB Release ID 2189600 (13 November 2025)",
+     "series": "Draft Seeds Bill, 2025 objectives",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "the draft bill text itself (hosted on agriwelfare.gov.in) as relayed through secondary reporting and policy explainers",
+     "value": "decriminalise minor offences, promote Ease of Doing Business",
+     "period": null,
+     "period_end": null,
+     "publisher": "PIB Release ID 2189600 (13 November 2025)",
+     "series": "Draft Seeds Bill, 2025 enforcement policy",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "the draft bill text itself (hosted on agriwelfare.gov.in) as relayed through secondary reporting and policy explainers",
+     "value": "maintain strong provisions to penalise serious violations effectively",
+     "period": null,
+     "period_end": null,
+     "publisher": "PIB Release ID 2189600 (13 November 2025)",
+     "series": "Draft Seeds Bill, 2025 enforcement policy",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "the draft bill text itself (hosted on agriwelfare.gov.in) as relayed through secondary reporting and policy explainers",
+     "value": "Protection of Plant Varieties and Farmers’ Rights Act, 2001",
+     "period": "2001",
+     "period_end": "2001-12-31",
+     "publisher": "PPV&FR Authority",
+     "series": "Protection of Plant Varieties and Farmers’ Rights Act",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

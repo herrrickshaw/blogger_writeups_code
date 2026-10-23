@@ -1,0 +1,680 @@
+{
+ "slug": "oilfield-costs-rose-68-while-global",
+ "text_sha1": "0f7945ecc7f1af48",
+ "chars": 18825,
+ "checked": "2026-10-23T15:08:35",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "₹20,268cr \n Q1 FY2021-22",
+     "value": "₹20,268 crore",
+     "period": "Q1 FY2021-22",
+     "period_end": "2021-06-30",
+     "publisher": "PPAC / Business Standard",
+     "series": "Combined capex, 12 oil & gas PSUs",
+     "frequency": "quarterly",
+     "headline": true
+    },
+    {
+     "quote": "₹28,242cr \n Q1 FY2025-26",
+     "value": "₹28,242 crore",
+     "period": "Q1 FY2025-26",
+     "period_end": "2025-06-30",
+     "publisher": "PPAC / Business Standard",
+     "series": "Combined capex, 12 oil & gas PSUs",
+     "frequency": "quarterly",
+     "headline": true
+    },
+    {
+     "quote": "₹27,161cr \n Q1 FY2026-27",
+     "value": "₹27,161 crore",
+     "period": "Q1 FY2026-27",
+     "period_end": "2026-06-30",
+     "publisher": "PPAC / Business Standard",
+     "series": "Combined capex, 12 oil & gas PSUs",
+     "frequency": "quarterly",
+     "headline": true
+    },
+    {
+     "quote": "488 rigs \n Middle East",
+     "value": "488 rigs",
+     "period": "June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "Baker Hughes",
+     "series": "Baker Hughes international rig count",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "206 rigs \n Asia-Pacific",
+     "value": "206 rigs",
+     "period": "June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "Baker Hughes",
+     "series": "Baker Hughes international rig count",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "Middle East onshore \n $27",
+     "value": "$27/barrel",
+     "period": null,
+     "period_end": null,
+     "publisher": "Rystad Energy",
+     "series": "Breakeven Cost per Barrel, by Source",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "Offshore shelf \n $37",
+     "value": "$37/barrel",
+     "period": null,
+     "period_end": null,
+     "publisher": "Rystad Energy",
+     "series": "Breakeven Cost per Barrel, by Source",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "India domestic (approx.) \n ~$40",
+     "value": "~$40/barrel",
+     "period": null,
+     "period_end": null,
+     "publisher": "separate reporting",
+     "series": "Breakeven Cost per Barrel, by Source",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "Offshore deepwater \n $43",
+     "value": "$43/barrel",
+     "period": null,
+     "period_end": null,
+     "publisher": "Rystad Energy",
+     "series": "Breakeven Cost per Barrel, by Source",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "North American shale \n $45",
+     "value": "$45/barrel",
+     "period": null,
+     "period_end": null,
+     "publisher": "Rystad Energy",
+     "series": "Breakeven Cost per Barrel, by Source",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "Oil sands \n $57+",
+     "value": "$57+/barrel",
+     "period": null,
+     "period_end": null,
+     "publisher": "Rystad Energy",
+     "series": "Breakeven Cost per Barrel, by Source",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "building and running an oil or gas project got roughly 6–8% more expensive over the past year.",
+     "value": "6–8%",
+     "period": "past year",
+     "period_end": "2026-08-26",
+     "publisher": "S&P Global",
+     "series": "oilfield cost indexes",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "an estimated $420 billion in 2025 (down 2.5% year-on-year",
+     "value": "$420 billion",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "S&P Global Commodity Insights",
+     "series": "global upstream capital spending",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "down 2.5% year-on-year",
+     "value": "2.5%",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "S&P Global Commodity Insights",
+     "series": "global upstream capital spending year-on-year change",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "roughly 30% below the $600 billion S&P Global says is needed annually",
+     "value": "$600 billion",
+     "period": "annual",
+     "period_end": null,
+     "publisher": "S&P Global",
+     "series": "annual capital needed for adequate exploration and field replacement",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "roughly 30% below the $600 billion S&P Global says is needed annually",
+     "value": "30%",
+     "period": "annual",
+     "period_end": null,
+     "publisher": "S&P Global",
+     "series": "capital deficit vs needed annual spend",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "with a further 2–3% decline forecast for 2026",
+     "value": "2–3%",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "S&P Global",
+     "series": "global upstream capital spending forecast",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "more than 5% below 2024 levels",
+     "value": "5%",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "S&P Global",
+     "series": "global upstream capital spending cumulative decline",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Baker Hughes' international rig count put Asia-Pacific at 206 active rigs and the Middle East at 488 as of June 2026",
+     "value": "206 active rigs",
+     "period": "June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "Baker Hughes",
+     "series": "international rig count",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Baker Hughes' international rig count put Asia-Pacific at 206 active rigs and the Middle East at 488 as of June 2026",
+     "value": "488 active rigs",
+     "period": "June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "Baker Hughes",
+     "series": "international rig count",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "India's own 12 listed oil and gas PSUs posted combined Q1 FY27 capex of ₹27,161 crore, down 3.8% from ₹28,242 crore in Q1 FY26",
+     "value": "₹27,161 crore",
+     "period": "Q1 FY27",
+     "period_end": "2026-06-30",
+     "publisher": "PPAC",
+     "series": "combined Q1 capex, 12 oil and gas PSUs",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "down 3.8% from ₹28,242 crore in Q1 FY26",
+     "value": "3.8%",
+     "period": "Q1 FY27 vs Q1 FY26",
+     "period_end": "2026-06-30",
+     "publisher": "PPAC",
+     "series": "combined Q1 capex year-on-year change",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "down 3.8% from ₹28,242 crore in Q1 FY26",
+     "value": "₹28,242 crore",
+     "period": "Q1 FY26",
+     "period_end": "2025-06-30",
+     "publisher": "PPAC",
+     "series": "combined Q1 capex, 12 oil and gas PSUs",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "ONGC's capex fell 16.7% and Indian Oil's fell 43%",
+     "value": "16.7%",
+     "period": "Q1 FY27",
+     "period_end": "2026-06-30",
+     "publisher": "PPAC / contemporaneous reporting",
+     "series": "ONGC Q1 capex decline",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "ONGC's capex fell 16.7% and Indian Oil's fell 43%",
+     "value": "43%",
+     "period": "Q1 FY27",
+     "period_end": "2026-06-30",
+     "publisher": "PPAC / contemporaneous reporting",
+     "series": "Indian Oil Q1 capex decline",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "upstream capital cost inflation (UCCI) at around 8% in one report and roughly 6.5% year-on-year in another",
+     "value": "8%",
+     "period": "recent period",
+     "period_end": "2026-08-26",
+     "publisher": "S&P Global",
+     "series": "Upstream Capital Costs Index (UCCI)",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "upstream capital cost inflation (UCCI) at around 8% in one report and roughly 6.5% year-on-year in another",
+     "value": "6.5%",
+     "period": "recent period",
+     "period_end": "2026-08-26",
+     "publisher": "S&P Global",
+     "series": "Upstream Capital Costs Index (UCCI)",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Brent averaging around $60/barrel in 2026",
+     "value": "$60/barrel",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "S&P Global",
+     "series": "Brent price outlook",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "a non-OPEC average across all of these cited around $47",
+     "value": "$47/barrel",
+     "period": null,
+     "period_end": null,
+     "publisher": "Rystad Energy",
+     "series": "non-OPEC average breakeven cost",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "puts domestic producers' breakeven costs at roughly $35–45/barrel",
+     "value": "$35–45/barrel",
+     "period": null,
+     "period_end": null,
+     "publisher": "separate reporting",
+     "series": "India domestic breakeven cost",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "assumption of Brent stabilising at $75–85/barrel in 2026",
+     "value": "$75–85/barrel",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "separate report",
+     "series": "Brent price assumption",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "ONGC's capex fell 16.7% to ₹6,834 crore, Indian Oil's fell 43% to ₹3,626 crore, and Oil India's fell 16% to ₹2,139 crore.",
+     "value": "₹6,834 crore",
+     "period": "Q1 FY27",
+     "period_end": "2026-06-30",
+     "publisher": "PPAC",
+     "series": "ONGC Q1 capex",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "ONGC's capex fell 16.7% to ₹6,834 crore, Indian Oil's fell 43% to ₹3,626 crore, and Oil India's fell 16% to ₹2,139 crore.",
+     "value": "₹3,626 crore",
+     "period": "Q1 FY27",
+     "period_end": "2026-06-30",
+     "publisher": "PPAC",
+     "series": "Indian Oil Q1 capex",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "ONGC's capex fell 16.7% to ₹6,834 crore, Indian Oil's fell 43% to ₹3,626 crore, and Oil India's fell 16% to ₹2,139 crore.",
+     "value": "₹2,139 crore",
+     "period": "Q1 FY27",
+     "period_end": "2026-06-30",
+     "publisher": "PPAC",
+     "series": "Oil India Q1 capex",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "Oil India's fell 16%",
+     "value": "16%",
+     "period": "Q1 FY27",
+     "period_end": "2026-06-30",
+     "publisher": "PPAC / contemporaneous reporting",
+     "series": "Oil India Q1 capex decline",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "plans to raise full-year exploration capex toward ₹10,000 crore, up from roughly ₹8,900 crore in FY26",
+     "value": "₹10,000 crore",
+     "period": "FY27",
+     "period_end": "2027-03-31",
+     "publisher": "Oil India guidance",
+     "series": "full-year exploration capex guidance",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "up from roughly ₹8,900 crore in FY26",
+     "value": "₹8,900 crore",
+     "period": "FY26",
+     "period_end": "2026-03-31",
+     "publisher": "Oil India",
+     "series": "full-year exploration capex",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "accounting for over 60% of India's domestic oil and gas production",
+     "value": "60%",
+     "period": null,
+     "period_end": null,
+     "publisher": "PPAC / industry data",
+     "series": "share of India's domestic oil and gas production by 12 PSUs",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "building and running an oil or gas project got roughly 6–8% more expensive over the past year",
+     "value": "6–8%",
+     "period": "past year",
+     "period_end": "2026-08-26",
+     "publisher": "S&P Global",
+     "series": "Upstream Capital Costs Index (UCCI) and Upstream Operating Costs Index (UOCI)",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "global upstream capital spending is falling for a second straight year running",
+     "value": "falling (second straight year)",
+     "period": null,
+     "period_end": null,
+     "publisher": "S&P Global",
+     "series": "Global upstream capital expenditure estimates",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "India's own oil and gas public-sector companies just posted their first first-quarter capex decline in at least five years",
+     "value": "first Q1 decline in 5+ years",
+     "period": "Q1 FY2026-27 (Apr–Jun 2026)",
+     "period_end": "2026-06-30",
+     "publisher": "PPAC (Petroleum Planning and Analysis Cell)",
+     "series": "Provisional quarterly capex figures for 12 oil & gas PSUs",
+     "frequency": "quarterly",
+     "headline": true
+    },
+    {
+     "quote": "Combined capex, 12 oil & gas PSUs, ₹20,268cr in Q1 FY2021-22",
+     "value": "₹20,268 crore",
+     "period": "Q1 FY2021-22 (Apr–Jun 2021)",
+     "period_end": "2021-06-30",
+     "publisher": "PPAC",
+     "series": "Provisional quarterly capex figures for 12 oil & gas PSUs",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "₹28,242cr in Q1 FY2025-26",
+     "value": "₹28,242 crore",
+     "period": "Q1 FY2025-26 (Apr–Jun 2025)",
+     "period_end": "2025-06-30",
+     "publisher": "PPAC",
+     "series": "Provisional quarterly capex figures for 12 oil & gas PSUs",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "₹27,161cr in Q1 FY2026-27",
+     "value": "₹27,161 crore",
+     "period": "Q1 FY2026-27 (Apr–Jun 2026)",
+     "period_end": "2026-06-30",
+     "publisher": "PPAC",
+     "series": "Provisional quarterly capex figures for 12 oil & gas PSUs",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "global upstream capital spending is estimated at $420 billion in 2025",
+     "value": "$420 billion",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "S&P Global",
+     "series": "Global upstream capital expenditure estimates",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "down 2.5% year-on-year, and roughly 30% below the $600 billion S&P Global says is needed annually for adequate exploration and field replacement",
+     "value": "$600 billion (annual need)",
+     "period": null,
+     "period_end": null,
+     "publisher": "S&P Global",
+     "series": "Global upstream capital expenditure estimates",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "a further 2–3% decline forecast for 2026",
+     "value": "2–3% decline",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "S&P Global",
+     "series": "Global upstream capital expenditure estimates",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Baker Hughes' international rig count put Asia-Pacific at 206 active rigs and the Middle East at 488 as of June 2026",
+     "value": "206 rigs (Asia-Pacific), 488 rigs (Middle East)",
+     "period": "June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "Baker Hughes",
+     "series": "International rig count",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Rystad Energy puts onshore Middle East around $27/barrel, offshore shelf around $37, offshore deepwater around $43, North American shale around $45, and oil sands $57 and up",
+     "value": "Middle East onshore: $27/barrel; offshore shelf: $37/barrel; offshore deepwater: $43/barrel; North American shale: $45/barrel; oil sands: $57+/barrel",
+     "period": null,
+     "period_end": null,
+     "publisher": "Rystad Energy",
+     "series": "Breakeven cost estimates by source",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "India's domestic producers at roughly $35–45/barrel",
+     "value": "$35–45/barrel",
+     "period": null,
+     "period_end": null,
+     "publisher": "Separate reporting (not independently cross-checked)",
+     "series": "India domestic breakeven costs",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India's own 12 listed oil and gas PSUs posted combined Q1 FY27 capex of ₹27,161 crore, down 3.8% from ₹28,242 crore in Q1 FY26",
+     "value": "₹27,161 crore (Q1 FY27), ₹28,242 crore (Q1 FY26)",
+     "period": "Q1 FY26-27 (Apr–Jun 2026)",
+     "period_end": "2026-06-30",
+     "publisher": "PPAC",
+     "series": "Provisional quarterly capex figures for 12 oil & gas PSUs",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "ONGC's capex fell 16.7% to ₹6,834 crore",
+     "value": "₹6,834 crore (16.7% decline)",
+     "period": "Q1 FY2026-27 (Apr–Jun 2026)",
+     "period_end": "2026-06-30",
+     "publisher": "PPAC (via Business Standard)",
+     "series": "Provisional quarterly capex figures for ONGC",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "Indian Oil's fell 43% to ₹3,626 crore",
+     "value": "₹3,626 crore (43% decline)",
+     "period": "Q1 FY2026-27 (Apr–Jun 2026)",
+     "period_end": "2026-06-30",
+     "publisher": "PPAC (via Business Standard)",
+     "series": "Provisional quarterly capex figures for Indian Oil",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "Oil India's fell 16% to ₹2,139 crore",
+     "value": "₹2,139 crore (16% decline)",
+     "period": "Q1 FY2026-27 (Apr–Jun 2026)",
+     "period_end": "2026-06-30",
+     "publisher": "PPAC (via Business Standard)",
+     "series": "Provisional quarterly capex figures for Oil India",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "Oil India's own guidance points the same way: the company has said it plans to raise full-year exploration capex toward ₹10,000 crore, up from roughly ₹8,900 crore in FY26",
+     "value": "₹10,000 crore (target), ₹8,900 crore (FY26)",
+     "period": "FY2026 (2026-27)",
+     "period_end": "2027-03-31",
+     "publisher": "Oil India (trade-press reporting)",
+     "series": "Exploration capex guidance",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "S&P Global's own price outlook calls for Brent averaging around $60/barrel in 2026",
+     "value": "$60/barrel (Brent average)",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "S&P Global",
+     "series": "Brent price outlook",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "the report citing India's $35–45/barrel breakeven pairs it with an assumption of Brent stabilising at $75–85/barrel in 2026",
+     "value": "$75–85/barrel (Brent assumption)",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "Separate reporting (not independently cross-checked)",
+     "series": "Brent price assumption for India breakeven analysis",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "S&P Global's reporting for the most recent period puts upstream capital cost inflation (UCCI) at around 8% in one report and roughly 6.5% year-on-year in another",
+     "value": "6.5% to 8% year-on-year",
+     "period": "most recent period (overlapping windows)",
+     "period_end": "2026-08-26",
+     "publisher": "S&P Global",
+     "series": "Upstream Capital Costs Index (UCCI)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "the intuitive expectation... offshore shelf and deepwater project costs fell by an estimated 35% in the years after 2014",
+     "value": "35% decline (post-2014)",
+     "period": "years after 2014",
+     "period_end": "2026-08-26",
+     "publisher": "S&P Global (historical reference)",
+     "series": "Offshore shelf and deepwater project costs",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "S&P Global's own numbers show project costs rising while investment falls",
+     "value": "project costs rising (UCCI)",
+     "period": "most recent period",
+     "period_end": "2026-08-26",
+     "publisher": "S&P Global",
+     "series": "Upstream Capital Costs Index (UCCI)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "S&P Global's own price outlook calls for Brent averaging around $60/barrel in 2026",
+     "value": "$60/barrel (Brent average)",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "S&P Global",
+     "series": "Brent price outlook",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "the number that should be falling isn't 431bn 2024 and the 407-410bn 2026 range",
+     "value": "$431 billion (2024), $407–410 billion (2026)",
+     "period": "2024 and 2026",
+     "period_end": "2026-12-31",
+     "publisher": "S&P Global (derived arithmetic)",
+     "series": "Global upstream capital expenditure estimates",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Rystad Energy's basin-level breakeven estimates put onshore Middle East production at roughly $27/barrel",
+     "value": "$27/barrel (onshore Middle East)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Rystad Energy",
+     "series": "Breakeven cost estimates by source",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "offshore shelf at roughly $37, offshore deepwater at roughly $43",
+     "value": "$37/barrel (offshore shelf), $43/barrel (offshore deepwater)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Rystad Energy",
+     "series": "Breakeven cost estimates by source",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "North American shale at roughly $45, and oil sands $57 and up",
+     "value": "$45/barrel (North American shale), $57+/barrel (oil sands)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Rystad Energy",
+     "series": "Breakeven cost estimates by source",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "non-OPEC average across all of these cited around $47",
+     "value": "$47/barrel (non-OPEC average)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Rystad Energy",
+     "series": "Breakeven cost estimates by source",
+     "frequency": "multi-year",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

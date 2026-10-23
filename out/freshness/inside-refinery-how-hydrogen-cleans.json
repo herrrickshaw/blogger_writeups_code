@@ -1,0 +1,547 @@
+{
+ "slug": "inside-refinery-how-hydrogen-cleans",
+ "text_sha1": "f60699b9083f28ea",
+ "chars": 22251,
+ "checked": "2026-10-23T14:47:22",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "Total: 30,000 tonnes per year across four refineries — against 2.5 million tonnes of grey hydrogen the sector consumes today.",
+     "value": "30,000 tonnes per year",
+     "period": "as on 20 Aug 2026",
+     "period_end": "2026-08-20",
+     "publisher": "PIB / ministry",
+     "series": "SIGHT Mode-2B contracts",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "Total: 30,000 tonnes per year across four refineries — against 2.5 million tonnes of grey hydrogen the sector consumes today.",
+     "value": "2.5 million tonnes",
+     "period": "2024",
+     "period_end": "2024-12-31",
+     "publisher": "CFLI India / CEEW",
+     "series": "Financing Green Hydrogen in India",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "IOCL Panipat green hydrogen plant ... awarded 10,000 tonnes per year",
+     "value": "10,000 tonnes per year",
+     "period": "as on 20 Aug 2026",
+     "period_end": "2026-08-20",
+     "publisher": "PIB / ministry",
+     "series": "SIGHT Mode-2B contracts",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "Numaligarh Refineries' own facility were each awarded 10,000 tonnes per year",
+     "value": "10,000 tonnes per year",
+     "period": "as on 20 Aug 2026",
+     "period_end": "2026-08-20",
+     "publisher": "PIB / ministry",
+     "series": "SIGHT Mode-2B contracts",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "Bharat Petroleum's Bina refinery ... were each awarded 5,000 tonnes per year",
+     "value": "5,000 tonnes per year",
+     "period": "as on 20 Aug 2026",
+     "period_end": "2026-08-20",
+     "publisher": "PIB / ministry",
+     "series": "SIGHT Mode-2B contracts",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "Hindustan Petroleum's Vizag refinery were each awarded 5,000 tonnes per year",
+     "value": "5,000 tonnes per year",
+     "period": "as on 20 Aug 2026",
+     "period_end": "2026-08-20",
+     "publisher": "PIB / ministry",
+     "series": "SIGHT Mode-2B contracts",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "meet a 10 parts-per-million limit",
+     "value": "10 parts-per-million",
+     "period": "as on 20 Aug 2026",
+     "period_end": "2026-08-20",
+     "publisher": "MoSPI",
+     "series": "BS-VI standard",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "emits 9–12 kilograms of CO2 for every kilogram of hydrogen it makes",
+     "value": "9–12 kilograms",
+     "period": "as on 20 Aug 2026",
+     "period_end": "2026-08-20",
+     "publisher": "WRI India",
+     "series": "Conventional Pathways for Hydrogen Production",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "state-run oil marketing companies spent roughly ₹35,000 crore upgrading their refineries",
+     "value": "₹35,000 crore",
+     "period": "as on 1 Apr 2020",
+     "period_end": "2020-04-01",
+     "publisher": "PIB / ministry",
+     "series": "BS-VI refinery-upgrade capex",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "— ₹17,000 crore of that by Indian Oil Corporation alone.",
+     "value": "₹17,000 crore",
+     "period": "as on 1 Apr 2020",
+     "period_end": "2020-04-01",
+     "publisher": "IOCL",
+     "series": "BS-VI refinery-upgrade capex",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "typical unit operating costs at roughly $1.7 per barrel",
+     "value": "$1.7 per barrel",
+     "period": "2021",
+     "period_end": "2021-12-31",
+     "publisher": "AIChE",
+     "series": "An Overview of Hydrotreating",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "supplies roughly 48 per cent of global hydrogen production",
+     "value": "48 per cent",
+     "period": "as on 20 Aug 2026",
+     "period_end": "2026-08-20",
+     "publisher": "WRI India",
+     "series": "Conventional Pathways for Hydrogen Production",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "running at 70–85 per cent efficiency",
+     "value": "70–85 per cent",
+     "period": "as on 20 Aug 2026",
+     "period_end": "2026-08-20",
+     "publisher": "WRI India",
+     "series": "Conventional Pathways for Hydrogen Production",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "grey hydrogen at roughly $1.3–1.5 per kilogram.",
+     "value": "$1.3–1.5 per kilogram",
+     "period": "as on 20 Aug 2026",
+     "period_end": "2026-08-20",
+     "publisher": "WRI India",
+     "series": "Conventional Pathways for Hydrogen Production",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Indian refiners are reported to be planning roughly ₹2 trillion (about $23 billion) of green hydrogen investment",
+     "value": "₹2 trillion",
+     "period": "as on 20 Aug 2026",
+     "period_end": "2026-08-20",
+     "publisher": "gasworld",
+     "series": "Green hydrogen investment plan",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "cover roughly 42,000 tonnes per year of production once fully allocated.",
+     "value": "42,000 tonnes per year",
+     "period": "as on 20 Aug 2026",
+     "period_end": "2026-08-20",
+     "publisher": "gasworld",
+     "series": "SIGHT tender scope",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "one 2025 trade forecast put India's gasoil exports ... at 560,000–630,000 barrels a day.",
+     "value": "560,000–630,000 barrels a day",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "Wood Mackenzie / Kpler",
+     "series": "Gasoil export forecast",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "supply's 4 MW power-rectifier blocks",
+     "value": "4 MW",
+     "period": "mid-2026",
+     "period_end": "2026-06-30",
+     "publisher": "Statcon Energiaa / Construction World",
+     "series": "Panipat power-rectifier order",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "IOCL's own stated target of 350 KTPA of green hydrogen production by 2030",
+     "value": "350 KTPA",
+     "period": "2030",
+     "period_end": "2030-12-31",
+     "publisher": "IOCL",
+     "series": "Green hydrogen production target",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "projected to grow toward roughly 4.5 MTPA by FY2030",
+     "value": "4.5 MTPA",
+     "period": "FY2030",
+     "period_end": "2030-03-31",
+     "publisher": "CFLI India / CEEW",
+     "series": "Financing Green Hydrogen in India",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "The four refinery-sector green hydrogen awards under India's SIGHT Mode-2B scheme, in tonnes per year. Panipat's green hydrogen costs roughly 3x grey.",
+     "value": "30,000 tonnes per year",
+     "period": "as of 2026",
+     "period_end": "2026-08-20",
+     "publisher": "SIGHT Mode-2B scheme (Ministry of New and Renewable Energy)",
+     "series": "SIGHT Mode-2B refinery green hydrogen awards",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Indian Oil Corporation's Panipat refinery and Numaligarh Refineries' own facility were each awarded 10,000 tonnes per year of green hydrogen production, while Bharat Petroleum's Bina refinery and Hindustan Petroleum's Vizag refinery were each awarded 5,000 tonnes per year",
+     "value": "10,000 tonnes/year (IOCL Panipat, Numaligarh Refineries) / 5,000 tonnes/year (BPCL Bina, HPCL Vizag)",
+     "period": null,
+     "period_end": null,
+     "publisher": "SIGHT Mode-2B scheme (Ministry of New and Renewable Energy)",
+     "series": "SIGHT Mode-2B refinery green hydrogen awards",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The price discovered through that competitive bidding... was ₹397 per kilogram including GST for supply to Indian Oil's refineries",
+     "value": "₹397/kg (including GST)",
+     "period": null,
+     "period_end": null,
+     "publisher": "SIGHT Mode-2B competitive bidding (Ministry of New and Renewable Energy)",
+     "series": "SIGHT Mode-2B green hydrogen bid price",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India's refiners are reported to be planning roughly ₹2 trillion (about $23 billion) of green hydrogen investment over the coming years",
+     "value": "₹2 trillion (~$23 billion)",
+     "period": null,
+     "period_end": null,
+     "publisher": "gasworld (cited via third-party summary)",
+     "series": "India refinery green hydrogen investment plan",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "broader SIGHT tender rounds for the refining sector said to cover roughly 42,000 tonnes per year of production once fully allocated",
+     "value": "42,000 tonnes/year",
+     "period": null,
+     "period_end": null,
+     "publisher": "SIGHT scheme (Ministry of New and Renewable Energy)",
+     "series": "SIGHT refinery green hydrogen tender scope",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India's gasoil exports, much of it winter-heating-season diesel bound largely for Europe, at 560,000–630,000 barrels a day",
+     "value": "560,000–630,000 barrels/day",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "Wood Mackenzie and Kpler (cited via Marketscreener)",
+     "series": "India gasoil/diesel export forecast",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "the refining industry consumes an estimated 2.5 million tonnes per annum (MTPA) of grey hydrogen today, projected to grow toward roughly 4.5 MTPA by FY2030",
+     "value": "2.5 MTPA (current) / ~4.5 MTPA (projected by FY2030)",
+     "period": "FY2030",
+     "period_end": "2030-03-31",
+     "publisher": "Climate Finance Leadership Initiative (CFLI) India and Council on Energy, Environment and Water",
+     "series": "India refining-sector grey hydrogen demand",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "Indian refiners had to raise hydrotreating severity... state-run oil marketing companies spent roughly ₹35,000 crore upgrading their refineries... ₹17,000 crore of that by Indian Oil Corporation alone",
+     "value": "₹35,000 crore (total) / ₹17,000 crore (IOC)",
+     "period": "pre-April 2020 (BS-VI implementation)",
+     "period_end": "2020-03-31",
+     "publisher": "Tribune India and Deccan Herald (contemporaneous reporting)",
+     "series": "BS-VI refinery upgrade capex",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "the BS-VI-linked component of the April 2020 fuel price increase at roughly ₹1 per litre",
+     "value": "₹1/litre",
+     "period": "April 2020",
+     "period_end": "2020-04-30",
+     "publisher": "Tribune India and Deccan Herald (contemporaneous reporting)",
+     "series": "BS-VI fuel price increase",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "typical unit operating costs at roughly $1.7 per barrel, of which producing and compressing the hydrogen accounts for 60–70 per cent — call it roughly $1.0–1.2 per barrel in hydrogen cost alone",
+     "value": "$1.7/barrel (total) / $1.0–1.2/barrel (hydrogen)",
+     "period": null,
+     "period_end": null,
+     "publisher": "AIChE (An Overview of Hydrotreating)",
+     "series": "Hydrotreating unit operating costs",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "the hydrogen actually reacted... at around 200 standard cubic feet per barrel for typical diesel hydrotreating",
+     "value": "200 standard cubic feet/barrel",
+     "period": null,
+     "period_end": null,
+     "publisher": "Oil & Gas Journal",
+     "series": "Hydrogen consumption intensity for diesel hydrotreating",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "converts... to roughly half a kilogram of hydrogen consumed per barrel of diesel",
+     "value": "0.5 kg/barrel",
+     "period": null,
+     "period_end": null,
+     "publisher": "Article's own conversion (based on 200 scf/bbl)",
+     "series": "Hydrogen consumption per barrel of BS-VI diesel",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "producing one kilogram of hydrogen this way releases an estimated 9–12 kilograms of CO2",
+     "value": "9–12 kg CO₂/kg H₂",
+     "period": null,
+     "period_end": null,
+     "publisher": "WRI India (Conventional Pathways for Hydrogen Production)",
+     "series": "SMR hydrogen CO₂ emissions intensity",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "SMR-produced ('grey') hydrogen at roughly $1.3–1.5 per kilogram",
+     "value": "$1.3–1.5/kg",
+     "period": null,
+     "period_end": null,
+     "publisher": "WRI India (Conventional Pathways for Hydrogen Production)",
+     "series": "Global SMR hydrogen cost range",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India's own higher domestic grey-hydrogen cost estimate of ₹150–200/kg (roughly $1.8–2.4/kg)",
+     "value": "₹150–200/kg (~$1.8–2.4/kg)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Oil & Gas Journal",
+     "series": "India-specific grey hydrogen cost range",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "the green bid price sits roughly 1.7 to 3.2 times above grey hydrogen",
+     "value": "1.7–3.2x premium over grey hydrogen",
+     "period": null,
+     "period_end": null,
+     "publisher": "Article's own calculation (based on bid prices)",
+     "series": "Green vs. grey hydrogen cost premium",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "the SIGHT competitive-bid price of $4.11–4.21/kg",
+     "value": "$4.11–4.21/kg",
+     "period": null,
+     "period_end": null,
+     "publisher": "SIGHT competitive bidding (Ministry of New and Renewable Energy)",
+     "series": "SIGHT green hydrogen bid price",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "green-hydrogen-equivalent cost of roughly $2.12 per barrel... that's approximately ₹1.25 per litre of diesel",
+     "value": "$2.12/barrel (~₹1.25/litre)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Article's own calculation",
+     "series": "Green hydrogen cost per litre of diesel",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "grey-hydrogen equivalent... roughly ₹0.45–0.72 per litre",
+     "value": "₹0.45–0.72/litre",
+     "period": null,
+     "period_end": null,
+     "publisher": "Article's own calculation",
+     "series": "Grey hydrogen cost per litre of diesel",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "the incremental premium — what switching a barrel's hydrotreating hydrogen entirely from grey to green would add to that litre of diesel... roughly ₹0.55–0.80 per litre",
+     "value": "₹0.55–0.80/litre",
+     "period": null,
+     "period_end": null,
+     "publisher": "Article's own calculation",
+     "series": "Incremental premium for full green hydrogen substitution",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "the 10 KTPA plant is reported to be India's largest green hydrogen facility built specifically for a refinery",
+     "value": "10,000 tonnes/year",
+     "period": null,
+     "period_end": null,
+     "publisher": "Construction World and Indian Chemical News",
+     "series": "IOCL Panipat green hydrogen plant capacity",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "the facility is slated for commissioning by December 2027",
+     "value": "December 2027",
+     "period_end": "2027-12-31",
+     "publisher": "Construction World and Indian Chemical News",
+     "series": "IOCL Panipat green hydrogen plant commissioning date",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "IOCL's own R&D leadership has confirmed the project remains on that [December 2027] schedule",
+     "value": "December 2027",
+     "period_end": "2027-12-31",
+     "publisher": "Indian Chemical News (Dr. Alok Sharma, IOC R&D)",
+     "series": "IOCL Panipat green hydrogen project schedule confirmation",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "IOCL's own stated target of 350 KTPA of green hydrogen production by 2030",
+     "value": "350,000 tonnes/year (350 KTPA)",
+     "period": "2030",
+     "period_end": "2030-12-31",
+     "publisher": "IOCL R&D leadership",
+     "series": "IOCL green hydrogen production target",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "the hydrotreating unit itself, hydrogen is not a minor input. An AIChE overview... puts typical unit operating costs at roughly $1.7 per barrel, of which producing and compressing the hydrogen accounts for 60–70 per cent",
+     "value": "$1.0–1.2/barrel (hydrogen cost)",
+     "period": null,
+     "period_end": null,
+     "publisher": "AIChE (An Overview of Hydrotreating)",
+     "series": "Hydrogen cost share in hydrotreating unit operating costs",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "the 10 ppm BS-VI diesel standard... took effect nationwide on 1 April 2020",
+     "value": "10 ppm (BS-VI sulphur specification)",
+     "period": "as of 1 April 2020",
+     "period_end": "2020-04-01",
+     "publisher": "Article (based on contemporaneous reporting)",
+     "series": "BS-VI sulphur specification implementation date",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "the refining industry consumes an estimated 2.5 million tonnes per annum (MTPA) of grey hydrogen today",
+     "value": "2.5 million tonnes/year (MTPA)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Climate Finance Leadership Initiative (CFLI) India and Council on Energy, Environment and Water",
+     "series": "India refining-sector grey hydrogen consumption",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "the 30 KTPA award is a small first step against a much larger stated ambition: Indian refiners are reported to be planning roughly ₹2 trillion of green hydrogen investment",
+     "value": "₹2 trillion",
+     "period": null,
+     "period_end": null,
+     "publisher": "gasworld (cited via third-party summary)",
+     "series": "India refinery green hydrogen investment plan",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "the green bid price sits roughly 1.7 to 3.2 times above grey hydrogen depending which grey benchmark is used",
+     "value": "1.7–3.2x premium",
+     "period": null,
+     "period_end": null,
+     "publisher": "Article's own calculation",
+     "series": "Green vs. grey hydrogen cost premium",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "the 10 KTPA plant is reported to be India's largest green hydrogen facility built specifically for a refinery",
+     "value": "10,000 tonnes/year",
+     "period": null,
+     "period_end": null,
+     "publisher": "Construction World and Indian Chemical News",
+     "series": "Largest green hydrogen facility for refinery in India",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "the facility is slated for commissioning by December 2027",
+     "value": "December 2027",
+     "period_end": "2027-12-31",
+     "publisher": "Construction World and Indian Chemical News",
+     "series": "Commissioning date for IOCL Panipat green hydrogen plant",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "the 10 ppm BS-VI diesel standard... took effect nationwide on 1 April 2020. Hitting 10 ppm instead of 50 ppm meant Indian refiners had to raise hydrotreating severity across the board",
+     "value": "50 ppm (BS-IV sulphur specification)",
+     "period": "pre-April 2020",
+     "period_end": "2020-03-31",
+     "publisher": "Article (based on contemporaneous reporting)",
+     "series": "BS-IV sulphur specification",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "the 10 ppm BS-VI diesel standard... took effect nationwide on 1 April 2020. ...the ₹35,000 crore OMC refinery-upgrade capex... ₹17,000 crore of that by Indian Oil Corporation alone",
+     "value": "₹35,000 crore (total) / ₹17,000 crore (IOC)",
+     "period": "pre-April 2020",
+     "period_end": "2020-03-31",
+     "publisher": "Tribune India and Deccan Herald (contemporaneous reporting)",
+     "series": "BS-VI refinery upgrade capex",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

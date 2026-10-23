@@ -1,0 +1,270 @@
+{
+ "slug": "brandsafway-and-2017-roll-up-wave-that",
+ "text_sha1": "355edb7dbb5a33db",
+ "chars": 14839,
+ "checked": "2026-10-23T10:46:33",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "BrandSafway ... had nearly $5 billion in revenue , about 32,000 employees , and 350+ locations in 30 countries .",
+     "value": "nearly $5 billion",
+     "period": "2017",
+     "period_end": "2017-12-31",
+     "publisher": "BrandSafway",
+     "series": "BrandSafway Merger Press Release",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "Altrad bid £332 million for UK-listed Cape plc in July 2017",
+     "value": "£332 million",
+     "period": "July 2017",
+     "period_end": "2017-07-31",
+     "publisher": "ScaffMag",
+     "series": "M&A Transactions",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "United Rentals agreed on 25 January 2017 to buy NES Rentals in an all-cash deal worth approximately $965 million",
+     "value": "~$965 million",
+     "period": "January 2017",
+     "period_end": "2017-01-25",
+     "publisher": "United Rentals",
+     "series": "Form 10-Q / Press Release",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "valuing the company at roughly $6.7 billion (including about $3.8 billion of debt)",
+     "value": "roughly $6.7 billion",
+     "period": "30 September 2019",
+     "period_end": "2019-09-30",
+     "publisher": "Brookfield Business Partners",
+     "series": "Investment Press Release",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "valuing the company at roughly $6.7 billion (including about $3.8 billion of debt)",
+     "value": "about $3.8 billion",
+     "period": "30 September 2019",
+     "period_end": "2019-09-30",
+     "publisher": "Brookfield Business Partners",
+     "series": "Investment Press Release",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "BrandSafway ... had nearly $5 billion in revenue , about 32,000 employees , and 350+ locations in 30 countries .",
+     "value": "about 32,000",
+     "period": "2017",
+     "period_end": "2017-12-31",
+     "publisher": "BrandSafway",
+     "series": "BrandSafway Merger Press Release",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "BrandSafway ... had nearly $5 billion in revenue , about 32,000 employees , and 350+ locations in 30 countries .",
+     "value": "350+",
+     "period": "2017",
+     "period_end": "2017-12-31",
+     "publisher": "BrandSafway",
+     "series": "BrandSafway Merger Press Release",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "BrandSafway ... had nearly $5 billion in revenue , about 32,000 employees , and 350+ locations in 30 countries .",
+     "value": "30 countries",
+     "period": "2017",
+     "period_end": "2017-12-31",
+     "publisher": "BrandSafway",
+     "series": "BrandSafway Merger Press Release",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "adding over 10,000 employees and, by one account, roughly tripling Altrad's revenue base at the time.",
+     "value": "over 10,000 employees",
+     "period": "2017",
+     "period_end": "2017-12-31",
+     "publisher": "ScaffMag",
+     "series": "Altrad Acquisition Coverage",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Hertel (2015) and Prezioso Linjebygg (2016) preceded it, together adding roughly €2 billion in combined revenue.",
+     "value": "roughly €2 billion",
+     "period": "2015-2016",
+     "period_end": "2016-12-31",
+     "publisher": "ScaffMag",
+     "series": "Altrad Acquisition Coverage",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "closing 3 April 2017 — a 4.9× EBITDA multiple net of synergies (4.3× adjusted, including acquired tax assets).",
+     "value": "4.9×",
+     "period": "April 2017",
+     "period_end": "2017-04-03",
+     "publisher": "United Rentals",
+     "series": "Form 10-Q / Press Release",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "closing 3 April 2017 — a 4.9× EBITDA multiple net of synergies (4.3× adjusted, including acquired tax assets).",
+     "value": "4.3×",
+     "period": "April 2017",
+     "period_end": "2017-04-03",
+     "publisher": "United Rentals",
+     "series": "Form 10-Q / Press Release",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "approximate $1.9 billion, according to investment-bank TKO Miller's account",
+     "value": "$1.9 billion",
+     "period": "2013",
+     "period_end": "2013-12-31",
+     "publisher": "TKO Miller",
+     "series": "State of the Scaffolding Industry",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "approximate $1.3 billion in equity, valuing the company at roughly $6.7 billion",
+     "value": "$1.3 billion",
+     "period": "30 September 2019",
+     "period_end": "2019-09-30",
+     "publisher": "Brookfield Business Partners",
+     "series": "Investment Press Release",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "a ~$5 billion, 32,000-employee scaffolding and access giant",
+     "value": "$5 billion revenue, 32,000 employees",
+     "period": "2017 merger",
+     "period_end": "2017-06-22",
+     "publisher": "Brand Energy & Infrastructure Services / Safway Group (PR Newswire/GlobeNewswire)",
+     "series": "BrandSafway merger press release figures",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "had nearly $5 billion in revenue, about 32,000 employees, and 350+ locations in 30 countries",
+     "value": "$5 billion revenue, 32,000 employees, 350+ locations in 30 countries",
+     "period": "as of 2017 merger completion",
+     "period_end": "2017-06-22",
+     "publisher": "Brand Energy & Infrastructure Services / Safway Group (PR Newswire/GlobeNewswire)",
+     "series": "BrandSafway combined entity post-merger",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Altrad bid £332 million for UK-listed Cape plc in July 2017, adding over 10,000 employees",
+     "value": "£332 million, >10,000 employees",
+     "period": "July 2017",
+     "period_end": "2017-07-31",
+     "publisher": "ScaffMag (trade coverage)",
+     "series": "Altrad acquisition of Cape plc",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "roughly tripling Altrad's revenue base at the time",
+     "value": "tripling of Altrad's revenue base",
+     "period": "July 2017",
+     "period_end": "2017-07-31",
+     "publisher": "ScaffMag (trade coverage)",
+     "series": "Altrad revenue impact from Cape plc acquisition",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Hertel (2015) and Prezioso Linjebygg (2016) preceded it, together adding roughly €2 billion in combined revenue",
+     "value": "€2 billion combined revenue",
+     "period": "2015-2016",
+     "period_end": "2016-12-31",
+     "publisher": "ScaffMag (trade coverage)",
+     "series": "Altrad's prior acquisitions (Hertel, Prezioso Linjebygg)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "United Rentals agreed on 25 January 2017 to buy NES Rentals for $965 million",
+     "value": "$965 million",
+     "period": "25 January 2017",
+     "period_end": "2017-01-25",
+     "publisher": "United Rentals (press release, SEC 10-Q filings)",
+     "series": "United Rentals acquisition of NES Rentals",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "closing 3 April 2017 — a 4.9× EBITDA multiple net of synergies (4.3× adjusted, including acquired tax assets)",
+     "value": "4.9× EBITDA (net of synergies), 4.3× adjusted EBITDA",
+     "period": "3 April 2017",
+     "period_end": "2017-04-03",
+     "publisher": "United Rentals (press release, SEC 10-Q filings)",
+     "series": "United Rentals-NES Rentals valuation metrics",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Brookfield Business Partners agreed to buy half of CD&R's stake in BrandSafway for about $1.3 billion in equity",
+     "value": "$1.3 billion equity",
+     "period": "30 September 2019",
+     "period_end": "2019-09-30",
+     "publisher": "Brookfield Business Partners (press release)",
+     "series": "Brookfield acquisition of CD&R stake in BrandSafway",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "valuing the company at roughly $6.7 billion (including about $3.8 billion of debt)",
+     "value": "$6.7 billion (including $3.8 billion debt)",
+     "period": "30 September 2019",
+     "period_end": "2019-09-30",
+     "publisher": "Brookfield Business Partners (press release)",
+     "series": "BrandSafway valuation post-Brookfield investment",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "CD&R's original 2013 acquisition of Brand ... valued at roughly $1.9 billion",
+     "value": "$1.9 billion",
+     "period": "2013",
+     "period_end": "2013-12-31",
+     "publisher": "TKO Miller (published account)",
+     "series": "CD&R acquisition of Brand Energy & Infrastructure Services",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "the $6.7 billion figure describes the company two years after the merger",
+     "value": "$6.7 billion valuation",
+     "period": "2019",
+     "period_end": "2019-09-30",
+     "publisher": "Brookfield Business Partners (press release)",
+     "series": "BrandSafway valuation (post-merger growth)",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

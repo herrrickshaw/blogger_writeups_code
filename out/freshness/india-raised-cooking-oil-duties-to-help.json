@@ -1,0 +1,615 @@
+{
+ "slug": "india-raised-cooking-oil-duties-to-help",
+ "text_sha1": "903b9c6e86fdd582",
+ "chars": 9859,
+ "checked": "2026-10-23T13:34:53",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "Retail vegetable oil prices rose 14% after the first cut anyway, imports are up 5%, and the oilseed mission needs output to grow 10% a year.",
+     "value": "14%",
+     "period": "May 2025 to August 2026",
+     "period_end": "2026-08-31",
+     "publisher": "MoSPI",
+     "series": "consumer price index for vegetable oils",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "136 lakh t Edible oil imported in November 2025 to August 2026, up 5%; palm oil is 48% of it",
+     "value": "136 lakh t",
+     "period": "November 2025 to August 2026",
+     "period_end": "2026-08-31",
+     "publisher": "Solvent Extractors’ Association of India",
+     "series": "Edible oil imports",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "10% a year Oilseed growth needed to reach the 69.7 million tonne target for 2030-31, against about 4% a year since 2023-24",
+     "value": "10% a year",
+     "period": "2024-25 to 2030-31",
+     "period_end": "2031-03-31",
+     "publisher": "PIB / ministry",
+     "series": "National Mission on Edible Oils – Oilseeds targets",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "The vegetable oils index stood at 117.0 in May 2025 and kept rising, to 124.2 by September 2025 and 133.9 by August 2026: 14% higher fifteen months after the cut.",
+     "value": "117.0",
+     "period": "May 2025",
+     "period_end": "2025-05-31",
+     "publisher": "MoSPI",
+     "series": "consumer price index (base 2024), vegetable oils sub-class",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "The vegetable oils index stood at 117.0 in May 2025 and kept rising, to 124.2 by September 2025 and 133.9 by August 2026: 14% higher fifteen months after the cut.",
+     "value": "124.2",
+     "period": "September 2025",
+     "period_end": "2025-09-30",
+     "publisher": "MoSPI",
+     "series": "consumer price index (base 2024), vegetable oils sub-class",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "The vegetable oils index stood at 117.0 in May 2025 and kept rising, to 124.2 by September 2025 and 133.9 by August 2026: 14% higher fifteen months after the cut.",
+     "value": "133.9",
+     "period": "August 2026",
+     "period_end": "2026-08-31",
+     "publisher": "MoSPI",
+     "series": "consumer price index (base 2024), vegetable oils sub-class",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "In August 2026 refined oil prices were up 14.2% on a year earlier, groundnut oil 12.9% and mustard oil 6.9%.",
+     "value": "14.2%",
+     "period": "August 2026",
+     "period_end": "2026-08-31",
+     "publisher": "MoSPI",
+     "series": "consumer price index items, refined oil",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "In August 2026 refined oil prices were up 14.2% on a year earlier, groundnut oil 12.9% and mustard oil 6.9%.",
+     "value": "12.9%",
+     "period": "August 2026",
+     "period_end": "2026-08-31",
+     "publisher": "MoSPI",
+     "series": "consumer price index items, groundnut oil",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "In August 2026 refined oil prices were up 14.2% on a year earlier, groundnut oil 12.9% and mustard oil 6.9%.",
+     "value": "6.9%",
+     "period": "August 2026",
+     "period_end": "2026-08-31",
+     "publisher": "MoSPI",
+     "series": "consumer price index items, mustard oil",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Coconut oil, which had spiked in 2025, was down 29.9%.",
+     "value": "29.9%",
+     "period": "August 2026",
+     "period_end": "2026-08-31",
+     "publisher": "MoSPI",
+     "series": "consumer price index items, coconut oil",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "India imported 136.2 lakh tonnes of edible oil in the first ten months of the 2025-26 oil year, 5% more than a year earlier.",
+     "value": "136.2 lakh tonnes",
+     "period": "first ten months of 2025-26 oil year",
+     "period_end": "2026-08-31",
+     "publisher": "Solvent Extractors’ Association of India",
+     "series": "Edible oil imports",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "The Indian Vegetable Oil Producers’ Association expects domestic edible oil output of about 9.6 million tonnes in 2025-26 and imports of about 16.7 million tonnes",
+     "value": "9.6 million tonnes",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Indian Vegetable Oil Producers’ Association",
+     "series": "domestic edible oil output projection",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "The Indian Vegetable Oil Producers’ Association expects domestic edible oil output of about 9.6 million tonnes in 2025-26 and imports of about 16.7 million tonnes",
+     "value": "16.7 million tonnes",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Indian Vegetable Oil Producers’ Association",
+     "series": "imports projection",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "India’s import bill for animal and vegetable oils and fats (HS chapter 15) was $19.8 billion in 2025-26, up from $10.0 billion in 2018-19",
+     "value": "$19.8 billion",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TradeStat database HS chapter 15 import value",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "The National Mission on Edible Oils – Oilseeds was approved on 3 October 2024 with ₹10,103 crore for 2024-25 to 2030-31.",
+     "value": "₹10,103 crore",
+     "period": "2024-25 to 2030-31",
+     "period_end": "2031-03-31",
+     "publisher": "PIB / ministry",
+     "series": "National Mission on Edible Oils – Oilseeds allocation",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "It aims to raise oilseed production to 69.7 million tonnes by 2030-31 and, with the separate oil palm mission, domestic edible oil to 25.45 million tonnes",
+     "value": "69.7 million tonnes",
+     "period": "2030-31",
+     "period_end": "2031-03-31",
+     "publisher": "PIB / ministry",
+     "series": "National Mission on Edible Oils – Oilseeds production target",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "It aims to raise oilseed production to 69.7 million tonnes by 2030-31 and, with the separate oil palm mission, domestic edible oil to 25.45 million tonnes",
+     "value": "25.45 million tonnes",
+     "period": "2030-31",
+     "period_end": "2031-03-31",
+     "publisher": "PIB / ministry",
+     "series": "domestic edible oil target",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "The government told the Lok Sabha in August 2026 that oilseed output rose from 39.67 million tonnes in 2023-24 to 43.06 million tonnes in 2025-26 (third advance estimate).",
+     "value": "39.67 million tonnes",
+     "period": "2023-24",
+     "period_end": "2024-03-31",
+     "publisher": "PIB / ministry",
+     "series": "oilseed output",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "The government told the Lok Sabha in August 2026 that oilseed output rose from 39.67 million tonnes in 2023-24 to 43.06 million tonnes in 2025-26 (third advance estimate).",
+     "value": "43.06 million tonnes",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "PIB / ministry",
+     "series": "oilseed output (third advance estimate)",
+     "frequency": "annual",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "The effective duty on crude palm and soybean oil has gone from 27.5% to 11% in two steps, the latest on 24 September 2026.",
+     "value": "27.5% → 11%",
+     "period": "24 September 2026",
+     "period_end": "2026-09-24",
+     "publisher": "Department of Consumer Affairs (PIB)",
+     "series": "Basic customs duty and effective duty on crude palm and soybean oil",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "Retail vegetable oil prices rose 14% after the first cut anyway",
+     "value": "14%",
+     "period": "after the first cut (May 2025)",
+     "period_end": "2025-05-31",
+     "publisher": "MoSPI",
+     "series": "Consumer Price Index (CPI) for vegetable oils (base 2024)",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "imports are up 5%",
+     "value": "5%",
+     "period": "Nov 2025 to Aug 2026",
+     "period_end": "2026-08-31",
+     "publisher": "Solvent Extractors’ Association of India",
+     "series": "Edible oil imports (lakh tonnes)",
+     "frequency": "annual (oil year)",
+     "headline": false
+    },
+    {
+     "quote": "the oilseed mission needs output to grow 10% a year",
+     "value": "10% a year",
+     "period": "2024-25 to 2030-31",
+     "period_end": "2030-03-31",
+     "publisher": "National Mission on Edible Oils (Cabinet decision)",
+     "series": "Oilseed production growth target",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "136 lakh t Edible oil imported in November 2025 to August 2026",
+     "value": "136 lakh tonnes",
+     "period": "Nov 2025 to Aug 2026",
+     "period_end": "2026-08-31",
+     "publisher": "Solvent Extractors’ Association of India",
+     "series": "Edible oil imports (lakh tonnes)",
+     "frequency": "annual (oil year)",
+     "headline": false
+    },
+    {
+     "quote": "palm oil is 48% of it",
+     "value": "48%",
+     "period": "Nov 2025 to Aug 2026",
+     "period_end": "2026-08-31",
+     "publisher": "Solvent Extractors’ Association of India",
+     "series": "Composition of edible oil imports by type",
+     "frequency": "annual (oil year)",
+     "headline": false
+    },
+    {
+     "quote": "the National Mission on Edible Oils... aims to raise oilseed production to 69.7 million tonne target for 2030-31",
+     "value": "69.7 million tonnes",
+     "period": "2030-31",
+     "period_end": "2031-03-31",
+     "publisher": "Cabinet decision (3 October 2024)",
+     "series": "National Mission on Edible Oils – Oilseeds",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "domestic edible oil to 25.45 million tonnes",
+     "value": "25.45 million tonnes",
+     "period": "2030-31",
+     "period_end": "2031-03-31",
+     "publisher": "Cabinet decision (3 October 2024)",
+     "series": "Domestic edible oil production target",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "₹10,103 crore for 2024-25 to 2030-31",
+     "value": "₹10,103 crore",
+     "period": "2024-25 to 2030-31",
+     "period_end": "2031-03-31",
+     "publisher": "Cabinet decision (3 October 2024)",
+     "series": "Budget allocation for National Mission on Edible Oils",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "oilseed output rose from 39.67 million tonnes in 2023-24 to 43.06 million tonnes in 2025-26",
+     "value": "39.67 million tonnes (2023-24) → 43.06 million tonnes (2025-26)",
+     "period": "2023-24 and 2025-26",
+     "period_end": [
+      "2024-03-31",
+      "2026-03-31"
+     ],
+     "publisher": "Lok Sabha (August 2026)",
+     "series": "Oilseed output (third advance estimate)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "about 4% a year since 2023-24",
+     "value": "4% a year",
+     "period": "2023-24 to 2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Lok Sabha (August 2026)",
+     "series": "Oilseed output growth rate",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "The May 2025 cut had halved the basic duty from 20% to 10%.",
+     "value": "20% → 10%",
+     "period": "31 May 2025",
+     "period_end": "2025-05-31",
+     "publisher": "Department of Consumer Affairs (PIB)",
+     "series": "Basic customs duty on crude palm and soybean oil",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "On 24 September 2026 the government cut the basic customs duty on crude palm and crude soybean oil from 10% to 5% and on crude sunflower oil to nil.",
+     "value": "10% → 5% (palm/soybean), 20% → 0% (sunflower)",
+     "period": "24 September 2026",
+     "period_end": "2026-09-24",
+     "publisher": "Department of Consumer Affairs (PIB)",
+     "series": "Basic customs duty on crude oils",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "With cesses, the effective duty on crude palm and soybean oil fell from 16.5% to 11%.",
+     "value": "16.5% → 11%",
+     "period": "24 September 2026",
+     "period_end": "2026-09-24",
+     "publisher": "Department of Consumer Affairs (PIB)",
+     "series": "Effective duty on crude palm and soybean oil",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "the difference widened from 8.25 to 19.25 percentage points",
+     "value": "8.25 → 19.25 percentage points",
+     "period": "after May 2025 duty cut",
+     "period_end": null,
+     "publisher": "Customs notifications",
+     "series": "Duty gap between crude and refined oil",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "refined oil imports fell from 16.4 lakh tonnes to 6.6 lakh tonnes over the first ten months of the oil year",
+     "value": "16.4 lakh tonnes → 6.6 lakh tonnes",
+     "period": "first ten months of the oil year (Nov–Aug)",
+     "period_end": "2026-08-31",
+     "publisher": "Solvent Extractors’ Association of India",
+     "series": "Refined oil imports (lakh tonnes)",
+     "frequency": "annual (oil year)",
+     "headline": false
+    },
+    {
+     "quote": "Vegetable oils, consumer price index (2024 = 100) ... 117.0 (May 2025) ... 133.9 (Aug 2026)",
+     "value": "117.0 (May 2025) → 133.9 (Aug 2026)",
+     "period": [
+      "31 May 2025",
+      "August 2026"
+     ],
+     "period_end": [
+      "2025-05-31",
+      "2026-08-31"
+     ],
+     "publisher": "MoSPI",
+     "series": "Consumer Price Index (CPI) for vegetable oils (base 2024)",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "the vegetable oils index stood at 117.0 in May 2025 and kept rising, to 124.2 by September 2025 and 133.9 by August 2026: 14% higher fifteen months after the cut.",
+     "value": "14%",
+     "period": "May 2025 to August 2026",
+     "period_end": "2026-08-31",
+     "publisher": "MoSPI",
+     "series": "Consumer Price Index (CPI) for vegetable oils (base 2024)",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "In August 2026 refined oil prices were up 14.2% on a year earlier, groundnut oil 12.9% and mustard oil 6.9%. Coconut oil, which had spiked in 2025, was down 29.9%.",
+     "value": [
+      "14.2%",
+      "12.9%",
+      "6.9%",
+      "-29.9%"
+     ],
+     "period": "August 2026 vs. August 2025",
+     "period_end": "2026-08-31",
+     "publisher": "MoSPI",
+     "series": "Consumer Price Index (CPI) for vegetable oils (base 2024)",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "the oils and fats index rose from 161.5 in August 2024 to 183.7 by December, almost 14% in four months.",
+     "value": "161.5 → 183.7 (14%)",
+     "period": "August 2024 to December 2024",
+     "period_end": "2024-12-31",
+     "publisher": "MoSPI",
+     "series": "Oils and fats index (base 2012)",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "India imported 136.2 lakh tonnes of edible oil in the first ten months of the 2025-26 oil year, 5% more than a year earlier.",
+     "value": "136.2 lakh tonnes (5% increase)",
+     "period": "Nov 2024–Aug 2026",
+     "period_end": "2026-08-31",
+     "publisher": "Solvent Extractors’ Association of India",
+     "series": "Edible oil imports (lakh tonnes)",
+     "frequency": "annual (oil year)",
+     "headline": false
+    },
+    {
+     "quote": "India’s import bill for animal and vegetable oils and fats (HS chapter 15) was $19.8 billion in 2025-26, up from $10.0 billion in 2018-19",
+     "value": [
+      "$19.8 billion (2025-26)",
+      "$10.0 billion (2018-19)"
+     ],
+     "period": [
+      "2025-26",
+      "2018-19"
+     ],
+     "period_end": [
+      "2026-03-31",
+      "2019-03-31"
+     ],
+     "publisher": "DGCI&S (Commerce Ministry)",
+     "series": "Trade data for HS chapter 15",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "domestic edible oil output of about 9.6 million tonnes in 2025-26",
+     "value": "9.6 million tonnes",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Indian Vegetable Oil Producers’ Association",
+     "series": "Domestic edible oil output estimate",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "imports of about 16.7 million tonnes",
+     "value": "16.7 million tonnes",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Indian Vegetable Oil Producers’ Association",
+     "series": "Edible oil imports estimate",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "imports would be close to two-thirds of supply",
+     "value": "~66.7%",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Indian Vegetable Oil Producers’ Association",
+     "series": "Edible oil supply composition",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "the rise in international edible oil prices over the past year at about 25%",
+     "value": "25%",
+     "period": "past year (as of 24 September 2026)",
+     "period_end": "2026-09-24",
+     "publisher": "Solvent Extractors’ Association",
+     "series": "International edible oil price change",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "oilseed production to 60% more oilseeds by 2030-31 than they did in 2025-26",
+     "value": "60% increase",
+     "period": [
+      "2025-26",
+      "2030-31"
+     ],
+     "period_end": [
+      "2026-03-31",
+      "2031-03-31"
+     ],
+     "publisher": "National Mission on Edible Oils (Cabinet decision)",
+     "series": "Oilseed production growth target",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "Edible oil output would have to go from about 9.6 million tonnes to 25.45 million",
+     "value": "9.6 million tonnes → 25.45 million tonnes",
+     "period": [
+      "2025-26",
+      "2030-31"
+     ],
+     "period_end": [
+      "2026-03-31",
+      "2031-03-31"
+     ],
+     "publisher": "National Mission on Edible Oils (Cabinet decision)",
+     "series": "Edible oil output target",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "the September 2024 hike reached shops quickly. On MoSPI’s older 2012-based series, the oils and fats index rose from 161.5 in August 2024 to 183.7 by December",
+     "value": "161.5 → 183.7",
+     "period": "August 2024 to December 2024",
+     "period_end": "2024-12-31",
+     "publisher": "MoSPI",
+     "series": "Oils and fats index (base 2012)",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "the vegetable oils index stood at 117.0 in May 2025 and kept rising, to 124.2 by September 2025 and 133.9 by August 2026",
+     "value": [
+      "117.0 (May 2025)",
+      "124.2 (Sep 2025)",
+      "133.9 (Aug 2026)"
+     ],
+     "period": [
+      "31 May 2025",
+      "30 Sep 2025",
+      "August 2026"
+     ],
+     "period_end": [
+      "2025-05-31",
+      "2025-09-30",
+      "2026-08-31"
+     ],
+     "publisher": "MoSPI",
+     "series": "Consumer Price Index (CPI) for vegetable oils (base 2024)",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Palm oil | 61.47 | 65.34 | Soybean oil | 44.64 | 45.61 | Sunflower oil | 24.00 | 25.15 | All edible oils | 130.25 | 136.20",
+     "value": [
+      {
+       "type": "palm oil",
+       "value": "61.47 → 65.34 lakh tonnes"
+      },
+      {
+       "type": "soybean oil",
+       "value": "44.64 → 45.61 lakh tonnes"
+      },
+      {
+       "type": "sunflower oil",
+       "value": "24.00 → 25.15 lakh tonnes"
+      },
+      {
+       "type": "all edible oils",
+       "value": "130.25 → 136.20 lakh tonnes"
+      }
+     ],
+     "period": [
+      "2024-25",
+      "2025-26"
+     ],
+     "period_end": [
+      "2025-03-31",
+      "2026-03-31"
+     ],
+     "publisher": "Solvent Extractors’ Association of India",
+     "series": "Edible oil imports by type (lakh tonnes)",
+     "frequency": "annual (oil year)",
+     "headline": false
+    },
+    {
+     "quote": "of which crude | 113.88 (87%) | 129.61 (95%) | of which refined | 16.36 | 6.59",
+     "value": [
+      {
+       "type": "crude",
+       "value": "113.88 → 129.61 lakh tonnes (87% → 95%)"
+      },
+      {
+       "type": "refined",
+       "value": "16.36 → 6.59 lakh tonnes"
+      }
+     ],
+     "period": [
+      "2024-25",
+      "2025-26"
+     ],
+     "period_end": [
+      "2025-03-31",
+      "2026-03-31"
+     ],
+     "publisher": "Solvent Extractors’ Association of India",
+     "series": "Edible oil imports by type (lakh tonnes)",
+     "frequency": "annual (oil year)",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

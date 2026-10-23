@@ -1,0 +1,234 @@
+{
+ "slug": "indias-fertiliser-import-bill-hits-18",
+ "text_sha1": "274ee19d93a949e0",
+ "chars": 12487,
+ "checked": "2026-10-23T14:11:27",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "India's fertiliser import bill is projected to hit a record $18 billion this fiscal year — a 76% jump from the year before.",
+     "value": "$18 billion",
+     "period": "this fiscal year",
+     "period_end": null,
+     "publisher": "industry officials",
+     "series": "Fertiliser imports",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "India's fertiliser import bill is projected to hit a record $18 billion this fiscal year — a 76% jump from the year before.",
+     "value": "76%",
+     "period": "this fiscal year",
+     "period_end": null,
+     "publisher": "industry officials",
+     "series": "Fertiliser imports year-on-year increase",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "90% of urea's cost is natural gas",
+     "value": "90%",
+     "period": null,
+     "period_end": null,
+     "publisher": "Standing Committee on Chemicals and Fertilisers",
+     "series": "Urea cost structure",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "India sources only a quarter of that gas domestically. ... and only 26% of that gas is sourced domestically",
+     "value": "26%",
+     "period": null,
+     "period_end": null,
+     "publisher": "Standing Committee on Chemicals and Fertilisers",
+     "series": "Domestic gas sourcing for urea",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "Phosphate import dependence | 95",
+     "value": "95%",
+     "period": null,
+     "period_end": null,
+     "publisher": "Standing Committee on Chemicals and Fertilisers",
+     "series": "Phosphate import dependence",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "Potash import dependence | 100",
+     "value": "100%",
+     "period": null,
+     "period_end": null,
+     "publisher": "Standing Committee on Chemicals and Fertilisers",
+     "series": "Potash import dependence",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "the Geological Survey of India has estimated roughly 20,000 million tonnes of probable and possible potash reserves in the Nagaur-Ganganagar basin",
+     "value": "20,000 million tonnes",
+     "period": null,
+     "period_end": null,
+     "publisher": "Geological Survey of India",
+     "series": "Potash reserves estimates",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "importing roughly 40 lakh tonnes (about 4 million tonnes) of Muriate of Potash (MOP) a year",
+     "value": "40 lakh tonnes",
+     "period": "a year",
+     "period_end": null,
+     "publisher": "Volza trade-data summaries",
+     "series": "Muriate of Potash import volume",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "27 of 33 operational urea plants are more than a quarter-century old",
+     "value": "27 of 33",
+     "period": null,
+     "period_end": null,
+     "publisher": "Standing Committee on Chemicals and Fertilisers",
+     "series": "Operational urea plants age profile",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India's domestic natural gas price is set monthly at 10% of the Indian crude oil basket, currently notified at $7.86/MMBtu against roughly $85/bbl crude",
+     "value": "$7.86/MMBtu",
+     "period": "current",
+     "period_end": null,
+     "publisher": "PPAC",
+     "series": "Domestic natural gas price",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "currently notified at $7.86/MMBtu against roughly $85/bbl crude",
+     "value": "$85/bbl",
+     "period": "current",
+     "period_end": null,
+     "publisher": "PPAC",
+     "series": "Indian crude oil basket price",
+     "frequency": "monthly",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "Fertiliser imports are set to surge 76% in a single fiscal year to a record $18 billion.",
+     "value": "$18 billion",
+     "period": "current fiscal year",
+     "period_end": "2026-03-31",
+     "publisher": "Business Standard (officials cited)",
+     "series": "Fertiliser import bill (projected)",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "India's fertiliser import bill is projected to hit a record $18 billion this fiscal year — a 76% jump from the year before.",
+     "value": "76%",
+     "period": "current fiscal year vs previous fiscal year",
+     "period_end": "2026-03-31",
+     "publisher": "Business Standard (officials cited)",
+     "series": "Year-on-year fertiliser import bill growth rate",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "90% of urea's cost is natural gas, and India sources only a quarter of that gas domestically.",
+     "value": "90%",
+     "period": null,
+     "publisher": "Standing Committee on Chemicals & Fertilisers (PRS Legislative Research)",
+     "series": "Share of urea production cost attributed to natural gas",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "only 26% of that gas is sourced domestically",
+     "value": "26%",
+     "period": null,
+     "publisher": "Standing Committee on Chemicals & Fertilisers (PRS Legislative Research)",
+     "series": "Domestic share of natural gas used in urea production",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India's import dependence for phosphate requirements: 95%",
+     "value": "95%",
+     "period": null,
+     "publisher": "Standing Committee on Chemicals & Fertilisers (PRS Legislative Research)",
+     "series": "Phosphate import dependence",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India's import dependence for potash requirements: 100%",
+     "value": "100%",
+     "period": null,
+     "publisher": "Standing Committee on Chemicals & Fertilisers (PRS Legislative Research)",
+     "series": "Potash import dependence",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "importing roughly 40 lakh tonnes (about 4 million tonnes) of Muriate of Potash (MOP) a year",
+     "value": "40 lakh tonnes (4 million tonnes)",
+     "period": "annual",
+     "period_end": "2025-12-31",
+     "publisher": "Volza trade-data summaries (industry estimate)",
+     "series": "Potash import volume (MOP)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "27 of 33 operational urea plants are more than a quarter-century old",
+     "value": "27 out of 33",
+     "period": null,
+     "publisher": "Standing Committee on Chemicals & Fertilisers (PRS Legislative Research)",
+     "series": "Age of operational urea plants",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India has roughly 20,000 million tonnes of probable and possible potash reserves in the Nagaur-Ganganagar basin",
+     "value": "20,000 million tonnes",
+     "period": null,
+     "publisher": "Geological Survey of India (GSI)",
+     "series": "Potash reserves (probable and possible)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "natural gas price is set monthly at 10% of the Indian crude oil basket, currently notified at $7.86/MMBtu",
+     "value": "$7.86/MMBtu",
+     "period": "current month",
+     "period_end": "2026-08-31",
+     "publisher": "PPAC (live gas price notifications)",
+     "series": "Domestic natural gas price (monthly)",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "currently notified at $7.86/MMBtu against roughly $85/bbl crude",
+     "value": "$85/bbl",
+     "period": "current month",
+     "period_end": "2026-08-31",
+     "publisher": "PPAC (live crude oil price reference)",
+     "series": "Indian crude oil basket price",
+     "frequency": "monthly",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

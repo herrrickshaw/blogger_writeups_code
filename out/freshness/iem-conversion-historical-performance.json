@@ -1,0 +1,760 @@
+{
+ "slug": "iem-conversion-historical-performance",
+ "text_sha1": "ea0950e9112bd35f",
+ "chars": 8465,
+ "checked": "2026-10-23T12:16:32",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "45.1% → 82.0% conversion rate, 2021 low to 2024 high",
+     "value": "45.1%",
+     "period": "2021",
+     "period_end": "2021-12-31",
+     "publisher": "DPIIT",
+     "series": "Industrial Entrepreneurs Memoranda (IEM) Conversion Rate",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "45.1% → 82.0% conversion rate, 2021 low to 2024 high (among full calendar years — the partial-year \"Up to Dec 2025\" row runs higher, at 109.9%)",
+     "value": "82.0%",
+     "period": "2024",
+     "period_end": "2024-12-31",
+     "publisher": "DPIIT",
+     "series": "Industrial Entrepreneurs Memoranda (IEM) Conversion Rate",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "at 109.9%",
+     "value": "109.9%",
+     "period": "Up to Dec 2025",
+     "period_end": "2025-12-31",
+     "publisher": "DPIIT",
+     "series": "Industrial Entrepreneurs Memoranda (IEM) Conversion Rate",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Rs 4.94L cr CY2024 implemented — the best year on record",
+     "value": "Rs 4.94L cr",
+     "period": "CY2024",
+     "period_end": "2024-12-31",
+     "publisher": "DPIIT",
+     "series": "Industrial Entrepreneurs Memoranda (IEM) Part B Implemented",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "2024 first year IEM implementation > FDI equity inflow",
+     "value": "Rs 4,93,765cr",
+     "period": "CY2024",
+     "period_end": "2024-12-31",
+     "publisher": "DPIIT",
+     "series": "Industrial Entrepreneurs Memoranda (IEM) Part B Implemented",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "FDI equity inflow (Rs 4,21,929cr)",
+     "value": "Rs 4,21,929cr",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "PIB / ministry",
+     "series": "FDI equity inflow",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "71,396",
+     "value": "71,396 Rs cr",
+     "period": "2017",
+     "period_end": "2017-12-31",
+     "publisher": "DPIIT",
+     "series": "Industrial Entrepreneurs Memoranda (IEM) Part B Implemented",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "571",
+     "value": "571",
+     "period": "2017",
+     "period_end": "2017-12-31",
+     "publisher": "DPIIT",
+     "series": "Industrial Entrepreneurs Memoranda (IEM) Part B IEMs",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "458,652",
+     "value": "458,652 Rs cr",
+     "period": "2018",
+     "period_end": "2018-12-31",
+     "publisher": "DPIIT",
+     "series": "Industrial Entrepreneurs Memoranda (IEM) Part A Filed",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "2,173",
+     "value": "2,173",
+     "period": "2018",
+     "period_end": "2018-12-31",
+     "publisher": "DPIIT",
+     "series": "Industrial Entrepreneurs Memoranda (IEM) Part A IEMs",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "255,783",
+     "value": "255,783 Rs cr",
+     "period": "2018",
+     "period_end": "2018-12-31",
+     "publisher": "DPIIT",
+     "series": "Industrial Entrepreneurs Memoranda (IEM) Part B Implemented",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "1,005",
+     "value": "1,005",
+     "period": "2018",
+     "period_end": "2018-12-31",
+     "publisher": "DPIIT",
+     "series": "Industrial Entrepreneurs Memoranda (IEM) Part B IEMs",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "55.8",
+     "value": "55.8%",
+     "period": "2018",
+     "period_end": "2018-12-31",
+     "publisher": "DPIIT",
+     "series": "Industrial Entrepreneurs Memoranda (IEM) Conversion %",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "678,852",
+     "value": "678,852 Rs cr",
+     "period": "2019",
+     "period_end": "2019-12-31",
+     "publisher": "DPIIT",
+     "series": "Industrial Entrepreneurs Memoranda (IEM) Part A Filed",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "2,378",
+     "value": "2,378",
+     "period": "2019",
+     "period_end": "2019-12-31",
+     "publisher": "DPIIT",
+     "series": "Industrial Entrepreneurs Memoranda (IEM) Part A IEMs",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "1,229",
+     "value": "1,229",
+     "period": "2019",
+     "period_end": "2019-12-31",
+     "publisher": "DPIIT",
+     "series": "Industrial Entrepreneurs Memoranda (IEM) Part B IEMs",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "414,620",
+     "value": "414,620 Rs cr",
+     "period": "2020",
+     "period_end": "2020-12-31",
+     "publisher": "DPIIT",
+     "series": "Industrial Entrepreneurs Memoranda (IEM) Part A Filed",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "1,432",
+     "value": "1,432",
+     "period": "2020",
+     "period_end": "2020-12-31",
+     "publisher": "DPIIT",
+     "series": "Industrial Entrepreneurs Memoranda (IEM) Part A IEMs",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "233,969",
+     "value": "233,969 Rs cr",
+     "period": "2020",
+     "period_end": "2020-12-31",
+     "publisher": "DPIIT",
+     "series": "Industrial Entrepreneurs Memoranda (IEM) Part B Implemented",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "848",
+     "value": "848",
+     "period": "2020",
+     "period_end": "2020-12-31",
+     "publisher": "DPIIT",
+     "series": "Industrial Entrepreneurs Memoranda (IEM) Part B IEMs",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "56.4",
+     "value": "56.4%",
+     "period": "2020",
+     "period_end": "2020-12-31",
+     "publisher": "DPIIT",
+     "series": "Industrial Entrepreneurs Memoranda (IEM) Conversion %",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "771,428",
+     "value": "771,428 Rs cr",
+     "period": "2021",
+     "period_end": "2021-12-31",
+     "publisher": "DPIIT",
+     "series": "Industrial Entrepreneurs Memoranda (IEM) Part A Filed",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "1,489",
+     "value": "1,489",
+     "period": "2021",
+     "period_end": "2021-12-31",
+     "publisher": "DPIIT",
+     "series": "Industrial Entrepreneurs Memoranda (IEM) Part A IEMs",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "347,978",
+     "value": "347,978 Rs cr",
+     "period": "2021",
+     "period_end": "2021-12-31",
+     "publisher": "DPIIT",
+     "series": "Industrial Entrepreneurs Memoranda (IEM) Part B Implemented",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "812",
+     "value": "812",
+     "period": "2021",
+     "period_end": "2021-12-31",
+     "publisher": "DPIIT",
+     "series": "Industrial Entrepreneurs Memoranda (IEM) Part B IEMs",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "424,101",
+     "value": "424,101 Rs cr",
+     "period": "2022",
+     "period_end": "2022-12-31",
+     "publisher": "DPIIT",
+     "series": "Industrial Entrepreneurs Memoranda (IEM) Part A Filed",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "1,185",
+     "value": "1,185",
+     "period": "2022",
+     "period_end": "2022-12-31",
+     "publisher": "DPIIT",
+     "series": "Industrial Entrepreneurs Memoranda (IEM) Part A IEMs",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "250,064",
+     "value": "250,064 Rs cr",
+     "period": "2022",
+     "period_end": "2022-12-31",
+     "publisher": "DPIIT",
+     "series": "Industrial Entrepreneurs Memoranda (IEM) Part B Implemented",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "916",
+     "value": "916",
+     "period": "2022",
+     "period_end": "2022-12-31",
+     "publisher": "DPIIT",
+     "series": "Industrial Entrepreneurs Memoranda (IEM) Part B IEMs",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "59.0",
+     "value": "59.0%",
+     "period": "2022",
+     "period_end": "2022-12-31",
+     "publisher": "DPIIT",
+     "series": "Industrial Entrepreneurs Memoranda (IEM) Conversion %",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "510,852",
+     "value": "510,852 Rs cr",
+     "period": "2023",
+     "period_end": "2023-12-31",
+     "publisher": "DPIIT",
+     "series": "Industrial Entrepreneurs Memoranda (IEM) Part A Filed",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "1,267",
+     "value": "1,267",
+     "period": "2023",
+     "period_end": "2023-12-31",
+     "publisher": "DPIIT",
+     "series": "Industrial Entrepreneurs Memoranda (IEM) Part A IEMs",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "276,925",
+     "value": "276,925 Rs cr",
+     "period": "2023",
+     "period_end": "2023-12-31",
+     "publisher": "DPIIT",
+     "series": "Industrial Entrepreneurs Memoranda (IEM) Part B Implemented",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "968",
+     "value": "968",
+     "period": "2023",
+     "period_end": "2023-12-31",
+     "publisher": "DPIIT",
+     "series": "Industrial Entrepreneurs Memoranda (IEM) Part B IEMs",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "54.2",
+     "value": "54.2%",
+     "period": "2023",
+     "period_end": "2023-12-31",
+     "publisher": "DPIIT",
+     "series": "Industrial Entrepreneurs Memoranda (IEM) Conversion %",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "602,082",
+     "value": "602,082 Rs cr",
+     "period": "2024",
+     "period_end": "2024-12-31",
+     "publisher": "DPIIT",
+     "series": "Industrial Entrepreneurs Memoranda (IEM) Part A Filed",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "986",
+     "value": "986",
+     "period": "2024",
+     "period_end": "2024-12-31",
+     "publisher": "DPIIT",
+     "series": "Industrial Entrepreneurs Memoranda (IEM) Part A IEMs",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "1,165",
+     "value": "1,165",
+     "period": "2024",
+     "period_end": "2024-12-31",
+     "publisher": "DPIIT",
+     "series": "Industrial Entrepreneurs Memoranda (IEM) Part B IEMs",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "530,416",
+     "value": "530,416 Rs cr",
+     "period": "Up to Dec 2025",
+     "period_end": "2025-12-31",
+     "publisher": "DPIIT",
+     "series": "Industrial Entrepreneurs Memoranda (IEM) Part A Filed",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "702",
+     "value": "702",
+     "period": "Up to Dec 2025",
+     "period_end": "2025-12-31",
+     "publisher": "DPIIT",
+     "series": "Industrial Entrepreneurs Memoranda (IEM) Part A IEMs",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "583,096",
+     "value": "583,096 Rs cr",
+     "period": "Up to Dec 2025",
+     "period_end": "2025-12-31",
+     "publisher": "DPIIT",
+     "series": "Industrial Entrepreneurs Memoranda (IEM) Part B Implemented",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "998",
+     "value": "998",
+     "period": "Up to Dec 2025",
+     "period_end": "2025-12-31",
+     "publisher": "DPIIT",
+     "series": "Industrial Entrepreneurs Memoranda (IEM) Part B IEMs",
+     "frequency": "annual",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "55.8%",
+     "value": "55.8%",
+     "period": "2018",
+     "period_end": "2018-12-31",
+     "publisher": "DPIIT",
+     "series": "IEM Conversion Rate (Part B Implemented ÷ Part A Filed)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "56.4%",
+     "value": "56.4%",
+     "period": "2020",
+     "period_end": "2020-12-31",
+     "publisher": "DPIIT",
+     "series": "IEM Conversion Rate (Part B Implemented ÷ Part A Filed)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "45.1% → 82.0% conversion rate, 2021 low to 2024 high",
+     "value": "45.1%",
+     "period": "2021",
+     "period_end": "2021-12-31",
+     "publisher": "DPIIT",
+     "series": "IEM Conversion Rate (Part B Implemented ÷ Part A Filed)",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "45.1% → 82.0% conversion rate, 2021 low to 2024 high",
+     "value": "82.0%",
+     "period": "2024",
+     "period_end": "2024-12-31",
+     "publisher": "DPIIT",
+     "series": "IEM Conversion Rate (Part B Implemented ÷ Part A Filed)",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Up to Dec 2025 ... 109.9%",
+     "value": "109.9%",
+     "period": "Up to Dec 2025",
+     "period_end": "2025-12-31",
+     "publisher": "DPIIT",
+     "series": "IEM Conversion Rate (Part B Implemented ÷ Part A Filed)",
+     "frequency": "annual (partial)",
+     "headline": false
+    },
+    {
+     "quote": "Part A Filed (Rs cr) | ... | 2024 | 602,082",
+     "value": "602,082 Rs cr",
+     "period": "2024",
+     "period_end": "2024-12-31",
+     "publisher": "DPIIT",
+     "series": "IEM Part A Filed (Investment Intent)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Part A (IEMs) | ... | 2024 | 986",
+     "value": "986 IEMs",
+     "period": "2024",
+     "period_end": "2024-12-31",
+     "publisher": "DPIIT",
+     "series": "IEM Part A Count",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Part B Implemented (Rs cr) | ... | 2024 | 493,765",
+     "value": "493,765 Rs cr",
+     "period": "2024",
+     "period_end": "2024-12-31",
+     "publisher": "DPIIT",
+     "series": "IEM Part B Implemented (Actual Investment)",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Rs 4.94L cr CY2024 implemented — the best year on record",
+     "value": "494,000 Rs cr",
+     "period": "2024",
+     "period_end": "2024-12-31",
+     "publisher": "DPIIT",
+     "series": "IEM Part B Implemented (Actual Investment)",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Part B (IEMs) | ... | 2024 | 1,165",
+     "value": "1,165 IEMs",
+     "period": "2024",
+     "period_end": "2024-12-31",
+     "publisher": "DPIIT",
+     "series": "IEM Part B Count",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Up to Dec 2025 | 530,416 (Rs cr) | ... | 583,096 (Rs cr)",
+     "value": "530,416 Rs cr",
+     "period": "Up to Dec 2025",
+     "period_end": "2025-12-31",
+     "publisher": "DPIIT",
+     "series": "IEM Part A Filed (Investment Intent)",
+     "frequency": "annual (partial)",
+     "headline": false
+    },
+    {
+     "quote": "Up to Dec 2025 | ... | 583,096 (Rs cr)",
+     "value": "583,096 Rs cr",
+     "period": "Up to Dec 2025",
+     "period_end": "2025-12-31",
+     "publisher": "DPIIT",
+     "series": "IEM Part B Implemented (Actual Investment)",
+     "frequency": "annual (partial)",
+     "headline": false
+    },
+    {
+     "quote": "Up to Dec 2025 | ... | 998 (IEMs)",
+     "value": "998 IEMs",
+     "period": "Up to Dec 2025",
+     "period_end": "2025-12-31",
+     "publisher": "DPIIT",
+     "series": "IEM Part B Count",
+     "frequency": "annual (partial)",
+     "headline": false
+    },
+    {
+     "quote": "2021 (45.1%, the low point): Part A filing surged to Rs 7.71L cr",
+     "value": "771,428 Rs cr",
+     "period": "2021",
+     "period_end": "2021-12-31",
+     "publisher": "DPIIT",
+     "series": "IEM Part A Filed (Investment Intent)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "2024 first year IEM implementation > FDI equity inflow ... Rs 4,93,765cr, CY2024 ... Rs 4,21,929cr",
+     "value": "4,93,765 Rs cr",
+     "period": "CY2024",
+     "period_end": "2024-12-31",
+     "publisher": "DPIIT",
+     "series": "IEM Part B Implemented (Actual Investment)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "2024 first year IEM implementation > FDI equity inflow ... Rs 4,21,929cr",
+     "value": "421,929 Rs cr",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "DPIIT (IEM) / RBI (FDI)",
+     "series": "FDI Equity Inflow",
+     "frequency": "annual (fiscal year)",
+     "headline": false
+    },
+    {
+     "quote": "Gujarat alone implemented Rs 4.55L cr across just 2024-2025",
+     "value": "455,000 Rs cr",
+     "period": "2024-2025",
+     "period_end": "2025-12-31",
+     "publisher": "DPIIT",
+     "series": "State-level IEM Part B Implemented (Actual Investment)",
+     "frequency": "annual (partial)",
+     "headline": false
+    },
+    {
+     "quote": "the top-3 states (Gujarat, Odisha, Maharashtra) account for 63.3% of all 2021-2025 implementation",
+     "value": "63.3%",
+     "period": "2021-2025",
+     "period_end": "2025-12-31",
+     "publisher": "DPIIT",
+     "series": "State-level IEM Part B Implementation Share",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "2017 | — | — | 71,396 | 571",
+     "value": "71,396 Rs cr",
+     "period": "2017",
+     "period_end": "2017-12-31",
+     "publisher": "DPIIT",
+     "series": "IEM Part B Implemented (Actual Investment)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "2018 | 458,652 | 2,173 | 255,783 | 1,005",
+     "value": "458,652 Rs cr",
+     "period": "2018",
+     "period_end": "2018-12-31",
+     "publisher": "DPIIT",
+     "series": "IEM Part A Filed (Investment Intent)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "2018 | 458,652 | 2,173 | 255,783 | 1,005",
+     "value": "255,783 Rs cr",
+     "period": "2018",
+     "period_end": "2018-12-31",
+     "publisher": "DPIIT",
+     "series": "IEM Part B Implemented (Actual Investment)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "2019 | 678,852 | 2,378 | — | 1,229",
+     "value": "678,852 Rs cr",
+     "period": "2019",
+     "period_end": null,
+     "publisher": "DPIIT",
+     "series": "IEM Part A Filed (Investment Intent)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "2019 Part B EXCLUDED — source defect: AR2022-23 prints Gujarat 2019 at Rs 15,18,861cr (~6x all-India)",
+     "value": "15,18,861 Rs cr",
+     "period": "2019",
+     "period_end": null,
+     "publisher": "DPIIT",
+     "series": "IEM Part B (Defective Data)",
+     "frequency": "one-off (source defect)",
+     "headline": false
+    },
+    {
+     "quote": "2020 | 414,620 | 1,432 | 233,969 | 848",
+     "value": "414,620 Rs cr",
+     "period": "2020",
+     "period_end": "2020-12-31",
+     "publisher": "DPIIT",
+     "series": "IEM Part A Filed (Investment Intent)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "2020 | 414,620 | 1,432 | 233,969 | 848",
+     "value": "233,969 Rs cr",
+     "period": "2020",
+     "period_end": "2020-12-31",
+     "publisher": "DPIIT",
+     "series": "IEM Part B Implemented (Actual Investment)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "2021 | 771,428 | 1,489 | 347,978 | 812",
+     "value": "771,428 Rs cr",
+     "period": "2021",
+     "period_end": "2021-12-31",
+     "publisher": "DPIIT",
+     "series": "IEM Part A Filed (Investment Intent)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "2021 | 771,428 | 1,489 | 347,978 | 812",
+     "value": "347,978 Rs cr",
+     "period": "2021",
+     "period_end": "2021-12-31",
+     "publisher": "DPIIT",
+     "series": "IEM Part B Implemented (Actual Investment)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "2022 | 424,101 | 1,185 | 250,064 | 916",
+     "value": "424,101 Rs cr",
+     "period": "2022",
+     "period_end": "2022-12-31",
+     "publisher": "DPIIT",
+     "series": "IEM Part A Filed (Investment Intent)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "2022 | 424,101 | 1,185 | 250,064 | 916",
+     "value": "250,064 Rs cr",
+     "period": "2022",
+     "period_end": "2022-12-31",
+     "publisher": "DPIIT",
+     "series": "IEM Part B Implemented (Actual Investment)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "2023 | 510,852 | 1,267 | 276,925 | 968",
+     "value": "510,852 Rs cr",
+     "period": "2023",
+     "period_end": "2023-12-31",
+     "publisher": "DPIIT",
+     "series": "IEM Part A Filed (Investment Intent)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "2023 | 510,852 | 1,267 | 276,925 | 968",
+     "value": "276,925 Rs cr",
+     "period": "2023",
+     "period_end": "2023-12-31",
+     "publisher": "DPIIT",
+     "series": "IEM Part B Implemented (Actual Investment)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "2019 is excluded entirely for a documented DPIIT source defect (Gujarat printed at ~6x plausible value)",
+     "value": "1,229 IEMs",
+     "period": "2019",
+     "period_end": null,
+     "publisher": "DPIIT",
+     "series": "IEM Part B Count (Defective Data)",
+     "frequency": "one-off (source defect)",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

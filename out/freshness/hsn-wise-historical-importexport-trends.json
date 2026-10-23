@@ -1,0 +1,720 @@
+{
+ "slug": "hsn-wise-historical-importexport-trends",
+ "text_sha1": "b1a7b27f7ceec4ab",
+ "chars": 10430,
+ "checked": "2026-10-23T12:14:18",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "Fertilisers (HS31) \n +118.9%",
+     "value": "+118.9%",
+     "period": "FY2018-19 to FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TRADESTAT Commodity-wise Import reports",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "Electrical machinery (HS85) \n +101.5%",
+     "value": "+101.5%",
+     "period": "FY2018-19 to FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TRADESTAT Commodity-wise Import reports",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "Edible oils (HS15) \n +97.9%",
+     "value": "+97.9%",
+     "period": "FY2018-19 to FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TRADESTAT Commodity-wise Import reports",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "Pearls, gems & jewellery \n +69.1%",
+     "value": "+69.1%",
+     "period": "FY2018-19 to FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TRADESTAT Commodity-wise Import reports",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "Mineral fuels & oils \n +21.2%",
+     "value": "+21.2%",
+     "period": "FY2018-19 to FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TRADESTAT Commodity-wise Import reports",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "The chapter sat flat near $6.7bn for three years, jumped to $12.8bn in FY2021-22 and peaked at $15.3bn in FY2022-23, collapsed back to $8.3bn by FY2024-25, then spiked again to $14.6bn.",
+     "value": "$6.7bn",
+     "period": "FY2018-19 to FY2020-21",
+     "period_end": "2021-03-31",
+     "publisher": "DGCI&S",
+     "series": "TRADESTAT Commodity-wise Import reports",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "jumped to $12.8bn in FY2021-22",
+     "value": "$12.8bn",
+     "period": "FY2021-22",
+     "period_end": "2022-03-31",
+     "publisher": "DGCI&S",
+     "series": "TRADESTAT Commodity-wise Import reports",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "peaked at $15.3bn in FY2022-23",
+     "value": "$15.3bn",
+     "period": "FY2022-23",
+     "period_end": "2023-03-31",
+     "publisher": "DGCI&S",
+     "series": "TRADESTAT Commodity-wise Import reports",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "collapsed back to $8.3bn by FY2024-25",
+     "value": "$8.3bn",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "DGCI&S",
+     "series": "TRADESTAT Commodity-wise Import reports",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "then spiked again to $14.6bn.",
+     "value": "$14.6bn",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TRADESTAT Commodity-wise Import reports",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Iron & steel | Export | +33.0 | −18.1 | 0.8 | Round trip: $9.7bn → $22.9bn → $10.3bn |",
+     "value": "+33.0%",
+     "period": "FY2018-19 to FY2021-22",
+     "period_end": "2022-03-31",
+     "publisher": "DGCI&S",
+     "series": "TRADESTAT Commodity-wise Export reports",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Iron & steel | Export | +33.0 | −18.1 | 0.8 | Round trip: $9.7bn → $22.9bn → $10.3bn |",
+     "value": "-18.1%",
+     "period": "FY2021-22 to FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TRADESTAT Commodity-wise Export reports",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Iron & steel | Export | +33.0 | −18.1 | 0.8 | Round trip: $9.7bn → $22.9bn → $10.3bn |",
+     "value": "0.8%",
+     "period": "FY2018-19 to FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TRADESTAT Commodity-wise Export reports",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Mineral fuels & oils | Export | +13.2 | −5.3 | 2.2 | Peaked FY2022-23, now 45% off peak |",
+     "value": "+13.2%",
+     "period": "FY2018-19 to FY2021-22",
+     "period_end": "2022-03-31",
+     "publisher": "DGCI&S",
+     "series": "TRADESTAT Commodity-wise Export reports",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Mineral fuels & oils | Export | +13.2 | −5.3 | 2.2 | Peaked FY2022-23, now 45% off peak |",
+     "value": "-5.3%",
+     "period": "FY2021-22 to FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TRADESTAT Commodity-wise Export reports",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Mineral fuels & oils | Export | +13.2 | −5.3 | 2.2 | Peaked FY2022-23, now 45% off peak |",
+     "value": "2.2%",
+     "period": "FY2018-19 to FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TRADESTAT Commodity-wise Export reports",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Aircraft & spacecraft | Import | −13.1 | +28.9 | 8.8 | Collapse then recovery |",
+     "value": "-13.1%",
+     "period": "FY2018-19 to FY2021-22",
+     "period_end": "2022-03-31",
+     "publisher": "DGCI&S",
+     "series": "TRADESTAT Commodity-wise Import reports",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Aircraft & spacecraft | Import | −13.1 | +28.9 | 8.8 | Collapse then recovery |",
+     "value": "+28.9%",
+     "period": "FY2021-22 to FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TRADESTAT Commodity-wise Import reports",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Aircraft & spacecraft | Import | −13.1 | +28.9 | 8.8 | Collapse then recovery |",
+     "value": "8.8%",
+     "period": "FY2018-19 to FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TRADESTAT Commodity-wise Import reports",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Fertilisers | Import | +24.2 | +3.4 | 11.8 | Two spikes, one collapse |",
+     "value": "+24.2%",
+     "period": "FY2018-19 to FY2021-22",
+     "period_end": "2022-03-31",
+     "publisher": "DGCI&S",
+     "series": "TRADESTAT Commodity-wise Import reports",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Fertilisers | Import | +24.2 | +3.4 | 11.8 | Two spikes, one collapse |",
+     "value": "+3.4%",
+     "period": "FY2021-22 to FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TRADESTAT Commodity-wise Import reports",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Fertilisers | Import | +24.2 | +3.4 | 11.8 | Two spikes, one collapse |",
+     "value": "11.8%",
+     "period": "FY2018-19 to FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TRADESTAT Commodity-wise Import reports",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Animal/veg fats & oils | Import | +24.6 | +0.5 | 10.2 | Front-loaded; flat since |",
+     "value": "+24.6%",
+     "period": "FY2018-19 to FY2021-22",
+     "period_end": "2022-03-31",
+     "publisher": "DGCI&S",
+     "series": "TRADESTAT Commodity-wise Import reports",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Animal/veg fats & oils | Import | +24.6 | +0.5 | 10.2 | Front-loaded; flat since |",
+     "value": "+0.5%",
+     "period": "FY2021-22 to FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TRADESTAT Commodity-wise Import reports",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Animal/veg fats & oils | Import | +24.6 | +0.5 | 10.2 | Front-loaded; flat since |",
+     "value": "10.2%",
+     "period": "FY2018-19 to FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TRADESTAT Commodity-wise Import reports",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Organic chemicals | Import | +8.4 | −2.8 | 1.8 | Sign flip |",
+     "value": "+8.4%",
+     "period": "FY2018-19 to FY2021-22",
+     "period_end": "2022-03-31",
+     "publisher": "DGCI&S",
+     "series": "TRADESTAT Commodity-wise Import reports",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Organic chemicals | Import | +8.4 | −2.8 | 1.8 | Sign flip |",
+     "value": "-2.8%",
+     "period": "FY2021-22 to FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TRADESTAT Commodity-wise Import reports",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Organic chemicals | Import | +8.4 | −2.8 | 1.8 | Sign flip |",
+     "value": "1.8%",
+     "period": "FY2018-19 to FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TRADESTAT Commodity-wise Import reports",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Cereals | Export | +16.4 | −1.7 | 5.7 | Sign flip |",
+     "value": "+16.4%",
+     "period": "FY2018-19 to FY2021-22",
+     "period_end": "2022-03-31",
+     "publisher": "DGCI&S",
+     "series": "TRADESTAT Commodity-wise Export reports",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Cereals | Export | +16.4 | −1.7 | 5.7 | Sign flip |",
+     "value": "-1.7%",
+     "period": "FY2021-22 to FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TRADESTAT Commodity-wise Export reports",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Cereals | Export | +16.4 | −1.7 | 5.7 | Sign flip |",
+     "value": "5.7%",
+     "period": "FY2018-19 to FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TRADESTAT Commodity-wise Export reports",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Electrical machinery | Export | +16.6 | +27.9 | 22.9 | Real trend, accelerating |",
+     "value": "+16.6%",
+     "period": "FY2018-19 to FY2021-22",
+     "period_end": "2022-03-31",
+     "publisher": "DGCI&S",
+     "series": "TRADESTAT Commodity-wise Export reports",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Electrical machinery | Export | +16.6 | +27.9 | 22.9 | Real trend, accelerating |",
+     "value": "+27.9%",
+     "period": "FY2021-22 to FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TRADESTAT Commodity-wise Export reports",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Electrical machinery | Export | +16.6 | +27.9 | 22.9 | Real trend, accelerating |",
+     "value": "22.9%",
+     "period": "FY2018-19 to FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TRADESTAT Commodity-wise Export reports",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Electrical machinery | Import | +6.3 | +13.8 | 10.5 | Real trend, accelerating |",
+     "value": "+6.3%",
+     "period": "FY2018-19 to FY2021-22",
+     "period_end": "2022-03-31",
+     "publisher": "DGCI&S",
+     "series": "TRADESTAT Commodity-wise Import reports",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Electrical machinery | Import | +6.3 | +13.8 | 10.5 | Real trend, accelerating |",
+     "value": "+13.8%",
+     "period": "FY2021-22 to FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TRADESTAT Commodity-wise Import reports",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Electrical machinery | Import | +6.3 | +13.8 | 10.5 | Real trend, accelerating |",
+     "value": "10.5%",
+     "period": "FY2018-19 to FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TRADESTAT Commodity-wise Import reports",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Exports went $12.7bn → $54.0bn without a reversal",
+     "value": "$12.7bn",
+     "period": "FY2018-19",
+     "period_end": "2019-03-31",
+     "publisher": "DGCI&S",
+     "series": "TRADESTAT Commodity-wise Export reports",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Exports went $12.7bn → $54.0bn without a reversal",
+     "value": "$54.0bn",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TRADESTAT Commodity-wise Export reports",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Electrical machinery (HS85) is the standout export story: from $12.7bn to $54.0bn, +324% (22.9% CAGR)",
+     "value": "+324%",
+     "period": "FY2018-19 to FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TRADESTAT Commodity-wise Export reports",
+     "frequency": "monthly",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "Fertilisers (HS31) posted the highest eight-year growth rate among India's dozen largest imports, +118.9% since FY2018-19",
+     "value": "+118.9%",
+     "period": "FY2018-19 to FY2025-26",
+     "period_end": "2025-03-31",
+     "publisher": "DGCI&S",
+     "series": "TRADESTAT (Commodity-wise Import, 2-digit HS chapter level)",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Electrical machinery (HS85) has doubled (+101.5%, 10.5% CAGR)",
+     "value": "+101.5%",
+     "period": "FY2018-19 to FY2025-26",
+     "period_end": "2025-03-31",
+     "publisher": "DGCI&S",
+     "series": "TRADESTAT (Commodity-wise Import, 2-digit HS chapter level)",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Edible oils (HS15) are close behind (+97.9%)",
+     "value": "+97.9%",
+     "period": "FY2018-19 to FY2025-26",
+     "period_end": "2025-03-31",
+     "publisher": "DGCI&S",
+     "series": "TRADESTAT (Commodity-wise Import, 2-digit HS chapter level)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Pearls, gems & jewellery (+69.1%)",
+     "value": "+69.1%",
+     "period": "FY2018-19 to FY2025-26",
+     "period_end": "2025-03-31",
+     "publisher": "DGCI&S",
+     "series": "TRADESTAT (Commodity-wise Import, 2-digit HS chapter level)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Mineral fuels & oils (+21.2%)",
+     "value": "+21.2%",
+     "period": "FY2018-19 to FY2025-26",
+     "period_end": "2025-03-31",
+     "publisher": "DGCI&S",
+     "series": "TRADESTAT (Commodity-wise Import, 2-digit HS chapter level)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Fertilisers (HS31) posted ... jumped to $12.8bn in FY2021-22 and peaked at $15.3bn in FY2022-23, collapsed back to $8.3bn by FY2024-25, then spiked again to $14.6bn",
+     "value": "$15.3bn (peak), $8.3bn (FY2024-25), $14.6bn (FY2025-26)",
+     "period": "FY2021-22 to FY2025-26",
+     "period_end": "2025-03-31",
+     "publisher": "DGCI&S",
+     "series": "TRADESTAT (Commodity-wise Import, 2-digit HS chapter level)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Electrical machinery (HS85) is the standout export story: from $12.7bn to $54.0bn, +324%",
+     "value": "$12.7bn (FY2018-19) to $54.0bn (FY2025-26)",
+     "period": "FY2018-19 to FY2025-26",
+     "period_end": "2025-03-31",
+     "publisher": "DGCI&S",
+     "series": "TRADESTAT (Commodity-wise Export, 2-digit HS chapter level)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Pearls, gems & jewellery (HS71) is the one major chapter moving the wrong way for exports: -29.9%",
+     "value": "-29.9%",
+     "period": "FY2018-19 to FY2025-26",
+     "period_end": "2025-03-31",
+     "publisher": "DGCI&S",
+     "series": "TRADESTAT (Commodity-wise Export, 2-digit HS chapter level)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Top 12 import chapters account for 81.5% of all FY2025-26 imports",
+     "value": "81.5%",
+     "period": "FY2025-26",
+     "period_end": "2025-03-31",
+     "publisher": "DGCI&S",
+     "series": "TRADESTAT (Commodity-wise Import, 2-digit HS chapter level)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "DPIIT's Industrial Entrepreneur Memorandum investment-intention data: proposed domestic investment in Electricals Equipment jumped from ₹65,979 crore (2021) to ₹233,829 crore (2024)",
+     "value": "₹65,979 crore (2021) to ₹233,829 crore (2024)",
+     "period": "2021 to 2024",
+     "period_end": "2024-03-31",
+     "publisher": "DPIIT",
+     "series": "Industrial Entrepreneur Memorandum (Investment-intention data)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "DPIIT's Industrial Entrepreneur Memorandum investment-intention data: in Fertilizers from ₹1,112 crore (2021) to ₹41,127 crore (2024)",
+     "value": "₹1,112 crore (2021) to ₹41,127 crore (2024)",
+     "period": "2021 to 2024",
+     "period_end": "2024-03-31",
+     "publisher": "DPIIT",
+     "series": "Industrial Entrepreneur Memorandum (Investment-intention data)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Iron & steel exports are the extreme case: 0.8% a year over eight years is arithmetically correct and tells you nothing, because the series more than doubled to $22.9bn in FY2021-22 and gave all of it back",
+     "value": "$9.7bn (FY2018-19) → $22.9bn (FY2021-22) → $10.3bn (FY2025-26)",
+     "period": "FY2018-19 to FY2025-26",
+     "period_end": "2025-03-31",
+     "publisher": "DGCI&S",
+     "series": "TRADESTAT (Commodity-wise Export, 2-digit HS chapter level)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Mineral fuels & oils exports: +13.2% (FY2019–22), −5.3% (FY2022–26)",
+     "value": "+13.2% (FY2019–22), −5.3% (FY2022–26)",
+     "period": "FY2019-22 and FY2022-26",
+     "period_end": "2022-03-31 (first period), 2026-03-31 (second period)",
+     "publisher": "DGCI&S",
+     "series": "TRADESTAT (Commodity-wise Export, 2-digit HS chapter level)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Aircraft & spacecraft imports: −13.1% (FY2019–22), +28.9% (FY2022–26)",
+     "value": "−13.1% (FY2019–22), +28.9% (FY2022–26)",
+     "period": "FY2019-22 and FY2022-26",
+     "period_end": "2022-03-31 (first period), 2026-03-31 (second period)",
+     "publisher": "DGCI&S",
+     "series": "TRADESTAT (Commodity-wise Import, 2-digit HS chapter level)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Fertilisers imports: +24.2% (FY2019–22), +3.4% (FY2022–26)",
+     "value": "+24.2% (FY2019–22), +3.4% (FY2022–26)",
+     "period": "FY2019-22 and FY2022-26",
+     "period_end": "2022-03-31 (first period), 2026-03-31 (second period)",
+     "publisher": "DGCI&S",
+     "series": "TRADESTAT (Commodity-wise Import, 2-digit HS chapter level)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Animal/veg fats & oils imports: +24.6% (FY2019–22), +0.5% (FY2022–26)",
+     "value": "+24.6% (FY2019–22), +0.5% (FY2022–26)",
+     "period": "FY2019-22 and FY2022-26",
+     "period_end": "2022-03-31 (first period), 2026-03-31 (second period)",
+     "publisher": "DGCI&S",
+     "series": "TRADESTAT (Commodity-wise Import, 2-digit HS chapter level)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Organic chemicals imports: +8.4% (FY2019–22), −2.8% (FY2022–26)",
+     "value": "+8.4% (FY2019–22), −2.8% (FY2022–26)",
+     "period": "FY2019-22 and FY2022-26",
+     "period_end": "2022-03-31 (first period), 2026-03-31 (second period)",
+     "publisher": "DGCI&S",
+     "series": "TRADESTAT (Commodity-wise Import, 2-digit HS chapter level)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Cereals exports: +16.4% (FY2019–22), −1.7% (FY2022–26)",
+     "value": "+16.4% (FY2019–22), −1.7% (FY2022–26)",
+     "period": "FY2019-22 and FY2022-26",
+     "period_end": "2022-03-31 (first period), 2026-03-31 (second period)",
+     "publisher": "DGCI&S",
+     "series": "TRADESTAT (Commodity-wise Export, 2-digit HS chapter level)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Electrical machinery exports: +16.6% (FY2019–22), +27.9% (FY2022–26)",
+     "value": "+16.6% (FY2019–22), +27.9% (FY2022–26)",
+     "period": "FY2019-22 and FY2022-26",
+     "period_end": "2022-03-31 (first period), 2026-03-31 (second period)",
+     "publisher": "DGCI&S",
+     "series": "TRADESTAT (Commodity-wise Export, 2-digit HS chapter level)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Electrical machinery imports: +6.3% (FY2019–22), +13.8% (FY2022–26)",
+     "value": "+6.3% (FY2019–22), +13.8% (FY2022–26)",
+     "period": "FY2019-22 and FY2022-26",
+     "period_end": "2022-03-31 (first period), 2026-03-31 (second period)",
+     "publisher": "DGCI&S",
+     "series": "TRADESTAT (Commodity-wise Import, 2-digit HS chapter level)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "HS61 knitted apparel exports dipped slightly, -2.3%",
+     "value": "-2.3%",
+     "period": "FY2018-19 to FY2025-26",
+     "period_end": "2025-03-31",
+     "publisher": "DGCI&S",
+     "series": "TRADESTAT (Commodity-wise Export, 2-digit HS chapter level)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "HS62 non-knitted apparel exports dipped slightly, -2.0%",
+     "value": "-2.0%",
+     "period": "FY2018-19 to FY2025-26",
+     "period_end": "2025-03-31",
+     "publisher": "DGCI&S",
+     "series": "TRADESTAT (Commodity-wise Export, 2-digit HS chapter level)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Mineral fuels imports have grown a modest 21.2% over eight years",
+     "value": "+21.2%",
+     "period": "FY2018-19 to FY2025-26",
+     "period_end": "2025-03-31",
+     "publisher": "DGCI&S",
+     "series": "TRADESTAT (Commodity-wise Import, 2-digit HS chapter level)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Pearls, gems & jewellery imports (+69.1%)",
+     "value": "+69.1%",
+     "period": "FY2018-19 to FY2025-26",
+     "period_end": "2025-03-31",
+     "publisher": "DGCI&S",
+     "series": "TRADESTAT (Commodity-wise Import, 2-digit HS chapter level)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "FY2025-26 is the most recent data available (updated 19 May 2026 per source)",
+     "value": "19 May 2026",
+     "period": "FY2025-26 update",
+     "period_end": "2026-05-19",
+     "publisher": "DGCI&S",
+     "series": "TRADESTAT (Commodity-wise Import/Export)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Top 12 import chapters account for 81.5% of all FY2025-26 imports; the remaining 86 chapters share the other 18.5%.",
+     "value": "18.5%",
+     "period": "FY2025-26",
+     "period_end": "2025-03-31",
+     "publisher": "DGCI&S",
+     "series": "TRADESTAT (Commodity-wise Import, 2-digit HS chapter level)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Mineral fuels imports have grown only 21.2% over the same eight years — it's big, but not the fastest-moving part of the story.",
+     "value": "21.2%",
+     "period": "FY2018-19 to FY2025-26",
+     "period_end": "2025-03-31",
+     "publisher": "DGCI&S",
+     "series": "TRADESTAT (Commodity-wise Import, 2-digit HS chapter level)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Electrical machinery (HS85) — semiconductors, components, consumer electronics — has doubled (+101.5%, 10.5% CAGR)",
+     "value": "+101.5% (CAGR: 10.5%)",
+     "period": "FY2018-19 to FY2025-26",
+     "period_end": "2025-03-31",
+     "publisher": "DGCI&S",
+     "series": "TRADESTAT (Commodity-wise Import, 2-digit HS chapter level)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Fertilisers (HS31) posts the highest eight-year CAGR among India's dozen largest imports — +118.9% since FY2018-19 (11.8% a year)",
+     "value": "+118.9% (CAGR: 11.8%)",
+     "period": "FY2018-19 to FY2025-26",
+     "period_end": "2025-03-31",
+     "publisher": "DGCI&S",
+     "series": "TRADESTAT (Commodity-wise Import, 2-digit HS chapter level)",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Electrical machinery (HS85) exports went $12.7bn → $54.0bn without a reversal — that is what a 22.9% CAGR should look like.",
+     "value": "+22.9% (CAGR)",
+     "period": "FY2018-19 to FY2025-26",
+     "period_end": "2025-03-31",
+     "publisher": "DGCI&S",
+     "series": "TRADESTAT (Commodity-wise Export, 2-digit HS chapter level)",
+     "frequency": "annual",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

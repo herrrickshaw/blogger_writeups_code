@@ -1,0 +1,680 @@
+{
+ "slug": "india-will-finance-waste-to-energy",
+ "text_sha1": "09d416480cfbb2df",
+ "chars": 26894,
+ "checked": "2026-10-23T13:42:20",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "over 46,000 km of roads and counting",
+     "value": "over 46,000 km",
+     "period": "as on 26 August 2026",
+     "period_end": "2026-08-26",
+     "publisher": "MoRTH",
+     "series": "Plastic-to-bitumen road construction",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "reported yields of roughly 50–70% oil by weight from mixed plastic feedstock",
+     "value": "50–70%",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "RSC Sustainability / PMC-indexed studies",
+     "series": "Pyrolysis process literature",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "commonly cited around 44–45 MJ/kg",
+     "value": "44–45 MJ/kg",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "RSC Sustainability / PMC-indexed studies",
+     "series": "Pyrolysis oil calorific value",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "selling pyrolysis oil at roughly $500 a tonne into cement kilns",
+     "value": "$500 a tonne",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "plastictooilmachine.com",
+     "series": "Pyrolysis oil market price",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "rising substitution rate, from roughly 5% today toward 15% over six years",
+     "value": "5%",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "MoEFCC",
+     "series": "Solid Waste Management Rules, 2026",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "effective 1 April 2026",
+     "value": "1 April 2026",
+     "period": "1 April 2026",
+     "period_end": "2026-04-01",
+     "publisher": "MoEFCC",
+     "series": "Solid Waste Management Rules, 2026",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "floor area over 20,000 square metres",
+     "value": "20,000 square metres",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "MoEFCC",
+     "series": "Solid Waste Management Rules, 2026",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "water consumption above 40,000 litres a day",
+     "value": "40,000 litres a day",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "MoEFCC",
+     "series": "Solid Waste Management Rules, 2026",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "waste generation over 100 kg a day",
+     "value": "100 kg a day",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "MoEFCC",
+     "series": "Solid Waste Management Rules, 2026",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "the GOBARdhan scheme (Cabinet-approved with a ₹23,731 crore outlay)",
+     "value": "₹23,731 crore",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "PIB / ministry",
+     "series": "GOBARdhan scheme outlay",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "SATAT initiative's 2018 target of 5,000 CBG plants by 2025",
+     "value": "5,000 CBG plants",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "IOCL",
+     "series": "SATAT programme target",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "puts the actual commissioned count at 132 as of January 2026",
+     "value": "132 plants",
+     "period": "January 2026",
+     "period_end": "2026-01-31",
+     "publisher": "PNGRB",
+     "series": "Compressed Biogas Plants Running",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "roughly 43,700 km of rural roads (under the PMGSY programme)",
+     "value": "43,700 km",
+     "period": "2026",
+     "period_end": "2026-08-26",
+     "publisher": "MoRTH / PMGSY",
+     "series": "Rural roads built using waste plastic",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "a further ~2,900 km of national highways",
+     "value": "2,900 km",
+     "period": "2026",
+     "period_end": "2026-08-26",
+     "publisher": "MoRTH",
+     "series": "National highways built using waste plastic",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "roughly 80 lakh tonnes of municipal waste more broadly is reported to have gone into national-highway construction",
+     "value": "80 lakh tonnes",
+     "period": "2026",
+     "period_end": "2026-08-26",
+     "publisher": "MoRTH",
+     "series": "Municipal waste in national-highway construction",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "secured ₹48.44 crore in state viability-gap funding",
+     "value": "₹48.44 crore",
+     "period": "2026",
+     "period_end": "2026-08-26",
+     "publisher": "Swachh Bharat Mission",
+     "series": "Kozhikode WtE project state viability-gap funding",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "A typical 50 tonnes-per-day MRF costs roughly ₹1.5–3 crore to build",
+     "value": "₹1.5–3 crore",
+     "period": "2026",
+     "period_end": "2026-08-26",
+     "publisher": "MNRE / industry-guide sources",
+     "series": "Material Recovery Facility capex",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "municipal tipping fees (₹500–1,500 per tonne)",
+     "value": "₹500–1,500 per tonne",
+     "period": "2026",
+     "period_end": "2026-08-26",
+     "publisher": "Municipal corporations",
+     "series": "Municipal tipping fees",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Aavishkaar, roughly $9.7 million invested over five years",
+     "value": "$9.7 million",
+     "period": "2026",
+     "period_end": "2026-08-26",
+     "publisher": "Aavishkaar",
+     "series": "Nepra investment scale-up",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "set 1,500 kcal/kg as the minimum calorific value",
+     "value": "1,500 kcal/kg",
+     "period": "2016",
+     "period_end": "2016-12-31",
+     "publisher": "MoEFCC",
+     "series": "Solid Waste Management Rules, 2016",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "roughly 1,800 kcal/kg cited elsewhere as the level needed for genuinely self-sustaining combustion",
+     "value": "1,800 kcal/kg",
+     "period": "2026",
+     "period_end": "2026-08-26",
+     "publisher": "India MSW-composition studies",
+     "series": "Self-sustaining combustion floor",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "averages somewhere in the 800–2,150 kcal/kg range",
+     "value": "800–2,150 kcal/kg",
+     "period": "2026",
+     "period_end": "2026-08-26",
+     "publisher": "India MSW-composition studies",
+     "series": "Unsegregated Indian MSW calorific value range",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "1960 Shanghai residual waste, post mandatory sorting",
+     "value": "1960 kcal/kg",
+     "period": "2024",
+     "period_end": "2024-12-31",
+     "publisher": "Shanghai sorting-policy implementation study",
+     "series": "Shanghai residual waste LHV",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "of roughly 15 waste-to-energy plants India has built since 1987, 7 have shut down",
+     "value": "15 plants",
+     "period": "1987-2026",
+     "period_end": "2026-08-26",
+     "publisher": "CSE / Down To Earth",
+     "series": "India waste-to-energy plants built",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India's 2018-19 target of 800 MW of WtE capacity",
+     "value": "800 MW",
+     "period": "2018-19",
+     "period_end": "2019-03-31",
+     "publisher": "MNRE / Government of India",
+     "series": "Waste-to-energy capacity target",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "reached only 250–300 MW installed by 2020",
+     "value": "250–300 MW",
+     "period": "2020",
+     "period_end": "2020-12-31",
+     "publisher": "MNRE / Government of India",
+     "series": "Installed waste-to-energy capacity",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "WtE electricity is reported to cost roughly ₹7/kWh",
+     "value": "₹7/kWh",
+     "period": "2026",
+     "period_end": "2026-08-26",
+     "publisher": "CSE / Down To Earth",
+     "series": "WtE electricity cost",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "burning a reported 7,250–8,000 tonnes of largely mixed, poorly segregated waste daily",
+     "value": "7,250–8,000 tonnes daily",
+     "period": "2026",
+     "period_end": "2026-08-26",
+     "publisher": "Delhi municipal authorities / media reports",
+     "series": "Delhi WtE daily waste burning volume",
+     "frequency": "daily",
+     "headline": false
+    },
+    {
+     "quote": "1,129 plants as of end-2024",
+     "value": "1,129 plants",
+     "period": "end-2024",
+     "period_end": "2024-12-31",
+     "publisher": "Chinese government data",
+     "series": "China waste-to-energy plant count",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "exceeding 1.15 million tonnes of daily throughput",
+     "value": "1.15 million tonnes daily",
+     "period": "end-2024",
+     "period_end": "2024-12-31",
+     "publisher": "Chinese government data",
+     "series": "China waste-to-energy daily throughput capacity",
+     "frequency": "daily",
+     "headline": false
+    },
+    {
+     "quote": "27.4 GW of generation capacity",
+     "value": "27.4 GW",
+     "period": "end-2024",
+     "period_end": "2024-12-31",
+     "publisher": "Chinese government data",
+     "series": "China waste-to-energy generation capacity",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "lower heating value of residual waste rose 96.4% after the sorting mandate took hold",
+     "value": "96.4%",
+     "period": "2024",
+     "period_end": "2024-12-31",
+     "publisher": "Shanghai implementation study",
+     "series": "Shanghai residual waste LHV change",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "with food-waste separation reaching 99.5% purity",
+     "value": "99.5%",
+     "period": "2024",
+     "period_end": "2024-12-31",
+     "publisher": "Shanghai implementation study",
+     "series": "Shanghai food-waste separation purity",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "pick-and-place success rates as high as 95% in controlled, lab-scale demonstrations",
+     "value": "95%",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "IEEE/SKIMA",
+     "series": "Robotic sorting success rates",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India’s 1.66 lakh tonnes-a-day waste stream",
+     "value": "1.66 lakh tonnes a day",
+     "period": "2026",
+     "period_end": "2026-08-26",
+     "publisher": "MoHUA",
+     "series": "India daily waste stream volume",
+     "frequency": "daily",
+     "headline": true
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "over 46,000 km of roads and counting",
+     "value": "46,000+ km",
+     "period": null,
+     "period_end": null,
+     "publisher": "MoRTH (Ministry of Road Transport and Highways)",
+     "series": "Plastic-to-bitumen road construction (PMGSY programme)",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "reported yields of roughly 50–70% oil by weight from mixed plastic feedstock",
+     "value": "50–70% oil by weight",
+     "period": null,
+     "period_end": null,
+     "publisher": "Peer-reviewed pyrolysis literature (RSC Sustainability, PMC-indexed studies)",
+     "series": "Pyrolysis oil yield from mixed plastic",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "up to ~95% from cleaner single-polymer feed under slow-pyrolysis conditions",
+     "value": "~95% oil by weight (single-polymer, slow pyrolysis)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Peer-reviewed pyrolysis literature",
+     "series": "Pyrolysis oil yield from single-polymer plastic",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "a calorific value approaching diesel’s — commonly cited around 44–45 MJ/kg",
+     "value": "44–45 MJ/kg",
+     "period": null,
+     "period_end": null,
+     "publisher": "Peer-reviewed pyrolysis literature",
+     "series": "Calorific value of pyrolysis oil",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "selling pyrolysis oil at roughly $500 a tonne into cement kilns, brick kilns, and industrial boilers",
+     "value": "$500/tonne",
+     "period": null,
+     "period_end": null,
+     "publisher": "Industry-facing trade sources (plastictooilmachine.com)",
+     "series": "Pyrolysis oil market price",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "cement plants and WtE facilities to blend in at a rising substitution rate, from roughly 5% today toward 15% over six years",
+     "value": "5% (current) → 15% (in 6 years)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Solid Waste Management Rules, 2026 (via Drishti IAS/PMF IAS)",
+     "series": "RDF substitution mandate",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "GOBARdhan scheme (Cabinet-approved with a ₹23,731 crore outlay)",
+     "value": "₹23,731 crore",
+     "period": null,
+     "period_end": null,
+     "publisher": "Prime Minister’s Office (PIB)",
+     "series": "GOBARdhan scheme outlay",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "a target of 5,000 CBG plants by 2025 — a target of which just over 200 plants were reported commissioned",
+     "value": "5,000-plant target (2025); ~200 commissioned (as of 2026)",
+     "period": "2018–2025",
+     "period_end": "2025-12-31",
+     "publisher": "IOCL (via SATAT programme page)",
+     "series": "SATAT scheme plant count",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "actual commissioned count at 132 as of January 2026",
+     "value": "132 CBG plants",
+     "period": "Jan 2026",
+     "period_end": "2026-01-31",
+     "publisher": "PNGRB (via secondary reporting)",
+     "series": "GOBARdhan/SATAT commissioned plants",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "roughly 43,700 km of rural roads (under the PMGSY programme) and a further ~2,900 km of national highways built using waste plastic",
+     "value": "43,700 km (rural) + ~2,900 km (national highways)",
+     "period": null,
+     "period_end": null,
+     "publisher": "MoRTH (Ministry of Road Transport and Highways)",
+     "series": "Plastic-to-bitumen road construction (PMGSY)",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "roughly 80 lakh tonnes of municipal waste more broadly is reported to have gone into national-highway construction",
+     "value": "80 lakh tonnes",
+     "period": null,
+     "period_end": null,
+     "publisher": "Business Standard/Deccan Herald (via government sources)",
+     "series": "Municipal waste in highway construction",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "a typical 50 tonnes-per-day MRF costs roughly ₹1.5–3 crore to build",
+     "value": "₹1.5–3 crore (for 50 TPD MRF)",
+     "period": null,
+     "period_end": null,
+     "publisher": "kushaagra.org (industry guide)",
+     "series": "MRF capital cost",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "tipping fees (₹500–1,500 per tonne)",
+     "value": "₹500–1,500/tonne",
+     "period": null,
+     "period_end": null,
+     "publisher": "kushaagra.org (industry guide)",
+     "series": "Municipal tipping fees",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹48.44 crore in state viability-gap funding [for Kozhikode WtE project]",
+     "value": "₹48.44 crore",
+     "period": null,
+     "period_end": null,
+     "publisher": "MoHUA (Ministry of Housing and Urban Affairs)",
+     "series": "Swachh Bharat Mission viability-gap funding",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Solid Waste Management Rules, 2016 set 1,500 kcal/kg as the minimum calorific value",
+     "value": "1,500 kcal/kg",
+     "period": null,
+     "period_end": null,
+     "publisher": "MoEFCC (Ministry of Environment)",
+     "series": "SWM Rules 2016 calorific-value threshold",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "unsegregated Indian municipal solid waste ... averages somewhere in the 800–2,150 kcal/kg range",
+     "value": "800–2,150 kcal/kg",
+     "period": null,
+     "period_end": null,
+     "publisher": "Multiple India MSW-composition studies (Down To Earth, Bharatnama)",
+     "series": "Unsegregated MSW calorific value",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "roughly 1,800 kcal/kg [needed] for genuinely self-sustaining combustion",
+     "value": "1,800 kcal/kg",
+     "period": null,
+     "period_end": null,
+     "publisher": "Trade-press synthesis (Down To Earth)",
+     "series": "Self-sustaining combustion threshold",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "15 waste-to-energy plants India has built since 1987, 7 have shut down",
+     "value": "15 built; 7 shut down (45%+ failure rate)",
+     "period": "1987–2026",
+     "period_end": "2026-08-26",
+     "publisher": "Bharatnama (via CSE/Down To Earth)",
+     "series": "Waste-to-energy plant closures",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "India's 2018-19 target of 800 MW of WtE capacity had reached only 250–300 MW installed by 2020",
+     "value": "800 MW (target) vs 250–300 MW (installed by 2020)",
+     "period": "2018–2019 (target) / 2020 (actual)",
+     "period_end": "2020-12-31",
+     "publisher": "Bharatnama (via CSE/Down To Earth)",
+     "series": "Waste-to-energy capacity",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "WtE electricity is reported to cost roughly ₹7/kWh",
+     "value": "₹7/kWh",
+     "period": null,
+     "period_end": null,
+     "publisher": "Bharatnama (via CSE/Down To Earth)",
+     "series": "Waste-to-energy electricity cost",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Delhi's three large WtE plants ... burning a reported 7,250–8,000 tonnes of ... waste daily",
+     "value": "7,250–8,000 tonnes/day",
+     "period": null,
+     "period_end": null,
+     "publisher": "Down To Earth/The Leaflet",
+     "series": "Delhi WtE plant feed volume",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "China's waste-to-energy fleet is now the world's largest by a wide margin — 1,129 plants as of end-2024",
+     "value": "1,129 plants",
+     "period": "end-2024",
+     "period_end": "2024-12-31",
+     "publisher": "CGTN (Chinese government data)",
+     "series": "China WtE plant count",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "installed capacity exceeding 1.15 million tonnes of daily throughput",
+     "value": "1.15 million tonnes/day",
+     "period": "end-2024",
+     "period_end": "2024-12-31",
+     "publisher": "CGTN (Chinese government data)",
+     "series": "China WtE capacity",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Shanghai's mandatory four-bin household sorting law took effect on 1 July 2019",
+     "value": "1 July 2019",
+     "period": "1 Jul 2019",
+     "period_end": "2019-07-01",
+     "publisher": "Shanghai government (via Library of Congress)",
+     "series": "Shanghai sorting mandate effective date",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "residual waste rose 96.4% after the sorting mandate took hold",
+     "value": "96.4% increase in residual-waste LHV",
+     "period": "post-Jul 2019",
+     "period_end": null,
+     "publisher": "Shanghai policy-evaluation study",
+     "series": "Shanghai residual-waste LHV change",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "food-waste separation reaching 99.5% purity",
+     "value": "99.5% purity (food-waste separation)",
+     "period": "post-Jul 2019",
+     "period_end": null,
+     "publisher": "Shanghai policy-evaluation study",
+     "series": "Shanghai food-waste segregation purity",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "EBWGR bulk-generator thresholds (20,000 sq m floor area, 40,000 L/day water use, or 100 kg/day waste generation)",
+     "value": "20,000 sq m / 40,000 L/day / 100 kg/day",
+     "period": null,
+     "period_end": null,
+     "publisher": "MoEFCC (Solid Waste Management Rules, 2026)",
+     "series": "EBWGR bulk-generator thresholds",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Nepra built its business with roughly $9.7 million invested over five years",
+     "value": "$9.7 million (₹70+ crore)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Aavishkaar (impact investor)",
+     "series": "Nepra MRF financing",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India’s 1.66 lakh tonnes-a-day waste stream",
+     "value": "1.66 lakh tonnes/day",
+     "period": null,
+     "period_end": null,
+     "publisher": "Estimated (via waste-management studies)",
+     "series": "India’s daily MSW generation",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "China’s waste-to-energy fleet ... with installed capacity exceeding 1.15 million tonnes of daily throughput (well past the country's own 2025 target)",
+     "value": "1.15 million tonnes/day (2025 target surpassed)",
+     "period": "end-2024",
+     "period_end": "2024-12-31",
+     "publisher": "CGTN (Chinese government data)",
+     "series": "China WtE capacity vs. 2025 target",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "27.4 GW of generation capacity [in China]",
+     "value": "27.4 GW",
+     "period": "end-2024",
+     "period_end": "2024-12-31",
+     "publisher": "CGTN (Chinese government data)",
+     "series": "China WtE generation capacity",
+     "frequency": "annual",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

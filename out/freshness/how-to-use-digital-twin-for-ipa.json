@@ -1,0 +1,220 @@
+{
+ "slug": "how-to-use-digital-twin-for-ipa",
+ "text_sha1": "7d0e017e3b8f0c81",
+ "chars": 8905,
+ "checked": "2026-10-23T12:10:21",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "312 incentive instruments in the flat index (195 central, 117 state)",
+     "value": "312 instruments",
+     "period": "18 October 2026",
+     "period_end": "2026-10-18",
+     "publisher": "digital-twin-for-ipa repo",
+     "series": "flat incentive instrument index",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "1,849 companies in the SQLite database (1,483 flagged as Indian filers)",
+     "value": "1,849 companies",
+     "period": "18 October 2026",
+     "period_end": "2026-10-18",
+     "publisher": "digital-twin-for-ipa repo",
+     "series": "companies database",
+     "frequency": "live",
+     "headline": true
+    },
+    {
+     "quote": "103 layer JSON files, all of which parsed cleanly in the demo",
+     "value": "103 files",
+     "period": "18 October 2026",
+     "period_end": "2026-10-18",
+     "publisher": "digital-twin-for-ipa repo",
+     "series": "layer JSON files",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "2.5 min length of the demo video",
+     "value": "2.5 min",
+     "period": "18 October 2026",
+     "period_end": "2026-10-18",
+     "publisher": "digital-twin-for-ipa repo",
+     "series": "demo video",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "Ministry of Finance (12)",
+     "value": "12 instruments",
+     "period": "18 October 2026",
+     "period_end": "2026-10-18",
+     "publisher": "digital-twin-for-ipa repo",
+     "series": "flat instrument index by offering entity",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Tamil Nadu (9)",
+     "value": "9 instruments",
+     "period": "18 October 2026",
+     "period_end": "2026-10-18",
+     "publisher": "digital-twin-for-ipa repo",
+     "series": "flat instrument index by offering entity",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Telangana (9)",
+     "value": "9 instruments",
+     "period": "18 October 2026",
+     "period_end": "2026-10-18",
+     "publisher": "digital-twin-for-ipa repo",
+     "series": "flat instrument index by offering entity",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "48 countries (numbers as of the 18 October 2026 demo).",
+     "value": "48 countries",
+     "period": "18 October 2026",
+     "period_end": "2026-10-18",
+     "publisher": "digital-twin-for-ipa repo",
+     "series": "companies database country count",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "73 rows in grade_check_in_python, then 4 rating_darkness, 2 downgrade, 1 watch_negative, 1 sub_investment_grade, 1 litigation_or_regrade.",
+     "value": "73 rows",
+     "period": "18 October 2026",
+     "period_end": "2026-10-18",
+     "publisher": "digital-twin-for-ipa repo",
+     "series": "stressed assets grade_check_in_python",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "the README says 1,785 companies while the database held 1,849 on the demo date.",
+     "value": "1,785 companies",
+     "period": "18 October 2026",
+     "period_end": "2026-10-18",
+     "publisher": "digital-twin-for-ipa repo",
+     "series": "README company count",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "312 incentive instruments in the flat index (195 central, 117 state)",
+     "value": "312 instruments (195 central, 117 state)",
+     "period": null,
+     "period_end": null,
+     "publisher": "digital-twin-for-ipa (self-reported)",
+     "series": "Flat index of incentive instruments",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "1,849 companies in the SQLite database (1,483 flagged as Indian filers)",
+     "value": "1,849 companies (1,483 Indian filers)",
+     "period": "as of 18 October 2026",
+     "period_end": "2026-10-18",
+     "publisher": "digital-twin-for-ipa (SQLite database)",
+     "series": "Companies database (companies.db)",
+     "frequency": "live",
+     "headline": true
+    },
+    {
+     "quote": "103 layer JSON files, all of which parsed cleanly in the demo",
+     "value": "103 JSON layer files",
+     "period": null,
+     "period_end": null,
+     "publisher": "digital-twin-for-ipa (self-reported)",
+     "series": "Layer files (layers/ directory)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The busiest offering entities were Ministry of Finance (12), Tamil Nadu (9), Telangana (9).",
+     "value": "Ministry of Finance: 12 instruments; Tamil Nadu: 9 instruments; Telangana: 9 instruments",
+     "period": null,
+     "period_end": null,
+     "publisher": "digital-twin-for-ipa (flat instrument index)",
+     "series": "Flat instrument index (layers/13_flat_instrument_index.json)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "1849 companies, 1483 Indian filers, 48 countries (numbers as of the 18 October 2026 demo).",
+     "value": "1,849 companies; 1,483 Indian filers; 48 countries",
+     "period": "as of 18 October 2026",
+     "period_end": "2026-10-18",
+     "publisher": "digital-twin-for-ipa (SQLite database query)",
+     "series": "Companies database (companies.db) metadata",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "73 rows in grade_check_in_python, then 4 rating_darkness, 2 downgrade, 1 watch_negative, 1 sub_investment_grade, 1 litigation_or_regrade.",
+     "value": "73 (grade_check_in_python), 4 (rating_darkness), 2 (downgrade), 1 (watch_negative), 1 (sub_investment_grade), 1 (litigation_or_regrade)",
+     "period": "as of 18 October 2026",
+     "period_end": "2026-10-18",
+     "publisher": "digital-twin-for-ipa (SQLite database query)",
+     "series": "Stressed assets view (stressed_assets)",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "catalogue: 312 instruments -> docs/SCHEME_CATALOGUE.md",
+     "value": "312 instruments",
+     "period": null,
+     "period_end": null,
+     "publisher": "digital-twin-for-ipa (build_catalogue.py)",
+     "series": "Scheme catalogue (docs/SCHEME_CATALOGUE.md)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The README says 1,785 companies while the database held 1,849 on the demo date.",
+     "value": "1,785 (README), 1,849 (database)",
+     "period": "as of 18 October 2026",
+     "period_end": "2026-10-18",
+     "publisher": "digital-twin-for-ipa (README vs. companies.db)",
+     "series": "Documentation discrepancy",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Most credit-rating rows (73 of 82) fall in a 'grade_check_in_python' bucket",
+     "value": "73 of 82 credit-rating rows",
+     "period": "as of 18 October 2026",
+     "period_end": "2026-10-18",
+     "publisher": "digital-twin-for-ipa (SQLite database)",
+     "series": "Stressed assets and credit ratings",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "2.5 min length of the demo video",
+     "value": "2.5 minutes",
+     "period": null,
+     "period_end": null,
+     "publisher": "digital-twin-for-ipa (self-reported)",
+     "series": "Demo video duration",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

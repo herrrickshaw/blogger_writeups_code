@@ -1,0 +1,420 @@
+{
+ "slug": "mopsws-25000-crore-maritime-development",
+ "text_sha1": "789ffef6a9ecdd74",
+ "chars": 17199,
+ "checked": "2026-10-23T15:00:53",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "MoPSW's guidelines for the ₹25,000 crore Maritime Development Fund split the money into a ₹20,000 crore equity vehicle and a ₹5,000 crore interest subsidy",
+     "value": "₹25,000 crore",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "PIB / ministry",
+     "series": "Maritime Development Fund",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "₹20,000 cr Maritime Investment Fund (MIF) — equity vehicle",
+     "value": "₹20,000 crore",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "PIB / ministry",
+     "series": "Maritime Investment Fund",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "₹5,000 cr Interest Incentivization Fund (IIF) — debt-cost subsidy for shipyards, to 2036",
+     "value": "₹5,000 crore",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "PIB / ministry",
+     "series": "Interest Incentivization Fund",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "49% GoI's capped equity stake in MIF (₹9,800 cr)",
+     "value": "49%",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "PIB / ministry",
+     "series": "Maritime Investment Fund",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "~5% Share of India's own overseas trade cargo carried on Indian-flagged ships today",
+     "value": "5%",
+     "period": "today",
+     "period_end": null,
+     "publisher": "PIB / ministry",
+     "series": "Indian-flagged cargo share",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "~0.06% India's share of global shipbuilding output by gross tonnage, 2024",
+     "value": "0.06%",
+     "period": "2024",
+     "period_end": "2024-12-31",
+     "publisher": "PIB / ministry",
+     "series": "Global shipbuilding output share",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Indian shipyards report borrowing at roughly 10–10.5% for ship construction loans",
+     "value": "10-10.5%",
+     "period": "2025-26",
+     "period_end": null,
+     "publisher": "PIB / ministry",
+     "series": "Ship construction loan interest rates",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "against roughly 4–8% for Chinese yards",
+     "value": "4-8%",
+     "period": "2025-26",
+     "period_end": null,
+     "publisher": "PIB / ministry",
+     "series": "Chinese yard loan interest rates",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "and roughly 5–6% in South Korea.",
+     "value": "5-6%",
+     "period": "2025-26",
+     "period_end": null,
+     "publisher": "PIB / ministry",
+     "series": "South Korean yard loan interest rates",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "The same Cabinet meeting that approved the MDF Guidelines on 24 September 2025 approved a wider ₹69,725 crore shipbuilding-maritime package",
+     "value": "₹69,725 crore",
+     "period": "24 September 2025",
+     "period_end": "2025-09-24",
+     "publisher": "PIB / ministry",
+     "series": "Shipbuilding-maritime package",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Shipbuilding Financial Assistance Scheme (SBFAS) | 24,736",
+     "value": "₹24,736 crore",
+     "period": "2025-26",
+     "period_end": null,
+     "publisher": "PIB / ministry",
+     "series": "Shipbuilding Financial Assistance Scheme",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Shipbuilding Development Scheme (SbDS) | 19,989",
+     "value": "₹19,989 crore",
+     "period": "2025-26",
+     "period_end": null,
+     "publisher": "PIB / ministry",
+     "series": "Shipbuilding Development Scheme",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India's own tonnage delivered grew from about 40,900 GT in 2024 to about 57,600 GT in 2025",
+     "value": "40,900 GT",
+     "period": "2024",
+     "period_end": "2024-12-31",
+     "publisher": "PIB / ministry",
+     "series": "Tonnage delivered",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "India's own tonnage delivered grew from about 40,900 GT in 2024 to about 57,600 GT in 2025",
+     "value": "57,600 GT",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "PIB / ministry",
+     "series": "Tonnage delivered",
+     "frequency": "annual",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "MoPSW's guidelines for the ₹25,000 crore Maritime Development Fund split the money into a ₹20,000 crore equity vehicle and a ₹5,000 crore interest subsidy",
+     "value": "₹25,000 crore",
+     "period": null,
+     "period_end": null,
+     "publisher": "MoPSW",
+     "series": "Maritime Development Fund (MDF) corpus",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "₹25,000 cr Total Maritime Development Fund corpus",
+     "value": "₹25,000 crore",
+     "period": null,
+     "period_end": null,
+     "publisher": "MoPSW",
+     "series": "MDF corpus (headline)",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "₹20,000 cr Maritime Investment Fund (MIF) — equity vehicle",
+     "value": "₹20,000 crore",
+     "period": null,
+     "period_end": null,
+     "publisher": "MoPSW",
+     "series": "Maritime Investment Fund (MIF)",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "₹5,000 cr Interest Incentivization Fund (IIF) — debt-cost subsidy for shipyards, to 2036",
+     "value": "₹5,000 crore",
+     "period": "2025-2036",
+     "period_end": "2036-12-31",
+     "publisher": "MoPSW",
+     "series": "Interest Incentivization Fund (IIF)",
+     "frequency": "multi-year",
+     "headline": true
+    },
+    {
+     "quote": "49% GoI's capped equity stake in MIF (₹9,800 cr)",
+     "value": "₹9,800 crore (49%)",
+     "period": null,
+     "period_end": null,
+     "publisher": "MoPSW",
+     "series": "Government of India's contribution to MIF",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "~5% Share of India's own overseas trade cargo carried on Indian-flagged ships today",
+     "value": "~5%",
+     "period": "as of 2025 (reported in 2026)",
+     "period_end": "2025-12-31",
+     "publisher": "Author's prior reporting",
+     "series": "Indian-flagged cargo share of overseas trade",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "~0.06% India's share of global shipbuilding output by gross tonnage, 2024",
+     "value": "~0.06%",
+     "period": "2024",
+     "period_end": "2024-12-31",
+     "publisher": "Author's prior reporting",
+     "series": "Global shipbuilding output share (India)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Indian shipyards borrow at roughly double what Chinese and South Korean yards pay",
+     "value": "roughly double (Indian: ~10–10.5%, Chinese: ~4–8%, South Korean: ~5–6%)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Press coverage (Business Standard, Tribune India)",
+     "series": "Borrowing rates for shipyards (India vs. China/South Korea)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Chinese yards ... financing up to 85% of a vessel's value around 5.5%",
+     "value": "~5.5%",
+     "period": null,
+     "period_end": null,
+     "publisher": "Press coverage (Business Standard, Tribune India)",
+     "series": "State-backed leasing arms' financing rates (China)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The gap the IIF specifically targets is a financing-cost gap. Indian shipyards report borrowing at roughly 10–10.5% for ship construction loans, against roughly 4–8% for Chinese yards ... and roughly 5–6% in South Korea. That spread alone is estimated to add 15–20% to the cost of a ship built in India",
+     "value": "10–10.5% (India), 4–8% (China), 5–6% (South Korea)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Press coverage (Business Standard, Tribune India)",
+     "series": "Shipbuilding loan interest rates (India vs. China/South Korea)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India's share of global shipbuilding output by gross tonnage is estimated at roughly 0.05–0.06%, against a combined China-South Korea-Japan share above 95% (China alone above 54%)",
+     "value": "~0.05–0.06% (India), ~95%+ (China-South Korea-Japan), ~54%+ (China alone)",
+     "period": "2024",
+     "period_end": "2024-12-31",
+     "publisher": "Author's prior reporting",
+     "series": "Global shipbuilding market share",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "India's own tonnage delivered grew from about 40,900 GT in 2024 to about 57,600 GT in 2025 — a real 41% increase",
+     "value": "40,900 GT (2024), 57,600 GT (2025)",
+     "period": "2024, 2025",
+     "period_end": "2024-12-31, 2025-12-31",
+     "publisher": "Author's prior reporting",
+     "series": "Indian shipbuilding output (gross tonnage)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "₹25,000 crore (roughly $2.9 billion) is a meaningful sum for a domestic industry this size",
+     "value": "₹25,000 crore (~$2.9 billion)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Author's estimation",
+     "series": "MDF corpus valuation",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The same Cabinet meeting that approved the MDF Guidelines on 24 September 2025 approved a wider ₹69,725 crore shipbuilding-maritime package",
+     "value": "₹69,725 crore",
+     "period": "2025-2036 (estimated)",
+     "period_end": "2036-12-31",
+     "publisher": "Union Cabinet",
+     "series": "Shipbuilding-maritime package outlay",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "Scheme | Outlay (₹ crore) | What it does | ... Shipbuilding Financial Assistance Scheme (SBFAS) | 24,736 | Direct construction subsidy to shipyards, extended to 31 March 2036",
+     "value": "₹24,736 crore",
+     "period": "2025-2036",
+     "period_end": "2036-03-31",
+     "publisher": "Union Cabinet",
+     "series": "Shipbuilding Financial Assistance Scheme (SBFAS)",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "Scheme | Outlay (₹ crore) | What it does | ... Shipbuilding Development Scheme (SbDS) | 19,989 | Capacity expansion to 4.5 million GT/year",
+     "value": "₹19,989 crore, 4.5 million GT/year",
+     "period": "2025-2036 (estimated)",
+     "period_end": "2036-12-31",
+     "publisher": "Union Cabinet",
+     "series": "Shipbuilding Development Scheme (SbDS)",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "The Guidelines set a first close of at least ₹5,000 crore within 12 months of SEBI registration",
+     "value": "₹5,000 crore (first close), within 12 months",
+     "period": null,
+     "period_end": null,
+     "publisher": "MoPSW",
+     "series": "MIF fundraising timeline",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The Guidelines set a first close of at least ₹5,000 crore within 12 months of SEBI registration, and a final close within 36 months of the first close",
+     "value": "₹5,000 crore (first close), 36 months (final close)",
+     "period": null,
+     "period_end": null,
+     "publisher": "MoPSW",
+     "series": "MIF fundraising deadlines",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The corpus can be enhanced up to ₹30,000 crore through a greenshoe option if that growth would otherwise dilute GoI's 49% share below that level",
+     "value": "₹30,000 crore (maximum greenshoe)",
+     "period": null,
+     "period_end": null,
+     "publisher": "MoPSW",
+     "series": "MIF greenshoe option",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "SMFCL's own service charge is capped at 0.75% of the ₹5,000 crore corpus across the fund's ten-year life — 0.10% in year one, roughly 0.072% a year for the remaining nine",
+     "value": "0.75% (total), 0.10% (year 1), ~0.072% (years 2–10)",
+     "period": "2025-2036",
+     "period_end": "2036-12-31",
+     "publisher": "MoPSW",
+     "series": "IIF service charge",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "Government of India's liability under the IIF is explicitly limited to that ₹5,000 crore corpus",
+     "value": "₹5,000 crore",
+     "period": "2025-2036",
+     "period_end": "2036-12-31",
+     "publisher": "MoPSW",
+     "series": "IIF corpus liability",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "The Guidelines expect the lower end [of management fee] in practice",
+     "value": "0.6–0.8% (management fee cap)",
+     "period": null,
+     "period_end": null,
+     "publisher": "MoPSW",
+     "series": "MIF management fee cap",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "a flat 15% [performance fee] on the same contribution",
+     "value": "15%",
+     "period": null,
+     "period_end": null,
+     "publisher": "MoPSW",
+     "series": "MIF performance fee (GoI/MPA)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "SMFCL's board/RBI approvals for the company's own NBFC borrowing ceiling (reported around ₹25,000 crore)",
+     "value": "₹25,000 crore (SMFCL NBFC borrowing ceiling)",
+     "period": "2025-26 (current financial year)",
+     "period_end": "2026-03-31",
+     "publisher": "Press coverage",
+     "series": "SMFCL NBFC borrowing limit",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "roughly ₹8,000 crore planned to be raised in the current financial year",
+     "value": "₹8,000 crore",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Press coverage",
+     "series": "SMFCL planned borrowing (2025-26)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "SBI Ventures (formerly SBICAP Ventures) has since been appointed Fund Manager for the ₹20,000 crore Maritime Investment Fund",
+     "value": "₹20,000 crore (MIF)",
+     "period": "as of 2026",
+     "period_end": null,
+     "publisher": "fundsforngos.org, shippingtribune.com, fintechbiznews.com",
+     "series": "MIF Fund Manager appointment",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

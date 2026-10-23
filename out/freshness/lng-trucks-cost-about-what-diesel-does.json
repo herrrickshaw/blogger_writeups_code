@@ -1,0 +1,490 @@
+{
+ "slug": "lng-trucks-cost-about-what-diesel-does",
+ "text_sha1": "eb78db562def2725",
+ "chars": 23304,
+ "checked": "2026-10-23T14:55:11",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "50,000 LNG trucks by 2030",
+     "value": "50,000 trucks",
+     "period": "2030",
+     "period_end": "2030-12-31",
+     "publisher": "Industry-cited / trade press",
+     "series": "National LNG truck-adoption target",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "roughly 1,000 stations eventually",
+     "value": "1,000 stations",
+     "period": "Eventually",
+     "period_end": null,
+     "publisher": "Industry-cited / trade press",
+     "series": "National LNG station target",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "GreenLine Mobility Solutions ... grew from roughly 650 LNG trucks in April 2025 to over 1,000 LNG-and-EV trucks by May 2026",
+     "value": "650 LNG trucks",
+     "period": "April 2025",
+     "period_end": "2025-04-30",
+     "publisher": "Essar Group / GreenLine",
+     "series": "GreenLine fleet size",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "over 1,000 LNG-and-EV trucks by May 2026",
+     "value": "1,000+ trucks",
+     "period": "May 2026",
+     "period_end": "2026-05-31",
+     "publisher": "Essar Group / GreenLine",
+     "series": "GreenLine fleet size",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "UltraTech Cement runs 67 LNG trucks (alongside 468 CNG trucks)",
+     "value": "67 LNG trucks",
+     "period": "Current",
+     "period_end": null,
+     "publisher": "Business Standard / UltraTech",
+     "series": "UltraTech Cement fleet size",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "UltraTech Cement runs 67 LNG trucks (alongside 468 CNG trucks)",
+     "value": "468 CNG trucks",
+     "period": "Current",
+     "period_end": null,
+     "publisher": "Business Standard / UltraTech",
+     "series": "UltraTech Cement fleet size",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "taking delivery of 20 Volvo FM 420 LNG tractors in June 2024",
+     "value": "20 tractors",
+     "period": "June 2024",
+     "period_end": "2024-06-30",
+     "publisher": "Volvo Trucks India / Delhivery",
+     "series": "Delhivery fleet delivery",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "GAIL has committed roughly ₹650 crore to 29 LNG stations",
+     "value": "₹650 crore",
+     "period": "Current",
+     "period_end": null,
+     "publisher": "GAIL",
+     "series": "GAIL LNG station commitment",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "GAIL has committed roughly ₹650 crore to 29 LNG stations",
+     "value": "29 stations",
+     "period": "Current",
+     "period_end": null,
+     "publisher": "GAIL",
+     "series": "GAIL LNG station commitment",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "IndianOil's Golden Quadrilateral phase-1 targets 16 stations (6 commissioned so far)",
+     "value": "16 stations",
+     "period": "Current",
+     "period_end": null,
+     "publisher": "IndianOil",
+     "series": "IndianOil Golden Quadrilateral phase-1 targets",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "IndianOil's Golden Quadrilateral phase-1 targets 16 stations (6 commissioned so far)",
+     "value": "6 stations",
+     "period": "Current",
+     "period_end": null,
+     "publisher": "IndianOil",
+     "series": "IndianOil Golden Quadrilateral phase-1 commissioned",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "puts LNG truck TCO at roughly ₹34.38/km",
+     "value": "₹34.38/km",
+     "period": "Current",
+     "period_end": null,
+     "publisher": "Trade press / NITI Aayog",
+     "series": "LNG truck total cost of ownership",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "the LNG truck's roughly ₹10-12 lakh capital premium over a diesel equivalent",
+     "value": "₹10-12 lakh",
+     "period": "Current",
+     "period_end": null,
+     "publisher": "Trade press",
+     "series": "LNG truck capital premium",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "paying back in an estimated 36-40 months",
+     "value": "36-40 months",
+     "period": "Current",
+     "period_end": null,
+     "publisher": "Trade press",
+     "series": "LNG truck premium payback period",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "has raised $275 million in funding",
+     "value": "$275 million",
+     "period": "April 2025",
+     "period_end": "2025-04-30",
+     "publisher": "GreenLine Mobility Solutions",
+     "series": "GreenLine funding raised",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "targeting 10,000 trucks and 50-100 of its own LNG stations backed by a ₹1,500 crore investment plan",
+     "value": "10,000 trucks",
+     "period": "Target",
+     "period_end": null,
+     "publisher": "GreenLine Mobility Solutions",
+     "series": "GreenLine truck target",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "targeting 10,000 trucks and 50-100 of its own LNG stations backed by a ₹1,500 crore investment plan",
+     "value": "50-100 stations",
+     "period": "Target",
+     "period_end": null,
+     "publisher": "GreenLine Mobility Solutions",
+     "series": "GreenLine station target",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "targeting 10,000 trucks and 50-100 of its own LNG stations backed by a ₹1,500 crore investment plan",
+     "value": "₹1,500 crore",
+     "period": "Target",
+     "period_end": null,
+     "publisher": "GreenLine Mobility Solutions",
+     "series": "GreenLine investment plan",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "an earlier ambition of 50 LNG highway stations by 2025",
+     "value": "50 stations",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "Trade press / Industry",
+     "series": "LNG highway stations ambition",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "puts an LNG truck's capital cost at roughly ₹40-42 lakh against a diesel-equivalent's ₹30 lakh",
+     "value": "₹40-42 lakh",
+     "period": "Current",
+     "period_end": null,
+     "publisher": "Trade press / NITI Aayog",
+     "series": "LNG truck capital cost",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "puts an LNG truck's capital cost at roughly ₹40-42 lakh against a diesel-equivalent's ₹30 lakh",
+     "value": "₹30 lakh",
+     "period": "Current",
+     "period_end": null,
+     "publisher": "Trade press / NITI Aayog",
+     "series": "Diesel truck capital cost",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "having run over 90 million kilometres and avoided a reported 24,000-plus tonnes of CO2",
+     "value": "90 million kilometres",
+     "period": "May 2026",
+     "period_end": "2026-05-31",
+     "publisher": "GreenLine Mobility Solutions",
+     "series": "GreenLine fleet cumulative mileage",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "having run over 90 million kilometres and avoided a reported 24,000-plus tonnes of CO2",
+     "value": "24,000+ tonnes",
+     "period": "May 2026",
+     "period_end": "2026-05-31",
+     "publisher": "GreenLine Mobility Solutions",
+     "series": "GreenLine CO2 emissions avoided",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "reports having sold roughly 1,000 vehicles that have collectively run more than 60 million kilometres, cutting over 15,000 tonnes of CO2",
+     "value": "1,000 vehicles",
+     "period": "Current",
+     "period_end": null,
+     "publisher": "Blue Energy Motors",
+     "series": "Blue Energy Motors vehicle sales",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "reports having sold roughly 1,000 vehicles that have collectively run more than 60 million kilometres, cutting over 15,000 tonnes of CO2",
+     "value": "60 million kilometres",
+     "period": "Current",
+     "period_end": null,
+     "publisher": "Blue Energy Motors",
+     "series": "Blue Energy Motors cumulative mileage",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "reports having sold roughly 1,000 vehicles that have collectively run more than 60 million kilometres, cutting over 15,000 tonnes of CO2",
+     "value": "15,000+ tonnes",
+     "period": "Current",
+     "period_end": null,
+     "publisher": "Blue Energy Motors",
+     "series": "Blue Energy Motors CO2 cut",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "IEEFA's April 2025 analysis found LNG and diesel heavy-truck total cost of ownership land roughly comparable",
+     "value": "roughly comparable",
+     "period": "Apr 2025",
+     "period_end": "2025-04-30",
+     "publisher": "IEEFA",
+     "series": "Assessing the Viability of LNG Trucks for India's Clean Goals",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "LNG combustion cuts CO2 by roughly 28-30% against diesel",
+     "value": "28-30%",
+     "period": null,
+     "period_end": null,
+     "publisher": "IEEFA",
+     "series": "Assessing the Viability of LNG Trucks for India's Clean Goals",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "LNG combustion produces 2 to 5 times more nitrogen oxide than diesel",
+     "value": "2-5 times more NOx than diesel",
+     "period": null,
+     "period_end": null,
+     "publisher": "IEEFA",
+     "series": "Assessing the Viability of LNG Trucks for India's Clean Goals",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "A separately-cited, less rigorously sourced figure puts LNG truck TCO at roughly ₹34.38/km, 'comparable' to diesel",
+     "value": "₹34.38/km",
+     "period": null,
+     "period_end": null,
+     "publisher": "NITI Aayog (trade press attribution)",
+     "series": "LNG truck TCO estimate",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "LNG truck's roughly ₹10-12 lakh capital premium over a diesel equivalent paying back in an estimated 36-40 months",
+     "value": "₹10-12 lakh capital premium, 36-40 months payback",
+     "period": null,
+     "period_end": null,
+     "publisher": "trade press (vendor-adjacent)",
+     "series": "LNG truck capital cost and payback period",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "GreenLine Mobility Solutions grew from roughly 650 LNG trucks in April 2025 to over 1,000 LNG-and-EV trucks by May 2026",
+     "value": "650 trucks (Apr 2025), 1,000+ trucks (May 2026)",
+     "period": "Apr 2025, May 2026",
+     "period_end": "2025-04-30, 2026-05-31",
+     "publisher": "GreenLine Mobility Solutions (Essar Group press)",
+     "series": "LNG truck fleet size",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "GreenLine has raised $275 million in funding, targeting 10,000 trucks and 50-100 of its own LNG stations backed by a ₹1,500 crore investment plan",
+     "value": "$275 million funding, 10,000 trucks, 50-100 stations, ₹1,500 crore investment",
+     "period": null,
+     "period_end": null,
+     "publisher": "GreenLine Mobility Solutions (Essar Group press)",
+     "series": "Funding, fleet targets, and investment plan",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Delhivery took delivery of 20 Volvo FM 420 LNG tractors in June 2024",
+     "value": "20 LNG tractors",
+     "period": "Jun 2024",
+     "period_end": "2024-06-30",
+     "publisher": "Volvo Trucks India",
+     "series": "LNG truck deliveries",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "UltraTech Cement runs 67 LNG trucks (alongside 468 CNG trucks)",
+     "value": "67 LNG trucks, 468 CNG trucks",
+     "period": null,
+     "period_end": null,
+     "publisher": "Business Standard (UltraTech ESG initiative)",
+     "series": "LNG and CNG truck fleet",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Ashok Leyland delivered India's first LNG-powered haulage truck, the AVTR 1922, to gas utility Mahanagar Gas in November 2023",
+     "value": "1 truck (AVTR 1922)",
+     "period": "Nov 2023",
+     "period_end": "2023-11-30",
+     "publisher": "Ashok Leyland",
+     "series": "LNG truck deliveries",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Tata Motors began delivering 150 Prima 5530.S LNG trucks to Clean Green Fuel and Logistics in October 2024, with an agreement for 350 more",
+     "value": "150 trucks (Oct 2024), 350 more (agreement)",
+     "period": "Oct 2024",
+     "period_end": "2024-10-31",
+     "publisher": "Autocar Professional (trade press)",
+     "series": "LNG truck deliveries",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Blue Energy Motors reports having sold roughly 1,000 vehicles that have collectively run more than 60 million kilometres",
+     "value": "1,000 vehicles, 60 million km",
+     "period": null,
+     "period_end": null,
+     "publisher": "Blue Energy Motors (company-reported)",
+     "series": "LNG truck sales and mileage",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Blue Energy Motors' fleet has cut over 15,000 tonnes of CO2 by the company's own accounting",
+     "value": "15,000 tonnes CO2 reduction",
+     "period": null,
+     "period_end": null,
+     "publisher": "Blue Energy Motors (company-reported)",
+     "series": "CO2 emissions reduction",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "GreenLine reported having run over 90 million kilometres and avoided a reported 24,000-plus tonnes of CO2",
+     "value": "90 million km, 24,000+ tonnes CO2 avoided",
+     "period": null,
+     "period_end": null,
+     "publisher": "GreenLine Mobility Solutions (company-reported)",
+     "series": "LNG truck mileage and CO2 savings",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "GAIL has committed roughly ₹650 crore to 29 LNG stations over two to three years",
+     "value": "₹650 crore, 29 stations",
+     "period": null,
+     "period_end": null,
+     "publisher": "GAIL (trade coverage)",
+     "series": "LNG fuelling station investment and targets",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "IndianOil's Golden Quadrilateral phase-1 targets 16 stations (6 commissioned so far)",
+     "value": "16 stations (target), 6 commissioned",
+     "period": null,
+     "period_end": null,
+     "publisher": "IndianOil (trade coverage)",
+     "series": "LNG fuelling station targets and progress",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "PNGRB's LNG T4S regulation most recently amended on 23 July 2025",
+     "value": "23 July 2025",
+     "period": "23 Jul 2025",
+     "period_end": "2025-07-23",
+     "publisher": "PNGRB",
+     "series": "LNG T4S (Technical Standards and Specifications)",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "PNGRB published a case study specifically on small-scale LNG (SSLNG) infrastructure opportunities, dated 1 August 2025",
+     "value": "1 August 2025",
+     "period": "1 Aug 2025",
+     "period_end": "2025-08-01",
+     "publisher": "PNGRB",
+     "series": "SSLNG infrastructure case study",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "PNGRB decoupled LNG truck-fuelling stations from its city-gas-distribution licensing regime in 2020",
+     "value": "2020",
+     "period": "2020",
+     "period_end": "2020-12-31",
+     "publisher": "PNGRB (secondary reporting)",
+     "series": "Regulatory decoupling of LNG stations from CGD licensing",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Trade coverage circulates figures like a national target of roughly 50,000 LNG-powered long-haul trucks by 2030",
+     "value": "50,000 LNG trucks by 2030",
+     "period": "2030",
+     "period_end": "2030-12-31",
+     "publisher": "trade press (industry-cited ambitions)",
+     "series": "LNG truck adoption targets",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Trade coverage also mentions an earlier ambition of 50 LNG highway stations by 2025, and a longer-run figure of around 1,000 stations",
+     "value": "50 stations by 2025, ~1,000 stations (long-term)",
+     "period": "2025, long-term",
+     "period_end": "2025-12-31, null",
+     "publisher": "trade press (industry-cited ambitions)",
+     "series": "LNG fuelling station targets",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

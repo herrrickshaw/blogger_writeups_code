@@ -1,0 +1,600 @@
+{
+ "slug": "diesel-doesnt-move-cpi-it-moves-40",
+ "text_sha1": "f9b1ac2241fb65c0",
+ "chars": 21780,
+ "checked": "2026-10-23T11:07:08",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "+0.11 Correlation, diesel WPI growth vs CPI headline growth, FY2012–FY2026",
+     "value": "+0.11",
+     "period": "FY2012-FY2026",
+     "period_end": "2026-03-31",
+     "publisher": "MoSPI / DPIIT",
+     "series": "Wholesale Price Index vs Consumer Price Index growth correlation",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": ">₹40 Per-litre gap between direct-sales and retail diesel, PPAC, May 2026",
+     "value": ">₹40 per litre",
+     "period": "May 2026",
+     "period_end": "2026-05-31",
+     "publisher": "PPAC",
+     "series": "Industry Consumption Report POL & NG",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "43.3% Diesel’s share of India’s total petroleum product market, May 2026",
+     "value": "43.3%",
+     "period": "May 2026",
+     "period_end": "2026-05-31",
+     "publisher": "PPAC",
+     "series": "Industry Consumption Report POL & NG",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "−34.7% Private oil marketing companies’ diesel sales, May 2026, year on year",
+     "value": "-34.7%",
+     "period": "May 2026",
+     "period_end": "2026-05-31",
+     "publisher": "PPAC",
+     "series": "Industry Consumption Report POL & NG",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "7.09 \n Sedan \n CNG −26% vs diesel \n 8.18 \n 5.01 \n 3.78 \n Compact SUV \n CNG −25% vs diesel",
+     "value": "7.09 ₹/km",
+     "period": "July 2026",
+     "period_end": "2026-07-31",
+     "publisher": "ARAI / SIAM / OMC",
+     "series": "Modelled running cost per kilometre, Delhi",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "Diesel vs WPI headline | +0.92 | Mechanical — diesel is a WPI component |",
+     "value": "+0.92",
+     "period": "FY2012 through FY2026",
+     "period_end": "2026-03-31",
+     "publisher": "DPIIT / Office of the Economic Adviser",
+     "series": "Wholesale Price Indices",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "WPI headline vs CPI headline | +0.25 | Weak wholesale-to-retail link |",
+     "value": "+0.25",
+     "period": "FY2012 through FY2026",
+     "period_end": "2026-03-31",
+     "publisher": "DPIIT / MoSPI",
+     "series": "WPI headline vs CPI headline correlation",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Diesel vs CPI headline | +0.11 | Essentially nothing |",
+     "value": "+0.11",
+     "period": "FY2012 through FY2026",
+     "period_end": "2026-03-31",
+     "publisher": "DPIIT / MoSPI",
+     "series": "Diesel WPI vs CPI headline correlation",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Diesel vs CPI food | −0.16 | Wrong sign |",
+     "value": "-0.16",
+     "period": "FY2012 through FY2026",
+     "period_end": "2026-03-31",
+     "publisher": "DPIIT / MoSPI",
+     "series": "Diesel WPI vs CPI food correlation",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Diesel (t) vs CPI food (t+1) | +0.09 | The lag does not rescue it |",
+     "value": "+0.09",
+     "period": "FY2012 through FY2026",
+     "period_end": "2026-03-31",
+     "publisher": "DPIIT / MoSPI",
+     "series": "Lagged diesel WPI vs CPI food correlation",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Retail share of diesel (%) | 88 | 92 |",
+     "value": "88%",
+     "period": "April-May 2025",
+     "period_end": "2025-05-31",
+     "publisher": "PPAC",
+     "series": "Industry Consumption Report POL & NG",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Retail share of diesel (%) | 88 | 92 |",
+     "value": "92%",
+     "period": "April-May 2026",
+     "period_end": "2026-05-31",
+     "publisher": "PPAC",
+     "series": "Industry Consumption Report POL & NG",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Direct-sales share (%) | 12 | 8 |",
+     "value": "12%",
+     "period": "April-May 2025",
+     "period_end": "2025-05-31",
+     "publisher": "PPAC",
+     "series": "Industry Consumption Report POL & NG",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Direct-sales share (%) | 12 | 8 |",
+     "value": "8%",
+     "period": "April-May 2026",
+     "period_end": "2026-05-31",
+     "publisher": "PPAC",
+     "series": "Industry Consumption Report POL & NG",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Direct-sales volume (TMT) | 2,090 | 1,411 |",
+     "value": "2,090 TMT",
+     "period": "April-May 2025",
+     "period_end": "2025-05-31",
+     "publisher": "PPAC",
+     "series": "Industry Consumption Report POL & NG",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Direct-sales volume (TMT) | 2,090 | 1,411 |",
+     "value": "1,411 TMT",
+     "period": "April-May 2026",
+     "period_end": "2026-05-31",
+     "publisher": "PPAC",
+     "series": "Industry Consumption Report POL & NG",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "PSU OMC market share (%) | 87.3 | 91.8 |",
+     "value": "87.3%",
+     "period": "April-May 2025",
+     "period_end": "2025-05-31",
+     "publisher": "PPAC",
+     "series": "Industry Consumption Report POL & NG",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "PSU OMC market share (%) | 87.3 | 91.8 |",
+     "value": "91.8%",
+     "period": "April-May 2026",
+     "period_end": "2026-05-31",
+     "publisher": "PPAC",
+     "series": "Industry Consumption Report POL & NG",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "PSU sales growth, May (%) | — | +6.9 |",
+     "value": "+6.9%",
+     "period": "May 2026",
+     "period_end": "2026-05-31",
+     "publisher": "PPAC",
+     "series": "Industry Consumption Report POL & NG",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "PSU share gain of 4.54 percentage points as stated in the report.",
+     "value": "4.54 percentage points",
+     "period": "May 2026",
+     "period_end": "2026-05-31",
+     "publisher": "PPAC",
+     "series": "Industry Consumption Report POL & NG",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "May 2026 consumption was 8.73 million tonnes, up 1.6% year on year",
+     "value": "8.73 million tonnes",
+     "period": "May 2026",
+     "period_end": "2026-05-31",
+     "publisher": "PPAC",
+     "series": "Industry Consumption Report POL & NG",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "May 2026 consumption was 8.73 million tonnes, up 1.6% year on year",
+     "value": "+1.6%",
+     "period": "May 2026",
+     "period_end": "2026-05-31",
+     "publisher": "PPAC",
+     "series": "Industry Consumption Report POL & NG",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "the April–May total was 17.06 MMT, up 1.2%.",
+     "value": "17.06 MMT",
+     "period": "April-May 2026",
+     "period_end": "2026-05-31",
+     "publisher": "PPAC",
+     "series": "Industry Consumption Report POL & NG",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "the April–May total was 17.06 MMT, up 1.2%.",
+     "value": "+1.2%",
+     "period": "April-May 2026",
+     "period_end": "2026-05-31",
+     "publisher": "PPAC",
+     "series": "Industry Consumption Report POL & NG",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "E-way bills generated | +11.0 |",
+     "value": "+11.0%",
+     "period": "May 2026",
+     "period_end": "2026-05-31",
+     "publisher": "GSTN",
+     "series": "Industry Consumption Report / e-way bills",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Commercial vehicle sales | +5.3 |",
+     "value": "+5.3%",
+     "period": "May 2026",
+     "period_end": "2026-05-31",
+     "publisher": "FADA",
+     "series": "Industry Consumption Report / vehicle sales",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Major-port cargo throughput | +4.5 |",
+     "value": "+4.5%",
+     "period": "May 2026",
+     "period_end": "2026-05-31",
+     "publisher": "ipa.nic.in",
+     "series": "Industry Consumption Report / port cargo",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Tractor sales | +11.2 |",
+     "value": "+11.2%",
+     "period": "May 2026",
+     "period_end": "2026-05-31",
+     "publisher": "FADA",
+     "series": "Industry Consumption Report / tractor sales",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Diesel consumption | +1.6 |",
+     "value": "+1.6%",
+     "period": "May 2026",
+     "period_end": "2026-05-31",
+     "publisher": "PPAC",
+     "series": "Industry Consumption Report",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "drawing on GSTN (e-way bills, 1,360.79 lakh in May)",
+     "value": "1,360.79 lakh",
+     "period": "May 2026",
+     "period_end": "2026-05-31",
+     "publisher": "GSTN",
+     "series": "e-way bills generated",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "and ipa.nic.in (port cargo, 153.91 MMT).",
+     "value": "153.91 MMT",
+     "period": "May 2026",
+     "period_end": "2026-05-31",
+     "publisher": "ipa.nic.in",
+     "series": "Major-port cargo throughput",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "subsidised PDS kerosene accounted for 73% of kerosene consumption in May 2026, against 27% non-PDS.",
+     "value": "73%",
+     "period": "May 2026",
+     "period_end": "2026-05-31",
+     "publisher": "PPAC",
+     "series": "Industry Consumption Report POL & NG",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "subsidised PDS kerosene accounted for 73% of kerosene consumption in May 2026, against 27% non-PDS.",
+     "value": "27%",
+     "period": "May 2026",
+     "period_end": "2026-05-31",
+     "publisher": "PPAC",
+     "series": "Industry Consumption Report POL & NG",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "India’s crude import dependency reached 88.2% in FY2024-25",
+     "value": "88.2%",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "PPAC",
+     "series": "Snapshot of India’s Oil & Gas Data",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "and self-sufficiency in products from indigenous crude fell to 11.8%.",
+     "value": "11.8%",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "PPAC",
+     "series": "Snapshot of India’s Oil & Gas Data",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Gensets, non-industry | 6.45 |",
+     "value": "6.45%",
+     "period": "January 2012 to June 2013",
+     "period_end": "2013-06-30",
+     "publisher": "PPAC / Nielsen India",
+     "series": "All India Study on Sectoral Demand of Diesel & Petrol",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Gensets, industry | 4.06 |",
+     "value": "4.06%",
+     "period": "January 2012 to June 2013",
+     "period_end": "2013-06-30",
+     "publisher": "PPAC / Nielsen India",
+     "series": "All India Study on Sectoral Demand of Diesel & Petrol",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Mobile towers | 1.54 |",
+     "value": "1.54%",
+     "period": "January 2012 to June 2013",
+     "period_end": "2013-06-30",
+     "publisher": "PPAC / Nielsen India",
+     "series": "All India Study on Sectoral Demand of Diesel & Petrol",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Stationary total | 12.05 |",
+     "value": "12.05%",
+     "period": "January 2012 to June 2013",
+     "period_end": "2013-06-30",
+     "publisher": "PPAC / Nielsen India",
+     "series": "All India Study on Sectoral Demand of Diesel & Petrol",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "peak demand of 270.82 GW in April–May 2026 was met in full, with a deficit of 0.0%.",
+     "value": "270.82 GW",
+     "period": "April-May 2026",
+     "period_end": "2026-05-31",
+     "publisher": "PIB / ministry",
+     "series": "Power supply position",
+     "frequency": "monthly",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "CNG runs at roughly three-quarters of diesel's per-kilometre cost, per ARAI/SIAM-calibrated modelling for Delhi, July 2026.",
+     "value": "CNG at ~75% of diesel cost per km",
+     "period": "July 2026",
+     "period_end": "2026-07-31",
+     "publisher": "ARAI / SIAM",
+     "series": "BS-VI fuel-efficiency declarations and OMC city fuel boards",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Modelled running cost per kilometre, Delhi, July 2026: Sedan and compact SUV segments — ₹ per km: Sedan (Diesel: 4.33), Compact SUV (Diesel: 5.01).",
+     "value": "Diesel: ₹4.33/km (Sedan), ₹5.01/km (Compact SUV)",
+     "period": "July 2026",
+     "period_end": "2026-07-31",
+     "publisher": "ARAI / SIAM",
+     "series": "303 ARAI-certified SIAM BS-VI fuel-efficiency declarations and OMC city fuel boards",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "CNG (₹/km) for Sedan: 3.20, Compact SUV: 3.78, Hatchback: 2.97, Two-wheeler: 0.81.",
+     "value": "CNG: ₹3.20/km (Sedan), ₹3.78/km (Compact SUV), ₹2.97/km (Hatchback), ₹0.81/km (Two-wheeler)",
+     "period": "July 2026",
+     "period_end": "2026-07-31",
+     "publisher": "ARAI / SIAM",
+     "series": "vehicle_fuel_mileage model",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": ">₹40 Per-litre gap between direct-sales and retail diesel, PPAC, May 2026",
+     "value": "₹40 per litre",
+     "period": "May 2026",
+     "period_end": "2026-05-31",
+     "publisher": "PPAC",
+     "series": "Industry Consumption Report (POL & NG)",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "43.3% Diesel’s share of India’s total petroleum product market, May 2026",
+     "value": "43.3%",
+     "period": "May 2026",
+     "period_end": "2026-05-31",
+     "publisher": "PPAC",
+     "series": "Industry Consumption Report (POL & NG)",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Diesel consumption was 8.73 million tonnes, up 1.6% year on year; April–May total was 17.06 MMT, up 1.2%.",
+     "value": "8.73 million tonnes (YoY +1.6%), 17.06 MMT (YoY +1.2%)",
+     "period": "May 2026",
+     "period_end": "2026-05-31",
+     "publisher": "PPAC",
+     "series": "Industry Consumption Report (POL & NG)",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "−34.7% Private oil marketing companies’ diesel sales, May 2026, year on year",
+     "value": "-34.7%",
+     "period": "May 2026",
+     "period_end": "2026-05-31",
+     "publisher": "PPAC",
+     "series": "Industry Consumption Report (POL & NG)",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Retail share of diesel (%) | Apr–May 2025: 88, Apr–May 2026: 92; Direct-sales share (%) | Apr–May 2025: 12, Apr–May 2026: 8",
+     "value": "Retail: 88% → 92%, Direct-sales: 12% → 8%",
+     "period": "Apr–May 2025 and Apr–May 2026",
+     "period_end": "2025-05-31",
+     "publisher": "PPAC",
+     "series": "Industry Consumption Report (POL & NG)",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Direct-sales volume (TMT) | Apr–May 2025: 2,090, Apr–May 2026: 1,411",
+     "value": "2,090 TMT (Apr–May 2025), 1,411 TMT (Apr–May 2026)",
+     "period": "Apr–May 2025 and Apr–May 2026",
+     "period_end": "2025-05-31",
+     "publisher": "PPAC",
+     "series": "Industry Consumption Report (POL & NG)",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "PSU OMC market share (%) | Apr–May 2025: 87.3, Apr–May 2026: 91.8; PSU sales growth, May (%) | +6.9",
+     "value": "PSU market share: 87.3% → 91.8%, PSU sales growth: +6.9%",
+     "period": "Apr–May 2025 and May 2026",
+     "period_end": "2026-05-31",
+     "publisher": "PPAC",
+     "series": "Industry Consumption Report (POL & NG)",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Year-on-year growth, May 2026: E-way bills generated: +11.0%, Commercial vehicle sales: +5.3%, Major-port cargo throughput: +4.5%, Tractor sales: +11.2%, Diesel consumption: +1.6%.",
+     "value": "+11.0% (E-way bills), +5.3% (Commercial vehicles), +4.5% (Port cargo), +11.2% (Tractors), +1.6% (Diesel)",
+     "period": "May 2026",
+     "period_end": "2026-05-31",
+     "publisher": "PPAC",
+     "series": "Industry Consumption Report (POL & NG), GSTN, FADA, ipa.nic.in",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "73% of kerosene consumption in May 2026 was subsidised PDS kerosene.",
+     "value": "73%",
+     "period": "May 2026",
+     "period_end": "2026-05-31",
+     "publisher": "PPAC",
+     "series": "Industry Consumption Report (POL & NG)",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Pearson correlation of year-on-year growth rates, April anchor, n = 15 years: Diesel vs WPI headline: +0.92, WPI headline vs CPI headline: +0.25, Diesel vs CPI headline: +0.11, Diesel vs CPI food: −0.16, Diesel (t) vs CPI food (t+1): +0.09.",
+     "value": "+0.92 (Diesel vs WPI), +0.25 (WPI vs CPI), +0.11 (Diesel vs CPI), −0.16 (Diesel vs CPI food), +0.09 (Diesel vs CPI food, lagged)",
+     "period": "FY2012–FY2026",
+     "period_end": "2026-03-31",
+     "publisher": "DPIIT (Office of the Economic Adviser), MoSPI",
+     "series": "Wholesale Price Indices (WPI), Consumer Price Indices (CPI)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "India’s crude import dependency reached 88.2% in FY2024-25.",
+     "value": "88.2%",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "PPAC",
+     "series": "Snapshot of India’s Oil & Gas Data",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Self-sufficiency in products from indigenous crude fell to 11.8% in FY2024-25.",
+     "value": "11.8%",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "PPAC",
+     "series": "Snapshot of India’s Oil & Gas Data",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Domestic gas production fell 0.9% while LNG imports rose 15.4%.",
+     "value": "Domestic gas: -0.9%, LNG imports: +15.4%",
+     "period": null,
+     "period_end": null,
+     "publisher": "PPAC",
+     "series": "Snapshot of India’s Oil & Gas Data",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Stationary end-uses as a share of all diesel: Gensets, non-industry: 6.45%, Gensets, industry: 4.06%, Mobile towers: 1.54%, Stationary total: 12.05%.",
+     "value": "6.45% (Gensets, non-industry), 4.06% (Gensets, industry), 1.54% (Mobile towers), 12.05% (Stationary total)",
+     "period": "Jan 2012–Jun 2013",
+     "period_end": "2013-06-30",
+     "publisher": "PPAC / Nielsen India",
+     "series": "All India Study on Sectoral Demand of Diesel & Petrol",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Peak demand of 270.82 GW in April–May 2026 was met in full, with a deficit of 0.0%.",
+     "value": "270.82 GW, deficit: 0.0%",
+     "period": "Apr–May 2026",
+     "period_end": "2026-05-31",
+     "publisher": null,
+     "series": null,
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

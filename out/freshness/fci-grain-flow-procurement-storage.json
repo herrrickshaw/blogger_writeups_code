@@ -1,0 +1,460 @@
+{
+ "slug": "fci-grain-flow-procurement-storage",
+ "text_sha1": "2e1ebc9871a30f89",
+ "chars": 8048,
+ "checked": "2026-10-23T11:29:22",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "State agencies (SWC-owned) \n 365.7",
+     "value": "365.7 LMT",
+     "period": "Nov 2024",
+     "period_end": "2024-11-30",
+     "publisher": "DFPD",
+     "series": "FCI foodgrain storage capacity by channel",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "FCI-owned godowns \n 147.2",
+     "value": "147.2 LMT",
+     "period": "Nov 2024",
+     "period_end": "2024-11-30",
+     "publisher": "DFPD",
+     "series": "FCI foodgrain storage capacity by channel",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "Hired SWC space \n 102.7",
+     "value": "102.7 LMT",
+     "period": "Nov 2024",
+     "period_end": "2024-11-30",
+     "publisher": "DFPD",
+     "series": "FCI foodgrain storage capacity by channel",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "Private Entrepreneur Guarantee (PEG) \n 85.2",
+     "value": "85.2 LMT",
+     "period": "Nov 2024",
+     "period_end": "2024-11-30",
+     "publisher": "DFPD",
+     "series": "FCI foodgrain storage capacity by channel",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "Other hired arrangements \n 43.1",
+     "value": "43.1 LMT",
+     "period": "Nov 2024",
+     "period_end": "2024-11-30",
+     "publisher": "DFPD",
+     "series": "FCI foodgrain storage capacity by channel",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "Central Warehousing Corp. (CWC) \n 32.8",
+     "value": "32.8 LMT",
+     "period": "Nov 2024",
+     "period_end": "2024-11-30",
+     "publisher": "DFPD",
+     "series": "FCI foodgrain storage capacity by channel",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "Owned capacity (FCI + state agencies): 512.9 LMT",
+     "value": "512.9 LMT",
+     "period": "Nov 2024",
+     "period_end": "2024-11-30",
+     "publisher": "DFPD",
+     "series": "FCI foodgrain storage capacity by channel",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "Hired/leased capacity: 263.8 LMT",
+     "value": "263.8 LMT",
+     "period": "Nov 2024",
+     "period_end": "2024-11-30",
+     "publisher": "DFPD",
+     "series": "FCI foodgrain storage capacity by channel",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "As of 1 January 2025, central-pool stocks stood at 476.85 lakh metric tonnes (LMT)",
+     "value": "476.85 LMT",
+     "period": "1 January 2025",
+     "period_end": "2025-01-01",
+     "publisher": "DFPD",
+     "series": "Central-pool stock levels",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "against a buffer norm of 214.1 LMT",
+     "value": "214.1 LMT",
+     "period": "1 January 2025",
+     "period_end": "2025-01-01",
+     "publisher": "DFPD",
+     "series": "Central-pool buffer norms",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "a record 832.17 LMT of paddy procured in KMS 2024-25",
+     "value": "832.17 LMT",
+     "period": "KMS 2024-25",
+     "period_end": "2025-06-30",
+     "publisher": "DFPD / PIB",
+     "series": "Kharif Marketing Season paddy procurement",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "paying roughly 1.19 crore farmers directly",
+     "value": "1.19 crore farmers",
+     "period": "KMS 2024-25",
+     "period_end": "2025-06-30",
+     "publisher": "DFPD / PIB",
+     "series": "Kharif Marketing Season farmer payments count",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "and 300.35 LMT of wheat in RMS 2025-26",
+     "value": "300.35 LMT",
+     "period": "RMS 2025-26",
+     "period_end": "2025-06-30",
+     "publisher": "DFPD / PIB",
+     "series": "Rabi Marketing Season wheat procurement",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "That combined procurement effort moved ₹1.99 lakh crore in food subsidy in FY25",
+     "value": "₹1.99 lakh crore",
+     "period": "FY25",
+     "period_end": "2025-03-31",
+     "publisher": "MoF / DFPD",
+     "series": "Food subsidy released",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "₹1.29 lakh crore through FCI directly and ₹0.70 lakh crore through the states",
+     "value": "₹1.29 lakh crore",
+     "period": "FY25",
+     "period_end": "2025-03-31",
+     "publisher": "MoF / DFPD",
+     "series": "FCI direct food subsidy",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "₹0.70 lakh crore through the states running their own Decentralized Procurement Scheme",
+     "value": "₹0.70 lakh crore",
+     "period": "FY25",
+     "period_end": "2025-03-31",
+     "publisher": "MoF / DFPD",
+     "series": "DCP states food subsidy",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "for RMS 2026-27, the government set a wheat procurement target of 303 LMT",
+     "value": "303 LMT",
+     "period": "RMS 2026-27",
+     "period_end": "2026-06-30",
+     "publisher": "PIB",
+     "series": "Wheat procurement target",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "later revised up to 34.497 million tonnes",
+     "value": "34.497 million tonnes",
+     "period": "RMS 2026-27",
+     "period_end": "2026-06-30",
+     "publisher": "PIB",
+     "series": "Revised wheat procurement target",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "and actual wheat procurement crossed 35 million tonnes (350+ LMT) by mid-2026",
+     "value": "35 million tonnes",
+     "period": "mid-2026",
+     "period_end": "2026-06-30",
+     "publisher": "PIB",
+     "series": "Actual wheat procurement",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Punjab ≈ 47% of the wheat pool in RMS 2024-25",
+     "value": "47%",
+     "period": "RMS 2024-25",
+     "period_end": "2025-06-30",
+     "publisher": "DFPD",
+     "series": "State-wise wheat pool share",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "costs roughly ₹378 an hour against ₹498 an hour on diesel",
+     "value": "₹378 an hour",
+     "period": null,
+     "period_end": null,
+     "publisher": "PIB / ministry",
+     "series": "Farm tractor operation cost (CNG)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "against ₹498 an hour on diesel",
+     "value": "₹498 an hour",
+     "period": null,
+     "period_end": null,
+     "publisher": "PIB / ministry",
+     "series": "Farm tractor operation cost (diesel)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "a 24 per cent saving, or about ₹120 an hour",
+     "value": "24%",
+     "period": null,
+     "period_end": null,
+     "publisher": "PIB / ministry",
+     "series": "Tractor operation fuel savings",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Rice 2024-25 procurement is the official Economic Survey rice-terms figure (544.8 LMT)",
+     "value": "544.8 LMT",
+     "period": "2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "MoSPI / Economic Survey",
+     "series": "Rice-terms procurement",
+     "frequency": "annual",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "FCI foodgrain storage capacity by channel: State agencies (SWC-owned) 365.7 LMT",
+     "value": "365.7 lakh metric tonnes (LMT)",
+     "period": null,
+     "period_end": null,
+     "publisher": "DFPD Foodgrain Bulletin (Nov 2024); DFPD Annual Report 2024-25",
+     "series": "FCI foodgrain storage capacity by channel",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "FCI-owned godowns 147.2 LMT",
+     "value": "147.2 lakh metric tonnes (LMT)",
+     "period": null,
+     "period_end": null,
+     "publisher": "DFPD Foodgrain Bulletin (Nov 2024); DFPD Annual Report 2024-25",
+     "series": "FCI foodgrain storage capacity by channel",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Hired SWC space 102.7 LMT",
+     "value": "102.7 lakh metric tonnes (LMT)",
+     "period": null,
+     "period_end": null,
+     "publisher": "DFPD Foodgrain Bulletin (Nov 2024); DFPD Annual Report 2024-25",
+     "series": "FCI foodgrain storage capacity by channel",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Private Entrepreneur Guarantee (PEG) 85.2 LMT",
+     "value": "85.2 lakh metric tonnes (LMT)",
+     "period": null,
+     "period_end": null,
+     "publisher": "DFPD Foodgrain Bulletin (Nov 2024); DFPD Annual Report 2024-25",
+     "series": "FCI foodgrain storage capacity by channel",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Other hired arrangements 43.1 LMT",
+     "value": "43.1 lakh metric tonnes (LMT)",
+     "period": null,
+     "period_end": null,
+     "publisher": "DFPD Foodgrain Bulletin (Nov 2024); DFPD Annual Report 2024-25",
+     "series": "FCI foodgrain storage capacity by channel",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Central Warehousing Corp. (CWC) 32.8 LMT",
+     "value": "32.8 lakh metric tonnes (LMT)",
+     "period": null,
+     "period_end": null,
+     "publisher": "DFPD Foodgrain Bulletin (Nov 2024); DFPD Annual Report 2024-25",
+     "series": "FCI foodgrain storage capacity by channel",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Owned capacity (FCI + state agencies): 512.9 LMT • Hired/leased capacity: 263.8 LMT",
+     "value": "Owned: 512.9 LMT; Hired/leased: 263.8 LMT",
+     "period": null,
+     "period_end": null,
+     "publisher": "DFPD Foodgrain Bulletin (Nov 2024); DFPD Annual Report 2024-25",
+     "series": "FCI foodgrain storage capacity summary",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "As of 1 January 2025, central-pool stocks stood at 476.85 LMT against a buffer norm of 214.1 LMT",
+     "value": "476.85 lakh metric tonnes (LMT)",
+     "period": "as of 1 January 2025",
+     "period_end": "2025-01-01",
+     "publisher": "DFPD Foodgrain Bulletin (Nov 2024); DFPD Annual Report 2024-25",
+     "series": "Central-pool foodgrain stocks",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "buffer norm of 214.1 LMT",
+     "value": "214.1 lakh metric tonnes (LMT)",
+     "period": "as of 1 January 2025",
+     "period_end": "2025-01-01",
+     "publisher": "DFPD Foodgrain Bulletin (Nov 2024); DFPD Annual Report 2024-25",
+     "series": "Central-pool buffer stock norms",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "a surplus of 262.75 LMT over the minimum the system is required to hold",
+     "value": "262.75 lakh metric tonnes (LMT)",
+     "period": "as of 1 January 2025",
+     "period_end": "2025-01-01",
+     "publisher": "DFPD Foodgrain Bulletin (Nov 2024); DFPD Annual Report 2024-25",
+     "series": "Central-pool surplus over buffer norm",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "832.17 LMT of paddy procured in KMS 2024-25",
+     "value": "832.17 lakh metric tonnes (LMT)",
+     "period": "Kharif Marketing Season (KMS) 2024-25",
+     "period_end": "2025-01-31",
+     "publisher": "DFPD Foodgrain Bulletin (Nov 2024); DFPD Annual Report 2024-25",
+     "series": "Paddy procurement",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "300.35 LMT of wheat in RMS 2025-26",
+     "value": "300.35 lakh metric tonnes (LMT)",
+     "period": "Rabi Marketing Season (RMS) 2025-26",
+     "period_end": "2026-07-31",
+     "publisher": "DFPD Foodgrain Bulletin (Nov 2024); DFPD Annual Report 2024-25",
+     "series": "Wheat procurement",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "government set a wheat procurement target of 303 LMT (later revised up to 34.497 million tonnes)",
+     "value": "303 lakh metric tonnes (LMT) / 34.497 million tonnes",
+     "period": "RMS 2026-27",
+     "period_end": "2027-07-31",
+     "publisher": "PIB PRID 2236215",
+     "series": "Wheat procurement target",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "actual wheat procurement crossed 35 million tonnes (350+ LMT) by mid-2026",
+     "value": "35 million tonnes (350+ LMT)",
+     "period": "by mid-2026",
+     "period_end": "2026-06-30",
+     "publisher": "PIB PRID 2236215, corroborated by FNBNews, ETV Bharat, Agrospectrum India and KhetiVyapar",
+     "series": "Wheat procurement actual",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Food subsidy released — ₹1.99 lakh crore in FY25",
+     "value": "₹1.99 lakh crore",
+     "period": "FY2025",
+     "period_end": "2025-03-31",
+     "publisher": "DFPD Foodgrain Bulletin (Nov 2024); DFPD Annual Report 2024-25",
+     "series": "Food subsidy released",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "₹1.29 lakh crore through FCI directly and ₹0.70 lakh crore through the states running their own Decentralized Procurement Scheme",
+     "value": "₹1.29 lakh crore (FCI) and ₹0.70 lakh crore (DCP states)",
+     "period": "FY2025",
+     "period_end": "2025-03-31",
+     "publisher": "DFPD Foodgrain Bulletin (Nov 2024); DFPD Annual Report 2024-25",
+     "series": "Food subsidy breakdown",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Punjab ≈ 47% of the wheat pool in RMS 2024-25",
+     "value": "47%",
+     "period": "RMS 2024-25",
+     "period_end": "2025-07-31",
+     "publisher": "DFPD Foodgrain Bulletin (Nov 2024); DFPD Annual Report 2024-25",
+     "series": "State-wise wheat procurement share",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Rice 2024-25 procurement is the official Economic Survey rice-terms figure (544.8 LMT)",
+     "value": "544.8 lakh metric tonnes (LMT)",
+     "period": "2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "Economic Survey",
+     "series": "Rice procurement (rice-equivalent terms)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Running a tractor on CNG instead of diesel costs roughly ₹378 an hour against ₹498 an hour on diesel",
+     "value": "₹378 (CNG) and ₹498 (diesel) per hour",
+     "period": null,
+     "period_end": null,
+     "publisher": "Assumed economic comparison (not explicitly sourced)",
+     "series": "Diesel-to-CNG tractor cost comparison",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "a 24 per cent saving, or about ₹120 an hour",
+     "value": "24% saving / ₹120 per hour",
+     "period": null,
+     "period_end": null,
+     "publisher": "Assumed economic comparison (not explicitly sourced)",
+     "series": "Diesel-to-CNG tractor savings",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

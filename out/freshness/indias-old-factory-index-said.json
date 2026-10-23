@@ -1,0 +1,340 @@
+{
+ "slug": "indias-old-factory-index-said",
+ "text_sha1": "89e821cb9ce177e2",
+ "chars": 9560,
+ "checked": "2026-10-23T14:29:54",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "1,042 Products in the new IIP basket (2022-23 base), against 839 items in the 2011-12 series it replaced",
+     "value": "1,042 Products",
+     "period": "June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "MoSPI",
+     "series": "Index of Industrial Production",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "4.0% → 5.7% Industrial growth in 2024-25: old base, then new base",
+     "value": "5.7%",
+     "period": "2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "MoSPI",
+     "series": "Index of Industrial Production",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "−11.3% → +19.9% Computer, electronic & optical products, 2023-24: old base, then new base",
+     "value": "+19.9%",
+     "period": "2023-24",
+     "period_end": "2024-03-31",
+     "publisher": "MoSPI",
+     "series": "Index of Industrial Production",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "14 of 69 Industry-years where the two series disagree on whether output grew or shrank",
+     "value": "14",
+     "period": "June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "MoSPI",
+     "series": "Index of Industrial Production",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "On the new base, the same industry grew 19.9%.",
+     "value": "19.9%",
+     "period": "2023-24",
+     "period_end": "2024-03-31",
+     "publisher": "MoSPI",
+     "series": "Index of Industrial Production",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "MoSPI’s new series tracks 1,042 products in 463 item groups, against 839 items in 407 groups in the 2011-12 series",
+     "value": "463 item groups",
+     "period": "June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "MoSPI",
+     "series": "Index of Industrial Production",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "In the 2011-12 series manufacturing carried 77.6% of the index, mining 14.4% and electricity 8.0%.",
+     "value": "77.6%",
+     "period": "2011-12 base",
+     "period_end": "2026-06-30",
+     "publisher": "MoSPI",
+     "series": "Index of Industrial Production",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Summaries of MoSPI’s new release give manufacturing about 76.1%, mining about 11.1% and electricity and gas about 10.9%",
+     "value": "76.1%",
+     "period": "June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "MoSPI",
+     "series": "Index of Industrial Production",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "All industry (general index) | 5.9 | 6.8 | 4.0 | 5.7 | 4.1 | 4.3",
+     "value": "5.9",
+     "period": "2023-24",
+     "period_end": "2024-03-31",
+     "publisher": "MoSPI",
+     "series": "IIP annual indices (eSankhyiki)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "in 2025-26 renewable generation rose 18.8% and non-renewable generation fell 4.1%.",
+     "value": "18.8%",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "MoSPI",
+     "series": "Index of Industrial Production",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Capital goods grew 10.4% in 2025-26 on the new base against 8.3% on the old",
+     "value": "10.4%",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "MoSPI",
+     "series": "IIP annual indices by use-based classification",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "consumer durables grew 3.1% against 5.9%",
+     "value": "3.1%",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "MoSPI",
+     "series": "IIP annual indices by use-based classification",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Computer, electronic & optical | 2023-24 | −11.3 | 19.9 | +31.2",
+     "value": "-11.3",
+     "period": "2023-24",
+     "period_end": "2024-03-31",
+     "publisher": "MoSPI",
+     "series": "Index of Industrial Production",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "August 2026 output was 8.0% higher than a year earlier",
+     "value": "8.0%",
+     "period": "August 2026",
+     "period_end": "2026-08-31",
+     "publisher": "MoSPI",
+     "series": "Index of Industrial Production quick estimates",
+     "frequency": "monthly",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "MoSPI moved the Index of Industrial Production to a 2022-23 base in June 2026. For the three years both series cover, the new index shows faster industrial growth (5.7% rather than 4.0% in 2024-25)",
+     "value": "5.7% vs 4.0%",
+     "period": "2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "MoSPI",
+     "series": "Index of Industrial Production (IIP) annual growth rate",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "1,042 Products in the new IIP basket (2022-23 base), against 839 items in the 2011-12 series it replaced",
+     "value": "1,042 products (new) vs 839 items (old)",
+     "period": null,
+     "period_end": null,
+     "publisher": "MoSPI",
+     "series": "IIP basket composition",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "−11.3% → +19.9% Computer, electronic & optical products, 2023-24: old base, then new base",
+     "value": "-11.3% (old base) vs +19.9% (new base)",
+     "period": "2023-24",
+     "period_end": "2024-03-31",
+     "publisher": "MoSPI",
+     "series": "IIP growth rate by industry (Computer, electronic & optical products)",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "14 of 69 Industry-years where the two series disagree on whether output grew or shrank",
+     "value": "14 industry-years",
+     "period": "2023-24 to 2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "MoSPI",
+     "series": "IIP directional discrepancies (industry-years)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "The new index is published from April 2023, so for three financial years, 2023-24 to 2025-26, India has two official measures of the same factories, mines and power plants.",
+     "value": "2023-24 to 2025-26",
+     "period": "2023-24 to 2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "MoSPI",
+     "series": "IIP overlapping series period",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "For all industry the new series runs faster, by 0.9 percentage points in 2023-24 and 1.7 points in 2024-25.",
+     "value": "0.9 percentage points (2023-24) and 1.7 points (2024-25)",
+     "period": "2023-24 and 2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "MoSPI",
+     "series": "IIP general index growth difference",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "In the 2011-12 series manufacturing carried 77.6% of the index, mining 14.4% and electricity 8.0%. Summaries of MoSPI’s new release give manufacturing about 76.1%, mining about 11.1% and electricity and gas about 10.9%.",
+     "value": "Manufacturing: 77.6% (old) vs 76.1% (new); Mining: 14.4% (old) vs 11.1% (new); Electricity: 8.0% (old) vs 10.9% (new)",
+     "period": null,
+     "period_end": null,
+     "publisher": "MoSPI",
+     "series": "IIP sectoral weights",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Growth over previous year (%) | 2023-24 | 2024-25 | 2025-26 | Old base | New base | Old base | New base | Old base | New base | All industry (general index) | 5.9 | 6.8 | 4.0 | 5.7 | 4.1 | 4.3",
+     "value": "All industry: 5.9% (old) vs 6.8% (new, 2023-24); 4.0% (old) vs 5.7% (new, 2024-25); 4.1% (old) vs 4.3% (new, 2025-26)",
+     "period": "2023-24, 2024-25, 2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "MoSPI",
+     "series": "IIP annual growth rate (general index)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Mining | 7.5 | 2.2 | 3.0 | 2.8 | 1.4 | 3.7",
+     "value": "Mining: 7.5% (old) vs 2.2% (new, 2023-24); 3.0% (old) vs 2.8% (new, 2024-25); 1.4% (old) vs 3.7% (new, 2025-26)",
+     "period": "2023-24, 2024-25, 2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "MoSPI",
+     "series": "IIP annual growth rate (mining sector)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Electricity (new: electricity and gas supply) | 7.1 | 7.4 | 5.2 | 5.2 | 1.0 | 0.8",
+     "value": "Electricity: 7.1% (old) vs 7.4% (new, 2023-24); 5.2% (old) vs 5.2% (new, 2024-25); 1.0% (old) vs 0.8% (new, 2025-26)",
+     "period": "2023-24, 2024-25, 2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "MoSPI",
+     "series": "IIP annual growth rate (electricity sector)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Water supply, sewerage & waste (new sector) | – | 17.8 | – | 11.9 | – | 6.4",
+     "value": "Water supply, sewerage & waste: 17.8% (2023-24), 11.9% (2024-25), 6.4% (2025-26)",
+     "period": "2023-24, 2024-25, 2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "MoSPI",
+     "series": "IIP annual growth rate (new sector)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Capital goods grew 10.4% in 2025-26 on the new base against 8.3% on the old",
+     "value": "Capital goods: 10.4% (new base) vs 8.3% (old base)",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "MoSPI",
+     "series": "IIP annual growth rate (use-based: capital goods)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Consumer durables grew 3.1% against 5.9%, so the new index has investment goods doing better and household durables worse than the old one said.",
+     "value": "Consumer durables: 3.1% (new base) vs 5.9% (old base)",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "MoSPI",
+     "series": "IIP annual growth rate (use-based: consumer durables)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Across 23 two-digit manufacturing industries and three years, 14 industry-years change sign between the series; in 13 of them the old base showed a fall and the new base shows growth.",
+     "value": "14 industry-years with sign change",
+     "period": "2023-24 to 2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "MoSPI",
+     "series": "IIP directional discrepancies (industry-years)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Computer, electronic & optical | 2023-24 | −11.3 | +19.9 | +31.2",
+     "value": "Computer, electronic & optical: −11.3% (old) vs +19.9% (new, 2023-24)",
+     "period": "2023-24",
+     "period_end": "2024-03-31",
+     "publisher": "MoSPI",
+     "series": "IIP annual growth rate (Computer, electronic & optical)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Other manufacturing | 2025-26 | −14.9 | −0.9 | +14.0",
+     "value": "Other manufacturing: −14.9% (old) vs −0.9% (new, 2025-26)",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "MoSPI",
+     "series": "IIP annual growth rate (Other manufacturing)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "renewable generation rose 18.8% and non-renewable generation fell 4.1% in 2025-26",
+     "value": "Renewable generation: +18.8%; Non-renewable generation: -4.1%",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "MoSPI",
+     "series": "IIP growth rate (electricity split by source)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "August 2026 output was 8.0% higher than a year earlier, with manufacturing up 9.0% and mining down 5.6%, after 8.8% in June and 7.4% in July.",
+     "value": "August 2026: All industry: +8.0%; Manufacturing: +9.0%; Mining: -5.6%",
+     "period": "August 2026 vs August 2025",
+     "period_end": "2026-08-31",
+     "publisher": "MoSPI (quick estimates) / PIB",
+     "series": "IIP monthly growth rate (quick estimates)",
+     "frequency": "monthly",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

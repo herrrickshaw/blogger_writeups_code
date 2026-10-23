@@ -1,0 +1,730 @@
+{
+ "slug": "city-gas-just-became-indias-largest-gas",
+ "text_sha1": "ff8dfca130414763",
+ "chars": 11051,
+ "checked": "2026-10-23T10:53:57",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "4,964 vs 4,703 CGD vs fertiliser, Q1 FY2026-27, MMSCM",
+     "value": "4,964 MMSCM",
+     "period": "Q1 FY2026-27",
+     "period_end": "2026-06-30",
+     "publisher": "PPAC",
+     "series": "Current-Year Sectoral Consumption workbook (NG-C)",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "3× CGD’s growth in a decade — 52% of all new gas demand",
+     "value": "52%",
+     "period": "decade",
+     "period_end": "2026-03-31",
+     "publisher": "PPAC",
+     "series": "Natural Gas Historical Sectoral Consumption workbook (NG-H)",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "−10.5% Power’s gas burn in FY2025-26 alone; share halved in a decade",
+     "value": "-10.5%",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "PPAC",
+     "series": "Natural Gas Historical Sectoral Consumption workbook (NG-H)",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "~50% Import dependency of India’s gas supply",
+     "value": "~50%",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "PPAC",
+     "series": "Snapshot of India’s Oil & Gas Data",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "8,980 CNG stations and 1.73 crore domestic PNG connections as of 31 May 2026",
+     "value": "8,980",
+     "period": "as on 31 May 2026",
+     "period_end": "2026-05-31",
+     "publisher": "PNGRB",
+     "series": "Snapshot of India’s Oil & Gas Data",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "India’s natural gas consumption rose from 47,849 to 69,048 MMSCM between FY2015-16 and FY2025-26.",
+     "value": "47,849 MMSCM",
+     "period": "FY2015-16",
+     "period_end": "2016-03-31",
+     "publisher": "PPAC",
+     "series": "Natural Gas Historical Sectoral Consumption workbook (NG-H)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "India’s natural gas consumption rose from 47,849 to 69,048 MMSCM between FY2015-16 and FY2025-26.",
+     "value": "69,048 MMSCM",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "PPAC",
+     "series": "Natural Gas Historical Sectoral Consumption workbook (NG-H)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "CGD tripled from 5,464 to 16,516 MMSCM",
+     "value": "5,464 MMSCM",
+     "period": "FY2015-16",
+     "period_end": "2016-03-31",
+     "publisher": "PPAC",
+     "series": "Natural Gas Historical Sectoral Consumption workbook (NG-H)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "CGD tripled from 5,464 to 16,516 MMSCM",
+     "value": "16,516 MMSCM",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "PPAC",
+     "series": "Natural Gas Historical Sectoral Consumption workbook (NG-H)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "11.4% of the pool to 23.9%",
+     "value": "11.4%",
+     "period": "FY2015-16",
+     "period_end": "2016-03-31",
+     "publisher": "PPAC",
+     "series": "Natural Gas Historical Sectoral Consumption workbook (NG-H)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "11.4% of the pool to 23.9%",
+     "value": "23.9%",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "PPAC",
+     "series": "Natural Gas Historical Sectoral Consumption workbook (NG-H)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "gas-fired power fell outright , from 10,889 to 7,960 MMSCM",
+     "value": "10,889 MMSCM",
+     "period": "FY2015-16",
+     "period_end": "2016-03-31",
+     "publisher": "PPAC",
+     "series": "Natural Gas Historical Sectoral Consumption workbook (NG-H)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "gas-fired power fell outright , from 10,889 to 7,960 MMSCM",
+     "value": "7,960 MMSCM",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "PPAC",
+     "series": "Natural Gas Historical Sectoral Consumption workbook (NG-H)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "its share halving from 22.8% to 11.5%",
+     "value": "22.8%",
+     "period": "FY2015-16",
+     "period_end": "2016-03-31",
+     "publisher": "PPAC",
+     "series": "Natural Gas Historical Sectoral Consumption workbook (NG-H)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "its share halving from 22.8% to 11.5%",
+     "value": "11.5%",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "PPAC",
+     "series": "Natural Gas Historical Sectoral Consumption workbook (NG-H)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Fertiliser | 16,135 | 19,649 | 33.7 | 28.5 |",
+     "value": "16,135 MMSCM",
+     "period": "FY2015-16",
+     "period_end": "2016-03-31",
+     "publisher": "PPAC",
+     "series": "Natural Gas Historical Sectoral Consumption workbook (NG-H)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Fertiliser | 16,135 | 19,649 | 33.7 | 28.5 |",
+     "value": "19,649 MMSCM",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "PPAC",
+     "series": "Natural Gas Historical Sectoral Consumption workbook (NG-H)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Other / miscellaneous | 4,298 | 9,716 | 9.0 | 14.1 |",
+     "value": "4,298 MMSCM",
+     "period": "FY2015-16",
+     "period_end": "2016-03-31",
+     "publisher": "PPAC",
+     "series": "Natural Gas Historical Sectoral Consumption workbook (NG-H)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Other / miscellaneous | 4,298 | 9,716 | 9.0 | 14.1 |",
+     "value": "9,716 MMSCM",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "PPAC",
+     "series": "Natural Gas Historical Sectoral Consumption workbook (NG-H)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Refinery | 5,077 | 5,526 | 10.6 | 8.0 |",
+     "value": "5,077 MMSCM",
+     "period": "FY2015-16",
+     "period_end": "2016-03-31",
+     "publisher": "PPAC",
+     "series": "Natural Gas Historical Sectoral Consumption workbook (NG-H)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Refinery | 5,077 | 5,526 | 10.6 | 8.0 |",
+     "value": "5,526 MMSCM",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "PPAC",
+     "series": "Natural Gas Historical Sectoral Consumption workbook (NG-H)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Petrochemical | 3,733 | 3,899 | 7.8 | 5.6 |",
+     "value": "3,733 MMSCM",
+     "period": "FY2015-16",
+     "period_end": "2016-03-31",
+     "publisher": "PPAC",
+     "series": "Natural Gas Historical Sectoral Consumption workbook (NG-H)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Petrochemical | 3,733 | 3,899 | 7.8 | 5.6 |",
+     "value": "3,899 MMSCM",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "PPAC",
+     "series": "Natural Gas Historical Sectoral Consumption workbook (NG-H)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Remaining sectors — pipeline internal use, manufacturing, industrial, LPG shrinkage, sponge iron/steel, tea plantation — total 5,783 MMSCM in FY2025-26",
+     "value": "5,783 MMSCM",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "PPAC",
+     "series": "Natural Gas Historical Sectoral Consumption workbook (NG-H)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "April | 1,482 | 1,400 | 624 |",
+     "value": "1,482 MMSCM",
+     "period": "April 2026",
+     "period_end": "2026-04-30",
+     "publisher": "PPAC",
+     "series": "Current-Year Sectoral Consumption workbook (NG-C)",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "April | 1,482 | 1,400 | 624 |",
+     "value": "1,400 MMSCM",
+     "period": "April 2026",
+     "period_end": "2026-04-30",
+     "publisher": "PPAC",
+     "series": "Current-Year Sectoral Consumption workbook (NG-C)",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "April | 1,482 | 1,400 | 624 |",
+     "value": "624 MMSCM",
+     "period": "April 2026",
+     "period_end": "2026-04-30",
+     "publisher": "PPAC",
+     "series": "Current-Year Sectoral Consumption workbook (NG-C)",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "May | 1,734 | 1,648 | 642 |",
+     "value": "1,734 MMSCM",
+     "period": "May 2026",
+     "period_end": "2026-05-31",
+     "publisher": "PPAC",
+     "series": "Current-Year Sectoral Consumption workbook (NG-C)",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "May | 1,734 | 1,648 | 642 |",
+     "value": "1,648 MMSCM",
+     "period": "May 2026",
+     "period_end": "2026-05-31",
+     "publisher": "PPAC",
+     "series": "Current-Year Sectoral Consumption workbook (NG-C)",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "May | 1,734 | 1,648 | 642 |",
+     "value": "642 MMSCM",
+     "period": "May 2026",
+     "period_end": "2026-05-31",
+     "publisher": "PPAC",
+     "series": "Current-Year Sectoral Consumption workbook (NG-C)",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "June | 1,748 | 1,655 | 641 |",
+     "value": "1,748 MMSCM",
+     "period": "June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "PPAC",
+     "series": "Current-Year Sectoral Consumption workbook (NG-C)",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "June | 1,748 | 1,655 | 641 |",
+     "value": "1,655 MMSCM",
+     "period": "June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "PPAC",
+     "series": "Current-Year Sectoral Consumption workbook (NG-C)",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "June | 1,748 | 1,655 | 641 |",
+     "value": "641 MMSCM",
+     "period": "June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "PPAC",
+     "series": "Current-Year Sectoral Consumption workbook (NG-C)",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Quarter | 4,964 | 4,703 | 1,907 |",
+     "value": "1,907 MMSCM",
+     "period": "Q1 FY2026-27",
+     "period_end": "2026-06-30",
+     "publisher": "PPAC",
+     "series": "Current-Year Sectoral Consumption workbook (NG-C)",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "within a national pool that shrank 3.0% , CGD grew +9.7% while fertiliser fell 4.1% and power fell 10.5%.",
+     "value": "-3.0%",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "PPAC",
+     "series": "Snapshot of India’s Oil & Gas Data",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "within a national pool that shrank 3.0% , CGD grew +9.7% while fertiliser fell 4.1% and power fell 10.5%.",
+     "value": "+9.7%",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "PPAC",
+     "series": "Snapshot of India’s Oil & Gas Data",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "within a national pool that shrank 3.0% , CGD grew +9.7% while fertiliser fell 4.1% and power fell 10.5%.",
+     "value": "-4.1%",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "PPAC",
+     "series": "Snapshot of India’s Oil & Gas Data",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Maharashtra (45.0 lakh) and Gujarat (39.0 lakh) alone holding nearly half",
+     "value": "45.0 lakh",
+     "period": "as on 31 May 2026",
+     "period_end": "2026-05-31",
+     "publisher": "PNGRB",
+     "series": "Snapshot of India’s Oil & Gas Data",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Maharashtra (45.0 lakh) and Gujarat (39.0 lakh) alone holding nearly half",
+     "value": "39.0 lakh",
+     "period": "as on 31 May 2026",
+     "period_end": "2026-05-31",
+     "publisher": "PNGRB",
+     "series": "Snapshot of India’s Oil & Gas Data",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "RLNG supplied 51.5% of consumption in FY2025-26 and 52.7% in Q1 FY2026-27",
+     "value": "51.5%",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "PPAC",
+     "series": "Snapshot of India’s Oil & Gas Data",
+     "frequency": "annual",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "city gas distribution — the CNG in vehicles and PNG piped into kitchens — consumed 4,964 million standard cubic metres against fertiliser’s 4,703",
+     "value": "4,964 MMSCM (CGD) vs 4,703 MMSCM (Fertiliser)",
+     "period": "Q1 FY2026-27",
+     "period_end": "2026-06-30",
+     "publisher": "PPAC",
+     "series": "Natural Gas Current-Year Sectoral Consumption workbook (NG-C)",
+     "frequency": "quarterly",
+     "headline": true
+    },
+    {
+     "quote": "CGD grew +9.7% while fertiliser fell 4.1% and power fell 10.5% in FY2025-26",
+     "value": "+9.7% (CGD), -4.1% (Fertiliser), -10.5% (Power)",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "PPAC",
+     "series": "Natural Gas Historical Sectoral Consumption workbook (NG-H)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "natural gas consumption rose from 47,849 to 69,048 MMSCM between FY2015-16 and FY2025-26",
+     "value": "47,849 MMSCM (FY2015-16) to 69,048 MMSCM (FY2025-26)",
+     "period": "FY2015-16 to FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "PPAC",
+     "series": "Natural Gas Historical Sectoral Consumption workbook (NG-H)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "City gas distribution — CNG for vehicles and PNG piped to kitchens — tripled from 5,464 to 16,516 MMSCM",
+     "value": "5,464 MMSCM (FY2015-16) to 16,516 MMSCM (FY2025-26)",
+     "period": "FY2015-16 to FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "PPAC",
+     "series": "Natural Gas Historical Sectoral Consumption workbook (NG-H)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Fertiliser plants consumed 16,135 MMSCM in FY2015-16 and 19,649 MMSCM in FY2025-26",
+     "value": "16,135 MMSCM (FY2015-16) to 19,649 MMSCM (FY2025-26)",
+     "period": "FY2015-16 to FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "PPAC",
+     "series": "Natural Gas Historical Sectoral Consumption workbook (NG-H)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Power sector gas burn fell from 10,889 to 7,960 MMSCM",
+     "value": "10,889 MMSCM (FY2015-16) to 7,960 MMSCM (FY2025-26)",
+     "period": "FY2015-16 to FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "PPAC",
+     "series": "Natural Gas Historical Sectoral Consumption workbook (NG-H)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "CGD’s share grew from 11.4% to 23.9% of the pool",
+     "value": "11.4% (FY2015-16) to 23.9% (FY2025-26)",
+     "period": "FY2015-16 to FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "PPAC",
+     "series": "Natural Gas Historical Sectoral Consumption workbook (NG-H)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Power’s share halved from 22.8% to 11.5%",
+     "value": "22.8% (FY2015-16) to 11.5% (FY2025-26)",
+     "period": "FY2015-16 to FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "PPAC",
+     "series": "Natural Gas Historical Sectoral Consumption workbook (NG-H)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "8,980 CNG stations and 1.73 crore domestic PNG connections as of 31 May 2026",
+     "value": "8,980 CNG stations; 17,255,095 domestic PNG connections",
+     "period": "as of 31 May 2026",
+     "period_end": "2026-05-31",
+     "publisher": "PNGRB (via PPAC)",
+     "series": "Snapshot of India’s Oil & Gas Data, Monthly Ready Reckoner",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Maharashtra (45.0 lakh) and Gujarat (39.0 lakh) alone holding nearly half the country’s piped-gas kitchens",
+     "value": "45,00,000 (Maharashtra) and 39,00,000 (Gujarat) domestic PNG connections",
+     "period": "as of 31 May 2026",
+     "period_end": "2026-05-31",
+     "publisher": "PNGRB (via PPAC)",
+     "series": "Snapshot of India’s Oil & Gas Data, Monthly Ready Reckoner",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "RLNG supplied 51.5% of consumption in FY2025-26",
+     "value": "51.5%",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "PPAC",
+     "series": "Snapshot of India’s Oil & Gas Data, Monthly Ready Reckoner",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "RLNG supplied 52.7% of consumption in Q1 FY2026-27",
+     "value": "52.7%",
+     "period": "Q1 FY2026-27",
+     "period_end": "2026-06-30",
+     "publisher": "PPAC",
+     "series": "Snapshot of India’s Oil & Gas Data, Monthly Ready Reckoner",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "India’s gas is now majority imported: roughly 50% in both FY2024-25 and FY2025-26",
+     "value": "~50%",
+     "period": "FY2024-25 and FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "PPAC",
+     "series": "Snapshot of India’s Oil & Gas Data, Monthly Ready Reckoner",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "87% of fertiliser’s June 2026 burn was RLNG (1,446 of 1,655 MMSCM)",
+     "value": "1,446 MMSCM RLNG out of 1,655 MMSCM",
+     "period": "June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "PPAC",
+     "series": "Natural Gas Current-Year Sectoral Consumption workbook (NG-C)",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "49% RLNG in CGD in June 2026 (850 of 1,748 MMSCM)",
+     "value": "850 MMSCM RLNG out of 1,748 MMSCM",
+     "period": "June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "PPAC",
+     "series": "Natural Gas Current-Year Sectoral Consumption workbook (NG-C)",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Gross domestic production was 36,113 MMSCM in FY2024-25 and 34,776 in FY2025-26",
+     "value": "36,113 MMSCM (FY2024-25) to 34,776 MMSCM (FY2025-26)",
+     "period": "FY2024-25 to FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "PPAC",
+     "series": "Snapshot of India’s Oil & Gas Data, Monthly Ready Reckoner",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "LNG terminal capacity runs far ahead of use: 53.5 MMTPA installed",
+     "value": "53.5 MMTPA",
+     "period": null,
+     "period_end": null,
+     "publisher": "PPAC",
+     "series": "Snapshot of India’s Oil & Gas Data, Monthly Ready Reckoner",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Dahej at 91.9% utilisation in Apr–Jun 2026",
+     "value": "91.9%",
+     "period": "Apr–Jun 2026",
+     "period_end": "2026-06-30",
+     "publisher": "PPAC",
+     "series": "Snapshot of India’s Oil & Gas Data, Monthly Ready Reckoner",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "Kochi ran at 26.3% and Dabhol at 39.2% utilisation in Apr–Jun 2026",
+     "value": "26.3% (Kochi), 39.2% (Dabhol)",
+     "period": "Apr–Jun 2026",
+     "period_end": "2026-06-30",
+     "publisher": "PPAC",
+     "series": "Snapshot of India’s Oil & Gas Data, Monthly Ready Reckoner",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "total gas consumption fell 3.6% in FY2025-26 (71,314 → 68,753 MMSCM)",
+     "value": "71,314 MMSCM (FY2024-25) to 68,753 MMSCM (FY2025-26)",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "PPAC",
+     "series": "Snapshot of India’s Oil & Gas Data, Monthly Ready Reckoner",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "June 2026 was 4.5% below June 2025",
+     "value": "4.5%",
+     "period": "June 2026 vs June 2025",
+     "period_end": "2026-06-30",
+     "publisher": "PPAC",
+     "series": "Snapshot of India’s Oil & Gas Data, Monthly Ready Reckoner",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "April 2026 CGD consumption: 1,482 MMSCM",
+     "value": "1,482 MMSCM",
+     "period": "April 2026",
+     "period_end": "2026-04-30",
+     "publisher": "PPAC",
+     "series": "Natural Gas Current-Year Sectoral Consumption workbook (NG-C)",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "May 2026 CGD consumption: 1,734 MMSCM",
+     "value": "1,734 MMSCM",
+     "period": "May 2026",
+     "period_end": "2026-05-31",
+     "publisher": "PPAC",
+     "series": "Natural Gas Current-Year Sectoral Consumption workbook (NG-C)",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "June 2026 CGD consumption: 1,748 MMSCM",
+     "value": "1,748 MMSCM",
+     "period": "June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "PPAC",
+     "series": "Natural Gas Current-Year Sectoral Consumption workbook (NG-C)",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "April 2026 fertiliser consumption: 1,400 MMSCM",
+     "value": "1,400 MMSCM",
+     "period": "April 2026",
+     "period_end": "2026-04-30",
+     "publisher": "PPAC",
+     "series": "Natural Gas Current-Year Sectoral Consumption workbook (NG-C)",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "May 2026 fertiliser consumption: 1,648 MMSCM",
+     "value": "1,648 MMSCM",
+     "period": "May 2026",
+     "period_end": "2026-05-31",
+     "publisher": "PPAC",
+     "series": "Natural Gas Current-Year Sectoral Consumption workbook (NG-C)",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "June 2026 fertiliser consumption: 1,655 MMSCM",
+     "value": "1,655 MMSCM",
+     "period": "June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "PPAC",
+     "series": "Natural Gas Current-Year Sectoral Consumption workbook (NG-C)",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "April 2026 power consumption: 624 MMSCM",
+     "value": "624 MMSCM",
+     "period": "April 2026",
+     "period_end": "2026-04-30",
+     "publisher": "PPAC",
+     "series": "Natural Gas Current-Year Sectoral Consumption workbook (NG-C)",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "May 2026 power consumption: 642 MMSCM",
+     "value": "642 MMSCM",
+     "period": "May 2026",
+     "period_end": "2026-05-31",
+     "publisher": "PPAC",
+     "series": "Natural Gas Current-Year Sectoral Consumption workbook (NG-C)",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "June 2026 power consumption: 641 MMSCM",
+     "value": "641 MMSCM",
+     "period": "June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "PPAC",
+     "series": "Natural Gas Current-Year Sectoral Consumption workbook (NG-C)",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "total gas consumption in FY2025-26 was 68,753 MMSCM",
+     "value": "68,753 MMSCM",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "PPAC",
+     "series": "Snapshot of India’s Oil & Gas Data, Monthly Ready Reckoner",
+     "frequency": "annual",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,684 @@
+{
+ "slug": "announced-vs-delivered-three-indian",
+ "text_sha1": "1df5b89c6db208b5",
+ "chars": 37118,
+ "checked": "2026-10-23T10:35:37",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "15,091 \n FY2023-24",
+     "value": "15,091",
+     "period": "FY2023-24",
+     "period_end": "2024-03-31",
+     "publisher": "UP EV Subsidy Portal",
+     "series": "Applications approved through UP's EV Subsidy Portal",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "13,950 \n FY2024-25",
+     "value": "13,950",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "UP EV Subsidy Portal",
+     "series": "Applications approved through UP's EV Subsidy Portal",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "47,514 \n FY2025-26",
+     "value": "47,514",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "UP EV Subsidy Portal",
+     "series": "Applications approved through UP's EV Subsidy Portal",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "+241% y/y",
+     "value": "+241%",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "UP EV Subsidy Portal",
+     "series": "Applications approved through UP's EV Subsidy Portal",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "investment of over ₹30,000 crore and 10 lakh (1 million) direct and indirect jobs",
+     "value": "₹30,000 crore",
+     "period": "at launch",
+     "period_end": null,
+     "publisher": "Invest UP",
+     "series": "Uttar Pradesh Electric Vehicle Manufacturing and Mobility Policy, 2022 targets",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "EV subsidy applications approved (cumulative, as of mid-2026) | 86,489 |",
+     "value": "86,489",
+     "period": "mid-2026",
+     "period_end": "2026-06-30",
+     "publisher": "UP EV Subsidy Portal",
+     "series": "EV subsidy applications approved",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Applications actually paid out | 43,000+ |",
+     "value": "43,000+",
+     "period": "mid-2026",
+     "period_end": "2026-06-30",
+     "publisher": "UP EV Subsidy Portal",
+     "series": "Applications actually paid out",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Category split | 61,417 two-wheelers · 24,959 four-wheelers · 104 e-goods carriers · 9 e-buses |",
+     "value": "61,417 two-wheelers, 24,959 four-wheelers, 104 e-goods carriers, 9 e-buses",
+     "period": "mid-2026",
+     "period_end": "2026-06-30",
+     "publisher": "UP EV Subsidy Portal",
+     "series": "Category split of approved EV subsidies",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "UP's share of national EV sales | ~18% (stated target: 25–30% within two years) |",
+     "value": "~18%",
+     "period": "mid-2026",
+     "period_end": "2026-06-30",
+     "publisher": "Transport Department, Government of Uttar Pradesh",
+     "series": "UP's share of national EV sales",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Charging infrastructure installed | 2,316 stations (540 fast, 1,776 slow) against an estimated eventual need of ~38,000 |",
+     "value": "2,316 stations",
+     "period": "mid-2026",
+     "period_end": "2026-06-30",
+     "publisher": "Transport Department, Government of Uttar Pradesh",
+     "series": "Charging infrastructure installed",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "_comment": "Next entries follow article sequence",
+     "quote": "Its numeric targets, all pegged to 2026-27, are specific: 1,000 tonnes per day (TPD) of CBG",
+     "value": "1,000 TPD",
+     "period": "2026-27",
+     "period_end": "2027-03-31",
+     "publisher": "Invest UP",
+     "series": "Uttar Pradesh State Bio-Energy Policy-2022 targets",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "4,000 TPD of bio-coal",
+     "value": "4,000 TPD",
+     "period": "2026-27",
+     "period_end": "2027-03-31",
+     "publisher": "Invest UP",
+     "series": "Uttar Pradesh State Bio-Energy Policy-2022 targets",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "2,000 kilolitres/day of combined bioethanol and biodiesel",
+     "value": "2,000 kilolitres/day",
+     "period": "2026-27",
+     "period_end": "2027-03-31",
+     "publisher": "Invest UP",
+     "series": "Uttar Pradesh State Bio-Energy Policy-2022 targets",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "roughly 350 units statewide",
+     "value": "350 units",
+     "period": "2026-27",
+     "period_end": "2027-03-31",
+     "publisher": "Invest UP",
+     "series": "Uttar Pradesh State Bio-Energy Policy-2022 targets",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "The state sanctioned ₹1,040.75 crore for the scheme",
+     "value": "₹1,040.75 crore",
+     "period": "at launch",
+     "period_end": null,
+     "publisher": "Invest UP",
+     "series": "Uttar Pradesh State Bio-Energy Policy-2022 outlay",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "up to ₹750 crore earmarked for CBG projects alone",
+     "value": "₹750 crore",
+     "period": "at launch",
+     "period_end": null,
+     "publisher": "Invest UP",
+     "series": "Uttar Pradesh State Bio-Energy Policy-2022 outlay",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "puts UP at roughly 32 functional CBG plants as of early-to-mid 2026",
+     "value": "32 plants",
+     "period": "early-to-mid 2026",
+     "period_end": "2026-06-30",
+     "publisher": "Centre for Science and Environment",
+     "series": "Independent CBG-sector tracking",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "_comment": "Karnataka Excise table data",
+     "quote": "2023-24 | ₹36,000 crore (original budget)",
+     "value": "₹36,000 crore",
+     "period": "FY2023-24",
+     "period_end": "2024-03-31",
+     "publisher": "PRS Legislative Research",
+     "series": "Karnataka Budget Excise Target",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "2024-25 | ₹38,525 crore original budget (₹3,210 crore/month pace)",
+     "value": "₹38,525 crore",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "PRS Legislative Research",
+     "series": "Karnataka Budget Excise Target",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Revised estimate cut to ₹36,500 crore",
+     "value": "₹36,500 crore",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "Commercial Taxes/Excise Department, Government of Karnataka",
+     "series": "Karnataka Excise Revised Estimate",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "2025-26 (through Feb 2026) | ~₹45,000 crore full-year target",
+     "value": "~₹45,000 crore",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Commercial Taxes/Excise Department, Government of Karnataka",
+     "series": "Karnataka Excise Full-Year Target",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "₹36,492 crore collected by February 2026, up 12.7% y/y",
+     "value": "₹36,492 crore",
+     "period": "Apr 2025 - Feb 2026",
+     "period_end": "2026-02-28",
+     "publisher": "Commercial Taxes/Excise Department, Government of Karnataka",
+     "series": "Karnataka Excise Collection",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "2026-27 | ₹40,000 crore stated target",
+     "value": "₹40,000 crore",
+     "period": "FY2026-27",
+     "period_end": "2027-03-31",
+     "publisher": "Commercial Taxes/Excise Department, Government of Karnataka",
+     "series": "Karnataka Excise Stated Target",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "_comment": "Haryana Linkages data",
+     "quote": "The operative document is the Haryana Agri-Business and Food Processing Policy, 2018 (notified 4 June 2018): ₹3,500 crore of investment, 20,000 jobs",
+     "value": "₹3,500 crore",
+     "period": "5-year term from 2018",
+     "period_end": "2023-06-04",
+     "publisher": "Directorate of MSME, Haryana",
+     "series": "Haryana Agri-Business and Food Processing Policy targets",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Mera Pani Meri Virasat (crop diversification, backward-linkage raw material) | ~19,670 acres verified diversified",
+     "value": "19,670 acres",
+     "period": "up to 2026",
+     "period_end": "2026-06-30",
+     "publisher": "Government of Haryana",
+     "series": "Mera Pani Meri Virasat verified diversified acreage",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Crop Cluster Development Programme (₹510.35 crore, 700 FPOs, ~400 horticultural clusters)",
+     "value": "₹510.35 crore",
+     "period": "current",
+     "period_end": null,
+     "publisher": "Government of Haryana",
+     "series": "Crop Cluster Development Programme outlay",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Target: 100 integrated pack-houses this fiscal year. Actual: 30 built, 35 in progress",
+     "value": "30 built, 35 in progress",
+     "period": "current fiscal year",
+     "period_end": "2026-03-31",
+     "publisher": "Government of Haryana",
+     "series": "Crop Cluster Development Programme pack-houses",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Cane arrears owed to Haryana farmers, 2025-26 season | ₹373 crore",
+     "value": "₹373 crore",
+     "period": "2025-26 season",
+     "period_end": "2026-03-31",
+     "publisher": "Government of Haryana",
+     "series": "Cane arrears owed to Haryana farmers",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Panipat cooperative sugar mill multi-feed ethanol plant (Mar 2025 budget sanction) | ₹200 crore, 90 KLPD",
+     "value": "₹200 crore",
+     "period": "Mar 2025",
+     "period_end": "2025-03-31",
+     "publisher": "Government of Haryana",
+     "series": "Panipat cooperative sugar mill multi-feed ethanol plant budget sanction",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "_comment": "Andhra Pradesh data",
+     "quote": "Industries Minister TG Bharath has publicly targeted ₹30,000 crore of investment and 3+ lakh jobs over the policy's five-year term",
+     "value": "₹30,000 crore",
+     "period": "2024-2029",
+     "period_end": "2029-03-31",
+     "publisher": "Department of Industries, Government of Andhra Pradesh",
+     "series": "Food Processing Policy 4.0 target",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Cumulative investment, 2014-2024 (policy's own baseline) | ₹9,178 crore, 428 units",
+     "value": "₹9,178 crore",
+     "period": "2014-2024",
+     "period_end": "2024-03-31",
+     "publisher": "Government of Andhra Pradesh",
+     "series": "Food Processing Policy 4.0 baseline cumulative investment",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Operational food parks (5 Mega Food Parks, 1 Spice Park, 3 state Integrated Food Parks) | 9",
+     "value": "9",
+     "period": "current",
+     "period_end": null,
+     "publisher": "Government of Andhra Pradesh",
+     "series": "Operational food parks count",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Primary Processing Centres / new units / cold storages / pack houses | 14 PPCs · 295 new units · 363 cold storages (1.6 Mn MT) · 4,587 pack houses",
+     "value": "14 PPCs, 295 new units, 363 cold storages, 4,587 pack houses",
+     "period": "current",
+     "period_end": null,
+     "publisher": "Government of Andhra Pradesh",
+     "series": "Primary Processing Centres and storage infrastructure count",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Projects approved 'in the past two years' (government claim) | 29 projects, ₹11,800 crore",
+     "value": "₹11,800 crore",
+     "period": "past two years",
+     "period_end": "2026-06-30",
+     "publisher": "Government of Andhra Pradesh",
+     "series": "Projects approved in past two years",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "~65 pulp units, 90,000 ha, 7.5 lakh tonnes/yr, 40,000 farmers",
+     "value": "65 pulp units, 90,000 ha, 7.5 lakh tonnes/yr, 40,000 farmers",
+     "period": "current",
+     "period_end": null,
+     "publisher": "Government of Andhra Pradesh",
+     "series": "Totapuri mango processing base in Chittoor",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "state paid ₹190 crore in price-deficiency support the prior year and sought ₹281 crore more",
+     "value": "₹190 crore",
+     "period": "prior year",
+     "period_end": null,
+     "publisher": "Government of Andhra Pradesh",
+     "series": "Mango price-deficiency support payout",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "~80% of India's shrimp exports, 37.7% of national marine exports (~$3.04bn, 2022-23)",
+     "value": "$3.04 bn",
+     "period": "2022-23",
+     "period_end": "2023-03-31",
+     "publisher": "MPEDA / Government of Andhra Pradesh",
+     "series": "Aqua and shrimp export share",
+     "frequency": "annual",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "Applications approved through UP's EV Subsidy Portal: 15,091 (FY2023-24), 13,950 (FY2024-25), 47,514 (FY2025-26) (+241% y/y)",
+     "value": "15,091 (FY2023-24), 13,950 (FY2024-25), 47,514 (FY2025-26)",
+     "period": "FY2023-24, FY2024-25, FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "UP EV Subsidy Portal / Free Press Journal",
+     "series": "EV Subsidy Approvals by Fiscal Year",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "EV subsidy applications approved (cumulative, as of mid-2026): 86,489",
+     "value": "86,489 (cumulative)",
+     "period": "as of mid-2026",
+     "period_end": "2026-06-30",
+     "publisher": "UP EV Subsidy Portal",
+     "series": "EV Subsidy Approvals (Cumulative)",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "Applications actually paid out: 43,000+",
+     "value": "43,000+",
+     "period": null,
+     "period_end": null,
+     "publisher": "UP EV Subsidy Portal",
+     "series": "EV Subsidy Payouts",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "UP's share of national EV sales: ~18% (stated target: 25–30% within two years)",
+     "value": "~18% (target: 25–30%)",
+     "period": null,
+     "period_end": null,
+     "publisher": "article estimate (no direct source)",
+     "series": "EV Market Share",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Charging infrastructure installed: 2,316 stations (540 fast, 1,776 slow)",
+     "value": "2,316 stations (540 fast, 1,776 slow)",
+     "period": null,
+     "period_end": null,
+     "publisher": "article estimate (no direct source)",
+     "series": "EV Charging Infrastructure",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "UP State Bio-Energy Policy targets: 1,000 TPD of CBG, 4,000 TPD of bio-coal, 2,000 KLD of bioethanol/biodiesel",
+     "value": "1,000 TPD (CBG), 4,000 TPD (bio-coal), 2,000 KLD (bioethanol/biodiesel)",
+     "period": "2026-27",
+     "period_end": "2027-03-31",
+     "publisher": "UPNEDA (Uttar Pradesh New and Renewable Energy Development Agency)",
+     "series": "UP State Bio-Energy Policy Targets",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Independent CBG-sector tracking: ~32 functional CBG plants in UP as of early-to-mid 2026",
+     "value": "~32 functional CBG plants",
+     "period": "early-to-mid 2026",
+     "period_end": "2026-06-30",
+     "publisher": "industry/trade reporting, CSE study",
+     "series": "CBG Plant Count (Independent Tracking)",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "₹550-crore batch of biogas/biodiesel project approvals in October 2023",
+     "value": "₹550 crore",
+     "period": "October 2023",
+     "period_end": "2023-10-31",
+     "publisher": "Business Standard",
+     "series": "Bioenergy Project Approvals",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹1,040.75 crore sanctioned for UP Bio-Energy Policy, with up to ₹750 crore for CBG projects",
+     "value": "₹1,040.75 crore (total), ₹750 crore (CBG)",
+     "period": null,
+     "period_end": null,
+     "publisher": "UPNEDA",
+     "series": "UP Bio-Energy Policy Budget Allocation",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Karnataka excise revenue targets: ₹36,000 crore (2023-24 original), ₹38,525 crore (2024-25 original), ~₹45,000 crore (2025-26 full-year)",
+     "value": "₹36,000 crore (2023-24), ₹38,525 crore (2024-25), ~₹45,000 crore (2025-26)",
+     "period": "2023-24, 2024-25, 2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Karnataka Commercial Taxes/Excise Department, PRS Legislative Research",
+     "series": "Karnataka Budgeted Excise Revenue",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "₹36,492 crore collected in Karnataka excise revenue (through February 2026)",
+     "value": "₹36,492 crore",
+     "period": "2025-26 (through February 2026)",
+     "period_end": "2026-02-29",
+     "publisher": "Deccan Herald",
+     "series": "Karnataka Excise Revenue Collection",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "₹16,358 crore collected in Karnataka excise revenue (April–August 2025) against a target of ₹16,290 crore",
+     "value": "₹16,358 crore (collected), ₹16,290 crore (target)",
+     "period": "April–August 2025",
+     "period_end": "2025-08-31",
+     "publisher": "Deccan Chronicle, Tamil Nadu government white paper",
+     "series": "Karnataka Excise Revenue Collection (Partial Year)",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "₹41,000 crore reported as Karnataka’s 2025-26 excise collection (Tamil Nadu government white paper)",
+     "value": "₹41,000 crore",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "Tamil Nadu government white paper",
+     "series": "Karnataka Excise Revenue Collection",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "₹30,000 crore excise target for Karnataka in 2025-26 (some reporting cites ₹30,000 crore as an earlier marker)",
+     "value": "₹30,000 crore",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "The Week (March 2025)",
+     "series": "Karnataka Budgeted Excise Revenue",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "₹40,000 crore excise target for Karnataka in 2026-27",
+     "value": "₹40,000 crore",
+     "period": "2026-27",
+     "period_end": "2027-03-31",
+     "publisher": "The Week (March 2025)",
+     "series": "Karnataka Budgeted Excise Revenue",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "₹36,500 crore revised estimate for Karnataka excise revenue in 2024-25",
+     "value": "₹36,500 crore",
+     "period": "2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "PRS Legislative Research",
+     "series": "Karnataka Revised Excise Revenue Estimate",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "₹373 crore cane arrears owed to Haryana farmers, 2025-26 season",
+     "value": "₹373 crore",
+     "period": "2025-26 season",
+     "period_end": "2026-03-31",
+     "publisher": "article estimate (no direct source)",
+     "series": "Haryana Cane Arrears",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "₹200 crore, 90 KLPD for Panipat cooperative sugar mill multi-feed ethanol plant (Mar 2025 budget sanction)",
+     "value": "₹200 crore, 90 KLPD",
+     "period": "Mar 2025",
+     "period_end": "2025-03-31",
+     "publisher": "Haryana budget documents",
+     "series": "Ethanol Plant Investment",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "HAFED Mega Food Park, Rohtak — still selling plots by e-auction, ~a decade after sanction",
+     "value": "still selling plots by e-auction",
+     "period": "as of Jan 2024",
+     "period_end": "2024-01-31",
+     "publisher": "article estimate (no direct source)",
+     "series": "Mega Food Park Status",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Mera Pani Meri Virasat: ~19,670 acres verified diversified",
+     "value": "~19,670 acres",
+     "period": null,
+     "period_end": null,
+     "publisher": "article estimate (no direct source)",
+     "series": "Crop Diversification Acreage",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Crop Cluster Development Programme: Target: 100 integrated pack-houses this fiscal year. Actual: 30 built, 35 in progress",
+     "value": "Target: 100, Actual: 30 built, 35 in progress",
+     "period": "current fiscal year",
+     "period_end": null,
+     "publisher": "article estimate (no direct source)",
+     "series": "Crop Cluster Development Programme",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "₹510.35 crore allocated for Crop Cluster Development Programme, 700 FPOs, ~400 horticultural clusters",
+     "value": "₹510.35 crore, 700 FPOs, ~400 clusters",
+     "period": null,
+     "period_end": null,
+     "publisher": "article estimate (no direct source)",
+     "series": "Crop Cluster Development Programme Budget",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Cumulative investment across Andhra Pradesh food processing policy (2014-2024): ₹9,178 crore, 428 processing units",
+     "value": "₹9,178 crore, 428 units",
+     "period": "2014-2024",
+     "period_end": "2024-12-31",
+     "publisher": "Andhra Pradesh Food Processing Policy 4.0, G.O.Ms.No.71",
+     "series": "Cumulative Investment and Units",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "New target for Andhra Pradesh food processing policy (2024-2029): ₹30,000 crore, 3+ lakh jobs",
+     "value": "₹30,000 crore, 3+ lakh jobs",
+     "period": "2024-2029",
+     "period_end": "2029-03-31",
+     "publisher": "Andhra Pradesh Industries Minister TG Bharath",
+     "series": "Food Processing Policy Targets",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Operational food parks in Andhra Pradesh: 9 (5 Mega Food Parks, 1 Spice Park, 3 state Integrated Food Parks)",
+     "value": "9 operational food parks",
+     "period": null,
+     "period_end": null,
+     "publisher": "article estimate (no direct source)",
+     "series": "Operational Food Parks",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Primary Processing Centres / new units / cold storages / pack houses in Andhra Pradesh: 14 PPCs, 295 new units, 363 cold storages, 4,587 pack houses",
+     "value": "14 PPCs, 295 new units, 363 cold storages, 4,587 pack houses",
+     "period": null,
+     "period_end": null,
+     "publisher": "article estimate (no direct source)",
+     "series": "Food Processing Infrastructure",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹190 crore price-deficiency support paid by Andhra Pradesh in prior year for mangoes; ₹281 crore sought in current year",
+     "value": "₹190 crore (prior year), ₹281 crore (current year)",
+     "period": "prior year, current year",
+     "period_end": null,
+     "publisher": "article estimate (no direct source)",
+     "series": "Mango Price-Deficiency Support",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Andhra Pradesh aqua/shrimp exports: ~80% of India's shrimp exports, 37.7% of national marine exports (~$3.04bn, 2022-23)",
+     "value": "~80% (shrimp), 37.7% (marine), ~$3.04bn (2022-23)",
+     "period": "2022-23",
+     "period_end": "2023-03-31",
+     "publisher": "GFST, article estimate",
+     "series": "Aqua/Shrimp Export Share",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "29 projects approved in Andhra Pradesh food processing policy (₹11,800 crore) in the past two years",
+     "value": "29 projects, ₹11,800 crore",
+     "period": "past two years",
+     "period_end": null,
+     "publisher": "Andhra Pradesh government claim",
+     "series": "Food Processing Policy Project Approvals",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

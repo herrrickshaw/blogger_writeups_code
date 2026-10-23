@@ -1,0 +1,600 @@
+{
+ "slug": "import-dependent-sectors-vs-government",
+ "text_sha1": "fa43edea78ae1606",
+ "chars": 11693,
+ "checked": "2026-10-23T12:18:35",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "$203.4bn",
+     "value": "$203.4bn",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "HSN historical-trends data / TRADESTAT",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "$109.4bn",
+     "value": "$109.4bn",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "HSN historical-trends data / TRADESTAT",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "$104.9bn",
+     "value": "$104.9bn",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "HSN historical-trends data / TRADESTAT",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "$74.0bn",
+     "value": "$74.0bn",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "HSN historical-trends data / TRADESTAT",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "$25.4bn",
+     "value": "$25.4bn",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "HSN historical-trends data / TRADESTAT",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "$22.2bn",
+     "value": "$22.2bn",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "HSN historical-trends data / TRADESTAT",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "$19.8bn",
+     "value": "$19.8bn",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "HSN historical-trends data / TRADESTAT",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "$15.8bn",
+     "value": "$15.8bn",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "HSN historical-trends data / TRADESTAT",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "$15.4bn",
+     "value": "$15.4bn",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "HSN historical-trends data / TRADESTAT",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "$14.6bn",
+     "value": "$14.6bn",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "HSN historical-trends data / TRADESTAT",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "$14.2bn",
+     "value": "$14.2bn",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "HSN historical-trends data / TRADESTAT",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "$13.8bn",
+     "value": "$13.8bn",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "HSN historical-trends data / TRADESTAT",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "up 118.9%",
+     "value": "118.9%",
+     "period": "FY2018-19 to FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "HSN historical-trends data / TRADESTAT",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "roughly 1 crore tonnes",
+     "value": "1 crore tonnes",
+     "period": "NIPU-2026",
+     "period_end": null,
+     "publisher": "PIB / ministry",
+     "series": "National Investment Policy for Urea-2026",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "~30 million tonnes",
+     "value": "30 million tonnes",
+     "period": "current",
+     "period_end": null,
+     "publisher": "Cabinet / Ministry of Chemicals and Fertilizers",
+     "series": "Urea production figures",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "~40 million tonnes",
+     "value": "40 million tonnes",
+     "period": "current",
+     "period_end": null,
+     "publisher": "Cabinet / Ministry of Chemicals and Fertilizers",
+     "series": "Urea demand figures",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "about 40%",
+     "value": "40%",
+     "period": "current",
+     "period_end": null,
+     "publisher": "Ministry of Chemicals and Fertilizers",
+     "series": "DAP domestic production share",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "roughly 86%",
+     "value": "86%",
+     "period": "current",
+     "period_end": null,
+     "publisher": "Ministry of Chemicals and Fertilizers",
+     "series": "Raw phosphorus import share",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "3.1 million tonnes",
+     "value": "3.1 million tonnes",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "PIB / ministry",
+     "series": "Ma'aden supply agreement",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "2.5-million-tonne",
+     "value": "2.5 million tonnes",
+     "period": "current season",
+     "period_end": null,
+     "publisher": "PIB / ministry",
+     "series": "Morocco DAP supply deal",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "about 59.65 lakh tonnes",
+     "value": "59.65 lakh tonnes",
+     "period": "current",
+     "period_end": null,
+     "publisher": "PIB / ministry",
+     "series": "Nutrient-Based Subsidy scheme capacity additions",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "44.21 lakh tonnes",
+     "value": "44.21 lakh tonnes",
+     "period": "current",
+     "period_end": null,
+     "publisher": "PIB / ministry",
+     "series": "Nutrient-Based Subsidy scheme capacity additions",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "+45.8%",
+     "value": "45.8%",
+     "period": "FY2018-19 to FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "HSN historical-trends data / TRADESTAT",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "+86.0%",
+     "value": "86.0%",
+     "period": "FY2018-19 to FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "HSN historical-trends data / TRADESTAT",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "+80.9%",
+     "value": "80.9%",
+     "period": "FY2018-19 to FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "HSN historical-trends data / TRADESTAT",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "₹76,000 crore",
+     "value": "₹76,000 crore",
+     "period": "current",
+     "period_end": null,
+     "publisher": "PIB / ministry",
+     "series": "Semiconductor Mission 2.0",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹1.60 lakh crore",
+     "value": "₹1.60 lakh crore",
+     "period": "current",
+     "period_end": null,
+     "publisher": "PIB / ministry",
+     "series": "Semiconductor Mission 2.0 approved projects",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "836",
+     "value": "836",
+     "period": "current",
+     "period_end": null,
+     "publisher": "PIB / ministry",
+     "series": "Production Linked Incentive applications",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "₹10,103 crore",
+     "value": "₹10,103 crore",
+     "period": "2024-25 to 2030-31",
+     "period_end": "2031-03-31",
+     "publisher": "PIB / ministry",
+     "series": "National Mission on Edible Oils–Oilseeds",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "72%",
+     "value": "72%",
+     "period": "2030-31",
+     "period_end": "2031-03-31",
+     "publisher": "PIB / ministry",
+     "series": "National Mission on Edible Oils–Oilseeds self-sufficiency target",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "+97.9%",
+     "value": "97.9%",
+     "period": "FY2018-19 to FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "HSN historical-trends data / TRADESTAT",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "-18.17% to +21.24%",
+     "value": "-18.17% to +21.24%",
+     "period": "y-o-y",
+     "period_end": null,
+     "publisher": "MoSPI",
+     "series": "CPI oils-and-fats index",
+     "frequency": "monthly",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "India's fastest-growing major import got a production-capacity scheme in mid-July 2026.",
+     "value": "HS31 Fertilisers (urea imports)",
+     "period": "as on 15 Jul 2026",
+     "period_end": "2026-07-15",
+     "publisher": "Cabinet of India",
+     "series": "National Investment Policy for Urea-2026 (NIPU-2026)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "NIPU-2026 targets 8–9 new plants adding roughly 1 crore tonnes of capacity — sized almost exactly to India's current urea import gap (~30 million tonnes produced against ~40 million tonnes of demand)",
+     "value": "1 crore tonnes (10 million tonnes) of urea capacity",
+     "period": "as on 15 Jul 2026 (target)",
+     "period_end": "2026-07-15",
+     "publisher": "Cabinet of India",
+     "series": "NIPU-2026 supply-side policy",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India produces about 30 million tonnes against demand of about 40 million tonnes; the 10-million-tonne gap is met by imports.",
+     "value": "30 million tonnes (production), 40 million tonnes (demand), 10 million tonnes (import gap)",
+     "period": "as on 15 Jul 2026",
+     "period_end": "2026-07-15",
+     "publisher": "Cabinet of India",
+     "series": "Urea production and import data",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "five-year agreements securing 3.1 million tonnes of DAP annually from Saudi Arabia's Ma'aden (from FY2025-26)",
+     "value": "3.1 million tonnes of DAP annually",
+     "period": "FY2025-26 onwards",
+     "period_end": "2026-03-31",
+     "publisher": "Government of India (supply agreements)",
+     "series": "DAP import supply diversification",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "a 2.5-million-tonne deal with Morocco for the current season",
+     "value": "2.5 million tonnes of DAP",
+     "period": "current season (likely FY2026-27)",
+     "period_end": "2027-03-31",
+     "publisher": "Government of India (supply agreements)",
+     "series": "DAP import supply diversification",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "about 59.65 lakh tonnes of new DAP/NPK capacity and 44.21 lakh tonnes of phosphoric/sulphuric acid capacity under the Nutrient-Based Subsidy scheme",
+     "value": "59.65 lakh tonnes (DAP/NPK), 44.21 lakh tonnes (phosphoric/sulphuric acid)",
+     "period": "under Nutrient-Based Subsidy scheme",
+     "period_end": null,
+     "publisher": "Department of Fertilizers",
+     "series": "Nutrient-Based Subsidy scheme capacity additions",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "only about 40% of India's DAP is produced domestically, and ... imports roughly 86% of the raw phosphorus its fertiliser industry needs.",
+     "value": "40% (domestic DAP production), 86% (imported raw phosphorus)",
+     "period": null,
+     "period_end": null,
+     "publisher": "repo's own data",
+     "series": "DAP production and raw material import dependency",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "HS31 imports up 118.9% since FY2018-19",
+     "value": "118.9% growth (FY2018-19 to FY2025-26)",
+     "period": "FY2018-19 → FY2025-26",
+     "period_end": "2025-03-31",
+     "publisher": "repo's own data (TRADESTAT/DGCI&S)",
+     "series": "HS31 import growth",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "HS27 Mineral fuels & oils: $203.4bn",
+     "value": "$203.4 billion",
+     "period": "FY2025-26",
+     "period_end": "2025-03-31",
+     "publisher": "repo's own data (TRADESTAT/DGCI&S)",
+     "series": "HS27 import value",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "HS71 Pearls, gems & jewellery: $109.4bn",
+     "value": "$109.4 billion",
+     "period": "FY2025-26",
+     "period_end": "2025-03-31",
+     "publisher": "repo's own data (TRADESTAT/DGCI&S)",
+     "series": "HS71 import value",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "HS85 Electrical machinery: $104.9bn",
+     "value": "$104.9 billion",
+     "period": "FY2025-26",
+     "period_end": "2025-03-31",
+     "publisher": "repo's own data (TRADESTAT/DGCI&S)",
+     "series": "HS85 import value",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "HS84 Machinery, mech. appliances: $74.0bn",
+     "value": "$74.0 billion",
+     "period": "FY2025-26",
+     "period_end": "2025-03-31",
+     "publisher": "repo's own data (TRADESTAT/DGCI&S)",
+     "series": "HS84 import value",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "HS29 Organic chemicals: $25.4bn",
+     "value": "$25.4 billion",
+     "period": "FY2025-26",
+     "period_end": "2025-03-31",
+     "publisher": "repo's own data (TRADESTAT/DGCI&S)",
+     "series": "HS29 import value",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "HS39 Plastics: $22.2bn",
+     "value": "$22.2 billion",
+     "period": "FY2025-26",
+     "period_end": "2025-03-31",
+     "publisher": "repo's own data (TRADESTAT/DGCI&S)",
+     "series": "HS39 import value",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "HS15 Animal/veg fats & oils: $19.8bn",
+     "value": "$19.8 billion",
+     "period": "FY2025-26",
+     "period_end": "2025-03-31",
+     "publisher": "repo's own data (TRADESTAT/DGCI&S)",
+     "series": "HS15 import value",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "HS72 Iron & steel: $15.8bn",
+     "value": "$15.8 billion",
+     "period": "FY2025-26",
+     "period_end": "2025-03-31",
+     "publisher": "repo's own data (TRADESTAT/DGCI&S)",
+     "series": "HS72 import value",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "HS90 Optical/medical instruments: $15.4bn",
+     "value": "$15.4 billion",
+     "period": "FY2025-26",
+     "period_end": "2025-03-31",
+     "publisher": "repo's own data (TRADESTAT/DGCI&S)",
+     "series": "HS90 import value",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "HS31 Fertilisers: $14.6bn",
+     "value": "$14.6 billion",
+     "period": "FY2025-26",
+     "period_end": "2025-03-31",
+     "publisher": "repo's own data (TRADESTAT/DGCI&S)",
+     "series": "HS31 import value",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "HS28 Inorganic chemicals: $14.2bn",
+     "value": "$14.2 billion",
+     "period": "FY2025-26",
+     "period_end": "2025-03-31",
+     "publisher": "repo's own data (TRADESTAT/DGCI&S)",
+     "series": "HS28 import value",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "HS88 Aircraft & spacecraft: $13.8bn",
+     "value": "$13.8 billion",
+     "period": "FY2025-26",
+     "period_end": "2025-03-31",
+     "publisher": "repo's own data (TRADESTAT/DGCI&S)",
+     "series": "HS88 import value",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "HS39 Plastics (+45.8%) and inorganic chemicals (HS28, +86.0%) — both fast-growing, together over $36bn",
+     "value": "45.8% (HS39 growth), 86.0% (HS28 growth)",
+     "period": "FY2018-19 → FY2025-26",
+     "period_end": "2025-03-31",
+     "publisher": "repo's own data (TRADESTAT/DGCI&S)",
+     "series": "HS39 and HS28 import growth",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "HS15 Edible oils has a real scheme — the National Mission on Edible Oils–Oilseeds (₹10,103 crore, Cabinet-approved, 2024-25 to 2030-31)",
+     "value": "₹10,103 crore",
+     "period": "2024-25 to 2030-31",
+     "period_end": "2031-03-31",
+     "publisher": "Cabinet of India",
+     "series": "National Mission on Edible Oils–Oilseeds",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "HS15 Animal/veg fats & oils: +97.9% growth",
+     "value": "97.9% growth",
+     "period": "FY2018-19 → FY2025-26",
+     "period_end": "2025-03-31",
+     "publisher": "repo's own data",
+     "series": "HS15 import growth",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "CPI oils-and-fats swing (-18.17% to +21.24% y-o-y)",
+     "value": "-18.17% to +21.24% y-o-y",
+     "period": null,
+     "period_end": null,
+     "publisher": "repo's own data",
+     "series": "CPI oils-and-fats price transmission",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Semiconductor Mission 2.0 (₹76,000 crore, 10 projects worth ₹1.60 lakh crore approved)",
+     "value": "₹76,000 crore (total), ₹1.60 lakh crore (10 projects)",
+     "period": null,
+     "period_end": null,
+     "publisher": "DPIIT",
+     "series": "Semiconductor Mission 2.0",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "836 approved Production Linked Incentive applications across electronics, mobile manufacturing, telecom and IT hardware",
+     "value": "836 applications",
+     "period": null,
+     "period_end": null,
+     "publisher": "DPIIT",
+     "series": "PLI applications under electronics scheme",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

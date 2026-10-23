@@ -1,0 +1,450 @@
+{
+ "slug": "how-india-actually-plans-to-hit-net",
+ "text_sha1": "b5164b2fdd9d3e60",
+ "chars": 28042,
+ "checked": "2026-10-23T11:54:20",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "$22.7 trillion in cumulative investment required by 2070 under the Net Zero scenario, with a $6.5 trillion gap that domestic sources alone cannot close.",
+     "value": "$22.7 trillion",
+     "period": "by 2070",
+     "period_end": "2070-12-31",
+     "publisher": "NITI Aayog",
+     "series": "Scenarios Towards Viksit Bharat and Net Zero — Financing Needs (Vol. 9)",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "with a $6.5 trillion gap that domestic sources alone cannot close.",
+     "value": "$6.5 trillion",
+     "period": "by 2070",
+     "period_end": "2070-12-31",
+     "publisher": "NITI Aayog",
+     "series": "Scenarios Towards Viksit Bharat and Net Zero — Financing Needs (Vol. 9)",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "Budget 2026-27, presented 1 February 2026, proposed ₹20,000 crore over the next five years for CCUS technologies",
+     "value": "₹20,000 crore",
+     "period": "Budget 2026-27",
+     "period_end": "2027-03-31",
+     "publisher": "PIB / ministry",
+     "series": "Union Budget",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "the 2015 NDC's 33-35% emissions-intensity-reduction target and 40% non-fossil-capacity target were both achieved years early (in February 2026, non-fossil capacity had already reached 52.57%).",
+     "value": "52.57%",
+     "period": "February 2026",
+     "period_end": "2026-02-28",
+     "publisher": "PIB / ministry",
+     "series": "Nationally Determined Contribution tracking",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "The new targets: a 47% cut in GDP emissions intensity by 2035 (from a 2005 base, up from 36% actually achieved by 2020),",
+     "value": "47%",
+     "period": "by 2035",
+     "period_end": "2035-12-31",
+     "publisher": "PIB / ministry",
+     "series": "Nationally Determined Contribution for 2031-2035",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "a 47% cut in GDP emissions intensity by 2035 (from a 2005 base, up from 36% actually achieved by 2020),",
+     "value": "36%",
+     "period": "2020",
+     "period_end": "2020-12-31",
+     "publisher": "PIB / ministry",
+     "series": "Nationally Determined Contribution tracking",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "60% non-fossil-fuel-based installed power capacity by 2035 (up from the earlier 40% target),",
+     "value": "60%",
+     "period": "by 2035",
+     "period_end": "2035-12-31",
+     "publisher": "PIB / ministry",
+     "series": "Nationally Determined Contribution for 2031-2035",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "and a carbon sink of 3.5-4.0 billion tonnes of CO₂ equivalent through forest and tree cover by 2035 (against 2.29 billion tonnes already achieved by 2021).",
+     "value": "3.5-4.0 billion tonnes",
+     "period": "by 2035",
+     "period_end": "2035-12-31",
+     "publisher": "PIB / ministry",
+     "series": "Nationally Determined Contribution for 2031-2035",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "and a carbon sink of 3.5-4.0 billion tonnes of CO₂ equivalent through forest and tree cover by 2035 (against 2.29 billion tonnes already achieved by 2021).",
+     "value": "2.29 billion tonnes",
+     "period": "2021",
+     "period_end": "2021-12-31",
+     "publisher": "PIB / ministry",
+     "series": "Nationally Determined Contribution tracking",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "the New Collective Quantified Goal agreed at COP29 — a $300 billion-a-year climate-finance mobilisation target by 2035 — is \"a fraction of the estimated requirement of USD 5.1-6.8 trillion by 2030\" for developing countries collectively,",
+     "value": "$300 billion-a-year",
+     "period": "by 2035",
+     "period_end": "2035-12-31",
+     "publisher": "PIB / ministry",
+     "series": "Economic Survey",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "a fraction of the estimated requirement of USD 5.1-6.8 trillion by 2030 for developing countries collectively",
+     "value": "USD 5.1-6.8 trillion",
+     "period": "by 2030",
+     "period_end": "2030-12-31",
+     "publisher": "PIB / ministry",
+     "series": "Economic Survey",
+     "frequency": "annual",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "a $6.5 trillion gap that domestic sources alone cannot close",
+     "value": "$6.5 trillion",
+     "period": "by 2070 (Net Zero scenario)",
+     "period_end": "2070-12-31",
+     "publisher": "NITI Aayog",
+     "series": "Financing Needs (Vol. 9)",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "$22.7 trillion in cumulative investment required by 2070 under the Net Zero scenario",
+     "value": "$22.7 trillion",
+     "period": "by 2070 (Net Zero scenario)",
+     "period_end": "2070-12-31",
+     "publisher": "NITI Aayog",
+     "series": "Financing Needs (Vol. 9)",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "86% of 2070's building floor space doesn't exist yet; commercial floor space could grow 4–7x and residential demand could double",
+     "value": "86% (non-existent floor space in 2070)",
+     "period": "2070",
+     "period_end": "2070-12-31",
+     "publisher": "NITI Aayog",
+     "series": "Sectoral Insights: Buildings (Vol. 5)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "air-conditioner ownership rising from ~10% today to over 80% by 2070",
+     "value": "~10% (current ownership) → over 80% (by 2070)",
+     "period": "current → 2070",
+     "period_end": "2070-12-31",
+     "publisher": "NITI Aayog",
+     "series": "Sectoral Insights: Buildings (Vol. 5)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "non-fossil generation expands to 80–85% of the mix by 2070 via renewables, storage, nuclear, and green hydrogen",
+     "value": "80–85% (non-fossil generation share)",
+     "period": "by 2070",
+     "period_end": "2070-12-31",
+     "publisher": "NITI Aayog",
+     "series": "Sectoral Insights: Power (Vol. 7)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "coal consumption that keeps rising for another two decades even inside the Net Zero pathway",
+     "value": "rising coal consumption (absolute terms) until 2047",
+     "period": "until 2047",
+     "period_end": "2047-12-31",
+     "publisher": "NITI Aayog",
+     "series": "Scenarios Towards Viksit Bharat and Net Zero (general)",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "India's coal consumption will go up till 2047 even as energy intensity decreases",
+     "value": "coal consumption increase until 2047",
+     "period": "until 2047",
+     "period_end": "2047-12-31",
+     "publisher": "NITI Aayog",
+     "series": "Scenarios Towards Viksit Bharat and Net Zero (general)",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "fossil fuels remain roughly a quarter of industry energy consumption even in 2070",
+     "value": "~25% (fossil fuel share of industry energy)",
+     "period": "2070",
+     "period_end": "2070-12-31",
+     "publisher": "NITI Aayog",
+     "series": "Sectoral Insights: Industry (Vol. 4)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "an outlay of ₹20,000 crore over the next 5 years, announced for Carbon Capture Utilization and Storage (CCUS) technologies",
+     "value": "₹20,000 crore (5-year outlay)",
+     "period": "2026-27 to 2030-31",
+     "period_end": "2030-03-31",
+     "publisher": "PIB / Ministry of Finance",
+     "series": "Union Budget 2026-27 Highlights",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "₹20,000 crore CCUS Mission",
+     "value": "₹20,000 crore (CCUS Mission)",
+     "period": "2026-27 to 2030-31",
+     "period_end": "2030-03-31",
+     "publisher": "PIB / Ministry of Petroleum and Natural Gas",
+     "series": "Union Budget 2026-27",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "5 cement-sector CCU test-beds, each pairing a research institution with a cement manufacturer",
+     "value": "5 test-beds (cement sector)",
+     "period": "as of 11 May 2025",
+     "period_end": "2025-05-11",
+     "publisher": "DST",
+     "series": "CCUS R&D Grants",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India's total theoretical geological CO₂ storage capacity in the range of 400–600-plus gigatonnes",
+     "value": "400–600+ gigatonnes (geological CO₂ storage capacity)",
+     "period": null,
+     "period_end": null,
+     "publisher": "IIT Bombay-led academic estimate",
+     "series": "Geological CO₂ Storage Capacity Assessment",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "non-fossil capacity had already reached 52.57%",
+     "value": "52.57%",
+     "period": "February 2026",
+     "period_end": "2026-02-29",
+     "publisher": "PIB / MoEFCC",
+     "series": "Nationally Determined Contribution (NDC) Updates",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "47% cut in GDP emissions intensity by 2035 (from a 2005 base)",
+     "value": "47% (emissions-intensity reduction)",
+     "period": "by 2035",
+     "period_end": "2035-12-31",
+     "publisher": "PIB / MoEFCC",
+     "series": "Nationally Determined Contribution (NDC) 2031-2035",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "60% non-fossil-fuel-based installed power capacity by 2035",
+     "value": "60%",
+     "period": "by 2035",
+     "period_end": "2035-12-31",
+     "publisher": "PIB / MoEFCC",
+     "series": "Nationally Determined Contribution (NDC) 2031-2035",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "a carbon sink of 3.5-4.0 billion tonnes of CO₂ equivalent through forest and tree cover by 2035",
+     "value": "3.5-4.0 billion tonnes (carbon sink)",
+     "period": "by 2035",
+     "period_end": "2035-12-31",
+     "publisher": "PIB / MoEFCC",
+     "series": "Nationally Determined Contribution (NDC) 2031-2035",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "40% of Indian districts already facing high climate risk",
+     "value": "40%",
+     "period": null,
+     "period_end": null,
+     "publisher": "NITI Aayog",
+     "series": "Social Implications of Transition (Vol. 11)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "$300 billion-a-year climate-finance mobilisation target by 2035 is a fraction of the estimated requirement of USD 5.1-6.8 trillion by 2030",
+     "value": "$5.1-6.8 trillion (climate finance requirement by 2030)",
+     "period": "by 2030",
+     "period_end": "2030-12-31",
+     "publisher": "Economic Survey 2024-25",
+     "series": "Climate Finance Chapter",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "non-fossil capacity figure as of November 2024 was 46.8%",
+     "value": "46.8%",
+     "period": "November 2024",
+     "period_end": "2024-11-30",
+     "publisher": "Economic Survey 2024-25",
+     "series": "Energy Statistics",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "2.29 billion tonnes already achieved by 2021 (carbon sink)",
+     "value": "2.29 billion tonnes",
+     "period": "by 2021",
+     "period_end": "2021-12-31",
+     "publisher": "PIB / MoEFCC",
+     "series": "Nationally Determined Contribution (NDC) Updates",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "33-35% emissions-intensity-reduction target and 40% non-fossil-capacity target were both achieved years early",
+     "value": "33-35% (emissions-intensity reduction) and 40% (non-fossil capacity)",
+     "period": "by February 2026",
+     "period_end": "2026-02-29",
+     "publisher": "PIB / MoEFCC",
+     "series": "Nationally Determined Contribution (NDC) Updates",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "1 gigatonne of CO₂ a year by 2030 and 5.2 gigatonnes a year by 2050 (IEA Net Zero by 2050 roadmap)",
+     "value": "1 gigatonne/year (2030) and 5.2 gigatonnes/year (2050)",
+     "period": "by 2030 and 2050",
+     "period_end": "2050-12-31",
+     "publisher": "IEA",
+     "series": "Net Zero by 2050 Roadmap",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "10 large CCUS facilities commissioned every month from 2030 onward (IEA)",
+     "value": "10 facilities/month (from 2030)",
+     "period": "from 2030",
+     "period_end": "2030-01-01",
+     "publisher": "IEA",
+     "series": "Net Zero by 2050 Roadmap",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "the National Action Plan on Climate Change (NAPCC) launched on 30 June 2008",
+     "value": "30 June 2008",
+     "period": "30 June 2008",
+     "period_end": "2008-06-30",
+     "publisher": "DST",
+     "series": "National Action Plan on Climate Change (NAPCC)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "the eleven scenario reports released on 9 and 10 February 2026",
+     "value": "11 reports (released on 9-10 February 2026)",
+     "period": "9-10 February 2026",
+     "period_end": "2026-02-10",
+     "publisher": "NITI Aayog",
+     "series": "Scenarios Towards Viksit Bharat and Net Zero",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "the NDC for 2031-2035 approved on 25 March 2026",
+     "value": "25 March 2026",
+     "period": "25 March 2026",
+     "period_end": "2026-03-25",
+     "publisher": "PIB / MoEFCC",
+     "series": "Nationally Determined Contribution (NDC) 2031-2035",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "the Economic Survey 2024-25 tabled on 31 January 2025",
+     "value": "31 January 2025",
+     "period": "31 January 2025",
+     "period_end": "2025-01-31",
+     "publisher": "MoSPI",
+     "series": "Economic Survey 2024-25",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "DST's CCUS R&D roadmap launched on 2 December 2025",
+     "value": "2 December 2025",
+     "period": "2 December 2025",
+     "period_end": "2025-12-02",
+     "publisher": "DST",
+     "series": "CCUS R&D Roadmap",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "five Carbon Capture and Utilisation (CCU) test-beds announced on 11 May 2025",
+     "value": "11 May 2025",
+     "period": "11 May 2025",
+     "period_end": "2025-05-11",
+     "publisher": "DST",
+     "series": "CCUS Test-Beds",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Union Budget 2026-27 presented on 1 February 2026",
+     "value": "1 February 2026",
+     "period": "1 February 2026",
+     "period_end": "2026-02-01",
+     "publisher": "PIB / Ministry of Finance",
+     "series": "Union Budget 2026-27",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "NITI Aayog workshop on CCUS in the cement sector held on 16 January 2025",
+     "value": "16 January 2025",
+     "period": "16 January 2025",
+     "period_end": "2025-01-16",
+     "publisher": "PIB / NITI Aayog",
+     "series": "CCUS Workshop",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India's Long-Term Low-Carbon Development Strategy (LT-LEDS) submitted to the UNFCCC in 2022",
+     "value": "2022",
+     "period": "2022",
+     "period_end": "2022-12-31",
+     "publisher": "MoEFCC",
+     "series": "Long-Term Low-Carbon Development Strategy (LT-LEDS)",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

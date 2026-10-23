@@ -1,0 +1,370 @@
+{
+ "slug": "cpi-inflation-heatmap-india-june-2026",
+ "text_sha1": "00013b63e8097f50",
+ "chars": 7210,
+ "checked": "2026-10-23T11:03:17",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "The All-India rate is 4.38%.",
+     "value": "4.38%",
+     "period": "June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "MoSPI",
+     "series": "Combined-sector CPI, year-on-year inflation",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "Telangana 6.36%",
+     "value": "6.36%",
+     "period": "June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "MoSPI",
+     "series": "Combined-sector CPI, year-on-year inflation by state",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "Andhra Pradesh 5.39%",
+     "value": "5.39%",
+     "period": "June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "MoSPI",
+     "series": "Combined-sector CPI, year-on-year inflation by state",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "Tamil Nadu 5.24%",
+     "value": "5.24%",
+     "period": "June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "MoSPI",
+     "series": "Combined-sector CPI, year-on-year inflation by state",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "Karnataka 4.80%",
+     "value": "4.80%",
+     "period": "June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "MoSPI",
+     "series": "Combined-sector CPI, year-on-year inflation by state",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "Rajasthan 4.70%",
+     "value": "4.70%",
+     "period": "June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "MoSPI",
+     "series": "Combined-sector CPI, year-on-year inflation by state",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "Uttar Pradesh 4.56%",
+     "value": "4.56%",
+     "period": "June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "MoSPI",
+     "series": "Combined-sector CPI, year-on-year inflation by state",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "Kerala 4.34%",
+     "value": "4.34%",
+     "period": "June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "MoSPI",
+     "series": "Combined-sector CPI, year-on-year inflation by state",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "Gujarat 4.01%",
+     "value": "4.01%",
+     "period": "June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "MoSPI",
+     "series": "Combined-sector CPI, year-on-year inflation by state",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "West Bengal 3.95%",
+     "value": "3.95%",
+     "period": "June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "MoSPI",
+     "series": "Combined-sector CPI, year-on-year inflation by state",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "Punjab 3.83%",
+     "value": "3.83%",
+     "period": "June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "MoSPI",
+     "series": "Combined-sector CPI, year-on-year inflation by state",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "Maharashtra 3.81%",
+     "value": "3.81%",
+     "period": "June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "MoSPI",
+     "series": "Combined-sector CPI, year-on-year inflation by state",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "Bihar 3.28%",
+     "value": "3.28%",
+     "period": "June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "MoSPI",
+     "series": "Combined-sector CPI, year-on-year inflation by state",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "Delhi 2.96%",
+     "value": "2.96%",
+     "period": "June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "MoSPI",
+     "series": "Combined-sector CPI, year-on-year inflation by state",
+     "frequency": "monthly",
+     "headline": true
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "The All-India rate is 4.38%.",
+     "value": "4.38%",
+     "period": "June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "MoSPI",
+     "series": "Combined-sector CPI (year-on-year inflation, state-level)",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "Telangana 6.36%.",
+     "value": "6.36%",
+     "period": "June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "MoSPI",
+     "series": "Combined-sector CPI (year-on-year inflation, state-level)",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Andhra Pradesh 5.39%.",
+     "value": "5.39%",
+     "period": "June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "MoSPI",
+     "series": "Combined-sector CPI (year-on-year inflation, state-level)",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Tamil Nadu 5.24%.",
+     "value": "5.24%",
+     "period": "June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "MoSPI",
+     "series": "Combined-sector CPI (year-on-year inflation, state-level)",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Karnataka 4.80%.",
+     "value": "4.80%",
+     "period": "June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "MoSPI",
+     "series": "Combined-sector CPI (year-on-year inflation, state-level)",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Rajasthan 4.70%.",
+     "value": "4.70%",
+     "period": "June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "MoSPI",
+     "series": "Combined-sector CPI (year-on-year inflation, state-level)",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Uttar Pradesh 4.56%.",
+     "value": "4.56%",
+     "period": "June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "MoSPI",
+     "series": "Combined-sector CPI (year-on-year inflation, state-level)",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Kerala 4.34%.",
+     "value": "4.34%",
+     "period": "June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "MoSPI",
+     "series": "Combined-sector CPI (year-on-year inflation, state-level)",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Gujarat 4.01%.",
+     "value": "4.01%",
+     "period": "June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "MoSPI",
+     "series": "Combined-sector CPI (year-on-year inflation, state-level)",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "West Bengal 3.95%.",
+     "value": "3.95%",
+     "period": "June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "MoSPI",
+     "series": "Combined-sector CPI (year-on-year inflation, state-level)",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Punjab 3.83%.",
+     "value": "3.83%",
+     "period": "June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "MoSPI",
+     "series": "Combined-sector CPI (year-on-year inflation, state-level)",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Maharashtra 3.81%.",
+     "value": "3.81%",
+     "period": "June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "MoSPI",
+     "series": "Combined-sector CPI (year-on-year inflation, state-level)",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Bihar 3.28%.",
+     "value": "3.28%",
+     "period": "June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "MoSPI",
+     "series": "Combined-sector CPI (year-on-year inflation, state-level)",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Delhi 2.96%.",
+     "value": "2.96%",
+     "period": "June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "MoSPI",
+     "series": "Combined-sector CPI (year-on-year inflation, state-level)",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Telangana's 6.36% year-on-year rate sits nearly a full 2 points above the 4.38% All-India figure... That's a 3.4-percentage-point spread...",
+     "value": "3.4 percentage points",
+     "period": "June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "MoSPI",
+     "series": "Combined-sector CPI (year-on-year inflation, state-level)",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "The Reserve Bank of India's flexible inflation-targeting mandate sets a CPI target of 4%, with a tolerance band of 2–6%.",
+     "value": "4% (target) with a tolerance band of 2–6%",
+     "period": null,
+     "period_end": null,
+     "publisher": "RBI",
+     "series": "Monetary Policy Framework (inflation target band)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Telangana's 6.36% sits above the top of the tolerance band entirely...",
+     "value": "6.36%",
+     "period": "June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "MoSPI",
+     "series": "Combined-sector CPI (year-on-year inflation, state-level) vs. RBI tolerance band",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Delhi's 2.96% sits above the band's 2% floor...",
+     "value": "2.96% (above 2% floor)",
+     "period": "June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "MoSPI",
+     "series": "Combined-sector CPI (year-on-year inflation, state-level) vs. RBI tolerance band",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "13 of 28 states tracked in MoSPI's state-level release; ranked hottest to coolest",
+     "value": "13 of 28 states",
+     "period": "June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "MoSPI",
+     "series": "State-level CPI coverage",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Only 13 of India's 28 states get a reading on this map, and the other 15 aren't necessarily calm — they're simply not in MoSPI's state-level combined-CPI release for this month.",
+     "value": "15 states not tracked",
+     "period": "June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "MoSPI",
+     "series": "State-level CPI coverage",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "CPI base year 2024, series 'Current'",
+     "value": "2024",
+     "period": null,
+     "period_end": null,
+     "publisher": "MoSPI",
+     "series": "CPI base year",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

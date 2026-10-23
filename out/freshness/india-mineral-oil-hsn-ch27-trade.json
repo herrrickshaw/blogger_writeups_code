@@ -1,0 +1,550 @@
+{
+ "slug": "india-mineral-oil-hsn-ch27-trade",
+ "text_sha1": "3ecdab2901fc63a9",
+ "chars": 14367,
+ "checked": "2026-10-23T13:28:07",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "$203.4B Ch.27 imports FY25-26 (26.2% of all imports)",
+     "value": "$203.4B",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S / TRADESTAT",
+     "series": "Chapter 27 mineral-oil imports",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "$55.9B Ch.27 exports FY25-26",
+     "value": "$55.9B",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S / TRADESTAT",
+     "series": "Chapter 27 mineral-oil exports",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "121.1 MMT Crude imported (FY25-26 H1)",
+     "value": "121.1 MMT",
+     "period": "FY2025-26 H1",
+     "period_end": "2025-09-30",
+     "publisher": "PPAC",
+     "series": "Crude imported",
+     "frequency": "half-yearly",
+     "headline": true
+    },
+    {
+     "quote": "78.71% Oman+Dubai (sour) + 21.29% Brent",
+     "value": "78.71%",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "PPAC",
+     "series": "Indian basket crude composition",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "78.71% Oman+Dubai (sour) + 21.29% Brent",
+     "value": "21.29%",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "PPAC",
+     "series": "Indian basket crude composition",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "PDS Kerosene, Mumbai (Mar-16): FOB AG Jet/Kero $40.26/bbl",
+     "value": "$40.26/bbl",
+     "period": "Mar-2016",
+     "period_end": "2016-03-31",
+     "publisher": "PPAC",
+     "series": "PDS Kerosene price build-up",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "PDS Kerosene, Mumbai (Mar-16): FOB AG Jet/Kero $40.26/bbl → IPP ₹18.10/L",
+     "value": "₹18.10/L",
+     "period": "Mar-2016",
+     "period_end": "2016-03-31",
+     "publisher": "PPAC",
+     "series": "PDS Kerosene price build-up",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "total cost ₹20.13/L",
+     "value": "₹20.13/L",
+     "period": "Mar-2016",
+     "period_end": "2016-03-31",
+     "publisher": "PPAC",
+     "series": "PDS Kerosene price build-up",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "RSP ₹15.24/L",
+     "value": "₹15.24/L",
+     "period": "Mar-2016",
+     "period_end": "2016-03-31",
+     "publisher": "PPAC",
+     "series": "PDS Kerosene price build-up",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "under-recovery ₹4.89/L",
+     "value": "₹4.89/L",
+     "period": "Mar-2016",
+     "period_end": "2016-03-31",
+     "publisher": "PPAC",
+     "series": "PDS Kerosene price build-up",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Domestic LPG, Delhi (Mar-16): FOB AG LPG $305.95/MT",
+     "value": "$305.95/MT",
+     "period": "Mar-2016",
+     "period_end": "2016-03-31",
+     "publisher": "PPAC",
+     "series": "Domestic LPG price build-up",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "IPP ₹326.40/cyl",
+     "value": "₹326.40/cyl",
+     "period": "Mar-2016",
+     "period_end": "2016-03-31",
+     "publisher": "PPAC",
+     "series": "Domestic LPG price build-up",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "market ₹513.50/cyl",
+     "value": "₹513.50/cyl",
+     "period": "Mar-2016",
+     "period_end": "2016-03-31",
+     "publisher": "PPAC",
+     "series": "Domestic LPG price build-up",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "subsidised effective ₹419.13/cyl",
+     "value": "₹419.13/cyl",
+     "period": "Mar-2016",
+     "period_end": "2016-03-31",
+     "publisher": "PPAC",
+     "series": "Domestic LPG price build-up",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "floor $4 / ceiling $6.5 per MMBtu (+$0.5/yr)",
+     "value": "$4",
+     "period": "2023",
+     "period_end": "2023-12-31",
+     "publisher": "PIB / ministry",
+     "series": "Kirit Parikh Gas Pricing",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "floor $4 / ceiling $6.5 per MMBtu (+$0.5/yr)",
+     "value": "$6.5",
+     "period": "2023",
+     "period_end": "2023-12-31",
+     "publisher": "PIB / ministry",
+     "series": "Kirit Parikh Gas Pricing",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "difficult fields cap $12.46",
+     "value": "$12.46",
+     "period": "2023",
+     "period_end": "2023-12-31",
+     "publisher": "PIB / ministry",
+     "series": "Kirit Parikh Gas Pricing",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "BCD 5% = ₹5.00",
+     "value": "5%",
+     "period": "2026",
+     "period_end": "2026-10-18",
+     "publisher": "CBIC",
+     "series": "Base oil duty stack",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "AIDC 5% on CIF = ₹5.00",
+     "value": "5%",
+     "period": "2026",
+     "period_end": "2026-10-18",
+     "publisher": "CBIC",
+     "series": "Base oil duty stack",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "SWS 10% on (BCD+AIDC) = ₹1.00",
+     "value": "10%",
+     "period": "2026",
+     "period_end": "2026-10-18",
+     "publisher": "CBIC",
+     "series": "Base oil duty stack",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "IGST 18% on (CIF+duties) = ₹19.98",
+     "value": "18%",
+     "period": "2026",
+     "period_end": "2026-10-18",
+     "publisher": "CBIC",
+     "series": "Base oil duty stack",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Effective 30.98%",
+     "value": "30.98%",
+     "period": "2026",
+     "period_end": "2026-10-18",
+     "publisher": "CBIC",
+     "series": "Base oil duty stack",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Japan 0% BCD · UAE 2% · Australia 1%",
+     "value": "0%",
+     "period": "2026",
+     "period_end": "2026-10-18",
+     "publisher": "CBIC",
+     "series": "FTA preferential duty rates",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Japan 0% BCD · UAE 2% · Australia 1%",
+     "value": "2%",
+     "period": "2026",
+     "period_end": "2026-10-18",
+     "publisher": "CBIC",
+     "series": "FTA preferential duty rates",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Japan 0% BCD · UAE 2% · Australia 1%",
+     "value": "1%",
+     "period": "2026",
+     "period_end": "2026-10-18",
+     "publisher": "CBIC",
+     "series": "FTA preferential duty rates",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "Chapter 27 mineral-oil trade by top partner — imports vs exports, US$ Billion, FY2025-26 (DGCI&S / TRADESTAT). $47.8B imports from Russia, $24.3B exports to Russia.",
+     "value": "$47.8B imports, $24.3B exports",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TRADESTAT (HSN 2-digit, Chapter 27 mineral-oil trade by top partner)",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "$203.4B Ch.27 imports FY25-26 (26.2% of all imports).",
+     "value": "$203.4B",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S / PPAC",
+     "series": "TRADESTAT (Chapter 27 imports) + PPAC Ready Reckoner (share of total imports)",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "$55.9B Ch.27 exports FY25-26.",
+     "value": "$55.9B",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TRADESTAT (Chapter 27 exports)",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "121.1 MMT Crude imported (FY25-26 H1).",
+     "value": "121.1 MMT",
+     "period": "FY2025-26 H1",
+     "period_end": "2025-09-30",
+     "publisher": "PPAC",
+     "series": "PPAC Ready Reckoner (crude imports)",
+     "frequency": "half-yearly",
+     "headline": false
+    },
+    {
+     "quote": "4 / 11 POL items with an OilPrice benchmark (2 partial, 5 none).",
+     "value": "4 out of 11 POL items",
+     "period": null,
+     "period_end": null,
+     "publisher": "OilPrice API",
+     "series": "OilPrice API coverage of POL items",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "80 : 20 Trade Parity Price = IPP : EPP weight.",
+     "value": "80:20",
+     "period": null,
+     "period_end": null,
+     "publisher": "Expert Group on Pricing (2013)",
+     "series": "Pricing methodology for petroleum products",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Crude: realized import unit-value vs Indian basket — implied $/bbl from trade value÷quantity tracks the Indian basket within ±6% every year.",
+     "value": "±6%",
+     "period": null,
+     "period_end": null,
+     "publisher": "PPAC",
+     "series": "Realized import unit-value vs Indian basket consistency check",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Indian basket — 78.71% Oman+Dubai (sour) + 21.29% Brent.",
+     "value": "78.71% Oman+Dubai, 21.29% Brent",
+     "period": null,
+     "period_end": null,
+     "publisher": "PPAC",
+     "series": "Indian crude basket composition",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Crude ($134.7B) dwarfs all; then LNG, coal, LPG (propane+butane ≈$13B) and base oil ($2.6B — matches PPAC).",
+     "value": "$134.7B (crude), $13B (LPG), $2.6B (base oil)",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S / PPAC",
+     "series": "TRADESTAT (8-digit net-import lines) + PPAC Ready Reckoner",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Effective 30.98% (Base oil, HSN 2710 1971, CIF ₹100).",
+     "value": "30.98%",
+     "period": null,
+     "period_end": null,
+     "publisher": "CBIC",
+     "series": "Effective duty stack for base oil (BCD, AIDC, SWS, IGST)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Europe leads (Netherlands ≈25% of the total); Africa is now the largest & fastest-growing regional buyer. US$B, Apr-2023→Jan-2024.",
+     "value": "≈25% (Europe), fastest-growing in Africa",
+     "period": "Apr-2023 to Jan-2024",
+     "period_end": "2024-01-31",
+     "publisher": "DGCI&S",
+     "series": "TRADESTAT (petroleum-product export destinations)",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "PDS Kerosene, Mumbai (Mar-16): FOB AG Jet/Kero $40.26/bbl → IPP ₹18.10/L → total cost ₹20.13/L → RSP ₹15.24/L (under-recovery ₹4.89/L).",
+     "value": "FOB $40.26/bbl, IPP ₹18.10/L, total cost ₹20.13/L, RSP ₹15.24/L, under-recovery ₹4.89/L",
+     "period": "Mar-2016",
+     "period_end": "2016-03-31",
+     "publisher": "PPAC",
+     "series": "Price build-up example for PDS Kerosene",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Domestic LPG, Delhi (Mar-16): FOB AG LPG $305.95/MT → IPP ₹326.40/cyl → market ₹513.50/cyl → subsidised effective ₹419.13/cyl.",
+     "value": "FOB $305.95/MT, IPP ₹326.40/cyl, market ₹513.50/cyl, subsidised ₹419.13/cyl",
+     "period": "Mar-2016",
+     "period_end": "2016-03-31",
+     "publisher": "PPAC",
+     "series": "Price build-up example for Domestic LPG",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "APM gas sloped to the same Indian crude basket, floor $4 / ceiling $6.5 per MMBtu (+$0.5/yr), difficult fields cap $12.46.",
+     "value": "$4 (floor), $6.5 (ceiling), $12.46 (difficult fields cap)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Kirit Parikh Committee (2023)",
+     "series": "APM gas pricing formula",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "TPP = 0.80 × IPP + 0.20 × EPP.",
+     "value": "0.80 × IPP + 0.20 × EPP",
+     "period": null,
+     "period_end": null,
+     "publisher": "Expert Group on Pricing (2013)",
+     "series": "Refinery Gate Price formula",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India's refining-hub signature: export refined MS/HSD/ATF/naphtha; import crude, LPG, base oil, petcoke, bitumen.",
+     "value": "Export refined MS/HSD/ATF/naphtha; import crude, LPG, base oil, petcoke, bitumen",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "PPAC / DGCI&S",
+     "series": "TRADESTAT orientation + PPAC FY2024-25 values",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "India imports crude & LPG (deficit products) and exports refined petrol/diesel/naphtha/ATF.",
+     "value": "Crude, LPG imports; petrol, diesel, naphtha, ATF exports",
+     "period": null,
+     "period_end": null,
+     "publisher": "PPAC",
+     "series": "Product-level POL trade pattern",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Top net-EXPORT lines (US$M, FY25-26): Diesel, petrol & ATF dominate.",
+     "value": "Diesel, petrol, ATF dominate",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TRADESTAT EIDB 8-digit workbook",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "8-digit Ch.27 sums reconcile to the 2-digit totals at 0.00%.",
+     "value": "0.00% reconciliation",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TRADESTAT EIDB 8-digit workbook",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Export margin ranking (implied crack over crude, 8-digit HS) — ATF & specialty oils out-margin diesel per tonne, but diesel's volume wins the pool.",
+     "value": "ATF & specialty oils out-margin diesel per tonne",
+     "period": "FY2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "DGCI&S",
+     "series": "TRADESTAT 8-digit value + quantity files",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "India's petroleum-product export destinations — Europe leads (Netherlands ≈25% of the total); Africa is now the largest & fastest-growing regional buyer. US$B, Apr-2023→Jan-2024.",
+     "value": "≈25% (Europe), fastest-growing in Africa",
+     "period": "Apr-2023 to Jan-2024",
+     "period_end": "2024-01-31",
+     "publisher": "DGCI&S",
+     "series": "TRADESTAT (petroleum-product export destinations)",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "The play is in converting feedstock to certified SAF for the UK/EU mandate premium.",
+     "value": "SAF for UK/EU mandate premium",
+     "period": null,
+     "period_end": null,
+     "publisher": "UK/EU mandate",
+     "series": "SAF export opportunity",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India imports the dear/branded grade, exports the commodity — not a value-add export.",
+     "value": "Import premium for dear/branded grade",
+     "period": null,
+     "period_end": null,
+     "publisher": "DGCI&S",
+     "series": "TRADESTAT (import-export price comparison)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Updated 18 October 2026. The pricing checklist below describes the export levy on diesel, petrol and jet fuel as ‘imposed 2022, rescinded Dec-2024’ and able to return.",
+     "value": "Export levy imposed 2022, rescinded Dec-2024",
+     "period": "Dec-2024",
+     "period_end": "2024-12-31",
+     "publisher": "Finance Ministry",
+     "series": "Export levy status",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Special additional excise duty on diesel and ATF exports was imposed from 26 March 2026 during the West Asia crisis, extended to petrol exports from 16 May 2026.",
+     "value": "26 March 2026 (diesel, ATF), 16 May 2026 (petrol)",
+     "period": "26 Mar 2026 to 16 May 2026",
+     "period_end": "2026-05-16",
+     "publisher": "Finance Ministry",
+     "series": "Additional excise duty on exports",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "PPAC should publish the fortnightly benchmark averages and resulting import-parity, export-parity and trade-parity prices.",
+     "value": "Fortnightly benchmark averages",
+     "period": null,
+     "period_end": null,
+     "publisher": "PPAC",
+     "series": "Pricing methodology publication proposal",
+     "frequency": "fortnightly",
+     "headline": false
+    },
+    {
+     "quote": "PPAC should publish a monthly machine-readable series of realised import and export unit values for crude and each major petroleum product.",
+     "value": "Monthly realised unit values",
+     "period": null,
+     "period_end": null,
+     "publisher": "PPAC",
+     "series": "Realised unit values publication proposal",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "CBIC should publish a consolidated effective-duty table for Chapter 27 tariff lines, showing BCD, AIDC, SWS, IGST and preferential FTA rates together.",
+     "value": "Consolidated effective-duty table for Chapter 27",
+     "period": null,
+     "period_end": null,
+     "publisher": "CBIC",
+     "series": "Effective-duty table publication proposal",
+     "frequency": "one-off (proposed)",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

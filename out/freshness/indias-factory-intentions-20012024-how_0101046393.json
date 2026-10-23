@@ -1,0 +1,573 @@
+{
+ "slug": "indias-factory-intentions-20012024-how_0101046393",
+ "text_sha1": "4de33de539951888",
+ "chars": 23312,
+ "checked": "2026-10-23T14:10:26",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "only 15% of the filings made from 2001 to 2018 are cited by a later production report, and 23% if reports from the same company are counted too.",
+     "value": "15%",
+     "period": "2001 to 2018",
+     "period_end": "2018-12-31",
+     "publisher": "DPIIT",
+     "series": "List of IEM Filed and List of IEM Implemented",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "only 15% of the filings made from 2001 to 2018 are cited by a later production report, and 23% if reports from the same company are counted too.",
+     "value": "23%",
+     "period": "2001 to 2018",
+     "period_end": "2018-12-31",
+     "publisher": "DPIIT",
+     "series": "List of IEM Filed and List of IEM Implemented",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "55,781 Part A memoranda (intentions to build) in DPIIT’s company lists, January 2001 to August 2024",
+     "value": "55,781",
+     "period": "January 2001 to August 2024",
+     "period_end": "2024-08-31",
+     "publisher": "DPIIT",
+     "series": "List of IEM Filed",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "0.9 years Median time from filing to production, where the two can be matched",
+     "value": "0.9 years",
+     "period": "2001 to 2024",
+     "period_end": "2024-08-31",
+     "publisher": "DPIIT",
+     "series": "List of IEM Filed and List of IEM Implemented",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "Since 1 April 2025, under DPIIT’s Press Note 1 (2025 Series), an IEM is for undertakings with more than ₹125 crore of investment in plant and machinery or more than ₹500 crore of annual turnover; the earlier limits were ₹50 crore and ₹250 crore.",
+     "value": "₹125 crore",
+     "period": "from 1 April 2025",
+     "period_end": null,
+     "publisher": "DPIIT",
+     "series": "Press Note 1 (2025 Series)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Since 1 April 2025, under DPIIT’s Press Note 1 (2025 Series), an IEM is for undertakings with more than ₹125 crore of investment in plant and machinery or more than ₹500 crore of annual turnover; the earlier limits were ₹50 crore and ₹250 crore.",
+     "value": "₹500 crore",
+     "period": "from 1 April 2025",
+     "period_end": null,
+     "publisher": "DPIIT",
+     "series": "Press Note 1 (2025 Series)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Since 1 April 2025, under DPIIT’s Press Note 1 (2025 Series), an IEM is for undertakings with more than ₹125 crore of investment in plant and machinery or more than ₹500 crore of annual turnover; the earlier limits were ₹50 crore and ₹250 crore.",
+     "value": "₹50 crore",
+     "period": "before 1 April 2025",
+     "period_end": "2025-03-31",
+     "publisher": "DPIIT",
+     "series": "Press Note 1 (2025 Series)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Since 1 April 2025, under DPIIT’s Press Note 1 (2025 Series), an IEM is for undertakings with more than ₹125 crore of investment in plant and machinery or more than ₹500 crore of annual turnover; the earlier limits were ₹50 crore and ₹250 crore.",
+     "value": "₹250 crore",
+     "period": "before 1 April 2025",
+     "period_end": "2025-03-31",
+     "publisher": "DPIIT",
+     "series": "Press Note 1 (2025 Series)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Of the 48,485 memoranda filed from 2001 to 2018, 7,078 (15%) are cited by number in a later Part B list.",
+     "value": "48,485",
+     "period": "2001 to 2018",
+     "period_end": "2018-12-31",
+     "publisher": "DPIIT",
+     "series": "List of IEM Filed",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Of the 48,485 memoranda filed from 2001 to 2018, 7,078 (15%) are cited by number in a later Part B list.",
+     "value": "7,078",
+     "period": "2001 to 2018",
+     "period_end": "2018-12-31",
+     "publisher": "DPIIT",
+     "series": "List of IEM Filed and List of IEM Implemented",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Another 4,097 have no Part B citing them, but the same company filed a Part B after the filing date; counting those as well gives 23%, an upper estimate",
+     "value": "4,097",
+     "period": "2001 to 2018",
+     "period_end": "2018-12-31",
+     "publisher": "DPIIT",
+     "series": "List of IEM Filed and List of IEM Implemented",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "the share rises over time, from 19% for filings made in 2001–2006 to 24% in 2009–2015 and 36% in 2016–2018.",
+     "value": "19%",
+     "period": "2001–2006",
+     "period_end": "2006-12-31",
+     "publisher": "DPIIT",
+     "series": "List of IEM Filed and List of IEM Implemented",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "the share rises over time, from 19% for filings made in 2001–2006 to 24% in 2009–2015 and 36% in 2016–2018.",
+     "value": "24%",
+     "period": "2009–2015",
+     "period_end": "2015-12-31",
+     "publisher": "DPIIT",
+     "series": "List of IEM Filed and List of IEM Implemented",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "the share rises over time, from 19% for filings made in 2001–2006 to 24% in 2009–2015 and 36% in 2016–2018.",
+     "value": "36%",
+     "period": "2016–2018",
+     "period_end": "2018-12-31",
+     "publisher": "DPIIT",
+     "series": "List of IEM Filed and List of IEM Implemented",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Of 7,488 such filings, 4,756 (64%) could be tied to a registered company.",
+     "value": "7,488",
+     "period": "2017 to 2024",
+     "period_end": "2024-08-31",
+     "publisher": "Ministry of Corporate Affairs / LEI register",
+     "series": "Company master data and LEI register",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "Of 7,488 such filings, 4,756 (64%) could be tied to a registered company.",
+     "value": "4,756",
+     "period": "2017 to 2024",
+     "period_end": "2024-08-31",
+     "publisher": "Ministry of Corporate Affairs / LEI register",
+     "series": "Company master data and LEI register",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "Of those, 4,604 (97%) are listed as Active and 148 (3%) are struck off, amalgamated into another company, in liquidation or in insolvency.",
+     "value": "4,604",
+     "period": "2017 to 2024",
+     "period_end": "2024-08-31",
+     "publisher": "Ministry of Corporate Affairs",
+     "series": "Company master data",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "Of those, 4,604 (97%) are listed as Active and 148 (3%) are struck off, amalgamated into another company, in liquidation or in insolvency.",
+     "value": "148",
+     "period": "2017 to 2024",
+     "period_end": "2024-08-31",
+     "publisher": "Ministry of Corporate Affairs",
+     "series": "Company master data",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "Every name-based match was then checked against the complete LEI register for India, about 170,000 companies that carry an MCA number.",
+     "value": "170,000",
+     "period": "as on 10 October 2026",
+     "period_end": "2026-10-10",
+     "publisher": "GLEIF",
+     "series": "Legal Entity Identifier register",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "DPIIT’s last IEM Statistics Report, for August 2024, gives 1,185 Part A acknowledgements in 2022 and 1,267 in 2023, and 916 and 968 Part B acknowledgements.",
+     "value": "1,185",
+     "period": "2022",
+     "period_end": "2022-12-31",
+     "publisher": "DPIIT",
+     "series": "IEM Statistics Report",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "DPIIT’s last IEM Statistics Report, for August 2024, gives 1,185 Part A acknowledgements in 2022 and 1,267 in 2023, and 916 and 968 Part B acknowledgements.",
+     "value": "1,267",
+     "period": "2023",
+     "period_end": "2023-12-31",
+     "publisher": "DPIIT",
+     "series": "IEM Statistics Report",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "DPIIT’s last IEM Statistics Report, for August 2024, gives 1,185 Part A acknowledgements in 2022 and 1,267 in 2023, and 916 and 968 Part B acknowledgements.",
+     "value": "916",
+     "period": "2022",
+     "period_end": "2022-12-31",
+     "publisher": "DPIIT",
+     "series": "IEM Statistics Report",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "DPIIT’s last IEM Statistics Report, for August 2024, gives 1,185 Part A acknowledgements in 2022 and 1,267 in 2023, and 916 and 968 Part B acknowledgements.",
+     "value": "968",
+     "period": "2023",
+     "period_end": "2023-12-31",
+     "publisher": "DPIIT",
+     "series": "IEM Statistics Report",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "A Part A filing pulls the plant address from the company’s GST registration, asks for NIC codes, item-wise capacity, investment, employment, turnover and the expected date of commercial production, and charges ₹1,000 for the first ten items plus ₹250 for each further block of ten.",
+     "value": "₹1,000",
+     "period": "from October 2025",
+     "period_end": null,
+     "publisher": "DPIIT",
+     "series": "NSWS IEM services",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "A Part A filing pulls the plant address from the company’s GST registration, asks for NIC codes, item-wise capacity, investment, employment, turnover and the expected date of commercial production, and charges ₹1,000 for the first ten items plus ₹250 for each further block of ten.",
+     "value": "₹250",
+     "period": "from October 2025",
+     "period_end": null,
+     "publisher": "DPIIT",
+     "series": "NSWS IEM services",
+     "frequency": "live",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "55,781 Part A memoranda (intentions to build) in DPIIT’s company lists, January 2001 to August 2024",
+     "value": "55,781",
+     "period": "January 2001 to August 2024",
+     "period_end": "2024-08-31",
+     "publisher": "DPIIT",
+     "series": "Monthly IEM Lists (Part A)",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "15%–23% Share of 2001–2018 filings later found in a Part B (production started) list",
+     "value": "15%–23%",
+     "period": "2001–2018",
+     "period_end": "2018-12-31",
+     "publisher": "DPIIT",
+     "series": "Monthly IEM Lists (Part A and Part B)",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "0.9 years Median time from filing to production, where the two can be matched",
+     "value": "0.9 years",
+     "period": null,
+     "publisher": "DPIIT",
+     "series": "Monthly IEM Lists (Part A and Part B)",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Aug 2024 Last month for which DPIIT posted company-level IEM lists",
+     "value": "August 2024",
+     "period": "August 2024",
+     "period_end": "2024-08-31",
+     "publisher": "DPIIT",
+     "series": "Monthly IEM Lists",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "48,485 memoranda filed from 2001 to 2018, 7,078 (15%) are cited by number in a later Part B list",
+     "value": "48,485",
+     "period": "2001–2018",
+     "period_end": "2018-12-31",
+     "publisher": "DPIIT",
+     "series": "Monthly IEM Lists (Part A and Part B)",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "4,097 have no Part B citing them, but the same company filed a Part B after the filing date",
+     "value": "4,097",
+     "period": "2001–2018",
+     "period_end": "2018-12-31",
+     "publisher": "DPIIT",
+     "series": "Monthly IEM Lists (Part A and Part B)",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "1,726 identified filings from 2021 to 2024 with no Part B",
+     "value": "1,726",
+     "period": "2021–2024",
+     "period_end": "2024-12-31",
+     "publisher": "DPIIT",
+     "series": "Current Ministry Record",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "1,141 of them (66%) have a current record",
+     "value": "1,141",
+     "period": "2021–2024",
+     "period_end": "2024-12-31",
+     "publisher": "DPIIT",
+     "series": "Current Ministry Record",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "1,185 Part A acknowledgements in 2022 and 1,267 in 2023, and 916 and 968 Part B acknowledgements",
+     "value": "1,185 (Part A, 2022), 1,267 (Part A, 2023), 916 (Part B, 2022), 968 (Part B, 2023)",
+     "period": "2022–2023",
+     "period_end": "2023-12-31",
+     "publisher": "DPIIT",
+     "series": "IEM Statistics Report (August 2024 issue)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "1,048 and 1,219 Part A memoranda for 2022 and 2023, and 755 and 846 Part B lines",
+     "value": "1,048 (Part A, 2022), 1,219 (Part A, 2023), 755 (Part B, 2022), 846 (Part B, 2023)",
+     "period": "2022–2023",
+     "period_end": "2023-12-31",
+     "publisher": "DPIIT (parsed by blog)",
+     "series": "Monthly IEM Lists",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "7,488 filings from 2017 to 2024 with no Part B",
+     "value": "7,488",
+     "period": "2017–2024",
+     "period_end": "2024-12-31",
+     "publisher": "DPIIT (parsed by blog)",
+     "series": "Monthly IEM Lists and MCA Register",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "4,756 (64%) could be tied to a registered company",
+     "value": "4,756",
+     "period": "2017–2024",
+     "period_end": "2024-12-31",
+     "publisher": "DPIIT (parsed by blog) and MCA",
+     "series": "Company Register and LEI Register",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "4,604 (97%) are listed as Active and 148 (3%) are struck off, amalgamated, etc.",
+     "value": "4,604 (Active), 148 (struck off/merged)",
+     "period": "2017–2024",
+     "period_end": "2026-10-09",
+     "publisher": "MCA",
+     "series": "Company Master Data",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "1,126 (99%) are Active and 1,081 (95%) are Active and still filing",
+     "value": "1,126 (Active), 1,081 (Active and filing)",
+     "period": "2021–2024",
+     "period_end": "2026-10-10",
+     "publisher": "DPIIT",
+     "series": "Current Company Records",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Assam: 457 Part A memoranda, 205 reached Part B (45%)",
+     "value": "457 (Part A), 205 (Part B)",
+     "period": "2001–2018",
+     "period_end": "2018-12-31",
+     "publisher": "DPIIT",
+     "series": "Monthly IEM Lists (by state)",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Uttar Pradesh: 3,127 Part A memoranda, 883 reached Part B (28%)",
+     "value": "3,127 (Part A), 883 (Part B)",
+     "period": "2001–2018",
+     "period_end": "2018-12-31",
+     "publisher": "DPIIT",
+     "series": "Monthly IEM Lists (by state)",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Maharashtra: 8,352 Part A memoranda, 1,786 reached Part B (21%)",
+     "value": "8,352 (Part A), 1,786 (Part B)",
+     "period": "2001–2018",
+     "period_end": "2018-12-31",
+     "publisher": "DPIIT",
+     "series": "Monthly IEM Lists (by state)",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Tamil Nadu: 3,305 Part A memoranda, 406 reached Part B (12%)",
+     "value": "3,305 (Part A), 406 (Part B)",
+     "period": "2001–2018",
+     "period_end": "2018-12-31",
+     "publisher": "DPIIT",
+     "series": "Monthly IEM Lists (by state)",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Jammu And Kashmir: 429 Part A memoranda, 43 reached Part B (10%)",
+     "value": "429 (Part A), 43 (Part B)",
+     "period": "2001–2018",
+     "period_end": "2018-12-31",
+     "publisher": "DPIIT",
+     "series": "Monthly IEM Lists (by state)",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "2,268 of the 12,781 matched cases the production date printed in Part B is earlier than the Part A filing",
+     "value": "2,268",
+     "period": null,
+     "publisher": "DPIIT",
+     "series": "Monthly IEM Lists (Part A and Part B)",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "3,574 of 12,961 Part B lines cite a Part A memorandum that is not in the register",
+     "value": "3,574",
+     "period": null,
+     "publisher": "DPIIT",
+     "series": "Monthly IEM Lists (Part A and Part B)",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "12,668 of the 23,017 matched company records hold an LEI",
+     "value": "12,668",
+     "period": null,
+     "publisher": "GLEIF",
+     "series": "Legal Entity Identifier Register",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "₹125 crore of investment in plant and machinery or more than ₹500 crore of annual turnover",
+     "value": "₹125 crore (investment), ₹500 crore (turnover)",
+     "period": "as of 1 April 2025",
+     "period_end": "2025-04-01",
+     "publisher": "DPIIT",
+     "series": "Press Note 1 (2025 Series)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹1,000 for the first ten items plus ₹250 for each further block of ten",
+     "value": "₹1,000 (first 10 items), ₹250 (each additional block of 10)",
+     "period": null,
+     "publisher": "DPIIT",
+     "series": "NSWS IEM Filing Fees",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "2,357 Part A memoranda filed in 2001, 261 reached Part B (21%)",
+     "value": "2,357 (Part A), 261 (Part B)",
+     "period": "2001",
+     "period_end": "2001-12-31",
+     "publisher": "DPIIT",
+     "series": "Monthly IEM Lists (yearly breakdown)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "1,780 Part A memoranda filed in 2010, 296 reached Part B (27%)",
+     "value": "1,780 (Part A), 296 (Part B)",
+     "period": "2010",
+     "period_end": "2010-12-31",
+     "publisher": "DPIIT",
+     "series": "Monthly IEM Lists (yearly breakdown)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "2,127 Part A memoranda filed in 2018, 679 reached Part B (37%)",
+     "value": "2,127 (Part A), 679 (Part B)",
+     "period": "2018",
+     "period_end": "2018-12-31",
+     "publisher": "DPIIT",
+     "series": "Monthly IEM Lists (yearly breakdown)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "1,001 Part A memoranda filed in 2020, 190 reached Part B (26%)",
+     "value": "1,001 (Part A), 190 (Part B)",
+     "period": "2020",
+     "period_end": "2020-12-31",
+     "publisher": "DPIIT",
+     "series": "Monthly IEM Lists (yearly breakdown)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "549 Part A memoranda filed in 2024, 88 reached Part B (16%)",
+     "value": "549 (Part A), 88 (Part B)",
+     "period": "2024",
+     "period_end": "2024-12-31",
+     "publisher": "DPIIT",
+     "series": "Monthly IEM Lists (yearly breakdown)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "68% of matched plants started within two years",
+     "value": "68%",
+     "period": null,
+     "publisher": "DPIIT",
+     "series": "Monthly IEM Lists (Part A and Part B)",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "170,000 companies that carry an MCA number in the LEI register",
+     "value": "170,000",
+     "period": null,
+     "publisher": "GLEIF and MCA",
+     "series": "Legal Entity Identifier Register",
+     "frequency": "live",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,760 @@
+{
+ "slug": "europe-bought-record-amount-of-lng-and",
+ "text_sha1": "554d6d13e6e83813",
+ "chars": 26157,
+ "checked": "2026-10-23T12:52:54",
+ "models": {
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "The EU imported 146 bcm of LNG in 2025, overtaking China and Japan to become the world’s largest buyer.",
+     "value": "146 bcm",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "ACER",
+     "series": "EU LNG import total (Analysis of the European LNG market developments — 2026 Monitoring Report)",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Nearly three-fifths of [EU LNG] came from the United States.",
+     "value": "58%",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "ACER",
+     "series": "EU LNG import share by supplier (Analysis of the European LNG market developments — 2026 Monitoring Report)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "The EU’s LNG portfolio has become increasingly concentrated, with US LNG playing the central role. At 84 bcm, the United States supplies 58% of EU LNG imports...",
+     "value": "84 bcm",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "ACER",
+     "series": "EU LNG imports by supplier (Analysis of the European LNG market developments — 2026 Monitoring Report)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "EU storage sites were 34% full on 1 April 2025, against 59% a year earlier.",
+     "value": "34%",
+     "period": "1 April 2025",
+     "period_end": "2025-04-01",
+     "publisher": "ACER",
+     "series": "EU gas storage fullness (Analysis of the European LNG market developments — 2026 Monitoring Report)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "EU storage sites were ... 59% a year earlier.",
+     "value": "59%",
+     "period": "1 April 2024",
+     "period_end": "2024-04-01",
+     "publisher": "ACER",
+     "series": "EU gas storage fullness (Analysis of the European LNG market developments — 2026 Monitoring Report)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "54 bcm of EU LNG imports were spot volumes — over a third of the total.",
+     "value": "54 bcm",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "ACER",
+     "series": "EU LNG spot import volume (Analysis of the European LNG market developments — 2026 Monitoring Report)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "ACER’s price assessment drew on a record 980 reported spot transactions covering 81 bcm of trade...",
+     "value": "81 bcm",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "ACER",
+     "series": "EU LNG spot trade volume (Analysis of the European LNG market developments — 2026 Monitoring Report)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "The Dutch TTF was the reference index for 74% of [EU LNG spot transactions]...",
+     "value": "74%",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "ACER",
+     "series": "EU LNG spot trade reference index share (Analysis of the European LNG market developments — 2026 Monitoring Report)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Global LNG trade | 437 MT",
+     "value": "437 Mt",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "IGU",
+     "series": "Global LNG trade volume (World LNG Report 2026)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Growth on 2024 | +6.3%",
+     "value": "+6.3%",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "IGU",
+     "series": "Global LNG trade growth (World LNG Report 2026)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Largest exporter, United States | 110.7 MT",
+     "value": "110.7 Mt",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "IGU",
+     "series": "US LNG export volume (World LNG Report 2026)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Europe’s import growth | +26.1 MT",
+     "value": "+26.1 Mt",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "IGU",
+     "series": "European LNG import growth (World LNG Report 2026)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Liquefaction capacity, end-2025 | 524.5 Mtpa",
+     "value": "524.5 Mtpa",
+     "period": "end-2025",
+     "period_end": "2025-12-31",
+     "publisher": "IGU",
+     "series": "Global liquefaction capacity (World LNG Report 2026)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Regasification capacity, 50 markets | 1,113.5 Mtpa",
+     "value": "1,113.5 Mtpa",
+     "period": null,
+     "period_end": null,
+     "publisher": "IGU",
+     "series": "Global regasification capacity (World LNG Report 2026)",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "New capacity reaching FID in 2025 | 68.4 Mtpa",
+     "value": "68.4 Mtpa",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "IGU",
+     "series": "New liquefaction capacity FIDs (World LNG Report 2026)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Russia, fourth-largest producer | 43 bcm",
+     "value": "43 bcm",
+     "period": null,
+     "period_end": null,
+     "publisher": "ACER",
+     "series": "Russian LNG production (Analysis of the European LNG market developments — 2026 Monitoring Report)",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "17% of Qatari LNG capacity has been damaged by drone attacks",
+     "value": "17%",
+     "period": null,
+     "period_end": null,
+     "publisher": "ACER",
+     "series": "Qatari LNG capacity damage (Analysis of the European LNG market developments — 2026 Monitoring Report)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Strait reopens by 1 July | +20 bcm",
+     "value": "+20 bcm",
+     "period": "2026",
+     "period_end": "2026-07-01",
+     "publisher": "ACER",
+     "series": "Strait of Hormuz supply scenario (Analysis of the European LNG market developments — 2026 Monitoring Report)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Disruption persists all year | −27 bcm",
+     "value": "−27 bcm",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "ACER",
+     "series": "Strait of Hormuz supply scenario (Analysis of the European LNG market developments — 2026 Monitoring Report)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India ended the year with regas capacity ~47% utilised on average",
+     "value": "~47%",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "IGU",
+     "series": "India LNG regasification capacity utilisation (World LNG Report 2026)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "India and Pakistan were the only two that bought less than in 2024. India: 24.60 Mt −1.5 Mt vs 2024",
+     "value": "24.60 Mt",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "IGU",
+     "series": "India LNG imports (World LNG Report 2026)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "India: 24.60 Mt −1.5 Mt vs 2024",
+     "value": "−1.5 Mt",
+     "period": "2025 vs 2024",
+     "period_end": "2025-12-31",
+     "publisher": "IGU",
+     "series": "India LNG import change (World LNG Report 2026)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "India ended 2025 with 52.5 Mtpa of regasification capacity across eight terminals",
+     "value": "52.5 Mtpa",
+     "period": "end-2025",
+     "period_end": "2025-12-31",
+     "publisher": "IGU",
+     "series": "India LNG regasification capacity (World LNG Report 2026)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "India added 7.1 Mtpa in 2025 — commissioning Chhara LNG and expanding Dabhol",
+     "value": "7.1 Mtpa",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "PNGRB",
+     "series": "India LNG regasification capacity expansion (India’s Evolving Natural Gas Landscape — NG Demand Projections for 2030 and 2040)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "PNGRB projects Indian gas demand to roughly double to about 200 MMSCMD by 2030",
+     "value": "200 MMSCMD",
+     "period": "2030",
+     "period_end": "2030-12-31",
+     "publisher": "PNGRB",
+     "series": "India gas demand projection (India’s Evolving Natural Gas Landscape — NG Demand Projections for 2030 and 2040)",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "India’s 2030 and 2040 demand scenarios",
+     "value": "~double (200 MMSCMD) by 2030",
+     "period": "2030",
+     "period_end": "2030-12-31",
+     "publisher": "PNGRB",
+     "series": "India gas demand projection (India’s Evolving Natural Gas Landscape — NG Demand Projections for 2030 and 2040)",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "India’s LNG imports more than double to bridge a supply gap",
+     "value": "more than double",
+     "period": "2030",
+     "period_end": "2030-12-31",
+     "publisher": "PNGRB",
+     "series": "India LNG import projection (India’s Evolving Natural Gas Landscape — NG Demand Projections for 2030 and 2040)",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "CGD network authorisations | 307 areas",
+     "value": "307 areas",
+     "period": null,
+     "period_end": null,
+     "publisher": "PNGRB",
+     "series": "India CGD network authorisations (India’s Evolving Natural Gas Landscape — NG Demand Projections for 2030 and 2040)",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "Pipeline authorisation and tariffs | ~33,500 km authorised, ~25,000 km live",
+     "value": "~33,500 km authorised, ~25,000 km live",
+     "period": null,
+     "period_end": null,
+     "publisher": "PNGRB",
+     "series": "India pipeline authorisations and live network (India’s Evolving Natural Gas Landscape — NG Demand Projections for 2030 and 2040)",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "Terminal | Dahej | ... | Utilisation FY2023-24, % | 95.1",
+     "value": "95.1%",
+     "period": "FY2023-24",
+     "period_end": "2024-03-31",
+     "publisher": "PNGRB",
+     "series": "Dahej LNG terminal utilisation (India’s Evolving Natural Gas Landscape — NG Demand Projections for 2030 and 2040)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Terminal | Hazira | ... | Utilisation FY2023-24, % | 30.3",
+     "value": "30.3%",
+     "period": "FY2023-24",
+     "period_end": "2024-03-31",
+     "publisher": "PNGRB",
+     "series": "Hazira LNG terminal utilisation (India’s Evolving Natural Gas Landscape — NG Demand Projections for 2030 and 2040)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Terminal | Kochi | ... | Utilisation FY2023-24, % | 20.6",
+     "value": "20.6%",
+     "period": "FY2023-24",
+     "period_end": "2024-03-31",
+     "publisher": "PNGRB",
+     "series": "Kochi LNG terminal utilisation (India’s Evolving Natural Gas Landscape — NG Demand Projections for 2030 and 2040)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Terminal | Dabhol | ... | Utilisation FY2023-24, % | 42.7",
+     "value": "42.7%",
+     "period": "FY2023-24",
+     "period_end": "2024-03-31",
+     "publisher": "PNGRB",
+     "series": "Dabhol LNG terminal utilisation (India’s Evolving Natural Gas Landscape — NG Demand Projections for 2030 and 2040)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Terminal | Mundra | ... | Utilisation FY2023-24, % | 14.6",
+     "value": "14.6%",
+     "period": "FY2023-24",
+     "period_end": "2024-03-31",
+     "publisher": "PNGRB",
+     "series": "Mundra LNG terminal utilisation (India’s Evolving Natural Gas Landscape — NG Demand Projections for 2030 and 2040)",
+     "frequency": "annual",
+     "headline": false
+    }
+   ]
+  },
+  "gemini": {
+   "model": "gemini-flash-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "The EU imported 146 bcm of LNG in 2025, overtaking China and Japan to become the world’s largest buyer.",
+     "value": "146 bcm",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "ACER",
+     "series": "Analysis of the European LNG market developments — Monitoring Report",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "58% Share of EU LNG arriving from the United States",
+     "value": "58%",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "ACER",
+     "series": "Analysis of the European LNG market developments — Monitoring Report",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "47% LNG’s share of total EU gas supply",
+     "value": "47%",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "ACER",
+     "series": "Analysis of the European LNG market developments — Monitoring Report",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "34% EU storage fullness on 1 April 2025, against 59% a year earlier",
+     "value": "34%",
+     "period": "as on 1 April 2025",
+     "period_end": "2025-04-01",
+     "publisher": "ACER",
+     "series": "Analysis of the European LNG market developments — Monitoring Report",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "China . ~69 Mt −8 Mt vs 2024",
+     "value": "~69 Mt",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "IGU",
+     "series": "World LNG Report 2026",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Japan 67.37 Mt flat",
+     "value": "67.37 Mt",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "IGU",
+     "series": "World LNG Report 2026",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "South Korea 48.67 Mt +1.7 Mt",
+     "value": "48.67 Mt",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "IGU",
+     "series": "World LNG Report 2026",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "India 24.60 Mt −1.5 Mt vs 2024",
+     "value": "24.60 Mt",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "IGU",
+     "series": "World LNG Report 2026",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Chinese Taipei 24.17 Mt +2.3 Mt",
+     "value": "24.17 Mt",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "IGU",
+     "series": "World LNG Report 2026",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "Pakistan 6.46 Mt −0.8 Mt vs 2024",
+     "value": "6.46 Mt",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "IGU",
+     "series": "World LNG Report 2026",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "France | 31 | — | Largest importer every year since 2022",
+     "value": "31 bcm",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "ACER",
+     "series": "Analysis of the European LNG market developments — Monitoring Report, Figure 13",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Netherlands | 24 | — | Second",
+     "value": "24 bcm",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "ACER",
+     "series": "Analysis of the European LNG market developments — Monitoring Report, Figure 13",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Spain | 23 | — | Third; long-standing regas capacity",
+     "value": "23 bcm",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "ACER",
+     "series": "Analysis of the European LNG market developments — Monitoring Report, Figure 13",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Belgium | — | +6.3 | Largest increase in the EU",
+     "value": "+6.3 bcm",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "ACER",
+     "series": "Analysis of the European LNG market developments — Monitoring Report, Figure 13",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Italy | — | +6.0 | Second-largest increase",
+     "value": "+6.0 bcm",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "ACER",
+     "series": "Analysis of the European LNG market developments — Monitoring Report, Figure 13",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "At 84 bcm , the United States supplies 58% of EU LNG imports and 25% of all EU gas consumption",
+     "value": "84 bcm",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "ACER",
+     "series": "Analysis of the European LNG market developments — Monitoring Report",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "the IGU puts total US LNG exports at 110.7 million tonnes in 2025.",
+     "value": "110.7 MT",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "IGU",
+     "series": "World LNG Report 2026",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Global LNG trade | 437 MT | IGU",
+     "value": "437 MT",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "IGU",
+     "series": "World LNG Report 2026",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Growth on 2024 | +6.3% | IGU",
+     "value": "+6.3%",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "IGU",
+     "series": "World LNG Report 2026",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Global production increase | +35 bcm (6%) | ACER",
+     "value": "+35 bcm (6%)",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "ACER",
+     "series": "Analysis of the European LNG market developments — Monitoring Report",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Europe’s import growth | +26.1 MT | IGU",
+     "value": "+26.1 MT",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "IGU",
+     "series": "World LNG Report 2026",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Liquefaction capacity, end-2025 | 524.5 Mtpa | IGU",
+     "value": "524.5 Mtpa",
+     "period": "as on 31 Dec 2025",
+     "period_end": "2025-12-31",
+     "publisher": "IGU",
+     "series": "World LNG Report 2026",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Regasification capacity, 50 markets | 1,113.5 Mtpa | IGU",
+     "value": "1,113.5 Mtpa",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "IGU",
+     "series": "World LNG Report 2026",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "New capacity reaching FID in 2025 | 68.4 Mtpa | IGU",
+     "value": "68.4 Mtpa",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "IGU",
+     "series": "World LNG Report 2026",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "New capacity reaching FID in 2025 | 90 bcm | ACER",
+     "value": "90 bcm",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "ACER",
+     "series": "Analysis of the European LNG market developments — Monitoring Report",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Liquefaction utilisation, recent years | ~92% | ACER",
+     "value": "~92%",
+     "period": "recent years",
+     "period_end": "2025-12-31",
+     "publisher": "ACER",
+     "series": "Analysis of the European LNG market developments — Monitoring Report",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Russia, fourth-largest producer | 43 bcm | ACER",
+     "value": "43 bcm",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "ACER",
+     "series": "Analysis of the European LNG market developments — Monitoring Report",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "India ended 2025 with 52.5 Mtpa of regasification capacity across eight terminals",
+     "value": "52.5 Mtpa",
+     "period": "as on 31 Dec 2025",
+     "period_end": "2025-12-31",
+     "publisher": "IGU",
+     "series": "World LNG Report 2026",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "India added 7.1 Mtpa in 2025 — commissioning Chhara LNG and expanding Dabhol",
+     "value": "7.1 Mtpa",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "IGU",
+     "series": "World LNG Report 2026",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Dahej | PLL | 2004 | 17.5 | 95.1 | 98.2 |",
+     "value": "95.1%",
+     "period": "FY2023-24",
+     "period_end": "2024-03-31",
+     "publisher": "PNGRB / PPAC",
+     "series": "India’s Evolving Natural Gas Landscape, section 4.2",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Hazira | Hazira LNG | 2005 | 5.2 | 30.3 | 67.2 |",
+     "value": "30.3%",
+     "period": "FY2023-24",
+     "period_end": "2024-03-31",
+     "publisher": "PNGRB / PPAC",
+     "series": "India’s Evolving Natural Gas Landscape, section 4.2",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Kochi | PLL | 2013 | 5.0 | 20.6 | 13.1 |",
+     "value": "20.6%",
+     "period": "FY2023-24",
+     "period_end": "2024-03-31",
+     "publisher": "PNGRB / PPAC",
+     "series": "India’s Evolving Natural Gas Landscape, section 4.2",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Dabhol | KLL | 2013 | 5.0 | 42.7 | 57.5 |",
+     "value": "42.7%",
+     "period": "FY2023-24",
+     "period_end": "2024-03-31",
+     "publisher": "PNGRB / PPAC",
+     "series": "India’s Evolving Natural Gas Landscape, section 4.2",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Ennore | Indian Oil LNG | 2019 | 5.0 | 18.3 | 12.0 |",
+     "value": "18.3%",
+     "period": "FY2023-24",
+     "period_end": "2024-03-31",
+     "publisher": "PNGRB / PPAC",
+     "series": "India’s Evolving Natural Gas Landscape, section 4.2",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Mundra | GSPC LNG | 2020 | 5.0 | 14.6 | 24.9 |",
+     "value": "14.6%",
+     "period": "FY2023-24",
+     "period_end": "2024-03-31",
+     "publisher": "PNGRB / PPAC",
+     "series": "India’s Evolving Natural Gas Landscape, section 4.2",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Dhamra | Adani Total | 2023 | 5.0 | 27.4 | — |",
+     "value": "27.4%",
+     "period": "FY2023-24",
+     "period_end": "2024-03-31",
+     "publisher": "PNGRB / PPAC",
+     "series": "India’s Evolving Natural Gas Landscape, section 4.2",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "All terminals | — | — | 52.7 | 50.5 | 54.6 |",
+     "value": "50.5%",
+     "period": "FY2023-24",
+     "period_end": "2024-03-31",
+     "publisher": "PNGRB / PPAC",
+     "series": "India’s Evolving Natural Gas Landscape, section 4.2",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The board projects Indian gas demand to roughly double to about 200 MMSCMD by 2030",
+     "value": "200 MMSCMD",
+     "period": "by 2030",
+     "period_end": "2030-12-31",
+     "publisher": "PNGRB",
+     "series": "NG Demand Projections for 2030 and 2040",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "the APM formula is 10% of the Indian crude basket, floored at US$4 and capped at US$6.50 per MMBtu",
+     "value": "US$6.50 per MMBtu",
+     "period": null,
+     "period_end": null,
+     "publisher": "PPAC / MoPNG",
+     "series": "Administered Price Mechanism (APM) gas price notification",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Pipeline authorisation and tariffs | Not published | Not published | ~33,500 km authorised, ~25,000 km live |",
+     "value": "~33,500 km authorised",
+     "period": null,
+     "period_end": null,
+     "publisher": "PNGRB",
+     "series": "Pipeline authorisation records",
+     "frequency": "live",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

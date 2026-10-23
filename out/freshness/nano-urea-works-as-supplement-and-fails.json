@@ -1,0 +1,460 @@
+{
+ "slug": "nano-urea-works-as-supplement-and-fails",
+ "text_sha1": "739a480d78a13093",
+ "chars": 15077,
+ "checked": "2026-10-23T15:02:27",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "50 per cent conventional urea as basal dose, 50 per cent replaced by nano urea foliar spray. Claimed nutrient use efficiency of 85–90 per cent against 25 per cent for conventional.",
+     "value": "85–90 per cent",
+     "period": "2021",
+     "period_end": "2021-12-31",
+     "publisher": "IFFCO",
+     "series": "IFFCO protocol nutrient use efficiency claim",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "A Punjab Agricultural University trial found that protocol cut rice yield 13 per cent and wheat 17.2 per cent , with grain protein down 35 and 24 per cent.",
+     "value": "13 per cent",
+     "period": "December 2024",
+     "period_end": "2024-12-31",
+     "publisher": "Punjab Agricultural University",
+     "series": "Rice yield change under 50% nano substitution",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "A Punjab Agricultural University trial found that protocol cut rice yield 13 per cent and wheat 17.2 per cent , with grain protein down 35 and 24 per cent.",
+     "value": "17.2 per cent",
+     "period": "December 2024",
+     "period_end": "2024-12-31",
+     "publisher": "Punjab Agricultural University",
+     "series": "Wheat yield change under 50% nano substitution",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "A 2026 study funded by IFFCO found 50 per cent nitrogen reduction caused 16–19 per cent yield penalties",
+     "value": "16–19 per cent",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "Frontiers in Sustainable Food Systems",
+     "series": "Yield penalties under 50% nitrogen reduction",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "On 9 March 2026 the Fertiliser Control Order was amended to cut the nano dose to 25 per cent",
+     "value": "25 per cent",
+     "period": "9 March 2026",
+     "period_end": "2026-03-09",
+     "publisher": "PIB / ministry",
+     "series": "Fertiliser Control Order nano dose limit",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "IFFCO reported testing on over 11,000 farm fields across 94 crops",
+     "value": "11,000 farm fields",
+     "period": "2021",
+     "period_end": "2021-12-31",
+     "publisher": "IFFCO",
+     "series": "Testing farm fields count",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "IFFCO reported testing on over 11,000 farm fields across 94 crops",
+     "value": "94 crops",
+     "period": "2021",
+     "period_end": "2021-12-31",
+     "publisher": "IFFCO",
+     "series": "Testing crops count",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "trials at more than 20 agricultural research institutes covering 43 crops.",
+     "value": "20 agricultural research institutes",
+     "period": "2021",
+     "period_end": "2021-12-31",
+     "publisher": "IFFCO",
+     "series": "Research institutes testing count",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "trials at more than 20 agricultural research institutes covering 43 crops.",
+     "value": "43 crops",
+     "period": "2021",
+     "period_end": "2021-12-31",
+     "publisher": "IFFCO",
+     "series": "Research institute crops count",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Outcome under 50% nano substitution | Rice | Wheat | \n Change in grain yield | −13% | −17.2% |",
+     "value": "−13%",
+     "period": "December 2024",
+     "period_end": "2024-12-31",
+     "publisher": "Punjab Agricultural University",
+     "series": "Change in grain yield - Rice",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Outcome under 50% nano substitution | Rice | Wheat | \n Change in grain yield | −13% | −17.2% |",
+     "value": "−17.2%",
+     "period": "December 2024",
+     "period_end": "2024-12-31",
+     "publisher": "Punjab Agricultural University",
+     "series": "Change in grain yield - Wheat",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Change in grain protein content | −35% | −24% |",
+     "value": "−35%",
+     "period": "December 2024",
+     "period_end": "2024-12-31",
+     "publisher": "Punjab Agricultural University",
+     "series": "Change in grain protein content - Rice",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Change in grain protein content | −35% | −24% |",
+     "value": "−24%",
+     "period": "December 2024",
+     "period_end": "2024-12-31",
+     "publisher": "Punjab Agricultural University",
+     "series": "Change in grain protein content - Wheat",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "In April 2026 Frontiers in Sustainable Food Systems published a three-season rice trial run at Varanasi and Guwahati",
+     "value": "three kharif seasons 2022–2024",
+     "period": "2022-2024",
+     "period_end": "2024-12-31",
+     "publisher": "Frontiers in Sustainable Food Systems",
+     "series": "Multi-season rice trial duration",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "50% of RDN | Sprays applied | 16–19% yield penalty (0.88–1.2 t/ha lost) |",
+     "value": "0.88–1.2 t/ha",
+     "period": "2022-2024",
+     "period_end": "2024-12-31",
+     "publisher": "Frontiers in Sustainable Food Systems",
+     "series": "Yield penalty absolute loss in rice trial",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Nitrogen savings recorded at 27–40 kg/ha in Varanasi and 15–20 kg/ha in Guwahati.",
+     "value": "27–40 kg/ha",
+     "period": "2022-2024",
+     "period_end": "2024-12-31",
+     "publisher": "Frontiers in Sustainable Food Systems",
+     "series": "Nitrogen savings in Varanasi",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Nitrogen savings recorded at 27–40 kg/ha in Varanasi and 15–20 kg/ha in Guwahati.",
+     "value": "15–20 kg/ha",
+     "period": "2022-2024",
+     "period_end": "2024-12-31",
+     "publisher": "Frontiers in Sustainable Food Systems",
+     "series": "Nitrogen savings in Guwahati",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Multiple ICAR institutions, 12 major crops, across agro-climatic zones",
+     "value": "12 major crops",
+     "period": "13 February 2026",
+     "period_end": "2026-02-13",
+     "publisher": "PIB / ministry",
+     "series": "ICAR bio-efficacy trial crops count",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "nano-urea at 4% N in 2022-23 and 20% N in 2024.",
+     "value": "4% N",
+     "period": "2022-23",
+     "period_end": "2023-03-31",
+     "publisher": "Frontiers in Sustainable Food Systems",
+     "series": "Nano-urea nitrogen concentration in 2022-23",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "nano-urea at 4% N in 2022-23 and 20% N in 2024.",
+     "value": "20% N",
+     "period": "2024",
+     "period_end": "2024-12-31",
+     "publisher": "Frontiers in Sustainable Food Systems",
+     "series": "Nano-urea nitrogen concentration in 2024",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "replace half your conventional urea with a 500 ml bottle",
+     "value": "50% substitution of conventional urea with nano urea",
+     "period": null,
+     "period_end": null,
+     "publisher": "IFFCO (as per marketing claim)",
+     "series": "Nano urea marketing protocol (2021)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "the permitted nano dose from 50 per cent to 25",
+     "value": "50% → 25% substitution rate",
+     "period": "March 2026",
+     "period_end": "2026-03-31",
+     "publisher": "Government of India (Fertiliser Control Order amendment)",
+     "series": "Fertiliser Control Order (FCO) amendment",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "cut rice yield 13 per cent and wheat 17.2 per cent",
+     "value": "Rice yield: −13%, Wheat yield: −17.2%",
+     "period": "50% nano substitution trial (Dec 2024)",
+     "period_end": "2024-12-31",
+     "publisher": "Punjab Agricultural University",
+     "series": "Nano urea yield impact study (2024)",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "grain protein down 35 and 24 per cent",
+     "value": "Rice protein: −35%, Wheat protein: −24%",
+     "period": "50% nano substitution trial (Dec 2024)",
+     "period_end": "2024-12-31",
+     "publisher": "Punjab Agricultural University",
+     "series": "Nano urea protein impact study (2024)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "50 per cent nitrogen reduction caused 16–19 per cent yield penalties",
+     "value": "Yield penalty: 16–19%",
+     "period": "50% nitrogen reduction trial (Apr 2026)",
+     "period_end": "2026-04-29",
+     "publisher": "Frontiers in Sustainable Food Systems (IFFCO-funded)",
+     "series": "Nano urea multi-season rice trial (2022–2024)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "0.88–1.2 t/ha lost",
+     "value": "Yield loss: 0.88–1.2 t/ha",
+     "period": "50% nitrogen reduction trial (Apr 2026)",
+     "period_end": "2026-04-29",
+     "publisher": "Frontiers in Sustainable Food Systems (IFFCO-funded)",
+     "series": "Nano urea multi-season rice trial (2022–2024)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "nitrogen savings recorded at 27–40 kg/ha in Varanasi and 15–20 kg/ha in Guwahati",
+     "value": "Nitrogen savings: 27–40 kg/ha (Varanasi), 15–20 kg/ha (Guwahati)",
+     "period": "2022–2024 (three kharif seasons)",
+     "period_end": "2024-12-31",
+     "publisher": "Frontiers in Sustainable Food Systems (IFFCO-funded)",
+     "series": "Nano urea nitrogen savings study (2022–2024)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "over 11,000 farm fields across 94 crops, and trials at more than 20 agricultural research institutes covering 43 crops",
+     "value": "11,000+ farm fields (94 crops), 20+ institutes (43 crops)",
+     "period": null,
+     "period_end": null,
+     "publisher": "IFFCO (as per testing claims)",
+     "series": "Nano urea field trials (2021)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "claimed nutrient use efficiency of 85–90 per cent against 25 per cent for conventional",
+     "value": "Nano urea: 85–90% efficiency, Conventional: ~25% efficiency",
+     "period": null,
+     "period_end": null,
+     "publisher": "IFFCO (marketing claim)",
+     "series": "Nano urea nutrient use efficiency claim",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "75 per cent and 66% of RDN | Two foliar applications | Yields comparable; economic returns comparable",
+     "value": "75–66% RDN + 2 sprays: Yield/economic returns comparable to full dose",
+     "period": "2022–2024 (three kharif seasons)",
+     "period_end": "2024-12-31",
+     "publisher": "Frontiers in Sustainable Food Systems (IFFCO-funded)",
+     "series": "Nano urea efficacy at reduced nitrogen levels",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "new protocol is 75% RDF plus 25% nano",
+     "value": "75% RDF + 25% nano urea",
+     "period": "March 2026 (post-amendment)",
+     "period_end": "2026-03-31",
+     "publisher": "Government of India (Fertiliser Control Order)",
+     "series": "Fertiliser Control Order (FCO) amendment",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "13 February 2026 | Ministry mandates fresh bio-efficacy trials | ... 12 major crops, across agro-climatic zones",
+     "value": "12 major crops, multi-agro-climatic zones",
+     "period": "February 2026",
+     "period_end": "2026-02-29",
+     "publisher": "Indian Council of Agricultural Research (ICAR)",
+     "series": "Bio-efficacy trials mandate",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "July 2025 | Agriculture Minister writes to chief ministers | Requests legal action against coercive nano-fertiliser sales",
+     "value": "Legal action request against coercive sales",
+     "period": "July 2025",
+     "period_end": "2025-07-31",
+     "publisher": "Ministry of Agriculture",
+     "series": "Correspondence to chief ministers",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "13 March 2026 | Fertiliser Control Order amended again | No forced sale of nano fertilisers by tagging them to other fertilisers or agri-inputs",
+     "value": "Ban on forced sale/tagging of nano urea",
+     "period": "13 March 2026",
+     "period_end": "2026-03-13",
+     "publisher": "Government of India (Fertiliser Control Order)",
+     "series": "Fertiliser Control Order (FCO) amendment",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "nano-urea at 4% N in 2022-23 and 20% N in 2024",
+     "value": "Nano urea N content: 4% (2022–23), 20% (2024)",
+     "period": "2022–2024",
+     "period_end": "2024-12-31",
+     "publisher": "Frontiers in Sustainable Food Systems (IFFCO-funded)",
+     "series": "Nano urea formulation study",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "two locations (Varanasi and Guwahati), three kharif seasons 2022 to 2024",
+     "value": "2 locations, 3 kharif seasons (2022–2024)",
+     "period": "2022–2024",
+     "period_end": "2024-12-31",
+     "publisher": "Frontiers in Sustainable Food Systems (IFFCO-funded)",
+     "series": "Multi-season rice trial",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "randomised block design with three replications",
+     "value": "Randomised block design, 3 replications",
+     "period": "2022–2024",
+     "period_end": "2024-12-31",
+     "publisher": "Frontiers in Sustainable Food Systems (IFFCO-funded)",
+     "series": "Trial methodology",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "nitrogen at 100, 75, 66, 50 and 33 per cent of the recommended dose",
+     "value": "Nitrogen levels: 100%, 75%, 66%, 50%, 33% of RDN",
+     "period": "2022–2024",
+     "period_end": "2024-12-31",
+     "publisher": "Frontiers in Sustainable Food Systems (IFFCO-funded)",
+     "series": "Nitrogen dose testing",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "zero to three nano-urea sprays",
+     "value": "0–3 nano urea sprays",
+     "period": "2022–2024",
+     "period_end": "2024-12-31",
+     "publisher": "Frontiers in Sustainable Food Systems (IFFCO-funded)",
+     "series": "Foliar spray testing",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "25–34 per cent reduction plus two sprays held yield",
+     "value": "25–34% nitrogen reduction + 2 sprays: yield maintained",
+     "period": null,
+     "period_end": null,
+     "publisher": "Article synthesis (based on trials)",
+     "series": "Nano urea efficacy summary",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India’s urea consumption would fall without anyone having to raise the price of urea or change the subsidy design",
+     "value": "Potential urea consumption reduction via 50% substitution",
+     "period": null,
+     "period_end": null,
+     "publisher": "Article analysis (hypothetical)",
+     "series": "Policy impact assessment",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "15 to 40 kg of nitrogen per hectare is not nothing across a country that applies tens of millions of tonnes",
+     "value": "Nitrogen savings: 15–40 kg/ha (scalable to national level)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Article analysis (generalized)",
+     "series": "National impact estimation",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "379 Kilos a Hectare in Punjab, 44 in Kerala on how far applied nutrient ratios have drifted from the 4:2:1 recommendation",
+     "value": "Punjab: 379 kg/ha, Kerala: 44 kg/ha (nutrient application)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Blog cross-reference (external)",
+     "series": "Nutrient application ratios",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The Economic Survey’s direct benefit transfer recommendation",
+     "value": "Direct Benefit Transfer (DBT) for fertiliser subsidies",
+     "period": null,
+     "period_end": null,
+     "publisher": "Economic Survey (MoF)",
+     "series": "Policy recommendation",
+     "frequency": "annual",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

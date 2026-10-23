@@ -1,0 +1,668 @@
+{
+ "slug": "indias-gas-pipelines-run-at-half",
+ "text_sha1": "3d4210bb1edac72a",
+ "chars": 23007,
+ "checked": "2026-10-23T14:14:43",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "~69% PNGRB multi-product pipeline cumulative utilisation, Apr–Nov 2025",
+     "value": "~69%",
+     "period": "April–November 2025",
+     "period_end": "2025-11-30",
+     "publisher": "PNGRB",
+     "series": "multi-product pipeline cumulative utilisation",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "91.46% Oil India's Numaligarh–Siliguri crude line, FY2024-25",
+     "value": "91.46%",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "Oil India",
+     "series": "Numaligarh–Siliguri crude line utilisation",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "~50% PNGRB chairman's public estimate of gas-pipeline utilisation, 2025",
+     "value": "~50%",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "PNGRB",
+     "series": "gas-pipeline utilisation estimate",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "41% IEEFA's capacity-weighted gas-pipeline utilisation estimate, FY2025",
+     "value": "41%",
+     "period": "FY2025",
+     "period_end": "2025-03-31",
+     "publisher": "IEEFA",
+     "series": "capacity-weighted gas-pipeline utilisation estimate",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "~25,400 km Operational gas trunk pipeline, June 2025 (PIB), against ~34,200 km authorised",
+     "value": "~25,400 km",
+     "period": "June 2025",
+     "period_end": "2025-06-30",
+     "publisher": "PIB / ministry",
+     "series": "Operational gas trunk pipeline length",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "running at a cumulative 69.40% of authorised capacity across April–November 2025",
+     "value": "69.40%",
+     "period": "April–November 2025",
+     "period_end": "2025-11-30",
+     "publisher": "PNGRB",
+     "series": "multi-product common-carrier network capacity utilisation",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Oil India's Numaligarh–Siliguri crude line at 91.46% for FY2024-25",
+     "value": "91.46%",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "Oil India",
+     "series": "Numaligarh–Siliguri line utilisation",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "the roughly 25,000-km network was \"operating at only 50% capacity\" against a 400 MMSCMD carrying capacity",
+     "value": "400 MMSCMD",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "PNGRB",
+     "series": "gas pipeline network carrying capacity",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "at a capacity-weighted 41%",
+     "value": "41%",
+     "period": "FY2025",
+     "period_end": "2025-03-31",
+     "publisher": "IEEFA",
+     "series": "capacity-weighted average utilization rate of India's major gas pipelines",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "puts the operational gas trunk network at about 27,900 km against about 34,800 km authorised, with about 8,550 km under construction",
+     "value": "27,900 km",
+     "period": "31 March 2026",
+     "period_end": "2026-03-31",
+     "publisher": "PNGRB",
+     "series": "operational gas trunk network length",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "puts the operational gas trunk network at about 27,900 km against about 34,800 km authorised, with about 8,550 km under construction",
+     "value": "34,800 km",
+     "period": "31 March 2026",
+     "period_end": "2026-03-31",
+     "publisher": "PNGRB",
+     "series": "authorised gas trunk network length",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "puts the operational gas trunk network at about 27,900 km against about 34,800 km authorised, with about 8,550 km under construction",
+     "value": "8,550 km",
+     "period": "31 March 2026",
+     "period_end": "2026-03-31",
+     "publisher": "PNGRB",
+     "series": "gas trunk network under construction length",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "expansion of Oil India’s Numaligarh–Siliguri pipeline to 5.5 million tonnes a year",
+     "value": "5.5 million tonnes a year",
+     "period": "13 March 2026",
+     "period_end": "2026-03-13",
+     "publisher": "Oil India",
+     "series": "Numaligarh–Siliguri pipeline expanded capacity",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "utilization will be far lower until the Numaligarh refinery expansion fills it, so this line is no longer an example of a pipeline running near full. It is also a product pipeline, not a crude line as the summary below calls it. No FY2025-26 throughput figure was found. The original text below is unchanged.",
+     "value": "1.72 million tonnes",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "Oil India",
+     "series": "Numaligarh–Siliguri old capacity",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "moved 1.574 million tonnes at a utilisation of 91.46% of installed capacity",
+     "value": "1.574 million tonnes",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "Oil India",
+     "series": "Numaligarh–Siliguri product pipeline throughput",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "raising the line's capacity from 1.72 to 5.5 million tonnes a year",
+     "value": "1.72 million tonnes a year",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "Oil India",
+     "series": "Numaligarh–Siliguri pipeline capacity",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "96.924 million tonnes of liquids and 4,668 million standard cubic metres of gas moved through its pipelines that year",
+     "value": "96.924 million tonnes",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "Indian Oil",
+     "series": "pipeline throughput liquids",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "96.924 million tonnes of liquids and 4,668 million standard cubic metres of gas moved through its pipelines that year",
+     "value": "4,668 million standard cubic metres",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "Indian Oil",
+     "series": "pipeline throughput gas",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "product-pipeline throughput specifically at 45.4 million tonnes, up 3% on the year before",
+     "value": "45.4 million tonnes",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "Indian Oil",
+     "series": "product-pipeline throughput",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "highest-ever pipeline throughput at 26.90 million tonnes across a network of 17 pipelines spanning 5,134 km",
+     "value": "26.90 million tonnes",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "HPCL",
+     "series": "pipeline throughput",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "across a network of 17 pipelines spanning 5,134 km",
+     "value": "17 pipelines",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "HPCL",
+     "series": "pipeline network count",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "across a network of 17 pipelines spanning 5,134 km",
+     "value": "5,134 km",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "HPCL",
+     "series": "pipeline network length",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "together roughly 2,040 km with 4.58 million tonnes a year of capacity",
+     "value": "2,040 km",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "GAIL",
+     "series": "LPG pipelines length",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "together roughly 2,040 km with 4.58 million tonnes a year of capacity",
+     "value": "4.58 million tonnes a year",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "GAIL",
+     "series": "LPG pipelines capacity",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "carried 4.478 million tonnes in FY2024-25",
+     "value": "4.478 million tonnes",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "GAIL",
+     "series": "LPG pipelines throughput",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "expanding the Jamnagar–Loni line from 3.25 to 6.5 million tonnes a year",
+     "value": "3.25 million tonnes a year",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "GAIL",
+     "series": "Jamnagar–Loni line capacity",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "expanding the Jamnagar–Loni line from 3.25 to 6.5 million tonnes a year",
+     "value": "6.5 million tonnes a year",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "GAIL",
+     "series": "Jamnagar–Loni line expanded capacity",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "showed authorised length of roughly 14,800 km against roughly 9,600 km actually operating as of late 2025",
+     "value": "14,800 km",
+     "period": "late 2025",
+     "period_end": "2025-12-31",
+     "publisher": "PNGRB",
+     "series": "multi-product common-carrier pipelines authorised length",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "showed authorised length of roughly 14,800 km against roughly 9,600 km actually operating as of late 2025",
+     "value": "9,600 km",
+     "period": "late 2025",
+     "period_end": "2025-12-31",
+     "publisher": "PNGRB",
+     "series": "multi-product common-carrier pipelines operating length",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "a 140-km line with 3.7 million tonnes a year of capacity",
+     "value": "140 km",
+     "period": "2021",
+     "period_end": "2021-12-31",
+     "publisher": "PNGRB",
+     "series": "Mathura–Delhi multi-product pipeline length",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "a 140-km line with 3.7 million tonnes a year of capacity",
+     "value": "3.7 million tonnes a year",
+     "period": "2021",
+     "period_end": "2021-12-31",
+     "publisher": "PNGRB",
+     "series": "Mathura–Delhi multi-product pipeline capacity",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "growing steadily — from 15,340 km in 2014 to roughly 21,700 km by mid-2022",
+     "value": "15,340 km",
+     "period": "2014",
+     "period_end": "2014-12-31",
+     "publisher": "Ministry of Petroleum & Natural Gas",
+     "series": "operational gas network length",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "growing steadily — from 15,340 km in 2014 to roughly 21,700 km by mid-2022",
+     "value": "21,700 km",
+     "period": "mid-2022",
+     "period_end": "2022-06-30",
+     "publisher": "Ministry of Petroleum & Natural Gas",
+     "series": "operational gas network length",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "roughly 24,900 km by early 2024",
+     "value": "24,900 km",
+     "period": "early 2024",
+     "period_end": "2024-03-31",
+     "publisher": "Ministry of Petroleum & Natural Gas",
+     "series": "operational gas network length",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "roughly 34,200 km by mid-2025, meaning close to 10,500 km of authorised pipeline was still under construction",
+     "value": "34,200 km",
+     "period": "mid-2025",
+     "period_end": "2025-06-30",
+     "publisher": "Ministry of Petroleum & Natural Gas",
+     "series": "authorised gas network length",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "meaning close to 10,500 km of authorised pipeline was still under construction",
+     "value": "10,500 km",
+     "period": "mid-2025",
+     "period_end": "2025-06-30",
+     "publisher": "Ministry of Petroleum & Natural Gas",
+     "series": "gas pipeline under construction length",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "LNG regasification capacity of roughly 190 MMSCMD running at \"near 50% utilization\", with six of the country's seven terminals below 50% that year",
+     "value": "190 MMSCMD",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "PNGRB",
+     "series": "LNG regasification capacity",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "LNG regasification capacity of roughly 190 MMSCMD running at \"near 50% utilization\", with six of the country's seven terminals below 50% that year",
+     "value": "seven terminals",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "PNGRB",
+     "series": "LNG terminal count",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "noted the Kochi LNG terminal running as low as 5.67% utilised in one year (2016-17)",
+     "value": "5.67%",
+     "period": "2016-17",
+     "period_end": "2017-03-31",
+     "publisher": "Industry commentary / Stanford / Oil & Gas Journal",
+     "series": "Kochi LNG terminal utilisation",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "levelised unified tariff was reported at roughly ₹80.97 per million British thermal units for FY2024-25",
+     "value": "₹80.97 per million British thermal units",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "PNGRB",
+     "series": "levelised unified tariff",
+     "frequency": "annual",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "PNGRB's own monitoring register shows the multi-product common-carrier network running at a cumulative 69.40% of authorised capacity across April to November 2025",
+     "value": "69.40%",
+     "period": "Apr–Nov 2025",
+     "period_end": "2025-11-30",
+     "publisher": "PNGRB",
+     "series": "Multi-product common-carrier pipeline utilisation (monthly MIS reports)",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "Oil India's Numaligarh–Siliguri crude line at 91.46% for FY2024-25",
+     "value": "91.46%",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "Oil India (annual report)",
+     "series": "Numaligarh–Siliguri pipeline throughput",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "PNGRB's own chairman told the trade press in 2025 that the roughly 25,000-km gas pipeline network was 'operating at only 50% capacity'",
+     "value": "50%",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "PNGRB (chairman's public remarks)",
+     "series": "National gas-pipeline utilisation estimate",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "an independent energy-finance analysis puts it lower still, at a capacity-weighted 41%",
+     "value": "41%",
+     "period": "FY2025",
+     "period_end": "2025-03-31",
+     "publisher": "IEEFA (Institute for Energy Economics and Financial Analysis)",
+     "series": "Capacity-weighted gas-pipeline utilisation estimate",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "PNGRB's data sheet for 31 March 2026 puts the operational gas trunk network at about 27,900 km against about 34,800 km authorised",
+     "value": "27,900 km operational / 34,800 km authorised",
+     "period": "as of 31 Mar 2026",
+     "period_end": "2026-03-31",
+     "publisher": "PNGRB",
+     "series": "Operational vs authorised gas trunk pipeline length",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "GAIL's LPG pipelines carried 4.478 million tonnes in FY2024-25, which on its face is close to 98% of nameplate capacity",
+     "value": "4.478 million tonnes",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "GAIL (annual report)",
+     "series": "LPG pipeline throughput (Jamnagar–Loni & Vizag–Secunderabad)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Indian Oil's FY2024-25 annual report describes 'record' pipeline throughput across its network: 96.924 million tonnes of liquids and 4,668 million standard cubic metres of gas moved through its pipelines that year",
+     "value": "96.924 million tonnes (liquids) + 4,668 million SCM (gas)",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "Indian Oil (annual report)",
+     "series": "Pipeline throughput (liquids + gas)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "HPCL's FY2024-25 annual report similarly describes its 'highest-ever pipeline throughput' at 26.90 million tonnes across a network of 17 pipelines spanning 5,134 km",
+     "value": "26.90 million tonnes",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "HPCL (annual report)",
+     "series": "Pipeline throughput",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "PNGRB's own register of multi-product common-carrier pipelines showed authorised length of roughly 14,800 km against roughly 9,600 km actually operating as of late 2025",
+     "value": "14,800 km authorised / 9,600 km operational",
+     "period": "late 2025",
+     "period_end": "2025-12-31",
+     "publisher": "PNGRB",
+     "series": "Multi-product pipeline authorised vs operational length",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "PNGRB's tariff reforms since mid-2025 explicitly tie a 'Pipeline Development Reserve' to utilisation above 75%",
+     "value": "75%",
+     "period": "mid-2025 onwards",
+     "period_end": null,
+     "publisher": "PNGRB",
+     "series": "Pipeline Development Reserve utilisation threshold",
+     "frequency": "one-off (tariff regulation amendment)",
+     "headline": false
+    },
+    {
+     "quote": "the levelised unified tariff was reported at roughly ₹80.97 per million British thermal units for FY2024-25",
+     "value": "₹80.97 per MMBtu",
+     "period": "FY2024-25",
+     "period_end": "2025-03-31",
+     "publisher": "PNGRB",
+     "series": "Unified natural gas pipeline tariff",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "a further order in November 2025 revised GAIL's own integrated-network tariff to roughly ₹65.69 per million British thermal units",
+     "value": "₹65.69 per MMBtu",
+     "period": "Nov 2025",
+     "period_end": "2025-11-30",
+     "publisher": "PNGRB",
+     "series": "GAIL integrated-network tariff revision",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "a December 2025 order simplified the unified tariff to two zones — roughly ₹54.00 per million British thermal units within 300 km of a supply point and roughly ₹102.86 beyond it",
+     "value": "₹54.00 (≤300 km) / ₹102.86 (>300 km) per MMBtu",
+     "period": "Dec 2025",
+     "period_end": "2025-12-31",
+     "publisher": "PNGRB",
+     "series": "Unified natural gas pipeline tariff zones",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "government progress reports describe the operational network growing steadily — from 15,340 km in 2014 to roughly 21,700 km by mid-2022, roughly 24,900 km by early 2024, and roughly 25,400 km by June 2025",
+     "value": "15,340 km (2014), 21,700 km (mid-2022), 24,900 km (early 2024), 25,400 km (June 2025)",
+     "period": "2014, mid-2022, early 2024, June 2025",
+     "period_end": [
+      "2014-12-31",
+      "2022-06-30",
+      "2024-03-31",
+      "2025-06-30"
+     ],
+     "publisher": "Ministry of Petroleum & Natural Gas (year-end reviews via PIB)",
+     "series": "Operational gas trunk pipeline length",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "PNGRB projections note an LNG regasification capacity of roughly 190 MMSCMD running at 'near 50% utilization'",
+     "value": "190 MMSCMD capacity, ~50% utilisation",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "PNGRB",
+     "series": "LNG regasification capacity utilisation",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "PNGRB's own 2030/2040 demand projections (roughly 300–365 MMSCMD by 2030, 495–630 MMSCMD by 2040)",
+     "value": "300–365 MMSCMD (2030), 495–630 MMSCMD (2040)",
+     "period": "2030, 2040",
+     "period_end": [
+      "2030-12-31",
+      "2040-12-31"
+     ],
+     "publisher": "PNGRB",
+     "series": "Natural gas demand projections",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "PNGRB's Action Taken Report on its 2025-26 Annual Plan confirms the 75% utilisation trigger for the Pipeline Development Reserve",
+     "value": "75%",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "PNGRB",
+     "series": "Pipeline Development Reserve utilisation threshold (Action Taken Report)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "a 2021 stakeholder submission filed against a PNGRB public notice stated that Indian Oil's Mathura–Delhi pipeline was then running at '40-50% only' utilisation",
+     "value": "40–50%",
+     "period": "2021",
+     "period_end": "2021-12-31",
+     "publisher": "Independent infrastructure consultancy (2021 PNGRB stakeholder submission)",
+     "series": "Mathura–Delhi pipeline utilisation (single line estimate)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "a separate commentary points to a 'missing layer of regional connectivity' — industrial clusters that sit near a trunk line but were never connected to it",
+     "value": "not quantified (qualitative observation)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Swarajya (commentary)",
+     "series": "Regional connectivity gaps in gas pipeline network",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "PNGRB's zonal study describes LNG import terminals themselves as 'not well-integrated with demand centers'",
+     "value": "not quantified (qualitative observation)",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "PNGRB (zonal study)",
+     "series": "LNG terminal integration with demand centers",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Oil India’s Numaligarh–Siliguri pipeline expansion to 5.5 million tonnes a year was completed and inaugurated on 13 March 2026",
+     "value": "5.5 million tonnes/year (expanded capacity)",
+     "period": "as of 13 Mar 2026",
+     "period_end": "2026-03-13",
+     "publisher": "Oil India (press reports)",
+     "series": "Numaligarh–Siliguri pipeline capacity expansion",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "GAIL has approved expanding the Jamnagar–Loni line from 3.25 to 6.5 million tonnes a year",
+     "value": "3.25 → 6.5 million tonnes/year",
+     "period": null,
+     "period_end": null,
+     "publisher": "GAIL",
+     "series": "Jamnagar–Loni pipeline capacity expansion",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "older industry commentary on GAIL's network put the company's historical breakeven point at needing to run above roughly 70% of pipeline capacity",
+     "value": "70%",
+     "period": null,
+     "period_end": null,
+     "publisher": "Stanford/Oil & Gas Journal analysis (cited commentary)",
+     "series": "GAIL pipeline breakeven utilisation threshold",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "the Kochi LNG terminal running as low as 5.67% utilised in one year (2016-17)",
+     "value": "5.67%",
+     "period": "FY2016-17",
+     "period_end": "2017-03-31",
+     "publisher": "Historical industry commentary (cited via Stanford/Oil & Gas Journal)",
+     "series": "Kochi LNG terminal utilisation",
+     "frequency": "annual",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

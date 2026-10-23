@@ -1,0 +1,596 @@
+{
+ "slug": "everyone-worries-about-who-pays-for",
+ "text_sha1": "5731edd8b1fa0efc",
+ "chars": 32537,
+ "checked": "2026-10-23T11:27:21",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "CEEW's own network modelling puts that piece at $0.70–4.19 a tonne.",
+     "value": "$0.70–4.19 a tonne",
+     "period": "2026 report",
+     "period_end": "2026-12-31",
+     "publisher": "CEEW",
+     "series": "CO2 Pipeline Network for Carbon Capture and Storage in India",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "A separate India-specific study puts the all-in cost — capture included — at ₹8,000–13,000 a tonne or more.",
+     "value": "₹8,000–13,000 a tonne",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "Journal of the Geological Society of India",
+     "series": "CCUS in India: A Techno-Economic and Policy Roadmap to Net-Zero Amid Climate and Environmental Challenges",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "and the government's own ₹19,700 crore scheme covers a small fraction",
+     "value": "₹19,700 crore",
+     "period": "FY2026-27",
+     "period_end": "2027-03-31",
+     "publisher": "PIB / ministry",
+     "series": "Expenditure Finance Committee CCUS Scheme",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "Power plants are among the 765 emission sources CEEW's proposed CO2 pipeline network would connect to underground storage",
+     "value": "765",
+     "period": "2026 report",
+     "period_end": "2026-12-31",
+     "publisher": "CEEW",
+     "series": "CO2 Pipeline Network for Carbon Capture and Storage in India",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "The proposed network reuses the right-of-way of roughly 18,000 km of existing natural gas trunk pipelines to connect 765 named emission sources to storage sites.",
+     "value": "18,000 km",
+     "period": "2026 report",
+     "period_end": "2026-12-31",
+     "publisher": "CEEW",
+     "series": "CO2 Pipeline Network for Carbon Capture and Storage in India",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "A peer-reviewed India-specific techno-economic study puts capture cost alone at ₹340–4,500 per tonne",
+     "value": "₹340–4,500 per tonne",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "Journal of the Geological Society of India",
+     "series": "CCUS in India: A Techno-Economic and Policy Roadmap to Net-Zero Amid Climate and Environmental Challenges",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "CEEW's broadest estimate is 317 gigatonnes (saline aquifers, basalt formations, and oil/gas/coal fields combined)",
+     "value": "317 gigatonnes",
+     "period": "2026 report",
+     "period_end": "2026-12-31",
+     "publisher": "CEEW",
+     "series": "CO2 Pipeline Network for Carbon Capture and Storage in India",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "a separate peer-reviewed paper cites 359 Gt",
+     "value": "359 Gt",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "Journal of the Geological Society of India",
+     "series": "CCUS in India: A Techno-Economic and Policy Roadmap to Net-Zero Amid Climate and Environmental Challenges",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "DGH's own draft 2030 CCUS roadmap, scoped only to oil-producing basins ... puts viable capacity at roughly 1.2 Gt",
+     "value": "1.2 Gt",
+     "period": "2030",
+     "period_end": "2030-12-31",
+     "publisher": "DGH",
+     "series": "Draft 2030 CCUS Roadmap",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "the Union Budget 2026-27 allocated ₹20,000 crore ... to CCUS",
+     "value": "₹20,000 crore",
+     "period": "FY2026-27",
+     "period_end": "2027-03-31",
+     "publisher": "MoSPI",
+     "series": "Union Budget",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "NITI Aayog's own framework estimates $100–150 billion in investment is needed through 2050 to hit its 750 million tonnes/year ambition.",
+     "value": "$100–150 billion",
+     "period": "through 2050",
+     "period_end": "2050-12-31",
+     "publisher": "NITI Aayog",
+     "series": "CCUS Policy Framework",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "NITI Aayog's own framework estimates $100–150 billion in investment is needed through 2050 to hit its 750 million tonnes/year ambition.",
+     "value": "750 million tonnes/year",
+     "period": "2050",
+     "period_end": "2050-12-31",
+     "publisher": "NITI Aayog",
+     "series": "CCUS Policy Framework",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "the new CO₂ network would largely use the right-of-way of about 32,000 km of existing or planned natural gas pipelines",
+     "value": "32,000 km",
+     "period": "2026 report",
+     "period_end": "2026-12-31",
+     "publisher": "CEEW",
+     "series": "CO2 Pipeline Network for Carbon Capture and Storage in India",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "PNGRB’s data bank puts authorised natural gas pipelines at 34,803 km at 31 March 2026",
+     "value": "34,803 km",
+     "period": "as on 31 Mar 2026",
+     "period_end": "2026-03-31",
+     "publisher": "PNGRB",
+     "series": "PNGRB Data Bank",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "33,027 km common carrier",
+     "value": "33,027 km",
+     "period": "as on 31 Mar 2026",
+     "period_end": "2026-03-31",
+     "publisher": "PNGRB",
+     "series": "PNGRB Data Bank",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "997 km tie-in",
+     "value": "997 km",
+     "period": "as on 31 Mar 2026",
+     "period_end": "2026-03-31",
+     "publisher": "PNGRB",
+     "series": "PNGRB Data Bank",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "779 km dedicated",
+     "value": "779 km",
+     "period": "as on 31 Mar 2026",
+     "period_end": "2026-03-31",
+     "publisher": "PNGRB",
+     "series": "PNGRB Data Bank",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "with 27,905 km operational",
+     "value": "27,905 km",
+     "period": "as on 31 Mar 2026",
+     "period_end": "2026-03-31",
+     "publisher": "PNGRB",
+     "series": "PNGRB Data Bank",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "a year earlier (June 2025) it was 34,233 km authorised",
+     "value": "34,233 km",
+     "period": "June 2025",
+     "period_end": "2025-06-30",
+     "publisher": "PNGRB",
+     "series": "PNGRB Data Bank",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "and 25,429 km operational",
+     "value": "25,429 km",
+     "period": "June 2025",
+     "period_end": "2025-06-30",
+     "publisher": "PNGRB",
+     "series": "PNGRB Data Bank",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Crude oil pipelines | 10,445 (153.1 MMTPA)",
+     "value": "10,445 km",
+     "period": "1 Apr 2025",
+     "period_end": "2025-04-01",
+     "publisher": "PPAC",
+     "series": "PPAC Data",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Crude oil pipelines | 10,445 (153.1 MMTPA)",
+     "value": "153.1 MMTPA",
+     "period": "1 Apr 2025",
+     "period_end": "2025-04-01",
+     "publisher": "PPAC",
+     "series": "PPAC Data",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Petroleum product pipelines | 9,301 operational of 13,652 authorised",
+     "value": "9,301 km",
+     "period": "Jun–Sep 2025",
+     "period_end": "2025-09-30",
+     "publisher": "PPAC / ministry",
+     "series": "Petroleum Product Pipelines",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Petroleum product pipelines | 9,301 operational of 13,652 authorised",
+     "value": "13,652 km",
+     "period": "Jun–Sep 2025",
+     "period_end": "2025-09-30",
+     "publisher": "PPAC / ministry",
+     "series": "Petroleum Product Pipelines",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "another report gives 24,130",
+     "value": "24,130 km",
+     "period": "Jun–Sep 2025",
+     "period_end": "2025-09-30",
+     "publisher": "PPAC / ministry",
+     "series": "Petroleum Product Pipelines",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "MoPNG draft CCUS roadmap: “existing oil and gas” | ~25,000",
+     "value": "~25,000 km",
+     "period": "Draft, undated",
+     "period_end": null,
+     "publisher": "MoPNG",
+     "series": "Draft 2030 Roadmap for CCUS",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "split across 144 Gt in saline aquifers, 170 Gt in basalt formations",
+     "value": "144 Gt",
+     "period": "2026 report",
+     "period_end": "2026-12-31",
+     "publisher": "CEEW",
+     "series": "CO2 Pipeline Network for Carbon Capture and Storage in India",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "split across 144 Gt in saline aquifers, 170 Gt in basalt formations",
+     "value": "170 Gt",
+     "period": "2026 report",
+     "period_end": "2026-12-31",
+     "publisher": "CEEW",
+     "series": "CO2 Pipeline Network for Carbon Capture and Storage in India",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "CEEW's own CO2 pipeline network modelling for India puts the transport cost at $0.70–4.19 per tonne, depending on which storage sink the network is built toward: cheapest ($0.70–2.16) when routed to India's widely-distributed saline aquifers, most expensive ($2.89–4.19) when routed to basalt formations.",
+     "value": "$0.70–4.19 per tonne",
+     "period": null,
+     "period_end": null,
+     "publisher": "CEEW",
+     "series": "CO₂ Pipeline Network for Carbon Capture and Storage in India: Evaluating a Parallel Network Along Existing Pipelines",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "A peer-reviewed India-specific techno-economic study puts capture cost alone at ₹340–4,500 per tonne, and the full all-in cost — capture, compression, transport and monitoring together — at ₹8,000–13,000 per tonne or more.",
+     "value": "₹340–4,500 per tonne (capture); ₹8,000–13,000+ per tonne (all-in)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Peer-reviewed paper (Journal of the Geological Society of India, 2025)",
+     "series": "CCUS in India: A Techno-Economic and Policy Roadmap to Net-Zero Amid Climate and Environmental Challenges",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "CEEW's broadest estimate is 317 gigatonnes (saline aquifers, basalt formations, and oil/gas/coal fields combined); a separate peer-reviewed paper cites 359 Gt; DGH's own draft 2030 CCUS roadmap puts viable capacity at roughly 1.2 Gt.",
+     "value": "317 gigatonnes (CEEW), 359 gigatonnes (peer-reviewed paper), 1.2 gigatonnes (DGH)",
+     "period": null,
+     "period_end": null,
+     "publisher": "CEEW, Peer-reviewed paper, DGH",
+     "series": "Storage potential estimates for underground CO₂ storage",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The Union Budget 2026-27 allocated ₹20,000 crore to CCUS, and the Expenditure Finance Committee has specifically cleared a ₹19,700 crore, five-year, government-funded scheme covering steel, cement, power, refineries and chemicals.",
+     "value": "₹20,000 crore (Budget 2026-27), ₹19,700 crore (cleared scheme)",
+     "period": "FY2026-27",
+     "period_end": "2027-03-31",
+     "publisher": "PIB / Ministry of Finance",
+     "series": "Union Budget and Expenditure Finance Committee allocations",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "NITI Aayog's own framework estimates $100–150 billion in investment is needed through 2050 to hit its 750 million tonnes/year ambition.",
+     "value": "$100–150 billion (2020–2050)",
+     "period": "2020–2050",
+     "period_end": "2050-12-31",
+     "publisher": "NITI Aayog",
+     "series": "CCUS Policy Framework",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "CEEW's own network modelling puts that piece [pipeline] at $0.70–4.19 a tonne.",
+     "value": "$0.70–4.19 per tonne",
+     "period": null,
+     "period_end": null,
+     "publisher": "CEEW",
+     "series": "CO₂ Pipeline Network for Carbon Capture and Storage in India",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The proposed network reuses the right-of-way of roughly 18,000 km of existing natural gas trunk pipelines to connect 765 named emission sources to storage sites.",
+     "value": "18,000 km (existing natural gas trunk pipelines), 765 (emission sources)",
+     "period": null,
+     "period_end": null,
+     "publisher": "CEEW",
+     "series": "CO₂ Pipeline Network for Carbon Capture and Storage in India",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "PNGRB’s data bank puts authorised natural gas pipelines at 34,803 km at 31 March 2026 (33,027 km common carrier, 997 km tie-in, 779 km dedicated), with 27,905 km operational; a year earlier (June 2025) it was 34,233 km authorised and 25,429 km operational.",
+     "value": "34,803 km (authorised, 31 Mar 2026), 27,905 km (operational, 31 Mar 2026); 34,233 km (authorised, Jun 2025), 25,429 km (operational, Jun 2025)",
+     "period": "as of 31 Mar 2026, Jun 2025",
+     "period_end": [
+      "2026-03-31",
+      "2025-06-30"
+     ],
+     "publisher": "PNGRB",
+     "series": "Natural Gas Pipeline Data Bank",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "Crude oil pipelines: 10,445 (153.1 MMTPA) as on 1 Apr 2025",
+     "value": "10,445 km (length), 153.1 MMTPA (capacity)",
+     "period": "as of 1 Apr 2025",
+     "period_end": "2025-04-01",
+     "publisher": "PPAC",
+     "series": "Crude Oil Pipeline Data",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Petroleum product pipelines: 9,301 operational of 13,652 authorised; another report gives 24,130 (Jun–Sep 2025)",
+     "value": "9,301 km (operational), 13,652 km (authorised); 24,130 km (another report)",
+     "period": "Jun–Sep 2025",
+     "period_end": "2025-09-30",
+     "publisher": "Press (secondary sources)",
+     "series": "Petroleum Product Pipeline Data",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "MoPNG draft CCUS roadmap: ‘existing oil and gas’ ~25,000 km",
+     "value": "~25,000 km (existing oil and gas pipelines)",
+     "period": "Draft, undated",
+     "period_end": null,
+     "publisher": "MoPNG",
+     "series": "Draft 2030 CCUS Roadmap",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Current estimates place the capital cost of building capacity to capture 1 million tonnes of CO2 per year at roughly ₹900–1,000 crore, with scaling to 10 million tonnes of annual capacity requiring on the order of ₹15,000 crore in capital deployment.",
+     "value": "₹900–1,000 crore (1 MT/year), ₹15,000 crore (10 MT/year)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Secondary reporting (not traced to primary source)",
+     "series": "CCUS Capital Cost Estimates",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The pipeline build cost itself, per CEEW's own cost breakdown, splits roughly as follows: materials account for about 40% of total pipeline cost, laying (construction) another 30%, right-of-way acquisition 15%, and miscellaneous costs the remaining 15%.",
+     "value": "40% (materials), 30% (laying), 15% (right-of-way), 15% (miscellaneous)",
+     "period": null,
+     "period_end": null,
+     "publisher": "CEEW",
+     "series": "CO₂ Pipeline Network for Carbon Capture and Storage in India",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "CEEW's report carries two figures: the new CO₂ network would largely use the right-of-way of about 32,000 km of existing or planned natural gas pipelines; the design that links the 765 emission sources uses about 18,000 km of existing gas trunk lines.",
+     "value": "32,000 km (existing or planned), 18,000 km (existing gas trunk lines)",
+     "period": "2026 report",
+     "period_end": null,
+     "publisher": "CEEW",
+     "series": "CO₂ Pipeline Network for Carbon Capture and Storage in India",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The commonly-cited global 'avoided cost' figure of roughly $40–60 a tonne, and it means transport (CEEW's $0.70–4.19, well under ₹400 at any plausible exchange rate) is a small fraction of what a company actually pays to sequester one tonne of CO₂ in India.",
+     "value": "$40–60 per tonne (global avoided cost)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Secondary sourcing (Carbon Management Europe, IPCC/IEA-adjacent literature)",
+     "series": "Global CCS Cost Benchmarks",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "CEEW's broadest estimate is 317 gigatonnes (saline aquifers, basalt formations, and oil/gas/coal fields combined); a separate peer-reviewed paper cites 359 Gt.",
+     "value": "317 gigatonnes (CEEW), 359 gigatonnes (peer-reviewed paper)",
+     "period": null,
+     "period_end": null,
+     "publisher": "CEEW, Peer-reviewed paper (Journal of the Geological Society of India, 2025)",
+     "series": "Storage Potential Estimates",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "DGH's own draft 2030 CCUS roadmap, scoped only to oil-producing basins suitable for enhanced oil recovery and saline storage with known subsurface data, puts viable capacity at roughly 1.2 Gt.",
+     "value": "1.2 gigatonnes (DGH)",
+     "period": "Draft, undated",
+     "period_end": null,
+     "publisher": "DGH",
+     "series": "Draft 2030 CCUS Roadmap",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The government's own ₹19,700 crore scheme covers a small fraction of what NITI Aayog says the buildout actually needs.",
+     "value": "₹19,700 crore (government scheme)",
+     "period": "Five-year scheme (FY2026-27 to FY2030-31)",
+     "period_end": "2031-03-31",
+     "publisher": "Expenditure Finance Committee",
+     "series": "CCUS Scheme Allocation",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "NITI Aayog's own framework estimates $100–150 billion in investment is needed through 2050 to hit its 750 million tonnes/year ambition.",
+     "value": "$100–150 billion (2020–2050)",
+     "period": "2020–2050",
+     "period_end": "2050-12-31",
+     "publisher": "NITI Aayog",
+     "series": "CCUS Policy Framework",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The ₹20,000 crore Union Budget 2026-27 allocation and the ₹19,700 crore Expenditure Finance Committee-cleared scheme, its five-year window and five-sector scope, are corroborated across Downtoearth's coverage of the Budget's CCUS allocation and Whalesbook's reporting on the cleared scheme.",
+     "value": "₹20,000 crore (Budget 2026-27), ₹19,700 crore (cleared scheme)",
+     "period": "FY2026-27 (Budget), Five-year scheme (FY2026-27 to FY2030-31)",
+     "period_end": [
+      "2027-03-31",
+      "2031-03-31"
+     ],
+     "publisher": "PIB / Ministry of Finance, Downtoearth, Whalesbook",
+     "series": "Union Budget and Expenditure Finance Committee allocations",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "The pipeline cost itself: $0.70 to $4.19 a tonne, and sink choice is what moves it.",
+     "value": "$0.70–4.19 per tonne",
+     "period": null,
+     "period_end": null,
+     "publisher": "CEEW",
+     "series": "CO₂ Pipeline Network for Carbon Capture and Storage in India",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Routing to saline aquifer storage specifically comes in cheapest, at $0.70–2.16 per tonne, because saline aquifers are geographically widespread across India, keeping average pipeline distances shorter.",
+     "value": "$0.70–2.16 per tonne (saline aquifers)",
+     "period": null,
+     "period_end": null,
+     "publisher": "CEEW",
+     "series": "CO₂ Pipeline Network for Carbon Capture and Storage in India",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Routing to basalt formations is markedly more expensive, at $2.89–4.19 per tonne, because basalt storage in India is concentrated mainly in Maharashtra.",
+     "value": "$2.89–4.19 per tonne (basalt formations)",
+     "period": null,
+     "period_end": null,
+     "publisher": "CEEW",
+     "series": "CO₂ Pipeline Network for Carbon Capture and Storage in India",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The ₹19,700 crore, five-year, government-funded scheme covering steel, cement, power, refineries and chemicals — this is direct government capital, not a loan guarantee or tax credit alone.",
+     "value": "₹19,700 crore (five-year scheme)",
+     "period": "FY2026-27 to FY2030-31",
+     "period_end": "2031-03-31",
+     "publisher": "Expenditure Finance Committee",
+     "series": "CCUS Scheme Allocation",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "NITI Aayog's own framework estimates $100–150 billion in investment is needed through 2050 to hit its 750 million tonnes/year ambition.",
+     "value": "$100–150 billion (2020–2050)",
+     "period": "2020–2050",
+     "period_end": "2050-12-31",
+     "publisher": "NITI Aayog",
+     "series": "CCUS Policy Framework",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The current ₹19,700 crore government scheme is roughly 1-2% of that low-end figure — a meaningful first commitment, on the evidence here, not remotely the full bill.",
+     "value": "₹19,700 crore (~1-2% of $100 billion)",
+     "period": "FY2026-27 to FY2030-31",
+     "period_end": "2031-03-31",
+     "publisher": "NITI Aayog, Expenditure Finance Committee",
+     "series": "CCUS Investment Comparison",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "CEEW's 18,000 km existing-gas-trunk-pipeline network design, its 765-source count, and the sector list are from CEEW's published CO2 pipeline network study.",
+     "value": "18,000 km (existing gas trunk lines), 765 (emission sources)",
+     "period": null,
+     "period_end": null,
+     "publisher": "CEEW",
+     "series": "CO₂ Pipeline Network for Carbon Capture and Storage in India",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The pipeline build cost itself, per CEEW's own cost breakdown, splits roughly as follows: materials account for about 40% of total pipeline cost, laying (construction) another 30%, right-of-way acquisition 15%, and miscellaneous costs the remaining 15%.",
+     "value": "40% (materials), 30% (laying), 15% (right-of-way), 15% (miscellaneous)",
+     "period": null,
+     "period_end": null,
+     "publisher": "CEEW",
+     "series": "CO₂ Pipeline Network for Carbon Capture and Storage in India",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The pipeline segment, in words, is not where the money goes. The pipeline cost itself: $0.70 to $4.19 a tonne, and sink choice is what moves it.",
+     "value": "$0.70–4.19 per tonne",
+     "period": null,
+     "period_end": null,
+     "publisher": "CEEW",
+     "series": "CO₂ Pipeline Network for Carbon Capture and Storage in India",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

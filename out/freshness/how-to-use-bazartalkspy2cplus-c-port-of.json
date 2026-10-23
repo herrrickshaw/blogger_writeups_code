@@ -1,0 +1,320 @@
+{
+ "slug": "how-to-use-bazartalkspy2cplus-c-port-of",
+ "text_sha1": "26cc5619f57b9f0d",
+ "chars": 9857,
+ "checked": "2026-10-23T11:59:40",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "5.94x C++ release vs Python, 19-market pipeline",
+     "value": "5.94x",
+     "period": "12 July 2026",
+     "period_end": "2026-07-12",
+     "publisher": "BazaarTalks repo",
+     "series": "pipeline benchmark report",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "19/19 markets with exact output match",
+     "value": "19/19",
+     "period": "12 July 2026",
+     "period_end": "2026-07-12",
+     "publisher": "BazaarTalks repo",
+     "series": "pipeline benchmark report",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "9.52s vs 1.60s total benchmark time, Python vs C++ release",
+     "value": "9.52s vs 1.60s",
+     "period": "12 July 2026",
+     "period_end": "2026-07-12",
+     "publisher": "BazaarTalks repo",
+     "series": "pipeline benchmark report",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "40% slower: the original debug-build result",
+     "value": "40%",
+     "period": "12 July 2026",
+     "period_end": "2026-07-12",
+     "publisher": "BazaarTalks repo",
+     "series": "pipeline benchmark report",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "19 of 19 markets matched the Python original exactly, and the release build took 1.60 s against 9.52 s for Python.",
+     "value": "1.60 s against 9.52 s",
+     "period": "12 July 2026",
+     "period_end": "2026-07-12",
+     "publisher": "BazaarTalks repo",
+     "series": "pipeline benchmark report",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "207 of 207 tests were passing at the time of its last build note.",
+     "value": "207 of 207",
+     "period": "12 July 2026",
+     "period_end": "2026-07-12",
+     "publisher": "BazaarTalks repo",
+     "series": "migration plan build note",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "US 0.4527 0.0730 6.20x",
+     "value": "0.4527 vs 0.0730 seconds (6.20x)",
+     "period": "12 July 2026",
+     "period_end": "2026-07-12",
+     "publisher": "BazaarTalks repo",
+     "series": "per-market benchmark report",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "JP 0.4384 0.0684 6.41x",
+     "value": "0.4384 vs 0.0684 seconds (6.41x)",
+     "period": "12 July 2026",
+     "period_end": "2026-07-12",
+     "publisher": "BazaarTalks repo",
+     "series": "per-market benchmark report",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "UK 0.5015 0.0754 6.65x",
+     "value": "0.5015 vs 0.0754 seconds (6.65x)",
+     "period": "12 July 2026",
+     "period_end": "2026-07-12",
+     "publisher": "BazaarTalks repo",
+     "series": "per-market benchmark report",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "EU 0.5229 0.0671 7.79x",
+     "value": "0.5229 vs 0.0671 seconds (7.79x)",
+     "period": "12 July 2026",
+     "period_end": "2026-07-12",
+     "publisher": "BazaarTalks repo",
+     "series": "per-market benchmark report",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "SG 0.4690 0.1184 3.96x",
+     "value": "0.4690 vs 0.1184 seconds (3.96x)",
+     "period": "12 July 2026",
+     "period_end": "2026-07-12",
+     "publisher": "BazaarTalks repo",
+     "series": "per-market benchmark report",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Grand total: Python 9.52s vs C++ 1.60s = 5.94x",
+     "value": "9.52s vs 1.60s (5.94x)",
+     "period": "12 July 2026",
+     "period_end": "2026-07-12",
+     "publisher": "BazaarTalks repo",
+     "series": "pipeline benchmark report",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "debug build (-O0, 126MB binary): bare startup ~0.28s; total C++ 12.29s vs Python 8.79s (C++ 40% slower)",
+     "value": "126MB binary, ~0.28s startup, 12.29s vs 8.79s total",
+     "period": "12 July 2026",
+     "period_end": "2026-07-12",
+     "publisher": "BazaarTalks repo",
+     "series": "migration plan cutover run",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "release build (43MB binary): bare startup ~0.01s; total C++ 1.60s vs Python 9.52s (5.94x faster)",
+     "value": "43MB binary, ~0.01s startup, 1.60s vs 9.52s total",
+     "period": "12 July 2026",
+     "period_end": "2026-07-12",
+     "publisher": "BazaarTalks repo",
+     "series": "migration plan cutover run",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "5.94x C++ release vs Python, 19-market pipeline (committed report)",
+     "value": "5.94x",
+     "period": null,
+     "period_end": null,
+     "publisher": "GitHub repository (herrrickshaw/Bazartalks_Py2Cplus)",
+     "series": "Benchmark report (committed)",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "19 of 19 markets matched the Python original exactly",
+     "value": "19/19 markets",
+     "period": null,
+     "period_end": null,
+     "publisher": "GitHub repository (herrrickshaw/Bazartalks_Py2Cplus)",
+     "series": "Golden-fixture validation report",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "9.52s vs 1.60s total benchmark time, Python vs C++ release",
+     "value": "9.52 seconds (Python) vs 1.60 seconds (C++)",
+     "period": null,
+     "period_end": null,
+     "publisher": "GitHub repository (herrrickshaw/Bazartalks_Py2Cplus)",
+     "series": "Benchmark report (committed)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "40% slower: the original debug-build result, later corrected",
+     "value": "40% slower (debug build)",
+     "period": null,
+     "period_end": null,
+     "publisher": "GitHub repository (herrrickshaw/Bazartalks_Py2Cplus)",
+     "series": "Benchmark correction note",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "debug build (-O0, 126MB binary): bare startup ~0.28s; total C++ 12.29s vs Python 8.79s",
+     "value": "12.29 seconds (C++ debug) vs 8.79 seconds (Python)",
+     "period": null,
+     "period_end": null,
+     "publisher": "GitHub repository (herrrickshaw/Bazartalks_Py2Cplus)",
+     "series": "Debug-build benchmark (Cutover run #4)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "release build (43MB binary): bare startup ~0.01s; total C++ 1.60s vs Python 9.52s",
+     "value": "1.60 seconds (C++ release) vs 9.52 seconds (Python)",
+     "period": null,
+     "period_end": null,
+     "publisher": "GitHub repository (herrrickshaw/Bazartalks_Py2Cplus)",
+     "series": "Release-build benchmark (Cutover run #4)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "US 0.4527 0.0730 6.20x",
+     "value": "0.4527 seconds (Python, US) vs 0.0730 seconds (C++, US)",
+     "period": null,
+     "period_end": "2026-07-12",
+     "publisher": "GitHub repository (herrrickshaw/Bazartalks_Py2Cplus)",
+     "series": "Per-market benchmark timings (report_2026-07-12.html)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "JP 0.4384 0.0684 6.41x",
+     "value": "0.4384 seconds (Python, JP) vs 0.0684 seconds (C++, JP)",
+     "period": null,
+     "period_end": "2026-07-12",
+     "publisher": "GitHub repository (herrrickshaw/Bazartalks_Py2Cplus)",
+     "series": "Per-market benchmark timings (report_2026-07-12.html)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "UK 0.5015 0.0754 6.65x",
+     "value": "0.5015 seconds (Python, UK) vs 0.0754 seconds (C++, UK)",
+     "period": null,
+     "period_end": "2026-07-12",
+     "publisher": "GitHub repository (herrrickshaw/Bazartalks_Py2Cplus)",
+     "series": "Per-market benchmark timings (report_2026-07-12.html)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "EU 0.5229 0.0671 7.79x",
+     "value": "0.5229 seconds (Python, EU) vs 0.0671 seconds (C++, EU)",
+     "period": null,
+     "period_end": "2026-07-12",
+     "publisher": "GitHub repository (herrrickshaw/Bazartalks_Py2Cplus)",
+     "series": "Per-market benchmark timings (report_2026-07-12.html)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "SG 0.4690 0.1184 3.96x",
+     "value": "0.4690 seconds (Python, SG) vs 0.1184 seconds (C++, SG)",
+     "period": null,
+     "period_end": "2026-07-12",
+     "publisher": "GitHub repository (herrrickshaw/Bazartalks_Py2Cplus)",
+     "series": "Per-market benchmark timings (report_2026-07-12.html)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "207 of 207 tests were passing at the time of its last build note",
+     "value": "207/207 tests passing",
+     "period": null,
+     "period_end": null,
+     "publisher": "GitHub repository (herrrickshaw/Bazartalks_Py2Cplus)",
+     "series": "Test suite validation",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "bare startup ~0.28s",
+     "value": "0.28 seconds",
+     "period": null,
+     "period_end": null,
+     "publisher": "GitHub repository (herrrickshaw/Bazartalks_Py2Cplus)",
+     "series": "Debug-build startup time (Cutover run #4)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "bare startup ~0.01s",
+     "value": "0.01 seconds",
+     "period": null,
+     "period_end": null,
+     "publisher": "GitHub repository (herrrickshaw/Bazartalks_Py2Cplus)",
+     "series": "Release-build startup time (Cutover run #4)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "126MB binary",
+     "value": "126 MB",
+     "period": null,
+     "period_end": null,
+     "publisher": "GitHub repository (herrrickshaw/Bazartalks_Py2Cplus)",
+     "series": "Debug-build binary size (Cutover run #4)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "43MB binary",
+     "value": "43 MB",
+     "period": null,
+     "period_end": null,
+     "publisher": "GitHub repository (herrrickshaw/Bazartalks_Py2Cplus)",
+     "series": "Release-build binary size (Cutover run #4)",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

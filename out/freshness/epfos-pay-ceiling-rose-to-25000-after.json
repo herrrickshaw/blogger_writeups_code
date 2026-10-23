@@ -1,0 +1,450 @@
+{
+ "slug": "epfos-pay-ceiling-rose-to-25000-after",
+ "text_sha1": "e62a835580be99d9",
+ "chars": 8910,
+ "checked": "2026-10-23T11:16:41",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "₹25,000 New monthly pay ceiling for compulsory provident fund and pension cover, from 17 September 2026, up from ₹15,000",
+     "value": "₹25,000",
+     "period": "from 17 September 2026",
+     "period_end": "2026-09-17",
+     "publisher": "PIB / ministry",
+     "series": "Employees’ Provident Fund Organisation pay ceiling",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "₹14,500 What the new ₹25,000 is worth in 2014 rupees: slightly less than the ₹15,000 it replaces",
+     "value": "₹14,500",
+     "period": "2014",
+     "period_end": "2014-12-31",
+     "publisher": "MoSPI",
+     "series": "consumer price index",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "51 lakh Additional workers the government expects to bring under compulsory cover",
+     "value": "51 lakh",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "PIB / ministry",
+     "series": "Additional workers under compulsory cover estimate",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "puts its annual outgo at ₹11,339 crore, against about ₹10,250 crore of existing annual support, as reported.",
+     "value": "₹11,339 crore",
+     "period": "annual",
+     "period_end": "2027-03-31",
+     "publisher": "PIB / ministry",
+     "series": "annual outgo for pension scheme support",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "against about ₹10,250 crore of existing annual support, as reported.",
+     "value": "₹10,250 crore",
+     "period": "annual",
+     "period_end": "2026-03-31",
+     "publisher": "PIB / ministry",
+     "series": "existing annual support",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "₹15,000 in September 2014 had shrunk to about ₹8,710 in 2014 rupees by August 2026.",
+     "value": "₹8,710",
+     "period": "August 2026",
+     "period_end": "2026-08-31",
+     "publisher": "MoSPI",
+     "series": "consumer price index",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "The new ₹25,000 is worth about ₹14,520 in 2014 rupees, roughly 3% less than the ceiling it replaces was worth when it was set.",
+     "value": "₹14,520",
+     "period": "August 2026",
+     "period_end": "2026-08-31",
+     "publisher": "MoSPI",
+     "series": "consumer price index",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Nov 1952 | 300 |",
+     "value": "300",
+     "period": "Nov 1952",
+     "period_end": "1952-11-30",
+     "publisher": "PIB / ministry",
+     "series": "EPFO wage ceiling revision history",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Jun 1957 | 500 | 5 |",
+     "value": "500",
+     "period": "Jun 1957",
+     "period_end": "1957-06-30",
+     "publisher": "PIB / ministry",
+     "series": "EPFO wage ceiling revision history",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Dec 1962 | 1,000 | 5 |",
+     "value": "1,000",
+     "period": "Dec 1962",
+     "period_end": "1962-12-31",
+     "publisher": "PIB / ministry",
+     "series": "EPFO wage ceiling revision history",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Dec 1967 | 1,600 | 5 |",
+     "value": "1,600",
+     "period": "Dec 1967",
+     "period_end": "1967-12-31",
+     "publisher": "PIB / ministry",
+     "series": "EPFO wage ceiling revision history",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Sep 1985 | 2,500 | 18 |",
+     "value": "2,500",
+     "period": "Sep 1985",
+     "period_end": "1985-09-30",
+     "publisher": "PIB / ministry",
+     "series": "EPFO wage ceiling revision history",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Nov 1990 | 3,500 | 5 |",
+     "value": "3,500",
+     "period": "Nov 1990",
+     "period_end": "1990-11-30",
+     "publisher": "PIB / ministry",
+     "series": "EPFO wage ceiling revision history",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Oct 1994 | 5,000 | 4 |",
+     "value": "5,000",
+     "period": "Oct 1994",
+     "period_end": "1994-10-31",
+     "publisher": "PIB / ministry",
+     "series": "EPFO wage ceiling revision history",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Jun 2001 | 6,500 | 7 |",
+     "value": "6,500",
+     "period": "Jun 2001",
+     "period_end": "2001-06-30",
+     "publisher": "PIB / ministry",
+     "series": "EPFO wage ceiling revision history",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Sep 2014 | 15,000 | 13 |",
+     "value": "15,000",
+     "period": "Sep 2014",
+     "period_end": "2014-09-30",
+     "publisher": "PIB / ministry",
+     "series": "EPFO wage ceiling revision history",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Sep 2026 | 25,000 | 12 |",
+     "value": "25,000",
+     "period": "Sep 2026",
+     "period_end": "2026-09-30",
+     "publisher": "PIB / ministry",
+     "series": "EPFO wage ceiling revision history",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Delhi’s unskilled minimum wage is about ₹18,456 a month from April 2026",
+     "value": "₹18,456",
+     "period": "April 2026",
+     "period_end": "2026-04-30",
+     "publisher": "PIB / ministry",
+     "series": "minimum wage",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "Haryana’s about ₹15,221 after a 35% increase.",
+     "value": "₹15,221",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "PIB / ministry",
+     "series": "minimum wage",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "The Centre’s own rate for unskilled sweeping and loading work in the highest-cost ‘Area A’ cities is ₹827 a day, roughly ₹21,500 for a 26-day month.",
+     "value": "₹827",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "PIB / ministry",
+     "series": "minimum wage",
+     "frequency": "daily",
+     "headline": false
+    },
+    {
+     "quote": "ESI’s threshold was raised to ₹21,000 in 2017",
+     "value": "₹21,000",
+     "period": "2017",
+     "period_end": "2017-12-31",
+     "publisher": "PIB / ministry",
+     "series": "Employees’ State Insurance threshold",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "₹25,000 New monthly pay ceiling for compulsory provident fund and pension cover, from 17 September 2026, up from ₹15,000",
+     "value": "₹25,000 per month",
+     "period": "from 17 September 2026",
+     "period_end": "2026-09-17",
+     "publisher": "Cabinet / Ministry of Labour and Employment",
+     "series": "EPFO pay ceiling",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "₹15,000 it replaces was worth when it was set",
+     "value": "₹15,000 per month (Sep 2014)",
+     "period": "September 2014",
+     "period_end": "2014-09-30",
+     "publisher": "MoSPI (via deflation)",
+     "series": "EPFO pay ceiling (historical)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹14,500 What the new ₹25,000 is worth in 2014 rupees: slightly less than the ₹15,000 it replaces",
+     "value": "₹14,500 (2014 rupees)",
+     "period": "August 2026",
+     "period_end": "2026-08-31",
+     "publisher": "MoSPI",
+     "series": "Consumer Price Index (CPI) deflation (All India combined)",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "₹8,710 by Aug 2026",
+     "value": "₹8,710 (2014 rupees)",
+     "period": "August 2026",
+     "period_end": "2026-08-31",
+     "publisher": "MoSPI",
+     "series": "Consumer Price Index (CPI) deflation (All India combined)",
+     "frequency": "monthly",
+     "headline": false
+    },
+    {
+     "quote": "51 lakh Additional workers the government expects to bring under compulsory cover",
+     "value": "51 lakh workers",
+     "period": null,
+     "period_end": null,
+     "publisher": "Ministry of Labour and Employment",
+     "series": "EPFO enrolment projections",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "annual outgo at ₹11,339 crore, against about ₹10,250 crore of existing annual support",
+     "value": "₹11,339 crore (annual)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Ministry of Labour and Employment",
+     "series": "EPFO financial outgo estimates",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹10,250 crore of existing annual support",
+     "value": "₹10,250 crore (annual)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Ministry of Labour and Employment",
+     "series": "EPFO financial outgo (existing)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Delhi’s unskilled minimum wage is about ₹18,456 a month from April 2026",
+     "value": "₹18,456 per month",
+     "period": "April 2026",
+     "period_end": "2026-04-30",
+     "publisher": "Delhi Government (via compliance publishers)",
+     "series": "Minimum wage (unskilled)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Haryana’s about ₹15,221 after a 35% increase",
+     "value": "₹15,221 per month",
+     "period": null,
+     "period_end": null,
+     "publisher": "Haryana Government (via compliance publishers)",
+     "series": "Minimum wage (unskilled)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The Centre’s own rate for unskilled sweeping and loading work in the highest-cost ‘Area A’ cities is ₹827 a day, roughly ₹21,500 for a 26-day month",
+     "value": "₹21,500 per month (26-day month)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Ministry of Labour and Employment",
+     "series": "Central minimum wage (unskilled)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "ESI’s threshold was raised to ₹21,000 in 2017",
+     "value": "₹21,000 per month",
+     "period": "2017",
+     "period_end": "2017-12-31",
+     "publisher": "Ministry of Labour and Employment",
+     "series": "Employees' State Insurance (ESI) threshold",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Employee’s share (12%, deducted from pay) | ... | 3,000",
+     "value": "₹3,000 per month (12% of ₹25,000)",
+     "period": null,
+     "period_end": null,
+     "publisher": "EPFO statutory rates",
+     "series": "Employee contribution to EPF",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Employer’s total cost | 2,600 (13%) | 3,250 (13%)",
+     "value": "₹3,250 per month (13% of ₹25,000)",
+     "period": null,
+     "period_end": null,
+     "publisher": "EPFO statutory rates",
+     "series": "Employer contribution to EPF",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Central government (1.16% to the pension scheme) | ... | 290",
+     "value": "₹290 per month (1.16% of ₹25,000)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Ministry of Labour and Employment",
+     "series": "Government contribution to Employees’ Pension Scheme",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "employer’s pension contribution goes from ₹1,250 to about ₹2,083 a month, a 67% increase",
+     "value": "₹2,083 per month (8.33% of ₹25,000)",
+     "period": null,
+     "period_end": null,
+     "publisher": "EPFO statutory rates",
+     "series": "Employer contribution to Employees’ Pension Scheme",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "A worker with 35 years of service at the cap could have expected about ₹7,500 a month; at ₹25,000 the same service would give ₹12,500",
+     "value": "₹12,500 per month (pension)",
+     "period": null,
+     "period_end": null,
+     "publisher": "EPFO pension formula",
+     "series": "Employees’ Pension Scheme payout estimates",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹15,000 (Sep 2014)",
+     "value": "₹15,000 per month",
+     "period": "September 2014",
+     "period_end": "2014-09-30",
+     "publisher": "Business Today / Nishith Desai Associates",
+     "series": "EPFO pay ceiling (historical)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹6,500 step also from Nishith Desai Associates’ note on the 2014 amendment",
+     "value": "₹6,500 per month",
+     "period": "June 2001",
+     "period_end": "2001-06-30",
+     "publisher": "Nishith Desai Associates",
+     "series": "EPFO pay ceiling (historical)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "12 years Since the last change, in September 2014",
+     "value": "12 years",
+     "period": "September 2014 to September 2026",
+     "period_end": "2026-09-30",
+     "publisher": "Ministry of Labour and Employment",
+     "series": "EPFO pay ceiling revision interval",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "13 years earlier [than 2014]",
+     "value": "13 years",
+     "period": "November 2001 to September 2014",
+     "period_end": "2014-09-30",
+     "publisher": "Business Today / Nishith Desai Associates",
+     "series": "EPFO pay ceiling revision interval",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "18 years between 1967 and 1985",
+     "value": "18 years",
+     "period": "December 1967 to September 1985",
+     "period_end": "1985-09-30",
+     "publisher": "Business Today",
+     "series": "EPFO pay ceiling revision interval (historical)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "13 between 2001 and 2014",
+     "value": "13 years",
+     "period": "June 2001 to September 2014",
+     "period_end": "2014-09-30",
+     "publisher": "Business Today",
+     "series": "EPFO pay ceiling revision interval (historical)",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

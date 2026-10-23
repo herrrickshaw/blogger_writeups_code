@@ -1,0 +1,510 @@
+{
+ "slug": "cow-dung-already-flew-rocket-engine",
+ "text_sha1": "3bb611fc32e36345",
+ "chars": 24692,
+ "checked": "2026-10-23T11:02:19",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "99%+ Purity of liquid biomethane Japan's IST fired in a rocket engine — rocket-grade",
+     "value": "99%+",
+     "period": "December 2023",
+     "period_end": "2023-12-31",
+     "publisher": "Interstellar Technologies",
+     "series": "Static-fire announcement",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "10kN Thrust of OMSPACE's bio-methane + LOX engine, India's first, unveiled May 2026",
+     "value": "10 kN",
+     "period": "May 2026",
+     "period_end": "2026-05-31",
+     "publisher": "OMSPACE",
+     "series": "Engine unveiling",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "₹23,731cr India's new GOBARdhan compressed-biogas scheme, targeting a 10× production increase",
+     "value": "₹23,731 crore",
+     "period": "FY2026-27 to FY2035-36",
+     "period_end": "2036-03-31",
+     "publisher": "PIB / ministry",
+     "series": "GOBARdhan scheme outlay",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "200+ CBG plants commissioned under SATAT and related schemes, against a 5,000-plant target",
+     "value": "200+",
+     "period": "as on 6 Aug 2026",
+     "period_end": "2026-08-06",
+     "publisher": "PIB / ministry",
+     "series": "SATAT and related schemes commissioned plants",
+     "frequency": "monthly",
+     "headline": true
+    },
+    {
+     "quote": "₹2,110 Per-MMBTU administered CBG price GOBARdhan guarantees for a minimum 10 years",
+     "value": "₹2,110 per MMBTU",
+     "period": "10 years",
+     "period_end": null,
+     "publisher": "PIB / ministry",
+     "series": "GOBARdhan administered CBG price",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "targeting around 1,000 kg to low Earth orbit.",
+     "value": "1,000 kg",
+     "period": null,
+     "period_end": null,
+     "publisher": "Interstellar Technologies",
+     "series": "Zero orbital small-launch vehicle payload specification",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "sub-scale thrust chamber for its own LOX-Methane engine at the Propulsion Complex in Mahendragiri, Tamil Nadu, on 27 January 2026",
+     "value": "27 January 2026",
+     "period": "27 January 2026",
+     "period_end": "2026-01-27",
+     "publisher": "ISRO",
+     "series": "LOX-Methane engine sub-scale test",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "a roughly 1.5 kN-thrust upper-stage engine for its Vikram-2 orbital vehicle.",
+     "value": "1.5 kN",
+     "period": "November 2021",
+     "period_end": "2021-11-30",
+     "publisher": "Skyroot Aerospace",
+     "series": "Dhawan-1 engine test-fire",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "on 14 March 2026 it flew a single-stage sub-orbital sounding rocket — Gujarat's first privately developed rocket launch",
+     "value": "14 March 2026",
+     "period": "14 March 2026",
+     "period_end": "2026-03-14",
+     "publisher": "OMSPACE",
+     "series": "Infinity-One sounding rocket test flight",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "blending obligation of 3% in FY2026-27, 4% in FY2027-28 and 5% from FY2028-29",
+     "value": "3%",
+     "period": "FY2026-27",
+     "period_end": "2027-03-31",
+     "publisher": "PIB / ministry",
+     "series": "CNG/PNG blending obligation",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "blending obligation of 3% in FY2026-27, 4% in FY2027-28 and 5% from FY2028-29",
+     "value": "4%",
+     "period": "FY2027-28",
+     "period_end": "2028-03-31",
+     "publisher": "PIB / ministry",
+     "series": "CNG/PNG blending obligation",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "blending obligation of 3% in FY2026-27, 4% in FY2027-28 and 5% from FY2028-29",
+     "value": "5%",
+     "period": "FY2028-29",
+     "period_end": "2029-03-31",
+     "publisher": "PIB / ministry",
+     "series": "CNG/PNG blending obligation",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Methane (CH4), % min | 90",
+     "value": "90%",
+     "period": "2013",
+     "period_end": "2013-12-31",
+     "publisher": "Bureau of Indian Standards",
+     "series": "IS 16087 CBG specification",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "CO2 + N2 + O2 (combined), % max | 10",
+     "value": "10%",
+     "period": "2013",
+     "period_end": "2013-12-31",
+     "publisher": "Bureau of Indian Standards",
+     "series": "IS 16087 CBG specification",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "CO2 alone, % max (cylinder-fill use) | 4",
+     "value": "4%",
+     "period": "2013",
+     "period_end": "2013-12-31",
+     "publisher": "Bureau of Indian Standards",
+     "series": "IS 16087 CBG specification",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "Moisture, mg/m³ max | 16",
+     "value": "16 mg/m³",
+     "period": "2013",
+     "period_end": "2013-12-31",
+     "publisher": "Bureau of Indian Standards",
+     "series": "IS 16087 CBG specification",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "H2S, mg/m³ max | 30.3",
+     "value": "30.3 mg/m³",
+     "period": "2013",
+     "period_end": "2013-12-31",
+     "publisher": "Bureau of Indian Standards",
+     "series": "IS 16087 CBG specification",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "methane recovery of up to 98%",
+     "value": "98%",
+     "period": null,
+     "period_end": null,
+     "publisher": "Air Liquide Advanced Separations",
+     "series": "Membrane biogas-upgrading performance",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "lift a single-stage retentate to roughly 90%–95% methane",
+     "value": "90%–95%",
+     "period": null,
+     "period_end": null,
+     "publisher": "Air Liquide Advanced Separations",
+     "series": "Membrane biogas-upgrading performance",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "99%+ Purity of liquid biomethane Japan's IST fired in a rocket engine — rocket-grade",
+     "value": "99%+ methane purity",
+     "period": "December 2023",
+     "period_end": "2023-12-31",
+     "publisher": "Interstellar Technologies (IST)",
+     "series": "Liquid biomethane engine static-fire test announcement",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "10kN Thrust of OMSPACE's bio-methane + LOX engine, India's first, unveiled May 2026",
+     "value": "10 kN thrust",
+     "period": "May 2026",
+     "period_end": "2026-05-31",
+     "publisher": "OMSPACE (via Indian Defence News, YourStory, StartupPedia)",
+     "series": "Bio-methane + LOX engine thrust data",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "₹23,731cr India's new GOBARdhan compressed-biogas scheme, targeting a 10× production increase",
+     "value": "₹23,731 crore",
+     "period": "FY2026-27 to FY2035-36",
+     "period_end": "2035-12-31",
+     "publisher": "Ministry of Petroleum and Natural Gas (via PIB)",
+     "series": "GOBARdhan scheme outlay",
+     "frequency": "multi-year",
+     "headline": true
+    },
+    {
+     "quote": "200+ CBG plants commissioned under SATAT and related schemes, against a 5,000-plant target",
+     "value": "200+ CBG plants commissioned",
+     "period": "as of 6 August 2026",
+     "period_end": "2026-08-06",
+     "publisher": "Union Cabinet (via PIB)",
+     "series": "SATAT/GOBARdhan CBG plant count",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹2,110 Per-MMBTU administered CBG price GOBARdhan guarantees for a minimum 10 years",
+     "value": "₹2,110 per MMBTU",
+     "period": "minimum 10 years (from FY2026-27)",
+     "period_end": null,
+     "publisher": "Ministry of Petroleum and Natural Gas (via PIB)",
+     "series": "GOBARdhan administered CBG price guarantee",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "ISRO tested a sub-scale thrust chamber for its own LOX-Methane engine at the Propulsion Complex in Mahendragiri, Tamil Nadu, on 27 January 2026",
+     "value": "sub-scale thrust chamber test (LOX-Methane)",
+     "period": "27 January 2026",
+     "period_end": "2026-01-27",
+     "publisher": "ISRO",
+     "series": "LOX-Methane engine sub-scale test reports",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Skyroot Aerospace had earlier (November 2021) test-fired “Dhawan-1,” India's first fully cryogenic privately built engine, running on LNG (over 90% methane) and LOX, at a Solar Industries facility in Nagpur — a roughly 1.5 kN-thrust upper-stage engine",
+     "value": "1.5 kN thrust",
+     "period": "November 2021",
+     "period_end": "2021-11-30",
+     "publisher": "Skyroot Aerospace (via Indian Defence News)",
+     "series": "Dhawan-1 engine test-fire data",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "OMSPACE has run two separate milestones in 2026: on 14 March 2026 it flew a single-stage sub-orbital sounding rocket — Gujarat's first privately developed rocket launch — and separately, in May 2026, it unveiled India's first fully cryogenic bio-methane and LOX engine",
+     "value": "sub-orbital sounding rocket launch (Infinity-One)",
+     "period": "14 March 2026",
+     "period_end": "2026-03-14",
+     "publisher": "OMSPACE (via Indian Defence News, YourStory, StartupPedia)",
+     "series": "Infinity-One rocket launch",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "OMSPACE has run two separate milestones in 2026: ... in May 2026, it unveiled India's first fully cryogenic bio-methane and LOX engine",
+     "value": "India's first fully cryogenic bio-methane + LOX engine",
+     "period": "May 2026",
+     "period_end": "2026-05-31",
+     "publisher": "OMSPACE (via Indian Defence News, YourStory, StartupPedia)",
+     "series": "Bio-methane + LOX engine unveiling",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India's SATAT scheme set a target of 5,000 compressed biogas (CBG) plants",
+     "value": "5,000 CBG plants (target)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Ministry of Petroleum and Natural Gas (via PIB)",
+     "series": "SATAT CBG plant target",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "GOBARdhan bundles six components, and two of them go directly to the economics of a rocket-grade biomethane plant. A stable administered CBG price of ₹2,110 per MMBTU is guaranteed for a minimum ten-year horizon",
+     "value": "₹2,110 per MMBTU (administered CBG price)",
+     "period": "minimum 10 years (from FY2026-27)",
+     "period_end": null,
+     "publisher": "Ministry of Petroleum and Natural Gas (via PIB)",
+     "series": "GOBARdhan administered CBG price guarantee",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "capital assistance of up to ₹2 crore per tonne-per-day (TPD) of installed capacity is available to eligible greenfield projects",
+     "value": "₹2 crore per TPD (capital assistance)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Ministry of Petroleum and Natural Gas (via PIB)",
+     "series": "GOBARdhan capital assistance",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "IS 16087:2013 CBG specification ... Methane (CH4), % min | 90",
+     "value": "90% minimum methane (CH4)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Bureau of Indian Standards (BIS)",
+     "series": "IS 16087:2013 (Biogas/Biomethane specification)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "IS 16087:2013 CBG specification ... CO2 + N2 + O2 (combined), % max | 10",
+     "value": "10% maximum CO2 + N2 + O2 (combined)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Bureau of Indian Standards (BIS)",
+     "series": "IS 16087:2013 (Biogas/Biomethane specification)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "IS 16087:2013 CBG specification ... CO2 alone, % max (cylinder-fill use) | 4",
+     "value": "4% maximum CO2 (cylinder-fill use)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Bureau of Indian Standards (BIS)",
+     "series": "IS 16087:2013 (Biogas/Biomethane specification)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "IS 16087:2013 CBG specification ... Moisture, mg/m³ max | 16",
+     "value": "16 mg/m³ maximum moisture",
+     "period": null,
+     "period_end": null,
+     "publisher": "Bureau of Indian Standards (BIS)",
+     "series": "IS 16087:2013 (Biogas/Biomethane specification)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "IS 16087:2013 CBG specification ... H2S, mg/m³ max | 30.3",
+     "value": "30.3 mg/m³ maximum H2S",
+     "period": null,
+     "period_end": null,
+     "publisher": "Bureau of Indian Standards (BIS)",
+     "series": "IS 16087:2013 (Biogas/Biomethane specification)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Membrane separation ... methane recovery of up to 98% and can lift a single-stage retentate to roughly 90%–95% methane",
+     "value": "90%–95% methane (single-stage retentate)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Air Liquide, Evonik, MTR (industry reports)",
+     "series": "Biogas membrane upgrading performance",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "CNG/PNG blending obligation of 3% in FY2026-27, 4% in FY2027-28 and 5% from FY2028-29",
+     "value": "3% (FY2026-27), 4% (FY2027-28), 5% (FY2028-29)",
+     "period": "FY2026-27 to FY2028-29",
+     "period_end": "2028-12-31",
+     "publisher": "Ministry of Petroleum and Natural Gas (via PIB)",
+     "series": "CNG/PNG blending obligations",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "GOBARdhan's capital-assistance or Challenge Fund components have ever been used, or are intended, for aerospace-grade purification specifically — not stated anywhere in the scheme announcement",
+     "value": "₹2 crore/TPD (capital assistance, unspecified use)",
+     "period": "FY2026-27 to FY2035-36",
+     "period_end": "2035-12-31",
+     "publisher": "Ministry of Petroleum and Natural Gas (via PIB)",
+     "series": "GOBARdhan capital assistance",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "Air Water's Obihiro plant appears to use a membrane stage ahead of its cryogenic liquefaction step",
+     "value": "99%+ methane purity (liquid biomethane)",
+     "period": "December 2023 (IST static fire)",
+     "period_end": "2023-12-31",
+     "publisher": "Interstellar Technologies / Air Water Group (industry synthesis)",
+     "series": "Liquid biomethane production process",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "GOBARdhan, India's National Unified Scheme for Compressed Biogas, with an outlay of Rs.23,731 crore",
+     "value": "₹23,731 crore",
+     "period": "FY2026-27 to FY2035-36",
+     "period_end": "2035-12-31",
+     "publisher": "Prime Minister's Office (PIB)",
+     "series": "GOBARdhan scheme outlay",
+     "frequency": "multi-year",
+     "headline": true
+    },
+    {
+     "quote": "GOBARdhan explicitly aiming to increase domestic CBG production roughly tenfold",
+     "value": "10× production increase (target)",
+     "period": "FY2026-27 to FY2035-36",
+     "period_end": "2035-12-31",
+     "publisher": "Ministry of Petroleum and Natural Gas (via PIB)",
+     "series": "GOBARdhan production target",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "GOBARdhan's six-component structure (offtake assurance, the ₹2,110/MMBTU administered price with a ten-year horizon, capital assistance up to ₹2 crore/TPD, pipeline infrastructure, credit guarantee support, and the CBG Ecosystem Challenge Fund)",
+     "value": "6 components (GOBARdhan scheme)",
+     "period": "FY2026-27 to FY2035-36",
+     "period_end": "2035-12-31",
+     "publisher": "Ministry of Petroleum and Natural Gas (via PIB)",
+     "series": "GOBARdhan scheme components",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "CNG/PNG blending obligation of 3% in FY2026-27",
+     "value": "3% blending obligation (FY2026-27)",
+     "period": "FY2026-27",
+     "period_end": "2026-12-31",
+     "publisher": "Ministry of Petroleum and Natural Gas (via PIB)",
+     "series": "CNG/PNG blending obligations",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "CNG/PNG blending obligation of 4% in FY2027-28",
+     "value": "4% blending obligation (FY2027-28)",
+     "period": "FY2027-28",
+     "period_end": "2027-12-31",
+     "publisher": "Ministry of Petroleum and Natural Gas (via PIB)",
+     "series": "CNG/PNG blending obligations",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "CNG/PNG blending obligation of 5% from FY2028-29",
+     "value": "5% blending obligation (FY2028-29)",
+     "period": "FY2028-29",
+     "period_end": "2028-12-31",
+     "publisher": "Ministry of Petroleum and Natural Gas (via PIB)",
+     "series": "CNG/PNG blending obligations",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "GOBARdhan's feedstocks explicitly: agricultural residue, cattle dung, press mud, and municipal organic waste",
+     "value": "4 feedstock types (agricultural residue, cattle dung, press mud, municipal organic waste)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Ministry of Petroleum and Natural Gas (via PIB)",
+     "series": "GOBARdhan feedstocks",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Membrane systems from suppliers such as Air Liquide, Evonik and MTR report methane recovery of up to 98%",
+     "value": "up to 98% methane recovery (membrane systems)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Air Liquide, Evonik, MTR (industry reports)",
+     "series": "Biogas membrane upgrading performance",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "membrane trains can cut upgrading cost by as much as 70% versus older water- or amine-scrubbing methods",
+     "value": "up to 70% cost reduction (membrane upgrading)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Air Liquide, industry blogs",
+     "series": "Biogas upgrading cost comparison",
+     "frequency": "multi-year",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

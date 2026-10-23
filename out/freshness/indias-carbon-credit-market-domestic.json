@@ -1,0 +1,560 @@
+{
+ "slug": "indias-carbon-credit-market-domestic",
+ "text_sha1": "d6b405073a954b82",
+ "chars": 22536,
+ "checked": "2026-10-23T13:54:35",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "7.5%\nChlor-Alkali\n7.1%\nPulp & Paper\n5.8%\nAluminium\n3.4%\nCement",
+     "value": "7.5%",
+     "period": "2-year average",
+     "period_end": null,
+     "publisher": "PIB / ministry",
+     "series": "First CCTS Compliance Batch: GEI Reduction Targets by Sector",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "7.1%\nPulp & Paper",
+     "value": "7.1%",
+     "period": "2-year average",
+     "period_end": null,
+     "publisher": "PIB / ministry",
+     "series": "First CCTS Compliance Batch: GEI Reduction Targets by Sector",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "5.8%\nAluminium",
+     "value": "5.8%",
+     "period": "2-year average",
+     "period_end": null,
+     "publisher": "PIB / ministry",
+     "series": "First CCTS Compliance Batch: GEI Reduction Targets by Sector",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "3.4%\nCement",
+     "value": "3.4%",
+     "period": "2-year average",
+     "period_end": null,
+     "publisher": "PIB / ministry",
+     "series": "First CCTS Compliance Batch: GEI Reduction Targets by Sector",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "First batch | G.S.R. 739(E), 8 Oct 2025 | Aluminium, Cement, Chlor-Alkali, Pulp & Paper | 282",
+     "value": "282 entities",
+     "period": "8 Oct 2025",
+     "period_end": "2025-10-08",
+     "publisher": "PIB / ministry",
+     "series": "Greenhouse Gas Emission Intensity Target Rules, 2025",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "Second batch (Jan 2026: Petroleum Refineries, Petrochemicals, Textiles, Secondary Aluminium, 208 entities)",
+     "value": "208 entities",
+     "period": "13 Jan 2026",
+     "period_end": "2026-01-13",
+     "publisher": "PIB / ministry",
+     "series": "CCTS Second Batch Obligated Entities",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "Total (as of Jan 2026) | — | Eight sectors covered | 490",
+     "value": "490 entities",
+     "period": "Jan 2026",
+     "period_end": "2026-01-31",
+     "publisher": "PIB / ministry",
+     "series": "CCTS Total Obligated Entities",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "Vedanta Ltd, Jharsuguda Smelter II | Odisha | ALMOE001OD | 13.8878 | 13.7232 | 13.2965",
+     "value": "13.8878 tCO2e/t",
+     "period": "2023-24",
+     "period_end": "2024-03-31",
+     "publisher": "PIB / ministry",
+     "series": "Greenhouse Gas Emission Intensity Target Rules, 2025 Schedule",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Vedanta Ltd, Jharsuguda Smelter II | Odisha | ALMOE001OD | 13.8878 | 13.7232 | 13.2965",
+     "value": "13.7232 tCO2e/t",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "PIB / ministry",
+     "series": "Greenhouse Gas Emission Intensity Target Rules, 2025 Schedule",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Vedanta Ltd, Jharsuguda Smelter II | Odisha | ALMOE001OD | 13.8878 | 13.7232 | 13.2965",
+     "value": "13.2965 tCO2e/t",
+     "period": "2026-27",
+     "period_end": "2027-03-31",
+     "publisher": "PIB / ministry",
+     "series": "Greenhouse Gas Emission Intensity Target Rules, 2025 Schedule",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Nalco Smelter & Power Complex, Angul | Odisha | ALMOE006OD | 17.3505 | 17.0937 | 16.4260",
+     "value": "17.3505 tCO2e/t",
+     "period": "2023-24",
+     "period_end": "2024-03-31",
+     "publisher": "PIB / ministry",
+     "series": "Greenhouse Gas Emission Intensity Target Rules, 2025 Schedule",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Nalco Smelter & Power Complex, Angul | Odisha | ALMOE006OD | 17.3505 | 17.0937 | 16.4260",
+     "value": "17.0937 tCO2e/t",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "PIB / ministry",
+     "series": "Greenhouse Gas Emission Intensity Target Rules, 2025 Schedule",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Nalco Smelter & Power Complex, Angul | Odisha | ALMOE006OD | 17.3505 | 17.0937 | 16.4260",
+     "value": "16.4260 tCO2e/t",
+     "period": "2026-27",
+     "period_end": "2027-03-31",
+     "publisher": "PIB / ministry",
+     "series": "Greenhouse Gas Emission Intensity Target Rules, 2025 Schedule",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Hindalco Industries Ltd, Hirakud Smelter | Odisha | ALMOE007OD | 19.1963 | 18.8819 | 18.0637",
+     "value": "19.1963 tCO2e/t",
+     "period": "2023-24",
+     "period_end": "2024-03-31",
+     "publisher": "PIB / ministry",
+     "series": "Greenhouse Gas Emission Intensity Target Rules, 2025 Schedule",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Hindalco Industries Ltd, Hirakud Smelter | Odisha | ALMOE007OD | 19.1963 | 18.8819 | 18.0637",
+     "value": "18.8819 tCO2e/t",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "PIB / ministry",
+     "series": "Greenhouse Gas Emission Intensity Target Rules, 2025 Schedule",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Hindalco Industries Ltd, Hirakud Smelter | Odisha | ALMOE007OD | 19.1963 | 18.8819 | 18.0637",
+     "value": "18.0637 tCO2e/t",
+     "period": "2026-27",
+     "period_end": "2027-03-31",
+     "publisher": "PIB / ministry",
+     "series": "Greenhouse Gas Emission Intensity Target Rules, 2025 Schedule",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "National Aluminium Company Ltd, Damanjodi | Odisha | ALMOE012OD | 1.1875 | 1.1704 | 1.1259",
+     "value": "1.1875 tCO2e/t",
+     "period": "2023-24",
+     "period_end": "2024-03-31",
+     "publisher": "PIB / ministry",
+     "series": "Greenhouse Gas Emission Intensity Target Rules, 2025 Schedule",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "National Aluminium Company Ltd, Damanjodi | Odisha | ALMOE012OD | 1.1875 | 1.1704 | 1.1259",
+     "value": "1.1704 tCO2e/t",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "PIB / ministry",
+     "series": "Greenhouse Gas Emission Intensity Target Rules, 2025 Schedule",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "National Aluminium Company Ltd, Damanjodi | Odisha | ALMOE012OD | 1.1875 | 1.1704 | 1.1259",
+     "value": "1.1259 tCO2e/t",
+     "period": "2026-27",
+     "period_end": "2027-03-31",
+     "publisher": "PIB / ministry",
+     "series": "Greenhouse Gas Emission Intensity Target Rules, 2025 Schedule",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Hindalco Industries Ltd, Belgaum | Karnataka | ALMOE009KA | 0.5453 | 0.5384 | 0.5207",
+     "value": "0.5453 tCO2e/t",
+     "period": "2023-24",
+     "period_end": "2024-03-31",
+     "publisher": "PIB / ministry",
+     "series": "Greenhouse Gas Emission Intensity Target Rules, 2025 Schedule",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Hindalco Industries Ltd, Belgaum | Karnataka | ALMOE009KA | 0.5453 | 0.5384 | 0.5207",
+     "value": "0.5384 tCO2e/t",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "PIB / ministry",
+     "series": "Greenhouse Gas Emission Intensity Target Rules, 2025 Schedule",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Hindalco Industries Ltd, Belgaum | Karnataka | ALMOE009KA | 0.5453 | 0.5384 | 0.5207",
+     "value": "0.5207 tCO2e/t",
+     "period": "2026-27",
+     "period_end": "2027-03-31",
+     "publisher": "PIB / ministry",
+     "series": "Greenhouse Gas Emission Intensity Target Rules, 2025 Schedule",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "J K Cement, Mudhol | Karnataka | CMTOE001KA | 0.4455 | 0.4440 | 0.4402",
+     "value": "0.4455 tCO2e/t",
+     "period": "2023-24",
+     "period_end": "2024-03-31",
+     "publisher": "PIB / ministry",
+     "series": "Greenhouse Gas Emission Intensity Target Rules, 2025 Schedule",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "J K Cement, Mudhol | Karnataka | CMTOE001KA | 0.4455 | 0.4440 | 0.4402",
+     "value": "0.4440 tCO2e/t",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "PIB / ministry",
+     "series": "Greenhouse Gas Emission Intensity Target Rules, 2025 Schedule",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "J K Cement, Mudhol | Karnataka | CMTOE001KA | 0.4455 | 0.4440 | 0.4402",
+     "value": "0.4402 tCO2e/t",
+     "period": "2026-27",
+     "period_end": "2027-03-31",
+     "publisher": "PIB / ministry",
+     "series": "Greenhouse Gas Emission Intensity Target Rules, 2025 Schedule",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Dalmia Cement (Bharat) Ltd, Belgaum | Karnataka | CMTOE002KA | 0.4894 | 0.4878 | 0.4836",
+     "value": "0.4894 tCO2e/t",
+     "period": "2023-24",
+     "period_end": "2024-03-31",
+     "publisher": "PIB / ministry",
+     "series": "Greenhouse Gas Emission Intensity Target Rules, 2025 Schedule",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Dalmia Cement (Bharat) Ltd, Belgaum | Karnataka | CMTOE002KA | 0.4894 | 0.4878 | 0.4836",
+     "value": "0.4878 tCO2e/t",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "PIB / ministry",
+     "series": "Greenhouse Gas Emission Intensity Target Rules, 2025 Schedule",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Dalmia Cement (Bharat) Ltd, Belgaum | Karnataka | CMTOE002KA | 0.4894 | 0.4878 | 0.4836",
+     "value": "0.4836 tCO2e/t",
+     "period": "2026-27",
+     "period_end": "2027-03-31",
+     "publisher": "PIB / ministry",
+     "series": "Greenhouse Gas Emission Intensity Target Rules, 2025 Schedule",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "the draft listed a 2023-24 baseline GEI of 13.4927 tCO2e/tonne with a proposed 2025-26 target of 13.2260 tCO2e/tonne",
+     "value": "13.4927 tCO2e/tonne",
+     "period": "2023-24",
+     "period_end": "2024-03-31",
+     "publisher": "PIB / ministry",
+     "series": "Greenhouse Gas Emission Intensity Target Rules, 2025 (Draft)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "with a proposed 2025-26 target of 13.2260 tCO2e/tonne",
+     "value": "13.2260 tCO2e/tonne",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "PIB / ministry",
+     "series": "Greenhouse Gas Emission Intensity Target Rules, 2025 (Draft)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "from a draft 2025-26 figure of 0.4417 to a final figure of 0.4440",
+     "value": "0.4417 tCO2e/tonne",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "PIB / ministry",
+     "series": "Greenhouse Gas Emission Intensity Target Rules, 2025 (Draft)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "eased from a draft 0.4852 to a final 0.4878",
+     "value": "0.4852 tCO2e/tonne",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "PIB / ministry",
+     "series": "Greenhouse Gas Emission Intensity Target Rules, 2025 (Draft)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "that exact two sectors are also where India's quantified EU CBAM export exposure concentrates (~$20.7bn)",
+     "value": "$20.7 billion",
+     "period": "quantified EU CBAM exposure",
+     "period_end": null,
+     "publisher": "PIB / ministry",
+     "series": "EU CBAM export exposure",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "Two-year average target, 282 obligated entities · notified G.S.R. 739(E), 8 Oct 2025",
+     "value": "282 obligated entities",
+     "period": null,
+     "period_end": null,
+     "publisher": "MoEFCC",
+     "series": "CCTS Obligated Entities Notification (G.S.R. 739(E))",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "7.5% Chlor-Alkali · 7.1% Pulp & Paper · 5.8% Aluminium · 3.4% Cement",
+     "value": "7.5% (Chlor-Alkali), 7.1% (Pulp & Paper), 5.8% (Aluminium), 3.4% (Cement)",
+     "period": "two-year average target (2025-26 and 2026-27)",
+     "period_end": "2027-03-31",
+     "publisher": "MoEFCC",
+     "series": "Greenhouse Gas Emission Intensity Target Rules, 2025 (G.S.R. 739(E))",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "Second batch (Jan 2026: Petroleum Refineries, Petrochemicals, Textiles, Secondary Aluminium, 208 entities) had no targets specified in sources gathered.",
+     "value": "208 obligated entities",
+     "period": "as of Jan 2026",
+     "period_end": "2026-01-13",
+     "publisher": "MoEFCC / PIB",
+     "series": "CCTS Second Batch Notification (PIB Release ID 2217239)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Total (as of Jan 2026) | ... | Eight sectors covered | 490 | —",
+     "value": "490 obligated entities",
+     "period": "as of Jan 2026",
+     "period_end": "2026-01-13",
+     "publisher": "MoEFCC / PIB",
+     "series": "CCTS Obligated Entities Summary (PIB Release ID 2217239)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Vedanta Ltd, Jharsuguda Smelter II | Odisha | ALMOE001OD | Baseline GEI 2023-24 (tCO2e/t) | 13.8878 | Target 2025-26 (tCO2e/t) | 13.7232 | Target 2026-27 (tCO2e/t) | 13.2965",
+     "value": "Baseline: 13.8878 tCO2e/t (2023-24), Target 2025-26: 13.7232 tCO2e/t, Target 2026-27: 13.2965 tCO2e/t",
+     "period": "2023-24 (baseline), 2025-26 and 2026-27 (targets)",
+     "period_end": "2027-03-31",
+     "publisher": "MoEFCC",
+     "series": "Greenhouse Gas Emission Intensity Target Rules, 2025 (G.S.R. 739(E))",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Nalco Smelter & Power Complex, Angul | Odisha | ALMOE006OD | Baseline GEI 2023-24 (tCO2e/t) | 17.3505 | Target 2025-26 (tCO2e/t) | 17.0937 | Target 2026-27 (tCO2e/t) | 16.4260",
+     "value": "Baseline: 17.3505 tCO2e/t (2023-24), Target 2025-26: 17.0937 tCO2e/t, Target 2026-27: 16.4260 tCO2e/t",
+     "period": "2023-24 (baseline), 2025-26 and 2026-27 (targets)",
+     "period_end": "2027-03-31",
+     "publisher": "MoEFCC",
+     "series": "Greenhouse Gas Emission Intensity Target Rules, 2025 (G.S.R. 739(E))",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Hindalco Industries Ltd, Hirakud Smelter | Odisha | ALMOE007OD | Baseline GEI 2023-24 (tCO2e/t) | 19.1963 | Target 2025-26 (tCO2e/t) | 18.8819 | Target 2026-27 (tCO2e/t) | 18.0637",
+     "value": "Baseline: 19.1963 tCO2e/t (2023-24), Target 2025-26: 18.8819 tCO2e/t, Target 2026-27: 18.0637 tCO2e/t",
+     "period": "2023-24 (baseline), 2025-26 and 2026-27 (targets)",
+     "period_end": "2027-03-31",
+     "publisher": "MoEFCC",
+     "series": "Greenhouse Gas Emission Intensity Target Rules, 2025 (G.S.R. 739(E))",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "National Aluminium Company Ltd, Damanjodi | Odisha | ALMOE012OD | Baseline GEI 2023-24 (tCO2e/t) | 1.1875 | Target 2025-26 (tCO2e/t) | 1.1704 | Target 2026-27 (tCO2e/t) | 1.1259",
+     "value": "Baseline: 1.1875 tCO2e/t (2023-24), Target 2025-26: 1.1704 tCO2e/t, Target 2026-27: 1.1259 tCO2e/t",
+     "period": "2023-24 (baseline), 2025-26 and 2026-27 (targets)",
+     "period_end": "2027-03-31",
+     "publisher": "MoEFCC",
+     "series": "Greenhouse Gas Emission Intensity Target Rules, 2025 (G.S.R. 739(E))",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Hindalco Industries Ltd, Belgaum | Karnataka | ALMOE009KA | Baseline GEI 2023-24 (tCO2e/t) | 0.5453 | Target 2025-26 (tCO2e/t) | 0.5384 | Target 2026-27 (tCO2e/t) | 0.5207",
+     "value": "Baseline: 0.5453 tCO2e/t (2023-24), Target 2025-26: 0.5384 tCO2e/t, Target 2026-27: 0.5207 tCO2e/t",
+     "period": "2023-24 (baseline), 2025-26 and 2026-27 (targets)",
+     "period_end": "2027-03-31",
+     "publisher": "MoEFCC",
+     "series": "Greenhouse Gas Emission Intensity Target Rules, 2025 (G.S.R. 739(E))",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "J K Cement, Mudhol | Karnataka | CMTOE001KA | Baseline GEI 2023-24 (tCO2e/t) | 0.4455 | Target 2025-26 (tCO2e/t) | 0.4440 | Target 2026-27 (tCO2e/t) | 0.4402",
+     "value": "Baseline: 0.4455 tCO2e/t (2023-24), Target 2025-26: 0.4440 tCO2e/t, Target 2026-27: 0.4402 tCO2e/t",
+     "period": "2023-24 (baseline), 2025-26 and 2026-27 (targets)",
+     "period_end": "2027-03-31",
+     "publisher": "MoEFCC",
+     "series": "Greenhouse Gas Emission Intensity Target Rules, 2025 (G.S.R. 739(E))",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Dalmia Cement (Bharat) Ltd, Belgaum | Karnataka | CMTOE002KA | Baseline GEI 2023-24 (tCO2e/t) | 0.4894 | Target 2025-26 (tCO2e/t) | 0.4878 | Target 2026-27 (tCO2e/t) | 0.4836",
+     "value": "Baseline: 0.4894 tCO2e/t (2023-24), Target 2025-26: 0.4878 tCO2e/t, Target 2026-27: 0.4836 tCO2e/t",
+     "period": "2023-24 (baseline), 2025-26 and 2026-27 (targets)",
+     "period_end": "2027-03-31",
+     "publisher": "MoEFCC",
+     "series": "Greenhouse Gas Emission Intensity Target Rules, 2025 (G.S.R. 739(E))",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Vedanta Ltd's Jharsuguda Smelter II (registration ALMOE001OD), the draft listed a 2023-24 baseline GEI of 13.4927 tCO2e/tonne with a proposed 2025-26 target of 13.2260 tCO2e/tonne. The final notification lists a baseline of 13.8878 tCO2e/tonne and a final 2025-26 target of 13.7232 tCO2e/tonne",
+     "value": "Draft baseline: 13.4927 tCO2e/tonne, Draft target: 13.2260 tCO2e/tonne; Final baseline: 13.8878 tCO2e/tonne, Final target: 13.7232 tCO2e/tonne",
+     "period": "2023-24 (baseline), 2025-26 (target)",
+     "period_end": "2026-03-31",
+     "publisher": "MoEFCC",
+     "series": "Greenhouse Gas Emission Intensity Target Rules, 2025 (Draft: G.S.R. 234(अ), Final: G.S.R. 739(E))",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "J K Cement's Mudhol facility (CMTOE001KA), the baseline GEI was identical in both draft and final (0.4455 tCO2e/tonne) — it was only the target that loosened, from a draft 2025-26 figure of 0.4417 to a final figure of 0.4440",
+     "value": "Draft target: 0.4417 tCO2e/tonne, Final target: 0.4440 tCO2e/tonne",
+     "period": "2025-26 (target)",
+     "period_end": "2026-03-31",
+     "publisher": "MoEFCC",
+     "series": "Greenhouse Gas Emission Intensity Target Rules, 2025 (Draft: G.S.R. 234(अ), Final: G.S.R. 739(E))",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Dalmia Cement's Belgaum facility (CMTOE002KA): baseline unchanged at 0.4894, but the 2025-26 target eased from a draft 0.4852 to a final 0.4878",
+     "value": "Draft target: 0.4852 tCO2e/tonne, Final target: 0.4878 tCO2e/tonne",
+     "period": "2025-26 (target)",
+     "period_end": "2026-03-31",
+     "publisher": "MoEFCC",
+     "series": "Greenhouse Gas Emission Intensity Target Rules, 2025 (Draft: G.S.R. 234(अ), Final: G.S.R. 739(E))",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Carbon Pulse reported in July 2024 that India expanded the list and added a list for Article 6.4",
+     "value": "Article 6.4 list added (expansion of Article 6.2 activities)",
+     "period": "as of July 2024",
+     "period_end": "2024-07-31",
+     "publisher": "Carbon Pulse",
+     "series": "Article 6.2/6.4 Activity List Updates",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "MoEFCC's orders page now lists a further revised list of Article 6.2 activities, and a 2025 NDAIAPA notification that supersedes the one dated 30 May 2022",
+     "value": "Revised Article 6.2 activities list (2025 NDAIAPA notification)",
+     "period": "as of 2025",
+     "period_end": "2025-12-31",
+     "publisher": "MoEFCC / NDAIAPA",
+     "series": "Article 6.2 Activity List (NDAIAPA Notification)",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "One report dates a revised list to 30 September 2025",
+     "value": "Revised Article 6.2 activities list (30 September 2025)",
+     "period": "30 September 2025",
+     "period_end": "2025-09-30",
+     "publisher": "NDAIAPA (unspecified source)",
+     "series": "Article 6.2 Activity List",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Compressed Bio-Gas is item 5 on MoEFCC's own finalised Article 6.2 activity list (PIB Release ID 1900216, 17 February 2023)",
+     "value": "Compressed Bio-Gas (CBG) as eligible activity (item 5)",
+     "period": "as of 17 February 2023",
+     "period_end": "2023-02-17",
+     "publisher": "MoEFCC / PIB",
+     "series": "Article 6.2 Eligible Activities List (PIB Release ID 1900216)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "MoEFCC's release says the list 'will initially be for the first 03 years and may be updated/revised by NDAIAPA' — from a 17 February 2023 release, that three-year window has now technically elapsed.",
+     "value": "Three-year initial validity period for Article 6.2 activity list (elapsed)",
+     "period": "17 February 2023 to 17 February 2026",
+     "period_end": "2026-02-17",
+     "publisher": "MoEFCC",
+     "series": "Article 6.2 Activity List (PIB Release ID 1900216)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "MoEFCC issued a revised draft GEI-target notification for 255 iron and steel units on 26 June 2026 (public 2 July), naming JSW Steel, Tata Steel, SAIL and ArcelorMittal Nippon Steel among the covered plants, with a 60-day objection window and 2026-27 as the compliance-year target.",
+     "value": "255 iron and steel units (draft notification, 2026-27 compliance)",
+     "period": "2026-27 (compliance year)",
+     "period_end": "2027-03-31",
+     "publisher": "MoEFCC",
+     "series": "CCTS Draft GEI Target Notification for Iron & Steel (26 June 2026)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India's quantified EU CBAM export exposure concentrates (~$20.7bn)",
+     "value": "$20.7 billion",
+     "period": null,
+     "period_end": null,
+     "publisher": "Unspecified (referenced in follow-up article)",
+     "series": "EU CBAM Exposure for India",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

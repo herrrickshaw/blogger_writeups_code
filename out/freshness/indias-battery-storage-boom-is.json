@@ -1,0 +1,620 @@
+{
+ "slug": "indias-battery-storage-boom-is",
+ "text_sha1": "2955c5ebba35fb73",
+ "chars": 33445,
+ "checked": "2026-10-23T13:52:47",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "As of 31 December 2025, India's cumulative installed BESS capacity stood at roughly 1,082 MWh (about 1.08 GWh)",
+     "value": "1,082 MWh",
+     "period": "as on 31 December 2025",
+     "period_end": "2025-12-31",
+     "publisher": "Mercom India",
+     "series": "cumulative installed BESS capacity",
+     "frequency": "quarterly",
+     "headline": true
+    },
+    {
+     "quote": "Q1 2026 alone added 4.6 GWh, taking cumulative installed capacity to roughly 5.9 GWh by end-March 2026",
+     "value": "5.9 GWh",
+     "period": "Q1 2026",
+     "period_end": "2026-03-31",
+     "publisher": "Mercom India",
+     "series": "cumulative installed BESS capacity",
+     "frequency": "quarterly",
+     "headline": true
+    },
+    {
+     "quote": "By 30 June 2026, cumulative installed capacity reached about 9.3 GWh",
+     "value": "9.3 GWh",
+     "period": "as on 30 June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "Mercom India",
+     "series": "cumulative installed BESS capacity",
+     "frequency": "quarterly",
+     "headline": true
+    },
+    {
+     "quote": "Installed PSP capacity reached 7.2 GW by March 2026, of which 5.7 GW was operational",
+     "value": "7.2 GW",
+     "period": "March 2026",
+     "period_end": "2026-03-31",
+     "publisher": "Mercom India",
+     "series": "installed PSP capacity",
+     "frequency": "quarterly",
+     "headline": true
+    },
+    {
+     "quote": "Installed PSP capacity reached 7.2 GW by March 2026, of which 5.7 GW was operational",
+     "value": "5.7 GW",
+     "period": "March 2026",
+     "period_end": "2026-03-31",
+     "publisher": "Mercom India",
+     "series": "operational PSP capacity",
+     "frequency": "quarterly",
+     "headline": true
+    },
+    {
+     "quote": "2025 alone saw 69 storage tenders totalling 102 GWh floated",
+     "value": "102 GWh",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "India ESA (IESA)",
+     "series": "storage tenders floated",
+     "frequency": "annual",
+     "headline": true
+    },
+    {
+     "quote": "SECI's first standalone BESS pilot, in August 2022, discovered a tariff of ₹10.83–10.84 lakh/MW/month",
+     "value": "₹10.83–10.84 lakh/MW/month",
+     "period": "August 2022",
+     "period_end": "2022-08-31",
+     "publisher": "SECI",
+     "series": "standalone BESS capacity-charge tariffs",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "H2 2024 tenders came in around ₹3.0–3.2 lakh/MW/month",
+     "value": "₹3.0–3.2 lakh/MW/month",
+     "period": "H2 2024",
+     "period_end": "2024-12-31",
+     "publisher": "secondary-press reporting",
+     "series": "standalone BESS capacity-charge tariffs",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "A January 2025 tender backed by VGF discovered ₹2.22 lakh/MW/month",
+     "value": "₹2.22 lakh/MW/month",
+     "period": "January 2025",
+     "period_end": "2025-01-31",
+     "publisher": "secondary-press reporting",
+     "series": "standalone BESS capacity-charge tariffs",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "An April 2025 two-hour system with no VGF subsidy at all came in at ₹2.8–2.85 lakh/MW/month",
+     "value": "₹2.8–2.85 lakh/MW/month",
+     "period": "April 2025",
+     "period_end": "2025-04-30",
+     "publisher": "secondary-press reporting",
+     "series": "standalone BESS capacity-charge tariffs",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "GUVNL's Gujarat auctions across 2025-26 cleared in the ₹2.10–2.30 lakh/MW/month range",
+     "value": "₹2.10–2.30 lakh/MW/month",
+     "period": "2025-26",
+     "period_end": "2026-03-31",
+     "publisher": "GUVNL",
+     "series": "standalone BESS capacity-charge tariffs",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "In December 2025, SVR Electro Projects bid a national record low of ₹1.48 lakh/MW/month in APTRANSCO's 1,000 MW Andhra Pradesh tender",
+     "value": "₹1.48 lakh/MW/month",
+     "period": "December 2025",
+     "period_end": "2025-12-31",
+     "publisher": "APTRANSCO",
+     "series": "standalone BESS capacity-charge tariffs",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "Tranche I was approved by the Union Cabinet on 6 September 2023 ... ₹9,400 crore (incl. ₹3,760 crore budgetary support)",
+     "value": "₹9,400 crore",
+     "period": "FY2023-24",
+     "period_end": "2024-03-31",
+     "publisher": "PIB / Union Cabinet",
+     "series": "VGF Tranche I Outlay",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Tranche II, a materially different design, followed on 14 May 2026 ... ₹5,400 crore, from the Power System Development Fund",
+     "value": "₹5,400 crore",
+     "period": "FY2026-27",
+     "period_end": "2027-03-31",
+     "publisher": "PIB / Union Cabinet",
+     "series": "VGF Tranche II Outlay",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Tranche I ... Target | 4,000 MWh of BESS by FY2030-31",
+     "value": "4,000 MWh",
+     "period": "FY2030-31",
+     "period_end": "2031-03-31",
+     "publisher": "PIB / Union Cabinet",
+     "series": "VGF Tranche I Target",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Tranche II ... Target | 30 GWh new BESS (25 GWh across 15 states + 5 GWh NTPC)",
+     "value": "30 GWh",
+     "period": "FY2026-27",
+     "period_end": "2027-03-31",
+     "publisher": "PIB / Union Cabinet",
+     "series": "VGF Tranche II Target",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "As reported, the scheme has awarded 40 GWh of capacity to four beneficiary firms — but only about 1.4 GWh, or 2.8% of the original 50 GWh target, had actually been commissioned as of October 2025",
+     "value": "40 GWh",
+     "period": "October 2025",
+     "period_end": "2025-10-31",
+     "publisher": "Ministry of Heavy Industries",
+     "series": "ACC PLI Scheme Awarded Capacity",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "As reported, the scheme has awarded 40 GWh of capacity to four beneficiary firms — but only about 1.4 GWh, or 2.8% of the original 50 GWh target, had actually been commissioned as of October 2025",
+     "value": "1.4 GWh",
+     "period": "October 2025",
+     "period_end": "2025-10-31",
+     "publisher": "Ministry of Heavy Industries",
+     "series": "ACC PLI Scheme Commissioned Capacity",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "As reported, the scheme has awarded 40 GWh of capacity to four beneficiary firms — but only about 1.4 GWh, or 2.8% of the original 50 GWh target, had actually been commissioned as of October 2025",
+     "value": "50 GWh",
+     "period": "FY2021-22",
+     "period_end": "2022-03-31",
+     "publisher": "Ministry of Heavy Industries",
+     "series": "ACC PLI Scheme Target Capacity",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "CEA's Report on Optimal Generation Capacity Mix for 2029-30 (Version 2.0, May 2023) projects a total FY2029-30 storage requirement of 60.63 GW/336.4 GWh",
+     "value": "60.63 GW",
+     "period": "FY2029-30",
+     "period_end": "2030-03-31",
+     "publisher": "CEA",
+     "series": "Optimal Generation Capacity Mix Storage Requirement",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "CEA's Report on Optimal Generation Capacity Mix for 2029-30 (Version 2.0, May 2023) projects a total FY2029-30 storage requirement of 60.63 GW/336.4 GWh",
+     "value": "336.4 GWh",
+     "period": "FY2029-30",
+     "period_end": "2030-03-31",
+     "publisher": "CEA",
+     "series": "Optimal Generation Capacity Mix Storage Requirement",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The National Electricity Plan 2023 ... separately projects 16.13 GW/82.37 GWh for FY2026-27, rising to 73.93 GW/411.4 GWh by FY2031-32",
+     "value": "16.13 GW",
+     "period": "FY2026-27",
+     "period_end": "2027-03-31",
+     "publisher": "CEA",
+     "series": "National Electricity Plan Storage Requirement",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The National Electricity Plan 2023 ... separately projects 16.13 GW/82.37 GWh for FY2026-27, rising to 73.93 GW/411.4 GWh by FY2031-32",
+     "value": "82.37 GWh",
+     "period": "FY2026-27",
+     "period_end": "2027-03-31",
+     "publisher": "CEA",
+     "series": "National Electricity Plan Storage Requirement",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The National Electricity Plan 2023 ... separately projects 16.13 GW/82.37 GWh for FY2026-27, rising to 73.93 GW/411.4 GWh by FY2031-32",
+     "value": "73.93 GW",
+     "period": "FY2031-32",
+     "period_end": "2032-03-31",
+     "publisher": "CEA",
+     "series": "National Electricity Plan Storage Requirement",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The National Electricity Plan 2023 ... separately projects 16.13 GW/82.37 GWh for FY2026-27, rising to 73.93 GW/411.4 GWh by FY2031-32",
+     "value": "411.4 GWh",
+     "period": "FY2031-32",
+     "period_end": "2032-03-31",
+     "publisher": "CEA",
+     "series": "National Electricity Plan Storage Requirement",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "CEA's National Generation Adequacy Plan for FY2026-27 to FY2035-36 ... projects a storage buildout of 174 GW/888 GWh by FY2035-36, including 94 GW of pumped storage",
+     "value": "174 GW",
+     "period": "FY2035-36",
+     "period_end": "2036-03-31",
+     "publisher": "CEA",
+     "series": "National Generation Adequacy Plan Storage Buildout",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "CEA's National Generation Adequacy Plan for FY2026-27 to FY2035-36 ... projects a storage buildout of 174 GW/888 GWh by FY2035-36, including 94 GW of pumped storage",
+     "value": "888 GWh",
+     "period": "FY2035-36",
+     "period_end": "2036-03-31",
+     "publisher": "CEA",
+     "series": "National Generation Adequacy Plan Storage Buildout",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "CEA's National Generation Adequacy Plan for FY2026-27 to FY2035-36 ... projects a storage buildout of 174 GW/888 GWh by FY2035-36, including 94 GW of pumped storage",
+     "value": "94 GW",
+     "period": "FY2035-36",
+     "period_end": "2036-03-31",
+     "publisher": "CEA",
+     "series": "National Generation Adequacy Plan Pumped Storage",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "installed grid-scale battery storage capacity grew from roughly 1.08 GWh at the end of 2025 to about 9.3 GWh by mid-2026",
+     "value": "1.08 GWh → 9.3 GWh",
+     "period": "end of 2025 to mid-2026",
+     "period_end": "2026-06-30",
+     "publisher": "Mercom India",
+     "series": "installed battery energy storage system (BESS) capacity tracking",
+     "frequency": "quarterly",
+     "headline": true
+    },
+    {
+     "quote": "Q1 2026 alone added 4.6 GWh, taking cumulative installed capacity to roughly 5.9 GWh by end-March 2026",
+     "value": "4.6 GWh (Q1 2026 addition), 5.9 GWh (cumulative by end-March 2026)",
+     "period": "Q1 2026, end-March 2026",
+     "period_end": "2026-03-31",
+     "publisher": "Mercom India",
+     "series": "installed BESS capacity tracking",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "by 30 June 2026, cumulative installed capacity reached about 9.3 GWh, with 8.2 GWh added in the first half of 2026 alone",
+     "value": "9.3 GWh (cumulative by 30 June 2026), 8.2 GWh (H1 2026 addition)",
+     "period": "H1 2026, 30 June 2026",
+     "period_end": "2026-06-30",
+     "publisher": "Mercom India",
+     "series": "installed BESS capacity tracking",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "as of 31 December 2025, India's cumulative installed BESS capacity stood at roughly 1,082 MWh (about 1.08 GWh)",
+     "value": "1,082 MWh (≈1.08 GWh)",
+     "period": "as of 31 December 2025",
+     "period_end": "2025-12-31",
+     "publisher": "Mercom India",
+     "series": "year-end installed BESS capacity tracking",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "of that small base, solar-plus-storage hybrids accounted for more than 54%, solar-plus-wind RTC for roughly 23%, standalone BESS for about 21%",
+     "value": "54% (solar+storage), 23% (solar+wind RTC), 21% (standalone BESS)",
+     "period": "as of 31 December 2025",
+     "period_end": "2025-12-31",
+     "publisher": "Mercom India (via pv-magazine India)",
+     "series": "installed BESS capacity composition",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "installed PSP capacity reached 7.2 GW by March 2026, of which 5.7 GW was operational",
+     "value": "7.2 GW (installed), 5.7 GW (operational)",
+     "period": "March 2026",
+     "period_end": "2026-03-31",
+     "publisher": "Mercom India",
+     "series": "pumped storage hydro (PSP) capacity tracking",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "2025 alone saw 69 storage tenders totalling 102 GWh floated, nearly matching the combined tendered volume of 2018 through 2024",
+     "value": "69 tenders, 102 GWh (2025)",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "IESA (via pv-magazine India)",
+     "series": "storage tender volume tracking",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "roughly 28 GW of storage tenders floated in H1 2026, with about 9 GW auctioned",
+     "value": "28 GW (floated), 9 GW (auctioned)",
+     "period": "H1 2026",
+     "period_end": "2026-06-30",
+     "publisher": "Mercom India",
+     "series": "storage tender volume tracking",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "₹1,86,405 crore Green Energy Corridor Phase III, including ₹50,000 crore for 50 GWh of battery energy storage",
+     "value": "₹1,86,405 crore (total), ₹50,000 crore (storage)",
+     "period": "approved 30 September 2026",
+     "period_end": "2026-09-30",
+     "publisher": "PIB (via Mercom/Indian Infrastructure)",
+     "series": "Green Energy Corridor Phase III budget allocation",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹54,082 crore central financial support for Green Energy Corridor Phase III",
+     "value": "₹54,082 crore",
+     "period": "approved 30 September 2026",
+     "period_end": "2026-09-30",
+     "publisher": "PIB (via Mercom/Indian Infrastructure)",
+     "series": "Green Energy Corridor Phase III central funding",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹9,400 crore VGF Tranche I outlay (incl. ₹3,760 crore budgetary support)",
+     "value": "₹9,400 crore (total), ₹3,760 crore (budgetary)",
+     "period": "approved 6 September 2023",
+     "period_end": "2023-09-06",
+     "publisher": "PIB (via secondary press)",
+     "series": "Viability Gap Funding (VGF) Tranche I",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹5,400 crore VGF Tranche II outlay, from the Power System Development Fund",
+     "value": "₹5,400 crore",
+     "period": "approved 14 May 2026",
+     "period_end": "2026-05-14",
+     "publisher": "PIB (via Energetica India/JMK Research)",
+     "series": "Viability Gap Funding (VGF) Tranche II",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹18,100 crore ACC PLI scheme outlay aimed at 50 GWh of manufacturing capacity",
+     "value": "₹18,100 crore (outlay), 50 GWh (target capacity)",
+     "period": "approved 12 May 2021",
+     "period_end": "2021-05-12",
+     "publisher": "Ministry of Heavy Industries (via PIB)",
+     "series": "Advanced Chemistry Cell (ACC) PLI scheme",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "only about 1.4 GWh commissioned as of October 2025, per IEEFA",
+     "value": "1.4 GWh commissioned",
+     "period": "as of October 2025",
+     "period_end": "2025-10-31",
+     "publisher": "IEEFA (via JMK Research)",
+     "series": "ACC PLI scheme commissioned capacity",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹10.83–10.84 lakh/MW/month for SECI's first standalone BESS pilot (August 2022)",
+     "value": "₹10.83–10.84 lakh/MW/month",
+     "period": "August 2022",
+     "period_end": "2022-08-31",
+     "publisher": "SECI (via secondary press)",
+     "series": "standalone BESS tender tariffs",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "H2 2024 tenders came in around ₹3.0–3.2 lakh/MW/month",
+     "value": "₹3.0–3.2 lakh/MW/month",
+     "period": "H2 2024",
+     "period_end": "2024-12-31",
+     "publisher": "secondary press",
+     "series": "standalone BESS tender tariffs",
+     "frequency": "quarterly",
+     "headline": false
+    },
+    {
+     "quote": "January 2025 tender backed by VGF discovered ₹2.22 lakh/MW/month",
+     "value": "₹2.22 lakh/MW/month",
+     "period": "January 2025",
+     "period_end": "2025-01-31",
+     "publisher": "secondary press",
+     "series": "standalone BESS tender tariffs",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "April 2025 two-hour system with no VGF came in at ₹2.8–2.85 lakh/MW/month",
+     "value": "₹2.8–2.85 lakh/MW/month",
+     "period": "April 2025",
+     "period_end": "2025-04-30",
+     "publisher": "secondary press",
+     "series": "standalone BESS tender tariffs",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "GUVNL's Gujarat auctions across 2025-26 cleared in the ₹2.10–2.30 lakh/MW/month range",
+     "value": "₹2.10–2.30 lakh/MW/month",
+     "period": "2025-26",
+     "period_end": "2026-06-30",
+     "publisher": "GUVNL (via secondary press)",
+     "series": "standalone BESS tender tariffs",
+     "frequency": "half-yearly",
+     "headline": false
+    },
+    {
+     "quote": "APTRANSCO's 1,000 MW Andhra Pradesh tender cleared at ₹1.48 lakh/MW/month (December 2025)",
+     "value": "₹1.48 lakh/MW/month",
+     "period": "December 2025",
+     "period_end": "2025-12-31",
+     "publisher": "APTRANSCO (via secondary press)",
+     "series": "standalone BESS tender tariffs",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "battery pack costs fell about 36.5% between 2022 and 2025",
+     "value": "36.5% decline",
+     "period": "2022–2025",
+     "period_end": "2025-12-31",
+     "publisher": "IEEFA & JMK Research",
+     "series": "battery pack cost decline benchmark",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "IEEFA-JMK estimate that up to 75% of 2025's two-hour standalone BESS tariffs may not be viable",
+     "value": "75% of 2025's two-hour BESS tariffs",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "IEEFA & JMK Research",
+     "series": "BESS tender viability analysis",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹4.04/kWh (5.61 US cents/kWh) weighted-average tariff for a renewable-cum-storage tender",
+     "value": "₹4.04/kWh (5.61 US cents/kWh)",
+     "period": null,
+     "period_end": null,
+     "publisher": "secondary press",
+     "series": "renewable-cum-storage tender tariff",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India's actual lithium-ion cell manufacturing capacity remained only around 1 GWh by the end of 2025",
+     "value": "1 GWh",
+     "period": "end of 2025",
+     "period_end": "2025-12-31",
+     "publisher": "trade-analysis outlets (IndexBox, EnkiAI, SilicIndia Energies)",
+     "series": "lithium-ion cell manufacturing capacity",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "India's domestic battery-pack-assembly capacity is roughly 60 GWh",
+     "value": "60 GWh",
+     "period": null,
+     "period_end": null,
+     "publisher": "trade-analysis outlets",
+     "series": "battery-pack-assembly capacity",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "lithium iron phosphate (LFP) commands roughly 72% of India's BESS chemistry deployments",
+     "value": "72%",
+     "period": null,
+     "period_end": null,
+     "publisher": "trade blog (unverified)",
+     "series": "BESS chemistry deployment share",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "IESA's year-end tracker states 224 GWh of storage capacity cumulatively tendered by 31 December 2025",
+     "value": "224 GWh",
+     "period": "by 31 December 2025",
+     "period_end": "2025-12-31",
+     "publisher": "IESA (via pv-magazine India)",
+     "series": "storage tender volume tracking",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "IESA's tracker: 92 GWh BESS plus 132 GWh PSP cumulatively tendered by 31 December 2025",
+     "value": "92 GWh (BESS), 132 GWh (PSP)",
+     "period": "by 31 December 2025",
+     "period_end": "2025-12-31",
+     "publisher": "IESA (via pv-magazine India)",
+     "series": "storage tender volume breakdown",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "IEEFA-JMK report states India's cumulative tendered energy storage capacity grew from 6.8 GW in 2018 to 90.7 GW by 2025",
+     "value": "6.8 GW (2018) → 90.7 GW (2025)",
+     "period": "2018–2025",
+     "period_end": "2025-12-31",
+     "publisher": "IEEFA-JMK Research",
+     "series": "energy storage tender volume tracking",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "CEA's Report on Optimal Generation Capacity Mix for 2029-30 projects 60.63 GW/336.4 GWh total storage requirement",
+     "value": "60.63 GW/336.4 GWh",
+     "period": "FY2029-30",
+     "period_end": "2029-03-31",
+     "publisher": "CEA (via Power Line Magazine)",
+     "series": "storage requirement projections",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "National Electricity Plan 2023 projects 16.13 GW/82.37 GWh for FY2026-27, rising to 73.93 GW/411.4 GWh by FY2031-32",
+     "value": "16.13 GW/82.37 GWh (FY2026-27) → 73.93 GW/411.4 GWh (FY2031-32)",
+     "period": "FY2026-27 to FY2031-32",
+     "period_end": "2031-03-31",
+     "publisher": "Ministry of Power (via PIB)",
+     "series": "storage requirement projections",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "CEA's National Generation Adequacy Plan projects 174 GW/888 GWh storage buildout by FY2035-36",
+     "value": "174 GW/888 GWh",
+     "period": "FY2035-36",
+     "period_end": "2035-03-31",
+     "publisher": "CEA (via Renewable Watch)",
+     "series": "storage buildout projections",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

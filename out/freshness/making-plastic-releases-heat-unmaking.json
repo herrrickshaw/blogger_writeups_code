@@ -1,0 +1,804 @@
+{
+ "slug": "making-plastic-releases-heat-unmaking",
+ "text_sha1": "40ea6656172afecb",
+ "chars": 42301,
+ "checked": "2026-10-23T14:57:15",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "−94 kJ Heat released per mole of ethylene when it joins a polyethylene chain, about 3.4 MJ per kilogram of plastic made",
+     "value": "−94 kJ per mole",
+     "period": "as on 31 Aug 2026",
+     "period_end": null,
+     "publisher": "NIST",
+     "series": "NIST Chemistry WebBook standard enthalpies of formation",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "~335°C Temperature above which breaking propane into ethylene and methane becomes thermodynamically favoured, by this blog’s calculation from NIST data",
+     "value": "~335°C",
+     "period": "as on 31 Aug 2026",
+     "period_end": null,
+     "publisher": "NIST",
+     "series": "NIST Chemistry WebBook standard enthalpies of formation and entropies",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "142°C How much a ZSM-5 zeolite lowered the temperature at which polyethylene starts to break down, in one 2025 study",
+     "value": "142°C",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "Energy & Fuels",
+     "series": "Acidic Site-Controlled ZSM-5 Catalysts for Fast Molten-Phase Pyrolysis of Plastic Waste with Tunable Product Distribution",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "41% Share of India’s pyrolysed waste tyres recovered as oil in FY2024, from NITI Aayog’s tonnages: 1.10 Mt from 2.68 Mt",
+     "value": "41%",
+     "period": "FY2024",
+     "period_end": "2024-03-31",
+     "publisher": "NITI Aayog",
+     "series": "Enhancing Circular Economy of Waste Tyres in India",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "~₹6,000/t What IOCL Paradip estimated it would pay to have spent FCC catalyst taken to cement kilns, in a 2019 tender",
+     "value": "~₹6,000/t",
+     "period": "2019",
+     "period_end": "2019-12-31",
+     "publisher": "TenderDetail",
+     "series": "IOCL Paradip Tender",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "When ethylene polymerises into polyethylene, each mole gives off about 94 kJ, which works out to about 3.4 MJ per kilogram of plastic made.",
+     "value": "about 94 kJ",
+     "period": "as on 31 Aug 2026",
+     "period_end": null,
+     "publisher": "NIST",
+     "series": "NIST Chemistry WebBook",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Styrene releases about 73 kJ per mole and methyl methacrylate, the monomer of acrylic sheet, about 56 kJ.",
+     "value": "about 73 kJ per mole",
+     "period": "as on 31 Aug 2026",
+     "period_end": null,
+     "publisher": "NIST",
+     "series": "NIST Chemistry WebBook",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Styrene releases about 73 kJ per mole and methyl methacrylate, the monomer of acrylic sheet, about 56 kJ.",
+     "value": "about 56 kJ per mole",
+     "period": "as on 31 Aug 2026",
+     "period_end": null,
+     "publisher": "NIST",
+     "series": "NIST Chemistry WebBook",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Breaking a carbon–carbon bond in propane to give ethylene and methane absorbs about 82 kJ per mole and raises entropy by about 135 J per mole per kelvin, so it becomes favoured above roughly 610 K, or about 335°C.",
+     "value": "about 82 kJ per mole",
+     "period": "as on 31 Aug 2026",
+     "period_end": null,
+     "publisher": "NIST",
+     "series": "NIST Chemistry WebBook",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Breaking a carbon–carbon bond in propane to give ethylene and methane absorbs about 82 kJ per mole and raises entropy by about 135 J per mole per kelvin, so it becomes favoured above roughly 610 K, or about 335°C.",
+     "value": "about 135 J per mole per kelvin",
+     "period": "as on 31 Aug 2026",
+     "period_end": null,
+     "publisher": "NIST",
+     "series": "NIST Chemistry WebBook",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Pulling hydrogen off ethane to give ethylene absorbs about 136 kJ and raises entropy by about 121 J, so it needs about 1,130 K, or about 855°C.",
+     "value": "about 136 kJ",
+     "period": "as on 31 Aug 2026",
+     "period_end": null,
+     "publisher": "NIST",
+     "series": "NIST Chemistry WebBook",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Pulling hydrogen off ethane to give ethylene absorbs about 136 kJ and raises entropy by about 121 J, so it needs about 1,130 K, or about 855°C.",
+     "value": "about 121 J",
+     "period": "as on 31 Aug 2026",
+     "period_end": null,
+     "publisher": "NIST",
+     "series": "NIST Chemistry WebBook",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "A 2025 study in Energy & Fuels found that a ZSM-5 zeolite with a silicon-to-aluminium ratio of 22 made high-density polyethylene start losing weight at about 306°C, 142°C below the plastic on its own",
+     "value": "22",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "Energy & Fuels",
+     "series": "Acidic Site-Controlled ZSM-5 Catalysts for Fast Molten-Phase Pyrolysis of Plastic Waste with Tunable Product Distribution",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "one study reported about 21% of those aromatics at 500°C, with most of the rest as light gases.",
+     "value": "about 21%",
+     "period": "2025",
+     "period_end": "2025-12-31",
+     "publisher": "Energy & Fuels",
+     "series": "Acidic Site-Controlled ZSM-5 Catalysts for Fast Molten-Phase Pyrolysis of Plastic Waste with Tunable Product Distribution",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "A 2015 review by Vogt and Weckhuysen in Chemical Society Reviews estimated that about 2,300 tonnes of FCC catalyst are made worldwide every day, about 840,000 tonnes a year, or about 0.16 kg for every barrel of feed.",
+     "value": "about 2,300 tonnes",
+     "period": "2015",
+     "period_end": "2015-12-31",
+     "publisher": "Chemical Society Reviews",
+     "series": "Fluid catalytic cracking: recent developments on the grand old lady of zeolite catalysis",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "A 2015 review by Vogt and Weckhuysen in Chemical Society Reviews estimated that about 2,300 tonnes of FCC catalyst are made worldwide every day, about 840,000 tonnes a year, or about 0.16 kg for every barrel of feed.",
+     "value": "about 840,000 tonnes a year",
+     "period": "2015",
+     "period_end": "2015-12-31",
+     "publisher": "Chemical Society Reviews",
+     "series": "Fluid catalytic cracking: recent developments on the grand old lady of zeolite catalysis",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Spent hydroprocessing catalysts, which carry nickel, molybdenum, cobalt and vanadium, add another 150,000–170,000 tonnes a year worldwide",
+     "value": "150,000–170,000 tonnes a year",
+     "period": "2008",
+     "period_end": "2008-12-31",
+     "publisher": "Resources, Conservation and Recycling",
+     "series": "Spent hydroprocessing catalyst management reviews",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India has 17 FCC units, five of them residue crackers, according to Industrial Info Resources, an industry data provider.",
+     "value": "17",
+     "period": "as on 31 Aug 2026",
+     "period_end": null,
+     "publisher": "Industrial Info Resources",
+     "series": "Industry data provider records",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "India has 17 FCC units, five of them residue crackers, according to Industrial Info Resources, an industry data provider.",
+     "value": "five",
+     "period": "as on 31 Aug 2026",
+     "period_end": null,
+     "publisher": "Industrial Info Resources",
+     "series": "Industry data provider records",
+     "frequency": "live",
+     "headline": false
+    },
+    {
+     "quote": "IOCL Paradip, Dec 2019 | 3,500 t of FCC catalyst from the INDMAX unit, for co-processing in cement kilns; estimate ₹2.10 crore | Refinery |",
+     "value": "3,500 t",
+     "period": "Dec 2019",
+     "period_end": "2019-12-31",
+     "publisher": "TenderDetail",
+     "series": "IOCL Paradip Tender",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "IOCL Paradip, Dec 2019 | 3,500 t of FCC catalyst from the INDMAX unit, for co-processing in cement kilns; estimate ₹2.10 crore | Refinery |",
+     "value": "₹2.10 crore",
+     "period": "Dec 2019",
+     "period_end": "2019-12-31",
+     "publisher": "TenderDetail",
+     "series": "IOCL Paradip Tender",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "IOCL Paradip, 2018–2026 | Repeat disposal contracts: ₹70.33 lakh (2018–19), ₹3.62 crore (2023), ₹2.26 crore (Dec 2025, “dry waste”), ₹2.62 crore (Aug 2026) | Refinery |",
+     "value": "₹70.33 lakh",
+     "period": "2018–19",
+     "period_end": "2019-03-31",
+     "publisher": "TenderDetail",
+     "series": "IOCL Paradip Repeat Disposal Contracts",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "IOCL Paradip, 2018–2026 | Repeat disposal contracts: ₹70.33 lakh (2018–19), ₹3.62 crore (2023), ₹2.26 crore (Dec 2025, “dry waste”), ₹2.62 crore (Aug 2026) | Refinery |",
+     "value": "₹3.62 crore",
+     "period": "2023",
+     "period_end": "2023-12-31",
+     "publisher": "TenderDetail",
+     "series": "IOCL Paradip Repeat Disposal Contracts",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "IOCL Paradip, 2018–2026 | Repeat disposal contracts: ₹70.33 lakh (2018–19), ₹3.62 crore (2023), ₹2.26 crore (Dec 2025, “dry waste”), ₹2.62 crore (Aug 2026) | Refinery |",
+     "value": "₹2.26 crore",
+     "period": "Dec 2025",
+     "period_end": "2025-12-31",
+     "publisher": "TenderDetail",
+     "series": "IOCL Paradip Repeat Disposal Contracts",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "IOCL Paradip, 2018–2026 | Repeat disposal contracts: ₹70.33 lakh (2018–19), ₹3.62 crore (2023), ₹2.26 crore (Dec 2025, “dry waste”), ₹2.62 crore (Aug 2026) | Refinery |",
+     "value": "₹2.62 crore",
+     "period": "Aug 2026",
+     "period_end": "2026-08-31",
+     "publisher": "TenderDetail",
+     "series": "IOCL Paradip Repeat Disposal Contracts",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "IOCL Panipat, 2020–2026 | Annual contracts to lift and dispose of FCC catalyst through an authorised agency: ₹1.14 crore (2021, 2024), ₹1.08 crore (May 2026) | Refinery |",
+     "value": "₹1.14 crore",
+     "period": "2021",
+     "period_end": "2021-12-31",
+     "publisher": "TenderDetail",
+     "series": "IOCL Panipat Annual Contracts",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "IOCL Panipat, 2020–2026 | Annual contracts to lift and dispose of FCC catalyst through an authorised agency: ₹1.14 crore (2021, 2024), ₹1.08 crore (May 2026) | Refinery |",
+     "value": "₹1.08 crore",
+     "period": "May 2026",
+     "period_end": "2026-05-31",
+     "publisher": "TenderDetail",
+     "series": "IOCL Panipat Annual Contracts",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "IOCL Bongaigaon, 2021–2024 | INDMAX catalyst for co-processing, ₹1.28 crore (2021); then expressions of interest to dispose of it by auction (2022, 2024) | Refinery, then buyer |",
+     "value": "₹1.28 crore",
+     "period": "2021",
+     "period_end": "2021-12-31",
+     "publisher": "TenderDetail",
+     "series": "IOCL Bongaigaon INDMAX Catalyst Disposal",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Numaligarh, Jun 2020 | 400 t of hydrocracker and hydrogen-unit catalysts (nickel, tungsten, molybdenum oxides); bidding from zero | Buyer |",
+     "value": "400 t",
+     "period": "Jun 2020",
+     "period_end": "2020-06-30",
+     "publisher": "Numaligarh Refinery",
+     "series": "Numaligarh Refinery Auction Document",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Numaligarh’s 2020 auction offered 400 tonnes of mixed spent catalyst — hydrocracker catalysts listed as containing 5–10% nickel oxide and 10–50% tungsten oxide or 5–10% molybdenum oxide",
+     "value": "5–10%",
+     "period": "Jun 2020",
+     "period_end": "2020-06-30",
+     "publisher": "Numaligarh Refinery",
+     "series": "Numaligarh Refinery Auction Document",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Numaligarh’s 2020 auction offered 400 tonnes of mixed spent catalyst — hydrocracker catalysts listed as containing 5–10% nickel oxide and 10–50% tungsten oxide or 5–10% molybdenum oxide",
+     "value": "10–50%",
+     "period": "Jun 2020",
+     "period_end": "2020-06-30",
+     "publisher": "Numaligarh Refinery",
+     "series": "Numaligarh Refinery Auction Document",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "NITI Aayog’s January 2026 report, Enhancing Circular Economy of Waste Tyres in India , puts the waste tyres recycled in FY2024 at 3 million tonnes, of which 1.6 million were generated in India and 1.4 million imported.",
+     "value": "3 million tonnes",
+     "period": "FY2024",
+     "period_end": "2024-03-31",
+     "publisher": "NITI Aayog",
+     "series": "Enhancing Circular Economy of Waste Tyres in India",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "NITI Aayog’s January 2026 report, Enhancing Circular Economy of Waste Tyres in India , puts the waste tyres recycled in FY2024 at 3 million tonnes, of which 1.6 million were generated in India and 1.4 million imported.",
+     "value": "1.6 million",
+     "period": "FY2024",
+     "period_end": "2024-03-31",
+     "publisher": "NITI Aayog",
+     "series": "Enhancing Circular Economy of Waste Tyres in India",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "NITI Aayog’s January 2026 report, Enhancing Circular Economy of Waste Tyres in India , puts the waste tyres recycled in FY2024 at 3 million tonnes, of which 1.6 million were generated in India and 1.4 million imported.",
+     "value": "1.4 million",
+     "period": "FY2024",
+     "period_end": "2024-03-31",
+     "publisher": "NITI Aayog",
+     "series": "Enhancing Circular Economy of Waste Tyres in India",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Pyrolysis took 2.68 million tonnes of that, almost all of it (2.64 million) in batch reactors and only 0.04 million in continuous plants.",
+     "value": "2.68 million tonnes",
+     "period": "FY2024",
+     "period_end": "2024-03-31",
+     "publisher": "NITI Aayog",
+     "series": "Enhancing Circular Economy of Waste Tyres in India",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Pyrolysis took 2.68 million tonnes of that, almost all of it (2.64 million) in batch reactors and only 0.04 million in continuous plants.",
+     "value": "2.64 million",
+     "period": "FY2024",
+     "period_end": "2024-03-31",
+     "publisher": "NITI Aayog",
+     "series": "Enhancing Circular Economy of Waste Tyres in India",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Pyrolysis took 2.68 million tonnes of that, almost all of it (2.64 million) in batch reactors and only 0.04 million in continuous plants.",
+     "value": "0.04 million",
+     "period": "FY2024",
+     "period_end": "2024-03-31",
+     "publisher": "NITI Aayog",
+     "series": "Enhancing Circular Economy of Waste Tyres in India",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "From those 2.68 million tonnes the report estimates 1.10 million tonnes of tyre pyrolysis oil, 0.80 million tonnes of carbon char and 0.3 million tonnes of steel wire.",
+     "value": "1.10 million tonnes",
+     "period": "FY2024",
+     "period_end": "2024-03-31",
+     "publisher": "NITI Aayog",
+     "series": "Enhancing Circular Economy of Waste Tyres in India",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "From those 2.68 million tonnes the report estimates 1.10 million tonnes of tyre pyrolysis oil, 0.80 million tonnes of carbon char and 0.3 million tonnes of steel wire.",
+     "value": "0.80 million tonnes",
+     "period": "FY2024",
+     "period_end": "2024-03-31",
+     "publisher": "NITI Aayog",
+     "series": "Enhancing Circular Economy of Waste Tyres in India",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "From those 2.68 million tonnes the report estimates 1.10 million tonnes of tyre pyrolysis oil, 0.80 million tonnes of carbon char and 0.3 million tonnes of steel wire.",
+     "value": "0.3 million tonnes",
+     "period": "FY2024",
+     "period_end": "2024-03-31",
+     "publisher": "NITI Aayog",
+     "series": "Enhancing Circular Economy of Waste Tyres in India",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "India’s tyre pyrolysis plants recover about 41% of their feed as an oil that has no national standard.",
+     "value": "41%",
+     "period": "FY2024",
+     "period_end": "2024-03-31",
+     "publisher": "NITI Aayog",
+     "series": "Enhancing Circular Economy of Waste Tyres in India (January 2026)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "NITI Aayog’s January 2026 report puts the waste tyres recycled in FY2024 at 3 million tonnes, of which 1.6 million were generated in India and 1.4 million imported.",
+     "value": "3 million tonnes",
+     "period": "FY2024",
+     "period_end": "2024-03-31",
+     "publisher": "NITI Aayog",
+     "series": "Enhancing Circular Economy of Waste Tyres in India (January 2026)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Pyrolysis took 2.68 million tonnes of that [waste tyres], almost all of it (2.64 million) in batch reactors and only 0.04 million in continuous plants.",
+     "value": "2.68 million tonnes",
+     "period": "FY2024",
+     "period_end": "2024-03-31",
+     "publisher": "NITI Aayog",
+     "series": "Enhancing Circular Economy of Waste Tyres in India (January 2026)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "From those 2.68 million tonnes the report estimates 1.10 million tonnes of tyre pyrolysis oil, 0.80 million tonnes of carbon char and 0.3 million tonnes of steel wire.",
+     "value": "1.10 million tonnes (oil), 0.80 million tonnes (char), 0.3 million tonnes (steel)",
+     "period": "FY2024",
+     "period_end": "2024-03-31",
+     "publisher": "NITI Aayog",
+     "series": "Enhancing Circular Economy of Waste Tyres in India (January 2026)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "NITI Aayog estimates that using tyre oil in place of imported fuel oils could save about ₹1,520 crore in imports.",
+     "value": "₹1,520 crore",
+     "period": null,
+     "period_end": null,
+     "publisher": "NITI Aayog",
+     "series": "Enhancing Circular Economy of Waste Tyres in India (January 2026)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "MoRTH supplied data show NHAI projects used 113,714 tonnes of CRMB in FY2023, 168,531 tonnes in FY2024 and 277,193 tonnes in FY2025.",
+     "value": "113,714 tonnes (FY2023), 168,531 tonnes (FY2024), 277,193 tonnes (FY2025)",
+     "period": "FY2023, FY2024, FY2025",
+     "period_end": [
+      "2023-03-31",
+      "2024-03-31",
+      "2025-03-31"
+     ],
+     "publisher": "MoRTH (Ministry of Road Transport and Highways)",
+     "series": "Data recorded in MoEFCC’s Technical Review Committee (July 2025)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "NHAI’s 277,193 tonnes in FY2025 embodied roughly 55,000 tonnes of waste tyre.",
+     "value": "55,000 tonnes",
+     "period": "FY2025",
+     "period_end": "2025-03-31",
+     "publisher": "NITI Aayog (blog’s calculation)",
+     "series": "Enhancing Circular Economy of Waste Tyres in India (January 2026)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "NITI Aayog estimates that 1.53 million tonnes of tyres were crumbed in FY2024 but that only 0.05 million tonnes of crumb went to direct uses of any kind.",
+     "value": "1.53 million tonnes (crumbed), 0.05 million tonnes (direct use)",
+     "period": "FY2024",
+     "period_end": "2024-03-31",
+     "publisher": "NITI Aayog",
+     "series": "Enhancing Circular Economy of Waste Tyres in India (January 2026)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "A fluid catalytic cracker... cracks in a few seconds as the two rise together. The reaction absorbs heat, typically quoted at 200–700 kJ per kilogram of feed.",
+     "value": "200–700 kJ/kg",
+     "period": null,
+     "period_end": null,
+     "publisher": "Refining texts (typical values)",
+     "series": "Heat of cracking in FCC",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "A 2015 review by Vogt and Weckhuysen estimated that about 2,300 tonnes of FCC catalyst are made worldwide every day, about 840,000 tonnes a year.",
+     "value": "2,300 tonnes/day, 840,000 tonnes/year",
+     "period": null,
+     "period_end": null,
+     "publisher": "Vogt and Weckhuysen (Chemical Society Reviews, 2015)",
+     "series": "Global FCC catalyst production",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Spent hydroprocessing catalysts add another 150,000–170,000 tonnes a year worldwide.",
+     "value": "150,000–170,000 tonnes/year",
+     "period": null,
+     "period_end": null,
+     "publisher": "Reviews of spent hydroprocessing catalyst management",
+     "series": "Global spent hydroprocessing catalyst volume",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "IOCL Paradip estimated it would pay to have spent FCC catalyst taken to cement kilns at about ₹6,000 per tonne.",
+     "value": "₹6,000/tonne",
+     "period": "2019 tender",
+     "period_end": "2019-12-31",
+     "publisher": "IOCL Paradip (2019 tender)",
+     "series": "Disposal cost of spent FCC catalyst",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "IOCL Paradip, Dec 2019: 3,500 t of FCC catalyst for co-processing in cement kilns; estimate ₹2.10 crore.",
+     "value": "3,500 tonnes, ₹2.10 crore",
+     "period": "Dec 2019",
+     "period_end": "2019-12-31",
+     "publisher": "IOCL Paradip",
+     "series": "Tender for spent FCC catalyst disposal",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "IOCL Paradip, 2018–2026: Repeat disposal contracts: ₹70.33 lakh (2018–19), ₹3.62 crore (2023), ₹2.26 crore (Dec 2025), ₹2.62 crore (Aug 2026).",
+     "value": "₹70.33 lakh (2018–19), ₹3.62 crore (2023), ₹2.26 crore (Dec 2025), ₹2.62 crore (Aug 2026)",
+     "period": [
+      "2018–19",
+      "2023",
+      "Dec 2025",
+      "Aug 2026"
+     ],
+     "period_end": [
+      "2019-03-31",
+      "2023-03-31",
+      "2025-12-31",
+      "2026-08-31"
+     ],
+     "publisher": "IOCL Paradip",
+     "series": "Disposal contracts for spent FCC catalyst",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "A 2025 study in Energy & Fuels found that a ZSM-5 zeolite with a silicon-to-aluminium ratio of 22 made high-density polyethylene start losing weight at about 306°C, 142°C below the plastic on its own.",
+     "value": "306°C, 142°C",
+     "period": "2025 study",
+     "period_end": null,
+     "publisher": "Energy & Fuels (2025)",
+     "series": "Catalytic pyrolysis of polyethylene",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "A 2023 study in the Journal of Thermal Analysis and Calorimetry found spent FCC catalyst lowered the temperature at which polypropylene starts to break down by about 59 K.",
+     "value": "59 K",
+     "period": "2023 study",
+     "period_end": null,
+     "publisher": "Journal of Thermal Analysis and Calorimetry (2023)",
+     "series": "Catalytic pyrolysis of polypropylene",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "A 2021 study of waste polypropylene showed the trade-off: the catalyst cut liquid oil from 83% to 78% and raised gas from 13% to 20%, at a catalyst-to-plastic ratio of 0.1.",
+     "value": "83% → 78% (oil), 13% → 20% (gas), ratio 0.1",
+     "period": "2021 study",
+     "period_end": null,
+     "publisher": "Journal of Thermal Analysis and Calorimetry (2021)",
+     "series": "Catalytic pyrolysis of waste polypropylene",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "A 2025 pilot study in Energy & Fuels co-processed 5–20% tyre oil with atmospheric gas oil in a commercial nickel–molybdenum hydrotreater at 330–390°C and 55 bar, aiming at 10-ppm diesel.",
+     "value": "5–20%, 330–390°C, 55 bar, 10 ppm",
+     "period": "2025 pilot study",
+     "period_end": null,
+     "publisher": "Energy & Fuels (2025)",
+     "series": "Catalytic hydrodesulphurization of tyre oil",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "A 2025 study measured 1.16% sulphur in tyre oil.",
+     "value": "1.16%",
+     "period": "2025 study",
+     "period_end": null,
+     "publisher": "Polymers (2025)",
+     "series": "Sulphur content in tyre oil",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "A 2025 study in Energy & Fuels reported about 21% benzene, toluene and xylene at 500°C when platinum was loaded onto ZSM-5.",
+     "value": "21%",
+     "period": "2025 study",
+     "period_end": null,
+     "publisher": "Energy & Fuels (2025)",
+     "series": "Catalytic pyrolysis of polyethylene with platinum-loaded ZSM-5",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "A 2024 open-access study of catalytic tyre pyrolysis found oil sulphur as low as 0.38% using formulated red mud catalyst.",
+     "value": "0.38%",
+     "period": "2024 study",
+     "period_end": null,
+     "publisher": "Open-access study (2024)",
+     "series": "Catalytic pyrolysis of waste tyres with red mud",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "A 2025 pilot study in Energy & Fuels co-processed 5–20% tyre oil with atmospheric gas oil in a commercial nickel–molybdenum hydrotreater at 330–390°C and 55 bar, aiming at 10-ppm diesel.",
+     "value": "330–390°C, 55 bar, 10 ppm",
+     "period": "2025 pilot study",
+     "period_end": null,
+     "publisher": "Energy & Fuels (2025)",
+     "series": "Catalytic hydrodesulphurization of tyre oil",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "A 2021 study of waste polypropylene showed the trade-off: the catalyst cut liquid oil from 83% to 78% and raised gas from 13% to 20%, at a catalyst-to-plastic ratio of 0.1.",
+     "value": "83% → 78% (oil), 13% → 20% (gas), ratio 0.1",
+     "period": "2021 study",
+     "period_end": null,
+     "publisher": "Journal of Thermal Analysis and Calorimetry (2021)",
+     "series": "Catalytic pyrolysis of waste polypropylene",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "A 2025 study in Energy & Fuels found that a ZSM-5 zeolite with a silicon-to-aluminium ratio of 22 made high-density polyethylene start losing weight at about 306°C, 142°C below the plastic on its own.",
+     "value": "306°C, 142°C",
+     "period": "2025 study",
+     "period_end": null,
+     "publisher": "Energy & Fuels (2025)",
+     "series": "Catalytic pyrolysis of polyethylene",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Breaking a carbon–carbon bond in propane to give ethylene and methane absorbs about 82 kJ per mole and raises entropy by about 135 J per mole per kelvin.",
+     "value": "82 kJ/mol, 135 J/mol·K",
+     "period": null,
+     "period_end": null,
+     "publisher": "NIST Chemistry WebBook (blog’s calculation)",
+     "series": "Thermodynamic data for propane cracking",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Pulling hydrogen off ethane to give ethylene absorbs about 136 kJ and raises entropy by about 121 J, so it needs about 1,130 K, or about 855°C.",
+     "value": "136 kJ/mol, 121 J/mol·K, ~855°C",
+     "period": null,
+     "period_end": null,
+     "publisher": "NIST Chemistry WebBook (blog’s calculation)",
+     "series": "Thermodynamic data for ethane cracking",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "A 2025 study in Energy & Fuels reported about 21% benzene, toluene and xylene at 500°C when platinum was loaded onto ZSM-5.",
+     "value": "21%",
+     "period": "2025 study",
+     "period_end": null,
+     "publisher": "Energy & Fuels (2025)",
+     "series": "Catalytic pyrolysis of polyethylene with platinum-loaded ZSM-5",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "A 2025 study in Energy & Fuels found that a ZSM-5 zeolite with a silicon-to-aluminium ratio of 22 made high-density polyethylene start losing weight at about 306°C, 142°C below the plastic on its own.",
+     "value": "306°C, 142°C",
+     "period": "2025 study",
+     "period_end": null,
+     "publisher": "Energy & Fuels (2025)",
+     "series": "Catalytic pyrolysis of polyethylene",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "A 2023 study in the Journal of Thermal Analysis and Calorimetry found spent FCC catalyst lowered the temperature at which polypropylene starts to break down by about 59 K.",
+     "value": "59 K",
+     "period": "2023 study",
+     "period_end": null,
+     "publisher": "Journal of Thermal Analysis and Calorimetry (2023)",
+     "series": "Catalytic pyrolysis of polypropylene",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "A 2021 study of waste polypropylene showed the trade-off: the catalyst cut liquid oil from 83% to 78% and raised gas from 13% to 20%, at a catalyst-to-plastic ratio of 0.1.",
+     "value": "83% → 78% (oil), 13% → 20% (gas), ratio 0.1",
+     "period": "2021 study",
+     "period_end": null,
+     "publisher": "Journal of Thermal Analysis and Calorimetry (2021)",
+     "series": "Catalytic pyrolysis of waste polypropylene",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "A 2025 pilot study in Energy & Fuels co-processed 5–20% tyre oil with atmospheric gas oil in a commercial nickel–molybdenum hydrotreater at 330–390°C and 55 bar, aiming at 10-ppm diesel.",
+     "value": "330–390°C, 55 bar, 10 ppm",
+     "period": "2025 pilot study",
+     "period_end": null,
+     "publisher": "Energy & Fuels (2025)",
+     "series": "Catalytic hydrodesulphurization of tyre oil",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "A 2025 study measured 1.16% sulphur in tyre oil.",
+     "value": "1.16%",
+     "period": "2025 study",
+     "period_end": null,
+     "publisher": "Polymers (2025)",
+     "series": "Sulphur content in tyre oil",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "A 2025 study in Energy & Fuels reported about 21% benzene, toluene and xylene at 500°C when platinum was loaded onto ZSM-5.",
+     "value": "21%",
+     "period": "2025 study",
+     "period_end": null,
+     "publisher": "Energy & Fuels (2025)",
+     "series": "Catalytic pyrolysis of polyethylene with platinum-loaded ZSM-5",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "A 2024 open-access study of catalytic tyre pyrolysis found oil sulphur as low as 0.38% using formulated red mud catalyst.",
+     "value": "0.38%",
+     "period": "2024 study",
+     "period_end": null,
+     "publisher": "Open-access study (2024)",
+     "series": "Catalytic pyrolysis of waste tyres with red mud",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "A 2025 pilot study in Energy & Fuels co-processed 5–20% tyre oil with atmospheric gas oil in a commercial nickel–molybdenum hydrotreater at 330–390°C and 55 bar, aiming at 10-ppm diesel.",
+     "value": "330–390°C, 55 bar, 10 ppm",
+     "period": "2025 pilot study",
+     "period_end": null,
+     "publisher": "Energy & Fuels (2025)",
+     "series": "Catalytic hydrodesulphurization of tyre oil",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "A 2025 study in Energy & Fuels found that a ZSM-5 zeolite with a silicon-to-aluminium ratio of 22 made high-density polyethylene start losing weight at about 306°C, 142°C below the plastic on its own.",
+     "value": "306°C, 142°C",
+     "period": "2025 study",
+     "period_end": null,
+     "publisher": "Energy & Fuels (2025)",
+     "series": "Catalytic pyrolysis of polyethylene",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "A 2025 study in Energy & Fuels reported about 21% benzene, toluene and xylene at 500°C when platinum was loaded onto ZSM-5.",
+     "value": "21%",
+     "period": "2025 study",
+     "period_end": null,
+     "publisher": "Energy & Fuels (2025)",
+     "series": "Catalytic pyrolysis of polyethylene with platinum-loaded ZSM-5",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

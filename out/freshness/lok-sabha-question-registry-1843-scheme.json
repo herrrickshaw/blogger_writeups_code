@@ -1,0 +1,149 @@
+{
+ "slug": "lok-sabha-question-registry-1843-scheme",
+ "text_sha1": "ce21b03f0fcaa760",
+ "chars": 6917,
+ "checked": "2026-10-23T14:55:58",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "UDAN/RCS alone accounts for 273 of 1,890 questions — nearly one in seven,",
+     "value": "273 questions",
+     "period": "17th–18th Lok Sabha",
+     "period_end": "2026-08-12",
+     "publisher": "Lok Sabha Secretariat",
+     "series": "Lok Sabha Question Registry",
+     "frequency": "live",
+     "headline": true
+    },
+    {
+     "quote": "Share of 1,890 scheme-related questions, 17th–18th Lok Sabha (2019–2026)",
+     "value": "1,890 questions",
+     "period": "17th–18th Lok Sabha",
+     "period_end": "2026-08-12",
+     "publisher": "Lok Sabha Secretariat",
+     "series": "Lok Sabha Question Registry",
+     "frequency": "live",
+     "headline": true
+    },
+    {
+     "quote": "UDAN/RCS 273 questions",
+     "value": "273 questions",
+     "period": "17th–18th Lok Sabha",
+     "period_end": "2026-08-12",
+     "publisher": "Lok Sabha Secretariat",
+     "series": "Lok Sabha Question Registry",
+     "frequency": "live",
+     "headline": true
+    },
+    {
+     "quote": "All other schemes (combined) 1,617 questions",
+     "value": "1,617 questions",
+     "period": "17th–18th Lok Sabha",
+     "period_end": "2026-08-12",
+     "publisher": "Lok Sabha Secretariat",
+     "series": "Lok Sabha Question Registry",
+     "frequency": "live",
+     "headline": true
+    },
+    {
+     "quote": "— 104 starred (answered orally on the floor), the rest unstarred (written)",
+     "value": "104 starred questions",
+     "period": "17th–18th Lok Sabha",
+     "period_end": "2026-08-12",
+     "publisher": "Lok Sabha Secretariat",
+     "series": "Lok Sabha Question Registry",
+     "frequency": "live",
+     "headline": true
+    },
+    {
+     "quote": "across the 17th and 18th Lok Sabha (2019-06-21 → 2026-08-12)",
+     "value": "2019-06-21 to 2026-08-12",
+     "period": "17th and 18th Lok Sabha",
+     "period_end": "2026-08-12",
+     "publisher": "Lok Sabha Secretariat",
+     "series": "Lok Sabha Question Registry",
+     "frequency": "live",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "its regional-connectivity viability-gap funding accounts for 273 of the 1,890 Lok Sabha questions",
+     "value": "273 questions",
+     "period": "17th–18th Lok Sabha (2019–2026)",
+     "period_end": "2026-08-12",
+     "publisher": "Lok Sabha Secretariat (via sansad.in)",
+     "series": "Lok Sabha Questions Registry (scheme-related)",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "1,890 scheme-related questions, 17th–18th Lok Sabha (2019–2026)",
+     "value": "1,890 questions",
+     "period": "17th–18th Lok Sabha (2019–2026)",
+     "period_end": "2026-08-12",
+     "publisher": "Lok Sabha Secretariat (via sansad.in)",
+     "series": "Lok Sabha Questions Registry (scheme-related)",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "104 starred (answered orally on the floor), the rest unstarred (written)",
+     "value": "104 starred questions",
+     "period": null,
+     "publisher": "Lok Sabha Secretariat (via sansad.in)",
+     "series": "Lok Sabha Questions Registry (UDAN/RCS-specific)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "17th LS: 2019–2024; 18th LS: 2024–today",
+     "value": "17th Lok Sabha (2019–2024)",
+     "period": "2019-06-21 to 2024-05-31",
+     "period_end": "2024-05-31",
+     "publisher": "Lok Sabha Secretariat (via sansad.in)",
+     "series": "Lok Sabha Questions Registry (17th LS)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "17th LS: 2019–2024; 18th LS: 2024–today",
+     "value": "18th Lok Sabha (2024–2026-08-12)",
+     "period": "2024-06-04 to 2026-08-12",
+     "period_end": "2026-08-12",
+     "publisher": "Lok Sabha Secretariat (via sansad.in)",
+     "series": "Lok Sabha Questions Registry (18th LS)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "This registry covers investment policies, schemes and incentives across the 17th and 18th Lok Sabha (2019-06-21 → 2026-08-12)",
+     "value": "2019-06-21 to 2026-08-12",
+     "period": "17th–18th Lok Sabha",
+     "period_end": "2026-08-12",
+     "publisher": "Lok Sabha Secretariat (via sansad.in)",
+     "series": "Lok Sabha Questions Registry (full scope)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Generated 2026-08-19 by scripts/build_pq_registry.py",
+     "value": "2026-08-19",
+     "period": "as on 2026-08-19",
+     "period_end": "2026-08-19",
+     "publisher": "Author (digital-twin-for-ipa)",
+     "series": "Lok Sabha Questions Registry (build timestamp)",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  }
+ }
+}

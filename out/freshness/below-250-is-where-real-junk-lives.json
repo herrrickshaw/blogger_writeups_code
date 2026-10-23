@@ -1,0 +1,810 @@
+{
+ "slug": "below-250-is-where-real-junk-lives",
+ "text_sha1": "8d2d10d7df5bc1e5",
+ "chars": 9674,
+ "checked": "2026-10-23T10:38:44",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "−17.7%\n₹0–250\n3,850 stocks (79%)",
+     "value": "-17.7%",
+     "period": "11 Aug 2026",
+     "period_end": "2026-08-11",
+     "publisher": "Screener.in",
+     "series": "Median 1-year return by price sub-band, stocks under ₹1,000",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "+0.4%\n₹250–500\n568 stocks (12%)",
+     "value": "+0.4%",
+     "period": "11 Aug 2026",
+     "period_end": "2026-08-11",
+     "publisher": "Screener.in",
+     "series": "Median 1-year return by price sub-band, stocks under ₹1,000",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "+4.3%\n₹500–750\n290 stocks (6%)",
+     "value": "+4.3%",
+     "period": "11 Aug 2026",
+     "period_end": "2026-08-11",
+     "publisher": "Screener.in",
+     "series": "Median 1-year return by price sub-band, stocks under ₹1,000",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "+8.3%\n₹750–1,000\n154 stocks (3%)",
+     "value": "+8.3%",
+     "period": "11 Aug 2026",
+     "period_end": "2026-08-11",
+     "publisher": "Screener.in",
+     "series": "Median 1-year return by price sub-band, stocks under ₹1,000",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "0–250 | 3,850 | 79.2 | 80",
+     "value": "79.2%",
+     "period": "11 Aug 2026",
+     "period_end": "2026-08-11",
+     "publisher": "Screener.in",
+     "series": "Share of the under-1,000 universe, %",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "250–500 | 568 | 11.7 | 1,154",
+     "value": "11.7%",
+     "period": "11 Aug 2026",
+     "period_end": "2026-08-11",
+     "publisher": "Screener.in",
+     "series": "Share of the under-1,000 universe, %",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "500–750 | 290 | 6.0 | 3,713",
+     "value": "6.0%",
+     "period": "11 Aug 2026",
+     "period_end": "2026-08-11",
+     "publisher": "Screener.in",
+     "series": "Share of the under-1,000 universe, %",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "750–1,000 | 154 | 3.2 | 3,474",
+     "value": "3.2%",
+     "period": "11 Aug 2026",
+     "period_end": "2026-08-11",
+     "publisher": "Screener.in",
+     "series": "Share of the under-1,000 universe, %",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "0–250 | 3,850 | 79.2 | 80",
+     "value": "₹80 crore",
+     "period": "11 Aug 2026",
+     "period_end": "2026-08-11",
+     "publisher": "Screener.in",
+     "series": "Median market cap, ₹ crore",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "250–500 | 568 | 11.7 | 1,154",
+     "value": "₹1,154 crore",
+     "period": "11 Aug 2026",
+     "period_end": "2026-08-11",
+     "publisher": "Screener.in",
+     "series": "Median market cap, ₹ crore",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "500–750 | 290 | 6.0 | 3,713",
+     "value": "₹3,713 crore",
+     "period": "11 Aug 2026",
+     "period_end": "2026-08-11",
+     "publisher": "Screener.in",
+     "series": "Median market cap, ₹ crore",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "750–1,000 | 154 | 3.2 | 3,474",
+     "value": "₹3,474 crore",
+     "period": "11 Aug 2026",
+     "period_end": "2026-08-11",
+     "publisher": "Screener.in",
+     "series": "Median market cap, ₹ crore",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "0–250 | 1,086 of 1,267 priced | 1.28 | 14.6 | 24.4 | 0.33",
+     "value": "1.28",
+     "period": "2 Jan 2023 to 7 August 2026",
+     "period_end": "2026-08-07",
+     "publisher": "NSE",
+     "series": "Median beta",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "250–500 | 333 of 374 priced | 1.19 | 24.3 | 21.0 | 0.85",
+     "value": "1.19",
+     "period": "2 Jan 2023 to 7 August 2026",
+     "period_end": "2026-08-07",
+     "publisher": "NSE",
+     "series": "Median beta",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "500–750 | 207 of 229 priced | 1.08 | 25.0 | 19.3 | 0.96",
+     "value": "1.08",
+     "period": "2 Jan 2023 to 7 August 2026",
+     "period_end": "2026-08-07",
+     "publisher": "NSE",
+     "series": "Median beta",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "750–1,000 | 112 of 117 priced | 1.12 | 32.7 | 19.8 | 1.32",
+     "value": "1.12",
+     "period": "2 Jan 2023 to 7 August 2026",
+     "period_end": "2026-08-07",
+     "publisher": "NSE",
+     "series": "Median beta",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "0–250 | 1,086 of 1,267 priced | 1.28 | 14.6 | 24.4 | 0.33",
+     "value": "14.6%",
+     "period": "2 Jan 2023 to 7 August 2026",
+     "period_end": "2026-08-07",
+     "publisher": "NSE",
+     "series": "Portfolio return, % p.a.",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "250–500 | 333 of 374 priced | 1.19 | 24.3 | 21.0 | 0.85",
+     "value": "24.3%",
+     "period": "2 Jan 2023 to 7 August 2026",
+     "period_end": "2026-08-07",
+     "publisher": "NSE",
+     "series": "Portfolio return, % p.a.",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "500–750 | 207 of 229 priced | 1.08 | 25.0 | 19.3 | 0.96",
+     "value": "25.0%",
+     "period": "2 Jan 2023 to 7 August 2026",
+     "period_end": "2026-08-07",
+     "publisher": "NSE",
+     "series": "Portfolio return, % p.a.",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "750–1,000 | 112 of 117 priced | 1.12 | 32.7 | 19.8 | 1.32",
+     "value": "32.7%",
+     "period": "2 Jan 2023 to 7 August 2026",
+     "period_end": "2026-08-07",
+     "publisher": "NSE",
+     "series": "Portfolio return, % p.a.",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "0–250 | 1,086 of 1,267 priced | 1.28 | 14.6 | 24.4 | 0.33",
+     "value": "24.4%",
+     "period": "2 Jan 2023 to 7 August 2026",
+     "period_end": "2026-08-07",
+     "publisher": "NSE",
+     "series": "Portfolio volatility, % p.a.",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "250–500 | 333 of 374 priced | 1.19 | 24.3 | 21.0 | 0.85",
+     "value": "21.0%",
+     "period": "2 Jan 2023 to 7 August 2026",
+     "period_end": "2026-08-07",
+     "publisher": "NSE",
+     "series": "Portfolio volatility, % p.a.",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "500–750 | 207 of 229 priced | 1.08 | 25.0 | 19.3 | 0.96",
+     "value": "19.3%",
+     "period": "2 Jan 2023 to 7 August 2026",
+     "period_end": "2026-08-07",
+     "publisher": "NSE",
+     "series": "Portfolio volatility, % p.a.",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "750–1,000 | 112 of 117 priced | 1.12 | 32.7 | 19.8 | 1.32",
+     "value": "19.8%",
+     "period": "2 Jan 2023 to 7 August 2026",
+     "period_end": "2026-08-07",
+     "publisher": "NSE",
+     "series": "Portfolio volatility, % p.a.",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "0–250 | 1,086 of 1,267 priced | 1.28 | 14.6 | 24.4 | 0.33",
+     "value": "0.33",
+     "period": "2 Jan 2023 to 7 August 2026",
+     "period_end": "2026-08-07",
+     "publisher": "NSE",
+     "series": "Sharpe ratio",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "250–500 | 333 of 374 priced | 1.19 | 24.3 | 21.0 | 0.85",
+     "value": "0.85",
+     "period": "2 Jan 2023 to 7 August 2026",
+     "period_end": "2026-08-07",
+     "publisher": "NSE",
+     "series": "Sharpe ratio",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "500–750 | 207 of 229 priced | 1.08 | 25.0 | 19.3 | 0.96",
+     "value": "0.96",
+     "period": "2 Jan 2023 to 7 August 2026",
+     "period_end": "2026-08-07",
+     "publisher": "NSE",
+     "series": "Sharpe ratio",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "750–1,000 | 112 of 117 priced | 1.12 | 32.7 | 19.8 | 1.32",
+     "value": "1.32",
+     "period": "2 Jan 2023 to 7 August 2026",
+     "period_end": "2026-08-07",
+     "publisher": "NSE",
+     "series": "Sharpe ratio",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "0–250 | −17.7 | −5.6 | 13.5",
+     "value": "-17.7%",
+     "period": "11 Aug 2026",
+     "period_end": "2026-08-11",
+     "publisher": "Screener.in",
+     "series": "Median 1-year return, %",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "250–500 | 0.4 | 6.1 | 30.1",
+     "value": "0.4%",
+     "period": "11 Aug 2026",
+     "period_end": "2026-08-11",
+     "publisher": "Screener.in",
+     "series": "Median 1-year return, %",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "500–750 | 4.3 | 11.8 | 21.5",
+     "value": "4.3%",
+     "period": "11 Aug 2026",
+     "period_end": "2026-08-11",
+     "publisher": "Screener.in",
+     "series": "Median 1-year return, %",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "750–1,000 | 8.3 | 8.3 | 20.9",
+     "value": "8.3%",
+     "period": "11 Aug 2026",
+     "period_end": "2026-08-11",
+     "publisher": "Screener.in",
+     "series": "Median 1-year return, %",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "0–250 | −17.7 | −5.6 | 13.5",
+     "value": "-5.6%",
+     "period": "11 Aug 2026",
+     "period_end": "2026-08-11",
+     "publisher": "Screener.in",
+     "series": "Median 6-month return, %",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "250–500 | 0.4 | 6.1 | 30.1",
+     "value": "6.1%",
+     "period": "11 Aug 2026",
+     "period_end": "2026-08-11",
+     "publisher": "Screener.in",
+     "series": "Median 6-month return, %",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "500–750 | 4.3 | 11.8 | 21.5",
+     "value": "11.8%",
+     "period": "11 Aug 2026",
+     "period_end": "2026-08-11",
+     "publisher": "Screener.in",
+     "series": "Median 6-month return, %",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "750–1,000 | 8.3 | 8.3 | 20.9",
+     "value": "8.3%",
+     "period": "11 Aug 2026",
+     "period_end": "2026-08-11",
+     "publisher": "Screener.in",
+     "series": "Median 6-month return, %",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "0–250 | −17.7 | −5.6 | 13.5",
+     "value": "13.5%",
+     "period": "11 Aug 2026",
+     "period_end": "2026-08-11",
+     "publisher": "Screener.in",
+     "series": "Median YoY quarterly profit growth, %",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "250–500 | 0.4 | 6.1 | 30.1",
+     "value": "30.1%",
+     "period": "11 Aug 2026",
+     "period_end": "2026-08-11",
+     "publisher": "Screener.in",
+     "series": "Median YoY quarterly profit growth, %",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "500–750 | 4.3 | 11.8 | 21.5",
+     "value": "21.5%",
+     "period": "11 Aug 2026",
+     "period_end": "2026-08-11",
+     "publisher": "Screener.in",
+     "series": "Median YoY quarterly profit growth, %",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "750–1,000 | 8.3 | 8.3 | 20.9",
+     "value": "20.9%",
+     "period": "11 Aug 2026",
+     "period_end": "2026-08-11",
+     "publisher": "Screener.in",
+     "series": "Median YoY quarterly profit growth, %",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "its single widest, cheapest bucket, 'under ₹1,000,' was actually hiding almost 4,900 stocks",
+     "value": "4,900 stocks",
+     "period": null,
+     "period_end": null,
+     "publisher": "Screener.in",
+     "series": "NSE/BSE stocks under ₹1,000",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹0–250 | 3,850 stocks (79%)",
+     "value": "3,850 stocks (79%)",
+     "period": null,
+     "period_end": "2026-08-11",
+     "publisher": "Screener.in",
+     "series": "Stocks under ₹1,000 split by price sub-band",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "₹250–500 | 568 stocks (12%)",
+     "value": "568 stocks (12%)",
+     "period": null,
+     "period_end": "2026-08-11",
+     "publisher": "Screener.in",
+     "series": "Stocks under ₹1,000 split by price sub-band",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹500–750 | 290 stocks (6%)",
+     "value": "290 stocks (6%)",
+     "period": null,
+     "period_end": "2026-08-11",
+     "publisher": "Screener.in",
+     "series": "Stocks under ₹1,000 split by price sub-band",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹750–1,000 | 154 stocks (3%)",
+     "value": "154 stocks (3%)",
+     "period": null,
+     "period_end": "2026-08-11",
+     "publisher": "Screener.in",
+     "series": "Stocks under ₹1,000 split by price sub-band",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹0–250 | Median market cap, ₹80 crore",
+     "value": "₹80 crore",
+     "period": null,
+     "period_end": "2026-08-11",
+     "publisher": "Screener.in",
+     "series": "Median market cap by price sub-band",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹250–500 | Median market cap, ₹1,154 crore",
+     "value": "₹1,154 crore",
+     "period": null,
+     "period_end": "2026-08-11",
+     "publisher": "Screener.in",
+     "series": "Median market cap by price sub-band",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹500–750 | Median market cap, ₹3,713 crore",
+     "value": "₹3,713 crore",
+     "period": null,
+     "period_end": "2026-08-11",
+     "publisher": "Screener.in",
+     "series": "Median market cap by price sub-band",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹750–1,000 | Median market cap, ₹3,474 crore",
+     "value": "₹3,474 crore",
+     "period": null,
+     "period_end": "2026-08-11",
+     "publisher": "Screener.in",
+     "series": "Median market cap by price sub-band",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹0–250 | Median 1-year return, −17.7%",
+     "value": "−17.7%",
+     "period": "trailing 1-year",
+     "period_end": "2026-08-11",
+     "publisher": "Screener.in",
+     "series": "Median 1-year return by price sub-band",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "₹250–500 | Median 1-year return, +0.4%",
+     "value": "+0.4%",
+     "period": "trailing 1-year",
+     "period_end": "2026-08-11",
+     "publisher": "Screener.in",
+     "series": "Median 1-year return by price sub-band",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹500–750 | Median 1-year return, +4.3%",
+     "value": "+4.3%",
+     "period": "trailing 1-year",
+     "period_end": "2026-08-11",
+     "publisher": "Screener.in",
+     "series": "Median 1-year return by price sub-band",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹750–1,000 | Median 1-year return, +8.3%",
+     "value": "+8.3%",
+     "period": "trailing 1-year",
+     "period_end": "2026-08-11",
+     "publisher": "Screener.in",
+     "series": "Median 1-year return by price sub-band",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹0–250 | Median 6-month return, −5.6%",
+     "value": "−5.6%",
+     "period": "trailing 6-months",
+     "period_end": "2026-08-11",
+     "publisher": "Screener.in",
+     "series": "Median 6-month return by price sub-band",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹250–500 | Median 6-month return, +6.1%",
+     "value": "+6.1%",
+     "period": "trailing 6-months",
+     "period_end": "2026-08-11",
+     "publisher": "Screener.in",
+     "series": "Median 6-month return by price sub-band",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹500–750 | Median 6-month return, +11.8%",
+     "value": "+11.8%",
+     "period": "trailing 6-months",
+     "period_end": "2026-08-11",
+     "publisher": "Screener.in",
+     "series": "Median 6-month return by price sub-band",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹750–1,000 | Median 6-month return, +8.3%",
+     "value": "+8.3%",
+     "period": "trailing 6-months",
+     "period_end": "2026-08-11",
+     "publisher": "Screener.in",
+     "series": "Median 6-month return by price sub-band",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹0–250 | Median YoY quarterly profit growth, 13.5%",
+     "value": "13.5%",
+     "period": "trailing year",
+     "period_end": "2026-08-11",
+     "publisher": "Screener.in",
+     "series": "Median YoY quarterly profit growth by price sub-band",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹250–500 | Median YoY quarterly profit growth, 30.1%",
+     "value": "30.1%",
+     "period": "trailing year",
+     "period_end": "2026-08-11",
+     "publisher": "Screener.in",
+     "series": "Median YoY quarterly profit growth by price sub-band",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹500–750 | Median YoY quarterly profit growth, 21.5%",
+     "value": "21.5%",
+     "period": "trailing year",
+     "period_end": "2026-08-11",
+     "publisher": "Screener.in",
+     "series": "Median YoY quarterly profit growth by price sub-band",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹750–1,000 | Median YoY quarterly profit growth, 20.9%",
+     "value": "20.9%",
+     "period": "trailing year",
+     "period_end": "2026-08-11",
+     "publisher": "Screener.in",
+     "series": "Median YoY quarterly profit growth by price sub-band",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹0–250 | Stocks with computed beta: 1,086 of 1,267 priced",
+     "value": "1,086 of 1,267",
+     "period": "2023-01-02 to 2026-08-07",
+     "period_end": "2026-08-07",
+     "publisher": "local NSE OHLCV warehouse",
+     "series": "Stocks with computed beta by price sub-band",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹0–250 | Median beta: 1.28",
+     "value": "1.28",
+     "period": "2023-01-02 to 2026-08-07",
+     "period_end": "2026-08-07",
+     "publisher": "local NSE OHLCV warehouse",
+     "series": "Median beta by price sub-band",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹0–250 | Portfolio return, 14.6% p.a.",
+     "value": "14.6% p.a.",
+     "period": "2023-01-02 to 2026-08-07",
+     "period_end": "2026-08-07",
+     "publisher": "local NSE OHLCV warehouse",
+     "series": "Portfolio return by price sub-band",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹0–250 | Portfolio volatility, 24.4% p.a.",
+     "value": "24.4% p.a.",
+     "period": "2023-01-02 to 2026-08-07",
+     "period_end": "2026-08-07",
+     "publisher": "local NSE OHLCV warehouse",
+     "series": "Portfolio volatility by price sub-band",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹0–250 | Sharpe ratio: 0.33",
+     "value": "0.33",
+     "period": "2023-01-02 to 2026-08-07",
+     "period_end": "2026-08-07",
+     "publisher": "local NSE OHLCV warehouse",
+     "series": "Sharpe ratio by price sub-band",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹250–500 | Median beta: 1.19",
+     "value": "1.19",
+     "period": "2023-01-02 to 2026-08-07",
+     "period_end": "2026-08-07",
+     "publisher": "local NSE OHLCV warehouse",
+     "series": "Median beta by price sub-band",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹250–500 | Portfolio return, 24.3% p.a.",
+     "value": "24.3% p.a.",
+     "period": "2023-01-02 to 2026-08-07",
+     "period_end": "2026-08-07",
+     "publisher": "local NSE OHLCV warehouse",
+     "series": "Portfolio return by price sub-band",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹250–500 | Portfolio volatility, 21.0% p.a.",
+     "value": "21.0% p.a.",
+     "period": "2023-01-02 to 2026-08-07",
+     "period_end": "2026-08-07",
+     "publisher": "local NSE OHLCV warehouse",
+     "series": "Portfolio volatility by price sub-band",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹250–500 | Sharpe ratio: 0.85",
+     "value": "0.85",
+     "period": "2023-01-02 to 2026-08-07",
+     "period_end": "2026-08-07",
+     "publisher": "local NSE OHLCV warehouse",
+     "series": "Sharpe ratio by price sub-band",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹500–750 | Median beta: 1.08",
+     "value": "1.08",
+     "period": "2023-01-02 to 2026-08-07",
+     "period_end": "2026-08-07",
+     "publisher": "local NSE OHLCV warehouse",
+     "series": "Median beta by price sub-band",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹500–750 | Portfolio return, 25.0% p.a.",
+     "value": "25.0% p.a.",
+     "period": "2023-01-02 to 2026-08-07",
+     "period_end": "2026-08-07",
+     "publisher": "local NSE OHLCV warehouse",
+     "series": "Portfolio return by price sub-band",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹500–750 | Portfolio volatility, 19.3% p.a.",
+     "value": "19.3% p.a.",
+     "period": "2023-01-02 to 2026-08-07",
+     "period_end": "2026-08-07",
+     "publisher": "local NSE OHLCV warehouse",
+     "series": "Portfolio volatility by price sub-band",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹500–750 | Sharpe ratio: 0.96",
+     "value": "0.96",
+     "period": "2023-01-02 to 2026-08-07",
+     "period_end": "2026-08-07",
+     "publisher": "local NSE OHLCV warehouse",
+     "series": "Sharpe ratio by price sub-band",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹750–1,000 | Median beta: 1.12",
+     "value": "1.12",
+     "period": "2023-01-02 to 2026-08-07",
+     "period_end": "2026-08-07",
+     "publisher": "local NSE OHLCV warehouse",
+     "series": "Median beta by price sub-band",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹750–1,000 | Portfolio return, 32.7% p.a.",
+     "value": "32.7% p.a.",
+     "period": "2023-01-02 to 2026-08-07",
+     "period_end": "2026-08-07",
+     "publisher": "local NSE OHLCV warehouse",
+     "series": "Portfolio return by price sub-band",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹750–1,000 | Portfolio volatility, 19.8% p.a.",
+     "value": "19.8% p.a.",
+     "period": "2023-01-02 to 2026-08-07",
+     "period_end": "2026-08-07",
+     "publisher": "local NSE OHLCV warehouse",
+     "series": "Portfolio volatility by price sub-band",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "₹750–1,000 | Sharpe ratio: 1.32",
+     "value": "1.32",
+     "period": "2023-01-02 to 2026-08-07",
+     "period_end": "2026-08-07",
+     "publisher": "local NSE OHLCV warehouse",
+     "series": "Sharpe ratio by price sub-band",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "181 of 1,267 ₹0–250 stocks without enough continuous history for a beta",
+     "value": "181 of 1,267",
+     "period": "2023-01-02 to 2026-08-07",
+     "period_end": "2026-08-07",
+     "publisher": "local NSE OHLCV warehouse",
+     "series": "Stocks without sufficient history for beta calculation",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  }
+ }
+}
