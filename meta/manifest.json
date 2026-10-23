@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-10-23T19:14:59+05:30",
+  "snapshot": "2026-10-23T19:20:38+05:30",
   "count": 403,
   "posts": {
     "1023631151138981087": {
@@ -62163,18 +62163,18 @@
     },
     "8785797050468506647": {
       "id": "8785797050468506647",
-      "title": "India Has 27,400 km of Gas Pipeline Working and 8,500 km Being Laid. A Map of Where, and of the Lines Still on Paper",
+      "title": "India Has 28,000 km of Gas Pipeline Working and 7,000 km Still to Build. A Map of Where, and of the Lines Still on Paper",
       "url": "https://masaladeutsch.blogspot.com/2026/10/india-has-27400-km-of-gas-pipeline.html",
       "slug": "india-has-27400-km-of-gas-pipeline",
       "published": "2026-10-23T19:13:04.000+05:30",
-      "updated": "2026-10-23T19:13:49.351+05:30",
+      "updated": "2026-10-23T19:20:05.491+05:30",
       "labels": [
         "Energy & Fuels",
         "Gas & LNG",
         "Industrial Policy"
       ],
-      "bytes": 66463,
-      "sha256": "006f82fb9ff2494be2c8b0b44213df98ff634d1d399054a425a157993c3f4cf1",
+      "bytes": 69474,
+      "sha256": "fcc2bb2f1d05905d91aaa4c0536ee4149bb29331918bef04481170d37e44e24d",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -62186,7 +62186,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "2.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -62194,6 +62194,19 @@
           "level": "initial",
           "reason": "first snapshot",
           "note": "New post: gas pipeline map, bids and right-of-user notices"
+        },
+        {
+          "version": "2.0.0",
+          "date": "2026-10-23T19:20:38+05:30",
+          "level": "major",
+          "reason": "forced via --as major (figures changed (+86/-39 distinct numbers))",
+          "bytes": [
+            66463,
+            69474
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Gas pipeline map post: PNGRB NGPL and CGD MIS reports for August 2026"
         }
       ]
     },

@@ -15443,3 +15443,16 @@ Index: gas pipeline map post
 **Re-dated** (publication date changed; body and URL unchanged)
 
 - `india-has-27400-km-of-gas-pipeline` — 2026-10-23 &rarr; 2026-10-23
+
+## 2026-10-23T19:20:38+05:30 — 403 posts live
+
+Gas pipeline map post: PNGRB NGPL and CGD MIS reports for August 2026
+
+
+**Versions**
+
+- `india-has-27400-km-of-gas-pipeline` **1.0.0 → 2.0.0** (MAJOR) — forced via --as major (figures changed (+86/-39 distinct numbers))
+
+**Changed**
+
+- `india-has-27400-km-of-gas-pipeline` — 66,463 → 69,474 bytes (+3,011)
