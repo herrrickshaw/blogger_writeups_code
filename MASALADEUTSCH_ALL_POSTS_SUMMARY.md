@@ -1,8 +1,8 @@
 # Masala Deutsch — All Posts, Summarised
 
-*388 published posts, 80 topic labels. Each entry is the post's own published standfirst — not a re-summary.*
+*399 published posts, 81 topic labels. Each entry is the post's own published standfirst — not a re-summary.*
 
-*Generated 22 October 2026 — regenerated daily by tools/update_summary_cron.sh.*
+*Generated 23 October 2026 — regenerated daily by tools/update_summary_cron.sh.*
 
 
 ## Units & Figures Used in This Blog
@@ -358,8 +358,10 @@
 - **[Cold-Chain × Fuel-Outlet Integrated Map (Part 3 of 3)](https://masaladeutsch.blogspot.com/2026/07/cold-chain-fuel-outlet-integrated-map.html)** — 2026-07-22
   Part 3 of 3 in the CNG/CGD retail-mapping series — with Part 1 (CGD GA district allotments) and Part 2 (82k geocoded retail outlets). Served live from GitHub Pages.
 
-### Agriculture & Food Processing (7)
+### Agriculture & Food Processing (8)
 
+- **[India Imports the Whey Protein Its Cheese Makers Pour Away. The Fix Is Shared Whey Hubs, Not a Dryer in Every Dairy](https://masaladeutsch.blogspot.com/2026/10/india-imports-whey-protein-its-cheese.html)** — 2026-10-22
+  Every kilogram of cheese leaves nine of whey, yet the government’s model cheese project does not count it, while India imports most of its whey protein at prices that tripled in two years. A small plant’s whey is too little to dry profitably; drinks and whey cheese at the plant, shared hubs for clusters and on-site drying at large dairies would put it to use.
 - **[India's Ethanol Plants Are Sitting on Food-Grade CO2. Its Spice-Extract Industry Needs Exactly That. Nobody's Named the Deal.](https://masaladeutsch.blogspot.com/2026/09/indias-ethanol-plants-are-sitting-on.html)** — 2026-09-28
   Every litre of ethanol a distillery ferments comes with almost a kilogram of carbon dioxide attached, purified to the same food-grade standard the extraction industry needs to pull concentrated flavour and colour out of turmeric, chilli and pepper. India has a large, growing industry doing each of these things — and, by this piece's own search, no publicly documented deal connecting a specific ethanol plant's byproduct CO₂ to a specific oleoresin extractor's feedstock. Two real industries, one obvious-looking synergy, and no named transaction this piece could find linking them.
 - **[Japan Ran Out of Matcha. Assam Just Sold Its First Five Kilos.](https://masaladeutsch.blogspot.com/2026/08/japan-ran-out-of-matcha-assam-just-sold.html)** — 2026-08-23
@@ -655,6 +657,11 @@
 - **[5,417 Items You Cannot Import — and the Ministry's Own Two Numbers for What Replaced Them](https://masaladeutsch.blogspot.com/2026/08/5071-items-you-cannot-import-and-rs.html)** — 2026-08-23
   India has banned the import of 5,417 defence items across six DPSU lists, funded a ₹750 crore innovation scheme to invent replacements, and hit a record ₹1.78 lakh crore of annual defence production. Those numbers are all real and all official. What is not settled is how much of the ban has actually been converted into replacement production: the Ministry of Defence's own May 2023 release puts it at ₹2,570 crore for the first four lists; its own July 2024 release, for the identical scope, puts it at ₹3,400 crore. Both are shown here, because neither is current, and the ministry does not reconcile them to each other.
 
+### Dev & Ops Tools (1)
+
+- **[How to use blog-consistency-check: a "is this blog post broken?" audit for HTML posts](https://masaladeutsch.blogspot.com/2026/10/how-to-use-blog-consistency-check-is.html)** — 2026-10-19
+  A small Python script that fetches a published masaladeutsch post and tests it against rules taken from real defects: broken JavaScript, backwards dark-mode media queries, missing disclaimers, unlocked dark palettes. It exits non-zero on a blocker, so it can gate CI.
+
 ### Ease of Doing Business & Regulatory Reform (4)
 
 - **[India Mapped 12,174 Tariff Codes to 31 Ministries. 495 Products Still Have No One Willing to Own Them.](https://masaladeutsch.blogspot.com/2026/09/india-mapped-12174-tariff-codes-to-31.html)** — 2026-09-28
@@ -678,8 +685,14 @@
 - **[India's Mobile-Phone PLI Beat Every Target. Its Chip-Fab Scheme Has 5 of 12 Plants Actually Producing.](https://masaladeutsch.blogspot.com/2026/08/indias-mobile-phone-pli-beat-every.html)** — 2026-08-30
   India's mobile-phone PLI scheme beat its own five-year investment target by 294% and its production target by 142% — a genuine, government-reported overperformance. Its chip-fabrication cousin, the Semicon India Programme, has 12 approved plants and, as of SEMICON India 2026 in September, 5 producing anything (up from 3 when this piece was first published). The gap between the two tells you which parts of India's electronics-manufacturing push are working and which are still mostly paper.
 
-### Energy & Fuels (116)
+### Energy & Fuels (119)
 
+- **[How to use cng-cgd-retail-outlet-mapping: find which gas distributor is authorised to supply CNG to each petrol pump](https://masaladeutsch.blogspot.com/2026/10/how-to-use-cng-cgd-retail-outlet.html)** — 2026-10-23
+  A table linking 82,593 petrol pumps to the City Gas Distribution (CGD) area and company authorised in their district, with an offline interactive map. Tests pass and the headline numbers reproduce.
+- **[How to use coal-to-urea-design-opensource: size a coal-to-urea complex](https://masaladeutsch.blogspot.com/2026/10/how-to-use-coal-to-urea-design.html)** — 2026-10-23
+  Size a coal-gasification-to-urea complex in which six units share one mass basis, and compare the result with the real Talcher plant.
+- **[How to use cbg-design-opensource: size a compressed biogas plant](https://masaladeutsch.blogspot.com/2026/10/how-to-use-cbg-design-opensource-size.html)** — 2026-10-23
+  Size a compressed biogas plant for India's SATAT scheme, from feedstock through digestion, upgrading and 250 bar compression, and check it against a published plant.
 - **[India's 2026-27 Ethanol Tender Drops Cane Juice, Cuts Maize by Rs 3 a Litre and Flips From Sugar-First to Cheapest-First](https://masaladeutsch.blogspot.com/2026/10/indias-2026-27-ethanol-tender-drops.html)** — 2026-10-20
   The oil companies want 1,100 crore litres for November 2026 to October 2027. Unlike last year, they will buy no ethanol from cane juice or B-heavy molasses, pay Rs 68.86 instead of Rs 71.86 for maize, cap FCI rice at 108 crore litres a quarter instead of requiring 40% of grain offers from it, and allocate the cheapest feedstock first where last year put sugar first. Every award is subject to Supreme Court cases on allocation.
 - **[How to use biomass-to-syngas-opensource: size a biomass gasifier](https://masaladeutsch.blogspot.com/2026/10/how-to-use-biomass-to-syngas-opensource.html)** — 2026-10-19
@@ -935,8 +948,10 @@
 - **[India EC Approval Funnel — PARIVESH 2.0](https://masaladeutsch.blogspot.com/2026/07/india-ec-approval-funnel-parivesh-20.html)** — 2026-07-22
   How 113,970 EC proposals move from filing to grant on PARIVESH 2.0 (2022–2026). A current-state snapshot: each proposal shows its latest status, so proposals counted as "granted" have already passed through the ToR (Terms of Reference) and appraisal stages.
 
-### Equity Markets & Stock Screening (10)
+### Equity Markets & Stock Screening (11)
 
+- **[How to use colab-market-fundamentals: collect dated annual fundamentals for 20 markets in Colab](https://masaladeutsch.blogspot.com/2026/10/how-to-use-colab-market-fundamentals.html)** — 2026-10-19
+  A Google Colab notebook that downloads about five years of annual company financials per market through yfinance, saves them to parquet every three minutes, and lets you resume from a zip. Research and education only. Not investment advice: this is research and education material built from public-source or derived data; it is not a recommendation to buy or sell anything.
 - **[How to use Bazartalks_Py2Cplus: a C++ port of a quant research platform, with its Python-vs-C++ benchmark](https://masaladeutsch.blogspot.com/2026/10/how-to-use-bazartalkspy2cplus-c-port-of.html)** — 2026-10-19
   Bazartalks_Py2Cplus (BazaarTalks-cpp) reimplements the storage, streaming, quant-compute, backtest and serving layers of BazaarTalks in C++, keeping Python only for data acquisition and ML training. This post is a not-run, README-based guide to building it, plus the benchmark the repo itself committed. Not investment advice.
 - **[How to use BazaarTalks: a multi-market quant research platform you can query with DuckDB](https://masaladeutsch.blogspot.com/2026/10/how-to-use-bazaartalks-multi-market.html)** — 2026-10-19
@@ -958,8 +973,10 @@
 - **[US Stock Picks — Multi-Screen Quant Shortlist (24 Jul 2026)](https://masaladeutsch.blogspot.com/2026/07/us-stock-picks-multi-screen-quant.html)** — 2026-07-24
   Follow-up: see how the model portfolios built from these screens actually performed, cross-checked against public index benchmarks.
 
-### Ethanol & Biofuels (27)
+### Ethanol & Biofuels (28)
 
+- **[How to use cbg-design-opensource: size a compressed biogas plant](https://masaladeutsch.blogspot.com/2026/10/how-to-use-cbg-design-opensource-size.html)** — 2026-10-23
+  Size a compressed biogas plant for India's SATAT scheme, from feedstock through digestion, upgrading and 250 bar compression, and check it against a published plant.
 - **[India's 2026-27 Ethanol Tender Drops Cane Juice, Cuts Maize by Rs 3 a Litre and Flips From Sugar-First to Cheapest-First](https://masaladeutsch.blogspot.com/2026/10/indias-2026-27-ethanol-tender-drops.html)** — 2026-10-20
   The oil companies want 1,100 crore litres for November 2026 to October 2027. Unlike last year, they will buy no ethanol from cane juice or B-heavy molasses, pay Rs 68.86 instead of Rs 71.86 for maize, cap FCI rice at 108 crore litres a quarter instead of requiring 40% of grain offers from it, and allocate the cheapest feedstock first where last year put sugar first. Every award is subject to Supreme Court cases on allocation.
 - **[Petrol-Pump Margins and E20: The First Dealer Raise in Seven Years, Not Tied to Ethanol, While Oil-Company Margins Followed Crude Into the Red in 2026](https://masaladeutsch.blogspot.com/2026/10/petrol-pump-margins-and-e20-one-dealer.html)** — 2026-10-16
@@ -1230,8 +1247,10 @@
 - **[Where India's Green Hydrogen Bets Are Actually Landing: A State-by-State Map of the Pipeline](https://masaladeutsch.blogspot.com/2026/08/where-indias-green-hydrogen-bets-are.html)** — 2026-08-05
   A September 2024 project registry compiled by the Indo-German Green Hydrogen Task Force names 126 production projects, 21 electrolyser/fuel-cell manufacturing plants, and 40 other related projects across India. Almost none of it is built yet — but the geography of where it's being announced is itself the story.
 
-### Import Substitution (18)
+### Import Substitution (19)
 
+- **[India Imports the Whey Protein Its Cheese Makers Pour Away. The Fix Is Shared Whey Hubs, Not a Dryer in Every Dairy](https://masaladeutsch.blogspot.com/2026/10/india-imports-whey-protein-its-cheese.html)** — 2026-10-22
+  Every kilogram of cheese leaves nine of whey, yet the government’s model cheese project does not count it, while India imports most of its whey protein at prices that tripled in two years. A small plant’s whey is too little to dry profitably; drinks and whey cheese at the plant, shared hubs for clusters and on-site drying at large dairies would put it to use.
 - **[India Polishes the World's Diamonds With Chinese Powder. Grinding Up Its Lab-Grown Stones Won't Fix That.](https://masaladeutsch.blogspot.com/2026/09/india-polishes-worlds-diamonds-with.html)** — 2026-09-30
   Every diamond polished in Surat is polished with diamond — a powder of crushed synthetic crystals worked into an iron wheel with oil. India imported ₹239.5 crore of that powder in 2024–25 and exported about a ninth as much, and most of it comes from China, which put fine diamond powder on an export-licence list last October and has only paused it until 10 November 2026. India now runs thousands of lab-grown diamond reactors and has just approved ₹9,817.5 crore more in Odisha. Grinding those stones into powder is the obvious-sounding answer. The carats and the prices say it isn't one.
 - **[India Imports 60% of Its Cooking Gas. Four Redesigned Stoves Are Trying to Fix That — Only One Is Actually for Sale.](https://masaladeutsch.blogspot.com/2026/09/india-imports-60-of-its-cooking-gas.html)** — 2026-09-27
@@ -1269,8 +1288,16 @@
 - **[Chemical Import Substitution Analysis: Executive Summary](https://masaladeutsch.blogspot.com/2026/07/chemical-import-substitution-analysis.html)** — 2026-08-01
   A re-derivation of this analysis against DGCI&S TradeStat on 2 August 2026 found that several HS-8 codes cited below do not exist in India’s tariff schedule, and the import values attached to them are not supported by the data. Specifically: ethylene was cited as 29011100 / $2,800M (the real line is 29012100, $44M); propylene as 29011200 / $1,400M (real: 29012200, $14M); polyethylene as 39021010/30 / $8.5bn (real 3901 lines total ~$2.8bn; 3902 is polypropylene); lecithin as 29239090 / $100M (real: 29232090, ~$19M); polypropylene as 39021100 (real: 39021000, value $1,372M is correct).
 
-### India (39)
+### India (44)
 
+- **[How to use cng-cgd-retail-outlet-mapping: find which gas distributor is authorised to supply CNG to each petrol pump](https://masaladeutsch.blogspot.com/2026/10/how-to-use-cng-cgd-retail-outlet.html)** — 2026-10-23
+  A table linking 82,593 petrol pumps to the City Gas Distribution (CGD) area and company authorised in their district, with an offline interactive map. Tests pass and the headline numbers reproduce.
+- **[How to use coal-to-urea-design-opensource: size a coal-to-urea complex](https://masaladeutsch.blogspot.com/2026/10/how-to-use-coal-to-urea-design.html)** — 2026-10-23
+  Size a coal-gasification-to-urea complex in which six units share one mass basis, and compare the result with the real Talcher plant.
+- **[How to use cbg-design-opensource: size a compressed biogas plant](https://masaladeutsch.blogspot.com/2026/10/how-to-use-cbg-design-opensource-size.html)** — 2026-10-23
+  Size a compressed biogas plant for India's SATAT scheme, from feedstock through digestion, upgrading and 250 bar compression, and check it against a published plant.
+- **[How to use chemical_import_substitution: HS-8 import-substitution signals for India's chemical chapters](https://masaladeutsch.blogspot.com/2026/10/how-to-use-chemicalimportsubstitution.html)** — 2026-10-19
+  A script and result file that sort India's chemical, fertiliser and plastics imports into import-substitution signals at 8-digit HS level, using public TRADESTAT value and quantity data.
 - **[How to use biomass-to-syngas-opensource: size a biomass gasifier](https://masaladeutsch.blogspot.com/2026/10/how-to-use-biomass-to-syngas-opensource.html)** — 2026-10-19
   Estimate what a biomass gasifier produces from straw, how much tar it makes and whether the syngas is good enough for power or for chemicals.
 - **[How to use digital-twin-for-ipa: a searchable map of India's investment incentives](https://masaladeutsch.blogspot.com/2026/10/how-to-use-digital-twin-for-ipa.html)** — 2026-10-19
@@ -1281,6 +1308,8 @@
   Daily APMC mandi prices from Agmarknet (via data.gov.in) plus World Bank, FAOSTAT and NASA POWER agriculture data, all from open sources and stored in a local DuckDB file.
 - **[How to use FCI-warehouse-MSPvsMSV: grain procurement, MSP and mandi-price data with working models](https://masaladeutsch.blogspot.com/2026/10/how-to-use-fci-warehouse-mspvsmsv-grain.html)** — 2026-10-19
   A research and data repository on India's foodgrain procurement: the MSP series, mandi prices against MSP, FCI stocks and storage, a dashboard, and small Python models for holding economics and grain processing.
+- **[How to use cricket-data-analysis: score how predictable IPL and World Cup match-ups are](https://masaladeutsch.blogspot.com/2026/10/how-to-use-cricket-data-analysis-score.html)** — 2026-10-19
+  A single R script that pulls match data from Cricsheet and ranks team pairings and venues by a simple predictability score. In our run the download worked but the script stopped on a package error, which this post explains and works around.
 - **[How to use CBSE_paper_patterns: check which Class 12 topics keep coming back at high marks](https://masaladeutsch.blogspot.com/2026/10/how-to-use-cbsepaperpatterns-check.html)** — 2026-10-19
   An analysis of 1,955 CBSE Class XII question papers (2022 to 2026) that measures how often high-mark questions reuse the same wording. This post uses only the derived aggregate tables, not the question text.
 - **[How to use patient-history-tracking: a demo ICU dashboard and linked record](https://masaladeutsch.blogspot.com/2026/10/how-to-use-patient-history-tracking.html)** — 2026-10-18
@@ -1635,8 +1664,10 @@
 - **[India Irrigates Itself. 96.6% of Its Irrigation Schemes Are Privately Owned.](https://masaladeutsch.blogspot.com/2026/09/india-irrigates-itself-966-of-its.html)** — 2026-09-17
   India's own irrigation census counted 23.14 million minor irrigation schemes as of 2017-18 — 96.6% of them privately owned, 94.8% drawing groundwater, and most of the money behind them the individual farmer's own savings, not the public irrigation budget.
 
-### Livestock & Dairy (4)
+### Livestock & Dairy (5)
 
+- **[India Imports the Whey Protein Its Cheese Makers Pour Away. The Fix Is Shared Whey Hubs, Not a Dryer in Every Dairy](https://masaladeutsch.blogspot.com/2026/10/india-imports-whey-protein-its-cheese.html)** — 2026-10-22
+  Every kilogram of cheese leaves nine of whey, yet the government’s model cheese project does not count it, while India imports most of its whey protein at prices that tripled in two years. A small plant’s whey is too little to dry profitably; drinks and whey cheese at the plant, shared hubs for clusters and on-site drying at large dairies would put it to use.
 - **[The Diesel Truck Isn't Why Your Eggs Cost More. The Ethanol Tank Is.](https://masaladeutsch.blogspot.com/2026/09/the-diesel-truck-isnt-why-your-eggs.html)** — 2026-09-23
   The intuitive story is that costlier diesel pushes up the price of everything that travels from farm to table. This blog has already tested that channel directly and it does not hold: diesel inflation has essentially no measurable relationship with food inflation. The channel that actually connects fuel policy to the dinner plate runs through the crop itself, not the truck that carries it — and in September 2026 it showed up first in the price of an egg.
 - **[The Milk India Doesn't Drink: Cheese and the Value-Added Dairy Opportunity](https://masaladeutsch.blogspot.com/2026/08/the-milk-india-doesnt-drink-cheese-and.html)** — 2026-08-19
@@ -1718,8 +1749,10 @@
 - **[How India's Automotive Clusters Rewired Themselves Around Just-in-Time Delivery](https://masaladeutsch.blogspot.com/2026/08/how-indias-automotive-clusters-rewired.html)** — 2026-08-15
   Maruti Suzuki gets over 76% of its 246 suppliers within 100km of its assembly lines, and its "e-Nagare" system cut the order-to-shopfloor cycle from 30 hours to 2. That single number is the clearest evidence of how India's automotive clusters actually work today — not as five separate manufacturing hubs, but as increasingly tight, just-in-time-organised ecosystems where component suppliers sit inside the same radius as the OEM. This piece maps the clusters, the mechanics of the JIT shift, and the one real crisis — the 2021 semiconductor shortage — that showed exactly where that model breaks.
 
-### Markets & Finance (57)
+### Markets & Finance (58)
 
+- **[How to use colab-market-fundamentals: collect dated annual fundamentals for 20 markets in Colab](https://masaladeutsch.blogspot.com/2026/10/how-to-use-colab-market-fundamentals.html)** — 2026-10-19
+  A Google Colab notebook that downloads about five years of annual company financials per market through yfinance, saves them to parquet every three minutes, and lets you resume from a zip. Research and education only. Not investment advice: this is research and education material built from public-source or derived data; it is not a recommendation to buy or sell anything.
 - **[How to use agri-commodity-tracker: India mandi prices and an agriculture panel in one DuckDB file](https://masaladeutsch.blogspot.com/2026/10/how-to-use-agri-commodity-tracker-india.html)** — 2026-10-19
   Daily APMC mandi prices from Agmarknet (via data.gov.in) plus World Bank, FAOSTAT and NASA POWER agriculture data, all from open sources and stored in a local DuckDB file.
 - **[How to use agentic-insurance-agent: open-source insurance workflows with safe AI](https://masaladeutsch.blogspot.com/2026/10/how-to-use-agentic-insurance-agent-open.html)** — 2026-10-19
@@ -1840,8 +1873,10 @@
 - **[What Seven Model Stock Portfolios Look Like Once You Check Them Against the Index](https://masaladeutsch.blogspot.com/2026/08/what-seven-model-stock-portfolios-look.html)** — 2026-08-28
   Stack eight stock-picking factors — breakout, quality, value, momentum, and a machine-learning bullish flag among them — and group what survives into co-movement model portfolios, and two separate questions come apart: does the result actually differ from an index fund, and does it actually beat one? Checked against public sector benchmarks, this factor stack's portfolios are almost uniformly differentiated from the index — but only one of seven is currently outperforming it once the broad market's own rise is stripped out.
 
-### Mobility & EV (15)
+### Mobility & EV (16)
 
+- **[How to use cng-cgd-retail-outlet-mapping: find which gas distributor is authorised to supply CNG to each petrol pump](https://masaladeutsch.blogspot.com/2026/10/how-to-use-cng-cgd-retail-outlet.html)** — 2026-10-23
+  A table linking 82,593 petrol pumps to the City Gas Distribution (CGD) area and company authorised in their district, with an offline interactive map. Tests pass and the headline numbers reproduce.
 - **[How to use bms-battery-management: simulate an EV battery pack in Python](https://masaladeutsch.blogspot.com/2026/10/how-to-use-bms-battery-management.html)** — 2026-10-18
   A small Python library that simulates battery management for electric scooters, retrofitted cars and buses, so you can watch charge level, ageing, heat and faults on your laptop before any hardware exists.
 - **[India's New Car Rules Count Every EV as Three Cars. Europe, the US and China Used Smaller Multipliers, Then Phased Them Out.](https://masaladeutsch.blogspot.com/2026/10/indias-new-car-rules-count-every-ev-as.html)** — 2026-10-02
@@ -1891,12 +1926,30 @@
 - **[India's Oil Fields Are Running Down: 36.96 to 28.70 MMT in a Decade, and the Targets Have Stopped Meaning Anything](https://masaladeutsch.blogspot.com/2026/08/indias-oil-fields-are-running-down-3696.html)** — 2026-08-06
   DGH's own ten-year table shows crude output falling every year but one since 2014-15. Gas has held up — but only because private deepwater replaced the state fields that were shrinking underneath it.
 
-### Open-Source Tools & How-To (16)
+### Open-Source Tools & How-To (26)
 
+- **[How to use cng-cgd-retail-outlet-mapping: find which gas distributor is authorised to supply CNG to each petrol pump](https://masaladeutsch.blogspot.com/2026/10/how-to-use-cng-cgd-retail-outlet.html)** — 2026-10-23
+  A table linking 82,593 petrol pumps to the City Gas Distribution (CGD) area and company authorised in their district, with an offline interactive map. Tests pass and the headline numbers reproduce.
+- **[How to use coal-to-urea-design-opensource: size a coal-to-urea complex](https://masaladeutsch.blogspot.com/2026/10/how-to-use-coal-to-urea-design.html)** — 2026-10-23
+  Size a coal-gasification-to-urea complex in which six units share one mass basis, and compare the result with the real Talcher plant.
+- **[How to use cbg-design-opensource: size a compressed biogas plant](https://masaladeutsch.blogspot.com/2026/10/how-to-use-cbg-design-opensource-size.html)** — 2026-10-23
+  Size a compressed biogas plant for India's SATAT scheme, from feedstock through digestion, upgrading and 250 bar compression, and check it against a published plant.
+- **[How to use claude-provenance: an auditable log of every Claude message on your machine](https://masaladeutsch.blogspot.com/2026/10/how-to-use-claude-provenance-auditable.html)** — 2026-10-19
+  One Python script turns your local Claude Code transcripts, prompt history and claude.ai export into a single SQLite database with timestamps, models, tool calls and a SHA-256 of each message.
+- **[How to use delivery-playbook: a field guide for choosing and fixing your software process](https://masaladeutsch.blogspot.com/2026/10/how-to-use-delivery-playbook-field.html)** — 2026-10-19
+  A single-file HTML guide to SDLC models, the Agile family, DevOps, a fit-finder for picking a process, named anti-patterns, computer-science theory applied to products, DDD and TOGAF. This post shows what is inside and how to read it, adapt it or hand it to an AI assistant.
+- **[How to use chemical_import_substitution: HS-8 import-substitution signals for India's chemical chapters](https://masaladeutsch.blogspot.com/2026/10/how-to-use-chemicalimportsubstitution.html)** — 2026-10-19
+  A script and result file that sort India's chemical, fertiliser and plastics imports into import-substitution signals at 8-digit HS level, using public TRADESTAT value and quantity data.
 - **[How to use biomass-to-syngas-opensource: size a biomass gasifier](https://masaladeutsch.blogspot.com/2026/10/how-to-use-biomass-to-syngas-opensource.html)** — 2026-10-19
   Estimate what a biomass gasifier produces from straw, how much tar it makes and whether the syngas is good enough for power or for chemicals.
 - **[How to use digital-twin-for-ipa: a searchable map of India's investment incentives](https://masaladeutsch.blogspot.com/2026/10/how-to-use-digital-twin-for-ipa.html)** — 2026-10-19
   digital-twin-for-ipa is an open-source, machine-readable model of India's investment-promotion apparatus: 312 central and state incentive instruments, how they link, and a SQLite database of the companies around them.
+- **[How to use colab-market-fundamentals: collect dated annual fundamentals for 20 markets in Colab](https://masaladeutsch.blogspot.com/2026/10/how-to-use-colab-market-fundamentals.html)** — 2026-10-19
+  A Google Colab notebook that downloads about five years of annual company financials per market through yfinance, saves them to parquet every three minutes, and lets you resume from a zip. Research and education only. Not investment advice: this is research and education material built from public-source or derived data; it is not a recommendation to buy or sell anything.
+- **[How to use blog-consistency-check: a "is this blog post broken?" audit for HTML posts](https://masaladeutsch.blogspot.com/2026/10/how-to-use-blog-consistency-check-is.html)** — 2026-10-19
+  A small Python script that fetches a published masaladeutsch post and tests it against rules taken from real defects: broken JavaScript, backwards dark-mode media queries, missing disclaimers, unlocked dark palettes. It exits non-zero on a blocker, so it can gate CI.
+- **[How to use data-source-mining: pull World Bank indicators and mandi prices into DuckDB](https://masaladeutsch.blogspot.com/2026/10/how-to-use-data-source-mining-pull.html)** — 2026-10-19
+  A short Python script that mines two open data sources, the World Bank API and India's Agmarknet mandi prices on data.gov.in, into one local DuckDB file with a table per source.
 - **[How to use amazon-product-selector: a gated shortlist of rising Amazon keywords you can actually enter](https://masaladeutsch.blogspot.com/2026/10/how-to-use-amazon-product-selector.html)** — 2026-10-19
   A standard-library Python tool that ranks candidate keywords by rising search demand, then rejects the ones whose category is too entrenched, separately for consumer (B2C) and bulk (B2B) selling on Amazon India.
 - **[How to use agri-commodity-tracker: India mandi prices and an agriculture panel in one DuckDB file](https://masaladeutsch.blogspot.com/2026/10/how-to-use-agri-commodity-tracker-india.html)** — 2026-10-19
@@ -1905,6 +1958,8 @@
   A research and data repository on India's foodgrain procurement: the MSP series, mandi prices against MSP, FCI stocks and storage, a dashboard, and small Python models for holding economics and grain processing.
 - **[How to use agentic-insurance-agent: open-source insurance workflows with safe AI](https://masaladeutsch.blogspot.com/2026/10/how-to-use-agentic-insurance-agent-open.html)** — 2026-10-19
   agentic-insurance-agent is an open-source way to run insurance processes (policy issue, premium collection, claims) as diagrams and rules, with an AI layer that can recommend but not move money.
+- **[How to use cricket-data-analysis: score how predictable IPL and World Cup match-ups are](https://masaladeutsch.blogspot.com/2026/10/how-to-use-cricket-data-analysis-score.html)** — 2026-10-19
+  A single R script that pulls match data from Cricsheet and ranks team pairings and venues by a simple predictability score. In our run the download worked but the script stopped on a package error, which this post explains and works around.
 - **[How to use Bazartalks_Py2Cplus: a C++ port of a quant research platform, with its Python-vs-C++ benchmark](https://masaladeutsch.blogspot.com/2026/10/how-to-use-bazartalkspy2cplus-c-port-of.html)** — 2026-10-19
   Bazartalks_Py2Cplus (BazaarTalks-cpp) reimplements the storage, streaming, quant-compute, backtest and serving layers of BazaarTalks in C++, keeping Python only for data acquisition and ML training. This post is a not-run, README-based guide to building it, plus the benchmark the repo itself committed. Not investment advice.
 - **[How to use CBSE_paper_patterns: check which Class 12 topics keep coming back at high marks](https://masaladeutsch.blogspot.com/2026/10/how-to-use-cbsepaperpatterns-check.html)** — 2026-10-19
@@ -2022,8 +2077,10 @@
 - **[India's Textile Import-Export Strategy: From Dependency to Self-Sufficiency](https://masaladeutsch.blogspot.com/2026/07/indias-textile-import-export-strategy.html)** — 2026-07-27
   HSN Breakdown Needed: Polypropylene, HDPE, LDPE, PET films by destination segment
 
-### Refining & Petrochemicals (9)
+### Refining & Petrochemicals (10)
 
+- **[How to use coal-to-urea-design-opensource: size a coal-to-urea complex](https://masaladeutsch.blogspot.com/2026/10/how-to-use-coal-to-urea-design.html)** — 2026-10-23
+  Size a coal-gasification-to-urea complex in which six units share one mass basis, and compare the result with the real Talcher plant.
 - **[Refiners Won the Exemption Fight, Biofuels Kept the Volumes: What Eight Court Rulings Did to America's Biofuel Credits](https://masaladeutsch.blogspot.com/2026/10/refiners-won-exemption-fight-biofuels.html)** — 2026-10-03
   Eight US court rulings from 2023 to 2026 show refiners winning the small-refinery-exemption fight while biofuel producers keep record-high Renewable Fuel Standard volumes. What decides RIN prices now is EPA's discretion to reallocate exempted gallons.
 - **[India Exports the Naphtha and Benzene Its Own Pharma Industry Needs — Mostly to China](https://masaladeutsch.blogspot.com/2026/09/india-exports-naphtha-and-benzene-its.html)** — 2026-09-17
@@ -4249,6 +4306,21 @@ India has had a permanent tax number since 1972 and now issues one in about ten 
 
 Customer support, application maintenance and labour-billed back-office work are being hit first; airline back office and AI data work are still arriving. The common pattern is fewer fresher hires and lower prices, not layoffs, with India taking a larger share of a smaller pool. Meanwhile courts, claims and grievance systems at home carry backlogs of the same work.
 
+### [How to use claude-provenance: an auditable log of every Claude message on your machine](https://masaladeutsch.blogspot.com/2026/10/how-to-use-claude-provenance-auditable.html)
+*2026-10-19 · Open-Source Tools & How-To*
+
+One Python script turns your local Claude Code transcripts, prompt history and claude.ai export into a single SQLite database with timestamps, models, tool calls and a SHA-256 of each message.
+
+### [How to use delivery-playbook: a field guide for choosing and fixing your software process](https://masaladeutsch.blogspot.com/2026/10/how-to-use-delivery-playbook-field.html)
+*2026-10-19 · Open-Source Tools & How-To*
+
+A single-file HTML guide to SDLC models, the Agile family, DevOps, a fit-finder for picking a process, named anti-patterns, computer-science theory applied to products, DDD and TOGAF. This post shows what is inside and how to read it, adapt it or hand it to an AI assistant.
+
+### [How to use chemical_import_substitution: HS-8 import-substitution signals for India's chemical chapters](https://masaladeutsch.blogspot.com/2026/10/how-to-use-chemicalimportsubstitution.html)
+*2026-10-19 · India, Open-Source Tools & How-To*
+
+A script and result file that sort India's chemical, fertiliser and plastics imports into import-substitution signals at 8-digit HS level, using public TRADESTAT value and quantity data.
+
 ### [How to use biomass-to-syngas-opensource: size a biomass gasifier](https://masaladeutsch.blogspot.com/2026/10/how-to-use-biomass-to-syngas-opensource.html)
 *2026-10-19 · Climate & Carbon, Energy & Fuels, India, Open-Source Tools & How-To*
 
@@ -4258,6 +4330,21 @@ Estimate what a biomass gasifier produces from straw, how much tar it makes and 
 *2026-10-19 · India, Infrastructure & Investment, Open-Source Tools & How-To*
 
 digital-twin-for-ipa is an open-source, machine-readable model of India's investment-promotion apparatus: 312 central and state incentive instruments, how they link, and a SQLite database of the companies around them.
+
+### [How to use colab-market-fundamentals: collect dated annual fundamentals for 20 markets in Colab](https://masaladeutsch.blogspot.com/2026/10/how-to-use-colab-market-fundamentals.html)
+*2026-10-19 · Equity Markets & Stock Screening, Markets & Finance, Open-Source Tools & How-To*
+
+A Google Colab notebook that downloads about five years of annual company financials per market through yfinance, saves them to parquet every three minutes, and lets you resume from a zip. Research and education only. Not investment advice: this is research and education material built from public-source or derived data; it is not a recommendation to buy or sell anything.
+
+### [How to use blog-consistency-check: a "is this blog post broken?" audit for HTML posts](https://masaladeutsch.blogspot.com/2026/10/how-to-use-blog-consistency-check-is.html)
+*2026-10-19 · Dev & Ops Tools, Open-Source Tools & How-To*
+
+A small Python script that fetches a published masaladeutsch post and tests it against rules taken from real defects: broken JavaScript, backwards dark-mode media queries, missing disclaimers, unlocked dark palettes. It exits non-zero on a blocker, so it can gate CI.
+
+### [How to use data-source-mining: pull World Bank indicators and mandi prices into DuckDB](https://masaladeutsch.blogspot.com/2026/10/how-to-use-data-source-mining-pull.html)
+*2026-10-19 · Open-Source Tools & How-To*
+
+A short Python script that mines two open data sources, the World Bank API and India's Agmarknet mandi prices on data.gov.in, into one local DuckDB file with a table per source.
 
 ### [How to use amazon-product-selector: a gated shortlist of rising Amazon keywords you can actually enter](https://masaladeutsch.blogspot.com/2026/10/how-to-use-amazon-product-selector.html)
 *2026-10-19 · Business & Strategy, India, Open-Source Tools & How-To*
@@ -4279,6 +4366,11 @@ A research and data repository on India's foodgrain procurement: the MSP series,
 
 agentic-insurance-agent is an open-source way to run insurance processes (policy issue, premium collection, claims) as diagrams and rules, with an AI layer that can recommend but not move money.
 
+### [How to use cricket-data-analysis: score how predictable IPL and World Cup match-ups are](https://masaladeutsch.blogspot.com/2026/10/how-to-use-cricket-data-analysis-score.html)
+*2026-10-19 · India, Open-Source Tools & How-To*
+
+A single R script that pulls match data from Cricsheet and ranks team pairings and venues by a simple predictability score. In our run the download worked but the script stopped on a package error, which this post explains and works around.
+
 ### [How to use Bazartalks_Py2Cplus: a C++ port of a quant research platform, with its Python-vs-C++ benchmark](https://masaladeutsch.blogspot.com/2026/10/how-to-use-bazartalkspy2cplus-c-port-of.html)
 *2026-10-19 · Equity Markets & Stock Screening, Markets & Finance, Open-Source Tools & How-To*
 
@@ -4298,3 +4390,23 @@ BazaarTalks (README title: Global Market Scanners) is a research platform for mu
 *2026-10-20 · Agriculture & Fertilisers, Energy & Fuels, Ethanol & Biofuels*
 
 The oil companies want 1,100 crore litres for November 2026 to October 2027. Unlike last year, they will buy no ethanol from cane juice or B-heavy molasses, pay Rs 68.86 instead of Rs 71.86 for maize, cap FCI rice at 108 crore litres a quarter instead of requiring 40% of grain offers from it, and allocate the cheapest feedstock first where last year put sugar first. Every award is subject to Supreme Court cases on allocation.
+
+### [India Imports the Whey Protein Its Cheese Makers Pour Away. The Fix Is Shared Whey Hubs, Not a Dryer in Every Dairy](https://masaladeutsch.blogspot.com/2026/10/india-imports-whey-protein-its-cheese.html)
+*2026-10-22 · Agriculture & Food Processing, Import Substitution, Livestock & Dairy*
+
+Every kilogram of cheese leaves nine of whey, yet the government’s model cheese project does not count it, while India imports most of its whey protein at prices that tripled in two years. A small plant’s whey is too little to dry profitably; drinks and whey cheese at the plant, shared hubs for clusters and on-site drying at large dairies would put it to use.
+
+### [How to use cng-cgd-retail-outlet-mapping: find which gas distributor is authorised to supply CNG to each petrol pump](https://masaladeutsch.blogspot.com/2026/10/how-to-use-cng-cgd-retail-outlet.html)
+*2026-10-23 · Energy & Fuels, India, Mobility & EV, Open-Source Tools & How-To*
+
+A table linking 82,593 petrol pumps to the City Gas Distribution (CGD) area and company authorised in their district, with an offline interactive map. Tests pass and the headline numbers reproduce.
+
+### [How to use coal-to-urea-design-opensource: size a coal-to-urea complex](https://masaladeutsch.blogspot.com/2026/10/how-to-use-coal-to-urea-design.html)
+*2026-10-23 · Energy & Fuels, India, Open-Source Tools & How-To, Refining & Petrochemicals*
+
+Size a coal-gasification-to-urea complex in which six units share one mass basis, and compare the result with the real Talcher plant.
+
+### [How to use cbg-design-opensource: size a compressed biogas plant](https://masaladeutsch.blogspot.com/2026/10/how-to-use-cbg-design-opensource-size.html)
+*2026-10-23 · Energy & Fuels, Ethanol & Biofuels, India, Open-Source Tools & How-To*
+
+Size a compressed biogas plant for India's SATAT scheme, from feedstock through digestion, upgrading and 250 bar compression, and check it against a published plant.
