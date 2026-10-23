@@ -7,3 +7,4 @@
 - **[GRAMMAR/QUALITY_PARTITIVE]** In a quality partitive structure like “that kind of X”, X should usually match the grammatical number of “kind”. Did you mean “those kinds of earnings”?
   context: ...ide of the market responding to exactly that kind of earnings spike: 150 VLCCs were ordered in 2026 a...
   suggested: those kinds of earnings
+- ERROR checking chunk: HTTP Error 500: Internal Server Error

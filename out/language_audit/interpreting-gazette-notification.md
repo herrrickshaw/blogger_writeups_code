@@ -4,4 +4,6 @@
 
 **This is a report, not an applied fix.** LanguageTool has a high false-positive rate on this blog's prose (chart captions, code identifiers, valid constructions it misparses) — review each item before touching the post.
 
-- ERROR checking chunk: HTTP Error 500: Internal Server Error
+- **[GRAMMAR/CYBER_COMPOUNDS]** The word “cybersecurity” is spelled as one.
+  context: ...2024, the ministry gazetted the Telecom Cyber Security Rules, 2024 (G.S.R. 720(E)). Amendment ...
+  suggested: Cybersecurity

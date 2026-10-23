@@ -4,6 +4,4 @@
 
 **This is a report, not an applied fix.** LanguageTool has a high false-positive rate on this blog's prose (chart captions, code identifiers, valid constructions it misparses) — review each item before touching the post.
 
-- **[GRAMMAR/DOUBLE_NEGATIVE]** This phrase contains a double negative, or a comma may be missing.
-  context: ...a finding of this piece's research, not proof no such document exists anywhere in PNGRB'...
-  suggested: proof any, proof, no
+- ERROR checking chunk: HTTP Error 500: Internal Server Error
