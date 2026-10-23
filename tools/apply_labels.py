@@ -759,6 +759,7 @@ SLUG_CONTAINS = {
     "2026-27-ethanol-tender": ["Ethanol & Biofuels", "Energy & Fuels", "Agriculture & Fertilisers"],
     "whey-protein": ["Livestock & Dairy", "Import Substitution", "Agriculture & Food Processing"],
     "cheapest-lng-capacity": ["Gas & LNG", "Energy & Fuels", "Industrial Policy"],
+    "km-of-gas-pipeline": ["Gas & LNG", "Energy & Fuels", "Industrial Policy"],
 }
 
 
