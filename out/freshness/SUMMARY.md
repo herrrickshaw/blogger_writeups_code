@@ -5,7 +5,7 @@
 > release frequency and a typical lag. Fetch the newer release from the primary source before changing
 > anything (house rule: PIB / MoSPI / RBI / DGCI&S / PPAC / ministry originals).
 
-9895 data points from 270 posts; 529 probably superseded (170 headline) across 169 posts, counted once per publisher and release frequency at the post's newest period (610 older figures not listed because the post already has a newer one from that source). 0 posts have no clean model answer yet; 2 skipped as too large. Full list: `out/freshness/worklist.csv`.
+9870 data points from 269 posts; 526 probably superseded (170 headline) across 168 posts, counted once per publisher and release frequency at the post's newest period (608 older figures not listed because the post already has a newer one from that source). 0 posts have no clean model answer yet; 2 skipped as too large. Full list: `out/freshness/worklist.csv`.
 
 ## Series behind in the most posts
 
@@ -594,11 +594,6 @@
 - **H** 43.58% — FY2024-25 (Ministry of MSME: CPSE-wide MSE compliance; annual) — ~1 newer release(s), 6 figure(s) from this source [gemini]
 - ₹262 crore — 2013-14 (ONGC: MSE procurement value; annual) — ~12 newer release(s), 1 figure(s) from this source [gemini]
 - ₹773.39 crore — FY2023-24 (Business Standard: CPSE procurement from MSEs; annual) — ~2 newer release(s), 3 figure(s) from this source [gemini]
-
-### discom-debt-relief-token-charge  (score 11)
-- ₹71,750 cr — Apr 2025 (Ministry of Power: PRAAPTI portal; monthly) — ~16 newer release(s), 1 figure(s) from this source [gemini+mistral]
-- 33.38 crore — 2022-23 (CAG: India Electricity Trends; annual) — ~3 newer release(s), 1 figure(s) from this source [gemini+mistral]
-- 45 paise/unit — FY2023-24 (PFC: PFC Reports; annual) — ~2 newer release(s), 3 figure(s) from this source [gemini+mistral]
 
 ### 7186-litre-why-maize-is-indias-priciest  (score 11)
 - 37 per cent — Kharif 2026 (DA&FW: State-wise kharif maize area change; weekly) — ~7 newer release(s), 9 figure(s) from this source [gemini]
