@@ -1,0 +1,2628 @@
+[
+ {
+  "name": "HVJ trunk: Hazira–Vijaipur–Jagdishpur",
+  "entity": "GAIL",
+  "status": "operational",
+  "auth_km": 6169,
+  "built_km": 6729,
+  "capacity_mmscmd": 107,
+  "expected": null,
+  "source": "HLEC Vision 2040 (PNGRB, Nov 2025) Table 12.7 (data as of Dec'24) (HVJ + HVJ Upgradation row, whole system)",
+  "waypoints": [
+   [
+    "Hazira",
+    21.1,
+    72.64
+   ],
+   [
+    "Jhabua",
+    22.77,
+    74.59
+   ],
+   [
+    "Vijaipur",
+    24.47,
+    77.1
+   ],
+   [
+    "Auraiya",
+    26.47,
+    79.51
+   ],
+   [
+    "Jagdishpur",
+    26.75,
+    81.57
+   ]
+  ],
+  "system": "HVJ/GREP/DVPL",
+  "notes": "auth/built/capacity are for the whole HVJ+GREP+DVPL+VDPL system (one HLEC row); utilisation printed 71.69% is a GAIL network-wide figure, not line-specific.",
+  "coords": "approximate"
+ },
+ {
+  "name": "Dahej–Vijaipur (DVPL / DVPL-II)",
+  "entity": "GAIL",
+  "status": "operational",
+  "auth_km": null,
+  "built_km": null,
+  "capacity_mmscmd": null,
+  "expected": null,
+  "source": "HLEC Vision 2040 (PNGRB, Nov 2025) Table 12.7 (data as of Dec'24) (included in HVJ row)",
+  "waypoints": [
+   [
+    "Dahej",
+    21.7,
+    72.58
+   ],
+   [
+    "Vadodara",
+    22.31,
+    73.18
+   ],
+   [
+    "Jhabua",
+    22.77,
+    74.59
+   ],
+   [
+    "Vijaipur",
+    24.47,
+    77.1
+   ]
+  ],
+  "system": "HVJ/GREP/DVPL",
+  "notes": "Length/capacity included in HVJ system row.",
+  "coords": "approximate"
+ },
+ {
+  "name": "Vijaipur–Dadri (GREP / VDPL)",
+  "entity": "GAIL",
+  "status": "operational",
+  "auth_km": null,
+  "built_km": null,
+  "capacity_mmscmd": null,
+  "expected": null,
+  "source": "HLEC Vision 2040 (PNGRB, Nov 2025) Table 12.7 (data as of Dec'24) (included in HVJ row)",
+  "waypoints": [
+   [
+    "Vijaipur",
+    24.47,
+    77.1
+   ],
+   [
+    "Gwalior",
+    26.22,
+    78.18
+   ],
+   [
+    "Agra",
+    27.18,
+    78.01
+   ],
+   [
+    "Dadri",
+    28.55,
+    77.55
+   ]
+  ],
+  "system": "HVJ/GREP/DVPL",
+  "notes": "Length/capacity included in HVJ system row.",
+  "coords": "approximate"
+ },
+ {
+  "name": "Dahej–Uran–Panvel–Dabhol (DUPL/DPPL)",
+  "entity": "GAIL",
+  "status": "operational",
+  "auth_km": 815,
+  "built_km": 943,
+  "capacity_mmscmd": 19.9,
+  "expected": null,
+  "source": "HLEC Vision 2040 (PNGRB, Nov 2025) Table 12.7 (data as of Dec'24)",
+  "waypoints": [
+   [
+    "Dahej",
+    21.7,
+    72.58
+   ],
+   [
+    "Vapi",
+    20.37,
+    72.9
+   ],
+   [
+    "Uran",
+    18.88,
+    72.94
+   ],
+   [
+    "Panvel",
+    18.99,
+    73.12
+   ],
+   [
+    "Dabhol",
+    17.59,
+    73.18
+   ]
+  ],
+  "notes": "Utilisation 71.69% = GAIL network figure.",
+  "coords": "approximate"
+ },
+ {
+  "name": "Dabhol–Bengaluru (DBPL)",
+  "entity": "GAIL",
+  "status": "partly_operational",
+  "auth_km": 1414,
+  "built_km": 1148,
+  "capacity_mmscmd": 16,
+  "expected": "not stated (MIS target 'Feb-13' is stale)",
+  "source": "HLEC Vision 2040 (PNGRB, Nov 2025) Table 12.7 (data as of Dec'24); PNGRB NGPL MIS Report 31.07.2025 via search summary (pngrb.gov.in/data-bank/20250731-NGPL-MIS-Report.pdf, not fetched) (1,148 op / 266 u/c)",
+  "waypoints": [
+   [
+    "Dabhol",
+    17.59,
+    73.18
+   ],
+   [
+    "Kolhapur",
+    16.7,
+    74.24
+   ],
+   [
+    "Belagavi",
+    15.85,
+    74.5
+   ],
+   [
+    "Davangere",
+    14.46,
+    75.92
+   ],
+   [
+    "Chitradurga",
+    14.23,
+    76.4
+   ],
+   [
+    "Tumakuru",
+    13.34,
+    77.1
+   ],
+   [
+    "Bidadi",
+    12.8,
+    77.39
+   ]
+  ],
+  "notes": "Trunk commissioned Feb 2013 (deccanherald.com/business/gail-commissions-dabhol-bangalore-gas-2243530); the 266 km not yet built are probably spur lines, location not verified, so drawn as one line.",
+  "coords": "approximate"
+ },
+ {
+  "name": "Kochi–Koottanad–Mangaluru (KKBMPL phase I/II-Mangaluru)",
+  "entity": "GAIL",
+  "status": "operational",
+  "auth_km": null,
+  "built_km": null,
+  "capacity_mmscmd": null,
+  "expected": null,
+  "source": "HLEC Vision 2040 (PNGRB, Nov 2025) Table 12.7 (data as of Dec'24); indianinfrastructure.com 2020-12-31",
+  "waypoints": [
+   [
+    "Kochi",
+    10.0,
+    76.22
+   ],
+   [
+    "Koottanad",
+    10.78,
+    76.15
+   ],
+   [
+    "Kozhikode",
+    11.25,
+    75.78
+   ],
+   [
+    "Kannur",
+    11.87,
+    75.37
+   ],
+   [
+    "Kasaragod",
+    12.5,
+    74.99
+   ],
+   [
+    "Mangaluru",
+    12.91,
+    74.86
+   ]
+  ],
+  "system": "KKBMPL",
+  "notes": "Kochi–Mangaluru commissioned Jan 2021 (press). Whole KKBMPL: 1,104 km authorised, 16 MMSCMD.",
+  "coords": "approximate"
+ },
+ {
+  "name": "Koottanad–Walayar–Coimbatore–Bengaluru (KKBMPL Bengaluru leg)",
+  "entity": "GAIL",
+  "status": "under_construction",
+  "auth_km": null,
+  "built_km": null,
+  "capacity_mmscmd": null,
+  "expected": "Mar 2026 target missed; extended again 13 Apr 2026 (new date not seen)",
+  "source": "GAIL NSE filing 13.04.2026 via search summary (nsearchives.nseindia.com/corporate/Himanshugail_13042026185455_KKBMPL_S.pdf); PNGRB NGPL MIS Report 31.01.2026 via search summary (pngrb.gov.in/data-bank/20260131-NGPL-MIS-Report.pdf, not fetched)",
+  "waypoints": [
+   [
+    "Koottanad",
+    10.78,
+    76.15
+   ],
+   [
+    "Walayar",
+    10.84,
+    76.84
+   ],
+   [
+    "Coimbatore",
+    11.02,
+    76.96
+   ],
+   [
+    "Erode",
+    11.34,
+    77.72
+   ],
+   [
+    "Salem",
+    11.66,
+    78.15
+   ],
+   [
+    "Krishnagiri",
+    12.52,
+    78.21
+   ],
+   [
+    "Bengaluru",
+    12.97,
+    77.59
+   ]
+  ],
+  "system": "KKBMPL",
+  "notes": "Whole KKBMPL (Apr 2026): 1,104 km authorised, 951 km under execution, 919 km laid, 657 km commissioned. Parts of this leg (e.g. Koottanad–Walayar) may be inside the 657 km; split not verified. Route via TN western districts schematic.",
+  "coords": "approximate"
+ },
+ {
+  "name": "East–West Pipeline (Kakinada–Hyderabad–Bharuch)",
+  "entity": "PIL (Pipeline Infrastructure Ltd)",
+  "status": "operational",
+  "auth_km": 1459,
+  "built_km": 1483,
+  "capacity_mmscmd": 85,
+  "expected": null,
+  "source": "HLEC Vision 2040 (PNGRB, Nov 2025) Table 12.7 (data as of Dec'24)",
+  "waypoints": [
+   [
+    "Kakinada",
+    16.96,
+    82.24
+   ],
+   [
+    "Vijayawada",
+    16.51,
+    80.65
+   ],
+   [
+    "Hyderabad",
+    17.39,
+    78.49
+   ],
+   [
+    "Solapur",
+    17.66,
+    75.91
+   ],
+   [
+    "Ahmednagar",
+    19.09,
+    74.74
+   ],
+   [
+    "Nashik",
+    20.0,
+    73.79
+   ],
+   [
+    "Bharuch",
+    21.7,
+    72.98
+   ]
+  ],
+  "notes": "Utilisation 41% (FY25 till Dec'24). Intermediate towns schematic.",
+  "coords": "approximate"
+ },
+ {
+  "name": "KG Basin network (summary)",
+  "entity": "GAIL",
+  "status": "operational",
+  "auth_km": 878,
+  "built_km": 867,
+  "capacity_mmscmd": 16,
+  "expected": null,
+  "source": "HLEC Vision 2040 (PNGRB, Nov 2025) Table 12.7 (data as of Dec'24)",
+  "waypoints": [
+   [
+    "Kakinada",
+    16.96,
+    82.24
+   ],
+   [
+    "Rajahmundry",
+    17.0,
+    81.8
+   ],
+   [
+    "Bhimavaram",
+    16.54,
+    81.52
+   ],
+   [
+    "Eluru",
+    16.71,
+    81.1
+   ],
+   [
+    "Vijayawada",
+    16.51,
+    80.65
+   ]
+  ],
+  "notes": "Regional network drawn as one summary line; utilisation 20.03%.",
+  "coords": "approximate"
+ },
+ {
+  "name": "Cauvery Basin regional (summary)",
+  "entity": "GAIL",
+  "status": "operational",
+  "auth_km": 240,
+  "built_km": 242,
+  "capacity_mmscmd": 4.33,
+  "expected": null,
+  "source": "HLEC Vision 2040 (PNGRB, Nov 2025) Table 12.7 (data as of Dec'24) (not part of NGG)",
+  "waypoints": [
+   [
+    "Kuthalam",
+    11.07,
+    79.56
+   ],
+   [
+    "Karaikal",
+    10.92,
+    79.84
+   ],
+   [
+    "Narimanam",
+    10.84,
+    79.8
+   ]
+  ],
+  "notes": "Summary line; Ramanathapuram sub-network not drawn.",
+  "coords": "approximate"
+ },
+ {
+  "name": "Dadri–Bawana–Nangal (DBNPL)",
+  "entity": "GAIL",
+  "status": "operational",
+  "auth_km": 921,
+  "built_km": 998,
+  "capacity_mmscmd": 31,
+  "expected": null,
+  "source": "HLEC Vision 2040 (PNGRB, Nov 2025) Table 12.7 (data as of Dec'24)",
+  "waypoints": [
+   [
+    "Dadri",
+    28.55,
+    77.55
+   ],
+   [
+    "Bawana",
+    28.8,
+    77.03
+   ],
+   [
+    "Panipat",
+    29.39,
+    76.97
+   ],
+   [
+    "Ambala",
+    30.38,
+    76.78
+   ],
+   [
+    "Rupnagar",
+    30.97,
+    76.53
+   ],
+   [
+    "Nangal",
+    31.39,
+    76.37
+   ]
+  ],
+  "notes": "Utilisation 71.69% = GAIL network figure.",
+  "coords": "approximate"
+ },
+ {
+  "name": "Chhainsa–Jhajjar–Hisar (CJHPL)",
+  "entity": "GAIL",
+  "status": "operational",
+  "auth_km": 455,
+  "built_km": 440,
+  "capacity_mmscmd": 35,
+  "expected": null,
+  "source": "HLEC Vision 2040 (PNGRB, Nov 2025) Table 12.7 (data as of Dec'24)",
+  "waypoints": [
+   [
+    "Chhainsa",
+    28.3,
+    77.4
+   ],
+   [
+    "Gurugram",
+    28.46,
+    77.03
+   ],
+   [
+    "Jhajjar",
+    28.61,
+    76.66
+   ],
+   [
+    "Hisar",
+    29.15,
+    75.72
+   ]
+  ],
+  "notes": "Utilisation 71.69% = GAIL network figure.",
+  "coords": "approximate"
+ },
+ {
+  "name": "Dadri–Panipat",
+  "entity": "IOCL",
+  "status": "operational",
+  "auth_km": 132,
+  "built_km": 143,
+  "capacity_mmscmd": 20,
+  "expected": null,
+  "source": "HLEC Vision 2040 (PNGRB, Nov 2025) Table 12.7 (data as of Dec'24)",
+  "waypoints": [
+   [
+    "Dadri",
+    28.55,
+    77.55
+   ],
+   [
+    "Baghpat",
+    28.94,
+    77.22
+   ],
+   [
+    "Panipat",
+    29.39,
+    76.97
+   ]
+  ],
+  "notes": "Utilisation 27.85%.",
+  "coords": "approximate"
+ },
+ {
+  "name": "GSPL Gujarat high-pressure grid (summary spine)",
+  "entity": "GSPL",
+  "status": "operational",
+  "auth_km": 2207,
+  "built_km": 2704,
+  "capacity_mmscmd": 36,
+  "expected": null,
+  "source": "HLEC Vision 2040 (PNGRB, Nov 2025) Table 12.7 (data as of Dec'24) (GSPL-HP row; LP network 58 km/12 MMSCMD separate)",
+  "waypoints": [
+   [
+    "Mundra",
+    22.84,
+    69.72
+   ],
+   [
+    "Morbi",
+    22.82,
+    70.84
+   ],
+   [
+    "Ahmedabad",
+    23.02,
+    72.57
+   ],
+   [
+    "Vadodara",
+    22.31,
+    73.18
+   ],
+   [
+    "Bharuch",
+    21.7,
+    72.98
+   ],
+   [
+    "Hazira",
+    21.1,
+    72.64
+   ]
+  ],
+  "notes": "Summary spine only; utilisation printed 100.5%. Hazira–Ankleshwar (GGL, 73 km) not drawn separately.",
+  "coords": "approximate"
+ },
+ {
+  "name": "Shahdol–Phulpur (SPPL)",
+  "entity": "RGPL (Reliance Gas Pipelines)",
+  "status": "operational",
+  "auth_km": 312,
+  "built_km": 304,
+  "capacity_mmscmd": 3.5,
+  "expected": null,
+  "source": "HLEC Vision 2040 (PNGRB, Nov 2025) Table 12.8 (data as of Dec'24)",
+  "waypoints": [
+   [
+    "Shahdol",
+    23.3,
+    81.36
+   ],
+   [
+    "Rewa",
+    24.53,
+    81.3
+   ],
+   [
+    "Phulpur",
+    25.55,
+    82.09
+   ]
+  ],
+  "notes": "Only fully operational bid-out pipeline (HLEC).",
+  "coords": "approximate"
+ },
+ {
+  "name": "AGCL Assam regional network",
+  "entity": "AGCL",
+  "status": "operational",
+  "auth_km": 105,
+  "built_km": 107,
+  "capacity_mmscmd": 2.482,
+  "expected": null,
+  "source": "HLEC Vision 2040 (PNGRB, Nov 2025) Table 12.7 (data as of Dec'24) (not part of NGG)",
+  "waypoints": [
+   [
+    "Duliajan",
+    27.36,
+    95.32
+   ],
+   [
+    "Namrup",
+    27.18,
+    95.33
+   ],
+   [
+    "Moran",
+    27.18,
+    94.92
+   ],
+   [
+    "Sivasagar",
+    26.98,
+    94.64
+   ]
+  ],
+  "notes": "Schematic; regional network.",
+  "coords": "approximate"
+ },
+ {
+  "name": "JHBDPL: Jagdishpur–Phulpur–Varanasi–Dobhi–Patna–Barauni",
+  "entity": "GAIL",
+  "status": "operational",
+  "auth_km": null,
+  "built_km": null,
+  "capacity_mmscmd": null,
+  "expected": null,
+  "source": "GAIL press release 09/10.04.2025 via search summary (gailonline.com/PressRelease_09042025.html); PNGRB NGPL MIS Report 31.01.2026 via search summary (pngrb.gov.in/data-bank/20260131-NGPL-MIS-Report.pdf, not fetched)",
+  "waypoints": [
+   [
+    "Jagdishpur",
+    26.75,
+    81.57
+   ],
+   [
+    "Phulpur",
+    25.55,
+    82.09
+   ],
+   [
+    "Varanasi",
+    25.32,
+    82.97
+   ],
+   [
+    "Dobhi",
+    24.4,
+    84.95
+   ],
+   [
+    "Patna",
+    25.59,
+    85.14
+   ],
+   [
+    "Barauni",
+    25.47,
+    85.98
+   ]
+  ],
+  "system": "JHBDPL / Pradhan Mantri Urja Ganga",
+  "notes": "Whole JHBDPL incl. Barauni–Guwahati: 3,546 km authorised, 23 MMSCMD (HLEC Table 12.7); 3,279 km operating, 267 km u/c (MIS Jan 2026).",
+  "coords": "approximate"
+ },
+ {
+  "name": "JHBDPL: Dobhi–Bokaro–Durgapur",
+  "entity": "GAIL",
+  "status": "operational",
+  "auth_km": null,
+  "built_km": null,
+  "capacity_mmscmd": null,
+  "expected": null,
+  "source": "GAIL press release 09/10.04.2025 via search summary (gailonline.com/PressRelease_09042025.html); PNGRB NGPL MIS Report 31.01.2026 via search summary (pngrb.gov.in/data-bank/20260131-NGPL-MIS-Report.pdf, not fetched)",
+  "waypoints": [
+   [
+    "Dobhi",
+    24.4,
+    84.95
+   ],
+   [
+    "Bokaro",
+    23.67,
+    86.15
+   ],
+   [
+    "Durgapur",
+    23.52,
+    87.31
+   ]
+  ],
+  "system": "JHBDPL / Pradhan Mantri Urja Ganga",
+  "coords": "approximate"
+ },
+ {
+  "name": "JHBDPL: Bokaro–Angul–Dhamra (+Paradip)",
+  "entity": "GAIL",
+  "status": "operational",
+  "auth_km": null,
+  "built_km": null,
+  "capacity_mmscmd": null,
+  "expected": null,
+  "source": "GAIL press release 09/10.04.2025 via search summary (gailonline.com/PressRelease_09042025.html); PNGRB NGPL MIS Report 31.01.2026 via search summary (pngrb.gov.in/data-bank/20260131-NGPL-MIS-Report.pdf, not fetched)",
+  "waypoints": [
+   [
+    "Bokaro",
+    23.67,
+    86.15
+   ],
+   [
+    "Jamshedpur",
+    22.8,
+    86.18
+   ],
+   [
+    "Keonjhar",
+    21.63,
+    85.58
+   ],
+   [
+    "Angul",
+    20.84,
+    85.1
+   ],
+   [
+    "Jajpur",
+    20.85,
+    86.33
+   ],
+   [
+    "Dhamra",
+    20.79,
+    86.96
+   ]
+  ],
+  "system": "JHBDPL / Pradhan Mantri Urja Ganga",
+  "notes": "Paradip spur not drawn; intermediate towns schematic.",
+  "coords": "approximate"
+ },
+ {
+  "name": "JHBDPL: Durgapur–Kolkata–Haldia",
+  "entity": "GAIL",
+  "status": "operational",
+  "auth_km": 294,
+  "built_km": 294,
+  "capacity_mmscmd": null,
+  "expected": "completed FY26 (GAIL AR 2025-26)",
+  "source": "GAIL Annual Report 2025-26 via search summary (gailebank.gail.co.in/InvestorsZone/AnnualReports/Gail-Annual-Report 2025-26.pdf); GAIL press release Apr 2025",
+  "waypoints": [
+   [
+    "Durgapur",
+    23.52,
+    87.31
+   ],
+   [
+    "Bardhaman",
+    23.23,
+    87.86
+   ],
+   [
+    "Kolkata",
+    22.57,
+    88.36
+   ],
+   [
+    "Haldia",
+    22.06,
+    88.07
+   ]
+  ],
+  "system": "JHBDPL / Pradhan Mantri Urja Ganga",
+  "notes": "Durgapur–Kolkata 132 km commissioned earlier; AR FY26 lists '162 km Kolkata–Haldia section' commissioned during FY26. Not cross-checked against the full AR text.",
+  "coords": "approximate"
+ },
+ {
+  "name": "JHBDPL: Dhamra–Haldia",
+  "entity": "GAIL",
+  "status": "partly_operational",
+  "auth_km": 253,
+  "built_km": 99,
+  "capacity_mmscmd": null,
+  "expected": "Sep 2026 (GAIL revision, Mar 2026); not confirmed met",
+  "source": "GAIL Annual Report 2025-26 & Q3 FY26 earnings call via search summary; GAIL press release Apr 2025",
+  "waypoints": [
+   [
+    "Dhamra",
+    20.79,
+    86.96
+   ],
+   [
+    "Balasore",
+    21.49,
+    86.93
+   ],
+   [
+    "Contai",
+    21.78,
+    87.75
+   ],
+   [
+    "Haldia",
+    22.06,
+    88.07
+   ]
+  ],
+  "system": "JHBDPL / Pradhan Mantri Urja Ganga",
+  "notes": "AR FY26: 99 of 253 km (West Bengal) commissioned. Apr 2025: 198 of 240 km laid. Lengths differ between sources (240 vs 253 km). built_km = commissioned km.",
+  "coords": "approximate"
+ },
+ {
+  "name": "Barauni–Guwahati (BGPL, part of JHBDPL)",
+  "entity": "GAIL",
+  "status": "operational",
+  "auth_km": 718,
+  "built_km": null,
+  "capacity_mmscmd": 2.5,
+  "expected": null,
+  "source": "GAIL press release Apr 2025 (lists Dobhi–Barauni–Guwahati as operational) via search summary; indianchemicalnews.com Mar 2024 (PM to dedicate 718 km BGPL)",
+  "waypoints": [
+   [
+    "Barauni",
+    25.47,
+    85.98
+   ],
+   [
+    "Purnia",
+    25.78,
+    87.47
+   ],
+   [
+    "Siliguri",
+    26.73,
+    88.4
+   ],
+   [
+    "Bongaigaon",
+    26.48,
+    90.56
+   ],
+   [
+    "Guwahati",
+    26.14,
+    91.74
+   ]
+  ],
+  "system": "JHBDPL / Pradhan Mantri Urja Ganga",
+  "notes": "Length given as 718 km (2024 press) or 729 km (GAIL 2019). Capacity ~2.5 MMSCMD per press. Not a separate row in HLEC.",
+  "coords": "approximate"
+ },
+ {
+  "name": "MNJPL: Mumbai–Nagpur",
+  "entity": "GAIL",
+  "status": "operational",
+  "auth_km": null,
+  "built_km": 694,
+  "capacity_mmscmd": null,
+  "expected": null,
+  "source": "indianinfrastructure.com 2025-11-07 (694 km Mumbai–Nagpur fully operational); HLEC Vision 2040 (PNGRB, Nov 2025) Table 12.8 (data as of Dec'24)",
+  "waypoints": [
+   [
+    "Mumbai (Bhiwandi)",
+    19.3,
+    73.06
+   ],
+   [
+    "Igatpuri",
+    19.7,
+    73.56
+   ],
+   [
+    "Shirdi",
+    19.77,
+    74.48
+   ],
+   [
+    "Aurangabad",
+    19.88,
+    75.34
+   ],
+   [
+    "Jalna",
+    19.84,
+    75.88
+   ],
+   [
+    "Washim",
+    20.11,
+    77.13
+   ],
+   [
+    "Wardha",
+    20.74,
+    78.6
+   ],
+   [
+    "Nagpur",
+    21.15,
+    79.09
+   ]
+  ],
+  "system": "MNJPL",
+  "notes": "Whole MNJPL: 1,755 km authorised, 16.5 MMSCMD (HLEC Table 12.8); GAIL gives 1,702-1,707 km. Laid along Samruddhi Mahamarg; route schematic. Cost ~Rs 8,255 cr (pipeline-journal.net, Sep 2025).",
+  "coords": "approximate"
+ },
+ {
+  "name": "MNJPL: Nagpur–Jharsuguda, Maharashtra section",
+  "entity": "GAIL",
+  "status": "partly_operational",
+  "auth_km": null,
+  "built_km": null,
+  "capacity_mmscmd": null,
+  "expected": "progressively by 30 Jun 2026 (GAIL board, 25 Mar 2026)",
+  "source": "GAIL Reg 30 filing Mar 2026 via search summary (insights.dsij.in); GAIL Annual Report 2025-26 via search summary",
+  "waypoints": [
+   [
+    "Nagpur",
+    21.15,
+    79.09
+   ],
+   [
+    "Bhandara",
+    21.17,
+    79.65
+   ],
+   [
+    "Deori",
+    21.07,
+    80.37
+   ]
+  ],
+  "system": "MNJPL",
+  "notes": "Sources disagree: Mar 2026 filing says this section still to be commissioned by Jun 2026; FY26 Annual Report lists '203 km Nagpur–Jharsuguda section in Maharashtra' commissioned during the year. Shown as partly operational; check before publishing.",
+  "coords": "approximate"
+ },
+ {
+  "name": "MNJPL: Nagpur–Jharsuguda, Chhattisgarh–Odisha section",
+  "entity": "GAIL",
+  "status": "operational",
+  "auth_km": null,
+  "built_km": null,
+  "capacity_mmscmd": null,
+  "expected": null,
+  "source": "GAIL Reg 30 filing 31.01.2026 via search summary (nsearchives.nseindia.com/corporate/Himanshugail_31012026172038_Reg30.pdf)",
+  "waypoints": [
+   [
+    "Deori",
+    21.07,
+    80.37
+   ],
+   [
+    "Rajnandgaon",
+    21.1,
+    81.03
+   ],
+   [
+    "Durg",
+    21.19,
+    81.28
+   ],
+   [
+    "Raipur",
+    21.25,
+    81.63
+   ],
+   [
+    "Raigarh",
+    21.9,
+    83.4
+   ],
+   [
+    "Jharsuguda",
+    21.86,
+    84.01
+   ]
+  ],
+  "system": "MNJPL",
+  "coords": "approximate"
+ },
+ {
+  "name": "Nagpur–Jabalpur",
+  "entity": "GAIL",
+  "status": "under_construction",
+  "auth_km": 317,
+  "built_km": 317,
+  "capacity_mmscmd": null,
+  "expected": "construction complete Mar 2026; commissioning awaited PESO clearance",
+  "source": "thehitavada.com 2026-03-25; pipeline-journal.net (GAIL completes Nagpur–Jabalpur)",
+  "waypoints": [
+   [
+    "Nagpur",
+    21.15,
+    79.09
+   ],
+   [
+    "Seoni",
+    22.09,
+    79.54
+   ],
+   [
+    "Lakhnadon",
+    22.6,
+    79.6
+   ],
+   [
+    "Jabalpur",
+    23.18,
+    79.95
+   ]
+  ],
+  "system": "MNJPL",
+  "notes": "Reported as part of the MNJPL system; not a separate row in HLEC. Mechanically complete; no commissioning report found.",
+  "coords": "approximate"
+ },
+ {
+  "name": "Srikakulam–Angul (SAPL)",
+  "entity": "GAIL",
+  "status": "partly_operational",
+  "auth_km": 744,
+  "built_km": 702,
+  "capacity_mmscmd": 6.65,
+  "expected": "Jun 2026 for spur lines (GAIL disclosure 03.01.2026); not confirmed met",
+  "source": "GAIL disclosure 03.01.2026 via search summary (gailonline.com/pdf/InvestorsZone/GeneralDisclosure/Revision_in_Completion_Schedule_SAPL_Letter_dated_03_01_2026.pdf); scanx.trade; HLEC Vision 2040 (PNGRB, Nov 2025) Table 12.8 (data as of Dec'24)",
+  "waypoints": [
+   [
+    "Srikakulam",
+    18.3,
+    83.9
+   ],
+   [
+    "Berhampur",
+    19.31,
+    84.79
+   ],
+   [
+    "Nayagarh",
+    20.13,
+    85.1
+   ],
+   [
+    "Dhenkanal",
+    20.66,
+    85.6
+   ],
+   [
+    "Angul",
+    20.84,
+    85.1
+   ]
+  ],
+  "notes": "HLEC authorised length 690 km; GAIL project 744 km = 422 km main line (commissioned 26 Sep 2025) + 322 km spurs (280 km done, 42 km pending). built_km = 422 + 280 (laid). Spurs not drawn; main-line route schematic.",
+  "coords": "approximate"
+ },
+ {
+  "name": "Mehsana–Bhatinda (MBPL)",
+  "entity": "GIGL (GSPL India Gasnet)",
+  "status": "partly_operational",
+  "auth_km": 1943,
+  "built_km": 1318,
+  "capacity_mmscmd": 80.11,
+  "expected": "Jun 2026 (PNGRB MIS Jan 2026); not confirmed met",
+  "source": "PNGRB NGPL MIS Report 31.01.2026 via search summary (pngrb.gov.in/data-bank/20260131-NGPL-MIS-Report.pdf, not fetched); HLEC Vision 2040 (PNGRB, Nov 2025) Table 12.8 (data as of Dec'24) (1,940 auth / 1,200 op)",
+  "waypoints": [
+   [
+    "Mehsana",
+    23.6,
+    72.38
+   ],
+   [
+    "Palanpur",
+    24.17,
+    72.43
+   ],
+   [
+    "Pali",
+    25.77,
+    73.32
+   ],
+   [
+    "Nagaur",
+    27.2,
+    73.73
+   ],
+   [
+    "Churu",
+    28.3,
+    74.95
+   ],
+   [
+    "Sirsa",
+    29.53,
+    75.03
+   ],
+   [
+    "Bathinda",
+    30.21,
+    74.95
+   ]
+  ],
+  "notes": "624 km under construction (MIS Jan 2026). Which stretches are built is not verified; route through Rajasthan schematic (HLEC says it passes Churu). Utilisation 4.77%.",
+  "coords": "approximate"
+ },
+ {
+  "name": "Bhatinda–Gurdaspur",
+  "entity": "GIGL (GSPL India Gasnet)",
+  "status": "partly_operational",
+  "auth_km": 261,
+  "built_km": 101,
+  "capacity_mmscmd": 42.42,
+  "expected": "MIS target 'Dec-24' is stale; no new date found",
+  "source": "PNGRB NGPL MIS Report 31.01.2026 via search summary (pngrb.gov.in/data-bank/20260131-NGPL-MIS-Report.pdf, not fetched); HLEC Vision 2040 (PNGRB, Nov 2025) Table 12.8 (data as of Dec'24) (102 km op)",
+  "waypoints": [
+   [
+    "Bathinda",
+    30.21,
+    74.95
+   ],
+   [
+    "Moga",
+    30.82,
+    75.17
+   ],
+   [
+    "Jalandhar",
+    31.33,
+    75.58
+   ],
+   [
+    "Gurdaspur",
+    32.04,
+    75.4
+   ]
+  ],
+  "notes": "160 km under construction. Route schematic.",
+  "coords": "approximate"
+ },
+ {
+  "name": "Gurdaspur–Jammu",
+  "entity": "GAIL",
+  "status": "under_construction",
+  "auth_km": 160,
+  "built_km": null,
+  "capacity_mmscmd": 3.1,
+  "expected": "Jul 2026 (PNGRB MIS Jun 2025 & press); not confirmed met",
+  "source": "PNGRB MIS Jun 2025 via search summary; ibtimes.co.in (undated, ~90% complete); dailyexcelsior.com/gas-grid-uncertainty; HLEC Vision 2040 (PNGRB, Nov 2025) Table 12.8 (data as of Dec'24)",
+  "waypoints": [
+   [
+    "Gurdaspur",
+    32.04,
+    75.4
+   ],
+   [
+    "Pathankot",
+    32.27,
+    75.65
+   ],
+   [
+    "Kathua",
+    32.37,
+    75.52
+   ],
+   [
+    "Samba",
+    32.56,
+    75.12
+   ],
+   [
+    "Jammu",
+    32.73,
+    74.86
+   ]
+  ],
+  "notes": "Press reports about 90% complete. Estimated cost Rs 237 cr for the J&K portion (press).",
+  "coords": "approximate"
+ },
+ {
+  "name": "Mallavaram–Bhopal–Bhilwara–Vijaipur: operating section (Kunchanapalli–Ramagundam)",
+  "entity": "GITL (GSPL India Transco)",
+  "status": "operational",
+  "auth_km": null,
+  "built_km": 365,
+  "capacity_mmscmd": null,
+  "expected": null,
+  "source": "PNGRB NGPL MIS Report 31.01.2026 via search summary (pngrb.gov.in/data-bank/20260131-NGPL-MIS-Report.pdf, not fetched); gem.wiki Mallavaram-Bhopal-Bhilwara-Vijaipur (secondary)",
+  "waypoints": [
+   [
+    "Kunchanapalli",
+    16.47,
+    80.6
+   ],
+   [
+    "Khammam",
+    17.25,
+    80.15
+   ],
+   [
+    "Warangal",
+    17.97,
+    79.59
+   ],
+   [
+    "Ramagundam",
+    18.76,
+    79.47
+   ]
+  ],
+  "system": "MBBVPL",
+  "notes": "Whole MBBVPL: 1,881 km authorised, 78.25 MMSCMD (HLEC Table 12.8). The location of the 365 km operating section comes from GEM only (supplies Ramagundam fertiliser plant).",
+  "coords": "approximate"
+ },
+ {
+  "name": "Mallavaram–Bhopal–Bhilwara–Vijaipur: unbuilt remainder",
+  "entity": "GITL (GSPL India Transco)",
+  "status": "under_construction",
+  "auth_km": 1517,
+  "built_km": null,
+  "capacity_mmscmd": null,
+  "expected": "MIS target 'Mar-20' is stale; no new date found",
+  "source": "PNGRB NGPL MIS Report 31.01.2026 via search summary (pngrb.gov.in/data-bank/20260131-NGPL-MIS-Report.pdf, not fetched); HLEC Vision 2040 (PNGRB, Nov 2025) Table 12.8 (data as of Dec'24)",
+  "waypoints": [
+   [
+    "Ramagundam",
+    18.76,
+    79.47
+   ],
+   [
+    "Adilabad",
+    19.67,
+    78.53
+   ],
+   [
+    "Betul",
+    21.9,
+    77.9
+   ],
+   [
+    "Bhopal",
+    23.26,
+    77.41
+   ],
+   [
+    "Ujjain",
+    23.18,
+    75.78
+   ],
+   [
+    "Bhilwara",
+    25.35,
+    74.63
+   ]
+  ],
+  "system": "MBBVPL",
+  "notes": "PNGRB lists 1,517 km as 'under construction', but no progress has been reported since; effectively stalled. Mallavaram–Kunchanapalli stub and Bhopal–Vijaipur branch not drawn; route schematic.",
+  "coords": "approximate"
+ },
+ {
+  "name": "Ennore–Puducherry–Nagapattinam–Tuticorin (ETBPNMTPL coastal trunk)",
+  "entity": "IOCL",
+  "status": "operational",
+  "auth_km": null,
+  "built_km": null,
+  "capacity_mmscmd": null,
+  "expected": null,
+  "source": "iocl.com/gas-pipelines via search summary (1,094 km commissioned in phases 2019-2023); PNGRB NGPL MIS Report 30.11.2025 via search summary (pngrb.gov.in/data-bank/20251130-NGPL-MIS-Report.pdf, not fetched)",
+  "waypoints": [
+   [
+    "Ennore",
+    13.25,
+    80.32
+   ],
+   [
+    "Puducherry",
+    11.93,
+    79.83
+   ],
+   [
+    "Nagapattinam",
+    10.77,
+    79.84
+   ],
+   [
+    "Ramanathapuram",
+    9.37,
+    78.83
+   ],
+   [
+    "Thoothukudi",
+    8.76,
+    78.13
+   ]
+  ],
+  "system": "ETBPNMTPL",
+  "notes": "Whole ETBPNMTPL: 1,431 km authorised, 84.67 MMSCMD (HLEC Table 12.8); 1,094 km operating, 337 km u/c, MIS target Mar-25 (stale).",
+  "coords": "approximate"
+ },
+ {
+  "name": "ETBPNMTPL: Thiruvallur–Bengaluru and Madurai branches",
+  "entity": "IOCL",
+  "status": "under_construction",
+  "auth_km": 337,
+  "built_km": null,
+  "capacity_mmscmd": null,
+  "expected": "MIS target 'Mar-25' passed; no new date found",
+  "source": "PNGRB NGPL MIS Report 30.11.2025 via search summary (pngrb.gov.in/data-bank/20251130-NGPL-MIS-Report.pdf, not fetched); newsonair (PRAGATI, 10 Jan 2026) via search summary",
+  "waypoints": [
+   [
+    "Ennore",
+    13.25,
+    80.32
+   ],
+   [
+    "Thiruvallur",
+    13.14,
+    79.91
+   ],
+   [
+    "Vellore",
+    12.92,
+    79.13
+   ],
+   [
+    "Krishnagiri",
+    12.52,
+    78.21
+   ],
+   [
+    "Bengaluru",
+    12.97,
+    77.59
+   ]
+  ],
+  "system": "ETBPNMTPL",
+  "notes": "Assumption: we put the 337 km still unbuilt on the Bengaluru and Madurai branches, but did not verify this. The Madurai branch (Tiruchirappalli–Madurai) is not drawn. auth_km here = the unbuilt km.",
+  "coords": "approximate"
+ },
+ {
+  "name": "Hazaribagh–Ranchi",
+  "entity": "IOCL",
+  "status": "under_construction",
+  "auth_km": 65,
+  "built_km": null,
+  "capacity_mmscmd": 1.03,
+  "expected": "not found (GEM lists 2026 start)",
+  "source": "HLEC Vision 2040 (PNGRB, Nov 2025) Table 12.8 (data as of Dec'24); gem.wiki Hazaribagh-Ranchi (secondary)",
+  "waypoints": [
+   [
+    "Hazaribagh",
+    23.99,
+    85.36
+   ],
+   [
+    "Ramgarh (JH)",
+    23.63,
+    85.52
+   ],
+   [
+    "Ranchi",
+    23.34,
+    85.31
+   ]
+  ],
+  "notes": "Authorised 2023 (PNGRB bid 17). No commissioning report found.",
+  "coords": "approximate"
+ },
+ {
+  "name": "Jamnagar–Dwarka",
+  "entity": "GSPL",
+  "status": "under_construction",
+  "auth_km": 100,
+  "built_km": null,
+  "capacity_mmscmd": 3.0,
+  "expected": "Oct 2026 (PNGRB MIS Dec 2025/Jan 2026)",
+  "source": "PNGRB NGPL MIS Report 31.01.2026 via search summary (pngrb.gov.in/data-bank/20260131-NGPL-MIS-Report.pdf, not fetched); HLEC Vision 2040 (PNGRB, Nov 2025) Table 12.8 (data as of Dec'24)",
+  "waypoints": [
+   [
+    "Jamnagar",
+    22.47,
+    70.06
+   ],
+   [
+    "Khambhalia",
+    22.2,
+    69.65
+   ],
+   [
+    "Dwarka",
+    22.24,
+    68.97
+   ]
+  ],
+  "notes": "Authorised 19.08.2021. No commissioning report found.",
+  "coords": "approximate"
+ },
+ {
+  "name": "NE Gas Grid: Guwahati–Numaligarh",
+  "entity": "IGGL (Indradhanush Gas Grid)",
+  "status": "operational",
+  "auth_km": 396,
+  "built_km": 396,
+  "capacity_mmscmd": null,
+  "expected": null,
+  "source": "PNGRB press note 03.12.2025 via search summary (pngrb.gov.in/pdf/press-note/20251203_PR.pdf); indianinfrastructure.com 2026-03-16",
+  "waypoints": [
+   [
+    "Guwahati",
+    26.14,
+    91.74
+   ],
+   [
+    "Nagaon",
+    26.35,
+    92.68
+   ],
+   [
+    "Numaligarh",
+    26.62,
+    93.73
+   ]
+  ],
+  "system": "North-East Natural Gas Pipeline Grid",
+  "notes": "Commissioned Jul 2025, connected to Numaligarh Refinery. Whole NEGG: 1,656 km (HLEC Table 12.7) / 1,688 km (PNGRB 2025), 4.75 MMSCMD.",
+  "coords": "approximate"
+ },
+ {
+  "name": "NE Gas Grid: Phase I north-bank / Arunachal link",
+  "entity": "IGGL (Indradhanush Gas Grid)",
+  "status": "operational",
+  "auth_km": null,
+  "built_km": null,
+  "capacity_mmscmd": null,
+  "expected": null,
+  "source": "indianinfrastructure.com 2026-03-16 (Phase I, ~553 km across Assam, Arunachal, Nagaland, inaugurated 13 Mar 2026)",
+  "waypoints": [
+   [
+    "Numaligarh",
+    26.62,
+    93.73
+   ],
+   [
+    "Jorhat",
+    26.75,
+    94.2
+   ],
+   [
+    "Majuli",
+    26.95,
+    94.17
+   ],
+   [
+    "North Lakhimpur",
+    27.24,
+    94.1
+   ],
+   [
+    "Itanagar",
+    27.08,
+    93.61
+   ]
+  ],
+  "system": "North-East Natural Gas Pipeline Grid",
+  "notes": "Phase I = ~553 km incl. Guwahati–Numaligarh. Exact alignment of the remaining ~157 km not verified; Jorhat–Majuli Brahmaputra crossing completed 2023. Schematic.",
+  "coords": "approximate"
+ },
+ {
+  "name": "NE Gas Grid: Guwahati–Shillong–Silchar–Agartala (hill sections)",
+  "entity": "IGGL (Indradhanush Gas Grid)",
+  "status": "under_construction",
+  "auth_km": null,
+  "built_km": null,
+  "capacity_mmscmd": null,
+  "expected": "PNGRB target full commissioning 31 Mar 2026; missed/unverified",
+  "source": "PNGRB press note 03.12.2025 via search summary (pngrb.gov.in/pdf/press-note/20251203_PR.pdf); indianinfrastructure.com 2026-03-16; sentinelassam.com (Tripura segment target Mar 2025)",
+  "waypoints": [
+   [
+    "Guwahati",
+    26.14,
+    91.74
+   ],
+   [
+    "Shillong",
+    25.58,
+    91.89
+   ],
+   [
+    "Silchar",
+    24.83,
+    92.78
+   ],
+   [
+    "Agartala",
+    23.83,
+    91.29
+   ]
+  ],
+  "system": "North-East Natural Gas Pipeline Grid",
+  "notes": "Branch to Aizawl not drawn. Hill sections need environmental clearance and come in later phases (ICAI opinion via search).",
+  "coords": "approximate"
+ },
+ {
+  "name": "NE Gas Grid: Dimapur–Kohima–Imphal",
+  "entity": "IGGL (Indradhanush Gas Grid)",
+  "status": "under_construction",
+  "auth_km": null,
+  "built_km": null,
+  "capacity_mmscmd": null,
+  "expected": "unverified",
+  "source": "PNGRB press note 03.12.2025 via search summary (pngrb.gov.in/pdf/press-note/20251203_PR.pdf); indianinfrastructure.com 2026-03-16",
+  "waypoints": [
+   [
+    "Numaligarh",
+    26.62,
+    93.73
+   ],
+   [
+    "Dimapur",
+    25.9,
+    93.73
+   ],
+   [
+    "Kohima",
+    25.67,
+    94.11
+   ],
+   [
+    "Imphal",
+    24.82,
+    93.94
+   ]
+  ],
+  "system": "North-East Natural Gas Pipeline Grid",
+  "notes": "Part of Dimapur area may be inside Phase I (Nagaland); not verified.",
+  "coords": "approximate"
+ },
+ {
+  "name": "Kakinada–Vijayawada–Nellore",
+  "entity": "IMC Ltd",
+  "status": "authorised_not_started",
+  "auth_km": 667,
+  "built_km": 0,
+  "capacity_mmscmd": 18,
+  "expected": "MIS target 'Mar-24' is stale; HLEC Table 12.9 suggests realigning via Kadapa–Chittoor",
+  "source": "PNGRB NGPL MIS Report 31.01.2026 via search summary (pngrb.gov.in/data-bank/20260131-NGPL-MIS-Report.pdf, not fetched); HLEC Vision 2040 (PNGRB, Nov 2025) Table 12.8 (data as of Dec'24) (printed 'Under Construction'); HLEC Vision 2040 (PNGRB, Nov 2025) Annexure 6.1.3",
+  "waypoints": [
+   [
+    "Kakinada",
+    16.96,
+    82.24
+   ],
+   [
+    "Rajahmundry",
+    17.0,
+    81.8
+   ],
+   [
+    "Eluru",
+    16.71,
+    81.1
+   ],
+   [
+    "Vijayawada",
+    16.51,
+    80.65
+   ],
+   [
+    "Guntur",
+    16.31,
+    80.44
+   ],
+   [
+    "Ongole",
+    15.5,
+    80.05
+   ],
+   [
+    "Nellore",
+    14.44,
+    79.99
+   ]
+  ],
+  "notes": "HLEC Table 12.8 prints 'Under Construction' with no operational km. Annexure 6.1.3 says it was 'not executed or delayed' because of siting issues (its text gives 522 km, Table 12.8 gives 667 km). Authorised 19.02.2018.",
+  "coords": "approximate"
+ },
+ {
+  "name": "Ennore–Nellore",
+  "entity": "GTIL",
+  "status": "authorised_not_started",
+  "auth_km": 220,
+  "built_km": 0,
+  "capacity_mmscmd": 36,
+  "expected": "Authorisation cancelled Oct 2019 (GEM)",
+  "source": "PNGRB NGPL MIS Report 31.01.2026 via search summary (pngrb.gov.in/data-bank/20260131-NGPL-MIS-Report.pdf, not fetched); HLEC Vision 2040 (PNGRB, Nov 2025) Table 12.8 (data as of Dec'24) (printed 'Under Construction'); gem.wiki Ennore-Nellore (secondary)",
+  "waypoints": [
+   [
+    "Ennore",
+    13.25,
+    80.32
+   ],
+   [
+    "Gummidipoondi",
+    13.41,
+    80.11
+   ],
+   [
+    "Sullurpeta",
+    13.7,
+    80.02
+   ],
+   [
+    "Gudur",
+    14.15,
+    79.85
+   ],
+   [
+    "Nellore",
+    14.44,
+    79.99
+   ]
+  ],
+  "notes": "GEM: PNGRB cancelled authorisation Oct 2019; APTEL upheld 4 Oct 2023. Still listed by PNGRB MIS (target Apr-20) and HLEC. Effectively shelved.",
+  "coords": "approximate"
+ },
+ {
+  "name": "Kanai Chhata–Panitar",
+  "entity": "HPPL (H-Energy consortium)",
+  "status": "authorised_not_started",
+  "auth_km": 317,
+  "built_km": 0,
+  "capacity_mmscmd": 19.2,
+  "expected": "MIS target 'Mar-24' stale; HLEC proposes alternate Digha–Kolkata–Paschim Medinipur",
+  "source": "PNGRB NGPL MIS Report 31.01.2026 via search summary (pngrb.gov.in/data-bank/20260131-NGPL-MIS-Report.pdf, not fetched); HLEC Vision 2040 (PNGRB, Nov 2025) Table 12.8 (data as of Dec'24) (printed 'Under Construction'); HLEC Vision 2040 (PNGRB, Nov 2025) Annexure 6.1.3",
+  "waypoints": [
+   [
+    "Kanai Chhata (approx.)",
+    22.1,
+    88.0
+   ],
+   [
+    "Diamond Harbour",
+    22.19,
+    88.19
+   ],
+   [
+    "Kolkata",
+    22.57,
+    88.36
+   ],
+   [
+    "Panitar (Basirhat, approx.)",
+    22.67,
+    88.9
+   ]
+  ],
+  "notes": "Endpoint coordinates are rough estimates (Kanai Chhata in Purba Medinipur and Panitar near the Bangladesh border are assumed locations).",
+  "coords": "approximate"
+ },
+ {
+  "name": "Kakinada–Srikakulam",
+  "entity": "APGDC (not named in HLEC)",
+  "status": "authorised_not_started",
+  "auth_km": null,
+  "built_km": null,
+  "capacity_mmscmd": null,
+  "expected": "not stated",
+  "source": "HLEC Vision 2040 (PNGRB, Nov 2025) Annexure 6.1.3 (listed among authorised but unexecuted/delayed)",
+  "waypoints": [
+   [
+    "Kakinada",
+    16.96,
+    82.24
+   ],
+   [
+    "Visakhapatnam",
+    17.69,
+    83.22
+   ],
+   [
+    "Vizianagaram",
+    18.11,
+    83.4
+   ],
+   [
+    "Srikakulam",
+    18.3,
+    83.9
+   ]
+  ],
+  "notes": "Not in HLEC Tables 12.7/12.8; length/capacity not in local sources. Entity from general knowledge, so check it.",
+  "coords": "approximate"
+ },
+ {
+  "name": "Jaigarh–Mangalore",
+  "entity": "H-Energy (not named in HLEC)",
+  "status": "authorised_not_started",
+  "auth_km": null,
+  "built_km": null,
+  "capacity_mmscmd": null,
+  "expected": "not stated; HLEC proposes alternate Mangalore–Shimoga–Dharwad",
+  "source": "HLEC Vision 2040 (PNGRB, Nov 2025) Annexure 6.1.3 (listed among authorised but unexecuted/delayed)",
+  "waypoints": [
+   [
+    "Jaigarh",
+    17.29,
+    73.22
+   ],
+   [
+    "Ratnagiri",
+    16.99,
+    73.31
+   ],
+   [
+    "Panaji",
+    15.49,
+    73.83
+   ],
+   [
+    "Karwar",
+    14.81,
+    74.13
+   ],
+   [
+    "Udupi",
+    13.34,
+    74.75
+   ],
+   [
+    "Mangaluru",
+    12.91,
+    74.86
+   ]
+  ],
+  "notes": "HLEC: terrain constraints, no anchor customers. Not in Tables 12.7/12.8; entity from general knowledge, so check it.",
+  "coords": "approximate"
+ },
+ {
+  "name": "Barmer–Jaisalmer–Jodhpur–Bikaner–Churu",
+  "entity": "unassigned",
+  "status": "proposed",
+  "auth_km": 650,
+  "built_km": null,
+  "capacity_mmscmd": null,
+  "expected": "2040 conceptual (HLEC Annexure 6.1.3)",
+  "source": "HLEC Vision 2040 (PNGRB, Nov 2025) Annexure 6.1.3",
+  "waypoints": [
+   [
+    "Barmer",
+    25.75,
+    71.39
+   ],
+   [
+    "Jaisalmer",
+    26.92,
+    70.91
+   ],
+   [
+    "Jodhpur",
+    26.24,
+    73.02
+   ],
+   [
+    "Bikaner",
+    28.02,
+    73.31
+   ],
+   [
+    "Churu",
+    28.3,
+    74.95
+   ]
+  ],
+  "notes": "Proposed (HLEC Vision 2040). ~650 km; feeds Barmer/Jaisalmer gas into Mehsana–Bhatinda at Churu.",
+  "coords": "approximate"
+ },
+ {
+  "name": "Kochi–Kanyakumari–Thoothukkudi",
+  "entity": "unassigned",
+  "status": "proposed",
+  "auth_km": 399,
+  "built_km": null,
+  "capacity_mmscmd": 2.72,
+  "expected": "2040 conceptual (HLEC Annexure 6.1.3)",
+  "source": "HLEC Vision 2040 Annexure 6.1.3, Table 12.10 (from PNGRB NGG Technical Assessment Report 2022)",
+  "waypoints": [
+   [
+    "Kochi",
+    10.0,
+    76.22
+   ],
+   [
+    "Kollam",
+    8.89,
+    76.61
+   ],
+   [
+    "Thiruvananthapuram",
+    8.52,
+    76.94
+   ],
+   [
+    "Nagercoil",
+    8.18,
+    77.41
+   ],
+   [
+    "Thoothukudi",
+    8.76,
+    78.13
+   ]
+  ],
+  "notes": "Proposed (HLEC Vision 2040). 2040 flow BAU 2.72 / ACU 5.72 MMSCMD. NGG coastal project; links Kochi LNG to ETBPNMTPL.",
+  "coords": "approximate"
+ },
+ {
+  "name": "Kakinada–Vijayawada–Kadapa–Chittoor",
+  "entity": "unassigned",
+  "status": "proposed",
+  "auth_km": 705,
+  "built_km": null,
+  "capacity_mmscmd": 1.45,
+  "expected": "2040 conceptual (HLEC Annexure 6.1.3)",
+  "source": "HLEC Vision 2040 Annexure 6.1.3, Table 12.10 (from PNGRB NGG Technical Assessment Report 2022)",
+  "waypoints": [
+   [
+    "Kakinada",
+    16.96,
+    82.24
+   ],
+   [
+    "Eluru",
+    16.71,
+    81.1
+   ],
+   [
+    "Vijayawada",
+    16.51,
+    80.65
+   ],
+   [
+    "Kadapa",
+    14.47,
+    78.82
+   ],
+   [
+    "Chittoor",
+    13.22,
+    79.1
+   ]
+  ],
+  "notes": "Proposed (HLEC Vision 2040). 2040 flow BAU 1.45 / ACU 5.79 MMSCMD. NGG coastal project and alternate to Kakinada–Vijayawada–Nellore (Table 12.9).",
+  "coords": "approximate"
+ },
+ {
+  "name": "Digha–Kolkata–Paschim Medinipur (alternate)",
+  "entity": "unassigned",
+  "status": "proposed",
+  "auth_km": 300,
+  "built_km": null,
+  "capacity_mmscmd": null,
+  "expected": "2040 conceptual (HLEC Annexure 6.1.3)",
+  "source": "HLEC Vision 2040 (PNGRB, Nov 2025) Annexure 6.1.3",
+  "waypoints": [
+   [
+    "Digha",
+    21.63,
+    87.51
+   ],
+   [
+    "Tamluk",
+    22.3,
+    87.92
+   ],
+   [
+    "Kolkata",
+    22.57,
+    88.36
+   ],
+   [
+    "Medinipur",
+    22.42,
+    87.32
+   ]
+  ],
+  "notes": "Proposed (HLEC Vision 2040). ~300 km alternate to Kanai Chhata–Panitar (Table 12.9).",
+  "coords": "approximate"
+ },
+ {
+  "name": "Mangalore–Shimoga–Dharwad (alternate)",
+  "entity": "unassigned",
+  "status": "proposed",
+  "auth_km": 400,
+  "built_km": null,
+  "capacity_mmscmd": null,
+  "expected": "2040 conceptual (HLEC Annexure 6.1.3)",
+  "source": "HLEC Vision 2040 (PNGRB, Nov 2025) Annexure 6.1.3",
+  "waypoints": [
+   [
+    "Mangaluru",
+    12.91,
+    74.86
+   ],
+   [
+    "Udupi",
+    13.34,
+    74.75
+   ],
+   [
+    "Shivamogga",
+    13.93,
+    75.57
+   ],
+   [
+    "Haveri",
+    14.79,
+    75.4
+   ],
+   [
+    "Dharwad",
+    15.46,
+    75.01
+   ]
+  ],
+  "notes": "Proposed (HLEC Vision 2040). ~400 km alternate to Jaigarh–Mangalore; links KKBMPL to Dabhol–Bengaluru (Table 12.9).",
+  "coords": "approximate"
+ },
+ {
+  "name": "Jabalpur–Shahdol",
+  "entity": "unassigned",
+  "status": "proposed",
+  "auth_km": 225,
+  "built_km": null,
+  "capacity_mmscmd": null,
+  "expected": "2040 conceptual (HLEC Annexure 6.1.3)",
+  "source": "HLEC Vision 2040 (PNGRB, Nov 2025) Annexure 6.1.3",
+  "waypoints": [
+   [
+    "Jabalpur",
+    23.18,
+    79.95
+   ],
+   [
+    "Katni",
+    23.83,
+    80.39
+   ],
+   [
+    "Umaria",
+    23.52,
+    80.84
+   ],
+   [
+    "Shahdol",
+    23.3,
+    81.36
+   ]
+  ],
+  "notes": "Proposed (HLEC Vision 2040). ~200–250 km (auth_km = midpoint); links MNJPL spur to Shahdol–Phulpur/CBM.",
+  "coords": "approximate"
+ },
+ {
+  "name": "Rewa–Chhatarpur–Jhansi",
+  "entity": "unassigned",
+  "status": "proposed",
+  "auth_km": 465,
+  "built_km": null,
+  "capacity_mmscmd": 0.8,
+  "expected": "2040 conceptual (HLEC Annexure 6.1.3)",
+  "source": "HLEC Vision 2040 Annexure 6.1.3, Table 12.10 (from PNGRB NGG Technical Assessment Report 2022)",
+  "waypoints": [
+   [
+    "Rewa",
+    24.53,
+    81.3
+   ],
+   [
+    "Satna",
+    24.58,
+    80.83
+   ],
+   [
+    "Panna",
+    24.72,
+    80.19
+   ],
+   [
+    "Chhatarpur",
+    24.92,
+    79.58
+   ],
+   [
+    "Jhansi",
+    25.45,
+    78.57
+   ]
+  ],
+  "notes": "Proposed (HLEC Vision 2040). 2040 flow BAU 0.8 / ACU 3.66 MMSCMD.",
+  "coords": "approximate"
+ },
+ {
+  "name": "Lucknow–Begusarai",
+  "entity": "unassigned",
+  "status": "proposed",
+  "auth_km": 672,
+  "built_km": null,
+  "capacity_mmscmd": 5.2,
+  "expected": "2040 conceptual (HLEC Annexure 6.1.3)",
+  "source": "HLEC Vision 2040 Annexure 6.1.3, Table 12.10 (from PNGRB NGG Technical Assessment Report 2022)",
+  "waypoints": [
+   [
+    "Lucknow",
+    26.85,
+    80.95
+   ],
+   [
+    "Ayodhya",
+    26.79,
+    82.2
+   ],
+   [
+    "Gorakhpur",
+    26.76,
+    83.37
+   ],
+   [
+    "Muzaffarpur",
+    26.12,
+    85.39
+   ],
+   [
+    "Begusarai",
+    25.42,
+    86.13
+   ]
+  ],
+  "notes": "Proposed (HLEC Vision 2040). 2040 flow BAU 5.2 / ACU 7.88 MMSCMD. Ranked #1 in Table 12.11.",
+  "coords": "approximate"
+ },
+ {
+  "name": "Ramagundam–Nagpur",
+  "entity": "unassigned",
+  "status": "proposed",
+  "auth_km": 496,
+  "built_km": null,
+  "capacity_mmscmd": 1.03,
+  "expected": "2040 conceptual (HLEC Annexure 6.1.3)",
+  "source": "HLEC Vision 2040 Annexure 6.1.3, Table 12.10 (from PNGRB NGG Technical Assessment Report 2022)",
+  "waypoints": [
+   [
+    "Ramagundam",
+    18.76,
+    79.47
+   ],
+   [
+    "Mancherial",
+    18.87,
+    79.44
+   ],
+   [
+    "Chandrapur",
+    19.96,
+    79.3
+   ],
+   [
+    "Nagpur",
+    21.15,
+    79.09
+   ]
+  ],
+  "notes": "Proposed (HLEC Vision 2040). 2040 flow BAU 1.03 / ACU 2.38 MMSCMD. 332 km 12\" + 164 km 24\".",
+  "coords": "approximate"
+ },
+ {
+  "name": "Narsinghpur–Amliha–Godhi",
+  "entity": "unassigned",
+  "status": "proposed",
+  "auth_km": 708,
+  "built_km": null,
+  "capacity_mmscmd": 2.64,
+  "expected": "2040 conceptual (HLEC Annexure 6.1.3)",
+  "source": "HLEC Vision 2040 Annexure 6.1.3, Table 12.10 (from PNGRB NGG Technical Assessment Report 2022)",
+  "waypoints": [
+   [
+    "Nagpur",
+    21.15,
+    79.09
+   ],
+   [
+    "Chhindwara",
+    22.06,
+    78.94
+   ],
+   [
+    "Narsinghpur",
+    22.95,
+    79.19
+   ]
+  ],
+  "notes": "Proposed (HLEC Vision 2040). 2040 flow BAU 2.64 / ACU 7.38 MMSCMD. 438 km + 254/270 km. Ties into MNJPL at Nagpur. 'Amliha' and 'Godhi' not geolocated, so only a stub is drawn.",
+  "coords": "approximate"
+ },
+ {
+  "name": "Purnia–Ranaghat",
+  "entity": "unassigned",
+  "status": "proposed",
+  "auth_km": 397,
+  "built_km": null,
+  "capacity_mmscmd": 1.46,
+  "expected": "2040 conceptual (HLEC Annexure 6.1.3)",
+  "source": "HLEC Vision 2040 Annexure 6.1.3, Table 12.10 (from PNGRB NGG Technical Assessment Report 2022)",
+  "waypoints": [
+   [
+    "Purnia",
+    25.78,
+    87.47
+   ],
+   [
+    "Malda",
+    25.0,
+    88.14
+   ],
+   [
+    "Berhampore",
+    24.1,
+    88.25
+   ],
+   [
+    "Krishnanagar",
+    23.4,
+    88.5
+   ],
+   [
+    "Ranaghat",
+    23.18,
+    88.57
+   ]
+  ],
+  "notes": "Proposed (HLEC Vision 2040). 2040 flow BAU 1.46 / ACU 3.37 MMSCMD. Printed 'Purania'.",
+  "coords": "approximate"
+ },
+ {
+  "name": "Raipur–Koraput",
+  "entity": "unassigned",
+  "status": "proposed",
+  "auth_km": 375,
+  "built_km": null,
+  "capacity_mmscmd": 2.02,
+  "expected": "2040 conceptual (HLEC Annexure 6.1.3)",
+  "source": "HLEC Vision 2040 Annexure 6.1.3, Table 12.10 (from PNGRB NGG Technical Assessment Report 2022)",
+  "waypoints": [
+   [
+    "Raipur",
+    21.25,
+    81.63
+   ],
+   [
+    "Dhamtari",
+    20.71,
+    81.55
+   ],
+   [
+    "Jagdalpur",
+    19.07,
+    82.02
+   ],
+   [
+    "Koraput",
+    18.81,
+    82.71
+   ]
+  ],
+  "notes": "Proposed (HLEC Vision 2040). 2040 flow BAU 2.02 / ACU 4.53 MMSCMD. 95 km 10\" + 280 km 20\"; ties into MNJPL at Raipur.",
+  "coords": "approximate"
+ },
+ {
+  "name": "Ramgarh–Barmer",
+  "entity": "unassigned",
+  "status": "proposed",
+  "auth_km": 288,
+  "built_km": null,
+  "capacity_mmscmd": 0.19,
+  "expected": "2040 conceptual (HLEC Annexure 6.1.3)",
+  "source": "HLEC Vision 2040 Annexure 6.1.3, Table 12.10 (from PNGRB NGG Technical Assessment Report 2022)",
+  "waypoints": [
+   [
+    "Ramgarh (Jaisalmer)",
+    27.37,
+    70.5
+   ],
+   [
+    "Jaisalmer",
+    26.92,
+    70.91
+   ],
+   [
+    "Barmer",
+    25.75,
+    71.39
+   ]
+  ],
+  "notes": "Proposed (HLEC Vision 2040). 2040 flow BAU 0.19 / ACU 0.89 MMSCMD.",
+  "coords": "approximate"
+ },
+ {
+  "name": "Srinagar–Jammu",
+  "entity": "unassigned",
+  "status": "proposed",
+  "auth_km": 249,
+  "built_km": null,
+  "capacity_mmscmd": 0.59,
+  "expected": "2040 conceptual (HLEC Annexure 6.1.3)",
+  "source": "HLEC Vision 2040 Annexure 6.1.3, Table 12.10 (from PNGRB NGG Technical Assessment Report 2022)",
+  "waypoints": [
+   [
+    "Jammu",
+    32.73,
+    74.86
+   ],
+   [
+    "Udhampur",
+    32.92,
+    75.14
+   ],
+   [
+    "Banihal",
+    33.43,
+    75.2
+   ],
+   [
+    "Anantnag",
+    33.73,
+    75.15
+   ],
+   [
+    "Srinagar",
+    34.08,
+    74.8
+   ]
+  ],
+  "notes": "Proposed (HLEC Vision 2040). 2040 flow BAU 0.59 / ACU 1.02 MMSCMD.",
+  "coords": "approximate"
+ },
+ {
+  "name": "Bengaluru–Arkula",
+  "entity": "unassigned",
+  "status": "proposed",
+  "auth_km": 328,
+  "built_km": null,
+  "capacity_mmscmd": 1.35,
+  "expected": "2040 conceptual (HLEC Annexure 6.1.3)",
+  "source": "HLEC Vision 2040 Annexure 6.1.3, Table 12.10 (from PNGRB NGG Technical Assessment Report 2022)",
+  "waypoints": [
+   [
+    "Bengaluru",
+    12.97,
+    77.59
+   ],
+   [
+    "Kunigal",
+    13.02,
+    77.03
+   ],
+   [
+    "Hassan",
+    13.0,
+    76.1
+   ],
+   [
+    "Sakleshpur",
+    12.94,
+    75.79
+   ],
+   [
+    "Arkula",
+    12.88,
+    74.93
+   ]
+  ],
+  "notes": "Proposed (HLEC Vision 2040). 2040 flow BAU 1.35 / ACU 2.52 MMSCMD.",
+  "coords": "approximate"
+ },
+ {
+  "name": "Salem–Madurai",
+  "entity": "unassigned",
+  "status": "proposed",
+  "auth_km": 293,
+  "built_km": null,
+  "capacity_mmscmd": 0.53,
+  "expected": "2040 conceptual (HLEC Annexure 6.1.3)",
+  "source": "HLEC Vision 2040 Annexure 6.1.3, Table 12.10 (from PNGRB NGG Technical Assessment Report 2022)",
+  "waypoints": [
+   [
+    "Salem",
+    11.66,
+    78.15
+   ],
+   [
+    "Namakkal",
+    11.22,
+    78.17
+   ],
+   [
+    "Karur",
+    10.96,
+    78.08
+   ],
+   [
+    "Dindigul",
+    10.36,
+    77.98
+   ],
+   [
+    "Madurai",
+    9.93,
+    78.12
+   ]
+  ],
+  "notes": "Proposed (HLEC Vision 2040). 2040 flow BAU 0.53 / ACU 1.48 MMSCMD.",
+  "coords": "approximate"
+ },
+ {
+  "name": "Rajgarh–Bhopal–Aurangabad",
+  "entity": "unassigned",
+  "status": "proposed",
+  "auth_km": 795,
+  "built_km": null,
+  "capacity_mmscmd": 1.9,
+  "expected": "2040 conceptual (HLEC Annexure 6.1.3)",
+  "source": "HLEC Vision 2040 Annexure 6.1.3, Table 12.10 (from PNGRB NGG Technical Assessment Report 2022)",
+  "waypoints": [
+   [
+    "Rajgarh (MP)",
+    24.01,
+    76.73
+   ],
+   [
+    "Bhopal",
+    23.26,
+    77.41
+   ],
+   [
+    "Narmadapuram",
+    22.75,
+    77.72
+   ],
+   [
+    "Burhanpur",
+    21.31,
+    76.23
+   ],
+   [
+    "Jalgaon",
+    21.01,
+    75.56
+   ],
+   [
+    "Aurangabad",
+    19.88,
+    75.34
+   ]
+  ],
+  "notes": "Proposed (HLEC Vision 2040). 2040 flow BAU 1.9 / ACU 3.48 MMSCMD.",
+  "coords": "approximate"
+ },
+ {
+  "name": "Nargund–Vijayapura–Barshi",
+  "entity": "unassigned",
+  "status": "proposed",
+  "auth_km": 304,
+  "built_km": null,
+  "capacity_mmscmd": 0.75,
+  "expected": "2040 conceptual (HLEC Annexure 6.1.3)",
+  "source": "HLEC Vision 2040 Annexure 6.1.3, Table 12.10 (from PNGRB NGG Technical Assessment Report 2022)",
+  "waypoints": [
+   [
+    "Nargund",
+    15.72,
+    75.38
+   ],
+   [
+    "Bagalkot",
+    16.18,
+    75.7
+   ],
+   [
+    "Vijayapura",
+    16.83,
+    75.71
+   ],
+   [
+    "Barshi",
+    18.23,
+    75.69
+   ]
+  ],
+  "notes": "Proposed (HLEC Vision 2040). 2040 flow BAU 0.75 / ACU 2.83 MMSCMD.",
+  "coords": "approximate"
+ },
+ {
+  "name": "Barshi–Beed–Vadap",
+  "entity": "unassigned",
+  "status": "proposed",
+  "auth_km": 379,
+  "built_km": null,
+  "capacity_mmscmd": 0.42,
+  "expected": "2040 conceptual (HLEC Annexure 6.1.3)",
+  "source": "HLEC Vision 2040 Annexure 6.1.3, Table 12.10 (from PNGRB NGG Technical Assessment Report 2022)",
+  "waypoints": [
+   [
+    "Barshi",
+    18.23,
+    75.69
+   ],
+   [
+    "Beed",
+    18.99,
+    75.76
+   ],
+   [
+    "Jalna",
+    19.84,
+    75.88
+   ]
+  ],
+  "notes": "Proposed (HLEC Vision 2040). 2040 flow BAU 0.42 / ACU 0.85 MMSCMD. 228 km 12\" + 151 km 24\". 'Vadap' (MNJPL tie-in) not geolocated, so Jalna is used as a placeholder end.",
+  "coords": "approximate"
+ },
+ {
+  "name": "Shillong–Gambegre",
+  "entity": "unassigned",
+  "status": "proposed",
+  "auth_km": 283,
+  "built_km": null,
+  "capacity_mmscmd": 0.09,
+  "expected": "2040 conceptual (HLEC Annexure 6.1.3)",
+  "source": "HLEC Vision 2040 Annexure 6.1.3, Table 12.10 (from PNGRB NGG Technical Assessment Report 2022)",
+  "waypoints": [
+   [
+    "Shillong",
+    25.58,
+    91.89
+   ],
+   [
+    "Nongstoin",
+    25.52,
+    91.27
+   ],
+   [
+    "Tura",
+    25.51,
+    90.22
+   ],
+   [
+    "Gambegre (approx.)",
+    25.65,
+    90.3
+   ]
+  ],
+  "notes": "Proposed (HLEC Vision 2040). 2040 flow BAU 0.09 / ACU 0.11 MMSCMD.",
+  "coords": "approximate"
+ },
+ {
+  "name": "Gadag–Ballari",
+  "entity": "unassigned",
+  "status": "proposed",
+  "auth_km": 128,
+  "built_km": null,
+  "capacity_mmscmd": 3.03,
+  "expected": "2040 conceptual (HLEC Annexure 6.1.3)",
+  "source": "HLEC Vision 2040 Annexure 6.1.3, Table 12.10 (from PNGRB NGG Technical Assessment Report 2022)",
+  "waypoints": [
+   [
+    "Gadag",
+    15.43,
+    75.63
+   ],
+   [
+    "Koppal",
+    15.35,
+    76.15
+   ],
+   [
+    "Hosapete",
+    15.27,
+    76.39
+   ],
+   [
+    "Ballari",
+    15.14,
+    76.92
+   ]
+  ],
+  "notes": "Proposed (HLEC Vision 2040). 2040 flow BAU 3.03 / ACU 4.66 MMSCMD.",
+  "coords": "approximate"
+ },
+ {
+  "name": "Golaghat–Itanagar",
+  "entity": "unassigned",
+  "status": "proposed",
+  "auth_km": 80,
+  "built_km": null,
+  "capacity_mmscmd": 0.05,
+  "expected": "2040 conceptual (HLEC Annexure 6.1.3)",
+  "source": "HLEC Vision 2040 Annexure 6.1.3, Table 12.10 (from PNGRB NGG Technical Assessment Report 2022)",
+  "waypoints": [
+   [
+    "Golaghat",
+    26.52,
+    93.96
+   ],
+   [
+    "Gohpur",
+    26.88,
+    93.62
+   ],
+   [
+    "Itanagar",
+    27.08,
+    93.61
+   ]
+  ],
+  "notes": "Proposed (HLEC Vision 2040). 2040 flow BAU 0.05 / ACU 0.09 MMSCMD.",
+  "coords": "approximate"
+ },
+ {
+  "name": "Hyderabad–Kurnool",
+  "entity": "unassigned",
+  "status": "proposed",
+  "auth_km": 129,
+  "built_km": null,
+  "capacity_mmscmd": 1.2,
+  "expected": "2040 conceptual (HLEC Annexure 6.1.3)",
+  "source": "HLEC Vision 2040 Annexure 6.1.3, Table 12.10 (from PNGRB NGG Technical Assessment Report 2022)",
+  "waypoints": [
+   [
+    "Hyderabad",
+    17.39,
+    78.49
+   ],
+   [
+    "Mahbubnagar",
+    16.74,
+    78.0
+   ],
+   [
+    "Kurnool",
+    15.83,
+    78.04
+   ]
+  ],
+  "notes": "Proposed (HLEC Vision 2040). 2040 flow BAU 1.2 / ACU 2.64 MMSCMD.",
+  "coords": "approximate"
+ },
+ {
+  "name": "Jorhat–Kohima",
+  "entity": "unassigned",
+  "status": "proposed",
+  "auth_km": 302,
+  "built_km": null,
+  "capacity_mmscmd": 0.1,
+  "expected": "2040 conceptual (HLEC Annexure 6.1.3)",
+  "source": "HLEC Vision 2040 Annexure 6.1.3, Table 12.10 (from PNGRB NGG Technical Assessment Report 2022)",
+  "waypoints": [
+   [
+    "Jorhat",
+    26.75,
+    94.2
+   ],
+   [
+    "Mokokchung",
+    26.32,
+    94.52
+   ],
+   [
+    "Wokha",
+    26.1,
+    94.26
+   ],
+   [
+    "Kohima",
+    25.67,
+    94.11
+   ]
+  ],
+  "notes": "Proposed (HLEC Vision 2040). 2040 flow BAU 0.1 / ACU 0.15 MMSCMD.",
+  "coords": "approximate"
+ },
+ {
+  "name": "Kolaghat–Jajpur",
+  "entity": "unassigned",
+  "status": "proposed",
+  "auth_km": 276,
+  "built_km": null,
+  "capacity_mmscmd": 3.33,
+  "expected": "2040 conceptual (HLEC Annexure 6.1.3)",
+  "source": "HLEC Vision 2040 Annexure 6.1.3, Table 12.10 (from PNGRB NGG Technical Assessment Report 2022)",
+  "waypoints": [
+   [
+    "Kolaghat",
+    22.43,
+    87.87
+   ],
+   [
+    "Kharagpur",
+    22.35,
+    87.23
+   ],
+   [
+    "Balasore",
+    21.49,
+    86.93
+   ],
+   [
+    "Bhadrak",
+    21.05,
+    86.5
+   ],
+   [
+    "Jajpur",
+    20.85,
+    86.33
+   ]
+  ],
+  "notes": "Proposed (HLEC Vision 2040). 2040 flow BAU 3.33 / ACU 5.81 MMSCMD.",
+  "coords": "approximate"
+ }
+]
