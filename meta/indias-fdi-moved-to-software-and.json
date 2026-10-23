@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/10/indias-fdi-moved-to-software-and.html",
   "slug": "indias-fdi-moved-to-software-and",
   "published": "2026-10-10T02:54:22.000+05:30",
-  "updated": "2026-10-10T09:51:47.221+05:30",
+  "updated": "2026-10-23T09:57:03.157+05:30",
   "labels": [
     "Markets & Finance"
   ],
-  "bytes": 29685,
-  "sha256": "b95393b08d4f907719e9e1e24ee1b5ecd15758d52f4fb927101b74c5863ed096",
+  "bytes": 45532,
+  "sha256": "01a9d1d756b49f6f8230cfefa8b8d9febde75931a1c93c73847233952c1074d3",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -29,6 +29,19 @@
       "level": "initial",
       "reason": "first snapshot",
       "note": ""
+    },
+    {
+      "version": "1.0.1",
+      "date": "2026-10-23T09:58:02+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (figures changed (+71/-0 distinct numbers))",
+      "bytes": [
+        29685,
+        45532
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "FDI posts updated with DPIIT fact sheet to June 2026"
     }
   ]
 }

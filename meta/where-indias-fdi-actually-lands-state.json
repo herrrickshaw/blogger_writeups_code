@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/where-indias-fdi-actually-lands-state.html",
   "slug": "where-indias-fdi-actually-lands-state",
   "published": "2026-09-03T13:14:49.000+05:30",
-  "updated": "2026-10-01T09:00:50.004+05:30",
+  "updated": "2026-10-23T09:57:31.001+05:30",
   "labels": [
     "Industrial Policy",
     "Markets & Finance"
   ],
-  "bytes": 46998,
-  "sha256": "c40faeda9ae35ed397246ae610c554cff0cafc9b3e2b3d60596c03a0f003396e",
+  "bytes": 53754,
+  "sha256": "0d7be279a080045242599c5ffb07d06e16e23c89bb912fe28e65cec6cff40d7d",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.2.0",
+  "version": "2.2.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -121,6 +121,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Rule 8 retrofit: added What would fix this section"
+    },
+    {
+      "version": "2.2.1",
+      "date": "2026-10-23T09:58:02+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (figures changed (+66/-0 distinct numbers))",
+      "bytes": [
+        46998,
+        53754
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "FDI posts updated with DPIIT fact sheet to June 2026"
     }
   ]
 }

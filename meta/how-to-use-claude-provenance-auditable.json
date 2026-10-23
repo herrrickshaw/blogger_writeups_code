@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/10/how-to-use-claude-provenance-auditable.html",
   "slug": "how-to-use-claude-provenance-auditable",
   "published": "2026-10-19T05:09:22.000+05:30",
-  "updated": "2026-10-23T06:25:24.730+05:30",
+  "updated": "2026-10-23T09:06:08.383+05:30",
   "labels": [
     "Open-Source Tools & How-To"
   ],
-  "bytes": 24656,
-  "sha256": "da09d22efa1a2cb419306b56b3232d4bca025bcb49fc58e3d3b8fb53cd3e54c6",
+  "bytes": 24775,
+  "sha256": "b999577286b792d9e3605f36e1d716360bcc0ef2f28f4e8809d8193d4e3f7ad6",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -29,6 +29,19 @@
       "level": "initial",
       "reason": "first snapshot",
       "note": ""
+    },
+    {
+      "version": "1.0.1",
+      "date": "2026-10-23T09:58:02+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (visible text identical; only markup/styling changed)",
+      "bytes": [
+        24656,
+        24775
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "FDI posts updated with DPIIT fact sheet to June 2026"
     }
   ]
 }

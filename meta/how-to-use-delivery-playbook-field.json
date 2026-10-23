@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/10/how-to-use-delivery-playbook-field.html",
   "slug": "how-to-use-delivery-playbook-field",
   "published": "2026-10-19T05:10:09.000+05:30",
-  "updated": "2026-10-23T06:25:33.931+05:30",
+  "updated": "2026-10-23T09:05:38.207+05:30",
   "labels": [
     "Open-Source Tools & How-To"
   ],
-  "bytes": 25066,
-  "sha256": "ec1ab10219bb9c3c6e66099b3896ceedf58ea85393a365f28565a0fa05471439",
+  "bytes": 25185,
+  "sha256": "2ec5cfc84a0aa815f58143194b45edcb134f6b6cbf3141bf44dcb59acc951744",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -29,6 +29,19 @@
       "level": "initial",
       "reason": "first snapshot",
       "note": ""
+    },
+    {
+      "version": "1.0.1",
+      "date": "2026-10-23T09:58:02+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (visible text identical; only markup/styling changed)",
+      "bytes": [
+        25066,
+        25185
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "FDI posts updated with DPIIT fact sheet to June 2026"
     }
   ]
 }

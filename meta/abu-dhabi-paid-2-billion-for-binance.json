@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/10/abu-dhabi-paid-2-billion-for-binance.html",
   "slug": "abu-dhabi-paid-2-billion-for-binance",
   "published": "2026-10-02T09:26:09.000+05:30",
-  "updated": "2026-10-02T09:26:49.506+05:30",
+  "updated": "2026-10-23T09:56:43.467+05:30",
   "labels": [
     "Industrial Policy",
     "Macroeconomics & Monetary Policy",
     "Markets & Finance"
   ],
-  "bytes": 30146,
-  "sha256": "0b3088ea65b2e238e4613da809d29e6ad85e46642612f0aa93a3c0e17284aabf",
+  "bytes": 30798,
+  "sha256": "adecb4977443f3389bf76b2a7dccd5a6bed1f7eec3fd149bd28b837ed242050d",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -31,6 +31,19 @@
       "level": "initial",
       "reason": "first snapshot",
       "note": "New post: crypto-settled FDI and the UAE's stablecoin pilots"
+    },
+    {
+      "version": "1.0.1",
+      "date": "2026-10-23T09:58:02+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (figures changed (+5/-0 distinct numbers))",
+      "bytes": [
+        30146,
+        30798
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "FDI posts updated with DPIIT fact sheet to June 2026"
     }
   ]
 }

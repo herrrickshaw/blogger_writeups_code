@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-10-23T06:29:24+05:30",
+  "snapshot": "2026-10-23T09:58:02+05:30",
   "count": 401,
   "posts": {
     "1023631151138981087": {
@@ -1451,14 +1451,14 @@
       "url": "https://masaladeutsch.blogspot.com/2026/10/abu-dhabi-paid-2-billion-for-binance.html",
       "slug": "abu-dhabi-paid-2-billion-for-binance",
       "published": "2026-10-02T09:26:09.000+05:30",
-      "updated": "2026-10-02T09:26:49.506+05:30",
+      "updated": "2026-10-23T09:56:43.467+05:30",
       "labels": [
         "Industrial Policy",
         "Macroeconomics & Monetary Policy",
         "Markets & Finance"
       ],
-      "bytes": 30146,
-      "sha256": "0b3088ea65b2e238e4613da809d29e6ad85e46642612f0aa93a3c0e17284aabf",
+      "bytes": 30798,
+      "sha256": "adecb4977443f3389bf76b2a7dccd5a6bed1f7eec3fd149bd28b837ed242050d",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -1470,7 +1470,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -1478,6 +1478,19 @@
           "level": "initial",
           "reason": "first snapshot",
           "note": "New post: crypto-settled FDI and the UAE's stablecoin pilots"
+        },
+        {
+          "version": "1.0.1",
+          "date": "2026-10-23T09:58:02+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (figures changed (+5/-0 distinct numbers))",
+          "bytes": [
+            30146,
+            30798
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "FDI posts updated with DPIIT fact sheet to June 2026"
         }
       ]
     },
@@ -3719,14 +3732,14 @@
       "url": "https://masaladeutsch.blogspot.com/2026/10/how-to-use-colab-market-fundamentals.html",
       "slug": "how-to-use-colab-market-fundamentals",
       "published": "2026-10-19T05:09:24.000+05:30",
-      "updated": "2026-10-23T06:25:27.119+05:30",
+      "updated": "2026-10-23T09:06:01.683+05:30",
       "labels": [
         "Equity Markets & Stock Screening",
         "Markets & Finance",
         "Open-Source Tools & How-To"
       ],
-      "bytes": 24709,
-      "sha256": "409d9bbe48f0a28fa817d56405055f5cd2a87602218e4b411a53d753239a0457",
+      "bytes": 24828,
+      "sha256": "2995a572016be89a2b1a0a0f9e86d935762bc717ca1d53a69c83a6dac0874f1c",
       "markers": {
         "light_lock": true,
         "dark_panel_guard": false,
@@ -3738,7 +3751,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -3746,6 +3759,19 @@
           "level": "initial",
           "reason": "first snapshot",
           "note": ""
+        },
+        {
+          "version": "1.0.1",
+          "date": "2026-10-23T09:58:02+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (visible text identical; only markup/styling changed)",
+          "bytes": [
+            24709,
+            24828
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "FDI posts updated with DPIIT fact sheet to June 2026"
         }
       ]
     },
@@ -4058,12 +4084,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/10/indias-fdi-moved-to-software-and.html",
       "slug": "indias-fdi-moved-to-software-and",
       "published": "2026-10-10T02:54:22.000+05:30",
-      "updated": "2026-10-10T09:51:47.221+05:30",
+      "updated": "2026-10-23T09:57:03.157+05:30",
       "labels": [
         "Markets & Finance"
       ],
-      "bytes": 29685,
-      "sha256": "b95393b08d4f907719e9e1e24ee1b5ecd15758d52f4fb927101b74c5863ed096",
+      "bytes": 45532,
+      "sha256": "01a9d1d756b49f6f8230cfefa8b8d9febde75931a1c93c73847233952c1074d3",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -4075,7 +4101,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -4083,6 +4109,19 @@
           "level": "initial",
           "reason": "first snapshot",
           "note": ""
+        },
+        {
+          "version": "1.0.1",
+          "date": "2026-10-23T09:58:02+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (figures changed (+71/-0 distinct numbers))",
+          "bytes": [
+            29685,
+            45532
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "FDI posts updated with DPIIT fact sheet to June 2026"
         }
       ]
     },
@@ -8031,12 +8070,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/securitising-deficit-what-it-would.html",
       "slug": "securitising-deficit-what-it-would",
       "published": "2026-08-04T07:45:51.000+05:30",
-      "updated": "2026-10-22T16:59:24.438+05:30",
+      "updated": "2026-10-23T09:57:18.231+05:30",
       "labels": [
         "Markets & Finance"
       ],
-      "bytes": 134857,
-      "sha256": "9051092aab996c45d53bb85db0b454ad375f0a4f70b3dc90bba7392d6b23f225",
+      "bytes": 135549,
+      "sha256": "21f67388e703809a086f90d0ade0d96439f85c65454d6d52b31d129c61851877",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -8048,7 +8087,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "5.0.1",
+      "version": "5.0.2",
       "version_history": [
         {
           "version": "1.0.0",
@@ -8373,6 +8412,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Sweep 4 MEDIUM items: dated update notes on 59 posts"
+        },
+        {
+          "version": "5.0.2",
+          "date": "2026-10-23T09:58:02+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (figures changed (+2/-0 distinct numbers))",
+          "bytes": [
+            134857,
+            135549
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "FDI posts updated with DPIIT fact sheet to June 2026"
         }
       ]
     },
@@ -13044,13 +13096,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/10/how-to-use-cricket-data-analysis-score.html",
       "slug": "how-to-use-cricket-data-analysis-score",
       "published": "2026-10-19T05:10:06.000+05:30",
-      "updated": "2026-10-23T06:25:29.389+05:30",
+      "updated": "2026-10-23T09:05:53.685+05:30",
       "labels": [
         "India",
         "Open-Source Tools & How-To"
       ],
-      "bytes": 23830,
-      "sha256": "ac6d5925505dd20baa6537c261cd399bbd47bf53abf67d345968f60983dd1f00",
+      "bytes": 23949,
+      "sha256": "b8c27a6ab7595a9bd3c3a3005cd22ef2976e62d1546e9974566365f25398190b",
       "markers": {
         "light_lock": true,
         "dark_panel_guard": false,
@@ -13062,7 +13114,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -13070,6 +13122,19 @@
           "level": "initial",
           "reason": "first snapshot",
           "note": ""
+        },
+        {
+          "version": "1.0.1",
+          "date": "2026-10-23T09:58:02+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (visible text identical; only markup/styling changed)",
+          "bytes": [
+            23830,
+            23949
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "FDI posts updated with DPIIT fact sheet to June 2026"
         }
       ]
     },
@@ -16703,13 +16768,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/09/where-indias-fdi-actually-lands-state.html",
       "slug": "where-indias-fdi-actually-lands-state",
       "published": "2026-09-03T13:14:49.000+05:30",
-      "updated": "2026-10-01T09:00:50.004+05:30",
+      "updated": "2026-10-23T09:57:31.001+05:30",
       "labels": [
         "Industrial Policy",
         "Markets & Finance"
       ],
-      "bytes": 46998,
-      "sha256": "c40faeda9ae35ed397246ae610c554cff0cafc9b3e2b3d60596c03a0f003396e",
+      "bytes": 53754,
+      "sha256": "0d7be279a080045242599c5ffb07d06e16e23c89bb912fe28e65cec6cff40d7d",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -16721,7 +16786,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "2.2.0",
+      "version": "2.2.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -16820,6 +16885,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Rule 8 retrofit: added What would fix this section"
+        },
+        {
+          "version": "2.2.1",
+          "date": "2026-10-23T09:58:02+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (figures changed (+66/-0 distinct numbers))",
+          "bytes": [
+            46998,
+            53754
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "FDI posts updated with DPIIT fact sheet to June 2026"
         }
       ]
     },
@@ -18260,12 +18338,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/10/how-to-use-claude-provenance-auditable.html",
       "slug": "how-to-use-claude-provenance-auditable",
       "published": "2026-10-19T05:09:22.000+05:30",
-      "updated": "2026-10-23T06:25:24.730+05:30",
+      "updated": "2026-10-23T09:06:08.383+05:30",
       "labels": [
         "Open-Source Tools & How-To"
       ],
-      "bytes": 24656,
-      "sha256": "da09d22efa1a2cb419306b56b3232d4bca025bcb49fc58e3d3b8fb53cd3e54c6",
+      "bytes": 24775,
+      "sha256": "b999577286b792d9e3605f36e1d716360bcc0ef2f28f4e8809d8193d4e3f7ad6",
       "markers": {
         "light_lock": true,
         "dark_panel_guard": false,
@@ -18277,7 +18355,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -18285,6 +18363,19 @@
           "level": "initial",
           "reason": "first snapshot",
           "note": ""
+        },
+        {
+          "version": "1.0.1",
+          "date": "2026-10-23T09:58:02+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (visible text identical; only markup/styling changed)",
+          "bytes": [
+            24656,
+            24775
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "FDI posts updated with DPIIT fact sheet to June 2026"
         }
       ]
     },
@@ -26759,16 +26850,16 @@
       "title": "How to use cbg-design-opensource: size a compressed biogas plant",
       "url": "https://masaladeutsch.blogspot.com/2026/10/how-to-use-cbg-design-opensource-size.html",
       "slug": "how-to-use-cbg-design-opensource-size",
-      "published": "2026-10-23T06:25:07.543+05:30",
-      "updated": "2026-10-23T06:25:07.543+05:30",
+      "published": "2026-10-23T06:25:07.000+05:30",
+      "updated": "2026-10-23T09:05:30.256+05:30",
       "labels": [
         "Energy & Fuels",
         "Ethanol & Biofuels",
         "India",
         "Open-Source Tools & How-To"
       ],
-      "bytes": 21547,
-      "sha256": "129a4cccb9b2cd36dda5a344347448ccb2ccb89773a93f7b853992bb1dd878c8",
+      "bytes": 21666,
+      "sha256": "55dd1193957ea3f421ad32905f4d989615fdfec090433c6318c3cfaaf0685026",
       "markers": {
         "light_lock": true,
         "dark_panel_guard": false,
@@ -26780,7 +26871,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -26788,6 +26879,19 @@
           "level": "initial",
           "reason": "first snapshot",
           "note": ""
+        },
+        {
+          "version": "1.0.1",
+          "date": "2026-10-23T09:58:02+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (visible text identical; only markup/styling changed)",
+          "bytes": [
+            21547,
+            21666
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "FDI posts updated with DPIIT fact sheet to June 2026"
         }
       ]
     },
@@ -29861,12 +29965,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/10/how-to-use-delivery-playbook-field.html",
       "slug": "how-to-use-delivery-playbook-field",
       "published": "2026-10-19T05:10:09.000+05:30",
-      "updated": "2026-10-23T06:25:33.931+05:30",
+      "updated": "2026-10-23T09:05:38.207+05:30",
       "labels": [
         "Open-Source Tools & How-To"
       ],
-      "bytes": 25066,
-      "sha256": "ec1ab10219bb9c3c6e66099b3896ceedf58ea85393a365f28565a0fa05471439",
+      "bytes": 25185,
+      "sha256": "2ec5cfc84a0aa815f58143194b45edcb134f6b6cbf3141bf44dcb59acc951744",
       "markers": {
         "light_lock": true,
         "dark_panel_guard": false,
@@ -29878,7 +29982,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -29886,6 +29990,19 @@
           "level": "initial",
           "reason": "first snapshot",
           "note": ""
+        },
+        {
+          "version": "1.0.1",
+          "date": "2026-10-23T09:58:02+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (visible text identical; only markup/styling changed)",
+          "bytes": [
+            25066,
+            25185
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "FDI posts updated with DPIIT fact sheet to June 2026"
         }
       ]
     },
@@ -34515,16 +34632,16 @@
       "title": "How to use coal-to-urea-design-opensource: size a coal-to-urea complex",
       "url": "https://masaladeutsch.blogspot.com/2026/10/how-to-use-coal-to-urea-design.html",
       "slug": "how-to-use-coal-to-urea-design",
-      "published": "2026-10-23T06:25:10.598+05:30",
-      "updated": "2026-10-23T06:25:10.598+05:30",
+      "published": "2026-10-23T06:25:10.000+05:30",
+      "updated": "2026-10-23T09:05:14.509+05:30",
       "labels": [
         "Energy & Fuels",
         "India",
         "Open-Source Tools & How-To",
         "Refining & Petrochemicals"
       ],
-      "bytes": 21442,
-      "sha256": "113b4841b08f9fbadedd8b0ba635aa95adeac045b97119bb1a4fd3e06bbbe332",
+      "bytes": 21561,
+      "sha256": "2993bb69e4d1b71cde7c78e5ffb6e7d6e11914f336053d9756346aea9a6f4e0d",
       "markers": {
         "light_lock": true,
         "dark_panel_guard": false,
@@ -34536,7 +34653,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -34544,6 +34661,19 @@
           "level": "initial",
           "reason": "first snapshot",
           "note": ""
+        },
+        {
+          "version": "1.0.1",
+          "date": "2026-10-23T09:58:02+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (visible text identical; only markup/styling changed)",
+          "bytes": [
+            21442,
+            21561
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "FDI posts updated with DPIIT fact sheet to June 2026"
         }
       ]
     },
@@ -36411,16 +36541,16 @@
       "title": "How to use cng-cgd-retail-outlet-mapping: find which gas distributor is authorised to supply CNG to each petrol pump",
       "url": "https://masaladeutsch.blogspot.com/2026/10/how-to-use-cng-cgd-retail-outlet.html",
       "slug": "how-to-use-cng-cgd-retail-outlet",
-      "published": "2026-10-23T06:25:09.451+05:30",
-      "updated": "2026-10-23T06:25:09.451+05:30",
+      "published": "2026-10-23T06:25:09.000+05:30",
+      "updated": "2026-10-23T09:05:22.364+05:30",
       "labels": [
         "Energy & Fuels",
         "India",
         "Mobility & EV",
         "Open-Source Tools & How-To"
       ],
-      "bytes": 24489,
-      "sha256": "4a108d449eeb9338369a264b43f15d4533c515b3d4db36bf446e3a71b945e9fc",
+      "bytes": 24608,
+      "sha256": "01ddb42353614c5099f69f0409c34d6f70a2ad3177cca6a878b91cd86ed1494e",
       "markers": {
         "light_lock": true,
         "dark_panel_guard": false,
@@ -36432,7 +36562,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -36440,6 +36570,19 @@
           "level": "initial",
           "reason": "first snapshot",
           "note": ""
+        },
+        {
+          "version": "1.0.1",
+          "date": "2026-10-23T09:58:02+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (visible text identical; only markup/styling changed)",
+          "bytes": [
+            24489,
+            24608
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "FDI posts updated with DPIIT fact sheet to June 2026"
         }
       ]
     },
@@ -47788,14 +47931,14 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/foreign-capital-found-indias-hospitals.html",
       "slug": "foreign-capital-found-indias-hospitals",
       "published": "2026-08-23T14:22:31.000+05:30",
-      "updated": "2026-10-10T02:54:41.568+05:30",
+      "updated": "2026-10-23T09:56:54.585+05:30",
       "labels": [
         "Healthcare",
         "India",
         "Infrastructure & Investment"
       ],
-      "bytes": 35291,
-      "sha256": "4ab5c5b6fa661e4c1a148249429d691b453f4a122bd330c792ce9f5b54380a41",
+      "bytes": 36229,
+      "sha256": "c84817976e6ebd857465ad4d07dbe974bd5fbe3c2bdf43a5d3832ac9b6d83e32",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -47807,7 +47950,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "5.0.0",
+      "version": "5.0.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -47932,6 +48075,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "5.0.1",
+          "date": "2026-10-23T09:58:02+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (figures changed (+5/-0 distinct numbers))",
+          "bytes": [
+            35291,
+            36229
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "FDI posts updated with DPIIT fact sheet to June 2026"
         }
       ]
     },
@@ -53773,12 +53929,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/10/how-to-use-data-source-mining-pull.html",
       "slug": "how-to-use-data-source-mining-pull",
       "published": "2026-10-19T05:10:07.000+05:30",
-      "updated": "2026-10-23T06:25:31.668+05:30",
+      "updated": "2026-10-23T09:05:45.985+05:30",
       "labels": [
         "Open-Source Tools & How-To"
       ],
-      "bytes": 24584,
-      "sha256": "2d5a611c1b61ae3f8d5a5af036349af6c87ef68daad82844d3b470e235ce7aac",
+      "bytes": 24703,
+      "sha256": "7efb53702404200cab32f2af7dfcd803e53e6f5930dbfca62e874b15d611cba8",
       "markers": {
         "light_lock": true,
         "dark_panel_guard": false,
@@ -53790,7 +53946,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -53798,6 +53954,19 @@
           "level": "initial",
           "reason": "first snapshot",
           "note": ""
+        },
+        {
+          "version": "1.0.1",
+          "date": "2026-10-23T09:58:02+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (visible text identical; only markup/styling changed)",
+          "bytes": [
+            24584,
+            24703
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "FDI posts updated with DPIIT fact sheet to June 2026"
         }
       ]
     },
@@ -62877,13 +63046,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/10/how-to-use-chemicalimportsubstitution.html",
       "slug": "how-to-use-chemicalimportsubstitution",
       "published": "2026-10-19T05:09:20.000+05:30",
-      "updated": "2026-10-23T06:25:22.413+05:30",
+      "updated": "2026-10-23T09:06:16.139+05:30",
       "labels": [
         "India",
         "Open-Source Tools & How-To"
       ],
-      "bytes": 25469,
-      "sha256": "9d3096d4890a20b348ac5dad5badaf20174a23e3acedf6de1d8d067fa4029b8c",
+      "bytes": 25588,
+      "sha256": "1cb957ed529bb018e8921c1e3459200a2fbbb5ce29359430b392298ab6d56122",
       "markers": {
         "light_lock": true,
         "dark_panel_guard": false,
@@ -62895,7 +63064,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -62903,6 +63072,19 @@
           "level": "initial",
           "reason": "first snapshot",
           "note": ""
+        },
+        {
+          "version": "1.0.1",
+          "date": "2026-10-23T09:58:02+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (visible text identical; only markup/styling changed)",
+          "bytes": [
+            25469,
+            25588
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "FDI posts updated with DPIIT fact sheet to June 2026"
         }
       ]
     },
@@ -65089,13 +65271,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/10/how-to-use-blog-consistency-check-is.html",
       "slug": "how-to-use-blog-consistency-check-is",
       "published": "2026-10-19T05:09:18.000+05:30",
-      "updated": "2026-10-23T06:25:20.116+05:30",
+      "updated": "2026-10-23T09:06:24.069+05:30",
       "labels": [
         "Dev & Ops Tools",
         "Open-Source Tools & How-To"
       ],
-      "bytes": 23153,
-      "sha256": "ea7c921e18565dcf03b67035aab42db7d8f27d8eddb128ca6463848948a6aea6",
+      "bytes": 23272,
+      "sha256": "c47405bb40fec094bc8c7a8ad7e21b5ff61f8ddc608c7c9b17cc98139b694db1",
       "markers": {
         "light_lock": true,
         "dark_panel_guard": false,
@@ -65107,7 +65289,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -65115,6 +65297,19 @@
           "level": "initial",
           "reason": "first snapshot",
           "note": ""
+        },
+        {
+          "version": "1.0.1",
+          "date": "2026-10-23T09:58:02+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (visible text identical; only markup/styling changed)",
+          "bytes": [
+            23153,
+            23272
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "FDI posts updated with DPIIT fact sheet to June 2026"
         }
       ]
     },

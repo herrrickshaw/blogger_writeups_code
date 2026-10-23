@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/10/how-to-use-blog-consistency-check-is.html",
   "slug": "how-to-use-blog-consistency-check-is",
   "published": "2026-10-19T05:09:18.000+05:30",
-  "updated": "2026-10-23T06:25:20.116+05:30",
+  "updated": "2026-10-23T09:06:24.069+05:30",
   "labels": [
     "Dev & Ops Tools",
     "Open-Source Tools & How-To"
   ],
-  "bytes": 23153,
-  "sha256": "ea7c921e18565dcf03b67035aab42db7d8f27d8eddb128ca6463848948a6aea6",
+  "bytes": 23272,
+  "sha256": "c47405bb40fec094bc8c7a8ad7e21b5ff61f8ddc608c7c9b17cc98139b694db1",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -30,6 +30,19 @@
       "level": "initial",
       "reason": "first snapshot",
       "note": ""
+    },
+    {
+      "version": "1.0.1",
+      "date": "2026-10-23T09:58:02+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (visible text identical; only markup/styling changed)",
+      "bytes": [
+        23153,
+        23272
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "FDI posts updated with DPIIT fact sheet to June 2026"
     }
   ]
 }

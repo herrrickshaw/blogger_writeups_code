@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/10/how-to-use-cricket-data-analysis-score.html",
   "slug": "how-to-use-cricket-data-analysis-score",
   "published": "2026-10-19T05:10:06.000+05:30",
-  "updated": "2026-10-23T06:25:29.389+05:30",
+  "updated": "2026-10-23T09:05:53.685+05:30",
   "labels": [
     "India",
     "Open-Source Tools & How-To"
   ],
-  "bytes": 23830,
-  "sha256": "ac6d5925505dd20baa6537c261cd399bbd47bf53abf67d345968f60983dd1f00",
+  "bytes": 23949,
+  "sha256": "b8c27a6ab7595a9bd3c3a3005cd22ef2976e62d1546e9974566365f25398190b",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -30,6 +30,19 @@
       "level": "initial",
       "reason": "first snapshot",
       "note": ""
+    },
+    {
+      "version": "1.0.1",
+      "date": "2026-10-23T09:58:02+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (visible text identical; only markup/styling changed)",
+      "bytes": [
+        23830,
+        23949
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "FDI posts updated with DPIIT fact sheet to June 2026"
     }
   ]
 }

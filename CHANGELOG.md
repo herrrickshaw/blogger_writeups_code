@@ -15305,3 +15305,44 @@ Sweep 4 MEDIUM items: dated update notes on 59 posts
 **Changed**
 
 - `article-index-start-here` — 757,096 → 771,813 bytes (+14,717)
+
+## 2026-10-23T09:58:02+05:30 — 401 posts live
+
+FDI posts updated with DPIIT fact sheet to June 2026
+
+
+**Versions**
+
+- `how-to-use-coal-to-urea-design` **1.0.0 → 1.0.1** (PATCH) — forced via --as patch (visible text identical; only markup/styling changed)
+- `how-to-use-cng-cgd-retail-outlet` **1.0.0 → 1.0.1** (PATCH) — forced via --as patch (visible text identical; only markup/styling changed)
+- `how-to-use-cbg-design-opensource-size` **1.0.0 → 1.0.1** (PATCH) — forced via --as patch (visible text identical; only markup/styling changed)
+- `how-to-use-delivery-playbook-field` **1.0.0 → 1.0.1** (PATCH) — forced via --as patch (visible text identical; only markup/styling changed)
+- `how-to-use-data-source-mining-pull` **1.0.0 → 1.0.1** (PATCH) — forced via --as patch (visible text identical; only markup/styling changed)
+- `how-to-use-cricket-data-analysis-score` **1.0.0 → 1.0.1** (PATCH) — forced via --as patch (visible text identical; only markup/styling changed)
+- `how-to-use-colab-market-fundamentals` **1.0.0 → 1.0.1** (PATCH) — forced via --as patch (visible text identical; only markup/styling changed)
+- `how-to-use-claude-provenance-auditable` **1.0.0 → 1.0.1** (PATCH) — forced via --as patch (visible text identical; only markup/styling changed)
+- `how-to-use-chemicalimportsubstitution` **1.0.0 → 1.0.1** (PATCH) — forced via --as patch (visible text identical; only markup/styling changed)
+- `how-to-use-blog-consistency-check-is` **1.0.0 → 1.0.1** (PATCH) — forced via --as patch (visible text identical; only markup/styling changed)
+- `indias-fdi-moved-to-software-and` **1.0.0 → 1.0.1** (PATCH) — forced via --as patch (figures changed (+71/-0 distinct numbers))
+- `abu-dhabi-paid-2-billion-for-binance` **1.0.0 → 1.0.1** (PATCH) — forced via --as patch (figures changed (+5/-0 distinct numbers))
+- `where-indias-fdi-actually-lands-state` **2.2.0 → 2.2.1** (PATCH) — forced via --as patch (figures changed (+66/-0 distinct numbers))
+- `foreign-capital-found-indias-hospitals` **5.0.0 → 5.0.1** (PATCH) — forced via --as patch (figures changed (+5/-0 distinct numbers))
+- `securitising-deficit-what-it-would` **5.0.1 → 5.0.2** (PATCH) — forced via --as patch (figures changed (+2/-0 distinct numbers))
+
+**Changed**
+
+- `how-to-use-coal-to-urea-design` — 21,442 → 21,561 bytes (+119)
+- `how-to-use-cng-cgd-retail-outlet` — 24,489 → 24,608 bytes (+119)
+- `how-to-use-cbg-design-opensource-size` — 21,547 → 21,666 bytes (+119)
+- `how-to-use-delivery-playbook-field` — 25,066 → 25,185 bytes (+119)
+- `how-to-use-data-source-mining-pull` — 24,584 → 24,703 bytes (+119)
+- `how-to-use-cricket-data-analysis-score` — 23,830 → 23,949 bytes (+119)
+- `how-to-use-colab-market-fundamentals` — 24,709 → 24,828 bytes (+119)
+- `how-to-use-claude-provenance-auditable` — 24,656 → 24,775 bytes (+119)
+- `how-to-use-chemicalimportsubstitution` — 25,469 → 25,588 bytes (+119)
+- `how-to-use-blog-consistency-check-is` — 23,153 → 23,272 bytes (+119)
+- `indias-fdi-moved-to-software-and` — 29,685 → 45,532 bytes (+15,847)
+- `abu-dhabi-paid-2-billion-for-binance` — 30,146 → 30,798 bytes (+652)
+- `where-indias-fdi-actually-lands-state` — 46,998 → 53,754 bytes (+6,756)
+- `foreign-capital-found-indias-hospitals` — 35,291 → 36,229 bytes (+938)
+- `securitising-deficit-what-it-would` — 134,857 → 135,549 bytes (+692)

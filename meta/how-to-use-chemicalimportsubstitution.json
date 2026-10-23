@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/10/how-to-use-chemicalimportsubstitution.html",
   "slug": "how-to-use-chemicalimportsubstitution",
   "published": "2026-10-19T05:09:20.000+05:30",
-  "updated": "2026-10-23T06:25:22.413+05:30",
+  "updated": "2026-10-23T09:06:16.139+05:30",
   "labels": [
     "India",
     "Open-Source Tools & How-To"
   ],
-  "bytes": 25469,
-  "sha256": "9d3096d4890a20b348ac5dad5badaf20174a23e3acedf6de1d8d067fa4029b8c",
+  "bytes": 25588,
+  "sha256": "1cb957ed529bb018e8921c1e3459200a2fbbb5ce29359430b392298ab6d56122",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -30,6 +30,19 @@
       "level": "initial",
       "reason": "first snapshot",
       "note": ""
+    },
+    {
+      "version": "1.0.1",
+      "date": "2026-10-23T09:58:02+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (visible text identical; only markup/styling changed)",
+      "bytes": [
+        25469,
+        25588
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "FDI posts updated with DPIIT fact sheet to June 2026"
     }
   ]
 }

@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/10/how-to-use-data-source-mining-pull.html",
   "slug": "how-to-use-data-source-mining-pull",
   "published": "2026-10-19T05:10:07.000+05:30",
-  "updated": "2026-10-23T06:25:31.668+05:30",
+  "updated": "2026-10-23T09:05:45.985+05:30",
   "labels": [
     "Open-Source Tools & How-To"
   ],
-  "bytes": 24584,
-  "sha256": "2d5a611c1b61ae3f8d5a5af036349af6c87ef68daad82844d3b470e235ce7aac",
+  "bytes": 24703,
+  "sha256": "7efb53702404200cab32f2af7dfcd803e53e6f5930dbfca62e874b15d611cba8",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -29,6 +29,19 @@
       "level": "initial",
       "reason": "first snapshot",
       "note": ""
+    },
+    {
+      "version": "1.0.1",
+      "date": "2026-10-23T09:58:02+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (visible text identical; only markup/styling changed)",
+      "bytes": [
+        24584,
+        24703
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "FDI posts updated with DPIIT fact sheet to June 2026"
     }
   ]
 }

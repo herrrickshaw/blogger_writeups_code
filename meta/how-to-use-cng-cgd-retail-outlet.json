@@ -3,16 +3,16 @@
   "title": "How to use cng-cgd-retail-outlet-mapping: find which gas distributor is authorised to supply CNG to each petrol pump",
   "url": "https://masaladeutsch.blogspot.com/2026/10/how-to-use-cng-cgd-retail-outlet.html",
   "slug": "how-to-use-cng-cgd-retail-outlet",
-  "published": "2026-10-23T06:25:09.451+05:30",
-  "updated": "2026-10-23T06:25:09.451+05:30",
+  "published": "2026-10-23T06:25:09.000+05:30",
+  "updated": "2026-10-23T09:05:22.364+05:30",
   "labels": [
     "Energy & Fuels",
     "India",
     "Mobility & EV",
     "Open-Source Tools & How-To"
   ],
-  "bytes": 24489,
-  "sha256": "4a108d449eeb9338369a264b43f15d4533c515b3d4db36bf446e3a71b945e9fc",
+  "bytes": 24608,
+  "sha256": "01ddb42353614c5099f69f0409c34d6f70a2ad3177cca6a878b91cd86ed1494e",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -32,6 +32,19 @@
       "level": "initial",
       "reason": "first snapshot",
       "note": ""
+    },
+    {
+      "version": "1.0.1",
+      "date": "2026-10-23T09:58:02+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (visible text identical; only markup/styling changed)",
+      "bytes": [
+        24489,
+        24608
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "FDI posts updated with DPIIT fact sheet to June 2026"
     }
   ]
 }

@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/10/how-to-use-colab-market-fundamentals.html",
   "slug": "how-to-use-colab-market-fundamentals",
   "published": "2026-10-19T05:09:24.000+05:30",
-  "updated": "2026-10-23T06:25:27.119+05:30",
+  "updated": "2026-10-23T09:06:01.683+05:30",
   "labels": [
     "Equity Markets & Stock Screening",
     "Markets & Finance",
     "Open-Source Tools & How-To"
   ],
-  "bytes": 24709,
-  "sha256": "409d9bbe48f0a28fa817d56405055f5cd2a87602218e4b411a53d753239a0457",
+  "bytes": 24828,
+  "sha256": "2995a572016be89a2b1a0a0f9e86d935762bc717ca1d53a69c83a6dac0874f1c",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -31,6 +31,19 @@
       "level": "initial",
       "reason": "first snapshot",
       "note": ""
+    },
+    {
+      "version": "1.0.1",
+      "date": "2026-10-23T09:58:02+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (visible text identical; only markup/styling changed)",
+      "bytes": [
+        24709,
+        24828
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "FDI posts updated with DPIIT fact sheet to June 2026"
     }
   ]
 }
