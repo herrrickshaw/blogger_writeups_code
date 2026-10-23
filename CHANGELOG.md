@@ -15369,3 +15369,12 @@ Sweep-4 MEDIUM fixes and 2011-12 base corrections
 - `securitising-deficit-what-it-would` — 135,549 → 134,857 bytes (-692)
 - `effective-buying-power-china-comparison` — 41,533 → 41,588 bytes (+55)
 - `real-gdp-growth-india-fy2012-13-to` — 42,203 → 43,055 bytes (+852)
+
+## 2026-10-23T18:34:12+05:30 — 402 posts live
+
+New post: LNG terminal expansion vs new build
+
+
+**Added**
+
+- `indias-cheapest-lng-capacity-is-extra` **v1.0.0** — India's Cheapest LNG Capacity Is an Extra Tank at Dahej. Its Newer Terminals Run a Quarter Full (46,349 bytes)
