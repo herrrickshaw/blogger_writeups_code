@@ -15378,3 +15378,16 @@ New post: LNG terminal expansion vs new build
 **Added**
 
 - `indias-cheapest-lng-capacity-is-extra` **v1.0.0** — India's Cheapest LNG Capacity Is an Extra Tank at Dahej. Its Newer Terminals Run a Quarter Full (46,349 bytes)
+
+## 2026-10-23T18:43:40+05:30 — 402 posts live
+
+LNG terminals post: PPAC Ready Reckoner May 2026 terminal data, imports to Sep 2026, Petronet Q1 FY27
+
+
+**Versions**
+
+- `indias-cheapest-lng-capacity-is-extra` **1.0.0 → 2.0.0** (MAJOR) — forced via --as major (figures changed (+28/-5 distinct numbers))
+
+**Changed**
+
+- `indias-cheapest-lng-capacity-is-extra` — 46,349 → 51,641 bytes (+5,292)

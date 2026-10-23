@@ -3,11 +3,15 @@
   "title": "India's Cheapest LNG Capacity Is an Extra Tank at Dahej. Its Newer Terminals Run a Quarter Full",
   "url": "https://masaladeutsch.blogspot.com/2026/10/indias-cheapest-lng-capacity-is-extra.html",
   "slug": "indias-cheapest-lng-capacity-is-extra",
-  "published": "2026-10-23T18:33:39.795+05:30",
-  "updated": "2026-10-23T18:33:39.795+05:30",
-  "labels": [],
-  "bytes": 46349,
-  "sha256": "c5aed755ec9258835432e316f47bcf1d4d09fa0d80f5829badcf92c01d79f508",
+  "published": "2026-10-23T18:33:39.000+05:30",
+  "updated": "2026-10-23T18:43:06.083+05:30",
+  "labels": [
+    "Energy & Fuels",
+    "Gas & LNG",
+    "Industrial Policy"
+  ],
+  "bytes": 51641,
+  "sha256": "b84ddc4149852ff91d1bfd9e75b1927e6c6c67e747b8f5e73903696565c2bbac",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -27,6 +31,19 @@
       "level": "initial",
       "reason": "first snapshot",
       "note": "New post: LNG terminal expansion vs new build"
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-10-23T18:43:40+05:30",
+      "level": "major",
+      "reason": "forced via --as major (figures changed (+28/-5 distinct numbers))",
+      "bytes": [
+        46349,
+        51641
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "LNG terminals post: PPAC Ready Reckoner May 2026 terminal data, imports to Sep 2026, Petronet Q1 FY27"
     }
   ]
 }
