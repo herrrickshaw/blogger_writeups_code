@@ -15417,3 +15417,12 @@ Index: LNG terminals post
 **Changed**
 
 - `article-index-start-here` — 771,813 → 774,698 bytes (+2,885)
+
+## 2026-10-23T19:13:39+05:30 — 403 posts live
+
+New post: gas pipeline map, bids and right-of-user notices
+
+
+**Added**
+
+- `india-has-27400-km-of-gas-pipeline` **v1.0.0** — India Has 27,400 km of Gas Pipeline Working and 8,500 km Being Laid. A Map of Where, and of the Lines Still on Paper (66,463 bytes)
