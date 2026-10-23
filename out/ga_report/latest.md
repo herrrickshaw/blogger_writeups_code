@@ -4,18 +4,18 @@
 
 ## Totals
 
-- Active users: **237**
-- Total users: **237**
-- Page views: **632**
-- Sessions: **346**
+- Active users: **236**
+- Total users: **236**
+- Page views: **619**
+- Sessions: **339**
 
 ## Views by country (top 30)
 
 | Country | Active users | Page views |
 |---|---|---|
 | United States | 128 | 128 |
-| Singapore | 70 | 78 |
-| India | 27 | 411 |
+| Singapore | 69 | 77 |
+| India | 27 | 399 |
 | Hong Kong | 2 | 2 |
 | Nigeria | 2 | 2 |
 | Australia | 1 | 1 |
@@ -32,10 +32,10 @@
 
 | City | Active users | Page views |
 |---|---|---|
-| Singapore | 70 | 78 |
 | New York | 69 | 69 |
+| Singapore | 69 | 77 |
 | Chicago | 50 | 50 |
-| Coimbatore | 6 | 135 |
+| Coimbatore | 6 | 123 |
 | Flint Hill | 5 | 5 |
 | Mumbai | 4 | 148 |
 | Bengaluru | 3 | 4 |
@@ -70,9 +70,9 @@ Device/browser variety and engagement time are stronger bot signals than views/u
 | City | Page views | Active users | Views/user | Sessions | Avg engagement | Bounce rate | Top device/browser combos |
 |---|---|---|---|---|---|---|---|
 | Mumbai | 148 | 4 | 37.0 | 42 | 59s | 33% | desktop/Chrome (145); desktop/Edge (3) |
-| Coimbatore | 135 | 6 | 22.5 | 38 | 49s | 42% | desktop/Chrome (127); mobile/Chrome (6); desktop/Firefox (2) |
-| Singapore | 78 | 70 | 1.1 | 71 | 6s | 92% | desktop/Chrome (78) |
+| Coimbatore | 123 | 6 | 20.5 | 32 | 70s | 38% | desktop/Chrome (117); mobile/Chrome (4); desktop/Firefox (2) |
 | Madurai | 78 | 3 | 26.0 | 31 | 58s | 45% | desktop/Chrome (75); desktop/Safari (3) |
+| Singapore | 77 | 69 | 1.1 | 70 | 6s | 91% | desktop/Chrome (77) |
 | New York | 69 | 69 | 1.0 | 69 | 0s | 100% | desktop/Chrome (69) |
 | Chicago | 50 | 50 | 1.0 | 50 | 0s | 100% | desktop/Chrome (50) |
 | Hyderabad | 26 | 3 | 8.7 | 3 | 61s | 0% | desktop/Chrome (25); mobile/Chrome (1) |
@@ -86,9 +86,9 @@ Device/browser variety and engagement time are stronger bot signals than views/u
 
 | Page path | Page views | Active users |
 |---|---|---|
-| / | 248 | 28 |
+| / | 235 | 28 |
+| /search | 30 | 5 |
 | /2026/08/article-index-start-here.html | 29 | 4 |
-| /search | 26 | 5 |
 | /2026/10/indias-ethanol-surplus-buys-about-five.html | 15 | 10 |
 | /2026/10/cotton-stalk-is-one-of-hardest-crop.html | 8 | 3 |
 | /2026/10/the-lpg-distributors-commission-rose-16.html | 7 | 3 |
@@ -96,16 +96,16 @@ Device/browser variety and engagement time are stronger bot signals than views/u
 | /2026/10/indias-factory-intentions-20012024-how_0101046393.html | 5 | 4 |
 | /2026/08/where-indias-green-hydrogen-bets-are.html | 4 | 2 |
 | /2026/09/india-imports-60-of-its-cooking-gas.html | 4 | 2 |
-| /2026/09/kpler-and-vortexa-track-every-barrel.html | 4 | 2 |
 | /2026/10/abu-dhabi-paid-2-billion-for-binance.html | 4 | 3 |
 | /2026/10/indias-2026-27-ethanol-tender-drops.html | 4 | 2 |
 | /2026/10/indias-factory-intentions-20012024-how.html | 4 | 1 |
 | /2026/10/petrol-pump-margins-and-e20-one-dealer.html | 4 | 3 |
 | /2026/08/the-hydrogen-bill-hiding-inside-indias.html | 3 | 2 |
-| /2026/09/india-doesnt-have-one-quality-regulator.html | 3 | 2 |
 | /2026/09/india-sells-world-about-third-of-its.html | 3 | 3 |
 | /2026/09/indias-cotton-yield-fell-from-566-kg-to.html | 3 | 2 |
 | /2026/10/bagasse-is-one-crop-residue-already.html | 3 | 3 |
+| /2026/10/india-imported-28-million-of-sucralose.html | 3 | 3 |
+| /2026/10/india-imported-295-more-steel-this-year.html | 3 | 3 |
 
 ## Likely human readership
 
@@ -113,7 +113,7 @@ Heuristic, not a bot filter. GA4 already drops crawlers on the IAB list; what ge
 
 | Class | Cities | Active users | Page views | Sessions | Engaged sessions |
 |---|---|---|---|---|---|
-| Human-like | 20 | 112 | 501 | 217 | 98 |
+| Human-like | 20 | 111 | 488 | 210 | 96 |
 | Bot-like (no engaged session) | 14 | 132 | 131 | 132 | 0 |
 
 ### Human-like cities (top 20 by engaged sessions)
@@ -121,9 +121,9 @@ Heuristic, not a bot filter. GA4 already drops crawlers on the IAB list; what ge
 | City | Engaged sessions | Sessions | Active users | Page views | Avg engagement / session |
 |---|---|---|---|---|---|
 | Mumbai | 28 | 42 | 4 | 148 | 59s |
-| Coimbatore | 22 | 38 | 6 | 135 | 49s |
+| Coimbatore | 20 | 32 | 6 | 123 | 70s |
 | Madurai | 17 | 31 | 3 | 78 | 58s |
-| Singapore | 6 | 71 | 70 | 78 | 6s |
+| Singapore | 6 | 70 | 69 | 77 | 6s |
 | Hyderabad | 3 | 3 | 3 | 26 | 61s |
 | New Delhi | 2 | 5 | 3 | 3 | 49s |
 | Bengaluru | 2 | 3 | 3 | 4 | 50s |
@@ -145,9 +145,9 @@ Heuristic, not a bot filter. GA4 already drops crawlers on the IAB list; what ge
 
 | Page path | Engaged sessions | Page views | Active users | Avg engagement / view |
 |---|---|---|---|---|
-| / | 79 | 248 | 28 | 9s |
+| / | 77 | 235 | 28 | 11s |
 | /2026/08/article-index-start-here.html | 18 | 29 | 4 | 26s |
-| /search | 10 | 26 | 5 | 16s |
+| /search | 11 | 30 | 5 | 15s |
 | /2026/10/indias-ethanol-surplus-buys-about-five.html | 9 | 15 | 10 | 61s |
 | /2026/10/cotton-stalk-is-one-of-hardest-crop.html | 5 | 8 | 3 | 30s |
 | /2026/10/every-litre-of-petrol-pays-5-for-roads.html | 4 | 6 | 3 | 25s |
