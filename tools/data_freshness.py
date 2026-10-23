@@ -144,14 +144,27 @@ def failed(out):
     return out.startswith(("Gemini [", "Mistral [", "[")) and ("error" in out or "unexpected" in out or "empty" in out)
 
 
+# A model that answered 429 is skipped until its cooldown ends, so each post
+# does not spend a call on it first. A daily quota ("exceeded your current
+# quota", RESOURCE_EXHAUSTED) is out for the rest of the run; a per-minute rate
+# limit for ten minutes. 2026-10-23: gemini-flash-latest was out of daily quota
+# and mistral-small/-medium rate-limited, so every post made three dead calls.
+COOLDOWN = {}
+DAILY = re.compile(r"exceeded your current quota|RESOURCE_EXHAUSTED|per day", re.I)
+
+
 def ask_with_fallback(fn, k, text, models):
     """Each model in turn on any failure or unusable JSON; one paced retry of the list."""
     out, m = "", models[0]
     for attempt in range(2):
-        for m in models:
+        live = [x for x in models if COOLDOWN.get(x, 0) <= time.time()] or models
+        for m in live:
             out = fn(k, text, m)
             if not failed(out) and parse(out) is not None:
                 return m, out
+            if "API error 429" in out:
+                COOLDOWN[m] = time.time() + (24 * 3600 if DAILY.search(out) else 600)
+                print(f"    {m}: 429, skipped for " + ("this run" if DAILY.search(out) else "10 min"))
             if mmf.TERMINAL.search(out) and "404" not in out:
                 return m, out
         if attempt == 0:
