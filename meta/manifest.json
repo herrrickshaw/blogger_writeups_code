@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-10-23T19:13:39+05:30",
+  "snapshot": "2026-10-23T19:14:59+05:30",
   "count": 403,
   "posts": {
     "1023631151138981087": {
@@ -41386,10 +41386,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html",
       "slug": "article-index-start-here",
       "published": "2026-08-02T10:43:26.000+05:30",
-      "updated": "2026-10-23T19:08:28.448+05:30",
+      "updated": "2026-10-23T19:14:25.074+05:30",
       "labels": [],
-      "bytes": 774698,
-      "sha256": "c778fad1efb0e87a2450118c1eb7f6dc1f4cfffae4252424a68d32101124a8cd",
+      "bytes": 778390,
+      "sha256": "1736a9c5b98efc90056f486a830a1a612a034f7cd9fc3bc3e710ec62c5cf3e9c",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -41401,7 +41401,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "60.17.0",
+      "version": "60.18.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -43475,6 +43475,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Index: LNG terminals post"
+        },
+        {
+          "version": "60.18.0",
+          "date": "2026-10-23T19:14:59+05:30",
+          "level": "minor",
+          "reason": "forced via --as minor (figures changed (+4/-2 distinct numbers))",
+          "bytes": [
+            774698,
+            778390
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Index: gas pipeline map post"
         }
       ]
     },
@@ -62153,9 +62166,13 @@
       "title": "India Has 27,400 km of Gas Pipeline Working and 8,500 km Being Laid. A Map of Where, and of the Lines Still on Paper",
       "url": "https://masaladeutsch.blogspot.com/2026/10/india-has-27400-km-of-gas-pipeline.html",
       "slug": "india-has-27400-km-of-gas-pipeline",
-      "published": "2026-10-23T19:13:04.860+05:30",
-      "updated": "2026-10-23T19:13:04.860+05:30",
-      "labels": [],
+      "published": "2026-10-23T19:13:04.000+05:30",
+      "updated": "2026-10-23T19:13:49.351+05:30",
+      "labels": [
+        "Energy & Fuels",
+        "Gas & LNG",
+        "Industrial Policy"
+      ],
       "bytes": 66463,
       "sha256": "006f82fb9ff2494be2c8b0b44213df98ff634d1d399054a425a157993c3f4cf1",
       "markers": {

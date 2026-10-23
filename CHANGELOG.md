@@ -15426,3 +15426,20 @@ New post: gas pipeline map, bids and right-of-user notices
 **Added**
 
 - `india-has-27400-km-of-gas-pipeline` **v1.0.0** — India Has 27,400 km of Gas Pipeline Working and 8,500 km Being Laid. A Map of Where, and of the Lines Still on Paper (66,463 bytes)
+
+## 2026-10-23T19:14:59+05:30 — 403 posts live
+
+Index: gas pipeline map post
+
+
+**Versions**
+
+- `article-index-start-here` **60.17.0 → 60.18.0** (MINOR) — forced via --as minor (figures changed (+4/-2 distinct numbers))
+
+**Changed**
+
+- `article-index-start-here` — 774,698 → 778,390 bytes (+3,692)
+
+**Re-dated** (publication date changed; body and URL unchanged)
+
+- `india-has-27400-km-of-gas-pipeline` — 2026-10-23 &rarr; 2026-10-23
