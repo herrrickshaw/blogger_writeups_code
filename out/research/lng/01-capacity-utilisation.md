@@ -236,3 +236,33 @@ Other mentions:
 9. **Regas tariff table ambiguity in HLEC** (truck-loading vs regas columns) is unresolved. Current published tariffs per terminal were not collected; Argus reports "Petronet offers lower LNG regas rates", not opened.
 10. **Sansad (Lok/Rajya Sabha) answers with terminal-wise utilisation were not found** for 2024–26. The only hit was LS USQ 2005 of 9 Dec 2021 ("LNG Terminal"), with no text available.
 11. **Terminal types**: all eight operating terminals are described by PNGRB as onshore. GBS and FSRU status of proposed projects (e.g., Kakinada, Haldia, Karaikal) is not stated in the sources read.
+
+---
+
+## 5. Update 23 Oct 2026: PPAC Monthly Ready Reckoner, May 2026 edition (published June 2026)
+
+Read from the user's Drive copy `1781699418_Snapshot_of_India_Oil_and_Gas_May2026_V1_A5.pdf` (id 1STgYcrOQpKn0e7ab5sv9FMio-4rvU7rw); the text layer is readable, unlike the Feb 2026 and Nov 2025 copies. [primary]
+
+**Table 21, "Existing LNG terminals"** (capacity as on 01.06.2026; % capacity utilisation Apr'26–May'26). Columns were interleaved in the text extraction; the values were matched to rows from the order in which each "utilisation, utilisation, next row's promoter" group appears. The Dahej and Hazira values agree with LNG Prime's report of the same edition.
+
+| Terminal | Promoter | Capacity, MMTPA | Utilisation, Apr–May 2026 |
+|---|---|---|---|
+| Dahej | Petronet LNG | 17.5 | 91.9% |
+| Hazira | (Shell; promoter not in text) | 6 | 27.0% |
+| Dabhol | Konkan LNG Ltd* | 5 | 40.1% |
+| Kochi | Petronet LNG | 5 | 26.3% |
+| Ennore | Indian Oil LNG Pvt Ltd | 5 | 26.4% |
+| Mundra | GSPC LNG Ltd | 5 | 24.1% |
+| Dhamra | Adani Total Pvt Ltd | 5 | 36.9% |
+| Chhara | HPCL LNG Ltd | 5 | 10.5% |
+| Total | | 53.5 | 48.4% capacity-weighted [derived] |
+
+- *Footnote: "To increase to 5 MMTPA with breakwater. Only HP stream of capacity of 2.9 MMTPA is commissioned."
+- PPAC still lists Dahej at 17.5 MMTPA as on 1 Jun 2026, although 22.5 MMTPA was commissioned on 31 Mar 2026.
+- **Table 18 (LNG imports, MMSCM):** 2024-25 35,720; 2025-26 34,216; May 2025 2,865; May 2026 2,266; Apr–May 2025 5,643; Apr–May 2026 4,532. Total gas consumption 2025-26 68,542 (2024-25 71,314). Import dependency 49.9% (2025-26). May/Apr 2026 LNG data are "as per Apr '26 inputs received from LNG importing entities", i.e. provisional.
+- **Table 27:** 1 MT LNG = 1,325 SCM; 1 MMTPA LNG = 3.60 MMSCMD.
+- Cross-check: terminal-weighted 48.4% × 53.5 MMTPA ≈ 25.9 MMTPA annualised, against Apr–May imports of 4,532 MMSCM ≈ 3.42 MT ≈ 20.5 MMTPA annualised. The two series do not reconcile; the import figure is provisional.
+
+**Later data (press, quoting PPAC; not read in the original):** June 2026 2,604 MMSCM (−5.4% y/y); August 2026 ~2,915 MMSCM (~flat); September 2026 ~2,957 MMSCM (−8.5%, LNG Prime 19 Oct 2026; BW Businessworld). July 2026 absolute figure not found. No terminal-wise PPAC table later than Apr–Jun 2026 was found.
+
+**Petronet Q1 FY2026-27 (Apr–Jun 2026)**, via PL Capital and Bank of Baroda result reviews (13 Aug 2026) [secondary]: Dahej utilisation 65.6% on 22.5 MMTPA (vs ~90% QoQ, 92% YoY); ~85% on the old 17.5 base; Dahej throughput 192 TBtu vs 207 TBtu YoY; Kochi ~23%; company-wide 58%. Cause: QatarEnergy force majeure after the March 2026 attack on Ras Laffan.
