@@ -1,0 +1,270 @@
+<div class="artx htuclaude">
+<style>
+/* ---- typography (gs-typo-unify-v1): keep in sync across all posts ---- */
+.htuclaude{font-family:Georgia,'Times New Roman',serif;line-height:1.6;color:#111}
+.htuclaude h1,.htuclaude h2,.htuclaude h3{line-height:1.3}
+
+/* ---- palette: define every colour as a custom property here. Do not add
+       raw hex elsewhere in a post's <style> block — reference these vars, so
+       a future palette change is a 4-line edit instead of a find-and-replace
+       across every post. ----
+   --ink     #111    body text, light-locked (see below)
+   --accent  #8a4b08  eyebrow text, h2 rule, table header bg, stat numbers —
+                       the one colour that carries this post's "brand"
+   --rule    #e8dcc4  hairline borders, h2 underline, table cell borders
+   --panel   #fdf7ec  stat-card bg, even table rows — the palette's one tint
+*/
+.htuclaude{--ink:#111;--accent:#8a4b08;--rule:#e8dcc4;--panel:#fdf7ec;--good:#1a7a4c;--good-soft:#eaf6ef;--bad:#a5402c;--bad-soft:#fff4f0}
+
+/* ---- mono-label convention (added 2026-09-17, borrowed from the
+       india-trade-sector-policy-recommendations design system): the eyebrow
+       kicker and the source line read as data-journalism metadata, not
+       article prose, so they get a monospace face — a system stack, not a
+       hosted webfont, so no post gains an extra network request or a
+       flash-of-unstyled-text risk. Body text (h1/p/li/table) keeps the
+       serif — this is a two-place accent, not a font-pairing overhaul. ---- */
+.htuclaude{--mono:ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace}
+
+/* ---- light lock (gs-light-lock): a dark Blogger theme (and a browser/OS
+       set to prefers-color-scheme:dark) must not repaint text. Re-assert
+       the same values with !important — verified 2026-08-14 across 5 live
+       posts with the browser's colour scheme forced to dark: body/h1/p/table
+       all stayed light-background/dark-text with no low-contrast pairs.
+       Do NOT add selectors here for panels that are meant to be dark —
+       those go in the guard below. ---- */
+.htuclaude,.htuclaude p,.htuclaude li,.htuclaude td,.htuclaude th{color:var(--ink)!important}
+.htuclaude{background:#fff!important}
+
+/* ---- structure: title + subtitle ----
+   .eyebrow    = the small-caps kicker ABOVE the h1 — "Section · Topic ·
+                 Subtopic", sets context before the reader hits the claim
+   h1          = the headline itself. Write it as the CLAIM, not the topic
+                 ("The Rouble Is the Outlier, Not the Dollar" beats
+                 "Currency Trends Update"). font-size 1.5rem is the deliberate
+                 site-wide size — do not bump it per-post.
+   .standfirst = the one/two-sentence SUBTITLE directly under the h1. This is
+                 also what Blogger's snippet extractor and the JSON-LD meta
+                 description both read (see the gs-head-order block below) —
+                 write it as a real, complete sentence a reader could act on,
+                 not a fragment.
+*/
+.htuclaude .eyebrow{font-size:.8rem;font-weight:700;letter-spacing:.04em;color:var(--accent);text-transform:uppercase;margin:0 0 6px;font-family:var(--mono)}
+.htuclaude h1{margin:0 0 10px;font-size:1.5rem}
+.htuclaude .standfirst{font-size:1.05rem;color:#333!important;margin:0 0 18px}
+.htuclaude .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px;margin:18px 0}
+.htuclaude .stat{background:var(--panel);border:1px solid var(--rule);border-radius:10px;padding:12px 14px}
+.htuclaude .stat b{display:block;font-size:1.2rem;color:var(--accent)}
+.htuclaude .stat span{font-size:.8rem}
+.htuclaude h2{color:var(--accent);border-bottom:2px solid var(--rule);padding-bottom:6px;margin-top:30px;font-size:1.15rem}
+
+/* ---- tables: units live in the header, cells carry bare numbers.
+       .tw is the mobile-overflow fix — see the MOBILE comment above. ---- */
+.htuclaude .tw{overflow-x:auto}
+.htuclaude table{width:100%;border-collapse:collapse;margin:14px 0;font-size:.88rem}
+.htuclaude th,.htuclaude td{border:1px solid var(--rule);padding:7px 9px;text-align:right;word-wrap:break-word;overflow-wrap:break-word}
+.htuclaude th:first-child,.htuclaude td:first-child{text-align:left}
+.htuclaude th{background:var(--accent);color:#fff!important;font-weight:600}
+.htuclaude tr:nth-child(even){background:var(--panel)}
+
+.htuclaude .note{background:#eef4ff;border-left:4px solid #2a78d6;padding:12px 16px;margin:18px 0;border-radius:0 8px 8px 0;font-size:.93rem}
+.htuclaude .warn{background:var(--bad-soft);border-left:4px solid var(--bad);padding:12px 16px;margin:18px 0;border-radius:0 8px 8px 0;font-size:.93rem}
+/* ---- .good (added 2026-09-17): third semantic tier alongside .note (neutral
+       framing) and .warn (a caveat/scope limit) — for the case a caveat block
+       would otherwise get stretched to cover: confirming a figure checked out,
+       a correction that resolved cleanly, a claim that survived cross-check.
+       Same shape as .note/.warn on purpose, so all three read as one family. */
+.htuclaude .good{background:var(--good-soft);border-left:4px solid var(--good);padding:12px 16px;margin:18px 0;border-radius:0 8px 8px 0;font-size:.93rem}
+/* ---- .chip (added 2026-09-17): formalises a labelling pattern several posts
+       already built ad hoc in JS (e.g. "PLI coverage: strong/partial/gap")
+       into one reusable inline component, so a new post doesn't reinvent it.
+       Use inline: <span class="chip chip-good">Strong</span>. ---- */
+.htuclaude .chip{display:inline-block;font-family:var(--mono);font-size:.72rem;font-weight:700;letter-spacing:.02em;padding:.15rem .5rem;border-radius:99px;line-height:1.5}
+.htuclaude .chip-good{background:var(--good-soft);color:var(--good)}
+.htuclaude .chip-warn{background:var(--panel);color:var(--accent)}
+.htuclaude .chip-bad{background:var(--bad-soft);color:var(--bad)}
+.htuclaude .src{font-size:.84rem;font-family:var(--mono);border-top:1px solid var(--rule);padding-top:12px;margin-top:24px}
+.htuclaude .disclaimer{font-size:.82rem;color:#555;margin-top:10px}
+.htuclaude .revised{font-size:.8rem;color:#555!important;margin:0 0 14px}
+.htuclaude .revised code{font-family:inherit;background:var(--panel);padding:1px 5px;border-radius:4px}
+</style>
+
+
+<div class="gs-head-order" style="display:flex;flex-direction:column">
+<p class="standfirst" style="order:4">One Python script turns your local Claude Code transcripts, prompt history and claude.ai export into a single SQLite database with timestamps, models, tool calls and a SHA-256 of each message.</p>
+<div class="topnav-index-link" style="order:1;font-size:.82em;margin:6px 0 14px"><a href="https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html" style="color:#0b5394;text-decoration:none">&#8592; All Articles (Index)</a></div>
+<p class="eyebrow" style="order:2">Open-Source Tools · How-To · Dev &amp; ops tools</p>
+<h1 style="order:3">How to use claude-provenance: an auditable log of every Claude message on your machine</h1>
+</div>
+
+
+<a href="#" id="gs-skip-link" class="gs-skip-link" style="position:absolute;left:-9999px;top:auto;background:#1a1a1a;color:#fff;padding:.6rem 1rem;z-index:1000;border-radius:4px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.85rem">Skip to article content</a>
+<style>.gs-skip-link:focus{left:8px!important;top:8px!important}
+.gs-a11y-bar{display:flex;align-items:center;gap:.55rem;flex-wrap:wrap;background:#f4f5f7;border:1px solid #dfe3e8;border-radius:8px;padding:.55rem .8rem;margin:10px 0 16px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
+.gs-a11y-bar .gs-a11y-label{font-size:.68rem;font-weight:700;letter-spacing:.08em;color:#666;text-transform:uppercase;margin-right:.15rem}
+.gs-a11y-bar button{cursor:pointer;border:1px solid #c7cbd1;background:#fff;color:#1a1a1a;border-radius:5px;padding:.32rem .65rem;font-family:inherit;line-height:1}
+.gs-a11y-bar button.gs-a11y-fs{font-weight:700;min-width:2rem;text-align:center}
+.gs-a11y-bar button.gs-a11y-fs[data-size="sm"]{font-size:.8rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="md"]{font-size:1rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="lg"]{font-size:1.2rem}
+.gs-a11y-bar button.gs-a11y-fs[aria-pressed="true"]{background:#1a1a1a;color:#fff;border-color:#1a1a1a}
+.gs-a11y-bar button:hover{border-color:#8a4b08}
+.gs-a11y-bar button:focus-visible{outline:2px solid #8a4b08;outline-offset:1px}
+.gs-a11y-bar .gs-a11y-sep{width:1px;align-self:stretch;background:#dfe3e8;margin:0 .1rem}</style>
+<div class="gs-a11y-bar" role="group" aria-label="Accessibility controls">
+<span class="gs-a11y-label">Text Size</span>
+<button type="button" class="gs-a11y-fs" data-size="sm" aria-pressed="false" aria-label="Small text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="md" aria-pressed="true" aria-label="Medium text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="lg" aria-pressed="false" aria-label="Large text">A</button>
+<span class="gs-a11y-sep"></span>
+<button type="button" id="gs-a11y-listen" aria-label="Read this article aloud">&#128266; Listen</button>
+<button type="button" id="gs-a11y-stop" aria-label="Stop reading aloud">&#9632; Stop</button>
+</div>
+<script>(function(){
+var KEY='gs-a11y-fontsize', SIZES={sm:'0.92',md:'1',lg:'1.15'};
+function pb(){return document.querySelector('.post-body')||document.querySelector('.artx,.mdrx');}
+function apply(sz){
+  var el=pb(); if(!el||!SIZES[sz]) return;
+  el.style.fontSize=SIZES[sz]+'em';
+  var btns=document.querySelectorAll('.gs-a11y-fs');
+  for(var i=0;i<btns.length;i++){
+    var on=btns[i].getAttribute('data-size')===sz;
+    btns[i].setAttribute('aria-pressed', on?'true':'false');
+  }
+  try{localStorage.setItem(KEY,sz);}catch(e){}
+}
+var fsBtns=document.querySelectorAll('.gs-a11y-fs');
+for(var j=0;j<fsBtns.length;j++){
+  fsBtns[j].addEventListener('click',(function(b){return function(){apply(b.getAttribute('data-size'));};})(fsBtns[j]));
+}
+var saved; try{saved=localStorage.getItem(KEY);}catch(e){}
+apply(saved&&SIZES[saved]?saved:'md');
+
+var listenBtn=document.getElementById('gs-a11y-listen'), stopBtn=document.getElementById('gs-a11y-stop');
+if(listenBtn){
+  listenBtn.addEventListener('click', function(){
+    if(!('speechSynthesis' in window)){ alert('Text-to-speech is not supported in this browser.'); return; }
+    window.speechSynthesis.cancel();
+    var src=pb(); if(!src) return;
+    var clone=src.cloneNode(true);
+    var strip=clone.querySelectorAll('script,style,svg');
+    for(var k=0;k<strip.length;k++){ strip[k].parentNode.removeChild(strip[k]); }
+    var text=clone.textContent.replace(/\s+/g,' ').trim();
+    if(!text) return;
+    var chunks=text.match(/[\s\S]{1,180}(?:[.!?]|$)/g)||[text];
+    var idx=0;
+    function speakNext(){
+      if(idx>=chunks.length) return;
+      var u=new SpeechSynthesisUtterance(chunks[idx]);
+      u.onend=function(){ idx++; speakNext(); };
+      window.speechSynthesis.speak(u);
+    }
+    speakNext();
+  });
+}
+if(stopBtn){
+  stopBtn.addEventListener('click', function(){
+    if('speechSynthesis' in window) window.speechSynthesis.cancel();
+  });
+}
+var skip=document.getElementById('gs-skip-link');
+if(skip){
+  skip.addEventListener('click', function(ev){
+    ev.preventDefault();
+    var h=document.querySelector('.post-body h1')||document.querySelector('.artx h1,.mdrx h1,h1');
+    if(h){ h.setAttribute('tabindex','-1'); h.focus(); h.scrollIntoView(); }
+  });
+}
+})();</script>
+<style>.goog-te-menu-frame{max-width:340px!important;max-height:70vh!important;overflow:auto!important;box-shadow:0 6px 24px rgba(0,0,0,.25)!important}</style>
+<div id="google_translate_element" style="margin:8px 0 16px;"></div><script type="text/javascript">function googleTranslateElementInit(){new google.translate.TranslateElement({pageLanguage:"en",includedLanguages:"hi,bn,ta,te,mr,gu,kn,ml,pa,or,as,ur,sa,ne,sd",layout:google.translate.TranslateElement.InlineLayout.SIMPLE,autoDisplay:false},"google_translate_element");}</script><script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+
+<p class="revised" data-gs-revision-v1="1">Revised
+<time datetime="2026-10-26" itemprop="dateModified">26 October 2026</time>
+&middot; <code>v1.0.0</code> &middot; <a href="#changelog">what changed</a></p>
+
+<style>.htuclaude pre{background:#f6f3ea!important;color:#111!important;border:1px solid var(--rule);border-radius:8px;padding:10px 12px;overflow-x:auto;font-size:.82rem;line-height:1.45}.htuclaude pre code{background:none!important;color:#111!important;font-family:var(--mono)}.htuclaude code{font-family:var(--mono);font-size:.88em}.htuclaude .vid{position:relative;padding-bottom:56.25%;height:0;margin:16px 0;max-width:100%}.htuclaude .vid iframe{position:absolute;inset:0;width:100%;height:100%;border:0}</style><div class="stats"><div class="stat"><b>4</b><span>sources it can ingest</span></div><div class="stat"><b>5</b><span>messages in the synthetic demo</span></div><div class="stat"><b>0</b><span>unchanged files re-parsed on re-run</span></div><div class="stat"><b>SHA-256</b><span>per-message tamper check</span></div></div>
+<p>Code: <a href="https://github.com/herrrickshaw/claude-provenance">github.com/herrrickshaw/claude-provenance</a></p>
+<h2>Watch the walkthrough</h2>
+<div class="vid"><iframe src="https://www.youtube.com/embed/aENlyT4G1aY" title="How to use claude-provenance: an auditable log of every Claude message on your machine" allowfullscreen loading="lazy"></iframe></div><p>Watch on YouTube: <a href="https://youtu.be/aENlyT4G1aY">youtu.be/aENlyT4G1aY</a></p>
+<h2>Why it is useful</h2>
+<ul><li>Who benefits: people who use Claude Code or claude.ai heavily and need to answer when, with which model, in which folder and on which git branch something was asked or done.</li><li>What it replaces: grepping scattered JSONL transcripts by hand.</li><li>Evidence from the run: a synthetic session of four messages became a queryable table with role, model, tool names, content length and a hash; a second run skipped the unchanged file.</li><li>Audit value: each row stores the source file and line number plus a SHA-256 of the full content, so you can recompute the hash later and detect edits.</li><li>Privacy note built in: the database holds transcript content, so it is meant to stay local and gitignored.</li></ul>
+<h2>What it is for</h2>
+<p>claude-provenance reads transcripts that Claude Code already writes under ~/.claude/projects, your prompt history file, and optionally a claude.ai data export, and writes one SQLite file, provenance.db.</p>
+<p>Each message row records where it came from (file and line), when (original and ingest timestamps), who (role, model, CLI version, git branch, working folder), what (record type, tool calls, a 300-character preview) and integrity and lineage (SHA-256, message id and parent id).</p>
+<p>Re-runs are incremental: unchanged source files are skipped. --summary also writes a markdown summary of counts by source, project and model.</p>
+<p><b>Who it is for</b></p>
+<ul><li>Teams or individuals who need a record of AI-assisted work</li><li>Researchers measuring their own AI usage</li><li>Anyone debugging which session changed something</li></ul>
+<div class="warn"><b>Not for.</b><ul><li>Sharing or publishing: the database and summary can contain echoed credentials and private text. Never commit them</li><li>Proving authorship to a third party: the hash detects edits to your local files, it is not a signature from Anthropic</li><li>Claude chats that exist only on the server and were never exported</li></ul></div>
+<h2>What you need</h2>
+<div class="tw"><table><tr><th>Requirement</th><th>Why</th><th>How to get it</th></tr><tr><td>Python 3</td><td>runs provenance_log.py (standard library only)</td><td>already installed on macOS and most Linux</td></tr><tr><td>sqlite3 command-line (optional)</td><td>to query provenance.db from the shell</td><td>preinstalled on macOS; any SQLite viewer also works</td></tr><tr><td>Existing Claude Code transcripts</td><td>the script reads ~/.claude/projects and ~/.claude/history.jsonl</td><td>use Claude Code normally; nothing to install</td></tr><tr><td>claude.ai export (optional)</td><td>to include web and desktop chats</td><td>claude.ai, Settings, Privacy, Export data</td></tr></table></div>
+<h2>Get the code and an AI assistant</h2>
+<p>You do not have to be a programmer. Get the repository, give it to an AI assistant, and ask in plain language. Any of these routes works:</p>
+<div class="tw"><table><tr><th>Tool</th><th>What you need</th><th>Best for</th></tr><tr><td><b>GitHub</b></td><td>Free account to fork or star; <code>git</code> to clone, or the green <b>Code</b> button, then <b>Download ZIP</b>, or open in <b>Codespaces</b></td><td>Getting the code and keeping up with updates</td></tr><tr><td><b>Claude Code</b></td><td>Claude subscription or API key; run <code>claude</code> inside the cloned folder</td><td>Letting the AI read and run the whole repo</td></tr><tr><td><b>Gemini CLI</b></td><td>Google account; run <code>gemini</code> inside the cloned folder</td><td>The same hands-on workflow with Gemini</td></tr><tr><td><b>Claude.ai, Gemini or ChatGPT in the browser</b></td><td>A chat account; upload <code>README.md</code> and the files you care about (or paste the output of <code>git ls-files</code>)</td><td>Understanding the project and asking questions without installing anything</td></tr><tr><td><b>Other tools</b> (Copilot Chat, Cursor, Codex CLI)</td><td>Open the cloned folder in the tool and point it at <code>README.md</code> first</td><td>Editing and extending the code</td></tr></table></div>
+<pre><code>git clone https://github.com/herrrickshaw/claude-provenance.git
+cd claude-provenance
+claude      # or: gemini</code></pre>
+<h2>Install</h2><ol><li>Clone the repo<pre><code>git clone https://github.com/herrrickshaw/claude-provenance.git
+cd claude-provenance</code></pre></li><li>Make sure provenance.db and PROVENANCE_SUMMARY.md stay out of git (the repo gitignores them in the author&#x27;s setup; add your own ignore if you copy the script elsewhere)<pre><code>printf &#x27;provenance.db\nPROVENANCE_SUMMARY.md\n&#x27; &gt;&gt; .gitignore</code></pre></li></ol>
+<h2>Quick start: commands and what you should see</h2>
+<p><b>Ingest everything and write the summary</b></p>
+<pre><code>python3 provenance_log.py --summary</code></pre>
+<p>&#x27;Parsed N files (...). Ingested M messages this run.&#x27; then the database path and the summary path.</p>
+<p><b>Run it again</b></p>
+<pre><code>python3 provenance_log.py</code></pre>
+<p>&#x27;Parsed 0 files (N unchanged, skipped)&#x27;: only new or changed transcripts are re-read.</p>
+<p><b>Look at one day or one tool</b></p>
+<pre><code>sqlite3 provenance.db &quot;SELECT ts, role, model, content_preview FROM messages WHERE ts LIKE &#x27;2026-10-01%&#x27; ORDER BY ts&quot;</code></pre>
+<p>The messages of that day in time order.</p>
+<p><b>Include a claude.ai export</b></p>
+<pre><code>python3 provenance_log.py --claude-ai-export /path/to/unzipped-export</code></pre>
+<p>Adds source claude-ai-export rows, one per chat message.</p>
+<h2>Sample outputs</h2><p>Real output from a run on the date shown in the sources line; trimmed to fit.</p>
+<p><b>Ingest of a synthetic Claude Code session (run 19 Oct 2026, HOME pointed at a made-up folder)</b></p>
+<pre><code>python3 provenance_log.py --summary
+python3 provenance_log.py
+Parsed 2 files (0 unchanged, skipped). Ingested 5 messages this run.
+Database now holds 5 messages across 1 sessions -&gt; .../provenance.db
+Summary written -&gt; .../PROVENANCE_SUMMARY.md
+---rerun
+Parsed 0 files (1 unchanged, skipped). Ingested 0 messages this run.</code></pre>
+<p>The demo used a fake ~/.claude with one four-message session and one prompt-history line. No real transcripts were read.</p>
+<p><b>The provenance record for that session</b></p>
+<pre><code>sqlite3 -header -column provenance.db &quot;select ts,role,model,tool_names,content_chars,substr(content_sha256,1,12) sha,content_preview from messages where source=&#x27;claude-code&#x27; order by ts&quot;
+ts                    role       model            tool_names  content_chars  sha           content_preview
+--------------------  ---------  ---------------  ----------  -------------  ------------  ------------------------------------
+2026-10-01T09:00:00Z  user                                    25             82bb095abde1  Why does test_parse fail?
+2026-10-01T09:00:05Z  assistant  claude-sonnet-5  Bash        39             7c687025e3fc  Let me run it. {&quot;command&quot;: &quot;pytest -x&quot;}
+2026-10-01T09:00:09Z  user                                    31             02aebbe264cc  1 failed: off-by-one in parse()
+2026-10-01T09:00:15Z  assistant  claude-sonnet-5  Edit        73             63c17a533d05  parse() slices one char too many; fix the end index.</code></pre>
+<p>Preview lines trimmed. The first hash equals sha256(&#x27;Why does test_parse fail?&#x27;), checked separately.</p>
+<p><b>Summary file header</b></p>
+<pre><code>head -22 PROVENANCE_SUMMARY.md
+**5 messages** across **1 sessions**
+
+| Source | Messages | First | Last |
+| claude-code | 4 | 2026-10-01T09:00:00Z | 2026-10-01T09:00:15Z |
+| prompt-history | 1 | 2026-09-21T14:13:20+00:00 | ... |
+
+| Model | Assistant messages |
+| claude-sonnet-5 | 2 |</code></pre>
+<p>Trimmed. Counts are for the synthetic data only.</p>
+<h2>Ways to use it</h2>
+<div class="tw"><table><tr><th>Method</th><th>How it works</th></tr><tr><td>Command line + SQLite</td><td>python3 provenance_log.py, then sqlite3 or any SQL viewer on provenance.db.</td></tr><tr><td>Verify a message</td><td>Read src_file at src_line, recompute the SHA-256 of the content text and compare it with content_sha256.</td></tr><tr><td>Scheduled</td><td>Run the script daily from cron or launchd; it is incremental so repeat runs are cheap.</td></tr><tr><td>Via an AI assistant</td><td>Ask Claude Code or Gemini CLI to write queries against provenance.db, for example tool usage by week.</td></tr></table></div>
+<h2>Sample prompts for your AI assistant</h2><p>Copy, paste and edit the parts in [brackets].</p>
+<ul><li>Explain the claude-provenance repository in plain English: what problem it solves, what the main files do, and what I need installed.</li><li>Write a SQLite query that shows my Claude messages per day for the last 30 days, split by model.</li><li>Which git branches had the most assistant tool calls? Query provenance.db and show the top 10.</li><li>Explain how I would verify that one message in provenance.db has not been altered since it was ingested.</li><li>Review provenance_log.py for privacy risks and suggest what I should exclude before sharing a summary.</li><li>Help me export my claude.ai data and ingest it with --claude-ai-export, step by step.</li></ul>
+<h2>Limits and honest caveats</h2>
+<div class="warn"><ul><li>The demo used synthetic transcripts. On a real machine the database can be very large and can contain secrets that appeared in tool output; keep it private.</li><li>Observed in the run: the sessions table counted the tool-result message as a user message (n_user = 3 for a session with one typed prompt), so n_user over-counts human prompts.</li><li>It records only what exists locally. Server-side claude.ai chats need an export; deleted transcripts cannot be recovered.</li><li>The SHA-256 detects changes to your own copy; it does not prove the text came from Claude.</li></ul></div>
+<p class="src">Sources: claude-provenance README and provenance_log.py; run on 19 October 2026 on a fresh clone with HOME pointed at a synthetic ~/.claude folder (one made-up session). No real transcripts or the repo&#x27;s own database were read.</p>
+<div id="changelog" class="note">
+<b>Revision history.</b>
+<ul>
+<li><b>v1.0.0</b> &mdash; 26 October 2026 &mdash; first published.</li>
+</ul>
+</div>
+
+
+<style>/* gs-light-lock-v1 */.htuclaude{--ink:#111!important;--accent:#8a4b08!important;--rule:#e8dcc4!important;--panel:#fdf7ec!important;--good:#1a7a4c!important;--good-soft:#eaf6ef!important;--bad:#a5402c!important;--bad-soft:#fff4f0!important}</style>
+<p class="disclaimer" data-gs-ai-disclosure-v1="1"><strong>About this article:</strong> Researched, written and edited by Umashankar Triplicane Dwarakanathan, with AI research assistance; every figure is meant to trace to the primary source cited. See the <a href="https://masaladeutsch.blogspot.com/p/disclaimer.html">Editorial Policy</a> for how sourcing, AI use and corrections work.</p>
+
+</div>

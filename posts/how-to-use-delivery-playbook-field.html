@@ -1,0 +1,277 @@
+<div class="artx htudelive">
+<style>
+/* ---- typography (gs-typo-unify-v1): keep in sync across all posts ---- */
+.htudelive{font-family:Georgia,'Times New Roman',serif;line-height:1.6;color:#111}
+.htudelive h1,.htudelive h2,.htudelive h3{line-height:1.3}
+
+/* ---- palette: define every colour as a custom property here. Do not add
+       raw hex elsewhere in a post's <style> block — reference these vars, so
+       a future palette change is a 4-line edit instead of a find-and-replace
+       across every post. ----
+   --ink     #111    body text, light-locked (see below)
+   --accent  #8a4b08  eyebrow text, h2 rule, table header bg, stat numbers —
+                       the one colour that carries this post's "brand"
+   --rule    #e8dcc4  hairline borders, h2 underline, table cell borders
+   --panel   #fdf7ec  stat-card bg, even table rows — the palette's one tint
+*/
+.htudelive{--ink:#111;--accent:#8a4b08;--rule:#e8dcc4;--panel:#fdf7ec;--good:#1a7a4c;--good-soft:#eaf6ef;--bad:#a5402c;--bad-soft:#fff4f0}
+
+/* ---- mono-label convention (added 2026-09-17, borrowed from the
+       india-trade-sector-policy-recommendations design system): the eyebrow
+       kicker and the source line read as data-journalism metadata, not
+       article prose, so they get a monospace face — a system stack, not a
+       hosted webfont, so no post gains an extra network request or a
+       flash-of-unstyled-text risk. Body text (h1/p/li/table) keeps the
+       serif — this is a two-place accent, not a font-pairing overhaul. ---- */
+.htudelive{--mono:ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace}
+
+/* ---- light lock (gs-light-lock): a dark Blogger theme (and a browser/OS
+       set to prefers-color-scheme:dark) must not repaint text. Re-assert
+       the same values with !important — verified 2026-08-14 across 5 live
+       posts with the browser's colour scheme forced to dark: body/h1/p/table
+       all stayed light-background/dark-text with no low-contrast pairs.
+       Do NOT add selectors here for panels that are meant to be dark —
+       those go in the guard below. ---- */
+.htudelive,.htudelive p,.htudelive li,.htudelive td,.htudelive th{color:var(--ink)!important}
+.htudelive{background:#fff!important}
+
+/* ---- structure: title + subtitle ----
+   .eyebrow    = the small-caps kicker ABOVE the h1 — "Section · Topic ·
+                 Subtopic", sets context before the reader hits the claim
+   h1          = the headline itself. Write it as the CLAIM, not the topic
+                 ("The Rouble Is the Outlier, Not the Dollar" beats
+                 "Currency Trends Update"). font-size 1.5rem is the deliberate
+                 site-wide size — do not bump it per-post.
+   .standfirst = the one/two-sentence SUBTITLE directly under the h1. This is
+                 also what Blogger's snippet extractor and the JSON-LD meta
+                 description both read (see the gs-head-order block below) —
+                 write it as a real, complete sentence a reader could act on,
+                 not a fragment.
+*/
+.htudelive .eyebrow{font-size:.8rem;font-weight:700;letter-spacing:.04em;color:var(--accent);text-transform:uppercase;margin:0 0 6px;font-family:var(--mono)}
+.htudelive h1{margin:0 0 10px;font-size:1.5rem}
+.htudelive .standfirst{font-size:1.05rem;color:#333!important;margin:0 0 18px}
+.htudelive .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px;margin:18px 0}
+.htudelive .stat{background:var(--panel);border:1px solid var(--rule);border-radius:10px;padding:12px 14px}
+.htudelive .stat b{display:block;font-size:1.2rem;color:var(--accent)}
+.htudelive .stat span{font-size:.8rem}
+.htudelive h2{color:var(--accent);border-bottom:2px solid var(--rule);padding-bottom:6px;margin-top:30px;font-size:1.15rem}
+
+/* ---- tables: units live in the header, cells carry bare numbers.
+       .tw is the mobile-overflow fix — see the MOBILE comment above. ---- */
+.htudelive .tw{overflow-x:auto}
+.htudelive table{width:100%;border-collapse:collapse;margin:14px 0;font-size:.88rem}
+.htudelive th,.htudelive td{border:1px solid var(--rule);padding:7px 9px;text-align:right;word-wrap:break-word;overflow-wrap:break-word}
+.htudelive th:first-child,.htudelive td:first-child{text-align:left}
+.htudelive th{background:var(--accent);color:#fff!important;font-weight:600}
+.htudelive tr:nth-child(even){background:var(--panel)}
+
+.htudelive .note{background:#eef4ff;border-left:4px solid #2a78d6;padding:12px 16px;margin:18px 0;border-radius:0 8px 8px 0;font-size:.93rem}
+.htudelive .warn{background:var(--bad-soft);border-left:4px solid var(--bad);padding:12px 16px;margin:18px 0;border-radius:0 8px 8px 0;font-size:.93rem}
+/* ---- .good (added 2026-09-17): third semantic tier alongside .note (neutral
+       framing) and .warn (a caveat/scope limit) — for the case a caveat block
+       would otherwise get stretched to cover: confirming a figure checked out,
+       a correction that resolved cleanly, a claim that survived cross-check.
+       Same shape as .note/.warn on purpose, so all three read as one family. */
+.htudelive .good{background:var(--good-soft);border-left:4px solid var(--good);padding:12px 16px;margin:18px 0;border-radius:0 8px 8px 0;font-size:.93rem}
+/* ---- .chip (added 2026-09-17): formalises a labelling pattern several posts
+       already built ad hoc in JS (e.g. "PLI coverage: strong/partial/gap")
+       into one reusable inline component, so a new post doesn't reinvent it.
+       Use inline: <span class="chip chip-good">Strong</span>. ---- */
+.htudelive .chip{display:inline-block;font-family:var(--mono);font-size:.72rem;font-weight:700;letter-spacing:.02em;padding:.15rem .5rem;border-radius:99px;line-height:1.5}
+.htudelive .chip-good{background:var(--good-soft);color:var(--good)}
+.htudelive .chip-warn{background:var(--panel);color:var(--accent)}
+.htudelive .chip-bad{background:var(--bad-soft);color:var(--bad)}
+.htudelive .src{font-size:.84rem;font-family:var(--mono);border-top:1px solid var(--rule);padding-top:12px;margin-top:24px}
+.htudelive .disclaimer{font-size:.82rem;color:#555;margin-top:10px}
+.htudelive .revised{font-size:.8rem;color:#555!important;margin:0 0 14px}
+.htudelive .revised code{font-family:inherit;background:var(--panel);padding:1px 5px;border-radius:4px}
+</style>
+
+
+<div class="gs-head-order" style="display:flex;flex-direction:column">
+<p class="standfirst" style="order:4">A single-file HTML guide to SDLC models, the Agile family, DevOps, a fit-finder for picking a process, named anti-patterns, computer-science theory applied to products, DDD and TOGAF. This post shows what is inside and how to read it, adapt it or hand it to an AI assistant.</p>
+<div class="topnav-index-link" style="order:1;font-size:.82em;margin:6px 0 14px"><a href="https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html" style="color:#0b5394;text-decoration:none">&#8592; All Articles (Index)</a></div>
+<p class="eyebrow" style="order:2">Open-Source Tools · How-To · Dev &amp; ops tools</p>
+<h1 style="order:3">How to use delivery-playbook: a field guide for choosing and fixing your software process</h1>
+</div>
+
+
+<a href="#" id="gs-skip-link" class="gs-skip-link" style="position:absolute;left:-9999px;top:auto;background:#1a1a1a;color:#fff;padding:.6rem 1rem;z-index:1000;border-radius:4px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.85rem">Skip to article content</a>
+<style>.gs-skip-link:focus{left:8px!important;top:8px!important}
+.gs-a11y-bar{display:flex;align-items:center;gap:.55rem;flex-wrap:wrap;background:#f4f5f7;border:1px solid #dfe3e8;border-radius:8px;padding:.55rem .8rem;margin:10px 0 16px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
+.gs-a11y-bar .gs-a11y-label{font-size:.68rem;font-weight:700;letter-spacing:.08em;color:#666;text-transform:uppercase;margin-right:.15rem}
+.gs-a11y-bar button{cursor:pointer;border:1px solid #c7cbd1;background:#fff;color:#1a1a1a;border-radius:5px;padding:.32rem .65rem;font-family:inherit;line-height:1}
+.gs-a11y-bar button.gs-a11y-fs{font-weight:700;min-width:2rem;text-align:center}
+.gs-a11y-bar button.gs-a11y-fs[data-size="sm"]{font-size:.8rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="md"]{font-size:1rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="lg"]{font-size:1.2rem}
+.gs-a11y-bar button.gs-a11y-fs[aria-pressed="true"]{background:#1a1a1a;color:#fff;border-color:#1a1a1a}
+.gs-a11y-bar button:hover{border-color:#8a4b08}
+.gs-a11y-bar button:focus-visible{outline:2px solid #8a4b08;outline-offset:1px}
+.gs-a11y-bar .gs-a11y-sep{width:1px;align-self:stretch;background:#dfe3e8;margin:0 .1rem}</style>
+<div class="gs-a11y-bar" role="group" aria-label="Accessibility controls">
+<span class="gs-a11y-label">Text Size</span>
+<button type="button" class="gs-a11y-fs" data-size="sm" aria-pressed="false" aria-label="Small text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="md" aria-pressed="true" aria-label="Medium text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="lg" aria-pressed="false" aria-label="Large text">A</button>
+<span class="gs-a11y-sep"></span>
+<button type="button" id="gs-a11y-listen" aria-label="Read this article aloud">&#128266; Listen</button>
+<button type="button" id="gs-a11y-stop" aria-label="Stop reading aloud">&#9632; Stop</button>
+</div>
+<script>(function(){
+var KEY='gs-a11y-fontsize', SIZES={sm:'0.92',md:'1',lg:'1.15'};
+function pb(){return document.querySelector('.post-body')||document.querySelector('.artx,.mdrx');}
+function apply(sz){
+  var el=pb(); if(!el||!SIZES[sz]) return;
+  el.style.fontSize=SIZES[sz]+'em';
+  var btns=document.querySelectorAll('.gs-a11y-fs');
+  for(var i=0;i<btns.length;i++){
+    var on=btns[i].getAttribute('data-size')===sz;
+    btns[i].setAttribute('aria-pressed', on?'true':'false');
+  }
+  try{localStorage.setItem(KEY,sz);}catch(e){}
+}
+var fsBtns=document.querySelectorAll('.gs-a11y-fs');
+for(var j=0;j<fsBtns.length;j++){
+  fsBtns[j].addEventListener('click',(function(b){return function(){apply(b.getAttribute('data-size'));};})(fsBtns[j]));
+}
+var saved; try{saved=localStorage.getItem(KEY);}catch(e){}
+apply(saved&&SIZES[saved]?saved:'md');
+
+var listenBtn=document.getElementById('gs-a11y-listen'), stopBtn=document.getElementById('gs-a11y-stop');
+if(listenBtn){
+  listenBtn.addEventListener('click', function(){
+    if(!('speechSynthesis' in window)){ alert('Text-to-speech is not supported in this browser.'); return; }
+    window.speechSynthesis.cancel();
+    var src=pb(); if(!src) return;
+    var clone=src.cloneNode(true);
+    var strip=clone.querySelectorAll('script,style,svg');
+    for(var k=0;k<strip.length;k++){ strip[k].parentNode.removeChild(strip[k]); }
+    var text=clone.textContent.replace(/\s+/g,' ').trim();
+    if(!text) return;
+    var chunks=text.match(/[\s\S]{1,180}(?:[.!?]|$)/g)||[text];
+    var idx=0;
+    function speakNext(){
+      if(idx>=chunks.length) return;
+      var u=new SpeechSynthesisUtterance(chunks[idx]);
+      u.onend=function(){ idx++; speakNext(); };
+      window.speechSynthesis.speak(u);
+    }
+    speakNext();
+  });
+}
+if(stopBtn){
+  stopBtn.addEventListener('click', function(){
+    if('speechSynthesis' in window) window.speechSynthesis.cancel();
+  });
+}
+var skip=document.getElementById('gs-skip-link');
+if(skip){
+  skip.addEventListener('click', function(ev){
+    ev.preventDefault();
+    var h=document.querySelector('.post-body h1')||document.querySelector('.artx h1,.mdrx h1,h1');
+    if(h){ h.setAttribute('tabindex','-1'); h.focus(); h.scrollIntoView(); }
+  });
+}
+})();</script>
+<style>.goog-te-menu-frame{max-width:340px!important;max-height:70vh!important;overflow:auto!important;box-shadow:0 6px 24px rgba(0,0,0,.25)!important}</style>
+<div id="google_translate_element" style="margin:8px 0 16px;"></div><script type="text/javascript">function googleTranslateElementInit(){new google.translate.TranslateElement({pageLanguage:"en",includedLanguages:"hi,bn,ta,te,mr,gu,kn,ml,pa,or,as,ur,sa,ne,sd",layout:google.translate.TranslateElement.InlineLayout.SIMPLE,autoDisplay:false},"google_translate_element");}</script><script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+
+<p class="revised" data-gs-revision-v1="1">Revised
+<time datetime="2026-10-27" itemprop="dateModified">27 October 2026</time>
+&middot; <code>v1.0.0</code> &middot; <a href="#changelog">what changed</a></p>
+
+<style>.htudelive pre{background:#f6f3ea!important;color:#111!important;border:1px solid var(--rule);border-radius:8px;padding:10px 12px;overflow-x:auto;font-size:.82rem;line-height:1.45}.htudelive pre code{background:none!important;color:#111!important;font-family:var(--mono)}.htudelive code{font-family:var(--mono);font-size:.88em}.htudelive .vid{position:relative;padding-bottom:56.25%;height:0;margin:16px 0;max-width:100%}.htudelive .vid iframe{position:absolute;inset:0;width:100%;height:100%;border:0}</style><div class="stats"><div class="stat"><b>1</b><span>self-contained HTML file (62.5 KB, no build step)</span></div><div class="stat"><b>14</b><span>top-level sections</span></div><div class="stat"><b>6</b><span>named process failure modes, each with a fix</span></div><div class="stat"><b>4</b><span>quadrants in the volatility-vs-cost-of-failure fit-finder</span></div></div>
+<p>Code: <a href="https://github.com/herrrickshaw/delivery-playbook">github.com/herrrickshaw/delivery-playbook</a></p>
+<h2>Watch the walkthrough</h2>
+<div class="vid"><iframe src="https://www.youtube.com/embed/2VlrR-dwpCQ" title="How to use delivery-playbook: a field guide for choosing and fixing your software process" allowfullscreen loading="lazy"></iframe></div><p>Watch on YouTube: <a href="https://youtu.be/2VlrR-dwpCQ">youtu.be/2VlrR-dwpCQ</a></p>
+<h2>Why it is useful</h2>
+<ul><li>Team leads, product managers and students get one page that compares Waterfall, V-Model, Spiral, Scrum, Kanban, XP and DevOps side by side, instead of reading seven separate sources.</li><li>It replaces the usual &#x27;which methodology should we use?&#x27; meeting with a two-question fit-finder: how often requirements change, and how costly a mistake is once shipped.</li><li>The six named failure modes (Scrummerfall, Zombie Scrum, Watermelon status, Cargo-cult DevOps, Dark agile, Spec-driven paralysis) give a team shared words for process problems, each paired with a concrete fix.</li><li>Evidence from the review: the committed index.html has 14 sections and 28 sub-headings, is a single file with no dependencies, and its further-reading list was link-checked by the author on 17 October 2026. This post did not run any code; it read the committed file.</li></ul>
+<h2>What it is for</h2>
+<p>delivery-playbook is the versioned source for a reference page on how software gets delivered. It covers classic SDLC models, the Agile family, DevOps and continuous delivery, practices that hold whatever the model, a fit-finder, failure modes, an applied section, computer-science theory (Conway&#x27;s Law, Little&#x27;s Law, CAP theorem and others) applied to product decisions, Domain-Driven Design, TOGAF&#x27;s ADM cycle and a testing playbook.</p>
+<p>You use it by reading it in a browser, by forking the single HTML file and editing it for your own organisation, or by giving it to an AI assistant and asking questions against it.</p>
+<p><b>Who it is for</b></p>
+<ul><li>Engineering managers and tech leads choosing or fixing a delivery process</li><li>Product managers and analysts who need to speak the same language as engineering</li><li>Students and career-changers learning how SDLC, Agile, DevOps, DDD and TOGAF relate</li><li>Anyone who wants a worked example of a self-contained, no-build reference page</li></ul>
+<div class="warn"><b>Not for.</b><ul><li>A certification syllabus: it is a field guide, not an official Scrum, SAFe or TOGAF text; the repo links the primary sources instead</li><li>Legal, compliance or safety-critical process sign-off</li><li>A runnable software library; there is no code to install</li></ul></div>
+<h2>What you need</h2>
+<div class="tw"><table><tr><th>Requirement</th><th>Why</th><th>How to get it</th></tr><tr><td>A web browser</td><td>The guide is one HTML file; fonts load from Google Fonts</td><td>Any modern browser</td></tr><tr><td>git (optional)</td><td>To clone and edit your own copy</td><td>git-scm.com, or GitHub&#x27;s Download ZIP button</td></tr><tr><td>An AI assistant (optional)</td><td>To ask questions about the guide or adapt it</td><td>Claude, Gemini, ChatGPT, or an IDE assistant</td></tr></table></div>
+<h2>Get the code and an AI assistant</h2>
+<p>You do not have to be a programmer. Get the repository, give it to an AI assistant, and ask in plain language. Any of these routes works:</p>
+<div class="tw"><table><tr><th>Tool</th><th>What you need</th><th>Best for</th></tr><tr><td><b>GitHub</b></td><td>Free account to fork or star; <code>git</code> to clone, or the green <b>Code</b> button, then <b>Download ZIP</b>, or open in <b>Codespaces</b></td><td>Getting the code and keeping up with updates</td></tr><tr><td><b>Claude Code</b></td><td>Claude subscription or API key; run <code>claude</code> inside the cloned folder</td><td>Letting the AI read and run the whole repo</td></tr><tr><td><b>Gemini CLI</b></td><td>Google account; run <code>gemini</code> inside the cloned folder</td><td>The same hands-on workflow with Gemini</td></tr><tr><td><b>Claude.ai, Gemini or ChatGPT in the browser</b></td><td>A chat account; upload <code>README.md</code> and the files you care about (or paste the output of <code>git ls-files</code>)</td><td>Understanding the project and asking questions without installing anything</td></tr><tr><td><b>Other tools</b> (Copilot Chat, Cursor, Codex CLI)</td><td>Open the cloned folder in the tool and point it at <code>README.md</code> first</td><td>Editing and extending the code</td></tr></table></div>
+<pre><code>git clone https://github.com/herrrickshaw/delivery-playbook.git
+cd delivery-playbook
+claude      # or: gemini</code></pre>
+<h2>Install</h2><ol><li>Clone the repository (or use Download ZIP on GitHub)<pre><code>git clone https://github.com/herrrickshaw/delivery-playbook.git
+cd delivery-playbook</code></pre></li><li>Open the page. There is nothing to install or build.<pre><code>open index.html   # macOS; on Linux use xdg-open, on Windows double-click the file</code></pre></li></ol>
+<h2>Quick start: commands and what you should see</h2>
+<p><b>List the sections of the guide from the command line (not run in the demo as a shipped command; this is a one-line check you can run yourself)</b></p>
+<pre><code>grep -o &#x27;&lt;h2[^&gt;]*&gt;[^&lt;]*&#x27; index.html</code></pre>
+<p>One line per section: Lineage, Classic SDLC models, The Agile family, DevOps &amp; continuous delivery, Practices that hold regardless of model, Fit finder, Failure modes worth naming, Applied, Computer science theory applied, Domain-Driven Design, TOGAF, From your own library, Essential approaches for building tools, The software testing playbook.</p>
+<p><b>Use the fit-finder: place your project on two axes</b></p>
+<pre><code># In the browser, go to the &#x27;Fit finder&#x27; section.
+# 1. How often do requirements really change?  (stable / volatile)
+# 2. How costly is a mistake once shipped?       (low / high)</code></pre>
+<p>You land in one of four quadrants, each with a recommendation (see the sample outputs below).</p>
+<h2>Sample outputs</h2><p>Real output from a run on the date shown in the sources line; trimmed to fit.</p>
+<p><b>Section outline extracted from index.html (read from the committed file, run 19 October 2026)</b></p>
+<pre><code>python3 -I extract_headings.py index.html   # a 10-line helper that prints h2/h3 text
+Lineage
+Classic SDLC models
+The Agile family
+DevOps &amp; continuous delivery
+Practices that hold regardless of model
+Fit finder
+Failure modes worth naming
+  Scrummerfall Agile
+  Zombie Scrum Agile
+  Watermelon status Any model
+  Cargo-cult DevOps DevOps
+  Dark agile Scaled agile
+  Spec-driven paralysis Plan-driven
+Applied: a three-lens stack from two of my repos
+Computer science theory, applied
+Domain-Driven Design
+TOGAF: enterprise architecture
+The software testing playbook
+  Ice-cream-cone Inverted pyramid
+  Coverage theater Metric gaming
+  Flaky-test tolerance Any suite
+  Testing implementation, not behavior Over-coupling
+  Mocking everything Zero real integration</code></pre>
+<p>Trimmed: sub-headings under &#x27;Practices that hold regardless of model&#x27; and some testing items omitted.</p>
+<p><b>The fit-finder&#x27;s four recommendations (text of the Fit finder section)</b></p>
+<pre><code>(read in the browser; text copied from the section)
+High stakes, known scope   -&gt; V-Model or Waterfall. The cost of a wrong turn justifies planning it out first.
+High stakes, unclear scope -&gt; Spiral. Spend the first loops on prototypes and risk, not the full build.
+Low stakes, known scope    -&gt; Incremental or Kanban. Don&#x27;t pay for ceremony the risk doesn&#x27;t justify.
+Low stakes, unclear scope  -&gt; Scrum, XP, Lean Startup. Optimise for the speed of the feedback loop.
+
+DevOps discipline runs underneath all four quadrants; it is not a fifth option.</code></pre>
+<p>Layout flattened to plain text.</p>
+<p><b>One failure mode with its fix</b></p>
+<pre><code>(Failure modes worth naming section)
+Zombie Scrum (Agile)
+All four ceremonies happen, on schedule, every sprint, and nothing anyone says in them ever changes what happens next.
+Fix: every retro item gets a named owner and a deadline, tracked exactly like a bug.</code></pre>
+<p>Verbatim from the committed page apart from line breaks.</p>
+<h2>Ways to use it</h2>
+<div class="tw"><table><tr><th>Method</th><th>How it works</th></tr><tr><td>Read it</td><td>Open index.html locally, or read the live version linked from the repo README.</td></tr><tr><td>Fork and adapt</td><td>Edit the single HTML file for your organisation&#x27;s process, then host it with GitHub Pages or an internal site.</td></tr><tr><td>Use as a team workshop prompt</td><td>Run the fit-finder and the failure-mode list in a retrospective and ask which ones apply.</td></tr><tr><td>Through an AI assistant</td><td>Give the file to an assistant and ask it to map your current process onto the guide.</td></tr></table></div>
+<h2>Sample prompts for your AI assistant</h2><p>Copy, paste and edit the parts in [brackets].</p>
+<ul><li>Read index.html in this repo and summarise the six failure modes in a table: name, symptom, fix.</li><li>Here is how my team works: [describe]. Using the Fit finder section, which quadrant are we in and which model does the guide suggest? Tell me where our current process differs.</li><li>Which of the ten computer-science-theory items in this guide (Conway, Little, CAP, Amdahl and others) is most relevant to a team with long code-review queues? Quote the relevant passage.</li><li>Turn the testing-playbook section into a one-page checklist I can paste into a pull-request template.</li><li>List the primary sources linked in the further-reading section and tell me which claims in the guide each one supports.</li><li>Adapt this guide for a 5-person data-science team: which sections would you cut and what would you add?</li></ul>
+<h2>Limits and honest caveats</h2>
+<div class="warn"><ul><li>No code was executed for this post: the repo is a document. Everything shown was read from the committed index.html.</li><li>It is a field guide with the author&#x27;s opinions, not an official standard. For Scrum, TOGAF or SAFe, check the primary sources the guide links.</li><li>The repo&#x27;s own README notes that the SAFe framework site returned HTTP 403 to the author&#x27;s link check, so that source was not verified.</li><li>The live claude.ai copy is republished separately from this repo and the two are not auto-synced, so they can differ.</li><li>Fonts load from Google Fonts, so the page looks plainer offline.</li><li>Not legal, compliance or professional-certification advice.</li></ul></div>
+<p class="src">Sources: the delivery-playbook README and index.html, read on 19 October 2026 from the local clone (no code run).</p>
+<div id="changelog" class="note">
+<b>Revision history.</b>
+<ul>
+<li><b>v1.0.0</b> &mdash; 27 October 2026 &mdash; first published.</li>
+</ul>
+</div>
+
+
+<style>/* gs-light-lock-v1 */.htudelive{--ink:#111!important;--accent:#8a4b08!important;--rule:#e8dcc4!important;--panel:#fdf7ec!important;--good:#1a7a4c!important;--good-soft:#eaf6ef!important;--bad:#a5402c!important;--bad-soft:#fff4f0!important}</style>
+<p class="disclaimer" data-gs-ai-disclosure-v1="1"><strong>About this article:</strong> Researched, written and edited by Umashankar Triplicane Dwarakanathan, with AI research assistance; every figure is meant to trace to the primary source cited. See the <a href="https://masaladeutsch.blogspot.com/p/disclaimer.html">Editorial Policy</a> for how sourcing, AI use and corrections work.</p>
+
+</div>

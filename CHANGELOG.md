@@ -15280,3 +15280,18 @@ Sweep 4 MEDIUM items: dated update notes on 59 posts
 - `five-year-synthesis-trade-currency` — 49,380 → 50,440 bytes (+1,060)
 - `priority-export-destinations-by-growth` — 42,970 → 44,348 bytes (+1,378)
 - `cpi-wpi-trends-mospi-bulletin` — 49,832 → 50,886 bytes (+1,054)
+
+## 2026-10-23T06:27:55+05:30 — 401 posts live
+
+**Added**
+
+- `how-to-use-coal-to-urea-design` **v1.0.0** — How to use coal-to-urea-design-opensource: size a coal-to-urea complex (21,442 bytes)
+- `how-to-use-cng-cgd-retail-outlet` **v1.0.0** — How to use cng-cgd-retail-outlet-mapping: find which gas distributor is authorised to supply CNG to each petrol pump (24,489 bytes)
+- `how-to-use-cbg-design-opensource-size` **v1.0.0** — How to use cbg-design-opensource: size a compressed biogas plant (21,547 bytes)
+- `how-to-use-delivery-playbook-field` **v1.0.0** — How to use delivery-playbook: a field guide for choosing and fixing your software process (25,066 bytes)
+- `how-to-use-data-source-mining-pull` **v1.0.0** — How to use data-source-mining: pull World Bank indicators and mandi prices into DuckDB (24,584 bytes)
+- `how-to-use-cricket-data-analysis-score` **v1.0.0** — How to use cricket-data-analysis: score how predictable IPL and World Cup match-ups are (23,830 bytes)
+- `how-to-use-colab-market-fundamentals` **v1.0.0** — How to use colab-market-fundamentals: collect dated annual fundamentals for 20 markets in Colab (24,709 bytes)
+- `how-to-use-claude-provenance-auditable` **v1.0.0** — How to use claude-provenance: an auditable log of every Claude message on your machine (24,656 bytes)
+- `how-to-use-chemicalimportsubstitution` **v1.0.0** — How to use chemical_import_substitution: HS-8 import-substitution signals for India's chemical chapters (25,469 bytes)
+- `how-to-use-blog-consistency-check-is` **v1.0.0** — How to use blog-consistency-check: a "is this blog post broken?" audit for HTML posts (23,153 bytes)

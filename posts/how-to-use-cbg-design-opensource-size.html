@@ -1,0 +1,233 @@
+<div class="artx htucbgdes">
+<style>
+/* ---- typography (gs-typo-unify-v1): keep in sync across all posts ---- */
+.htucbgdes{font-family:Georgia,'Times New Roman',serif;line-height:1.6;color:#111}
+.htucbgdes h1,.htucbgdes h2,.htucbgdes h3{line-height:1.3}
+
+/* ---- palette: define every colour as a custom property here. Do not add
+       raw hex elsewhere in a post's <style> block — reference these vars, so
+       a future palette change is a 4-line edit instead of a find-and-replace
+       across every post. ----
+   --ink     #111    body text, light-locked (see below)
+   --accent  #8a4b08  eyebrow text, h2 rule, table header bg, stat numbers —
+                       the one colour that carries this post's "brand"
+   --rule    #e8dcc4  hairline borders, h2 underline, table cell borders
+   --panel   #fdf7ec  stat-card bg, even table rows — the palette's one tint
+*/
+.htucbgdes{--ink:#111;--accent:#8a4b08;--rule:#e8dcc4;--panel:#fdf7ec;--good:#1a7a4c;--good-soft:#eaf6ef;--bad:#a5402c;--bad-soft:#fff4f0}
+
+/* ---- mono-label convention (added 2026-09-17, borrowed from the
+       india-trade-sector-policy-recommendations design system): the eyebrow
+       kicker and the source line read as data-journalism metadata, not
+       article prose, so they get a monospace face — a system stack, not a
+       hosted webfont, so no post gains an extra network request or a
+       flash-of-unstyled-text risk. Body text (h1/p/li/table) keeps the
+       serif — this is a two-place accent, not a font-pairing overhaul. ---- */
+.htucbgdes{--mono:ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace}
+
+/* ---- light lock (gs-light-lock): a dark Blogger theme (and a browser/OS
+       set to prefers-color-scheme:dark) must not repaint text. Re-assert
+       the same values with !important — verified 2026-08-14 across 5 live
+       posts with the browser's colour scheme forced to dark: body/h1/p/table
+       all stayed light-background/dark-text with no low-contrast pairs.
+       Do NOT add selectors here for panels that are meant to be dark —
+       those go in the guard below. ---- */
+.htucbgdes,.htucbgdes p,.htucbgdes li,.htucbgdes td,.htucbgdes th{color:var(--ink)!important}
+.htucbgdes{background:#fff!important}
+
+/* ---- structure: title + subtitle ----
+   .eyebrow    = the small-caps kicker ABOVE the h1 — "Section · Topic ·
+                 Subtopic", sets context before the reader hits the claim
+   h1          = the headline itself. Write it as the CLAIM, not the topic
+                 ("The Rouble Is the Outlier, Not the Dollar" beats
+                 "Currency Trends Update"). font-size 1.5rem is the deliberate
+                 site-wide size — do not bump it per-post.
+   .standfirst = the one/two-sentence SUBTITLE directly under the h1. This is
+                 also what Blogger's snippet extractor and the JSON-LD meta
+                 description both read (see the gs-head-order block below) —
+                 write it as a real, complete sentence a reader could act on,
+                 not a fragment.
+*/
+.htucbgdes .eyebrow{font-size:.8rem;font-weight:700;letter-spacing:.04em;color:var(--accent);text-transform:uppercase;margin:0 0 6px;font-family:var(--mono)}
+.htucbgdes h1{margin:0 0 10px;font-size:1.5rem}
+.htucbgdes .standfirst{font-size:1.05rem;color:#333!important;margin:0 0 18px}
+.htucbgdes .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px;margin:18px 0}
+.htucbgdes .stat{background:var(--panel);border:1px solid var(--rule);border-radius:10px;padding:12px 14px}
+.htucbgdes .stat b{display:block;font-size:1.2rem;color:var(--accent)}
+.htucbgdes .stat span{font-size:.8rem}
+.htucbgdes h2{color:var(--accent);border-bottom:2px solid var(--rule);padding-bottom:6px;margin-top:30px;font-size:1.15rem}
+
+/* ---- tables: units live in the header, cells carry bare numbers.
+       .tw is the mobile-overflow fix — see the MOBILE comment above. ---- */
+.htucbgdes .tw{overflow-x:auto}
+.htucbgdes table{width:100%;border-collapse:collapse;margin:14px 0;font-size:.88rem}
+.htucbgdes th,.htucbgdes td{border:1px solid var(--rule);padding:7px 9px;text-align:right;word-wrap:break-word;overflow-wrap:break-word}
+.htucbgdes th:first-child,.htucbgdes td:first-child{text-align:left}
+.htucbgdes th{background:var(--accent);color:#fff!important;font-weight:600}
+.htucbgdes tr:nth-child(even){background:var(--panel)}
+
+.htucbgdes .note{background:#eef4ff;border-left:4px solid #2a78d6;padding:12px 16px;margin:18px 0;border-radius:0 8px 8px 0;font-size:.93rem}
+.htucbgdes .warn{background:var(--bad-soft);border-left:4px solid var(--bad);padding:12px 16px;margin:18px 0;border-radius:0 8px 8px 0;font-size:.93rem}
+/* ---- .good (added 2026-09-17): third semantic tier alongside .note (neutral
+       framing) and .warn (a caveat/scope limit) — for the case a caveat block
+       would otherwise get stretched to cover: confirming a figure checked out,
+       a correction that resolved cleanly, a claim that survived cross-check.
+       Same shape as .note/.warn on purpose, so all three read as one family. */
+.htucbgdes .good{background:var(--good-soft);border-left:4px solid var(--good);padding:12px 16px;margin:18px 0;border-radius:0 8px 8px 0;font-size:.93rem}
+/* ---- .chip (added 2026-09-17): formalises a labelling pattern several posts
+       already built ad hoc in JS (e.g. "PLI coverage: strong/partial/gap")
+       into one reusable inline component, so a new post doesn't reinvent it.
+       Use inline: <span class="chip chip-good">Strong</span>. ---- */
+.htucbgdes .chip{display:inline-block;font-family:var(--mono);font-size:.72rem;font-weight:700;letter-spacing:.02em;padding:.15rem .5rem;border-radius:99px;line-height:1.5}
+.htucbgdes .chip-good{background:var(--good-soft);color:var(--good)}
+.htucbgdes .chip-warn{background:var(--panel);color:var(--accent)}
+.htucbgdes .chip-bad{background:var(--bad-soft);color:var(--bad)}
+.htucbgdes .src{font-size:.84rem;font-family:var(--mono);border-top:1px solid var(--rule);padding-top:12px;margin-top:24px}
+.htucbgdes .disclaimer{font-size:.82rem;color:#555;margin-top:10px}
+.htucbgdes .revised{font-size:.8rem;color:#555!important;margin:0 0 14px}
+.htucbgdes .revised code{font-family:inherit;background:var(--panel);padding:1px 5px;border-radius:4px}
+</style>
+
+
+<div class="gs-head-order" style="display:flex;flex-direction:column">
+<p class="standfirst" style="order:4">Size a compressed biogas plant for India&#x27;s SATAT scheme, from feedstock through digestion, upgrading and 250 bar compression, and check it against a published plant.</p>
+<div class="topnav-index-link" style="order:1;font-size:.82em;margin:6px 0 14px"><a href="https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html" style="color:#0b5394;text-decoration:none">&#8592; All Articles (Index)</a></div>
+<p class="eyebrow" style="order:2">Open-source tools · How-to · Compressed biogas (CBG)</p>
+<h1 style="order:3">How to use cbg-design-opensource: size a compressed biogas plant</h1>
+</div>
+
+
+<a href="#" id="gs-skip-link" class="gs-skip-link" style="position:absolute;left:-9999px;top:auto;background:#1a1a1a;color:#fff;padding:.6rem 1rem;z-index:1000;border-radius:4px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.85rem">Skip to article content</a>
+<style>.gs-skip-link:focus{left:8px!important;top:8px!important}
+.gs-a11y-bar{display:flex;align-items:center;gap:.55rem;flex-wrap:wrap;background:#f4f5f7;border:1px solid #dfe3e8;border-radius:8px;padding:.55rem .8rem;margin:10px 0 16px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
+.gs-a11y-bar .gs-a11y-label{font-size:.68rem;font-weight:700;letter-spacing:.08em;color:#666;text-transform:uppercase;margin-right:.15rem}
+.gs-a11y-bar button{cursor:pointer;border:1px solid #c7cbd1;background:#fff;color:#1a1a1a;border-radius:5px;padding:.32rem .65rem;font-family:inherit;line-height:1}
+.gs-a11y-bar button.gs-a11y-fs{font-weight:700;min-width:2rem;text-align:center}
+.gs-a11y-bar button.gs-a11y-fs[data-size="sm"]{font-size:.8rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="md"]{font-size:1rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="lg"]{font-size:1.2rem}
+.gs-a11y-bar button.gs-a11y-fs[aria-pressed="true"]{background:#1a1a1a;color:#fff;border-color:#1a1a1a}
+.gs-a11y-bar button:hover{border-color:#8a4b08}
+.gs-a11y-bar button:focus-visible{outline:2px solid #8a4b08;outline-offset:1px}
+.gs-a11y-bar .gs-a11y-sep{width:1px;align-self:stretch;background:#dfe3e8;margin:0 .1rem}</style>
+<div class="gs-a11y-bar" role="group" aria-label="Accessibility controls">
+<span class="gs-a11y-label">Text Size</span>
+<button type="button" class="gs-a11y-fs" data-size="sm" aria-pressed="false" aria-label="Small text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="md" aria-pressed="true" aria-label="Medium text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="lg" aria-pressed="false" aria-label="Large text">A</button>
+<span class="gs-a11y-sep"></span>
+<button type="button" id="gs-a11y-listen" aria-label="Read this article aloud">&#128266; Listen</button>
+<button type="button" id="gs-a11y-stop" aria-label="Stop reading aloud">&#9632; Stop</button>
+</div>
+<script>(function(){
+var KEY='gs-a11y-fontsize', SIZES={sm:'0.92',md:'1',lg:'1.15'};
+function pb(){return document.querySelector('.post-body')||document.querySelector('.artx,.mdrx');}
+function apply(sz){
+  var el=pb(); if(!el||!SIZES[sz]) return;
+  el.style.fontSize=SIZES[sz]+'em';
+  var btns=document.querySelectorAll('.gs-a11y-fs');
+  for(var i=0;i<btns.length;i++){
+    var on=btns[i].getAttribute('data-size')===sz;
+    btns[i].setAttribute('aria-pressed', on?'true':'false');
+  }
+  try{localStorage.setItem(KEY,sz);}catch(e){}
+}
+var fsBtns=document.querySelectorAll('.gs-a11y-fs');
+for(var j=0;j<fsBtns.length;j++){
+  fsBtns[j].addEventListener('click',(function(b){return function(){apply(b.getAttribute('data-size'));};})(fsBtns[j]));
+}
+var saved; try{saved=localStorage.getItem(KEY);}catch(e){}
+apply(saved&&SIZES[saved]?saved:'md');
+
+var listenBtn=document.getElementById('gs-a11y-listen'), stopBtn=document.getElementById('gs-a11y-stop');
+if(listenBtn){
+  listenBtn.addEventListener('click', function(){
+    if(!('speechSynthesis' in window)){ alert('Text-to-speech is not supported in this browser.'); return; }
+    window.speechSynthesis.cancel();
+    var src=pb(); if(!src) return;
+    var clone=src.cloneNode(true);
+    var strip=clone.querySelectorAll('script,style,svg');
+    for(var k=0;k<strip.length;k++){ strip[k].parentNode.removeChild(strip[k]); }
+    var text=clone.textContent.replace(/\s+/g,' ').trim();
+    if(!text) return;
+    var chunks=text.match(/[\s\S]{1,180}(?:[.!?]|$)/g)||[text];
+    var idx=0;
+    function speakNext(){
+      if(idx>=chunks.length) return;
+      var u=new SpeechSynthesisUtterance(chunks[idx]);
+      u.onend=function(){ idx++; speakNext(); };
+      window.speechSynthesis.speak(u);
+    }
+    speakNext();
+  });
+}
+if(stopBtn){
+  stopBtn.addEventListener('click', function(){
+    if('speechSynthesis' in window) window.speechSynthesis.cancel();
+  });
+}
+var skip=document.getElementById('gs-skip-link');
+if(skip){
+  skip.addEventListener('click', function(ev){
+    ev.preventDefault();
+    var h=document.querySelector('.post-body h1')||document.querySelector('.artx h1,.mdrx h1,h1');
+    if(h){ h.setAttribute('tabindex','-1'); h.focus(); h.scrollIntoView(); }
+  });
+}
+})();</script>
+<style>.goog-te-menu-frame{max-width:340px!important;max-height:70vh!important;overflow:auto!important;box-shadow:0 6px 24px rgba(0,0,0,.25)!important}</style>
+<div id="google_translate_element" style="margin:8px 0 16px;"></div><script type="text/javascript">function googleTranslateElementInit(){new google.translate.TranslateElement({pageLanguage:"en",includedLanguages:"hi,bn,ta,te,mr,gu,kn,ml,pa,or,as,ur,sa,ne,sd",layout:google.translate.TranslateElement.InlineLayout.SIMPLE,autoDisplay:false},"google_translate_element");}</script><script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+
+<p class="revised" data-gs-revision-v1="1">Revised
+<time datetime="2026-10-18" itemprop="dateModified">18 October 2026</time>
+&middot; <code>v1.0.0</code> &middot; <a href="#changelog">what changed</a></p>
+
+<style>.htucbgdes pre{background:#f6f3ea!important;color:#111!important;border:1px solid var(--rule);border-radius:8px;padding:10px 12px;overflow-x:auto;font-size:.82rem;line-height:1.45}.htucbgdes pre code{background:none!important;color:#111!important;font-family:var(--mono)}.htucbgdes code{font-family:var(--mono);font-size:.88em}.htucbgdes .vid{position:relative;padding-bottom:56.25%;height:0;margin:16px 0;max-width:100%}.htucbgdes .vid iframe{position:absolute;inset:0;width:100%;height:100%;border:0}</style><div class="stats"><div class="stat"><b>32</b><span>tests passed in the demo</span></div><div class="stat"><b>225 t/day</b><span>feedstock in the worked example (Barsana Phase I scale)</span></div><div class="stat"><b>10.14 t/day</b><span>CBG from a pure dung feed vs 10 published</span></div><div class="stat"><b>29.31 t/day</b><span>CBG from pure straw, 2.93x the published figure</span></div></div>
+<p>Code: <a href="https://github.com/herrrickshaw/cbg-design-opensource">github.com/herrrickshaw/cbg-design-opensource</a></p>
+<h2>Watch the walkthrough</h2>
+<div class="vid"><iframe src="https://www.youtube.com/embed/Mwvvyyj6vu8" title="How to use cbg-design-opensource: size a compressed biogas plant" allowfullscreen loading="lazy"></iframe></div><p>Watch on YouTube: <a href="https://youtu.be/Mwvvyyj6vu8">youtu.be/Mwvvyyj6vu8</a></p>
+<h2>What it is for</h2>
+<p>This toolkit gives a first, traceable estimate of how much compressed biogas (CBG) a plant makes from a given feedstock. It covers feedstock, anaerobic digestion (Buswell equation), upgrading to the IS 16087 gas standard, multistage compression to 250 bar and the digestate left over.</p>
+<p>The demo checks the model against Barsana Phase I, a published plant that takes in 225 tonnes a day and makes about 10 tonnes a day of CBG.</p>
+<p><b>Who it is for</b></p>
+<ul><li>Students and analysts who want to understand how CBG plants are sized</li><li>Project developers doing an early feasibility sketch</li><li>Engineers who want a transparent, literature-based starting point</li></ul>
+<div class="warn"><b>Not for.</b><ul><li>Detailed engineering design, equipment purchase or bank-grade feasibility</li><li>Anything needing vendor data; the repo uses literature correlations only</li></ul></div>
+<h2>What you need</h2>
+<div class="tw"><table><tr><th>Requirement</th><th>Why</th><th>How to get it</th></tr><tr><td>Python 3.10 or newer</td><td>The package declares requires-python &gt;= 3.10</td><td>python.org, or brew install python on macOS</td></tr><tr><td>Python packages: CoolProp, streamlit, plotly, pandas</td><td>Property correlations, calculations, tables and the web app</td><td>Installed automatically by pip install -e &quot;.[dev]&quot;</td></tr><tr><td>A terminal and git</td><td>To clone the repo and run the commands</td><td>Terminal on macOS/Linux, or WSL/Git Bash on Windows; or use GitHub Codespaces</td></tr><tr><td>Internet for the first install only</td><td>pip downloads the packages</td><td>No internet is needed to run the sizing code afterwards</td></tr><tr><td>API keys, accounts, licences</td><td>None required</td><td>No database, server, GPU, model download or API key is needed. The demo used none.</td></tr></table></div>
+<h2>Get the code and an AI assistant</h2>
+<p>You do not have to be a programmer. Get the repository, give it to an AI assistant, and ask in plain language. Any of these routes works:</p>
+<div class="tw"><table><tr><th>Tool</th><th>What you need</th><th>Best for</th></tr><tr><td><b>GitHub</b></td><td>Free account to fork or star; <code>git</code> to clone, or the green <b>Code</b> button, then <b>Download ZIP</b>, or open in <b>Codespaces</b></td><td>Getting the code and keeping up with updates</td></tr><tr><td><b>Claude Code</b></td><td>Claude subscription or API key; run <code>claude</code> inside the cloned folder</td><td>Letting the AI read and run the whole repo</td></tr><tr><td><b>Gemini CLI</b></td><td>Google account; run <code>gemini</code> inside the cloned folder</td><td>The same hands-on workflow with Gemini</td></tr><tr><td><b>Claude.ai, Gemini or ChatGPT in the browser</b></td><td>A chat account; upload <code>README.md</code> and the files you care about (or paste the output of <code>git ls-files</code>)</td><td>Understanding the project and asking questions without installing anything</td></tr><tr><td><b>Other tools</b> (Copilot Chat, Cursor, Codex CLI)</td><td>Open the cloned folder in the tool and point it at <code>README.md</code> first</td><td>Editing and extending the code</td></tr></table></div>
+<pre><code>git clone https://github.com/herrrickshaw/cbg-design-opensource.git
+cd cbg-design-opensource
+claude      # or: gemini</code></pre>
+<h2>Install</h2><ol><li>Make sure Python 3.10 or newer is installed<pre><code>python3 --version</code></pre></li><li>Create and activate a virtual environment (keeps the install tidy)<pre><code>python3 -m venv .venv &amp;&amp; source .venv/bin/activate</code></pre></li><li>Install the package with the test tools. The dependencies (CoolProp, pandas, plotly, streamlit or scipy/numpy) come in automatically from pyproject.toml.<pre><code>pip install -e &quot;.[dev]&quot;</code></pre></li></ol>
+<h2>Quick start: commands and what you should see</h2>
+<p><b>Run the test suite to confirm everything works on your machine</b></p>
+<pre><code>pytest -q</code></pre>
+<p>A row of dots ending in 32 passed (about 8 seconds in the demo).</p>
+<p><b>Run the full chain at Barsana scale (225 t/day of feedstock)</b></p>
+<pre><code>python examples/full_chain_worked_example.py</code></pre>
+<p>A table of CBG output for dung/straw splits from 0% to 100% dung, from 29.31 t/day (all straw) down to 10.14 t/day (all dung), then a 50/50 detail: 49,102 Nm3/day raw biogas at 50.4% CH4, upgrading to 98.0% CH4 that meets IS 16087, about 583 kW, 4-stage compression to 250 bar at about 277 kW, and 609 m3/day of digestate.</p>
+<p><b>Optional: start the interactive app</b></p>
+<pre><code>streamlit run streamlit_app.py</code></pre>
+<p>A local web page opens in your browser. This step is in the README; it was not part of the captured demo run.</p>
+<h2>Ways to use it</h2>
+<div class="tw"><table><tr><th>Method</th><th>How it works</th></tr><tr><td>Command line (example scripts)</td><td>Run the worked example in examples/ and read the printed numbers.</td></tr><tr><td>Python library</td><td>Import the modules from the package in your own script or notebook and call them with your own feed and plant size.</td></tr><tr><td>Interactive web app</td><td>Run streamlit run streamlit_app.py from the repo folder for a browser-based version with sliders and charts.</td></tr><tr><td>Through an AI assistant</td><td>Open the cloned folder in Claude Code or Gemini CLI and ask it to run the example, change the inputs, or explain a result. Or upload README.md and docs/VALIDATION.md to a chat assistant.</td></tr></table></div>
+<h2>Sample prompts for your AI assistant</h2><p>Copy, paste and edit the parts in [brackets].</p>
+<ul><li>Explain this repository in plain English: what does it size, what goes in and what comes out?</li><li>Run the tests and the worked example, then summarise the results in a short table.</li><li>Show me how the CBG output changes when I change the dung and straw split, and explain why.</li><li>Open docs/VALIDATION.md and tell me where this model matches published figures and where it does not.</li><li>What would I need from a vendor or a licensed simulator before I could rely on these numbers?</li><li>Change the plant size to [your tonnes per day] and show me which outputs change most.</li></ul>
+<h2>Limits and honest caveats</h2>
+<div class="warn"><ul><li>Conceptual sizing, not detailed engineering design.</li><li>Only a 100% dung feed lands near the published plant (10.14 vs 10 t/day). Every mix that includes straw overshoots, up to 29.31 t/day for pure straw.</li><li>Straw&#x27;s calibrated gas yield is about 3x dung&#x27;s. Barsana&#x27;s real feedstock mix is not public, so this gap is unresolved.</li><li>The model uses literature correlations only, with no vendor data.</li><li>Run it as a sanity check, not as a guarantee of what a real plant will produce.</li></ul></div>
+<p class="src">Sources: the cbg-design-opensource README, docs/VALIDATION.md and examples/ folder, and the video demo run of 18 October 2026.</p>
+<div id="changelog" class="note">
+<b>Revision history.</b>
+<ul>
+<li><b>v1.0.0</b> &mdash; 18 October 2026 &mdash; first published.</li>
+</ul>
+</div>
+
+
+<style>/* gs-light-lock-v1 */.htucbgdes{--ink:#111!important;--accent:#8a4b08!important;--rule:#e8dcc4!important;--panel:#fdf7ec!important;--good:#1a7a4c!important;--good-soft:#eaf6ef!important;--bad:#a5402c!important;--bad-soft:#fff4f0!important}</style>
+<p class="disclaimer" data-gs-ai-disclosure-v1="1"><strong>About this article:</strong> Researched, written and edited by Umashankar Triplicane Dwarakanathan, with AI research assistance; every figure is meant to trace to the primary source cited. See the <a href="https://masaladeutsch.blogspot.com/p/disclaimer.html">Editorial Policy</a> for how sourcing, AI use and corrections work.</p>
+
+</div>
