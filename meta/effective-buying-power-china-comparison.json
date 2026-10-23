@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/effective-buying-power-china-comparison.html",
   "slug": "effective-buying-power-china-comparison",
   "published": "2026-08-02T14:02:12.000+05:30",
-  "updated": "2026-10-22T16:51:09.690+05:30",
+  "updated": "2026-10-23T09:59:57.094+05:30",
   "labels": [
     "Markets & Finance"
   ],
-  "bytes": 41533,
-  "sha256": "ee2d48a4556ddeeae849debdbda6bcd7b15290fbc69e430a73b0a2fd09f964b8",
+  "bytes": 41588,
+  "sha256": "405c945062884f82a4819cb029052216abb97b8c0e074d1bf60f81e81c0568d7",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": true,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.1.1",
+  "version": "2.1.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -277,6 +277,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Sweep 4 MEDIUM items: dated update notes on 59 posts"
+    },
+    {
+      "version": "2.1.2",
+      "date": "2026-10-23T10:11:38+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (figures changed (+4/-2 distinct numbers))",
+      "bytes": [
+        41533,
+        41588
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Sweep-4 MEDIUM fixes and 2011-12 base corrections"
     }
   ]
 }

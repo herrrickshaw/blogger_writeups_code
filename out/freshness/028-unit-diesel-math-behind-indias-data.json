@@ -1,0 +1,570 @@
+{
+ "slug": "028-unit-diesel-math-behind-indias-data",
+ "text_sha1": "629c8f75a26b3d4b",
+ "chars": 24258,
+ "checked": "2026-10-23T10:09:37",
+ "models": {
+  "gemini": {
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "Diesel generation costs roughly $0.28 a kilowatt-hour against grid power at $0.085 and solar-charged battery storage at $0.076–0.08.",
+     "value": "$0.28 a kilowatt-hour",
+     "period": "20 August 2026",
+     "period_end": "2026-08-20",
+     "publisher": "Takshashila Institution",
+     "series": "Diesel vs. grid vs. renewable PPA",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "Diesel generation costs roughly $0.28 a kilowatt-hour against grid power at $0.085 and solar-charged battery storage at $0.076–0.08.",
+     "value": "$0.085",
+     "period": "20 August 2026",
+     "period_end": "2026-08-20",
+     "publisher": "Takshashila Institution",
+     "series": "Diesel vs. grid vs. renewable PPA",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "Diesel generation costs roughly $0.28 a kilowatt-hour against grid power at $0.085 and solar-charged battery storage at $0.076–0.08.",
+     "value": "$0.076–0.08",
+     "period": "20 August 2026",
+     "period_end": "2026-08-20",
+     "publisher": "Takshashila Institution",
+     "series": "Diesel vs. grid vs. renewable PPA",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "India's data-centre capacity is projected to grow from roughly 1.2–1.5 gigawatts today to somewhere between 6 and 17 gigawatts by 2030",
+     "value": "1.2–1.5 gigawatts",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "Takshashila Institution",
+     "series": "Building India's Data Centres",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "India's data-centre capacity is projected to grow from roughly 1.2–1.5 gigawatts today to somewhere between 6 and 17 gigawatts by 2030",
+     "value": "6 and 17 gigawatts",
+     "period": "2030",
+     "period_end": "2030-12-31",
+     "publisher": "Takshashila Institution",
+     "series": "Building India's Data Centres",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "the Ministry of Power formally built a projection of 13.56 GW of data-centre electricity demand by FY2031–32 into national transmission planning, published via the Press Information Bureau in March 2026.",
+     "value": "13.56 GW",
+     "period": "FY2031-32",
+     "period_end": "2032-03-31",
+     "publisher": "PIB / ministry",
+     "series": "national transmission planning",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "India's telecom tower base needs to grow from roughly 750,000 towers already in place to around 1.2 million",
+     "value": "750,000 towers",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "Digital Infrastructure Providers Association",
+     "series": "tower-industry research",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "India's telecom tower base needs to grow from roughly 750,000 towers already in place to around 1.2 million",
+     "value": "1.2 million",
+     "period": "2030",
+     "period_end": "2030-12-31",
+     "publisher": "Digital Infrastructure Providers Association",
+     "series": "tower-industry research",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "Diesel generation runs about $0.28 per kilowatt-hour, against an Indian grid average of $0.085/kWh and round-the-clock renewable power-purchase agreements at $0.076–0.112/kWh",
+     "value": "$0.28 per kilowatt-hour",
+     "period": "20 August 2026",
+     "period_end": "2026-08-20",
+     "publisher": "Takshashila Institution",
+     "series": "grid-tariff and PPA data",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Diesel generation runs about $0.28 per kilowatt-hour, against an Indian grid average of $0.085/kWh and round-the-clock renewable power-purchase agreements at $0.076–0.112/kWh",
+     "value": "$0.085/kWh",
+     "period": "20 August 2026",
+     "period_end": "2026-08-20",
+     "publisher": "Takshashila Institution",
+     "series": "grid-tariff and PPA data",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Diesel generation runs about $0.28 per kilowatt-hour, against an Indian grid average of $0.085/kWh and round-the-clock renewable power-purchase agreements at $0.076–0.112/kWh",
+     "value": "$0.076–0.112/kWh",
+     "period": "20 August 2026",
+     "period_end": "2026-08-20",
+     "publisher": "Takshashila Institution",
+     "series": "grid-tariff and PPA data",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "diesel generator sets have a levelised cost of generation of ₹49.58–57.63 per kWh",
+     "value": "₹49.58–57.63 per kWh",
+     "period": "20 August 2026",
+     "period_end": "2026-08-20",
+     "publisher": "Auroville Consulting",
+     "series": "Tamil Nadu commercial and industrial backup-power model",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "a lithium-ion battery energy storage system (BESS) charged from solar at ₹3.95/kWh has a levelised cost of storage of just ₹39.71–61.72/kWh",
+     "value": "₹3.95/kWh",
+     "period": "20 August 2026",
+     "period_end": "2026-08-20",
+     "publisher": "Auroville Consulting",
+     "series": "Tamil Nadu commercial and industrial backup-power model",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "a lithium-ion battery energy storage system (BESS) charged from solar at ₹3.95/kWh has a levelised cost of storage of just ₹39.71–61.72/kWh",
+     "value": "₹39.71–61.72/kWh",
+     "period": "20 August 2026",
+     "period_end": "2026-08-20",
+     "publisher": "Auroville Consulting",
+     "series": "Tamil Nadu commercial and industrial backup-power model",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India's telecom towers — 606,300 when TRAI and EY counted them for their infrastructure-sharing study",
+     "value": "606,300",
+     "period": "20 August 2026",
+     "period_end": "2026-08-20",
+     "publisher": "TRAI / EY",
+     "series": "infrastructure-sharing study",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "83 per cent of them owned by neutral, non-discriminatory tower companies",
+     "value": "83 per cent",
+     "period": "20 August 2026",
+     "period_end": "2026-08-20",
+     "publisher": "TRAI / EY",
+     "series": "infrastructure-sharing study",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Indus Towers, the market leader with 249,305 towers and a 1.63 tenancy ratio",
+     "value": "249,305 towers",
+     "period": "20 August 2026",
+     "period_end": "2026-08-20",
+     "publisher": "ICRA",
+     "series": "Indus Towers credit-rating note",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Indus Towers, the market leader with 249,305 towers and a 1.63 tenancy ratio",
+     "value": "1.63",
+     "period": "20 August 2026",
+     "period_end": "2026-08-20",
+     "publisher": "ICRA",
+     "series": "Indus Towers credit-rating note",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "the Department of Telecommunications counted 8.43 lakh mobile towers and 31.44 lakh base stations on 31 October 2025.",
+     "value": "8.43 lakh mobile towers",
+     "period": "31 October 2025",
+     "period_end": "2025-10-31",
+     "publisher": "PIB / ministry",
+     "series": "year-end review",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "the Department of Telecommunications counted 8.43 lakh mobile towers and 31.44 lakh base stations on 31 October 2025.",
+     "value": "31.44 lakh base stations",
+     "period": "31 October 2025",
+     "period_end": "2025-10-31",
+     "publisher": "PIB / ministry",
+     "series": "year-end review",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Suyog Telematics, which operates 5,704 towers",
+     "value": "5,704 towers",
+     "period": "20 August 2026",
+     "period_end": "2026-08-20",
+     "publisher": "Suyog",
+     "series": "investor materials",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "A gas genset running on piped natural gas costs roughly ₹6.06 per kVA-hour to operate against a diesel genset's ₹12.6",
+     "value": "₹6.06 per kVA-hour",
+     "period": "20 August 2026",
+     "period_end": "2026-08-20",
+     "publisher": "Centre for Science and Environment",
+     "series": "feasibility comparison",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "A gas genset running on piped natural gas costs roughly ₹6.06 per kVA-hour to operate against a diesel genset's ₹12.6",
+     "value": "₹12.6",
+     "period": "20 August 2026",
+     "period_end": "2026-08-20",
+     "publisher": "Centre for Science and Environment",
+     "series": "feasibility comparison",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "PNGRB had authorised 307 geographical areas by 2026, reaching close to 100 per cent of India's landmass outside the islands and around 784 districts, with over 5,665 CNG stations already built out as of March 2023.",
+     "value": "307 geographical areas",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "PNGRB",
+     "series": "network-expansion statements",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "PNGRB had authorised 307 geographical areas by 2026, reaching close to 100 per cent of India's landmass outside the islands and around 784 districts, with over 5,665 CNG stations already built out as of March 2023.",
+     "value": "784 districts",
+     "period": "2026",
+     "period_end": "2026-12-31",
+     "publisher": "PNGRB",
+     "series": "network-expansion statements",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "PNGRB had authorised 307 geographical areas by 2026, reaching close to 100 per cent of India's landmass outside the islands and around 784 districts, with over 5,665 CNG stations already built out as of March 2023.",
+     "value": "5,665 CNG stations",
+     "period": "March 2023",
+     "period_end": "2023-03-31",
+     "publisher": "PNGRB",
+     "series": "network-expansion statements",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "a common commercial unit holds around 530 kg of CNG at 250 bar",
+     "value": "530 kg of CNG",
+     "period": "20 August 2026",
+     "period_end": "2026-08-20",
+     "publisher": "PIB / ministry",
+     "series": "CNG-equipment technical listings",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "In a written Rajya Sabha reply reported around 28 July 2026, the Ministry of Power said it now projects about 26.3 GW of AI data-centre load by FY2031-32",
+     "value": "26.3 GW",
+     "period": "FY2031-32",
+     "period_end": "2032-03-31",
+     "publisher": "PIB / ministry",
+     "series": "Rajya Sabha reply",
+     "frequency": "one-off",
+     "headline": false
+    }
+   ]
+  },
+  "mistral": {
+   "model": "open-mistral-nemo",
+   "ok": true,
+   "data_points": [
+    {
+     "quote": "Diesel generation costs roughly $0.28 a kilowatt-hour against grid power at $0.085 and solar-charged battery storage at $0.076–0.08.",
+     "value": "$0.28/kWh (diesel), $0.085/kWh (grid), $0.076–0.08/kWh (solar-charged battery storage)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Takshashila Institution",
+     "series": "Cost of backup power per unit (electricity cost comparison)",
+     "frequency": "one-off",
+     "headline": true
+    },
+    {
+     "quote": "India's data-centre capacity is projected to grow from roughly 1.2–1.5 gigawatts today to somewhere between 6 and 17 gigawatts by 2030... the Ministry of Power formally built a projection of 13.56 GW of data-centre electricity demand by FY2031–32.",
+     "value": "1.2–1.5 GW (current), 6–17 GW (2030), 13.56 GW (FY2031–32)",
+     "period": "FY2031–32 (as of March 2026, superseded to 26.3 GW)",
+     "period_end": "2032-03-31",
+     "publisher": "Ministry of Power (via PIB), Takshashila Institution, S&P Global, Mordor Intelligence",
+     "series": "Data-centre electricity demand projections",
+     "frequency": "multi-year",
+     "headline": true
+    },
+    {
+     "quote": "$0.28 per kilowatt-hour [diesel] against an Indian grid average of $0.085/kWh and round-the-clock renewable power-purchase agreements at $0.076–0.112/kWh.",
+     "value": "$0.28/kWh (diesel), $0.085/kWh (grid), $0.076–0.112/kWh (renewable PPA)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Takshashila Institution",
+     "series": "Cost of backup power (electricity cost comparison)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "A Tamil Nadu-focused study by Auroville Consulting found diesel generator sets have a levelised cost of generation of ₹49.58–57.63 per kWh, while a lithium-ion battery energy storage system (BESS) charged from solar at ₹3.95/kWh has a levelised cost of storage of just ₹39.71–61.72/kWh.",
+     "value": "₹49.58–57.63/kWh (diesel), ₹39.71–61.72/kWh (solar-charged BESS)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Auroville Consulting",
+     "series": "Levelised cost of energy (LCOE) for backup power (Tamil Nadu)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Telecom tower base needs to grow from roughly 750,000 towers already in place to around 1.2 million to support a full pan-India 5G rollout.",
+     "value": "750,000 (current), 1.2 million (target)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Digital Infrastructure Providers Association (DIPA)",
+     "series": "Telecom tower count projections for 5G rollout",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "India's telecom towers — 606,300 when TRAI and EY counted them...",
+     "value": "606,300 towers",
+     "period": null,
+     "period_end": null,
+     "publisher": "TRAI, EY",
+     "series": "Telecom tower count (infrastructure-sharing study)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The Department of Telecommunications counted 8.43 lakh mobile towers and 31.44 lakh base stations on 31 October 2025.",
+     "value": "8.43 lakh (mobile towers), 31.44 lakh (base stations)",
+     "period": "31 October 2025",
+     "period_end": "2025-10-31",
+     "publisher": "Department of Telecommunications",
+     "series": "Telecom infrastructure count (year-end review)",
+     "frequency": "annual",
+     "headline": false
+    },
+    {
+     "quote": "Indus Towers, the market leader with 249,305 towers and a 1.63 tenancy ratio, has already converted its 50,000th cell site to run diesel-free (back in March 2016)... installed solar power at roughly 30,000 sites.",
+     "value": "249,305 towers (Indus Towers), 50,000 diesel-free sites (as of March 2016), 30,000 solar sites",
+     "period": "March 2016 (diesel-free milestone)",
+     "period_end": "2016-03-31",
+     "publisher": "Indus Towers, TRAI/EY, ICRA",
+     "series": "Telecom tower diesel-free conversion progress",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Bharti Infratel separately built more than 31,000 towers that consume under a litre of diesel a day.",
+     "value": "31,000+ towers (diesel consumption <1 litre/day)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Bharti Infratel",
+     "series": "Telecom tower diesel consumption",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "A gas genset running on piped natural gas costs roughly ₹6.06 per kVA-hour to operate against a diesel genset's ₹12.6.",
+     "value": "₹6.06/kVA-hour (gas genset), ₹12.6/kVA-hour (diesel genset)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Centre for Science and Environment",
+     "series": "Genset operating cost comparison",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "PNGRB had authorised 307 geographical areas by 2026, reaching close to 100 per cent of India's landmass outside the islands and around 784 districts, with over 5,665 CNG stations already built out as of March 2023.",
+     "value": "307 geographical areas (authorised), 5,665+ CNG stations (as of March 2023)",
+     "period": "March 2023 (CNG stations), 2026 (geographical areas)",
+     "period_end": "2023-03-31",
+     "publisher": "PNGRB, Republic World",
+     "series": "City-gas network coverage and CNG stations",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "A straight comparison of two backup architectures — Diesel Rotary UPS (DRUPS) against Static UPS with a battery bank (SUPS) — found DRUPS has a 9-month payback against SUPS on a 1.5 MW system, purely from lower operating cost ($1.84 million versus $5.46 million OpEx).",
+     "value": "$1.84 million (DRUPS OpEx), $5.46 million (SUPS OpEx), 9-month payback",
+     "period": null,
+     "period_end": null,
+     "publisher": "Industry vendor technical documentation",
+     "series": "Backup power architecture cost comparison (1.5 MW reference system)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "more than $210 billion in combined commitments from Adani and Reliance alone, plus tens of billions more from Google, Microsoft, and AWS.",
+     "value": "$210+ billion (Adani + Reliance), tens of billions (Google + Microsoft + AWS)",
+     "period": null,
+     "period_end": null,
+     "publisher": null,
+     "series": null,
+     "frequency": null,
+     "headline": false
+    },
+    {
+     "quote": "passive infrastructure sharing saves 16–35 per cent on both capex and opex, rising to 33–45 per cent capex savings when active equipment and spectrum are shared too.",
+     "value": "16–35% (capex/opex savings), 33–45% (capex savings with active equipment/spectrum sharing)",
+     "period": null,
+     "period_end": null,
+     "publisher": "TRAI/EY",
+     "series": "Telecom infrastructure-sharing cost savings",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Indus's own language for the current phase is blunt: it is 'actively shifting away from DG usage at sites where grid connectivity is robust'...",
+     "value": "Actively shifting away from diesel generator (DG) usage at robust grid sites",
+     "period": null,
+     "period_end": null,
+     "publisher": "Indus Towers",
+     "series": "Telecom tower diesel phase-out strategy",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Indus Towers has committed to net-zero emissions by 2050.",
+     "value": "2050 (net-zero emissions target)",
+     "period": "2050",
+     "period_end": "2050-12-31",
+     "publisher": "Indus Towers",
+     "series": "Net-zero emissions commitment",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "a common 3000 water-litre cascade holding ~530 kg of CNG at 250 bar",
+     "value": "~530 kg of CNG (at 250 bar, 3000 water-litre cascade)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Indian CNG-equipment suppliers",
+     "series": "CNG cascade specifications",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "a gas genset of comparable size costs roughly 50 per cent more upfront than an equivalent diesel unit",
+     "value": "50% higher capex for gas gensets vs diesel gensets",
+     "period": null,
+     "period_end": null,
+     "publisher": "Centre for Science and Environment",
+     "series": "Genset capital cost comparison",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Suyog Telematics... is trialling zinc batteries... at multi-operator sites, alongside pilot wind turbines at select towers specifically to cut the electricity bill.",
+     "value": "5,704 towers (Suyog Telematics), zinc batteries/wind turbines pilots",
+     "period": null,
+     "period_end": null,
+     "publisher": "Suyog Telematics",
+     "series": "Telecom tower alternative energy pilots",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Diesel isn't an incidental choice — it's embedded in the physical design rulebook. Standard facility guidelines require on-site diesel reservoirs to hold at least 12 hours of full-load fuel (some real-world deployments store 48 hours).",
+     "value": "12–48 hours of full-load diesel fuel storage",
+     "period": null,
+     "period_end": null,
+     "publisher": "Data-centre design guidelines, Tamil Nadu Data Centre Policy 2021",
+     "series": "Data-centre diesel storage requirements",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "Tamil Nadu's Data Centre Policy 2021... explicitly permitting multi-level diesel generator stacking up to G+5 specifically to help operators economise on land.",
+     "value": "G+5 diesel generator stacking allowance",
+     "period": null,
+     "period_end": null,
+     "publisher": "Tamil Nadu Government",
+     "series": "Data-centre policy (Tamil Nadu)",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "generator rooms must sit 9–19 metres from public areas depending on redundancy tier",
+     "value": "9–19 metres (generator room distance from public areas)",
+     "period": null,
+     "period_end": null,
+     "publisher": "Data-centre design guidelines",
+     "series": "Data-centre generator room safety standards",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "installing the generators requires a Petroleum and Explosives Safety Organisation (PESO) explosive licence.",
+     "value": "PESO explosive licence required for diesel generator installation",
+     "period": null,
+     "period_end": null,
+     "publisher": "Petroleum and Explosives Safety Organisation (PESO)",
+     "series": "Diesel generator installation regulations",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The Ministry of Power's own transmission planning already treats grid reliability as the binding constraint on India's AI ambitions, not compute hardware.",
+     "value": "Grid reliability as binding constraint for AI/data-centre ambitions",
+     "period": null,
+     "period_end": null,
+     "publisher": "Ministry of Power",
+     "series": "Transmission planning constraints",
+     "frequency": "one-off",
+     "headline": false
+    },
+    {
+     "quote": "The 13.56 GW data-centre demand projection... has been superseded. In a written Rajya Sabha reply... the Ministry of Power said it now projects about 26.3 GW of AI data-centre load by FY2031-32.",
+     "value": "26.3 GW (AI data-centre load, FY2031–32)",
+     "period": "FY2031–32",
+     "period_end": "2032-03-31",
+     "publisher": "Ministry of Power (Rajya Sabha reply)",
+     "series": "Data-centre electricity demand projection (updated)",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "The one figure with an official government anchor is more concrete: the Ministry of Power formally built a projection of 13.56 GW of data-centre electricity demand by FY2031–32 into national transmission planning, published via the Press Information Bureau in March 2026.",
+     "value": "13.56 GW (data-centre electricity demand, FY2031–32)",
+     "period": "FY2031–32 (as of March 2026)",
+     "period_end": "2032-03-31",
+     "publisher": "Ministry of Power (via PIB)",
+     "series": "Data-centre electricity demand projection (transmission planning)",
+     "frequency": "multi-year",
+     "headline": false
+    },
+    {
+     "quote": "The 4–13 GW of new data-centre capacity coming this decade, and the roughly 450,000 additional telecom tower sites needed for 5G, are both decisions being made now about a backup-power architecture that will still be running in 2035 and beyond.",
+     "value": "4–13 GW (new data-centre capacity), ~450,000 (additional telecom towers for 5G)",
+     "period": null,
+     "period_end": null,
+     "publisher": null,
+     "series": null,
+     "frequency": null,
+     "headline": false
+    }
+   ]
+  }
+ }
+}

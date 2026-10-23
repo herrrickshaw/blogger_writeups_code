@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/what-india-is-actually-paying-for.html",
   "slug": "what-india-is-actually-paying-for",
   "published": "2026-08-14T08:10:54.000+05:30",
-  "updated": "2026-10-22T17:02:02.806+05:30",
+  "updated": "2026-10-23T10:10:34.780+05:30",
   "labels": [
     "Macroeconomics & Monetary Policy"
   ],
-  "bytes": 39355,
-  "sha256": "2430674788712ec8deff3739c69e6b7befb03b8838ebca32f6fecfe00d5b8e15",
+  "bytes": 39494,
+  "sha256": "0ade889c961efafcdc2ca0d465ece95b34ad46dda1b90f2d51fecea182f35144",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.1.1",
+  "version": "2.1.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -172,6 +172,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Sweep 4 MEDIUM items: dated update notes on 59 posts"
+    },
+    {
+      "version": "2.1.2",
+      "date": "2026-10-23T10:11:38+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (figures changed (+2/-0 distinct numbers))",
+      "bytes": [
+        39355,
+        39494
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Sweep-4 MEDIUM fixes and 2011-12 base corrections"
     }
   ]
 }

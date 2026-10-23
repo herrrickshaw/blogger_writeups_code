@@ -15346,3 +15346,26 @@ FDI posts updated with DPIIT fact sheet to June 2026
 - `where-indias-fdi-actually-lands-state` — 46,998 → 53,754 bytes (+6,756)
 - `foreign-capital-found-indias-hospitals` — 35,291 → 36,229 bytes (+938)
 - `securitising-deficit-what-it-would` — 134,857 → 135,549 bytes (+692)
+
+## 2026-10-23T10:11:38+05:30 — 401 posts live
+
+Sweep-4 MEDIUM fixes and 2011-12 base corrections
+
+
+**Versions**
+
+- `what-india-is-actually-paying-for` **2.1.1 → 2.1.2** (PATCH) — forced via --as patch (figures changed (+2/-0 distinct numbers))
+- `indias-wholesale-prices-next-to` **7.2.1 → 7.2.2** (PATCH) — forced via --as patch (figures changed (+6/-0 distinct numbers))
+- `diesel-doesnt-move-cpi-it-moves-40` **6.1.0 → 6.1.1** (PATCH) — forced via --as patch (figures changed (+3/-0 distinct numbers))
+- `securitising-deficit-what-it-would` **5.0.2 → 5.0.3** (PATCH) — forced via --as patch (figures changed (+0/-2 distinct numbers))
+- `effective-buying-power-china-comparison` **2.1.1 → 2.1.2** (PATCH) — forced via --as patch (figures changed (+4/-2 distinct numbers))
+- `real-gdp-growth-india-fy2012-13-to` **3.2.0 → 3.2.1** (PATCH) — forced via --as patch (figures changed (+5/-0 distinct numbers))
+
+**Changed**
+
+- `what-india-is-actually-paying-for` — 39,355 → 39,494 bytes (+139)
+- `indias-wholesale-prices-next-to` — 44,879 → 44,993 bytes (+114)
+- `diesel-doesnt-move-cpi-it-moves-40` — 40,965 → 41,642 bytes (+677)
+- `securitising-deficit-what-it-would` — 135,549 → 134,857 bytes (-692)
+- `effective-buying-power-china-comparison` — 41,533 → 41,588 bytes (+55)
+- `real-gdp-growth-india-fy2012-13-to` — 42,203 → 43,055 bytes (+852)
