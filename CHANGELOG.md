@@ -15404,3 +15404,16 @@ Russia FDI note: DPIIT fact sheet to June 2026
 **Changed**
 
 - `securitising-deficit-what-it-would` — 134,857 → 135,549 bytes (+692)
+
+## 2026-10-23T19:09:06+05:30 — 402 posts live
+
+Index: LNG terminals post
+
+
+**Versions**
+
+- `article-index-start-here` **60.16.0 → 60.17.0** (MINOR) — forced via --as minor (figures changed (+2/-1 distinct numbers))
+
+**Changed**
+
+- `article-index-start-here` — 771,813 → 774,698 bytes (+2,885)
