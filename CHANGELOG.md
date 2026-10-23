@@ -15295,3 +15295,13 @@ Sweep 4 MEDIUM items: dated update notes on 59 posts
 - `how-to-use-claude-provenance-auditable` **v1.0.0** — How to use claude-provenance: an auditable log of every Claude message on your machine (24,656 bytes)
 - `how-to-use-chemicalimportsubstitution` **v1.0.0** — How to use chemical_import_substitution: HS-8 import-substitution signals for India's chemical chapters (25,469 bytes)
 - `how-to-use-blog-consistency-check-is` **v1.0.0** — How to use blog-consistency-check: a "is this blog post broken?" audit for HTML posts (23,153 bytes)
+
+## 2026-10-23T06:29:24+05:30 — 401 posts live
+
+**Versions**
+
+- `article-index-start-here` **60.15.0 → 60.16.0** (MINOR) — forced via --as minor (figures changed (+2/-2 distinct numbers))
+
+**Changed**
+
+- `article-index-start-here` — 757,096 → 771,813 bytes (+14,717)

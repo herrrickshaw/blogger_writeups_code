@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-10-23T06:27:55+05:30",
+  "snapshot": "2026-10-23T06:29:24+05:30",
   "count": 401,
   "posts": {
     "1023631151138981087": {
@@ -41116,10 +41116,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html",
       "slug": "article-index-start-here",
       "published": "2026-08-02T10:43:26.000+05:30",
-      "updated": "2026-10-22T12:21:27.844+05:30",
+      "updated": "2026-10-23T06:28:44.845+05:30",
       "labels": [],
-      "bytes": 757096,
-      "sha256": "7a3e0f8dc5e57fee892a6a099e2ee8fb15e7306c24503f199940caa26a1ec248",
+      "bytes": 771813,
+      "sha256": "2518d972053f60e536c6c99d8832cdbf66649537ad5b9717e96881442b7a4d06",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -41131,7 +41131,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "60.15.0",
+      "version": "60.16.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -43179,6 +43179,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Index: cheese and whey post"
+        },
+        {
+          "version": "60.16.0",
+          "date": "2026-10-23T06:29:24+05:30",
+          "level": "minor",
+          "reason": "forced via --as minor (figures changed (+2/-2 distinct numbers))",
+          "bytes": [
+            757096,
+            771813
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
         }
       ]
     },
