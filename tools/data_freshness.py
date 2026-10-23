@@ -266,15 +266,29 @@ def summary(today, out_md, out_csv):
                 n, why = releases_behind(p, today)
                 seen[k] = {"slug": r["slug"], "models": {name}, "behind": n, "why": why, **p}
         rows += list(seen.values())
-    # A post that already carries a newer figure for the same series (usually in an
-    # "Updated" note above the original text) has been refreshed: drop its older ones.
-    sk = lambda x: (x["slug"], re.sub(r"\W+", " ", f'{x.get("publisher")} {x.get("series")}'.lower()).strip())
-    newest = {}
+    # Score each post on its FRONTIER, not on every figure. A post's 2000-01 or
+    # 2016-17 value is history in a time series, not a stale figure; what matters
+    # is the newest period it has for each publisher and release frequency. If
+    # that newest period is current, the post is current for that source (this
+    # also covers posts whose "Updated" note already carries the newer figure).
+    # Tested 2026-10-23 on the FDI sector post: per-figure scoring flagged 24
+    # historical values; the frontier (June 2026, quarterly) is current.
+    pub = lambda x: re.sub(r"\W+", " ", re.sub(r"\(.*?\)", "", str(x.get("publisher") or "?"))).strip().lower()
+    groups = {}
     for x in rows:
-        if x["behind"] == 0:
-            newest[sk(x)] = max(newest.get(sk(x), ""), str(x.get("period_end")))
-    refreshed = [x for x in rows if x["behind"] and newest.get(sk(x), "") > str(x.get("period_end"))]
-    stale = [x for x in rows if x["behind"] and x not in refreshed]
+        if x["behind"] is None:
+            continue
+        groups.setdefault((x["slug"], pub(x), x.get("frequency")), []).append(x)
+    stale = []
+    for (slug, _, _), xs in groups.items():
+        front = max(str(x.get("period_end")) for x in xs)
+        top = [x for x in xs if str(x.get("period_end")) == front]
+        if not top[0]["behind"]:
+            continue
+        lead = max(top, key=lambda x: (bool(x.get("headline")), len(x["models"])))
+        stale.append({**lead, "models": set().union(*(x["models"] for x in top)),
+                      "headline": any(x.get("headline") for x in top), "n_points": len(xs)})
+    refreshed = sum(1 for x in rows if x["behind"]) - sum(x["n_points"] for x in stale)
     stale.sort(key=lambda x: (-bool(x.get("headline")), -x["behind"], -len(x["models"]), x["slug"]))
     with open(out_csv, "w", newline="", encoding="utf-8") as fh:
         w = csv.writer(fh)
@@ -300,7 +314,8 @@ def summary(today, out_md, out_csv):
           "> anything (house rule: PIB / MoSPI / RBI / DGCI&S / PPAC / ministry originals).", "",
           f"{len(rows)} data points from {len({x['slug'] for x in rows})} posts; "
           f"{len(stale)} probably superseded ({sum(1 for x in stale if x.get('headline'))} headline) "
-          f"across {len(by_post)} posts ({len(refreshed)} more already have a newer figure for the same series in the post). {len(pending)} posts have no clean model answer yet; "
+          f"across {len(by_post)} posts, counted once per publisher and release frequency at the post's newest "
+          f"period ({refreshed} older figures not listed because the post already has a newer one from that source). {len(pending)} posts have no clean model answer yet; "
           f"{len(skipped)} skipped as too large. Full list: `{pathlib.Path(out_csv).relative_to(ROOT)}`.", "",
           "## Series behind in the most posts", "",
           "| Publisher / series | Posts |", "|---|---|"]
@@ -312,7 +327,7 @@ def summary(today, out_md, out_csv):
         for x in sorted(xs, key=lambda x: (-bool(x.get("headline")), -x["behind"])):
             md.append(f'- {"**H** " if x.get("headline") else ""}{x.get("value")} — {x.get("period")} '
                       f'({x.get("publisher")}: {x.get("series")}; {x.get("frequency")}) — '
-                      f'~{x["behind"]} newer release(s) [{"+".join(sorted(x["models"]))}]')
+                      f'~{x["behind"]} newer release(s), {x["n_points"]} figure(s) from this source [{"+".join(sorted(x["models"]))}]')
         md.append("")
     if pending:
         md += ["## No clean model answer yet", "", ", ".join(pending), ""]
