@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-10-23T18:43:40+05:30",
+  "snapshot": "2026-10-23T18:45:18+05:30",
   "count": 402,
   "posts": {
     "1023631151138981087": {
@@ -8070,12 +8070,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/securitising-deficit-what-it-would.html",
       "slug": "securitising-deficit-what-it-would",
       "published": "2026-08-04T07:45:51.000+05:30",
-      "updated": "2026-10-23T10:08:04.810+05:30",
+      "updated": "2026-10-23T18:44:45.597+05:30",
       "labels": [
         "Markets & Finance"
       ],
-      "bytes": 134857,
-      "sha256": "9051092aab996c45d53bb85db0b454ad375f0a4f70b3dc90bba7392d6b23f225",
+      "bytes": 135549,
+      "sha256": "21f67388e703809a086f90d0ade0d96439f85c65454d6d52b31d129c61851877",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -8087,7 +8087,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "5.0.3",
+      "version": "5.0.4",
       "version_history": [
         {
           "version": "1.0.0",
@@ -8438,6 +8438,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Sweep-4 MEDIUM fixes and 2011-12 base corrections"
+        },
+        {
+          "version": "5.0.4",
+          "date": "2026-10-23T18:45:18+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (figures changed (+2/-0 distinct numbers))",
+          "bytes": [
+            134857,
+            135549
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Russia FDI note: DPIIT fact sheet to June 2026"
         }
       ]
     },

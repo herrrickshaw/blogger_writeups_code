@@ -15391,3 +15391,16 @@ LNG terminals post: PPAC Ready Reckoner May 2026 terminal data, imports to Sep 2
 **Changed**
 
 - `indias-cheapest-lng-capacity-is-extra` — 46,349 → 51,641 bytes (+5,292)
+
+## 2026-10-23T18:45:18+05:30 — 402 posts live
+
+Russia FDI note: DPIIT fact sheet to June 2026
+
+
+**Versions**
+
+- `securitising-deficit-what-it-would` **5.0.3 → 5.0.4** (PATCH) — forced via --as patch (figures changed (+2/-0 distinct numbers))
+
+**Changed**
+
+- `securitising-deficit-what-it-would` — 134,857 → 135,549 bytes (+692)
