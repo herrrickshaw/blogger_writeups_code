@@ -15581,3 +15581,13 @@ Green steel post: global HRC price benchmarks
 **Added**
 
 - `maize-is-cheapest-in-different-state` **v1.0.0** — Maize Is Cheapest in a Different State Every Few Months. Rice Barely Moves. (63,644 bytes)
+
+## 2026-10-24T11:05:17+05:30 — 407 posts live
+
+**Versions**
+
+- `article-index-start-here` **61.0.0 → 62.0.0** (MAJOR) — figures changed (+4/-4 distinct numbers)
+
+**Changed**
+
+- `article-index-start-here` — 785,996 → 789,372 bytes (+3,376)

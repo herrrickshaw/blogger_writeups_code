@@ -870,7 +870,7 @@
      "Diesel",
      "Ethanol"
     ],
-    "w": 0.076
+    "w": 0.075
    }
   ]
  },
@@ -1322,7 +1322,7 @@
      "Ethanol",
      "Petrol"
     ],
-    "w": 0.28
+    "w": 0.279
    },
    {
     "slug": "indias-new-car-rules-count-every-ev-as",
@@ -1330,7 +1330,7 @@
      "Ethanol",
      "Petrol"
     ],
-    "w": 0.28
+    "w": 0.279
    },
    {
     "slug": "indias-ethanol-surplus-buys-about-five",
@@ -1338,7 +1338,7 @@
      "Ethanol",
      "Petrol"
     ],
-    "w": 0.28
+    "w": 0.279
    },
    {
     "slug": "article-index-start-here",
@@ -1346,7 +1346,7 @@
      "Ethanol",
      "Petrol"
     ],
-    "w": 0.28
+    "w": 0.279
    }
   ]
  },
@@ -2414,7 +2414,7 @@
      "GST",
      "Petrol"
     ],
-    "w": 0.095
+    "w": 0.094
    },
    {
     "slug": "the-barrel-really-is-shifting-indias",
@@ -2424,7 +2424,7 @@
      "GST",
      "Petrol"
     ],
-    "w": 0.095
+    "w": 0.094
    },
    {
     "slug": "fuel-pricing-to-crude-cost",
@@ -2434,7 +2434,7 @@
      "GST",
      "Petrol"
     ],
-    "w": 0.095
+    "w": 0.094
    },
    {
     "slug": "india-mineral-oil-hsn-ch27-trade",
@@ -2646,7 +2646,8 @@
   "url": "https://masaladeutsch.blogspot.com/2026/10/europe-wants-green-steel-it-cant-afford.html",
   "published": "2026-10-24",
   "countries": [
-   "European Union"
+   "European Union",
+   "China"
   ],
   "states": [
    "Goa"
@@ -2663,7 +2664,7 @@
      "CBAM",
      "Steel"
     ],
-    "w": 0.492
+    "w": 0.742
    },
    {
     "slug": "greenhouse-emissions-reduction-and-cbam",
@@ -3441,7 +3442,7 @@
      "GST",
      "Petrol"
     ],
-    "w": 0.07
+    "w": 0.069
    },
    {
     "slug": "the-case-for-biofuels-over-imports",
@@ -3450,7 +3451,7 @@
      "GST",
      "Petrol"
     ],
-    "w": 0.07
+    "w": 0.069
    }
   ]
  },
@@ -5317,7 +5318,7 @@
      "Petrol",
      "Sugar"
     ],
-    "w": 0.147
+    "w": 0.146
    },
    {
     "slug": "indias-ethanol-surplus-buys-about-five",
@@ -5327,7 +5328,7 @@
      "Petrol",
      "Sugar"
     ],
-    "w": 0.147
+    "w": 0.146
    },
    {
     "slug": "indias-2026-27-ethanol-tender-drops",
@@ -6612,12 +6613,12 @@
     "w": 0.375
    },
    {
-    "slug": "chemical-import-substitution-full-hsn-8_01082878313",
+    "slug": "europe-wants-green-steel-it-cant-afford",
     "shared": [
-     "Ethanol",
-     "Urea"
+     "Coal",
+     "Steel"
     ],
-    "w": 0.313
+    "w": 0.363
    }
   ]
  },
@@ -8875,6 +8876,55 @@
    }
   ]
  },
+ "maize-is-cheapest-in-different-state": {
+  "title": "Maize Is Cheapest in a Different State Every Few Months. Rice Barely Moves.",
+  "url": "https://masaladeutsch.blogspot.com/2026/10/maize-is-cheapest-in-different-state.html",
+  "published": "2026-10-24",
+  "countries": [],
+  "states": [
+   "Uttar Pradesh",
+   "Tamil Nadu",
+   "Punjab",
+   "Maharashtra",
+   "Madhya Pradesh",
+   "Karnataka",
+   "Rajasthan",
+   "Telangana"
+  ],
+  "entities": [
+   "Ethanol"
+  ],
+  "related": [
+   {
+    "slug": "would-more-sgst-fix-donor-state-problem",
+    "shared": [
+     "Ethanol"
+    ],
+    "w": 0.015
+   },
+   {
+    "slug": "under-corsias-own-numbers-corn-ethanol",
+    "shared": [
+     "Ethanol"
+    ],
+    "w": 0.015
+   },
+   {
+    "slug": "the-software-behind-still-whats",
+    "shared": [
+     "Ethanol"
+    ],
+    "w": 0.015
+   },
+   {
+    "slug": "the-reactor-nobody-names-how-coal",
+    "shared": [
+     "Ethanol"
+    ],
+    "w": 0.015
+   }
+  ]
+ },
  "making-plastic-releases-heat-unmaking": {
   "title": "Making Plastic Releases Heat. Unmaking It Takes Heat, Entropy and a Catalyst India's Refineries Already Throw Away.",
   "url": "https://masaladeutsch.blogspot.com/2026/10/making-plastic-releases-heat-unmaking.html",
@@ -9454,7 +9504,7 @@
      "Petrol",
      "Sugar"
     ],
-    "w": 0.187
+    "w": 0.186
    },
    {
     "slug": "india-hit-e20-on-maize-and-rice-not",
@@ -9464,7 +9514,7 @@
      "Petrol",
      "Sugar"
     ],
-    "w": 0.147
+    "w": 0.146
    },
    {
     "slug": "annadata-to-urjadata-farmer-income-case",
@@ -9568,7 +9618,7 @@
      "Petrol",
      "Rupee"
     ],
-    "w": 0.122
+    "w": 0.121
    },
    {
     "slug": "india-sells-world-53-billion-of-fuel",
@@ -10426,7 +10476,7 @@
      "Ethanol",
      "Petrol"
     ],
-    "w": 0.305
+    "w": 0.304
    }
   ]
  },
@@ -10940,7 +10990,7 @@
      "Petrol",
      "Rupee"
     ],
-    "w": 0.122
+    "w": 0.121
    }
   ]
  },
@@ -11256,7 +11306,7 @@
      "Ethanol",
      "Green hydrogen"
     ],
-    "w": 0.182
+    "w": 0.181
    }
   ]
  },
@@ -11996,7 +12046,7 @@
      "Ethanol",
      "Petrol"
     ],
-    "w": 0.055
+    "w": 0.054
    },
    {
     "slug": "the-barrel-really-is-shifting-indias",
@@ -12005,7 +12055,7 @@
      "Ethanol",
      "Petrol"
     ],
-    "w": 0.055
+    "w": 0.054
    },
    {
     "slug": "re-spinning-charkha",
@@ -12014,7 +12064,7 @@
      "Ethanol",
      "Petrol"
     ],
-    "w": 0.055
+    "w": 0.054
    },
    {
     "slug": "petrol-pump-margins-and-e20-one-dealer",
@@ -12023,7 +12073,7 @@
      "Ethanol",
      "Petrol"
     ],
-    "w": 0.055
+    "w": 0.054
    }
   ]
  },
@@ -12264,7 +12314,7 @@
      "Ethanol",
      "Green hydrogen"
     ],
-    "w": 0.182
+    "w": 0.181
    },
    {
     "slug": "where-indias-green-hydrogen-bets-are",
@@ -12783,20 +12833,19 @@
     "w": 0.369
    },
    {
+    "slug": "europe-wants-green-steel-it-cant-afford",
+    "shared": [
+     "Coal"
+    ],
+    "w": 0.321
+   },
+   {
     "slug": "indias-new-car-rules-count-every-ev-as",
     "shared": [
      "Electric vehicles",
      "Ethanol"
     ],
-    "w": 0.313
-   },
-   {
-    "slug": "chemical-import-substitution-full-hsn-8_01082878313",
-    "shared": [
-     "Ethanol",
-     "Urea"
-    ],
-    "w": 0.313
+    "w": 0.312
    }
   ]
  },
@@ -13128,6 +13177,14 @@
   ],
   "related": [
    {
+    "slug": "europe-wants-green-steel-it-cant-afford",
+    "shared": [
+     "CBAM",
+     "Steel"
+    ],
+    "w": 0.742
+   },
+   {
     "slug": "greenhouse-emissions-reduction-and-cbam",
     "shared": [
      "CBAM",
@@ -13146,13 +13203,6 @@
    },
    {
     "slug": "kpler-and-vortexa-track-every-barrel",
-    "shared": [
-     "Crude oil"
-    ],
-    "w": 0.525
-   },
-   {
-    "slug": "article-index-start-here",
     "shared": [
      "Crude oil"
     ],
@@ -14381,7 +14431,7 @@
      "GST",
      "Petrol"
     ],
-    "w": 0.07
+    "w": 0.069
    },
    {
     "slug": "the-barrel-really-is-shifting-indias",
@@ -14390,7 +14440,7 @@
      "GST",
      "Petrol"
     ],
-    "w": 0.07
+    "w": 0.069
    },
    {
     "slug": "state-by-state-who-actually-earns-from",
@@ -14399,7 +14449,7 @@
      "GST",
      "Petrol"
     ],
-    "w": 0.07
+    "w": 0.069
    },
    {
     "slug": "push-ethanol-sgst-rate-from-25-to-5-and",
@@ -14408,7 +14458,7 @@
      "GST",
      "Petrol"
     ],
-    "w": 0.07
+    "w": 0.069
    }
   ]
  },
