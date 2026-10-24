@@ -15532,3 +15532,13 @@ New post: green steel, EU gas dependence and the case for a softer CBAM rollout
 **Re-dated** (publication date changed; body and URL unchanged)
 
 - `europe-wants-green-steel-it-cant-afford` — 2026-10-24 &rarr; 2026-10-24
+
+## 2026-10-24T08:36:09+05:30 — 406 posts live
+
+**Versions**
+
+- `article-index-start-here` **60.20.0 → 61.0.0** (MAJOR) — figures changed (+2/-3 distinct numbers)
+
+**Changed**
+
+- `article-index-start-here` — 781,811 → 785,996 bytes (+4,185)
