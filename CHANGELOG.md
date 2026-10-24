@@ -15487,3 +15487,16 @@ Gas pipeline map post: PNGRB NGPL and CGD MIS reports for August 2026
 **Re-dated** (publication date changed; body and URL unchanged)
 
 - `to-comply-or-not-to-comply-cbam-costs` — 2026-10-24 &rarr; 2026-10-24
+
+## 2026-10-24T08:07:59+05:30 — 404 posts live
+
+CBAM post: product scope from TradeStat HS8, EU gas prices and import protection
+
+
+**Versions**
+
+- `to-comply-or-not-to-comply-cbam-costs` **1.0.0 → 1.1.0** (MINOR) — forced via --as minor (figures changed (+152/-0 distinct numbers))
+
+**Changed**
+
+- `to-comply-or-not-to-comply-cbam-costs` — 45,620 → 69,780 bytes (+24,160)

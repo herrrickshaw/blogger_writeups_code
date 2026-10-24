@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/10/to-comply-or-not-to-comply-cbam-costs.html",
   "slug": "to-comply-or-not-to-comply-cbam-costs",
   "published": "2026-10-24T07:51:30.000+05:30",
-  "updated": "2026-10-24T07:52:02.296+05:30",
+  "updated": "2026-10-24T08:07:35.635+05:30",
   "labels": [
     "Climate & Carbon",
     "Industrial Policy",
     "Trade & Tariffs"
   ],
-  "bytes": 45620,
-  "sha256": "1e1d1b8dedbb3d85af563bd6f9f1532c7ba1339b9dbcc2d41463d79ebed84fb5",
+  "bytes": 69780,
+  "sha256": "51d505a7762cf4c1bf162d3b1fe9b7bcaa0c50afa6e741efc704b74647eb16c7",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -31,6 +31,19 @@
       "level": "initial",
       "reason": "first snapshot",
       "note": "New post: CBAM, to comply or not to comply"
+    },
+    {
+      "version": "1.1.0",
+      "date": "2026-10-24T08:07:59+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+152/-0 distinct numbers))",
+      "bytes": [
+        45620,
+        69780
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "CBAM post: product scope from TradeStat HS8, EU gas prices and import protection"
     }
   ]
 }

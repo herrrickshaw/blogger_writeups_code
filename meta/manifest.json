@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-10-24T07:52:58+05:30",
+  "snapshot": "2026-10-24T08:07:59+05:30",
   "count": 404,
   "posts": {
     "1023631151138981087": {
@@ -22364,14 +22364,14 @@
       "url": "https://masaladeutsch.blogspot.com/2026/10/to-comply-or-not-to-comply-cbam-costs.html",
       "slug": "to-comply-or-not-to-comply-cbam-costs",
       "published": "2026-10-24T07:51:30.000+05:30",
-      "updated": "2026-10-24T07:52:02.296+05:30",
+      "updated": "2026-10-24T08:07:35.635+05:30",
       "labels": [
         "Climate & Carbon",
         "Industrial Policy",
         "Trade & Tariffs"
       ],
-      "bytes": 45620,
-      "sha256": "1e1d1b8dedbb3d85af563bd6f9f1532c7ba1339b9dbcc2d41463d79ebed84fb5",
+      "bytes": 69780,
+      "sha256": "51d505a7762cf4c1bf162d3b1fe9b7bcaa0c50afa6e741efc704b74647eb16c7",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -22383,7 +22383,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "1.1.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -22391,6 +22391,19 @@
           "level": "initial",
           "reason": "first snapshot",
           "note": "New post: CBAM, to comply or not to comply"
+        },
+        {
+          "version": "1.1.0",
+          "date": "2026-10-24T08:07:59+05:30",
+          "level": "minor",
+          "reason": "forced via --as minor (figures changed (+152/-0 distinct numbers))",
+          "bytes": [
+            45620,
+            69780
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "CBAM post: product scope from TradeStat HS8, EU gas prices and import protection"
         }
       ]
     },
@@ -41422,7 +41435,7 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html",
       "slug": "article-index-start-here",
       "published": "2026-08-02T10:43:26.000+05:30",
-      "updated": "2026-10-23T19:25:01.171+05:30",
+      "updated": "2026-10-24T07:53:57.192+05:30",
       "labels": [],
       "bytes": 778564,
       "sha256": "42aa7937c5a012a4d3d42cd2f50fee4d56da7685849fac082f8a4fc5776eb509",
