@@ -15601,3 +15601,13 @@ Green steel post: global HRC price benchmarks
 **Changed**
 
 - `maize-is-cheapest-in-different-state` — 63,644 → 135,501 bytes (+71,857)
+
+## 2026-10-24T11:12:06+05:30 — 407 posts live
+
+**Versions**
+
+- `maize-is-cheapest-in-different-state` **2.0.0 → 3.0.0** (MAJOR) — figures changed (+18/-0 distinct numbers)
+
+**Changed**
+
+- `maize-is-cheapest-in-different-state` — 135,501 → 251,856 bytes (+116,355)
