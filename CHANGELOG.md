@@ -15617,3 +15617,13 @@ Green steel post: global HRC price benchmarks
 **Added**
 
 - `indias-biggest-mandi-crops-have` **v1.0.0** — India’s Biggest Mandi Crops Have the Steadiest Prices. Its Vegetables Swing Two to Eight Times as Much. (71,059 bytes)
+
+## 2026-10-24T11:38:03+05:30 — 408 posts live
+
+**Versions**
+
+- `article-index-start-here` **62.0.0 → 63.0.0** (MAJOR) — figures changed (+2/-2 distinct numbers)
+
+**Changed**
+
+- `article-index-start-here` — 789,372 → 792,596 bytes (+3,224)
