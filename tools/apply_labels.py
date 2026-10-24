@@ -761,6 +761,7 @@ SLUG_CONTAINS = {
     "cheapest-lng-capacity": ["Gas & LNG", "Energy & Fuels", "Industrial Policy"],
     "km-of-gas-pipeline": ["Gas & LNG", "Energy & Fuels", "Industrial Policy"],
     "to-comply-or-not-to-comply": ["Climate & Carbon", "Trade & Tariffs", "Industrial Policy"],
+    "europe-wants-green-steel": ["Climate & Carbon", "Trade & Tariffs", "Industrial Policy"],
 }
 
 
