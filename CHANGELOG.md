@@ -15542,3 +15542,13 @@ New post: green steel, EU gas dependence and the case for a softer CBAM rollout
 **Changed**
 
 - `article-index-start-here` — 781,811 → 785,996 bytes (+4,185)
+
+## 2026-10-24T08:38:38+05:30 — 406 posts live
+
+**Versions**
+
+- `ethanol-plants-that-trade-maize-to` **1.0.0 → 2.0.0** (MAJOR) — figures changed (+6/-0 distinct numbers)
+
+**Changed**
+
+- `ethanol-plants-that-trade-maize-to` — 29,103 → 32,645 bytes (+3,542)
