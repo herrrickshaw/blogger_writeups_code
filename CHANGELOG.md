@@ -15478,3 +15478,12 @@ New post: CBAM, to comply or not to comply
 **Added**
 
 - `to-comply-or-not-to-comply-cbam-costs` **v1.0.0** — To Comply or Not to Comply: CBAM Costs Indian Steel €93 a Tonne With Verified Data and €270 Without. Indian Carbon Credits Won’t Close the Gap (45,620 bytes)
+
+## 2026-10-24T07:52:58+05:30 — 404 posts live
+
+Gas pipeline map post: PNGRB NGPL and CGD MIS reports for August 2026
+
+
+**Re-dated** (publication date changed; body and URL unchanged)
+
+- `to-comply-or-not-to-comply-cbam-costs` — 2026-10-24 &rarr; 2026-10-24
