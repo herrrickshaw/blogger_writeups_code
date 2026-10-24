@@ -1,8 +1,8 @@
 # Masala Deutsch — All Posts, Summarised
 
-*399 published posts, 81 topic labels. Each entry is the post's own published standfirst — not a re-summary.*
+*404 published posts, 81 topic labels. Each entry is the post's own published standfirst — not a re-summary.*
 
-*Generated 23 October 2026 — regenerated daily by tools/update_summary_cron.sh.*
+*Generated 24 October 2026 — regenerated daily by tools/update_summary_cron.sh.*
 
 
 ## Units & Figures Used in This Blog
@@ -219,8 +219,10 @@
 ## By Topic
 
 
-### Agriculture & Fertilisers (68)
+### Agriculture & Fertilisers (69)
 
+- **[Ethanol Plants That Trade Maize to Poultry Mills Can Earn Four Times More, but Only in a Glut Year](https://masaladeutsch.blogspot.com/2026/10/ethanol-plants-that-trade-maize-to.html)** — 2026-10-24
+  India’s new ethanol tender puts maize last in line for oil-company orders. A maize distillery that also buys grain in price dips and sells its spare maize to poultry and feed mills earned about four times the EBITDA of a pure ethanol plant on 2025-26 prices. On 2024-25 prices, and in Uttar Pradesh’s weak 2025 window, it earned less. The model works only with strict buying rules.
 - **[India's 2026-27 Ethanol Tender Drops Cane Juice, Cuts Maize by Rs 3 a Litre and Flips From Sugar-First to Cheapest-First](https://masaladeutsch.blogspot.com/2026/10/indias-2026-27-ethanol-tender-drops.html)** — 2026-10-20
   The oil companies want 1,100 crore litres for November 2026 to October 2027. Unlike last year, they will buy no ethanol from cane juice or B-heavy molasses, pay Rs 68.86 instead of Rs 71.86 for maize, cap FCI rice at 108 crore litres a quarter instead of requiring 40% of grain offers from it, and allocate the cheapest feedstock first where last year put sugar first. Every award is subject to Supreme Court cases on allocation.
 - **[Methionine, Not Lysine, Is India's Biggest Amino-Acid Gap. It Is Made From Petrochemicals, Not Sugar, and Glycine Is Now an Anti-Dumping Case](https://masaladeutsch.blogspot.com/2026/10/methionine-not-lysine-is-indias-biggest.html)** — 2026-10-12
@@ -541,8 +543,12 @@
 - **[India Fuel Retail Outlets — 82k Geocoded Map (Part 2 of 3)](https://masaladeutsch.blogspot.com/2026/07/india-fuel-retail-outlets-82k-geocoded.html)** — 2026-07-22
   Part 2 of 3 in the CNG/CGD retail-mapping series. Companion posts: the CGD GA district map (Part 1) and the cold-chain × outlet integrated map (Part 3). Served live from GitHub Pages.
 
-### Climate & Carbon (22)
+### Climate & Carbon (24)
 
+- **[Europe Wants Green Steel It Can’t Afford to Make. Why CBAM Should Be Rolled Out More Gently](https://masaladeutsch.blogspot.com/2026/10/europe-wants-green-steel-it-cant-afford.html)** — 2026-10-24
+  At European gas and hydrogen prices, clean steel costs up to twice ordinary steel to make, and buyers pay a premium of only €100–150 a tonne. CBAM and the new quotas protect Europe’s mills by shutting out imports that were about €136 a tonne cheaper, while doing nothing about energy costs. A slower, simpler rollout would serve Europe’s own goals better.
+- **[To Comply or Not to Comply: CBAM Costs Indian Steel €93 a Tonne With Verified Data and €270 Without. Indian Carbon Credits Won’t Close the Gap](https://masaladeutsch.blogspot.com/2026/10/to-comply-or-not-to-comply-cbam-costs.html)** — 2026-10-24
+  India sent the EU USD 6.3 billion of CBAM-covered goods in 2024, most of it steel. Under the rules in force, verified emissions data cuts the 2026 charge on Indian hot-rolled coil from about €270 a tonne to €93. India’s own carbon credits, expected at €6–13 a tonne and not yet traded, are not recognised by the EU and would deduct little if they were.
 - **[How to use biomass-to-syngas-opensource: size a biomass gasifier](https://masaladeutsch.blogspot.com/2026/10/how-to-use-biomass-to-syngas-opensource.html)** — 2026-10-19
   Estimate what a biomass gasifier produces from straw, how much tar it makes and whether the syngas is good enough for power or for chemicals.
 - **[Thermocol Dissolves in Orange-Peel Oil, as Researchers Showed in 1998. The Published Record Stops Where the Recycling Begins](https://masaladeutsch.blogspot.com/2026/10/thermocol-dissolves-in-orange-peel-oil.html)** — 2026-10-10
@@ -685,7 +691,7 @@
 - **[India's Mobile-Phone PLI Beat Every Target. Its Chip-Fab Scheme Has 5 of 12 Plants Actually Producing.](https://masaladeutsch.blogspot.com/2026/08/indias-mobile-phone-pli-beat-every.html)** — 2026-08-30
   India's mobile-phone PLI scheme beat its own five-year investment target by 294% and its production target by 142% — a genuine, government-reported overperformance. Its chip-fabrication cousin, the Semicon India Programme, has 12 approved plants and, as of SEMICON India 2026 in September, 5 producing anything (up from 3 when this piece was first published). The gap between the two tells you which parts of India's electronics-manufacturing push are working and which are still mostly paper.
 
-### Energy & Fuels (119)
+### Energy & Fuels (121)
 
 - **[How to use cng-cgd-retail-outlet-mapping: find which gas distributor is authorised to supply CNG to each petrol pump](https://masaladeutsch.blogspot.com/2026/10/how-to-use-cng-cgd-retail-outlet.html)** — 2026-10-23
   A table linking 82,593 petrol pumps to the City Gas Distribution (CGD) area and company authorised in their district, with an offline interactive map. Tests pass and the headline numbers reproduce.
@@ -693,6 +699,10 @@
   Size a coal-gasification-to-urea complex in which six units share one mass basis, and compare the result with the real Talcher plant.
 - **[How to use cbg-design-opensource: size a compressed biogas plant](https://masaladeutsch.blogspot.com/2026/10/how-to-use-cbg-design-opensource-size.html)** — 2026-10-23
   Size a compressed biogas plant for India's SATAT scheme, from feedstock through digestion, upgrading and 250 bar compression, and check it against a published plant.
+- **[India's Cheapest LNG Capacity Is an Extra Tank at Dahej. Its Newer Terminals Run a Quarter Full](https://masaladeutsch.blogspot.com/2026/10/indias-cheapest-lng-capacity-is-extra.html)** — 2026-10-23
+  Expanding Dahej cost about ₹370 crore per million tonnes a year of capacity; India’s new onshore terminals cost ₹950–1,290 crore, ran 22–35 months late and, in April–May 2026, worked at 24–37% of capacity while Dahej ran at 92%. PNGRB’s own data point to the pipeline out, not the tank, as the constraint.
+- **[India Has 28,000 km of Gas Pipeline Working and 7,000 km Still to Build. A Map of Where, and of the Lines Still on Paper](https://masaladeutsch.blogspot.com/2026/10/india-has-27400-km-of-gas-pipeline.html)** — 2026-10-23
+  PNGRB’s own August 2026 pipeline report puts India’s gas grid at 28,157 km operating and 7,033 km of common-carrier line still to build. The North-East grid is the one big active build; four authorised lines have laid no pipe at all; and the pipelines PNGRB bid out ran at 5% of capacity. Gazette land notices show where the next pipe is going.
 - **[India's 2026-27 Ethanol Tender Drops Cane Juice, Cuts Maize by Rs 3 a Litre and Flips From Sugar-First to Cheapest-First](https://masaladeutsch.blogspot.com/2026/10/indias-2026-27-ethanol-tender-drops.html)** — 2026-10-20
   The oil companies want 1,100 crore litres for November 2026 to October 2027. Unlike last year, they will buy no ethanol from cane juice or B-heavy molasses, pay Rs 68.86 instead of Rs 71.86 for maize, cap FCI rice at 108 crore litres a quarter instead of requiring 40% of grain offers from it, and allocate the cheapest feedstock first where last year put sugar first. Every award is subject to Supreme Court cases on allocation.
 - **[How to use biomass-to-syngas-opensource: size a biomass gasifier](https://masaladeutsch.blogspot.com/2026/10/how-to-use-biomass-to-syngas-opensource.html)** — 2026-10-19
@@ -973,8 +983,10 @@
 - **[US Stock Picks — Multi-Screen Quant Shortlist (24 Jul 2026)](https://masaladeutsch.blogspot.com/2026/07/us-stock-picks-multi-screen-quant.html)** — 2026-07-24
   Follow-up: see how the model portfolios built from these screens actually performed, cross-checked against public index benchmarks.
 
-### Ethanol & Biofuels (28)
+### Ethanol & Biofuels (29)
 
+- **[Ethanol Plants That Trade Maize to Poultry Mills Can Earn Four Times More, but Only in a Glut Year](https://masaladeutsch.blogspot.com/2026/10/ethanol-plants-that-trade-maize-to.html)** — 2026-10-24
+  India’s new ethanol tender puts maize last in line for oil-company orders. A maize distillery that also buys grain in price dips and sells its spare maize to poultry and feed mills earned about four times the EBITDA of a pure ethanol plant on 2025-26 prices. On 2024-25 prices, and in Uttar Pradesh’s weak 2025 window, it earned less. The model works only with strict buying rules.
 - **[How to use cbg-design-opensource: size a compressed biogas plant](https://masaladeutsch.blogspot.com/2026/10/how-to-use-cbg-design-opensource-size.html)** — 2026-10-23
   Size a compressed biogas plant for India's SATAT scheme, from feedstock through digestion, upgrading and 250 bar compression, and check it against a published plant.
 - **[India's 2026-27 Ethanol Tender Drops Cane Juice, Cuts Maize by Rs 3 a Litre and Flips From Sugar-First to Cheapest-First](https://masaladeutsch.blogspot.com/2026/10/indias-2026-27-ethanol-tender-drops.html)** — 2026-10-20
@@ -1092,8 +1104,12 @@
 - **[India Fuel Retail Outlets — 82k Geocoded Map (Part 2 of 3)](https://masaladeutsch.blogspot.com/2026/07/india-fuel-retail-outlets-82k-geocoded.html)** — 2026-07-22
   Part 2 of 3 in the CNG/CGD retail-mapping series. Companion posts: the CGD GA district map (Part 1) and the cold-chain × outlet integrated map (Part 3). Served live from GitHub Pages.
 
-### Gas & LNG (28)
+### Gas & LNG (30)
 
+- **[India's Cheapest LNG Capacity Is an Extra Tank at Dahej. Its Newer Terminals Run a Quarter Full](https://masaladeutsch.blogspot.com/2026/10/indias-cheapest-lng-capacity-is-extra.html)** — 2026-10-23
+  Expanding Dahej cost about ₹370 crore per million tonnes a year of capacity; India’s new onshore terminals cost ₹950–1,290 crore, ran 22–35 months late and, in April–May 2026, worked at 24–37% of capacity while Dahej ran at 92%. PNGRB’s own data point to the pipeline out, not the tank, as the constraint.
+- **[India Has 28,000 km of Gas Pipeline Working and 7,000 km Still to Build. A Map of Where, and of the Lines Still on Paper](https://masaladeutsch.blogspot.com/2026/10/india-has-27400-km-of-gas-pipeline.html)** — 2026-10-23
+  PNGRB’s own August 2026 pipeline report puts India’s gas grid at 28,157 km operating and 7,033 km of common-carrier line still to build. The North-East grid is the one big active build; four authorised lines have laid no pipe at all; and the pipelines PNGRB bid out ran at 5% of capacity. Gazette land notices show where the next pipe is going.
 - **[Biogas Is a Priority-Sector Loan. The 43% Higher CBG Price Is Worth About 50 Times the Cost of the Repo Hike, for the Plants It Reaches](https://masaladeutsch.blogspot.com/2026/10/biogas-is-priority-sector-loan-43.html)** — 2026-10-16
   A biogas developer on a floating-rate loan pays more interest after the RBI’s hike to 5.50% while earning more per kilogram of gas. On the published numbers the price rise dwarfs the rate rise, except for plants that never receive the new price, and RBI data on CBG lending do not exist.
 - **[India Has 132 Compressed Biogas Plants Running. The Pipeline to Actually Use That Gas Reaches 17 of Them.](https://masaladeutsch.blogspot.com/2026/09/india-has-132-compressed-biogas-plants.html)** — 2026-09-23
@@ -1178,8 +1194,10 @@
 - **[The Two Biggest Parties in Parliament Ask About Everything. Everyone Else Doesn't.](https://masaladeutsch.blogspot.com/2026/09/the-two-biggest-parties-in-parliament.html)** — 2026-09-18
   Rank India's 51 parliamentary parties by how many questions their MPs asked in the 18th Lok Sabha and current Rajya Sabha sessions, and BJP wins, then INC — by margins that just track how many MPs each party has. That ranking answers a boring question. A different cut of the same 59,381 questions — each party's focus on a specific ministry, divided by what its overall size would predict — answers a more interesting one: which parties are actually specialists. The two biggest are not. Nearly everyone smaller is, sharply, on one or two ministries tied to exactly what you'd guess from their base.
 
-### Grain Procurement & Storage (7)
+### Grain Procurement & Storage (8)
 
+- **[Ethanol Plants That Trade Maize to Poultry Mills Can Earn Four Times More, but Only in a Glut Year](https://masaladeutsch.blogspot.com/2026/10/ethanol-plants-that-trade-maize-to.html)** — 2026-10-24
+  India’s new ethanol tender puts maize last in line for oil-company orders. A maize distillery that also buys grain in price dips and sells its spare maize to poultry and feed mills earned about four times the EBITDA of a pure ethanol plant on 2025-26 prices. On 2024-25 prices, and in Uttar Pradesh’s weak 2025 window, it earned less. The model works only with strict buying rules.
 - **[One Nation One Ration Card Doesn't Move Grain. FCI's Ethanol Tenders Move a Lot of It](https://masaladeutsch.blogspot.com/2026/09/one-nation-one-ration-card-doesnt-move.html)** — 2026-09-05
   One Nation One Ration Card sounds like it should strain the machinery that moves grain around India — a family that migrates from Bihar to Kerala still has to eat, after all. It doesn't, and the reason why is itself the more interesting story: interstate portability is under 1% of all transactions on the system. The genuine food-versus-fuel tension in Indian grain policy is real, well-documented, and running through a completely different pipe — FCI's surplus rice being sold to ethanol distillers at roughly 40% below what it cost to buy, under a tender clause that specifically requires distillers to use it.
 - **[Jai Kisan, Jai Javan — An FCI-Based Military Ration Strategy](https://masaladeutsch.blogspot.com/2026/08/jai-kisan-jai-javan-fci-based-military.html)** — 2026-08-04
@@ -1408,8 +1426,16 @@
 - **[India Grows the Soybean, Exports the Meal, Leads in Lecithin — and Barely Makes Tofu Yet](https://masaladeutsch.blogspot.com/2026/08/india-grows-soybean-exports-meal-leads.html)** — 2026-08-15
   Madhya Pradesh and Maharashtra between them sow roughly 93 lakh hectares of soybean a year — a scale that ought to make India a soy-food powerhouse. Almost none of that crop becomes tofu, soy milk or protein isolate on an Indian plate. Trace the harvested bean through a crusher and it splits into meal, most of which used to be exported, and oil, which still leaves India roughly two-thirds reliant on imports to meet its own edible-oil demand. The one soy-derived product where India genuinely leads the world — lecithin — is a byproduct of that same oil-crushing step, not a separate industry. This piece follows the bean from MP and Maharashtra's fields through crushing, lecithin, and the still-small frontier of tofu, soy protein and edamame.
 
-### Industrial Policy (108)
+### Industrial Policy (112)
 
+- **[Europe Wants Green Steel It Can’t Afford to Make. Why CBAM Should Be Rolled Out More Gently](https://masaladeutsch.blogspot.com/2026/10/europe-wants-green-steel-it-cant-afford.html)** — 2026-10-24
+  At European gas and hydrogen prices, clean steel costs up to twice ordinary steel to make, and buyers pay a premium of only €100–150 a tonne. CBAM and the new quotas protect Europe’s mills by shutting out imports that were about €136 a tonne cheaper, while doing nothing about energy costs. A slower, simpler rollout would serve Europe’s own goals better.
+- **[To Comply or Not to Comply: CBAM Costs Indian Steel €93 a Tonne With Verified Data and €270 Without. Indian Carbon Credits Won’t Close the Gap](https://masaladeutsch.blogspot.com/2026/10/to-comply-or-not-to-comply-cbam-costs.html)** — 2026-10-24
+  India sent the EU USD 6.3 billion of CBAM-covered goods in 2024, most of it steel. Under the rules in force, verified emissions data cuts the 2026 charge on Indian hot-rolled coil from about €270 a tonne to €93. India’s own carbon credits, expected at €6–13 a tonne and not yet traded, are not recognised by the EU and would deduct little if they were.
+- **[India's Cheapest LNG Capacity Is an Extra Tank at Dahej. Its Newer Terminals Run a Quarter Full](https://masaladeutsch.blogspot.com/2026/10/indias-cheapest-lng-capacity-is-extra.html)** — 2026-10-23
+  Expanding Dahej cost about ₹370 crore per million tonnes a year of capacity; India’s new onshore terminals cost ₹950–1,290 crore, ran 22–35 months late and, in April–May 2026, worked at 24–37% of capacity while Dahej ran at 92%. PNGRB’s own data point to the pipeline out, not the tank, as the constraint.
+- **[India Has 28,000 km of Gas Pipeline Working and 7,000 km Still to Build. A Map of Where, and of the Lines Still on Paper](https://masaladeutsch.blogspot.com/2026/10/india-has-27400-km-of-gas-pipeline.html)** — 2026-10-23
+  PNGRB’s own August 2026 pipeline report puts India’s gas grid at 28,157 km operating and 7,033 km of common-carrier line still to build. The North-East grid is the one big active build; four authorised lines have laid no pipe at all; and the pipelines PNGRB bid out ran at 5% of capacity. Gazette land notices show where the next pipe is going.
 - **[India Tracks Every Taxpayer in Minutes. Its Patients Got a Digital ID in 2021, While Indian IT Earns Billions From Foreign Healthcare](https://masaladeutsch.blogspot.com/2026/10/india-tracks-every-taxpayer-in-minutes.html)** — 2026-10-18
   India has had a permanent tax number since 1972 and now issues one in about ten minutes; its patient ID dates from 2021 and is still optional. Indian IT firms built the tax system and a multibillion-dollar business serving American insurers and hospitals. Most of Asia uses the national ID and a dated mandate for health; India has neither. The gap is mandate and money, not technology.
 - **[AI Is Not Taking India's Offshore Work Evenly: A Sector-by-Sector Check, and the Government Backlogs the Same Skills Could Clear](https://masaladeutsch.blogspot.com/2026/10/ai-is-not-taking-indias-offshore-work.html)** — 2026-10-18
@@ -1664,8 +1690,10 @@
 - **[India Irrigates Itself. 96.6% of Its Irrigation Schemes Are Privately Owned.](https://masaladeutsch.blogspot.com/2026/09/india-irrigates-itself-966-of-its.html)** — 2026-09-17
   India's own irrigation census counted 23.14 million minor irrigation schemes as of 2017-18 — 96.6% of them privately owned, 94.8% drawing groundwater, and most of the money behind them the individual farmer's own savings, not the public irrigation budget.
 
-### Livestock & Dairy (5)
+### Livestock & Dairy (6)
 
+- **[Ethanol Plants That Trade Maize to Poultry Mills Can Earn Four Times More, but Only in a Glut Year](https://masaladeutsch.blogspot.com/2026/10/ethanol-plants-that-trade-maize-to.html)** — 2026-10-24
+  India’s new ethanol tender puts maize last in line for oil-company orders. A maize distillery that also buys grain in price dips and sells its spare maize to poultry and feed mills earned about four times the EBITDA of a pure ethanol plant on 2025-26 prices. On 2024-25 prices, and in Uttar Pradesh’s weak 2025 window, it earned less. The model works only with strict buying rules.
 - **[India Imports the Whey Protein Its Cheese Makers Pour Away. The Fix Is Shared Whey Hubs, Not a Dryer in Every Dairy](https://masaladeutsch.blogspot.com/2026/10/india-imports-whey-protein-its-cheese.html)** — 2026-10-22
   Every kilogram of cheese leaves nine of whey, yet the government’s model cheese project does not count it, while India imports most of its whey protein at prices that tripled in two years. A small plant’s whey is too little to dry profitably; drinks and whey cheese at the plant, shared hubs for clusters and on-site drying at large dairies would put it to use.
 - **[The Diesel Truck Isn't Why Your Eggs Cost More. The Ethanol Tank Is.](https://masaladeutsch.blogspot.com/2026/09/the-diesel-truck-isnt-why-your-eggs.html)** — 2026-09-23
@@ -2200,8 +2228,12 @@
 - **[India's Textile Import-Export Strategy: From Dependency to Self-Sufficiency](https://masaladeutsch.blogspot.com/2026/07/indias-textile-import-export-strategy.html)** — 2026-07-27
   HSN Breakdown Needed: Polypropylene, HDPE, LDPE, PET films by destination segment
 
-### Trade & Tariffs (82)
+### Trade & Tariffs (84)
 
+- **[Europe Wants Green Steel It Can’t Afford to Make. Why CBAM Should Be Rolled Out More Gently](https://masaladeutsch.blogspot.com/2026/10/europe-wants-green-steel-it-cant-afford.html)** — 2026-10-24
+  At European gas and hydrogen prices, clean steel costs up to twice ordinary steel to make, and buyers pay a premium of only €100–150 a tonne. CBAM and the new quotas protect Europe’s mills by shutting out imports that were about €136 a tonne cheaper, while doing nothing about energy costs. A slower, simpler rollout would serve Europe’s own goals better.
+- **[To Comply or Not to Comply: CBAM Costs Indian Steel €93 a Tonne With Verified Data and €270 Without. Indian Carbon Credits Won’t Close the Gap](https://masaladeutsch.blogspot.com/2026/10/to-comply-or-not-to-comply-cbam-costs.html)** — 2026-10-24
+  India sent the EU USD 6.3 billion of CBAM-covered goods in 2024, most of it steel. Under the rules in force, verified emissions data cuts the 2026 charge on Indian hot-rolled coil from about €270 a tonne to €93. India’s own carbon credits, expected at €6–13 a tonne and not yet traded, are not recognised by the EU and would deduct little if they were.
 - **[Methionine, Not Lysine, Is India's Biggest Amino-Acid Gap. It Is Made From Petrochemicals, Not Sugar, and Glycine Is Now an Anti-Dumping Case](https://masaladeutsch.blogspot.com/2026/10/methionine-not-lysine-is-indias-biggest.html)** — 2026-10-12
   India’s deficit across eight amino-acid lines is $354 million, and methionine alone is 48% of it. It is made from acrolein, methyl mercaptan and hydrogen cyanide, not sugar, while MSG imports grow and glycine trade is balanced but under a DGTR case.
 - **[India's Lysine Deficit Is $102 Million and China Holds About Three-Quarters of World Capacity. Molasses Is the Cheap Part. The Fermenter Is the Hard Part](https://masaladeutsch.blogspot.com/2026/10/indias-lysine-deficit-is-102-million.html)** — 2026-10-10
@@ -4410,3 +4442,28 @@ Size a coal-gasification-to-urea complex in which six units share one mass basis
 *2026-10-23 · Energy & Fuels, Ethanol & Biofuels, India, Open-Source Tools & How-To*
 
 Size a compressed biogas plant for India's SATAT scheme, from feedstock through digestion, upgrading and 250 bar compression, and check it against a published plant.
+
+### [India's Cheapest LNG Capacity Is an Extra Tank at Dahej. Its Newer Terminals Run a Quarter Full](https://masaladeutsch.blogspot.com/2026/10/indias-cheapest-lng-capacity-is-extra.html)
+*2026-10-23 · Energy & Fuels, Gas & LNG, Industrial Policy*
+
+Expanding Dahej cost about ₹370 crore per million tonnes a year of capacity; India’s new onshore terminals cost ₹950–1,290 crore, ran 22–35 months late and, in April–May 2026, worked at 24–37% of capacity while Dahej ran at 92%. PNGRB’s own data point to the pipeline out, not the tank, as the constraint.
+
+### [India Has 28,000 km of Gas Pipeline Working and 7,000 km Still to Build. A Map of Where, and of the Lines Still on Paper](https://masaladeutsch.blogspot.com/2026/10/india-has-27400-km-of-gas-pipeline.html)
+*2026-10-23 · Energy & Fuels, Gas & LNG, Industrial Policy*
+
+PNGRB’s own August 2026 pipeline report puts India’s gas grid at 28,157 km operating and 7,033 km of common-carrier line still to build. The North-East grid is the one big active build; four authorised lines have laid no pipe at all; and the pipelines PNGRB bid out ran at 5% of capacity. Gazette land notices show where the next pipe is going.
+
+### [Europe Wants Green Steel It Can’t Afford to Make. Why CBAM Should Be Rolled Out More Gently](https://masaladeutsch.blogspot.com/2026/10/europe-wants-green-steel-it-cant-afford.html)
+*2026-10-24 · Climate & Carbon, Industrial Policy, Trade & Tariffs*
+
+At European gas and hydrogen prices, clean steel costs up to twice ordinary steel to make, and buyers pay a premium of only €100–150 a tonne. CBAM and the new quotas protect Europe’s mills by shutting out imports that were about €136 a tonne cheaper, while doing nothing about energy costs. A slower, simpler rollout would serve Europe’s own goals better.
+
+### [To Comply or Not to Comply: CBAM Costs Indian Steel €93 a Tonne With Verified Data and €270 Without. Indian Carbon Credits Won’t Close the Gap](https://masaladeutsch.blogspot.com/2026/10/to-comply-or-not-to-comply-cbam-costs.html)
+*2026-10-24 · Climate & Carbon, Industrial Policy, Trade & Tariffs*
+
+India sent the EU USD 6.3 billion of CBAM-covered goods in 2024, most of it steel. Under the rules in force, verified emissions data cuts the 2026 charge on Indian hot-rolled coil from about €270 a tonne to €93. India’s own carbon credits, expected at €6–13 a tonne and not yet traded, are not recognised by the EU and would deduct little if they were.
+
+### [Ethanol Plants That Trade Maize to Poultry Mills Can Earn Four Times More, but Only in a Glut Year](https://masaladeutsch.blogspot.com/2026/10/ethanol-plants-that-trade-maize-to.html)
+*2026-10-24 · Agriculture & Fertilisers, Ethanol & Biofuels, Grain Procurement & Storage, Livestock & Dairy*
+
+India’s new ethanol tender puts maize last in line for oil-company orders. A maize distillery that also buys grain in price dips and sells its spare maize to poultry and feed mills earned about four times the EBITDA of a pure ethanol plant on 2025-26 prices. On 2024-25 prices, and in Uttar Pradesh’s weak 2025 window, it earned less. The model works only with strict buying rules.
