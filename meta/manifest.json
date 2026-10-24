@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-10-24T08:07:59+05:30",
+  "snapshot": "2026-10-24T08:08:58+05:30",
   "count": 404,
   "posts": {
     "1023631151138981087": {
@@ -41435,10 +41435,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html",
       "slug": "article-index-start-here",
       "published": "2026-08-02T10:43:26.000+05:30",
-      "updated": "2026-10-24T07:53:57.192+05:30",
+      "updated": "2026-10-24T08:08:36.742+05:30",
       "labels": [],
-      "bytes": 778564,
-      "sha256": "42aa7937c5a012a4d3d42cd2f50fee4d56da7685849fac082f8a4fc5776eb509",
+      "bytes": 781811,
+      "sha256": "9dcb3c4b46a5812bfff570a83f9f7f6e4a4f6f287b7893b49c3e52d412820817",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -41450,7 +41450,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "60.19.0",
+      "version": "60.20.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -43550,6 +43550,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Index: gas pipeline map post retitled"
+        },
+        {
+          "version": "60.20.0",
+          "date": "2026-10-24T08:08:58+05:30",
+          "level": "minor",
+          "reason": "forced via --as minor (figures changed (+4/-3 distinct numbers))",
+          "bytes": [
+            778564,
+            781811
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Index: CBAM post"
         }
       ]
     },

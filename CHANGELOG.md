@@ -15500,3 +15500,16 @@ CBAM post: product scope from TradeStat HS8, EU gas prices and import protection
 **Changed**
 
 - `to-comply-or-not-to-comply-cbam-costs` — 45,620 → 69,780 bytes (+24,160)
+
+## 2026-10-24T08:08:58+05:30 — 404 posts live
+
+Index: CBAM post
+
+
+**Versions**
+
+- `article-index-start-here` **60.19.0 → 60.20.0** (MINOR) — forced via --as minor (figures changed (+4/-3 distinct numbers))
+
+**Changed**
+
+- `article-index-start-here` — 778,564 → 781,811 bytes (+3,247)
