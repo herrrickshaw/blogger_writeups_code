@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-10-24T08:43:44+05:30",
+  "snapshot": "2026-10-24T09:00:37+05:30",
   "count": 406,
   "posts": {
     "1023631151138981087": {
@@ -45153,14 +45153,14 @@
       "url": "https://masaladeutsch.blogspot.com/2026/10/europe-wants-green-steel-it-cant-afford.html",
       "slug": "europe-wants-green-steel-it-cant-afford",
       "published": "2026-10-24T08:16:33.000+05:30",
-      "updated": "2026-10-24T08:17:07.575+05:30",
+      "updated": "2026-10-24T09:00:13.197+05:30",
       "labels": [
         "Climate & Carbon",
         "Industrial Policy",
         "Trade & Tariffs"
       ],
-      "bytes": 42684,
-      "sha256": "dc11d1bebeb7caefe5fc02d88ef29fa180813e4a2e68abad2c041d17fe6b9cd7",
+      "bytes": 47217,
+      "sha256": "36962165d5cbdf15fe163bc7206db18e7a52155e509d31d7a3111b56e1ad9dda",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -45172,7 +45172,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "1.1.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -45180,6 +45180,19 @@
           "level": "initial",
           "reason": "first snapshot",
           "note": "New post: green steel, EU gas dependence and the case for a softer CBAM rollout"
+        },
+        {
+          "version": "1.1.0",
+          "date": "2026-10-24T09:00:37+05:30",
+          "level": "minor",
+          "reason": "forced via --as minor (figures changed (+23/-0 distinct numbers))",
+          "bytes": [
+            42684,
+            47217
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Green steel post: global HRC price benchmarks"
         }
       ]
     },

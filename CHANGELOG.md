@@ -15562,3 +15562,16 @@ New post: green steel, EU gas dependence and the case for a softer CBAM rollout
 **Changed**
 
 - `ethanol-plants-that-trade-maize-to` — 32,645 → 37,072 bytes (+4,427)
+
+## 2026-10-24T09:00:37+05:30 — 406 posts live
+
+Green steel post: global HRC price benchmarks
+
+
+**Versions**
+
+- `europe-wants-green-steel-it-cant-afford` **1.0.0 → 1.1.0** (MINOR) — forced via --as minor (figures changed (+23/-0 distinct numbers))
+
+**Changed**
+
+- `europe-wants-green-steel-it-cant-afford` — 42,684 → 47,217 bytes (+4,533)
