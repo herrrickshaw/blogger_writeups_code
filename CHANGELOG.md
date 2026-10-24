@@ -15575,3 +15575,9 @@ Green steel post: global HRC price benchmarks
 **Changed**
 
 - `europe-wants-green-steel-it-cant-afford` — 42,684 → 47,217 bytes (+4,533)
+
+## 2026-10-24T11:04:26+05:30 — 407 posts live
+
+**Added**
+
+- `maize-is-cheapest-in-different-state` **v1.0.0** — Maize Is Cheapest in a Different State Every Few Months. Rice Barely Moves. (63,644 bytes)

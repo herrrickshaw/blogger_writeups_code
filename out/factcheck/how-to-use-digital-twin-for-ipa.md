@@ -14,7 +14,7 @@ Panel: **3 of 5 configured models** answered.  Skipped this run: Kimi ([Kimi API
 ## Gemini gemini-flash-lite-latest
 
 FACTUAL ERRORS:
-- "Python 3 | the build and refresh scripts are stdlib-only; the demo used Python 3.14" — Python 3.14 is a future version relative to current real-world software timelines, making a claim of a demo run utilizing Python 3.14 on October 18, 2026 implausible and historically inaccurate for the present era. [confidence: high]
+- "Python 3 | the build and refresh scripts are stdlib-only; the demo used Python 3.14" — Python 3.14 has not been released (Python 3.13 was released in late 2024, and 3.14 is scheduled for release in late 2025/2026, making a fully stable production release by an October 2026 demo problematic or an anachronism depending on current real-world timelines, but more importantly, Python's version progression makes a specific version claim for a future date speculative or factually unverifiable). [confidence: medium]
 
 INTERPRETATION ERRORS:
 - none found
@@ -24,7 +24,14 @@ OUTDATED DATA:
 
 ## Groq openai/gpt-oss-120b
 
-[Groq/openai/gpt-oss-120b API error 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 5258, Requested 4248. Please try again in 11.295s. Need more tokens? Upgrade to Dev Tier today at https://con]
+**FACTUAL ERRORS:**  
+- “Python 3.14” — Python 3.14 has not been released; the latest stable version as of October 2026 is Python 3.13 (with 3.14 still under development). The article incorrectly states the required version. [confidence: high]  
+
+**INTERPRETATION ERRORS:**  
+- “Every claim carries a note on how it was verified, and access failures (blocked sites, JavaScript‑only portals) are recorded as data rather than skipped.” — Recording that a site could not be accessed does **not** provide the underlying incentive information; it merely logs a failure. Presenting these failure logs as “data” implies the dataset is complete, which is misleading because the actual scheme details remain missing for those sources. [confidence: high]  
+
+**OUTDATED DATA:**  
+- none found
 
 ## Mistral open-mistral-nemo
 
@@ -33,13 +40,12 @@ Here is the structured report based on the provided article text:
 ---
 
 **FACTUAL ERRORS:**
-- *"1,849 companies in the SQLite database (1,483 flagged as Indian filers)"* — The article claims this count is accurate as of **18 October 2026**, but the **README.md** in the GitHub repo (the primary source) states the company count is **1,785** (with 1,483 Indian filers). This discrepancy suggests either a typo in the article or an outdated snapshot. [confidence: high]
+- *"1,849 companies in the SQLite database (1,483 flagged as Indian filers)"* — The article states this count is "as of the 18 October 2026 demo," but the README explicitly claims **1,785 companies** (not 1,849) in the same section. This discrepancy contradicts the primary source (the repo’s own README). [confidence: high]
 
 **INTERPRETATION ERRORS:**
-- *"The demo only read data and ran one offline rebuild (on a scratch copy). It did not call any live government site and did not run the network-dependent layer builders."* — While technically correct, this claim **misrepresents the project’s limitations for users**. The article later notes that **live sources (e.g., Invest India, MCA) are blocked or crawling-sensitive**, meaning the twin’s **full functionality depends on network access and API keys**—not just "offline rebuilds." The implication that the demo’s offline status proves the tool’s robustness is misleading, as critical layers (e.g., real-time scheme status) require live data. [confidence: high]
+- *"The demo only read data and ran one offline rebuild... It did not call any live government site and did not run the network-dependent layer builders."* — This claim implies the demo’s offline validation (JSON parsing and catalogue rebuild) is sufficient to verify the **stacking rules, legal anchors, or real-time eligibility** of incentives. However, the article later acknowledges that **verified_on_site status is a snapshot** and that many instruments lack on-site verification. Thus, the demo’s offline checks do not confirm whether schemes are *actually* stackable or legally valid in practice. [confidence: high]
 
 **OUTDATED DATA:**
-- *"1,785 companies"* (README.md) vs. *"1,849 companies"* (article) — The article’s figure is likely outdated; the **GitHub repo’s README.md** (primary source) should be checked for the latest count. [confidence: high]
-- *"312 incentive instruments in the flat index (195 central, 117 state)"* — While correct for the **18 October 2026 snapshot**, the article does not verify if this count has been updated in newer commits or releases. The **`layers/13_flat_instrument_index.json`** file (cited as the source) may have changed post-2026. [confidence: medium]
+- *"1,785 companies"* (README claim) and *"1,849 companies"* (demo claim) — Both figures are from October 2026, but the article was published in **2026** (as per the revision date). To verify current accuracy, check the **latest `data/companies.db` file on GitHub** (series: `digital-twin-for-ipa/data/companies.db`). [confidence: high]
 
 ---

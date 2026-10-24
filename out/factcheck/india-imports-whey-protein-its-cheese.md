@@ -24,41 +24,27 @@ OUTDATED DATA:
 
 ## Groq openai/gpt-oss-120b
 
-[Groq/openai/gpt-oss-120b API error 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 5285, Requested 5403. Please try again in 20.16s. Need more tokens? Upgrade to Dev Tier today at https://cons]
+[Groq/openai/gpt-oss-120b API error 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 2299, Requested 5953. Please try again in 1.89s. Need more tokens? Upgrade to Dev Tier today at https://conso]
 
 ## Mistral open-mistral-nemo
 
 **FACTUAL ERRORS:**
-- **"9 kg Whey left over for every kilogram of cheese made"** — The claim is factually correct based on the USDA reference (0.8% protein and 4.9% lactose in whey), but the article later states **"9 kg of whey per kg of cheese"** as a given without explicitly citing the USDA source for this specific ratio in the text. While the arithmetic aligns, the phrasing risks implying this is universally accepted without direct attribution in the body. [confidence: medium]
+- **"India imports most of the whey protein its gyms and nutrition brands use, at prices that roughly tripled between 2024 and mid-2026"** — The article does not provide verifiable primary sources for India’s *total* whey protein import volumes or the exact composition of imported whey protein concentrate (WPC) vs. other forms (e.g., isolate). While the price range (Rs 700–800/kg in 2024 to Rs 2,300–3,000/kg in mid-2026) is cited from press reports, conflicting estimates exist (e.g., one report claims 45,000+ tonnes in 2022–23, another 23,000 tonnes in 2025). The claim conflates *supplement-grade* whey (likely WPC/isolate) with broader whey protein imports, which may include lower-grade industrial whey. [confidence: **high**]
 
-- **"80-90% Share of India’s supplement-grade whey protein reported to be imported"** — The article acknowledges conflicting import volume estimates (45,000 vs. 23,000 tonnes in 2022–23/2025) and notes no official tonnage data is published. The 80–90% import share is plausible but unsourced in the article’s cited materials (only press reports are referenced). [confidence: high]
+- **"The USDA’s market report priced WPC80 at US$12.50–13.00 a pound in mid-July 2026"** — The USDA’s cited report (2015) does not reflect current (2026) global WPC80 prices. The USDA’s *July 2026 Dairy Market News* (referenced in press summaries) would be the correct source for real-time pricing, but the article does not cross-check this against official USDA data. [confidence: **high**]
 
 ---
 
 **INTERPRETATION ERRORS:**
-- **"The economics change with volume. [...] A few hundred units the size of the model plant together produce that much [2,500 tonnes/year] whey, which is the case for pooling it."**
-  The reasoning conflates **aggregate potential** (theoretical pooling of small units) with **real-world feasibility**. The article later admits small units (e.g., 3–8 tonnes/year of protein) lack scale for standalone dryers, yet the causal leap from "volume exists" to "hubs will form" ignores barriers like:
-  1. **Coordination costs** (no evidence of existing whey collection networks for paneer/chhena whey, which dominates output).
-  2. **Regulatory hurdles** (AHIDF disbursement gaps, pollution compliance timelines).
-  3. **Profit incentives** (small units may prioritize low-cost disposal over hub participation).
-  The claim assumes hubs will emerge organically from "the math," but the Kenyan case (145 tonnes/year total) and Indian paneer sector (unorganized, scattered) suggest this is an extrapolation. [confidence: high]
+- **"The model cheese plant in year 5 produces 583 tonnes of whey, of which 4.7 tonnes is protein (0.8% of whey) — a unit that pours it away would struggle to meet the dairy effluent limit of 100 mg/L BOD"** — While the arithmetic is correct, the BOD claim is misleading. The article cites the USDA noting that *ordinary dairy wastewater* (not just whey) runs at 2,000–3,000 mg/L BOD, implying whey alone would exceed 100 mg/L. However, whey’s BOD is typically **~50,000–60,000 mg/L** when untreated (per EPA/USDA standards), and even after partial treatment (e.g., reverse osmosis), it would still far exceed 100 mg/L unless fully processed. The article’s comparison to "dairy effluent" (a diluted mixture) distorts the scale of the problem. [confidence: **high**]
 
-- **"The limit is volume. [...] Drinks and whey cheese can take part of a small unit’s whey, but not all of it."**
-  While true for **small-scale whey cheese/drinks**, the article later advocates **reverse osmosis + hub drying** as the primary solution. This implies small units should **pre-concentrate whey** (requiring chillers/RO skids), but no cost-benefit analysis is provided for this step vs. direct disposal. The reasoning gap: the article assumes small units *will* invest in concentration infrastructure without addressing whether this is financially viable for them (e.g., marginal revenue from concentrated whey vs. effluent fines). [confidence: medium]
+- **"A few hundred units the size of the model plant together produce that much [2,500+ tonnes/year] whey, which is the case for pooling it"** — The claim assumes linear scalability of whey generation, but whey yield per kg of cheese is fixed (~9 kg), so pooling requires *geographic clustering* of cheese/paneer units—not just any "few hundred" units. The article ignores that **90–94% of paneer/chhena production is unorganized**, meaning most whey is scattered and uncollected. Pooling hubs would need *proactive coordination* (e.g., via milk unions), not just proximity. [confidence: **high**]
 
 ---
-
 **OUTDATED DATA:**
-- **"Rs 700 to 3,000 Landed price of imported whey protein concentrate per kg, 2024 to mid-2026"** — The article notes this is from **2026 press reports** (The Core, BW Retail World) but does not check if:
-  1. **Post-mid-2026 data** (e.g., 2026–27) exists in **DGFT trade statistics** (HS 3502.20) or **USDA Dairy Market News** (latest as of 2026 cutoff).
-  2. **Customs duty on whey protein concentrate (HS 3502.20)** has changed (not cited; likely still 10% under FTAs, but verification needed).
-  [confidence: high]
+- **"Rs 700 to 3,000 landed price of imported whey protein concentrate per kg, 2024 to mid-2026"** — While the mid-2026 range is plausible, the article does not reference the *latest* official import data from the **Directorate General of Commercial Intelligence and Statistics (DGCIS)** or **Customs Excise and Service Tax (CESTAT)** for 2025–26. For precise HS 3502.20 (WPC) import trends, check DGCIS’s [monthly trade statistics](https://dgcis.gov.in/) (latest fiscal year: 2025–26). [confidence: **high**]
 
-- **"India’s total whey at 3.3 to 5 million tonnes a year, derived from paneer output"** — The **2025 review** cited is unpeer-reviewed. For updated data, check:
-  1. **NDDB’s annual dairy statistics** (latest fiscal year, e.g., 2025–26).
-  2. **DGFT trade data** for whey imports/exports (HS 0404.10).
-  3. **Census of India (2022) dairy sector data** (if paneer/chhena output estimates have been revised).
-  [confidence: high]
+- **"India’s total whey at 3.3 to 5 million tonnes a year, derived from paneer output"** — The 2025 review cited does not align with *official* data. The **Department of Animal Husbandry and Dairying (DAHD)** or **National Dairy Development Board (NDDB)** publish annual estimates for paneer/chhena output (e.g., via the *Dairy Processing and Infrastructure Development Fund* reports), but the article lacks a cross-check. For updated figures, see DAHD’s [annual dairy statistics](https://dahd.gov.in/) (latest: 2024–25). [confidence: **high**]
 
 ---
-**Note:** The article’s disclaimers (e.g., "press reports could not be checked") preempt some factual claims, but the above focus on **distinct, actionable gaps** in data currency or causal reasoning.
+**Note:** The article’s reliance on press reports for critical data (e.g., import volumes, plant costs) and lack of cross-referencing with official sources (DGCIS, DAHD, NDDB) weakens its factual grounding. The "Kenyan returns" (2025 preprint) are noted as unpeer-reviewed, but no Indian case studies are cited for validation.

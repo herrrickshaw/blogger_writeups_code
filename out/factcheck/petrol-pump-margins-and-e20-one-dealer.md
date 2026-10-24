@@ -14,30 +14,26 @@ Panel: **3 of 5 configured models** answered.  Skipped this run: Kimi ([Kimi API
 ## Gemini gemini-flash-lite-latest
 
 FACTUAL ERRORS:
-- "Indian Oil, BPCL, HPCL (end-Nov 2025) | 41,664; 24,605; 24,418 (90.4% of 100,266)" — These outlet counts misattribute the network sizes. As of late 2025, Indian Oil (IOCL) operates the largest network with over 35,000 to 37,000 outlets, while BPCL and HPCL each operate around 21,000 to 22,000 outlets. The total public sector count of ~90,000+ is roughly correct, but the individual allocations among the three public sector OMCs are significantly off. [confidence: high]
+- "Indian Oil, BPCL, and HPCL announced together after a pending case was resolved, with no change in pump prices." — In India, retail selling prices (RSPs) of petrol and diesel are technically deregulated, but OMCs historically coordinate price revisions and major revisions (like the October 2024 dealer commission hike) often coincide with minor retail price adjustments or are absorbed via state-level tax tweaks rather than strictly "no change in pump prices" universally across all circles, though the October 2024 revision specifically saw no immediate hike in base pump prices. However, a more concrete error is the outlet count breakdown: "Indian Oil, BPCL, HPCL (end-Nov 2025) | 41,664; 24,605; 24,418 (90.4% of 100,266)" — summing these three figures gives 90,687, which is roughly 90.4% of 100,266, but the individual numbers assigned to IOCL, BPCL, and HPCL are transposed or inaccurate for standard public-sector counts (IOCL alone typically operates around 35,000–36,000 outlets, not 41,664 while BPCL and HPCL have ~21,000–22,000 each). [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "The oil companies’ margin was high while crude was cheap and went negative when crude spiked in 2026. The party that gained directly from E20 is the ethanol supplier, whose price is set by the government." — This frames the ethanol supplier's government-set pricing as a direct financial "gain" resulting from E20 without accounting for the fact that administered feedstock costs (like maize and heavy molasses) and high processing input costs have often been contested by sugar mills and distilleries as leaving thin or squeezed margins, making a direct causal link between government pricing and net "gaining" an oversimplification. [confidence: medium]
+- "The party that gained directly from E20 is the ethanol supplier, whose price is set by the government." — This is a false causal/beneficiary claim in an economic sense because while ethanol suppliers receive guaranteed off-take volumes and government-fixed prices, they face heavily regulated input costs (such as cane and maize prices fixed by state/central governments) and capacity constraints, meaning higher gross revenue from E20 does not automatically translate to a net margin "gain" superior to other agricultural or industrial diversions without factoring in feedstock cost inflation. [confidence: medium]
 
 OUTDATED DATA:
 - none found
 
 ## Groq openai/gpt-oss-120b
 
-[Groq/openai/gpt-oss-120b API error 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Requested 10082, please reduce your message size and try again. Need more tokens? Upgrade to Dev Tier today at http]
+[Groq/openai/gpt-oss-120b API error 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Requested 9102, please reduce your message size and try again. Need more tokens? Upgrade to Dev Tier today at https]
 
 ## Mistral open-mistral-nemo
 
 **FACTUAL ERRORS:**
-- **"The October 2024 revision, a litigation settlement, was the first increase in seven years and did not restore what inflation had taken."**
-  — The claim that the October 2024 revision was the *first increase in seven years* is incorrect. PPAC’s table (posted 3 Dec 2024) shows four increases after October 2016 (last: 1 Aug 2017) and a small cut in Feb 2019, making the 2024 revision the first increase in **seven years and two months** (since 1 Aug 2017). [confidence: high]
+- **"The October 2024 revision, a litigation settlement, was the first increase in seven years"** — Incorrect; PPAC’s table (posted 3 Dec 2024) shows four increases after Oct 2016 (last before 2024 was 1 Aug 2017), making the 2024 revision the first in **7 years and 2 months** (not 7 years). [confidence: high]
 
 **INTERPRETATION ERRORS:**
 - **"The dealer got one rise in seven years, it was a litigation settlement, and in real terms it gave back less than half of what inflation had taken since 2017."**
-  — The claim conflates the *fixed component* of dealer commission (adjusted in Oct 2024) with the *entire commission* (which includes a percentage-of-price component that rose with fuel prices). The percentage part offsets some inflation erosion, but this is unquantified by PPAC. The "less than half" figure (Rs 3.17 vs. Rs 3.91 in 2017 rupees) excludes this dynamic, overstating the real loss. [confidence: high]
+  The claim conflates the **fixed component** (revised in Oct 2024) with the **percentage-of-price component** (which grew with inflation). The fixed part alone restored ~40% of its 2017 value (in Dec 2025 ₹), but the percentage component offset some erosion. The article’s inflation-adjusted calculation excludes this offset, overstating the "loss." [confidence: high]
 
 **OUTDATED DATA:**
-- **"100,266 Fuel retail outlets at end-November 2025 (PPAC via press)"**
-  — PPAC’s latest outlet count (Nov 2025) is superseded by October 2026 data (e.g., Nayara: 7,108 outlets; Jio-bp: ~2,221). Re-check: **PPAC’s outlet count series (monthly updates)**; newer period: **October 2026**. [confidence: high]
-
-*(No other distinct factual, interpretation, or outdated-data issues found in the provided text.)*
+- **"100,266 Fuel retail outlets at end-November 2025"** — PPAC’s latest outlet count (as of Oct 2026) shows **100,266 total outlets**, but the breakdown for private players (e.g., Nayara: 7,108 in Oct 2026 vs. 6,921 in Nov 2025) suggests the Nov 2025 figure may be outdated. Re-check: PPAC’s **annual outlet census** (likely FY26-27, released post-Oct 2026). [confidence: medium]
