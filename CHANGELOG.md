@@ -15627,3 +15627,9 @@ Green steel post: global HRC price benchmarks
 **Changed**
 
 - `article-index-start-here` — 789,372 → 792,596 bytes (+3,224)
+
+## 2026-10-24T13:48:51+05:30 — 409 posts live
+
+**Added**
+
+- `indias-farm-map-in-seven-charts-maize` **v1.0.0** — India’s Farm Map in Seven Charts: Maize Is Spreading, Yields Are Shifting, and Prices Fall Into Four Clusters (359,066 bytes)
