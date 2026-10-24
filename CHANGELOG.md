@@ -15611,3 +15611,9 @@ Green steel post: global HRC price benchmarks
 **Changed**
 
 - `maize-is-cheapest-in-different-state` — 135,501 → 251,856 bytes (+116,355)
+
+## 2026-10-24T11:37:18+05:30 — 408 posts live
+
+**Added**
+
+- `indias-biggest-mandi-crops-have` **v1.0.0** — India’s Biggest Mandi Crops Have the Steadiest Prices. Its Vegetables Swing Two to Eight Times as Much. (71,059 bytes)
