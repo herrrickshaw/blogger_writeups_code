@@ -760,6 +760,7 @@ SLUG_CONTAINS = {
     "whey-protein": ["Livestock & Dairy", "Import Substitution", "Agriculture & Food Processing"],
     "cheapest-lng-capacity": ["Gas & LNG", "Energy & Fuels", "Industrial Policy"],
     "km-of-gas-pipeline": ["Gas & LNG", "Energy & Fuels", "Industrial Policy"],
+    "to-comply-or-not-to-comply": ["Climate & Carbon", "Trade & Tariffs", "Industrial Policy"],
 }
 
 
