@@ -15513,3 +15513,12 @@ Index: CBAM post
 **Changed**
 
 - `article-index-start-here` — 778,564 → 781,811 bytes (+3,247)
+
+## 2026-10-24T08:16:57+05:30 — 405 posts live
+
+New post: green steel, EU gas dependence and the case for a softer CBAM rollout
+
+
+**Added**
+
+- `europe-wants-green-steel-it-cant-afford` **v1.0.0** — Europe Wants Green Steel It Can’t Afford to Make. Why CBAM Should Be Rolled Out More Gently (42,684 bytes)
