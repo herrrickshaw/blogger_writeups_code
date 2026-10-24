@@ -4,15 +4,15 @@
   "url": "https://masaladeutsch.blogspot.com/2026/10/maize-is-cheapest-in-different-state.html",
   "slug": "maize-is-cheapest-in-different-state",
   "published": "2026-10-24T11:03:41.000+05:30",
-  "updated": "2026-10-24T11:04:01.299+05:30",
+  "updated": "2026-10-24T11:09:17.345+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Ethanol & Biofuels",
     "Grain Procurement & Storage",
     "Prices & Inflation"
   ],
-  "bytes": 63644,
-  "sha256": "108412be50f0c542a369cfd24a258554caeacb1998f7637281d39e0318bb550b",
+  "bytes": 135501,
+  "sha256": "2fb0ceef44b4d352a31030a4cf297d0d9c62e4eefd632f083dc2f5cc45ff4d5f",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,13 +24,26 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
       "date": "2026-10-24T11:04:26+05:30",
       "level": "initial",
       "reason": "first snapshot",
+      "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-10-24T11:09:49+05:30",
+      "level": "major",
+      "reason": "figures changed (+22/-0 distinct numbers)",
+      "bytes": [
+        63644,
+        135501
+      ],
+      "url_changed": null,
+      "markers_changed": null,
       "note": ""
     }
   ]

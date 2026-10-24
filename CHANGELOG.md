@@ -15591,3 +15591,13 @@ Green steel post: global HRC price benchmarks
 **Changed**
 
 - `article-index-start-here` — 785,996 → 789,372 bytes (+3,376)
+
+## 2026-10-24T11:09:49+05:30 — 407 posts live
+
+**Versions**
+
+- `maize-is-cheapest-in-different-state` **1.0.0 → 2.0.0** (MAJOR) — figures changed (+22/-0 distinct numbers)
+
+**Changed**
+
+- `maize-is-cheapest-in-different-state` — 63,644 → 135,501 bytes (+71,857)
