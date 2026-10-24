@@ -15649,3 +15649,13 @@ Green steel post: global HRC price benchmarks
 **Added**
 
 - `sixteen-crops-twenty-years-where-indias` **v1.0.0** — Sixteen Crops, Twenty Years: Where India’s Harvest Grew From More Land and Where From Better Yields (138,425 bytes)
+
+## 2026-10-24T14:13:57+05:30 — 410 posts live
+
+**Versions**
+
+- `article-index-start-here` **64.0.0 → 65.0.0** (MAJOR) — figures changed (+2/-3 distinct numbers)
+
+**Changed**
+
+- `article-index-start-here` — 797,403 → 801,744 bytes (+4,341)
