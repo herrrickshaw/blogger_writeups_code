@@ -15522,3 +15522,13 @@ New post: green steel, EU gas dependence and the case for a softer CBAM rollout
 **Added**
 
 - `europe-wants-green-steel-it-cant-afford` **v1.0.0** — Europe Wants Green Steel It Can’t Afford to Make. Why CBAM Should Be Rolled Out More Gently (42,684 bytes)
+
+## 2026-10-24T08:35:20+05:30 — 406 posts live
+
+**Added**
+
+- `ethanol-plants-that-trade-maize-to` **v1.0.0** — Ethanol Plants That Trade Maize to Poultry Mills Can Earn Four Times More, but Only in a Glut Year (29,103 bytes)
+
+**Re-dated** (publication date changed; body and URL unchanged)
+
+- `europe-wants-green-steel-it-cant-afford` — 2026-10-24 &rarr; 2026-10-24
