@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-10-24T08:38:38+05:30",
+  "snapshot": "2026-10-24T08:43:44+05:30",
   "count": 406,
   "posts": {
     "1023631151138981087": {
@@ -7836,15 +7836,15 @@
       "url": "https://masaladeutsch.blogspot.com/2026/10/ethanol-plants-that-trade-maize-to.html",
       "slug": "ethanol-plants-that-trade-maize-to",
       "published": "2026-10-24T08:34:11.000+05:30",
-      "updated": "2026-10-24T08:38:13.185+05:30",
+      "updated": "2026-10-24T08:43:20.841+05:30",
       "labels": [
         "Agriculture & Fertilisers",
         "Ethanol & Biofuels",
         "Grain Procurement & Storage",
         "Livestock & Dairy"
       ],
-      "bytes": 32645,
-      "sha256": "bb930802c59c9fd32bbe53e6ca04f863bbd3d2ce8a383a5fe8d5f37fb595b965",
+      "bytes": 37072,
+      "sha256": "3fc5a596333a5820ecb6d7b8c7de51d6fad2e0304a66df94bb6415243b12b174",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -7856,7 +7856,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "2.0.0",
+      "version": "3.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -7873,6 +7873,19 @@
           "bytes": [
             29103,
             32645
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
+        },
+        {
+          "version": "3.0.0",
+          "date": "2026-10-24T08:43:44+05:30",
+          "level": "major",
+          "reason": "figures changed (+7/-0 distinct numbers)",
+          "bytes": [
+            32645,
+            37072
           ],
           "url_changed": null,
           "markers_changed": null,
