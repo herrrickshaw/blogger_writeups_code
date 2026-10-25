@@ -4,10 +4,10 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html",
   "slug": "article-index-start-here",
   "published": "2026-08-02T10:43:26.000+05:30",
-  "updated": "2026-10-25T07:34:29.932+05:30",
+  "updated": "2026-10-25T07:37:48.359+05:30",
   "labels": [],
-  "bytes": 814949,
-  "sha256": "81fbadbf8d7989d6489d78bf753ba9a0543f6cd590a2d02d1fac0a92c1725981",
+  "bytes": 834493,
+  "sha256": "d5ee106c8b275ef53f1d757943becf7aaf06e80476ee119a7987c33540ea2518",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "65.2.0",
+  "version": "65.3.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -2223,6 +2223,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Index: crop seasons post"
+    },
+    {
+      "version": "65.3.0",
+      "date": "2026-10-25T07:38:13+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+0/-0 distinct numbers))",
+      "bytes": [
+        814949,
+        834493
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Index: date-wise and month-wise view"
     }
   ]
 }

@@ -132,6 +132,10 @@
 .artx .gs-f-field{display:flex;flex-direction:column;gap:.25rem}
 .artx .cmonth{margin-top:.6rem}
 .artx .cgroup{margin:0}
+.artx .cday{margin:.7rem 0 .1rem;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;
+ font-size:.86rem;font-weight:700;color:#3d3d3d;border-bottom:1px solid #e2e2e2;padding-bottom:.2rem}
+.artx .cday-n{font-weight:400;color:#595959}
+.artx .cdayg .cdate{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
 .artx .crows{list-style:none;margin:0;padding:0;max-width:none}
 .artx .crow{max-width:none}
 .artx .ctitle{text-decoration:underline;text-decoration-color:#c7cbd1;text-underline-offset:3px}
@@ -232,7 +236,7 @@
 <li><time datetime="2026-10-24">24 October 2026</time> <a href="https://masaladeutsch.blogspot.com/2026/10/europe-wants-green-steel-it-cant-afford.html">Europe Wants Green Steel It Can’t Afford to Make. Why CBAM Should Be Rolled Out More Gently</a></li>
 </ul>
 <h2 id="gs-date">By date</h2>
-<p class="h2sub">The whole publishing history, including the part where nothing happened.</p>
+<p class="h2sub">Month by month, newest first. Each month links to its articles below, listed day by day.</p>
 <p>The blog opened on <b>4 October 2020</b> with a single post, and then published nothing for <b>6 years</b>. The archive proper begins on <b>21 July 2026</b>. That gap is left visible here rather than smoothed away: the counts below are what was actually published, not a reconstruction.</p>
 <style>/*gs-tw-table-v1*/
 .gb-table{border-collapse:collapse;width:100%;font-size:.85em;font-family:-apple-system,'Segoe UI',sans-serif;margin:1.25rem 0}
@@ -243,12 +247,12 @@
 </style>
 <div class="tw gb-tblwrap" role="region" aria-label="Articles per month" tabindex="0"><table class="gb-table">
 <caption class="sr-only">Articles published per month, with a running total</caption>
-<thead><tr><th scope="col">Month</th><th scope="col">Articles</th><th scope="col">Running total</th></tr></thead><tbody>
-<tr><th scope="row">October 2020</th><td>1</td><td>1</td></tr>
-<tr><th scope="row">July 2026</th><td>23</td><td>24</td></tr>
-<tr><th scope="row">August 2026</th><td>212</td><td>236</td></tr>
-<tr><th scope="row">September 2026</th><td>97</td><td>333</td></tr>
-<tr><th scope="row">October 2026</th><td>86</td><td>419</td></tr>
+<thead><tr><th scope="col">Month</th><th scope="col">Articles</th><th scope="col">Days with a post</th><th scope="col">Busiest day</th><th scope="col">Running total</th></tr></thead><tbody>
+<tr><th scope="row"><a href="#gs-m-2026-10">October 2026</a></th><td>86</td><td>18</td><td><a href="#gs-d-2026-10-19">19 October 2026</a> (20)</td><td>419</td></tr>
+<tr><th scope="row"><a href="#gs-m-2026-09">September 2026</a></th><td>97</td><td>26</td><td><a href="#gs-d-2026-09-15">15 September 2026</a> (11)</td><td>333</td></tr>
+<tr><th scope="row"><a href="#gs-m-2026-08">August 2026</a></th><td>212</td><td>31</td><td><a href="#gs-d-2026-08-02">2 August 2026</a> (26)</td><td>236</td></tr>
+<tr><th scope="row"><a href="#gs-m-2026-07">July 2026</a></th><td>23</td><td>8</td><td><a href="#gs-d-2026-07-31">31 July 2026</a> (7)</td><td>24</td></tr>
+<tr><th scope="row"><a href="#gs-m-2020-10">October 2020</a></th><td>1</td><td>1</td><td><a href="#gs-d-2020-10-04">4 October 2020</a> (1)</td><td>1</td></tr>
 </tbody></table></div>
 <p class="exsrc">Counted from each post&rsquo;s Blogger publication date as recorded in the archive manifest. A number of earlier drafts and duplicate variants -- accidental multi-publishes, superseded draft versions -- were withdrawn from Blogger over time and are not listed; they have no live URL to link to.</p>
 <h2 id="gs-topic">By topic</h2>
@@ -1290,10 +1294,11 @@
 <p class="exsrc">Built from the headings and body text of every archived post by <code>tools/index_graph.py</code>. Headings are weighted four times body text, and each subject counts once per article rather than once per mention &mdash; several posts contain long tables whose repeated cell text would otherwise dominate any count. Layout is fixed and deterministic, so a change in the diagram means a change in the writing, not a reshuffle.</p>
 </div>
 <h2 id="gs-all">All articles</h2>
-<p class="h2sub">Newest first, grouped by month. Search the titles and article text, or filter by month, day or topic.</p>
+<p class="h2sub">Newest first, grouped by month and then by day. Search the titles and article text, or filter by month, day or topic.</p>
 <div class="gs-filter-bar" role="search" aria-label="Search and filter articles"><div class="gs-f-field gs-f-q"><label for="gs-f-q">Search titles and article text</label><input type="search" id="gs-f-q" autocomplete="off" placeholder="e.g. steel, FDI, ethanol"></div><div class="gs-f-field"><label for="gs-f-month">Month</label><select id="gs-f-month"><option value="">All months</option></select></div><div class="gs-f-field"><label for="gs-f-date">Date</label><select id="gs-f-date"><option value="">All dates</option></select></div><div class="gs-f-field"><label for="gs-f-topic">Topic</label><select id="gs-f-topic"><option value="">All topics</option></select></div><button type="button" class="gs-filter-reset" id="gs-f-reset">Clear search and filters</button><p class="gs-filter-count" id="gs-f-count" role="status" aria-live="polite"></p><p class="gs-fulltext" id="gs-f-full" hidden>Showing matches from titles, headings and each article&#8217;s most distinctive terms. <a id="gs-f-full-a" href="https://masaladeutsch.blogspot.com/search" rel="noopener">Search every word of every article on Blogger</a>.</p></div>
 <div class="chrono">
-<div class="cmonth" data-ym="2026-10"><h3 class="cgroup" id="gs-m-2026-10"><span>October 2026</span><span class="cgroup-n">86 articles</span></h3><ul class="crows" aria-labelledby="gs-m-2026-10">
+<div class="cmonth" data-ym="2026-10"><h3 class="cgroup" id="gs-m-2026-10"><span>October 2026</span><span class="cgroup-n">86 articles</span></h3>
+<div class="cdayg" data-date="2026-10-25"><h4 class="cday" id="gs-d-2026-10-25">Sunday 25 October 2026<span class="cday-n"> &middot; 6 articles</span></h4><ul class="crows" aria-labelledby="gs-d-2026-10-25">
 <li class="crow" data-ym="2026-10" data-date="2026-10-25" data-topic="Energy &amp; Fuels" data-kw="discom-debt-and-revenue-models scenario calculator electricity distribution company debt watch walkthrough useful need code assistant install quick commands sample outputs ways prompts your limits honest caveats discom python loss tariff grows default string inputs uday-style python3 claude script archived turnaround valueerror help scenarios gemini crash collection bill aggressive interpretation github argparse cost-revenue dirichlet five-scenario household start-up conceptual formed json reform clone">
 <time class="cdate" datetime="2026-10-25">25 October 2026</time>
 <span class="ctag"><span class="sr-only">Topic: </span>Energy &amp; Fuels</span>
@@ -1328,11 +1333,13 @@
 <span class="ctag"><span class="sr-only">Topic: </span>Climate &amp; Carbon</span>
 <a class="ctitle" href="https://masaladeutsch.blogspot.com/2026/10/how-to-use-hydrogen-electrolyser.html">How to use hydrogen-electrolyser-control: a simulated PEM, AEM and alkaline electrolyser controller</a>
 </li>
-<li class="crow" data-ym="2026-10" data-date="2026-10-25" data-topic="Unlabelled" data-kw="winter harvest outgrows monsoon kharif rabi zaid crop area yield reaches mandi overtaken land moved yields work third season growing fastest keeping pace grown doesn follow caveats summer arrivals moong maize wheat groundnut soybean crops cotton foodgrain rice bajra upag foodgrains agmarknet gram seasons pulses mustard hectares jowar sesamum production paddy rose gained oilseeds lentil">
+<li class="crow" data-ym="2026-10" data-date="2026-10-25" data-topic="Agriculture &amp; Fertilisers" data-kw="winter harvest outgrows monsoon kharif rabi zaid crop area yield reaches mandi overtaken land moved yields work third season growing fastest keeping pace grown doesn follow caveats summer arrivals moong maize wheat groundnut soybean crops cotton foodgrain rice bajra upag foodgrains agmarknet gram seasons pulses mustard hectares jowar sesamum production paddy rose gained oilseeds lentil">
 <time class="cdate" datetime="2026-10-25">25 October 2026</time>
-<span class="ctag none"><span class="sr-only">Topic: </span>Unlabelled</span>
+<span class="ctag"><span class="sr-only">Topic: </span>Agriculture &amp; Fertilisers</span>
 <a class="ctitle" href="https://masaladeutsch.blogspot.com/2026/10/indias-winter-harvest-now-outgrows-its.html">India’s Winter Harvest Now Outgrows Its Monsoon One. Kharif, Rabi and Zaid, Crop by Crop: Area, Yield and When It Reaches the Mandi</a>
 </li>
+</ul></div>
+<div class="cdayg" data-date="2026-10-24"><h4 class="cday" id="gs-d-2026-10-24">Saturday 24 October 2026<span class="cday-n"> &middot; 7 articles</span></h4><ul class="crows" aria-labelledby="gs-d-2026-10-24">
 <li class="crow" data-ym="2026-10" data-date="2026-10-24" data-topic="Agriculture &amp; Fertilisers" data-kw="ethanol plants trade maize poultry mills earn four times glut distillery needs second outlet business models per-kilolitre economics all-india prices ddgs model earns doesn plant ebitda allocation price scenario buying ahead pays real largest mandis arrivals feed side moving khargone districts averages rent storage season build owned-silo benchmark klpd break verdict desk grain tender quintal agmarknet badaun markup arrival-weighted kannauj mandi pure feb-2026 traded rice rented silo stock nov-2025 farms integrated uttar amethi birds">
 <time class="cdate" datetime="2026-10-24">24 October 2026</time>
 <span class="ctag"><span class="sr-only">Topic: </span>Agriculture &amp; Fertilisers</span>
@@ -1395,6 +1402,8 @@
 <span class="crel-lbl">Related</span> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/10/europe-wants-green-steel-it-cant-afford.html">Europe Wants Green Steel It Can’t Afford to Make. Why CBAM Should Be Rolled Out More Gently</a> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/10/how-to-use-eu-ets-compliance-platform.html">How to use eu-ets-compliance-platform: a hands-on EU ETS and CBAM compliance prototype</a> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/08/greenhouse-emissions-reduction-and-cbam.html">Greenhouse Emissions Reduction and CBAM Compliance — Real or Ideal Gases?</a>
 </span>
 </li>
+</ul></div>
+<div class="cdayg" data-date="2026-10-23"><h4 class="cday" id="gs-d-2026-10-23">Friday 23 October 2026<span class="cday-n"> &middot; 5 articles</span></h4><ul class="crows" aria-labelledby="gs-d-2026-10-23">
 <li class="crow" data-ym="2026-10" data-date="2026-10-23" data-topic="Energy &amp; Fuels" data-kw="cbg-design-opensource size compressed biogas plant watch walkthrough need code assistant install quick commands ways sample prompts your limits honest caveats streamlit dung straw barsana python demo claude folder gemini correlations readme upgrading docs cloned coolprop plotly compression example digestion validation digestate feedstock venv github examples worked chat clone interactive package vendor repo">
 <time class="cdate" datetime="2026-10-23">23 October 2026</time>
 <span class="ctag"><span class="sr-only">Topic: </span>Energy &amp; Fuels</span>
@@ -1437,6 +1446,8 @@
 <span class="crel-lbl">Related</span> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/10/india-has-27400-km-of-gas-pipeline.html">India Has 28,000 km of Gas Pipeline Working and 7,000 km Still to Build. A Map of Where, and of the Lines Still on Paper</a> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/08/europe-bought-record-amount-of-lng-and.html">Europe Bought a Record Amount of LNG and Made Itself Dependent on One Supplier</a> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/09/a-2013-vision-saw-india-needing-746.html">A 2013 Vision Saw India Needing 746 MMSCMD of Gas by 2030. Actual Demand Is About a Quarter of That</a>
 </span>
 </li>
+</ul></div>
+<div class="cdayg" data-date="2026-10-22"><h4 class="cday" id="gs-d-2026-10-22">Thursday 22 October 2026<span class="cday-n"> &middot; 1 article</span></h4><ul class="crows" aria-labelledby="gs-d-2026-10-22">
 <li class="crow" data-ym="2026-10" data-date="2026-10-22" data-topic="Agriculture &amp; Food Processing" data-kw="imports whey protein cheese makers pour away shared hubs dryer every dairy model plant counts forgets project small units kenyan evidence plan size integrating processing scale paneer problem market builds plants demand projections uses known caveats lactose wpc80 milk nddb concentrate drying drinks pmfme usda effluent ricotta milky ahidf nutrition dairies niftem parag chhena goma hydranautics idmc tetra ultrafiltration mist powder chiller permeate mid-2026 membranes food">
 <time class="cdate" datetime="2026-10-22">22 October 2026</time>
 <span class="ctag"><span class="sr-only">Topic: </span>Agriculture &amp; Food Processing</span>
@@ -1445,6 +1456,8 @@
 <span class="cgeo"><span class="sr-only">About: </span>Kenya</span>
 </span>
 </li>
+</ul></div>
+<div class="cdayg" data-date="2026-10-20"><h4 class="cday" id="gs-d-2026-10-20">Tuesday 20 October 2026<span class="cday-n"> &middot; 1 article</span></h4><ul class="crows" aria-labelledby="gs-d-2026-10-20">
 <li class="crow" data-ym="2026-10" data-date="2026-10-20" data-topic="Agriculture &amp; Fertilisers" data-kw="ethanol tender drops cane juice cuts maize litre flips sugar-first cheapest-first last against prices loses premium gets allocated first becomes terms transport supply penalty court cases known caveats rice b-heavy litres sugar molasses c-heavy allocation syrup grain damaged chinimandi offers zones long-term-contract supreme feedstock feedstocks kilolitre endeavour kilolitres cheapest e-tender long-term cooperative plants mills distillers bought 10004423 10004668">
 <time class="cdate" datetime="2026-10-20">20 October 2026</time>
 <span class="ctag"><span class="sr-only">Topic: </span>Agriculture &amp; Fertilisers</span>
@@ -1453,6 +1466,8 @@
 <span class="crel-lbl">Related</span> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/09/one-nation-one-ration-card-doesnt-move.html">One Nation One Ration Card Doesn&#x27;t Move Grain. FCI&#x27;s Ethanol Tenders Move a Lot of It</a> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/10/indias-ethanol-surplus-buys-about-five.html">India&#x27;s Ethanol Surplus Buys About Five Blend Points. E30, Diesel and Jet Fuel Need Twice the Supply.</a> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/08/india-hit-e20-on-maize-and-rice-not.html">India Hit E20 on Maize and Rice, Not Sugarcane</a>
 </span>
 </li>
+</ul></div>
+<div class="cdayg" data-date="2026-10-19"><h4 class="cday" id="gs-d-2026-10-19">Monday 19 October 2026<span class="cday-n"> &middot; 20 articles</span></h4><ul class="crows" aria-labelledby="gs-d-2026-10-19">
 <li class="crow" data-ym="2026-10" data-date="2026-10-19" data-topic="Markets &amp; Finance" data-kw="agentic-insurance-agent open-source insurance workflows safe watch walkthrough need code assistant install quick commands ways sample prompts your limits honest caveats mock tests docker evals demo azure python bpmn compose requirements-dev readme openai camunda operaton pt2m venv pytest eval guardrails worker claude folder gemini provider docs test virtual workflow adapters appian handlers pega podman prebuilt scores">
 <time class="cdate" datetime="2026-10-19">19 October 2026</time>
 <span class="ctag"><span class="sr-only">Topic: </span>Markets &amp; Finance</span>
@@ -1582,6 +1597,8 @@
 <span class="cgeo"><span class="sr-only">About: </span>Germany, Japan</span>
 </span>
 </li>
+</ul></div>
+<div class="cdayg" data-date="2026-10-18"><h4 class="cday" id="gs-d-2026-10-18">Sunday 18 October 2026<span class="cday-n"> &middot; 9 articles</span></h4><ul class="crows" aria-labelledby="gs-d-2026-10-18">
 <li class="crow" data-ym="2026-10" data-date="2026-10-18" data-topic="Industrial Policy" data-kw="taking offshore work evenly sector-by-sector check backlogs skills clear countries reports exposed official institutional shows export numbers sector offshored october firms adapting fewer hires layoffs offshoring hubs competing experiencing waiting home mirrors services known caveats jobs nasscom clients staff software roles genpact revenue headcount translation customer centres philippines hiring jpmorgan ai-led concentrix ibpap krak salesforce human workforce insurance back-office fresher operations absl e-courts labour-billed postings claims fy26 hcltech transcription">
 <time class="cdate" datetime="2026-10-18">18 October 2026</time>
 <span class="ctag"><span class="sr-only">Topic: </span>Industrial Policy</span>
@@ -1640,6 +1657,8 @@
 <span class="crel-lbl">Related</span> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/08/indias-lock-imports-hit-19784-million.html">India&#x27;s Lock Imports Hit $197.84 Million. Dindigul&#x27;s 150-Year-Old Cluster Isn&#x27;t Who&#x27;s Losing Sleep Over It.</a> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/08/would-more-sgst-fix-donor-state-problem.html">Would More SGST Fix the &quot;Donor State&quot; Problem? Ethanol Shows Why the Real Lever Sits Elsewhere</a> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/08/who-collects-indias-gst-and-who.html">Who Collects India&#x27;s GST, and Who Actually Gets It Back</a>
 </span>
 </li>
+</ul></div>
+<div class="cdayg" data-date="2026-10-17"><h4 class="cday" id="gs-d-2026-10-17">Saturday 17 October 2026<span class="cday-n"> &middot; 1 article</span></h4><ul class="crows" aria-labelledby="gs-d-2026-10-17">
 <li class="crow" data-ym="2026-10" data-date="2026-10-17" data-topic="Energy &amp; Fuels" data-kw="distributor commission rose times since inflation back record domestic ppac three phases pays against cylinder price month roughly average estimate distributors associations compared pump kerosene dealer timeline dates known caveats ceew delivery reply federation cylinders rupees sabha notice revisions petrol ujjwala market-price december companies posted first-principles revision component prayas refills raise rural mospi study low-volume dealers deliveries strike steps ahmedabad">
 <time class="cdate" datetime="2026-10-17">17 October 2026</time>
 <span class="ctag"><span class="sr-only">Topic: </span>Energy &amp; Fuels</span>
@@ -1649,6 +1668,8 @@
 <span class="crel-lbl">Related</span> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/08/state-by-state-who-actually-earns-from.html">State by State: Who Actually Earns from Ethanol Blending? SGST Scenarios, E10-E30</a> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/10/petrol-pump-margins-and-e20-one-dealer.html">Petrol-Pump Margins and E20: The First Dealer Raise in Seven Years, Not Tied to Ethanol, While Oil-Company Margins Followed Crude Into the Red in 2026</a> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/08/diesel-doesnt-move-cpi-it-moves-40.html">From Diesel to CNG: Where the Switch Actually Pays</a>
 </span>
 </li>
+</ul></div>
+<div class="cdayg" data-date="2026-10-16"><h4 class="cday" id="gs-d-2026-10-16">Friday 16 October 2026<span class="cday-n"> &middot; 2 articles</span></h4><ul class="crows" aria-labelledby="gs-d-2026-10-16">
 <li class="crow" data-ym="2026-10" data-date="2026-10-16" data-topic="City Gas Distribution" data-kw="biogas priority-sector loan higher price worth times cost repo hike plants reaches rise rate show relayed priority sector lending sits rules loans priced feels floating mean repo-linked main lenders arithmetic against plant ability service reach corrections earlier piece stop caveats ireda kilogram bank debt-service relaying interest lender debt tonne-a-day reset floating-rate directions administered outlets card mmbtu compressed inputs gain factsheet utilisation compression msme mclr reprices borrower">
 <time class="cdate" datetime="2026-10-16">16 October 2026</time>
 <span class="ctag"><span class="sr-only">Topic: </span>City Gas Distribution</span>
@@ -1665,6 +1686,8 @@
 <span class="crel-lbl">Related</span> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/08/state-by-state-who-actually-earns-from.html">State by State: Who Actually Earns from Ethanol Blending? SGST Scenarios, E10-E30</a> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/08/india-sells-world-53-billion-of-fuel.html">India Sells the World $53 Billion of Fuel. Its Neighbours Buy 5% of It.</a> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/08/fuel-pricing-to-crude-cost.html">Fuel Pricing to Crude Cost</a>
 </span>
 </li>
+</ul></div>
+<div class="cdayg" data-date="2026-10-14"><h4 class="cday" id="gs-d-2026-10-14">Wednesday 14 October 2026<span class="cday-n"> &middot; 1 article</span></h4><ul class="crows" aria-labelledby="gs-d-2026-10-14">
 <li class="crow" data-ym="2026-10" data-date="2026-10-14" data-topic="Energy &amp; Fuels" data-kw="hydrogen behind biofuel mandate country-by-country covered counts gets paid three ways governments force pool road fuels region americas road-fuel obligations credits europe fuel suppliers asia-pacific africa blends levies aviation shipping fast-growing coverage international incentives found enters rule proposed means stop caveats e-fuel obligation quota levy volumetric credit corsia legislated rins tradable greenhouse-gas quotas japan auction biodiesel brazil icao fossil canada australia e-fuels blend domestic-content headstart meti ren21 incentive">
 <time class="cdate" datetime="2026-10-14">14 October 2026</time>
 <span class="ctag"><span class="sr-only">Topic: </span>Energy &amp; Fuels</span>
@@ -1674,6 +1697,8 @@
 <span class="crel-lbl">Related</span> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/08/petroleum-trade-pairings-and-us-crude.html">Petroleum Trade Pairings and the US Crude Storage Picture</a> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/10/indias-new-car-rules-count-every-ev-as.html">India&#x27;s New Car Rules Count Every EV as Three Cars. Europe, the US and China Used Smaller Multipliers, Then Phased Them Out.</a> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/08/what-actually-happens-to-indias-used.html">India Finally Has a Rule for Used Motor Oil. Nobody Can Price What It Costs Yet.</a>
 </span>
 </li>
+</ul></div>
+<div class="cdayg" data-date="2026-10-12"><h4 class="cday" id="gs-d-2026-10-12">Monday 12 October 2026<span class="cday-n"> &middot; 1 article</span></h4><ul class="crows" aria-labelledby="gs-d-2026-10-12">
 <li class="crow" data-ym="2026-10" data-date="2026-10-12" data-topic="Agriculture &amp; Fertilisers" data-kw="methionine lysine biggest amino-acid made petrochemicals sugar glycine anti-dumping case whole story growing nobody seems make balanced trade live ones counting stop caveats cyanide threonine acrolein amino fermentation carbonate mercaptan tryptophan glutamate methyl acid chinese acids dgtr deficit glutamic valine monosodium fy26 avid complainant hydantoin phenylalanine salty registry hydrolysis hydrogen chemical glucose l-cystine organics duties china market-research 29304000 29224100 29224220 29224910 29224290 29309014 29225015 29224210 5990349 5770769 12195422">
 <time class="cdate" datetime="2026-10-12">12 October 2026</time>
 <span class="ctag"><span class="sr-only">Topic: </span>Agriculture &amp; Fertilisers</span>
@@ -1683,6 +1708,8 @@
 <span class="crel-lbl">Related</span> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/07/top-15-chemicals-for-import.html">The Top 15 Import-Substitution Chemicals, Code by Code</a> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/08/chemical-import-substitution-full-hsn-8_01082878313.html">Chemical Import Substitution: the Full 827-Code Data Tables</a> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/08/airbags-and-seat-belts-are-import-heavy.html">Airbags and Seat Belts Are Import-Heavy. Tyre Cord Isn&#x27;t. India&#x27;s Automotive Textiles Aren&#x27;t One Story</a>
 </span>
 </li>
+</ul></div>
+<div class="cdayg" data-date="2026-10-10"><h4 class="cday" id="gs-d-2026-10-10">Saturday 10 October 2026<span class="cday-n"> &middot; 6 articles</span></h4><ul class="crows" aria-labelledby="gs-d-2026-10-10">
 <li class="crow" data-ym="2026-10" data-date="2026-10-10" data-topic="Agriculture &amp; Fertilisers" data-kw="bagasse crop residue already sitting factory gate labs liquefied hydrolysed nobody priced against boiler material four things called liquefaction hydrolysis pretreatment decides yield polyol foam stop setting competitor caveats acid enzymes lignin study sugar hydrothermal cellulose hemicellulose eutectic levulinic glucose glycerol microwave xylose papers solvent life-cycle furfural ionic xylitol solids varieties liquid strength biomass hydroxide sugarcane bio-oil compressive plywood paper 40126807 28110130">
 <time class="cdate" datetime="2026-10-10">10 October 2026</time>
 <span class="ctag"><span class="sr-only">Topic: </span>Agriculture &amp; Fertilisers</span>
@@ -1730,6 +1757,8 @@
 <span class="ctag"><span class="sr-only">Topic: </span>Chemicals</span>
 <a class="ctitle" href="https://masaladeutsch.blogspot.com/2026/10/thermocol-dissolves-in-orange-peel-oil.html">Thermocol Dissolves in Orange-Peel Oil, as Researchers Showed in 1998. The Published Record Stops Where the Recycling Begins</a>
 </li>
+</ul></div>
+<div class="cdayg" data-date="2026-10-09"><h4 class="cday" id="gs-d-2026-10-09">Friday 9 October 2026<span class="cday-n"> &middot; 15 articles</span></h4><ul class="crows" aria-labelledby="gs-d-2026-10-09">
 <li class="crow" data-ym="2026-10" data-date="2026-10-09" data-topic="Markets &amp; Finance" data-kw="epfo ceiling rose rupees slightly less rule moving minimum wage already passed costs pays caveats pension provident worker employer compulsory employees workers labour enrolled unskilled wages fund compulsorily nishith pensionable insurance outgo employment mospi publishers salary associates desai employers establishments month actuarial contributions enrolment contribution retirement service earning cover statutory 2310811 2310973">
 <time class="cdate" datetime="2026-10-09">9 October 2026</time>
 <span class="ctag"><span class="sr-only">Topic: </span>Markets &amp; Finance</span>
@@ -1836,11 +1865,15 @@
 <span class="crel-lbl">Related</span> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/07/the-price-of-grain-msp-msv-and.html">The Price of Grain: MSP, MSV, and the Arithmetic of the Indian Grain State</a> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/07/the-grain-value-loop-integrated-rice.html">The Grain Value Loop — Integrated Rice Biorefinery Pitch</a> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/10/how-to-use-fci-warehouse-mspvsmsv-grain.html">How to use FCI-warehouse-MSPvsMSV: grain procurement, MSP and mandi-price data with working models</a>
 </span>
 </li>
+</ul></div>
+<div class="cdayg" data-date="2026-10-07"><h4 class="cday" id="gs-d-2026-10-07">Wednesday 7 October 2026<span class="cday-n"> &middot; 1 article</span></h4><ul class="crows" aria-labelledby="gs-d-2026-10-07">
 <li class="crow" data-ym="2026-10" data-date="2026-10-07" data-topic="Industrial Policy" data-kw="factory intentions filings became plants files reach production follow through behind part companies still exist register compares dpiit totals october lists caveats nsws filing company acknowledgement filed memoranda active acknowledgements plant memorandum struck records amalgamated name-only matches identified name matched master insolvency monthly office msme company-type delicensed name-based identifier intention identification pdfs posted printed started 2173538 2118292">
 <time class="cdate" datetime="2026-10-07">7 October 2026</time>
 <span class="ctag"><span class="sr-only">Topic: </span>Industrial Policy</span>
 <a class="ctitle" href="https://masaladeutsch.blogspot.com/2026/10/indias-factory-intentions-20012024-how_0101046393.html">India&#x27;s Factory Intentions, 2001–2024: How Many IEM Filings Became Plants</a>
 </li>
+</ul></div>
+<div class="cdayg" data-date="2026-10-06"><h4 class="cday" id="gs-d-2026-10-06">Tuesday 6 October 2026<span class="cday-n"> &middot; 1 article</span></h4><ul class="crows" aria-labelledby="gs-d-2026-10-06">
 <li class="crow" data-ym="2026-10" data-date="2026-10-06" data-topic="Healthcare" data-kw="cough syrup lollipop babies evidence points tablet instead literature sweets wrong vehicle trials actually show infants stands companies already make markets caveats children films dispersible syrups medicines child film lollipops paediatric medicine tablets deaths drug breastfeeding choking klingmann mini-tablet pediatrics unitaid oral doses sweet dose aged coldrif dndi fentanyl melatonin orodispersible swallowing cipla diethylene glycol">
 <time class="cdate" datetime="2026-10-06">6 October 2026</time>
 <span class="ctag"><span class="sr-only">Topic: </span>Healthcare</span>
@@ -1849,6 +1882,8 @@
 <span class="cgeo"><span class="sr-only">About: </span>European Union</span>
 </span>
 </li>
+</ul></div>
+<div class="cdayg" data-date="2026-10-03"><h4 class="cday" id="gs-d-2026-10-03">Saturday 3 October 2026<span class="cday-n"> &middot; 3 articles</span></h4><ul class="crows" aria-labelledby="gs-d-2026-10-03">
 <li class="crow" data-ym="2026-10" data-date="2026-10-03" data-topic="Energy &amp; Fuels" data-kw="biofuel rules court survives gain alcohol powers ethanol contracts trial scorecard supreme stop blending constitution hold lever vinp case biodiesel petroleum product learn credit cases watch courts omcs lalta vaish denatured prasad justice attorney deps interim clause bench bombay litres offtake akshay ethanol-free rathi tender spirit labelling judges rulings sons abhay malhotra orders dedicated karnataka high 109133">
 <time class="cdate" datetime="2026-10-03">3 October 2026</time>
 <span class="ctag"><span class="sr-only">Topic: </span>Energy &amp; Fuels</span>
@@ -1876,6 +1911,8 @@
 <span class="crel-lbl">Related</span> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/10/the-hydrogen-behind-biofuel-mandate.html">The Hydrogen Behind the Biofuel Mandate: A Country-by-Country Map of Who Is Covered, What Counts, and Which Hydrogen Gets Paid For</a> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/08/south-africa-lost-its-gulf-fuel-supply.html">South Africa Lost Its Gulf Fuel Supply. It Turned to America, Not India.</a> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/09/shippings-net-zero-vote-keeps-getting.html">Shipping&#x27;s Net-Zero Vote Keeps Getting Delayed. The Fuel Switch Is Happening Without It.</a>
 </span>
 </li>
+</ul></div>
+<div class="cdayg" data-date="2026-10-02"><h4 class="cday" id="gs-d-2026-10-02">Friday 2 October 2026<span class="cday-n"> &middot; 4 articles</span></h4><ul class="crows" aria-labelledby="gs-d-2026-10-02">
 <li class="crow" data-ym="2026-10" data-date="2026-10-02" data-topic="Industrial Policy" data-kw="dhabi paid binance stake stablecoins rules deal made case pilots research says crypto cross-border investment examples stands wrong caveats stablecoin bitcoin usd1 tokens central-bank tokenised cbdc bank dirham fluent digital nextgen issuer money flows dubai settlement deposit adecoagro adgm crypto-assets inward banks flight seventh-largest investor unctad fema remittances foreign token virtual">
 <time class="cdate" datetime="2026-10-02">2 October 2026</time>
 <span class="ctag"><span class="sr-only">Topic: </span>Industrial Policy</span>
@@ -1910,6 +1947,8 @@
 <span class="crel-lbl">Related</span> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/08/which-ecb-currencies-are-actually.html">Which ECB Currencies Are Actually Investable, Once Real Volatility Replaces the Theory</a> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/08/where-rupee-actually-stands-ten-years.html">Where the Rupee Actually Stands: Ten Years Against the Dollar, Yuan, Rouble, Riyal and Dirham</a> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/08/what-india-is-actually-paying-for.html">What India Is Actually Paying For: Absorbing Someone Else&#x27;s Inflation Through the Import Bill</a>
 </span>
 </li>
+</ul></div>
+<div class="cdayg" data-date="2026-10-01"><h4 class="cday" id="gs-d-2026-10-01">Thursday 1 October 2026<span class="cday-n"> &middot; 2 articles</span></h4><ul class="crows" aria-labelledby="gs-d-2026-10-01">
 <li class="crow" data-ym="2026-10" data-date="2026-10-01" data-topic="Agriculture &amp; Fertilisers" data-kw="cotton stalk hardest crop wastes turn manure left tired fields need crops soils residue hard digest gives pretreatments worth paddy straw actually building wheat good cattle first sugarcane trash mulch second maize stover every ethanol pulses soybean better manger feeds plants soil pest argument moving field gobardhan scheme pays caveats pretreatment methane stalks soda untreated rice peroxide burnt digestion biogas caustic yield burning millilitres pretreated residues organic carbon laboratory digester dung study digestate fodder verbio yields">
 <time class="cdate" datetime="2026-10-01">1 October 2026</time>
 <span class="ctag"><span class="sr-only">Topic: </span>Agriculture &amp; Fertilisers</span>
@@ -1928,8 +1967,9 @@
 <span class="crel-lbl">Related</span> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/08/state-by-state-who-actually-earns-from.html">State by State: Who Actually Earns from Ethanol Blending? SGST Scenarios, E10-E30</a> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/08/india-mineral-oil-hsn-ch27-trade.html">India Mineral-Oil (HSN Ch.27) Trade × Pricing Dashboard</a> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/08/fuel-pricing-to-crude-cost.html">Fuel Pricing to Crude Cost</a>
 </span>
 </li>
-</ul></div>
-<div class="cmonth" data-ym="2026-09"><h3 class="cgroup" id="gs-m-2026-09"><span>September 2026</span><span class="cgroup-n">97 articles</span></h3><ul class="crows" aria-labelledby="gs-m-2026-09">
+</ul></div></div>
+<div class="cmonth" data-ym="2026-09"><h3 class="cgroup" id="gs-m-2026-09"><span>September 2026</span><span class="cgroup-n">97 articles</span></h3>
+<div class="cdayg" data-date="2026-09-30"><h4 class="cday" id="gs-d-2026-09-30">Wednesday 30 September 2026<span class="cday-n"> &middot; 3 articles</span></h4><ul class="crows" aria-labelledby="gs-d-2026-09-30">
 <li class="crow" data-ym="2026-09" data-date="2026-09-30" data-topic="Agriculture &amp; Fertilisers" data-kw="cocoa quintupled gave back vanilla lost weather story real shortage fast unwind spike climate change down farmers took shoppers mostly didn spikes crash wasn grows little caveats icco madagascar ghana beans ivoire cyclone york futures sava kilo comtrade cocobod prices withheld cured hudah drought hectares planting farmgate export chocolate africa heat disease ecofin enawo grindings mondelez crop attribution nestl average university spring 081001">
 <time class="cdate" datetime="2026-09-30">30 September 2026</time>
 <span class="ctag"><span class="sr-only">Topic: </span>Agriculture &amp; Fertilisers</span>
@@ -1954,6 +1994,8 @@
 <span class="cgeo"><span class="sr-only">About: </span>European Union, United States</span>
 </span>
 </li>
+</ul></div>
+<div class="cdayg" data-date="2026-09-29"><h4 class="cday" id="gs-d-2026-09-29">Tuesday 29 September 2026<span class="cday-n"> &middot; 1 article</span></h4><ul class="crows" aria-labelledby="gs-d-2026-09-29">
 <li class="crow" data-ym="2026-09" data-date="2026-09-29" data-topic="Macroeconomics &amp; Monetary Policy" data-kw="nation rate true flat take even singapore actually september countries usually aren either already experiment paper said regressivity problem doesn away just caveats tobacco zero-rated gini single-rate carve-outs cbic masala exempt inequality residential services zealand council tax-advisory luxury compensation-cess oecd subramanian chile education rents rough-diamond slabs deferred merit committee jewellery population consumption demerit pan-masala point-of-sale-rebate poorer rate-tiering financial rates progressive">
 <time class="cdate" datetime="2026-09-29">29 September 2026</time>
 <span class="ctag"><span class="sr-only">Topic: </span>Macroeconomics &amp; Monetary Policy</span>
@@ -1963,6 +2005,8 @@
 <span class="crel-lbl">Related</span> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/08/would-more-sgst-fix-donor-state-problem.html">Would More SGST Fix the &quot;Donor State&quot; Problem? Ethanol Shows Why the Real Lever Sits Elsewhere</a> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/08/who-collects-indias-gst-and-who.html">Who Collects India&#x27;s GST, and Who Actually Gets It Back</a> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/08/uttar-pradeshs-gst-puzzle-growing.html">Uttar Pradesh&#x27;s GST Puzzle: A Growing Economy That Had a Terrible Year, and Then Didn&#x27;t</a>
 </span>
 </li>
+</ul></div>
+<div class="cdayg" data-date="2026-09-28"><h4 class="cday" id="gs-d-2026-09-28">Monday 28 September 2026<span class="cday-n"> &middot; 7 articles</span></h4><ul class="crows" aria-labelledby="gs-d-2026-09-28">
 <li class="crow" data-ym="2026-09" data-date="2026-09-28" data-topic="Energy &amp; Fuels" data-kw="gail sumitomo turned trualt mous binding deals within bpcl gone quiet three unfinished courtships company term sheet completed deal eighteen months pattern inked tokyo announced just silence caveats leafiniti non-binding equity bioenergy venture sumi agreement disclosed crisil stake concurrence dipam ethanol-supply government-approved subscription-cum-shareholders surpass signed joint bagalkot oceania lapsed corporation arrangement limited contingent diligence pre-existing">
 <time class="cdate" datetime="2026-09-28">28 September 2026</time>
 <span class="ctag"><span class="sr-only">Topic: </span>Energy &amp; Fuels</span>
@@ -2013,6 +2057,8 @@
 <span class="ctag"><span class="sr-only">Topic: </span>Equity Markets &amp; Stock Screening</span>
 <a class="ctitle" href="https://masaladeutsch.blogspot.com/2026/09/indias-live-ipo-queue-has-232-companies.html">India&#x27;s Live IPO Queue Has 232 Companies in It. Power and Renewables Outnumbers Oil and Gas Nearly 5 to 1.</a>
 </li>
+</ul></div>
+<div class="cdayg" data-date="2026-09-27"><h4 class="cday" id="gs-d-2026-09-27">Sunday 27 September 2026<span class="cday-n"> &middot; 3 articles</span></h4><ul class="crows" aria-labelledby="gs-d-2026-09-27">
 <li class="crow" data-ym="2026-09" data-date="2026-09-27" data-topic="Energy &amp; Fuels" data-kw="imports cooking four redesigned stoves trying actually sale burner blend exists body readers never heard hydrogen three genuinely different things sharing headline ethanol methanol real product without program behind redesigns already market comparison caveats lerc cylinder stove simi hydrogen-blended cookstoves kitchens efficiency blending cylinders ether csir dimethyl combustion blended appliance hormuz study bench-scale bis-equivalent cooktop csir-ncl elastomer-compatibility explosion-sensitivity greenvize nutan thermal-efficiency pilot computational gema kawas mission-mode sealed strait">
 <time class="cdate" datetime="2026-09-27">27 September 2026</time>
 <span class="ctag"><span class="sr-only">Topic: </span>Energy &amp; Fuels</span>
@@ -2039,11 +2085,15 @@
 <span class="crel-lbl">Related</span> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/08/interest-subvention-built-499-ethanol.html">Interest Subvention Built 499 Ethanol Distilleries. Viability Gap Funding Built One Working 2G Plant.</a> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/10/cotton-stalk-is-one-of-hardest-crop.html">Cotton Stalk Is One of the Hardest Crop Wastes to Turn Into Gas. The Manure Left Over Is What India&#x27;s Tired Fields Need.</a> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/08/379-kilos-hectare-in-punjab-44-in.html">379 Kilos a Hectare in Punjab, 44 in Kerala: India&#x27;s Urea Map Is a Crop Map</a>
 </span>
 </li>
+</ul></div>
+<div class="cdayg" data-date="2026-09-26"><h4 class="cday" id="gs-d-2026-09-26">Saturday 26 September 2026<span class="cday-n"> &middot; 1 article</span></h4><ul class="crows" aria-labelledby="gs-d-2026-09-26">
 <li class="crow" data-ym="2026-09" data-date="2026-09-26" data-topic="Agriculture &amp; Fertilisers" data-kw="irrigation system recovered running costs recovers generous measure still failing collapse partial recovery series spending side adds piece persists current doesn follow caveats aibp expenses canal potential hectares springer pmksy water created bathla kannan receipts recovery-rate utilised fees jamrani kosi-mechi less-developed network-egress potential-created working-expenses-only corresponded triennium financial gross cost-recovery forgiving governance recover abstract agricultural thousand commission ultimate researchgate">
 <time class="cdate" datetime="2026-09-26">26 September 2026</time>
 <span class="ctag"><span class="sr-only">Topic: </span>Agriculture &amp; Fertilisers</span>
 <a class="ctitle" href="https://masaladeutsch.blogspot.com/2026/09/indias-irrigation-system-recovered-96.html">India&#x27;s Irrigation System Recovered 96% of Its Running Costs in 1975. It Recovers About 7% Now.</a>
 </li>
+</ul></div>
+<div class="cdayg" data-date="2026-09-24"><h4 class="cday" id="gs-d-2026-09-24">Thursday 24 September 2026<span class="cday-n"> &middot; 3 articles</span></h4><ul class="crows" aria-labelledby="gs-d-2026-09-24">
 <li class="crow" data-ym="2026-09" data-date="2026-09-24" data-topic="Ease of Doing Business &amp; Regulatory Reform" data-kw="doesn quality regulator just repealed itself started four-layer stack nobody explains front layer heard holding every mark voluntary until notification makes illegal three recent changes real anymore means anyone actually trying sell something piece establish caveats scheme-x fssai certification accreditation agmark nabcb repository certifiers nabl repeal nabh bodies docs metrology boards nabet marks labs statutory control product accredited cdsco acts trade-compliance gazette compulsory regulators order apex certifies packaged accredits logo">
 <time class="cdate" datetime="2026-09-24">24 September 2026</time>
 <span class="ctag"><span class="sr-only">Topic: </span>Ease of Doing Business &amp; Regulatory Reform</span>
@@ -2067,6 +2117,8 @@
 <span class="crel-lbl">Related</span> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/09/kpler-and-vortexa-track-every-barrel.html">Kpler and Vortexa Track Every Barrel India Imports. Nobody Tracks Its Cooking-Oil Waste the Same Way.</a> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/08/winter-is-coming-for-europes-landlocked.html">Half-Empty Terminals, Costlier Pipes: Winter Comes for Europe&#x27;s Landlocked Five</a> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/08/europe-bought-record-amount-of-lng-and.html">Europe Bought a Record Amount of LNG and Made Itself Dependent on One Supplier</a>
 </span>
 </li>
+</ul></div>
+<div class="cdayg" data-date="2026-09-23"><h4 class="cday" id="gs-d-2026-09-23">Wednesday 23 September 2026<span class="cday-n"> &middot; 4 articles</span></h4><ul class="crows" aria-labelledby="gs-d-2026-09-23">
 <li class="crow" data-ym="2026-09" data-date="2026-09-23" data-topic="City Gas Distribution" data-kw="compressed biogas plants running pipeline actually reaches functional mean connected mandate assumes pipe exists scale opportunity measured against legislature piece doesn cover connectivity constituencies seats satat sabha elected pipeline-connected pngrb districts plant district commissioned assembly proximity constituency geographic network feasibility count delimitation one-per-constituency one-per-district plant-count mapping rajya siting odop obligation blending mid-2024 regulator legislative blend bio-gas">
 <time class="cdate" datetime="2026-09-23">23 September 2026</time>
 <span class="ctag"><span class="sr-only">Topic: </span>City Gas Distribution</span>
@@ -2099,6 +2151,8 @@
 <span class="crel-lbl">Related</span> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/08/would-more-sgst-fix-donor-state-problem.html">Would More SGST Fix the &quot;Donor State&quot; Problem? Ethanol Shows Why the Real Lever Sits Elsewhere</a> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/08/the-software-behind-still-whats.html">The Software Behind the Still: What&#x27;s Actually Digitising India&#x27;s Ethanol and Biofuel Supply Chain</a> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/09/the-reactor-nobody-names-how-coal.html">The Reactor Nobody Names: How Coal Becomes Syngas, and Why India&#x27;s Flagship Plant Runs on Someone Else&#x27;s Technology</a>
 </span>
 </li>
+</ul></div>
+<div class="cdayg" data-date="2026-09-22"><h4 class="cday" id="gs-d-2026-09-22">Tuesday 22 September 2026<span class="cday-n"> &middot; 1 article</span></h4><ul class="crows" aria-labelledby="gs-d-2026-09-22">
 <li class="crow" data-ym="2026-09" data-date="2026-09-22" data-topic="Energy &amp; Fuels" data-kw="nobody blockaded hormuz slow india-europe trade corridor meant bypass getting built faster anyway actually happened order literature says imec happening europe used exactly chartered companies carrier groups longer throughline postscript prize courts piracy coin president face piece doesn cover blockade iran naval chokepoint war-risk india-eu atlantic india-asia-europe strait concluded seas lane lanes fought gulf cargo amboyna anglo-dutch globalization guarantor marque prize-law rivalry seize began freedom english wars council crisis operation conflict disruption maritime 2219065">
 <time class="cdate" datetime="2026-09-22">22 September 2026</time>
 <span class="ctag"><span class="sr-only">Topic: </span>Energy &amp; Fuels</span>
@@ -2107,6 +2161,8 @@
 <span class="cgeo"><span class="sr-only">About: </span>European Union, United States</span>
 </span>
 </li>
+</ul></div>
+<div class="cdayg" data-date="2026-09-21"><h4 class="cday" id="gs-d-2026-09-21">Monday 21 September 2026<span class="cday-n"> &middot; 2 articles</span></h4><ul class="crows" aria-labelledby="gs-d-2026-09-21">
 <li class="crow" data-ym="2026-09" data-date="2026-09-21" data-topic="Energy &amp; Fuels" data-kw="wants isobutanol diesel fuel built domestic supply chain neither alcohol becomes commercial-scale plants chose ethanol gevo pivot tell pivoted twice already testing quieter thread correcting record madras production base piece doesn cover dakota lanzajet alcohol-to-jet northstar challenge butanol company-stated net-zero flight bloom jetbio lanzatech petrobras richardton speedbird ignite bio-based astm praj honeywell annex swedish grand airasia georgia preston plant isobutanol-diesel isobutanol-to-jet luverne paulo d7566 paul planned">
 <time class="cdate" datetime="2026-09-21">21 September 2026</time>
 <span class="ctag"><span class="sr-only">Topic: </span>Energy &amp; Fuels</span>
@@ -2123,6 +2179,8 @@
 <span class="cgeo"><span class="sr-only">About: </span>South Korea, China</span>
 </span>
 </li>
+</ul></div>
+<div class="cdayg" data-date="2026-09-19"><h4 class="cday" id="gs-d-2026-09-19">Saturday 19 September 2026<span class="cday-n"> &middot; 5 articles</span></h4><ul class="crows" aria-labelledby="gs-d-2026-09-19">
 <li class="crow" data-ym="2026-09" data-date="2026-09-19" data-topic="Agriculture &amp; Fertilisers" data-kw="tested soil twice second time machine chose spot april ministry words seam just upgrade headlines cross piece doesn cover icar card samples cards geo-mapped carbon sample manual organic-carbon auto-captured sampling organic health study location frame portal methods 2012238 2104403 cadastral cards-issued iiss pre-2023 pre-april-2023 soilhealth celebrating longitude typed bhopal district-level upgraded intervention coordinates operator description latitude">
 <time class="cdate" datetime="2026-09-19">19 September 2026</time>
 <span class="ctag"><span class="sr-only">Topic: </span>Agriculture &amp; Fertilisers</span>
@@ -2158,6 +2216,8 @@
 <span class="crel-lbl">Related</span> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/08/indias-coal-to-chemicals-menu-ranked-by.html">India&#x27;s Coal-to-Chemicals Menu, Ranked by What Actually Clears the Import Price</a> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/08/nature-versus-nurture-indias-fertiliser.html">Nature Versus Nurture: India&#x27;s Fertiliser-Fed Food Security</a> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/10/europe-wants-green-steel-it-cant-afford.html">Europe Wants Green Steel It Can’t Afford to Make. Why CBAM Should Be Rolled Out More Gently</a>
 </span>
 </li>
+</ul></div>
+<div class="cdayg" data-date="2026-09-18"><h4 class="cday" id="gs-d-2026-09-18">Friday 18 September 2026<span class="cday-n"> &middot; 3 articles</span></h4><ul class="crows" aria-labelledby="gs-d-2026-09-18">
 <li class="crow" data-ym="2026-09" data-date="2026-09-18" data-topic="Energy &amp; Fuels" data-kw="doesn tailpipe chemistry real number close zero unless your built actually measured points ladder energy-content ceiling pure physics predicts every point step combustion-co2 ladders nearly cancel bigger numbers come case against grain-based ethanol lifecycle good separated overstated takeaway related mileage blend arai petrol uncalibrated niti kilometre litre calibrated loss roadmap energy-ceiling octane siam vehicle benefit density burned calibration four-wheelers combustion blending tested aayog reductions c2h5oh c8h18 co2-per-km lifecycle-ghg feedstock-specific mileage-loss">
 <time class="cdate" datetime="2026-09-18">18 September 2026</time>
 <span class="ctag"><span class="sr-only">Topic: </span>Energy &amp; Fuels</span>
@@ -2176,6 +2236,8 @@
 <span class="ctag"><span class="sr-only">Topic: </span>Governance &amp; Institutions</span>
 <a class="ctitle" href="https://masaladeutsch.blogspot.com/2026/09/the-two-biggest-parties-in-parliament.html">The Two Biggest Parties in Parliament Ask About Everything. Everyone Else Doesn&#x27;t.</a>
 </li>
+</ul></div>
+<div class="cdayg" data-date="2026-09-17"><h4 class="cday" id="gs-d-2026-09-17">Thursday 17 September 2026<span class="cday-n"> &middot; 7 articles</span></h4><ul class="crows" aria-labelledby="gs-d-2026-09-17">
 <li class="crow" data-ym="2026-09" data-date="2026-09-17" data-topic="Agriculture &amp; Fertilisers" data-kw="plant-variety certificates cereals spice trade registry actually contains comes bundled holds doesn show takeaway related breeding varieties homepage spices crops authority variety extant registration-type medicinal flowers plantauthority crop aromatic trees doctrine certificate eight cash intermittently spice-export book rights category export bred oilseeds earns legumes protection invoked farmers fibre issued register fruits">
 <time class="cdate" datetime="2026-09-17">17 September 2026</time>
 <span class="ctag"><span class="sr-only">Topic: </span>Agriculture &amp; Fertilisers</span>
@@ -2215,6 +2277,8 @@
 <span class="ctag"><span class="sr-only">Topic: </span>Agriculture &amp; Fertilisers</span>
 <a class="ctitle" href="https://masaladeutsch.blogspot.com/2026/09/the-wage-beats-crop-in-survey-that.html">The Wage Beats the Crop — In the Survey That Leaves the Wage-Earners Out</a>
 </li>
+</ul></div>
+<div class="cdayg" data-date="2026-09-16"><h4 class="cday" id="gs-d-2026-09-16">Wednesday 16 September 2026<span class="cday-n"> &middot; 8 articles</span></h4><ul class="crows" aria-labelledby="gs-d-2026-09-16">
 <li class="crow" data-ym="2026-09" data-date="2026-09-16" data-topic="Chemicals" data-kw="reddy semaglutide guidance half impurity caught itself actually happened financial opportunity delayed instructive story just quarter related fy27 scale-up pens onesource provision patient-safety peptide batch novo validation laboratories recall batches pen-supply scale-specific stocktitan write-down specification synthetic investor halt process-engineering patent call glp-1 commercial pharma affected apis paracetamol resumption canada partner organisation issue profit">
 <time class="cdate" datetime="2026-09-16">16 September 2026</time>
 <span class="ctag"><span class="sr-only">Topic: </span>Chemicals</span>
@@ -2274,6 +2338,8 @@
 <span class="ctag"><span class="sr-only">Topic: </span>Healthcare</span>
 <a class="ctitle" href="https://masaladeutsch.blogspot.com/2026/09/sun-pharmas-1175bn-organon-bet-is.html">Sun Pharma&#x27;s $11.75bn Organon Bet Is Bigger Than the RBI Rule Written to Fund It</a>
 </li>
+</ul></div>
+<div class="cdayg" data-date="2026-09-15"><h4 class="cday" id="gs-d-2026-09-15">Tuesday 15 September 2026<span class="cday-n"> &middot; 11 articles</span></h4><ul class="crows" aria-labelledby="gs-d-2026-09-15">
 <li class="crow" data-ym="2026-09" data-date="2026-09-15" data-topic="Industrial Policy" data-kw="coal-freight railway line acquired farm plot time corridor fourth section actually authorises gondia tumkheda dongargarh railways landholders village acquisition survey parcels freight tehsil coal competent hectares land abbreviation goregaon jahirchand landholder nagpure tirora notification schedule east mtpa corridors crores smallest busiest objections project cement officer south land-acquisition scan length">
 <time class="cdate" datetime="2026-09-15">15 September 2026</time>
 <span class="ctag"><span class="sr-only">Topic: </span>Industrial Policy</span>
@@ -2354,6 +2420,8 @@
 <span class="cgeo"><span class="sr-only">About: </span>Chhattisgarh</span>
 </span>
 </li>
+</ul></div>
+<div class="cdayg" data-date="2026-09-14"><h4 class="cday" id="gs-d-2026-09-14">Monday 14 September 2026<span class="cday-n"> &middot; 3 articles</span></h4><ul class="crows" aria-labelledby="gs-d-2026-09-14">
 <li class="crow" data-ym="2026-09" data-date="2026-09-14" data-topic="Climate &amp; Carbon" data-kw="electrification biggest decarbonization lever grid actually limits sits five levers standout replacing turbine motor costs case combined cycle step doesn need connection cooling least settled question list carbon capture backstop first move follow caveats co2e canada co2-equivalent columbia kitimat hydro turbines electric emissions british train gas-turbine-driven efficiency woodfibre trains drive liquefaction phase freeport rasgas ruwais starter-helper gas-turbine electric-motor-driven compressors aeroderivative all-electric best-in-class condensing electric-motor toshiba heat power facilities">
 <time class="cdate" datetime="2026-09-14">14 September 2026</time>
 <span class="ctag"><span class="sr-only">Topic: </span>Climate &amp; Carbon</span>
@@ -2380,6 +2448,8 @@
 <span class="crel-lbl">Related</span> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/09/kpler-and-vortexa-track-every-barrel.html">Kpler and Vortexa Track Every Barrel India Imports. Nobody Tracks Its Cooking-Oil Waste the Same Way.</a> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/08/nature-versus-nurture-indias-fertiliser.html">Nature Versus Nurture: India&#x27;s Fertiliser-Fed Food Security</a> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/08/europe-bought-record-amount-of-lng-and.html">Europe Bought a Record Amount of LNG and Made Itself Dependent on One Supplier</a>
 </span>
 </li>
+</ul></div>
+<div class="cdayg" data-date="2026-09-13"><h4 class="cday" id="gs-d-2026-09-13">Sunday 13 September 2026<span class="cday-n"> &middot; 1 article</span></h4><ul class="crows" aria-labelledby="gs-d-2026-09-13">
 <li class="crow" data-ym="2026-09" data-date="2026-09-13" data-topic="Climate &amp; Carbon" data-kw="delhi smog towers failed test year-old army programme didn ridge territorial survival saplings algae algaetree ecological bhatti contempt trees carbelim connaught dera felling naam forest afforestation tower battalion zaara court plantation planted cerca flyover obelia purifiers mandi supreme bhopal jaipur ambient bioreactor co2-capture csir-neeri deployment">
 <time class="cdate" datetime="2026-09-13">13 September 2026</time>
 <span class="ctag"><span class="sr-only">Topic: </span>Climate &amp; Carbon</span>
@@ -2388,6 +2458,8 @@
 <span class="cgeo"><span class="sr-only">About: </span>Maharashtra</span>
 </span>
 </li>
+</ul></div>
+<div class="cdayg" data-date="2026-09-12"><h4 class="cday" id="gs-d-2026-09-12">Saturday 12 September 2026<span class="cday-n"> &middot; 1 article</span></h4><ul class="crows" aria-labelledby="gs-d-2026-09-12">
 <li class="crow" data-ym="2026-09" data-date="2026-09-12" data-topic="India Trade &amp; Policy" data-kw="three tariff regimes supreme court ruling reshaped hits exports walmart ieepa usitc countervailing tariffs canada duty blanket antidumping kpmg shrimp goods blanket-tariff section statute commerce forced-labor preliminary orders bangladesh vietnam canadian trump solar eapa finalized us-canada country-of-origin duties refund rate thirteen order turkey evasion expired">
 <time class="cdate" datetime="2026-09-12">12 September 2026</time>
 <span class="ctag"><span class="sr-only">Topic: </span>India Trade &amp; Policy</span>
@@ -2397,6 +2469,8 @@
 <span class="crel-lbl">Related</span> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/08/chemical-import-substitution-full-hsn-8_01082878313.html">Chemical Import Substitution: the Full 827-Code Data Tables</a> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/08/priority-export-destinations-by-growth.html">Priority Export Destinations by Growth Sector, &amp; Real PLI Coverage</a> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/09/india-leads-world-in-jute-and-ranks.html">India Leads the World in Jute and Ranks Second in Silk. Neither Fact Means What It Sounds Like.</a>
 </span>
 </li>
+</ul></div>
+<div class="cdayg" data-date="2026-09-11"><h4 class="cday" id="gs-d-2026-09-11">Friday 11 September 2026<span class="cday-n"> &middot; 3 articles</span></h4><ul class="crows" aria-labelledby="gs-d-2026-09-11">
 <li class="crow" data-ym="2026-09" data-date="2026-09-11" data-topic="Defence" data-kw="alimco jaipur foot bionic artificial-limb system adip bmvss limbs prosthetic bionics depwd echs prosthetics sensing limb clinic device aids biomedical bionicm mk-i ssur veterans medical devices motorised next-gen phoenix empowerment knee aether hanger ottobock psyonic beneficiaries pune saksham hand rehabilitation artificial">
 <time class="cdate" datetime="2026-09-11">11 September 2026</time>
 <span class="ctag"><span class="sr-only">Topic: </span>Defence</span>
@@ -2418,6 +2492,8 @@
 <span class="ctag"><span class="sr-only">Topic: </span>Circularity &amp; Waste-to-Value</span>
 <a class="ctitle" href="https://masaladeutsch.blogspot.com/2026/09/the-solar-panel-recycling-opportunity.html">The Solar Panel Recycling Opportunity, and the Storage Mandate Sitting in Front of It</a>
 </li>
+</ul></div>
+<div class="cdayg" data-date="2026-09-10"><h4 class="cday" id="gs-d-2026-09-10">Thursday 10 September 2026<span class="cday-n"> &middot; 2 articles</span></h4><ul class="crows" aria-labelledby="gs-d-2026-09-10">
 <li class="crow" data-ym="2026-09" data-date="2026-09-10" data-topic="Industrial Policy" data-kw="endoscopes never made list export coverage didn need contradiction chart actually inside line applicant next door scheme named future demand side keeps climbing product category splitting three bottom pli-md smdi endoscope device capsule endoscopy olympus accessories single-use japan-dominated devices pacemakers applicants rigid scope pharmaceuticals medical flexible urology disposable components imaging colonoscopy endoscopic flexible-endoscope fujifilm infection medtronic nppa pillcam pli-covered tradestat scopes 2227618 cat-b optics 15796107 2204598">
 <time class="cdate" datetime="2026-09-10">10 September 2026</time>
 <span class="ctag"><span class="sr-only">Topic: </span>Industrial Policy</span>
@@ -2431,6 +2507,8 @@
 <span class="ctag"><span class="sr-only">Topic: </span>Agriculture &amp; Fertilisers</span>
 <a class="ctitle" href="https://masaladeutsch.blogspot.com/2026/09/indias-draft-seeds-bill-cuts-states.html">India&#x27;s Draft Seeds Bill Cuts States&#x27; Committee Seats From 22 to 5. That&#x27;s the Provision Farmer Groups Are Actually Fighting.</a>
 </li>
+</ul></div>
+<div class="cdayg" data-date="2026-09-09"><h4 class="cday" id="gs-d-2026-09-09">Wednesday 9 September 2026<span class="cday-n"> &middot; 3 articles</span></h4><ul class="crows" aria-labelledby="gs-d-2026-09-09">
 <li class="crow" data-ym="2026-09" data-date="2026-09-09" data-topic="Energy &amp; Fuels" data-kw="vision needing mmscmd actual demand quarter report actually projected full trajectory happened even might reach number didn fights supposed doesn follow caveats pngrb projection pipeline utilisation industry-group consumption sequel ppac expected demand-supply actual-consumption tapi gas-pipeline projections entry-exit five-to-six-year unbundling grid search-based companion pipelines decade authorised gas-fired mmscm operational expert fertiliser city committee fy2023-24 predicted build-out network tier authors">
 <time class="cdate" datetime="2026-09-09">9 September 2026</time>
 <span class="ctag"><span class="sr-only">Topic: </span>Energy &amp; Fuels</span>
@@ -2456,6 +2534,8 @@
 <span class="crel-lbl">Related</span> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/08/nature-versus-nurture-indias-fertiliser.html">Nature Versus Nurture: India&#x27;s Fertiliser-Fed Food Security</a> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/10/india-has-27400-km-of-gas-pipeline.html">India Has 28,000 km of Gas Pipeline Working and 7,000 km Still to Build. A Map of Where, and of the Lines Still on Paper</a> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/09/a-2013-vision-saw-india-needing-746.html">A 2013 Vision Saw India Needing 746 MMSCMD of Gas by 2030. Actual Demand Is About a Quarter of That</a>
 </span>
 </li>
+</ul></div>
+<div class="cdayg" data-date="2026-09-08"><h4 class="cday" id="gs-d-2026-09-08">Tuesday 8 September 2026<span class="cday-n"> &middot; 5 articles</span></h4><ul class="crows" aria-labelledby="gs-d-2026-09-08">
 <li class="crow" data-ym="2026-09" data-date="2026-09-08" data-topic="Energy &amp; Fuels" data-kw="piping fuel five airports once pipe already pipeline lines timed expanding regulatory shift captive line open doesn follow caveats airport pngrb jewar mmtpa palwal pipelines mopa mumbai navi piyala bhogapuram authorised committee bijwasan bengaluru utilisation terminal proposal hyderabad authorisation consultation bpcl lucknow stakeholder tanker length expert farm capacity kochi hirasar tanker-fed dedicated confirmed petroleum-product fy26">
 <time class="cdate" datetime="2026-09-08">8 September 2026</time>
 <span class="ctag"><span class="sr-only">Topic: </span>Energy &amp; Fuels</span>
@@ -2497,6 +2577,8 @@
 <span class="crel-lbl">Related</span> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/09/mapping-indias-other-pipelines-every.html">Mapping India&#x27;s Other Pipelines: Every Major Crude, Petrol-Diesel and LPG Line, By Company</a> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/09/lng-trucks-cost-about-what-diesel-does.html">LNG Trucks Cost About What Diesel Does. GreenLine, Delhivery and UltraTech Are Scaling Them Anyway.</a> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/08/028-unit-diesel-math-behind-indias-data.html">$0.28 a Unit: The Diesel Math Behind India&#x27;s Data Centres and Telecom Towers, and Why It&#x27;s Already Losing</a>
 </span>
 </li>
+</ul></div>
+<div class="cdayg" data-date="2026-09-05"><h4 class="cday" id="gs-d-2026-09-05">Saturday 5 September 2026<span class="cday-n"> &middot; 2 articles</span></h4><ul class="crows" aria-labelledby="gs-d-2026-09-05">
 <li class="crow" data-ym="2026-09" data-date="2026-09-05" data-topic="Agriculture &amp; Fertilisers" data-kw="nation ration card doesn move grain ethanol tenders onorc actually changes mechanically actual scale system side moving target demand number real different figures easy conflate tender sugar mills allocation swung reconciliation change rice rule question interesting food-security caveat storage plan meant hold usually described economists flagging caution debate already produced wildly inflated follow caveats isma gema portability distillers stock surplus whole-grain wheat central-pool food quintal roadmap search-indexed broken-grain grain-based buffer maize interstate nfsa feedstock acquisition pacs im-pds tumbe norm clause omss intra-state buffer-norm tension litres">
 <time class="cdate" datetime="2026-09-05">5 September 2026</time>
 <span class="ctag"><span class="sr-only">Topic: </span>Agriculture &amp; Fertilisers</span>
@@ -2515,11 +2597,15 @@
 <span class="crel-lbl">Related</span> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/10/india-has-27400-km-of-gas-pipeline.html">India Has 28,000 km of Gas Pipeline Working and 7,000 km Still to Build. A Map of Where, and of the Lines Still on Paper</a> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/09/oisd-writes-indias-oil-safety-rules-api.html">OISD Writes India&#x27;s Oil-Safety Rules. API Just Signed FIPI Up to Help Its Own Standards Reach Further.</a> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/08/nature-versus-nurture-indias-fertiliser.html">Nature Versus Nurture: India&#x27;s Fertiliser-Fed Food Security</a>
 </span>
 </li>
+</ul></div>
+<div class="cdayg" data-date="2026-09-04"><h4 class="cday" id="gs-d-2026-09-04">Friday 4 September 2026<span class="cday-n"> &middot; 1 article</span></h4><ul class="crows" aria-labelledby="gs-d-2026-09-04">
 <li class="crow" data-ym="2026-09" data-date="2026-09-04" data-topic="Ease of Doing Business &amp; Regulatory Reform" data-kw="interpreting gazette notification invisible link single tell tool actually trail reader extensions tribunal never finished real record-holder amendments rulebook published twice quietly withdrawn second deadline keeps moving aadhaar seeding ration cards office governs everyone else paperwork ministries differ patch replace whole honest kept committee crosses ministry reorganization piece verified itself took faith doesn follow caveats notifications amends egazette cross-references pass supersedes edges project modeled beas rescinds citation database chain dataset two-file rebuild ayush seed rescinded dopt relation ravi amended repeals rebuilt cross-reference extension schema publication aggregator provenance-tier">
 <time class="cdate" datetime="2026-09-04">4 September 2026</time>
 <span class="ctag"><span class="sr-only">Topic: </span>Ease of Doing Business &amp; Regulatory Reform</span>
 <a class="ctitle" href="https://masaladeutsch.blogspot.com/2026/09/interpreting-gazette-notification.html">Interpreting the Gazette Notification</a>
 </li>
+</ul></div>
+<div class="cdayg" data-date="2026-09-03"><h4 class="cday" id="gs-d-2026-09-03">Thursday 3 September 2026<span class="cday-n"> &middot; 5 articles</span></h4><ul class="crows" aria-labelledby="gs-d-2026-09-03">
 <li class="crow" data-ym="2026-09" data-date="2026-09-03" data-topic="Industrial Policy" data-kw="everyone worries pays pipelines cheap part count existing network definition bridging sink actually means pipeline cost itself choice moves storage potential three numbers different scopes real driver capture scheme hub-and-cluster model regulatory capital math current ambition doesn follow caveats ccus ceew right-of-way niti basalt all-in aayog saline search-indexed pngrb peer-reviewed formations roadmap co2-specific india-specific viable transport underground subsurface geological blocked trunk common-carrier aquifers commonly-cited basins mopng draft common-carriage multi-shipper framework fetch">
 <time class="cdate" datetime="2026-09-03">3 September 2026</time>
 <span class="ctag"><span class="sr-only">Topic: </span>Industrial Policy</span>
@@ -2562,6 +2648,8 @@
 <span class="crel-lbl">Related</span> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/08/where-indias-factories-actually-get.html">Where India’s Factories Actually Get Built — IEM State &amp; Sector Analysis</a> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/08/securitising-deficit-what-it-would.html">Is India a Dollar Salesman? China Sold the Yuan to BRICS as a Payment Rail — and Russia Still Put Its Savings in Gold</a> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/08/indias-state-incentive-war-gujarats.html">India&#x27;s State Incentive War: Gujarat&#x27;s Execution Edge, Karnataka&#x27;s FDI Inversion, and Why Nobody Can Tell You Who Actually Got Paid</a>
 </span>
 </li>
+</ul></div>
+<div class="cdayg" data-date="2026-09-02"><h4 class="cday" id="gs-d-2026-09-02">Wednesday 2 September 2026<span class="cday-n"> &middot; 4 articles</span></h4><ul class="crows" aria-labelledby="gs-d-2026-09-02">
 <li class="crow" data-ym="2026-09" data-date="2026-09-02" data-topic="Energy &amp; Fuels" data-kw="awarded oalp blocks pledges production runs process doesn decision help actually nelp regime company gets block parallel older track coal methane bidding award relinquishment actual lifecycle substantial royalty real story barely started follow caveats exploration round discoveries rounds ultra-deepwater evaluation basins acreage sharing contract lease deepwater psuwatch portion i-viii hydrocarbons license shallow-water discoveryalert indexed onshore procedure bonus dghindia corroborated contractor revenue abandonment onland">
 <time class="cdate" datetime="2026-09-02">2 September 2026</time>
 <span class="ctag"><span class="sr-only">Topic: </span>Energy &amp; Fuels</span>
@@ -2594,6 +2682,8 @@
 <span class="crel-lbl">Related</span> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/08/where-indias-green-hydrogen-bets-are.html">Where India&#x27;s Green Hydrogen Bets Are Actually Landing: A State-by-State Map of the Pipeline</a> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/08/the-levelised-cost-of-hydrogen.html">The Levelised Cost of Hydrogen, Explained: What It Would Actually Take to Hit India&#x27;s $1.50/kg Target</a> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/08/the-hydrogen-bill-hiding-inside-indias.html">The Hydrogen Bill Hiding Inside India&#x27;s Sustainable Aviation Fuel Mandate</a>
 </span>
 </li>
+</ul></div>
+<div class="cdayg" data-date="2026-09-01"><h4 class="cday" id="gs-d-2026-09-01">Tuesday 1 September 2026<span class="cday-n"> &middot; 8 articles</span></h4><ul class="crows" aria-labelledby="gs-d-2026-09-01">
 <li class="crow" data-ym="2026-09" data-date="2026-09-01" data-topic="Energy &amp; Fuels" data-kw="brazil pumps every station equipment behind part story skips actually comes brazilian pump today fifty shock flex-fuel fleet dispenser itself survive builds supplier claims checked problem earlier stage doesn follow caveats inmetro portaria companytec wertco gasolina gilbarco certification ethanol e100 bennett brasil blend dispensing petrol fueling lcool ornl veeder-root wayne metrology hydraulics neoprene-seal fuel dispensers meter high-blend blends solutions flex retrofits band dover fuel-station-automation">
 <time class="cdate" datetime="2026-09-01">1 September 2026</time>
 <span class="ctag"><span class="sr-only">Topic: </span>Energy &amp; Fuels</span>
@@ -2659,8 +2749,9 @@
 <span class="crel-lbl">Related</span> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/08/the-ethanol-sectors-buyers-market.html">The Ethanol Sector&#x27;s Buyers&#x27; Market: Overcapacity, Cooperative Mills, and the M&amp;A Window</a> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/08/sugarcanes-third-claimant-whats.html">Sugarcane&#x27;s Third Claimant: What&#x27;s Actually Being Fermented Into India&#x27;s First PLA Plant</a> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/08/sugar-at-5570-kilo-why-cane-acreage.html">Sugar at ₹55.70 a Kilo: Why Cane Acreage Isn&#x27;t Growing, and Ethanol Is Losing the Diversion Race</a>
 </span>
 </li>
-</ul></div>
-<div class="cmonth" data-ym="2026-08"><h3 class="cgroup" id="gs-m-2026-08"><span>August 2026</span><span class="cgroup-n">212 articles</span></h3><ul class="crows" aria-labelledby="gs-m-2026-08">
+</ul></div></div>
+<div class="cmonth" data-ym="2026-08"><h3 class="cgroup" id="gs-m-2026-08"><span>August 2026</span><span class="cgroup-n">212 articles</span></h3>
+<div class="cdayg" data-date="2026-08-31"><h4 class="cday" id="gs-d-2026-08-31">Monday 31 August 2026<span class="cday-n"> &middot; 1 article</span></h4><ul class="crows" aria-labelledby="gs-d-2026-08-31">
 <li class="crow" data-ym="2026-08" data-date="2026-08-31" data-topic="Industrial Policy" data-kw="easiest conversion hasn happened fleet different opportunity private market starting point small madhya pradesh subsidise pilot city delhi sharper precedent mandate target strongest evidence aggregated demand made buses cheaper without subsidy national push behind minister letter doesn follow caveats electric cesl pm-ebus sewa vehicles e-drive cities electrification eesl government-fleet vehicle deadline government-owned ambulances fleets tender grand by-2030 follow-up cars hired six-versus-twelve-month then-union challenge registrations february e-buses ministers charging-infrastructure sanctioned fame contemporary two-wheelers 2154408">
 <time class="cdate" datetime="2026-08-31">31 August 2026</time>
 <span class="ctag"><span class="sr-only">Topic: </span>Industrial Policy</span>
@@ -2670,6 +2761,8 @@
 <span class="crel-lbl">Related</span> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/08/state-by-state-who-actually-earns-from.html">State by State: Who Actually Earns from Ethanol Blending? SGST Scenarios, E10-E30</a> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/09/lng-trucks-cost-about-what-diesel-does.html">LNG Trucks Cost About What Diesel Does. GreenLine, Delhivery and UltraTech Are Scaling Them Anyway.</a> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/10/indias-new-car-rules-count-every-ev-as.html">India&#x27;s New Car Rules Count Every EV as Three Cars. Europe, the US and China Used Smaller Multipliers, Then Phased Them Out.</a>
 </span>
 </li>
+</ul></div>
+<div class="cdayg" data-date="2026-08-30"><h4 class="cday" id="gs-d-2026-08-30">Sunday 30 August 2026<span class="cday-n"> &middot; 11 articles</span></h4><ul class="crows" aria-labelledby="gs-d-2026-08-30">
 <li class="crow" data-ym="2026-08" data-date="2026-08-30" data-topic="Agriculture &amp; Fertilisers" data-kw="wine market behind wall deal cracks small argue absolute terms river valley third watching sidelines tamil nadu three companies left supposed bring down carrot-and-stick anecdote industry history actually drinking doesn follow caveats sula winery grape vineyards nashik theni grapes sauvignon wineries elite fratelli grover hampi vineyard zampa hills spirits karnataka alcoholic-beverage anamalayanpatti bijapur wto-bound fy2021 fy2022 excise horticulture maharashtra mid-range millilitres force tariff per-capita european acres apeda beer ratification 1832846">
 <time class="cdate" datetime="2026-08-30">30 August 2026</time>
 <span class="ctag"><span class="sr-only">Topic: </span>Agriculture &amp; Fertilisers</span>
@@ -2756,6 +2849,8 @@
 <span class="cgeo"><span class="sr-only">About: </span>West Bengal, Odisha</span>
 </span>
 </li>
+</ul></div>
+<div class="cdayg" data-date="2026-08-29"><h4 class="cday" id="gs-d-2026-08-29">Saturday 29 August 2026<span class="cday-n"> &middot; 2 articles</span></h4><ul class="crows" aria-labelledby="gs-d-2026-08-29">
 <li class="crow" data-ym="2026-08" data-date="2026-08-29" data-topic="India" data-kw="amrut urban portfolio water supply projects money four components carries project count tell caveats mohua septage sewerage rejuv wise water-supply rejuvenation rollup housing capital-intensive universe awarded rural body parks jeevan approvedprojects encrypted non-sequential rural-water milestone drilling status affairs space cross-checks contract no-login portal sanctioned pradesh graded">
 <time class="cdate" datetime="2026-08-29">29 August 2026</time>
 <span class="ctag"><span class="sr-only">Topic: </span>India</span>
@@ -2769,6 +2864,8 @@
 <span class="ctag"><span class="sr-only">Topic: </span>India</span>
 <a class="ctitle" href="https://masaladeutsch.blogspot.com/2026/08/indias-79-lakh-crore-rural-water.html">India&#x27;s ₹7.9 Lakh Crore Rural Water Pipeline: What &#x27;Upcoming&#x27; Actually Means, State by State</a>
 </li>
+</ul></div>
+<div class="cdayg" data-date="2026-08-28"><h4 class="cday" id="gs-d-2026-08-28">Friday 28 August 2026<span class="cday-n"> &middot; 6 articles</span></h4><ul class="crows" aria-labelledby="gs-d-2026-08-28">
 <li class="crow" data-ym="2026-08" data-date="2026-08-28" data-topic="Climate &amp; Carbon" data-kw="actually plans zero eleven scenarios rising coal curve carbon capture scenario-modelling capacity comes summarised line every scenario agrees goes down ccus fits technology quarter industry electrify commitments underneath financing adaptation picture headline numbers caveats cement niti aayog graded climate viksit lt-leds trillion mission gigatonnes non-fossil subrahmanyam sectoral strong power release budget drawn nmskcc test-beds vols insights electrification gigatonne one-quarter unfccc moderate roadmap 2225617 2226683 2245209 2198607 2128620 2221676 2097862 2221455 2224893 2093760">
 <time class="cdate" datetime="2026-08-28">28 August 2026</time>
 <span class="ctag"><span class="sr-only">Topic: </span>Climate &amp; Carbon</span>
@@ -2816,6 +2913,8 @@
 <span class="crel-lbl">Related</span> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/09/the-reactor-nobody-names-how-coal.html">The Reactor Nobody Names: How Coal Becomes Syngas, and Why India&#x27;s Flagship Plant Runs on Someone Else&#x27;s Technology</a> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/08/price-is-wire-how-gcam-actually-links.html">Price Is the Wire: How GCAM Actually Links India&#x27;s Energy, Land, Water and Economy to a Net-Zero Target</a> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/08/nine-ministries-one-list-every-company.html">India&#x27;s 14 PLI Schemes, and Every Company Publicly Named as a Winner, 2019–2026</a>
 </span>
 </li>
+</ul></div>
+<div class="cdayg" data-date="2026-08-27"><h4 class="cday" id="gs-d-2026-08-27">Thursday 27 August 2026<span class="cday-n"> &middot; 2 articles</span></h4><ul class="crows" aria-labelledby="gs-d-2026-08-27">
 <li class="crow" data-ym="2026-08" data-date="2026-08-27" data-topic="Chemicals" data-kw="coal-to-chemicals menu ranked actually clears import price syngas become finding come ranking mostly doesn itself extra handicap coal cheap hard gasify sorting reading money already agrees coal-intensity math scale betting caveats gasification bcgcl ammonium-nitrate methanol ammonia ammonium nitrate cgil coal-gasification cleantech project graded lakhanpur urea lignite olefins majri mtpa bhel acetic bhadravati utkarsh drawn projects demonstration ccus durgapur complex coalfields product amns bazari chandrapur coal-to-olefins monoethylene sonepur 2247912 2275757 2009826 2260621 2274888 2022344 2037489 2112723 2028176 2275058 2042019 2083788 1983068">
 <time class="cdate" datetime="2026-08-27">27 August 2026</time>
 <span class="ctag"><span class="sr-only">Topic: </span>Chemicals</span>
@@ -2834,6 +2933,8 @@
 <span class="crel-lbl">Related</span> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/10/indias-new-car-rules-count-every-ev-as.html">India&#x27;s New Car Rules Count Every EV as Three Cars. Europe, the US and China Used Smaller Multipliers, Then Phased Them Out.</a> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/08/vehicles-out-motors-in-indias-chapter.html">Vehicles Out, Motors In: India&#x27;s Chapter 87 Surplus and Its Chapter 85 Problem</a> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/09/the-reactor-nobody-names-how-coal.html">The Reactor Nobody Names: How Coal Becomes Syngas, and Why India&#x27;s Flagship Plant Runs on Someone Else&#x27;s Technology</a>
 </span>
 </li>
+</ul></div>
+<div class="cdayg" data-date="2026-08-26"><h4 class="cday" id="gs-d-2026-08-26">Wednesday 26 August 2026<span class="cday-n"> &middot; 5 articles</span></h4><ul class="crows" aria-labelledby="gs-d-2026-08-26">
 <li class="crow" data-ym="2026-08" data-date="2026-08-26" data-topic="Agriculture &amp; Fertilisers" data-kw="exports world coco peat highest-value crop barely uses machine numbers coconut husk vertical farm favourite substrate makes case kashmir saffron crisis actually happening verified cases inside light growth-stage profile actual peer-reviewed trial policy subsidy greenhouses farms specifically caveats corms aeroponic coir pampore hydroponic flower pith csir-iiim tdli indoor setup wani controlled-environment corm indoors modak horticulture flowers fy2010-11 light-dose mohammad sindhu sivakumar stigma verticalfarmdaily brothers grams pune frontline square-foot stades">
 <time class="cdate" datetime="2026-08-26">26 August 2026</time>
 <span class="ctag"><span class="sr-only">Topic: </span>Agriculture &amp; Fertilisers</span>
@@ -2876,6 +2977,8 @@
 <span class="crel-lbl">Related</span> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/08/ten-cubic-metres-hour-indias-first.html">Ten Cubic Metres an Hour: India&#x27;s First Green Fuel Bunkering Rulebook, and the Pilots Behind It</a> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/08/where-indias-green-hydrogen-bets-are.html">Where India&#x27;s Green Hydrogen Bets Are Actually Landing: A State-by-State Map of the Pipeline</a> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/08/the-levelised-cost-of-hydrogen.html">The Levelised Cost of Hydrogen, Explained: What It Would Actually Take to Hit India&#x27;s $1.50/kg Target</a>
 </span>
 </li>
+</ul></div>
+<div class="cdayg" data-date="2026-08-25"><h4 class="cday" id="gs-d-2026-08-25">Tuesday 25 August 2026<span class="cday-n"> &middot; 3 articles</span></h4><ul class="crows" aria-labelledby="gs-d-2026-08-25">
 <li class="crow" data-ym="2026-08" data-date="2026-08-25" data-topic="India" data-kw="approved manufacturing subsidies parliament answers show little actually paid word battery gigafactory doesn exist record semiconductors real concentrated subsidy rate just pharma mix-ups worth correcting medical devices scheme executes white goods approval clear fdi-scrutiny question pattern name knowledge problem genuinely open right caveats haier disbursement samsung disbursed eisai lilly pli-acc outlay daiichi beneficiaries beneficiary bharti midea pincus ranbaxy warburg fabs pli-auto semiconductor pli-lsem fdi-screening stake-sale batteries pharmaceuticals zero heavy slots solar rare-earth healthcare navigating">
 <time class="cdate" datetime="2026-08-25">25 August 2026</time>
 <span class="ctag"><span class="sr-only">Topic: </span>India</span>
@@ -2903,6 +3006,8 @@
 <span class="crel-lbl">Related</span> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/09/the-50-tariff-and-234-one-untangling.html">From 50% to 10%: How Three Tariff Regimes and a Supreme Court Ruling Reshaped What Hits India&#x27;s Exports</a> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/08/nine-ministries-one-list-every-company.html">India&#x27;s 14 PLI Schemes, and Every Company Publicly Named as a Winner, 2019–2026</a> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/08/greenhouse-emissions-reduction-and-cbam.html">Greenhouse Emissions Reduction and CBAM Compliance — Real or Ideal Gases?</a>
 </span>
 </li>
+</ul></div>
+<div class="cdayg" data-date="2026-08-24"><h4 class="cday" id="gs-d-2026-08-24">Monday 24 August 2026<span class="cday-n"> &middot; 3 articles</span></h4><ul class="crows" aria-labelledby="gs-d-2026-08-24">
 <li class="crow" data-ym="2026-08" data-date="2026-08-24" data-topic="Agriculture &amp; Fertilisers" data-kw="grows coconuts world still imports copra largest producer count weight distinction matters yield real opportunity sits trade says processing coconut development board actually funding watch caveats oil-cake nuts palms productivity neera replanting eightfold kerala area seedling palm hectare cocomitra new-planting piccs sixfold tapping-licence aspx promotion area-expansion leader interface rejuvenation moderate kilotonnes primary-sourced hectares state-wise ibef statistics 2241416 cdb-adjacent charcoal eparlib 15131900 08011910 12030000 08011100 08011990 44022010 15131100 08011920 23065010 23065020 23065090">
 <time class="cdate" datetime="2026-08-24">24 August 2026</time>
 <span class="ctag"><span class="sr-only">Topic: </span>Agriculture &amp; Fertilisers</span>
@@ -2928,6 +3033,8 @@
 <span class="cgeo"><span class="sr-only">About: </span>Brazil, Karnataka, Kerala</span>
 </span>
 </li>
+</ul></div>
+<div class="cdayg" data-date="2026-08-23"><h4 class="cday" id="gs-d-2026-08-23">Sunday 23 August 2026<span class="cday-n"> &middot; 13 articles</span></h4><ul class="crows" aria-labelledby="gs-d-2026-08-23">
 <li class="crow" data-ym="2026-08" data-date="2026-08-23" data-topic="Defence" data-kw="items cannot import ministry numbers replaced list things abroad look actually denominator nobody puts next project aditi invention half three instruments talk checkable honest caveats dpsu defence indigenisation item lists 2033571 indigenised srijan pils prid production 2300723 substitution 1924426 military release positive corpus sixth idex su-30mki technologies finely barred modernisation private-sector achievement fy2025-26 earmark guard offered instrument count affairs cumulative portal banned-items 84135149 2273824 2011171">
 <time class="cdate" datetime="2026-08-23">23 August 2026</time>
 <span class="ctag"><span class="sr-only">Topic: </span>Defence</span>
@@ -3035,6 +3142,8 @@
 <span class="crel-lbl">Related</span> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/10/to-comply-or-not-to-comply-cbam-costs.html">To Comply or Not to Comply: CBAM Costs Indian Steel €93 a Tonne With Verified Data and €270 Without. Indian Carbon Credits Won’t Close the Gap</a> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/07/indias-subsidised-imports-fertilisers.html">India&#x27;s Subsidised Imports — Fertilisers Explode +76% (FY25 vs FY26)</a> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/08/the-corrosion-you-cant-see-until.html">The Corrosion You Can&#x27;t See Until the Insulation Comes Off: CUI on FSRUs and FPSOs</a>
 </span>
 </li>
+</ul></div>
+<div class="cdayg" data-date="2026-08-22"><h4 class="cday" id="gs-d-2026-08-22">Saturday 22 August 2026<span class="cday-n"> &middot; 4 articles</span></h4><ul class="crows" aria-labelledby="gs-d-2026-08-22">
 <li class="crow" data-ym="2026-08" data-date="2026-08-22" data-topic="Agriculture &amp; Fertilisers" data-kw="kilos hectare punjab kerala urea crop buys absolute terms divide land ranking scrambles icar actually recommends norm north-west artefact proposes instead blanket dose organic category gobardhan makes notification says must contain package practices tests testing finds moving blend swap costs raise price refund farmer piece establish nitrogen cropped lfom fertiliser manure nutrient crops doses paddy area recommended rice cfqc third-stage wheat fertilizers sowing cropping chromium crop-wise viii chand crop-derived cropped-area non-standard per-acre sales samples">
 <time class="cdate" datetime="2026-08-22">22 August 2026</time>
 <span class="ctag"><span class="sr-only">Topic: </span>Agriculture &amp; Fertilisers</span>
@@ -3070,6 +3179,8 @@
 <span class="crel-lbl">Related</span> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/08/europe-bought-record-amount-of-lng-and.html">Europe Bought a Record Amount of LNG and Made Itself Dependent on One Supplier</a> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/09/kpler-and-vortexa-track-every-barrel.html">Kpler and Vortexa Track Every Barrel India Imports. Nobody Tracks Its Cooking-Oil Waste the Same Way.</a> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/09/shippings-net-zero-vote-keeps-getting.html">Shipping&#x27;s Net-Zero Vote Keeps Getting Delayed. The Fuel Switch Is Happening Without It.</a>
 </span>
 </li>
+</ul></div>
+<div class="cdayg" data-date="2026-08-21"><h4 class="cday" id="gs-d-2026-08-21">Friday 21 August 2026<span class="cday-n"> &middot; 4 articles</span></h4><ul class="crows" aria-labelledby="gs-d-2026-08-21">
 <li class="crow" data-ym="2026-08" data-date="2026-08-21" data-topic="Energy &amp; Fuels" data-kw="counting wind fleet against niwe says actually potential gwec mnre additions offshore atlas repowering resource height nadu tamil installable installed wind-resource onshore turbines gujarat heights compilations new-site contributor tender generation coasts capacity turbine land-availability fy2025-26 league spatial life state-wise globally commissioned energetica build-out acceleration">
 <time class="cdate" datetime="2026-08-21">21 August 2026</time>
 <span class="ctag"><span class="sr-only">Topic: </span>Energy &amp; Fuels</span>
@@ -3104,6 +3215,8 @@
 <span class="crel-lbl">Related</span> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/08/the-ethanol-sectors-buyers-market.html">The Ethanol Sector&#x27;s Buyers&#x27; Market: Overcapacity, Cooperative Mills, and the M&amp;A Window</a> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/08/sugarcanes-third-claimant-whats.html">Sugarcane&#x27;s Third Claimant: What&#x27;s Actually Being Fermented Into India&#x27;s First PLA Plant</a> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/08/state-by-state-who-actually-earns-from.html">State by State: Who Actually Earns from Ethanol Blending? SGST Scenarios, E10-E30</a>
 </span>
 </li>
+</ul></div>
+<div class="cdayg" data-date="2026-08-20"><h4 class="cday" id="gs-d-2026-08-20">Thursday 20 August 2026<span class="cday-n"> &middot; 11 articles</span></h4><ul class="crows" aria-labelledby="gs-d-2026-08-20">
 <li class="crow" data-ym="2026-08" data-date="2026-08-20" data-topic="Data Centres &amp; AI Infra" data-kw="unit diesel math behind centres telecom towers already losing genset data-centre backup gensets solar-charged generator tower indus backup-power takshashila grid auroville suyog institution diesel-free gainwell towercos power cpcb cummins battery bess cascade round-the-clock storage build-outs infratel lcoe consulting biogas fleet-wide sites tamil levelised bharti option">
 <time class="cdate" datetime="2026-08-20">20 August 2026</time>
 <span class="ctag"><span class="sr-only">Topic: </span>Data Centres &amp; AI Infra</span>
@@ -3196,6 +3309,8 @@
 <span class="cgeo"><span class="sr-only">About: </span>Tamil Nadu, Uttar Pradesh</span>
 </span>
 </li>
+</ul></div>
+<div class="cdayg" data-date="2026-08-19"><h4 class="cday" id="gs-d-2026-08-19">Wednesday 19 August 2026<span class="cday-n"> &middot; 6 articles</span></h4><ul class="crows" aria-labelledby="gs-d-2026-08-19">
 <li class="crow" data-ym="2026-08" data-date="2026-08-19" data-topic="Energy &amp; Fuels" data-kw="blending budget energy density cost kilometre across four fuel pairs isobutanol blend mileage spec ethanol petrol astm mandate diesel energy-density host isobutanol-diesel icao methane fossil afdc cost-per-kilometre specification aviation-fuel litre standards d1655 finished-fuel stan challenge hefa corsia loss penalty aviation butanol d7566 drop-in inert additive">
 <time class="cdate" datetime="2026-08-19">19 August 2026</time>
 <span class="ctag"><span class="sr-only">Topic: </span>Energy &amp; Fuels</span>
@@ -3246,11 +3361,15 @@
 <span class="crel-lbl">Related</span> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/08/whos-actually-building-mri-and-ct.html">Who&#x27;s Actually Building MRI and CT Scanners in India: The PLI Applicant List and the Market They&#x27;re Chasing</a> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/08/where-indias-forex-goes-country.html">Where India&#x27;s Forex Goes — Country Deficits &amp; a Decade of Policy History</a> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/07/top-15-chemicals-for-import.html">The Top 15 Import-Substitution Chemicals, Code by Code</a>
 </span>
 </li>
+</ul></div>
+<div class="cdayg" data-date="2026-08-18"><h4 class="cday" id="gs-d-2026-08-18">Tuesday 18 August 2026<span class="cday-n"> &middot; 1 article</span></h4><ul class="crows" aria-labelledby="gs-d-2026-08-18">
 <li class="crow" data-ym="2026-08" data-date="2026-08-18" data-topic="Environment &amp; Clearances" data-kw="water bill nobody mentions taiwan chip crisis says plans tsmc dholera hsinchu fabs ultrapure semiconductor mature-node reservoir narmada tata recycling advanced-node process-water qiaotou reclaimed reclaimed-water water-recycling science treatment electronics drought park desalination plant reservoirs headroom consumption island-wide science-park taiwan-wide taps canal blanket dedicated rationing clearance nodes">
 <time class="cdate" datetime="2026-08-18">18 August 2026</time>
 <span class="ctag"><span class="sr-only">Topic: </span>Environment &amp; Clearances</span>
 <a class="ctitle" href="https://masaladeutsch.blogspot.com/2026/08/the-water-bill-nobody-mentions-what.html">The Water Bill Nobody Mentions: What Taiwan&#x27;s Chip Crisis Says About India&#x27;s Fab Plans</a>
 </li>
+</ul></div>
+<div class="cdayg" data-date="2026-08-17"><h4 class="cday" id="gs-d-2026-08-17">Monday 17 August 2026<span class="cday-n"> &middot; 3 articles</span></h4><ul class="crows" aria-labelledby="gs-d-2026-08-17">
 <li class="crow" data-ym="2026-08" data-date="2026-08-17" data-topic="Carbon Markets" data-kw="ethanol coal boilers briquette carbon capture actually delivers co-firing biomass caqm distilleries pellet dakota in02 boiler bioenergy creditable distillery residue straw methodology samarth bagasse plants paddy pellets boiler-fuel farmers carbon-intensity mandated cogeneration fermentation penalties grain non-bagasse thermal sequestration crop power summit switch 1885751 2250094">
 <time class="cdate" datetime="2026-08-17">17 August 2026</time>
 <span class="ctag"><span class="sr-only">Topic: </span>Carbon Markets</span>
@@ -3276,6 +3395,8 @@
 <span class="crel-lbl">Related</span> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/10/india-has-27400-km-of-gas-pipeline.html">India Has 28,000 km of Gas Pipeline Working and 7,000 km Still to Build. A Map of Where, and of the Lines Still on Paper</a> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/08/from-barrel-to-bottle-petrochemical.html">From Barrel to Bottle: The Petrochemical Pivot Also Makes a Lighter LPG Cylinder</a> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/08/thermal-parity-is-dead-what-85-oil-and.html">Thermal Parity Is Dead: What $85 Oil and a $7 Gas Ceiling Actually Say About Decoupling</a>
 </span>
 </li>
+</ul></div>
+<div class="cdayg" data-date="2026-08-16"><h4 class="cday" id="gs-d-2026-08-16">Sunday 16 August 2026<span class="cday-n"> &middot; 3 articles</span></h4><ul class="crows" aria-labelledby="gs-d-2026-08-16">
 <li class="crow" data-ym="2026-08" data-date="2026-08-16" data-topic="Agriculture &amp; Fertilisers" data-kw="rice cultivation innovation agrivoltaic credits basf verra miyada-mura paddies rice-methane tgra programmes irri rice-carbon japan mitsubishi carbon paddy array flooded invalidated dual-axis vm0051 water-depth carbon-credit methane photonics alliance trial yield methodology awd-based basf-icar-crri bayer fine-tuned genzero icar-crri idemitsu light-shade nagano remote-sensing solar-paddy">
 <time class="cdate" datetime="2026-08-16">16 August 2026</time>
 <span class="ctag"><span class="sr-only">Topic: </span>Agriculture &amp; Fertilisers</span>
@@ -3299,6 +3420,8 @@
 <span class="ctag"><span class="sr-only">Topic: </span>Circularity &amp; Waste-to-Value</span>
 <a class="ctitle" href="https://masaladeutsch.blogspot.com/2026/08/pet-recycling-already-cuts-emissions-60.html">PET Recycling Already Cuts Emissions 60%+. The New MOEFCC Rules Are About Making That System Traceable</a>
 </li>
+</ul></div>
+<div class="cdayg" data-date="2026-08-15"><h4 class="cday" id="gs-d-2026-08-15">Saturday 15 August 2026<span class="cday-n"> &middot; 5 articles</span></h4><ul class="crows" aria-labelledby="gs-d-2026-08-15">
 <li class="crow" data-ym="2026-08" data-date="2026-08-15" data-topic="Automotive &amp; Manufacturing" data-kw="airbags seat belts import-heavy tyre cord automotive textiles aren story mobiltech fabric nylon-6 automotive-textile webbing belt nylon textile airbag yarn technical-textile woven toray joyson kusumgar granule imports anti-dumping assembly segment airbag-grade safety-systems tyre-cord-fabric exports anand assemblies technical texmin textile-chapter localised protected chip fy2025-26">
 <time class="cdate" datetime="2026-08-15">15 August 2026</time>
 <span class="ctag"><span class="sr-only">Topic: </span>Automotive &amp; Manufacturing</span>
@@ -3342,6 +3465,8 @@
 <span class="cgeo"><span class="sr-only">About: </span>Madhya Pradesh</span>
 </span>
 </li>
+</ul></div>
+<div class="cdayg" data-date="2026-08-14"><h4 class="cday" id="gs-d-2026-08-14">Friday 14 August 2026<span class="cday-n"> &middot; 11 articles</span></h4><ul class="crows" aria-labelledby="gs-d-2026-08-14">
 <li class="crow" data-ym="2026-08" data-date="2026-08-14" data-topic="Macroeconomics &amp; Monetary Policy" data-kw="rupee trade actually offset inflation importing different problems de-dollarisation gets bundled infrastructure exists today russia mechanism reveals limits stalled absent china saudi arabia series describing balances reference-rate volatility five countries related settlement yuan rupees fbil correspondent srva banks dollar riyal vostro partner currency surplus rupee-settled country-wise accumulated dollars rouble imbalance dirhams russian rupee-rouble year-to-date india-china crude gold currencies special import invoicing dirham invoice exchange-rates exchangerates high-low">
 <time class="cdate" datetime="2026-08-14">14 August 2026</time>
 <span class="ctag"><span class="sr-only">Topic: </span>Macroeconomics &amp; Monetary Policy</span>
@@ -3439,6 +3564,8 @@
 <span class="crel-lbl">Related</span> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/08/raising-green-debt-globally-rec-euroyen.html">Raising Green Debt Globally: The REC EuroYen Playbook, the CBI Stamp, and Every Avenue an Indian Issuer Actually Has</a> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/08/where-rupee-actually-stands-ten-years.html">Where the Rupee Actually Stands: Ten Years Against the Dollar, Yuan, Rouble, Riyal and Dirham</a> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/08/what-india-is-actually-paying-for.html">What India Is Actually Paying For: Absorbing Someone Else&#x27;s Inflation Through the Import Bill</a>
 </span>
 </li>
+</ul></div>
+<div class="cdayg" data-date="2026-08-13"><h4 class="cday" id="gs-d-2026-08-13">Thursday 13 August 2026<span class="cday-n"> &middot; 6 articles</span></h4><ul class="crows" aria-labelledby="gs-d-2026-08-13">
 <li class="crow" data-ym="2026-08" data-date="2026-08-13" data-topic="Chemicals" data-kw="barrel bottle petrochemical pivot makes lighter cylinder actually different limited circulation feedstock question just price scale mean piece size precisely making weight matters handles home wider fuel-based refinery product-based related composite hdpe cylinders xtralite tare steel technoplast iocl litesafe ppac refill weighs navya swiggy polymer pmuy distributor hpcl empty reply fibreglass domestic household composite-cylinder instamart kavach refiner fcc-yield male consumption barrier delivery comparably">
 <time class="cdate" datetime="2026-08-13">13 August 2026</time>
 <span class="ctag"><span class="sr-only">Topic: </span>Chemicals</span>
@@ -3489,6 +3616,8 @@
 <span class="crel-lbl">Related</span> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/10/petrol-pump-margins-and-e20-one-dealer.html">Petrol-Pump Margins and E20: The First Dealer Raise in Seven Years, Not Tied to Ethanol, While Oil-Company Margins Followed Crude Into the Red in 2026</a> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/09/mapping-indias-other-pipelines-every.html">Mapping India&#x27;s Other Pipelines: Every Major Crude, Petrol-Diesel and LPG Line, By Company</a> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/08/india-sells-world-53-billion-of-fuel.html">India Sells the World $53 Billion of Fuel. Its Neighbours Buy 5% of It.</a>
 </span>
 </li>
+</ul></div>
+<div class="cdayg" data-date="2026-08-12"><h4 class="cday" id="gs-d-2026-08-12">Wednesday 12 August 2026<span class="cday-n"> &middot; 10 articles</span></h4><ul class="crows" aria-labelledby="gs-d-2026-08-12">
 <li class="crow" data-ym="2026-08" data-date="2026-08-12" data-topic="Healthcare" data-kw="abha digit health actually real numbers scale working queue-skip consolidation honest caveat consent works paper less clearly practice related abdm records digital saturation ayushman accounts hospitals consent-gated linked scan privacy milestone tokens bharat informed adoption hospital sheet authority family voluntary population identity aarogya account-creation citizen-facing digital-identity per-request personal welfare protection holders healthcare fact abhas setu 2264241">
 <time class="cdate" datetime="2026-08-12">12 August 2026</time>
 <span class="ctag"><span class="sr-only">Topic: </span>Healthcare</span>
@@ -3574,6 +3703,8 @@
 <span class="crel-lbl">Related</span> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/08/the-case-for-biofuels-over-imports.html">The Case for Biofuels Over Imports: Raise Ethanol&#x27;s SGST, Cut CNG&#x27;s VAT, Free the Barrel for Petrochemicals</a> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/08/the-barrel-really-is-shifting-indias.html">The Barrel Really Is Shifting: India&#x27;s Refiners Quantify the Petrochemical Pivot</a> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/08/state-by-state-who-actually-earns-from.html">State by State: Who Actually Earns from Ethanol Blending? SGST Scenarios, E10-E30</a>
 </span>
 </li>
+</ul></div>
+<div class="cdayg" data-date="2026-08-11"><h4 class="cday" id="gs-d-2026-08-11">Tuesday 11 August 2026<span class="cday-n"> &middot; 8 articles</span></h4><ul class="crows" aria-labelledby="gs-d-2026-08-11">
 <li class="crow" data-ym="2026-08" data-date="2026-08-11" data-topic="Equity Markets &amp; Stock Screening" data-kw="category diving actual microcap basement even inside cheap mass sits bottom beta return sharpe ratio actually correlates down reading alongside earlier pieces related median dividend bands stocks band under- universe priced gradient worst profit-growth capitalisation wide sub-bands worst-performing screener segment previous volatility highest-risk segmentation proxy price-segmentation risk-free stock weekly nifty traded portfolio yield slice bombay">
 <time class="cdate" datetime="2026-08-11">11 August 2026</time>
 <span class="ctag"><span class="sr-only">Topic: </span>Equity Markets &amp; Stock Screening</span>
@@ -3621,6 +3752,8 @@
 <span class="ctag"><span class="sr-only">Topic: </span>Equity Markets &amp; Stock Screening</span>
 <a class="ctitle" href="https://masaladeutsch.blogspot.com/2026/08/why-bet-on-one-horse-when-you-can-buy.html">Why Bet on One Horse, When You Can Buy the Stable?</a>
 </li>
+</ul></div>
+<div class="cdayg" data-date="2026-08-10"><h4 class="cday" id="gs-d-2026-08-10">Monday 10 August 2026<span class="cday-n"> &middot; 5 articles</span></h4><ul class="crows" aria-labelledby="gs-d-2026-08-10">
 <li class="crow" data-ym="2026-08" data-date="2026-08-10" data-topic="Industrial Policy" data-kw="ahidf sanctioned animal-husbandry loans bank account actually funds disbursement funnel steep doesn fully square last update applications concentrated credit guarantee specifically right tool dashboard sidbi husbandry borrowers animal dairy udyami disbursed lender dairying mitra nabsanrakshan fund eligible filed banas loan term portal ahilyanagar construction-linked dairy-cooperative didf loan-to-cost ministry-approved sanction-to-first-disbursement stiglitz trustee undisbursed jalna weiss gobardhan">
 <time class="cdate" datetime="2026-08-10">10 August 2026</time>
 <span class="ctag"><span class="sr-only">Topic: </span>Industrial Policy</span>
@@ -3655,6 +3788,8 @@
 <span class="ctag"><span class="sr-only">Topic: </span>Markets &amp; Finance</span>
 <a class="ctitle" href="https://masaladeutsch.blogspot.com/2026/08/the-rule-of-72-rule-of-114-and-how-to.html">The Rule of 72, the Rule of 114, and How to Actually Check an Interest-Rate Claim</a>
 </li>
+</ul></div>
+<div class="cdayg" data-date="2026-08-09"><h4 class="cday" id="gs-d-2026-08-09">Sunday 9 August 2026<span class="cday-n"> &middot; 4 articles</span></h4><ul class="crows" aria-labelledby="gs-d-2026-08-09">
 <li class="crow" data-ym="2026-08" data-date="2026-08-09" data-topic="Energy &amp; Fuels" data-kw="dung already flew rocket biogas programme feed next world-first fuel dairy farm methane push part actually feedstock pointing rockets rocket-grade purity biomethane omspace membrane liquefaction isro gobardhan cryogenic bio-methane aerospace thrust interstellar skyroot purification flash plant aerospace-grade biogas-upgrading drum hokkaido obihiro sub-scale cold satat liquid upgrading moisture 766588 brazed dhawan-1 exchanger lox-methane nglv orbital retentate single-stage">
 <time class="cdate" datetime="2026-08-09">9 August 2026</time>
 <span class="ctag"><span class="sr-only">Topic: </span>Energy &amp; Fuels</span>
@@ -3689,6 +3824,8 @@
 <span class="cgeo"><span class="sr-only">About: </span>Punjab, Goa</span>
 </span>
 </li>
+</ul></div>
+<div class="cdayg" data-date="2026-08-08"><h4 class="cday" id="gs-d-2026-08-08">Saturday 8 August 2026<span class="cday-n"> &middot; 20 articles</span></h4><ul class="crows" aria-labelledby="gs-d-2026-08-08">
 <li class="crow" data-ym="2026-08" data-date="2026-08-08" data-topic="Industrial Policy" data-kw="mimicking plastic card like visa fees shield came briefly heading toward card-network pricing leverage curve once npci says volume actually food grocery counters indians stand rest ticket merchant groceries restaurants margin rupay merchant-category mastercard conventionally exhibit category person-to-merchant gross restaurant categories margins marketplaces fast debit payment shops tickets transactions dealer liquor kirana merchants transaction clothing bank-to-bank delivery-platform fast-food games">
 <time class="cdate" datetime="2026-08-08">8 August 2026</time>
 <span class="ctag"><span class="sr-only">Topic: </span>Industrial Policy</span>
@@ -3860,11 +3997,15 @@
 <span class="crel-lbl">Related</span> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/08/upi-fees-are-now-legal-petrol-pumps.html">Transaction Fees for UPI: Will Petrol Pumps Have More ATMs? A Case for Rural Financial Inclusion</a> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/08/the-margin-case-why-lpg-and.html">The Margin Case: Why LPG and Petrochemicals Beat Petrol, From the Same Barrel</a> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/08/state-by-state-who-actually-earns-from.html">State by State: Who Actually Earns from Ethanol Blending? SGST Scenarios, E10-E30</a>
 </span>
 </li>
+</ul></div>
+<div class="cdayg" data-date="2026-08-07"><h4 class="cday" id="gs-d-2026-08-07">Friday 7 August 2026<span class="cday-n"> &middot; 1 article</span></h4><ul class="crows" aria-labelledby="gs-d-2026-08-07">
 <li class="crow" data-ym="2026-08" data-date="2026-08-07" data-topic="Bonds &amp; Fixed Income" data-kw="exemption investor keeps wrong comparison breakeven actually goes gate notification moved twelve model coupon bonds bond slab cbdt issuer hudco ireda irfc ltcg issuers tax-free below-market a-rated cess floating instrument exhibit gains five-year long-term savings section g-sec author yield pre-tax shield taxpayer gain 2143668 frsb rate end-use nhai reset property">
 <time class="cdate" datetime="2026-08-07">7 August 2026</time>
 <span class="ctag"><span class="sr-only">Topic: </span>Bonds &amp; Fixed Income</span>
 <a class="ctitle" href="https://masaladeutsch.blogspot.com/2026/08/reinvesting-capital-gains-in-higher.html">Reinvesting Capital Gains in Higher-Yielding Bonds: The Rs 6.5 Lakh Exemption Where the Investor Keeps Rs 2.25 Lakh</a>
 </li>
+</ul></div>
+<div class="cdayg" data-date="2026-08-06"><h4 class="cday" id="gs-d-2026-08-06">Thursday 6 August 2026<span class="cday-n"> &middot; 4 articles</span></h4><ul class="crows" aria-labelledby="gs-d-2026-08-06">
 <li class="crow" data-ym="2026-08" data-date="2026-08-06" data-topic="Chemicals" data-kw="chemical hsn-8 codes real substitution targets signal framework applied honest limits cross-checked against public correction found full registry scissors inelastic chapters scored tradestat 28433000 import code dgci fy-over-fy matched seatrade unit-price iffco partner-country loophole candidate effect fy2025-26 deficit deepening fy2024-25 single-year gold quarterly qualifying matches dgft quantity penetration restricted screening dashboard 31053000 28092010 39041020 29173600">
 <time class="cdate" datetime="2026-08-06">6 August 2026</time>
 <span class="ctag"><span class="sr-only">Topic: </span>Chemicals</span>
@@ -3894,6 +4035,8 @@
 <span class="ctag"><span class="sr-only">Topic: </span>Industrial Policy</span>
 <a class="ctitle" href="https://masaladeutsch.blogspot.com/2026/08/rooftop-solar-is-working-household.html">Rooftop Solar Is Working. Household Batteries Are Not Part of the Deal — and That Is the Next Problem.</a>
 </li>
+</ul></div>
+<div class="cdayg" data-date="2026-08-05"><h4 class="cday" id="gs-d-2026-08-05">Wednesday 5 August 2026<span class="cday-n"> &middot; 16 articles</span></h4><ul class="crows" aria-labelledby="gs-d-2026-08-05">
 <li class="crow" data-ym="2026-08" data-date="2026-08-05" data-topic="Chemicals" data-kw="chemical import substitution full code tables chapter organic chemicals plastics thereof inorganic fertiliser intermediates fertilisers miscellaneous products dyes pigments tanning colouring extracts soaps waxes polishes surface-active agents essential oils cosmetics perfumery scale-economics speciality case-by-case intermediate screening deficit driven signal feedstock technology deepening substitutable needs othr acid inelastic cracker import-parity polymer refinery-integrated petrochemical scissors anti-dumping salts pcpir addition aromatics vinyl shts trains methanol unless pltes commodity naphtha thin candidate methyl 29173600 29025000 29051100 29011000 29053100 29152100 29023000 29024300 29214110 29411050 29032100 29419090 29024100 29261000 29071110 29291090 29161210 29304000 29072300 29153200 29012990 29159099 29161400 29161290 29051990">
 <time class="cdate" datetime="2026-08-05">5 August 2026</time>
 <span class="ctag"><span class="sr-only">Topic: </span>Chemicals</span>
@@ -4025,6 +4168,8 @@
 <span class="crel-lbl">Related</span> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/08/where-indias-forex-goes-country.html">Where India&#x27;s Forex Goes — Country Deficits &amp; a Decade of Policy History</a> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/07/top-15-chemicals-for-import.html">The Top 15 Import-Substitution Chemicals, Code by Code</a> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/08/the-most-discussed-schemes-in.html">The Most Discussed Schemes in Parliament — Lok Sabha &amp; Rajya Sabha</a>
 </span>
 </li>
+</ul></div>
+<div class="cdayg" data-date="2026-08-04"><h4 class="cday" id="gs-d-2026-08-04">Tuesday 4 August 2026<span class="cday-n"> &middot; 10 articles</span></h4><ul class="crows" aria-labelledby="gs-d-2026-08-04">
 <li class="crow" data-ym="2026-08" data-date="2026-08-04" data-topic="Agriculture &amp; Fertilisers" data-kw="annadata urjadata farmer-income case ethanol blending oversupply must solve scoreboard programme actually delivered rupee reaches farmer rice clause maize real ceiling overcapacity reason slow down payments beyond pump circular economy farm itself lower fertiliser costs nipu-2026 diesel-to-cng circular-economy waste back fuel caveats careedge litres farmers feedstock sugar scenario please grain-based grain tender omcs surplus business-case farm-equipment distillers urea comfortable flex-fuel blended residue compromise ratings biogas molasses ji-van central-pool demand cooperative demand-side petroleum">
 <time class="cdate" datetime="2026-08-04">4 August 2026</time>
 <span class="ctag"><span class="sr-only">Topic: </span>Agriculture &amp; Fertilisers</span>
@@ -4095,6 +4240,8 @@
 <span class="crel-lbl">Related</span> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/08/ipa-digital-twin-reportage-latest.html">IPA Digital Twin — Reportage: Latest Updates (28 Jul – 14 Sep 2026)</a> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/08/indias-trade-balance-hsn-wise.html">India&#x27;s Trade Balance — HSN-wise Export/Import Analysis</a> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/08/we-fact-checked-66-investment.html">India&#x27;s State-by-State Investment Directory: 66 Confirmed Deals, Sector by Sector</a>
 </span>
 </li>
+</ul></div>
+<div class="cdayg" data-date="2026-08-03"><h4 class="cday" id="gs-d-2026-08-03">Monday 3 August 2026<span class="cday-n"> &middot; 5 articles</span></h4><ul class="crows" aria-labelledby="gs-d-2026-08-03">
 <li class="crow" data-ym="2026-08" data-date="2026-08-03" data-topic="Textiles" data-kw="annexure codes mapped technical-textile segments segment-by-segment code list packtech confirmed textiles indutech mobiltech clothtech hometech meditech buildtech agrotech geotech sportech protech specialty fibres composites defence textile methodology caveats fbrcs othr txtl fabrics jute cotton woven smlr coated fibre filmnt twine wghng cloth artcls yarn nylon imprgntd laminated coir wool felt impregnated cordage covrd rope conforming garments bags sacks cord man-made matrls rayon clth 59011010 59011090 59019090 63051010 63051020 63051030 63051040 63051050 63051060 63051070 63052000 63053200 63053300 63053900 63059000 52112020 52113120 54021910 54031010 54031020 54074230 54074430 54082215 54082415 54083213">
 <time class="cdate" datetime="2026-08-03">3 August 2026</time>
 <span class="ctag"><span class="sr-only">Topic: </span>Textiles</span>
@@ -4137,6 +4284,8 @@
 <span class="crel-lbl">Related</span> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/08/priority-export-destinations-by-growth.html">Priority Export Destinations by Growth Sector, &amp; Real PLI Coverage</a> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/08/green-gold-what-spirulina-actually-is.html">Green Gold: What Spirulina Actually Is, and Isn&#x27;t, Good For</a> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/08/petroleum-trade-pairings-and-us-crude.html">Petroleum Trade Pairings and the US Crude Storage Picture</a>
 </span>
 </li>
+</ul></div>
+<div class="cdayg" data-date="2026-08-02"><h4 class="cday" id="gs-d-2026-08-02">Sunday 2 August 2026<span class="cday-n"> &middot; 26 articles</span></h4><ul class="crows" aria-labelledby="gs-d-2026-08-02">
 <li class="crow" data-ym="2026-08" data-date="2026-08-02" data-topic="Energy &amp; Fuels" data-kw="play grow ethanol sgst revenue match low-tax problem answering part nobody rationalized actually costs driver track actual uptake outlet density infrastructure exists highest means relief move structural ethanol-sgst hole option reclassify retail sale just input ethanol-compensation cess funded margin gain linking package asks doesn solve himachal petrol pradesh pngrb blending dpng delhi harmonization uttarakhand mileage puducherry litre vehicle companion telangana pump council shortfall fuel state-by-state punjab compensation foregone average rate bihar levy blended taxed high-tax parity">
 <time class="cdate" datetime="2026-08-02">2 August 2026</time>
 <span class="ctag"><span class="sr-only">Topic: </span>Energy &amp; Fuels</span>
@@ -4354,6 +4503,8 @@
 <span class="crel-lbl">Related</span> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/08/petroleum-trade-pairings-and-us-crude.html">Petroleum Trade Pairings and the US Crude Storage Picture</a> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/08/securitising-deficit-what-it-would.html">Is India a Dollar Salesman? China Sold the Yuan to BRICS as a Payment Rail — and Russia Still Put Its Savings in Gold</a> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/08/what-india-is-actually-paying-for.html">What India Is Actually Paying For: Absorbing Someone Else&#x27;s Inflation Through the Import Bill</a>
 </span>
 </li>
+</ul></div>
+<div class="cdayg" data-date="2026-08-01"><h4 class="cday" id="gs-d-2026-08-01">Saturday 1 August 2026<span class="cday-n"> &middot; 3 articles</span></h4><ul class="crows" aria-labelledby="gs-d-2026-08-01">
 <li class="crow" data-ym="2026-08" data-date="2026-08-01" data-topic="Chemicals" data-kw="chemical import substitution analysis executive opportunity quantum savings fy30 retracted correction notice capex required public private findings base validated breakdown codes three-tier strategy tier load-bearing capex-triggered dependent medium priority quick wins immediate specialty chemicals structural barriers critical path risk factors four major projects primary bpcl environmental clearance secondary risks china dumping validation confidence cross-validation against official levels producers global leaders competitors current exporters policy recommendations fy26 q1-fy27 medium-term fy27 long-term fy29 final verdict ktpa ethylene dyes propylene corrected fy28 eidb tradestat auxiliaries fast-track chapter perfect polypropylene 29011100 hs-8 pigments 29012100 substitution-target mmtpa dcpc petrochemical anti-dumping 29011200 29012200 39021010 29239090 29232090 39021100 39021000 29173600 29024300">
 <time class="cdate" datetime="2026-08-01">1 August 2026</time>
 <span class="ctag"><span class="sr-only">Topic: </span>Chemicals</span>
@@ -4381,8 +4532,9 @@
 <span class="crel-lbl">Related</span> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/08/petroleum-trade-pairings-and-us-crude.html">Petroleum Trade Pairings and the US Crude Storage Picture</a> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/07/chemical-import-substitution-analysis.html">Chemical Import Substitution Analysis: Executive Summary</a> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/08/what-india-is-actually-paying-for.html">What India Is Actually Paying For: Absorbing Someone Else&#x27;s Inflation Through the Import Bill</a>
 </span>
 </li>
-</ul></div>
-<div class="cmonth" data-ym="2026-07"><h3 class="cgroup" id="gs-m-2026-07"><span>July 2026</span><span class="cgroup-n">23 articles</span></h3><ul class="crows" aria-labelledby="gs-m-2026-07">
+</ul></div></div>
+<div class="cmonth" data-ym="2026-07"><h3 class="cgroup" id="gs-m-2026-07"><span>July 2026</span><span class="cgroup-n">23 articles</span></h3>
+<div class="cdayg" data-date="2026-07-31"><h4 class="cday" id="gs-d-2026-07-31">Friday 31 July 2026<span class="cday-n"> &middot; 7 articles</span></h4><ul class="crows" aria-labelledby="gs-d-2026-07-31">
 <li class="crow" data-ym="2026-07" data-date="2026-07-31" data-topic="AI Tracker" data-kw="openai shipped gpt-6 agents keep working google kept best model cyber defenders consistency methodology refresh graphify techcrunch temporal agent kolibri nous first-party happyrobot rounds edition github stars ai-agent convex github-api-only konecta muse name-collision qwen3 ruflo sapiom velocity forks tracker movers cloudflare reputable aggregator board tech star changelog discovery funding gemini launches">
 <time class="cdate" datetime="2026-07-31">31 July 2026</time>
 <span class="ctag"><span class="sr-only">Topic: </span>AI Tracker</span>
@@ -4438,6 +4590,8 @@
 <span class="cgeo"><span class="sr-only">About: </span>Norway, Germany</span>
 </span>
 </li>
+</ul></div>
+<div class="cdayg" data-date="2026-07-30"><h4 class="cday" id="gs-d-2026-07-30">Thursday 30 July 2026<span class="cday-n"> &middot; 1 article</span></h4><ul class="crows" aria-labelledby="gs-d-2026-07-30">
 <li class="crow" data-ym="2026-07" data-date="2026-07-30" data-topic="Customs &amp; HSN Trade Data" data-kw="mineral-oil trade pricing dashboard chapter balance exports imports total product-level ppac petrol diesel lube import export value product values price benchmark bridge crude realized unit-value basket unit formula commodities prices item oilprice coverage lines actually commodity-import checklist current rules commodity step segment picker margin profitable segments fy2024-25 tradestat orientation country-wise partners partner relationship opportunity value-add feedstock arbitrage net-export sell petroleum-product destinations products target markets target-country detail ranking implied crack digit cost fy25-26 ranked quality pool trader destination playbook ex-refinery abroad fetches best netback matrix directions port good trades surplus deficit movement margin-realisation check market high-margin moving realised estimate net-trade leaders verified net-import beyond petroleum high-value import-vs-export import-premium online ideas validated against cross-checking published import-substitution list sectors sector substitutable structural lacks resource targets consistency platts arab kero petcoke gulf aidc kirit parikh refined bitumen naphtha mar-16 proxies rangarajan">
 <time class="cdate" datetime="2026-07-30">30 July 2026</time>
 <span class="ctag"><span class="sr-only">Topic: </span>Customs &amp; HSN Trade Data</span>
@@ -4447,6 +4601,8 @@
 <span class="crel-lbl">Related</span> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/08/petroleum-trade-pairings-and-us-crude.html">Petroleum Trade Pairings and the US Crude Storage Picture</a> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/10/the-hydrogen-behind-biofuel-mandate.html">The Hydrogen Behind the Biofuel Mandate: A Country-by-Country Map of Who Is Covered, What Counts, and Which Hydrogen Gets Paid For</a> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/08/fuel-pricing-to-crude-cost.html">Fuel Pricing to Crude Cost</a>
 </span>
 </li>
+</ul></div>
+<div class="cdayg" data-date="2026-07-28"><h4 class="cday" id="gs-d-2026-07-28">Tuesday 28 July 2026<span class="cday-n"> &middot; 2 articles</span></h4><ul class="crows" aria-labelledby="gs-d-2026-07-28">
 <li class="crow" data-ym="2026-07" data-date="2026-07-28" data-topic="Textiles" data-kw="textile deep-dive apparel fibre trade scenarios baskets behave differently block export cotton-skewed technical textiles codes import-dependent frontier one-line synthesis technical-textiles cotton woven fabric man-made basket high-tenacity knitted-fabric knitted fibres technical-textile segments exports synthetic aepc high-tech specialty fy24 nylon tyre geotextiles high-performance man-made-fibre specialty-fibre tarpaulin aramid citi meditech protech geotech hence 610323 610333 610343 610463 610520 610620 611130 611430 54021910 54031010">
 <time class="cdate" datetime="2026-07-28">28 July 2026</time>
 <span class="ctag"><span class="sr-only">Topic: </span>Textiles</span>
@@ -4463,6 +4619,8 @@
 <span class="crel-lbl">Related</span> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/09/what-sewage-disposal-in-key-parts-of.html">What Sewage Disposal in Key Parts of Tamil Nadu Actually Costs</a> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/08/the-green-shift-what-indias-oil.html">The Green Shift: What India&#x27;s Oil Ministry Thinks Global Majors Owe the Climate</a> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/07/the-grain-value-loop-integrated-rice.html">The Grain Value Loop — Integrated Rice Biorefinery Pitch</a>
 </span>
 </li>
+</ul></div>
+<div class="cdayg" data-date="2026-07-27"><h4 class="cday" id="gs-d-2026-07-27">Monday 27 July 2026<span class="cday-n"> &middot; 1 article</span></h4><ul class="crows" aria-labelledby="gs-d-2026-07-27">
 <li class="crow" data-ym="2026-07" data-date="2026-07-27" data-topic="Chemicals" data-kw="problem annual feedstock deficit chapter polymers crisis organic chemicals structural vulnerability export paradox strong finished goods fragile made-up apparel total textile historical precedent reliance textile-to-refinery transition iocl bhadrak modern textile-petrochemical integration refinery ecosystem spare capacity feedstocks capex pipeline fy26-fy30 policy industry report pcpirs textile-ready infrastructure momentum chem global interest segment-level import substitution roadmap fy30 target de-risking bhavya mitra national fibre mission rasayan parks financial viability base case critical timeline window opportunity next steps digit deep-dive fy21 polyester mmtpa fy22 fy23 polymer fy27-28 bpcl fy25 textiles fy26-30 processors imports fiber exports indutech packtech paradeep lldpe utilization hometech">
 <time class="cdate" datetime="2026-07-27">27 July 2026</time>
 <span class="ctag"><span class="sr-only">Topic: </span>Chemicals</span>
@@ -4472,6 +4630,8 @@
 <span class="crel-lbl">Related</span> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/08/chemical-import-substitution-full-hsn-8_01082878313.html">Chemical Import Substitution: the Full 827-Code Data Tables</a> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/08/the-masala-deutsch-shop-books-things.html">The Masala Deutsch Shop — Books &amp; Things From the Articles</a> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/07/the-grain-value-loop-integrated-rice.html">The Grain Value Loop — Integrated Rice Biorefinery Pitch</a>
 </span>
 </li>
+</ul></div>
+<div class="cdayg" data-date="2026-07-24"><h4 class="cday" id="gs-d-2026-07-24">Friday 24 July 2026<span class="cday-n"> &middot; 3 articles</span></h4><ul class="crows" aria-labelledby="gs-d-2026-07-24">
 <li class="crow" data-ym="2026-07" data-date="2026-07-24" data-topic="Energy &amp; Fuels" data-kw="ethanol blending books four move contribution stacks current future exchequer gives claws back sgst prize freed petrol sold abroad forecast demand rises wall fy26 fy31 needed capacity beyond fuels petrochemical margin lever build-up full crude-to-chemicals complex assumptions caveats foregone excise export freed-petrol oil-marketer margins refiner displaced revenue forex marketer refining litre throughput handling uplift recovers lift pockets space pocket ppac gross dedicated pump carved lifts">
 <time class="cdate" datetime="2026-07-24">24 July 2026</time>
 <span class="ctag"><span class="sr-only">Topic: </span>Energy &amp; Fuels</span>
@@ -4493,6 +4653,8 @@
 <span class="ctag"><span class="sr-only">Topic: </span>Equity Markets &amp; Stock Screening</span>
 <a class="ctitle" href="https://masaladeutsch.blogspot.com/2026/07/us-stock-picks-multi-screen-quant.html">US Stock Picks — Multi-Screen Quant Shortlist (24 Jul 2026)</a>
 </li>
+</ul></div>
+<div class="cdayg" data-date="2026-07-23"><h4 class="cday" id="gs-d-2026-07-23">Thursday 23 July 2026<span class="cday-n"> &middot; 1 article</span></h4><ul class="crows" aria-labelledby="gs-d-2026-07-23">
 <li class="crow" data-ym="2026-07" data-date="2026-07-23" data-topic="Agriculture &amp; Fertilisers" data-kw="price grain kilogram rice prices farmer actually receives coverage sells volume harvest promise reaches procurement production latest full crop reliability variance breaks sowing decisions trade boundary export import parity ratio number tuned partial creates outsized value capped book sell mandi medians three design rules evidence keeps repeating making option language precise split stated plainly wheat omss rung bajra nafed urad crash-year maize ragi exit season gram quintal dormant crops disposal guarantee rungs twenty-one jowar masur paddy moong msps soybean mustard ethanol groundnut milling ladder nfsa 2316941">
 <time class="cdate" datetime="2026-07-23">23 July 2026</time>
 <span class="ctag"><span class="sr-only">Topic: </span>Agriculture &amp; Fertilisers</span>
@@ -4501,6 +4663,8 @@
 <span class="crel-lbl">Related</span> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/07/the-grain-value-loop-integrated-rice.html">The Grain Value Loop — Integrated Rice Biorefinery Pitch</a> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/10/wheats-support-price-rose-by-25.html">Wheat&#x27;s Support Price Rose by ₹25, the Smallest Rise in Years. The Granaries Explain Why</a> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/10/how-to-use-fci-warehouse-mspvsmsv-grain.html">How to use FCI-warehouse-MSPvsMSV: grain procurement, MSP and mandi-price data with working models</a>
 </span>
 </li>
+</ul></div>
+<div class="cdayg" data-date="2026-07-22"><h4 class="cday" id="gs-d-2026-07-22">Wednesday 22 July 2026<span class="cday-n"> &middot; 7 articles</span></h4><ul class="crows" aria-labelledby="gs-d-2026-07-22">
 <li class="crow" data-ym="2026-07" data-date="2026-07-22" data-topic="City Gas Distribution" data-kw="geographical area actually bidding-round shaped stated goal numbers coverage household pngrb bidding round districts rounds population icra rollout district near-threefold pipeline-laying natural connection fuel-outlet full-screen rating-agency connections geocoded cold-chain lagging geography authorities licensing crisil authorised petroleum areas workforce entity filling challenges already-built-out approval-count built-out capex-heavy city-based">
 <time class="cdate" datetime="2026-07-22">22 July 2026</time>
 <span class="ctag"><span class="sr-only">Topic: </span>City Gas Distribution</span>
@@ -4546,6 +4710,8 @@
 <span class="ctag"><span class="sr-only">Topic: </span>Markets &amp; Finance</span>
 <a class="ctitle" href="https://masaladeutsch.blogspot.com/2026/07/the-fearless-girls-charter-indias.html">The Fearless Girl&#x27;s Charter — India&#x27;s Market Asks 2026</a>
 </li>
+</ul></div>
+<div class="cdayg" data-date="2026-07-21"><h4 class="cday" id="gs-d-2026-07-21">Tuesday 21 July 2026<span class="cday-n"> &middot; 1 article</span></h4><ul class="crows" aria-labelledby="gs-d-2026-07-21">
 <li class="crow" data-ym="2026-07" data-date="2026-07-21" data-topic="Industrial Policy" data-kw="trade sector policy recommendations launches nsws cabinet-register incentivized incentive inflow production-linked windows deck migrated payouts pitch forex design sectors launch migration portals equity traffic re-run incentives schemes demand-side frame caught-and-retracted closed-success company-facing contacts country-relationship declining-export-sector export-risk garment-factory generalized india-trade-sector-policy-recommendations laggards letter-grades methodology-gap nash">
 <time class="cdate" datetime="2026-07-21">21 July 2026</time>
 <span class="ctag"><span class="sr-only">Topic: </span>Industrial Policy</span>
@@ -4554,14 +4720,15 @@
 <span class="crel-lbl">Related</span> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/08/indias-state-incentive-war-gujarats.html">India&#x27;s State Incentive War: Gujarat&#x27;s Execution Edge, Karnataka&#x27;s FDI Inversion, and Why Nobody Can Tell You Who Actually Got Paid</a> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/08/india-approved-15-lakh-crore-in.html">India Approved ₹1.5 Lakh Crore in Manufacturing Subsidies. Parliament&#x27;s Own Answers Show How Little of It Has Actually Been Paid.</a> <a class="crel-a" href="https://masaladeutsch.blogspot.com/2026/09/where-indias-fdi-actually-lands-state.html">Where India&#x27;s FDI Actually Lands: 24 Quarters of DPIIT&#x27;s Own State-and-District Data</a>
 </span>
 </li>
-</ul></div>
-<div class="cmonth" data-ym="2020-10"><h3 class="cgroup" id="gs-m-2020-10"><span>October 2020</span><span class="cgroup-n">1 article</span></h3><ul class="crows" aria-labelledby="gs-m-2020-10">
+</ul></div></div>
+<div class="cmonth" data-ym="2020-10"><h3 class="cgroup" id="gs-m-2020-10"><span>October 2020</span><span class="cgroup-n">1 article</span></h3>
+<div class="cdayg" data-date="2020-10-04"><h4 class="cday" id="gs-d-2020-10-04">Sunday 4 October 2020<span class="cday-n"> &middot; 1 article</span></h4><ul class="crows" aria-labelledby="gs-d-2020-10-04">
 <li class="crow" data-ym="2020-10" data-date="2020-10-04" data-topic="Markets &amp; Finance" data-kw="investors side looking product potato case study voice consumer typical user story recap customer cart framework fries potatoes french farmer ready-to-cook manager trader cook tired consumers investor tech convenience however frontier fridge love summarize successful your want sell ready team efficient puzzle respect trying death learned suitable">
 <time class="cdate" datetime="2020-10-04">4 October 2020</time>
 <span class="ctag"><span class="sr-only">Topic: </span>Markets &amp; Finance</span>
 <a class="ctitle" href="https://masaladeutsch.blogspot.com/2020/10/tech-for-business-so-2019-tech-as.html">Tech for Business so 2019, Tech As Business is for 2020! </a>
 </li>
-</ul></div>
+</ul></div></div>
 <p class="gs-filter-empty" id="gs-f-empty" role="status">No articles match this search and filter combination.</p>
 </div>
 <script>//<![CDATA[
@@ -4569,6 +4736,7 @@
   var chrono = document.querySelector('.chrono'); if(!chrono) return;
   var rows = Array.prototype.slice.call(chrono.querySelectorAll('.crow'));
   var months = Array.prototype.slice.call(chrono.querySelectorAll('.cmonth'));
+  var days = Array.prototype.slice.call(chrono.querySelectorAll('.cdayg'));
   var MONTHS=['January','February','March','April','May','June','July','August',
     'September','October','November','December'];
   function uniqSorted(key, cmp){
@@ -4628,6 +4796,10 @@
            && (!t || r.getAttribute('data-topic')===t) && inText;
       r.style.display = ok ? '' : 'none'; if(ok) shown++;
       r.classList.toggle('via-text', !!(ok && terms.length && !inTitle));
+    });
+    days.forEach(function(g){
+      var any=Array.prototype.some.call(g.querySelectorAll('.crow'), function(r){ return r.style.display!=='none'; });
+      g.style.display = any ? '' : 'none';
     });
     months.forEach(function(g){
       var any=Array.prototype.some.call(g.querySelectorAll('.crow'), function(r){ return r.style.display!=='none'; });

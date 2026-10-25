@@ -15720,3 +15720,16 @@ Index: crop seasons post
 **Re-dated** (publication date changed; body and URL unchanged)
 
 - `indias-winter-harvest-now-outgrows-its` — 2026-10-25 &rarr; 2026-10-25
+
+## 2026-10-25T07:38:13+05:30 — 420 posts live
+
+Index: date-wise and month-wise view
+
+
+**Versions**
+
+- `article-index-start-here` **65.2.0 → 65.3.0** (MINOR) — forced via --as minor (figures changed (+0/-0 distinct numbers))
+
+**Changed**
+
+- `article-index-start-here` — 814,949 → 834,493 bytes (+19,544)
