@@ -52,8 +52,8 @@ UNITS = [
     "US$", "USD", "EUR", "JPY", "KRW", "BRL", "INR", "₹", "&#8377;", "$", "€",
     "%", "pp", "bps", "kg", "km", "litres", "litre", "years", "yrs",
 ]
-_UNIT_RE = re.compile(
-    "(" + "|".join(re.escape(u) for u in UNITS) + ")", re.IGNORECASE
+_UNIT_RE = re.compile(  # longest first, so "MTPA" is not read as "MT"
+    "(" + "|".join(re.escape(u) for u in sorted(UNITS, key=len, reverse=True)) + ")", re.IGNORECASE
 )
 _TABLE = re.compile(r"<table[^>]*>(.*?)</table>", re.S | re.I)
 _ROW = re.compile(r"<tr[^>]*>(.*?)</tr>", re.S | re.I)
