@@ -81,6 +81,13 @@ def _pretty_date(iso):
     return f"{d} {_MON[m-1]} {y}"
 
 
+def _weekday_date(iso):
+    """'2026-10-25' -> 'Sunday 25 October 2026'."""
+    import datetime as _dt
+    d = _dt.date(int(iso[:4]), int(iso[5:7]), int(iso[8:10]))
+    return f"{d.strftime('%A')} {d.day} {_MON[d.month - 1]} {d.year}"
+
+
 def _pretty_month(ym):
     y, m = ym[:4], int(ym[5:7])
     return f"{_MON[m-1]} {y}"
@@ -169,6 +176,7 @@ FILTER_JS = """<script>//<![CDATA[
   var chrono = document.querySelector('.chrono'); if(!chrono) return;
   var rows = Array.prototype.slice.call(chrono.querySelectorAll('.crow'));
   var months = Array.prototype.slice.call(chrono.querySelectorAll('.cmonth'));
+  var days = Array.prototype.slice.call(chrono.querySelectorAll('.cdayg'));
   var MONTHS=['January','February','March','April','May','June','July','August',
     'September','October','November','December'];
   function uniqSorted(key, cmp){
@@ -228,6 +236,10 @@ FILTER_JS = """<script>//<![CDATA[
            && (!t || r.getAttribute('data-topic')===t) && inText;
       r.style.display = ok ? '' : 'none'; if(ok) shown++;
       r.classList.toggle('via-text', !!(ok && terms.length && !inTitle));
+    });
+    days.forEach(function(g){
+      var any=Array.prototype.some.call(g.querySelectorAll('.crow'), function(r){ return r.style.display!=='none'; });
+      g.style.display = any ? '' : 'none';
     });
     months.forEach(function(g){
       var any=Array.prototype.some.call(g.querySelectorAll('.crow'), function(r){ return r.style.display!=='none'; });
@@ -449,7 +461,7 @@ def main():
 
     # ---- by date ----------------------------------------------------------
     A('<h2 id="gs-date">By date</h2>')
-    A('<p class="h2sub">The whole publishing history, including the part where nothing happened.</p>')
+    A('<p class="h2sub">Month by month, newest first. Each month links to its articles below, listed day by day.</p>')
     gap_note = ""
     if len(dates) > 1:
         d0, d1 = dates[0][:10], dates[1][:10]
@@ -470,11 +482,25 @@ def main():
       '</style>')
     A('<div class="tw gb-tblwrap" role="region" aria-label="Articles per month" tabindex="0"><table class="gb-table">')
     A('<caption class="sr-only">Articles published per month, with a running total</caption>')
-    A('<thead><tr><th scope="col">Month</th><th scope="col">Articles</th><th scope="col">Running total</th></tr></thead><tbody>')
+    # gs-datewise-v1 (2026-10-25): month rows link to that month's block in "All
+    # articles", and each month shows how many days had a post and its busiest
+    # day, so the table works as a date-wise and month-wise way in, not only a tally.
+    days_by_month = collections.defaultdict(collections.Counter)
+    for p_ in posts.values():
+        if p_["published"]:
+            days_by_month[p_["published"][:7]][p_["published"][:10]] += 1
+    A('<thead><tr><th scope="col">Month</th><th scope="col">Articles</th><th scope="col">Days with a post</th>'
+      '<th scope="col">Busiest day</th><th scope="col">Running total</th></tr></thead><tbody>')
     run = 0
+    totals = {}
     for m in sorted(months):
         run += months[m]
-        A(f'<tr><th scope="row">{_pretty_month(m)}</th><td>{months[m]}</td><td>{run}</td></tr>')
+        totals[m] = run
+    for m in sorted(months, reverse=True):
+        dm = days_by_month[m]
+        bd, bn = max(dm.items(), key=lambda kv: (kv[1], kv[0]))
+        A(f'<tr><th scope="row"><a href="#gs-m-{E(m)}">{_pretty_month(m)}</a></th><td>{months[m]}</td><td>{len(dm)}</td>'
+          f'<td><a href="#gs-d-{E(bd)}">{E(_pretty_date(bd))}</a> ({bn})</td><td>{totals[m]}</td></tr>')
     A('</tbody></table></div>')
     A('<p class="exsrc">Counted from each post&rsquo;s Blogger publication date as recorded in the '
       'archive manifest. A number of earlier drafts and duplicate variants -- accidental multi-publishes, '
@@ -573,27 +599,41 @@ def main():
     # the list the same date anchors the "By date" table above already has,
     # while leaving each row's own date untouched.
     A('<h2 id="gs-all">All articles</h2>')
-    A('<p class="h2sub">Newest first, grouped by month. Search the titles and article text, or filter by month, day or topic.</p>')
+    A('<p class="h2sub">Newest first, grouped by month and then by day. Search the titles and article text, or filter by month, day or topic.</p>')
     A(FILTER_BAR)
     A('<div class="chrono">')
     ordered = sorted(posts.items(), key=lambda kv: kv[1]["published"], reverse=True)
     month_counts = collections.Counter(p["published"][:7] for _, p in ordered if p["published"])
+    day_counts = collections.Counter(p["published"][:10] for _, p in ordered if p["published"])
     cur_ym = object()
+    cur_day = object()
     open_month = False
     for slug, p in ordered:
         ym = p["published"][:7] if p["published"] else None
         day = p["published"][:10] if p["published"] else None
         if ym != cur_ym:
             if open_month:
-                A('</ul></div>')
+                A('</ul></div></div>')
             cur_ym = ym
+            cur_day = object()
             label = _pretty_month(ym) if ym else "Undated"
             n = month_counts[ym] if ym else sum(1 for _, pp in ordered if not pp["published"])
             hid = f'gs-m-{ym or "undated"}'
             A(f'<div class="cmonth" data-ym="{E(ym or "")}"><h3 class="cgroup" id="{E(hid)}">'
-              f'<span>{E(label)}</span><span class="cgroup-n">{n} article{"s" if n != 1 else ""}</span></h3>'
-              f'<ul class="crows" aria-labelledby="{E(hid)}">')
+              f'<span>{E(label)}</span><span class="cgroup-n">{n} article{"s" if n != 1 else ""}</span></h3>')
             open_month = True
+            first_day = True
+        if day != cur_day:
+            if not first_day:
+                A('</ul></div>')
+            first_day = False
+            cur_day = day
+            did = f'gs-d-{day or "undated"}'
+            nd = day_counts[day] if day else sum(1 for _, pp in ordered if not pp["published"])
+            dlabel = _weekday_date(day) if day else "Undated"
+            A(f'<div class="cdayg" data-date="{E(day or "")}"><h4 class="cday" id="{E(did)}">{E(dlabel)}'
+              f'<span class="cday-n"> &middot; {nd} article{"s" if nd != 1 else ""}</span></h4>'
+              f'<ul class="crows" aria-labelledby="{E(did)}">')
         labels = labels_by_slug.get(slug) or []
         tag, tag_cls = (labels[0], "ctag") if labels else ("Unlabelled", "ctag none")
         date_str = _pretty_date(p["published"]) if p["published"] else "?"
@@ -617,7 +657,7 @@ def main():
             A('</span>')
         A('</li>')
     if open_month:
-        A('</ul></div>')
+        A('</ul></div></div>')
     A('<p class="gs-filter-empty" id="gs-f-empty" role="status">No articles match this search and filter combination.</p>')
     A('</div>')
     A(FILTER_JS)
@@ -713,6 +753,10 @@ def main():
 .artx .gs-f-field{display:flex;flex-direction:column;gap:.25rem}
 .artx .cmonth{margin-top:.6rem}
 .artx .cgroup{margin:0}
+.artx .cday{margin:.7rem 0 .1rem;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;
+ font-size:.86rem;font-weight:700;color:#3d3d3d;border-bottom:1px solid #e2e2e2;padding-bottom:.2rem}
+.artx .cday-n{font-weight:400;color:#595959}
+.artx .cdayg .cdate{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
 .artx .crows{list-style:none;margin:0;padding:0;max-width:none}
 .artx .crow{max-width:none}
 .artx .ctitle{text-decoration:underline;text-decoration-color:#c7cbd1;text-underline-offset:3px}
