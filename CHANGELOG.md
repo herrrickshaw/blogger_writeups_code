@@ -15694,3 +15694,12 @@ youtube-demo-uploads: 10 how-to posts live + index rebuilt
 **Changed**
 
 - `article-index-start-here` — 801,744 → 814,098 bytes (+12,354)
+
+## 2026-10-25T07:33:31+05:30 — 420 posts live
+
+New post: crop seasons, kharif rabi zaid area yield and mandi arrivals
+
+
+**Added**
+
+- `indias-winter-harvest-now-outgrows-its` **v1.0.0** — India’s Winter Harvest Now Outgrows Its Monsoon One. Kharif, Rabi and Zaid, Crop by Crop: Area, Yield and When It Reaches the Mandi (57,823 bytes)
