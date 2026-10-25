@@ -1,0 +1,281 @@
+<div class="artx htudiscom">
+<style>
+/* ---- typography (gs-typo-unify-v1): keep in sync across all posts ---- */
+.htudiscom{font-family:Georgia,'Times New Roman',serif;line-height:1.6;color:#111}
+.htudiscom h1,.htudiscom h2,.htudiscom h3{line-height:1.3}
+
+/* ---- palette: define every colour as a custom property here. Do not add
+       raw hex elsewhere in a post's <style> block — reference these vars, so
+       a future palette change is a 4-line edit instead of a find-and-replace
+       across every post. ----
+   --ink     #111    body text, light-locked (see below)
+   --accent  #8a4b08  eyebrow text, h2 rule, table header bg, stat numbers —
+                       the one colour that carries this post's "brand"
+   --rule    #e8dcc4  hairline borders, h2 underline, table cell borders
+   --panel   #fdf7ec  stat-card bg, even table rows — the palette's one tint
+*/
+.htudiscom{--ink:#111;--accent:#8a4b08;--rule:#e8dcc4;--panel:#fdf7ec;--good:#1a7a4c;--good-soft:#eaf6ef;--bad:#a5402c;--bad-soft:#fff4f0}
+
+/* ---- mono-label convention (added 2026-09-17, borrowed from the
+       india-trade-sector-policy-recommendations design system): the eyebrow
+       kicker and the source line read as data-journalism metadata, not
+       article prose, so they get a monospace face — a system stack, not a
+       hosted webfont, so no post gains an extra network request or a
+       flash-of-unstyled-text risk. Body text (h1/p/li/table) keeps the
+       serif — this is a two-place accent, not a font-pairing overhaul. ---- */
+.htudiscom{--mono:ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace}
+
+/* ---- light lock (gs-light-lock): a dark Blogger theme (and a browser/OS
+       set to prefers-color-scheme:dark) must not repaint text. Re-assert
+       the same values with !important — verified 2026-08-14 across 5 live
+       posts with the browser's colour scheme forced to dark: body/h1/p/table
+       all stayed light-background/dark-text with no low-contrast pairs.
+       Do NOT add selectors here for panels that are meant to be dark —
+       those go in the guard below. ---- */
+.htudiscom,.htudiscom p,.htudiscom li,.htudiscom td,.htudiscom th{color:var(--ink)!important}
+.htudiscom{background:#fff!important}
+
+/* ---- structure: title + subtitle ----
+   .eyebrow    = the small-caps kicker ABOVE the h1 — "Section · Topic ·
+                 Subtopic", sets context before the reader hits the claim
+   h1          = the headline itself. Write it as the CLAIM, not the topic
+                 ("The Rouble Is the Outlier, Not the Dollar" beats
+                 "Currency Trends Update"). font-size 1.5rem is the deliberate
+                 site-wide size — do not bump it per-post.
+   .standfirst = the one/two-sentence SUBTITLE directly under the h1. This is
+                 also what Blogger's snippet extractor and the JSON-LD meta
+                 description both read (see the gs-head-order block below) —
+                 write it as a real, complete sentence a reader could act on,
+                 not a fragment.
+*/
+.htudiscom .eyebrow{font-size:.8rem;font-weight:700;letter-spacing:.04em;color:var(--accent);text-transform:uppercase;margin:0 0 6px;font-family:var(--mono)}
+.htudiscom h1{margin:0 0 10px;font-size:1.5rem}
+.htudiscom .standfirst{font-size:1.05rem;color:#333!important;margin:0 0 18px}
+.htudiscom .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px;margin:18px 0}
+.htudiscom .stat{background:var(--panel);border:1px solid var(--rule);border-radius:10px;padding:12px 14px}
+.htudiscom .stat b{display:block;font-size:1.2rem;color:var(--accent)}
+.htudiscom .stat span{font-size:.8rem}
+.htudiscom h2{color:var(--accent);border-bottom:2px solid var(--rule);padding-bottom:6px;margin-top:30px;font-size:1.15rem}
+
+/* ---- tables: units live in the header, cells carry bare numbers.
+       .tw is the mobile-overflow fix — see the MOBILE comment above. ---- */
+.htudiscom .tw{overflow-x:auto}
+.htudiscom table{width:100%;border-collapse:collapse;margin:14px 0;font-size:.88rem}
+.htudiscom th,.htudiscom td{border:1px solid var(--rule);padding:7px 9px;text-align:right;word-wrap:break-word;overflow-wrap:break-word}
+.htudiscom th:first-child,.htudiscom td:first-child{text-align:left}
+.htudiscom th{background:var(--accent);color:#fff!important;font-weight:600}
+.htudiscom tr:nth-child(even){background:var(--panel)}
+
+.htudiscom .note{background:#eef4ff;border-left:4px solid #2a78d6;padding:12px 16px;margin:18px 0;border-radius:0 8px 8px 0;font-size:.93rem}
+.htudiscom .warn{background:var(--bad-soft);border-left:4px solid var(--bad);padding:12px 16px;margin:18px 0;border-radius:0 8px 8px 0;font-size:.93rem}
+/* ---- .good (added 2026-09-17): third semantic tier alongside .note (neutral
+       framing) and .warn (a caveat/scope limit) — for the case a caveat block
+       would otherwise get stretched to cover: confirming a figure checked out,
+       a correction that resolved cleanly, a claim that survived cross-check.
+       Same shape as .note/.warn on purpose, so all three read as one family. */
+.htudiscom .good{background:var(--good-soft);border-left:4px solid var(--good);padding:12px 16px;margin:18px 0;border-radius:0 8px 8px 0;font-size:.93rem}
+/* ---- .chip (added 2026-09-17): formalises a labelling pattern several posts
+       already built ad hoc in JS (e.g. "PLI coverage: strong/partial/gap")
+       into one reusable inline component, so a new post doesn't reinvent it.
+       Use inline: <span class="chip chip-good">Strong</span>. ---- */
+.htudiscom .chip{display:inline-block;font-family:var(--mono);font-size:.72rem;font-weight:700;letter-spacing:.02em;padding:.15rem .5rem;border-radius:99px;line-height:1.5}
+.htudiscom .chip-good{background:var(--good-soft);color:var(--good)}
+.htudiscom .chip-warn{background:var(--panel);color:var(--accent)}
+.htudiscom .chip-bad{background:var(--bad-soft);color:var(--bad)}
+.htudiscom .src{font-size:.84rem;font-family:var(--mono);border-top:1px solid var(--rule);padding-top:12px;margin-top:24px}
+.htudiscom .disclaimer{font-size:.82rem;color:#555;margin-top:10px}
+.htudiscom .revised{font-size:.8rem;color:#555!important;margin:0 0 14px}
+.htudiscom .revised code{font-family:inherit;background:var(--panel);padding:1px 5px;border-radius:4px}
+</style>
+
+
+<div class="gs-head-order" style="display:flex;flex-direction:column">
+<p class="standfirst" style="order:4">A single-file Python calculator that projects how tariff hikes, loss reduction, collection efficiency and subsidy timeliness change an electricity distribution company&#x27;s debt, and what each path does to a household bill. This post runs it and shows the results and two problems I found. A conceptual scenario tool, not a forecast. The repository is archived (read-only).</p>
+<div class="topnav-index-link" style="order:1;font-size:.82em;margin:6px 0 14px"><a href="https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html" style="color:#0b5394;text-decoration:none">&#8592; All Articles (Index)</a></div>
+<p class="eyebrow" style="order:2">Open-Source Tools · How-To · Energy &amp; fuels models</p>
+<h1 style="order:3">How to use discom-debt-and-revenue-models: a scenario calculator for electricity distribution company debt</h1>
+</div>
+
+
+<a href="#" id="gs-skip-link" class="gs-skip-link" style="position:absolute;left:-9999px;top:auto;background:#1a1a1a;color:#fff;padding:.6rem 1rem;z-index:1000;border-radius:4px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.85rem">Skip to article content</a>
+<style>.gs-skip-link:focus{left:8px!important;top:8px!important}
+.gs-a11y-bar{display:flex;align-items:center;gap:.55rem;flex-wrap:wrap;background:#f4f5f7;border:1px solid #dfe3e8;border-radius:8px;padding:.55rem .8rem;margin:10px 0 16px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
+.gs-a11y-bar .gs-a11y-label{font-size:.68rem;font-weight:700;letter-spacing:.08em;color:#666;text-transform:uppercase;margin-right:.15rem}
+.gs-a11y-bar button{cursor:pointer;border:1px solid #c7cbd1;background:#fff;color:#1a1a1a;border-radius:5px;padding:.32rem .65rem;font-family:inherit;line-height:1}
+.gs-a11y-bar button.gs-a11y-fs{font-weight:700;min-width:2rem;text-align:center}
+.gs-a11y-bar button.gs-a11y-fs[data-size="sm"]{font-size:.8rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="md"]{font-size:1rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="lg"]{font-size:1.2rem}
+.gs-a11y-bar button.gs-a11y-fs[aria-pressed="true"]{background:#1a1a1a;color:#fff;border-color:#1a1a1a}
+.gs-a11y-bar button:hover{border-color:#8a4b08}
+.gs-a11y-bar button:focus-visible{outline:2px solid #8a4b08;outline-offset:1px}
+.gs-a11y-bar .gs-a11y-sep{width:1px;align-self:stretch;background:#dfe3e8;margin:0 .1rem}</style>
+<div class="gs-a11y-bar" role="group" aria-label="Accessibility controls">
+<span class="gs-a11y-label">Text Size</span>
+<button type="button" class="gs-a11y-fs" data-size="sm" aria-pressed="false" aria-label="Small text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="md" aria-pressed="true" aria-label="Medium text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="lg" aria-pressed="false" aria-label="Large text">A</button>
+<span class="gs-a11y-sep"></span>
+<button type="button" id="gs-a11y-listen" aria-label="Read this article aloud">&#128266; Listen</button>
+<button type="button" id="gs-a11y-stop" aria-label="Stop reading aloud">&#9632; Stop</button>
+</div>
+<script>(function(){
+var KEY='gs-a11y-fontsize', SIZES={sm:'0.92',md:'1',lg:'1.15'};
+function pb(){return document.querySelector('.post-body')||document.querySelector('.artx,.mdrx');}
+function apply(sz){
+  var el=pb(); if(!el||!SIZES[sz]) return;
+  el.style.fontSize=SIZES[sz]+'em';
+  var btns=document.querySelectorAll('.gs-a11y-fs');
+  for(var i=0;i<btns.length;i++){
+    var on=btns[i].getAttribute('data-size')===sz;
+    btns[i].setAttribute('aria-pressed', on?'true':'false');
+  }
+  try{localStorage.setItem(KEY,sz);}catch(e){}
+}
+var fsBtns=document.querySelectorAll('.gs-a11y-fs');
+for(var j=0;j<fsBtns.length;j++){
+  fsBtns[j].addEventListener('click',(function(b){return function(){apply(b.getAttribute('data-size'));};})(fsBtns[j]));
+}
+var saved; try{saved=localStorage.getItem(KEY);}catch(e){}
+apply(saved&&SIZES[saved]?saved:'md');
+
+var listenBtn=document.getElementById('gs-a11y-listen'), stopBtn=document.getElementById('gs-a11y-stop');
+if(listenBtn){
+  listenBtn.addEventListener('click', function(){
+    if(!('speechSynthesis' in window)){ alert('Text-to-speech is not supported in this browser.'); return; }
+    window.speechSynthesis.cancel();
+    var src=pb(); if(!src) return;
+    var clone=src.cloneNode(true);
+    var strip=clone.querySelectorAll('script,style,svg');
+    for(var k=0;k<strip.length;k++){ strip[k].parentNode.removeChild(strip[k]); }
+    var text=clone.textContent.replace(/\s+/g,' ').trim();
+    if(!text) return;
+    var chunks=text.match(/[\s\S]{1,180}(?:[.!?]|$)/g)||[text];
+    var idx=0;
+    function speakNext(){
+      if(idx>=chunks.length) return;
+      var u=new SpeechSynthesisUtterance(chunks[idx]);
+      u.onend=function(){ idx++; speakNext(); };
+      window.speechSynthesis.speak(u);
+    }
+    speakNext();
+  });
+}
+if(stopBtn){
+  stopBtn.addEventListener('click', function(){
+    if('speechSynthesis' in window) window.speechSynthesis.cancel();
+  });
+}
+var skip=document.getElementById('gs-skip-link');
+if(skip){
+  skip.addEventListener('click', function(ev){
+    ev.preventDefault();
+    var h=document.querySelector('.post-body h1')||document.querySelector('.artx h1,.mdrx h1,h1');
+    if(h){ h.setAttribute('tabindex','-1'); h.focus(); h.scrollIntoView(); }
+  });
+}
+})();</script>
+<style>.goog-te-menu-frame{max-width:340px!important;max-height:70vh!important;overflow:auto!important;box-shadow:0 6px 24px rgba(0,0,0,.25)!important}</style>
+<div id="google_translate_element" style="margin:8px 0 16px;"></div><script type="text/javascript">function googleTranslateElementInit(){new google.translate.TranslateElement({pageLanguage:"en",includedLanguages:"hi,bn,ta,te,mr,gu,kn,ml,pa,or,as,ur,sa,ne,sd",layout:google.translate.TranslateElement.InlineLayout.SIMPLE,autoDisplay:false},"google_translate_element");}</script><script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+
+<p class="revised" data-gs-revision-v1="1">Revised
+<time datetime="2026-10-23" itemprop="dateModified">23 October 2026</time>
+&middot; <code>v1.0.0</code> &middot; <a href="#changelog">what changed</a></p>
+
+<style>.htudiscom pre{background:#f6f3ea!important;color:#111!important;border:1px solid var(--rule);border-radius:8px;padding:10px 12px;overflow-x:auto;font-size:.82rem;line-height:1.45}.htudiscom pre code{background:none!important;color:#111!important;font-family:var(--mono)}.htudiscom code{font-family:var(--mono);font-size:.88em}.htudiscom .vid{position:relative;padding-bottom:56.25%;height:0;margin:16px 0;max-width:100%}.htudiscom .vid iframe{position:absolute;inset:0;width:100%;height:100%;border:0}</style><div class="stats"><div class="stat"><b>5</b><span>built-in scenarios compared</span></div><div class="stat"><b>1 of 5</b><span>scenarios cuts debt on the default inputs</span></div><div class="stat"><b>+50.4%</b><span>household bill rise in the best-debt scenario</span></div><div class="stat"><b>crash</b><span>on Python 3.14 (runs on 3.13)</span></div></div>
+<p>Code: <a href="https://github.com/herrrickshaw/discom-debt-and-revenue-models">github.com/herrrickshaw/discom-debt-and-revenue-models</a></p>
+<h2>Watch the walkthrough</h2>
+<div class="vid"><iframe src="https://www.youtube.com/embed/u9zelV_adSM" title="How to use discom-debt-and-revenue-models: a scenario calculator for electricity distribution company debt" allowfullscreen loading="lazy"></iframe></div><p>Watch on YouTube: <a href="https://youtu.be/u9zelV_adSM">youtu.be/u9zelV_adSM</a></p>
+<h2>Why it is useful</h2>
+<ul><li>Who benefits: students, policy analysts and journalists who want to see why distribution company debt grows and which levers change it, with the consumer bill trade-off shown next to the debt.</li><li>What it replaces: a hand-built spreadsheet of the cost-of-supply versus revenue gap. The calculation is a short, readable loop of about forty lines.</li><li>Evidence from the run: on the default inputs, doing nothing takes debt from 40,000 to 175,288 crore rupees over seven years, and only the most aggressive scenario brings it down, at a 50.4 percent rise in the household bill.</li><li>Every input can be changed from the command line, so you can test your own what-ifs in seconds.</li></ul>
+<h2>What it is for</h2>
+<p>discom_debt_calculator.py models the yearly economics: energy billed after losses, revenue collected, cost of supply, state subsidy actually received, interest on the debt, and the resulting closing debt. It compares five scenarios and prints a debt trajectory for the best one plus a household bill table.</p>
+<p>It is a conceptual scenario calculator, not a forecast. Its own header says it uses flat cost growth, a single blended tariff and no demand response, and that it is no substitute for a regulatory tariff filing or audited accounts. The default company is illustrative. The repository is archived.</p>
+<p><b>Who it is for</b></p>
+<ul><li>Students and analysts learning why electricity distribution companies accumulate debt</li><li>Writers who want a transparent model to illustrate policy trade-offs</li><li>Non-programmers who want an AI assistant to explain each line</li></ul>
+<div class="warn"><b>Not for.</b><ul><li>Forecasting any real company&#x27;s debt. The defaults are illustrative and the model is deliberately simple.</li><li>Tariff petitions, rating work or investment decisions.</li><li>Concluding that a real policy mix will deliver the numbers printed here.</li></ul></div>
+<h2>What you need</h2>
+<div class="tw"><table><tr><th>Requirement</th><th>Why</th><th>How to get it</th></tr><tr><td>Python 3 (tested on 3.13)</td><td>runs the script, which only uses the standard library</td><td>python.org. Python 3.14 crashes at start-up, see limits</td></tr><tr><td>Nothing else</td><td>no packages, accounts or data files for the calculator</td><td>download one file</td></tr></table></div>
+<h2>Get the code and an AI assistant</h2>
+<p>You do not have to be a programmer. Get the repository, give it to an AI assistant, and ask in plain language. Any of these routes works:</p>
+<div class="tw"><table><tr><th>Tool</th><th>What you need</th><th>Best for</th></tr><tr><td><b>GitHub</b></td><td>Free account to fork or star; <code>git</code> to clone, or the green <b>Code</b> button, then <b>Download ZIP</b>, or open in <b>Codespaces</b></td><td>Getting the code and keeping up with updates</td></tr><tr><td><b>Claude Code</b></td><td>Claude subscription or API key; run <code>claude</code> inside the cloned folder</td><td>Letting the AI read and run the whole repo</td></tr><tr><td><b>Gemini CLI</b></td><td>Google account; run <code>gemini</code> inside the cloned folder</td><td>The same hands-on workflow with Gemini</td></tr><tr><td><b>Claude.ai, Gemini or ChatGPT in the browser</b></td><td>A chat account; upload <code>README.md</code> and the files you care about (or paste the output of <code>git ls-files</code>)</td><td>Understanding the project and asking questions without installing anything</td></tr><tr><td><b>Other tools</b> (Copilot Chat, Cursor, Codex CLI)</td><td>Open the cloned folder in the tool and point it at <code>README.md</code> first</td><td>Editing and extending the code</td></tr></table></div>
+<pre><code>git clone https://github.com/herrrickshaw/discom-debt-and-revenue-models.git
+cd discom-debt-and-revenue-models
+claude      # or: gemini</code></pre>
+<h2>Install</h2><ol><li>Get the code (the repository is archived, so you can clone it but not push)<pre><code>git clone https://github.com/herrrickshaw/discom-debt-and-revenue-models.git
+cd discom-debt-and-revenue-models</code></pre></li></ol>
+<h2>Quick start: commands and what you should see</h2>
+<p><b>Run the default illustrative company</b></p>
+<pre><code>python3.13 discom_debt_calculator.py</code></pre>
+<p>A header of inputs, a five-scenario table, a year-by-year trajectory for the best scenario, a household bill table and a short interpretation.</p>
+<p><b>Change the inputs</b></p>
+<pre><code>python3.13 discom_debt_calculator.py --debt 50000 --acs 7.2 --arr 6.1 --loss 18</code></pre>
+<p>The same report for a company with a wider cost-revenue gap.</p>
+<p><b>Get machine-readable output</b></p>
+<pre><code>python3.13 discom_debt_calculator.py --json</code></pre>
+<p>Inputs and year-by-year rows for every scenario as JSON.</p>
+<h2>Sample outputs</h2><p>Real output from a run on the date shown in the sources line; trimmed to fit.</p>
+<p><b>Default inputs: five scenarios</b></p>
+<pre><code>python3.13 discom_debt_calculator.py
+  Opening debt: ₹40,000 Cr | Energy input: 60,000 MU
+  ACS ₹6.8/kWh vs ARR ₹6.2/kWh (gap ₹0.60/kWh) | AT&amp;C loss 15.0% | collection 98.0%
+  Interest 9.5% | horizon 7 yrs
+
+  Scenario                      Final debt ₹Cr   Δ vs today ₹Cr Outcome
+  Status Quo (no action)               175,288         +135,288  ▲ debt grows
+  Tariff hike only (5%/yr)             108,496          +68,496  ▲ debt grows
+  Loss + collection reform             139,081          +99,081  ▲ debt grows
+  Combined (UDAY-style)                 79,852          +39,852  ▲ debt grows
+  Aggressive turnaround                 36,496           -3,504  ▼ debt cut</code></pre>
+<p>Debt in crore rupees after seven years, with the 40,000 crore starting point.</p>
+<p><b>Best scenario, year by year (rows 1, 2, 4, 5, 7 of 7)</b></p>
+<pre><code>   Yr    ARR    ACS    Gap  Loss%   OpGap ₹Cr     Debt ₹Cr
+    1   6.57   7.07   0.50   13.0        -447       44,247
+    2   6.97   7.35   0.39   11.0      +1,199       47,251
+    4   7.83   7.96   0.13    7.0      +4,438       49,035
+    5   8.30   8.27  -0.02    5.0      +6,280       47,413
+    7   9.32   8.95  -0.37    1.0     +11,073       36,496</code></pre>
+<p>The cost-revenue gap closes in year 5, and the operating gap turns positive from year 2.</p>
+<p><b>Household bill at 250 units a month</b></p>
+<pre><code>  Scenario                       Bill yr0   Bill yr7   Increase
+  Status Quo (no action)       ₹   1,550 ₹   1,550       0.0%
+  Tariff hike only (5%/yr)     ₹   1,550 ₹   2,181      40.7%
+  Loss + collection reform     ₹   1,550 ₹   1,550       0.0%
+  Combined (UDAY-style)        ₹   1,550 ₹   2,040      31.6%
+  Aggressive turnaround        ₹   1,550 ₹   2,331      50.4%</code></pre>
+<p>The bill is 250 units times the blended tariff. Operational reform leaves the bill unchanged because it only changes losses and collection.</p>
+<p><b>A harsher company (50,000 crore, cost 7.2, revenue 6.1, losses 18%)</b></p>
+<pre><code>python3.13 discom_debt_calculator.py --debt 50000 --acs 7.2 --arr 6.1 --loss 18
+  Opening debt: ₹50,000 Cr | ACS ₹7.2/kWh vs ARR ₹6.1/kWh | AT&amp;C loss 18.0%
+  Status Quo (no action)               239,657         +189,657  ▲ debt grows
+  Combined (UDAY-style)                147,672          +97,672  ▲ debt grows
+  Aggressive turnaround                106,051          +56,051  ▲ debt grows</code></pre>
+<p>No built-in scenario brings debt down here.</p>
+<p><b>Python 3.14 start-up crash</b></p>
+<pre><code>python3.14 discom_debt_calculator.py
+$ python3.14 discom_debt_calculator.py
+  File &quot;.../argparse.py&quot;, line 1750, in _check_help
+    raise ValueError(&#x27;badly formed help string&#x27;) from exc
+ValueError: badly formed help string
+(cause: help=&quot;AT&amp;C loss (%)&quot; has a bare percent sign; Python 3.13 runs fine)</code></pre>
+<p>A bare percent sign in an argparse help string. Newer Python versions check help strings when the option is defined.</p>
+<h2>Ways to use it</h2>
+<div class="tw"><table><tr><th>Method</th><th>How it works</th></tr><tr><td>Command line</td><td>Change the debt, energy, cost, tariff, loss, collection, interest and horizon flags.</td></tr><tr><td>JSON for your own charts</td><td>Use --json and plot the yearly rows in a spreadsheet or notebook.</td></tr><tr><td>Edit the scenarios</td><td>default_scenarios() lists the five lever mixes; add your own.</td></tr><tr><td>Ask an AI assistant</td><td>Have it explain each line of project() or fix the Python 3.14 crash.</td></tr></table></div>
+<h2>Sample prompts for your AI assistant</h2><p>Copy, paste and edit the parts in [brackets].</p>
+<ul><li>Claude: Read discom_debt_calculator.py and explain in plain language how closing debt is computed each year.</li><li>Gemini: Run it with --horizon 3 --collection 90 and tell me why every scenario still grows the debt.</li><li>ChatGPT: I pasted the five-scenario table. Does the script&#x27;s interpretation line that operational levers cut debt without the tariff burden match the numbers?</li><li>GitHub (Copilot Chat): Change the help string for --loss so the script starts on Python 3.14, and re-run it.</li><li>Claude: Add a scenario where the state subsidy grows with energy cost, and show how it changes the table.</li></ul>
+<h2>Limits and honest caveats</h2>
+<div class="warn"><ul><li>A conceptual scenario calculator, not a forecast. The defaults are illustrative, not any real company&#x27;s accounts.</li><li>Flat cost growth, one blended tariff, no demand response, and a fixed subsidy amount that does not grow with costs, so debt is very sensitive to those assumptions.</li><li>It crashes at start-up on Python 3.14 (ValueError: badly formed help string). I ran it on Python 3.13.</li><li>The script&#x27;s interpretation text says operational levers cut debt without the full tariff burden, but on the default inputs reform alone ends with higher debt (139,081 crore) than a tariff-only path (108,496 crore).</li><li>The README&#x27;s heading says subscription-model-revenue, and the second file (a Dirichlet random-numbers script exported from a notebook) is unrelated to power. I did not run it.</li><li>Not a tariff filing, rating opinion or investment advice.</li></ul></div>
+<p class="src">Sources: Cloned github.com/herrrickshaw/discom-debt-and-revenue-models (archived) into a clean folder and ran discom_debt_calculator.py with Python 3.13 (and Python 3.14 to see the crash) on 23 October 2026, using default inputs and the flags shown. The Dirichlet script and the Colab notebook were not run. The repository was not modified.</p>
+<div id="changelog" class="note">
+<b>Revision history.</b>
+<ul>
+<li><b>v1.0.0</b> &mdash; 23 October 2026 &mdash; first published.</li>
+</ul>
+</div>
+
+
+<style>/* gs-light-lock-v1 */.htudiscom{--ink:#111!important;--accent:#8a4b08!important;--rule:#e8dcc4!important;--panel:#fdf7ec!important;--good:#1a7a4c!important;--good-soft:#eaf6ef!important;--bad:#a5402c!important;--bad-soft:#fff4f0!important}</style>
+<p class="disclaimer" data-gs-ai-disclosure-v1="1"><strong>About this article:</strong> Researched, written and edited by Umashankar Triplicane Dwarakanathan, with AI research assistance; every figure is meant to trace to the primary source cited. See the <a href="https://masaladeutsch.blogspot.com/p/disclaimer.html">Editorial Policy</a> for how sourcing, AI use and corrections work.</p>
+
+</div>

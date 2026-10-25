@@ -1,0 +1,279 @@
+<div class="artx htugazett">
+<style>
+/* ---- typography (gs-typo-unify-v1): keep in sync across all posts ---- */
+.htugazett{font-family:Georgia,'Times New Roman',serif;line-height:1.6;color:#111}
+.htugazett h1,.htugazett h2,.htugazett h3{line-height:1.3}
+
+/* ---- palette: define every colour as a custom property here. Do not add
+       raw hex elsewhere in a post's <style> block — reference these vars, so
+       a future palette change is a 4-line edit instead of a find-and-replace
+       across every post. ----
+   --ink     #111    body text, light-locked (see below)
+   --accent  #8a4b08  eyebrow text, h2 rule, table header bg, stat numbers —
+                       the one colour that carries this post's "brand"
+   --rule    #e8dcc4  hairline borders, h2 underline, table cell borders
+   --panel   #fdf7ec  stat-card bg, even table rows — the palette's one tint
+*/
+.htugazett{--ink:#111;--accent:#8a4b08;--rule:#e8dcc4;--panel:#fdf7ec;--good:#1a7a4c;--good-soft:#eaf6ef;--bad:#a5402c;--bad-soft:#fff4f0}
+
+/* ---- mono-label convention (added 2026-09-17, borrowed from the
+       india-trade-sector-policy-recommendations design system): the eyebrow
+       kicker and the source line read as data-journalism metadata, not
+       article prose, so they get a monospace face — a system stack, not a
+       hosted webfont, so no post gains an extra network request or a
+       flash-of-unstyled-text risk. Body text (h1/p/li/table) keeps the
+       serif — this is a two-place accent, not a font-pairing overhaul. ---- */
+.htugazett{--mono:ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace}
+
+/* ---- light lock (gs-light-lock): a dark Blogger theme (and a browser/OS
+       set to prefers-color-scheme:dark) must not repaint text. Re-assert
+       the same values with !important — verified 2026-08-14 across 5 live
+       posts with the browser's colour scheme forced to dark: body/h1/p/table
+       all stayed light-background/dark-text with no low-contrast pairs.
+       Do NOT add selectors here for panels that are meant to be dark —
+       those go in the guard below. ---- */
+.htugazett,.htugazett p,.htugazett li,.htugazett td,.htugazett th{color:var(--ink)!important}
+.htugazett{background:#fff!important}
+
+/* ---- structure: title + subtitle ----
+   .eyebrow    = the small-caps kicker ABOVE the h1 — "Section · Topic ·
+                 Subtopic", sets context before the reader hits the claim
+   h1          = the headline itself. Write it as the CLAIM, not the topic
+                 ("The Rouble Is the Outlier, Not the Dollar" beats
+                 "Currency Trends Update"). font-size 1.5rem is the deliberate
+                 site-wide size — do not bump it per-post.
+   .standfirst = the one/two-sentence SUBTITLE directly under the h1. This is
+                 also what Blogger's snippet extractor and the JSON-LD meta
+                 description both read (see the gs-head-order block below) —
+                 write it as a real, complete sentence a reader could act on,
+                 not a fragment.
+*/
+.htugazett .eyebrow{font-size:.8rem;font-weight:700;letter-spacing:.04em;color:var(--accent);text-transform:uppercase;margin:0 0 6px;font-family:var(--mono)}
+.htugazett h1{margin:0 0 10px;font-size:1.5rem}
+.htugazett .standfirst{font-size:1.05rem;color:#333!important;margin:0 0 18px}
+.htugazett .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px;margin:18px 0}
+.htugazett .stat{background:var(--panel);border:1px solid var(--rule);border-radius:10px;padding:12px 14px}
+.htugazett .stat b{display:block;font-size:1.2rem;color:var(--accent)}
+.htugazett .stat span{font-size:.8rem}
+.htugazett h2{color:var(--accent);border-bottom:2px solid var(--rule);padding-bottom:6px;margin-top:30px;font-size:1.15rem}
+
+/* ---- tables: units live in the header, cells carry bare numbers.
+       .tw is the mobile-overflow fix — see the MOBILE comment above. ---- */
+.htugazett .tw{overflow-x:auto}
+.htugazett table{width:100%;border-collapse:collapse;margin:14px 0;font-size:.88rem}
+.htugazett th,.htugazett td{border:1px solid var(--rule);padding:7px 9px;text-align:right;word-wrap:break-word;overflow-wrap:break-word}
+.htugazett th:first-child,.htugazett td:first-child{text-align:left}
+.htugazett th{background:var(--accent);color:#fff!important;font-weight:600}
+.htugazett tr:nth-child(even){background:var(--panel)}
+
+.htugazett .note{background:#eef4ff;border-left:4px solid #2a78d6;padding:12px 16px;margin:18px 0;border-radius:0 8px 8px 0;font-size:.93rem}
+.htugazett .warn{background:var(--bad-soft);border-left:4px solid var(--bad);padding:12px 16px;margin:18px 0;border-radius:0 8px 8px 0;font-size:.93rem}
+/* ---- .good (added 2026-09-17): third semantic tier alongside .note (neutral
+       framing) and .warn (a caveat/scope limit) — for the case a caveat block
+       would otherwise get stretched to cover: confirming a figure checked out,
+       a correction that resolved cleanly, a claim that survived cross-check.
+       Same shape as .note/.warn on purpose, so all three read as one family. */
+.htugazett .good{background:var(--good-soft);border-left:4px solid var(--good);padding:12px 16px;margin:18px 0;border-radius:0 8px 8px 0;font-size:.93rem}
+/* ---- .chip (added 2026-09-17): formalises a labelling pattern several posts
+       already built ad hoc in JS (e.g. "PLI coverage: strong/partial/gap")
+       into one reusable inline component, so a new post doesn't reinvent it.
+       Use inline: <span class="chip chip-good">Strong</span>. ---- */
+.htugazett .chip{display:inline-block;font-family:var(--mono);font-size:.72rem;font-weight:700;letter-spacing:.02em;padding:.15rem .5rem;border-radius:99px;line-height:1.5}
+.htugazett .chip-good{background:var(--good-soft);color:var(--good)}
+.htugazett .chip-warn{background:var(--panel);color:var(--accent)}
+.htugazett .chip-bad{background:var(--bad-soft);color:var(--bad)}
+.htugazett .src{font-size:.84rem;font-family:var(--mono);border-top:1px solid var(--rule);padding-top:12px;margin-top:24px}
+.htugazett .disclaimer{font-size:.82rem;color:#555;margin-top:10px}
+.htugazett .revised{font-size:.8rem;color:#555!important;margin:0 0 14px}
+.htugazett .revised code{font-family:inherit;background:var(--panel);padding:1px 5px;border-radius:4px}
+</style>
+
+
+<div class="gs-head-order" style="display:flex;flex-direction:column">
+<p class="standfirst" style="order:4">gazette-translated-indexed (Gazette Trail) tells you what an Indian gazette notification amends, what amended it before, and what superseded it, which you cannot see by reading one notification alone. It is a SQLite citation graph built from quoted primary-source text.</p>
+<div class="topnav-index-link" style="order:1;font-size:.82em;margin:6px 0 14px"><a href="https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html" style="color:#0b5394;text-decoration:none">&#8592; All Articles (Index)</a></div>
+<p class="eyebrow" style="order:2">Open-Source Tools · How-To · Govt data &amp; research ops</p>
+<h1 style="order:3">How to use gazette-translated-indexed: a citation index of Indian gazette notifications</h1>
+</div>
+
+
+<a href="#" id="gs-skip-link" class="gs-skip-link" style="position:absolute;left:-9999px;top:auto;background:#1a1a1a;color:#fff;padding:.6rem 1rem;z-index:1000;border-radius:4px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.85rem">Skip to article content</a>
+<style>.gs-skip-link:focus{left:8px!important;top:8px!important}
+.gs-a11y-bar{display:flex;align-items:center;gap:.55rem;flex-wrap:wrap;background:#f4f5f7;border:1px solid #dfe3e8;border-radius:8px;padding:.55rem .8rem;margin:10px 0 16px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
+.gs-a11y-bar .gs-a11y-label{font-size:.68rem;font-weight:700;letter-spacing:.08em;color:#666;text-transform:uppercase;margin-right:.15rem}
+.gs-a11y-bar button{cursor:pointer;border:1px solid #c7cbd1;background:#fff;color:#1a1a1a;border-radius:5px;padding:.32rem .65rem;font-family:inherit;line-height:1}
+.gs-a11y-bar button.gs-a11y-fs{font-weight:700;min-width:2rem;text-align:center}
+.gs-a11y-bar button.gs-a11y-fs[data-size="sm"]{font-size:.8rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="md"]{font-size:1rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="lg"]{font-size:1.2rem}
+.gs-a11y-bar button.gs-a11y-fs[aria-pressed="true"]{background:#1a1a1a;color:#fff;border-color:#1a1a1a}
+.gs-a11y-bar button:hover{border-color:#8a4b08}
+.gs-a11y-bar button:focus-visible{outline:2px solid #8a4b08;outline-offset:1px}
+.gs-a11y-bar .gs-a11y-sep{width:1px;align-self:stretch;background:#dfe3e8;margin:0 .1rem}</style>
+<div class="gs-a11y-bar" role="group" aria-label="Accessibility controls">
+<span class="gs-a11y-label">Text Size</span>
+<button type="button" class="gs-a11y-fs" data-size="sm" aria-pressed="false" aria-label="Small text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="md" aria-pressed="true" aria-label="Medium text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="lg" aria-pressed="false" aria-label="Large text">A</button>
+<span class="gs-a11y-sep"></span>
+<button type="button" id="gs-a11y-listen" aria-label="Read this article aloud">&#128266; Listen</button>
+<button type="button" id="gs-a11y-stop" aria-label="Stop reading aloud">&#9632; Stop</button>
+</div>
+<script>(function(){
+var KEY='gs-a11y-fontsize', SIZES={sm:'0.92',md:'1',lg:'1.15'};
+function pb(){return document.querySelector('.post-body')||document.querySelector('.artx,.mdrx');}
+function apply(sz){
+  var el=pb(); if(!el||!SIZES[sz]) return;
+  el.style.fontSize=SIZES[sz]+'em';
+  var btns=document.querySelectorAll('.gs-a11y-fs');
+  for(var i=0;i<btns.length;i++){
+    var on=btns[i].getAttribute('data-size')===sz;
+    btns[i].setAttribute('aria-pressed', on?'true':'false');
+  }
+  try{localStorage.setItem(KEY,sz);}catch(e){}
+}
+var fsBtns=document.querySelectorAll('.gs-a11y-fs');
+for(var j=0;j<fsBtns.length;j++){
+  fsBtns[j].addEventListener('click',(function(b){return function(){apply(b.getAttribute('data-size'));};})(fsBtns[j]));
+}
+var saved; try{saved=localStorage.getItem(KEY);}catch(e){}
+apply(saved&&SIZES[saved]?saved:'md');
+
+var listenBtn=document.getElementById('gs-a11y-listen'), stopBtn=document.getElementById('gs-a11y-stop');
+if(listenBtn){
+  listenBtn.addEventListener('click', function(){
+    if(!('speechSynthesis' in window)){ alert('Text-to-speech is not supported in this browser.'); return; }
+    window.speechSynthesis.cancel();
+    var src=pb(); if(!src) return;
+    var clone=src.cloneNode(true);
+    var strip=clone.querySelectorAll('script,style,svg');
+    for(var k=0;k<strip.length;k++){ strip[k].parentNode.removeChild(strip[k]); }
+    var text=clone.textContent.replace(/\s+/g,' ').trim();
+    if(!text) return;
+    var chunks=text.match(/[\s\S]{1,180}(?:[.!?]|$)/g)||[text];
+    var idx=0;
+    function speakNext(){
+      if(idx>=chunks.length) return;
+      var u=new SpeechSynthesisUtterance(chunks[idx]);
+      u.onend=function(){ idx++; speakNext(); };
+      window.speechSynthesis.speak(u);
+    }
+    speakNext();
+  });
+}
+if(stopBtn){
+  stopBtn.addEventListener('click', function(){
+    if('speechSynthesis' in window) window.speechSynthesis.cancel();
+  });
+}
+var skip=document.getElementById('gs-skip-link');
+if(skip){
+  skip.addEventListener('click', function(ev){
+    ev.preventDefault();
+    var h=document.querySelector('.post-body h1')||document.querySelector('.artx h1,.mdrx h1,h1');
+    if(h){ h.setAttribute('tabindex','-1'); h.focus(); h.scrollIntoView(); }
+  });
+}
+})();</script>
+<style>.goog-te-menu-frame{max-width:340px!important;max-height:70vh!important;overflow:auto!important;box-shadow:0 6px 24px rgba(0,0,0,.25)!important}</style>
+<div id="google_translate_element" style="margin:8px 0 16px;"></div><script type="text/javascript">function googleTranslateElementInit(){new google.translate.TranslateElement({pageLanguage:"en",includedLanguages:"hi,bn,ta,te,mr,gu,kn,ml,pa,or,as,ur,sa,ne,sd",layout:google.translate.TranslateElement.InlineLayout.SIMPLE,autoDisplay:false},"google_translate_element");}</script><script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+
+<p class="revised" data-gs-revision-v1="1">Revised
+<time datetime="2026-10-20" itemprop="dateModified">20 October 2026</time>
+&middot; <code>v1.0.0</code> &middot; <a href="#changelog">what changed</a></p>
+
+<style>.htugazett pre{background:#f6f3ea!important;color:#111!important;border:1px solid var(--rule);border-radius:8px;padding:10px 12px;overflow-x:auto;font-size:.82rem;line-height:1.45}.htugazett pre code{background:none!important;color:#111!important;font-family:var(--mono)}.htugazett code{font-family:var(--mono);font-size:.88em}.htugazett .vid{position:relative;padding-bottom:56.25%;height:0;margin:16px 0;max-width:100%}.htugazett .vid iframe{position:absolute;inset:0;width:100%;height:100%;border:0}</style><div class="stats"><div class="stat"><b>2,637</b><span>notifications in the rebuilt database</span></div><div class="stat"><b>2,150</b><span>cross-references (1,655 &#x27;amends&#x27;)</span></div><div class="stat"><b>53</b><span>ministries modelled</span></div><div class="stat"><b>197</b><span>tests passed in the run</span></div></div>
+<p>Code: <a href="https://github.com/herrrickshaw/gazette-translated-indexed">github.com/herrrickshaw/gazette-translated-indexed</a></p>
+<h2>Watch the walkthrough</h2>
+<div class="vid"><iframe src="https://www.youtube.com/embed/wJMHJzOV_UM" title="How to use gazette-translated-indexed: a citation index of Indian gazette notifications" allowfullscreen loading="lazy"></iframe></div><p>Watch on YouTube: <a href="https://youtu.be/wJMHJzOV_UM">youtu.be/wJMHJzOV_UM</a></p>
+<h2>Why it is useful</h2>
+<ul><li>Who benefits: trade, tax and compliance researchers, legal-data builders and journalists who must trace a notification through its amendment chain.</li><li>What it replaces: manually hunting for &#x27;in the notification number X, dated Y&#x27; references across separate PDFs on egazette.gov.in.</li><li>Evidence from the run: the seed SQL files rebuilt a database of 2,637 notifications and 2,150 cross-references across 53 ministries, with an empty foreign-key check.</li><li>Evidence from the run: the repo&#x27;s own test suite passed (197 tests, 0.3 seconds) and one Customs notification (45/2025) showed 9 incoming links, including 2 corrigenda.</li></ul>
+<h2>What it is for</h2>
+<p>Gazette Trail is a citation index. Each notification is a row; each &#x27;amends&#x27;, &#x27;supersedes&#x27;, &#x27;corrigendum&#x27;, &#x27;rescinds&#x27;, &#x27;repeals&#x27; or &#x27;cites&#x27; link is a row in a cross_reference table. Reading the links in both directions gives you the lineage of a rule: what it changed and what changed it later.</p>
+<p>The links are drawn from real quoted notification text, recurring sentence shapes are matched by shared regex templates, and each ministry module has its own tests. The pilot is CBIC customs notifications, extended to 53 central ministries.</p>
+<p>This demo used only the committed SQL seed files and ran no live fetch. Nothing was downloaded from egazette.gov.in, and no PDFs or OCR were used.</p>
+<p><b>Who it is for</b></p>
+<ul><li>Researchers and compliance teams tracing amendments to Indian rules</li><li>Developers building legal or regulatory knowledge graphs</li><li>Data journalists who need an amendment chain for a notification</li></ul>
+<div class="warn"><b>Not for.</b><ul><li>Legal advice. This is an index of public notifications, not a legal opinion; read the official notification before acting.</li><li>A complete or up-to-date record. Coverage is bounded and the repo says new notifications must be checked with its freshness script.</li><li>Reading the full legal text. The database stores citations and summaries, not the PDFs.</li></ul></div>
+<h2>What you need</h2>
+<div class="tw"><table><tr><th>Requirement</th><th>Why</th><th>How to get it</th></tr><tr><td>Python 3 and a virtual environment</td><td>to run the tests and the CRUD helpers</td><td>python3 -m venv .venv</td></tr><tr><td>pymupdf, requests, pytest</td><td>listed in requirements.txt (pymupdf is only needed for PDF extraction)</td><td>pip install -r requirements.txt</td></tr><tr><td>sqlite3 command line</td><td>to load the schema and seed files</td><td>preinstalled on macOS and most Linux</td></tr><tr><td>Network access (optional)</td><td>only to fetch PDFs by gazette ID from egazette.gov.in, not needed for this demo</td><td>none</td></tr></table></div>
+<h2>Get the code and an AI assistant</h2>
+<p>You do not have to be a programmer. Get the repository, give it to an AI assistant, and ask in plain language. Any of these routes works:</p>
+<div class="tw"><table><tr><th>Tool</th><th>What you need</th><th>Best for</th></tr><tr><td><b>GitHub</b></td><td>Free account to fork or star; <code>git</code> to clone, or the green <b>Code</b> button, then <b>Download ZIP</b>, or open in <b>Codespaces</b></td><td>Getting the code and keeping up with updates</td></tr><tr><td><b>Claude Code</b></td><td>Claude subscription or API key; run <code>claude</code> inside the cloned folder</td><td>Letting the AI read and run the whole repo</td></tr><tr><td><b>Gemini CLI</b></td><td>Google account; run <code>gemini</code> inside the cloned folder</td><td>The same hands-on workflow with Gemini</td></tr><tr><td><b>Claude.ai, Gemini or ChatGPT in the browser</b></td><td>A chat account; upload <code>README.md</code> and the files you care about (or paste the output of <code>git ls-files</code>)</td><td>Understanding the project and asking questions without installing anything</td></tr><tr><td><b>Other tools</b> (Copilot Chat, Cursor, Codex CLI)</td><td>Open the cloned folder in the tool and point it at <code>README.md</code> first</td><td>Editing and extending the code</td></tr></table></div>
+<pre><code>git clone https://github.com/herrrickshaw/gazette-translated-indexed.git
+cd gazette-translated-indexed
+claude      # or: gemini</code></pre>
+<h2>Install</h2><ol><li>Clone the repo and create a virtual environment.<pre><code>git clone https://github.com/herrrickshaw/gazette-translated-indexed.git
+cd gazette-translated-indexed
+python3 -m venv .venv &amp;&amp; source .venv/bin/activate
+pip install -r requirements.txt</code></pre></li></ol>
+<h2>Quick start: commands and what you should see</h2>
+<p><b>Build the database from the seed files.</b></p>
+<pre><code>sqlite3 gazette.db &lt; db/schema.sql
+for f in db/seed_*.sql; do sqlite3 gazette.db &lt; &quot;$f&quot;; done
+sqlite3 gazette.db &quot;PRAGMA foreign_key_check;&quot;</code></pre>
+<p>The foreign-key check prints nothing, which is the pass condition.</p>
+<p><b>Run the test suite.</b></p>
+<pre><code>pytest tests/</code></pre>
+<p>In the 19 October 2026 run: 197 passed in 0.30s (the README still says 141 tests, so its counts lag).</p>
+<p><b>Read one notification&#x27;s lineage.</b></p>
+<pre><code>python3 -c &quot;
+import sqlite3
+from db.crud import get_lineage
+c=sqlite3.connect(&#x27;gazette.db&#x27;); c.execute(&#x27;PRAGMA foreign_keys = ON&#x27;)
+print(get_lineage(c,&#x27;power-so-5852-2022&#x27;))&quot;</code></pre>
+<p>A dictionary with &#x27;points_at&#x27; and &#x27;pointed_at_by&#x27;; here one later power-ministry notification amends it.</p>
+<h2>Sample outputs</h2><p>Real output from a run on the date shown in the sources line; trimmed to fit.</p>
+<p><b>Relation types across the whole index</b></p>
+<pre><code>sqlite3 -header -column gazette.db &quot;select relation_type, count(*) n from cross_reference group by 1 order by n desc;&quot;
+relation_type   n
+-------------  ----
+amends         1655
+cites           213
+supersedes      155
+corrigendum      90
+rescinds         32
+repeals           5</code></pre>
+<p>Amendments dominate; supersession and corrigenda are the minority.</p>
+<p><b>Everything that points at Customs notification 45/2025</b></p>
+<pre><code>sqlite3 -header -column gazette.db &quot;select g.gazette_id, g.publish_date, g.gsr_or_so, x.relation_type from cross_reference x join gazette_notification g on g.gazette_id=x.source_gazette_id where x.target_gazette_id=&#x27;cus-45-2025&#x27;;&quot;
+    gazette_id      publish_date    gsr_or_so    relation_type
+------------------  ------------  -------------  -------------
+cus-2-2026          2026-02-01    G.S.R. 83(E)            amends
+cus-corr-45-2025-a  2025-10-31    G.S.R. 807(E)           corrigendum
+cus-48-2025         2025-11-14    G.S.R. 847(E)           amends
+cus-6-2026          2026-03-12    G.S.R. 181(E)           amends
+cus-14-2026         2026-04-30    G.S.R. 330(E)           amends
+cus-15-2026         2026-05-12    G.S.R. 358(E)           amends
+cus-corr-45-2025-b  2026-06-12    G.S.R. 476(E)           corrigendum
+cus-25-2026         2026-07-08    G.S.R. 600(E)           amends
+cus-44-2025         2025-10-24    G.S.R. 782(E)           cites</code></pre>
+<p>Nine later or related notifications link to one 2025 customs notification: the amendment chain a single PDF does not show.</p>
+<p><b>Most-amended targets</b></p>
+<pre><code>sqlite3 -header -column gazette.db &quot;select target_gazette_id, count(*) n from cross_reference group by 1 order by n desc limit 3;&quot;
+target_gazette_id   n
+------------------  --
+dopt-gsr-730-1986   26
+dopt-gsr-152-1954   23
+dopt-gsr-610-1985   15</code></pre>
+<p>Personnel (DoPT) rules from the 1950s to 1980s are the most-amended targets.</p>
+<h2>Ways to use it</h2>
+<div class="tw"><table><tr><th>Method</th><th>How it works</th></tr><tr><td>SQLite directly</td><td>Query gazette_notification and cross_reference with any SQLite client.</td></tr><tr><td>db/crud.py</td><td>list_notifications and get_lineage are the supported read path; deletes are soft by default.</td></tr><tr><td>LLM corpus export</td><td>python3 -m render.llm_export --db gazette.db writes a JSONL with one notification per line and one-hop lineage.</td></tr><tr><td>Via an AI assistant</td><td>Point an assistant at README.md and the database and ask it to trace a notification.</td></tr></table></div>
+<h2>Sample prompts for your AI assistant</h2><p>Copy, paste and edit the parts in [brackets].</p>
+<ul><li>Read README.md and explain the Gazette Trail pipeline from fetching a PDF to a cross-reference row, in a short table.</li><li>Using gazette.db, list every notification that amends or supersedes cus-45-2025 in date order and explain each relation.</li><li>Write a read-only SQLite query that finds notifications with no incoming or outgoing cross-references and explain what that might mean.</li><li>Which ministries have the most cross-references, and what does the repo&#x27;s MINISTRY_COVERAGE_PLAN say about the three abandoned ones?</li><li>Explain how the five shared extraction templates in extract/common_templates.py differ, with one example sentence each.</li><li>Check the README totals against the built database and list the numbers that have drifted.</li></ul>
+<h2>Limits and honest caveats</h2>
+<div class="warn"><ul><li>Citation index of public notifications, not legal advice. Verify against the official egazette.gov.in notification.</li><li>README counts lag the data: it says 2,591 notifications, 2,113 cross-references and 141 tests; the 19 October 2026 build gave 2,637, 2,150 and 197.</li><li>Coverage is bounded: 53 ministries are modelled, 3 are documented as abandoned, and new notifications need the freshness check.</li><li>The demo did not fetch any PDFs, run OCR or translation, and did not use the optional Colab notebooks (not run).</li><li>The built-in page renderer (render.pages) was not run in this demo.</li></ul></div>
+<p class="src">Sources: Repo README, SQL seed files and tests in github.com/herrrickshaw/gazette-translated-indexed; commands and counts captured in a throwaway virtual environment on 19 October 2026. The database was built in a scratch folder and nothing was committed.</p>
+<div id="changelog" class="note">
+<b>Revision history.</b>
+<ul>
+<li><b>v1.0.0</b> &mdash; 20 October 2026 &mdash; first published.</li>
+</ul>
+</div>
+
+
+<style>/* gs-light-lock-v1 */.htugazett{--ink:#111!important;--accent:#8a4b08!important;--rule:#e8dcc4!important;--panel:#fdf7ec!important;--good:#1a7a4c!important;--good-soft:#eaf6ef!important;--bad:#a5402c!important;--bad-soft:#fff4f0!important}</style>
+<p class="disclaimer" data-gs-ai-disclosure-v1="1"><strong>About this article:</strong> Researched, written and edited by Umashankar Triplicane Dwarakanathan, with AI research assistance; every figure is meant to trace to the primary source cited. See the <a href="https://masaladeutsch.blogspot.com/p/disclaimer.html">Editorial Policy</a> for how sourcing, AI use and corrections work.</p>
+
+</div>

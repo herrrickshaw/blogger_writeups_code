@@ -15659,3 +15659,38 @@ Green steel post: global HRC price benchmarks
 **Changed**
 
 - `article-index-start-here` — 797,403 → 801,744 bytes (+4,341)
+
+## 2026-10-25T07:29:22+05:30 — 419 posts live
+
+**Added**
+
+- `how-to-use-hydrogen-electrolyser` **v1.0.0** — How to use hydrogen-electrolyser-control: a simulated PEM, AEM and alkaline electrolyser controller (26,214 bytes)
+- `how-to-use-fuel-retail-outlets-see` **v1.0.0** — How to use fuel-retail-outlets: see where India's petrol pumps are, state by state (25,486 bytes)
+- `how-to-use-focus-sector-investor-map` **v1.0.0** — How to use focus-sector-investor-map: see which foreign investors pair with which Indian government initiative (26,071 bytes)
+- `how-to-use-ethanol-design-opensource` **v1.0.0** — How to use ethanol-design-opensource: size a fuel-ethanol distillery (21,756 bytes)
+- `how-to-use-discom-debt-and-revenue` **v1.0.0** — How to use discom-debt-and-revenue-models: a scenario calculator for electricity distribution company debt (25,385 bytes)
+- `how-to-use-global-ticker-universe-look` **v1.0.0** — How to use global-ticker-universe: look up exchange-qualified tickers for 34 markets (24,275 bytes)
+- `how-to-use-gazette-translated-indexed` **v1.0.0** — How to use gazette-translated-indexed: a citation index of Indian gazette notifications (24,842 bytes)
+- `how-to-use-ev-battery-management-sim` **v1.0.0** — How to use ev-battery-management-sim: simulate EV battery packs and test the model on battery datasets (24,490 bytes)
+- `how-to-use-eu-ets-compliance-platform` **v1.0.0** — How to use eu-ets-compliance-platform: a hands-on EU ETS and CBAM compliance prototype (25,137 bytes)
+
+**Versions**
+
+- `how-to-use-news-tracker-score-headlines` **1.0.2 → 2.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+
+**Changed**
+
+- `how-to-use-news-tracker-score-headlines` — 22,442 → 22,323 bytes (-119)
+
+## 2026-10-25T07:31:15+05:30 — 419 posts live
+
+youtube-demo-uploads: 10 how-to posts live + index rebuilt
+
+
+**Versions**
+
+- `article-index-start-here` **65.0.0 → 65.1.0** (MINOR) — forced via --as minor (figures changed (+3/-2 distinct numbers))
+
+**Changed**
+
+- `article-index-start-here` — 801,744 → 814,098 bytes (+12,354)
