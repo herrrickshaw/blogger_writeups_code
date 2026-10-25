@@ -44,3 +44,14 @@ def test_fit_left_direction_mirrors():
 def test_fit_shrinks_but_not_below_min_font():
     r = f.fit_value_label("1,234,567", 0, 20, 0, 40, "right")
     assert f.MIN_FONT_SIZE <= r["font_size"] < 11.0
+
+
+@pytest.mark.xfail(strict=True, reason="known: MIN_FONT_SIZE floor lets a label overflow; "
+                   "module docstring says nothing it produces can overflow (needs a design decision)")
+def test_label_never_overflows_canvas():
+    r = f.fit_value_label("1,234,567", 0, 20, 0, 40, "right")
+    width = f.text_width("1,234,567", r["font_size"])
+    if r["inside"]:
+        assert width <= 20
+    else:
+        assert r["x"] + width <= 40
