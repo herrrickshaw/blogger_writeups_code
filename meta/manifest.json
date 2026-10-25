@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-10-25T07:33:31+05:30",
+  "snapshot": "2026-10-25T07:34:55+05:30",
   "count": 420,
   "posts": {
     "1023631151138981087": {
@@ -41902,10 +41902,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html",
       "slug": "article-index-start-here",
       "published": "2026-08-02T10:43:26.000+05:30",
-      "updated": "2026-10-25T07:30:43.479+05:30",
+      "updated": "2026-10-25T07:34:29.932+05:30",
       "labels": [],
-      "bytes": 814098,
-      "sha256": "38a479c8ac7bb3752dba283deb74d92ff0b448214d24cccec864997a794c0e21",
+      "bytes": 814949,
+      "sha256": "81fbadbf8d7989d6489d78bf753ba9a0543f6cd590a2d02d1fac0a92c1725981",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -41917,7 +41917,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "65.1.0",
+      "version": "65.2.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -44108,6 +44108,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "youtube-demo-uploads: 10 how-to posts live + index rebuilt"
+        },
+        {
+          "version": "65.2.0",
+          "date": "2026-10-25T07:34:55+05:30",
+          "level": "minor",
+          "reason": "forced via --as minor (figures changed (+2/-1 distinct numbers))",
+          "bytes": [
+            814098,
+            814949
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Index: crop seasons post"
         }
       ]
     },
@@ -64658,9 +64671,13 @@
       "title": "India’s Winter Harvest Now Outgrows Its Monsoon One. Kharif, Rabi and Zaid, Crop by Crop: Area, Yield and When It Reaches the Mandi",
       "url": "https://masaladeutsch.blogspot.com/2026/10/indias-winter-harvest-now-outgrows-its.html",
       "slug": "indias-winter-harvest-now-outgrows-its",
-      "published": "2026-10-25T07:33:05.535+05:30",
-      "updated": "2026-10-25T07:33:05.535+05:30",
-      "labels": [],
+      "published": "2026-10-25T07:33:05.000+05:30",
+      "updated": "2026-10-25T07:33:40.833+05:30",
+      "labels": [
+        "Agriculture & Fertilisers",
+        "Grain Procurement & Storage",
+        "Prices & Inflation"
+      ],
       "bytes": 57823,
       "sha256": "f13c18cc74a2af2361a93f63a30c90c8822edef994b53f03d9dfa8b27794c236",
       "markers": {
