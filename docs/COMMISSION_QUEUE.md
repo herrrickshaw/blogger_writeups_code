@@ -747,3 +747,14 @@ queue or SOURCE_REGISTER.
       products onto the August post's import-price ranking.
       Logged: 2026-10-26 from the ministry document index (coal).
       Extends: `indias-coal-to-chemicals-menu-ranked-by` (2026-08-27).
+
+- **2026-10-26 (later): corrections to three entries in the 2026-10-26 batch, found while drafting.**
+  Drafts of four entries now exist as unpublished Blogger drafts (`out/new-posts-2026-10-26/`,
+  ids in `blogger_drafts.json`): captive coal, phone scheme, ALMM List-II, transmission RoW.
+  - Phone scheme: the headline rates are **5% (FY27, FY28), 4.5% (FY29, FY30), 4% (FY31)** under
+    para 9.1(ii); the 2.75%→2.25% schedule applies only to the 9.1(i) band. Domestic-sourcing
+    top-ups total 1.5% (USB cables 0.20% too) and need ≥25% localisation. Read from page 7 of 18.
+  - ALMM List-II: the mandate applies to net-metering/open-access projects commissioned on or after
+    **1 June 2026**, not 18 June (OCR misread the superscript "st"). Read from the OM's page image.
+  - CGPL (Mundra): 31 Dec 2026 is the **second** extension of the Section 11 order (30 Jun → 30 Sep
+    → 31 Dec), not the third.
