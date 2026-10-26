@@ -73,7 +73,76 @@
    "model": "gemini-flash-lite-latest"
   },
   "Mistral": {
-   "raw": "```json\n{\n  \"structure_score\": 3,\n  \"summary_up_top\": {\n    \"present\": false,\n    \"suggest\": \"Open with a punchy, state-specific hook (e.g., 'Punjab uses 8x more urea per hectare than Kerala—here’s why') to immediately highlight the core insight before diving into data.\"\n  },\n  \"edits\": [\n    {\n      \"where\": \"opening\",\n      \"type\": \"shorten-heading\",\n      \"why\": \"The H1 is already strong, but the opening text could better mirror it by cutting the 400-word intro to 150 words max, focusing on the 'crop map' insight and removing meta details (e.g., 'All Articles (Index)' links, date, tags).\",\n      \"how\": \"Trim to 150 words: Start with the 379 kg vs. 44 kg contrast, then the 'map of crops' insight in the 2nd sentence. Remove all non-essential text (e.g., 'The pattern in one line:', 'Fertiliser and agrochemical application...', and the 3rd paragraph entirely). Keep only the core hook, the 4:2:1 norm teaser, and the chart caption as a visual anchor.\"\n    },\n    {\n      \"where\": \"H2: Who buys the most, in absolute terms\",\n      \"type\": \"split-section\",\n      \"why\": \"This section mixes sales data with a narrative about 'big states'—it’s too long for mobile. The 'big states' insight is better saved for the 'divide by land' section.\",\n      \"how\": \"Split into two parts:\n      1. **H2: Urea sales by state (2023–26)** – Keep only the raw data (UP, MP, etc.) and the 3-year trend (357.81 → 396.60 lakh tonnes). Remove the 'simple one about big states' framing.\n      2. Merge the next paragraph ('Divide by land...') into this section’s intro, but reword to: *'But when you account for cropped land, the story changes entirely.'*\"\n    },\n    {\n      \"where\": \"H2: Divide by land and the ranking scrambles\",\n      \"type\": \"add-heading\",\n      \"why\": \"The chart and table here are critical, but the section lacks a clear visual anchor. The 'national average' math is buried in the text—it should be a subheading.\",\n      \"how\": \"Add a subheading under this H2:\n      **H3: The national average: 182 kg/ha (84 kg N)** – Place this right before the chart, with a 1-line explanation: *'India’s gross cropped area (217.9M ha) divided by urea sales yields this baseline.'*\"\n    },\n    {\n      \"where\": \"H2: It is a crop map\",\n      \"type\": \"split-section\",\n      \"why\": \"This is the core insight, but the 426 words are dense with explanations. The 'paddy-and-wheat vs. pulses/oilseeds' contrast should be the *visual* hook for the chart.\",\n      \"how\": \"Split into:\n      1. **H2: The crop-intensity divide** – Keep only the 1st 150 words (the contrast + chart teaser). Move the rest to:\n      2. **H2: Why the 4:2:1 norm fails elsewhere** – Start with: *'This is why the 4:2:1 fertiliser ratio, designed for north-west India, doesn’t apply to the rest of the country.'*\"\n    },\n    {\n      \"where\": \"para 23 (under H2: The new organic category, and what GOBARdhan actually makes)\",\n      \"type\": \"shorten-heading\",\n      \"why\": \"The heading conflates two unrelated topics (organic category + GOBARdhan). The 154-word para is also too long for mobile—it’s a data dump.\",\n      \"how\": \"Split into two headings:\n      1. **H2: The organic fertiliser shift** – Keep only the 1st 70 words (focus on 'volumes are not marginal' and CBG estimates).\n      2. **H2: What GOBARdhan actually produces** – Move the rest here, with a subheading: *'GOBARdhan’s output: 1,200+ tonnes/day, but quality varies.'*\"\n    },\n    {\n      \"where\": \"H2: What ICAR proposes instead of a blanket dose\",\n      \"type\": \"to-list\",\n      \"why\": \"The 322 words here outline ICAR’s recommendations, but the mobile reader will lose track. Bullet points would help.\",\n      \"how\": \"Convert the 1st 100 words into a **3-bullet list** under the heading:\n      - **Per-crop norms**: ICAR’s proposed rates for rice, wheat, pulses, etc.\n      - **Efficiency focus**: Prioritising nitrogen-use efficiency over fixed ratios.\n      - **Regional adjustments**: Tailoring recommendations to soil types and rainfall.\n      Keep the rest as text, but add a **H3: ICAR’s crop-by-crop table** before the table.\"\n    },\n    {\n      \"where\": \"H2: What this piece could not establish\",\n      \"type\": \"split-section\",\n      \"why\": \"This is the longest section (1,533 words) and acts as a 'caveats' dump. It disrupts the narrative flow and risks losing mobile readers.\",\n      \"how\": \"Split into:\n      1. **H2: What we couldn’t verify** – Keep only the 1st 200 words (e.g., 'On the price side...', 'Data gaps...'). Move the rest to:\n      2. **H2: Limitations and next steps** – Add a **H3: 'Where to go from here'** with 2–3 actionable takeaways (e.g., 'Further research needed on...').\"\n    },\n    {\n      \"where\": \"para 66 (under H2: What this piece could not establish)\",\n      \"type\": \"to-table\",\n      \"why\": \"The 1,107-word table of state-wise urea data is unscannable on mobile. It should be a downloadable asset or a condensed summary.\",\n      \"how\": \"Replace with:\n      - A **H3: 'Key trends in state-wise urea data (2023–26)'** with a 3-column summary table (State | 2023-24 | 2025-26).\n      - Link to a **downloadable CSV** in the text: *'Full state-wise data here.'*\n      - Keep only 100 words of context (e.g., 'Availability consistently exceeds demand...').\"\n    }\n  ],\n  \"ad_breaks\": {\n    \"good\": [\n      \"H2: Divide by land and the ranking scrambles\",\n      \"H2: The 4:2:1 norm is a north-west artefact\",\n      \"H2: What ICAR proposes instead of a blanket dose\",\n      \"H2: ICAR’s package of practices, crop by crop\"\n    ],\n    \"avoid\": [\n      \"H2: It is a crop map (after the chart)\",\n      \"H2: What ICAR actually recommends (table-heavy)\",\n      \"para 39 (under H2: ICAR’s package of practices)\",\n      \"H2: Who tests it, and what the testing finds (para 41 and 44)\",\n      \"H2: What this piece could not establish (para 63 and 66)\"\n    ]\n  }\n}\n```",
+   "structure_score": 3,
+   "summary_up_top": {
+    "present": false,
+    "suggest": "Open with a punchy, state-specific hook (e.g., 'Punjab uses 8x more urea per hectare than Kerala—here’s why') to immediately highlight the core insight before diving into data."
+   },
+   "edits": [
+    {
+     "where": "opening",
+     "type": "shorten-heading",
+     "why": "The H1 is already strong, but the opening text could better mirror it by cutting the 400-word intro to 150 words max, focusing on the 'crop map' insight and removing meta details (e.g., 'All Articles (Index)' links, date, tags).",
+     "how": "Trim to 150 words: Start with the 379 kg vs. 44 kg contrast, then the 'map of crops' insight in the 2nd sentence. Remove all non-essential text (e.g., 'The pattern in one line:', 'Fertiliser and agrochemical application...', and the 3rd paragraph entirely). Keep only the core hook, the 4:2:1 norm teaser, and the chart caption as a visual anchor."
+    },
+    {
+     "where": "H2: Who buys the most, in absolute terms",
+     "type": "split-section",
+     "why": "This section mixes sales data with a narrative about 'big states'—it’s too long for mobile. The 'big states' insight is better saved for the 'divide by land' section.",
+     "how": "Split into two parts:\n      1. **H2: Urea sales by state (2023–26)** – Keep only the raw data (UP, MP, etc.) and the 3-year trend (357.81 → 396.60 lakh tonnes). Remove the 'simple one about big states' framing.\n      2. Merge the next paragraph ('Divide by land...') into this section’s intro, but reword to: *'But when you account for cropped land, the story changes entirely.'*"
+    },
+    {
+     "where": "H2: Divide by land and the ranking scrambles",
+     "type": "add-heading",
+     "why": "The chart and table here are critical, but the section lacks a clear visual anchor. The 'national average' math is buried in the text—it should be a subheading.",
+     "how": "Add a subheading under this H2:\n      **H3: The national average: 182 kg/ha (84 kg N)** – Place this right before the chart, with a 1-line explanation: *'India’s gross cropped area (217.9M ha) divided by urea sales yields this baseline.'*"
+    },
+    {
+     "where": "H2: It is a crop map",
+     "type": "split-section",
+     "why": "This is the core insight, but the 426 words are dense with explanations. The 'paddy-and-wheat vs. pulses/oilseeds' contrast should be the *visual* hook for the chart.",
+     "how": "Split into:\n      1. **H2: The crop-intensity divide** – Keep only the 1st 150 words (the contrast + chart teaser). Move the rest to:\n      2. **H2: Why the 4:2:1 norm fails elsewhere** – Start with: *'This is why the 4:2:1 fertiliser ratio, designed for north-west India, doesn’t apply to the rest of the country.'*"
+    },
+    {
+     "where": "para 23 (under H2: The new organic category, and what GOBARdhan actually makes)",
+     "type": "shorten-heading",
+     "why": "The heading conflates two unrelated topics (organic category + GOBARdhan). The 154-word para is also too long for mobile—it’s a data dump.",
+     "how": "Split into two headings:\n      1. **H2: The organic fertiliser shift** – Keep only the 1st 70 words (focus on 'volumes are not marginal' and CBG estimates).\n      2. **H2: What GOBARdhan actually produces** – Move the rest here, with a subheading: *'GOBARdhan’s output: 1,200+ tonnes/day, but quality varies.'*"
+    },
+    {
+     "where": "H2: What ICAR proposes instead of a blanket dose",
+     "type": "to-list",
+     "why": "The 322 words here outline ICAR’s recommendations, but the mobile reader will lose track. Bullet points would help.",
+     "how": "Convert the 1st 100 words into a **3-bullet list** under the heading:\n      - **Per-crop norms**: ICAR’s proposed rates for rice, wheat, pulses, etc.\n      - **Efficiency focus**: Prioritising nitrogen-use efficiency over fixed ratios.\n      - **Regional adjustments**: Tailoring recommendations to soil types and rainfall.\n      Keep the rest as text, but add a **H3: ICAR’s crop-by-crop table** before the table."
+    },
+    {
+     "where": "H2: What this piece could not establish",
+     "type": "split-section",
+     "why": "This is the longest section (1,533 words) and acts as a 'caveats' dump. It disrupts the narrative flow and risks losing mobile readers.",
+     "how": "Split into:\n      1. **H2: What we couldn’t verify** – Keep only the 1st 200 words (e.g., 'On the price side...', 'Data gaps...'). Move the rest to:\n      2. **H2: Limitations and next steps** – Add a **H3: 'Where to go from here'** with 2–3 actionable takeaways (e.g., 'Further research needed on...')."
+    },
+    {
+     "where": "para 66 (under H2: What this piece could not establish)",
+     "type": "to-table",
+     "why": "The 1,107-word table of state-wise urea data is unscannable on mobile. It should be a downloadable asset or a condensed summary.",
+     "how": "Replace with:\n      - A **H3: 'Key trends in state-wise urea data (2023–26)'** with a 3-column summary table (State | 2023-24 | 2025-26).\n      - Link to a **downloadable CSV** in the text: *'Full state-wise data here.'*\n      - Keep only 100 words of context (e.g., 'Availability consistently exceeds demand...')."
+    }
+   ],
+   "ad_breaks": {
+    "good": [
+     "H2: Divide by land and the ranking scrambles",
+     "H2: The 4:2:1 norm is a north-west artefact",
+     "H2: What ICAR proposes instead of a blanket dose",
+     "H2: ICAR’s package of practices, crop by crop"
+    ],
+    "avoid": [
+     "H2: It is a crop map (after the chart)",
+     "H2: What ICAR actually recommends (table-heavy)",
+     "para 39 (under H2: ICAR’s package of practices)",
+     "H2: Who tests it, and what the testing finds (para 41 and 44)",
+     "H2: What this piece could not establish (para 63 and 66)"
+    ]
+   },
    "model": "open-mistral-nemo"
   },
   "Groq": {

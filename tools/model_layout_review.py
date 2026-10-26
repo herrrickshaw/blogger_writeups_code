@@ -183,11 +183,14 @@ def outline(path):
 
 
 def parse_json(text):
+    """The first JSON object in a reply. Tolerates code fences, raw newlines inside strings
+    (Mistral sends them) and trailing commas."""
     m = re.search(r"\{.*\}", text, re.S)
     if not m:
         return None
+    body = re.sub(r",(\s*[}\]])", r"\1", m.group(0))
     try:
-        return json.loads(m.group(0))
+        return json.loads(body, strict=False)
     except json.JSONDecodeError:
         return None
 
@@ -274,6 +277,7 @@ def main():
     g.add_argument("--all", action="store_true")
     g.add_argument("--theme", action="store_true", help="review theme/modules.json modules against the theme audit")
     g.add_argument("--summary", action="store_true", help="only rebuild SUMMARY.md")
+    g.add_argument("--reparse", action="store_true", help="re-read saved replies that did not parse; no API calls")
     g.add_argument("--probe", action="store_true", help="send a one-line request to each model and report which answer")
     ap.add_argument("--panel", default="gemini,mistral,groq")
     ap.add_argument("--limit", type=int, default=0)
@@ -282,6 +286,19 @@ def main():
     a = ap.parse_args()
     OUT.mkdir(parents=True, exist_ok=True)
     if a.summary:
+        return summary()
+    if a.reparse:
+        n = 0
+        for f in OUT.glob("*.json"):
+            d = json.loads(f.read_text())
+            for name, ans in d["models"].items():
+                parsed = parse_json(ans["raw"]) if isinstance(ans, dict) and "raw" in ans else None
+                if parsed:
+                    parsed["model"] = ans.get("model")
+                    d["models"][name] = parsed
+                    n += 1
+            f.write_text(json.dumps(d, indent=1, ensure_ascii=False), encoding="utf-8")
+        print(f"re-parsed {n} replies")
         return summary()
     keys = panel_keys([p.strip().lower() for p in a.panel.split(",") if p.strip()])
     if a.probe:

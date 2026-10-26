@@ -1,0 +1,295 @@
+
+<div class="artx rowx">
+<style>
+/* ---- typography (gs-typo-unify-v1): keep in sync across all posts ---- */
+.rowx{font-family:Georgia,'Times New Roman',serif;line-height:1.6;color:#111}
+.rowx h1,.rowx h2,.rowx h3{line-height:1.3}
+
+/* ---- palette: define every colour as a custom property here. Do not add
+       raw hex elsewhere in a post's <style> block — reference these vars, so
+       a future palette change is a 4-line edit instead of a find-and-replace
+       across every post. ----
+   --ink     #111    body text, light-locked (see below)
+   --accent  #8a4b08  eyebrow text, h2 rule, table header bg, stat numbers —
+                       the one colour that carries this post's "brand"
+   --rule    #e8dcc4  hairline borders, h2 underline, table cell borders
+   --panel   #fdf7ec  stat-card bg, even table rows — the palette's one tint
+*/
+.rowx{--ink:#111;--accent:#8a4b08;--rule:#e8dcc4;--panel:#fdf7ec;--good:#1a7a4c;--good-soft:#eaf6ef;--bad:#a5402c;--bad-soft:#fff4f0}
+
+/* ---- mono-label convention (added 2026-09-17, borrowed from the
+       india-trade-sector-policy-recommendations design system): the eyebrow
+       kicker and the source line read as data-journalism metadata, not
+       article prose, so they get a monospace face — a system stack, not a
+       hosted webfont, so no post gains an extra network request or a
+       flash-of-unstyled-text risk. Body text (h1/p/li/table) keeps the
+       serif — this is a two-place accent, not a font-pairing overhaul. ---- */
+.rowx{--mono:ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace}
+
+/* ---- light lock (gs-light-lock): a dark Blogger theme (and a browser/OS
+       set to prefers-color-scheme:dark) must not repaint text. Re-assert
+       the same values with !important — verified 2026-08-14 across 5 live
+       posts with the browser's colour scheme forced to dark: body/h1/p/table
+       all stayed light-background/dark-text with no low-contrast pairs.
+       Do NOT add selectors here for panels that are meant to be dark —
+       those go in the guard below. ---- */
+.rowx,.rowx p,.rowx li,.rowx td,.rowx th{color:var(--ink)!important}
+.rowx{background:#fff!important}
+
+/* ---- structure: title + subtitle ----
+   .eyebrow    = the small-caps kicker ABOVE the h1 — "Section · Topic ·
+                 Subtopic", sets context before the reader hits the claim
+   h1          = the headline itself. Write it as the CLAIM, not the topic
+                 ("The Rouble Is the Outlier, Not the Dollar" beats
+                 "Currency Trends Update"). font-size 1.5rem is the deliberate
+                 site-wide size — do not bump it per-post.
+   .standfirst = the one/two-sentence SUBTITLE directly under the h1. This is
+                 also what Blogger's snippet extractor and the JSON-LD meta
+                 description both read (see the gs-head-order block below) —
+                 write it as a real, complete sentence a reader could act on,
+                 not a fragment.
+*/
+.rowx .eyebrow{font-size:.8rem;font-weight:700;letter-spacing:.04em;color:var(--accent);text-transform:uppercase;margin:0 0 6px;font-family:var(--mono)}
+.rowx h1{margin:0 0 10px;font-size:1.5rem}
+.rowx .standfirst{font-size:1.05rem;color:#333!important;margin:0 0 18px}
+.rowx .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px;margin:18px 0}
+.rowx .stat{background:var(--panel);border:1px solid var(--rule);border-radius:10px;padding:12px 14px}
+.rowx .stat b{display:block;font-size:1.2rem;color:var(--accent)}
+.rowx .stat span{font-size:.8rem}
+.rowx h2{color:var(--accent);border-bottom:2px solid var(--rule);padding-bottom:6px;margin-top:30px;font-size:1.15rem}
+
+/* ---- tables: units live in the header, cells carry bare numbers.
+       .tw is the mobile-overflow fix — see the MOBILE comment above. ---- */
+.rowx .tw{overflow-x:auto}
+.rowx table{width:100%;border-collapse:collapse;margin:14px 0;font-size:.88rem}
+.rowx th,.rowx td{border:1px solid var(--rule);padding:7px 9px;text-align:right;word-wrap:break-word;overflow-wrap:break-word}
+.rowx th:first-child,.rowx td:first-child{text-align:left}
+.rowx th{background:var(--accent);color:#fff!important;font-weight:600}
+.rowx tr:nth-child(even){background:var(--panel)}
+
+.rowx .note{background:#eef4ff;border-left:4px solid #2a78d6;padding:12px 16px;margin:18px 0;border-radius:0 8px 8px 0;font-size:.93rem}
+.rowx .warn{background:var(--bad-soft);border-left:4px solid var(--bad);padding:12px 16px;margin:18px 0;border-radius:0 8px 8px 0;font-size:.93rem}
+/* ---- .good (added 2026-09-17): third semantic tier alongside .note (neutral
+       framing) and .warn (a caveat/scope limit) — for the case a caveat block
+       would otherwise get stretched to cover: confirming a figure checked out,
+       a correction that resolved cleanly, a claim that survived cross-check.
+       Same shape as .note/.warn on purpose, so all three read as one family. */
+.rowx .good{background:var(--good-soft);border-left:4px solid var(--good);padding:12px 16px;margin:18px 0;border-radius:0 8px 8px 0;font-size:.93rem}
+/* ---- .chip (added 2026-09-17): formalises a labelling pattern several posts
+       already built ad hoc in JS (e.g. "PLI coverage: strong/partial/gap")
+       into one reusable inline component, so a new post doesn't reinvent it.
+       Use inline: <span class="chip chip-good">Strong</span>. ---- */
+.rowx .chip{display:inline-block;font-family:var(--mono);font-size:.72rem;font-weight:700;letter-spacing:.02em;padding:.15rem .5rem;border-radius:99px;line-height:1.5}
+.rowx .chip-good{background:var(--good-soft);color:var(--good)}
+.rowx .chip-warn{background:var(--panel);color:var(--accent)}
+.rowx .chip-bad{background:var(--bad-soft);color:var(--bad)}
+.rowx .src{font-size:.84rem;font-family:var(--mono);border-top:1px solid var(--rule);padding-top:12px;margin-top:24px}
+.rowx .disclaimer{font-size:.82rem;color:#555;margin-top:10px}
+.rowx .revised{font-size:.8rem;color:#555!important;margin:0 0 14px}
+.rowx .revised code{font-family:inherit;background:var(--panel);padding:1px 5px;border-radius:4px}
+</style>
+
+
+<div class="gs-head-order" style="display:flex;flex-direction:column">
+<p class="standfirst" style="order:4">The Ministry of Power&#8217;s 6 October 2026 guidelines pay 30&#8211;60% of market value for the land under a transmission corridor and 200% for tower bases; the 1962 pipeline law pays 10%.</p>
+<div class="topnav-index-link" style="order:1;font-size:.82em;margin:6px 0 14px"><a href="https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html" style="color:#0b5394;text-decoration:none">&#8592; All Articles (Index)</a></div>
+<p class="eyebrow" style="order:2">Energy &middot; Transmission &middot; Land compensation</p>
+<h1 style="order:3">A Hectare Under a Power Line Now Pays Three to Six Times What One Over a Pipeline Does</h1>
+</div>
+
+
+<a href="#" id="gs-skip-link" class="gs-skip-link" style="position:absolute;left:-9999px;top:auto;background:#1a1a1a;color:#fff;padding:.6rem 1rem;z-index:1000;border-radius:4px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.85rem">Skip to article content</a>
+<style>.gs-skip-link:focus{left:8px!important;top:8px!important}
+.gs-a11y-bar{display:flex;align-items:center;gap:.55rem;flex-wrap:wrap;background:#f4f5f7;border:1px solid #dfe3e8;border-radius:8px;padding:.55rem .8rem;margin:10px 0 16px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
+.gs-a11y-bar .gs-a11y-label{font-size:.68rem;font-weight:700;letter-spacing:.08em;color:#666;text-transform:uppercase;margin-right:.15rem}
+.gs-a11y-bar button{cursor:pointer;border:1px solid #c7cbd1;background:#fff;color:#1a1a1a;border-radius:5px;padding:.32rem .65rem;font-family:inherit;line-height:1}
+.gs-a11y-bar button.gs-a11y-fs{font-weight:700;min-width:2rem;text-align:center}
+.gs-a11y-bar button.gs-a11y-fs[data-size="sm"]{font-size:.8rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="md"]{font-size:1rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="lg"]{font-size:1.2rem}
+.gs-a11y-bar button.gs-a11y-fs[aria-pressed="true"]{background:#1a1a1a;color:#fff;border-color:#1a1a1a}
+.gs-a11y-bar button:hover{border-color:#8a4b08}
+.gs-a11y-bar button:focus-visible{outline:2px solid #8a4b08;outline-offset:1px}
+.gs-a11y-bar .gs-a11y-sep{width:1px;align-self:stretch;background:#dfe3e8;margin:0 .1rem}</style>
+<div class="gs-a11y-bar" role="group" aria-label="Accessibility controls">
+<span class="gs-a11y-label">Text Size</span>
+<button type="button" class="gs-a11y-fs" data-size="sm" aria-pressed="false" aria-label="Small text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="md" aria-pressed="true" aria-label="Medium text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="lg" aria-pressed="false" aria-label="Large text">A</button>
+<span class="gs-a11y-sep"></span>
+<button type="button" id="gs-a11y-listen" aria-label="Read this article aloud">&#128266; Listen</button>
+<button type="button" id="gs-a11y-stop" aria-label="Stop reading aloud">&#9632; Stop</button>
+</div>
+<script>(function(){
+var KEY='gs-a11y-fontsize', SIZES={sm:'0.92',md:'1',lg:'1.15'};
+function pb(){return document.querySelector('.post-body')||document.querySelector('.artx,.mdrx');}
+function apply(sz){
+  var el=pb(); if(!el||!SIZES[sz]) return;
+  el.style.fontSize=SIZES[sz]+'em';
+  var btns=document.querySelectorAll('.gs-a11y-fs');
+  for(var i=0;i<btns.length;i++){
+    var on=btns[i].getAttribute('data-size')===sz;
+    btns[i].setAttribute('aria-pressed', on?'true':'false');
+  }
+  try{localStorage.setItem(KEY,sz);}catch(e){}
+}
+var fsBtns=document.querySelectorAll('.gs-a11y-fs');
+for(var j=0;j<fsBtns.length;j++){
+  fsBtns[j].addEventListener('click',(function(b){return function(){apply(b.getAttribute('data-size'));};})(fsBtns[j]));
+}
+var saved; try{saved=localStorage.getItem(KEY);}catch(e){}
+apply(saved&&SIZES[saved]?saved:'md');
+
+var listenBtn=document.getElementById('gs-a11y-listen'), stopBtn=document.getElementById('gs-a11y-stop');
+if(listenBtn){
+  listenBtn.addEventListener('click', function(){
+    if(!('speechSynthesis' in window)){ alert('Text-to-speech is not supported in this browser.'); return; }
+    window.speechSynthesis.cancel();
+    var src=pb(); if(!src) return;
+    var clone=src.cloneNode(true);
+    var strip=clone.querySelectorAll('script,style,svg');
+    for(var k=0;k<strip.length;k++){ strip[k].parentNode.removeChild(strip[k]); }
+    var text=clone.textContent.replace(/\s+/g,' ').trim();
+    if(!text) return;
+    var chunks=text.match(/[\s\S]{1,180}(?:[.!?]|$)/g)||[text];
+    var idx=0;
+    function speakNext(){
+      if(idx>=chunks.length) return;
+      var u=new SpeechSynthesisUtterance(chunks[idx]);
+      u.onend=function(){ idx++; speakNext(); };
+      window.speechSynthesis.speak(u);
+    }
+    speakNext();
+  });
+}
+if(stopBtn){
+  stopBtn.addEventListener('click', function(){
+    if('speechSynthesis' in window) window.speechSynthesis.cancel();
+  });
+}
+var skip=document.getElementById('gs-skip-link');
+if(skip){
+  skip.addEventListener('click', function(ev){
+    ev.preventDefault();
+    var h=document.querySelector('.post-body h1')||document.querySelector('.artx h1,.mdrx h1,h1');
+    if(h){ h.setAttribute('tabindex','-1'); h.focus(); h.scrollIntoView(); }
+  });
+}
+})();</script>
+<style>.goog-te-menu-frame{max-width:340px!important;max-height:70vh!important;overflow:auto!important;box-shadow:0 6px 24px rgba(0,0,0,.25)!important}</style>
+<div id="google_translate_element" style="margin:8px 0 16px;"></div><script type="text/javascript">function googleTranslateElementInit(){new google.translate.TranslateElement({pageLanguage:"en",includedLanguages:"hi,bn,ta,te,mr,gu,kn,ml,pa,or,as,ur,sa,ne,sd",layout:google.translate.TranslateElement.InlineLayout.SIMPLE,autoDisplay:false},"google_translate_element");}</script><script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+
+<p class="revised" data-gs-revision-v1="1">Revised
+<time datetime="2026-10-26" itemprop="dateModified">26 October 2026</time>
+&middot; <code>v1.0.0</code></p>
+
+<div class="stats">
+<div class="stat"><b>30% / 45% / 60%</b><span>Corridor payment as a share of market value: rural / municipalities and other urban planning areas / corporations and metros</span></div>
+<div class="stat"><b>200%</b><span>Tower-base land, as a share of market value</span></div>
+<div class="stat"><b>10%</b><span>What a gas or oil pipeline owes for the land it uses, as a share of market value (1962 Act, s.10(4))</span></div>
+<div class="stat"><b>3 valuers</b><span>Outliers clipped to &plusmn;20% of the median before averaging</span></div>
+</div>
+
+<p>On 6 October 2026 the Ministry of Power told every state that the land under and around a high-voltage line is worth 30% to 60% of its market value as compensation, and the land under each tower twice its market value. The law that lets a pipeline cross the same field pays 10% of market value, once, on top of any damage to crops and trees.</p>
+<p>For one hectare, a power line therefore pays three to six times what a pipeline does. The gap is not new in percentage terms for rural land: the ministry's June 2024 letter already said 30% and 200%. What the new letter changes is how the market value is found, who can challenge it, and who ultimately pays.</p>
+
+<div class="warn"><b>Scope.</b> The 2026 letter is a set of guidelines under Sections 67 and 68 of the Electricity Act, 2003 and the Indian Telegraph Act, 1885, not a statute. It applies to inter-state transmission (ISTS) lines at 66 kV and above, and only where a landowner objects that the circle rate is below the market rate. Pipeline compensation, by contrast, is written into an Act of Parliament. The comparison below is between a guideline and a statute, and between two different physical footprints, so read the worked example as arithmetic on a hectare, not as a claim that each landowner is paid these sums.</div>
+
+<h2>What the 6 October 2026 letter says</h2>
+
+<p>The letter (F.No. 3/4/2016-Trans-Part(4)), signed by an Under Secretary and issued with the Minister's approval, is addressed to the Chief Secretaries of all states and union territories, the CEA, CERC, Grid India, CTUIL and all transmission licensees. It <a href="https://powermin.gov.in/static/uploads/2026/10/0e00977da34887886bdbb05757ec76d9.pdf">states its own reason</a>: many states have yet to specify how market rate is to be found, and landowners complain that compensation is still being proposed at circle rates "significantly lower than market rates". Its main rules:</p>
+<ul>
+<li><b>Base rule.</b> Compensation is ordinarily on the circle rate, guideline value or stamp-duty rate, unless the market rate is higher, in which case the land value is the market rate fixed by a Market Rate Committee (MRC) chaired by the District Magistrate or Collector.</li>
+<li><b>Three valuers.</b> Three valuers per district are picked by the district administration from the list empanelled by the Insolvency and Bankruptcy Board of India, paid by the transmission service provider (TSP). Each values along the alignment, plus one village into the next district, and files a sealed report within 21 days. The three reports are opened together.</li>
+<li><b>Clipping.</b> The highest and lowest valuations are brought within &plusmn;20% of the median. The market rate is the average of the three after that adjustment.</li>
+<li><b>Tower base.</b> 200% of market value, for the area inside the four legs at ground level plus one metre on each side.</li>
+<li><b>Corridor.</b> Land inside the right-of-way corridor, as defined in Schedule VII of the CEA technical regulations (Annex I of the letter, the CEA's 9 October 2025 amendment), gets 30% of market value in rural areas, 45% in municipalities, nagar panchayats and other notified urban planning areas, and 60% in municipal corporations and notified metropolitan areas. No construction of any kind is allowed in the corridor. The letter adds that states may decide the rate "depending on the area and urgency of the work".</li>
+<li><b>Payment and appeal.</b> One-time and upfront, by digital means where possible. An aggrieved party can appeal to a state-notified Appellate Authority within 30 days of the MRC's notified rate, but the appeal is admitted only if the appellant agrees to let work start on site while it is decided. The authority's decision is final.</li>
+<li><b>Who pays.</b> If the TSP's actual compensation differs from the RoW cost assumed when the line was bid, the difference can be passed through under "Change in Law" by CERC.</li>
+</ul>
+
+<p>The letter is a scan; I checked the page images for the figures used here (the 200%, the three corridor percentages and the two illustrations). The ministry's own illustration with valuations of &#8377;40, 70 and 110 lakh clips the first to 56 and the third to 84, giving a market value of &#8377;70 lakh. A second, with &#8377;45, 50 and 150 lakh, clips the last to 60 and gives &#8377;51.67 lakh. The clipping matters most when one valuer is far off: it limits how far a single low or high report can move the average, but the average still sits between 80% and 120% of the median.</p>
+
+<h2>What changed from June 2024</h2>
+
+<p>The <a href="https://www.powermin.gov.in/static/uploads/2025/07/9e249e8c40f8971c5ae6908275eb82b0.pdf">14 June 2024 letter</a> is on the ministry's site. Set against it, the 2026 letter keeps the circle-rate base, the 200% tower-base rate and the one-metre margin, and it changes the following.</p>
+
+<div class="tw">
+<table>
+<tr><th>Item</th><th>14 June 2024 letter</th><th>6 October 2026 letter</th></tr>
+<tr><td>Who fixes market value</td><td>District Magistrate / Collector, in the manner the state specifies</td><td>Market Rate Committee, from three independent valuers' reports</td></tr>
+<tr><td>Corridor payment (% of land value)</td><td>30, flat; states may set a higher rate; corridor width per CEA 2022 regulations</td><td>30 rural, 45 smaller urban areas, 60 corporations and metros; corridor width per CEA 2025 amendment</td></tr>
+<tr><td>Tower base (% of land value)</td><td>200</td><td>200</td></tr>
+<tr><td>Appeal</td><td>None stated</td><td>30 days, to a state Appellate Authority; work proceeds meanwhile</td></tr>
+<tr><td>Cost recovery</td><td>Not stated</td><td>Pass-through under Change in Law by CERC</td></tr>
+<tr><td>Status</td><td>States may adopt or issue their own; central guideline applies in default</td><td>Same, and applies to ISTS where owners object that circle rates are below market</td></tr>
+</table>
+</div>
+
+<div class="warn"><b>Two earlier letters not found.</b> The 2026 letter says it supersedes letters of 14.06.2024, 21.03.2025 and 15.12.2025. I could find and read only the first. The ministry's document index shows no 21 March 2025 or 15 December 2025 letter on RoW, and a web search for those dates found nothing. Whatever those two changed is not in this comparison.</div>
+
+<h2>What a pipeline pays</h2>
+
+<p>This blog's <a href="https://masaladeutsch.blogspot.com/2026/09/right-of-user-what-indias-pipeline.html">earlier piece on Right of User notifications</a> mapped how a pipeline gets onto land. The compensation side is in Section 10 of the Petroleum and Minerals Pipelines (Acquisition of Right of User in Land) Act, 1962, in <a href="https://www.ielrc.org/content/e6204.pdf">an unofficial copy of the Act</a> that shows amendments to 2012; the 10% rule in Section 10(4) is also stated in a <a href="https://eparlib.sansad.in/bitstream/123456789/539556/1/39578.pdf">Lok Sabha answer</a>. Three rules matter:</p>
+<ul>
+<li>Section 10(1) and (3): compensation for actual damage, loss or injury, such as removed crops and trees or temporary severance of the land, fixed by the competent authority, with the District Judge as the forum if either side disagrees.</li>
+<li>Section 10(4): on top of that, "compensation calculated at ten per cent. of the market value of that land on the date of the notification" under Section 3(1), to the owner and anyone whose enjoyment of the land is affected.</li>
+<li>Sections 9 and 7: the owner may keep using the land as before, but may not build, dig a tank or well, or plant trees on it; the pipeline must lie at least one metre deep and not under homes or land with permanent structures.</li>
+</ul>
+<p>The 1997 rules add that the competent authority may take the prevailing land rate from the registration authority, any land acquisition authority, or the officer who fixes reserve price, and the rate used must not be below that reserve price (<a href="https://mopng.gov.in/files/TableManagements/4-Petroleum-and-Minerals-Pipelines-Amendment-Rules-1997.pdf">1997 rules</a>). The Act sets no multi-valuer procedure and no tower-like premium. I found no amendment to Section 10 in the copy I read; its footnotes record only Act 13 of 1977 and Act 9 of 2012, and the 2012 Act replaced Sections 15 and 16, the penalty provisions. Whether a 2026 law touched this Act is something I could not check (see below).</p>
+
+<h2>One hectare, three ways</h2>
+
+<p>All figures here are illustrative. I use &#8377;70 lakh per hectare as the market value, which is the market value the ministry's own Illustration 1 arrives at, and &#8377;40 lakh per hectare as a hypothetical circle rate. Real values vary enormously by district.</p>
+
+<div class="tw">
+<table>
+<tr><th>Case</th><th>Rate (% of land value)</th><th>At market &#8377;70 lakh/ha (&#8377; lakh)</th><th>At circle &#8377;40 lakh/ha (&#8377; lakh)</th></tr>
+<tr><td>Pipeline, land in the right-of-user strip (s.10(4))</td><td>10</td><td>7.00</td><td>4.00</td></tr>
+<tr><td>Power line corridor, rural</td><td>30</td><td>21.00</td><td>12.00</td></tr>
+<tr><td>Power line corridor, municipality or other urban planning area</td><td>45</td><td>31.50</td><td>18.00</td></tr>
+<tr><td>Power line corridor, corporation or metro</td><td>60</td><td>42.00</td><td>24.00</td></tr>
+<tr><td>Land under a tower base</td><td>200</td><td>140.00</td><td>80.00</td></tr>
+</table>
+</div>
+
+<p>The pipeline row assumes the competent authority uses market value, as Section 10(4) requires, and excludes any separate damage payment for crops or trees. The circle-rate column for the pipeline is only for comparison. For the power line, the guideline pays on circle rate unless the MRC finds a higher market rate, so in practice the second column is what applies where no objection and no valuation happens.</p>
+
+<h2>A kilometre of 400 kV line</h2>
+
+<p>The CEA's Schedule VII table (Annex I, Table 1) gives the corridor width for a 400 kV double-circuit line with Moose conductor on normal route as 46 m, at a design span of 400 m. A kilometre of such line therefore has a corridor of 46 m &times; 1,000 m = 4.6 hectares, and about 2.5 towers at a 400 m span. I assume, purely for illustration, a tower footprint of 12 m square between legs, which with the one-metre margin on each side becomes 14 m &times; 14 m = 196 m&sup2; per tower, or 490 m&sup2; for 2.5 towers (0.049 ha). The 12 m figure is my assumption, not from the letter.</p>
+
+<div class="tw">
+<table>
+<tr><th>Component</th><th>Working</th><th>At market (&#8377; lakh)</th><th>At circle (&#8377; lakh)</th></tr>
+<tr><td>Corridor, rural, 4.6 ha</td><td>4.6 &times; 30% &times; land value</td><td>96.60</td><td>55.20</td></tr>
+<tr><td>Tower bases, 0.049 ha</td><td>0.049 &times; 200% &times; land value</td><td>6.86</td><td>3.92</td></tr>
+<tr><td>Total per km</td><td>Sum</td><td>103.46</td><td>59.12</td></tr>
+</table>
+</div>
+
+<p>The market-rate rule adds &#8377;44.34 lakh per kilometre in this example, 75% more than the circle-rate figure. On a project with hundreds of kilometres that is a bid-cost item, which is why the CERC pass-through clause matters: a developer who bid on one assumption and has to pay another can recover the difference through tariffs, and tariffs are paid by consumers. The letter does not say whether the tower-base area is also counted inside the corridor area. In this example it is counted twice (0.049 ha is 1% of 4.6 ha).</p>
+
+<div class="note"><b>Why the pipeline gap matters.</b> The two regimes pay for different things. A pipeline sits at least a metre underground and the owner may keep ploughing; a tower occupies the surface and the corridor bars construction. Both bar buildings, but the pipeline strip's width is not in the Act or the rules I read, so I cannot say how its area compares with a 46 m corridor. What can be compared is the unit rate on the land that is affected, and that differs by a factor of three or more.</div>
+
+<h2>Will states follow?</h2>
+
+<p>The letter does not command them. It says states "may adopt these guidelines in their entirety or issue their own modified policy", and the central guidelines apply where a state has yet to specify how land value is determined. The 2024 letter had the same structure. States that already have their own rules therefore keep them, and the appellate authority and the MRC must still be set up by each state. The ministry's index shows the 2026 letter itself but I did not find any state notification adopting it.</p>
+
+<p>For readers following the transmission build-out, this is one more cost and delay variable. The blog's <a href="https://masaladeutsch.blogspot.com/2026/10/green-energy-corridor-iii-is-15-times.html">piece on Green Energy Corridor III</a> noted that right-of-way disputes were among the reasons the first two phases ran late; the 2026 letter is the centre's attempt to settle those disputes with a faster price-finding process (valuers report in 21 days) and a quick appeal that does not stop work.</p>
+
+<h2>What I could not check</h2>
+<ul>
+<li>The 21 March 2025 and 15 December 2025 letters: not found.</li>
+<li>Whether any 2026 law changed the 1962 Act's compensation. India Code lists a Jan Vishwas (Amendment of Provisions) Act, 2026 among amending acts according to a search summary; I did not open its text and did not confirm what it did to this Act.</li>
+<li>The width of a pipeline right-of-user strip, and so a like-for-like comparison per kilometre.</li>
+<li>Whether any state has adopted the 2026 letter.</li>
+</ul>
+
+<p class="src">Sources: Ministry of Power, <a href="https://powermin.gov.in/static/uploads/2026/10/0e00977da34887886bdbb05757ec76d9.pdf">Guidelines for payment of compensation in regard to Right of Way (RoW) for transmission lines</a>, F.No. 3/4/2016-Trans-Part(4), 6 October 2026, with Annex I (CEA Amendment Regulations, 2025, Gazette 10 October 2025), Annex II (cost matrix) and Annex III (SOP); Ministry of Power, <a href="https://www.powermin.gov.in/static/uploads/2025/07/9e249e8c40f8971c5ae6908275eb82b0.pdf">letter of 14 June 2024</a>; <a href="https://www.ielrc.org/content/e6204.pdf">Petroleum and Minerals Pipelines (Acquisition of Right of User in Land) Act, 1962</a> (unofficial copy with amendments to 2012); Lok Sabha, <a href="https://eparlib.sansad.in/bitstream/123456789/539556/1/39578.pdf">answer stating the Section 10(4) ten-per-cent rule</a>; Ministry of Petroleum and Natural Gas, <a href="https://mopng.gov.in/files/TableManagements/4-Petroleum-and-Minerals-Pipelines-Amendment-Rules-1997.pdf">Amendment Rules, 1997</a>. The worked examples are illustrative arithmetic on assumed land values and an assumed tower footprint, not observed payments. Earlier posts: <a href="https://masaladeutsch.blogspot.com/2026/09/right-of-user-what-indias-pipeline.html">Right of User</a>; <a href="https://masaladeutsch.blogspot.com/2026/10/green-energy-corridor-iii-is-15-times.html">Green Energy Corridor III</a>.</p>
+<p class="disclaimer" data-gs-ai-disclosure-v1="1"><strong>About this article:</strong> Researched, written and edited by Umashankar Triplicane Dwarakanathan, with AI research assistance; every figure is meant to trace to the primary source cited. See the <a href="https://masaladeutsch.blogspot.com/p/disclaimer.html">Editorial Policy</a> for how sourcing, AI use and corrections work.</p>
+
+</div>
+
+<div id="gs-idx"></div><script defer="defer" src="https://herrrickshaw.github.io/masaladeutsch/accordion.js"></script>

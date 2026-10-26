@@ -47,7 +47,73 @@
    "model": "gemini-flash-lite-latest"
   },
   "Mistral": {
-   "raw": "```json\n{\n  \"structure_score\": 3,\n  \"summary_up_top\": {\n    \"present\": false,\n    \"suggest\": \"Highlight the core contradiction upfront: an SEZ built to re-employ mill workers has lost 87% of its land, leaving workers with no viable alternative.\"\n  },\n  \"edits\": [\n    {\n      \"where\": \"opening\",\n      \"type\": \"shorten-heading\",\n      \"why\": \"The H1 is too long for mobile skimmers; the key detail (87% shrinkage) should be front-loaded.\",\n      \"how\": \"Rename to: **‘India’s Failed SEZ: A Textile Park Built to Re-Employ Mill Workers Has Lost 87% of Its Land’**\"\n    },\n    {\n      \"where\": \"opening\",\n      \"type\": \"split-section\",\n      \"why\": \"The first 400 words mix narrative, stats, and context without clear breaks for mobile readers.\",\n      \"how\": \"Split into two sections:\n        1. **‘The 87% Collapse: How an SEZ Built for Mill Workers Shrunk to Near Nothing’** (first 200 words: stats + core contradiction)\n        2. **‘The Original Promise: Why This SEZ Was Created—and Why It Failed’** (remaining 200 words: mill closure → SEZ proposal → delays)\"\n    },\n    {\n      \"where\": \"H2: 'Land freed by one mill closure, meant to employ its workers'\",\n      \"type\": \"add-heading\",\n      \"why\": \"This paragraph (116 words) bridges the opening’s narrative to the table/charts below but lacks a clear mobile-friendly heading.\",\n      \"how\": \"Add subheading: **‘From Mill Closure to SEZ: The Land That Wasn’t Enough’** before the first paragraph.\"\n    },\n    {\n      \"where\": \"H2: 'The area, notification by notification'\",\n      \"type\": \"to-table\",\n      \"why\": \"The table (4x4) is buried in text; mobile readers won’t scan it without a visual cue.\",\n      \"how\": \"Move the table *above* its current paragraph and add a heading: **‘Step-by-Step Shrinkage: How the SEZ Lost 87% of Its Land’**\"\n    },\n    {\n      \"where\": \"H2: 'Not an isolated case'\",\n      \"type\": \"split-paragraph\",\n      \"why\": \"Para 7 (154 words) is a dense argument about SEZ de-notifications nationally, which could overwhelm mobile readers.\",\n      \"how\": \"Split into two:\n        1. **‘A National Pattern: Why This SEZ’s Shrinkage Isn’t Unique’** (first 80 words: broad context)\n        2. **‘The Income-Tax Loophole: How De-Notifications Undermine SEZs’** (remaining 74 words: specific mechanism)\"\n    },\n    {\n      \"where\": \"H2: 'The net read'\",\n      \"type\": \"shorten-heading\",\n      \"why\": \"‘The net read’ is unclear; mobile readers won’t infer it refers to the notification text.\",\n      \"how\": \"Rename to: **‘The Notification Itself: What the De-Notification Documents Say’**\"\n    },\n    {\n      \"where\": \"H2: 'What would fix this'\",\n      \"type\": \"split-section\",\n      \"why\": \"The final section (265 words) jumps from problem to solution without a mobile-friendly transition.\",\n      \"how\": \"Add a subheading before the first paragraph: **‘Three Ways to Stop SEZs From Vanishing’** (bullet-point the 3 fixes at the top)\"\n    },\n    {\n      \"where\": \"boxed notes (all)\",\n      \"type\": \"to-list\",\n      \"why\": \"Boxed notes disrupt mobile flow; they should be integrated or listed for skimmability.\",\n      \"how\": \"Replace with a **‘Key Takeaways’** section (bullet points) at the end of each major heading, citing sources inline.\"\n    }\n  ],\n  \"ad_breaks\": {\n    \"good\": [\n      \"‘The 87% Collapse: How an SEZ Built for Mill Workers Shrunk to Near Nothing’\",\n      \"‘From Mill Closure to SEZ: The Land That Wasn’t Enough’\",\n      \"‘A National Pattern: Why This SEZ’s Shrinkage Isn’t Unique’\"\n    ],\n    \"avoid\": [\n      \"‘Step-by-Step Shrinkage: How the SEZ Lost 87% of Its Land’ (table/chart section)\",\n      \"‘The Notification Itself: What the De-Notification Documents Say’ (para 9, dense text)\",\n      \"‘Three Ways to Stop SEZs From Vanishing’ (solution section, needs full attention)\"\n    ]\n  }\n}\n```",
+   "structure_score": 3,
+   "summary_up_top": {
+    "present": false,
+    "suggest": "Highlight the core contradiction upfront: an SEZ built to re-employ mill workers has lost 87% of its land, leaving workers with no viable alternative."
+   },
+   "edits": [
+    {
+     "where": "opening",
+     "type": "shorten-heading",
+     "why": "The H1 is too long for mobile skimmers; the key detail (87% shrinkage) should be front-loaded.",
+     "how": "Rename to: **‘India’s Failed SEZ: A Textile Park Built to Re-Employ Mill Workers Has Lost 87% of Its Land’**"
+    },
+    {
+     "where": "opening",
+     "type": "split-section",
+     "why": "The first 400 words mix narrative, stats, and context without clear breaks for mobile readers.",
+     "how": "Split into two sections:\n        1. **‘The 87% Collapse: How an SEZ Built for Mill Workers Shrunk to Near Nothing’** (first 200 words: stats + core contradiction)\n        2. **‘The Original Promise: Why This SEZ Was Created—and Why It Failed’** (remaining 200 words: mill closure → SEZ proposal → delays)"
+    },
+    {
+     "where": "H2: 'Land freed by one mill closure, meant to employ its workers'",
+     "type": "add-heading",
+     "why": "This paragraph (116 words) bridges the opening’s narrative to the table/charts below but lacks a clear mobile-friendly heading.",
+     "how": "Add subheading: **‘From Mill Closure to SEZ: The Land That Wasn’t Enough’** before the first paragraph."
+    },
+    {
+     "where": "H2: 'The area, notification by notification'",
+     "type": "to-table",
+     "why": "The table (4x4) is buried in text; mobile readers won’t scan it without a visual cue.",
+     "how": "Move the table *above* its current paragraph and add a heading: **‘Step-by-Step Shrinkage: How the SEZ Lost 87% of Its Land’**"
+    },
+    {
+     "where": "H2: 'Not an isolated case'",
+     "type": "split-paragraph",
+     "why": "Para 7 (154 words) is a dense argument about SEZ de-notifications nationally, which could overwhelm mobile readers.",
+     "how": "Split into two:\n        1. **‘A National Pattern: Why This SEZ’s Shrinkage Isn’t Unique’** (first 80 words: broad context)\n        2. **‘The Income-Tax Loophole: How De-Notifications Undermine SEZs’** (remaining 74 words: specific mechanism)"
+    },
+    {
+     "where": "H2: 'The net read'",
+     "type": "shorten-heading",
+     "why": "‘The net read’ is unclear; mobile readers won’t infer it refers to the notification text.",
+     "how": "Rename to: **‘The Notification Itself: What the De-Notification Documents Say’**"
+    },
+    {
+     "where": "H2: 'What would fix this'",
+     "type": "split-section",
+     "why": "The final section (265 words) jumps from problem to solution without a mobile-friendly transition.",
+     "how": "Add a subheading before the first paragraph: **‘Three Ways to Stop SEZs From Vanishing’** (bullet-point the 3 fixes at the top)"
+    },
+    {
+     "where": "boxed notes (all)",
+     "type": "to-list",
+     "why": "Boxed notes disrupt mobile flow; they should be integrated or listed for skimmability.",
+     "how": "Replace with a **‘Key Takeaways’** section (bullet points) at the end of each major heading, citing sources inline."
+    }
+   ],
+   "ad_breaks": {
+    "good": [
+     "‘The 87% Collapse: How an SEZ Built for Mill Workers Shrunk to Near Nothing’",
+     "‘From Mill Closure to SEZ: The Land That Wasn’t Enough’",
+     "‘A National Pattern: Why This SEZ’s Shrinkage Isn’t Unique’"
+    ],
+    "avoid": [
+     "‘Step-by-Step Shrinkage: How the SEZ Lost 87% of Its Land’ (table/chart section)",
+     "‘The Notification Itself: What the De-Notification Documents Say’ (para 9, dense text)",
+     "‘Three Ways to Stop SEZs From Vanishing’ (solution section, needs full attention)"
+    ]
+   },
    "model": "open-mistral-nemo"
   },
   "Groq": {

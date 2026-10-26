@@ -53,7 +53,72 @@
    "model": "gemini-flash-lite-latest"
   },
   "Mistral": {
-   "raw": "```json\n{\n  \"structure_score\": 3,\n  \"summary_up_top\": {\n    \"present\": false,\n    \"suggest\": \"Lead with a concise, phone-friendly hook: *‘India’s ABHA has 93 crore patient accounts—but only 67% of doctors and no mandatory insurer claims exchange make it functional like Estonia’s or Denmark’s systems.’*\"\n  },\n  \"edits\": [\n    {\n      \"where\": \"opening\",\n      \"type\": \"shorten-heading\",\n      \"why\": \"The H1 is too dense for mobile; prioritize the core contrast (patient vs. doctor/insurer gaps) over the full title.\",\n      \"how\": \"Rename to: *‘ABHA’s 93 Crore Patients vs. 67% Doctor Coverage: Why India’s Health ID Falls Short’*\"\n    },\n    {\n      \"where\": \"H1\",\n      \"type\": \"split-section\",\n      \"why\": \"The H1’s 134-word intro is a hybrid of summary + reporting; separate the ‘what’ (stats) from the ‘why’ (comparison).\",\n      \"how\": \"Move the first 40 words (hook + key numbers) to the opening text; keep the rest as a **‘Key Takeaways’** box under H1.\"\n    },\n    {\n      \"where\": \"para 4 (125 words)\",\n      \"type\": \"split-paragraph\",\n      \"why\": \"The dense reporting on ABHA’s patient-side design breaks the flow before the table in H2.1.\",\n      \"how\": \"Split into two paragraphs: first 60 words → **‘Context’** box; remaining 65 words → merge with next paragraph (para 5).\"\n    },\n    {\n      \"where\": \"H2: 1. The patient side\",\n      \"type\": \"add-heading\",\n      \"why\": \"The table’s 6 rows require a clearer transition from the dense H1 intro.\",\n      \"how\": \"Insert a subheading: **‘How ABHA’s 93 Crore Accounts Compare to Real-World Usage’* before the table.\"\n    },\n    {\n      \"where\": \"H2: 2. The doctor side\",\n      \"type\": \"to-list\",\n      \"why\": \"The 196-word para mixes stats, charts, and narrative; lists improve mobile readability.\",\n      \"how\": \"Convert to a **3-bullet list**:\n        1. *‘67% of India’s ~1.42 crore doctors hold an HPR—vs. 95%+ in Estonia/Denmark.’*\n        2. *‘[Chart: SVG] Doctor registry adoption by state (link to expanded view).’*\n        3. *‘Why the gap matters: A fragmented registry undermines shared records.’*\n      \"\n    },\n    {\n      \"where\": \"H2: 4. The identifier lesson\",\n      \"type\": \"shorten-heading\",\n      \"why\": \"The 137-word para on Denmark’s CPR is a deep dive; the heading doesn’t reflect its scope.\",\n      \"how\": \"Rename to: **‘Why Denmark’s CPR Works Where India’s ABHA Falls Short’*\"\n    },\n    {\n      \"where\": \"H2: 5. The complication\",\n      \"type\": \"to-table\",\n      \"why\": \"The 169-word para compares UK/India systems; a table would let readers scan key differences.\",\n      \"how\": \"Replace with a **2-column table**:\n        | **System**       | **How It Handles Fragmented Records**                          |\n        |------------------|----------------------------------------------------------------|\n        | UK (NHS)         | *‘[Link to UK’s data-sharing model]’*                          |\n        | India (ABHA)     | *‘[Key quote: “No central database → siloed records”]’*        |\n      \"\n    },\n    {\n      \"where\": \"H3: Related on this blog\",\n      \"type\": \"move\",\n      \"why\": \"The ‘Related’ section interrupts the solutions argument; it belongs at the end.\",\n      \"how\": \"Move to the **very end** of the post, after the final box note.\"\n    }\n  ],\n  \"ad_breaks\": {\n    \"good\": [\n      \"H2: 2. The doctor side: a 67% registry versus a 95%+ one\",\n      \"H2: 4. The identifier lesson: a health-specific ID versus a repurposed universal one\"\n    ],\n    \"avoid\": [\n      \"H2: 1. The patient side: ABHA's coverage is real, but 'account created' isn't 'record complete'\",\n      \"H2: 5. The complication: high coverage numbers don't always mean a unified record\",\n      \"para 14 (330 words in 'What would fix this')\"\n    ]\n  }\n}\n```",
+   "structure_score": 3,
+   "summary_up_top": {
+    "present": false,
+    "suggest": "Lead with a concise, phone-friendly hook: *‘India’s ABHA has 93 crore patient accounts—but only 67% of doctors and no mandatory insurer claims exchange make it functional like Estonia’s or Denmark’s systems.’*"
+   },
+   "edits": [
+    {
+     "where": "opening",
+     "type": "shorten-heading",
+     "why": "The H1 is too dense for mobile; prioritize the core contrast (patient vs. doctor/insurer gaps) over the full title.",
+     "how": "Rename to: *‘ABHA’s 93 Crore Patients vs. 67% Doctor Coverage: Why India’s Health ID Falls Short’*"
+    },
+    {
+     "where": "H1",
+     "type": "split-section",
+     "why": "The H1’s 134-word intro is a hybrid of summary + reporting; separate the ‘what’ (stats) from the ‘why’ (comparison).",
+     "how": "Move the first 40 words (hook + key numbers) to the opening text; keep the rest as a **‘Key Takeaways’** box under H1."
+    },
+    {
+     "where": "para 4 (125 words)",
+     "type": "split-paragraph",
+     "why": "The dense reporting on ABHA’s patient-side design breaks the flow before the table in H2.1.",
+     "how": "Split into two paragraphs: first 60 words → **‘Context’** box; remaining 65 words → merge with next paragraph (para 5)."
+    },
+    {
+     "where": "H2: 1. The patient side",
+     "type": "add-heading",
+     "why": "The table’s 6 rows require a clearer transition from the dense H1 intro.",
+     "how": "Insert a subheading: **‘How ABHA’s 93 Crore Accounts Compare to Real-World Usage’* before the table."
+    },
+    {
+     "where": "H2: 2. The doctor side",
+     "type": "to-list",
+     "why": "The 196-word para mixes stats, charts, and narrative; lists improve mobile readability.",
+     "how": "Convert to a **3-bullet list**:\n        1. *‘67% of India’s ~1.42 crore doctors hold an HPR—vs. 95%+ in Estonia/Denmark.’*\n        2. *‘[Chart: SVG] Doctor registry adoption by state (link to expanded view).’*\n        3. *‘Why the gap matters: A fragmented registry undermines shared records.’*\n      "
+    },
+    {
+     "where": "H2: 4. The identifier lesson",
+     "type": "shorten-heading",
+     "why": "The 137-word para on Denmark’s CPR is a deep dive; the heading doesn’t reflect its scope.",
+     "how": "Rename to: **‘Why Denmark’s CPR Works Where India’s ABHA Falls Short’*"
+    },
+    {
+     "where": "H2: 5. The complication",
+     "type": "to-table",
+     "why": "The 169-word para compares UK/India systems; a table would let readers scan key differences.",
+     "how": "Replace with a **2-column table**:\n        | **System**       | **How It Handles Fragmented Records**                          |\n        |------------------|----------------------------------------------------------------|\n        | UK (NHS)         | *‘[Link to UK’s data-sharing model]’*                          |\n        | India (ABHA)     | *‘[Key quote: “No central database → siloed records”]’*        |\n      "
+    },
+    {
+     "where": "H3: Related on this blog",
+     "type": "move",
+     "why": "The ‘Related’ section interrupts the solutions argument; it belongs at the end.",
+     "how": "Move to the **very end** of the post, after the final box note."
+    }
+   ],
+   "ad_breaks": {
+    "good": [
+     "H2: 2. The doctor side: a 67% registry versus a 95%+ one",
+     "H2: 4. The identifier lesson: a health-specific ID versus a repurposed universal one"
+    ],
+    "avoid": [
+     "H2: 1. The patient side: ABHA's coverage is real, but 'account created' isn't 'record complete'",
+     "H2: 5. The complication: high coverage numbers don't always mean a unified record",
+     "para 14 (330 words in 'What would fix this')"
+    ]
+   },
    "model": "open-mistral-nemo"
   },
   "Groq": {

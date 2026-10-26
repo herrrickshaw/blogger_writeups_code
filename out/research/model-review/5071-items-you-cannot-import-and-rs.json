@@ -54,7 +54,74 @@
    "model": "gemini-flash-lite-latest"
   },
   "Mistral": {
-   "raw": "```json\n{\n  \"structure_score\": 3,\n  \"summary_up_top\": {\n    \"present\": false,\n    \"suggest\": \"Start with a punchy, phone-friendly hook: *‘India banned 5,417 defence items—but its own numbers for replacements don’t add up. Here’s the gap.’*\"\n  },\n  \"edits\": [\n    {\n      \"where\": \"opening\",\n      \"type\": \"shorten-heading\",\n      \"why\": \"The H1 is too dense for mobile; prioritize the core question (the discrepancy) over the full list count.\",\n      \"how\": \"Rename to: *‘India’s Defence Ban: 5,417 Items Blocked—But Its Own Replacement Numbers Don’t Match’*\"\n    },\n    {\n      \"where\": \"opening\",\n      \"type\": \"split-section\",\n      \"why\": \"The first 400 words mix context, numbers, and questions without clear signposts for mobile readers.\",\n      \"how\": \"Split into two paragraphs: 1) Hook + core question (first 100 words), 2) Summary of the two conflicting ministry numbers (next 100 words). Add a **bold** subheading: *‘The Ministry’s Own Numbers Don’t Agree’* before the second paragraph.\"\n    },\n    {\n      \"where\": \"H2: A list of things you may not buy abroad\",\n      \"type\": \"split-section\",\n      \"why\": \"The table (3x9) and subsequent charts/images create a dense block that overwhelms mobile users.\",\n      \"how\": \"Move the **table** to its own H2 (rename to: *‘The 4,666 Items on the First Four DPSU Lists’*), then group the two charts/images under a new H2: *‘How the Lists Have Grown Over Time’* (add a 1-sentence intro: *‘Here’s how the banned items have expanded since 2023.’*).\"\n    },\n    {\n      \"where\": \"para 7 (under H2: A list of things you may not buy abroad)\",\n      \"type\": \"shorten-heading\",\n      \"why\": \"The correction note disrupts flow; it’s better suited for a dedicated section.\",\n      \"how\": \"Replace with: *‘Update: This piece originally reported 5,071 items (omitting the fifth list). The full count is now 5,417.’* (Move the full correction to the **Sources and caveats** section.)\"\n    },\n    {\n      \"where\": \"H2: Then look at what was actually replaced — and the ministry's own two numbers for it\",\n      \"type\": \"split-paragraph\",\n      \"why\": \"The 568-word block (with two long paras) is too dense for mobile; the second table risks losing readers.\",\n      \"how\": \"Split into two H2s:\n        1) *‘The Ministry’s Two Inconsistent Figures’* (para 8–9, 200 words max)\n        2) *‘The Bigger Picture: 33,000+ Items on SRIJAN’* (para 10–13, 200 words max)\n      Add a **bold** transition: *‘But the PIL sequence is just one part of the story—here’s what’s actually being produced.’* before the second H2.\"\n    },\n    {\n      \"where\": \"H2: The denominator nobody puts next to it\",\n      \"type\": \"add-heading\",\n      \"why\": \"The 270-word block lacks a clear mobile-friendly heading to separate it from the previous section.\",\n      \"how\": \"Rename to: *‘Why ₹1.78 Lakh Crore in Production Doesn’t Tell the Full Story’*\"\n    },\n    {\n      \"where\": \"H2: Project ADITI: the invention half\",\n      \"type\": \"to-list\",\n      \"why\": \"The 255-word section is a narrative; mobile users need bullet points for key stats.\",\n      \"how\": \"Replace with a **3-bullet list** under the heading:\n        - **Budget**: ₹750 crore (0.4% of ₹1.78 lakh crore annual production).\n        - **Scope**: Targets ‘harder’ replacements not covered by PIL lists.\n        - **Status**: No public progress updates beyond the corpus allocation.\n      Add a **bold** note: *‘ADITI’s role is unclear—here’s what we know so far.’*\"\n    },\n    {\n      \"where\": \"H2: Sources and caveats\",\n      \"type\": \"split-section\",\n      \"type\": \"merge\",\n      \"why\": \"The 675-word block (with a long para 30) is overwhelming; the caveats get lost in data.\",\n      \"how\": \"Split into two H2s:\n        1) *‘How We Got These Numbers’* (para 30–34, 200 words max—focus on methodology).\n        2) *‘Key Caveats’* (para 35–end, 200 words max—move all disclaimers here).\n      Add a **bold** intro: *‘These figures come with important limitations—here’s what’s missing.’*\"\n    }\n  ],\n  \"ad_breaks\": {\n    \"good\": [\n      \"H2: The honest summary\",\n      \"H2: What would fix this\"\n    ],\n    \"avoid\": [\n      \"H2: A list of things you may not buy abroad (after the table)\",\n      \"H2: Then look at what was actually replaced — and the ministry's own two numbers for it (after the first table)\",\n      \"H2: The denominator nobody puts next to it (after the second table)\",\n      \"H2: Three instruments that do not talk to each other (entire section—argument is sequential)\",\n      \"para 28 (under H2: The honest summary—long paragraph breaks flow)\"\n    ]\n  }\n}\n```",
+   "structure_score": 3,
+   "summary_up_top": {
+    "present": false,
+    "suggest": "Start with a punchy, phone-friendly hook: *‘India banned 5,417 defence items—but its own numbers for replacements don’t add up. Here’s the gap.’*"
+   },
+   "edits": [
+    {
+     "where": "opening",
+     "type": "shorten-heading",
+     "why": "The H1 is too dense for mobile; prioritize the core question (the discrepancy) over the full list count.",
+     "how": "Rename to: *‘India’s Defence Ban: 5,417 Items Blocked—But Its Own Replacement Numbers Don’t Match’*"
+    },
+    {
+     "where": "opening",
+     "type": "split-section",
+     "why": "The first 400 words mix context, numbers, and questions without clear signposts for mobile readers.",
+     "how": "Split into two paragraphs: 1) Hook + core question (first 100 words), 2) Summary of the two conflicting ministry numbers (next 100 words). Add a **bold** subheading: *‘The Ministry’s Own Numbers Don’t Agree’* before the second paragraph."
+    },
+    {
+     "where": "H2: A list of things you may not buy abroad",
+     "type": "split-section",
+     "why": "The table (3x9) and subsequent charts/images create a dense block that overwhelms mobile users.",
+     "how": "Move the **table** to its own H2 (rename to: *‘The 4,666 Items on the First Four DPSU Lists’*), then group the two charts/images under a new H2: *‘How the Lists Have Grown Over Time’* (add a 1-sentence intro: *‘Here’s how the banned items have expanded since 2023.’*)."
+    },
+    {
+     "where": "para 7 (under H2: A list of things you may not buy abroad)",
+     "type": "shorten-heading",
+     "why": "The correction note disrupts flow; it’s better suited for a dedicated section.",
+     "how": "Replace with: *‘Update: This piece originally reported 5,071 items (omitting the fifth list). The full count is now 5,417.’* (Move the full correction to the **Sources and caveats** section.)"
+    },
+    {
+     "where": "H2: Then look at what was actually replaced — and the ministry's own two numbers for it",
+     "type": "split-paragraph",
+     "why": "The 568-word block (with two long paras) is too dense for mobile; the second table risks losing readers.",
+     "how": "Split into two H2s:\n        1) *‘The Ministry’s Two Inconsistent Figures’* (para 8–9, 200 words max)\n        2) *‘The Bigger Picture: 33,000+ Items on SRIJAN’* (para 10–13, 200 words max)\n      Add a **bold** transition: *‘But the PIL sequence is just one part of the story—here’s what’s actually being produced.’* before the second H2."
+    },
+    {
+     "where": "H2: The denominator nobody puts next to it",
+     "type": "add-heading",
+     "why": "The 270-word block lacks a clear mobile-friendly heading to separate it from the previous section.",
+     "how": "Rename to: *‘Why ₹1.78 Lakh Crore in Production Doesn’t Tell the Full Story’*"
+    },
+    {
+     "where": "H2: Project ADITI: the invention half",
+     "type": "to-list",
+     "why": "The 255-word section is a narrative; mobile users need bullet points for key stats.",
+     "how": "Replace with a **3-bullet list** under the heading:\n        - **Budget**: ₹750 crore (0.4% of ₹1.78 lakh crore annual production).\n        - **Scope**: Targets ‘harder’ replacements not covered by PIL lists.\n        - **Status**: No public progress updates beyond the corpus allocation.\n      Add a **bold** note: *‘ADITI’s role is unclear—here’s what we know so far.’*"
+    },
+    {
+     "where": "H2: Sources and caveats",
+     "type": "merge",
+     "why": "The 675-word block (with a long para 30) is overwhelming; the caveats get lost in data.",
+     "how": "Split into two H2s:\n        1) *‘How We Got These Numbers’* (para 30–34, 200 words max—focus on methodology).\n        2) *‘Key Caveats’* (para 35–end, 200 words max—move all disclaimers here).\n      Add a **bold** intro: *‘These figures come with important limitations—here’s what’s missing.’*"
+    }
+   ],
+   "ad_breaks": {
+    "good": [
+     "H2: The honest summary",
+     "H2: What would fix this"
+    ],
+    "avoid": [
+     "H2: A list of things you may not buy abroad (after the table)",
+     "H2: Then look at what was actually replaced — and the ministry's own two numbers for it (after the first table)",
+     "H2: The denominator nobody puts next to it (after the second table)",
+     "H2: Three instruments that do not talk to each other (entire section—argument is sequential)",
+     "para 28 (under H2: The honest summary—long paragraph breaks flow)"
+    ]
+   },
    "model": "open-mistral-nemo"
   },
   "Groq": {

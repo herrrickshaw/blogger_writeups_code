@@ -45,7 +45,73 @@
    "model": "gemini-flash-lite-latest"
   },
   "Mistral": {
-   "raw": "```json\n{\n  \"structure_score\": 3,\n  \"summary_up_top\": {\n    \"present\": false,\n    \"suggest\": \"Summarize the *key* changes in this refresh (e.g., ‘This edition expands beyond GitHub to track funding rounds, product launches, and agent infrastructure—with new verification labels’) before the H1.\"\n  },\n  \"edits\": [\n    {\n      \"where\": \"opening\",\n      \"type\": \"shorten-heading\",\n      \"why\": \"The H1 is already punchy but the opening paragraph’s first sentence dilutes it by explaining *how* the tracker changed rather than *why* readers should care.\",\n      \"how\": \"Replace the opening paragraph’s first sentence with: ‘This edition expands beyond GitHub to track funding rounds, product launches, and agent infrastructure—with new verification labels to flag sources.’\"\n    },\n    {\n      \"where\": \"opening\",\n      \"type\": \"split-paragraph\",\n      \"why\": \"The first 400 words mix methodology, examples, and a funding round list. The reader loses sight of the *story* (GPT-6/Google’s model) in the noise.\",\n      \"how\": \"Move the **‘Fresh AI-Agent Infrastructure Funding’** list (including the $690M summary) to a dedicated **H2** *after* the H1, and condense the opening to 2 paragraphs: 1) the *why* of the refresh (new sources/methodology), 2) the *what* (GPT-6/Google’s model + Cloudflare’s update) before diving into details.\"\n    },\n    {\n      \"where\": \"H1\",\n      \"type\": \"shorten-heading\",\n      \"why\": \"The H1’s ‘Google Kept Its Best Model for Cyber Defenders’ feels like an afterthought. It should mirror the urgency of OpenAI’s GPT-6 announcement.\",\n      \"how\": \"Reorder to: ‘OpenAI Shipped GPT-6 and Agents That Keep Working After You Log Off. *Google’s Cyber-Defense Model Remains Hidden.* Fresh AI-Agent Funding Rounds: $690M in September–October.’\"\n    },\n    {\n      \"where\": \"H2: Consistency & methodology notes\",\n      \"type\": \"add-heading\",\n      \"why\": \"The ‘What changed this refresh’ bullet list (under H2) is a *separate* argument from the verification methodology. It breaks the flow of the methodology section.\",\n      \"how\": \"Insert a new **H2.5** (or **H3**) before the bullet list: ‘**Key Changes in This Refresh**’ to separate it from the verification notes.\"\n    },\n    {\n      \"where\": \"para 3 (under H2: Consistency & methodology notes)\",\n      \"type\": \"to-list\",\n      \"why\": \"The ‘Items are labelled Verified…’ explanation is dense and interrupts the flow of the methodology. Lists improve phone readability.\",\n      \"how\": \"Convert to a **bullet list** under the ‘Verification Labels’ heading (or create one if missing). Example:\n      - **Verified**: Data confirmed via GitHub or first-party press.\n      - **Reported**: Single aggregator/source with no direct confirmation.\"\n    },\n    {\n      \"where\": \"boxed note\",\n      \"type\": \"merge\",\n      \"why\": \"The boxed note (‘A small verified sample was checked first…’) duplicates info from the preceding paragraph. It’s redundant, not critical.\",\n      \"how\": \"Delete the boxed note entirely—its content is already covered in the ‘Consistency & methodology’ paragraph.\"\n    },\n    {\n      \"where\": \"para 5 (under H2: Consistency & methodology notes)\",\n      \"type\": \"shorten-heading\",\n      \"why\": \"The ‘What changed this refresh’ bullet list is buried under H2. It’s a *separate* section (like the funding rounds) and should stand out.\",\n      \"how\": \"Promote to a **dedicated H2.5** (or **H3**) with a clearer heading: ‘**New in This Refresh: Expanded Coverage and Verification**’\"\n    },\n    {\n      \"where\": \"chart: svg\",\n      \"type\": \"move\",\n      \"why\": \"The first chart (likely a methodology diagram) appears *after* the H1 but *before* the reader understands the context (what’s being tracked). It risks confusion.\",\n      \"how\": \"Move the **first chart** to **after the opening paragraph’s summary of changes** (right before the H2: Consistency & methodology notes).\"\n    }\n  ],\n  \"ad_breaks\": {\n    \"good\": [\n      \"after the opening paragraph’s summary of changes (before the first chart)\",\n      \"after the ‘Fresh AI-Agent Infrastructure Funding’ H2 (if created)\",\n      \"after the ‘Verification Labels’ list (under H2)\"\n    ],\n    \"avoid\": [\n      \"between the ‘What changed this refresh’ bullet list and the ‘Consistency & methodology’ paragraph (breaks argument flow)\",\n      \"after the boxed note (redundant section)\",\n      \"immediately after the first chart (interrupts context setup)\"\n    ]\n  }\n}\n```",
+   "structure_score": 3,
+   "summary_up_top": {
+    "present": false,
+    "suggest": "Summarize the *key* changes in this refresh (e.g., ‘This edition expands beyond GitHub to track funding rounds, product launches, and agent infrastructure—with new verification labels’) before the H1."
+   },
+   "edits": [
+    {
+     "where": "opening",
+     "type": "shorten-heading",
+     "why": "The H1 is already punchy but the opening paragraph’s first sentence dilutes it by explaining *how* the tracker changed rather than *why* readers should care.",
+     "how": "Replace the opening paragraph’s first sentence with: ‘This edition expands beyond GitHub to track funding rounds, product launches, and agent infrastructure—with new verification labels to flag sources.’"
+    },
+    {
+     "where": "opening",
+     "type": "split-paragraph",
+     "why": "The first 400 words mix methodology, examples, and a funding round list. The reader loses sight of the *story* (GPT-6/Google’s model) in the noise.",
+     "how": "Move the **‘Fresh AI-Agent Infrastructure Funding’** list (including the $690M summary) to a dedicated **H2** *after* the H1, and condense the opening to 2 paragraphs: 1) the *why* of the refresh (new sources/methodology), 2) the *what* (GPT-6/Google’s model + Cloudflare’s update) before diving into details."
+    },
+    {
+     "where": "H1",
+     "type": "shorten-heading",
+     "why": "The H1’s ‘Google Kept Its Best Model for Cyber Defenders’ feels like an afterthought. It should mirror the urgency of OpenAI’s GPT-6 announcement.",
+     "how": "Reorder to: ‘OpenAI Shipped GPT-6 and Agents That Keep Working After You Log Off. *Google’s Cyber-Defense Model Remains Hidden.* Fresh AI-Agent Funding Rounds: $690M in September–October.’"
+    },
+    {
+     "where": "H2: Consistency & methodology notes",
+     "type": "add-heading",
+     "why": "The ‘What changed this refresh’ bullet list (under H2) is a *separate* argument from the verification methodology. It breaks the flow of the methodology section.",
+     "how": "Insert a new **H2.5** (or **H3**) before the bullet list: ‘**Key Changes in This Refresh**’ to separate it from the verification notes."
+    },
+    {
+     "where": "para 3 (under H2: Consistency & methodology notes)",
+     "type": "to-list",
+     "why": "The ‘Items are labelled Verified…’ explanation is dense and interrupts the flow of the methodology. Lists improve phone readability.",
+     "how": "Convert to a **bullet list** under the ‘Verification Labels’ heading (or create one if missing). Example:\n      - **Verified**: Data confirmed via GitHub or first-party press.\n      - **Reported**: Single aggregator/source with no direct confirmation."
+    },
+    {
+     "where": "boxed note",
+     "type": "merge",
+     "why": "The boxed note (‘A small verified sample was checked first…’) duplicates info from the preceding paragraph. It’s redundant, not critical.",
+     "how": "Delete the boxed note entirely—its content is already covered in the ‘Consistency & methodology’ paragraph."
+    },
+    {
+     "where": "para 5 (under H2: Consistency & methodology notes)",
+     "type": "shorten-heading",
+     "why": "The ‘What changed this refresh’ bullet list is buried under H2. It’s a *separate* section (like the funding rounds) and should stand out.",
+     "how": "Promote to a **dedicated H2.5** (or **H3**) with a clearer heading: ‘**New in This Refresh: Expanded Coverage and Verification**’"
+    },
+    {
+     "where": "chart: svg",
+     "type": "move",
+     "why": "The first chart (likely a methodology diagram) appears *after* the H1 but *before* the reader understands the context (what’s being tracked). It risks confusion.",
+     "how": "Move the **first chart** to **after the opening paragraph’s summary of changes** (right before the H2: Consistency & methodology notes)."
+    }
+   ],
+   "ad_breaks": {
+    "good": [
+     "after the opening paragraph’s summary of changes (before the first chart)",
+     "after the ‘Fresh AI-Agent Infrastructure Funding’ H2 (if created)",
+     "after the ‘Verification Labels’ list (under H2)"
+    ],
+    "avoid": [
+     "between the ‘What changed this refresh’ bullet list and the ‘Consistency & methodology’ paragraph (breaks argument flow)",
+     "after the boxed note (redundant section)",
+     "immediately after the first chart (interrupts context setup)"
+    ]
+   },
    "model": "open-mistral-nemo"
   },
   "Groq": {

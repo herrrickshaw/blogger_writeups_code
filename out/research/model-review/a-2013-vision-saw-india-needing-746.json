@@ -61,7 +61,80 @@
    "model": "gemini-flash-lite-latest"
   },
   "Mistral": {
-   "raw": "```json\n{\n  \"structure_score\": 3,\n  \"summary_up_top\": {\n    \"present\": false,\n    \"suggest\": \"Open with a punchy one-liner: *'India’s 2013 gas vision projected 746 MMSCMD by 2030—but today’s demand is a quarter of that, leaving a grid built for a demand that never arrived.'*\"\n  },\n  \"edits\": [\n    {\n      \"where\": \"opening\",\n      \"type\": \"shorten-heading\",\n      \"why\": \"The H1 is already punchy but could be more concise for mobile skimmers.\",\n      \"how\": \"Trim to: *'India’s 2013 Gas Vision Missed by 600 MMSCMD: Why the Grid Was Built for a Demand That Never Came'*\n      (or similar, keeping the core numbers and gap).\"\n    },\n    {\n      \"where\": \"H1\",\n      \"type\": \"add-heading\",\n      \"why\": \"The opening text repeats the H1’s core claim but could benefit from a subheading to break up the dense intro.\",\n      \"how\": \"Add a subheading after the first sentence: *'The report’s 2030 target: 746 MMSCMD. Reality: ~188 MMSCMD.'*\n      (or similar, mirroring the chart’s visual emphasis).\"\n    },\n    {\n      \"where\": \"para 2 (opening text)\",\n      \"type\": \"split-paragraph\",\n      \"why\": \"The first 139 words are a dense wall of text with no visual breaks for mobile readers.\",\n      \"how\": \"Split into two paragraphs after the first sentence (the report’s core claim) to separate the summary from the supporting details.\"\n    },\n    {\n      \"where\": \"H2: 'What the 2013 report actually projected'\",\n      \"type\": \"split-section\",\n      \"why\": \"This H2 and the next ('The full demand trajectory') both focus on *how* the projection was made, which feels like a single logical block.\",\n      \"how\": \"Merge these two H2s into one: *'How the 2013 report built its projection—and why it overestimated demand'*\n      (or similar). Move the table/chart under this merged heading.\"\n    },\n    {\n      \"where\": \"H2: 'The full demand trajectory, year by year'\",\n      \"type\": \"to-table\",\n      \"why\": \"The table here is small (2x10) but buried in a short heading; it deserves prominence.\",\n      \"how\": \"Move the table *before* the H2 heading and add a subheading above it: *'Projected vs. actual demand (2013–2030):'*\"\n    },\n    {\n      \"where\": \"H2: 'What actually happened'\",\n      \"type\": \"split-section\",\n      \"why\": \"This H2 and the next ('Even 2040 might not reach...') contrast projections with reality, but the pipeline network detail feels like a separate sub-argument.\",\n      \"how\": \"Split into two H2s:\n      1. *'Actual demand: 188 MMSCMD in 2024 (vs. 571 projected)'*\n      2. *'The pipeline grid: built for a demand that never arrived'*\n      (Move the pipeline paragraph to the second H2.)\"\n    },\n    {\n      \"where\": \"H2: 'Why the gap: gas didn’t win the fights it was supposed to win'\",\n      \"type\": \"shorten-heading\",\n      \"why\": \"This heading is too long for mobile; it risks being truncated.\",\n      \"how\": \"Trim to: *'Why gas lost its key battles to oil and coal'*\n      (or similar, keeping the core idea).\"\n    },\n    {\n      \"where\": \"H2: 'What doesn’t follow from any of this'\",\n      \"type\": \"to-list\",\n      \"why\": \"This section lists counterarguments (e.g., 'not incompetent,' 'not malice') in a dense paragraph.\",\n      \"how\": \"Convert to a bulleted list with a subheading: *'Common misreadings: What this gap doesn’t prove'*\n      (e.g., '→ Not evidence of incompetence,' '→ Not proof of industry sabotage').\"\n    },\n    {\n      \"where\": \"H2: 'What would fix this'\",\n      \"type\": \"add-heading\",\n      \"why\": \"This section feels like a conclusion but lacks a clear transition from the preceding analysis.\",\n      \"how\": \"Add a subheading before the para 11 text: *'From overbuilt grids to underused gas: The fixes needed now'*\n      (or similar, linking to the gap).\"\n    }\n  ],\n  \"ad_breaks\": {\n    \"good\": [\n      \"H2: 'The full demand trajectory, year by year'\",\n      \"H2: 'Even 2040 might not reach the 2030 report’s number'\",\n      \"H2: 'What doesn’t follow from any of this'\"\n    ],\n    \"avoid\": [\n      \"H2: 'What the 2013 report actually projected'\",\n      \"H2: 'What actually happened' para 7 (long block before pipeline detail)\",\n      \"H2: 'Why the gap: gas didn’t win the fights it was supposed to win' (dense argument)\",\n      \"H2: 'Sources and caveats' (methodology-heavy)\"\n    ]\n  }\n}\n```",
+   "structure_score": 3,
+   "summary_up_top": {
+    "present": false,
+    "suggest": "Open with a punchy one-liner: *'India’s 2013 gas vision projected 746 MMSCMD by 2030—but today’s demand is a quarter of that, leaving a grid built for a demand that never arrived.'*"
+   },
+   "edits": [
+    {
+     "where": "opening",
+     "type": "shorten-heading",
+     "why": "The H1 is already punchy but could be more concise for mobile skimmers.",
+     "how": "Trim to: *'India’s 2013 Gas Vision Missed by 600 MMSCMD: Why the Grid Was Built for a Demand That Never Came'*\n      (or similar, keeping the core numbers and gap)."
+    },
+    {
+     "where": "H1",
+     "type": "add-heading",
+     "why": "The opening text repeats the H1’s core claim but could benefit from a subheading to break up the dense intro.",
+     "how": "Add a subheading after the first sentence: *'The report’s 2030 target: 746 MMSCMD. Reality: ~188 MMSCMD.'*\n      (or similar, mirroring the chart’s visual emphasis)."
+    },
+    {
+     "where": "para 2 (opening text)",
+     "type": "split-paragraph",
+     "why": "The first 139 words are a dense wall of text with no visual breaks for mobile readers.",
+     "how": "Split into two paragraphs after the first sentence (the report’s core claim) to separate the summary from the supporting details."
+    },
+    {
+     "where": "H2: 'What the 2013 report actually projected'",
+     "type": "split-section",
+     "why": "This H2 and the next ('The full demand trajectory') both focus on *how* the projection was made, which feels like a single logical block.",
+     "how": "Merge these two H2s into one: *'How the 2013 report built its projection—and why it overestimated demand'*\n      (or similar). Move the table/chart under this merged heading."
+    },
+    {
+     "where": "H2: 'The full demand trajectory, year by year'",
+     "type": "to-table",
+     "why": "The table here is small (2x10) but buried in a short heading; it deserves prominence.",
+     "how": "Move the table *before* the H2 heading and add a subheading above it: *'Projected vs. actual demand (2013–2030):'*"
+    },
+    {
+     "where": "H2: 'What actually happened'",
+     "type": "split-section",
+     "why": "This H2 and the next ('Even 2040 might not reach...') contrast projections with reality, but the pipeline network detail feels like a separate sub-argument.",
+     "how": "Split into two H2s:\n      1. *'Actual demand: 188 MMSCMD in 2024 (vs. 571 projected)'*\n      2. *'The pipeline grid: built for a demand that never arrived'*\n      (Move the pipeline paragraph to the second H2.)"
+    },
+    {
+     "where": "H2: 'Why the gap: gas didn’t win the fights it was supposed to win'",
+     "type": "shorten-heading",
+     "why": "This heading is too long for mobile; it risks being truncated.",
+     "how": "Trim to: *'Why gas lost its key battles to oil and coal'*\n      (or similar, keeping the core idea)."
+    },
+    {
+     "where": "H2: 'What doesn’t follow from any of this'",
+     "type": "to-list",
+     "why": "This section lists counterarguments (e.g., 'not incompetent,' 'not malice') in a dense paragraph.",
+     "how": "Convert to a bulleted list with a subheading: *'Common misreadings: What this gap doesn’t prove'*\n      (e.g., '→ Not evidence of incompetence,' '→ Not proof of industry sabotage')."
+    },
+    {
+     "where": "H2: 'What would fix this'",
+     "type": "add-heading",
+     "why": "This section feels like a conclusion but lacks a clear transition from the preceding analysis.",
+     "how": "Add a subheading before the para 11 text: *'From overbuilt grids to underused gas: The fixes needed now'*\n      (or similar, linking to the gap)."
+    }
+   ],
+   "ad_breaks": {
+    "good": [
+     "H2: 'The full demand trajectory, year by year'",
+     "H2: 'Even 2040 might not reach the 2030 report’s number'",
+     "H2: 'What doesn’t follow from any of this'"
+    ],
+    "avoid": [
+     "H2: 'What the 2013 report actually projected'",
+     "H2: 'What actually happened' para 7 (long block before pipeline detail)",
+     "H2: 'Why the gap: gas didn’t win the fights it was supposed to win' (dense argument)",
+     "H2: 'Sources and caveats' (methodology-heavy)"
+    ]
+   },
    "model": "open-mistral-nemo"
   },
   "Groq": {
