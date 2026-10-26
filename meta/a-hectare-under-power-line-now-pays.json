@@ -3,16 +3,16 @@
   "title": "A Hectare Under a Power Line Now Pays Three to Six Times What One Over a Pipeline Does",
   "url": "https://masaladeutsch.blogspot.com/2026/10/a-hectare-under-power-line-now-pays.html",
   "slug": "a-hectare-under-power-line-now-pays",
-  "published": "2026-10-26T14:47:49.439+05:30",
-  "updated": "2026-10-26T14:47:49.440+05:30",
+  "published": "2026-10-26T14:47:49.000+05:30",
+  "updated": "2026-10-26T14:49:51.993+05:30",
   "labels": [
     "Energy & Fuels",
     "Gas Pipeline Infrastructure & Demand Planning",
     "Infrastructure & Investment",
     "Renewable Power & Storage"
   ],
-  "bytes": 28065,
-  "sha256": "9b3fc85e13d919c2b253807ee98e4faee8e8a34c7a02e76a9498d6fb2cf7256b",
+  "bytes": 28184,
+  "sha256": "bdad83a91902a068082f8a20d3a323df7fe9e2b653dc312bd60ba0b94a5ea482",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -32,6 +32,19 @@
       "level": "initial",
       "reason": "first snapshot",
       "note": "published 4 new posts from the 2026-10-26 commission batch"
+    },
+    {
+      "version": "1.0.1",
+      "date": "2026-10-26T14:51:09+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        28065,
+        28184
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "site-index stub injected into 4 new posts"
     }
   ]
 }

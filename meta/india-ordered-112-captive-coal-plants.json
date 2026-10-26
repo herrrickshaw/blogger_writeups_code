@@ -3,16 +3,16 @@
   "title": "India Ordered 112 Captive Coal Plants to Run Flat Out as Exchange Prices Rose 50% in a Month, With Coal Stocks Steady",
   "url": "https://masaladeutsch.blogspot.com/2026/10/india-ordered-112-captive-coal-plants.html",
   "slug": "india-ordered-112-captive-coal-plants",
-  "published": "2026-10-26T14:47:39.573+05:30",
-  "updated": "2026-10-26T14:47:39.574+05:30",
+  "published": "2026-10-26T14:47:39.000+05:30",
+  "updated": "2026-10-26T14:50:13.377+05:30",
   "labels": [
     "Coal & Coal Gasification",
     "Energy & Fuels",
     "India",
     "Markets & Finance"
   ],
-  "bytes": 25856,
-  "sha256": "a7257c31944fdaf080a9573ab18568bb979a2c68884176d4d1053b8a90f9aaae",
+  "bytes": 25975,
+  "sha256": "6f8aa16de0bfbe684b65b5d3b5acade5dd82bd088a5f32ee18b22288ac3b9138",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -32,6 +32,19 @@
       "level": "initial",
       "reason": "first snapshot",
       "note": "published 4 new posts from the 2026-10-26 commission batch"
+    },
+    {
+      "version": "1.0.1",
+      "date": "2026-10-26T14:51:09+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        25856,
+        25975
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "site-index stub injected into 4 new posts"
     }
   ]
 }

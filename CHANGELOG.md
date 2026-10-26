@@ -15888,3 +15888,22 @@ published 4 new posts from the 2026-10-26 commission batch
 - `indias-approved-solar-cell-makers-can` **v1.0.0** — India's Approved Solar-Cell Makers Can Now Make 37.8 GW a Year. Rooftop Projects Have Until 31 December to Use Them (26,727 bytes)
 - `the-phone-plis-successor-pays-up-to-5` **v1.0.0** — The Phone PLI's Successor Pays Up to 5%, Wants 15% Growth a Year, and Offers 0.2% to Make the Cell Here (26,401 bytes)
 - `india-ordered-112-captive-coal-plants` **v1.0.0** — India Ordered 112 Captive Coal Plants to Run Flat Out as Exchange Prices Rose 50% in a Month, With Coal Stocks Steady (25,856 bytes)
+
+## 2026-10-26T14:51:09+05:30 — 424 posts live
+
+site-index stub injected into 4 new posts
+
+
+**Versions**
+
+- `a-hectare-under-power-line-now-pays` **1.0.0 → 1.0.1** (PATCH) — visible text identical; only markup/styling changed
+- `indias-approved-solar-cell-makers-can` **1.0.0 → 1.0.1** (PATCH) — visible text identical; only markup/styling changed
+- `the-phone-plis-successor-pays-up-to-5` **1.0.0 → 1.0.1** (PATCH) — visible text identical; only markup/styling changed
+- `india-ordered-112-captive-coal-plants` **1.0.0 → 1.0.1** (PATCH) — visible text identical; only markup/styling changed
+
+**Changed**
+
+- `a-hectare-under-power-line-now-pays` — 28,065 → 28,184 bytes (+119)
+- `indias-approved-solar-cell-makers-can` — 26,727 → 26,846 bytes (+119)
+- `the-phone-plis-successor-pays-up-to-5` — 26,401 → 26,520 bytes (+119)
+- `india-ordered-112-captive-coal-plants` — 25,856 → 25,975 bytes (+119)

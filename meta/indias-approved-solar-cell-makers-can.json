@@ -3,16 +3,16 @@
   "title": "India's Approved Solar-Cell Makers Can Now Make 37.8 GW a Year. Rooftop Projects Have Until 31 December to Use Them",
   "url": "https://masaladeutsch.blogspot.com/2026/10/indias-approved-solar-cell-makers-can.html",
   "slug": "indias-approved-solar-cell-makers-can",
-  "published": "2026-10-26T14:47:45.874+05:30",
-  "updated": "2026-10-26T14:47:45.875+05:30",
+  "published": "2026-10-26T14:47:45.000+05:30",
+  "updated": "2026-10-26T14:49:59.088+05:30",
   "labels": [
     "Energy & Fuels",
     "Import Substitution",
     "Industrial Policy",
     "Renewable Power & Storage"
   ],
-  "bytes": 26727,
-  "sha256": "942bd5cdef080121e757a1219278705a15aa8fae4bf7607affdff959f930f0a2",
+  "bytes": 26846,
+  "sha256": "23c2ca1b7af10605260d27bbb9785faa4522ba7d5ce1a5ff91d2c4e1ea15f141",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -32,6 +32,19 @@
       "level": "initial",
       "reason": "first snapshot",
       "note": "published 4 new posts from the 2026-10-26 commission batch"
+    },
+    {
+      "version": "1.0.1",
+      "date": "2026-10-26T14:51:09+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        26727,
+        26846
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "site-index stub injected into 4 new posts"
     }
   ]
 }
