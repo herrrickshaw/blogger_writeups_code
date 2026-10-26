@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/greenhouse-emissions-reduction-and-cbam.html",
   "slug": "greenhouse-emissions-reduction-and-cbam",
   "published": "2026-08-02T22:18:00.000+05:30",
-  "updated": "2026-10-23T10:01:38.517+05:30",
+  "updated": "2026-10-26T09:51:23.259+05:30",
   "labels": [
     "Climate & Carbon",
     "Industrial Policy"
   ],
-  "bytes": 32827,
-  "sha256": "d13b719a609f161da8fe3e307b2874cf4ef19bae713f3d84cd78f77a7109cf7b",
+  "bytes": 33580,
+  "sha256": "ac27487b2e7855eb675ec976a4acb092c13393313233efa9607237cd5f2ec9b4",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.1.1",
+  "version": "4.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -251,6 +251,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Sweep 4 MEDIUM items: dated update notes on 59 posts"
+    },
+    {
+      "version": "4.0.0",
+      "date": "2026-10-26T09:52:03+05:30",
+      "level": "major",
+      "reason": "forced via --as major (figures changed (+0/-0 distinct numbers))",
+      "bytes": [
+        32827,
+        33580
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "CCTS: nine designated sectors, seven notified, aligned across posts"
     }
   ]
 }

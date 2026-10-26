@@ -15797,3 +15797,18 @@ Wind post: MNRE August 2026 state-wise capacity table
 - `how-to-use-eu-ets-compliance-platform` — 25,137 → 25,256 bytes (+119)
 - `how-to-use-news-tracker-score-headlines` — 22,323 → 22,442 bytes (+119)
 - `574-gw-and-counting-indias-wind-fleet` — 25,894 → 28,121 bytes (+2,227)
+
+## 2026-10-26T09:52:03+05:30 — 420 posts live
+
+CCTS: nine designated sectors, seven notified, aligned across posts
+
+
+**Versions**
+
+- `greenhouse-emissions-reduction-and-cbam` **3.1.1 → 4.0.0** (MAJOR) — forced via --as major (figures changed (+0/-0 distinct numbers))
+- `indias-carbon-credit-market-domestic` **3.1.1 → 4.0.0** (MAJOR) — forced via --as major (figures changed (+0/-0 distinct numbers))
+
+**Changed**
+
+- `greenhouse-emissions-reduction-and-cbam` — 32,827 → 33,580 bytes (+753)
+- `indias-carbon-credit-market-domestic` — 36,152 → 36,776 bytes (+624)
