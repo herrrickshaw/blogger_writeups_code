@@ -15973,3 +15973,16 @@ Green debt post: chart, rate-gap and FX tables to late Oct; model-review paragra
 - `ahidf-has-sanctioned-19751-crore-in` — 27,381 → 27,423 bytes (+42)
 - `raising-green-debt-globally-rec-euroyen` — 70,390 → 79,289 bytes (+8,899)
 - `a-tax-play-grow-ethanol-sgst-revenue` — 43,843 → 43,940 bytes (+97)
+
+## 2026-10-26T17:48:24+05:30 — 424 posts live
+
+Green debt post: chart, rate-gap, FX and yield tables to late Oct; model-review paragraph splits in 20 posts
+
+
+**Versions**
+
+- `raising-green-debt-globally-rec-euroyen` **5.0.0 → 6.0.0** (MAJOR) — forced via --as major (figures changed (+13/-1 distinct numbers))
+
+**Changed**
+
+- `raising-green-debt-globally-rec-euroyen` — 79,289 → 82,041 bytes (+2,752)
