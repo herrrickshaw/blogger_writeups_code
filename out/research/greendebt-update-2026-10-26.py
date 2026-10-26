@@ -15,8 +15,8 @@ NOTE = ('<div class="warn" style="border-left:4px solid #a5402c;background:rgba(
         'The sovereign green-bond story has turned: after the RBI rejected every bid at a 30-year green auction in June 2025, '
         'a new 30-year green bond sold at a 6bp greenium in April 2026, the largest since January 2023, and has been reopened twice since (Section 5c). '
         'India&rsquo;s 10-year yield has risen to about 7.47% after the RBI&rsquo;s 7 October hike to 5.50%, and the Japan Credit Rating Agency raised India to A&minus; on 2 September 2026, '
-        'which matters for yen funding (Section 7). Also added: CBI&rsquo;s first-half 2026 market totals, the rupee&rsquo;s late-October level, '
-        'The policy-rate chart in Section 5a now runs to October 2026, and the rate-gap table below it is refreshed to 26 October.</div>\n')
+        'which matters for yen funding (Section 7). Also updated: the policy-rate chart (Section 5a) now runs to October 2026, the rate-gap table below it and the exchange-rate table (Section 5b) are refreshed to late October, '
+        'and CBI&rsquo;s first-half 2026 market totals are added (Section 6).</div>\n')
 h1 = s.find('<h1'); first = s.find('<div class="gb-h2"', h1)
 s = s[:first] + NOTE + s[first:]
 
@@ -78,10 +78,36 @@ rep("<strong>25 of the 38 live economies sit below India's\n5.25% repo</strong>"
 rep("gap in the entire panel at 5.25pp and is close to the least useful",
     "gap in the entire panel at 5.50pp and is close to the least useful")
 
-# 5b: FX
-rep("for the FBIL era, retrieved 3 Aug 2026.</p>",
-    "for the FBIL era, retrieved 3 Aug 2026. <b>Update, 26 October 2026:</b> the rupee was at about &#8377;95.2 to the dollar on 26 October (provisional close, after a six-week high of 94.38 on 21 October), "
-    "close to the &#8377;95.33 used above, so the dollar column still stands; the euro and yen columns have not been re-pulled. Sources: PTI via Telangana Today and ThePrint.</p>")
+# 5b: FX table, refreshed to 23 October 2026. Start rates are recovered from the original table
+# (its August end-point and percentages); depreciation = (start - end) / start, as in the original.
+AUG = {"USD": 95.33, "EUR": 109.91, "JPY": 0.6091}
+ORIG = {"jan24": {"USD": -14.7, "EUR": -22.1, "JPY": -8.1}, "jul21": {"USD": -28.4, "EUR": -24.7, "JPY": 10.2},
+        "jul16": {"USD": -43.0, "EUR": -49.7, "JPY": 6.5}}
+START = {k: {c: AUG[c] / (1 - pc / 100) for c, pc in v.items()} for k, v in ORIG.items()}
+NOW = {"USD": 94.93, "EUR": 106.27, "JPY": 0.606}   # 23 Oct 2026: PTI close; ECB reference; USD/INR / USD/JPY
+pct = lambda st, now: (st - now) / st * 100
+cell = lambda x: f'{"+" if x > 0 else "&minus;"}{abs(x):.1f}'
+R = 'style="text-align:right"'
+def row(label, key):
+    return f'<tr><td>{label}</td>' + ''.join(f'<td {R}>{cell(pct(START[key][c], NOW[c]))}</td>' for c in ("USD", "EUR", "JPY")) + '</tr>'
+r18 = {c: pct(v, NOW[c]) for c, v in {"USD": 69.05, "EUR": 80.54, "JPY": 0.6198}.items()}
+for c in ("USD", "EUR"):
+    assert r18[c] < 0
+old_i = s.index('<div class="gb-tblwrap"><table class="gb-table"><tr><th>Rupee depreciation vs borrowed currency</th>')
+old_j = s.index('</table></div>', old_i) + len('</table></div>')
+FX = ('<div class="gb-tblwrap"><table class="gb-table"><tr><th>Rupee depreciation vs borrowed currency</th><th class="gb-num" style="text-align:right">🇺🇸 USD, %</th>'
+      '<th class="gb-num" style="text-align:right">🇪🇺 EUR, %</th><th class="gb-num" style="text-align:right">🇯🇵 JPY, %</th></tr>'
+      + row("Since REC's yen issue (Jan 2024 &rarr; Oct 2026)", "jan24") + row("5 years (Jul 2021 &rarr; Oct 2026)", "jul21")
+      + row("10 years (Jul 2016 &rarr; Oct 2026)", "jul16")
+      + f'<tr><td>vs RBI\'s last reference rate (24 Jul 2018)</td><td {R}>&#8377;69.05 &rarr; &#8377;94.93 (&minus;{abs(r18["USD"]):.0f}%)</td>'
+      + f'<td {R}>&#8377;80.54 &rarr; &#8377;106.27 (&minus;{abs(r18["EUR"]):.0f}%)</td>'
+      + f'<td {R}>&#8377;0.6198 &rarr; &#8377;0.606/&#165; (<strong>&asymp; flat</strong>, {"+" if r18["JPY"] > 0 else "&minus;"}{abs(r18["JPY"]):.0f}%)</td></tr></table></div>')
+s = s[:old_i] + FX + s[old_j:]
+rep("and yfinance monthly closes (USDINR=X, EURINR=X, JPYINR=X) for the FBIL era, retrieved 3 Aug 2026.</p>",
+    "and yfinance monthly closes (USDINR=X, EURINR=X, JPYINR=X) for the FBIL era, retrieved 3 Aug 2026, for the starting rates. "
+    "<b>End-point updated 26 October 2026</b> to the 23 October 2026 close: &#8377;94.93 per dollar (PTI), &#8377;106.27 per euro (ECB reference rate) and about &#8377;0.606 per yen "
+    "(&#8377;60.6 per &#165;100, derived from USD/INR and a USD/JPY close of 156.4&ndash;156.9; quoted rates for 25&ndash;26 October were 0.605&ndash;0.606). "
+    "The August end-point was &#8377;95.33, &#8377;109.91 and &#8377;0.6091. Since August the rupee has held steady against the dollar and the yen and gained about 3% against the euro.</p>")
 
 # 5b: treasury curve
 rep("Issuers time the treasury curve first and the label second.</p>",
