@@ -3,16 +3,16 @@
   "title": "How to use focus-sector-investor-map: see which foreign investors pair with which Indian government initiative",
   "url": "https://masaladeutsch.blogspot.com/2026/10/how-to-use-focus-sector-investor-map.html",
   "slug": "how-to-use-focus-sector-investor-map",
-  "published": "2026-10-25T07:26:48.709+05:30",
-  "updated": "2026-10-25T07:26:48.709+05:30",
+  "published": "2026-10-25T07:26:48.000+05:30",
+  "updated": "2026-10-26T09:05:29.047+05:30",
   "labels": [
     "India",
     "Infrastructure & Investment",
     "Markets & Finance",
     "Open-Source Tools & How-To"
   ],
-  "bytes": 26071,
-  "sha256": "0de24824add872e7e60c85d1eb4d44208dcb9a12d5b01bc5b5ccedeba0a202f3",
+  "bytes": 26190,
+  "sha256": "8b244b9e466a4af8be3528de26914fbecb5ae80542c34b5a7565f73bc86fd741",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -32,6 +32,19 @@
       "level": "initial",
       "reason": "first snapshot",
       "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-10-26T09:16:35+05:30",
+      "level": "major",
+      "reason": "forced via --as major (visible text identical; only markup/styling changed)",
+      "bytes": [
+        26071,
+        26190
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Wind post: MNRE August 2026 state-wise capacity table"
     }
   ]
 }

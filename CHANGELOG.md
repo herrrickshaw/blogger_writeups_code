@@ -15764,3 +15764,36 @@ Crosscheck 26 Oct: stale figures corrected in 10 posts (CAQM, gas grid, GDP, H2 
 - `indias-coking-coal-import-problem-and` — 48,785 → 49,496 bytes (+711)
 - `europe-bought-record-amount-of-lng-and` — 45,539 → 46,109 bytes (+570)
 - `five-year-synthesis-trade-currency` — 50,440 → 50,988 bytes (+548)
+
+## 2026-10-26T09:16:35+05:30 — 420 posts live
+
+Wind post: MNRE August 2026 state-wise capacity table
+
+
+**Versions**
+
+- `how-to-use-hydrogen-electrolyser` **1.0.0 → 2.0.0** (MAJOR) — forced via --as major (visible text identical; only markup/styling changed)
+- `how-to-use-fuel-retail-outlets-see` **1.0.0 → 2.0.0** (MAJOR) — forced via --as major (visible text identical; only markup/styling changed)
+- `how-to-use-focus-sector-investor-map` **1.0.0 → 2.0.0** (MAJOR) — forced via --as major (visible text identical; only markup/styling changed)
+- `how-to-use-ethanol-design-opensource` **1.0.0 → 2.0.0** (MAJOR) — forced via --as major (visible text identical; only markup/styling changed)
+- `how-to-use-discom-debt-and-revenue` **1.0.0 → 2.0.0** (MAJOR) — forced via --as major (visible text identical; only markup/styling changed)
+- `how-to-use-global-ticker-universe-look` **1.0.0 → 2.0.0** (MAJOR) — forced via --as major (visible text identical; only markup/styling changed)
+- `how-to-use-gazette-translated-indexed` **1.0.0 → 2.0.0** (MAJOR) — forced via --as major (visible text identical; only markup/styling changed)
+- `how-to-use-ev-battery-management-sim` **1.0.0 → 2.0.0** (MAJOR) — forced via --as major (visible text identical; only markup/styling changed)
+- `how-to-use-eu-ets-compliance-platform` **1.0.0 → 2.0.0** (MAJOR) — forced via --as major (visible text identical; only markup/styling changed)
+- `how-to-use-news-tracker-score-headlines` **2.0.0 → 3.0.0** (MAJOR) — forced via --as major (visible text identical; only markup/styling changed)
+- `574-gw-and-counting-indias-wind-fleet` **3.0.0 → 4.0.0** (MAJOR) — forced via --as major (figures changed (+36/-5 distinct numbers))
+
+**Changed**
+
+- `how-to-use-hydrogen-electrolyser` — 26,214 → 26,333 bytes (+119)
+- `how-to-use-fuel-retail-outlets-see` — 25,486 → 25,605 bytes (+119)
+- `how-to-use-focus-sector-investor-map` — 26,071 → 26,190 bytes (+119)
+- `how-to-use-ethanol-design-opensource` — 21,756 → 21,875 bytes (+119)
+- `how-to-use-discom-debt-and-revenue` — 25,385 → 25,504 bytes (+119)
+- `how-to-use-global-ticker-universe-look` — 24,275 → 24,394 bytes (+119)
+- `how-to-use-gazette-translated-indexed` — 24,842 → 24,961 bytes (+119)
+- `how-to-use-ev-battery-management-sim` — 24,490 → 24,609 bytes (+119)
+- `how-to-use-eu-ets-compliance-platform` — 25,137 → 25,256 bytes (+119)
+- `how-to-use-news-tracker-score-headlines` — 22,323 → 22,442 bytes (+119)
+- `574-gw-and-counting-indias-wind-fleet` — 25,894 → 28,121 bytes (+2,227)

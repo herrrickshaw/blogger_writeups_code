@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/10/how-to-use-global-ticker-universe-look.html",
   "slug": "how-to-use-global-ticker-universe-look",
   "published": "2026-10-19T05:11:30.000+05:30",
-  "updated": "2026-10-25T07:27:10.141+05:30",
+  "updated": "2026-10-26T09:05:52.183+05:30",
   "labels": [
     "Equity Markets & Stock Screening",
     "Markets & Finance",
     "Open-Source Tools & How-To"
   ],
-  "bytes": 24275,
-  "sha256": "40b8e8cb45a5ca298b7a3dca3e0e441d921924ac914f63b90a2cdf26e19f6b3c",
+  "bytes": 24394,
+  "sha256": "30e0ac8cf60105de03cfd348a7597a8f9b573a11ac770ea7e508d89984d63e8b",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -31,6 +31,19 @@
       "level": "initial",
       "reason": "first snapshot",
       "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-10-26T09:16:35+05:30",
+      "level": "major",
+      "reason": "forced via --as major (visible text identical; only markup/styling changed)",
+      "bytes": [
+        24275,
+        24394
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Wind post: MNRE August 2026 state-wise capacity table"
     }
   ]
 }

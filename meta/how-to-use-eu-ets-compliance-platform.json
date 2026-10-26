@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/10/how-to-use-eu-ets-compliance-platform.html",
   "slug": "how-to-use-eu-ets-compliance-platform",
   "published": "2026-10-19T05:10:11.000+05:30",
-  "updated": "2026-10-25T07:27:01.977+05:30",
+  "updated": "2026-10-26T09:06:16.228+05:30",
   "labels": [
     "Climate & Carbon",
     "India",
     "Open-Source Tools & How-To"
   ],
-  "bytes": 25137,
-  "sha256": "fbc5624b199cc9537611a0cb983a1c2382587b8ea05e28372d5b9e0f775cd57d",
+  "bytes": 25256,
+  "sha256": "2ab5ff5a0e96244aad0e85dbf23649778b8606f5f4f53bbadaebe61b1774199e",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -31,6 +31,19 @@
       "level": "initial",
       "reason": "first snapshot",
       "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-10-26T09:16:35+05:30",
+      "level": "major",
+      "reason": "forced via --as major (visible text identical; only markup/styling changed)",
+      "bytes": [
+        25137,
+        25256
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Wind post: MNRE August 2026 state-wise capacity table"
     }
   ]
 }

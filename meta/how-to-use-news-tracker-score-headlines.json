@@ -4,15 +4,15 @@
   "url": "https://masaladeutsch.blogspot.com/2026/10/how-to-use-news-tracker-score-headlines.html",
   "slug": "how-to-use-news-tracker-score-headlines",
   "published": "2026-10-18T08:54:48.000+05:30",
-  "updated": "2026-10-25T07:26:31.920+05:30",
+  "updated": "2026-10-26T09:06:24.536+05:30",
   "labels": [
     "Equity Markets & Stock Screening",
     "India",
     "Markets & Finance",
     "Open-Source Tools & How-To"
   ],
-  "bytes": 22323,
-  "sha256": "4b956bf937d5c02936755e482499bac844ae971c4c443ddfe607bd3eca06b345",
+  "bytes": 22442,
+  "sha256": "e38c67262f55aa5389dd212f4edc46ec382c91ca10b4cb01f269515f0f7847c0",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.0",
+  "version": "3.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -71,6 +71,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "3.0.0",
+      "date": "2026-10-26T09:16:35+05:30",
+      "level": "major",
+      "reason": "forced via --as major (visible text identical; only markup/styling changed)",
+      "bytes": [
+        22323,
+        22442
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Wind post: MNRE August 2026 state-wise capacity table"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-10-26T08:59:49+05:30",
+  "snapshot": "2026-10-26T09:16:35+05:30",
   "count": 420,
   "posts": {
     "1023631151138981087": {
@@ -12818,16 +12818,16 @@
       "title": "How to use ethanol-design-opensource: size a fuel-ethanol distillery",
       "url": "https://masaladeutsch.blogspot.com/2026/10/how-to-use-ethanol-design-opensource.html",
       "slug": "how-to-use-ethanol-design-opensource",
-      "published": "2026-10-25T07:26:46.571+05:30",
-      "updated": "2026-10-25T07:26:46.571+05:30",
+      "published": "2026-10-25T07:26:46.000+05:30",
+      "updated": "2026-10-26T09:05:36.599+05:30",
       "labels": [
         "Energy & Fuels",
         "Ethanol & Biofuels",
         "India",
         "Open-Source Tools & How-To"
       ],
-      "bytes": 21756,
-      "sha256": "364d5c648afe7331f66557bfebe872c4e247ea838e7d85dc77eab9c5fa48dcfc",
+      "bytes": 21875,
+      "sha256": "de4f74f831fd922b0667fc51d46c6f29269609d1a36b235695d7c9b03d9ffab8",
       "markers": {
         "light_lock": true,
         "dark_panel_guard": false,
@@ -12839,7 +12839,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "2.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -12847,6 +12847,19 @@
           "level": "initial",
           "reason": "first snapshot",
           "note": ""
+        },
+        {
+          "version": "2.0.0",
+          "date": "2026-10-26T09:16:35+05:30",
+          "level": "major",
+          "reason": "forced via --as major (visible text identical; only markup/styling changed)",
+          "bytes": [
+            21756,
+            21875
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Wind post: MNRE August 2026 state-wise capacity table"
         }
       ]
     },
@@ -12856,14 +12869,14 @@
       "url": "https://masaladeutsch.blogspot.com/2026/10/how-to-use-global-ticker-universe-look.html",
       "slug": "how-to-use-global-ticker-universe-look",
       "published": "2026-10-19T05:11:30.000+05:30",
-      "updated": "2026-10-25T07:27:10.141+05:30",
+      "updated": "2026-10-26T09:05:52.183+05:30",
       "labels": [
         "Equity Markets & Stock Screening",
         "Markets & Finance",
         "Open-Source Tools & How-To"
       ],
-      "bytes": 24275,
-      "sha256": "40b8e8cb45a5ca298b7a3dca3e0e441d921924ac914f63b90a2cdf26e19f6b3c",
+      "bytes": 24394,
+      "sha256": "30e0ac8cf60105de03cfd348a7597a8f9b573a11ac770ea7e508d89984d63e8b",
       "markers": {
         "light_lock": true,
         "dark_panel_guard": false,
@@ -12875,7 +12888,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "2.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -12883,6 +12896,19 @@
           "level": "initial",
           "reason": "first snapshot",
           "note": ""
+        },
+        {
+          "version": "2.0.0",
+          "date": "2026-10-26T09:16:35+05:30",
+          "level": "major",
+          "reason": "forced via --as major (visible text identical; only markup/styling changed)",
+          "bytes": [
+            24275,
+            24394
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Wind post: MNRE August 2026 state-wise capacity table"
         }
       ]
     },
@@ -18672,15 +18698,15 @@
       "title": "How to use hydrogen-electrolyser-control: a simulated PEM, AEM and alkaline electrolyser controller",
       "url": "https://masaladeutsch.blogspot.com/2026/10/how-to-use-hydrogen-electrolyser.html",
       "slug": "how-to-use-hydrogen-electrolyser",
-      "published": "2026-10-25T07:26:51.810+05:30",
-      "updated": "2026-10-25T07:26:51.810+05:30",
+      "published": "2026-10-25T07:26:51.000+05:30",
+      "updated": "2026-10-26T09:05:13.502+05:30",
       "labels": [
         "Climate & Carbon",
         "Energy & Fuels",
         "Open-Source Tools & How-To"
       ],
-      "bytes": 26214,
-      "sha256": "a5ca8351196fbe833b89936f0b0ff84cca4d0d44f053523d2e663cba9bf1c604",
+      "bytes": 26333,
+      "sha256": "ebaa467f993aa384c9714cb4ab6f9b9bab6f630a4aa3faa793f6e531d0bdf20b",
       "markers": {
         "light_lock": true,
         "dark_panel_guard": false,
@@ -18692,7 +18718,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "2.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -18700,6 +18726,19 @@
           "level": "initial",
           "reason": "first snapshot",
           "note": ""
+        },
+        {
+          "version": "2.0.0",
+          "date": "2026-10-26T09:16:35+05:30",
+          "level": "major",
+          "reason": "forced via --as major (visible text identical; only markup/styling changed)",
+          "bytes": [
+            26214,
+            26333
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Wind post: MNRE August 2026 state-wise capacity table"
         }
       ]
     },
@@ -21560,16 +21599,16 @@
       "title": "How to use focus-sector-investor-map: see which foreign investors pair with which Indian government initiative",
       "url": "https://masaladeutsch.blogspot.com/2026/10/how-to-use-focus-sector-investor-map.html",
       "slug": "how-to-use-focus-sector-investor-map",
-      "published": "2026-10-25T07:26:48.709+05:30",
-      "updated": "2026-10-25T07:26:48.709+05:30",
+      "published": "2026-10-25T07:26:48.000+05:30",
+      "updated": "2026-10-26T09:05:29.047+05:30",
       "labels": [
         "India",
         "Infrastructure & Investment",
         "Markets & Finance",
         "Open-Source Tools & How-To"
       ],
-      "bytes": 26071,
-      "sha256": "0de24824add872e7e60c85d1eb4d44208dcb9a12d5b01bc5b5ccedeba0a202f3",
+      "bytes": 26190,
+      "sha256": "8b244b9e466a4af8be3528de26914fbecb5ae80542c34b5a7565f73bc86fd741",
       "markers": {
         "light_lock": true,
         "dark_panel_guard": false,
@@ -21581,7 +21620,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "2.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -21589,6 +21628,19 @@
           "level": "initial",
           "reason": "first snapshot",
           "note": ""
+        },
+        {
+          "version": "2.0.0",
+          "date": "2026-10-26T09:16:35+05:30",
+          "level": "major",
+          "reason": "forced via --as major (visible text identical; only markup/styling changed)",
+          "bytes": [
+            26071,
+            26190
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Wind post: MNRE August 2026 state-wise capacity table"
         }
       ]
     },
@@ -25356,14 +25408,14 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/574-gw-and-counting-indias-wind-fleet.html",
       "slug": "574-gw-and-counting-indias-wind-fleet",
       "published": "2026-08-21T04:04:01.000+05:30",
-      "updated": "2026-10-26T08:58:57.267+05:30",
+      "updated": "2026-10-26T09:16:04.316+05:30",
       "labels": [
         "Energy & Fuels",
         "India Trade & Policy",
         "Renewable Power & Storage"
       ],
-      "bytes": 25894,
-      "sha256": "d4c7fafe9df49c8f65287ab71fbeb0f0c409d4e3ba31fde77347594f217db504",
+      "bytes": 28121,
+      "sha256": "c149fc13027eb7c694151d307a8c2a79c03c9b4e000384f1f3f9d8e5372becfe",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -25375,7 +25427,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "3.0.0",
+      "version": "4.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -25513,6 +25565,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Crosscheck 26 Oct: stale figures corrected in 10 posts (CAQM, gas grid, GDP, H2 tenders, wind, IOCL PII, rupee, Dahej)"
+        },
+        {
+          "version": "4.0.0",
+          "date": "2026-10-26T09:16:35+05:30",
+          "level": "major",
+          "reason": "forced via --as major (figures changed (+36/-5 distinct numbers))",
+          "bytes": [
+            25894,
+            28121
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Wind post: MNRE August 2026 state-wise capacity table"
         }
       ]
     },
@@ -27529,14 +27594,14 @@
       "url": "https://masaladeutsch.blogspot.com/2026/10/how-to-use-gazette-translated-indexed.html",
       "slug": "how-to-use-gazette-translated-indexed",
       "published": "2026-10-19T05:11:28.000+05:30",
-      "updated": "2026-10-25T07:27:07.333+05:30",
+      "updated": "2026-10-26T09:05:59.914+05:30",
       "labels": [
         "India",
         "Infrastructure & Investment",
         "Open-Source Tools & How-To"
       ],
-      "bytes": 24842,
-      "sha256": "0b900e65d5e08d8426754db291e62699c45537befc800c39b3bb0dcf66389622",
+      "bytes": 24961,
+      "sha256": "590e0fcfd7793c16310fdc06c20ff84dc4388434ab95f6f266220c6e47a77889",
       "markers": {
         "light_lock": true,
         "dark_panel_guard": false,
@@ -27548,7 +27613,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "2.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -27556,6 +27621,19 @@
           "level": "initial",
           "reason": "first snapshot",
           "note": ""
+        },
+        {
+          "version": "2.0.0",
+          "date": "2026-10-26T09:16:35+05:30",
+          "level": "major",
+          "reason": "forced via --as major (visible text identical; only markup/styling changed)",
+          "bytes": [
+            24842,
+            24961
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Wind post: MNRE August 2026 state-wise capacity table"
         }
       ]
     },
@@ -28602,15 +28680,15 @@
       "url": "https://masaladeutsch.blogspot.com/2026/10/how-to-use-news-tracker-score-headlines.html",
       "slug": "how-to-use-news-tracker-score-headlines",
       "published": "2026-10-18T08:54:48.000+05:30",
-      "updated": "2026-10-25T07:26:31.920+05:30",
+      "updated": "2026-10-26T09:06:24.536+05:30",
       "labels": [
         "Equity Markets & Stock Screening",
         "India",
         "Markets & Finance",
         "Open-Source Tools & How-To"
       ],
-      "bytes": 22323,
-      "sha256": "4b956bf937d5c02936755e482499bac844ae971c4c443ddfe607bd3eca06b345",
+      "bytes": 22442,
+      "sha256": "e38c67262f55aa5389dd212f4edc46ec382c91ca10b4cb01f269515f0f7847c0",
       "markers": {
         "light_lock": true,
         "dark_panel_guard": false,
@@ -28622,7 +28700,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "2.0.0",
+      "version": "3.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -28669,6 +28747,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "3.0.0",
+          "date": "2026-10-26T09:16:35+05:30",
+          "level": "major",
+          "reason": "forced via --as major (visible text identical; only markup/styling changed)",
+          "bytes": [
+            22323,
+            22442
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Wind post: MNRE August 2026 state-wise capacity table"
         }
       ]
     },
@@ -29472,16 +29563,16 @@
       "title": "How to use fuel-retail-outlets: see where India's petrol pumps are, state by state",
       "url": "https://masaladeutsch.blogspot.com/2026/10/how-to-use-fuel-retail-outlets-see.html",
       "slug": "how-to-use-fuel-retail-outlets-see",
-      "published": "2026-10-25T07:26:49.748+05:30",
-      "updated": "2026-10-25T07:26:49.748+05:30",
+      "published": "2026-10-25T07:26:49.000+05:30",
+      "updated": "2026-10-26T09:05:20.177+05:30",
       "labels": [
         "Energy & Fuels",
         "India",
         "Mobility & EV",
         "Open-Source Tools & How-To"
       ],
-      "bytes": 25486,
-      "sha256": "d21497648d1cf1ad0dd0daca1940cb2ddafd4ef30d432a2f5ce51fc6aa884002",
+      "bytes": 25605,
+      "sha256": "18ca54ea77259ce14b644244f5183c65c9ba7bce38b759c4896b8b7c0f21dada",
       "markers": {
         "light_lock": true,
         "dark_panel_guard": false,
@@ -29493,7 +29584,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "2.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -29501,6 +29592,19 @@
           "level": "initial",
           "reason": "first snapshot",
           "note": ""
+        },
+        {
+          "version": "2.0.0",
+          "date": "2026-10-26T09:16:35+05:30",
+          "level": "major",
+          "reason": "forced via --as major (visible text identical; only markup/styling changed)",
+          "bytes": [
+            25486,
+            25605
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Wind post: MNRE August 2026 state-wise capacity table"
         }
       ]
     },
@@ -52562,15 +52666,15 @@
       "title": "How to use discom-debt-and-revenue-models: a scenario calculator for electricity distribution company debt",
       "url": "https://masaladeutsch.blogspot.com/2026/10/how-to-use-discom-debt-and-revenue.html",
       "slug": "how-to-use-discom-debt-and-revenue",
-      "published": "2026-10-25T07:26:45.236+05:30",
-      "updated": "2026-10-25T07:26:45.236+05:30",
+      "published": "2026-10-25T07:26:45.000+05:30",
+      "updated": "2026-10-26T09:05:44.300+05:30",
       "labels": [
         "Energy & Fuels",
         "India",
         "Open-Source Tools & How-To"
       ],
-      "bytes": 25385,
-      "sha256": "f8029e541f61d61a8b4deb5222553d9ed9ccd8b3e14eaea534aa2b10cea5b8a6",
+      "bytes": 25504,
+      "sha256": "243a7639f96d8ad0fe6895a3721c10d6347a075b0ce886055d2a0aaecb3c1247",
       "markers": {
         "light_lock": true,
         "dark_panel_guard": false,
@@ -52582,7 +52686,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "2.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -52590,6 +52694,19 @@
           "level": "initial",
           "reason": "first snapshot",
           "note": ""
+        },
+        {
+          "version": "2.0.0",
+          "date": "2026-10-26T09:16:35+05:30",
+          "level": "major",
+          "reason": "forced via --as major (visible text identical; only markup/styling changed)",
+          "bytes": [
+            25385,
+            25504
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Wind post: MNRE August 2026 state-wise capacity table"
         }
       ]
     },
@@ -54666,14 +54783,14 @@
       "url": "https://masaladeutsch.blogspot.com/2026/10/how-to-use-ev-battery-management-sim.html",
       "slug": "how-to-use-ev-battery-management-sim",
       "published": "2026-10-19T05:10:13.000+05:30",
-      "updated": "2026-10-25T07:27:04.807+05:30",
+      "updated": "2026-10-26T09:06:08.437+05:30",
       "labels": [
         "Energy & Fuels",
         "Mobility & EV",
         "Open-Source Tools & How-To"
       ],
-      "bytes": 24490,
-      "sha256": "eb9c05be3f598978bf02612b050a9b0f66c94846ed336a296999086cada9ffb0",
+      "bytes": 24609,
+      "sha256": "eed09dda391b9fec9adda6fda9ae4431b8339e69b671d4d226fe2e23a6528842",
       "markers": {
         "light_lock": true,
         "dark_panel_guard": false,
@@ -54685,7 +54802,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "2.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -54693,6 +54810,19 @@
           "level": "initial",
           "reason": "first snapshot",
           "note": ""
+        },
+        {
+          "version": "2.0.0",
+          "date": "2026-10-26T09:16:35+05:30",
+          "level": "major",
+          "reason": "forced via --as major (visible text identical; only markup/styling changed)",
+          "bytes": [
+            24490,
+            24609
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Wind post: MNRE August 2026 state-wise capacity table"
         }
       ]
     },
@@ -60112,14 +60242,14 @@
       "url": "https://masaladeutsch.blogspot.com/2026/10/how-to-use-eu-ets-compliance-platform.html",
       "slug": "how-to-use-eu-ets-compliance-platform",
       "published": "2026-10-19T05:10:11.000+05:30",
-      "updated": "2026-10-25T07:27:01.977+05:30",
+      "updated": "2026-10-26T09:06:16.228+05:30",
       "labels": [
         "Climate & Carbon",
         "India",
         "Open-Source Tools & How-To"
       ],
-      "bytes": 25137,
-      "sha256": "fbc5624b199cc9537611a0cb983a1c2382587b8ea05e28372d5b9e0f775cd57d",
+      "bytes": 25256,
+      "sha256": "2ab5ff5a0e96244aad0e85dbf23649778b8606f5f4f53bbadaebe61b1774199e",
       "markers": {
         "light_lock": true,
         "dark_panel_guard": false,
@@ -60131,7 +60261,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "2.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -60139,6 +60269,19 @@
           "level": "initial",
           "reason": "first snapshot",
           "note": ""
+        },
+        {
+          "version": "2.0.0",
+          "date": "2026-10-26T09:16:35+05:30",
+          "level": "major",
+          "reason": "forced via --as major (visible text identical; only markup/styling changed)",
+          "bytes": [
+            25137,
+            25256
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Wind post: MNRE August 2026 state-wise capacity table"
         }
       ]
     },

@@ -3,15 +3,15 @@
   "title": "How to use discom-debt-and-revenue-models: a scenario calculator for electricity distribution company debt",
   "url": "https://masaladeutsch.blogspot.com/2026/10/how-to-use-discom-debt-and-revenue.html",
   "slug": "how-to-use-discom-debt-and-revenue",
-  "published": "2026-10-25T07:26:45.236+05:30",
-  "updated": "2026-10-25T07:26:45.236+05:30",
+  "published": "2026-10-25T07:26:45.000+05:30",
+  "updated": "2026-10-26T09:05:44.300+05:30",
   "labels": [
     "Energy & Fuels",
     "India",
     "Open-Source Tools & How-To"
   ],
-  "bytes": 25385,
-  "sha256": "f8029e541f61d61a8b4deb5222553d9ed9ccd8b3e14eaea534aa2b10cea5b8a6",
+  "bytes": 25504,
+  "sha256": "243a7639f96d8ad0fe6895a3721c10d6347a075b0ce886055d2a0aaecb3c1247",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -31,6 +31,19 @@
       "level": "initial",
       "reason": "first snapshot",
       "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-10-26T09:16:35+05:30",
+      "level": "major",
+      "reason": "forced via --as major (visible text identical; only markup/styling changed)",
+      "bytes": [
+        25385,
+        25504
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Wind post: MNRE August 2026 state-wise capacity table"
     }
   ]
 }

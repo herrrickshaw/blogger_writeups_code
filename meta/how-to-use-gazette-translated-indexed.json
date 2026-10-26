@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/10/how-to-use-gazette-translated-indexed.html",
   "slug": "how-to-use-gazette-translated-indexed",
   "published": "2026-10-19T05:11:28.000+05:30",
-  "updated": "2026-10-25T07:27:07.333+05:30",
+  "updated": "2026-10-26T09:05:59.914+05:30",
   "labels": [
     "India",
     "Infrastructure & Investment",
     "Open-Source Tools & How-To"
   ],
-  "bytes": 24842,
-  "sha256": "0b900e65d5e08d8426754db291e62699c45537befc800c39b3bb0dcf66389622",
+  "bytes": 24961,
+  "sha256": "590e0fcfd7793c16310fdc06c20ff84dc4388434ab95f6f266220c6e47a77889",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -31,6 +31,19 @@
       "level": "initial",
       "reason": "first snapshot",
       "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-10-26T09:16:35+05:30",
+      "level": "major",
+      "reason": "forced via --as major (visible text identical; only markup/styling changed)",
+      "bytes": [
+        24842,
+        24961
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Wind post: MNRE August 2026 state-wise capacity table"
     }
   ]
 }

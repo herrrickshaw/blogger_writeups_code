@@ -3,16 +3,16 @@
   "title": "How to use fuel-retail-outlets: see where India's petrol pumps are, state by state",
   "url": "https://masaladeutsch.blogspot.com/2026/10/how-to-use-fuel-retail-outlets-see.html",
   "slug": "how-to-use-fuel-retail-outlets-see",
-  "published": "2026-10-25T07:26:49.748+05:30",
-  "updated": "2026-10-25T07:26:49.748+05:30",
+  "published": "2026-10-25T07:26:49.000+05:30",
+  "updated": "2026-10-26T09:05:20.177+05:30",
   "labels": [
     "Energy & Fuels",
     "India",
     "Mobility & EV",
     "Open-Source Tools & How-To"
   ],
-  "bytes": 25486,
-  "sha256": "d21497648d1cf1ad0dd0daca1940cb2ddafd4ef30d432a2f5ce51fc6aa884002",
+  "bytes": 25605,
+  "sha256": "18ca54ea77259ce14b644244f5183c65c9ba7bce38b759c4896b8b7c0f21dada",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -32,6 +32,19 @@
       "level": "initial",
       "reason": "first snapshot",
       "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-10-26T09:16:35+05:30",
+      "level": "major",
+      "reason": "forced via --as major (visible text identical; only markup/styling changed)",
+      "bytes": [
+        25486,
+        25605
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Wind post: MNRE August 2026 state-wise capacity table"
     }
   ]
 }

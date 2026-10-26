@@ -3,16 +3,16 @@
   "title": "How to use ethanol-design-opensource: size a fuel-ethanol distillery",
   "url": "https://masaladeutsch.blogspot.com/2026/10/how-to-use-ethanol-design-opensource.html",
   "slug": "how-to-use-ethanol-design-opensource",
-  "published": "2026-10-25T07:26:46.571+05:30",
-  "updated": "2026-10-25T07:26:46.571+05:30",
+  "published": "2026-10-25T07:26:46.000+05:30",
+  "updated": "2026-10-26T09:05:36.599+05:30",
   "labels": [
     "Energy & Fuels",
     "Ethanol & Biofuels",
     "India",
     "Open-Source Tools & How-To"
   ],
-  "bytes": 21756,
-  "sha256": "364d5c648afe7331f66557bfebe872c4e247ea838e7d85dc77eab9c5fa48dcfc",
+  "bytes": 21875,
+  "sha256": "de4f74f831fd922b0667fc51d46c6f29269609d1a36b235695d7c9b03d9ffab8",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -32,6 +32,19 @@
       "level": "initial",
       "reason": "first snapshot",
       "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-10-26T09:16:35+05:30",
+      "level": "major",
+      "reason": "forced via --as major (visible text identical; only markup/styling changed)",
+      "bytes": [
+        21756,
+        21875
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Wind post: MNRE August 2026 state-wise capacity table"
     }
   ]
 }
