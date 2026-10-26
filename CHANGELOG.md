@@ -15992,3 +15992,13 @@ Green debt post: chart, rate-gap, FX and yield tables to late Oct; model-review 
 **Added**
 
 - `indias-constitution-set-deadline` **v1.0.0** — India's Constitution Set a Deadline Parliament Hasn't Met: The Reforms Pending in 2026 (23,886 bytes)
+
+## 2026-10-26T21:23:03+05:30 — 425 posts live
+
+**Versions**
+
+- `article-index-start-here` **66.0.0 → 67.0.0** (MAJOR) — figures changed (+2/-1 distinct numbers)
+
+**Changed**
+
+- `article-index-start-here` — 841,501 → 842,440 bytes (+939)
