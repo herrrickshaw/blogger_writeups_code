@@ -4,15 +4,15 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/imported-fertiliser-fuel-prices-diesel.html",
   "slug": "imported-fertiliser-fuel-prices-diesel",
   "published": "2026-08-02T13:50:50.000+05:30",
-  "updated": "2026-10-01T08:26:40.373+05:30",
+  "updated": "2026-10-26T11:11:32.208+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Energy & Fuels",
     "Fertilisers & Soil Health",
     "Prices & Inflation"
   ],
-  "bytes": 37275,
-  "sha256": "657cac3e534d72329cfb5cc0e4957e341ee3d0d178d6bd225a8ec2ccc5883f36",
+  "bytes": 37898,
+  "sha256": "0b37d2f54d584a1b1b863af208baa11fc2f3ad9fd86e2bab82b4707ea51013b6",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "4.2.0",
+  "version": "5.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -297,6 +297,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Rule 8 retrofit: added What would fix this section"
+    },
+    {
+      "version": "5.0.0",
+      "date": "2026-10-26T11:12:32+05:30",
+      "level": "major",
+      "reason": "forced via --as major (figures changed (+5/-0 distinct numbers))",
+      "bytes": [
+        37275,
+        37898
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "MoSPI refresh: Sep 2026 CPI by state, WPI items, CPI-AL/RL, GDP PE, WPI deflator fix"
     }
   ]
 }

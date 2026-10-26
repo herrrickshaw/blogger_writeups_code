@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/reinvesting-capital-gains-in-higher.html",
   "slug": "reinvesting-capital-gains-in-higher",
   "published": "2026-08-07T13:46:48.000+05:30",
-  "updated": "2026-10-01T08:46:57.035+05:30",
+  "updated": "2026-10-26T11:11:40.293+05:30",
   "labels": [
     "Bonds & Fixed Income",
     "Markets & Finance"
   ],
-  "bytes": 31580,
-  "sha256": "fec537e03b7cab86b3d9fb81e91e7e5be71e944f2d9de1f57d3eb5565eb8bdd8",
+  "bytes": 32091,
+  "sha256": "6c43f2403a342f56d17531cbe6724e17f1c1adbab8575c1830e19c5ed698c63f",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.1.0",
+  "version": "3.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -251,6 +251,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Rule 8 retrofit: added What would fix this section"
+    },
+    {
+      "version": "3.0.0",
+      "date": "2026-10-26T11:12:32+05:30",
+      "level": "major",
+      "reason": "forced via --as major (figures changed (+5/-1 distinct numbers))",
+      "bytes": [
+        31580,
+        32091
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "MoSPI refresh: Sep 2026 CPI by state, WPI items, CPI-AL/RL, GDP PE, WPI deflator fix"
     }
   ]
 }

@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/cpi-wpi-trends-mospi-bulletin.html",
   "slug": "cpi-wpi-trends-mospi-bulletin",
   "published": "2026-08-02T13:48:25.000+05:30",
-  "updated": "2026-10-23T09:59:42.096+05:30",
+  "updated": "2026-10-26T11:11:25.076+05:30",
   "labels": [
     "Prices & Inflation"
   ],
-  "bytes": 50886,
-  "sha256": "c67385fa341de911189a05fbbd0bccacaa292ad782d02f047393e2aa62535563",
+  "bytes": 51548,
+  "sha256": "b1dedf05ee955c5596c6c5b2d07494b46a582f33a660485c7df320cbaf25e5de",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": true,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.1.1",
+  "version": "3.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -307,6 +307,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Sweep 4 MEDIUM items: dated update notes on 59 posts"
+    },
+    {
+      "version": "3.0.0",
+      "date": "2026-10-26T11:12:32+05:30",
+      "level": "major",
+      "reason": "forced via --as major (figures changed (+5/-0 distinct numbers))",
+      "bytes": [
+        50886,
+        51548
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "MoSPI refresh: Sep 2026 CPI by state, WPI items, CPI-AL/RL, GDP PE, WPI deflator fix"
     }
   ]
 }

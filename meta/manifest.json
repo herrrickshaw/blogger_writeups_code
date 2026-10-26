@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-10-26T09:52:03+05:30",
+  "snapshot": "2026-10-26T11:12:32+05:30",
   "count": 420,
   "posts": {
     "1023631151138981087": {
@@ -11889,15 +11889,15 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/imported-fertiliser-fuel-prices-diesel.html",
       "slug": "imported-fertiliser-fuel-prices-diesel",
       "published": "2026-08-02T13:50:50.000+05:30",
-      "updated": "2026-10-01T08:26:40.373+05:30",
+      "updated": "2026-10-26T11:11:32.208+05:30",
       "labels": [
         "Agriculture & Fertilisers",
         "Energy & Fuels",
         "Fertilisers & Soil Health",
         "Prices & Inflation"
       ],
-      "bytes": 37275,
-      "sha256": "657cac3e534d72329cfb5cc0e4957e341ee3d0d178d6bd225a8ec2ccc5883f36",
+      "bytes": 37898,
+      "sha256": "0b37d2f54d584a1b1b863af208baa11fc2f3ad9fd86e2bab82b4707ea51013b6",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -11909,7 +11909,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "4.2.0",
+      "version": "5.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -12182,6 +12182,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Rule 8 retrofit: added What would fix this section"
+        },
+        {
+          "version": "5.0.0",
+          "date": "2026-10-26T11:12:32+05:30",
+          "level": "major",
+          "reason": "forced via --as major (figures changed (+5/-0 distinct numbers))",
+          "bytes": [
+            37275,
+            37898
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "MoSPI refresh: Sep 2026 CPI by state, WPI items, CPI-AL/RL, GDP PE, WPI deflator fix"
         }
       ]
     },
@@ -24342,13 +24355,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/reinvesting-capital-gains-in-higher.html",
       "slug": "reinvesting-capital-gains-in-higher",
       "published": "2026-08-07T13:46:48.000+05:30",
-      "updated": "2026-10-01T08:46:57.035+05:30",
+      "updated": "2026-10-26T11:11:40.293+05:30",
       "labels": [
         "Bonds & Fixed Income",
         "Markets & Finance"
       ],
-      "bytes": 31580,
-      "sha256": "fec537e03b7cab86b3d9fb81e91e7e5be71e944f2d9de1f57d3eb5565eb8bdd8",
+      "bytes": 32091,
+      "sha256": "6c43f2403a342f56d17531cbe6724e17f1c1adbab8575c1830e19c5ed698c63f",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -24360,7 +24373,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "2.1.0",
+      "version": "3.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -24589,6 +24602,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Rule 8 retrofit: added What would fix this section"
+        },
+        {
+          "version": "3.0.0",
+          "date": "2026-10-26T11:12:32+05:30",
+          "level": "major",
+          "reason": "forced via --as major (figures changed (+5/-1 distinct numbers))",
+          "bytes": [
+            31580,
+            32091
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "MoSPI refresh: Sep 2026 CPI by state, WPI items, CPI-AL/RL, GDP PE, WPI deflator fix"
         }
       ]
     },
@@ -40777,14 +40803,14 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/fy2025-26-sample-report-india-trade.html",
       "slug": "fy2025-26-sample-report-india-trade",
       "published": "2026-08-02T13:59:21.000+05:30",
-      "updated": "2026-10-23T10:01:24.867+05:30",
+      "updated": "2026-10-26T11:11:48.656+05:30",
       "labels": [
         "Industrial Policy",
         "Markets & Finance",
         "Trade & Tariffs"
       ],
-      "bytes": 42696,
-      "sha256": "30409936ec83b1c3ac379be2aa48b1f577137f103a8646620f556d40bdd3dec8",
+      "bytes": 43011,
+      "sha256": "9f4ed61ab3426498caaf65144c48f16c4adf2c187322c6cdc6a79f3dd79b85da",
       "markers": {
         "light_lock": true,
         "dark_panel_guard": true,
@@ -40796,7 +40822,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "3.2.1",
+      "version": "4.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -41095,6 +41121,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Sweep 4 MEDIUM items: dated update notes on 59 posts"
+        },
+        {
+          "version": "4.0.0",
+          "date": "2026-10-26T11:12:32+05:30",
+          "level": "major",
+          "reason": "forced via --as major (figures changed (+2/-0 distinct numbers))",
+          "bytes": [
+            42696,
+            43011
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "MoSPI refresh: Sep 2026 CPI by state, WPI items, CPI-AL/RL, GDP PE, WPI deflator fix"
         }
       ]
     },
@@ -50981,12 +51020,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/cpi-inflation-heatmap-india-june-2026.html",
       "slug": "cpi-inflation-heatmap-india-june-2026",
       "published": "2026-08-02T14:05:22.000+05:30",
-      "updated": "2026-10-01T08:17:56.933+05:30",
+      "updated": "2026-10-26T11:11:15.958+05:30",
       "labels": [
         "Prices & Inflation"
       ],
-      "bytes": 82589,
-      "sha256": "0883cbe45b90aeec94a3ec03e5911b1c570adb82c73adfb036928c9cd218014a",
+      "bytes": 84411,
+      "sha256": "a01cb0e5f1e8a086162267cb629b246949dd64bcddaf4f3edfe263d2d41f43b9",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -50998,7 +51037,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "3.1.0",
+      "version": "4.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -51271,6 +51310,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Rule 8 retrofit: added What would fix this section"
+        },
+        {
+          "version": "4.0.0",
+          "date": "2026-10-26T11:12:32+05:30",
+          "level": "major",
+          "reason": "forced via --as major (figures changed (+30/-0 distinct numbers))",
+          "bytes": [
+            82589,
+            84411
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "MoSPI refresh: Sep 2026 CPI by state, WPI items, CPI-AL/RL, GDP PE, WPI deflator fix"
         }
       ]
     },
@@ -61813,12 +61865,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/cpi-wpi-trends-mospi-bulletin.html",
       "slug": "cpi-wpi-trends-mospi-bulletin",
       "published": "2026-08-02T13:48:25.000+05:30",
-      "updated": "2026-10-23T09:59:42.096+05:30",
+      "updated": "2026-10-26T11:11:25.076+05:30",
       "labels": [
         "Prices & Inflation"
       ],
-      "bytes": 50886,
-      "sha256": "c67385fa341de911189a05fbbd0bccacaa292ad782d02f047393e2aa62535563",
+      "bytes": 51548,
+      "sha256": "b1dedf05ee955c5596c6c5b2d07494b46a582f33a660485c7df320cbaf25e5de",
       "markers": {
         "light_lock": true,
         "dark_panel_guard": true,
@@ -61830,7 +61882,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "2.1.1",
+      "version": "3.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -62116,6 +62168,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Sweep 4 MEDIUM items: dated update notes on 59 posts"
+        },
+        {
+          "version": "3.0.0",
+          "date": "2026-10-26T11:12:32+05:30",
+          "level": "major",
+          "reason": "forced via --as major (figures changed (+5/-0 distinct numbers))",
+          "bytes": [
+            50886,
+            51548
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "MoSPI refresh: Sep 2026 CPI by state, WPI items, CPI-AL/RL, GDP PE, WPI deflator fix"
         }
       ]
     },
@@ -63881,14 +63946,14 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/a-17-rural-pay-rise-that-nobody-received.html",
       "slug": "a-17-rural-pay-rise-that-nobody-received",
       "published": "2026-08-22T11:06:55.000+05:30",
-      "updated": "2026-10-01T08:11:52.645+05:30",
+      "updated": "2026-10-26T11:11:56.640+05:30",
       "labels": [
         "Agriculture & Fertilisers",
         "India",
         "Prices & Inflation"
       ],
-      "bytes": 39886,
-      "sha256": "451993ed2f18a0681519d2bd216c27a031b6657a45cd69af7dd6dc7c085f03d0",
+      "bytes": 40478,
+      "sha256": "f00d9fc77c2588a9e7e5d9cb8ed3f673726bd82be86cfa8d8c6cc3035457d084",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -63900,7 +63965,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "3.1.0",
+      "version": "4.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -64012,6 +64077,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Rule 8 retrofit: added What would fix this section"
+        },
+        {
+          "version": "4.0.0",
+          "date": "2026-10-26T11:12:32+05:30",
+          "level": "major",
+          "reason": "forced via --as major (figures changed (+4/-0 distinct numbers))",
+          "bytes": [
+            39886,
+            40478
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "MoSPI refresh: Sep 2026 CPI by state, WPI items, CPI-AL/RL, GDP PE, WPI deflator fix"
         }
       ]
     },

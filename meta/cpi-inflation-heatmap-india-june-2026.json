@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/cpi-inflation-heatmap-india-june-2026.html",
   "slug": "cpi-inflation-heatmap-india-june-2026",
   "published": "2026-08-02T14:05:22.000+05:30",
-  "updated": "2026-10-01T08:17:56.933+05:30",
+  "updated": "2026-10-26T11:11:15.958+05:30",
   "labels": [
     "Prices & Inflation"
   ],
-  "bytes": 82589,
-  "sha256": "0883cbe45b90aeec94a3ec03e5911b1c570adb82c73adfb036928c9cd218014a",
+  "bytes": 84411,
+  "sha256": "a01cb0e5f1e8a086162267cb629b246949dd64bcddaf4f3edfe263d2d41f43b9",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.1.0",
+  "version": "4.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -294,6 +294,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Rule 8 retrofit: added What would fix this section"
+    },
+    {
+      "version": "4.0.0",
+      "date": "2026-10-26T11:12:32+05:30",
+      "level": "major",
+      "reason": "forced via --as major (figures changed (+30/-0 distinct numbers))",
+      "bytes": [
+        82589,
+        84411
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "MoSPI refresh: Sep 2026 CPI by state, WPI items, CPI-AL/RL, GDP PE, WPI deflator fix"
     }
   ]
 }

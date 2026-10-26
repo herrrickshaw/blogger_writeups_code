@@ -15812,3 +15812,26 @@ CCTS: nine designated sectors, seven notified, aligned across posts
 
 - `greenhouse-emissions-reduction-and-cbam` — 32,827 → 33,580 bytes (+753)
 - `indias-carbon-credit-market-domestic` — 36,152 → 36,776 bytes (+624)
+
+## 2026-10-26T11:12:32+05:30 — 420 posts live
+
+MoSPI refresh: Sep 2026 CPI by state, WPI items, CPI-AL/RL, GDP PE, WPI deflator fix
+
+
+**Versions**
+
+- `a-17-rural-pay-rise-that-nobody-received` **3.1.0 → 4.0.0** (MAJOR) — forced via --as major (figures changed (+4/-0 distinct numbers))
+- `reinvesting-capital-gains-in-higher` **2.1.0 → 3.0.0** (MAJOR) — forced via --as major (figures changed (+5/-1 distinct numbers))
+- `cpi-inflation-heatmap-india-june-2026` **3.1.0 → 4.0.0** (MAJOR) — forced via --as major (figures changed (+30/-0 distinct numbers))
+- `fy2025-26-sample-report-india-trade` **3.2.1 → 4.0.0** (MAJOR) — forced via --as major (figures changed (+2/-0 distinct numbers))
+- `imported-fertiliser-fuel-prices-diesel` **4.2.0 → 5.0.0** (MAJOR) — forced via --as major (figures changed (+5/-0 distinct numbers))
+- `cpi-wpi-trends-mospi-bulletin` **2.1.1 → 3.0.0** (MAJOR) — forced via --as major (figures changed (+5/-0 distinct numbers))
+
+**Changed**
+
+- `a-17-rural-pay-rise-that-nobody-received` — 39,886 → 40,478 bytes (+592)
+- `reinvesting-capital-gains-in-higher` — 31,580 → 32,091 bytes (+511)
+- `cpi-inflation-heatmap-india-june-2026` — 82,589 → 84,411 bytes (+1,822)
+- `fy2025-26-sample-report-india-trade` — 42,696 → 43,011 bytes (+315)
+- `imported-fertiliser-fuel-prices-diesel` — 37,275 → 37,898 bytes (+623)
+- `cpi-wpi-trends-mospi-bulletin` — 50,886 → 51,548 bytes (+662)
