@@ -1,0 +1,124 @@
+{
+ "slug": "below-250-is-where-real-junk-lives",
+ "outline": "1077 words in 12 paragraphs; 3 tables; 2 charts/images; 0 boxed notes\nH1: Below ₹250 Is Where the Real Risk Lives: Splitting India's Cheapest Stocks Four Ways  [0 words in paragraphs and lists]\n    [chart: svg]\n  H2: 1. One bucket, four very different neighbourhoods  [126 words in paragraphs and lists]\n    [chart: img]\n    [table: 4 cols x 5 rows]\n  H2: 2. Beta, return and Sharpe ratio, split four ways  [140 words in paragraphs and lists]\n    [table: 6 cols x 5 rows]\n  H2: 3. Real returns confirm the same pattern  [77 words in paragraphs and lists]\n    [table: 4 cols x 5 rows]\n  H2: 4. Does this contradict the earlier finding?  [205 words in paragraphs and lists]\n    para 8: 205 words (long) — No — it sharpens it. The earlier piece's finding was that across...\n    H3: Related on this blog  [50 words in paragraphs and lists]\n  H2: What would fix this  [201 words in paragraphs and lists]\n    H3: Sources  [218 words in paragraphs and lists]",
+ "models": {
+  "Gemini": {
+   "structure_score": 2,
+   "summary_up_top": {
+    "present": false,
+    "suggest": "The opening should state clearly that splitting India's sub-₹1,000 stocks into four price bands reveals that extreme market risk and negative returns are concentrated almost entirely in the bottom ₹0-250 slice."
+   },
+   "edits": [
+    {
+     "where": "para 8",
+     "type": "split-paragraph",
+     "why": "At 205 words, this paragraph is far too long for comfortable mobile reading.",
+     "how": "Break it into three shorter paragraphs at natural topic transitions about the earlier findings and beta."
+    },
+    {
+     "where": "H2: 4. Does this contradict the earlier finding?",
+     "type": "to-list",
+     "why": "Dense analytical prose is difficult to parse on small mobile screens without visual breaks.",
+     "how": "Convert the comparative findings within this section into a short bulleted list."
+    },
+    {
+     "where": "H3: Sources",
+     "type": "move",
+     "why": "Footnotes and source lists add bulk to the bottom of mobile articles before conclusions are fully digested.",
+     "how": "Move the Sources section to the very end of the post after all other content."
+    },
+    {
+     "where": "H3: Related on this blog",
+     "type": "move",
+     "why": "Promotional or related reading blocks disrupt the flow of the argument if placed mid-article.",
+     "how": "Move this H3 block to the very bottom of the post, adjacent to the Sources section."
+    }
+   ],
+   "ad_breaks": {
+    "good": [
+     "1. One bucket, four very different neighbourhoods",
+     "3. Real returns confirm the same pattern"
+    ],
+    "avoid": [
+     "2. Beta, return and Sharpe ratio, split four ways",
+     "4. Does this contradict the earlier finding?"
+    ]
+   },
+   "model": "gemini-flash-lite-latest"
+  },
+  "Mistral": {
+   "raw": "```json\n{\n  \"structure_score\": 3,\n  \"summary_up_top\": {\n    \"present\": false,\n    \"suggest\": \"Start with a punchy hook: *‘India’s cheapest stocks aren’t a homogenous group—under ₹250 hides 3,850 losers, while ₹750–₹1,000 holds the rare winners.’*\"\n  },\n  \"edits\": [\n    {\n      \"where\": \"opening\",\n      \"type\": \"shorten-heading\",\n      \"why\": \"The H1 is already strong, but the opening text repeats the H1’s core insight without adding urgency or context for mobile readers.\",\n      \"how\": \"Replace the first 400 words with a 100-word version that:\n      1. Starts with the *‘under ₹250’* stat + visual (chart) to grab attention.\n      2. Briefly ties to the earlier piece’s ‘wide bucket’ critique (1 line).\n      3. Ends with: *‘This article splits the ₹<1k group into 4 price bands—revealing why the cheapest slice is a risk minefield.’*\"\n    },\n    {\n      \"where\": \"H2: 1. One bucket, four very different neighbourhoods\",\n      \"type\": \"add-heading\",\n      \"why\": \"The first paragraph after the H2 is dense with data (table + text). A subheading would help mobile readers parse the ‘lopsided’ distribution before diving into the table.\",\n      \"how\": \"Add an H3 after the first sentence: *‘Why the ₹0–250 band dominates’* (then proceed with the existing text).\"\n    },\n    {\n      \"where\": \"H2: 1. One bucket, four very different neighbourhoods [table]\",\n      \"type\": \"to-table\",\n      \"why\": \"The accompanying text repeats the table’s key stats (e.g., ‘79.2%’, ‘₹80 crore’). Mobile readers will skip the prose to hit the table.\",\n      \"how\": \"Move the text *below* the table, starting with: *‘This imbalance explains why the “under ₹1,000” label was misleading:’*\"\n    },\n    {\n      \"where\": \"H2: 2. Beta, return and Sharpe ratio, split four ways [table]\",\n      \"type\": \"to-table\",\n      \"why\": \"The 6-column table is wide and dense. Mobile users may miss the ‘key takeaway’ (e.g., *‘Sharpe ratio plummets below ₹250’*) buried in the data.\",\n      \"how\": \"Add a 1-sentence summary *above* the table: *‘Below ₹250, beta spikes and Sharpe ratios collapse—here’s how each band compares.’*\"\n    },\n    {\n      \"where\": \"H2: 4. Does this contradict the earlier finding? [para 8]\",\n      \"type\": \"split-paragraph\",\n      \"why\": \"The 205-word para is a wall of text. Mobile readers will lose the ‘No—it sharpens it’ argument in the noise.\",\n      \"how\": \"Split into 2 paragraphs:\n      1. First 3 sentences (reiterate the ‘no contradiction’ claim).\n      2. Rest: *‘But it refines the earlier finding by showing that the “under ₹1,000” bucket masked two distinct populations:’*\"\n    },\n    {\n      \"where\": \"H2: What would fix this\",\n      \"type\": \"split-section\",\n      \"why\": \"The ‘fixes’ discussion feels abrupt after the ‘contradiction’ section. It lacks a transition to the practical implications.\",\n      \"how\": \"Add a short H3 between the two H2s: *‘The hidden risk in the ₹0–250 band’* (1 line to bridge the gap, e.g., *‘If the cheapest stocks are the riskiest, how should investors navigate them?’*).\"\n    },\n    {\n      \"where\": \"H3: Related on this blog\",\n      \"type\": \"move\",\n      \"why\": \"This is a low-priority section for mobile readers. It interrupts the flow of data/analysis.\",\n      \"how\": \"Move to the end of the article, right before ‘Sources’ (or replace with a 1-line teaser: *‘For deeper dives, see our coverage of [X] and [Y].’*).\"\n    },\n    {\n      \"where\": \"H2: 3. Real returns confirm the same pattern [table]\",\n      \"type\": \"shorten-heading\",\n      \"why\": \"The heading is redundant—it mirrors the earlier H2’s structure. Mobile readers won’t scan it effectively.\",\n      \"how\": \"Rename to: *‘Inflation-adjusted returns: the ₹0–250 trap’* (or *‘Real returns reveal the same divide’*).\"\n    },\n    {\n      \"where\": \"H2: What would fix this [para 1]\",\n      \"type\": \"to-list\",\n      \"why\": \"The 201-word para lists 3–4 fixes (e.g., ‘better disclosure’, ‘sectoral analysis’). A bulleted list would improve mobile readability.\",\n      \"how\": \"Convert to a 3–4 item list with 1–2 sentences per item, keeping the same core points.\"\n    }\n  ],\n  \"ad_breaks\": {\n    \"good\": [\n      \"H2: 1. One bucket, four very different neighbourhoods (after the table)\",\n      \"H2: 2. Beta, return and Sharpe ratio, split four ways (after the 1-sentence summary + table)\",\n      \"H2: What would fix this (after the list of fixes)\"\n    ],\n    \"avoid\": [\n      \"H2: 3. Real returns confirm the same pattern (table is a standalone data block—ad would interrupt the flow)\",\n      \"H2: 4. Does this contradict the earlier finding? (para 8 is a critical argument—ad would break momentum)\",\n      \"H3: Sources (low-priority section, but ad here would feel random)\"\n    ]\n  }\n}\n```",
+   "model": "open-mistral-nemo"
+  },
+  "Groq": {
+   "structure_score": 3,
+   "summary_up_top": {
+    "present": false,
+    "suggest": "Start with a one‑sentence lede that tells readers the core finding: most of the risk in sub‑₹1,000 stocks is concentrated in the ₹0‑250 band."
+   },
+   "edits": [
+    {
+     "where": "opening",
+     "type": "add-heading",
+     "why": "A concise lede helps mobile readers grasp the article’s main point before scrolling.",
+     "how": "Insert a short heading like “Key takeaway: Risk is concentrated under ₹250” followed by a 1‑2 sentence summary before the first chart."
+    },
+    {
+     "where": "para 8",
+     "type": "split-paragraph",
+     "why": "A 205‑word block is hard to scan on a phone.",
+     "how": "Break after the sentence ending with “The earlier piece's finding was that across…”, creating two paragraphs of roughly equal length."
+    },
+    {
+     "where": "Below ₹250 Is Where the Real Risk Lives: Splitting India's Cheapest Stocks Four Ways",
+     "type": "shorten-heading",
+     "why": "Long H1 truncates on small screens and pushes the first ad down.",
+     "how": "Change to “Risk lives below ₹250: Splitting India’s cheapest stocks”"
+    },
+    {
+     "where": "Related on this blog",
+     "type": "move",
+     "why": "It interrupts the logical flow between the analysis and the policy section.",
+     "how": "Place the H3 after the final “Sources” subsection."
+    },
+    {
+     "where": "Price sub‑band table (first table)",
+     "type": "to-list",
+     "why": "Tables with many columns are hard to read on phones.",
+     "how": "Convert the table into a bullet list: each sub‑band as a bullet with stocks, share %, and median market cap."
+    },
+    {
+     "where": "2. Beta, return and Sharpe ratio, split four ways",
+     "type": "other",
+     "why": "A natural pause before moving to the next analysis section.",
+     "how": "Insert an ad break after this H2 (before H2 3)."
+    },
+    {
+     "where": "3. Real returns confirm the same pattern",
+     "type": "other",
+     "why": "Avoid breaking the reader’s focus while they view the accompanying table.",
+     "how": "Do not place an ad inside the table; keep the ad after the section heading."
+    },
+    {
+     "where": "4. Does this contradict the earlier finding?",
+     "type": "split-section",
+     "why": "The section mixes a long paragraph with a sub‑heading, making it feel dense.",
+     "how": "Create a sub‑section titled “Answer: No – it sharpens the earlier finding” and move the long paragraph under it."
+    }
+   ],
+   "ad_breaks": {
+    "good": [
+     "1. One bucket, four very different neighbourhoods",
+     "2. Beta, return and Sharpe ratio, split four ways",
+     "What would fix this"
+    ],
+    "avoid": [
+     "Price sub‑band table (first table)",
+     "Beta, return and Sharpe ratio table (second table)",
+     "Real returns confirm the same pattern table"
+    ]
+   },
+   "model": "openai/gpt-oss-120b"
+  }
+ }
+}

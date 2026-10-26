@@ -1,0 +1,218 @@
+{
+ "slug": "announced-vs-delivered-three-indian",
+ "outline": "3813 words in 28 paragraphs; 4 tables; 2 charts/images; 3 boxed notes\nH1: Announced vs. Delivered: Five Indian State Industrial Policies, Checked Against the Numbers  [160 words in paragraphs and lists]\n    [chart: svg]\n    [box: callout]\n    [chart: img]\n    [box: warn]\n    (x2)\n  H2: Why this took two passes  [306 words in paragraphs and lists]\n    para 4: 128 words (long) — On the first pass, Haryana's \"backward and forward linkages\" policy looked thin...\n  H2: 1. Uttar Pradesh EV Manufacturing & Mobility Policy, 2022  [0 words in paragraphs and lists]\n    H3: Objectives and targets  [107 words in paragraphs and lists]\n    H3: What the real numbers show  [258 words in paragraphs and lists]\n    [table: 2 cols x 9 rows]\n    para 10: 157 words (long) — The manufacturing and jobs half of the policy is where the trail...\n  H2: 2. Uttar Pradesh State Bio-Energy Policy, 2022  [0 words in paragraphs and lists]\n    H3: Objectives and targets  [109 words in paragraphs and lists]\n    H3: What the real numbers show  [307 words in paragraphs and lists]\n  H2: 3. Karnataka's Excise / Alcobev Policy Regime  [0 words in paragraphs and lists]\n    H3: Objectives and targets  [98 words in paragraphs and lists]\n    H3: What the real numbers show  [163 words in paragraphs and lists]\n    [table: 4 cols x 5 rows]\n  H2: 4. Haryana's Backward and Forward Linkages Policy  [0 words in paragraphs and lists]\n    H3: Objectives and targets  [107 words in paragraphs and lists]\n    H3: What the real numbers show  [189 words in paragraphs and lists]\n    [table: 2 cols x 7 rows]\n    para 18: 130 words (long) — The institutional picture has also shifted underneath this policy in 2025: the...\n  H2: 5. Andhra Pradesh's Food Processing Policy  [0 words in paragraphs and lists]\n    H3: Objectives and targets  [85 words in paragraphs and lists]\n    H3: What the real numbers show  [205 words in paragraphs and lists]\n    [table: 2 cols x 8 rows]\n    para 21: 146 words (long) — The physical enabling infrastructure — parks, cold storage, cluster designations — has...\n  H2: Comparative verdict: which policy is actually performing best?  [441 words in paragraphs and lists]\n  H2: Why the record looks like this: two names for the same gap  [319 words in paragraphs and lists]\n    para 24: 164 words (long) — Every policy examined here has the same underlying structure: a state government...\n    para 25: 155 words (long) — George Akerlof's 1970 \"market for lemons\" model, built around used cars, describes...\n  H2: What this can't tell you  [383 words in paragraphs and lists]\n  H2: What would fix this  [227 words in paragraphs and lists]\n    H3: Sources  [303 words in paragraphs and lists]",
+ "models": {
+  "Gemini": {
+   "structure_score": 2,
+   "summary_up_top": {
+    "present": true,
+    "suggest": ""
+   },
+   "edits": [
+    {
+     "where": "opening",
+     "type": "other",
+     "why": "The opening is cluttered with site navigation breadcrumbs, font resizers, audio players, and image captions before the actual article text begins, harming mobile readability.",
+     "how": "Move all meta-elements, audio players, and UI chrome below the lead paragraph or into standard sidebar elements."
+    },
+    {
+     "where": "para 4",
+     "type": "split-paragraph",
+     "why": "At 128 words, this paragraph creates a massive text wall on a phone screen.",
+     "how": "Split paragraph 4 into two smaller paragraphs around the middle sentence."
+    },
+    {
+     "where": "para 10",
+     "type": "split-paragraph",
+     "why": "At 157 words, this block is too dense for comfortable mobile reading.",
+     "how": "Break into two paragraphs at a natural conceptual transition point."
+    },
+    {
+     "where": "para 18",
+     "type": "split-paragraph",
+     "why": "At 130 words, the text block is too long for a mobile viewport.",
+     "how": "Split the paragraph in half."
+    },
+    {
+     "where": "para 21",
+     "type": "split-paragraph",
+     "why": "At 146 words, this paragraph reduces scan-ability on smaller screens.",
+     "how": "Split into two paragraphs."
+    },
+    {
+     "where": "para 24",
+     "type": "split-paragraph",
+     "why": "At 164 words, this structural paragraph is too long for mobile scrolling.",
+     "how": "Split into two paragraphs."
+    },
+    {
+     "where": "para 25",
+     "type": "split-paragraph",
+     "why": "At 155 words, the paragraph impedes smooth vertical skimming.",
+     "how": "Split into two paragraphs."
+    }
+   ],
+   "ad_breaks": {
+    "good": [
+     "Comparative verdict: which policy is actually performing best?",
+     "Why this took two passes",
+     "What would fix this"
+    ],
+    "avoid": [
+     "1. Uttar Pradesh EV Manufacturing & Mobility Policy, 2022",
+     "3. Karnataka's Excise / Alcobev Policy Regime",
+     "4. Haryana's Backward and Forward Linkages Policy",
+     "5. Andhra Pradesh's Food Processing Policy"
+    ]
+   },
+   "model": "gemini-flash-lite-latest"
+  },
+  "Mistral": {
+   "structure_score": 3,
+   "summary_up_top": {
+    "present": false,
+    "suggest": "Lead with a punchy hook: *‘Five Indian state industrial policies promised big. Here’s what actually happened—with real data.’*"
+   },
+   "edits": [
+    {
+     "where": "opening",
+     "type": "shorten-heading",
+     "why": "The H1 is too long for mobile; prioritize the core question (announced vs. delivered) and the scope (five policies).",
+     "how": "Rename to: *‘Five Indian State Industrial Policies: What They Promised vs. What Actually Happened’*"
+    },
+    {
+     "where": "opening",
+     "type": "split-section",
+     "why": "The first 400 words mix narrative, methodology, and a callout—this overloads mobile readers. Separate the ‘why this matters’ from the ‘how we did it.’",
+     "how": "Move the *‘State industrial policies follow a predictable script…’* paragraph (para 3) to a new **H2: Why This Gap Matters** after the opening hook. Keep the first 200 words as a standalone introduction."
+    },
+    {
+     "where": "H2: Why this took two passes",
+     "type": "split-paragraph",
+     "why": "Para 4 (128 words) is dense with methodological detail—better suited for a ‘How We Did It’ box or appendix.",
+     "how": "Extract the key challenge (*‘Haryana’s policy looked thin on the first pass…’*) into a **boxed note** labeled *‘Why Some Policies Were Harder to Track’*, linking to the full methodology in the **Sources** section."
+    },
+    {
+     "where": "H2: 1. Uttar Pradesh EV Manufacturing & Mobility Policy, 2022",
+     "type": "add-heading",
+     "why": "The first policy lacks a visual anchor for mobile readers. The chart below is critical—use it to break the flow.",
+     "how": "Add a **H3: The Data Trail** before *‘What the real numbers show’* to explicitly label the chart as the policy’s ‘verifiable evidence.’"
+    },
+    {
+     "where": "para 10 (under H2: 1. UP EV Policy)",
+     "type": "split-paragraph",
+     "why": "157 words is too long for mobile; the ‘jobs half’ detail risks losing readers mid-argument.",
+     "how": "Split into two paragraphs: first summarize the *key finding* (e.g., ‘Only 12% of approved EV applications led to manufacturing jobs…’), then move the supporting data to a **table caption** or **boxed note** with a link to the full dataset."
+    },
+    {
+     "where": "H2: Comparative verdict: which policy is actually performing best?",
+     "type": "add-heading",
+     "why": "This section is the climax but lacks a clear mobile-friendly transition. The jump from policy-specific analysis to comparison feels abrupt.",
+     "how": "Add a **H2: Key Takeaways** before this section, with a **bullet-point summary** of the top 3 performers/laggards (e.g., ‘*Karnataka’s excise policy saw 3x the expected compliance…*’). Use this as a ‘TL;DR’ for skimmers."
+    },
+    {
+     "where": "H2: What this can't tell you",
+     "type": "to-list",
+     "why": "This section risks losing momentum after the comparative verdict. Mobile readers need a visual break.",
+     "how": "Convert the first 3 paragraphs into a **3-column list** (e.g., *‘Limitations 1: Data gaps… | Limitations 2: No causal analysis… | Limitations 3: Short-term focus…’*). Add a **‘But here’s what we *can* say…’* teaser link to the verdict section."
+    },
+    {
+     "where": "H3: Sources (under H2: What would fix this)",
+     "type": "merge",
+     "why": "The sources section is buried and overly long. Mobile readers won’t scroll here for citations.",
+     "how": "Merge with the **What would fix this** section into a **H2: How to Improve Industrial Policy Tracking**, with sources embedded as **footnote links** (e.g., *‘[1] CAG audit report, 2025’*) in the text. Shorten to 150 words max."
+    }
+   ],
+   "ad_breaks": {
+    "good": [
+     "H2: Why this took two passes",
+     "H2: Comparative verdict: which policy is actually performing best?",
+     "H2: What would fix this"
+    ],
+    "avoid": [
+     "H3: What the real numbers show (under any policy)",
+     "[table: 2 cols x 9 rows] (UP EV Policy)",
+     "[table: 4 cols x 5 rows] (Karnataka’s Excise Policy)",
+     "H2: Why the record looks like this: two names for the same gap"
+    ]
+   },
+   "model": "open-mistral-nemo"
+  },
+  "Groq": {
+   "structure_score": 3,
+   "summary_up_top": {
+    "present": false,
+    "suggest": "Add a one‑sentence lead that tells readers the article compares announced targets vs. actual outcomes for five Indian state industrial policies."
+   },
+   "edits": [
+    {
+     "where": "opening",
+     "type": "add-summary",
+     "why": "Readers on phones need an immediate hook to decide to scroll further.",
+     "how": "Insert a bold, 1‑2 sentence summary right after the title and before the first chart, e.g., “We audit five Indian state industrial policies, matching their published targets with real‑world data to see which ones delivered.”"
+    },
+    {
+     "where": "Why this took two passes",
+     "type": "split-paragraph",
+     "why": "The 128‑word paragraph is dense for mobile screens.",
+     "how": "Break after the sentence ending with “first pass, Haryana's ‘backward and forward linkages’ policy looked thin…”, creating two shorter paragraphs."
+    },
+    {
+     "where": "para 10",
+     "type": "split-paragraph",
+     "why": "Long paragraph slows scanning and may push an ad into the middle of a key argument.",
+     "how": "Insert a line break after the sentence that concludes the discussion of manufacturing targets, forming two paragraphs of roughly equal length."
+    },
+    {
+     "where": "para 18",
+     "type": "split-paragraph",
+     "why": "Lengthy paragraph interrupts flow before the Haryana table.",
+     "how": "Split after the clause ending with “2025: the…”, creating a separate paragraph that leads into the table."
+    },
+    {
+     "where": "para 21",
+     "type": "split-paragraph",
+     "why": "Improves readability before the Andhra Pradesh table.",
+     "how": "Divide after the sentence that finishes the description of physical infrastructure, so the next paragraph introduces the table."
+    },
+    {
+     "where": "para 24",
+     "type": "split-paragraph",
+     "why": "A 164‑word block is hard to skim on a phone.",
+     "how": "Break after the sentence ending with “underlying structure: a state government…”, creating two digestible paragraphs."
+    },
+    {
+     "where": "para 25",
+     "type": "split-paragraph",
+     "why": "Keeps the theoretical explanation separate from the next point.",
+     "how": "Insert a split after the sentence concluding the description of Akerlof’s model."
+    },
+    {
+     "where": "1. Uttar Pradesh EV Manufacturing & Mobility Policy, 2022",
+     "type": "add-paragraph",
+     "why": "Each policy section starts abruptly with sub‑headings; a brief intro or context helps mobile readers orient.",
+     "how": "Add a 30‑word introductory paragraph right after the H2 heading, summarizing the policy’s scope and why it was chosen."
+    },
+    {
+     "where": "Update, 3 August 2026 note",
+     "type": "move",
+     "why": "The update line interrupts the opening narrative and can be missed on small screens.",
+     "how": "Place the update inside a boxed callout (use the existing box style) immediately after the new summary."
+    }
+   ],
+   "ad_breaks": {
+    "good": [
+     "Comparative verdict: which policy is actually performing best?",
+     "What would fix this"
+    ],
+    "avoid": [
+     "What the real numbers show",
+     "table: 2 cols x 9 rows",
+     "table: 4 cols x 5 rows",
+     "box: warn"
+    ]
+   },
+   "model": "openai/gpt-oss-120b"
+  }
+ }
+}

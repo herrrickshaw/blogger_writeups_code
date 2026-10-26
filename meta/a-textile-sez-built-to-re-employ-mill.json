@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/a-textile-sez-built-to-re-employ-mill.html",
   "slug": "a-textile-sez-built-to-re-employ-mill",
   "published": "2026-09-15T09:29:36.000+05:30",
-  "updated": "2026-10-01T08:12:59.652+05:30",
+  "updated": "2026-10-26T17:39:26.423+05:30",
   "labels": [
     "Textiles"
   ],
-  "bytes": 20207,
-  "sha256": "488bb84e4ea7cd91f5faf676a32ee0d409edbd6369dba9528324db5442e018e8",
+  "bytes": 20233,
+  "sha256": "acbf943b66c6919f61f30563cd872187660a15b799828e2f72203517e298849f",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.2.0",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -81,6 +81,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Rule 8 retrofit: added What would fix this section"
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-10-26T17:40:53+05:30",
+      "level": "major",
+      "reason": "forced via --as major (visible text identical; only markup/styling changed)",
+      "bytes": [
+        20207,
+        20233
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Green debt post: chart, rate-gap and FX tables to late Oct; model-review paragraph splits in 20 posts"
     }
   ]
 }

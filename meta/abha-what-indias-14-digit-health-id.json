@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/abha-what-indias-14-digit-health-id.html",
   "slug": "abha-what-indias-14-digit-health-id",
   "published": "2026-08-12T04:31:28.000+05:30",
-  "updated": "2026-10-01T08:13:19.175+05:30",
+  "updated": "2026-10-26T17:39:51.547+05:30",
   "labels": [
     "Healthcare"
   ],
-  "bytes": 29856,
-  "sha256": "d01bb4a9b40049366d8f442d954467819cd82793b57f83745e4fddb6b72d6c09",
+  "bytes": 29891,
+  "sha256": "b7a0beb1733e2e66cf497308f37f5c9b3f254c5ccf8e5de994c0ad4d9059c7f5",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "4.1.0",
+  "version": "5.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -263,6 +263,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Rule 8 retrofit: added What would fix this section"
+    },
+    {
+      "version": "5.0.0",
+      "date": "2026-10-26T17:40:53+05:30",
+      "level": "major",
+      "reason": "forced via --as major (visible text identical; only markup/styling changed)",
+      "bytes": [
+        29856,
+        29891
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Green debt post: chart, rate-gap and FX tables to late Oct; model-review paragraph splits in 20 posts"
     }
   ]
 }

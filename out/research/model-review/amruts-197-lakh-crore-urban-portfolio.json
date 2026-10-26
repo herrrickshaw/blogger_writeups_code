@@ -1,0 +1,129 @@
+{
+ "slug": "amruts-197-lakh-crore-urban-portfolio",
+ "outline": "993 words in 10 paragraphs; 1 tables; 2 charts/images; 1 boxed notes\nH1: AMRUT's ₹1.97 Lakh Crore Urban Portfolio: Water Supply Is 41% of Projects, 60% of the Money  [0 words in paragraphs and lists]\n  H2: Four components, one portfolio  [118 words in paragraphs and lists]\n    [chart: img]\n    [table: 11 cols x 37 rows]\n    [chart: svg]\n  H2: Water supply carries the money, not the project count  [150 words in paragraphs and lists]\n  H2: What this table can't tell you  [206 words in paragraphs and lists]\n    para 6: 147 words (long) — This is a count-and-cost table, not a progress table. Unlike Jal Jeevan...\n  H2: What would fix this  [211 words in paragraphs and lists]\n    [box: gb-card]\n  H2: Sources and caveats  [240 words in paragraphs and lists]\n    para 9: 202 words (long) — All state-wise project counts and costs are drawn directly from the Ministry...",
+ "models": {
+  "Gemini": {
+   "structure_score": 2,
+   "summary_up_top": {
+    "present": false,
+    "suggest": "Move the core finding—that water supply makes up 41% of AMRUT projects but 60% of the money while missing spending data—above the site navigation elements."
+   },
+   "edits": [
+    {
+     "where": "opening",
+     "type": "move",
+     "why": "Site navigation and accessibility widgets currently sit above the main lede, burying the hook for mobile readers.",
+     "how": "Move the title, metadata, and body lede above the 'Skip to article content', 'Text Size', and audio player elements."
+    },
+    {
+     "where": "Four components, one portfolio",
+     "type": "to-list",
+     "why": "A massive 11-column table is nearly impossible to read on a mobile phone screen.",
+     "how": "Convert the 11-column table into a searchable mobile-friendly card list or summary table of top states, linking to the full raw data."
+    },
+    {
+     "where": "What this table can't tell you",
+     "type": "split-paragraph",
+     "why": "Paragraph 6 contains 147 words, creating a dense text block that is tiring to scroll through on a phone.",
+     "how": "Split paragraph 6 into two shorter paragraphs after the sentence discussing Jal Jeevan Mission."
+    },
+    {
+     "where": "Sources and caveats",
+     "type": "split-paragraph",
+     "why": "Paragraph 9 contains 202 words, which is too long for a single mobile screen block.",
+     "how": "Break paragraph 9 into three shorter paragraphs at natural topic transitions about data sources and limitations."
+    },
+    {
+     "where": "Four components, one portfolio",
+     "type": "move",
+     "why": "Placing the massive data table right at the start of the first section overwhelms readers before the argument is established.",
+     "how": "Move the table further down or place it in an expandable accordion container."
+    }
+   ],
+   "ad_breaks": {
+    "good": [
+     "Water supply carries the money, not the project count",
+     "What would fix this"
+    ],
+    "avoid": [
+     "Four components, one portfolio"
+    ]
+   },
+   "model": "gemini-flash-lite-latest"
+  },
+  "Mistral": {
+   "structure_score": 3,
+   "summary_up_top": {
+    "present": true,
+    "suggest": "Lead with a concise, phone-friendly hook: *‘AMRUT 2.0’s ₹1.97 lakh crore urban portfolio skews 60% toward water supply—despite being just 41% of projects. Here’s why the data hides critical gaps in spending.’*"
+   },
+   "edits": [
+    {
+     "where": "opening",
+     "type": "shorten-heading",
+     "why": "The H1 is already punchy but could be more mobile-friendly by removing the ₹1.97 lakh crore figure (redundant in the first line) and shortening to: *‘AMRUT 2.0’s Water Supply Bias: 60% of ₹1.97 Lakh Crore Funds Go to 41% of Projects’*",
+     "how": "Replace H1 with the above, keeping the subheading intact"
+    },
+    {
+     "where": "H2: Four components, one portfolio",
+     "type": "split-section",
+     "why": "The dense table/charts combo (11 cols × 37 rows + 2 visuals) overwhelms mobile readers. Split into two H2s: one for the text + chart, one for the table.",
+     "how": "Move the table to a new H2: *‘The breakdown: State-wise projects and costs’* (keep the existing H2 for the text + first chart)"
+    },
+    {
+     "where": "H2: Water supply carries the money, not the project count",
+     "type": "add-heading",
+     "why": "This paragraph introduces a key contrast (cost vs. project count) but lacks visual hierarchy. Add a subheading to signal the shift.",
+     "how": "Insert before the paragraph: *‘Why water supply dominates the budget (but not the project count)’*"
+    },
+    {
+     "where": "para 6 (under H2: What this table can't tell you)",
+     "type": "split-paragraph",
+     "why": "The 147-word para mixes two ideas: (1) the table’s limitations vs. (2) the rural JJM comparison. Split to improve scannability.",
+     "how": "Break into two paras: First para focuses on *‘What the table omits: spending progress, not just approvals’*; second para starts with *‘Unlike Jal Jeevan Mission…’*"
+    },
+    {
+     "where": "H2: What would fix this",
+     "type": "to-list",
+     "why": "The boxed note (GB-card) lists 3 fixes but is buried in prose. Convert the key points into a bulleted list for mobile readability.",
+     "how": "Replace the boxed note with a list titled *‘3 ways to improve transparency’* and pull the 3 bullet points directly from the card’s content"
+    },
+    {
+     "where": "H2: Sources and caveats",
+     "type": "shorten-heading",
+     "why": "The para’s length (202 words) and dense attribution (state-wise data from Ministry) could be split to avoid mobile scroll fatigue.",
+     "how": "Shorten heading to *‘Data sources and key caveats’* and split the para into two: First para covers *‘All figures sourced from…’*; second para starts with *‘Important limitations…’*"
+    },
+    {
+     "where": "para 1 (opening text)",
+     "type": "shorten-heading",
+     "why": "The first 400 words include redundant details (e.g., repeating ₹1.97 lakh crore). Trim to focus on the core contrast (41% projects vs. 60% funds).",
+     "how": "Delete the sentence: *‘Water supply alone is 41% of that project count but 60% of the money…’* (it’s restated in the H1). Start the para with: *‘AMRUT 2.0’s ₹1.97 lakh crore portfolio is skewed: water supply accounts for 60% of funds but just 41% of the 8,777 approved projects. The public data reveals the scale—but not the spending reality.*’"
+    },
+    {
+     "where": "table (under H2: Four components, one portfolio)",
+     "type": "to-table",
+     "why": "The table’s 11 columns are too wide for mobile. Convert to a stacked table (e.g., 3 columns: *State/UT | Water Supply (₹cr) | Sewerage (₹cr)*) with expandable rows for full data.",
+     "how": "Use a collapsible table format (e.g., *‘Tap to see full state-wise breakdown’* with a condensed 3-column view by default)"
+    }
+   ],
+   "ad_breaks": {
+    "good": [
+     "Four components, one portfolio (after the introductory chart)",
+     "What this table can't tell you (after the contrast paragraph)",
+     "Sources and caveats (after the boxed note)"
+    ],
+    "avoid": [
+     "Water supply carries the money, not the project count (mid-argument, risks breaking flow)",
+     "The table (under Four components, one portfolio—visual overload)",
+     "What would fix this (after the boxed note, but the note itself is a natural pause)"
+    ]
+   },
+   "model": "open-mistral-nemo"
+  },
+  "Groq": {
+   "raw": "{\n  \"structure_score\": 3,\n  \"summary_up_top\": {\n    \"present\": true,\n    \"suggest\": \"Add a brief roadmap sentence that tells readers the article will break down the project‑count vs spending gap, explain the table, suggest fixes, and note data caveats.\"\n  },\n  \"edits\": [\n    {\n      \"where\": \"opening\",\n      \"type\": \"split-paragraph\",\n      \"why\": \"The first paragraph is dense and overwhelms mobile readers.\",\n      \"how\": \"Break after the sentence ending with “60% of the money.” Start a new paragraph with the sentence about public data limitations.\"\n    },\n    {\n      \"where\": \"Four components, one portfolio\",\n      \"type\": \"add-heading\",\n      \"why\": \"The table appears without an explicit introduction, making it hard to scan on a phone.\",\n      \"how\": \"Insert a level‑3 heading “State‑wise project and cost breakdown” immediately before the table.\"\n    },\n    {\n      \"where\": \"What this table can't tell you\",\n      \"type\": \"to-list\",\n      \"why\": \"A 147‑word paragraph is too long for mobile; bullet points improve scannability.\",\n      \"how\": \"Rewrite the paragraph as a bulleted list of the main limitations (e.g., no progress data, excludes spending timelines, etc.).\"\n    },\n    {\n      \"where\": \"What would fix this\",\n      \"type\": \"move\",\n      \"why\": \"The boxed note interrupts the flow between the table analysis and the fixes discussion.\",\n      \"how\": \"Place the box directly after the newly created bullet list under “What this table can't tell you.”\"\n    },\n    {\n      \"where\": \"What would fix this\",\n      \"type\": \"shorten-heading\",\n      \"why\": \"A shorter heading fits better on small screens and clarifies the content.\",\n      \"how\": \"Rename the heading to “Potential fixes.”\"\n    },\n    {\n      \"where\": \"Sources and caveats\",\n      \"type\": \"split-paragraph\",\n      \"why\": \"The 202‑word paragraph is unwieldy on phones.\",\n      \"how\": \"Split after the sentence that ends with “drawn directly from the Ministry…”, creating a second paragraph that starts with the caveats.\"\n    },\n    {\n      \"where\": \"Four components, one portfolio\",\n      \"type\": \"add-heading\",\n      \"why\": \"A quick‑look summary helps readers grasp key numbers before the dense table.\",\n      \"how\": \"Insert a level‑3 heading “Key figures at a glance” before the first chart, and present the three headline stats (₹1.97 Lakh Cr, 41% projects, 60% money) as a simple inline callout.\"\n    },\n    {\n      \"where\": \"Four components, one portfolio\",\n      \"type\": \"move\",\n      \"why\": \"The first chart currently precedes the introductory text, breaking narrative flow.\",\n      \"how\": \"Move the chart to appear after the new “Key figures at a glance” heading, so the visual follows the brief summary.\"\n    }\n  ],\n  \"ad_breaks\": {\n    \"good\": [\n      \"Four components, one portfolio\",\n      \"What this table can't tell you\"\n    ],\n    \"avoid\": [\n      \"Water supply carries the money, not the project count\",\n      \"Sources and caveats\",\n      \"Four components, one portfolio\"  // avoid inside the table or chart itself\n    ]\n  }\n}",
+   "model": "openai/gpt-oss-120b"
+  }
+ }
+}

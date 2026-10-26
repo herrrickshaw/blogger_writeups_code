@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/a-2223-crore-coal-freight-railway-line.html",
   "slug": "a-2223-crore-coal-freight-railway-line",
   "published": "2026-09-15T09:32:11.000+05:30",
-  "updated": "2026-10-01T08:12:07.954+05:30",
+  "updated": "2026-10-26T17:38:16.313+05:30",
   "labels": [
     "Industrial Policy"
   ],
-  "bytes": 19655,
-  "sha256": "8b425e9c5954f9f98d03ad672e86d6e69acf51a38a0f4bdf9c53cdf57f3a6339",
+  "bytes": 19662,
+  "sha256": "e69c67ec475f5fe88e01177da3136a688595d472217628af199da4761b1f6300",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.2.0",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -94,6 +94,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Rule 8 retrofit: added What would fix this section"
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-10-26T17:40:53+05:30",
+      "level": "major",
+      "reason": "forced via --as major (visible text identical; only markup/styling changed)",
+      "bytes": [
+        19655,
+        19662
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Green debt post: chart, rate-gap and FX tables to late Oct; model-review paragraph splits in 20 posts"
     }
   ]
 }

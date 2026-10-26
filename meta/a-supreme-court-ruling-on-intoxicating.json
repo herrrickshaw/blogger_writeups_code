@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/a-supreme-court-ruling-on-intoxicating.html",
   "slug": "a-supreme-court-ruling-on-intoxicating",
   "published": "2026-09-15T07:55:31.000+05:30",
-  "updated": "2026-10-01T08:12:38.602+05:30",
+  "updated": "2026-10-26T17:39:01.957+05:30",
   "labels": [
     "Energy & Fuels"
   ],
-  "bytes": 24289,
-  "sha256": "350d2e6d6f2080b49ff94e87ec09c670bb61bcdf2dbb2d7e4f69e644ea107eca",
+  "bytes": 24341,
+  "sha256": "2328061cce1800575d05792202bd2ed965c7d6338604a9849dfd908a509610e4",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.3.0",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -68,6 +68,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Rule 8 retrofit: added What would fix this section"
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-10-26T17:40:53+05:30",
+      "level": "major",
+      "reason": "forced via --as major (visible text identical; only markup/styling changed)",
+      "bytes": [
+        24289,
+        24341
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Green debt post: chart, rate-gap and FX tables to late Oct; model-review paragraph splits in 20 posts"
     }
   ]
 }

@@ -1,0 +1,138 @@
+{
+ "slug": "alimco-jaipur-foot-and-bionic-gap-in",
+ "outline": "2246 words in 18 paragraphs; 2 tables; 2 charts/images; 4 boxed notes\nH1: ALIMCO, Jaipur Foot, and the Bionic Gap in India's Artificial-Limb System  [1883 words in paragraphs and lists]\n    [chart: svg]\n    [box: gb-card]\n    [chart: img]\n    para 3: 151 words (long) — India's artificial-limb capacity runs through three largely separate channels that rarely get...\n    para 4: 129 words (long) — ALIMCO's own company profile states it has supplied aids and appliances to...\n    para 5: 138 words (long) — BMVSS states, in a brochure dated 29 April 2024, that it has...\n    [table: 4 cols x 4 rows]\n    para 9: 133 words (long) — The Artificial Limb Centre (ALC) in Pune was established on 19 May...\n    para 10: 145 words (long) — In August 2026, the Director General of Armed Forces Medical Services, Surgeon...\n    para 12: 220 words (long) — The companies that built the modern prosthetics industry are, overwhelmingly, not Indian....\n    para 13: 194 words (long) — The more recent wave is built around sensing and motorised control rather...\n    [table: 4 cols x 10 rows]\n    para 14: 124 words (long) — India isn't absent from this technology curve, but its footprint is small...\n    para 15: 130 words (long) — The policy lever that might eventually change that, India's Production-Linked Incentive (PLI)...\n    para 16: 138 words (long) — There is, on top of that, no reliable public estimate of how...\n    [box: warn]\n  H2: What would fix this  [283 words in paragraphs and lists]\n    [box: gb-card]\n    (x2)",
+ "models": {
+  "Gemini": {
+   "structure_score": 2,
+   "summary_up_top": {
+    "present": false,
+    "suggest": "Add a short bulleted summary at the top explaining how India's massive public-limb programs miss the bionic tech wave."
+   },
+   "edits": [
+    {
+     "where": "ALIMCO, Jaipur Foot, and the Bionic Gap in India's Artificial-Limb System",
+     "type": "add-heading",
+     "why": "The post has only two main headings for over 2200 words, creating long blocks of text that are hard to scan on mobile.",
+     "how": "Insert subheadings every 300 to 400 words to break up the long sequence under the H1."
+    },
+    {
+     "where": "para 3",
+     "type": "split-paragraph",
+     "why": "At 151 words, this paragraph is too dense for a phone screen.",
+     "how": "Split the paragraph at the transition between ALIMCO and ADIP descriptions."
+    },
+    {
+     "where": "para 4",
+     "type": "split-paragraph",
+     "why": "At 129 words, it creates a wall of text on mobile devices.",
+     "how": "Break the paragraph into two shorter paragraphs around the core statistics."
+    },
+    {
+     "where": "para 5",
+     "type": "split-paragraph",
+     "why": "Long uninterrupted paragraphs increase bounce rates on mobile.",
+     "how": "Split after the initial BMVSS citation to create two digestible chunks."
+    },
+    {
+     "where": "para 9",
+     "type": "split-paragraph",
+     "why": "Mobile readers struggle with dense historical narratives in single blocks.",
+     "how": "Split the paragraph into the historical background and the modern context."
+    },
+    {
+     "where": "para 12",
+     "type": "split-paragraph",
+     "why": "At 220 words, this is the longest paragraph in the piece and unfriendly to phone scrolling.",
+     "how": "Divide into three shorter paragraphs based on the companies and geographies mentioned."
+    },
+    {
+     "where": "para 13",
+     "type": "split-paragraph",
+     "why": "At 194 words, it merges multiple technical concepts into one block.",
+     "how": "Split the paragraph before the discussion of modern sensing and motorized control."
+    }
+   ],
+   "ad_breaks": {
+    "good": [
+     "ALIMCO, Jaipur Foot, and the Bionic Gap in India's Artificial-Limb System"
+    ],
+    "avoid": [
+     "What would fix this"
+    ]
+   },
+   "model": "gemini-flash-lite-latest"
+  },
+  "Mistral": {
+   "raw": "```json\n{\n  \"structure_score\": 3,\n  \"summary_up_top\": {\n    \"present\": false,\n    \"suggest\": \"Lead with a concise, punchy headline-like summary of the core contradiction: *India’s artificial-limb system reaches millions but lags behind global bionics—here’s why.*\"\n  },\n  \"edits\": [\n    {\n      \"where\": \"opening\",\n      \"type\": \"shorten-heading\",\n      \"why\": \"The H1 is already strong but could be more direct for mobile skimmers; the opening text’s first sentence mirrors it redundantly.\",\n      \"how\": \"Trim to: *India’s artificial-limb system reaches millions but lags behind global bionics—here’s why.* (Remove \"Between a state-owned manufacturer...\")\"\n    },\n    {\n      \"where\": \"opening\",\n      \"type\": \"split-section\",\n      \"why\": \"The first 400 words mix meta (ADIP revision), visuals (chart/table), and narrative; mobile readers lose context.\",\n      \"how\": \"Move the **ADIP revision box** (thresholds table) to a dedicated subheading: *\"A Policy Lag: How India’s 2024 ADIP Revision Wasn’t Reported Properly\"* (insert after para 2).\"\n    },\n    {\n      \"where\": \"H1\",\n      \"type\": \"shorten-heading\",\n      \"why\": \"The H1’s length (1883 chars) risks truncation on mobile; the core tension (\"bionic gap\") is buried.\",\n      \"how\": \"Trim to: *India’s Artificial-Limb System: Why It Reaches Millions but Lacks Bionic Tech* (Keep \"Jaipur Foot\" as subtext in subheading).\"\n    },\n    {\n      \"where\": \"para 3\",\n      \"type\": \"split-paragraph\",\n      \"why\": \"The 151-word intro to the 3 systems is dense; mobile readers lose the \"three channels\" hook early.\",\n      \"how\": \"Split into two paragraphs: First para ends with *\"India’s artificial-limb system operates through three distinct channels—each with its own strengths and gaps.\"*\"\n    },\n    {\n      \"where\": \"para 9\",\n      \"type\": \"add-heading\",\n      \"why\": \"The ALC Pune case study (133 words) deserves a subheading to break up the ALIMCO/ADIP narrative.\",\n      \"how\": \"Insert subheading: *\"The Military’s Hidden Role: How Pune’s ALC Fits 10,000 Limbs a Year\"* (before para 9).\"\n    },\n    {\n      \"where\": \"para 12\",\n      \"type\": \"split-section\",\n      \"why\": \"The 220-word \"companies that built the modern prosthetics industry\" block feels like a digression mid-flow.\",\n      \"how\": \"Promote to a subheading: *\"The Global Bionics Gap: Why India’s Prosthetics Industry Starts from Scratch\"* (insert after para 11).\"\n    },\n    {\n      \"where\": \"H2: What would fix this\",\n      \"type\": \"add-heading\",\n      \"why\": \"The H2 feels abrupt after dense policy/industry analysis; mobile readers may miss its purpose.\",\n      \"how\": \"Preface with: *\"The Fix: Three Levers to Close India’s Bionic Gap\"* (bolded, under H2).\"\n    },\n    {\n      \"where\": \"boxed notes\",\n      \"type\": \"to-list\",\n      \"why\": \"Mobile users struggle with boxed cards; lists are easier to scan.\",\n      \"how\": \"Convert all 4 boxed notes to **bullet-point lists** with icons (e.g., \"⚠️ Warning\" for the ADIP box).\"\n    }\n  ],\n  \"ad_breaks\": {\n    \"good\": [\n      \"after para 5 (table break)\",\n      \"after para 11 (end of global bionics section)\",\n      \"after H2: What would fix this (solution section)\"\n    ],\n    \"avoid\": [\n      \"after para 3 (mid-system intro)\",\n      \"after para 9 (ALC Pune case study)\",\n      \"after the first table (para 5 → para 6 transition)\",\n      \"after the second chart (para 13 → para 14 transition)\"\n    ]\n  }\n}\n```",
+   "model": "open-mistral-nemo"
+  },
+  "Groq": {
+   "structure_score": 2,
+   "summary_up_top": {
+    "present": true,
+    "suggest": "State up front that India’s extensive low‑cost prosthetic network contrasts with a missing domestic bionic market."
+   },
+   "edits": [
+    {
+     "where": "opening",
+     "type": "split-paragraph",
+     "why": "The first 400‑word opening is a wall of text that scrolls off‑screen on phones.",
+     "how": "Break the opening after the sentence ending with “the scheme either.” Create a new paragraph starting with “The pattern in one line:”"
+    },
+    {
+     "where": "para 3",
+     "type": "to-list",
+     "why": "A 151‑word description of three separate channels is hard to scan.",
+     "how": "Rewrite the paragraph as a three‑item bullet list, each bullet naming a channel (ALIMCO, BMVSS, ALC Pune) with a 1‑sentence summary."
+    },
+    {
+     "where": "para 9",
+     "type": "add-heading",
+     "why": "The shift to the military rehabilitation hospital needs a visual cue for mobile readers.",
+     "how": "Insert a level‑3 heading titled “Military Rehabilitation Hospital” immediately before paragraph 9."
+    },
+    {
+     "where": "para 12",
+     "type": "to-table",
+     "why": "A 220‑word paragraph listing foreign companies overwhelms phone screens.",
+     "how": "Convert the paragraph into a two‑column table: Column 1 = “Foreign Companies” (list), Column 2 = “Indian Presence” (brief note)."
+    },
+    {
+     "where": "para 16",
+     "type": "move",
+     "why": "The warning box interrupts the flow of the data‑gap discussion.",
+     "how": "Move the warning box to appear after the final paragraph of the “Potential Solutions” section (after H2)."
+    },
+    {
+     "where": "H2: What would fix this",
+     "type": "shorten-heading",
+     "why": "A shorter heading fits better on small screens and signals the section’s purpose.",
+     "how": "Rename the heading to “Potential Solutions”."
+    },
+    {
+     "where": "chart: img",
+     "type": "add-heading",
+     "why": "The second chart appears without context, making it hard to skim.",
+     "how": "Place a level‑3 heading titled “Bionic Technology Adoption” directly above the chart."
+    },
+    {
+     "where": "para 14",
+     "type": "split-section",
+     "why": "Paragraphs 14‑16 form a dense policy discussion that could be broken up for readability.",
+     "how": "Insert a sub‑heading “Policy Landscape” before paragraph 14 and split paragraph 15 into two shorter paragraphs."
+    }
+   ],
+   "ad_breaks": {
+    "good": [
+     "Artificial Limb Centre (ALC) in Pune",
+     "Potential Solutions"
+    ],
+    "avoid": [
+     "The companies that built the modern prosthetics industry are, overwhelmingly, not Indian.",
+     "Warning box (para 16)"
+    ]
+   },
+   "model": "openai/gpt-oss-120b"
+  }
+ }
+}

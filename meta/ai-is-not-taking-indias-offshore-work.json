@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/10/ai-is-not-taking-indias-offshore-work.html",
   "slug": "ai-is-not-taking-indias-offshore-work",
   "published": "2026-10-18T08:26:29.000+05:30",
-  "updated": "2026-10-18T08:27:07.899+05:30",
+  "updated": "2026-10-26T17:40:23.433+05:30",
   "labels": [
     "Industrial Policy",
     "Markets & Finance",
     "Scheme Delivery Gap"
   ],
-  "bytes": 55940,
-  "sha256": "e675c0ec79be5c68cccac20ad56e9ed02d1166f67bb578715fe8585ceae535fc",
+  "bytes": 56137,
+  "sha256": "83c2f62a960e6976fb1cab612ddb5ebae6ff81a3c8a92a81275252e12ac126e9",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -31,6 +31,19 @@
       "level": "initial",
       "reason": "first snapshot",
       "note": "New post: AI and India's offshored work by sector"
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-10-26T17:40:53+05:30",
+      "level": "major",
+      "reason": "forced via --as major (visible text identical; only markup/styling changed)",
+      "bytes": [
+        55940,
+        56137
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Green debt post: chart, rate-gap and FX tables to late Oct; model-review paragraph splits in 20 posts"
     }
   ]
 }

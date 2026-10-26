@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/a-million-wine-market-behind-150-wall.html",
   "slug": "a-million-wine-market-behind-150-wall",
   "published": "2026-08-30T13:25:43.000+05:30",
-  "updated": "2026-10-01T08:12:19.108+05:30",
+  "updated": "2026-10-26T17:38:37.383+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Free Trade Agreements",
     "Trade & Tariffs"
   ],
-  "bytes": 36768,
-  "sha256": "755c4666742f9e80047856a77add945818750dc8babc5c68e17de07db47ceeec",
+  "bytes": 36987,
+  "sha256": "e2a51b4f3e5079bb8d89c14a256bef6a1a142a86648241a06bc0b3bb5de92af7",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.2.0",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -135,6 +135,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Rule 8 retrofit: added What would fix this section"
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-10-26T17:40:53+05:30",
+      "level": "major",
+      "reason": "forced via --as major (visible text identical; only markup/styling changed)",
+      "bytes": [
+        36768,
+        36987
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Green debt post: chart, rate-gap and FX tables to late Oct; model-review paragraph splits in 20 posts"
     }
   ]
 }

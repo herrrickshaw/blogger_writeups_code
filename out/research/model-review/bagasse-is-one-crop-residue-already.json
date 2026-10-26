@@ -1,0 +1,138 @@
+{
+ "slug": "bagasse-is-one-crop-residue-already",
+ "outline": "2264 words in 18 paragraphs; 2 tables; 1 charts/images; 6 boxed notes\nH1: Bagasse Is the One Crop Residue Already Sitting at a Factory Gate. Labs Have Liquefied and Hydrolysed It. Nobody Has Pri  [161 words in paragraphs and lists]\n    [box: gb-stat]\n    (x4)\n    [box: warn]\n  H2: What the material is  [78 words in paragraphs and lists]\n    [chart: svg]\n  H2: Four things called liquefaction or hydrolysis  [14 words in paragraphs and lists]\n    [table: 4 cols x 5 rows]\n  H2: Hydrolysis: pretreatment decides the yield  [245 words in paragraphs and lists]\n    [table: 3 cols x 9 rows]\n    para 7: 145 words (long) — Two cautions run through the hydrolysis papers. First, harsher acid is not...\n  H2: Liquefaction: a polyol for foam  [563 words in paragraphs and lists]\n    para 10: 215 words (long) — The foams are where the evidence gets thin. A study that replaced...\n  H2: Where the data stop  [204 words in paragraphs and lists]\n  H2: The Indian setting: the competitor is the boiler  [218 words in paragraphs and lists]\n    para 13: 132 words (long) — This blog has covered the other claimants on bagasse. India has about...\n  H2: What would fix this  [264 words in paragraphs and lists]\n  H2: Sources and caveats  [477 words in paragraphs and lists]\n    [box: gb-card]\n    para 17: 439 words (long) — Composition: a regional-journal paper on raw sugarcane bagasse (40.4% cellulose, 23.8% hemicellulose,...",
+ "models": {
+  "Gemini": {
+   "structure_score": 2,
+   "summary_up_top": {
+    "present": false,
+    "suggest": "Move the bold opening paragraph up above the site navigation clutter so phone readers immediately see the core takeaway."
+   },
+   "edits": [
+    {
+     "where": "opening",
+     "type": "move",
+     "why": "The site header, metadata, and audio player push the actual article intro too far down for mobile screens.",
+     "how": "Relocate the primary thesis paragraph and stat boxes to appear immediately at the very top before auxiliary site navigation."
+    },
+    {
+     "where": "para 17",
+     "type": "split-paragraph",
+     "why": "A 439-word paragraph is a massive wall of text that is extremely difficult to read and scroll past on a mobile phone.",
+     "how": "Break paragraph 17 into at least four smaller paragraphs separated by natural topical pauses."
+    },
+    {
+     "where": "H2: Sources and caveats",
+     "type": "to-list",
+     "why": "Dense methodological details and lists hidden inside long paragraphs cause high mobile bounce rates.",
+     "how": "Convert the bullet points and compositional stats in the sources section into a clean vertical bulleted list."
+    },
+    {
+     "where": "H2: Liquefaction: a polyol for foam",
+     "type": "split-paragraph",
+     "why": "At 563 words total, this section contains overly long blocks of text that trap Google Auto ads awkwardly.",
+     "how": "Split the long paragraphs here into chunks of no more than 60-80 words each."
+    },
+    {
+     "where": "H2: Hydrolysis: pretreatment decides the yield",
+     "type": "split-paragraph",
+     "why": "Paragraph 7 is 145 words long, which exceeds comfortable mobile reading length.",
+     "how": "Divide paragraph 7 into two distinct paragraphs."
+    },
+    {
+     "where": "H2: The Indian setting: the competitor is the boiler",
+     "type": "split-paragraph",
+     "why": "Paragraph 13 contains 132 words in a single block.",
+     "how": "Split paragraph 13 into two paragraphs to improve white space on mobile screens."
+    }
+   ],
+   "ad_breaks": {
+    "good": [
+     "What the material is",
+     "Hydrolysis: pretreatment decides the yield",
+     "The Indian setting: the competitor is the boiler"
+    ],
+    "avoid": [
+     "Four things called liquefaction or hydrolysis",
+     "Sources and caveats"
+    ]
+   },
+   "model": "gemini-flash-lite-latest"
+  },
+  "Mistral": {
+   "raw": "```json\n{\n  \"structure_score\": 3,\n  \"summary_up_top\": {\n    \"present\": false,\n    \"suggest\": \"Open with a concise, punchy hook: *‘Bagasse is the one crop residue already at the factory door—but labs have turned it into foam or sugar, while no one has priced it against the boiler that burns it today.’*\"\n  },\n  \"edits\": [\n    {\n      \"where\": \"opening\",\n      \"type\": \"shorten-heading\",\n      \"why\": \"The H1 is too long for mobile skimmers; it loses impact by burying the key question (boiler vs. new process) in the middle.\",\n      \"how\": \"Trim to: *‘Bagasse: The Crop Residue Already at the Factory Gate—Why No One Has Priced It Against the Boiler’*\"\n    },\n    {\n      \"where\": \"opening\",\n      \"type\": \"split-section\",\n      \"why\": \"The first 400 words mix context, stats, and a meta-narrative about data gaps. Mobile readers lose the thread.\",\n      \"how\": \"Split into two paragraphs:\n        1. **Hook + core question** (first 100 words): Keep the bolded stats but front the *boiler vs. new process* tension.\n        2. **Context + gaps** (remaining 300 words): Move the ‘most of India’s problems are logistics’ line here, followed by the lab-paper caveats.\"\n    },\n    {\n      \"where\": \"H2: What the material is\",\n      \"type\": \"add-heading\",\n      \"why\": \"The SVG chart is visually dense; mobile users need a heading to orient them before diving into it.\",\n      \"how\": \"Add a subheading above the chart: *‘What bagasse looks like chemically’*\"\n    },\n    {\n      \"where\": \"H2: Four things called liquefaction or hydrolysis\",\n      \"type\": \"to-list\",\n      \"why\": \"The 14-word section introduces 4 terms without hierarchy; a bulleted list would help mobile scanners.\",\n      \"how\": \"Replace with:\n        *‘Four key processes (with examples):\n        - **Liquefaction** (e.g., microwave-assisted)\n        - **Hydrolysis** (acid/base/enzyme)\n        - **Pretreatment** (lime/steam/oxidation)\n        - **Polyol production** (for foam)\n        See the table below for yields.’*\"\n    },\n    {\n      \"where\": \"H2: Hydrolysis: pretreatment decides the yield\",\n      \"type\": \"split-paragraph\",\n      \"why\": \"Para 7 (145 words) is a dense wall of text about ‘harsher acid’ and ‘yield tradeoffs’—mobile users will skip it.\",\n      \"how\": \"Split into two:\n        1. **Key insight**: *‘Pretreatment (e.g., lime or steam) is the bottleneck for hydrolysis yields. Harsher acids boost sugar extraction but may degrade cellulose.’*\n        2. **Table teaser**: *‘The table below compares yields across methods—note how enzyme pretreatment often wins for hemicellulose.’*\"\n    },\n    {\n      \"where\": \"H2: Liquefaction: a polyol for foam\",\n      \"type\": \"split-section\",\n      \"why\": \"Para 10 (215 words) is a monolithic ‘evidence gets thin’ section; mobile users won’t parse the study-by-study breakdown.\",\n      \"how\": \"Split into:\n        1. **Headline**: *‘From lab to foam: the unanswered questions’* (keep current H2).\n        2. **Para 10**: Shorten to 100 words: *‘A 2023 study replaced 30% of petroleum-based polyol with bagasse-derived foam, but no cost or scalability data exists. The biggest gap: how much energy/labor the process adds vs. burning bagasse.’*\n        3. **New para**: Add a subheading *‘Why no pilot plants?’* to discuss the ‘no cost studies’ gap.\"\n    },\n    {\n      \"where\": \"H2: The Indian setting: the competitor is the boiler\",\n      \"type\": \"shorten-heading\",\n      \"why\": \"The heading implies a direct comparison, but the para 13 (132 words) is more about *logistics* than competitive pricing.\",\n      \"how\": \"Rename to: *‘Why bagasse’s biggest hurdle isn’t collection—it’s the boiler’*\"\n    },\n    {\n      \"where\": \"H2: What would fix this\",\n      \"type\": \"add-heading\",\n      \"why\": \"The section jumps from ‘competitor is the boiler’ to ‘solutions’ without a transition. Mobile users lose the thread.\",\n      \"how\": \"Add a subheading before the first bullet: *‘Three steps to beat the boiler’*\"\n    },\n    {\n      \"where\": \"H2: Sources and caveats\",\n      \"type\": \"split-section\",\n      \"why\": \"Para 17 (439 words) is a monolithic ‘composition’ deep-dive; mobile users will abandon it.\",\n      \"how\": \"Split into:\n        1. **Headline**: *‘What we know (and don’t know) about bagasse’s chemistry’* (keep current H2).\n        2. **Para 17**: Shorten to 150 words: *‘Bagasse’s cellulose/hemicellulose ratios vary by region (e.g., 40.4% cellulose in Karnataka mills). Key gaps: no standardized composition data for Indian mills, and no life-cycle studies comparing polyol vs. boiler emissions.’*\n        3. **New para**: Add a subheading *‘How this blog reviewed the data’* to explain abstract-only methodology.\"\n  ],\n  \"ad_breaks\": {\n    \"good\": [\n      \"H2: Where the data stop\",\n      \"H2: The Indian setting: the competitor is the boiler\"\n    ],\n    \"avoid\": [\n      \"H2: Hydrolysis: pretreatment decides the yield\",\n      \"H2: Liquefaction: a polyol for foam para 10\",\n      \"H2: Sources and caveats para 17\",\n      \"chart: svg (under H2: What the material is)\",\n      \"table: 4 cols x 5 rows (under H2: Four things called liquefaction or hydrolysis)\"\n    ]\n  }\n}\n```",
+   "model": "open-mistral-nemo"
+  },
+  "Groq": {
+   "structure_score": 2,
+   "summary_up_top": {
+    "present": false,
+    "suggest": "Start with a one‑sentence hook that states the key takeaway: bagasse is already at the factory gate, but no study shows its processed forms can beat burning it."
+   },
+   "edits": [
+    {
+     "where": "opening",
+     "type": "add-heading",
+     "why": "Readers need a quick, scannable summary before diving into the long lead.",
+     "how": "Insert a short, bolded summary paragraph (2‑3 sentences) right before the H1 heading."
+    },
+    {
+     "where": "Bagasse Is the One Crop Residue Already Sitting at a Factory Gate. Labs Have Liquefied and Hydrolysed It. Nobody Has Pri",
+     "type": "shorten-heading",
+     "why": "The current title is truncated and overwhelms mobile readers.",
+     "how": "Replace with a concise title, e.g., “Bagasse: Factory‑Gate Residue, Lab‑Made Polyol, Yet No Cost Study.”"
+    },
+    {
+     "where": "para 7",
+     "type": "split-paragraph",
+     "why": "A 145‑word paragraph is hard to scan on a phone.",
+     "how": "Break after the sentence ending with “First, harsher acid is not…”, creating two paragraphs of ~70 words each."
+    },
+    {
+     "where": "para 10",
+     "type": "split-paragraph",
+     "why": "215‑word paragraph stalls scrolling.",
+     "how": "Insert a sub‑heading “Foam Evidence” after the first 100 words, then continue the rest as a new paragraph."
+    },
+    {
+     "where": "para 13",
+     "type": "split-paragraph",
+     "why": "Long paragraph disrupts flow in the Indian‑setting section.",
+     "how": "Split at the point where the discussion shifts from “other claimants” to “India’s bagasse volume,” creating two balanced paragraphs."
+    },
+    {
+     "where": "para 17",
+     "type": "split-paragraph",
+     "why": "A 439‑word block is too dense for mobile reading.",
+     "how": "Divide into three paragraphs: (1) composition data, (2) regional study findings, (3) implications and caveats."
+    },
+    {
+     "where": "[box: gb-stat]",
+     "type": "move",
+     "why": "Box currently interrupts the opening flow and may cause ad placement issues.",
+     "how": "Place the gb‑stat box immediately after the new summary paragraph, before the H1 heading."
+    },
+    {
+     "where": "Hydrolysis: pretreatment decides the yield",
+     "type": "to-table",
+     "why": "Key yield factors are listed in prose, which is hard to scan.",
+     "how": "Convert the bullet/paragraph list of pretreatment variables into a concise 2‑column table (Variable | Effect)."
+    }
+   ],
+   "ad_breaks": {
+    "good": [
+     "Four things called liquefaction or hydrolysis",
+     "Hydrolysis: pretreatment decides the yield",
+     "Liquefaction: a polyol for foam",
+     "Sources and caveats"
+    ],
+    "avoid": [
+     "What would fix this",
+     "The Indian setting: the competitor is the boiler",
+     "Where the data stop"
+    ]
+   },
+   "model": "openai/gpt-oss-120b"
+  }
+ }
+}

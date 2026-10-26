@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/a-slice-of-apple-costs-about-1700-slice.html",
   "slug": "a-slice-of-apple-costs-about-1700-slice",
   "published": "2026-08-11T10:59:06.000+05:30",
-  "updated": "2026-10-23T09:58:48.043+05:30",
+  "updated": "2026-10-26T17:38:52.045+05:30",
   "labels": [
     "Markets & Finance",
     "Personal Finance & Retail Investing Access"
   ],
-  "bytes": 56619,
-  "sha256": "2664d60d568d0d8fd82238d36367439cb34e0b694f820c8f2cc0fb73e06ebf5d",
+  "bytes": 56788,
+  "sha256": "e2823430d8939394f0a1ef08bbf32e91343dad42f2d7f2d1540b711cd6205b93",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.1.1",
+  "version": "3.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -342,6 +342,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Sweep 4 MEDIUM items: dated update notes on 59 posts"
+    },
+    {
+      "version": "3.0.0",
+      "date": "2026-10-26T17:40:53+05:30",
+      "level": "major",
+      "reason": "forced via --as major (visible text identical; only markup/styling changed)",
+      "bytes": [
+        56619,
+        56788
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Green debt post: chart, rate-gap and FX tables to late Oct; model-review paragraph splits in 20 posts"
     }
   ]
 }

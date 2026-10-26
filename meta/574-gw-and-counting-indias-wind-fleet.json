@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/574-gw-and-counting-indias-wind-fleet.html",
   "slug": "574-gw-and-counting-indias-wind-fleet",
   "published": "2026-08-21T04:04:01.000+05:30",
-  "updated": "2026-10-26T09:16:04.316+05:30",
+  "updated": "2026-10-26T17:37:23.655+05:30",
   "labels": [
     "Energy & Fuels",
     "India Trade & Policy",
     "Renewable Power & Storage"
   ],
-  "bytes": 28121,
-  "sha256": "c149fc13027eb7c694151d307a8c2a79c03c9b4e000384f1f3f9d8e5372becfe",
+  "bytes": 28149,
+  "sha256": "f22f99fe64c0d52b2fbbfc46638d77915f47d16381123a581e5fead1a323aa28",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "4.0.0",
+  "version": "5.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -174,6 +174,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Wind post: MNRE August 2026 state-wise capacity table"
+    },
+    {
+      "version": "5.0.0",
+      "date": "2026-10-26T17:40:53+05:30",
+      "level": "major",
+      "reason": "forced via --as major (visible text identical; only markup/styling changed)",
+      "bytes": [
+        28121,
+        28149
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Green debt post: chart, rate-gap and FX tables to late Oct; model-review paragraph splits in 20 posts"
     }
   ]
 }

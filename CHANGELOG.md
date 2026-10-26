@@ -15920,3 +15920,56 @@ article index rebuilt with 4 new posts
 **Changed**
 
 - `article-index-start-here` — 834,493 → 841,501 bytes (+7,008)
+
+## 2026-10-26T17:40:53+05:30 — 424 posts live
+
+Green debt post: chart, rate-gap and FX tables to late Oct; model-review paragraph splits in 20 posts
+
+
+**Versions**
+
+- `a-hectare-under-power-line-now-pays` **1.0.1 → 2.0.0** (MAJOR) — forced via --as major (visible text identical; only markup/styling changed)
+- `ai-is-not-taking-indias-offshore-work` **1.0.0 → 2.0.0** (MAJOR) — forced via --as major (visible text identical; only markup/styling changed)
+- `abu-dhabi-paid-2-billion-for-binance` **1.0.1 → 2.0.0** (MAJOR) — forced via --as major (visible text identical; only markup/styling changed)
+- `abha-covers-93-crore-patients-its` **1.3.0 → 2.0.0** (MAJOR) — forced via --as major (visible text identical; only markup/styling changed)
+- `a-2223-crore-coal-freight-railway-line` **1.2.0 → 2.0.0** (MAJOR) — forced via --as major (visible text identical; only markup/styling changed)
+- `a-textile-sez-built-to-re-employ-mill` **1.2.0 → 2.0.0** (MAJOR) — forced via --as major (visible text identical; only markup/styling changed)
+- `a-supreme-court-ruling-on-intoxicating` **1.3.0 → 2.0.0** (MAJOR) — forced via --as major (visible text identical; only markup/styling changed)
+- `a-2013-vision-saw-india-needing-746` **2.0.0 → 3.0.0** (MAJOR) — forced via --as major (visible text identical; only markup/styling changed)
+- `a-million-wine-market-behind-150-wall` **1.2.0 → 2.0.0** (MAJOR) — forced via --as major (visible text identical; only markup/styling changed)
+- `5071-items-you-cannot-import-and-rs` **2.3.0 → 3.0.0** (MAJOR) — forced via --as major (visible text identical; only markup/styling changed)
+- `a-17-rural-pay-rise-that-nobody-received` **4.0.0 → 5.0.0** (MAJOR) — forced via --as major (visible text identical; only markup/styling changed)
+- `379-kilos-hectare-in-punjab-44-in` **2.1.0 → 3.0.0** (MAJOR) — forced via --as major (visible text identical; only markup/styling changed)
+- `7186-litre-why-maize-is-indias-priciest` **2.1.0 → 3.0.0** (MAJOR) — forced via --as major (visible text identical; only markup/styling changed)
+- `574-gw-and-counting-indias-wind-fleet` **4.0.0 → 5.0.0** (MAJOR) — forced via --as major (visible text identical; only markup/styling changed)
+- `028-unit-diesel-math-behind-indias-data` **2.3.0 → 3.0.0** (MAJOR) — forced via --as major (visible text identical; only markup/styling changed)
+- `abha-what-indias-14-digit-health-id` **4.1.0 → 5.0.0** (MAJOR) — forced via --as major (visible text identical; only markup/styling changed)
+- `050-is-its-own-category-diving-into` **2.1.0 → 3.0.0** (MAJOR) — forced via --as major (visible text identical; only markup/styling changed)
+- `a-slice-of-apple-costs-about-1700-slice` **2.1.1 → 3.0.0** (MAJOR) — forced via --as major (visible text identical; only markup/styling changed)
+- `ahidf-has-sanctioned-19751-crore-in` **4.1.0 → 5.0.0** (MAJOR) — forced via --as major (visible text identical; only markup/styling changed)
+- `raising-green-debt-globally-rec-euroyen` **4.0.0 → 5.0.0** (MAJOR) — forced via --as major (figures changed (+48/-15 distinct numbers))
+- `a-tax-play-grow-ethanol-sgst-revenue` **2.1.0 → 3.0.0** (MAJOR) — forced via --as major (visible text identical; only markup/styling changed)
+
+**Changed**
+
+- `a-hectare-under-power-line-now-pays` — 28,184 → 28,191 bytes (+7)
+- `ai-is-not-taking-indias-offshore-work` — 55,940 → 56,137 bytes (+197)
+- `abu-dhabi-paid-2-billion-for-binance` — 30,798 → 30,946 bytes (+148)
+- `abha-covers-93-crore-patients-its` — 26,314 → 26,392 bytes (+78)
+- `a-2223-crore-coal-freight-railway-line` — 19,655 → 19,662 bytes (+7)
+- `a-textile-sez-built-to-re-employ-mill` — 20,207 → 20,233 bytes (+26)
+- `a-supreme-court-ruling-on-intoxicating` — 24,289 → 24,341 bytes (+52)
+- `a-2013-vision-saw-india-needing-746` — 28,917 → 29,095 bytes (+178)
+- `a-million-wine-market-behind-150-wall` — 36,768 → 36,987 bytes (+219)
+- `5071-items-you-cannot-import-and-rs` — 42,310 → 42,531 bytes (+221)
+- `a-17-rural-pay-rise-that-nobody-received` — 40,478 → 40,861 bytes (+383)
+- `379-kilos-hectare-in-punjab-44-in` — 68,609 → 69,356 bytes (+747)
+- `7186-litre-why-maize-is-indias-priciest` — 41,017 → 41,068 bytes (+51)
+- `574-gw-and-counting-indias-wind-fleet` — 28,121 → 28,149 bytes (+28)
+- `028-unit-diesel-math-behind-indias-data` — 38,072 → 38,121 bytes (+49)
+- `abha-what-indias-14-digit-health-id` — 29,856 → 29,891 bytes (+35)
+- `050-is-its-own-category-diving-into` — 22,571 → 22,604 bytes (+33)
+- `a-slice-of-apple-costs-about-1700-slice` — 56,619 → 56,788 bytes (+169)
+- `ahidf-has-sanctioned-19751-crore-in` — 27,381 → 27,423 bytes (+42)
+- `raising-green-debt-globally-rec-euroyen` — 70,390 → 79,289 bytes (+8,899)
+- `a-tax-play-grow-ethanol-sgst-revenue` — 43,843 → 43,940 bytes (+97)

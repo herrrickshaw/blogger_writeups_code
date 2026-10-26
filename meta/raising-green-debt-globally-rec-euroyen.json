@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/raising-green-debt-globally-rec-euroyen.html",
   "slug": "raising-green-debt-globally-rec-euroyen",
   "published": "2026-08-03T19:10:19.000+05:30",
-  "updated": "2026-10-07T11:07:53.150+05:30",
+  "updated": "2026-10-26T17:36:15.449+05:30",
   "labels": [
     "Bonds & Fixed Income",
     "Markets & Finance"
   ],
-  "bytes": 70390,
-  "sha256": "4feceb70629e2087503a2dde30ee53cffccc381dc354153731387d5d6f393297",
+  "bytes": 79289,
+  "sha256": "ce689e8b30e30d96c1f04a1b76ceaded71c4627c1ee19ec2e137d5957e3069b6",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "4.0.0",
+  "version": "5.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -308,6 +308,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "RBI repo 5.50% on 7 Oct: rate drafts"
+    },
+    {
+      "version": "5.0.0",
+      "date": "2026-10-26T17:40:53+05:30",
+      "level": "major",
+      "reason": "forced via --as major (figures changed (+48/-15 distinct numbers))",
+      "bytes": [
+        70390,
+        79289
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Green debt post: chart, rate-gap and FX tables to late Oct; model-review paragraph splits in 20 posts"
     }
   ]
 }

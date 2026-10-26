@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/379-kilos-hectare-in-punjab-44-in.html",
   "slug": "379-kilos-hectare-in-punjab-44-in",
   "published": "2026-08-22T07:25:22.000+05:30",
-  "updated": "2026-10-01T08:11:04.994+05:30",
+  "updated": "2026-10-26T17:36:55.240+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Fertilisers & Soil Health"
   ],
-  "bytes": 68609,
-  "sha256": "742c46683a156752535f441f0e0a123672fe3eb9a27b0115d6fe7d602e52de68",
+  "bytes": 69356,
+  "sha256": "557706487ef450f36fbb2ba05dd02596edcfee79eb337873544a3b35bd899a87",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.1.0",
+  "version": "3.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -147,6 +147,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Rule 8 retrofit: added What would fix this section"
+    },
+    {
+      "version": "3.0.0",
+      "date": "2026-10-26T17:40:53+05:30",
+      "level": "major",
+      "reason": "forced via --as major (visible text identical; only markup/styling changed)",
+      "bytes": [
+        68609,
+        69356
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Green debt post: chart, rate-gap and FX tables to late Oct; model-review paragraph splits in 20 posts"
     }
   ]
 }

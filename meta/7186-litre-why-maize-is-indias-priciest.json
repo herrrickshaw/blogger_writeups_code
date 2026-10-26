@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/7186-litre-why-maize-is-indias-priciest.html",
   "slug": "7186-litre-why-maize-is-indias-priciest",
   "published": "2026-08-21T21:11:49.000+05:30",
-  "updated": "2026-10-01T08:11:44.380+05:30",
+  "updated": "2026-10-26T17:37:44.040+05:30",
   "labels": [
     "Agriculture & Food Processing",
     "Ethanol & Biofuels"
   ],
-  "bytes": 41017,
-  "sha256": "a6a40d0af13528b2f1bd14ed1bb3c2d833a39ba113b419c1a9e9ffc2d9fdb786",
+  "bytes": 41068,
+  "sha256": "b5f3585bda06688bd9f0dc4e42aec1e60f86fbce75b2a803458a53e4c2dfa36e",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.1.0",
+  "version": "3.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -121,6 +121,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Rule 8 retrofit: added What would fix this section"
+    },
+    {
+      "version": "3.0.0",
+      "date": "2026-10-26T17:40:53+05:30",
+      "level": "major",
+      "reason": "forced via --as major (visible text identical; only markup/styling changed)",
+      "bytes": [
+        41017,
+        41068
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Green debt post: chart, rate-gap and FX tables to late Oct; model-review paragraph splits in 20 posts"
     }
   ]
 }

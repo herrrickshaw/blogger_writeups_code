@@ -1,0 +1,128 @@
+{
+ "slug": "basf-and-mitsubishi-are-running",
+ "outline": "1190 words in 13 paragraphs; 1 tables; 2 charts/images; 4 boxed notes\nH1: Rice Cultivation and Innovation  [746 words in paragraphs and lists]\n    [chart: svg]\n    [box: gb-card]\n    [chart: img]\n    [table: 3 cols x 3 rows]\n    [box: gb-card]\n    para 6: 123 words (long) — Verra's rice credits told a very different story. In August 2024, Verra...\n    para 8: 122 words (long) — Separately from any of this, a University of Tokyo-led team published results...\n  H2: What would fix this  [342 words in paragraphs and lists]\n    [box: gb-card]\n    (x2)",
+ "models": {
+  "Gemini": {
+   "structure_score": 2,
+   "summary_up_top": {
+    "present": true,
+    "suggest": "Ensure the opening paragraph explicitly previews the three distinct threads before diving into the complex corporate details."
+   },
+   "edits": [
+    {
+     "where": "opening",
+     "type": "add-heading",
+     "why": "The wall of text starting immediately after metadata buries the lead for mobile readers.",
+     "how": "Insert an H2 or clear lead-in heading right before 'Three threads, not one story.'"
+    },
+    {
+     "where": "para 6",
+     "type": "split-paragraph",
+     "why": "At 123 words, this paragraph is too dense for comfortable scrolling on a mobile screen.",
+     "how": "Break para 6 into two paragraphs around the sentence introducing Verra's August 2024 action."
+    },
+    {
+     "where": "para 8",
+     "type": "split-paragraph",
+     "why": "At 122 words, this paragraph is difficult to parse on smaller phone displays.",
+     "how": "Split para 8 into two paragraphs at the transition to the University of Tokyo findings."
+    },
+    {
+     "where": "H1: Rice Cultivation and Innovation",
+     "type": "split-section",
+     "why": "Having ~746 words under a single H1 with multiple charts and boxes creates an endless scroll for mobile users.",
+     "how": "Add intermediary H2 subheadings to break up the corporate programmes and the Verra market collapse."
+    },
+    {
+     "where": "H2: What would fix this",
+     "type": "to-list",
+     "why": "Bullet points improve scannability for policy recommendations and fixes on mobile screens.",
+     "how": "Convert the core fix proposals into a clean bulleted list."
+    }
+   ],
+   "ad_breaks": {
+    "good": [
+     "H1: Rice Cultivation and Innovation"
+    ],
+    "avoid": [
+     "H2: What would fix this"
+    ]
+   },
+   "model": "gemini-flash-lite-latest"
+  },
+  "Mistral": {
+   "raw": "```json\n{\n  \"structure_score\": 3,\n  \"summary_up_top\": {\n    \"present\": false,\n    \"suggest\": \"Open with a concise, punchy hook: *‘Three separate rice sustainability stories—India’s carbon-credit race, Japan’s solar-paddy breakthrough, and the Verra collapse—are often conflated. Here’s how they differ.’*\"\n  },\n  \"edits\": [\n    {\n      \"where\": \"opening\",\n      \"type\": \"shorten-heading\",\n      \"why\": \"The H1 is too broad and risks confusing readers about the three distinct threads.\",\n      \"how\": \"Change to: *‘Rice, Carbon Credits, and Solar Paddies: Three Separate Stories in India and Japan’*\"\n    },\n    {\n      \"where\": \"opening\",\n      \"type\": \"split-section\",\n      \"why\": \"The first 400 words mix meta (correction), context (Verra collapse), and narrative (three threads) without clear hierarchy.\",\n      \"how\": \"Split into three distinct sections:\n      1. **Hook (1st 50 words):** The ‘three threads’ framing + correction (BASF/Mitsubishi).\n      2. **Context (next 100 words):** Verra collapse + carbon-credit methodology (para 2–3).\n      3. **Preview (remaining 250 words):** Dedicate 1 paragraph each to the three threads (India’s programmes, Japan’s solar-paddy, and the disconnection between them).\"\n    },\n    {\n      \"where\": \"H1\",\n      \"type\": \"split-section\",\n      \"why\": \"The H1 lumping ‘Rice Cultivation and Innovation’ obscures the three threads’ separation.\",\n      \"how\": \"Replace with two H1s:\n      1. *‘India’s Rice Carbon-Credit Race: BASF vs. Mitsubishi in the Voluntary Market’* (for paras 1–8, Verra collapse, and India’s programmes).\n      2. *‘Japan’s Solar-Paddy Breakthrough: How Agrivoltaics Boost Rice Yields’* (for paras 9–13, Japan’s chart/table/boxes).\"\n    },\n    {\n      \"where\": \"para 6 (123 words)\",\n      \"type\": \"split-paragraph\",\n      \"why\": \"Verra’s 2024 invalidation is a major turning point—it deserves its own heading to break up dense text.\",\n      \"how\": \"Add H2: *‘Verra’s 2024 Collapse: How 4.5 Million Rice Credits Vanished’* before para 6.\"\n    },\n    {\n      \"where\": \"para 8 (122 words)\",\n      \"type\": \"split-paragraph\",\n      \"why\": \"The University of Tokyo study is a critical counterpoint to the Verra narrative—isolate it visually.\",\n      \"how\": \"Add H2: *‘Science vs. Market: Japan’s Lab Findings on Rice Methane’* before para 8.\"\n    },\n    {\n      \"where\": \"chart: svg (under H1)\",\n      \"type\": \"add-heading\",\n      \"why\": \"The first chart (India’s carbon-credit programmes) lacks context for mobile readers.\",\n      \"how\": \"Add H3: *‘How India’s Carbon-Credit Programmes Compare’* before the SVG.\"\n    },\n    {\n      \"where\": \"table: 3x3 (under H1)\",\n      \"type\": \"to-list\",\n      \"why\": \"Tables are hard to read on phones; a bulleted summary preserves data without visual clutter.\",\n      \"how\": \"Replace with a 3-bullet list: *‘Key differences between BASF and Mitsubishi’s programmes: [1] Project scale, [2] AWD implementation, [3] Credit pricing.’* (Keep table as a downloadable appendix if needed.)\"\n    },\n    {\n      \"where\": \"box: gb-card (under H2: What would fix this)\",\n      \"type\": \"merge\",\n      \"why\": \"The ‘fixes’ box interrupts the flow of solutions—it should anchor the H2 section.\",\n      \"how\": \"Move the first box to *immediately after* the H2 heading, then reorder subsequent boxes to align with solutions (e.g., policy, tech, market reforms).\"\n    },\n    {\n      \"where\": \"para 13 (closing)\",\n      \"type\": \"shorten-heading\",\n      \"why\": \"The current H2 (*‘What would fix this’*) is vague for a closing section.\",\n      \"how\": \"Change to: *‘Three Paths Forward: Policy, Science, and Market Reform’*\"\n    }\n  ],\n  \"ad_breaks\": {\n    \"good\": [\n      \"H2: Verra’s 2024 Collapse: How 4.5 Million Rice Credits Vanished\",\n      \"H2: Science vs. Market: Japan’s Lab Findings on Rice Methane\",\n      \"H2: What would fix this\"\n    ],\n    \"avoid\": [\n      \"chart: svg (under H1)\",\n      \"table: 3x3 (under H1)\",\n      \"box: gb-card (under H2: What would fix this, first instance)\",\n      \"para 6 (123 words)\",\n      \"para 8 (122 words)\"\n    ]\n  }\n}\n```",
+   "model": "open-mistral-nemo"
+  },
+  "Groq": {
+   "structure_score": 3,
+   "summary_up_top": {
+    "present": true,
+    "suggest": "Add a one‑sentence lead that tells readers the article will compare two competing Indian rice‑carbon credit programs and Japan’s agrivoltaic research."
+   },
+   "edits": [
+    {
+     "where": "para 6",
+     "type": "split-paragraph",
+     "why": "The paragraph is over 120 words and dense, making it hard to scan on a phone.",
+     "how": "Break it after the sentence ending with “Verra…2024” and start a new paragraph with the next sentence."
+    },
+    {
+     "where": "para 8",
+     "type": "split-paragraph",
+     "why": "Same readability issue as para 6.",
+     "how": "Insert a paragraph break after the sentence that ends with “University of Tokyo‑led team published results…”."
+    },
+    {
+     "where": "Rice Cultivation and Innovation",
+     "type": "add-heading",
+     "why": "The H1 covers two unrelated topics; a sub‑heading helps readers locate the Japan section quickly.",
+     "how": "Insert a level‑2 heading titled “Japan’s solar‑paddy research” right before the second chart."
+    },
+    {
+     "where": "Rice Cultivation and Innovation",
+     "type": "split-section",
+     "why": "Grouping the Indian carbon‑credit programmes and the Japanese agrivoltaic pilot into separate sections improves scan‑ability.",
+     "how": "Create two level‑2 sub‑headings: “Indian rice‑methane carbon‑credit programmes” and “Japan’s solar‑paddy research”, and move the relevant paragraphs under each."
+    },
+    {
+     "where": "opening",
+     "type": "to-list",
+     "why": "The “Three threads, not one story.” sentence lists three ideas in prose, which is harder to skim.",
+     "how": "Replace the sentence with a bullet list of the three threads."
+    },
+    {
+     "where": "table: 3 cols x 3 rows",
+     "type": "move",
+     "why": "Tables interrupt the flow of reading and should be placed where the data is first referenced.",
+     "how": "Move the table to immediately follow the paragraph that discusses the 4.5 million credits invalidated by Verra."
+    },
+    {
+     "where": "What would fix this",
+     "type": "shorten-heading",
+     "why": "A more descriptive heading signals the content of the section at a glance.",
+     "how": "Rename the heading to “How to fix the credit market”."
+    },
+    {
+     "where": "What would fix this",
+     "type": "other",
+     "why": "A concise takeaway helps mobile readers remember the key recommendation.",
+     "how": "Add a boxed note at the end of this section summarising the three actionable fixes in bullet form."
+    }
+   ],
+   "ad_breaks": {
+    "good": [
+     "Japan’s solar‑paddy research",
+     "How to fix the credit market"
+    ],
+    "avoid": [
+     "table: 3 cols x 3 rows",
+     "chart: svg",
+     "chart: img",
+     "boxed note within What would fix this"
+    ]
+   },
+   "model": "openai/gpt-oss-120b"
+  }
+ }
+}

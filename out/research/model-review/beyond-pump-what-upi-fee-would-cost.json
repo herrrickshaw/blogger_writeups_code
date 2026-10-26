@@ -1,0 +1,124 @@
+{
+ "slug": "beyond-pump-what-upi-fee-would-cost",
+ "outline": "2437 words in 35 paragraphs; 5 tables; 2 charts/images; 13 boxed notes\nH1: UPI Mimicking the Plastic Card: Will MDR Be Like Visa Fees?  [27 words in paragraphs and lists]\n    [chart: svg]\n    [chart: img]\n    [box: stat]\n    (x4)\n    [box: warn]\n  H2: The shield that came off, briefly  [133 words in paragraphs and lists]\n    para 5: 125 words (long) — Since 1 January 2020, Section 10A of the Payment and Settlement Systems...\n    [box: warn]\n  H2: Is UPI heading toward card-network pricing?  [238 words in paragraphs and lists]\n    [box: exhibit]\n    [table: 3 cols x 9 rows]\n    [box: note]\n  H2: The leverage curve, once more  [320 words in paragraphs and lists]\n    [box: exhibit]\n    [table: 4 cols x 8 rows]\n  H2: Where NPCI says the volume actually is  [181 words in paragraphs and lists]\n    [box: exhibit]\n    [table: 6 cols x 16 rows]\n  H2: Food and grocery: the counters most Indians actually stand at  [559 words in paragraphs and lists]\n    [box: exhibit]\n    [table: 2 cols x 6 rows]\n    [table: 3 cols x 4 rows]\n  H2: The rest of NPCI's top 15  [621 words in paragraphs and lists]\n    [box: note]\n    (x2)\n    para 33: 241 words (long) — Sources. NPCI merchant-category classification data for July 2025, decoded and published by...\n  H2: What would fix this  [271 words in paragraphs and lists]",
+ "models": {
+  "Gemini": {
+   "structure_score": 2,
+   "summary_up_top": {
+    "present": false,
+    "suggest": "Add a one-sentence takeaway at the very top explaining that the post-zero-MDR fee arithmetic threatens everyday merchant categories like groceries and restaurants just as it does fuel."
+   },
+   "edits": [
+    {
+     "where": "Food and grocery: the counters most Indians actually stand at",
+     "type": "split-section",
+     "why": "This section is too long (559 words) for a mobile screen and contains two large tables.",
+     "how": "Split into two H2 sections after the first table."
+    },
+    {
+     "where": "The rest of NPCI's top 15",
+     "type": "split-section",
+     "why": "At 621 words with multiple boxed notes and a 241-word closing paragraph, it overwhelms mobile readers.",
+     "how": "Split into two H2 sections around the middle of the text."
+    },
+    {
+     "where": "para 33",
+     "type": "split-paragraph",
+     "why": "A 241-word paragraph is far too long to read comfortably on a phone.",
+     "how": "Split para 33 into three shorter paragraphs."
+    },
+    {
+     "where": "para 5",
+     "type": "split-paragraph",
+     "why": "At 125 words, this paragraph requires too much vertical scrolling on mobile.",
+     "how": "Split para 5 into two paragraphs."
+    }
+   ],
+   "ad_breaks": {
+    "good": [
+     "The shield that came off, briefly",
+     "Is UPI heading toward card-network pricing?",
+     "The leverage curve, once more",
+     "Where NPCI says the volume actually is"
+    ],
+    "avoid": [
+     "Food and grocery: the counters most Indians actually stand at",
+     "The rest of NPCI's top 15"
+    ]
+   },
+   "model": "gemini-flash-lite-latest"
+  },
+  "Mistral": {
+   "raw": "```json\n{\n  \"structure_score\": 3,\n  \"summary_up_top\": {\n    \"present\": true,\n    \"suggest\": \"Open with a **single, punchy headline** (e.g., *“UPI’s 0% MDR era ends: Groceries, restaurants and fuel now face fees—here’s how much merchants will pay”*) to immediately signal the stakes, followed by a **1-sentence hook** (e.g., *“After six years of zero fees, UPI’s merchant discount rate (MDR) is back—and groceries, restaurants, and fuel will bear the brunt”*) to ground the reader in the core conflict.\"\n  },\n  \"edits\": [\n    {\n      \"where\": \"opening\",\n      \"type\": \"shorten-heading\",\n      \"why\": \"The H1 is too long for mobile skimmers; it risks being truncated or ignored in previews.\",\n      \"how\": \"Trim to **18–22 words**: *“UPI’s MDR return: Who pays most? Groceries, fuel, and more”*\n    },\n    {\n      \"where\": \"opening\",\n      \"type\": \"split-section\",\n      \"why\": \"The first 400 words mix **context**, **data teases**, and **visuals** without clear hierarchy, overwhelming mobile readers.\",\n      \"how\": \"Separate into **3 distinct blocks**:\n        1. **Hook + stakes** (para 1–3): Keep the petrol pump example but **frontload the 43.7% grocery/restaurant volume** as the *primary* focus (swap order).\n        2. **Visual-first teaser** (chart + 1-sentence caption): Move the **groceries/fast food/digital goods chart** *immediately* after the hook, with a **mobile-optimized caption** (e.g., *“Groceries, restaurants, and fast food dominate UPI volume—here’s how much MDR will cost them”*).\n        3. **Context** (para 4–6): Delay the statutory change (Section 10A) to **para 5**, after establishing the *why it matters* (e.g., *“This shift means merchants in these categories will now pay fees—starting with groceries, restaurants, and fuel”*).\n    },\n    {\n      \"where\": \"H2: The shield that came off, briefly\",\n      \"type\": \"shorten-heading\",\n      \"why\": \"The heading is vague; mobile users may skip it assuming it’s a legal deep-dive.\",\n      \"how\": \"Rename to: *“How UPI’s 6-year zero-MDR era ended—and who’s affected”*\n    },\n    {\n      \"where\": \"para 5 (under H2: The shield that came off, briefly)\",\n      \"type\": \"split-paragraph\",\n      \"why\": \"The 125-word legal explanation risks losing mobile readers mid-sentence.\",\n      \"how\": **\"Break into 2 paragraphs**:\n        1. **Simplified summary** (30 words): *“Section 10A of the PSS Act, amended on 4 August 2026, ended UPI’s statutory zero-MDR. Here’s what it means.”*\n        2. **Key detail**: Move the **date** and **impact** (e.g., *“This change forces NPCI to charge merchants for processing UPI transactions, starting with high-volume categories like groceries and fuel.”*) to the second paragraph.\n    },\n    {\n      \"where\": \"H2: Is UPI heading toward card-network pricing?\",\n      \"type\": \"add-heading\",\n      \"why\": \"The table here is critical but buried; mobile users may miss the **leverage comparison** to Visa/Mastercard.\",\n      \"how\": **\"Insert a subheading before the table**: *“How UPI’s MDR could mirror credit-card fees—by category”*\n    },\n    {\n      \"where\": \"H2: Food and grocery: the counters most Indians actually stand at\",\n      \"type\": \"split-section\",\n      \"why\": \"The 559-word block is **too dense** for mobile; the two tables risk being skipped.\",\n      \"how\": **\"Split into 3 sections**:\n        1. **Heading + hook** (para 1–2): *“Why groceries, restaurants, and fast food will feel the MDR hit hardest”* (frontload the **43.7% volume** and **ticket-size data**).\n        2. **First table** (2 cols x 6 rows): Keep as-is but **add a mobile-friendly caption**: *“Average UPI transaction values by category (₹), July 2025”*.\n        3. **Second table** (3 cols x 4 rows): Move to a **dedicated subheading**: *“How MDR fees stack up against merchant margins”* (with a **1-sentence intro**: *“Here’s how a 1% MDR would eat into profits for groceries vs. fuel”*).\n    },\n    {\n      \"where\": \"H2: The rest of NPCI's top 15\",\n      \"type\": \"shorten-heading\",\n      \"why\": \"The heading is generic; mobile users may assume this is a dry list.\",\n      \"how\": \"Rename to: *“Beyond groceries and fuel: Which other merchants will pay MDR?”*\n    },\n    {\n      \"where\": \"para 33 (under H2: The rest of NPCI's top 15)\",\n      \"type\": \"split-paragraph\",\n      \"why\": \"The 241-word sources paragraph is **non-story**; mobile readers will scroll past it.\",\n      \"how\": **\"Move to a ‘Sources’ box** at the end of the section (after the last table) with a **mobile-optimized label**: *“Methodology: How we decoded NPCI’s merchant-category data”*\n    }\n  ],\n  \"ad_breaks\": {\n    \"good\": [\n      \"H2: The leverage curve, once more\",\n      \"H2: What would fix this\"\n    ],\n    \"avoid\": [\n      \"H2: Food and grocery: the counters most Indians actually stand at\",\n      \"H2: The rest of NPCI's top 15\",\n      \"para 5 (under H2: The shield that came off, briefly)\",\n      \"para 33 (under H2: The rest of NPCI's top 15)\"\n    ]\n  }\n}\n```",
+   "model": "open-mistral-nemo"
+  },
+  "Groq": {
+   "structure_score": 3,
+   "summary_up_top": {
+    "present": true,
+    "suggest": "Begin with a one‑sentence hook that tells readers the core finding – e.g., “Zero‑MDR on UPI ended, and our analysis shows that groceries, restaurants and fast‑food now drive almost half of all merchant‑side UPI volume, raising the stakes for future fee structures.”"
+   },
+   "edits": [
+    {
+     "where": "opening",
+     "type": "other",
+     "why": "The opening is a dense wall of stats that overwhelms mobile readers.",
+     "how": "Insert a concise, bolded summary sentence (as suggested above) before the first chart/box, then add a line break."
+    },
+    {
+     "where": "para 5",
+     "type": "split-paragraph",
+     "why": "125‑word paragraph is too long for phone screens.",
+     "how": "Break after the sentence ending with “Section 10A of the Payment and Settlement Systems…”, creating two paragraphs of roughly equal length."
+    },
+    {
+     "where": "para 33",
+     "type": "split-paragraph",
+     "why": "241‑word paragraph hampers scrollability.",
+     "how": "Insert a break after the first complete thought (e.g., after the sentence that ends with “decoded and published by…”) to create two readable chunks."
+    },
+    {
+     "where": "opening",
+     "type": "to-table",
+     "why": "The list of merchant‑category percentages reads like raw data on a phone.",
+     "how": "Convert the bullet‑style percentages into a two‑column table: Category | Share, and place it right after the new summary sentence."
+    },
+    {
+     "where": "UPI Mimicking the Plastic Card: Will MDR Be Like Visa Fees?",
+     "type": "shorten-heading",
+     "why": "The H1 is long and may be truncated on small screens.",
+     "how": "Change to “UPI Mimicking Plastic Cards: Will MDR Match Visa Fees?”"
+    },
+    {
+     "where": "after H1",
+     "type": "add-heading",
+     "why": "The opening box collection lacks a framing label, making it hard to scan.",
+     "how": "Insert a level‑3 heading “Key Stats” before the first series of boxes."
+    },
+    {
+     "where": "chart: svg",
+     "type": "move",
+     "why": "Placing a chart immediately after a long paragraph forces a scroll before the next ad break.",
+     "how": "Move the SVG chart to appear right after the new “Key Stats” heading, before the first paragraph of body text."
+    },
+    {
+     "where": "H2: The rest of NPCI's top 15",
+     "type": "merge",
+     "why": "Two boxed notes are separated only by a line break, breaking visual flow.",
+     "how": "Combine the two adjacent boxes into a single box with a clear sub‑heading, reducing visual clutter."
+    }
+   ],
+   "ad_breaks": {
+    "good": [
+     "The shield that came off, briefly",
+     "What would fix this"
+    ],
+    "avoid": [
+     "Where NPCI says the volume actually is",
+     "Food and grocery: the counters most Indians actually stand at"
+    ]
+   },
+   "model": "openai/gpt-oss-120b"
+  }
+ }
+}

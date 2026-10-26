@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/a-17-rural-pay-rise-that-nobody-received.html",
   "slug": "a-17-rural-pay-rise-that-nobody-received",
   "published": "2026-08-22T11:06:55.000+05:30",
-  "updated": "2026-10-26T13:54:50.756+05:30",
+  "updated": "2026-10-26T17:37:57.001+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "India",
     "Prices & Inflation"
   ],
-  "bytes": 40478,
-  "sha256": "f00d9fc77c2588a9e7e5d9cb8ed3f673726bd82be86cfa8d8c6cc3035457d084",
+  "bytes": 40861,
+  "sha256": "97cbf4a8a98fc6be6d7d2c63ff168628e97f25f9fbc3cddafe222864f894fb12",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "4.0.0",
+  "version": "5.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -148,6 +148,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "MoSPI refresh: Sep 2026 CPI by state, WPI items, CPI-AL/RL, GDP PE, WPI deflator fix"
+    },
+    {
+      "version": "5.0.0",
+      "date": "2026-10-26T17:40:53+05:30",
+      "level": "major",
+      "reason": "forced via --as major (visible text identical; only markup/styling changed)",
+      "bytes": [
+        40478,
+        40861
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Green debt post: chart, rate-gap and FX tables to late Oct; model-review paragraph splits in 20 posts"
     }
   ]
 }

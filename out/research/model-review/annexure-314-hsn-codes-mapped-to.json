@@ -1,0 +1,137 @@
+{
+ "slug": "annexure-314-hsn-codes-mapped-to",
+ "outline": "518 words in 5 paragraphs; 13 tables; 2 charts/images; 1 boxed notes\nH1: Annexure: 314 HSN Codes Mapped to Technical-Textile Segments  [7 words in paragraphs and lists]\n    [box: callout]\n    [chart: img]\n  H2: What this is  [83 words in paragraphs and lists]\n  H2: Segment-by-segment code list  [0 words in paragraphs and lists]\n    H3: Packtech (15 codes, 15 confirmed under M/o Textiles)  [0 words in paragraphs and lists]\n    [table: 3 cols x 16 rows]\n    H3: Indutech (118 codes, 101 confirmed under M/o Textiles)  [0 words in paragraphs and lists]\n    [table: 3 cols x 119 rows]\n    H3: Mobiltech (12 codes, 11 confirmed under M/o Textiles)  [0 words in paragraphs and lists]\n    [table: 3 cols x 13 rows]\n    H3: Clothtech (5 codes, 5 confirmed under M/o Textiles)  [0 words in paragraphs and lists]\n    [table: 3 cols x 6 rows]\n    H3: Hometech (14 codes, 13 confirmed under M/o Textiles)  [0 words in paragraphs and lists]\n    [table: 3 cols x 15 rows]\n    H3: Meditech (23 codes, 17 confirmed under M/o Textiles)  [0 words in paragraphs and lists]\n    [table: 3 cols x 24 rows]\n    H3: Buildtech (10 codes, 5 confirmed under M/o Textiles)  [0 words in paragraphs and lists]\n    [table: 3 cols x 11 rows]\n    H3: Agrotech (11 codes, 10 confirmed under M/o Textiles)  [0 words in paragraphs and lists]\n    [table: 3 cols x 12 rows]\n    H3: Geotech (8 codes, 8 confirmed under M/o Textiles)  [0 words in paragraphs and lists]\n    [table: 3 cols x 9 rows]\n    H3: Sportech (34 codes, 22 confirmed under M/o Textiles)  [0 words in paragraphs and lists]\n    [table: 3 cols x 35 rows]\n    H3: Protech (22 codes, 18 confirmed under M/o Textiles)  [0 words in paragraphs and lists]\n    [table: 3 cols x 23 rows]\n    H3: Specialty Fibres & Composites (31 codes, 27 confirmed under M/o Textiles)  [0 words in paragraphs and lists]\n    [table: 3 cols x 32 rows]\n    H3: Defence Textile (11 codes, 9 confirmed under M/o Textiles)  [0 words in paragraphs and lists]\n    [table: 3 cols x 12 rows]\n    [chart: svg]\n  H2: Methodology & caveats  [398 words in paragraphs and lists]",
+ "models": {
+  "Gemini": {
+   "structure_score": 1,
+   "summary_up_top": {
+    "present": true,
+    "suggest": "The opening should immediately state that this is a companion reference listing all 314 HSN codes mapped to technical-textile segments for the main Fuel to Fibre article."
+   },
+   "edits": [
+    {
+     "where": "opening",
+     "type": "other",
+     "why": "Navigation elements, text sizing tools, audio players, and breadcrumbs clutter the mobile view before the actual content starts.",
+     "how": "Strip out the site navigation, text size controls, listen buttons, and breadcrumbs so the article title is the first thing visible."
+    },
+    {
+     "where": "Segment-by-segment code list",
+     "type": "to-list",
+     "why": "Thirteen massive data tables in a row create an endless scroll that overwhelms mobile screens and breaks browser performance.",
+     "how": "Collapse each segment into a summary accordion or collapsible list view rather than rendering all 314 rows across 13 tables simultaneously."
+    },
+    {
+     "where": "H2: Methodology & caveats",
+     "type": "move",
+     "why": "Burying nearly 400 words of methodology and caveats at the very bottom after an endless wall of data tables means readers miss crucial context.",
+     "how": "Move the Methodology & caveats section up right after 'What this is' so readers understand the data rules before browsing the codes."
+    }
+   ],
+   "ad_breaks": {
+    "good": [
+     "What this is"
+    ],
+    "avoid": [
+     "Segment-by-segment code list",
+     "Packtech (15 codes, 15 confirmed under M/o Textiles)",
+     "Indutech (118 codes, 101 confirmed under M/o Textiles)",
+     "Mobiltech (12 codes, 11 confirmed under M/o Textiles)",
+     "Clothtech (5 codes, 5 confirmed under M/o Textiles)",
+     "Hometech (14 codes, 13 confirmed under M/o Textiles)",
+     "Meditech (23 codes, 17 confirmed under M/o Textiles)",
+     "Buildtech (10 codes, 5 confirmed under M/o Textiles)",
+     "Agrotech (11 codes, 10 confirmed under M/o Textiles)",
+     "Geotech (8 codes, 8 confirmed under M/o Textiles)",
+     "Sportech (34 codes, 22 confirmed under M/o Textiles)",
+     "Protech (22 codes, 18 confirmed under M/o Textiles)",
+     "Specialty Fibres & Composites (31 codes, 27 confirmed under M/o Textiles)",
+     "Defence Textile (11 codes, 9 confirmed under M/o Textiles)"
+    ]
+   },
+   "model": "gemini-flash-lite-latest"
+  },
+  "Mistral": {
+   "raw": "```json\n{\n  \"structure_score\": 3,\n  \"summary_up_top\": {\n    \"present\": false,\n    \"suggest\": \"Start with a concise hook: *‘This annexure maps all 314 HSN codes from our Fuel-to-Fibre analysis to India’s technical-textile segments—with a 83% match to the Ministry of Textiles’ official list.’*\"\n  },\n  \"edits\": [\n    {\n      \"where\": \"opening\",\n      \"type\": \"shorten-heading\",\n      \"why\": \"The H1 is too long for mobile; prioritize ‘314 HSN Codes’ and ‘Technical-Textile Segments’ for clarity.\",\n      \"how\": \"Rename to: *‘Annexure: 314 HSN Codes for India’s Technical-Textile Segments’*\"\n    },\n    {\n      \"where\": \"opening\",\n      \"type\": \"split-section\",\n      \"why\": \"The first 400 words mix metadata, context, and methodology—mobile readers lose focus.\",\n      \"how\": \"Move the *‘This is a companion reference’* paragraph to the **Methodology & caveats** section (H2) and replace it with a 1-line purpose statement: *‘Below is the full 314-code list from our Fuel-to-Fibre analysis, cross-checked against the Ministry of Textiles’ ownership records.’***\n    },\n    {\n      \"where\": \"H2: What this is\",\n      \"type\": \"shorten-heading\",\n      \"why\": \"Mobile users skim; ‘What this is’ is redundant with the H1’s clarity.\",\n      \"how\": \"Rename to: *‘Key Findings: Ministry Ownership by Segment’*\"\n    },\n    {\n      \"where\": \"H2: What this is\",\n      \"type\": \"to-list\",\n      \"why\": \"The 83% confirmation stat and 53-code breakdown are critical but dense in prose.\",\n      \"how\": \"Convert the last paragraph into a **bullet list** under the heading, e.g.: *‘Of 314 codes: 261 (83%) confirmed under MoT; 53 under other ministries (e.g., 9 in Chapter 70, 8 in Chapter 62).’*\"\n    },\n    {\n      \"where\": \"H3: Packtech (and all other H3s)\",\n      \"type\": \"shorten-heading\",\n      \"why\": \"Headings like *‘Packtech (15 codes, 15 confirmed)’* are repetitive and cluttered on mobile.\",\n      \"how\": \"Standardize to: *‘Packtech’* (remove counts; add counts in table headers or footnotes).\"\n    },\n    {\n      \"where\": \"all tables under H2: Segment-by-segment code list\",\n      \"type\": \"to-table\",\n      \"why\": \"Mobile users struggle with nested tables; consolidate all HSN-code tables into **one master table** with segment filters.\",\n      \"how\": \"Create a single table with columns: *‘Segment | HSN Code | Description | MoT Confirmed?’* and add a **segment dropdown filter** (via CSS/JS) for mobile.\"\n    },\n    {\n      \"where\": \"H2: Methodology & caveats\",\n      \"type\": \"add-heading\",\n      \"why\": \"The 398-word block lacks hierarchy; mobile readers miss key caveats.\",\n      \"how\": \"Split into **two subheadings**:\n        - *‘How We Mapped Codes’* (first 200 words)\n        - *‘Limitations & Updates’* (remaining 198 words, e.g., ‘Corrected 9 Aug 2026: Chapter 70 now 9 codes’).\"\n    },\n    {\n      \"where\": \"chart: svg (under H2: Segment-by-segment code list)\",\n      \"type\": \"move\",\n      \"why\": \"The SVG chart interrupts the flow of segment tables; it belongs near the **Methodology** section.\",\n      \"how\": \"Move the SVG to the end of the **Methodology & caveats** section (H2).\"\n    },\n    {\n      \"where\": \"boxed notes\",\n      \"type\": \"shorten-heading\",\n      \"why\": \"The callout’s purpose isn’t clear in the outline; assume it’s a key stat or warning.\",\n      \"how\": \"Rename to: *‘Why This Matters’* (if highlighting administrative gaps) or *‘Data Source’* (if citing DPIIT).\"\n    }\n  ],\n  \"ad_breaks\": {\n    \"good\": [\n      \"H2: Methodology & caveats\",\n      \"H2: What this is\"\n    ],\n    \"avoid\": [\n      \"H3: Packtech (and all other segment tables)\",\n      \"chart: svg (under H2: Segment-by-segment code list)\",\n      \"boxed notes\"\n    ]\n  }\n}\n```",
+   "model": "open-mistral-nemo"
+  },
+  "Groq": {
+   "structure_score": 2,
+   "summary_up_top": {
+    "present": false,
+    "suggest": "Add a brief one‑sentence summary that tells readers this annex lists all 314 HSN codes used in the Fuel‑to‑Fibre analysis and shows which are owned by the Ministry of Textiles."
+   },
+   "edits": [
+    {
+     "where": "opening",
+     "type": "add-heading",
+     "why": "Phone readers need an immediate takeaway before diving into details.",
+     "how": "Insert a new H2 titled \"Summary\" right after the first line of the opening and before the \"What this is\" section, containing 2‑3 concise sentences."
+    },
+    {
+     "where": "opening",
+     "type": "split-paragraph",
+     "why": "The opening block is a wall of text that scrolls off‑screen on mobile.",
+     "how": "Break the opening after the sentence ending with \"...crowding the main piece.\" and start a new paragraph with the next sentence."
+    },
+    {
+     "where": "Segment-by-segment code list",
+     "type": "add-heading",
+     "why": "An introductory heading helps readers understand the purpose before the long series of tables.",
+     "how": "Insert a new H3 titled \"Segment Overview\" immediately after the \"Segment-by-segment code list\" H2 and before the first segment H3."
+    },
+    {
+     "where": "Packtech (15 codes, 15 confirmed under M/o Textiles)",
+     "type": "split-section",
+     "why": "Each segment table is large; splitting makes scrolling less daunting.",
+     "how": "Divide each segment table into two parts: first half of rows under the existing H3, and second half under a new H4 titled \"Continued\"."
+    },
+    {
+     "where": "Methodology & caveats",
+     "type": "shorten-heading",
+     "why": "A shorter heading fits better on small screens and reduces truncation.",
+     "how": "Rename the heading to \"Methodology\" while keeping the same content."
+    },
+    {
+     "where": "Methodology & caveats",
+     "type": "move",
+     "why": "Placing the methodology after the tables lets readers absorb data first, then understand how it was built.",
+     "how": "Move the entire \"Methodology & caveats\" section to follow the last segment table (after \"Defence Textile\")."
+    },
+    {
+     "where": "Methodology & caveats",
+     "type": "other",
+     "why": "A textual block is an ideal spot for an ad without breaking data flow.",
+     "how": "Place an ad break immediately after the closing paragraph of the moved \"Methodology\" section."
+    },
+    {
+     "where": "Defence Textile",
+     "type": "other",
+     "why": "Avoid inserting ads in the middle of the final table, which would disrupt reading.",
+     "how": "Do not place an ad break after the \"Defence Textile\" heading or its table."
+    }
+   ],
+   "ad_breaks": {
+    "good": [
+     "Methodology"
+    ],
+    "avoid": [
+     "Packtech (15 codes, 15 confirmed under M/o Textiles)",
+     "Indutech (118 codes, 101 confirmed under M/o Textiles)",
+     "Mobiltech (12 codes, 11 confirmed under M/o Textiles)",
+     "Clothtech (5 codes, 5 confirmed under M/o Textiles)",
+     "Hometech (14 codes, 13 confirmed under M/o Textiles)",
+     "Meditech (23 codes, 17 confirmed under M/o Textiles)",
+     "Buildtech (10 codes, 5 confirmed under M/o Textiles)",
+     "Agrotech (11 codes, 10 confirmed under M/o Textiles)",
+     "Geotech (8 codes, 8 confirmed under M/o Textiles)",
+     "Sportech (34 codes, 22 confirmed under M/o Textiles)",
+     "Protech (22 codes, 18 confirmed under M/o Textiles)",
+     "Specialty Fibres & Composites (31 codes, 27 confirmed under M/o Textiles)",
+     "Defence Textile"
+    ]
+   },
+   "model": "openai/gpt-oss-120b"
+  }
+ }
+}

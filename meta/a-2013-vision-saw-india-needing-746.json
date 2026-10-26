@@ -4,15 +4,15 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/a-2013-vision-saw-india-needing-746.html",
   "slug": "a-2013-vision-saw-india-needing-746",
   "published": "2026-09-09T07:20:06.000+05:30",
-  "updated": "2026-10-26T08:58:34.393+05:30",
+  "updated": "2026-10-26T17:38:06.644+05:30",
   "labels": [
     "Energy & Fuels",
     "Gas & LNG",
     "Gas Pipeline Infrastructure & Demand Planning",
     "Macroeconomics & Monetary Policy"
   ],
-  "bytes": 28917,
-  "sha256": "0bac8ba86235626919babb0304778a0db9b1ad3b79ed39d8840344262ba4c728",
+  "bytes": 29095,
+  "sha256": "ae4425a28764ba5cf5aacc01eb3b32dea0983fec917737030f5937ca62583da0",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.0",
+  "version": "3.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -97,6 +97,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Crosscheck 26 Oct: stale figures corrected in 10 posts (CAQM, gas grid, GDP, H2 tenders, wind, IOCL PII, rupee, Dahej)"
+    },
+    {
+      "version": "3.0.0",
+      "date": "2026-10-26T17:40:53+05:30",
+      "level": "major",
+      "reason": "forced via --as major (visible text identical; only markup/styling changed)",
+      "bytes": [
+        28917,
+        29095
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Green debt post: chart, rate-gap and FX tables to late Oct; model-review paragraph splits in 20 posts"
     }
   ]
 }

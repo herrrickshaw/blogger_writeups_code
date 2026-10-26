@@ -1,0 +1,134 @@
+{
+ "slug": "airbags-and-seat-belts-are-import-heavy",
+ "outline": "1901 words in 18 paragraphs; 2 tables; 2 charts/images; 5 boxed notes\nH1: Airbags and Seat Belts Are Import-Heavy. Tyre Cord Isn't. India's Automotive Textiles Aren't One Story  [1348 words in paragraphs and lists]\n    [chart: svg]\n    [box: gb-card]\n    [chart: img]\n    para 5: 182 words (long) — Seat belt webbing is 100% polyester, tightly woven for UV, rot and...\n    [table: 3 cols x 6 rows]\n    para 7: 127 words (long) — The ₹6,004 crore import figure and the 2021 market-size figure are from...\n    [box: gb-card]\n    para 9: 140 words (long) — And it has long been protected. India has run anti-dumping duties against...\n    para 12: 146 words (long) — Finished seat belt assemblies and airbags are classified under HSN Chapter 87...\n    [table: 3 cols x 4 rows]\n    para 14: 165 words (long) — None of these three programmes carve out seat belts, airbags or tyre...\n    [box: warn]\n  H2: What would fix this  [466 words in paragraphs and lists]\n    [box: gb-card]\n    para 16: 132 words (long) — What this piece does not establish. The Ministry of Textiles' own technical-textiles...\n    [box: gb-card]",
+ "models": {
+  "Gemini": {
+   "structure_score": 2,
+   "summary_up_top": {
+    "present": true,
+    "suggest": ""
+   },
+   "edits": [
+    {
+     "where": "para 5",
+     "type": "split-paragraph",
+     "why": "Paragraph is 182 words, which is too long for comfortable vertical scrolling on mobile screens.",
+     "how": "Split the paragraph roughly in half at a logical sentence break."
+    },
+    {
+     "where": "para 9",
+     "type": "split-paragraph",
+     "why": "Paragraph is 140 words and contains dense policy details that benefit from breathing room on mobile.",
+     "how": "Split the paragraph into two shorter paragraphs."
+    },
+    {
+     "where": "para 12",
+     "type": "split-paragraph",
+     "why": "Paragraph is 146 words long and follows a complex classification argument.",
+     "how": "Split the paragraph after the first two sentences to improve mobile readability."
+    },
+    {
+     "where": "para 14",
+     "type": "split-paragraph",
+     "why": "Paragraph is 165 words and discusses multiple government programmes in a single block.",
+     "how": "Split into two paragraphs between the discussion of separate programmes."
+    },
+    {
+     "where": "para 7",
+     "type": "split-paragraph",
+     "why": "Paragraph is 127 words, making it a heavy text block between visual elements.",
+     "how": "Split into two paragraphs to maintain a fast-paced mobile rhythm."
+    },
+    {
+     "where": "para 16",
+     "type": "split-paragraph",
+     "why": "Paragraph is 132 words and serves as an important methodological caveat that is hard to scan in one block.",
+     "how": "Split the paragraph after the introductory sentence."
+    }
+   ],
+   "ad_breaks": {
+    "good": [
+     "What would fix this"
+    ],
+    "avoid": [
+     "H1: Airbags and Seat Belts Are Import-Heavy. Tyre Cord Isn't. India's Automotive Textiles Aren't One Story"
+    ]
+   },
+   "model": "gemini-flash-lite-latest"
+  },
+  "Mistral": {
+   "raw": "```json\n{\n  \"structure_score\": 3,\n  \"summary_up_top\": {\n    \"present\": false,\n    \"suggest\": \"Open with a punchy headline-like hook: *‘India’s automotive textiles are a paradox: while it dominates tyre-cord production, seat belts and airbags remain heavily imported—here’s why.’*\"\n  },\n  \"edits\": [\n    {\n      \"where\": \"opening\",\n      \"type\": \"shorten-heading\",\n      \"why\": \"The H1 is too dense for mobile skimming; prioritize the core contrast (import-heavy vs. self-sufficient) and the ‘not one story’ angle.\",\n      \"how\": \"Trim to: *‘India’s automotive textiles are a paradox: seat belts and airbags are import-dependent, but tyre cord isn’t. Here’s why the sector’s story isn’t uniform.’*\"\n    },\n    {\n      \"where\": \"opening\",\n      \"type\": \"split-section\",\n      \"why\": \"The first 400 words mix context, definitions, and a teaser. Mobile readers lose the narrative flow.\",\n      \"how\": \"Move the *‘This piece separates the two stories’* line to the **second paragraph**, and reorder the opening to:\n      1. **Hook** (1 sentence: the paradox).\n      2. **Definition** (1 sentence: what ‘mobiltech’ covers).\n      3. **Context** (1 sentence: why this matters for safety/localization).\n      4. **Teaser** (1 sentence: the raw material dependency).\"\n    },\n    {\n      \"where\": \"para 5 (182 words)\",\n      \"type\": \"split-paragraph\",\n      \"why\": \"A 182-word para on seat belt webbing’s composition is overwhelming for mobile. Key details (UV/rot resistance, polyester content) can be distilled.\",\n      \"how\": \"Split into:\n      - **Para 5a**: *‘Seat belt webbing is 100% polyester, tightly woven to resist UV, rot, and abrasion—critical for safety in India’s varied climates. [Insert chart here if possible.]’* (50 words).\n      - **Para 5b**: *‘The fabric’s durability is tied to its raw material: imported nylon-6 polymer, which accounts for [X]% of the cost. [Link to table below.]’* (30 words).\"\n    },\n    {\n      \"where\": \"para 7 (127 words)\",\n      \"type\": \"to-list\",\n      \"why\": \"The ₹6,004 crore import figure and 2021 market size are critical but buried in dense prose. Lists improve mobile readability.\",\n      \"how\": \"Convert to a **2-column table** with:\n      - **Column 1**: *‘Key mobiltech metrics (FY2021)’*\n      - **Column 2**: *‘₹6,004 cr’ (imports) | ₹2,704 cr (exports) | 10.35% CAGR (projected) | 22% of total technical textiles (Wazir Advisors, 2018).*\n      Add a caption: *‘Sources: Ministry of Textiles, NTTM, Wazir Advisors.’*\"\n    },\n    {\n      \"where\": \"para 9 (140 words)\",\n      \"type\": \"shorten-heading\",\n      \"why\": \"The heading *‘And it has long been protected’* is vague for mobile users scanning for policy context.\",\n      \"how\": \"Rename to: *‘How anti-dumping duties shaped India’s tyre-cord dominance’* (or similar).\"\n    },\n    {\n      \"where\": \"para 12 (146 words)\",\n      \"type\": \"to-list\",\n      \"why\": \"The HSN Chapter 87 classification details are technical but critical for policy readers. Lists improve scannability.\",\n      \"how\": \"Convert to a **3-column table** with:\n      - **Product** (e.g., *‘Finished seat belt assemblies’*),\n      - **HSN Code**,\n      - **Key import/export note** (e.g., *‘90% of webbing imported; airbags face 10% duty’*).\n      Add a caption: *‘Classification under HSN Chapter 87 (2023).’*\"\n    },\n    {\n      \"where\": \"H2: *‘What would fix this’*\",\n      \"type\": \"add-heading\",\n      \"why\": \"The section lacks a subheading to signal a shift from analysis to solutions. Mobile readers need clear breaks.\",\n      \"how\": \"Add a subheading under H2: *‘Policy levers to reduce mobiltech imports’* (or similar).\"\n    },\n    {\n      \"where\": \"para 16 (132 words)\",\n      \"type\": \"split-paragraph\",\n      \"why\": \"The ‘what this piece does not establish’ disclaimer is important but disrupts the flow. Mobile readers may skip it.\",\n      \"how\": \"Move to a **dedicated box** (like the others) with a heading: *‘Limitations: What this analysis doesn’t cover’* and shorten to 2–3 bullet points.\"\n    }\n  ],\n  \"ad_breaks\": {\n    \"good\": [\n      \"after H1 (after the first chart/box)\",\n      \"after para 14 (end of ‘airbags/seat belts’ section, before H2)\",\n      \"after para 16 (end of ‘policy levers’ intro)\"\n    ],\n    \"avoid\": [\n      \"after para 5 (midway through seat belt webbing explanation)\",\n      \"after the first table (para 7)\",\n      \"after para 9 (during anti-dumping duties explanation)\",\n      \"after the second table (para 12, mid-classification details)\"\n    ]\n  }\n}\n```",
+   "model": "open-mistral-nemo"
+  },
+  "Groq": {
+   "structure_score": 2,
+   "summary_up_top": {
+    "present": false,
+    "suggest": "Start with a one‑sentence lead that tells readers the three key points: seat belts and airbags are import‑heavy, tyre‑cord is largely self‑sufficient, and both depend on a single imported nylon‑6 polymer."
+   },
+   "edits": [
+    {
+     "where": "opening",
+     "type": "add-heading",
+     "why": "A concise summary at the very top lets mobile readers decide quickly if they’ll read on.",
+     "how": "Insert a short, bolded summary sentence (as suggested above) before the first paragraph."
+    },
+    {
+     "where": "Airbags and Seat Belts Are Import-Heavy. Tyre Cord Isn't. India's Automotive Textiles Aren't One Story",
+     "type": "split-section",
+     "why": "Three distinct product stories are currently jammed under one long H1, making scanning hard on a phone.",
+     "how": "Create two new sub‑headings under the H1: \"Seat Belts & Airbags\" and \"Tyre‑Cord Fabric\" and move the relevant paragraphs under each."
+    },
+    {
+     "where": "para 5",
+     "type": "split-paragraph",
+     "why": "182‑word paragraph is too dense for mobile reading.",
+     "how": "Break after the sentence ending with \"...rot and...\" and start a new paragraph with the next sentence; optionally turn the list of material properties into a bullet list."
+    },
+    {
+     "where": "para 7",
+     "type": "to-table",
+     "why": "Numeric import and market‑size figures are easier to digest as a table on small screens.",
+     "how": "Create a two‑column table: left column for metric (e.g., \"Import value (₹)\"), right column for figure; place it where paragraph 7 currently sits."
+    },
+    {
+     "where": "para 12",
+     "type": "add-heading",
+     "why": "The paragraph introduces tariff classification details that deserve a clear label.",
+     "how": "Insert a sub‑heading \"HSN Classification & Duties\" immediately before paragraph 12."
+    },
+    {
+     "where": "What would fix this",
+     "type": "shorten-heading",
+     "why": "Long H2 takes up valuable screen width on phones.",
+     "how": "Rename the heading to \"Potential Fixes\"."
+    },
+    {
+     "where": "para 16",
+     "type": "to-list",
+     "why": "Policy recommendations are currently in prose, which is hard to skim on mobile.",
+     "how": "Convert each recommendation into a bullet point; keep the introductory sentence as a lead‑in paragraph."
+    },
+    {
+     "where": "para 14",
+     "type": "split-paragraph",
+     "why": "165‑word paragraph adds scrolling fatigue.",
+     "how": "Insert a line break after the sentence ending with \"...carriage\" and start a new paragraph with the next sentence."
+    }
+   ],
+   "ad_breaks": {
+    "good": [
+     "Airbags and Seat Belts Are Import-Heavy. Tyre Cord Isn't. India's Automotive Textiles Aren't One Story",
+     "Potential Fixes"
+    ],
+    "avoid": [
+     "para 5",
+     "para 7",
+     "para 12",
+     "para 14"
+    ]
+   },
+   "model": "openai/gpt-oss-120b"
+  }
+ }
+}

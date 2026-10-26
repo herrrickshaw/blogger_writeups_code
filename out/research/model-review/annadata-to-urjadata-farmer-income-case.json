@@ -1,0 +1,142 @@
+{
+ "slug": "annadata-to-urjadata-farmer-income-case",
+ "outline": "3629 words in 31 paragraphs; 6 tables; 2 charts/images; 2 boxed notes\nH1: Annadata to Urjadata: The Farmer-Income Case for Ethanol Blending — and the Oversupply It Must Now Solve  [7 words in paragraphs and lists]\n    [chart: img]\n    [box: warn]\n  H2: 1. The Scoreboard: What the Programme Has Actually Delivered  [353 words in paragraphs and lists]\n    [table: 2 cols x 9 rows]\n    [chart: svg]\n    [table: 2 cols x 5 rows]\n  H2: 2. How the Rupee Actually Reaches the Farmer  [392 words in paragraphs and lists]\n    [table: 4 cols x 7 rows]\n    para 11: 122 words (long) — Maize's procurement price has risen 36% across four ethanol supply years —...\n    para 13: 154 words (long) — The rupee also reaches farmers a second way that doesn't show up...\n  H2: 2.5. FCI Rice, the 40% Clause, and Why Maize Is the Real Ceiling  [626 words in paragraphs and lists]\n    [table: 3 cols x 4 rows]\n    para 16: 173 words (long) — Does the surplus actually hold as blending volumes rise? India's central-pool rice...\n    [table: 5 cols x 5 rows]\n    para 17: 157 words (long) — Which is exactly why the incremental grain-ethanol volume beyond E20 needs to...\n  H2: 3. The Overcapacity the Programme Must Now Solve  [428 words in paragraphs and lists]\n    [table: 2 cols x 7 rows]\n    para 23: 158 words (long) — Independent, industry-facing reporting corroborates the shape of CareEdge's number even if the...\n  H2: 4. Why This Is Not a Reason to Slow Down Farmer Payments  [333 words in paragraphs and lists]\n    [box: callout]\n  H2: 5. Beyond the Pump: A Circular Economy for the Farm Itself  [37 words in paragraphs and lists]\n    H3: Lower fertiliser costs: NIPU-2026  [192 words in paragraphs and lists]\n    para 26: 192 words (long) — In July 2026 the Union Cabinet approved the National Investment Policy for...\n    H3: Diesel-to-CNG on the farm  [129 words in paragraphs and lists]\n    para 27: 129 words (long) — The same per-kilometre logic this blog has applied to passenger vehicles and...\n    H3: The circular-economy case: farm waste back into farm fuel  [362 words in paragraphs and lists]\n    para 28: 317 words (long) — India's compressed biogas (CBG) programme — SATAT, the CBG blending obligation on...\n  H2: What would fix this  [205 words in paragraphs and lists]\n  H2: 6. Caveats  [508 words in paragraphs and lists]",
+ "models": {
+  "Gemini": {
+   "structure_score": 2,
+   "summary_up_top": {
+    "present": false,
+    "suggest": "Add a brief takeaway box at the top summarizing the tension between record farmer payments and the 2,000-crore-litre capacity oversupply."
+   },
+   "edits": [
+    {
+     "where": "opening",
+     "type": "other",
+     "why": "The opening mixes navigation breadcrumbs, site boilerplate, and image metadata before the actual article text, which ruins the mobile reading flow.",
+     "how": "Strip out the site navigation headers, breadcrumbs, and raw Wikimedia image licensing metadata from the very beginning of the post."
+    },
+    {
+     "where": "para 11",
+     "type": "split-paragraph",
+     "why": "At 122 words, this paragraph is too dense to scan comfortably on a smartphone screen.",
+     "how": "Break the paragraph into two shorter chunks at a natural thematic pause."
+    },
+    {
+     "where": "para 13",
+     "type": "split-paragraph",
+     "why": "At 154 words, this paragraph creates a massive wall of text on mobile devices.",
+     "how": "Split the paragraph into two parts around the midpoint sentence."
+    },
+    {
+     "where": "para 16",
+     "type": "split-paragraph",
+     "why": "At 173 words, this paragraph is far too long for a phone layout and risks trapping an auto ad awkwardly.",
+     "how": "Divide the text into two distinct paragraphs."
+    },
+    {
+     "where": "para 17",
+     "type": "split-paragraph",
+     "why": "At 157 words, it contributes to reader fatigue on mobile screens.",
+     "how": "Split into two smaller paragraphs."
+    },
+    {
+     "where": "para 23",
+     "type": "split-paragraph",
+     "why": "At 158 words, this dense block of data is hard to parse on small screens.",
+     "how": "Break the paragraph into two separate paragraphs."
+    },
+    {
+     "where": "H2: 5. Beyond the Pump: A Circular Economy for the Farm Itself",
+     "type": "other",
+     "why": "This section heading has almost no introductory text before immediately branching into three H3 sub-headings.",
+     "how": "Add a 1-2 sentence introductory paragraph explaining what this section covers before diving into the H3 subsections."
+    },
+    {
+     "where": "para 28",
+     "type": "split-paragraph",
+     "why": "At 317 words, this is by far the longest single paragraph in the post and will cause mobile readers to abandon the page.",
+     "how": "Split this massive paragraph into at least three shorter paragraphs."
+    }
+   ],
+   "ad_breaks": {
+    "good": [
+     "1. The Scoreboard: What the Programme Has Actually Delivered",
+     "2. How the Rupee Actually Reaches the Farmer",
+     "3. The Overcapacity the Programme Must Now Solve"
+    ],
+    "avoid": [
+     "H2: 2.5. FCI Rice, the 40% Clause, and Why Maize Is the Real Ceiling",
+     "H3: Lower fertiliser costs: NIPU-2026",
+     "What would fix this"
+    ]
+   },
+   "model": "gemini-flash-lite-latest"
+  },
+  "Mistral": {
+   "raw": "```json\n{\n  \"structure_score\": 3,\n  \"summary_up_top\": {\n    \"present\": false,\n    \"suggest\": \"Open with a concise, punchy headline-like summary of the core tension: *India’s ethanol programme has boosted farmer incomes by ₹1.66 lakh crore but now faces a 2,000-crore-litre capacity glut—here’s how to fix both*\"\n  },\n  \"edits\": [\n    {\n      \"where\": \"opening\",\n      \"type\": \"shorten-heading\",\n      \"why\": \"The H1 is already punchy but could be more mobile-friendly by removing the colon and trimming to 5 words max (e.g., ‘Ethanol’s Farmer Win—and Its Oversupply Crisis’).\",\n      \"how\": \"Change H1 to: *Ethanol’s Farmer Win—and Its Oversupply Crisis* (7 words, no colon)\"\n    },\n    {\n      \"where\": \"opening\",\n      \"type\": \"split-section\",\n      \"why\": \"The first 400 words mix data, context, and a warning—phone readers lose track of the narrative flow.\",\n      \"how\": \"Split into two paragraphs:\n        1. **First 100 words**: Keep the *₹1.66 lakh crore* + *CO₂ savings* + *oversupply* hook, but reorder to prioritize the farmer-income win first.\n        2. **Next 300 words**: Move the *CareEdge* capacity data + *E20→E30 solution* to a new paragraph under a subheading: **‘The Oversupply Problem (and Why It Won’t Stop Farmer Payments)’**\"\n    },\n    {\n      \"where\": \"H2: 1. The Scoreboard: What the Programme Has Actually Delivered\",\n      \"type\": \"add-heading\",\n      \"why\": \"The first table/chart combo lacks a subheading to break up the dense data block.\",\n      \"how\": \"Add a subheading after the intro: **‘₹1.66 Lakh Crore to Farmers: The Numbers Behind the Blend’**\"\n    },\n    {\n      \"where\": \"para 11 (under H2: 2. How the Rupee Actually Reaches the Farmer)\",\n      \"type\": \"split-paragraph\",\n      \"why\": \"122 words of maize-price detail disrupts the flow of farmer-payment mechanisms.\",\n      \"how\": \"Move the *36% price rise* stat to a bullet point in the list of procurement changes (if one exists) or create a new subheading: **‘Maize Prices: The Hidden Driver of Farmer Gains’**\"\n    },\n    {\n      \"where\": \"H2: 2.5. FCI Rice, the 40% Clause, and Why Maize Is the Real Ceiling\",\n      \"type\": \"split-section\",\n      \"why\": \"This H2 is too long (626 words) and jumps between FCI rice, the 40% clause, and maize—phone readers lose context.\",\n      \"how\": \"Split into two H2s:\n        1. **‘FCI Rice and the 40% Cap: Why Grain Ethanol Is Capped’** (focus on rice surplus/40% clause)\n        2. **‘Maize: The Uncapped Engine of Farmer Payments’** (shift to maize’s role and oversupply)\"\n    },\n    {\n      \"where\": \"H3: The circular-economy case: farm waste back into farm fuel (under H2: 5)\",\n      \"type\": \"split-section\",\n      \"type\": \"add-heading\",\n      \"why\": \"The 362-word para is a dense wall of text; the CBG/SATAT details deserve a subheading.\",\n      \"how\": \"Add a subheading before para 28: **‘CBG and SATAT: Turning Farm Waste into Fuel’**\"\n    },\n    {\n      \"where\": \"H2: 6. Caveats\",\n      \"type\": \"move\",\n      \"why\": \"Caveats belong near the conclusion, not buried mid-argument.\",\n      \"how\": \"Move this H2 to **after H2: What Would Fix This** (current H2: 5’s sibling), renaming it **‘Key Limitations and Open Questions’**\"\n    },\n    {\n      \"where\": \"boxed notes (all)\",\n      \"type\": \"shorten-heading\",\n      \"why\": \"Phone users skim boxes; clearer labels improve scannability.\",\n      \"how\": \"Rename:\n        - Warn → **‘Red Flag: FCI Rice Price Extension’**\n        - Callout → **‘Why Slowing Payments Is a Mistake’**\"\n    }\n  ],\n  \"ad_breaks\": {\n    \"good\": [\n      \"H2: 2. How the Rupee Actually Reaches the Farmer (after the 4-column table)\",\n      \"H2: 3. The Overcapacity the Programme Must Now Solve (after the 2x7 table)\",\n      \"H2: 5. Beyond the Pump: A Circular Economy for the Farm Itself (after H3: Lower fertiliser costs)\"\n    ],\n    \"avoid\": [\n      \"H2: 2.5. FCI Rice, the 40% Clause, and Why Maize Is the Real Ceiling (avoid splitting the 5x5 table)\",\n      \"H3: The circular-economy case: farm waste back into farm fuel (avoid breaking the 317-word para)\",\n      \"H2: 6. Caveats (avoid mid-argument; place after conclusion)\"\n    ]\n  }\n}\n```",
+   "model": "open-mistral-nemo"
+  },
+  "Groq": {
+   "structure_score": 3,
+   "summary_up_top": {
+    "present": false,
+    "suggest": "Begin with a brief, punchy lead that states the core argument (farmers are paid, but ethanol capacity now exceeds demand) and outlines the main sections the article will cover."
+   },
+   "edits": [
+    {
+     "where": "opening",
+     "type": "split-paragraph",
+     "why": "The lead mixes key facts with image credits and licensing notes, making it hard to scan on a phone.",
+     "how": "Create a short 2‑3 sentence introductory paragraph that presents the main claim and preview, and move all image‑credit text into a separate “Image credit” note after the first heading."
+    },
+    {
+     "where": "para 11",
+     "type": "split-paragraph",
+     "why": "122‑word paragraph is dense for mobile readers.",
+     "how": "Break after the sentence that introduces the 36% price rise, creating a new paragraph for the subsequent explanation of supply‑year effects."
+    },
+    {
+     "where": "para 13",
+     "type": "split-paragraph",
+     "why": "154‑word paragraph contains two distinct ideas: the second payment route and its visibility gap.",
+     "how": "Insert a line break before the sentence starting with “The rupee also reaches farmers a second way…”, forming two clearer paragraphs."
+    },
+    {
+     "where": "para 16",
+     "type": "split-paragraph",
+     "why": "173‑word paragraph mixes data on rice surplus with policy discussion, reducing readability.",
+     "how": "Split after the first sentence that asks “Does the surplus actually hold…”, so the next paragraph focuses on the policy implications."
+    },
+    {
+     "where": "para 17",
+     "type": "split-paragraph",
+     "why": "Long paragraph blends analysis of incremental volume with a policy recommendation.",
+     "how": "Create a break before the clause beginning “Which is exactly why the incremental grain‑ethanol volume…”, separating analysis from recommendation."
+    },
+    {
+     "where": "para 23",
+     "type": "split-paragraph",
+     "why": "158‑word paragraph packs industry reporting and methodological notes together.",
+     "how": "Insert a split after the phrase “even if the…”, so the following sentences about methodology start a new paragraph."
+    },
+    {
+     "where": "4. Why This Is Not a Reason to Slow Down Farmer Payments",
+     "type": "add-heading",
+     "why": "The boxed callout is buried in the text; a sub‑heading highlights its importance and creates a natural pause for ads.",
+     "how": "Add a level‑3 heading titled “Key Callout” immediately before the box."
+    }
+   ],
+   "ad_breaks": {
+    "good": [
+     "3. The Overcapacity the Programme Must Now Solve",
+     "5. Beyond the Pump: A Circular Economy for the Farm Itself"
+    ],
+    "avoid": [
+     "2.5. FCI Rice, the 40% Clause, and Why Maize Is the Real Ceiling",
+     "4. Why This Is Not a Reason to Slow Down Farmer Payments"
+    ]
+   },
+   "model": "openai/gpt-oss-120b"
+  }
+ }
+}

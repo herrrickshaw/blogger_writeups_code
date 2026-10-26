@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/10/abu-dhabi-paid-2-billion-for-binance.html",
   "slug": "abu-dhabi-paid-2-billion-for-binance",
   "published": "2026-10-02T09:26:09.000+05:30",
-  "updated": "2026-10-23T09:56:43.467+05:30",
+  "updated": "2026-10-26T17:40:00.316+05:30",
   "labels": [
     "Industrial Policy",
     "Macroeconomics & Monetary Policy",
     "Markets & Finance"
   ],
-  "bytes": 30798,
-  "sha256": "adecb4977443f3389bf76b2a7dccd5a6bed1f7eec3fd149bd28b837ed242050d",
+  "bytes": 30946,
+  "sha256": "b7a7c17efb17f6ebbc2f6983ff4aafc5cfa130fdcea0abcbdf6bd873f782f0fc",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.1",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -44,6 +44,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "FDI posts updated with DPIIT fact sheet to June 2026"
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-10-26T17:40:53+05:30",
+      "level": "major",
+      "reason": "forced via --as major (visible text identical; only markup/styling changed)",
+      "bytes": [
+        30798,
+        30946
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Green debt post: chart, rate-gap and FX tables to late Oct; model-review paragraph splits in 20 posts"
     }
   ]
 }
