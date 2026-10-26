@@ -1,0 +1,32 @@
+/* gs-table-template-v1 (2026-10-26) — one readable template for every post table,
+   and no ad containers inside tables.
+   1. Every post table gets the same look: dark header, light row stripes, clear
+      padding, text left-aligned, numbers right-aligned in tabular figures. Per-post
+      table styles (accent headers, right-aligned text cells) are overridden so a
+      reader sees one table style across the blog. Inline row highlights survive.
+   2. The gs-table-guard-v1 script wraps unwrapped tables in .gs-tblwrap (scrolls on
+      phones), marks number cells .gs-num and moves any Auto-ads container that
+      lands inside a table to just after the table.
+   3. Empty (unfilled) Auto-ads containers collapse instead of showing an empty
+      "Advertisement" box; the label and spacing apply only to filled ads. */
+#Blog1 .post-body .gs-tblwrap{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:1.2rem 0}
+#Blog1 .post-body table.gs-t{border-collapse:collapse!important;width:100%;max-width:100%;
+  font-family:var(--sans);font-size:.88rem;line-height:1.45;font-variant-numeric:tabular-nums;margin:0}
+#Blog1 .post-body table.gs-t th,#Blog1 .post-body table.gs-t td{text-align:left!important;
+  vertical-align:top;padding:.5rem .7rem!important;border:0!important;
+  border-bottom:1px solid #dcdcdc!important;white-space:normal;word-break:normal;overflow-wrap:anywhere}
+#Blog1 .post-body table.gs-t thead th,#Blog1 .post-body table.gs-t tr.gs-head>th{
+  background:#1f2328!important;color:#fff!important;font-weight:600;vertical-align:bottom}
+#Blog1 .post-body table.gs-t tbody tr:nth-child(even)>td{background:#f6f7f8}
+#Blog1 .post-body table.gs-t tbody th{background:transparent;color:inherit;font-weight:600}
+#Blog1 .post-body table.gs-t .gs-num{text-align:right!important}
+#Blog1 .post-body table.gs-t td.gs-num{white-space:nowrap}
+#Blog1 .post-body table.gs-t caption{caption-side:top;text-align:left;font-weight:600;padding:0 0 .4rem}
+@media (max-width:640px){
+  #Blog1 .post-body table.gs-t{font-size:.84rem}
+  #Blog1 .post-body .gb-tblwrap>table.gs-t:not(.gs-wide),#Blog1 .post-body .tw>table.gs-t:not(.gs-wide){min-width:0}
+  #Blog1 .post-body table.gs-t.gs-wide{min-width:560px}
+}
+.post-body .google-auto-placed:not(:has(ins[data-ad-status="filled"])){
+  margin:0!important;padding:0!important;border:0!important;min-height:0}
+.post-body .google-auto-placed:not(:has(ins[data-ad-status="filled"]))::before{content:none}

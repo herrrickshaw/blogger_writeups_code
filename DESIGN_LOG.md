@@ -10,6 +10,24 @@ The enforceable form of these rules lives in `~/blog-consistency-check/`
 
 ---
 
+## 2026-10-26 — Tables: one template, and no ads inside them
+
+- **Problem.** Auto ads inserted containers inside table rows. A container inside a `<tr>` renders as an
+  extra cell, so later cells shift right (seen on the power-line compensation post). The theme's
+  gs-readable-ads-v1 rule also gave every container a border, padding and an "Advertisement" label, so
+  unfilled containers showed as empty boxes. Several posts' own CSS right-aligned all text cells.
+- **Fix (theme, two insertions; `docs/THEME_PATCH_2026-10-26_tables.md`).**
+  - gs-table-template-v1 (CSS): one style for all post tables — dark header, light stripes, left-aligned
+    text, right-aligned numbers in tabular figures, scrolling wrapper on phones; unfilled ad containers
+    collapse and lose the label.
+  - gs-table-guard-v1 (script): wraps unwrapped tables, marks number cells, and moves any Auto-ads
+    container found inside a table to just after the table.
+- **Change of rule.** gs-readable-ads-v1 said nothing moves an ad. This patch does move one case: a
+  container inside a table, which otherwise breaks the table. AdSense still chooses where ads go
+  everywhere else, and no ad is hidden; only unfilled (empty) containers collapse.
+- Tested on three posts with simulated containers in table rows at 375px: no ad left inside a table,
+  row cell counts unchanged, no horizontal scroll.
+
 ## Frozen baseline — 2026-08-06
 
 The design was frozen against the fertiliser/fuel-prices post, which was the
