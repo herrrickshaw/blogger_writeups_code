@@ -15,7 +15,7 @@ NOTE = ('<div class="warn" style="border-left:4px solid #a5402c;background:rgba(
         'The sovereign green-bond story has turned: after the RBI rejected every bid at a 30-year green auction in June 2025, '
         'a new 30-year green bond sold at a 6bp greenium in April 2026, the largest since January 2023, and has been reopened twice since (Section 5c). '
         'India&rsquo;s 10-year yield has risen to about 7.47% after the RBI&rsquo;s 7 October hike to 5.50%, and the Japan Credit Rating Agency raised India to A&minus; on 2 September 2026, '
-        'which matters for yen funding (Section 7). Also updated: the policy-rate chart (Section 5a) now runs to October 2026, the rate-gap table below it and the exchange-rate table (Section 5b) are refreshed to late October, '
+        'which matters for yen funding (Section 7). Also updated: the policy-rate chart (Section 5a) now runs to October 2026, the rate-gap table below it, the exchange-rate table and a new table of benchmark yields (Section 5b) are refreshed to late October, '
         'and CBI&rsquo;s first-half 2026 market totals are added (Section 6).</div>\n')
 h1 = s.find('<h1'); first = s.find('<div class="gb-h2"', h1)
 s = s[:first] + NOTE + s[first:]
@@ -109,13 +109,27 @@ rep("and yfinance monthly closes (USDINR=X, EURINR=X, JPYINR=X) for the FBIL era
     "(&#8377;60.6 per &#165;100, derived from USD/INR and a USD/JPY close of 156.4&ndash;156.9; quoted rates for 25&ndash;26 October were 0.605&ndash;0.606). "
     "The August end-point was &#8377;95.33, &#8377;109.91 and &#8377;0.6091. Since August the rupee has held steady against the dollar and the yen and gained about 3% against the euro.</p>")
 
-# 5b: treasury curve
+# 5b: treasury curve, as a table: the August figures from the text against late October 2026
+YIELDS = [  # benchmark, August 2026, late October 2026, date and source
+    ("India 10-year G-sec", 6.84, 7.47, "23 Oct close (PTI; Trading Economics)"),
+    ("US 10-year Treasury", 4.69, 4.96, "22 Oct (Federal Reserve H.15)"),
+    ("German 10-year Bund", 3.21, 3.34, "23 Oct (Bloomberg; Trading Economics)"),
+    ("Japan 10-year JGB", 2.80, 2.80, "23 Oct close (Investing.com); peaked at 3.055% on 24 Sep (CNBC)"),
+    ("Japan 5-year JGB", 2.09, 2.38, "14 Oct auction, average yield (Ministry of Finance)"),
+]
+chg = lambda x: "0.00" if abs(x) < 0.005 else f'{"+" if x > 0 else "&minus;"}{abs(x):.2f}'
+YT = ('<div class="gb-tblwrap"><table class="gb-table">\n<thead><tr><th>Benchmark yield</th><th style="text-align:right">Aug 2026 (%)</th>'
+      '<th style="text-align:right">Late Oct 2026 (%)</th><th style="text-align:right">Change (pp)</th><th>Late-October date and source</th></tr></thead>\n<tbody>\n'
+      + "\n".join(f'<tr><td>{n}</td><td {NUM}>{a_:.2f}</td><td {NUM}>{b_:.2f}</td><td {NUM}>{chg(b_ - a_)}</td><td>{src}</td></tr>' for n, a_, b_, src in YIELDS)
+      + f'\n<tr><td><strong>India&ndash;US 10-year gap</strong></td><td {NUM}>{6.84 - 4.69:.2f}</td><td {NUM}>{7.47 - 4.96:.2f}</td><td {NUM}>{chg((7.47 - 4.96) - (6.84 - 4.69))}</td><td>&nbsp;</td></tr>'
+      + '\n</tbody>\n</table></div>\n')
+YN = ('<p class="gb-note"><b>Updated 26 October 2026.</b> The August column is the curve quoted in the paragraph above. Since then India&rsquo;s 10-year yield has risen most, '
+      'by 0.63 points, about 0.28 of it after the RBI&rsquo;s 7 October hike (7.19% on 6 October). The India&ndash;US gap is therefore wider: long-term rupee borrowing has become dearer relative to dollar borrowing, which widens the margin described in Section 5a&rsquo;s third reading. '
+      'The 10-year JGB passed 3% in late September and has since fallen back to about where it was in August (2.78&ndash;2.81% on 26 October), while the 5-year JGB is about 0.3 points higher, still well above REC&rsquo;s 1.76% coupon of 2024. '
+      'The ordering, India over the US over Germany over Japan, is unchanged. One quote of 3.10% for the 10-year JGB on 23 October (Bloomberg) is out of line with the other sources and was not used. '
+      'Sources: Business Standard/PTI, Trading Economics and Investing.com (India); Federal Reserve H.15 (US); Bloomberg and Trading Economics (Germany); Investing.com, Trading Economics, NewsBytes and CNBC (Japan 10-year); Ministry of Finance, Japan (5-year auction result, 14 October 2026).</p>')
 rep("Issuers time the treasury curve first and the label second.</p>",
-    "Issuers time the treasury curve first and the label second.</p>\n"
-    "<p class=\"gb-note\"><b>Update, 26 October 2026:</b> the curve has moved up since August. India&rsquo;s 10-year yield reached 7.47% on 23 October, from 7.19% on 6 October, the day before the RBI hike; "
-    "the US 10-year was 4.96% on 22 October; and the 10-year JGB passed 3% in late September (3.055% on 24 September, its highest since August 1996). "
-    "The India&ndash;US 10-year gap is therefore about 2.5 points, against about 2.15 in August: long-term rupee borrowing has become dearer relative to dollar borrowing, which widens the margin described in Section 5a&rsquo;s third reading. "
-    "No October Bund figure was checked. Sources: Business Standard/PTI (India), Federal Reserve H.15 (US), CNBC (Japan).</p>")
+    "Issuers time the treasury curve first and the label second.</p>\n" + YT + YN)
 
 # Section 4: sovereign row
 rep("then auctions devolved/cancelled as the greenium vanished (Nov 2024: &#8377;1,502&nbsp;cr accepted of &#8377;5,000&nbsp;cr)</td>",
@@ -211,7 +225,7 @@ rep("The chart, its \"~4.25pp carry\" annotation and the gap table below are not
 
 # Sources line
 rep("Nothing here is investment advice.",
-    "The 26 October 2026 update adds the RBI&rsquo;s Monetary Policy Statement (7 Oct 2026), current-rates page and auction notices (14 Aug and 1 Oct 2026); Business Standard/PTI on yields, the June 2025 and April 2026 green auctions; Federal Reserve H.15; CNBC on JGB yields; PTI/ThePrint on the rupee; JCR&rsquo;s 2 Sep 2026 rating action as reported; CBI&rsquo;s H1 2026 State of the Market press release; and S&amp;P Global&rsquo;s India sustainable-bond figures via The Statesman. Nothing here is investment advice.")
+    "The 26 October 2026 update adds the RBI&rsquo;s Monetary Policy Statement (7 Oct 2026), current-rates page and auction notices (14 Aug and 1 Oct 2026); Business Standard/PTI on yields, the June 2025 and April 2026 green auctions; Federal Reserve H.15; CNBC, Investing.com and Trading Economics on JGB and Bund yields; Japan&rsquo;s Ministry of Finance 5-year JGB auction result (14 Oct 2026); PTI/ThePrint on the rupee; JCR&rsquo;s 2 Sep 2026 rating action as reported; CBI&rsquo;s H1 2026 State of the Market press release; and S&amp;P Global&rsquo;s India sustainable-bond figures via The Statesman. Nothing here is investment advice.")
 
 (ROOT / 'out' / f'update-2026-10-26-{SLUG}.html').write_text(s, encoding='utf-8')
 print('wrote', len(s))
