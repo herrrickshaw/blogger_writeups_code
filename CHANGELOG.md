@@ -15986,3 +15986,9 @@ Green debt post: chart, rate-gap, FX and yield tables to late Oct; model-review 
 **Changed**
 
 - `raising-green-debt-globally-rec-euroyen` — 79,289 → 82,041 bytes (+2,752)
+
+## 2026-10-26T21:21:52+05:30 — 425 posts live
+
+**Added**
+
+- `indias-constitution-set-deadline` **v1.0.0** — India's Constitution Set a Deadline Parliament Hasn't Met: The Reforms Pending in 2026 (23,886 bytes)
