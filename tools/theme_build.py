@@ -151,14 +151,32 @@ def verify(out, base, mods):
         sys.exit("built theme is not exactly base + modules (removing the modules does not give back the base)")
 
 
+def latest_backup():
+    """The newest .xml in ~/Downloads that is a Blogger theme (Blogger names the backup after the blog, not 'theme')."""
+    files = sorted(pathlib.Path('~/Downloads').expanduser().glob('*.xml'), key=lambda p: p.stat().st_mtime, reverse=True)
+    for f in files:
+        head = f.read_text(encoding='utf-8', errors='replace')
+        if '<b:skin' in head and "id='Blog1'" in head:
+            print(f"using the newest theme backup in Downloads: {f.name}")
+            return str(f)
+    sys.exit("no Blogger theme backup (.xml with <b:skin> and the Blog1 widget) found in ~/Downloads; "
+             "download one from Blogger > Theme > down arrow next to Customise > Backup")
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument('--base', help='a theme backup downloaded from Blogger; becomes theme/base.xml')
+    ap.add_argument('--base', help="a theme backup downloaded from Blogger, or 'latest' for the newest one in "
+                                   "~/Downloads; becomes theme/base.xml")
     ap.add_argument('--out', default=str(OUT), help='where to write the built theme (default theme/theme.xml)')
     ap.add_argument('--check', action='store_true', help='only check that the built theme is up to date')
     a = ap.parse_args()
     mods = load_modules()
 
+    if a.base is not None and not a.base.strip():
+        sys.exit("--base was given an empty path (did a file pattern match nothing?); "
+                 "pass the backup file, or --base latest to use the newest theme backup in ~/Downloads")
+    if a.base == 'latest':
+        a.base = latest_backup()
     if a.base:
         raw = pathlib.Path(a.base).expanduser().read_text(encoding='utf-8')
         base, removed = strip(raw, mods)

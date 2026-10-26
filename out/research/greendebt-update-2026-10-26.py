@@ -16,7 +16,7 @@ NOTE = ('<div class="warn" style="border-left:4px solid #a5402c;background:rgba(
         'a new 30-year green bond sold at a 6bp greenium in April 2026, the largest since January 2023, and has been reopened twice since (Section 5c). '
         'India&rsquo;s 10-year yield has risen to about 7.47% after the RBI&rsquo;s 7 October hike to 5.50%, and the Japan Credit Rating Agency raised India to A&minus; on 2 September 2026, '
         'which matters for yen funding (Section 7). Also added: CBI&rsquo;s first-half 2026 market totals, the rupee&rsquo;s late-October level, '
-        'and the effect of India&rsquo;s higher repo rate on the rate-gap table. The policy-rate chart in Section 5a now runs to October 2026.</div>\n')
+        'The policy-rate chart in Section 5a now runs to October 2026, and the rate-gap table below it is refreshed to 26 October.</div>\n')
 h1 = s.find('<h1'); first = s.find('<div class="gb-h2"', h1)
 s = s[:first] + NOTE + s[first:]
 
@@ -27,12 +27,56 @@ rep("Sources: Federal Reserve press release/CNBC (Fed), ECB press release (ECB),
     "the standing deposit facility is at 5.25% and the marginal standing facility and Bank Rate at 5.75%. The Fed, ECB, Bank of Japan, Bank of Canada and Reserve Bank of New Zealand all decide in the week of 26 October, "
     "so every rate in this section is as of 26 October, before those meetings. Sources: RBI press release on the Monetary Policy Statement, 7 October 2026; RBI current rates page, 26 October 2026; Newsquawk week-ahead calendar.</div>")
 
-# 5a-i: the gap table
-rep("missing the June&nbsp;2026 BoJ hike discussed above.</p>",
-    "missing the June&nbsp;2026 BoJ hike discussed above.</p>\n"
-    "<p class=\"gb-note\"><b>Update, 26 October 2026:</b> India&rsquo;s repo rate is now 5.50%, so every gap in the last-but-one column is 0.25 points wider than shown, "
-    "except where the foreign rate also moved: the United States (Fed mid-target 3.875%, gap 1.63), the euro area (ECB deposit rate 2.50%, gap 3.00) and Japan (1.25%, gap 4.25). "
-    "Rates for the other 22 economies are as of 3 August and have not been re-pulled from BIS; every economy listed is still below India.</p>")
+# 5a-i: the gap table, refreshed to 26 October 2026 from each central bank's latest decision
+INDIA = 5.50
+ROWS = [  # economy, rate, issuance currency?, latest decision
+    ("Switzerland", 0.00, "Yes", "Held, 24 Sep"),
+    ("Thailand", 1.00, "&mdash;", "Held, 26 Aug"),
+    ("Japan", 1.25, "Yes", "Hiked, 18 Sep; decides this week"),
+    ("Sweden", 1.75, "Yes", "Held, 24 Sep"),
+    ("Denmark", 2.10, "Yes", "Hiked, 11 Sep"),
+    ("Canada", 2.25, "Yes", "Held, 2 Sep; decides 28 Oct"),
+    ("Morocco", 2.25, "&mdash;", "Held, 22 Sep"),
+    ("Euro area", 2.50, "Yes", "Hiked, 16 Sep; decides 29 Oct"),
+    ("New Zealand", 2.75, "&mdash;", "Hiked, 2 Sep; decides 28 Oct"),
+    ("Malaysia", 2.75, "&mdash;", "Held, 3 Sep"),
+    ("Korea", 3.00, "Yes", "Held, 22 Oct, after two hikes"),
+    ("China", 3.00, "Yes", "Held, 20 Oct"),
+    ("Israel", 3.25, "&mdash;", "Held, 21 Oct, after cuts in May, Jul and Sep"),
+    ("Kuwait", 3.50, "&mdash;", "Held, Sep"),
+    ("Czechia", 3.75, "&mdash;", "Held, 17 Sep"),
+    ("United Kingdom", 3.75, "Yes", "Held, Sep (6&ndash;3 vote)"),
+    ("Poland", 3.75, "&mdash;", "Held, 7 Oct"),
+    ("United States", 3.875, "Yes", "Hiked, 16 Sep; decides 28 Oct"),
+    ("Hong Kong SAR", 4.25, "Yes", "Raised, 17 Sep (follows the Fed)"),
+    ("North Macedonia", 4.25, "&mdash;", "Hiked, Jun; no later decision found"),
+    ("Peru", 4.25, "&mdash;", "Held, 7 Oct"),
+    ("Norway", 4.50, "Yes", "Hiked, 23 Sep"),
+    ("Saudi Arabia", 4.50, "&mdash;", "Hiked, 16 Sep"),
+    ("Chile", 4.50, "&mdash;", "Held; decides 27 Oct"),
+    ("Australia", 4.60, "Yes", "Hiked, 29 Sep"),
+]
+assert len(ROWS) == 25 and all(r < INDIA for _, r, _, _ in ROWS)
+fmt = lambda x: f"{x + 1e-9:.2f}"
+NUM = 'style="text-align:right;font-variant-numeric:tabular-nums"'
+body = "\n".join(f'<tr><td>{e}</td><td {NUM}>{fmt(r)}</td><td {NUM}>{fmt(INDIA - r)}</td><td>{c}</td><td>{d}</td></tr>' for e, r, c, d in ROWS)
+TABLE = ('<div class="gb-tblwrap"><table class="gb-table">\n'
+         '<thead><tr><th>Economy</th><th style="text-align:right">Policy rate (%)</th><th style="text-align:right">Gap vs India (pp)</th>'
+         '<th>Issuance currency for an Indian PSU/NBFC?</th><th>Latest decision (2026)</th></tr></thead>\n<tbody>\n' + body + '\n</tbody>\n</table></div>\n')
+NOTE_T = ('<p class="gb-note">Rates as of 26 October 2026, from each central bank&rsquo;s latest decision as published or reported; the original table used BIS central bank policy rate statistics (WS_CBPOL, last observation per economy, retrieved 3&nbsp;Aug&nbsp;2026), which could not be re-pulled for this update. '
+          'India is the RBI repo rate (5.50% since 7 October); the US figure is the Fed&rsquo;s mid-target, so the upper bound is 12.5bp higher; the euro area is the ECB deposit facility rate; '
+          'China is the one-year loan prime rate, as in the original table (the PBOC&rsquo;s main policy rate, the 7-day reverse repo, is 1.40%, which would put China&rsquo;s gap at 4.10). '
+          'Not counted: the Philippines, level with India at 5.50% after a 22 October hike, and Indonesia at 5.75%. Six of these central banks, the Bank of Japan among them, decide again between 27 and 30 October. '
+          'Eleven defunct pre-euro national series (Germany, France, Italy and others, last observed 1998&ndash;2000) are excluded, as before. The issuance-currency column is a judgement about market depth, not a legal restriction. '
+          'Sources: central bank releases (SNB, Riksbank, Danmarks Nationalbank, Bank Al-Maghrib, Bank of Israel, Bank of Korea, Bank Negara Malaysia, Bank of Thailand, HKMA, SAMA, Norges Bank, RBA, Fed, ECB, BoJ, RBI); '
+          'Reuters, Bloomberg, CNBC, Central Banking, Trading Economics and BBVA Research reporting for the Bank of Canada, Bank of England, RBNZ, CNB, NBP, PBOC, BCRP, Banco Central de Chile, Central Bank of Kuwait and National Bank of North Macedonia.</p>')
+i = s.index('<div class="gb-tblwrap"><table class="gb-table">\n<thead><tr><th>Economy</th>')
+j = s.index("missing the June&nbsp;2026 BoJ hike discussed above.</p>", i) + len("missing the June&nbsp;2026 BoJ hike discussed above.</p>")
+s = s[:i] + TABLE + NOTE_T + s[j:]
+rep("<strong>25 of the 38 live economies sit below India's\n5.25% repo</strong>",
+    "<strong>25 of the 38 live economies sat below India's\n5.25% repo</strong> on 3 August, and the same 25 sit below its 5.50% repo on 26 October")
+rep("gap in the entire panel at 5.25pp and is close to the least useful",
+    "gap in the entire panel at 5.50pp and is close to the least useful")
 
 # 5b: FX
 rep("for the FBIL era, retrieved 3 Aug 2026.</p>",
@@ -137,7 +181,7 @@ rep("Dashed line marks REC's &#165;61.1&nbsp;bn EuroYen issue.</p>",
     "Fed target range 3.75&ndash;4.00% from 17 September (mid-target 3.875% plotted), ECB deposit rate 2.50% from 16 September, Bank of Japan 1.25% from 18 September, RBI repo 5.50% from 7 October. "
     "The October points are as of 26 October, before that week&rsquo;s Fed, ECB and Bank of Japan decisions. The euro line follows the ECB deposit facility rate from September 2024 on, as the original chart did.</p>")
 rep("The chart, its \"~4.25pp carry\" annotation and the gap table below are not redrawn and remain as of the 3 August 2026 data pull.",
-    "The chart above now runs to October 2026 (extended 26 October); the gap table below is still as of the 3 August 2026 data pull, with a note on what has changed.")
+    "The chart above now runs to October 2026 and the gap table below is refreshed to 26 October (both updated 26 October 2026).")
 
 # Sources line
 rep("Nothing here is investment advice.",

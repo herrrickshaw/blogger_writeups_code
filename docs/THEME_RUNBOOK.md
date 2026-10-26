@@ -18,7 +18,7 @@ Modules are wrapped in `BEGIN/END theme-module` markers. The builder can therefo
    ```zsh
    cd /Users/umashankar/masaladeutsch-archive
    git pull -q origin main
-   python3 tools/theme_build.py --base "$(ls -t ~/Downloads/theme*.xml | head -1)"
+   python3 tools/theme_build.py --base latest
    ```
    The builder prints which modules it removed from the backup. It also says whether the live theme changed since `theme/base.xml` was saved; those changes are kept. It refuses to write a file that is not well-formed XML, the error Blogger reports as `SAXParseException`.
 3. Blogger: **Theme > down arrow > Restore > Upload**, and choose `theme/theme.xml` from the archive folder. If Blogger asks about widgets that are not in the new theme, choose **Keep widgets**.
