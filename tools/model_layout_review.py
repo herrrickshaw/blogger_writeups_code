@@ -193,23 +193,42 @@ def parse_json(text):
 
 
 def panel_keys(panel):
+    """Models whose key is in the credentials file; a missing key skips that model with a warning."""
     blob = mm.creds()
     keys = {}
-    if "gemini" in panel:
-        keys["Gemini"] = (mm.ask_gemini, mm.key("GEMINI_API_KEY", blob), [mm.GEMINI_MODEL] + mm.GEMINI_FALLBACKS)
-    if "mistral" in panel:
-        keys["Mistral"] = (mm.ask_mistral, mm.key("MISTRAL_API_KEY", blob), [mm.MISTRAL_MODEL] + mm.MISTRAL_FALLBACKS)
-    if "groq" in panel:
-        k = mm.key("GROQ_API_KEY", blob)
-        model = mm.groq_pick_model(k)
-        keys["Groq"] = (lambda kk, text, m=None: mm.ask_groq(kk, m or model, text), k, [model])
+    want = {"gemini": ("Gemini", "GEMINI_API_KEY"), "mistral": ("Mistral", "MISTRAL_API_KEY"), "groq": ("Groq", "GROQ_API_KEY")}
+    for p in panel:
+        if p not in want:
+            sys.exit(f"--panel: unknown model {p!r}; choose from gemini, mistral, groq")
+        name, var = want[p]
+        k = mm.key_optional(var, blob)
+        if not k:
+            print(f"! {var} not in {mm.CREDS}; skipping {name}", file=sys.stderr)
+            continue
+        if p == "gemini":
+            keys[name] = (mm.ask_gemini, k, [mm.GEMINI_MODEL] + mm.GEMINI_FALLBACKS)
+        elif p == "mistral":
+            keys[name] = (mm.ask_mistral, k, [mm.MISTRAL_MODEL] + mm.MISTRAL_FALLBACKS)
+        else:
+            model = mm.groq_pick_model(k)
+            keys[name] = (lambda kk, text, m=None, model=model: mm.ask_groq(kk, m or model, text), k, [model])
+    if not keys:
+        sys.exit("no model keys found; nothing to do")
     return keys
 
 
 def ask_all(keys, prompt):
+    """Each model's parsed JSON answer, {"raw": text} when it gave no JSON, {"error": text} on failure."""
     res = {}
     for name, (fn, k, models) in keys.items():
-        model, raw = mm.ask_with_fallback(fn, k, prompt, models)
+        try:
+            model, raw = mm.ask_with_fallback(fn, k, prompt, models)
+        except Exception as e:  # noqa: BLE001 - one model failing must not stop the run
+            model, raw = models[0], f"[{name} network error: {e}]"
+        if mm.failed(raw):
+            res[name] = {"error": raw[:500], "model": model}
+            print(f"  {name} ({model}): FAILED", " ".join(raw.split())[:120])
+            continue
         res[name] = parse_json(raw) or {"raw": raw}
         res[name]["model"] = model
         print(f"  {name} ({model}): {'ok' if 'raw' not in res[name] else 'no JSON: ' + raw[:80]}")
@@ -224,7 +243,10 @@ def summary():
         d = json.loads(f.read_text())
         votes = {}
         for model, ans in d["models"].items():
-            for e in (ans.get("edits") or []) if isinstance(ans, dict) else []:
+            edits = ans.get("edits") if isinstance(ans, dict) else None
+            for e in edits if isinstance(edits, list) else []:
+                if not isinstance(e, dict):
+                    continue
                 k = (str(e.get("where", "")).strip().lower(), e.get("type", ""))
                 votes.setdefault(k, []).append((model, e))
         scores = [a.get("structure_score") for a in d["models"].values() if isinstance(a, dict) and isinstance(a.get("structure_score"), (int, float))]
@@ -252,6 +274,7 @@ def main():
     g.add_argument("--all", action="store_true")
     g.add_argument("--theme", action="store_true", help="review theme/modules.json modules against the theme audit")
     g.add_argument("--summary", action="store_true", help="only rebuild SUMMARY.md")
+    g.add_argument("--probe", action="store_true", help="send a one-line request to each model and report which answer")
     ap.add_argument("--panel", default="gemini,mistral,groq")
     ap.add_argument("--limit", type=int, default=0)
     ap.add_argument("--sleep", type=float, default=0)
@@ -260,7 +283,10 @@ def main():
     OUT.mkdir(parents=True, exist_ok=True)
     if a.summary:
         return summary()
-    keys = panel_keys([p.strip().lower() for p in a.panel.split(",")])
+    keys = panel_keys([p.strip().lower() for p in a.panel.split(",") if p.strip()])
+    if a.probe:
+        res = ask_all(keys, 'Reply with this JSON only: {"ok": true}')
+        sys.exit(0 if any(isinstance(v, dict) and v.get("ok") is True for v in res.values()) else 1)
 
     if a.theme:
         audit = (ROOT / "out" / "research" / "theme-audit-2026-10-26.md").read_text(encoding="utf-8")[:6000]
@@ -274,16 +300,25 @@ def main():
         return
 
     slugs = [a.slug] if a.slug else sorted(p.stem for p in (ROOT / "posts").glob("*.html") if p.stem not in SKIP)
-    done = 0
+    done = failed = 0
     for slug in slugs:
         dest = OUT / f"{slug}.json"
         if dest.exists() and not a.force and not a.slug:
             continue
         path = ROOT / "posts" / f"{slug}.html"
+        if not path.exists():
+            sys.exit(f"no such post: {path}")
         print(slug)
         ol = outline(path)
         opening = " ".join(html.unescape(mm.extract_text(path)).split()[:400])
         res = ask_all(keys, POST_PROMPT.format(outline=ol, opening=opening))
+        if all("error" in v for v in res.values()):
+            failed += 1
+            print(f"  every model failed; {slug} not saved, so the next run retries it")
+            if failed >= 3 and not done:
+                sys.exit("the first posts all failed on every model: check keys and quotas with --probe")
+            time.sleep(a.sleep)
+            continue
         dest.write_text(json.dumps({"slug": slug, "outline": ol, "models": res}, indent=1, ensure_ascii=False), encoding="utf-8")
         done += 1
         if a.limit and done >= a.limit:
