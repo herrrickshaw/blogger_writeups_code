@@ -1,0 +1,137 @@
+{
+ "slug": "a-million-wine-market-behind-150-wall",
+ "outline": "2904 words in 23 paragraphs; 5 tables; 2 charts/images; 1 boxed notes\nH1: A $195 Million Wine Market Behind a 150% Wall, and the Deal That Cracks It  [302 words in paragraphs and lists]\n    [box: gb-card]\n    [chart: img]\n  H2: A market too small to argue about, in absolute terms  [136 words in paragraphs and lists]\n    [table: 3 cols x 6 rows]\n    [chart: svg]\n  H2: Two states, one river valley, most of the wine  [188 words in paragraphs and lists]\n    [table: 3 cols x 6 rows]\n  H2: A third state watching from the sidelines: Tamil Nadu  [184 words in paragraphs and lists]\n    [table: 3 cols x 5 rows]\n  H2: Three companies, most of what's left  [189 words in paragraphs and lists]\n    [table: 4 cols x 4 rows]\n  H2: The 150% wall, and the deal that's supposed to bring it down  [285 words in paragraphs and lists]\n    [table: 4 cols x 4 rows]\n  H2: A carrot-and-stick anecdote, from this industry's own history  [252 words in paragraphs and lists]\n    para 17: 120 words (long) — The two policy levers behind this market's shape are a textbook carrot...\n    para 18: 132 words (long) — The same asymmetry turns up in a completely different Indian industry: ethanol...\n  H2: Who's actually doing the drinking  [125 words in paragraphs and lists]\n    para 19: 125 words (long) — The demand side has shifted faster than the supply side. Millennials aged...\n  H2: What doesn't follow from any of this  [192 words in paragraphs and lists]\n    para 20: 192 words (long) — It is tempting to read a 17% forecast CAGR and a falling...\n  H2: What would fix this  [231 words in paragraphs and lists]\n  H2: Sources and caveats  [709 words in paragraphs and lists]\n    para 22: 671 words (long) — Maharashtra’s winery count (35+), wine-grape acreage (≈1,500 acres), the state’s small-scale-industry declaration...",
+ "models": {
+  "Gemini": {
+   "structure_score": 2,
+   "summary_up_top": {
+    "present": true,
+    "suggest": "The opening currently mixes breadcrumbs, audio controls, and meta-text before the actual summary; the summary list should be moved above all UI clutter so mobile readers see it immediately."
+   },
+   "edits": [
+    {
+     "where": "opening",
+     "type": "move",
+     "why": "Mobile readers hit site navigation, breadcrumbs, and audio widgets before reaching the summary or the H1.",
+     "how": "Move the 'The short version' bulleted list directly below the H1 and above any site UI elements, metadata, or images."
+    },
+    {
+     "where": "para 22",
+     "type": "split-paragraph",
+     "why": "Paragraph 22 is 671 words long, creating an enormous text wall that is exhausting to scroll through on a mobile screen.",
+     "how": "Break the 671-word Sources and caveats block into 4 or 5 smaller paragraphs grouped by topic."
+    },
+    {
+     "where": "What doesn't follow from any of this",
+     "type": "split-paragraph",
+     "why": "Paragraph 20 contains 192 words in a single block, making it difficult to digest on a phone.",
+     "how": "Split paragraph 20 into two paragraphs at the natural pivot in the argument."
+    },
+    {
+     "where": "A carrot-and-stick anecdote, from this industry's own history",
+     "type": "split-paragraph",
+     "why": "Paragraphs 17 and 18 are both over 120 words long, creating dense reading blocks directly adjacent to each other.",
+     "how": "Split each of paragraphs 17 and 18 into two shorter paragraphs."
+    },
+    {
+     "where": "Who's actually doing the drinking",
+     "type": "split-paragraph",
+     "why": "Paragraph 19 is 125 words long, which is too dense for comfortable mobile reading without a break.",
+     "how": "Split paragraph 19 into two paragraphs."
+    },
+    {
+     "where": "Sources and caveats",
+     "type": "add-heading",
+     "why": "At 709 words, this section is longer than most articles and needs internal subheadings to help mobile readers navigate.",
+     "how": "Add H3 subheadings within the Sources and caveats section for data sources, methodology, and policy updates."
+    }
+   ],
+   "ad_breaks": {
+    "good": [
+     "Two states, one river valley, most of the wine",
+     "The 150% wall, and the deal that's supposed to bring it down",
+     "What would fix this"
+    ],
+    "avoid": [
+     "A carrot-and-stick anecdote, from this industry's own history",
+     "Sources and caveats"
+    ]
+   },
+   "model": "gemini-flash-lite-latest"
+  },
+  "Mistral": {
+   "raw": "```json\n{\n  \"structure_score\": 3,\n  \"summary_up_top\": {\n    \"present\": false,\n    \"suggest\": \"Lead with the **$195M market size**, **150% import wall**, and **EU deal timeline shift** (2027 entry) to hook readers on the headline’s core tension.\"\n  },\n  \"edits\": [\n    {\n      \"where\": \"opening\",\n      \"type\": \"shorten-heading\",\n      \"why\": \"The H1 already summarizes the core tension; the opening should **cut to the chase** with a punchy hook (e.g., ‘India’s wine market is tiny—but a single deal could upend it’).\",\n      \"how\": \"Replace the first 100 words with a **3-sentence hook** (market size + wall + deal timeline) + a **bolded key stat** (e.g., ‘*9ml per person*—less than a shot of wine per year’).\"\n    },\n    {\n      \"where\": \"H1\",\n      \"type\": \"shorten-heading\",\n      \"why\": \"The H1 is **too long** for mobile; the ‘$195M’ and ‘150% wall’ are already in the opening.\",\n      \"how\": \"Trim to: *“How a 150% Tariff Keeps India’s $195M Wine Market Domestic—Until the EU Deal Changes Everything”*\n    },\n    {\n      \"where\": \"H2: 'A market too small to argue about, in absolute terms'\",\n      \"type\": \"split-section\",\n      \"why\": \"The **table + chart** here are dense; splitting into **two subheadings** (e.g., ‘Why India’s wine market is a rounding error’ + ‘The numbers behind the $195M figure’) would improve scannability.\",\n      \"how\": \"Add a **new H3** after the first paragraph: *“The $195M market in context”* (move the table here) and rename the current H2 to *“How small is ‘small’? A breakdown of India’s wine consumption.”*\n    },\n    {\n      \"where\": \"H2: 'Two states, one river valley, most of the wine'\",\n      \"type\": \"split-paragraph\",\n      \"why\": \"The **188-word block** is too long for mobile; the **table** is buried mid-paragraph.\",\n      \"how\": \"Split into **two paragraphs**:\n        1. **Nashik/Karnataka dominance** (first 90 words).\n        2. **Table + remaining text** (move table to start of this new para).\"\n    },\n    {\n      \"where\": \"H2: 'A third state watching from the sidelines: Tamil Nadu'\",\n      \"type\": \"add-heading\",\n      \"why\": \"The **table** here is a **standalone data point**; it deserves its own subheading to separate it from the narrative.\",\n      \"how\": \"Add a **new H3** before the table: *“Tamil Nadu’s untapped potential: A look at the numbers.”*\n    },\n    {\n      \"where\": \"H2: 'Three companies, most of what's left'\",\n      \"type\": \"to-list\",\n      \"why\": \"The **4-column table** is hard to parse on mobile; a **bulleted breakdown** of the top 3 players’ market shares would be clearer.\",\n      \"how\": \"Replace the table with a **3-item list** (e.g., ‘*Sula Vineyards*: 52.6% of domestic 100%-grape wine (FY2021) | *Fratelli Wines*: [X]% | *Grover Zampa*: [X]%’) + keep the text below.\"\n    },\n    {\n      \"where\": \"H2: 'The 150% wall, and the deal that's supposed to bring it down'\",\n      \"type\": \"split-section\",\n      \"why\": \"The **285-word block** mixes **policy explanation** (carrot/stick) and **deal specifics**; splitting would help mobile readers.\",\n      \"how\": \"Add a **new H3** after the first 120 words: *“How the 150% tariff works: Carrots, sticks, and WTO limits.”*\n    },\n    {\n      \"where\": \"para 17 (under 'A carrot-and-stick anecdote')\",\n      \"type\": \"shorten-heading\",\n      \"why\": \"The **120-word para** is dense; the heading doesn’t reflect its **policy focus** (missing ‘policy’ or ‘history’).\",\n      \"how\": \"Rename to: *“The two policy levers shaping India’s wine market (and why they’re asymmetric).”*\n    },\n    {\n      \"where\": \"H2: 'What doesn’t follow from any of this'\",\n      \"type\": \"shorten-heading\",\n      \"why\": \"The heading is **passive and confusing**; it doesn’t preview the **counterintuitive claim** (e.g., ‘Why the 17% CAGR isn’t a win’).\",\n      \"how\": \"Rename to: *“Why India’s wine boom isn’t what it seems (and what it *actually* needs).”*\n    }\n  ],\n  \"ad_breaks\": {\n    \"good\": [\n      \"H2: 'Two states, one river valley, most of the wine' (after the table)\",\n      \"H2: 'A third state watching from the sidelines: Tamil Nadu' (after the table)\",\n      \"H2: 'Three companies, most of what's left' (after the list/table)\",\n      \"H2: 'What would fix this' (after the first 100 words)\"\n    ],\n    \"avoid\": [\n      \"H2: 'A market too small to argue about, in absolute terms' (ad would split the table + chart)\",\n      \"H2: 'The 150% wall, and the deal that's supposed to bring it down' (ad would interrupt the carrot/stick explanation)\",\n      \"para 17–18 (under 'A carrot-and-stick anecdote') (ad would break the policy history flow)\",\n      \"H2: 'What doesn’t follow from any of this' (ad would split the long para into two unconnected chunks)\",\n      \"Sources and caveats (entire section—bury ads here to avoid overwhelming readers)\"\n    ]\n  }\n}\n```",
+   "model": "open-mistral-nemo"
+  },
+  "Groq": {
+   "structure_score": 3,
+   "summary_up_top": {
+    "present": false,
+    "suggest": "Start with a one‑sentence hook that states the market’s $195 M size, the 150 % import duty barrier, and the pending India‑EU wine‑trade deal."
+   },
+   "edits": [
+    {
+     "where": "opening",
+     "type": "add-heading",
+     "why": "A clear sub‑heading separates the hook from the detailed background, making the top of the article scannable on a phone.",
+     "how": "Insert a level‑2 heading titled “Key takeaways” right after the opening paragraph and move the short‑version paragraph under it."
+    },
+    {
+     "where": "A $195 Million Wine Market Behind a 150% Wall, and the Deal That Cracks It",
+     "type": "shorten-heading",
+     "why": "The current title is long and wraps on small screens, pushing content down before the reader sees any text.",
+     "how": "Change the heading to “India’s $195 M Wine Market, a 150 % Tariff Wall, and the Deal to Lower It”."
+    },
+    {
+     "where": "para 17",
+     "type": "split-paragraph",
+     "why": "A 120‑word paragraph is dense for mobile readers and can hide the two policy levers being described.",
+     "how": "Break the paragraph after the first sentence about the “carrot” lever, creating two separate paragraphs."
+    },
+    {
+     "where": "para 20",
+     "type": "to-list",
+     "why": "A 192‑word block of analysis is hard to scan; bullet points highlight the main logical steps.",
+     "how": "Rewrite the paragraph as a 3‑item bulleted list, each bullet summarizing one key point of the argument."
+    },
+    {
+     "where": "Sources and caveats",
+     "type": "split-section",
+     "why": "A 709‑word “Sources and caveats” section overwhelms mobile users and should be broken into digestible parts.",
+     "how": "Divide the section into three sub‑headings: “Data sources”, “Methodology notes”, and “Limitations & caveats”, moving the relevant sentences under each."
+    },
+    {
+     "where": "A third state watching from the sidelines: Tamil Nadu",
+     "type": "move",
+     "why": "The boxed note (gb‑card) currently appears before the first H2, interrupting the flow of the introductory narrative.",
+     "how": "Move the boxed note to immediately after this heading, so it follows the related regional discussion."
+    },
+    {
+     "where": "Two states, one river valley, most of the wine",
+     "type": "merge",
+     "why": "The two consecutive regional sections are short and cover overlapping geography; merging reduces navigation steps.",
+     "how": "Combine the content of this heading and the next heading (“A third state watching from the sidelines: Tamil Nadu”) under a new H2 titled “Regional production: Nashik valley and Tamil Nadu”."
+    },
+    {
+     "where": "What would fix this",
+     "type": "to-list",
+     "why": "Recommendations are easier to digest as a list on small screens.",
+     "how": "Convert the paragraph into a bulleted list, each bullet stating one concrete policy or market fix."
+    }
+   ],
+   "ad_breaks": {
+    "good": [
+     "Three companies, most of what's left",
+     "The 150% wall, and the deal that's supposed to bring it down",
+     "Who’s actually doing the drinking"
+    ],
+    "avoid": [
+     "A carrot-and-stick anecdote, from this industry's own history",
+     "What doesn't follow from any of this",
+     "Sources and caveats"
+    ]
+   },
+   "model": "openai/gpt-oss-120b"
+  }
+ }
+}

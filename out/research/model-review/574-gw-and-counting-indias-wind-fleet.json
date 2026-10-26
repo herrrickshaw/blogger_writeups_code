@@ -1,0 +1,199 @@
+{
+ "slug": "574-gw-and-counting-indias-wind-fleet",
+ "outline": "1093 words in 10 paragraphs; 1 tables; 2 charts/images; 6 boxed notes\nH1: 57.4 GW and Counting: India's Wind Fleet, State by State, Against What NIWE Says Is Actually There  [736 words in paragraphs and lists]\n    [chart: svg]\n    [box: gb-card]\n    [chart: img]\n    [box: warn]\n    (x2)\n    para 3: 125 words (long) — India's cumulative installed wind capacity reached 57,443.39 MW by the end of...\n    [table: 7 cols x 11 rows]\n    para 6: 150 words (long) — The National Institute of Wind Energy (NIWE) has surveyed India's onshore wind...\n    para 7: 152 words (long) — India has an estimated 70 GW of technical offshore wind potential along...\n    para 8: 143 words (long) — Part of why the FY2025-26 growth rate jumped is a 7 December...\n    [box: warn]\n  H2: What would fix this  [266 words in paragraphs and lists]\n    [box: gb-card]\n    (x2)",
+ "models": {
+  "Gemini": {
+   "structure_score": 2,
+   "summary_up_top": {
+    "present": false,
+    "suggest": "Move 'The pattern in one line' summary box to the very top of the article before the charts and meta-navigation for mobile readers."
+   },
+   "edits": [
+    {
+     "where": "opening",
+     "type": "move",
+     "why": "Metadata, skip links, and site navigation are pushing the actual article content too far down on small mobile screens.",
+     "how": "Move all site header elements, breadcrumbs, and audio player widgets below the H1 and the lead summary box."
+    },
+    {
+     "where": "para 3",
+     "type": "split-paragraph",
+     "why": "Paragraph 3 is 125 words, which creates a massive wall of text on a mobile phone screen.",
+     "how": "Break paragraph 3 into two smaller paragraphs of roughly equal length."
+    },
+    {
+     "where": "para 6",
+     "type": "split-paragraph",
+     "why": "At 150 words, this paragraph is too long for comfortable mobile reading without a visual break.",
+     "how": "Split paragraph 6 into two shorter paragraphs at a natural thematic break."
+    },
+    {
+     "where": "para 7",
+     "type": "split-paragraph",
+     "why": "At 152 words, this dense block of data strains readability on small screens.",
+     "how": "Split paragraph 7 into two separate paragraphs."
+    },
+    {
+     "where": "para 8",
+     "type": "split-paragraph",
+     "why": "At 143 words, this paragraph creates another tall block of text between data elements.",
+     "how": "Divide paragraph 8 into two distinct paragraphs."
+    },
+    {
+     "where": "H1",
+     "type": "add-heading",
+     "why": "The wall of introductory text before the first formal subheading is too long for easy mobile scanning.",
+     "how": "Add an H2 heading like 'The Current State of Play' before paragraph 3 to break up the long intro."
+    }
+   ],
+   "ad_breaks": {
+    "good": [
+     "What would fix this"
+    ],
+    "avoid": [
+     "H1: 57.4 GW and Counting: India's Wind Fleet, State by State, Against What NIWE Says Is Actually There"
+    ]
+   },
+   "model": "gemini-flash-lite-latest"
+  },
+  "Mistral": {
+   "structure_score": 3,
+   "summary_up_top": {
+    "present": false,
+    "suggest": "Lead with a punchy, state-specific hook: *‘Gujarat’s wind boom has made it India’s top state—but its 57 GW fleet still taps less than 8% of NIWE’s own 695 GW onshore potential, while offshore remains untouched.’*"
+   },
+   "edits": [
+    {
+     "where": "opening",
+     "type": "shorten-heading",
+     "why": "The H1 is too dense with numbers and qualifiers; prioritize the ‘vs. NIWE’s claims’ angle for mobile readers.",
+     "how": "Trim to: *‘India’s 57 GW wind fleet vs. NIWE’s own 695 GW atlas: Why the gap is widening—and offshore remains a ghost.’*"
+    },
+    {
+     "where": "H1",
+     "type": "split-section",
+     "why": "The H1’s 736 words + visuals overwhelm mobile. Split into two H1s: one for the *current* fleet (para 3–5) and one for the *NIWE vs. reality* comparison (para 6–7).",
+     "how": "Create a new H1 after the table: *‘But NIWE’s own atlas says India could install 695 GW onshore—and offshore potential sits idle.’*"
+    },
+    {
+     "where": "para 3 (125 words)",
+     "type": "split-paragraph",
+     "why": "The dense number dump (57.4 GW, 49% Gujarat share, FY2025-26 growth) loses mobile readers. Split into two: first para = *current* fleet stats; second = *growth* stats.",
+     "how": "Move the FY2025-6 growth rate (para 8’s first sentence) into a new para 4, and shorten para 3 to: *‘India’s wind fleet hit 57,443 MW in June 2026, with Gujarat now accounting for nearly half of all new capacity (49% in FY2025-26).’*"
+    },
+    {
+     "where": "table",
+     "type": "add-heading",
+     "why": "The table lacks context for mobile users. Add a heading to explain its purpose before it.",
+     "how": "Insert after para 5: *‘Here’s how India’s installed capacity (57.4 GW) stacks up against NIWE’s own onshore potential at different hub heights (data as of June 2026):’*"
+    },
+    {
+     "where": "para 6 (150 words)",
+     "type": "to-list",
+     "why": "The NIWE critique is a dense argument. Bullet-point the key claims (e.g., ‘NIWE’s 2022 atlas underestimated wind speeds by 10–15%’).",
+     "how": "Replace with a 3–4 item list: *‘NIWE’s 2022 resource atlas (695.5 GW at 120m) is flawed because:’*"
+    },
+    {
+     "where": "para 7 (152 words)",
+     "type": "shorten-heading",
+     "why": "The offshore potential section is critical but buried. Elevate it with a clearer H2.",
+     "how": "Rename H2 to: *‘Offshore wind: 70 GW of potential, zero MW installed.’* (Move the boxed note here if it’s the key data point.)"
+    },
+    {
+     "where": "H2: What would fix this",
+     "type": "merge",
+     "why": "The solutions section feels abrupt after the offshore gap. Merge its first idea (e.g., ‘higher hub heights’) into para 7’s closing.",
+     "how": "Add to para 7’s end: *‘Solutions like taller towers (150m hub heights) could unlock 1,163 GW—but policy delays and land constraints remain barriers.’*"
+    },
+    {
+     "where": "boxed notes (x2 in H1)",
+     "type": "move",
+     "why": "The ‘warn’ boxes interrupt flow. Place them *after* their respective data points (e.g., the first after the offshore H2).",
+     "how": "Move the first ‘warn’ box to after the offshore H2, and the second to after the solutions H2 (if it exists)."
+    }
+   ],
+   "ad_breaks": {
+    "good": [
+     "after the table (para 5)",
+     "after the offshore H2 (para 7’s end)",
+     "after the ‘What would fix this’ H2"
+    ],
+    "avoid": [
+     "after para 3 (125-word number dump)",
+     "after para 6 (dense NIWE critique)",
+     "between the two boxed notes in H1"
+    ]
+   },
+   "model": "open-mistral-nemo"
+  },
+  "Groq": {
+   "structure_score": 3,
+   "summary_up_top": {
+    "present": true,
+    "suggest": "Add a concise one‑sentence lead at the very start that states the fleet size, its rapid growth, and the gap with NIWE’s technical potential."
+   },
+   "edits": [
+    {
+     "where": "opening",
+     "type": "move",
+     "why": "Place the concise summary line first so readers get the key takeaway immediately on mobile.",
+     "how": "Move the 'pattern in one line' sentence to be the very first line before any chart, box, or paragraph."
+    },
+    {
+     "where": "H1",
+     "type": "shorten-heading",
+     "why": "The current heading is too long for phone screens and pushes content down.",
+     "how": "Replace the heading with 'India's 57.4 GW Wind Fleet vs. NIWE’s Atlas'."
+    },
+    {
+     "where": "para 3",
+     "type": "split-paragraph",
+     "why": "A 125‑word paragraph is dense on small screens.",
+     "how": "Insert a line break after the sentence ending with 'by the end of…' to create two ~60‑word paragraphs."
+    },
+    {
+     "where": "para 6",
+     "type": "split-paragraph",
+     "why": "150 words makes scrolling cumbersome on phones.",
+     "how": "Break the paragraph after the sentence that explains NIWE’s survey methodology."
+    },
+    {
+     "where": "para 7",
+     "type": "split-paragraph",
+     "why": "Long paragraph reduces scanability on mobile.",
+     "how": "Split after the sentence introducing the 70 GW offshore potential, creating two balanced paragraphs."
+    },
+    {
+     "where": "State-wise capacity table",
+     "type": "add-heading",
+     "why": "The table appears without an introductory label, making navigation harder.",
+     "how": "Insert a sub‑heading 'State‑wise Installed Capacity (June 2026)' directly above the table."
+    },
+    {
+     "where": "opening figures",
+     "type": "to-list",
+     "why": "Three NIWE potential numbers are buried in a paragraph, hard to scan on a phone.",
+     "how": "Convert them into a bullet list: • 302 GW at 100 m • 695.5 GW at 120 m • 1,163.9 GW at 150 m."
+    },
+    {
+     "where": "H2",
+     "type": "add-heading",
+     "why": "A sub‑heading clarifies the shift to recommendations and improves skim‑ability.",
+     "how": "Add the sub‑heading 'Policy Recommendations to Unlock Wind Potential' before the first paragraph of H2."
+    }
+   ],
+   "ad_breaks": {
+    "good": [
+     "57.4 GW and Counting: India's Wind Fleet, State by State, Against What NIWE Says Is Actually There",
+     "What would fix this"
+    ],
+    "avoid": [
+     "chart: svg",
+     "table: 7 cols x 11 rows",
+     "box: warn"
+    ]
+   },
+   "model": "openai/gpt-oss-120b"
+  }
+ }
+}

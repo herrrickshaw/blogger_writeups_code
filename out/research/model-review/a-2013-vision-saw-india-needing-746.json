@@ -1,0 +1,138 @@
+{
+ "slug": "a-2013-vision-saw-india-needing-746",
+ "outline": "1969 words in 14 paragraphs; 1 tables; 2 charts/images; 9 boxed notes\nH1: A 2013 Vision Saw India Needing 746 MMSCMD of Gas by 2030. Actual Demand Is About a Quarter of That  [139 words in paragraphs and lists]\n    [box: gb-card]\n    para 2: 139 words (long) — The short version. \"Vision 2030: Natural Gas Infrastructure in India,\" an industry-group...\n    [chart: img]\n    [box: gb-stat]\n    (x4)\n    [box: gb-warn]\n    [box: warn]\n    (x2)\n  H2: What the 2013 report actually projected  [429 words in paragraphs and lists]\n    para 3: 168 words (long) — PNGRB's industry-group authors built their \"realistic demand\" projection sector by sector: power,...\n    para 5: 154 words (long) — Because demand was projected to consistently outrun supply, the report's central number...\n  H2: The full demand trajectory, year by year  [24 words in paragraphs and lists]\n    [table: 2 cols x 10 rows]\n    [chart: svg]\n  H2: What actually happened  [265 words in paragraphs and lists]\n    para 7: 134 words (long) — Reliable, directly-comparable Indian gas-consumption figures for every one of those years were...\n    para 8: 131 words (long) — The pipeline network is the one place the 2013 vision came close...\n  H2: Even 2040 might not reach the 2013 report's 2030 number  [174 words in paragraphs and lists]\n    para 9: 174 words (long) — The starkest way to see the gap is against PNGRB's own more...\n  H2: Why the gap: gas didn't win the fights it was supposed to win  [196 words in paragraphs and lists]\n    para 10: 196 words (long) — The 2013 report's central bet was that gas would substitute for oil...\n  H2: What doesn't follow from any of this  [180 words in paragraphs and lists]\n    para 11: 180 words (long) — None of this shows the 2013 report's authors were incompetent or acting...\n  H2: What would fix this  [185 words in paragraphs and lists]\n  H2: Sources and caveats  [290 words in paragraphs and lists]\n    para 13: 252 words (long) — The 2013 \"Vision 2030: Natural Gas Infrastructure in India\" report (an industry-group...\n    [box: gb-note]",
+ "models": {
+  "Gemini": {
+   "structure_score": 2,
+   "summary_up_top": {
+    "present": true,
+    "suggest": ""
+   },
+   "edits": [
+    {
+     "where": "para 2",
+     "type": "split-paragraph",
+     "why": "Paragraph 2 is 139 words crammed with data, stats, and image captions, making it a massive wall of text on mobile screens.",
+     "how": "Split para 2 into three smaller paragraphs after the core projection figures and before the stat boxes."
+    },
+    {
+     "where": "H2: What the 2013 report actually projected",
+     "type": "split-paragraph",
+     "why": "Paragraphs 3 and 5 are both long blocks exceeding 150 words without visual relief.",
+     "how": "Break both para 3 and para 5 into two shorter paragraphs each at logical transition points."
+    },
+    {
+     "where": "H2: The full demand trajectory, year by year",
+     "type": "to-list",
+     "why": "A 2-column table with 10 rows is difficult to read horizontally on narrow mobile phone screens.",
+     "how": "Convert the 2-column table into a vertical list format optimized for vertical mobile scrolling."
+    },
+    {
+     "where": "H2: What actually happened",
+     "type": "split-paragraph",
+     "why": "Paragraphs 7 and 8 contain over 130 words each, creating dense blocks that strain mobile reading.",
+     "how": "Split both para 7 and para 8 into two paragraphs around the midpoint of their arguments."
+    },
+    {
+     "where": "H2: Why the gap: gas didn't win the fights it was supposed to win",
+     "type": "split-paragraph",
+     "why": "Paragraph 10 is 196 words long, making it the longest single paragraph in the main body.",
+     "how": "Split paragraph 10 into three separate paragraphs to separate the different sector arguments (power, fertilizer, city gas)."
+    },
+    {
+     "where": "H2: Sources and caveats",
+     "type": "split-paragraph",
+     "why": "Paragraph 13 is 252 words long, creating an overwhelming block of methodological text at the end.",
+     "how": "Break paragraph 13 into four distinct paragraphs separated by category of source or caveat."
+    }
+   ],
+   "ad_breaks": {
+    "good": [
+     "H2: What the 2013 report actually projected",
+     "H2: What actually happened",
+     "H2: Why the gap: gas didn't win the fights it was supposed to win"
+    ],
+    "avoid": [
+     "H2: The full demand trajectory, year by year",
+     "para 2",
+     "H2: Even 2040 might not reach the 2013 report's 2030 number"
+    ]
+   },
+   "model": "gemini-flash-lite-latest"
+  },
+  "Mistral": {
+   "raw": "```json\n{\n  \"structure_score\": 3,\n  \"summary_up_top\": {\n    \"present\": false,\n    \"suggest\": \"Open with a punchy one-liner: *'India’s 2013 gas vision projected 746 MMSCMD by 2030—but today’s demand is a quarter of that, leaving a grid built for a demand that never arrived.'*\"\n  },\n  \"edits\": [\n    {\n      \"where\": \"opening\",\n      \"type\": \"shorten-heading\",\n      \"why\": \"The H1 is already punchy but could be more concise for mobile skimmers.\",\n      \"how\": \"Trim to: *'India’s 2013 Gas Vision Missed by 600 MMSCMD: Why the Grid Was Built for a Demand That Never Came'*\n      (or similar, keeping the core numbers and gap).\"\n    },\n    {\n      \"where\": \"H1\",\n      \"type\": \"add-heading\",\n      \"why\": \"The opening text repeats the H1’s core claim but could benefit from a subheading to break up the dense intro.\",\n      \"how\": \"Add a subheading after the first sentence: *'The report’s 2030 target: 746 MMSCMD. Reality: ~188 MMSCMD.'*\n      (or similar, mirroring the chart’s visual emphasis).\"\n    },\n    {\n      \"where\": \"para 2 (opening text)\",\n      \"type\": \"split-paragraph\",\n      \"why\": \"The first 139 words are a dense wall of text with no visual breaks for mobile readers.\",\n      \"how\": \"Split into two paragraphs after the first sentence (the report’s core claim) to separate the summary from the supporting details.\"\n    },\n    {\n      \"where\": \"H2: 'What the 2013 report actually projected'\",\n      \"type\": \"split-section\",\n      \"why\": \"This H2 and the next ('The full demand trajectory') both focus on *how* the projection was made, which feels like a single logical block.\",\n      \"how\": \"Merge these two H2s into one: *'How the 2013 report built its projection—and why it overestimated demand'*\n      (or similar). Move the table/chart under this merged heading.\"\n    },\n    {\n      \"where\": \"H2: 'The full demand trajectory, year by year'\",\n      \"type\": \"to-table\",\n      \"why\": \"The table here is small (2x10) but buried in a short heading; it deserves prominence.\",\n      \"how\": \"Move the table *before* the H2 heading and add a subheading above it: *'Projected vs. actual demand (2013–2030):'*\"\n    },\n    {\n      \"where\": \"H2: 'What actually happened'\",\n      \"type\": \"split-section\",\n      \"why\": \"This H2 and the next ('Even 2040 might not reach...') contrast projections with reality, but the pipeline network detail feels like a separate sub-argument.\",\n      \"how\": \"Split into two H2s:\n      1. *'Actual demand: 188 MMSCMD in 2024 (vs. 571 projected)'*\n      2. *'The pipeline grid: built for a demand that never arrived'*\n      (Move the pipeline paragraph to the second H2.)\"\n    },\n    {\n      \"where\": \"H2: 'Why the gap: gas didn’t win the fights it was supposed to win'\",\n      \"type\": \"shorten-heading\",\n      \"why\": \"This heading is too long for mobile; it risks being truncated.\",\n      \"how\": \"Trim to: *'Why gas lost its key battles to oil and coal'*\n      (or similar, keeping the core idea).\"\n    },\n    {\n      \"where\": \"H2: 'What doesn’t follow from any of this'\",\n      \"type\": \"to-list\",\n      \"why\": \"This section lists counterarguments (e.g., 'not incompetent,' 'not malice') in a dense paragraph.\",\n      \"how\": \"Convert to a bulleted list with a subheading: *'Common misreadings: What this gap doesn’t prove'*\n      (e.g., '→ Not evidence of incompetence,' '→ Not proof of industry sabotage').\"\n    },\n    {\n      \"where\": \"H2: 'What would fix this'\",\n      \"type\": \"add-heading\",\n      \"why\": \"This section feels like a conclusion but lacks a clear transition from the preceding analysis.\",\n      \"how\": \"Add a subheading before the para 11 text: *'From overbuilt grids to underused gas: The fixes needed now'*\n      (or similar, linking to the gap).\"\n    }\n  ],\n  \"ad_breaks\": {\n    \"good\": [\n      \"H2: 'The full demand trajectory, year by year'\",\n      \"H2: 'Even 2040 might not reach the 2030 report’s number'\",\n      \"H2: 'What doesn’t follow from any of this'\"\n    ],\n    \"avoid\": [\n      \"H2: 'What the 2013 report actually projected'\",\n      \"H2: 'What actually happened' para 7 (long block before pipeline detail)\",\n      \"H2: 'Why the gap: gas didn’t win the fights it was supposed to win' (dense argument)\",\n      \"H2: 'Sources and caveats' (methodology-heavy)\"\n    ]\n  }\n}\n```",
+   "model": "open-mistral-nemo"
+  },
+  "Groq": {
+   "structure_score": 2,
+   "summary_up_top": {
+    "present": true,
+    "suggest": "Begin with a one‑sentence takeaway that India’s actual gas demand is roughly a quarter of the 2013 forecast and the pipeline network is now under‑utilised."
+   },
+   "edits": [
+    {
+     "where": "para 2",
+     "type": "split-paragraph",
+     "why": "The opening paragraph is 139 words, making it hard to scan on a phone.",
+     "how": "Break it after the sentence ending with “...the short version.” Create a new paragraph that starts with the description of the report’s projected demand."
+    },
+    {
+     "where": "para 3",
+     "type": "split-paragraph",
+     "why": "Long paragraph (168 words) delays the reader’s grasp of sector‑by‑sector projections.",
+     "how": "Insert a line break before the sentence that begins “Because demand was projected to consistently outrun supply…”."
+    },
+    {
+     "where": "para 5",
+     "type": "split-paragraph",
+     "why": "140+ words compresses two distinct ideas – the central number and its implications.",
+     "how": "Split after the sentence ending with “...the report's central number…”."
+    },
+    {
+     "where": "para 7",
+     "type": "split-paragraph",
+     "why": "A 134‑word paragraph hampers quick reading on mobile.",
+     "how": "Create a break before the sentence that starts “The pipeline network is the one place the 2013 vision came close…”."
+    },
+    {
+     "where": "para 8",
+     "type": "split-paragraph",
+     "why": "Mixes network build‑out details with utilization stats, which could be separated for clarity.",
+     "how": "Split after the clause ending with “...the report’s 28,000–33,000 km target.”"
+    },
+    {
+     "where": "para 9",
+     "type": "split-paragraph",
+     "why": "174‑word paragraph combines data comparison and forward‑looking projection, making it dense.",
+     "how": "Insert a break before the sentence that begins “The starkest way to see the gap…”."
+    },
+    {
+     "where": "para 10",
+     "type": "split-paragraph",
+     "why": "Long paragraph (196 words) mixes cause analysis with policy examples, reducing scannability.",
+     "how": "Split after the sentence ending with “...gas would substitute for oil…”."
+    },
+    {
+     "where": "What actually happened",
+     "type": "add-heading",
+     "why": "A sub‑heading helps readers locate the discussion of the pipeline build‑out versus demand.",
+     "how": "Insert a level‑3 heading titled “Pipeline network build‑out vs. demand” immediately after the existing H2 “What actually happened”."
+    }
+   ],
+   "ad_breaks": {
+    "good": [
+     "What actually happened",
+     "Why the gap: gas didn't win the fights it was supposed to win",
+     "What would fix this"
+    ],
+    "avoid": [
+     "The full demand trajectory, year by year",
+     "What doesn't follow from any of this",
+     "Sources and caveats"
+    ]
+   },
+   "model": "openai/gpt-oss-120b"
+  }
+ }
+}

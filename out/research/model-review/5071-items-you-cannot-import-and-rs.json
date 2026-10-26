@@ -1,0 +1,134 @@
+{
+ "slug": "5071-items-you-cannot-import-and-rs",
+ "outline": "3297 words in 31 paragraphs; 4 tables; 3 charts/images; 2 boxed notes\nH1: 5,417 Items You Cannot Import — and the Ministry's Own Two Numbers for What Replaced Them  [256 words in paragraphs and lists]\n    [box: gb-card]\n  H2: A list of things you may not buy abroad  [391 words in paragraphs and lists]\n    [table: 3 cols x 9 rows]\n    para 7: 155 words (long) — Correction, 18 September 2026: the four DPSU lists sum exactly to the...\n    [chart: svg]\n    [chart: img]\n  H2: Then look at what was actually replaced — and the ministry's own two numbers for it  [568 words in paragraphs and lists]\n    [table: 4 cols x 3 rows]\n    para 10: 157 words (long) — Correction, 18 September 2026: this piece originally published only the 2023 row...\n    para 13: 129 words (long) — Zoom out from the PIL sequence and the numbers get both bigger...\n  H2: The denominator nobody puts next to it  [270 words in paragraphs and lists]\n    [table: 4 cols x 8 rows]\n    [chart: svg]\n  H2: Project ADITI: the invention half  [255 words in paragraphs and lists]\n  H2: Three instruments that do not talk to each other  [194 words in paragraphs and lists]\n    [table: 4 cols x 4 rows]\n  H2: What is actually checkable  [177 words in paragraphs and lists]\n  H2: The honest summary  [195 words in paragraphs and lists]\n    para 28: 139 words (long) — What does not hold is the arithmetic that gets built on top...\n  H2: What would fix this  [208 words in paragraphs and lists]\n  H2: Sources and caveats  [675 words in paragraphs and lists]\n    para 30: 507 words (long) — Positive Indigenisation List item counts — 1st 2,851, 2nd 107, 3rd 780,...\n    [box: gb-note]",
+ "models": {
+  "Gemini": {
+   "structure_score": 2,
+   "summary_up_top": {
+    "present": true,
+    "suggest": ""
+   },
+   "edits": [
+    {
+     "where": "opening",
+     "type": "move",
+     "why": "Metadata like text size, audio player, and breadcrumbs are pushing the actual article content too far down on mobile screens.",
+     "how": "Move all meta links, version tags, accessibility tools, and breadcrumbs to the very bottom or collapse them into a top bar above the fold."
+    },
+    {
+     "where": "Sources and caveats",
+     "type": "split-section",
+     "why": "Paragraph 30 is 507 words long, creating a massive block of text that is exhausting to scroll through on a phone.",
+     "how": "Split 'Sources and caveats' into two separate subheadings, separating methodological notes from the raw data lists."
+    },
+    {
+     "where": "para 7",
+     "type": "split-paragraph",
+     "why": "At 155 words, this correction paragraph creates a wall of text right after a data table on a small screen.",
+     "how": "Break paragraph 7 into two shorter paragraphs at the natural pause around the correction date."
+    },
+    {
+     "where": "para 10",
+     "type": "split-paragraph",
+     "why": "At 157 words, this correction paragraph impedes scanning between data tables.",
+     "how": "Break paragraph 10 into two distinct paragraphs."
+    },
+    {
+     "where": "para 28",
+     "type": "split-paragraph",
+     "why": "At 139 words, this paragraph sits in a critical analytical section and needs more white space for mobile readers.",
+     "how": "Split paragraph 28 into two smaller paragraphs."
+    }
+   ],
+   "ad_breaks": {
+    "good": [
+     "A list of things you may not buy abroad",
+     "The denominator nobody puts next to it",
+     "What is actually checkable"
+    ],
+    "avoid": [
+     "Then look at what was actually replaced — and the ministry's own two numbers for it",
+     "Sources and caveats"
+    ]
+   },
+   "model": "gemini-flash-lite-latest"
+  },
+  "Mistral": {
+   "raw": "```json\n{\n  \"structure_score\": 3,\n  \"summary_up_top\": {\n    \"present\": false,\n    \"suggest\": \"Start with a punchy, phone-friendly hook: *‘India banned 5,417 defence items—but its own numbers for replacements don’t add up. Here’s the gap.’*\"\n  },\n  \"edits\": [\n    {\n      \"where\": \"opening\",\n      \"type\": \"shorten-heading\",\n      \"why\": \"The H1 is too dense for mobile; prioritize the core question (the discrepancy) over the full list count.\",\n      \"how\": \"Rename to: *‘India’s Defence Ban: 5,417 Items Blocked—But Its Own Replacement Numbers Don’t Match’*\"\n    },\n    {\n      \"where\": \"opening\",\n      \"type\": \"split-section\",\n      \"why\": \"The first 400 words mix context, numbers, and questions without clear signposts for mobile readers.\",\n      \"how\": \"Split into two paragraphs: 1) Hook + core question (first 100 words), 2) Summary of the two conflicting ministry numbers (next 100 words). Add a **bold** subheading: *‘The Ministry’s Own Numbers Don’t Agree’* before the second paragraph.\"\n    },\n    {\n      \"where\": \"H2: A list of things you may not buy abroad\",\n      \"type\": \"split-section\",\n      \"why\": \"The table (3x9) and subsequent charts/images create a dense block that overwhelms mobile users.\",\n      \"how\": \"Move the **table** to its own H2 (rename to: *‘The 4,666 Items on the First Four DPSU Lists’*), then group the two charts/images under a new H2: *‘How the Lists Have Grown Over Time’* (add a 1-sentence intro: *‘Here’s how the banned items have expanded since 2023.’*).\"\n    },\n    {\n      \"where\": \"para 7 (under H2: A list of things you may not buy abroad)\",\n      \"type\": \"shorten-heading\",\n      \"why\": \"The correction note disrupts flow; it’s better suited for a dedicated section.\",\n      \"how\": \"Replace with: *‘Update: This piece originally reported 5,071 items (omitting the fifth list). The full count is now 5,417.’* (Move the full correction to the **Sources and caveats** section.)\"\n    },\n    {\n      \"where\": \"H2: Then look at what was actually replaced — and the ministry's own two numbers for it\",\n      \"type\": \"split-paragraph\",\n      \"why\": \"The 568-word block (with two long paras) is too dense for mobile; the second table risks losing readers.\",\n      \"how\": \"Split into two H2s:\n        1) *‘The Ministry’s Two Inconsistent Figures’* (para 8–9, 200 words max)\n        2) *‘The Bigger Picture: 33,000+ Items on SRIJAN’* (para 10–13, 200 words max)\n      Add a **bold** transition: *‘But the PIL sequence is just one part of the story—here’s what’s actually being produced.’* before the second H2.\"\n    },\n    {\n      \"where\": \"H2: The denominator nobody puts next to it\",\n      \"type\": \"add-heading\",\n      \"why\": \"The 270-word block lacks a clear mobile-friendly heading to separate it from the previous section.\",\n      \"how\": \"Rename to: *‘Why ₹1.78 Lakh Crore in Production Doesn’t Tell the Full Story’*\"\n    },\n    {\n      \"where\": \"H2: Project ADITI: the invention half\",\n      \"type\": \"to-list\",\n      \"why\": \"The 255-word section is a narrative; mobile users need bullet points for key stats.\",\n      \"how\": \"Replace with a **3-bullet list** under the heading:\n        - **Budget**: ₹750 crore (0.4% of ₹1.78 lakh crore annual production).\n        - **Scope**: Targets ‘harder’ replacements not covered by PIL lists.\n        - **Status**: No public progress updates beyond the corpus allocation.\n      Add a **bold** note: *‘ADITI’s role is unclear—here’s what we know so far.’*\"\n    },\n    {\n      \"where\": \"H2: Sources and caveats\",\n      \"type\": \"split-section\",\n      \"type\": \"merge\",\n      \"why\": \"The 675-word block (with a long para 30) is overwhelming; the caveats get lost in data.\",\n      \"how\": \"Split into two H2s:\n        1) *‘How We Got These Numbers’* (para 30–34, 200 words max—focus on methodology).\n        2) *‘Key Caveats’* (para 35–end, 200 words max—move all disclaimers here).\n      Add a **bold** intro: *‘These figures come with important limitations—here’s what’s missing.’*\"\n    }\n  ],\n  \"ad_breaks\": {\n    \"good\": [\n      \"H2: The honest summary\",\n      \"H2: What would fix this\"\n    ],\n    \"avoid\": [\n      \"H2: A list of things you may not buy abroad (after the table)\",\n      \"H2: Then look at what was actually replaced — and the ministry's own two numbers for it (after the first table)\",\n      \"H2: The denominator nobody puts next to it (after the second table)\",\n      \"H2: Three instruments that do not talk to each other (entire section—argument is sequential)\",\n      \"para 28 (under H2: The honest summary—long paragraph breaks flow)\"\n    ]\n  }\n}\n```",
+   "model": "open-mistral-nemo"
+  },
+  "Groq": {
+   "structure_score": 3,
+   "summary_up_top": {
+    "present": false,
+    "suggest": "Start with a one‑sentence hook that states the key finding – e.g., “India’s defence import ban covers 5,417 items, yet the ministry’s own data show wildly different replacement values.”"
+   },
+   "edits": [
+    {
+     "where": "para 7",
+     "type": "split-paragraph",
+     "why": "155‑word paragraph is too dense for phone readers.",
+     "how": "Break after the sentence ending with “...the four DPSU lists sum exactly to the…”, creating a new paragraph for the correction note."
+    },
+    {
+     "where": "para 10",
+     "type": "split-paragraph",
+     "why": "Long paragraph hampers scanning.",
+     "how": "Insert a paragraph break after the first sentence that introduces the two ministry numbers."
+    },
+    {
+     "where": "para 13",
+     "type": "split-paragraph",
+     "why": "Keeps the zoom‑out argument distinct.",
+     "how": "Split after the sentence that begins “Zoom out from the PIL sequence…”."
+    },
+    {
+     "where": "para 28",
+     "type": "split-paragraph",
+     "why": "Improves readability of the summary section.",
+     "how": "Create a new paragraph after the opening clause “What does not hold is the arithmetic…”."
+    },
+    {
+     "where": "para 30",
+     "type": "split-paragraph",
+     "why": "507‑word block is overwhelming on mobile.",
+     "how": "Divide into three paragraphs: (1) brief intro, (2) bullet‑list of the Positive Indigenisation List counts, (3) concluding analysis."
+    },
+    {
+     "where": "A list of things you may not buy abroad",
+     "type": "add-heading",
+     "why": "Provides a clear cue before the table and creates a natural ad slot.",
+     "how": "Insert a level‑3 heading “Table 1: Items barred by list” immediately before the 3‑column table."
+    },
+    {
+     "where": "para 30",
+     "type": "to-list",
+     "why": "The enumeration of item counts reads better as a list on small screens.",
+     "how": "Convert the sentence “Positive Indigenisation List item counts — 1st 2,851, 2nd 107, 3rd 780, …” into a bulleted list."
+    },
+    {
+     "where": "Sources and caveats",
+     "type": "move",
+     "why": "The boxed note interrupts the flow of the long paragraph.",
+     "how": "Place the [box: gb-note] directly after the “Sources and caveats” heading, before the first paragraph."
+    }
+   ],
+   "ad_breaks": {
+    "good": [
+     "A list of things you may not buy abroad",
+     "Then look at what was actually replaced — and the ministry's own two numbers for it",
+     "The denominator nobody puts next to it",
+     "The honest summary",
+     "What would fix this"
+    ],
+    "avoid": [
+     "A list of things you may not buy abroad",
+     "Then look at what was actually replaced — and the ministry's own two numbers for it",
+     "The denominator nobody puts next to it",
+     "Three instruments that do not talk to each other"
+    ]
+   },
+   "model": "openai/gpt-oss-120b"
+  }
+ }
+}

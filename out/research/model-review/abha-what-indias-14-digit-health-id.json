@@ -1,0 +1,213 @@
+{
+ "slug": "abha-what-indias-14-digit-health-id",
+ "outline": "1747 words in 14 paragraphs; 1 tables; 2 charts/images; 5 boxed notes\n    para 1: 140 words (long) — Ayushman Bharat Health Account (ABHA) is a free, voluntary, 14-digit digital health...\nH1: ABHA: What India's 14-Digit Health ID Actually Does, in the Real Numbers  [0 words in paragraphs and lists]\n    [chart: svg]\n  H2: 1. What ABHA actually is  [237 words in paragraphs and lists]\n    [chart: img]\n    para 4: 131 words (long) — The mechanism that makes this work is consent-gated data exchange, not a...\n  H2: 2. The scale, in real numbers  [299 words in paragraphs and lists]\n    [box: warn]\n    [table: 2 cols x 7 rows]\n    [box: stat]\n    (x4)\n    para 7: 179 words (long) — Adoption is uneven across states, both in absolute numbers and as a...\n  H2: 3. What's actually working: the queue-skip and the app consolidation  [197 words in paragraphs and lists]\n  H2: 4. The honest caveat: consent works on paper, less clearly in practice  [205 words in paragraphs and lists]\n    para 10: 205 words (long) — ABHA's architecture is genuinely consent-gated — no party, including the government, can...\n    H3: Related on this blog  [86 words in paragraphs and lists]\n  H2: What would fix this  [230 words in paragraphs and lists]\n    H3: Sources  [346 words in paragraphs and lists]",
+ "models": {
+  "Gemini": {
+   "structure_score": 2,
+   "summary_up_top": {
+    "present": false,
+    "suggest": "Add a 3-bullet mobile-friendly TL;DR right under the title covering accounts scale, the queue-skip utility, and the consent caveat."
+   },
+   "edits": [
+    {
+     "where": "opening",
+     "type": "add-heading",
+     "why": "The post lacks a clear introductory subtitle or heading before diving into the dense 140-word opening paragraph on mobile screens.",
+     "how": "Insert a clear mobile-friendly introductory sub-heading right above para 1 to break the initial wall of text."
+    },
+    {
+     "where": "para 1",
+     "type": "split-paragraph",
+     "why": "At 140 words, this introductory paragraph is too long for comfortable phone scrolling.",
+     "how": "Split para 1 into two separate paragraphs right after the phrase 'sextupled in five years.'"
+    },
+    {
+     "where": "2. The scale, in real numbers",
+     "type": "move",
+     "why": "The lead chart and table are separated by introductory text, causing excessive scrolling on phones.",
+     "how": "Move the table directly beneath the leading SVG chart in section 2 so data visuals are grouped together."
+    },
+    {
+     "where": "para 4",
+     "type": "split-paragraph",
+     "why": "A 131-word block under section 1 creates unnecessary visual friction for mobile readers.",
+     "how": "Break para 4 into two shorter paragraphs at the sentence boundary near the middle of the text."
+    },
+    {
+     "where": "para 7",
+     "type": "split-paragraph",
+     "why": "At 179 words, this paragraph on state-wise adoption is a dense block on mobile devices.",
+     "how": "Split para 7 into two paragraphs after the discussion of absolute numbers versus percentages."
+    },
+    {
+     "where": "para 10",
+     "type": "split-paragraph",
+     "why": "This 205-word paragraph is the longest in the post and difficult to read on small screens.",
+     "how": "Split para 10 into three shorter paragraphs at logical conceptual pauses."
+    },
+    {
+     "where": "Sources",
+     "type": "to-list",
+     "why": "A 346-word sources block reads as a massive wall of text at the bottom of a mobile view.",
+     "how": "Convert the sources block into a clean, bulleted list for easier scanning."
+    }
+   ],
+   "ad_breaks": {
+    "good": [
+     "1. What ABHA actually is",
+     "2. The scale, in real numbers",
+     "3. What's actually working: the queue-skip and the app consolidation"
+    ],
+    "avoid": [
+     "4. The honest caveat: consent works on paper, less clearly in practice",
+     "What would fix this"
+    ]
+   },
+   "model": "gemini-flash-lite-latest"
+  },
+  "Mistral": {
+   "structure_score": 3,
+   "summary_up_top": {
+    "present": false,
+    "suggest": "Open with a punchy, phone-friendly hook: *‘India’s ABHA is the world’s largest digital health ID—93 crore accounts, but only 10% of states have >80% adoption. Here’s how it works, where it succeeds, and why consent is the weak link.’*"
+   },
+   "edits": [
+    {
+     "where": "opening",
+     "type": "shorten-heading",
+     "why": "The H1 is too dense for mobile; prioritize clarity and intrigue over all details",
+     "how": "Trim to: *‘India’s ABHA: The 14-Digit Health ID That’s 93 Crore Strong—But Only 10% of States Have It Right’*"
+    },
+    {
+     "where": "opening",
+     "type": "split-paragraph",
+     "why": "First 400 words are a wall of text; break into 2–3 digestible chunks with subheadings",
+     "how": "Add a **‘Why it matters’** subheading after the 2nd sentence, then a **‘How it works’** subheading before the 3rd sentence"
+    },
+    {
+     "where": "H2: 1. What ABHA actually is",
+     "type": "split-section",
+     "why": "The 237-word intro to ABHA’s mechanics is too long for mobile; split into 2 H2s",
+     "how": "Move the **‘ABHA Address’** and **‘ABHA app’** details to a new H2: *‘2. How ABHA Works: The 3-Piece Puzzle’*"
+    },
+    {
+     "where": "H2: 2. The scale, in real numbers",
+     "type": "to-table",
+     "why": "The 7-row table is buried in text; pull the top 3–4 states into a **‘Saturation by State’* table** above the paragraph",
+     "how": "Create a 2-column table (State | % Population) with the first 4 entries from the boxed note, linking to the full table below"
+    },
+    {
+     "where": "H2: 3. What's actually working: the queue-skip and the app consolidation",
+     "type": "split-paragraph",
+     "why": "The 197-word section mixes two topics; separate them",
+     "how": "Move the **‘app consolidation’* part to a new H3: *‘3b. How ABHA is Cutting Through App Chaos’*"
+    },
+    {
+     "where": "H2: 4. The honest caveat: consent works on paper, less clearly in practice",
+     "type": "add-heading",
+     "why": "The 205-word caveat is critical but buried; flag it earlier",
+     "how": "Add a **‘4. The Privacy Paradox’* H2 before this section, with a **‘⚠️ Warning’* boxed note at the top"
+    },
+    {
+     "where": "H3: Related on this blog",
+     "type": "move",
+     "why": "This belongs in the footer, not mid-article",
+     "how": "Move to the end of the post, just above **‘Sources’*"
+    },
+    {
+     "where": "H2: What would fix this",
+     "type": "shorten-heading",
+     "why": "The heading is vague; clarify the focus",
+     "how": "Rename to: *‘5. Three Fixes for ABHA’s Biggest Flaws’*"
+    }
+   ],
+   "ad_breaks": {
+    "good": [
+     "H2: 2. The scale, in real numbers",
+     "H2: 3. What's actually working: the queue-skip and the app consolidation",
+     "H2: What would fix this"
+    ],
+    "avoid": [
+     "H2: 1. What ABHA actually is",
+     "H2: 4. The honest caveat: consent works on paper, less clearly in practice",
+     "H3: Related on this blog",
+     "H3: Sources"
+    ]
+   },
+   "model": "open-mistral-nemo"
+  },
+  "Groq": {
+   "structure_score": 2,
+   "summary_up_top": {
+    "present": false,
+    "suggest": "Add a 2‑sentence TL;DR at the very start that tells readers the core takeaway: ABHA’s massive adoption, its key functional feature (queue‑skip QR), and the main privacy caveat."
+   },
+   "edits": [
+    {
+     "where": "opening",
+     "type": "split-paragraph",
+     "why": "140‑word opening is dense for phone readers.",
+     "how": "Break the opening after the sentence ending with “...the consent and privacy side of a system this large.” creating two paragraphs of ~70 words each."
+    },
+    {
+     "where": "para 4",
+     "type": "split-paragraph",
+     "why": "Long paragraph slows scrolling and hides the consent‑gating explanation.",
+     "how": "Insert a line break after the sentence that ends with “...not a...”, making two roughly equal paragraphs."
+    },
+    {
+     "where": "para 7",
+     "type": "split-paragraph",
+     "why": "179‑word paragraph mixes state‑level adoption data with analysis, hurting scan‑ability.",
+     "how": "Split at the point where the text shifts from “Adoption is uneven across states” to the specific state examples, creating two paragraphs."
+    },
+    {
+     "where": "para 10",
+     "type": "split-paragraph",
+     "why": "205‑word block contains dense technical detail on consent architecture.",
+     "how": "Divide after the sentence that finishes the description of “no party, including the government, can…”, so the second paragraph starts with the practical implications."
+    },
+    {
+     "where": "2. The scale, in real numbers",
+     "type": "add-heading",
+     "why": "The section packs a chart, two boxes, a table, and four boxed stats, making it hard to locate each element on a phone.",
+     "how": "Insert a sub‑heading “Key metrics” before the table, and another sub‑heading “State‑level snapshots” before the series of boxed notes."
+    },
+    {
+     "where": "ABHA saturation: Leading States by Population Share",
+     "type": "to-table",
+     "why": "State percentages are currently in paragraph form, which is hard to scan.",
+     "how": "Convert the list of states and percentages into a simple two‑column table (State | Saturation %)."
+    },
+    {
+     "where": "What would fix this",
+     "type": "shorten-heading",
+     "why": "Heading is long and may be truncated on small screens.",
+     "how": "Rename to “Potential fixes”."
+    },
+    {
+     "where": "Related on this blog",
+     "type": "move",
+     "why": "The related links interrupt the flow before the concluding sources.",
+     "how": "Place this H3 after the “Sources” H3, so it appears at the very end of the article."
+    }
+   ],
+   "ad_breaks": {
+    "good": [
+     "1. What ABHA actually is",
+     "2. The scale, in real numbers",
+     "3. What's actually working: the queue-skip and the app consolidation",
+     "4. The honest caveat: consent works on paper, less clearly in practice",
+     "What would fix this"
+    ],
+    "avoid": [
+     "ABHA saturation: Leading States by Population Share",
+     "2. The scale, in real numbers",
+     "Related on this blog",
+     "Sources"
+    ]
+   },
+   "model": "openai/gpt-oss-120b"
+  }
+ }
+}

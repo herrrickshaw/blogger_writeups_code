@@ -1,0 +1,125 @@
+{
+ "slug": "050-is-its-own-category-diving-into",
+ "outline": "1070 words in 12 paragraphs; 3 tables; 2 charts/images; 0 boxed notes\nH1: ₹0–50 Is Its Own Category: Diving Into India's Actual Microcap Basement  [0 words in paragraphs and lists]\n    [chart: svg]\n  H2: 1. Even inside \"cheap,\" most of the mass sits at the very bottom  [92 words in paragraphs and lists]\n    [chart: img]\n    [table: 4 cols x 5 rows]\n  H2: 2. Beta, return and Sharpe ratio inside the basement  [123 words in paragraphs and lists]\n    [table: 6 cols x 5 rows]\n  H2: 3. What \"cheap\" actually correlates with down here  [125 words in paragraphs and lists]\n    [table: 5 cols x 5 rows]\n  H2: 4. Reading this alongside the two earlier pieces  [146 words in paragraphs and lists]\n    para 8: 146 words (long) — Three pieces, three levels of zoom, and the pattern gets more extreme...\n    H3: Related on this blog  [49 words in paragraphs and lists]\n  H2: What would fix this  [211 words in paragraphs and lists]\n    H3: Sources  [251 words in paragraphs and lists]\n    para 11: 130 words (long) — This analysis is based on historical price and fundamentals data cited above....",
+ "models": {
+  "Gemini": {
+   "structure_score": 2,
+   "summary_up_top": {
+    "present": false,
+    "suggest": "Add a one-sentence takeaway at the very top summarizing that stocks priced under ₹50 make up over half the universe and exhibit the worst risk-adjusted returns."
+   },
+   "edits": [
+    {
+     "where": "para 8",
+     "type": "split-paragraph",
+     "why": "At 146 words, this paragraph is too dense for comfortable phone scrolling between ad breaks.",
+     "how": "Split para 8 into two shorter paragraphs at the natural pivot point of the argument."
+    },
+    {
+     "where": "para 11",
+     "type": "split-paragraph",
+     "why": "This 130-word paragraph follows a heavy section and will trap Google Auto ads in a single text block.",
+     "how": "Break para 11 into two paragraphs of roughly 65 words each."
+    },
+    {
+     "where": "1. Even inside 'cheap,' most of the mass sits at the very bottom",
+     "type": "move",
+     "why": "The image placement right after the heading pushes the data table too far down on mobile screens.",
+     "how": "Move the image to follow the table and its concluding paragraph rather than preceding them."
+    },
+    {
+     "where": "What would fix this",
+     "type": "to-list",
+     "why": "Long prose blocks describing fixes are hard to parse on small mobile displays.",
+     "how": "Convert the bullet points or corrective suggestions within 'What would fix this' into a clean, numbered list."
+    }
+   ],
+   "ad_breaks": {
+    "good": [
+     "1. Even inside \"cheap,\" most of the mass sits at the very bottom",
+     "3. What \"cheap\" actually correlates with down here"
+    ],
+    "avoid": [
+     "2. Beta, return and Sharpe ratio inside the basement"
+    ]
+   },
+   "model": "gemini-flash-lite-latest"
+  },
+  "Mistral": {
+   "raw": "```json\n{\n  \"structure_score\": 3,\n  \"summary_up_top\": {\n    \"present\": false,\n    \"suggest\": \"Lead with a concise, punchy hook: *‘The ₹0–50 microcap slice isn’t just cheap—it’s a financial dead zone, holding 54% of all under-₹250 stocks but delivering a Sharpe ratio of 0.1, worse than any other band in this series.’*\"\n  },\n  \"edits\": [\n    {\n      \"where\": \"opening\",\n      \"type\": \"shorten-heading\",\n      \"why\": \"The H1 is already punchy but could be more direct to grab attention on mobile.\",\n      \"how\": \"Change to: *‘₹0–50 Stocks Are a Financial Black Hole: The Microcap Basement Exposed’*\"\n    },\n    {\n      \"where\": \"opening\",\n      \"type\": \"split-section\",\n      \"why\": \"The first 400 words mix narrative, data, and visuals without clear separation for mobile skimmers.\",\n      \"how\": \"Split into two distinct sections:\n        1. **Hook + Context** (first 100 words): Narrative + key stat (e.g., *‘This slice isn’t just cheap—it’s a financial dead zone.’*).\n        2. **Visual + Data Teaser** (next 100 words): Pull the first chart/image up *immediately* after the hook, with a 1-sentence caption: *‘The ₹0–50 band’s Sharpe ratio of 0.1 dwarfs all others in this series.’*\"\n    },\n    {\n      \"where\": \"H2: 1. Even inside 'cheap'...\",\n      \"type\": \"add-heading\",\n      \"why\": \"The table here is dense and mobile-unfriendly; a subheading would help.\",\n      \"how\": \"Add a subheading under the H2: *‘The ₹0–50 band dominates: 54% of stocks, 32 crore median cap’*\"\n    },\n    {\n      \"where\": \"H2: 2. Beta, return and Sharpe ratio...\",\n      \"type\": \"to-table\",\n      \"why\": \"The 6-column table is overwhelming on mobile; prioritize the most critical metrics.\",\n      \"how\": \"Create a 3-column table highlighting only:\n        - **Price band** | **Sharpe ratio** | **Annualized return (%)**\n        Add a note: *‘Full data in the original table below.’*\"\n    },\n    {\n      \"where\": \"H2: 3. What 'cheap' actually correlates with...\",\n      \"type\": \"to-list\",\n      \"why\": \"The 5-column table risks losing readers; distill correlations into bullet points.\",\n      \"how\": \"Replace with a 2-column list:\n        - **Correlation factor** (e.g., *‘Price-to-book ratio’*) | **Direction of effect** (e.g., *‘↑ as price ↓’*)\n        Add: *‘Full table below for granularity.’*\"\n    },\n    {\n      \"where\": \"para 8 (under H2: 4. Reading this alongside the two earlier pieces)\",\n      \"type\": \"shorten-heading\",\n      \"why\": \"The H2 is vague; the para is the core insight linking the series.\",\n      \"how\": \"Rename H2 to: *‘4. The ₹0–50 band isn’t just cheap—it’s a separate market’*\"\n    },\n    {\n      \"where\": \"H2: What would fix this\",\n      \"type\": \"split-section\",\n      \"why\": \"The ‘Sources’ H3 is buried; solutions deserve prominence.\",\n      \"how\": \"Move the ‘Sources’ H3 *before* the para 11 (long) text, and rename it: *‘5. Why this matters: Policy, risk, and investor action’*\"\n    },\n    {\n      \"where\": \"para 11 (under H2: What would fix this)\",\n      \"type\": \"shorten-heading\",\n      \"why\": \"The para is dense; the heading could better reflect its focus.\",\n      \"how\": \"Change to: *‘Data sources and limitations: How we sliced the ₹0–50 basement’*\"\n    }\n  ],\n  \"ad_breaks\": {\n    \"good\": [\n      \"H2: 4. Reading this alongside the two earlier pieces\",\n      \"H2: What would fix this\"\n    ],\n    \"avoid\": [\n      \"H2: 1. Even inside 'cheap'... (table-heavy section)\",\n      \"H2: 2. Beta, return and Sharpe ratio... (chart + dense table)\",\n      \"H2: 3. What 'cheap' actually correlates with... (table-heavy)\",\n      \"H3: Related on this blog\"\n    ]\n  }\n}\n```",
+   "model": "open-mistral-nemo"
+  },
+  "Groq": {
+   "structure_score": 3,
+   "summary_up_top": {
+    "present": false,
+    "suggest": "State that stocks priced under ₹50 comprise over half of the sub‑₹250 microcap universe and exhibit the lowest Sharpe ratios, setting up the deeper dive."
+   },
+   "edits": [
+    {
+     "where": "opening",
+     "type": "add-heading",
+     "why": "Provides a quick‑read summary for mobile users before they encounter dense data.",
+     "how": "Insert a one‑sentence summary paragraph (the suggested sentence) right after the article title and before any chart."
+    },
+    {
+     "where": "opening",
+     "type": "split-paragraph",
+     "why": "The initial paragraph is over 300 words, overwhelming on a small screen.",
+     "how": "Break it after the sentence ending with “...the real basement is even smaller than it looked.” creating two shorter paragraphs."
+    },
+    {
+     "where": "1. Even inside \"cheap,\" most of the mass sits at the very bottom",
+     "type": "to-list",
+     "why": "Key findings are buried in dense prose; bullet points improve scan‑ability.",
+     "how": "Convert the sentences that describe the share percentages and median market‑cap jumps into a 3‑item bulleted list."
+    },
+    {
+     "where": "₹0–50 Is Its Own Category: Diving Into India's Actual Microcap Basement",
+     "type": "shorten-heading",
+     "why": "Long headings truncate on phones and reduce tap‑target size.",
+     "how": "Change the H1 to \"₹0–50: India’s Microcap Basement\"."
+    },
+    {
+     "where": "₹0–50 Is Its Own Category: Diving Into India's Actual Microcap Basement",
+     "type": "move",
+     "why": "The SVG chart currently sits in the opening text, breaking flow.",
+     "how": "Place the chart immediately after the new summary paragraph and before the first H2."
+    },
+    {
+     "where": "1. Even inside \"cheap,\" most of the mass sits at the very bottom",
+     "type": "add-heading",
+     "why": "The table appears without an introductory cue, which can confuse readers.",
+     "how": "Insert a level‑3 heading “Price‑Band Distribution Table” right before the 4‑column table."
+    },
+    {
+     "where": "What would fix this",
+     "type": "split-paragraph",
+     "why": "Paragraph 11 is 130 words, too long for mobile scrolling.",
+     "how": "Split after the sentence ending with “...cited above.” creating two balanced paragraphs."
+    },
+    {
+     "where": "Related on this blog",
+     "type": "to-list",
+     "why": "A plain paragraph of links is hard to tap on small screens.",
+     "how": "Reformat the three related article mentions into a bulleted list with each title on its own line."
+    }
+   ],
+   "ad_breaks": {
+    "good": [
+     "1. Even inside \"cheap,\" most of the mass sits at the very bottom",
+     "2. Beta, return and Sharpe ratio inside the basement",
+     "3. What \"cheap\" actually correlates with down here",
+     "What would fix this"
+    ],
+    "avoid": [
+     "Related on this blog",
+     "₹0–50 Is Its Own Category: Diving Into India's Actual Microcap Basement",
+     "1. Even inside \"cheap,\" most of the mass sits at the very bottom (immediately before its table)",
+     "2. Beta, return and Sharpe ratio inside the basement (immediately before its chart)"
+    ]
+   },
+   "model": "openai/gpt-oss-120b"
+  }
+ }
+}

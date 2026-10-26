@@ -1,0 +1,189 @@
+{
+ "slug": "577-of-indias-plant-variety",
+ "outline": "1044 words in 15 paragraphs; 2 tables; 1 charts/images; 7 boxed notes\nH1: 57.7% of India’s Plant-Variety Certificates Are Cereals. Its $4.45 Billion Spice Trade Has 151.  [117 words in paragraphs and lists]\n    [box: stat]\n    (x4)\n  H2: What the registry actually contains  [17 words in paragraphs and lists]\n    [table: 3 cols x 10 rows]\n    [chart: svg]\n    [box: warn]\n  H2: Where the spice figure comes from, and why it's now bundled  [167 words in paragraphs and lists]\n  H2: Who actually holds these certificates  [115 words in paragraphs and lists]\n    [table: 3 cols x 7 rows]\n  H2: What this does and doesn't show  [76 words in paragraphs and lists]\n    [box: warn]\n  H2: The takeaway  [168 words in paragraphs and lists]\n    H3: Related on this blog  [55 words in paragraphs and lists]\n    [box: note]\n  H2: What would fix this  [271 words in paragraphs and lists]",
+ "models": {
+  "Gemini": {
+   "structure_score": 2,
+   "summary_up_top": {
+    "present": true,
+    "suggest": "The opening already contains the key figures, but needs clutter removed to highlight the core finding that cereals dominate plant certificates while high-value spices lag."
+   },
+   "edits": [
+    {
+     "where": "opening",
+     "type": "other",
+     "why": "The top of the text contains site navigation, accessibility tools, and metadata that pushes the actual article content too far down on mobile screens.",
+     "how": "Move all site headers, breadcrumbs, text-size toggles, audio players, and revision logs below the main article title and lead stat boxes."
+    },
+    {
+     "where": "What would fix this",
+     "type": "split-section",
+     "why": "At 271 words, this section is too long for a single continuous block on a mobile screen, increasing cognitive load between Auto ads.",
+     "how": "Break the section into two sub-headings addressing specific policy fixes."
+    },
+    {
+     "where": "H2: What would fix this",
+     "type": "to-list",
+     "why": "Dense paragraphs outlining multiple corrective measures are difficult to parse on narrow mobile viewports.",
+     "how": "Convert the proposed fixes into a bulleted list with bolded lead-ins."
+    },
+    {
+     "where": "H2: The takeaway",
+     "type": "split-paragraph",
+     "why": "Paragraphs exceeding 100 words create heavy text walls on mobile phones.",
+     "how": "Break the longest paragraphs in this section into shorter 2-3 sentence blocks."
+    }
+   ],
+   "ad_breaks": {
+    "good": [
+     "What the registry actually contains",
+     "Who actually holds these certificates",
+     "What this does and doesn't show"
+    ],
+    "avoid": [
+     "What the registry actually contains",
+     "Who actually holds these certificates"
+    ]
+   },
+   "model": "gemini-flash-lite-latest"
+  },
+  "Mistral": {
+   "structure_score": 3,
+   "summary_up_top": {
+    "present": false,
+    "suggest": "Lead with a concise hook: *‘India’s plant variety registry is dominated by cereals (57.7%), but its $4.45B spice trade relies on just 151 registered varieties—highlighting a critical gap in legal protection for high-value crops.’*"
+   },
+   "edits": [
+    {
+     "where": "opening",
+     "type": "shorten-heading",
+     "why": "The H1 is too long for mobile; prioritize the core contrast (cereals vs. spices) and the $4.45B figure.",
+     "how": "Rename to: *‘India’s Plant Registry Favors Cereals—But Its $4.45B Spice Trade Has Just 151 Registered Varieties’*"
+    },
+    {
+     "where": "opening",
+     "type": "split-section",
+     "why": "The opening mixes three distinct claims (total certificates, cereal dominance, spice trade) without clear hierarchy. Separate the spice trade hook from the cereal stat.",
+     "how": "Move the spice trade paragraph (starting with *“This blog’s own reporting…”*) to **immediately after the H1**, before the cereal breakdown. Keep the cereal stat as the second paragraph."
+    },
+    {
+     "where": "H2: 'What the registry actually contains'",
+     "type": "add-heading",
+     "why": "The table/chart/box combo lacks a subheading to guide readers through the visual data.",
+     "how": "Add a subheading: *‘Here’s how the 10,885 certificates break down by crop’* before the table."
+    },
+    {
+     "where": "H2: 'Where the spice figure comes from, and why it's now bundled'",
+     "type": "split-paragraph",
+     "why": "The paragraph blends two ideas (data source + bundling) without clear separation. The bundling detail is critical for context.",
+     "how": "Split into two paragraphs: First, explain *where* the spice figure comes from (e.g., *“The 151 spice varieties are drawn from the ‘Other’ category…”*). Second, address *why* it’s bundled (*“After July 2026, the Authority stopped tracking spices separately…”*)."
+    },
+    {
+     "where": "H2: 'What this does and doesn’t show'",
+     "type": "to-list",
+     "why": "The 76-word section lists limitations but lacks visual hierarchy for mobile scanning.",
+     "how": "Convert to a **bullet list** (e.g., *“This data doesn’t show…” → *“This data doesn’t show:” followed by 3–4 bullet points with brief explanations.*)"
+    },
+    {
+     "where": "H2: 'What would fix this'",
+     "type": "split-section",
+     "why": "The 271-word section is dense with policy solutions. Mobile readers may miss the core recommendation.",
+     "how": "Add a **subheading** after the first 100 words: *‘Key fixes: 3 policy changes to prioritize high-value crops’* before listing solutions."
+    },
+    {
+     "where": "H3: 'Related on this blog'",
+     "type": "move",
+     "why": "The “Related” section interrupts the argument flow and risks being skipped on mobile.",
+     "how": "Move to the **end of the post**, after the final box note, or replace with a **single “Dig deeper” link** to the spice export book."
+    },
+    {
+     "where": "para 3 (after H1, before cereal breakdown)",
+     "type": "shorten-heading",
+     "why": "The paragraph’s first sentence repeats the H1’s spice trade stat without adding value.",
+     "how": "Replace with: *“But India’s $4.45 billion spice trade—spanning eight crops and eight states—relies on just 151 registered varieties. That’s a fraction of the 10,885 certificates issued, and a stark contrast to the registry’s cereal focus.”*"
+    }
+   ],
+   "ad_breaks": {
+    "good": [
+     "H2: 'Where the spice figure comes from, and why it's now bundled'",
+     "H2: 'What would fix this'"
+    ],
+    "avoid": [
+     "H2: 'What the registry actually contains' (table/chart/box combo)",
+     "H2: 'Who actually holds these certificates' (table-heavy)",
+     "H3: 'Related on this blog'"
+    ]
+   },
+   "model": "open-mistral-nemo"
+  },
+  "Groq": {
+   "structure_score": 3,
+   "summary_up_top": {
+    "present": false,
+    "suggest": "Start with a one‑sentence hook that states the key finding – that 57.7% of India’s plant‑variety certificates are cereals while the $4.45 bn spice trade rests on just 151 varieties – and why that mismatch matters."
+   },
+   "edits": [
+    {
+     "where": "opening",
+     "type": "split-paragraph",
+     "why": "The opening mixes navigation/meta text with content, making it hard to scan on a phone.",
+     "how": "Move the navigation line (\"← All Articles…\") and the revision metadata (date, version, change log) into a separate top‑of‑page meta block, leaving only the narrative paragraph in the article body."
+    },
+    {
+     "where": "opening",
+     "type": "add-heading",
+     "why": "Readers need an immediate takeaway before diving into data.",
+     "how": "Insert a short, bolded paragraph right after the H1 that reads the suggested hook and label it \"Key takeaway\"."
+    },
+    {
+     "where": "What the registry actually contains",
+     "type": "to-list",
+     "why": "The table appears abruptly; a brief intro helps orient readers.",
+     "how": "Add a one‑sentence introductory paragraph before the table: e.g., \"The Authority’s homepage breaks down certificates by crop category, as shown below.\""
+    },
+    {
+     "where": "Related on this blog",
+     "type": "move",
+     "why": "It interrupts the article’s concluding argument.",
+     "how": "Shift the H3 and its box to the very end of the post, after the \"What would fix this\" section."
+    },
+    {
+     "where": "The takeaway",
+     "type": "shorten-heading",
+     "why": "Long headings waste vertical space on small screens.",
+     "how": "Rename the heading to \"Takeaway\"."
+    },
+    {
+     "where": "What the registry actually contains",
+     "type": "move",
+     "why": "The warning box about \"Other\" bundles currently sits before the chart, breaking flow.",
+     "how": "Place the warning box immediately after the chart, so readers see the visual first and then the caution."
+    },
+    {
+     "where": "Who actually holds these certificates",
+     "type": "add-heading",
+     "why": "The second table lacks a clear label, which can confuse quick scanners.",
+     "how": "Insert a sub‑heading \"Certificate holders by type\" directly above the 3‑column, 7‑row table."
+    },
+    {
+     "where": "What would fix this",
+     "type": "merge",
+     "why": "Two very short consecutive paragraphs fragment the argument and increase scrolling.",
+     "how": "Combine them into a single paragraph, preserving any bullet points, to create a more substantial block of text."
+    }
+   ],
+   "ad_breaks": {
+    "good": [
+     "Who actually holds these certificates",
+     "What this does and doesn't show"
+    ],
+    "avoid": [
+     "What the registry actually contains",
+     "Who actually holds these certificates",
+     "What would fix this"
+    ]
+   },
+   "model": "openai/gpt-oss-120b"
+  }
+ }
+}

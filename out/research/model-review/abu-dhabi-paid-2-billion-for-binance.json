@@ -1,0 +1,130 @@
+{
+ "slug": "abu-dhabi-paid-2-billion-for-binance",
+ "outline": "1948 words in 23 paragraphs; 3 tables; 0 charts/images; 6 boxed notes\nH1: Abu Dhabi Paid $2 Billion for a Binance Stake in Stablecoins. India’s FDI Rules Have No Box for That.  [0 words in paragraphs and lists]\n    [box: gb-stat]\n    (x4)\n    [box: warn]\n  H2: The deal that made the case  [156 words in paragraphs and lists]\n  H2: The UAE’s pilots  [135 words in paragraphs and lists]\n    [table: 2 cols x 6 rows]\n  H2: Why the UAE is doing this  [302 words in paragraphs and lists]\n    para 8: 134 words (long) — In February 2026 the Ministry of Investment published a whitepaper, From Capital...\n  H2: What the research says about crypto and cross-border investment  [170 words in paragraphs and lists]\n    [table: 2 cols x 9 rows]\n  H2: Examples of crypto in cross-border investment  [37 words in paragraphs and lists]\n    [table: 3 cols x 7 rows]\n  H2: Is it FDI if it is paid in crypto?  [189 words in paragraphs and lists]\n  H2: Where India stands  [204 words in paragraphs and lists]\n  H2: What could go wrong  [148 words in paragraphs and lists]\n  H2: What would fix this  [170 words in paragraphs and lists]\n  H2: Sources and caveats  [341 words in paragraphs and lists]\n    [box: gb-card]\n    para 22: 303 words (long) — The MGX–Binance investment and its settlement in USD1 are from CoinDesk and...",
+ "models": {
+  "Gemini": {
+   "structure_score": 2,
+   "summary_up_top": {
+    "present": true,
+    "suggest": ""
+   },
+   "edits": [
+    {
+     "where": "para 8",
+     "type": "split-paragraph",
+     "why": "Paragraph 8 is 134 words long, which creates a massive text wall on mobile phone screens.",
+     "how": "Split para 8 into two or three shorter paragraphs around natural thematic breaks."
+    },
+    {
+     "where": "para 22",
+     "type": "split-paragraph",
+     "why": "Paragraph 22 contains 303 words, making the Sources and caveats section extremely difficult to scan on mobile.",
+     "how": "Break para 22 into separate paragraphs for each distinct source, dataset, or caveat mentioned."
+    },
+    {
+     "where": "Why the UAE is doing this",
+     "type": "add-heading",
+     "why": "This section is over 300 words long with a heavy paragraph, making it a dense block between ad breaks.",
+     "how": "Add an H3 subheading midway through the section to give mobile readers a visual breather."
+    },
+    {
+     "where": "Sources and caveats",
+     "type": "to-list",
+     "why": "A 341-word block of dense source notes strains mobile reading comprehension.",
+     "how": "Convert the notes and caveats in this section into a bulleted list."
+    }
+   ],
+   "ad_breaks": {
+    "good": [
+     "The deal that made the case",
+     "Why the UAE is doing this",
+     "Where India stands"
+    ],
+    "avoid": [
+     "Examples of crypto in cross-border investment",
+     "What the research says about crypto and cross-border investment"
+    ]
+   },
+   "model": "gemini-flash-lite-latest"
+  },
+  "Mistral": {
+   "raw": "```json\n{\n  \"structure_score\": 3,\n  \"summary_up_top\": {\n    \"present\": false,\n    \"suggest\": \"Open with a concise, punchy hook: *‘Abu Dhabi’s $2B Binance stake—paid in crypto—proves how fast stablecoins are reshaping FDI, but India’s rules still treat crypto as a no-go zone for foreign investors.’*\"\n  },\n  \"edits\": [\n    {\n      \"where\": \"opening\",\n      \"type\": \"shorten-heading\",\n      \"why\": \"The H1 is already strong but could be more direct for mobile skimmers by removing the parenthetical detail about India’s FDI rules.\",\n      \"how\": \"Change to: *‘Abu Dhabi’s $2B Binance Stake—Paid in Crypto—Is a Warning for India’s FDI Rules’*\"\n    },\n    {\n      \"where\": \"H2: The deal that made the case\",\n      \"type\": \"split-section\",\n      \"why\": \"The first 3 paragraphs (156 words) are dense with context; splitting into a shorter ‘The Deal’ (para 1–2) and a ‘Why USD1?’ (para 3) would improve skimmability.\",\n      \"how\": \"Add a new H2: *‘The Deal: MGX’s $2B Binance Stake in USD1’* after the first 2 paragraphs, then move para 3 to a new section under this heading.\"\n    },\n    {\n      \"where\": \"H2: Why the UAE is doing this\",\n      \"type\": \"split-paragraph\",\n      \"why\": \"Para 8 (134 words) is overly long for mobile; the whitepaper summary could be condensed into a bullet or 2–3 sentences.\",\n      \"how\": \"Replace para 8 with a **key takeaway** bullet (e.g., *‘The UAE’s 2026 whitepaper argues stablecoins reduce friction for cross-border investors by cutting out banks and middlemen.’*) and move the rest of the para to a new subheading: *‘How the UAE is incentivizing crypto FDI’*\"\n    },\n    {\n      \"where\": \"H2: What the research says about crypto and cross-border investment\",\n      \"type\": \"to-list\",\n      \"why\": \"The 170-word block could be more scannable as a 3–4 point list (e.g., *‘Where crypto *has* worked in cross-border flows… Where it *hasn’t*… The UAE’s exception…’*).\",\n      \"how\": \"Convert the paragraph into a **3-bullet list** with subheadings (e.g., *‘1. Crypto’s role in bypassing capital controls… 2. The UAE’s outlier status… 3. India’s central-bank alternative…’*).\"\n    },\n    {\n      \"where\": \"H2: Examples of crypto in cross-border investment\",\n      \"type\": \"merge\",\n      \"why\": \"This section (37 words) is too brief to stand alone; it should merge with the preceding research section to avoid a ‘dead zone’ for mobile readers.\",\n      \"how\": \"Combine with the research section’s list, adding a **4th bullet** here (e.g., *‘4. Notable cases: [insert 1–2 examples from the table]’*). Remove the standalone H2.\"\n    },\n    {\n      \"where\": \"H2: Is it FDI if it is paid in crypto?\",\n      \"type\": \"add-heading\",\n      \"why\": \"This is a critical legal/definitional gap; it deserves a subheading to separate it from the UAE/India comparison.\",\n      \"how\": \"Add a new H3: *‘The FDI Loophole: When Crypto Payments Blur the Line’* before the paragraph.\"\n    },\n    {\n      \"where\": \"H2: Where India stands\",\n      \"type\": \"split-section\",\n      \"why\": \"The 204-word block mixes policy context (first 2 paras) with a table (para 5). Splitting would help mobile readers.\",\n      \"how\": \"Add a new H3: *‘India’s Stance: A Central-Bank-Only Play’* for paras 1–2, then move the table to a new section: *‘India’s FDI Rules: A Side-by-Side’* (with a caption: *‘Sources: DPIIT fact sheets, 2026’*).\"\n    },\n    {\n      \"where\": \"H2: What could go wrong\",\n      \"type\": \"shorten-heading\",\n      \"why\": \"The heading is vague; it should hint at the *specific risks* (e.g., regulatory arbitrage, USD1’s volatility, or India’s enforcement gaps).\",\n      \"how\": \"Change to: *‘The Risks: Why Crypto-Paid FDI Could Backfire’*\"\n    },\n    {\n      \"where\": \"H2: Sources and caveats\",\n      \"type\": \"split-section\",\n      \"why\": \"Para 22 (303 words) is a wall of text; the sources/caveats should be separated from the concluding argument.\",\n      \"how\": \"Move the **first 100 words** (sources/caveats) to a new H2: *‘Methodology: Data and Assumptions’* with a **bolded ‘Sources’** subheading. Keep the remaining 200 words as the conclusion under the original H2.\"\n  ],\n  \"ad_breaks\": {\n    \"good\": [\n      \"H2: The UAE’s pilots\",\n      \"H2: Why the UAE is doing this (after the whitepaper summary bullet)\",\n      \"H2: Where India stands (after the policy context H3)\"\n    ],\n    \"avoid\": [\n      \"H2: The deal that made the case (after para 2—breaks the narrative flow)\",\n      \"H2: What the research says about crypto and cross-border investment (mid-list—interrupts scannability)\",\n      \"H2: Examples of crypto in cross-border investment (standalone section—too brief)\",\n      \"H2: Is it FDI if it is paid in crypto? (after the new H3—too early in the legal discussion)\",\n      \"H2: Sources and caveats (para 22—buries the conclusion)\"\n    ]\n  }\n}\n```",
+   "model": "open-mistral-nemo"
+  },
+  "Groq": {
+   "structure_score": 3,
+   "summary_up_top": {
+    "present": false,
+    "suggest": "Add a 2‑sentence lede that tells readers the size of the Abu Dhabi‑Binance deal, why it matters for crypto‑paid FDI, and the clash with India’s rules."
+   },
+   "edits": [
+    {
+     "where": "opening",
+     "type": "add-heading",
+     "why": "Readers need a quick takeaway before scrolling through dense sections.",
+     "how": "Insert a bold, 1‑sentence summary paragraph right after the article title and before any boxed notes."
+    },
+    {
+     "where": "opening",
+     "type": "split-paragraph",
+     "why": "The first 400‑word block is too long for phone screens.",
+     "how": "Break after the sentence ending with “...betting on central‑bank money instead.” creating a short intro paragraph and a second paragraph that starts with the “$2 bn MGX…” line."
+    },
+    {
+     "where": "Why the UAE is doing this",
+     "type": "split-paragraph",
+     "why": "Paragraph 8 (134 words) exceeds the ideal length for mobile reading.",
+     "how": "Split after the phrase “...whitepaper, From Capital...” so the first part ends with the whitepaper reference and the second continues with the analysis."
+    },
+    {
+     "where": "Sources and caveats",
+     "type": "split-paragraph",
+     "why": "Paragraph 22 (303 words) is a wall of text that hampers scanning.",
+     "how": "Divide it into two paragraphs: first covering the MGX–Binance investment details, second covering the source caveats and methodology."
+    },
+    {
+     "where": "Is it FDI if it is paid in crypto?",
+     "type": "to-list",
+     "why": "Key legal questions are buried in prose, making them hard to skim.",
+     "how": "Convert the main points into a bullet list of 3‑4 items, each starting with a bolded question (e.g., “*Is the transaction a foreign direct investment?*”)."
+    },
+    {
+     "where": "Abu Dhabi Paid $2 Billion for a Binance Stake in Stablecoins. India’s FDI Rules Have No Box for That.",
+     "type": "shorten-heading",
+     "why": "The H1 is overly long for mobile headers and can be truncated without losing meaning.",
+     "how": "Replace with: “Abu Dhabi’s $2 B Binance Stake & India’s FDI Gap”."
+    },
+    {
+     "where": "What could go wrong",
+     "type": "add-heading",
+     "why": "A sub‑heading helps separate regulatory risks from market risks, improving scanability.",
+     "how": "Insert a level‑3 sub‑heading “Regulatory risks” before the first paragraph, and another “Market risks” before the second."
+    },
+    {
+     "where": "The UAE’s pilots",
+     "type": "move",
+     "why": "The boxed note “warn” currently appears before the table, breaking flow.",
+     "how": "Move the warning box to immediately after the table so readers see the data first, then the caution."
+    }
+   ],
+   "ad_breaks": {
+    "good": [
+     "The deal that made the case",
+     "The UAE’s pilots",
+     "Why the UAE is doing this",
+     "What the research says about crypto and cross-border investment",
+     "Examples of crypto in cross-border investment",
+     "What could go wrong"
+    ],
+    "avoid": [
+     "The UAE’s pilots (inside the table)",
+     "Why the UAE is doing this (mid‑paragraph 8)",
+     "Sources and caveats (inside the 303‑word paragraph)",
+     "Is it FDI if it is paid in crypto? (mid‑list)",
+     "Abu Dhabi Paid $2 Billion for a Binance Stake in Stablecoins. India’s FDI Rules Have No Box for That."
+    ]
+   },
+   "model": "openai/gpt-oss-120b"
+  }
+ }
+}

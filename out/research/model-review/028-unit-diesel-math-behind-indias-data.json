@@ -1,0 +1,138 @@
+{
+ "slug": "028-unit-diesel-math-behind-indias-data",
+ "outline": "2078 words in 18 paragraphs; 2 tables; 2 charts/images; 4 boxed notes\nH1: $0.28 a Unit: The Diesel Math Behind India's Data Centres and Telecom Towers, and Why It's Already Losing  [1726 words in paragraphs and lists]\n    [chart: svg]\n    [box: gb-card]\n    [chart: img]\n    para 3: 144 words (long) — India's data-centre capacity is projected to grow from roughly 1.2–1.5 gigawatts today...\n    [table: 3 cols x 5 rows]\n    para 9: 205 words (long) — India's telecom towers — 606,300 when TRAI and EY counted them for...\n    para 11: 141 words (long) — The diesel-versus-BESS framing above skips a third option that's already commercially available...\n    para 12: 262 words (long) — What makes this option specifically live for India's current build-out is the...\n    [table: 2 cols x 8 rows]\n    para 15: 138 words (long) — The reason this matters now rather than as a slow multi-decade transition...\n    [box: warn]\n  H2: What would fix this  [273 words in paragraphs and lists]\n    [box: gb-card]\n    (x2)",
+ "models": {
+  "Gemini": {
+   "structure_score": 2,
+   "summary_up_top": {
+    "present": true,
+    "suggest": "Move navigational metadata and audio/accessibility player elements out of the main reading flow so readers immediately see the core argument."
+   },
+   "edits": [
+    {
+     "where": "opening",
+     "type": "move",
+     "why": "Navigation, breadcrumbs, date, and text-to-speech widgets interrupt the mobile reading flow before the lede.",
+     "how": "Move all metadata, breadcrumbs, 'Skip to article content', font-size toggles, and the audio player to a sticky header or above the H1 title."
+    },
+    {
+     "where": "para 3",
+     "type": "split-paragraph",
+     "why": "At 144 words, this paragraph is too dense for mobile screens.",
+     "how": "Split para 3 into two paragraphs at the transition between S&P Global's consensus range and the official figures."
+    },
+    {
+     "where": "para 9",
+     "type": "split-paragraph",
+     "why": "At 205 words, this is a massive wall of text that is difficult to scan on a phone.",
+     "how": "Break para 9 into three smaller paragraphs around the tower counts and the energy consumption data."
+    },
+    {
+     "where": "para 12",
+     "type": "split-paragraph",
+     "why": "At 262 words, this is the longest paragraph in the post and creates major scrolling fatigue on mobile.",
+     "how": "Split para 12 into three distinct paragraphs based on the chronological shifts in the argument."
+    },
+    {
+     "where": "para 11",
+     "type": "split-paragraph",
+     "why": "At 141 words, it mixes the third-option framing with specific technical details.",
+     "how": "Split para 11 into two paragraphs after introducing the third option."
+    },
+    {
+     "where": "para 15",
+     "type": "split-paragraph",
+     "why": "At 138 words, it combines the urgency of the timeline with the policy implications.",
+     "how": "Split para 15 into two paragraphs to separate the timing argument from the cost consequences."
+    }
+   ],
+   "ad_breaks": {
+    "good": [
+     "What would fix this"
+    ],
+    "avoid": [
+     "opening",
+     "para 3",
+     "para 9",
+     "para 12"
+    ]
+   },
+   "model": "gemini-flash-lite-latest"
+  },
+  "Mistral": {
+   "raw": "```json\n{\n  \"structure_score\": 3,\n  \"summary_up_top\": {\n    \"present\": false,\n    \"suggest\": \"Lead with a concise, punchy headline summary: *India’s data centres and telecom towers are doubling down on diesel backup power—just as solar-battery storage becomes 3x cheaper, and the telecom sector already proves alternatives work at scale.*\"\n  },\n  \"edits\": [\n    {\n      \"where\": \"opening\",\n      \"type\": \"shorten-heading\",\n      \"why\": \"The H1 is too long for mobile skimmers; the core tension (diesel cost vs. alternatives) should be front-loaded.\",\n      \"how\": \"Rename to: **‘India’s $0.28/kWh Diesel Trap: Why Data Centres and Telecom Towers Are Locked Into Expensive Backup Power—When They Don’t Have To’**\"\n    },\n    {\n      \"where\": \"opening text (first 400 words)\",\n      \"type\": \"split-section\",\n      \"why\": \"The opening blends narrative, data, and context without clear signposts for mobile readers.\",\n      \"how\": \"Split into two paragraphs:\n        1. **Hook + core tension** (first 100 words): Keep the diesel cost comparison *and* the telecom/data centre contrast, but tighten to 3 sentences max.\n        2. **Context** (next 100 words): Add a *single* sentence on *why* this matters now (e.g., ‘As India races to deploy 5G and AI infrastructure, the choice of backup power will determine whether these sectors hit cost targets—or default to diesel.’)\"\n    },\n    {\n      \"where\": \"para 3 (144 words)\",\n      \"type\": \"split-paragraph\",\n      \"why\": \"The data-centre growth projections are critical but buried in dense text; mobile readers lose track of the ‘why’ (timeline urgency).\",\n      \"how\": \"Split into:\n        - **Para 3a** (first 50 words): *‘India’s data-centre capacity is projected to grow 5–10x by 2030, with forecasts ranging from 6–17 GW. Here’s why the timeline matters: [insert 1-sentence urgency hook, e.g., “The window to avoid diesel lock-in is narrowing as grid expansion lags behind demand.”]’*\n        - **Para 3b** (remaining 94 words): Keep the forecast details but add a **bolded subheading** above: **‘The Race to 2030: Data-Centre Growth by the Numbers’**\"\n    },\n    {\n      \"where\": \"table after para 3\",\n      \"type\": \"add-heading\",\n      \"why\": \"Tables without context labels confuse mobile readers mid-scroll.\",\n      \"how\": \"Add a **bolded subheading** above the table: **‘Current vs. Projected Data-Centre Capacity (GW)’**\"\n    },\n    {\n      \"where\": \"para 9 (205 words)\",\n      \"type\": \"split-section\",\n      \"why\": \"The telecom tower section feels like a detour; mobile readers may skip it without a clear ‘why this matters’ bridge.\",\n      \"how\": \"Add a **bolded subheading** before para 9: **‘Telecom Towers: The Proven Alternative to Diesel’**\n        Then, in para 9’s opening sentence, explicitly tie to the data-centre question: *‘While data centres are still figuring out backup power, telecom towercos have already cut diesel use by 40%—here’s how.’**\"\n    },\n    {\n      \"where\": \"para 11 (141 words)\",\n      \"type\": \"to-list\",\n      \"why\": \"The ‘third option’ (e.g., hybrid solar-diesel) is a key counterpoint but buried in prose; mobile readers miss the comparison.\",\n      \"how\": \"Convert the first 3 sentences of para 11 into a **bullet list** under a new subheading: **‘The Missing Option: Hybrid Solar-Diesel Systems’**\n        Example list item: *‘- **Cost**: ~$0.12–$0.15/kWh (vs. diesel’s $0.28), achieved by pairing solar with diesel for peak demand.’**\"\n    },\n    {\n      \"where\": \"para 15 (138 words)\",\n      \"type\": \"shorten-heading\",\n      \"why\": \"The H2 ‘What would fix this’ feels abrupt after the diesel math; mobile readers lose the narrative thread.\",\n      \"how\": \"Rename to: **‘The Fix Is Simple—If India Acts Now: 3 Levers to Shift Away from Diesel’**\"\n    },\n    {\n      \"where\": \"boxed notes (all 4)\",\n      \"type\": \"merge\",\n      \"why\": \"Four boxes disrupt mobile flow; consolidation would improve readability without losing key details.\",\n      \"how\": \"Combine into **two boxes**:\n        1. **Box 1**: Merge the first two boxes (GB-card + warn) into one titled **‘Why Telecom Towers Can Lead the Way’** (highlight the 40% diesel reduction + policy levers).\n        2. **Box 2**: Merge the remaining two boxes into **‘The Data-Centre Playbook: What’s Missing?’** (focus on NREGA labor, grid constraints, and hybrid system examples).\"\n    }\n  ],\n  \"ad_breaks\": {\n    \"good\": [\n      \"after the opening text (para 2)\",\n      \"after the ‘Telecom Towers: The Proven Alternative to Diesel’ subheading (para 9)\",\n      \"after the ‘Hybrid Solar-Diesel Systems’ list (para 11)\",\n      \"after the ‘The Fix Is Simple—If India Acts Now’ H2 heading (para 15)\"\n    ],\n    \"avoid\": [\n      \"after the first data-centre capacity table (para 3)\",\n      \"after the second table (para 12)\",\n      \"during the ‘Diesel vs. Alternatives’ chart comparison (opening)\",\n      \"inside the ‘What would fix this’ H2 section (para 15–17)\"\n    ]\n  }\n}\n```",
+   "model": "open-mistral-nemo"
+  },
+  "Groq": {
+   "structure_score": 2,
+   "summary_up_top": {
+    "present": false,
+    "suggest": "Start with a one‑sentence TL;DR that states the key finding: diesel backup power in India’s data‑centres and telecom towers now costs about $0.28/kWh, far more than grid or solar‑charged storage."
+   },
+   "edits": [
+    {
+     "where": "opening",
+     "type": "split-paragraph",
+     "why": "The opening is a dense 400‑word block that overwhelms mobile readers.",
+     "how": "Break after the first two sentences to create a short hook, then start a new paragraph with the detailed cost comparison."
+    },
+    {
+     "where": "para 3",
+     "type": "split-paragraph",
+     "why": "144‑word paragraph is too long for phone screens.",
+     "how": "Insert a line break after the sentence ending with “today…” to start a new paragraph that discusses the projected growth."
+    },
+    {
+     "where": "para 9",
+     "type": "split-paragraph",
+     "why": "205‑word paragraph stalls scrolling and mixes data with analysis.",
+     "how": "Divide after the sentence that ends with “TRAI and EY counted them for…”, creating a second paragraph that focuses on cost implications."
+    },
+    {
+     "where": "para 11",
+     "type": "to-list",
+     "why": "Listing the three backup‑power options makes the comparison skimmable.",
+     "how": "Convert the three options (diesel, BESS, hybrid) into a bullet list, keeping the brief explanatory sentence above the list."
+    },
+    {
+     "where": "para 12",
+     "type": "split-section",
+     "why": "A 262‑word paragraph contains multiple ideas (technology, economics, policy) that deserve their own sub‑sections.",
+     "how": "Insert a sub‑heading “Why the hybrid option is viable now” before the first half, and another sub‑heading “Barriers and next steps” before the second half."
+    },
+    {
+     "where": "para 15",
+     "type": "to-list",
+     "why": "A list of reasons is easier to scan than a block of text.",
+     "how": "Rewrite the paragraph as a bullet list of the three main reasons the transition matters now."
+    },
+    {
+     "where": "$0.28 a Unit: The Diesel Math Behind India's Data Centres and Telecom Towers, and Why It's Already Losing",
+     "type": "shorten-heading",
+     "why": "The H1 is overly long for mobile view and pushes important words off‑screen.",
+     "how": "Trim to “$0.28 a Unit: Diesel Power Costs in India’s Data Centres & Telecom Towers”."
+    },
+    {
+     "where": "table 3 cols x 5 rows",
+     "type": "add-heading",
+     "why": "Tables without a lead‑in heading are hard to locate on a phone.",
+     "how": "Insert a brief heading “Projected Data‑Centre Capacity vs. Power Sources” directly above the table."
+    }
+   ],
+   "ad_breaks": {
+    "good": [
+     "$0.28 a Unit: Diesel Math Behind India's Data Centres and Telecom Towers, and Why It's Already Losing",
+     "What would fix this"
+    ],
+    "avoid": [
+     "chart: svg",
+     "table 3 cols x 5 rows",
+     "chart: img",
+     "table 2 cols x 8 rows",
+     "box: warn"
+    ]
+   },
+   "model": "openai/gpt-oss-120b"
+  }
+ }
+}

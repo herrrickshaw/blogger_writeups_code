@@ -1,0 +1,147 @@
+{
+ "slug": "ai-is-not-taking-indias-offshore-work",
+ "outline": "2448 words in 21 paragraphs; 4 tables; 4 charts/images; 5 boxed notes\nH1: AI Is Not Taking India’s Offshore Work Evenly: A Sector-by-Sector Check, and the Government Backlogs the Same Skills Cou  [210 words in paragraphs and lists]\n    [box: gb-stat]\n    (x4)\n    para 2: 127 words (long) — AI is not hitting India’s offshored work all at once. It is...\n  H2: What other countries’ job reports say is most exposed  [170 words in paragraphs and lists]\n    [chart: svg]\n    [table: 3 cols x 14 rows]\n  H2: Where it shows in India’s export numbers  [99 words in paragraphs and lists]\n    [chart: svg]\n  H2: Sector by sector  [510 words in paragraphs and lists]\n    [table: 5 cols x 15 rows]\n    para 8: 164 words (long) — Customer support is the clearest case. The big global contact-centre companies are...\n    para 9: 139 words (long) — In IT services, the pressure is on price and on fresher hiring....\n    para 10: 126 words (long) — In finance, insurance and banking operations, labour-billed revenue is shrinking inside growing...\n  H2: How the firms are adapting  [168 words in paragraphs and lists]\n    [chart: svg]\n  H2: Fewer hires, not layoffs  [121 words in paragraphs and lists]\n    para 12: 121 words (long) — Every source that measures outcomes points the same way. The New York...\n  H2: How the other offshoring hubs see it  [260 words in paragraphs and lists]\n    [chart: svg]\n    [table: 4 cols x 10 rows]\n    para 14: 153 words (long) — Three differences matter for India. First, Kraków’s losses are partly India’s gains....\n  H2: The same work, waiting at home  [231 words in paragraphs and lists]\n    [table: 3 cols x 10 rows]\n    para 17: 148 words (long) — The provident-fund numbers are the warning. EPFO settled 38% more claims in...\n  H2: What is not known  [99 words in paragraphs and lists]\n  H2: What would fix this  [172 words in paragraphs and lists]\n  H2: Sources and caveats  [350 words in paragraphs and lists]\n    [box: gb-card]\n    para 20: 312 words (long) — Compiled on 18 October 2026 from search-result summaries unless stated; filings, transcripts...",
+ "models": {
+  "Gemini": {
+   "structure_score": 2,
+   "summary_up_top": {
+    "present": true,
+    "suggest": ""
+   },
+   "edits": [
+    {
+     "where": "opening",
+     "type": "move",
+     "why": "Metadata and accessibility links currently precede the summary, pushing the actual content below the fold on mobile screens.",
+     "how": "Move the breadcrumbs, publication date, audio player, and font-size controls below the opening summary and key stats box."
+    },
+    {
+     "where": "Sector by sector",
+     "type": "split-section",
+     "why": "This section contains 510 words and a 15-row table, making it an overly long scroll for mobile readers.",
+     "how": "Break the section into two separate H2 sub-topics, placing the large table in its own subsection."
+    },
+    {
+     "where": "Sources and caveats",
+     "type": "split-paragraph",
+     "why": "Paragraph 20 is 312 words long, creating a massive wall of text that is fatiguing to read on small screens.",
+     "how": "Split paragraph 20 into three shorter paragraphs at logical sentence breaks."
+    },
+    {
+     "where": "para 8",
+     "type": "split-paragraph",
+     "why": "At 164 words, this paragraph is too dense for comfortable phone reading.",
+     "how": "Split the paragraph in half after the first major sub-point."
+    },
+    {
+     "where": "para 17",
+     "type": "split-paragraph",
+     "why": "At 148 words, this paragraph contains multiple distinct data points that benefit from spacing out.",
+     "how": "Split the paragraph after the main provident-fund statistic."
+    },
+    {
+     "where": "para 14",
+     "type": "split-paragraph",
+     "why": "At 153 words, this paragraph introduces three separate regional differences that should be separated.",
+     "how": "Split the paragraph before the sentence introducing the second difference."
+    },
+    {
+     "where": "How the other offshoring hubs see it",
+     "type": "add-heading",
+     "why": "The section combines narrative, a chart, a 10-row table, and a long paragraph, causing visual clutter.",
+     "how": "Add an H3 subheading before the comparative table to chunk the information."
+    }
+   ],
+   "ad_breaks": {
+    "good": [
+     "Where it shows in India’s export numbers",
+     "How the firms are adapting",
+     "What is not known"
+    ],
+    "avoid": [
+     "Sector by sector",
+     "How the other offshoring hubs see it",
+     "Sources and caveats"
+    ]
+   },
+   "model": "gemini-flash-lite-latest"
+  },
+  "Mistral": {
+   "raw": "```json\n{\n  \"structure_score\": 3,\n  \"summary_up_top\": {\n    \"present\": false,\n    \"suggest\": \"Open with a punchy headline-like summary of the core tension: *AI is reshaping India’s offshore jobs unevenly—hitting customer support and back-office work hardest while domestic backlogs of the same work grow unaddressed.*\"\n  },\n  \"edits\": [\n    {\n      \"where\": \"opening\",\n      \"type\": \"shorten-heading\",\n      \"why\": \"The H1 is too long for mobile skimmers; it loses impact when truncated on small screens.\",\n      \"how\": \"Trim to: *AI’s uneven impact on India’s offshore jobs: Why some sectors shrink while domestic backlogs grow.*\"\n    },\n    {\n      \"where\": \"opening\",\n      \"type\": \"split-paragraph\",\n      \"why\": \"The first paragraph (127 words) is dense with stats and transitions; mobile readers lose context.\",\n      \"how\": \"Split into two: **Para 1** (first 60 words) = *AI’s uneven impact on India’s offshore jobs: Why some sectors shrink while domestic backlogs grow.* **Para 2** (remaining 67 words) = *Customer support, application maintenance, and labour-billed back-office work are being hit first...*\n    },\n    {\n      \"where\": \"H2: What other countries’ job reports say is most exposed\",\n      \"type\": \"add-heading\",\n      \"why\": \"The chart/table combo lacks a subheading to guide mobile readers through the visual data.\",\n      \"how\": \"Add a subheading: *‘Which jobs are most at risk globally? A breakdown by country’* (or similar) before the chart.\"\n    },\n    {\n      \"where\": \"H2: Sector by sector\",\n      \"type\": \"split-section\",\n      \"why\": \"The 510-word block is too long for mobile; each sector deserves its own H3 for skimmability.\",\n      \"how\": \"Break into **H3s** for each sector (e.g., *Customer Support*, *IT Services*, *Finance/Banking*, *Airline Back Office*, *AI Data Work*) with concise 100–150-word summaries per heading.\"\n    },\n    {\n      \"where\": \"para 8 (Customer Support)\",\n      \"type\": \"to-list\",\n      \"why\": \"The 164-word para lists key players (e.g., Salesforce, Amazon) but lacks visual hierarchy for mobile.\",\n      \"how\": \"Convert to a **bulleted list** of 3–4 key examples with brief context (e.g., *‘Salesforce: AI agents handle ~50% of support conversations, cutting staff from 9,000 to 5,000.’*).\"\n    },\n    {\n      \"where\": \"H2: The same work, waiting at home\",\n      \"type\": \"split-section\",\n      \"why\": \"The 231-word block mixes backlog stats with policy critique; mobile readers may miss the core tension.\",\n      \"how\": \"Split into:\n        - **H3: *Domestic backlogs: The unmet demand for offshore-style work*** (para 17 + stats)\n        - **H3: *Why isn’t the government outsourcing its own work?*** (remaining text)\"\n    },\n    {\n      \"where\": \"H2: What would fix this\",\n      \"type\": \"merge\",\n      \"why\": \"The 172-word section feels abrupt after ‘What is not known’; it lacks a transition to solutions.\",\n      \"how\": \"Merge with the preceding section (e.g., *‘What is not known… but here’s how India could address the gap:’*).\n    },\n    {\n      \"where\": \"H2: Sources and caveats\",\n      \"type\": \"shorten-heading\",\n      \"why\": \"The heading is generic and loses impact when truncated on mobile.\",\n      \"how\": \"Trim to: *‘Limitations: What this analysis doesn’t measure—and why.’*\"\n    }\n  ],\n  \"ad_breaks\": {\n    \"good\": [\n      \"H2: How the firms are adapting\",\n      \"H2: How the other offshoring hubs see it\"\n    ],\n    \"avoid\": [\n      \"H2: Sector by sector (after para 8 or 9)\",\n      \"H2: The same work, waiting at home (after the table)\",\n      \"H2: Sources and caveats (para 20)\"\n    ]\n  }\n}\n```",
+   "model": "open-mistral-nemo"
+  },
+  "Groq": {
+   "structure_score": 3,
+   "summary_up_top": {
+    "present": true,
+    "suggest": "Begin with a one‑sentence hook that states the core finding: AI is hitting some Indian offshore sectors hard while others stay untouched, and the government’s own backlog mirrors the same skill gaps."
+   },
+   "edits": [
+    {
+     "where": "para 2",
+     "type": "split-paragraph",
+     "why": "127‑word paragraph is too long for mobile scanning.",
+     "how": "Break after the first complete idea (e.g., after the sentence ending with “...offshored work all at once.”) to create two shorter paragraphs."
+    },
+    {
+     "where": "para 8",
+     "type": "split-paragraph",
+     "why": "164‑word paragraph overwhelms phone readers.",
+     "how": "Insert a break before the sentence that introduces the next sub‑point about pricing pressure."
+    },
+    {
+     "where": "para 9",
+     "type": "split-paragraph",
+     "why": "Long paragraph slows scrolling.",
+     "how": "Split after the clause that describes “price pressure” so the next sentence starts a new paragraph about fresher hiring."
+    },
+    {
+     "where": "para 10",
+     "type": "split-paragraph",
+     "why": "126‑word block hampers readability on small screens.",
+     "how": "Create a break after the sentence that mentions “shrinking labour‑billed revenue” to isolate the discussion of growth in other areas."
+    },
+    {
+     "where": "para 12",
+     "type": "split-paragraph",
+     "why": "A single 121‑word paragraph makes the “fewer hires, not layoffs” point dense.",
+     "how": "Divide after the first sentence that cites the New York source, then start a new paragraph with the analysis of hiring trends."
+    },
+    {
+     "where": "para 14",
+     "type": "split-paragraph",
+     "why": "153‑word paragraph mixes three comparative points, which is hard to scan.",
+     "how": "Break after the first comparative sentence about Kraków, then after the second about cost structures, leaving the third as a separate paragraph."
+    },
+    {
+     "where": "para 17",
+     "type": "split-paragraph",
+     "why": "Long paragraph obscures the key statistic about EPFO claims.",
+     "how": "Insert a break right after the sentence ending with the EPFO claim percentage, then start a new paragraph with the implications for domestic backlog."
+    },
+    {
+     "where": "para 20",
+     "type": "split-paragraph",
+     "why": "312‑word “Sources and caveats” section is a wall of text on phones.",
+     "how": "Create three sub‑paragraphs: (1) methodology summary, (2) data limitations, (3) disclaimer about source reliability."
+    }
+   ],
+   "ad_breaks": {
+    "good": [
+     "What other countries’ job reports say is most exposed",
+     "Where it shows in India’s export numbers",
+     "Sector by sector",
+     "How the firms are adapting",
+     "How the other offshoring hubs see it",
+     "The same work, waiting at home"
+    ],
+    "avoid": [
+     "Sector by sector",
+     "Sources and caveats",
+     "What would fix this"
+    ]
+   },
+   "model": "openai/gpt-oss-120b"
+  }
+ }
+}

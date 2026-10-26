@@ -1,0 +1,125 @@
+{
+ "slug": "a-hectare-under-power-line-now-pays",
+ "outline": "1692 words in 17 paragraphs; 3 tables; 0 charts/images; 7 boxed notes\nH1: A Hectare Under a Power Line Now Pays Three to Six Times What One Over a Pipeline Does  [129 words in paragraphs and lists]\n    [box: stat]\n    (x4)\n    para 4: 123 words (long) — On 6 October 2026 the Ministry of Power told every state that...\n    [box: warn]\n  H2: What the 6 October 2026 letter says  [497 words in paragraphs and lists]\n  H2: What changed from June 2024  [33 words in paragraphs and lists]\n    [table: 3 cols x 7 rows]\n    [box: warn]\n  H2: What a pipeline pays  [295 words in paragraphs and lists]\n  H2: One hectare, three ways  [111 words in paragraphs and lists]\n    [table: 4 cols x 6 rows]\n  H2: A kilometre of 400 kV line  [205 words in paragraphs and lists]\n    [table: 4 cols x 4 rows]\n    [box: note]\n  H2: Will states follow?  [155 words in paragraphs and lists]\n  H2: What I could not check  [230 words in paragraphs and lists]",
+ "models": {
+  "Gemini": {
+   "structure_score": 2,
+   "summary_up_top": {
+    "present": true,
+    "suggest": ""
+   },
+   "edits": [
+    {
+     "where": "para 4",
+     "type": "split-paragraph",
+     "why": "Paragraph 4 contains 123 words, which is too dense for comfortable phone reading.",
+     "how": "Break the paragraph into two smaller paragraphs at a natural sentence boundary around the middle of the text."
+    },
+    {
+     "where": "What the 6 October 2026 letter says",
+     "type": "split-section",
+     "why": "This section contains 497 words under a single heading, causing a massive wall of text between ad breaks on mobile.",
+     "how": "Insert subheadings to break the 497-word block into smaller, scannable chunks."
+    },
+    {
+     "where": "What changed from June 2024",
+     "type": "to-list",
+     "why": "The brief 33-word text preceding the table lacks narrative flow and phone readers need quick bullet points for comparison.",
+     "how": "Convert the introductory text into a bulleted list highlighting the key differences before the table."
+    },
+    {
+     "where": "A kilometre of 400 kV line",
+     "type": "move",
+     "why": "The boxed note disrupts the flow between the text and the 4-column table on small screens.",
+     "how": "Move the boxed note to the very end of the section after the table."
+    }
+   ],
+   "ad_breaks": {
+    "good": [
+     "What changed from June 2024",
+     "One hectare, three ways"
+    ],
+    "avoid": [
+     "What a pipeline pays",
+     "A kilometre of 400 kV line"
+    ]
+   },
+   "model": "gemini-flash-lite-latest"
+  },
+  "Mistral": {
+   "raw": "```json\n{\n  \"structure_score\": 3,\n  \"summary_up_top\": {\n    \"present\": false,\n    \"suggest\": \"Start with a **clear, punchy headline hook** (e.g., ‘Land under power lines now pays 3–6x more than pipelines—but only if you know the loopholes’) followed by a **one-sentence summary of the core disparity** (e.g., ‘A hectare under a 400 kV tower fetches ₹X–Y, while a pipeline pays just ₹Z—here’s why the rules are rigged’).\"\n  },\n  \"edits\": [\n    {\n      \"where\": \"opening\",\n      \"type\": \"shorten-heading\",\n      \"why\": \"The H1 is already strong, but the opening text repeats it verbatim. Cut the first 3 sentences to **front-load the ‘3–6x disparity’ with a concrete example** (e.g., ‘In rural Uttar Pradesh, a hectare under a 400 kV tower now fetches ₹1.2–1.8 million—six times the ₹200,000 a pipeline would offer’).\",\n      \"how\": \"Replace the first 3 sentences with: ‘Take a hectare of farmland in Maharashtra: under a 400 kV transmission tower, its owner gets ₹1.5–2.4 million in compensation. Under a gas pipeline? Just ₹250,000. The gap isn’t new—but the new rules make it harder to challenge. Here’s how it works.’\"\n    },\n    {\n      \"where\": \"H1\",\n      \"type\": \"shorten-heading\",\n      \"why\": \"The H1 is informative but **lacks urgency**. Add a **contrasting verb** to highlight the disparity.\",\n      \"how\": \"Change to: *‘Power Lines Now **Triple** Land Compensation—While Pipelines Pay a Fraction of the Same Plot’*\"\n    },\n    {\n      \"where\": \"para 4 (123 words)\",\n      \"type\": \"split-paragraph\",\n      \"why\": \"This is a **dense legal/scope paragraph** buried mid-opening. Move it to **after the first table** (under ‘What changed from June 2024’) to separate it from the narrative hook.\",\n      \"how\": \"Cut and paste this paragraph **immediately after the table in the ‘What changed from June 2024’ section**, renaming the heading to: *‘Key Limits: Who Gets Paid, and When’*\"\n    },\n    {\n      \"where\": \"H2: What the 6 October 2026 letter says\",\n      \"type\": \"add-heading\",\n      \"why\": \"This section is **too long (497 words)** and lacks substructure. Split it into **3 subheadings** to break up the dense text.\",\n      \"how\": \"Add these **3 new H3s** (keep original text intact, just reorder):\n      1. *‘How Market Value is Calculated’* (move paras 1–5 from current section)\n      2. *‘Who Can Challenge the Valuation’* (move paras 6–9)\n      3. *‘The Role of State Governments’* (move paras 10–12)\"\n    },\n    {\n      \"where\": \"H2: What a pipeline pays\",\n      \"type\": \"to-list\",\n      \"why\": \"The **3-column table here is underutilized**. The text repeats the same data. Turn the **key differences** into a **bullet list** for faster scanning.\",\n      \"how\": \"Replace the first 3 paragraphs with:\n      **Key Differences: Pipeline vs. Transmission Compensation**\n      - **One-time payment**: Pipelines pay **once** (s.10(4), 1962 Act) for land *and* crop damage.\n      - **Fixed rate**: **10% of market value** (no tiered rates like transmission).\n      - **No tower premium**: No separate compensation for infrastructure (e.g., valves, meters).\n      - **Statutory override**: Pipeline rules are **mandatory**; transmission is **guidelines** (2003 Act, s.67).\"\n    },\n    {\n      \"where\": \"H2: One hectare, three ways\",\n      \"type\": \"merge\",\n      \"why\": \"This section and the **next two tables** (**‘A kilometre of 400 kV line’** and its table) **duplicate data**. Merge them into a **single ‘Worked Example’ section** with a **combined table**.\",\n      \"how\": \"Combine all three into one H2: *‘How Compensation Varies by Asset Type’* and create a **single 5-column table** (columns: *Asset Type*, *Location Tier*, *Land Under (₹/ha)*, *Tower Base (₹/unit)*, *Pipeline (₹/ha)*). Move the **‘One hectare, three ways’ table** to the top of this merged section.\"\n    },\n    {\n      \"where\": \"H2: Will states follow?\",\n      \"type\": \"split-section\",\n      \"why\": \"This **ends on a weak note**. The section asks a question but doesn’t **link back to the core disparity** or **offer solutions**. Add a **‘What This Means for Landowners’** subheading.\",\n      \"how\": \"Add a new H3: *‘What This Means for Landowners’* and append:\n      **‘Bottom line**: States can ignore these guidelines—but landowners who challenge circle rates now have **stronger legal footing** to demand **30–60% of market value** for transmission corridors. For pipelines, the 10% rule remains locked in. *Here’s how to push back*: [3 bullet points on advocacy strategies].’\"\n    },\n    {\n      \"where\": \"H2: What I could not check\",\n      \"type\": \"shorten-heading\",\n      \"why\": \"This heading **sounds like a flaw**, not a **strategic choice**. Reframe it to **highlight transparency gaps** as a **story angle**.\",\n      \"how\": \"Change to: *‘The Blind Spots in the New Rules’*\"\n    },\n    {\n      \"where\": \"all boxed notes\",\n      \"type\": \"to-list\",\n      \"why\": \"Boxed notes **break flow** on mobile. Replace with **inline callouts** using **emoji + bold text** (e.g., ‘⚠️ *Warning*: Only **inter-state lines** (66 kV+) qualify—intra-state lines are excluded.’).\",\n      \"how\": \"Convert each box to:\n      - **Stat boxes**: ‘📊 *Note*: Valuations clipped to ±20% of median to avoid outliers.’\n      - **Warn boxes**: ‘⚠️ *Caveat*: Pipeline rules are **mandatory**; transmission is **voluntary** for states.’\n      Place them **at the end of the relevant paragraph**, not as separate blocks.\"\n  ],\n  \"ad_breaks\": {\n    \"good\": [\n      \"What changed from June 2024\",\n      \"A kilometre of 400 kV line\",\n      \"Will states follow?\"\n    ],\n    \"avoid\": [\n      \"What the 6 October 2026 letter says\",\n      \"One hectare, three ways\",\n      \"What I could not check\"\n    ]\n  }\n}\n```",
+   "model": "open-mistral-nemo"
+  },
+  "Groq": {
+   "structure_score": 3,
+   "summary_up_top": {
+    "present": false,
+    "suggest": "Begin with a one‑sentence TL;DR that states the new compensation rates for power‑line land versus pipeline land and why it matters."
+   },
+   "edits": [
+    {
+     "where": "opening",
+     "type": "split-paragraph",
+     "why": "Paragraph 4 is 123 words, which is dense for mobile reading.",
+     "how": "Break the 123‑word paragraph after the sentence ending with “the land under each tower twice its market value.” Start a new paragraph with “The law that lets a pipeline…”."
+    },
+    {
+     "where": "A Hectare Under a Power Line Now Pays Three to Six Times What One Over a Pipeline Does",
+     "type": "shorten-heading",
+     "why": "The H1 is overly long for phone screens and may be truncated.",
+     "how": "Replace with “Power‑Line Land Pays 3‑6× Pipeline Land”."
+    },
+    {
+     "where": "What the 6 October 2026 letter says",
+     "type": "add-heading",
+     "why": "The “Scope” paragraph is currently embedded in the opening and gets lost on small screens.",
+     "how": "Insert a sub‑heading “Scope of the 2026 Guidelines” before the paragraph that begins “The 2026 letter is a set of guidelines…”."
+    },
+    {
+     "where": "What changed from June 2024",
+     "type": "move",
+     "why": "It logically follows the detailed description of the 2026 letter, not the H1.",
+     "how": "Place this section immediately after the new “Scope of the 2026 Guidelines” sub‑heading."
+    },
+    {
+     "where": "One hectare, three ways",
+     "type": "to-table",
+     "why": "The comparison is numeric and fits better in a compact table for phone scrolling.",
+     "how": "Create a 3‑column table (Power line, Pipeline, Difference) summarising the key figures; replace the paragraph with the table."
+    },
+    {
+     "where": "Will states follow?",
+     "type": "split-section",
+     "why": "The heading introduces a new line of argument that could be broken into two clearer parts.",
+     "how": "Add a sub‑heading “State responses so far” and move the first half of the content under it; keep the remainder under a new sub‑heading “Potential future trends”."
+    },
+    {
+     "where": "What I could not check",
+     "type": "merge",
+     "why": "This short concluding note can be combined with the previous section to reduce fragmentation.",
+     "how": "Append the content of “What I could not check” to the end of “Will states follow?” under a sub‑heading “Open questions”."
+    },
+    {
+     "where": "A kilometre of 400 kV line",
+     "type": "add-heading",
+     "why": "The boxed note inside this section interrupts flow on mobile.",
+     "how": "Move the boxed note to a separate sub‑heading “Key takeaway” placed after the table."
+    }
+   ],
+   "ad_breaks": {
+    "good": [
+     "What the 6 October 2026 letter says",
+     "What changed from June 2024",
+     "What a pipeline pays",
+     "A kilometre of 400 kV line"
+    ],
+    "avoid": [
+     "One hectare, three ways",
+     "A kilometre of 400 kV line (inside the table)",
+     "Will states follow?"
+    ]
+   },
+   "model": "openai/gpt-oss-120b"
+  }
+ }
+}

@@ -1,0 +1,144 @@
+{
+ "slug": "a-slice-of-apple-costs-about-1700-slice",
+ "outline": "4122 words in 35 paragraphs; 7 tables; 2 charts/images; 3 boxed notes\nH1: A Slice of Apple Costs About ₹1,700. A Slice of MRF Still Isn't Legal. Fractional Investing Hasn't Closed That Gap Yet.  [0 words in paragraphs and lists]\n    [chart: svg]\n    [box: warn]\n  H2: 1. The barrier this is actually solving  [170 words in paragraphs and lists]\n    [chart: img]\n    [table: 3 cols x 3 rows]\n  H2: 2. How fractional US-stock investing actually works today  [259 words in paragraphs and lists]\n  H2: 3. Why the same trick doesn't work for Indian stocks — yet  [295 words in paragraphs and lists]\n    para 9: 163 words (long) — What changed in 2025 is narrower than \"fractional shares are now legal,\"...\n    [box: callout]\n  H2: 4. What this means for financial inclusion, honestly  [229 words in paragraphs and lists]\n    para 11: 141 words (long) — What it hasn't solved is the domestic version of the same problem....\n  H2: 5. The full ₹10,000-a-share club, and how it's actually performed  [308 words in paragraphs and lists]\n    [table: 5 cols x 39 rows]\n    para 13: 175 words (long) — Three things stand out. First, the price barrier and investment quality are...\n    H3: How much market risk does each of these 38 actually carry?  [385 words in paragraphs and lists]\n    [table: 5 cols x 8 rows]\n    [box: callout]\n    [table: 4 cols x 30 rows]\n  H2: 6. How the whole market is actually segmented by price — and what \"tiffin investing\" could look like  [667 words in paragraphs and lists]\n    [table: 5 cols x 6 rows]\n    para 21: 123 words (long) — Ninety percent of listed stocks, by count, already trade under ₹1,000 a...\n    para 22: 144 words (long) — That concentration suggests a specific, small-ticket shape fractional access could realistically take,...\n    para 23: 225 words (long) — Call the idea tiffin investing: a fractional-investing habit sized and timed like...\n    H3: Does a higher share price actually mean lower market risk?  [543 words in paragraphs and lists]\n    [table: 7 cols x 6 rows]\n    para 26: 225 words (long) — The first version of this table, published earlier, computed the under-₹1,000 band...\n    para 27: 236 words (long) — Beta and alpha for the four bands above ₹1,000 are computed for...\n    H3: Did beta actually predict returns?  [549 words in paragraphs and lists]\n    [table: 7 cols x 6 rows]\n    para 29: 264 words (long) — Lined up against the median betas from the fully-computed table above, the...\n    para 31: 135 words (long) — Return-over-period and EPS/profit-growth figures are Screener.in's own reported fields for the full...\n    H3: Related on this blog  [70 words in paragraphs and lists]\n  H2: What would fix this  [234 words in paragraphs and lists]\n    H3: Sources  [353 words in paragraphs and lists]",
+ "models": {
+  "Gemini": {
+   "structure_score": 2,
+   "summary_up_top": {
+    "present": false,
+    "suggest": "Add a one-sentence TL;DR at the top explaining why Indian investors can buy fractional US shares but still cannot buy fractional shares of expensive domestic stocks like MRF."
+   },
+   "edits": [
+    {
+     "where": "para 21",
+     "type": "split-paragraph",
+     "why": "At 123 words, it's dense for mobile screens and interrupts the flow of data points.",
+     "how": "Split paragraph 21 at the sentence beginning with 'That concentration'."
+    },
+    {
+     "where": "para 26",
+     "type": "split-paragraph",
+     "why": "This paragraph has 225 words, creating a massive wall of text that hurts mobile retention.",
+     "how": "Split paragraph 26 into two smaller paragraphs at the midpoint sentence."
+    },
+    {
+     "where": "para 27",
+     "type": "split-paragraph",
+     "why": "At 236 words, this is too long for comfortable scrolling on a phone.",
+     "how": "Split paragraph 27 into two paragraphs around the middle argument."
+    },
+    {
+     "where": "para 29",
+     "type": "split-paragraph",
+     "why": "At 264 words, it forces excessive scrolling between data tables.",
+     "how": "Split paragraph 29 into two distinct paragraphs."
+    },
+    {
+     "where": "H3: Does a higher share price actually mean lower market risk?",
+     "type": "split-section",
+     "why": "This subsection contains over 540 words and multiple heavy data blocks, overwhelming mobile readers.",
+     "how": "Break the subsection into two smaller H3 subsections with descriptive headings."
+    },
+    {
+     "where": "H3: Did beta actually predict returns?",
+     "type": "split-section",
+     "why": "At nearly 550 words and multiple paragraphs, it causes ad-break congestion and reader fatigue.",
+     "how": "Split this into two separate H3 subsections to chunk the statistical analysis."
+    },
+    {
+     "where": "H1: A Slice of Apple Costs About ₹1,700. A Slice of MRF Still Isn't Legal. Fractional Investing Hasn't Closed That Gap Yet.",
+     "type": "move",
+     "why": "The top of the page is cluttered with site navigation, audio widgets, and a heavy update warning box before the article actually begins.",
+     "how": "Move the update warning box to a collapsible element or below the main chart and introductory hook."
+    }
+   ],
+   "ad_breaks": {
+    "good": [
+     "2. How fractional US-stock investing actually works today",
+     "4. What this means for financial inclusion, honestly",
+     "H3: How much market risk does each of these 38 actually carry?"
+    ],
+    "avoid": [
+     "H1: A Slice of Apple Costs About ₹1,700. A Slice of MRF Still Isn't Legal. Fractional Investing Hasn't Closed That Gap Yet.",
+     "5. The full ₹10,000-a-share club, and how it's actually performed",
+     "H3: Does a higher share price actually mean lower market risk?"
+    ]
+   },
+   "model": "gemini-flash-lite-latest"
+  },
+  "Mistral": {
+   "raw": "```json\n{\n  \"structure_score\": 3,\n  \"summary_up_top\": {\n    \"present\": false,\n    \"suggest\": \"Start with a punchy, phone-friendly hook: *‘India’s fractional investing works for foreign stocks but not local ones—here’s why the ₹1,700 Apple slice vs. the illegal MRF slice reveals a deeper problem.’*\"\n  },\n  \"edits\": [\n    {\n      \"where\": \"opening\",\n      \"type\": \"shorten-heading\",\n      \"why\": \"The H1 is too dense for mobile; prioritize the core tension (Apple vs. MRF) and the regulatory gap.\",\n      \"how\": \"Trim to: *‘Fractional investing lets you buy a ₹1,700 slice of Apple—but not a ₹1,000 slice of MRF. Here’s why India’s stock market is still broken for small investors.’*\"\n    },\n    {\n      \"where\": \"H2: 1. The barrier this is actually solving\",\n      \"type\": \"add-heading\",\n      \"why\": \"The first para introduces demat accounts; this section needs a clearer bridge to the *price barrier* theme.\",\n      \"how\": \"Add a subheading after the opening para: *‘H2.1: The demat account gap isn’t the real barrier’* (keep existing content under it).\"\n    },\n    {\n      \"where\": \"H2: 2. How fractional US-stock investing actually works today\",\n      \"type\": \"split-section\",\n      \"why\": \"This is a dense explanation; mobile readers need visual separation from the Indian context.\",\n      \"how\": \"Move the first 100 words (definition of fractional shares) to a new **H2.2: What fractional investing *actually* means** before the US-specific examples.\"\n    },\n    {\n      \"where\": \"para 9 (under H2: 3)\",\n      \"type\": \"split-paragraph\",\n      \"why\": \"163 words is too long for mobile; the 2025 change is a key pivot.\",\n      \"how\": \"Split into two paras: first para ends with *\"The 2025 regulatory shift was narrower than fractional shares becoming legal—it was about...\"*\n    },\n    {\n      \"where\": \"H2: 5. The full ₹10,000-a-share club\",\n      \"type\": \"split-section\",\n      \"why\": \"The 39-row table is overwhelming; group the analysis into digestible chunks.\",\n      \"how\": \"Add a subheading after the intro: *‘H2.5.1: The ₹10K+ stocks by the numbers’* (move first 100 words there), then *‘H2.5.2: Risk profiles’* for the H3 section.\"\n    },\n    {\n      \"where\": \"H3: Does a higher share price actually mean lower market risk?\",\n      \"type\": \"to-list\",\n      \"why\": \"The 543-word para is a wall of text; bullet points would help mobile skimmers.\",\n      \"how\": \"Convert the first 200 words (theory/background) into a **3-bullet list** under the H3 heading, then proceed with the analysis.\"\n    },\n    {\n      \"where\": \"para 26 (under H3: Does a higher share price...)\",\n      \"type\": \"shorten-heading\",\n      \"why\": \"The 225-word para is a digression; the table’s purpose should be clearer.\",\n      \"how\": \"Rename the H3 to: *‘H3.1: The under-₹1,000 band’s risk profile (and why it matters)’* (keep content but add a 1-sentence intro: *\"This table breaks down the beta/alpha of the 90% of stocks trading under ₹1,000...\"*).\"\n    },\n    {\n      \"where\": \"H2: 6. How the whole market is actually segmented by price\",\n      \"type\": \"split-section\",\n      \"why\": \"The 667-word block is a marathon; the ‘tiffin investing’ idea deserves its own visual anchor.\",\n      \"how\": \"Move the first 150 words (price-band stats) to a new **H2.6.1: The ₹1,000 price divide** heading, then add a **H2.6.2: What ‘tiffin investing’ could look like** subheading before para 21.\"\n    }\n  ],\n  \"ad_breaks\": {\n    \"good\": [\n      \"H2: 2. How fractional US-stock investing actually works today\",\n      \"H2: 4. What this means for financial inclusion, honestly\",\n      \"H3: Related on this blog\"\n    ],\n    \"avoid\": [\n      \"H2: 5. The full ₹10,000-a-share club (especially after the 39-row table)\",\n      \"H3: Does a higher share price actually mean lower market risk? (after the 7x6 table)\",\n      \"para 26–27 (under H3: Does a higher share price...; back-to-back tables)\",\n      \"H2: 6. How the whole market is actually segmented by price (after para 21’s 123-word block)\"\n    ]\n  }\n}\n```",
+   "model": "open-mistral-nemo"
+  },
+  "Groq": {
+   "structure_score": 2,
+   "summary_up_top": {
+    "present": false,
+    "suggest": "Start with a one‑sentence takeaway that explains why fractional investing works abroad, why it’s still illegal for Indian stocks, and what that means for everyday investors."
+   },
+   "edits": [
+    {
+     "where": "opening",
+     "type": "add-heading",
+     "why": "Readers need an immediate, scannable summary before diving into data‑heavy content.",
+     "how": "Insert a level‑3 heading titled “Key takeaway” right after the title and before the first paragraph, and place the one‑sentence summary there."
+    },
+    {
+     "where": "para 1",
+     "type": "split-paragraph",
+     "why": "The opening paragraph is over 150 words, making it hard to read on a phone.",
+     "how": "Break after the sentence ending with “foreign‑market plumbing.” Start a new paragraph with the sentence about the Indian regulatory gap."
+    },
+    {
+     "where": "para 9",
+     "type": "to-list",
+     "why": "A long explanatory paragraph can be scanned faster as bullet points.",
+     "how": "Convert the three main points about the 2025 change into a three‑item bulleted list."
+    },
+    {
+     "where": "para 11",
+     "type": "split-paragraph",
+     "why": "Keeps the mobile reader from scrolling through a dense block of text.",
+     "how": "Insert a line break after “domestic version of the same problem…”, creating two shorter paragraphs."
+    },
+    {
+     "where": "para 13",
+     "type": "to-list",
+     "why": "The paragraph lists three observations; bullets improve scan‑ability.",
+     "how": "Replace the sentence “Three things stand out…” with a numbered list of the three items."
+    },
+    {
+     "where": "para 21",
+     "type": "split-paragraph",
+     "why": "Long paragraph before a table disrupts flow on small screens.",
+     "how": "Split after the phrase “already trade under ₹1,000 a…”, creating a lead‑in paragraph and a second paragraph that introduces the table."
+    },
+    {
+     "where": "para 22",
+     "type": "split-paragraph",
+     "why": "Separates the conceptual discussion from the upcoming data visualisation.",
+     "how": "Break after “small‑ticket shape fractional access could realistically take,…”, starting a new paragraph that leads into the next chart."
+    },
+    {
+     "where": "H2: 6. How the whole market is actually segmented by price — and what \"tiffin investing\" could look like",
+     "type": "add-heading",
+     "why": "The section contains multiple sub‑topics; a sub‑heading helps readers jump to the part they care about.",
+     "how": "Insert a level‑3 heading “Price distribution of listed stocks” before the first table, and another level‑3 heading “Concept of tiffin investing” before paragraph 23."
+    }
+   ],
+   "ad_breaks": {
+    "good": [
+     "H2: 2. How fractional US-stock investing actually works today",
+     "H2: 5. The full ₹10,000-a-share club, and how it's actually performed",
+     "H2: 6. How the whole market is actually segmented by price — and what \"tiffin investing\" could look like"
+    ],
+    "avoid": [
+     "H3: How much market risk does each of these 38 actually carry?",
+     "H3: Does a higher share price actually mean lower market risk?",
+     "H3: Did beta actually predict returns?"
+    ]
+   },
+   "model": "openai/gpt-oss-120b"
+  }
+ }
+}

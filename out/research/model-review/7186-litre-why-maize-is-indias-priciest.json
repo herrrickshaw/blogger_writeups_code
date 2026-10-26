@@ -1,0 +1,128 @@
+{
+ "slug": "7186-litre-why-maize-is-indias-priciest",
+ "outline": "1520 words in 15 paragraphs; 2 tables; 5 charts/images; 3 boxed notes\nH1: ₹71.86 a Litre: Why Maize Is India's Priciest Ethanol Feedstock, Even as This Season's Acreage Falls  [1144 words in paragraphs and lists]\n    [box: gb-card]\n    [table: 5 cols x 5 rows]\n    [chart: svg]\n    (x2)\n    para 6: 135 words (long) — Maize's structural trend runs the opposite way to this season's dip. Per...\n    [chart: svg]\n    (x2)\n    para 7: 125 words (long) — UPAg's own 2025-26 row (4.32 lakh hectares, 32.66 lakh tonnes) is excluded...\n    [table: 3 cols x 7 rows]\n    para 11: 148 words (long) — Maize-based ethanol supply to OMCs went from zero in ESY 2021-22 to...\n    para 13: 192 words (long) — Maize isn't competing only against itself for acreage — it's also competing...\n  H2: What would fix this  [292 words in paragraphs and lists]\n    [box: gb-card]\n    (x2)\n    [chart: img]",
+ "models": {
+  "Gemini": {
+   "structure_score": 2,
+   "summary_up_top": {
+    "present": true,
+    "suggest": ""
+   },
+   "edits": [
+    {
+     "where": "para 6",
+     "type": "split-paragraph",
+     "why": "Paragraph has 135 words, which is too long and tiring to read on a mobile screen.",
+     "how": "Split para 6 into two shorter paragraphs at the natural break around the middle of the text."
+    },
+    {
+     "where": "para 7",
+     "type": "split-paragraph",
+     "why": "Paragraph has 125 words, exceeding the ideal mobile length limit.",
+     "how": "Split para 7 into two paragraphs to improve readability on phones."
+    },
+    {
+     "where": "para 11",
+     "type": "split-paragraph",
+     "why": "At 148 words, this block is heavy for mobile scrolling.",
+     "how": "Split para 11 into two paragraphs."
+    },
+    {
+     "where": "para 13",
+     "type": "split-paragraph",
+     "why": "This is the longest paragraph in the post at 192 words, creating a massive wall of text on mobile.",
+     "how": "Split para 13 into three shorter paragraphs."
+    },
+    {
+     "where": "H1: ₹71.86 a Litre...",
+     "type": "add-heading",
+     "why": "The section under H1 is extremely long (over 1100 words), causing Google Auto ads to cluster awkwardly.",
+     "how": "Insert subheadings every 3 to 4 paragraphs within the H1 section to break up the text and create safe ad-placement slots."
+    }
+   ],
+   "ad_breaks": {
+    "good": [
+     "What would fix this"
+    ],
+    "avoid": [
+     "H1: ₹71.86 a Litre: Why Maize Is India's Priciest Ethanol Feedstock, Even as This Season's Acreage Falls"
+    ]
+   },
+   "model": "gemini-flash-lite-latest"
+  },
+  "Mistral": {
+   "raw": "```json\n{\n  \"structure_score\": 3,\n  \"summary_up_top\": {\n    \"present\": false,\n    \"suggest\": \"Highlight the core contradiction upfront: *maize is India’s priciest ethanol feedstock (₹71.86/L) but farmers planted 9.7% less this kharif*—then preview the structural demand vs. supply mismatch.\"\n  },\n  \"edits\": [\n    {\n      \"where\": \"opening\",\n      \"type\": \"shorten-heading\",\n      \"why\": \"The H1 already includes the key number (₹71.86) and core tension (acreage fall), so the opening should focus on the *why*—not repeat the headline.\",\n      \"how\": \"Replace the first 400 words with a punchy 150-word opener that:\n      1. Starts with the contradiction (maize = most expensive feedstock *but* acreage dropped 9.7%).\n      2. Briefly explain the ethanol programme’s role in driving maize demand (1–2 sentences).\n      3. End with: *“This piece dissects how that demand pull clashes with farmers’ planting decisions—why maize’s acreage is falling even as its price signal is stronger than ever.”*\n      Keep the ‘pattern in one line’ bullet as-is but move it to the top of the opener.\"\n    },\n    {\n      \"where\": \"H1 (first paragraph after heading)\",\n      \"type\": \"split-section\",\n      \"why\": \"The ‘crop scoreboard’ table is a standalone data block that breaks the narrative flow. It belongs as a dedicated section with its own heading.\",\n      \"how\": \"Add a new H2: *“How India’s major crops fared this season (acreage trends)”** before the table, then move the table + accompanying text there. Keep the note about rabi/kharif timing in this section.\"\n    },\n    {\n      \"where\": \"para 6 (135 words)\",\n      \"type\": \"split-paragraph\",\n      \"why\": \"This dense paragraph mixes maize’s structural trend with UPAg’s 2025–26 row exclusion. The UPAg detail belongs in the ‘fixes’ section (H2).\",\n      \"how\": \"Split into two:\n      1. **Para 6a (first 70 words)**: Keep the maize trend explanation (price vs. acreage divergence).\n      2. **Para 6b (remaining 65 words)**: Move to the *What would fix this* section (H2) as the opening of that subsection, linking to UPAg’s role.\"\n    },\n    {\n      \"where\": \"para 7 (125 words)\",\n      \"type\": \"move\",\n      \"why\": \"This paragraph belongs in the *fixes* section (H2) as it introduces policy solutions (UPAg’s 2025–26 row).\",\n      \"how\": \"Move entirely to H2, placing it after the split para 6b (above). Add a subheading: *“Policy levers: Why UPAg’s 2025–26 row matters”** before it.\"\n    },\n    {\n      \"where\": \"para 11 (148 words)\",\n      \"type\": \"to-list\",\n      \"why\": \"The timeline of maize-ethanol volumes (zero → 500 crore litres) is a key data point that would scan better as a bulleted timeline.\",\n      \"how\": \"Convert to a 3-bullet list with years/volumes, e.g.:\n      - **2021–22**: Maize ethanol supply to OMCs = **0 crore litres** (ESY).\n      - **2022–23**: Jump to **~100 crore litres** (early adoption phase).\n      - **2024–25**: Reach **~450 crore litres** (nearly half of total ethanol production).\n      Add a caption: *“Source: OMC procurement data; UPAg estimates.”**\"\n    },\n    {\n      \"where\": \"para 13 (192 words)\",\n      \"type\": \"split-section\",\n      \"why\": \"This paragraph introduces a new argument (maize’s competition with other crops) that deserves its own heading to avoid reader fatigue.\",\n      \"how\": \"Add a new H2: *“Why maize isn’t just losing to itself”* before para 13. Shorten the heading to **“Maize’s acreage squeeze: Who’s winning?”** if space allows.\"\n    },\n    {\n      \"where\": \"H2 (*What would fix this*)\",\n      \"type\": \"add-heading\",\n      \"why\": \"The current H2 is too broad and lacks hierarchy. Split it into thematic subheadings for scannability.\",\n      \"how\": \"Replace with:\n      1. **H2.1**: *“Policy levers: Why UPAg’s 2025–26 row matters”* (moves para 7 + split para 6b here).\n      2. **H2.2**: *“Market signals: Can price incentives align with acreage?”** (new section covering ethanol price vs. maize yield costs).\n      3. **H2.3**: *“Supply chain fixes: Bottlenecks in maize procurement”* (if data exists; otherwise merge with H2.2).\n      Add a teaser before H2: *“Solutions would need to address three fronts: policy, market signals, and supply chain.”**\"\n    },\n    {\n      \"where\": \"boxed notes (gb-card)\",\n      \"type\": \"shorten-heading\",\n      \"why\": \"Boxed notes disrupt flow. Consolidate key takeaways into the main text or use them sparingly for critical context.\",\n      \"how\": \"Replace 2/3 boxes with **bolded callouts** in the relevant paragraphs (e.g., embed the UPAg row detail in para 6b or 7). Keep only the most actionable box (e.g., ethanol price vs. maize cost comparison) as a standalone note with a clearer heading like *“Key takeaway: Why maize ethanol is expensive”**.\"\n    },\n    {\n      \"where\": \"charts/images\",\n      \"type\": \"merge\",\n      \"why\": \"Two SVG charts back-to-back (after para 6) create visual clutter. Group related visuals with captions.\",\n      \"how\": \"Combine the two SVG charts into a **single composite figure** with a shared caption:\n      *“Maize’s price vs. acreage trend (2020–2026): Left: Government-set ethanol price (₹/L); Right: Kharif acreage (lakh ha).”*\n      Repeat for the second pair of charts (after para 11) if they’re conceptually linked.\"\n  ],\n  \"ad_breaks\": {\n    \"good\": [\n      \"H2 (*What would fix this*)\",\n      \"H2.2 (*Market signals: Can price incentives align with acreage?*)\"\n    ],\n    \"avoid\": [\n      \"After the first table (para 6’s scoreboard—breaks the crop comparison flow)\",\n      \"Between para 11 and the second table (interrupts the maize-ethanol volume timeline)\",\n      \"After the composite chart following para 13 (breaks the acreage competition argument)\"\n    ]\n  }\n}\n```",
+   "model": "open-mistral-nemo"
+  },
+  "Groq": {
+   "structure_score": 3,
+   "summary_up_top": {
+    "present": true,
+    "suggest": "Start with a one‑sentence TL;DR that states the core paradox: maize commands the highest ethanol price but acreage fell sharply this season."
+   },
+   "edits": [
+    {
+     "where": "para 6",
+     "type": "split-paragraph",
+     "why": "The paragraph exceeds 130 words, making it dense for mobile readers.",
+     "how": "Break after the sentence ending with “Per…”, creating two paragraphs of ~70 words each."
+    },
+    {
+     "where": "para 7",
+     "type": "split-paragraph",
+     "why": "Long paragraph with detailed data interrupts flow on small screens.",
+     "how": "Insert a line break before the sentence that introduces the UPAg 2025‑26 row, forming two balanced paragraphs."
+    },
+    {
+     "where": "para 11",
+     "type": "to-list",
+     "why": "A chronological growth narrative reads better as a bullet list on phones.",
+     "how": "Convert the sentences describing the rise from zero to 500 cr L into a three‑point list, each point with a year and volume."
+    },
+    {
+     "where": "para 13",
+     "type": "split-paragraph",
+     "why": "192‑word paragraph is too long for quick scanning.",
+     "how": "Divide after the first major idea (competition with other crops) and start a new paragraph for the discussion of policy and market dynamics."
+    },
+    {
+     "where": "₹71.86 a Litre: Why Maize Is India's Priciest Ethanol Feedstock, Even as This Season's Acreage Falls",
+     "type": "add-heading",
+     "why": "The opening table of crop acreage is buried in text, hard to locate on a phone.",
+     "how": "Insert a level‑3 subheading “Crop acreage snapshot” just before the table."
+    },
+    {
+     "where": "opening",
+     "type": "to-table",
+     "why": "The four‑crop acreage data is presented as plain text, which is hard to scan on narrow screens.",
+     "how": "Replace the inline text with a responsive 5‑column table (Crop, Season, Latest acreage, Prior year, Change)."
+    },
+    {
+     "where": "What would fix this",
+     "type": "move",
+     "why": "The boxed note currently appears before the section, breaking the narrative flow.",
+     "how": "Shift the gb‑card box to the end of the “What would fix this” section, after the final paragraph."
+    },
+    {
+     "where": "₹71.86 a Litre: Why Maize Is India's Priciest Ethanol Feedstock, Even as This Season's Acreage Falls",
+     "type": "shorten-heading",
+     "why": "The H1 is lengthy, causing truncation on small screens.",
+     "how": "Trim to “Why Maize Is India’s Priciest Ethanol Feedstock” while keeping the price detail in a sub‑heading or lead sentence."
+    }
+   ],
+   "ad_breaks": {
+    "good": [
+     "₹71.86 a Litre: Why Maize Is India's Priciest Ethanol Feedstock, Even as This Season's Acreage Falls",
+     "Crop acreage snapshot",
+     "What would fix this"
+    ],
+    "avoid": [
+     "para 6 (mid‑paragraph)",
+     "para 7 (mid‑paragraph)",
+     "inside any table or chart"
+    ]
+   },
+   "model": "openai/gpt-oss-120b"
+  }
+ }
+}

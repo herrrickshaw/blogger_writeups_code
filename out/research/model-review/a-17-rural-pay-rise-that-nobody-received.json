@@ -1,0 +1,131 @@
+{
+ "slug": "a-17-rural-pay-rise-that-nobody-received",
+ "outline": "3161 words in 38 paragraphs; 2 tables; 3 charts/images; 3 boxed notes\nH1: A 17% Rural Pay Rise That Nobody Received  [50 words in paragraphs and lists]\n    [chart: svg]\n    [box: gb-card]\n    [chart: img]\n    [box: warn]\n  H2: The month rural India got a 12.7 per cent raise  [156 words in paragraphs and lists]\n    [chart: svg]\n  H2: What actually changed  [147 words in paragraphs and lists]\n    [table: 3 cols x 7 rows]\n  H2: Why a bigger sample made wages look bigger  [168 words in paragraphs and lists]\n  H2: The trend underneath  [166 words in paragraphs and lists]\n  H2: Why a sampling note becomes a pay cut  [536 words in paragraphs and lists]\n  H2: The scheme that pays the wage has just been replaced  [388 words in paragraphs and lists]\n    [table: 3 cols x 7 rows]\n    para 25: 130 words (long) — The reserved no-work window is the most interesting provision on that table,...\n  H2: The other half of the transfer: cash  [327 words in paragraphs and lists]\n  H2: What would fix this  [230 words in paragraphs and lists]\n  H2: What this piece could not establish  [928 words in paragraphs and lists]\n    [box: gb-card]\n    para 37: 684 words (long) — The CPI-AL and CPI-RL base revision from 1986-87 to 2019 = 100...",
+ "models": {
+  "Gemini": {
+   "structure_score": 2,
+   "summary_up_top": {
+    "present": true,
+    "suggest": ""
+   },
+   "edits": [
+    {
+     "where": "H2: What this piece could not establish",
+     "type": "split-section",
+     "why": "At 928 words and 684-word paragraphs, this section is far too long for mobile scanning and risks breaking auto-ads inside monolithic text blocks.",
+     "how": "Insert subheadings every 250-300 words to break up the text."
+    },
+    {
+     "where": "para 37",
+     "type": "split-paragraph",
+     "why": "A single 684-word paragraph is exhausting on a mobile screen.",
+     "how": "Break this massive paragraph into at least four smaller paragraphs at logical thematic breaks."
+    },
+    {
+     "where": "H2: Why a sampling note becomes a pay cut",
+     "type": "split-section",
+     "why": "At 536 words, this section is too long for a single mobile screenful between ads.",
+     "how": "Add a descriptive subheading halfway through to create a natural pause."
+    },
+    {
+     "where": "opening",
+     "type": "move",
+     "why": "Site navigation crumbs, audio players, and font-size widgets appear before the H1 title and core summary, pushing the actual story below the fold on mobile.",
+     "how": "Move all UI clutter, breadcrumbs, and audio widgets below the H1 and initial summary paragraph."
+    },
+    {
+     "where": "para 25",
+     "type": "split-paragraph",
+     "why": "A 130-word paragraph is slightly dense for fast mobile reading.",
+     "how": "Split into two paragraphs."
+    }
+   ],
+   "ad_breaks": {
+    "good": [
+     "H2: What actually changed",
+     "H2: The trend underneath",
+     "H2: The other half of the transfer: cash"
+    ],
+    "avoid": [
+     "H2: What this piece could not establish",
+     "H2: Why a sampling note becomes a pay cut"
+    ]
+   },
+   "model": "gemini-flash-lite-latest"
+  },
+  "Mistral": {
+   "raw": "```json\n{\n  \"structure_score\": 3,\n  \"summary_up_top\": {\n    \"present\": false,\n    \"suggest\": \"Open with a punchy one-liner summarizing the core issue (e.g., *'India’s rural wage data just got a 17% “raise”—but it’s all a statistical swap no one noticed.'*)\"\n  },\n  \"edits\": [\n    {\n      \"where\": \"opening\",\n      \"type\": \"shorten-heading\",\n      \"why\": \"The H1 is already punchy but could be more direct to hook mobile readers immediately.\",\n      \"how\": \"Change to: *'India’s Rural Wages Just Got a 17% “Raise”—But It’s All a Statistical Swap'*\"\n    },\n    {\n      \"where\": \"opening\",\n      \"type\": \"split-section\",\n      \"why\": \"The first 400 words mix context, data, and narrative—mobile readers lose focus.\",\n      \"how\": \"Split into two sections:\n        1. **Hook (100 words)**: The punchy headline + 1-sentence summary of the core issue + the chart (svg) + 1 line of context (e.g., *'This isn’t a real wage hike—it’s a data error that affects 10 crore workers.'*).\n        2. **Context (300 words)**: The rest of the opening text (starting with *'What changed was the sample...'*), but move the **‘Updated 26 October 2026’** timestamp to the end of this section (after the first chart).\"\n    },\n    {\n      \"where\": \"H2: The month rural India got a 12.7 per cent raise\",\n      \"type\": \"split-paragraph\",\n      \"why\": \"The 156-word block is dense with numbers and transitions—mobile readers skim past key details.\",\n      \"how\": \"Break into two paragraphs:\n        - **Para 1 (80 words)**: Start with the **₹454→₹511 jump** (bold the numbers) + the **1-month context** (why this matters). End with: *'But here’s the catch...'*\n        - **Para 2 (76 words)**: The **17% YoY spike** + transition to the sample change (keep the chart reference).\"\n    },\n    {\n      \"where\": \"H2: What actually changed\",\n      \"type\": \"add-heading\",\n      \"why\": \"The table (3x7) is critical but buried in a dense paragraph. A subheading clarifies its role.\",\n      \"how\": \"Add a subheading **‘The new vs. old village samples (table below)’** before the table.\"\n    },\n    {\n      \"where\": \"H2: Why a bigger sample made wages look bigger\",\n      \"type\": \"to-list\",\n      \"why\": \"The 168-word explanation of sampling bias is hard to parse on mobile.\",\n      \"how\": \"Convert the key points (e.g., *'The new sample included more high-wage states'*, *'The old sample was skewed toward lower-wage regions'*) into a **3-bullet list** with visual icons (e.g., 📍 for regions, 📊 for stats).\"\n    },\n    {\n      \"where\": \"H2: The scheme that pays the wage has just been replaced\",\n      \"type\": \"split-section\",\n      \"why\": \"Para 25 (130 words) is a dense explanation of the **reserved no-work window**—mobile readers tune out.\",\n      \"how\": \"Split into:\n        - **Para 1 (70 words)**: Start with: *'The MGNREGA wage system is being overhauled—but the new rules create a hidden pay cut...'*\n        - **Para 2 (60 words)**: Focus on the **reserved no-work window** (bold the key term) + its impact. End with: *'This change, combined with the sample swap, explains why...'*\n        Add a **subheading**: **‘How MGNREGA’s new rules cut wages (even before the sample change)’** before this section.\"\n    },\n    {\n      \"where\": \"H2: What this piece could not establish\",\n      \"type\": \"split-section\",\n      \"why\": \"Para 37 (684 words) is a wall of text—mobile readers abandon ship.\",\n      \"how\": \"Break into:\n        - **Para 1 (200 words)**: Start with: *'We can’t prove X, Y, or Z—but here’s what we *can* confirm...'* (bold the confirmable points).\n        - **Para 2 (484 words)**: Move the **CPI-AL/CPI-RL base revision** box to here (after the first 200 words) as a **subheading**: **‘The unannounced price-index shift (boxed note below)’**.\n        Add a **‘Key Takeaways’** subheading before the final paragraph to summarize the 3 unanswered questions in **3 bullets**.\"\n    },\n    {\n      \"where\": \"boxed notes\",\n      \"type\": \"merge\",\n      \"why\": \"The two **gb-card** boxes (H1 and H2: *What this piece could not establish*) are repetitive—mobile readers see them as clutter.\",\n      \"how\": \"Combine them into **one box** with a unified heading: **‘What we don’t know—and why it matters’**, and merge their contents (prioritize the *What this piece could not establish* box’s questions). Place it **after H2: The scheme that pays the wage has just been replaced** (where the data gaps are most relevant).\"\n    }\n  ],\n  \"ad_breaks\": {\n    \"good\": [\n      \"H2: The trend underneath\",\n      \"H2: The other half of the transfer: cash\",\n      \"H2: What would fix this\"\n    ],\n    \"avoid\": [\n      \"H2: What actually changed (table section)\",\n      \"H2: Why a bigger sample made wages look bigger (list conversion)\",\n      \"H2: The scheme that pays the wage has just been replaced (para 25 split-section)\",\n      \"H2: What this piece could not establish (para 37 split-section)\",\n      \"boxed notes (merged box)\"\n    ]\n  }\n}\n```",
+   "model": "open-mistral-nemo"
+  },
+  "Groq": {
+   "structure_score": 3,
+   "summary_up_top": {
+    "present": false,
+    "suggest": "Begin with a one‑sentence hook that tells readers the reported 17% rural wage rise is a statistical illusion caused by an unannounced sample swap."
+   },
+   "edits": [
+    {
+     "where": "opening",
+     "type": "split-paragraph",
+     "why": "The first 400‑word block mixes navigation, chart embeds, and narrative, overwhelming phone readers.",
+     "how": "Create a short 2‑sentence lead that states the main finding, then start a new paragraph for the chart and box elements."
+    },
+    {
+     "where": "para 37",
+     "type": "split-section",
+     "why": "A 684‑word paragraph kills scroll depth on mobile and hides key points.",
+     "how": "Break it into 4–5 shorter paragraphs, each with a sub‑heading (e.g., “Data limitations”, “Methodological gaps”, “Implications for policy”)."
+    },
+    {
+     "where": "para 25",
+     "type": "split-paragraph",
+     "why": "130‑word paragraph is dense and contains a distinct idea about the “no‑work window”.",
+     "how": "Insert a line break after the first sentence, making the remainder a separate paragraph."
+    },
+    {
+     "where": "What this piece could not establish",
+     "type": "add-heading",
+     "why": "The 928‑word section is a catch‑all; sub‑headings will help mobile scanning.",
+     "how": "Add two sub‑headings inside this section: “Unresolved data questions” and “Areas for future research”, and split the text accordingly."
+    },
+    {
+     "where": "Why a bigger sample made wages look bigger",
+     "type": "to-list",
+     "why": "The paragraph contains a series of bullet‑style points that are easier to read as a list on phones.",
+     "how": "Convert the enumerated explanations into a markdown‑style bullet list."
+    },
+    {
+     "where": "The scheme that pays the wage has just been replaced",
+     "type": "move",
+     "why": "The long explanatory paragraph follows a table, making the flow hard to follow on small screens.",
+     "how": "Move the 130‑word paragraph to appear before the table, introducing the table with a brief lead‑in sentence."
+    },
+    {
+     "where": "What actually changed",
+     "type": "add-heading",
+     "why": "The table is the only content under this heading; a brief intro heading clarifies its purpose.",
+     "how": "Insert a one‑sentence introductory paragraph titled “Key metric changes” before the table."
+    },
+    {
+     "where": "The other half of the transfer: cash",
+     "type": "shorten-heading",
+     "why": "The heading is long and may be truncated on mobile.",
+     "how": "Change the heading to “Cash component of the transfer”."
+    }
+   ],
+   "ad_breaks": {
+    "good": [
+     "Why a bigger sample made wages look bigger",
+     "The trend underneath",
+     "What would fix this"
+    ],
+    "avoid": [
+     "What actually changed",
+     "The scheme that pays the wage has just been replaced",
+     "The other half of the transfer: cash"
+    ]
+   },
+   "model": "openai/gpt-oss-120b"
+  }
+ }
+}

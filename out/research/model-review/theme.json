@@ -1,0 +1,173 @@
+{
+ "models": {
+  "Gemini": {
+   "changes": [
+    {
+     "area": "readability",
+     "problem": "18 posts use a one-off grey note class (.mp-note, .et-note, .tr-note) falling below WCAG AA contrast standards.",
+     "change": "#Blog1 .post-body :is(.mp-note, .et-note, .tr-note) { color: #5f6871; }",
+     "risk": "Could slightly alter the author's intended hue for customized callout blocks."
+    },
+    {
+     "area": "mobile",
+     "problem": "18 posts feature a content column narrower than 300px on phones due to a rigid padded outer wrapper.",
+     "change": "@media (max-width: 640px) { #Blog1 .post-wrapper, #Blog1 .wrap { padding-left: 12px !important; padding-right: 12px !important; box-sizing: border-box; } }",
+     "risk": "Might slightly reduce margins on specific deeply-nested legacy post templates."
+    },
+    {
+     "area": "tables",
+     "problem": "Per-table issues like 27-column tables and headerless layouts degrade tabular data readability on small viewports.",
+     "change": "#Blog1 .post-body table.gs-t td, #Blog1 .post-body table.gs-t th { font-size: 0.8rem; padding: 0.35rem 0.5rem !important; }",
+     "risk": "Dense tables with smaller text may become slightly harder to scan for readers with low vision."
+    },
+    {
+     "area": "readability",
+     "problem": "Fine print, disclaimers, and source notes sit below 15px across 365 posts, reducing legibility for phone readers.",
+     "change": "#Blog1 .post-body :is(.source-note, .disclaimer, small) { font-size: 0.9rem; line-height: 1.4; }",
+     "risk": "Increases overall vertical length of posts containing extensive footnotes."
+    }
+   ],
+   "keep": [
+    "gs-scope-chrome-v1",
+    "gs-table-template-v1",
+    "gs-readable-v1",
+    "gs-content-guard-v2"
+   ],
+   "model": "gemini-flash-lite-latest"
+  },
+  "Mistral": {
+   "changes": [
+    {
+     "area": "readability",
+     "problem": "Long links and file paths still cause horizontal overflow on mobile despite `overflow-wrap: anywhere` on links.",
+     "change": "#Blog1 .post-body a[href^='data:'], #Blog1 .post-body a[href*='/files/'], #Blog1 .post-body a[href*='.pdf'], #Blog1 .post-body a[href*='.csv'] { word-break: break-all; }",
+     "risk": "May break links with special characters (e.g., `&`, `#`) if not already handled by `overflow-wrap: anywhere`"
+    },
+    {
+     "area": "readability",
+     "problem": "WCAG AA contrast (4.5:1) not met for fine-print disclaimers (15px or smaller) in 365 posts.",
+     "change": "#Blog1 .post-body .fine-print, #Blog1 .post-body .small-text { color: #333; } /* Override post-specific low-contrast classes */",
+     "risk": "Could clash with posts using custom fine-print styling (e.g., dark mode). Test on 5% of posts first."
+    },
+    {
+     "area": "ads",
+     "problem": "Ads in narrow content columns (<300px) on mobile appear unusable (too small for tap targets).",
+     "change": "#Blog1 .post-body .google-auto-placed { min-height: 120px; max-width: 100%; } /* Force minimum ad size */",
+     "risk": "May cause layout shifts if ads expand beyond container. Test with `will-change: transform` on ads."
+    },
+    {
+     "area": "tables",
+     "problem": "Tables with >27 columns still lack horizontal scrolling on mobile (ragged rows).",
+     "change": "#Blog1 .post-body table.gs-t.gs-wide { min-width: 100%; overflow-x: auto; } /* Force scroll for wide tables */",
+     "risk": "Could break tables with fixed-width headers if not already wrapped in `.gs-tblwrap`"
+    },
+    {
+     "area": "mobile",
+     "problem": "Accessibility toolbar (side-by-side row) breaks ad placement, causing ads to appear clipped.",
+     "change": "#Blog1 .post-body .accessibility-toolbar { display: block; margin: 1rem 0; } /* Stack vertically on mobile */",
+     "risk": "May hide toolbar icons if not already mobile-responsive. Test with `flex-direction: column` fallback."
+    },
+    {
+     "area": "ads",
+     "problem": "Ads directly under headings are moved *above* headings, breaking visual flow.",
+     "change": "/* Modify `gs-content-guard-v2` to append ads *after* headings instead of before */\n// Replace:\nprev.parentNode.insertBefore(ad, prev);\n// With:\nif (prev && /^H[2-4]$/.test(prev.tagName)) prev.parentNode.insertBefore(ad, prev.nextSibling);",
+     "risk": "AdSense may flag this as a placement change. Monitor for policy violations."
+    },
+    {
+     "area": "readability",
+     "problem": "List items still exceed 95 characters in 51 posts (despite `max-width: 64ch`).",
+     "change": "#Blog1 .post-body ol li, #Blog1 .post-body ul li { hyphens: auto; } /* Enable hyphenation for long list items */",
+     "risk": "Hyphenation may not work for all languages or fonts. Test with `font-family: Georgia, serif` fallback."
+    },
+    {
+     "area": "mobile",
+     "problem": "Code blocks overflow horizontally on phones, pushing content sideways.",
+     "change": "#Blog1 .post-body pre { font-size: 0.85rem; line-height: 1.3; } /* Reduce code block density */",
+     "risk": "May reduce readability for small code snippets. Test with `min-height: 120px` for monospace."
+    },
+    {
+     "area": "ads",
+     "problem": "Ads in multi-column grids (stat tiles) appear disjointed from content.",
+     "change": "#Blog1 .post-body .google-auto-placed:not(:has(ins[data-ad-status='filled'])) { margin: 0.5rem 0; } /* Add spacing for empty ads */",
+     "risk": "Could increase perceived ad density. Test with `opacity: 0.1` for empty states."
+    },
+    {
+     "area": "readability",
+     "problem": "Sticky header cuts off section links by 76px (desktop), but mobile users still scroll under headings.",
+     "change": "@media (max-width: 640px) { #Blog1 .post-body [id] { scroll-margin-top: 40px; } } /* Smaller margin for mobile */",
+     "risk": "May cause links to appear under header on very short posts. Test with `min-height: 100px` fallback."
+    }
+   ],
+   "keep": [
+    "gs-scope-chrome-v1",
+    "Because it correctly scopes homepage styles (`.hero`, `.wrap`, `.card`) to the homepage only, preventing post contamination."
+   ],
+   "model": "open-mistral-nemo"
+  },
+  "Groq": {
+   "changes": [
+    {
+     "area": "mobile|readability",
+     "problem": "18 posts have a content wrapper narrower than 300 px on phones, causing ads and text to be cramped.",
+     "change": "#Blog1 .post-body { min-width: 300px; }",
+     "risk": "If a post uses a custom narrow column for design, it will be forced wider, which may affect layout but improves readability and ad visibility."
+    },
+    {
+     "area": "ads|mobile",
+     "problem": "Auto‑ads containers can be narrower than 300 px on phones, making the ad unit look broken.",
+     "change": ".post-body .google-auto-placed { min-width: 300px; max-width: 100%; margin: 1rem 0; }",
+     "risk": "Adds horizontal margin that may slightly increase page length; does not affect ad serving."
+    },
+    {
+     "area": "readability|ads",
+     "problem": "Custom note classes (.mp-note, .et-note, .tr-note) have insufficient contrast (3.0–3.9:1).",
+     "change": ".post-body .mp-note, .post-body .et-note, .post-body .tr-note { color: #5f6871 !important; }",
+     "risk": "Overrides author‑chosen note colors; may alter visual hierarchy but brings contrast to WCAG AA."
+    },
+    {
+     "area": "readability|mobile",
+     "problem": "Long words inside list items can still cause horizontal overflow on phones.",
+     "change": "#Blog1 .post-body li { overflow-wrap: anywhere; }",
+     "risk": "None – only affects wrapping behavior."
+    },
+    {
+     "area": "readability|mobile",
+     "problem": "Fine‑print and disclaimer text (often <15 px) can exceed the 64 ch measure, leading to very long lines on desktop.",
+     "change": "#Blog1 .post-body small, #Blog1 .post-body .fine-print { max-width: var(--measure); }",
+     "risk": "May wrap text earlier than author intended; improves line length consistency."
+    },
+    {
+     "area": "readability|mobile",
+     "problem": "Code blocks with long lines cause horizontal scrolling despite overflow‑x:auto on <pre>.",
+     "change": "#Blog1 .post-body pre code { overflow-wrap: anywhere; word-break: break-word; }",
+     "risk": "None – only changes wrapping inside code snippets."
+    },
+    {
+     "area": "ads|readability",
+     "problem": "Auto‑ads placed directly after a heading can appear too close to the heading, reducing visual separation.",
+     "change": ".post-body .google-auto-placed { margin-top: 0.75rem; margin-bottom: 0.75rem; }",
+     "risk": "Adds extra vertical space; may affect ad density but improves readability."
+    },
+    {
+     "area": "readability|mobile",
+     "problem": "Blockquotes inherit the 64 ch max‑width but their inner paragraphs can still exceed optimal line length on large screens.",
+     "change": "#Blog1 .post-body blockquote p { max-width: var(--measure); }",
+     "risk": "Minimal – only affects blockquote text width."
+    },
+    {
+     "area": "readability|tables",
+     "problem": "Table captions can be long and push the table width beyond the column on small screens.",
+     "change": "#Blog1 .post-body table.gs-t caption { display: block; width: 100%; word-break: break-word; }",
+     "risk": "May wrap caption text earlier; improves table layout on narrow viewports."
+    }
+   ],
+   "keep": [
+    "gs-scope-chrome-v1 – isolates homepage styles (.hero, .wrap, .card) so they no longer leak into post content.",
+    "gs-table-template-v1 – provides a consistent, readable table style and already moves ads out of tables.",
+    "gs-readable-v1 – caps line length, fixes long‑word overflow, improves contrast and heading scroll margin.",
+    "gs-content-guard-v2 – moves Auto‑ads out of tables, lists, figures, code blocks, collapsible sections, grids, and boxed notes, preventing ads from breaking content structures."
+   ],
+   "model": "openai/gpt-oss-120b"
+  }
+ }
+}

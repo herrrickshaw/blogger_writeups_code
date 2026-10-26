@@ -1,0 +1,136 @@
+{
+ "slug": "ahidf-has-sanctioned-19751-crore-in",
+ "outline": "1602 words in 20 paragraphs; 1 tables; 2 charts/images; 5 boxed notes\nH1: AHIDF Has Sanctioned ₹19,751 Crore in Animal-Husbandry Loans. Only 39% of It Has Reached a Bank Account.  [31 words in paragraphs and lists]\n    [chart: svg]\n    [chart: img]\n    [box: stat]\n    (x4)\n  H2: What AHIDF actually funds  [216 words in paragraphs and lists]\n    para 5: 120 words (long) — The Department of Animal Husbandry and Dairying runs AHIDF as a credit-enhancement...\n  H2: The disbursement funnel is steep, and it doesn't fully square with the last PIB update  [325 words in paragraphs and lists]\n    para 8: 155 words (long) — In a written Rajya Sabha reply on 6 August 2025, the ministry...\n    para 9: 125 words (long) — Of the ₹19,750.8 crore sanctioned, only ₹7,770.4 crore — 39% — has...\n    [table: 4 cols x 5 rows]\n  H2: Where the applications are concentrated  [155 words in paragraphs and lists]\n    [box: note]\n  H2: Why a credit guarantee, specifically, is the right tool here  [508 words in paragraphs and lists]\n    para 15: 191 words (long) — Joseph Stiglitz and Andrew Weiss's classic 1981 paper on credit rationing shows...\n    para 17: 141 words (long) — AHIDF is one of three credit routes into the livestock sector already...\n  H2: What would fix this  [256 words in paragraphs and lists]",
+ "models": {
+  "Gemini": {
+   "structure_score": 2,
+   "summary_up_top": {
+    "present": true,
+    "suggest": ""
+   },
+   "edits": [
+    {
+     "where": "opening",
+     "type": "add-heading",
+     "why": "The H1 is followed immediately by two charts and four stat boxes before any sub-heading, making the post start below the fold on mobile.",
+     "how": "Insert an H2 before the first chart to create a natural landing point and break up the heavy metadata block."
+    },
+    {
+     "where": "para 5",
+     "type": "split-paragraph",
+     "why": "At 120 words, this paragraph is too long for comfortable mobile reading.",
+     "how": "Split para 5 into two paragraphs after the first major sentence about the credit-enhancement mechanism."
+    },
+    {
+     "where": "para 8",
+     "type": "split-paragraph",
+     "why": "At 155 words, this paragraph creates a wall of text on mobile screens.",
+     "how": "Split para 8 into two paragraphs at the transition between the Rajya Sabha reply details and the ministry's explanation."
+    },
+    {
+     "where": "para 9",
+     "type": "split-paragraph",
+     "why": "At 125 words detailing complex financial figures, the paragraph strains mobile readability.",
+     "how": "Split para 9 into two paragraphs, separating the core statistic from the contextual analysis."
+    },
+    {
+     "where": "para 15",
+     "type": "split-paragraph",
+     "why": "At 191 words, this paragraph analyzing Joseph Stiglitz and Andrew Weiss's paper is far too dense for a phone screen.",
+     "how": "Split para 15 into three shorter paragraphs at logical conceptual breaks."
+    },
+    {
+     "where": "para 17",
+     "type": "split-paragraph",
+     "why": "At 141 words, this paragraph mixes multiple credit routes into one long block.",
+     "how": "Split para 17 into two paragraphs to separate the general policy context from the specific AHIDF comparison."
+    }
+   ],
+   "ad_breaks": {
+    "good": [
+     "What AHIDF actually funds",
+     "Where the applications are concentrated",
+     "What would fix this"
+    ],
+    "avoid": [
+     "The disbursement funnel is steep, and it doesn't fully square with the last PIB update",
+     "Why a credit guarantee, specifically, is the right tool here"
+    ]
+   },
+   "model": "gemini-flash-lite-latest"
+  },
+  "Mistral": {
+   "raw": "```json\n{\n  \"structure_score\": 3,\n  \"summary_up_top\": {\n    \"present\": false,\n    \"suggest\": \"Start with a concise, punchy hook: *‘The Animal Husbandry Infrastructure Development Fund (AHIDF) has sanctioned ₹19,751 crore—but only ₹7,770 crore (39%) has reached borrowers, exposing a critical gap in India’s dairy and livestock infrastructure funding.’*\"\n  },\n  \"edits\": [\n    {\n      \"where\": \"opening\",\n      \"type\": \"shorten-heading\",\n      \"why\": \"The H1 is too long for mobile skimmers; prioritize the core discrepancy (sanctioned vs. disbursed) and the sector (animal husbandry).\",\n      \"how\": \"Trim to: *‘AHIDF’s ₹19,751 Crore Loan Gap: Only 39% of Sanctioned Animal-Husbandry Funds Reach Borrowers’*\"\n    },\n    {\n      \"where\": \"opening\",\n      \"type\": \"split-section\",\n      \"why\": \"The first 400 words mix data, explanation, and narrative without clear visual breaks for mobile readers.\",\n      \"how\": \"Split into two sections:\n        1. **Hook + Key Stat (100 words)**: Start with the 39% gap, the ₹19,751 crore figure, and the AHIDF dashboard link (as a visual teaser). End with: *‘But how does this scheme work—and why is so little reaching the ground?’*\n        2. **How AHIDF Works (200 words)**: Move the ‘3%-subsidised, 90%-loan-to-cost’ line and Udyami Mitra portal detail here, followed by the chart/image of the pipeline stages (filed → eligible → sanctioned → disbursed).\"\n    },\n    {\n      \"where\": \"H2: What AHIDF actually funds\",\n      \"type\": \"split-paragraph\",\n      \"why\": \"Para 5 (120 words) is dense with eligibility criteria; mobile readers lose context.\",\n      \"how\": \"Split into:\n        - **Para 5a (50 words)**: *‘AHIDF targets private investment in dairy plants, meat processing, animal feed, and veterinary units. Eligible borrowers include entrepreneurs, FPOs, MSMEs, and—since 2024—dairy cooperatives.’*\n        - **Para 5b (70 words)**: *‘The scheme offers a 90% loan-to-cost ratio with a 3% subsidy, routed through SIDBI’s Udyami Mitra portal. Here’s how the application pipeline works…’* (link to chart below).\"\n    },\n    {\n      \"where\": \"H2: The disbursement funnel is steep\",\n      \"type\": \"add-heading\",\n      \"why\": \"Para 8 (155 words) introduces the PIB reply but lacks a clear transition from the table to the government’s claims.\",\n      \"how\": \"Add a subheading after the table: **‘Government Claims vs. Dashboard Reality’** before para 8.\"\n    },\n    {\n      \"where\": \"H2: Where the applications are concentrated\",\n      \"type\": \"to-list\",\n      \"why\": \"The 155 words describe regional trends without visual hierarchy for mobile.\",\n      \"how\": \"Convert the key data (e.g., *‘Uttar Pradesh accounts for 22% of applications…’*) into a **2-column list** with states and percentages, paired with a mini-chart or icon for visual scanning.\"\n    },\n    {\n      \"where\": \"H2: Why a credit guarantee, specifically, is the right tool here\",\n      \"type\": \"split-section\",\n      \"why\": \"Para 15 (191 words) and para 17 (141 words) are back-to-back academic/analytical blocks without mobile-friendly breaks.\",\n      \"how\": \"Split into:\n        - **Subheading**: *‘Credit Guarantees: The Theory’* (para 15)\n        - **Subheading**: *‘AHIDF in Context: Why This Scheme?’* (para 17)\n        Add a **‘Key Takeaway’ box** after para 17: *‘AHIDF’s guarantee model is designed to address asymmetric information in the livestock sector—but implementation lags.’*\"\n    },\n    {\n      \"where\": \"H2: What would fix this\",\n      \"type\": \"shorten-heading\",\n      \"why\": \"The heading is vague; mobile readers need to know *what specific fixes* are proposed.\",\n      \"how\": \"Trim to: *‘3 Fixes to Close AHIDF’s Disbursement Gap’*\"\n    },\n    {\n      \"where\": \"para 19 (under H2: What would fix this)\",\n      \"type\": \"to-list\",\n      \"why\": \"The 50-word solutions are buried in prose; mobile readers miss them.\",\n      \"how\": \"Convert the 3 fixes into a **bullet list** with icons (e.g., 🔍 for *‘Streamline eligibility checks’*), followed by a brief explanation (20 words max per point).\"\n    }\n  ],\n  \"ad_breaks\": {\n    \"good\": [\n      \"after H2: The disbursement funnel is steep (post-table)\",\n      \"after H2: Where the applications are concentrated (post-list/chart)\"\n    ],\n    \"avoid\": [\n      \"between para 8 and para 9 (mid-argument split)\",\n      \"after the Stiglitz/Weiss quote in para 15 (breaks academic flow)\",\n      \"before the ‘Key Takeaway’ box under H2: Why a credit guarantee...\",\n      \"after the opening chart/image (interrupts the 39% gap hook)\"\n    ]\n  }\n}\n```",
+   "model": "open-mistral-nemo"
+  },
+  "Groq": {
+   "structure_score": 2,
+   "summary_up_top": {
+    "present": true,
+    "suggest": "Begin with a one‑sentence takeaway that only 39 % of the ₹19.75 crore sanctioned by AHIDF has actually been disbursed."
+   },
+   "edits": [
+    {
+     "where": "opening",
+     "type": "split-section",
+     "why": "The opening mixes a summary, navigation links, and raw data, making it hard to scan on a phone.",
+     "how": "Create a short 1‑2 sentence lead paragraph with the key takeaway, then move the dashboard stats into a separate “Key numbers at a glance” boxed list."
+    },
+    {
+     "where": "What AHIDF actually funds",
+     "type": "split-paragraph",
+     "why": "Paragraph 5 is 120 words and bundles description with eligibility details.",
+     "how": "Break it after the sentence ending “…credit‑enhancement scheme, not a grant:” and start a new paragraph that lists eligible borrower types as bullet points."
+    },
+    {
+     "where": "The disbursement funnel is steep, and it doesn't fully square with the last PIB update",
+     "type": "split-paragraph",
+     "why": "Paragraph 8 (155 words) overloads the reader before the table appears.",
+     "how": "Insert a paragraph break after the first 80 words, ending before the quote from the Rajya Sabha reply, so the table follows a shorter lead‑in."
+    },
+    {
+     "where": "The disbursement funnel is steep, and it doesn't fully square with the last PIB update",
+     "type": "to-table",
+     "why": "Paragraph 9 repeats numeric breakdown that is better visualised.",
+     "how": "Replace the paragraph with a two‑column table (Stage | Amount) summarising sanctioned, eligible, and disbursed figures; keep a brief caption."
+    },
+    {
+     "where": "Why a credit guarantee, specifically, is the right tool here",
+     "type": "add-heading",
+     "why": "The 508‑word section is dense and covers two distinct ideas.",
+     "how": "Insert a sub‑heading “Theoretical justification (Stiglitz & Weiss)” before paragraph 15 and another sub‑heading “Current credit routes in livestock” before paragraph 17."
+    },
+    {
+     "where": "Why a credit guarantee, specifically, is the right tool here",
+     "type": "to-list",
+     "why": "Paragraph 15 (191 words) explains a theory that can be skimmed.",
+     "how": "Convert the main points of the Stiglitz‑Weiss argument into a 4‑item bullet list under the new sub‑heading."
+    },
+    {
+     "where": "What would fix this",
+     "type": "add-heading",
+     "why": "A concluding “Key takeaways” helps mobile readers capture the article’s recommendations.",
+     "how": "Insert a level‑3 heading “Key takeaways” right before the final paragraph, and list the three most actionable fixes as bullet points."
+    },
+    {
+     "where": "para 17",
+     "type": "shorten-heading",
+     "why": "The heading is long and may be truncated on small screens.",
+     "how": "Rename “Why a credit guarantee, specifically, is the right tool here” to “Why a credit guarantee is the right tool”."
+    }
+   ],
+   "ad_breaks": {
+    "good": [
+     "What AHIDF actually funds",
+     "Where the applications are concentrated",
+     "What would fix this"
+    ],
+    "avoid": [
+     "The disbursement funnel is steep, and it doesn't fully square with the last PIB update",
+     "Why a credit guarantee, specifically, is the right tool here"
+    ]
+   },
+   "model": "openai/gpt-oss-120b"
+  }
+ }
+}

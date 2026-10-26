@@ -1,0 +1,120 @@
+{
+ "slug": "ai-high-demand-launch-tracker",
+ "outline": "653 words in 7 paragraphs; 0 tables; 2 charts/images; 1 boxed notes\nH1: OpenAI Shipped GPT-6 and Agents That Keep Working After You Log Off. Google Kept Its Best Model for Cyber Defenders.  [16 words in paragraphs and lists]\n    [chart: svg]\n    [chart: img]\n  H2: Consistency & methodology notes  [529 words in paragraphs and lists]\n    [box: note]",
+ "models": {
+  "Gemini": {
+   "structure_score": 1,
+   "summary_up_top": {
+    "present": false,
+    "suggest": "Add a one-sentence TL;DR at the very top explaining that this tracker refresh covers $690M in agent funding and new data sources."
+   },
+   "edits": [
+    {
+     "where": "opening",
+     "type": "move",
+     "why": "Navigation elements, text-size controls, audio players, and breadcrumbs are pushing the actual article content too far down on mobile screens.",
+     "how": "Move site navigation, metadata, and audio widgets below the main H1 headline and immediate opening summary."
+    },
+    {
+     "where": "H1: OpenAI Shipped GPT-6 and Agents That Keep Working After You Log Off. Google Kept Its Best Model for Cyber Defenders.",
+     "type": "add-heading",
+     "why": "The wall of text containing funding rounds and methodology notes lacks intermediate subheadings, making it exhausting to scroll through on a phone.",
+     "how": "Insert subheadings like 'H2: Fresh AI-Agent Infrastructure Funding' and 'H2: What Changed This Refresh' to break up the text blocks."
+    },
+    {
+     "where": "opening",
+     "type": "to-list",
+     "why": "Dense paragraphs detailing funding rounds ($550M Temporal, $90M Nous, $50M AIR) are hard to parse on small screens.",
+     "how": "Convert the paragraph listing the three funding rounds and their sources into a bulleted list."
+    },
+    {
+     "where": "H2: Consistency & methodology notes",
+     "type": "split-section",
+     "why": "This section holds 529 words under a single dry heading, causing massive scrolling fatigue on mobile.",
+     "how": "Split the section into smaller thematic H3 subheadings for data collection, verification rules, and recent changes."
+    }
+   ],
+   "ad_breaks": {
+    "good": [
+     "H2: Consistency & methodology notes"
+    ],
+    "avoid": [
+     "H1: OpenAI Shipped GPT-6 and Agents That Keep Working After You Log Off. Google Kept Its Best Model for Cyber Defenders."
+    ]
+   },
+   "model": "gemini-flash-lite-latest"
+  },
+  "Mistral": {
+   "raw": "```json\n{\n  \"structure_score\": 3,\n  \"summary_up_top\": {\n    \"present\": false,\n    \"suggest\": \"Summarize the *key* changes in this refresh (e.g., ‘This edition expands beyond GitHub to track funding rounds, product launches, and agent infrastructure—with new verification labels’) before the H1.\"\n  },\n  \"edits\": [\n    {\n      \"where\": \"opening\",\n      \"type\": \"shorten-heading\",\n      \"why\": \"The H1 is already punchy but the opening paragraph’s first sentence dilutes it by explaining *how* the tracker changed rather than *why* readers should care.\",\n      \"how\": \"Replace the opening paragraph’s first sentence with: ‘This edition expands beyond GitHub to track funding rounds, product launches, and agent infrastructure—with new verification labels to flag sources.’\"\n    },\n    {\n      \"where\": \"opening\",\n      \"type\": \"split-paragraph\",\n      \"why\": \"The first 400 words mix methodology, examples, and a funding round list. The reader loses sight of the *story* (GPT-6/Google’s model) in the noise.\",\n      \"how\": \"Move the **‘Fresh AI-Agent Infrastructure Funding’** list (including the $690M summary) to a dedicated **H2** *after* the H1, and condense the opening to 2 paragraphs: 1) the *why* of the refresh (new sources/methodology), 2) the *what* (GPT-6/Google’s model + Cloudflare’s update) before diving into details.\"\n    },\n    {\n      \"where\": \"H1\",\n      \"type\": \"shorten-heading\",\n      \"why\": \"The H1’s ‘Google Kept Its Best Model for Cyber Defenders’ feels like an afterthought. It should mirror the urgency of OpenAI’s GPT-6 announcement.\",\n      \"how\": \"Reorder to: ‘OpenAI Shipped GPT-6 and Agents That Keep Working After You Log Off. *Google’s Cyber-Defense Model Remains Hidden.* Fresh AI-Agent Funding Rounds: $690M in September–October.’\"\n    },\n    {\n      \"where\": \"H2: Consistency & methodology notes\",\n      \"type\": \"add-heading\",\n      \"why\": \"The ‘What changed this refresh’ bullet list (under H2) is a *separate* argument from the verification methodology. It breaks the flow of the methodology section.\",\n      \"how\": \"Insert a new **H2.5** (or **H3**) before the bullet list: ‘**Key Changes in This Refresh**’ to separate it from the verification notes.\"\n    },\n    {\n      \"where\": \"para 3 (under H2: Consistency & methodology notes)\",\n      \"type\": \"to-list\",\n      \"why\": \"The ‘Items are labelled Verified…’ explanation is dense and interrupts the flow of the methodology. Lists improve phone readability.\",\n      \"how\": \"Convert to a **bullet list** under the ‘Verification Labels’ heading (or create one if missing). Example:\n      - **Verified**: Data confirmed via GitHub or first-party press.\n      - **Reported**: Single aggregator/source with no direct confirmation.\"\n    },\n    {\n      \"where\": \"boxed note\",\n      \"type\": \"merge\",\n      \"why\": \"The boxed note (‘A small verified sample was checked first…’) duplicates info from the preceding paragraph. It’s redundant, not critical.\",\n      \"how\": \"Delete the boxed note entirely—its content is already covered in the ‘Consistency & methodology’ paragraph.\"\n    },\n    {\n      \"where\": \"para 5 (under H2: Consistency & methodology notes)\",\n      \"type\": \"shorten-heading\",\n      \"why\": \"The ‘What changed this refresh’ bullet list is buried under H2. It’s a *separate* section (like the funding rounds) and should stand out.\",\n      \"how\": \"Promote to a **dedicated H2.5** (or **H3**) with a clearer heading: ‘**New in This Refresh: Expanded Coverage and Verification**’\"\n    },\n    {\n      \"where\": \"chart: svg\",\n      \"type\": \"move\",\n      \"why\": \"The first chart (likely a methodology diagram) appears *after* the H1 but *before* the reader understands the context (what’s being tracked). It risks confusion.\",\n      \"how\": \"Move the **first chart** to **after the opening paragraph’s summary of changes** (right before the H2: Consistency & methodology notes).\"\n    }\n  ],\n  \"ad_breaks\": {\n    \"good\": [\n      \"after the opening paragraph’s summary of changes (before the first chart)\",\n      \"after the ‘Fresh AI-Agent Infrastructure Funding’ H2 (if created)\",\n      \"after the ‘Verification Labels’ list (under H2)\"\n    ],\n    \"avoid\": [\n      \"between the ‘What changed this refresh’ bullet list and the ‘Consistency & methodology’ paragraph (breaks argument flow)\",\n      \"after the boxed note (redundant section)\",\n      \"immediately after the first chart (interrupts context setup)\"\n    ]\n  }\n}\n```",
+   "model": "open-mistral-nemo"
+  },
+  "Groq": {
+   "structure_score": 3,
+   "summary_up_top": {
+    "present": false,
+    "suggest": "Start with a one‑sentence lead that tells readers the biggest news: OpenAI launched GPT‑6 and new persistent agents, while Google kept its top model for cyber‑defense."
+   },
+   "edits": [
+    {
+     "where": "H1",
+     "type": "shorten-heading",
+     "why": "The main title is overly long for quick scanning on a phone.",
+     "how": "Replace the current H1 with: \"OpenAI Releases GPT‑6; Google Holds Model for Cyber Defense\"."
+    },
+    {
+     "where": "opening",
+     "type": "split-paragraph",
+     "why": "The opening block is a wall of text that scrolls off‑screen quickly.",
+     "how": "Break after the sentence ending with \"...or comparable first‑party record\" to create a short lead paragraph, then start a new paragraph with the rest."
+    },
+    {
+     "where": "opening",
+     "type": "add-heading",
+     "why": "Readers need an immediate, scannable summary before the details.",
+     "how": "Insert a level‑3 heading \"Key Takeaways\" right after the new lead paragraph and place a one‑sentence summary underneath."
+    },
+    {
+     "where": "para 3",
+     "type": "to-list",
+     "why": "Funding round details are dense and hard to parse on a small screen.",
+     "how": "Convert the paragraph into a bullet list:\n- Temporal Series E – $550 M (Sep 14, 2026)\n- Nous Research Series B – $90 M (Sep 1, 2026)\n- AIR – $50 M (Oct 7, 2026)\nAdd a brief intro line before the list."
+    },
+    {
+     "where": "H2",
+     "type": "add-heading",
+     "why": "Methodology notes cover multiple ideas; sub‑headings improve navigation.",
+     "how": "Insert sub‑headings \"Verification Process\" and \"Sample Checks\" before the respective paragraphs within the H2 section."
+    },
+    {
+     "where": "chart: svg",
+     "type": "add-heading",
+     "why": "Charts need context and provide natural ad break points.",
+     "how": "Add a caption heading \"Agent Infrastructure Funding Overview\" directly above the SVG chart."
+    },
+    {
+     "where": "chart: img",
+     "type": "add-heading",
+     "why": "Same reason as the first chart; helps readers know what they’re seeing.",
+     "how": "Place a heading \"Model Release Timeline\" immediately before the image chart."
+    },
+    {
+     "where": "box: note",
+     "type": "move",
+     "why": "The boxed note interrupts the flow of the methodology paragraph.",
+     "how": "Move the boxed note to follow the new \"Verification Process\" sub‑heading, keeping it visually attached to the verification discussion."
+    }
+   ],
+   "ad_breaks": {
+    "good": [
+     "Consistency & methodology notes"
+    ],
+    "avoid": [
+     "Agent Infrastructure Funding Overview",
+     "Model Release Timeline",
+     "Funding Rounds bullet list"
+    ]
+   },
+   "model": "openai/gpt-oss-120b"
+  }
+ }
+}

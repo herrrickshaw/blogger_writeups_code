@@ -1,0 +1,123 @@
+{
+ "slug": "a-2223-crore-coal-freight-railway-line",
+ "outline": "877 words in 11 paragraphs; 1 tables; 2 charts/images; 6 boxed notes\nH1: A ₹2,223 Crore Coal-Freight Railway Line Is Being Acquired One Farm Plot at a Time  [140 words in paragraphs and lists]\n    [box: stat]\n    (x4)\n    para 4: 131 words (long) — On 27 August 2026, South East Central Railway notified its intention to...\n    [chart: img]\n  H2: Why this corridor, and why a fourth line  [99 words in paragraphs and lists]\n  H2: What Section 20A actually authorises  [172 words in paragraphs and lists]\n    [table: 4 cols x 4 rows]\n    [box: note]\n    [chart: svg]\n  H2: The net read  [174 words in paragraphs and lists]\n    [box: note]\n  H2: What would fix this  [235 words in paragraphs and lists]",
+ "models": {
+  "Gemini": {
+   "structure_score": 2,
+   "summary_up_top": {
+    "present": false,
+    "suggest": "Move the opening boxed stats and lead sentence above navigation clutter so mobile readers see the core takeaway immediately."
+   },
+   "edits": [
+    {
+     "where": "opening",
+     "type": "move",
+     "why": "Navigation elements and breadcrumbs trap the actual article lead below the fold on mobile screens.",
+     "how": "Strip out the site index, skip links, and audio player from the top block and place the main H1 and lead paragraph directly at the top."
+    },
+    {
+     "where": "para 4",
+     "type": "split-paragraph",
+     "why": "At 131 words, this paragraph is too dense for comfortable reading on a narrow mobile screen.",
+     "how": "Split the paragraph at the sentence beginning with 'The notification itself is a legal instrument'."
+    },
+    {
+     "where": "What Section 20A actually authorises",
+     "type": "to-table",
+     "why": "Complex legal authorizations and statutory timelines are easier to parse in a mobile-friendly structured table than in dense paragraphs.",
+     "how": "Convert the legal clauses and corresponding time limits into a two-column summary table."
+    },
+    {
+     "where": "What would fix this",
+     "type": "split-section",
+     "why": "This is the longest section at 235 words, risking reader fatigue before the conclusion.",
+     "how": "Divide the section into two sub-headings: one for policy problems and one for proposed fixes."
+    }
+   ],
+   "ad_breaks": {
+    "good": [
+     "Why this corridor, and why a fourth line",
+     "What Section 20A actually authorises"
+    ],
+    "avoid": [
+     "A ₹2,223 Crore Coal-Freight Railway Line Is Being Acquired One Farm Plot at a Time",
+     "What Section 20A actually authorises"
+    ]
+   },
+   "model": "gemini-flash-lite-latest"
+  },
+  "Mistral": {
+   "raw": "```json\n{\n  \"structure_score\": 3,\n  \"summary_up_top\": {\n    \"present\": false,\n    \"suggest\": \"Lead with the core contradiction: a ₹2,223 crore project being built via granular land acquisitions (one plot at a time) in a critical coal corridor.\"\n  },\n  \"edits\": [\n    {\n      \"where\": \"opening\",\n      \"type\": \"shorten-heading\",\n      \"why\": \"The H1 is already punchy; the opening text repeats the project cost and route length unnecessarily.\",\n      \"how\": \"Trim the first 30 words to focus on the *process* (one plot at a time) and the *scale* (₹2,223 crore) without repeating the H1.\"\n    },\n    {\n      \"where\": \"opening\",\n      \"type\": \"split-paragraph\",\n      \"why\": \"The first 140 words are dense with legal/process details. Mobile readers lose context.\",\n      \"how\": \"Split after the first sentence (ending with \"fractions of a hectare\") to create a clear visual break before the chart/image.\"\n    },\n    {\n      \"where\": \"H1 (para 4)\",\n      \"type\": \"split-section\",\n      \"why\": \"The 131-word para mixes notification details with a meta-commentary on land acquisition. Mobile readers may miss the key timeline.\",\n      \"how\": \"Move the timeline (\"On 27 August 2026...\") to a **bolded subheading** (\"Timeline: Notification and Objection Window\") before the para 4 text.\"\n    },\n    {\n      \"where\": \"H2: 'Why this corridor, and why a fourth line'\",\n      \"type\": \"add-heading\",\n      \"why\": \"This H2 is too vague for mobile scanning. It blends two distinct questions.\",\n      \"how\": \"Split into two H2s:\n        1. **‘Why this corridor? The Dongargarh–Gondia bottleneck’**\n        2. **‘Why a fourth line? Capacity limits and freight demand’**\n      \"\n    },\n    {\n      \"where\": \"H2: 'What Section 20A actually authorises'\",\n      \"type\": \"to-table\",\n      \"why\": \"The 4x4 table is buried in dense text. Mobile readers may skip it.\",\n      \"how\": \"Move the table to a **dedicated \"Key Provisions of Section 20A\"** boxed section with a 1-sentence intro above it.\"\n    },\n    {\n      \"where\": \"H2: 'The net read'\",\n      \"type\": \"shorten-heading\",\n      \"why\": \"The heading is vague. Mobile readers won’t know what ‘net read’ refers to.\",\n      \"how\": \"Rename to: **‘How Section 20A is being used: A legal loophole?’** (or similar, clarifying the focus).\"\n    },\n    {\n      \"where\": \"H2: 'What would fix this'\",\n      \"type\": \"split-section\",\n      \"why\": \"This H2 is the longest (235 words) and mixes solutions with critiques. Mobile readers may lose track.\",\n      \"how\": \"Split into:\n        1. **‘The flaws in current land acquisition’** (critiques)\n        2. **‘Three policy fixes proposed by experts’** (solutions)\n      \"\n    },\n    {\n      \"where\": \"para 6 (under H2: 'Why this corridor...')\",\n      \"type\": \"to-list\",\n      \"why\": \"The list of freight types (coal, steel, cement, etc.) is buried in text. Mobile readers may miss it.\",\n      \"how\": \"Convert to a **bulleted \"Freight types carried by the corridor\"** list with a 1-sentence intro: *‘The line will handle India’s bulk freight basket, including...’*\"\n    }\n  ],\n  \"ad_breaks\": {\n    \"good\": [\n      \"H2: 'Why this corridor, and why a fourth line'\",\n      \"H2: 'What Section 20A actually authorises' (after the table/boxed note)\"\n    ],\n    \"avoid\": [\n      \"H2: 'The net read' (interrupts the legal/process flow)\",\n      \"H2: 'What would fix this' (after the first 100 words—split into two sections first)\",\n      \"chart under H1 (after para 3, before the dense notification para)\"\n    ]\n  }\n}\n```",
+   "model": "open-mistral-nemo"
+  },
+  "Groq": {
+   "structure_score": 3,
+   "summary_up_top": {
+    "present": false,
+    "suggest": "Start with a one‑sentence hook that tells readers the project’s cost, purpose, and the surprising way land is being acquired."
+   },
+   "edits": [
+    {
+     "where": "opening",
+     "type": "split-paragraph",
+     "why": "The lead is a dense wall of text that overwhelms phone readers.",
+     "how": "Insert a line break after the sentence ending with “...the point of contact.” to create a short introductory paragraph, then start a new paragraph with the image credit."
+    },
+    {
+     "where": "para 4",
+     "type": "split-paragraph",
+     "why": "A 131‑word paragraph is too long for scrolling on a phone.",
+     "how": "Break it after the phrase “...the Dongargarh–Gondia Fourth Railway Line — an 84.10 km, ₹2,223 crore project …” and start a new paragraph with the details about the freight capacity."
+    },
+    {
+     "where": "A ₹2,223 Crore Coal-Freight Railway Line Is Being Acquired One Farm Plot at a Time",
+     "type": "shorten-heading",
+     "why": "The H1 is overly long, making it hard to scan on small screens.",
+     "how": "Replace it with “₹2,223 Cr Coal‑Freight Line Acquired Plot by Plot”."
+    },
+    {
+     "where": "Why this corridor, and why a fourth line",
+     "type": "to-list",
+     "why": "The paragraph lists many commodities, which reads better as a bullet list on mobile.",
+     "how": "Convert the sentence starting with “The stated addition — 52 million tonnes per annum — would carry …” into a bulleted list of the commodities."
+    },
+    {
+     "where": "What Section 20A actually authorises",
+     "type": "move",
+     "why": "The chart currently sits after the table, breaking the flow of explanation.",
+     "how": "Place the chart immediately after the paragraph that introduces Section 20A, before the table, so readers see the visual before the data."
+    },
+    {
+     "where": "The net read",
+     "type": "add-heading",
+     "why": "A short sub‑heading before the boxed note helps readers anticipate the summary.",
+     "how": "Insert a level‑3 heading “Key Findings” right before the boxed note."
+    },
+    {
+     "where": "What would fix this",
+     "type": "to-list",
+     "why": "Recommendations are currently in paragraph form, which is hard to skim.",
+     "how": "Rewrite the main recommendations as a numbered list, preserving the original wording."
+    },
+    {
+     "where": "H2: What Section 20A actually authorises",
+     "type": "merge",
+     "why": "The boxed note repeats information from the table and can be combined to reduce visual clutter.",
+     "how": "Integrate the note’s key point into the table’s caption and delete the separate boxed note."
+    }
+   ],
+   "ad_breaks": {
+    "good": [
+     "Why this corridor, and why a fourth line",
+     "What would fix this"
+    ],
+    "avoid": [
+     "What Section 20A actually authorises",
+     "The net read",
+     "A ₹2,223 Crore Coal-Freight Railway Line Is Being Acquired One Farm Plot at a Time"
+    ]
+   },
+   "model": "openai/gpt-oss-120b"
+  }
+ }
+}

@@ -1,0 +1,132 @@
+{
+ "slug": "a-supreme-court-ruling-on-intoxicating",
+ "outline": "1243 words in 12 paragraphs; 2 tables; 2 charts/images; 7 boxed notes\nH1: A Supreme Court Ruling on \"Intoxicating Liquor\" Just Became a Cost Risk for India's Ethanol Programme  [128 words in paragraphs and lists]\n    [box: stat]\n    (x4)\n    [chart: img]\n  H2: What States Already Extract From a Litre of Alcohol  [139 words in paragraphs and lists]\n    para 5: 139 words (long) — Even before this ruling, India's distilleries and bottlers paid into a stack...\n    [table: 2 cols x 6 rows]\n  H2: The Rollback Request Already on File  [103 words in paragraphs and lists]\n    [box: note]\n  H2: A Correction on the Blending-Penalty Comparison  [190 words in paragraphs and lists]\n    para 8: 146 words (long) — India's 2022 Budget legislated an additional ₹2-per-litre excise duty on both unblended...\n    [table: 3 cols x 5 rows]\n    [box: warn]\n    [chart: svg]\n  H2: The Net Read  [366 words in paragraphs and lists]\n    para 10: 211 words (long) — Sources: State of UP v. Lalta Prasad Vaish Supreme Court ruling (23...\n    [box: note]\n  H2: What would fix this  [263 words in paragraphs and lists]",
+ "models": {
+  "Gemini": {
+   "structure_score": 2,
+   "summary_up_top": {
+    "present": false,
+    "suggest": "State that a 2024 Supreme Court ruling empowers states to tax industrial alcohol, threatening India's fuel ethanol programme with new costs."
+   },
+   "edits": [
+    {
+     "where": "opening",
+     "type": "other",
+     "why": "The opening is cluttered with site navigation, accessibility tools, and audio players before the actual article text.",
+     "how": "Move all meta-navigation, breadcrumbs, and audio player widgets below the H1 and lead summary."
+    },
+    {
+     "where": "para 10",
+     "type": "split-paragraph",
+     "why": "At 211 words, this paragraph is too long for comfortable mobile scanning.",
+     "how": "Split para 10 into two distinct paragraphs around the logical shift in the argument."
+    },
+    {
+     "where": "para 8",
+     "type": "split-paragraph",
+     "why": "At 146 words, this block is a dense reading wall on mobile screens.",
+     "how": "Split para 8 into two shorter paragraphs to give the adjacent data table breathing room."
+    },
+    {
+     "where": "para 5",
+     "type": "to-list",
+     "why": "Listing four to six separate state levies inside a dense 139-word paragraph makes data hard to parse on phones.",
+     "how": "Convert the inline list of state levies into a bulleted list."
+    },
+    {
+     "where": "H2: The Net Read",
+     "type": "add-heading",
+     "why": "At 366 words, this section is too long and covers multiple sub-topics without an intermediate break.",
+     "how": "Add an H3 subheading midway through 'The Net Read' to break up the dense block of text."
+    }
+   ],
+   "ad_breaks": {
+    "good": [
+     "H2: What States Already Extract From a Litre of Alcohol",
+     "H2: The Rollback Request Already on File"
+    ],
+    "avoid": [
+     "H2: A Correction on the Blending-Penalty Comparison",
+     "H2: The Net Read"
+    ]
+   },
+   "model": "gemini-flash-lite-latest"
+  },
+  "Mistral": {
+   "raw": "```json\n{\n  \"structure_score\": 3,\n  \"summary_up_top\": {\n    \"present\": false,\n    \"suggest\": \"Highlight the *immediate financial risk* to India’s ethanol programme from the Supreme Court’s 2024 ruling, using a punchy hook (e.g., ‘Punjab’s ₹1/BL fee could gut the E20 programme’s cost math’).\"\n  },\n  \"edits\": [\n    {\n      \"where\": \"opening\",\n      \"type\": \"shorten-heading\",\n      \"why\": \"The H1 is dense with legal/technical jargon; prioritize the *cost risk* for mobile readers.\",\n      \"how\": \"Rename to: **‘How a Supreme Court Ruling Could Crash India’s Ethanol Programme (And Why Punjab Just Started the Countdown)’**\"\n    },\n    {\n      \"where\": \"H1\",\n      \"type\": \"split-section\",\n      \"why\": \"The first 400 words mix background, legal context, and cost implications—mobile readers lose focus.\",\n      \"how\": \"Split into two sections:\n        1. **‘The Supreme Court’s Shocking Ruling on Industrial Alcohol’** (para 1–3: legal ruling + context)\n        2. **‘Why This Could Bankrupt India’s Ethanol Blend’** (para 4–end: cost risk + Punjab’s move)\"\n    },\n    {\n      \"where\": \"H2: 'What States Already Extract From a Litre of Alcohol'\",\n      \"type\": \"to-table\",\n      \"why\": \"The 139-word para + table is redundant; the table alone suffices for mobile.\",\n      \"how\": \"Replace the para with: **‘Here’s How States Already Tax the Same Litre of Alcohol (Before the Ruling)’** and move the table *above* the para.\"\n    },\n    {\n      \"where\": \"para 5 (under H2: 'What States Already Extract...')\",\n      \"type\": \"shorten-heading\",\n      \"why\": \"The para’s first sentence repeats the H2; mobile readers skim headings.\",\n      \"how\": \"Start with: **‘Before the ruling, states already layered 4–6 taxes on industrial alcohol—here’s how it breaks down:**’\"\n    },\n    {\n      \"where\": \"H2: 'The Rollback Request Already on File'\",\n      \"type\": \"merge\",\n      \"why\": \"This 103-word section feels isolated; it’s a *counterpoint* to Punjab’s action, not a standalone point.\",\n      \"how\": \"Merge into **‘H2: Punjab’s ₹1/BL Fee vs. The Industry’s Pushback’** and reorder to show tension: *Punjab’s move → industry response → implications*.\"\n    },\n    {\n      \"where\": \"H2: 'A Correction on the Blending-Penalty Comparison'\",\n      \"type\": \"split-section\",\n      \"why\": \"The 190-word para + table + chart is a dense argument; mobile readers lose thread.\",\n      \"how\": \"Split into:\n        1. **‘The ₹2/Litre Penalty That’s Backfiring on Ethanol’** (para 7: explain the 2022 budget change)\n        2. **‘Why Biodiesel’s Penalty Didn’t Work (And Why Ethanol’s Might Not Either)’** (para 8: table + chart)\"\n    },\n    {\n      \"where\": \"H2: 'The Net Read'\",\n      \"type\": \"split-section\",\n      \"why\": \"The 366-word para is a *summary* of prior points; mobile readers scroll past it.\",\n      \"how\": \"Replace with a **‘Key Takeaways’** boxed note (bulleted) at the end of **‘H2: What would fix this’**, linking to actionable solutions.\"\n    },\n    {\n      \"where\": \"H2: 'What would fix this'\",\n      \"type\": \"add-heading\",\n      \"why\": \"The section lacks a clear *call to action* or policy focus for mobile skimmers.\",\n      \"how\": \"Add a subheading: **‘3 Policy Fixes to Save the E20 Programme (Before Costs Escalate)’** under the first bullet.\"\n    }\n  ],\n  \"ad_breaks\": {\n    \"good\": [\n      \"H2: 'The Rollback Request Already on File'\",\n      \"H2: 'A Correction on the Blending-Penalty Comparison' (after the table)\"\n    ],\n    \"avoid\": [\n      \"H2: 'What States Already Extract From a Litre of Alcohol' (para 5 + table)\",\n      \"H2: 'The Net Read' (para 10: 211-word dense summary)\",\n      \"H2: 'What would fix this' (first 100 words: theoretical solutions)\"\n    ]\n  }\n}\n```",
+   "model": "open-mistral-nemo"
+  },
+  "Groq": {
+   "structure_score": 3,
+   "summary_up_top": {
+    "present": false,
+    "suggest": "Start with a one‑sentence lead that tells readers the Supreme Court ruling now makes industrial alcohol a taxable cost for India’s ethanol blending programme."
+   },
+   "edits": [
+    {
+     "where": "opening",
+     "type": "add-heading",
+     "why": "Provides a quick‑scan summary for mobile readers before the dense opening paragraph.",
+     "how": "Insert a level‑2 heading titled “Key Takeaway” followed by a 30‑word summary paragraph above the current opening text."
+    },
+    {
+     "where": "opening",
+     "type": "split-paragraph",
+     "why": "The first paragraph is over 150 words, making it hard to read on a phone.",
+     "how": "Break after the sentence ending with “the first state to act on the ruling” to create two shorter paragraphs."
+    },
+    {
+     "where": "What States Already Extract From a Litre of Alcohol",
+     "type": "split-paragraph",
+     "why": "Paragraph 5 (139 words) mixes background with a dense list of levies.",
+     "how": "Split after the sentence that ends with “on the potable side alone:” and start a new paragraph with the bullet list of levies."
+    },
+    {
+     "where": "What States Already Extract From a Litre of Alcohol",
+     "type": "to-list",
+     "why": "A bullet list makes the multiple state levies scannable on small screens.",
+     "how": "Convert the sentence‑long enumeration of levies into a bulleted list, each item on its own line."
+    },
+    {
+     "where": "A Correction on the Blending-Penalty Comparison",
+     "type": "split-paragraph",
+     "why": "Paragraph 8 (146 words) contains two distinct ideas – the budget excise change and the table comparison.",
+     "how": "Insert a paragraph break before the sentence that introduces the table, so the explanatory text stands alone."
+    },
+    {
+     "where": "A Correction on the Blending-Penalty Comparison",
+     "type": "move",
+     "why": "The warning box currently interrupts the flow between text and chart.",
+     "how": "Place the warning box immediately after the table, before the chart, so the ad‑break can sit between them."
+    },
+    {
+     "where": "A Supreme Court Ruling on \"Intoxicating Liquor\" Just Became a Cost Risk for India's Ethanol Programme",
+     "type": "shorten-heading",
+     "why": "The headline is overly long for mobile view and pushes content down.",
+     "how": "Trim to “Supreme Court Ruling Makes Industrial Alcohol a Cost Risk for India’s Ethanol Programme”."
+    },
+    {
+     "where": "The Net Read",
+     "type": "add-heading",
+     "why": "A sub‑heading before the long 211‑word paragraph signals a shift to analysis, helping readers skim.",
+     "how": "Insert a level‑3 heading “Key Findings” right before the long paragraph in this section."
+    }
+   ],
+   "ad_breaks": {
+    "good": [
+     "What States Already Extract From a Litre of Alcohol",
+     "The Rollback Request Already on File",
+     "A Correction on the Blending-Penalty Comparison",
+     "The Net Read"
+    ],
+    "avoid": [
+     "A Supreme Court Ruling on \"Intoxicating Liquor\" Just Became a Cost Risk for India's Ethanol Programme",
+     "A Correction on the Blending-Penalty Comparison (inside the table)",
+     "The Net Read (inside the 211‑word paragraph)",
+     "What would fix this (mid‑list)"
+    ]
+   },
+   "model": "openai/gpt-oss-120b"
+  }
+ }
+}

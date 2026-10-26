@@ -1,0 +1,201 @@
+{
+ "slug": "a-tax-play-grow-ethanol-sgst-revenue",
+ "outline": "3493 words in 34 paragraphs; 5 tables; 2 charts/images; 1 boxed notes\nH1: A Tax Play: Grow Ethanol SGST Revenue, Cut CNG VAT to Match Low-Tax States  [0 words in paragraphs and lists]\n    [chart: svg]\n  H2: The problem this is answering  [295 words in paragraphs and lists]\n    para 2: 172 words (long) — The state-by-state companion piece to this one ran the numbers and found...\n    [chart: img]\n  H2: Part 1: the CNG VAT map nobody's rationalized  [324 words in paragraphs and lists]\n    [table: 3 cols x 22 rows]\n    [table: 4 cols x 12 rows]\n    para 10: 130 words (long) — Delhi and Puducherry sit near the bottom despite being at opposite ends...\n  H2: Part 1.5: what the CNG VAT gap actually costs a driver  [284 words in paragraphs and lists]\n    [table: 5 cols x 5 rows]\n    [box: callout]\n    H3: Does the VAT gap track actual CNG uptake?  [160 words in paragraphs and lists]\n    [table: 4 cols x 12 rows]\n    H3: Outlet density: how much CNG infrastructure exists where the tax is highest  [324 words in paragraphs and lists]\n    [table: 6 cols x 12 rows]\n    para 18: 173 words (long) — Source: cng-cgd-retail-outlet-mapping repo (PNGRB GA allotment × SSRI retail-outlet register, 82,593 outlets,...\n    H3: What this means for how much VAT relief would actually have to move  [323 words in paragraphs and lists]\n    para 20: 214 words (long) — If Himachal Pradesh's CNG VAT were harmonized down to the 5% rate...\n  H2: Part 2: a structural fix for the ethanol-SGST hole  [41 words in paragraphs and lists]\n    H3: Option A — reclassify the retail sale, not just the input  [289 words in paragraphs and lists]\n    para 24: 124 words (long) — The structural fix: get the GST Council to agree that blended motor...\n    H3: Option B — a state ethanol-compensation cess, funded from the OMC margin gain  [372 words in paragraphs and lists]\n    para 28: 159 words (long) — Run the arithmetic honestly, though: at E20, the full OMC margin gain...\n  H2: Part 3: linking the two — a package, not two asks  [345 words in paragraphs and lists]\n    para 31: 183 words (long) — That clean match doesn't hold everywhere, and this piece isn't going to...\n  H2: What this doesn't solve  [326 words in paragraphs and lists]\n  H2: What would fix this  [241 words in paragraphs and lists]\n  H2: Sources  [126 words in paragraphs and lists]",
+ "models": {
+  "Gemini": {
+   "structure_score": 2,
+   "summary_up_top": {
+    "present": false,
+    "suggest": "Add a one-sentence summary right after the title explaining that states lose revenue on ethanol blending and can fund CNG VAT cuts by capturing that lost SGST."
+   },
+   "edits": [
+    {
+     "where": "para 2",
+     "type": "split-paragraph",
+     "why": "Paragraph is 172 words, which is too long to read comfortably on a mobile screen.",
+     "how": "Split para 2 after the sentence ending with 'returns only a thin 2.5% SGST slice in exchange.'"
+    },
+    {
+     "where": "H3: Outlet density: how much CNG infrastructure exists where the tax is highest",
+     "type": "split-paragraph",
+     "why": "Paragraph 18 is 173 words containing a dense source citation and repository details, making it hard to parse on mobile.",
+     "how": "Split para 18 into two paragraphs, separating the core finding from the repository source attribution."
+    },
+    {
+     "where": "H3: What this means for how much VAT relief would actually have to move",
+     "type": "split-paragraph",
+     "why": "Paragraph 20 contains 214 words in a single block, creating a massive wall of text on mobile screens.",
+     "how": "Break paragraph 20 into two paragraphs around the midpoint where the policy calculation shifts."
+    },
+    {
+     "where": "H3: Option B — a state ethanol-compensation cess, funded from the OMC margin gain",
+     "type": "split-paragraph",
+     "why": "Paragraph 28 is 159 words of dense fiscal arithmetic that benefits from being broken up.",
+     "how": "Split paragraph 28 into two smaller paragraphs to give mobile readers visual breathing room."
+    },
+    {
+     "where": "H2: Part 3: linking the two — a package, not two asks",
+     "type": "split-paragraph",
+     "why": "Paragraph 31 is 183 words long and covers multiple distinct caveats.",
+     "how": "Split paragraph 31 into two paragraphs at the natural transition regarding regional mismatches."
+    }
+   ],
+   "ad_breaks": {
+    "good": [
+     "The problem this is answering",
+     "Part 1: the CNG VAT map nobody's rationalized",
+     "Outlet density: how much CNG infrastructure exists where the tax is highest",
+     "Part 2: a structural fix for the ethanol-SGST hole"
+    ],
+    "avoid": [
+     "Part 1.5: what the CNG VAT gap actually costs a driver",
+     "Does the VAT gap track actual CNG uptake?"
+    ]
+   },
+   "model": "gemini-flash-lite-latest"
+  },
+  "Mistral": {
+   "structure_score": 3,
+   "summary_up_top": {
+    "present": false,
+    "suggest": "Open with a punchy one-liner summarizing the core trade-off: *‘India’s ethanol push costs states ₹17,863 cr/year in lost petrol VAT—while CNG’s chaotic VAT rates let low-tax states undercut high-tax ones. Here’s how to fix both.’*"
+   },
+   "edits": [
+    {
+     "where": "opening",
+     "type": "shorten-heading",
+     "why": "The H1 is too long for mobile skimmers; the core trade-off should be front-loaded in the heading.",
+     "how": "Trim to: *‘How Ethanol Blending and CNG VAT Could Fund Each Other—If States Play It Right’*"
+    },
+    {
+     "where": "H1",
+     "type": "add-heading",
+     "why": "The opening text buries the chart under metadata; mobile readers won’t see it without scrolling.",
+     "how": "Add a subheading under H1: *‘The math behind the mismatch’* and move the chart SVG there."
+    },
+    {
+     "where": "para 2 (under H2: The problem this is answering)",
+     "type": "split-paragraph",
+     "why": "172 words is too dense for mobile; the ‘mechanism’ explanation deserves its own section.",
+     "how": "Split into two paragraphs: first 80 words as a standalone ‘How ethanol blending works’ intro, rest under a new H3: *‘The VAT gap: petrol vs. ethanol’*."
+    },
+    {
+     "where": "H2: Part 1: the CNG VAT map nobody's rationalized",
+     "type": "shorten-heading",
+     "why": "‘Nobody’s rationalized’ is jargon-heavy; mobile readers won’t grasp the stakes.",
+     "how": "Rename to: *‘Why CNG VAT rates vary wildly—and how that hurts drivers’*"
+    },
+    {
+     "where": "para 10 (under Part 1)",
+     "type": "split-paragraph",
+     "why": "130 words of state-by-state examples disrupts flow; better as a list for skimmability.",
+     "how": "Convert to a **3-column table** (State | VAT Rate | CNG Uptake %) with a caption: *‘VAT rates on CNG by state (2023), vs. actual adoption’* (link to table)."
+    },
+    {
+     "where": "H3: Outlet density: how much CNG infrastructure exists where the tax is highest",
+     "type": "to-list",
+     "why": "The dense para (173 words) and table (6 cols) overwhelm mobile; prioritize the key insight.",
+     "how": "Replace with a **bulleted ‘Key Findings’ list** (3–4 points) under the heading, then link to the table as a ‘Full data’ appendix."
+    },
+    {
+     "where": "H2: Part 2: a structural fix for the ethanol-SGST hole",
+     "type": "merge",
+     "why": "The H2 feels like a placeholder; it’s too vague for mobile readers to anchor on.",
+     "how": "Merge with Option A’s heading: *‘Two ways to plug the ethanol-SGST gap—starting with reclassifying retail sales’*"
+    },
+    {
+     "where": "H2: What this doesn’t solve",
+     "type": "move",
+     "why": "This belongs *after* Part 3’s package proposal, not as a standalone section.",
+     "how": "Move to the end of Part 3’s paragraphs (para 31–34), under a new H3: *‘What this leaves unresolved’*"
+    }
+   ],
+   "ad_breaks": {
+    "good": [
+     "after H2: The problem this is answering (para 2)",
+     "after H2: Part 1.5: what the CNG VAT gap actually costs a driver (para 18)",
+     "after H3: Option B — a state ethanol-compensation cess, funded from the OMC margin gain (para 28)"
+    ],
+    "avoid": [
+     "after the first table under Part 1 (3 cols x 22 rows)",
+     "after the boxed callout in Part 1.5",
+     "after the ‘Key Findings’ list under Outlet density (if converted)",
+     "after H2: What this doesn’t solve"
+    ]
+   },
+   "model": "open-mistral-nemo"
+  },
+  "Groq": {
+   "structure_score": 2,
+   "summary_up_top": {
+    "present": false,
+    "suggest": "Begin with a brief, punchy paragraph that states the core proposal (raise SGST on ethanol, cut CNG VAT) and why it matters for state revenues."
+   },
+   "edits": [
+    {
+     "where": "opening",
+     "type": "split-paragraph",
+     "why": "The first 400‑word block is a wall of text that overwhelms mobile readers.",
+     "how": "Create a 2‑sentence summary paragraph (the suggested summary) followed by a separate paragraph that explains the context."
+    },
+    {
+     "where": "The problem this is answering",
+     "type": "add-heading",
+     "why": "A quick‑scan reader benefits from a high‑level “Key Takeaways” heading before the problem description.",
+     "how": "Insert a level‑3 heading titled “Key Takeaways” directly above the first paragraph of this section and list 2‑3 bullet points summarizing the revenue gap and the proposed fix."
+    },
+    {
+     "where": "para 2",
+     "type": "split-paragraph",
+     "why": "172‑word paragraph is too long for phone screens.",
+     "how": "Break after the sentence that mentions the companion piece’s numbers, creating a new paragraph that starts with the implications for states."
+    },
+    {
+     "where": "Part 1: the CNG VAT map nobody's rationalized",
+     "type": "to-table",
+     "why": "Large tables (22 rows, 12 rows) are hard to read on narrow screens.",
+     "how": "Replace each static table with a responsive, scrollable table or an accordion that reveals rows on tap."
+    },
+    {
+     "where": "Part 1.5: what the CNG VAT gap actually costs a driver",
+     "type": "shorten-heading",
+     "why": "Long headings truncate on mobile and reduce scannability.",
+     "how": "Rename to “Part 1.5: CNG VAT Gap Cost to Drivers”."
+    },
+    {
+     "where": "box: callout",
+     "type": "move",
+     "why": "The callout currently sits between paragraphs and could be split by an ad break.",
+     "how": "Place the boxed note immediately after the paragraph that introduces the cost calculation, before any subsequent heading."
+    },
+    {
+     "where": "para 10",
+     "type": "split-paragraph",
+     "why": "130‑word paragraph hampers quick reading.",
+     "how": "Insert a line break after the sentence about Delhi and Puducherry, creating two balanced paragraphs."
+    },
+    {
+     "where": "Part 2: a structural fix for the ethanol-SGST hole",
+     "type": "to-list",
+     "why": "Options A and B are dense blocks of text; a list makes comparison easier on phones.",
+     "how": "Convert the two option subsections into a bullet list with sub‑bullets for key points, keeping the original H3 headings as bold list items."
+    }
+   ],
+   "ad_breaks": {
+    "good": [
+     "The problem this is answering",
+     "Part 1: the CNG VAT map nobody's rationalized",
+     "Part 2: a structural fix for the ethanol-SGST hole",
+     "Part 3: linking the two — a package, not two asks"
+    ],
+    "avoid": [
+     "Part 1.5: what the CNG VAT gap actually costs a driver",
+     "Part 1.5: what the CNG VAT gap actually costs a driver (tables)",
+     "What this doesn't solve",
+     "Sources"
+    ]
+   },
+   "model": "openai/gpt-oss-120b"
+  }
+ }
+}
