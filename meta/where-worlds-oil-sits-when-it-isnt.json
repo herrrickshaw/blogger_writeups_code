@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/where-worlds-oil-sits-when-it-isnt.html",
   "slug": "where-worlds-oil-sits-when-it-isnt",
   "published": "2026-08-14T07:00:46.000+05:30",
-  "updated": "2026-10-18T06:23:14.568+05:30",
+  "updated": "2026-10-26T14:20:54.702+05:30",
   "labels": [
     "Energy & Fuels"
   ],
-  "bytes": 50976,
-  "sha256": "e9b6927cb1469ebdd204045881ecdd0714e170d5de42eb0c24638d07561a537d",
+  "bytes": 53111,
+  "sha256": "de3c4c7a503df9d10d4e43919a07b117ee26e279b82be83e57a9a20065e3af01",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.2.0",
+  "version": "3.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -172,6 +172,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Sweep 4: notes for posts 81-160 (SHANTI, ethanol, UPI, WPI/PPI, Kirkuk-Ceyhan, excise)"
+    },
+    {
+      "version": "3.0.0",
+      "date": "2026-10-26T14:22:26+05:30",
+      "level": "major",
+      "reason": "figures changed (+21/-0 distinct numbers)",
+      "bytes": [
+        50976,
+        53111
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "published 15 source-gap corrections (2026-10-25 audit)"
     }
   ]
 }

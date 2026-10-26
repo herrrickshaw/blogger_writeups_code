@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/india-has-132-compressed-biogas-plants.html",
   "slug": "india-has-132-compressed-biogas-plants",
   "published": "2026-09-23T13:15:31.000+05:30",
-  "updated": "2026-10-14T16:29:08.815+05:30",
+  "updated": "2026-10-26T14:19:24.867+05:30",
   "labels": [
     "City Gas Distribution",
     "Energy & Fuels",
     "Gas & LNG"
   ],
-  "bytes": 24871,
-  "sha256": "b9950f6efd7d2805406319289a499bc52a577c7e03f1ac492937fa1ae680786a",
+  "bytes": 27210,
+  "sha256": "daca6e03ba479f5ab24b70e15be60319b4a6e5b0aa11d49f34ce522063e15081",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.1.0",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -70,6 +70,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Update notes 12-13 Oct 2026 from the currency sweeps (45 posts)"
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-10-26T14:22:26+05:30",
+      "level": "major",
+      "reason": "figures changed (+24/-11 distinct numbers)",
+      "bytes": [
+        24871,
+        27210
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "published 15 source-gap corrections (2026-10-25 audit)"
     }
   ]
 }

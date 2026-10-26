@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/10/india-tracks-every-taxpayer-in-minutes.html",
   "slug": "india-tracks-every-taxpayer-in-minutes",
   "published": "2026-10-18T06:50:17.000+05:30",
-  "updated": "2026-10-22T12:18:12.552+05:30",
+  "updated": "2026-10-26T14:19:33.096+05:30",
   "labels": [
     "Healthcare",
     "Industrial Policy",
     "Scheme Delivery Gap"
   ],
-  "bytes": 52153,
-  "sha256": "8b429e9195a66536d7dc8803ad99b76ea8a63df1323b130335b26021b4f568d9",
+  "bytes": 53639,
+  "sha256": "77ad08628cb405e408883ad79215922c99cf2a6d784479705e83215201854bdb",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.1.1",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -57,6 +57,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Health/tax post: ABHA count 97.6 crore"
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-10-26T14:22:26+05:30",
+      "level": "major",
+      "reason": "figures changed (+6/-0 distinct numbers)",
+      "bytes": [
+        52153,
+        53639
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "published 15 source-gap corrections (2026-10-25 audit)"
     }
   ]
 }

@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/one-nation-one-ration-card-doesnt-move.html",
   "slug": "one-nation-one-ration-card-doesnt-move",
   "published": "2026-09-05T12:36:54.000+05:30",
-  "updated": "2026-10-01T08:42:50.457+05:30",
+  "updated": "2026-10-26T14:20:05.463+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Energy & Fuels",
     "Grain Procurement & Storage"
   ],
-  "bytes": 60384,
-  "sha256": "fd7e95fc6f52e634c71f9135a5c0aeb9904eecab0d250227ff8666194bae9432",
+  "bytes": 62176,
+  "sha256": "2e50049dd40721cde60ee9305f4dc1020e6941e57ef7d80883c014aa0b545399",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.1.0",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -96,6 +96,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Rule 8 retrofit: added What would fix this section"
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-10-26T14:22:26+05:30",
+      "level": "major",
+      "reason": "figures changed (+12/-1 distinct numbers)",
+      "bytes": [
+        60384,
+        62176
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "published 15 source-gap corrections (2026-10-25 audit)"
     }
   ]
 }

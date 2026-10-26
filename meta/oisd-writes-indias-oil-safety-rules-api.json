@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/oisd-writes-indias-oil-safety-rules-api.html",
   "slug": "oisd-writes-indias-oil-safety-rules-api",
   "published": "2026-09-01T22:01:33.000+05:30",
-  "updated": "2026-10-01T08:42:33.325+05:30",
+  "updated": "2026-10-26T14:19:57.887+05:30",
   "labels": [
     "Gas & LNG",
     "Regulatory & Industry-Body Accountability"
   ],
-  "bytes": 34768,
-  "sha256": "2cd23446e349b781d902ba3f77fedbcb06e432bd6f2fafd368029bd079c4a2f6",
+  "bytes": 36565,
+  "sha256": "5ba1d04e4308d48c2ab0756156cfced6a3f45b17a4d23c716a88c3f152728f99",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.2.0",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -108,6 +108,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Rule 8 retrofit: added What would fix this section"
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-10-26T14:22:26+05:30",
+      "level": "major",
+      "reason": "figures changed (+15/-0 distinct numbers)",
+      "bytes": [
+        34768,
+        36565
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "published 15 source-gap corrections (2026-10-25 audit)"
     }
   ]
 }

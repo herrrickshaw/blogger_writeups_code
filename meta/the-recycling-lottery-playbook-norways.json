@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/07/the-recycling-lottery-playbook-norways.html",
   "slug": "the-recycling-lottery-playbook-norways",
   "published": "2026-07-31T05:30:00.000+05:30",
-  "updated": "2026-10-14T16:32:39.982+05:30",
+  "updated": "2026-10-26T14:20:29.707+05:30",
   "labels": [
     "Industrial Policy"
   ],
-  "bytes": 32000,
-  "sha256": "84bcbf7b3546bb614208af208a48557d24ddb4c5aa49b014655f7f5ca754c6b1",
+  "bytes": 35562,
+  "sha256": "8c26423f7daf1d9516c1ef169b09441e0c718f6f3282386a1b889a30e8791c31",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.2.0",
+  "version": "4.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -268,6 +268,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Update notes 12-13 Oct 2026 from the currency sweeps (45 posts)"
+    },
+    {
+      "version": "4.0.0",
+      "date": "2026-10-26T14:22:26+05:30",
+      "level": "major",
+      "reason": "figures changed (+17/-1 distinct numbers)",
+      "bytes": [
+        32000,
+        35562
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "published 15 source-gap corrections (2026-10-25 audit)"
     }
   ]
 }

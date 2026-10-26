@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/10/bagasse-is-one-crop-residue-already.html",
   "slug": "bagasse-is-one-crop-residue-already",
   "published": "2026-10-10T10:00:57.000+05:30",
-  "updated": "2026-10-12T12:57:55.916+05:30",
+  "updated": "2026-10-26T14:19:09.157+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Chemicals"
   ],
-  "bytes": 29137,
-  "sha256": "08612f9f54c9e7625840bc1b74a9b8307b4448da0d19a682918620939189c527",
+  "bytes": 31245,
+  "sha256": "746f8eddf08a2e64ba061eea4eff8df11d9a65cae5c42b130e249651bc5aaaad",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.1.0",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -43,6 +43,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Update notes 12 Oct 2026: bagasse sugar-season data, sucralose FSSAI and IDF, lysine price and EU inquiry"
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-10-26T14:22:26+05:30",
+      "level": "major",
+      "reason": "figures changed (+16/-1 distinct numbers)",
+      "bytes": [
+        29137,
+        31245
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "published 15 source-gap corrections (2026-10-25 audit)"
     }
   ]
 }

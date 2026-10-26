@@ -15835,3 +15835,44 @@ MoSPI refresh: Sep 2026 CPI by state, WPI items, CPI-AL/RL, GDP PE, WPI deflator
 - `fy2025-26-sample-report-india-trade` — 42,696 → 43,011 bytes (+315)
 - `imported-fertiliser-fuel-prices-diesel` — 37,275 → 37,898 bytes (+623)
 - `cpi-wpi-trends-mospi-bulletin` — 50,886 → 51,548 bytes (+662)
+
+## 2026-10-26T14:22:26+05:30 — 420 posts live
+
+published 15 source-gap corrections (2026-10-25 audit)
+
+
+**Versions**
+
+- `indias-2026-27-ethanol-tender-drops` **1.0.1 → 2.0.0** (MAJOR) — figures changed (+2/-0 distinct numbers)
+- `india-tracks-every-taxpayer-in-minutes` **1.1.1 → 2.0.0** (MAJOR) — figures changed (+6/-0 distinct numbers)
+- `bagasse-is-one-crop-residue-already` **1.1.0 → 2.0.0** (MAJOR) — figures changed (+16/-1 distinct numbers)
+- `thermocol-dissolves-in-orange-peel-oil` **2.0.0 → 3.0.0** (MAJOR) — figures changed (+11/-0 distinct numbers)
+- `india-has-132-compressed-biogas-plants` **1.1.0 → 2.0.0** (MAJOR) — figures changed (+24/-11 distinct numbers)
+- `one-nation-one-ration-card-doesnt-move` **1.1.0 → 2.0.0** (MAJOR) — figures changed (+12/-1 distinct numbers)
+- `textbooks-say-project-returns-converge` **1.1.0 → 2.0.0** (MAJOR) — figures changed (+9/-0 distinct numbers)
+- `what-sewage-disposal-in-key-parts-of` **1.1.0 → 2.0.0** (MAJOR) — figures changed (+14/-0 distinct numbers)
+- `fipis-biggest-ask-is-getting-natural` **1.1.1 → 2.0.0** (MAJOR) — figures changed (+12/-1 distinct numbers)
+- `oisd-writes-indias-oil-safety-rules-api` **1.2.0 → 2.0.0** (MAJOR) — figures changed (+15/-0 distinct numbers)
+- `indias-coffee-crop-hasnt-grown-in` **3.2.0 → 4.0.0** (MAJOR) — figures changed (+7/-0 distinct numbers)
+- `the-milk-india-doesnt-drink-cheese-and` **2.1.1 → 3.0.0** (MAJOR) — figures changed (+18/-0 distinct numbers)
+- `airbags-and-seat-belts-are-import-heavy` **3.2.0 → 4.0.0** (MAJOR) — figures changed (+7/-2 distinct numbers)
+- `where-worlds-oil-sits-when-it-isnt` **2.2.0 → 3.0.0** (MAJOR) — figures changed (+21/-0 distinct numbers)
+- `the-recycling-lottery-playbook-norways` **3.2.0 → 4.0.0** (MAJOR) — figures changed (+17/-1 distinct numbers)
+
+**Changed**
+
+- `indias-2026-27-ethanol-tender-drops` — 34,065 → 35,562 bytes (+1,497)
+- `india-tracks-every-taxpayer-in-minutes` — 52,153 → 53,639 bytes (+1,486)
+- `bagasse-is-one-crop-residue-already` — 29,137 → 31,245 bytes (+2,108)
+- `thermocol-dissolves-in-orange-peel-oil` — 31,926 → 34,049 bytes (+2,123)
+- `india-has-132-compressed-biogas-plants` — 24,871 → 27,210 bytes (+2,339)
+- `one-nation-one-ration-card-doesnt-move` — 60,384 → 62,176 bytes (+1,792)
+- `textbooks-say-project-returns-converge` — 30,316 → 31,769 bytes (+1,453)
+- `what-sewage-disposal-in-key-parts-of` — 50,114 → 51,500 bytes (+1,386)
+- `fipis-biggest-ask-is-getting-natural` — 37,034 → 40,429 bytes (+3,395)
+- `oisd-writes-indias-oil-safety-rules-api` — 34,768 → 36,565 bytes (+1,797)
+- `indias-coffee-crop-hasnt-grown-in` — 31,875 → 33,420 bytes (+1,545)
+- `the-milk-india-doesnt-drink-cheese-and` — 43,566 → 45,322 bytes (+1,756)
+- `airbags-and-seat-belts-are-import-heavy` — 30,399 → 31,927 bytes (+1,528)
+- `where-worlds-oil-sits-when-it-isnt` — 50,976 → 53,111 bytes (+2,135)
+- `the-recycling-lottery-playbook-norways` — 32,000 → 35,562 bytes (+3,562)

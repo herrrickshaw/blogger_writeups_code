@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-10-26T11:12:32+05:30",
+  "snapshot": "2026-10-26T14:22:26+05:30",
   "count": 420,
   "posts": {
     "1023631151138981087": {
@@ -3083,12 +3083,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/09/textbooks-say-project-returns-converge.html",
       "slug": "textbooks-say-project-returns-converge",
       "published": "2026-09-03T11:07:13.000+05:30",
-      "updated": "2026-10-01T08:49:52.949+05:30",
+      "updated": "2026-10-26T14:20:13.559+05:30",
       "labels": [
         "Markets & Finance"
       ],
-      "bytes": 30316,
-      "sha256": "648d21aa4e5ca6ab031262aaea930b852291f65ef9173ab7e0d4823dc14ab20f",
+      "bytes": 31769,
+      "sha256": "c312ffabc90fa1f17e4f609640a99e6fa48f20042c9097b5cf3e09fe8080664e",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -3100,7 +3100,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.1.0",
+      "version": "2.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -3173,6 +3173,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Rule 8 retrofit: added What would fix this section"
+        },
+        {
+          "version": "2.0.0",
+          "date": "2026-10-26T14:22:26+05:30",
+          "level": "major",
+          "reason": "figures changed (+9/-0 distinct numbers)",
+          "bytes": [
+            30316,
+            31769
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "published 15 source-gap corrections (2026-10-25 audit)"
         }
       ]
     },
@@ -5655,12 +5668,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/07/the-recycling-lottery-playbook-norways.html",
       "slug": "the-recycling-lottery-playbook-norways",
       "published": "2026-07-31T05:30:00.000+05:30",
-      "updated": "2026-10-14T16:32:39.982+05:30",
+      "updated": "2026-10-26T14:20:29.707+05:30",
       "labels": [
         "Industrial Policy"
       ],
-      "bytes": 32000,
-      "sha256": "84bcbf7b3546bb614208af208a48557d24ddb4c5aa49b014655f7f5ca754c6b1",
+      "bytes": 35562,
+      "sha256": "8c26423f7daf1d9516c1ef169b09441e0c718f6f3282386a1b889a30e8791c31",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -5672,7 +5685,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "3.2.0",
+      "version": "4.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -5919,6 +5932,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Update notes 12-13 Oct 2026 from the currency sweeps (45 posts)"
+        },
+        {
+          "version": "4.0.0",
+          "date": "2026-10-26T14:22:26+05:30",
+          "level": "major",
+          "reason": "figures changed (+17/-1 distinct numbers)",
+          "bytes": [
+            32000,
+            35562
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "published 15 source-gap corrections (2026-10-25 audit)"
         }
       ]
     },
@@ -11889,7 +11915,7 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/imported-fertiliser-fuel-prices-diesel.html",
       "slug": "imported-fertiliser-fuel-prices-diesel",
       "published": "2026-08-02T13:50:50.000+05:30",
-      "updated": "2026-10-26T11:11:32.208+05:30",
+      "updated": "2026-10-26T13:54:24.853+05:30",
       "labels": [
         "Agriculture & Fertilisers",
         "Energy & Fuels",
@@ -20508,14 +20534,14 @@
       "url": "https://masaladeutsch.blogspot.com/2026/10/india-tracks-every-taxpayer-in-minutes.html",
       "slug": "india-tracks-every-taxpayer-in-minutes",
       "published": "2026-10-18T06:50:17.000+05:30",
-      "updated": "2026-10-22T12:18:12.552+05:30",
+      "updated": "2026-10-26T14:19:33.096+05:30",
       "labels": [
         "Healthcare",
         "Industrial Policy",
         "Scheme Delivery Gap"
       ],
-      "bytes": 52153,
-      "sha256": "8b429e9195a66536d7dc8803ad99b76ea8a63df1323b130335b26021b4f568d9",
+      "bytes": 53639,
+      "sha256": "77ad08628cb405e408883ad79215922c99cf2a6d784479705e83215201854bdb",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -20527,7 +20553,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.1.1",
+      "version": "2.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -20561,6 +20587,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Health/tax post: ABHA count 97.6 crore"
+        },
+        {
+          "version": "2.0.0",
+          "date": "2026-10-26T14:22:26+05:30",
+          "level": "major",
+          "reason": "figures changed (+6/-0 distinct numbers)",
+          "bytes": [
+            52153,
+            53639
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "published 15 source-gap corrections (2026-10-25 audit)"
         }
       ]
     },
@@ -22387,14 +22426,14 @@
       "url": "https://masaladeutsch.blogspot.com/2026/10/indias-2026-27-ethanol-tender-drops.html",
       "slug": "indias-2026-27-ethanol-tender-drops",
       "published": "2026-10-20T03:02:30.000+05:30",
-      "updated": "2026-10-20T03:13:52.744+05:30",
+      "updated": "2026-10-26T14:19:41.788+05:30",
       "labels": [
         "Agriculture & Fertilisers",
         "Energy & Fuels",
         "Ethanol & Biofuels"
       ],
-      "bytes": 34065,
-      "sha256": "5172870e3203e3044ba927a7558ec8164da632bc46c35b99b20c00035eed3652",
+      "bytes": 35562,
+      "sha256": "00715b9ced29a23d2783b08e174add95761c7baf022663e85dbf0bda11a703a2",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -22406,7 +22445,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.1",
+      "version": "2.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -22427,6 +22466,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Ethanol tender post: compared against the ESY 2025-26 tender document"
+        },
+        {
+          "version": "2.0.0",
+          "date": "2026-10-26T14:22:26+05:30",
+          "level": "major",
+          "reason": "figures changed (+2/-0 distinct numbers)",
+          "bytes": [
+            34065,
+            35562
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "published 15 source-gap corrections (2026-10-25 audit)"
         }
       ]
     },
@@ -23860,13 +23912,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/09/oisd-writes-indias-oil-safety-rules-api.html",
       "slug": "oisd-writes-indias-oil-safety-rules-api",
       "published": "2026-09-01T22:01:33.000+05:30",
-      "updated": "2026-10-01T08:42:33.325+05:30",
+      "updated": "2026-10-26T14:19:57.887+05:30",
       "labels": [
         "Gas & LNG",
         "Regulatory & Industry-Body Accountability"
       ],
-      "bytes": 34768,
-      "sha256": "2cd23446e349b781d902ba3f77fedbcb06e432bd6f2fafd368029bd079c4a2f6",
+      "bytes": 36565,
+      "sha256": "5ba1d04e4308d48c2ab0756156cfced6a3f45b17a4d23c716a88c3f152728f99",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -23878,7 +23930,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.2.0",
+      "version": "2.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -23964,6 +24016,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Rule 8 retrofit: added What would fix this section"
+        },
+        {
+          "version": "2.0.0",
+          "date": "2026-10-26T14:22:26+05:30",
+          "level": "major",
+          "reason": "figures changed (+15/-0 distinct numbers)",
+          "bytes": [
+            34768,
+            36565
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "published 15 source-gap corrections (2026-10-25 audit)"
         }
       ]
     },
@@ -24355,7 +24420,7 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/reinvesting-capital-gains-in-higher.html",
       "slug": "reinvesting-capital-gains-in-higher",
       "published": "2026-08-07T13:46:48.000+05:30",
-      "updated": "2026-10-26T11:11:40.293+05:30",
+      "updated": "2026-10-26T13:54:33.196+05:30",
       "labels": [
         "Bonds & Fixed Income",
         "Markets & Finance"
@@ -26910,14 +26975,14 @@
       "url": "https://masaladeutsch.blogspot.com/2026/09/india-has-132-compressed-biogas-plants.html",
       "slug": "india-has-132-compressed-biogas-plants",
       "published": "2026-09-23T13:15:31.000+05:30",
-      "updated": "2026-10-14T16:29:08.815+05:30",
+      "updated": "2026-10-26T14:19:24.867+05:30",
       "labels": [
         "City Gas Distribution",
         "Energy & Fuels",
         "Gas & LNG"
       ],
-      "bytes": 24871,
-      "sha256": "b9950f6efd7d2805406319289a499bc52a577c7e03f1ac492937fa1ae680786a",
+      "bytes": 27210,
+      "sha256": "daca6e03ba479f5ab24b70e15be60319b4a6e5b0aa11d49f34ce522063e15081",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -26929,7 +26994,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.1.0",
+      "version": "2.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -26976,6 +27041,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Update notes 12-13 Oct 2026 from the currency sweeps (45 posts)"
+        },
+        {
+          "version": "2.0.0",
+          "date": "2026-10-26T14:22:26+05:30",
+          "level": "major",
+          "reason": "figures changed (+24/-11 distinct numbers)",
+          "bytes": [
+            24871,
+            27210
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "published 15 source-gap corrections (2026-10-25 audit)"
         }
       ]
     },
@@ -29995,12 +30073,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/09/what-sewage-disposal-in-key-parts-of.html",
       "slug": "what-sewage-disposal-in-key-parts-of",
       "published": "2026-09-03T06:14:39.000+05:30",
-      "updated": "2026-10-01T08:59:49.777+05:30",
+      "updated": "2026-10-26T14:20:47.069+05:30",
       "labels": [
         "Energy & Fuels"
       ],
-      "bytes": 50114,
-      "sha256": "1bf5106606c6a2d90617639f6697776b071aded56b9c191918dfc9fde8e7d44d",
+      "bytes": 51500,
+      "sha256": "7498c5024b52fa50a2fece11573df77b6c857d9e17da322e5d2f299ed8af114c",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -30012,7 +30090,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.1.0",
+      "version": "2.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -30098,6 +30176,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Rule 8 retrofit: added What would fix this section"
+        },
+        {
+          "version": "2.0.0",
+          "date": "2026-10-26T14:22:26+05:30",
+          "level": "major",
+          "reason": "figures changed (+14/-0 distinct numbers)",
+          "bytes": [
+            50114,
+            51500
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "published 15 source-gap corrections (2026-10-25 audit)"
         }
       ]
     },
@@ -30968,12 +31059,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/where-worlds-oil-sits-when-it-isnt.html",
       "slug": "where-worlds-oil-sits-when-it-isnt",
       "published": "2026-08-14T07:00:46.000+05:30",
-      "updated": "2026-10-18T06:23:14.568+05:30",
+      "updated": "2026-10-26T14:20:54.702+05:30",
       "labels": [
         "Energy & Fuels"
       ],
-      "bytes": 50976,
-      "sha256": "e9b6927cb1469ebdd204045881ecdd0714e170d5de42eb0c24638d07561a537d",
+      "bytes": 53111,
+      "sha256": "de3c4c7a503df9d10d4e43919a07b117ee26e279b82be83e57a9a20065e3af01",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -30985,7 +31076,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "2.2.0",
+      "version": "3.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -31136,6 +31227,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Sweep 4: notes for posts 81-160 (SHANTI, ethanol, UPI, WPI/PPI, Kirkuk-Ceyhan, excise)"
+        },
+        {
+          "version": "3.0.0",
+          "date": "2026-10-26T14:22:26+05:30",
+          "level": "major",
+          "reason": "figures changed (+21/-0 distinct numbers)",
+          "bytes": [
+            50976,
+            53111
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "published 15 source-gap corrections (2026-10-25 audit)"
         }
       ]
     },
@@ -34327,14 +34431,14 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/airbags-and-seat-belts-are-import-heavy.html",
       "slug": "airbags-and-seat-belts-are-import-heavy",
       "published": "2026-08-15T11:27:49.000+05:30",
-      "updated": "2026-10-14T16:31:54.251+05:30",
+      "updated": "2026-10-26T14:19:00.964+05:30",
       "labels": [
         "Automotive & Manufacturing",
         "India Trade & Policy",
         "Textiles"
       ],
-      "bytes": 30399,
-      "sha256": "21d87650ccb42d65c0991fa38a8f968afa01355e04f414f7ba8795eaad829112",
+      "bytes": 31927,
+      "sha256": "6ec8d45fbf64eb6ebe4d1914fcbef2a4a1ad6b086a022bee63db561b7fe0c588",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -34346,7 +34450,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "3.2.0",
+      "version": "4.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -34523,6 +34627,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Update notes 12-13 Oct 2026 from the currency sweeps (45 posts)"
+        },
+        {
+          "version": "4.0.0",
+          "date": "2026-10-26T14:22:26+05:30",
+          "level": "major",
+          "reason": "figures changed (+7/-2 distinct numbers)",
+          "bytes": [
+            30399,
+            31927
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "published 15 source-gap corrections (2026-10-25 audit)"
         }
       ]
     },
@@ -40425,14 +40542,14 @@
       "url": "https://masaladeutsch.blogspot.com/2026/09/one-nation-one-ration-card-doesnt-move.html",
       "slug": "one-nation-one-ration-card-doesnt-move",
       "published": "2026-09-05T12:36:54.000+05:30",
-      "updated": "2026-10-01T08:42:50.457+05:30",
+      "updated": "2026-10-26T14:20:05.463+05:30",
       "labels": [
         "Agriculture & Fertilisers",
         "Energy & Fuels",
         "Grain Procurement & Storage"
       ],
-      "bytes": 60384,
-      "sha256": "fd7e95fc6f52e634c71f9135a5c0aeb9904eecab0d250227ff8666194bae9432",
+      "bytes": 62176,
+      "sha256": "2e50049dd40721cde60ee9305f4dc1020e6941e57ef7d80883c014aa0b545399",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -40444,7 +40561,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.1.0",
+      "version": "2.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -40517,6 +40634,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Rule 8 retrofit: added What would fix this section"
+        },
+        {
+          "version": "2.0.0",
+          "date": "2026-10-26T14:22:26+05:30",
+          "level": "major",
+          "reason": "figures changed (+12/-1 distinct numbers)",
+          "bytes": [
+            60384,
+            62176
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "published 15 source-gap corrections (2026-10-25 audit)"
         }
       ]
     },
@@ -40654,13 +40784,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/09/fipis-biggest-ask-is-getting-natural.html",
       "slug": "fipis-biggest-ask-is-getting-natural",
       "published": "2026-09-02T03:59:01.000+05:30",
-      "updated": "2026-10-23T10:00:31.765+05:30",
+      "updated": "2026-10-26T14:19:17.348+05:30",
       "labels": [
         "Gas & LNG",
         "Regulatory & Industry-Body Accountability"
       ],
-      "bytes": 37034,
-      "sha256": "dfe013e4e8930af6a69a3e6b74a9178cf041676621ca5124f4ebe6886a0ac5e0",
+      "bytes": 40429,
+      "sha256": "bdd80599007a5418503fdea6717bc473be36c76b41f11a08636c0b79837c17b8",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -40672,7 +40802,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.1.1",
+      "version": "2.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -40758,6 +40888,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Sweep 4 MEDIUM items: dated update notes on 59 posts"
+        },
+        {
+          "version": "2.0.0",
+          "date": "2026-10-26T14:22:26+05:30",
+          "level": "major",
+          "reason": "figures changed (+12/-1 distinct numbers)",
+          "bytes": [
+            37034,
+            40429
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "published 15 source-gap corrections (2026-10-25 audit)"
         }
       ]
     },
@@ -40803,7 +40946,7 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/fy2025-26-sample-report-india-trade.html",
       "slug": "fy2025-26-sample-report-india-trade",
       "published": "2026-08-02T13:59:21.000+05:30",
-      "updated": "2026-10-26T11:11:48.656+05:30",
+      "updated": "2026-10-26T13:54:41.759+05:30",
       "labels": [
         "Industrial Policy",
         "Markets & Finance",
@@ -45462,13 +45605,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/10/thermocol-dissolves-in-orange-peel-oil.html",
       "slug": "thermocol-dissolves-in-orange-peel-oil",
       "published": "2026-10-10T09:50:59.000+05:30",
-      "updated": "2026-10-12T12:56:47.121+05:30",
+      "updated": "2026-10-26T14:20:37.890+05:30",
       "labels": [
         "Chemicals",
         "Climate & Carbon"
       ],
-      "bytes": 31926,
-      "sha256": "3755df908172952dfc5d0e84f97c2fa8842e6dccf2e34cb6a54226fb11c1d2e5",
+      "bytes": 34049,
+      "sha256": "c56a4b213db6385be73d9856167b25e7dc051c534fd1568fe7301add1512b39b",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -45480,7 +45623,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "2.0.0",
+      "version": "3.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -45501,6 +45644,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Thermocol: correct the CreaSolv claim (insolvency, GEC takeover, 2023 operation)"
+        },
+        {
+          "version": "3.0.0",
+          "date": "2026-10-26T14:22:26+05:30",
+          "level": "major",
+          "reason": "figures changed (+11/-0 distinct numbers)",
+          "bytes": [
+            31926,
+            34049
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "published 15 source-gap corrections (2026-10-25 audit)"
         }
       ]
     },
@@ -48885,15 +49041,15 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/indias-coffee-crop-hasnt-grown-in.html",
       "slug": "indias-coffee-crop-hasnt-grown-in",
       "published": "2026-08-24T14:55:25.000+05:30",
-      "updated": "2026-10-14T16:29:27.169+05:30",
+      "updated": "2026-10-26T14:19:49.753+05:30",
       "labels": [
         "Agriculture & Fertilisers",
         "Cash Crop Export Economics",
         "India",
         "Trade & Tariffs"
       ],
-      "bytes": 31875,
-      "sha256": "617f5c1d6684fd53137315c167888a687b54cf33a06fecd18b94253d0f862e75",
+      "bytes": 33420,
+      "sha256": "3c68e966514e66be348ac80e4a1e7db86169cdef384a16b4c75e530f979d01ef",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -48905,7 +49061,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "3.2.0",
+      "version": "4.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -49030,6 +49186,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Update notes 12-13 Oct 2026 from the currency sweeps (45 posts)"
+        },
+        {
+          "version": "4.0.0",
+          "date": "2026-10-26T14:22:26+05:30",
+          "level": "major",
+          "reason": "figures changed (+7/-0 distinct numbers)",
+          "bytes": [
+            31875,
+            33420
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "published 15 source-gap corrections (2026-10-25 audit)"
         }
       ]
     },
@@ -51020,7 +51189,7 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/cpi-inflation-heatmap-india-june-2026.html",
       "slug": "cpi-inflation-heatmap-india-june-2026",
       "published": "2026-08-02T14:05:22.000+05:30",
-      "updated": "2026-10-26T11:11:15.958+05:30",
+      "updated": "2026-10-26T13:54:08.065+05:30",
       "labels": [
         "Prices & Inflation"
       ],
@@ -61865,7 +62034,7 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/cpi-wpi-trends-mospi-bulletin.html",
       "slug": "cpi-wpi-trends-mospi-bulletin",
       "published": "2026-08-02T13:48:25.000+05:30",
-      "updated": "2026-10-26T11:11:25.076+05:30",
+      "updated": "2026-10-26T13:54:16.440+05:30",
       "labels": [
         "Prices & Inflation"
       ],
@@ -63383,14 +63552,14 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/the-milk-india-doesnt-drink-cheese-and.html",
       "slug": "the-milk-india-doesnt-drink-cheese-and",
       "published": "2026-08-19T06:37:02.000+05:30",
-      "updated": "2026-10-22T12:19:43.639+05:30",
+      "updated": "2026-10-26T14:20:21.675+05:30",
       "labels": [
         "Agriculture & Fertilisers",
         "Agriculture & Food Processing",
         "Livestock & Dairy"
       ],
-      "bytes": 43566,
-      "sha256": "c58dcaf65886f0466baad0e5bcefc30158bd6e0438c7066aaf60bedcc9430be0",
+      "bytes": 45322,
+      "sha256": "a591d01d9a5e49433899f1ed7b7600e41d237f95f895212640b51941f78afb85",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -63402,7 +63571,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "2.1.1",
+      "version": "3.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -63592,6 +63761,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Cheese post: link to whey follow-up"
+        },
+        {
+          "version": "3.0.0",
+          "date": "2026-10-26T14:22:26+05:30",
+          "level": "major",
+          "reason": "figures changed (+18/-0 distinct numbers)",
+          "bytes": [
+            43566,
+            45322
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "published 15 source-gap corrections (2026-10-25 audit)"
         }
       ]
     },
@@ -63946,7 +64128,7 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/a-17-rural-pay-rise-that-nobody-received.html",
       "slug": "a-17-rural-pay-rise-that-nobody-received",
       "published": "2026-08-22T11:06:55.000+05:30",
-      "updated": "2026-10-26T11:11:56.640+05:30",
+      "updated": "2026-10-26T13:54:50.756+05:30",
       "labels": [
         "Agriculture & Fertilisers",
         "India",
@@ -64476,13 +64658,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/10/bagasse-is-one-crop-residue-already.html",
       "slug": "bagasse-is-one-crop-residue-already",
       "published": "2026-10-10T10:00:57.000+05:30",
-      "updated": "2026-10-12T12:57:55.916+05:30",
+      "updated": "2026-10-26T14:19:09.157+05:30",
       "labels": [
         "Agriculture & Fertilisers",
         "Chemicals"
       ],
-      "bytes": 29137,
-      "sha256": "08612f9f54c9e7625840bc1b74a9b8307b4448da0d19a682918620939189c527",
+      "bytes": 31245,
+      "sha256": "746f8eddf08a2e64ba061eea4eff8df11d9a65cae5c42b130e249651bc5aaaad",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -64494,7 +64676,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.1.0",
+      "version": "2.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -64515,6 +64697,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Update notes 12 Oct 2026: bagasse sugar-season data, sucralose FSSAI and IDF, lysine price and EU inquiry"
+        },
+        {
+          "version": "2.0.0",
+          "date": "2026-10-26T14:22:26+05:30",
+          "level": "major",
+          "reason": "figures changed (+16/-1 distinct numbers)",
+          "bytes": [
+            29137,
+            31245
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "published 15 source-gap corrections (2026-10-25 audit)"
         }
       ]
     },

@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/what-sewage-disposal-in-key-parts-of.html",
   "slug": "what-sewage-disposal-in-key-parts-of",
   "published": "2026-09-03T06:14:39.000+05:30",
-  "updated": "2026-10-01T08:59:49.777+05:30",
+  "updated": "2026-10-26T14:20:47.069+05:30",
   "labels": [
     "Energy & Fuels"
   ],
-  "bytes": 50114,
-  "sha256": "1bf5106606c6a2d90617639f6697776b071aded56b9c191918dfc9fde8e7d44d",
+  "bytes": 51500,
+  "sha256": "7498c5024b52fa50a2fece11573df77b6c857d9e17da322e5d2f299ed8af114c",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.1.0",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -107,6 +107,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Rule 8 retrofit: added What would fix this section"
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-10-26T14:22:26+05:30",
+      "level": "major",
+      "reason": "figures changed (+14/-0 distinct numbers)",
+      "bytes": [
+        50114,
+        51500
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "published 15 source-gap corrections (2026-10-25 audit)"
     }
   ]
 }

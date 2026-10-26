@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/10/thermocol-dissolves-in-orange-peel-oil.html",
   "slug": "thermocol-dissolves-in-orange-peel-oil",
   "published": "2026-10-10T09:50:59.000+05:30",
-  "updated": "2026-10-12T12:56:47.121+05:30",
+  "updated": "2026-10-26T14:20:37.890+05:30",
   "labels": [
     "Chemicals",
     "Climate & Carbon"
   ],
-  "bytes": 31926,
-  "sha256": "3755df908172952dfc5d0e84f97c2fa8842e6dccf2e34cb6a54226fb11c1d2e5",
+  "bytes": 34049,
+  "sha256": "c56a4b213db6385be73d9856167b25e7dc051c534fd1568fe7301add1512b39b",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.0",
+  "version": "3.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -43,6 +43,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Thermocol: correct the CreaSolv claim (insolvency, GEC takeover, 2023 operation)"
+    },
+    {
+      "version": "3.0.0",
+      "date": "2026-10-26T14:22:26+05:30",
+      "level": "major",
+      "reason": "figures changed (+11/-0 distinct numbers)",
+      "bytes": [
+        31926,
+        34049
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "published 15 source-gap corrections (2026-10-25 audit)"
     }
   ]
 }
