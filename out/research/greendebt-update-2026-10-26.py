@@ -16,7 +16,7 @@ NOTE = ('<div class="warn" style="border-left:4px solid #a5402c;background:rgba(
         'a new 30-year green bond sold at a 6bp greenium in April 2026, the largest since January 2023, and has been reopened twice since (Section 5c). '
         'India&rsquo;s 10-year yield has risen to about 7.47% after the RBI&rsquo;s 7 October hike to 5.50%, and the Japan Credit Rating Agency raised India to A&minus; on 2 September 2026, '
         'which matters for yen funding (Section 7). Also added: CBI&rsquo;s first-half 2026 market totals, the rupee&rsquo;s late-October level, '
-        'and the effect of India&rsquo;s higher repo rate on the rate-gap table. The charts are not redrawn.</div>\n')
+        'and the effect of India&rsquo;s higher repo rate on the rate-gap table. The policy-rate chart in Section 5a now runs to October 2026.</div>\n')
 h1 = s.find('<h1'); first = s.find('<div class="gb-h2"', h1)
 s = s[:first] + NOTE + s[first:]
 
@@ -82,6 +82,62 @@ rep("All three ratings are foreign-currency long-term issuer ratings, the ones t
     "But it is one of the two domestic agencies that Japanese institutions commonly use, and yen-market issuers often carry a JCR or R&amp;I rating. "
     "On JCR&rsquo;s scale India is now A&minus;, with a country ceiling of A. That puts Indian sovereign-linked paper a notch or more higher for exactly the investor base the EuroYen route in this article serves. "
     "JCR cited growth near 7%, GST, digital public infrastructure and banks&rsquo; gross non-performing loans falling to 1.8% at the end of March 2026.</p>")
+
+
+# ---- policy-rate chart: decode the Jan 2020-Jul 2026 series and extend to Oct 2026 ----
+import re as _re
+a = s.index('<svg viewBox="0 0 720 380" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Central bank policy rates 2020-2026"')
+b = s.index('</svg>', a) + len('</svg>')
+old_svg = s[a:b]
+Y0, K, X0, X1 = 318.9, 42.13, 46.0, 570.0
+lines = _re.findall(r'<polyline points="([^"]+)" fill="none" stroke="(#[0-9a-f]{6})"', old_svg)
+assert len(lines) == 4
+series = []
+for pts, col in lines:
+    vals = [round(round((Y0 - float(p.split(',')[1])) / K / 0.005) * 0.005, 3) for p in pts.split()]
+    assert len(vals) == 79
+    series.append([vals, col])
+# Aug, Sep, Oct 2026 (month-end, Oct as of 26 Oct): RBI hike 7 Oct; Fed 17 Sep (mid-target);
+# ECB deposit rate 16 Sep; BoJ 18 Sep.
+EXT = [[5.25, 5.25, 5.50], [3.625, 3.875, 3.875], [2.25, 2.50, 2.50], [1.00, 1.25, 1.25]]
+assert [v[0][-1] for v in series] == [5.25, 3.625, 2.25, 1.0]
+for (vals, col), ext in zip(series, EXT):
+    vals += ext
+N = len(series[0][0])
+step = (X1 - X0) / (N - 1)
+X = lambda i: X0 + i * step
+Y = lambda v: Y0 - K * v
+out = ['<svg viewBox="0 0 720 380" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Central bank policy rates 2020-2026" style="max-width:100%;height:auto;background:#fff;font-family:-apple-system,Segoe UI,sans-serif">',
+       '<text x="46" y="16" font-size="13" font-weight="700" fill="#212529">Policy rates, Jan 2020 &#8211; Oct 2026 (%)</text>']
+for v in range(8):
+    out.append(f'<line x1="46" y1="{Y(v):.1f}" x2="570" y2="{Y(v):.1f}" stroke="#e9ecef" stroke-width="1"/>')
+    out.append(f'<text x="38" y="{Y(v) + 4:.1f}" font-size="11" fill="#868e96" text-anchor="end">{v}</text>')
+out.append(f'<line x1="46" y1="{Y(0):.1f}" x2="570" y2="{Y(0):.1f}" stroke="#adb5bd" stroke-width="1.2"/>')
+for k in range(7):
+    out.append(f'<text x="{X(12 * k):.1f}" y="366" font-size="11" fill="#868e96" text-anchor="middle">{2020 + k}</text>')
+for vals, col in series:
+    pts = ' '.join(f'{X(i):.1f},{Y(v):.1f}' for i, v in enumerate(vals))
+    out.append(f'<polyline points="{pts}" fill="none" stroke="{col}" stroke-width="2.4" stroke-linejoin="round"/>')
+labels = ['&#x1F1EE;&#x1F1F3; RBI (repo) 5.50%', '&#x1F1FA;&#x1F1F8; US Fed 3.88%', '&#x1F1EA;&#x1F1FA; ECB 2.50%', '&#x1F1EF;&#x1F1F5; Bank of Japan 1.25%']
+for (vals, col), lab in zip(series, labels):
+    out.append(f'<circle cx="{X(N - 1):.1f}" cy="{Y(vals[-1]):.1f}" r="3" fill="{col}"/>')
+    out.append(f'<text x="578" y="{Y(vals[-1]) + 4:.1f}" font-size="11.5" font-weight="600" fill="{col}">{lab}</text>')
+xj = X(48)
+out.append(f'<line x1="{xj:.1f}" y1="24" x2="{xj:.1f}" y2="340" stroke="#868e96" stroke-width="1" stroke-dasharray="4 3"/>')
+out.append(f'<text x="{xj + 5:.1f}" y="37" font-size="10.5" fill="#495057">REC &#165;61.1bn EuroYen, Jan 2024</text>')  # clear of the RBI line at 6.5%
+ia = N - 4  # July 2026: 5.25 vs 1.00; today 5.50 vs 1.25, the same 4.25 points
+xa = X(ia)
+out.append(f'<line x1="{xa:.1f}" y1="{Y(series[3][0][ia]) - 6:.1f}" x2="{xa:.1f}" y2="{Y(series[0][0][ia]) + 8:.1f}" stroke="#495057" stroke-width="1.4" marker-end="url(#arr)"/>')
+out.append('<defs><marker id="arr" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#495057"/></marker></defs>')
+out.append(f'<text x="{xa - 6:.1f}" y="187.3" font-size="10.5" fill="#495057" text-anchor="end">the carry: ~4.25pp</text>')
+out.append('</svg>')
+s = s[:a] + '\n'.join(out) + s[b:]
+rep("Dashed line marks REC's &#165;61.1&nbsp;bn EuroYen issue.</p>",
+    "Dashed line marks REC's &#165;61.1&nbsp;bn EuroYen issue. <b>Extended 26 October 2026</b> to October 2026 from the central banks&rsquo; own announcements: "
+    "Fed target range 3.75&ndash;4.00% from 17 September (mid-target 3.875% plotted), ECB deposit rate 2.50% from 16 September, Bank of Japan 1.25% from 18 September, RBI repo 5.50% from 7 October. "
+    "The October points are as of 26 October, before that week&rsquo;s Fed, ECB and Bank of Japan decisions. The euro line follows the ECB deposit facility rate from September 2024 on, as the original chart did.</p>")
+rep("The chart, its \"~4.25pp carry\" annotation and the gap table below are not redrawn and remain as of the 3 August 2026 data pull.",
+    "The chart above now runs to October 2026 (extended 26 October); the gap table below is still as of the 3 August 2026 data pull, with a note on what has changed.")
 
 # Sources line
 rep("Nothing here is investment advice.",
