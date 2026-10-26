@@ -4,25 +4,27 @@
 
 ## Totals
 
-- Active users: **240**
-- Total users: **240**
-- Page views: **652**
-- Sessions: **348**
+- Active users: **277**
+- Total users: **277**
+- Page views: **716**
+- Sessions: **391**
 
 ## Views by country (top 30)
 
 | Country | Active users | Page views |
 |---|---|---|
-| United States | 132 | 132 |
-| Singapore | 69 | 77 |
-| India | 27 | 428 |
+| United States | 149 | 149 |
+| Singapore | 68 | 76 |
+| India | 45 | 471 |
+| Germany | 3 | 5 |
 | Hong Kong | 2 | 2 |
 | Nigeria | 2 | 2 |
-| Australia | 1 | 1 |
+| Austria | 1 | 0 |
 | Bangladesh | 1 | 1 |
-| Germany | 1 | 1 |
 | Ireland | 1 | 1 |
 | Netherlands | 1 | 1 |
+| Russia | 1 | 1 |
+| Slovakia | 1 | 1 |
 | South Korea | 1 | 2 |
 | Sweden | 1 | 1 |
 | United Arab Emirates | 1 | 3 |
@@ -32,36 +34,36 @@
 
 | City | Active users | Page views |
 |---|---|---|
-| New York | 71 | 71 |
-| Singapore | 69 | 77 |
+| New York | 73 | 73 |
+| Singapore | 68 | 76 |
 | Chicago | 50 | 50 |
-| Coimbatore | 6 | 133 |
+| Hyderabad | 9 | 32 |
+| Mumbai | 9 | 205 |
+| Ashburn | 7 | 7 |
+| Coimbatore | 6 | 135 |
+| Reston | 6 | 6 |
 | Flint Hill | 5 | 5 |
-| Mumbai | 4 | 167 |
+| Delhi | 4 | 6 |
+| (not set) | 3 | 3 |
 | Bengaluru | 3 | 4 |
-| Hyderabad | 3 | 26 |
-| Madurai | 3 | 78 |
+| Madurai | 3 | 68 |
 | New Delhi | 3 | 3 |
 | Abuja | 2 | 2 |
-| Ashburn | 2 | 2 |
-| Delhi | 2 | 4 |
 | Hong Kong | 2 | 2 |
+| Kolkata | 2 | 2 |
 | Noida | 2 | 2 |
-| (not set) | 1 | 1 |
+| San Jose | 2 | 2 |
 | Amsterdam | 1 | 1 |
 | Anaheim | 1 | 1 |
+| Bratislava | 1 | 1 |
 | Budaun | 1 | 2 |
+| Chennai | 1 | 1 |
 | Dubai | 1 | 3 |
 | Dublin | 1 | 1 |
 | Faridabad | 1 | 1 |
+| Frankfurt am Main | 1 | 3 |
 | Freiburg im Breisgau | 1 | 1 |
 | Gwangmyeong-si | 1 | 2 |
-| Haiphong | 1 | 0 |
-| Jaipur | 1 | 2 |
-| Kallakurichi | 1 | 1 |
-| Kalmar | 1 | 1 |
-| Madaripur | 1 | 1 |
-| Manassas | 1 | 1 |
 
 ## City traffic-quality check (top 12 by page views)
 
@@ -69,43 +71,43 @@ Device/browser variety and engagement time are stronger bot signals than views/u
 
 | City | Page views | Active users | Views/user | Sessions | Avg engagement | Bounce rate | Top device/browser combos |
 |---|---|---|---|---|---|---|---|
-| Mumbai | 167 | 4 | 41.8 | 46 | 60s | 35% | desktop/Chrome (164); desktop/Edge (3) |
-| Coimbatore | 133 | 6 | 22.2 | 34 | 70s | 35% | desktop/Chrome (127); mobile/Chrome (4); desktop/Firefox (2) |
-| Madurai | 78 | 3 | 26.0 | 31 | 58s | 45% | desktop/Chrome (75); desktop/Safari (3) |
-| Singapore | 77 | 69 | 1.1 | 70 | 6s | 90% | desktop/Chrome (77) |
-| New York | 71 | 71 | 1.0 | 71 | 0s | 99% | desktop/Chrome (71) |
+| Mumbai | 205 | 9 | 22.8 | 60 | 55s | 38% | desktop/Chrome (202); desktop/Edge (3) |
+| Coimbatore | 135 | 6 | 22.5 | 34 | 75s | 32% | desktop/Chrome (130); mobile/Chrome (4); desktop/Firefox (1) |
+| Singapore | 76 | 68 | 1.1 | 69 | 6s | 90% | desktop/Chrome (76) |
+| New York | 73 | 73 | 1.0 | 73 | 0s | 99% | desktop/Chrome (73) |
+| Madurai | 68 | 3 | 22.7 | 27 | 45s | 44% | desktop/Chrome (65); desktop/Safari (3) |
 | Chicago | 50 | 50 | 1.0 | 50 | 0s | 100% | desktop/Chrome (50) |
-| Hyderabad | 26 | 3 | 8.7 | 3 | 61s | 0% | desktop/Chrome (25); mobile/Chrome (1) |
+| Hyderabad | 32 | 9 | 3.6 | 9 | 20s | 67% | desktop/Chrome (31); mobile/Chrome (1) |
+| Ashburn | 7 | 7 | 1.0 | 7 | 0s | 100% | desktop/Chrome (7) |
+| Reston | 6 | 6 | 1.0 | 6 | 1s | 100% | desktop/Chrome (6) |
+| Delhi | 6 | 4 | 1.5 | 4 | 26s | 50% | mobile/Android Webview (3); desktop/Chrome (2); mobile/Safari (1) |
 | Flint Hill | 5 | 5 | 1.0 | 5 | 3s | 60% | desktop/Chrome (5) |
 | Bengaluru | 4 | 3 | 1.3 | 3 | 50s | 33% | desktop/Edge (3); desktop/Chrome (1) |
-| Delhi | 4 | 2 | 2.0 | 2 | 52s | 0% | mobile/Android Webview (3); mobile/Safari (1) |
-| New Delhi | 3 | 3 | 1.0 | 5 | 49s | 60% | desktop/Chrome (2); desktop/Edge (1) |
-| Dubai | 3 | 1 | 3.0 | 3 | 39s | 33% | desktop/Chrome (3) |
 
 ## Top pages (top 20)
 
 | Page path | Page views | Active users |
 |---|---|---|
-| / | 256 | 29 |
-| /search | 31 | 5 |
-| /2026/08/article-index-start-here.html | 29 | 4 |
+| / | 278 | 36 |
+| /search | 35 | 5 |
+| /2026/08/article-index-start-here.html | 30 | 4 |
 | /2026/10/indias-ethanol-surplus-buys-about-five.html | 15 | 10 |
 | /2026/10/cotton-stalk-is-one-of-hardest-crop.html | 8 | 3 |
 | /2026/10/the-lpg-distributors-commission-rose-16.html | 7 | 3 |
+| /2026/10/ethanol-plants-that-trade-maize-to.html | 6 | 3 |
 | /2026/10/every-litre-of-petrol-pays-5-for-roads.html | 6 | 3 |
-| /2026/10/ethanol-plants-that-trade-maize-to.html | 5 | 2 |
+| /2026/10/europe-wants-green-steel-it-cant-afford.html | 5 | 5 |
+| /2026/10/how-to-use-focus-sector-investor-map.html | 5 | 5 |
 | /2026/10/indias-factory-intentions-20012024-how_0101046393.html | 5 | 4 |
 | /2026/08/where-indias-green-hydrogen-bets-are.html | 4 | 2 |
-| /2026/09/india-imports-60-of-its-cooking-gas.html | 4 | 2 |
 | /2026/10/abu-dhabi-paid-2-billion-for-binance.html | 4 | 3 |
+| /2026/10/how-to-use-discom-debt-and-revenue.html | 4 | 4 |
 | /2026/10/india-imports-whey-protein-its-cheese.html | 4 | 3 |
 | /2026/10/indias-2026-27-ethanol-tender-drops.html | 4 | 2 |
 | /2026/10/indias-factory-intentions-20012024-how.html | 4 | 1 |
 | /2026/10/petrol-pump-margins-and-e20-one-dealer.html | 4 | 3 |
 | /2026/08/the-hydrogen-bill-hiding-inside-indias.html | 3 | 2 |
-| /2026/09/india-sells-world-about-third-of-its.html | 3 | 3 |
-| /2026/09/indias-cotton-yield-fell-from-566-kg-to.html | 3 | 2 |
-| /2026/10/bagasse-is-one-crop-residue-already.html | 3 | 3 |
+| /2026/09/india-imports-60-of-its-cooking-gas.html | 3 | 2 |
 
 ## Likely human readership
 
@@ -113,41 +115,41 @@ Heuristic, not a bot filter. GA4 already drops crawlers on the IAB list; what ge
 
 | Class | Cities | Active users | Page views | Sessions | Engaged sessions |
 |---|---|---|---|---|---|
-| Human-like | 22 | 183 | 589 | 288 | 103 |
-| Bot-like (no engaged session) | 13 | 64 | 63 | 64 | 0 |
+| Human-like | 26 | 204 | 637 | 314 | 113 |
+| Bot-like (no engaged session) | 19 | 81 | 79 | 81 | 0 |
 
 ### Human-like cities (top 20 by engaged sessions)
 
 | City | Engaged sessions | Sessions | Active users | Page views | Avg engagement / session |
 |---|---|---|---|---|---|
-| Mumbai | 30 | 46 | 4 | 167 | 60s |
-| Coimbatore | 22 | 34 | 6 | 133 | 70s |
-| Madurai | 17 | 31 | 3 | 78 | 58s |
-| Singapore | 7 | 70 | 69 | 77 | 6s |
-| Hyderabad | 3 | 3 | 3 | 26 | 61s |
+| Mumbai | 37 | 60 | 9 | 205 | 55s |
+| Coimbatore | 23 | 34 | 6 | 135 | 75s |
+| Madurai | 15 | 27 | 3 | 68 | 45s |
+| Singapore | 7 | 69 | 68 | 76 | 6s |
+| Hyderabad | 3 | 9 | 9 | 32 | 20s |
 | New Delhi | 2 | 5 | 3 | 3 | 49s |
 | Bengaluru | 2 | 3 | 3 | 4 | 50s |
 | Dubai | 2 | 3 | 1 | 3 | 39s |
-| Delhi | 2 | 2 | 2 | 4 | 52s |
+| Delhi | 2 | 4 | 4 | 6 | 26s |
 | Budaun | 2 | 2 | 1 | 2 | 44s |
 | Noida | 2 | 2 | 2 | 2 | 20s |
 | Flint Hill | 2 | 5 | 5 | 5 | 3s |
 | Jaipur | 1 | 1 | 1 | 2 | 199s |
+| (not set) | 1 | 3 | 3 | 3 | 12s |
 | Varanasi | 1 | 1 | 1 | 1 | 30s |
 | Dublin | 1 | 1 | 1 | 1 | 24s |
+| Pune | 1 | 1 | 1 | 1 | 21s |
 | Gwangmyeong-si | 1 | 1 | 1 | 2 | 16s |
 | Amsterdam | 1 | 1 | 1 | 1 | 12s |
-| Kallakurichi | 1 | 1 | 1 | 1 | 2s |
-| Hong Kong | 1 | 2 | 2 | 2 | 0s |
-| New York | 1 | 71 | 71 | 71 | 0s |
+| San Jose | 1 | 2 | 2 | 2 | 5s |
 
 ### Pages read by likely humans (top 20 by engaged sessions)
 
 | Page path | Engaged sessions | Page views | Active users | Avg engagement / view |
 |---|---|---|---|---|
-| / | 81 | 256 | 29 | 11s |
-| /2026/08/article-index-start-here.html | 18 | 29 | 4 | 26s |
-| /search | 12 | 31 | 5 | 14s |
+| / | 89 | 278 | 36 | 8s |
+| /2026/08/article-index-start-here.html | 18 | 30 | 4 | 25s |
+| /search | 15 | 35 | 5 | 13s |
 | /2026/10/indias-ethanol-surplus-buys-about-five.html | 9 | 15 | 10 | 61s |
 | /2026/10/cotton-stalk-is-one-of-hardest-crop.html | 5 | 8 | 3 | 30s |
 | /2026/10/every-litre-of-petrol-pays-5-for-roads.html | 4 | 6 | 3 | 25s |
@@ -159,9 +161,9 @@ Heuristic, not a bot filter. GA4 already drops crawlers on the IAB list; what ge
 | /2026/10/abu-dhabi-paid-2-billion-for-binance.html | 3 | 4 | 3 | 17s |
 | /2026/10/ai-is-not-taking-indias-offshore-work.html | 2 | 2 | 1 | 78s |
 | /2026/10/indias-factory-intentions-20012024-how.html | 2 | 4 | 1 | 37s |
+| /2026/10/indias-biggest-mandi-crops-have.html | 2 | 2 | 1 | 67s |
 | /2026/10/india-imported-28-million-of-sucralose.html | 2 | 3 | 3 | 44s |
 | /2026/10/india-imports-whey-protein-its-cheese.html | 2 | 4 | 3 | 32s |
 | /2026/10/india-tracks-every-taxpayer-in-minutes.html | 2 | 3 | 1 | 30s |
+| /2026/10/to-comply-or-not-to-comply-cbam-costs.html | 2 | 2 | 2 | 38s |
 | /2026/10/bagasse-is-one-crop-residue-already.html | 2 | 3 | 3 | 24s |
-| /2026/08/where-indias-green-hydrogen-bets-are.html | 2 | 4 | 2 | 6s |
-| /2026/10/refiners-won-exemption-fight-biofuels.html | 2 | 3 | 3 | 5s |
