@@ -15876,3 +15876,15 @@ published 15 source-gap corrections (2026-10-25 audit)
 - `airbags-and-seat-belts-are-import-heavy` — 30,399 → 31,927 bytes (+1,528)
 - `where-worlds-oil-sits-when-it-isnt` — 50,976 → 53,111 bytes (+2,135)
 - `the-recycling-lottery-playbook-norways` — 32,000 → 35,562 bytes (+3,562)
+
+## 2026-10-26T14:49:21+05:30 — 424 posts live
+
+published 4 new posts from the 2026-10-26 commission batch
+
+
+**Added**
+
+- `a-hectare-under-power-line-now-pays` **v1.0.0** — A Hectare Under a Power Line Now Pays Three to Six Times What One Over a Pipeline Does (28,065 bytes)
+- `indias-approved-solar-cell-makers-can` **v1.0.0** — India's Approved Solar-Cell Makers Can Now Make 37.8 GW a Year. Rooftop Projects Have Until 31 December to Use Them (26,727 bytes)
+- `the-phone-plis-successor-pays-up-to-5` **v1.0.0** — The Phone PLI's Successor Pays Up to 5%, Wants 15% Growth a Year, and Offers 0.2% to Make the Cell Here (26,401 bytes)
+- `india-ordered-112-captive-coal-plants` **v1.0.0** — India Ordered 112 Captive Coal Plants to Run Flat Out as Exchange Prices Rose 50% in a Month, With Coal Stocks Steady (25,856 bytes)
