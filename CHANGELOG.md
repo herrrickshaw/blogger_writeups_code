@@ -15733,3 +15733,34 @@ Index: date-wise and month-wise view
 **Changed**
 
 - `article-index-start-here` — 814,949 → 834,493 bytes (+19,544)
+
+## 2026-10-26T08:59:49+05:30 — 420 posts live
+
+Crosscheck 26 Oct: stale figures corrected in 10 posts (CAQM, gas grid, GDP, H2 tenders, wind, IOCL PII, rupee, Dahej)
+
+
+**Versions**
+
+- `a-2013-vision-saw-india-needing-746` **1.1.1 → 2.0.0** (MAJOR) — forced via --as major (figures changed (+3/-0 distinct numbers))
+- `indias-gas-pipelines-run-at-half` **1.2.1 → 2.0.0** (MAJOR) — forced via --as major (figures changed (+6/-0 distinct numbers))
+- `the-hydrogen-bill-hiding-inside-indias` **1.1.1 → 2.0.0** (MAJOR) — forced via --as major (figures changed (+5/-0 distinct numbers))
+- `india-imports-283000-tonnes-of-almonds` **2.2.0 → 3.0.0** (MAJOR) — forced via --as major (figures changed (+5/-0 distinct numbers))
+- `574-gw-and-counting-indias-wind-fleet` **2.1.1 → 3.0.0** (MAJOR) — forced via --as major (figures changed (+2/-0 distinct numbers))
+- `financing-fuel-to-chemicals-pivot-how` **2.1.0 → 3.0.0** (MAJOR) — forced via --as major (figures changed (+1/-0 distinct numbers))
+- `what-india-is-actually-paying-for` **2.1.2 → 3.0.0** (MAJOR) — forced via --as major (figures changed (+0/-0 distinct numbers))
+- `indias-coking-coal-import-problem-and` **3.1.0 → 4.0.0** (MAJOR) — forced via --as major (figures changed (+0/-0 distinct numbers))
+- `europe-bought-record-amount-of-lng-and` **8.1.0 → 9.0.0** (MAJOR) — forced via --as major (figures changed (+1/-0 distinct numbers))
+- `five-year-synthesis-trade-currency` **2.2.1 → 3.0.0** (MAJOR) — forced via --as major (figures changed (+5/-0 distinct numbers))
+
+**Changed**
+
+- `a-2013-vision-saw-india-needing-746` — 28,197 → 28,917 bytes (+720)
+- `indias-gas-pipelines-run-at-half` — 35,619 → 36,516 bytes (+897)
+- `the-hydrogen-bill-hiding-inside-indias` — 45,529 → 46,344 bytes (+815)
+- `india-imports-283000-tonnes-of-almonds` — 34,710 → 35,236 bytes (+526)
+- `574-gw-and-counting-indias-wind-fleet` — 25,243 → 25,894 bytes (+651)
+- `financing-fuel-to-chemicals-pivot-how` — 27,175 → 27,797 bytes (+622)
+- `what-india-is-actually-paying-for` — 39,494 → 39,791 bytes (+297)
+- `indias-coking-coal-import-problem-and` — 48,785 → 49,496 bytes (+711)
+- `europe-bought-record-amount-of-lng-and` — 45,539 → 46,109 bytes (+570)
+- `five-year-synthesis-trade-currency` — 50,440 → 50,988 bytes (+548)

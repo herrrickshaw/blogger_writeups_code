@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/financing-fuel-to-chemicals-pivot-how.html",
   "slug": "financing-fuel-to-chemicals-pivot-how",
   "published": "2026-08-14T11:33:51.000+05:30",
-  "updated": "2026-10-01T08:22:04.443+05:30",
+  "updated": "2026-10-26T08:59:05.171+05:30",
   "labels": [
     "Energy & Fuels",
     "Refining & Petrochemicals"
   ],
-  "bytes": 27175,
-  "sha256": "b81073065a246146b1c997c78f9529df1511fa973051dd8fa2e11ab95c0dcbaa",
+  "bytes": 27797,
+  "sha256": "05159f9be6a50dd36b59ae29fdffbdb503619db85b6d99943bd469949b643340",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.1.0",
+  "version": "3.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -160,6 +160,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Rule 8 retrofit: added What would fix this section"
+    },
+    {
+      "version": "3.0.0",
+      "date": "2026-10-26T08:59:49+05:30",
+      "level": "major",
+      "reason": "forced via --as major (figures changed (+1/-0 distinct numbers))",
+      "bytes": [
+        27175,
+        27797
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Crosscheck 26 Oct: stale figures corrected in 10 posts (CAQM, gas grid, GDP, H2 tenders, wind, IOCL PII, rupee, Dahej)"
     }
   ]
 }

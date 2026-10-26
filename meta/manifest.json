@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-10-25T07:38:13+05:30",
+  "snapshot": "2026-10-26T08:59:49+05:30",
   "count": 420,
   "posts": {
     "1023631151138981087": {
@@ -16012,13 +16012,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/india-imports-283000-tonnes-of-almonds.html",
       "slug": "india-imports-283000-tonnes-of-almonds",
       "published": "2026-08-21T23:00:40.000+05:30",
-      "updated": "2026-10-14T16:25:47.194+05:30",
+      "updated": "2026-10-26T08:59:13.725+05:30",
       "labels": [
         "Trade & Tariffs",
         "Trade Remedies & Antidumping"
       ],
-      "bytes": 34710,
-      "sha256": "d5b2853996bd20015fd4a8d9e1011b63832dcdaeab4a4bff45d70a04be391d05",
+      "bytes": 35236,
+      "sha256": "3950b8451796742dd76f5ad929e584837e24176cff169978f18fb7e2f9d9a662",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -16030,7 +16030,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "2.2.0",
+      "version": "3.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -16155,6 +16155,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Update notes 12-13 Oct 2026 from the currency sweeps (45 posts)"
+        },
+        {
+          "version": "3.0.0",
+          "date": "2026-10-26T08:59:49+05:30",
+          "level": "major",
+          "reason": "forced via --as major (figures changed (+5/-0 distinct numbers))",
+          "bytes": [
+            34710,
+            35236
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Crosscheck 26 Oct: stale figures corrected in 10 posts (CAQM, gas grid, GDP, H2 tenders, wind, IOCL PII, rupee, Dahej)"
         }
       ]
     },
@@ -17247,13 +17260,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/five-year-synthesis-trade-currency.html",
       "slug": "five-year-synthesis-trade-currency",
       "published": "2026-08-02T13:51:50.000+05:30",
-      "updated": "2026-10-23T10:00:46.478+05:30",
+      "updated": "2026-10-26T08:58:42.380+05:30",
       "labels": [
         "Industrial Policy",
         "Trade & Tariffs"
       ],
-      "bytes": 50440,
-      "sha256": "cacd79094bafef9111e8f78581a71b15fa74d1866e01ed2534e53f4a27917e86",
+      "bytes": 50988,
+      "sha256": "5004e6de98b20fa752fc71af1426a889e74da4f9cf0e57bc64604d2cb226e8a0",
       "markers": {
         "light_lock": true,
         "dark_panel_guard": true,
@@ -17265,7 +17278,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "2.2.1",
+      "version": "3.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -17560,6 +17573,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Sweep 4 MEDIUM items: dated update notes on 59 posts"
+        },
+        {
+          "version": "3.0.0",
+          "date": "2026-10-26T08:59:49+05:30",
+          "level": "major",
+          "reason": "forced via --as major (figures changed (+5/-0 distinct numbers))",
+          "bytes": [
+            50440,
+            50988
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Crosscheck 26 Oct: stale figures corrected in 10 posts (CAQM, gas grid, GDP, H2 tenders, wind, IOCL PII, rupee, Dahej)"
         }
       ]
     },
@@ -18176,12 +18202,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/what-india-is-actually-paying-for.html",
       "slug": "what-india-is-actually-paying-for",
       "published": "2026-08-14T08:10:54.000+05:30",
-      "updated": "2026-10-23T10:10:34.780+05:30",
+      "updated": "2026-10-26T08:59:20.740+05:30",
       "labels": [
         "Macroeconomics & Monetary Policy"
       ],
-      "bytes": 39494,
-      "sha256": "0ade889c961efafcdc2ca0d465ece95b34ad46dda1b90f2d51fecea182f35144",
+      "bytes": 39791,
+      "sha256": "91da8d6f2eb1af88e642fb23ec5d7a327c4aefb5d39ba6e68fd7ad1d85906a6f",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -18193,7 +18219,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "2.1.2",
+      "version": "3.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -18357,6 +18383,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Sweep-4 MEDIUM fixes and 2011-12 base corrections"
+        },
+        {
+          "version": "3.0.0",
+          "date": "2026-10-26T08:59:49+05:30",
+          "level": "major",
+          "reason": "forced via --as major (figures changed (+0/-0 distinct numbers))",
+          "bytes": [
+            39494,
+            39791
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Crosscheck 26 Oct: stale figures corrected in 10 posts (CAQM, gas grid, GDP, H2 tenders, wind, IOCL PII, rupee, Dahej)"
         }
       ]
     },
@@ -25317,14 +25356,14 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/574-gw-and-counting-indias-wind-fleet.html",
       "slug": "574-gw-and-counting-indias-wind-fleet",
       "published": "2026-08-21T04:04:01.000+05:30",
-      "updated": "2026-10-23T09:58:23.663+05:30",
+      "updated": "2026-10-26T08:58:57.267+05:30",
       "labels": [
         "Energy & Fuels",
         "India Trade & Policy",
         "Renewable Power & Storage"
       ],
-      "bytes": 25243,
-      "sha256": "83b5342e43a6f4651595c4f31eaccd9bb51a9a0842e40d076d402dc1500aed49",
+      "bytes": 25894,
+      "sha256": "d4c7fafe9df49c8f65287ab71fbeb0f0c409d4e3ba31fde77347594f217db504",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -25336,7 +25375,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "2.1.1",
+      "version": "3.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -25461,6 +25500,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Sweep 4 MEDIUM items: dated update notes on 59 posts"
+        },
+        {
+          "version": "3.0.0",
+          "date": "2026-10-26T08:59:49+05:30",
+          "level": "major",
+          "reason": "forced via --as major (figures changed (+2/-0 distinct numbers))",
+          "bytes": [
+            25243,
+            25894
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Crosscheck 26 Oct: stale figures corrected in 10 posts (CAQM, gas grid, GDP, H2 tenders, wind, IOCL PII, rupee, Dahej)"
         }
       ]
     },
@@ -29711,15 +29763,15 @@
       "url": "https://masaladeutsch.blogspot.com/2026/09/a-2013-vision-saw-india-needing-746.html",
       "slug": "a-2013-vision-saw-india-needing-746",
       "published": "2026-09-09T07:20:06.000+05:30",
-      "updated": "2026-10-23T09:58:34.509+05:30",
+      "updated": "2026-10-26T08:58:34.393+05:30",
       "labels": [
         "Energy & Fuels",
         "Gas & LNG",
         "Gas Pipeline Infrastructure & Demand Planning",
         "Macroeconomics & Monetary Policy"
       ],
-      "bytes": 28197,
-      "sha256": "cd8b44f0b38d45c25ff6b4537171ad7590cd37e8734a05c6f9cac46ce8c5d4d1",
+      "bytes": 28917,
+      "sha256": "0bac8ba86235626919babb0304778a0db9b1ad3b79ed39d8840344262ba4c728",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -29731,7 +29783,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.1.1",
+      "version": "2.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -29791,6 +29843,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Sweep 4 MEDIUM items: dated update notes on 59 posts"
+        },
+        {
+          "version": "2.0.0",
+          "date": "2026-10-26T08:59:49+05:30",
+          "level": "major",
+          "reason": "forced via --as major (figures changed (+3/-0 distinct numbers))",
+          "bytes": [
+            28197,
+            28917
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Crosscheck 26 Oct: stale figures corrected in 10 posts (CAQM, gas grid, GDP, H2 tenders, wind, IOCL PII, rupee, Dahej)"
         }
       ]
     },
@@ -31584,12 +31649,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/indias-coking-coal-import-problem-and.html",
       "slug": "indias-coking-coal-import-problem-and",
       "published": "2026-08-14T07:34:14.000+05:30",
-      "updated": "2026-10-01T08:33:17.243+05:30",
+      "updated": "2026-10-26T08:58:20.589+05:30",
       "labels": [
         "Import Substitution"
       ],
-      "bytes": 48785,
-      "sha256": "d79e8121b5b40bf8ea81f44bafbf1785f5dc4fac19a5a1b0d5f5e92db1d3db7c",
+      "bytes": 49496,
+      "sha256": "2a45d91e9c2d55cdcf6c6fe9890c0b86029dbc8cca876483d722df98d674532a",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -31601,7 +31666,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "3.1.0",
+      "version": "4.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -31739,6 +31804,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Rule 8 retrofit: added What would fix this section"
+        },
+        {
+          "version": "4.0.0",
+          "date": "2026-10-26T08:59:49+05:30",
+          "level": "major",
+          "reason": "forced via --as major (figures changed (+0/-0 distinct numbers))",
+          "bytes": [
+            48785,
+            49496
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Crosscheck 26 Oct: stale figures corrected in 10 posts (CAQM, gas grid, GDP, H2 tenders, wind, IOCL PII, rupee, Dahej)"
         }
       ]
     },
@@ -45276,15 +45354,15 @@
       "url": "https://masaladeutsch.blogspot.com/2026/09/indias-gas-pipelines-run-at-half.html",
       "slug": "indias-gas-pipelines-run-at-half",
       "published": "2026-09-08T05:37:01.000+05:30",
-      "updated": "2026-10-23T10:03:45.405+05:30",
+      "updated": "2026-10-26T08:58:27.435+05:30",
       "labels": [
         "Energy & Fuels",
         "Gas & LNG",
         "Gas Pipeline Infrastructure & Demand Planning",
         "Industrial Policy"
       ],
-      "bytes": 35619,
-      "sha256": "cfba8095c5e287892d7e407e587fe380e13f0b8bf8659380a3113d8e344cad15",
+      "bytes": 36516,
+      "sha256": "55a90b2a39a5fb71834ecd67b646e13ff1775a16e4b9a9b20d190806ca486ecc",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -45296,7 +45374,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.2.1",
+      "version": "2.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -45382,6 +45460,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Sweep 4 MEDIUM items: dated update notes on 59 posts"
+        },
+        {
+          "version": "2.0.0",
+          "date": "2026-10-26T08:59:49+05:30",
+          "level": "major",
+          "reason": "forced via --as major (figures changed (+6/-0 distinct numbers))",
+          "bytes": [
+            35619,
+            36516
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Crosscheck 26 Oct: stale figures corrected in 10 posts (CAQM, gas grid, GDP, H2 tenders, wind, IOCL PII, rupee, Dahej)"
         }
       ]
     },
@@ -49707,13 +49798,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/financing-fuel-to-chemicals-pivot-how.html",
       "slug": "financing-fuel-to-chemicals-pivot-how",
       "published": "2026-08-14T11:33:51.000+05:30",
-      "updated": "2026-10-01T08:22:04.443+05:30",
+      "updated": "2026-10-26T08:59:05.171+05:30",
       "labels": [
         "Energy & Fuels",
         "Refining & Petrochemicals"
       ],
-      "bytes": 27175,
-      "sha256": "b81073065a246146b1c997c78f9529df1511fa973051dd8fa2e11ab95c0dcbaa",
+      "bytes": 27797,
+      "sha256": "05159f9be6a50dd36b59ae29fdffbdb503619db85b6d99943bd469949b643340",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -49725,7 +49816,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "2.1.0",
+      "version": "3.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -49863,6 +49954,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Rule 8 retrofit: added What would fix this section"
+        },
+        {
+          "version": "3.0.0",
+          "date": "2026-10-26T08:59:49+05:30",
+          "level": "major",
+          "reason": "forced via --as major (figures changed (+1/-0 distinct numbers))",
+          "bytes": [
+            27175,
+            27797
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Crosscheck 26 Oct: stale figures corrected in 10 posts (CAQM, gas grid, GDP, H2 tenders, wind, IOCL PII, rupee, Dahej)"
         }
       ]
     },
@@ -60605,15 +60709,15 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/the-hydrogen-bill-hiding-inside-indias.html",
       "slug": "the-hydrogen-bill-hiding-inside-indias",
       "published": "2026-08-26T19:10:24.000+05:30",
-      "updated": "2026-10-23T10:09:37.096+05:30",
+      "updated": "2026-10-26T08:58:50.308+05:30",
       "labels": [
         "Energy & Fuels",
         "Ethanol & Biofuels",
         "Hydrogen",
         "Industrial Policy"
       ],
-      "bytes": 45529,
-      "sha256": "64ed6163318d2b8105556bf3941c435cc92eade04eb544a4f3e4aa68761cb9df",
+      "bytes": 46344,
+      "sha256": "8655bcb38a82eb5b80b9ec14d6a29cdc3ea40cd7e848e5278180c1cc2c60813c",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -60625,7 +60729,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.1.1",
+      "version": "2.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -60724,6 +60828,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Sweep 4 MEDIUM items: dated update notes on 59 posts"
+        },
+        {
+          "version": "2.0.0",
+          "date": "2026-10-26T08:59:49+05:30",
+          "level": "major",
+          "reason": "forced via --as major (figures changed (+5/-0 distinct numbers))",
+          "bytes": [
+            45529,
+            46344
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Crosscheck 26 Oct: stale figures corrected in 10 posts (CAQM, gas grid, GDP, H2 tenders, wind, IOCL PII, rupee, Dahej)"
         }
       ]
     },
@@ -61965,15 +62082,15 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/europe-bought-record-amount-of-lng-and.html",
       "slug": "europe-bought-record-amount-of-lng-and",
       "published": "2026-08-08T10:31:50.000+05:30",
-      "updated": "2026-10-01T08:20:43.803+05:30",
+      "updated": "2026-10-26T08:59:27.688+05:30",
       "labels": [
         "Gas & LNG",
         "Global LNG Markets",
         "Industrial Policy",
         "Trade & Tariffs"
       ],
-      "bytes": 45539,
-      "sha256": "9e51be700b92a6b8b84b73884387b5bdcaec96a3c51d9cdb33a8232785cda21b",
+      "bytes": 46109,
+      "sha256": "b6c9b5034d55a95f3b294753c34604d5ebdac0150cad195b3ef6561074cd3721",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -61985,7 +62102,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "8.1.0",
+      "version": "9.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -62279,6 +62396,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Rule 8 retrofit: added What would fix this section"
+        },
+        {
+          "version": "9.0.0",
+          "date": "2026-10-26T08:59:49+05:30",
+          "level": "major",
+          "reason": "forced via --as major (figures changed (+1/-0 distinct numbers))",
+          "bytes": [
+            45539,
+            46109
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Crosscheck 26 Oct: stale figures corrected in 10 posts (CAQM, gas grid, GDP, H2 tenders, wind, IOCL PII, rupee, Dahej)"
         }
       ]
     },

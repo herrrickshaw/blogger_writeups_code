@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/what-india-is-actually-paying-for.html",
   "slug": "what-india-is-actually-paying-for",
   "published": "2026-08-14T08:10:54.000+05:30",
-  "updated": "2026-10-23T10:10:34.780+05:30",
+  "updated": "2026-10-26T08:59:20.740+05:30",
   "labels": [
     "Macroeconomics & Monetary Policy"
   ],
-  "bytes": 39494,
-  "sha256": "0ade889c961efafcdc2ca0d465ece95b34ad46dda1b90f2d51fecea182f35144",
+  "bytes": 39791,
+  "sha256": "91da8d6f2eb1af88e642fb23ec5d7a327c4aefb5d39ba6e68fd7ad1d85906a6f",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.1.2",
+  "version": "3.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -185,6 +185,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Sweep-4 MEDIUM fixes and 2011-12 base corrections"
+    },
+    {
+      "version": "3.0.0",
+      "date": "2026-10-26T08:59:49+05:30",
+      "level": "major",
+      "reason": "forced via --as major (figures changed (+0/-0 distinct numbers))",
+      "bytes": [
+        39494,
+        39791
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Crosscheck 26 Oct: stale figures corrected in 10 posts (CAQM, gas grid, GDP, H2 tenders, wind, IOCL PII, rupee, Dahej)"
     }
   ]
 }

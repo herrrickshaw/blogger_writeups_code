@@ -4,15 +4,15 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/indias-gas-pipelines-run-at-half.html",
   "slug": "indias-gas-pipelines-run-at-half",
   "published": "2026-09-08T05:37:01.000+05:30",
-  "updated": "2026-10-23T10:03:45.405+05:30",
+  "updated": "2026-10-26T08:58:27.435+05:30",
   "labels": [
     "Energy & Fuels",
     "Gas & LNG",
     "Gas Pipeline Infrastructure & Demand Planning",
     "Industrial Policy"
   ],
-  "bytes": 35619,
-  "sha256": "cfba8095c5e287892d7e407e587fe380e13f0b8bf8659380a3113d8e344cad15",
+  "bytes": 36516,
+  "sha256": "55a90b2a39a5fb71834ecd67b646e13ff1775a16e4b9a9b20d190806ca486ecc",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.2.1",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -110,6 +110,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Sweep 4 MEDIUM items: dated update notes on 59 posts"
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-10-26T08:59:49+05:30",
+      "level": "major",
+      "reason": "forced via --as major (figures changed (+6/-0 distinct numbers))",
+      "bytes": [
+        35619,
+        36516
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Crosscheck 26 Oct: stale figures corrected in 10 posts (CAQM, gas grid, GDP, H2 tenders, wind, IOCL PII, rupee, Dahej)"
     }
   ]
 }

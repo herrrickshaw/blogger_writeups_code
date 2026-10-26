@@ -4,15 +4,15 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/the-hydrogen-bill-hiding-inside-indias.html",
   "slug": "the-hydrogen-bill-hiding-inside-indias",
   "published": "2026-08-26T19:10:24.000+05:30",
-  "updated": "2026-10-23T10:09:37.096+05:30",
+  "updated": "2026-10-26T08:58:50.308+05:30",
   "labels": [
     "Energy & Fuels",
     "Ethanol & Biofuels",
     "Hydrogen",
     "Industrial Policy"
   ],
-  "bytes": 45529,
-  "sha256": "64ed6163318d2b8105556bf3941c435cc92eade04eb544a4f3e4aa68761cb9df",
+  "bytes": 46344,
+  "sha256": "8655bcb38a82eb5b80b9ec14d6a29cdc3ea40cd7e848e5278180c1cc2c60813c",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.1.1",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -123,6 +123,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Sweep 4 MEDIUM items: dated update notes on 59 posts"
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-10-26T08:59:49+05:30",
+      "level": "major",
+      "reason": "forced via --as major (figures changed (+5/-0 distinct numbers))",
+      "bytes": [
+        45529,
+        46344
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Crosscheck 26 Oct: stale figures corrected in 10 posts (CAQM, gas grid, GDP, H2 tenders, wind, IOCL PII, rupee, Dahej)"
     }
   ]
 }

@@ -4,15 +4,15 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/a-2013-vision-saw-india-needing-746.html",
   "slug": "a-2013-vision-saw-india-needing-746",
   "published": "2026-09-09T07:20:06.000+05:30",
-  "updated": "2026-10-23T09:58:34.509+05:30",
+  "updated": "2026-10-26T08:58:34.393+05:30",
   "labels": [
     "Energy & Fuels",
     "Gas & LNG",
     "Gas Pipeline Infrastructure & Demand Planning",
     "Macroeconomics & Monetary Policy"
   ],
-  "bytes": 28197,
-  "sha256": "cd8b44f0b38d45c25ff6b4537171ad7590cd37e8734a05c6f9cac46ce8c5d4d1",
+  "bytes": 28917,
+  "sha256": "0bac8ba86235626919babb0304778a0db9b1ad3b79ed39d8840344262ba4c728",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.1.1",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -84,6 +84,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Sweep 4 MEDIUM items: dated update notes on 59 posts"
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-10-26T08:59:49+05:30",
+      "level": "major",
+      "reason": "forced via --as major (figures changed (+3/-0 distinct numbers))",
+      "bytes": [
+        28197,
+        28917
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Crosscheck 26 Oct: stale figures corrected in 10 posts (CAQM, gas grid, GDP, H2 tenders, wind, IOCL PII, rupee, Dahej)"
     }
   ]
 }
