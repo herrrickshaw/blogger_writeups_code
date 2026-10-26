@@ -163,9 +163,10 @@
   "published": "2026-08-21",
   "countries": [],
   "states": [
+   "Maharashtra",
    "Gujarat",
    "Tamil Nadu",
-   "Maharashtra"
+   "Rajasthan"
   ],
   "entities": [],
   "related": []
@@ -340,30 +341,39 @@
     "shared": [
      "Coal"
     ],
-    "w": 0.071
+    "w": 0.067
    },
    {
     "slug": "the-reactor-nobody-names-how-coal",
     "shared": [
      "Coal"
     ],
-    "w": 0.071
+    "w": 0.067
    },
    {
     "slug": "price-is-wire-how-gcam-actually-links",
     "shared": [
      "Coal"
     ],
-    "w": 0.071
+    "w": 0.067
    },
    {
     "slug": "nine-ministries-one-list-every-company",
     "shared": [
      "Coal"
     ],
-    "w": 0.071
+    "w": 0.067
    }
   ]
+ },
+ "a-hectare-under-power-line-now-pays": {
+  "title": "A Hectare Under a Power Line Now Pays Three to Six Times What One Over a Pipeline Does",
+  "url": "https://masaladeutsch.blogspot.com/2026/10/a-hectare-under-power-line-now-pays.html",
+  "published": "2026-10-26",
+  "countries": [],
+  "states": [],
+  "entities": [],
+  "related": []
  },
  "a-million-wine-market-behind-150-wall": {
   "title": "A $195 Million Wine Market Behind a 150% Wall, and the Deal That Cracks It",
@@ -413,7 +423,7 @@
      "Ethanol",
      "Petrol"
     ],
-    "w": 0.09
+    "w": 0.089
    },
    {
     "slug": "blending-on-budget-energy-density-and",
@@ -423,7 +433,7 @@
      "Ethanol",
      "Petrol"
     ],
-    "w": 0.09
+    "w": 0.089
    },
    {
     "slug": "article-index-start-here",
@@ -433,7 +443,7 @@
      "Ethanol",
      "Petrol"
     ],
-    "w": 0.09
+    "w": 0.089
    },
    {
     "slug": "annadata-to-urjadata-farmer-income-case",
@@ -443,7 +453,7 @@
      "Ethanol",
      "Petrol"
     ],
-    "w": 0.09
+    "w": 0.089
    }
   ]
  },
@@ -533,28 +543,28 @@
     "shared": [
      "Textiles"
     ],
-    "w": 0.05
+    "w": 0.048
    },
    {
     "slug": "the-rupee-fell-10-and-exports-grew-09",
     "shared": [
      "Textiles"
     ],
-    "w": 0.05
+    "w": 0.048
    },
    {
     "slug": "the-50-tariff-and-234-one-untangling",
     "shared": [
      "Textiles"
     ],
-    "w": 0.05
+    "w": 0.048
    },
    {
     "slug": "textile-hsn-deep-dive-apparel-vs-mmf",
     "shared": [
      "Textiles"
     ],
-    "w": 0.05
+    "w": 0.048
    }
   ]
  },
@@ -689,7 +699,7 @@
     "shared": [
      "Textiles"
     ],
-    "w": 0.3
+    "w": 0.298
    }
   ]
  },
@@ -752,7 +762,7 @@
      "Natural gas",
      "Petrol"
     ],
-    "w": 0.163
+    "w": 0.162
    },
    {
     "slug": "article-index-start-here",
@@ -764,7 +774,7 @@
      "Natural gas",
      "Petrol"
     ],
-    "w": 0.155
+    "w": 0.154
    },
    {
     "slug": "one-nation-one-ration-card-doesnt-move",
@@ -793,28 +803,28 @@
     "shared": [
      "Textiles"
     ],
-    "w": 0.05
+    "w": 0.048
    },
    {
     "slug": "the-rupee-fell-10-and-exports-grew-09",
     "shared": [
      "Textiles"
     ],
-    "w": 0.05
+    "w": 0.048
    },
    {
     "slug": "the-50-tariff-and-234-one-untangling",
     "shared": [
      "Textiles"
     ],
-    "w": 0.05
+    "w": 0.048
    },
    {
     "slug": "textile-hsn-deep-dive-apparel-vs-mmf",
     "shared": [
      "Textiles"
     ],
-    "w": 0.05
+    "w": 0.048
    }
   ]
  },
@@ -1070,7 +1080,7 @@
      "Petrol",
      "Textiles"
     ],
-    "w": 0.064
+    "w": 0.062
    },
    {
     "slug": "nine-ministries-one-list-every-company",
@@ -1078,7 +1088,7 @@
      "Petrol",
      "Textiles"
     ],
-    "w": 0.064
+    "w": 0.062
    },
    {
     "slug": "ipa-digital-twin-reportage-latest",
@@ -1086,15 +1096,15 @@
      "Petrol",
      "Textiles"
     ],
-    "w": 0.064
+    "w": 0.062
    },
    {
-    "slug": "from-fuel-to-fibre-indias-textile",
+    "slug": "indias-carbon-credit-market-domestic",
     "shared": [
      "Petrol",
      "Textiles"
     ],
-    "w": 0.064
+    "w": 0.062
    }
   ]
  },
@@ -1118,20 +1128,21 @@
   ],
   "related": [
    {
+    "slug": "indias-carbon-credit-market-domestic",
+    "shared": [
+     "Carbon credits",
+     "Compressed biogas",
+     "Petrol"
+    ],
+    "w": 0.144
+   },
+   {
     "slug": "indias-renewable-energy-certificates",
     "shared": [
      "Carbon credits",
      "Urea"
     ],
     "w": 0.136
-   },
-   {
-    "slug": "indias-carbon-credit-market-domestic",
-    "shared": [
-     "Carbon credits",
-     "Compressed biogas"
-    ],
-    "w": 0.129
    },
    {
     "slug": "blending-on-budget-energy-density-and",
@@ -1269,7 +1280,7 @@
      "Petrol",
      "Urea"
     ],
-    "w": 0.137
+    "w": 0.136
    },
    {
     "slug": "annadata-to-urjadata-farmer-income-case",
@@ -1280,7 +1291,7 @@
      "Natural gas",
      "Petrol"
     ],
-    "w": 0.13
+    "w": 0.129
    },
    {
     "slug": "indias-coal-to-chemicals-menu-ranked-by",
@@ -1374,7 +1385,7 @@
      "Rupee",
      "TradeStat"
     ],
-    "w": 1.078
+    "w": 1.077
    },
    {
     "slug": "securitising-deficit-what-it-would",
@@ -1383,7 +1394,7 @@
      "Rupee",
      "TradeStat"
     ],
-    "w": 1.078
+    "w": 1.077
    },
    {
     "slug": "where-indias-forex-goes-country",
@@ -1665,7 +1676,7 @@
      "Anti-dumping",
      "PLI scheme"
     ],
-    "w": 0.202
+    "w": 0.201
    },
    {
     "slug": "the-50-tariff-and-234-one-untangling",
@@ -1920,14 +1931,14 @@
    "Telangana",
    "Andhra Pradesh",
    "Tamil Nadu",
+   "Bihar",
    "Maharashtra",
    "Gujarat",
+   "Uttar Pradesh",
    "Karnataka",
    "Punjab",
-   "Bihar",
    "West Bengal",
    "Kerala",
-   "Uttar Pradesh",
    "Rajasthan"
   ],
   "entities": [
@@ -1974,7 +1985,9 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/cpi-wpi-trends-mospi-bulletin.html",
   "published": "2026-08-02",
   "countries": [],
-  "states": [],
+  "states": [
+   "Tamil Nadu"
+  ],
   "entities": [
    "WPI",
    "CPI"
@@ -2046,7 +2059,7 @@
      "Natural gas",
      "Petrol"
     ],
-    "w": 0.126
+    "w": 0.121
    },
    {
     "slug": "nature-versus-nurture-indias-fertiliser",
@@ -2055,7 +2068,7 @@
      "Natural gas",
      "Petrol"
     ],
-    "w": 0.126
+    "w": 0.121
    },
    {
     "slug": "indias-coal-to-chemicals-menu-ranked-by",
@@ -2063,14 +2076,14 @@
      "Coal",
      "Natural gas"
     ],
-    "w": 0.111
+    "w": 0.107
    },
    {
     "slug": "where-indias-captured-carbon-would",
     "shared": [
      "Coal"
     ],
-    "w": 0.071
+    "w": 0.067
    }
   ]
  },
@@ -2316,7 +2329,7 @@
      "PLI scheme",
      "TradeStat"
     ],
-    "w": 0.057
+    "w": 0.055
    },
    {
     "slug": "top-15-chemicals-for-import",
@@ -2324,7 +2337,15 @@
      "PLI scheme",
      "TradeStat"
     ],
-    "w": 0.057
+    "w": 0.055
+   },
+   {
+    "slug": "the-phone-plis-successor-pays-up-to-5",
+    "shared": [
+     "PLI scheme",
+     "TradeStat"
+    ],
+    "w": 0.055
    },
    {
     "slug": "priority-trade-partners-by-import",
@@ -2332,15 +2353,7 @@
      "PLI scheme",
      "TradeStat"
     ],
-    "w": 0.057
-   },
-   {
-    "slug": "priority-export-destinations-by-growth",
-    "shared": [
-     "PLI scheme",
-     "TradeStat"
-    ],
-    "w": 0.057
+    "w": 0.055
    }
   ]
  },
@@ -2473,7 +2486,7 @@
      "PLI scheme",
      "TradeStat"
     ],
-    "w": 0.378
+    "w": 0.377
    },
    {
     "slug": "what-india-is-actually-paying-for",
@@ -2481,7 +2494,7 @@
      "CPI",
      "TradeStat"
     ],
-    "w": 0.343
+    "w": 0.342
    },
    {
     "slug": "chemical-import-substitution-full-hsn-8_01082878313",
@@ -2564,7 +2577,7 @@
      "Coal",
      "Ethanol"
     ],
-    "w": 0.086
+    "w": 0.081
    },
    {
     "slug": "indias-coal-to-chemicals-menu-ranked-by",
@@ -2572,21 +2585,21 @@
      "Coal",
      "Ethanol"
     ],
-    "w": 0.086
+    "w": 0.081
    },
    {
     "slug": "where-indias-captured-carbon-would",
     "shared": [
      "Coal"
     ],
-    "w": 0.071
+    "w": 0.067
    },
    {
     "slug": "price-is-wire-how-gcam-actually-links",
     "shared": [
      "Coal"
     ],
-    "w": 0.071
+    "w": 0.067
    }
   ]
  },
@@ -2745,7 +2758,7 @@
      "PPAC",
      "Petrol"
     ],
-    "w": 0.161
+    "w": 0.16
    },
    {
     "slug": "india-mineral-oil-hsn-ch27-trade",
@@ -2842,7 +2855,7 @@
      "Rupee",
      "TradeStat"
     ],
-    "w": 0.303
+    "w": 0.302
    },
    {
     "slug": "securitising-deficit-what-it-would",
@@ -2850,7 +2863,7 @@
      "Rupee",
      "TradeStat"
     ],
-    "w": 0.303
+    "w": 0.302
    },
    {
     "slug": "if-india-paid-brics-in-rupees-scenario",
@@ -2858,7 +2871,7 @@
      "Rupee",
      "TradeStat"
     ],
-    "w": 0.303
+    "w": 0.302
    },
    {
     "slug": "can-rupee-trade-actually-offset",
@@ -2866,7 +2879,7 @@
      "Rupee",
      "TradeStat"
     ],
-    "w": 0.303
+    "w": 0.302
    }
   ]
  },
@@ -3036,7 +3049,7 @@
      "PLI scheme",
      "Rupee"
     ],
-    "w": 0.067
+    "w": 0.066
    },
    {
     "slug": "where-indias-forex-goes-country",
@@ -3044,7 +3057,7 @@
      "PLI scheme",
      "TradeStat"
     ],
-    "w": 0.057
+    "w": 0.055
    },
    {
     "slug": "top-15-chemicals-for-import",
@@ -3052,15 +3065,15 @@
      "PLI scheme",
      "TradeStat"
     ],
-    "w": 0.057
+    "w": 0.055
    },
    {
-    "slug": "priority-trade-partners-by-import",
+    "slug": "the-phone-plis-successor-pays-up-to-5",
     "shared": [
      "PLI scheme",
      "TradeStat"
     ],
-    "w": 0.057
+    "w": 0.055
    }
   ]
  },
@@ -3084,7 +3097,7 @@
      "Import substitution",
      "PLI scheme"
     ],
-    "w": 0.377
+    "w": 0.375
    },
    {
     "slug": "chemical-import-substitution-analysis",
@@ -3107,7 +3120,7 @@
      "PLI scheme",
      "TradeStat"
     ],
-    "w": 0.307
+    "w": 0.305
    }
   ]
  },
@@ -3374,7 +3387,7 @@
      "Textiles",
      "TradeStat"
     ],
-    "w": 0.1
+    "w": 0.097
    },
    {
     "slug": "textile-hsn-deep-dive-apparel-vs-mmf",
@@ -3382,7 +3395,7 @@
      "Textiles",
      "TradeStat"
     ],
-    "w": 0.071
+    "w": 0.068
    },
    {
     "slug": "priority-export-destinations-by-growth",
@@ -3390,7 +3403,7 @@
      "Textiles",
      "TradeStat"
     ],
-    "w": 0.071
+    "w": 0.068
    },
    {
     "slug": "indias-trade-balance-hsn-wise",
@@ -3398,7 +3411,7 @@
      "Textiles",
      "TradeStat"
     ],
-    "w": 0.071
+    "w": 0.068
    }
   ]
  },
@@ -3502,7 +3515,7 @@
      "PPAC",
      "Petrol"
     ],
-    "w": 0.13
+    "w": 0.129
    },
    {
     "slug": "the-case-for-biofuels-over-imports",
@@ -3536,7 +3549,7 @@
      "Steel",
      "TradeStat"
     ],
-    "w": 0.097
+    "w": 0.095
    },
    {
     "slug": "indias-subsidised-imports-fertilisers",
@@ -3545,7 +3558,7 @@
      "Steel",
      "TradeStat"
     ],
-    "w": 0.097
+    "w": 0.095
    },
    {
     "slug": "rare-earth-magnets-and-specialty-steel",
@@ -3553,7 +3566,7 @@
      "PLI scheme",
      "Steel"
     ],
-    "w": 0.076
+    "w": 0.074
    },
    {
     "slug": "nine-ministries-one-list-every-company",
@@ -3561,7 +3574,7 @@
      "PLI scheme",
      "Steel"
     ],
-    "w": 0.076
+    "w": 0.074
    }
   ]
  },
@@ -3732,7 +3745,7 @@
     "shared": [
      "Textiles"
     ],
-    "w": 0.55
+    "w": 0.548
    },
    {
     "slug": "indias-new-car-rules-count-every-ev-as",
@@ -3754,7 +3767,7 @@
      "Ethanol",
      "Textiles"
     ],
-    "w": 0.314
+    "w": 0.312
    }
   ]
  },
@@ -3769,8 +3782,8 @@
   "entities": [
    "CBAM",
    "Carbon credits",
-   "Steel",
-   "Textiles"
+   "Textiles",
+   "Steel"
   ],
   "related": [
    {
@@ -3919,7 +3932,7 @@
      "Coal",
      "Steel"
     ],
-    "w": 0.111
+    "w": 0.107
    },
    {
     "slug": "indias-coking-coal-import-problem-and",
@@ -3927,7 +3940,7 @@
      "Coal",
      "Steel"
     ],
-    "w": 0.111
+    "w": 0.107
    },
    {
     "slug": "indias-coal-to-chemicals-menu-ranked-by",
@@ -3935,7 +3948,7 @@
      "Coal",
      "Steel"
     ],
-    "w": 0.111
+    "w": 0.107
    },
    {
     "slug": "europe-wants-green-steel-it-cant-afford",
@@ -3943,7 +3956,7 @@
      "Coal",
      "Steel"
     ],
-    "w": 0.111
+    "w": 0.107
    }
   ]
  },
@@ -4301,7 +4314,7 @@
      "Coal",
      "Urea"
     ],
-    "w": 0.117
+    "w": 0.112
    },
    {
     "slug": "nature-versus-nurture-indias-fertiliser",
@@ -4309,7 +4322,7 @@
      "Coal",
      "Urea"
     ],
-    "w": 0.117
+    "w": 0.112
    },
    {
     "slug": "indias-coal-to-chemicals-menu-ranked-by",
@@ -4317,14 +4330,14 @@
      "Coal",
      "Urea"
     ],
-    "w": 0.117
+    "w": 0.112
    },
    {
     "slug": "where-indias-captured-carbon-would",
     "shared": [
      "Coal"
     ],
-    "w": 0.071
+    "w": 0.067
    }
   ]
  },
@@ -4852,7 +4865,7 @@
      "Rupee",
      "TradeStat"
     ],
-    "w": 0.553
+    "w": 0.552
    },
    {
     "slug": "securitising-deficit-what-it-would",
@@ -4860,7 +4873,7 @@
      "Rupee",
      "TradeStat"
     ],
-    "w": 0.553
+    "w": 0.552
    },
    {
     "slug": "can-rupee-trade-actually-offset",
@@ -4868,7 +4881,7 @@
      "Rupee",
      "TradeStat"
     ],
-    "w": 0.553
+    "w": 0.552
    },
    {
     "slug": "where-rupee-actually-stands-ten-years",
@@ -4898,7 +4911,7 @@
      "TradeStat",
      "Urea"
     ],
-    "w": 0.107
+    "w": 0.106
    },
    {
     "slug": "indias-coal-to-chemicals-menu-ranked-by",
@@ -4933,8 +4946,8 @@
   "countries": [],
   "states": [],
   "entities": [
-   "WPI",
    "Diesel",
+   "WPI",
    "Urea",
    "CPI"
   ],
@@ -5013,21 +5026,21 @@
     "shared": [
      "PLI scheme"
     ],
-    "w": 0.286
+    "w": 0.284
    },
    {
     "slug": "top-15-chemicals-for-import",
     "shared": [
      "PLI scheme"
     ],
-    "w": 0.286
+    "w": 0.284
    },
    {
     "slug": "rare-earth-magnets-and-specialty-steel",
     "shared": [
      "PLI scheme"
     ],
-    "w": 0.286
+    "w": 0.284
    }
   ]
  },
@@ -5060,7 +5073,7 @@
      "PLI scheme",
      "TradeStat"
     ],
-    "w": 0.557
+    "w": 0.555
    },
    {
     "slug": "priority-export-destinations-by-growth",
@@ -5068,7 +5081,7 @@
      "PLI scheme",
      "TradeStat"
     ],
-    "w": 0.557
+    "w": 0.555
    },
    {
     "slug": "what-india-is-actually-paying-for",
@@ -5141,7 +5154,7 @@
      "Ethanol",
      "TradeStat"
     ],
-    "w": 0.286
+    "w": 0.285
    },
    {
     "slug": "ethanol-freed-up-refinery-capacity-for",
@@ -5149,7 +5162,7 @@
      "Ethanol",
      "TradeStat"
     ],
-    "w": 0.286
+    "w": 0.285
    },
    {
     "slug": "where-indias-forex-goes-country",
@@ -5476,28 +5489,28 @@
     "shared": [
      "Coal"
     ],
-    "w": 0.071
+    "w": 0.067
    },
    {
     "slug": "the-reactor-nobody-names-how-coal",
     "shared": [
      "Coal"
     ],
-    "w": 0.071
+    "w": 0.067
    },
    {
     "slug": "price-is-wire-how-gcam-actually-links",
     "shared": [
      "Coal"
     ],
-    "w": 0.071
+    "w": 0.067
    },
    {
     "slug": "nine-ministries-one-list-every-company",
     "shared": [
      "Coal"
     ],
-    "w": 0.071
+    "w": 0.067
    }
   ]
  },
@@ -5827,28 +5840,28 @@
     "shared": [
      "Textiles"
     ],
-    "w": 0.3
+    "w": 0.298
    },
    {
     "slug": "we-fact-checked-66-investment",
     "shared": [
      "Textiles"
     ],
-    "w": 0.05
+    "w": 0.048
    },
    {
     "slug": "the-rupee-fell-10-and-exports-grew-09",
     "shared": [
      "Textiles"
     ],
-    "w": 0.05
+    "w": 0.048
    },
    {
     "slug": "textile-hsn-deep-dive-apparel-vs-mmf",
     "shared": [
      "Textiles"
     ],
-    "w": 0.05
+    "w": 0.048
    }
   ]
  },
@@ -5928,7 +5941,7 @@
      "Petrol",
      "TradeStat"
     ],
-    "w": 0.333
+    "w": 0.332
    },
    {
     "slug": "article-index-start-here",
@@ -5957,6 +5970,46 @@
      "Petrol"
     ],
     "w": 0.14
+   }
+  ]
+ },
+ "india-ordered-112-captive-coal-plants": {
+  "title": "India Ordered 112 Captive Coal Plants to Run Flat Out as Exchange Prices Rose 50% in a Month, With Coal Stocks Steady",
+  "url": "https://masaladeutsch.blogspot.com/2026/10/india-ordered-112-captive-coal-plants.html",
+  "published": "2026-10-26",
+  "countries": [],
+  "states": [],
+  "entities": [
+   "Coal"
+  ],
+  "related": [
+   {
+    "slug": "where-indias-captured-carbon-would",
+    "shared": [
+     "Coal"
+    ],
+    "w": 0.067
+   },
+   {
+    "slug": "the-reactor-nobody-names-how-coal",
+    "shared": [
+     "Coal"
+    ],
+    "w": 0.067
+   },
+   {
+    "slug": "price-is-wire-how-gcam-actually-links",
+    "shared": [
+     "Coal"
+    ],
+    "w": 0.067
+   },
+   {
+    "slug": "nine-ministries-one-list-every-company",
+    "shared": [
+     "Coal"
+    ],
+    "w": 0.067
    }
   ]
  },
@@ -6092,7 +6145,7 @@
      "Petrol",
      "TradeStat"
     ],
-    "w": 0.333
+    "w": 0.332
    },
    {
     "slug": "india-mineral-oil-hsn-ch27-trade",
@@ -6114,7 +6167,7 @@
      "PPAC",
      "Petrol"
     ],
-    "w": 0.115
+    "w": 0.114
    },
    {
     "slug": "fuel-pricing-to-crude-cost",
@@ -6125,7 +6178,7 @@
      "PPAC",
      "Petrol"
     ],
-    "w": 0.115
+    "w": 0.114
    }
   ]
  },
@@ -6243,7 +6296,7 @@
      "FDI",
      "PLI scheme"
     ],
-    "w": 0.136
+    "w": 0.134
    },
    {
     "slug": "india-approved-15-lakh-crore-in",
@@ -6251,7 +6304,7 @@
      "FDI",
      "PLI scheme"
     ],
-    "w": 0.136
+    "w": 0.134
    },
    {
     "slug": "where-indias-fdi-actually-lands-state",
@@ -6513,7 +6566,7 @@
      "Import substitution",
      "PLI scheme"
     ],
-    "w": 0.377
+    "w": 0.375
    },
    {
     "slug": "chemical-import-substitution-full-hsn-8_01082878313",
@@ -6534,7 +6587,7 @@
     "shared": [
      "PLI scheme"
     ],
-    "w": 0.286
+    "w": 0.284
    }
   ]
  },
@@ -6627,6 +6680,18 @@
    }
   ]
  },
+ "indias-approved-solar-cell-makers-can": {
+  "title": "India's Approved Solar-Cell Makers Can Now Make 37.8 GW a Year. Rooftop Projects Have Until 31 December to Use Them",
+  "url": "https://masaladeutsch.blogspot.com/2026/10/indias-approved-solar-cell-makers-can.html",
+  "published": "2026-10-26",
+  "countries": [],
+  "states": [
+   "Gujarat",
+   "Tamil Nadu"
+  ],
+  "entities": [],
+  "related": []
+ },
  "indias-battery-storage-boom-is": {
   "title": "India's Battery Storage Boom Is Outrunning Both Its Tariffs and Its Factories",
   "url": "https://masaladeutsch.blogspot.com/2026/09/indias-battery-storage-boom-is.html",
@@ -6718,9 +6783,29 @@
   "entities": [
    "Carbon credits",
    "Compressed biogas",
-   "Steel"
+   "Steel",
+   "Petrol",
+   "Textiles"
   ],
   "related": [
+   {
+    "slug": "greenhouse-emissions-reduction-and-cbam",
+    "shared": [
+     "Carbon credits",
+     "Steel",
+     "Textiles"
+    ],
+    "w": 0.179
+   },
+   {
+    "slug": "bio-fertiliser-and-green-credits",
+    "shared": [
+     "Carbon credits",
+     "Compressed biogas",
+     "Petrol"
+    ],
+    "w": 0.144
+   },
    {
     "slug": "to-comply-or-not-to-comply-cbam-costs",
     "shared": [
@@ -6736,22 +6821,6 @@
      "Steel"
     ],
     "w": 0.131
-   },
-   {
-    "slug": "greenhouse-emissions-reduction-and-cbam",
-    "shared": [
-     "Carbon credits",
-     "Steel"
-    ],
-    "w": 0.131
-   },
-   {
-    "slug": "bio-fertiliser-and-green-credits",
-    "shared": [
-     "Carbon credits",
-     "Compressed biogas"
-    ],
-    "w": 0.129
    }
   ]
  },
@@ -6833,7 +6902,7 @@
      "Natural gas",
      "Urea"
     ],
-    "w": 0.407
+    "w": 0.402
    },
    {
     "slug": "the-reactor-nobody-names-how-coal",
@@ -6842,7 +6911,7 @@
      "Ethanol",
      "Urea"
     ],
-    "w": 0.381
+    "w": 0.377
    },
    {
     "slug": "article-index-start-here",
@@ -6860,7 +6929,7 @@
      "Coal",
      "Steel"
     ],
-    "w": 0.361
+    "w": 0.357
    }
   ]
  },
@@ -6948,6 +7017,14 @@
   ],
   "related": [
    {
+    "slug": "indias-carbon-credit-market-domestic",
+    "shared": [
+     "Compressed biogas",
+     "Textiles"
+    ],
+    "w": 0.086
+   },
+   {
     "slug": "interest-subvention-built-499-ethanol",
     "shared": [
      "Compressed biogas",
@@ -6970,13 +7047,6 @@
      "Sugar"
     ],
     "w": 0.082
-   },
-   {
-    "slug": "we-fact-checked-66-investment",
-    "shared": [
-     "Textiles"
-    ],
-    "w": 0.05
    }
   ]
  },
@@ -7188,7 +7258,7 @@
      "Petrol",
      "Urea"
     ],
-    "w": 0.387
+    "w": 0.386
    },
    {
     "slug": "indias-new-car-rules-count-every-ev-as",
@@ -7198,7 +7268,7 @@
      "Ethanol",
      "Petrol"
     ],
-    "w": 0.347
+    "w": 0.346
    },
    {
     "slug": "one-gallon-five-numbers-how-gcam-fits",
@@ -7533,28 +7603,28 @@
     "shared": [
      "PLI scheme"
     ],
-    "w": 0.036
+    "w": 0.034
    },
    {
     "slug": "where-indias-forex-goes-country",
     "shared": [
      "PLI scheme"
     ],
-    "w": 0.036
+    "w": 0.034
    },
    {
     "slug": "top-15-chemicals-for-import",
     "shared": [
      "PLI scheme"
     ],
-    "w": 0.036
+    "w": 0.034
    },
    {
-    "slug": "the-most-discussed-schemes-in",
+    "slug": "the-phone-plis-successor-pays-up-to-5",
     "shared": [
      "PLI scheme"
     ],
-    "w": 0.036
+    "w": 0.034
    }
   ]
  },
@@ -7833,7 +7903,7 @@
      "PLI scheme",
      "TradeStat"
     ],
-    "w": 0.307
+    "w": 0.305
    },
    {
     "slug": "top-15-chemicals-for-import",
@@ -7841,7 +7911,7 @@
      "PLI scheme",
      "TradeStat"
     ],
-    "w": 0.307
+    "w": 0.305
    },
    {
     "slug": "priority-trade-partners-by-import",
@@ -7849,7 +7919,7 @@
      "PLI scheme",
      "TradeStat"
     ],
-    "w": 0.307
+    "w": 0.305
    },
    {
     "slug": "priority-export-destinations-by-growth",
@@ -7857,7 +7927,7 @@
      "PLI scheme",
      "TradeStat"
     ],
-    "w": 0.307
+    "w": 0.305
    }
   ]
  },
@@ -7885,28 +7955,28 @@
     "shared": [
      "PLI scheme"
     ],
-    "w": 0.036
+    "w": 0.034
    },
    {
     "slug": "where-indias-forex-goes-country",
     "shared": [
      "PLI scheme"
     ],
-    "w": 0.036
+    "w": 0.034
    },
    {
     "slug": "top-15-chemicals-for-import",
     "shared": [
      "PLI scheme"
     ],
-    "w": 0.036
+    "w": 0.034
    },
    {
-    "slug": "the-most-discussed-schemes-in",
+    "slug": "the-phone-plis-successor-pays-up-to-5",
     "shared": [
      "PLI scheme"
     ],
-    "w": 0.036
+    "w": 0.034
    }
   ]
  },
@@ -8235,7 +8305,7 @@
      "Petrol",
      "TradeStat"
     ],
-    "w": 0.058
+    "w": 0.057
    },
    {
     "slug": "petroleum-trade-pairings-and-us-crude",
@@ -8244,7 +8314,7 @@
      "Petrol",
      "TradeStat"
     ],
-    "w": 0.058
+    "w": 0.057
    },
    {
     "slug": "india-sells-world-53-billion-of-fuel",
@@ -8253,7 +8323,7 @@
      "Petrol",
      "TradeStat"
     ],
-    "w": 0.058
+    "w": 0.057
    },
    {
     "slug": "india-mineral-oil-hsn-ch27-trade",
@@ -8262,7 +8332,7 @@
      "Petrol",
      "TradeStat"
     ],
-    "w": 0.058
+    "w": 0.057
    }
   ]
  },
@@ -8293,7 +8363,7 @@
      "FDI",
      "PLI scheme"
     ],
-    "w": 0.136
+    "w": 0.134
    },
    {
     "slug": "india-approved-15-lakh-crore-in",
@@ -8301,7 +8371,7 @@
      "FDI",
      "PLI scheme"
     ],
-    "w": 0.136
+    "w": 0.134
    },
    {
     "slug": "where-indias-fdi-actually-lands-state",
@@ -8340,7 +8410,7 @@
      "TradeStat",
      "Urea"
     ],
-    "w": 0.107
+    "w": 0.106
    },
    {
     "slug": "priority-trade-partners-by-import",
@@ -8349,7 +8419,7 @@
      "Steel",
      "TradeStat"
     ],
-    "w": 0.097
+    "w": 0.095
    },
    {
     "slug": "fy2025-26-sample-report-india-trade",
@@ -8358,7 +8428,7 @@
      "Steel",
      "TradeStat"
     ],
-    "w": 0.097
+    "w": 0.095
    },
    {
     "slug": "you-cannot-substitute-crude-oil-or-gold",
@@ -8434,7 +8504,7 @@
      "Rupee",
      "Textiles"
     ],
-    "w": 0.081
+    "w": 0.079
    },
    {
     "slug": "ipa-digital-twin-reportage-latest",
@@ -8442,7 +8512,7 @@
      "Rupee",
      "Textiles"
     ],
-    "w": 0.081
+    "w": 0.079
    },
    {
     "slug": "textile-hsn-deep-dive-apparel-vs-mmf",
@@ -8450,7 +8520,7 @@
      "Textiles",
      "TradeStat"
     ],
-    "w": 0.071
+    "w": 0.068
    },
    {
     "slug": "re-spinning-charkha",
@@ -8458,7 +8528,7 @@
      "Textiles",
      "TradeStat"
     ],
-    "w": 0.071
+    "w": 0.068
    }
   ]
  },
@@ -8479,28 +8549,28 @@
     "shared": [
      "PLI scheme"
     ],
-    "w": 0.036
+    "w": 0.034
    },
    {
     "slug": "where-indias-forex-goes-country",
     "shared": [
      "PLI scheme"
     ],
-    "w": 0.036
+    "w": 0.034
    },
    {
     "slug": "top-15-chemicals-for-import",
     "shared": [
      "PLI scheme"
     ],
-    "w": 0.036
+    "w": 0.034
    },
    {
-    "slug": "the-most-discussed-schemes-in",
+    "slug": "the-phone-plis-successor-pays-up-to-5",
     "shared": [
      "PLI scheme"
     ],
-    "w": 0.036
+    "w": 0.034
    }
   ]
  },
@@ -8676,6 +8746,15 @@
     "w": 0.571
    }
   ]
+ },
+ "indias-winter-harvest-now-outgrows-its": {
+  "title": "India’s Winter Harvest Now Outgrows Its Monsoon One. Kharif, Rabi and Zaid, Crop by Crop: Area, Yield and When It Reaches the Mandi",
+  "url": "https://masaladeutsch.blogspot.com/2026/10/indias-winter-harvest-now-outgrows-its.html",
+  "published": "2026-10-25",
+  "countries": [],
+  "states": [],
+  "entities": [],
+  "related": []
  },
  "inflation-trends-globally-what-five": {
   "title": "Inflation Trends Globally: What Five Years Actually Cost",
@@ -8886,7 +8965,7 @@
     "shared": [
      "PLI scheme"
     ],
-    "w": 0.286
+    "w": 0.284
    },
    {
     "slug": "the-currency-rupee-trends-piece-left",
@@ -8961,28 +9040,28 @@
     "shared": [
      "PLI scheme"
     ],
-    "w": 0.286
+    "w": 0.284
    },
    {
     "slug": "top-15-chemicals-for-import",
     "shared": [
      "PLI scheme"
     ],
-    "w": 0.286
+    "w": 0.284
    },
    {
     "slug": "rare-earth-magnets-and-specialty-steel",
     "shared": [
      "PLI scheme"
     ],
-    "w": 0.286
+    "w": 0.284
    },
    {
     "slug": "priority-trade-partners-by-import",
     "shared": [
      "PLI scheme"
     ],
-    "w": 0.286
+    "w": 0.284
    }
   ]
  },
@@ -9264,7 +9343,7 @@
     "w": 0.054
    },
    {
-    "slug": "from-barrel-to-bottle-petrochemical",
+    "slug": "indias-carbon-credit-market-domestic",
     "shared": [
      "Petrol",
      "Steel"
@@ -9487,7 +9566,7 @@
      "Natural gas",
      "Urea"
     ],
-    "w": 0.407
+    "w": 0.402
    },
    {
     "slug": "article-index-start-here",
@@ -9505,7 +9584,7 @@
      "Coal",
      "Urea"
     ],
-    "w": 0.367
+    "w": 0.362
    }
   ]
  },
@@ -9548,7 +9627,7 @@
      "Natural gas",
      "Steel"
     ],
-    "w": 0.151
+    "w": 0.147
    },
    {
     "slug": "nature-versus-nurture-indias-fertiliser",
@@ -9557,7 +9636,7 @@
      "Natural gas",
      "Petrol"
     ],
-    "w": 0.126
+    "w": 0.121
    },
    {
     "slug": "dgh-has-awarded-172-oalp-blocks-and-436_0369361351",
@@ -9566,7 +9645,7 @@
      "Natural gas",
      "Petrol"
     ],
-    "w": 0.126
+    "w": 0.121
    },
    {
     "slug": "indias-coking-coal-import-problem-and",
@@ -9574,7 +9653,7 @@
      "Coal",
      "Steel"
     ],
-    "w": 0.111
+    "w": 0.107
    }
   ]
  },
@@ -9931,7 +10010,7 @@
      "PPAC",
      "Petrol"
     ],
-    "w": 0.115
+    "w": 0.114
    },
    {
     "slug": "fuel-pricing-to-crude-cost",
@@ -9942,7 +10021,7 @@
      "PPAC",
      "Petrol"
     ],
-    "w": 0.115
+    "w": 0.114
    },
    {
     "slug": "annadata-to-urjadata-farmer-income-case",
@@ -10040,28 +10119,28 @@
     "shared": [
      "PLI scheme"
     ],
-    "w": 0.036
+    "w": 0.034
    },
    {
     "slug": "where-indias-forex-goes-country",
     "shared": [
      "PLI scheme"
     ],
-    "w": 0.036
+    "w": 0.034
    },
    {
     "slug": "top-15-chemicals-for-import",
     "shared": [
      "PLI scheme"
     ],
-    "w": 0.036
+    "w": 0.034
    },
    {
-    "slug": "the-most-discussed-schemes-in",
+    "slug": "the-phone-plis-successor-pays-up-to-5",
     "shared": [
      "PLI scheme"
     ],
-    "w": 0.036
+    "w": 0.034
    }
   ]
  },
@@ -10403,28 +10482,28 @@
     "shared": [
      "Coal"
     ],
-    "w": 0.071
+    "w": 0.067
    },
    {
     "slug": "the-reactor-nobody-names-how-coal",
     "shared": [
      "Coal"
     ],
-    "w": 0.071
+    "w": 0.067
    },
    {
     "slug": "nine-ministries-one-list-every-company",
     "shared": [
      "Coal"
     ],
-    "w": 0.071
+    "w": 0.067
    },
    {
     "slug": "nature-versus-nurture-indias-fertiliser",
     "shared": [
      "Coal"
     ],
-    "w": 0.071
+    "w": 0.067
    }
   ]
  },
@@ -10449,7 +10528,7 @@
      "PLI scheme",
      "TradeStat"
     ],
-    "w": 0.557
+    "w": 0.555
    },
    {
     "slug": "india-cannot-sell-china-free-medicine",
@@ -10457,7 +10536,7 @@
      "PLI scheme",
      "TradeStat"
     ],
-    "w": 0.557
+    "w": 0.555
    },
    {
     "slug": "what-india-is-actually-paying-for",
@@ -10512,7 +10591,7 @@
      "PLI scheme",
      "TradeStat"
     ],
-    "w": 0.807
+    "w": 0.805
    },
    {
     "slug": "securitising-deficit-what-it-would",
@@ -10663,7 +10742,7 @@
      "PLI scheme",
      "Steel"
     ],
-    "w": 0.326
+    "w": 0.324
    },
    {
     "slug": "to-comply-or-not-to-comply-cbam-costs",
@@ -10752,7 +10831,7 @@
      "Textiles",
      "TradeStat"
     ],
-    "w": 0.321
+    "w": 0.318
    },
    {
     "slug": "green-gold-what-spirulina-actually-is",
@@ -10760,7 +10839,7 @@
      "Ethanol",
      "Textiles"
     ],
-    "w": 0.314
+    "w": 0.312
    },
    {
     "slug": "petroleum-trade-pairings-and-us-crude",
@@ -10769,7 +10848,7 @@
      "Petrol",
      "TradeStat"
     ],
-    "w": 0.311
+    "w": 0.31
    },
    {
     "slug": "article-index-start-here",
@@ -11108,7 +11187,7 @@
      "Rupee",
      "TradeStat"
     ],
-    "w": 1.078
+    "w": 1.077
    },
    {
     "slug": "can-rupee-trade-actually-offset",
@@ -11117,7 +11196,7 @@
      "Rupee",
      "TradeStat"
     ],
-    "w": 1.078
+    "w": 1.077
    }
   ]
  },
@@ -11254,7 +11333,7 @@
      "Petrol",
      "TradeStat"
     ],
-    "w": 0.308
+    "w": 0.307
    },
    {
     "slug": "the-hydrogen-behind-biofuel-mandate",
@@ -11311,7 +11390,7 @@
      "PPAC",
      "Petrol"
     ],
-    "w": 0.161
+    "w": 0.16
    },
    {
     "slug": "indias-ethanol-surplus-buys-about-five",
@@ -11333,7 +11412,7 @@
      "PPAC",
      "Petrol"
     ],
-    "w": 0.13
+    "w": 0.129
    },
    {
     "slug": "petrol-pump-margins-and-e20-one-dealer",
@@ -11569,28 +11648,28 @@
     "shared": [
      "Textiles"
     ],
-    "w": 0.55
+    "w": 0.548
    },
    {
     "slug": "re-spinning-charkha",
     "shared": [
      "Textiles"
     ],
-    "w": 0.3
+    "w": 0.298
    },
    {
     "slug": "priority-export-destinations-by-growth",
     "shared": [
      "Textiles"
     ],
-    "w": 0.3
+    "w": 0.298
    },
    {
     "slug": "airbags-and-seat-belts-are-import-heavy",
     "shared": [
      "Textiles"
     ],
-    "w": 0.3
+    "w": 0.298
    }
   ]
  },
@@ -11721,7 +11800,7 @@
      "Textiles",
      "TradeStat"
     ],
-    "w": 0.071
+    "w": 0.068
    },
    {
     "slug": "priority-export-destinations-by-growth",
@@ -11729,7 +11808,7 @@
      "Textiles",
      "TradeStat"
     ],
-    "w": 0.071
+    "w": 0.068
    },
    {
     "slug": "indias-trade-balance-hsn-wise",
@@ -11737,7 +11816,7 @@
      "Textiles",
      "TradeStat"
     ],
-    "w": 0.071
+    "w": 0.068
    },
    {
     "slug": "from-fuel-to-fibre-indias-textile",
@@ -11745,7 +11824,7 @@
      "Textiles",
      "TradeStat"
     ],
-    "w": 0.071
+    "w": 0.068
    }
   ]
  },
@@ -11809,14 +11888,14 @@
     "shared": [
      "Textiles"
     ],
-    "w": 0.3
+    "w": 0.298
    },
    {
     "slug": "india-leads-world-in-jute-and-ranks",
     "shared": [
      "Textiles"
     ],
-    "w": 0.3
+    "w": 0.298
    },
    {
     "slug": "priority-trade-partners-by-import",
@@ -12018,7 +12097,7 @@
      "Ethanol",
      "Petrol"
     ],
-    "w": 0.115
+    "w": 0.114
    },
    {
     "slug": "annadata-to-urjadata-farmer-income-case",
@@ -12029,7 +12108,7 @@
      "Ethanol",
      "Petrol"
     ],
-    "w": 0.115
+    "w": 0.114
    },
    {
     "slug": "india-mineral-oil-hsn-ch27-trade",
@@ -12535,7 +12614,7 @@
     "w": 0.053
    },
    {
-    "slug": "india-fuel-retail-outlets-82k-geocoded",
+    "slug": "indias-carbon-credit-market-domestic",
     "shared": [
      "Compressed biogas",
      "Petrol"
@@ -12543,7 +12622,7 @@
     "w": 0.053
    },
    {
-    "slug": "blending-on-budget-energy-density-and",
+    "slug": "india-fuel-retail-outlets-82k-geocoded",
     "shared": [
      "Compressed biogas",
      "Petrol"
@@ -12887,7 +12966,9 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/the-milk-india-doesnt-drink-cheese-and.html",
   "published": "2026-08-19",
   "countries": [
-   "UAE"
+   "UAE",
+   "Norway",
+   "Switzerland"
   ],
   "states": [
    "Maharashtra"
@@ -12901,7 +12982,14 @@
     "shared": [
      "TradeStat"
     ],
-    "w": 0.271
+    "w": 0.521
+   },
+   {
+    "slug": "what-tepa-actually-opens-efta-goods",
+    "shared": [
+     "TradeStat"
+    ],
+    "w": 0.521
    },
    {
     "slug": "what-india-is-actually-paying-for",
@@ -12912,13 +13000,6 @@
    },
    {
     "slug": "securitising-deficit-what-it-would",
-    "shared": [
-     "TradeStat"
-    ],
-    "w": 0.271
-   },
-   {
-    "slug": "priority-trade-partners-by-import",
     "shared": [
      "TradeStat"
     ],
@@ -12950,28 +13031,28 @@
     "shared": [
      "PLI scheme"
     ],
-    "w": 0.036
+    "w": 0.034
    },
    {
     "slug": "where-indias-forex-goes-country",
     "shared": [
      "PLI scheme"
     ],
-    "w": 0.036
+    "w": 0.034
    },
    {
     "slug": "top-15-chemicals-for-import",
     "shared": [
      "PLI scheme"
     ],
-    "w": 0.036
+    "w": 0.034
    },
    {
-    "slug": "sugarcanes-third-claimant-whats",
+    "slug": "the-phone-plis-successor-pays-up-to-5",
     "shared": [
      "PLI scheme"
     ],
-    "w": 0.036
+    "w": 0.034
    }
   ]
  },
@@ -12987,6 +13068,51 @@
   ],
   "entities": [],
   "related": []
+ },
+ "the-phone-plis-successor-pays-up-to-5": {
+  "title": "The Phone PLI's Successor Pays Up to 5%, Wants 15% Growth a Year, and Offers 0.2% to Make the Cell Here",
+  "url": "https://masaladeutsch.blogspot.com/2026/10/the-phone-plis-successor-pays-up-to-5.html",
+  "published": "2026-10-26",
+  "countries": [],
+  "states": [],
+  "entities": [
+   "PLI scheme",
+   "TradeStat"
+  ],
+  "related": [
+   {
+    "slug": "where-indias-forex-goes-country",
+    "shared": [
+     "PLI scheme",
+     "TradeStat"
+    ],
+    "w": 0.055
+   },
+   {
+    "slug": "top-15-chemicals-for-import",
+    "shared": [
+     "PLI scheme",
+     "TradeStat"
+    ],
+    "w": 0.055
+   },
+   {
+    "slug": "priority-trade-partners-by-import",
+    "shared": [
+     "PLI scheme",
+     "TradeStat"
+    ],
+    "w": 0.055
+   },
+   {
+    "slug": "priority-export-destinations-by-growth",
+    "shared": [
+     "PLI scheme",
+     "TradeStat"
+    ],
+    "w": 0.055
+   }
+  ]
  },
  "the-price-and-tap-two-levers-behind": {
   "title": "The Price and the Tap: The Two Levers Behind Every Central Bank, and Why RBI Pulls Them Differently",
@@ -13176,7 +13302,7 @@
      "Ethanol",
      "Urea"
     ],
-    "w": 0.381
+    "w": 0.377
    },
    {
     "slug": "nature-versus-nurture-indias-fertiliser",
@@ -13184,14 +13310,14 @@
      "Coal",
      "Urea"
     ],
-    "w": 0.367
+    "w": 0.362
    },
    {
     "slug": "europe-wants-green-steel-it-cant-afford",
     "shared": [
      "Coal"
     ],
-    "w": 0.321
+    "w": 0.317
    },
    {
     "slug": "indias-new-car-rules-count-every-ev-as",
@@ -13241,7 +13367,7 @@
      "Rupee",
      "Textiles"
     ],
-    "w": 0.081
+    "w": 0.079
    },
    {
     "slug": "indias-trade-balance-hsn-wise",
@@ -13249,21 +13375,21 @@
      "Rupee",
      "Textiles"
     ],
-    "w": 0.081
+    "w": 0.079
    },
    {
     "slug": "we-fact-checked-66-investment",
     "shared": [
      "Textiles"
     ],
-    "w": 0.05
+    "w": 0.048
    },
    {
     "slug": "the-50-tariff-and-234-one-untangling",
     "shared": [
      "Textiles"
     ],
-    "w": 0.05
+    "w": 0.048
    }
   ]
  },
@@ -13615,7 +13741,7 @@
      "Crude oil",
      "TradeStat"
     ],
-    "w": 0.618
+    "w": 0.617
    },
    {
     "slug": "where-indias-forex-goes-country",
@@ -13624,7 +13750,7 @@
      "PLI scheme",
      "TradeStat"
     ],
-    "w": 0.582
+    "w": 0.58
    }
   ]
  },
@@ -13815,7 +13941,7 @@
      "Electric vehicles",
      "TradeStat"
     ],
-    "w": 0.067
+    "w": 0.066
    },
    {
     "slug": "the-reactor-nobody-names-how-coal",
@@ -13867,7 +13993,7 @@
      "Steel",
      "Textiles"
     ],
-    "w": 0.09
+    "w": 0.088
    },
    {
     "slug": "nine-ministries-one-list-every-company",
@@ -13875,7 +14001,15 @@
      "Steel",
      "Textiles"
     ],
-    "w": 0.09
+    "w": 0.088
+   },
+   {
+    "slug": "indias-carbon-credit-market-domestic",
+    "shared": [
+     "Steel",
+     "Textiles"
+    ],
+    "w": 0.088
    },
    {
     "slug": "greenhouse-emissions-reduction-and-cbam",
@@ -13883,14 +14017,7 @@
      "Steel",
      "Textiles"
     ],
-    "w": 0.09
-   },
-   {
-    "slug": "the-rupee-fell-10-and-exports-grew-09",
-    "shared": [
-     "Textiles"
-    ],
-    "w": 0.05
+    "w": 0.088
    }
   ]
  },
@@ -13998,7 +14125,7 @@
      "Rupee",
      "TradeStat"
     ],
-    "w": 1.078
+    "w": 1.077
    },
    {
     "slug": "can-rupee-trade-actually-offset",
@@ -14007,7 +14134,7 @@
      "Rupee",
      "TradeStat"
     ],
-    "w": 1.078
+    "w": 1.077
    },
    {
     "slug": "where-indias-forex-goes-country",
@@ -14084,6 +14211,13 @@
   ],
   "related": [
    {
+    "slug": "the-milk-india-doesnt-drink-cheese-and",
+    "shared": [
+     "TradeStat"
+    ],
+    "w": 0.521
+   },
+   {
     "slug": "where-indias-forex-goes-country",
     "shared": [
      "TradeStat"
@@ -14099,13 +14233,6 @@
    },
    {
     "slug": "what-india-is-actually-paying-for",
-    "shared": [
-     "TradeStat"
-    ],
-    "w": 0.021
-   },
-   {
-    "slug": "what-actually-happens-to-indias-used",
     "shared": [
      "TradeStat"
     ],
@@ -14236,28 +14363,28 @@
     "shared": [
      "Coal"
     ],
-    "w": 0.071
+    "w": 0.067
    },
    {
     "slug": "price-is-wire-how-gcam-actually-links",
     "shared": [
      "Coal"
     ],
-    "w": 0.071
+    "w": 0.067
    },
    {
     "slug": "nine-ministries-one-list-every-company",
     "shared": [
      "Coal"
     ],
-    "w": 0.071
+    "w": 0.067
    },
    {
     "slug": "nature-versus-nurture-indias-fertiliser",
     "shared": [
      "Coal"
     ],
-    "w": 0.071
+    "w": 0.067
    }
   ]
  },
@@ -14677,28 +14804,28 @@
     "shared": [
      "PLI scheme"
     ],
-    "w": 0.036
+    "w": 0.034
    },
    {
     "slug": "top-15-chemicals-for-import",
     "shared": [
      "PLI scheme"
     ],
-    "w": 0.036
+    "w": 0.034
+   },
+   {
+    "slug": "the-phone-plis-successor-pays-up-to-5",
+    "shared": [
+     "PLI scheme"
+    ],
+    "w": 0.034
    },
    {
     "slug": "the-most-discussed-schemes-in",
     "shared": [
      "PLI scheme"
     ],
-    "w": 0.036
-   },
-   {
-    "slug": "sugarcanes-third-claimant-whats",
-    "shared": [
-     "PLI scheme"
-    ],
-    "w": 0.036
+    "w": 0.034
    }
   ]
  },
