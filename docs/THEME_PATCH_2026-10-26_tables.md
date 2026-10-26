@@ -6,6 +6,11 @@ Do not paste the whole theme (see DESIGN_LOG 2026-08-08); make two insertions.
 
 ## Step 1 — CSS: paste immediately BEFORE the single line `]]></b:skin>`
 
+If you already pasted an earlier version of this block, delete it first: everything from
+`/* gs-table-template-v1 (2026-10-26)` down to the line ending `::before{content:none}`.
+The current version adds `contain:inline-size` to table wrappers, so a wide table scrolls inside its
+box instead of widening a card or slide on phones.
+
 ```css
 /* gs-table-template-v1 (2026-10-26) — one readable template for every post table,
    and no ad containers inside tables.
@@ -18,7 +23,9 @@ Do not paste the whole theme (see DESIGN_LOG 2026-08-08); make two insertions.
       lands inside a table to just after the table.
    3. Empty (unfilled) Auto-ads containers collapse instead of showing an empty
       "Advertisement" box; the label and spacing apply only to filled ads. */
-#Blog1 .post-body .gs-tblwrap{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:1.2rem 0}
+#Blog1 .post-body .gs-tblwrap{margin:1.2rem 0}
+#Blog1 .post-body .gs-tblwrap,#Blog1 .post-body .gb-tblwrap,#Blog1 .post-body .tw{overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%}
+#Blog1 .post-body .gs-tblwrap,#Blog1 .post-body .gb-tblwrap,#Blog1 .post-body .tw{contain:inline-size}
 #Blog1 .post-body table.gs-t{border-collapse:collapse!important;width:100%;max-width:100%;
   font-family:var(--sans);font-size:.88rem;line-height:1.45;font-variant-numeric:tabular-nums;margin:0}
 #Blog1 .post-body table.gs-t th,#Blog1 .post-body table.gs-t td{text-align:left!important;

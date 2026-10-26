@@ -2896,3 +2896,9 @@ self-contained HTML/CSS fragment.
   everywhere else, and no ad is hidden; only unfilled (empty) containers collapse.
 - Tested on three posts with simulated containers in table rows at 375px: no ad left inside a table,
   row cell counts unchanged, no horizontal scroll.
+- **Full audit (`out/research/table-audit-2026-10-26.md`).** All 1,085 tables in 376 posts rendered at
+  375px and 1024px. The first version widened two posts on phones: a 560px-minimum table inside a flex
+  card stretched the card. Table wrappers (`.gs-tblwrap`, `.gb-tblwrap`, `.tw`) now get
+  `overflow-x:auto` and `contain:inline-size`, so a wide table scrolls inside its box and never sizes its
+  container. Result: no post is wider than under the old theme; four posts that scrolled sideways on
+  phones no longer do; the 13 that still do are caused by non-table elements (canvas, code, long links).

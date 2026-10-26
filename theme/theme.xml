@@ -247,7 +247,9 @@ body:has(ins.adsbygoogle[data-anchor-status]) .site-foot{padding-bottom:110px}
       lands inside a table to just after the table.
    3. Empty (unfilled) Auto-ads containers collapse instead of showing an empty
       "Advertisement" box; the label and spacing apply only to filled ads. */
-#Blog1 .post-body .gs-tblwrap{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:1.2rem 0}
+#Blog1 .post-body .gs-tblwrap{margin:1.2rem 0}
+#Blog1 .post-body .gs-tblwrap,#Blog1 .post-body .gb-tblwrap,#Blog1 .post-body .tw{overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%}
+#Blog1 .post-body .gs-tblwrap,#Blog1 .post-body .gb-tblwrap,#Blog1 .post-body .tw{contain:inline-size}
 #Blog1 .post-body table.gs-t{border-collapse:collapse!important;width:100%;max-width:100%;
   font-family:var(--sans);font-size:.88rem;line-height:1.45;font-variant-numeric:tabular-nums;margin:0}
 #Blog1 .post-body table.gs-t th,#Blog1 .post-body table.gs-t td{text-align:left!important;
