@@ -1,5 +1,7 @@
 # Theme patch: gs-table-template-v1 + gs-table-guard-v1 (26 Oct 2026)
 
+**Superseded.** Upload the whole built theme instead: see `docs/THEME_RUNBOOK.md`. The builder removes this hand-pasted version if it is in your live theme.
+
 Fixes tables broken by Auto-ads containers placed inside table rows, hides empty ad boxes,
 and gives every post table one readable template. Apply in Blogger > Theme > Customise > Edit HTML.
 Do not paste the whole theme (see DESIGN_LOG 2026-08-08); make two insertions.

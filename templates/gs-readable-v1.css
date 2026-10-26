@@ -1,0 +1,22 @@
+/* gs-readable-v1 (2026-10-26) — readability fixes measured across all 376 posts
+   (out/research/theme-audit-2026-10-26.md).
+   1. Line length: paragraphs ran to a median 80 characters on desktop and list items
+      had no cap at all (over 95 characters in 234 posts). Text blocks now stop at 64ch
+      (about 70 characters in Georgia).
+   2. Long links, file paths and code no longer push the page sideways on phones.
+   3. Grey note text (.gb-note, 196 posts, 3.3:1) and the ad label (3.4:1) meet
+      WCAG AA contrast (4.5:1).
+   4. Links to a section land below the sticky header instead of under it.
+   5. Header navigation links get a 24px tap target. */
+#Blog1 .post-body{--measure:64ch;overflow-wrap:break-word}
+#Blog1 .post-body :is(ul,ol):not(.crows)>li,#Blog1 .post-body blockquote{max-width:var(--measure)}
+#Blog1 .post-body :is(a,code,kbd,samp){overflow-wrap:anywhere}
+#Blog1 .post-body pre{max-width:100%;overflow-x:auto;white-space:pre}
+#Blog1 .post-body :is(canvas,iframe,video,embed,object){max-width:100%}
+#Blog1 .post-body .gb-note{color:#5f6871}
+#Blog1 .post-body .legend-note{color:#55594f}
+.post-body .google-auto-placed::before{color:#6b6b6b;font-size:.66rem}
+@media (min-width:641px){
+  #Blog1 .post-body :is(h1,h2,h3,h4,[id]){scroll-margin-top:76px}
+}
+.site-nav a{display:inline-block;padding:4px 0;min-height:24px}

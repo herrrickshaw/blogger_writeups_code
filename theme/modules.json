@@ -1,0 +1,12 @@
+[
+  {"id": "gs-scope-chrome-v1", "kind": "scope", "classes": ["hero", "wrap", "card"],
+   "note": "homepage styles for .hero, .wrap and .card stop applying to post elements with the same class"},
+  {"id": "gs-table-template-v1", "kind": "css", "file": "templates/gs-table-template-v1.css",
+   "note": "one readable style for every post table; unfilled ad containers collapse"},
+  {"id": "gs-readable-v1", "kind": "css", "file": "templates/gs-readable-v1.css",
+   "note": "line length, long links, note and ad-label contrast, anchor offset, nav tap targets"},
+  {"id": "gs-content-guard-v2", "kind": "js", "file": "templates/gs-content-guard-v2.js",
+   "note": "wraps tables; moves Auto-ads containers out of tables, lists, figures, side-by-side layouts and clipped boxes, and off headings"},
+  {"id": "gs-table-guard-v1", "kind": "js", "file": "templates/gs-table-guard-v1.js", "retired": true,
+   "note": "replaced by gs-content-guard-v2"}
+]

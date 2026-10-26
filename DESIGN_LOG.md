@@ -2902,3 +2902,28 @@ self-contained HTML/CSS fragment.
   `overflow-x:auto` and `contain:inline-size`, so a wide table scrolls inside its box and never sizes its
   container. Result: no post is wider than under the old theme; four posts that scrolled sideways on
   phones no longer do; the 13 that still do are caused by non-table elements (canvas, code, long links).
+
+## 2026-10-26 — The theme is now built, not pasted; and a theme audit
+
+- **Method change.** Pasting fragments into Blogger's HTML editor kept going wrong: anchors matched in
+  comments, and a truncated fragment once got the `SAXParseException` rejection. The theme is now
+  `theme/base.xml` (the live theme without modules) plus modules listed in `theme/modules.json`.
+  `tools/theme_build.py` builds `theme/theme.xml` for Blogger's Restore upload. Built from a same-day
+  backup (`--base`), nothing changed in Blogger since is lost. That answers the 2026-08-08 objection to
+  full-theme uploads (drift) without giving up the upload. Modules carry BEGIN/END markers, so the builder
+  removes old copies from any backup; it refuses to write non-well-formed XML.
+- **Audit** (`out/research/theme-audit-2026-10-26.md`): all 376 posts at 375px and 1024px in a copy of the
+  item-page markup, with 15,037 simulated Auto-ads containers. Found the theme's homepage `.hero/.card/.wrap`
+  styles leaking into 17 posts, ads able to land inside tables, lists, figures, rows, grids, scroll boxes
+  and boxed notes, and also directly under headings. Also: 80-character desktop lines with list items uncapped,
+  `.gb-note` at 3.3:1 contrast, 20 posts scrolling sideways on phones.
+- **New modules:** `gs-scope-chrome-v1` (scope kind: theme chrome rules get `:not(.post-body *)`), `gs-readable-v1`
+  and `gs-content-guard-v2` (replaces the table-only guard). After: 0 posts scroll sideways at either width,
+  0 simulated ads inside a structure or under a heading, desktop median line 80 → 70 characters,
+  low-contrast posts 188 → 18. The homepage is unchanged except 30px nav tap targets.
+- **Ad rule, extended.** The 2026-10-26 table entry allowed moving an ad container out of a table. This extends
+  it to any structure the ad would break. Still never hidden, resized, reloaded or blocked. If AdSense flags
+  placement, retire `gs-content-guard-v2`.
+- **Model review.** `tools/model_layout_review.py` asks Gemini, Mistral and Groq for structural edits and ad breaks
+  per post (report-only). It runs on the Mac, where the keys are; the sandbox has neither keys nor access to those APIs.
+

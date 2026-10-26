@@ -81,7 +81,7 @@ body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.65 var(--serif);
 img{max-width:100%;height:auto}
 a{color:var(--accent);text-underline-offset:2px}
 a:hover{color:var(--accent-ink)}
-.wrap{max-width:var(--wrap);margin-inline:auto;padding-inline:20px}
+.wrap:not(.post-body *){max-width:var(--wrap);margin-inline:auto;padding-inline:20px}
 
 /* ---- Header ---------------------------------------------------------- */
 .site-head{border-bottom:1px solid var(--line);background:var(--bg);
@@ -96,15 +96,15 @@ a:hover{color:var(--accent-ink)}
 .site-nav a:hover{text-decoration:underline}
 
 /* ---- Hero / featured -------------------------------------------------- */
-.hero{background:var(--hero);color:var(--hero-ink);padding:72px 0 66px;margin-bottom:8px}
-.hero .kicker{font-family:var(--sans);font-size:.7rem;letter-spacing:.18em;
+.hero:not(.post-body *){background:var(--hero);color:var(--hero-ink);padding:72px 0 66px;margin-bottom:8px}
+.hero:not(.post-body *) .kicker{font-family:var(--sans);font-size:.7rem;letter-spacing:.18em;
   text-transform:uppercase;font-weight:700;color:var(--cyan);margin-bottom:14px}
-.hero h2{font-size:2.5rem;line-height:1.12;margin:0 0 16px;letter-spacing:-.02em;font-weight:300}
-.hero h2 strong{font-weight:700}
-.hero h2 a{color:var(--hero-ink);text-decoration:none}
-.hero h2 a:hover{text-decoration:underline}
-.hero p{color:#C7D4DF;max-width:var(--measure);margin:0 0 16px}
-.hero .more{font-family:var(--sans);font-size:.82rem;font-weight:700;
+.hero:not(.post-body *) h2{font-size:2.5rem;line-height:1.12;margin:0 0 16px;letter-spacing:-.02em;font-weight:300}
+.hero:not(.post-body *) h2 strong{font-weight:700}
+.hero:not(.post-body *) h2 a{color:var(--hero-ink);text-decoration:none}
+.hero:not(.post-body *) h2 a:hover{text-decoration:underline}
+.hero:not(.post-body *) p{color:#C7D4DF;max-width:var(--measure);margin:0 0 16px}
+.hero:not(.post-body *) .more{font-family:var(--sans);font-size:.82rem;font-weight:700;
   color:#7FA5FF;text-decoration:none;letter-spacing:.04em;text-transform:uppercase}
 
 /* ---- Post list (index) ------------------------------------------------ */
@@ -112,15 +112,15 @@ a:hover{color:var(--accent-ink)}
   text-transform:uppercase;font-weight:700;color:var(--ink);
   border-top:2px solid var(--ink);padding-top:10px;margin:52px 0 0;
   display:block}
-.card{border-bottom:1px solid var(--line);padding:32px 0}
-.card:last-child{border-bottom:none}
-.card h3{font-size:1.5rem;line-height:1.22;margin:0 0 8px;letter-spacing:-.015em;font-weight:400}
-.card h3 a{color:var(--ink);text-decoration:none}
-.card h3 a:hover{color:var(--accent)}
-.card .meta{font-family:var(--sans);font-size:.75rem;color:var(--ink-soft);
+.card:not(.post-body *){border-bottom:1px solid var(--line);padding:32px 0}
+.card:not(.post-body *):last-child{border-bottom:none}
+.card:not(.post-body *) h3{font-size:1.5rem;line-height:1.22;margin:0 0 8px;letter-spacing:-.015em;font-weight:400}
+.card:not(.post-body *) h3 a{color:var(--ink);text-decoration:none}
+.card:not(.post-body *) h3 a:hover{color:var(--accent)}
+.card:not(.post-body *) .meta{font-family:var(--sans);font-size:.75rem;color:var(--ink-soft);
   margin-bottom:8px;font-variant-numeric:tabular-nums}
-.card p{margin:0 0 10px;color:var(--ink-soft);max-width:var(--measure)}
-.card .more{font-family:var(--sans);font-size:.78rem;font-weight:700;
+.card:not(.post-body *) p{margin:0 0 10px;color:var(--ink-soft);max-width:var(--measure)}
+.card:not(.post-body *) .more{font-family:var(--sans);font-size:.78rem;font-weight:700;
   text-decoration:none;letter-spacing:.04em;text-transform:uppercase}
 
 /* ---- Single post ------------------------------------------------------ */
@@ -191,7 +191,7 @@ a:hover{color:var(--accent-ink)}
 
 @media (max-width:640px){
   body{font-size:16px}
-  .hero h2{font-size:1.55rem}
+  .hero:not(.post-body *) h2{font-size:1.55rem}
   .post-head h1{font-size:1.6rem}
   .site-head{position:static}
 }
@@ -236,6 +236,7 @@ body:has(ins.adsbygoogle[data-anchor-status]) .site-foot{padding-bottom:110px}
 @media (max-width:640px){
   .post-body .gb-tblwrap>table,.post-body .tw>table{min-width:600px}
 }
+/* BEGIN theme-module: gs-table-template-v1 */
 /* gs-table-template-v1 (2026-10-26) — one readable template for every post table,
    and no ad containers inside tables.
    1. Every post table gets the same look: dark header, light row stripes, clear
@@ -270,6 +271,31 @@ body:has(ins.adsbygoogle[data-anchor-status]) .site-foot{padding-bottom:110px}
 .post-body .google-auto-placed:not(:has(ins[data-ad-status="filled"])){
   margin:0!important;padding:0!important;border:0!important;min-height:0}
 .post-body .google-auto-placed:not(:has(ins[data-ad-status="filled"]))::before{content:none}
+/* END theme-module: gs-table-template-v1 */
+/* BEGIN theme-module: gs-readable-v1 */
+/* gs-readable-v1 (2026-10-26) — readability fixes measured across all 376 posts
+   (out/research/theme-audit-2026-10-26.md).
+   1. Line length: paragraphs ran to a median 80 characters on desktop and list items
+      had no cap at all (over 95 characters in 234 posts). Text blocks now stop at 64ch
+      (about 70 characters in Georgia).
+   2. Long links, file paths and code no longer push the page sideways on phones.
+   3. Grey note text (.gb-note, 196 posts, 3.3:1) and the ad label (3.4:1) meet
+      WCAG AA contrast (4.5:1).
+   4. Links to a section land below the sticky header instead of under it.
+   5. Header navigation links get a 24px tap target. */
+#Blog1 .post-body{--measure:64ch;overflow-wrap:break-word}
+#Blog1 .post-body :is(ul,ol):not(.crows)>li,#Blog1 .post-body blockquote{max-width:var(--measure)}
+#Blog1 .post-body :is(a,code,kbd,samp){overflow-wrap:anywhere}
+#Blog1 .post-body pre{max-width:100%;overflow-x:auto;white-space:pre}
+#Blog1 .post-body :is(canvas,iframe,video,embed,object){max-width:100%}
+#Blog1 .post-body .gb-note{color:#5f6871}
+#Blog1 .post-body .legend-note{color:#55594f}
+.post-body .google-auto-placed::before{color:#6b6b6b;font-size:.66rem}
+@media (min-width:641px){
+  #Blog1 .post-body :is(h1,h2,h3,h4,[id]){scroll-margin-top:76px}
+}
+.site-nav a{display:inline-block;padding:4px 0;min-height:24px}
+/* END theme-module: gs-readable-v1 */
 ]]></b:skin>
 </head>
 
@@ -1397,22 +1423,21 @@ material, so verify any number that matters to a decision against the linked pri
 })();
 //]]></script>
 <script>//<![CDATA[
-/* gs-table-guard-v1 (2026-10-26) — pairs with gs-table-template-v1 in the theme skin.
-   Wraps each post table, marks number cells for right alignment, and moves any
-   Auto-ads container that AdSense inserts inside a table to just after the table,
-   where it no longer breaks the rows. */
+/* BEGIN theme-module: gs-content-guard-v2 */
+/* gs-content-guard-v2 (2026-10-26) — replaces gs-table-guard-v1; pairs with
+   gs-table-template-v1 and gs-readable-v1 in the theme skin.
+   1. Tables: wraps each post table, marks number cells for right alignment.
+   2. Auto ads: an ad container that AdSense inserts inside a structure that it
+      breaks is moved to just after the outermost such structure. Structures: tables,
+      lists, figures, code blocks, collapsible sections, quotes, side-by-side layouts
+      (row flex, multi-column grid), boxes that clip their content, and boxed notes
+      and cards (tinted, framed or accent-ruled) that are not most of the post.
+   3. An ad placed directly after a heading is moved above the heading, so a heading
+      is never separated from the text it introduces. */
 (function () {
   var WRAP = '.gb-tblwrap,.tw,.gs-tblwrap';
   var NUM = /^[\s(]*[-+−–~≈<>]?\s*(?:Rs\.?|₹|\$|€|£|¥)?\s*[-+−–]?\d[\d,.\s]*(?:%|x|×|pp|bn|mn|cr|crore|lakh|MW|GW|kt|Mt|t)?\s*(?:\([^)]{0,12}\))?\s*[)*†‡]*$/i;
-
-  function outer(t) { return t.closest(WRAP) || t; }
-
-  function evict(ad) {
-    var t = ad.parentNode && ad.parentNode.closest ? ad.parentNode.closest('table') : null;
-    if (!t) return;
-    var o = outer(t);
-    if (o.parentNode) o.parentNode.insertBefore(ad, o.nextSibling);
-  }
+  var HOLD = 'table,ul,ol,dl,figure,pre,details,blockquote';
 
   function prep(t) {
     if (t.classList.contains('gs-t')) return;
@@ -1455,11 +1480,43 @@ material, so verify any number that matters to a decision against the linked pri
     }
   }
 
-  function run(root) {
-    var ts = (root || document).querySelectorAll('.post-body table');
+  function opaque(c) {
+    var m = c.match(/[\d.]+/g);
+    return !!m && (m.length < 4 || +m[3] > 0.1) && !(+m[0] > 250 && +m[1] > 250 && +m[2] > 250);
+  }
+
+  // Does this element break up an ad placed inside it? A boxed element (tinted, framed
+  // or with an accent rule) counts too, since an ad inside a note or card reads as part
+  // of it; but not a box that holds most of the post, or every ad would sink to the end.
+  function holds(el, bodyH) {
+    if (el.matches(HOLD)) return true;
+    var s = getComputedStyle(el);
+    if (/flex/.test(s.display) && !/column/.test(s.flexDirection) && el.children.length > 2) return true;
+    if (/grid/.test(s.display) && s.gridTemplateColumns.split(' ').length > 1) return true;
+    if (s.overflowY !== 'visible' && (s.maxHeight !== 'none' || el.style.height)) return true;
+    var boxed = opaque(s.backgroundColor) || (parseFloat(s.borderLeftWidth) > 0 && parseFloat(s.borderRightWidth) > 0) ||
+                parseFloat(s.borderLeftWidth) >= 3;
+    return boxed && el.getBoundingClientRect().height < 0.6 * bodyH;
+  }
+
+  function place(ad) {
+    var body = ad.closest('.post-body');
+    if (!body) return;
+    var out = null, bodyH = body.getBoundingClientRect().height;
+    for (var a = ad.parentElement; a && a !== body; a = a.parentElement) if (holds(a, bodyH)) out = a;
+    if (out) {
+      out = out.closest(WRAP) && body.contains(out.closest(WRAP)) ? out.closest(WRAP) : out;
+      out.parentNode.insertBefore(ad, out.nextSibling);
+    }
+    var prev = ad.previousElementSibling;
+    if (prev && /^H[2-4]$/.test(prev.tagName)) prev.parentNode.insertBefore(ad, prev);
+  }
+
+  function run() {
+    var ts = document.querySelectorAll('.post-body table');
     for (var i = 0; i < ts.length; i++) prep(ts[i]);
-    var ads = document.querySelectorAll('.post-body table .google-auto-placed');
-    for (var j = 0; j < ads.length; j++) evict(ads[j]);
+    var ads = document.querySelectorAll('.post-body .google-auto-placed');
+    for (var j = 0; j < ads.length; j++) place(ads[j]);
   }
 
   new MutationObserver(function (muts) {
@@ -1468,21 +1525,20 @@ material, so verify any number that matters to a decision against the linked pri
       for (var k = 0; k < added.length; k++) {
         var n = added[k];
         if (n.nodeType !== 1) continue;
-        if (n.matches('.google-auto-placed')) evict(n);
-        else if (n.querySelector) {
-          var inner = n.querySelectorAll('.google-auto-placed');
-          for (var q = 0; q < inner.length; q++) evict(inner[q]);
-          if (n.matches('table')) prep(n);
-          var nt = n.querySelectorAll('table');
-          for (var z = 0; z < nt.length; z++) prep(nt[z]);
-        }
+        if (n.matches('.google-auto-placed')) { place(n); continue; }
+        var inner = n.querySelectorAll('.google-auto-placed');
+        for (var q = 0; q < inner.length; q++) place(inner[q]);
+        if (n.matches('table')) prep(n);
+        var nt = n.querySelectorAll('table');
+        for (var z = 0; z < nt.length; z++) prep(nt[z]);
       }
     }
   }).observe(document.documentElement, { childList: true, subtree: true });
 
-  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', function () { run(); });
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', run);
   else run();
 })();
+/* END theme-module: gs-content-guard-v2 */
 //]]></script>
 </body>
 </html>
