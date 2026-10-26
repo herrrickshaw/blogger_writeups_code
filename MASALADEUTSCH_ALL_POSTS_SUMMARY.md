@@ -1,8 +1,8 @@
 # Masala Deutsch — All Posts, Summarised
 
-*404 published posts, 81 topic labels. Each entry is the post's own published standfirst — not a re-summary.*
+*418 published posts, 81 topic labels. Each entry is the post's own published standfirst — not a re-summary.*
 
-*Generated 24 October 2026 — regenerated daily by tools/update_summary_cron.sh.*
+*Generated 26 October 2026 — regenerated daily by tools/update_summary_cron.sh.*
 
 
 ## Units & Figures Used in This Blog
@@ -219,8 +219,18 @@
 ## By Topic
 
 
-### Agriculture & Fertilisers (69)
+### Agriculture & Fertilisers (74)
 
+- **[India’s Winter Harvest Now Outgrows Its Monsoon One. Kharif, Rabi and Zaid, Crop by Crop: Area, Yield and When It Reaches the Mandi](https://masaladeutsch.blogspot.com/2026/10/indias-winter-harvest-now-outgrows-its.html)** — 2026-10-25
+  Rabi and summer crops now give India 53% of its foodgrains, up from 36% in 1966-67, on land that grew by a third while kharif area stood still. Maize, rice and moong are moving into the winter and summer seasons, and each season’s harvest reaches the mandi in a narrow window, wheat mostly in a single month.
+- **[Maize Is Cheapest in a Different State Every Few Months. Rice Barely Moves.](https://masaladeutsch.blogspot.com/2026/10/maize-is-cheapest-in-different-state.html)** — 2026-10-24
+  Agmarknet’s state-wise data from January 2019 to October 2026 shows maize’s cheap season moving around the country with each harvest, from Tamil Nadu in January to Punjab and Uttar Pradesh in June and the central kharif belt in October. Rice moves within a narrow band all year. In every state, for both grains, buying and holding for six months lost money on average.
+- **[Sixteen Crops, Twenty Years: Where India’s Harvest Grew From More Land and Where From Better Yields](https://masaladeutsch.blogspot.com/2026/10/sixteen-crops-twenty-years-where-indias.html)** — 2026-10-24
+  Sixteen crops, twenty years of official data: maize and moong grew fastest, roughly half from new land and half from better yields; soybean grew only by taking more land; groundnut and bajra grew only through yield; jowar and ragi shrank. Each crop’s states, districts, yield gaps and harvest swings, one by one.
+- **[India’s Farm Map in Seven Charts: Maize Is Spreading, Yields Are Shifting, and Prices Fall Into Four Clusters](https://masaladeutsch.blogspot.com/2026/10/indias-farm-map-in-seven-charts-maize.html)** — 2026-10-24
+  Combining official crop statistics with seven years of mandi prices: maize, mustard and moong have taken the most new land in a decade while jowar lost 42%; yields of maize, pulses and groundnut are now growing faster than rice and wheat; k-means clustering sorts India’s states into five farming regions and its 217 traded commodities into four kinds of price behaviour; and an independent check confirms that urea use follows the crop map.
+- **[India’s Biggest Mandi Crops Have the Steadiest Prices. Its Vegetables Swing Two to Eight Times as Much.](https://masaladeutsch.blogspot.com/2026/10/indias-biggest-mandi-crops-have.html)** — 2026-10-24
+  Ranking 23 crops by how much reaches India’s mandis and how much their prices move, using Agmarknet’s state-wise data to October 2026. Paddy and wheat make up almost half of all arrivals and move about 2.5–3% in a typical month. Onion, potato and tomato are nearly as large but move two to eight times as much, in every state.
 - **[Ethanol Plants That Trade Maize to Poultry Mills Can Earn Four Times More, but Only in a Glut Year](https://masaladeutsch.blogspot.com/2026/10/ethanol-plants-that-trade-maize-to.html)** — 2026-10-24
   India’s new ethanol tender puts maize last in line for oil-company orders. A maize distillery that also buys grain in price dips and sells its spare maize to poultry and feed mills earned about four times the EBITDA of a pure ethanol plant on 2025-26 prices. On 2024-25 prices, and in Uttar Pradesh’s weak 2025 window, it earned less. The model works only with strict buying rules.
 - **[India's 2026-27 Ethanol Tender Drops Cane Juice, Cuts Maize by Rs 3 a Litre and Flips From Sugar-First to Cheapest-First](https://masaladeutsch.blogspot.com/2026/10/indias-2026-27-ethanol-tender-drops.html)** — 2026-10-20
@@ -543,12 +553,16 @@
 - **[India Fuel Retail Outlets — 82k Geocoded Map (Part 2 of 3)](https://masaladeutsch.blogspot.com/2026/07/india-fuel-retail-outlets-82k-geocoded.html)** — 2026-07-22
   Part 2 of 3 in the CNG/CGD retail-mapping series. Companion posts: the CGD GA district map (Part 1) and the cold-chain × outlet integrated map (Part 3). Served live from GitHub Pages.
 
-### Climate & Carbon (24)
+### Climate & Carbon (26)
 
+- **[How to use hydrogen-electrolyser-control: a simulated PEM, AEM and alkaline electrolyser controller](https://masaladeutsch.blogspot.com/2026/10/how-to-use-hydrogen-electrolyser.html)** — 2026-10-25
+  A Python simulation of a hydrogen electrolyser control system: voltage and power setpoints, ramp profiles, inverter frequency, safety limits and a small REST API. This post runs it for real, shows what works and what is broken. Simulation only, not for operating real electrolysers. The repository is archived (read-only).
 - **[Europe Wants Green Steel It Can’t Afford to Make. Why CBAM Should Be Rolled Out More Gently](https://masaladeutsch.blogspot.com/2026/10/europe-wants-green-steel-it-cant-afford.html)** — 2026-10-24
   At European gas and hydrogen prices, clean steel costs up to twice ordinary steel to make, and buyers pay a premium of only €100–150 a tonne. CBAM and the new quotas protect Europe’s mills by shutting out imports that were about €136 a tonne cheaper, while doing nothing about energy costs. A slower, simpler rollout would serve Europe’s own goals better.
 - **[To Comply or Not to Comply: CBAM Costs Indian Steel €93 a Tonne With Verified Data and €270 Without. Indian Carbon Credits Won’t Close the Gap](https://masaladeutsch.blogspot.com/2026/10/to-comply-or-not-to-comply-cbam-costs.html)** — 2026-10-24
   India sent the EU USD 6.3 billion of CBAM-covered goods in 2024, most of it steel. Under the rules in force, verified emissions data cuts the 2026 charge on Indian hot-rolled coil from about €270 a tonne to €93. India’s own carbon credits, expected at €6–13 a tonne and not yet traded, are not recognised by the EU and would deduct little if they were.
+- **[How to use eu-ets-compliance-platform: a hands-on EU ETS and CBAM compliance prototype](https://masaladeutsch.blogspot.com/2026/10/how-to-use-eu-ets-compliance-platform.html)** — 2026-10-19
+  A multi-tenant FastAPI and React prototype that models EU ETS, shipping MRV, CBAM, carbon-credit sourcing, trading and an India CCTS module on illustrative data, useful for learning how the pieces fit together.
 - **[How to use biomass-to-syngas-opensource: size a biomass gasifier](https://masaladeutsch.blogspot.com/2026/10/how-to-use-biomass-to-syngas-opensource.html)** — 2026-10-19
   Estimate what a biomass gasifier produces from straw, how much tar it makes and whether the syngas is good enough for power or for chemicals.
 - **[Thermocol Dissolves in Orange-Peel Oil, as Researchers Showed in 1998. The Published Record Stops Where the Recycling Begins](https://masaladeutsch.blogspot.com/2026/10/thermocol-dissolves-in-orange-peel-oil.html)** — 2026-10-10
@@ -691,8 +705,16 @@
 - **[India's Mobile-Phone PLI Beat Every Target. Its Chip-Fab Scheme Has 5 of 12 Plants Actually Producing.](https://masaladeutsch.blogspot.com/2026/08/indias-mobile-phone-pli-beat-every.html)** — 2026-08-30
   India's mobile-phone PLI scheme beat its own five-year investment target by 294% and its production target by 142% — a genuine, government-reported overperformance. Its chip-fabrication cousin, the Semicon India Programme, has 12 approved plants and, as of SEMICON India 2026 in September, 5 producing anything (up from 3 when this piece was first published). The gap between the two tells you which parts of India's electronics-manufacturing push are working and which are still mostly paper.
 
-### Energy & Fuels (121)
+### Energy & Fuels (126)
 
+- **[How to use hydrogen-electrolyser-control: a simulated PEM, AEM and alkaline electrolyser controller](https://masaladeutsch.blogspot.com/2026/10/how-to-use-hydrogen-electrolyser.html)** — 2026-10-25
+  A Python simulation of a hydrogen electrolyser control system: voltage and power setpoints, ramp profiles, inverter frequency, safety limits and a small REST API. This post runs it for real, shows what works and what is broken. Simulation only, not for operating real electrolysers. The repository is archived (read-only).
+- **[How to use discom-debt-and-revenue-models: a scenario calculator for electricity distribution company debt](https://masaladeutsch.blogspot.com/2026/10/how-to-use-discom-debt-and-revenue.html)** — 2026-10-25
+  A single-file Python calculator that projects how tariff hikes, loss reduction, collection efficiency and subsidy timeliness change an electricity distribution company's debt, and what each path does to a household bill. This post runs it and shows the results and two problems I found. A conceptual scenario tool, not a forecast. The repository is archived (read-only).
+- **[How to use fuel-retail-outlets: see where India's petrol pumps are, state by state](https://masaladeutsch.blogspot.com/2026/10/how-to-use-fuel-retail-outlets-see.html)** — 2026-10-25
+  A crawl of 104,945 petrol-pump records from a public API, plus extractors and gap-analysis maps. This post shows the one cleaning step you must do first, and the state-by-state coverage it gives you.
+- **[How to use ethanol-design-opensource: size a fuel-ethanol distillery](https://masaladeutsch.blogspot.com/2026/10/how-to-use-ethanol-design-opensource.html)** — 2026-10-25
+  Size a first-generation fuel-ethanol distillery, from molasses or grain through fermentation, distillation and sieve dehydration to spent wash or DDGS.
 - **[How to use cng-cgd-retail-outlet-mapping: find which gas distributor is authorised to supply CNG to each petrol pump](https://masaladeutsch.blogspot.com/2026/10/how-to-use-cng-cgd-retail-outlet.html)** — 2026-10-23
   A table linking 82,593 petrol pumps to the City Gas Distribution (CGD) area and company authorised in their district, with an offline interactive map. Tests pass and the headline numbers reproduce.
 - **[How to use coal-to-urea-design-opensource: size a coal-to-urea complex](https://masaladeutsch.blogspot.com/2026/10/how-to-use-coal-to-urea-design.html)** — 2026-10-23
@@ -705,6 +727,8 @@
   PNGRB’s own August 2026 pipeline report puts India’s gas grid at 28,157 km operating and 7,033 km of common-carrier line still to build. The North-East grid is the one big active build; four authorised lines have laid no pipe at all; and the pipelines PNGRB bid out ran at 5% of capacity. Gazette land notices show where the next pipe is going.
 - **[India's 2026-27 Ethanol Tender Drops Cane Juice, Cuts Maize by Rs 3 a Litre and Flips From Sugar-First to Cheapest-First](https://masaladeutsch.blogspot.com/2026/10/indias-2026-27-ethanol-tender-drops.html)** — 2026-10-20
   The oil companies want 1,100 crore litres for November 2026 to October 2027. Unlike last year, they will buy no ethanol from cane juice or B-heavy molasses, pay Rs 68.86 instead of Rs 71.86 for maize, cap FCI rice at 108 crore litres a quarter instead of requiring 40% of grain offers from it, and allocate the cheapest feedstock first where last year put sugar first. Every award is subject to Supreme Court cases on allocation.
+- **[How to use ev-battery-management-sim: simulate EV battery packs and test the model on battery datasets](https://masaladeutsch.blogspot.com/2026/10/how-to-use-ev-battery-management-sim.html)** — 2026-10-19
+  A Python simulation of battery management for scooters, retrofitted cars and buses, plus a NASA battery-data cleaning notebook and a validation suite for six Kaggle datasets. The built-in validation runs on synthetic stand-ins; this post says so plainly. Simulation only, not engineering design.
 - **[How to use biomass-to-syngas-opensource: size a biomass gasifier](https://masaladeutsch.blogspot.com/2026/10/how-to-use-biomass-to-syngas-opensource.html)** — 2026-10-19
   Estimate what a biomass gasifier produces from straw, how much tar it makes and whether the syngas is good enough for power or for chemicals.
 - **[How to use bms-battery-management: simulate an EV battery pack in Python](https://masaladeutsch.blogspot.com/2026/10/how-to-use-bms-battery-management.html)** — 2026-10-18
@@ -834,7 +858,7 @@
 - **[Half-Empty Terminals, Costlier Pipes: Winter Comes for Europe's Landlocked Five](https://masaladeutsch.blogspot.com/2026/08/winter-is-coming-for-europes-landlocked.html)** — 2026-08-22
   Five EU states have no coastline: Austria, Czechia, Hungary, Slovakia and Luxembourg. Between them they burn 28 billion cubic metres of gas a year — 8.3 per cent of EU demand — and not one of them can dock an LNG tanker. Every molecule they use arrives through somebody else’s pipes, at somebody else’s tariff. The EU has now set a date to cut off the Russian gas that has flowed to them since 1967. Europe has built the terminals to replace it — and they run barely half full, because the binding constraint has moved from the sea to the pipes.
 - **[57.4 GW and Counting: India's Wind Fleet, State by State, Against What NIWE Says Is Actually There](https://masaladeutsch.blogspot.com/2026/08/574-gw-and-counting-indias-wind-fleet.html)** — 2026-08-21
-  India's wind fleet crossed 57,443 MW in June 2026, with Gujarat overtaking Tamil Nadu as the single biggest contributor for the first time. But measured against NIWE's own resource atlas — 695.5 GW of onshore potential at 120m hub height — the entire national fleet still uses barely 8 per cent of what the wind alone could support, and offshore wind, with 70 GW of technical potential off the Gujarat and Tamil Nadu coasts, has yet to commission a single megawatt.
+  India's wind fleet crossed 57,443 MW in June 2026, with Gujarat, which overtook Tamil Nadu as the largest state fleet in 2023, now adding almost half of all new capacity (49% in FY2025-26). But measured against NIWE's own resource atlas — 695.5 GW of onshore potential at 120m hub height — the entire national fleet still uses barely 8 per cent of what the wind alone could support, and offshore wind, with 70 GW of technical potential off the Gujarat and Tamil Nadu coasts, has yet to commission a single megawatt.
 - **[The Software Behind the Still: What's Actually Digitising India's Ethanol and Biofuel Supply Chain](https://masaladeutsch.blogspot.com/2026/08/the-software-behind-still-whats.html)** — 2026-08-20
   A companion piece to this blog's earlier survey of AI-in-the-field claims for India's sugar and ethanol sector looked at a much larger, previously untapped research notebook — 83 sources deep, the biggest single collection behind any article on this site. What it actually contains is not more AI hype: it's the unglamorous enterprise software layer — ERP, maintenance management, lab systems, compliance platforms — that a biofuel plant runs on day to day, plus two genuinely new India-specific finds: a July 2025 marine biofuel-bunkering circular, and a seventeen-year-old magazine story that this "2026 digital transformation" collection had filed as current.
 - **[Ten Cubic Metres an Hour: India's First Green Fuel Bunkering Rulebook, and the Pilots Behind It](https://masaladeutsch.blogspot.com/2026/08/ten-cubic-metres-hour-indias-first.html)** — 2026-08-20
@@ -958,12 +982,14 @@
 - **[India EC Approval Funnel — PARIVESH 2.0](https://masaladeutsch.blogspot.com/2026/07/india-ec-approval-funnel-parivesh-20.html)** — 2026-07-22
   How 113,970 EC proposals move from filing to grant on PARIVESH 2.0 (2022–2026). A current-state snapshot: each proposal shows its latest status, so proposals counted as "granted" have already passed through the ToR (Terms of Reference) and appraisal stages.
 
-### Equity Markets & Stock Screening (11)
+### Equity Markets & Stock Screening (12)
 
 - **[How to use colab-market-fundamentals: collect dated annual fundamentals for 20 markets in Colab](https://masaladeutsch.blogspot.com/2026/10/how-to-use-colab-market-fundamentals.html)** — 2026-10-19
   A Google Colab notebook that downloads about five years of annual company financials per market through yfinance, saves them to parquet every three minutes, and lets you resume from a zip. Research and education only. Not investment advice: this is research and education material built from public-source or derived data; it is not a recommendation to buy or sell anything.
 - **[How to use Bazartalks_Py2Cplus: a C++ port of a quant research platform, with its Python-vs-C++ benchmark](https://masaladeutsch.blogspot.com/2026/10/how-to-use-bazartalkspy2cplus-c-port-of.html)** — 2026-10-19
   Bazartalks_Py2Cplus (BazaarTalks-cpp) reimplements the storage, streaming, quant-compute, backtest and serving layers of BazaarTalks in C++, keeping Python only for data acquisition and ML training. This post is a not-run, README-based guide to building it, plus the benchmark the repo itself committed. Not investment advice.
+- **[How to use global-ticker-universe: look up exchange-qualified tickers for 34 markets](https://masaladeutsch.blogspot.com/2026/10/how-to-use-global-ticker-universe-look.html)** — 2026-10-19
+  A plain-data ticker list for 34 markets with a tiny Python helper, so you can pull every Yahoo-style symbol for India, Japan, Germany or any other covered market in one line. Not investment advice: this is research and education material built from public-source or derived data; it is not a recommendation to buy or sell anything.
 - **[How to use BazaarTalks: a multi-market quant research platform you can query with DuckDB](https://masaladeutsch.blogspot.com/2026/10/how-to-use-bazaartalks-multi-market.html)** — 2026-10-19
   BazaarTalks (README title: Global Market Scanners) is a research platform for multi-market equity screening, point-in-time backtests and factor research, with a DuckDB warehouse, optional Cassandra and Kafka backbone, and a small FastAPI dashboard. Not investment advice.
 - **[How to use the news tracker: score headlines and check them against stock picks](https://masaladeutsch.blogspot.com/2026/10/how-to-use-news-tracker-score-headlines.html)** — 2026-10-18
@@ -983,8 +1009,12 @@
 - **[US Stock Picks — Multi-Screen Quant Shortlist (24 Jul 2026)](https://masaladeutsch.blogspot.com/2026/07/us-stock-picks-multi-screen-quant.html)** — 2026-07-24
   Follow-up: see how the model portfolios built from these screens actually performed, cross-checked against public index benchmarks.
 
-### Ethanol & Biofuels (29)
+### Ethanol & Biofuels (31)
 
+- **[How to use ethanol-design-opensource: size a fuel-ethanol distillery](https://masaladeutsch.blogspot.com/2026/10/how-to-use-ethanol-design-opensource.html)** — 2026-10-25
+  Size a first-generation fuel-ethanol distillery, from molasses or grain through fermentation, distillation and sieve dehydration to spent wash or DDGS.
+- **[Maize Is Cheapest in a Different State Every Few Months. Rice Barely Moves.](https://masaladeutsch.blogspot.com/2026/10/maize-is-cheapest-in-different-state.html)** — 2026-10-24
+  Agmarknet’s state-wise data from January 2019 to October 2026 shows maize’s cheap season moving around the country with each harvest, from Tamil Nadu in January to Punjab and Uttar Pradesh in June and the central kharif belt in October. Rice moves within a narrow band all year. In every state, for both grains, buying and holding for six months lost money on average.
 - **[Ethanol Plants That Trade Maize to Poultry Mills Can Earn Four Times More, but Only in a Glut Year](https://masaladeutsch.blogspot.com/2026/10/ethanol-plants-that-trade-maize-to.html)** — 2026-10-24
   India’s new ethanol tender puts maize last in line for oil-company orders. A maize distillery that also buys grain in price dips and sells its spare maize to poultry and feed mills earned about four times the EBITDA of a pure ethanol plant on 2025-26 prices. On 2024-25 prices, and in Uttar Pradesh’s weak 2025 window, it earned less. The model works only with strict buying rules.
 - **[How to use cbg-design-opensource: size a compressed biogas plant](https://masaladeutsch.blogspot.com/2026/10/how-to-use-cbg-design-opensource-size.html)** — 2026-10-23
@@ -1194,8 +1224,18 @@
 - **[The Two Biggest Parties in Parliament Ask About Everything. Everyone Else Doesn't.](https://masaladeutsch.blogspot.com/2026/09/the-two-biggest-parties-in-parliament.html)** — 2026-09-18
   Rank India's 51 parliamentary parties by how many questions their MPs asked in the 18th Lok Sabha and current Rajya Sabha sessions, and BJP wins, then INC — by margins that just track how many MPs each party has. That ranking answers a boring question. A different cut of the same 59,381 questions — each party's focus on a specific ministry, divided by what its overall size would predict — answers a more interesting one: which parties are actually specialists. The two biggest are not. Nearly everyone smaller is, sharply, on one or two ministries tied to exactly what you'd guess from their base.
 
-### Grain Procurement & Storage (8)
+### Grain Procurement & Storage (13)
 
+- **[India’s Winter Harvest Now Outgrows Its Monsoon One. Kharif, Rabi and Zaid, Crop by Crop: Area, Yield and When It Reaches the Mandi](https://masaladeutsch.blogspot.com/2026/10/indias-winter-harvest-now-outgrows-its.html)** — 2026-10-25
+  Rabi and summer crops now give India 53% of its foodgrains, up from 36% in 1966-67, on land that grew by a third while kharif area stood still. Maize, rice and moong are moving into the winter and summer seasons, and each season’s harvest reaches the mandi in a narrow window, wheat mostly in a single month.
+- **[Maize Is Cheapest in a Different State Every Few Months. Rice Barely Moves.](https://masaladeutsch.blogspot.com/2026/10/maize-is-cheapest-in-different-state.html)** — 2026-10-24
+  Agmarknet’s state-wise data from January 2019 to October 2026 shows maize’s cheap season moving around the country with each harvest, from Tamil Nadu in January to Punjab and Uttar Pradesh in June and the central kharif belt in October. Rice moves within a narrow band all year. In every state, for both grains, buying and holding for six months lost money on average.
+- **[Sixteen Crops, Twenty Years: Where India’s Harvest Grew From More Land and Where From Better Yields](https://masaladeutsch.blogspot.com/2026/10/sixteen-crops-twenty-years-where-indias.html)** — 2026-10-24
+  Sixteen crops, twenty years of official data: maize and moong grew fastest, roughly half from new land and half from better yields; soybean grew only by taking more land; groundnut and bajra grew only through yield; jowar and ragi shrank. Each crop’s states, districts, yield gaps and harvest swings, one by one.
+- **[India’s Farm Map in Seven Charts: Maize Is Spreading, Yields Are Shifting, and Prices Fall Into Four Clusters](https://masaladeutsch.blogspot.com/2026/10/indias-farm-map-in-seven-charts-maize.html)** — 2026-10-24
+  Combining official crop statistics with seven years of mandi prices: maize, mustard and moong have taken the most new land in a decade while jowar lost 42%; yields of maize, pulses and groundnut are now growing faster than rice and wheat; k-means clustering sorts India’s states into five farming regions and its 217 traded commodities into four kinds of price behaviour; and an independent check confirms that urea use follows the crop map.
+- **[India’s Biggest Mandi Crops Have the Steadiest Prices. Its Vegetables Swing Two to Eight Times as Much.](https://masaladeutsch.blogspot.com/2026/10/indias-biggest-mandi-crops-have.html)** — 2026-10-24
+  Ranking 23 crops by how much reaches India’s mandis and how much their prices move, using Agmarknet’s state-wise data to October 2026. Paddy and wheat make up almost half of all arrivals and move about 2.5–3% in a typical month. Onion, potato and tomato are nearly as large but move two to eight times as much, in every state.
 - **[Ethanol Plants That Trade Maize to Poultry Mills Can Earn Four Times More, but Only in a Glut Year](https://masaladeutsch.blogspot.com/2026/10/ethanol-plants-that-trade-maize-to.html)** — 2026-10-24
   India’s new ethanol tender puts maize last in line for oil-company orders. A maize distillery that also buys grain in price dips and sells its spare maize to poultry and feed mills earned about four times the EBITDA of a pure ethanol plant on 2025-26 prices. On 2024-25 prices, and in Uttar Pradesh’s weak 2025 window, it earned less. The model works only with strict buying rules.
 - **[One Nation One Ration Card Doesn't Move Grain. FCI's Ethanol Tenders Move a Lot of It](https://masaladeutsch.blogspot.com/2026/09/one-nation-one-ration-card-doesnt-move.html)** — 2026-09-05
@@ -1306,14 +1346,26 @@
 - **[Chemical Import Substitution Analysis: Executive Summary](https://masaladeutsch.blogspot.com/2026/07/chemical-import-substitution-analysis.html)** — 2026-08-01
   A re-derivation of this analysis against DGCI&S TradeStat on 2 August 2026 found that several HS-8 codes cited below do not exist in India’s tariff schedule, and the import values attached to them are not supported by the data. Specifically: ethylene was cited as 29011100 / $2,800M (the real line is 29012100, $44M); propylene as 29011200 / $1,400M (real: 29012200, $14M); polyethylene as 39021010/30 / $8.5bn (real 3901 lines total ~$2.8bn; 3902 is polypropylene); lecithin as 29239090 / $100M (real: 29232090, ~$19M); polypropylene as 39021100 (real: 39021000, value $1,372M is correct).
 
-### India (44)
+### India (50)
 
+- **[How to use discom-debt-and-revenue-models: a scenario calculator for electricity distribution company debt](https://masaladeutsch.blogspot.com/2026/10/how-to-use-discom-debt-and-revenue.html)** — 2026-10-25
+  A single-file Python calculator that projects how tariff hikes, loss reduction, collection efficiency and subsidy timeliness change an electricity distribution company's debt, and what each path does to a household bill. This post runs it and shows the results and two problems I found. A conceptual scenario tool, not a forecast. The repository is archived (read-only).
+- **[How to use fuel-retail-outlets: see where India's petrol pumps are, state by state](https://masaladeutsch.blogspot.com/2026/10/how-to-use-fuel-retail-outlets-see.html)** — 2026-10-25
+  A crawl of 104,945 petrol-pump records from a public API, plus extractors and gap-analysis maps. This post shows the one cleaning step you must do first, and the state-by-state coverage it gives you.
+- **[How to use ethanol-design-opensource: size a fuel-ethanol distillery](https://masaladeutsch.blogspot.com/2026/10/how-to-use-ethanol-design-opensource.html)** — 2026-10-25
+  Size a first-generation fuel-ethanol distillery, from molasses or grain through fermentation, distillation and sieve dehydration to spent wash or DDGS.
+- **[How to use focus-sector-investor-map: see which foreign investors pair with which Indian government initiative](https://masaladeutsch.blogspot.com/2026/10/how-to-use-focus-sector-investor-map.html)** — 2026-10-25
+  A ready-made map of India's twelve focus sectors against 19,795 listed companies in 107 countries, plus a hand-verified file pairing foreign investors with the government scheme that is their route in.
 - **[How to use cng-cgd-retail-outlet-mapping: find which gas distributor is authorised to supply CNG to each petrol pump](https://masaladeutsch.blogspot.com/2026/10/how-to-use-cng-cgd-retail-outlet.html)** — 2026-10-23
   A table linking 82,593 petrol pumps to the City Gas Distribution (CGD) area and company authorised in their district, with an offline interactive map. Tests pass and the headline numbers reproduce.
 - **[How to use coal-to-urea-design-opensource: size a coal-to-urea complex](https://masaladeutsch.blogspot.com/2026/10/how-to-use-coal-to-urea-design.html)** — 2026-10-23
   Size a coal-gasification-to-urea complex in which six units share one mass basis, and compare the result with the real Talcher plant.
 - **[How to use cbg-design-opensource: size a compressed biogas plant](https://masaladeutsch.blogspot.com/2026/10/how-to-use-cbg-design-opensource-size.html)** — 2026-10-23
   Size a compressed biogas plant for India's SATAT scheme, from feedstock through digestion, upgrading and 250 bar compression, and check it against a published plant.
+- **[How to use eu-ets-compliance-platform: a hands-on EU ETS and CBAM compliance prototype](https://masaladeutsch.blogspot.com/2026/10/how-to-use-eu-ets-compliance-platform.html)** — 2026-10-19
+  A multi-tenant FastAPI and React prototype that models EU ETS, shipping MRV, CBAM, carbon-credit sourcing, trading and an India CCTS module on illustrative data, useful for learning how the pieces fit together.
+- **[How to use gazette-translated-indexed: a citation index of Indian gazette notifications](https://masaladeutsch.blogspot.com/2026/10/how-to-use-gazette-translated-indexed.html)** — 2026-10-19
+  gazette-translated-indexed (Gazette Trail) tells you what an Indian gazette notification amends, what amended it before, and what superseded it, which you cannot see by reading one notification alone. It is a SQLite citation graph built from quoted primary-source text.
 - **[How to use chemical_import_substitution: HS-8 import-substitution signals for India's chemical chapters](https://masaladeutsch.blogspot.com/2026/10/how-to-use-chemicalimportsubstitution.html)** — 2026-10-19
   A script and result file that sort India's chemical, fertiliser and plastics imports into import-substitution signals at 8-digit HS level, using public TRADESTAT value and quantity data.
 - **[How to use biomass-to-syngas-opensource: size a biomass gasifier](https://masaladeutsch.blogspot.com/2026/10/how-to-use-biomass-to-syngas-opensource.html)** — 2026-10-19
@@ -1410,7 +1462,7 @@
 - **[You Cannot Substitute Crude Oil or Gold. That Is 40% of India's Import Bill.](https://masaladeutsch.blogspot.com/2026/08/you-cannot-substitute-crude-oil-or-gold.html)** — 2026-08-23
   India is reported to have drawn up a list of 1,272 products worth $189 billion of annual imports to replace with domestic manufacturing. The list itself is not public. What is public is the trade data underneath it — and it says the target is 24 per cent of the import bill, 41 per cent of the imports manufacturing could plausibly touch, and 74 per cent of the four sectors the plan actually names.
 - **[57.4 GW and Counting: India's Wind Fleet, State by State, Against What NIWE Says Is Actually There](https://masaladeutsch.blogspot.com/2026/08/574-gw-and-counting-indias-wind-fleet.html)** — 2026-08-21
-  India's wind fleet crossed 57,443 MW in June 2026, with Gujarat overtaking Tamil Nadu as the single biggest contributor for the first time. But measured against NIWE's own resource atlas — 695.5 GW of onshore potential at 120m hub height — the entire national fleet still uses barely 8 per cent of what the wind alone could support, and offshore wind, with 70 GW of technical potential off the Gujarat and Tamil Nadu coasts, has yet to commission a single megawatt.
+  India's wind fleet crossed 57,443 MW in June 2026, with Gujarat, which overtook Tamil Nadu as the largest state fleet in 2023, now adding almost half of all new capacity (49% in FY2025-26). But measured against NIWE's own resource atlas — 695.5 GW of onshore potential at 120m hub height — the entire national fleet still uses barely 8 per cent of what the wind alone could support, and offshore wind, with 70 GW of technical potential off the Gujarat and Tamil Nadu coasts, has yet to commission a single megawatt.
 - **[Scan, Bottle, Deliver: What PPAC's Numbers Say About the LPG Cylinder in Your Kitchen](https://masaladeutsch.blogspot.com/2026/08/scan-bottle-deliver-what-ppacs-numbers.html)** — 2026-08-17
   Two oil marketing companies have piloted QR codes on domestic LPG cylinders since 2022 — a quality and anti-pilferage check, not a completed national rollout. Meanwhile PPAC's own numbers show two things that don't obviously square: active domestic LPG connections have grown from 14.9 crore in 2015 to 33.14 crore this July, a genuine, government-verified expansion — and PSU oil companies' domestic LPG sales in April-June 2026 actually fell 15.6% year-on-year. Both figures are real. This piece works through what each is measuring, and maps where India's 214 LPG bottling plants actually sit.
 - **[Rice Cultivation and Innovation](https://masaladeutsch.blogspot.com/2026/08/basf-and-mitsubishi-are-running.html)** — 2026-08-16
@@ -1653,8 +1705,12 @@
 - **[India Trade — Sector & Policy Recommendations (Chart Library)](https://masaladeutsch.blogspot.com/2026/07/india-trade-sector-policy.html)** — 2026-07-21
   Every chart and dataset in this project, served directly via GitHub Pages. Companion repo: India Trade & Macro Data Analysis (the descriptive half).
 
-### Infrastructure & Investment (10)
+### Infrastructure & Investment (12)
 
+- **[How to use focus-sector-investor-map: see which foreign investors pair with which Indian government initiative](https://masaladeutsch.blogspot.com/2026/10/how-to-use-focus-sector-investor-map.html)** — 2026-10-25
+  A ready-made map of India's twelve focus sectors against 19,795 listed companies in 107 countries, plus a hand-verified file pairing foreign investors with the government scheme that is their route in.
+- **[How to use gazette-translated-indexed: a citation index of Indian gazette notifications](https://masaladeutsch.blogspot.com/2026/10/how-to-use-gazette-translated-indexed.html)** — 2026-10-19
+  gazette-translated-indexed (Gazette Trail) tells you what an Indian gazette notification amends, what amended it before, and what superseded it, which you cannot see by reading one notification alone. It is a SQLite citation graph built from quoted primary-source text.
 - **[How to use digital-twin-for-ipa: a searchable map of India's investment incentives](https://masaladeutsch.blogspot.com/2026/10/how-to-use-digital-twin-for-ipa.html)** — 2026-10-19
   digital-twin-for-ipa is an open-source, machine-readable model of India's investment-promotion apparatus: 312 central and state incentive instruments, how they link, and a SQLite database of the companies around them.
 - **[India Is Piping Jet Fuel to Five New Airports at Once. Only Six Had It Before](https://masaladeutsch.blogspot.com/2026/09/india-is-piping-jet-fuel-to-five-new.html)** — 2026-09-08
@@ -1777,8 +1833,10 @@
 - **[How India's Automotive Clusters Rewired Themselves Around Just-in-Time Delivery](https://masaladeutsch.blogspot.com/2026/08/how-indias-automotive-clusters-rewired.html)** — 2026-08-15
   Maruti Suzuki gets over 76% of its 246 suppliers within 100km of its assembly lines, and its "e-Nagare" system cut the order-to-shopfloor cycle from 30 hours to 2. That single number is the clearest evidence of how India's automotive clusters actually work today — not as five separate manufacturing hubs, but as increasingly tight, just-in-time-organised ecosystems where component suppliers sit inside the same radius as the OEM. This piece maps the clusters, the mechanics of the JIT shift, and the one real crisis — the 2021 semiconductor shortage — that showed exactly where that model breaks.
 
-### Markets & Finance (58)
+### Markets & Finance (60)
 
+- **[How to use focus-sector-investor-map: see which foreign investors pair with which Indian government initiative](https://masaladeutsch.blogspot.com/2026/10/how-to-use-focus-sector-investor-map.html)** — 2026-10-25
+  A ready-made map of India's twelve focus sectors against 19,795 listed companies in 107 countries, plus a hand-verified file pairing foreign investors with the government scheme that is their route in.
 - **[How to use colab-market-fundamentals: collect dated annual fundamentals for 20 markets in Colab](https://masaladeutsch.blogspot.com/2026/10/how-to-use-colab-market-fundamentals.html)** — 2026-10-19
   A Google Colab notebook that downloads about five years of annual company financials per market through yfinance, saves them to parquet every three minutes, and lets you resume from a zip. Research and education only. Not investment advice: this is research and education material built from public-source or derived data; it is not a recommendation to buy or sell anything.
 - **[How to use agri-commodity-tracker: India mandi prices and an agriculture panel in one DuckDB file](https://masaladeutsch.blogspot.com/2026/10/how-to-use-agri-commodity-tracker-india.html)** — 2026-10-19
@@ -1787,6 +1845,8 @@
   agentic-insurance-agent is an open-source way to run insurance processes (policy issue, premium collection, claims) as diagrams and rules, with an AI layer that can recommend but not move money.
 - **[How to use Bazartalks_Py2Cplus: a C++ port of a quant research platform, with its Python-vs-C++ benchmark](https://masaladeutsch.blogspot.com/2026/10/how-to-use-bazartalkspy2cplus-c-port-of.html)** — 2026-10-19
   Bazartalks_Py2Cplus (BazaarTalks-cpp) reimplements the storage, streaming, quant-compute, backtest and serving layers of BazaarTalks in C++, keeping Python only for data acquisition and ML training. This post is a not-run, README-based guide to building it, plus the benchmark the repo itself committed. Not investment advice.
+- **[How to use global-ticker-universe: look up exchange-qualified tickers for 34 markets](https://masaladeutsch.blogspot.com/2026/10/how-to-use-global-ticker-universe-look.html)** — 2026-10-19
+  A plain-data ticker list for 34 markets with a tiny Python helper, so you can pull every Yahoo-style symbol for India, Japan, Germany or any other covered market in one line. Not investment advice: this is research and education material built from public-source or derived data; it is not a recommendation to buy or sell anything.
 - **[How to use BazaarTalks: a multi-market quant research platform you can query with DuckDB](https://masaladeutsch.blogspot.com/2026/10/how-to-use-bazaartalks-multi-market.html)** — 2026-10-19
   BazaarTalks (README title: Global Market Scanners) is a research platform for multi-market equity screening, point-in-time backtests and factor research, with a DuckDB warehouse, optional Cassandra and Kafka backbone, and a small FastAPI dashboard. Not investment advice.
 - **[How to use the news tracker: score headlines and check them against stock picks](https://masaladeutsch.blogspot.com/2026/10/how-to-use-news-tracker-score-headlines.html)** — 2026-10-18
@@ -1901,10 +1961,14 @@
 - **[What Seven Model Stock Portfolios Look Like Once You Check Them Against the Index](https://masaladeutsch.blogspot.com/2026/08/what-seven-model-stock-portfolios-look.html)** — 2026-08-28
   Stack eight stock-picking factors — breakout, quality, value, momentum, and a machine-learning bullish flag among them — and group what survives into co-movement model portfolios, and two separate questions come apart: does the result actually differ from an index fund, and does it actually beat one? Checked against public sector benchmarks, this factor stack's portfolios are almost uniformly differentiated from the index — but only one of seven is currently outperforming it once the broad market's own rise is stripped out.
 
-### Mobility & EV (16)
+### Mobility & EV (18)
 
+- **[How to use fuel-retail-outlets: see where India's petrol pumps are, state by state](https://masaladeutsch.blogspot.com/2026/10/how-to-use-fuel-retail-outlets-see.html)** — 2026-10-25
+  A crawl of 104,945 petrol-pump records from a public API, plus extractors and gap-analysis maps. This post shows the one cleaning step you must do first, and the state-by-state coverage it gives you.
 - **[How to use cng-cgd-retail-outlet-mapping: find which gas distributor is authorised to supply CNG to each petrol pump](https://masaladeutsch.blogspot.com/2026/10/how-to-use-cng-cgd-retail-outlet.html)** — 2026-10-23
   A table linking 82,593 petrol pumps to the City Gas Distribution (CGD) area and company authorised in their district, with an offline interactive map. Tests pass and the headline numbers reproduce.
+- **[How to use ev-battery-management-sim: simulate EV battery packs and test the model on battery datasets](https://masaladeutsch.blogspot.com/2026/10/how-to-use-ev-battery-management-sim.html)** — 2026-10-19
+  A Python simulation of battery management for scooters, retrofitted cars and buses, plus a NASA battery-data cleaning notebook and a validation suite for six Kaggle datasets. The built-in validation runs on synthetic stand-ins; this post says so plainly. Simulation only, not engineering design.
 - **[How to use bms-battery-management: simulate an EV battery pack in Python](https://masaladeutsch.blogspot.com/2026/10/how-to-use-bms-battery-management.html)** — 2026-10-18
   A small Python library that simulates battery management for electric scooters, retrofitted cars and buses, so you can watch charge level, ageing, heat and faults on your laptop before any hardware exists.
 - **[India's New Car Rules Count Every EV as Three Cars. Europe, the US and China Used Smaller Multipliers, Then Phased Them Out.](https://masaladeutsch.blogspot.com/2026/10/indias-new-car-rules-count-every-ev-as.html)** — 2026-10-02
@@ -1954,8 +2018,22 @@
 - **[India's Oil Fields Are Running Down: 36.96 to 28.70 MMT in a Decade, and the Targets Have Stopped Meaning Anything](https://masaladeutsch.blogspot.com/2026/08/indias-oil-fields-are-running-down-3696.html)** — 2026-08-06
   DGH's own ten-year table shows crude output falling every year but one since 2014-15. Gas has held up — but only because private deepwater replaced the state fields that were shrinking underneath it.
 
-### Open-Source Tools & How-To (26)
+### Open-Source Tools & How-To (37)
 
+- **[How to use hydrogen-electrolyser-control: a simulated PEM, AEM and alkaline electrolyser controller](https://masaladeutsch.blogspot.com/2026/10/how-to-use-hydrogen-electrolyser.html)** — 2026-10-25
+  A Python simulation of a hydrogen electrolyser control system: voltage and power setpoints, ramp profiles, inverter frequency, safety limits and a small REST API. This post runs it for real, shows what works and what is broken. Simulation only, not for operating real electrolysers. The repository is archived (read-only).
+- **[How to use discom-debt-and-revenue-models: a scenario calculator for electricity distribution company debt](https://masaladeutsch.blogspot.com/2026/10/how-to-use-discom-debt-and-revenue.html)** — 2026-10-25
+  A single-file Python calculator that projects how tariff hikes, loss reduction, collection efficiency and subsidy timeliness change an electricity distribution company's debt, and what each path does to a household bill. This post runs it and shows the results and two problems I found. A conceptual scenario tool, not a forecast. The repository is archived (read-only).
+- **[How to use fuel-retail-outlets: see where India's petrol pumps are, state by state](https://masaladeutsch.blogspot.com/2026/10/how-to-use-fuel-retail-outlets-see.html)** — 2026-10-25
+  A crawl of 104,945 petrol-pump records from a public API, plus extractors and gap-analysis maps. This post shows the one cleaning step you must do first, and the state-by-state coverage it gives you.
+- **[How to use ethanol-design-opensource: size a fuel-ethanol distillery](https://masaladeutsch.blogspot.com/2026/10/how-to-use-ethanol-design-opensource.html)** — 2026-10-25
+  Size a first-generation fuel-ethanol distillery, from molasses or grain through fermentation, distillation and sieve dehydration to spent wash or DDGS.
+- **[How to use focus-sector-investor-map: see which foreign investors pair with which Indian government initiative](https://masaladeutsch.blogspot.com/2026/10/how-to-use-focus-sector-investor-map.html)** — 2026-10-25
+  A ready-made map of India's twelve focus sectors against 19,795 listed companies in 107 countries, plus a hand-verified file pairing foreign investors with the government scheme that is their route in.
+- **[Sixteen Crops, Twenty Years: Where India’s Harvest Grew From More Land and Where From Better Yields](https://masaladeutsch.blogspot.com/2026/10/sixteen-crops-twenty-years-where-indias.html)** — 2026-10-24
+  Sixteen crops, twenty years of official data: maize and moong grew fastest, roughly half from new land and half from better yields; soybean grew only by taking more land; groundnut and bajra grew only through yield; jowar and ragi shrank. Each crop’s states, districts, yield gaps and harvest swings, one by one.
+- **[India’s Farm Map in Seven Charts: Maize Is Spreading, Yields Are Shifting, and Prices Fall Into Four Clusters](https://masaladeutsch.blogspot.com/2026/10/indias-farm-map-in-seven-charts-maize.html)** — 2026-10-24
+  Combining official crop statistics with seven years of mandi prices: maize, mustard and moong have taken the most new land in a decade while jowar lost 42%; yields of maize, pulses and groundnut are now growing faster than rice and wheat; k-means clustering sorts India’s states into five farming regions and its 217 traded commodities into four kinds of price behaviour; and an independent check confirms that urea use follows the crop map.
 - **[How to use cng-cgd-retail-outlet-mapping: find which gas distributor is authorised to supply CNG to each petrol pump](https://masaladeutsch.blogspot.com/2026/10/how-to-use-cng-cgd-retail-outlet.html)** — 2026-10-23
   A table linking 82,593 petrol pumps to the City Gas Distribution (CGD) area and company authorised in their district, with an offline interactive map. Tests pass and the headline numbers reproduce.
 - **[How to use coal-to-urea-design-opensource: size a coal-to-urea complex](https://masaladeutsch.blogspot.com/2026/10/how-to-use-coal-to-urea-design.html)** — 2026-10-23
@@ -1964,6 +2042,12 @@
   Size a compressed biogas plant for India's SATAT scheme, from feedstock through digestion, upgrading and 250 bar compression, and check it against a published plant.
 - **[How to use claude-provenance: an auditable log of every Claude message on your machine](https://masaladeutsch.blogspot.com/2026/10/how-to-use-claude-provenance-auditable.html)** — 2026-10-19
   One Python script turns your local Claude Code transcripts, prompt history and claude.ai export into a single SQLite database with timestamps, models, tool calls and a SHA-256 of each message.
+- **[How to use eu-ets-compliance-platform: a hands-on EU ETS and CBAM compliance prototype](https://masaladeutsch.blogspot.com/2026/10/how-to-use-eu-ets-compliance-platform.html)** — 2026-10-19
+  A multi-tenant FastAPI and React prototype that models EU ETS, shipping MRV, CBAM, carbon-credit sourcing, trading and an India CCTS module on illustrative data, useful for learning how the pieces fit together.
+- **[How to use gazette-translated-indexed: a citation index of Indian gazette notifications](https://masaladeutsch.blogspot.com/2026/10/how-to-use-gazette-translated-indexed.html)** — 2026-10-19
+  gazette-translated-indexed (Gazette Trail) tells you what an Indian gazette notification amends, what amended it before, and what superseded it, which you cannot see by reading one notification alone. It is a SQLite citation graph built from quoted primary-source text.
+- **[How to use ev-battery-management-sim: simulate EV battery packs and test the model on battery datasets](https://masaladeutsch.blogspot.com/2026/10/how-to-use-ev-battery-management-sim.html)** — 2026-10-19
+  A Python simulation of battery management for scooters, retrofitted cars and buses, plus a NASA battery-data cleaning notebook and a validation suite for six Kaggle datasets. The built-in validation runs on synthetic stand-ins; this post says so plainly. Simulation only, not engineering design.
 - **[How to use delivery-playbook: a field guide for choosing and fixing your software process](https://masaladeutsch.blogspot.com/2026/10/how-to-use-delivery-playbook-field.html)** — 2026-10-19
   A single-file HTML guide to SDLC models, the Agile family, DevOps, a fit-finder for picking a process, named anti-patterns, computer-science theory applied to products, DDD and TOGAF. This post shows what is inside and how to read it, adapt it or hand it to an AI assistant.
 - **[How to use chemical_import_substitution: HS-8 import-substitution signals for India's chemical chapters](https://masaladeutsch.blogspot.com/2026/10/how-to-use-chemicalimportsubstitution.html)** — 2026-10-19
@@ -1992,6 +2076,8 @@
   Bazartalks_Py2Cplus (BazaarTalks-cpp) reimplements the storage, streaming, quant-compute, backtest and serving layers of BazaarTalks in C++, keeping Python only for data acquisition and ML training. This post is a not-run, README-based guide to building it, plus the benchmark the repo itself committed. Not investment advice.
 - **[How to use CBSE_paper_patterns: check which Class 12 topics keep coming back at high marks](https://masaladeutsch.blogspot.com/2026/10/how-to-use-cbsepaperpatterns-check.html)** — 2026-10-19
   An analysis of 1,955 CBSE Class XII question papers (2022 to 2026) that measures how often high-mark questions reuse the same wording. This post uses only the derived aggregate tables, not the question text.
+- **[How to use global-ticker-universe: look up exchange-qualified tickers for 34 markets](https://masaladeutsch.blogspot.com/2026/10/how-to-use-global-ticker-universe-look.html)** — 2026-10-19
+  A plain-data ticker list for 34 markets with a tiny Python helper, so you can pull every Yahoo-style symbol for India, Japan, Germany or any other covered market in one line. Not investment advice: this is research and education material built from public-source or derived data; it is not a recommendation to buy or sell anything.
 - **[How to use BazaarTalks: a multi-market quant research platform you can query with DuckDB](https://masaladeutsch.blogspot.com/2026/10/how-to-use-bazaartalks-multi-market.html)** — 2026-10-19
   BazaarTalks (README title: Global Market Scanners) is a research platform for multi-market equity screening, point-in-time backtests and factor research, with a DuckDB warehouse, optional Cassandra and Kafka backbone, and a small FastAPI dashboard. Not investment advice.
 - **[How to use ship2shore_rag: offline answers from open maritime reports](https://masaladeutsch.blogspot.com/2026/10/how-to-use-ship2shorerag-offline.html)** — 2026-10-18
@@ -2060,8 +2146,16 @@
 - **[Priority Trade Partners by Import-Growth Sector, & Real PLI Coverage](https://masaladeutsch.blogspot.com/2026/08/priority-trade-partners-by-import.html)** — 2026-08-02
   Maps each of the 12 fastest-growing/highest-value import chapters (from this repo's HSN historical-trends bulletin) to its actual top supplier countries via TRADESTAT, builds a cross-sector country-priority ranking, and checks exactly which Production Linked Incentive sub-schemes — including White Goods and Specialty Steel — actually reach these chapters.
 
-### Prices & Inflation (9)
+### Prices & Inflation (13)
 
+- **[India’s Winter Harvest Now Outgrows Its Monsoon One. Kharif, Rabi and Zaid, Crop by Crop: Area, Yield and When It Reaches the Mandi](https://masaladeutsch.blogspot.com/2026/10/indias-winter-harvest-now-outgrows-its.html)** — 2026-10-25
+  Rabi and summer crops now give India 53% of its foodgrains, up from 36% in 1966-67, on land that grew by a third while kharif area stood still. Maize, rice and moong are moving into the winter and summer seasons, and each season’s harvest reaches the mandi in a narrow window, wheat mostly in a single month.
+- **[Maize Is Cheapest in a Different State Every Few Months. Rice Barely Moves.](https://masaladeutsch.blogspot.com/2026/10/maize-is-cheapest-in-different-state.html)** — 2026-10-24
+  Agmarknet’s state-wise data from January 2019 to October 2026 shows maize’s cheap season moving around the country with each harvest, from Tamil Nadu in January to Punjab and Uttar Pradesh in June and the central kharif belt in October. Rice moves within a narrow band all year. In every state, for both grains, buying and holding for six months lost money on average.
+- **[India’s Farm Map in Seven Charts: Maize Is Spreading, Yields Are Shifting, and Prices Fall Into Four Clusters](https://masaladeutsch.blogspot.com/2026/10/indias-farm-map-in-seven-charts-maize.html)** — 2026-10-24
+  Combining official crop statistics with seven years of mandi prices: maize, mustard and moong have taken the most new land in a decade while jowar lost 42%; yields of maize, pulses and groundnut are now growing faster than rice and wheat; k-means clustering sorts India’s states into five farming regions and its 217 traded commodities into four kinds of price behaviour; and an independent check confirms that urea use follows the crop map.
+- **[India’s Biggest Mandi Crops Have the Steadiest Prices. Its Vegetables Swing Two to Eight Times as Much.](https://masaladeutsch.blogspot.com/2026/10/indias-biggest-mandi-crops-have.html)** — 2026-10-24
+  Ranking 23 crops by how much reaches India’s mandis and how much their prices move, using Agmarknet’s state-wise data to October 2026. Paddy and wheat make up almost half of all arrivals and move about 2.5–3% in a typical month. Onion, potato and tomato are nearly as large but move two to eight times as much, in every state.
 - **[The LPG Distributor's Commission Rose 16 Times Since 2004. After Inflation, It Is Back Where It Was in 2012](https://masaladeutsch.blogspot.com/2026/10/the-lpg-distributors-commission-rose-16.html)** — 2026-10-17
   PPAC’s record shows the commission on a domestic cylinder going from Rs 16.71 in 2004 to Rs 73.08 in 2023. In today’s rupees, the revisions of 2012 to 2018 only kept pace with prices, the 2019 raise was the one real gain, and inflation has since taken it back.
 - **[A 17% Rural Pay Rise That Nobody Received](https://masaladeutsch.blogspot.com/2026/08/a-17-rural-pay-rise-that-nobody-received.html)** — 2026-08-22
@@ -2146,7 +2240,7 @@
 - **[India's Battery Storage Boom Is Outrunning Both Its Tariffs and Its Factories](https://masaladeutsch.blogspot.com/2026/09/indias-battery-storage-boom-is.html)** — 2026-09-11
   India's installed grid-scale battery storage capacity multiplied roughly ninefold in the first three months of 2026, then kept accelerating into an "84-fold" year-on-year jump by mid-year — and 2025's tendering alone came close to matching everything tendered in the seven years before it combined. None of that is in dispute. What sits underneath it is: analysts at IEEFA and JMK Research estimate that discovered battery-storage tariffs have fallen roughly twice as fast as the battery packs behind them actually got cheaper, to the point where they reckon as much as three-quarters of 2025's award-winning two-hour BESS tariffs may not be viable — and India's flagship scheme to build the cells those batteries need has commissioned only about 2.8% of the manufacturing capacity it has already awarded. The growth is real. Whether the prices are, and whether the batteries will end up Indian-made, are the harder questions — and this piece can only partially answer them, because several of India's own government storage figures were unreachable in this research and its industry trackers do not agree with each other either.
 - **[57.4 GW and Counting: India's Wind Fleet, State by State, Against What NIWE Says Is Actually There](https://masaladeutsch.blogspot.com/2026/08/574-gw-and-counting-indias-wind-fleet.html)** — 2026-08-21
-  India's wind fleet crossed 57,443 MW in June 2026, with Gujarat overtaking Tamil Nadu as the single biggest contributor for the first time. But measured against NIWE's own resource atlas — 695.5 GW of onshore potential at 120m hub height — the entire national fleet still uses barely 8 per cent of what the wind alone could support, and offshore wind, with 70 GW of technical potential off the Gujarat and Tamil Nadu coasts, has yet to commission a single megawatt.
+  India's wind fleet crossed 57,443 MW in June 2026, with Gujarat, which overtook Tamil Nadu as the largest state fleet in 2023, now adding almost half of all new capacity (49% in FY2025-26). But measured against NIWE's own resource atlas — 695.5 GW of onshore potential at 120m hub height — the entire national fleet still uses barely 8 per cent of what the wind alone could support, and offshore wind, with 70 GW of technical potential off the Gujarat and Tamil Nadu coasts, has yet to commission a single megawatt.
 - **[$0.28 a Unit: The Diesel Math Behind India's Data Centres and Telecom Towers, and Why It's Already Losing](https://masaladeutsch.blogspot.com/2026/08/028-unit-diesel-math-behind-indias-data.html)** — 2026-08-20
   India is building two new diesel-dependent industries at the same time — a gigawatt-scale AI data-centre pipeline and a five-fold expansion of telecom tower sites for 5G — right as the economics of backup power tip decisively against diesel. Diesel generation costs roughly $0.28 a kilowatt-hour against grid power at $0.085 and solar-charged battery storage at $0.076–0.08. Telecom towercos have already proven the alternative works at scale; data centres, still writing their backup-power playbook, have not yet caught up.
 - **[Biomass Power at Night: The Dispatchable Renewable India's Growth Numbers Left Behind](https://masaladeutsch.blogspot.com/2026/08/biomass-power-at-night-dispatchable.html)** — 2026-08-20
@@ -3366,7 +3460,7 @@ India is the largest export market on earth for California almonds and the secon
 ### [57.4 GW and Counting: India's Wind Fleet, State by State, Against What NIWE Says Is Actually There](https://masaladeutsch.blogspot.com/2026/08/574-gw-and-counting-indias-wind-fleet.html)
 *2026-08-21 · Energy & Fuels, India Trade & Policy, Renewable Power & Storage*
 
-India's wind fleet crossed 57,443 MW in June 2026, with Gujarat overtaking Tamil Nadu as the single biggest contributor for the first time. But measured against NIWE's own resource atlas — 695.5 GW of onshore potential at 120m hub height — the entire national fleet still uses barely 8 per cent of what the wind alone could support, and offshore wind, with 70 GW of technical potential off the Gujarat and Tamil Nadu coasts, has yet to commission a single megawatt.
+India's wind fleet crossed 57,443 MW in June 2026, with Gujarat, which overtook Tamil Nadu as the largest state fleet in 2023, now adding almost half of all new capacity (49% in FY2025-26). But measured against NIWE's own resource atlas — 695.5 GW of onshore potential at 120m hub height — the entire national fleet still uses barely 8 per cent of what the wind alone could support, and offshore wind, with 70 GW of technical potential off the Gujarat and Tamil Nadu coasts, has yet to commission a single megawatt.
 
 ### [₹71.86 a Litre: Why Maize Is India's Priciest Ethanol Feedstock, Even as This Season's Acreage Falls](https://masaladeutsch.blogspot.com/2026/08/7186-litre-why-maize-is-indias-priciest.html)
 *2026-08-21 · Agriculture & Food Processing, Ethanol & Biofuels*
@@ -4343,6 +4437,21 @@ Customer support, application maintenance and labour-billed back-office work are
 
 One Python script turns your local Claude Code transcripts, prompt history and claude.ai export into a single SQLite database with timestamps, models, tool calls and a SHA-256 of each message.
 
+### [How to use eu-ets-compliance-platform: a hands-on EU ETS and CBAM compliance prototype](https://masaladeutsch.blogspot.com/2026/10/how-to-use-eu-ets-compliance-platform.html)
+*2026-10-19 · Climate & Carbon, India, Open-Source Tools & How-To*
+
+A multi-tenant FastAPI and React prototype that models EU ETS, shipping MRV, CBAM, carbon-credit sourcing, trading and an India CCTS module on illustrative data, useful for learning how the pieces fit together.
+
+### [How to use gazette-translated-indexed: a citation index of Indian gazette notifications](https://masaladeutsch.blogspot.com/2026/10/how-to-use-gazette-translated-indexed.html)
+*2026-10-19 · India, Infrastructure & Investment, Open-Source Tools & How-To*
+
+gazette-translated-indexed (Gazette Trail) tells you what an Indian gazette notification amends, what amended it before, and what superseded it, which you cannot see by reading one notification alone. It is a SQLite citation graph built from quoted primary-source text.
+
+### [How to use ev-battery-management-sim: simulate EV battery packs and test the model on battery datasets](https://masaladeutsch.blogspot.com/2026/10/how-to-use-ev-battery-management-sim.html)
+*2026-10-19 · Energy & Fuels, Mobility & EV, Open-Source Tools & How-To*
+
+A Python simulation of battery management for scooters, retrofitted cars and buses, plus a NASA battery-data cleaning notebook and a validation suite for six Kaggle datasets. The built-in validation runs on synthetic stand-ins; this post says so plainly. Simulation only, not engineering design.
+
 ### [How to use delivery-playbook: a field guide for choosing and fixing your software process](https://masaladeutsch.blogspot.com/2026/10/how-to-use-delivery-playbook-field.html)
 *2026-10-19 · Open-Source Tools & How-To*
 
@@ -4413,6 +4522,11 @@ Bazartalks_Py2Cplus (BazaarTalks-cpp) reimplements the storage, streaming, quant
 
 An analysis of 1,955 CBSE Class XII question papers (2022 to 2026) that measures how often high-mark questions reuse the same wording. This post uses only the derived aggregate tables, not the question text.
 
+### [How to use global-ticker-universe: look up exchange-qualified tickers for 34 markets](https://masaladeutsch.blogspot.com/2026/10/how-to-use-global-ticker-universe-look.html)
+*2026-10-19 · Equity Markets & Stock Screening, Markets & Finance, Open-Source Tools & How-To*
+
+A plain-data ticker list for 34 markets with a tiny Python helper, so you can pull every Yahoo-style symbol for India, Japan, Germany or any other covered market in one line. Not investment advice: this is research and education material built from public-source or derived data; it is not a recommendation to buy or sell anything.
+
 ### [How to use BazaarTalks: a multi-market quant research platform you can query with DuckDB](https://masaladeutsch.blogspot.com/2026/10/how-to-use-bazaartalks-multi-market.html)
 *2026-10-19 · Equity Markets & Stock Screening, Markets & Finance, Open-Source Tools & How-To*
 
@@ -4453,17 +4567,67 @@ Expanding Dahej cost about ₹370 crore per million tonnes a year of capacity; I
 
 PNGRB’s own August 2026 pipeline report puts India’s gas grid at 28,157 km operating and 7,033 km of common-carrier line still to build. The North-East grid is the one big active build; four authorised lines have laid no pipe at all; and the pipelines PNGRB bid out ran at 5% of capacity. Gazette land notices show where the next pipe is going.
 
+### [Maize Is Cheapest in a Different State Every Few Months. Rice Barely Moves.](https://masaladeutsch.blogspot.com/2026/10/maize-is-cheapest-in-different-state.html)
+*2026-10-24 · Agriculture & Fertilisers, Ethanol & Biofuels, Grain Procurement & Storage, Prices & Inflation*
+
+Agmarknet’s state-wise data from January 2019 to October 2026 shows maize’s cheap season moving around the country with each harvest, from Tamil Nadu in January to Punjab and Uttar Pradesh in June and the central kharif belt in October. Rice moves within a narrow band all year. In every state, for both grains, buying and holding for six months lost money on average.
+
 ### [Europe Wants Green Steel It Can’t Afford to Make. Why CBAM Should Be Rolled Out More Gently](https://masaladeutsch.blogspot.com/2026/10/europe-wants-green-steel-it-cant-afford.html)
 *2026-10-24 · Climate & Carbon, Industrial Policy, Trade & Tariffs*
 
 At European gas and hydrogen prices, clean steel costs up to twice ordinary steel to make, and buyers pay a premium of only €100–150 a tonne. CBAM and the new quotas protect Europe’s mills by shutting out imports that were about €136 a tonne cheaper, while doing nothing about energy costs. A slower, simpler rollout would serve Europe’s own goals better.
+
+### [Sixteen Crops, Twenty Years: Where India’s Harvest Grew From More Land and Where From Better Yields](https://masaladeutsch.blogspot.com/2026/10/sixteen-crops-twenty-years-where-indias.html)
+*2026-10-24 · Agriculture & Fertilisers, Grain Procurement & Storage, Open-Source Tools & How-To*
+
+Sixteen crops, twenty years of official data: maize and moong grew fastest, roughly half from new land and half from better yields; soybean grew only by taking more land; groundnut and bajra grew only through yield; jowar and ragi shrank. Each crop’s states, districts, yield gaps and harvest swings, one by one.
 
 ### [To Comply or Not to Comply: CBAM Costs Indian Steel €93 a Tonne With Verified Data and €270 Without. Indian Carbon Credits Won’t Close the Gap](https://masaladeutsch.blogspot.com/2026/10/to-comply-or-not-to-comply-cbam-costs.html)
 *2026-10-24 · Climate & Carbon, Industrial Policy, Trade & Tariffs*
 
 India sent the EU USD 6.3 billion of CBAM-covered goods in 2024, most of it steel. Under the rules in force, verified emissions data cuts the 2026 charge on Indian hot-rolled coil from about €270 a tonne to €93. India’s own carbon credits, expected at €6–13 a tonne and not yet traded, are not recognised by the EU and would deduct little if they were.
 
+### [India’s Farm Map in Seven Charts: Maize Is Spreading, Yields Are Shifting, and Prices Fall Into Four Clusters](https://masaladeutsch.blogspot.com/2026/10/indias-farm-map-in-seven-charts-maize.html)
+*2026-10-24 · Agriculture & Fertilisers, Grain Procurement & Storage, Open-Source Tools & How-To, Prices & Inflation*
+
+Combining official crop statistics with seven years of mandi prices: maize, mustard and moong have taken the most new land in a decade while jowar lost 42%; yields of maize, pulses and groundnut are now growing faster than rice and wheat; k-means clustering sorts India’s states into five farming regions and its 217 traded commodities into four kinds of price behaviour; and an independent check confirms that urea use follows the crop map.
+
+### [India’s Biggest Mandi Crops Have the Steadiest Prices. Its Vegetables Swing Two to Eight Times as Much.](https://masaladeutsch.blogspot.com/2026/10/indias-biggest-mandi-crops-have.html)
+*2026-10-24 · Agriculture & Fertilisers, Grain Procurement & Storage, Prices & Inflation*
+
+Ranking 23 crops by how much reaches India’s mandis and how much their prices move, using Agmarknet’s state-wise data to October 2026. Paddy and wheat make up almost half of all arrivals and move about 2.5–3% in a typical month. Onion, potato and tomato are nearly as large but move two to eight times as much, in every state.
+
 ### [Ethanol Plants That Trade Maize to Poultry Mills Can Earn Four Times More, but Only in a Glut Year](https://masaladeutsch.blogspot.com/2026/10/ethanol-plants-that-trade-maize-to.html)
 *2026-10-24 · Agriculture & Fertilisers, Ethanol & Biofuels, Grain Procurement & Storage, Livestock & Dairy*
 
 India’s new ethanol tender puts maize last in line for oil-company orders. A maize distillery that also buys grain in price dips and sells its spare maize to poultry and feed mills earned about four times the EBITDA of a pure ethanol plant on 2025-26 prices. On 2024-25 prices, and in Uttar Pradesh’s weak 2025 window, it earned less. The model works only with strict buying rules.
+
+### [India’s Winter Harvest Now Outgrows Its Monsoon One. Kharif, Rabi and Zaid, Crop by Crop: Area, Yield and When It Reaches the Mandi](https://masaladeutsch.blogspot.com/2026/10/indias-winter-harvest-now-outgrows-its.html)
+*2026-10-25 · Agriculture & Fertilisers, Grain Procurement & Storage, Prices & Inflation*
+
+Rabi and summer crops now give India 53% of its foodgrains, up from 36% in 1966-67, on land that grew by a third while kharif area stood still. Maize, rice and moong are moving into the winter and summer seasons, and each season’s harvest reaches the mandi in a narrow window, wheat mostly in a single month.
+
+### [How to use hydrogen-electrolyser-control: a simulated PEM, AEM and alkaline electrolyser controller](https://masaladeutsch.blogspot.com/2026/10/how-to-use-hydrogen-electrolyser.html)
+*2026-10-25 · Climate & Carbon, Energy & Fuels, Open-Source Tools & How-To*
+
+A Python simulation of a hydrogen electrolyser control system: voltage and power setpoints, ramp profiles, inverter frequency, safety limits and a small REST API. This post runs it for real, shows what works and what is broken. Simulation only, not for operating real electrolysers. The repository is archived (read-only).
+
+### [How to use discom-debt-and-revenue-models: a scenario calculator for electricity distribution company debt](https://masaladeutsch.blogspot.com/2026/10/how-to-use-discom-debt-and-revenue.html)
+*2026-10-25 · Energy & Fuels, India, Open-Source Tools & How-To*
+
+A single-file Python calculator that projects how tariff hikes, loss reduction, collection efficiency and subsidy timeliness change an electricity distribution company's debt, and what each path does to a household bill. This post runs it and shows the results and two problems I found. A conceptual scenario tool, not a forecast. The repository is archived (read-only).
+
+### [How to use fuel-retail-outlets: see where India's petrol pumps are, state by state](https://masaladeutsch.blogspot.com/2026/10/how-to-use-fuel-retail-outlets-see.html)
+*2026-10-25 · Energy & Fuels, India, Mobility & EV, Open-Source Tools & How-To*
+
+A crawl of 104,945 petrol-pump records from a public API, plus extractors and gap-analysis maps. This post shows the one cleaning step you must do first, and the state-by-state coverage it gives you.
+
+### [How to use ethanol-design-opensource: size a fuel-ethanol distillery](https://masaladeutsch.blogspot.com/2026/10/how-to-use-ethanol-design-opensource.html)
+*2026-10-25 · Energy & Fuels, Ethanol & Biofuels, India, Open-Source Tools & How-To*
+
+Size a first-generation fuel-ethanol distillery, from molasses or grain through fermentation, distillation and sieve dehydration to spent wash or DDGS.
+
+### [How to use focus-sector-investor-map: see which foreign investors pair with which Indian government initiative](https://masaladeutsch.blogspot.com/2026/10/how-to-use-focus-sector-investor-map.html)
+*2026-10-25 · India, Infrastructure & Investment, Markets & Finance, Open-Source Tools & How-To*
+
+A ready-made map of India's twelve focus sectors against 19,795 listed companies in 107 countries, plus a hand-verified file pairing foreign investors with the government scheme that is their route in.
