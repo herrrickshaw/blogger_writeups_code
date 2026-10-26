@@ -1,10 +1,10 @@
-# Language audit summary — 2026-10-24
+# Language audit summary — 2026-10-26
 
-*236 of 409 posts flagged. Report-only — nothing was published. Per-post detail in out/language_audit/<slug>.md.*
+*245 of 423 posts flagged. Report-only — nothing was published. Per-post detail in out/language_audit/<slug>.md.*
 
+- [Half-Empty Terminals, Costlier Pipes: Winter Comes for Europe's Landlocked Five](https://masaladeutsch.blogspot.com/2026/08/winter-is-coming-for-europes-landlocked.html) — 64 matches — see `winter-is-coming-for-europes-landlocked.md`
 - [A 17% Rural Pay Rise That Nobody Received](https://masaladeutsch.blogspot.com/2026/08/a-17-rural-pay-rise-that-nobody-received.html) — 55 matches — see `a-17-rural-pay-rise-that-nobody-received.md`
 - [Nano Urea Works as a Supplement and Fails as a Substitute. The Rulebook Now Agrees.](https://masaladeutsch.blogspot.com/2026/08/nano-urea-works-as-supplement-and-fails.html) — 49 matches — see `nano-urea-works-as-supplement-and-fails.md`
-- [Half-Empty Terminals, Costlier Pipes: Winter Comes for Europe's Landlocked Five](https://masaladeutsch.blogspot.com/2026/08/winter-is-coming-for-europes-landlocked.html) — 47 matches — see `winter-is-coming-for-europes-landlocked.md`
 - [Indian Medicine Depends Heavily on Chinese Imports](https://masaladeutsch.blogspot.com/2026/08/india-cannot-sell-china-free-medicine.html) — 45 matches — see `india-cannot-sell-china-free-medicine.md`
 - [Premium Now, Claim Later: The Float India's Car Boom Is Building](https://masaladeutsch.blogspot.com/2026/08/premium-now-claim-later-float-indias.html) — 43 matches — see `premium-now-claim-later-float-indias.md`
 - [379 Kilos a Hectare in Punjab, 44 in Kerala: India's Urea Map Is a Crop Map](https://masaladeutsch.blogspot.com/2026/08/379-kilos-hectare-in-punjab-44-in.html) — 42 matches — see `379-kilos-hectare-in-punjab-44-in.md`
@@ -22,6 +22,7 @@
 - [CGD Geographical Areas — District Allotment Map (Part 1 of 3)](https://masaladeutsch.blogspot.com/2026/07/cgd-geographical-areas-district.html) — 10 matches — see `cgd-geographical-areas-district.md`
 - [India's 8-Digit Trade Book, Searchable](https://masaladeutsch.blogspot.com/2026/08/indias-8-digit-trade-book-searchable.html) — 10 matches — see `indias-8-digit-trade-book-searchable.md`
 - [The Balkan Relish India Already Has the Ingredients For: Making the Case for Ajvar](https://masaladeutsch.blogspot.com/2026/08/the-balkan-relish-india-already-has.html) — 10 matches — see `the-balkan-relish-india-already-has.md`
+- [How to use ev-battery-management-sim: simulate EV battery packs and test the model on battery datasets](https://masaladeutsch.blogspot.com/2026/10/how-to-use-ev-battery-management-sim.html) — 9 matches — see `how-to-use-ev-battery-management-sim.md`
 - [Refineries Under Fire: How Two Wars Turned Oil and Gas Infrastructure Into a Drone Target, and Made Counter-UAS a Global Energy-Security Line Item](https://masaladeutsch.blogspot.com/2026/08/refineries-under-fire-how-two-wars.html) — 9 matches — see `refineries-under-fire-how-two-wars.md`
 - [The Levelised Cost of Hydrogen, Explained: What It Would Actually Take to Hit India's $1.50/kg Target](https://masaladeutsch.blogspot.com/2026/08/the-levelised-cost-of-hydrogen.html) — 9 matches — see `the-levelised-cost-of-hydrogen.md`
 - [Everyone Worries About Who Pays for India's CO2 Pipelines. Pipelines Are the Cheap Part](https://masaladeutsch.blogspot.com/2026/09/everyone-worries-about-who-pays-for.html) — 8 matches — see `everyone-worries-about-who-pays-for.md`
@@ -29,13 +30,13 @@
 - [Foreign Capital Found India's Hospitals — It Is Buying Them, Not Building New Ones](https://masaladeutsch.blogspot.com/2026/08/foreign-capital-found-indias-hospitals.html) — 7 matches — see `foreign-capital-found-indias-hospitals.md`
 - [How to use agentic-insurance-agent: open-source insurance workflows with safe AI](https://masaladeutsch.blogspot.com/2026/10/how-to-use-agentic-insurance-agent-open.html) — 7 matches — see `how-to-use-agentic-insurance-agent-open.md`
 - [India Pays $5-8 Billion a Year to Ship Its Own Oil. Only 20% of That Cargo Travels on an Indian Vessel.](https://masaladeutsch.blogspot.com/2026/09/india-pays-5-8-billion-year-to-ship-its.html) — 7 matches — see `india-pays-5-8-billion-year-to-ship-its.md`
-- [IPA Digital Twin — Reportage: Latest Updates (28 Jul – 14 Sep 2026)](https://masaladeutsch.blogspot.com/2026/08/ipa-digital-twin-reportage-latest.html) — 7 matches — see `ipa-digital-twin-reportage-latest.md`
 - [One Nation, One GST Rate: What a True Flat Tax Would Take, and Why Not Even Singapore Has One](https://masaladeutsch.blogspot.com/2026/09/one-nation-one-gst-rate-what-true-flat.html) — 7 matches — see `one-nation-one-gst-rate-what-true-flat.md`
 - [Sugar at ₹55.70 a Kilo: Why Cane Acreage Isn't Growing, and Ethanol Is Losing the Diversion Race](https://masaladeutsch.blogspot.com/2026/08/sugar-at-5570-kilo-why-cane-acreage.html) — 7 matches — see `sugar-at-5570-kilo-why-cane-acreage.md`
 - [Ten Cubic Metres an Hour: India's First Green Fuel Bunkering Rulebook, and the Pilots Behind It](https://masaladeutsch.blogspot.com/2026/08/ten-cubic-metres-hour-indias-first.html) — 7 matches — see `ten-cubic-metres-hour-indias-first.md`
 - [The Fearless Girl's Charter — India's Market Asks 2026](https://masaladeutsch.blogspot.com/2026/07/the-fearless-girls-charter-indias.html) — 7 matches — see `the-fearless-girls-charter-indias.md`
 - [$0.28 a Unit: The Diesel Math Behind India's Data Centres and Telecom Towers, and Why It's Already Losing](https://masaladeutsch.blogspot.com/2026/08/028-unit-diesel-math-behind-indias-data.html) — 6 matches — see `028-unit-diesel-math-behind-indias-data.md`
 - [How to use claude-lmstudio-router: keep working when Claude is unavailable](https://masaladeutsch.blogspot.com/2026/10/how-to-use-claude-lmstudio-router-keep.html) — 6 matches — see `how-to-use-claude-lmstudio-router-keep.md`
+- [IPA Digital Twin — Reportage: Latest Updates (28 Jul – 14 Sep 2026)](https://masaladeutsch.blogspot.com/2026/08/ipa-digital-twin-reportage-latest.html) — 6 matches — see `ipa-digital-twin-reportage-latest.md`
 - [57.4 GW and Counting: India's Wind Fleet, State by State, Against What NIWE Says Is Actually There](https://masaladeutsch.blogspot.com/2026/08/574-gw-and-counting-indias-wind-fleet.html) — 5 matches — see `574-gw-and-counting-indias-wind-fleet.md`
 - [Annadata to Urjadata: The Farmer-Income Case for Ethanol Blending](https://masaladeutsch.blogspot.com/2026/08/annadata-to-urjadata-farmer-income-case.html) — 5 matches — see `annadata-to-urjadata-farmer-income-case.md`
 - [How to use bms-battery-management: simulate an EV battery pack in Python](https://masaladeutsch.blogspot.com/2026/10/how-to-use-bms-battery-management.html) — 5 matches — see `how-to-use-bms-battery-management.md`
@@ -59,6 +60,7 @@
 - [How to use blog-consistency-check: a "is this blog post broken?" audit for HTML posts](https://masaladeutsch.blogspot.com/2026/10/how-to-use-blog-consistency-check-is.html) — 3 matches — see `how-to-use-blog-consistency-check-is.md`
 - [How to use CBSE_paper_patterns: check which Class 12 topics keep coming back at high marks](https://masaladeutsch.blogspot.com/2026/10/how-to-use-cbsepaperpatterns-check.html) — 3 matches — see `how-to-use-cbsepaperpatterns-check.md`
 - [How to use claude-provenance: an auditable log of every Claude message on your machine](https://masaladeutsch.blogspot.com/2026/10/how-to-use-claude-provenance-auditable.html) — 3 matches — see `how-to-use-claude-provenance-auditable.md`
+- [How to use fuel-retail-outlets: see where India's petrol pumps are, state by state](https://masaladeutsch.blogspot.com/2026/10/how-to-use-fuel-retail-outlets-see.html) — 3 matches — see `how-to-use-fuel-retail-outlets-see.md`
 - [How to use ship2shore_rag: offline answers from open maritime reports](https://masaladeutsch.blogspot.com/2026/10/how-to-use-ship2shorerag-offline.html) — 3 matches — see `how-to-use-ship2shorerag-offline.md`
 - [India Imported $28 Million of Sucralose in FY26, Up 49%. Sugar Mills Make the Raw Material. Making the Sweetener Is a Chlorination Problem, Not a Sugar One](https://masaladeutsch.blogspot.com/2026/10/india-imported-28-million-of-sucralose.html) — 3 matches — see `india-imported-28-million-of-sucralose.md`
 - [India Sells the World $53 Billion of Fuel. Its Neighbours Buy 5% of It.](https://masaladeutsch.blogspot.com/2026/08/india-sells-world-53-billion-of-fuel.html) — 3 matches — see `india-sells-world-53-billion-of-fuel.md`
@@ -99,6 +101,7 @@
 - [How to use Bazartalks_Py2Cplus: a C++ port of a quant research platform, with its Python-vs-C++ benchmark](https://masaladeutsch.blogspot.com/2026/10/how-to-use-bazartalkspy2cplus-c-port-of.html) — 2 matches — see `how-to-use-bazartalkspy2cplus-c-port-of.md`
 - [How to use chemical_import_substitution: HS-8 import-substitution signals for India's chemical chapters](https://masaladeutsch.blogspot.com/2026/10/how-to-use-chemicalimportsubstitution.html) — 2 matches — see `how-to-use-chemicalimportsubstitution.md`
 - [How to use digital-twin-for-ipa: a searchable map of India's investment incentives](https://masaladeutsch.blogspot.com/2026/10/how-to-use-digital-twin-for-ipa.html) — 2 matches — see `how-to-use-digital-twin-for-ipa.md`
+- [How to use gazette-translated-indexed: a citation index of Indian gazette notifications](https://masaladeutsch.blogspot.com/2026/10/how-to-use-gazette-translated-indexed.html) — 2 matches — see `how-to-use-gazette-translated-indexed.md`
 - [If India Paid BRICS in Rupees: A Scenario Model of De-Dollarising 41% of the Import Bill](https://masaladeutsch.blogspot.com/2026/08/if-india-paid-brics-in-rupees-scenario.html) — 2 matches — see `if-india-paid-brics-in-rupees-scenario.md`
 - [India Forest, Wildlife & CRZ Clearances — PARIVESH](https://masaladeutsch.blogspot.com/2026/07/india-forest-wildlife-crz-clearances.html) — 2 matches — see `india-forest-wildlife-crz-clearances.md`
 - [India Fuel Retail Outlets — 82k Geocoded Map (Part 2 of 3)](https://masaladeutsch.blogspot.com/2026/07/india-fuel-retail-outlets-82k-geocoded.html) — 2 matches — see `india-fuel-retail-outlets-82k-geocoded.md`
@@ -171,6 +174,8 @@
 - [How to use coal-to-urea-design-opensource: size a coal-to-urea complex](https://masaladeutsch.blogspot.com/2026/10/how-to-use-coal-to-urea-design.html) — 1 matches — see `how-to-use-coal-to-urea-design.md`
 - [How to use cricket-data-analysis: score how predictable IPL and World Cup match-ups are](https://masaladeutsch.blogspot.com/2026/10/how-to-use-cricket-data-analysis-score.html) — 1 matches — see `how-to-use-cricket-data-analysis-score.md`
 - [How to use delivery-playbook: a field guide for choosing and fixing your software process](https://masaladeutsch.blogspot.com/2026/10/how-to-use-delivery-playbook-field.html) — 1 matches — see `how-to-use-delivery-playbook-field.md`
+- [How to use ethanol-design-opensource: size a fuel-ethanol distillery](https://masaladeutsch.blogspot.com/2026/10/how-to-use-ethanol-design-opensource.html) — 1 matches — see `how-to-use-ethanol-design-opensource.md`
+- [How to use eu-ets-compliance-platform: a hands-on EU ETS and CBAM compliance prototype](https://masaladeutsch.blogspot.com/2026/10/how-to-use-eu-ets-compliance-platform.html) — 1 matches — see `how-to-use-eu-ets-compliance-platform.md`
 - [How to use the news tracker: score headlines and check them against stock picks](https://masaladeutsch.blogspot.com/2026/10/how-to-use-news-tracker-score-headlines.html) — 1 matches — see `how-to-use-news-tracker-score-headlines.md`
 - [How to use patient-history-tracking: a demo ICU dashboard and linked record](https://masaladeutsch.blogspot.com/2026/10/how-to-use-patient-history-tracking.html) — 1 matches — see `how-to-use-patient-history-tracking.md`
 - [ICRA Rates Most of India's Economy Stable. Three Sectors Got Hit by the Same Shock](https://masaladeutsch.blogspot.com/2026/09/icra-rates-most-of-indias-economy.html) — 1 matches — see `icra-rates-most-of-indias-economy.md`
@@ -200,6 +205,7 @@
 - [Interpreting the Gazette Notification](https://masaladeutsch.blogspot.com/2026/09/interpreting-gazette-notification.html) — 1 matches — see `interpreting-gazette-notification.md`
 - [Kpler and Vortexa Track Every Barrel India Imports. Nobody Tracks Its Cooking-Oil Waste the Same Way.](https://masaladeutsch.blogspot.com/2026/09/kpler-and-vortexa-track-every-barrel.html) — 1 matches — see `kpler-and-vortexa-track-every-barrel.md`
 - [Lemon Cultivation in India: Steady Trees, Volatile Prices](https://masaladeutsch.blogspot.com/2026/08/lemon-cultivation-in-india-steady-trees.html) — 1 matches — see `lemon-cultivation-in-india-steady-trees.md`
+- [Maize Is Cheapest in a Different State Every Few Months. Rice Barely Moves.](https://masaladeutsch.blogspot.com/2026/10/maize-is-cheapest-in-different-state.html) — 1 matches — see `maize-is-cheapest-in-different-state.md`
 - [Mapping India's Other Pipelines: Every Major Crude, Petrol-Diesel and LPG Line, By Company](https://masaladeutsch.blogspot.com/2026/09/mapping-indias-other-pipelines-every.html) — 1 matches — see `mapping-indias-other-pipelines-every.md`
 - [Nature Versus Nurture: India's Fertiliser-Fed Food Security](https://masaladeutsch.blogspot.com/2026/08/nature-versus-nurture-indias-fertiliser.html) — 1 matches — see `nature-versus-nurture-indias-fertiliser.md`
 - [OISD Writes India's Oil-Safety Rules. API Just Signed FIPI Up to Help Its Own Standards Reach Further.](https://masaladeutsch.blogspot.com/2026/09/oisd-writes-indias-oil-safety-rules-api.html) — 1 matches — see `oisd-writes-indias-oil-safety-rules-api.md`
@@ -214,6 +220,7 @@
 - [RBI Foreign Exchange Reserves — 2015–2026](https://masaladeutsch.blogspot.com/2026/08/rbi-foreign-exchange-reserves-20152026.html) — 1 matches — see `rbi-foreign-exchange-reserves-20152026.md`
 - [Re-Spinning the Charkha](https://masaladeutsch.blogspot.com/2026/08/re-spinning-charkha.html) — 1 matches — see `re-spinning-charkha.md`
 - [RIN, RED and CBIO: What India's Ethanol Programme Could Borrow From Three Different Carbon-Credit Machines](https://masaladeutsch.blogspot.com/2026/08/rin-red-and-cbio-what-indias-ethanol.html) — 1 matches — see `rin-red-and-cbio-what-indias-ethanol.md`
+- [Sixteen Crops, Twenty Years: Where India’s Harvest Grew From More Land and Where From Better Yields](https://masaladeutsch.blogspot.com/2026/10/sixteen-crops-twenty-years-where-indias.html) — 1 matches — see `sixteen-crops-twenty-years-where-indias.md`
 - [State by State: Who Actually Earns from Ethanol Blending? SGST Scenarios, E10-E30](https://masaladeutsch.blogspot.com/2026/08/state-by-state-who-actually-earns-from.html) — 1 matches — see `state-by-state-who-actually-earns-from.md`
 - [Sugarcane's Third Claimant: What's Actually Being Fermented Into India's First PLA Plant](https://masaladeutsch.blogspot.com/2026/08/sugarcanes-third-claimant-whats.html) — 1 matches — see `sugarcanes-third-claimant-whats.md`
 - [Sun Pharma's $11.75bn Organon Bet Is Bigger Than the RBI Rule Written to Fund It](https://masaladeutsch.blogspot.com/2026/09/sun-pharmas-1175bn-organon-bet-is.html) — 1 matches — see `sun-pharmas-1175bn-organon-bet-is.md`
@@ -238,3 +245,5 @@
 - [Wheat's Support Price Rose by ₹25, the Smallest Rise in Years. The Granaries Explain Why](https://masaladeutsch.blogspot.com/2026/10/wheats-support-price-rose-by-25.html) — 1 matches — see `wheats-support-price-rose-by-25.md`
 - [Where the World's Oil Sits When It Isn't Moving: Storage, Floating Barrels, and the Hormuz Shock of 2026](https://masaladeutsch.blogspot.com/2026/08/where-worlds-oil-sits-when-it-isnt.html) — 1 matches — see `where-worlds-oil-sits-when-it-isnt.md`
 - [Who Collects India's GST, and Who Actually Gets It Back](https://masaladeutsch.blogspot.com/2026/08/who-collects-indias-gst-and-who.html) — 1 matches — see `who-collects-indias-gst-and-who.md`
+- [The RBI's FCNR(B) Window Drew $133 Billion. Reserves Have Since Fallen $51 Billion From Their Peak, and the RBI's Short Forward Book Passed $200 Billion](https://masaladeutsch.blogspot.com/2026/10/the-rbis-fcnrb-window-drew-133-billion.html) — 0 matches — see `the-rbis-fcnrb-window-drew-133-billion.md`
+- [Why Bet on One Horse, When You Can Buy the Stable?](https://masaladeutsch.blogspot.com/2026/08/why-bet-on-one-horse-when-you-can-buy.html) — 0 matches — see `why-bet-on-one-horse-when-you-can-buy.md`
