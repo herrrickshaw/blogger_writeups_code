@@ -758,3 +758,11 @@ queue or SOURCE_REGISTER.
     **1 June 2026**, not 18 June (OCR misread the superscript "st"). Read from the OM's page image.
   - CGPL (Mundra): 31 Dec 2026 is the **second** extension of the Section 11 order (30 Jun → 30 Sep
     → 31 Dec), not the third.
+
+- **2026-10-26: four entries of the 2026-10-26 batch are PUBLISHED. Stop treating them as Open.**
+  - Captive coal must-run → `india-ordered-112-captive-coal-plants`
+  - Phone scheme → `the-phone-plis-successor-pays-up-to-5`
+  - ALMM List-II cells → `indias-approved-solar-cell-makers-can`
+  - Transmission RoW → `a-hectare-under-power-line-now-pays`
+  Still open from that batch: coal exchanges, aquaculture authority bill, FMD-free compartments,
+  NITI data-centre framework, metro cost benchmarks, coal gasification Round III (hold for results).
