@@ -16131,3 +16131,12 @@ Fact-check corrections: 18 posts with dated update notes
 - `real-gdp-growth-india-fy2012-13-to` — 43,055 → 43,647 bytes (+592)
 - `the-grain-value-loop-integrated-rice` — 88,988 → 89,431 bytes (+443)
 - `the-price-of-grain-msp-msv-and` — 43,454 → 44,018 bytes (+564)
+
+## 2026-10-27T15:19:28+05:30 — 431 posts live
+
+New post: PHP attack surface
+
+
+**Added**
+
+- `half-of-php-websites-run-version-nobody` **v1.0.0** — Half of PHP Websites Run a Version Nobody Patches. What a Hacked Site Gives Away About Its Company (27,607 bytes)
