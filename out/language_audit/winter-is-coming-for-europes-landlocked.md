@@ -4,7 +4,36 @@
 
 **This is a report, not an applied fix.** LanguageTool has a high false-positive rate on this blog's prose (chart captions, code identifiers, valid constructions it misparses) — review each item before touching the post.
 
-- ERROR checking chunk: HTTP Error 500: Internal Server Error
+- **[COMPOUNDING/PER_CENT]** In American English, “percent” is the recommended spelling.
+  context: ...illion cubic metres of gas a year — 8.3 per cent of EU demand — and not one of them can ...
+  suggested: percent
+- **[COMPOUNDING/ANY_MORE]** Did you mean the adverb “anymore”?
+  context: ...ng upward because nothing flows in them any more.  Five states, 28 bcm, no coastline  Th...
+  suggested: anymore
+- **[CASING/EN_SPECIFIC_CASE]** If the term is a proper noun, use initial capitals.
+  context: ...gary and Slovakia sit in a block across central Europe; Luxembourg is a rounding error attache...
+  suggested: Central Europe
+- **[COMPOUNDING/PER_CENT]** In American English, “percent” is the recommended spelling.
+  context: ...ption at 28.0 billion cubic metres, 8.3 per cent of the EU’s 337.4 bcm. Individually non...
+  suggested: percent
+- **[COMPOUNDING/PER_CENT]** In American English, “percent” is the recommended spelling.
+  context: ...al European states matter more than 8.3 per cent suggests. Austria’s Baumgarten and Slov...
+  suggested: percent
+- **[CASING/CAPITALIZATION]** Capitalize specific geographical regions.
+  context: ...rridor through which Soviet gas reached western Europe. Being a transit country was the whole ...
+  suggested: Western Europe
+- **[CASING/CAPITALIZATION]** Capitalize specific geographical regions.
+  context: ...he first time Soviet energy was sold to western Europe. A 6.5-kilometre spur was laid from Vys...
+  suggested: Western Europe
+- **[COMPOUNDING/PER_CENT]** In American English, “percent” is the recommended spelling.
+  context: ...line gas imports fell from more than 40 per cent in 2021 to roughly 11 per cent by 2024....
+  suggested: percent
+- **[COMPOUNDING/PER_CENT]** In American English, “percent” is the recommended spelling.
+  context: ... than 40 per cent in 2021 to roughly 11 per cent by 2024. Some of that was policy. A mat...
+  suggested: percent
+- **[GRAMMAR/HOW_DO_I_VB]** The base form of the verb “remain” seems to fit better in this context.
+  context: ...the pipes stopped existing.  Who did it remains before a court, and the answer is polit...
+  suggested: remain
 - **[COMPOUNDING/PER_CENT]** In American English, “percent” is the recommended spelling.
   context: ...ty, which took 141 of 199 seats on 53.2 per cent of the list vote. Magyar became prime m...
   suggested: percent
