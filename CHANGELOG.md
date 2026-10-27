@@ -16221,3 +16221,22 @@ New posts: fertiliser sales, Andhra investment, state deficits
 - `seven-states-plan-to-borrow-above-new-3` **v1.0.0** — Seven States Plan to Borrow Above the New 3% Limit. Last Year, Most Missed Their Targets Anyway (28,569 bytes)
 - `andhra-pradesh-has-approved-rs-14-lakh` **v1.0.0** — Andhra Pradesh Has Approved Rs 14 Lakh Crore of Investment in Two Years. Its Large Factory Projects Built Rs 1.4 Lakh Crore in Five (26,959 bytes)
 - `indias-fertiliser-sales-fell-where` **v1.0.0** — India's Fertiliser Sales Fell Where Prices Rose. NPK Is Down 22% at Rs 2,450 a Bag; DAP, Held at Rs 1,350, Barely Moved (24,895 bytes)
+
+## 2026-10-27T19:34:39+05:30 — 445 posts live
+
+Index: fertiliser sales, Andhra investment, state deficits
+
+
+**Versions**
+
+- `article-index-start-here` **67.3.0 → 67.4.0** (MINOR) — forced via --as minor (figures changed (+17/-4 distinct numbers))
+
+**Changed**
+
+- `article-index-start-here` — 853,000 → 878,299 bytes (+25,299)
+
+**Re-dated** (publication date changed; body and URL unchanged)
+
+- `seven-states-plan-to-borrow-above-new-3` — 2026-10-27 &rarr; 2026-10-27
+- `andhra-pradesh-has-approved-rs-14-lakh` — 2026-10-27 &rarr; 2026-10-27
+- `indias-fertiliser-sales-fell-where` — 2026-10-27 &rarr; 2026-10-27

@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-10-27T19:32:38+05:30",
+  "snapshot": "2026-10-27T19:34:39+05:30",
   "count": 445,
   "posts": {
     "1008146607143508554": {
@@ -10024,9 +10024,11 @@
       "title": "Andhra Pradesh Has Approved Rs 14 Lakh Crore of Investment in Two Years. Its Large Factory Projects Built Rs 1.4 Lakh Crore in Five",
       "url": "https://masaladeutsch.blogspot.com/2026/10/andhra-pradesh-has-approved-rs-14-lakh.html",
       "slug": "andhra-pradesh-has-approved-rs-14-lakh",
-      "published": "2026-10-27T19:31:53.473+05:30",
-      "updated": "2026-10-27T19:31:53.473+05:30",
-      "labels": [],
+      "published": "2026-10-27T19:31:53.000+05:30",
+      "updated": "2026-10-27T19:33:09.503+05:30",
+      "labels": [
+        "Industrial Policy"
+      ],
       "bytes": 26959,
       "sha256": "9e338d5de6e84f1526cf6df547fe8521cc1e917937d0d688c9a5d17e3165309c",
       "markers": {
@@ -13209,9 +13211,12 @@
       "title": "Seven States Plan to Borrow Above the New 3% Limit. Last Year, Most Missed Their Targets Anyway",
       "url": "https://masaladeutsch.blogspot.com/2026/10/seven-states-plan-to-borrow-above-new-3.html",
       "slug": "seven-states-plan-to-borrow-above-new-3",
-      "published": "2026-10-27T19:31:59.816+05:30",
-      "updated": "2026-10-27T19:31:59.816+05:30",
-      "labels": [],
+      "published": "2026-10-27T19:31:59.000+05:30",
+      "updated": "2026-10-27T19:33:17.915+05:30",
+      "labels": [
+        "Governance & Institutions",
+        "Macroeconomics & Monetary Policy"
+      ],
       "bytes": 28569,
       "sha256": "26203921b164c7bc9046efa9309aee904f0896725c3c7ed2f624c8a60918d711",
       "markers": {
@@ -33139,9 +33144,12 @@
       "title": "India's Fertiliser Sales Fell Where Prices Rose. NPK Is Down 22% at Rs 2,450 a Bag; DAP, Held at Rs 1,350, Barely Moved",
       "url": "https://masaladeutsch.blogspot.com/2026/10/indias-fertiliser-sales-fell-where.html",
       "slug": "indias-fertiliser-sales-fell-where",
-      "published": "2026-10-27T19:31:46.105+05:30",
-      "updated": "2026-10-27T19:31:46.105+05:30",
-      "labels": [],
+      "published": "2026-10-27T19:31:46.000+05:30",
+      "updated": "2026-10-27T19:33:01.480+05:30",
+      "labels": [
+        "Agriculture & Fertilisers",
+        "Prices & Inflation"
+      ],
       "bytes": 24895,
       "sha256": "eaac0493f333d0d637a45eefcaae26ec5c3688b982ce4b787702a1e5bfae65a1",
       "markers": {
@@ -43158,10 +43166,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html",
       "slug": "article-index-start-here",
       "published": "2026-08-02T10:43:26.000+05:30",
-      "updated": "2026-10-27T17:38:08.695+05:30",
+      "updated": "2026-10-27T19:34:02.279+05:30",
       "labels": [],
-      "bytes": 853000,
-      "sha256": "f2df4f6e571a120922155f63ba56d4837b707091fee829f4259d9639ae36eccb",
+      "bytes": 878299,
+      "sha256": "80ca01c56b1897e2709a310bb7efbcf581e317aa05964083b652c61085351383",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -43173,7 +43181,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "67.3.0",
+      "version": "67.4.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -45455,6 +45463,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Index: cooling and PHP posts"
+        },
+        {
+          "version": "67.4.0",
+          "date": "2026-10-27T19:34:39+05:30",
+          "level": "minor",
+          "reason": "forced via --as minor (figures changed (+17/-4 distinct numbers))",
+          "bytes": [
+            853000,
+            878299
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Index: fertiliser sales, Andhra investment, state deficits"
         }
       ]
     },
