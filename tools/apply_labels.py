@@ -770,6 +770,17 @@ SLUG_CONTAINS = {
     "closed-loop-or-open-loop": ["Industrial Policy", "Environment & Clearances", "Energy & Fuels"],
     # No security bucket exists in TAXONOMY; first post in a Cybersecurity beat.
     "php-websites-run": ["Cybersecurity"],
+    "record-945-billion-of-fdi": ["Markets & Finance", "Macroeconomics & Monetary Policy"],
+    "3030-crore-chemical-parks": ["Chemicals", "Industrial Policy", "Import Substitution"],
+    "draft-steel-policy-plans": ["Industrial Policy", "Climate & Carbon", "Trade & Tariffs"],
+    "crude-basket-now-counts": ["Energy & Fuels"],
+    "samudra-manthan-pays": ["Energy & Fuels", "Gas & LNG"],
+    "gobardhan-aims-for-12": ["Energy & Fuels", "Gas & LNG"],
+    "approved-12-chip-plants": ["Industrial Policy", "Import Substitution"],
+    "wants-emergency-braking": ["Mobility & EV", "Import Substitution"],
+    "purchases-stopped-growing": ["Industrial Policy", "Governance & Institutions"],
+    "legalised-e100-for-flex": ["Ethanol & Biofuels", "Energy & Fuels"],
+    "raised-dap-subsidy": ["Agriculture & Fertilisers"],
 }
 
 
