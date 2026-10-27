@@ -781,6 +781,9 @@ SLUG_CONTAINS = {
     "purchases-stopped-growing": ["Industrial Policy", "Governance & Institutions"],
     "legalised-e100-for-flex": ["Ethanol & Biofuels", "Energy & Fuels"],
     "raised-dap-subsidy": ["Agriculture & Fertilisers"],
+    "fertiliser-sales-fell-where": ["Agriculture & Fertilisers", "Prices & Inflation"],
+    "andhra-pradesh-has-approved-rs-14": ["Industrial Policy"],
+    "states-plan-to-borrow-above": ["Macroeconomics & Monetary Policy", "Governance & Institutions"],
 }
 
 
