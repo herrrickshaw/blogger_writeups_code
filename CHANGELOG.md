@@ -16210,3 +16210,14 @@ Index: 11 new posts
 - `indias-rs-3030-crore-chemical-parks` — 2026-10-27 &rarr; 2026-10-27
 - `indias-draft-steel-policy-plans-604-mt` — 2026-10-27 &rarr; 2026-10-27
 - `india-got-record-945-billion-of-fdi` — 2026-10-27 &rarr; 2026-10-27
+
+## 2026-10-27T19:32:38+05:30 — 445 posts live
+
+New posts: fertiliser sales, Andhra investment, state deficits
+
+
+**Added**
+
+- `seven-states-plan-to-borrow-above-new-3` **v1.0.0** — Seven States Plan to Borrow Above the New 3% Limit. Last Year, Most Missed Their Targets Anyway (28,569 bytes)
+- `andhra-pradesh-has-approved-rs-14-lakh` **v1.0.0** — Andhra Pradesh Has Approved Rs 14 Lakh Crore of Investment in Two Years. Its Large Factory Projects Built Rs 1.4 Lakh Crore in Five (26,959 bytes)
+- `indias-fertiliser-sales-fell-where` **v1.0.0** — India's Fertiliser Sales Fell Where Prices Rose. NPK Is Down 22% at Rs 2,450 a Bag; DAP, Held at Rs 1,350, Barely Moved (24,895 bytes)
