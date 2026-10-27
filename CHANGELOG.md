@@ -16176,3 +16176,18 @@ Index: cooling and PHP posts
 - `indias-rs-3030-crore-chemical-parks` **v1.0.0** — India's Rs 3,030 Crore Chemical Parks Copy the Bulk-Drug Parks. Those Released 6% of Their Money in Six Years (27,446 bytes)
 - `indias-draft-steel-policy-plans-604-mt` **v1.0.0** — India's Draft Steel Policy Plans 604 Mt by 2047. Its Own Coal Forecast Means More Blast Furnaces, Not Fewer (29,816 bytes)
 - `india-got-record-945-billion-of-fdi` **v1.0.0** — India Got a Record $94.5 Billion of FDI Last Year. Net of Exits and Investment Abroad, $7.7 Billion Stayed (27,116 bytes)
+
+## 2026-10-27T17:29:02+05:30 — 442 posts live
+
+Correct BHAVYA Rasayan capacity claims in two chemical posts
+
+
+**Versions**
+
+- `top-15-chemicals-for-import` **5.4.0 → 5.5.0** (MINOR) — forced via --as minor (figures changed (+2/-0 distinct numbers))
+- `chemical-import-substitution-analysis` **4.2.0 → 4.3.0** (MINOR) — forced via --as minor (figures changed (+4/-0 distinct numbers))
+
+**Changed**
+
+- `top-15-chemicals-for-import` — 105,649 → 106,539 bytes (+890)
+- `chemical-import-substitution-analysis` — 41,588 → 42,399 bytes (+811)
