@@ -16071,3 +16071,16 @@ Index: BHAVYA, MGNREGS, UDAN, data-centre cooling
 **Re-dated** (publication date changed; body and URL unchanged)
 
 - `closed-loop-or-open-loop-how-indias-new` — 2026-10-27 &rarr; 2026-10-27
+
+## 2026-10-27T08:21:02+00:00 — 430 posts live
+
+scheduled sync
+
+
+**Versions**
+
+- `indias-constitution-set-deadline` **1.0.0 → 1.0.1** (PATCH) — visible text identical; only markup/styling changed
+
+**Changed**
+
+- `indias-constitution-set-deadline` — 23,886 → 24,005 bytes (+119)

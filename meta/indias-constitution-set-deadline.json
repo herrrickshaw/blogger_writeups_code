@@ -3,14 +3,14 @@
   "title": "India's Constitution Set a Deadline Parliament Hasn't Met: The Reforms Pending in 2026",
   "url": "https://masaladeutsch.blogspot.com/2026/10/indias-constitution-set-deadline.html",
   "slug": "indias-constitution-set-deadline",
-  "published": "2026-10-26T21:20:42.870+05:30",
-  "updated": "2026-10-26T21:20:42.870+05:30",
+  "published": "2026-10-26T21:20:42.000+05:30",
+  "updated": "2026-10-27T09:05:15.562+05:30",
   "labels": [
     "Governance & Institutions",
     "India"
   ],
-  "bytes": 23886,
-  "sha256": "4eae0b950334ace576ea30a8dbd5bf1cebd6ae2df34c16ea512f7aaf51de354b",
+  "bytes": 24005,
+  "sha256": "356264373c4fe1ce28dcab02bb53b120133686905d98b3f813562808b29cd506",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -30,6 +30,19 @@
       "level": "initial",
       "reason": "first snapshot",
       "note": ""
+    },
+    {
+      "version": "1.0.1",
+      "date": "2026-10-27T08:21:02+00:00",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        23886,
+        24005
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
     }
   ]
 }
