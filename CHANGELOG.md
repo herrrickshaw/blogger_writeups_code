@@ -16157,3 +16157,22 @@ Index: cooling and PHP posts
 **Re-dated** (publication date changed; body and URL unchanged)
 
 - `half-of-php-websites-run-version-nobody` — 2026-10-27 &rarr; 2026-10-27
+
+## 2026-10-27T17:27:46+05:30 — 442 posts live
+
+11 new posts: net FDI, steel policy, chemical parks and eight follow-ups
+
+
+**Added**
+
+- `gems-purchases-stopped-growing-in-2025` **v1.0.0** — GeM's Purchases Stopped Growing in 2025-26. Small Firms Won Two-Thirds of the Orders but Less Than Half the Money (23,214 bytes)
+- `india-wants-emergency-braking-in-every` **v1.0.0** — India Wants Emergency Braking in Every Car by 2032. Fewer Than One in Ten Cars Sold Has It Now (24,772 bytes)
+- `india-has-approved-12-chip-plants-and` **v1.0.0** — India Has Approved 12 Chip Plants and Paid Out About 7% of the Money. Semicon 2.0 Adds Rs 1.27 Lakh Crore (24,355 bytes)
+- `gobardhan-aims-for-12-times-todays` **v1.0.0** — GOBARdhan Aims for 12 Times Today's Biogas Output. The Mandate Meant to Buy It Covers Less Than Half (22,942 bytes)
+- `samudra-manthan-pays-up-to-rs-675-crore` **v1.0.0** — Samudra Manthan Pays Up to Rs 675 Crore a Well. India's Last Deepwater Bets Show Discovery Is the Easy Part (22,796 bytes)
+- `indias-crude-basket-now-counts-russian` **v1.0.0** — India's Crude Basket Now Counts Russian Oil as 'Sweet'. The Barrels Its Refineries Run Are Still Mostly Sour (24,983 bytes)
+- `india-raised-dap-subsidy-18-this-kharif` **v1.0.0** — India Raised the DAP Subsidy 18% This Kharif. Imported DAP Still Costs About Rs 30,000 a Tonne More Than It Earns (23,068 bytes)
+- `india-has-legalised-e100-for-flex-fuel` **v1.0.0** — India Has Legalised E100 for Flex-Fuel Cars. Its E85 Still Costs More per Kilometre Than Petrol (24,193 bytes)
+- `indias-rs-3030-crore-chemical-parks` **v1.0.0** — India's Rs 3,030 Crore Chemical Parks Copy the Bulk-Drug Parks. Those Released 6% of Their Money in Six Years (27,446 bytes)
+- `indias-draft-steel-policy-plans-604-mt` **v1.0.0** — India's Draft Steel Policy Plans 604 Mt by 2047. Its Own Coal Forecast Means More Blast Furnaces, Not Fewer (29,816 bytes)
+- `india-got-record-945-billion-of-fdi` **v1.0.0** — India Got a Record $94.5 Billion of FDI Last Year. Net of Exits and Investment Abroad, $7.7 Billion Stayed (27,116 bytes)
