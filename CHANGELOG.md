@@ -16191,3 +16191,22 @@ Correct BHAVYA Rasayan capacity claims in two chemical posts
 
 - `top-15-chemicals-for-import` — 105,649 → 106,539 bytes (+890)
 - `chemical-import-substitution-analysis` — 41,588 → 42,399 bytes (+811)
+
+## 2026-10-27T17:38:45+05:30 — 442 posts live
+
+Index: 11 new posts
+
+
+**Re-dated** (publication date changed; body and URL unchanged)
+
+- `gems-purchases-stopped-growing-in-2025` — 2026-10-27 &rarr; 2026-10-27
+- `india-wants-emergency-braking-in-every` — 2026-10-27 &rarr; 2026-10-27
+- `india-has-approved-12-chip-plants-and` — 2026-10-27 &rarr; 2026-10-27
+- `gobardhan-aims-for-12-times-todays` — 2026-10-27 &rarr; 2026-10-27
+- `samudra-manthan-pays-up-to-rs-675-crore` — 2026-10-27 &rarr; 2026-10-27
+- `indias-crude-basket-now-counts-russian` — 2026-10-27 &rarr; 2026-10-27
+- `india-raised-dap-subsidy-18-this-kharif` — 2026-10-27 &rarr; 2026-10-27
+- `india-has-legalised-e100-for-flex-fuel` — 2026-10-27 &rarr; 2026-10-27
+- `indias-rs-3030-crore-chemical-parks` — 2026-10-27 &rarr; 2026-10-27
+- `indias-draft-steel-policy-plans-604-mt` — 2026-10-27 &rarr; 2026-10-27
+- `india-got-record-945-billion-of-fdi` — 2026-10-27 &rarr; 2026-10-27
