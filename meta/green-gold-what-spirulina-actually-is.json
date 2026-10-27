@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/green-gold-what-spirulina-actually-is.html",
   "slug": "green-gold-what-spirulina-actually-is",
   "published": "2026-08-19T05:42:27.000+05:30",
-  "updated": "2026-10-01T08:24:40.836+05:30",
+  "updated": "2026-10-27T15:15:51.235+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Biofuels",
     "Healthcare"
   ],
-  "bytes": 36241,
-  "sha256": "c2e7c16486ea83fa9a76d18a32f5f8e5f6281485f92e6c7eaceb82dd98373b52",
+  "bytes": 36989,
+  "sha256": "73e6d00753678fb14219374f5a4667804f01f011494a85faa785f65406216d4e",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.1.0",
+  "version": "3.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -148,6 +148,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Rule 8 retrofit: added What would fix this section"
+    },
+    {
+      "version": "3.0.0",
+      "date": "2026-10-27T15:18:54+05:30",
+      "level": "major",
+      "reason": "forced via --as major (figures changed (+1/-0 distinct numbers))",
+      "bytes": [
+        36241,
+        36989
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Fact-check corrections: 18 posts with dated update notes"
     }
   ]
 }

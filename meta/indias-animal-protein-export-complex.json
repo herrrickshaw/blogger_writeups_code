@@ -4,7 +4,7 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/indias-animal-protein-export-complex.html",
   "slug": "indias-animal-protein-export-complex",
   "published": "2026-08-05T14:53:50.000+05:30",
-  "updated": "2026-10-23T10:02:54.741+05:30",
+  "updated": "2026-10-27T15:16:17.005+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Energy & Fuels",
@@ -12,8 +12,8 @@
     "Livestock & Dairy",
     "Trade & Tariffs"
   ],
-  "bytes": 17806,
-  "sha256": "01f437289323397dbae5b7cab19ad1dea984b33ba2ece8f02b68c792e805c8b1",
+  "bytes": 18678,
+  "sha256": "d3ad1cc5651722ed2ddf3730db81652205becdda355ac0d42d3012a947238384",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": true,
@@ -25,7 +25,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.2.1",
+  "version": "3.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -272,6 +272,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Sweep 4 MEDIUM items: dated update notes on 59 posts"
+    },
+    {
+      "version": "3.0.0",
+      "date": "2026-10-27T15:18:54+05:30",
+      "level": "major",
+      "reason": "forced via --as major (figures changed (+3/-0 distinct numbers))",
+      "bytes": [
+        17806,
+        18678
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Fact-check corrections: 18 posts with dated update notes"
     }
   ]
 }

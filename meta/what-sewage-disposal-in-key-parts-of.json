@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/what-sewage-disposal-in-key-parts-of.html",
   "slug": "what-sewage-disposal-in-key-parts-of",
   "published": "2026-09-03T06:14:39.000+05:30",
-  "updated": "2026-10-26T14:20:47.069+05:30",
+  "updated": "2026-10-27T15:18:25.180+05:30",
   "labels": [
     "Energy & Fuels"
   ],
-  "bytes": 51500,
-  "sha256": "7498c5024b52fa50a2fece11573df77b6c857d9e17da322e5d2f299ed8af114c",
+  "bytes": 52504,
+  "sha256": "355f0a6e0401e400d0254d750bac9ffe552a58f9ecce8758cf97027f448019fc",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.0",
+  "version": "3.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -120,6 +120,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "published 15 source-gap corrections (2026-10-25 audit)"
+    },
+    {
+      "version": "3.0.0",
+      "date": "2026-10-27T15:18:54+05:30",
+      "level": "major",
+      "reason": "forced via --as major (figures changed (+0/-0 distinct numbers))",
+      "bytes": [
+        51500,
+        52504
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Fact-check corrections: 18 posts with dated update notes"
     }
   ]
 }

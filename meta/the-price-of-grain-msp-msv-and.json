@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/07/the-price-of-grain-msp-msv-and.html",
   "slug": "the-price-of-grain-msp-msv-and",
   "published": "2026-07-23T05:30:00.000+05:30",
-  "updated": "2026-10-09T09:48:17.100+05:30",
+  "updated": "2026-10-27T15:18:04.419+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Grain Procurement & Storage"
   ],
-  "bytes": 43454,
-  "sha256": "02cfb3305955dde6e2b4a2a5c1ba95c3a9ab8fc8aa071c2422de5f4e3aad66fd",
+  "bytes": 44018,
+  "sha256": "718875081ae9981eac790319eb247e066a65de2b0d32ce0eefcdc30cffea9cc8",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "5.3.0",
+  "version": "6.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -339,6 +339,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "October update sweep: GEC-III, rabi MSP, edible-oil duty, GOBARdhan, GST H1, forex"
+    },
+    {
+      "version": "6.0.0",
+      "date": "2026-10-27T15:18:54+05:30",
+      "level": "major",
+      "reason": "forced via --as major (figures changed (+1/-0 distinct numbers))",
+      "bytes": [
+        43454,
+        44018
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Fact-check corrections: 18 posts with dated update notes"
     }
   ]
 }

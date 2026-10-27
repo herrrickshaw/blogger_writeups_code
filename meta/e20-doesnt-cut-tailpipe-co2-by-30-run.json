@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/e20-doesnt-cut-tailpipe-co2-by-30-run.html",
   "slug": "e20-doesnt-cut-tailpipe-co2-by-30-run",
   "published": "2026-09-18T18:00:41.000+05:30",
-  "updated": "2026-10-01T08:19:29.391+05:30",
+  "updated": "2026-10-27T15:15:26.714+05:30",
   "labels": [
     "Energy & Fuels",
     "Mobility & EV"
   ],
-  "bytes": 24293,
-  "sha256": "2295afbe9b18ee66bc77bbd547ec279f9b5bc6fdb07bd7c3767f760266a6717a",
+  "bytes": 25569,
+  "sha256": "17c54679b00545789b611508b003e03d81c050dc060933f0a76bd0d74e9d4945",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.2.0",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -56,6 +56,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Rule 8 retrofit: added What would fix this section"
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-10-27T15:18:54+05:30",
+      "level": "major",
+      "reason": "forced via --as major (figures changed (+2/-0 distinct numbers))",
+      "bytes": [
+        24293,
+        25569
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Fact-check corrections: 18 posts with dated update notes"
     }
   ]
 }

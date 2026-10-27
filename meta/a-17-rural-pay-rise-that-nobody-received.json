@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/a-17-rural-pay-rise-that-nobody-received.html",
   "slug": "a-17-rural-pay-rise-that-nobody-received",
   "published": "2026-08-22T11:06:55.000+05:30",
-  "updated": "2026-10-27T06:25:12.677+05:30",
+  "updated": "2026-10-27T15:14:47.067+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "India",
     "Prices & Inflation"
   ],
-  "bytes": 40861,
-  "sha256": "97cbf4a8a98fc6be6d7d2c63ff168628e97f25f9fbc3cddafe222864f894fb12",
+  "bytes": 42049,
+  "sha256": "1b3b090b39c46d3246abfad51f6e38ee11c306394a5341c150375d20c969e9bf",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "5.0.0",
+  "version": "6.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -161,6 +161,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Green debt post: chart, rate-gap and FX tables to late Oct; model-review paragraph splits in 20 posts"
+    },
+    {
+      "version": "6.0.0",
+      "date": "2026-10-27T15:18:54+05:30",
+      "level": "major",
+      "reason": "forced via --as major (figures changed (+7/-2 distinct numbers))",
+      "bytes": [
+        40861,
+        42049
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Fact-check corrections: 18 posts with dated update notes"
     }
   ]
 }

@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/the-two-biggest-parties-in-parliament.html",
   "slug": "the-two-biggest-parties-in-parliament",
   "published": "2026-09-18T20:24:04.000+05:30",
-  "updated": "2026-10-01T08:56:22.389+05:30",
+  "updated": "2026-10-27T15:18:15.873+05:30",
   "labels": [
     "Governance & Institutions"
   ],
-  "bytes": 122823,
-  "sha256": "ad1cb9d5d62189f7e05fbf24ef3a3f0a59bf755556fd829cba4803c12d58a000",
+  "bytes": 123828,
+  "sha256": "82cd025c431d340d4bda7ae556efaf827eb2b1d678ea4b501598e5393e8f77df",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": true,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.2.0",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -68,6 +68,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Rule 8 retrofit: added What would fix this section"
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-10-27T15:18:54+05:30",
+      "level": "major",
+      "reason": "forced via --as major (figures changed (+0/-0 distinct numbers))",
+      "bytes": [
+        122823,
+        123828
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Fact-check corrections: 18 posts with dated update notes"
     }
   ]
 }

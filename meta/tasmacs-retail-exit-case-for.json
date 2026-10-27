@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/tasmacs-retail-exit-case-for.html",
   "slug": "tasmacs-retail-exit-case-for",
   "published": "2026-08-30T11:24:44.000+05:30",
-  "updated": "2026-10-01T08:49:35.387+05:30",
+  "updated": "2026-10-27T15:17:04.244+05:30",
   "labels": [
     "India",
     "Markets & Finance"
   ],
-  "bytes": 29789,
-  "sha256": "fd719687b778a59b3d011b53de3f9c0d4d6743d459f24c4fb9ed6e9cdef04fff",
+  "bytes": 30804,
+  "sha256": "25c2f0f708198c6243a85898457d12241b37a106224e24f18521c51acc3769ed",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.1.0",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -121,6 +121,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Rule 8 retrofit: added What would fix this section"
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-10-27T15:18:54+05:30",
+      "level": "major",
+      "reason": "forced via --as major (figures changed (+7/-0 distinct numbers))",
+      "bytes": [
+        29789,
+        30804
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Fact-check corrections: 18 posts with dated update notes"
     }
   ]
 }

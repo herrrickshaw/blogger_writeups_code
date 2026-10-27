@@ -4,15 +4,15 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/indias-cotton-yield-fell-from-566-kg-to.html",
   "slug": "indias-cotton-yield-fell-from-566-kg-to",
   "published": "2026-09-27T10:35:29.000+05:30",
-  "updated": "2026-09-28T09:05:24.226+05:30",
+  "updated": "2026-10-27T15:16:27.140+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Circularity & Waste-to-Value",
     "Fertilisers & Soil Health",
     "Seeds & Plant Genetics"
   ],
-  "bytes": 38307,
-  "sha256": "0c42193383c95adfa019b4674ae0edfeca7d89178ed492b589d2f08781f917fb",
+  "bytes": 39068,
+  "sha256": "32a6394a18ddf41121db833f6cb010da28a924731f73f3ac36c26e90908316fa",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.1.1",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -58,6 +58,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "scheduled sync"
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-10-27T15:18:54+05:30",
+      "level": "major",
+      "reason": "forced via --as major (figures changed (+6/-0 distinct numbers))",
+      "bytes": [
+        38307,
+        39068
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Fact-check corrections: 18 posts with dated update notes"
     }
   ]
 }

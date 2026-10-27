@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/the-national-beekeeping-honey-mission.html",
   "slug": "the-national-beekeeping-honey-mission",
   "published": "2026-08-20T05:42:27.000+05:30",
-  "updated": "2026-10-01T08:54:55.129+05:30",
+  "updated": "2026-10-27T15:17:47.174+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Agriculture & Food Processing"
   ],
-  "bytes": 31233,
-  "sha256": "46d0283f288e93831b952a1c3dfbd1408368fffdee7d04035f08a4157480678d",
+  "bytes": 32596,
+  "sha256": "1dae96de0c57d712663a7bc8198f39cbb338e559a4fe3842f39938f0ceaa51ff",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.1.0",
+  "version": "3.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -147,6 +147,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Rule 8 retrofit: added What would fix this section"
+    },
+    {
+      "version": "3.0.0",
+      "date": "2026-10-27T15:18:54+05:30",
+      "level": "major",
+      "reason": "forced via --as major (figures changed (+1/-0 distinct numbers))",
+      "bytes": [
+        31233,
+        32596
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Fact-check corrections: 18 posts with dated update notes"
     }
   ]
 }

@@ -4,15 +4,15 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/the-4-nobody-notices-and-three-other.html",
   "slug": "the-4-nobody-notices-and-three-other",
   "published": "2026-09-01T08:40:28.000+05:30",
-  "updated": "2026-10-01T08:50:35.338+05:30",
+  "updated": "2026-10-27T15:17:15.975+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Crop Insurance & Risk",
     "Industrial Policy",
     "Markets & Finance"
   ],
-  "bytes": 40835,
-  "sha256": "58bd81fad1e0d343ebcce121b3f01fb70e0fb0bd299b30991719ed81c3596e7a",
+  "bytes": 41619,
+  "sha256": "d2884199d0704bf1b6f837a6d0e1f28caf2707680c8a5a9b8482c81714832576",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.1.0",
+  "version": "3.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -136,6 +136,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Rule 8 retrofit: added What would fix this section"
+    },
+    {
+      "version": "3.0.0",
+      "date": "2026-10-27T15:18:54+05:30",
+      "level": "major",
+      "reason": "forced via --as major (figures changed (+0/-0 distinct numbers))",
+      "bytes": [
+        40835,
+        41619
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Fact-check corrections: 18 posts with dated update notes"
     }
   ]
 }

@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/everyone-worries-about-who-pays-for.html",
   "slug": "everyone-worries-about-who-pays-for",
   "published": "2026-09-03T05:50:09.000+05:30",
-  "updated": "2026-10-13T08:36:32.396+05:30",
+  "updated": "2026-10-27T15:15:38.758+05:30",
   "labels": [
     "Industrial Policy"
   ],
-  "bytes": 44934,
-  "sha256": "fcd00c372c1ca2e56ba4468ec41a94319b263538311adeecac3ce07181a18a35",
+  "bytes": 45610,
+  "sha256": "795fcd0841c214884425722303cbde1b19631e38cd2226e2e4ea64e2e7fb959d",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.2.0",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -120,6 +120,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "CCUS pipelines: CEEW 18,000 vs 32,000 km reconciled, PNGRB and PPAC lengths added"
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-10-27T15:18:54+05:30",
+      "level": "major",
+      "reason": "forced via --as major (figures changed (+1/-0 distinct numbers))",
+      "bytes": [
+        44934,
+        45610
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Fact-check corrections: 18 posts with dated update notes"
     }
   ]
 }

@@ -16084,3 +16084,50 @@ scheduled sync
 **Changed**
 
 - `indias-constitution-set-deadline` — 23,886 → 24,005 bytes (+119)
+
+## 2026-10-27T15:18:54+05:30 — 430 posts live
+
+Fact-check corrections: 18 posts with dated update notes
+
+
+**Versions**
+
+- `india-leads-world-in-jute-and-ranks` **1.0.1 → 2.0.0** (MAJOR) — forced via --as major (figures changed (+10/-0 distinct numbers))
+- `indias-cotton-yield-fell-from-566-kg-to` **1.1.1 → 2.0.0** (MAJOR) — forced via --as major (figures changed (+6/-0 distinct numbers))
+- `the-two-biggest-parties-in-parliament` **1.2.0 → 2.0.0** (MAJOR) — forced via --as major (figures changed (+0/-0 distinct numbers))
+- `e20-doesnt-cut-tailpipe-co2-by-30-run` **1.2.0 → 2.0.0** (MAJOR) — forced via --as major (figures changed (+2/-0 distinct numbers))
+- `indias-labour-codes-took-six-years-to` **1.3.1 → 2.0.0** (MAJOR) — forced via --as major (figures changed (+2/-1 distinct numbers))
+- `what-sewage-disposal-in-key-parts-of` **2.0.0 → 3.0.0** (MAJOR) — forced via --as major (figures changed (+0/-0 distinct numbers))
+- `everyone-worries-about-who-pays-for` **1.2.0 → 2.0.0** (MAJOR) — forced via --as major (figures changed (+1/-0 distinct numbers))
+- `the-4-nobody-notices-and-three-other` **2.1.0 → 3.0.0** (MAJOR) — forced via --as major (figures changed (+0/-0 distinct numbers))
+- `tasmacs-retail-exit-case-for` **1.1.0 → 2.0.0** (MAJOR) — forced via --as major (figures changed (+7/-0 distinct numbers))
+- `a-17-rural-pay-rise-that-nobody-received` **5.0.0 → 6.0.0** (MAJOR) — forced via --as major (figures changed (+7/-2 distinct numbers))
+- `the-national-beekeeping-honey-mission` **2.1.0 → 3.0.0** (MAJOR) — forced via --as major (figures changed (+1/-0 distinct numbers))
+- `green-gold-what-spirulina-actually-is` **2.1.0 → 3.0.0** (MAJOR) — forced via --as major (figures changed (+1/-0 distinct numbers))
+- `airbags-and-seat-belts-are-import-heavy` **4.0.0 → 5.0.0** (MAJOR) — forced via --as major (figures changed (+7/-1 distinct numbers))
+- `can-rupee-trade-actually-offset` **2.2.0 → 3.0.0** (MAJOR) — forced via --as major (figures changed (+2/-0 distinct numbers))
+- `indias-animal-protein-export-complex` **2.2.1 → 3.0.0** (MAJOR) — forced via --as major (figures changed (+3/-0 distinct numbers))
+- `real-gdp-growth-india-fy2012-13-to` **3.2.1 → 4.0.0** (MAJOR) — forced via --as major (figures changed (+0/-0 distinct numbers))
+- `the-grain-value-loop-integrated-rice` **4.2.0 → 5.0.0** (MAJOR) — forced via --as major (figures changed (+0/-0 distinct numbers))
+- `the-price-of-grain-msp-msv-and` **5.3.0 → 6.0.0** (MAJOR) — forced via --as major (figures changed (+1/-0 distinct numbers))
+
+**Changed**
+
+- `india-leads-world-in-jute-and-ranks` — 26,574 → 28,127 bytes (+1,553)
+- `indias-cotton-yield-fell-from-566-kg-to` — 38,307 → 39,068 bytes (+761)
+- `the-two-biggest-parties-in-parliament` — 122,823 → 123,828 bytes (+1,005)
+- `e20-doesnt-cut-tailpipe-co2-by-30-run` — 24,293 → 25,569 bytes (+1,276)
+- `indias-labour-codes-took-six-years-to` — 22,826 → 23,626 bytes (+800)
+- `what-sewage-disposal-in-key-parts-of` — 51,500 → 52,504 bytes (+1,004)
+- `everyone-worries-about-who-pays-for` — 44,934 → 45,610 bytes (+676)
+- `the-4-nobody-notices-and-three-other` — 40,835 → 41,619 bytes (+784)
+- `tasmacs-retail-exit-case-for` — 29,789 → 30,804 bytes (+1,015)
+- `a-17-rural-pay-rise-that-nobody-received` — 40,861 → 42,049 bytes (+1,188)
+- `the-national-beekeeping-honey-mission` — 31,233 → 32,596 bytes (+1,363)
+- `green-gold-what-spirulina-actually-is` — 36,241 → 36,989 bytes (+748)
+- `airbags-and-seat-belts-are-import-heavy` — 31,927 → 33,354 bytes (+1,427)
+- `can-rupee-trade-actually-offset` — 33,418 → 34,459 bytes (+1,041)
+- `indias-animal-protein-export-complex` — 17,806 → 18,678 bytes (+872)
+- `real-gdp-growth-india-fy2012-13-to` — 43,055 → 43,647 bytes (+592)
+- `the-grain-value-loop-integrated-rice` — 88,988 → 89,431 bytes (+443)
+- `the-price-of-grain-msp-msv-and` — 43,454 → 44,018 bytes (+564)

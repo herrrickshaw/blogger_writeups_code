@@ -4,15 +4,15 @@
   "url": "https://masaladeutsch.blogspot.com/2026/07/the-grain-value-loop-integrated-rice.html",
   "slug": "the-grain-value-loop-integrated-rice",
   "published": "2026-07-31T10:00:00.000+05:30",
-  "updated": "2026-10-14T16:31:01.238+05:30",
+  "updated": "2026-10-27T15:17:33.876+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Energy & Fuels",
     "Grain Procurement & Storage",
     "Trade & Tariffs"
   ],
-  "bytes": 88988,
-  "sha256": "5084dfd6d8cfad228c844a9b0c611b4f861002b149c1d61143933420f7998bf2",
+  "bytes": 89431,
+  "sha256": "752a9545366372c039601a59e218ee0ff2891672dd221b17796f5ca711524c00",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": true,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "4.2.0",
+  "version": "5.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -319,6 +319,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Update notes 12-13 Oct 2026 from the currency sweeps (45 posts)"
+    },
+    {
+      "version": "5.0.0",
+      "date": "2026-10-27T15:18:54+05:30",
+      "level": "major",
+      "reason": "forced via --as major (figures changed (+0/-0 distinct numbers))",
+      "bytes": [
+        88988,
+        89431
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Fact-check corrections: 18 posts with dated update notes"
     }
   ]
 }
