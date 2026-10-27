@@ -16240,3 +16240,21 @@ Index: fertiliser sales, Andhra investment, state deficits
 - `seven-states-plan-to-borrow-above-new-3` — 2026-10-27 &rarr; 2026-10-27
 - `andhra-pradesh-has-approved-rs-14-lakh` — 2026-10-27 &rarr; 2026-10-27
 - `indias-fertiliser-sales-fell-where` — 2026-10-27 &rarr; 2026-10-27
+
+## 2026-10-27T21:21:13+05:30 — 455 posts live
+
+youtube-demo-uploads 2026-10-27: 10 repo-demo posts live
+
+
+**Added**
+
+- `how-to-use-india-trade-export-analysis` **v1.0.0** — How to use india-trade-export-analysis: read India's 2020-2023 export data and the high-growth shortlist (23,469 bytes)
+- `how-to-use-india-forex-analysis-read` **v1.0.0** — How to use india-forex-analysis: read, check and stress-test a 2020-2027 view of India's external account (24,070 bytes)
+- `how-to-use-kalkiflooding-125-years-of` **v1.0.0** — How to use kalki_flooding: 125 years of Indian city rainfall extremes from IMD gridded data (21,226 bytes)
+- `how-to-use-india-trade-tracker-india` **v1.0.0** — How to use india-trade-tracker: India chapter-wise exports and imports from official DGFT data (23,995 bytes)
+- `how-to-use-india-trade-sector-policy` **v1.0.0** — How to use india-trade-sector-policy-recommendations: tiered sector and policy calls for India's trade (22,957 bytes)
+- `how-to-use-india-trade-data-analysis` **v1.0.0** — How to use india-trade-data-analysis: read India's trade, rupee and inflation data in one place (23,043 bytes)
+- `how-to-use-india-quality-regulation` **v1.0.0** — How to use india-quality-regulation: a sourced map of who regulates quality in India (24,732 bytes)
+- `how-to-use-india-omc-fuel-fleet-model` **v1.0.0** — How to use india-omc-fuel-fleet-model: ethanol blend scenarios and OMC pump income in pure Python (25,324 bytes)
+- `how-to-use-india-ec-subsector-analysis` **v1.0.0** — How to use india-ec-subsector-analysis: see which states lead each Environmental Clearance sub-sector (24,672 bytes)
+- `how-to-use-india-commodity-trade` **v1.0.0** — How to use india-commodity-trade-deficit: eight years of HS-chapter trade data and bare-metal imports (24,379 bytes)

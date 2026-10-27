@@ -1,0 +1,254 @@
+<div class="artx htuindiat">
+<style>
+/* ---- typography (gs-typo-unify-v1): keep in sync across all posts ---- */
+.htuindiat{font-family:Georgia,'Times New Roman',serif;line-height:1.6;color:#111}
+.htuindiat h1,.htuindiat h2,.htuindiat h3{line-height:1.3}
+
+/* ---- palette: define every colour as a custom property here. Do not add
+       raw hex elsewhere in a post's <style> block — reference these vars, so
+       a future palette change is a 4-line edit instead of a find-and-replace
+       across every post. ----
+   --ink     #111    body text, light-locked (see below)
+   --accent  #8a4b08  eyebrow text, h2 rule, table header bg, stat numbers —
+                       the one colour that carries this post's "brand"
+   --rule    #e8dcc4  hairline borders, h2 underline, table cell borders
+   --panel   #fdf7ec  stat-card bg, even table rows — the palette's one tint
+*/
+.htuindiat{--ink:#111;--accent:#8a4b08;--rule:#e8dcc4;--panel:#fdf7ec;--good:#1a7a4c;--good-soft:#eaf6ef;--bad:#a5402c;--bad-soft:#fff4f0}
+
+/* ---- mono-label convention (added 2026-09-17, borrowed from the
+       india-trade-sector-policy-recommendations design system): the eyebrow
+       kicker and the source line read as data-journalism metadata, not
+       article prose, so they get a monospace face — a system stack, not a
+       hosted webfont, so no post gains an extra network request or a
+       flash-of-unstyled-text risk. Body text (h1/p/li/table) keeps the
+       serif — this is a two-place accent, not a font-pairing overhaul. ---- */
+.htuindiat{--mono:ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace}
+
+/* ---- light lock (gs-light-lock): a dark Blogger theme (and a browser/OS
+       set to prefers-color-scheme:dark) must not repaint text. Re-assert
+       the same values with !important — verified 2026-08-14 across 5 live
+       posts with the browser's colour scheme forced to dark: body/h1/p/table
+       all stayed light-background/dark-text with no low-contrast pairs.
+       Do NOT add selectors here for panels that are meant to be dark —
+       those go in the guard below. ---- */
+.htuindiat,.htuindiat p,.htuindiat li,.htuindiat td,.htuindiat th{color:var(--ink)!important}
+.htuindiat{background:#fff!important}
+
+/* ---- structure: title + subtitle ----
+   .eyebrow    = the small-caps kicker ABOVE the h1 — "Section · Topic ·
+                 Subtopic", sets context before the reader hits the claim
+   h1          = the headline itself. Write it as the CLAIM, not the topic
+                 ("The Rouble Is the Outlier, Not the Dollar" beats
+                 "Currency Trends Update"). font-size 1.5rem is the deliberate
+                 site-wide size — do not bump it per-post.
+   .standfirst = the one/two-sentence SUBTITLE directly under the h1. This is
+                 also what Blogger's snippet extractor and the JSON-LD meta
+                 description both read (see the gs-head-order block below) —
+                 write it as a real, complete sentence a reader could act on,
+                 not a fragment.
+*/
+.htuindiat .eyebrow{font-size:.8rem;font-weight:700;letter-spacing:.04em;color:var(--accent);text-transform:uppercase;margin:0 0 6px;font-family:var(--mono)}
+.htuindiat h1{margin:0 0 10px;font-size:1.5rem}
+.htuindiat .standfirst{font-size:1.05rem;color:#333!important;margin:0 0 18px}
+.htuindiat .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px;margin:18px 0}
+.htuindiat .stat{background:var(--panel);border:1px solid var(--rule);border-radius:10px;padding:12px 14px}
+.htuindiat .stat b{display:block;font-size:1.2rem;color:var(--accent)}
+.htuindiat .stat span{font-size:.8rem}
+.htuindiat h2{color:var(--accent);border-bottom:2px solid var(--rule);padding-bottom:6px;margin-top:30px;font-size:1.15rem}
+
+/* ---- tables: units live in the header, cells carry bare numbers.
+       .tw is the mobile-overflow fix — see the MOBILE comment above. ---- */
+.htuindiat .tw{overflow-x:auto}
+.htuindiat table{width:100%;border-collapse:collapse;margin:14px 0;font-size:.88rem}
+.htuindiat th,.htuindiat td{border:1px solid var(--rule);padding:7px 9px;text-align:right;word-wrap:break-word;overflow-wrap:break-word}
+.htuindiat th:first-child,.htuindiat td:first-child{text-align:left}
+.htuindiat th{background:var(--accent);color:#fff!important;font-weight:600}
+.htuindiat tr:nth-child(even){background:var(--panel)}
+
+.htuindiat .note{background:#eef4ff;border-left:4px solid #2a78d6;padding:12px 16px;margin:18px 0;border-radius:0 8px 8px 0;font-size:.93rem}
+.htuindiat .warn{background:var(--bad-soft);border-left:4px solid var(--bad);padding:12px 16px;margin:18px 0;border-radius:0 8px 8px 0;font-size:.93rem}
+/* ---- .good (added 2026-09-17): third semantic tier alongside .note (neutral
+       framing) and .warn (a caveat/scope limit) — for the case a caveat block
+       would otherwise get stretched to cover: confirming a figure checked out,
+       a correction that resolved cleanly, a claim that survived cross-check.
+       Same shape as .note/.warn on purpose, so all three read as one family. */
+.htuindiat .good{background:var(--good-soft);border-left:4px solid var(--good);padding:12px 16px;margin:18px 0;border-radius:0 8px 8px 0;font-size:.93rem}
+/* ---- .chip (added 2026-09-17): formalises a labelling pattern several posts
+       already built ad hoc in JS (e.g. "PLI coverage: strong/partial/gap")
+       into one reusable inline component, so a new post doesn't reinvent it.
+       Use inline: <span class="chip chip-good">Strong</span>. ---- */
+.htuindiat .chip{display:inline-block;font-family:var(--mono);font-size:.72rem;font-weight:700;letter-spacing:.02em;padding:.15rem .5rem;border-radius:99px;line-height:1.5}
+.htuindiat .chip-good{background:var(--good-soft);color:var(--good)}
+.htuindiat .chip-warn{background:var(--panel);color:var(--accent)}
+.htuindiat .chip-bad{background:var(--bad-soft);color:var(--bad)}
+.htuindiat .src{font-size:.84rem;font-family:var(--mono);border-top:1px solid var(--rule);padding-top:12px;margin-top:24px}
+.htuindiat .disclaimer{font-size:.82rem;color:#555;margin-top:10px}
+.htuindiat .revised{font-size:.8rem;color:#555!important;margin:0 0 14px}
+.htuindiat .revised code{font-family:inherit;background:var(--panel);padding:1px 5px;border-radius:4px}
+</style>
+
+
+<div class="gs-head-order" style="display:flex;flex-direction:column">
+<p class="standfirst" style="order:4">The descriptive half of a two-repo study of India&#x27;s trade: what MoSPI, RBI and TRADESTAT data show about the trade deficit, imports by HS chapter, the rupee and inflation, with charts and JSON extracts you can open without installing anything.</p>
+<div class="topnav-index-link" style="order:1;font-size:.82em;margin:6px 0 14px"><a href="https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html" style="color:#0b5394;text-decoration:none">&#8592; All Articles (Index)</a></div>
+<p class="eyebrow" style="order:2">Open-Source Tools · How-To · Policy analysis</p>
+<h1 style="order:3">How to use india-trade-data-analysis: read India&#x27;s trade, rupee and inflation data in one place</h1>
+</div>
+
+
+<a href="#" id="gs-skip-link" class="gs-skip-link" style="position:absolute;left:-9999px;top:auto;background:#1a1a1a;color:#fff;padding:.6rem 1rem;z-index:1000;border-radius:4px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.85rem">Skip to article content</a>
+<style>.gs-skip-link:focus{left:8px!important;top:8px!important}
+.gs-a11y-bar{display:flex;align-items:center;gap:.55rem;flex-wrap:wrap;background:#f4f5f7;border:1px solid #dfe3e8;border-radius:8px;padding:.55rem .8rem;margin:10px 0 16px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
+.gs-a11y-bar .gs-a11y-label{font-size:.68rem;font-weight:700;letter-spacing:.08em;color:#666;text-transform:uppercase;margin-right:.15rem}
+.gs-a11y-bar button{cursor:pointer;border:1px solid #c7cbd1;background:#fff;color:#1a1a1a;border-radius:5px;padding:.32rem .65rem;font-family:inherit;line-height:1}
+.gs-a11y-bar button.gs-a11y-fs{font-weight:700;min-width:2rem;text-align:center}
+.gs-a11y-bar button.gs-a11y-fs[data-size="sm"]{font-size:.8rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="md"]{font-size:1rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="lg"]{font-size:1.2rem}
+.gs-a11y-bar button.gs-a11y-fs[aria-pressed="true"]{background:#1a1a1a;color:#fff;border-color:#1a1a1a}
+.gs-a11y-bar button:hover{border-color:#8a4b08}
+.gs-a11y-bar button:focus-visible{outline:2px solid #8a4b08;outline-offset:1px}
+.gs-a11y-bar .gs-a11y-sep{width:1px;align-self:stretch;background:#dfe3e8;margin:0 .1rem}</style>
+<div class="gs-a11y-bar" role="group" aria-label="Accessibility controls">
+<span class="gs-a11y-label">Text Size</span>
+<button type="button" class="gs-a11y-fs" data-size="sm" aria-pressed="false" aria-label="Small text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="md" aria-pressed="true" aria-label="Medium text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="lg" aria-pressed="false" aria-label="Large text">A</button>
+<span class="gs-a11y-sep"></span>
+<button type="button" id="gs-a11y-listen" aria-label="Read this article aloud">&#128266; Listen</button>
+<button type="button" id="gs-a11y-stop" aria-label="Stop reading aloud">&#9632; Stop</button>
+</div>
+<script>(function(){
+var KEY='gs-a11y-fontsize', SIZES={sm:'0.92',md:'1',lg:'1.15'};
+function pb(){return document.querySelector('.post-body')||document.querySelector('.artx,.mdrx');}
+function apply(sz){
+  var el=pb(); if(!el||!SIZES[sz]) return;
+  el.style.fontSize=SIZES[sz]+'em';
+  var btns=document.querySelectorAll('.gs-a11y-fs');
+  for(var i=0;i<btns.length;i++){
+    var on=btns[i].getAttribute('data-size')===sz;
+    btns[i].setAttribute('aria-pressed', on?'true':'false');
+  }
+  try{localStorage.setItem(KEY,sz);}catch(e){}
+}
+var fsBtns=document.querySelectorAll('.gs-a11y-fs');
+for(var j=0;j<fsBtns.length;j++){
+  fsBtns[j].addEventListener('click',(function(b){return function(){apply(b.getAttribute('data-size'));};})(fsBtns[j]));
+}
+var saved; try{saved=localStorage.getItem(KEY);}catch(e){}
+apply(saved&&SIZES[saved]?saved:'md');
+
+var listenBtn=document.getElementById('gs-a11y-listen'), stopBtn=document.getElementById('gs-a11y-stop');
+if(listenBtn){
+  listenBtn.addEventListener('click', function(){
+    if(!('speechSynthesis' in window)){ alert('Text-to-speech is not supported in this browser.'); return; }
+    window.speechSynthesis.cancel();
+    var src=pb(); if(!src) return;
+    var clone=src.cloneNode(true);
+    var strip=clone.querySelectorAll('script,style,svg');
+    for(var k=0;k<strip.length;k++){ strip[k].parentNode.removeChild(strip[k]); }
+    var text=clone.textContent.replace(/\s+/g,' ').trim();
+    if(!text) return;
+    var chunks=text.match(/[\s\S]{1,180}(?:[.!?]|$)/g)||[text];
+    var idx=0;
+    function speakNext(){
+      if(idx>=chunks.length) return;
+      var u=new SpeechSynthesisUtterance(chunks[idx]);
+      u.onend=function(){ idx++; speakNext(); };
+      window.speechSynthesis.speak(u);
+    }
+    speakNext();
+  });
+}
+if(stopBtn){
+  stopBtn.addEventListener('click', function(){
+    if('speechSynthesis' in window) window.speechSynthesis.cancel();
+  });
+}
+var skip=document.getElementById('gs-skip-link');
+if(skip){
+  skip.addEventListener('click', function(ev){
+    ev.preventDefault();
+    var h=document.querySelector('.post-body h1')||document.querySelector('.artx h1,.mdrx h1,h1');
+    if(h){ h.setAttribute('tabindex','-1'); h.focus(); h.scrollIntoView(); }
+  });
+}
+})();</script>
+<style>.goog-te-menu-frame{max-width:340px!important;max-height:70vh!important;overflow:auto!important;box-shadow:0 6px 24px rgba(0,0,0,.25)!important}</style>
+<div id="google_translate_element" style="margin:8px 0 16px;"></div><script type="text/javascript">function googleTranslateElementInit(){new google.translate.TranslateElement({pageLanguage:"en",includedLanguages:"hi,bn,ta,te,mr,gu,kn,ml,pa,or,as,ur,sa,ne,sd",layout:google.translate.TranslateElement.InlineLayout.SIMPLE,autoDisplay:false},"google_translate_element");}</script><script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+
+<p class="revised" data-gs-revision-v1="1">Revised
+<time datetime="2026-11-03" itemprop="dateModified">3 November 2026</time>
+&middot; <code>v1.0.0</code> &middot; <a href="#changelog">what changed</a></p>
+
+<style>.htuindiat pre{background:#f6f3ea!important;color:#111!important;border:1px solid var(--rule);border-radius:8px;padding:10px 12px;overflow-x:auto;font-size:.82rem;line-height:1.45}.htuindiat pre code{background:none!important;color:#111!important;font-family:var(--mono)}.htuindiat code{font-family:var(--mono);font-size:.88em}.htuindiat .vid{position:relative;padding-bottom:56.25%;height:0;margin:16px 0;max-width:100%}.htuindiat .vid iframe{position:absolute;inset:0;width:100%;height:100%;border:0}</style><div class="stats"><div class="stat"><b>US$ 776.0 bn</b><span>merchandise imports, FY2025-26</span></div><div class="stat"><b>US$ 441.7 bn</b><span>merchandise exports, FY2025-26</span></div><div class="stat"><b>+26.6% vs +4.7%</b><span>five-year import vs export growth</span></div><div class="stat"><b>81.5%</b><span>share of imports in the top 12 HS chapters</span></div></div>
+<p>Code: <a href="https://github.com/herrrickshaw/india-trade-data-analysis">github.com/herrrickshaw/india-trade-data-analysis</a></p>
+<h2>Watch the walkthrough</h2>
+<div class="vid"><iframe src="https://www.youtube.com/embed/ZvdlH4DdWtA" title="How to use india-trade-data-analysis: read India&#x27;s trade, rupee and inflation data in one place" allowfullscreen loading="lazy"></iframe></div><p>Watch on YouTube: <a href="https://youtu.be/ZvdlH4DdWtA">youtu.be/ZvdlH4DdWtA</a></p>
+<h2>Why it is useful</h2>
+<ul><li>Who benefits: students, journalists and policy analysts who need a sourced, dated view of India&#x27;s trade position without stitching together four agencies&#x27; sites.</li><li>What it replaces: manual downloads from TRADESTAT, RBI and MoSPI. The repo ships the extracts as JSON plus ready-made charts.</li><li>Evidence from our read: the five-year synthesis file shows imports up 26.58% against exports up 4.68% over FY2021-22 to FY2025-26.</li><li>It cross-checks itself: a validation file compares TRADESTAT totals with the Commerce Ministry TIA portal and notes a roughly 2% gap in exports.</li><li>Everything is in US$ million, which makes cross-source comparison simple.</li></ul>
+<h2>What it is for</h2>
+<p>The repo records what the data show: CPI and WPI by state, GDP growth with revisions, forex reserves, the rupee, the goods and services balance, and imports and exports by HS chapter, from FY2018-19 to FY2025-26. A five-year synthesis re-cuts all threads to one window and a sample FY2025-26 report standardises units.</p>
+<p>It is the data half of a split. The prescriptive recommendations live in india-trade-sector-policy-recommendations. This is economic analysis, not investment or legal advice.</p>
+<p><b>Who it is for</b></p>
+<ul><li>Students and researchers studying India&#x27;s external sector</li><li>Journalists verifying a trade or reserves figure against a dated source</li><li>Analysts who want JSON extracts for their own notebooks</li></ul>
+<div class="warn"><b>Not for.</b><ul><li>Real-time figures: the snapshot is dated 2026-07-18 and FY2025-26 is provisional</li><li>Investment, trading or legal decisions</li><li>Treating the policy commentary as official findings</li></ul></div>
+<h2>What you need</h2>
+<div class="tw"><table><tr><th>Requirement</th><th>Why</th><th>How to get it</th></tr><tr><td>A web browser</td><td>opens the charts and the GitHub Pages site</td><td>any modern browser</td></tr><tr><td>Python 3 (optional)</td><td>to read the JSON files</td><td>standard library json is enough</td></tr><tr><td>Not needed</td><td>no key, GPU or database for reading the committed files</td><td>Live refresh needs the MoSPI connector and scraping cells, which we did not run</td></tr></table></div>
+<h2>Get the code and an AI assistant</h2>
+<p>You do not have to be a programmer. Get the repository, give it to an AI assistant, and ask in plain language. Any of these routes works:</p>
+<div class="tw"><table><tr><th>Tool</th><th>What you need</th><th>Best for</th></tr><tr><td><b>GitHub</b></td><td>Free account to fork or star; <code>git</code> to clone, or the green <b>Code</b> button, then <b>Download ZIP</b>, or open in <b>Codespaces</b></td><td>Getting the code and keeping up with updates</td></tr><tr><td><b>Claude Code</b></td><td>Claude subscription or API key; run <code>claude</code> inside the cloned folder</td><td>Letting the AI read and run the whole repo</td></tr><tr><td><b>Gemini CLI</b></td><td>Google account; run <code>gemini</code> inside the cloned folder</td><td>The same hands-on workflow with Gemini</td></tr><tr><td><b>Claude.ai, Gemini or ChatGPT in the browser</b></td><td>A chat account; upload <code>README.md</code> and the files you care about (or paste the output of <code>git ls-files</code>)</td><td>Understanding the project and asking questions without installing anything</td></tr><tr><td><b>Other tools</b> (Copilot Chat, Cursor, Codex CLI)</td><td>Open the cloned folder in the tool and point it at <code>README.md</code> first</td><td>Editing and extending the code</td></tr></table></div>
+<pre><code>git clone https://github.com/herrrickshaw/india-trade-data-analysis.git
+cd india-trade-data-analysis
+claude      # or: gemini</code></pre>
+<h2>Install</h2><ol><li>Get the code<pre><code>git clone https://github.com/herrrickshaw/india-trade-data-analysis.git
+cd india-trade-data-analysis</code></pre></li><li>Or just open the live site<pre><code>https://herrrickshaw.github.io/india-trade-data-analysis/</code></pre></li></ol>
+<h2>Quick start: commands and what you should see</h2>
+<p><b>Print the five-year import and export totals</b></p>
+<pre><code>python3 -c &quot;import json;d=json.load(open(&#x27;data/five_year_trade_currency_synthesis_2026-07-18.json&#x27;))[&#x27;trade_totals_usd_million&#x27;];print(d[&#x27;years&#x27;]);print(d[&#x27;export&#x27;]);print(d[&#x27;import&#x27;]);print(d[&#x27;export_growth_5yr_pct&#x27;],d[&#x27;import_growth_5yr_pct&#x27;])&quot;</code></pre>
+<p>Five fiscal years of exports and imports in US$ million, then 4.68 and 26.58 percent growth.</p>
+<h2>Sample outputs</h2><p>Real output from a run on the date shown in the sources line; trimmed to fit.</p>
+<p><b>Five-year trade totals (US$ million)</b></p>
+<pre><code>data/five_year_trade_currency_synthesis_2026-07-18.json
+years:   2021-22   2022-23   2023-24   2024-25   2025-26
+export:  422004.4  451070.0  437072.1  437704.5  441745.9
+import:  613052.1  715968.9  678214.8  721200.3  776013.7
+export growth 5yr: 4.68%   import growth 5yr: 26.58%</code></pre>
+<p>Read from the committed file; FY2025-26 is provisional.</p>
+<p><b>Goods deficit versus services surplus (US$ billion)</b></p>
+<pre><code>goods_services_balance_usd_billion
+years:         2021-22  2022-23  2023-24  2024-25
+goods_balance: -191.0   -264.9   -241.1   -283.5
+services_net:   107.6    143.6    162.8    188.9
+overall:        -83.5   -121.3    -78.3    -94.6</code></pre>
+<p>The file states the services surplus covers about 87.9% of the extra goods gap.</p>
+<p><b>Top import chapters by value, FY2025-26 (US$ million, growth since FY2018-19)</b></p>
+<pre><code>hsn_historical_trends_2018-19_to_2025-26.json
+HS27 Mineral fuels &amp; oils        203,415.4   +21.2%
+HS71 Pearls, gems &amp; jewellery    109,430.2   +69.1%
+HS85 Electrical machinery        104,852.7  +101.5%
+HS84 Machinery                    74,019.5   +68.8%
+HS29 Organic chemicals            25,410.7   +13.5%
+HS39 Plastics                     22,234.5   +45.8%</code></pre>
+<p>The top 12 import chapters together are 81.5% of imports.</p>
+<h2>Ways to use it</h2>
+<div class="tw"><table><tr><th>Method</th><th>How it works</th></tr><tr><td>Browse the site</td><td>The GitHub Pages site serves every chart with no build step.</td></tr><tr><td>Load the JSON</td><td>Each data file states its purpose, source and retrieval date.</td></tr><tr><td>Read the sample report</td><td>reports/FY2025-26_sample_report.html restates the figures in US$ million with a consistency-check log.</td></tr><tr><td>Ask an AI</td><td>Clone it, or upload README.md and a JSON file, and ask in plain English.</td></tr></table></div>
+<h2>Sample prompts for your AI assistant</h2><p>Copy, paste and edit the parts in [brackets].</p>
+<ul><li>Read README.md in this repository and explain in plain English what it contains and how the files relate to each other.</li><li>Open the main data file and summarise the three most important findings with the exact numbers and the file they come from.</li><li>List every caveat or data-quality warning the author documents, and tell me which ones affect the figures I plan to quote.</li><li>Show me how to load one of the JSON files in Python (or Excel) and make a simple table of the top 10 rows by value.</li><li>Explain how I would update this analysis with newer official data, and what I would need to re-check by hand.</li></ul>
+<h2>Limits and honest caveats</h2>
+<div class="warn"><ul><li>Figures are a snapshot retrieved 2026-07-18; FY2025-26 is provisional on all sources.</li><li>The cross-validation file itself notes TRADESTAT and the TIA portal differ by about 2% on total exports, probably vintage or revision.</li><li>We read committed files only and did not re-pull MoSPI, RBI or TRADESTAT data or run the Colab notebook.</li><li>Policy commentary is the author&#x27;s interpretation, not an official finding.</li><li>Economic analysis only, not investment or legal advice. Services trade runs one year behind goods.</li></ul></div>
+<p class="src">Sources: Repo herrrickshaw/india-trade-data-analysis (README; data/five_year_trade_currency_synthesis_2026-07-18.json, trade_data_cross_validation_2026-07-18.json, hsn_historical_trends_2018-19_to_2025-26.json); underlying MoSPI, RBI and DGCI&amp;S/TRADESTAT data as recorded by the repo. Files read 19 October 2026; nothing re-fetched.</p>
+<div id="changelog" class="note">
+<b>Revision history.</b>
+<ul>
+<li><b>v1.0.0</b> &mdash; 3 November 2026 &mdash; first published.</li>
+</ul>
+</div>
+
+
+<style>/* gs-light-lock-v1 */.htuindiat{--ink:#111!important;--accent:#8a4b08!important;--rule:#e8dcc4!important;--panel:#fdf7ec!important;--good:#1a7a4c!important;--good-soft:#eaf6ef!important;--bad:#a5402c!important;--bad-soft:#fff4f0!important}</style>
+<p class="disclaimer" data-gs-ai-disclosure-v1="1"><strong>About this article:</strong> Researched, written and edited by Umashankar Triplicane Dwarakanathan, with AI research assistance; every figure is meant to trace to the primary source cited. See the <a href="https://masaladeutsch.blogspot.com/p/disclaimer.html">Editorial Policy</a> for how sourcing, AI use and corrections work.</p>
+
+</div>
