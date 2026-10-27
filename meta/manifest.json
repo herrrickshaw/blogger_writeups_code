@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-10-27T15:19:28+05:30",
+  "snapshot": "2026-10-27T15:21:56+05:30",
   "count": 431,
   "posts": {
     "1008146607143508554": {
@@ -36823,9 +36823,11 @@
       "title": "Half of PHP Websites Run a Version Nobody Patches. What a Hacked Site Gives Away About Its Company",
       "url": "https://masaladeutsch.blogspot.com/2026/10/half-of-php-websites-run-version-nobody.html",
       "slug": "half-of-php-websites-run-version-nobody",
-      "published": "2026-10-27T15:19:01.581+05:30",
-      "updated": "2026-10-27T15:19:01.581+05:30",
-      "labels": [],
+      "published": "2026-10-27T15:19:01.000+05:30",
+      "updated": "2026-10-27T15:20:45.327+05:30",
+      "labels": [
+        "Cybersecurity"
+      ],
       "bytes": 27607,
       "sha256": "0fa67698a6d9c04493b52befcfa42b72388ae391836656b05901089936a902f8",
       "markers": {
@@ -42858,10 +42860,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html",
       "slug": "article-index-start-here",
       "published": "2026-08-02T10:43:26.000+05:30",
-      "updated": "2026-10-27T07:54:18.972+05:30",
+      "updated": "2026-10-27T15:21:25.262+05:30",
       "labels": [],
-      "bytes": 851527,
-      "sha256": "49bb9a6bc01420532fd5f548d286d81f0198cbd5e3a4dcf4b31929d896d9584f",
+      "bytes": 853000,
+      "sha256": "f2df4f6e571a120922155f63ba56d4837b707091fee829f4259d9639ae36eccb",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -42873,7 +42875,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "67.2.0",
+      "version": "67.3.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -45142,6 +45144,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Index: BHAVYA, MGNREGS, UDAN, data-centre cooling"
+        },
+        {
+          "version": "67.3.0",
+          "date": "2026-10-27T15:21:56+05:30",
+          "level": "minor",
+          "reason": "forced via --as minor (figures changed (+2/-1 distinct numbers))",
+          "bytes": [
+            851527,
+            853000
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Index: cooling and PHP posts"
         }
       ]
     },

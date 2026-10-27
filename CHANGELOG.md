@@ -16140,3 +16140,20 @@ New post: PHP attack surface
 **Added**
 
 - `half-of-php-websites-run-version-nobody` **v1.0.0** — Half of PHP Websites Run a Version Nobody Patches. What a Hacked Site Gives Away About Its Company (27,607 bytes)
+
+## 2026-10-27T15:21:56+05:30 — 431 posts live
+
+Index: cooling and PHP posts
+
+
+**Versions**
+
+- `article-index-start-here` **67.2.0 → 67.3.0** (MINOR) — forced via --as minor (figures changed (+2/-1 distinct numbers))
+
+**Changed**
+
+- `article-index-start-here` — 851,527 → 853,000 bytes (+1,473)
+
+**Re-dated** (publication date changed; body and URL unchanged)
+
+- `half-of-php-websites-run-version-nobody` — 2026-10-27 &rarr; 2026-10-27
