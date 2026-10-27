@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-10-27T07:53:16+05:30",
+  "snapshot": "2026-10-27T07:54:54+05:30",
   "count": 430,
   "posts": {
     "1008146607143508554": {
@@ -28326,9 +28326,13 @@
       "title": "Closed Loop or Open Loop? How India's New Data Centres Should Be Cooled, Site by Site",
       "url": "https://masaladeutsch.blogspot.com/2026/10/closed-loop-or-open-loop-how-indias-new.html",
       "slug": "closed-loop-or-open-loop-how-indias-new",
-      "published": "2026-10-27T07:52:33.401+05:30",
-      "updated": "2026-10-27T07:52:33.401+05:30",
-      "labels": [],
+      "published": "2026-10-27T07:52:33.000+05:30",
+      "updated": "2026-10-27T07:53:33.631+05:30",
+      "labels": [
+        "Energy & Fuels",
+        "Environment & Clearances",
+        "Industrial Policy"
+      ],
       "bytes": 33074,
       "sha256": "aac277d8fadc51ce341ba53812d5315ecba9d1453c1179e3fd19708cd426e35a",
       "markers": {
@@ -42731,10 +42735,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html",
       "slug": "article-index-start-here",
       "published": "2026-08-02T10:43:26.000+05:30",
-      "updated": "2026-10-27T07:01:50.439+05:30",
+      "updated": "2026-10-27T07:54:18.972+05:30",
       "labels": [],
-      "bytes": 850297,
-      "sha256": "75c4b9cae4e943ddc52323ca9a8db252b20b3446aaaf9ac7022d6c03d0747cfd",
+      "bytes": 851527,
+      "sha256": "49bb9a6bc01420532fd5f548d286d81f0198cbd5e3a4dcf4b31929d896d9584f",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -42746,7 +42750,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "67.1.0",
+      "version": "67.2.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -45002,6 +45006,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Index: BHAVYA, MGNREGS, UDAN posts"
+        },
+        {
+          "version": "67.2.0",
+          "date": "2026-10-27T07:54:54+05:30",
+          "level": "minor",
+          "reason": "forced via --as minor (figures changed (+1/-2 distinct numbers))",
+          "bytes": [
+            850297,
+            851527
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Index: BHAVYA, MGNREGS, UDAN, data-centre cooling"
         }
       ]
     },

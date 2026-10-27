@@ -16054,3 +16054,20 @@ New post: closed- vs open-loop data-centre cooling
 **Added**
 
 - `closed-loop-or-open-loop-how-indias-new` **v1.0.0** — Closed Loop or Open Loop? How India's New Data Centres Should Be Cooled, Site by Site (33,074 bytes)
+
+## 2026-10-27T07:54:54+05:30 — 430 posts live
+
+Index: BHAVYA, MGNREGS, UDAN, data-centre cooling
+
+
+**Versions**
+
+- `article-index-start-here` **67.1.0 → 67.2.0** (MINOR) — forced via --as minor (figures changed (+1/-2 distinct numbers))
+
+**Changed**
+
+- `article-index-start-here` — 850,297 → 851,527 bytes (+1,230)
+
+**Re-dated** (publication date changed; body and URL unchanged)
+
+- `closed-loop-or-open-loop-how-indias-new` — 2026-10-27 &rarr; 2026-10-27
