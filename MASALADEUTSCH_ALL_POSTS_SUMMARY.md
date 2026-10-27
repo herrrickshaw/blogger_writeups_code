@@ -1,8 +1,8 @@
 # Masala Deutsch — All Posts, Summarised
 
-*418 published posts, 81 topic labels. Each entry is the post's own published standfirst — not a re-summary.*
+*428 published posts, 81 topic labels. Each entry is the post's own published standfirst — not a re-summary.*
 
-*Generated 26 October 2026 — regenerated daily by tools/update_summary_cron.sh.*
+*Generated 27 October 2026 — regenerated daily by tools/update_summary_cron.sh.*
 
 
 ## Units & Figures Used in This Blog
@@ -219,8 +219,10 @@
 ## By Topic
 
 
-### Agriculture & Fertilisers (74)
+### Agriculture & Fertilisers (75)
 
+- **[Rural Job-Guarantee Pay Rose 9.6% in July. In Eight States It Buys Less Than in 2025](https://masaladeutsch.blogspot.com/2026/10/rural-job-guarantee-pay-rose-96-in-july.html)** — 2026-10-27
+  Wages were frozen for three months, then a Rs 300 floor lifted the poorest states by up to 19%. But prices for farm labourers rose 3.4% in the next quarter alone, and in Andhra Pradesh, Telangana, Maharashtra and five other states the new wage buys less than the old one did.
 - **[India’s Winter Harvest Now Outgrows Its Monsoon One. Kharif, Rabi and Zaid, Crop by Crop: Area, Yield and When It Reaches the Mandi](https://masaladeutsch.blogspot.com/2026/10/indias-winter-harvest-now-outgrows-its.html)** — 2026-10-25
   Rabi and summer crops now give India 53% of its foodgrains, up from 36% in 1966-67, on land that grew by a third while kharif area stood still. Maize, rice and moong are moving into the winter and summer seasons, and each season’s harvest reaches the mandi in a narrow window, wheat mostly in a single month.
 - **[Maize Is Cheapest in a Different State Every Few Months. Rice Barely Moves.](https://masaladeutsch.blogspot.com/2026/10/maize-is-cheapest-in-different-state.html)** — 2026-10-24
@@ -278,7 +280,7 @@
 - **[India's Draft Seeds Bill Cuts States' Committee Seats From 22 to 5. That's the Provision Farmer Groups Are Actually Fighting.](https://masaladeutsch.blogspot.com/2026/09/indias-draft-seeds-bill-cuts-states.html)** — 2026-09-10
   India's draft Seeds Bill, 2025 would replace a 60-year-old law and restructure the committee that governs seed regulation nationally — cutting states' own seats on it from 22 to 5, on the count several secondary sources give. The bill's own November 2025 announcement frames it as decriminalising minor paperwork offences to ease compliance burden; by September 2026, government messaging around the same bill was leading with "stringent" penalties and "seed mafias." Both are true of the same document — it is a tiered bill, lighter on administrative lapses and harder on fraud — but the state-representation cut is the provision farmer-group criticism has focused on, not the fines.
 - **[One Nation One Ration Card Doesn't Move Grain. FCI's Ethanol Tenders Move a Lot of It](https://masaladeutsch.blogspot.com/2026/09/one-nation-one-ration-card-doesnt-move.html)** — 2026-09-05
-  One Nation One Ration Card sounds like it should strain the machinery that moves grain around India — a family that migrates from Bihar to Kerala still has to eat, after all. It doesn't, and the reason why is itself the more interesting story: interstate portability is under 1% of all transactions on the system. The genuine food-versus-fuel tension in Indian grain policy is real, well-documented, and running through a completely different pipe — FCI's surplus rice being sold to ethanol distillers at roughly 40% below what it cost to buy, under a tender clause that specifically requires distillers to use it.
+  One Nation One Ration Card sounds like it should strain the machinery that moves grain around India — a family that migrates from Bihar to Kerala still has to eat, after all. It doesn't, and the reason why is itself the more interesting story: interstate portability is roughly 2% or less of all transactions on the system. The genuine food-versus-fuel tension in Indian grain policy is real, well-documented, and running through a completely different pipe — FCI's surplus rice being sold to ethanol distillers at roughly 40% below what it cost to buy, under a tender clause that specifically requires distillers to use it.
 - **[ICRA Rates Most of India's Economy Stable. Three Sectors Got Hit by the Same Shock](https://masaladeutsch.blogspot.com/2026/09/icra-rates-most-of-indias-economy.html)** — 2026-09-03
   Line up ICRA's most recent outlook notes across fourteen Indian sectors and a pattern falls out that no single sector report would show on its own: eleven sectors are Stable or improving, largely on the back of one thing — government infrastructure capex. The three that got downgraded to Negative in 2026 — aviation, fertilisers, and integrated oil refining and marketing — were all cut for the same reason, within weeks of each other, and it wasn't anything sector-specific.
 - **[The 4% Nobody Notices, and Three Other Ways India Backstops Its Own Food System](https://masaladeutsch.blogspot.com/2026/09/the-4-nobody-notices-and-three-other.html)** — 2026-09-01
@@ -404,7 +406,7 @@
 ### Automotive & Manufacturing (1)
 
 - **[Airbags and Seat Belts Are Import-Heavy. Tyre Cord Isn't. India's Automotive Textiles Aren't One Story](https://masaladeutsch.blogspot.com/2026/08/airbags-and-seat-belts-are-import-heavy.html)** — 2026-08-15
-  Seat belt webbing and airbag fabric are two of the fastest-growing categories in India's automotive textiles, and both remain significantly import-dependent even as global safety-systems majors localise assembly here. Tyre cord fabric tells almost the opposite story: India is the world's second-largest nylon-6 tyre-cord-fabric producer, protected by anti-dumping duties against Chinese imports since 2019. This piece separates the two stories, and traces the one raw-material dependency — imported nylon-6 polymer — that sits underneath both.
+  Seat belt webbing and airbag fabric are two of the fastest-growing categories in India's automotive textiles, and both remain significantly import-dependent even as global safety-systems majors localise assembly here. Tyre cord fabric tells almost the opposite story: India is the world's second-largest nylon-6 tyre-cord-fabric producer, long protected by anti-dumping duties against Chinese imports (in place from 2005; their status after a 2020 sunset review is unclear). This piece separates the two stories, and traces the one raw-material dependency — imported nylon-6 polymer — that sits underneath both.
 
 ### Biofuels (3)
 
@@ -541,7 +543,7 @@
 - **[Biogas Is a Priority-Sector Loan. The 43% Higher CBG Price Is Worth About 50 Times the Cost of the Repo Hike, for the Plants It Reaches](https://masaladeutsch.blogspot.com/2026/10/biogas-is-priority-sector-loan-43.html)** — 2026-10-16
   A biogas developer on a floating-rate loan pays more interest after the RBI’s hike to 5.50% while earning more per kilogram of gas. On the published numbers the price rise dwarfs the rate rise, except for plants that never receive the new price, and RBI data on CBG lending do not exist.
 - **[India Has 132 Compressed Biogas Plants Running. The Pipeline to Actually Use That Gas Reaches 17 of Them.](https://masaladeutsch.blogspot.com/2026/09/india-has-132-compressed-biogas-plants.html)** — 2026-09-23
-  SATAT set out in 2018 to build 5,000 compressed biogas plants by 2023-24. India has commissioned 132. Of those, the regulator's own September 2026 count says only 17 are actually connected to a city gas network by dedicated pipeline — meaning most of the plants that exist still cannot inject their gas into the grid the blending mandate assumes they will feed.
+  SATAT set out in 2018 to build 5,000 compressed biogas plants by 2023-24. India has 207 functional plants (217 commissioned on the GOBARdhan portal by 6 August 2026). Of the 207, the regulator's own August 2026 count says only 24 are actually connected to a city gas network by dedicated pipeline — meaning most of the plants that exist still cannot inject their gas into the grid the blending mandate assumes they will feed.
 - **[PNGRB Wants Prepaid Smart Meters on Every New Gas Connection From 2027, All of Them by 2030](https://masaladeutsch.blogspot.com/2026/09/pngrb-wants-prepaid-smart-meters-on.html)** — 2026-09-08
   An industry committee set up by PNGRB has recommended that every new piped-gas connection in India be fitted with a prepaid, remotely-shut-off smart meter within six months of a rule change, and that every existing meter be swapped over on a four-phase schedule running to 2030. Read in full, the committee's July 2026 report is candid about why: a 9% average default rate on conventional postpaid gas bills is costing city-gas companies money, and prepaid smart metering fixes that for them, not primarily for the consumer. This piece reports what the committee's report actually recommends, what it costs, and who its own text says should pay for it.
 - **[City Gas Just Became India's Largest Gas Consumer](https://masaladeutsch.blogspot.com/2026/08/city-gas-just-became-indias-largest-gas.html)** — 2026-08-08
@@ -615,8 +617,10 @@
 - **[One Gallon, Five Numbers: How GCAM Fits Into — and Stays Out of — the World's Biofuel Carbon-Credit Systems](https://masaladeutsch.blogspot.com/2026/08/one-gallon-five-numbers-how-gcam-fits.html)** — 2026-08-13
   Five official government models were run on the same corn ethanol scenario in 2023 and produced land-use-change emissions estimates ranging from −0.95 to roughly 41 grams of CO₂e per megajoule — a number that, in the real world, decides whether a fuel batch clears a regulatory threshold or not. GCAM was one of the five. But GCAM is not the model that actually issues a RIN, clears a RED III threshold, or prices a CBIO on Brazil's B3 exchange — none of the world's three big biofuel carbon-credit systems run GCAM as their compliance engine. This piece works out what GCAM's real job is in this space, and how the three real systems differ from each other and from it.
 
-### Coal & Coal Gasification (2)
+### Coal & Coal Gasification (3)
 
+- **[India Ordered 112 Captive Coal Plants to Run Flat Out as Exchange Prices Rose 50% in a Month, With Coal Stocks Steady](https://masaladeutsch.blogspot.com/2026/10/india-ordered-112-captive-coal-plants.html)** — 2026-10-26
+  Two Ministry of Power orders of 25 September 2026 draft 112 captive coal plants and the Mundra imported-coal plant into the grid; the exchange had already moved ₹4.88 to ₹7.3 a unit in a month while coal stocks held above 18 MT.
 - **[The Reactor Nobody Names: How Coal Becomes Syngas, and Why India's Flagship Plant Runs on Someone Else's Technology](https://masaladeutsch.blogspot.com/2026/09/the-reactor-nobody-names-how-coal.html)** — 2026-09-19
   Every account of India's coal-gasification push — including this blog's own — talks about what syngas can be turned into and what the government is spending to make that happen. Almost none of them name the actual machine coal has to pass through first, or notice that the mission's single largest, most-cited project doesn't run on the gasification technology India has spent two decades developing for its own coal.
 - **[India's Coal-to-Chemicals Menu, Ranked by What Actually Clears the Import Price](https://masaladeutsch.blogspot.com/2026/08/indias-coal-to-chemicals-menu-ranked-by.html)** — 2026-08-27
@@ -698,15 +702,27 @@
 - **[Do CBSE Past Papers Actually Help? Depends Which of the 11 Subjects You Ask.](https://masaladeutsch.blogspot.com/2026/09/do-cbse-past-papers-actually-help.html)** — 2026-09-17
   Parsing 30,734 questions from five years of CBSE Class-XII papers shows that "practise past papers" is good advice for Accountancy and Physics and close to useless for English Core and Biology — the coaching-industry folklore treats one subject's pattern as if it applied to all eleven.
 
-### Electronics & Semiconductors (2)
+### Electronics & Semiconductors (3)
 
+- **[The Phone PLI's Successor Pays Up to 5%, Wants 15% Growth a Year, and Offers 0.2% to Make the Cell Here](https://masaladeutsch.blogspot.com/2026/10/the-phone-plis-successor-pays-up-to-5.html)** — 2026-10-26
+  The successor to the smartphone PLI pays 5% on most growth, not the 2.75% in its headline, but only after a brand grows more than 15% a year, and it offers just 0.20% for making the battery cell in India.
 - **[India's Display Fab Scheme Got Two Billion-Dollar Bids and Approved Neither. Then It Redefined "Display Fab" Small Enough to Claim One Anyway.](https://masaladeutsch.blogspot.com/2026/09/indias-display-fab-scheme-got-two.html)** — 2026-09-28
   In December 2021, India offered up to ₹12,000 crore to whichever of at most two companies built a large-panel display factory. Two real bidders showed up, proposing a combined $6.7 billion — and neither was ever approved. Four years, one scheme reopening and one Foxconn withdrawal later, the government's own tally of chip-and-display-fab wins now includes a "display fab" — but it is a ₹3,200 crore gallium-nitride micro-LED project approved under a completely different, much smaller category than the one Vedanta and Elest actually applied for.
 - **[India's Mobile-Phone PLI Beat Every Target. Its Chip-Fab Scheme Has 5 of 12 Plants Actually Producing.](https://masaladeutsch.blogspot.com/2026/08/indias-mobile-phone-pli-beat-every.html)** — 2026-08-30
   India's mobile-phone PLI scheme beat its own five-year investment target by 294% and its production target by 142% — a genuine, government-reported overperformance. Its chip-fabrication cousin, the Semicon India Programme, has 12 approved plants and, as of SEMICON India 2026 in September, 5 producing anything (up from 3 when this piece was first published). The gap between the two tells you which parts of India's electronics-manufacturing push are working and which are still mostly paper.
 
-### Energy & Fuels (126)
+### Energy & Fuels (131)
 
+- **[Closed Loop or Open Loop? How India's New Data Centres Should Be Cooled, Site by Site](https://masaladeutsch.blogspot.com/2026/10/closed-loop-or-open-loop-how-indias-new.html)** — 2026-10-27
+  An open cooling tower uses about two litres of water per kWh of computing; a closed dry loop uses almost none but costs more power. Most of India’s big new campuses sit on the coast near subsea cables, where seawater changes the answer.
+- **[Half of UDAN's Closed Routes Shut While Still Subsidised. The New Scheme Pays for Longer](https://masaladeutsch.blogspot.com/2026/10/half-of-udans-closed-routes-shut-while.html)** — 2026-10-27
+  Modified UDAN puts Rs 28,840 crore into regional flying over ten years and stretches each route’s subsidy from three years to five, on a taper. Of 331 routes that had closed by July, 165 shut before their subsidy ran out, so a longer taper addresses only part of why routes fail.
+- **[A Hectare Under a Power Line Now Pays Three to Six Times What One Over a Pipeline Does](https://masaladeutsch.blogspot.com/2026/10/a-hectare-under-power-line-now-pays.html)** — 2026-10-26
+  The Ministry of Power’s 6 October 2026 guidelines pay 30–60% of market value for the land under a transmission corridor and 200% for tower bases; the 1962 pipeline law pays 10%.
+- **[India's Approved Solar-Cell Makers Can Now Make 37.8 GW a Year. Rooftop Projects Have Until 31 December to Use Them](https://masaladeutsch.blogspot.com/2026/10/indias-approved-solar-cell-makers-can.html)** — 2026-10-26
+  MNRE’s approved list of domestic solar-cell makers now holds 37.8 GW a year of enlisted capacity across 19 company names, but a third of it is in one state and the window for rooftop and open-access projects to skip the list shuts on 31 December 2026.
+- **[India Ordered 112 Captive Coal Plants to Run Flat Out as Exchange Prices Rose 50% in a Month, With Coal Stocks Steady](https://masaladeutsch.blogspot.com/2026/10/india-ordered-112-captive-coal-plants.html)** — 2026-10-26
+  Two Ministry of Power orders of 25 September 2026 draft 112 captive coal plants and the Mundra imported-coal plant into the grid; the exchange had already moved ₹4.88 to ₹7.3 a unit in a month while coal stocks held above 18 MT.
 - **[How to use hydrogen-electrolyser-control: a simulated PEM, AEM and alkaline electrolyser controller](https://masaladeutsch.blogspot.com/2026/10/how-to-use-hydrogen-electrolyser.html)** — 2026-10-25
   A Python simulation of a hydrogen electrolyser control system: voltage and power setpoints, ramp profiles, inverter frequency, safety limits and a small REST API. This post runs it for real, shows what works and what is broken. Simulation only, not for operating real electrolysers. The repository is archived (read-only).
 - **[How to use discom-debt-and-revenue-models: a scenario calculator for electricity distribution company debt](https://masaladeutsch.blogspot.com/2026/10/how-to-use-discom-debt-and-revenue.html)** — 2026-10-25
@@ -772,7 +788,7 @@
 - **[Kpler and Vortexa Track Every Barrel India Imports. Nobody Tracks Its Cooking-Oil Waste the Same Way.](https://masaladeutsch.blogspot.com/2026/09/kpler-and-vortexa-track-every-barrel.html)** — 2026-09-24
   Kpler and Vortexa are the two ship-tracking firms whose data now shows up, cargo by cargo, in the IEA's own Oil Market Report: they can say which tanker carried which grade of crude from which port to which refinery, almost in real time. That is how the world knows India's Russian crude imports hit a record high in June 2026. Nobody tracks used cooking oil or used motor oil the same way — no satellite feed, no cargo manifest database, no single number anyone trusts. That gap in visibility is not a footnote to the oil story; in used cooking oil it is now the story, driving a tariff war and fraud investigations across three continents, and in used motor oil it is the reason India is only now signing its first-ever formal collection agreements.
 - **[India Has 132 Compressed Biogas Plants Running. The Pipeline to Actually Use That Gas Reaches 17 of Them.](https://masaladeutsch.blogspot.com/2026/09/india-has-132-compressed-biogas-plants.html)** — 2026-09-23
-  SATAT set out in 2018 to build 5,000 compressed biogas plants by 2023-24. India has commissioned 132. Of those, the regulator's own September 2026 count says only 17 are actually connected to a city gas network by dedicated pipeline — meaning most of the plants that exist still cannot inject their gas into the grid the blending mandate assumes they will feed.
+  SATAT set out in 2018 to build 5,000 compressed biogas plants by 2023-24. India has 207 functional plants (217 commissioned on the GOBARdhan portal by 6 August 2026). Of the 207, the regulator's own August 2026 count says only 24 are actually connected to a city gas network by dedicated pipeline — meaning most of the plants that exist still cannot inject their gas into the grid the blending mandate assumes they will feed.
 - **[Under CORSIA's Own Numbers, Corn Ethanol Fails as Jet Fuel — Worse Than the Fossil Fuel It Would Replace](https://masaladeutsch.blogspot.com/2026/09/under-corsias-own-numbers-corn-ethanol.html)** — 2026-09-23
   Under CORSIA's own default carbon-intensity tables, corn/maize ethanol converted to jet fuel scores worse than the fossil fuel it is meant to replace. India's ethanol policy has been actively promoting maize as a feedstock since November 2023. The two facts sit on a collision course that neither programme's own paperwork resolves.
 - **[The Diesel Truck Isn't Why Your Eggs Cost More. The Ethanol Tank Is.](https://masaladeutsch.blogspot.com/2026/09/the-diesel-truck-isnt-why-your-eggs.html)** — 2026-09-23
@@ -816,7 +832,7 @@
 - **[Right of User: What India's Pipeline Gazette Notifications Actually Show, State by State](https://masaladeutsch.blogspot.com/2026/09/right-of-user-what-indias-pipeline.html)** — 2026-09-05
   Roughly two-thirds of everything the Ministry of Petroleum & Natural Gas gazettes isn't fuel-pricing policy — it's land. Every kilometre of pipeline crossing private land needs a specific, dated notification acquiring the "right of user" under a 1962 law, and those notifications, not the more visible tender and pricing orders, are the bulk of this ministry's paper trail. This piece maps what that actually looks like: the two separate laws doing two separate jobs, the national pipeline build-out those notifications are quietly enabling, and a state-by-state accounting of the specific projects this piece could verify — with an explicit, prominent flag on where that accounting is solid and where it isn't.
 - **[One Nation One Ration Card Doesn't Move Grain. FCI's Ethanol Tenders Move a Lot of It](https://masaladeutsch.blogspot.com/2026/09/one-nation-one-ration-card-doesnt-move.html)** — 2026-09-05
-  One Nation One Ration Card sounds like it should strain the machinery that moves grain around India — a family that migrates from Bihar to Kerala still has to eat, after all. It doesn't, and the reason why is itself the more interesting story: interstate portability is under 1% of all transactions on the system. The genuine food-versus-fuel tension in Indian grain policy is real, well-documented, and running through a completely different pipe — FCI's surplus rice being sold to ethanol distillers at roughly 40% below what it cost to buy, under a tender clause that specifically requires distillers to use it.
+  One Nation One Ration Card sounds like it should strain the machinery that moves grain around India — a family that migrates from Bihar to Kerala still has to eat, after all. It doesn't, and the reason why is itself the more interesting story: interstate portability is roughly 2% or less of all transactions on the system. The genuine food-versus-fuel tension in Indian grain policy is real, well-documented, and running through a completely different pipe — FCI's surplus rice being sold to ethanol distillers at roughly 40% below what it cost to buy, under a tender clause that specifically requires distillers to use it.
 - **[What Sewage Disposal in Key Parts of Tamil Nadu Actually Costs](https://masaladeutsch.blogspot.com/2026/09/what-sewage-disposal-in-key-parts-of.html)** — 2026-09-03
   Tamil Nadu's Madurai sewerage figure making the rounds is off by a thousand crore rupees. A separate claim about drainage funding for Chennai road repairs doesn't match any source found. And the mosquito that upgraded drainage actually helps against isn't the one carrying dengue — it's the one carrying malaria, and that disease is already down to a few hundred cases statewide for reasons that have little to do with sewer pipes.
 - **[DGH Has Awarded 172 OALP Blocks and 4.36 Billion Dollars in Pledges. One Has Reached Production](https://masaladeutsch.blogspot.com/2026/09/dgh-has-awarded-172-oalp-blocks-and-436_0369361351.html)** — 2026-09-02
@@ -965,8 +981,10 @@
 - **[Price Is the Wire: How GCAM Actually Links India's Energy, Land, Water and Economy to a Net-Zero Target](https://masaladeutsch.blogspot.com/2026/08/price-is-wire-how-gcam-actually-links.html)** — 2026-08-13
   GCAM — the Global Change Analysis Model, maintained at Pacific Northwest National Laboratory — is usually described as a model that “links energy, water, land and the economy.” That phrase hides the actual mechanism. GCAM does not run one unified optimisation across all four; it solves five separate markets independently, five years at a time, with no subsystem allowed to see the future, and lets a single price signal carry information between them. The version CEEW and IIM Ahmedabad have run for India since 2007 uses exactly this machinery to work out what a net-zero target implies sector by sector. This piece works through how the wiring is actually built.
 
-### Environment & Clearances (7)
+### Environment & Clearances (8)
 
+- **[Closed Loop or Open Loop? How India's New Data Centres Should Be Cooled, Site by Site](https://masaladeutsch.blogspot.com/2026/10/closed-loop-or-open-loop-how-indias-new.html)** — 2026-10-27
+  An open cooling tower uses about two litres of water per kWh of computing; a closed dry loop uses almost none but costs more power. Most of India’s big new campuses sit on the coast near subsea cables, where seawater changes the answer.
 - **[Delhi's Smog Towers Failed the Test. A 44-Year-Old Army Programme Didn't.](https://masaladeutsch.blogspot.com/2026/09/delhis-smog-towers-failed-test-44-year.html)** — 2026-09-13
   Delhi's air spent 87 of the last 151 days in the "very poor" category, and the interventions getting attention right now are a smog tower an official committee called a "costly experiment with limited utility," four brand-new street purifiers in Jaipur that face the same physics problem, an untested algae bioreactor from a Kerala startup, and a wave of Army-linked tree-plantation photo-ops. This piece checks each of those against what independent assessment actually found, and separates two very different things both marketed under "the Army is greening Delhi": a one-day plantation ceremony, and a 44-year-old ecological battalion with a tracked, decades-long survival rate. Several sources behind the Central Ridge and CERCA sections could not be fetched directly during research; that is flagged where it matters.
 - **[The Water Bill Nobody Mentions: What Taiwan's Chip Crisis Says About India's Fab Plans](https://masaladeutsch.blogspot.com/2026/08/the-water-bill-nobody-mentions-what.html)** — 2026-08-18
@@ -1143,7 +1161,7 @@
 - **[Biogas Is a Priority-Sector Loan. The 43% Higher CBG Price Is Worth About 50 Times the Cost of the Repo Hike, for the Plants It Reaches](https://masaladeutsch.blogspot.com/2026/10/biogas-is-priority-sector-loan-43.html)** — 2026-10-16
   A biogas developer on a floating-rate loan pays more interest after the RBI’s hike to 5.50% while earning more per kilogram of gas. On the published numbers the price rise dwarfs the rate rise, except for plants that never receive the new price, and RBI data on CBG lending do not exist.
 - **[India Has 132 Compressed Biogas Plants Running. The Pipeline to Actually Use That Gas Reaches 17 of Them.](https://masaladeutsch.blogspot.com/2026/09/india-has-132-compressed-biogas-plants.html)** — 2026-09-23
-  SATAT set out in 2018 to build 5,000 compressed biogas plants by 2023-24. India has commissioned 132. Of those, the regulator's own September 2026 count says only 17 are actually connected to a city gas network by dedicated pipeline — meaning most of the plants that exist still cannot inject their gas into the grid the blending mandate assumes they will feed.
+  SATAT set out in 2018 to build 5,000 compressed biogas plants by 2023-24. India has 207 functional plants (217 commissioned on the GOBARdhan portal by 6 August 2026). Of the 207, the regulator's own August 2026 count says only 24 are actually connected to a city gas network by dedicated pipeline — meaning most of the plants that exist still cannot inject their gas into the grid the blending mandate assumes they will feed.
 - **[PNGRB Graded Its Own Homework on the 2025-26 Plan. Its Own Numbers Undercut the Cover Letter.](https://masaladeutsch.blogspot.com/2026/09/pngrb-graded-its-own-homework-on-2025.html)** — 2026-09-23
   PNGRB's own Action Taken Report on its 2025-26 Annual Plan is written in the confident voice of a regulator that delivered. Read past the verbs and into the numbers it discloses itself, and a different picture appears: a consumer right to an Ombudsman that has no Ombudsman yet, a billing-transparency mandate "achieved" for under half of consumers, and a captive-pipeline reform that has converted 2 pipelines out of the 43 it targeted.
 - **[India's LNG Trucks Grew 75% in 2025 — About a Third of What the Industry Expected](https://masaladeutsch.blogspot.com/2026/09/indias-lng-trucks-grew-75-in-2025-about.html)** — 2026-09-14
@@ -1165,11 +1183,11 @@
 - **[Right of User: What India's Pipeline Gazette Notifications Actually Show, State by State](https://masaladeutsch.blogspot.com/2026/09/right-of-user-what-indias-pipeline.html)** — 2026-09-05
   Roughly two-thirds of everything the Ministry of Petroleum & Natural Gas gazettes isn't fuel-pricing policy — it's land. Every kilometre of pipeline crossing private land needs a specific, dated notification acquiring the "right of user" under a 1962 law, and those notifications, not the more visible tender and pricing orders, are the bulk of this ministry's paper trail. This piece maps what that actually looks like: the two separate laws doing two separate jobs, the national pipeline build-out those notifications are quietly enabling, and a state-by-state accounting of the specific projects this piece could verify — with an explicit, prominent flag on where that accounting is solid and where it isn't.
 - **[FIPI's Biggest Ask Is Getting Natural Gas Under GST. It Still Hasn't Happened](https://masaladeutsch.blogspot.com/2026/09/fipis-biggest-ask-is-getting-natural.html)** — 2026-09-02
-  FIPI, the oil and gas industry's apex body, has been asking to bring natural gas under GST since at least 2021. It still isn't there — and in 2026 the GST Council moved the opposite direction, raising tax on exploration and drilling services instead. That pattern holds across FIPI's advocacy generally: real, dated, specific asks, and no independently confirmed case of one being credited with causing the reform it wanted.
+  FIPI, the oil and gas industry's apex body, has been asking to bring natural gas under GST since at least 2018. It still isn't there — and in September 2025 the GST Council moved the opposite direction, raising tax on exploration and drilling services instead. That pattern holds across FIPI's advocacy generally: real, dated, specific asks, and no independently confirmed case of one being credited with causing the reform it wanted.
 - **[PNGRB Hydrogen-Blending Pilots: The Real Numbers Behind the 10 Percent Claim](https://masaladeutsch.blogspot.com/2026/09/pngrb-hydrogen-blending-pilots-real.html)** — 2026-09-02
   PNGRB has approved real hydrogen-blending pilots in city gas networks at Indore, Surat and Ahmedabad — running at 1.1% to 5%, with one scaling toward 20%. The "up to 10%" figure often attached to this story traces back to a GAIL engineering slide hosted on PNGRB's own site, not a PNGRB policy target. As of the most recent check, the regulator is still drafting the rules that would actually govern blending, and needs its own founding Act amended before it can.
 - **[OISD Writes India's Oil-Safety Rules. API Just Signed FIPI Up to Help Its Own Standards Reach Further.](https://masaladeutsch.blogspot.com/2026/09/oisd-writes-indias-oil-safety-rules-api.html)** — 2026-09-01
-  India's oil and gas industry answers to four different standards bodies, not one, and only some of what they publish is actually law. Into that already-crowded field, the American Petroleum Institute has spent the past two years signing memoranda of understanding with three of them — FIPI, OISD, and PNGRB — aimed at getting its own privately-published standards used more widely inside India. That's a real, dateable development. It is not, on the evidence available, a campaign FIPI itself started.
+  India's oil and gas industry answers to four different standards bodies, not one, and only some of what they publish is actually law. Into that already-crowded field, the American Petroleum Institute has signed memoranda of understanding with three of them — OISD (2014), FIPI (2024) and PNGRB (February 2025) — aimed at getting its own privately-published standards used more widely inside India. That's a real, dateable development. It is not, on the evidence available, a campaign FIPI itself started.
 - **[India's LNG Terminal Rules Changed Twice in 2025. A Concrete Platform at Kakinada Is Testing How Far They Stretch](https://masaladeutsch.blogspot.com/2026/09/indias-lng-terminal-rules-changed-twice.html)** — 2026-09-01
   India's LNG-terminal rulebook moved twice in 2025 — a technical-standards amendment in July, and a new registration regime in May that quietly dropped a rule requiring terminals to reserve capacity for third-party shippers. At the same time, the first Indian LNG terminal built on a gravity-based structure rather than a floating vessel is moving through that same regulatory process, and two unrelated Norwegian and Swedish companies are separately selling a way to skip the jetty altogether. None of these three threads is officially connected to the others. Read together, they sketch where India's LNG import capacity is actually headed.
 - **[LNG Trucks Cost About What Diesel Does. GreenLine, Delhivery and UltraTech Are Scaling Them Anyway.](https://masaladeutsch.blogspot.com/2026/09/lng-trucks-cost-about-what-diesel-does.html)** — 2026-09-01
@@ -1197,8 +1215,10 @@
 - **[India Fuel Retail Outlets — 82k Geocoded Map (Part 2 of 3)](https://masaladeutsch.blogspot.com/2026/07/india-fuel-retail-outlets-82k-geocoded.html)** — 2026-07-22
   Part 2 of 3 in the CNG/CGD retail-mapping series. Companion posts: the CGD GA district map (Part 1) and the cold-chain × outlet integrated map (Part 3). Served live from GitHub Pages.
 
-### Gas Pipeline Infrastructure & Demand Planning (5)
+### Gas Pipeline Infrastructure & Demand Planning (6)
 
+- **[A Hectare Under a Power Line Now Pays Three to Six Times What One Over a Pipeline Does](https://masaladeutsch.blogspot.com/2026/10/a-hectare-under-power-line-now-pays.html)** — 2026-10-26
+  The Ministry of Power’s 6 October 2026 guidelines pay 30–60% of market value for the land under a transmission corridor and 200% for tower bases; the 1962 pipeline law pays 10%.
 - **[A 2013 Vision Saw India Needing 746 MMSCMD of Gas by 2030. Actual Demand Is About a Quarter of That](https://masaladeutsch.blogspot.com/2026/09/a-2013-vision-saw-india-needing-746.html)** — 2026-09-09
   In 2013, an industry group told PNGRB that India's natural gas demand would reach 746 MMSCMD by 2029-30, on its way to a 20% share of the country's primary energy mix. Actual demand today runs at roughly a quarter of that number. This piece reads that decade-old "Vision 2030" report in full, sets its own numbers against what actually happened, and traces the gap to where this blog's other pipeline coverage has already been: a national gas grid built for a demand curve that never showed up.
 - **[PNGRB's Own 2025 Committee Now Expects Less Gas Demand by 2040 Than a 2013 Report Predicted for 2030](https://masaladeutsch.blogspot.com/2026/09/pngrbs-own-2025-committee-now-expects.html)** — 2026-09-09
@@ -1219,8 +1239,10 @@
 - **[Europe Bought a Record Amount of LNG and Made Itself Dependent on One Supplier](https://masaladeutsch.blogspot.com/2026/08/europe-bought-record-amount-of-lng-and.html)** — 2026-08-08
   The EU imported 146 bcm of LNG in 2025, overtaking China and Japan to become the world’s largest buyer. Nearly three-fifths of it came from the United States. That is not diversification — it is one dependency exchanged for another, on a market where Europe now buys a third of its volume at spot and a chokepoint 6,000 km away can move the price.
 
-### Governance & Institutions (1)
+### Governance & Institutions (2)
 
+- **[India's Constitution Set a Deadline Parliament Hasn't Met: The Reforms Pending in 2026](https://masaladeutsch.blogspot.com/2026/10/indias-constitution-set-deadline.html)** — 2026-10-26
+  Census 2027 ends India's 50-year freeze on seat allocation, and the April 2026 attempt to replace it failed. Here are the constitutional reforms that commissions and courts keep flagging, and where each one stands.
 - **[The Two Biggest Parties in Parliament Ask About Everything. Everyone Else Doesn't.](https://masaladeutsch.blogspot.com/2026/09/the-two-biggest-parties-in-parliament.html)** — 2026-09-18
   Rank India's 51 parliamentary parties by how many questions their MPs asked in the 18th Lok Sabha and current Rajya Sabha sessions, and BJP wins, then INC — by margins that just track how many MPs each party has. That ranking answers a boring question. A different cut of the same 59,381 questions — each party's focus on a specific ministry, divided by what its overall size would predict — answers a more interesting one: which parties are actually specialists. The two biggest are not. Nearly everyone smaller is, sharply, on one or two ministries tied to exactly what you'd guess from their base.
 
@@ -1239,7 +1261,7 @@
 - **[Ethanol Plants That Trade Maize to Poultry Mills Can Earn Four Times More, but Only in a Glut Year](https://masaladeutsch.blogspot.com/2026/10/ethanol-plants-that-trade-maize-to.html)** — 2026-10-24
   India’s new ethanol tender puts maize last in line for oil-company orders. A maize distillery that also buys grain in price dips and sells its spare maize to poultry and feed mills earned about four times the EBITDA of a pure ethanol plant on 2025-26 prices. On 2024-25 prices, and in Uttar Pradesh’s weak 2025 window, it earned less. The model works only with strict buying rules.
 - **[One Nation One Ration Card Doesn't Move Grain. FCI's Ethanol Tenders Move a Lot of It](https://masaladeutsch.blogspot.com/2026/09/one-nation-one-ration-card-doesnt-move.html)** — 2026-09-05
-  One Nation One Ration Card sounds like it should strain the machinery that moves grain around India — a family that migrates from Bihar to Kerala still has to eat, after all. It doesn't, and the reason why is itself the more interesting story: interstate portability is under 1% of all transactions on the system. The genuine food-versus-fuel tension in Indian grain policy is real, well-documented, and running through a completely different pipe — FCI's surplus rice being sold to ethanol distillers at roughly 40% below what it cost to buy, under a tender clause that specifically requires distillers to use it.
+  One Nation One Ration Card sounds like it should strain the machinery that moves grain around India — a family that migrates from Bihar to Kerala still has to eat, after all. It doesn't, and the reason why is itself the more interesting story: interstate portability is roughly 2% or less of all transactions on the system. The genuine food-versus-fuel tension in Indian grain policy is real, well-documented, and running through a completely different pipe — FCI's surplus rice being sold to ethanol distillers at roughly 40% below what it cost to buy, under a tender clause that specifically requires distillers to use it.
 - **[Jai Kisan, Jai Javan — An FCI-Based Military Ration Strategy](https://masaladeutsch.blogspot.com/2026/08/jai-kisan-jai-javan-fci-based-military.html)** — 2026-08-04
   A proposal to replace private-vendor combat rations with FCI-sourced, domestically-milled Ready-to-Cook/MRE production for the Indian Armed Forces — linking food processing capacity, farmer income and military nutrition into one supply chain.
 - **[FCI Storage Scenario — Capacity, Stock, and the Road to 2,150 LMT](https://masaladeutsch.blogspot.com/2026/07/fci-storage-scenario-capacity-stock-and.html)** — 2026-07-31
@@ -1305,8 +1327,12 @@
 - **[Where India's Green Hydrogen Bets Are Actually Landing: A State-by-State Map of the Pipeline](https://masaladeutsch.blogspot.com/2026/08/where-indias-green-hydrogen-bets-are.html)** — 2026-08-05
   A September 2024 project registry compiled by the Indo-German Green Hydrogen Task Force names 126 production projects, 21 electrolyser/fuel-cell manufacturing plants, and 40 other related projects across India. Almost none of it is built yet — but the geography of where it's being announced is itself the story.
 
-### Import Substitution (19)
+### Import Substitution (21)
 
+- **[The Phone PLI's Successor Pays Up to 5%, Wants 15% Growth a Year, and Offers 0.2% to Make the Cell Here](https://masaladeutsch.blogspot.com/2026/10/the-phone-plis-successor-pays-up-to-5.html)** — 2026-10-26
+  The successor to the smartphone PLI pays 5% on most growth, not the 2.75% in its headline, but only after a brand grows more than 15% a year, and it offers just 0.20% for making the battery cell in India.
+- **[India's Approved Solar-Cell Makers Can Now Make 37.8 GW a Year. Rooftop Projects Have Until 31 December to Use Them](https://masaladeutsch.blogspot.com/2026/10/indias-approved-solar-cell-makers-can.html)** — 2026-10-26
+  MNRE’s approved list of domestic solar-cell makers now holds 37.8 GW a year of enlisted capacity across 19 company names, but a third of it is in one state and the window for rooftop and open-access projects to skip the list shuts on 31 December 2026.
 - **[India Imports the Whey Protein Its Cheese Makers Pour Away. The Fix Is Shared Whey Hubs, Not a Dryer in Every Dairy](https://masaladeutsch.blogspot.com/2026/10/india-imports-whey-protein-its-cheese.html)** — 2026-10-22
   Every kilogram of cheese leaves nine of whey, yet the government’s model cheese project does not count it, while India imports most of its whey protein at prices that tripled in two years. A small plant’s whey is too little to dry profitably; drinks and whey cheese at the plant, shared hubs for clusters and on-site drying at large dairies would put it to use.
 - **[India Polishes the World's Diamonds With Chinese Powder. Grinding Up Its Lab-Grown Stones Won't Fix That.](https://masaladeutsch.blogspot.com/2026/09/india-polishes-worlds-diamonds-with.html)** — 2026-09-30
@@ -1346,8 +1372,12 @@
 - **[Chemical Import Substitution Analysis: Executive Summary](https://masaladeutsch.blogspot.com/2026/07/chemical-import-substitution-analysis.html)** — 2026-08-01
   A re-derivation of this analysis against DGCI&S TradeStat on 2 August 2026 found that several HS-8 codes cited below do not exist in India’s tariff schedule, and the import values attached to them are not supported by the data. Specifically: ethylene was cited as 29011100 / $2,800M (the real line is 29012100, $44M); propylene as 29011200 / $1,400M (real: 29012200, $14M); polyethylene as 39021010/30 / $8.5bn (real 3901 lines total ~$2.8bn; 3902 is polypropylene); lecithin as 29239090 / $100M (real: 29232090, ~$19M); polypropylene as 39021100 (real: 39021000, value $1,372M is correct).
 
-### India (50)
+### India (52)
 
+- **[India's Constitution Set a Deadline Parliament Hasn't Met: The Reforms Pending in 2026](https://masaladeutsch.blogspot.com/2026/10/indias-constitution-set-deadline.html)** — 2026-10-26
+  Census 2027 ends India's 50-year freeze on seat allocation, and the April 2026 attempt to replace it failed. Here are the constitutional reforms that commissions and courts keep flagging, and where each one stands.
+- **[India Ordered 112 Captive Coal Plants to Run Flat Out as Exchange Prices Rose 50% in a Month, With Coal Stocks Steady](https://masaladeutsch.blogspot.com/2026/10/india-ordered-112-captive-coal-plants.html)** — 2026-10-26
+  Two Ministry of Power orders of 25 September 2026 draft 112 captive coal plants and the Mundra imported-coal plant into the grid; the exchange had already moved ₹4.88 to ₹7.3 a unit in a month while coal stocks held above 18 MT.
 - **[How to use discom-debt-and-revenue-models: a scenario calculator for electricity distribution company debt](https://masaladeutsch.blogspot.com/2026/10/how-to-use-discom-debt-and-revenue.html)** — 2026-10-25
   A single-file Python calculator that projects how tariff hikes, loss reduction, collection efficiency and subsidy timeliness change an electricity distribution company's debt, and what each path does to a household bill. This post runs it and shows the results and two problems I found. A conceptual scenario tool, not a forecast. The repository is archived (read-only).
 - **[How to use fuel-retail-outlets: see where India's petrol pumps are, state by state](https://masaladeutsch.blogspot.com/2026/10/how-to-use-fuel-retail-outlets-see.html)** — 2026-10-25
@@ -1474,12 +1504,22 @@
 - **[Tarpaulin Is a Genuine Export Win. Geotextiles for India's Highways Are the Opposite Story](https://masaladeutsch.blogspot.com/2026/08/tarpaulin-is-genuine-export-win.html)** — 2026-08-15
   India is the world's largest exporter of HDPE tarpaulin by shipment count, and its shade-net and mulch-film makers largely serve the domestic market without importing. Agrotech — the government's own label for crop covers, shade nets, mulch mats and tarpaulins — runs a small, stable trade surplus. The real import dependency in agriculture-adjacent textiles sits one category over, in geotextiles for canal lining and highway embankments, where Indian MSMEs meet under a third of even flagship national-highway demand.
 - **[Airbags and Seat Belts Are Import-Heavy. Tyre Cord Isn't. India's Automotive Textiles Aren't One Story](https://masaladeutsch.blogspot.com/2026/08/airbags-and-seat-belts-are-import-heavy.html)** — 2026-08-15
-  Seat belt webbing and airbag fabric are two of the fastest-growing categories in India's automotive textiles, and both remain significantly import-dependent even as global safety-systems majors localise assembly here. Tyre cord fabric tells almost the opposite story: India is the world's second-largest nylon-6 tyre-cord-fabric producer, protected by anti-dumping duties against Chinese imports since 2019. This piece separates the two stories, and traces the one raw-material dependency — imported nylon-6 polymer — that sits underneath both.
+  Seat belt webbing and airbag fabric are two of the fastest-growing categories in India's automotive textiles, and both remain significantly import-dependent even as global safety-systems majors localise assembly here. Tyre cord fabric tells almost the opposite story: India is the world's second-largest nylon-6 tyre-cord-fabric producer, long protected by anti-dumping duties against Chinese imports (in place from 2005; their status after a 2020 sunset review is unclear). This piece separates the two stories, and traces the one raw-material dependency — imported nylon-6 polymer — that sits underneath both.
 - **[India Grows the Soybean, Exports the Meal, Leads in Lecithin — and Barely Makes Tofu Yet](https://masaladeutsch.blogspot.com/2026/08/india-grows-soybean-exports-meal-leads.html)** — 2026-08-15
   Madhya Pradesh and Maharashtra between them sow roughly 93 lakh hectares of soybean a year — a scale that ought to make India a soy-food powerhouse. Almost none of that crop becomes tofu, soy milk or protein isolate on an Indian plate. Trace the harvested bean through a crusher and it splits into meal, most of which used to be exported, and oil, which still leaves India roughly two-thirds reliant on imports to meet its own edible-oil demand. The one soy-derived product where India genuinely leads the world — lecithin — is a byproduct of that same oil-crushing step, not a separate industry. This piece follows the bean from MP and Maharashtra's fields through crushing, lecithin, and the still-small frontier of tofu, soy protein and edamame.
 
-### Industrial Policy (112)
+### Industrial Policy (117)
 
+- **[Closed Loop or Open Loop? How India's New Data Centres Should Be Cooled, Site by Site](https://masaladeutsch.blogspot.com/2026/10/closed-loop-or-open-loop-how-indias-new.html)** — 2026-10-27
+  An open cooling tower uses about two litres of water per kWh of computing; a closed dry loop uses almost none but costs more power. Most of India’s big new campuses sit on the coast near subsea cables, where seawater changes the answer.
+- **[India Will Spend Rs 33,660 Crore on Ready-Made Factory Parks. Its Existing Parks Have 1.25 Lakh Empty Plots](https://masaladeutsch.blogspot.com/2026/10/india-will-spend-rs-33660-crore-on.html)** — 2026-10-27
+  BHAVYA, approved in March, will fund 100 plug-and-play industrial parks by 2031-32. The land it adds is about a tenth of what mapped parks already have available, so its test is whether its parks fill faster. The first proposals come mostly from states other than those where factory investment is waiting.
+- **[The DESH Bill Never Came. India Is Rewriting Its SEZ Law One Rule at a Time](https://masaladeutsch.blogspot.com/2026/10/the-desh-bill-never-came-india-is.html)** — 2026-10-27
+  In 2022 the government promised a new law to turn export zones into development hubs that could also sell in India. The Bill stalled over tax breaks and never reached Parliament. Four years on, parts of it are arriving by notification, 95 of 372 notified zones sit idle, and an “SEZ 2.0” report has yet to be published.
+- **[The Phone PLI's Successor Pays Up to 5%, Wants 15% Growth a Year, and Offers 0.2% to Make the Cell Here](https://masaladeutsch.blogspot.com/2026/10/the-phone-plis-successor-pays-up-to-5.html)** — 2026-10-26
+  The successor to the smartphone PLI pays 5% on most growth, not the 2.75% in its headline, but only after a brand grows more than 15% a year, and it offers just 0.20% for making the battery cell in India.
+- **[India's Approved Solar-Cell Makers Can Now Make 37.8 GW a Year. Rooftop Projects Have Until 31 December to Use Them](https://masaladeutsch.blogspot.com/2026/10/indias-approved-solar-cell-makers-can.html)** — 2026-10-26
+  MNRE’s approved list of domestic solar-cell makers now holds 37.8 GW a year of enlisted capacity across 19 company names, but a third of it is in one state and the window for rooftop and open-access projects to skip the list shuts on 31 December 2026.
 - **[Europe Wants Green Steel It Can’t Afford to Make. Why CBAM Should Be Rolled Out More Gently](https://masaladeutsch.blogspot.com/2026/10/europe-wants-green-steel-it-cant-afford.html)** — 2026-10-24
   At European gas and hydrogen prices, clean steel costs up to twice ordinary steel to make, and buyers pay a premium of only €100–150 a tonne. CBAM and the new quotas protect Europe’s mills by shutting out imports that were about €136 a tonne cheaper, while doing nothing about energy costs. A slower, simpler rollout would serve Europe’s own goals better.
 - **[To Comply or Not to Comply: CBAM Costs Indian Steel €93 a Tonne With Verified Data and €270 Without. Indian Carbon Credits Won’t Close the Gap](https://masaladeutsch.blogspot.com/2026/10/to-comply-or-not-to-comply-cbam-costs.html)** — 2026-10-24
@@ -1697,7 +1737,7 @@
 - **[IPA Digital Twin — Reportage: Latest Updates (28 Jul – 14 Sep 2026)](https://masaladeutsch.blogspot.com/2026/08/ipa-digital-twin-reportage-latest.html)** — 2026-08-02
   Method note: scheme tags below are assigned by keyword matching against release titles, not manual review. This produces occasional false positives — personal names that happen to contain a scheme keyword (e.g. an official surname matching an unrelated acronym), and short acronyms (e.g. NBS, NIDHI) that collide across unrelated ministries. Treat individual chip assignments as indicative, not verified. The 2026-09-14 addendum (items dated 2026-08-27 onward) was classified the same way, central PIB only — the state-wire feed was not re-run this round, so state-level scheme activity for that window is not reflected here yet.
 - **[The Recycling Lottery Playbook — Norway's Pantelotteriet, and a Jal Jeevan Application](https://masaladeutsch.blogspot.com/2026/07/the-recycling-lottery-playbook-norways.html)** — 2026-07-31
-  Norway turns bottle deposits into lottery tickets — 97% return rates, zero addiction cases, €62M+ to charity over 16 years. The research summary, and how the same mechanic could power participation in India's water and waste programmes like Jal Jeevan.
+  Norway turns bottle deposits into lottery tickets — about 93% of containers returned through the deposit system (98% total collection), no addiction case reported by the UBC researchers, and more than NOK 1 billion to the Red Cross since 2008. The research summary, and how the same mechanic could power participation in India's water and waste programmes like Jal Jeevan.
 - **[The CBG Incentive Stack — Every Leg of a Biogas Plant De-risked](https://masaladeutsch.blogspot.com/2026/07/the-cbg-incentive-stack-every-leg-of.html)** — 2026-07-28
   The full incentive stack for compressed biogas under GOBARdhan and SATAT: assured offtake, capex support, fertiliser-side revenue and the FCO gazette moves that enable it — from the official 70-circular register.
 - **[CGD Geographical Areas — District Allotment Map (Part 1 of 3)](https://masaladeutsch.blogspot.com/2026/07/cgd-geographical-areas-district.html)** — 2026-07-22
@@ -1705,8 +1745,10 @@
 - **[India Trade — Sector & Policy Recommendations (Chart Library)](https://masaladeutsch.blogspot.com/2026/07/india-trade-sector-policy.html)** — 2026-07-21
   Every chart and dataset in this project, served directly via GitHub Pages. Companion repo: India Trade & Macro Data Analysis (the descriptive half).
 
-### Infrastructure & Investment (12)
+### Infrastructure & Investment (13)
 
+- **[A Hectare Under a Power Line Now Pays Three to Six Times What One Over a Pipeline Does](https://masaladeutsch.blogspot.com/2026/10/a-hectare-under-power-line-now-pays.html)** — 2026-10-26
+  The Ministry of Power’s 6 October 2026 guidelines pay 30–60% of market value for the land under a transmission corridor and 200% for tower bases; the 1962 pipeline law pays 10%.
 - **[How to use focus-sector-investor-map: see which foreign investors pair with which Indian government initiative](https://masaladeutsch.blogspot.com/2026/10/how-to-use-focus-sector-investor-map.html)** — 2026-10-25
   A ready-made map of India's twelve focus sectors against 19,795 listed companies in 107 countries, plus a hand-verified file pairing foreign investors with the government scheme that is their route in.
 - **[How to use gazette-translated-indexed: a citation index of Indian gazette notifications](https://masaladeutsch.blogspot.com/2026/10/how-to-use-gazette-translated-indexed.html)** — 2026-10-19
@@ -1833,8 +1875,10 @@
 - **[How India's Automotive Clusters Rewired Themselves Around Just-in-Time Delivery](https://masaladeutsch.blogspot.com/2026/08/how-indias-automotive-clusters-rewired.html)** — 2026-08-15
   Maruti Suzuki gets over 76% of its 246 suppliers within 100km of its assembly lines, and its "e-Nagare" system cut the order-to-shopfloor cycle from 30 hours to 2. That single number is the clearest evidence of how India's automotive clusters actually work today — not as five separate manufacturing hubs, but as increasingly tight, just-in-time-organised ecosystems where component suppliers sit inside the same radius as the OEM. This piece maps the clusters, the mechanics of the JIT shift, and the one real crisis — the 2021 semiconductor shortage — that showed exactly where that model breaks.
 
-### Markets & Finance (60)
+### Markets & Finance (61)
 
+- **[India Ordered 112 Captive Coal Plants to Run Flat Out as Exchange Prices Rose 50% in a Month, With Coal Stocks Steady](https://masaladeutsch.blogspot.com/2026/10/india-ordered-112-captive-coal-plants.html)** — 2026-10-26
+  Two Ministry of Power orders of 25 September 2026 draft 112 captive coal plants and the Mundra imported-coal plant into the grid; the exchange had already moved ₹4.88 to ₹7.3 a unit in a month while coal stocks held above 18 MT.
 - **[How to use focus-sector-investor-map: see which foreign investors pair with which Indian government initiative](https://masaladeutsch.blogspot.com/2026/10/how-to-use-focus-sector-investor-map.html)** — 2026-10-25
   A ready-made map of India's twelve focus sectors against 19,795 listed companies in 107 countries, plus a hand-verified file pairing foreign investors with the government scheme that is their route in.
 - **[How to use colab-market-fundamentals: collect dated annual fundamentals for 20 markets in Colab](https://masaladeutsch.blogspot.com/2026/10/how-to-use-colab-market-fundamentals.html)** — 2026-10-19
@@ -1880,7 +1924,7 @@
 - **[Where India's FDI Actually Lands: 24 Quarters of DPIIT's Own State-and-District Data](https://masaladeutsch.blogspot.com/2026/09/where-indias-fdi-actually-lands-state.html)** — 2026-09-03
   Twenty-four DPIIT quarterly newsletters, parsed and cross-checked against DPIIT's own printed sub-totals, now cover almost the whole run from October 2019 to March 2026. The picture that held up in the five-quarter version of this piece holds up even more strongly at full scale: four districts — Navi Mumbai, Bengaluru Urban, Delhi, Ahmedabad — have captured 72.6% of every rupee of FDI equity DPIIT has ever attributed to a specific district.
 - **[Textbooks Say Project Returns Converge to Cost of Capital. About 79% of the Gap Survives Each Year](https://masaladeutsch.blogspot.com/2026/09/textbooks-say-project-returns-converge.html)** — 2026-09-03
-  The textbook story is that a project's return chases down toward its cost of capital as competitors pile in and margins get arbitraged away. The empirical research behind that story tells a slower, messier version: on average, roughly 79% of any given return-over-cost-of-capital gap survives into the following year, and across the full history of US public companies, the average company's return has actually sat slightly below its cost of capital, not neatly converged to meet it. India's own 2026 sector data, already covered on this blog, shows both halves of the story playing out in real time.
+  The textbook story is that a project's return chases down toward its cost of capital as competitors pile in and margins get arbitraged away. The empirical research behind that story tells a slower, messier version: on average, roughly 79% of a company's deviation from the average return on capital carries into the following year, and across the full history of US public companies, the average return has sat slightly below its cost of capital on the traditional measure (and slightly above it once internally generated intangibles are counted), not neatly converged to meet it. India's own 2026 sector data, already covered on this blog, shows both halves of the story playing out in real time.
 - **[The 4% Nobody Notices, and Three Other Ways India Backstops Its Own Food System](https://masaladeutsch.blogspot.com/2026/09/the-4-nobody-notices-and-three-other.html)** — 2026-09-01
   A bad monsoon, a pest outbreak, a family that migrates for work — none of these are new problems, and India has built four very different systems to sit between a shock like that and the people it would otherwise hit hardest. One quietly pools risk across every insurance policy in the country. One pays farmers directly when a crop fails. One tries to stop the failure from happening at all. One makes sure that even when everything else works, the food itself still reaches whoever needs it, wherever they've moved. None of the four is usually described as part of the same system. This is what they look like put next to each other.
 - **[TASMAC's Retail Exit: The Case for Privatizing 2,500 of Tamil Nadu's 4,048 Liquor Shops](https://masaladeutsch.blogspot.com/2026/08/tasmacs-retail-exit-case-for.html)** — 2026-08-30
@@ -2123,8 +2167,10 @@
 - **[Thali Investing: What's Actually on the Plate When People Say "Diversify"](https://masaladeutsch.blogspot.com/2026/08/thali-investing-whats-actually-on-plate.html)** — 2026-08-10
   An Indian thali works because no single dish is trying to do everything — the dal isn't meant to be sweet, the dessert isn't meant to fill you up, and a meal built from six small bowls survives a mediocre one better than a plate with just one big dish on it. Portfolio diversification runs on the same logic: PPF, EPF, mutual funds, direct stocks, gold and pre-IPO shares each behave differently when the same news hits the market, and holding several rather than one is what actually reduces risk — not because any single instrument is bad, but because they rarely move together. This article explains what each course on the plate actually is, what it has returned, and what regulators have specifically warned about with one of them. It is not a recommendation of how much of your money to put where — that depends on your own age, goals and risk appetite, and is worth a conversation with a SEBI-registered adviser, not a blog post.
 
-### PLI Schemes (10)
+### PLI Schemes (11)
 
+- **[The Phone PLI's Successor Pays Up to 5%, Wants 15% Growth a Year, and Offers 0.2% to Make the Cell Here](https://masaladeutsch.blogspot.com/2026/10/the-phone-plis-successor-pays-up-to-5.html)** — 2026-10-26
+  The successor to the smartphone PLI pays 5% on most growth, not the 2.75% in its headline, but only after a brand grows more than 15% a year, and it offers just 0.20% for making the battery cell in India.
 - **[India's Display Fab Scheme Got Two Billion-Dollar Bids and Approved Neither. Then It Redefined "Display Fab" Small Enough to Claim One Anyway.](https://masaladeutsch.blogspot.com/2026/09/indias-display-fab-scheme-got-two.html)** — 2026-09-28
   In December 2021, India offered up to ₹12,000 crore to whichever of at most two companies built a large-panel display factory. Two real bidders showed up, proposing a combined $6.7 billion — and neither was ever approved. Four years, one scheme reopening and one Foxconn withdrawal later, the government's own tally of chip-and-display-fab wins now includes a "display fab" — but it is a ₹3,200 crore gallium-nitride micro-LED project approved under a completely different, much smaller category than the one Vedanta and Elest actually applied for.
 - **[India's ₹60,000 Crore API Push, Traced to Its Six Actual Schemes](https://masaladeutsch.blogspot.com/2026/09/indias-60000-crore-api-push-traced-to.html)** — 2026-09-16
@@ -2146,8 +2192,10 @@
 - **[Priority Trade Partners by Import-Growth Sector, & Real PLI Coverage](https://masaladeutsch.blogspot.com/2026/08/priority-trade-partners-by-import.html)** — 2026-08-02
   Maps each of the 12 fastest-growing/highest-value import chapters (from this repo's HSN historical-trends bulletin) to its actual top supplier countries via TRADESTAT, builds a cross-sector country-priority ranking, and checks exactly which Production Linked Incentive sub-schemes — including White Goods and Specialty Steel — actually reach these chapters.
 
-### Prices & Inflation (13)
+### Prices & Inflation (14)
 
+- **[Rural Job-Guarantee Pay Rose 9.6% in July. In Eight States It Buys Less Than in 2025](https://masaladeutsch.blogspot.com/2026/10/rural-job-guarantee-pay-rose-96-in-july.html)** — 2026-10-27
+  Wages were frozen for three months, then a Rs 300 floor lifted the poorest states by up to 19%. But prices for farm labourers rose 3.4% in the next quarter alone, and in Andhra Pradesh, Telangana, Maharashtra and five other states the new wage buys less than the old one did.
 - **[India’s Winter Harvest Now Outgrows Its Monsoon One. Kharif, Rabi and Zaid, Crop by Crop: Area, Yield and When It Reaches the Mandi](https://masaladeutsch.blogspot.com/2026/10/indias-winter-harvest-now-outgrows-its.html)** — 2026-10-25
   Rabi and summer crops now give India 53% of its foodgrains, up from 36% in 1966-67, on land that grew by a third while kharif area stood still. Maize, rice and moong are moving into the winter and summer seasons, and each season’s harvest reaches the mandi in a narrow window, wheat mostly in a single month.
 - **[Maize Is Cheapest in a Different State Every Few Months. Rice Barely Moves.](https://masaladeutsch.blogspot.com/2026/10/maize-is-cheapest-in-different-state.html)** — 2026-10-24
@@ -2227,12 +2275,16 @@
 - **[PNGRB Graded Its Own Homework on the 2025-26 Plan. Its Own Numbers Undercut the Cover Letter.](https://masaladeutsch.blogspot.com/2026/09/pngrb-graded-its-own-homework-on-2025.html)** — 2026-09-23
   PNGRB's own Action Taken Report on its 2025-26 Annual Plan is written in the confident voice of a regulator that delivered. Read past the verbs and into the numbers it discloses itself, and a different picture appears: a consumer right to an Ombudsman that has no Ombudsman yet, a billing-transparency mandate "achieved" for under half of consumers, and a captive-pipeline reform that has converted 2 pipelines out of the 43 it targeted.
 - **[FIPI's Biggest Ask Is Getting Natural Gas Under GST. It Still Hasn't Happened](https://masaladeutsch.blogspot.com/2026/09/fipis-biggest-ask-is-getting-natural.html)** — 2026-09-02
-  FIPI, the oil and gas industry's apex body, has been asking to bring natural gas under GST since at least 2021. It still isn't there — and in 2026 the GST Council moved the opposite direction, raising tax on exploration and drilling services instead. That pattern holds across FIPI's advocacy generally: real, dated, specific asks, and no independently confirmed case of one being credited with causing the reform it wanted.
+  FIPI, the oil and gas industry's apex body, has been asking to bring natural gas under GST since at least 2018. It still isn't there — and in September 2025 the GST Council moved the opposite direction, raising tax on exploration and drilling services instead. That pattern holds across FIPI's advocacy generally: real, dated, specific asks, and no independently confirmed case of one being credited with causing the reform it wanted.
 - **[OISD Writes India's Oil-Safety Rules. API Just Signed FIPI Up to Help Its Own Standards Reach Further.](https://masaladeutsch.blogspot.com/2026/09/oisd-writes-indias-oil-safety-rules-api.html)** — 2026-09-01
-  India's oil and gas industry answers to four different standards bodies, not one, and only some of what they publish is actually law. Into that already-crowded field, the American Petroleum Institute has spent the past two years signing memoranda of understanding with three of them — FIPI, OISD, and PNGRB — aimed at getting its own privately-published standards used more widely inside India. That's a real, dateable development. It is not, on the evidence available, a campaign FIPI itself started.
+  India's oil and gas industry answers to four different standards bodies, not one, and only some of what they publish is actually law. Into that already-crowded field, the American Petroleum Institute has signed memoranda of understanding with three of them — OISD (2014), FIPI (2024) and PNGRB (February 2025) — aimed at getting its own privately-published standards used more widely inside India. That's a real, dateable development. It is not, on the evidence available, a campaign FIPI itself started.
 
-### Renewable Power & Storage (7)
+### Renewable Power & Storage (9)
 
+- **[A Hectare Under a Power Line Now Pays Three to Six Times What One Over a Pipeline Does](https://masaladeutsch.blogspot.com/2026/10/a-hectare-under-power-line-now-pays.html)** — 2026-10-26
+  The Ministry of Power’s 6 October 2026 guidelines pay 30–60% of market value for the land under a transmission corridor and 200% for tower bases; the 1962 pipeline law pays 10%.
+- **[India's Approved Solar-Cell Makers Can Now Make 37.8 GW a Year. Rooftop Projects Have Until 31 December to Use Them](https://masaladeutsch.blogspot.com/2026/10/indias-approved-solar-cell-makers-can.html)** — 2026-10-26
+  MNRE’s approved list of domestic solar-cell makers now holds 37.8 GW a year of enlisted capacity across 19 company names, but a third of it is in one state and the window for rooftop and open-access projects to skip the list shuts on 31 December 2026.
 - **[India's Live IPO Queue Has 232 Companies in It. Power and Renewables Outnumbers Oil and Gas Nearly 5 to 1.](https://masaladeutsch.blogspot.com/2026/09/indias-live-ipo-queue-has-232-companies.html)** — 2026-09-28
   SEBI's live mainboard IPO pipeline — every company with a Draft Red Herring Prospectus currently filed, approved, under review or withdrawn — runs to 232 companies as of mid-2026. Nineteen of them are power-and-renewables businesses. Four are oil and gas. That gap, and a second one buried in the approval data, says something concrete about where growth-stage capital is actually queuing up to list — read carefully, because a stock exchange filing gate is not the same thing as a verdict on an industry.
 - **[India Let Oil Companies Put Solar on Their Own Leases. A Year On, ONGC's Own Build Is Under 1 Megawatt — It Bought 4 Gigawatts Instead.](https://masaladeutsch.blogspot.com/2026/09/india-let-oil-companies-put-solar-on.html)** — 2026-09-28
@@ -2248,8 +2300,10 @@
 - **[Tamil Nadu's Wind Potential, According to NIWE: A Third Built, Two-Thirds Still on the Table](https://masaladeutsch.blogspot.com/2026/08/tamil-nadus-wind-potential-according-to.html)** — 2026-08-14
   NIWE's own wind atlas says Tamil Nadu has installed only about a third of its assessed onshore potential, and almost none of its offshore potential, despite being India's most mature wind state. This piece works through NIWE's numbers, what's actually been built, and why the gap between potential and installed capacity has less to do with wind resource and more to do with an ageing turbine fleet and a transmission grid built for a smaller sector.
 
-### Scheme Delivery Gap (5)
+### Scheme Delivery Gap (6)
 
+- **[Half of UDAN's Closed Routes Shut While Still Subsidised. The New Scheme Pays for Longer](https://masaladeutsch.blogspot.com/2026/10/half-of-udans-closed-routes-shut-while.html)** — 2026-10-27
+  Modified UDAN puts Rs 28,840 crore into regional flying over ten years and stretches each route’s subsidy from three years to five, on a taper. Of 331 routes that had closed by July, 165 shut before their subsidy ran out, so a longer taper addresses only part of why routes fail.
 - **[India Tracks Every Taxpayer in Minutes. Its Patients Got a Digital ID in 2021, While Indian IT Earns Billions From Foreign Healthcare](https://masaladeutsch.blogspot.com/2026/10/india-tracks-every-taxpayer-in-minutes.html)** — 2026-10-18
   India has had a permanent tax number since 1972 and now issues one in about ten minutes; its patient ID dates from 2021 and is still optional. Indian IT firms built the tax system and a multibillion-dollar business serving American insurers and hospitals. Most of Asia uses the national ID and a dated mandate for health; India has neither. The gap is mandate and money, not technology.
 - **[AI Is Not Taking India's Offshore Work Evenly: A Sector-by-Sector Check, and the Government Backlogs the Same Skills Could Clear](https://masaladeutsch.blogspot.com/2026/10/ai-is-not-taking-indias-offshore-work.html)** — 2026-10-18
@@ -2310,7 +2364,7 @@
 - **[Tarpaulin Is a Genuine Export Win. Geotextiles for India's Highways Are the Opposite Story](https://masaladeutsch.blogspot.com/2026/08/tarpaulin-is-genuine-export-win.html)** — 2026-08-15
   India is the world's largest exporter of HDPE tarpaulin by shipment count, and its shade-net and mulch-film makers largely serve the domestic market without importing. Agrotech — the government's own label for crop covers, shade nets, mulch mats and tarpaulins — runs a small, stable trade surplus. The real import dependency in agriculture-adjacent textiles sits one category over, in geotextiles for canal lining and highway embankments, where Indian MSMEs meet under a third of even flagship national-highway demand.
 - **[Airbags and Seat Belts Are Import-Heavy. Tyre Cord Isn't. India's Automotive Textiles Aren't One Story](https://masaladeutsch.blogspot.com/2026/08/airbags-and-seat-belts-are-import-heavy.html)** — 2026-08-15
-  Seat belt webbing and airbag fabric are two of the fastest-growing categories in India's automotive textiles, and both remain significantly import-dependent even as global safety-systems majors localise assembly here. Tyre cord fabric tells almost the opposite story: India is the world's second-largest nylon-6 tyre-cord-fabric producer, protected by anti-dumping duties against Chinese imports since 2019. This piece separates the two stories, and traces the one raw-material dependency — imported nylon-6 polymer — that sits underneath both.
+  Seat belt webbing and airbag fabric are two of the fastest-growing categories in India's automotive textiles, and both remain significantly import-dependent even as global safety-systems majors localise assembly here. Tyre cord fabric tells almost the opposite story: India is the world's second-largest nylon-6 tyre-cord-fabric producer, long protected by anti-dumping duties against Chinese imports (in place from 2005; their status after a 2020 sunset review is unclear). This piece separates the two stories, and traces the one raw-material dependency — imported nylon-6 polymer — that sits underneath both.
 - **[Annexure: 314 HSN Codes Mapped to Technical-Textile Segments](https://masaladeutsch.blogspot.com/2026/08/annexure-314-hsn-codes-mapped-to.html)** — 2026-08-03
   Reference table for "From Fuel to Fibre" — every HSN code used in that article's segment analysis, grouped by segment, with each one checked against the government's own Ministry-ownership record.
 - **[From Fuel to Fibre: India's Textile Import-Substitution Loop](https://masaladeutsch.blogspot.com/2026/08/from-fuel-to-fibre-indias-textile.html)** — 2026-08-03
@@ -2322,8 +2376,12 @@
 - **[India's Textile Import-Export Strategy: From Dependency to Self-Sufficiency](https://masaladeutsch.blogspot.com/2026/07/indias-textile-import-export-strategy.html)** — 2026-07-27
   HSN Breakdown Needed: Polypropylene, HDPE, LDPE, PET films by destination segment
 
-### Trade & Tariffs (84)
+### Trade & Tariffs (86)
 
+- **[The DESH Bill Never Came. India Is Rewriting Its SEZ Law One Rule at a Time](https://masaladeutsch.blogspot.com/2026/10/the-desh-bill-never-came-india-is.html)** — 2026-10-27
+  In 2022 the government promised a new law to turn export zones into development hubs that could also sell in India. The Bill stalled over tax breaks and never reached Parliament. Four years on, parts of it are arriving by notification, 95 of 372 notified zones sit idle, and an “SEZ 2.0” report has yet to be published.
+- **[The Phone PLI's Successor Pays Up to 5%, Wants 15% Growth a Year, and Offers 0.2% to Make the Cell Here](https://masaladeutsch.blogspot.com/2026/10/the-phone-plis-successor-pays-up-to-5.html)** — 2026-10-26
+  The successor to the smartphone PLI pays 5% on most growth, not the 2.75% in its headline, but only after a brand grows more than 15% a year, and it offers just 0.20% for making the battery cell in India.
 - **[Europe Wants Green Steel It Can’t Afford to Make. Why CBAM Should Be Rolled Out More Gently](https://masaladeutsch.blogspot.com/2026/10/europe-wants-green-steel-it-cant-afford.html)** — 2026-10-24
   At European gas and hydrogen prices, clean steel costs up to twice ordinary steel to make, and buyers pay a premium of only €100–150 a tonne. CBAM and the new quotas protect Europe’s mills by shutting out imports that were about €136 a tonne cheaper, while doing nothing about energy costs. A slower, simpler rollout would serve Europe’s own goals better.
 - **[To Comply or Not to Comply: CBAM Costs Indian Steel €93 a Tonne With Verified Data and €270 Without. Indian Carbon Credits Won’t Close the Gap](https://masaladeutsch.blogspot.com/2026/10/to-comply-or-not-to-comply-cbam-costs.html)** — 2026-10-24
@@ -2640,7 +2698,7 @@ Key insight: Nearly 82% of India's entire import bill goes to commodities in the
 ### [The Recycling Lottery Playbook — Norway's Pantelotteriet, and a Jal Jeevan Application](https://masaladeutsch.blogspot.com/2026/07/the-recycling-lottery-playbook-norways.html)
 *2026-07-31 · Industrial Policy*
 
-Norway turns bottle deposits into lottery tickets — 97% return rates, zero addiction cases, €62M+ to charity over 16 years. The research summary, and how the same mechanic could power participation in India's water and waste programmes like Jal Jeevan.
+Norway turns bottle deposits into lottery tickets — about 93% of containers returned through the deposit system (98% total collection), no addiction case reported by the UBC researchers, and more than NOK 1 billion to the Red Cross since 2008. The research summary, and how the same mechanic could power participation in India's water and waste programmes like Jal Jeevan.
 
 ### [FCI Grain Flow — Procurement · Storage · Disposal Dashboard](https://masaladeutsch.blogspot.com/2026/07/fci-grain-flow-procurement-storage.html)
 *2026-07-31 · Agriculture & Fertilisers, Grain Procurement & Storage*
@@ -3315,7 +3373,7 @@ A companion piece on this site mapped India's automotive clusters — Chennai, N
 ### [Airbags and Seat Belts Are Import-Heavy. Tyre Cord Isn't. India's Automotive Textiles Aren't One Story](https://masaladeutsch.blogspot.com/2026/08/airbags-and-seat-belts-are-import-heavy.html)
 *2026-08-15 · Automotive & Manufacturing, India Trade & Policy, Textiles*
 
-Seat belt webbing and airbag fabric are two of the fastest-growing categories in India's automotive textiles, and both remain significantly import-dependent even as global safety-systems majors localise assembly here. Tyre cord fabric tells almost the opposite story: India is the world's second-largest nylon-6 tyre-cord-fabric producer, protected by anti-dumping duties against Chinese imports since 2019. This piece separates the two stories, and traces the one raw-material dependency — imported nylon-6 polymer — that sits underneath both.
+Seat belt webbing and airbag fabric are two of the fastest-growing categories in India's automotive textiles, and both remain significantly import-dependent even as global safety-systems majors localise assembly here. Tyre cord fabric tells almost the opposite story: India is the world's second-largest nylon-6 tyre-cord-fabric producer, long protected by anti-dumping duties against Chinese imports (in place from 2005; their status after a 2020 sunset review is unclear). This piece separates the two stories, and traces the one raw-material dependency — imported nylon-6 polymer — that sits underneath both.
 
 ### [How India's Automotive Clusters Rewired Themselves Around Just-in-Time Delivery](https://masaladeutsch.blogspot.com/2026/08/how-indias-automotive-clusters-rewired.html)
 *2026-08-15 · Industrial Policy, Manufacturing*
@@ -3725,7 +3783,7 @@ Two petrochemical intermediates sit behind the same supermarket aisle: one turns
 ### [OISD Writes India's Oil-Safety Rules. API Just Signed FIPI Up to Help Its Own Standards Reach Further.](https://masaladeutsch.blogspot.com/2026/09/oisd-writes-indias-oil-safety-rules-api.html)
 *2026-09-01 · Gas & LNG, Regulatory & Industry-Body Accountability*
 
-India's oil and gas industry answers to four different standards bodies, not one, and only some of what they publish is actually law. Into that already-crowded field, the American Petroleum Institute has spent the past two years signing memoranda of understanding with three of them — FIPI, OISD, and PNGRB — aimed at getting its own privately-published standards used more widely inside India. That's a real, dateable development. It is not, on the evidence available, a campaign FIPI itself started.
+India's oil and gas industry answers to four different standards bodies, not one, and only some of what they publish is actually law. Into that already-crowded field, the American Petroleum Institute has signed memoranda of understanding with three of them — OISD (2014), FIPI (2024) and PNGRB (February 2025) — aimed at getting its own privately-published standards used more widely inside India. That's a real, dateable development. It is not, on the evidence available, a campaign FIPI itself started.
 
 ### [The 4% Nobody Notices, and Three Other Ways India Backstops Its Own Food System](https://masaladeutsch.blogspot.com/2026/09/the-4-nobody-notices-and-three-other.html)
 *2026-09-01 · Agriculture & Fertilisers, Crop Insurance & Risk, Industrial Policy, Markets & Finance*
@@ -3770,7 +3828,7 @@ India's oil PSUs report clearing their mandatory 25% MSME procurement quota by a
 ### [FIPI's Biggest Ask Is Getting Natural Gas Under GST. It Still Hasn't Happened](https://masaladeutsch.blogspot.com/2026/09/fipis-biggest-ask-is-getting-natural.html)
 *2026-09-02 · Gas & LNG, Regulatory & Industry-Body Accountability*
 
-FIPI, the oil and gas industry's apex body, has been asking to bring natural gas under GST since at least 2021. It still isn't there — and in 2026 the GST Council moved the opposite direction, raising tax on exploration and drilling services instead. That pattern holds across FIPI's advocacy generally: real, dated, specific asks, and no independently confirmed case of one being credited with causing the reform it wanted.
+FIPI, the oil and gas industry's apex body, has been asking to bring natural gas under GST since at least 2018. It still isn't there — and in September 2025 the GST Council moved the opposite direction, raising tax on exploration and drilling services instead. That pattern holds across FIPI's advocacy generally: real, dated, specific asks, and no independently confirmed case of one being credited with causing the reform it wanted.
 
 ### [PNGRB Hydrogen-Blending Pilots: The Real Numbers Behind the 10 Percent Claim](https://masaladeutsch.blogspot.com/2026/09/pngrb-hydrogen-blending-pilots-real.html)
 *2026-09-02 · Energy & Fuels, Gas & LNG, Hydrogen*
@@ -3785,7 +3843,7 @@ Twenty-four DPIIT quarterly newsletters, parsed and cross-checked against DPIIT'
 ### [Textbooks Say Project Returns Converge to Cost of Capital. About 79% of the Gap Survives Each Year](https://masaladeutsch.blogspot.com/2026/09/textbooks-say-project-returns-converge.html)
 *2026-09-03 · Markets & Finance*
 
-The textbook story is that a project's return chases down toward its cost of capital as competitors pile in and margins get arbitraged away. The empirical research behind that story tells a slower, messier version: on average, roughly 79% of any given return-over-cost-of-capital gap survives into the following year, and across the full history of US public companies, the average company's return has actually sat slightly below its cost of capital, not neatly converged to meet it. India's own 2026 sector data, already covered on this blog, shows both halves of the story playing out in real time.
+The textbook story is that a project's return chases down toward its cost of capital as competitors pile in and margins get arbitraged away. The empirical research behind that story tells a slower, messier version: on average, roughly 79% of a company's deviation from the average return on capital carries into the following year, and across the full history of US public companies, the average return has sat slightly below its cost of capital on the traditional measure (and slightly above it once internally generated intangibles are counted), not neatly converged to meet it. India's own 2026 sector data, already covered on this blog, shows both halves of the story playing out in real time.
 
 ### [Everyone Worries About Who Pays for India's CO2 Pipelines. Pipelines Are the Cheap Part](https://masaladeutsch.blogspot.com/2026/09/everyone-worries-about-who-pays-for.html)
 *2026-09-03 · Industrial Policy*
@@ -3815,7 +3873,7 @@ Roughly two-thirds of everything the Ministry of Petroleum & Natural Gas gazette
 ### [One Nation One Ration Card Doesn't Move Grain. FCI's Ethanol Tenders Move a Lot of It](https://masaladeutsch.blogspot.com/2026/09/one-nation-one-ration-card-doesnt-move.html)
 *2026-09-05 · Agriculture & Fertilisers, Energy & Fuels, Grain Procurement & Storage*
 
-One Nation One Ration Card sounds like it should strain the machinery that moves grain around India — a family that migrates from Bihar to Kerala still has to eat, after all. It doesn't, and the reason why is itself the more interesting story: interstate portability is under 1% of all transactions on the system. The genuine food-versus-fuel tension in Indian grain policy is real, well-documented, and running through a completely different pipe — FCI's surplus rice being sold to ethanol distillers at roughly 40% below what it cost to buy, under a tender clause that specifically requires distillers to use it.
+One Nation One Ration Card sounds like it should strain the machinery that moves grain around India — a family that migrates from Bihar to Kerala still has to eat, after all. It doesn't, and the reason why is itself the more interesting story: interstate portability is roughly 2% or less of all transactions on the system. The genuine food-versus-fuel tension in Indian grain policy is real, well-documented, and running through a completely different pipe — FCI's surplus rice being sold to ethanol distillers at roughly 40% below what it cost to buy, under a tender clause that specifically requires distillers to use it.
 
 ### [India Is Piping Jet Fuel to Five New Airports at Once. Only Six Had It Before](https://masaladeutsch.blogspot.com/2026/09/india-is-piping-jet-fuel-to-five-new.html)
 *2026-09-08 · Energy & Fuels, Infrastructure & Investment, Mobility & EV*
@@ -4095,7 +4153,7 @@ India's EU trade agreement was concluded on 27 January 2026 — a month before t
 ### [India Has 132 Compressed Biogas Plants Running. The Pipeline to Actually Use That Gas Reaches 17 of Them.](https://masaladeutsch.blogspot.com/2026/09/india-has-132-compressed-biogas-plants.html)
 *2026-09-23 · City Gas Distribution, Energy & Fuels, Gas & LNG*
 
-SATAT set out in 2018 to build 5,000 compressed biogas plants by 2023-24. India has commissioned 132. Of those, the regulator's own September 2026 count says only 17 are actually connected to a city gas network by dedicated pipeline — meaning most of the plants that exist still cannot inject their gas into the grid the blending mandate assumes they will feed.
+SATAT set out in 2018 to build 5,000 compressed biogas plants by 2023-24. India has 207 functional plants (217 commissioned on the GOBARdhan portal by 6 August 2026). Of the 207, the regulator's own August 2026 count says only 24 are actually connected to a city gas network by dedicated pipeline — meaning most of the plants that exist still cannot inject their gas into the grid the blending mandate assumes they will feed.
 
 ### [Under CORSIA's Own Numbers, Corn Ethanol Fails as Jet Fuel — Worse Than the Fossil Fuel It Would Replace](https://masaladeutsch.blogspot.com/2026/09/under-corsias-own-numbers-corn-ethanol.html)
 *2026-09-23 · Energy & Fuels, Ethanol & Biofuels*
@@ -4631,3 +4689,53 @@ Size a first-generation fuel-ethanol distillery, from molasses or grain through 
 *2026-10-25 · India, Infrastructure & Investment, Markets & Finance, Open-Source Tools & How-To*
 
 A ready-made map of India's twelve focus sectors against 19,795 listed companies in 107 countries, plus a hand-verified file pairing foreign investors with the government scheme that is their route in.
+
+### [A Hectare Under a Power Line Now Pays Three to Six Times What One Over a Pipeline Does](https://masaladeutsch.blogspot.com/2026/10/a-hectare-under-power-line-now-pays.html)
+*2026-10-26 · Energy & Fuels, Gas Pipeline Infrastructure & Demand Planning, Infrastructure & Investment, Renewable Power & Storage*
+
+The Ministry of Power’s 6 October 2026 guidelines pay 30–60% of market value for the land under a transmission corridor and 200% for tower bases; the 1962 pipeline law pays 10%.
+
+### [The Phone PLI's Successor Pays Up to 5%, Wants 15% Growth a Year, and Offers 0.2% to Make the Cell Here](https://masaladeutsch.blogspot.com/2026/10/the-phone-plis-successor-pays-up-to-5.html)
+*2026-10-26 · Electronics & Semiconductors, Import Substitution, Industrial Policy, PLI Schemes, Trade & Tariffs*
+
+The successor to the smartphone PLI pays 5% on most growth, not the 2.75% in its headline, but only after a brand grows more than 15% a year, and it offers just 0.20% for making the battery cell in India.
+
+### [India's Constitution Set a Deadline Parliament Hasn't Met: The Reforms Pending in 2026](https://masaladeutsch.blogspot.com/2026/10/indias-constitution-set-deadline.html)
+*2026-10-26 · Governance & Institutions, India*
+
+Census 2027 ends India's 50-year freeze on seat allocation, and the April 2026 attempt to replace it failed. Here are the constitutional reforms that commissions and courts keep flagging, and where each one stands.
+
+### [India's Approved Solar-Cell Makers Can Now Make 37.8 GW a Year. Rooftop Projects Have Until 31 December to Use Them](https://masaladeutsch.blogspot.com/2026/10/indias-approved-solar-cell-makers-can.html)
+*2026-10-26 · Energy & Fuels, Import Substitution, Industrial Policy, Renewable Power & Storage*
+
+MNRE’s approved list of domestic solar-cell makers now holds 37.8 GW a year of enlisted capacity across 19 company names, but a third of it is in one state and the window for rooftop and open-access projects to skip the list shuts on 31 December 2026.
+
+### [India Ordered 112 Captive Coal Plants to Run Flat Out as Exchange Prices Rose 50% in a Month, With Coal Stocks Steady](https://masaladeutsch.blogspot.com/2026/10/india-ordered-112-captive-coal-plants.html)
+*2026-10-26 · Coal & Coal Gasification, Energy & Fuels, India, Markets & Finance*
+
+Two Ministry of Power orders of 25 September 2026 draft 112 captive coal plants and the Mundra imported-coal plant into the grid; the exchange had already moved ₹4.88 to ₹7.3 a unit in a month while coal stocks held above 18 MT.
+
+### [Closed Loop or Open Loop? How India's New Data Centres Should Be Cooled, Site by Site](https://masaladeutsch.blogspot.com/2026/10/closed-loop-or-open-loop-how-indias-new.html)
+*2026-10-27 · Energy & Fuels, Environment & Clearances, Industrial Policy*
+
+An open cooling tower uses about two litres of water per kWh of computing; a closed dry loop uses almost none but costs more power. Most of India’s big new campuses sit on the coast near subsea cables, where seawater changes the answer.
+
+### [India Will Spend Rs 33,660 Crore on Ready-Made Factory Parks. Its Existing Parks Have 1.25 Lakh Empty Plots](https://masaladeutsch.blogspot.com/2026/10/india-will-spend-rs-33660-crore-on.html)
+*2026-10-27 · Industrial Policy*
+
+BHAVYA, approved in March, will fund 100 plug-and-play industrial parks by 2031-32. The land it adds is about a tenth of what mapped parks already have available, so its test is whether its parks fill faster. The first proposals come mostly from states other than those where factory investment is waiting.
+
+### [The DESH Bill Never Came. India Is Rewriting Its SEZ Law One Rule at a Time](https://masaladeutsch.blogspot.com/2026/10/the-desh-bill-never-came-india-is.html)
+*2026-10-27 · Industrial Policy, Trade & Tariffs*
+
+In 2022 the government promised a new law to turn export zones into development hubs that could also sell in India. The Bill stalled over tax breaks and never reached Parliament. Four years on, parts of it are arriving by notification, 95 of 372 notified zones sit idle, and an “SEZ 2.0” report has yet to be published.
+
+### [Half of UDAN's Closed Routes Shut While Still Subsidised. The New Scheme Pays for Longer](https://masaladeutsch.blogspot.com/2026/10/half-of-udans-closed-routes-shut-while.html)
+*2026-10-27 · Energy & Fuels, Scheme Delivery Gap*
+
+Modified UDAN puts Rs 28,840 crore into regional flying over ten years and stretches each route’s subsidy from three years to five, on a taper. Of 331 routes that had closed by July, 165 shut before their subsidy ran out, so a longer taper addresses only part of why routes fail.
+
+### [Rural Job-Guarantee Pay Rose 9.6% in July. In Eight States It Buys Less Than in 2025](https://masaladeutsch.blogspot.com/2026/10/rural-job-guarantee-pay-rose-96-in-july.html)
+*2026-10-27 · Agriculture & Fertilisers, Prices & Inflation*
+
+Wages were frozen for three months, then a Rs 300 floor lifted the poorest states by up to 19%. But prices for farm labourers rose 3.4% in the next quarter alone, and in Andhra Pradesh, Telangana, Maharashtra and five other states the new wage buys less than the old one did.
