@@ -764,7 +764,7 @@ SLUG_CONTAINS = {
     "europe-wants-green-steel": ["Climate & Carbon", "Trade & Tariffs", "Industrial Policy"],
     "winter-harvest-now-outgrows": ["Agriculture & Fertilisers", "Grain Procurement & Storage", "Prices & Inflation"],
     "desh-bill-never-came": ["Trade & Tariffs", "Industrial Policy"],
-    "33660-crore-on-ready": ["Industrial Policy"],
+    "will-spend-rs-33660-crore": ["Industrial Policy"],
     "job-guarantee-pay-rose": ["Agriculture & Fertilisers", "Prices & Inflation"],
     "closed-routes-shut": ["Scheme Delivery Gap", "Energy & Fuels"],
 }
