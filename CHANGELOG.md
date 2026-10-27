@@ -16258,3 +16258,16 @@ youtube-demo-uploads 2026-10-27: 10 repo-demo posts live
 - `how-to-use-india-omc-fuel-fleet-model` **v1.0.0** — How to use india-omc-fuel-fleet-model: ethanol blend scenarios and OMC pump income in pure Python (25,324 bytes)
 - `how-to-use-india-ec-subsector-analysis` **v1.0.0** — How to use india-ec-subsector-analysis: see which states lead each Environmental Clearance sub-sector (24,672 bytes)
 - `how-to-use-india-commodity-trade` **v1.0.0** — How to use india-commodity-trade-deficit: eight years of HS-chapter trade data and bare-metal imports (24,379 bytes)
+
+## 2026-10-27T21:22:40+05:30 — 455 posts live
+
+index republished after 10 repo-demo posts (youtube-demo-uploads 2026-10-27)
+
+
+**Versions**
+
+- `article-index-start-here` **67.4.0 → 67.5.0** (MINOR) — forced via --as minor (figures changed (+7/-3 distinct numbers))
+
+**Changed**
+
+- `article-index-start-here` — 878,299 → 891,150 bytes (+12,851)
