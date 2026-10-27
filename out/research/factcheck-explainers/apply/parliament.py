@@ -1,0 +1,7 @@
+from common import *
+S = "the-two-biggest-parties-in-parliament"
+t = load(S)
+t = rep(t, "an MP files a notice &mdash; capped at 150 words, barring policy-level or sub-judice matters, at most five notices a day &mdash; at least 15 days ahead of the sitting (10 for a short-notice question). A <b>starred</b> question gets an oral answer and floor follow-up, capped at one per MP per sitting day;",
+        "an MP files a notice &mdash; capped at 150 words, barring policy-level or sub-judice matters &mdash; at least 15 clear days ahead of the sitting. A short-notice question (Rule 54) can be asked at less than ten days&rsquo; notice, with the Speaker&rsquo;s leave and the Minister&rsquo;s consent. The Lok Sabha&rsquo;s current guidance lets a member give up to 10 notices a day, of which at most five admitted questions are listed for that member on any day. A <b>starred</b> question gets an oral answer and floor follow-up, capped at one per MP per sitting day;")
+t = insert_note(t, "The explainer of how a Parliament Question works said an MP may give at most five notices a day and needs ten days&rsquo; notice for a short-notice question. Under the Lok Sabha&rsquo;s current guidance a member may give up to 10 notices a day, with at most five admitted questions listed per member per day (one starred). A short-notice question under Rule 54 can be asked at less than ten days&rsquo; notice with the Speaker&rsquo;s leave and the Minister&rsquo;s consent. The 15-clear-day rule for ordinary notices is unchanged. The analysis and counts are not affected.")
+save(S, t)

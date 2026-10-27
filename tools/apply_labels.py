@@ -768,6 +768,8 @@ SLUG_CONTAINS = {
     "job-guarantee-pay-rose": ["Agriculture & Fertilisers", "Prices & Inflation"],
     "closed-routes-shut": ["Scheme Delivery Gap", "Energy & Fuels"],
     "closed-loop-or-open-loop": ["Industrial Policy", "Environment & Clearances", "Energy & Fuels"],
+    # No security bucket exists in TAXONOMY; first post in a Cybersecurity beat.
+    "php-websites-run": ["Cybersecurity"],
 }
 
 
