@@ -4,10 +4,10 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html",
   "slug": "article-index-start-here",
   "published": "2026-08-02T10:43:26.000+05:30",
-  "updated": "2026-10-26T21:22:14.038+05:30",
+  "updated": "2026-10-27T07:01:50.439+05:30",
   "labels": [],
-  "bytes": 842440,
-  "sha256": "42feb32f0278cc7984157f843cda4d447675817f6c49075e2b5284a11208dc65",
+  "bytes": 850297,
+  "sha256": "75c4b9cae4e943ddc52323ca9a8db252b20b3446aaaf9ac7022d6c03d0747cfd",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "67.0.0",
+  "version": "67.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -2262,6 +2262,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "67.1.0",
+      "date": "2026-10-27T07:02:26+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+7/-4 distinct numbers))",
+      "bytes": [
+        842440,
+        850297
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Index: BHAVYA, MGNREGS, UDAN posts"
     }
   ]
 }

@@ -16026,3 +16026,22 @@ New posts: BHAVYA parks, MGNREGS real wages, modified UDAN
 **Re-dated** (publication date changed; body and URL unchanged)
 
 - `the-desh-bill-never-came-india-is` — 2026-10-27 &rarr; 2026-10-27
+
+## 2026-10-27T07:02:26+05:30 — 429 posts live
+
+Index: BHAVYA, MGNREGS, UDAN posts
+
+
+**Versions**
+
+- `article-index-start-here` **67.0.0 → 67.1.0** (MINOR) — forced via --as minor (figures changed (+7/-4 distinct numbers))
+
+**Changed**
+
+- `article-index-start-here` — 842,440 → 850,297 bytes (+7,857)
+
+**Re-dated** (publication date changed; body and URL unchanged)
+
+- `half-of-udans-closed-routes-shut-while` — 2026-10-27 &rarr; 2026-10-27
+- `rural-job-guarantee-pay-rose-96-in-july` — 2026-10-27 &rarr; 2026-10-27
+- `india-will-spend-rs-33660-crore-on` — 2026-10-27 &rarr; 2026-10-27
