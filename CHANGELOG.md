@@ -16011,3 +16011,18 @@ New post: DESH Bill and SEZ reform
 **Added**
 
 - `the-desh-bill-never-came-india-is` **v1.0.0** — The DESH Bill Never Came. India Is Rewriting Its SEZ Law One Rule at a Time (30,485 bytes)
+
+## 2026-10-27T07:00:29+05:30 — 429 posts live
+
+New posts: BHAVYA parks, MGNREGS real wages, modified UDAN
+
+
+**Added**
+
+- `half-of-udans-closed-routes-shut-while` **v1.0.0** — Half of UDAN's Closed Routes Shut While Still Subsidised. The New Scheme Pays for Longer (25,396 bytes)
+- `rural-job-guarantee-pay-rose-96-in-july` **v1.0.0** — Rural Job-Guarantee Pay Rose 9.6% in July. In Eight States It Buys Less Than in 2025 (26,533 bytes)
+- `india-will-spend-rs-33660-crore-on` **v1.0.0** — India Will Spend Rs 33,660 Crore on Ready-Made Factory Parks. Its Existing Parks Have 1.25 Lakh Empty Plots (26,929 bytes)
+
+**Re-dated** (publication date changed; body and URL unchanged)
+
+- `the-desh-bill-never-came-india-is` — 2026-10-27 &rarr; 2026-10-27
