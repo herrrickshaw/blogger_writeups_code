@@ -16045,3 +16045,12 @@ Index: BHAVYA, MGNREGS, UDAN posts
 - `half-of-udans-closed-routes-shut-while` — 2026-10-27 &rarr; 2026-10-27
 - `rural-job-guarantee-pay-rose-96-in-july` — 2026-10-27 &rarr; 2026-10-27
 - `india-will-spend-rs-33660-crore-on` — 2026-10-27 &rarr; 2026-10-27
+
+## 2026-10-27T07:53:16+05:30 — 430 posts live
+
+New post: closed- vs open-loop data-centre cooling
+
+
+**Added**
+
+- `closed-loop-or-open-loop-how-indias-new` **v1.0.0** — Closed Loop or Open Loop? How India's New Data Centres Should Be Cooled, Site by Site (33,074 bytes)
