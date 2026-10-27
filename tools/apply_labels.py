@@ -767,6 +767,7 @@ SLUG_CONTAINS = {
     "will-spend-rs-33660-crore": ["Industrial Policy"],
     "job-guarantee-pay-rose": ["Agriculture & Fertilisers", "Prices & Inflation"],
     "closed-routes-shut": ["Scheme Delivery Gap", "Energy & Fuels"],
+    "closed-loop-or-open-loop": ["Industrial Policy", "Environment & Clearances", "Energy & Fuels"],
 }
 
 
