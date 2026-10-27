@@ -132,7 +132,7 @@ body = f"""
 {table(["State", "BHAVYA round-one proposals", "Filed but unbuilt investment, 2020&ndash;25 (Rs crore)", "Idle SEZs, 31 Jul 2026"],
        [(n, str(p) if p else "5 or fewer", f"{pend:,}" if pend > 0 else f"&minus;{abs(pend):,} (building ahead of filings)", str(idle) if idle else "&mdash;") for n, p, pend, idle in STATES])}
 <p class="gb-note">Only the six largest proposal counts and the five largest idle-SEZ counts were reported; a dash means the state was not among them, not that it has none. Filed-but-unbuilt investment is the difference between Part A and Part B filings in the period, so it approximates rather than measures the backlog; IEMs cover only large manufacturing projects.</p>
-<p>Two things stand out. Haryana, Telangana and Karnataka already have the most notified SEZs that are not operating (14, 12 and 11), which is a reason to ask what a new park would do there that an idle zone cannot. And a proposal count measures states&rsquo; appetite for central money as much as demand from industry; the scheme&rsquo;s scoring on connectivity, site suitability and the industrial ecosystem is where demand should count.</p>
+<p>Two things stand out. Haryana, Telangana and Karnataka already have the most notified SEZs that are not operating (14, 12 and 11; see this blog&rsquo;s <a href="https://masaladeutsch.blogspot.com/2026/10/the-desh-bill-never-came-india-is.html">piece on the DESH Bill and SEZ reform</a>), which is a reason to ask what a new park would do there that an idle zone cannot. And a proposal count measures states&rsquo; appetite for central money as much as demand from industry; the scheme&rsquo;s scoring on connectivity, site suitability and the industrial ecosystem is where demand should count.</p>
 
 <h2 class="gb-h2">What earlier park programmes suggest</h2>
 {t_record()}
@@ -159,6 +159,7 @@ sources = ("BHAVYA: Cabinet decision of 18 March 2026 (PIB; PM India), as report
            "Per-acre, per-park and per-job figures and the land shares are this blog&rsquo;s arithmetic. Nothing here is investment advice.")
 
 related = [
+    ("https://masaladeutsch.blogspot.com/2026/10/the-desh-bill-never-came-india-is.html", "The DESH Bill Never Came. India Is Rewriting Its SEZ Law One Rule at a Time"),
     ("https://masaladeutsch.blogspot.com/2026/08/where-indias-factories-actually-get.html", "Where India&rsquo;s Factories Actually Get Built &mdash; IEM State &amp; Sector Analysis"),
     ("https://masaladeutsch.blogspot.com/2026/09/a-textile-sez-built-to-re-employ-mill.html", "A Textile SEZ Built to Re-Employ Mill Workers Has Shrunk 87% Since 2007"),
     ("https://masaladeutsch.blogspot.com/2026/09/where-indias-fdi-actually-lands-state.html", "Where India&rsquo;s FDI Actually Lands: 24 Quarters of DPIIT&rsquo;s Own State-and-District Data"),
