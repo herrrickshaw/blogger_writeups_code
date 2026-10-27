@@ -16002,3 +16002,12 @@ Green debt post: chart, rate-gap, FX and yield tables to late Oct; model-review 
 **Changed**
 
 - `article-index-start-here` — 841,501 → 842,440 bytes (+939)
+
+## 2026-10-27T06:29:48+05:30 — 426 posts live
+
+New post: DESH Bill and SEZ reform
+
+
+**Added**
+
+- `the-desh-bill-never-came-india-is` **v1.0.0** — The DESH Bill Never Came. India Is Rewriting Its SEZ Law One Rule at a Time (30,485 bytes)
