@@ -784,6 +784,9 @@ SLUG_CONTAINS = {
     "fertiliser-sales-fell-where": ["Agriculture & Fertilisers", "Prices & Inflation"],
     "andhra-pradesh-has-approved-rs-14": ["Industrial Policy"],
     "states-plan-to-borrow-above": ["Macroeconomics & Monetary Policy", "Governance & Institutions"],
+    "last-approvals-on-its": ["Industrial Policy", "Trade & Tariffs"],
+    "wants-15-of-its-energy-from-gas": ["Gas & LNG", "Energy & Fuels"],
+    "kilo-of-crude-fish-oil": ["Livestock & Dairy", "Agriculture & Food Processing"],
 }
 
 
