@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/right-of-user-what-indias-pipeline.html",
   "slug": "right-of-user-what-indias-pipeline",
   "published": "2026-09-05T15:59:46.000+05:30",
-  "updated": "2026-10-09T11:20:13.152+05:30",
+  "updated": "2026-10-28T16:29:32.935+05:30",
   "labels": [
     "Energy & Fuels",
     "Gas & LNG",
     "Gas Pipeline Infrastructure & Demand Planning"
   ],
-  "bytes": 45041,
-  "sha256": "69b169b976fe7ccf8cee40260e4e19fe4ed219c86ef442178581e214a8f230dd",
+  "bytes": 47133,
+  "sha256": "d6260d96800cba6596dc06a9a89d83119d129dd016f4e6237b83ddf489d307ad",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.0",
+  "version": "3.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -109,6 +109,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "3.0.0",
+      "date": "2026-10-28T16:30:57+05:30",
+      "level": "major",
+      "reason": "forced via --as major (figures changed (+17/-1 distinct numbers))",
+      "bytes": [
+        45041,
+        47133
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Gazette check: 24 posts verified against Gazette of India notifications"
     }
   ]
 }

@@ -16414,3 +16414,62 @@ Mining-law post: gazette details, commencement, Jharkhand cess, challenges
 **Changed**
 
 - `states-won-right-to-tax-mines-in-2024` — 26,071 → 28,504 bytes (+2,433)
+
+## 2026-10-28T16:30:57+05:30 — 464 posts live
+
+Gazette check: 24 posts verified against Gazette of India notifications
+
+
+**Versions**
+
+- `india-capped-margins-on-137-cancer` **1.0.0 → 2.0.0** (MAJOR) — forced via --as major (figures changed (+4/-4 distinct numbers))
+- `states-won-right-to-tax-mines-in-2024` **1.1.0 → 2.0.0** (MAJOR) — forced via --as major (figures changed (+6/-0 distinct numbers))
+- `india-dropped-last-approvals-on-its` **1.0.0 → 2.0.0** (MAJOR) — forced via --as major (figures changed (+5/-0 distinct numbers))
+- `india-has-legalised-e100-for-flex-fuel` **1.0.0 → 2.0.0** (MAJOR) — forced via --as major (figures changed (+8/-0 distinct numbers))
+- `rural-job-guarantee-pay-rose-96-in-july` **1.0.0 → 2.0.0** (MAJOR) — forced via --as major (figures changed (+8/-2 distinct numbers))
+- `india-will-spend-rs-33660-crore-on` **1.0.0 → 2.0.0** (MAJOR) — forced via --as major (figures changed (+8/-0 distinct numbers))
+- `the-phone-plis-successor-pays-up-to-5` **1.0.1 → 2.0.0** (MAJOR) — forced via --as major (figures changed (+1/-0 distinct numbers))
+- `india-has-27400-km-of-gas-pipeline` **2.0.0 → 3.0.0** (MAJOR) — forced via --as major (figures changed (+20/-0 distinct numbers))
+- `the-rbis-fcnrb-window-drew-133-billion` **1.0.0 → 2.0.0** (MAJOR) — forced via --as major (figures changed (+3/-0 distinct numbers))
+- `india-imported-295-more-steel-this-year` **1.0.0 → 2.0.0** (MAJOR) — forced via --as major (figures changed (+13/-0 distinct numbers))
+- `epfos-pay-ceiling-rose-to-25000-after` **1.0.0 → 2.0.0** (MAJOR) — forced via --as major (figures changed (+11/-0 distinct numbers))
+- `india-raised-cooking-oil-duties-to-help` **1.0.0 → 2.0.0** (MAJOR) — forced via --as major (figures changed (+9/-0 distinct numbers))
+- `indias-first-seabed-mineral-auction` **1.0.0 → 2.0.0** (MAJOR) — forced via --as major (figures changed (+3/-0 distinct numbers))
+- `making-plastic-releases-heat-unmaking` **1.1.1 → 2.0.0** (MAJOR) — forced via --as major (figures changed (+6/-0 distinct numbers))
+- `one-nation-one-gst-rate-what-true-flat` **1.2.0 → 2.0.0** (MAJOR) — forced via --as major (figures changed (+6/-0 distinct numbers))
+- `indias-display-fab-scheme-got-two` **1.0.1 → 2.0.0** (MAJOR) — forced via --as major (figures changed (+4/-0 distinct numbers))
+- `india-let-oil-companies-put-solar-on` **1.1.0 → 2.0.0** (MAJOR) — forced via --as major (figures changed (+7/-0 distinct numbers))
+- `india-ended-63-years-of-state-nuclear` **2.2.1 → 3.0.0** (MAJOR) — forced via --as major (figures changed (+14/-0 distinct numbers))
+- `indias-ev-localisation-deadline-just` **1.3.0 → 2.0.0** (MAJOR) — forced via --as major (figures changed (+30/-0 distinct numbers))
+- `right-of-user-what-indias-pipeline` **2.0.0 → 3.0.0** (MAJOR) — forced via --as major (figures changed (+17/-1 distinct numbers))
+- `indias-oil-psus-say-they-clear-their_01269248608` **1.1.1 → 2.0.0** (MAJOR) — forced via --as major (figures changed (+5/-0 distinct numbers))
+- `the-easiest-ev-conversion-in-india` **2.2.1 → 3.0.0** (MAJOR) — forced via --as major (figures changed (+23/-0 distinct numbers))
+- `bio-fertiliser-and-green-credits` **5.2.0 → 6.0.0** (MAJOR) — forced via --as major (figures changed (+9/-0 distinct numbers))
+- `indias-ev-market-single-digit` **2.2.0 → 3.0.0** (MAJOR) — forced via --as major (figures changed (+22/-0 distinct numbers))
+
+**Changed**
+
+- `india-capped-margins-on-137-cancer` — 25,785 → 27,009 bytes (+1,224)
+- `states-won-right-to-tax-mines-in-2024` — 28,504 → 28,792 bytes (+288)
+- `india-dropped-last-approvals-on-its` — 25,198 → 26,262 bytes (+1,064)
+- `india-has-legalised-e100-for-flex-fuel` — 24,193 → 25,618 bytes (+1,425)
+- `rural-job-guarantee-pay-rose-96-in-july` — 26,533 → 27,638 bytes (+1,105)
+- `india-will-spend-rs-33660-crore-on` — 26,929 → 28,991 bytes (+2,062)
+- `the-phone-plis-successor-pays-up-to-5` — 26,520 → 28,260 bytes (+1,740)
+- `india-has-27400-km-of-gas-pipeline` — 69,474 → 71,364 bytes (+1,890)
+- `the-rbis-fcnrb-window-drew-133-billion` — 29,258 → 30,655 bytes (+1,397)
+- `india-imported-295-more-steel-this-year` — 24,685 → 26,539 bytes (+1,854)
+- `epfos-pay-ceiling-rose-to-25000-after` — 22,144 → 23,188 bytes (+1,044)
+- `india-raised-cooking-oil-duties-to-help` — 23,850 → 25,479 bytes (+1,629)
+- `indias-first-seabed-mineral-auction` — 22,165 → 23,638 bytes (+1,473)
+- `making-plastic-releases-heat-unmaking` — 56,898 → 58,620 bytes (+1,722)
+- `one-nation-one-gst-rate-what-true-flat` — 27,986 → 29,325 bytes (+1,339)
+- `indias-display-fab-scheme-got-two` — 25,719 → 26,904 bytes (+1,185)
+- `india-let-oil-companies-put-solar-on` — 29,796 → 31,304 bytes (+1,508)
+- `india-ended-63-years-of-state-nuclear` — 25,124 → 27,355 bytes (+2,231)
+- `indias-ev-localisation-deadline-just` — 26,867 → 29,169 bytes (+2,302)
+- `right-of-user-what-indias-pipeline` — 45,041 → 47,133 bytes (+2,092)
+- `indias-oil-psus-say-they-clear-their_01269248608` — 39,849 → 40,961 bytes (+1,112)
+- `the-easiest-ev-conversion-in-india` — 38,420 → 40,226 bytes (+1,806)
+- `bio-fertiliser-and-green-credits` — 50,035 → 51,990 bytes (+1,955)
+- `indias-ev-market-single-digit` — 42,985 → 44,918 bytes (+1,933)

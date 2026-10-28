@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/bio-fertiliser-and-green-credits.html",
   "slug": "bio-fertiliser-and-green-credits",
   "published": "2026-08-02T21:16:59.000+05:30",
-  "updated": "2026-10-14T16:28:12.155+05:30",
+  "updated": "2026-10-28T16:26:12.570+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Climate & Carbon",
     "Fertilisers & Soil Health"
   ],
-  "bytes": 50035,
-  "sha256": "a3d20357e0e5188202d5d303c7aaf678c8afa9b5f18f930c1dcc1729edd8197a",
+  "bytes": 51990,
+  "sha256": "94f1934cb99b138c098ce79a9b00522be38eab1d396bf35bf885388e01f5c506",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "5.2.0",
+  "version": "6.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -317,6 +317,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Update notes 12-13 Oct 2026 from the currency sweeps (45 posts)"
+    },
+    {
+      "version": "6.0.0",
+      "date": "2026-10-28T16:30:57+05:30",
+      "level": "major",
+      "reason": "forced via --as major (figures changed (+9/-0 distinct numbers))",
+      "bytes": [
+        50035,
+        51990
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Gazette check: 24 posts verified against Gazette of India notifications"
     }
   ]
 }

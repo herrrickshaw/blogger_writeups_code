@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/10/the-rbis-fcnrb-window-drew-133-billion.html",
   "slug": "the-rbis-fcnrb-window-drew-133-billion",
   "published": "2026-10-10T02:30:54.000+05:30",
-  "updated": "2026-10-10T09:52:17.807+05:30",
+  "updated": "2026-10-28T16:30:24.580+05:30",
   "labels": [
     "Macroeconomics & Monetary Policy",
     "Markets & Finance"
   ],
-  "bytes": 29258,
-  "sha256": "9141bc157e8ca584eb1ef797059e8b481d36cd6989352b8d19f4fcb2b4a8c235",
+  "bytes": 30655,
+  "sha256": "22fc1669cff91a1d9d662f92f8535925c27626ea514244b139519a04f8f9a238",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -30,6 +30,19 @@
       "level": "initial",
       "reason": "first snapshot",
       "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-10-28T16:30:57+05:30",
+      "level": "major",
+      "reason": "forced via --as major (figures changed (+3/-0 distinct numbers))",
+      "bytes": [
+        29258,
+        30655
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Gazette check: 24 posts verified against Gazette of India notifications"
     }
   ]
 }

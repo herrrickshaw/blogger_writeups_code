@@ -3,11 +3,11 @@
   "title": "India's First Seabed Mineral Auction Drew No Winner. The Second Offers Two Blocks and a Lower Bar",
   "url": "https://masaladeutsch.blogspot.com/2026/10/indias-first-seabed-mineral-auction.html",
   "slug": "indias-first-seabed-mineral-auction",
-  "published": "2026-10-09T11:07:28.488+05:30",
-  "updated": "2026-10-09T11:07:28.488+05:30",
+  "published": "2026-10-09T11:07:28.000+05:30",
+  "updated": "2026-10-28T16:28:45.367+05:30",
   "labels": [],
-  "bytes": 22165,
-  "sha256": "7cb6a0d73c357d00437fe28d32a862564db93755310e59dd8af72f8a3f575851",
+  "bytes": 23638,
+  "sha256": "1692367f91ffe63e9397c9ce4be674165061f2946355e652043fca4635e0a78b",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -27,6 +27,19 @@
       "level": "initial",
       "reason": "first snapshot",
       "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-10-28T16:30:57+05:30",
+      "level": "major",
+      "reason": "forced via --as major (figures changed (+3/-0 distinct numbers))",
+      "bytes": [
+        22165,
+        23638
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Gazette check: 24 posts verified against Gazette of India notifications"
     }
   ]
 }

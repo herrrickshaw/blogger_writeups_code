@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/one-nation-one-gst-rate-what-true-flat.html",
   "slug": "one-nation-one-gst-rate-what-true-flat",
   "published": "2026-09-29T17:37:19.000+05:30",
-  "updated": "2026-10-14T16:29:43.914+05:30",
+  "updated": "2026-10-28T16:29:19.817+05:30",
   "labels": [
     "Macroeconomics & Monetary Policy",
     "Trade & Tariffs"
   ],
-  "bytes": 27986,
-  "sha256": "b2f00883a876dc8ff2855454a2ba29e369bd517979a5edcf32bb252f20c95643",
+  "bytes": 29325,
+  "sha256": "54b3ef23c84632d9794b39546fde80c5af12c2e8c1d1834bf68b637a53d357e1",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.2.0",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -56,6 +56,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Update notes 12-13 Oct 2026 from the currency sweeps (45 posts)"
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-10-28T16:30:57+05:30",
+      "level": "major",
+      "reason": "forced via --as major (figures changed (+6/-0 distinct numbers))",
+      "bytes": [
+        27986,
+        29325
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Gazette check: 24 posts verified against Gazette of India notifications"
     }
   ]
 }

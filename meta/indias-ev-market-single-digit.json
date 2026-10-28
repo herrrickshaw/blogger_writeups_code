@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/indias-ev-market-single-digit.html",
   "slug": "indias-ev-market-single-digit",
   "published": "2026-08-02T16:16:00.000+05:30",
-  "updated": "2026-10-14T16:26:39.330+05:30",
+  "updated": "2026-10-28T16:28:33.540+05:30",
   "labels": [
     "Mobility & EV",
     "Trade & Tariffs"
   ],
-  "bytes": 42985,
-  "sha256": "dfb9c5d90f2b3472c8c673e43f12dbf36e3e0931e423fafa16085188afa86fca",
+  "bytes": 44918,
+  "sha256": "28a3f3ef763ae9d73e16d7748ce3834b10b20e20ac6a020ebda545fadb31707a",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.2.0",
+  "version": "3.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -251,6 +251,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Update notes 12-13 Oct 2026 from the currency sweeps (45 posts)"
+    },
+    {
+      "version": "3.0.0",
+      "date": "2026-10-28T16:30:57+05:30",
+      "level": "major",
+      "reason": "forced via --as major (figures changed (+22/-0 distinct numbers))",
+      "bytes": [
+        42985,
+        44918
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Gazette check: 24 posts verified against Gazette of India notifications"
     }
   ]
 }

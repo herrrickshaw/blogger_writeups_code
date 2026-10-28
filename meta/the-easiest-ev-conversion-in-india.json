@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/the-easiest-ev-conversion-in-india.html",
   "slug": "the-easiest-ev-conversion-in-india",
   "published": "2026-08-31T15:51:11.000+05:30",
-  "updated": "2026-10-23T10:09:26.435+05:30",
+  "updated": "2026-10-28T16:30:04.428+05:30",
   "labels": [
     "Industrial Policy",
     "Mobility & EV"
   ],
-  "bytes": 38420,
-  "sha256": "62a96b81c542752bace5c173dd2e14ddd4c62ab24d45cee8851751192d3fdcfa",
+  "bytes": 40226,
+  "sha256": "3b54edf85a3ff4ddf0b95f4a32a6539b93f28ae71e015e2930d85517fdff9689",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.2.1",
+  "version": "3.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -147,6 +147,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Sweep 4 MEDIUM items: dated update notes on 59 posts"
+    },
+    {
+      "version": "3.0.0",
+      "date": "2026-10-28T16:30:57+05:30",
+      "level": "major",
+      "reason": "forced via --as major (figures changed (+23/-0 distinct numbers))",
+      "bytes": [
+        38420,
+        40226
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Gazette check: 24 posts verified against Gazette of India notifications"
     }
   ]
 }

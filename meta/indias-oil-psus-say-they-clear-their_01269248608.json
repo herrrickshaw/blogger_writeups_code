@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/indias-oil-psus-say-they-clear-their_01269248608.html",
   "slug": "indias-oil-psus-say-they-clear-their_01269248608",
   "published": "2026-09-02T03:35:50.000+05:30",
-  "updated": "2026-10-23T10:04:06.233+05:30",
+  "updated": "2026-10-28T16:28:56.466+05:30",
   "labels": [
     "Energy & Fuels",
     "Industrial Policy"
   ],
-  "bytes": 39849,
-  "sha256": "c7c5dcb9f610a73b283f537053738762923d4ea0d9e94c696f477947bbeab296",
+  "bytes": 40961,
+  "sha256": "fc91524a4a8c425cc95f7434977dc9215f29b583f9b6303793f9c518fe3f1a61",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.1.1",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -121,6 +121,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Sweep 4 MEDIUM items: dated update notes on 59 posts"
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-10-28T16:30:57+05:30",
+      "level": "major",
+      "reason": "forced via --as major (figures changed (+5/-0 distinct numbers))",
+      "bytes": [
+        39849,
+        40961
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Gazette check: 24 posts verified against Gazette of India notifications"
     }
   ]
 }

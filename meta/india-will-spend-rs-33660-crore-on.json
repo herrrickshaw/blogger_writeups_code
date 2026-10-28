@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/10/india-will-spend-rs-33660-crore-on.html",
   "slug": "india-will-spend-rs-33660-crore-on",
   "published": "2026-10-27T06:59:39.000+05:30",
-  "updated": "2026-10-27T07:00:53.365+05:30",
+  "updated": "2026-10-28T16:27:53.900+05:30",
   "labels": [
     "Industrial Policy"
   ],
-  "bytes": 26929,
-  "sha256": "910e13df551303ad6fbb269299605166a06393ffe2574efe8fd16c01549e9d4e",
+  "bytes": 28991,
+  "sha256": "5519599165612466cdfd5f9e288d486e6d2730e24e12ee6e1c2be6c5497974e0",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -29,6 +29,19 @@
       "level": "initial",
       "reason": "first snapshot",
       "note": "New posts: BHAVYA parks, MGNREGS real wages, modified UDAN"
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-10-28T16:30:57+05:30",
+      "level": "major",
+      "reason": "forced via --as major (figures changed (+8/-0 distinct numbers))",
+      "bytes": [
+        26929,
+        28991
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Gazette check: 24 posts verified against Gazette of India notifications"
     }
   ]
 }

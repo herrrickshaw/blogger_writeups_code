@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/india-ended-63-years-of-state-nuclear.html",
   "slug": "india-ended-63-years-of-state-nuclear",
   "published": "2026-09-15T10:11:42.000+05:30",
-  "updated": "2026-10-23T10:02:03.085+05:30",
+  "updated": "2026-10-28T16:26:52.153+05:30",
   "labels": [
     "Ease of Doing Business & Regulatory Reform",
     "Industrial Policy"
   ],
-  "bytes": 25124,
-  "sha256": "e005803163cd46044ced8d24be9e04538ccce4141804633982ff5499e18fa75f",
+  "bytes": 27355,
+  "sha256": "13bb2b16c74f91de2155e2de8503d7199566945849b9cf40a3e3f1384c82b81f",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.2.1",
+  "version": "3.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -134,6 +134,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Sweep 4 MEDIUM items: dated update notes on 59 posts"
+    },
+    {
+      "version": "3.0.0",
+      "date": "2026-10-28T16:30:57+05:30",
+      "level": "major",
+      "reason": "forced via --as major (figures changed (+14/-0 distinct numbers))",
+      "bytes": [
+        25124,
+        27355
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Gazette check: 24 posts verified against Gazette of India notifications"
     }
   ]
 }

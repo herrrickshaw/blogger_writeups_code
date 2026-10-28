@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/10/india-has-legalised-e100-for-flex-fuel.html",
   "slug": "india-has-legalised-e100-for-flex-fuel",
   "published": "2026-10-27T17:25:29.000+05:30",
-  "updated": "2026-10-27T17:31:42.900+05:30",
+  "updated": "2026-10-28T16:27:11.463+05:30",
   "labels": [
     "Energy & Fuels",
     "Ethanol & Biofuels"
   ],
-  "bytes": 24193,
-  "sha256": "b11c7559b8c5b64ff7edc59eac4636a27339b0d5823529b361639e78c4f1e867",
+  "bytes": 25618,
+  "sha256": "f975e28375f416d70184df6f4b12206645f2fce208a28ffcddcb76c54365f7f6",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -30,6 +30,19 @@
       "level": "initial",
       "reason": "first snapshot",
       "note": "11 new posts: net FDI, steel policy, chemical parks and eight follow-ups"
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-10-28T16:30:57+05:30",
+      "level": "major",
+      "reason": "forced via --as major (figures changed (+8/-0 distinct numbers))",
+      "bytes": [
+        24193,
+        25618
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Gazette check: 24 posts verified against Gazette of India notifications"
     }
   ]
 }

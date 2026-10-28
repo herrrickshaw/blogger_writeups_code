@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/india-let-oil-companies-put-solar-on.html",
   "slug": "india-let-oil-companies-put-solar-on",
   "published": "2026-09-28T15:57:52.000+05:30",
-  "updated": "2026-10-18T06:05:49.005+05:30",
+  "updated": "2026-10-28T16:27:33.279+05:30",
   "labels": [
     "Energy & Fuels",
     "Oil & Gas Exploration",
     "Renewable Power & Storage"
   ],
-  "bytes": 29796,
-  "sha256": "114d167302492d44bd115c67be91202f697450f31e2e6d247d5463371d9ede93",
+  "bytes": 31304,
+  "sha256": "e4adb6a67e9325d9886ba952d4ffb0c53e131588c8186d20a5483b65653ec1b1",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.1.0",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -57,6 +57,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Sweep 4: Seeds Bill note and stale-claim notes on 7 posts"
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-10-28T16:30:57+05:30",
+      "level": "major",
+      "reason": "forced via --as major (figures changed (+7/-0 distinct numbers))",
+      "bytes": [
+        29796,
+        31304
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Gazette check: 24 posts verified against Gazette of India notifications"
     }
   ]
 }

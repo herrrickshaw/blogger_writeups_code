@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/10/epfos-pay-ceiling-rose-to-25000-after.html",
   "slug": "epfos-pay-ceiling-rose-to-25000-after",
   "published": "2026-10-09T12:06:47.000+05:30",
-  "updated": "2026-10-10T09:51:16.344+05:30",
+  "updated": "2026-10-28T16:26:24.652+05:30",
   "labels": [
     "Markets & Finance"
   ],
-  "bytes": 22144,
-  "sha256": "76bc21eb5a903a882d6c4c42295c42ae451ad7812dbe28e865889cf578c092bd",
+  "bytes": 23188,
+  "sha256": "9ec93e886843ed64e15889a89f782c51a24820887ac0741037d2d69507ef765e",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -29,6 +29,19 @@
       "level": "initial",
       "reason": "first snapshot",
       "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-10-28T16:30:57+05:30",
+      "level": "major",
+      "reason": "forced via --as major (figures changed (+11/-0 distinct numbers))",
+      "bytes": [
+        22144,
+        23188
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Gazette check: 24 posts verified against Gazette of India notifications"
     }
   ]
 }

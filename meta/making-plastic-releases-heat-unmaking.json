@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/10/making-plastic-releases-heat-unmaking.html",
   "slug": "making-plastic-releases-heat-unmaking",
   "published": "2026-10-02T05:36:49.000+05:30",
-  "updated": "2026-10-02T05:54:13.666+05:30",
+  "updated": "2026-10-28T16:29:08.205+05:30",
   "labels": [
     "Climate & Carbon",
     "Energy & Fuels",
     "Industrial Policy"
   ],
-  "bytes": 56898,
-  "sha256": "bb5c6927dabac06616fe7490d0a94bc15d9d3ccfbb687e90cf406dc728e7db29",
+  "bytes": 58620,
+  "sha256": "f1b7fee34339c3935d1ce4cc55c4629d9a027aa38d2d539080fb769ccfb15d70",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.1.1",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -57,6 +57,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-10-28T16:30:57+05:30",
+      "level": "major",
+      "reason": "forced via --as major (figures changed (+6/-0 distinct numbers))",
+      "bytes": [
+        56898,
+        58620
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Gazette check: 24 posts verified against Gazette of India notifications"
     }
   ]
 }

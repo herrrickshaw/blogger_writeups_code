@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/10/india-imported-295-more-steel-this-year.html",
   "slug": "india-imported-295-more-steel-this-year",
   "published": "2026-10-09T18:59:43.000+05:30",
-  "updated": "2026-10-10T09:51:24.218+05:30",
+  "updated": "2026-10-28T16:27:22.550+05:30",
   "labels": [
     "Trade & Tariffs"
   ],
-  "bytes": 24685,
-  "sha256": "6ae365e1c6d30ce60300a5c61822e431aef6c0e94c84c8711cc0d95ca9a738ea",
+  "bytes": 26539,
+  "sha256": "27de2ac5a3e550b0f54d219fa38e1949a20fa345469eb494f0a86447a82d44a1",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -29,6 +29,19 @@
       "level": "initial",
       "reason": "first snapshot",
       "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-10-28T16:30:57+05:30",
+      "level": "major",
+      "reason": "forced via --as major (figures changed (+13/-0 distinct numbers))",
+      "bytes": [
+        24685,
+        26539
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Gazette check: 24 posts verified against Gazette of India notifications"
     }
   ]
 }
