@@ -24,6 +24,19 @@ COFIRED_FY25, COFIRED_2025_10M = 1.62, 3.42
 COAL_POWER_FY24 = 859.25
 COFIRE_7PC = COAL_POWER_FY24 * 0.07
 COFIRED_SHARE = COFIRED_FY25 / COAL_POWER_FY24 * 100
+# National Biomass Atlas of India (SSS-NIBE for MNRE; ASCI study, TE 2015-18): surplus Mt/yr (None = not read cleanly) and power potential MW
+ATLAS = [  # state, surplus Mt, MW, in CRM's four states, main surplus crop
+    ("Punjab", 22.25, 3022.1, True, "rice straw (about 18.8 Mt)"),
+    ("Uttar Pradesh", 21.60, 2800.3, True, "wheat straw (about 13.0 Mt)"),
+    ("Gujarat", 21.74, 2637.8, False, "see atlas"),
+    ("Maharashtra", 21.49, 2629.5, False, "sugarcane, wheat"),
+    ("Madhya Pradesh", None, 2516.4, False, "wheat (about 6.3 Mt), maize, rice"),
+    ("Andhra Pradesh", 17.09, 1999.5, False, "see atlas"),
+    ("Haryana", None, 1353.3, True, "rice (about 3.0 Mt), wheat (about 2.0 Mt)"),
+]
+ATLAS_NATIONAL_MT, ATLAS_NATIONAL_GW = 230, 28
+MW_OUT = sum(mw for _, _, mw, crm, _ in ATLAS if not crm)
+MW_IN = sum(mw for _, _, mw, crm, _ in ATLAS if crm)
 # CEEW (2025, Punjab): delivered cost of paddy straw, Rs per tonne
 AGG_15KM = 1330
 DEL_50_LO, DEL_50_HI = 2500, 3000
@@ -85,6 +98,33 @@ def t_costs():
     ])
 
 
+def chart_atlas():
+    rows = sorted(ATLAS, key=lambda r: -r[2])
+    W, L, top, bh, gap, lab = 400, 10, 36, 15, 7, 104
+    H = top + len(rows) * (bh + gap) + 34
+    sc = (W - L - lab - 60) / 3100
+    s = [f'<svg viewBox="0 0 {W} {H}" width="100%" role="img" aria-label="Biomass power potential from surplus crop residue by state, in MW, from the National Biomass Atlas; four of the seven largest states are outside the crop residue management scheme.">',
+         f'<text x="{L}" y="12" font-size="12" fill="#495057">Power potential of surplus crop residue, MW</text>',
+         f'<rect x="{L}" y="20" width="9" height="9" fill="#1c5d99"/><text x="{L + 13}" y="28" font-size="9.5" fill="#212529">Covered by the CRM scheme</text>',
+         f'<rect x="{L + 170}" y="20" width="9" height="9" fill="#a5402c"/><text x="{L + 183}" y="28" font-size="9.5" fill="#212529">Outside it</text>']
+    for i, (n, mt, mw, crm, _) in enumerate(rows):
+        y = top + i * (bh + gap)
+        col = "#1c5d99" if crm else "#a5402c"
+        s.append(f'<text x="{L + lab - 6}" y="{y + 11}" font-size="10" fill="#212529" text-anchor="end">{n}</text>')
+        s.append(f'<rect x="{L + lab}" y="{y}" width="{mw * sc:.1f}" height="{bh}" fill="{col}"/>')
+        s.append(f'<text x="{L + lab + mw * sc + 4:.1f}" y="{y + 11}" font-size="9.5" fill="#212529">{mw:,.0f}</text>')
+    s.append(f'<text x="{L}" y="{H - 16}" font-size="9" fill="#6c757d">National Biomass Atlas of India (SSS-NIBE, for MNRE), triennium ending 2017-18.</text>')
+    s.append(f'<text x="{L}" y="{H - 4}" font-size="9" fill="#6c757d">Delhi, also covered by the scheme, is not shown.</text>')
+    s.append('</svg>')
+    return '<figure class="gb-figure" style="margin:1.4rem 0">' + "\n".join(s) + '</figure>'
+
+
+def t_atlas():
+    return table(["State", "Surplus crop residue, Mt a year", "Power potential, MW", "Main surplus", "In CRM scheme?"], [
+        (n, f"{mt:.2f}" if mt else "not read cleanly", f"{mw:,.0f}", crop, "Yes" if crm else "No")
+        for n, mt, mw, crm, crop in sorted(ATLAS, key=lambda r: -r[2])])
+
+
 def t_schemes():
     return table(["Scheme", "Where", "What it pays for", "Support"], [
         ("Crop Residue Management (CRM), in-situ, since 2018", "Punjab, Haryana, UP, Delhi", "Machines that leave straw in the field: super seeders, Happy Seeders, mulchers, zero-till drills", "50% of machine cost for farmers; 80% for custom hiring centres up to Rs 30 lakh"),
@@ -112,7 +152,7 @@ def t_makers():
 
 def t_extend():
     return table(["Step", "What it would change", "Where to start"], [
-        ("Open the 65:25:10 supply-chain window to every state with a buyer", "Aggregators outside the four northern states could buy balers, rakes and loaders against a contract with a power plant, pellet maker, CBG plant or 2G ethanol plant", "Districts within trucking distance of coal plants under the co-firing mandate and of commissioned CBG plants"),
+        ("Open the 65:25:10 supply-chain window to every state with a buyer", "Aggregators outside the four northern states could buy balers, rakes and loaders against a contract with a power plant, pellet maker, CBG plant or 2G ethanol plant", "Gujarat, Maharashtra, Andhra Pradesh and Madhya Pradesh, which the National Biomass Atlas shows have surpluses close to Punjab&rsquo;s, starting with districts within 50 km of coal plants under the co-firing mandate and of commissioned CBG plants"),
         ("Fund aggregation sets, not single machines", "A baler is useless without a rake, a loader and a trailer; projects should be priced as sets, as the 2023-24 window does", "Custom hiring centres that already own high-HP tractors"),
         ("Pay part of the subsidy per tonne delivered", "Ties public money to straw actually collected rather than machines bought; CEEW and others have reported idle CRM machines", "New projects from the next season"),
         ("Working capital and storage", "Straw is collected in four to six weeks and used all year; depots and credit decide whether the chain survives", "Agriculture Infrastructure Fund and NABARD lines already named in the guidelines"),
@@ -147,6 +187,13 @@ body = f"""
 <p>Coal plants co-fired about 1.62 million tonnes of biomass in 2024-25, up from 0.38 million tonnes a year earlier, and about 3.42 million tonnes in January to October 2025, according to the power ministry as reported by Argus. The power sector burnt about 859 million tonnes of coal in 2023-24, so the 2024-25 volume was about {COFIRED_SHARE:.1f}% of that coal. If the 7% mandate were met by weight, it would need about {COFIRE_7PC:.0f} million tonnes of biomass a year, more than twice the rice stubble burnt in north-west India each autumn. Straw for plants near Delhi must be at least half paddy residue from Punjab, Haryana or the NCR under the power ministry&rsquo;s model contract. Brick kilns outside the NCR in Punjab and Haryana have been told to use paddy-straw pellets or briquettes.</p>
 <p>The binding constraint is collection, not demand. A baler and rake combination cost about Rs 15 lakh in 2020, biomass plants in Punjab were reported paying about Rs 169 a quintal (about Rs 1,690 a tonne) for straw, and listing sites put baled straw at Rs 800&ndash;1,500 a tonne to paper mills and power plants. At those prices, the margin for an aggregator depends on running the machines for as many tonnes as possible in a short window, which is what the ex-situ design tries to guarantee by tying each project to a buyer.</p>
 
+<h2 class="gb-h2">Where the surplus is: the National Biomass Atlas</h2>
+{chart_atlas()}
+<p>SSS-NIBE&rsquo;s <a href="https://nibe.res.in/english/biomass-atlas.php">National Biomass Atlas of India</a>, built on a study by the Administrative Staff College of India for the Ministry of New and Renewable Energy, puts India&rsquo;s surplus agricultural residue at about {ATLAS_NATIONAL_MT} million tonnes a year, enough for about {ATLAS_NATIONAL_GW} GW of biomass power, on 2015&ndash;18 data. &ldquo;Surplus&rdquo; is what is left after fodder, fuel and other existing uses. Its state table shows that the residue is not concentrated where the crop-residue scheme spends. Gujarat, Maharashtra and Andhra Pradesh each have a surplus of about 17&ndash;22 million tonnes, close to Punjab&rsquo;s 22 million, and Madhya Pradesh&rsquo;s residue supports about as much power as theirs. None of them is covered by the crop-residue machinery scheme. Of the seven states in the table, those outside the scheme account for about {MW_OUT:,.0f} MW of potential against {MW_IN:,.0f} MW inside it.</p>
+{t_atlas()}
+<p class="gb-note">Figures as shown on the atlas page and in the power ministry&rsquo;s SAMARTH copy of the same table; parts of the published table are garbled, so the Maharashtra total and the missing totals should be checked against the atlas download. Older estimates (for example, 234 million tonnes of surplus in a 2014 study, or 178 million tonnes in a CSE report) differ in years and assumptions.</p>
+<p>The atlas also shows that the surplus is not all rice straw. Uttar Pradesh&rsquo;s and Madhya Pradesh&rsquo;s largest surplus is wheat straw, Maharashtra&rsquo;s is sugarcane and wheat residue, and in the cotton belt it is cotton stalk. A national aggregation programme would need different machines for each: balers and rakes for loose straw, shredders and stalk pullers for cotton and pigeon-pea stalks, and trash balers for sugarcane.</p>
+
 <h2 class="gb-h2">What collection actually costs</h2>
 {t_costs()}
 <p>The Sardar Swaran Singh National Institute of Bio-Energy (SSS-NIBE) in Kapurthala, the Ministry of New and Renewable Energy&rsquo;s research institute, has been the main official voice on this. Its director general has described the core problem as a feedstock that is seasonal, voluminous and low in energy, and paddy straw as harder than wheat, cotton, mustard or maize residue because of its high ash and low calorific value. A 2025 review by SSS-NIBE researchers with US national-laboratory co-authors notes that the economics of biomass supply chains in India are under-studied. The institute ran a national seminar on biomass supply-chain management in Chandigarh in 2024, where Punjab&rsquo;s science council set out the state&rsquo;s paddy-straw problems.</p>
@@ -175,12 +222,12 @@ body = f"""
 <p class="gb-note">These are proposals from this blog, not recommendations any agency has adopted.</p>
 
 <h2 class="gb-h2">What this piece could not establish</h2>
-<p>The 2023-24 guidelines could not be opened from this blog&rsquo;s research environment; their terms come from the PIB release of July 2023 and consistent secondary summaries. The number of ex-situ projects sanctioned and tonnes collected under them was not found. Machine totals differ between sources (3.0 lakh in a PIB reply, 3.24 lakh in an explainer) and so do fund totals (Rs 3,623 crore and Rs 3,926 crore), probably because of different cut-off years. Straw prices are older reported figures. Machine prices are listing-site figures, and Shaktiman&rsquo;s product range is from its own site and trade-fair listing. The co-firing requirement in tonnes is an illustration on a weight basis, not an official estimate. State-wise surplus residue outside Punjab and Haryana could not be tabulated. No standalone SSS-NIBE report on biomass collection and use was found; this piece draws on the institute&rsquo;s published review, its director general&rsquo;s statements and its 2024 seminar, and on CEEW&rsquo;s cost estimates for Punjab.</p>
+<p>The 2023-24 guidelines could not be opened from this blog&rsquo;s research environment; their terms come from the PIB release of July 2023 and consistent secondary summaries. The number of ex-situ projects sanctioned and tonnes collected under them was not found. Machine totals differ between sources (3.0 lakh in a PIB reply, 3.24 lakh in an explainer) and so do fund totals (Rs 3,623 crore and Rs 3,926 crore), probably because of different cut-off years. Straw prices are older reported figures. Machine prices are listing-site figures, and Shaktiman&rsquo;s product range is from its own site and trade-fair listing. The co-firing requirement in tonnes is an illustration on a weight basis, not an official estimate. The National Biomass Atlas page could not be opened from this blog&rsquo;s research environment; its state figures were read from the page&rsquo;s indexed text and the SAMARTH copy, and two state totals could not be read cleanly. No standalone SSS-NIBE report on biomass collection and use was found; this piece draws on the institute&rsquo;s published review, its director general&rsquo;s statements and its 2024 seminar, and on CEEW&rsquo;s cost estimates for Punjab.</p>
 """
 
 sources = ("CRM 2023-24 guidelines: PIB release of 1 July 2023 (PRID 1936626) and summaries by Down To Earth, Deccan Herald, PMF IAS and Agro Spectrum; guideline PDF on the GOBARdhan portal (gobardhan.sbm.gov.in). Machines, CHCs, balers and rakes, subsidy rates: PIB parliament replies (PRIDs 2112397, 2198748, 2240644); CEEW on CRM machines and custom hiring centres; Eminent IAS explainer for the Rs 3,926 crore total. Punjab ex-situ target and Rs 500 crore: CEEW; Haryana straw: Vision IAS summary. "
            "SMAM rates: scheme summaries (Sanskriti IAS, newskart). CPCB pellet and torrefaction grant: PIB (PRID 1867506), S.S. Rana. MNRE bioenergy programme rates: industry summaries citing the MNRE office memorandum of 16 July 2024. Co-firing mandate and volumes: Ministry of Power policy as summarised by IMPRI and Power Line; Argus Media (December 2025) citing the power ministry; power-sector coal use 2023-24: CSE citing NITI Aayog. Rice stubble burnt in north-west India: published review cited in this blog&rsquo;s cotton-stalk piece. "
-           "SSS-NIBE: its director general as quoted by the Energy Institute (New Energy World); Ahmed et al. (2025), &ldquo;Biomass to bio-energy supply chain: economic viability, case studies, challenges and policy implications in India&rdquo; (PNNL record); SSS-NIBE national seminar on biomass supply-chain management (2024, iamrenew). Collection costs: CEEW, ex-situ crop residue management and paddy-straw storage reports and annexure (2025). Straw and machine prices: The Tribune; Hindustan Times (2020); TractorJunction, TractorGyan and Tractor For Everyone listings. Shaktiman: shaktimanagro.com and its EIMA exhibitor listing. Shares, per-tonne subsidy and the co-firing illustration are this blog&rsquo;s arithmetic. Not investment advice; machine mentions are not endorsements.")
+           "National Biomass Atlas of India (SSS-NIBE for MNRE, ASCI study, TE 2015-18), nibe.res.in, and the SAMARTH &lsquo;All India&rsquo; state table (samarth.powermin.gov.in). SSS-NIBE: its director general as quoted by the Energy Institute (New Energy World); Ahmed et al. (2025), &ldquo;Biomass to bio-energy supply chain: economic viability, case studies, challenges and policy implications in India&rdquo; (PNNL record); SSS-NIBE national seminar on biomass supply-chain management (2024, iamrenew). Collection costs: CEEW, ex-situ crop residue management and paddy-straw storage reports and annexure (2025). Straw and machine prices: The Tribune; Hindustan Times (2020); TractorJunction, TractorGyan and Tractor For Everyone listings. Shaktiman: shaktimanagro.com and its EIMA exhibitor listing. Shares, per-tonne subsidy and the co-firing illustration are this blog&rsquo;s arithmetic. Not investment advice; machine mentions are not endorsements.")
 
 related = [
     ("https://masaladeutsch.blogspot.com/2026/08/ethanols-coal-boilers-briquette-gap-and.html", "Ethanol&rsquo;s Coal Boilers, the Briquette Gap, and What US Carbon Capture Actually Delivers"),
