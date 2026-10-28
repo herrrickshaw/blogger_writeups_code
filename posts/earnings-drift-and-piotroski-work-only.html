@@ -1,0 +1,303 @@
+<div class="artx sgx">
+<style>
+/* ---- typography (gs-typo-unify-v1): keep in sync across all posts ---- */
+.sgx{font-family:Georgia,'Times New Roman',serif;line-height:1.6;color:#111}
+.sgx h1,.sgx h2,.sgx h3{line-height:1.3}
+
+/* ---- palette: define every colour as a custom property here. Do not add
+       raw hex elsewhere in a post's <style> block — reference these vars, so
+       a future palette change is a 4-line edit instead of a find-and-replace
+       across every post. ----
+   --ink     #111    body text, light-locked (see below)
+   --accent  #8a4b08  eyebrow text, h2 rule, table header bg, stat numbers —
+                       the one colour that carries this post's "brand"
+   --rule    #e8dcc4  hairline borders, h2 underline, table cell borders
+   --panel   #fdf7ec  stat-card bg, even table rows — the palette's one tint
+*/
+.sgx{--ink:#111;--accent:#8a4b08;--rule:#e8dcc4;--panel:#fdf7ec;--good:#1a7a4c;--good-soft:#eaf6ef;--bad:#a5402c;--bad-soft:#fff4f0}
+
+/* ---- mono-label convention (added 2026-09-17, borrowed from the
+       india-trade-sector-policy-recommendations design system): the eyebrow
+       kicker and the source line read as data-journalism metadata, not
+       article prose, so they get a monospace face — a system stack, not a
+       hosted webfont, so no post gains an extra network request or a
+       flash-of-unstyled-text risk. Body text (h1/p/li/table) keeps the
+       serif — this is a two-place accent, not a font-pairing overhaul. ---- */
+.sgx{--mono:ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace}
+
+/* ---- light lock (gs-light-lock): a dark Blogger theme (and a browser/OS
+       set to prefers-color-scheme:dark) must not repaint text. Re-assert
+       the same values with !important — verified 2026-08-14 across 5 live
+       posts with the browser's colour scheme forced to dark: body/h1/p/table
+       all stayed light-background/dark-text with no low-contrast pairs.
+       Do NOT add selectors here for panels that are meant to be dark —
+       those go in the guard below. ---- */
+.sgx,.sgx p,.sgx li,.sgx td,.sgx th{color:var(--ink)!important}
+.sgx{background:#fff!important}
+
+/* ---- structure: title + subtitle ----
+   .eyebrow    = the small-caps kicker ABOVE the h1 — "Section · Topic ·
+                 Subtopic", sets context before the reader hits the claim
+   h1          = the headline itself. Write it as the CLAIM, not the topic
+                 ("The Rouble Is the Outlier, Not the Dollar" beats
+                 "Currency Trends Update"). font-size 1.5rem is the deliberate
+                 site-wide size — do not bump it per-post.
+   .standfirst = the one/two-sentence SUBTITLE directly under the h1. This is
+                 also what Blogger's snippet extractor and the JSON-LD meta
+                 description both read (see the gs-head-order block below) —
+                 write it as a real, complete sentence a reader could act on,
+                 not a fragment.
+*/
+.sgx .eyebrow{font-size:.8rem;font-weight:700;letter-spacing:.04em;color:var(--accent);text-transform:uppercase;margin:0 0 6px;font-family:var(--mono)}
+.sgx h1{margin:0 0 10px;font-size:1.5rem}
+.sgx .standfirst{font-size:1.05rem;color:#333!important;margin:0 0 18px}
+.sgx .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px;margin:18px 0}
+.sgx .stat{background:var(--panel);border:1px solid var(--rule);border-radius:10px;padding:12px 14px}
+.sgx .stat b{display:block;font-size:1.2rem;color:var(--accent)}
+.sgx .stat span{font-size:.8rem}
+.sgx h2{color:var(--accent);border-bottom:2px solid var(--rule);padding-bottom:6px;margin-top:30px;font-size:1.15rem}
+
+/* ---- tables: units live in the header, cells carry bare numbers.
+       .tw is the mobile-overflow fix — see the MOBILE comment above. ---- */
+.sgx .tw{overflow-x:auto}
+.sgx table{width:100%;border-collapse:collapse;margin:14px 0;font-size:.88rem}
+.sgx th,.sgx td{border:1px solid var(--rule);padding:7px 9px;text-align:right;word-wrap:break-word;overflow-wrap:break-word}
+.sgx th:first-child,.sgx td:first-child{text-align:left}
+.sgx th{background:var(--accent);color:#fff!important;font-weight:600}
+.sgx tr:nth-child(even){background:var(--panel)}
+
+.sgx .note{background:#eef4ff;border-left:4px solid #2a78d6;padding:12px 16px;margin:18px 0;border-radius:0 8px 8px 0;font-size:.93rem}
+.sgx .warn{background:var(--bad-soft);border-left:4px solid var(--bad);padding:12px 16px;margin:18px 0;border-radius:0 8px 8px 0;font-size:.93rem}
+/* ---- .good (added 2026-09-17): third semantic tier alongside .note (neutral
+       framing) and .warn (a caveat/scope limit) — for the case a caveat block
+       would otherwise get stretched to cover: confirming a figure checked out,
+       a correction that resolved cleanly, a claim that survived cross-check.
+       Same shape as .note/.warn on purpose, so all three read as one family. */
+.sgx .good{background:var(--good-soft);border-left:4px solid var(--good);padding:12px 16px;margin:18px 0;border-radius:0 8px 8px 0;font-size:.93rem}
+/* ---- .chip (added 2026-09-17): formalises a labelling pattern several posts
+       already built ad hoc in JS (e.g. "PLI coverage: strong/partial/gap")
+       into one reusable inline component, so a new post doesn't reinvent it.
+       Use inline: <span class="chip chip-good">Strong</span>. ---- */
+.sgx .chip{display:inline-block;font-family:var(--mono);font-size:.72rem;font-weight:700;letter-spacing:.02em;padding:.15rem .5rem;border-radius:99px;line-height:1.5}
+.sgx .chip-good{background:var(--good-soft);color:var(--good)}
+.sgx .chip-warn{background:var(--panel);color:var(--accent)}
+.sgx .chip-bad{background:var(--bad-soft);color:var(--bad)}
+.sgx .src{font-size:.84rem;font-family:var(--mono);border-top:1px solid var(--rule);padding-top:12px;margin-top:24px}
+.sgx .disclaimer{font-size:.82rem;color:#555;margin-top:10px}
+.sgx .revised{font-size:.8rem;color:#555!important;margin:0 0 14px}
+.sgx .revised code{font-family:inherit;background:var(--panel);padding:1px 5px;border-radius:4px}
+</style>
+<div class="gs-head-order" style="display:flex;flex-direction:column">
+<p class="standfirst" style="order:4">Two classic stock signals, earnings drift and the Piotroski F-score, both work, but only where trading is thin. Adding return on capital to Piotroski picks better businesses without picking better stocks.</p>
+<div class="topnav-index-link" style="order:1;font-size:.82em;margin:6px 0 14px"><a href="https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html" style="color:#0b5394;text-decoration:none">&#8592; All Articles (Index)</a></div>
+<p class="eyebrow" style="order:2">Markets &middot; Stock signals &middot; Earnings drift, Piotroski, ROCE</p>
+<h1 style="order:3">Earnings Drift and Piotroski Work Only Where Trading Is Thin</h1>
+</div>
+<a href="#" id="gs-skip-link" class="gs-skip-link" style="position:absolute;left:-9999px;top:auto;background:#1a1a1a;color:#fff;padding:.6rem 1rem;z-index:1000;border-radius:4px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.85rem">Skip to article content</a>
+<style>.gs-skip-link:focus{left:8px!important;top:8px!important}
+.gs-a11y-bar{display:flex;align-items:center;gap:.55rem;flex-wrap:wrap;background:#f4f5f7;border:1px solid #dfe3e8;border-radius:8px;padding:.55rem .8rem;margin:10px 0 16px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
+.gs-a11y-bar .gs-a11y-label{font-size:.68rem;font-weight:700;letter-spacing:.08em;color:#666;text-transform:uppercase;margin-right:.15rem}
+.gs-a11y-bar button{cursor:pointer;border:1px solid #c7cbd1;background:#fff;color:#1a1a1a;border-radius:5px;padding:.32rem .65rem;font-family:inherit;line-height:1}
+.gs-a11y-bar button.gs-a11y-fs{font-weight:700;min-width:2rem;text-align:center}
+.gs-a11y-bar button.gs-a11y-fs[data-size="sm"]{font-size:.8rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="md"]{font-size:1rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="lg"]{font-size:1.2rem}
+.gs-a11y-bar button.gs-a11y-fs[aria-pressed="true"]{background:#1a1a1a;color:#fff;border-color:#1a1a1a}
+.gs-a11y-bar button:hover{border-color:#8a4b08}
+.gs-a11y-bar button:focus-visible{outline:2px solid #8a4b08;outline-offset:1px}
+.gs-a11y-bar .gs-a11y-sep{width:1px;align-self:stretch;background:#dfe3e8;margin:0 .1rem}</style>
+<div class="gs-a11y-bar" role="group" aria-label="Accessibility controls">
+<span class="gs-a11y-label">Text Size</span>
+<button type="button" class="gs-a11y-fs" data-size="sm" aria-pressed="false" aria-label="Small text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="md" aria-pressed="true" aria-label="Medium text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="lg" aria-pressed="false" aria-label="Large text">A</button>
+<span class="gs-a11y-sep"></span>
+<button type="button" id="gs-a11y-listen" aria-label="Read this article aloud">&#128266; Listen</button>
+<button type="button" id="gs-a11y-stop" aria-label="Stop reading aloud">&#9632; Stop</button>
+</div>
+<script>(function(){
+var KEY='gs-a11y-fontsize', SIZES={sm:'0.92',md:'1',lg:'1.15'};
+function pb(){return document.querySelector('.post-body')||document.querySelector('.artx,.mdrx');}
+function apply(sz){
+  var el=pb(); if(!el||!SIZES[sz]) return;
+  el.style.fontSize=SIZES[sz]+'em';
+  var btns=document.querySelectorAll('.gs-a11y-fs');
+  for(var i=0;i<btns.length;i++){
+    var on=btns[i].getAttribute('data-size')===sz;
+    btns[i].setAttribute('aria-pressed', on?'true':'false');
+  }
+  try{localStorage.setItem(KEY,sz);}catch(e){}
+}
+var fsBtns=document.querySelectorAll('.gs-a11y-fs');
+for(var j=0;j<fsBtns.length;j++){
+  fsBtns[j].addEventListener('click',(function(b){return function(){apply(b.getAttribute('data-size'));};})(fsBtns[j]));
+}
+var saved; try{saved=localStorage.getItem(KEY);}catch(e){}
+apply(saved&&SIZES[saved]?saved:'md');
+
+var listenBtn=document.getElementById('gs-a11y-listen'), stopBtn=document.getElementById('gs-a11y-stop');
+if(listenBtn){
+  listenBtn.addEventListener('click', function(){
+    if(!('speechSynthesis' in window)){ alert('Text-to-speech is not supported in this browser.'); return; }
+    window.speechSynthesis.cancel();
+    var src=pb(); if(!src) return;
+    var clone=src.cloneNode(true);
+    var strip=clone.querySelectorAll('script,style,svg');
+    for(var k=0;k<strip.length;k++){ strip[k].parentNode.removeChild(strip[k]); }
+    var text=clone.textContent.replace(/\s+/g,' ').trim();
+    if(!text) return;
+    var chunks=text.match(/[\s\S]{1,180}(?:[.!?]|$)/g)||[text];
+    var idx=0;
+    function speakNext(){
+      if(idx>=chunks.length) return;
+      var u=new SpeechSynthesisUtterance(chunks[idx]);
+      u.onend=function(){ idx++; speakNext(); };
+      window.speechSynthesis.speak(u);
+    }
+    speakNext();
+  });
+}
+if(stopBtn){
+  stopBtn.addEventListener('click', function(){
+    if('speechSynthesis' in window) window.speechSynthesis.cancel();
+  });
+}
+var skip=document.getElementById('gs-skip-link');
+if(skip){
+  skip.addEventListener('click', function(ev){
+    ev.preventDefault();
+    var h=document.querySelector('.post-body h1')||document.querySelector('.artx h1,.mdrx h1,h1');
+    if(h){ h.setAttribute('tabindex','-1'); h.focus(); h.scrollIntoView(); }
+  });
+}
+})();</script>
+<style>.goog-te-menu-frame{max-width:340px!important;max-height:70vh!important;overflow:auto!important;box-shadow:0 6px 24px rgba(0,0,0,.25)!important}</style>
+<div id="google_translate_element" style="margin:8px 0 16px;"></div><script type="text/javascript">function googleTranslateElementInit(){new google.translate.TranslateElement({pageLanguage:"en",includedLanguages:"hi,bn,ta,te,mr,gu,kn,ml,pa,or,as,ur,sa,ne,sd",layout:google.translate.TranslateElement.InlineLayout.SIMPLE,autoDisplay:false},"google_translate_element");}</script>
+
+<p class="revised" data-gs-revision-v1="1">Revised
+<time datetime="2026-10-28" itemprop="dateModified">28 October 2026</time>
+&middot; <code>v1.0.0</code></p>
+
+<div class="stats">
+<div class="stat"><b>+2.5%</b><span>40-day drift gap, best vs worst earnings reaction, 19 markets pooled</span></div>
+<div class="stat"><b>10&times;</b><span>Stronger illiquidity&ndash;drift link in the US with actual SEC filing dates</span></div>
+<div class="stat"><b>+31.4 pp</b><span>Piotroski premium in large, thinly traded US stocks (provisional)</span></div>
+<div class="stat"><b>&#8722;0.3 pp</b><span>F-score plus ROCE, top 20 vs all US stocks in sample, per year</span></div>
+</div>
+
+<p>This piece pulls together results from two research projects behind this blog: a 19-market study of classic stock signals, and a point-in-time test of the Piotroski F-score with US company filings from 2017 to 2025. Both are retests of well-known ideas from the finance literature, not new inventions.</p>
+<ul>
+<li><b>Earnings drift is real, but it hides.</b> Pooled across 19 markets, stocks with the best earnings-day reaction kept outperforming those with the worst by 2.5 percent over the next 40 trading days. In the US it was close to zero. The effect is strongest where stocks are hard to trade, and it only showed up in US data once actual filing dates replaced guessed ones.</li>
+<li><b>The Piotroski premium follows illiquidity, not company size.</b> Among thinly traded large companies, strong F-scores beat weak ones by 31 percentage points over a year. Most of that came from weak companies collapsing, not strong ones soaring.</li>
+<li><b>ROCE is a different signal from Piotroski, not a better one.</b> High and stable return on capital marks good businesses, but adding it to the F-score did not beat the market in US tests.</li>
+</ul>
+<div class="warn"><b>Read with care.</b> Several of these numbers are provisional, and one key script cannot currently be re-run. The caveats are set out at the end.</div>
+
+<h2>Earnings drift: the anomaly that should not exist</h2>
+<p>When a company reports results that surprise the market, its share price jumps. In an efficient market that jump would be the whole story. But since Ray Ball and Philip Brown's 1968 study, researchers have found that prices keep moving in the same direction for weeks afterwards. Victor Bernard and Jacob Thomas documented it in depth in 1989. It is known as post-earnings-announcement drift, or PEAD. Good news keeps drifting up; bad news keeps drifting down.</p>
+<p>A textbook test needs each company's exact announcement date and its earnings compared with analysts' forecasts. Free data for 19 markets has neither, so the study used a price-based stand-in. An earnings day was flagged when trading volume jumped to more than 2.5 times its recent average on the same day the price moved by more than two standard deviations. The surprise was the stock's market-adjusted return over the three days around the event. The drift was the market-adjusted return from two days after the event onward, so nothing used information from the future.</p>
+<p>Pooled across all 19 markets, the pattern was textbook:</p>
+<ul>
+<li>Stocks in the top fifth by surprise drifted up 1.4 percent over the next 40 trading days, and the bottom fifth drifted down 1.1 percent.</li>
+<li>The gap between them was 2.5 percent, and the five groups lined up almost perfectly in order (a monotonicity score of 0.90 out of 1).</li>
+<li>In the US alone, over 60 days, the gap was about &#8722;0.5 percent, with no order at all.</li>
+</ul>
+<p>The event days are clearly real news days. On the flagged days, volume surged to a median 3.8 times its pre-event average, and that surge was similar in every country.</p>
+<h3>The wrong-date problem</h3>
+<p>The US null turned out to be partly a measurement problem. A volume spike is not always earnings: it can be a merger, an index change or a market-wide shock. So the US test was rerun using the actual dates companies filed their quarterly and annual reports with the SEC. The test that changed most was whether drift is stronger in hard-to-trade stocks, measured as the rank correlation between a stock's illiquidity before the event and how far it drifted afterwards:</p>
+<div class="tw"><table>
+<tr><th>US test</th><th>Volume-spike stand-in</th><th>Actual SEC filing dates</th></tr>
+<tr><td>Events</td><td>about 4,000</td><td>313</td></tr>
+<tr><td>Illiquidity vs drift (rank correlation)</td><td>+0.010</td><td>+0.102</td></tr>
+<tr><td>Drift gap, least liquid minus most liquid fifth (%)</td><td>about 0</td><td>+1.04</td></tr>
+<tr><td>Volume surge on the day (&times; pre-event average)</td><td>3.7</td><td>1.6</td></tr>
+</table></div>
+<p>With real dates, the link between illiquidity and drift became ten times stronger. The filing date is often a few days after the earnings press release, so a sharper test would use the press-release date itself. With only 313 events, this is a strong hint rather than a settled result.</p>
+
+<h2>Where the drift lives</h2>
+<p>Why would drift persist at all? Tarun Chordia and colleagues argued in 2009 that trading costs are the answer: in stocks that are expensive to trade, it does not pay for professionals to arbitrage the drift away. If that is right, drift should be stronger in illiquid stocks and in less efficient markets.</p>
+<p>Pooled across all 8,803 events in 19 markets, the link between illiquidity and drift was faint: a rank correlation of +0.029, the right sign but barely there. Splitting the sample by country showed why:</p>
+<div class="tw"><table>
+<tr><th>Market</th><th>Events</th><th>Illiquidity vs drift (rank correlation)</th></tr>
+<tr><td>Brazil</td><td>109</td><td>+0.242</td></tr>
+<tr><td>EU</td><td>404</td><td>+0.151</td></tr>
+<tr><td>United Kingdom</td><td>482</td><td>+0.132</td></tr>
+<tr><td>Singapore</td><td>440</td><td>+0.100</td></tr>
+<tr><td>Australia, Canada, Germany</td><td>&mdash;</td><td>+0.02 to +0.06</td></tr>
+<tr><td>United States</td><td>4,075</td><td>+0.010</td></tr>
+<tr><td>Finland</td><td>108</td><td>&#8722;0.26</td></tr>
+<tr><td>South Africa</td><td>53</td><td>&#8722;0.03</td></tr>
+</table></div>
+<p>Eight of 12 markets with enough events showed the expected sign. The effect was strongest in Brazil and weakest in the US, the deepest and most heavily arbitraged market. The pooled number was an average of strong effects in less efficient markets and almost none in the US, and the US dominated the sample with nearly half of all events. Finland and South Africa had too few events to read.</p>
+<p>Two cautions apply to the whole earnings-drift study. It covers only about one year of daily data for most markets, and outside the US it relies on the volume-spike stand-in for earnings dates. The machinery is tested; the sample is short.</p>
+
+<h2>Piotroski: a premium for avoiding disasters in thinly traded stocks</h2>
+<p>In 2000, Joseph Piotroski showed that a simple nine-point checklist could sort cheap stocks into winners and losers. The F-score awards one point each for profitability, rising profitability, cash flow above earnings, falling debt, better liquidity, no new shares, rising margins, rising asset turnover and positive cash flow. Piotroski found the benefit concentrated in small, thinly traded firms with little analyst coverage.</p>
+<p>The test here used US companies' own SEC filings, entering each stock only after the date its annual report was actually filed. Returns are measured over the following 12 months, from 2017 to 2025, and delisted companies were kept rather than dropped.</p>
+<p>A first pass seemed to show the premium in small companies. But size and trading volume are closely tied (a correlation of +0.80 here), so the companies were sorted twice: by size, then by liquidity within each size group. Scores are expressed as the percentage of available tests a company passed, so a strong score is 70 or more and a weak one is under 40.</p>
+<div class="tw"><table>
+<tr><th>Size</th><th>Liquidity</th><th>Median return, strong F-score 70+ (%)</th><th>Median return, weak F-score under 40 (%)</th><th>Premium (pp)</th></tr>
+<tr><td>Small</td><td>Illiquid</td><td>+3.4</td><td>&#8722;10.0</td><td>+13.4</td></tr>
+<tr><td>Small</td><td>Liquid</td><td>+4.6</td><td>&#8722;2.9</td><td>+7.5</td></tr>
+<tr><td>Large</td><td>Illiquid</td><td>+6.8</td><td>&#8722;24.6</td><td>+31.4</td></tr>
+<tr><td>Large</td><td>Liquid</td><td>+8.2</td><td>+0.9</td><td>+7.4</td></tr>
+</table></div>
+<p>Thinly traded stocks had the bigger premium in both size groups, and the largest by far was among large but illiquid companies. The premium was smallest among large, heavily traded stocks, the most efficiently priced corner of the market.</p>
+<p>The mechanism is downside avoidance. In the strongest group, companies with strong F-scores returned a modest 6.8 percent, while weak ones fell 24.6 percent. These are typically distressed or closely held companies that big investors cannot easily sell. The F-score is better at flagging companies to avoid than at finding stars.</p>
+<p>The premium is also small in money terms. Using trading-cost estimates from the stocks' own daily price ranges, the strategy stays executable up to about $250,000. Above that, a position would exceed 15 to 20 percent of the typical illiquid stock's daily trading. At $1 million the net premium falls to about 3 percent; at $10 million it is deeply negative. That limited capacity is probably why the effect survives.</p>
+
+<h2>Adding ROCE: better businesses, not better stocks</h2>
+<p>The F-score measures whether a company is improving, not whether it is a good business. A steelmaker coming off a bad year can score well while still earning poor returns on its capital. So the research added a separate three-point block for return on capital employed (ROCE), scoring:</p>
+<ul>
+<li><b>Level:</b> ROCE above 15 percent, after removing cash from capital employed.</li>
+<li><b>Stability:</b> a five-year coefficient of variation below 0.30, so a one-year peak in a cyclical business does not count.</li>
+<li><b>Trend:</b> the latest ROCE at or above its five-year average.</li>
+</ul>
+<p>The block is kept separate from the nine F-score points rather than merged, so the F-score stays comparable with published research and the ROCE block's own contribution can be measured. Cash is removed because it sits in capital employed and drags the ratio down unevenly: Indian large caps hold about 20 percent of their capital employed as cash, against about 9 percent for small caps. The two scores are genuinely different. Their rank correlation is only about +0.23 in Indian samples, so ROCE adds information the F-score lacks.</p>
+<h3>Liquid companies are better businesses</h3>
+<p>In a sample of 291 Indian companies, ROCE rises steadily with how heavily a stock trades:</p>
+<div class="tw"><table>
+<tr><th>Trading tier</th><th>Firms</th><th>Median ROCE (%)</th><th>Median ROCE ex-cash (%)</th><th>Cash (% of capital employed)</th><th>Five-year variability (CV)</th></tr>
+<tr><td>Large (most traded)</td><td>92</td><td>17.9</td><td>21.6</td><td>20.0</td><td>0.22</td></tr>
+<tr><td>Mid</td><td>108</td><td>14.9</td><td>17.7</td><td>17.6</td><td>0.21</td></tr>
+<tr><td>Small (least traded)</td><td>91</td><td>9.7</td><td>11.2</td><td>9.1</td><td>0.34</td></tr>
+</table></div>
+<p>This fits the finding of Vivian Fang, Thomas Noe and Sheri Tice (2009) that liquidity goes with better company performance. The drop in stability comes between mid and small companies, not between large and mid.</p>
+<h3>But adding ROCE did not beat the market</h3>
+<p>The US test asked whether ranking stocks on the F-score plus the ROCE block, under several weightings, would beat simply holding all stocks in the sample. Each year from 2017 to 2025, the 20 highest-scoring companies under each weighting were held for 12 months:</p>
+<div class="tw"><table>
+<tr><th>Weighting</th><th>Average 12-month return (%)</th><th>Versus all stocks (pp)</th><th>Years ahead of all stocks</th></tr>
+<tr><td>All stocks in sample</td><td>21.1</td><td>&mdash;</td><td>&mdash;</td></tr>
+<tr><td>Equal weights (control)</td><td>20.8</td><td>&#8722;0.3</td><td>4 of 9</td></tr>
+<tr><td>Quality tilt</td><td>18.5</td><td>&#8722;2.6</td><td>4 of 9</td></tr>
+<tr><td>Safety tilt</td><td>17.3</td><td>&#8722;3.8</td><td>3 of 9</td></tr>
+<tr><td>Turnaround tilt</td><td>8.4</td><td>&#8722;12.7</td><td>3 of 9</td></tr>
+</table></div>
+<p>None of the weightings beat the market, and the control did no better. Good businesses with high, stable returns on capital are already priced as such in the US. This matches the Piotroski result above: the scores help most where prices are least efficient, and the US large-company universe used here sits at the liquid end of the market.</p>
+<p>The India picture is different, though untested as a return strategy. In a screen of 118 liquid Indian stocks, 40 had strong F-scores, but only 12 of those also scored full marks on ROCE. Another 26 scored full marks on ROCE with weaker F-scores: good businesses having a flat year that the F-score alone would miss.</p>
+
+<h2>What it adds up to</h2>
+<p>The three signals tell one story. Each works where trading is thin and prices adjust slowly, and fades where markets are deep and crowded with professionals:</p>
+<ul>
+<li>Earnings drift is strongest in Brazil and in illiquid stocks, and near zero in the US unless dated precisely.</li>
+<li>The Piotroski premium is largest in thinly traded companies and smallest in large, heavily traded ones.</li>
+<li>ROCE identifies better businesses, but in the liquid US market those businesses are already priced accordingly.</li>
+</ul>
+<div class="note">A neat way to put the last two together: <b>liquid companies are better businesses; illiquid stocks are better investments.</b> Both are true, and they are not in conflict. Yakov Amihud showed in 2002 that investors are paid for holding illiquid stocks; Fang, Noe and Tice showed liquid firms perform better. These results confirm both.</div>
+<p>The second lesson is about measurement. Earnings drift looked absent until the right dates were used. The illiquidity link looked faint until countries were separated. The Piotroski premium looked like a small-company effect until liquidity was sorted within size. In each case the signal was there; the first measurement hid it.</p>
+
+<h2>What could be wrong</h2>
+<div class="warn"><ul>
+<li><b>The Piotroski figures are provisional.</b> The project's own audit found eight data defects, including a revenue field that understated multi-segment companies' sales by up to 3.7 times. Three were fixed and the tables are being regenerated. The four premiums above moved between three successive runs: the two illiquid cells held steady, while the two liquid cells shifted by several points.</li>
+<li><b>The headline Piotroski script cannot currently be re-run.</b> The file that produced the size-by-liquidity table contains its write-up but not its code, so those figures cannot be reproduced from the repository today.</li>
+<li><b>ROCE for banks and lenders is wrong in this data.</b> For a lender, interest is a cost of doing business, so the standard formula overstates its returns, and the error happens to land in a plausible-looking range.</li>
+<li><b>Samples are short.</b> The earnings-drift study covers about one year for most markets. The Piotroski tests have only nine annual rebalances, and stocks move together within a year, so the effective sample is closer to nine than to thousands. No standard errors are reported because none would be credible.</li>
+<li><b>Returns are medians before tax,</b> and the Piotroski results control for size but not for value or market risk.</li>
+<li><b>The India ROCE screen</b> (118 stocks, 40 strong F-scores, 12 with full ROCE marks) comes from the project's research notes rather than a saved results file.</li>
+</ul></div>
+
+<p class="src">Sources: Ball &amp; Brown (1968), <a href="https://doi.org/10.2307/2490232">An empirical evaluation of accounting income numbers</a>, <i>Journal of Accounting Research</i> &middot; Bernard &amp; Thomas (1989), <a href="https://doi.org/10.2307/2491062">Post-earnings-announcement drift: delayed price response or risk premium?</a>, <i>Journal of Accounting Research</i> &middot; Chordia, Goyal, Sadka, Sadka &amp; Shivakumar (2009), <a href="https://doi.org/10.2469/faj.v65.n4.3">Liquidity and the post-earnings-announcement drift</a>, <i>Financial Analysts Journal</i> 65(4) &middot; Piotroski (2000), <a href="https://doi.org/10.2307/2672906">Value investing: the use of historical financial statement information to separate winners from losers</a>, <i>Journal of Accounting Research</i> &middot; Amihud (2002), <a href="https://doi.org/10.1016/S1386-4181(01)00024-6">Illiquidity and stock returns</a>, <i>Journal of Financial Markets</i> &middot; Fang, Noe &amp; Tice (2009), <a href="https://doi.org/10.1016/j.jfineco.2008.08.007">Stock market liquidity and firm value</a>, <i>Journal of Financial Economics</i> &middot; Corwin &amp; Schultz (2012), <a href="https://doi.org/10.1111/j.1540-6261.2012.01729.x">A simple way to estimate bid-ask spreads from daily high and low prices</a>, <i>Journal of Finance</i> 67(2). Research code: the author's Global Market Scanners project (earnings drift and liquidity modules) and Piotroski &times; liquidity research repository. Data: SEC EDGAR filings and Yahoo Finance daily prices. This post is AI-assisted analysis of public data, not investment advice.</p>
+
+<p class="disclaimer" data-gs-ai-disclosure-v1="1"><strong>About this article:</strong> Researched, written and edited by Umashankar Triplicane Dwarakanathan, with AI research assistance; every figure is meant to trace to the primary source cited. See the <a href="https://masaladeutsch.blogspot.com/p/disclaimer.html">Editorial Policy</a> for how sourcing, AI use and corrections work.</p>
+
+</div>

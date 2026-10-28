@@ -16297,3 +16297,9 @@ index republished after 10 repo-demo posts (youtube-demo-uploads 2026-10-27)
 **Changed**
 
 - `the-supercycle-is-in-metals-2026-oil` — 43,396 → 47,532 bytes (+4,136)
+
+## 2026-10-28T09:49:52+05:30 — 457 posts live
+
+**Added**
+
+- `earnings-drift-and-piotroski-work-only` **v1.0.0** — Earnings Drift and Piotroski Work Only Where Trading Is Thin (29,795 bytes)
