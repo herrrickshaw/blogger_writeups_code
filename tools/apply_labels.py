@@ -791,6 +791,7 @@ SLUG_CONTAINS = {
     "capped-margins-on-137-cancer": ["Healthcare"],
     "indians-pay-for-health": ["Healthcare"],
     "funded-3-lakh-machines": ["Agriculture & Fertilisers", "Energy & Fuels"],
+    "rice-and-maize-became-ethanol": ["Agriculture & Fertilisers", "Ethanol & Biofuels", "Energy & Fuels"],
 }
 
 
