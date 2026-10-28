@@ -16352,3 +16352,22 @@ New posts: gas share, data-centre tax holiday, fish by-products
 - `a-kilo-of-crude-fish-oil-sells-for` **v1.0.0** — A Kilo of Crude Fish Oil Sells for About Rs 650. In Capsules It Retails for Rs 7,500 or More. India's Fishers Sell Only the Fish (30,867 bytes)
 - `india-dropped-last-approvals-on-its` **v1.0.0** — India Dropped the Last Approvals on Its Data-Centre Tax Holiday. It Never Said What the Holiday Costs (25,198 bytes)
 - `india-wants-15-of-its-energy-from-gas` **v1.0.0** — India Wants 15% of Its Energy From Gas by 2030. The Official Energy Balance Shows Gas's Share Falling (30,237 bytes)
+
+## 2026-10-28T15:37:24+05:30 — 461 posts live
+
+Index: gas share, data-centre tax, fish by-products
+
+
+**Versions**
+
+- `article-index-start-here` **70.0.0 → 70.1.0** (MINOR) — forced via --as minor (figures changed (+5/-2 distinct numbers))
+
+**Changed**
+
+- `article-index-start-here` — 896,684 → 901,791 bytes (+5,107)
+
+**Re-dated** (publication date changed; body and URL unchanged)
+
+- `a-kilo-of-crude-fish-oil-sells-for` — 2026-10-28 &rarr; 2026-10-28
+- `india-dropped-last-approvals-on-its` — 2026-10-28 &rarr; 2026-10-28
+- `india-wants-15-of-its-energy-from-gas` — 2026-10-28 &rarr; 2026-10-28

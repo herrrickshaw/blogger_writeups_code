@@ -4,10 +4,10 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html",
   "slug": "article-index-start-here",
   "published": "2026-08-02T10:43:26.000+05:30",
-  "updated": "2026-10-28T11:23:46.207+05:30",
+  "updated": "2026-10-28T15:36:52.381+05:30",
   "labels": [],
-  "bytes": 896684,
-  "sha256": "79450894c00e0b2ef89c774f26b880cd1a0b1a287e99b8ae8d5968328780ed1e",
+  "bytes": 901791,
+  "sha256": "7222040442ea85af8620828a832c4ae76258d6e962d0143d1c746025e2e4b8da",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "70.0.0",
+  "version": "70.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -2366,6 +2366,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "70.1.0",
+      "date": "2026-10-28T15:37:24+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+5/-2 distinct numbers))",
+      "bytes": [
+        896684,
+        901791
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Index: gas share, data-centre tax, fish by-products"
     }
   ]
 }
