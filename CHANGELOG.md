@@ -16473,3 +16473,12 @@ Gazette check: 24 posts verified against Gazette of India notifications
 - `the-easiest-ev-conversion-in-india` — 38,420 → 40,226 bytes (+1,806)
 - `bio-fertiliser-and-green-credits` — 50,035 → 51,990 bytes (+1,955)
 - `indias-ev-market-single-digit` — 42,985 → 44,918 bytes (+1,933)
+
+## 2026-10-28T16:34:03+05:30 — 465 posts live
+
+New post: crop residue aggregation schemes and machinery
+
+
+**Added**
+
+- `india-has-funded-3-lakh-machines-to` **v1.0.0** — India Has Funded 3 Lakh Machines to Stop Stubble Burning. About 4,500 of Them Collect Straw (37,638 bytes)
