@@ -16277,3 +16277,13 @@ index republished after 10 repo-demo posts (youtube-demo-uploads 2026-10-27)
 **Added**
 
 - `the-supercycle-is-in-metals-2026-oil` **v1.0.0** — The Supercycle Is in Metals; the 2026 Oil Spike Is a Shock (43,396 bytes)
+
+## 2026-10-28T07:57:22+05:30 — 456 posts live
+
+**Versions**
+
+- `article-index-start-here` **67.5.0 → 68.0.0** (MAJOR) — figures changed (+3/-3 distinct numbers)
+
+**Changed**
+
+- `article-index-start-here` — 891,150 → 894,280 bytes (+3,130)
