@@ -16482,3 +16482,16 @@ New post: crop residue aggregation schemes and machinery
 **Added**
 
 - `india-has-funded-3-lakh-machines-to` **v1.0.0** — India Has Funded 3 Lakh Machines to Stop Stubble Burning. About 4,500 of Them Collect Straw (37,638 bytes)
+
+## 2026-10-28T17:00:36+05:30 — 466 posts live
+
+New post: biomass as a commodity
+
+
+**Added**
+
+- `rice-and-maize-became-ethanol` **v1.0.0** — Rice and Maize Became Ethanol Commodities With a Price, a Buyer and a Warehouse. Straw Has Only the Buyer (25,204 bytes)
+
+**Re-dated** (publication date changed; body and URL unchanged)
+
+- `india-has-funded-3-lakh-machines-to` — 2026-10-28 &rarr; 2026-10-28
