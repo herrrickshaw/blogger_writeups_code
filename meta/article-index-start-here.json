@@ -4,10 +4,10 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html",
   "slug": "article-index-start-here",
   "published": "2026-08-02T10:43:26.000+05:30",
-  "updated": "2026-10-28T15:36:52.381+05:30",
+  "updated": "2026-10-28T15:57:29.211+05:30",
   "labels": [],
-  "bytes": 901791,
-  "sha256": "7222040442ea85af8620828a832c4ae76258d6e962d0143d1c746025e2e4b8da",
+  "bytes": 906374,
+  "sha256": "fda2094f20e2ab942f50e3dfd81234f701de03db99a1320b766ac152221e6c61",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "70.1.0",
+  "version": "70.2.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -2379,6 +2379,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Index: gas share, data-centre tax, fish by-products"
+    },
+    {
+      "version": "70.2.0",
+      "date": "2026-10-28T15:58:07+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+5/-2 distinct numbers))",
+      "bytes": [
+        901791,
+        906374
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Index: mining law, drug margins, health cover"
     }
   ]
 }

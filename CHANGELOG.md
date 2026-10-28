@@ -16382,3 +16382,22 @@ New posts: mining law, drug margins, outpatient health cover
 - `most-of-what-indians-pay-for-health-is` **v1.0.0** — Most of What Indians Pay for Health Is Outpatient Care. Ayushman Bharat Pays Only for Hospital Stays (23,226 bytes)
 - `india-capped-margins-on-137-cancer` **v1.0.0** — India Capped Margins on 137 Cancer Drugs. Common Medicines Outside Price Control Carry Markups of Up to 1,800% (25,785 bytes)
 - `states-won-right-to-tax-mines-in-2024` **v1.0.0** — States Won the Right to Tax Mines in 2024. A 45-Minute Law Took It Back, Along With Up to Rs 2 Lakh Crore of Dues (26,071 bytes)
+
+## 2026-10-28T15:58:07+05:30 — 464 posts live
+
+Index: mining law, drug margins, health cover
+
+
+**Versions**
+
+- `article-index-start-here` **70.1.0 → 70.2.0** (MINOR) — forced via --as minor (figures changed (+5/-2 distinct numbers))
+
+**Changed**
+
+- `article-index-start-here` — 901,791 → 906,374 bytes (+4,583)
+
+**Re-dated** (publication date changed; body and URL unchanged)
+
+- `most-of-what-indians-pay-for-health-is` — 2026-10-28 &rarr; 2026-10-28
+- `india-capped-margins-on-137-cancer` — 2026-10-28 &rarr; 2026-10-28
+- `states-won-right-to-tax-mines-in-2024` — 2026-10-28 &rarr; 2026-10-28
