@@ -787,6 +787,9 @@ SLUG_CONTAINS = {
     "last-approvals-on-its": ["Industrial Policy", "Trade & Tariffs"],
     "wants-15-of-its-energy-from-gas": ["Gas & LNG", "Energy & Fuels"],
     "kilo-of-crude-fish-oil": ["Livestock & Dairy", "Agriculture & Food Processing"],
+    "right-to-tax-mines": ["Industrial Policy", "Governance & Institutions", "Macroeconomics & Monetary Policy"],
+    "capped-margins-on-137-cancer": ["Healthcare"],
+    "indians-pay-for-health": ["Healthcare"],
 }
 
 
