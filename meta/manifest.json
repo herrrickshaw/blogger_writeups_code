@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-10-28T11:24:25+05:30",
+  "snapshot": "2026-10-28T11:29:29+05:30",
   "count": 458,
   "posts": {
     "1008146607143508554": {
@@ -6625,14 +6625,14 @@
       "title": "The Negative Cash Conversion Cycle: Free Money or a Warning Sign?",
       "url": "https://masaladeutsch.blogspot.com/2026/10/the-negative-cash-conversion-cycle-free.html",
       "slug": "the-negative-cash-conversion-cycle-free",
-      "published": "2026-10-28T11:22:49.252+05:30",
-      "updated": "2026-10-28T11:22:49.252+05:30",
+      "published": "2026-10-28T11:22:49.000+05:30",
+      "updated": "2026-10-28T11:28:44.674+05:30",
       "labels": [
         "Equity Markets & Stock Screening",
         "Markets & Finance"
       ],
-      "bytes": 33047,
-      "sha256": "6399f08bb5d0fd28109bb86ced79527435b5d61c088917c6c0190e8b6d271577",
+      "bytes": 34960,
+      "sha256": "7fc584a1dd8fcabfd6cf5e00927655bf89338ee519e8397dab49811423a32c3f",
       "markers": {
         "light_lock": true,
         "dark_panel_guard": false,
@@ -6644,13 +6644,26 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "2.0.0",
       "version_history": [
         {
           "version": "1.0.0",
           "date": "2026-10-28T11:23:34+05:30",
           "level": "initial",
           "reason": "first snapshot",
+          "note": ""
+        },
+        {
+          "version": "2.0.0",
+          "date": "2026-10-28T11:29:29+05:30",
+          "level": "major",
+          "reason": "figures changed (+3/-0 distinct numbers)",
+          "bytes": [
+            33047,
+            34960
+          ],
+          "url_changed": null,
+          "markers_changed": null,
           "note": ""
         }
       ]
@@ -34207,14 +34220,14 @@
       "title": "Earnings Drift and Piotroski Work Only Where Trading Is Thin",
       "url": "https://masaladeutsch.blogspot.com/2026/10/earnings-drift-and-piotroski-work-only.html",
       "slug": "earnings-drift-and-piotroski-work-only",
-      "published": "2026-10-28T09:49:08.362+05:30",
-      "updated": "2026-10-28T09:49:08.363+05:30",
+      "published": "2026-10-28T09:49:08.000+05:30",
+      "updated": "2026-10-28T11:28:31.582+05:30",
       "labels": [
         "Equity Markets & Stock Screening",
         "Markets & Investing"
       ],
-      "bytes": 29795,
-      "sha256": "db614abc7fc98a8d45e6bba42339a930fa149f0c4de159c94799dd753fcfa007",
+      "bytes": 32492,
+      "sha256": "1d36297c675df9a1e3dd2a7ec39debba3511b435c75cda07f4c32c9b4fbea12c",
       "markers": {
         "light_lock": true,
         "dark_panel_guard": false,
@@ -34226,13 +34239,26 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "2.0.0",
       "version_history": [
         {
           "version": "1.0.0",
           "date": "2026-10-28T09:49:52+05:30",
           "level": "initial",
           "reason": "first snapshot",
+          "note": ""
+        },
+        {
+          "version": "2.0.0",
+          "date": "2026-10-28T11:29:29+05:30",
+          "level": "major",
+          "reason": "figures changed (+7/-0 distinct numbers)",
+          "bytes": [
+            29795,
+            32492
+          ],
+          "url_changed": null,
+          "markers_changed": null,
           "note": ""
         }
       ]

@@ -3,14 +3,14 @@
   "title": "Earnings Drift and Piotroski Work Only Where Trading Is Thin",
   "url": "https://masaladeutsch.blogspot.com/2026/10/earnings-drift-and-piotroski-work-only.html",
   "slug": "earnings-drift-and-piotroski-work-only",
-  "published": "2026-10-28T09:49:08.362+05:30",
-  "updated": "2026-10-28T09:49:08.363+05:30",
+  "published": "2026-10-28T09:49:08.000+05:30",
+  "updated": "2026-10-28T11:28:31.582+05:30",
   "labels": [
     "Equity Markets & Stock Screening",
     "Markets & Investing"
   ],
-  "bytes": 29795,
-  "sha256": "db614abc7fc98a8d45e6bba42339a930fa149f0c4de159c94799dd753fcfa007",
+  "bytes": 32492,
+  "sha256": "1d36297c675df9a1e3dd2a7ec39debba3511b435c75cda07f4c32c9b4fbea12c",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": false,
@@ -22,13 +22,26 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
       "date": "2026-10-28T09:49:52+05:30",
       "level": "initial",
       "reason": "first snapshot",
+      "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-10-28T11:29:29+05:30",
+      "level": "major",
+      "reason": "figures changed (+7/-0 distinct numbers)",
+      "bytes": [
+        29795,
+        32492
+      ],
+      "url_changed": null,
+      "markers_changed": null,
       "note": ""
     }
   ]

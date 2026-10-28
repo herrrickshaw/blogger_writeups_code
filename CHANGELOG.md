@@ -16329,3 +16329,15 @@ index republished after 10 repo-demo posts (youtube-demo-uploads 2026-10-27)
 **Changed**
 
 - `article-index-start-here` — 895,848 → 896,684 bytes (+836)
+
+## 2026-10-28T11:29:29+05:30 — 458 posts live
+
+**Versions**
+
+- `the-negative-cash-conversion-cycle-free` **1.0.0 → 2.0.0** (MAJOR) — figures changed (+3/-0 distinct numbers)
+- `earnings-drift-and-piotroski-work-only` **1.0.0 → 2.0.0** (MAJOR) — figures changed (+7/-0 distinct numbers)
+
+**Changed**
+
+- `the-negative-cash-conversion-cycle-free` — 33,047 → 34,960 bytes (+1,913)
+- `earnings-drift-and-piotroski-work-only` — 29,795 → 32,492 bytes (+2,697)

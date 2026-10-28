@@ -176,7 +176,7 @@ if(skip){
 
 <p class="revised" data-gs-revision-v1="1">Revised
 <time datetime="2026-10-28" itemprop="dateModified">28 October 2026</time>
-&middot; <code>v1.0.0</code></p>
+&middot; <code>v1.1.0</code> &middot; added Screener.in filter links</p>
 
 <div class="stats">
 <div class="stat"><b>+2.5%</b><span>40-day drift gap, best vs worst earnings reaction, 19 markets pooled</span></div>
@@ -285,6 +285,16 @@ if(skip){
 </ul>
 <div class="note">A neat way to put the last two together: <b>liquid companies are better businesses; illiquid stocks are better investments.</b> Both are true, and they are not in conflict. Yakov Amihud showed in 2002 that investors are paid for holding illiquid stocks; Fang, Noe and Tice showed liquid firms perform better. These results confirm both.</div>
 <p>The second lesson is about measurement. Earnings drift looked absent until the right dates were used. The illiquidity link looked faint until countries were separated. The Piotroski premium looked like a small-company effect until liquidity was sorted within size. In each case the signal was there; the first measurement hid it.</p>
+
+<h2>Run these filters yourself on Screener.in</h2>
+<p>Screener.in covers Indian listed companies only, so these filters are a starting point for the Indian market, not a re-run of the tests above. Screener&rsquo;s own and other users&rsquo; saved screens open without an account. The custom filters open in Screener&rsquo;s query page, which needs a free login. A user-made screen can be edited by its owner later, so check the query shown on the page.</p>
+<ul>
+<li><b><a href="https://www.screener.in/screens/2/piotroski-scan/" target="_blank" rel="noopener">Piotroski Scan</a></b> <code>Piotroski score &gt; 7</code> &mdash; Screener&rsquo;s own saved screen; opens without a login. It keeps only scores of 8 or 9, stricter than the 70-percent cut used above.</li>
+<li><b><a href="https://www.screener.in/screen/raw/?query=Piotroski+score+%3E+6+AND+Return+on+capital+employed+%3E+15+AND+Average+return+on+capital+employed+3Years+%3E+15" target="_blank" rel="noopener">F-score plus ROCE</a></b> <code>Piotroski score &gt; 6 AND Return on capital employed &gt; 15 AND Average return on capital employed 3Years &gt; 15</code> &mdash; an F-score of 7 or more plus the ROCE level test. The three-year average is a rough stand-in for the stability test; Screener does not report ROCE ex-cash.</li>
+<li><b><a href="https://www.screener.in/screen/raw/?query=Piotroski+score+%3E+6+AND+Market+Capitalization+%3C+1000" target="_blank" rel="noopener">Strong F-score in small companies</a></b> <code>Piotroski score &gt; 6 AND Market Capitalization &lt; 1000</code> &mdash; market value under &#8377;1,000 crore as a rough proxy for thin trading. The premium above followed illiquidity, so check each stock&rsquo;s daily traded value before relying on it.</li>
+<li><b><a href="https://www.screener.in/screen/raw/?query=Piotroski+score+%3C+3+AND+Market+Capitalization+%3C+1000" target="_blank" rel="noopener">Weak F-scores to avoid</a></b> <code>Piotroski score &lt; 3 AND Market Capitalization &lt; 1000</code> &mdash; the side that drove most of the premium: weak, thinly traded companies that went on to fall.</li>
+<li><b><a href="https://www.screener.in/screen/raw/?query=YOY+Quarterly+profit+growth+%3E+50+AND+YOY+Quarterly+sales+growth+%3E+15+AND+Market+Capitalization+%3C+2000" target="_blank" rel="noopener">Recent strong results in small companies</a></b> <code>YOY Quarterly profit growth &gt; 50 AND YOY Quarterly sales growth &gt; 15 AND Market Capitalization &lt; 2000</code> &mdash; Screener has no earnings-surprise or drift filter. This lists small companies whose latest quarter jumped. It is a way to find candidates, not a test of drift.</li>
+</ul>
 
 <h2>What could be wrong</h2>
 <div class="warn"><ul>

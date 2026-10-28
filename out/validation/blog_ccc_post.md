@@ -5,7 +5,7 @@
 > on its own. Test 1 is deterministic.
 
 Source: `posts/blog_ccc_post.html` · title: The Negative Cash Conversion Cycle: Free Money or a Warning Sign? · printed date: 28 October 2026
-Run: 2026-10-28T11:22:38+05:30 · endpoint: http://localhost:20128 · model: -
+Run: 2026-10-28T11:28:16+05:30 · endpoint: http://localhost:20128 · model: -
 
 ## 1. House rules (static, deterministic)
 
