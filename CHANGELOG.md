@@ -16341,3 +16341,14 @@ index republished after 10 repo-demo posts (youtube-demo-uploads 2026-10-27)
 
 - `the-negative-cash-conversion-cycle-free` — 33,047 → 34,960 bytes (+1,913)
 - `earnings-drift-and-piotroski-work-only` — 29,795 → 32,492 bytes (+2,697)
+
+## 2026-10-28T15:34:49+05:30 — 461 posts live
+
+New posts: gas share, data-centre tax holiday, fish by-products
+
+
+**Added**
+
+- `a-kilo-of-crude-fish-oil-sells-for` **v1.0.0** — A Kilo of Crude Fish Oil Sells for About Rs 650. In Capsules It Retails for Rs 7,500 or More. India's Fishers Sell Only the Fish (30,867 bytes)
+- `india-dropped-last-approvals-on-its` **v1.0.0** — India Dropped the Last Approvals on Its Data-Centre Tax Holiday. It Never Said What the Holiday Costs (25,198 bytes)
+- `india-wants-15-of-its-energy-from-gas` **v1.0.0** — India Wants 15% of Its Energy From Gas by 2030. The Official Energy Balance Shows Gas's Share Falling (30,237 bytes)
