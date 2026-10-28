@@ -4,7 +4,7 @@
   "url": "https://masaladeutsch.blogspot.com/2026/10/the-supercycle-is-in-metals-2026-oil.html",
   "slug": "the-supercycle-is-in-metals-2026-oil",
   "published": "2026-10-28T07:55:44.000+05:30",
-  "updated": "2026-10-28T07:55:44.001+05:30",
+  "updated": "2026-10-28T07:59:42.963+05:30",
   "labels": [
     "Energy & Fuels",
     "India",
@@ -12,8 +12,8 @@
     "Prices & Inflation",
     "Trade & Tariffs"
   ],
-  "bytes": 43396,
-  "sha256": "b715540dad43cd51212c7b92d69603edacb86c3f877e4d42bc8215bde1f62f78",
+  "bytes": 47532,
+  "sha256": "325cbd9428c4bd019c989b81ee0f306e31da2e3184fcb378417cb53fe0b36f0b",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": false,
@@ -25,13 +25,26 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
       "date": "2026-10-28T07:56:25+05:30",
       "level": "initial",
       "reason": "first snapshot",
+      "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-10-28T08:00:23+05:30",
+      "level": "major",
+      "reason": "figures changed (+19/-0 distinct numbers)",
+      "bytes": [
+        43396,
+        47532
+      ],
+      "url_changed": null,
+      "markers_changed": null,
       "note": ""
     }
   ]
