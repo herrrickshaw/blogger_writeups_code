@@ -16371,3 +16371,14 @@ Index: gas share, data-centre tax, fish by-products
 - `a-kilo-of-crude-fish-oil-sells-for` — 2026-10-28 &rarr; 2026-10-28
 - `india-dropped-last-approvals-on-its` — 2026-10-28 &rarr; 2026-10-28
 - `india-wants-15-of-its-energy-from-gas` — 2026-10-28 &rarr; 2026-10-28
+
+## 2026-10-28T15:55:23+05:30 — 464 posts live
+
+New posts: mining law, drug margins, outpatient health cover
+
+
+**Added**
+
+- `most-of-what-indians-pay-for-health-is` **v1.0.0** — Most of What Indians Pay for Health Is Outpatient Care. Ayushman Bharat Pays Only for Hospital Stays (23,226 bytes)
+- `india-capped-margins-on-137-cancer` **v1.0.0** — India Capped Margins on 137 Cancer Drugs. Common Medicines Outside Price Control Carry Markups of Up to 1,800% (25,785 bytes)
+- `states-won-right-to-tax-mines-in-2024` **v1.0.0** — States Won the Right to Tax Mines in 2024. A 45-Minute Law Took It Back, Along With Up to Rs 2 Lakh Crore of Dues (26,071 bytes)
