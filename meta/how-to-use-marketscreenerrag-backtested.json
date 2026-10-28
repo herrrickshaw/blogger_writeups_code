@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/10/how-to-use-marketscreenerrag-backtested.html",
   "slug": "how-to-use-marketscreenerrag-backtested",
   "published": "2026-10-18T08:54:50.000+05:30",
-  "updated": "2026-10-19T09:05:27.653+05:30",
+  "updated": "2026-10-29T05:11:14.566+05:30",
   "labels": [
     "Equity Markets & Stock Screening",
     "Markets & Finance",
     "Open-Source Tools & How-To"
   ],
-  "bytes": 23530,
-  "sha256": "d9f589caff3c935f448d048e14762db6ed9bf66cff448a7c0cbfc9515fdacf16",
+  "bytes": 23411,
+  "sha256": "2036a3157af0aa4fcecc3f5cabaa58b33e22c23d6ee91c54c5888dcce3efc719",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.2",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -57,6 +57,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-10-29T05:18:35+05:30",
+      "level": "major",
+      "reason": "figures changed (+2/-1 distinct numbers)",
+      "bytes": [
+        23530,
+        23411
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "youtube-demo-uploads 2026-10-29: 8 repo-demo posts promoted live, 2 refreshed"
     }
   ]
 }

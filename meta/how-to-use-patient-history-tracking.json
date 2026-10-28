@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/10/how-to-use-patient-history-tracking.html",
   "slug": "how-to-use-patient-history-tracking",
   "published": "2026-10-18T08:54:52.000+05:30",
-  "updated": "2026-10-19T09:05:19.702+05:30",
+  "updated": "2026-10-29T05:11:29.016+05:30",
   "labels": [
     "Healthcare",
     "India",
     "Open-Source Tools & How-To"
   ],
-  "bytes": 23518,
-  "sha256": "0ad2554902f56222056444562c98ec16346fa4513e01e2e9ab22ce35274e4656",
+  "bytes": 23399,
+  "sha256": "81f88a507b4df257507ff989f465ea5d8dd2333aa350a308df0a1304705ccc06",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.2",
+  "version": "1.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -57,6 +57,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "1.0.3",
+      "date": "2026-10-29T05:18:35+05:30",
+      "level": "patch",
+      "reason": "wording changed; no figures, sections or claims moved",
+      "bytes": [
+        23518,
+        23399
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "youtube-demo-uploads 2026-10-29: 8 repo-demo posts promoted live, 2 refreshed"
     }
   ]
 }

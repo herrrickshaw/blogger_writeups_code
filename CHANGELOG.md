@@ -16508,3 +16508,29 @@ Commodity post: bamboo and Numaligarh 2G ethanol section
 **Changed**
 
 - `rice-and-maize-became-ethanol` — 25,204 → 30,162 bytes (+4,958)
+
+## 2026-10-29T05:18:35+05:30 — 474 posts live
+
+youtube-demo-uploads 2026-10-29: 8 repo-demo posts promoted live, 2 refreshed
+
+
+**Added**
+
+- `how-to-use-lok-rajya-sabha-qa-see-which` **v1.0.0** — How to use lok-rajya-sabha-qa: see which parties and ministries Parliament questions are about (24,127 bytes)
+- `how-to-use-lng-design-opensource-size` **v1.0.0** — How to use lng-design-opensource: size an LNG train with open tools (22,146 bytes)
+- `how-to-use-lignocellulosic-ethanol` **v1.0.0** — How to use lignocellulosic-ethanol-opensource: size a 2G ethanol plant (21,442 bytes)
+- `how-to-use-piotroski-liquidity-research` **v1.0.0** — How to use piotroski-liquidity-research: a point-in-time test of the Piotroski F-score and liquidity (29,967 bytes)
+- `how-to-use-mospi-dataset-analysis` **v1.0.0** — How to use mospi-dataset-analysis-public: browse India's official MoSPI data snapshot (22,940 bytes)
+- `how-to-use-memory-map-optimizer-cluster` **v1.0.0** — How to use memory-map-optimizer: cluster a knowledge graph and search and dedupe notes (24,040 bytes)
+- `how-to-use-market-correlation-matrices` **v1.0.0** — How to use market-correlation-matrices: read per-market stock correlation snapshots (27,326 bytes)
+- `how-to-use-ltm-warehouse-tests-test` **v1.0.0** — How to use ltm-warehouse-tests: test a Postgres price-history backfill without touching the real warehouse (24,703 bytes)
+
+**Versions**
+
+- `how-to-use-patient-history-tracking` **1.0.2 → 1.0.3** (PATCH) — wording changed; no figures, sections or claims moved
+- `how-to-use-marketscreenerrag-backtested` **1.0.2 → 2.0.0** (MAJOR) — figures changed (+2/-1 distinct numbers)
+
+**Changed**
+
+- `how-to-use-patient-history-tracking` — 23,518 → 23,399 bytes (-119)
+- `how-to-use-marketscreenerrag-backtested` — 23,530 → 23,411 bytes (-119)

@@ -1,0 +1,241 @@
+<div class="artx htulngdes">
+<style>
+/* ---- typography (gs-typo-unify-v1): keep in sync across all posts ---- */
+.htulngdes{font-family:Georgia,'Times New Roman',serif;line-height:1.6;color:#111}
+.htulngdes h1,.htulngdes h2,.htulngdes h3{line-height:1.3}
+
+/* ---- palette: define every colour as a custom property here. Do not add
+       raw hex elsewhere in a post's <style> block — reference these vars, so
+       a future palette change is a 4-line edit instead of a find-and-replace
+       across every post. ----
+   --ink     #111    body text, light-locked (see below)
+   --accent  #8a4b08  eyebrow text, h2 rule, table header bg, stat numbers —
+                       the one colour that carries this post's "brand"
+   --rule    #e8dcc4  hairline borders, h2 underline, table cell borders
+   --panel   #fdf7ec  stat-card bg, even table rows — the palette's one tint
+*/
+.htulngdes{--ink:#111;--accent:#8a4b08;--rule:#e8dcc4;--panel:#fdf7ec;--good:#1a7a4c;--good-soft:#eaf6ef;--bad:#a5402c;--bad-soft:#fff4f0}
+
+/* ---- mono-label convention (added 2026-09-17, borrowed from the
+       india-trade-sector-policy-recommendations design system): the eyebrow
+       kicker and the source line read as data-journalism metadata, not
+       article prose, so they get a monospace face — a system stack, not a
+       hosted webfont, so no post gains an extra network request or a
+       flash-of-unstyled-text risk. Body text (h1/p/li/table) keeps the
+       serif — this is a two-place accent, not a font-pairing overhaul. ---- */
+.htulngdes{--mono:ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace}
+
+/* ---- light lock (gs-light-lock): a dark Blogger theme (and a browser/OS
+       set to prefers-color-scheme:dark) must not repaint text. Re-assert
+       the same values with !important — verified 2026-08-14 across 5 live
+       posts with the browser's colour scheme forced to dark: body/h1/p/table
+       all stayed light-background/dark-text with no low-contrast pairs.
+       Do NOT add selectors here for panels that are meant to be dark —
+       those go in the guard below. ---- */
+.htulngdes,.htulngdes p,.htulngdes li,.htulngdes td,.htulngdes th{color:var(--ink)!important}
+.htulngdes{background:#fff!important}
+
+/* ---- structure: title + subtitle ----
+   .eyebrow    = the small-caps kicker ABOVE the h1 — "Section · Topic ·
+                 Subtopic", sets context before the reader hits the claim
+   h1          = the headline itself. Write it as the CLAIM, not the topic
+                 ("The Rouble Is the Outlier, Not the Dollar" beats
+                 "Currency Trends Update"). font-size 1.5rem is the deliberate
+                 site-wide size — do not bump it per-post.
+   .standfirst = the one/two-sentence SUBTITLE directly under the h1. This is
+                 also what Blogger's snippet extractor and the JSON-LD meta
+                 description both read (see the gs-head-order block below) —
+                 write it as a real, complete sentence a reader could act on,
+                 not a fragment.
+*/
+.htulngdes .eyebrow{font-size:.8rem;font-weight:700;letter-spacing:.04em;color:var(--accent);text-transform:uppercase;margin:0 0 6px;font-family:var(--mono)}
+.htulngdes h1{margin:0 0 10px;font-size:1.5rem}
+.htulngdes .standfirst{font-size:1.05rem;color:#333!important;margin:0 0 18px}
+.htulngdes .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px;margin:18px 0}
+.htulngdes .stat{background:var(--panel);border:1px solid var(--rule);border-radius:10px;padding:12px 14px}
+.htulngdes .stat b{display:block;font-size:1.2rem;color:var(--accent)}
+.htulngdes .stat span{font-size:.8rem}
+.htulngdes h2{color:var(--accent);border-bottom:2px solid var(--rule);padding-bottom:6px;margin-top:30px;font-size:1.15rem}
+
+/* ---- tables: units live in the header, cells carry bare numbers.
+       .tw is the mobile-overflow fix — see the MOBILE comment above. ---- */
+.htulngdes .tw{overflow-x:auto}
+.htulngdes table{width:100%;border-collapse:collapse;margin:14px 0;font-size:.88rem}
+.htulngdes th,.htulngdes td{border:1px solid var(--rule);padding:7px 9px;text-align:right;word-wrap:break-word;overflow-wrap:break-word}
+.htulngdes th:first-child,.htulngdes td:first-child{text-align:left}
+.htulngdes th{background:var(--accent);color:#fff!important;font-weight:600}
+.htulngdes tr:nth-child(even){background:var(--panel)}
+
+.htulngdes .note{background:#eef4ff;border-left:4px solid #2a78d6;padding:12px 16px;margin:18px 0;border-radius:0 8px 8px 0;font-size:.93rem}
+.htulngdes .warn{background:var(--bad-soft);border-left:4px solid var(--bad);padding:12px 16px;margin:18px 0;border-radius:0 8px 8px 0;font-size:.93rem}
+/* ---- .good (added 2026-09-17): third semantic tier alongside .note (neutral
+       framing) and .warn (a caveat/scope limit) — for the case a caveat block
+       would otherwise get stretched to cover: confirming a figure checked out,
+       a correction that resolved cleanly, a claim that survived cross-check.
+       Same shape as .note/.warn on purpose, so all three read as one family. */
+.htulngdes .good{background:var(--good-soft);border-left:4px solid var(--good);padding:12px 16px;margin:18px 0;border-radius:0 8px 8px 0;font-size:.93rem}
+/* ---- .chip (added 2026-09-17): formalises a labelling pattern several posts
+       already built ad hoc in JS (e.g. "PLI coverage: strong/partial/gap")
+       into one reusable inline component, so a new post doesn't reinvent it.
+       Use inline: <span class="chip chip-good">Strong</span>. ---- */
+.htulngdes .chip{display:inline-block;font-family:var(--mono);font-size:.72rem;font-weight:700;letter-spacing:.02em;padding:.15rem .5rem;border-radius:99px;line-height:1.5}
+.htulngdes .chip-good{background:var(--good-soft);color:var(--good)}
+.htulngdes .chip-warn{background:var(--panel);color:var(--accent)}
+.htulngdes .chip-bad{background:var(--bad-soft);color:var(--bad)}
+.htulngdes .src{font-size:.84rem;font-family:var(--mono);border-top:1px solid var(--rule);padding-top:12px;margin-top:24px}
+.htulngdes .disclaimer{font-size:.82rem;color:#555;margin-top:10px}
+.htulngdes .revised{font-size:.8rem;color:#555!important;margin:0 0 14px}
+.htulngdes .revised code{font-family:inherit;background:var(--panel);padding:1px 5px;border-radius:4px}
+</style>
+
+
+<div class="gs-head-order" style="display:flex;flex-direction:column">
+<p class="standfirst" style="order:4">An open Python toolkit that gives a quick, traceable first-pass sizing of an LNG liquefaction train and related terminals, with every stage on one feed basis, before you commit to a licensed simulator.</p>
+<div class="topnav-index-link" style="order:1;font-size:.82em;margin:6px 0 14px"><a href="https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html" style="color:#0b5394;text-decoration:none">&#8592; All Articles (Index)</a></div>
+<p class="eyebrow" style="order:2">Open-source tools · How-to · LNG Plant &amp; Terminal Engineering</p>
+<h1 style="order:3">How to use lng-design-opensource: size an LNG train with open tools</h1>
+</div>
+
+
+<a href="#" id="gs-skip-link" class="gs-skip-link" style="position:absolute;left:-9999px;top:auto;background:#1a1a1a;color:#fff;padding:.6rem 1rem;z-index:1000;border-radius:4px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.85rem">Skip to article content</a>
+<style>.gs-skip-link:focus{left:8px!important;top:8px!important}
+.gs-a11y-bar{display:flex;align-items:center;gap:.55rem;flex-wrap:wrap;background:#f4f5f7;border:1px solid #dfe3e8;border-radius:8px;padding:.55rem .8rem;margin:10px 0 16px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
+.gs-a11y-bar .gs-a11y-label{font-size:.68rem;font-weight:700;letter-spacing:.08em;color:#666;text-transform:uppercase;margin-right:.15rem}
+.gs-a11y-bar button{cursor:pointer;border:1px solid #c7cbd1;background:#fff;color:#1a1a1a;border-radius:5px;padding:.32rem .65rem;font-family:inherit;line-height:1}
+.gs-a11y-bar button.gs-a11y-fs{font-weight:700;min-width:2rem;text-align:center}
+.gs-a11y-bar button.gs-a11y-fs[data-size="sm"]{font-size:.8rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="md"]{font-size:1rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="lg"]{font-size:1.2rem}
+.gs-a11y-bar button.gs-a11y-fs[aria-pressed="true"]{background:#1a1a1a;color:#fff;border-color:#1a1a1a}
+.gs-a11y-bar button:hover{border-color:#8a4b08}
+.gs-a11y-bar button:focus-visible{outline:2px solid #8a4b08;outline-offset:1px}
+.gs-a11y-bar .gs-a11y-sep{width:1px;align-self:stretch;background:#dfe3e8;margin:0 .1rem}</style>
+<div class="gs-a11y-bar" role="group" aria-label="Accessibility controls">
+<span class="gs-a11y-label">Text Size</span>
+<button type="button" class="gs-a11y-fs" data-size="sm" aria-pressed="false" aria-label="Small text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="md" aria-pressed="true" aria-label="Medium text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="lg" aria-pressed="false" aria-label="Large text">A</button>
+<span class="gs-a11y-sep"></span>
+<button type="button" id="gs-a11y-listen" aria-label="Read this article aloud">&#128266; Listen</button>
+<button type="button" id="gs-a11y-stop" aria-label="Stop reading aloud">&#9632; Stop</button>
+</div>
+<script>(function(){
+var KEY='gs-a11y-fontsize', SIZES={sm:'0.92',md:'1',lg:'1.15'};
+function pb(){return document.querySelector('.post-body')||document.querySelector('.artx,.mdrx');}
+function apply(sz){
+  var el=pb(); if(!el||!SIZES[sz]) return;
+  el.style.fontSize=SIZES[sz]+'em';
+  var btns=document.querySelectorAll('.gs-a11y-fs');
+  for(var i=0;i<btns.length;i++){
+    var on=btns[i].getAttribute('data-size')===sz;
+    btns[i].setAttribute('aria-pressed', on?'true':'false');
+  }
+  try{localStorage.setItem(KEY,sz);}catch(e){}
+}
+var fsBtns=document.querySelectorAll('.gs-a11y-fs');
+for(var j=0;j<fsBtns.length;j++){
+  fsBtns[j].addEventListener('click',(function(b){return function(){apply(b.getAttribute('data-size'));};})(fsBtns[j]));
+}
+var saved; try{saved=localStorage.getItem(KEY);}catch(e){}
+apply(saved&&SIZES[saved]?saved:'md');
+
+var listenBtn=document.getElementById('gs-a11y-listen'), stopBtn=document.getElementById('gs-a11y-stop');
+if(listenBtn){
+  listenBtn.addEventListener('click', function(){
+    if(!('speechSynthesis' in window)){ alert('Text-to-speech is not supported in this browser.'); return; }
+    window.speechSynthesis.cancel();
+    var src=pb(); if(!src) return;
+    var clone=src.cloneNode(true);
+    var strip=clone.querySelectorAll('script,style,svg');
+    for(var k=0;k<strip.length;k++){ strip[k].parentNode.removeChild(strip[k]); }
+    var text=clone.textContent.replace(/\s+/g,' ').trim();
+    if(!text) return;
+    var chunks=text.match(/[\s\S]{1,180}(?:[.!?]|$)/g)||[text];
+    var idx=0;
+    function speakNext(){
+      if(idx>=chunks.length) return;
+      var u=new SpeechSynthesisUtterance(chunks[idx]);
+      u.onend=function(){ idx++; speakNext(); };
+      window.speechSynthesis.speak(u);
+    }
+    speakNext();
+  });
+}
+if(stopBtn){
+  stopBtn.addEventListener('click', function(){
+    if('speechSynthesis' in window) window.speechSynthesis.cancel();
+  });
+}
+var skip=document.getElementById('gs-skip-link');
+if(skip){
+  skip.addEventListener('click', function(ev){
+    ev.preventDefault();
+    var h=document.querySelector('.post-body h1')||document.querySelector('.artx h1,.mdrx h1,h1');
+    if(h){ h.setAttribute('tabindex','-1'); h.focus(); h.scrollIntoView(); }
+  });
+}
+})();</script>
+<style>.goog-te-menu-frame{max-width:340px!important;max-height:70vh!important;overflow:auto!important;box-shadow:0 6px 24px rgba(0,0,0,.25)!important}</style>
+<div id="google_translate_element" style="margin:8px 0 16px;"></div><script type="text/javascript">function googleTranslateElementInit(){new google.translate.TranslateElement({pageLanguage:"en",includedLanguages:"hi,bn,ta,te,mr,gu,kn,ml,pa,or,as,ur,sa,ne,sd",layout:google.translate.TranslateElement.InlineLayout.SIMPLE,autoDisplay:false},"google_translate_element");}</script><script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+
+<p class="revised" data-gs-revision-v1="1">Revised
+<time datetime="2026-10-18" itemprop="dateModified">18 October 2026</time>
+&middot; <code>v1.0.0</code> &middot; <a href="#changelog">what changed</a></p>
+
+<style>.htulngdes pre{background:#f6f3ea!important;color:#111!important;border:1px solid var(--rule);border-radius:8px;padding:10px 12px;overflow-x:auto;font-size:.82rem;line-height:1.45}.htulngdes pre code{background:none!important;color:#111!important;font-family:var(--mono)}.htulngdes code{font-family:var(--mono);font-size:.88em}.htulngdes .vid{position:relative;padding-bottom:56.25%;height:0;margin:16px 0;max-width:100%}.htulngdes .vid iframe{position:absolute;inset:0;width:100%;height:100%;border:0}</style><div class="stats"><div class="stat"><b>279</b><span>tests passed in 5 min 28 s</span></div><div class="stat"><b>2 mtpa</b><span>train sized end to end in the main example</span></div><div class="stat"><b>36,549 kW</b><span>total compressor power for that train</span></div><div class="stat"><b>8</b><span>worked example scripts</span></div></div>
+<p>Code: <a href="https://github.com/herrrickshaw/lng-design-opensource">github.com/herrrickshaw/lng-design-opensource</a></p>
+<h2>Watch the walkthrough</h2>
+<div class="vid"><iframe src="https://www.youtube.com/embed/kBvs-dEobvc" title="How to use lng-design-opensource: size an LNG train with open tools" allowfullscreen loading="lazy"></iframe></div><p>Watch on YouTube: <a href="https://youtu.be/kBvs-dEobvc">youtu.be/kBvs-dEobvc</a></p>
+<h2>What it is for</h2>
+<p>Before a licensed simulator run, engineers need a fast, auditable estimate of a liquefaction train. Natural gas must be cleaned, pre-cooled and liquefied to about minus 160 C. Each stage has a size, a duty and a power cost that must agree on one feed basis.</p>
+<p>This toolkit sizes those stages from public correlations: inlet separator, amine absorber, molecular sieve, air cooler, propane pre-cool, main heat exchanger, end flash, storage and refrigerant make-up. It also has LPG import and regasification terminal examples.</p>
+<p><b>Who it is for</b></p>
+<ul><li>Process engineers and students who want a transparent first pass</li><li>Analysts comparing project scale or technology options</li><li>Non-programmers who want an AI assistant to run and explain the examples</li></ul>
+<div class="warn"><b>Not for.</b><ul><li>Detailed engineering design. The README calls it a screening tool and says to validate in HYSYS, PRO/II or IDAES.</li><li>Sizing very large single trains without checking limits (a 4 mtpa sweep stopped with an error).</li><li>Sub-cooling design. That section needs a loop this module does not size.</li></ul></div>
+<h2>What you need</h2>
+<div class="tw"><table><tr><th>Requirement</th><th>Why</th><th>How to get it</th></tr><tr><td>Python 3.10 or newer</td><td>required by pyproject.toml</td><td>python.org or brew install python</td></tr><tr><td>pip packages</td><td>CoolProp, pymoo, scipy, numpy, streamlit, plotly, pandas</td><td>pip install -r requirements.txt</td></tr><tr><td>Patience for tests</td><td>the full test suite took 5 min 28 s in the demo</td><td>run single test files while exploring</td></tr><tr><td>Optional: pyomo and idaes-pse</td><td>heavier optimization extension, not needed for the sizing app</td><td>pip install -e &quot;.[advanced]&quot;</td></tr><tr><td>Not needed</td><td>no API key, no paid simulator, no database, no GPU</td><td>the app has no external services or secrets</td></tr></table></div>
+<h2>Get the code and an AI assistant</h2>
+<p>You do not have to be a programmer. Get the repository, give it to an AI assistant, and ask in plain language. Any of these routes works:</p>
+<div class="tw"><table><tr><th>Tool</th><th>What you need</th><th>Best for</th></tr><tr><td><b>GitHub</b></td><td>Free account to fork or star; <code>git</code> to clone, or the green <b>Code</b> button, then <b>Download ZIP</b>, or open in <b>Codespaces</b></td><td>Getting the code and keeping up with updates</td></tr><tr><td><b>Claude Code</b></td><td>Claude subscription or API key; run <code>claude</code> inside the cloned folder</td><td>Letting the AI read and run the whole repo</td></tr><tr><td><b>Gemini CLI</b></td><td>Google account; run <code>gemini</code> inside the cloned folder</td><td>The same hands-on workflow with Gemini</td></tr><tr><td><b>Claude.ai, Gemini or ChatGPT in the browser</b></td><td>A chat account; upload <code>README.md</code> and the files you care about (or paste the output of <code>git ls-files</code>)</td><td>Understanding the project and asking questions without installing anything</td></tr><tr><td><b>Other tools</b> (Copilot Chat, Cursor, Codex CLI)</td><td>Open the cloned folder in the tool and point it at <code>README.md</code> first</td><td>Editing and extending the code</td></tr></table></div>
+<pre><code>git clone https://github.com/herrrickshaw/lng-design-opensource.git
+cd lng-design-opensource
+claude      # or: gemini</code></pre>
+<h2>Install</h2><ol><li>Get the code<pre><code>git clone https://github.com/herrrickshaw/lng-design-opensource.git
+cd lng-design-opensource</code></pre></li><li>Create an environment and install requirements<pre><code>python -m venv .venv &amp;&amp; source .venv/bin/activate
+pip install -r requirements.txt</code></pre></li><li>Optional: install in editable mode with test tools<pre><code>pip install -e &quot;.[dev]&quot;</code></pre></li></ol>
+<h2>Quick start: commands and what you should see</h2>
+<p><b>Run the tests</b></p>
+<pre><code>pytest -q tests</code></pre>
+<p>279 passed in 328.90s (0:05:28).</p>
+<p><b>Size a 2 mtpa full train</b></p>
+<pre><code>python examples/full_train_worked_example.py</code></pre>
+<p>Feed 63.4 kg/s. Propane pre-cool duty 12,168 kW at minus 43.0 C; main exchanger duty 11,027 kW; end-flash 4.63%; LNG out 60.4 kg/s at minus 164.7 C; storage 63,827 m3; total compressor power 36,549 kW. The note says sub-cooling (10,844 kW) needs a dedicated loop outside this module.</p>
+<p><b>Sweep the train size (the demo called size_liquefaction_train in Python)</b></p>
+<pre><code>size_liquefaction_train(capacity=1, 2, 3, 4)  # mtpa</code></pre>
+<p>Total compressor power 18,436 kW at 1 mtpa, 36,871 kW at 2 and 55,307 kW at 3. At 4 mtpa it raised a ValueError: the molecular sieve exceeds the largest standard size, so parallel units are needed.</p>
+<p><b>Size an LPG import terminal</b></p>
+<pre><code>python examples/lpg_import_terminal_worked_example.py</code></pre>
+<p>Two tanks of 59,747 m3, design-case boil-off gas 23.6 t/h, re-liquefaction in 3 stages, send-out heater 3,218 kW. Notes warn that holding-mode boil-off is 35% of machine rating, below an assumed 60% stable minimum.</p>
+<p><b>Start the interactive app</b></p>
+<pre><code>streamlit run streamlit_app.py</code></pre>
+<p>A browser app for the sizing modules (from the README; not shown in the demo).</p>
+<h2>Ways to use it</h2>
+<div class="tw"><table><tr><th>Method</th><th>How it works</th></tr><tr><td>Command line</td><td>Run scripts in examples/, such as the full train, dual mixed refrigerant, LPG import and regasification examples.</td></tr><tr><td>Library import</td><td>Import functions from the lng_design package, for example size_liquefaction_train.</td></tr><tr><td>Streamlit app</td><td>streamlit run streamlit_app.py. It can also be deployed to Streamlit Community Cloud as is.</td></tr><tr><td>Through an AI assistant</td><td>Open the folder in Claude Code or Gemini CLI, or upload the README and docs, and ask for runs and explanations in plain language.</td></tr></table></div>
+<h2>Sample prompts for your AI assistant</h2><p>Copy, paste and edit the parts in [brackets].</p>
+<ul><li>Explain this repo in plain English. What stages turn pipeline gas into LNG, and which does this code size?</li><li>Run examples/full_train_worked_example.py and explain each line of the output.</li><li>Size a [capacity] mtpa train for my feed gas with [composition] and tell me which stages hit limits.</li><li>Why did the 4 mtpa case fail, and how would I split it into parallel trains?</li><li>Where do the docs (METHODOLOGY, VALIDATION, EOS_SENSITIVITY) say these results should be checked in a licensed simulator?</li><li>Which modules would I need to add to size sub-cooling?</li></ul>
+<h2>Limits and honest caveats</h2>
+<div class="warn"><ul><li>Conceptual sizing, not detailed engineering design. The README calls it a screening tool, not a rate-based simulator; validate in HYSYS, PRO/II or IDAES.</li><li>The 4 mtpa sweep raised a ValueError because one molecular sieve vessel exceeds the largest standard size; parallel units are needed.</li><li>The 2 mtpa sub-cooling duty of 10,844 kW needs a dedicated loop that this module does not size.</li><li>In the LPG terminal example, holding-mode boil-off is 35% of machine rating, below an assumed 60% stable minimum.</li><li>The full test suite is slow (5 min 28 s). The Streamlit app was not run in the demo.</li></ul></div>
+<p class="src">Sources: the repository README and docs (herrrickshaw/lng-design-opensource), requirements.txt, pyproject.toml and the demo run of 18 October 2026.</p>
+<div id="changelog" class="note">
+<b>Revision history.</b>
+<ul>
+<li><b>v1.0.0</b> &mdash; 18 October 2026 &mdash; first published.</li>
+</ul>
+</div>
+
+
+<style>/* gs-light-lock-v1 */.htulngdes{--ink:#111!important;--accent:#8a4b08!important;--rule:#e8dcc4!important;--panel:#fdf7ec!important;--good:#1a7a4c!important;--good-soft:#eaf6ef!important;--bad:#a5402c!important;--bad-soft:#fff4f0!important}</style>
+<p class="disclaimer" data-gs-ai-disclosure-v1="1"><strong>About this article:</strong> Researched, written and edited by Umashankar Triplicane Dwarakanathan, with AI research assistance; every figure is meant to trace to the primary source cited. See the <a href="https://masaladeutsch.blogspot.com/p/disclaimer.html">Editorial Policy</a> for how sourcing, AI use and corrections work.</p>
+
+</div>
