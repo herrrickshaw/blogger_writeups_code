@@ -1,0 +1,296 @@
+<div class="artx scx">
+<style>
+/* ---- typography (gs-typo-unify-v1): keep in sync across all posts ---- */
+.scx{font-family:Georgia,'Times New Roman',serif;line-height:1.6;color:#111}
+.scx h1,.scx h2,.scx h3{line-height:1.3}
+
+/* ---- palette: define every colour as a custom property here. Do not add
+       raw hex elsewhere in a post's <style> block — reference these vars, so
+       a future palette change is a 4-line edit instead of a find-and-replace
+       across every post. ----
+   --ink     #111    body text, light-locked (see below)
+   --accent  #8a4b08  eyebrow text, h2 rule, table header bg, stat numbers —
+                       the one colour that carries this post's "brand"
+   --rule    #e8dcc4  hairline borders, h2 underline, table cell borders
+   --panel   #fdf7ec  stat-card bg, even table rows — the palette's one tint
+*/
+.scx{--ink:#111;--accent:#8a4b08;--rule:#e8dcc4;--panel:#fdf7ec;--good:#1a7a4c;--good-soft:#eaf6ef;--bad:#a5402c;--bad-soft:#fff4f0}
+
+/* ---- mono-label convention (added 2026-09-17, borrowed from the
+       india-trade-sector-policy-recommendations design system): the eyebrow
+       kicker and the source line read as data-journalism metadata, not
+       article prose, so they get a monospace face — a system stack, not a
+       hosted webfont, so no post gains an extra network request or a
+       flash-of-unstyled-text risk. Body text (h1/p/li/table) keeps the
+       serif — this is a two-place accent, not a font-pairing overhaul. ---- */
+.scx{--mono:ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace}
+
+/* ---- light lock (gs-light-lock): a dark Blogger theme (and a browser/OS
+       set to prefers-color-scheme:dark) must not repaint text. Re-assert
+       the same values with !important — verified 2026-08-14 across 5 live
+       posts with the browser's colour scheme forced to dark: body/h1/p/table
+       all stayed light-background/dark-text with no low-contrast pairs.
+       Do NOT add selectors here for panels that are meant to be dark —
+       those go in the guard below. ---- */
+.scx,.scx p,.scx li,.scx td,.scx th{color:var(--ink)!important}
+.scx{background:#fff!important}
+
+/* ---- structure: title + subtitle ----
+   .eyebrow    = the small-caps kicker ABOVE the h1 — "Section · Topic ·
+                 Subtopic", sets context before the reader hits the claim
+   h1          = the headline itself. Write it as the CLAIM, not the topic
+                 ("The Rouble Is the Outlier, Not the Dollar" beats
+                 "Currency Trends Update"). font-size 1.5rem is the deliberate
+                 site-wide size — do not bump it per-post.
+   .standfirst = the one/two-sentence SUBTITLE directly under the h1. This is
+                 also what Blogger's snippet extractor and the JSON-LD meta
+                 description both read (see the gs-head-order block below) —
+                 write it as a real, complete sentence a reader could act on,
+                 not a fragment.
+*/
+.scx .eyebrow{font-size:.8rem;font-weight:700;letter-spacing:.04em;color:var(--accent);text-transform:uppercase;margin:0 0 6px;font-family:var(--mono)}
+.scx h1{margin:0 0 10px;font-size:1.5rem}
+.scx .standfirst{font-size:1.05rem;color:#333!important;margin:0 0 18px}
+.scx .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px;margin:18px 0}
+.scx .stat{background:var(--panel);border:1px solid var(--rule);border-radius:10px;padding:12px 14px}
+.scx .stat b{display:block;font-size:1.2rem;color:var(--accent)}
+.scx .stat span{font-size:.8rem}
+.scx h2{color:var(--accent);border-bottom:2px solid var(--rule);padding-bottom:6px;margin-top:30px;font-size:1.15rem}
+
+/* ---- tables: units live in the header, cells carry bare numbers.
+       .tw is the mobile-overflow fix — see the MOBILE comment above. ---- */
+.scx .tw{overflow-x:auto}
+.scx table{width:100%;border-collapse:collapse;margin:14px 0;font-size:.88rem}
+.scx th,.scx td{border:1px solid var(--rule);padding:7px 9px;text-align:right;word-wrap:break-word;overflow-wrap:break-word}
+.scx th:first-child,.scx td:first-child{text-align:left}
+.scx th{background:var(--accent);color:#fff!important;font-weight:600}
+.scx tr:nth-child(even){background:var(--panel)}
+
+.scx .note{background:#eef4ff;border-left:4px solid #2a78d6;padding:12px 16px;margin:18px 0;border-radius:0 8px 8px 0;font-size:.93rem}
+.scx .warn{background:var(--bad-soft);border-left:4px solid var(--bad);padding:12px 16px;margin:18px 0;border-radius:0 8px 8px 0;font-size:.93rem}
+/* ---- .good (added 2026-09-17): third semantic tier alongside .note (neutral
+       framing) and .warn (a caveat/scope limit) — for the case a caveat block
+       would otherwise get stretched to cover: confirming a figure checked out,
+       a correction that resolved cleanly, a claim that survived cross-check.
+       Same shape as .note/.warn on purpose, so all three read as one family. */
+.scx .good{background:var(--good-soft);border-left:4px solid var(--good);padding:12px 16px;margin:18px 0;border-radius:0 8px 8px 0;font-size:.93rem}
+/* ---- .chip (added 2026-09-17): formalises a labelling pattern several posts
+       already built ad hoc in JS (e.g. "PLI coverage: strong/partial/gap")
+       into one reusable inline component, so a new post doesn't reinvent it.
+       Use inline: <span class="chip chip-good">Strong</span>. ---- */
+.scx .chip{display:inline-block;font-family:var(--mono);font-size:.72rem;font-weight:700;letter-spacing:.02em;padding:.15rem .5rem;border-radius:99px;line-height:1.5}
+.scx .chip-good{background:var(--good-soft);color:var(--good)}
+.scx .chip-warn{background:var(--panel);color:var(--accent)}
+.scx .chip-bad{background:var(--bad-soft);color:var(--bad)}
+.scx .src{font-size:.84rem;font-family:var(--mono);border-top:1px solid var(--rule);padding-top:12px;margin-top:24px}
+.scx .disclaimer{font-size:.82rem;color:#555;margin-top:10px}
+.scx .revised{font-size:.8rem;color:#555!important;margin:0 0 14px}
+.scx .revised code{font-family:inherit;background:var(--panel);padding:1px 5px;border-radius:4px}
+</style>
+<div class="gs-head-order" style="display:flex;flex-direction:column">
+<p class="standfirst" style="order:4">The World Bank expects commodity prices to rise 16 percent in 2026, but most of the jump comes from the blocked Strait of Hormuz, not from a new demand-driven supercycle. Whether a rise is a shock or a cycle decides who gains and who pays, and that depends on how much a country buys from, or sells to, the rest of the world.</p>
+<div class="topnav-index-link" style="order:1;font-size:.82em;margin:6px 0 14px"><a href="https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html" style="color:#0b5394;text-decoration:none">&#8592; All Articles (Index)</a></div>
+<p class="eyebrow" style="order:2">Markets &middot; Commodities &middot; Trade dependence</p>
+<h1 style="order:3">The Supercycle Is in Metals; the 2026 Oil Spike Is a Shock</h1>
+</div>
+<a href="#" id="gs-skip-link" class="gs-skip-link" style="position:absolute;left:-9999px;top:auto;background:#1a1a1a;color:#fff;padding:.6rem 1rem;z-index:1000;border-radius:4px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.85rem">Skip to article content</a>
+<style>.gs-skip-link:focus{left:8px!important;top:8px!important}
+.gs-a11y-bar{display:flex;align-items:center;gap:.55rem;flex-wrap:wrap;background:#f4f5f7;border:1px solid #dfe3e8;border-radius:8px;padding:.55rem .8rem;margin:10px 0 16px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
+.gs-a11y-bar .gs-a11y-label{font-size:.68rem;font-weight:700;letter-spacing:.08em;color:#666;text-transform:uppercase;margin-right:.15rem}
+.gs-a11y-bar button{cursor:pointer;border:1px solid #c7cbd1;background:#fff;color:#1a1a1a;border-radius:5px;padding:.32rem .65rem;font-family:inherit;line-height:1}
+.gs-a11y-bar button.gs-a11y-fs{font-weight:700;min-width:2rem;text-align:center}
+.gs-a11y-bar button.gs-a11y-fs[data-size="sm"]{font-size:.8rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="md"]{font-size:1rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="lg"]{font-size:1.2rem}
+.gs-a11y-bar button.gs-a11y-fs[aria-pressed="true"]{background:#1a1a1a;color:#fff;border-color:#1a1a1a}
+.gs-a11y-bar button:hover{border-color:#8a4b08}
+.gs-a11y-bar button:focus-visible{outline:2px solid #8a4b08;outline-offset:1px}
+.gs-a11y-bar .gs-a11y-sep{width:1px;align-self:stretch;background:#dfe3e8;margin:0 .1rem}</style>
+<div class="gs-a11y-bar" role="group" aria-label="Accessibility controls">
+<span class="gs-a11y-label">Text Size</span>
+<button type="button" class="gs-a11y-fs" data-size="sm" aria-pressed="false" aria-label="Small text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="md" aria-pressed="true" aria-label="Medium text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="lg" aria-pressed="false" aria-label="Large text">A</button>
+<span class="gs-a11y-sep"></span>
+<button type="button" id="gs-a11y-listen" aria-label="Read this article aloud">&#128266; Listen</button>
+<button type="button" id="gs-a11y-stop" aria-label="Stop reading aloud">&#9632; Stop</button>
+</div>
+<script>(function(){
+var KEY='gs-a11y-fontsize', SIZES={sm:'0.92',md:'1',lg:'1.15'};
+function pb(){return document.querySelector('.post-body')||document.querySelector('.artx,.mdrx');}
+function apply(sz){
+  var el=pb(); if(!el||!SIZES[sz]) return;
+  el.style.fontSize=SIZES[sz]+'em';
+  var btns=document.querySelectorAll('.gs-a11y-fs');
+  for(var i=0;i<btns.length;i++){
+    var on=btns[i].getAttribute('data-size')===sz;
+    btns[i].setAttribute('aria-pressed', on?'true':'false');
+  }
+  try{localStorage.setItem(KEY,sz);}catch(e){}
+}
+var fsBtns=document.querySelectorAll('.gs-a11y-fs');
+for(var j=0;j<fsBtns.length;j++){
+  fsBtns[j].addEventListener('click',(function(b){return function(){apply(b.getAttribute('data-size'));};})(fsBtns[j]));
+}
+var saved; try{saved=localStorage.getItem(KEY);}catch(e){}
+apply(saved&&SIZES[saved]?saved:'md');
+
+var listenBtn=document.getElementById('gs-a11y-listen'), stopBtn=document.getElementById('gs-a11y-stop');
+if(listenBtn){
+  listenBtn.addEventListener('click', function(){
+    if(!('speechSynthesis' in window)){ alert('Text-to-speech is not supported in this browser.'); return; }
+    window.speechSynthesis.cancel();
+    var src=pb(); if(!src) return;
+    var clone=src.cloneNode(true);
+    var strip=clone.querySelectorAll('script,style,svg');
+    for(var k=0;k<strip.length;k++){ strip[k].parentNode.removeChild(strip[k]); }
+    var text=clone.textContent.replace(/\s+/g,' ').trim();
+    if(!text) return;
+    var chunks=text.match(/[\s\S]{1,180}(?:[.!?]|$)/g)||[text];
+    var idx=0;
+    function speakNext(){
+      if(idx>=chunks.length) return;
+      var u=new SpeechSynthesisUtterance(chunks[idx]);
+      u.onend=function(){ idx++; speakNext(); };
+      window.speechSynthesis.speak(u);
+    }
+    speakNext();
+  });
+}
+if(stopBtn){
+  stopBtn.addEventListener('click', function(){
+    if('speechSynthesis' in window) window.speechSynthesis.cancel();
+  });
+}
+var skip=document.getElementById('gs-skip-link');
+if(skip){
+  skip.addEventListener('click', function(ev){
+    ev.preventDefault();
+    var h=document.querySelector('.post-body h1')||document.querySelector('.artx h1,.mdrx h1,h1');
+    if(h){ h.setAttribute('tabindex','-1'); h.focus(); h.scrollIntoView(); }
+  });
+}
+})();</script>
+<style>.goog-te-menu-frame{max-width:340px!important;max-height:70vh!important;overflow:auto!important;box-shadow:0 6px 24px rgba(0,0,0,.25)!important}</style>
+<div id="google_translate_element" style="margin:8px 0 16px;"></div><script type="text/javascript">function googleTranslateElementInit(){new google.translate.TranslateElement({pageLanguage:"en",includedLanguages:"hi,bn,ta,te,mr,gu,kn,ml,pa,or,as,ur,sa,ne,sd",layout:google.translate.TranslateElement.InlineLayout.SIMPLE,autoDisplay:false},"google_translate_element");}</script>
+
+<p class="revised" data-gs-revision-v1="1">Revised
+<time datetime="2026-10-28" itemprop="dateModified">28 October 2026</time>
+&middot; <code>v1.0.0</code></p>
+
+<div class="stats">
+<div class="stat"><b>+16%</b><span>World Bank forecast rise in average commodity prices, 2026 (April outlook)</span></div>
+<div class="stat"><b>~10 mb/d</b><span>Oil supply lost in March 2026, the largest on record</span></div>
+<div class="stat"><b>+30%</b><span>Base metals, real index, 2026 so far vs 2025</span></div>
+<div class="stat"><b>2,560</b><span>Listed companies in 19 markets tested for commodity sensitivity</span></div>
+</div>
+
+<p>In March 2026 the war with Iran effectively closed the Strait of Hormuz. The World Bank called the result the largest oil supply loss on record, about 10 million barrels a day. Brent crude went from $72 at the end of February to $118 at the end of March, its biggest monthly rise ever. Fertilizer prices followed. Metals were already climbing, and gold had nearly doubled in a year.</p>
+<p>Since then the word "supercycle" has been everywhere. This piece asks three questions. What do economists actually mean by a supercycle? Are we in one? And what happens to companies whose inputs or customers sit abroad when commodity prices swing?</p>
+<ul>
+<li><b>A supercycle is a decades-long, demand-driven swing.</b> The 2026 energy and fertilizer spikes are supply shocks. History says supply shocks fade, while demand booms last.</li>
+<li><b>Metals are the real candidate for a new upswing.</b> Base metals are about 30 percent above their 2025 level in real terms, pulled up by grids, storage and data centres.</li>
+<li><b>A company's home country matters as much as its industry.</b> Across 2,560 listed companies in 19 markets, stocks track commodity prices more closely when their country exports that commodity, and less closely when it imports it.</li>
+</ul>
+
+<h2>What economists mean by a supercycle</h2>
+<p>A supercycle is a rise and fall in real commodity prices that lasts 20 to 70 years. It is far longer than an ordinary boom and bust. The upswing usually runs for one to three decades, and the downswing about as long.</p>
+<p>The pattern is driven by demand. A large economy industrialises and needs steel, copper, oil and grain on a scale the world has not supplied before. Mines and oilfields take five to fifteen years to plan and build, so prices stay high for a long time. When the new supply finally arrives, often just as the demand boom slows, prices slide for years.</p>
+<p>Bilge Erten and Jos&eacute; Antonio Ocampo traced real commodity prices back to 1865. They found four supercycles of 30 to 40 years each, with prices swinging 20 to 40 percent above and below their long-run trend. For commodities other than oil, the cycles followed world GDP, which means they were driven by demand. They also found that each cycle's average was lower than the one before, especially for farm goods. Economists call that slow decline the Prebisch&ndash;Singer pattern.</p>
+<p>Their four cycles, measured trough to trough, line up with familiar periods:</p>
+<ol>
+<li>1894&ndash;1932: late industrialisation in the United States and Germany, and the First World War.</li>
+<li>1932&ndash;1971: rearmament, the Second World War and post-war reconstruction.</li>
+<li>1971&ndash;1999: the 1970s commodity boom, including the oil shocks, and the long slide that followed.</li>
+<li>1999 onward: China's industrialisation.</li>
+</ol>
+<p>Two other findings matter for 2026. Martin Stuermer studied copper, lead, tin and zinc prices from 1840 to 2010. He found that long price swings come mainly from persistent demand shocks, while supply shocks matter much less. Lutz Kilian showed that an oil price rise caused by lost supply affects prices and the economy differently from one caused by strong global demand.</p>
+<p>So the useful question is not whether prices are high. It is whether they are high because the world needs more, or because something is blocking supply.</p>
+
+<h2>Where the cycle stands: 1960 to 2026</h2>
+<p>I ran the same kind of filter Erten and Ocampo used on the World Bank's real commodity price indices, which start in 1960. The filter keeps only the swings that last 20 to 70 years and strips out both the very long trend and the short booms.</p>
+<div class="tw"><table>
+<tr><th>Group</th><th>Cycle peaks</th><th>Cycle troughs</th><th>Real index 2025 (2010 = 100)</th><th>Real index 2026 so far (2010 = 100)</th></tr>
+<tr><td>All commodities</td><td>1981, 2009</td><td>1967, 1995, 2022</td><td>85</td><td>105</td></tr>
+<tr><td>Energy</td><td>1981, 2008</td><td>1967, 1995, 2021</td><td>78</td><td>104</td></tr>
+<tr><td>Metals and minerals</td><td>1967, 2010</td><td>1996, 2021</td><td>97</td><td>123</td></tr>
+<tr><td>Base metals</td><td>1968, 2010</td><td>1996, 2021</td><td>105</td><td>137</td></tr>
+<tr><td>Agriculture</td><td>1975, 2014</td><td>1994</td><td>100</td><td>99</td></tr>
+<tr><td>Fertilizers</td><td>1979, 2010</td><td>1967, 1994, 2022</td><td>120</td><td>141</td></tr>
+<tr><td>Precious metals</td><td>1983, 2011</td><td>1967, 1998, 2020</td><td>223</td><td>312</td></tr>
+</table></div>
+<p>Every group peaked between 2008 and 2014, at the top of the China boom. Most bottomed between 2020 and 2023. On this reading, 2026 sits early in a new upswing.</p>
+<p>The long trends tell their own story. Real agricultural prices have drifted down about 4 percent a decade since 1960, as Prebisch and Singer predicted. Real energy prices have drifted up. The cycle itself explains 15 to 34 percent of the movement in each index; the rest is trend and short booms.</p>
+<div class="warn"><b>Two cautions.</b> A filter like this is least reliable at the end of a data series, and 66 years of data covers only about two full cycles, so the 2020&ndash;23 trough is a provisional call. The 2026 figures are my estimate: January to September prices, adjusted for inflation using the 2025 deflator.</div>
+
+<h2>2026: a shock on top of a cycle</h2>
+<p>The 2026 surge is really two stories moving at different speeds.</p>
+<p><b>Energy and fertilizers: a supply shock.</b> Before the war, ships passing through Hormuz carried close to 35 percent of the world's seaborne crude, 20 percent of refined products and 20 percent of liquefied natural gas, according to the World Bank's April outlook. The Gulf is also a major source of urea, sulfur and aluminium. When traffic stopped, the World Bank's energy index rose from 92 in February to 147 in April (2010 = 100). Its fertilizer index went from 145 to 209.</p>
+<p>Prices eased in June and July as some shipping resumed. Then renewed strikes on tankers and Gulf infrastructure in September pushed the energy index back to 149, above its April peak. Fertilizers, by contrast, have fallen back to 147.</p>
+<p>The World Bank describes these as dislocations: the world has enough production capacity, but access to it is blocked. That is the textbook supply shock. On Stuermer's evidence, such shocks fade once the blockage clears, though nobody can say when shipping through Hormuz will return to normal.</p>
+<p><b>Metals: the demand story.</b> Base metals have risen more steadily and without a single trigger. The index is about 30 percent above its 2025 level in real terms and at a record in nominal terms. Electricity grids, battery storage and data centres all need copper and aluminium, while new mines take a decade or more to open. The World Bank warned that base metals "could increase more than anticipated amid inflexible supplies and resilient demand." That is what the early years of a demand-led supercycle look like.</p>
+<p>The case is not settled. Forecasts for the 2026 copper market range from a deficit to a surplus, and China, whose buying drove the last supercycle, is growing more slowly. Gold and silver are a separate matter: the World Bank's precious metals index rose 84 percent between early 2025 and early 2026 on safe-haven buying and speculation, not industrial demand.</p>
+
+<h2>Who depends on foreign suppliers, and who on foreign buyers</h2>
+<p>A commodity price rise is a windfall for a country that sells the commodity abroad and a tax on one that buys it. To see who is on which side, I took each market's 2023 trade with the whole world from UN Comtrade and computed a net trade score for four commodity groups: exports minus imports, divided by exports plus imports. A score of &#8722;1 means the country only imports that commodity; +1 means it only exports it.</p>
+<div class="tw"><table>
+<tr><th>Market</th><th>Energy (score)</th><th>Metals and ores (score)</th><th>Food (score)</th><th>Fertilizers (score)</th></tr>
+<tr><td>Japan</td><td>-0.88</td><td>-0.03</td><td>-0.80</td><td>-0.73</td></tr>
+<tr><td>Chile</td><td>-0.82</td><td>+0.89</td><td>+0.36</td><td>-0.04</td></tr>
+<tr><td>China</td><td>-0.79</td><td>-0.49</td><td>-0.40</td><td>+0.27</td></tr>
+<tr><td>Germany</td><td>-0.59</td><td>-0.08</td><td>-0.11</td><td>+0.24</td></tr>
+<tr><td>France</td><td>-0.55</td><td>-0.07</td><td>+0.03</td><td>-0.68</td></tr>
+<tr><td>South Korea</td><td>-0.52</td><td>-0.15</td><td>-0.58</td><td>-0.26</td></tr>
+<tr><td>India</td><td>-0.42</td><td>-0.24</td><td>+0.21</td><td>-0.98</td></tr>
+<tr><td>Switzerland</td><td>-0.40</td><td>-0.23</td><td>-0.21</td><td>-0.83</td></tr>
+<tr><td>United Kingdom</td><td>-0.37</td><td>-0.09</td><td>-0.44</td><td>-0.50</td></tr>
+<tr><td>South Africa</td><td>-0.31</td><td>+0.78</td><td>+0.31</td><td>-0.27</td></tr>
+<tr><td>Mexico</td><td>-0.21</td><td>-0.35</td><td>+0.09</td><td>-0.80</td></tr>
+<tr><td>Singapore</td><td>-0.20</td><td>-0.20</td><td>-0.11</td><td>+0.01</td></tr>
+<tr><td>Netherlands</td><td>-0.05</td><td>0.00</td><td>+0.20</td><td>+0.50</td></tr>
+<tr><td>United States</td><td>+0.10</td><td>-0.20</td><td>-0.12</td><td>-0.28</td></tr>
+<tr><td>Brazil</td><td>+0.17</td><td>+0.65</td><td>+0.82</td><td>-0.97</td></tr>
+<tr><td>Indonesia</td><td>+0.19</td><td>+0.47</td><td>+0.28</td><td>-0.51</td></tr>
+<tr><td>Australia</td><td>+0.51</td><td>+0.90</td><td>+0.41</td><td>-0.84</td></tr>
+<tr><td>Canada</td><td>+0.58</td><td>+0.31</td><td>+0.19</td><td>+0.59</td></tr>
+<tr><td>Saudi Arabia</td><td>+0.88</td><td>-0.32</td><td>-0.69</td><td>+0.92</td></tr>
+</table></div>
+<p>Sorted from the most energy-dependent market to the least. Energy is HS chapter 27, metals and ores are chapters 26 and 72&ndash;81, food is chapters 1&ndash;24 and fertilizers chapter 31. Taiwan is missing because it does not report to Comtrade.</p>
+<p>In dollars, China has the largest net energy import bill, at $455 billion, followed by Japan ($183 billion), India ($131 billion) and South Korea ($117 billion). Saudi Arabia ($231 billion), Canada ($105 billion) and Australia ($87 billion) are the biggest net exporters. The United States now exports slightly more energy than it imports.</p>
+<p>Some countries sit on both sides of the same shock. Brazil exports food worth a net $132 billion but imports almost all its fertilizer. Chile exports copper but imports nearly all its energy. India exports food on balance but depends on foreign suppliers for oil, gas, metals and almost every tonne of fertilizer it uses.</p>
+
+<h2>What stock prices show</h2>
+<p>Trade figures say who should gain or lose. Stock prices say whether investors agree. I took 2,841 large listed companies across the same markets and measured how each one's share price has moved with commodity prices since 2015. Of those, 2,560 had at least five years of monthly data.</p>
+<p>For each stock I estimated a commodity beta: how much its dollar return moves with a 1 percent change in the World Bank's energy, metals, food and fertilizer price indices, after allowing for the world stock market. A metals beta of 0.2 means a 10 percent rise in metal prices comes with a 2 percent extra return on the stock.</p>
+<p>Industry matters first, as you would expect. Oil and gas producers have the highest energy betas, with a median of 0.37 for exploration and production companies. Miners lead on metals at 0.72, followed by steelmakers at 0.36. Software and healthcare-products companies move the other way when metals rise.</p>
+<p>But the home market matters too. Materials companies in metal-exporting countries track metal prices much more closely than materials companies in metal-importing ones.</p>
+<p><b>Materials stocks track metals more where the home market exports metals.</b> Each dot is one market's average metals beta for its materials stocks; the dashed line is the fitted slope of 0.21 (t = 2.6).</p>
+<div class="tw"><svg viewBox="0 0 640 360" width="100%" role="img" aria-label="Materials stocks track metals more where the home market exports metals" style="max-width:640px;background:#fff;font-family:Georgia,serif"><line x1="56" x2="624" y1="308.0" y2="308.0" stroke="#e8dcc4"/><text x="50" y="312.0" text-anchor="end" font-size="11" fill="#555">-0.2</text><line x1="56" x2="624" y1="239.3" y2="239.3" stroke="#999"/><text x="50" y="243.3" text-anchor="end" font-size="11" fill="#555">0.0</text><line x1="56" x2="624" y1="170.6" y2="170.6" stroke="#e8dcc4"/><text x="50" y="174.6" text-anchor="end" font-size="11" fill="#555">0.2</text><line x1="56" x2="624" y1="101.9" y2="101.9" stroke="#e8dcc4"/><text x="50" y="105.9" text-anchor="end" font-size="11" fill="#555">0.4</text><line x1="56" x2="624" y1="33.2" y2="33.2" stroke="#e8dcc4"/><text x="50" y="37.2" text-anchor="end" font-size="11" fill="#555">0.6</text><line x1="56.0" x2="56.0" y1="16" y2="308" stroke="#e8dcc4"/><text x="56.0" y="324" text-anchor="middle" font-size="11" fill="#555">-1</text><line x1="198.0" x2="198.0" y1="16" y2="308" stroke="#e8dcc4"/><text x="198.0" y="324" text-anchor="middle" font-size="11" fill="#555">-0.5</text><line x1="340.0" x2="340.0" y1="16" y2="308" stroke="#999"/><text x="340.0" y="324" text-anchor="middle" font-size="11" fill="#555">0</text><line x1="482.0" x2="482.0" y1="16" y2="308" stroke="#e8dcc4"/><text x="482.0" y="324" text-anchor="middle" font-size="11" fill="#555">+0.5</text><line x1="624.0" x2="624.0" y1="16" y2="308" stroke="#e8dcc4"/><text x="624.0" y="324" text-anchor="middle" font-size="11" fill="#555">+1</text><line x1="56.0" y1="234.4" x2="624.0" y2="91.3" stroke="#8a4b08" stroke-width="2" stroke-dasharray="6 4"/><circle cx="595.6" cy="82.6" r="5" fill="#9a8f7c"><title>Australia: beta 0.46, net trade +0.90</title></circle><text x="587.6" y="98.6" text-anchor="end" font-size="11" fill="#111">Australia</text><circle cx="524.0" cy="143.1" r="5" fill="#9a8f7c"><title>Brazil: beta 0.28, net trade +0.65</title></circle><text x="516.0" y="147.1" text-anchor="end" font-size="11" fill="#111">Brazil</text><circle cx="429.2" cy="96.4" r="5" fill="#9a8f7c"><title>Canada: beta 0.42, net trade +0.31</title></circle><text x="437.2" y="100.4" text-anchor="start" font-size="11" fill="#111">Canada</text><circle cx="593.6" cy="39.7" r="5" fill="#9a8f7c"><title>Chile: beta 0.58, net trade +0.89</title></circle><text x="585.6" y="43.7" text-anchor="end" font-size="11" fill="#111">Chile</text><circle cx="200.0" cy="86.1" r="5" fill="#9a8f7c"><title>China: beta 0.45, net trade -0.49</title></circle><text x="208.0" y="90.1" text-anchor="start" font-size="11" fill="#111">China</text><circle cx="320.1" cy="248.9" r="5" fill="#9a8f7c"><title>France: beta -0.03, net trade -0.07</title></circle><text x="328.1" y="252.9" text-anchor="start" font-size="11" fill="#111">France</text><circle cx="317.6" cy="195.7" r="5" fill="#9a8f7c"><title>Germany: beta 0.13, net trade -0.08</title></circle><circle cx="270.4" cy="179.5" r="5" fill="#9a8f7c"><title>India: beta 0.17, net trade -0.24</title></circle><text x="262.4" y="197.5" text-anchor="end" font-size="11" fill="#111">India</text><circle cx="472.1" cy="166.5" r="5" fill="#9a8f7c"><title>Indonesia: beta 0.21, net trade +0.47</title></circle><circle cx="330.6" cy="209.8" r="5" fill="#9a8f7c"><title>Japan: beta 0.09, net trade -0.03</title></circle><text x="338.6" y="213.8" text-anchor="start" font-size="11" fill="#111">Japan</text><circle cx="297.1" cy="131.8" r="5" fill="#9a8f7c"><title>South Korea: beta 0.31, net trade -0.15</title></circle><circle cx="240.3" cy="170.6" r="5" fill="#9a8f7c"><title>Mexico: beta 0.20, net trade -0.35</title></circle><circle cx="340.0" cy="296.3" r="5" fill="#9a8f7c"><title>Netherlands: beta -0.17, net trade -0.00</title></circle><text x="348.0" y="300.3" text-anchor="start" font-size="11" fill="#111">Netherlands</text><circle cx="248.3" cy="143.4" r="5" fill="#9a8f7c"><title>Saudi Arabia: beta 0.28, net trade -0.32</title></circle><circle cx="283.5" cy="175.4" r="5" fill="#9a8f7c"><title>Singapore: beta 0.19, net trade -0.20</title></circle><circle cx="560.1" cy="78.5" r="5" fill="#9a8f7c"><title>South Africa: beta 0.47, net trade +0.78</title></circle><text x="552.1" y="72.5" text-anchor="end" font-size="11" fill="#111">South Africa</text><circle cx="276.1" cy="187.1" r="5" fill="#9a8f7c"><title>Switzerland: beta 0.15, net trade -0.23</title></circle><circle cx="315.3" cy="163.0" r="5" fill="#9a8f7c"><title>United Kingdom: beta 0.22, net trade -0.09</title></circle><circle cx="284.1" cy="189.1" r="5" fill="#9a8f7c"><title>United States: beta 0.15, net trade -0.20</title></circle><text x="340" y="348" text-anchor="middle" font-size="11" fill="#555">Net trade in metals and ores, 2023 (&#8722;1 = imports only, +1 = exports only)</text><text transform="translate(14 162) rotate(-90)" text-anchor="middle" font-size="11" fill="#555">Metals beta of materials stocks</text></svg></div>
+<p>Miners in Chile, South Africa and Australia gain the most when metal prices rise. Materials companies in Japan, France and the Netherlands, which mostly process imported inputs, barely move. China is the outlier: its materials companies track metals closely despite heavy ore imports, because its own mining and smelting industries are so large.</p>
+<p>The same pattern holds for companies that use energy rather than produce it. Industrial, consumer, utility and materials companies in energy-exporting markets have higher energy betas than the same kinds of companies in energy-importing markets. The slope is 0.05 (t = 2.6) across 19 markets. In Brazil and Saudi Arabia, an oil price rise brings money into the domestic economy, which helps local companies. In South Korea, Switzerland and Germany, the extra cost of oil leaves the country.</p>
+<p>Two weaker results point the same way. Energy producers in energy-exporting markets move a little more with oil (t = 1.9), and food companies in food-exporting markets move a little more with food prices (t = 1.5). With only 13 to 19 markets in each test, these are suggestive, not proof.</p>
+<p>One surprise: heavy energy users such as airlines, basic chemicals and carmakers show almost no energy beta of their own once the world market is accounted for. Airlines come in at &#8722;0.02, statistically zero. Their cost shock seems to reach them through the broad market sell-off and through passing costs on to customers, rather than as a separate exposure.</p>
+
+<h2>The Hormuz test</h2>
+<p>The closure of Hormuz was a natural experiment. If trade dependence matters, stocks in energy-exporting markets should have done better than stocks in energy-importing markets in March and April 2026.</p>
+<p><b>Saudi stocks rose 6.6% as Hormuz closed and Japan's fell 7.4%, but the pattern was loose.</b> Average dollar return by market, end-February to end-April 2026. <span style="color:#2a78d6;font-weight:700">Blue</span> = net energy exporter, grey = net energy importer.</p>
+<div class="tw"><svg viewBox="0 0 640 454" width="100%" role="img" aria-label="Average stock return by market, end-February to end-April 2026" style="max-width:640px;background:#fff;font-family:Georgia,serif"><line x1="166.0" x2="166.0" y1="8" y2="430" stroke="#e8dcc4"/><text x="166.0" y="446" text-anchor="middle" font-size="11" fill="#555">-10%</text><line x1="281.0" x2="281.0" y1="8" y2="430" stroke="#e8dcc4"/><text x="281.0" y="446" text-anchor="middle" font-size="11" fill="#555">-5%</text><line x1="396.0" x2="396.0" y1="8" y2="430" stroke="#999"/><text x="396.0" y="446" text-anchor="middle" font-size="11" fill="#555">+0%</text><line x1="511.0" x2="511.0" y1="8" y2="430" stroke="#e8dcc4"/><text x="511.0" y="446" text-anchor="middle" font-size="11" fill="#555">+5%</text><text x="112" y="22" text-anchor="end" font-size="11" fill="#111">Saudi Arabia</text><rect x="396.0" y="11" width="152.0" height="15" fill="#2a78d6"><title>Saudi Arabia: +6.6%</title></rect><text x="553.0" y="22" text-anchor="start" font-size="10.5" fill="#555">+6.6%</text><text x="112" y="44" text-anchor="end" font-size="11" fill="#111">Singapore</text><rect x="396.0" y="33" width="96.6" height="15" fill="#b9b1a2"><title>Singapore: +4.2%</title></rect><text x="497.6" y="44" text-anchor="start" font-size="10.5" fill="#555">+4.2%</text><text x="112" y="66" text-anchor="end" font-size="11" fill="#111">Netherlands</text><rect x="396.0" y="55" width="57.0" height="15" fill="#b9b1a2"><title>Netherlands: +2.5%</title></rect><text x="458.0" y="66" text-anchor="start" font-size="10.5" fill="#555">+2.5%</text><text x="112" y="88" text-anchor="end" font-size="11" fill="#111">United States</text><rect x="396.0" y="77" width="50.1" height="15" fill="#2a78d6"><title>United States: +2.2%</title></rect><text x="451.1" y="88" text-anchor="start" font-size="10.5" fill="#555">+2.2%</text><text x="112" y="110" text-anchor="end" font-size="11" fill="#111">South Korea</text><rect x="396.0" y="99" width="6.2" height="15" fill="#b9b1a2"><title>South Korea: +0.3%</title></rect><text x="407.2" y="110" text-anchor="start" font-size="10.5" fill="#555">+0.3%</text><text x="112" y="132" text-anchor="end" font-size="11" fill="#111">China</text><rect x="388.4" y="121" width="7.6" height="15" fill="#b9b1a2"><title>China: -0.3%</title></rect><text x="383.4" y="132" text-anchor="end" font-size="10.5" fill="#555">-0.3%</text><text x="112" y="154" text-anchor="end" font-size="11" fill="#111">France</text><rect x="388.4" y="143" width="7.6" height="15" fill="#b9b1a2"><title>France: -0.3%</title></rect><text x="383.4" y="154" text-anchor="end" font-size="10.5" fill="#555">-0.3%</text><text x="112" y="176" text-anchor="end" font-size="11" fill="#111">Canada</text><rect x="382.9" y="165" width="13.1" height="15" fill="#2a78d6"><title>Canada: -0.6%</title></rect><text x="377.9" y="176" text-anchor="end" font-size="10.5" fill="#555">-0.6%</text><text x="112" y="198" text-anchor="end" font-size="11" fill="#111">India</text><rect x="370.7" y="187" width="25.3" height="15" fill="#b9b1a2"><title>India: -1.1%</title></rect><text x="365.7" y="198" text-anchor="end" font-size="10.5" fill="#555">-1.1%</text><text x="112" y="220" text-anchor="end" font-size="11" fill="#111">Germany</text><rect x="369.8" y="209" width="26.2" height="15" fill="#b9b1a2"><title>Germany: -1.1%</title></rect><text x="364.8" y="220" text-anchor="end" font-size="10.5" fill="#555">-1.1%</text><text x="112" y="242" text-anchor="end" font-size="11" fill="#111">Mexico</text><rect x="368.9" y="231" width="27.1" height="15" fill="#b9b1a2"><title>Mexico: -1.2%</title></rect><text x="363.9" y="242" text-anchor="end" font-size="10.5" fill="#555">-1.2%</text><text x="112" y="264" text-anchor="end" font-size="11" fill="#111">Australia</text><rect x="364.9" y="253" width="31.1" height="15" fill="#2a78d6"><title>Australia: -1.4%</title></rect><text x="359.9" y="264" text-anchor="end" font-size="10.5" fill="#555">-1.4%</text><text x="112" y="286" text-anchor="end" font-size="11" fill="#111">United Kingdom</text><rect x="356.2" y="275" width="39.8" height="15" fill="#b9b1a2"><title>United Kingdom: -1.7%</title></rect><text x="351.2" y="286" text-anchor="end" font-size="10.5" fill="#555">-1.7%</text><text x="112" y="308" text-anchor="end" font-size="11" fill="#111">Brazil</text><rect x="329.8" y="297" width="66.2" height="15" fill="#2a78d6"><title>Brazil: -2.9%</title></rect><text x="324.8" y="308" text-anchor="end" font-size="10.5" fill="#555">-2.9%</text><text x="112" y="330" text-anchor="end" font-size="11" fill="#111">Switzerland</text><rect x="316.2" y="319" width="79.8" height="15" fill="#b9b1a2"><title>Switzerland: -3.5%</title></rect><text x="311.2" y="330" text-anchor="end" font-size="10.5" fill="#555">-3.5%</text><text x="112" y="352" text-anchor="end" font-size="11" fill="#111">Chile</text><rect x="267.7" y="341" width="128.3" height="15" fill="#b9b1a2"><title>Chile: -5.6%</title></rect><text x="262.7" y="352" text-anchor="end" font-size="10.5" fill="#555">-5.6%</text><text x="112" y="374" text-anchor="end" font-size="11" fill="#111">Japan</text><rect x="225.3" y="363" width="170.7" height="15" fill="#b9b1a2"><title>Japan: -7.4%</title></rect><text x="220.3" y="374" text-anchor="end" font-size="10.5" fill="#555">-7.4%</text><text x="112" y="396" text-anchor="end" font-size="11" fill="#111">South Africa</text><rect x="164.4" y="385" width="231.6" height="15" fill="#b9b1a2"><title>South Africa: -10.1%</title></rect><text x="159.4" y="396" text-anchor="end" font-size="10.5" fill="#555">-10.1%</text><text x="112" y="418" text-anchor="end" font-size="11" fill="#111">Indonesia</text><rect x="155.0" y="407" width="241.0" height="15" fill="#2a78d6"><title>Indonesia: -10.5%</title></rect><text x="150.0" y="418" text-anchor="end" font-size="10.5" fill="#555">-10.5%</text></svg></div>
+<p>The broad direction held. Saudi Arabia, the most energy-exporting market in the sample, was the best performer. Japan, the most energy-dependent, was among the worst. Chile, which imports almost all its energy, fell 5.6 percent.</p>
+<p>But the pattern was loose. Indonesia, a coal and gas exporter, fell 10.5 percent, the worst of any market. Across all 19 markets, the link between energy trade position and returns was not statistically clear (t = 1.6). For the renewed attacks in August and September it was close to zero (t = 0.3).</p>
+<p>The sector split was sharper. Energy stocks rose 7.3 percent across all markets in March and April, while consumer discretionary stocks fell 7.6 percent. Technology stocks rose 11 percent, and in many markets that swamped the commodity effect.</p>
+<p>The lesson is that a country's trade position shapes how its stocks behave over many years, but one shock, however large, adds too little information to separate winners from losers reliably.</p>
+
+<h2>What it means for companies that depend on foreign trade</h2>
+<p><b>Tell the cycle from the shock.</b> A company facing higher energy or fertilizer costs in 2026 is dealing with a blockade, and history suggests those prices fall back once supply flows again. A company exposed to copper or aluminium may be facing the first years of a longer, demand-driven rise. The two call for different responses: hedging and riding it out in the first case, long-term contracts and investment in new supply in the second.</p>
+<p><b>Producers in exporting countries capture most of the gain.</b> The companies whose shares rise most with commodity prices are miners in Chile, South Africa and Australia, and oil producers in Canada and the United States. Materials companies in Japan, France and the Netherlands, which mostly process imported inputs, capture far less.</p>
+<p><b>Importers pay through the whole economy.</b> In markets with big energy import bills, such as Japan, South Korea, Germany and India, a price spike drains money from the domestic economy. Energy-using companies there show lower energy betas than the same industries in exporting countries.</p>
+<p><b>India</b> is among the most exposed large economies. It is a net importer of energy, metals and, almost entirely, fertilizers, but a net exporter of food. An energy- or fertilizer-led spike like 2026's is a direct loss in its terms of trade. A food-led spike helps its farm exporters. A metals-led supercycle would raise input costs for its manufacturers while doing little for most of its listed companies.</p>
+<p><b>The United States</b> is in a more comfortable position than in past oil shocks. It exports slightly more energy than it imports, so an oil price rise is roughly a wash for the economy as a whole: it helps producers and hurts consumers. But it imports metals and food on balance, so a metals supercycle would raise costs for its manufacturers and builders.</p>
+
+<div class="note"><b>Data and method.</b> Prices: World Bank Pink Sheet (real annual indices 1960&ndash;2025; monthly nominal indices to September 2026). Cycle filter: Christiano&ndash;Fitzgerald band-pass, 20&ndash;70 years. Trade: UN Comtrade, 2023, two-digit HS chapters; precious metals left out because gold trade mostly reflects finance. Stocks: 2,841 large companies in 19 markets classified by Aswath Damodaran's industry groups, monthly dollar returns March 2015 to September 2026. Because these are today's largest companies, the sample favours survivors. Betas are average sensitivities, not forecasts. Market comparisons use 13 to 19 markets each with robust standard errors, so treat them as indicative.</div>
+
+<p class="src">Sources: Erten &amp; Ocampo (2013), <a href="https://doi.org/10.1016/j.worlddev.2012.11.013">Super cycles of commodity prices since the mid-nineteenth century</a>, <i>World Development</i> 44 (<a href="https://www.un.org/esa/desa/papers/2012/wp110_2012.pdf">working paper</a>) &middot; Cuddington &amp; Jerrett (2008), <a href="https://doi.org/10.1057/imfsp.2008.19">Super cycles in real metals prices?</a>, <i>IMF Staff Papers</i> 55(4) &middot; Stuermer (2018), <a href="https://doi.org/10.1017/s136510051600050x">150 years of boom and bust</a>, <i>Macroeconomic Dynamics</i> &middot; Kilian (2009), <a href="https://doi.org/10.1257/aer.99.3.1053">Not all oil price shocks are alike</a>, <i>American Economic Review</i> 99(3) &middot; Jacks (2019), <a href="https://doi.org/10.1007/s11698-018-0173-5">From boom to bust</a>, <i>Cliometrica</i> &middot; Fern&aacute;ndez, Schmitt-Groh&eacute; &amp; Uribe (2016), <a href="https://doi.org/10.3386/w22833">World shocks, world prices, and business cycles</a>, NBER WP 22833 &middot; Radetzki (2006), <a href="https://doi.org/10.1016/j.resourpol.2006.06.003">The anatomy of three commodity booms</a> &middot; Humphreys (2010), <a href="https://doi.org/10.1016/j.resourpol.2009.07.002">The great metals boom</a> &middot; World Bank, <a href="https://thedocs.worldbank.org/en/doc/f3138644a1e8e2bb631399ae11d6c408-0050012026/original/CMO-April-2026.pdf">Commodity Markets Outlook, April 2026</a> &middot; World Bank, <a href="https://www.worldbank.org/en/research/commodity-markets">Pink Sheet</a>, October 2026 release &middot; <a href="https://comtradeplus.un.org/">UN Comtrade</a>, 2023 &middot; Damodaran, <a href="https://pages.stern.nyu.edu/~adamodar/New_Home_Page/databreakdown.html#industry">industry data</a>, NYU Stern. Stock betas and cycle dating are this post's own calculations; this post is AI-assisted analysis of public data, not investment advice.</p>
+
+<p class="disclaimer" data-gs-ai-disclosure-v1="1"><strong>About this article:</strong> Researched, written and edited by Umashankar Triplicane Dwarakanathan, with AI research assistance; every figure is meant to trace to the primary source cited. See the <a href="https://masaladeutsch.blogspot.com/p/disclaimer.html">Editorial Policy</a> for how sourcing, AI use and corrections work.</p>
+
+</div>
