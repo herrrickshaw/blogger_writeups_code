@@ -24,6 +24,10 @@ COFIRED_FY25, COFIRED_2025_10M = 1.62, 3.42
 COAL_POWER_FY24 = 859.25
 COFIRE_7PC = COAL_POWER_FY24 * 0.07
 COFIRED_SHARE = COFIRED_FY25 / COAL_POWER_FY24 * 100
+# CEEW (2025, Punjab): delivered cost of paddy straw, Rs per tonne
+AGG_15KM = 1330
+DEL_50_LO, DEL_50_HI = 2500, 3000
+PEL_50_LO, PEL_50_HI = 4000, 5000
 
 
 def table(head, rows):
@@ -70,6 +74,15 @@ def chart_mix():
          f'<text x="{L}" y="{H - 4}" font-size="9" fill="#6c757d">Punjab, Haryana, Uttar Pradesh and Delhi; Lok Sabha replies as published by PIB.</text>',
          '</svg>']
     return '<figure class="gb-figure" style="margin:1.4rem 0">' + "\n".join(s) + '</figure>'
+
+
+def t_costs():
+    return table(["Step or form", "Cost, Rs a tonne", "Note"], [
+        ("Collect, bale and haul to a straw bank 15 km away", f"{AGG_15KM:,}", "Cutting and baling are about half of procurement cost"),
+        ("Bales delivered 50 km away", f"{DEL_50_LO:,}&ndash;{DEL_50_HI:,}", "Beyond about 50 km, hauling is likely uneconomic"),
+        ("Briquettes or pellets delivered 50 km away", f"{PEL_50_LO:,}&ndash;{PEL_50_HI:,}", "Densified fuel is what coal plants and kilns can use"),
+        ("Storage", "20&ndash;30% of delivered cost", "Straw is collected in weeks and used all year; stored below about 20% moisture"),
+    ])
 
 
 def t_schemes():
@@ -134,6 +147,11 @@ body = f"""
 <p>Coal plants co-fired about 1.62 million tonnes of biomass in 2024-25, up from 0.38 million tonnes a year earlier, and about 3.42 million tonnes in January to October 2025, according to the power ministry as reported by Argus. The power sector burnt about 859 million tonnes of coal in 2023-24, so the 2024-25 volume was about {COFIRED_SHARE:.1f}% of that coal. If the 7% mandate were met by weight, it would need about {COFIRE_7PC:.0f} million tonnes of biomass a year, more than twice the rice stubble burnt in north-west India each autumn. Straw for plants near Delhi must be at least half paddy residue from Punjab, Haryana or the NCR under the power ministry&rsquo;s model contract. Brick kilns outside the NCR in Punjab and Haryana have been told to use paddy-straw pellets or briquettes.</p>
 <p>The binding constraint is collection, not demand. A baler and rake combination cost about Rs 15 lakh in 2020, biomass plants in Punjab were reported paying about Rs 169 a quintal (about Rs 1,690 a tonne) for straw, and listing sites put baled straw at Rs 800&ndash;1,500 a tonne to paper mills and power plants. At those prices, the margin for an aggregator depends on running the machines for as many tonnes as possible in a short window, which is what the ex-situ design tries to guarantee by tying each project to a buyer.</p>
 
+<h2 class="gb-h2">What collection actually costs</h2>
+{t_costs()}
+<p>The Sardar Swaran Singh National Institute of Bio-Energy (SSS-NIBE) in Kapurthala, the Ministry of New and Renewable Energy&rsquo;s research institute, has been the main official voice on this. Its director general has described the core problem as a feedstock that is seasonal, voluminous and low in energy, and paddy straw as harder than wheat, cotton, mustard or maize residue because of its high ash and low calorific value. A 2025 review by SSS-NIBE researchers with US national-laboratory co-authors notes that the economics of biomass supply chains in India are under-studied. The institute ran a national seminar on biomass supply-chain management in Chandigarh in 2024, where Punjab&rsquo;s science council set out the state&rsquo;s paddy-straw problems.</p>
+<p>The clearest cost figures come from CEEW&rsquo;s 2025 work in Punjab. Collecting, baling and hauling straw to a straw bank 15 km away costs about Rs {AGG_15KM:,} a tonne of bales, and cutting and baling make up about half of the procurement cost. Delivered to a buyer 50 km away, bales cost about Rs {DEL_50_LO:,}&ndash;{DEL_50_HI:,} a tonne, and briquettes or pellets Rs {PEL_50_LO:,}&ndash;{PEL_50_HI:,}. Storage is 20&ndash;30% of the delivered cost, and hauling beyond about 50 km is likely to be uneconomic. Against straw prices of roughly Rs 1,700 a tonne at the plant gate, that leaves little margin unless machines run at full use and buyers sit close to the fields. That is why aggregation machinery has to be sited around buyers, not spread evenly across districts.</p>
+
 <h2 class="gb-h2">The schemes that touch biomass aggregation</h2>
 {t_schemes()}
 <p class="gb-note">Rates are as reported in official releases and summaries; the MNRE and CPCB rates differ between sources and should be checked against the current office memoranda.</p>
@@ -157,12 +175,12 @@ body = f"""
 <p class="gb-note">These are proposals from this blog, not recommendations any agency has adopted.</p>
 
 <h2 class="gb-h2">What this piece could not establish</h2>
-<p>The 2023-24 guidelines could not be opened from this blog&rsquo;s research environment; their terms come from the PIB release of July 2023 and consistent secondary summaries. The number of ex-situ projects sanctioned and tonnes collected under them was not found. Machine totals differ between sources (3.0 lakh in a PIB reply, 3.24 lakh in an explainer) and so do fund totals (Rs 3,623 crore and Rs 3,926 crore), probably because of different cut-off years. Straw prices are older reported figures. Machine prices are listing-site figures, and Shaktiman&rsquo;s product range is from its own site and trade-fair listing. The co-firing requirement in tonnes is an illustration on a weight basis, not an official estimate. State-wise surplus residue outside Punjab and Haryana could not be tabulated.</p>
+<p>The 2023-24 guidelines could not be opened from this blog&rsquo;s research environment; their terms come from the PIB release of July 2023 and consistent secondary summaries. The number of ex-situ projects sanctioned and tonnes collected under them was not found. Machine totals differ between sources (3.0 lakh in a PIB reply, 3.24 lakh in an explainer) and so do fund totals (Rs 3,623 crore and Rs 3,926 crore), probably because of different cut-off years. Straw prices are older reported figures. Machine prices are listing-site figures, and Shaktiman&rsquo;s product range is from its own site and trade-fair listing. The co-firing requirement in tonnes is an illustration on a weight basis, not an official estimate. State-wise surplus residue outside Punjab and Haryana could not be tabulated. No standalone SSS-NIBE report on biomass collection and use was found; this piece draws on the institute&rsquo;s published review, its director general&rsquo;s statements and its 2024 seminar, and on CEEW&rsquo;s cost estimates for Punjab.</p>
 """
 
 sources = ("CRM 2023-24 guidelines: PIB release of 1 July 2023 (PRID 1936626) and summaries by Down To Earth, Deccan Herald, PMF IAS and Agro Spectrum; guideline PDF on the GOBARdhan portal (gobardhan.sbm.gov.in). Machines, CHCs, balers and rakes, subsidy rates: PIB parliament replies (PRIDs 2112397, 2198748, 2240644); CEEW on CRM machines and custom hiring centres; Eminent IAS explainer for the Rs 3,926 crore total. Punjab ex-situ target and Rs 500 crore: CEEW; Haryana straw: Vision IAS summary. "
            "SMAM rates: scheme summaries (Sanskriti IAS, newskart). CPCB pellet and torrefaction grant: PIB (PRID 1867506), S.S. Rana. MNRE bioenergy programme rates: industry summaries citing the MNRE office memorandum of 16 July 2024. Co-firing mandate and volumes: Ministry of Power policy as summarised by IMPRI and Power Line; Argus Media (December 2025) citing the power ministry; power-sector coal use 2023-24: CSE citing NITI Aayog. Rice stubble burnt in north-west India: published review cited in this blog&rsquo;s cotton-stalk piece. "
-           "Straw and machine prices: The Tribune; Hindustan Times (2020); TractorJunction, TractorGyan and Tractor For Everyone listings. Shaktiman: shaktimanagro.com and its EIMA exhibitor listing. Shares, per-tonne subsidy and the co-firing illustration are this blog&rsquo;s arithmetic. Not investment advice; machine mentions are not endorsements.")
+           "SSS-NIBE: its director general as quoted by the Energy Institute (New Energy World); Ahmed et al. (2025), &ldquo;Biomass to bio-energy supply chain: economic viability, case studies, challenges and policy implications in India&rdquo; (PNNL record); SSS-NIBE national seminar on biomass supply-chain management (2024, iamrenew). Collection costs: CEEW, ex-situ crop residue management and paddy-straw storage reports and annexure (2025). Straw and machine prices: The Tribune; Hindustan Times (2020); TractorJunction, TractorGyan and Tractor For Everyone listings. Shaktiman: shaktimanagro.com and its EIMA exhibitor listing. Shares, per-tonne subsidy and the co-firing illustration are this blog&rsquo;s arithmetic. Not investment advice; machine mentions are not endorsements.")
 
 related = [
     ("https://masaladeutsch.blogspot.com/2026/08/ethanols-coal-boilers-briquette-gap-and.html", "Ethanol&rsquo;s Coal Boilers, the Briquette Gap, and What US Carbon Capture Actually Delivers"),
