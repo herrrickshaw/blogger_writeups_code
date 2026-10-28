@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-10-29T05:18:35+05:30",
+  "snapshot": "2026-10-29T05:20:03+05:30",
   "count": 474,
   "posts": {
     "1008146607143508554": {
@@ -44172,10 +44172,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html",
       "slug": "article-index-start-here",
       "published": "2026-08-02T10:43:26.000+05:30",
-      "updated": "2026-10-28T15:57:29.211+05:30",
+      "updated": "2026-10-29T05:19:36.329+05:30",
       "labels": [],
-      "bytes": 906374,
-      "sha256": "fda2094f20e2ab942f50e3dfd81234f701de03db99a1320b766ac152221e6c61",
+      "bytes": 924909,
+      "sha256": "941e1ed29d71d86ec415b5e33eb42811f1fb16f1da6d55a7d1d03ab16567a535",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -44187,7 +44187,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "70.2.0",
+      "version": "70.3.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -46560,6 +46560,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Index: mining law, drug margins, health cover"
+        },
+        {
+          "version": "70.3.0",
+          "date": "2026-10-29T05:20:03+05:30",
+          "level": "minor",
+          "reason": "forced via --as minor (figures changed (+5/-5 distinct numbers))",
+          "bytes": [
+            906374,
+            924909
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "index rebuilt after 8 repo-demo posts went live (youtube-demo-uploads 2026-10-29)"
         }
       ]
     },

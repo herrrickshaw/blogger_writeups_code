@@ -16534,3 +16534,16 @@ youtube-demo-uploads 2026-10-29: 8 repo-demo posts promoted live, 2 refreshed
 
 - `how-to-use-patient-history-tracking` — 23,518 → 23,399 bytes (-119)
 - `how-to-use-marketscreenerrag-backtested` — 23,530 → 23,411 bytes (-119)
+
+## 2026-10-29T05:20:03+05:30 — 474 posts live
+
+index rebuilt after 8 repo-demo posts went live (youtube-demo-uploads 2026-10-29)
+
+
+**Versions**
+
+- `article-index-start-here` **70.2.0 → 70.3.0** (MINOR) — forced via --as minor (figures changed (+5/-5 distinct numbers))
+
+**Changed**
+
+- `article-index-start-here` — 906,374 → 924,909 bytes (+18,535)
