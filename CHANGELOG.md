@@ -16303,3 +16303,13 @@ index republished after 10 repo-demo posts (youtube-demo-uploads 2026-10-27)
 **Added**
 
 - `earnings-drift-and-piotroski-work-only` **v1.0.0** — Earnings Drift and Piotroski Work Only Where Trading Is Thin (29,795 bytes)
+
+## 2026-10-28T09:50:43+05:30 — 457 posts live
+
+**Versions**
+
+- `article-index-start-here` **68.0.0 → 69.0.0** (MAJOR) — figures changed (+2/-2 distinct numbers)
+
+**Changed**
+
+- `article-index-start-here` — 894,280 → 895,848 bytes (+1,568)
