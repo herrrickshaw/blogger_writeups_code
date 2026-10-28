@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-10-28T17:00:36+05:30",
+  "snapshot": "2026-10-28T17:07:49+05:30",
   "count": 466,
   "posts": {
     "1008146607143508554": {
@@ -36704,11 +36704,15 @@
       "title": "Rice and Maize Became Ethanol Commodities With a Price, a Buyer and a Warehouse. Straw Has Only the Buyer",
       "url": "https://masaladeutsch.blogspot.com/2026/10/rice-and-maize-became-ethanol.html",
       "slug": "rice-and-maize-became-ethanol",
-      "published": "2026-10-28T16:59:58.933+05:30",
-      "updated": "2026-10-28T16:59:58.933+05:30",
-      "labels": [],
-      "bytes": 25204,
-      "sha256": "89392840752cad3c7096b4ec57c6845c985a4ce330c45277f4224fb07fee8801",
+      "published": "2026-10-28T16:59:58.000+05:30",
+      "updated": "2026-10-28T17:07:15.705+05:30",
+      "labels": [
+        "Agriculture & Fertilisers",
+        "Energy & Fuels",
+        "Ethanol & Biofuels"
+      ],
+      "bytes": 30162,
+      "sha256": "ea037b46d2f42aa70099a03caa204c6eb9b6c62d9fc585c5ea580be318f80de1",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -36720,7 +36724,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "1.1.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -36728,6 +36732,19 @@
           "level": "initial",
           "reason": "first snapshot",
           "note": "New post: biomass as a commodity"
+        },
+        {
+          "version": "1.1.0",
+          "date": "2026-10-28T17:07:49+05:30",
+          "level": "minor",
+          "reason": "forced via --as minor (figures changed (+13/-0 distinct numbers))",
+          "bytes": [
+            25204,
+            30162
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Commodity post: bamboo and Numaligarh 2G ethanol section"
         }
       ]
     },

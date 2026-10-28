@@ -16495,3 +16495,16 @@ New post: biomass as a commodity
 **Re-dated** (publication date changed; body and URL unchanged)
 
 - `india-has-funded-3-lakh-machines-to` — 2026-10-28 &rarr; 2026-10-28
+
+## 2026-10-28T17:07:49+05:30 — 466 posts live
+
+Commodity post: bamboo and Numaligarh 2G ethanol section
+
+
+**Versions**
+
+- `rice-and-maize-became-ethanol` **1.0.0 → 1.1.0** (MINOR) — forced via --as minor (figures changed (+13/-0 distinct numbers))
+
+**Changed**
+
+- `rice-and-maize-became-ethanol` — 25,204 → 30,162 bytes (+4,958)
