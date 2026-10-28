@@ -16313,3 +16313,9 @@ index republished after 10 repo-demo posts (youtube-demo-uploads 2026-10-27)
 **Changed**
 
 - `article-index-start-here` — 894,280 → 895,848 bytes (+1,568)
+
+## 2026-10-28T11:23:34+05:30 — 458 posts live
+
+**Added**
+
+- `the-negative-cash-conversion-cycle-free` **v1.0.0** — The Negative Cash Conversion Cycle: Free Money or a Warning Sign? (33,047 bytes)

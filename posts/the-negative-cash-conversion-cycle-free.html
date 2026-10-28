@@ -1,0 +1,274 @@
+<div class="artx ccx">
+<style>
+/* ---- typography (gs-typo-unify-v1): keep in sync across all posts ---- */
+.ccx{font-family:Georgia,'Times New Roman',serif;line-height:1.6;color:#111}
+.ccx h1,.ccx h2,.ccx h3{line-height:1.3}
+
+/* ---- palette: define every colour as a custom property here. Do not add
+       raw hex elsewhere in a post's <style> block — reference these vars, so
+       a future palette change is a 4-line edit instead of a find-and-replace
+       across every post. ----
+   --ink     #111    body text, light-locked (see below)
+   --accent  #8a4b08  eyebrow text, h2 rule, table header bg, stat numbers —
+                       the one colour that carries this post's "brand"
+   --rule    #e8dcc4  hairline borders, h2 underline, table cell borders
+   --panel   #fdf7ec  stat-card bg, even table rows — the palette's one tint
+*/
+.ccx{--ink:#111;--accent:#8a4b08;--rule:#e8dcc4;--panel:#fdf7ec;--good:#1a7a4c;--good-soft:#eaf6ef;--bad:#a5402c;--bad-soft:#fff4f0}
+
+/* ---- mono-label convention (added 2026-09-17, borrowed from the
+       india-trade-sector-policy-recommendations design system): the eyebrow
+       kicker and the source line read as data-journalism metadata, not
+       article prose, so they get a monospace face — a system stack, not a
+       hosted webfont, so no post gains an extra network request or a
+       flash-of-unstyled-text risk. Body text (h1/p/li/table) keeps the
+       serif — this is a two-place accent, not a font-pairing overhaul. ---- */
+.ccx{--mono:ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace}
+
+/* ---- light lock (gs-light-lock): a dark Blogger theme (and a browser/OS
+       set to prefers-color-scheme:dark) must not repaint text. Re-assert
+       the same values with !important — verified 2026-08-14 across 5 live
+       posts with the browser's colour scheme forced to dark: body/h1/p/table
+       all stayed light-background/dark-text with no low-contrast pairs.
+       Do NOT add selectors here for panels that are meant to be dark —
+       those go in the guard below. ---- */
+.ccx,.ccx p,.ccx li,.ccx td,.ccx th{color:var(--ink)!important}
+.ccx{background:#fff!important}
+
+/* ---- structure: title + subtitle ----
+   .eyebrow    = the small-caps kicker ABOVE the h1 — "Section · Topic ·
+                 Subtopic", sets context before the reader hits the claim
+   h1          = the headline itself. Write it as the CLAIM, not the topic
+                 ("The Rouble Is the Outlier, Not the Dollar" beats
+                 "Currency Trends Update"). font-size 1.5rem is the deliberate
+                 site-wide size — do not bump it per-post.
+   .standfirst = the one/two-sentence SUBTITLE directly under the h1. This is
+                 also what Blogger's snippet extractor and the JSON-LD meta
+                 description both read (see the gs-head-order block below) —
+                 write it as a real, complete sentence a reader could act on,
+                 not a fragment.
+*/
+.ccx .eyebrow{font-size:.8rem;font-weight:700;letter-spacing:.04em;color:var(--accent);text-transform:uppercase;margin:0 0 6px;font-family:var(--mono)}
+.ccx h1{margin:0 0 10px;font-size:1.5rem}
+.ccx .standfirst{font-size:1.05rem;color:#333!important;margin:0 0 18px}
+.ccx .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px;margin:18px 0}
+.ccx .stat{background:var(--panel);border:1px solid var(--rule);border-radius:10px;padding:12px 14px}
+.ccx .stat b{display:block;font-size:1.2rem;color:var(--accent)}
+.ccx .stat span{font-size:.8rem}
+.ccx h2{color:var(--accent);border-bottom:2px solid var(--rule);padding-bottom:6px;margin-top:30px;font-size:1.15rem}
+
+/* ---- tables: units live in the header, cells carry bare numbers.
+       .tw is the mobile-overflow fix — see the MOBILE comment above. ---- */
+.ccx .tw{overflow-x:auto}
+.ccx table{width:100%;border-collapse:collapse;margin:14px 0;font-size:.88rem}
+.ccx th,.ccx td{border:1px solid var(--rule);padding:7px 9px;text-align:right;word-wrap:break-word;overflow-wrap:break-word}
+.ccx th:first-child,.ccx td:first-child{text-align:left}
+.ccx th{background:var(--accent);color:#fff!important;font-weight:600}
+.ccx tr:nth-child(even){background:var(--panel)}
+
+.ccx .note{background:#eef4ff;border-left:4px solid #2a78d6;padding:12px 16px;margin:18px 0;border-radius:0 8px 8px 0;font-size:.93rem}
+.ccx .warn{background:var(--bad-soft);border-left:4px solid var(--bad);padding:12px 16px;margin:18px 0;border-radius:0 8px 8px 0;font-size:.93rem}
+/* ---- .good (added 2026-09-17): third semantic tier alongside .note (neutral
+       framing) and .warn (a caveat/scope limit) — for the case a caveat block
+       would otherwise get stretched to cover: confirming a figure checked out,
+       a correction that resolved cleanly, a claim that survived cross-check.
+       Same shape as .note/.warn on purpose, so all three read as one family. */
+.ccx .good{background:var(--good-soft);border-left:4px solid var(--good);padding:12px 16px;margin:18px 0;border-radius:0 8px 8px 0;font-size:.93rem}
+/* ---- .chip (added 2026-09-17): formalises a labelling pattern several posts
+       already built ad hoc in JS (e.g. "PLI coverage: strong/partial/gap")
+       into one reusable inline component, so a new post doesn't reinvent it.
+       Use inline: <span class="chip chip-good">Strong</span>. ---- */
+.ccx .chip{display:inline-block;font-family:var(--mono);font-size:.72rem;font-weight:700;letter-spacing:.02em;padding:.15rem .5rem;border-radius:99px;line-height:1.5}
+.ccx .chip-good{background:var(--good-soft);color:var(--good)}
+.ccx .chip-warn{background:var(--panel);color:var(--accent)}
+.ccx .chip-bad{background:var(--bad-soft);color:var(--bad)}
+.ccx .src{font-size:.84rem;font-family:var(--mono);border-top:1px solid var(--rule);padding-top:12px;margin-top:24px}
+.ccx .disclaimer{font-size:.82rem;color:#555;margin-top:10px}
+.ccx .revised{font-size:.8rem;color:#555!important;margin:0 0 14px}
+.ccx .revised code{font-family:inherit;background:var(--panel);padding:1px 5px;border-radius:4px}
+</style>
+<div class="gs-head-order" style="display:flex;flex-direction:column">
+<p class="standfirst" style="order:4">A company with a negative cash conversion cycle collects cash from its customers before it has to pay its suppliers. That can be the sign of a superb business, or of one quietly running out of cash, and the numbers alone do not say which.</p>
+<div class="topnav-index-link" style="order:1;font-size:.82em;margin:6px 0 14px"><a href="https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html" style="color:#0b5394;text-decoration:none">&#8592; All Articles (Index)</a></div>
+<p class="eyebrow" style="order:2">Markets &middot; Company analysis &middot; Working capital</p>
+<h1 style="order:3">The Negative Cash Conversion Cycle: Free Money or a Warning Sign?</h1>
+</div>
+<a href="#" id="gs-skip-link" class="gs-skip-link" style="position:absolute;left:-9999px;top:auto;background:#1a1a1a;color:#fff;padding:.6rem 1rem;z-index:1000;border-radius:4px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.85rem">Skip to article content</a>
+<style>.gs-skip-link:focus{left:8px!important;top:8px!important}
+.gs-a11y-bar{display:flex;align-items:center;gap:.55rem;flex-wrap:wrap;background:#f4f5f7;border:1px solid #dfe3e8;border-radius:8px;padding:.55rem .8rem;margin:10px 0 16px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
+.gs-a11y-bar .gs-a11y-label{font-size:.68rem;font-weight:700;letter-spacing:.08em;color:#666;text-transform:uppercase;margin-right:.15rem}
+.gs-a11y-bar button{cursor:pointer;border:1px solid #c7cbd1;background:#fff;color:#1a1a1a;border-radius:5px;padding:.32rem .65rem;font-family:inherit;line-height:1}
+.gs-a11y-bar button.gs-a11y-fs{font-weight:700;min-width:2rem;text-align:center}
+.gs-a11y-bar button.gs-a11y-fs[data-size="sm"]{font-size:.8rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="md"]{font-size:1rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="lg"]{font-size:1.2rem}
+.gs-a11y-bar button.gs-a11y-fs[aria-pressed="true"]{background:#1a1a1a;color:#fff;border-color:#1a1a1a}
+.gs-a11y-bar button:hover{border-color:#8a4b08}
+.gs-a11y-bar button:focus-visible{outline:2px solid #8a4b08;outline-offset:1px}
+.gs-a11y-bar .gs-a11y-sep{width:1px;align-self:stretch;background:#dfe3e8;margin:0 .1rem}</style>
+<div class="gs-a11y-bar" role="group" aria-label="Accessibility controls">
+<span class="gs-a11y-label">Text Size</span>
+<button type="button" class="gs-a11y-fs" data-size="sm" aria-pressed="false" aria-label="Small text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="md" aria-pressed="true" aria-label="Medium text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="lg" aria-pressed="false" aria-label="Large text">A</button>
+<span class="gs-a11y-sep"></span>
+<button type="button" id="gs-a11y-listen" aria-label="Read this article aloud">&#128266; Listen</button>
+<button type="button" id="gs-a11y-stop" aria-label="Stop reading aloud">&#9632; Stop</button>
+</div>
+<script>(function(){
+var KEY='gs-a11y-fontsize', SIZES={sm:'0.92',md:'1',lg:'1.15'};
+function pb(){return document.querySelector('.post-body')||document.querySelector('.artx,.mdrx');}
+function apply(sz){
+  var el=pb(); if(!el||!SIZES[sz]) return;
+  el.style.fontSize=SIZES[sz]+'em';
+  var btns=document.querySelectorAll('.gs-a11y-fs');
+  for(var i=0;i<btns.length;i++){
+    var on=btns[i].getAttribute('data-size')===sz;
+    btns[i].setAttribute('aria-pressed', on?'true':'false');
+  }
+  try{localStorage.setItem(KEY,sz);}catch(e){}
+}
+var fsBtns=document.querySelectorAll('.gs-a11y-fs');
+for(var j=0;j<fsBtns.length;j++){
+  fsBtns[j].addEventListener('click',(function(b){return function(){apply(b.getAttribute('data-size'));};})(fsBtns[j]));
+}
+var saved; try{saved=localStorage.getItem(KEY);}catch(e){}
+apply(saved&&SIZES[saved]?saved:'md');
+
+var listenBtn=document.getElementById('gs-a11y-listen'), stopBtn=document.getElementById('gs-a11y-stop');
+if(listenBtn){
+  listenBtn.addEventListener('click', function(){
+    if(!('speechSynthesis' in window)){ alert('Text-to-speech is not supported in this browser.'); return; }
+    window.speechSynthesis.cancel();
+    var src=pb(); if(!src) return;
+    var clone=src.cloneNode(true);
+    var strip=clone.querySelectorAll('script,style,svg');
+    for(var k=0;k<strip.length;k++){ strip[k].parentNode.removeChild(strip[k]); }
+    var text=clone.textContent.replace(/\s+/g,' ').trim();
+    if(!text) return;
+    var chunks=text.match(/[\s\S]{1,180}(?:[.!?]|$)/g)||[text];
+    var idx=0;
+    function speakNext(){
+      if(idx>=chunks.length) return;
+      var u=new SpeechSynthesisUtterance(chunks[idx]);
+      u.onend=function(){ idx++; speakNext(); };
+      window.speechSynthesis.speak(u);
+    }
+    speakNext();
+  });
+}
+if(stopBtn){
+  stopBtn.addEventListener('click', function(){
+    if('speechSynthesis' in window) window.speechSynthesis.cancel();
+  });
+}
+var skip=document.getElementById('gs-skip-link');
+if(skip){
+  skip.addEventListener('click', function(ev){
+    ev.preventDefault();
+    var h=document.querySelector('.post-body h1')||document.querySelector('.artx h1,.mdrx h1,h1');
+    if(h){ h.setAttribute('tabindex','-1'); h.focus(); h.scrollIntoView(); }
+  });
+}
+})();</script>
+<style>.goog-te-menu-frame{max-width:340px!important;max-height:70vh!important;overflow:auto!important;box-shadow:0 6px 24px rgba(0,0,0,.25)!important}</style>
+<div id="google_translate_element" style="margin:8px 0 16px;"></div><script type="text/javascript">function googleTranslateElementInit(){new google.translate.TranslateElement({pageLanguage:"en",includedLanguages:"hi,bn,ta,te,mr,gu,kn,ml,pa,or,as,ur,sa,ne,sd",layout:google.translate.TranslateElement.InlineLayout.SIMPLE,autoDisplay:false},"google_translate_element");}</script>
+
+<p class="revised" data-gs-revision-v1="1">Revised
+<time datetime="2026-10-28" itemprop="dateModified">28 October 2026</time>
+&middot; <code>v1.0.0</code></p>
+
+<div class="stats">
+<div class="stat"><b>&#8722;72 days</b><span>Apple&rsquo;s cash conversion cycle, the most negative of 14 companies checked</span></div>
+<div class="stat"><b>&#8722;65 days</b><span>Hindustan Unilever, which pays suppliers in about 137 days</span></div>
+<div class="stat"><b>+182 days</b><span>Caterpillar, which ties up cash in machines and dealer credit</span></div>
+<div class="stat"><b>120 days</b><span>Carillion&rsquo;s standard supplier terms before it collapsed in 2018</span></div>
+</div>
+
+<p>Most companies have to pay for raw materials, wages and stock long before customers pay them. That gap has to be financed with the company&rsquo;s own cash or with borrowing, and it grows as the business grows. A few companies run the other way. A supermarket sells a tin of beans within days of receiving it, takes cash at the till, and pays the supplier a month or two later. The faster it grows, the more cash it holds. Its suppliers and customers are, in effect, lending it money for free.</p>
+<p>This piece explains how the cycle is measured, the three routes to a negative one, what real companies&rsquo; numbers look like, and a checklist for telling a strong negative cycle from a dangerous one.</p>
+
+<h2>How the cycle is measured</h2>
+<p>The cash conversion cycle, a measure introduced by Verlyn Richards and Eugene Laughlin in 1980, counts the days between paying for inputs and collecting cash from customers. It has three parts:</p>
+<div class="note"><b>Cash conversion cycle = inventory days + receivable days &minus; payable days</b> &nbsp;(CCC = DIO + DSO &minus; DPO)</div>
+<ul>
+<li><b>Days inventory outstanding (DIO):</b> how long stock sits before it is sold. Inventory divided by cost of goods sold, times 365.</li>
+<li><b>Days sales outstanding (DSO):</b> how long customers take to pay. Trade receivables divided by revenue, times 365.</li>
+<li><b>Days payables outstanding (DPO):</b> how long the company takes to pay its suppliers. Trade payables divided by cost of goods sold, times 365.</li>
+</ul>
+<p>A cycle of 60 days means the company&rsquo;s cash is tied up for two months on every sale. A cycle of &#8722;30 days means it holds customers&rsquo; cash for a month before suppliers are paid.</p>
+<p>Two practical points matter. First, use averages of opening and closing balances where possible, because a year-end figure can be dressed up by a well-timed payment run. Second, the cycle is meaningful only for businesses that buy and sell goods. For banks, insurers and most pure software companies, inventory and payables are tiny or mean something else, and the measure tells you little.</p>
+
+<h2>Three routes to a negative cycle</h2>
+<p>A cycle turns negative when payable days exceed inventory days plus receivable days. There are three ways to get there, and they are not equally healthy.</p>
+<p><b>1. Selling fast for cash.</b> Supermarkets, fast-food chains and online retailers turn stock in weeks and collect payment at the till or the checkout. Their receivable days are close to zero, so even ordinary supplier terms leave the cycle near or below zero. This is the most durable route, because it comes from how the business operates.</p>
+<p><b>2. Getting paid in advance.</b> Some businesses collect cash before they deliver anything: subscriptions, airline tickets, education fees, and engineering or construction contracts with customer advances. The prepaid cash shows up as deferred revenue or contract liabilities, which the standard formula ignores, so the true position is often even better than the cycle suggests. The risk is that the company owes the customer a product or service it has not yet provided.</p>
+<p><b>3. Paying suppliers late.</b> A large buyer can insist on long payment terms because suppliers cannot afford to lose its business. Apple and Hindustan Unilever, for example, take well over 100 days to pay. When it reflects genuine bargaining power, this is a real advantage. When it reflects a company stretching suppliers because it is short of cash, it is a warning sign. The two can look identical on the balance sheet.</p>
+<p>The health test is simple to state and hard to apply: is the negative cycle produced by the business model, or by financial pressure on suppliers? The checklist later in this piece is built to answer that.</p>
+
+<h2>What real companies look like</h2>
+<p>I computed the cycle for 14 well-known companies from their latest annual statements, using the average of opening and closing balances.</p>
+<figure style="margin:18px 0"><svg viewBox="0 0 640 376" width="100%" role="img" aria-label="Cash conversion cycle in days for 14 companies, from Apple at minus 72 to Caterpillar at plus 182" style="max-width:640px;font-family:inherit"><line x1="150.0" x2="150.0" y1="10" y2="352" stroke="#ddd" stroke-width="1"/><text x="150.0" y="368" font-size="11" fill="#555" text-anchor="middle">&#8722;100</text><line x1="223.3" x2="223.3" y1="10" y2="352" stroke="#ddd" stroke-width="1"/><text x="223.3" y="368" font-size="11" fill="#555" text-anchor="middle">&#8722;50</text><line x1="296.7" x2="296.7" y1="10" y2="352" stroke="#ddd" stroke-width="1.5"/><text x="296.7" y="368" font-size="11" fill="#555" text-anchor="middle">0</text><line x1="370.0" x2="370.0" y1="10" y2="352" stroke="#ddd" stroke-width="1"/><text x="370.0" y="368" font-size="11" fill="#555" text-anchor="middle">50</text><line x1="443.3" x2="443.3" y1="10" y2="352" stroke="#ddd" stroke-width="1"/><text x="443.3" y="368" font-size="11" fill="#555" text-anchor="middle">100</text><line x1="516.7" x2="516.7" y1="10" y2="352" stroke="#ddd" stroke-width="1"/><text x="516.7" y="368" font-size="11" fill="#555" text-anchor="middle">150</text><line x1="590.0" x2="590.0" y1="10" y2="352" stroke="#ddd" stroke-width="1"/><text x="590.0" y="368" font-size="11" fill="#555" text-anchor="middle">200</text><text x="142" y="25" font-size="12" fill="#222" text-anchor="end">Apple</text><rect x="191.4" y="13" width="105.3" height="16" fill="#0b7a53"><title>Apple: -72 days</title></rect><text x="186.4" y="25" font-size="11" fill="#333" text-anchor="end">&#8722;72</text><text x="142" y="49" font-size="12" fill="#222" text-anchor="end">Hindustan Unilever</text><rect x="201.0" y="37" width="95.6" height="16" fill="#0b7a53"><title>Hindustan Unilever: -65 days</title></rect><text x="196.0" y="49" font-size="11" fill="#333" text-anchor="end">&#8722;65</text><text x="142" y="73" font-size="12" fill="#222" text-anchor="end">Amazon</text><rect x="234.8" y="61" width="61.9" height="16" fill="#0b7a53"><title>Amazon: -42 days</title></rect><text x="229.8" y="73" font-size="11" fill="#333" text-anchor="end">&#8722;42</text><text x="142" y="97" font-size="12" fill="#222" text-anchor="end">Dell Technologies</text><rect x="252.5" y="85" width="44.1" height="16" fill="#0b7a53"><title>Dell Technologies: -30 days</title></rect><text x="247.5" y="97" font-size="11" fill="#333" text-anchor="end">&#8722;30</text><text x="142" y="121" font-size="12" fill="#222" text-anchor="end">Larsen & Toubro</text><rect x="259.0" y="109" width="37.7" height="16" fill="#0b7a53"><title>Larsen & Toubro: -26 days</title></rect><text x="254.0" y="121" font-size="11" fill="#333" text-anchor="end">&#8722;26</text><text x="142" y="145" font-size="12" fill="#222" text-anchor="end">Maruti Suzuki</text><rect x="274.5" y="133" width="22.1" height="16" fill="#0b7a53"><title>Maruti Suzuki: -15 days</title></rect><text x="269.5" y="145" font-size="11" fill="#333" text-anchor="end">&#8722;15</text><text x="142" y="169" font-size="12" fill="#222" text-anchor="end">Costco</text><rect x="296.7" y="157" width="1.3" height="16" fill="#b45309"><title>Costco: +1 days</title></rect><text x="303.0" y="169" font-size="11" fill="#333" text-anchor="start">1</text><text x="142" y="193" font-size="12" fill="#222" text-anchor="end">Walmart</text><rect x="296.7" y="181" width="4.7" height="16" fill="#b45309"><title>Walmart: +3 days</title></rect><text x="306.4" y="193" font-size="11" fill="#333" text-anchor="start">3</text><text x="142" y="217" font-size="12" fill="#222" text-anchor="end">Avenue Supermarts</text><rect x="296.7" y="205" width="40.2" height="16" fill="#b45309"><title>Avenue Supermarts (DMart): +27 days</title></rect><text x="341.9" y="217" font-size="11" fill="#333" text-anchor="start">27</text><text x="142" y="241" font-size="12" fill="#222" text-anchor="end">Home Depot</text><rect x="296.7" y="229" width="78.2" height="16" fill="#b45309"><title>Home Depot: +53 days</title></rect><text x="379.8" y="241" font-size="11" fill="#333" text-anchor="start">53</text><text x="142" y="265" font-size="12" fill="#222" text-anchor="end">Asian Paints</text><rect x="296.7" y="253" width="128.0" height="16" fill="#b45309"><title>Asian Paints: +87 days</title></rect><text x="429.7" y="265" font-size="11" fill="#333" text-anchor="start">87</text><text x="142" y="289" font-size="12" fill="#222" text-anchor="end">Nike</text><rect x="296.7" y="277" width="141.4" height="16" fill="#b45309"><title>Nike: +96 days</title></rect><text x="443.1" y="289" font-size="11" fill="#333" text-anchor="start">96</text><text x="142" y="313" font-size="12" fill="#222" text-anchor="end">Titan</text><rect x="296.7" y="301" width="257.5" height="16" fill="#b45309"><title>Titan: +176 days</title></rect><text x="559.2" y="313" font-size="11" fill="#333" text-anchor="start">176</text><text x="142" y="337" font-size="12" fill="#222" text-anchor="end">Caterpillar</text><rect x="296.7" y="325" width="266.3" height="16" fill="#b45309"><title>Caterpillar: +182 days</title></rect><text x="568.0" y="337" font-size="11" fill="#333" text-anchor="start">182</text></svg><figcaption style="font-size:.85em;color:#555">Cash conversion cycle, days. Green: negative (customers&rsquo; and suppliers&rsquo; cash funds the business). Computed from Yahoo Finance annual statements, financial years ending Sep 2025 to Aug 2026; average of opening and closing balances.</figcaption></figure>
+<div class="tw"><table>
+<tr><th>Company</th><th>Inventory days (DIO)</th><th>Receivable days (DSO)</th><th>Payable days (DPO)</th><th>Cash conversion cycle (days)</th></tr>
+<tr><td>Apple</td><td>11</td><td>32</td><td>115</td><td><b>&#8722;72</b></td></tr>
+<tr><td>Hindustan Unilever</td><td>51</td><td>21</td><td>137</td><td><b>&#8722;65</b></td></tr>
+<tr><td>Amazon</td><td>37</td><td>31</td><td>111</td><td><b>&#8722;42</b></td></tr>
+<tr><td>Dell Technologies</td><td>34</td><td>45</td><td>109</td><td><b>&#8722;30</b></td></tr>
+<tr><td>Larsen & Toubro</td><td>16</td><td>73</td><td>115</td><td><b>&#8722;26</b></td></tr>
+<tr><td>Maruti Suzuki</td><td>24</td><td>12</td><td>51</td><td><b>&#8722;15</b></td></tr>
+<tr><td>Costco</td><td>26</td><td>4</td><td>29</td><td><b>1</b></td></tr>
+<tr><td>Walmart</td><td>39</td><td>5</td><td>42</td><td><b>3</b></td></tr>
+<tr><td>Avenue Supermarts (DMart)</td><td>34</td><td>1</td><td>8</td><td><b>27</b></td></tr>
+<tr><td>Home Depot</td><td>82</td><td>10</td><td>39</td><td><b>53</b></td></tr>
+<tr><td>Asian Paints</td><td>113</td><td>45</td><td>71</td><td><b>87</b></td></tr>
+<tr><td>Nike</td><td>103</td><td>42</td><td>49</td><td><b>96</b></td></tr>
+<tr><td>Titan</td><td>184</td><td>4</td><td>12</td><td><b>176</b></td></tr>
+<tr><td>Caterpillar</td><td>138</td><td>109</td><td>66</td><td><b>182</b></td></tr>
+</table></div>
+<p>The negative cycles come from different places:</p>
+<ul>
+<li><b>Apple (&#8722;72 days)</b> holds very little inventory (11 days) and takes about 115 days to pay suppliers. That is bargaining power: suppliers compete to be in its products.</li>
+<li><b>Hindustan Unilever (&#8722;65 days)</b> pays suppliers in about 137 days while its products sell through distributors within weeks. India&rsquo;s largest consumer-goods company has the scale to set terms.</li>
+<li><b>Amazon (&#8722;42 days)</b> pays suppliers in about 111 days, roughly three times as long as its inventory sits. Its receivable days (31) are higher than a typical retailer&rsquo;s, probably because a large share of its revenue comes from business customers, such as cloud clients, who are billed on account.</li>
+<li><b>Dell (&#8722;30 days)</b> pioneered the model in personal computers: build to order, collect quickly, pay suppliers later.</li>
+<li><b>Larsen &amp; Toubro (&#8722;26 days)</b> is an engineering contractor. Its negative cycle comes partly from paying subcontractors slowly and partly from customer advances, and the formula captures only part of either.</li>
+<li><b>Maruti Suzuki (&#8722;15 days)</b> collects from its dealers within about 12 days and pays its parts suppliers in about 51.</li>
+</ul>
+<p>The positive cycles are just as instructive. Walmart and Costco, the classic examples of retail float, sit close to zero, not deeply negative: they pay suppliers about as fast as they sell. DMart pays its suppliers in about a week and so runs a positive cycle of 27 days despite selling for cash. Paying early usually buys a retailer lower purchase prices, a trade-off the cycle alone does not show. Caterpillar and Titan tie up cash for about six months, Caterpillar in machines and dealer credit, Titan in gold jewellery inventory.</p>
+<p>The lesson is that the cycle is a description of a business model, not a score. A negative number is good only if it comes from something the company can sustain.</p>
+
+<h2>How to analyse a company with a negative cycle</h2>
+<p>A negative cycle deserves the same scrutiny as a high profit margin: first ask where it comes from, then whether it will last.</p>
+<ol>
+<li><b>Break it into its three parts.</b> Work out which component makes the cycle negative. Low inventory and receivable days point to a fast, cash-based business. Very high payable days point to supplier terms, which need a closer look.</li>
+<li><b>Compare with direct competitors.</b> A cycle is only meaningful against companies with the same business model. A 60-day payable period is long for a supermarket and short for a construction firm.</li>
+<li><b>Track the trend over five years or more.</b> A cycle that has been stable for years reflects the business. One that suddenly turns more negative while profits are flat often means the company has started paying suppliers later.</li>
+<li><b>Compare payables growth with sales growth.</b> If payables grow much faster than revenue or cost of goods sold, the company is stretching suppliers. Ask why.</li>
+<li><b>Read the supplier finance note.</b> Under rules that took effect in 2024, companies reporting under IFRS must disclose supplier finance (also called reverse factoring or supply-chain finance) arrangements: their terms, the amounts involved and how much the bank has already paid suppliers. US companies have a similar requirement. Payables that a bank has already settled behave like short-term debt.</li>
+<li><b>Check operating cash flow against profit.</b> A growing company with a negative cycle should generate operating cash flow above its net profit, because working capital releases cash. If cash flow falls behind profit, the working-capital tailwind may be reversing.</li>
+<li><b>Ask what happens if growth stops.</b> The cash released by a negative cycle depends on growth. When sales flatten, the float stops growing; when sales fall, it shrinks and the company has to pay out cash it had been using. A business that has spent its float on expansion or buybacks can find itself short.</li>
+<li><b>Watch supplier health.</b> Late payment pushes a company&rsquo;s financing need onto its suppliers. If they are small and fragile, the supply chain becomes the weak point. Supplier failures, disputes or a regulator&rsquo;s attention to payment practices are warning signs.</li>
+<li><b>Look for the hidden float.</b> Customer advances, deferred revenue and contract liabilities are left out of the standard formula. For subscription businesses, airlines and contractors, adding them gives a truer picture, which is often even more negative.</li>
+<li><b>Value the float properly.</b> Interest-free financing from suppliers and customers is worth something, especially when interest rates are high. But treat it as a liability that has to be maintained, not as spare cash. Counting the float as cash in a valuation inflates the result.</li>
+</ol>
+
+<h2>When it goes wrong: Carillion</h2>
+<p>The clearest warning is Carillion, the British construction and outsourcing group that collapsed into liquidation in January 2018. A joint report by two House of Commons committees, published in May 2018, described how it used its suppliers as a source of finance.</p>
+<p>Carillion had signed the government&rsquo;s Prompt Payment Code, but its standard payment terms were, in the committees&rsquo; words, &ldquo;an extraordinary 120 days.&rdquo; Suppliers could be paid in 45 days through a bank-run early payment facility, but only by accepting a discount. The committees concluded that this &ldquo;opened a line of credit for Carillion, which it used systematically to shore up its fragile balance sheet.&rdquo;</p>
+<p>On the standard measures, Carillion&rsquo;s long payable days would have made its cycle look efficient. In reality, the money owed to suppliers was functioning as borrowing that did not appear as debt. When the company failed, that burden fell on its suppliers and subcontractors.</p>
+<p>Accounting standard-setters have since responded to investors&rsquo; concerns that such arrangements were hard to see. In May 2023 the International Accounting Standards Board issued amendments to IAS 7 and IFRS 7 requiring companies to disclose supplier finance arrangements, the liabilities involved, the amounts banks have already paid suppliers, and the range of payment due dates. The rules apply to annual periods beginning on or after 1 January 2024. An analyst looking at a company with very long payable days should now be able to see how much of that is really bank funding.</p>
+
+<h2>Method and limits</h2>
+<div class="warn"><ul>
+<li><b>Data source.</b> Cycles were computed from the latest annual income statements and balance sheets as published on Yahoo Finance, using averages of opening and closing inventory, trade receivables and trade payables. Financial years end between September 2025 and August 2026. Figures were not checked line by line against each company&rsquo;s annual report, and data providers classify items differently, so treat each number as approximate to within a few days.</li>
+<li><b>Classification.</b> Amazon&rsquo;s and Apple&rsquo;s cost of goods sold, and the split of payables between trade and other items, follow Yahoo Finance&rsquo;s classification. Larsen &amp; Toubro&rsquo;s contract assets and customer advances are not included.</li>
+<li><b>Missing data.</b> Nestle India was dropped because the required fields were missing.</li>
+<li><b>Association, not cause.</b> Research on working capital and profitability, starting with Marc Deloof&rsquo;s 2003 study of Belgian firms, finds that companies with shorter cycles tend to be more profitable. That is an association across companies, not proof that cutting the cycle raises profits.</li>
+</ul></div>
+
+<p class="src">Sources: Richards &amp; Laughlin (1980), <a href="https://doi.org/10.2307/3665310">A cash conversion cycle approach to liquidity analysis</a>, <i>Financial Management</i> &middot; Deloof (2003), <a href="https://doi.org/10.1111/1468-5957.00008">Does working capital management affect profitability of Belgian firms?</a>, <i>Journal of Business Finance &amp; Accounting</i> &middot; House of Commons Business, Energy and Industrial Strategy and Work and Pensions Committees (2018), <i>Carillion</i>, HC 769, conclusions and recommendations, read via the <a href="https://web.archive.org/web/2019/https://publications.parliament.uk/pa/cm201719/cmselect/cmworpen/769/76908.htm">Internet Archive copy</a> because the parliament website blocked automated access &middot; International Accounting Standards Board (2023), <a href="https://www.ifrs.org/news-and-events/news/2023/05/iasb-increases-transparency-of-companies-supplier-finance/">IASB increases transparency of companies&rsquo; supplier finance</a>, 25 May 2023, and the <a href="https://www.ifrs.org/projects/completed-projects/2023/supplier-finance-arrangements/">project page</a> &middot; Company financial statements via Yahoo Finance, accessed 28 October 2026. The US supplier finance rule (FASB Accounting Standards Update 2022-04) is cited from general knowledge; the FASB website blocked automated access. This post is AI-assisted analysis of public data, not investment advice.</p>
+
+<p class="disclaimer" data-gs-ai-disclosure-v1="1"><strong>About this article:</strong> Researched, written and edited by Umashankar Triplicane Dwarakanathan, with AI research assistance; every figure is meant to trace to the primary source cited. See the <a href="https://masaladeutsch.blogspot.com/p/disclaimer.html">Editorial Policy</a> for how sourcing, AI use and corrections work.</p>
+
+</div>
