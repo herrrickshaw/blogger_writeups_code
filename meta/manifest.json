@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-10-28T15:58:07+05:30",
+  "snapshot": "2026-10-28T16:02:28+05:30",
   "count": 464,
   "posts": {
     "1008146607143508554": {
@@ -15242,14 +15242,14 @@
       "url": "https://masaladeutsch.blogspot.com/2026/10/states-won-right-to-tax-mines-in-2024.html",
       "slug": "states-won-right-to-tax-mines-in-2024",
       "published": "2026-10-28T15:54:36.000+05:30",
-      "updated": "2026-10-28T15:55:44.508+05:30",
+      "updated": "2026-10-28T16:01:54.940+05:30",
       "labels": [
         "Governance & Institutions",
         "Industrial Policy",
         "Macroeconomics & Monetary Policy"
       ],
-      "bytes": 26071,
-      "sha256": "0c047f5204c09d77231dfa88f78e8f09dc20fa64d523f0e7a4d4a3c0d897d46e",
+      "bytes": 28504,
+      "sha256": "c2ac6c193d3ceb210487af0a9169d12c0bf22aa731423c43fba74bcf3379176c",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -15261,7 +15261,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "1.1.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -15269,6 +15269,19 @@
           "level": "initial",
           "reason": "first snapshot",
           "note": "New posts: mining law, drug margins, outpatient health cover"
+        },
+        {
+          "version": "1.1.0",
+          "date": "2026-10-28T16:02:28+05:30",
+          "level": "minor",
+          "reason": "forced via --as minor (figures changed (+11/-0 distinct numbers))",
+          "bytes": [
+            26071,
+            28504
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Mining-law post: gazette details, commencement, Jharkhand cess, challenges"
         }
       ]
     },

@@ -16401,3 +16401,16 @@ Index: mining law, drug margins, health cover
 - `most-of-what-indians-pay-for-health-is` — 2026-10-28 &rarr; 2026-10-28
 - `india-capped-margins-on-137-cancer` — 2026-10-28 &rarr; 2026-10-28
 - `states-won-right-to-tax-mines-in-2024` — 2026-10-28 &rarr; 2026-10-28
+
+## 2026-10-28T16:02:28+05:30 — 464 posts live
+
+Mining-law post: gazette details, commencement, Jharkhand cess, challenges
+
+
+**Versions**
+
+- `states-won-right-to-tax-mines-in-2024` **1.0.0 → 1.1.0** (MINOR) — forced via --as minor (figures changed (+11/-0 distinct numbers))
+
+**Changed**
+
+- `states-won-right-to-tax-mines-in-2024` — 26,071 → 28,504 bytes (+2,433)
