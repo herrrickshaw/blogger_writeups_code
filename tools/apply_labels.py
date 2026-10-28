@@ -790,6 +790,7 @@ SLUG_CONTAINS = {
     "right-to-tax-mines": ["Industrial Policy", "Governance & Institutions", "Macroeconomics & Monetary Policy"],
     "capped-margins-on-137-cancer": ["Healthcare"],
     "indians-pay-for-health": ["Healthcare"],
+    "funded-3-lakh-machines": ["Agriculture & Fertilisers", "Energy & Fuels"],
 }
 
 
