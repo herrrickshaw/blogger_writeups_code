@@ -1,8 +1,8 @@
 # Masala Deutsch — All Posts, Summarised
 
-*428 published posts, 81 topic labels. Each entry is the post's own published standfirst — not a re-summary.*
+*473 published posts, 83 topic labels. Each entry is the post's own published standfirst — not a re-summary.*
 
-*Generated 27 October 2026 — regenerated daily by tools/update_summary_cron.sh.*
+*Generated 29 October 2026 — regenerated daily by tools/update_summary_cron.sh.*
 
 
 ## Units & Figures Used in This Blog
@@ -219,8 +219,16 @@
 ## By Topic
 
 
-### Agriculture & Fertilisers (75)
+### Agriculture & Fertilisers (79)
 
+- **[India Has Funded 3 Lakh Machines to Stop Stubble Burning. About 4,500 of Them Collect Straw](https://masaladeutsch.blogspot.com/2026/10/india-has-funded-3-lakh-machines-to.html)** — 2026-10-28
+  The 2023-24 crop residue guidelines added a 65:25:10 window to fund balers, rakes and loaders for straw aggregators tied to a buyer, but only in four northern states. Coal plants, pellet makers and biogas plants across India need far more straw than that chain can collect.
+- **[Rice and Maize Became Ethanol Commodities With a Price, a Buyer and a Warehouse. Straw Has Only the Buyer](https://masaladeutsch.blogspot.com/2026/10/rice-and-maize-became-ethanol.html)** — 2026-10-28
+  India built its ethanol programme by giving grain a guaranteed buyer, a price fixed in advance, a market and warehouse finance. Biomass for power has a mandate and a 2023 benchmark price, but no grades, no index and no warehouse receipts. Europe and Japan show how residues become tradeable.
+- **[India Raised the DAP Subsidy 18% This Kharif. Imported DAP Still Costs About Rs 30,000 a Tonne More Than It Earns](https://masaladeutsch.blogspot.com/2026/10/india-raised-dap-subsidy-18-this-kharif.html)** — 2026-10-27
+  Kharif 2026 rates put Rs 32,787 of subsidy on a tonne of DAP, whose retail price stays at Rs 1,350 a bag. At May’s import price and rupee, that covers only DAP bought below about $623 a tonne; India paid more than $930.
+- **[India's Fertiliser Sales Fell Where Prices Rose. NPK Is Down 22% at Rs 2,450 a Bag; DAP, Held at Rs 1,350, Barely Moved](https://masaladeutsch.blogspot.com/2026/10/indias-fertiliser-sales-fell-where.html)** — 2026-10-27
+  Farmers bought less of every fertiliser this kharif, and the weak monsoon is part of it. But the steepest falls were in complex fertilisers whose price rose about 42%, while DAP, held at its old price despite a large import loss, was almost flat.
 - **[Rural Job-Guarantee Pay Rose 9.6% in July. In Eight States It Buys Less Than in 2025](https://masaladeutsch.blogspot.com/2026/10/rural-job-guarantee-pay-rose-96-in-july.html)** — 2026-10-27
   Wages were frozen for three months, then a Rs 300 floor lifted the poorest states by up to 19%. But prices for farm labourers rose 3.4% in the next quarter alone, and in Andhra Pradesh, Telangana, Maharashtra and five other states the new wage buys less than the old one did.
 - **[India’s Winter Harvest Now Outgrows Its Monsoon One. Kharif, Rabi and Zaid, Crop by Crop: Area, Yield and When It Reaches the Mandi](https://masaladeutsch.blogspot.com/2026/10/indias-winter-harvest-now-outgrows-its.html)** — 2026-10-25
@@ -258,7 +266,7 @@
 - **[Cocoa Quintupled, Then Gave Most of It Back. Vanilla Lost 90%. Only One of Those Is a Weather Story.](https://masaladeutsch.blogspot.com/2026/09/cocoa-quintupled-then-gave-most-of-it.html)** — 2026-09-30
   Cocoa went from about US$2,400 a tonne in 2022 to a record near US$12,900 in December 2024, then gave most of it back. Vanilla's average export price fell roughly 90% between 2019 and late 2025. Both crops grow in small patches of the tropics, and both are routinely described as climate-change stories. The evidence supports that for cocoa's spike, only partly. For vanilla's crash it barely applies at all — and India, which grows a little of each, has already lived through one of these cycles and is planting into the next.
 - **[India Leads the World in Jute and Ranks Second in Silk. Neither Fact Means What It Sounds Like.](https://masaladeutsch.blogspot.com/2026/09/india-leads-world-in-jute-and-ranks.html)** — 2026-09-27
-  India grows roughly 60 per cent of the world's jute and is the world's second-largest silk producer, and it hosts the third-largest sheep flock on the planet. None of those three facts means what it sounds like. India produces most of the world's jute and exports almost none of it — Bangladesh, the number-two producer, does 70 per cent of the world's jute exporting. India's silk output has grown for a decade and it still imports over $150 million of raw silk a year. Its sheep population is large and its wool production is falling, because a market can shrink in quality even while it holds steady in headcount. Two different structural problems, dressed up as one story about "natural fibres."
+  India grows roughly 60 per cent of the world's jute and is the world's second-largest silk producer, and it has one of the three largest sheep flocks on the planet. None of those three facts means what it sounds like. India produces most of the world's jute and exports almost none of it — Bangladesh, the number-two producer, does 70 per cent of the world's jute exporting. India's silk output has grown for a decade and it still imports over $150 million of raw silk a year. Its sheep population is large and its wool production is falling, because a market can shrink in quality even while it holds steady in headcount. Two different structural problems, dressed up as one story about "natural fibres."
 - **[India's Cotton Yield Fell From 566 kg to Under 450 Since 2013. Kaala Cotton Isn't Grown Where That Drop Hurts Most.](https://masaladeutsch.blogspot.com/2026/09/indias-cotton-yield-fell-from-566-kg-to.html)** — 2026-09-27
   India's cotton yield peaked at 566 kilograms of lint a hectare in 2013-14 and has since fallen back under 450, even as the Cotton Association of India keeps revising this season's own output estimate upward and imports head for a record. Kaala cotton — the low-input indigenous variety now being revived — is native to Kutch in Gujarat, not to the Bt-hybrid cotton belts of Maharashtra, Tamil Nadu and Madhya Pradesh where the yield problem and the soil strain are actually concentrated. This piece keeps that mismatch in view rather than papering over it, and looks at what is genuinely available to those three states: soil-specific fixes, and a farmer-income line sitting mostly unclaimed in the cottonseed and stalk every cotton plant already produces.
 - **[India's Irrigation System Recovered 96% of Its Running Costs in 1975. It Recovers About 7% Now.](https://masaladeutsch.blogspot.com/2026/09/indias-irrigation-system-recovered-96.html)** — 2026-09-26
@@ -310,7 +318,7 @@
 - **[The Balkan Relish India Already Has the Ingredients For: Making the Case for Ajvar](https://masaladeutsch.blogspot.com/2026/08/the-balkan-relish-india-already-has.html)** — 2026-08-20
   Ajvar — a roasted red pepper and eggplant relish that is practically a national dish across the Balkans — is not manufactured in India today. Every jar on an Indian shelf or import-grocery site arrived from North Macedonia, Serbia, Croatia, or Bulgaria. What makes that gap interesting is not the dish itself but the inputs: India already grows the two vegetables ajvar is made from at industrial scale, already runs a directly analogous roasted-and-ground pepper industry in Karnataka, and already has government-built processing infrastructure sitting underused. This piece maps what it would actually take to close that gap, and how big the opportunity realistically is.
 - **[The National Beekeeping & Honey Mission: A Sweet Revolution, and the Adulteration Problem Sitting Next to It](https://masaladeutsch.blogspot.com/2026/08/the-national-beekeeping-honey-mission.html)** — 2026-08-20
-  India became the world's second-largest honey exporter in 2024, up from ninth place four years earlier, on the back of a ₹500 crore Central Sector Scheme. The same four years contain a fact the scheme's own success story rarely mentions: a 2020 government-linked investigation found ten of thirteen major honey brands sold in Indian shops failed the internationally accepted purity test for the exact adulteration those brands were accused of — and that test still isn't mandatory for anything sold domestically, only for export.
+  India became the world's second-largest honey exporter in 2024, up from ninth place four years earlier, on the back of a ₹500 crore Central Sector Scheme. The same four years contain a fact the scheme's own success story rarely mentions: a 2020 investigation by the Centre for Science and Environment, an independent non-profit, found ten of thirteen major honey brands sold in Indian shops failed the internationally accepted purity test for the exact adulteration those brands were accused of — and that test is still not required for honey sold in India; since August 2020 it has been mandatory only for honey exported to the United States.
 - **[Green Gold: What Spirulina Actually Is, and Isn't, Good For](https://masaladeutsch.blogspot.com/2026/08/green-gold-what-spirulina-actually-is.html)** — 2026-08-19
   A quarter-acre of shallow ponds, harvested every 15–18 days, can out-earn an acre of most row crops — which is the entire case for calling spirulina “green gold.” It is also, right now, an Axiom-4 astronaut’s microgravity experiment, a malnutrition supplement with a real efficacy dispute attached, an unproven biofuel feedstock, and the organism a Kerala carbon-capture startup is using to scrub CO₂ out of building air. China still grows most of the world’s supply; South Korea, it turns out, mostly buys it in.
 - **[Lemon Cultivation in India: Steady Trees, Volatile Prices](https://masaladeutsch.blogspot.com/2026/08/lemon-cultivation-in-india-steady-trees.html)** — 2026-08-19
@@ -372,8 +380,10 @@
 - **[Cold-Chain × Fuel-Outlet Integrated Map (Part 3 of 3)](https://masaladeutsch.blogspot.com/2026/07/cold-chain-fuel-outlet-integrated-map.html)** — 2026-07-22
   Part 3 of 3 in the CNG/CGD retail-mapping series — with Part 1 (CGD GA district allotments) and Part 2 (82k geocoded retail outlets). Served live from GitHub Pages.
 
-### Agriculture & Food Processing (8)
+### Agriculture & Food Processing (9)
 
+- **[A Kilo of Crude Fish Oil Sells for About Rs 650. In Capsules It Retails for Rs 7,500 or More. India's Fishers Sell Only the Fish](https://masaladeutsch.blogspot.com/2026/10/a-kilo-of-crude-fish-oil-sells-for.html)** — 2026-10-28
+  India loses tens of thousands of crore of fish after harvest and sends cheap catch and juveniles to fishmeal plants. Oil, fish amino fertiliser and better curing could turn that waste into products that keep for months, if fishers’ cooperatives own the first steps.
 - **[India Imports the Whey Protein Its Cheese Makers Pour Away. The Fix Is Shared Whey Hubs, Not a Dryer in Every Dairy](https://masaladeutsch.blogspot.com/2026/10/india-imports-whey-protein-its-cheese.html)** — 2026-10-22
   Every kilogram of cheese leaves nine of whey, yet the government’s model cheese project does not count it, while India imports most of its whey protein at prices that tripled in two years. A small plant’s whey is too little to dry profitably; drinks and whey cheese at the plant, shared hubs for clusters and on-site drying at large dairies would put it to use.
 - **[India's Ethanol Plants Are Sitting on Food-Grade CO2. Its Spice-Extract Industry Needs Exactly That. Nobody's Named the Deal.](https://masaladeutsch.blogspot.com/2026/09/indias-ethanol-plants-are-sitting-on.html)** — 2026-09-28
@@ -385,7 +395,7 @@
 - **[₹71.86 a Litre: Why Maize Is India's Priciest Ethanol Feedstock, Even as This Season's Acreage Falls](https://masaladeutsch.blogspot.com/2026/08/7186-litre-why-maize-is-indias-priciest.html)** — 2026-08-21
   Maize is now India's most expensive ethanol feedstock by government-set price — ₹71.86 a litre, ahead of sugarcane juice, rice, and every grade of molasses — and maize-based ethanol volumes went from zero to nearly 500 crore litres in three years. But this kharif season, actual maize acreage fell 9.7 per cent. The demand-side price signal and the on-the-ground planting decision are currently pointing in opposite directions, and this piece sets that against what rice, wheat, and sugarcane acreage did over the same period.
 - **[The National Beekeeping & Honey Mission: A Sweet Revolution, and the Adulteration Problem Sitting Next to It](https://masaladeutsch.blogspot.com/2026/08/the-national-beekeeping-honey-mission.html)** — 2026-08-20
-  India became the world's second-largest honey exporter in 2024, up from ninth place four years earlier, on the back of a ₹500 crore Central Sector Scheme. The same four years contain a fact the scheme's own success story rarely mentions: a 2020 government-linked investigation found ten of thirteen major honey brands sold in Indian shops failed the internationally accepted purity test for the exact adulteration those brands were accused of — and that test still isn't mandatory for anything sold domestically, only for export.
+  India became the world's second-largest honey exporter in 2024, up from ninth place four years earlier, on the back of a ₹500 crore Central Sector Scheme. The same four years contain a fact the scheme's own success story rarely mentions: a 2020 investigation by the Centre for Science and Environment, an independent non-profit, found ten of thirteen major honey brands sold in Indian shops failed the internationally accepted purity test for the exact adulteration those brands were accused of — and that test is still not required for honey sold in India; since August 2020 it has been mandatory only for honey exported to the United States.
 - **[The Milk India Doesn't Drink: Cheese and the Value-Added Dairy Opportunity](https://masaladeutsch.blogspot.com/2026/08/the-milk-india-doesnt-drink-cheese-and.html)** — 2026-08-19
   India made 247.87 million tonnes of milk in 2024-25 — more than any other country — and sells roughly two-thirds of it exactly the way it left the buffalo: liquid, in a pouch, same day. The remaining third is where cheese lives, and cheese is currently a rounding error inside it. A Maharashtra cooperative-adjacent brand betting ₹100 crore on a mozzarella plant, and an Indian cheesemaker just medalling in Brazil, are both symptoms of the same gap closing.
 - **[India Grows the Soybean, Exports the Meal, Leads in Lecithin — and Barely Makes Tofu Yet](https://masaladeutsch.blogspot.com/2026/08/india-grows-soybean-exports-meal-leads.html)** — 2026-08-15
@@ -460,8 +470,10 @@
 - **[Japan Ran Out of Matcha. Assam Just Sold Its First Five Kilos.](https://masaladeutsch.blogspot.com/2026/08/japan-ran-out-of-matcha-assam-just-sold.html)** — 2026-08-23
   Japan is in the first matcha shortage in its history. Tencha auction prices doubled in a year to ¥10,843 a kilo, and a 40-gram retail tin went from ¥1,500 to ¥6,500. On 3 July 2026 a tea estate in Tinsukia sold India’s first commercial matcha — five kilograms, at ₹3,000 a kilo. India grows 342 times more tea than the world makes matcha. The gap between those two facts is the story.
 
-### Chemicals (28)
+### Chemicals (29)
 
+- **[India's Rs 3,030 Crore Chemical Parks Copy the Bulk-Drug Parks. Those Released 6% of Their Money in Six Years](https://masaladeutsch.blogspot.com/2026/10/indias-rs-3030-crore-chemical-parks.html)** — 2026-10-27
+  BHAVYA Rasayan will pay for shared effluent, waste and steam plant in three state-run chemical parks. The design is the 2020 bulk-drug parks scheme’s, and the plastics and petrochemical imports that make up India’s real deficit need crackers, not parks.
 - **[Methionine, Not Lysine, Is India's Biggest Amino-Acid Gap. It Is Made From Petrochemicals, Not Sugar, and Glycine Is Now an Anti-Dumping Case](https://masaladeutsch.blogspot.com/2026/10/methionine-not-lysine-is-indias-biggest.html)** — 2026-10-12
   India’s deficit across eight amino-acid lines is $354 million, and methionine alone is 48% of it. It is made from acrolein, methyl mercaptan and hydrogen cyanide, not sugar, while MSG imports grow and glycine trade is balanced but under a DGTR case.
 - **[Thermocol Dissolves in Orange-Peel Oil, as Researchers Showed in 1998. The Published Record Stops Where the Recycling Begins](https://masaladeutsch.blogspot.com/2026/10/thermocol-dissolves-in-orange-peel-oil.html)** — 2026-10-10
@@ -555,8 +567,10 @@
 - **[India Fuel Retail Outlets — 82k Geocoded Map (Part 2 of 3)](https://masaladeutsch.blogspot.com/2026/07/india-fuel-retail-outlets-82k-geocoded.html)** — 2026-07-22
   Part 2 of 3 in the CNG/CGD retail-mapping series. Companion posts: the CGD GA district map (Part 1) and the cold-chain × outlet integrated map (Part 3). Served live from GitHub Pages.
 
-### Climate & Carbon (26)
+### Climate & Carbon (27)
 
+- **[India's Draft Steel Policy Plans 604 Mt by 2047. Its Own Coal Forecast Means More Blast Furnaces, Not Fewer](https://masaladeutsch.blogspot.com/2026/10/indias-draft-steel-policy-plans-604-mt.html)** — 2026-10-27
+  The draft National Steel Policy nearly triples capacity and cuts emissions per tonne by 40%. Its forecast of 236 Mt of coking coal implies blast furnaces keep 43–57% of output, so the emissions target rests on cleaning up blast furnaces themselves.
 - **[How to use hydrogen-electrolyser-control: a simulated PEM, AEM and alkaline electrolyser controller](https://masaladeutsch.blogspot.com/2026/10/how-to-use-hydrogen-electrolyser.html)** — 2026-10-25
   A Python simulation of a hydrogen electrolyser control system: voltage and power setpoints, ramp profiles, inverter frequency, safety limits and a small REST API. This post runs it for real, shows what works and what is broken. Simulation only, not for operating real electrolysers. The repository is archived (read-only).
 - **[Europe Wants Green Steel It Can’t Afford to Make. Why CBAM Should Be Rolled Out More Gently](https://masaladeutsch.blogspot.com/2026/10/europe-wants-green-steel-it-cant-afford.html)** — 2026-10-24
@@ -662,6 +676,11 @@
 - **[India’s Petrochemical Import Tree — From Petrol to Product (HSN-coded)](https://masaladeutsch.blogspot.com/2026/07/indias-petrochemical-import-tree-from.html)** — 2026-07-24
   The polymers and chemicals India imports are made from the same petrol-range refinery streams it burns or exports as fuel: naphtha (→ olefins) and reformate aromatics (→ BTX). Each product below is tagged with its 8-digit ITC-HS code and import dependence — the map for crude-to-chemicals import substitution.
 
+### Cybersecurity (1)
+
+- **[Half of PHP Websites Run a Version Nobody Patches. What a Hacked Site Gives Away About Its Company](https://masaladeutsch.blogspot.com/2026/10/half-of-php-websites-run-version-nobody.html)** — 2026-10-27
+  PHP runs seven in ten websites whose software can be identified, and about half of those run a version that no longer gets security fixes. A company website rarely holds only web pages: it holds the keys to databases, email, payments and the cloud.
+
 ### Data & Analytics (1)
 
 - **[What Seven Model Stock Portfolios Look Like Once You Check Them Against the Index](https://masaladeutsch.blogspot.com/2026/08/what-seven-model-stock-portfolios-look.html)** — 2026-08-28
@@ -711,10 +730,32 @@
 - **[India's Mobile-Phone PLI Beat Every Target. Its Chip-Fab Scheme Has 5 of 12 Plants Actually Producing.](https://masaladeutsch.blogspot.com/2026/08/indias-mobile-phone-pli-beat-every.html)** — 2026-08-30
   India's mobile-phone PLI scheme beat its own five-year investment target by 294% and its production target by 142% — a genuine, government-reported overperformance. Its chip-fabrication cousin, the Semicon India Programme, has 12 approved plants and, as of SEMICON India 2026 in September, 5 producing anything (up from 3 when this piece was first published). The gap between the two tells you which parts of India's electronics-manufacturing push are working and which are still mostly paper.
 
-### Energy & Fuels (131)
+### Energy & Fuels (143)
 
+- **[How to use lng-design-opensource: size an LNG train with open tools](https://masaladeutsch.blogspot.com/2026/10/how-to-use-lng-design-opensource-size.html)** — 2026-10-29
+  An open Python toolkit that gives a quick, traceable first-pass sizing of an LNG liquefaction train and related terminals, with every stage on one feed basis, before you commit to a licensed simulator.
+- **[How to use lignocellulosic-ethanol-opensource: size a 2G ethanol plant](https://masaladeutsch.blogspot.com/2026/10/how-to-use-lignocellulosic-ethanol.html)** — 2026-10-29
+  Size a second-generation cellulosic ethanol plant that turns rice straw into fuel ethanol, and compare the result with real plants.
+- **[How to use uco-ulo-tracking: chain-of-custody, integrity flags and EPR checks for used cooking and lubricating oil](https://masaladeutsch.blogspot.com/2026/10/how-to-use-uco-ulo-tracking-chain-of.html)** — 2026-10-29
+  A FastAPI + SQLite backend (with a React front end) that tracks used cooking oil and used lubricating oil from generator to buyer: manifests, lot mass balance, processing yields, a SHA-256 hash-chained ledger, fraud heuristics and India's used-oil EPR arithmetic. This post runs the tests, starts the API on seeded mock data and reads the compliance endpoints.
+- **[India Has Funded 3 Lakh Machines to Stop Stubble Burning. About 4,500 of Them Collect Straw](https://masaladeutsch.blogspot.com/2026/10/india-has-funded-3-lakh-machines-to.html)** — 2026-10-28
+  The 2023-24 crop residue guidelines added a 65:25:10 window to fund balers, rakes and loaders for straw aggregators tied to a buyer, but only in four northern states. Coal plants, pellet makers and biogas plants across India need far more straw than that chain can collect.
+- **[Rice and Maize Became Ethanol Commodities With a Price, a Buyer and a Warehouse. Straw Has Only the Buyer](https://masaladeutsch.blogspot.com/2026/10/rice-and-maize-became-ethanol.html)** — 2026-10-28
+  India built its ethanol programme by giving grain a guaranteed buyer, a price fixed in advance, a market and warehouse finance. Biomass for power has a mandate and a 2023 benchmark price, but no grades, no index and no warehouse receipts. Europe and Japan show how residues become tradeable.
+- **[India Wants 15% of Its Energy From Gas by 2030. The Official Energy Balance Shows Gas's Share Falling](https://masaladeutsch.blogspot.com/2026/10/india-wants-15-of-its-energy-from-gas.html)** — 2026-10-28
+  A parliamentary committee has restated the 15% target. Gas’s share of primary energy slipped from 7.5% to 7.0% over the decade to 2023-24, and reaching 15% would take almost three times today’s gas, nearly all of it imported LNG.
+- **[The Supercycle Is in Metals; the 2026 Oil Spike Is a Shock](https://masaladeutsch.blogspot.com/2026/10/the-supercycle-is-in-metals-2026-oil.html)** — 2026-10-28
+  The World Bank expects commodity prices to rise 16 percent in 2026, but most of the jump comes from the blocked Strait of Hormuz, not from a new demand-driven supercycle. Whether a rise is a shock or a cycle decides who gains and who pays, and that depends on how much a country buys from, or sells to, the rest of the world.
 - **[Closed Loop or Open Loop? How India's New Data Centres Should Be Cooled, Site by Site](https://masaladeutsch.blogspot.com/2026/10/closed-loop-or-open-loop-how-indias-new.html)** — 2026-10-27
   An open cooling tower uses about two litres of water per kWh of computing; a closed dry loop uses almost none but costs more power. Most of India’s big new campuses sit on the coast near subsea cables, where seawater changes the answer.
+- **[GOBARdhan Aims for 12 Times Today's Biogas Output. The Mandate Meant to Buy It Covers Less Than Half](https://masaladeutsch.blogspot.com/2026/10/gobardhan-aims-for-12-times-todays.html)** — 2026-10-27
+  The new Rs 23,731 crore scheme wants 5 million cubic metres of compressed biogas a day by 2035-36. India’s 217 commissioned plants make 0.4, about 1.3 tonnes a day each, and the city-gas blending mandate could absorb at most about 2.3.
+- **[India's Crude Basket Now Counts Russian Oil as 'Sweet'. The Barrels Its Refineries Run Are Still Mostly Sour](https://masaladeutsch.blogspot.com/2026/10/indias-crude-basket-now-counts-russian.html)** — 2026-10-27
+  In March India changed its crude price formula so that Brent, the sweet benchmark, carries 61% of the weight. That reflects how its oil is priced, not what it is: in September about nine in ten imported barrels came from Russia and the Gulf, and sour crude costs refiners hydrogen.
+- **[India Has Legalised E100 for Flex-Fuel Cars. Its E85 Still Costs More per Kilometre Than Petrol](https://masaladeutsch.blogspot.com/2026/10/india-has-legalised-e100-for-flex-fuel.html)** — 2026-10-27
+  A notification in late October lets flex-fuel vehicles be certified for pure ethanol. At current prices E85 is cheaper per litre but dearer per kilometre, E100 can only compete if it is taxed far below petrol, and today’s unsold ethanol would cover about 8% of petrol demand.
+- **[Samudra Manthan Pays Up to Rs 675 Crore a Well. India's Last Deepwater Bets Show Discovery Is the Easy Part](https://masaladeutsch.blogspot.com/2026/10/samudra-manthan-pays-up-to-rs-675-crore.html)** — 2026-10-27
+  The new Rs 84,084 crore offshore scheme shares the cost of 60 deepwater wells and pays for new seismic surveys. Its 600 MMTOE reserve target is about ten years of India’s output; the harder test, on India’s record, is turning finds into production.
 - **[Half of UDAN's Closed Routes Shut While Still Subsidised. The New Scheme Pays for Longer](https://masaladeutsch.blogspot.com/2026/10/half-of-udans-closed-routes-shut-while.html)** — 2026-10-27
   Modified UDAN puts Rs 28,840 crore into regional flying over ten years and stretches each route’s subsidy from three years to five, on a taper. Of 331 routes that had closed by July, 165 shut before their subsidy ran out, so a longer taper addresses only part of why routes fail.
 - **[A Hectare Under a Power Line Now Pays Three to Six Times What One Over a Pipeline Does](https://masaladeutsch.blogspot.com/2026/10/a-hectare-under-power-line-now-pays.html)** — 2026-10-26
@@ -745,6 +786,8 @@
   The oil companies want 1,100 crore litres for November 2026 to October 2027. Unlike last year, they will buy no ethanol from cane juice or B-heavy molasses, pay Rs 68.86 instead of Rs 71.86 for maize, cap FCI rice at 108 crore litres a quarter instead of requiring 40% of grain offers from it, and allocate the cheapest feedstock first where last year put sugar first. Every award is subject to Supreme Court cases on allocation.
 - **[How to use ev-battery-management-sim: simulate EV battery packs and test the model on battery datasets](https://masaladeutsch.blogspot.com/2026/10/how-to-use-ev-battery-management-sim.html)** — 2026-10-19
   A Python simulation of battery management for scooters, retrofitted cars and buses, plus a NASA battery-data cleaning notebook and a validation suite for six Kaggle datasets. The built-in validation runs on synthetic stand-ins; this post says so plainly. Simulation only, not engineering design.
+- **[How to use india-omc-fuel-fleet-model: ethanol blend scenarios and OMC pump income in pure Python](https://masaladeutsch.blogspot.com/2026/10/how-to-use-india-omc-fuel-fleet-model.html)** — 2026-10-19
+  Small, dependency-free Python models for what India's oil marketing companies earn at the pump, how that changes at E20, E25 and E30 ethanol blends, and how many vehicles are actually on the road burning fuel.
 - **[How to use biomass-to-syngas-opensource: size a biomass gasifier](https://masaladeutsch.blogspot.com/2026/10/how-to-use-biomass-to-syngas-opensource.html)** — 2026-10-19
   Estimate what a biomass gasifier produces from straw, how much tar it makes and whether the syngas is good enough for power or for chemicals.
 - **[How to use bms-battery-management: simulate an EV battery pack in Python](https://masaladeutsch.blogspot.com/2026/10/how-to-use-bms-battery-management.html)** — 2026-10-18
@@ -1000,10 +1043,23 @@
 - **[India EC Approval Funnel — PARIVESH 2.0](https://masaladeutsch.blogspot.com/2026/07/india-ec-approval-funnel-parivesh-20.html)** — 2026-07-22
   How 113,970 EC proposals move from filing to grant on PARIVESH 2.0 (2022–2026). A current-state snapshot: each proposal shows its latest status, so proposals counted as "granted" have already passed through the ToR (Terms of Reference) and appraisal stages.
 
-### Equity Markets & Stock Screening (12)
+### Environment & Climate (1)
 
+- **[How to use kalki_flooding: 125 years of Indian city rainfall extremes from IMD gridded data](https://masaladeutsch.blogspot.com/2026/10/how-to-use-kalkiflooding-125-years-of.html)** — 2026-10-19
+  A repository of Python scripts and committed IMD-derived daily rainfall series for Indian cities that computes yearly heavy-rain metrics and charts, plus a flood-sensor collector for the IUDX network.
+
+### Equity Markets & Stock Screening (16)
+
+- **[The Negative Cash Conversion Cycle: Free Money or a Warning Sign?](https://masaladeutsch.blogspot.com/2026/10/the-negative-cash-conversion-cycle-free.html)** — 2026-10-28
+  A company with a negative cash conversion cycle collects cash from its customers before it has to pay its suppliers. That can be the sign of a superb business, or of one quietly running out of cash, and the numbers alone do not say which.
+- **[Earnings Drift and Piotroski Work Only Where Trading Is Thin](https://masaladeutsch.blogspot.com/2026/10/earnings-drift-and-piotroski-work-only.html)** — 2026-10-28
+  Two classic stock signals, earnings drift and the Piotroski F-score, both work, but only where trading is thin. Adding return on capital to Piotroski picks better businesses without picking better stocks.
+- **[How to use market-correlation-matrices: read per-market stock correlation snapshots](https://masaladeutsch.blogspot.com/2026/10/how-to-use-market-correlation-matrices.html)** — 2026-10-19
+  Ready-made correlation matrices of daily stock returns for six markets (India, US, Japan, Korea, China, Europe), stored compactly so you can load one in a few lines of Python. Not investment advice: this is research and education material built from public-source or derived data; it is not a recommendation to buy or sell anything.
 - **[How to use colab-market-fundamentals: collect dated annual fundamentals for 20 markets in Colab](https://masaladeutsch.blogspot.com/2026/10/how-to-use-colab-market-fundamentals.html)** — 2026-10-19
   A Google Colab notebook that downloads about five years of annual company financials per market through yfinance, saves them to parquet every three minutes, and lets you resume from a zip. Research and education only. Not investment advice: this is research and education material built from public-source or derived data; it is not a recommendation to buy or sell anything.
+- **[How to use piotroski-liquidity-research: a point-in-time test of the Piotroski F-score and liquidity](https://masaladeutsch.blogspot.com/2026/10/how-to-use-piotroski-liquidity-research.html)** — 2026-10-19
+  piotroski-liquidity-research asks whether the Piotroski F-score premium is explained by firm size or by stock liquidity, using point-in-time backtests. Its headline is that the premium tracks illiquidity, with a capacity of about $250,000. I re-ran its US scripts on 23 October 2026 against a US price panel whose last session is 21 October 2026 and SEC EDGAR filings filed up to 20 October 2026. Not investment advice. Educational and research use only; historical averages on short samples, and the repo's own numbers are provisional.
 - **[How to use Bazartalks_Py2Cplus: a C++ port of a quant research platform, with its Python-vs-C++ benchmark](https://masaladeutsch.blogspot.com/2026/10/how-to-use-bazartalkspy2cplus-c-port-of.html)** — 2026-10-19
   Bazartalks_Py2Cplus (BazaarTalks-cpp) reimplements the storage, streaming, quant-compute, backtest and serving layers of BazaarTalks in C++, keeping Python only for data acquisition and ML training. This post is a not-run, README-based guide to building it, plus the benchmark the repo itself committed. Not investment advice.
 - **[How to use global-ticker-universe: look up exchange-qualified tickers for 34 markets](https://masaladeutsch.blogspot.com/2026/10/how-to-use-global-ticker-universe-look.html)** — 2026-10-19
@@ -1027,8 +1083,16 @@
 - **[US Stock Picks — Multi-Screen Quant Shortlist (24 Jul 2026)](https://masaladeutsch.blogspot.com/2026/07/us-stock-picks-multi-screen-quant.html)** — 2026-07-24
   Follow-up: see how the model portfolios built from these screens actually performed, cross-checked against public index benchmarks.
 
-### Ethanol & Biofuels (31)
+### Ethanol & Biofuels (36)
 
+- **[How to use lignocellulosic-ethanol-opensource: size a 2G ethanol plant](https://masaladeutsch.blogspot.com/2026/10/how-to-use-lignocellulosic-ethanol.html)** — 2026-10-29
+  Size a second-generation cellulosic ethanol plant that turns rice straw into fuel ethanol, and compare the result with real plants.
+- **[How to use uco-ulo-tracking: chain-of-custody, integrity flags and EPR checks for used cooking and lubricating oil](https://masaladeutsch.blogspot.com/2026/10/how-to-use-uco-ulo-tracking-chain-of.html)** — 2026-10-29
+  A FastAPI + SQLite backend (with a React front end) that tracks used cooking oil and used lubricating oil from generator to buyer: manifests, lot mass balance, processing yields, a SHA-256 hash-chained ledger, fraud heuristics and India's used-oil EPR arithmetic. This post runs the tests, starts the API on seeded mock data and reads the compliance endpoints.
+- **[Rice and Maize Became Ethanol Commodities With a Price, a Buyer and a Warehouse. Straw Has Only the Buyer](https://masaladeutsch.blogspot.com/2026/10/rice-and-maize-became-ethanol.html)** — 2026-10-28
+  India built its ethanol programme by giving grain a guaranteed buyer, a price fixed in advance, a market and warehouse finance. Biomass for power has a mandate and a 2023 benchmark price, but no grades, no index and no warehouse receipts. Europe and Japan show how residues become tradeable.
+- **[India Has Legalised E100 for Flex-Fuel Cars. Its E85 Still Costs More per Kilometre Than Petrol](https://masaladeutsch.blogspot.com/2026/10/india-has-legalised-e100-for-flex-fuel.html)** — 2026-10-27
+  A notification in late October lets flex-fuel vehicles be certified for pure ethanol. At current prices E85 is cheaper per litre but dearer per kilometre, E100 can only compete if it is taxed far below petrol, and today’s unsold ethanol would cover about 8% of petrol demand.
 - **[How to use ethanol-design-opensource: size a fuel-ethanol distillery](https://masaladeutsch.blogspot.com/2026/10/how-to-use-ethanol-design-opensource.html)** — 2026-10-25
   Size a first-generation fuel-ethanol distillery, from molasses or grain through fermentation, distillation and sieve dehydration to spent wash or DDGS.
 - **[Maize Is Cheapest in a Different State Every Few Months. Rice Barely Moves.](https://masaladeutsch.blogspot.com/2026/10/maize-is-cheapest-in-different-state.html)** — 2026-10-24
@@ -1039,6 +1103,8 @@
   Size a compressed biogas plant for India's SATAT scheme, from feedstock through digestion, upgrading and 250 bar compression, and check it against a published plant.
 - **[India's 2026-27 Ethanol Tender Drops Cane Juice, Cuts Maize by Rs 3 a Litre and Flips From Sugar-First to Cheapest-First](https://masaladeutsch.blogspot.com/2026/10/indias-2026-27-ethanol-tender-drops.html)** — 2026-10-20
   The oil companies want 1,100 crore litres for November 2026 to October 2027. Unlike last year, they will buy no ethanol from cane juice or B-heavy molasses, pay Rs 68.86 instead of Rs 71.86 for maize, cap FCI rice at 108 crore litres a quarter instead of requiring 40% of grain offers from it, and allocate the cheapest feedstock first where last year put sugar first. Every award is subject to Supreme Court cases on allocation.
+- **[How to use india-omc-fuel-fleet-model: ethanol blend scenarios and OMC pump income in pure Python](https://masaladeutsch.blogspot.com/2026/10/how-to-use-india-omc-fuel-fleet-model.html)** — 2026-10-19
+  Small, dependency-free Python models for what India's oil marketing companies earn at the pump, how that changes at E20, E25 and E30 ethanol blends, and how many vehicles are actually on the road burning fuel.
 - **[Petrol-Pump Margins and E20: The First Dealer Raise in Seven Years, Not Tied to Ethanol, While Oil-Company Margins Followed Crude Into the Red in 2026](https://masaladeutsch.blogspot.com/2026/10/petrol-pump-margins-and-e20-one-dealer.html)** — 2026-10-16
   The average Indian outlet earns about Rs 4.77 lakh a month in gross commission, and the October 2024 revision, a litigation settlement, was the first increase in seven years and did not restore what inflation had taken. The oil companies’ margin followed crude, and the clear gainer from E20 is the ethanol supplier.
 - **[The Hydrogen Behind the Biofuel Mandate: A Country-by-Country Map of Who Is Covered, What Counts, and Which Hydrogen Gets Paid For](https://masaladeutsch.blogspot.com/2026/10/the-hydrogen-behind-biofuel-mandate.html)** — 2026-10-14
@@ -1152,8 +1218,14 @@
 - **[India Fuel Retail Outlets — 82k Geocoded Map (Part 2 of 3)](https://masaladeutsch.blogspot.com/2026/07/india-fuel-retail-outlets-82k-geocoded.html)** — 2026-07-22
   Part 2 of 3 in the CNG/CGD retail-mapping series. Companion posts: the CGD GA district map (Part 1) and the cold-chain × outlet integrated map (Part 3). Served live from GitHub Pages.
 
-### Gas & LNG (30)
+### Gas & LNG (33)
 
+- **[India Wants 15% of Its Energy From Gas by 2030. The Official Energy Balance Shows Gas's Share Falling](https://masaladeutsch.blogspot.com/2026/10/india-wants-15-of-its-energy-from-gas.html)** — 2026-10-28
+  A parliamentary committee has restated the 15% target. Gas’s share of primary energy slipped from 7.5% to 7.0% over the decade to 2023-24, and reaching 15% would take almost three times today’s gas, nearly all of it imported LNG.
+- **[GOBARdhan Aims for 12 Times Today's Biogas Output. The Mandate Meant to Buy It Covers Less Than Half](https://masaladeutsch.blogspot.com/2026/10/gobardhan-aims-for-12-times-todays.html)** — 2026-10-27
+  The new Rs 23,731 crore scheme wants 5 million cubic metres of compressed biogas a day by 2035-36. India’s 217 commissioned plants make 0.4, about 1.3 tonnes a day each, and the city-gas blending mandate could absorb at most about 2.3.
+- **[Samudra Manthan Pays Up to Rs 675 Crore a Well. India's Last Deepwater Bets Show Discovery Is the Easy Part](https://masaladeutsch.blogspot.com/2026/10/samudra-manthan-pays-up-to-rs-675-crore.html)** — 2026-10-27
+  The new Rs 84,084 crore offshore scheme shares the cost of 60 deepwater wells and pays for new seismic surveys. Its 600 MMTOE reserve target is about ten years of India’s output; the harder test, on India’s record, is turning finds into production.
 - **[India's Cheapest LNG Capacity Is an Extra Tank at Dahej. Its Newer Terminals Run a Quarter Full](https://masaladeutsch.blogspot.com/2026/10/indias-cheapest-lng-capacity-is-extra.html)** — 2026-10-23
   Expanding Dahej cost about ₹370 crore per million tonnes a year of capacity; India’s new onshore terminals cost ₹950–1,290 crore, ran 22–35 months late and, in April–May 2026, worked at 24–37% of capacity while Dahej ran at 92%. PNGRB’s own data point to the pipeline out, not the tank, as the constraint.
 - **[India Has 28,000 km of Gas Pipeline Working and 7,000 km Still to Build. A Map of Where, and of the Lines Still on Paper](https://masaladeutsch.blogspot.com/2026/10/india-has-27400-km-of-gas-pipeline.html)** — 2026-10-23
@@ -1239,8 +1311,14 @@
 - **[Europe Bought a Record Amount of LNG and Made Itself Dependent on One Supplier](https://masaladeutsch.blogspot.com/2026/08/europe-bought-record-amount-of-lng-and.html)** — 2026-08-08
   The EU imported 146 bcm of LNG in 2025, overtaking China and Japan to become the world’s largest buyer. Nearly three-fifths of it came from the United States. That is not diversification — it is one dependency exchanged for another, on a market where Europe now buys a third of its volume at spot and a chokepoint 6,000 km away can move the price.
 
-### Governance & Institutions (2)
+### Governance & Institutions (5)
 
+- **[States Won the Right to Tax Mines in 2024. A 45-Minute Law Took It Back, Along With Up to Rs 2 Lakh Crore of Dues](https://masaladeutsch.blogspot.com/2026/10/states-won-right-to-tax-mines-in-2024.html)** — 2026-10-28
+  A nine-judge Supreme Court bench ruled that states may tax mineral rights and mineral land. The MMDR Amendment Act 2026 now bars such levies except on the Centre’s terms and cancels uncollected arrears. Jharkhand loses a cess worth a fifth of its own revenue; Odisha loses the arrears it claimed.
+- **[Seven States Plan to Borrow Above the New 3% Limit. Last Year, Most Missed Their Targets Anyway](https://masaladeutsch.blogspot.com/2026/10/seven-states-plan-to-borrow-above-new-3.html)** — 2026-10-27
+  The 16th Finance Commission caps state deficits at 3% of GSDP from 2026-27. Seven of 17 budgets plan more, seven of the nine states with revised figures overshot last year, and the Centre’s 50-year loans keep about 0.4% of GSDP out of the headline numbers.
+- **[GeM's Purchases Stopped Growing in 2025-26. Small Firms Won Two-Thirds of the Orders but Less Than Half the Money](https://masaladeutsch.blogspot.com/2026/10/gems-purchases-stopped-growing-in-2025.html)** — 2026-10-27
+  The government’s online marketplace has handled over Rs 20 lakh crore in ten years, but its 2025-26 purchases appear to have fallen for the first time. Small firms clear their 25% target easily; women- and SC/ST-owned firms still fall short across central purchases as a whole.
 - **[India's Constitution Set a Deadline Parliament Hasn't Met: The Reforms Pending in 2026](https://masaladeutsch.blogspot.com/2026/10/indias-constitution-set-deadline.html)** — 2026-10-26
   Census 2027 ends India's 50-year freeze on seat allocation, and the April 2026 attempt to replace it failed. Here are the constitutional reforms that commissions and courts keep flagging, and where each one stands.
 - **[The Two Biggest Parties in Parliament Ask About Everything. Everyone Else Doesn't.](https://masaladeutsch.blogspot.com/2026/09/the-two-biggest-parties-in-parliament.html)** — 2026-09-18
@@ -1275,8 +1353,12 @@
 - **[The Price of Grain: MSP, MSV, and the Arithmetic of the Indian Grain State](https://masaladeutsch.blogspot.com/2026/07/the-price-of-grain-msp-msv-and.html)** — 2026-07-23
   How India prices its harvest — for farmers, for ration shops, for distilleries, for the world market — and why pairing the Minimum Support Price with a Minimum Support Volume is the design that creates value on both sides of the ledger.
 
-### Healthcare (15)
+### Healthcare (17)
 
+- **[India Capped Margins on 137 Cancer Drugs. Common Medicines Outside Price Control Carry Markups of Up to 1,800%](https://masaladeutsch.blogspot.com/2026/10/india-capped-margins-on-137-cancer.html)** — 2026-10-28
+  From 9 November, trade margins on 137 cancer medicines are capped at 30%. A parliamentary committee found pharmacies discounting 20–60% off printed prices and markups of 600% to 1,800% on common drugs that sit outside price control, and the regulator has recovered about a sixth of what it says companies overcharged.
+- **[Most of What Indians Pay for Health Is Outpatient Care. Ayushman Bharat Pays Only for Hospital Stays](https://masaladeutsch.blogspot.com/2026/10/most-of-what-indians-pay-for-health-is.html)** — 2026-10-28
+  A Parliamentary committee wants PM-JAY extended to doctor visits, tests and medicines. Out-of-pocket spending rose to 43.4% of health spending in 2022-23, and most of it is outpatient care the scheme does not touch. Covering it for PM-JAY’s eligible population would cost a fraction of the committee’s own spending target.
 - **[How to use patient-history-tracking: a demo ICU dashboard and linked record](https://masaladeutsch.blogspot.com/2026/10/how-to-use-patient-history-tracking.html)** — 2026-10-18
   A small open prototype that replays real, de-identified ICU vitals into a multi-bed dashboard and ties alarms, a synthetic health ID, simulated insurance, prescriptions and a discharge summary to one record, using demo data that is not for clinical use.
 - **[India Tracks Every Taxpayer in Minutes. Its Patients Got a Digital ID in 2021, While Indian IT Earns Billions From Foreign Healthcare](https://masaladeutsch.blogspot.com/2026/10/india-tracks-every-taxpayer-in-minutes.html)** — 2026-10-18
@@ -1327,8 +1409,14 @@
 - **[Where India's Green Hydrogen Bets Are Actually Landing: A State-by-State Map of the Pipeline](https://masaladeutsch.blogspot.com/2026/08/where-indias-green-hydrogen-bets-are.html)** — 2026-08-05
   A September 2024 project registry compiled by the Indo-German Green Hydrogen Task Force names 126 production projects, 21 electrolyser/fuel-cell manufacturing plants, and 40 other related projects across India. Almost none of it is built yet — but the geography of where it's being announced is itself the story.
 
-### Import Substitution (21)
+### Import Substitution (24)
 
+- **[India's Rs 3,030 Crore Chemical Parks Copy the Bulk-Drug Parks. Those Released 6% of Their Money in Six Years](https://masaladeutsch.blogspot.com/2026/10/indias-rs-3030-crore-chemical-parks.html)** — 2026-10-27
+  BHAVYA Rasayan will pay for shared effluent, waste and steam plant in three state-run chemical parks. The design is the 2020 bulk-drug parks scheme’s, and the plastics and petrochemical imports that make up India’s real deficit need crackers, not parks.
+- **[India Wants Emergency Braking in Every Car by 2032. Fewer Than One in Ten Cars Sold Has It Now](https://masaladeutsch.blogspot.com/2026/10/india-wants-emergency-braking-in-every.html)** — 2026-10-27
+  A draft rule would make automatic emergency braking compulsory in new car models from 2030 and in all cars from 2032, eight years after Europe. The radar, camera and chips it needs are mostly imported, and the airbag mandate that came before it was dropped.
+- **[India Has Approved 12 Chip Plants and Paid Out About 7% of the Money. Semicon 2.0 Adds Rs 1.27 Lakh Crore](https://masaladeutsch.blogspot.com/2026/10/india-has-approved-12-chip-plants-and.html)** — 2026-10-27
+  Five of the first round’s twelve projects are producing, all of them assembly or packaging plants holding 20% of the approved investment. About Rs 5,619 crore of the Rs 76,000 crore had been spent by March 2026. The second round pays less per fab but covers equipment and materials.
 - **[The Phone PLI's Successor Pays Up to 5%, Wants 15% Growth a Year, and Offers 0.2% to Make the Cell Here](https://masaladeutsch.blogspot.com/2026/10/the-phone-plis-successor-pays-up-to-5.html)** — 2026-10-26
   The successor to the smartphone PLI pays 5% on most growth, not the 2.75% in its headline, but only after a brand grows more than 15% a year, and it offers just 0.20% for making the battery cell in India.
 - **[India's Approved Solar-Cell Makers Can Now Make 37.8 GW a Year. Rooftop Projects Have Until 31 December to Use Them](https://masaladeutsch.blogspot.com/2026/10/indias-approved-solar-cell-makers-can.html)** — 2026-10-26
@@ -1372,8 +1460,20 @@
 - **[Chemical Import Substitution Analysis: Executive Summary](https://masaladeutsch.blogspot.com/2026/07/chemical-import-substitution-analysis.html)** — 2026-08-01
   A re-derivation of this analysis against DGCI&S TradeStat on 2 August 2026 found that several HS-8 codes cited below do not exist in India’s tariff schedule, and the import values attached to them are not supported by the data. Specifically: ethylene was cited as 29011100 / $2,800M (the real line is 29012100, $44M); propylene as 29011200 / $1,400M (real: 29012200, $14M); polyethylene as 39021010/30 / $8.5bn (real 3901 lines total ~$2.8bn; 3902 is polypropylene); lecithin as 29239090 / $100M (real: 29232090, ~$19M); polypropylene as 39021100 (real: 39021000, value $1,372M is correct).
 
-### India (52)
+### India (67)
 
+- **[How to use lok-rajya-sabha-qa: see which parties and ministries Parliament questions are about](https://masaladeutsch.blogspot.com/2026/10/how-to-use-lok-rajya-sabha-qa-see-which.html)** — 2026-10-29
+  A ledger of 59,381 Parliament questions from the 18th Lok Sabha and matching Rajya Sabha sessions, ranked by party, ministry and state, ready to query in DuckDB. This post shows aggregates only.
+- **[How to use lignocellulosic-ethanol-opensource: size a 2G ethanol plant](https://masaladeutsch.blogspot.com/2026/10/how-to-use-lignocellulosic-ethanol.html)** — 2026-10-29
+  Size a second-generation cellulosic ethanol plant that turns rice straw into fuel ethanol, and compare the result with real plants.
+- **[How to use uco-ulo-tracking: chain-of-custody, integrity flags and EPR checks for used cooking and lubricating oil](https://masaladeutsch.blogspot.com/2026/10/how-to-use-uco-ulo-tracking-chain-of.html)** — 2026-10-29
+  A FastAPI + SQLite backend (with a React front end) that tracks used cooking oil and used lubricating oil from generator to buyer: manifests, lot mass balance, processing yields, a SHA-256 hash-chained ledger, fraud heuristics and India's used-oil EPR arithmetic. This post runs the tests, starts the API on seeded mock data and reads the compliance endpoints.
+- **[The Supercycle Is in Metals; the 2026 Oil Spike Is a Shock](https://masaladeutsch.blogspot.com/2026/10/the-supercycle-is-in-metals-2026-oil.html)** — 2026-10-28
+  The World Bank expects commodity prices to rise 16 percent in 2026, but most of the jump comes from the blocked Strait of Hormuz, not from a new demand-driven supercycle. Whether a rise is a shock or a cycle decides who gains and who pays, and that depends on how much a country buys from, or sells to, the rest of the world.
+- **[How to use india-trade-export-analysis: read India's 2020-2023 export data and the high-growth shortlist](https://masaladeutsch.blogspot.com/2026/10/how-to-use-india-trade-export-analysis.html)** — 2026-10-27
+  A set of pandas scripts, CSV results and markdown write-ups on India's commodity exports from TradeStat, with a shortlist of fast-growing export lines. You can explore the committed results without the raw data. The repository is archived and read-only. Trade analysis, not investment advice.
+- **[How to use india-forex-analysis: read, check and stress-test a 2020-2027 view of India's external account](https://masaladeutsch.blogspot.com/2026/10/how-to-use-india-forex-analysis-read.html)** — 2026-10-27
+  A markdown-only study of India's trade deficit, foreign-exchange reserves and government borrowing. This guide shows how to read it, how to check its arithmetic yourself, and where the numbers do not hold together. The repository is archived and read-only. Macro analysis, not investment advice.
 - **[India's Constitution Set a Deadline Parliament Hasn't Met: The Reforms Pending in 2026](https://masaladeutsch.blogspot.com/2026/10/indias-constitution-set-deadline.html)** — 2026-10-26
   Census 2027 ends India's 50-year freeze on seat allocation, and the April 2026 attempt to replace it failed. Here are the constitutional reforms that commissions and courts keep flagging, and where each one stands.
 - **[India Ordered 112 Captive Coal Plants to Run Flat Out as Exchange Prices Rose 50% in a Month, With Coal Stocks Steady](https://masaladeutsch.blogspot.com/2026/10/india-ordered-112-captive-coal-plants.html)** — 2026-10-26
@@ -1392,26 +1492,44 @@
   Size a coal-gasification-to-urea complex in which six units share one mass basis, and compare the result with the real Talcher plant.
 - **[How to use cbg-design-opensource: size a compressed biogas plant](https://masaladeutsch.blogspot.com/2026/10/how-to-use-cbg-design-opensource-size.html)** — 2026-10-23
   Size a compressed biogas plant for India's SATAT scheme, from feedstock through digestion, upgrading and 250 bar compression, and check it against a published plant.
+- **[How to use india-commodity-trade-deficit: eight years of HS-chapter trade data and bare-metal imports](https://masaladeutsch.blogspot.com/2026/10/how-to-use-india-commodity-trade.html)** — 2026-10-19
+  Two JSON datasets from the Commerce Ministry's TRADESTAT, all 98 HS chapters for FY2018-19 to FY2025-26 plus 4-digit gold, silver, copper and other metal imports by partner country, ready to query with plain Python.
 - **[How to use eu-ets-compliance-platform: a hands-on EU ETS and CBAM compliance prototype](https://masaladeutsch.blogspot.com/2026/10/how-to-use-eu-ets-compliance-platform.html)** — 2026-10-19
   A multi-tenant FastAPI and React prototype that models EU ETS, shipping MRV, CBAM, carbon-credit sourcing, trading and an India CCTS module on illustrative data, useful for learning how the pieces fit together.
 - **[How to use gazette-translated-indexed: a citation index of Indian gazette notifications](https://masaladeutsch.blogspot.com/2026/10/how-to-use-gazette-translated-indexed.html)** — 2026-10-19
   gazette-translated-indexed (Gazette Trail) tells you what an Indian gazette notification amends, what amended it before, and what superseded it, which you cannot see by reading one notification alone. It is a SQLite citation graph built from quoted primary-source text.
+- **[How to use india-trade-tracker: India chapter-wise exports and imports from official DGFT data](https://masaladeutsch.blogspot.com/2026/10/how-to-use-india-trade-tracker-india.html)** — 2026-10-19
+  A free, chapter-level (2-digit HS) view of India's merchandise exports and imports from the official Export-Import Data Bank, plus World Bank, NIRYAT and UN Comtrade collectors, stored in DuckDB.
+- **[How to use india-ec-subsector-analysis: see which states lead each Environmental Clearance sub-sector](https://masaladeutsch.blogspot.com/2026/10/how-to-use-india-ec-subsector-analysis.html)** — 2026-10-19
+  A pivot of India's full Environmental Clearance register (113,970 proposals from PARIVESH 2.0) by state and EIA sub-sector, with grant rates. This post builds a state-wise table for one sub-sector from the committed CSV, with no network call.
+- **[How to use india-omc-fuel-fleet-model: ethanol blend scenarios and OMC pump income in pure Python](https://masaladeutsch.blogspot.com/2026/10/how-to-use-india-omc-fuel-fleet-model.html)** — 2026-10-19
+  Small, dependency-free Python models for what India's oil marketing companies earn at the pump, how that changes at E20, E25 and E30 ethanol blends, and how many vehicles are actually on the road burning fuel.
+- **[How to use india-trade-sector-policy-recommendations: tiered sector and policy calls for India's trade](https://masaladeutsch.blogspot.com/2026/10/how-to-use-india-trade-sector-policy.html)** — 2026-10-19
+  The prescriptive half of a two-repo study: it turns India's trade data into tiered, checkable recommendations on which import sectors need action, which exports to back, and which country relationships to de-risk, with charts, JSON and a quarterly PDF.
+- **[How to use india-quality-regulation: a sourced map of who regulates quality in India](https://masaladeutsch.blogspot.com/2026/10/how-to-use-india-quality-regulation.html)** — 2026-10-19
+  A Markdown field guide to BIS and 35 other regulators, accreditation boards and voluntary marks, each page tied to the Act, order or scheme page behind it, with scripts that check the references still resolve.
 - **[How to use chemical_import_substitution: HS-8 import-substitution signals for India's chemical chapters](https://masaladeutsch.blogspot.com/2026/10/how-to-use-chemicalimportsubstitution.html)** — 2026-10-19
   A script and result file that sort India's chemical, fertiliser and plastics imports into import-substitution signals at 8-digit HS level, using public TRADESTAT value and quantity data.
 - **[How to use biomass-to-syngas-opensource: size a biomass gasifier](https://masaladeutsch.blogspot.com/2026/10/how-to-use-biomass-to-syngas-opensource.html)** — 2026-10-19
   Estimate what a biomass gasifier produces from straw, how much tar it makes and whether the syngas is good enough for power or for chemicals.
 - **[How to use digital-twin-for-ipa: a searchable map of India's investment incentives](https://masaladeutsch.blogspot.com/2026/10/how-to-use-digital-twin-for-ipa.html)** — 2026-10-19
   digital-twin-for-ipa is an open-source, machine-readable model of India's investment-promotion apparatus: 312 central and state incentive instruments, how they link, and a SQLite database of the companies around them.
+- **[How to use mospi-dataset-analysis-public: browse India's official MoSPI data snapshot](https://masaladeutsch.blogspot.com/2026/10/how-to-use-mospi-dataset-analysis.html)** — 2026-10-19
+  A frozen, public copy of an analysis of India's official statistics (CPI, WPI, IIP, GDP, RBI forex, trade): 14 interactive charts and 20 JSON datasets you can read with nothing but a browser. New work has moved to two successor repos.
 - **[How to use amazon-product-selector: a gated shortlist of rising Amazon keywords you can actually enter](https://masaladeutsch.blogspot.com/2026/10/how-to-use-amazon-product-selector.html)** — 2026-10-19
   A standard-library Python tool that ranks candidate keywords by rising search demand, then rejects the ones whose category is too entrenched, separately for consumer (B2C) and bulk (B2B) selling on Amazon India.
 - **[How to use agri-commodity-tracker: India mandi prices and an agriculture panel in one DuckDB file](https://masaladeutsch.blogspot.com/2026/10/how-to-use-agri-commodity-tracker-india.html)** — 2026-10-19
   Daily APMC mandi prices from Agmarknet (via data.gov.in) plus World Bank, FAOSTAT and NASA POWER agriculture data, all from open sources and stored in a local DuckDB file.
 - **[How to use FCI-warehouse-MSPvsMSV: grain procurement, MSP and mandi-price data with working models](https://masaladeutsch.blogspot.com/2026/10/how-to-use-fci-warehouse-mspvsmsv-grain.html)** — 2026-10-19
   A research and data repository on India's foodgrain procurement: the MSP series, mandi prices against MSP, FCI stocks and storage, a dashboard, and small Python models for holding economics and grain processing.
+- **[How to use kalki_flooding: 125 years of Indian city rainfall extremes from IMD gridded data](https://masaladeutsch.blogspot.com/2026/10/how-to-use-kalkiflooding-125-years-of.html)** — 2026-10-19
+  A repository of Python scripts and committed IMD-derived daily rainfall series for Indian cities that computes yearly heavy-rain metrics and charts, plus a flood-sensor collector for the IUDX network.
 - **[How to use cricket-data-analysis: score how predictable IPL and World Cup match-ups are](https://masaladeutsch.blogspot.com/2026/10/how-to-use-cricket-data-analysis-score.html)** — 2026-10-19
   A single R script that pulls match data from Cricsheet and ranks team pairings and venues by a simple predictability score. In our run the download worked but the script stopped on a package error, which this post explains and works around.
 - **[How to use CBSE_paper_patterns: check which Class 12 topics keep coming back at high marks](https://masaladeutsch.blogspot.com/2026/10/how-to-use-cbsepaperpatterns-check.html)** — 2026-10-19
   An analysis of 1,955 CBSE Class XII question papers (2022 to 2026) that measures how often high-mark questions reuse the same wording. This post uses only the derived aggregate tables, not the question text.
+- **[How to use india-trade-data-analysis: read India's trade, rupee and inflation data in one place](https://masaladeutsch.blogspot.com/2026/10/how-to-use-india-trade-data-analysis.html)** — 2026-10-19
+  The descriptive half of a two-repo study of India's trade: what MoSPI, RBI and TRADESTAT data show about the trade deficit, imports by HS chapter, the rupee and inflation, with charts and JSON extracts you can open without installing anything.
 - **[How to use patient-history-tracking: a demo ICU dashboard and linked record](https://masaladeutsch.blogspot.com/2026/10/how-to-use-patient-history-tracking.html)** — 2026-10-18
   A small open prototype that replays real, de-identified ICU vitals into a multi-bed dashboard and ties alarms, a synthetic health ID, simulated insurance, prescriptions and a discharge summary to one record, using demo data that is not for clinical use.
 - **[How to use the news tracker: score headlines and check them against stock picks](https://masaladeutsch.blogspot.com/2026/10/how-to-use-news-tracker-score-headlines.html)** — 2026-10-18
@@ -1508,14 +1626,28 @@
 - **[India Grows the Soybean, Exports the Meal, Leads in Lecithin — and Barely Makes Tofu Yet](https://masaladeutsch.blogspot.com/2026/08/india-grows-soybean-exports-meal-leads.html)** — 2026-08-15
   Madhya Pradesh and Maharashtra between them sow roughly 93 lakh hectares of soybean a year — a scale that ought to make India a soy-food powerhouse. Almost none of that crop becomes tofu, soy milk or protein isolate on an Indian plate. Trace the harvested bean through a crusher and it splits into meal, most of which used to be exported, and oil, which still leaves India roughly two-thirds reliant on imports to meet its own edible-oil demand. The one soy-derived product where India genuinely leads the world — lecithin — is a byproduct of that same oil-crushing step, not a separate industry. This piece follows the bean from MP and Maharashtra's fields through crushing, lecithin, and the still-small frontier of tofu, soy protein and edamame.
 
-### Industrial Policy (117)
+### Industrial Policy (124)
 
+- **[States Won the Right to Tax Mines in 2024. A 45-Minute Law Took It Back, Along With Up to Rs 2 Lakh Crore of Dues](https://masaladeutsch.blogspot.com/2026/10/states-won-right-to-tax-mines-in-2024.html)** — 2026-10-28
+  A nine-judge Supreme Court bench ruled that states may tax mineral rights and mineral land. The MMDR Amendment Act 2026 now bars such levies except on the Centre’s terms and cancels uncollected arrears. Jharkhand loses a cess worth a fifth of its own revenue; Odisha loses the arrears it claimed.
+- **[India Dropped the Last Approvals on Its Data-Centre Tax Holiday. It Never Said What the Holiday Costs](https://masaladeutsch.blogspot.com/2026/10/india-dropped-last-approvals-on-its.html)** — 2026-10-28
+  An August amendment lets foreign cloud companies claim India’s tax holiday to 2047 without being notified, and on capacity their Indian partners lease rather than own. India still taxes the Indian operator’s 15% margin, but no estimate of what the exemption costs has been published.
 - **[Closed Loop or Open Loop? How India's New Data Centres Should Be Cooled, Site by Site](https://masaladeutsch.blogspot.com/2026/10/closed-loop-or-open-loop-how-indias-new.html)** — 2026-10-27
   An open cooling tower uses about two litres of water per kWh of computing; a closed dry loop uses almost none but costs more power. Most of India’s big new campuses sit on the coast near subsea cables, where seawater changes the answer.
 - **[India Will Spend Rs 33,660 Crore on Ready-Made Factory Parks. Its Existing Parks Have 1.25 Lakh Empty Plots](https://masaladeutsch.blogspot.com/2026/10/india-will-spend-rs-33660-crore-on.html)** — 2026-10-27
   BHAVYA, approved in March, will fund 100 plug-and-play industrial parks by 2031-32. The land it adds is about a tenth of what mapped parks already have available, so its test is whether its parks fill faster. The first proposals come mostly from states other than those where factory investment is waiting.
+- **[India's Rs 3,030 Crore Chemical Parks Copy the Bulk-Drug Parks. Those Released 6% of Their Money in Six Years](https://masaladeutsch.blogspot.com/2026/10/indias-rs-3030-crore-chemical-parks.html)** — 2026-10-27
+  BHAVYA Rasayan will pay for shared effluent, waste and steam plant in three state-run chemical parks. The design is the 2020 bulk-drug parks scheme’s, and the plastics and petrochemical imports that make up India’s real deficit need crackers, not parks.
+- **[India's Draft Steel Policy Plans 604 Mt by 2047. Its Own Coal Forecast Means More Blast Furnaces, Not Fewer](https://masaladeutsch.blogspot.com/2026/10/indias-draft-steel-policy-plans-604-mt.html)** — 2026-10-27
+  The draft National Steel Policy nearly triples capacity and cuts emissions per tonne by 40%. Its forecast of 236 Mt of coking coal implies blast furnaces keep 43–57% of output, so the emissions target rests on cleaning up blast furnaces themselves.
+- **[India Has Approved 12 Chip Plants and Paid Out About 7% of the Money. Semicon 2.0 Adds Rs 1.27 Lakh Crore](https://masaladeutsch.blogspot.com/2026/10/india-has-approved-12-chip-plants-and.html)** — 2026-10-27
+  Five of the first round’s twelve projects are producing, all of them assembly or packaging plants holding 20% of the approved investment. About Rs 5,619 crore of the Rs 76,000 crore had been spent by March 2026. The second round pays less per fab but covers equipment and materials.
 - **[The DESH Bill Never Came. India Is Rewriting Its SEZ Law One Rule at a Time](https://masaladeutsch.blogspot.com/2026/10/the-desh-bill-never-came-india-is.html)** — 2026-10-27
   In 2022 the government promised a new law to turn export zones into development hubs that could also sell in India. The Bill stalled over tax breaks and never reached Parliament. Four years on, parts of it are arriving by notification, 95 of 372 notified zones sit idle, and an “SEZ 2.0” report has yet to be published.
+- **[Andhra Pradesh Has Approved Rs 14 Lakh Crore of Investment in Two Years. Its Large Factory Projects Built Rs 1.4 Lakh Crore in Five](https://masaladeutsch.blogspot.com/2026/10/andhra-pradesh-has-approved-rs-14-lakh.html)** — 2026-10-27
+  The state’s investment board says it has cleared 387 projects worth Rs 14.05 lakh crore. The factory record shows Andhra builds more of what it files than most states, but the headline is ten times anything it has built, and five announcements make up more than half of it.
+- **[GeM's Purchases Stopped Growing in 2025-26. Small Firms Won Two-Thirds of the Orders but Less Than Half the Money](https://masaladeutsch.blogspot.com/2026/10/gems-purchases-stopped-growing-in-2025.html)** — 2026-10-27
+  The government’s online marketplace has handled over Rs 20 lakh crore in ten years, but its 2025-26 purchases appear to have fallen for the first time. Small firms clear their 25% target easily; women- and SC/ST-owned firms still fall short across central purchases as a whole.
 - **[The Phone PLI's Successor Pays Up to 5%, Wants 15% Growth a Year, and Offers 0.2% to Make the Cell Here](https://masaladeutsch.blogspot.com/2026/10/the-phone-plis-successor-pays-up-to-5.html)** — 2026-10-26
   The successor to the smartphone PLI pays 5% on most growth, not the 2.75% in its headline, but only after a brand grows more than 15% a year, and it offers just 0.20% for making the battery cell in India.
 - **[India's Approved Solar-Cell Makers Can Now Make 37.8 GW a Year. Rooftop Projects Have Until 31 December to Use Them](https://masaladeutsch.blogspot.com/2026/10/indias-approved-solar-cell-makers-can.html)** — 2026-10-26
@@ -1745,16 +1877,22 @@
 - **[India Trade — Sector & Policy Recommendations (Chart Library)](https://masaladeutsch.blogspot.com/2026/07/india-trade-sector-policy.html)** — 2026-07-21
   Every chart and dataset in this project, served directly via GitHub Pages. Companion repo: India Trade & Macro Data Analysis (the descriptive half).
 
-### Infrastructure & Investment (13)
+### Infrastructure & Investment (16)
 
+- **[How to use lok-rajya-sabha-qa: see which parties and ministries Parliament questions are about](https://masaladeutsch.blogspot.com/2026/10/how-to-use-lok-rajya-sabha-qa-see-which.html)** — 2026-10-29
+  A ledger of 59,381 Parliament questions from the 18th Lok Sabha and matching Rajya Sabha sessions, ranked by party, ministry and state, ready to query in DuckDB. This post shows aggregates only.
 - **[A Hectare Under a Power Line Now Pays Three to Six Times What One Over a Pipeline Does](https://masaladeutsch.blogspot.com/2026/10/a-hectare-under-power-line-now-pays.html)** — 2026-10-26
   The Ministry of Power’s 6 October 2026 guidelines pay 30–60% of market value for the land under a transmission corridor and 200% for tower bases; the 1962 pipeline law pays 10%.
 - **[How to use focus-sector-investor-map: see which foreign investors pair with which Indian government initiative](https://masaladeutsch.blogspot.com/2026/10/how-to-use-focus-sector-investor-map.html)** — 2026-10-25
   A ready-made map of India's twelve focus sectors against 19,795 listed companies in 107 countries, plus a hand-verified file pairing foreign investors with the government scheme that is their route in.
 - **[How to use gazette-translated-indexed: a citation index of Indian gazette notifications](https://masaladeutsch.blogspot.com/2026/10/how-to-use-gazette-translated-indexed.html)** — 2026-10-19
   gazette-translated-indexed (Gazette Trail) tells you what an Indian gazette notification amends, what amended it before, and what superseded it, which you cannot see by reading one notification alone. It is a SQLite citation graph built from quoted primary-source text.
+- **[How to use india-trade-sector-policy-recommendations: tiered sector and policy calls for India's trade](https://masaladeutsch.blogspot.com/2026/10/how-to-use-india-trade-sector-policy.html)** — 2026-10-19
+  The prescriptive half of a two-repo study: it turns India's trade data into tiered, checkable recommendations on which import sectors need action, which exports to back, and which country relationships to de-risk, with charts, JSON and a quarterly PDF.
 - **[How to use digital-twin-for-ipa: a searchable map of India's investment incentives](https://masaladeutsch.blogspot.com/2026/10/how-to-use-digital-twin-for-ipa.html)** — 2026-10-19
   digital-twin-for-ipa is an open-source, machine-readable model of India's investment-promotion apparatus: 312 central and state incentive instruments, how they link, and a SQLite database of the companies around them.
+- **[How to use mospi-dataset-analysis-public: browse India's official MoSPI data snapshot](https://masaladeutsch.blogspot.com/2026/10/how-to-use-mospi-dataset-analysis.html)** — 2026-10-19
+  A frozen, public copy of an analysis of India's official statistics (CPI, WPI, IIP, GDP, RBI forex, trade): 14 interactive charts and 20 JSON datasets you can read with nothing but a browser. New work has moved to two successor repos.
 - **[India Is Piping Jet Fuel to Five New Airports at Once. Only Six Had It Before](https://masaladeutsch.blogspot.com/2026/09/india-is-piping-jet-fuel-to-five-new.html)** — 2026-09-08
   India has had a dedicated jet-fuel pipeline into an airport since 2008, at Bengaluru — and by this piece's count, at most six other airports since. Between 2022 and 2026, the regulator has authorised or bid out roughly six more, timed to new or expanding airports at Navi Mumbai, Noida's Jewar, Hyderabad, Ahmedabad and Bengaluru's own second line, with Visakhapatnam's new Bhogapuram airport and a handful of others still at the proposal stage. This piece maps what exists, what's being built, and the regulatory shift behind it — PNGRB now wants every new airport pipeline built open to more than one fuel supplier — with the same upfront caveat as always about how thin the public record on some of these lines still is.
 - **[Mapping India's Other Pipelines: Every Major Crude, Petrol-Diesel and LPG Line, By Company](https://masaladeutsch.blogspot.com/2026/09/mapping-indias-other-pipelines-every.html)** — 2026-09-08
@@ -1788,8 +1926,10 @@
 - **[India Irrigates Itself. 96.6% of Its Irrigation Schemes Are Privately Owned.](https://masaladeutsch.blogspot.com/2026/09/india-irrigates-itself-966-of-its.html)** — 2026-09-17
   India's own irrigation census counted 23.14 million minor irrigation schemes as of 2017-18 — 96.6% of them privately owned, 94.8% drawing groundwater, and most of the money behind them the individual farmer's own savings, not the public irrigation budget.
 
-### Livestock & Dairy (6)
+### Livestock & Dairy (7)
 
+- **[A Kilo of Crude Fish Oil Sells for About Rs 650. In Capsules It Retails for Rs 7,500 or More. India's Fishers Sell Only the Fish](https://masaladeutsch.blogspot.com/2026/10/a-kilo-of-crude-fish-oil-sells-for.html)** — 2026-10-28
+  India loses tens of thousands of crore of fish after harvest and sends cheap catch and juveniles to fishmeal plants. Oil, fish amino fertiliser and better curing could turn that waste into products that keep for months, if fishers’ cooperatives own the first steps.
 - **[Ethanol Plants That Trade Maize to Poultry Mills Can Earn Four Times More, but Only in a Glut Year](https://masaladeutsch.blogspot.com/2026/10/ethanol-plants-that-trade-maize-to.html)** — 2026-10-24
   India’s new ethanol tender puts maize last in line for oil-company orders. A maize distillery that also buys grain in price dips and sells its spare maize to poultry and feed mills earned about four times the EBITDA of a pure ethanol plant on 2025-26 prices. On 2024-25 prices, and in Uttar Pradesh’s weak 2025 window, it earned less. The model works only with strict buying rules.
 - **[India Imports the Whey Protein Its Cheese Makers Pour Away. The Fix Is Shared Whey Hubs, Not a Dryer in Every Dairy](https://masaladeutsch.blogspot.com/2026/10/india-imports-whey-protein-its-cheese.html)** — 2026-10-22
@@ -1803,8 +1943,10 @@
 - **[India's Animal-Protein Export Complex: Buffalo Meat, the Tallow-Biodiesel Byproduct, and the Shrimp Boom](https://masaladeutsch.blogspot.com/2026/08/indias-animal-protein-export-complex.html)** — 2026-08-05
   Buffalo meat, the rendering-industry fat it throws off, and farmed shrimp look like unrelated export categories. They share the same underlying story: India is one of the world's largest animal-protein producers, and each byproduct stream is at a different stage of being turned into an export or energy business.
 
-### LNG Plant & Terminal Engineering (4)
+### LNG Plant & Terminal Engineering (5)
 
+- **[How to use lng-design-opensource: size an LNG train with open tools](https://masaladeutsch.blogspot.com/2026/10/how-to-use-lng-design-opensource-size.html)** — 2026-10-29
+  An open Python toolkit that gives a quick, traceable first-pass sizing of an LNG liquefaction train and related terminals, with every stage on one feed basis, before you commit to a licensed simulator.
 - **[Electrification Is LNG's Biggest Decarbonization Lever. The Grid Is What Actually Limits It](https://masaladeutsch.blogspot.com/2026/09/electrification-is-lngs-biggest.html)** — 2026-09-14
   Global LNG runs at roughly 0.35 tonnes of CO2-equivalent per tonne produced on average, and the handful of plants built to beat that number by a wide margin lean on the same short list of levers — better heat recovery, smarter cooling, carbon capture for what's left, and increasingly, replacing the gas turbine with an electric motor. Public data from built and announced projects shows which levers actually move the number, and which one keeps running into the same wall: the power grid.
 - **[India's LNG Terminal Rules Changed Twice in 2025. A Concrete Platform at Kakinada Is Testing How Far They Stretch](https://masaladeutsch.blogspot.com/2026/09/indias-lng-terminal-rules-changed-twice.html)** — 2026-09-01
@@ -1821,8 +1963,14 @@
 - **[LNG Trucks Cost About What Diesel Does. GreenLine, Delhivery and UltraTech Are Scaling Them Anyway.](https://masaladeutsch.blogspot.com/2026/09/lng-trucks-cost-about-what-diesel-does.html)** — 2026-09-01
   An independent think-tank ran the numbers on LNG trucks in India this year and found their total cost of ownership lands roughly where diesel's does, not meaningfully below it — and that LNG combustion actually produces more nitrogen oxide than diesel, not less. None of that has stopped a real, fast-growing fleet of LNG trucks from showing up on Indian highways anyway, running for GreenLine, Delhivery, UltraTech Cement and Tata Steel. The reasons companies are betting on it turn out to have less to do with the fuel-cost math than the marketing suggests.
 
-### Macroeconomics & Monetary Policy (20)
+### Macroeconomics & Monetary Policy (23)
 
+- **[States Won the Right to Tax Mines in 2024. A 45-Minute Law Took It Back, Along With Up to Rs 2 Lakh Crore of Dues](https://masaladeutsch.blogspot.com/2026/10/states-won-right-to-tax-mines-in-2024.html)** — 2026-10-28
+  A nine-judge Supreme Court bench ruled that states may tax mineral rights and mineral land. The MMDR Amendment Act 2026 now bars such levies except on the Centre’s terms and cancels uncollected arrears. Jharkhand loses a cess worth a fifth of its own revenue; Odisha loses the arrears it claimed.
+- **[Seven States Plan to Borrow Above the New 3% Limit. Last Year, Most Missed Their Targets Anyway](https://masaladeutsch.blogspot.com/2026/10/seven-states-plan-to-borrow-above-new-3.html)** — 2026-10-27
+  The 16th Finance Commission caps state deficits at 3% of GSDP from 2026-27. Seven of 17 budgets plan more, seven of the nine states with revised figures overshot last year, and the Centre’s 50-year loans keep about 0.4% of GSDP out of the headline numbers.
+- **[India Got a Record $94.5 Billion of FDI Last Year. Net of Exits and Investment Abroad, $7.7 Billion Stayed](https://masaladeutsch.blogspot.com/2026/10/india-got-record-945-billion-of-fdi.html)** — 2026-10-27
+  Gross foreign direct investment is at a record, but most of it leaves again: foreign investors cashing out through IPOs and private-equity exits, and Indian companies investing abroad. Net FDI, which helps pay for the current-account deficit, has fallen from about $43 billion a year to single digits.
 - **[The RBI's FCNR(B) Window Drew $133 Billion. Reserves Have Since Fallen $51 Billion From Their Peak, and the RBI's Short Forward Book Passed $200 Billion](https://masaladeutsch.blogspot.com/2026/10/the-rbis-fcnrb-window-drew-133-billion.html)** — 2026-10-10
   The swap window held the rupee and lifted reserves to a record $785.7 billion, but the dollars are owed back from 2029, nearly half in 2031. Reserves are down $51 billion in four weeks, the forward book is at $200 billion, and the maturity ladder is not published.
 - **[Abu Dhabi Paid $2 Billion for a Binance Stake in Stablecoins. India's FDI Rules Have No Box for That.](https://masaladeutsch.blogspot.com/2026/10/abu-dhabi-paid-2-billion-for-binance.html)** — 2026-10-02
@@ -1875,20 +2023,38 @@
 - **[How India's Automotive Clusters Rewired Themselves Around Just-in-Time Delivery](https://masaladeutsch.blogspot.com/2026/08/how-indias-automotive-clusters-rewired.html)** — 2026-08-15
   Maruti Suzuki gets over 76% of its 246 suppliers within 100km of its assembly lines, and its "e-Nagare" system cut the order-to-shopfloor cycle from 30 hours to 2. That single number is the clearest evidence of how India's automotive clusters actually work today — not as five separate manufacturing hubs, but as increasingly tight, just-in-time-organised ecosystems where component suppliers sit inside the same radius as the OEM. This piece maps the clusters, the mechanics of the JIT shift, and the one real crisis — the 2021 semiconductor shortage — that showed exactly where that model breaks.
 
-### Markets & Finance (61)
+### Markets & Finance (70)
 
+- **[The Negative Cash Conversion Cycle: Free Money or a Warning Sign?](https://masaladeutsch.blogspot.com/2026/10/the-negative-cash-conversion-cycle-free.html)** — 2026-10-28
+  A company with a negative cash conversion cycle collects cash from its customers before it has to pay its suppliers. That can be the sign of a superb business, or of one quietly running out of cash, and the numbers alone do not say which.
+- **[How to use india-trade-export-analysis: read India's 2020-2023 export data and the high-growth shortlist](https://masaladeutsch.blogspot.com/2026/10/how-to-use-india-trade-export-analysis.html)** — 2026-10-27
+  A set of pandas scripts, CSV results and markdown write-ups on India's commodity exports from TradeStat, with a shortlist of fast-growing export lines. You can explore the committed results without the raw data. The repository is archived and read-only. Trade analysis, not investment advice.
+- **[India Got a Record $94.5 Billion of FDI Last Year. Net of Exits and Investment Abroad, $7.7 Billion Stayed](https://masaladeutsch.blogspot.com/2026/10/india-got-record-945-billion-of-fdi.html)** — 2026-10-27
+  Gross foreign direct investment is at a record, but most of it leaves again: foreign investors cashing out through IPOs and private-equity exits, and Indian companies investing abroad. Net FDI, which helps pay for the current-account deficit, has fallen from about $43 billion a year to single digits.
+- **[How to use india-forex-analysis: read, check and stress-test a 2020-2027 view of India's external account](https://masaladeutsch.blogspot.com/2026/10/how-to-use-india-forex-analysis-read.html)** — 2026-10-27
+  A markdown-only study of India's trade deficit, foreign-exchange reserves and government borrowing. This guide shows how to read it, how to check its arithmetic yourself, and where the numbers do not hold together. The repository is archived and read-only. Macro analysis, not investment advice.
 - **[India Ordered 112 Captive Coal Plants to Run Flat Out as Exchange Prices Rose 50% in a Month, With Coal Stocks Steady](https://masaladeutsch.blogspot.com/2026/10/india-ordered-112-captive-coal-plants.html)** — 2026-10-26
   Two Ministry of Power orders of 25 September 2026 draft 112 captive coal plants and the Mundra imported-coal plant into the grid; the exchange had already moved ₹4.88 to ₹7.3 a unit in a month while coal stocks held above 18 MT.
 - **[How to use focus-sector-investor-map: see which foreign investors pair with which Indian government initiative](https://masaladeutsch.blogspot.com/2026/10/how-to-use-focus-sector-investor-map.html)** — 2026-10-25
   A ready-made map of India's twelve focus sectors against 19,795 listed companies in 107 countries, plus a hand-verified file pairing foreign investors with the government scheme that is their route in.
+- **[How to use market-correlation-matrices: read per-market stock correlation snapshots](https://masaladeutsch.blogspot.com/2026/10/how-to-use-market-correlation-matrices.html)** — 2026-10-19
+  Ready-made correlation matrices of daily stock returns for six markets (India, US, Japan, Korea, China, Europe), stored compactly so you can load one in a few lines of Python. Not investment advice: this is research and education material built from public-source or derived data; it is not a recommendation to buy or sell anything.
+- **[How to use india-commodity-trade-deficit: eight years of HS-chapter trade data and bare-metal imports](https://masaladeutsch.blogspot.com/2026/10/how-to-use-india-commodity-trade.html)** — 2026-10-19
+  Two JSON datasets from the Commerce Ministry's TRADESTAT, all 98 HS chapters for FY2018-19 to FY2025-26 plus 4-digit gold, silver, copper and other metal imports by partner country, ready to query with plain Python.
+- **[How to use india-trade-tracker: India chapter-wise exports and imports from official DGFT data](https://masaladeutsch.blogspot.com/2026/10/how-to-use-india-trade-tracker-india.html)** — 2026-10-19
+  A free, chapter-level (2-digit HS) view of India's merchandise exports and imports from the official Export-Import Data Bank, plus World Bank, NIRYAT and UN Comtrade collectors, stored in DuckDB.
 - **[How to use colab-market-fundamentals: collect dated annual fundamentals for 20 markets in Colab](https://masaladeutsch.blogspot.com/2026/10/how-to-use-colab-market-fundamentals.html)** — 2026-10-19
   A Google Colab notebook that downloads about five years of annual company financials per market through yfinance, saves them to parquet every three minutes, and lets you resume from a zip. Research and education only. Not investment advice: this is research and education material built from public-source or derived data; it is not a recommendation to buy or sell anything.
+- **[How to use piotroski-liquidity-research: a point-in-time test of the Piotroski F-score and liquidity](https://masaladeutsch.blogspot.com/2026/10/how-to-use-piotroski-liquidity-research.html)** — 2026-10-19
+  piotroski-liquidity-research asks whether the Piotroski F-score premium is explained by firm size or by stock liquidity, using point-in-time backtests. Its headline is that the premium tracks illiquidity, with a capacity of about $250,000. I re-ran its US scripts on 23 October 2026 against a US price panel whose last session is 21 October 2026 and SEC EDGAR filings filed up to 20 October 2026. Not investment advice. Educational and research use only; historical averages on short samples, and the repo's own numbers are provisional.
 - **[How to use agri-commodity-tracker: India mandi prices and an agriculture panel in one DuckDB file](https://masaladeutsch.blogspot.com/2026/10/how-to-use-agri-commodity-tracker-india.html)** — 2026-10-19
   Daily APMC mandi prices from Agmarknet (via data.gov.in) plus World Bank, FAOSTAT and NASA POWER agriculture data, all from open sources and stored in a local DuckDB file.
 - **[How to use agentic-insurance-agent: open-source insurance workflows with safe AI](https://masaladeutsch.blogspot.com/2026/10/how-to-use-agentic-insurance-agent-open.html)** — 2026-10-19
   agentic-insurance-agent is an open-source way to run insurance processes (policy issue, premium collection, claims) as diagrams and rules, with an AI layer that can recommend but not move money.
 - **[How to use Bazartalks_Py2Cplus: a C++ port of a quant research platform, with its Python-vs-C++ benchmark](https://masaladeutsch.blogspot.com/2026/10/how-to-use-bazartalkspy2cplus-c-port-of.html)** — 2026-10-19
   Bazartalks_Py2Cplus (BazaarTalks-cpp) reimplements the storage, streaming, quant-compute, backtest and serving layers of BazaarTalks in C++, keeping Python only for data acquisition and ML training. This post is a not-run, README-based guide to building it, plus the benchmark the repo itself committed. Not investment advice.
+- **[How to use india-trade-data-analysis: read India's trade, rupee and inflation data in one place](https://masaladeutsch.blogspot.com/2026/10/how-to-use-india-trade-data-analysis.html)** — 2026-10-19
+  The descriptive half of a two-repo study of India's trade: what MoSPI, RBI and TRADESTAT data show about the trade deficit, imports by HS chapter, the rupee and inflation, with charts and JSON extracts you can open without installing anything.
 - **[How to use global-ticker-universe: look up exchange-qualified tickers for 34 markets](https://masaladeutsch.blogspot.com/2026/10/how-to-use-global-ticker-universe-look.html)** — 2026-10-19
   A plain-data ticker list for 34 markets with a tiny Python helper, so you can pull every Yahoo-style symbol for India, Japan, Germany or any other covered market in one line. Not investment advice: this is research and education material built from public-source or derived data; it is not a recommendation to buy or sell anything.
 - **[How to use BazaarTalks: a multi-market quant research platform you can query with DuckDB](https://masaladeutsch.blogspot.com/2026/10/how-to-use-bazaartalks-multi-market.html)** — 2026-10-19
@@ -2000,13 +2166,19 @@
 - **[Tech for Business so 2019, Tech As Business is for 2020! ](https://masaladeutsch.blogspot.com/2020/10/tech-for-business-so-2019-tech-as.html)** — 2020-10-04
   About this article: Researched, written and edited by Umashankar Triplicane Dwarakanathan, with AI research assistance; every figure is meant to trace to the primary source cited. See the Editorial Policy for how sourcing, AI use and corrections work.
 
-### Markets & Investing (1)
+### Markets & Investing (3)
 
+- **[The Supercycle Is in Metals; the 2026 Oil Spike Is a Shock](https://masaladeutsch.blogspot.com/2026/10/the-supercycle-is-in-metals-2026-oil.html)** — 2026-10-28
+  The World Bank expects commodity prices to rise 16 percent in 2026, but most of the jump comes from the blocked Strait of Hormuz, not from a new demand-driven supercycle. Whether a rise is a shock or a cycle decides who gains and who pays, and that depends on how much a country buys from, or sells to, the rest of the world.
+- **[Earnings Drift and Piotroski Work Only Where Trading Is Thin](https://masaladeutsch.blogspot.com/2026/10/earnings-drift-and-piotroski-work-only.html)** — 2026-10-28
+  Two classic stock signals, earnings drift and the Piotroski F-score, both work, but only where trading is thin. Adding return on capital to Piotroski picks better businesses without picking better stocks.
 - **[What Seven Model Stock Portfolios Look Like Once You Check Them Against the Index](https://masaladeutsch.blogspot.com/2026/08/what-seven-model-stock-portfolios-look.html)** — 2026-08-28
   Stack eight stock-picking factors — breakout, quality, value, momentum, and a machine-learning bullish flag among them — and group what survives into co-movement model portfolios, and two separate questions come apart: does the result actually differ from an index fund, and does it actually beat one? Checked against public sector benchmarks, this factor stack's portfolios are almost uniformly differentiated from the index — but only one of seven is currently outperforming it once the broad market's own rise is stripped out.
 
-### Mobility & EV (18)
+### Mobility & EV (19)
 
+- **[India Wants Emergency Braking in Every Car by 2032. Fewer Than One in Ten Cars Sold Has It Now](https://masaladeutsch.blogspot.com/2026/10/india-wants-emergency-braking-in-every.html)** — 2026-10-27
+  A draft rule would make automatic emergency braking compulsory in new car models from 2030 and in all cars from 2032, eight years after Europe. The radar, camera and chips it needs are mostly imported, and the airbag mandate that came before it was dropped.
 - **[How to use fuel-retail-outlets: see where India's petrol pumps are, state by state](https://masaladeutsch.blogspot.com/2026/10/how-to-use-fuel-retail-outlets-see.html)** — 2026-10-25
   A crawl of 104,945 petrol-pump records from a public API, plus extractors and gap-analysis maps. This post shows the one cleaning step you must do first, and the state-by-state coverage it gives you.
 - **[How to use cng-cgd-retail-outlet-mapping: find which gas distributor is authorised to supply CNG to each petrol pump](https://masaladeutsch.blogspot.com/2026/10/how-to-use-cng-cgd-retail-outlet.html)** — 2026-10-23
@@ -2062,8 +2234,20 @@
 - **[India's Oil Fields Are Running Down: 36.96 to 28.70 MMT in a Decade, and the Targets Have Stopped Meaning Anything](https://masaladeutsch.blogspot.com/2026/08/indias-oil-fields-are-running-down-3696.html)** — 2026-08-06
   DGH's own ten-year table shows crude output falling every year but one since 2014-15. Gas has held up — but only because private deepwater replaced the state fields that were shrinking underneath it.
 
-### Open-Source Tools & How-To (37)
+### Open-Source Tools & How-To (56)
 
+- **[How to use lok-rajya-sabha-qa: see which parties and ministries Parliament questions are about](https://masaladeutsch.blogspot.com/2026/10/how-to-use-lok-rajya-sabha-qa-see-which.html)** — 2026-10-29
+  A ledger of 59,381 Parliament questions from the 18th Lok Sabha and matching Rajya Sabha sessions, ranked by party, ministry and state, ready to query in DuckDB. This post shows aggregates only.
+- **[How to use lng-design-opensource: size an LNG train with open tools](https://masaladeutsch.blogspot.com/2026/10/how-to-use-lng-design-opensource-size.html)** — 2026-10-29
+  An open Python toolkit that gives a quick, traceable first-pass sizing of an LNG liquefaction train and related terminals, with every stage on one feed basis, before you commit to a licensed simulator.
+- **[How to use lignocellulosic-ethanol-opensource: size a 2G ethanol plant](https://masaladeutsch.blogspot.com/2026/10/how-to-use-lignocellulosic-ethanol.html)** — 2026-10-29
+  Size a second-generation cellulosic ethanol plant that turns rice straw into fuel ethanol, and compare the result with real plants.
+- **[How to use uco-ulo-tracking: chain-of-custody, integrity flags and EPR checks for used cooking and lubricating oil](https://masaladeutsch.blogspot.com/2026/10/how-to-use-uco-ulo-tracking-chain-of.html)** — 2026-10-29
+  A FastAPI + SQLite backend (with a React front end) that tracks used cooking oil and used lubricating oil from generator to buyer: manifests, lot mass balance, processing yields, a SHA-256 hash-chained ledger, fraud heuristics and India's used-oil EPR arithmetic. This post runs the tests, starts the API on seeded mock data and reads the compliance endpoints.
+- **[How to use india-trade-export-analysis: read India's 2020-2023 export data and the high-growth shortlist](https://masaladeutsch.blogspot.com/2026/10/how-to-use-india-trade-export-analysis.html)** — 2026-10-27
+  A set of pandas scripts, CSV results and markdown write-ups on India's commodity exports from TradeStat, with a shortlist of fast-growing export lines. You can explore the committed results without the raw data. The repository is archived and read-only. Trade analysis, not investment advice.
+- **[How to use india-forex-analysis: read, check and stress-test a 2020-2027 view of India's external account](https://masaladeutsch.blogspot.com/2026/10/how-to-use-india-forex-analysis-read.html)** — 2026-10-27
+  A markdown-only study of India's trade deficit, foreign-exchange reserves and government borrowing. This guide shows how to read it, how to check its arithmetic yourself, and where the numbers do not hold together. The repository is archived and read-only. Macro analysis, not investment advice.
 - **[How to use hydrogen-electrolyser-control: a simulated PEM, AEM and alkaline electrolyser controller](https://masaladeutsch.blogspot.com/2026/10/how-to-use-hydrogen-electrolyser.html)** — 2026-10-25
   A Python simulation of a hydrogen electrolyser control system: voltage and power setpoints, ramp profiles, inverter frequency, safety limits and a small REST API. This post runs it for real, shows what works and what is broken. Simulation only, not for operating real electrolysers. The repository is archived (read-only).
 - **[How to use discom-debt-and-revenue-models: a scenario calculator for electricity distribution company debt](https://masaladeutsch.blogspot.com/2026/10/how-to-use-discom-debt-and-revenue.html)** — 2026-10-25
@@ -2086,22 +2270,44 @@
   Size a compressed biogas plant for India's SATAT scheme, from feedstock through digestion, upgrading and 250 bar compression, and check it against a published plant.
 - **[How to use claude-provenance: an auditable log of every Claude message on your machine](https://masaladeutsch.blogspot.com/2026/10/how-to-use-claude-provenance-auditable.html)** — 2026-10-19
   One Python script turns your local Claude Code transcripts, prompt history and claude.ai export into a single SQLite database with timestamps, models, tool calls and a SHA-256 of each message.
+- **[How to use market-correlation-matrices: read per-market stock correlation snapshots](https://masaladeutsch.blogspot.com/2026/10/how-to-use-market-correlation-matrices.html)** — 2026-10-19
+  Ready-made correlation matrices of daily stock returns for six markets (India, US, Japan, Korea, China, Europe), stored compactly so you can load one in a few lines of Python. Not investment advice: this is research and education material built from public-source or derived data; it is not a recommendation to buy or sell anything.
+- **[How to use india-commodity-trade-deficit: eight years of HS-chapter trade data and bare-metal imports](https://masaladeutsch.blogspot.com/2026/10/how-to-use-india-commodity-trade.html)** — 2026-10-19
+  Two JSON datasets from the Commerce Ministry's TRADESTAT, all 98 HS chapters for FY2018-19 to FY2025-26 plus 4-digit gold, silver, copper and other metal imports by partner country, ready to query with plain Python.
 - **[How to use eu-ets-compliance-platform: a hands-on EU ETS and CBAM compliance prototype](https://masaladeutsch.blogspot.com/2026/10/how-to-use-eu-ets-compliance-platform.html)** — 2026-10-19
   A multi-tenant FastAPI and React prototype that models EU ETS, shipping MRV, CBAM, carbon-credit sourcing, trading and an India CCTS module on illustrative data, useful for learning how the pieces fit together.
 - **[How to use gazette-translated-indexed: a citation index of Indian gazette notifications](https://masaladeutsch.blogspot.com/2026/10/how-to-use-gazette-translated-indexed.html)** — 2026-10-19
   gazette-translated-indexed (Gazette Trail) tells you what an Indian gazette notification amends, what amended it before, and what superseded it, which you cannot see by reading one notification alone. It is a SQLite citation graph built from quoted primary-source text.
+- **[How to use india-trade-tracker: India chapter-wise exports and imports from official DGFT data](https://masaladeutsch.blogspot.com/2026/10/how-to-use-india-trade-tracker-india.html)** — 2026-10-19
+  A free, chapter-level (2-digit HS) view of India's merchandise exports and imports from the official Export-Import Data Bank, plus World Bank, NIRYAT and UN Comtrade collectors, stored in DuckDB.
+- **[How to use india-ec-subsector-analysis: see which states lead each Environmental Clearance sub-sector](https://masaladeutsch.blogspot.com/2026/10/how-to-use-india-ec-subsector-analysis.html)** — 2026-10-19
+  A pivot of India's full Environmental Clearance register (113,970 proposals from PARIVESH 2.0) by state and EIA sub-sector, with grant rates. This post builds a state-wise table for one sub-sector from the committed CSV, with no network call.
 - **[How to use ev-battery-management-sim: simulate EV battery packs and test the model on battery datasets](https://masaladeutsch.blogspot.com/2026/10/how-to-use-ev-battery-management-sim.html)** — 2026-10-19
   A Python simulation of battery management for scooters, retrofitted cars and buses, plus a NASA battery-data cleaning notebook and a validation suite for six Kaggle datasets. The built-in validation runs on synthetic stand-ins; this post says so plainly. Simulation only, not engineering design.
+- **[How to use india-omc-fuel-fleet-model: ethanol blend scenarios and OMC pump income in pure Python](https://masaladeutsch.blogspot.com/2026/10/how-to-use-india-omc-fuel-fleet-model.html)** — 2026-10-19
+  Small, dependency-free Python models for what India's oil marketing companies earn at the pump, how that changes at E20, E25 and E30 ethanol blends, and how many vehicles are actually on the road burning fuel.
+- **[How to use india-trade-sector-policy-recommendations: tiered sector and policy calls for India's trade](https://masaladeutsch.blogspot.com/2026/10/how-to-use-india-trade-sector-policy.html)** — 2026-10-19
+  The prescriptive half of a two-repo study: it turns India's trade data into tiered, checkable recommendations on which import sectors need action, which exports to back, and which country relationships to de-risk, with charts, JSON and a quarterly PDF.
 - **[How to use delivery-playbook: a field guide for choosing and fixing your software process](https://masaladeutsch.blogspot.com/2026/10/how-to-use-delivery-playbook-field.html)** — 2026-10-19
   A single-file HTML guide to SDLC models, the Agile family, DevOps, a fit-finder for picking a process, named anti-patterns, computer-science theory applied to products, DDD and TOGAF. This post shows what is inside and how to read it, adapt it or hand it to an AI assistant.
+- **[How to use india-quality-regulation: a sourced map of who regulates quality in India](https://masaladeutsch.blogspot.com/2026/10/how-to-use-india-quality-regulation.html)** — 2026-10-19
+  A Markdown field guide to BIS and 35 other regulators, accreditation boards and voluntary marks, each page tied to the Act, order or scheme page behind it, with scripts that check the references still resolve.
+- **[How to use ltm-warehouse-tests: test a Postgres price-history backfill without touching the real warehouse](https://masaladeutsch.blogspot.com/2026/10/how-to-use-ltm-warehouse-tests-test.html)** — 2026-10-19
+  A test harness that builds a throwaway Postgres database, seeds awkward synthetic tickers, runs the backfill scripts against it and drops the database afterwards.
+- **[How to use memory-map-optimizer: cluster a knowledge graph and search and dedupe notes](https://masaladeutsch.blogspot.com/2026/10/how-to-use-memory-map-optimizer-cluster.html)** — 2026-10-19
+  A single-file Python command-line tool that finds communities in a graph file, builds a hybrid keyword-plus-embedding search over your markdown notes, flags near-duplicate notes, and writes an HTML memory map.
 - **[How to use chemical_import_substitution: HS-8 import-substitution signals for India's chemical chapters](https://masaladeutsch.blogspot.com/2026/10/how-to-use-chemicalimportsubstitution.html)** — 2026-10-19
   A script and result file that sort India's chemical, fertiliser and plastics imports into import-substitution signals at 8-digit HS level, using public TRADESTAT value and quantity data.
 - **[How to use biomass-to-syngas-opensource: size a biomass gasifier](https://masaladeutsch.blogspot.com/2026/10/how-to-use-biomass-to-syngas-opensource.html)** — 2026-10-19
   Estimate what a biomass gasifier produces from straw, how much tar it makes and whether the syngas is good enough for power or for chemicals.
 - **[How to use digital-twin-for-ipa: a searchable map of India's investment incentives](https://masaladeutsch.blogspot.com/2026/10/how-to-use-digital-twin-for-ipa.html)** — 2026-10-19
   digital-twin-for-ipa is an open-source, machine-readable model of India's investment-promotion apparatus: 312 central and state incentive instruments, how they link, and a SQLite database of the companies around them.
+- **[How to use mospi-dataset-analysis-public: browse India's official MoSPI data snapshot](https://masaladeutsch.blogspot.com/2026/10/how-to-use-mospi-dataset-analysis.html)** — 2026-10-19
+  A frozen, public copy of an analysis of India's official statistics (CPI, WPI, IIP, GDP, RBI forex, trade): 14 interactive charts and 20 JSON datasets you can read with nothing but a browser. New work has moved to two successor repos.
 - **[How to use colab-market-fundamentals: collect dated annual fundamentals for 20 markets in Colab](https://masaladeutsch.blogspot.com/2026/10/how-to-use-colab-market-fundamentals.html)** — 2026-10-19
   A Google Colab notebook that downloads about five years of annual company financials per market through yfinance, saves them to parquet every three minutes, and lets you resume from a zip. Research and education only. Not investment advice: this is research and education material built from public-source or derived data; it is not a recommendation to buy or sell anything.
+- **[How to use piotroski-liquidity-research: a point-in-time test of the Piotroski F-score and liquidity](https://masaladeutsch.blogspot.com/2026/10/how-to-use-piotroski-liquidity-research.html)** — 2026-10-19
+  piotroski-liquidity-research asks whether the Piotroski F-score premium is explained by firm size or by stock liquidity, using point-in-time backtests. Its headline is that the premium tracks illiquidity, with a capacity of about $250,000. I re-ran its US scripts on 23 October 2026 against a US price panel whose last session is 21 October 2026 and SEC EDGAR filings filed up to 20 October 2026. Not investment advice. Educational and research use only; historical averages on short samples, and the repo's own numbers are provisional.
 - **[How to use blog-consistency-check: a "is this blog post broken?" audit for HTML posts](https://masaladeutsch.blogspot.com/2026/10/how-to-use-blog-consistency-check-is.html)** — 2026-10-19
   A small Python script that fetches a published masaladeutsch post and tests it against rules taken from real defects: broken JavaScript, backwards dark-mode media queries, missing disclaimers, unlocked dark palettes. It exits non-zero on a blocker, so it can gate CI.
 - **[How to use data-source-mining: pull World Bank indicators and mandi prices into DuckDB](https://masaladeutsch.blogspot.com/2026/10/how-to-use-data-source-mining-pull.html)** — 2026-10-19
@@ -2114,12 +2320,16 @@
   A research and data repository on India's foodgrain procurement: the MSP series, mandi prices against MSP, FCI stocks and storage, a dashboard, and small Python models for holding economics and grain processing.
 - **[How to use agentic-insurance-agent: open-source insurance workflows with safe AI](https://masaladeutsch.blogspot.com/2026/10/how-to-use-agentic-insurance-agent-open.html)** — 2026-10-19
   agentic-insurance-agent is an open-source way to run insurance processes (policy issue, premium collection, claims) as diagrams and rules, with an AI layer that can recommend but not move money.
+- **[How to use kalki_flooding: 125 years of Indian city rainfall extremes from IMD gridded data](https://masaladeutsch.blogspot.com/2026/10/how-to-use-kalkiflooding-125-years-of.html)** — 2026-10-19
+  A repository of Python scripts and committed IMD-derived daily rainfall series for Indian cities that computes yearly heavy-rain metrics and charts, plus a flood-sensor collector for the IUDX network.
 - **[How to use cricket-data-analysis: score how predictable IPL and World Cup match-ups are](https://masaladeutsch.blogspot.com/2026/10/how-to-use-cricket-data-analysis-score.html)** — 2026-10-19
   A single R script that pulls match data from Cricsheet and ranks team pairings and venues by a simple predictability score. In our run the download worked but the script stopped on a package error, which this post explains and works around.
 - **[How to use Bazartalks_Py2Cplus: a C++ port of a quant research platform, with its Python-vs-C++ benchmark](https://masaladeutsch.blogspot.com/2026/10/how-to-use-bazartalkspy2cplus-c-port-of.html)** — 2026-10-19
   Bazartalks_Py2Cplus (BazaarTalks-cpp) reimplements the storage, streaming, quant-compute, backtest and serving layers of BazaarTalks in C++, keeping Python only for data acquisition and ML training. This post is a not-run, README-based guide to building it, plus the benchmark the repo itself committed. Not investment advice.
 - **[How to use CBSE_paper_patterns: check which Class 12 topics keep coming back at high marks](https://masaladeutsch.blogspot.com/2026/10/how-to-use-cbsepaperpatterns-check.html)** — 2026-10-19
   An analysis of 1,955 CBSE Class XII question papers (2022 to 2026) that measures how often high-mark questions reuse the same wording. This post uses only the derived aggregate tables, not the question text.
+- **[How to use india-trade-data-analysis: read India's trade, rupee and inflation data in one place](https://masaladeutsch.blogspot.com/2026/10/how-to-use-india-trade-data-analysis.html)** — 2026-10-19
+  The descriptive half of a two-repo study of India's trade: what MoSPI, RBI and TRADESTAT data show about the trade deficit, imports by HS chapter, the rupee and inflation, with charts and JSON extracts you can open without installing anything.
 - **[How to use global-ticker-universe: look up exchange-qualified tickers for 34 markets](https://masaladeutsch.blogspot.com/2026/10/how-to-use-global-ticker-universe-look.html)** — 2026-10-19
   A plain-data ticker list for 34 markets with a tiny Python helper, so you can pull every Yahoo-style symbol for India, Japan, Germany or any other covered market in one line. Not investment advice: this is research and education material built from public-source or derived data; it is not a recommendation to buy or sell anything.
 - **[How to use BazaarTalks: a multi-market quant research platform you can query with DuckDB](https://masaladeutsch.blogspot.com/2026/10/how-to-use-bazaartalks-multi-market.html)** — 2026-10-19
@@ -2192,8 +2402,12 @@
 - **[Priority Trade Partners by Import-Growth Sector, & Real PLI Coverage](https://masaladeutsch.blogspot.com/2026/08/priority-trade-partners-by-import.html)** — 2026-08-02
   Maps each of the 12 fastest-growing/highest-value import chapters (from this repo's HSN historical-trends bulletin) to its actual top supplier countries via TRADESTAT, builds a cross-sector country-priority ranking, and checks exactly which Production Linked Incentive sub-schemes — including White Goods and Specialty Steel — actually reach these chapters.
 
-### Prices & Inflation (14)
+### Prices & Inflation (16)
 
+- **[The Supercycle Is in Metals; the 2026 Oil Spike Is a Shock](https://masaladeutsch.blogspot.com/2026/10/the-supercycle-is-in-metals-2026-oil.html)** — 2026-10-28
+  The World Bank expects commodity prices to rise 16 percent in 2026, but most of the jump comes from the blocked Strait of Hormuz, not from a new demand-driven supercycle. Whether a rise is a shock or a cycle decides who gains and who pays, and that depends on how much a country buys from, or sells to, the rest of the world.
+- **[India's Fertiliser Sales Fell Where Prices Rose. NPK Is Down 22% at Rs 2,450 a Bag; DAP, Held at Rs 1,350, Barely Moved](https://masaladeutsch.blogspot.com/2026/10/indias-fertiliser-sales-fell-where.html)** — 2026-10-27
+  Farmers bought less of every fertiliser this kharif, and the weak monsoon is part of it. But the steepest falls were in complex fertilisers whose price rose about 42%, while DAP, held at its old price despite a large import loss, was almost flat.
 - **[Rural Job-Guarantee Pay Rose 9.6% in July. In Eight States It Buys Less Than in 2025](https://masaladeutsch.blogspot.com/2026/10/rural-job-guarantee-pay-rose-96-in-july.html)** — 2026-10-27
   Wages were frozen for three months, then a Rs 300 floor lifted the poorest states by up to 19%. But prices for farm labourers rose 3.4% in the next quarter alone, and in Andhra Pradesh, Telangana, Maharashtra and five other states the new wage buys less than the old one did.
 - **[India’s Winter Harvest Now Outgrows Its Monsoon One. Kharif, Rabi and Zaid, Crop by Crop: Area, Yield and When It Reaches the Mandi](https://masaladeutsch.blogspot.com/2026/10/indias-winter-harvest-now-outgrows-its.html)** — 2026-10-25
@@ -2358,7 +2572,7 @@
 ### Textiles (9)
 
 - **[India Leads the World in Jute and Ranks Second in Silk. Neither Fact Means What It Sounds Like.](https://masaladeutsch.blogspot.com/2026/09/india-leads-world-in-jute-and-ranks.html)** — 2026-09-27
-  India grows roughly 60 per cent of the world's jute and is the world's second-largest silk producer, and it hosts the third-largest sheep flock on the planet. None of those three facts means what it sounds like. India produces most of the world's jute and exports almost none of it — Bangladesh, the number-two producer, does 70 per cent of the world's jute exporting. India's silk output has grown for a decade and it still imports over $150 million of raw silk a year. Its sheep population is large and its wool production is falling, because a market can shrink in quality even while it holds steady in headcount. Two different structural problems, dressed up as one story about "natural fibres."
+  India grows roughly 60 per cent of the world's jute and is the world's second-largest silk producer, and it has one of the three largest sheep flocks on the planet. None of those three facts means what it sounds like. India produces most of the world's jute and exports almost none of it — Bangladesh, the number-two producer, does 70 per cent of the world's jute exporting. India's silk output has grown for a decade and it still imports over $150 million of raw silk a year. Its sheep population is large and its wool production is falling, because a market can shrink in quality even while it holds steady in headcount. Two different structural problems, dressed up as one story about "natural fibres."
 - **[A Textile SEZ Built to Re-Employ Mill Workers Has Shrunk 87% Since 2007](https://masaladeutsch.blogspot.com/2026/09/a-textile-sez-built-to-re-employ-mill.html)** — 2026-09-15
   A Special Economic Zone built on the site of a shuttered textile mill, explicitly to re-employ the workers that closure displaced, has been de-notified down from 38 hectares to under 5 — an 87% shrinkage over 19 years, most of it in the last two.
 - **[Tarpaulin Is a Genuine Export Win. Geotextiles for India's Highways Are the Opposite Story](https://masaladeutsch.blogspot.com/2026/08/tarpaulin-is-genuine-export-win.html)** — 2026-08-15
@@ -2376,8 +2590,14 @@
 - **[India's Textile Import-Export Strategy: From Dependency to Self-Sufficiency](https://masaladeutsch.blogspot.com/2026/07/indias-textile-import-export-strategy.html)** — 2026-07-27
   HSN Breakdown Needed: Polypropylene, HDPE, LDPE, PET films by destination segment
 
-### Trade & Tariffs (86)
+### Trade & Tariffs (89)
 
+- **[The Supercycle Is in Metals; the 2026 Oil Spike Is a Shock](https://masaladeutsch.blogspot.com/2026/10/the-supercycle-is-in-metals-2026-oil.html)** — 2026-10-28
+  The World Bank expects commodity prices to rise 16 percent in 2026, but most of the jump comes from the blocked Strait of Hormuz, not from a new demand-driven supercycle. Whether a rise is a shock or a cycle decides who gains and who pays, and that depends on how much a country buys from, or sells to, the rest of the world.
+- **[India Dropped the Last Approvals on Its Data-Centre Tax Holiday. It Never Said What the Holiday Costs](https://masaladeutsch.blogspot.com/2026/10/india-dropped-last-approvals-on-its.html)** — 2026-10-28
+  An August amendment lets foreign cloud companies claim India’s tax holiday to 2047 without being notified, and on capacity their Indian partners lease rather than own. India still taxes the Indian operator’s 15% margin, but no estimate of what the exemption costs has been published.
+- **[India's Draft Steel Policy Plans 604 Mt by 2047. Its Own Coal Forecast Means More Blast Furnaces, Not Fewer](https://masaladeutsch.blogspot.com/2026/10/indias-draft-steel-policy-plans-604-mt.html)** — 2026-10-27
+  The draft National Steel Policy nearly triples capacity and cuts emissions per tonne by 40%. Its forecast of 236 Mt of coking coal implies blast furnaces keep 43–57% of output, so the emissions target rests on cleaning up blast furnaces themselves.
 - **[The DESH Bill Never Came. India Is Rewriting Its SEZ Law One Rule at a Time](https://masaladeutsch.blogspot.com/2026/10/the-desh-bill-never-came-india-is.html)** — 2026-10-27
   In 2022 the government promised a new law to turn export zones into development hubs that could also sell in India. The Bill stalled over tax breaks and never reached Parliament. Four years on, parts of it are arriving by notification, 95 of 372 notified zones sit idle, and an “SEZ 2.0” report has yet to be published.
 - **[The Phone PLI's Successor Pays Up to 5%, Wants 15% Growth a Year, and Offers 0.2% to Make the Cell Here](https://masaladeutsch.blogspot.com/2026/10/the-phone-plis-successor-pays-up-to-5.html)** — 2026-10-26
@@ -2411,7 +2631,7 @@
 - **[India Mapped 12,174 Tariff Codes to 31 Ministries. 495 Products Still Have No One Willing to Own Them.](https://masaladeutsch.blogspot.com/2026/09/india-mapped-12174-tariff-codes-to-31.html)** — 2026-09-28
   DPIIT spent a year matching every one of India's 12,174 tariff codes to the ministry that should regulate it, using the same 1961 rulebook and customs manual every government department is supposed to already agree on. 495 codes came back with no ministry willing to formally claim them — even though DPIIT proposed a likely owner for every single one. Meanwhile, buried in its own arithmetic, over a thousand codes it does count as "successfully mapped" are actually claimed by more than one ministry at once. India's tariff schedule has both an ownership vacuum and an ownership overlap problem, in the same document.
 - **[India Leads the World in Jute and Ranks Second in Silk. Neither Fact Means What It Sounds Like.](https://masaladeutsch.blogspot.com/2026/09/india-leads-world-in-jute-and-ranks.html)** — 2026-09-27
-  India grows roughly 60 per cent of the world's jute and is the world's second-largest silk producer, and it hosts the third-largest sheep flock on the planet. None of those three facts means what it sounds like. India produces most of the world's jute and exports almost none of it — Bangladesh, the number-two producer, does 70 per cent of the world's jute exporting. India's silk output has grown for a decade and it still imports over $150 million of raw silk a year. Its sheep population is large and its wool production is falling, because a market can shrink in quality even while it holds steady in headcount. Two different structural problems, dressed up as one story about "natural fibres."
+  India grows roughly 60 per cent of the world's jute and is the world's second-largest silk producer, and it has one of the three largest sheep flocks on the planet. None of those three facts means what it sounds like. India produces most of the world's jute and exports almost none of it — Bangladesh, the number-two producer, does 70 per cent of the world's jute exporting. India's silk output has grown for a decade and it still imports over $150 million of raw silk a year. Its sheep population is large and its wool production is falling, because a market can shrink in quality even while it holds steady in headcount. Two different structural problems, dressed up as one story about "natural fibres."
 - **[India Doesn't Have One Quality Regulator. It Has 37 — and One Just Repealed Itself Before It Started.](https://masaladeutsch.blogspot.com/2026/09/india-doesnt-have-one-quality-regulator.html)** — 2026-09-24
   BIS is the name everyone reaches for, but it's one of roughly three dozen statutory regulators, accreditation boards and voluntary marks that certify, license and grade quality in India, stacked across four layers most people never see below the logo on the box. A public reference repository maps all 37, grounded in the actual Acts and gazette notifications rather than descriptions of them — and cross-checking its two "this just changed" examples against current sources turned up a third: one of the two schemes it cites as a recent, live example of the system in motion was actually repealed outright in January 2026, months before the date the source material still lists it as taking effect.
 - **[Kpler and Vortexa Track Every Barrel India Imports. Nobody Tracks Its Cooking-Oil Waste the Same Way.](https://masaladeutsch.blogspot.com/2026/09/kpler-and-vortexa-track-every-barrel.html)** — 2026-09-24
@@ -3483,7 +3703,7 @@ Ajvar — a roasted red pepper and eggplant relish that is practically a nationa
 ### [The National Beekeeping & Honey Mission: A Sweet Revolution, and the Adulteration Problem Sitting Next to It](https://masaladeutsch.blogspot.com/2026/08/the-national-beekeeping-honey-mission.html)
 *2026-08-20 · Agriculture & Fertilisers, Agriculture & Food Processing*
 
-India became the world's second-largest honey exporter in 2024, up from ninth place four years earlier, on the back of a ₹500 crore Central Sector Scheme. The same four years contain a fact the scheme's own success story rarely mentions: a 2020 government-linked investigation found ten of thirteen major honey brands sold in Indian shops failed the internationally accepted purity test for the exact adulteration those brands were accused of — and that test still isn't mandatory for anything sold domestically, only for export.
+India became the world's second-largest honey exporter in 2024, up from ninth place four years earlier, on the back of a ₹500 crore Central Sector Scheme. The same four years contain a fact the scheme's own success story rarely mentions: a 2020 investigation by the Centre for Science and Environment, an independent non-profit, found ten of thirteen major honey brands sold in Indian shops failed the internationally accepted purity test for the exact adulteration those brands were accused of — and that test is still not required for honey sold in India; since August 2020 it has been mandatory only for honey exported to the United States.
 
 ### [Inside the Refinery: How Hydrogen Cleans Your Diesel — and Why Going Green Could Raise Its Price](https://masaladeutsch.blogspot.com/2026/08/inside-refinery-how-hydrogen-cleans.html)
 *2026-08-20 · Energy & Fuels, Hydrogen, Industrial Policy*
@@ -4193,7 +4413,7 @@ In 1975-76, India's public canal systems recovered 96% of what it cost to run th
 ### [India Leads the World in Jute and Ranks Second in Silk. Neither Fact Means What It Sounds Like.](https://masaladeutsch.blogspot.com/2026/09/india-leads-world-in-jute-and-ranks.html)
 *2026-09-27 · Agriculture & Fertilisers, Textiles, Trade & Tariffs*
 
-India grows roughly 60 per cent of the world's jute and is the world's second-largest silk producer, and it hosts the third-largest sheep flock on the planet. None of those three facts means what it sounds like. India produces most of the world's jute and exports almost none of it — Bangladesh, the number-two producer, does 70 per cent of the world's jute exporting. India's silk output has grown for a decade and it still imports over $150 million of raw silk a year. Its sheep population is large and its wool production is falling, because a market can shrink in quality even while it holds steady in headcount. Two different structural problems, dressed up as one story about "natural fibres."
+India grows roughly 60 per cent of the world's jute and is the world's second-largest silk producer, and it has one of the three largest sheep flocks on the planet. None of those three facts means what it sounds like. India produces most of the world's jute and exports almost none of it — Bangladesh, the number-two producer, does 70 per cent of the world's jute exporting. India's silk output has grown for a decade and it still imports over $150 million of raw silk a year. Its sheep population is large and its wool production is falling, because a market can shrink in quality even while it holds steady in headcount. Two different structural problems, dressed up as one story about "natural fibres."
 
 ### [India's Cotton Yield Fell From 566 kg to Under 450 Since 2013. Kaala Cotton Isn't Grown Where That Drop Hurts Most.](https://masaladeutsch.blogspot.com/2026/09/indias-cotton-yield-fell-from-566-kg-to.html)
 *2026-09-27 · Agriculture & Fertilisers, Circularity & Waste-to-Value, Fertilisers & Soil Health, Seeds & Plant Genetics*
@@ -4495,6 +4715,16 @@ Customer support, application maintenance and labour-billed back-office work are
 
 One Python script turns your local Claude Code transcripts, prompt history and claude.ai export into a single SQLite database with timestamps, models, tool calls and a SHA-256 of each message.
 
+### [How to use market-correlation-matrices: read per-market stock correlation snapshots](https://masaladeutsch.blogspot.com/2026/10/how-to-use-market-correlation-matrices.html)
+*2026-10-19 · Equity Markets & Stock Screening, Markets & Finance, Open-Source Tools & How-To*
+
+Ready-made correlation matrices of daily stock returns for six markets (India, US, Japan, Korea, China, Europe), stored compactly so you can load one in a few lines of Python. Not investment advice: this is research and education material built from public-source or derived data; it is not a recommendation to buy or sell anything.
+
+### [How to use india-commodity-trade-deficit: eight years of HS-chapter trade data and bare-metal imports](https://masaladeutsch.blogspot.com/2026/10/how-to-use-india-commodity-trade.html)
+*2026-10-19 · India, Markets & Finance, Open-Source Tools & How-To*
+
+Two JSON datasets from the Commerce Ministry's TRADESTAT, all 98 HS chapters for FY2018-19 to FY2025-26 plus 4-digit gold, silver, copper and other metal imports by partner country, ready to query with plain Python.
+
 ### [How to use eu-ets-compliance-platform: a hands-on EU ETS and CBAM compliance prototype](https://masaladeutsch.blogspot.com/2026/10/how-to-use-eu-ets-compliance-platform.html)
 *2026-10-19 · Climate & Carbon, India, Open-Source Tools & How-To*
 
@@ -4505,15 +4735,50 @@ A multi-tenant FastAPI and React prototype that models EU ETS, shipping MRV, CBA
 
 gazette-translated-indexed (Gazette Trail) tells you what an Indian gazette notification amends, what amended it before, and what superseded it, which you cannot see by reading one notification alone. It is a SQLite citation graph built from quoted primary-source text.
 
+### [How to use india-trade-tracker: India chapter-wise exports and imports from official DGFT data](https://masaladeutsch.blogspot.com/2026/10/how-to-use-india-trade-tracker-india.html)
+*2026-10-19 · India, Markets & Finance, Open-Source Tools & How-To*
+
+A free, chapter-level (2-digit HS) view of India's merchandise exports and imports from the official Export-Import Data Bank, plus World Bank, NIRYAT and UN Comtrade collectors, stored in DuckDB.
+
+### [How to use india-ec-subsector-analysis: see which states lead each Environmental Clearance sub-sector](https://masaladeutsch.blogspot.com/2026/10/how-to-use-india-ec-subsector-analysis.html)
+*2026-10-19 · India, Open-Source Tools & How-To*
+
+A pivot of India's full Environmental Clearance register (113,970 proposals from PARIVESH 2.0) by state and EIA sub-sector, with grant rates. This post builds a state-wise table for one sub-sector from the committed CSV, with no network call.
+
 ### [How to use ev-battery-management-sim: simulate EV battery packs and test the model on battery datasets](https://masaladeutsch.blogspot.com/2026/10/how-to-use-ev-battery-management-sim.html)
 *2026-10-19 · Energy & Fuels, Mobility & EV, Open-Source Tools & How-To*
 
 A Python simulation of battery management for scooters, retrofitted cars and buses, plus a NASA battery-data cleaning notebook and a validation suite for six Kaggle datasets. The built-in validation runs on synthetic stand-ins; this post says so plainly. Simulation only, not engineering design.
 
+### [How to use india-omc-fuel-fleet-model: ethanol blend scenarios and OMC pump income in pure Python](https://masaladeutsch.blogspot.com/2026/10/how-to-use-india-omc-fuel-fleet-model.html)
+*2026-10-19 · Energy & Fuels, Ethanol & Biofuels, India, Open-Source Tools & How-To*
+
+Small, dependency-free Python models for what India's oil marketing companies earn at the pump, how that changes at E20, E25 and E30 ethanol blends, and how many vehicles are actually on the road burning fuel.
+
+### [How to use india-trade-sector-policy-recommendations: tiered sector and policy calls for India's trade](https://masaladeutsch.blogspot.com/2026/10/how-to-use-india-trade-sector-policy.html)
+*2026-10-19 · India, Infrastructure & Investment, Open-Source Tools & How-To*
+
+The prescriptive half of a two-repo study: it turns India's trade data into tiered, checkable recommendations on which import sectors need action, which exports to back, and which country relationships to de-risk, with charts, JSON and a quarterly PDF.
+
 ### [How to use delivery-playbook: a field guide for choosing and fixing your software process](https://masaladeutsch.blogspot.com/2026/10/how-to-use-delivery-playbook-field.html)
 *2026-10-19 · Open-Source Tools & How-To*
 
 A single-file HTML guide to SDLC models, the Agile family, DevOps, a fit-finder for picking a process, named anti-patterns, computer-science theory applied to products, DDD and TOGAF. This post shows what is inside and how to read it, adapt it or hand it to an AI assistant.
+
+### [How to use india-quality-regulation: a sourced map of who regulates quality in India](https://masaladeutsch.blogspot.com/2026/10/how-to-use-india-quality-regulation.html)
+*2026-10-19 · India, Open-Source Tools & How-To*
+
+A Markdown field guide to BIS and 35 other regulators, accreditation boards and voluntary marks, each page tied to the Act, order or scheme page behind it, with scripts that check the references still resolve.
+
+### [How to use ltm-warehouse-tests: test a Postgres price-history backfill without touching the real warehouse](https://masaladeutsch.blogspot.com/2026/10/how-to-use-ltm-warehouse-tests-test.html)
+*2026-10-19 · Open-Source Tools & How-To*
+
+A test harness that builds a throwaway Postgres database, seeds awkward synthetic tickers, runs the backfill scripts against it and drops the database afterwards.
+
+### [How to use memory-map-optimizer: cluster a knowledge graph and search and dedupe notes](https://masaladeutsch.blogspot.com/2026/10/how-to-use-memory-map-optimizer-cluster.html)
+*2026-10-19 · Open-Source Tools & How-To*
+
+A single-file Python command-line tool that finds communities in a graph file, builds a hybrid keyword-plus-embedding search over your markdown notes, flags near-duplicate notes, and writes an HTML memory map.
 
 ### [How to use chemical_import_substitution: HS-8 import-substitution signals for India's chemical chapters](https://masaladeutsch.blogspot.com/2026/10/how-to-use-chemicalimportsubstitution.html)
 *2026-10-19 · India, Open-Source Tools & How-To*
@@ -4530,10 +4795,20 @@ Estimate what a biomass gasifier produces from straw, how much tar it makes and 
 
 digital-twin-for-ipa is an open-source, machine-readable model of India's investment-promotion apparatus: 312 central and state incentive instruments, how they link, and a SQLite database of the companies around them.
 
+### [How to use mospi-dataset-analysis-public: browse India's official MoSPI data snapshot](https://masaladeutsch.blogspot.com/2026/10/how-to-use-mospi-dataset-analysis.html)
+*2026-10-19 · India, Infrastructure & Investment, Open-Source Tools & How-To*
+
+A frozen, public copy of an analysis of India's official statistics (CPI, WPI, IIP, GDP, RBI forex, trade): 14 interactive charts and 20 JSON datasets you can read with nothing but a browser. New work has moved to two successor repos.
+
 ### [How to use colab-market-fundamentals: collect dated annual fundamentals for 20 markets in Colab](https://masaladeutsch.blogspot.com/2026/10/how-to-use-colab-market-fundamentals.html)
 *2026-10-19 · Equity Markets & Stock Screening, Markets & Finance, Open-Source Tools & How-To*
 
 A Google Colab notebook that downloads about five years of annual company financials per market through yfinance, saves them to parquet every three minutes, and lets you resume from a zip. Research and education only. Not investment advice: this is research and education material built from public-source or derived data; it is not a recommendation to buy or sell anything.
+
+### [How to use piotroski-liquidity-research: a point-in-time test of the Piotroski F-score and liquidity](https://masaladeutsch.blogspot.com/2026/10/how-to-use-piotroski-liquidity-research.html)
+*2026-10-19 · Equity Markets & Stock Screening, Markets & Finance, Open-Source Tools & How-To*
+
+piotroski-liquidity-research asks whether the Piotroski F-score premium is explained by firm size or by stock liquidity, using point-in-time backtests. Its headline is that the premium tracks illiquidity, with a capacity of about $250,000. I re-ran its US scripts on 23 October 2026 against a US price panel whose last session is 21 October 2026 and SEC EDGAR filings filed up to 20 October 2026. Not investment advice. Educational and research use only; historical averages on short samples, and the repo's own numbers are provisional.
 
 ### [How to use blog-consistency-check: a "is this blog post broken?" audit for HTML posts](https://masaladeutsch.blogspot.com/2026/10/how-to-use-blog-consistency-check-is.html)
 *2026-10-19 · Dev & Ops Tools, Open-Source Tools & How-To*
@@ -4565,6 +4840,11 @@ A research and data repository on India's foodgrain procurement: the MSP series,
 
 agentic-insurance-agent is an open-source way to run insurance processes (policy issue, premium collection, claims) as diagrams and rules, with an AI layer that can recommend but not move money.
 
+### [How to use kalki_flooding: 125 years of Indian city rainfall extremes from IMD gridded data](https://masaladeutsch.blogspot.com/2026/10/how-to-use-kalkiflooding-125-years-of.html)
+*2026-10-19 · Environment & Climate, India, Open-Source Tools & How-To*
+
+A repository of Python scripts and committed IMD-derived daily rainfall series for Indian cities that computes yearly heavy-rain metrics and charts, plus a flood-sensor collector for the IUDX network.
+
 ### [How to use cricket-data-analysis: score how predictable IPL and World Cup match-ups are](https://masaladeutsch.blogspot.com/2026/10/how-to-use-cricket-data-analysis-score.html)
 *2026-10-19 · India, Open-Source Tools & How-To*
 
@@ -4579,6 +4859,11 @@ Bazartalks_Py2Cplus (BazaarTalks-cpp) reimplements the storage, streaming, quant
 *2026-10-19 · India, Open-Source Tools & How-To*
 
 An analysis of 1,955 CBSE Class XII question papers (2022 to 2026) that measures how often high-mark questions reuse the same wording. This post uses only the derived aggregate tables, not the question text.
+
+### [How to use india-trade-data-analysis: read India's trade, rupee and inflation data in one place](https://masaladeutsch.blogspot.com/2026/10/how-to-use-india-trade-data-analysis.html)
+*2026-10-19 · India, Markets & Finance, Open-Source Tools & How-To*
+
+The descriptive half of a two-repo study of India's trade: what MoSPI, RBI and TRADESTAT data show about the trade deficit, imports by HS chapter, the rupee and inflation, with charts and JSON extracts you can open without installing anything.
 
 ### [How to use global-ticker-universe: look up exchange-qualified tickers for 34 markets](https://masaladeutsch.blogspot.com/2026/10/how-to-use-global-ticker-universe-look.html)
 *2026-10-19 · Equity Markets & Stock Screening, Markets & Finance, Open-Source Tools & How-To*
@@ -4725,17 +5010,177 @@ An open cooling tower uses about two litres of water per kWh of computing; a clo
 
 BHAVYA, approved in March, will fund 100 plug-and-play industrial parks by 2031-32. The land it adds is about a tenth of what mapped parks already have available, so its test is whether its parks fill faster. The first proposals come mostly from states other than those where factory investment is waiting.
 
+### [India's Rs 3,030 Crore Chemical Parks Copy the Bulk-Drug Parks. Those Released 6% of Their Money in Six Years](https://masaladeutsch.blogspot.com/2026/10/indias-rs-3030-crore-chemical-parks.html)
+*2026-10-27 · Chemicals, Import Substitution, Industrial Policy*
+
+BHAVYA Rasayan will pay for shared effluent, waste and steam plant in three state-run chemical parks. The design is the 2020 bulk-drug parks scheme’s, and the plastics and petrochemical imports that make up India’s real deficit need crackers, not parks.
+
+### [India Wants Emergency Braking in Every Car by 2032. Fewer Than One in Ten Cars Sold Has It Now](https://masaladeutsch.blogspot.com/2026/10/india-wants-emergency-braking-in-every.html)
+*2026-10-27 · Import Substitution, Mobility & EV*
+
+A draft rule would make automatic emergency braking compulsory in new car models from 2030 and in all cars from 2032, eight years after Europe. The radar, camera and chips it needs are mostly imported, and the airbag mandate that came before it was dropped.
+
+### [India's Draft Steel Policy Plans 604 Mt by 2047. Its Own Coal Forecast Means More Blast Furnaces, Not Fewer](https://masaladeutsch.blogspot.com/2026/10/indias-draft-steel-policy-plans-604-mt.html)
+*2026-10-27 · Climate & Carbon, Industrial Policy, Trade & Tariffs*
+
+The draft National Steel Policy nearly triples capacity and cuts emissions per tonne by 40%. Its forecast of 236 Mt of coking coal implies blast furnaces keep 43–57% of output, so the emissions target rests on cleaning up blast furnaces themselves.
+
+### [India Has Approved 12 Chip Plants and Paid Out About 7% of the Money. Semicon 2.0 Adds Rs 1.27 Lakh Crore](https://masaladeutsch.blogspot.com/2026/10/india-has-approved-12-chip-plants-and.html)
+*2026-10-27 · Import Substitution, Industrial Policy*
+
+Five of the first round’s twelve projects are producing, all of them assembly or packaging plants holding 20% of the approved investment. About Rs 5,619 crore of the Rs 76,000 crore had been spent by March 2026. The second round pays less per fab but covers equipment and materials.
+
 ### [The DESH Bill Never Came. India Is Rewriting Its SEZ Law One Rule at a Time](https://masaladeutsch.blogspot.com/2026/10/the-desh-bill-never-came-india-is.html)
 *2026-10-27 · Industrial Policy, Trade & Tariffs*
 
 In 2022 the government promised a new law to turn export zones into development hubs that could also sell in India. The Bill stalled over tax breaks and never reached Parliament. Four years on, parts of it are arriving by notification, 95 of 372 notified zones sit idle, and an “SEZ 2.0” report has yet to be published.
+
+### [GOBARdhan Aims for 12 Times Today's Biogas Output. The Mandate Meant to Buy It Covers Less Than Half](https://masaladeutsch.blogspot.com/2026/10/gobardhan-aims-for-12-times-todays.html)
+*2026-10-27 · Energy & Fuels, Gas & LNG*
+
+The new Rs 23,731 crore scheme wants 5 million cubic metres of compressed biogas a day by 2035-36. India’s 217 commissioned plants make 0.4, about 1.3 tonnes a day each, and the city-gas blending mandate could absorb at most about 2.3.
+
+### [Seven States Plan to Borrow Above the New 3% Limit. Last Year, Most Missed Their Targets Anyway](https://masaladeutsch.blogspot.com/2026/10/seven-states-plan-to-borrow-above-new-3.html)
+*2026-10-27 · Governance & Institutions, Macroeconomics & Monetary Policy*
+
+The 16th Finance Commission caps state deficits at 3% of GSDP from 2026-27. Seven of 17 budgets plan more, seven of the nine states with revised figures overshot last year, and the Centre’s 50-year loans keep about 0.4% of GSDP out of the headline numbers.
+
+### [How to use india-trade-export-analysis: read India's 2020-2023 export data and the high-growth shortlist](https://masaladeutsch.blogspot.com/2026/10/how-to-use-india-trade-export-analysis.html)
+*2026-10-27 · India, Markets & Finance, Open-Source Tools & How-To*
+
+A set of pandas scripts, CSV results and markdown write-ups on India's commodity exports from TradeStat, with a shortlist of fast-growing export lines. You can explore the committed results without the raw data. The repository is archived and read-only. Trade analysis, not investment advice.
+
+### [India's Crude Basket Now Counts Russian Oil as 'Sweet'. The Barrels Its Refineries Run Are Still Mostly Sour](https://masaladeutsch.blogspot.com/2026/10/indias-crude-basket-now-counts-russian.html)
+*2026-10-27 · Energy & Fuels*
+
+In March India changed its crude price formula so that Brent, the sweet benchmark, carries 61% of the weight. That reflects how its oil is priced, not what it is: in September about nine in ten imported barrels came from Russia and the Gulf, and sour crude costs refiners hydrogen.
+
+### [Andhra Pradesh Has Approved Rs 14 Lakh Crore of Investment in Two Years. Its Large Factory Projects Built Rs 1.4 Lakh Crore in Five](https://masaladeutsch.blogspot.com/2026/10/andhra-pradesh-has-approved-rs-14-lakh.html)
+*2026-10-27 · Industrial Policy*
+
+The state’s investment board says it has cleared 387 projects worth Rs 14.05 lakh crore. The factory record shows Andhra builds more of what it files than most states, but the headline is ten times anything it has built, and five announcements make up more than half of it.
+
+### [India Has Legalised E100 for Flex-Fuel Cars. Its E85 Still Costs More per Kilometre Than Petrol](https://masaladeutsch.blogspot.com/2026/10/india-has-legalised-e100-for-flex-fuel.html)
+*2026-10-27 · Energy & Fuels, Ethanol & Biofuels*
+
+A notification in late October lets flex-fuel vehicles be certified for pure ethanol. At current prices E85 is cheaper per litre but dearer per kilometre, E100 can only compete if it is taxed far below petrol, and today’s unsold ethanol would cover about 8% of petrol demand.
+
+### [Samudra Manthan Pays Up to Rs 675 Crore a Well. India's Last Deepwater Bets Show Discovery Is the Easy Part](https://masaladeutsch.blogspot.com/2026/10/samudra-manthan-pays-up-to-rs-675-crore.html)
+*2026-10-27 · Energy & Fuels, Gas & LNG*
+
+The new Rs 84,084 crore offshore scheme shares the cost of 60 deepwater wells and pays for new seismic surveys. Its 600 MMTOE reserve target is about ten years of India’s output; the harder test, on India’s record, is turning finds into production.
+
+### [India Raised the DAP Subsidy 18% This Kharif. Imported DAP Still Costs About Rs 30,000 a Tonne More Than It Earns](https://masaladeutsch.blogspot.com/2026/10/india-raised-dap-subsidy-18-this-kharif.html)
+*2026-10-27 · Agriculture & Fertilisers*
+
+Kharif 2026 rates put Rs 32,787 of subsidy on a tonne of DAP, whose retail price stays at Rs 1,350 a bag. At May’s import price and rupee, that covers only DAP bought below about $623 a tonne; India paid more than $930.
+
+### [GeM's Purchases Stopped Growing in 2025-26. Small Firms Won Two-Thirds of the Orders but Less Than Half the Money](https://masaladeutsch.blogspot.com/2026/10/gems-purchases-stopped-growing-in-2025.html)
+*2026-10-27 · Governance & Institutions, Industrial Policy*
+
+The government’s online marketplace has handled over Rs 20 lakh crore in ten years, but its 2025-26 purchases appear to have fallen for the first time. Small firms clear their 25% target easily; women- and SC/ST-owned firms still fall short across central purchases as a whole.
+
+### [India Got a Record $94.5 Billion of FDI Last Year. Net of Exits and Investment Abroad, $7.7 Billion Stayed](https://masaladeutsch.blogspot.com/2026/10/india-got-record-945-billion-of-fdi.html)
+*2026-10-27 · Macroeconomics & Monetary Policy, Markets & Finance*
+
+Gross foreign direct investment is at a record, but most of it leaves again: foreign investors cashing out through IPOs and private-equity exits, and Indian companies investing abroad. Net FDI, which helps pay for the current-account deficit, has fallen from about $43 billion a year to single digits.
+
+### [India's Fertiliser Sales Fell Where Prices Rose. NPK Is Down 22% at Rs 2,450 a Bag; DAP, Held at Rs 1,350, Barely Moved](https://masaladeutsch.blogspot.com/2026/10/indias-fertiliser-sales-fell-where.html)
+*2026-10-27 · Agriculture & Fertilisers, Prices & Inflation*
+
+Farmers bought less of every fertiliser this kharif, and the weak monsoon is part of it. But the steepest falls were in complex fertilisers whose price rose about 42%, while DAP, held at its old price despite a large import loss, was almost flat.
+
+### [Half of PHP Websites Run a Version Nobody Patches. What a Hacked Site Gives Away About Its Company](https://masaladeutsch.blogspot.com/2026/10/half-of-php-websites-run-version-nobody.html)
+*2026-10-27 · Cybersecurity*
+
+PHP runs seven in ten websites whose software can be identified, and about half of those run a version that no longer gets security fixes. A company website rarely holds only web pages: it holds the keys to databases, email, payments and the cloud.
 
 ### [Half of UDAN's Closed Routes Shut While Still Subsidised. The New Scheme Pays for Longer](https://masaladeutsch.blogspot.com/2026/10/half-of-udans-closed-routes-shut-while.html)
 *2026-10-27 · Energy & Fuels, Scheme Delivery Gap*
 
 Modified UDAN puts Rs 28,840 crore into regional flying over ten years and stretches each route’s subsidy from three years to five, on a taper. Of 331 routes that had closed by July, 165 shut before their subsidy ran out, so a longer taper addresses only part of why routes fail.
 
+### [How to use india-forex-analysis: read, check and stress-test a 2020-2027 view of India's external account](https://masaladeutsch.blogspot.com/2026/10/how-to-use-india-forex-analysis-read.html)
+*2026-10-27 · India, Markets & Finance, Open-Source Tools & How-To*
+
+A markdown-only study of India's trade deficit, foreign-exchange reserves and government borrowing. This guide shows how to read it, how to check its arithmetic yourself, and where the numbers do not hold together. The repository is archived and read-only. Macro analysis, not investment advice.
+
 ### [Rural Job-Guarantee Pay Rose 9.6% in July. In Eight States It Buys Less Than in 2025](https://masaladeutsch.blogspot.com/2026/10/rural-job-guarantee-pay-rose-96-in-july.html)
 *2026-10-27 · Agriculture & Fertilisers, Prices & Inflation*
 
 Wages were frozen for three months, then a Rs 300 floor lifted the poorest states by up to 19%. But prices for farm labourers rose 3.4% in the next quarter alone, and in Andhra Pradesh, Telangana, Maharashtra and five other states the new wage buys less than the old one did.
+
+### [India Capped Margins on 137 Cancer Drugs. Common Medicines Outside Price Control Carry Markups of Up to 1,800%](https://masaladeutsch.blogspot.com/2026/10/india-capped-margins-on-137-cancer.html)
+*2026-10-28 · Healthcare*
+
+From 9 November, trade margins on 137 cancer medicines are capped at 30%. A parliamentary committee found pharmacies discounting 20–60% off printed prices and markups of 600% to 1,800% on common drugs that sit outside price control, and the regulator has recovered about a sixth of what it says companies overcharged.
+
+### [States Won the Right to Tax Mines in 2024. A 45-Minute Law Took It Back, Along With Up to Rs 2 Lakh Crore of Dues](https://masaladeutsch.blogspot.com/2026/10/states-won-right-to-tax-mines-in-2024.html)
+*2026-10-28 · Governance & Institutions, Industrial Policy, Macroeconomics & Monetary Policy*
+
+A nine-judge Supreme Court bench ruled that states may tax mineral rights and mineral land. The MMDR Amendment Act 2026 now bars such levies except on the Centre’s terms and cancels uncollected arrears. Jharkhand loses a cess worth a fifth of its own revenue; Odisha loses the arrears it claimed.
+
+### [India Has Funded 3 Lakh Machines to Stop Stubble Burning. About 4,500 of Them Collect Straw](https://masaladeutsch.blogspot.com/2026/10/india-has-funded-3-lakh-machines-to.html)
+*2026-10-28 · Agriculture & Fertilisers, Energy & Fuels*
+
+The 2023-24 crop residue guidelines added a 65:25:10 window to fund balers, rakes and loaders for straw aggregators tied to a buyer, but only in four northern states. Coal plants, pellet makers and biogas plants across India need far more straw than that chain can collect.
+
+### [A Kilo of Crude Fish Oil Sells for About Rs 650. In Capsules It Retails for Rs 7,500 or More. India's Fishers Sell Only the Fish](https://masaladeutsch.blogspot.com/2026/10/a-kilo-of-crude-fish-oil-sells-for.html)
+*2026-10-28 · Agriculture & Food Processing, Livestock & Dairy*
+
+India loses tens of thousands of crore of fish after harvest and sends cheap catch and juveniles to fishmeal plants. Oil, fish amino fertiliser and better curing could turn that waste into products that keep for months, if fishers’ cooperatives own the first steps.
+
+### [Rice and Maize Became Ethanol Commodities With a Price, a Buyer and a Warehouse. Straw Has Only the Buyer](https://masaladeutsch.blogspot.com/2026/10/rice-and-maize-became-ethanol.html)
+*2026-10-28 · Agriculture & Fertilisers, Energy & Fuels, Ethanol & Biofuels*
+
+India built its ethanol programme by giving grain a guaranteed buyer, a price fixed in advance, a market and warehouse finance. Biomass for power has a mandate and a 2023 benchmark price, but no grades, no index and no warehouse receipts. Europe and Japan show how residues become tradeable.
+
+### [India Wants 15% of Its Energy From Gas by 2030. The Official Energy Balance Shows Gas's Share Falling](https://masaladeutsch.blogspot.com/2026/10/india-wants-15-of-its-energy-from-gas.html)
+*2026-10-28 · Energy & Fuels, Gas & LNG*
+
+A parliamentary committee has restated the 15% target. Gas’s share of primary energy slipped from 7.5% to 7.0% over the decade to 2023-24, and reaching 15% would take almost three times today’s gas, nearly all of it imported LNG.
+
+### [The Supercycle Is in Metals; the 2026 Oil Spike Is a Shock](https://masaladeutsch.blogspot.com/2026/10/the-supercycle-is-in-metals-2026-oil.html)
+*2026-10-28 · Energy & Fuels, India, Markets & Investing, Prices & Inflation, Trade & Tariffs*
+
+The World Bank expects commodity prices to rise 16 percent in 2026, but most of the jump comes from the blocked Strait of Hormuz, not from a new demand-driven supercycle. Whether a rise is a shock or a cycle decides who gains and who pays, and that depends on how much a country buys from, or sells to, the rest of the world.
+
+### [India Dropped the Last Approvals on Its Data-Centre Tax Holiday. It Never Said What the Holiday Costs](https://masaladeutsch.blogspot.com/2026/10/india-dropped-last-approvals-on-its.html)
+*2026-10-28 · Industrial Policy, Trade & Tariffs*
+
+An August amendment lets foreign cloud companies claim India’s tax holiday to 2047 without being notified, and on capacity their Indian partners lease rather than own. India still taxes the Indian operator’s 15% margin, but no estimate of what the exemption costs has been published.
+
+### [Most of What Indians Pay for Health Is Outpatient Care. Ayushman Bharat Pays Only for Hospital Stays](https://masaladeutsch.blogspot.com/2026/10/most-of-what-indians-pay-for-health-is.html)
+*2026-10-28 · Healthcare*
+
+A Parliamentary committee wants PM-JAY extended to doctor visits, tests and medicines. Out-of-pocket spending rose to 43.4% of health spending in 2022-23, and most of it is outpatient care the scheme does not touch. Covering it for PM-JAY’s eligible population would cost a fraction of the committee’s own spending target.
+
+### [The Negative Cash Conversion Cycle: Free Money or a Warning Sign?](https://masaladeutsch.blogspot.com/2026/10/the-negative-cash-conversion-cycle-free.html)
+*2026-10-28 · Equity Markets & Stock Screening, Markets & Finance*
+
+A company with a negative cash conversion cycle collects cash from its customers before it has to pay its suppliers. That can be the sign of a superb business, or of one quietly running out of cash, and the numbers alone do not say which.
+
+### [Earnings Drift and Piotroski Work Only Where Trading Is Thin](https://masaladeutsch.blogspot.com/2026/10/earnings-drift-and-piotroski-work-only.html)
+*2026-10-28 · Equity Markets & Stock Screening, Markets & Investing*
+
+Two classic stock signals, earnings drift and the Piotroski F-score, both work, but only where trading is thin. Adding return on capital to Piotroski picks better businesses without picking better stocks.
+
+### [How to use lok-rajya-sabha-qa: see which parties and ministries Parliament questions are about](https://masaladeutsch.blogspot.com/2026/10/how-to-use-lok-rajya-sabha-qa-see-which.html)
+*2026-10-29 · India, Infrastructure & Investment, Open-Source Tools & How-To*
+
+A ledger of 59,381 Parliament questions from the 18th Lok Sabha and matching Rajya Sabha sessions, ranked by party, ministry and state, ready to query in DuckDB. This post shows aggregates only.
+
+### [How to use lng-design-opensource: size an LNG train with open tools](https://masaladeutsch.blogspot.com/2026/10/how-to-use-lng-design-opensource-size.html)
+*2026-10-29 · Energy & Fuels, LNG Plant & Terminal Engineering, Open-Source Tools & How-To*
+
+An open Python toolkit that gives a quick, traceable first-pass sizing of an LNG liquefaction train and related terminals, with every stage on one feed basis, before you commit to a licensed simulator.
+
+### [How to use lignocellulosic-ethanol-opensource: size a 2G ethanol plant](https://masaladeutsch.blogspot.com/2026/10/how-to-use-lignocellulosic-ethanol.html)
+*2026-10-29 · Energy & Fuels, Ethanol & Biofuels, India, Open-Source Tools & How-To*
+
+Size a second-generation cellulosic ethanol plant that turns rice straw into fuel ethanol, and compare the result with real plants.
+
+### [How to use uco-ulo-tracking: chain-of-custody, integrity flags and EPR checks for used cooking and lubricating oil](https://masaladeutsch.blogspot.com/2026/10/how-to-use-uco-ulo-tracking-chain-of.html)
+*2026-10-29 · Energy & Fuels, Ethanol & Biofuels, India, Open-Source Tools & How-To*
+
+A FastAPI + SQLite backend (with a React front end) that tracks used cooking oil and used lubricating oil from generator to buyer: manifests, lot mass balance, processing yields, a SHA-256 hash-chained ledger, fraud heuristics and India's used-oil EPR arithmetic. This post runs the tests, starts the API on seeded mock data and reads the compliance endpoints.
