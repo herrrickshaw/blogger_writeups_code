@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/10/how-to-use-memory-map-optimizer-cluster.html",
   "slug": "how-to-use-memory-map-optimizer-cluster",
   "published": "2026-10-19T05:13:10.000+05:30",
-  "updated": "2026-10-29T05:12:31.754+05:30",
+  "updated": "2026-10-29T09:06:36.749+05:30",
   "labels": [
     "Open-Source Tools & How-To"
   ],
-  "bytes": 24040,
-  "sha256": "2fc6e27121d9e9260cf3f744dc41b971bbf77506d134f3dcbb36198cff4ebc5a",
+  "bytes": 24159,
+  "sha256": "29c2ddeafa838ced8a34a26abf680dbcfd7d4cb3a9837787812bec917a7d2d4e",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -29,6 +29,19 @@
       "level": "initial",
       "reason": "first snapshot",
       "note": "youtube-demo-uploads 2026-10-29: 8 repo-demo posts promoted live, 2 refreshed"
+    },
+    {
+      "version": "1.0.1",
+      "date": "2026-10-29T09:30:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        24040,
+        24159
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "youtube-demo-uploads: uco-ulo-tracking post live"
     }
   ]
 }

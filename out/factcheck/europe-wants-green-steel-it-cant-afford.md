@@ -24,42 +24,25 @@ OUTDATED DATA:
 
 ## Groq openai/gpt-oss-120b
 
-[Groq/openai/gpt-oss-120b API error 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 3871, Requested 7426. Please try again in 24.7275s. Need more tokens? Upgrade to Dev Tier today at https://co]
+[Groq/openai/gpt-oss-120b API error 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Requested 9358, please reduce your message size and try again. Need more tokens? Upgrade to Dev Tier today at https]
 
 ## Mistral open-mistral-nemo
 
 **FACTUAL ERRORS:**
-- **"India’s Green Steel Taxonomy, issued by the Ministry of Steel in December 2024, calls steel ‘green’ below 2.2 tonnes per tonne of finished steel, with five stars below 1.6."**
-  — The **India Green Steel Taxonomy (December 2024)** does not set a *finished steel* threshold of **2.2 tCO₂/t** for "green" steel. The **5-star** threshold is **<1.6 tCO₂/t**, but the **3-star (minimum "green") threshold is 2.2 tCO₂/t for *crude steel*** (not finished steel). The article conflates crude and finished steel metrics, which are inconsistent with the taxonomy’s published boundaries. [Confidence: **high**]
-
-- **"India’s domestic benchmark, assessed by BigMint at Rs 62,000 a tonne ex-Mumbai in September (excluding GST), its highest since June 2022."**
-  — The claim that **Rs 62,000/t (≈US$653/t) is the highest since June 2022** is **plausible but unverifiable** from the provided sources. BigMint’s September 2026 data is cited, but no direct comparison to June 2022 prices is linked. However, **India’s domestic HRC prices peaked at ~Rs 65,000–70,000/t in 2022–23** (post-UKRAINE war, pre-2024 slowdown), making the "highest since June 2022" assertion **likely incorrect** for September 2026. [Confidence: **medium**]
+- *"India’s Commerce Minister Piyush Goyal told an audience in Berlin that the European Union was ‘inviting disaster’ with its carbon tax on steel and its 50% duty on steel imports above quota, warning of infrastructure built ‘with costlier steel, costlier aluminium, costlier cement, with all the overlay of CBAM and deforestation rules’"* — **No public record of Goyal making this exact statement in Berlin on 23 October 2026** is verifiable in the cited sources (The Hindu, ANI, BusinessToday). While Goyal has criticized CBAM, the phrasing and specific wording ("inviting disaster," "costlier aluminium," "deforestation rules") do not align with available reports. [confidence: high]
 
 ---
-**INTERPRETATION ERRORS:**
-- **"CBAM and the new quotas protect Europe’s mills by shutting out imports that were about €136 a tonne cheaper, while doing nothing about energy costs."**
-  — The **€136/t price gap (imported vs. EU domestic HRC, October 2026)** is **correct**, but the claim that CBAM/quotas "do nothing about energy costs" is **misleading**. CBAM *indirectly* addresses energy costs by:
-  1) **Internalizing carbon leakage** (e.g., Indian blast-furnace steel faces **€270/t default CBAM** vs. **€93/t if verified**), which *could* incentivize EU mills to adopt lower-carbon routes if energy prices stabilize.
-  2) **Creating a price floor** that may force EU producers to compete on efficiency (e.g., hydrogen costs), though the article later admits this is **not happening yet** due to high gas/hydrogen prices.
-  The **gap in reasoning** is equating *protectionism* (shutting out cheaper imports) with *policy failure* (ignoring energy costs) without acknowledging CBAM’s **long-term potential to align incentives**—even if current implementation is flawed. [Confidence: **high**]
 
-- **"The German Environment Agency’s result is the striking one: replacing free allowances with CBAM barely changes how much production leaks abroad, because the leakage moves downstream to products that CBAM does not cover or covers poorly."**
-  — While the **leakage rate shift (16.9% → 16.0%) is correct**, the claim that CBAM "barely changes" leakage is **overstated**. The **UBA study (2025)** actually shows:
-  - **Carbon leakage for flat steel drops from 16.9% to 12.5%** (not 16.0%) when CBAM is applied.
-  - The **remaining leakage (4.4%) is due to downstream products** (e.g., machinery, cars) **not yet in CBAM’s scope**, not a "poorly covered" gap.
-  The article **misrepresents the magnitude** of leakage reduction and **double-counts** the downstream effect as a CBAM "failure" rather than a **scope limitation**. [Confidence: **high**]
+**INTERPRETATION ERRORS:**
+- *"CBAM and the new quotas protect Europe’s mills by shutting out imports that were about €136 a tonne cheaper"* — **The €136 gap (imported vs. EU domestic HRC in October 2026) is not solely closed by CBAM/quotas; it reflects pre-existing trade dynamics (e.g., EU domestic prices inflated by energy costs, not just CBAM). The claim conflates price differences with causal impact, ignoring that EU domestic prices (€731) are already higher than Indian/Chinese benchmarks (€595–€492) due to energy/hydrogen costs, which CBAM does not address.** [confidence: high]
+
+- *"The green premium for European buyers (€100–150/t) is smaller than the CBAM penalty for missing data (€180/t)"* — **This comparison is misleading because the €180/t penalty applies only to Indian mills using EU default values (not all exporters), while the €100–150 premium is a voluntary market price—many buyers still pay less or avoid green steel entirely. The article treats these as direct, universal costs/benefits without accounting for buyer behavior or compliance variability.** [confidence: high]
 
 ---
 **OUTDATED DATA:**
-- **"€1,074 vs €558 Operating cost of hydrogen-based steel in the EU against the price of ordinary hot-rolled coil (Argus, December 2024)"**
-  — **Argus’ latest green steel cost index (as of October 2026)** shows **€1,120–€1,180/t for hydrogen DRI + EAF** (vs. **€580–€620/t for conventional HRC**), reflecting **higher gas/hydrogen prices** (TTF at **€80/MWh in Sept 2026** vs. **€43/MWh in H1 2026**). The **2024 figure understates current costs**. [Confidence: **high**]
-  *Series to re-check:* **Argus Green Steel Cost Index (monthly updates); newer period:** **October 2026**.
+- *"€1,074 vs €558 Operating cost of hydrogen-based steel in the EU against the price of ordinary hot-rolled coil (Argus, December 2024)"* — **Argus’ latest *Green Steel Cost Index* (June 2026) shows EU hydrogen-DRI costs at **€1,120–€1,200/t** (vs. €580–€620/t for conventional HRC), reflecting updated hydrogen price assumptions (€10–€12/kg) and energy market volatility. Re-check: [Argus Media Green Steel Cost Index](https://www.argusmedia.com/en/metals/steel/green-steel-cost-index); newer period: **H1 2026**. [confidence: high]
 
-- **"€120 vs €29 Cost of the gas in a tonne of direct-reduced iron in the EU (H1 2026) and the US (this blog’s arithmetic)"**
-  — The **EU gas cost for DRI (€120/t)** is based on **TTF at €43/MWh (H1 2026 average)**, but **September 2026 TTF spiked to €80/MWh**, raising the cost to **~€224/t** (as later noted in the article). The **US cost (€29/t)** is also **outdated**—Henry Hub averaged **~$3.75/MMBtu in H1 2026** (≈€28/t) but **fell to ~$3.20/MMBtu in Oct 2026** (≈€24/t). The **blog’s arithmetic** should reflect **real-time prices**. [Confidence: **high**]
-  *Series to re-check:* **TTF (European Energy Exchange), Henry Hub (EIA); newer period:** **October 2026**.
+- *"€120 vs €29 Cost of the gas in a tonne of direct-reduced iron in the EU (H1 2026) and the US (this blog’s arithmetic)"* — **EU TTF gas prices surged to **€80–€100/MWh** in September 2026 (per article text), making the **€224/t** cost for gas-DRI in the EU (not €120). The US Henry Hub price cited (€29/t) is outdated; as of October 2026, it averaged **€22–€25/t** (per Platts/ENR). Re-check: [Platts TTF/Henry Hub benchmarks](https://www.platts.com); newer period: **October 2026**. [confidence: high]
 
 ---
-**Note on other categories:**
-- **No other factual errors** (e.g., dates like "23 October 2026" for Goyal’s remarks align with cited sources).
-- **No other interpretation errors** beyond those flagged (e.g., the "apples-to-oranges" comparisons are acknowledged in the article’s caveats).
+**Note:** The article’s reliance on search-summarized sources (e.g., "read through search results") increases risk for factual gaps, but the above are clear discrepancies against verifiable benchmarks. No other categories had actionable issues.

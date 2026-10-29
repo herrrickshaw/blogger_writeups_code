@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/10/how-to-use-india-quality-regulation.html",
   "slug": "how-to-use-india-quality-regulation",
   "published": "2026-10-19T05:12:17.000+05:30",
-  "updated": "2026-10-27T21:18:44.580+05:30",
+  "updated": "2026-10-29T09:07:40.074+05:30",
   "labels": [
     "India",
     "Open-Source Tools & How-To"
   ],
-  "bytes": 24732,
-  "sha256": "0c05e5e367758f97b385b48698c1014bdca54958a76914a2a86faa8e561b7571",
+  "bytes": 24851,
+  "sha256": "af78a66ce34ad2d1d17df46f3c8b7567321a4222edab99f832b4353e3682fb8d",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -30,6 +30,19 @@
       "level": "initial",
       "reason": "first snapshot",
       "note": "youtube-demo-uploads 2026-10-27: 10 repo-demo posts live"
+    },
+    {
+      "version": "1.0.1",
+      "date": "2026-10-29T09:30:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        24732,
+        24851
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "youtube-demo-uploads: uco-ulo-tracking post live"
     }
   ]
 }

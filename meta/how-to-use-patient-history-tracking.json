@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/10/how-to-use-patient-history-tracking.html",
   "slug": "how-to-use-patient-history-tracking",
   "published": "2026-10-18T08:54:52.000+05:30",
-  "updated": "2026-10-29T05:11:29.016+05:30",
+  "updated": "2026-10-29T09:08:12.396+05:30",
   "labels": [
     "Healthcare",
     "India",
     "Open-Source Tools & How-To"
   ],
-  "bytes": 23399,
-  "sha256": "81f88a507b4df257507ff989f465ea5d8dd2333aa350a308df0a1304705ccc06",
+  "bytes": 23518,
+  "sha256": "84ba3f5b1226462765dcbab59c6bfb8985f6710a777d315dfb6468ad1390c6d0",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.3",
+  "version": "1.0.4",
   "version_history": [
     {
       "version": "1.0.0",
@@ -70,6 +70,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "youtube-demo-uploads 2026-10-29: 8 repo-demo posts promoted live, 2 refreshed"
+    },
+    {
+      "version": "1.0.4",
+      "date": "2026-10-29T09:30:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        23399,
+        23518
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "youtube-demo-uploads: uco-ulo-tracking post live"
     }
   ]
 }

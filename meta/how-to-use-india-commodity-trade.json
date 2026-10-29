@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/10/how-to-use-india-commodity-trade.html",
   "slug": "how-to-use-india-commodity-trade",
   "published": "2026-10-19T05:11:32.000+05:30",
-  "updated": "2026-10-27T21:18:38.110+05:30",
+  "updated": "2026-10-29T09:08:04.305+05:30",
   "labels": [
     "India",
     "Markets & Finance",
     "Open-Source Tools & How-To"
   ],
-  "bytes": 24379,
-  "sha256": "031e4464375fab31fa7925395b31c08b87200c0d77d9da148571ac46f015a462",
+  "bytes": 24498,
+  "sha256": "e865a15a4769c149f5675de56fae0f0d99b67b503cbbc1c854fa25db807d0d10",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -31,6 +31,19 @@
       "level": "initial",
       "reason": "first snapshot",
       "note": "youtube-demo-uploads 2026-10-27: 10 repo-demo posts live"
+    },
+    {
+      "version": "1.0.1",
+      "date": "2026-10-29T09:30:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        24379,
+        24498
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "youtube-demo-uploads: uco-ulo-tracking post live"
     }
   ]
 }

@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/10/how-to-use-piotroski-liquidity-research.html",
   "slug": "how-to-use-piotroski-liquidity-research",
   "published": "2026-10-19T05:13:14.000+05:30",
-  "updated": "2026-10-29T05:12:39.257+05:30",
+  "updated": "2026-10-29T09:06:21.850+05:30",
   "labels": [
     "Equity Markets & Stock Screening",
     "Markets & Finance",
     "Open-Source Tools & How-To"
   ],
-  "bytes": 29967,
-  "sha256": "f5afc5c6398ed9afe61b0c5835564777ec262bee9ad3283bfd7a3b013dbd01f9",
+  "bytes": 30086,
+  "sha256": "19cd0638b331345b50b87adcfcbb1532861d359118727c9e114d19586317a930",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -31,6 +31,19 @@
       "level": "initial",
       "reason": "first snapshot",
       "note": "youtube-demo-uploads 2026-10-29: 8 repo-demo posts promoted live, 2 refreshed"
+    },
+    {
+      "version": "1.0.1",
+      "date": "2026-10-29T09:30:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        29967,
+        30086
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "youtube-demo-uploads: uco-ulo-tracking post live"
     }
   ]
 }

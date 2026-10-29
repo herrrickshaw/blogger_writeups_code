@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/10/how-to-use-india-trade-data-analysis.html",
   "slug": "how-to-use-india-trade-data-analysis",
   "published": "2026-10-19T05:12:19.000+05:30",
-  "updated": "2026-10-27T21:18:46.988+05:30",
+  "updated": "2026-10-29T09:07:21.908+05:30",
   "labels": [
     "India",
     "Markets & Finance",
     "Open-Source Tools & How-To"
   ],
-  "bytes": 23043,
-  "sha256": "fef38e3c299fcc699998649d41c5fcbf2ed421fadba0028c2b2d5c48da0e153e",
+  "bytes": 23162,
+  "sha256": "4cf78fd5b10ae00d8f04e73dfd82806049399540a9f38a655908ddec63852be8",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -31,6 +31,19 @@
       "level": "initial",
       "reason": "first snapshot",
       "note": "youtube-demo-uploads 2026-10-27: 10 repo-demo posts live"
+    },
+    {
+      "version": "1.0.1",
+      "date": "2026-10-29T09:30:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        23043,
+        23162
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "youtube-demo-uploads: uco-ulo-tracking post live"
     }
   ]
 }

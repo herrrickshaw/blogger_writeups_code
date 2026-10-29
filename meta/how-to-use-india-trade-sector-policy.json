@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/10/how-to-use-india-trade-sector-policy.html",
   "slug": "how-to-use-india-trade-sector-policy",
   "published": "2026-10-19T05:12:21.000+05:30",
-  "updated": "2026-10-27T21:18:49.327+05:30",
+  "updated": "2026-10-29T09:07:13.679+05:30",
   "labels": [
     "India",
     "Infrastructure & Investment",
     "Open-Source Tools & How-To"
   ],
-  "bytes": 22957,
-  "sha256": "34567cb2d31475ddf19efe9dfa944838e0a9fc860e74d702a2c826734363c4b5",
+  "bytes": 23076,
+  "sha256": "847d22d1d7b2ed3ffab6e6a7a2d37c3f0c6defaa1bd3b49b7f329c8c4b7e7e10",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -31,6 +31,19 @@
       "level": "initial",
       "reason": "first snapshot",
       "note": "youtube-demo-uploads 2026-10-27: 10 repo-demo posts live"
+    },
+    {
+      "version": "1.0.1",
+      "date": "2026-10-29T09:30:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        22957,
+        23076
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "youtube-demo-uploads: uco-ulo-tracking post live"
     }
   ]
 }

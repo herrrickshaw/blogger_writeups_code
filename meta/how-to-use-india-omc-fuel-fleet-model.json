@@ -4,15 +4,15 @@
   "url": "https://masaladeutsch.blogspot.com/2026/10/how-to-use-india-omc-fuel-fleet-model.html",
   "slug": "how-to-use-india-omc-fuel-fleet-model",
   "published": "2026-10-19T05:11:36.000+05:30",
-  "updated": "2026-10-27T21:18:42.088+05:30",
+  "updated": "2026-10-29T09:07:47.704+05:30",
   "labels": [
     "Energy & Fuels",
     "Ethanol & Biofuels",
     "India",
     "Open-Source Tools & How-To"
   ],
-  "bytes": 25324,
-  "sha256": "a9e952d2ab459ead967047af8f5b51b1441cabdbd990913895b8c9df54411dc6",
+  "bytes": 25443,
+  "sha256": "1496534aa47bca46d8279cf58198479d604aa5a252ea8883029db5c2cee33db6",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -32,6 +32,19 @@
       "level": "initial",
       "reason": "first snapshot",
       "note": "youtube-demo-uploads 2026-10-27: 10 repo-demo posts live"
+    },
+    {
+      "version": "1.0.1",
+      "date": "2026-10-29T09:30:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        25324,
+        25443
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "youtube-demo-uploads: uco-ulo-tracking post live"
     }
   ]
 }

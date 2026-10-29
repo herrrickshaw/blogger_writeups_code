@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/10/how-to-use-ltm-warehouse-tests-test.html",
   "slug": "how-to-use-ltm-warehouse-tests-test",
   "published": "2026-10-19T05:13:06.000+05:30",
-  "updated": "2026-10-29T05:12:26.116+05:30",
+  "updated": "2026-10-29T09:06:51.687+05:30",
   "labels": [
     "Open-Source Tools & How-To"
   ],
-  "bytes": 24703,
-  "sha256": "66b60cb96154e66176fce25f26f29e6fdf343884b440749e3d04a62583f87677",
+  "bytes": 24822,
+  "sha256": "4c5aa4b4a2b19bd66acecd00ebf89940d05d14323a8fa6efab2c71e0f4627ee5",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -29,6 +29,19 @@
       "level": "initial",
       "reason": "first snapshot",
       "note": "youtube-demo-uploads 2026-10-29: 8 repo-demo posts promoted live, 2 refreshed"
+    },
+    {
+      "version": "1.0.1",
+      "date": "2026-10-29T09:30:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        24703,
+        24822
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "youtube-demo-uploads: uco-ulo-tracking post live"
     }
   ]
 }

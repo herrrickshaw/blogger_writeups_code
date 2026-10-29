@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/10/how-to-use-india-ec-subsector-analysis.html",
   "slug": "how-to-use-india-ec-subsector-analysis",
   "published": "2026-10-19T05:11:34.000+05:30",
-  "updated": "2026-10-27T21:18:39.653+05:30",
+  "updated": "2026-10-29T09:07:55.916+05:30",
   "labels": [
     "India",
     "Open-Source Tools & How-To"
   ],
-  "bytes": 24672,
-  "sha256": "b3e75d628051e9257926e489f305c62a20a1ca86f252179cb0673fb28eff5716",
+  "bytes": 24791,
+  "sha256": "b3c96c1e57f22af2d2e2fca707b52b5c4f77720261bf7e37b5140cb6e024f760",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -30,6 +30,19 @@
       "level": "initial",
       "reason": "first snapshot",
       "note": "youtube-demo-uploads 2026-10-27: 10 repo-demo posts live"
+    },
+    {
+      "version": "1.0.1",
+      "date": "2026-10-29T09:30:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        24672,
+        24791
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "youtube-demo-uploads: uco-ulo-tracking post live"
     }
   ]
 }

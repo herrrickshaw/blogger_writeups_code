@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/10/how-to-use-market-correlation-matrices.html",
   "slug": "how-to-use-market-correlation-matrices",
   "published": "2026-10-19T05:13:08.000+05:30",
-  "updated": "2026-10-29T05:12:28.842+05:30",
+  "updated": "2026-10-29T09:06:44.152+05:30",
   "labels": [
     "Equity Markets & Stock Screening",
     "Markets & Finance",
     "Open-Source Tools & How-To"
   ],
-  "bytes": 27326,
-  "sha256": "93c95801c008fc38e1e2e1ddaa6e1ef85500a91a6de48b0f63c3705213c926d4",
+  "bytes": 27445,
+  "sha256": "e0191e5ffdefc34512ae0a86de66ef127496fe2c0525a2601b5dd0210f1ad01c",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -31,6 +31,19 @@
       "level": "initial",
       "reason": "first snapshot",
       "note": "youtube-demo-uploads 2026-10-29: 8 repo-demo posts promoted live, 2 refreshed"
+    },
+    {
+      "version": "1.0.1",
+      "date": "2026-10-29T09:30:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        27326,
+        27445
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "youtube-demo-uploads: uco-ulo-tracking post live"
     }
   ]
 }

@@ -3,15 +3,15 @@
   "title": "How to use india-trade-export-analysis: read India's 2020-2023 export data and the high-growth shortlist",
   "url": "https://masaladeutsch.blogspot.com/2026/10/how-to-use-india-trade-export-analysis.html",
   "slug": "how-to-use-india-trade-export-analysis",
-  "published": "2026-10-27T21:18:24.266+05:30",
-  "updated": "2026-10-27T21:18:24.266+05:30",
+  "published": "2026-10-27T21:18:24.000+05:30",
+  "updated": "2026-10-29T09:06:05.762+05:30",
   "labels": [
     "India",
     "Markets & Finance",
     "Open-Source Tools & How-To"
   ],
-  "bytes": 23469,
-  "sha256": "fe160b31db3d9a348efc694d347f0947e5129b36bcde8d82ecb7f0e498b978b9",
+  "bytes": 23588,
+  "sha256": "8fd67ffc23d416b8338d80fdf8e8eb15e7a3039aadef1ceb754fd3fd467d4d94",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -31,6 +31,19 @@
       "level": "initial",
       "reason": "first snapshot",
       "note": "youtube-demo-uploads 2026-10-27: 10 repo-demo posts live"
+    },
+    {
+      "version": "1.0.1",
+      "date": "2026-10-29T09:30:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        23469,
+        23588
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "youtube-demo-uploads: uco-ulo-tracking post live"
     }
   ]
 }

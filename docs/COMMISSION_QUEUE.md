@@ -766,3 +766,32 @@ queue or SOURCE_REGISTER.
   - Transmission RoW → `a-hectare-under-power-line-now-pays`
   Still open from that batch: coal exchanges, aquaculture authority bill, FMD-free compartments,
   NITI data-centre framework, metro cost benchmarks, coal gasification Round III (hold for results).
+
+- [ ] India's first revived urea plant has lost ₹7,954 crore to the technology it bought
+      Source: Standing Committee on Chemicals and Fertilisers, report on fertiliser logistics and
+      forced bundling, presented 6 Aug 2026, read via the PRS summary (prsindia.org, fetched
+      2026-10-29). Primary PDF on eparlib.sansad.in: fetch_source.sh returned no content today, so
+      retry, or pull it from the sansad.in committee-reports page. Supporting: RFCL's filed annual
+      accounts (MCA) for FY22–FY25; DoF plant-wise production; the 15th Report (self-sufficiency,
+      1 Dec 2025) for the 27-of-33-plants-over-25-years context.
+      Argument: the five-plant FCIL/HFCL revival the blog has followed since the Parliament-questions
+      piece is now producing checkable numbers, and the first one is a loss. RFCL, running since
+      2021, carries an estimated ₹7,954 crore revenue loss to November 2025 from recurring
+      technology failure, while DAP capacity utilisation nationally fell from 87.5% to 67.8% in
+      three years. The committee's remedy, performance guarantees and warranty obligations in
+      future technology transfers, is an admission that the revival contracts had none.
+      Checks needed: (1) 🔴 fetch the report and quote the RFCL paragraph; establish whether ₹7,954
+      crore is foregone revenue at nameplate or an accounting loss, and against which capacity;
+      (2) RFCL's own filed accounts for the loss and utilisation, never the committee's estimate
+      alone; (3) 67.8% is ten months of 2025-26, say so; (4) name the technology licensor from
+      RFCL's own disclosures, not press; (5) keep forced bundling out of this piece, since
+      `nano-urea-works-as-supplement-and-fails` already covers the FCO amendment; (6) house style:
+      cite `thirty-one-years-of-asking-parliament`, `nature-versus-nurture-indias-fertiliser`
+      (whose plant table calls RFCL "Operational" without qualification) and
+      `the-reactor-nobody-names-how-coal` as the blog's own earlier reporting, never as
+      confirmation; (7) rule 8 applies: the piece needs a "What would fix this" section.
+      Logged: 2026-10-29 from the Standing Committee logistics-report register entry
+      Extends: the fertiliser beat's plant-performance gap. Two published posts ask DoF to publish
+      plant-wise utilisation; this report is the first official answer. Posts dedup 2026-10-29:
+      `Ramagundam` in 3 posts (tables and a pipeline map); the loss figure and DAP utilisation in
+      none.
