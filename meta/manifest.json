@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-10-29T09:30:05+05:30",
+  "snapshot": "2026-10-29T09:31:18+05:30",
   "count": 475,
   "posts": {
     "1008146607143508554": {
@@ -44378,10 +44378,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html",
       "slug": "article-index-start-here",
       "published": "2026-08-02T10:43:26.000+05:30",
-      "updated": "2026-10-29T05:19:36.329+05:30",
+      "updated": "2026-10-29T09:30:40.710+05:30",
       "labels": [],
-      "bytes": 924909,
-      "sha256": "941e1ed29d71d86ec415b5e33eb42811f1fb16f1da6d55a7d1d03ab16567a535",
+      "bytes": 925928,
+      "sha256": "dbc81e3475383122ab118002718f8727ed6e1c90fb44af5afe7dffcd66635f52",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -44393,7 +44393,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "70.3.0",
+      "version": "70.4.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -46779,6 +46779,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "index rebuilt after 8 repo-demo posts went live (youtube-demo-uploads 2026-10-29)"
+        },
+        {
+          "version": "70.4.0",
+          "date": "2026-10-29T09:31:18+05:30",
+          "level": "minor",
+          "reason": "forced via --as minor (figures changed (+1/-2 distinct numbers))",
+          "bytes": [
+            924909,
+            925928
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "youtube-demo-uploads: index rebuilt with uco-ulo-tracking (474 posts)"
         }
       ]
     },
