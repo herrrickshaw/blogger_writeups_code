@@ -1,8 +1,8 @@
 # Masala Deutsch — All Posts, Summarised
 
-*473 published posts, 83 topic labels. Each entry is the post's own published standfirst — not a re-summary.*
+*482 published posts, 83 topic labels. Each entry is the post's own published standfirst — not a re-summary.*
 
-*Generated 29 October 2026 — regenerated daily by tools/update_summary_cron.sh.*
+*Generated 30 October 2026 — regenerated daily by tools/update_summary_cron.sh.*
 
 
 ## Units & Figures Used in This Blog
@@ -567,8 +567,10 @@
 - **[India Fuel Retail Outlets — 82k Geocoded Map (Part 2 of 3)](https://masaladeutsch.blogspot.com/2026/07/india-fuel-retail-outlets-82k-geocoded.html)** — 2026-07-22
   Part 2 of 3 in the CNG/CGD retail-mapping series. Companion posts: the CGD GA district map (Part 1) and the cold-chain × outlet integrated map (Part 3). Served live from GitHub Pages.
 
-### Climate & Carbon (27)
+### Climate & Carbon (28)
 
+- **[How to use saf-monitoring-system: track SAF batches against blending and carbon-credit rules](https://masaladeutsch.blogspot.com/2026/10/how-to-use-saf-monitoring-system-track.html)** — 2026-10-30
+  A FastAPI and React app that ties sustainable aviation fuel feedstock, production batches, GHG intensity, ASTM pathway checks, ReFuelEU blending shares and CORSIA credit entries together. This post runs its tests and API on the repository's own seeded mock data. Not legal advice; every regulatory figure shown comes from the repository's data files, not from me. The repository is archived (read-only).
 - **[India's Draft Steel Policy Plans 604 Mt by 2047. Its Own Coal Forecast Means More Blast Furnaces, Not Fewer](https://masaladeutsch.blogspot.com/2026/10/indias-draft-steel-policy-plans-604-mt.html)** — 2026-10-27
   The draft National Steel Policy nearly triples capacity and cuts emissions per tonne by 40%. Its forecast of 236 Mt of coking coal implies blast furnaces keep 43–57% of output, so the emissions target rests on cleaning up blast furnaces themselves.
 - **[How to use hydrogen-electrolyser-control: a simulated PEM, AEM and alkaline electrolyser controller](https://masaladeutsch.blogspot.com/2026/10/how-to-use-hydrogen-electrolyser.html)** — 2026-10-25
@@ -730,8 +732,12 @@
 - **[India's Mobile-Phone PLI Beat Every Target. Its Chip-Fab Scheme Has 5 of 12 Plants Actually Producing.](https://masaladeutsch.blogspot.com/2026/08/indias-mobile-phone-pli-beat-every.html)** — 2026-08-30
   India's mobile-phone PLI scheme beat its own five-year investment target by 294% and its production target by 142% — a genuine, government-reported overperformance. Its chip-fabrication cousin, the Semicon India Programme, has 12 approved plants and, as of SEMICON India 2026 in September, 5 producing anything (up from 3 when this piece was first published). The gap between the two tells you which parts of India's electronics-manufacturing push are working and which are still mostly paper.
 
-### Energy & Fuels (143)
+### Energy & Fuels (146)
 
+- **[How to use saf-monitoring-system: track SAF batches against blending and carbon-credit rules](https://masaladeutsch.blogspot.com/2026/10/how-to-use-saf-monitoring-system-track.html)** — 2026-10-30
+  A FastAPI and React app that ties sustainable aviation fuel feedstock, production batches, GHG intensity, ASTM pathway checks, ReFuelEU blending shares and CORSIA credit entries together. This post runs its tests and API on the repository's own seeded mock data. Not legal advice; every regulatory figure shown comes from the repository's data files, not from me. The repository is archived (read-only).
+- **[How to use refinery-design-opensource: test what a crude does to a refinery](https://masaladeutsch.blogspot.com/2026/10/how-to-use-refinery-design-opensource.html)** — 2026-10-30
+  An open Python toolkit for conceptual refinery sizing that shows how different crudes change yields, sulfur and catalytic cracker temperature, and flags crudes that push the plant past its limits.
 - **[How to use lng-design-opensource: size an LNG train with open tools](https://masaladeutsch.blogspot.com/2026/10/how-to-use-lng-design-opensource-size.html)** — 2026-10-29
   An open Python toolkit that gives a quick, traceable first-pass sizing of an LNG liquefaction train and related terminals, with every stage on one feed basis, before you commit to a licensed simulator.
 - **[How to use lignocellulosic-ethanol-opensource: size a 2G ethanol plant](https://masaladeutsch.blogspot.com/2026/10/how-to-use-lignocellulosic-ethanol.html)** — 2026-10-29
@@ -788,6 +794,8 @@
   A Python simulation of battery management for scooters, retrofitted cars and buses, plus a NASA battery-data cleaning notebook and a validation suite for six Kaggle datasets. The built-in validation runs on synthetic stand-ins; this post says so plainly. Simulation only, not engineering design.
 - **[How to use india-omc-fuel-fleet-model: ethanol blend scenarios and OMC pump income in pure Python](https://masaladeutsch.blogspot.com/2026/10/how-to-use-india-omc-fuel-fleet-model.html)** — 2026-10-19
   Small, dependency-free Python models for what India's oil marketing companies earn at the pump, how that changes at E20, E25 and E30 ethanol blends, and how many vehicles are actually on the road burning fuel.
+- **[How to use ppac-ready-reckoner-data: load India's petroleum statistics as 100 ready CSV tables](https://masaladeutsch.blogspot.com/2026/10/how-to-use-ppac-ready-reckoner-data.html)** — 2026-10-19
+  The tables of PPAC's Ready Reckoner for FY2025-26 H1 (refining margins, ethanol blending, fuel sales, pipelines and more) extracted from PDF into 100 CSV files, plus the extraction script. This post loads them and shows what to clean.
 - **[How to use biomass-to-syngas-opensource: size a biomass gasifier](https://masaladeutsch.blogspot.com/2026/10/how-to-use-biomass-to-syngas-opensource.html)** — 2026-10-19
   Estimate what a biomass gasifier produces from straw, how much tar it makes and whether the syngas is good enough for power or for chemicals.
 - **[How to use bms-battery-management: simulate an EV battery pack in Python](https://masaladeutsch.blogspot.com/2026/10/how-to-use-bms-battery-management.html)** — 2026-10-18
@@ -1048,14 +1056,20 @@
 - **[How to use kalki_flooding: 125 years of Indian city rainfall extremes from IMD gridded data](https://masaladeutsch.blogspot.com/2026/10/how-to-use-kalkiflooding-125-years-of.html)** — 2026-10-19
   A repository of Python scripts and committed IMD-derived daily rainfall series for Indian cities that computes yearly heavy-rain metrics and charts, plus a flood-sensor collector for the IUDX network.
 
-### Equity Markets & Stock Screening (16)
+### Equity Markets & Stock Screening (19)
 
+- **[How to use stock-portfolio-evaluator: a rule-of-thumb Newsvendor score for a stock portfolio](https://masaladeutsch.blogspot.com/2026/10/how-to-use-stock-portfolio-evaluator.html)** — 2026-10-30
+  A small Python command-line tool that reads a portfolio file and prints buy, hold or sell labels, a three-month gain figure per stock and a holding-cost view based on the Newsvendor idea from inventory theory. This post runs it on an invented portfolio and shows how the rules actually behave. Not investment advice. The repository is archived (read-only).
+- **[How to use global-stock-screener: rule-based stock screens, offline](https://masaladeutsch.blogspot.com/2026/10/how-to-use-global-stock-screener-rule.html)** — 2026-10-30
+  Run Darvas breakout, Piotroski F-Score and Coffee Can screens on a year of cached prices from 20 markets, with no API keys.
 - **[The Negative Cash Conversion Cycle: Free Money or a Warning Sign?](https://masaladeutsch.blogspot.com/2026/10/the-negative-cash-conversion-cycle-free.html)** — 2026-10-28
   A company with a negative cash conversion cycle collects cash from its customers before it has to pay its suppliers. That can be the sign of a superb business, or of one quietly running out of cash, and the numbers alone do not say which.
 - **[Earnings Drift and Piotroski Work Only Where Trading Is Thin](https://masaladeutsch.blogspot.com/2026/10/earnings-drift-and-piotroski-work-only.html)** — 2026-10-28
   Two classic stock signals, earnings drift and the Piotroski F-score, both work, but only where trading is thin. Adding return on capital to Piotroski picks better businesses without picking better stocks.
 - **[How to use market-correlation-matrices: read per-market stock correlation snapshots](https://masaladeutsch.blogspot.com/2026/10/how-to-use-market-correlation-matrices.html)** — 2026-10-19
   Ready-made correlation matrices of daily stock returns for six markets (India, US, Japan, Korea, China, Europe), stored compactly so you can load one in a few lines of Python. Not investment advice: this is research and education material built from public-source or derived data; it is not a recommendation to buy or sell anything.
+- **[How to use price_prediction_backtest: honest walk-forward tests of price-prediction models](https://masaladeutsch.blogspot.com/2026/10/how-to-use-pricepredictionbacktest.html)** — 2026-10-19
+  price_prediction_backtest scores Markov, Kalman and LSTM/GRU next-day forecasters against naive baselines, and replays Darvas-style breakouts gated by market regime across five markets. Not investment advice; research code on historical data with no trading costs.
 - **[How to use colab-market-fundamentals: collect dated annual fundamentals for 20 markets in Colab](https://masaladeutsch.blogspot.com/2026/10/how-to-use-colab-market-fundamentals.html)** — 2026-10-19
   A Google Colab notebook that downloads about five years of annual company financials per market through yfinance, saves them to parquet every three minutes, and lets you resume from a zip. Research and education only. Not investment advice: this is research and education material built from public-source or derived data; it is not a recommendation to buy or sell anything.
 - **[How to use piotroski-liquidity-research: a point-in-time test of the Piotroski F-score and liquidity](https://masaladeutsch.blogspot.com/2026/10/how-to-use-piotroski-liquidity-research.html)** — 2026-10-19
@@ -1353,8 +1367,10 @@
 - **[The Price of Grain: MSP, MSV, and the Arithmetic of the Indian Grain State](https://masaladeutsch.blogspot.com/2026/07/the-price-of-grain-msp-msv-and.html)** — 2026-07-23
   How India prices its harvest — for farmers, for ration shops, for distilleries, for the world market — and why pairing the Minimum Support Price with a Minimum Support Volume is the design that creates value on both sides of the ledger.
 
-### Healthcare (17)
+### Healthcare (18)
 
+- **[How to use five open toolkits: finance models, documents, care audits](https://masaladeutsch.blogspot.com/2026/10/how-to-use-five-open-toolkits-finance.html)** — 2026-10-30
+  One guide to five toolkits: a financial modelling engine, a document library builder, a research library pipeline, a prenatal-care data toolkit and an AI-first interpreter repo.
 - **[India Capped Margins on 137 Cancer Drugs. Common Medicines Outside Price Control Carry Markups of Up to 1,800%](https://masaladeutsch.blogspot.com/2026/10/india-capped-margins-on-137-cancer.html)** — 2026-10-28
   From 9 November, trade margins on 137 cancer medicines are capped at 30%. A parliamentary committee found pharmacies discounting 20–60% off printed prices and markups of 600% to 1,800% on common drugs that sit outside price control, and the regulator has recovered about a sixth of what it says companies overcharged.
 - **[Most of What Indians Pay for Health Is Outpatient Care. Ayushman Bharat Pays Only for Hospital Stays](https://masaladeutsch.blogspot.com/2026/10/most-of-what-indians-pay-for-health-is.html)** — 2026-10-28
@@ -1460,8 +1476,10 @@
 - **[Chemical Import Substitution Analysis: Executive Summary](https://masaladeutsch.blogspot.com/2026/07/chemical-import-substitution-analysis.html)** — 2026-08-01
   A re-derivation of this analysis against DGCI&S TradeStat on 2 August 2026 found that several HS-8 codes cited below do not exist in India’s tariff schedule, and the import values attached to them are not supported by the data. Specifically: ethylene was cited as 29011100 / $2,800M (the real line is 29012100, $44M); propylene as 29011200 / $1,400M (real: 29012200, $14M); polyethylene as 39021010/30 / $8.5bn (real 3901 lines total ~$2.8bn; 3902 is polypropylene); lecithin as 29239090 / $100M (real: 29232090, ~$19M); polypropylene as 39021100 (real: 39021000, value $1,372M is correct).
 
-### India (67)
+### India (69)
 
+- **[How to use refinery-design-opensource: test what a crude does to a refinery](https://masaladeutsch.blogspot.com/2026/10/how-to-use-refinery-design-opensource.html)** — 2026-10-30
+  An open Python toolkit for conceptual refinery sizing that shows how different crudes change yields, sulfur and catalytic cracker temperature, and flags crudes that push the plant past its limits.
 - **[How to use lok-rajya-sabha-qa: see which parties and ministries Parliament questions are about](https://masaladeutsch.blogspot.com/2026/10/how-to-use-lok-rajya-sabha-qa-see-which.html)** — 2026-10-29
   A ledger of 59,381 Parliament questions from the 18th Lok Sabha and matching Rajya Sabha sessions, ranked by party, ministry and state, ready to query in DuckDB. This post shows aggregates only.
 - **[How to use lignocellulosic-ethanol-opensource: size a 2G ethanol plant](https://masaladeutsch.blogspot.com/2026/10/how-to-use-lignocellulosic-ethanol.html)** — 2026-10-29
@@ -1506,6 +1524,8 @@
   Small, dependency-free Python models for what India's oil marketing companies earn at the pump, how that changes at E20, E25 and E30 ethanol blends, and how many vehicles are actually on the road burning fuel.
 - **[How to use india-trade-sector-policy-recommendations: tiered sector and policy calls for India's trade](https://masaladeutsch.blogspot.com/2026/10/how-to-use-india-trade-sector-policy.html)** — 2026-10-19
   The prescriptive half of a two-repo study: it turns India's trade data into tiered, checkable recommendations on which import sectors need action, which exports to back, and which country relationships to de-risk, with charts, JSON and a quarterly PDF.
+- **[How to use ppac-ready-reckoner-data: load India's petroleum statistics as 100 ready CSV tables](https://masaladeutsch.blogspot.com/2026/10/how-to-use-ppac-ready-reckoner-data.html)** — 2026-10-19
+  The tables of PPAC's Ready Reckoner for FY2025-26 H1 (refining margins, ethanol blending, fuel sales, pipelines and more) extracted from PDF into 100 CSV files, plus the extraction script. This post loads them and shows what to clean.
 - **[How to use india-quality-regulation: a sourced map of who regulates quality in India](https://masaladeutsch.blogspot.com/2026/10/how-to-use-india-quality-regulation.html)** — 2026-10-19
   A Markdown field guide to BIS and 35 other regulators, accreditation boards and voluntary marks, each page tied to the Act, order or scheme page behind it, with scripts that check the references still resolve.
 - **[How to use chemical_import_substitution: HS-8 import-substitution signals for India's chemical chapters](https://masaladeutsch.blogspot.com/2026/10/how-to-use-chemicalimportsubstitution.html)** — 2026-10-19
@@ -2023,8 +2043,14 @@
 - **[How India's Automotive Clusters Rewired Themselves Around Just-in-Time Delivery](https://masaladeutsch.blogspot.com/2026/08/how-indias-automotive-clusters-rewired.html)** — 2026-08-15
   Maruti Suzuki gets over 76% of its 246 suppliers within 100km of its assembly lines, and its "e-Nagare" system cut the order-to-shopfloor cycle from 30 hours to 2. That single number is the clearest evidence of how India's automotive clusters actually work today — not as five separate manufacturing hubs, but as increasingly tight, just-in-time-organised ecosystems where component suppliers sit inside the same radius as the OEM. This piece maps the clusters, the mechanics of the JIT shift, and the one real crisis — the 2021 semiconductor shortage — that showed exactly where that model breaks.
 
-### Markets & Finance (70)
+### Markets & Finance (74)
 
+- **[How to use stock-portfolio-evaluator: a rule-of-thumb Newsvendor score for a stock portfolio](https://masaladeutsch.blogspot.com/2026/10/how-to-use-stock-portfolio-evaluator.html)** — 2026-10-30
+  A small Python command-line tool that reads a portfolio file and prints buy, hold or sell labels, a three-month gain figure per stock and a holding-cost view based on the Newsvendor idea from inventory theory. This post runs it on an invented portfolio and shows how the rules actually behave. Not investment advice. The repository is archived (read-only).
+- **[How to use five open toolkits: finance models, documents, care audits](https://masaladeutsch.blogspot.com/2026/10/how-to-use-five-open-toolkits-finance.html)** — 2026-10-30
+  One guide to five toolkits: a financial modelling engine, a document library builder, a research library pipeline, a prenatal-care data toolkit and an AI-first interpreter repo.
+- **[How to use global-stock-screener: rule-based stock screens, offline](https://masaladeutsch.blogspot.com/2026/10/how-to-use-global-stock-screener-rule.html)** — 2026-10-30
+  Run Darvas breakout, Piotroski F-Score and Coffee Can screens on a year of cached prices from 20 markets, with no API keys.
 - **[The Negative Cash Conversion Cycle: Free Money or a Warning Sign?](https://masaladeutsch.blogspot.com/2026/10/the-negative-cash-conversion-cycle-free.html)** — 2026-10-28
   A company with a negative cash conversion cycle collects cash from its customers before it has to pay its suppliers. That can be the sign of a superb business, or of one quietly running out of cash, and the numbers alone do not say which.
 - **[How to use india-trade-export-analysis: read India's 2020-2023 export data and the high-growth shortlist](https://masaladeutsch.blogspot.com/2026/10/how-to-use-india-trade-export-analysis.html)** — 2026-10-27
@@ -2043,6 +2069,8 @@
   Two JSON datasets from the Commerce Ministry's TRADESTAT, all 98 HS chapters for FY2018-19 to FY2025-26 plus 4-digit gold, silver, copper and other metal imports by partner country, ready to query with plain Python.
 - **[How to use india-trade-tracker: India chapter-wise exports and imports from official DGFT data](https://masaladeutsch.blogspot.com/2026/10/how-to-use-india-trade-tracker-india.html)** — 2026-10-19
   A free, chapter-level (2-digit HS) view of India's merchandise exports and imports from the official Export-Import Data Bank, plus World Bank, NIRYAT and UN Comtrade collectors, stored in DuckDB.
+- **[How to use price_prediction_backtest: honest walk-forward tests of price-prediction models](https://masaladeutsch.blogspot.com/2026/10/how-to-use-pricepredictionbacktest.html)** — 2026-10-19
+  price_prediction_backtest scores Markov, Kalman and LSTM/GRU next-day forecasters against naive baselines, and replays Darvas-style breakouts gated by market regime across five markets. Not investment advice; research code on historical data with no trading costs.
 - **[How to use colab-market-fundamentals: collect dated annual fundamentals for 20 markets in Colab](https://masaladeutsch.blogspot.com/2026/10/how-to-use-colab-market-fundamentals.html)** — 2026-10-19
   A Google Colab notebook that downloads about five years of annual company financials per market through yfinance, saves them to parquet every three minutes, and lets you resume from a zip. Research and education only. Not investment advice: this is research and education material built from public-source or derived data; it is not a recommendation to buy or sell anything.
 - **[How to use piotroski-liquidity-research: a point-in-time test of the Piotroski F-score and liquidity](https://masaladeutsch.blogspot.com/2026/10/how-to-use-piotroski-liquidity-research.html)** — 2026-10-19
@@ -2234,8 +2262,18 @@
 - **[India's Oil Fields Are Running Down: 36.96 to 28.70 MMT in a Decade, and the Targets Have Stopped Meaning Anything](https://masaladeutsch.blogspot.com/2026/08/indias-oil-fields-are-running-down-3696.html)** — 2026-08-06
   DGH's own ten-year table shows crude output falling every year but one since 2014-15. Gas has held up — but only because private deepwater replaced the state fields that were shrinking underneath it.
 
-### Open-Source Tools & How-To (56)
+### Open-Source Tools & How-To (65)
 
+- **[How to use saf-monitoring-system: track SAF batches against blending and carbon-credit rules](https://masaladeutsch.blogspot.com/2026/10/how-to-use-saf-monitoring-system-track.html)** — 2026-10-30
+  A FastAPI and React app that ties sustainable aviation fuel feedstock, production batches, GHG intensity, ASTM pathway checks, ReFuelEU blending shares and CORSIA credit entries together. This post runs its tests and API on the repository's own seeded mock data. Not legal advice; every regulatory figure shown comes from the repository's data files, not from me. The repository is archived (read-only).
+- **[How to use refinery-design-opensource: test what a crude does to a refinery](https://masaladeutsch.blogspot.com/2026/10/how-to-use-refinery-design-opensource.html)** — 2026-10-30
+  An open Python toolkit for conceptual refinery sizing that shows how different crudes change yields, sulfur and catalytic cracker temperature, and flags crudes that push the plant past its limits.
+- **[How to use stock-portfolio-evaluator: a rule-of-thumb Newsvendor score for a stock portfolio](https://masaladeutsch.blogspot.com/2026/10/how-to-use-stock-portfolio-evaluator.html)** — 2026-10-30
+  A small Python command-line tool that reads a portfolio file and prints buy, hold or sell labels, a three-month gain figure per stock and a holding-cost view based on the Newsvendor idea from inventory theory. This post runs it on an invented portfolio and shows how the rules actually behave. Not investment advice. The repository is archived (read-only).
+- **[How to use five open toolkits: finance models, documents, care audits](https://masaladeutsch.blogspot.com/2026/10/how-to-use-five-open-toolkits-finance.html)** — 2026-10-30
+  One guide to five toolkits: a financial modelling engine, a document library builder, a research library pipeline, a prenatal-care data toolkit and an AI-first interpreter repo.
+- **[How to use global-stock-screener: rule-based stock screens, offline](https://masaladeutsch.blogspot.com/2026/10/how-to-use-global-stock-screener-rule.html)** — 2026-10-30
+  Run Darvas breakout, Piotroski F-Score and Coffee Can screens on a year of cached prices from 20 markets, with no API keys.
 - **[How to use lok-rajya-sabha-qa: see which parties and ministries Parliament questions are about](https://masaladeutsch.blogspot.com/2026/10/how-to-use-lok-rajya-sabha-qa-see-which.html)** — 2026-10-29
   A ledger of 59,381 Parliament questions from the 18th Lok Sabha and matching Rajya Sabha sessions, ranked by party, ministry and state, ready to query in DuckDB. This post shows aggregates only.
 - **[How to use lng-design-opensource: size an LNG train with open tools](https://masaladeutsch.blogspot.com/2026/10/how-to-use-lng-design-opensource-size.html)** — 2026-10-29
@@ -2270,6 +2308,8 @@
   Size a compressed biogas plant for India's SATAT scheme, from feedstock through digestion, upgrading and 250 bar compression, and check it against a published plant.
 - **[How to use claude-provenance: an auditable log of every Claude message on your machine](https://masaladeutsch.blogspot.com/2026/10/how-to-use-claude-provenance-auditable.html)** — 2026-10-19
   One Python script turns your local Claude Code transcripts, prompt history and claude.ai export into a single SQLite database with timestamps, models, tool calls and a SHA-256 of each message.
+- **[How to use repo-data-dedup: find duplicate LFS storage across your GitHub repos](https://masaladeutsch.blogspot.com/2026/10/how-to-use-repo-data-dedup-find.html)** — 2026-10-19
+  An audit script that inventories every Git LFS pointer in every repo of a GitHub account, without downloading a single LFS object, and shows how much of your LFS bill is duplicates.
 - **[How to use market-correlation-matrices: read per-market stock correlation snapshots](https://masaladeutsch.blogspot.com/2026/10/how-to-use-market-correlation-matrices.html)** — 2026-10-19
   Ready-made correlation matrices of daily stock returns for six markets (India, US, Japan, Korea, China, Europe), stored compactly so you can load one in a few lines of Python. Not investment advice: this is research and education material built from public-source or derived data; it is not a recommendation to buy or sell anything.
 - **[How to use india-commodity-trade-deficit: eight years of HS-chapter trade data and bare-metal imports](https://masaladeutsch.blogspot.com/2026/10/how-to-use-india-commodity-trade.html)** — 2026-10-19
@@ -2286,10 +2326,14 @@
   A Python simulation of battery management for scooters, retrofitted cars and buses, plus a NASA battery-data cleaning notebook and a validation suite for six Kaggle datasets. The built-in validation runs on synthetic stand-ins; this post says so plainly. Simulation only, not engineering design.
 - **[How to use india-omc-fuel-fleet-model: ethanol blend scenarios and OMC pump income in pure Python](https://masaladeutsch.blogspot.com/2026/10/how-to-use-india-omc-fuel-fleet-model.html)** — 2026-10-19
   Small, dependency-free Python models for what India's oil marketing companies earn at the pump, how that changes at E20, E25 and E30 ethanol blends, and how many vehicles are actually on the road burning fuel.
+- **[How to use price_prediction_backtest: honest walk-forward tests of price-prediction models](https://masaladeutsch.blogspot.com/2026/10/how-to-use-pricepredictionbacktest.html)** — 2026-10-19
+  price_prediction_backtest scores Markov, Kalman and LSTM/GRU next-day forecasters against naive baselines, and replays Darvas-style breakouts gated by market regime across five markets. Not investment advice; research code on historical data with no trading costs.
 - **[How to use india-trade-sector-policy-recommendations: tiered sector and policy calls for India's trade](https://masaladeutsch.blogspot.com/2026/10/how-to-use-india-trade-sector-policy.html)** — 2026-10-19
   The prescriptive half of a two-repo study: it turns India's trade data into tiered, checkable recommendations on which import sectors need action, which exports to back, and which country relationships to de-risk, with charts, JSON and a quarterly PDF.
 - **[How to use delivery-playbook: a field guide for choosing and fixing your software process](https://masaladeutsch.blogspot.com/2026/10/how-to-use-delivery-playbook-field.html)** — 2026-10-19
   A single-file HTML guide to SDLC models, the Agile family, DevOps, a fit-finder for picking a process, named anti-patterns, computer-science theory applied to products, DDD and TOGAF. This post shows what is inside and how to read it, adapt it or hand it to an AI assistant.
+- **[How to use ppac-ready-reckoner-data: load India's petroleum statistics as 100 ready CSV tables](https://masaladeutsch.blogspot.com/2026/10/how-to-use-ppac-ready-reckoner-data.html)** — 2026-10-19
+  The tables of PPAC's Ready Reckoner for FY2025-26 H1 (refining margins, ethanol blending, fuel sales, pipelines and more) extracted from PDF into 100 CSV files, plus the extraction script. This post loads them and shows what to clean.
 - **[How to use india-quality-regulation: a sourced map of who regulates quality in India](https://masaladeutsch.blogspot.com/2026/10/how-to-use-india-quality-regulation.html)** — 2026-10-19
   A Markdown field guide to BIS and 35 other regulators, accreditation boards and voluntary marks, each page tied to the Act, order or scheme page behind it, with scripts that check the references still resolve.
 - **[How to use ltm-warehouse-tests: test a Postgres price-history backfill without touching the real warehouse](https://masaladeutsch.blogspot.com/2026/10/how-to-use-ltm-warehouse-tests-test.html)** — 2026-10-19
@@ -2322,6 +2366,8 @@
   agentic-insurance-agent is an open-source way to run insurance processes (policy issue, premium collection, claims) as diagrams and rules, with an AI layer that can recommend but not move money.
 - **[How to use kalki_flooding: 125 years of Indian city rainfall extremes from IMD gridded data](https://masaladeutsch.blogspot.com/2026/10/how-to-use-kalkiflooding-125-years-of.html)** — 2026-10-19
   A repository of Python scripts and committed IMD-derived daily rainfall series for Indian cities that computes yearly heavy-rain metrics and charts, plus a flood-sensor collector for the IUDX network.
+- **[How to use research-design-system: one set of design tokens, four themes for reports and dashboards](https://masaladeutsch.blogspot.com/2026/10/how-to-use-research-design-system-one.html)** — 2026-10-19
+  A small CSS kit with one token contract, four themes (bulletin, report, reportage, slate) and one component set, so reports, bulletins and dashboards look related without copy-pasting styles.
 - **[How to use cricket-data-analysis: score how predictable IPL and World Cup match-ups are](https://masaladeutsch.blogspot.com/2026/10/how-to-use-cricket-data-analysis-score.html)** — 2026-10-19
   A single R script that pulls match data from Cricsheet and ranks team pairings and venues by a simple predictability score. In our run the download worked but the script stopped on a package error, which this post explains and works around.
 - **[How to use Bazartalks_Py2Cplus: a C++ port of a quant research platform, with its Python-vs-C++ benchmark](https://masaladeutsch.blogspot.com/2026/10/how-to-use-bazartalkspy2cplus-c-port-of.html)** — 2026-10-19
@@ -2461,10 +2507,14 @@
 - **[India's Textile Import-Export Strategy: From Dependency to Self-Sufficiency](https://masaladeutsch.blogspot.com/2026/07/indias-textile-import-export-strategy.html)** — 2026-07-27
   HSN Breakdown Needed: Polypropylene, HDPE, LDPE, PET films by destination segment
 
-### Refining & Petrochemicals (10)
+### Refining & Petrochemicals (12)
 
+- **[How to use refinery-design-opensource: test what a crude does to a refinery](https://masaladeutsch.blogspot.com/2026/10/how-to-use-refinery-design-opensource.html)** — 2026-10-30
+  An open Python toolkit for conceptual refinery sizing that shows how different crudes change yields, sulfur and catalytic cracker temperature, and flags crudes that push the plant past its limits.
 - **[How to use coal-to-urea-design-opensource: size a coal-to-urea complex](https://masaladeutsch.blogspot.com/2026/10/how-to-use-coal-to-urea-design.html)** — 2026-10-23
   Size a coal-gasification-to-urea complex in which six units share one mass basis, and compare the result with the real Talcher plant.
+- **[How to use ppac-ready-reckoner-data: load India's petroleum statistics as 100 ready CSV tables](https://masaladeutsch.blogspot.com/2026/10/how-to-use-ppac-ready-reckoner-data.html)** — 2026-10-19
+  The tables of PPAC's Ready Reckoner for FY2025-26 H1 (refining margins, ethanol blending, fuel sales, pipelines and more) extracted from PDF into 100 CSV files, plus the extraction script. This post loads them and shows what to clean.
 - **[Refiners Won the Exemption Fight, Biofuels Kept the Volumes: What Eight Court Rulings Did to America's Biofuel Credits](https://masaladeutsch.blogspot.com/2026/10/refiners-won-exemption-fight-biofuels.html)** — 2026-10-03
   Eight US court rulings from 2023 to 2026 show refiners winning the small-refinery-exemption fight while biofuel producers keep record-high Renewable Fuel Standard volumes. What decides RIN prices now is EPA's discretion to reallocate exempted gallons.
 - **[India Exports the Naphtha and Benzene Its Own Pharma Industry Needs — Mostly to China](https://masaladeutsch.blogspot.com/2026/09/india-exports-naphtha-and-benzene-its.html)** — 2026-09-17
@@ -4715,6 +4765,11 @@ Customer support, application maintenance and labour-billed back-office work are
 
 One Python script turns your local Claude Code transcripts, prompt history and claude.ai export into a single SQLite database with timestamps, models, tool calls and a SHA-256 of each message.
 
+### [How to use repo-data-dedup: find duplicate LFS storage across your GitHub repos](https://masaladeutsch.blogspot.com/2026/10/how-to-use-repo-data-dedup-find.html)
+*2026-10-19 · Open-Source Tools & How-To*
+
+An audit script that inventories every Git LFS pointer in every repo of a GitHub account, without downloading a single LFS object, and shows how much of your LFS bill is duplicates.
+
 ### [How to use market-correlation-matrices: read per-market stock correlation snapshots](https://masaladeutsch.blogspot.com/2026/10/how-to-use-market-correlation-matrices.html)
 *2026-10-19 · Equity Markets & Stock Screening, Markets & Finance, Open-Source Tools & How-To*
 
@@ -4755,6 +4810,11 @@ A Python simulation of battery management for scooters, retrofitted cars and bus
 
 Small, dependency-free Python models for what India's oil marketing companies earn at the pump, how that changes at E20, E25 and E30 ethanol blends, and how many vehicles are actually on the road burning fuel.
 
+### [How to use price_prediction_backtest: honest walk-forward tests of price-prediction models](https://masaladeutsch.blogspot.com/2026/10/how-to-use-pricepredictionbacktest.html)
+*2026-10-19 · Equity Markets & Stock Screening, Markets & Finance, Open-Source Tools & How-To*
+
+price_prediction_backtest scores Markov, Kalman and LSTM/GRU next-day forecasters against naive baselines, and replays Darvas-style breakouts gated by market regime across five markets. Not investment advice; research code on historical data with no trading costs.
+
 ### [How to use india-trade-sector-policy-recommendations: tiered sector and policy calls for India's trade](https://masaladeutsch.blogspot.com/2026/10/how-to-use-india-trade-sector-policy.html)
 *2026-10-19 · India, Infrastructure & Investment, Open-Source Tools & How-To*
 
@@ -4764,6 +4824,11 @@ The prescriptive half of a two-repo study: it turns India's trade data into tier
 *2026-10-19 · Open-Source Tools & How-To*
 
 A single-file HTML guide to SDLC models, the Agile family, DevOps, a fit-finder for picking a process, named anti-patterns, computer-science theory applied to products, DDD and TOGAF. This post shows what is inside and how to read it, adapt it or hand it to an AI assistant.
+
+### [How to use ppac-ready-reckoner-data: load India's petroleum statistics as 100 ready CSV tables](https://masaladeutsch.blogspot.com/2026/10/how-to-use-ppac-ready-reckoner-data.html)
+*2026-10-19 · Energy & Fuels, India, Open-Source Tools & How-To, Refining & Petrochemicals*
+
+The tables of PPAC's Ready Reckoner for FY2025-26 H1 (refining margins, ethanol blending, fuel sales, pipelines and more) extracted from PDF into 100 CSV files, plus the extraction script. This post loads them and shows what to clean.
 
 ### [How to use india-quality-regulation: a sourced map of who regulates quality in India](https://masaladeutsch.blogspot.com/2026/10/how-to-use-india-quality-regulation.html)
 *2026-10-19 · India, Open-Source Tools & How-To*
@@ -4844,6 +4909,11 @@ agentic-insurance-agent is an open-source way to run insurance processes (policy
 *2026-10-19 · Environment & Climate, India, Open-Source Tools & How-To*
 
 A repository of Python scripts and committed IMD-derived daily rainfall series for Indian cities that computes yearly heavy-rain metrics and charts, plus a flood-sensor collector for the IUDX network.
+
+### [How to use research-design-system: one set of design tokens, four themes for reports and dashboards](https://masaladeutsch.blogspot.com/2026/10/how-to-use-research-design-system-one.html)
+*2026-10-19 · Open-Source Tools & How-To*
+
+A small CSS kit with one token contract, four themes (bulletin, report, reportage, slate) and one component set, so reports, bulletins and dashboards look related without copy-pasting styles.
 
 ### [How to use cricket-data-analysis: score how predictable IPL and World Cup match-ups are](https://masaladeutsch.blogspot.com/2026/10/how-to-use-cricket-data-analysis-score.html)
 *2026-10-19 · India, Open-Source Tools & How-To*
@@ -5184,3 +5254,28 @@ Size a second-generation cellulosic ethanol plant that turns rice straw into fue
 *2026-10-29 · Energy & Fuels, Ethanol & Biofuels, India, Open-Source Tools & How-To*
 
 A FastAPI + SQLite backend (with a React front end) that tracks used cooking oil and used lubricating oil from generator to buyer: manifests, lot mass balance, processing yields, a SHA-256 hash-chained ledger, fraud heuristics and India's used-oil EPR arithmetic. This post runs the tests, starts the API on seeded mock data and reads the compliance endpoints.
+
+### [How to use saf-monitoring-system: track SAF batches against blending and carbon-credit rules](https://masaladeutsch.blogspot.com/2026/10/how-to-use-saf-monitoring-system-track.html)
+*2026-10-30 · Climate & Carbon, Energy & Fuels, Open-Source Tools & How-To*
+
+A FastAPI and React app that ties sustainable aviation fuel feedstock, production batches, GHG intensity, ASTM pathway checks, ReFuelEU blending shares and CORSIA credit entries together. This post runs its tests and API on the repository's own seeded mock data. Not legal advice; every regulatory figure shown comes from the repository's data files, not from me. The repository is archived (read-only).
+
+### [How to use refinery-design-opensource: test what a crude does to a refinery](https://masaladeutsch.blogspot.com/2026/10/how-to-use-refinery-design-opensource.html)
+*2026-10-30 · Energy & Fuels, India, Open-Source Tools & How-To, Refining & Petrochemicals*
+
+An open Python toolkit for conceptual refinery sizing that shows how different crudes change yields, sulfur and catalytic cracker temperature, and flags crudes that push the plant past its limits.
+
+### [How to use stock-portfolio-evaluator: a rule-of-thumb Newsvendor score for a stock portfolio](https://masaladeutsch.blogspot.com/2026/10/how-to-use-stock-portfolio-evaluator.html)
+*2026-10-30 · Equity Markets & Stock Screening, Markets & Finance, Open-Source Tools & How-To*
+
+A small Python command-line tool that reads a portfolio file and prints buy, hold or sell labels, a three-month gain figure per stock and a holding-cost view based on the Newsvendor idea from inventory theory. This post runs it on an invented portfolio and shows how the rules actually behave. Not investment advice. The repository is archived (read-only).
+
+### [How to use five open toolkits: finance models, documents, care audits](https://masaladeutsch.blogspot.com/2026/10/how-to-use-five-open-toolkits-finance.html)
+*2026-10-30 · Healthcare, Markets & Finance, Open-Source Tools & How-To*
+
+One guide to five toolkits: a financial modelling engine, a document library builder, a research library pipeline, a prenatal-care data toolkit and an AI-first interpreter repo.
+
+### [How to use global-stock-screener: rule-based stock screens, offline](https://masaladeutsch.blogspot.com/2026/10/how-to-use-global-stock-screener-rule.html)
+*2026-10-30 · Equity Markets & Stock Screening, Markets & Finance, Open-Source Tools & How-To*
+
+Run Darvas breakout, Piotroski F-Score and Coffee Can screens on a year of cached prices from 20 markets, with no API keys.
