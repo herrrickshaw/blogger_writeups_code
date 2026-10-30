@@ -14,26 +14,25 @@ Panel: **3 of 5 configured models** answered.  Skipped this run: Kimi ([Kimi API
 ## Gemini gemini-flash-lite-latest
 
 FACTUAL ERRORS:
-- "Indian Oil, BPCL, and HPCL announced together after a pending case was resolved, with no change in pump prices." — In India, retail selling prices (RSPs) of petrol and diesel are technically deregulated, but OMCs historically coordinate price revisions and major revisions (like the October 2024 dealer commission hike) often coincide with minor retail price adjustments or are absorbed via state-level tax tweaks rather than strictly "no change in pump prices" universally across all circles, though the October 2024 revision specifically saw no immediate hike in base pump prices. However, a more concrete error is the outlet count breakdown: "Indian Oil, BPCL, HPCL (end-Nov 2025) | 41,664; 24,605; 24,418 (90.4% of 100,266)" — summing these three figures gives 90,687, which is roughly 90.4% of 100,266, but the individual numbers assigned to IOCL, BPCL, and HPCL are transposed or inaccurate for standard public-sector counts (IOCL alone typically operates around 35,000–36,000 outlets, not 41,664 while BPCL and HPCL have ~21,000–22,000 each). [confidence: medium]
+- "Indian Oil, BPCL, HPCL (end-Nov 2025) | 41,664; 24,605; 24,418 (90.4% of 100,266)" — The sum of 41,664 (IOC), 24,605 (BPCL), and 24,418 (HPCL) is 90,687, which is approximately 90.4% of 100,266, but the text attributes the second figure (24,605) to BPCL and the third to HPCL when typically BPCL has the larger network or the counts are transposed in this specific breakdown against standard PSU outlet distributions. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "The party that gained directly from E20 is the ethanol supplier, whose price is set by the government." — This is a false causal/beneficiary claim in an economic sense because while ethanol suppliers receive guaranteed off-take volumes and government-fixed prices, they face heavily regulated input costs (such as cane and maize prices fixed by state/central governments) and capacity constraints, meaning higher gross revenue from E20 does not automatically translate to a net margin "gain" superior to other agricultural or industrial diversions without factoring in feedstock cost inflation. [confidence: medium]
+- "The oil companies’ margin was high while crude was cheap and went negative when crude spiked in 2026." — Marketing margins and refining margins are conflated or simplified into a single "oil companies' margin" that supposedly goes negative, whereas integrated OMCs typically experience sharp compression in marketing margins during retail price freezes while gross refining margins (GRMs) can remain robust or positive (as explicitly documented later in the text where HPCL and BPCL report massive positive GRMs of $17 to $41 during the exact same quarters they record net losses). [confidence: high]
 
 OUTDATED DATA:
 - none found
 
 ## Groq openai/gpt-oss-120b
 
-[Groq/openai/gpt-oss-120b API error 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Requested 9102, please reduce your message size and try again. Need more tokens? Upgrade to Dev Tier today at https]
+[Groq/openai/gpt-oss-120b API error 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Requested 10107, please reduce your message size and try again. Need more tokens? Upgrade to Dev Tier today at http]
 
 ## Mistral open-mistral-nemo
 
 **FACTUAL ERRORS:**
-- **"The October 2024 revision, a litigation settlement, was the first increase in seven years"** — Incorrect; PPAC’s table (posted 3 Dec 2024) shows four increases after Oct 2016 (last before 2024 was 1 Aug 2017), making the 2024 revision the first in **7 years and 2 months** (not 7 years). [confidence: high]
+- **"The October 2024 revision, a litigation settlement, was the first increase in seven years"** — Incorrect; PPAC’s table (posted 3 Dec 2024) shows four increases after Oct 2016 (last before 2024 was 1 Aug 2017), making the 2024 revision the first in **7 years and 2 months** (not "seven years"). [confidence: high]
 
 **INTERPRETATION ERRORS:**
-- **"The dealer got one rise in seven years, it was a litigation settlement, and in real terms it gave back less than half of what inflation had taken since 2017."**
-  The claim conflates the **fixed component** (revised in Oct 2024) with the **percentage-of-price component** (which grew with inflation). The fixed part alone restored ~40% of its 2017 value (in Dec 2025 ₹), but the percentage component offset some erosion. The article’s inflation-adjusted calculation excludes this offset, overstating the "loss." [confidence: high]
+- **"The dealer got one rise in seven years, it was a litigation settlement, and in real terms it gave back less than half of what inflation had taken since 2017"** — Misleading causal claim. The Rs 0.52/litre increase (Oct 2024) was a litigation settlement but unrelated to E20 (launched Feb 2023). Inflation erosion (45.3% since Aug 2017) is correctly noted, but the claim conflates the timing of the revision with E20’s impact, ignoring other factors (e.g., supply cuts, UPI fees) squeezing dealer margins. [confidence: high]
 
 **OUTDATED DATA:**
-- **"100,266 Fuel retail outlets at end-November 2025"** — PPAC’s latest outlet count (as of Oct 2026) shows **100,266 total outlets**, but the breakdown for private players (e.g., Nayara: 7,108 in Oct 2026 vs. 6,921 in Nov 2025) suggests the Nov 2025 figure may be outdated. Re-check: PPAC’s **annual outlet census** (likely FY26-27, released post-Oct 2026). [confidence: medium]
+- **"100,266 Fuel retail outlets at end-November 2025"** — PPAC’s latest outlet count (Nov 2025) is superseded by **Oct 2026 data** (e.g., Nayara: 7,108 outlets; Jio-bp: ~2,221). Re-check: [PPAC’s updated outlet data series](https://ppac.gov.in) for FY27 figures. [confidence: high]

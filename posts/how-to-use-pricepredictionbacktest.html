@@ -1,0 +1,290 @@
+<div class="artx htupricep">
+<style>
+/* ---- typography (gs-typo-unify-v1): keep in sync across all posts ---- */
+.htupricep{font-family:Georgia,'Times New Roman',serif;line-height:1.6;color:#111}
+.htupricep h1,.htupricep h2,.htupricep h3{line-height:1.3}
+
+/* ---- palette: define every colour as a custom property here. Do not add
+       raw hex elsewhere in a post's <style> block — reference these vars, so
+       a future palette change is a 4-line edit instead of a find-and-replace
+       across every post. ----
+   --ink     #111    body text, light-locked (see below)
+   --accent  #8a4b08  eyebrow text, h2 rule, table header bg, stat numbers —
+                       the one colour that carries this post's "brand"
+   --rule    #e8dcc4  hairline borders, h2 underline, table cell borders
+   --panel   #fdf7ec  stat-card bg, even table rows — the palette's one tint
+*/
+.htupricep{--ink:#111;--accent:#8a4b08;--rule:#e8dcc4;--panel:#fdf7ec;--good:#1a7a4c;--good-soft:#eaf6ef;--bad:#a5402c;--bad-soft:#fff4f0}
+
+/* ---- mono-label convention (added 2026-09-17, borrowed from the
+       india-trade-sector-policy-recommendations design system): the eyebrow
+       kicker and the source line read as data-journalism metadata, not
+       article prose, so they get a monospace face — a system stack, not a
+       hosted webfont, so no post gains an extra network request or a
+       flash-of-unstyled-text risk. Body text (h1/p/li/table) keeps the
+       serif — this is a two-place accent, not a font-pairing overhaul. ---- */
+.htupricep{--mono:ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace}
+
+/* ---- light lock (gs-light-lock): a dark Blogger theme (and a browser/OS
+       set to prefers-color-scheme:dark) must not repaint text. Re-assert
+       the same values with !important — verified 2026-08-14 across 5 live
+       posts with the browser's colour scheme forced to dark: body/h1/p/table
+       all stayed light-background/dark-text with no low-contrast pairs.
+       Do NOT add selectors here for panels that are meant to be dark —
+       those go in the guard below. ---- */
+.htupricep,.htupricep p,.htupricep li,.htupricep td,.htupricep th{color:var(--ink)!important}
+.htupricep{background:#fff!important}
+
+/* ---- structure: title + subtitle ----
+   .eyebrow    = the small-caps kicker ABOVE the h1 — "Section · Topic ·
+                 Subtopic", sets context before the reader hits the claim
+   h1          = the headline itself. Write it as the CLAIM, not the topic
+                 ("The Rouble Is the Outlier, Not the Dollar" beats
+                 "Currency Trends Update"). font-size 1.5rem is the deliberate
+                 site-wide size — do not bump it per-post.
+   .standfirst = the one/two-sentence SUBTITLE directly under the h1. This is
+                 also what Blogger's snippet extractor and the JSON-LD meta
+                 description both read (see the gs-head-order block below) —
+                 write it as a real, complete sentence a reader could act on,
+                 not a fragment.
+*/
+.htupricep .eyebrow{font-size:.8rem;font-weight:700;letter-spacing:.04em;color:var(--accent);text-transform:uppercase;margin:0 0 6px;font-family:var(--mono)}
+.htupricep h1{margin:0 0 10px;font-size:1.5rem}
+.htupricep .standfirst{font-size:1.05rem;color:#333!important;margin:0 0 18px}
+.htupricep .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px;margin:18px 0}
+.htupricep .stat{background:var(--panel);border:1px solid var(--rule);border-radius:10px;padding:12px 14px}
+.htupricep .stat b{display:block;font-size:1.2rem;color:var(--accent)}
+.htupricep .stat span{font-size:.8rem}
+.htupricep h2{color:var(--accent);border-bottom:2px solid var(--rule);padding-bottom:6px;margin-top:30px;font-size:1.15rem}
+
+/* ---- tables: units live in the header, cells carry bare numbers.
+       .tw is the mobile-overflow fix — see the MOBILE comment above. ---- */
+.htupricep .tw{overflow-x:auto}
+.htupricep table{width:100%;border-collapse:collapse;margin:14px 0;font-size:.88rem}
+.htupricep th,.htupricep td{border:1px solid var(--rule);padding:7px 9px;text-align:right;word-wrap:break-word;overflow-wrap:break-word}
+.htupricep th:first-child,.htupricep td:first-child{text-align:left}
+.htupricep th{background:var(--accent);color:#fff!important;font-weight:600}
+.htupricep tr:nth-child(even){background:var(--panel)}
+
+.htupricep .note{background:#eef4ff;border-left:4px solid #2a78d6;padding:12px 16px;margin:18px 0;border-radius:0 8px 8px 0;font-size:.93rem}
+.htupricep .warn{background:var(--bad-soft);border-left:4px solid var(--bad);padding:12px 16px;margin:18px 0;border-radius:0 8px 8px 0;font-size:.93rem}
+/* ---- .good (added 2026-09-17): third semantic tier alongside .note (neutral
+       framing) and .warn (a caveat/scope limit) — for the case a caveat block
+       would otherwise get stretched to cover: confirming a figure checked out,
+       a correction that resolved cleanly, a claim that survived cross-check.
+       Same shape as .note/.warn on purpose, so all three read as one family. */
+.htupricep .good{background:var(--good-soft);border-left:4px solid var(--good);padding:12px 16px;margin:18px 0;border-radius:0 8px 8px 0;font-size:.93rem}
+/* ---- .chip (added 2026-09-17): formalises a labelling pattern several posts
+       already built ad hoc in JS (e.g. "PLI coverage: strong/partial/gap")
+       into one reusable inline component, so a new post doesn't reinvent it.
+       Use inline: <span class="chip chip-good">Strong</span>. ---- */
+.htupricep .chip{display:inline-block;font-family:var(--mono);font-size:.72rem;font-weight:700;letter-spacing:.02em;padding:.15rem .5rem;border-radius:99px;line-height:1.5}
+.htupricep .chip-good{background:var(--good-soft);color:var(--good)}
+.htupricep .chip-warn{background:var(--panel);color:var(--accent)}
+.htupricep .chip-bad{background:var(--bad-soft);color:var(--bad)}
+.htupricep .src{font-size:.84rem;font-family:var(--mono);border-top:1px solid var(--rule);padding-top:12px;margin-top:24px}
+.htupricep .disclaimer{font-size:.82rem;color:#555;margin-top:10px}
+.htupricep .revised{font-size:.8rem;color:#555!important;margin:0 0 14px}
+.htupricep .revised code{font-family:inherit;background:var(--panel);padding:1px 5px;border-radius:4px}
+</style>
+
+
+<div class="gs-head-order" style="display:flex;flex-direction:column">
+<p class="standfirst" style="order:4">price_prediction_backtest scores Markov, Kalman and LSTM/GRU next-day forecasters against naive baselines, and replays Darvas-style breakouts gated by market regime across five markets. Not investment advice; research code on historical data with no trading costs.</p>
+<div class="topnav-index-link" style="order:1;font-size:.82em;margin:6px 0 14px"><a href="https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html" style="color:#0b5394;text-decoration:none">&#8592; All Articles (Index)</a></div>
+<p class="eyebrow" style="order:2">Open-Source Tools · How-To · Markets research</p>
+<h1 style="order:3">How to use price_prediction_backtest: honest walk-forward tests of price-prediction models</h1>
+</div>
+
+
+<a href="#" id="gs-skip-link" class="gs-skip-link" style="position:absolute;left:-9999px;top:auto;background:#1a1a1a;color:#fff;padding:.6rem 1rem;z-index:1000;border-radius:4px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.85rem">Skip to article content</a>
+<style>.gs-skip-link:focus{left:8px!important;top:8px!important}
+.gs-a11y-bar{display:flex;align-items:center;gap:.55rem;flex-wrap:wrap;background:#f4f5f7;border:1px solid #dfe3e8;border-radius:8px;padding:.55rem .8rem;margin:10px 0 16px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
+.gs-a11y-bar .gs-a11y-label{font-size:.68rem;font-weight:700;letter-spacing:.08em;color:#666;text-transform:uppercase;margin-right:.15rem}
+.gs-a11y-bar button{cursor:pointer;border:1px solid #c7cbd1;background:#fff;color:#1a1a1a;border-radius:5px;padding:.32rem .65rem;font-family:inherit;line-height:1}
+.gs-a11y-bar button.gs-a11y-fs{font-weight:700;min-width:2rem;text-align:center}
+.gs-a11y-bar button.gs-a11y-fs[data-size="sm"]{font-size:.8rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="md"]{font-size:1rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="lg"]{font-size:1.2rem}
+.gs-a11y-bar button.gs-a11y-fs[aria-pressed="true"]{background:#1a1a1a;color:#fff;border-color:#1a1a1a}
+.gs-a11y-bar button:hover{border-color:#8a4b08}
+.gs-a11y-bar button:focus-visible{outline:2px solid #8a4b08;outline-offset:1px}
+.gs-a11y-bar .gs-a11y-sep{width:1px;align-self:stretch;background:#dfe3e8;margin:0 .1rem}</style>
+<div class="gs-a11y-bar" role="group" aria-label="Accessibility controls">
+<span class="gs-a11y-label">Text Size</span>
+<button type="button" class="gs-a11y-fs" data-size="sm" aria-pressed="false" aria-label="Small text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="md" aria-pressed="true" aria-label="Medium text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="lg" aria-pressed="false" aria-label="Large text">A</button>
+<span class="gs-a11y-sep"></span>
+<button type="button" id="gs-a11y-listen" aria-label="Read this article aloud">&#128266; Listen</button>
+<button type="button" id="gs-a11y-stop" aria-label="Stop reading aloud">&#9632; Stop</button>
+</div>
+<script>(function(){
+var KEY='gs-a11y-fontsize', SIZES={sm:'0.92',md:'1',lg:'1.15'};
+function pb(){return document.querySelector('.post-body')||document.querySelector('.artx,.mdrx');}
+function apply(sz){
+  var el=pb(); if(!el||!SIZES[sz]) return;
+  el.style.fontSize=SIZES[sz]+'em';
+  var btns=document.querySelectorAll('.gs-a11y-fs');
+  for(var i=0;i<btns.length;i++){
+    var on=btns[i].getAttribute('data-size')===sz;
+    btns[i].setAttribute('aria-pressed', on?'true':'false');
+  }
+  try{localStorage.setItem(KEY,sz);}catch(e){}
+}
+var fsBtns=document.querySelectorAll('.gs-a11y-fs');
+for(var j=0;j<fsBtns.length;j++){
+  fsBtns[j].addEventListener('click',(function(b){return function(){apply(b.getAttribute('data-size'));};})(fsBtns[j]));
+}
+var saved; try{saved=localStorage.getItem(KEY);}catch(e){}
+apply(saved&&SIZES[saved]?saved:'md');
+
+var listenBtn=document.getElementById('gs-a11y-listen'), stopBtn=document.getElementById('gs-a11y-stop');
+if(listenBtn){
+  listenBtn.addEventListener('click', function(){
+    if(!('speechSynthesis' in window)){ alert('Text-to-speech is not supported in this browser.'); return; }
+    window.speechSynthesis.cancel();
+    var src=pb(); if(!src) return;
+    var clone=src.cloneNode(true);
+    var strip=clone.querySelectorAll('script,style,svg');
+    for(var k=0;k<strip.length;k++){ strip[k].parentNode.removeChild(strip[k]); }
+    var text=clone.textContent.replace(/\s+/g,' ').trim();
+    if(!text) return;
+    var chunks=text.match(/[\s\S]{1,180}(?:[.!?]|$)/g)||[text];
+    var idx=0;
+    function speakNext(){
+      if(idx>=chunks.length) return;
+      var u=new SpeechSynthesisUtterance(chunks[idx]);
+      u.onend=function(){ idx++; speakNext(); };
+      window.speechSynthesis.speak(u);
+    }
+    speakNext();
+  });
+}
+if(stopBtn){
+  stopBtn.addEventListener('click', function(){
+    if('speechSynthesis' in window) window.speechSynthesis.cancel();
+  });
+}
+var skip=document.getElementById('gs-skip-link');
+if(skip){
+  skip.addEventListener('click', function(ev){
+    ev.preventDefault();
+    var h=document.querySelector('.post-body h1')||document.querySelector('.artx h1,.mdrx h1,h1');
+    if(h){ h.setAttribute('tabindex','-1'); h.focus(); h.scrollIntoView(); }
+  });
+}
+})();</script>
+<style>.goog-te-menu-frame{max-width:340px!important;max-height:70vh!important;overflow:auto!important;box-shadow:0 6px 24px rgba(0,0,0,.25)!important}</style>
+<div id="google_translate_element" style="margin:8px 0 16px;"></div><script type="text/javascript">function googleTranslateElementInit(){new google.translate.TranslateElement({pageLanguage:"en",includedLanguages:"hi,bn,ta,te,mr,gu,kn,ml,pa,or,as,ur,sa,ne,sd",layout:google.translate.TranslateElement.InlineLayout.SIMPLE,autoDisplay:false},"google_translate_element");}</script><script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+
+<p class="revised" data-gs-revision-v1="1">Revised
+<time datetime="2026-10-23" itemprop="dateModified">23 October 2026</time>
+&middot; <code>v1.0.0</code> &middot; <a href="#changelog">what changed</a></p>
+
+<style>.htupricep pre{background:#f6f3ea!important;color:#111!important;border:1px solid var(--rule);border-radius:8px;padding:10px 12px;overflow-x:auto;font-size:.82rem;line-height:1.45}.htupricep pre code{background:none!important;color:#111!important;font-family:var(--mono)}.htupricep code{font-family:var(--mono);font-size:.88em}.htupricep .vid{position:relative;padding-bottom:56.25%;height:0;margin:16px 0;max-width:100%}.htupricep .vid iframe{position:absolute;inset:0;width:100%;height:100%;border:0}</style><div class="stats"><div class="stat"><b>109,127</b><span>US replay signals re-run (Sep 2016 to 21 Oct 2026)</span></div><div class="stat"><b>0.528</b><span>Markov directional accuracy vs 0.524 always-long (US, 20 symbols, re-run)</span></div><div class="stat"><b>0.74</b><span>Markov Sharpe vs 0.74 buy and hold, no costs (re-run)</span></div><div class="stat"><b>+1.66%</b><span>India breakout-buy bull-regime 21-day excess (t 14.7; was +2.08%)</span></div></div>
+<p>Code: <a href="https://github.com/herrrickshaw/price_prediction_backtest">github.com/herrrickshaw/price_prediction_backtest</a></p>
+<h2>Watch the walkthrough</h2>
+<div class="vid"><iframe src="https://www.youtube.com/embed/j0PlXFm9FTs" title="How to use price_prediction_backtest: honest walk-forward tests of price-prediction models" allowfullscreen loading="lazy"></iframe></div><p>Watch on YouTube: <a href="https://youtu.be/j0PlXFm9FTs">youtu.be/j0PlXFm9FTs</a></p>
+<h2>Why it is useful</h2>
+<ul><li>Who benefits: quant students and independent researchers who want a template for scoring forecasts against baselines instead of trusting accuracy numbers.</li><li>What it replaces: ad hoc notebooks that compare a model only with itself; here every model faces naive-zero, yesterday and historical-mean baselines.</li><li>Evidence from the run: the replay and the full model harness were both re-run from scratch on a local copy of the author&#x27;s price warehouse (last session 21 October 2026 for the US, 22 October for India). On this fresh data, breakout-buy in a bull regime earned +0.66% (US) and +1.66% (India) over 21 days; the committed files said +0.66% and +2.08%.</li><li>Evidence from the run: the replay and the full model harness were both re-run from scratch on a local copy of the author&#x27;s price warehouse (last session 21 October 2026 for the US, 22 October for India). On this fresh data, breakout-buy in a bull regime earned +0.66% (US) and +1.66% (India) over 21 days; the committed files said +0.66% and +2.08%.</li></ul>
+<h2>What it is for</h2>
+<p>The repo has two parts. First, a walk-forward harness for three model families (a Markov regime chain, a Kalman trend filter, and LSTM/GRU nets) that forecast next-day returns and are scored on directional accuracy, RMSE and a frictionless long/short Sharpe against baselines.</p>
+<p>Second, replay.py replays Darvas-style breakout and breakdown signals over ten-year panels for US, India, Japan, Korea and China, labels the market regime point-in-time, and reports excess returns versus the market median with t-statistics clustered by date.</p>
+<p>The repo&#x27;s conclusion is modest: daily large-cap returns are close to unpredictable, and the Markov layer is useful as a regime gate rather than a forecaster.</p>
+<p>In this refresh I re-ran both parts from scratch on 23 October 2026: the model harness (including LSTM and GRU with PyTorch) and the replay, on panels rebuilt from a local copy of the author&#x27;s price warehouse, then compared them with the committed results.</p>
+<p><b>Who it is for</b></p>
+<ul><li>Students and researchers learning walk-forward evaluation and honest baselines</li><li>Developers who want a regime-gate template for breakout signals</li><li>Anyone checking whether a price-prediction claim survives costs and baselines</li></ul>
+<div class="warn"><b>Not for.</b><ul><li>Investment advice or trade signals. Not investment advice.</li><li>Live trading: P&amp;L is frictionless and daily sign-flipping would be eaten by real costs</li><li>Trusting t-statistics at face value: the repo itself says overlapping 21-day windows make them optimistic</li></ul></div>
+<h2>What you need</h2>
+<div class="tw"><table><tr><th>Requirement</th><th>Why</th><th>How to get it</th></tr><tr><td>Python 3 with pandas, numpy, pyarrow</td><td>to run the stats on the committed result files</td><td>python3 -m venv .venv &amp;&amp; pip install pandas numpy pyarrow</td></tr><tr><td>PyTorch</td><td>only for the LSTM/GRU models; requirements.txt lists it</td><td>pip install torch (installed and used for the re-run; the LSTM/GRU part makes the full run slow, see limits)</td></tr><tr><td>Ten-year OHLCV panels</td><td>the full harness reads LTM_DIR/&lt;MARKET&gt;.parquet (columns Date, Symbol, Open, High, Low, Close, Volume); the panels are not shipped here</td><td>build them from your own price source and set LTM_DIR; I built them from a local copy of the author&#x27;s warehouse</td></tr></table></div>
+<h2>Get the code and an AI assistant</h2>
+<p>You do not have to be a programmer. Get the repository, give it to an AI assistant, and ask in plain language. Any of these routes works:</p>
+<div class="tw"><table><tr><th>Tool</th><th>What you need</th><th>Best for</th></tr><tr><td><b>GitHub</b></td><td>Free account to fork or star; <code>git</code> to clone, or the green <b>Code</b> button, then <b>Download ZIP</b>, or open in <b>Codespaces</b></td><td>Getting the code and keeping up with updates</td></tr><tr><td><b>Claude Code</b></td><td>Claude subscription or API key; run <code>claude</code> inside the cloned folder</td><td>Letting the AI read and run the whole repo</td></tr><tr><td><b>Gemini CLI</b></td><td>Google account; run <code>gemini</code> inside the cloned folder</td><td>The same hands-on workflow with Gemini</td></tr><tr><td><b>Claude.ai, Gemini or ChatGPT in the browser</b></td><td>A chat account; upload <code>README.md</code> and the files you care about (or paste the output of <code>git ls-files</code>)</td><td>Understanding the project and asking questions without installing anything</td></tr><tr><td><b>Other tools</b> (Copilot Chat, Cursor, Codex CLI)</td><td>Open the cloned folder in the tool and point it at <code>README.md</code> first</td><td>Editing and extending the code</td></tr></table></div>
+<pre><code>git clone https://github.com/herrrickshaw/price_prediction_backtest.git
+cd price_prediction_backtest
+claude      # or: gemini</code></pre>
+<h2>Install</h2><ol><li>Clone the repo and install the light dependencies.<pre><code>git clone https://github.com/herrrickshaw/price_prediction_backtest.git
+cd price_prediction_backtest
+python3 -m venv .venv &amp;&amp; source .venv/bin/activate
+pip install pandas numpy pyarrow</code></pre></li></ol>
+<h2>Quick start: commands and what you should see</h2>
+<p><b>Re-run the repo&#x27;s regime statistics on the committed US signals.</b></p>
+<pre><code>PYTHONPATH=. python3 - &lt;&lt;&#x27;X&#x27;
+import pandas as pd
+from price_prediction.replay import clustered_stats
+s=pd.read_parquet(&#x27;reports/replay_signals_us.parquet&#x27;)
+print(len(s), s.Date.min().date(), s.Date.max().date(), s.Symbol.nunique())
+print(clustered_stats(s,21,[&#x27;signal&#x27;,&#x27;trend&#x27;]).to_string())
+X</code></pre>
+<p>On the committed file: 110,852 signals from 2016-09-15 to 2026-07-17 across 1,000 symbols, then the table shown in the sample outputs. With panels rebuilt to 21 Oct 2026 and `python -m price_prediction.replay --market US`, the same function gave 109,127 signals.</p>
+<p><b>Summarise the model comparison.</b></p>
+<pre><code>python3 -c &quot;import pandas as pd; d=pd.read_csv(&#x27;reports/price_prediction_us.csv&#x27;); print(d.groupby(&#x27;model&#x27;)[[&#x27;dir_acc&#x27;,&#x27;strat_sharpe&#x27;,&#x27;bh_sharpe&#x27;]].mean().round(3))&quot;</code></pre>
+<p>One row per model averaged over the 20 US symbols.</p>
+<p><b>Full walk-forward run (needs panels and torch).</b></p>
+<pre><code>python -m price_prediction --market US --top 20 --test-days 500</code></pre>
+<p>Ran on 23 October 2026 against panels rebuilt from the warehouse: 20 symbols, 499 scored out-of-sample days each, about 15 minutes on a laptop CPU (the LSTM and GRU refits dominate).</p>
+<h2>Sample outputs</h2><p>Real output from a run on the date shown in the sources line; trimmed to fit.</p>
+<p><b>Model comparison, US top 20, 500 out-of-sample days ending 21 Oct 2026 (fresh run of python -m price_prediction)</b></p>
+<pre><code>python -m price_prediction --market US --top 20 --test-days 500
+                dir_acc  strat_sharpe  bh_sharpe
+model
+naive_zero        0.524         0.738      0.738
+markov            0.528         0.736      0.738
+naive_histmean    0.525         0.707      0.738
+gru               0.514         0.202      0.738
+kalman            0.504         0.160      0.738
+naive_yesterday   0.502        -0.119      0.738
+lstm              0.507        -0.153      0.738</code></pre>
+<p>Same conclusion as the committed run (no model beats buy and hold before costs), with slightly different numbers because the window moved three months and the panel was rebuilt. Universe: SPY, TSLA, QQQ, AMZN, NVDA, MSFT, META, AMD, GOOGL, GOOG, NFLX, BABA, BAC, JPM, V, BA, MU, GLD, INTC, XOM (it includes ETFs). Committed run for comparison: markov 0.532 / 0.630, naive zero 0.692.</p>
+<p><b>United States: 21-day excess return by signal and trend regime (fresh replay, data to 21 Oct 2026)</b></p>
+<pre><code>python -m price_prediction.replay --market US
+                      n_signals  n_dates  mean_excess_%  t_clustered  hit_%
+signal         trend
+BREAKDOWN_SELL bear       14863      399           1.40         1.77  53.45
+               bull       22166     1782          -0.00        -0.01  49.68
+               chop        2981      110           0.04         0.04  48.71
+BREAKOUT_BUY   bear        4858      380          -0.95        -2.12  46.58
+               bull       59837     1905           0.66         5.22  50.37
+               chop        2236      111           1.21         1.15  46.82</code></pre>
+<p>Almost unchanged from the committed table (bull-regime breakouts +0.66%, t 5.7 then and 5.2 now). Breakouts earn positive excess only in bull regimes.</p>
+<p><b>India: same table (fresh replay, adjusted prices, data to 22 Oct 2026)</b></p>
+<pre><code>python -m price_prediction.replay --market IN
+                      n_signals  n_dates  mean_excess_%  t_clustered  hit_%
+signal         trend
+BREAKDOWN_SELL bear       13269      534           0.96         3.49  52.38
+               bull       13388     1475           0.35         1.84  49.31
+               chop        2537      127           0.13         0.22  49.70
+BREAKOUT_BUY   bear        3834      504           0.17         0.49  47.08
+               bull       27678     1763           1.66        14.69  50.85
+               chop        1315      131           0.96         2.00  48.75</code></pre>
+<p>The bull-regime breakout edge is smaller than the README headline (+1.66%, t 14.7 versus +2.08%, t 17.6). This panel uses split-adjusted prices (the repo recommends adjusted series for India) and a different universe (989 versus 1,000 names), so it is not a like-for-like data change. Overlapping windows make the t-values optimistic.</p>
+<p><b>Other markets: bull-regime breakout-buy, 21-day excess, old committed signals versus fresh replay</b></p>
+<pre><code>clustered_stats(signals, 21, [&#x27;signal&#x27;,&#x27;trend&#x27;])
+market  old mean% (t)     new mean% (t)     data ends
+US      +0.66 (5.72)      +0.66 (5.22)      21 Oct 2026
+IN      +2.08 (17.58)     +1.66 (14.69)     22 Oct 2026
+JP      +0.80 (8.49)      +0.69 (7.32)      21 Oct 2026
+KR      +3.54 (15.88)     +3.68 (16.30)     21 Oct 2026
+CN      +2.77 (14.05)     +2.77 (14.05)     1 Jul 2026 (stale, identical)</code></pre>
+<p>Overlapping windows, frictionless, no costs. China&#x27;s panel stops on 1 July 2026, so its numbers did not change.</p>
+<h2>Ways to use it</h2>
+<div class="tw"><table><tr><th>Method</th><th>How it works</th></tr><tr><td>Read the results</td><td>README, docs/HISTORICAL_REPLAY.md and docs/ACCURACY_RELIABILITY_MATRIX.md summarise findings across markets.</td></tr><tr><td>Re-aggregate signals</td><td>Load reports/replay_signals_&lt;market&gt;.parquet and call clustered_stats with your own groupings.</td></tr><tr><td>Bring your own panel</td><td>Point LTM_DIR at your own &lt;MARKET&gt;.parquet files (Date, Symbol, OHLCV) and run the harness.</td></tr><tr><td>Via an AI assistant</td><td>Ask an assistant to explain the protocol and audit the caveats before you extend it.</td></tr></table></div>
+<h2>Sample prompts for your AI assistant</h2><p>Copy, paste and edit the parts in [brackets].</p>
+<ul><li>Read README.md and price_prediction/README.md and explain in plain English how the walk-forward protocol avoids lookahead.</li><li>Using reports/replay_signals_jp.parquet and clustered_stats, summarise 21-day excess return by signal and trend for Japan and compare with the US table.</li><li>Explain why date-clustered t-statistics are still optimistic when forward windows overlap, using docs/HISTORICAL_REPLAY.md.</li><li>Which caveats in the repo would most change the conclusions if fixed (universe lookahead, costs, raw close)? Rank them.</li><li>Write a small script that adds a transaction-cost assumption to the Sharpe calculation and shows how fast the Markov edge disappears.</li><li>Suggest a fair test to see whether the bull-regime gate improves a simple momentum rule, given only the committed files.</li></ul>
+<h2>Limits and honest caveats</h2>
+<div class="warn"><ul><li>Not investment advice. Research code on historical data; P&amp;L is frictionless and ignores costs, slippage and borrow.</li><li>Universe membership uses full-sample dollar volume, a mild lookahead the repo documents. The top-20 US universe includes ETFs (SPY, QQQ, GLD).</li><li>Overlapping 21-day windows make the clustered t-statistics optimistic, as the repo says.</li><li>Data was rebuilt from a local warehouse copy, not the repo&#x27;s own ten-year panels, which are not available. Recent warehouse days with only a few symbols (16 US days dropped) were removed before running, and India used split-adjusted prices, so differences from the committed tables mix data and universe changes. China&#x27;s data ends 1 July 2026.</li><li>The full model harness did run, but it is slow: about 15 minutes for 20 symbols on a CPU with LSTM and GRU refits. The LSTM and GRU numbers come from a single run with one random initialisation, so small differences between them are not meaningful.</li><li>Passing seq_models={} to evaluate_symbol does not skip the neural nets (an empty dict is treated as &#x27;use defaults&#x27;); a one-line patch is recorded in the status notes. The repo was not changed.</li><li>The repo recommends adjusted series for India because of raw-close split risk.</li></ul></div>
+<p class="src">Sources: Ran python -m price_prediction (US, top 20, 500 test days) and python -m price_prediction.replay (US, IN, JP, KR, CN) on 23 October 2026 from a scratch clone (commit 175d140 of github.com/herrrickshaw/price_prediction_backtest) in a throwaway virtualenv with torch, pointing LTM_DIR at panels rebuilt from a local copy of the author&#x27;s OHLCV warehouse (last sessions: US, JP, KR 21 Oct 2026; IN 22 Oct 2026; CN 1 Jul 2026). Prices behind the signals are public-market data; only derived aggregates shown. The GitHub repo was not modified.</p>
+<div id="changelog" class="note">
+<b>Revision history.</b>
+<ul>
+<li><b>v1.0.0</b> &mdash; 23 October 2026 &mdash; first published.</li>
+</ul>
+</div>
+
+
+<style>/* gs-light-lock-v1 */.htupricep{--ink:#111!important;--accent:#8a4b08!important;--rule:#e8dcc4!important;--panel:#fdf7ec!important;--good:#1a7a4c!important;--good-soft:#eaf6ef!important;--bad:#a5402c!important;--bad-soft:#fff4f0!important}</style>
+<p class="disclaimer" data-gs-ai-disclosure-v1="1"><strong>About this article:</strong> Researched, written and edited by Umashankar Triplicane Dwarakanathan, with AI research assistance; every figure is meant to trace to the primary source cited. See the <a href="https://masaladeutsch.blogspot.com/p/disclaimer.html">Editorial Policy</a> for how sourcing, AI use and corrections work.</p>
+
+</div>

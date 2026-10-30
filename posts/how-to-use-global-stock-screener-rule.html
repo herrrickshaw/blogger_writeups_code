@@ -1,0 +1,240 @@
+<div class="artx htustockm">
+<style>
+/* ---- typography (gs-typo-unify-v1): keep in sync across all posts ---- */
+.htustockm{font-family:Georgia,'Times New Roman',serif;line-height:1.6;color:#111}
+.htustockm h1,.htustockm h2,.htustockm h3{line-height:1.3}
+
+/* ---- palette: define every colour as a custom property here. Do not add
+       raw hex elsewhere in a post's <style> block — reference these vars, so
+       a future palette change is a 4-line edit instead of a find-and-replace
+       across every post. ----
+   --ink     #111    body text, light-locked (see below)
+   --accent  #8a4b08  eyebrow text, h2 rule, table header bg, stat numbers —
+                       the one colour that carries this post's "brand"
+   --rule    #e8dcc4  hairline borders, h2 underline, table cell borders
+   --panel   #fdf7ec  stat-card bg, even table rows — the palette's one tint
+*/
+.htustockm{--ink:#111;--accent:#8a4b08;--rule:#e8dcc4;--panel:#fdf7ec;--good:#1a7a4c;--good-soft:#eaf6ef;--bad:#a5402c;--bad-soft:#fff4f0}
+
+/* ---- mono-label convention (added 2026-09-17, borrowed from the
+       india-trade-sector-policy-recommendations design system): the eyebrow
+       kicker and the source line read as data-journalism metadata, not
+       article prose, so they get a monospace face — a system stack, not a
+       hosted webfont, so no post gains an extra network request or a
+       flash-of-unstyled-text risk. Body text (h1/p/li/table) keeps the
+       serif — this is a two-place accent, not a font-pairing overhaul. ---- */
+.htustockm{--mono:ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace}
+
+/* ---- light lock (gs-light-lock): a dark Blogger theme (and a browser/OS
+       set to prefers-color-scheme:dark) must not repaint text. Re-assert
+       the same values with !important — verified 2026-08-14 across 5 live
+       posts with the browser's colour scheme forced to dark: body/h1/p/table
+       all stayed light-background/dark-text with no low-contrast pairs.
+       Do NOT add selectors here for panels that are meant to be dark —
+       those go in the guard below. ---- */
+.htustockm,.htustockm p,.htustockm li,.htustockm td,.htustockm th{color:var(--ink)!important}
+.htustockm{background:#fff!important}
+
+/* ---- structure: title + subtitle ----
+   .eyebrow    = the small-caps kicker ABOVE the h1 — "Section · Topic ·
+                 Subtopic", sets context before the reader hits the claim
+   h1          = the headline itself. Write it as the CLAIM, not the topic
+                 ("The Rouble Is the Outlier, Not the Dollar" beats
+                 "Currency Trends Update"). font-size 1.5rem is the deliberate
+                 site-wide size — do not bump it per-post.
+   .standfirst = the one/two-sentence SUBTITLE directly under the h1. This is
+                 also what Blogger's snippet extractor and the JSON-LD meta
+                 description both read (see the gs-head-order block below) —
+                 write it as a real, complete sentence a reader could act on,
+                 not a fragment.
+*/
+.htustockm .eyebrow{font-size:.8rem;font-weight:700;letter-spacing:.04em;color:var(--accent);text-transform:uppercase;margin:0 0 6px;font-family:var(--mono)}
+.htustockm h1{margin:0 0 10px;font-size:1.5rem}
+.htustockm .standfirst{font-size:1.05rem;color:#333!important;margin:0 0 18px}
+.htustockm .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px;margin:18px 0}
+.htustockm .stat{background:var(--panel);border:1px solid var(--rule);border-radius:10px;padding:12px 14px}
+.htustockm .stat b{display:block;font-size:1.2rem;color:var(--accent)}
+.htustockm .stat span{font-size:.8rem}
+.htustockm h2{color:var(--accent);border-bottom:2px solid var(--rule);padding-bottom:6px;margin-top:30px;font-size:1.15rem}
+
+/* ---- tables: units live in the header, cells carry bare numbers.
+       .tw is the mobile-overflow fix — see the MOBILE comment above. ---- */
+.htustockm .tw{overflow-x:auto}
+.htustockm table{width:100%;border-collapse:collapse;margin:14px 0;font-size:.88rem}
+.htustockm th,.htustockm td{border:1px solid var(--rule);padding:7px 9px;text-align:right;word-wrap:break-word;overflow-wrap:break-word}
+.htustockm th:first-child,.htustockm td:first-child{text-align:left}
+.htustockm th{background:var(--accent);color:#fff!important;font-weight:600}
+.htustockm tr:nth-child(even){background:var(--panel)}
+
+.htustockm .note{background:#eef4ff;border-left:4px solid #2a78d6;padding:12px 16px;margin:18px 0;border-radius:0 8px 8px 0;font-size:.93rem}
+.htustockm .warn{background:var(--bad-soft);border-left:4px solid var(--bad);padding:12px 16px;margin:18px 0;border-radius:0 8px 8px 0;font-size:.93rem}
+/* ---- .good (added 2026-09-17): third semantic tier alongside .note (neutral
+       framing) and .warn (a caveat/scope limit) — for the case a caveat block
+       would otherwise get stretched to cover: confirming a figure checked out,
+       a correction that resolved cleanly, a claim that survived cross-check.
+       Same shape as .note/.warn on purpose, so all three read as one family. */
+.htustockm .good{background:var(--good-soft);border-left:4px solid var(--good);padding:12px 16px;margin:18px 0;border-radius:0 8px 8px 0;font-size:.93rem}
+/* ---- .chip (added 2026-09-17): formalises a labelling pattern several posts
+       already built ad hoc in JS (e.g. "PLI coverage: strong/partial/gap")
+       into one reusable inline component, so a new post doesn't reinvent it.
+       Use inline: <span class="chip chip-good">Strong</span>. ---- */
+.htustockm .chip{display:inline-block;font-family:var(--mono);font-size:.72rem;font-weight:700;letter-spacing:.02em;padding:.15rem .5rem;border-radius:99px;line-height:1.5}
+.htustockm .chip-good{background:var(--good-soft);color:var(--good)}
+.htustockm .chip-warn{background:var(--panel);color:var(--accent)}
+.htustockm .chip-bad{background:var(--bad-soft);color:var(--bad)}
+.htustockm .src{font-size:.84rem;font-family:var(--mono);border-top:1px solid var(--rule);padding-top:12px;margin-top:24px}
+.htustockm .disclaimer{font-size:.82rem;color:#555;margin-top:10px}
+.htustockm .revised{font-size:.8rem;color:#555!important;margin:0 0 14px}
+.htustockm .revised code{font-family:inherit;background:var(--panel);padding:1px 5px;border-radius:4px}
+</style>
+
+
+<div class="gs-head-order" style="display:flex;flex-direction:column">
+<p class="standfirst" style="order:4">Run Darvas breakout, Piotroski F-Score and Coffee Can screens on a year of cached prices from 20 markets, with no API keys.</p>
+<div class="topnav-index-link" style="order:1;font-size:.82em;margin:6px 0 14px"><a href="https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html" style="color:#0b5394;text-decoration:none">&#8592; All Articles (Index)</a></div>
+<p class="eyebrow" style="order:2">Open-source tools · How-to · Equity screening</p>
+<h1 style="order:3">How to use global-stock-screener: rule-based stock screens, offline</h1>
+</div>
+
+
+<a href="#" id="gs-skip-link" class="gs-skip-link" style="position:absolute;left:-9999px;top:auto;background:#1a1a1a;color:#fff;padding:.6rem 1rem;z-index:1000;border-radius:4px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.85rem">Skip to article content</a>
+<style>.gs-skip-link:focus{left:8px!important;top:8px!important}
+.gs-a11y-bar{display:flex;align-items:center;gap:.55rem;flex-wrap:wrap;background:#f4f5f7;border:1px solid #dfe3e8;border-radius:8px;padding:.55rem .8rem;margin:10px 0 16px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
+.gs-a11y-bar .gs-a11y-label{font-size:.68rem;font-weight:700;letter-spacing:.08em;color:#666;text-transform:uppercase;margin-right:.15rem}
+.gs-a11y-bar button{cursor:pointer;border:1px solid #c7cbd1;background:#fff;color:#1a1a1a;border-radius:5px;padding:.32rem .65rem;font-family:inherit;line-height:1}
+.gs-a11y-bar button.gs-a11y-fs{font-weight:700;min-width:2rem;text-align:center}
+.gs-a11y-bar button.gs-a11y-fs[data-size="sm"]{font-size:.8rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="md"]{font-size:1rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="lg"]{font-size:1.2rem}
+.gs-a11y-bar button.gs-a11y-fs[aria-pressed="true"]{background:#1a1a1a;color:#fff;border-color:#1a1a1a}
+.gs-a11y-bar button:hover{border-color:#8a4b08}
+.gs-a11y-bar button:focus-visible{outline:2px solid #8a4b08;outline-offset:1px}
+.gs-a11y-bar .gs-a11y-sep{width:1px;align-self:stretch;background:#dfe3e8;margin:0 .1rem}</style>
+<div class="gs-a11y-bar" role="group" aria-label="Accessibility controls">
+<span class="gs-a11y-label">Text Size</span>
+<button type="button" class="gs-a11y-fs" data-size="sm" aria-pressed="false" aria-label="Small text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="md" aria-pressed="true" aria-label="Medium text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="lg" aria-pressed="false" aria-label="Large text">A</button>
+<span class="gs-a11y-sep"></span>
+<button type="button" id="gs-a11y-listen" aria-label="Read this article aloud">&#128266; Listen</button>
+<button type="button" id="gs-a11y-stop" aria-label="Stop reading aloud">&#9632; Stop</button>
+</div>
+<script>(function(){
+var KEY='gs-a11y-fontsize', SIZES={sm:'0.92',md:'1',lg:'1.15'};
+function pb(){return document.querySelector('.post-body')||document.querySelector('.artx,.mdrx');}
+function apply(sz){
+  var el=pb(); if(!el||!SIZES[sz]) return;
+  el.style.fontSize=SIZES[sz]+'em';
+  var btns=document.querySelectorAll('.gs-a11y-fs');
+  for(var i=0;i<btns.length;i++){
+    var on=btns[i].getAttribute('data-size')===sz;
+    btns[i].setAttribute('aria-pressed', on?'true':'false');
+  }
+  try{localStorage.setItem(KEY,sz);}catch(e){}
+}
+var fsBtns=document.querySelectorAll('.gs-a11y-fs');
+for(var j=0;j<fsBtns.length;j++){
+  fsBtns[j].addEventListener('click',(function(b){return function(){apply(b.getAttribute('data-size'));};})(fsBtns[j]));
+}
+var saved; try{saved=localStorage.getItem(KEY);}catch(e){}
+apply(saved&&SIZES[saved]?saved:'md');
+
+var listenBtn=document.getElementById('gs-a11y-listen'), stopBtn=document.getElementById('gs-a11y-stop');
+if(listenBtn){
+  listenBtn.addEventListener('click', function(){
+    if(!('speechSynthesis' in window)){ alert('Text-to-speech is not supported in this browser.'); return; }
+    window.speechSynthesis.cancel();
+    var src=pb(); if(!src) return;
+    var clone=src.cloneNode(true);
+    var strip=clone.querySelectorAll('script,style,svg');
+    for(var k=0;k<strip.length;k++){ strip[k].parentNode.removeChild(strip[k]); }
+    var text=clone.textContent.replace(/\s+/g,' ').trim();
+    if(!text) return;
+    var chunks=text.match(/[\s\S]{1,180}(?:[.!?]|$)/g)||[text];
+    var idx=0;
+    function speakNext(){
+      if(idx>=chunks.length) return;
+      var u=new SpeechSynthesisUtterance(chunks[idx]);
+      u.onend=function(){ idx++; speakNext(); };
+      window.speechSynthesis.speak(u);
+    }
+    speakNext();
+  });
+}
+if(stopBtn){
+  stopBtn.addEventListener('click', function(){
+    if('speechSynthesis' in window) window.speechSynthesis.cancel();
+  });
+}
+var skip=document.getElementById('gs-skip-link');
+if(skip){
+  skip.addEventListener('click', function(ev){
+    ev.preventDefault();
+    var h=document.querySelector('.post-body h1')||document.querySelector('.artx h1,.mdrx h1,h1');
+    if(h){ h.setAttribute('tabindex','-1'); h.focus(); h.scrollIntoView(); }
+  });
+}
+})();</script>
+<style>.goog-te-menu-frame{max-width:340px!important;max-height:70vh!important;overflow:auto!important;box-shadow:0 6px 24px rgba(0,0,0,.25)!important}</style>
+<div id="google_translate_element" style="margin:8px 0 16px;"></div><script type="text/javascript">function googleTranslateElementInit(){new google.translate.TranslateElement({pageLanguage:"en",includedLanguages:"hi,bn,ta,te,mr,gu,kn,ml,pa,or,as,ur,sa,ne,sd",layout:google.translate.TranslateElement.InlineLayout.SIMPLE,autoDisplay:false},"google_translate_element");}</script><script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+
+<p class="revised" data-gs-revision-v1="1">Revised
+<time datetime="2026-10-18" itemprop="dateModified">18 October 2026</time>
+&middot; <code>v1.0.0</code> &middot; <a href="#changelog">what changed</a></p>
+
+<style>.htustockm pre{background:#f6f3ea!important;color:#111!important;border:1px solid var(--rule);border-radius:8px;padding:10px 12px;overflow-x:auto;font-size:.82rem;line-height:1.45}.htustockm pre code{background:none!important;color:#111!important;font-family:var(--mono)}.htustockm code{font-family:var(--mono);font-size:.88em}.htustockm .vid{position:relative;padding-bottom:56.25%;height:0;margin:16px 0;max-width:100%}.htustockm .vid iframe{position:absolute;inset:0;width:100%;height:100%;border:0}</style><div class="stats"><div class="stat"><b>11</b><span>plug-in screening strategies</span></div><div class="stat"><b>20</b><span>markets with cached prices</span></div><div class="stat"><b>121 + 130</b><span>offline tests passed (scanners + screener)</span></div><div class="stat"><b>75 of 346</b><span>US names with Piotroski score 7 or more</span></div></div>
+<p>Code: <a href="https://github.com/herrrickshaw/global-stock-screener">github.com/herrrickshaw/global-stock-screener</a></p>
+<h2>Watch the walkthrough</h2>
+<div class="vid"><iframe src="https://www.youtube.com/embed/FGQkyByJn98" title="How to use global-stock-screener: rule-based stock screens, offline" allowfullscreen loading="lazy"></iframe></div><p>Watch on YouTube: <a href="https://youtu.be/FGQkyByJn98">youtu.be/FGQkyByJn98</a></p>
+<h2>What it is for</h2>
+<p>global-stock-screener ships about a year of cached price data and some cached company fundamentals. You clone it and run classic rule-based screens in minutes: Darvas breakouts (price near a 52-week high on heavy volume), the Piotroski F-Score (nine yes/no financial health tests) and Coffee Can (high return on equity, steady growth, low debt).</p>
+<p>A second repo, global-market-scanners, runs full-market scans for Europe, Japan and Korea and writes Excel files. Its scanning logic is unit tested offline; the full scans themselves fetch live data and were not run in the demo.</p>
+<p>A small decision engine blends valuation, momentum, quality and recovery into a BUY, HOLD or SELL label, with an IMPAIRED override for broken companies. All output is a mechanical filter for research. It is not investment advice.</p>
+<p><b>Who it is for</b></p>
+<ul><li>Students and self-taught investors who want to see how classic screens work</li><li>Engineers who want a plug-in framework for their own screening rules</li><li>Researchers who need a reproducible, keyless baseline</li></ul>
+<div class="warn"><b>Not for.</b><ul><li>Making buy or sell decisions. The screens are filters, not advice</li><li>Live trading or current prices: the cache ends in late June 2026</li><li>Complete coverage of India, US, Japan, Korea or China prices: those price panels are not in the cache</li></ul></div>
+<h2>What you need</h2>
+<div class="tw"><table><tr><th>Requirement</th><th>Why</th><th>How to get it</th></tr><tr><td>Python 3 with pip</td><td>runs run.py and the strategies</td><td>python.org or your package manager (the demo used Python 3.14)</td></tr><tr><td>git and git-lfs</td><td>the cached price files are stored with Git LFS</td><td>brew install git git-lfs (macOS) or your package manager; then git lfs install</td></tr><tr><td>Disk space</td><td>about 40,000 symbols of cached parquet data</td><td>allow several GB free; check the repo size before cloning</td></tr><tr><td>Packages in requirements.txt</td><td>pandas, numpy, pyarrow, lmdb, openpyxl and more</td><td>pip install -r requirements.txt</td></tr><tr><td>API keys</td><td>not needed for the cached screens</td><td>nothing to set up. Live fetching (yfinance, NSE) is optional and needs a network</td></tr></table></div>
+<h2>Get the code and an AI assistant</h2>
+<p>You do not have to be a programmer. Get the repository, give it to an AI assistant, and ask in plain language. Any of these routes works:</p>
+<div class="tw"><table><tr><th>Tool</th><th>What you need</th><th>Best for</th></tr><tr><td><b>GitHub</b></td><td>Free account to fork or star; <code>git</code> to clone, or the green <b>Code</b> button, then <b>Download ZIP</b>, or open in <b>Codespaces</b></td><td>Getting the code and keeping up with updates</td></tr><tr><td><b>Claude Code</b></td><td>Claude subscription or API key; run <code>claude</code> inside the cloned folder</td><td>Letting the AI read and run the whole repo</td></tr><tr><td><b>Gemini CLI</b></td><td>Google account; run <code>gemini</code> inside the cloned folder</td><td>The same hands-on workflow with Gemini</td></tr><tr><td><b>Claude.ai, Gemini or ChatGPT in the browser</b></td><td>A chat account; upload <code>README.md</code> and the files you care about (or paste the output of <code>git ls-files</code>)</td><td>Understanding the project and asking questions without installing anything</td></tr><tr><td><b>Other tools</b> (Copilot Chat, Cursor, Codex CLI)</td><td>Open the cloned folder in the tool and point it at <code>README.md</code> first</td><td>Editing and extending the code</td></tr></table></div>
+<pre><code>git clone https://github.com/herrrickshaw/global-stock-screener.git
+cd global-stock-screener
+claude      # or: gemini</code></pre>
+<h2>Install</h2><ol><li>Clone with Git LFS so the price data downloads<pre><code>git lfs install
+git clone https://github.com/herrrickshaw/global-stock-screener.git
+cd global-stock-screener
+git lfs pull</code></pre></li><li>Create a virtual environment and install the requirements<pre><code>python3 -m venv .venv &amp;&amp; source .venv/bin/activate
+pip install -r requirements.txt</code></pre></li><li>Optional: check readiness (LFS data pulled, packages present)<pre><code>python preflight.py</code></pre></li><li>Optional, for the full-market scans: clone the second repo<pre><code>git clone https://github.com/herrrickshaw/global-market-scanners.git
+cd global-market-scanners &amp;&amp; pip install -r requirements.txt</code></pre></li></ol>
+<h2>Quick start: commands and what you should see</h2>
+<p><b>Run a Darvas breakout scan on cached German stocks</b></p>
+<pre><code>python run.py --strategy darvas --market DE --top 8</code></pre>
+<p>With data as of 29 June 2026, one name passed: NA9.DE, 4.11% below its 52-week high, volume 15.58 times its 20-day average, flagged BREAKOUT. The same scan on UK printed &#x27;No hits for darvas on UK.&#x27;, because the rule is strict (within 10% of the 52-week high and volume at least 1.5 times average).</p>
+<p><b>Run the Piotroski and Coffee Can strategy modules on the cached fundamentals (called from Python, as in the demo)</b></p>
+<pre><code>strategies.piotroski.screen()   # over cache_seed/fundamentals/US and IN
+strategies.coffee_can.screen()  # same data</code></pre>
+<p>These are Python calls, not run.py flags. Each strategy module declares META and a screen() function. In the demo, Piotroski evaluated 346 US names and 75 scored 7 or more (NTAP, LHX and CSCO scored 9). In India it evaluated 16 names and 1 passed (ICICIBANK, 7). Coffee Can evaluated 338 US names and 11 passed (for example NVDA, ANET, META).</p>
+<p><b>Run the offline tests</b></p>
+<pre><code>pytest tests/test_strategies.py</code></pre>
+<p>8 passed in the demo. The wider suite (excluding the unit and integration folders) gave 130 passed and 1 skipped. In global-market-scanners, pytest tests/ gave 121 passed in 20.49 seconds.</p>
+<h2>Ways to use it</h2>
+<div class="tw"><table><tr><th>Method</th><th>How it works</th></tr><tr><td>Command line</td><td>python run.py with --strategy, --market and --top; python run.py --brief writes a daily market brief to results/daily_brief.html.</td></tr><tr><td>Python library</td><td>import screener_kit as kit; kit.bootstrap(); kit.screen(&#x27;darvas&#x27;, &#x27;IN&#x27;, top=15) and kit.custom_screen({...}) are shown in the README.</td></tr><tr><td>Add your own strategy</td><td>Each file in strategies/ declares META and a screen(StockData) function that returns a Result. Copy one and change the rule.</td></tr><tr><td>Colab</td><td>The README links colab_quickstart.ipynb, which runs the same steps in Google Colab.</td></tr><tr><td>Via an AI assistant</td><td>Open the folder in Claude Code or Gemini CLI and ask in plain English. See the prompts below.</td></tr></table></div>
+<h2>Sample prompts for your AI assistant</h2><p>Copy, paste and edit the parts in [brackets].</p>
+<ul><li>Read README.md and strategies/ and explain in plain English how the Darvas, Piotroski and Coffee Can screens decide pass or fail.</li><li>Run python preflight.py, fix anything it reports, then run the Darvas scan for the DE market and explain each column.</li><li>Add a new strategy file in strategies/ that passes stocks with P/E under [15] and return on equity over [15]. Follow the META and screen() pattern.</li><li>Which markets and fundamentals are actually in cache_seed/? Tell me which screens will return nothing and why.</li><li>Look at how Coffee Can computes five-year revenue growth. What happens with negative revenue or a missing field, and how would you fix it?</li><li>Explain decision_engine.py: the four factor weights, and what the IMPAIRED flag does.</li></ul>
+<h2>Limits and honest caveats</h2>
+<div class="warn"><ul><li>Educational and research use only. Not investment advice. Screens are mechanical filters.</li><li>The price cache ends between 26 and 30 June 2026. India, US, Japan, Korea and China price panels are not in the cache, so those markets return no price-based hits.</li><li>Fundamentals are cached only for India (18 names) and the US (376 names), with no as-of date in the files.</li><li>Coffee Can: negative revenue crashes the cagr() calculation (3 US rows crashed). For India, revenue five years ago exceeds current revenue for every name, so every growth figure is negative and nothing passes. The cached field looks wrong.</li><li>Piotroski for India caps at 8 because the cache has no gross margin field.</li><li>Darvas box levels in the scanners repo are rounded to whole numbers, which is coarse for low-priced euro stocks.</li><li>The tests/unit and tests/integration folders in global-stock-screener fail to collect (ModuleNotFoundError: No module named &#x27;src&#x27;), so they were not run.</li><li>The decision-engine example in the demo used the repo&#x27;s own test fixtures, not live picks.</li><li>The full-market scans in global-market-scanners fetch live data and were not run in the demo.</li></ul></div>
+<p class="src">Sources: README.md, requirements.txt and run.py in github.com/herrrickshaw/global-stock-screener; global-market-scanners (tests and scan scripts); demo run on 18 October 2026 using cached data, with no live network calls.</p>
+<div id="changelog" class="note">
+<b>Revision history.</b>
+<ul>
+<li><b>v1.0.0</b> &mdash; 18 October 2026 &mdash; first published.</li>
+</ul>
+</div>
+
+
+<style>/* gs-light-lock-v1 */.htustockm{--ink:#111!important;--accent:#8a4b08!important;--rule:#e8dcc4!important;--panel:#fdf7ec!important;--good:#1a7a4c!important;--good-soft:#eaf6ef!important;--bad:#a5402c!important;--bad-soft:#fff4f0!important}</style>
+<p class="disclaimer" data-gs-ai-disclosure-v1="1"><strong>About this article:</strong> Researched, written and edited by Umashankar Triplicane Dwarakanathan, with AI research assistance; every figure is meant to trace to the primary source cited. See the <a href="https://masaladeutsch.blogspot.com/p/disclaimer.html">Editorial Policy</a> for how sourcing, AI use and corrections work.</p>
+
+</div>

@@ -4,15 +4,15 @@
   "url": "https://masaladeutsch.blogspot.com/2026/10/how-to-use-uco-ulo-tracking-chain-of.html",
   "slug": "how-to-use-uco-ulo-tracking-chain-of",
   "published": "2026-10-29T05:20:11.000+05:30",
-  "updated": "2026-10-29T09:27:04.091+05:30",
+  "updated": "2026-10-30T09:05:13.444+05:30",
   "labels": [
     "Energy & Fuels",
     "Ethanol & Biofuels",
     "India",
     "Open-Source Tools & How-To"
   ],
-  "bytes": 29237,
-  "sha256": "74d1e1945e5d9690710c0854b3514aa9b9b5653268fc0b085e7d12d3913a33c3",
+  "bytes": 29356,
+  "sha256": "43b106aed4def4b39f7523f1dd0e77e40d750342f46add3cca7816a2b70f649e",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -32,6 +32,19 @@
       "level": "initial",
       "reason": "first snapshot",
       "note": "youtube-demo-uploads: uco-ulo-tracking post live"
+    },
+    {
+      "version": "1.0.1",
+      "date": "2026-10-30T09:30:03+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        29237,
+        29356
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "youtube-demo-uploads 2026-10-30: 9 new how-to posts live"
     }
   ]
 }

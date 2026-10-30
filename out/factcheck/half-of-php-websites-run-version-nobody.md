@@ -24,16 +24,30 @@ OUTDATED DATA:
 
 ## Groq openai/gpt-oss-120b
 
-[Groq/openai/gpt-oss-120b API error 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 4244, Requested 6052. Please try again in 17.22s. Need more tokens? Upgrade to Dev Tier today at https://cons]
+**FACTUAL ERRORS**
+- “The Digital Personal Data Protection Act … its Rules, notified **in November 2025**, phase in most obligations over 18 months.” — The DPDP Rules were originally notified in **August 2022** (with amendments later), not in November 2025. No separate set of rules was issued in 2025. [confidence: high]
+
+**INTERPRETATION ERRORS**
+- “**About 53 % of PHP sites are on versions the PHP project no longer fixes**, which is about 37 % of all websites whose language W3Techs can identify.” — This statement treats the lack of upstream security fixes as a direct measure of vulnerability, ignoring the widespread practice of **distribution back‑porting** security patches (e.g., Debian, Ubuntu, Red Hat). Consequently, the claim overstates the actual risk to those sites and uses the raw version share to support a conclusion about exposure that the data alone does not justify. [confidence: high]
 
 ## Mistral open-mistral-nemo
 
 **FACTUAL ERRORS:**
-- **"100+ Indian government and public-sector sites reported serving hidden betting pages, June 2026"** — The article later clarifies that the **100+ figure is from June 2026**, but the **earlier claim (May 2024) cited in the text ("TechCrunch found about 50 such links on government domains in May 2024") contradicts this**. The June 2026 figure is correct per the source (MediaNama/FalconFeeds), but the May 2024 claim is outdated and inconsistent with the later reporting. [confidence: high]
+- **"100+ Indian government and public-sector sites reported serving hidden betting pages, June 2026"** — The article later clarifies that the **100+ figure is from June 2026**, but the **earlier claim (May 2024) of ~50 links on government domains** (cited from TechCrunch) is inconsistent with the later figure. The article does not reconcile these two conflicting dates or sources for the same phenomenon. [confidence: high]
 
 **INTERPRETATION ERRORS:**
-- **"About half of those [PHP] sites run a version of PHP that no longer receives security fixes"** — While the **53% figure is correct for October 2026**, the claim conflates *version shares* (W3Techs data) with *vulnerability exposure*. Many sites on unsupported PHP versions may still receive **backported fixes** (e.g., via Linux distributions like Debian/Ubuntu), meaning the actual unpatched exposure is lower than implied. The article acknowledges this but frames the 53% as a direct vulnerability count, which is misleading. [confidence: high]
+- **"About 53% of PHP sites are on versions the PHP project no longer fixes, which is about 37% of all websites whose language W3Techs can identify."** — The claim conflates **PHP sites running unsupported versions (53%)** with **all websites (37%)**, but W3Techs’ data only covers sites that **reveal their PHP version** (a self-selected subset). The 37% figure assumes all non-PHP sites are safe, which ignores:
+  1. **Unidentified sites** (W3Techs cannot detect their language).
+  2. **Other vulnerable languages** (e.g., older Python, Ruby, or Node.js versions).
+  The extrapolation ignores non-PHP risks and overstates the "37%" as a total website vulnerability rate. [confidence: high]
+
+- **"PHP 7 alone, whose last branch lost support in November 2022, still runs on 29% of PHP sites."** — While the **29% figure is plausible** based on W3Techs (Jun–Aug 2026), the article **implies this is a direct cause of security risks** without addressing:
+  1. **Backported fixes**: Linux distributions (e.g., Debian, Ubuntu) may apply security patches to PHP 7 via backports, reducing the actual risk for some sites.
+  2. **False sense of urgency**: The article treats PHP 7 as universally "unpatched," but **some users may still receive critical fixes** through their OS or hosting provider. [confidence: medium]
 
 **OUTDATED DATA:**
-- **"CERT-In handled about 29.44 lakh cyber-security incidents in 2025"** — This is correct as of the article’s date (October 2026), but **no newer official CERT-In data for 2026 is cited**. For updated incident counts, check CERT-In’s latest annual report (likely released in January 2027). [confidence: high]
-- **"Digital Personal Data Protection Act (DPDP) Rules notified in November 2025"** — While correct at the time, the **Rules’ full implementation timeline (18-month phase-in) may have seen updates or clarifications** by October 2026. Verify against the latest DPDP Board notifications. [confidence: medium]
+- **"CERT-In handled about 29.44 lakh cyber-security incidents in 2025"** — This is the **latest official figure cited**, but the article does not check if CERT-In has released **2026 data** (e.g., via PIB or annual reports). For context, CERT-In’s **2025 report was published in January 2026**, so a **2026 update** may exist. [confidence: high]
+  *Series to re-check*: CERT-In’s annual cyber-incident reports (PIB press releases or [CERT-In website](https://cert-in.org.in)).
+
+- **"Digital Personal Data Protection Act (DPDP) provides for penalties of up to Rs 250 crore... Rules notified in November 2025"** — While correct as of the article’s date (Oct 2026), the **DPDP Rules’ full implementation timeline** (e.g., compliance deadlines for businesses) may have been **updated or clarified** in late 2026. The article does not verify if **new enforcement guidelines** (e.g., for unsupported software) were added post-November 2025. [confidence: medium]
+  *Series to re-check*: DPDP Act + Rules (Ministry of Electronics & IT notifications; [MEITY website](https://meity.gov.in)).

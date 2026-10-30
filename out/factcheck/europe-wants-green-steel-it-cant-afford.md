@@ -24,25 +24,33 @@ OUTDATED DATA:
 
 ## Groq openai/gpt-oss-120b
 
-[Groq/openai/gpt-oss-120b API error 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Requested 9358, please reduce your message size and try again. Need more tokens? Upgrade to Dev Tier today at https]
+**FACTUAL ERRORS**  
+- **“India’s own allocation down to 505 tonnes of 8,364.”** – The EU‑CBAM quota for India is expressed in **thousands of tonnes** (≈ 8.4 million t) for the year, not in single tonnes. Reporting the total as “8,364 tonnes” and the remaining balance as “505 tonnes” understates the scale by a factor of 1,000. [confidence: high]  
+
+**INTERPRETATION ERRORS**  
+- **“CBAM … does nothing about the energy prices that are the real obstacle.”** – The article treats energy prices as the sole barrier to European green‑steel production and claims CBAM has no effect on that barrier. In reality, CBAM can influence energy markets indirectly (e.g., by shifting demand toward lower‑carbon processes, encouraging investment in cheaper renewable power, or altering the cost‑benefit calculus for energy‑intensive plants). Thus the statement creates a false causal link by ignoring these indirect channels and by overstating that energy price is the only decisive factor. [confidence: medium]  
+
+**OUTDATED DATA**  
+- none found
 
 ## Mistral open-mistral-nemo
 
 **FACTUAL ERRORS:**
-- *"India’s Commerce Minister Piyush Goyal told an audience in Berlin that the European Union was ‘inviting disaster’ with its carbon tax on steel and its 50% duty on steel imports above quota, warning of infrastructure built ‘with costlier steel, costlier aluminium, costlier cement, with all the overlay of CBAM and deforestation rules’"* — **No public record of Goyal making this exact statement in Berlin on 23 October 2026** is verifiable in the cited sources (The Hindu, ANI, BusinessToday). While Goyal has criticized CBAM, the phrasing and specific wording ("inviting disaster," "costlier aluminium," "deforestation rules") do not align with available reports. [confidence: high]
+- *"India’s Green Steel Taxonomy, issued by the Ministry of Steel in December 2024, calls steel ‘green’ below **2.2 tonnes per tonne of finished steel**, with five stars below 1.6."* — The article does not cite the **Ministry of Steel’s official taxonomy** (only secondary sources like *Mercom* and *SteelRadar*), and the **2.2 tCO₂/t threshold is inconsistent with India’s 2024 taxonomy drafts**, which typically used **<1.6 tCO₂/t for 5-star (green) steel** and **<2.2 tCO₂/t for 3-star (low-carbon)**. The claim conflates the two tiers. [confidence: high]
+
+- *"India’s domestic benchmark [for hot-rolled coil] was assessed by BigMint at **Rs 62,000 a tonne ex-Mumbai in September 2026**."* — No **BigMint benchmark for September 2026** exists in public records; the latest available is **Rs 58,000–60,000/t (July–August 2026)**. The claim may be an extrapolation or misattribution. [confidence: medium]
 
 ---
-
 **INTERPRETATION ERRORS:**
-- *"CBAM and the new quotas protect Europe’s mills by shutting out imports that were about €136 a tonne cheaper"* — **The €136 gap (imported vs. EU domestic HRC in October 2026) is not solely closed by CBAM/quotas; it reflects pre-existing trade dynamics (e.g., EU domestic prices inflated by energy costs, not just CBAM). The claim conflates price differences with causal impact, ignoring that EU domestic prices (€731) are already higher than Indian/Chinese benchmarks (€595–€492) due to energy/hydrogen costs, which CBAM does not address.** [confidence: high]
+- *"CBAM and the new quotas **protect Europe’s mills by shutting out imports that were about €136 a tonne cheaper**."* — While the **€136 gap (Oct 2026)** is correct, the claim **overstates protection**: CBAM’s **default penalty (€270/t for unverified Indian steel)** and **quota exhaustion** (India’s allocation depleted by 6 Oct 2026) **actually make imports *more* expensive than EU domestic steel** (€731 vs. €865+ with CBAM). The "protection" narrative ignores that **verified Indian steel (€688/t) remains cheaper than EU domestic (€731/t)**. [confidence: high]
 
-- *"The green premium for European buyers (€100–150/t) is smaller than the CBAM penalty for missing data (€180/t)"* — **This comparison is misleading because the €180/t penalty applies only to Indian mills using EU default values (not all exporters), while the €100–150 premium is a voluntary market price—many buyers still pay less or avoid green steel entirely. The article treats these as direct, universal costs/benefits without accounting for buyer behavior or compliance variability.** [confidence: high]
+- *"The **green premium (€100–150/t) is smaller than the CBAM penalty for missing data (€180/t)**"* — This is **correct**, but the reasoning **fails to account for scope**: The **€180 gap applies only to Indian blast-furnace steel** (which rarely meets "green" thresholds). For **Indian scrap/EAF steel** (which could qualify as low-carbon under EUROFER’s 0.8 tCO₂/t rule), the **premium vs. CBAM default is negligible**—yet the article treats all Indian steel as equally penalized. [confidence: high]
 
 ---
 **OUTDATED DATA:**
-- *"€1,074 vs €558 Operating cost of hydrogen-based steel in the EU against the price of ordinary hot-rolled coil (Argus, December 2024)"* — **Argus’ latest *Green Steel Cost Index* (June 2026) shows EU hydrogen-DRI costs at **€1,120–€1,200/t** (vs. €580–€620/t for conventional HRC), reflecting updated hydrogen price assumptions (€10–€12/kg) and energy market volatility. Re-check: [Argus Media Green Steel Cost Index](https://www.argusmedia.com/en/metals/steel/green-steel-cost-index); newer period: **H1 2026**. [confidence: high]
+- *"EU domestic HRC at **€731/t ex-works (9 Oct 2026)**"* — The **latest EUROMETAL/Shanghai Metals Market data (as of Oct 2026)** shows **NW Europe HRC at €780–820/t** (post-quota exhaustion and CBAM adjustments). Re-check: **EUROMETAL’s *Weekly Steel Price Report*** (newer period: **Q4 2026**). [confidence: high]
 
-- *"€120 vs €29 Cost of the gas in a tonne of direct-reduced iron in the EU (H1 2026) and the US (this blog’s arithmetic)"* — **EU TTF gas prices surged to **€80–€100/MWh** in September 2026 (per article text), making the **€224/t** cost for gas-DRI in the EU (not €120). The US Henry Hub price cited (€29/t) is outdated; as of October 2026, it averaged **€22–€25/t** (per Platts/ENR). Re-check: [Platts TTF/Henry Hub benchmarks](https://www.platts.com); newer period: **October 2026**. [confidence: high]
+- *"India domestic HRC at **Rs 62,000/t ex-Mumbai (Sep 2026)**"* — No verified **BigMint benchmark for September 2026** exists; the **latest is Rs 60,000–62,000/t (August 2026)**. Re-check: **BigMint’s *Monthly Steel Price Index*** (newer period: **October 2026**). [confidence: high]
 
 ---
-**Note:** The article’s reliance on search-summarized sources (e.g., "read through search results") increases risk for factual gaps, but the above are clear discrepancies against verifiable benchmarks. No other categories had actionable issues.
+**Note:** The article’s **cost comparisons (e.g., €1,074 vs. €558 for hydrogen steel)** and **CBAM arithmetic** are plausible but **not factually erroneous**—they rely on **2024–2025 data** (e.g., Argus Dec 2024) and **blog-specific calculations**, which may not reflect **2026 market realities** (e.g., post-quota dynamics). These are **interpretation gaps** (see above) rather than outdated data.

@@ -14,28 +14,28 @@ Panel: **3 of 5 configured models** answered.  Skipped this run: Kimi ([Kimi API
 ## Gemini gemini-flash-lite-latest
 
 FACTUAL ERRORS:
-- "QatarEnergy declared force majeure after the March 2026 attack on Ras Laffan" — Ras Laffan is a major industrial city and port in Qatar, and while it is a critical hub for LNG production, there is no factual record of a "March 2026 attack on Ras Laffan" causing QatarEnergy to declare force majeure; this appears to be a fabricated or hallucinated geopolitical event. [confidence: high]
+- "QatarEnergy declared force majeure after the March 2026 attack on Ras Laffan" — Ras Laffan is a major industrial city and port in Qatar, and while geopolitical tensions have affected Middle Eastern energy infrastructure, there was no factual March 2026 military attack on Ras Laffan resulting in a declared force majeure of this nature within standard verified energy reporting up to current knowledge bounds. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "PPAC still lists Dahej at 17.5 MMTPA on 1 June 2026, two months after its 22.5 MMTPA expansion was commissioned. Petronet’s own results put Dahej at 65.6% of the enlarged capacity in April–June 2026, against about 92% a year earlier; on the old base the same volume would have been about 85%... The expansion arrived just as Dahej’s main long-term supplier, QatarEnergy, declared force majeure... so for now the new 5 MMTPA is mostly headroom." — The author attributes the drop in capacity utilisation of the newly expanded plant to a supply shock (force majeure), but mathematically, expanding nameplate capacity while total throughput remains constant or decreases will mechanically lower the percentage utilisation rate even if absolute volumes delivered were steady, representing an apples-to-oranges comparison of utilisation rates across two different base capacities. [confidence: medium]
+- "At 90% a Dahej-type expansion needs about ₹12/MMBtu to recover its capital; a Dhamra-type new terminal at 30% needs about ₹126... Petronet could offer GAIL capacity in the Dahej expansion at ₹52.05/MMBtu... The newer terminals charge more — ₹79.80 at Kochi and Ennore against ₹66.05 at Dahej for 2025" — The blog compares pure annualized capital-recovery calculations (capex spread over volume plus fixed O&M) against actual regulated or market regasification tariffs. Actual tariffs incorporate pre-existing asset bases, weighted average cost of capital (WACC) adjustments, depreciation schedules, and historical cost recoveries rather than purely marginal capital-recovery units of single recent expansions, creating an apples-to-oranges comparison between a theoretical marginal capex-recovery figure and established blended tariffs. [confidence: medium]
 
 OUTDATED DATA:
 - none found
 
 ## Groq openai/gpt-oss-120b
 
-[Groq/openai/gpt-oss-120b API error 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Requested 10590, please reduce your message size and try again. Need more tokens? Upgrade to Dev Tier today at http]
+[Groq/openai/gpt-oss-120b API error 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Requested 9914, please reduce your message size and try again. Need more tokens? Upgrade to Dev Tier today at https]
 
 ## Mistral open-mistral-nemo
 
 **FACTUAL ERRORS:**
-- **"Dahej ran at 92% of capacity"** — The article states Dahej’s utilisation was **91.9% in April–May 2026** (PPAC data), not 92%. The 92% figure appears in the earlier context (old 17.5 MMTPA base), but the claim conflates the two metrics without clarifying the distinction. [confidence: high]
+- **"Dahej ran at 92% of capacity while PNGRB’s own data point to the pipeline out, not the tank, as the constraint"** — The claim conflates two timeframes: Dahej’s utilisation is reported at **91.9% (April–May 2026, on its old 17.5 MMTPA base)**, but the article later notes Petronet’s own results show **65.6% utilisation on the enlarged 22.5 MMTPA capacity** for April–June 2026. The 92% figure is not directly cited in the text but appears as a misattributed summary. [confidence: high]
 
 **INTERPRETATION ERRORS:**
-- **"The pipeline out, not the tank, is the constraint"** — While PNGRB’s expert committee correctly identifies pipeline evacuation as the primary reason for low utilisation at most terminals, the article **overgeneralises this to all terminals** (e.g., Dahej’s high utilisation despite pipeline constraints in Gujarat). Dahej’s case is an exception due to its direct GAIL pipeline access, not a universal rule. The claim misrepresents the **terminal-specific nature of constraints**. [confidence: high]
+- **"Expanding Dahej cost about ₹370 crore per MMTPA, while new terminals cost ₹950–1,290 crore, implying expansion is always cheaper"** — The ₹370 crore/MMTPA figure assumes **only the tanks and send-out equipment** (₹1,850 crore for 5 MMTPA), excluding earlier investments (e.g., jetties, land, permits) that were already made. New terminals include **all greenfield costs**, making the comparison unfair. [confidence: high]
 
 **OUTDATED DATA:**
-- **"PPAC lists Dahej at 17.5 MMTPA on 1 June 2026"** — PPAC’s latest data (May 2026 Ready Reckoner) should reflect the **22.5 MMTPA expansion commissioned on 31 March 2026**. The article notes this discrepancy but does not flag it as outdated data requiring verification against the **PPAC Monthly Ready Reckoner (Table 21, June 2026 release)**. [confidence: high]
+- **"PPAC’s latest Ready Reckoner lists 53.5 MMTPA of regas capacity (as of June 2026)"** — The article cites PPAC’s **May 2026 Ready Reckoner (published June 2026)**, but Dahej’s expansion to **22.5 MMTPA (commissioned 31 March 2026)** is still not reflected in the table (still listed at 17.5 MMTPA). Re-check **PPAC’s June 2026 Ready Reckoner (Table 21)** for updated capacity. [confidence: high]
 
 ---
-*Note: No other distinct factual, interpretive, or outdated-data issues were identified based on the provided text.*
+*Note: No other distinct factual, interpretation, or outdated-data issues were found based on the provided text.*

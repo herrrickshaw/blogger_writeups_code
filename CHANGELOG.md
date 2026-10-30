@@ -16621,3 +16621,30 @@ youtube-demo-uploads: index rebuilt with uco-ulo-tracking (474 posts)
 **Changed**
 
 - `article-index-start-here` — 924,909 → 925,928 bytes (+1,019)
+
+## 2026-10-30T09:30:03+05:30 — 484 posts live
+
+youtube-demo-uploads 2026-10-30: 9 new how-to posts live
+
+
+**Added**
+
+- `how-to-use-five-open-toolkits-finance` **v1.0.0** — How to use five open toolkits: finance models, documents, care audits (26,554 bytes)
+- `how-to-use-stock-portfolio-evaluator` **v1.0.0** — How to use stock-portfolio-evaluator: a rule-of-thumb Newsvendor score for a stock portfolio (25,730 bytes)
+- `how-to-use-global-stock-screener-rule` **v1.0.0** — How to use global-stock-screener: rule-based stock screens, offline (23,703 bytes)
+- `how-to-use-saf-monitoring-system-track` **v1.0.0** — How to use saf-monitoring-system: track SAF batches against blending and carbon-credit rules (24,779 bytes)
+- `how-to-use-refinery-design-opensource` **v1.0.0** — How to use refinery-design-opensource: test what a crude does to a refinery (22,326 bytes)
+- `how-to-use-research-design-system-one` **v1.0.0** — How to use research-design-system: one set of design tokens, four themes for reports and dashboards (24,125 bytes)
+- `how-to-use-repo-data-dedup-find` **v1.0.0** — How to use repo-data-dedup: find duplicate LFS storage across your GitHub repos (24,966 bytes)
+- `how-to-use-pricepredictionbacktest` **v1.0.0** — How to use price_prediction_backtest: honest walk-forward tests of price-prediction models (28,818 bytes)
+- `how-to-use-ppac-ready-reckoner-data` **v1.0.0** — How to use ppac-ready-reckoner-data: load India's petroleum statistics as 100 ready CSV tables (24,926 bytes)
+
+**Versions**
+
+- `how-to-use-uco-ulo-tracking-chain-of` **1.0.0 → 1.0.1** (PATCH) — visible text identical; only markup/styling changed
+- `how-to-use-ship2shorerag-offline` **1.0.2 → 2.0.0** (MAJOR) — figures changed (+1/-1 distinct numbers)
+
+**Changed**
+
+- `how-to-use-uco-ulo-tracking-chain-of` — 29,237 → 29,356 bytes (+119)
+- `how-to-use-ship2shorerag-offline` — 24,565 → 24,446 bytes (-119)

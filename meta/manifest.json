@@ -1,6 +1,6 @@
 {
-  "snapshot": "2026-10-29T09:31:18+05:30",
-  "count": 475,
+  "snapshot": "2026-10-30T09:30:03+05:30",
+  "count": 484,
   "posts": {
     "1008146607143508554": {
       "id": "1008146607143508554",
@@ -13198,13 +13198,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/10/how-to-use-ship2shorerag-offline.html",
       "slug": "how-to-use-ship2shorerag-offline",
       "published": "2026-10-18T08:54:54.000+05:30",
-      "updated": "2026-10-19T09:05:12.627+05:30",
+      "updated": "2026-10-30T09:26:21.728+05:30",
       "labels": [
         "Open-Source Tools & How-To",
         "Shipping & Maritime Fuels"
       ],
-      "bytes": 24565,
-      "sha256": "ebb4d3195291140d221c76bfd7275d79f5425f32d891c62df1446ea4594a6bea",
+      "bytes": 24446,
+      "sha256": "c32936ef65ca316f837e33076f53994a6b16ea3d585b5261d62723f608c8b4e5",
       "markers": {
         "light_lock": true,
         "dark_panel_guard": false,
@@ -13216,7 +13216,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.2",
+      "version": "2.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -13250,6 +13250,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "2.0.0",
+          "date": "2026-10-30T09:30:03+05:30",
+          "level": "major",
+          "reason": "figures changed (+1/-1 distinct numbers)",
+          "bytes": [
+            24565,
+            24446
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "youtube-demo-uploads 2026-10-30: 9 new how-to posts live"
         }
       ]
     },
@@ -13616,6 +13629,43 @@
           "level": "initial",
           "reason": "first snapshot",
           "note": "New posts: fertiliser sales, Andhra investment, state deficits"
+        }
+      ]
+    },
+    "2685493706900178567": {
+      "id": "2685493706900178567",
+      "title": "How to use ppac-ready-reckoner-data: load India's petroleum statistics as 100 ready CSV tables",
+      "url": "https://masaladeutsch.blogspot.com/2026/10/how-to-use-ppac-ready-reckoner-data.html",
+      "slug": "how-to-use-ppac-ready-reckoner-data",
+      "published": "2026-10-19T05:14:29.000+05:30",
+      "updated": "2026-10-30T09:26:47.834+05:30",
+      "labels": [
+        "Energy & Fuels",
+        "India",
+        "Open-Source Tools & How-To",
+        "Refining & Petrochemicals"
+      ],
+      "bytes": 24926,
+      "sha256": "dfa3c2ec09b5a0ed5a0014dc1b88ae37bc826a84f98c0f108b8cc3fca7cc5db1",
+      "markers": {
+        "light_lock": true,
+        "dark_panel_guard": false,
+        "typo_unify": true,
+        "translate_widget": true,
+        "index_link": true,
+        "ai_disclosure": true,
+        "revision_line": true,
+        "inverted_media_query": false,
+        "disclaimer_in_script": false
+      },
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "date": "2026-10-30T09:30:03+05:30",
+          "level": "initial",
+          "reason": "first snapshot",
+          "note": "youtube-demo-uploads 2026-10-30: 9 new how-to posts live"
         }
       ]
     },
@@ -16783,6 +16833,42 @@
           "level": "initial",
           "reason": "first snapshot",
           "note": "New posts: gas share, data-centre tax holiday, fish by-products"
+        }
+      ]
+    },
+    "298328407700655471": {
+      "id": "298328407700655471",
+      "title": "How to use stock-portfolio-evaluator: a rule-of-thumb Newsvendor score for a stock portfolio",
+      "url": "https://masaladeutsch.blogspot.com/2026/10/how-to-use-stock-portfolio-evaluator.html",
+      "slug": "how-to-use-stock-portfolio-evaluator",
+      "published": "2026-10-30T09:26:38.033+05:30",
+      "updated": "2026-10-30T09:26:38.033+05:30",
+      "labels": [
+        "Equity Markets & Stock Screening",
+        "Markets & Finance",
+        "Open-Source Tools & How-To"
+      ],
+      "bytes": 25730,
+      "sha256": "6d9541e9798581100fed67e47382e9ef07b773129f1492b55b5c422494da6f31",
+      "markers": {
+        "light_lock": true,
+        "dark_panel_guard": false,
+        "typo_unify": true,
+        "translate_widget": true,
+        "index_link": true,
+        "ai_disclosure": true,
+        "revision_line": true,
+        "inverted_media_query": false,
+        "disclaimer_in_script": false
+      },
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "date": "2026-10-30T09:30:03+05:30",
+          "level": "initial",
+          "reason": "first snapshot",
+          "note": "youtube-demo-uploads 2026-10-30: 9 new how-to posts live"
         }
       ]
     },
@@ -34198,6 +34284,40 @@
         }
       ]
     },
+    "5245765309154167408": {
+      "id": "5245765309154167408",
+      "title": "How to use repo-data-dedup: find duplicate LFS storage across your GitHub repos",
+      "url": "https://masaladeutsch.blogspot.com/2026/10/how-to-use-repo-data-dedup-find.html",
+      "slug": "how-to-use-repo-data-dedup-find",
+      "published": "2026-10-19T05:14:33.000+05:30",
+      "updated": "2026-10-30T09:26:52.954+05:30",
+      "labels": [
+        "Open-Source Tools & How-To"
+      ],
+      "bytes": 24966,
+      "sha256": "c4ef01ba2291a6aef139bc0c36ef02a83ac73108ba2cd0d4f7611bf61c389bd7",
+      "markers": {
+        "light_lock": true,
+        "dark_panel_guard": false,
+        "typo_unify": true,
+        "translate_widget": true,
+        "index_link": true,
+        "ai_disclosure": true,
+        "revision_line": true,
+        "inverted_media_query": false,
+        "disclaimer_in_script": false
+      },
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "date": "2026-10-30T09:30:03+05:30",
+          "level": "initial",
+          "reason": "first snapshot",
+          "note": "youtube-demo-uploads 2026-10-30: 9 new how-to posts live"
+        }
+      ]
+    },
     "5272254141684091982": {
       "id": "5272254141684091982",
       "title": "Kpler and Vortexa Track Every Barrel India Imports. Nobody Tracks Its Cooking-Oil Waste the Same Way.",
@@ -34269,6 +34389,42 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Update notes 12-13 Oct 2026 from the currency sweeps (45 posts)"
+        }
+      ]
+    },
+    "5274438996350309403": {
+      "id": "5274438996350309403",
+      "title": "How to use global-stock-screener: rule-based stock screens, offline",
+      "url": "https://masaladeutsch.blogspot.com/2026/10/how-to-use-global-stock-screener-rule.html",
+      "slug": "how-to-use-global-stock-screener-rule",
+      "published": "2026-10-30T09:26:36.049+05:30",
+      "updated": "2026-10-30T09:26:36.049+05:30",
+      "labels": [
+        "Equity Markets & Stock Screening",
+        "Markets & Finance",
+        "Open-Source Tools & How-To"
+      ],
+      "bytes": 23703,
+      "sha256": "bca86bc946fb6780561b07b52b8d698335b19f54895c3e60559e157eb7f4963e",
+      "markers": {
+        "light_lock": true,
+        "dark_panel_guard": false,
+        "typo_unify": true,
+        "translate_widget": true,
+        "index_link": true,
+        "ai_disclosure": true,
+        "revision_line": true,
+        "inverted_media_query": false,
+        "disclaimer_in_script": false
+      },
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "date": "2026-10-30T09:30:03+05:30",
+          "level": "initial",
+          "reason": "first snapshot",
+          "note": "youtube-demo-uploads 2026-10-30: 9 new how-to posts live"
         }
       ]
     },
@@ -36327,6 +36483,43 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Gazette check: 24 posts verified against Gazette of India notifications"
+        }
+      ]
+    },
+    "5568795817751532131": {
+      "id": "5568795817751532131",
+      "title": "How to use refinery-design-opensource: test what a crude does to a refinery",
+      "url": "https://masaladeutsch.blogspot.com/2026/10/how-to-use-refinery-design-opensource.html",
+      "slug": "how-to-use-refinery-design-opensource",
+      "published": "2026-10-30T09:26:32.239+05:30",
+      "updated": "2026-10-30T09:26:32.239+05:30",
+      "labels": [
+        "Energy & Fuels",
+        "India",
+        "Open-Source Tools & How-To",
+        "Refining & Petrochemicals"
+      ],
+      "bytes": 22326,
+      "sha256": "cd8d233695e6ee3cce8a83549f8dcd8c5ebea9bb5d66082c156c995aa282f68d",
+      "markers": {
+        "light_lock": true,
+        "dark_panel_guard": false,
+        "typo_unify": true,
+        "translate_widget": true,
+        "index_link": true,
+        "ai_disclosure": true,
+        "revision_line": true,
+        "inverted_media_query": false,
+        "disclaimer_in_script": false
+      },
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "date": "2026-10-30T09:30:03+05:30",
+          "level": "initial",
+          "reason": "first snapshot",
+          "note": "youtube-demo-uploads 2026-10-30: 9 new how-to posts live"
         }
       ]
     },
@@ -38509,15 +38702,15 @@
       "url": "https://masaladeutsch.blogspot.com/2026/10/how-to-use-uco-ulo-tracking-chain-of.html",
       "slug": "how-to-use-uco-ulo-tracking-chain-of",
       "published": "2026-10-29T05:20:11.000+05:30",
-      "updated": "2026-10-29T09:27:04.091+05:30",
+      "updated": "2026-10-30T09:05:13.444+05:30",
       "labels": [
         "Energy & Fuels",
         "Ethanol & Biofuels",
         "India",
         "Open-Source Tools & How-To"
       ],
-      "bytes": 29237,
-      "sha256": "74d1e1945e5d9690710c0854b3514aa9b9b5653268fc0b085e7d12d3913a33c3",
+      "bytes": 29356,
+      "sha256": "43b106aed4def4b39f7523f1dd0e77e40d750342f46add3cca7816a2b70f649e",
       "markers": {
         "light_lock": true,
         "dark_panel_guard": false,
@@ -38529,7 +38722,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -38537,6 +38730,19 @@
           "level": "initial",
           "reason": "first snapshot",
           "note": "youtube-demo-uploads: uco-ulo-tracking post live"
+        },
+        {
+          "version": "1.0.1",
+          "date": "2026-10-30T09:30:03+05:30",
+          "level": "patch",
+          "reason": "visible text identical; only markup/styling changed",
+          "bytes": [
+            29237,
+            29356
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "youtube-demo-uploads 2026-10-30: 9 new how-to posts live"
         }
       ]
     },
@@ -43036,6 +43242,42 @@
           "level": "initial",
           "reason": "first snapshot",
           "note": ""
+        }
+      ]
+    },
+    "613413561594219227": {
+      "id": "613413561594219227",
+      "title": "How to use price_prediction_backtest: honest walk-forward tests of price-prediction models",
+      "url": "https://masaladeutsch.blogspot.com/2026/10/how-to-use-pricepredictionbacktest.html",
+      "slug": "how-to-use-pricepredictionbacktest",
+      "published": "2026-10-19T05:14:31.000+05:30",
+      "updated": "2026-10-30T09:26:50.259+05:30",
+      "labels": [
+        "Equity Markets & Stock Screening",
+        "Markets & Finance",
+        "Open-Source Tools & How-To"
+      ],
+      "bytes": 28818,
+      "sha256": "88d72076f00f81ad4e3ea0b1804e8c6a146ab7566bd766fcccecd3851c1eabd9",
+      "markers": {
+        "light_lock": true,
+        "dark_panel_guard": false,
+        "typo_unify": true,
+        "translate_widget": true,
+        "index_link": true,
+        "ai_disclosure": true,
+        "revision_line": true,
+        "inverted_media_query": false,
+        "disclaimer_in_script": false
+      },
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "date": "2026-10-30T09:30:03+05:30",
+          "level": "initial",
+          "reason": "first snapshot",
+          "note": "youtube-demo-uploads 2026-10-30: 9 new how-to posts live"
         }
       ]
     },
@@ -51652,6 +51894,40 @@
         }
       ]
     },
+    "6950259366739056240": {
+      "id": "6950259366739056240",
+      "title": "How to use research-design-system: one set of design tokens, four themes for reports and dashboards",
+      "url": "https://masaladeutsch.blogspot.com/2026/10/how-to-use-research-design-system-one.html",
+      "slug": "how-to-use-research-design-system-one",
+      "published": "2026-10-19T05:14:34.000+05:30",
+      "updated": "2026-10-30T09:26:54.805+05:30",
+      "labels": [
+        "Open-Source Tools & How-To"
+      ],
+      "bytes": 24125,
+      "sha256": "0728d765351f88ad23d58e0a12b88a71e5c7b7b20c8b400c4e9fdc2c5c088289",
+      "markers": {
+        "light_lock": true,
+        "dark_panel_guard": false,
+        "typo_unify": true,
+        "translate_widget": true,
+        "index_link": true,
+        "ai_disclosure": true,
+        "revision_line": true,
+        "inverted_media_query": false,
+        "disclaimer_in_script": false
+      },
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "date": "2026-10-30T09:30:03+05:30",
+          "level": "initial",
+          "reason": "first snapshot",
+          "note": "youtube-demo-uploads 2026-10-30: 9 new how-to posts live"
+        }
+      ]
+    },
     "6962157966390170519": {
       "id": "6962157966390170519",
       "title": "Foreign Capital Found India's Hospitals — It Is Buying Them, Not Building New Ones",
@@ -53024,6 +53300,42 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Gazette check: 24 posts verified against Gazette of India notifications"
+        }
+      ]
+    },
+    "7056947153435077945": {
+      "id": "7056947153435077945",
+      "title": "How to use saf-monitoring-system: track SAF batches against blending and carbon-credit rules",
+      "url": "https://masaladeutsch.blogspot.com/2026/10/how-to-use-saf-monitoring-system-track.html",
+      "slug": "how-to-use-saf-monitoring-system-track",
+      "published": "2026-10-30T09:26:34.127+05:30",
+      "updated": "2026-10-30T09:26:34.127+05:30",
+      "labels": [
+        "Climate & Carbon",
+        "Energy & Fuels",
+        "Open-Source Tools & How-To"
+      ],
+      "bytes": 24779,
+      "sha256": "443ecc39b37d57994369328dc4bcc4d8b5269725364f584f21ffb8d23705628f",
+      "markers": {
+        "light_lock": true,
+        "dark_panel_guard": false,
+        "typo_unify": true,
+        "translate_widget": true,
+        "index_link": true,
+        "ai_disclosure": true,
+        "revision_line": true,
+        "inverted_media_query": false,
+        "disclaimer_in_script": false
+      },
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "date": "2026-10-30T09:30:03+05:30",
+          "level": "initial",
+          "reason": "first snapshot",
+          "note": "youtube-demo-uploads 2026-10-30: 9 new how-to posts live"
         }
       ]
     },
@@ -58955,6 +59267,42 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Sweep 4 MEDIUM items: dated update notes on 59 posts"
+        }
+      ]
+    },
+    "7900736457866290219": {
+      "id": "7900736457866290219",
+      "title": "How to use five open toolkits: finance models, documents, care audits",
+      "url": "https://masaladeutsch.blogspot.com/2026/10/how-to-use-five-open-toolkits-finance.html",
+      "slug": "how-to-use-five-open-toolkits-finance",
+      "published": "2026-10-30T09:26:39.993+05:30",
+      "updated": "2026-10-30T09:26:39.993+05:30",
+      "labels": [
+        "Healthcare",
+        "Markets & Finance",
+        "Open-Source Tools & How-To"
+      ],
+      "bytes": 26554,
+      "sha256": "8696d5da903d29dba86627f431bfc2a2230361ce012b14770cf41deb9b130666",
+      "markers": {
+        "light_lock": true,
+        "dark_panel_guard": false,
+        "typo_unify": true,
+        "translate_widget": true,
+        "index_link": true,
+        "ai_disclosure": true,
+        "revision_line": true,
+        "inverted_media_query": false,
+        "disclaimer_in_script": false
+      },
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "date": "2026-10-30T09:30:03+05:30",
+          "level": "initial",
+          "reason": "first snapshot",
+          "note": "youtube-demo-uploads 2026-10-30: 9 new how-to posts live"
         }
       ]
     },

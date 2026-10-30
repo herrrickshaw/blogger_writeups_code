@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/10/how-to-use-ship2shorerag-offline.html",
   "slug": "how-to-use-ship2shorerag-offline",
   "published": "2026-10-18T08:54:54.000+05:30",
-  "updated": "2026-10-19T09:05:12.627+05:30",
+  "updated": "2026-10-30T09:26:21.728+05:30",
   "labels": [
     "Open-Source Tools & How-To",
     "Shipping & Maritime Fuels"
   ],
-  "bytes": 24565,
-  "sha256": "ebb4d3195291140d221c76bfd7275d79f5425f32d891c62df1446ea4594a6bea",
+  "bytes": 24446,
+  "sha256": "c32936ef65ca316f837e33076f53994a6b16ea3d585b5261d62723f608c8b4e5",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.2",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -56,6 +56,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-10-30T09:30:03+05:30",
+      "level": "major",
+      "reason": "figures changed (+1/-1 distinct numbers)",
+      "bytes": [
+        24565,
+        24446
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "youtube-demo-uploads 2026-10-30: 9 new how-to posts live"
     }
   ]
 }
