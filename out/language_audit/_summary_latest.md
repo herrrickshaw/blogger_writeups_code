@@ -1,6 +1,6 @@
-# Language audit summary — 2026-10-29
+# Language audit summary — 2026-10-30
 
-*272 of 479 posts flagged. Report-only — nothing was published. Per-post detail in out/language_audit/<slug>.md.*
+*275 of 488 posts flagged. Report-only — nothing was published. Per-post detail in out/language_audit/<slug>.md.*
 
 - [Half-Empty Terminals, Costlier Pipes: Winter Comes for Europe's Landlocked Five](https://masaladeutsch.blogspot.com/2026/08/winter-is-coming-for-europes-landlocked.html) — 74 matches — see `winter-is-coming-for-europes-landlocked.md`
 - [A 17% Rural Pay Rise That Nobody Received](https://masaladeutsch.blogspot.com/2026/08/a-17-rural-pay-rise-that-nobody-received.html) — 54 matches — see `a-17-rural-pay-rise-that-nobody-received.md`
@@ -40,12 +40,14 @@
 - [57.4 GW and Counting: India's Wind Fleet, State by State, Against What NIWE Says Is Actually There](https://masaladeutsch.blogspot.com/2026/08/574-gw-and-counting-indias-wind-fleet.html) — 5 matches — see `574-gw-and-counting-indias-wind-fleet.md`
 - [Annadata to Urjadata: The Farmer-Income Case for Ethanol Blending](https://masaladeutsch.blogspot.com/2026/08/annadata-to-urjadata-farmer-income-case.html) — 5 matches — see `annadata-to-urjadata-farmer-income-case.md`
 - [How to use bms-battery-management: simulate an EV battery pack in Python](https://masaladeutsch.blogspot.com/2026/10/how-to-use-bms-battery-management.html) — 5 matches — see `how-to-use-bms-battery-management.md`
+- [How to use five open toolkits: finance models, documents, care audits](https://masaladeutsch.blogspot.com/2026/10/how-to-use-five-open-toolkits-finance.html) — 5 matches — see `how-to-use-five-open-toolkits-finance.md`
 - [Inside the Refinery: How Hydrogen Cleans Your Diesel — and Why Going Green Could Raise Its Price](https://masaladeutsch.blogspot.com/2026/08/inside-refinery-how-hydrogen-cleans.html) — 5 matches — see `inside-refinery-how-hydrogen-cleans.md`
 - [Not a Drop Out: Ethanol's Zero-Liquid-Discharge Rule, and the Treatment-Capacity Gap Behind It](https://masaladeutsch.blogspot.com/2026/08/not-drop-out-ethanols-zero-liquid.html) — 5 matches — see `not-drop-out-ethanols-zero-liquid.md`
 - [UPI Mimicking the Plastic Card: Will MDR Be Like Visa Fees?](https://masaladeutsch.blogspot.com/2026/08/beyond-pump-what-upi-fee-would-cost.html) — 4 matches — see `beyond-pump-what-upi-fee-would-cost.md`
 - [Do CBSE Past Papers Actually Help? Depends Which of the 11 Subjects You Ask.](https://masaladeutsch.blogspot.com/2026/09/do-cbse-past-papers-actually-help.html) — 4 matches — see `do-cbse-past-papers-actually-help.md`
 - [GAIL and Sumitomo Both Turned Their TruAlt MOUs Into Binding CBG Deals Within a Year. BPCL's Has Gone Quiet.](https://masaladeutsch.blogspot.com/2026/09/gail-and-sumitomo-both-turned-their.html) — 4 matches — see `gail-and-sumitomo-both-turned-their.md`
 - [How India Actually Plans to Hit Net Zero: Eleven Scenarios, a Rising Coal Curve, and a ₹20,000 Crore Bet on Carbon Capture](https://masaladeutsch.blogspot.com/2026/08/how-india-actually-plans-to-hit-net.html) — 4 matches — see `how-india-actually-plans-to-hit-net.md`
+- [How to use global-stock-screener: rule-based stock screens, offline](https://masaladeutsch.blogspot.com/2026/10/how-to-use-global-stock-screener-rule.html) — 4 matches — see `how-to-use-global-stock-screener-rule.md`
 - [How to use market_screener_rag: backtested stock strategies by country](https://masaladeutsch.blogspot.com/2026/10/how-to-use-marketscreenerrag-backtested.html) — 4 matches — see `how-to-use-marketscreenerrag-backtested.md`
 - [India Has 28,000 km of Gas Pipeline Working and 7,000 km Still to Build. A Map of Where, and of the Lines Still on Paper](https://masaladeutsch.blogspot.com/2026/10/india-has-27400-km-of-gas-pipeline.html) — 4 matches — see `india-has-27400-km-of-gas-pipeline.md`
 - [India's Ethanol Plants Are Sitting on Food-Grade CO2. Its Spice-Extract Industry Needs Exactly That. Nobody's Named the Deal.](https://masaladeutsch.blogspot.com/2026/09/indias-ethanol-plants-are-sitting-on.html) — 4 matches — see `indias-ethanol-plants-are-sitting-on.md`
@@ -89,6 +91,7 @@
 - [AHIDF Has Sanctioned ₹19,751 Crore in Animal-Husbandry Loans. Only 39% of It Has Reached a Bank Account.](https://masaladeutsch.blogspot.com/2026/08/ahidf-has-sanctioned-19751-crore-in.html) — 2 matches — see `ahidf-has-sanctioned-19751-crore-in.md`
 - [Bagasse Is the One Crop Residue Already Sitting at a Factory Gate. Labs Have Liquefied and Hydrolysed It. Nobody Has Priced It Against the Boiler](https://masaladeutsch.blogspot.com/2026/10/bagasse-is-one-crop-residue-already.html) — 2 matches — see `bagasse-is-one-crop-residue-already.md`
 - [Can Rupee Trade Actually Offset the Inflation India Is Importing?](https://masaladeutsch.blogspot.com/2026/08/can-rupee-trade-actually-offset.html) — 2 matches — see `can-rupee-trade-actually-offset.md`
+- [Cheap Yen, Rupee Roads: Where the Carry Trade Meets Project Bonds](https://masaladeutsch.blogspot.com/2026/08/cheap-yen-rupee-roads-where-carry-trade.html) — 2 matches — see `cheap-yen-rupee-roads-where-carry-trade.md`
 - [Electrification Is LNG's Biggest Decarbonization Lever. The Grid Is What Actually Limits It](https://masaladeutsch.blogspot.com/2026/09/electrification-is-lngs-biggest.html) — 2 matches — see `electrification-is-lngs-biggest.md`
 - [Endoscopes Never Made India's PLI List. At 57% Export Coverage, They Didn't Need To.](https://masaladeutsch.blogspot.com/2026/09/endoscopes-never-made-indias-pli-list.html) — 2 matches — see `endoscopes-never-made-indias-pli-list.md`
 - [Engineering and Auto-Component Makers File More SEBI DRHPs Than Any Other Sector — Not Tech, Not Finance](https://masaladeutsch.blogspot.com/2026/09/engineering-and-auto-component-makers.html) — 2 matches — see `engineering-and-auto-component-makers.md`
@@ -195,6 +198,7 @@
 - [How to use the news tracker: score headlines and check them against stock picks](https://masaladeutsch.blogspot.com/2026/10/how-to-use-news-tracker-score-headlines.html) — 1 matches — see `how-to-use-news-tracker-score-headlines.md`
 - [How to use patient-history-tracking: a demo ICU dashboard and linked record](https://masaladeutsch.blogspot.com/2026/10/how-to-use-patient-history-tracking.html) — 1 matches — see `how-to-use-patient-history-tracking.md`
 - [How to use piotroski-liquidity-research: a point-in-time test of the Piotroski F-score and liquidity](https://masaladeutsch.blogspot.com/2026/10/how-to-use-piotroski-liquidity-research.html) — 1 matches — see `how-to-use-piotroski-liquidity-research.md`
+- [How to use price_prediction_backtest: honest walk-forward tests of price-prediction models](https://masaladeutsch.blogspot.com/2026/10/how-to-use-pricepredictionbacktest.html) — 1 matches — see `how-to-use-pricepredictionbacktest.md`
 - [ICRA Rates Most of India's Economy Stable. Three Sectors Got Hit by the Same Shock](https://masaladeutsch.blogspot.com/2026/09/icra-rates-most-of-indias-economy.html) — 1 matches — see `icra-rates-most-of-indias-economy.md`
 - [India Approved ₹1.5 Lakh Crore in Manufacturing Subsidies. Parliament's Own Answers Show How Little of It Has Actually Been Paid.](https://masaladeutsch.blogspot.com/2026/08/india-approved-15-lakh-crore-in.html) — 1 matches — see `india-approved-15-lakh-crore-in.md`
 - [India Built an Offshore Insurance Hub. It Writes $12 Million of Direct Cover a Year.](https://masaladeutsch.blogspot.com/2026/09/india-built-offshore-insurance-hub-it.html) — 1 matches — see `india-built-offshore-insurance-hub-it.md`
@@ -273,4 +277,3 @@
 - [Wheat's Support Price Rose by ₹25, the Smallest Rise in Years. The Granaries Explain Why](https://masaladeutsch.blogspot.com/2026/10/wheats-support-price-rose-by-25.html) — 1 matches — see `wheats-support-price-rose-by-25.md`
 - [Where the World's Oil Sits When It Isn't Moving: Storage, Floating Barrels, and the Hormuz Shock of 2026](https://masaladeutsch.blogspot.com/2026/08/where-worlds-oil-sits-when-it-isnt.html) — 1 matches — see `where-worlds-oil-sits-when-it-isnt.md`
 - [Who Collects India's GST, and Who Actually Gets It Back](https://masaladeutsch.blogspot.com/2026/08/who-collects-indias-gst-and-who.html) — 1 matches — see `who-collects-indias-gst-and-who.md`
-- [Cheap Yen, Rupee Roads: Where the Carry Trade Meets Project Bonds](https://masaladeutsch.blogspot.com/2026/08/cheap-yen-rupee-roads-where-carry-trade.html) — 0 matches — see `cheap-yen-rupee-roads-where-carry-trade.md`
