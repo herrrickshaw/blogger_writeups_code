@@ -16648,3 +16648,16 @@ youtube-demo-uploads 2026-10-30: 9 new how-to posts live
 
 - `how-to-use-uco-ulo-tracking-chain-of` — 29,237 → 29,356 bytes (+119)
 - `how-to-use-ship2shorerag-offline` — 24,565 → 24,446 bytes (-119)
+
+## 2026-10-30T09:31:31+05:30 — 484 posts live
+
+index rebuilt 483 posts after youtube-demo-uploads 2026-10-30
+
+
+**Versions**
+
+- `article-index-start-here` **70.4.0 → 70.5.0** (MINOR) — forced via --as minor (figures changed (+2/-3 distinct numbers))
+
+**Changed**
+
+- `article-index-start-here` — 925,928 → 937,369 bytes (+11,441)

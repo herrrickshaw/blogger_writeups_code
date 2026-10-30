@@ -4,10 +4,10 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html",
   "slug": "article-index-start-here",
   "published": "2026-08-02T10:43:26.000+05:30",
-  "updated": "2026-10-29T09:30:40.710+05:30",
+  "updated": "2026-10-30T09:30:56.677+05:30",
   "labels": [],
-  "bytes": 925928,
-  "sha256": "dbc81e3475383122ab118002718f8727ed6e1c90fb44af5afe7dffcd66635f52",
+  "bytes": 937369,
+  "sha256": "4076f6d65c31a0fbb988c17e98181bf03408909b8b086f13f7a2fe6e6c5196a7",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "70.4.0",
+  "version": "70.5.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -2418,6 +2418,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "youtube-demo-uploads: index rebuilt with uco-ulo-tracking (474 posts)"
+    },
+    {
+      "version": "70.5.0",
+      "date": "2026-10-30T09:31:31+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+2/-3 distinct numbers))",
+      "bytes": [
+        925928,
+        937369
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "index rebuilt 483 posts after youtube-demo-uploads 2026-10-30"
     }
   ]
 }
