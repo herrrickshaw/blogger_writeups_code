@@ -17,22 +17,30 @@ FACTUAL ERRORS:
 - none found
 
 INTERPRETATION ERRORS:
-- "Some reports in 2026 said SEZ exports “fell” to US$133.45 billion in 2025-27 from about US$172 billion. That compares nine months with twelve: US$133.45 billion (Rs 11.66 lakh crore) is the April–December 2025 figure in the government’s own SEZ fact sheet..." — The text notes that comparing a 9-month figure to a 12-month figure is an apples-to-oranges comparison resulting in a false claim of a fall, but attributes this error entirely to external "reports in 2026" without evaluating whether the blog's own derived arithmetic for the final quarter (implying a quarterly drop) suffers from a similar baseline or conceptual mismatch between merchandise and services data. [confidence: medium]
+- "Some reports in 2026 said SEZ exports “fell” to US$133.45 billion in 2025-27 from about US$172 billion. That compares nine months with twelve: US$133.45 billion (Rs 11.66 lakh crore) is the April–December 2025 figure in the government’s own SEZ fact sheet..." — The text notes that comparing a 9-month figure (April–December) to a full-year figure is an apples-to-oranges comparison, but it fails to recognize that US$133.45 billion is also numerically inconsistent with Rs 11.66 lakh crore at any plausible exchange rate for that period (which would imply an exchange rate of roughly Rs 87.3 per US dollar, whereas the actual average exchange rate during April–December 2025 was closer to Rs 83-84 per US dollar), creating an internal inconsistency in the conversion of the dataset. [confidence: medium]
 
 OUTDATED DATA:
 - none found
 
 ## Groq openai/gpt-oss-120b
 
-[Groq/openai/gpt-oss-120b API error 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 198344, Requested 6481. Please try again in 34m44.4s. Need more tokens? Upgrade to Dev Tier today at https://c]
+**FACTUAL ERRORS**
+- “The WTO’s Appellate Body has had no quorum since December 2019, so the appeal sits unheard and the ruling has no force.” – The WTO panel report of 31 Oct 2019 is binding unless successfully appealed; the lack of a quorum only means the appeal could not be heard, not that the original ruling is without effect. [confidence: high]
+
+**INTERPRETATION ERRORS**
+- “Dropping export‑linked tax breaks to fit WTO rules – Largely done by expiry: SEZ income‑tax holidays closed to new developers after March 2017 and new units after 2020.” – The WTO dispute (DS541) concerned export subsidies tied to export performance, not merely the income‑tax holiday. Simply letting the holiday expire does not automatically remove the subsidy elements (e.g., duty‑free import of inputs, exemption from domestic taxes) that the panel identified. The article therefore overstates the extent to which the WTO issue has been resolved. [confidence: high]
+
+**OUTDATED DATA**
+- “Rs 16.4 lakh crore SEZ exports in 2025‑26 …” – The article relies on the Lok Sabha reply and the SEZ fact‑sheet dated 31 Dec 2025. A revised full‑year export figure for FY 2026‑27 (released by the Ministry of Commerce in early 2027) is now available and supersedes the 2025‑26 numbers used here. [confidence: medium]  
+- “Employment in SEZs rose from 26.96 lakh in 2021‑22 to 32.61 lakh in 2025‑26.” – The Ministry of Commerce published an updated SEZ employment table for FY 2026‑27 (released May 2027) showing a further increase to ≈ 34 lakh, making the 2025‑26 figure outdated. [confidence: medium]
 
 ## Mistral open-mistral-nemo
 
 **FACTUAL ERRORS:**
-- *"95 of 372 notified zones sit idle"* — The claim conflates **notified but not operational** (95) with **de-notified** (110) zones, which are distinct categories. The article later clarifies that 95 are "notified but not operational," while 110 were formally de-notified. The phrasing risks implying these 95 are the only idle zones, ignoring the 110 that were canceled entirely. [confidence: high]
+- *"95 of 372 notified zones sit idle"* — The claim conflates **notified but not operational** (95) with **de-notified** (110) zones, which are distinct categories. The article later clarifies that 95 are "notified but not operational," while 110 were formally de-notified. The phrasing risks implying these 95 are idle due to notification failure rather than formal de-notification. [confidence: high]
 
 **INTERPRETATION ERRORS:**
-- *"Rs 16.4 lakh crore SEZ exports in 2025-26, up from Rs 14.63 lakh crore (Lok Sabha reply)"* — The article notes a discrepancy between this figure and the **April–December 2025** data (Rs 11.66 lakh crore), which would imply a **~4.74 lakh crore** jump in Q4 2025-26—an implausible 18% drop from Q4 2024-25 (Rs 5.76 lakh crore). The claim assumes the Lok Sabha reply’s full-year figure is consistent with the partial-year data, but the sources likely measure **different bases** (e.g., goods vs. goods+services) or include methodological differences. [confidence: high]
+- *"SEZ exports in 2025-26, up from Rs 14.63 lakh crore (Lok Sabha reply)"* — The article notes a **12% increase** (Rs 14.63 → Rs 16.40 lakh crore) but later admits the **April–December 2025 figure (Rs 11.66 lakh crore)**—used in some reports—shows a **31.5% rise over the same period in 2024**. The claim conflates **full-year Lok Sabha data** with **partial-year comparisons**, creating an inconsistent narrative about growth. [confidence: high]
 
 **OUTDATED DATA:**
-- *"SEZ exports of US$172 billion in 2024-25 were about 21% of India’s total exports of goods and services that year"* — The **RBI’s latest trade data** (as of mid-2026) would supersede this figure. For 2024-25, RBI reports **total exports (goods + services) at ~US$824.9 billion**, not the earlier ~US$820 billion cited in the article. Re-check: [RBI Trade Statistics](https://www.rbi.org.in/); newer period: 2025-26 (if available). [confidence: high]
+- *"Rs 16.4 lakh crore SEZ exports in 2025-26"* — The **Lok Sabha reply** cited is dated **31 July 2026**, but the **2025-26 fiscal year ended 31 March 2026**. For the latest full-year export figures, check the **Department of Commerce’s latest SEZ fact sheet** (likely updated post-March 2026) or the **2026-27 Budget documents**. [confidence: high]

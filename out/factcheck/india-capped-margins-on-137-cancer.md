@@ -24,24 +24,25 @@ OUTDATED DATA:
 
 ## Groq openai/gpt-oss-120b
 
-[Groq/openai/gpt-oss-120b API error 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 3492, Requested 6067. Please try again in 11.692499999s. Need more tokens? Upgrade to Dev Tier today at https]
+**FACTUAL ERRORS**  
+- *“The order also covers patented drugs…”* — The NPPA trade‑margin order (S.O. 5690(E) 2026) applies only to **non‑scheduled** medicines, which are by definition those **not on the National List of Essential Medicines** and are typically generic formulations. Patented cancer medicines are usually placed under a ceiling‑price regime (DPCO) rather than the trade‑margin cap. Stating that the order “covers patented drugs” mischaracterises the scope of the order. [confidence: medium]  
+
+- *“The Competition Commission’s 2021 market study found that companies compete for pharmacy shelf space mainly by offering higher margins, especially on trade generics.”* — The CCI’s 2021 study examined competition in the pharmaceutical market broadly and highlighted price competition, product differentiation and promotional spending; it did **not** single out “higher margins” as the primary mechanism for securing shelf space. The article overstates the study’s conclusions. [confidence: medium]  
+
+**INTERPRETATION ERRORS**  
+- *“The cheaper alternative already on sale … suggests the margin, more than
 
 ## Mistral open-mistral-nemo
 
 **FACTUAL ERRORS:**
-- **"16% of the Rs 10,030 crore NPPA has demanded for overcharging had been recovered by March 2026"** — The article states the recovery rate as **16%** (Rs 1,582 crore recovered out of Rs 10,030 crore), but the **parliamentary replies (2016, 2018) and March 2026 explainer** cited in the sources show **Rs 1,582 crore recovered out of Rs 10,030 crore = ~15.77%**, not exactly 16%. While the rounding is minor, the claim of **16%** is slightly off the precise calculation. [confidence: high]
-
-- **"The committee put the unrecovered sum at Rs 8,526 crore"** — The article later clarifies that the **committee’s figure was Rs 8,447 crore** (from the explainer), while the article itself states Rs 8,526 crore. This discrepancy suggests a possible transcription error. [confidence: high]
-
----
+- *"16% of the Rs 10,030 crore NPPA has demanded for overcharging had been recovered by March 2026"* — The article later clarifies that the **March 2026 recovery figure is Rs 1,582 crore**, not Rs 1,604 crore (16% of Rs 10,030 crore). The claim here incorrectly rounds up to 16% (which would be Rs 1,604.8 crore) instead of the precise 15.78% (Rs 1,582 crore). [confidence: high]
 
 **INTERPRETATION ERRORS:**
-- **"The regulator has recovered about a sixth of what it says companies overcharged"** — While the **16% recovery rate** is factually close to the data, the phrasing **misrepresents the scale of enforcement**. The article later notes that **70% of the unrecovered Rs 8,526 crore (~Rs 5,968 crore) is tied up in court for over 20 years**, meaning the **actual recovery rate is far lower than implied by the 16% figure alone**. The claim conflates **demanded vs. recovered amounts** without acknowledging the **legal paralysis** preventing repayment. [confidence: high]
+- *"The regulator has recovered about a sixth of what it says companies overcharged"* — This claim conflates the **cumulative demanded amount (Rs 10,030 crore)** with the **recovered amount (Rs 1,582 crore)**, implying a consistent 16% recovery rate across all years. However, the article’s own data shows recovery rates fluctuated (8% in 2016, 14% in 2018), and the 16% figure is only for **March 2026**. The phrasing misrepresents the trend as stable. [confidence: high]
 
-- **"The list grew from the 110 drugs first proposed"** — The article does not provide **evidence or a source** for this claim. The **2026 order (S.O. 5690(E))** explicitly lists **137 drugs**, but there is no citation linking this to a "first proposed" list of 110 drugs. This could be an **unverified extrapolation** or error. [confidence: medium]
+**OUTDATED DATA:**
+- *"India’s medicine sales were about Rs 2.41 lakh crore in 2025"* — The **latest official market size data** (e.g., from IMS Health/Pharmarack or NPPA) likely includes **2026 estimates** or revised 2025 figures. The source (Pharmarack via *The Tribune*, 2025) may not reflect post-2025 trends (e.g., inflation, policy changes). [confidence: high]
+- *"The committee’s December 2025 report showed... cetirizine at Rs 21.06 vs. Rs 2 stockist price"* — The **2025 report’s data** may have been superseded by **March 2026 NPPA updates** or newer parliamentary committee findings. The article cites secondary sources (Vision IAS, *The Tribune*), which could lack granularity. [confidence: medium]
 
 ---
-**OUTDATED DATA:**
-- **"India’s medicine sales were about Rs 2.41 lakh crore in 2025"** — The **latest official market size data** (e.g., from **Pharmarack, IMS Health, or the Department of Pharmaceuticals**) likely includes **2026–27 estimates**. The **2025 figure may be outdated** given the **28 October 2026 publication date**. Re-check: **Pharmarack’s latest market reports or DPCO updates** for 2026–27. [confidence: high]
-
-- **"The March 2026 recovery figures come from an explainer of official data"** — While the **March 2026 recovery data (Rs 1,582 crore)** is cited, the **article does not confirm whether this is the latest available figure**. The **NPPA’s official dashboard or Lok Sabha replies for 2026–27** may have newer data. Re-check: **NPPA’s latest recovery reports or RTI queries for 2026–27**. [confidence: high]
+*Note: No other distinct factual, interpretive, or outdated-data issues were flagged based on the provided text.*

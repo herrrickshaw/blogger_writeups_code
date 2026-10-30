@@ -16661,3 +16661,14 @@ index rebuilt 483 posts after youtube-demo-uploads 2026-10-30
 **Changed**
 
 - `article-index-start-here` — 925,928 → 937,369 bytes (+11,441)
+
+## 2026-10-31T05:13:03+05:30 — 487 posts live
+
+defence exports, securities code, state WMA posts
+
+
+**Added**
+
+- `states-can-draw-rs-61008-crore-of-short` **v1.0.0** — States Can Draw Rs 61,008 Crore of Short-Term Credit From the RBI. A Few Live on It, While the Rest Park Up to Three Times That in Treasury Bills (25,206 bytes)
+- `indias-new-securities-code-gives-sebi` **v1.0.0** — India’s New Securities Code Gives SEBI 180 Days to Finish a Probe. Most Take a Year or More (26,387 bytes)
+- `defence-exports-rose-63-to-rs-38424` **v1.0.0** — Defence Exports Rose 63% to Rs 38,424 Crore. State Firms Supplied 86% of the Rise, and the 2029 Export Target Is Already Within Reach (26,760 bytes)

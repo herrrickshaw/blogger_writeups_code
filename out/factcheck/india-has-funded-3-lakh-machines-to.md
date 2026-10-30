@@ -17,28 +17,35 @@ FACTUAL ERRORS:
 - none found
 
 INTERPRETATION ERRORS:
-- "The power sector burnt about 859 million tonnes of coal in 2023-24, so the 2024-25 volume was about 0.2% of that coal." — Comparing biomass co-firing tonnage in 2024-25 against the power sector's total coal consumption from the *previous* fiscal year (2023-24) to establish a percentage is an apples-to-oranges temporal mismatch; coal consumption figures for 2024-25 should ideally be used to calculate the contemporaneous co-firing percentage. [confidence: medium]
+- "The power sector burnt about 859 million tonnes of coal in 2023-24, so the 2024-25 volume was about 0.2% of that coal." — Comparing the biomass co-firing volume of one fiscal year (2024-25) directly against the total coal consumption of a different fiscal year (2023-24) is an apples-to-oranges comparison; while it serves as a rough order-of-magnitude illustration, it divides 2024-25 biomass consumption by 2023-24 coal consumption rather than using contemporaneous data for both numerators and denominators. [confidence: medium]
 
 OUTDATED DATA:
 - none found
 
 ## Groq openai/gpt-oss-120b
 
-[Groq/openai/gpt-oss-120b API error 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 3453, Requested 7870. Please try again in 24.9225s. Need more tokens? Upgrade to Dev Tier today at https://co]
+[Groq/openai/gpt-oss-120b API error 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Requested 8058, please reduce your message size and try again. Need more tokens? Upgrade to Dev Tier today at https]
 
 ## Mistral open-mistral-nemo
 
 **FACTUAL ERRORS:**
-- *"0.2% biomass actually co-fired in coal plants in FY25 (1.62 Mt), against a 5–7% mandate"* — The claim conflates **weight-based** (1.62 Mt) and **energy-based** compliance (5–7% of coal’s calorific value). The 1.62 Mt figure alone represents **~0.2% by weight** of FY24’s 859 Mt coal consumption, but the mandate is **energy-equivalent** (not mass-equivalent). The article does not clarify this distinction, which is critical for interpreting compliance. [confidence: high]
+- *"0.2% biomass actually co-fired in coal plants in FY25 (1.62 Mt)"* — The claim conflates two separate data points: **1.62 Mt co-fired in FY24-25** (as per Argus, Dec 2025) and the **0.2% share of total coal consumption** (859 Mt in 2023-24). The article incorrectly labels the 1.62 Mt figure as FY25’s *percentage* of co-firing, when it is actually the *absolute volume* for FY24-25. The 0.2% figure is a correct calculation for FY24-25 but misattributed to FY25 alone. [confidence: high]
 
 ---
 
 **INTERPRETATION ERRORS:**
-- *"The binding constraint is collection, not demand"* — While straw collection capacity is limited (e.g., only 4,500 balers/rakes vs. 23 Mt burnt annually), the claim ignores **supply-side bottlenecks beyond collection**. For example:
-  1. **Storage logistics**: Straw must be dried to <20% moisture for pelletization/briquetting, but collection happens in a 4–6 week window, leaving little time for drying. The article notes storage costs are 20–30% of delivered prices but does not weigh this against the **seasonal mismatch** between supply (post-harvest) and demand (year-round).
-  2. **Quality variability**: Paddy straw’s high ash content (per SSS-NIBE) makes it less suitable for co-firing than wheat straw or sugarcane bagasse, yet the article treats all residues as interchangeable in demand projections. [confidence: high]
+- *"The target was 1.5 million tonnes of straw through 333 collection centres of 4,500 tonnes each"* — The claim implies a **direct causal link** between the 1.5 Mt target and the 333 centres (4,500 t each), but the article later states *"No count of projects sanctioned or tonnes collected under the window was found."* Without verified data on actual collection, the target cannot be treated as a realized outcome of the 333 centres. The reasoning assumes the centres *achieved* the 1.5 Mt target, which is unsupported. [confidence: high]
+
+- *"Punjab alone targeted about 6 million tonnes of straw for ex-situ use in 2025"* — The "target" is derived from **straw production estimates** (e.g., 22 Mt surplus in Punjab) minus in-situ use, not an official government target. The article treats this as a demand-side benchmark, but it conflates *potential surplus* with *actual demand* from industries (e.g., coal plants, pellet makers), which may not align with farmers’ willingness to sell or aggregators’ capacity. [confidence: medium]
 
 ---
 **OUTDATED DATA:**
-- *"National Biomass Atlas of India (SSS-NIBE, for MNRE), triennium ending 2017–18"* — The latest **National Biomass Atlas** (2023 update) is available on the [MNRE’s official portal](https://nibe.res.in) and includes revised state-wise surplus estimates (e.g., Gujarat’s surplus now cited as ~25 Mt vs. 21.74 Mt in 2017–18). The article’s figures (e.g., Punjab: 22.25 Mt) may be outdated. [confidence: high]
-- *"Coal plants co-fired about 1.62 million tonnes of biomass in 2024-25"* — The **Power Ministry’s latest monthly data** (as of Dec 2025) shows **3.42 Mt co-fired in Jan–Oct 2025 alone**, with FY26 projections exceeding 5 Mt. The article’s FY25 total (1.62 Mt) is likely a **year-end estimate** and should be cross-checked with the [SAMARTH dashboard](https://samarth.powermin.gov.in) for FY26 updates. [confidence: high]
+- *"Coal plants co-fired about 1.62 million tonnes of biomass in 2024-25"* — The article cites **Argus (Dec 2025)** for this figure, but the **power ministry’s latest official data** (likely for FY25-26) may have been released post-December 2025. For real-time tracking, check the **Ministry of Power’s monthly biomass co-firing reports** (e.g., [SAMARTH portal](https://samarth.powermin.gov.in)) or the **CERC’s latest biomass co-firing data**. [confidence: high]
+
+- *"National Biomass Atlas of India (SSS-NIBE, for MNRE), triennium ending 2017-18"* — The atlas is **decade-old** (2015–18 data). The **MNRE has not updated it**, but newer estimates (e.g., **2023–24 biomass potential studies** by SSS-NIBE or NITI Aayog) may reflect changes in crop patterns, irrigation, or residue management. For current surpluses, cross-check with:
+  - **MNRE’s latest biomass resource assessments** (e.g., [MNRE website](https://mnre.gov.in))
+  - **NITI Aayog’s biomass reports** (e.g., [NITI Aayog portal](https://niti.gov.in))
+  - **FAO/ISICCE’s India biomass inventory** (if available). [confidence: high]
+
+---
+**Note:** The article’s **2026 publication date** does not invalidate fact-checking—only claims that are **plausible but unsupported** (e.g., interpretation errors) or **verifiably outdated** (e.g., atlas data) are flagged. No other categories had actionable issues.

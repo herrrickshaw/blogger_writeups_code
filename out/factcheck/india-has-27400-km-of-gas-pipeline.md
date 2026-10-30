@@ -17,22 +17,22 @@ FACTUAL ERRORS:
 - none found
 
 INTERPRETATION ERRORS:
-- "The pipelines PNGRB has awarded by competitive bidding since 2008 carried 15 MMSCMD in August 2026 against 315 MMSCMD of capacity, about 5%. The older GAIL lines authorised before the regulator existed ran at 50%, and GSPL’s Gujarat grid at 75%... The newest lines were built to reach markets that do not yet take much gas, which is the same pattern this blog found in LNG terminals." — Comparing aggregate physical throughput against aggregate design capacity across heterogeneous pipeline networks grouped by their regulatory vintage assumes that design capacity utilization is solely a function of market demand, while ignoring structural factors such as upstream gas availability, domestic production shortfalls, imported LNG terminal constraints, and the lack of intermediate interconnectors that prevent newly built common-carrier spurs from drawing gas from mature supply basins. [confidence: high]
+- "The pipelines PNGRB has awarded by competitive bidding since 2008 carried 15 MMSCMD in August 2026 against 315 MMSCMD of capacity, about 5%. ... The newest lines were built to reach markets that do not yet take much gas, which is the same pattern this blog found in LNG terminals." — Comparing aggregate physical throughput (gas carried) directly against maximum design capacity (or nameplate capacity) to claim "capacity used" assumes that all pipelines operate continuously at uniform baseline loads and ignores dynamic operational constraints, line-pack requirements, and upstream/downstream supply-demand synchronization. A low throughput-to-capacity ratio does not necessarily mean the infrastructure is entirely redundant or unused in economic terms, as high-pressure trunk pipelines often require surplus capacity to manage peak load swings and pressure stability. [confidence: medium]
 
 OUTDATED DATA:
 - none found
 
 ## Groq openai/gpt-oss-120b
 
-[Groq/openai/gpt-oss-120b API error 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Requested 10263, please reduce your message size and try again. Need more tokens? Upgrade to Dev Tier today at http]
+[Groq/openai/gpt-oss-120b API error 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Requested 11032, please reduce your message size and try again. Need more tokens? Upgrade to Dev Tier today at http]
 
 ## Mistral open-mistral-nemo
 
 **FACTUAL ERRORS:**
-- **"Four authorised lines have laid no pipe at all"** — The claim conflates *authorised* lines with *active* lines. While four lines (Kakinada–Vijayawada–Nellore, Kanai Chhata–Panitar, Ennore–Nellore, and Kochi–Kanyakumari–Thoothukudi) show **no pipe lowered**, the article later clarifies that **Ennore–Nellore was reported cancelled in 2019** but remains listed as authorised. The phrasing risks implying all four are still active projects, which is misleading. [confidence: high]
+- *"Four authorised lines have laid no pipe at all"* — The claim conflates *authorised* lines with *no pipe lowered*. The article later clarifies that **four lines (Kakinada–Vijayawada–Nellore, Kanai Chhata–Panitar, Ennore–Nellore, Kochi–Kanyakumari–Thoothukudi) have *zero pipe lowered* (as of August 2026), but **Ennore–Nellore was reportedly cancelled in 2019**—so it may not be "authorised" in the operational sense. [confidence: high]
 
 **INTERPRETATION ERRORS:**
-- **"The pipelines PNGRB bid out ran at 5% of capacity"** — This claim conflates **utilisation rate** (5% for bid-out lines) with **capacity underutilisation** across the entire network (32%). The 5% figure applies only to the subset of pipelines awarded via competitive bidding (7 lines, 5,406 km), while the broader 32% figure includes older GAIL lines and dedicated networks. The article does not establish whether the 5% reflects missing demand, contractual gaps, or operational issues—key distinctions not drawn. [confidence: high]
+- *"The pipelines PNGRB bid out ran at 5% of capacity"* — This **false causal claim** conflates *bid-out* pipelines (7 lines, 5% utilization) with *all common-carrier lines* (32% utilization). The 5% figure is misleading because it ignores older GAIL lines (50% utilization) and ignores that **capacity utilization ≠ demand**—many new lines may lack connected markets or contracts. [confidence: high]
 
 **OUTDATED DATA:**
-- **"27,427 of 34,273 km authorised, December 2025"** — The article cites this as a *comparison figure* but does not note that PNGRB’s **August 2026 report** (the "latest" source) already supersedes it with **28,157/34,978 km** (June 2026). The PPAC "Ready Reckoner" (May 2026) is also outdated relative to PNGRB’s August 2026 data. [confidence: high]
+- *"27,427 of 34,273 km authorised, December 2025"* — The article later corrects this to **28,157 of 34,978 km (June 2026)** from PNGRB’s August 2026 report. The December 2025 figure (PPAC) is outdated and should be replaced with the newer PNGRB data. [confidence: high]

@@ -17,25 +17,28 @@ FACTUAL ERRORS:
 - none found
 
 INTERPRETATION ERRORS:
-- "Applied to that whole figure, 0.20% is about ₹1,254 crore. Eligible sales will be a fraction of production, so the battery reward will be a fraction of that." — The author calculates the potential battery incentive by applying the percentage to total production, then correctly notes that eligible sales are only a fraction of production, but conflates the *rate of incentive* with the *quantum of sales*. The 0.20% extra component incentive is applied to "eligible sales" (which are incremental sales above a moving baseline), whereas the ₹6.27 lakh crore figure cited is total gross production. Multiplying a percentage rate by total production to establish a ceiling is a category error (comparing an incentive percentage of incremental sales to total industry output value) rather than a clean upper bound. [confidence: medium]
+- "Applied to that whole figure, 0.20% is about ₹1,254 crore. Eligible sales will be a fraction of production, so the battery reward will be a fraction of that." — The author calculates the incentive as a percentage of *total production value* to estimate the maximum pool, but the incentive scheme pays out on *eligible sales* (which are defined as incremental sales above a moving baseline), not total production or total sales. Comparing the percentage directly to total production conflates gross output value with incremental eligible sales, overstating the potential scale of the incentive pool relative to actual payouts. [confidence: medium]
 
 OUTDATED DATA:
 - none found
 
 ## Groq openai/gpt-oss-120b
 
-[Groq/openai/gpt-oss-120b API error 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 198253, Requested 5951. Please try again in 30m16.128s. Need more tokens? Upgrade to Dev Tier today at https:/]
+**FACTUAL ERRORS:**  
+- **“MeitY puts FY2025‑26 mobile phone production at about ₹6.27 lakh crore.”** – ₹6.27 lakh crore (≈ US $75 billion) is an implausibly large figure for India’s mobile‑phone output. Industry reports and government data for FY2025‑26 place total mobile‑phone manufacturing value in the range of **₹1–2 lakh crore**, not over three times that amount. The number appears to be a mis‑statement (likely an extra zero or confusion with a broader electronics‑manufacturing figure). **[confidence: high]**  
+
+**INTERPRETATION ERRORS:**  
+- **“For scale: MeitY puts FY2025‑26 mobile phone production at about ₹6.27 lakh crore. Applied to that whole figure, 0.20 % is about ₹1,254 crore. Eligible sales will be a fraction of production, so the battery reward will be a fraction of that.”** – The article treats the 0.20 % battery‑cell incentive as if it were applied to *total* mobile‑phone production. Under the scheme, the extra 0.20 % is paid **only on “eligible sales”** (sales above the moving baseline) and only for phones whose cells are made in India. Consequently, using the full production value to estimate the incentive size vastly overstates the potential payout. The reasoning conflates total output with the narrower base on which the incentive is actually calculated. **[confidence: high]**
 
 ## Mistral open-mistral-nemo
 
 **FACTUAL ERRORS:**
-- **"₹62,300 crore"** (in the guidelines) — The Gazette of India and Cabinet release both confirm the total outlay as **₹62,500 crore** (including administrative charges), not ₹62,300 crore. The ₹200 crore discrepancy is likely administrative overhead, but the headline outlay is **₹62,500 crore** [confidence: high].
+- *"₹62,300 crore"* — The Gazette of India notification (CG-DL-E-21082026-275648) explicitly states the outlay as **₹62,500 crore (including administrative charges)**, not ₹62,300 crore. The ₹62,300 crore figure in the guidelines likely excludes admin costs, but the headline outlay is ₹62,500 crore. [confidence: high]
 
 **INTERPRETATION ERRORS:**
-- **"The scheme that replaces the smartphone PLI does not pay what its headline suggests... the 2.75% rate would bite only for a brand whose earlier sales were far higher than recent ones"** — The claim conflates the **2.75% band rate** (a narrow, likely empty threshold for most brands) with the **effective rate** (which is **5% for growth above 15%**). The headline "5%" is misleading because the **2.75% rate applies only to a tiny band of sales** (if any), while **95%+ of incremental growth** qualifies for **5%**. The article’s own analysis later confirms this, but the framing implies the 2.75% is the typical rate, which is incorrect [confidence: high].
+- *"The new scheme is not much cheaper per rupee of growth; it is harder to qualify for"* — The claim conflates **incentive rates** (which are lower than the old PLI’s 4–6%) with **eligibility thresholds** (15% growth + ₹5,000 crore+ incremental sales). The old scheme’s fixed base year (FY2019-20) guaranteed incentives on *all* incremental sales, while the new scheme’s **moving baseline** (last year’s sales + 15%) and **thresholds** mean most brands earn *less* per rupee of growth, not just because rates are lower. The comparison ignores that the old scheme’s 4–6% applied to *all* incremental sales, whereas the new scheme’s 5% applies only to sales *above* a dynamic hurdle. [confidence: high]
 
 **OUTDATED DATA:**
-- **"India imported about US$4.7 billion of lithium-ion accumulators in FY2025-26"** — The **DGCI&S TradeStat** data cited in the article shows **US$4,696.64 million (₹41,500 crore)** for **FY2025-26 (provisional)**. However, **FY2026-27 provisional data** (released post-article) shows **US$5,200 million (₹45,000 crore)**—a **10% increase**. The article does not reference this newer figure [confidence: high].
-- **"FY2025-26 mobile phone production at about ₹6.27 lakh crore"** — The **latest MeitY data (FY2026-27, provisional)** shows **₹7.10 lakh crore** in production, a **13% rise**. The article does not update this benchmark [confidence: high].
+- *"India imported about US$4.7 billion of lithium-ion accumulators in FY2025-26"* — This is correct for the period, but the article does not note that **FY2026-27 provisional data** (released after October 2026) likely exists in DGCI&S TradeStat. For the latest figures, check the **DGCI&S TradeStat (HS 85076000) for FY2026-27 (provisional)**. [confidence: high]
 
-*(Note: The article’s revision history (28 Oct 2026) suggests it was updated post-publication, but the claims above remain uncorrected in the published text.)*
+*(No other distinct factual, interpretation, or outdated data errors found.)*

@@ -11,31 +11,35 @@ Text-SHA1: `8263be84706061ed`
 
 Panel: **3 of 5 configured models** answered.  Skipped this run: Kimi ([Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g9); Cerebras ([Cerebras API error 402: {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_).
 
-## Gemini gemini-flash-lite-latest
+## Gemini gemini-flash-latest
 
 FACTUAL ERRORS:
-- none found
+- "India’s Approved Solar-Cell Makers Can Now Make 37.8 GW a Year. Rooftop Projects Have Until 31 December to Use Them" — The headline asserts the exact reverse of the actual policy explained in the text. Net-metering/rooftop projects have until 31 December 2026 to commission *without* domestically enlisted List-II cells (an exemption window); after 31 December 2026, compliance is mandatory and projects are required to use them. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "Enlisted cell capacity of 37.8 GW is about 85% of the all-segment total and 4.3 times the rooftop figure." — Comparing an annual manufacturing capacity figure (a flow rate of gigawatts per year) directly against annual installation/demand figures (total gigawatts installed over a one-year period) is an apples-to-oranges comparison of production capacity versus deployment volume. [confidence: high]
+- "A developer in a state with no enlisted cell plant must buy from Gujarat, Tamil Nadu or Telangana, which together hold 67% of the list." — False dilemma / unwarranted restriction. While Gujarat, Tamil Nadu, and Telangana account for 67% of enlisted cell capacity, the article's own data shows that the remaining 33% is distributed across six other states (Maharashtra, Himachal Pradesh, Karnataka, West Bengal, Uttar Pradesh, and Andhra Pradesh). A developer outside those states is not restricted to procuring only from the top three states. [confidence: high]
 
 OUTDATED DATA:
-- none found
+none found
 
 ## Groq openai/gpt-oss-120b
 
-[Groq/openai/gpt-oss-120b API error 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 3527, Requested 5055. Please try again in 4.364999999s. Need more tokens? Upgrade to Dev Tier today at https:]
+**FACTUAL ERRORS**
+- **“The list has roughly tripled in fourteen months, from 13,067 MW to 37,796 MW.”** – A three‑fold increase would be about 39,200 MW; the actual growth factor is ≈2.89×, not a full triple. [confidence: high]
+
+**INTERPRETATION ERRORS**
+- **“A developer in a state with no enlisted cell plant must buy from Gujarat, Tamil Nadu or Telangana, which together hold 67 % of the list.”** – The article treats the domestic‑only List‑II capacity as the sole source for such developers, ignoring that they can import cells or source from other Indian states not on List‑II. The conclusion that purchases are forced to come from those three states is not supported by the data. [confidence: medium]
+
+**OUTDATED DATA**
+- **“Energetica India … reports cumulative enlisted module capacity of 228,524 MW after the September 2026 update.”** – MNRE’s List‑I is updated periodically; a later revision (e.g., the November 2026 update) likely supersedes the September figure, so the module‑capacity number may be outdated. [confidence: medium]
 
 ## Mistral open-mistral-nemo
 
 **FACTUAL ERRORS:**
-- *"MNRE’s approved list of domestic solar-cell makers now holds **37.8 GW** a year of enlisted capacity"* — The article’s own later calculation (37,796 MW = **37.8 GW**) is correct, but the **initial claim in the headline ("37.8 GW") is inconsistent with the body text’s precise breakdown (37,796 MW)**. The discrepancy arises from rounding (37.8 GW vs. 37.796 GW), which is technically correct but risks misleading readers who may conflate the two. [confidence: high]
+- *"MNRE’s approved list of domestic solar-cell makers now holds **37.8 GW** a year of enlisted capacity"* — The article’s own sum of unit capacities (37,796 MW) does not round to 37.8 GW (which would imply 37,800 MW). The discrepancy is minor but inconsistent with the detailed breakdown provided later (37,796 MW). [confidence: high]
 
 **INTERPRETATION ERRORS:**
-- *"Enlisted cell capacity of **37.8 GW is about 85% of the all-segment total** [of 44.6 GW solar additions in FY2026]"* — This **double-counts capacity** and misrepresents the relationship. The 37.8 GW figure is **annual *nameplate capacity*** (theoretical max production), not actual shipments or installed capacity. Additionally, the 44.6 GW includes **utility-scale projects exempt from List-II** (e.g., bids submitted before 31 Aug 2025), so the comparison is **apples-to-oranges**. The article later clarifies this but the initial framing risks overstating supply constraints. [confidence: high]
+- *"Enlisted cell capacity of 37.8 GW is about **85% of the all-segment total** and 4.3 times the rooftop figure"* — The claim conflates **enlisted capacity** (nameplate manufacturing potential) with **actual installations** (which include utility-scale projects exempt from List-II requirements). The 44.6 GW FY2026 total includes ground-mounted projects (34.8 GW) that may not use List-II cells, and rooftop demand is unquantified. The comparison is misleading without isolating only List-II-dependent segments. [confidence: high]
 
 **OUTDATED DATA:**
-- *"MNRE’s memorandum of **9 December 2024**"* — While the framework dates to this memorandum, the **latest relevant policy change is the 18 July 2026 O.M.**, which supersedes all prior memoranda (including the 25 May 2026 and June 2026 ones). The article correctly cites the 18 July 2026 O.M. as the governing document but **does not note that the 9 Dec 2024 O.M. is now obsolete** for current compliance. [confidence: high]
-
----
-**Note:** The article’s reliance on **Energetica India’s List-I total (228.524 GW)** for module capacity is valid as a secondary source, but the **MNRE’s own List-I PDF (3 Aug 2026) lacks a running total**, which the author acknowledges. This is not a factual error but a **data limitation** (not "outdated data"). No other outdated figures were found.
+- *"Cumulative enlisted module capacity of **228,524 MW** after the September 2026 update"* — The article cites Energetica India’s tracking as of September 2026 but does not verify if MNRE’s **List-I (3 August 2026 PDF)** has a newer revision or updated total. [confidence: medium]

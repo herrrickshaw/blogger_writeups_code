@@ -17,29 +17,23 @@ FACTUAL ERRORS:
 - none found
 
 INTERPRETATION ERRORS:
-- "The deficit is in plastics: US$22.8 billion of resins and plastic materials imported in 2025-26, against all plastics exports, finished products included, of about US$12.5 billion in 2024-25." — Comparing raw-material imports from one fiscal year (2025-26) directly against total plastics and finished-product exports from a different fiscal year (2024-25) creates an apples-to-oranges comparison that distorts the true trade deficit calculation for any single period. [confidence: high]
+- "The plastics comparison mixes a 2025-26 import figure for raw materials with a 2024-25 export figure that includes finished products, so it shows the size of the gap, not its exact value." — Comparing import data from one fiscal year (2025-26) with export data from a different fiscal year (2024-25), while simultaneously mixing raw material imports with finished product exports, creates a severe apples-to-oranges comparison that fails to establish a valid trade deficit figure. [confidence: high]
 
 OUTDATED DATA:
 - none found
 
 ## Groq openai/gpt-oss-120b
 
-[Groq/openai/gpt-oss-120b API error 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 4033, Requested 5082. Please try again in 8.3625s. Need more tokens? Upgrade to Dev Tier today at https://con]
+[Groq/openai/gpt-oss-120b API error 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 3675, Requested 6724. Please try again in 17.9925s. Need more tokens? Upgrade to Dev Tier today at https://co]
 
 ## Mistral open-mistral-nemo
 
 **FACTUAL ERRORS:**
-- *"$22.8 bn of plastic raw-material imports in 2025-26"* — The article cites **Commerce Ministry quick estimates (June 2026)** for FY2025-26 plastics imports as **$22.8 bn**, but the **DGCI&S TradeStat breakdown** (also referenced) shows **$22.23 bn** under HS Chapter 39 (Plastics and articles) for the same period. The discrepancy suggests either a rounding difference or an error in the Commerce Ministry’s "quick estimates" aggregation. [confidence: medium]
+- *"$22.8 bn of plastic raw-material imports in 2025-26"* — The article’s own **DGCI&S TradeStat breakdown** (cited later) shows **$22.23 bn** (HS Chapter 39) for plastics in 2025-26, not $22.8 bn. The $22.8 bn figure aligns with the **commerce ministry’s "quick estimates"** (which group plastics under a broader "chemicals and plastics" category), but this conflation is inconsistent with the later HS-chapter-specific data. [confidence: high]
 
 **INTERPRETATION ERRORS:**
-- *"The deficit is in plastics: US$22.8 billion of resins and plastic materials imported in 2025-26, against all plastics exports, finished products included, of about US$12.5 billion in 2024-25"* — The claim conflates **raw-material imports (2025-26)** with **finished-product exports (2024-25)**, ignoring that:
-  1. **Plastics exports** include value-added products (e.g., molded goods), which are not direct substitutes for raw-material imports.
-  2. The **2024-25 export figure** (from Plexconcil) may not reflect 2025-26 trends, especially given volatile commodity prices.
-  The "deficit" framing thus **overstates the gap** parks could address, as it ignores intermediate processing stages. [confidence: high]
-
-- *"93% of units in India’s three petrochemical investment regions are in one of them, Dahej"* — While Dahej hosts **93% of the units** (2,079/2,246), this **does not imply regional imbalance in investment or economic impact**. The other regions (Visakhapatnam-Kakinada + Paradeep) have **larger average unit investments (Rs 1,270 crore vs. Rs 66 crore in Dahej)**, suggesting they host **anchor projects** (e.g., refineries) rather than small-scale clusters. The claim **misrepresents the economic diversity** of the regions. [confidence: high]
+- *"The deficit is in plastics: US$22.8 billion of resins and plastic materials imported in 2025-26, against all plastics exports, finished products included, of about US$12.5 billion in 2024-25"* — The comparison mixes **2025-26 imports** (raw materials) with **2024-25 exports** (finished goods), obscuring whether the gap is purely in raw materials or includes value-added products. The article later notes this inconsistency but does not clarify whether the "deficit" is apples-to-apples. [confidence: high]
 
 **OUTDATED DATA:**
-- *"Rs 3,000 crore had been released after nearly six years [for bulk-drug parks] by December 2025"* — The article states the **Rs 3,000 crore bulk-drug parks scheme** (2020) had **Rs 180 crore released by December 2025**, but the **scheme’s end date was 2026-27**. As of **October 2026**, no updated release figures (e.g., for 2025-26) are provided. The **latest official update** would require checking **Lok Sabha replies or PIB documents for FY2025-26 disbursements**. [confidence: high]
-
-- *"Rs 3.49 lakh crore committed or invested in three PCPIRs after 19 years"* — The **Rajya Sabha reply (July 2026)** cites **Rs 3.49 lakh crore** as of that date, but the **original 2007 target was Rs 7.63 lakh crore for four regions**. A **newer period-specific breakdown** (e.g., FY2025-26 additions) is missing. The **Department of Chemicals and Petrochemicals’ latest PCPIR status report** (if published post-July 2026) could clarify incremental investments. [confidence: high]
+- *"Rs 3,000 crore had been released after nearly six years [for bulk-drug parks] by December 2025"* — The article states the bulk-drug parks scheme ended in **2026-27**, but no newer release figures (e.g., for 2026-27) are provided. Re-check **Lok Sabha replies or PIB updates post-December 2025** for 2026-27 disbursements. [confidence: high]
+- *"Rs 3.49 lakh crore committed or invested in three PCPIRs after 19 years"* — The **2007 target was Rs 7.63 lakh crore for four regions**, but the article does not verify whether the Rs 3.49 lakh crore figure includes **realized vs. committed** investments (as later caveats suggest). Re-check **Department of Chemicals and Petrochemicals’ latest PCPIR status report** (likely updated post-2026). [confidence: high]

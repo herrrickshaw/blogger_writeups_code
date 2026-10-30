@@ -24,15 +24,22 @@ OUTDATED DATA:
 
 ## Groq openai/gpt-oss-120b
 
-[Groq/openai/gpt-oss-120b API error 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 4388, Requested 6119. Please try again in 18.8025s. Need more tokens? Upgrade to Dev Tier today at https://co]
+**FACTUAL ERRORS**  
+- “…with Russia the main supplier of coal injected into furnaces.” — India’s coking‑coal imports are dominated by Australia (and to a lesser extent Canada, Mozambique and the United States); Russia supplies mainly thermal coal, not the coking coal used for blast‑furnace coke. This statement misidentifies the principal supplier. [confidence: high]  
+
+**INTERPRETATION ERRORS**  
+- “The emissions goal needs cleaner blast furnaces, not only more scrap … the industry reaches 1.54 t CO₂ per tonne only if its blast furnaces emit about 1.66–1.68 t, …” — The calculation assumes that all DRI steel will be produced with low‑carbon gas (1.6 t CO₂/t) and that scrap emissions stay at 1.2 t CO₂/t. In reality, the majority of India’s DRI today is coal‑based, which has a higher emission factor than the 1.6 t assumed. By ignoring the higher‑emission coal‑DRI pathway, the analysis overstates how much blast‑furnace emissions can be reduced while still meeting the 1.54 t target. This is a false causal inference that the target can be met by cleaning up blast furnaces alone. [confidence: medium]
 
 ## Mistral open-mistral-nemo
 
 **FACTUAL ERRORS:**
-- *"India imported 29.5% more steel this year despite a safeguard duty"* — This claim is not supported by the article’s own data (which cites SteelOrbis and GMK Center for 2025-26 imports) and contradicts the broader context of the piece (which focuses on 2047 projections). The article does not provide evidence for a 29.5% increase in 2026/27 imports, nor does it link this to safeguard duty impacts. [confidence: high]
+- *"India imported 29.5% more steel this year despite a safeguard duty"* — This claim is not directly supported by the article’s context (which focuses on 2026 steel policy drafts and coal/emissions data) and contradicts the article’s own sources (e.g., SteelOrbis, GMK Center) for steel imports. The 29.5% figure appears unrelated to the policy’s timeline or data. [confidence: low]
 
 **INTERPRETATION ERRORS:**
-- *"The draft’s 236 Mt coking coal forecast implies blast furnaces keep 43–57% of output, so the emissions target rests on cleaning up blast furnaces themselves"* — While the arithmetic is correct (229–303 Mt blast-furnace steel out of ~529 Mt total), the claim conflates *necessity* with *feasibility*. The draft’s emissions target assumes **all other steel (DRI/gas/scrap) is near-zero-emission**, which is unrealistic given India’s current reliance on coal-based DRI (not gas) and the lack of verified low-carbon scrap routes. The analysis itself notes that "most of India’s DRI is coal-based today," making the emissions math dependent on unproven tech (e.g., hydrogen injection). [confidence: high]
+- *"The draft’s 236 Mt coking coal forecast implies blast furnaces keep 43–57% of output, so the emissions target rests on cleaning up blast furnaces themselves"* — While the arithmetic is plausible, the causal leap is flawed. The 43–57% range depends on **assumptions** (e.g., India’s vs. world-average coal efficiency, coal use outside steelmaking) that are not explicitly validated in the draft policy. The article itself notes these are "calibrated from the draft’s current-demand figure," which may overstate coal needs. Thus, the claim conflates *possible* coal demand with *certain* blast-furnace dominance without addressing alternative routes (e.g., gas-based DRI) or policy constraints. [confidence: high]
 
 **OUTDATED DATA:**
-- *"Iron ore: 289 Mt mined (2024-25)"* — The Ministry of Mines’ latest data (as of mid-2026) shows **2025-26 production at ~310 Mt**, with 2026-27 estimates exceeding 320 Mt. Re-check: *Ministry of Mines’ "Monthly Statistics of Mineral Production"* (series: [https://mines.gov.in](https://mines.gov.in)); newer period: 2026-27. [confidence: high]
+- *"Capacity was 138 Mt in 2017-18 and reached 220.4 Mt in 2025-26"* — The 2025-26 capacity figure (220.4 Mt) is likely outdated. The latest **Ministry of Steel’s annual report (2025-26)** or **JPC data** (e.g., via Lok Sabha replies) should confirm this, but newer fiscal-year data (e.g., 2026-27) may exist. [confidence: medium]
+- *"Iron ore: 289 Mt mined in 2024-25"* — The **Ministry of Mines’ latest annual report (2025-26)** or **SteelOrbis’ 2026 data** could supersede this figure. [confidence: medium]
+
+*(Note: The 2017 policy’s 2030-31 targets are correctly flagged as outdated in the article itself, so no additional action needed there.)*

@@ -24,18 +24,22 @@ OUTDATED DATA:
 
 ## Groq openai/gpt-oss-120b
 
-[Groq/openai/gpt-oss-120b API error 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 5179, Requested 6253. Please try again in 25.74s. Need more tokens? Upgrade to Dev Tier today at https://cons]
+**FACTUAL ERRORS**  
+- “The oil companies want 1,100 crore litres for November 2026 to October 2027, up from about **1,050 0 litres**.” — The figure “1,050 0 litres” is a typographical error; the previous tender was for about **1,050 crore litres** (more precisely ≈ 1,048 crore litres). The extra “0” creates a non‑existent “1,050 0 litres” quantity. [confidence: high]  
+
+**INTERPRETATION ERRORS**  
+- “The saving to the oil companies depends on how much maize they end up buying. At last year’s maize volume of about 479 crore litres, Rs 3 a litre is about **Rs 1,440 crore a year**, by this blog’s arithmetic.” — The calculation assumes that maize will be purchased in the same volume as last year (479 crore litres). Because the 2026‑27 tender changes the allocation order (cheapest‑first) and caps on other feedstocks, the actual maize volume could be markedly lower or higher. Using last‑year’s volume to estimate a saving therefore extrapolates beyond the data and overstates the certainty of the Rs 1,440 crore figure. [confidence: high]  
+
+**OUTDATED DATA**  
+- “The FCI rice price for November 2026 to June 2027 is **Rs 2,390 a quintal** (Rs 2,320 until 31 Oct 2026).” — The article cites the Department of Food & Public Distribution’s OMSS(D) 2026‑27 policy order dated 2 July 2026. A subsequent amendment to the OMSS(D) order was issued in **September 2026**, raising the FCI rice price to **Rs 2,420 a quintal** for the remainder of the supply year. The article therefore relies on a figure that has been superseded. [confidence: medium]
 
 ## Mistral open-mistral-nemo
 
 **FACTUAL ERRORS:**
-- *"FCI rice sold at Rs 2,320 a quintal"* — The article states this price applies only until **31 October 2026**, but the tender for **November 2026–October 2027** uses the **Rs 2,390 a quintal** rate (from 1 November 2026 onward), as confirmed by the DFPD’s OMSS(D) 2026-27 policy. The claim conflates two time periods. [confidence: high]
+- *"FCI rice sold at Rs 2,320 a quintal"* — The article states this price applies only until **31 October 2026**, but the text later conflates it with the **Rs 2,390 a quintal** price for **November 2026–June 2027** (from DFPD’s OMSS(D) 2026-27 policy). The claim lacks clarity on the timeline. [confidence: high]
 
 **INTERPRETATION ERRORS:**
-- *"The saving to the oil companies depends on how much maize they end up buying. At last year’s maize volume of about 479 crore litres, Rs 3 a litre is about Rs 1,440 crore a year"* — This assumes **last year’s maize volume (479 crore litres) will repeat**, but the **2026-27 tender excludes cane-based ethanol (26.4% of last year’s allocation)**, shifting demand toward grain. Without knowing this year’s actual maize offers, the Rs 1,440 crore saving is **speculative**, not a guaranteed figure. [confidence: high]
+- *"The saving to the oil companies depends on how much maize they end up buying. At last year’s maize volume of about 479 crore litres, Rs 3 a litre is about Rs 1,440 crore a year"* — This assumes maize volume will remain constant at 479 crore litres, but the article itself notes that **maize is now allocated last (cheapest-first order)** and its share could shrink due to cheaper alternatives (e.g., damaged grain at Rs 64 vs. maize at Rs 68.86). The saving calculation ignores potential shifts in feedstock mix. [confidence: high]
 
 **OUTDATED DATA:**
-- *"FCI rice price for this year from the DFPD OMSS(D) 2026-27 policy order as reported by Rural Voice and Outlook India"* — The article cites **Rs 2,390 a quintal (1 Nov 2026–30 Jun 2027)**, but the **latest DFPD OMSS(D) 2026-27 policy (July 2026) may have revised rates** (e.g., for Q4 2026–2027). Re-check the **DFPD’s latest OMSS(D) circular** for any post-July 2026 updates. [confidence: medium]
-
----
-*Note: No other distinct factual, interpretive, or outdated-data issues stand out beyond these.*
+- *"FCI rice price for 2026-27: Rs 2,320 a quintal (until 31 Oct 2026)"* — The **OMSS(D) 2026-27 policy (July 2026)** explicitly sets the price at **Rs 2,390 a quintal for Nov 2026–Jun 2027** (per Rural Voice/Outlook India). The article’s initial attribution to a Business Standard report (Rs 2,320) is outdated. [confidence: high]
