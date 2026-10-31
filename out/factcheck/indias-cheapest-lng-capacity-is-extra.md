@@ -14,29 +14,27 @@ Panel: **3 of 5 configured models** answered.  Skipped this run: Kimi ([Kimi API
 ## Gemini gemini-flash-lite-latest
 
 FACTUAL ERRORS:
-- "QatarEnergy declared force majeure after the March 2026 attack on Ras Laffan" — Ras Laffan is a major industrial city and port in Qatar, and while geopolitical tensions or strikes affecting Persian Gulf energy infrastructure are plausible themes, a specific military attack on Ras Laffan in March 2026 is a fabricated or factually incorrect event within the real-world timeline of energy markets. [confidence: high]
+- "QatarEnergy declared force majeure after the March 2026 attack on Ras Laffan" — Ras Laffan is a major industrial city and port in Qatar, and while geopolitical tensions and attacks in the wider Middle East (such as involving the Houthis or Iran) have occurred, there is no factual record of a March 2026 military attack directly on Ras Laffan resulting in a force majeure declaration by QatarEnergy of this nature. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "At PNGRB’s own conversion (190 MMSCMD = 52.7 MMTPA) that is about 55.5 MMTPA of LNG... which at an 85% utilisation ceiling needs about 65 MMTPA of regas capacity." — Dividing annual LNG demand in MMTPA by an 85% capacity utilization factor calculates the *average* nameplate capacity required to meet that demand across the year. However, gas demand is seasonal and peak-load driven; sizing terminal capacity strictly against an 85% average utilization ceiling without accounting for peak winter/summer demand swings or maintenance downtime understates the total nameplate capacity actually required for energy security. [confidence: medium]
+- "At PNGRB’s own conversion (190 MMSCMD = 52.7 MMTPA) that is about 55.5 MMTPA of LNG, which at an 85% utilisation ceiling needs about 65 MMTPA of regas capacity." — There is a mathematical/logical gap in applying an 85% utilisation ceiling to calculate required nameplate capacity. If demand is 55.5 MMTPA, dividing by an 85% utilization factor yields roughly 65.3 MMTPA of required capacity, but treating 85% as a hard operational ceiling across all terminals ignores geographic mismatch, pipeline constraints, and the fact that nameplate capacity is a nominal rating often exceeded by efficient terminals (like Dahej running at 95-100%+). [confidence: medium]
 
 OUTDATED DATA:
 - none found
 
 ## Groq openai/gpt-oss-120b
 
-[Groq/openai/gpt-oss-120b API error 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Requested 10041, please reduce your message size and try again. Need more tokens? Upgrade to Dev Tier today at http]
+[Groq/openai/gpt-oss-120b API error 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Requested 10453, please reduce your message size and try again. Need more tokens? Upgrade to Dev Tier today at http]
 
 ## Mistral open-mistral-nemo
 
 **FACTUAL ERRORS:**
-- **"Dahej ran at 92% of capacity while PNGRB’s own data point to the pipeline out, not the tank, as the constraint"** — The claim conflates two timeframes: Dahej’s utilisation is reported as **91.9% in April–May 2026** (PPAC data) but **92% is cited as a year-earlier baseline (2025-26)**. The pipeline constraint (GSPL’s ~40 MMSCMD capacity vs. ~130 MMSCMD regas capacity in Gujarat) is correct but not directly tied to the 92% figure. [confidence: high]
+- **"Dahej ran at 92% of capacity while the new onshore terminals worked at 24–37% in April–May 2026"** — The claim conflates two metrics: Dahej’s utilisation is reported as **91.9%** (on its old 17.5 MMTPA base) in the PPAC data, while the newer terminals’ utilisation ranges from **10.5% (Chhara) to 40.1% (Dabhol)**. The 92% figure does not align with the cited PPAC data for April–May 2026 (confidence: **high**).
 
 **INTERPRETATION ERRORS:**
-- **"India’s new onshore terminals cost ₹950–1,290 crore per MMTPA, ran 22–35 months late"** — While the cost and delay ranges are factually plausible, the claim **misrepresents causality**: delays (e.g., breakwaters, land acquisition) are often *root causes* of underutilisation (e.g., Kochi/Ennore), not just a separate metric. The article later acknowledges this (e.g., "pipelines not ready at commissioning"), but the initial framing risks implying delays are an independent issue rather than a systemic one. [confidence: high]
+- **"The pipeline out, not the tank, is the constraint"** — While pipeline evacuation capacity is cited as a key issue (e.g., GSPL’s 40 MMSCMD vs. 95–100 MMSCMD regas capacity in Gujarat), the claim oversimplifies the problem. The article itself notes that **destination clauses in LNG contracts** and **buyer fuel-switching** also contribute to low utilisation, not just pipeline bottlenecks (confidence: **high**).
 
 **OUTDATED DATA:**
-- **"PPAC’s latest Ready Reckoner lists 53.5 MMTPA of regas capacity"** — As of **June 2026** (PPAC’s May 2026 Ready Reckoner), Dahej’s expansion to **22.5 MMTPA (commissioned 31 March 2026)** is **not reflected** in the 53.5 MMTPA figure. The correct nameplate capacity is **~58.5 MMTPA** (including Dahej’s expansion). [confidence: high]
-  - *Series to re-check*: PPAC *Monthly Ready Reckoner* (Table 21); newer period: **June 2026 data** (published July 2026).
+- **"PPAC’s latest Ready Reckoner lists 53.5 MMTPA of regasification capacity"** — PPAC’s **May 2026 Ready Reckoner** (published June 2026) already reflects Petronet’s Dahej expansion to **22.5 MMTPA**, raising total nameplate capacity to **~58.5 MMTPA**. The claim understates the current capacity (confidence: **high**).
 
----
-*Note: No other distinct factual, interpretation, or outdated-data issues were found in the provided text.*
+*(No other distinct errors found in the requested categories.)*

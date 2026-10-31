@@ -16715,3 +16715,16 @@ youtube-demo-uploads 2026-10-31: 3 how-to posts promoted live
 - `states-can-draw-rs-61008-crore-of-short` — 2026-10-31 &rarr; 2026-10-31
 - `indias-new-securities-code-gives-sebi` — 2026-10-31 &rarr; 2026-10-31
 - `defence-exports-rose-63-to-rs-38424` — 2026-10-31 &rarr; 2026-10-31
+
+## 2026-10-31T09:32:44+05:30 — 490 posts live
+
+youtube-demo-uploads 2026-10-31: index republished with 3 new how-to posts (489 listed)
+
+
+**Versions**
+
+- `article-index-start-here` **70.5.0 → 70.6.0** (MINOR) — forced via --as minor (figures changed (+7/-3 distinct numbers))
+
+**Changed**
+
+- `article-index-start-here` — 937,369 → 945,635 bytes (+8,266)

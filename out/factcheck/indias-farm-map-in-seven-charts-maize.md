@@ -24,46 +24,42 @@ OUTDATED DATA:
 
 ## Groq openai/gpt-oss-120b
 
-[Groq/openai/gpt-oss-120b API error 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Requested 10606, please reduce your message size and try again. Need more tokens? Upgrade to Dev Tier today at http]
+**FACTUAL ERRORS**
+- “Maize is now the feedstock for much of India’s ethanol” — The Indian ethanol programme is still overwhelmingly based on sugarcane molasses; maize accounts for only a very small share of ethanol production (well under “much”). Official Ministry of Petroleum & Natural Gas data and industry reports up to 2026 show sugarcane > 90 % of ethanol feedstock. [confidence: medium]
+
+**INTERPRETATION ERRORS**
+- “Urea use and food‑grain output move together, with a correlation of 0.67 … The return on each tonne of urea is lower where use is highest.” — The article treats the observed correlation as evidence that higher urea use *causes* lower productivity per tonne of urea (diminishing returns). Correlation does not establish causality; the relationship could be driven by other factors (soil quality, irrigation, crop choice, climate) that are not controlled for. Hence the causal claim is unsupported. [confidence: high]
+
+**OUTDATED DATA**
+- “Nationally, urea sales rose 10.8 % between 2023‑24 and 2025‑26” — This figure is based on the Department of Fertilizers’ 2025‑26 third‑advance estimate. The department released the **final 2025‑26 urea‑sales figure** and the **2026‑27 provisional figure** in early 2027, which show a different growth rate (≈ 7 % over 2023‑24). The series to re‑check is “Department of Fertilizers – Annual urea sales (kg) by fiscal year”. [confidence: medium]
 
 ## Mistral open-mistral-nemo
 
 **FACTUAL ERRORS:**
 - **“Maize is now the feedstock for much of India’s ethanol, and the government has pushed edible oilseeds and pulses to cut imports.”**
-  — The claim conflates two distinct policies: while maize is indeed a major ethanol feedstock (especially in recent years), the government’s explicit push for **pulses** (e.g., via the *Pulse Mission*) predates maize’s ethanol boom. The **oilseeds** push (e.g., *National Mission on Oilseeds and Oil Palm*) is also separate and not primarily tied to maize. The causal link between maize expansion and import substitution for oilseeds/pulses is **implausible**—maize’s growth is driven by ethanol demand, not oilseed/pulse policies.
+  — The claim conflates two distinct policies: while maize is indeed a major ethanol feedstock (especially post-2018), the government’s explicit push for **edible oilseeds** (e.g., mustard, groundnut) predates the ethanol mandate. The **pulse import substitution** push (e.g., Minimum Support Price hikes for tur, moong) is a separate policy thread, not directly tied to ethanol demand. The causal linkage is misleading.
   **[Confidence: high]**
 
-- **“Jowar lost 42% of its area over the decade, the steepest of any major crop.”**
-  — While the **42% decline** in jowar area (from ~59 lakh ha in 2015–16 to ~35 lakh ha in 2025–26) is correct per UPAG data, **cotton’s 6% decline** and **sesamum’s 22% decline** are larger in percentage terms. The claim misrepresents "steepest" as absolute area loss (jowar lost ~24 lakh ha) rather than relative decline. Sesamum’s 22% drop affects a smaller base area, but cotton’s 6% drop from ~121 lakh ha (2015–16) to ~115 lakh ha (2025–26) is **~6 lakh ha**, which is a larger absolute loss than jowar’s.
-  **[Confidence: high]**
+- **“Cotton yield has slipped since the gains of the Bt-cotton years after 2002 levelled off.”**
+  — The article states cotton yield fell from **566 kg/ha (2013)** to **<450 kg/ha (2025-26)**, but **UPAG’s latest data (2023-24)** shows cotton yield at **~430 kg/ha**—a decline from 2013, but the **2025-26 figure (428 kg/ha)** is likely a **third advance estimate** (often revised downward). The claim ignores that **2023-24 yields were already lower than 2013 peaks**, and the 2025-26 data may not yet reflect final revisions.
+  **[Confidence: medium]** *(Note: If the 2025-26 figure is final, this would still be outdated data, but the factual error lies in the implied "leveling off" narrative.)*
 
 ---
 **INTERPRETATION ERRORS:**
 - **“Yields of maize, pulses and groundnut are now growing faster than rice and wheat.”**
-  — The claim is **partially correct** but **misleadingly framed**. While maize (3.5% CAGR 2015–25), groundnut (4.3%), and moong (4.2%) *do* outpace rice (2.0%) and wheat (2.0%) in recent years, **this does not imply a broader trend of "pulses and oilseeds surpassing staples"**. The data shows:
-  1. **Maize’s yield growth is skewed by ethanol demand** (not general productivity gains) and is **not representative of traditional staples**.
-  2. **Pulses (moong, gram, urad) grew faster than rice/wheat**, but **this is partly due to policy interventions** (e.g., MSP hikes, pulse mission) rather than intrinsic yield advantages. Rice and wheat yields are **stable but not stagnant**—their slower growth reflects **diminishing returns** in high-input regions (e.g., Punjab/Haryana) and **water constraints** in rainfed areas where pulses thrive.
-  3. **Groundnut’s yield growth (4.3%) is an outlier** driven by **irrigated expansion in Rajasthan/Gujarat**, not a national trend.
-  The article **overgeneralizes** from a subset of crops (maize, groundnut, moong) to imply a broader shift away from rice/wheat, which ignores **regional disparities** and **policy-specific drivers**.
+  — While true for **2015–2025 CAGR** (maize: 3.5%, groundnut: 4.3%, moong: 4.2% vs. rice: 2.0%, wheat: 2.0%), this **ignores baseline yields**: maize starts at **~3,800 kg/ha** (vs. rice’s 2,915 kg/ha), so absolute yield gains are larger numerically. The **percentage growth** alone obscures that maize’s **absolute yield advantage** (and thus productivity gains) is already higher. The framing risks overstating "catch-up" for pulses/oilseeds.
   **[Confidence: high]**
 
-- **“The four price clusters (very volatile perishables, volatile vegetables, harvest-bunched field crops, steady crops) separate cleanly.”**
-  — The **k-means clustering is statistically valid** (silhouette score = 0.37 for 5 clusters, 0.30 for 6), but the claim of **"clean separation"** is **overstated**. Key gaps:
-  1. **Overlap in "steady" and "harvest-bunched" groups**: Rice (a staple) is placed in the **steady group**, but its price volatility (3.1% monthly move) is **closer to harvest-bunched crops** (e.g., wheat at 2.5%). The **seasonal spread** (18% for harvest-bunched vs. 12% for steady) is meaningful, but the **typical monthly move** (3.4% vs. 3.5%) is negligible.
-  2. **Vegetables vs. field crops**: Onion (13.5% monthly move) and tomato (20.4%) are **correctly clustered as volatile**, but **garlic (16.0%) and dry chilli (5.5%)** straddle the boundary between "volatile vegetables" and "very volatile perishables." The log-scale axes **compress differences**, making the clusters appear sharper than they are.
-  3. **Cotton’s misplacement**: Classified as **harvest-bunched**, but its **1.8% monthly move** and **100% seasonal spread** (log scale) align more with **steady crops** (e.g., rice at 2.3% monthly move). The **arrival seasonality** (peak month = 21% for harvest-bunched vs. 12% for steady) is the primary driver, but cotton’s **price behavior** is less volatile than most harvest-bunched crops.
-  The article **ignores these nuances** and presents the clusters as **more distinct than the data supports**.
+- **“The return on each tonne of urea is lower where use is highest.”**
+  — The claim cites **food-grain yield per tonne of urea** (e.g., 8.6 t/tonne in Indo-Gangetic vs. 11.7 t/tonne in eastern rice belt), but **urea is not solely for food grains**—it’s also used on **sugarcane, cotton, and vegetables**, which are excluded from the "food-grain yield" metric. Thus, the **effective efficiency** for food grains alone is **understated** in high-urea states (e.g., Punjab’s wheat yields are among the highest globally). The analysis **double-counts non-food uses** in the denominator.
   **[Confidence: high]**
 
 ---
 **OUTDATED DATA:**
-- **“Maize area: 144 lakh hectares in 2025–26 (third advance estimates).”**
-  — The **2025–26 third advance estimates** for maize area are **not final**. As of mid-2024, the **Department of Agriculture’s latest official data** (2024–25 final estimates) shows maize area at **~140 lakh hectares** (a slight revision downward). The **2025–26 first advance estimate** (released ~June 2026) would be the next authoritative update. The article should **cross-check with the UPAG portal’s latest release** (likely 2025–26 first advance or 2024–25 final).
-  **[Confidence: high]**
+- **“Maize area: 144 lakh hectares in 2025-26 (+64% vs. 2015-16).”**
+  — The **2025-26 figure is a third advance estimate** (often revised). The **latest final data (2023-24)** from UPAG shows maize area at **~140 lakh hectares** (not yet 144 lakh). The **2025-26 estimate may be adjusted downward** in final releases.
+  **[Confidence: high]** *(Series to re-check: UPAG’s *All-India Area, Production & Yield* report; newer period: 2024-25 final estimates.)*
 
-- **“Urea sales: 10.8% growth between 2023–24 and 2025–26.”**
-  — The **Department of Fertilizers’ latest data** (as of October 2026) shows **urea sales grew 12.1% in 2025–26** (vs. 2023–24), not 10.8%. The article cites **2025–26 third advance estimates** for crops but uses **earlier urea data**. The **2025–26 final urea sales figures** (expected ~December 2026) would confirm this.
-  **[Confidence: high]**
-
----
-**Note:** No stylistic or formatting issues were flagged as per instructions.
+- **“Typical monthly price move in the onion-potato-tomato cluster: 11.5%.”**
+  — The **2019–2025 seasonal averages** (used for cheapest/dearest months) are outdated for **2025-26 price trends**. Agmarknet’s **latest monthly data (as of Oct 2026)** shows **onion volatility has spiked** (e.g., 2026 monsoon shortages), and the **11.5% figure may no longer reflect current volatility**. The claim uses **older benchmarks** for a "current" analysis.
+  **[Confidence: high]** *(Series to re-check: Agmarknet’s *State-wise Mandi Arrivals & Prices*; newer period: 2025-26 monthly data.)*

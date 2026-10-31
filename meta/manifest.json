@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-10-31T09:29:44+05:30",
+  "snapshot": "2026-10-31T09:32:44+05:30",
   "count": 490,
   "posts": {
     "1008146607143508554": {
@@ -44816,10 +44816,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html",
       "slug": "article-index-start-here",
       "published": "2026-08-02T10:43:26.000+05:30",
-      "updated": "2026-10-30T09:30:56.677+05:30",
+      "updated": "2026-10-31T09:31:35.137+05:30",
       "labels": [],
-      "bytes": 937369,
-      "sha256": "4076f6d65c31a0fbb988c17e98181bf03408909b8b086f13f7a2fe6e6c5196a7",
+      "bytes": 945635,
+      "sha256": "2bbff65ae4c3e5c7971b98a9a325bd4d1bb6bcefa0366d38172a9cff2a4b14dd",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -44831,7 +44831,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "70.5.0",
+      "version": "70.6.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -47243,6 +47243,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "index rebuilt 483 posts after youtube-demo-uploads 2026-10-30"
+        },
+        {
+          "version": "70.6.0",
+          "date": "2026-10-31T09:32:44+05:30",
+          "level": "minor",
+          "reason": "forced via --as minor (figures changed (+7/-3 distinct numbers))",
+          "bytes": [
+            937369,
+            945635
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "youtube-demo-uploads 2026-10-31: index republished with 3 new how-to posts (489 listed)"
         }
       ]
     },
