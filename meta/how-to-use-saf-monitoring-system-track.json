@@ -3,15 +3,15 @@
   "title": "How to use saf-monitoring-system: track SAF batches against blending and carbon-credit rules",
   "url": "https://masaladeutsch.blogspot.com/2026/10/how-to-use-saf-monitoring-system-track.html",
   "slug": "how-to-use-saf-monitoring-system-track",
-  "published": "2026-10-30T09:26:34.127+05:30",
-  "updated": "2026-10-30T09:26:34.127+05:30",
+  "published": "2026-10-30T09:26:34.000+05:30",
+  "updated": "2026-10-31T09:05:39.637+05:30",
   "labels": [
     "Climate & Carbon",
     "Energy & Fuels",
     "Open-Source Tools & How-To"
   ],
-  "bytes": 24779,
-  "sha256": "443ecc39b37d57994369328dc4bcc4d8b5269725364f584f21ffb8d23705628f",
+  "bytes": 24898,
+  "sha256": "15dba560f0dd96c1794f9def62ac7a7a25a12557a560c605c71c433080700101",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -31,6 +31,19 @@
       "level": "initial",
       "reason": "first snapshot",
       "note": "youtube-demo-uploads 2026-10-30: 9 new how-to posts live"
+    },
+    {
+      "version": "1.0.1",
+      "date": "2026-10-31T09:29:44+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        24779,
+        24898
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "youtube-demo-uploads 2026-10-31: 3 how-to posts promoted live"
     }
   ]
 }

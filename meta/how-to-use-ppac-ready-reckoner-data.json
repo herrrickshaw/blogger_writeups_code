@@ -4,15 +4,15 @@
   "url": "https://masaladeutsch.blogspot.com/2026/10/how-to-use-ppac-ready-reckoner-data.html",
   "slug": "how-to-use-ppac-ready-reckoner-data",
   "published": "2026-10-19T05:14:29.000+05:30",
-  "updated": "2026-10-30T09:26:47.834+05:30",
+  "updated": "2026-10-31T09:06:18.802+05:30",
   "labels": [
     "Energy & Fuels",
     "India",
     "Open-Source Tools & How-To",
     "Refining & Petrochemicals"
   ],
-  "bytes": 24926,
-  "sha256": "dfa3c2ec09b5a0ed5a0014dc1b88ae37bc826a84f98c0f108b8cc3fca7cc5db1",
+  "bytes": 25045,
+  "sha256": "4abfabb04c8bae13b2808b006aa79d4f635a03f4cf2b603503ca7d0b1aec50d0",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -32,6 +32,19 @@
       "level": "initial",
       "reason": "first snapshot",
       "note": "youtube-demo-uploads 2026-10-30: 9 new how-to posts live"
+    },
+    {
+      "version": "1.0.1",
+      "date": "2026-10-31T09:29:44+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        24926,
+        25045
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "youtube-demo-uploads 2026-10-31: 3 how-to posts promoted live"
     }
   ]
 }

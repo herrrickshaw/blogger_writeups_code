@@ -3,15 +3,15 @@
   "title": "How to use five open toolkits: finance models, documents, care audits",
   "url": "https://masaladeutsch.blogspot.com/2026/10/how-to-use-five-open-toolkits-finance.html",
   "slug": "how-to-use-five-open-toolkits-finance",
-  "published": "2026-10-30T09:26:39.993+05:30",
-  "updated": "2026-10-30T09:26:39.993+05:30",
+  "published": "2026-10-30T09:26:39.000+05:30",
+  "updated": "2026-10-31T09:05:16.534+05:30",
   "labels": [
     "Healthcare",
     "Markets & Finance",
     "Open-Source Tools & How-To"
   ],
-  "bytes": 26554,
-  "sha256": "8696d5da903d29dba86627f431bfc2a2230361ce012b14770cf41deb9b130666",
+  "bytes": 26673,
+  "sha256": "2f7e06d2564d085ae29644ddc14e4237e078548edf3d0d291f78f814d644fdf9",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -31,6 +31,19 @@
       "level": "initial",
       "reason": "first snapshot",
       "note": "youtube-demo-uploads 2026-10-30: 9 new how-to posts live"
+    },
+    {
+      "version": "1.0.1",
+      "date": "2026-10-31T09:29:44+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        26554,
+        26673
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "youtube-demo-uploads 2026-10-31: 3 how-to posts promoted live"
     }
   ]
 }

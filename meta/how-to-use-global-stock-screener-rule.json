@@ -3,15 +3,15 @@
   "title": "How to use global-stock-screener: rule-based stock screens, offline",
   "url": "https://masaladeutsch.blogspot.com/2026/10/how-to-use-global-stock-screener-rule.html",
   "slug": "how-to-use-global-stock-screener-rule",
-  "published": "2026-10-30T09:26:36.049+05:30",
-  "updated": "2026-10-30T09:26:36.049+05:30",
+  "published": "2026-10-30T09:26:36.000+05:30",
+  "updated": "2026-10-31T09:05:31.663+05:30",
   "labels": [
     "Equity Markets & Stock Screening",
     "Markets & Finance",
     "Open-Source Tools & How-To"
   ],
-  "bytes": 23703,
-  "sha256": "bca86bc946fb6780561b07b52b8d698335b19f54895c3e60559e157eb7f4963e",
+  "bytes": 23822,
+  "sha256": "5a6858b111f5990e4c116e943a55271c02dc0e96662b77dcc4d97c15741d44f7",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -31,6 +31,19 @@
       "level": "initial",
       "reason": "first snapshot",
       "note": "youtube-demo-uploads 2026-10-30: 9 new how-to posts live"
+    },
+    {
+      "version": "1.0.1",
+      "date": "2026-10-31T09:29:44+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        23703,
+        23822
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "youtube-demo-uploads 2026-10-31: 3 how-to posts promoted live"
     }
   ]
 }

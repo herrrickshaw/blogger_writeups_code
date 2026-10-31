@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/10/how-to-use-repo-data-dedup-find.html",
   "slug": "how-to-use-repo-data-dedup-find",
   "published": "2026-10-19T05:14:33.000+05:30",
-  "updated": "2026-10-30T09:26:52.954+05:30",
+  "updated": "2026-10-31T09:06:03.189+05:30",
   "labels": [
     "Open-Source Tools & How-To"
   ],
-  "bytes": 24966,
-  "sha256": "c4ef01ba2291a6aef139bc0c36ef02a83ac73108ba2cd0d4f7611bf61c389bd7",
+  "bytes": 25085,
+  "sha256": "45be202e29350020a0a0eec03ec8a71e47bd5ac81744500f074189d763109e32",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -29,6 +29,19 @@
       "level": "initial",
       "reason": "first snapshot",
       "note": "youtube-demo-uploads 2026-10-30: 9 new how-to posts live"
+    },
+    {
+      "version": "1.0.1",
+      "date": "2026-10-31T09:29:44+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        24966,
+        25085
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "youtube-demo-uploads 2026-10-31: 3 how-to posts promoted live"
     }
   ]
 }

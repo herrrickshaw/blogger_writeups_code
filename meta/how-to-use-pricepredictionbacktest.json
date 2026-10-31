@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/10/how-to-use-pricepredictionbacktest.html",
   "slug": "how-to-use-pricepredictionbacktest",
   "published": "2026-10-19T05:14:31.000+05:30",
-  "updated": "2026-10-30T09:26:50.259+05:30",
+  "updated": "2026-10-31T09:06:10.992+05:30",
   "labels": [
     "Equity Markets & Stock Screening",
     "Markets & Finance",
     "Open-Source Tools & How-To"
   ],
-  "bytes": 28818,
-  "sha256": "88d72076f00f81ad4e3ea0b1804e8c6a146ab7566bd766fcccecd3851c1eabd9",
+  "bytes": 28937,
+  "sha256": "f9fdad4d780d0ff96e302f4722a7695dd418167cf4097f05ffbcf72bd8865d7e",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -31,6 +31,19 @@
       "level": "initial",
       "reason": "first snapshot",
       "note": "youtube-demo-uploads 2026-10-30: 9 new how-to posts live"
+    },
+    {
+      "version": "1.0.1",
+      "date": "2026-10-31T09:29:44+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        28818,
+        28937
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "youtube-demo-uploads 2026-10-31: 3 how-to posts promoted live"
     }
   ]
 }

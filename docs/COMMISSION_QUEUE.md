@@ -845,3 +845,29 @@ queue or SOURCE_REGISTER.
     `pngrbs-own-committee-found-pipelines`. Check first whether the ₹1,000 crore is a PNGRB
     estimate only (it is, in the report) and whether any CGD entity has passed the cut through
     to pump prices (company announcements, not the report).
+
+- [ ] Germany's trade surplus with India more than halved in 2025. The growth was Indian
+      machinery going the other way.
+      Source: Destatis GENESIS-Online, foreign trade by country and product group (table family
+      51000, free, EUR), calendar 2025 final data; the product cut is already tabulated in US$ on
+      GTAI's "Deutsch-indischer Handel" page (Florian Wenke, 05.06.2026, Destatis 2026 provisional),
+      fetched in full 2026-10-31. Cross-read: DGCI&S TradeStat for FY 2025-26 (different basis, do
+      not splice).
+      Argument: Germany–India goods trade was US$35.4 bn in 2025 (+6%), but German exports to India
+      rose 0.6% (US$18.4 bn) while imports from India rose 12.5% (US$16.95 bn), cutting Germany's
+      surplus to about US$1.5 bn, less than half the year before. German machinery exports to India
+      grew 5.2%; Indian machinery exports to Germany grew 23.9%, clothing 19.7%, food 21.3%, and
+      refined-fuel sales nearly doubled. The corridor is written as German machines for India; in
+      2025 the marginal trade was Indian goods for Germany.
+      Checks needed: (1) pull the EUR series from GENESIS for 2024 and 2025 before quoting any growth
+      rate; the page's US$ rates carry an exchange-rate effect; (2) get the 2024 surplus from the
+      same table, the page only says "less than half"; (3) resolve the ambiguous "+44.5%" food line
+      (whole group or the named items); (4) aircraft (−17.1%) and road vehicles (−22.3%) are lumpy
+      lines, check whether 2024 had a one-off delivery; (5) note that Indian exports routed via
+      Rotterdam/Antwerp appear differently in DGCI&S and Destatis; (6) rule 8 does not apply unless
+      the piece frames a problem, so keep it as a trade-pattern piece with a "What this does not
+      cover" section.
+      Logged: 2026-10-31 from the GTAI/Destatis register entry
+      Opens: Germany–India goods trade. Manifest dedup 2026-10-31: `German` matches only an
+      instrument note; no title on the corridor. Nearest posts: the TEPA piece (EFTA goods) and
+      `half-of-indias-import-bill-is`; cite both as the blog's own reporting, never as confirmation.

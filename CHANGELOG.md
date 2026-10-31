@@ -16672,3 +16672,46 @@ defence exports, securities code, state WMA posts
 - `states-can-draw-rs-61008-crore-of-short` **v1.0.0** — States Can Draw Rs 61,008 Crore of Short-Term Credit From the RBI. A Few Live on It, While the Rest Park Up to Three Times That in Treasury Bills (25,206 bytes)
 - `indias-new-securities-code-gives-sebi` **v1.0.0** — India’s New Securities Code Gives SEBI 180 Days to Finish a Probe. Most Take a Year or More (26,387 bytes)
 - `defence-exports-rose-63-to-rs-38424` **v1.0.0** — Defence Exports Rose 63% to Rs 38,424 Crore. State Firms Supplied 86% of the Rise, and the 2029 Export Target Is Already Within Reach (26,760 bytes)
+
+## 2026-10-31T09:29:44+05:30 — 490 posts live
+
+youtube-demo-uploads 2026-10-31: 3 how-to posts promoted live
+
+
+**Added**
+
+- `how-to-use-vehiclefuelmileage-running` **v1.0.0** — How to use vehicle_fuel_mileage: running cost per km for petrol, diesel, CNG and EV in India (24,308 bytes)
+- `how-to-use-us-stock-picks-multi-screen` **v1.0.0** — How to use us-stock-picks: a multi-screen ranking of US stocks with paper-portfolio output (25,656 bytes)
+- `how-to-use-transmission-client-control` **v1.0.0** — How to use transmission-client: control a Transmission daemon from a CLI, a web page or Python (24,605 bytes)
+
+**Versions**
+
+- `how-to-use-five-open-toolkits-finance` **1.0.0 → 1.0.1** (PATCH) — visible text identical; only markup/styling changed
+- `how-to-use-stock-portfolio-evaluator` **1.0.0 → 1.0.1** (PATCH) — visible text identical; only markup/styling changed
+- `how-to-use-global-stock-screener-rule` **1.0.0 → 1.0.1** (PATCH) — visible text identical; only markup/styling changed
+- `how-to-use-saf-monitoring-system-track` **1.0.0 → 1.0.1** (PATCH) — visible text identical; only markup/styling changed
+- `how-to-use-refinery-design-opensource` **1.0.0 → 1.0.1** (PATCH) — visible text identical; only markup/styling changed
+- `how-to-use-research-design-system-one` **1.0.0 → 1.0.1** (PATCH) — visible text identical; only markup/styling changed
+- `how-to-use-repo-data-dedup-find` **1.0.0 → 1.0.1** (PATCH) — visible text identical; only markup/styling changed
+- `how-to-use-pricepredictionbacktest` **1.0.0 → 1.0.1** (PATCH) — visible text identical; only markup/styling changed
+- `how-to-use-ppac-ready-reckoner-data` **1.0.0 → 1.0.1** (PATCH) — visible text identical; only markup/styling changed
+- `how-to-use-ship2shorerag-offline` **2.0.0 → 2.0.1** (PATCH) — visible text identical; only markup/styling changed
+
+**Changed**
+
+- `how-to-use-five-open-toolkits-finance` — 26,554 → 26,673 bytes (+119)
+- `how-to-use-stock-portfolio-evaluator` — 25,730 → 25,849 bytes (+119)
+- `how-to-use-global-stock-screener-rule` — 23,703 → 23,822 bytes (+119)
+- `how-to-use-saf-monitoring-system-track` — 24,779 → 24,898 bytes (+119)
+- `how-to-use-refinery-design-opensource` — 22,326 → 22,445 bytes (+119)
+- `how-to-use-research-design-system-one` — 24,125 → 24,244 bytes (+119)
+- `how-to-use-repo-data-dedup-find` — 24,966 → 25,085 bytes (+119)
+- `how-to-use-pricepredictionbacktest` — 28,818 → 28,937 bytes (+119)
+- `how-to-use-ppac-ready-reckoner-data` — 24,926 → 25,045 bytes (+119)
+- `how-to-use-ship2shorerag-offline` — 24,446 → 24,565 bytes (+119)
+
+**Re-dated** (publication date changed; body and URL unchanged)
+
+- `states-can-draw-rs-61008-crore-of-short` — 2026-10-31 &rarr; 2026-10-31
+- `indias-new-securities-code-gives-sebi` — 2026-10-31 &rarr; 2026-10-31
+- `defence-exports-rose-63-to-rs-38424` — 2026-10-31 &rarr; 2026-10-31

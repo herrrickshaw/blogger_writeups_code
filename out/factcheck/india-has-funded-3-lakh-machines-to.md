@@ -17,35 +17,29 @@ FACTUAL ERRORS:
 - none found
 
 INTERPRETATION ERRORS:
-- "The power sector burnt about 859 million tonnes of coal in 2023-24, so the 2024-25 volume was about 0.2% of that coal." — Comparing the biomass co-firing volume of one fiscal year (2024-25) directly against the total coal consumption of a different fiscal year (2023-24) is an apples-to-oranges comparison; while it serves as a rough order-of-magnitude illustration, it divides 2024-25 biomass consumption by 2023-24 coal consumption rather than using contemporaneous data for both numerators and denominators. [confidence: medium]
+- none found
 
 OUTDATED DATA:
 - none found
 
 ## Groq openai/gpt-oss-120b
 
-[Groq/openai/gpt-oss-120b API error 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Requested 8058, please reduce your message size and try again. Need more tokens? Upgrade to Dev Tier today at https]
+**FACTUAL ERRORS:**  
+- **“Coal plants co‑fired about 1.62 million tonnes of biomass in 2024‑25, up from 0.38 million tonnes a year earlier.”** – Official Ministry of Power statistics for FY 2024‑25 show biomass co‑firing at roughly 0.5 million tonnes, not 1.62 million. The 0.38 million tonnes figure for the prior year is also higher than the reported ~0.3 million tonnes. Hence the numbers are overstated. **[confidence: medium]**  
+
+**INTERPRETATION ERRORS:**  
+- **“The binding constraint is collection, not demand.”** – The article treats the 5‑7 % biomass co‑firing mandate as guaranteeing sufficient demand for straw, concluding that only collection limits supply. In reality, demand is constrained by low farm‑gate straw prices, limited offtake contracts, and the seasonal, dispersed nature of residues; many plants report difficulty securing enough feedstock even when collection capacity exists. Thus the claim that demand is not a constraint is not supported by the cited evidence. **[confidence: high]**
 
 ## Mistral open-mistral-nemo
 
 **FACTUAL ERRORS:**
-- *"0.2% biomass actually co-fired in coal plants in FY25 (1.62 Mt)"* — The claim conflates two separate data points: **1.62 Mt co-fired in FY24-25** (as per Argus, Dec 2025) and the **0.2% share of total coal consumption** (859 Mt in 2023-24). The article incorrectly labels the 1.62 Mt figure as FY25’s *percentage* of co-firing, when it is actually the *absolute volume* for FY24-25. The 0.2% figure is a correct calculation for FY24-25 but misattributed to FY25 alone. [confidence: high]
-
----
+- *"0.2% biomass actually co-fired in coal plants in FY25 (1.62 Mt)"* — The claim conflates two separate FY25 figures: **1.62 Mt co-fired in FY24-25** (as per Argus/Ministry of Power) and **0.2% of FY24 coal (859 Mt)** as an illustrative 7% mandate calculation. The **0.2% figure is not a factual claim about FY25 co-firing** but a hypothetical extrapolation. [confidence: high]
 
 **INTERPRETATION ERRORS:**
-- *"The target was 1.5 million tonnes of straw through 333 collection centres of 4,500 tonnes each"* — The claim implies a **direct causal link** between the 1.5 Mt target and the 333 centres (4,500 t each), but the article later states *"No count of projects sanctioned or tonnes collected under the window was found."* Without verified data on actual collection, the target cannot be treated as a realized outcome of the 333 centres. The reasoning assumes the centres *achieved* the 1.5 Mt target, which is unsupported. [confidence: high]
+- *"The target was 1.5 million tonnes of straw through 333 collection centres of 4,500 tonnes each"* — The **4,500-tonne capacity per centre is a design assumption**, not a verified output. The article later notes **no count of projects sanctioned or tonnes collected** under the window, making the 1.5 Mt target **unverified** and potentially misleading as a "target" rather than a baseline. [confidence: high]
 
-- *"Punjab alone targeted about 6 million tonnes of straw for ex-situ use in 2025"* — The "target" is derived from **straw production estimates** (e.g., 22 Mt surplus in Punjab) minus in-situ use, not an official government target. The article treats this as a demand-side benchmark, but it conflates *potential surplus* with *actual demand* from industries (e.g., coal plants, pellet makers), which may not align with farmers’ willingness to sell or aggregators’ capacity. [confidence: medium]
-
----
 **OUTDATED DATA:**
-- *"Coal plants co-fired about 1.62 million tonnes of biomass in 2024-25"* — The article cites **Argus (Dec 2025)** for this figure, but the **power ministry’s latest official data** (likely for FY25-26) may have been released post-December 2025. For real-time tracking, check the **Ministry of Power’s monthly biomass co-firing reports** (e.g., [SAMARTH portal](https://samarth.powermin.gov.in)) or the **CERC’s latest biomass co-firing data**. [confidence: high]
-
-- *"National Biomass Atlas of India (SSS-NIBE, for MNRE), triennium ending 2017-18"* — The atlas is **decade-old** (2015–18 data). The **MNRE has not updated it**, but newer estimates (e.g., **2023–24 biomass potential studies** by SSS-NIBE or NITI Aayog) may reflect changes in crop patterns, irrigation, or residue management. For current surpluses, cross-check with:
-  - **MNRE’s latest biomass resource assessments** (e.g., [MNRE website](https://mnre.gov.in))
-  - **NITI Aayog’s biomass reports** (e.g., [NITI Aayog portal](https://niti.gov.in))
-  - **FAO/ISICCE’s India biomass inventory** (if available). [confidence: high]
+- *"National Biomass Atlas of India (SSS-NIBE, for MNRE), triennium ending 2017-18"* — The **latest official biomass atlas** (as of 2026) should reflect data beyond 2018. The **SAMARTH portal’s "All India" state table** (linked) may have been updated; re-check the **MNRE’s latest biomass resource assessment** (e.g., 2022–23 or 2024–25). [confidence: high]
 
 ---
-**Note:** The article’s **2026 publication date** does not invalidate fact-checking—only claims that are **plausible but unsupported** (e.g., interpretation errors) or **verifiably outdated** (e.g., atlas data) are flagged. No other categories had actionable issues.
+*Note: No other distinct factual, interpretive, or outdated data issues were identified.*

@@ -1,6 +1,6 @@
 {
-  "snapshot": "2026-10-31T05:13:03+05:30",
-  "count": 487,
+  "snapshot": "2026-10-31T09:29:44+05:30",
+  "count": 490,
   "posts": {
     "1008146607143508554": {
       "id": "1008146607143508554",
@@ -8590,6 +8590,42 @@
         }
       ]
     },
+    "2119850573344134450": {
+      "id": "2119850573344134450",
+      "title": "How to use us-stock-picks: a multi-screen ranking of US stocks with paper-portfolio output",
+      "url": "https://masaladeutsch.blogspot.com/2026/10/how-to-use-us-stock-picks-multi-screen.html",
+      "slug": "how-to-use-us-stock-picks-multi-screen",
+      "published": "2026-10-19T05:15:17.000+05:30",
+      "updated": "2026-10-31T09:26:51.790+05:30",
+      "labels": [
+        "Equity Markets & Stock Screening",
+        "Markets & Finance",
+        "Open-Source Tools & How-To"
+      ],
+      "bytes": 25656,
+      "sha256": "3312a56ac980a2b5a22c9e92d6278921470ba38d3d52009a299d77c7c7019ede",
+      "markers": {
+        "light_lock": true,
+        "dark_panel_guard": false,
+        "typo_unify": true,
+        "translate_widget": true,
+        "index_link": true,
+        "ai_disclosure": true,
+        "revision_line": true,
+        "inverted_media_query": false,
+        "disclaimer_in_script": false
+      },
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "date": "2026-10-31T09:29:44+05:30",
+          "level": "initial",
+          "reason": "first snapshot",
+          "note": "youtube-demo-uploads 2026-10-31: 3 how-to posts promoted live"
+        }
+      ]
+    },
     "212396316685707154": {
       "id": "212396316685707154",
       "title": "The Phone PLI's Successor Pays Up to 5%, Wants 15% Growth a Year, and Offers 0.2% to Make the Cell Here",
@@ -13198,13 +13234,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/10/how-to-use-ship2shorerag-offline.html",
       "slug": "how-to-use-ship2shorerag-offline",
       "published": "2026-10-18T08:54:54.000+05:30",
-      "updated": "2026-10-30T09:26:21.728+05:30",
+      "updated": "2026-10-31T09:06:26.462+05:30",
       "labels": [
         "Open-Source Tools & How-To",
         "Shipping & Maritime Fuels"
       ],
-      "bytes": 24446,
-      "sha256": "c32936ef65ca316f837e33076f53994a6b16ea3d585b5261d62723f608c8b4e5",
+      "bytes": 24565,
+      "sha256": "dbee804cd6ec61b22fd77d4e98da459bef855da493019d73c06f26f1605a4fee",
       "markers": {
         "light_lock": true,
         "dark_panel_guard": false,
@@ -13216,7 +13252,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "2.0.0",
+      "version": "2.0.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -13263,6 +13299,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "youtube-demo-uploads 2026-10-30: 9 new how-to posts live"
+        },
+        {
+          "version": "2.0.1",
+          "date": "2026-10-31T09:29:44+05:30",
+          "level": "patch",
+          "reason": "visible text identical; only markup/styling changed",
+          "bytes": [
+            24446,
+            24565
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "youtube-demo-uploads 2026-10-31: 3 how-to posts promoted live"
         }
       ]
     },
@@ -13638,15 +13687,15 @@
       "url": "https://masaladeutsch.blogspot.com/2026/10/how-to-use-ppac-ready-reckoner-data.html",
       "slug": "how-to-use-ppac-ready-reckoner-data",
       "published": "2026-10-19T05:14:29.000+05:30",
-      "updated": "2026-10-30T09:26:47.834+05:30",
+      "updated": "2026-10-31T09:06:18.802+05:30",
       "labels": [
         "Energy & Fuels",
         "India",
         "Open-Source Tools & How-To",
         "Refining & Petrochemicals"
       ],
-      "bytes": 24926,
-      "sha256": "dfa3c2ec09b5a0ed5a0014dc1b88ae37bc826a84f98c0f108b8cc3fca7cc5db1",
+      "bytes": 25045,
+      "sha256": "4abfabb04c8bae13b2808b006aa79d4f635a03f4cf2b603503ca7d0b1aec50d0",
       "markers": {
         "light_lock": true,
         "dark_panel_guard": false,
@@ -13658,7 +13707,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -13666,6 +13715,19 @@
           "level": "initial",
           "reason": "first snapshot",
           "note": "youtube-demo-uploads 2026-10-30: 9 new how-to posts live"
+        },
+        {
+          "version": "1.0.1",
+          "date": "2026-10-31T09:29:44+05:30",
+          "level": "patch",
+          "reason": "visible text identical; only markup/styling changed",
+          "bytes": [
+            24926,
+            25045
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "youtube-demo-uploads 2026-10-31: 3 how-to posts promoted live"
         }
       ]
     },
@@ -16841,15 +16903,15 @@
       "title": "How to use stock-portfolio-evaluator: a rule-of-thumb Newsvendor score for a stock portfolio",
       "url": "https://masaladeutsch.blogspot.com/2026/10/how-to-use-stock-portfolio-evaluator.html",
       "slug": "how-to-use-stock-portfolio-evaluator",
-      "published": "2026-10-30T09:26:38.033+05:30",
-      "updated": "2026-10-30T09:26:38.033+05:30",
+      "published": "2026-10-30T09:26:38.000+05:30",
+      "updated": "2026-10-31T09:05:24.449+05:30",
       "labels": [
         "Equity Markets & Stock Screening",
         "Markets & Finance",
         "Open-Source Tools & How-To"
       ],
-      "bytes": 25730,
-      "sha256": "6d9541e9798581100fed67e47382e9ef07b773129f1492b55b5c422494da6f31",
+      "bytes": 25849,
+      "sha256": "8502670e5147e4eee01bfb74e722555f53c699eba11988347f91dcc7bab0dd28",
       "markers": {
         "light_lock": true,
         "dark_panel_guard": false,
@@ -16861,7 +16923,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -16869,6 +16931,19 @@
           "level": "initial",
           "reason": "first snapshot",
           "note": "youtube-demo-uploads 2026-10-30: 9 new how-to posts live"
+        },
+        {
+          "version": "1.0.1",
+          "date": "2026-10-31T09:29:44+05:30",
+          "level": "patch",
+          "reason": "visible text identical; only markup/styling changed",
+          "bytes": [
+            25730,
+            25849
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "youtube-demo-uploads 2026-10-31: 3 how-to posts promoted live"
         }
       ]
     },
@@ -26144,6 +26219,40 @@
         }
       ]
     },
+    "4241032125144352651": {
+      "id": "4241032125144352651",
+      "title": "How to use transmission-client: control a Transmission daemon from a CLI, a web page or Python",
+      "url": "https://masaladeutsch.blogspot.com/2026/10/how-to-use-transmission-client-control.html",
+      "slug": "how-to-use-transmission-client-control",
+      "published": "2026-10-19T05:14:36.000+05:30",
+      "updated": "2026-10-31T09:26:49.391+05:30",
+      "labels": [
+        "Open-Source Tools & How-To"
+      ],
+      "bytes": 24605,
+      "sha256": "2115e3bdd536ecaaebae504e89c476b1427324b75d227a7766dfbbc3a3101cee",
+      "markers": {
+        "light_lock": true,
+        "dark_panel_guard": false,
+        "typo_unify": true,
+        "translate_widget": true,
+        "index_link": true,
+        "ai_disclosure": true,
+        "revision_line": true,
+        "inverted_media_query": false,
+        "disclaimer_in_script": false
+      },
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "date": "2026-10-31T09:29:44+05:30",
+          "level": "initial",
+          "reason": "first snapshot",
+          "note": "youtube-demo-uploads 2026-10-31: 3 how-to posts promoted live"
+        }
+      ]
+    },
     "4251169056772336332": {
       "id": "4251169056772336332",
       "title": "Would More SGST Fix the \"Donor State\" Problem? Ethanol Shows Why the Real Lever Sits Elsewhere",
@@ -31930,9 +32039,12 @@
       "title": "India’s New Securities Code Gives SEBI 180 Days to Finish a Probe. Most Take a Year or More",
       "url": "https://masaladeutsch.blogspot.com/2026/10/indias-new-securities-code-gives-sebi.html",
       "slug": "indias-new-securities-code-gives-sebi",
-      "published": "2026-10-31T05:12:22.867+05:30",
-      "updated": "2026-10-31T05:12:22.867+05:30",
-      "labels": [],
+      "published": "2026-10-31T05:12:22.000+05:30",
+      "updated": "2026-10-31T05:13:15.454+05:30",
+      "labels": [
+        "Governance & Institutions",
+        "Markets & Finance"
+      ],
       "bytes": 26387,
       "sha256": "ba1bbb6444268983e76220f3c89e70deaca2745afa546fd390ace400bb16d2f8",
       "markers": {
@@ -34322,12 +34434,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/10/how-to-use-repo-data-dedup-find.html",
       "slug": "how-to-use-repo-data-dedup-find",
       "published": "2026-10-19T05:14:33.000+05:30",
-      "updated": "2026-10-30T09:26:52.954+05:30",
+      "updated": "2026-10-31T09:06:03.189+05:30",
       "labels": [
         "Open-Source Tools & How-To"
       ],
-      "bytes": 24966,
-      "sha256": "c4ef01ba2291a6aef139bc0c36ef02a83ac73108ba2cd0d4f7611bf61c389bd7",
+      "bytes": 25085,
+      "sha256": "45be202e29350020a0a0eec03ec8a71e47bd5ac81744500f074189d763109e32",
       "markers": {
         "light_lock": true,
         "dark_panel_guard": false,
@@ -34339,7 +34451,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -34347,6 +34459,19 @@
           "level": "initial",
           "reason": "first snapshot",
           "note": "youtube-demo-uploads 2026-10-30: 9 new how-to posts live"
+        },
+        {
+          "version": "1.0.1",
+          "date": "2026-10-31T09:29:44+05:30",
+          "level": "patch",
+          "reason": "visible text identical; only markup/styling changed",
+          "bytes": [
+            24966,
+            25085
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "youtube-demo-uploads 2026-10-31: 3 how-to posts promoted live"
         }
       ]
     },
@@ -34429,15 +34554,15 @@
       "title": "How to use global-stock-screener: rule-based stock screens, offline",
       "url": "https://masaladeutsch.blogspot.com/2026/10/how-to-use-global-stock-screener-rule.html",
       "slug": "how-to-use-global-stock-screener-rule",
-      "published": "2026-10-30T09:26:36.049+05:30",
-      "updated": "2026-10-30T09:26:36.049+05:30",
+      "published": "2026-10-30T09:26:36.000+05:30",
+      "updated": "2026-10-31T09:05:31.663+05:30",
       "labels": [
         "Equity Markets & Stock Screening",
         "Markets & Finance",
         "Open-Source Tools & How-To"
       ],
-      "bytes": 23703,
-      "sha256": "bca86bc946fb6780561b07b52b8d698335b19f54895c3e60559e157eb7f4963e",
+      "bytes": 23822,
+      "sha256": "5a6858b111f5990e4c116e943a55271c02dc0e96662b77dcc4d97c15741d44f7",
       "markers": {
         "light_lock": true,
         "dark_panel_guard": false,
@@ -34449,7 +34574,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -34457,6 +34582,19 @@
           "level": "initial",
           "reason": "first snapshot",
           "note": "youtube-demo-uploads 2026-10-30: 9 new how-to posts live"
+        },
+        {
+          "version": "1.0.1",
+          "date": "2026-10-31T09:29:44+05:30",
+          "level": "patch",
+          "reason": "visible text identical; only markup/styling changed",
+          "bytes": [
+            23703,
+            23822
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "youtube-demo-uploads 2026-10-31: 3 how-to posts promoted live"
         }
       ]
     },
@@ -36523,16 +36661,16 @@
       "title": "How to use refinery-design-opensource: test what a crude does to a refinery",
       "url": "https://masaladeutsch.blogspot.com/2026/10/how-to-use-refinery-design-opensource.html",
       "slug": "how-to-use-refinery-design-opensource",
-      "published": "2026-10-30T09:26:32.239+05:30",
-      "updated": "2026-10-30T09:26:32.239+05:30",
+      "published": "2026-10-30T09:26:32.000+05:30",
+      "updated": "2026-10-31T09:05:47.359+05:30",
       "labels": [
         "Energy & Fuels",
         "India",
         "Open-Source Tools & How-To",
         "Refining & Petrochemicals"
       ],
-      "bytes": 22326,
-      "sha256": "cd8d233695e6ee3cce8a83549f8dcd8c5ebea9bb5d66082c156c995aa282f68d",
+      "bytes": 22445,
+      "sha256": "dea1e775f750039f2c0456574065be7d67d20264b55cb99738551f880ca2a680",
       "markers": {
         "light_lock": true,
         "dark_panel_guard": false,
@@ -36544,7 +36682,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -36552,6 +36690,19 @@
           "level": "initial",
           "reason": "first snapshot",
           "note": "youtube-demo-uploads 2026-10-30: 9 new how-to posts live"
+        },
+        {
+          "version": "1.0.1",
+          "date": "2026-10-31T09:29:44+05:30",
+          "level": "patch",
+          "reason": "visible text identical; only markup/styling changed",
+          "bytes": [
+            22326,
+            22445
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "youtube-demo-uploads 2026-10-31: 3 how-to posts promoted live"
         }
       ]
     },
@@ -43283,14 +43434,14 @@
       "url": "https://masaladeutsch.blogspot.com/2026/10/how-to-use-pricepredictionbacktest.html",
       "slug": "how-to-use-pricepredictionbacktest",
       "published": "2026-10-19T05:14:31.000+05:30",
-      "updated": "2026-10-30T09:26:50.259+05:30",
+      "updated": "2026-10-31T09:06:10.992+05:30",
       "labels": [
         "Equity Markets & Stock Screening",
         "Markets & Finance",
         "Open-Source Tools & How-To"
       ],
-      "bytes": 28818,
-      "sha256": "88d72076f00f81ad4e3ea0b1804e8c6a146ab7566bd766fcccecd3851c1eabd9",
+      "bytes": 28937,
+      "sha256": "f9fdad4d780d0ff96e302f4722a7695dd418167cf4097f05ffbcf72bd8865d7e",
       "markers": {
         "light_lock": true,
         "dark_panel_guard": false,
@@ -43302,7 +43453,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -43310,6 +43461,19 @@
           "level": "initial",
           "reason": "first snapshot",
           "note": "youtube-demo-uploads 2026-10-30: 9 new how-to posts live"
+        },
+        {
+          "version": "1.0.1",
+          "date": "2026-10-31T09:29:44+05:30",
+          "level": "patch",
+          "reason": "visible text identical; only markup/styling changed",
+          "bytes": [
+            28818,
+            28937
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "youtube-demo-uploads 2026-10-31: 3 how-to posts promoted live"
         }
       ]
     },
@@ -51945,12 +52109,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/10/how-to-use-research-design-system-one.html",
       "slug": "how-to-use-research-design-system-one",
       "published": "2026-10-19T05:14:34.000+05:30",
-      "updated": "2026-10-30T09:26:54.805+05:30",
+      "updated": "2026-10-31T09:05:55.307+05:30",
       "labels": [
         "Open-Source Tools & How-To"
       ],
-      "bytes": 24125,
-      "sha256": "0728d765351f88ad23d58e0a12b88a71e5c7b7b20c8b400c4e9fdc2c5c088289",
+      "bytes": 24244,
+      "sha256": "7d85fd6686726a0e8d95bde9062b006f1df46895650dfdf0a232f72f6d3bdb11",
       "markers": {
         "light_lock": true,
         "dark_panel_guard": false,
@@ -51962,7 +52126,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -51970,6 +52134,19 @@
           "level": "initial",
           "reason": "first snapshot",
           "note": "youtube-demo-uploads 2026-10-30: 9 new how-to posts live"
+        },
+        {
+          "version": "1.0.1",
+          "date": "2026-10-31T09:29:44+05:30",
+          "level": "patch",
+          "reason": "visible text identical; only markup/styling changed",
+          "bytes": [
+            24125,
+            24244
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "youtube-demo-uploads 2026-10-31: 3 how-to posts promoted live"
         }
       ]
     },
@@ -53353,15 +53530,15 @@
       "title": "How to use saf-monitoring-system: track SAF batches against blending and carbon-credit rules",
       "url": "https://masaladeutsch.blogspot.com/2026/10/how-to-use-saf-monitoring-system-track.html",
       "slug": "how-to-use-saf-monitoring-system-track",
-      "published": "2026-10-30T09:26:34.127+05:30",
-      "updated": "2026-10-30T09:26:34.127+05:30",
+      "published": "2026-10-30T09:26:34.000+05:30",
+      "updated": "2026-10-31T09:05:39.637+05:30",
       "labels": [
         "Climate & Carbon",
         "Energy & Fuels",
         "Open-Source Tools & How-To"
       ],
-      "bytes": 24779,
-      "sha256": "443ecc39b37d57994369328dc4bcc4d8b5269725364f584f21ffb8d23705628f",
+      "bytes": 24898,
+      "sha256": "15dba560f0dd96c1794f9def62ac7a7a25a12557a560c605c71c433080700101",
       "markers": {
         "light_lock": true,
         "dark_panel_guard": false,
@@ -53373,7 +53550,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -53381,6 +53558,19 @@
           "level": "initial",
           "reason": "first snapshot",
           "note": "youtube-demo-uploads 2026-10-30: 9 new how-to posts live"
+        },
+        {
+          "version": "1.0.1",
+          "date": "2026-10-31T09:29:44+05:30",
+          "level": "patch",
+          "reason": "visible text identical; only markup/styling changed",
+          "bytes": [
+            24779,
+            24898
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "youtube-demo-uploads 2026-10-31: 3 how-to posts promoted live"
         }
       ]
     },
@@ -59320,15 +59510,15 @@
       "title": "How to use five open toolkits: finance models, documents, care audits",
       "url": "https://masaladeutsch.blogspot.com/2026/10/how-to-use-five-open-toolkits-finance.html",
       "slug": "how-to-use-five-open-toolkits-finance",
-      "published": "2026-10-30T09:26:39.993+05:30",
-      "updated": "2026-10-30T09:26:39.993+05:30",
+      "published": "2026-10-30T09:26:39.000+05:30",
+      "updated": "2026-10-31T09:05:16.534+05:30",
       "labels": [
         "Healthcare",
         "Markets & Finance",
         "Open-Source Tools & How-To"
       ],
-      "bytes": 26554,
-      "sha256": "8696d5da903d29dba86627f431bfc2a2230361ce012b14770cf41deb9b130666",
+      "bytes": 26673,
+      "sha256": "2f7e06d2564d085ae29644ddc14e4237e078548edf3d0d291f78f814d644fdf9",
       "markers": {
         "light_lock": true,
         "dark_panel_guard": false,
@@ -59340,7 +59530,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -59348,6 +59538,19 @@
           "level": "initial",
           "reason": "first snapshot",
           "note": "youtube-demo-uploads 2026-10-30: 9 new how-to posts live"
+        },
+        {
+          "version": "1.0.1",
+          "date": "2026-10-31T09:29:44+05:30",
+          "level": "patch",
+          "reason": "visible text identical; only markup/styling changed",
+          "bytes": [
+            26554,
+            26673
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "youtube-demo-uploads 2026-10-31: 3 how-to posts promoted live"
         }
       ]
     },
@@ -67016,9 +67219,13 @@
       "title": "Defence Exports Rose 63% to Rs 38,424 Crore. State Firms Supplied 86% of the Rise, and the 2029 Export Target Is Already Within Reach",
       "url": "https://masaladeutsch.blogspot.com/2026/10/defence-exports-rose-63-to-rs-38424.html",
       "slug": "defence-exports-rose-63-to-rs-38424",
-      "published": "2026-10-31T05:12:14.878+05:30",
-      "updated": "2026-10-31T05:12:14.878+05:30",
-      "labels": [],
+      "published": "2026-10-31T05:12:14.000+05:30",
+      "updated": "2026-10-31T05:13:07.593+05:30",
+      "labels": [
+        "Defence",
+        "Industrial Policy",
+        "Trade & Tariffs"
+      ],
       "bytes": 26760,
       "sha256": "9dce45c71aa7cdabcbf498ca3537126110e01038da086f4fec2961fb5654f17e",
       "markers": {
@@ -67136,6 +67343,43 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "youtube-demo-uploads: uco-ulo-tracking post live"
+        }
+      ]
+    },
+    "8775995624256457189": {
+      "id": "8775995624256457189",
+      "title": "How to use vehicle_fuel_mileage: running cost per km for petrol, diesel, CNG and EV in India",
+      "url": "https://masaladeutsch.blogspot.com/2026/10/how-to-use-vehiclefuelmileage-running.html",
+      "slug": "how-to-use-vehiclefuelmileage-running",
+      "published": "2026-10-19T05:15:19.000+05:30",
+      "updated": "2026-10-31T09:26:54.096+05:30",
+      "labels": [
+        "Energy & Fuels",
+        "India",
+        "Mobility & EV",
+        "Open-Source Tools & How-To"
+      ],
+      "bytes": 24308,
+      "sha256": "f9a583d598e4264e8f868f129784f5eb7e106d64af3cef2ed08682a2e071fd5b",
+      "markers": {
+        "light_lock": true,
+        "dark_panel_guard": false,
+        "typo_unify": true,
+        "translate_widget": true,
+        "index_link": true,
+        "ai_disclosure": true,
+        "revision_line": true,
+        "inverted_media_query": false,
+        "disclaimer_in_script": false
+      },
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "date": "2026-10-31T09:29:44+05:30",
+          "level": "initial",
+          "reason": "first snapshot",
+          "note": "youtube-demo-uploads 2026-10-31: 3 how-to posts promoted live"
         }
       ]
     },
@@ -71205,9 +71449,12 @@
       "title": "States Can Draw Rs 61,008 Crore of Short-Term Credit From the RBI. A Few Live on It, While the Rest Park Up to Three Times That in Treasury Bills",
       "url": "https://masaladeutsch.blogspot.com/2026/10/states-can-draw-rs-61008-crore-of-short.html",
       "slug": "states-can-draw-rs-61008-crore-of-short",
-      "published": "2026-10-31T05:12:30.694+05:30",
-      "updated": "2026-10-31T05:12:30.694+05:30",
-      "labels": [],
+      "published": "2026-10-31T05:12:30.000+05:30",
+      "updated": "2026-10-31T05:13:23.075+05:30",
+      "labels": [
+        "Governance & Institutions",
+        "Macroeconomics & Monetary Policy"
+      ],
       "bytes": 25206,
       "sha256": "74cbc34cbe6edf0dcd6a2870af1f0f976e6dd4039cd65a08b81183bc28c2211f",
       "markers": {

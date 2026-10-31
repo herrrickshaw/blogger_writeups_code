@@ -3,16 +3,16 @@
   "title": "How to use refinery-design-opensource: test what a crude does to a refinery",
   "url": "https://masaladeutsch.blogspot.com/2026/10/how-to-use-refinery-design-opensource.html",
   "slug": "how-to-use-refinery-design-opensource",
-  "published": "2026-10-30T09:26:32.239+05:30",
-  "updated": "2026-10-30T09:26:32.239+05:30",
+  "published": "2026-10-30T09:26:32.000+05:30",
+  "updated": "2026-10-31T09:05:47.359+05:30",
   "labels": [
     "Energy & Fuels",
     "India",
     "Open-Source Tools & How-To",
     "Refining & Petrochemicals"
   ],
-  "bytes": 22326,
-  "sha256": "cd8d233695e6ee3cce8a83549f8dcd8c5ebea9bb5d66082c156c995aa282f68d",
+  "bytes": 22445,
+  "sha256": "dea1e775f750039f2c0456574065be7d67d20264b55cb99738551f880ca2a680",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -32,6 +32,19 @@
       "level": "initial",
       "reason": "first snapshot",
       "note": "youtube-demo-uploads 2026-10-30: 9 new how-to posts live"
+    },
+    {
+      "version": "1.0.1",
+      "date": "2026-10-31T09:29:44+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        22326,
+        22445
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "youtube-demo-uploads 2026-10-31: 3 how-to posts promoted live"
     }
   ]
 }

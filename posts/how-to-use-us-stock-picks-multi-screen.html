@@ -1,0 +1,269 @@
+<div class="artx htuusstoc">
+<style>
+/* ---- typography (gs-typo-unify-v1): keep in sync across all posts ---- */
+.htuusstoc{font-family:Georgia,'Times New Roman',serif;line-height:1.6;color:#111}
+.htuusstoc h1,.htuusstoc h2,.htuusstoc h3{line-height:1.3}
+
+/* ---- palette: define every colour as a custom property here. Do not add
+       raw hex elsewhere in a post's <style> block — reference these vars, so
+       a future palette change is a 4-line edit instead of a find-and-replace
+       across every post. ----
+   --ink     #111    body text, light-locked (see below)
+   --accent  #8a4b08  eyebrow text, h2 rule, table header bg, stat numbers —
+                       the one colour that carries this post's "brand"
+   --rule    #e8dcc4  hairline borders, h2 underline, table cell borders
+   --panel   #fdf7ec  stat-card bg, even table rows — the palette's one tint
+*/
+.htuusstoc{--ink:#111;--accent:#8a4b08;--rule:#e8dcc4;--panel:#fdf7ec;--good:#1a7a4c;--good-soft:#eaf6ef;--bad:#a5402c;--bad-soft:#fff4f0}
+
+/* ---- mono-label convention (added 2026-09-17, borrowed from the
+       india-trade-sector-policy-recommendations design system): the eyebrow
+       kicker and the source line read as data-journalism metadata, not
+       article prose, so they get a monospace face — a system stack, not a
+       hosted webfont, so no post gains an extra network request or a
+       flash-of-unstyled-text risk. Body text (h1/p/li/table) keeps the
+       serif — this is a two-place accent, not a font-pairing overhaul. ---- */
+.htuusstoc{--mono:ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace}
+
+/* ---- light lock (gs-light-lock): a dark Blogger theme (and a browser/OS
+       set to prefers-color-scheme:dark) must not repaint text. Re-assert
+       the same values with !important — verified 2026-08-14 across 5 live
+       posts with the browser's colour scheme forced to dark: body/h1/p/table
+       all stayed light-background/dark-text with no low-contrast pairs.
+       Do NOT add selectors here for panels that are meant to be dark —
+       those go in the guard below. ---- */
+.htuusstoc,.htuusstoc p,.htuusstoc li,.htuusstoc td,.htuusstoc th{color:var(--ink)!important}
+.htuusstoc{background:#fff!important}
+
+/* ---- structure: title + subtitle ----
+   .eyebrow    = the small-caps kicker ABOVE the h1 — "Section · Topic ·
+                 Subtopic", sets context before the reader hits the claim
+   h1          = the headline itself. Write it as the CLAIM, not the topic
+                 ("The Rouble Is the Outlier, Not the Dollar" beats
+                 "Currency Trends Update"). font-size 1.5rem is the deliberate
+                 site-wide size — do not bump it per-post.
+   .standfirst = the one/two-sentence SUBTITLE directly under the h1. This is
+                 also what Blogger's snippet extractor and the JSON-LD meta
+                 description both read (see the gs-head-order block below) —
+                 write it as a real, complete sentence a reader could act on,
+                 not a fragment.
+*/
+.htuusstoc .eyebrow{font-size:.8rem;font-weight:700;letter-spacing:.04em;color:var(--accent);text-transform:uppercase;margin:0 0 6px;font-family:var(--mono)}
+.htuusstoc h1{margin:0 0 10px;font-size:1.5rem}
+.htuusstoc .standfirst{font-size:1.05rem;color:#333!important;margin:0 0 18px}
+.htuusstoc .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px;margin:18px 0}
+.htuusstoc .stat{background:var(--panel);border:1px solid var(--rule);border-radius:10px;padding:12px 14px}
+.htuusstoc .stat b{display:block;font-size:1.2rem;color:var(--accent)}
+.htuusstoc .stat span{font-size:.8rem}
+.htuusstoc h2{color:var(--accent);border-bottom:2px solid var(--rule);padding-bottom:6px;margin-top:30px;font-size:1.15rem}
+
+/* ---- tables: units live in the header, cells carry bare numbers.
+       .tw is the mobile-overflow fix — see the MOBILE comment above. ---- */
+.htuusstoc .tw{overflow-x:auto}
+.htuusstoc table{width:100%;border-collapse:collapse;margin:14px 0;font-size:.88rem}
+.htuusstoc th,.htuusstoc td{border:1px solid var(--rule);padding:7px 9px;text-align:right;word-wrap:break-word;overflow-wrap:break-word}
+.htuusstoc th:first-child,.htuusstoc td:first-child{text-align:left}
+.htuusstoc th{background:var(--accent);color:#fff!important;font-weight:600}
+.htuusstoc tr:nth-child(even){background:var(--panel)}
+
+.htuusstoc .note{background:#eef4ff;border-left:4px solid #2a78d6;padding:12px 16px;margin:18px 0;border-radius:0 8px 8px 0;font-size:.93rem}
+.htuusstoc .warn{background:var(--bad-soft);border-left:4px solid var(--bad);padding:12px 16px;margin:18px 0;border-radius:0 8px 8px 0;font-size:.93rem}
+/* ---- .good (added 2026-09-17): third semantic tier alongside .note (neutral
+       framing) and .warn (a caveat/scope limit) — for the case a caveat block
+       would otherwise get stretched to cover: confirming a figure checked out,
+       a correction that resolved cleanly, a claim that survived cross-check.
+       Same shape as .note/.warn on purpose, so all three read as one family. */
+.htuusstoc .good{background:var(--good-soft);border-left:4px solid var(--good);padding:12px 16px;margin:18px 0;border-radius:0 8px 8px 0;font-size:.93rem}
+/* ---- .chip (added 2026-09-17): formalises a labelling pattern several posts
+       already built ad hoc in JS (e.g. "PLI coverage: strong/partial/gap")
+       into one reusable inline component, so a new post doesn't reinvent it.
+       Use inline: <span class="chip chip-good">Strong</span>. ---- */
+.htuusstoc .chip{display:inline-block;font-family:var(--mono);font-size:.72rem;font-weight:700;letter-spacing:.02em;padding:.15rem .5rem;border-radius:99px;line-height:1.5}
+.htuusstoc .chip-good{background:var(--good-soft);color:var(--good)}
+.htuusstoc .chip-warn{background:var(--panel);color:var(--accent)}
+.htuusstoc .chip-bad{background:var(--bad-soft);color:var(--bad)}
+.htuusstoc .src{font-size:.84rem;font-family:var(--mono);border-top:1px solid var(--rule);padding-top:12px;margin-top:24px}
+.htuusstoc .disclaimer{font-size:.82rem;color:#555;margin-top:10px}
+.htuusstoc .revised{font-size:.8rem;color:#555!important;margin:0 0 14px}
+.htuusstoc .revised code{font-family:inherit;background:var(--panel);padding:1px 5px;border-radius:4px}
+</style>
+
+
+<div class="gs-head-order" style="display:flex;flex-direction:column">
+<p class="standfirst" style="order:4">A small Python package that turns a US market scan workbook into a conviction-ranked shortlist, a quant CSV/JSON and an equal-weight paper portfolio. On 23 October 2026 I ranked a freshly built scan of the 300 most liquid US stocks, with prices to the 21 October 2026 session. Research and education only; not investment advice.</p>
+<div class="topnav-index-link" style="order:1;font-size:.82em;margin:6px 0 14px"><a href="https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html" style="color:#0b5394;text-decoration:none">&#8592; All Articles (Index)</a></div>
+<p class="eyebrow" style="order:2">Open-Source Tools · How-To · Markets research</p>
+<h1 style="order:3">How to use us-stock-picks: a multi-screen ranking of US stocks with paper-portfolio output</h1>
+</div>
+
+
+<a href="#" id="gs-skip-link" class="gs-skip-link" style="position:absolute;left:-9999px;top:auto;background:#1a1a1a;color:#fff;padding:.6rem 1rem;z-index:1000;border-radius:4px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.85rem">Skip to article content</a>
+<style>.gs-skip-link:focus{left:8px!important;top:8px!important}
+.gs-a11y-bar{display:flex;align-items:center;gap:.55rem;flex-wrap:wrap;background:#f4f5f7;border:1px solid #dfe3e8;border-radius:8px;padding:.55rem .8rem;margin:10px 0 16px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
+.gs-a11y-bar .gs-a11y-label{font-size:.68rem;font-weight:700;letter-spacing:.08em;color:#666;text-transform:uppercase;margin-right:.15rem}
+.gs-a11y-bar button{cursor:pointer;border:1px solid #c7cbd1;background:#fff;color:#1a1a1a;border-radius:5px;padding:.32rem .65rem;font-family:inherit;line-height:1}
+.gs-a11y-bar button.gs-a11y-fs{font-weight:700;min-width:2rem;text-align:center}
+.gs-a11y-bar button.gs-a11y-fs[data-size="sm"]{font-size:.8rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="md"]{font-size:1rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="lg"]{font-size:1.2rem}
+.gs-a11y-bar button.gs-a11y-fs[aria-pressed="true"]{background:#1a1a1a;color:#fff;border-color:#1a1a1a}
+.gs-a11y-bar button:hover{border-color:#8a4b08}
+.gs-a11y-bar button:focus-visible{outline:2px solid #8a4b08;outline-offset:1px}
+.gs-a11y-bar .gs-a11y-sep{width:1px;align-self:stretch;background:#dfe3e8;margin:0 .1rem}</style>
+<div class="gs-a11y-bar" role="group" aria-label="Accessibility controls">
+<span class="gs-a11y-label">Text Size</span>
+<button type="button" class="gs-a11y-fs" data-size="sm" aria-pressed="false" aria-label="Small text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="md" aria-pressed="true" aria-label="Medium text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="lg" aria-pressed="false" aria-label="Large text">A</button>
+<span class="gs-a11y-sep"></span>
+<button type="button" id="gs-a11y-listen" aria-label="Read this article aloud">&#128266; Listen</button>
+<button type="button" id="gs-a11y-stop" aria-label="Stop reading aloud">&#9632; Stop</button>
+</div>
+<script>(function(){
+var KEY='gs-a11y-fontsize', SIZES={sm:'0.92',md:'1',lg:'1.15'};
+function pb(){return document.querySelector('.post-body')||document.querySelector('.artx,.mdrx');}
+function apply(sz){
+  var el=pb(); if(!el||!SIZES[sz]) return;
+  el.style.fontSize=SIZES[sz]+'em';
+  var btns=document.querySelectorAll('.gs-a11y-fs');
+  for(var i=0;i<btns.length;i++){
+    var on=btns[i].getAttribute('data-size')===sz;
+    btns[i].setAttribute('aria-pressed', on?'true':'false');
+  }
+  try{localStorage.setItem(KEY,sz);}catch(e){}
+}
+var fsBtns=document.querySelectorAll('.gs-a11y-fs');
+for(var j=0;j<fsBtns.length;j++){
+  fsBtns[j].addEventListener('click',(function(b){return function(){apply(b.getAttribute('data-size'));};})(fsBtns[j]));
+}
+var saved; try{saved=localStorage.getItem(KEY);}catch(e){}
+apply(saved&&SIZES[saved]?saved:'md');
+
+var listenBtn=document.getElementById('gs-a11y-listen'), stopBtn=document.getElementById('gs-a11y-stop');
+if(listenBtn){
+  listenBtn.addEventListener('click', function(){
+    if(!('speechSynthesis' in window)){ alert('Text-to-speech is not supported in this browser.'); return; }
+    window.speechSynthesis.cancel();
+    var src=pb(); if(!src) return;
+    var clone=src.cloneNode(true);
+    var strip=clone.querySelectorAll('script,style,svg');
+    for(var k=0;k<strip.length;k++){ strip[k].parentNode.removeChild(strip[k]); }
+    var text=clone.textContent.replace(/\s+/g,' ').trim();
+    if(!text) return;
+    var chunks=text.match(/[\s\S]{1,180}(?:[.!?]|$)/g)||[text];
+    var idx=0;
+    function speakNext(){
+      if(idx>=chunks.length) return;
+      var u=new SpeechSynthesisUtterance(chunks[idx]);
+      u.onend=function(){ idx++; speakNext(); };
+      window.speechSynthesis.speak(u);
+    }
+    speakNext();
+  });
+}
+if(stopBtn){
+  stopBtn.addEventListener('click', function(){
+    if('speechSynthesis' in window) window.speechSynthesis.cancel();
+  });
+}
+var skip=document.getElementById('gs-skip-link');
+if(skip){
+  skip.addEventListener('click', function(ev){
+    ev.preventDefault();
+    var h=document.querySelector('.post-body h1')||document.querySelector('.artx h1,.mdrx h1,h1');
+    if(h){ h.setAttribute('tabindex','-1'); h.focus(); h.scrollIntoView(); }
+  });
+}
+})();</script>
+<style>.goog-te-menu-frame{max-width:340px!important;max-height:70vh!important;overflow:auto!important;box-shadow:0 6px 24px rgba(0,0,0,.25)!important}</style>
+<div id="google_translate_element" style="margin:8px 0 16px;"></div><script type="text/javascript">function googleTranslateElementInit(){new google.translate.TranslateElement({pageLanguage:"en",includedLanguages:"hi,bn,ta,te,mr,gu,kn,ml,pa,or,as,ur,sa,ne,sd",layout:google.translate.TranslateElement.InlineLayout.SIMPLE,autoDisplay:false},"google_translate_element");}</script><script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+
+<p class="revised" data-gs-revision-v1="1">Revised
+<time datetime="2026-10-23" itemprop="dateModified">23 October 2026</time>
+&middot; <code>v1.0.0</code> &middot; <a href="#changelog">what changed</a></p>
+
+<style>.htuusstoc pre{background:#f6f3ea!important;color:#111!important;border:1px solid var(--rule);border-radius:8px;padding:10px 12px;overflow-x:auto;font-size:.82rem;line-height:1.45}.htuusstoc pre code{background:none!important;color:#111!important;font-family:var(--mono)}.htuusstoc code{font-family:var(--mono);font-size:.88em}.htuusstoc .vid{position:relative;padding-bottom:56.25%;height:0;margin:16px 0;max-width:100%}.htuusstoc .vid iframe{position:absolute;inset:0;width:100%;height:100%;border:0}</style><div class="stats"><div class="stat"><b>300</b><span>US stocks in the fresh scan (top by turnover; committed run had 5,814)</span></div><div class="stat"><b>256</b><span>passed the liquidity gate (was 1,623)</span></div><div class="stat"><b>181</b><span>ranked after screens (was 721)</span></div><div class="stat"><b>21 Oct 2026</b><span>last trading session in the data (committed outputs: 24 Jul 2026)</span></div></div>
+<p>Code: <a href="https://github.com/herrrickshaw/us-stock-picks">github.com/herrrickshaw/us-stock-picks</a></p>
+<h2>Watch the walkthrough</h2>
+<div class="vid"><iframe src="https://www.youtube.com/embed/-xmjl_d2xLg" title="How to use us-stock-picks: a multi-screen ranking of US stocks with paper-portfolio output" allowfullscreen loading="lazy"></iframe></div><p>Watch on YouTube: <a href="https://youtu.be/-xmjl_d2xLg">youtu.be/-xmjl_d2xLg</a></p>
+<h2>Why it is useful</h2>
+<ul><li>Self-directed researchers and students who want to see how Darvas breakout, Piotroski, Coffee Can, Magic Formula and momentum screens can be combined into one score get a readable, auditable implementation.</li><li>It replaces juggling separate screens: one run gives a sector-capped shortlist, a full ranked CSV and a paper-portfolio file with transparent screen hits for each name.</li><li>Evidence from the run: a fresh scan of the 300 most liquid US stocks was ranked end to end in under three seconds: 256 passed the liquidity gate, 181 were ranked (24 CORE, 31 QUALITY, 50 MOMENTUM, 76 WATCH).</li><li>It also shows how fragile a rank is: an earlier attempt with fundamentals missing for 162 of the 300 names produced a different top 15 (12 CORE names, not 24). Missing data silently becomes &#x27;screen not passed&#x27;, so check coverage before reading the list.</li></ul>
+<h2>What it is for</h2>
+<p>us-stock-picks (package us_stock_picks) reads the newest us_full_scan_*.xlsx workbook, applies a liquidity gate (price at least $5, turnover at least $2 million a day), scores ten screens with fixed weights, assigns each stock to a sleeve (CORE, QUALITY, MOMENTUM, WATCH), caps names per sector, and writes HTML, CSV and JSON outputs.</p>
+<p>The scan workbook comes from a separate pipeline that is not in this repo. For this run I built one with the Darvas, golden-cross, five fundamental screens and machine-learning stages of the author&#x27;s sibling BazaarTalks scanner, fed with cached prices (to the 21 October 2026 session) for the 300 most liquid US non-ETF stocks and live fundamentals from Yahoo Finance. A small adapter added turnover, a liquidity tier and an above-EMA50 flag, and I named the file with the session date so the as-of label is right.</p>
+<p>Not available in my workbook: the Quality score and grade, the &#x27;Actionable&#x27; flag, so those two screens never fire. The full 7,500-stock universe was not scanned.</p>
+<p><b>Who it is for</b></p>
+<ul><li>Students learning multi-factor screening</li><li>Researchers who want a transparent, reproducible ranking recipe</li><li>Developers building a screening report from tabular scan data</li></ul>
+<div class="warn"><b>Not for.</b><ul><li>Investment advice: this is not investment advice, and nothing here is a recommendation to buy or sell</li><li>Live trading signals: the committed outputs are dated 24 July 2026</li><li>Running as-is without an upstream scan workbook or a long --refresh data pull</li></ul></div>
+<h2>What you need</h2>
+<div class="tw"><table><tr><th>Requirement</th><th>Why</th><th>How to get it</th></tr><tr><td>Python 3 with pandas, numpy, openpyxl</td><td>Listed in requirements.txt (pandas&gt;=2.0, openpyxl&gt;=3.1, numpy&gt;=1.24)</td><td>pip install -r requirements.txt</td></tr><tr><td>A us_full_scan_*.xlsx workbook with All_Stocks and All_Fundamentals sheets</td><td>The engine ranks an existing scan; none is committed. Needed columns include Symbol, LTP, Turnover_USD, Liquidity_Tier, Darvas_Signal, Piotroski_Score, CoffeeCan, MagicFormula, BullCartel</td><td>Produce one with a scan pipeline, or use --refresh (slow, network) per the README</td></tr></table></div>
+<h2>Get the code and an AI assistant</h2>
+<p>You do not have to be a programmer. Get the repository, give it to an AI assistant, and ask in plain language. Any of these routes works:</p>
+<div class="tw"><table><tr><th>Tool</th><th>What you need</th><th>Best for</th></tr><tr><td><b>GitHub</b></td><td>Free account to fork or star; <code>git</code> to clone, or the green <b>Code</b> button, then <b>Download ZIP</b>, or open in <b>Codespaces</b></td><td>Getting the code and keeping up with updates</td></tr><tr><td><b>Claude Code</b></td><td>Claude subscription or API key; run <code>claude</code> inside the cloned folder</td><td>Letting the AI read and run the whole repo</td></tr><tr><td><b>Gemini CLI</b></td><td>Google account; run <code>gemini</code> inside the cloned folder</td><td>The same hands-on workflow with Gemini</td></tr><tr><td><b>Claude.ai, Gemini or ChatGPT in the browser</b></td><td>A chat account; upload <code>README.md</code> and the files you care about (or paste the output of <code>git ls-files</code>)</td><td>Understanding the project and asking questions without installing anything</td></tr><tr><td><b>Other tools</b> (Copilot Chat, Cursor, Codex CLI)</td><td>Open the cloned folder in the tool and point it at <code>README.md</code> first</td><td>Editing and extending the code</td></tr></table></div>
+<pre><code>git clone https://github.com/herrrickshaw/us-stock-picks.git
+cd us-stock-picks
+claude      # or: gemini</code></pre>
+<h2>Install</h2><ol><li>Clone the repository<pre><code>git clone https://github.com/herrrickshaw/us-stock-picks.git
+cd us-stock-picks</code></pre></li><li>Create an environment and install dependencies<pre><code>python3 -m venv .venv &amp;&amp; source .venv/bin/activate
+pip install -r requirements.txt</code></pre></li></ol>
+<h2>Quick start: commands and what you should see</h2>
+<p><b>See all options</b></p>
+<pre><code>python -m us_stock_picks --help</code></pre>
+<p>Usage text listing --scan, --top, --max-per-sector, --portfolio-size, --min-price, --min-turnover, --refresh and --open.</p>
+<p><b>Rank a scan workbook</b></p>
+<pre><code>python run_us_picks.py --scan path/to/us_full_scan_YYYYMMDD_HHMM.xlsx --top 15 --max-per-sector 3 --out outputs</code></pre>
+<p>Prints a summary (as of, universe, liquid, ranked, sleeves) and the shortlist; writes HTML, CSV, JSON and paper-portfolio files. On 23 Oct 2026: as of 2026-10-21, universe 300, liquid 256, ranked 181. Note: python -m us_stock_picks works only if the repo root is on the path.</p>
+<p><b>Inspect the committed outputs without any data pull</b></p>
+<pre><code>python3 -c &quot;import json;print(json.load(open(&#x27;outputs/us_picks_latest.json&#x27;))[&#x27;summary&#x27;])&quot;</code></pre>
+<p>A dictionary with as_of, universe_n, liquid_n, ranked_n and sleeve_counts.</p>
+<h2>Sample outputs</h2><p>Real output from a run on the date shown in the sources line; trimmed to fit.</p>
+<p><b>Run summary from the 23 Oct 2026 re-run (as of 2026-10-21)</b></p>
+<pre><code>python run_us_picks.py --scan us_full_scan_20261021_0000.xlsx
+as of:     2026-10-21 00:00
+universe:  300
+liquid:    256
+ranked:    181
+sleeves:   {&#x27;WATCH&#x27;: 76, &#x27;MOMENTUM&#x27;: 50, &#x27;QUALITY&#x27;: 31, &#x27;CORE&#x27;: 24}</code></pre>
+<p>Old committed run (24 Jul 2026): universe 5,814, liquid 1,623, ranked 721, CORE 103 / QUALITY 82 / MOMENTUM 330 / WATCH 206. The universes differ by design (300 versus 5,814), so the counts are not comparable.</p>
+<p><b>Shortlist format sample (illustrative mechanical output, not advice)</b></p>
+<pre><code>outputs/us_investor_picks_latest.csv
+rank  ticker (exchange)  sleeve  score  screens
+1     GD   (NYSE)        CORE    62.3   4
+2     TT   (NYSE)        CORE    61.0   4
+3     TEAM (NASDAQ)      CORE    60.7   5
+4     ADSK (NASDAQ)      CORE    60.7   5
+5     INTU (NASDAQ)      CORE    60.3   4
+6     LLY  (NYSE)        CORE    55.7   4</code></pre>
+<p>Mechanical screen output on a 300-stock universe, shown only to illustrate the file format. Not investment advice and not a recommendation. Quality and Actionable screens were unavailable.</p>
+<p><b>Screens passed per ranked stock (quant file, 100 rows)</b></p>
+<pre><code>value_counts on screens_passed
+2 screens: 20
+3 screens: 55
+4 screens: 22
+5 screens: 3</code></pre>
+<p>No stock passed six or more screens, versus six for the top names in the committed July file, which had the Quality and Actionable screens.</p>
+<p><b>Config: conviction weights (us_stock_picks/config.py)</b></p>
+<pre><code>breakout 18 | piotroski_strong 16 | coffee_can 14 | magic_formula 10 | bull_cartel 10
+golden_cross 10 | quality_ab 8 | actionable 6 | ml_bullish 5 | above_ema50 3
+CORE needs score &gt;= 48 and &gt;= 2 screens</code></pre>
+<p>Weights are the author&#x27;s choices and are not backtested in this repo.</p>
+<h2>Ways to use it</h2>
+<div class="tw"><table><tr><th>Method</th><th>How it works</th></tr><tr><td>Command line</td><td>python -m us_stock_picks with your own scan workbook; tune filters with --min-turnover, --top and --max-per-sector.</td></tr><tr><td>Read the CSVs</td><td>Open the ranked CSV in a spreadsheet to see which screens each name passed.</td></tr><tr><td>Edit the weights</td><td>Change WEIGHTS in config.py and compare how the ranking moves.</td></tr><tr><td>Through an AI assistant</td><td>Open the clone in Claude Code or Gemini CLI, or upload README.md and a CSV to a chat assistant.</td></tr></table></div>
+<h2>Sample prompts for your AI assistant</h2><p>Copy, paste and edit the parts in [brackets].</p>
+<ul><li>Explain how conviction_score is computed in us_stock_picks/engine.py and config.py, with a worked example for one row of the ranked CSV.</li><li>Using outputs/us_quant_ranked_latest.csv, show how many names pass each screen and which pairs of screens overlap most.</li><li>Which names in the shortlist have a BEARISH ML_Direction but a high conviction score? What does that disagreement suggest about the weights?</li><li>Suggest a backtest design to test whether the CORE sleeve beats an index, listing the biases to avoid.</li><li>Draft a plain-English disclaimer and data-freshness note for sharing this output with a study group.</li></ul>
+<h2>Limits and honest caveats</h2>
+<div class="warn"><ul><li>Not investment advice. This is mechanical screen output for research and education; screens fail in regime changes.</li><li>Data date: prices run to the 21 October 2026 session (the US panel has no 22 October bar) and fundamentals are Yahoo Finance values fetched on 23 October 2026. The cached price panel has missing sessions on many recent days, so Darvas boxes and moving averages on it are approximate.</li><li>The scan covered only the 300 most liquid US non-ETF stocks, built by an adapter, not the author&#x27;s 5,800-stock scan. Quality and Actionable screens were missing, so ranks are not comparable with the committed July outputs.</li><li>Missing data silently counts as &#x27;screen not passed&#x27;: an earlier run with fundamentals missing for 162 names gave a different top 15. Per the README, the &#x27;as of&#x27; date comes from the workbook filename, so I named it with the session date.</li><li>Extreme or contradictory fields pass through uncleaned, and conviction weights are the author&#x27;s choices, not validated by any backtest in this repo.</li></ul></div>
+<p class="src">Sources: the us-stock-picks README, requirements.txt, us_stock_picks/config.py and code, run on 23 October 2026 in a scratch clone and throwaway virtual environment on a scan workbook built from cached US prices (last session 21 October 2026) and Yahoo Finance fundamentals. Only derived aggregates and format samples shown.</p>
+<div id="changelog" class="note">
+<b>Revision history.</b>
+<ul>
+<li><b>v1.0.0</b> &mdash; 23 October 2026 &mdash; first published.</li>
+</ul>
+</div>
+
+
+<style>/* gs-light-lock-v1 */.htuusstoc{--ink:#111!important;--accent:#8a4b08!important;--rule:#e8dcc4!important;--panel:#fdf7ec!important;--good:#1a7a4c!important;--good-soft:#eaf6ef!important;--bad:#a5402c!important;--bad-soft:#fff4f0!important}</style>
+<p class="disclaimer" data-gs-ai-disclosure-v1="1"><strong>About this article:</strong> Researched, written and edited by Umashankar Triplicane Dwarakanathan, with AI research assistance; every figure is meant to trace to the primary source cited. See the <a href="https://masaladeutsch.blogspot.com/p/disclaimer.html">Editorial Policy</a> for how sourcing, AI use and corrections work.</p>
+
+</div>
