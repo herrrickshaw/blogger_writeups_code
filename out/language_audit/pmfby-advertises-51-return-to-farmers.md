@@ -7,3 +7,4 @@
 - **[GRAMMAR/LATER_LATTER]** Possible typo detected: Did you mean to write ‘latter’ here?
   context: ...d, scoped and attributed, and noted the later figure without adopting it. Update, 27 ...
   suggested: latter
+- ERROR checking chunk: HTTP Error 500: Internal Server Error
