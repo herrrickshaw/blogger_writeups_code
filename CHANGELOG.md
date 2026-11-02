@@ -16728,3 +16728,24 @@ youtube-demo-uploads 2026-10-31: index republished with 3 new how-to posts (489 
 **Changed**
 
 - `article-index-start-here` — 937,369 → 945,635 bytes (+8,266)
+
+## 2026-11-02T09:55:06+00:00 — 491 posts live
+
+scheduled sync
+
+
+**Added**
+
+- `e20-and-spark-plug-what-ethanol-does-to` **v1.0.0** — E20 and the Spark Plug: What Ethanol Does to the Cheapest Part in India’s 20 Crore Two-Wheelers (29,959 bytes)
+
+**Versions**
+
+- `how-to-use-vehiclefuelmileage-running` **1.0.0 → 1.0.1** (PATCH) — visible text identical; only markup/styling changed
+- `how-to-use-us-stock-picks-multi-screen` **1.0.0 → 1.0.1** (PATCH) — visible text identical; only markup/styling changed
+- `how-to-use-transmission-client-control` **1.0.0 → 1.0.1** (PATCH) — visible text identical; only markup/styling changed
+
+**Changed**
+
+- `how-to-use-vehiclefuelmileage-running` — 24,308 → 24,427 bytes (+119)
+- `how-to-use-us-stock-picks-multi-screen` — 25,656 → 25,775 bytes (+119)
+- `how-to-use-transmission-client-control` — 24,605 → 24,724 bytes (+119)

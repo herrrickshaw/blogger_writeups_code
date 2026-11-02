@@ -1,6 +1,6 @@
 {
-  "snapshot": "2026-10-31T09:32:44+05:30",
-  "count": 490,
+  "snapshot": "2026-11-02T09:55:06+00:00",
+  "count": 491,
   "posts": {
     "1008146607143508554": {
       "id": "1008146607143508554",
@@ -8596,14 +8596,14 @@
       "url": "https://masaladeutsch.blogspot.com/2026/10/how-to-use-us-stock-picks-multi-screen.html",
       "slug": "how-to-use-us-stock-picks-multi-screen",
       "published": "2026-10-19T05:15:17.000+05:30",
-      "updated": "2026-10-31T09:26:51.790+05:30",
+      "updated": "2026-11-02T09:05:22.774+05:30",
       "labels": [
         "Equity Markets & Stock Screening",
         "Markets & Finance",
         "Open-Source Tools & How-To"
       ],
-      "bytes": 25656,
-      "sha256": "3312a56ac980a2b5a22c9e92d6278921470ba38d3d52009a299d77c7c7019ede",
+      "bytes": 25775,
+      "sha256": "b9db154d082f4312a78c3d7ee052f9235e2335540a1795de81ed1aa48d880add",
       "markers": {
         "light_lock": true,
         "dark_panel_guard": false,
@@ -8615,7 +8615,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -8623,6 +8623,19 @@
           "level": "initial",
           "reason": "first snapshot",
           "note": "youtube-demo-uploads 2026-10-31: 3 how-to posts promoted live"
+        },
+        {
+          "version": "1.0.1",
+          "date": "2026-11-02T09:55:06+00:00",
+          "level": "patch",
+          "reason": "visible text identical; only markup/styling changed",
+          "bytes": [
+            25656,
+            25775
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "scheduled sync"
         }
       ]
     },
@@ -26225,12 +26238,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/10/how-to-use-transmission-client-control.html",
       "slug": "how-to-use-transmission-client-control",
       "published": "2026-10-19T05:14:36.000+05:30",
-      "updated": "2026-10-31T09:26:49.391+05:30",
+      "updated": "2026-11-02T09:05:30.012+05:30",
       "labels": [
         "Open-Source Tools & How-To"
       ],
-      "bytes": 24605,
-      "sha256": "2115e3bdd536ecaaebae504e89c476b1427324b75d227a7766dfbbc3a3101cee",
+      "bytes": 24724,
+      "sha256": "b96724c0f6a8fed6b7f8b547d3952dfaf0deb660fda3b61488e2ce8a46572987",
       "markers": {
         "light_lock": true,
         "dark_panel_guard": false,
@@ -26242,7 +26255,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -26250,6 +26263,19 @@
           "level": "initial",
           "reason": "first snapshot",
           "note": "youtube-demo-uploads 2026-10-31: 3 how-to posts promoted live"
+        },
+        {
+          "version": "1.0.1",
+          "date": "2026-11-02T09:55:06+00:00",
+          "level": "patch",
+          "reason": "visible text identical; only markup/styling changed",
+          "bytes": [
+            24605,
+            24724
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "scheduled sync"
         }
       ]
     },
@@ -34472,6 +34498,42 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "youtube-demo-uploads 2026-10-31: 3 how-to posts promoted live"
+        }
+      ]
+    },
+    "524878923608975775": {
+      "id": "524878923608975775",
+      "title": "E20 and the Spark Plug: What Ethanol Does to the Cheapest Part in India’s 20 Crore Two-Wheelers",
+      "url": "https://masaladeutsch.blogspot.com/2026/11/e20-and-spark-plug-what-ethanol-does-to.html",
+      "slug": "e20-and-spark-plug-what-ethanol-does-to",
+      "published": "2026-11-02T07:42:13.000+05:30",
+      "updated": "2026-11-02T07:42:56.405+05:30",
+      "labels": [
+        "Energy & Fuels",
+        "Ethanol & Biofuels",
+        "Trade & Tariffs"
+      ],
+      "bytes": 29959,
+      "sha256": "94c8b087d333587d8c763b66ae8ced09ed917212b20b6721246b42d7d52f98da",
+      "markers": {
+        "light_lock": false,
+        "dark_panel_guard": false,
+        "typo_unify": false,
+        "translate_widget": true,
+        "index_link": true,
+        "ai_disclosure": true,
+        "revision_line": false,
+        "inverted_media_query": false,
+        "disclaimer_in_script": false
+      },
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-02T09:55:06+00:00",
+          "level": "initial",
+          "reason": "first snapshot",
+          "note": "scheduled sync"
         }
       ]
     },
@@ -67365,15 +67427,15 @@
       "url": "https://masaladeutsch.blogspot.com/2026/10/how-to-use-vehiclefuelmileage-running.html",
       "slug": "how-to-use-vehiclefuelmileage-running",
       "published": "2026-10-19T05:15:19.000+05:30",
-      "updated": "2026-10-31T09:26:54.096+05:30",
+      "updated": "2026-11-02T09:05:15.069+05:30",
       "labels": [
         "Energy & Fuels",
         "India",
         "Mobility & EV",
         "Open-Source Tools & How-To"
       ],
-      "bytes": 24308,
-      "sha256": "f9a583d598e4264e8f868f129784f5eb7e106d64af3cef2ed08682a2e071fd5b",
+      "bytes": 24427,
+      "sha256": "586eb5cbf2c8214f649980a6d12e0edaa60f4d7007e252de6d317e5f0b0cf586",
       "markers": {
         "light_lock": true,
         "dark_panel_guard": false,
@@ -67385,7 +67447,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -67393,6 +67455,19 @@
           "level": "initial",
           "reason": "first snapshot",
           "note": "youtube-demo-uploads 2026-10-31: 3 how-to posts promoted live"
+        },
+        {
+          "version": "1.0.1",
+          "date": "2026-11-02T09:55:06+00:00",
+          "level": "patch",
+          "reason": "visible text identical; only markup/styling changed",
+          "bytes": [
+            24308,
+            24427
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "scheduled sync"
         }
       ]
     },

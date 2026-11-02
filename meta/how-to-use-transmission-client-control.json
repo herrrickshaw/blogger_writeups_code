@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/10/how-to-use-transmission-client-control.html",
   "slug": "how-to-use-transmission-client-control",
   "published": "2026-10-19T05:14:36.000+05:30",
-  "updated": "2026-10-31T09:26:49.391+05:30",
+  "updated": "2026-11-02T09:05:30.012+05:30",
   "labels": [
     "Open-Source Tools & How-To"
   ],
-  "bytes": 24605,
-  "sha256": "2115e3bdd536ecaaebae504e89c476b1427324b75d227a7766dfbbc3a3101cee",
+  "bytes": 24724,
+  "sha256": "b96724c0f6a8fed6b7f8b547d3952dfaf0deb660fda3b61488e2ce8a46572987",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -29,6 +29,19 @@
       "level": "initial",
       "reason": "first snapshot",
       "note": "youtube-demo-uploads 2026-10-31: 3 how-to posts promoted live"
+    },
+    {
+      "version": "1.0.1",
+      "date": "2026-11-02T09:55:06+00:00",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        24605,
+        24724
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
     }
   ]
 }

@@ -4,15 +4,15 @@
   "url": "https://masaladeutsch.blogspot.com/2026/10/how-to-use-vehiclefuelmileage-running.html",
   "slug": "how-to-use-vehiclefuelmileage-running",
   "published": "2026-10-19T05:15:19.000+05:30",
-  "updated": "2026-10-31T09:26:54.096+05:30",
+  "updated": "2026-11-02T09:05:15.069+05:30",
   "labels": [
     "Energy & Fuels",
     "India",
     "Mobility & EV",
     "Open-Source Tools & How-To"
   ],
-  "bytes": 24308,
-  "sha256": "f9a583d598e4264e8f868f129784f5eb7e106d64af3cef2ed08682a2e071fd5b",
+  "bytes": 24427,
+  "sha256": "586eb5cbf2c8214f649980a6d12e0edaa60f4d7007e252de6d317e5f0b0cf586",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -32,6 +32,19 @@
       "level": "initial",
       "reason": "first snapshot",
       "note": "youtube-demo-uploads 2026-10-31: 3 how-to posts promoted live"
+    },
+    {
+      "version": "1.0.1",
+      "date": "2026-11-02T09:55:06+00:00",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        24308,
+        24427
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
     }
   ]
 }
