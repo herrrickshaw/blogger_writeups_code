@@ -791,6 +791,7 @@ SLUG_CONTAINS = {
     "defence-exports-rose-63": ["Defence", "Trade & Tariffs", "Industrial Policy"],
     "new-securities-code-gives-sebi": ["Markets & Finance", "Governance & Institutions"],
     "states-can-draw-rs-61008": ["Macroeconomics & Monetary Policy", "Governance & Institutions"],
+    "e20-and-spark-plug": ["Ethanol & Biofuels", "Energy & Fuels", "Trade & Tariffs"],
     "capped-margins-on-137-cancer": ["Healthcare"],
     "indians-pay-for-health": ["Healthcare"],
     "funded-3-lakh-machines": ["Agriculture & Fertilisers", "Energy & Fuels"],
