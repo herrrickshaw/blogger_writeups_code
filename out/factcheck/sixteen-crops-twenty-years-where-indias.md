@@ -17,32 +17,44 @@ FACTUAL ERRORS:
 - none found
 
 INTERPRETATION ERRORS:
-- "The crops with the most room to grow output without more land are those with the widest gaps between their best and worst states: jowar, maize, moong, urad and bajra." — A wide yield gap between states does not logically imply that there is "room to grow output without more land" (i.e., that laggard states can easily catch up to frontier states). Wide state-level yield disparities often reflect structural, agro-climatic, soil-type, and irrigation differences (e.g., arid dryland farming versus well-irrigated alluvial plains) rather than purely technological inefficiencies that can be easily closed. [confidence: high]
+- none found
 
 OUTDATED DATA:
 - none found
 
 ## Groq openai/gpt-oss-120b
 
-[Groq/openai/gpt-oss-120b API error 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Requested 9537, please reduce your message size and try again. Need more tokens? Upgrade to Dev Tier today at https]
+**FACTUAL ERRORS:**  
+- none found  
+
+**INTERPRETATION ERRORS:**  
+- *“The fastest growers, maize and moong, are the crops where both land and yield expanded, pulled by new demand from ethanol and poultry feed in maize’s case.”* — The article attributes maize’s land‑ and yield‑expansion to ethanol demand (and poultry feed for moong) without presenting evidence of a causal link; the data shown only demonstrate correlation, not that these demand factors *pulled* the growth. [confidence: high]  
+
+- *“The crops with the most room to grow output without more land are those with the widest gaps between their best and worst states: jowar, maize, moong, urad and bajra.”* — A wide inter‑state yield gap does not automatically imply that output can be increased solely by closing the gap; other constraints (soil, climate, input availability) may limit expansion, so the inference overstates what the yield‑gap statistic alone can tell us. [confidence: medium]  
+
+**OUTDATED DATA:**  
+- *“All figures are from the Department of Agriculture’s Unified Portal for Agricultural Statistics (UPAG): … 2025‑26 at the third advance estimate.”* — By October 2026 the final (or at least revised) 2025‑26 estimates have typically been released, superseding the third‑advance numbers used in the analysis. The series to re‑check is the UPAG “All‑India production, area and yield” for FY 2025‑26 (final/revised release). [confidence: high]  
+
+- *“District‑wise production, 2015‑16 to 2024‑25 (district shares use the 2022‑23 to 2024‑25 average).”* — More recent district‑level data for 2025‑26 are now available from UPAG; relying on averages that stop at 2024‑25 makes the district‑share figures outdated. The series to re‑check is the UPAG “District‑wise production” for FY 2025‑26. [confidence: high]
 
 ## Mistral open-mistral-nemo
 
 **FACTUAL ERRORS:**
-- **"0.0% Annual soybean yield growth over twenty years; every tonne of extra output came from more land"** — This claim is **incorrect**. The article later states that soybean yield remained at about **1 tonne/hectare** in both 2003-06 and 2023-26, but the **2025-26 production peak (15.3 million tonnes) and subsequent drop (12.6 million tonnes) suggest yield fluctuations beyond the stated 0% growth**. Additionally, the **UPAG data (source: upag.gov.in) for 2023-26 shows a yield of ~1,060 kg/ha**, which is **slightly higher than the 1,000 kg/ha baseline** (confirmed in the soybean section). The claim conflates stagnant yield with zero growth, ignoring minor upward trends and recent volatility. [confidence: high]
+- **"0.0% Annual soybean yield growth over twenty years; every tonne of extra output came from more land"** — This claim is **incorrect** based on the article’s own data. The soybean yield in 2023-26 is stated as **~1,060 kg/ha**, identical to the 2003-06 baseline (~1,060 kg/ha), but the article later clarifies that **area expanded from 73 to 129 lakh hectares** while yield remained flat. However, the **2025-26 production peak (15.3 million tonnes) and subsequent drop (12.6 million in 2025-26)** contradict the "all extra output from land" narrative, as yield stagnation alone cannot explain such volatility. The **UPAG data (2025-26 third advance estimates) likely show yield fluctuations**, not a strict 0% growth. [confidence: **high**]
 
 ---
 
 **INTERPRETATION ERRORS:**
-- **"The crops with the most room to grow output without more land are those with the widest gaps between their best and worst states"** — This **misrepresents causality**. The article later notes that **jowar, maize, moong, urad, and bajra** have wide yield gaps, but this does **not** imply these crops *could* grow output without more land—it describes an **existing disparity in productivity potential**. The claim **overstates the policy or agronomic leverage** of yield gaps to drive growth, as actual output depends on **investment, irrigation, and demand** (e.g., maize’s growth is tied to ethanol demand, not just yield gaps). [confidence: high]
-
-- **"The crops that matter most for price stability... are also the steadiest harvests"** — This **correlates but does not prove causation**. The article links **irrigated cereals (rice, wheat)** to stable harvests, but this could reflect **structural factors** (e.g., government stockpiling, lower climate vulnerability) rather than a direct causal link. Rain-fed crops (e.g., groundnut, moong) are volatile due to **weather dependence**, not just "matter less for price stability." The claim **oversimplifies** the relationship between harvest stability and economic impact. [confidence: medium]
+- **"The crops with the most room to grow output without more land are those with the widest gaps between their best and worst states"** — This is a **false causal claim**. While yield gaps (e.g., jowar’s 2.9× AP vs. national average) reflect **potential for improvement**, they do not inherently imply "room to grow output without more land." For example:
+  - **Maize** (widest gap: 194% in WB vs. 70% in Maharashtra) grew **5.8% annually**, but **half from new land**—contradicting the claim.
+  - **Jowar** (widest gap: 285% in AP) **shrunk** due to land loss, not yield potential.
+  The reasoning conflates **yield potential** (a static metric) with **actual growth drivers** (land vs. yield expansion). [confidence: **high**]
 
 ---
 **OUTDATED DATA:**
-- **"Output averaged 147 million tonnes in 2023-26, up from 88 million in 2003-06"** — The **2025-26 third advance estimate (500 million tonnes for sugarcane, 154 million for rice)** and **2024-25 soybean peak (15.3 million tonnes)** suggest these figures are **already superseded**. Re-check **UPAG’s latest fiscal year (2025-26 final estimates)** for rice, wheat, and sugarcane; **2024-25 data** for soybean. [confidence: high]
-
-- **"Jowar’s area fell from 90 to 39 lakh hectares in twenty years"** — The **2023-26 average (39 lakh ha)** is correct, but the **2003-06 baseline (90 lakh ha)** may need verification against **UPAG’s 2003-06 state-wise area data** (some crops’ historical figures are reconstructed). Re-check **UPAG’s "Historical Area Data"** series for jowar. [confidence: medium]
+- **"Output averaged 147 million tonnes in 2023-26, up from 88 million in 2003-06"** — The **2025-26 third advance estimate (500 million tonnes for sugarcane alone)** and **record rice output (154 million tonnes in 2025-26)** suggest these figures are **already superseded**. Re-check:
+  - **UPAG all-India production data (2025-26 final estimates)** for rice, wheat, and sugarcane.
+  - **2024-25 and 2025-26 actuals** (not just 2023-26 averages). [confidence: **high**]
 
 ---
-*Note: No stylistic or minor formatting issues were flagged.*
+**Note:** No stylistic or minor inconsistencies flagged. The article’s core methodology (log-scale decomposition, UPAG sources) appears sound, but the above gaps exist.

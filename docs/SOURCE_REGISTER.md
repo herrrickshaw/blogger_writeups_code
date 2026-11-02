@@ -1404,3 +1404,8 @@ Dedup run with `repo_read.sh localgrep` over `meta/manifest.json`, one term per 
 - **IMC Switzerland–Liechtenstein Monthly Economic & Commercial Report, May 2026 (imcnet.org PDF)** — chamber document citing Swiss customs for one provisional month (exports 370, imports 222, US$ mn). Not a series; pull Swiss-Impex directly instead. WEAK.
 - **PwC Switzerland TEPA explainer pages, Statista Germany–India charts, trade.gov.tr relay of the Destatis June 2026 release** — vendor or tertiary; the Destatis monthly release itself has no India breakdown. WEAK.
 - **GulfNews / Khaleej Times / Arabian Business items on UIBC-UC CEPA studies and "US$37.6 bn H1 2025 non-oil trade"** — press of ministerial statements and a business-council study; the FCSC release behind them did not surface. WEAK until the FCSC table is fetched.
+
+### Weak, one line each (2026-11-02)
+
+- **AERR 37(1) 2024, Sneha S B et al., "Agricultural wages in India: Trends and structural changes" (epubs.icar.org.in AERR/article/view/154828)** and **AERR panel study of farm wages (view/140527)** — search snippets only, not fetched. The blog already covers farm wages (`the-wage-beats-crop-in-survey-that`, plus the MGNREGS real-wages post). BACKGROUND.
+- **ICRISAT VDSA village-level wage papers; Nagaraj et al., IJAE 2016** — dated (pre-2020). WEAK.

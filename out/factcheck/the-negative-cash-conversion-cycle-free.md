@@ -14,7 +14,7 @@ Panel: **3 of 5 configured models** answered.  Skipped this run: Kimi ([Kimi API
 ## Gemini gemini-flash-lite-latest
 
 FACTUAL ERRORS:
-- "Financial years end between September 2025 and August 2026." and "accessed 28 October 2026." — The article is dated in the future relative to current reality, referencing dates through late 2026. [confidence: high]
+- "Financial years end between September 2025 and August 2026." and "financial years ending Sep 2025 to Aug 2026" — The publication date of the article is October 28, 2026, meaning corporate financial statements for full annual periods ending in mid-to-late 2026 (such as June, July, or August 2026) would not yet be publicly filed or available for companies like Apple, Amazon, or Hindustan Unilever. [confidence: high]
 
 INTERPRETATION ERRORS:
 - none found
@@ -24,41 +24,35 @@ OUTDATED DATA:
 
 ## Groq openai/gpt-oss-120b
 
-[Groq/openai/gpt-oss-120b API error 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 1510, Requested 6975. Please try again in 3.637499999s. Need more tokens? Upgrade to Dev Tier today at https:]
+[Groq/openai/gpt-oss-120b API error 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 2044, Requested 5984. Please try again in 210ms. Need more tokens? Upgrade to Dev Tier today at https://conso]
 
 ## Mistral open-mistral-nemo
 
-Here is the structured report based on the provided article:
+Here is the structured feedback based on the provided article:
 
 ---
 
 **FACTUAL ERRORS:**
-- **“Carillion’s standard supplier terms before it collapsed in 2018: 120 days”**
-  — The article states Carillion’s standard terms were **120 days**, but the **House of Commons report (May 2018)** explicitly describes them as **"an extraordinary 120 days"** *after* noting that suppliers could be paid in **45 days via early payment facilities**. The **120-day figure is not the "standard" term** (which was likely shorter) but the **maximum stretch** used to borrow from suppliers. The phrasing misleads readers into assuming 120 days was the norm, not an exceptional tactic. [confidence: high]
+- **"Carillion’s standard supplier terms before it collapsed in 2018 [were] 120 days"** — The article states this as a fact, but the **House of Commons report (May 2018)** explicitly describes Carillion’s *standard* payment terms as **"an extraordinary 120 days"** *after* its collapse (January 2018). The phrasing here conflates the *cause* (supplier terms used to finance operations) with the *timing* of the terms’ existence. While the 120-day figure itself may be accurate for Carillion’s pre-collapse practices, the article’s wording risks implying the terms were standard *before* the collapse (when they were likely already in place but exploited more aggressively). [confidence: high]
 
-- **“Financial years ending Sep 2025 to Aug 2026”**
-  — The article claims data is from **FY2025–26 (Sep 2025–Aug 2026)**, but **Yahoo Finance’s latest annual reports for Indian companies as of October 2026** would likely reflect **FY2026–27 (Apr 2026–Mar 2027)** for most Indian firms (e.g., HUL, Maruti Suzuki). The **Sep–Aug fiscal year is non-standard for India** (most Indian companies follow Apr–Mar). [confidence: high]
+- **"The rules [on supplier finance disclosures] apply to annual periods beginning on or after 1 January 2024"** — The **IASB amendments to IAS 7/IFRS 7** were issued in **May 2023**, but the effective date for mandatory adoption is **annual periods beginning on or after 1 January 2024**. The article correctly states the effective date but could clarify that the *issuance* occurred earlier (May 2023), which might mislead readers into thinking the rules were retroactive. [confidence: medium]
 
 ---
-
 **INTERPRETATION ERRORS:**
-- **“A negative cash conversion cycle is always a sign of a strong business”**
-  — The article acknowledges this is **not true** (e.g., Carillion’s case), but the **initial framing** (“That can be the sign of a superb business, or of one quietly running out of cash”) is **undercut by later claims** that **supplier finance disclosures (post-2024 IFRS)** now require analysts to distinguish between **bargaining power** and **financial distress**. The **checklist later in the piece** (e.g., tracking payables growth vs. sales) is necessary to avoid false positives, but the **early framing risks misleading readers** into assuming negative CCC = strength without context. [confidence: high]
+- **"A negative cash conversion cycle is good only if it comes from something the company can sustain"** — While this is a sound *conclusion*, the article later **overgeneralizes the "sustainability" test** by conflating two distinct mechanisms:
+  1. **Healthy negative cycles** (e.g., Apple’s 115-day payables due to bargaining power).
+  2. **Unsustainable negative cycles** (e.g., Carillion’s 120-day terms used to mask cash shortages).
+  The article does not consistently apply the **supplier health check** (e.g., tracking payables growth vs. sales growth or supplier finance disclosures) as a *necessary* part of the "sustainability" analysis. For example, Hindustan Unilever’s −65 days are framed as "scale-based," but the article does not flag that **India’s supplier finance regulations (e.g., reverse factoring) might apply**, which could reveal whether the 137-day payables are truly "bargaining power" or a financing tool. [confidence: high]
 
-- **“The standard CCC formula ignores deferred revenue/contract liabilities, so the true position is often even better than the cycle suggests”**
-  — While **true for subscription/construction firms**, the article **does not adjust the CCC calculations** for these items (e.g., Larsen & Toubro’s **contract assets** are excluded). This **leaves readers with an incomplete picture**—the **hidden float** is only mentioned as a **separate analysis step**, not incorporated into the core CCC metrics. [confidence: high]
+- **"The negative cycles come from different places"** (e.g., Apple’s low inventory vs. Amazon’s receivable days) — The article **double-counts the role of deferred revenue/contract liabilities** in cases like Larsen & Toubro and Amazon. For Amazon, the article notes that **"a large share of its revenue comes from business customers... who are billed on account"**, but it does not adjust the CCC calculation to account for **deferred revenue** (which could make Amazon’s true cycle even more negative). This omits a key **hidden float** that the article later warns readers to look for. [confidence: high]
 
 ---
-
 **OUTDATED DATA:**
-- **“Supplier finance disclosure rules took effect in 2024”**
-  — The article cites **IFRS amendments (May 2023)** requiring supplier finance disclosures for periods **beginning on or after 1 January 2024**. However, **as of October 2026**, companies reporting under **IFRS for FY2025–26 (Sep 2025–Aug 2026)** would **already be required to comply** with these rules. The article does not verify whether the **14 companies analyzed** (e.g., HUL, Apple) have **publicly disclosed supplier finance terms** for their latest filings. [confidence: high]
+- **"Financial years ending Sep 2025 to Aug 2026"** — The article was **revised on 28 October 2026** and explicitly states it uses data from Yahoo Finance for FYs ending in this range. However:
+  - For **Indian companies**, the latest available FY2026–27 annual reports (as of October 2026) would likely have been filed by **June–July 2027** (with some delays). The article’s data is **not yet final** for the period it claims to cover.
+  - **Hindustan Unilever’s 137-day payables** and **Apple’s 115-day payables** may have changed in **FY2026–27** (e.g., due to new supplier finance disclosures or IFRS 16 lease adjustments). The article does not cross-check with the companies’ **latest filings** (e.g., via [BSE/NSE](https://www.bseindia.com/) for Indian firms or [SEC Edgar](https://www.sec.gov/edgar/searchedgar/companysearch.html) for Apple).
+  - **Screener.in filters** (e.g., "Sales growth 5Years > 10") assume **5-year trailing data ending in FY2026–27**, but the article’s own data cutoff (Aug 2026) may not yet include the full 5-year window for all companies. [confidence: high]
 
-- **“Latest annual statements: financial years ending Sep 2025 to Aug 2026”**
-  — For **Indian companies**, the **latest available data** (as of Oct 2026) would likely be **FY2026–27 (Apr 2026–Mar 2027)**. The article’s reliance on **Sep–Aug FY2025–26** may exclude **recent trends** (e.g., HUL’s DPO in FY2026–27 could differ from FY2025–26). **Sources to re-check:**
-  - **Hindustan Unilever (HUL)**: [HUL Annual Reports](https://www.hul.co.in/investors) (check FY2026–27)
-  - **Maruti Suzuki**: [Maruti Investor Relations](https://www.marutisuzuki.com/investor-relations) (FY2026–27)
-  - **Yahoo Finance**: [Latest Indian company filings](https://in.finance.yahoo.com/) (filter by "Annual Report" for FY2026–27). [confidence: high]
+- **"The US supplier finance rule (FASB Accounting Standards Update 2022-04)"** — The article cites this rule but does not specify whether it applies to **FY2026 data** (ending Aug 2026). FASB’s **ASU 2022-04** (issued in **March 2022**) became effective for **annual periods beginning after December 15, 2022**, meaning **FY2023+** for most US companies. The article’s reference to "current" rules may mislead readers into thinking the 2024 IFRS changes are the only relevant standard, when US companies would also need to comply with ASU 2022-04 for their latest filings. [confidence: medium]
 
 ---
-**Note:** The article’s **date (28 Oct 2026)** suggests it is **not outdated**, but the **data sources cited (FY2025–26)** may now be superseded for **Indian companies**. The **supplier finance disclosure gap** is also a **critical oversight** given the **2024 IFRS rules**.

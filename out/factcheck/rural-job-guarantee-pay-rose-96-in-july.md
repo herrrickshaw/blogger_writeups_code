@@ -14,40 +14,38 @@ Panel: **3 of 5 configured models** answered.  Skipped this run: Kimi ([Kimi API
 ## Gemini gemini-flash-lite-latest
 
 FACTUAL ERRORS:
-- "Workers were paid the 2025-26 rates while the scheme moved from MGNREGA to its replacement, the Viksit Bharat – Guarantee for Rozgar and Ajeevika Mission (Gramin) Act, known as VB-G RAM G." — MGNREGA is a statutory scheme enacted by Parliament (The Mahatma Gandhi National Rural Employment Guarantee Act, 2005) and has not been replaced by a fictional act named "Viksit Bharat – Guarantee for Rozgar and Ajeevika Mission (Gramin) Act" or "VB-G RAM G" as of any known legislative reality. [confidence: high]
+- "Workers were paid the 2025-26 rates while the scheme moved from MGNREGA to its replacement, the Viksit Bharat – Guarantee for Rozgar and Ajeevika Mission (Gramin) Act, known as VB-G RAM G." — MGNREGA has not been replaced by a law named "Viksit Bharat – Guarantee for Rozgar and Ajeevika Mission (Gramin) Act (VB-G RAM G)" as of any known legislative enactment; this legislation is entirely fictitious. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "Telangana is the starkest case. Its wage rose by one rupee, from Rs 307 to Rs 308, while prices for its agricultural labourers rose 9.7%... Andhra Pradesh’s rose Rs 5 against prices up 11.8%." — Comparing a nominal daily wage increase (a level change of Rs 1 or Rs 5) directly against a percentage price inflation rate (9.7% or 11.8%) is an apples-to-oranges comparison that conflates absolute monetary adjustments with relative percentage changes to misleadingly imply a catastrophic real collapse without properly contextualizing the base wage levels. [confidence: high]
+- "The index rose from 140.06 in June 2026 to 144.82 in September, 3.4% in three months... Over the whole stretch from June 2025... prices for agricultural labourers rose 8.0%. Against the 9.6% wage rise, that leaves a real gain of about 1.4% nationally" — Comparing a discrete percentage wage hike against an accumulated point-to-point price inflation rate over a different timeframe to determine a net "real gain" creates a mathematical mismatch and misrepresents purchasing power dynamics over the period. [confidence: medium]
 
 OUTDATED DATA:
 - none found
 
 ## Groq openai/gpt-oss-120b
 
-[Groq/openai/gpt-oss-120b API error 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 2768, Requested 6727. Please try again in 11.2125s. Need more tokens? Upgrade to Dev Tier today at https://co]
+**FACTUAL ERRORS**  
+- “Andhra Pradesh | 2025‑26 wage 307 → 312 | +1.6 % | Farm‑labour prices +11.8 % | Real change ‑9.1 %” — The real change should be the wage growth minus the price growth (1.6 % − 11.8 % = ‑10.2 %). The article’s figure of ‑9.1 % is mathematically incorrect. [confidence: high]  
+- “Telangana | 2025‑26 wage 307 → 308 | +0.3 % | Farm‑labour prices +9.7 % | Real change ‑8.5 %” — Using the same calculation, the real change should be ‑9.4 % (0.3 % − 9.7 %). The reported ‑8.5 % is therefore inaccurate. [confidence: high]  
+
+**INTERPRETATION ERRORS**  
+- “The price comparison uses each state’s overall CPI‑AL; it does not account for the extra 25 days of work the new law guarantees, which raises what a household can earn without changing the daily rate.” — By judging whether the new wage “buys less” solely on CPI‑AL, the article implicitly assumes that real‑wage welfare is determined only by daily‑rate purchasing power. Ignoring the additional guaranteed work days (the “extra 25 days”) means the analysis under‑estimates total earnings, so the conclusion that workers in those states are worse‑off is not supported by the data presented. [confidence: medium]
 
 ## Mistral open-mistral-nemo
 
 **FACTUAL ERRORS:**
-- **"The July 2026 wage notification, reported as S.O. 3518(E), is not in the gazette index this blog used, so the new rates are still as reported."** — The article acknowledges the absence of S.O. 3518(E) in the Gazette index but later cites multiple news sources (Upstox, SCC Online, *The Tribune*, *Outlook Business*) for the July 2026 wage rates. While the lack of an official gazette entry is noted, the claim that "the new rates are still as reported" is misleading because the article itself admits these sources may disagree for some states (e.g., Karnataka, Punjab, Goa, Kerala). The discrepancy undermines the factual basis for the reported Rs 327.4 national average and state-specific rates.
-  [confidence: high]
-
-- **"The national average wage in 2025-26 was Rs 370 a day"** (corrected later in the article) — The August piece originally misstated the national average wage for 2025-26 as Rs 370, which contradicts the verified state-level data (actual average ~Rs 307). While the article later clarifies this error, the initial claim remains factually incorrect.
-  [confidence: high]
+- **"The new wage buys less than the old one did" in Andhra Pradesh, Telangana, Maharashtra, Tamil Nadu, Haryana, Karnataka, Punjab, and Gujarat** — The article states this as a fact based on CPI-AL inflation data, but the **2025-26 wage rates for these states were already above the Rs 300 floor** (e.g., Andhra Pradesh: Rs 307 → Rs 312; Telangana: Rs 307 → Rs 308). The **real wage decline is mathematically correct**, but the phrasing implies the floor itself caused the loss, which is misleading because the floor only applied to states below Rs 300 (e.g., Uttar Pradesh, Bihar). The error lies in conflating the floor’s intent with the states where it didn’t apply. [confidence: high]
 
 ---
 
 **INTERPRETATION ERRORS:**
-- **"The Rs 300 floor lifted the poorest states by up to 19%."** — The claim conflates nominal wage increases with real purchasing power. While states like Uttar Pradesh saw a 19% nominal rise (from Rs 252 to Rs 300), this does not account for state-specific inflation (e.g., Uttar Pradesh’s CPI-AL rose 7.4% over the period, leaving a real gain of +10.9%—a far different outcome than a blanket "lift" of 19%). The article later corrects this by showing mixed real changes, but the opening framing misleads by ignoring inflationary erosion in most states.
-  [confidence: high]
+- **"The Rs 300 floor lifted the poorest states by up to 19%"** — While true for states like Uttar Pradesh (Rs 252 → Rs 300, +19%), the claim **fails to distinguish between nominal and real gains**. The article later shows that **even in these states, inflation (e.g., +7.4% in Uttar Pradesh) eroded much of the nominal rise**, leaving real gains of only +10.9%. The initial framing overstates the floor’s *effective* impact. [confidence: high]
 
-- **"The new wage buys less than the old one did in 8 of 17 states"** — This is technically correct but misleadingly framed as a uniform policy failure. The article later explains that the 8 states with negative real changes (e.g., Andhra Pradesh: -9.1%) had wages *already above the Rs 300 floor* in 2025-26, meaning their small nominal increases (e.g., Rs 5 in Andhra Pradesh) were insufficient to offset high inflation. The interpretation error lies in treating this as evidence of a systemic flaw in the floor policy, when it reflects pre-existing wage structures and inflation dynamics, not the floor’s design.
-  [confidence: medium]
+- **"Prices for farm labourers rose 3.4% in the next quarter alone"** — This is correct, but the article **does not clarify whether this 3.4% is all-India or state-specific**. The real wage losses in states like Andhra Pradesh (-9.1%) are driven by **state-level CPI-AL inflation (e.g., +11.8%)**, not the national average. Using the national price rise to generalize understates the divergence across states. [confidence: high]
 
 ---
 **OUTDATED DATA:**
-- **"Prices for farm labourers rose 3.4% in the next quarter alone"** (June–September 2026) — While the data is sourced from MoSPI’s CPI-AL (2019 = 100), the article does not verify whether this aligns with the latest official release for September 2026. MoSPI’s CPI-AL is typically updated monthly with a lag; as of October 2026, the latest official data for September 2026 may have been revised or superseded by a newer release (e.g., October 2026 or Q3 2026–27 estimates). The claim assumes no post-publication updates.
-  [confidence: medium]
-
-- **"Year-on-year inflation for agricultural labourers was 1.73% in June 2025"** — This is correct for the rebased series (2019 = 100), but the article does not check whether MoSPI has since released a revised or finalized figure for June 2025 inflation (e.g., in the 2025–26 annual report or subsequent updates). The CPI-AL series is subject to annual revisions; the June 2025 figure might have been adjusted in later releases.
-  [confidence: low]
+- **None found** — All data (CPI-AL, wage notifications) are either:
+  1. **Officially verified** (e.g., Gazette of India for 2025-26 rates, MoSPI for CPI-AL),
+  2. **Explicitly labeled as of September 2026** (e.g., "latest" CPI-AL figures), or
+  3. **Acknowledged as provisional** (e.g., S.O. 3518(E) not in the Gazette index but reported by multiple sources). No figures appear stale.
