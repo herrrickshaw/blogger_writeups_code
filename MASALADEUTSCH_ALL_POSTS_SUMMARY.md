@@ -1,8 +1,8 @@
 # Masala Deutsch — All Posts, Summarised
 
-*488 published posts, 83 topic labels. Each entry is the post's own published standfirst — not a re-summary.*
+*489 published posts, 83 topic labels. Each entry is the post's own published standfirst — not a re-summary.*
 
-*Generated 31 October 2026 — regenerated daily by tools/update_summary_cron.sh.*
+*Generated 2 November 2026 — regenerated daily by tools/update_summary_cron.sh.*
 
 
 ## Units & Figures Used in This Blog
@@ -2864,8 +2864,10 @@
 - **[Chemical Import Substitution Analysis: Executive Summary](https://masaladeutsch.blogspot.com/2026/07/chemical-import-substitution-analysis.html)** — 2026-08-01
   A re-derivation of this analysis against DGCI&S TradeStat on 2 August 2026 found that several HS-8 codes cited below do not exist in India’s tariff schedule, and the import values attached to them are not supported by the data. Specifically: ethylene was cited as 29011100 / $2,800M (the real line is 29012100, $44M); propylene as 29011200 / $1,400M (real: 29012200, $14M); polyethylene as 39021010/30 / $8.5bn (real 3901 lines total ~$2.8bn; 3902 is polypropylene); lecithin as 29239090 / $100M (real: 29232090, ~$19M); polypropylene as 39021100 (real: 39021000, value $1,372M is correct).
 
-### Unlabelled (10)
+### Unlabelled (11)
 
+- **[E20 and the Spark Plug: What Ethanol Does to the Cheapest Part in India’s 20 Crore Two-Wheelers](https://masaladeutsch.blogspot.com/2026/11/e20-and-spark-plug-what-ethanol-does-to.html)** — 2026-11-02
+  Fuel-injected engines barely notice. Carburetted bikes run about 4% leaner on E20 and hotter at the plug tip, yet no Indian test of plug wear has been published. Even if plugs wore a quarter faster, the extra cost is about ₹60 a year, a tenth to an eighth of the mileage loss.
 - **[India's Old Factory Index Said Electronics Output Fell 11% in 2023-24. The New One Says It Rose 20%](https://masaladeutsch.blogspot.com/2026/10/indias-old-factory-index-said.html)** — 2026-10-09
   MoSPI moved the Index of Industrial Production to a 2022-23 base in June 2026. For the three years both series cover, the new index shows faster industrial growth (5.7% rather than 4.0% in 2024-25), and in 14 industry-years the two disagree on whether output rose or fell, so IIP figures quoted before and after the switch cannot be read against each other.
 - **[India and MERCOSUR Are Expanding a 450-Line Trade Pact. India's Deficit With the Bloc Has Nearly Quadrupled in a Year, and 81% of It Is Argentina](https://masaladeutsch.blogspot.com/2026/10/india-and-mercosur-are-expanding-450.html)** — 2026-10-09
@@ -5339,3 +5341,8 @@ A parliamentary committee wants the deadline doubled, every SEBI order open to a
 *2026-10-31 · Governance & Institutions, Macroeconomics & Monetary Policy*
 
 An RBI committee wants the ways-and-means limit raised 11% to Rs 67,839 crore and overdrafts cut short. The bigger problem is distribution: Punjab and Himachal were on RBI credit for two-thirds of 2025-26, while states together held Rs 1.6–2 lakh crore of idle cash.
+
+### [E20 and the Spark Plug: What Ethanol Does to the Cheapest Part in India’s 20 Crore Two-Wheelers](https://masaladeutsch.blogspot.com/2026/11/e20-and-spark-plug-what-ethanol-does-to.html)
+*2026-11-02 · —*
+
+Fuel-injected engines barely notice. Carburetted bikes run about 4% leaner on E20 and hotter at the plug tip, yet no Indian test of plug wear has been published. Even if plugs wore a quarter faster, the extra cost is about ₹60 a year, a tenth to an eighth of the mileage loss.
