@@ -1,0 +1,240 @@
+<div style="max-width:760px;margin:0 auto;font-family:Georgia,'Times New Roman',serif;color:#212529;background:#fff;line-height:1.7;font-size:17px">
+
+<style>
+.gb-card{background:#f8f9fa;border:1px solid #dee2e6;border-radius:12px;padding:1.25rem 1.5rem;margin:1.5rem 0;box-shadow:0 1px 2px rgba(0,0,0,.04)}
+.gb-table{border-collapse:collapse;width:100%;font-size:.85em;font-family:-apple-system,'Segoe UI',sans-serif;margin:1.25rem 0}
+.gb-table thead th{background:#212529;color:#fff;padding:.5rem .75rem;text-align:left;white-space:nowrap}
+.gb-table td{padding:.5rem .75rem;border-bottom:1px solid #dee2e6;color:#212529;word-wrap:break-word}
+.gb-table tbody tr:nth-child(even){background:#f8f9fa}
+.gb-tblwrap{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:0 0 1em}
+.gb-kicker{font-family:-apple-system,'Segoe UI',sans-serif;text-transform:uppercase;letter-spacing:.12em;font-size:.72em;color:#868e96;margin-bottom:.5rem}
+.gb-h2{font-family:-apple-system,'Segoe UI',sans-serif;font-weight:700;font-size:1.35em;margin:2.2rem 0 .8rem;color:#212529;letter-spacing:-.01em}
+.gb-note{font-size:.8em;color:#868e96;font-family:-apple-system,'Segoe UI',sans-serif;line-height:1.5}
+.gb-pull{border-left:4px solid #212529;padding:.25rem 0 .25rem 1.25rem;margin:1.75rem 0;font-size:1.15em;font-style:italic;color:#495057}
+.gb-related{background:#eef6ff;border:1px solid #b6d4f0;border-radius:12px;padding:1.1rem 1.4rem;margin:1.5rem 0;font-family:-apple-system,'Segoe UI',sans-serif;font-size:.9em}
+.gb-related a{color:#0b5394}
+.gb-warn{background:#fff8f0;border:1px solid #f0d9b5;border-radius:10px;padding:1rem 1.25rem;margin:1.25rem 0;font-size:.92em}
+.gb-stats{display:grid;gap:1rem;grid-template-columns:repeat(auto-fit,minmax(11rem,1fr));margin:1.4rem 0 1.8rem}
+.gb-stat{background:#f8f9fa;border:1px solid #dee2e6;border-radius:10px;padding:.9rem 1rem;font-family:-apple-system,'Segoe UI',sans-serif}
+.gb-stat b{display:block;font-size:1.35em;color:#212529;font-family:Georgia,serif}
+.gb-stat span{display:block;font-size:.76em;color:#868e96;margin-top:.2rem;line-height:1.4}
+.gb-stats>.google-auto-placed,.gb-stats>ins.adsbygoogle{grid-column:1/-1;order:99;width:100%;margin:.4rem 0}
+.gs-head-order>.google-auto-placed,.gs-head-order>ins.adsbygoogle{order:99}
+
+.post-body .tw{overflow-x:auto;margin:1.1rem 0}
+.post-body table{display:block;overflow-x:auto;max-width:100%;width:max-content;
+ min-width:100%;border-collapse:collapse;font-size:.86rem}
+.post-body thead th,.post-body tr:first-child th{background:#111;color:#fff;font-weight:700;
+ text-align:right;vertical-align:bottom;padding:.6rem .7rem;border:1px solid #111;
+ white-space:normal;overflow-wrap:normal;word-break:keep-all;min-width:5.5rem}
+.post-body thead th:first-child,.post-body tr:first-child th:first-child{text-align:left}
+.post-body td{border:1px solid #d9d9d9;padding:.5rem .7rem;text-align:right;
+ font-variant-numeric:tabular-nums;white-space:nowrap;color:#111;background:#fff}
+.post-body td:first-child{text-align:left;white-space:normal;min-width:8rem}
+.post-body tbody tr:nth-child(even) td{background:#fafafa}
+</style>
+
+<div class="gs-head-order" style="display:flex;flex-direction:column">
+<p class="standfirst" style="order:4;font-size:1.1em;color:#495057"><em>A small open-source project models farmer payments on a ledger. Tested against where Indian payments actually fail (PM-KISAN&rsquo;s beneficiary list, sugar mills&rsquo; arrears, thin mandi auctions), most problems arise before any money moves. The one multi-party record worth a blockchain is land, which Andhra Pradesh is now piloting.</em></p>
+<div class="topnav-index-link" style="order:1;font-size:.82em;margin:6px 0 14px"><a href="https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html" style="color:#0b5394;text-decoration:none">&larr; All Articles (Index)</a></div>
+<div class="gb-kicker" style="order:2">Agriculture &middot; Fintech &middot; 3 November 2026</div>
+<h1 style="order:3;font-family:-apple-system,'Segoe UI',sans-serif;font-weight:800;font-size:2em;line-height:1.2;letter-spacing:-.02em;margin:.25rem 0 1rem">India Doesn&rsquo;t Need a Blockchain to Pay Its Farmers. It May Need One to Agree on Who Owns the Land</h1>
+</div>
+
+<a href="#" id="gs-skip-link" class="gs-skip-link" style="position:absolute;left:-9999px;top:auto;background:#1a1a1a;color:#fff;padding:.6rem 1rem;z-index:1000;border-radius:4px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.85rem">Skip to article content</a>
+<style>.gs-skip-link:focus{left:8px!important;top:8px!important}
+.gs-a11y-bar{display:flex;align-items:center;gap:.55rem;flex-wrap:wrap;background:#f4f5f7;border:1px solid #dfe3e8;border-radius:8px;padding:.55rem .8rem;margin:10px 0 16px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
+.gs-a11y-bar .gs-a11y-label{font-size:.68rem;font-weight:700;letter-spacing:.08em;color:#666;text-transform:uppercase;margin-right:.15rem}
+.gs-a11y-bar button{cursor:pointer;border:1px solid #c7cbd1;background:#fff;color:#1a1a1a;border-radius:5px;padding:.32rem .65rem;font-family:inherit;line-height:1}
+.gs-a11y-bar button.gs-a11y-fs{font-weight:700;min-width:2rem;text-align:center}
+.gs-a11y-bar button.gs-a11y-fs[data-size="sm"]{font-size:.8rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="md"]{font-size:1rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="lg"]{font-size:1.2rem}
+.gs-a11y-bar button.gs-a11y-fs[aria-pressed="true"]{background:#1a1a1a;color:#fff;border-color:#1a1a1a}
+.gs-a11y-bar button:hover{border-color:#8a4b08}
+.gs-a11y-bar button:focus-visible{outline:2px solid #8a4b08;outline-offset:1px}
+.gs-a11y-bar .gs-a11y-sep{width:1px;align-self:stretch;background:#dfe3e8;margin:0 .1rem}</style>
+<div class="gs-a11y-bar" role="group" aria-label="Accessibility controls">
+<span class="gs-a11y-label">Text Size</span>
+<button type="button" class="gs-a11y-fs" data-size="sm" aria-pressed="false" aria-label="Small text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="md" aria-pressed="true" aria-label="Medium text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="lg" aria-pressed="false" aria-label="Large text">A</button>
+<span class="gs-a11y-sep"></span>
+<button type="button" id="gs-a11y-listen" aria-label="Read this article aloud">&#128266; Listen</button>
+<button type="button" id="gs-a11y-stop" aria-label="Stop reading aloud">&#9632; Stop</button>
+</div>
+<script>(function(){
+var KEY='gs-a11y-fontsize', SIZES={sm:'0.92',md:'1',lg:'1.15'};
+function pb(){return document.querySelector('.post-body')||document.querySelector('.artx,.mdrx');}
+function apply(sz){
+  var el=pb(); if(!el||!SIZES[sz]) return;
+  el.style.fontSize=SIZES[sz]+'em';
+  var btns=document.querySelectorAll('.gs-a11y-fs');
+  for(var i=0;i<btns.length;i++){
+    var on=btns[i].getAttribute('data-size')===sz;
+    btns[i].setAttribute('aria-pressed', on?'true':'false');
+  }
+  try{localStorage.setItem(KEY,sz);}catch(e){}
+}
+var fsBtns=document.querySelectorAll('.gs-a11y-fs');
+for(var j=0;j<fsBtns.length;j++){
+  fsBtns[j].addEventListener('click',(function(b){return function(){apply(b.getAttribute('data-size'));};})(fsBtns[j]));
+}
+var saved; try{saved=localStorage.getItem(KEY);}catch(e){}
+apply(saved&&SIZES[saved]?saved:'md');
+
+var listenBtn=document.getElementById('gs-a11y-listen'), stopBtn=document.getElementById('gs-a11y-stop');
+if(listenBtn){
+  listenBtn.addEventListener('click', function(){
+    if(!('speechSynthesis' in window)){ alert('Text-to-speech is not supported in this browser.'); return; }
+    window.speechSynthesis.cancel();
+    var src=pb(); if(!src) return;
+    var clone=src.cloneNode(true);
+    var strip=clone.querySelectorAll('script,style,svg');
+    for(var k=0;k<strip.length;k++){ strip[k].parentNode.removeChild(strip[k]); }
+    var text=clone.textContent.replace(/\s+/g,' ').trim();
+    if(!text) return;
+    var chunks=text.match(/[\s\S]{1,180}(?:[.!?]|$)/g)||[text];
+    var idx=0;
+    function speakNext(){
+      if(idx>=chunks.length) return;
+      var u=new SpeechSynthesisUtterance(chunks[idx]);
+      u.onend=function(){ idx++; speakNext(); };
+      window.speechSynthesis.speak(u);
+    }
+    speakNext();
+  });
+}
+if(stopBtn){
+  stopBtn.addEventListener('click', function(){
+    if('speechSynthesis' in window) window.speechSynthesis.cancel();
+  });
+}
+var skip=document.getElementById('gs-skip-link');
+if(skip){
+  skip.addEventListener('click', function(ev){
+    ev.preventDefault();
+    var h=document.querySelector('.post-body h1')||document.querySelector('.artx h1,.mdrx h1,h1');
+    if(h){ h.setAttribute('tabindex','-1'); h.focus(); h.scrollIntoView(); }
+  });
+}
+})();</script>
+<style>.goog-te-menu-frame{max-width:340px!important;max-height:70vh!important;overflow:auto!important;box-shadow:0 6px 24px rgba(0,0,0,.25)!important}</style><div id="google_translate_element" style="margin:8px 0 16px;"></div><script type="text/javascript">function googleTranslateElementInit(){new google.translate.TranslateElement({pageLanguage:"en",includedLanguages:"hi,bn,ta,te,mr,gu,kn,ml,pa,or,as,ur,sa,ne,sd",layout:google.translate.TranslateElement.InlineLayout.SIMPLE,autoDisplay:false},"google_translate_element");}</script><script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+
+
+<div class="gb-stats">
+<div class="gb-stat"><b>9.34 crore</b><span>farmers paid in PM-KISAN&rsquo;s 24th instalment (30 October 2026), down from 10.07 crore in early 2025</span></div>
+<div class="gb-stat"><b>&#8377;417 cr</b><span>recovered from ineligible PM-KISAN beneficiaries by December 2025, the only recovery figure the government publishes</span></div>
+<div class="gb-stat"><b>&#8377;12,779 cr</b><span>of 2025-26 cane dues still unpaid by mills on 20 April 2026, despite a 14-day payment rule</span></div>
+<div class="gb-stat"><b>0.017%</b><span>of e-NAM&rsquo;s &#8377;4.84 lakh crore of trade since 2016 has crossed a state border</span></div>
+</div>
+
+<p>Blockchain keeps being offered as a fix for how Indian farmers get paid. A 2022 review in the <i>Journal of Agricultural Extension Management</i>, published by MANAGE, the agricultural extension institute in Hyderabad, says the technology &ldquo;allows widespread financial transactions between underutilized groups, without the need for intermediaries such as banks&rdquo;. A small open-source project built on that review, <a href="https://github.com/herrrickshaw/farmer-payments-dlt">farmer-payments-dlt</a>, takes the claim seriously enough to write the code. It models three payment flows on a distributed ledger (DLT): escrow for crop sales, government scheme payments, and reconciliation against bank credits.</p>
+
+<p>Its design note is unusually honest. It says a ledger is worth using only &ldquo;where several parties who don&rsquo;t fully trust each other need one shared, tamper-evident record&rdquo;, that a single database should be used where one will do, and that money should keep moving on India&rsquo;s existing rails (bank transfers, UPI and direct benefit transfer, or DBT). This piece takes that test and applies it to the places where farmer payments in India actually go wrong.</p>
+
+<p>The short answer: most failures happen before any payment is made, in deciding who is eligible and which bank account belongs to them. A ledger records those decisions; it does not make them. The one place where several parties genuinely share a record they do not trust each other to keep, land records, is where an Indian state is now testing a blockchain.</p>
+
+<h2 class="gb-h2">Scheme payments: the problem is the list, not the transfer</h2>
+
+<p>PM-KISAN pays landholding farmer families &#8377;6,000 a year in three instalments of &#8377;2,000. The 24th instalment, released on 30 October 2026, sent about &#8377;18,690 crore to 9.34 crore farmers, taking the total since 2019 past &#8377;4.64 lakh crore. The transfer itself works: the agriculture ministry says the 19th instalment had a transaction success rate of 99.92%, which on that instalment&rsquo;s 10.07 crore payees means roughly 81 thousand failed credits, retried later. It names the causes as Aadhaar numbers dropped from the National Payments Corporation of India (NPCI) mapper, which routes a payment from an Aadhaar number to one bank account, accounts not mapped at all, and closed accounts.</p>
+
+<p>The larger numbers are elsewhere. The scheme began on trust, with states registering farmers on self-declaration and Aadhaar checks relaxed in some states. Income-tax payers, government employees and others not entitled to it were paid. The government&rsquo;s DBT portal credits PM-KISAN with &#8377;22,106 crore of &ldquo;savings&rdquo; from deleting 2.12 crore ineligible names. Against money already paid to ineligible people, states had recovered &#8377;416.75 crore by December 2025. State audits show how hard recovery is: Bihar&rsquo;s auditor found &#8377;62.67 crore recoverable and about &#8377;5 crore recovered by early 2022; Haryana&rsquo;s found &#8377;40.70 crore paid to ineligible people and income-tax payers, of which &#8377;4.60 lakh had been recovered.</p>
+
+<p>Tightening the list has also cut people off. Payees fell from 10.07 crore in the 19th instalment to 9.34 crore in the 24th, about 73 lakh fewer (7.2%). In March 2026 the ministry told the Rajya Sabha that 23.5 lakh beneficiaries had payments stopped because Aadhaar was not seeded to their bank account and 33.6 lakh because e-KYC was pending, alongside those whose land records were not yet seeded. If none of those overlap, that is up to 57 lakh farmers and about &#8377;1,141 crore withheld per instalment.</p>
+
+<p>Look at what the project&rsquo;s prototype does for scheme payments. Its <code>disburse</code> rule rejects a second payment for the same scheme, period and farmer, and rejects any farmer not marked verified. The duplicate check is a unique key, which any database enforces. The verification is a <code>verified</code> flag passed in by the paying agency itself: the ledger takes the agency&rsquo;s word for it. That is not a flaw in the code; it is the point. Whether a farmer owns land, pays income tax or is the person holding the bank account is decided in land records, the income-tax database and the NPCI mapper. A ledger downstream of those would record ineligible payments just as permanently as eligible ones.</p>
+
+<p>The government&rsquo;s own answer is a better register. Under AgriStack, states have built farmer registries in which each Farmer ID is generated by matching a farmer to digitised land records; the count passed 11 crore on 23 October 2026, five months ahead of the March 2027 target, up from 10.28 crore on 30 July. The ministry says more than 6 crore farmers have already received scheme benefits through Farmer ID-based delivery. The register inherits the limits of the land records it is built on: only about 28,680 tenants and sharecroppers had been registered, in five states, by October.</p>
+
+<h2 class="gb-h2">Crop payments: escrow fixes a risk mills cannot afford to cover</h2>
+
+<p>The prototype&rsquo;s second flow is an escrow. A buyer locks the price up front; the money is released when delivery is confirmed at the promised grade, and otherwise held until an arbiter decides the farmer&rsquo;s share. This answers a real Indian problem: sugar mills paying for cane late.</p>
+
+<figure class="gb-figure" style="margin:1.4rem 0"><svg viewBox="0 0 340 198" width="100%" role="img" aria-label="Unpaid sugarcane dues owed by mills to farmers in the 2025-26 season, at three dates.">
+<text x="4" y="16" font-size="14" fill="#495057">Cane dues unpaid, 2025-26 season</text>
+<text x="4" y="35" font-size="11.5" fill="#6c757d">&#8377; crore owed by mills on each date</text>
+<text x="94" y="67" font-size="12.5" fill="#212529" text-anchor="end">16 Feb 2026</text>
+<rect x="100" y="50" width="148.0" height="24" fill="#1c5d99"/>
+<text x="253.0" y="67" font-size="12.5" fill="#212529">16,087</text>
+<text x="94" y="103" font-size="12.5" fill="#212529" text-anchor="end">20 Apr 2026</text>
+<rect x="100" y="86" width="117.6" height="24" fill="#1c5d99"/>
+<text x="222.6" y="103" font-size="12.5" fill="#212529">12,779</text>
+<text x="94" y="139" font-size="12.5" fill="#212529" text-anchor="end">20 Aug 2026</text>
+<rect x="100" y="122" width="31.1" height="24" fill="#1c5d99"/>
+<text x="136.1" y="139" font-size="12.5" fill="#212529">~3,382</text>
+<text x="4" y="176" font-size="10.5" fill="#6c757d">Standing Committee (Feb); PIB (Apr); USDA FAS, 97% cleared (Aug).</text>
+<text x="4" y="191" font-size="10.5" fill="#6c757d">Aug figure is this blog&rsquo;s arithmetic from the 97% share.</text>
+</svg></figure>
+
+<p>The Sugarcane (Control) Order, 1966 requires mills to pay within 14 days of delivery, and states enforce it. In 2025-26 that rule held poorly. On 16 February 2026 mills owed farmers &#8377;16,087 crore, according to figures given to a parliamentary standing committee, with Karnataka (&#8377;4,956 crore), Maharashtra (&#8377;4,252 crore) and Uttar Pradesh (&#8377;3,287 crore, across 121 mills) the largest. By 20 April, of &#8377;112,740 crore due for the season, &#8377;99,961 crore had been paid, leaving &#8377;12,779 crore. The US Department of Agriculture&rsquo;s office in New Delhi put dues 97% cleared by 20 August, which leaves about &#8377;3,382 crore.</p>
+
+<p>An escrow would have made those payments certain only if the mills had the money to lock up first. Mills are paying a cane price that has risen from &#8377;275 a quintal in 2019-20 to &#8377;365 for 2026-27, while the minimum price at which they may sell sugar has been held at &#8377;31 a kilo since February 2019. Arrears are a symptom of that squeeze. To escrow 14 days of purchases, mills would need roughly &#8377;8,769&ndash;10,522 crore set aside at any time, by this blog&rsquo;s arithmetic, assuming the season&rsquo;s &#8377;1.13 lakh crore of purchases is spread over a crushing season of 150&ndash;180 days. A bank would have to fund or guarantee that, and price it. The project&rsquo;s own design note lists this as an open question: who funds an escrow if buyers pay on credit.</p>
+
+<p>Mandi sales are a different case. e-NAM, the national electronic market, already pays sale proceeds directly into farmers&rsquo; bank accounts after an online auction. It had 1.89 crore farmers registered by June 2026 and has handled &#8377;4.84 lakh crore of trade since 2016. Its weakness is not payment but competition: an average of 2.8 trader bids per lot in 2025-26, and inter-state trade worth &#8377;14.28 crore that year and &#8377;83.95 crore in total, or 0.017% of all e-NAM trade. A tamper-evident log of bids would help show manipulation, which is what a 2020 study of three Uttar Pradesh mandis proposed after finding gaps between arrival prices and bidding prices. It would not add buyers.</p>
+
+<p>Grade disputes have the same limit. In the prototype the buyer enters the delivered grade; if it is below the promised grade, the escrow goes to dispute. Whoever controls the grade entry controls the outcome. An independent assaying lab at the mandi solves that; a ledger only records the lab&rsquo;s result.</p>
+
+<h2 class="gb-h2">Where each failure point lands</h2>
+
+<div class="gb-tblwrap"><table class="gb-table"><thead><tr><th>Where it goes wrong</th><th>Does a shared ledger help?</th><th>What fixes it</th></tr></thead><tbody><tr><td><b>Ineligible people paid</b><br><i>Income-tax payers, officials on the list</i></td><td><b>No.</b> A ledger records a wrong entry faithfully</td><td>Check income and land data before enrolment</td></tr><tr><td><b>Duplicate payments</b><br><i>Same person, two registrations</i></td><td><b>Partly.</b> Any database with a unique key does this</td><td>One Farmer ID per person</td></tr><tr><td><b>Eligible farmers held back</b><br><i>e-KYC, bank-Aadhaar seeding, land seeding</i></td><td><b>No.</b> The block is before the payment</td><td>Seed bank accounts at enrolment; village camps</td></tr><tr><td><b>Credit fails</b><br><i>Account closed, Aadhaar de-seeded</i></td><td><b>No.</b> PFMS already tracks each transfer</td><td>Publish failure and retry counts</td></tr><tr><td><b>Mill pays late</b><br><i>Mill short of cash</i></td><td><b>Partly.</b> Escrow works only if someone funds it</td><td>Bank-guaranteed escrow; enforce interest on delay</td></tr><tr><td><b>Buyer underbids</b><br><i>Few bidders per lot</i></td><td><b>Partly.</b> A tamper-evident bid log</td><td>More buyers per mandi; inter-state licences</td></tr><tr><td><b>Grade disputed</b><br><i>No trusted assay</i></td><td><b>No.</b> The ledger trusts whoever types the grade</td><td>Lab assays at the mandi</td></tr><tr><td><b>Land record conflicts</b><br><i>Revenue, survey, registration disagree</i></td><td><b>Yes.</b> Three offices, one shared record</td><td>What Andhra Pradesh is piloting</td></tr></tbody></table></div>
+
+<p class="gb-note">This blog&rsquo;s assessment, using the project&rsquo;s own test: a shared ledger helps where several parties who do not trust each other must keep one record. &ldquo;Partly&rdquo; means the ledger adds an audit trail, but the cause of the failure lies elsewhere.</p>
+
+<h2 class="gb-h2">Reconciliation: already being done, centrally</h2>
+
+<p>The third flow compares payments the ledger approved with credits the bank reports, and flags shortfalls. For government schemes that job belongs to the Public Financial Management System (PFMS), which issues each fund-transfer order, records the bank&rsquo;s response and returns rejections with a reason code, such as Aadhaar not seeded in the NPCI mapper. A farmer can see the result through the PM-KISAN portal&rsquo;s status page. The DBT Mission has told departments that account-number-based payments through PFMS will be switched off, leaving only payments routed by Aadhaar. The system is centralised, and the farmer cannot audit it, but the parties involved (the ministry, PFMS, NPCI and banks) are all regulated public or quasi-public bodies, which is a weak case for the multi-party distrust a blockchain is for.</p>
+
+<p>Reading the prototype also shows how easy it is to leave a gap. Its <code>reconcile</code> function counts what a farmer is owed from released escrows and scheme disbursements only. When a disputed escrow is settled by the arbiter with a share for the farmer, that share is recorded on the ledger but never added to what is owed, so a bank&rsquo;s failure to pay it would not be flagged. A test run here, with one disputed escrow settled at 60% of &#8377;10,000 and one &#8377;2,000 scheme payment, flagged only the &#8377;2,000. It is a small fix, and exactly the kind of issue a farmer could never spot from outside.</p>
+
+<h2 class="gb-h2">What the evidence elsewhere shows</h2>
+
+<div class="gb-tblwrap"><table class="gb-table"><thead><tr><th>Project</th><th>What happened</th><th>The catch</th></tr></thead><tbody><tr><td>AgriDigital, Australia (2016)</td><td>First grain sale settled on a blockchain: 23.46 t of wheat, grower paid within an hour</td><td>Payment went through a wallet backed by ordinary banking; the extended pilot did not settle on blockchain</td></tr><tr><td>Etherisc and ACRE Africa, Kenya (2021)</td><td>17,000+ farmers insured; replanting payouts triggered by smart contract</td><td>Money moved on M-Pesa, the existing mobile-money rail</td></tr><tr><td>Oxfam, Etherisc and Sanasa, Sri Lanka</td><td>About 200 farmers, first weather-index payouts made</td><td>Small; no cost comparison found</td></tr><tr><td>UNEP/CTCN, Thailand (2025)</td><td>Feasibility study for parametric crop insurance</td><td>Pilot planned for 200&ndash;300 farmers</td></tr><tr><td>Mee Bhoomi Blockchain, Andhra Pradesh (Jul 2026)</td><td>Land records on a blockchain; 1,37,763 parcels in 89 villages</td><td>Registry, not payments; state-wide roll-out planned from November</td></tr></tbody></table></div>
+
+<p>The best-known farmer-payment case, Australia&rsquo;s AgriDigital, settled its first grain sale on a blockchain in December 2016 and paid the grower within an hour. Even then, the payment ran through a digital wallet backed by conventional banking, and the company said it was not using blockchain for settlements during the extended pilot that followed. Index insurance pilots in Kenya and Sri Lanka used smart contracts to trigger payouts, but paid through mobile money. A 2026 review of such initiatives in <i>Frontiers in Sustainable Food Systems</i> puts the limit plainly: &ldquo;Blockchain provides certainty about data integrity, not about counterparty intentions.&rdquo; CGAP, the World Bank-hosted financial inclusion group, warned in 2018 that cost, complexity and context may erase blockchain&rsquo;s advantages over conventional approaches.</p>
+
+<p>In India, the project&rsquo;s search found no blockchain payment pilot inside AgriStack, e-NAM or the crop insurance scheme PMFBY. Its survey of open-source code found agriculture repositories with between 0 and 34 stars on GitHub, mostly hackathon projects, none production-grade. The one live government deployment found for this piece is Andhra Pradesh&rsquo;s Mee Bhoomi Blockchain, launched on 23 July 2026: land records from the revenue, survey and registration departments on Hyperledger Fabric, a permissioned blockchain, piloted on 1,37,763 parcels in 89 re-surveyed villages, with a state-wide roll-out planned from November. That is the right layer. Three departments keep separate records of the same land; disputes over which one is right are what block mutation, loans and, downstream, scheme payments. Whether it works will show in mutation times and dispute counts, which have not yet been published.</p>
+
+<h2 class="gb-h2">The prototype, briefly</h2>
+
+<p>The <a href="https://github.com/herrrickshaw/farmer-payments-dlt">farmer-payments-dlt</a> code is a teaching model of about 140 lines of standard-library Python with seven passing tests. Each block is hash-chained to the previous one and carries a keyed-hash (HMAC) signature from the consortium member who added it, so tampering is detectable and only members can write. It has no network, no consensus between nodes, and no public-key signatures; escrow states and the duplicate register live in memory rather than being rebuilt from the chain. It records instructions and confirmations, never money. As its README says, a real system would run on a permissioned platform such as Hyperledger Fabric, or on an Ethereum-compatible chain with audited contracts. Its value is the documentation: the reading of the 2022 review, the list of challenges and how a consortium design answers each, and the plain statement of what stays off the ledger.</p>
+
+<h2 class="gb-h2">What would fix this</h2>
+
+<ul>
+<li><b>Publish PM-KISAN&rsquo;s ineligible-payment ledger, state by state.</b> The government publishes the amount recovered (&#8377;416.75 crore) but not, in its recent releases, the total paid to people later found ineligible. Without that figure the recovery rate cannot be judged.</li>
+<li><b>Publish stop-payment and failure counts with every instalment</b>: how many farmers were held for e-KYC, bank seeding or land seeding, how many credits failed, and how many were later paid, so the fall from 10.07 crore to 9.34 crore can be split into cleaning and exclusion.</li>
+<li><b>Seed the bank account at enrolment.</b> The DBT Mission already asks schemes to check NPCI mapper status when Aadhaar is authenticated. Making that check part of Farmer ID creation would catch failed payments before they happen.</li>
+<li><b>Price cane escrow before mandating it.</b> A bank-guaranteed escrow for cane, backed by a mill&rsquo;s sugar or ethanol receivables, could be tested in one state with high arrears. Enforcing the interest that the Sugarcane (Control) Order already allows on late payment would come first.</li>
+<li><b>Put assaying labs, not ledgers, at the centre of e-NAM grade disputes</b>, and log results so they cannot be edited afterwards; that log is where a hash chain is cheap and useful.</li>
+<li><b>Measure Andhra Pradesh&rsquo;s blockchain land records</b> against its old system on mutation time, disputes and fraud before other states copy it.</li>
+</ul>
+
+<p>These are proposals from this blog, not recommendations any agency has adopted.</p>
+
+<h2 class="gb-h2">What this piece could not establish</h2>
+
+<p>The total amount paid to ineligible PM-KISAN beneficiaries nationally was not found in a recent official source; a figure of about &#8377;4,350 crore circulates but could not be traced to a Parliament answer or audit report, so it is not used. In 2021 the government was asked about recovering about &#8377;3,000 crore from 42 lakh ineligible beneficiaries, but that figure appears in the question, not in a confirmed answer. The count of beneficiaries stopped for pending land seeding in March 2026 was not read. The stop-payment categories may overlap, so the 57 lakh total is an upper bound. The February cane arrears and the comparison with earlier years come from press reports of a standing committee report; one report said arrears were up about &#8377;2,049 crore on the previous season, another said the previous figure was &#8377;497 crore, and the earlier-year comparison is therefore not used. The August cane figure is calculated from a rounded 97%. The escrow sizing assumes a 150&ndash;180 day crushing season and an even pace of purchases. No cost per payment, time-to-credit data or outcome study was found for any blockchain farmer-payment pilot, in India or abroad, and no results have been published for Andhra Pradesh&rsquo;s land-record pilot.</p>
+
+<h2 class="gb-h2">Sources and caveats</h2>
+<div class="gb-card">
+<p class="gb-note" style="margin:0">PM-KISAN: PIB backgrounders on the 23rd (20 Jun 2026) and 24th (30 Oct 2026) instalments; PIB, &ldquo;Beneficiaries under PM-KISAN&rdquo; (29 Jul 2025, instalment annexure); PIB, &ldquo;Aadhaar seeding for PM-KISAN&rdquo; (5 Aug 2025, 99.92% success rate and failure causes); Rajya Sabha unstarred question 2402 (answered March 2026, stop-payment counts); Lok Sabha unstarred question 448 (21 Jul 2026). DBT savings: DBT Bharat, &ldquo;Estimated Gains&rdquo; (to March 2025). PFMS, &ldquo;DBT Validation/Payment Error/Rejection and action thereon&rdquo;; DBT Mission letter on Aadhaar Payment Bridge (May 2026, as published by Himachal Pradesh NHM). State audits: CAG report on Bihar (2022, Chapter II); CAG report on Haryana as reported by NewsClick (March 2023). Farmer IDs: Lok Sabha unstarred question 2753 (4 Aug 2026); Ministry of Agriculture via PIB and PTI (24 Oct 2026); registry profile from The Hindu BusinessLine and The Indian Express as summarised by Elets eGov (search text only). e-NAM: PIB, &ldquo;Strengthening of agricultural marketing&rdquo; (28 Jul 2026); PIB/DD News on 1,656 mandis and &#8377;4.84 lakh crore (2026). Cane: PIB, FRP for 2026-27 (5 May 2026); The Hindu and Times of India on the Standing Committee figures (March&ndash;April 2026); USDA FAS GAIN Sugar Semi-annual IN2026-0051 (Oct 2026); Lok Sabha unstarred question 2901 (10 Mar 2026) for the 14-day rule. Sugar minimum selling price of &#8377;31/kg since February 2019 as used in earlier posts on this blog. Blockchain evidence: Deshmukh &amp; Patil (2022), J. Agricultural Extension Management 23(1); UNSW BusinessThink on AgriDigital (June 2017); Frontiers in Sustainable Food Systems, &ldquo;When verification is not enough&rdquo; (2026); Etherisc blog on ACRE Africa (Aug 2021); CGAP, &ldquo;Exploring Blockchain Applications to Agricultural Finance&rdquo; (2018); Sri Lanka and Thailand pilots as listed in the project&rsquo;s literature file (search text only). Andhra Pradesh: The Hindu, New Indian Express and Deccan Chronicle (22&ndash;24 Jul 2026). Project: <a href="https://github.com/herrrickshaw/farmer-payments-dlt">github.com/herrrickshaw/farmer-payments-dlt</a> (README, design note, article notes, literature and repository lists; tests run for this piece). Arithmetic (beneficiary fall, withheld amounts, cane balances, escrow size, inter-state share) is this blog&rsquo;s, in out/research/farmer-payments-dlt/. This is not financial or legal advice.</p>
+</div>
+
+<div class="gb-related">
+<strong>Related on this blog:</strong>
+<a href="https://masaladeutsch.blogspot.com/2026/08/a-17-rural-pay-rise-that-nobody-received.html">A 17% Rural Pay Rise That Nobody Received</a>
+<a href="https://masaladeutsch.blogspot.com/2026/09/pmfby-advertises-51-return-to-farmers.html">PMFBY Advertises a 5:1 Return to Farmers. Farmers Put In About a Fifth of the Premium. Governments Put In the Rest.</a>
+<a href="https://masaladeutsch.blogspot.com/2026/08/sugar-at-5570-kilo-why-cane-acreage.html">Sugar at &#8377;55.70 a Kilo: Why Cane Acreage Isn&rsquo;t Growing, and Ethanol Is Losing the Diversion Race</a>
+<a href="https://masaladeutsch.blogspot.com/2026/10/indias-2026-27-ethanol-tender-drops.html">India&rsquo;s 2026-27 Ethanol Tender Drops Cane Juice, Cuts Maize by Rs 3 a Litre and Flips From Sugar-First to Cheapest-First</a>
+<a href="https://masaladeutsch.blogspot.com/2026/07/the-price-of-grain-msp-msv-and.html">The Price of Grain: MSP, MSV, and the Arithmetic of the Indian Grain State</a>
+<a href="https://masaladeutsch.blogspot.com/2026/10/gems-purchases-stopped-growing-in-2025.html">GeM&rsquo;s Purchases Stopped Growing in 2025-26. Small Firms Won Two-Thirds of the Orders but Less Than Half the Money</a>
+<a href="https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html">All articles (index)</a>
+</div>
+
+<p class="disclaimer" data-gs-ai-disclosure-v1="1"><strong>About this article:</strong> Researched, written and edited by Umashankar Triplicane Dwarakanathan, with AI research assistance; every figure is meant to trace to the primary source cited. See the <a href="https://masaladeutsch.blogspot.com/p/disclaimer.html">Editorial Policy</a> for how sourcing, AI use and corrections work.</p>
+
+</div>
+
+<div id="gs-idx"></div><script defer="defer" src="https://herrrickshaw.github.io/masaladeutsch/accordion.js"></script>
