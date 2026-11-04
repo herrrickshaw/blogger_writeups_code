@@ -88,7 +88,7 @@ FIG = ('<figure style="margin:1.4rem 0">\n' + board_svg() + '\n' + bars_svg() +
        'The bars use a doubling scale: each segment is twice the grain of the one before.</figcaption>\n</figure>')
 
 NOTE = ('<div class="warn" style="border-left:4px solid #a5402c;background:rgba(165,64,44,.07);padding:.8em 1em;margin:1.2em 0;border-radius:4px">'
-        '<b>Updated 4 November 2026.</b> Added the board chart and the Ambalappuzha version of the legend. Corrected the years in which the harvest first reached squares 51, 52 and 53 '
+        '<b>Updated 4 November 2026.</b> Added the board chart, the Ambalappuzha version of the legend and a section placing world grain volumes on the board. Corrected the years in which the harvest first reached squares 51, 52 and 53 '
         '(1958-59, 1983-84 and 2019-20, not the 1960s, 1990-91 and 2020-21), and the FCI silo programme (111 lakh tonnes planned in 2022, of which about '
         '19.5 lakh tonnes had been built by mid-2025).</div>')
 
@@ -99,6 +99,47 @@ def rep(s, a, b):
 s = (HERE / 'post_1_as_supplied.html').read_text()
 s = rep(s, '<h2>The legend</h2>', NOTE + '\n<h2>The legend</h2>')
 s = rep(s, '<p>[[IMAGE]]</p>', FIG)
+
+# --- global context (added 4 Nov 2026, second pass) ----------------------------------------
+WORLD = [  # label, million tonnes, source note
+    ('World cereal trade, 2026/27 forecast', 509.3, 'FAO, August 2026 brief'),
+    ('India foodgrain production, 2025-26', 376.56, 'Third Advance Estimate'),
+    ('China grain output, 2025', 714.88, 'National Bureau of Statistics'),
+    ('World cereal stocks, end of 2026/27', 957.8, 'FAO, July 2026 brief'),
+    ('World cereal production, 2026', 2979, 'FAO, October 2026 brief'),
+]
+SQ = {lab: square(mt * 1e6) for lab, mt, _ in WORLD}
+assert [SQ[w[0]] for w in WORLD] == [53, 53, 54, 54, 56]
+YEARS_WORLD = cum(64) / 2979e6
+assert round(YEARS_WORLD, -1) == 400
+RATIO = 2979 / 376.56
+assert 7.5 < RATIO < 8.5                       # about three doublings
+SHARE_TRADE = 376.56 / 509.3
+assert round(SHARE_TRADE * 100) == 74
+rows = ''.join(f'<tr><td>{lab}</td><td>{mt:,.0f} Mt</td><td>{SQ[lab]}</td></tr>\n' for lab, mt, _ in WORLD)
+GLOBAL = f"""<h2>The world on the same board</h2>
+<p>Put the rest of the world's grain on the same board, with the same 65 mg grain, and India's harvest stops looking like the edge of the board.</p>
+<table border="1" cellpadding="6" style="border-collapse:collapse">
+<thead>
+<tr>
+<th>Benchmark</th>
+<th>Size</th>
+<th>Square reached</th>
+</tr>
+</thead>
+<tbody>
+{rows}</tbody>
+</table>
+<p><strong>The world's whole cereal harvest sits on square 56</strong>, three squares beyond India's. Three squares is three doublings: the world grows about {RATIO:.0f} times what India does, which is roughly what India's one-eighth share of world output implies. Even so, the full board would take about {round(YEARS_WORLD, -1):,.0f} years of the entire world's harvest to fill.</p>
+<p><strong>India's harvest and the world's grain trade share a square.</strong> All the wheat, maize, rice and other cereals that cross a border in a year, about 509 million tonnes, land on square 53, the same square as India's harvest. India grows the equivalent of about {SHARE_TRADE * 100:.0f}% of the world's annual cereal trade, which is why its decisions to ban or release rice and wheat exports move world prices.</p>
+<p><strong>China is one square ahead.</strong> Its 2025 grain output of 714.88 million tonnes, a record, reached square 54, as do the world's cereal stocks at the end of 2026/27, forecast at about 958 million tonnes. The year after a record 2025 harvest, FAO expects world production to dip about 2%, mostly on lower wheat crops; on this board, that is invisible.</p>
+<p>These totals are not quite like for like. FAO counts cereals only, with rice in milled terms. India's foodgrain figure includes pulses and rice as milled output. China's "grain" also includes soybeans and tubers. None of the differences is large enough to move a benchmark by a square.</p>
+"""
+s = rep(s, '<h2>What the board teaches about storage policy</h2>', GLOBAL + '<h2>What the board teaches about storage policy</h2>')
+s = rep(s, '<li><a href="https://www.dailyexcelsior.com/?p=2225570">',
+        '<li><a href="https://www.fao.org/worldfoodsituation/fao-cereal-supply-and-demand-brief/en">FAO Cereal Supply and Demand Brief &mdash; world production (October 2026), stocks (July) and trade (August)</a></li>\n'
+        '<li><a href="https://news.cgtn.com/news/2025-12-12/China-s-grain-output-tops-714-million-tonnes-in-2025-1J2N7j6Fb8I/p.html">CGTN &mdash; China&rsquo;s grain output of 714.88 million tonnes in 2025 (National Bureau of Statistics)</a></li>\n'
+        '<li><a href="https://www.dailyexcelsior.com/?p=2225570">')
 s = rep(s, 'Long before the board is full, the royal granaries are empty.</p>',
         'Long before the board is full, the royal granaries are empty.</p>\n'
         '<p>Kerala tells its own version at the <a href="https://en.wikipedia.org/wiki/Ambalappuzha_Sree_Krishna_Swamy_Temple">Ambalappuzha Sree Krishna Swamy Temple</a> in Alappuzha. '
