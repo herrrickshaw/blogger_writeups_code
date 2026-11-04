@@ -16759,3 +16759,24 @@ chessboard post: chart, Ambalappuzha, corrected years
 
 - `the-chessboard-and-indias-granaries` **v1.0.0** — The Chessboard and India's Granaries (22,163 bytes)
 - `india-doesnt-need-blockchain-to-pay-its` **v1.0.0** — India Doesn’t Need a Blockchain to Pay Its Farmers. It May Need One to Agree on Who Owns the Land (34,153 bytes)
+
+## 2026-11-04T18:42:45+05:30 — 494 posts live
+
+chessboard update, biology games post
+
+
+**Added**
+
+- `a-free-cell-game-fits-indias-new-class` **v1.0.0** — A Free Cell Game Fits India’s New Class 9 Book. The Evolution Game With 1 Crore Downloads Fits Almost Nothing Before Class 12 (29,437 bytes)
+
+**Versions**
+
+- `the-chessboard-and-indias-granaries` **1.0.0 → 2.0.0** (MAJOR) — figures changed (+35/-0 distinct numbers)
+
+**Changed**
+
+- `the-chessboard-and-indias-granaries` — 22,163 → 28,211 bytes (+6,048)
+
+**Re-dated** (publication date changed; body and URL unchanged)
+
+- `india-doesnt-need-blockchain-to-pay-its` — 2026-11-03 &rarr; 2026-11-03

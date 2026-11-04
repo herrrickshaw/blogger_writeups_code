@@ -1,6 +1,6 @@
 {
-  "snapshot": "2026-11-04T15:26:28+05:30",
-  "count": 493,
+  "snapshot": "2026-11-04T18:42:45+05:30",
+  "count": 494,
   "posts": {
     "1008146607143508554": {
       "id": "1008146607143508554",
@@ -2022,6 +2022,38 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Correct BHAVYA Rasayan capacity claims in two chemical posts"
+        }
+      ]
+    },
+    "1338732669891711059": {
+      "id": "1338732669891711059",
+      "title": "A Free Cell Game Fits India’s New Class 9 Book. The Evolution Game With 1 Crore Downloads Fits Almost Nothing Before Class 12",
+      "url": "https://masaladeutsch.blogspot.com/2026/11/a-free-cell-game-fits-indias-new-class.html",
+      "slug": "a-free-cell-game-fits-indias-new-class",
+      "published": "2026-11-04T18:42:07.147+05:30",
+      "updated": "2026-11-04T18:42:07.147+05:30",
+      "labels": [],
+      "bytes": 29437,
+      "sha256": "66a6e9450e587db1edd8888d749ca62c6fcc57d90595214e68be0c6bce2dcace",
+      "markers": {
+        "light_lock": false,
+        "dark_panel_guard": false,
+        "typo_unify": false,
+        "translate_widget": true,
+        "index_link": true,
+        "ai_disclosure": true,
+        "revision_line": false,
+        "inverted_media_query": false,
+        "disclaimer_in_script": false
+      },
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-04T18:42:45+05:30",
+          "level": "initial",
+          "reason": "first snapshot",
+          "note": "chessboard update, biology games post"
         }
       ]
     },
@@ -14408,10 +14440,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/11/the-chessboard-and-indias-granaries.html",
       "slug": "the-chessboard-and-indias-granaries",
       "published": "2026-11-04T09:39:50.000+05:30",
-      "updated": "2026-11-04T15:25:51.193+05:30",
-      "labels": [],
-      "bytes": 22163,
-      "sha256": "6d9b42af5f2dfd4cd53d5a611e46268381dd7d759646db020ca91e5552fdd720",
+      "updated": "2026-11-04T18:42:01.337+05:30",
+      "labels": [
+        "Industrial Policy"
+      ],
+      "bytes": 28211,
+      "sha256": "633a1abeb54cc828985d9bb9eda6fd4aadc1f23350a7c2b24707b974ef5e77fe",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -14423,7 +14457,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "2.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -14431,6 +14465,19 @@
           "level": "initial",
           "reason": "first snapshot",
           "note": "chessboard post: chart, Ambalappuzha, corrected years"
+        },
+        {
+          "version": "2.0.0",
+          "date": "2026-11-04T18:42:45+05:30",
+          "level": "major",
+          "reason": "figures changed (+35/-0 distinct numbers)",
+          "bytes": [
+            22163,
+            28211
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "chessboard update, biology games post"
         }
       ]
     },
@@ -64821,9 +64868,13 @@
       "title": "India Doesn’t Need a Blockchain to Pay Its Farmers. It May Need One to Agree on Who Owns the Land",
       "url": "https://masaladeutsch.blogspot.com/2026/11/india-doesnt-need-blockchain-to-pay-its.html",
       "slug": "india-doesnt-need-blockchain-to-pay-its",
-      "published": "2026-11-03T17:48:45.959+05:30",
-      "updated": "2026-11-03T17:48:45.959+05:30",
-      "labels": [],
+      "published": "2026-11-03T17:48:45.000+05:30",
+      "updated": "2026-11-04T18:40:30.450+05:30",
+      "labels": [
+        "Agriculture & Fertilisers",
+        "Governance & Institutions",
+        "Markets & Finance"
+      ],
       "bytes": 34153,
       "sha256": "6b0d813c602689b7a7fbbb8b5c5dce13cb84fe8ced4aa0763d8e3ac9ecc58b8b",
       "markers": {

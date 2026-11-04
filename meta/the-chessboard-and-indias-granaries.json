@@ -4,10 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/11/the-chessboard-and-indias-granaries.html",
   "slug": "the-chessboard-and-indias-granaries",
   "published": "2026-11-04T09:39:50.000+05:30",
-  "updated": "2026-11-04T15:25:51.193+05:30",
-  "labels": [],
-  "bytes": 22163,
-  "sha256": "6d9b42af5f2dfd4cd53d5a611e46268381dd7d759646db020ca91e5552fdd720",
+  "updated": "2026-11-04T18:42:01.337+05:30",
+  "labels": [
+    "Industrial Policy"
+  ],
+  "bytes": 28211,
+  "sha256": "633a1abeb54cc828985d9bb9eda6fd4aadc1f23350a7c2b24707b974ef5e77fe",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -27,6 +29,19 @@
       "level": "initial",
       "reason": "first snapshot",
       "note": "chessboard post: chart, Ambalappuzha, corrected years"
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-11-04T18:42:45+05:30",
+      "level": "major",
+      "reason": "figures changed (+35/-0 distinct numbers)",
+      "bytes": [
+        22163,
+        28211
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "chessboard update, biology games post"
     }
   ]
 }
