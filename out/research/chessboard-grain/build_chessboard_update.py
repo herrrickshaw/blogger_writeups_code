@@ -88,7 +88,7 @@ FIG = ('<figure style="margin:1.4rem 0">\n' + board_svg() + '\n' + bars_svg() +
        'The bars use a doubling scale: each segment is twice the grain of the one before.</figcaption>\n</figure>')
 
 NOTE = ('<div class="warn" style="border-left:4px solid #a5402c;background:rgba(165,64,44,.07);padding:.8em 1em;margin:1.2em 0;border-radius:4px">'
-        '<b>Updated 4 November 2026.</b> Added the board chart, the Ambalappuzha version of the legend and a section placing world grain volumes on the board. Corrected the years in which the harvest first reached squares 51, 52 and 53 '
+        '<b>Updated 4 November 2026.</b> Added the board chart, the Ambalappuzha version of the legend and sections placing world grain volumes and the land that grows them on the board. Corrected the years in which the harvest first reached squares 51, 52 and 53 '
         '(1958-59, 1983-84 and 2019-20, not the 1960s, 1990-91 and 2020-21), and the FCI silo programme (111 lakh tonnes planned in 2022, of which about '
         '19.5 lakh tonnes had been built by mid-2025).</div>')
 
@@ -136,6 +136,61 @@ GLOBAL = f"""<h2>The world on the same board</h2>
 <p>These totals are not quite like for like. FAO counts cereals only, with rice in milled terms. India's foodgrain figure includes pulses and rice as milled output. China's "grain" also includes soybeans and tubers. None of the differences is large enough to move a benchmark by a square.</p>
 """
 s = rep(s, '<h2>What the board teaches about storage policy</h2>', GLOBAL + '<h2>What the board teaches about storage policy</h2>')
+
+# --- how much land grows it (added 4 Nov 2026, third pass) -----------------------------------
+HARVESTED_WORLD = 1490e6        # ha, all crops, 2023 (FAO)
+CEREAL_SHARE = 0.50             # cereals' share of harvested area, 2023 (FAO)
+CEREAL_AREA_WORLD = HARVESTED_WORLD * CEREAL_SHARE          # ~745 Mha, derived
+CROPLAND_WORLD = 1600e6         # ha, 2023 (FAO)
+EARTH_LAND = 148.94e6 * 100     # km2 -> ha
+IND_AREA, IND_CEREAL_AREA = 142.325e6, 113.679e6           # foodgrain / cereal area 2025-26 (RBI Handbook table)
+CHN_AREA = 119.4e6              # grain area 2025 (NBS)
+y_world = 2979e6 / CEREAL_AREA_WORLD
+y_ind = 376.56e6 / IND_AREA
+y_chn = 714.88e6 / CHN_AREA
+assert round(y_world, 1) == 4.0 and round(y_ind, 2) == 2.65 and round(y_chn, 1) == 6.0
+board_ha = cum(64) / y_world
+earths = board_ha / EARTH_LAND
+assert 19 < earths < 21
+need54 = cum(53)                                            # harvest must exceed this to reach square 54
+area54_now = need54 / y_ind
+yield54_now_area = need54 / IND_AREA
+area54_china = need54 / y_chn
+assert square(need54 + 1) == 54 and round(area54_now / 1e6, -1) == 220
+assert round(yield54_now_area, 1) == 4.1 and round(area54_china / 1e6) == 98
+share_area = IND_CEREAL_AREA / CEREAL_AREA_WORLD
+assert round(share_area * 100) == 15
+
+LAND = f"""<h2>How much land grows it</h2>
+<p>The board counts grain; farms grow it on land. The world has about 1.6 billion hectares of cropland, and in 2023 it harvested crops from about 1.49 billion hectares, a 23-year high. Cereals took about half of that harvested area, so roughly {CEREAL_AREA_WORLD / 1e6:,.0f} million hectares of wheat, maize, rice and other grains a year. That gives a world average of about {y_world:.1f} tonnes of cereal per hectare.</p>
+<table border="1" cellpadding="6" style="border-collapse:collapse">
+<thead>
+<tr>
+<th>Grower</th>
+<th>Million ha</th>
+<th>t/ha</th>
+</tr>
+</thead>
+<tbody>
+<tr><td>World cereals*</td><td>~{CEREAL_AREA_WORLD / 1e6:,.0f}</td><td>~{y_world:.1f}</td></tr>
+<tr><td>China grain, 2025</td><td>119.4</td><td>{y_chn:.1f}</td></tr>
+<tr><td>India foodgrains, 2025-26</td><td>142.3</td><td>{y_ind:.2f}</td></tr>
+</tbody>
+</table>
+<p style="font-size:.85em;color:#555">*2026 output of 2,979 Mt over the 2023 cereal area. Output for China (714.88 Mt) and India (376.56 Mt) as in the table above.</p>
+<p><strong>India farms more grain land than China and gets about half the grain.</strong> Its cereal fields alone, about 114 million hectares, are some {share_area * 100:.0f}% of the world&rsquo;s cereal area, yet India grows about an eighth of the world&rsquo;s grain. Part of the gap is that India&rsquo;s figure includes 28.6 million hectares of pulses, which yield far less than cereals; the rest is lower cereal yield.</p>
+<p><strong>The full board would need about {earths:.0f} Earths.</strong> At the world&rsquo;s average yield, growing the whole board&rsquo;s grain in one season would take about {board_ha / 1e9:,.0f} billion hectares, some {earths:.0f} times the entire land surface of the planet, ice caps and deserts included.</p>
+<p><strong>Square 54 is a yield problem, not a land problem.</strong> To move up a square, India&rsquo;s harvest would have to pass about {need54 / 1e6:,.0f} million tonnes. At today&rsquo;s yield that would need about {area54_now / 1e6:,.0f} million hectares of foodgrains, more than half as much land again as India now sows to them. On the land it already uses, it would need about {yield54_now_area:.1f} tonnes a hectare, roughly today&rsquo;s world average. At China&rsquo;s yield, about {area54_china / 1e6:.0f} million hectares would do.</p>
+<p>The world figures mix years and definitions: the cereal area is half of FAO&rsquo;s 2023 harvested area, not a direct cereal count, and FAO measures rice output milled while yields are usually quoted on paddy. Treat the world yield as approximate; it does not change which square anything lands on.</p>
+"""
+s = rep(s, '<h2>What the board teaches about storage policy</h2>', LAND + '<h2>What the board teaches about storage policy</h2>')
+s = rep(s, '<li><a href="https://www.dailyexcelsior.com/?p=2225570">',
+        '<li><a href="https://www.fao.org/statistics/highlights-archive/highlights-detail/land-statistics-2001-2023.-global--regional-and-country-trends/en">FAO &mdash; Land statistics 2001&ndash;2023 (cropland of about 1.6 billion ha)</a></li>\n'
+        '<li><a href="https://millingmea.com/global-harvested-crop-area-hits-23-year-high-as-cereals-organic-farming-expand-fao/">Milling MEA, reporting FAO &mdash; harvested area of 1.49 billion ha in 2023, about half of it cereals</a></li>\n'
+        '<li><a href="https://dataful.in/datasets/17944/">Dataful, from the RBI Handbook &mdash; India&rsquo;s foodgrain area, 2025-26 (cereals 113.68, pulses 28.65 million ha)</a></li>\n'
+        '<li><a href="https://www.chinadaily.com.cn/a/202512/12/WS693b844ea310d6866eb2e502.html">China Daily &mdash; China&rsquo;s grain area of 119.4 million ha in 2025</a></li>\n'
+        '<li><a href="https://en.wikipedia.org/wiki/Earth">Wikipedia &mdash; Earth&rsquo;s land area, 148.94 million km&sup2;</a></li>\n'
+        '<li><a href="https://www.dailyexcelsior.com/?p=2225570">')
 s = rep(s, '<li><a href="https://www.dailyexcelsior.com/?p=2225570">',
         '<li><a href="https://www.fao.org/worldfoodsituation/fao-cereal-supply-and-demand-brief/en">FAO Cereal Supply and Demand Brief &mdash; world production (October 2026), stocks (July) and trade (August)</a></li>\n'
         '<li><a href="https://news.cgtn.com/news/2025-12-12/China-s-grain-output-tops-714-million-tonnes-in-2025-1J2N7j6Fb8I/p.html">CGTN &mdash; China&rsquo;s grain output of 714.88 million tonnes in 2025 (National Bureau of Statistics)</a></li>\n'
