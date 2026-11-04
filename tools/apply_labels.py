@@ -793,7 +793,8 @@ SLUG_CONTAINS = {
     "states-can-draw-rs-61008": ["Macroeconomics & Monetary Policy", "Governance & Institutions"],
     "e20-and-spark-plug": ["Ethanol & Biofuels", "Energy & Fuels", "Trade & Tariffs"],
     "doesnt-need-blockchain-to-pay": ["Agriculture & Fertilisers", "Governance & Institutions", "Markets & Finance"],
-    "free-cell-game-fits-indias": ["Governance & Institutions"],  # no Education label yet
+    "free-cell-game-fits-indias": ["Education"],
+    "chessboard-and-indias-granaries": ["Agriculture & Fertilisers", "Grain Procurement & Storage"],
     "capped-margins-on-137-cancer": ["Healthcare"],
     "indians-pay-for-health": ["Healthcare"],
     "funded-3-lakh-machines": ["Agriculture & Fertilisers", "Energy & Fuels"],
