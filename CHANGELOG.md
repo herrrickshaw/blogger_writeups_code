@@ -16749,3 +16749,13 @@ scheduled sync
 - `how-to-use-vehiclefuelmileage-running` — 24,308 → 24,427 bytes (+119)
 - `how-to-use-us-stock-picks-multi-screen` — 25,656 → 25,775 bytes (+119)
 - `how-to-use-transmission-client-control` — 24,605 → 24,724 bytes (+119)
+
+## 2026-11-04T15:26:28+05:30 — 493 posts live
+
+chessboard post: chart, Ambalappuzha, corrected years
+
+
+**Added**
+
+- `the-chessboard-and-indias-granaries` **v1.0.0** — The Chessboard and India's Granaries (22,163 bytes)
+- `india-doesnt-need-blockchain-to-pay-its` **v1.0.0** — India Doesn’t Need a Blockchain to Pay Its Farmers. It May Need One to Agree on Who Owns the Land (34,153 bytes)
