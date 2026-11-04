@@ -16780,3 +16780,42 @@ chessboard update, biology games post
 **Re-dated** (publication date changed; body and URL unchanged)
 
 - `india-doesnt-need-blockchain-to-pay-its` — 2026-11-03 &rarr; 2026-11-03
+
+## 2026-11-04T18:46:56+05:30 — 494 posts live
+
+crosscheck 2 Nov fixes
+
+
+**Versions**
+
+- `india-has-funded-3-lakh-machines-to` **1.0.0 → 1.1.0** (MINOR) — forced via --as minor (figures changed (+13/-7 distinct numbers))
+- `7186-litre-why-maize-is-indias-priciest` **3.0.0 → 3.1.0** (MINOR) — forced via --as minor (figures changed (+3/-0 distinct numbers))
+- `where-indias-gigawatt-data-centre-bets` **2.1.0 → 2.2.0** (MINOR) — forced via --as minor (figures changed (+1/-0 distinct numbers))
+- `028-unit-diesel-math-behind-indias-data` **3.0.0 → 3.1.0** (MINOR) — forced via --as minor (figures changed (+1/-0 distinct numbers))
+- `ethanols-coal-boilers-briquette-gap-and` **2.1.1 → 2.2.0** (MINOR) — forced via --as minor (figures changed (+6/-0 distinct numbers))
+- `fuel-pricing-to-crude-cost` **2.2.0 → 2.3.0** (MINOR) — forced via --as minor (figures changed (+3/-0 distinct numbers))
+- `bio-fertiliser-and-green-credits` **6.0.0 → 6.1.0** (MINOR) — forced via --as minor (figures changed (+11/-0 distinct numbers))
+- `import-dependent-sectors-vs-government` **3.1.0 → 3.2.0** (MINOR) — forced via --as minor (figures changed (+2/-1 distinct numbers))
+- `real-gdp-growth-india-fy2012-13-to` **4.0.0 → 4.1.0** (MINOR) — forced via --as minor (figures changed (+1/-0 distinct numbers))
+- `chemical-import-substitution-quarterly` **3.2.0 → 3.3.0** (MINOR) — forced via --as minor (figures changed (+1/-2 distinct numbers))
+- `the-grain-value-loop-integrated-rice` **5.0.0 → 5.1.0** (MINOR) — forced via --as minor (figures changed (+5/-0 distinct numbers))
+- `indias-subsidised-imports-fertilisers` **1.1.0 → 1.2.0** (MINOR) — forced via --as minor (figures changed (+2/-0 distinct numbers))
+
+**Changed**
+
+- `india-has-funded-3-lakh-machines-to` — 37,638 → 38,885 bytes (+1,247)
+- `7186-litre-why-maize-is-indias-priciest` — 41,068 → 41,773 bytes (+705)
+- `where-indias-gigawatt-data-centre-bets` — 28,037 → 28,801 bytes (+764)
+- `028-unit-diesel-math-behind-indias-data` — 38,121 → 38,924 bytes (+803)
+- `ethanols-coal-boilers-briquette-gap-and` — 37,802 → 39,204 bytes (+1,402)
+- `fuel-pricing-to-crude-cost` — 89,425 → 90,107 bytes (+682)
+- `bio-fertiliser-and-green-credits` — 51,990 → 53,269 bytes (+1,279)
+- `import-dependent-sectors-vs-government` — 32,042 → 32,116 bytes (+74)
+- `real-gdp-growth-india-fy2012-13-to` — 43,647 → 44,318 bytes (+671)
+- `chemical-import-substitution-quarterly` — 61,108 → 61,928 bytes (+820)
+- `the-grain-value-loop-integrated-rice` — 89,431 → 90,436 bytes (+1,005)
+- `indias-subsidised-imports-fertilisers` — 39,556 → 39,579 bytes (+23)
+
+**Re-dated** (publication date changed; body and URL unchanged)
+
+- `a-free-cell-game-fits-indias-new-class` — 2026-11-04 &rarr; 2026-11-04

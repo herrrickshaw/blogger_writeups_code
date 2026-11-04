@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/where-indias-gigawatt-data-centre-bets.html",
   "slug": "where-indias-gigawatt-data-centre-bets",
   "published": "2026-08-20T21:16:29.000+05:30",
-  "updated": "2026-10-01T09:01:13.653+05:30",
+  "updated": "2026-11-04T18:46:19.240+05:30",
   "labels": [
     "Data Centres & AI Infra",
     "Infrastructure & Investment"
   ],
-  "bytes": 28037,
-  "sha256": "2e45186ef8c1e030f525e30eef22adad781e02c61554d1e644eb672d10abbe83",
+  "bytes": 28801,
+  "sha256": "62701741e686621e01fdfd4c9a30d658d4916305167edeedac7b6d012c598331",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.1.0",
+  "version": "2.2.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -121,6 +121,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Rule 8 retrofit: added What would fix this section"
+    },
+    {
+      "version": "2.2.0",
+      "date": "2026-11-04T18:46:56+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+1/-0 distinct numbers))",
+      "bytes": [
+        28037,
+        28801
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "crosscheck 2 Nov fixes"
     }
   ]
 }

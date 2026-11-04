@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/bio-fertiliser-and-green-credits.html",
   "slug": "bio-fertiliser-and-green-credits",
   "published": "2026-08-02T21:16:59.000+05:30",
-  "updated": "2026-10-28T16:26:12.570+05:30",
+  "updated": "2026-11-04T18:44:05.239+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Climate & Carbon",
     "Fertilisers & Soil Health"
   ],
-  "bytes": 51990,
-  "sha256": "94f1934cb99b138c098ce79a9b00522be38eab1d396bf35bf885388e01f5c506",
+  "bytes": 53269,
+  "sha256": "35dfa094743e5aeaad3b87b7d72980296aa40434e8a5212ef6ef7f89cda9127c",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "6.0.0",
+  "version": "6.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -330,6 +330,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Gazette check: 24 posts verified against Gazette of India notifications"
+    },
+    {
+      "version": "6.1.0",
+      "date": "2026-11-04T18:46:56+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+11/-0 distinct numbers))",
+      "bytes": [
+        51990,
+        53269
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "crosscheck 2 Nov fixes"
     }
   ]
 }

@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/fuel-pricing-to-crude-cost.html",
   "slug": "fuel-pricing-to-crude-cost",
   "published": "2026-08-05T08:39:37.000+05:30",
-  "updated": "2026-10-18T06:05:38.101+05:30",
+  "updated": "2026-11-04T18:44:51.016+05:30",
   "labels": [
     "Energy & Fuels",
     "Fuel Retail & Pricing"
   ],
-  "bytes": 89425,
-  "sha256": "2dd8980870d2ce3c19751c3ce4f9ea47c9062558053e7c279f23738f66b28a10",
+  "bytes": 90107,
+  "sha256": "e2db2bc00dcbe6eac164e3945c5af14882f43987d51ed341a700355835ed1e6b",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.2.0",
+  "version": "2.3.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -351,6 +351,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Sweep 4: Seeds Bill note and stale-claim notes on 7 posts"
+    },
+    {
+      "version": "2.3.0",
+      "date": "2026-11-04T18:46:56+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+3/-0 distinct numbers))",
+      "bytes": [
+        89425,
+        90107
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "crosscheck 2 Nov fixes"
     }
   ]
 }

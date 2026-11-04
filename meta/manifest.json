@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-11-04T18:42:45+05:30",
+  "snapshot": "2026-11-04T18:46:56+05:30",
   "count": 494,
   "posts": {
     "1008146607143508554": {
@@ -2030,9 +2030,11 @@
       "title": "A Free Cell Game Fits India’s New Class 9 Book. The Evolution Game With 1 Crore Downloads Fits Almost Nothing Before Class 12",
       "url": "https://masaladeutsch.blogspot.com/2026/11/a-free-cell-game-fits-indias-new-class.html",
       "slug": "a-free-cell-game-fits-indias-new-class",
-      "published": "2026-11-04T18:42:07.147+05:30",
-      "updated": "2026-11-04T18:42:07.147+05:30",
-      "labels": [],
+      "published": "2026-11-04T18:42:07.000+05:30",
+      "updated": "2026-11-04T18:42:53.600+05:30",
+      "labels": [
+        "Education"
+      ],
       "bytes": 29437,
       "sha256": "66a6e9450e587db1edd8888d749ca62c6fcc57d90595214e68be0c6bce2dcace",
       "markers": {
@@ -8404,13 +8406,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/10/india-has-funded-3-lakh-machines-to.html",
       "slug": "india-has-funded-3-lakh-machines-to",
       "published": "2026-10-28T16:33:26.000+05:30",
-      "updated": "2026-10-28T16:34:12.377+05:30",
+      "updated": "2026-11-04T18:45:15.483+05:30",
       "labels": [
         "Agriculture & Fertilisers",
         "Energy & Fuels"
       ],
-      "bytes": 37638,
-      "sha256": "289c8032d28de281abed7fb44ef362ad4982f5279130e96b1ee0465c127320b2",
+      "bytes": 38885,
+      "sha256": "faedcd4f631c21266716053e046c4329fb9d776e1aa8dcbe20c2b6e8632b5dae",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -8422,7 +8424,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "1.1.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -8430,6 +8432,19 @@
           "level": "initial",
           "reason": "first snapshot",
           "note": "New post: crop residue aggregation schemes and machinery"
+        },
+        {
+          "version": "1.1.0",
+          "date": "2026-11-04T18:46:56+05:30",
+          "level": "minor",
+          "reason": "forced via --as minor (figures changed (+13/-7 distinct numbers))",
+          "bytes": [
+            37638,
+            38885
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "crosscheck 2 Nov fixes"
         }
       ]
     },
@@ -14440,8 +14455,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/11/the-chessboard-and-indias-granaries.html",
       "slug": "the-chessboard-and-indias-granaries",
       "published": "2026-11-04T09:39:50.000+05:30",
-      "updated": "2026-11-04T18:42:01.337+05:30",
+      "updated": "2026-11-04T18:43:01.428+05:30",
       "labels": [
+        "Agriculture & Fertilisers",
+        "Grain Procurement & Storage",
         "Industrial Policy"
       ],
       "bytes": 28211,
@@ -21093,13 +21110,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/import-dependent-sectors-vs-government.html",
       "slug": "import-dependent-sectors-vs-government",
       "published": "2026-08-02T14:03:17.000+05:30",
-      "updated": "2026-10-01T08:26:27.704+05:30",
+      "updated": "2026-11-04T18:45:06.724+05:30",
       "labels": [
         "Industrial Policy",
         "Trade & Tariffs"
       ],
-      "bytes": 32042,
-      "sha256": "f8b07133157ce087d683904bfae6d90d775e76b6a0bbd2934398cef19a486ff5",
+      "bytes": 32116,
+      "sha256": "54f81a2d561c613ddeffcb1107f897d81f3d6fd1364adcdbd9269bf386a6ef3d",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -21111,7 +21128,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "3.1.0",
+      "version": "3.2.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -21345,6 +21362,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Rule 8 retrofit: added What would fix this section"
+        },
+        {
+          "version": "3.2.0",
+          "date": "2026-11-04T18:46:56+05:30",
+          "level": "minor",
+          "reason": "forced via --as minor (figures changed (+2/-1 distinct numbers))",
+          "bytes": [
+            32042,
+            32116
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "crosscheck 2 Nov fixes"
         }
       ]
     },
@@ -24042,13 +24072,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/7186-litre-why-maize-is-indias-priciest.html",
       "slug": "7186-litre-why-maize-is-indias-priciest",
       "published": "2026-08-21T21:11:49.000+05:30",
-      "updated": "2026-10-27T06:25:00.821+05:30",
+      "updated": "2026-11-04T18:43:48.946+05:30",
       "labels": [
         "Agriculture & Food Processing",
         "Ethanol & Biofuels"
       ],
-      "bytes": 41068,
-      "sha256": "b5f3585bda06688bd9f0dc4e42aec1e60f86fbce75b2a803458a53e4c2dfa36e",
+      "bytes": 41773,
+      "sha256": "8ba0a33dac862b87a7fb66c077618cf949f0cc8fa5af469170f95b467f3207e7",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -24060,7 +24090,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "3.0.0",
+      "version": "3.1.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -24172,6 +24202,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Green debt post: chart, rate-gap and FX tables to late Oct; model-review paragraph splits in 20 posts"
+        },
+        {
+          "version": "3.1.0",
+          "date": "2026-11-04T18:46:56+05:30",
+          "level": "minor",
+          "reason": "forced via --as minor (figures changed (+3/-0 distinct numbers))",
+          "bytes": [
+            41068,
+            41773
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "crosscheck 2 Nov fixes"
         }
       ]
     },
@@ -30199,14 +30242,14 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/bio-fertiliser-and-green-credits.html",
       "slug": "bio-fertiliser-and-green-credits",
       "published": "2026-08-02T21:16:59.000+05:30",
-      "updated": "2026-10-28T16:26:12.570+05:30",
+      "updated": "2026-11-04T18:44:05.239+05:30",
       "labels": [
         "Agriculture & Fertilisers",
         "Climate & Carbon",
         "Fertilisers & Soil Health"
       ],
-      "bytes": 51990,
-      "sha256": "94f1934cb99b138c098ce79a9b00522be38eab1d396bf35bf885388e01f5c506",
+      "bytes": 53269,
+      "sha256": "35dfa094743e5aeaad3b87b7d72980296aa40434e8a5212ef6ef7f89cda9127c",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -30218,7 +30261,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "6.0.0",
+      "version": "6.1.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -30525,6 +30568,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Gazette check: 24 posts verified against Gazette of India notifications"
+        },
+        {
+          "version": "6.1.0",
+          "date": "2026-11-04T18:46:56+05:30",
+          "level": "minor",
+          "reason": "forced via --as minor (figures changed (+11/-0 distinct numbers))",
+          "bytes": [
+            51990,
+            53269
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "crosscheck 2 Nov fixes"
         }
       ]
     },
@@ -35499,14 +35555,14 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/028-unit-diesel-math-behind-indias-data.html",
       "slug": "028-unit-diesel-math-behind-indias-data",
       "published": "2026-08-20T19:11:25.000+05:30",
-      "updated": "2026-10-27T06:23:53.871+05:30",
+      "updated": "2026-11-04T18:43:33.706+05:30",
       "labels": [
         "Data Centres & AI Infra",
         "Energy & Fuels",
         "Renewable Power & Storage"
       ],
-      "bytes": 38121,
-      "sha256": "dd43fd78742c46a4878c29dc9f68f07472b83de58b4dc45693e2e21bab8fcc68",
+      "bytes": 38924,
+      "sha256": "7b9ae13d36438c20c90bca851b46e19b4198cd39948617e9291b37ad19313c06",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -35518,7 +35574,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "3.0.0",
+      "version": "3.1.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -35669,6 +35725,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Green debt post: chart, rate-gap and FX tables to late Oct; model-review paragraph splits in 20 posts"
+        },
+        {
+          "version": "3.1.0",
+          "date": "2026-11-04T18:46:56+05:30",
+          "level": "minor",
+          "reason": "forced via --as minor (figures changed (+1/-0 distinct numbers))",
+          "bytes": [
+            38121,
+            38924
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "crosscheck 2 Nov fixes"
         }
       ]
     },
@@ -38445,7 +38514,7 @@
       "url": "https://masaladeutsch.blogspot.com/2026/07/chemical-import-substitution-quarterly.html",
       "slug": "chemical-import-substitution-quarterly",
       "published": "2026-08-01T09:33:00.000+05:30",
-      "updated": "2026-10-14T16:24:32.018+05:30",
+      "updated": "2026-11-04T18:44:21.956+05:30",
       "labels": [
         "Chemicals",
         "Customs & HSN Trade Data",
@@ -38453,8 +38522,8 @@
         "Trade & Tariffs",
         "Trade Remedies & Antidumping"
       ],
-      "bytes": 61108,
-      "sha256": "42b95e9884f848d079299c2fc0b39b55b6f95a203d7e47a990531394a8828ad9",
+      "bytes": 61928,
+      "sha256": "e94c0e59cc3bf93aaa0abadb089b146bef52327a2027602a7ff784b1c00d14dc",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -38466,7 +38535,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "3.2.0",
+      "version": "3.3.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -38778,6 +38847,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Update notes 12-13 Oct 2026 from the currency sweeps (45 posts)"
+        },
+        {
+          "version": "3.3.0",
+          "date": "2026-11-04T18:46:56+05:30",
+          "level": "minor",
+          "reason": "forced via --as minor (figures changed (+1/-2 distinct numbers))",
+          "bytes": [
+            61108,
+            61928
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "crosscheck 2 Nov fixes"
         }
       ]
     },
@@ -39125,13 +39207,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/fuel-pricing-to-crude-cost.html",
       "slug": "fuel-pricing-to-crude-cost",
       "published": "2026-08-05T08:39:37.000+05:30",
-      "updated": "2026-10-18T06:05:38.101+05:30",
+      "updated": "2026-11-04T18:44:51.016+05:30",
       "labels": [
         "Energy & Fuels",
         "Fuel Retail & Pricing"
       ],
-      "bytes": 89425,
-      "sha256": "2dd8980870d2ce3c19751c3ce4f9ea47c9062558053e7c279f23738f66b28a10",
+      "bytes": 90107,
+      "sha256": "e2db2bc00dcbe6eac164e3945c5af14882f43987d51ed341a700355835ed1e6b",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -39143,7 +39225,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "2.2.0",
+      "version": "2.3.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -39472,6 +39554,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Sweep 4: Seeds Bill note and stale-claim notes on 7 posts"
+        },
+        {
+          "version": "2.3.0",
+          "date": "2026-11-04T18:46:56+05:30",
+          "level": "minor",
+          "reason": "forced via --as minor (figures changed (+3/-0 distinct numbers))",
+          "bytes": [
+            89425,
+            90107
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "crosscheck 2 Nov fixes"
         }
       ]
     },
@@ -40382,13 +40477,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/where-indias-gigawatt-data-centre-bets.html",
       "slug": "where-indias-gigawatt-data-centre-bets",
       "published": "2026-08-20T21:16:29.000+05:30",
-      "updated": "2026-10-01T09:01:13.653+05:30",
+      "updated": "2026-11-04T18:46:19.240+05:30",
       "labels": [
         "Data Centres & AI Infra",
         "Infrastructure & Investment"
       ],
-      "bytes": 28037,
-      "sha256": "2e45186ef8c1e030f525e30eef22adad781e02c61554d1e644eb672d10abbe83",
+      "bytes": 28801,
+      "sha256": "62701741e686621e01fdfd4c9a30d658d4916305167edeedac7b6d012c598331",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -40400,7 +40495,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "2.1.0",
+      "version": "2.2.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -40499,6 +40594,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Rule 8 retrofit: added What would fix this section"
+        },
+        {
+          "version": "2.2.0",
+          "date": "2026-11-04T18:46:56+05:30",
+          "level": "minor",
+          "reason": "forced via --as minor (figures changed (+1/-0 distinct numbers))",
+          "bytes": [
+            28037,
+            28801
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "crosscheck 2 Nov fixes"
         }
       ]
     },
@@ -49927,15 +50035,15 @@
       "url": "https://masaladeutsch.blogspot.com/2026/07/the-grain-value-loop-integrated-rice.html",
       "slug": "the-grain-value-loop-integrated-rice",
       "published": "2026-07-31T10:00:00.000+05:30",
-      "updated": "2026-10-27T15:17:33.876+05:30",
+      "updated": "2026-11-04T18:46:03.745+05:30",
       "labels": [
         "Agriculture & Fertilisers",
         "Energy & Fuels",
         "Grain Procurement & Storage",
         "Trade & Tariffs"
       ],
-      "bytes": 89431,
-      "sha256": "752a9545366372c039601a59e218ee0ff2891672dd221b17796f5ca711524c00",
+      "bytes": 90436,
+      "sha256": "5b17bd6bedb40bb8638aa699ee6500673ad6ac80de28327a5bdac43563496eb4",
       "markers": {
         "light_lock": true,
         "dark_panel_guard": true,
@@ -49947,7 +50055,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "5.0.0",
+      "version": "5.1.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -50255,6 +50363,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Fact-check corrections: 18 posts with dated update notes"
+        },
+        {
+          "version": "5.1.0",
+          "date": "2026-11-04T18:46:56+05:30",
+          "level": "minor",
+          "reason": "forced via --as minor (figures changed (+5/-0 distinct numbers))",
+          "bytes": [
+            89431,
+            90436
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "crosscheck 2 Nov fixes"
         }
       ]
     },
@@ -68932,14 +69053,14 @@
       "url": "https://masaladeutsch.blogspot.com/2026/07/indias-subsidised-imports-fertilisers.html",
       "slug": "indias-subsidised-imports-fertilisers",
       "published": "2026-07-31T05:30:00.000+05:30",
-      "updated": "2026-10-01T08:37:58.756+05:30",
+      "updated": "2026-11-04T18:45:32.181+05:30",
       "labels": [
         "Agriculture & Fertilisers",
         "Chemicals",
         "Trade & Tariffs"
       ],
-      "bytes": 39556,
-      "sha256": "7c022094ca685ce82795e8a4de195b5dd09af5e5769a671e321c07536908e19e",
+      "bytes": 39579,
+      "sha256": "b847af874a8b4827d52a91b1f09e27e62f42aac06ee3205a2481370a1a500a98",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -68951,7 +69072,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.1.0",
+      "version": "1.2.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -68972,6 +69093,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Rule 8 retrofit: added What would fix this section"
+        },
+        {
+          "version": "1.2.0",
+          "date": "2026-11-04T18:46:56+05:30",
+          "level": "minor",
+          "reason": "forced via --as minor (figures changed (+2/-0 distinct numbers))",
+          "bytes": [
+            39556,
+            39579
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "crosscheck 2 Nov fixes"
         }
       ]
     },
@@ -69030,14 +69164,14 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/ethanols-coal-boilers-briquette-gap-and.html",
       "slug": "ethanols-coal-boilers-briquette-gap-and",
       "published": "2026-08-17T09:07:49.000+05:30",
-      "updated": "2026-10-23T10:00:21.142+05:30",
+      "updated": "2026-11-04T18:44:35.832+05:30",
       "labels": [
         "Carbon Markets",
         "Energy & Fuels",
         "Ethanol & Biofuels"
       ],
-      "bytes": 37802,
-      "sha256": "b23433fa966ffb295a9d1ccbf36cd1cb667fa14cc39899756d4f0415650e0a46",
+      "bytes": 39204,
+      "sha256": "5c56325e9b722c4faa20c9c4fbf4c831a50f069a5fdf8aaf049c986a2c95b40a",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -69049,7 +69183,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "2.1.1",
+      "version": "2.2.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -69213,6 +69347,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Sweep 4 MEDIUM items: dated update notes on 59 posts"
+        },
+        {
+          "version": "2.2.0",
+          "date": "2026-11-04T18:46:56+05:30",
+          "level": "minor",
+          "reason": "forced via --as minor (figures changed (+6/-0 distinct numbers))",
+          "bytes": [
+            37802,
+            39204
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "crosscheck 2 Nov fixes"
         }
       ]
     },
@@ -69483,12 +69630,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/real-gdp-growth-india-fy2012-13-to.html",
       "slug": "real-gdp-growth-india-fy2012-13-to",
       "published": "2026-08-02T13:45:39.000+05:30",
-      "updated": "2026-10-27T15:16:53.048+05:30",
+      "updated": "2026-11-04T18:45:47.940+05:30",
       "labels": [
         "Macroeconomics & Monetary Policy"
       ],
-      "bytes": 43647,
-      "sha256": "fb4386c53e739a722143339b32fe2713d27dc272c324e52ed32b6ec8165916bc",
+      "bytes": 44318,
+      "sha256": "64f67fee832ccab2012e8b951c56192cde73f95a8f6a2c60f30f59dfd6169d0c",
       "markers": {
         "light_lock": true,
         "dark_panel_guard": true,
@@ -69500,7 +69647,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "4.0.0",
+      "version": "4.1.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -69795,6 +69942,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Fact-check corrections: 18 posts with dated update notes"
+        },
+        {
+          "version": "4.1.0",
+          "date": "2026-11-04T18:46:56+05:30",
+          "level": "minor",
+          "reason": "forced via --as minor (figures changed (+1/-0 distinct numbers))",
+          "bytes": [
+            43647,
+            44318
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "crosscheck 2 Nov fixes"
         }
       ]
     },

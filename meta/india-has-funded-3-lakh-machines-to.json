@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/10/india-has-funded-3-lakh-machines-to.html",
   "slug": "india-has-funded-3-lakh-machines-to",
   "published": "2026-10-28T16:33:26.000+05:30",
-  "updated": "2026-10-28T16:34:12.377+05:30",
+  "updated": "2026-11-04T18:45:15.483+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Energy & Fuels"
   ],
-  "bytes": 37638,
-  "sha256": "289c8032d28de281abed7fb44ef362ad4982f5279130e96b1ee0465c127320b2",
+  "bytes": 38885,
+  "sha256": "faedcd4f631c21266716053e046c4329fb9d776e1aa8dcbe20c2b6e8632b5dae",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -30,6 +30,19 @@
       "level": "initial",
       "reason": "first snapshot",
       "note": "New post: crop residue aggregation schemes and machinery"
+    },
+    {
+      "version": "1.1.0",
+      "date": "2026-11-04T18:46:56+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+13/-7 distinct numbers))",
+      "bytes": [
+        37638,
+        38885
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "crosscheck 2 Nov fixes"
     }
   ]
 }

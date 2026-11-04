@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/real-gdp-growth-india-fy2012-13-to.html",
   "slug": "real-gdp-growth-india-fy2012-13-to",
   "published": "2026-08-02T13:45:39.000+05:30",
-  "updated": "2026-10-27T15:16:53.048+05:30",
+  "updated": "2026-11-04T18:45:47.940+05:30",
   "labels": [
     "Macroeconomics & Monetary Policy"
   ],
-  "bytes": 43647,
-  "sha256": "fb4386c53e739a722143339b32fe2713d27dc272c324e52ed32b6ec8165916bc",
+  "bytes": 44318,
+  "sha256": "64f67fee832ccab2012e8b951c56192cde73f95a8f6a2c60f30f59dfd6169d0c",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": true,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "4.0.0",
+  "version": "4.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -316,6 +316,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Fact-check corrections: 18 posts with dated update notes"
+    },
+    {
+      "version": "4.1.0",
+      "date": "2026-11-04T18:46:56+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+1/-0 distinct numbers))",
+      "bytes": [
+        43647,
+        44318
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "crosscheck 2 Nov fixes"
     }
   ]
 }

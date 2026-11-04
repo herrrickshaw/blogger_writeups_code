@@ -4,7 +4,7 @@
   "url": "https://masaladeutsch.blogspot.com/2026/07/chemical-import-substitution-quarterly.html",
   "slug": "chemical-import-substitution-quarterly",
   "published": "2026-08-01T09:33:00.000+05:30",
-  "updated": "2026-10-14T16:24:32.018+05:30",
+  "updated": "2026-11-04T18:44:21.956+05:30",
   "labels": [
     "Chemicals",
     "Customs & HSN Trade Data",
@@ -12,8 +12,8 @@
     "Trade & Tariffs",
     "Trade Remedies & Antidumping"
   ],
-  "bytes": 61108,
-  "sha256": "42b95e9884f848d079299c2fc0b39b55b6f95a203d7e47a990531394a8828ad9",
+  "bytes": 61928,
+  "sha256": "e94c0e59cc3bf93aaa0abadb089b146bef52327a2027602a7ff784b1c00d14dc",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -25,7 +25,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.2.0",
+  "version": "3.3.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -337,6 +337,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Update notes 12-13 Oct 2026 from the currency sweeps (45 posts)"
+    },
+    {
+      "version": "3.3.0",
+      "date": "2026-11-04T18:46:56+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+1/-2 distinct numbers))",
+      "bytes": [
+        61108,
+        61928
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "crosscheck 2 Nov fixes"
     }
   ]
 }

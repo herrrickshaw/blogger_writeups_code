@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/028-unit-diesel-math-behind-indias-data.html",
   "slug": "028-unit-diesel-math-behind-indias-data",
   "published": "2026-08-20T19:11:25.000+05:30",
-  "updated": "2026-10-27T06:23:53.871+05:30",
+  "updated": "2026-11-04T18:43:33.706+05:30",
   "labels": [
     "Data Centres & AI Infra",
     "Energy & Fuels",
     "Renewable Power & Storage"
   ],
-  "bytes": 38121,
-  "sha256": "dd43fd78742c46a4878c29dc9f68f07472b83de58b4dc45693e2e21bab8fcc68",
+  "bytes": 38924,
+  "sha256": "7b9ae13d36438c20c90bca851b46e19b4198cd39948617e9291b37ad19313c06",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.0",
+  "version": "3.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -174,6 +174,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Green debt post: chart, rate-gap and FX tables to late Oct; model-review paragraph splits in 20 posts"
+    },
+    {
+      "version": "3.1.0",
+      "date": "2026-11-04T18:46:56+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+1/-0 distinct numbers))",
+      "bytes": [
+        38121,
+        38924
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "crosscheck 2 Nov fixes"
     }
   ]
 }
