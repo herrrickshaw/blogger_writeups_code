@@ -4,10 +4,10 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html",
   "slug": "article-index-start-here",
   "published": "2026-08-02T10:43:26.000+05:30",
-  "updated": "2026-11-05T18:13:10.876+05:30",
+  "updated": "2026-11-06T04:15:28.736+05:30",
   "labels": [],
-  "bytes": 956258,
-  "sha256": "793caba9d9f9f0f6cf67b291221af0cab8841f10d5c7f4755d50dd5da382ab44",
+  "bytes": 958182,
+  "sha256": "754059ae13fbe9a7834a466c92f4bf3d1b4354d4e8977f50e6bd9c5785c23245",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "73.0.0",
+  "version": "74.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -2483,6 +2483,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "index: add toolkit complete guide"
+    },
+    {
+      "version": "74.0.0",
+      "date": "2026-11-06T04:16:13+05:30",
+      "level": "major",
+      "reason": "figures changed (+1/-0 distinct numbers)",
+      "bytes": [
+        956258,
+        958182
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

@@ -16916,3 +16916,13 @@ index: add toolkit complete guide
 **Changed**
 
 - `how-to-use-process-safety-design` — 41,072 → 45,503 bytes (+4,431)
+
+## 2026-11-06T04:16:13+05:30 — 497 posts live
+
+**Versions**
+
+- `article-index-start-here` **73.0.0 → 74.0.0** (MAJOR) — figures changed (+1/-0 distinct numbers)
+
+**Changed**
+
+- `article-index-start-here` — 956,258 → 958,182 bytes (+1,924)
