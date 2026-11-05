@@ -16889,3 +16889,16 @@ publish: process-safety toolkit complete guide
 **Added**
 
 - `how-to-use-process-safety-design` **v1.0.0** — How to Use the Process-Safety Design Toolkit: A Complete Walkthrough, Command by Command (41,072 bytes)
+
+## 2026-11-05T18:13:47+05:30 — 496 posts live
+
+index: add toolkit complete guide
+
+
+**Versions**
+
+- `article-index-start-here` **72.0.0 → 73.0.0** (MAJOR) — figures changed (+0/-1 distinct numbers)
+
+**Changed**
+
+- `article-index-start-here` — 955,263 → 956,258 bytes (+995)
