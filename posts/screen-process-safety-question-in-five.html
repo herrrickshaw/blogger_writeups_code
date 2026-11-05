@@ -135,7 +135,7 @@
   `.standfirst` the same way for meta description, so this class must stay.
 -->
 <div class="gs-head-order" style="display:flex;flex-direction:column">
-<p class="standfirst" style="order:4">A free, dependency-free Python toolkit can screen an LPG storage and loading terminal in minutes: relief load, the safety function that stops an overfill, where the risk comes from and which fix pays. Here are the real outputs, and the one limit that matters most for propane.</p>
+<p class="standfirst" style="order:4">A free, dependency-free Python toolkit can screen an LPG storage and loading terminal in minutes: relief load, the safety function that stops an overfill, where the risk comes from and which fix pays. Here are the real outputs, the one limit that matters most for propane, and how the same questions appear in other oil and gas projects.</p>
 <div class="topnav-index-link" style="order:1;font-size:.82em;margin:6px 0 14px"><a href="https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html" style="color:#0b5394;text-decoration:none">&#8592; All Articles (Index)</a></div>
 <p class="eyebrow" style="order:2">Oil &amp; Gas Assets &middot; LPG Terminals &middot; Process-Safety How-to</p>
 <h1 style="order:3">Screen an LPG Terminal Before the Workshop, and See the Dense-Gas Gap It Cannot Close</h1>
@@ -239,7 +239,7 @@ if(skip){
 -->
 <p class="revised" data-gs-revision-v1="1">Revised
 <time datetime="2026-11-05" itemprop="dateModified">5 November 2026</time>
-&middot; <code>v1.1.0</code> &middot; <a href="#changelog">what changed</a></p>
+&middot; <code>v1.2.0</code> &middot; <a href="#changelog">what changed</a></p>
 
 <div class="stats">
 <div class="stat"><b>18</b><span>Loss-of-containment scenarios in the worked terminal study</span></div>
@@ -312,7 +312,26 @@ python3 -m process_safety qra run study.json --out qra_out/</pre>
 </table>
 </div>
 
-<h2>5. What this terminal needs next, and what would close each gap</h2>
+<h2>5. The same questions in real projects</h2>
+
+<p>iFluids Engineering, a Chennai consultancy, publishes <a href="https://ifluids.com/case-studies/">case studies</a> and an <a href="https://ifluids.com/all-projects/">all-projects list</a>. Several entries are the same questions the terminal raised. The table matches each to the toolkit module that screens it, with a real output on <b>illustrative inputs</b>. No result, input or design from any listed project is shown or implied: only the client, title and scope as the iFluids pages state them, and the toolkit is not iFluids&rsquo; method.</p>
+
+<div class="tw">
+<table>
+<tr><th>Project (per the iFluids pages)</th><th>Question screened</th><th>Real toolkit output (illustrative inputs)</th><th>Where the toolkit stops</th></tr>
+<tr><td>GSPL: integrated QRA for LNG transport routes and regasification</td><td>Impoundment, boil-off and regas duty at a terminal (<code>lng</code>, <code>qra</code>)</td><td>For a 160,000 m&sup3; tank, 4,000 kW heat ingress, 50 kg/s regas and 5 K seawater rise: impoundment 176,000 m&sup3;, boil-off 7.8 kg/s (1.0% a day), regas duty 44.4 MW, seawater 2.17 m&sup3;/s</td><td>Impoundment follows the US rule (49 CFR 193.2181). Siting models and road-transport route risk are not implemented</td></tr>
+<tr><td>Kuwait Oil Company thermal testing facility; Jafurah downstream pipeline Phase II: fire and gas mapping</td><td>Detector coverage of a hazard zone (<code>fg_mapping</code>)</td><td>On the toolkit&rsquo;s example bullet area, two-detector coverage as drawn is 1.8% against a 90% target. The optimiser adds 18 gas detectors and reaches 68.7%, still short</td><td>2D geographic coverage only. 3D mapping and scenario-based coverage are not implemented</td></tr>
+<tr><td>CPCL Manali refinery: PSM gap assessment against the 20 CCPS RBPS elements</td><td>Scoring and tracking a management system (<code>psm</code>)</td><td>Gap scoring (0 to 4 per element) and weakest-element ranking for the 14 OSHA PSM elements and AIGA 99; for dates, a PHA last done 15 Mar 2021 is overdue by 235 days on 5 Nov 2026</td><td>The 20-element RBPS scoring itself is not implemented, only the element list and a crosswalk</td></tr>
+<tr><td>NGL pipeline surge analysis (14-inch, about 300 km, in the projects list)</td><td>Surge pressure on a fast valve closure (<code>hydraulics.surge_screen</code>)</td><td>Assuming density 560 kg/m&sup3;, bulk modulus 1 GPa and a 9.5 mm wall: wave speed 1,228 m/s, critical time 489 s, a 1.5 m/s stop in 30 s gives 1,032 kPa (Joukowsky)</td><td>A screen, not a transient simulator: no pump trips, column separation or full pipeline model</td></tr>
+<tr><td>IOCL Mathura tank conversion (20,000 KL and 5,000 KL tanks)</td><td>Fire venting of an atmospheric tank (<code>tank_venting</code>)</td><td>A bare vertical tank, 40 m by 16 m (about 20,000 m&sup3;): wetted area 1,149 m&sup2;, emergency venting 19,897 Nm&sup3;/h, of which 18,397 Nm&sup3;/h is beyond a 1,500 Nm&sup3;/h normal capacity</td><td>API 2000 5th edition (1998) only; the 7th edition and vent hardware sizing are not implemented</td></tr>
+<tr><td>Essar re-HAZOP of P&amp;IDs; Oil India HAZOP and QRA; Qatar Petroleum bow-tie development</td><td>Registers, revalidation and barrier ranking (<code>hazop</code>, <code>pha</code>, <code>bowtie</code>, <code>qra</code>)</td><td>The terminal study above: HAZOP worksheets, barrier importance and the safety-critical element, QRA individual and societal risk</td><td>The study itself is a team exercise; the tools keep the records</td></tr>
+<tr><td>HAZID for mining standpipe infrastructure (Pilbara)</td><td>Hazard identification checklist (<code>qra.hazid</code>)</td><td>A HAZID register by section and a loss-of-containment list</td><td>Generic prompts, not standard text; not an oil and gas asset</td></tr>
+</table>
+</div>
+
+<div class="note"><b>Not computational, so not covered.</b> The iFluids pages also list safety-culture perception surveys and a behaviour-based safety programme (BCPL, Assam), an external safety audit of paint plants (Berger Paints), and an ammonia-ingress control-room pressurisation design (IFFCO Kalol). These are surveys, audits and ventilation design. The toolkit does not attempt them, and it has no indoor toxic model.</div>
+
+<h2>6. What this terminal needs next, and what would close each gap</h2>
 
 <ul>
 <li><b>Replace the placeholders.</b> Pump and equipment frequencies from a source such as the OGP 434-1 data or the UK HSE FRED rows, local weather and wind data, and the actual population around the site.</li>
@@ -324,7 +343,7 @@ python3 -m process_safety qra run study.json --out qra_out/</pre>
 
 <p>The same flow applies to other oil and gas assets, a gas processing plant, a refinery unit or an offshore platform, with different modules in play (relief and flare systems, hydrocarbon fire, explosion). The terminal here is only the asset the toolkit ships a worked example for.</p>
 
-<p class="src">Sources: the toolkit and its documentation, <a href="https://github.com/herrrickshaw/process-safety-design-toolkit">github.com/herrrickshaw/process-safety-design-toolkit</a> (open pull requests 1 and 2 hold the risk-assessment and study tools used here). Every output above comes from running the commands on 5 November 2026 on the toolkit's hypothetical LPG terminal example, with illustrative inputs; results are screening arithmetic and modelled, not measured, and are not a safety case.</p>
+<p class="src">Sources: the toolkit and its documentation, <a href="https://github.com/herrrickshaw/process-safety-design-toolkit">github.com/herrrickshaw/process-safety-design-toolkit</a> (open pull requests 1 and 2 hold the risk-assessment and study tools used here). Every output above comes from running the commands on 5 November 2026 on the toolkit's hypothetical LPG terminal example, with illustrative inputs; client names and project scopes in section 5 are as stated on <a href="https://ifluids.com/case-studies/">ifluids.com/case-studies</a> and <a href="https://ifluids.com/all-projects/">ifluids.com/all-projects</a>, read on 5 November 2026 (the projects page was only partly read); results are screening arithmetic and modelled, not measured, and are not a safety case.</p>
 
 <!--
   4. Revision history. Newest first. One line per published revision; say what a
@@ -334,6 +353,7 @@ python3 -m process_safety qra run study.json --out qra_out/</pre>
 <div id="changelog" class="note">
 <b>Revision history.</b>
 <ul>
+<li><b>v1.2.0</b> &mdash; 5 November 2026 &mdash; added a section matching the same questions to published iFluids case studies and projects (LNG regasification, fire and gas mapping, PSM gap assessment, pipeline surge, tank venting, HAZOP revalidation), with real toolkit outputs on illustrative inputs and the limits of each.</li>
 <li><b>v1.1.0</b> &mdash; 5 November 2026 &mdash; re-scoped to an oil and gas asset: an LPG storage and loading terminal walked through the toolkit with real outputs, and the dense-gas limit made explicit. The data-centre section moved to the repository docs.</li>
 <li><b>v1.0.0</b> &mdash; 5 November 2026 &mdash; first published (general how-to).</li>
 </ul>

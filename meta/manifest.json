@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-11-05T17:52:33+05:30",
+  "snapshot": "2026-11-05T17:55:27+05:30",
   "count": 495,
   "posts": {
     "1008146607143508554": {
@@ -3865,13 +3865,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/11/screen-process-safety-question-in-five.html",
       "slug": "screen-process-safety-question-in-five",
       "published": "2026-11-05T17:30:56.000+05:30",
-      "updated": "2026-11-05T17:51:55.347+05:30",
+      "updated": "2026-11-05T17:54:51.123+05:30",
       "labels": [
         "Open-Source Tools & How-To",
         "Refining & Petrochemicals"
       ],
-      "bytes": 28007,
-      "sha256": "cbb7efee550d0e3c3d7d36e4f878cf1496597ce4a341dd8a73c813a9077719d5",
+      "bytes": 32960,
+      "sha256": "bbb547ffb6fbfb1c6740e76f71bdaa6c5180babf0c4dcf8f3893649b61aa8ffa",
       "markers": {
         "light_lock": true,
         "dark_panel_guard": false,
@@ -3883,7 +3883,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.1.0",
+      "version": "1.2.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -3904,6 +3904,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "tailor how-to to an LPG terminal (oil and gas asset)"
+        },
+        {
+          "version": "1.2.0",
+          "date": "2026-11-05T17:55:27+05:30",
+          "level": "minor",
+          "reason": "forced via --as minor (figures changed (+33/-0 distinct numbers))",
+          "bytes": [
+            28007,
+            32960
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "add iFluids case-study section to toolkit how-to"
         }
       ]
     },

@@ -16854,3 +16854,16 @@ tailor how-to to an LPG terminal (oil and gas asset)
 **Changed**
 
 - `screen-process-safety-question-in-five` — 26,530 → 28,007 bytes (+1,477)
+
+## 2026-11-05T17:55:27+05:30 — 495 posts live
+
+add iFluids case-study section to toolkit how-to
+
+
+**Versions**
+
+- `screen-process-safety-question-in-five` **1.1.0 → 1.2.0** (MINOR) — forced via --as minor (figures changed (+33/-0 distinct numbers))
+
+**Changed**
+
+- `screen-process-safety-question-in-five` — 28,007 → 32,960 bytes (+4,953)
