@@ -16867,3 +16867,16 @@ add iFluids case-study section to toolkit how-to
 **Changed**
 
 - `screen-process-safety-question-in-five` — 28,007 → 32,960 bytes (+4,953)
+
+## 2026-11-05T17:56:27+05:30 — 495 posts live
+
+index: retitled toolkit how-to
+
+
+**Versions**
+
+- `article-index-start-here` **71.0.0 → 72.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+
+**Changed**
+
+- `article-index-start-here` — 954,610 → 955,263 bytes (+653)
