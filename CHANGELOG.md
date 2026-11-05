@@ -16841,3 +16841,16 @@ index: add process-safety toolkit how-to
 **Changed**
 
 - `article-index-start-here` — 945,635 → 954,610 bytes (+8,975)
+
+## 2026-11-05T17:52:33+05:30 — 495 posts live
+
+tailor how-to to an LPG terminal (oil and gas asset)
+
+
+**Versions**
+
+- `screen-process-safety-question-in-five` **1.0.0 → 1.1.0** (MINOR) — forced via --as minor (figures changed (+43/-29 distinct numbers))
+
+**Changed**
+
+- `screen-process-safety-question-in-five` — 26,530 → 28,007 bytes (+1,477)

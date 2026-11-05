@@ -135,10 +135,10 @@
   `.standfirst` the same way for meta description, so this class must stay.
 -->
 <div class="gs-head-order" style="display:flex;flex-direction:column">
-<p class="standfirst" style="order:4">A dependency-free Python toolkit runs relief, LOPA, bow-tie, quantitative risk and data-centre screening calculations from one command line; this is how to install it, what each command returns, and where it stops.</p>
+<p class="standfirst" style="order:4">A free, dependency-free Python toolkit can screen an LPG storage and loading terminal in minutes: relief load, the safety function that stops an overfill, where the risk comes from and which fix pays. Here are the real outputs, and the one limit that matters most for propane.</p>
 <div class="topnav-index-link" style="order:1;font-size:.82em;margin:6px 0 14px"><a href="https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html" style="color:#0b5394;text-decoration:none">&#8592; All Articles (Index)</a></div>
-<p class="eyebrow" style="order:2">Engineering Tools &middot; Process Safety &middot; How-to</p>
-<h1 style="order:3">Screen a Process-Safety Question in Five Minutes, and Know Exactly Where the Screen Stops</h1>
+<p class="eyebrow" style="order:2">Oil &amp; Gas Assets &middot; LPG Terminals &middot; Process-Safety How-to</p>
+<h1 style="order:3">Screen an LPG Terminal Before the Workshop, and See the Dense-Gas Gap It Cannot Close</h1>
 </div>
 
 <!--
@@ -239,18 +239,18 @@ if(skip){
 -->
 <p class="revised" data-gs-revision-v1="1">Revised
 <time datetime="2026-11-05" itemprop="dateModified">5 November 2026</time>
-&middot; <code>v1.0.0</code> &middot; <a href="#changelog">what changed</a></p>
+&middot; <code>v1.1.0</code> &middot; <a href="#changelog">what changed</a></p>
 
 <div class="stats">
+<div class="stat"><b>18</b><span>Loss-of-containment scenarios in the worked terminal study</span></div>
+<div class="stat"><b>0.0435</b><span>Total loss-of-containment frequency (per year, illustrative inputs)</span></div>
+<div class="stat"><b>12.7 s</b><span>Time for the full risk study on a laptop</span></div>
 <div class="stat"><b>0</b><span>Dependencies to install (Python standard library only)</span></div>
-<div class="stat"><b>47</b><span>Calculation modules, plus 13 in the risk-assessment package</span></div>
-<div class="stat"><b>173</b><span>Automated tests that pass on the current branch</span></div>
-<div class="stat"><b>1.5 s</b><span>Time for the built-in risk-study sample run on a laptop</span></div>
 </div>
 
-<p>Most process-safety questions start as a quick check: how big a relief valve, how much safety integrity does this scenario need, where does a gas cloud reach. This toolkit answers those at screening level from a terminal, with no software to buy and nothing to install beyond Python. It is built around the equations and standards a process-safety engineer is held to (API 520/521/526/2000, IEC 61511 and the CCPS layer-of-protection method, with the Indian OISD list as a reference), and every module says which numbers are inputs you must own.</p>
+<p>An LPG storage and loading terminal is a good test of any screening toolkit: pressurised propane bullets, transfer pumps, a road-tanker loading bay, a flare, and a control room and village close enough to matter. This post walks that asset through a free Python toolkit, step by step, with the actual outputs. The questions are the ones a process-safety workshop asks first: how big is the fire relief load, is the overfill trip good enough, where does the risk come from, and which fix is worth paying for.</p>
 
-<div class="warn"><b>It is a screen, not a safety case.</b> Most of the standards are paywalled and were not read. Equations are derived from first principles where possible and unit-tested; every remaining coefficient is flagged in the module's docstring. A qualified engineer owns any result, and validated tools such as DNV Phast or RISKCURVES should decide real designs.</div>
+<div class="warn"><b>The terminal here is hypothetical.</b> It is the toolkit's worked example: four sections (a propane bullet with pumps, a road-tanker loading bay, a sour fuel-gas header, a diesel tank in a bund), 60,000 kg of propane at 750 kPag and 303 K in the bullet. Pump failure frequencies, weather, wind rose, population, building vulnerability, the value of a prevented fatality and mitigation costs are <b>illustrative placeholders</b>. The toolkit is a screen, not a safety case; replace every placeholder with site data before any decision.</div>
 
 <h2>1. Get it running</h2>
 
@@ -260,72 +260,71 @@ git checkout feature/ifluids-service-map   # until the two open pull requests me
 python3 -m unittest discover tests         # 173 tests should pass
 python3 -m process_safety coverage         # every topic, its standards, and what is NOT implemented</pre>
 
-<p>The <code>coverage</code> command is the best first step. It lists each topic with the governing standards, the module that implements it, and an honest status. Read the &ldquo;not implemented&rdquo; lines before you trust anything else.</p>
+<p>Start with <code>coverage</code> and read the &ldquo;not implemented&rdquo; lines. For an LPG terminal the ones that matter are layout and separation distances, hazardous-area classification extents, and a dense-gas dispersion model.</p>
 
-<h2>2. Five commands, five real outputs</h2>
-
-<p>These were run on the branch above. Inputs are illustrative.</p>
+<h2>2. Walk the asset through the toolkit</h2>
 
 <div class="tw">
 <table>
 <tr><th>Question</th><th>Command (shortened)</th><th>What it returns</th></tr>
-<tr><td>How much vapour does a fire-exposed vessel generate?</td><td><code>relief-fire --D 2.5 --L 8 --level 1.5 --latent 330</code></td><td>Wetted area 43.9 m&sup2;, heat input 961 kW, relief rate 10,480 kg/h</td></tr>
-<tr><td>What safety integrity does a scenario need?</td><td><code>lopa --ie 0.1 --ipl 0.1 0.01 --target 1e-6</code></td><td>Mitigated 1e-4 per year against 1e-6 tolerable, so a required risk reduction of 100 and SIL 1 needed</td></tr>
-<tr><td>How is a data-centre hall sized for cooling and backup?</td><td><code>datacentre --it-kw 10000 --facility-kw 13000 --delta-t 8 --autonomy-min 10 --gen-hours 48 --sfc 210</code></td><td>PUE 1.3, cooling water 1,077 m&sup3;/h, battery 2,193 kWh nameplate, diesel 156 m&sup3;</td></tr>
-<tr><td>Where does the risk come from on a terminal?</td><td><code>qra example</code> then <code>qra validate</code></td><td>The worked example has 18 loss-of-containment scenarios with a total frequency of 0.0435 per year</td></tr>
-<tr><td>Which barriers carry the risk?</td><td><code>tool example bowtie</code> then <code>tool bowtie</code></td><td>A bow-tie diagram, a barrier table, and the safety-critical element (an independent high-high level trip in the example)</td></tr>
+<tr><td>How much vapour must the bullet relieve in a pool fire?</td><td><code>relief-fire --D 3.5 --L 14 --level 2.5 --latent 330</code></td><td>Wetted area 119 m&sup2;, heat input 2,174 kW, relief rate 23,720 kg/h. The geometry and the 330 kJ/kg latent heat are inputs.</td></tr>
+<tr><td>What pressure and fill limit does propane set?</td><td><code>lpg propane --fill-C 15 --max-C 50</code></td><td>Vapour pressure 1,616 kPag at 50 &deg;C, liquid density 506 kg/m&sup3; at 15 &deg;C, a thermodynamic fill ceiling of 88%. Codes set the practical limit.</td></tr>
+<tr><td>Is the overfill trip good enough?</td><td><code>tool sif sif.json</code></td><td>Target SIL 2. The PFDavg of 6.6e-3 (risk reduction 151) meets SIL 2 by probability, but a single type-A inlet shutdown valve with 40% safe-failure fraction caps the architecture at SIL 1. It fails.</td></tr>
+<tr><td>Which barriers carry the risk?</td><td><code>tool bowtie bowtie.json</code></td><td>Top event 1.7e-4 per year. Given a loss of containment: 69% unignited, 21% vapour-cloud explosion or flash fire, 9% jet fire, 1% BLEVE. The independent high-high level trip is the safety-critical element.</td></tr>
+<tr><td>Where does individual risk come from?</td><td><code>qra run study.json</code></td><td>Highest location risk 0.012 per year at (120, 40) m; population risk (PLL) 0.051 per year. The loading-bay operator has the highest individual risk, 6.0e-4 per year.</td></tr>
+<tr><td>Is the societal risk acceptable?</td><td>same run</td><td>Individual risk is tolerable if ALARP at all four receptors, but the F-N curve is in the intolerable region against the UK R2P2 preset.</td></tr>
+<tr><td>How exposed are the buildings?</td><td>same run</td><td>Occupant risk per year: control room 5.0e-4, admin building 9.7e-5, loading-bay shelter 6.1e-3.</td></tr>
+<tr><td>How far must emergency planning reach?</td><td>same run</td><td>Credible case (4-inch line rupture, jet and pool fire): 58, 102 and 179 m to 37.5, 12.5 and 4 kW/m&sup2;. Worst case (bullet fireball): 296, 551 and 996 m. Vapour-cloud explosion: 621 m to 0.3 bar, 786 m to 0.1 bar.</td></tr>
+<tr><td>Which fix pays?</td><td>same run</td><td>Loading-hose emergency release coupling with breakaway: prevents 0.046 fatalities per year at a cost-benefit ratio of 0.033, so implement. Extra shutdown valves on the fuel-gas header and relocating the admin building are not justified on cost-benefit alone.</td></tr>
 </table>
 </div>
 
-<p>Each command prints JSON, so it drops straight into a spreadsheet or a script. The LOPA line is the one to look at twice: a mitigated frequency that still misses the target is the toolkit telling you a safety instrumented function is needed, and how good it has to be.</p>
+<p>Two readings are worth pausing on. The overfill function passes on probability and fails on architecture, so the fix is a redundant or higher-integrity final element, not a shorter proof-test interval. And the mitigation table says the cheapest, least glamorous measure at the loading bay removes most of the population risk. Both come from checks the toolkit runs, not from judgement added afterwards.</p>
 
-<h2>3. Run a risk study the sensible way</h2>
+<div class="warn"><b>The limit that matters most for propane.</b> The toolkit warns on this very study: <i>propane is heavier than air, and the flash-fire and toxic footprints use a neutral Gaussian plume, so consider a dense-gas override.</i> Dense clouds spread along the ground and reach further than a neutral plume. The vapour-cloud and flash-fire distances above (0.3 bar at 621 m, 0.1 bar at 786 m) and the risk that depends on them should therefore be treated as optimistic until footprints from a validated dense-gas tool such as DNV Phast or RISKCURVES are fed in through the <code>overrides</code> hook. The toolkit then still does the frequency, individual-risk, ALARP and mitigation bookkeeping.</div>
 
-<pre>python3 -m process_safety qra example --out study.json     # copy the worked LPG-terminal example
+<h2>3. Run the study the sensible way</h2>
+
+<pre>python3 -m process_safety qra example --out study.json     # copy the worked terminal example
 python3 -m process_safety qra validate study.json          # units, sums to 1, references, data provenance
 python3 -m process_safety qra hazid study.json --out hazid/   # registers for the HAZID/HAZOP workshop
 python3 -m process_safety qra run study.json --sample 3 --out sample/
 python3 -m process_safety qra run study.json --out qra_out/</pre>
 
-<p>Always run the <code>--sample</code> first. It runs three scenarios on a coarser grid, checks the result at double the angular resolution for convergence, and projects how long the full run will take. On the example it takes about a second and a half and writes the HAZID and HAZOP registers, an individual-risk grid, an F-N curve, building-risk and emergency-zone reports, a mitigation table and an HTML report. Open <code>qra_report.html</code> first.</p>
+<p>Run the <code>--sample</code> first: three scenarios on a coarser grid, a convergence check at double the angular resolution, and a projected run time. The full run of this 18-scenario terminal took 12.7 seconds. It writes the HAZID and HAZOP registers, an individual-risk grid, an F-N curve, building and emergency-zone reports, a mitigation table and an HTML report. Open <code>qra_report.html</code> first.</p>
 
-<div class="note"><b>Why sample first.</b> The study found two bugs in itself this way: a small leak inside a bund was given the whole bund area, and a village receptor was missed because plumes went down sector centrelines only. Both were caught by checks the sample run performs, not by eye.</div>
+<div class="note"><b>Why sample first.</b> Building the study exposed two real bugs: a small leak inside a bund was given the whole bund area, and a village receptor was missed because plumes went down sector centrelines only. Both were caught by checks the sample run performs.</div>
 
-<h2>4. Which module for which job</h2>
+<h2>4. The modules an oil and gas asset leans on</h2>
 
 <div class="tw">
 <table>
 <tr><th>Job</th><th>Modules</th><th>What is not covered</th></tr>
-<tr><td>Relief and venting</td><td><code>relief</code>, <code>tank_venting</code>, <code>vapour_fire</code>, <code>depressuring</code>, <code>relief_piping</code></td><td>API 521 vapour-fire shortcut (deliberately not coded); API 2000 7th edition</td></tr>
-<tr><td>Hydraulics and surge</td><td><code>hydraulics</code>, <code>fire_water</code></td><td>Gas valve Cv; method-of-characteristics transients</td></tr>
+<tr><td>Relief and venting</td><td><code>relief</code>, <code>tank_venting</code>, <code>vapour_fire</code>, <code>depressuring</code>, <code>relief_piping</code>, <code>flare_system</code></td><td>API 521 vapour-fire shortcut (deliberately not coded); API 2000 7th edition</td></tr>
+<tr><td>LPG, LNG and pipelines</td><td><code>lpg</code>, <code>lng</code>, <code>props</code>, <code>pipeline</code></td><td>Siting models; Indian pipeline rules</td></tr>
 <tr><td>Consequence</td><td><code>pool_fire</code>, <code>fireball</code>, <code>explosion</code>, <code>dispersion</code>, <code>release</code></td><td>Dense-gas dispersion; multi-energy blast</td></tr>
-<tr><td>Functional safety and reliability</td><td><code>sil</code>, <code>sil_lifecycle</code>, <code>reliability</code>, <code>ram</code></td><td>Proof-test coverage; systematic capability</td></tr>
-<tr><td>Hazard studies</td><td><code>hazop</code>, <code>pha</code>, <code>bowtie</code>, <code>qra.hazid</code></td><td>The study itself is a team exercise</td></tr>
+<tr><td>Functional safety</td><td><code>sil</code>, <code>sil_lifecycle</code>, <code>bowtie</code></td><td>Proof-test coverage; systematic capability</td></tr>
+<tr><td>Hazard studies</td><td><code>hazop</code>, <code>pha</code>, <code>qra.hazid</code></td><td>The study itself is a team exercise</td></tr>
+<tr><td>Fire water and structures</td><td><code>fire_water</code>, <code>structural_fire</code></td><td>Application rates are inputs; fire-test certification governs</td></tr>
+<tr><td>Hydraulics</td><td><code>hydraulics</code></td><td>Gas valve Cv; method-of-characteristics transients</td></tr>
 <tr><td>Electrical safety</td><td><code>electrical</code> (fault level, relay curves, earthing, lightning, arc flash)</td><td>Load flow, harmonics, IEEE 1584</td></tr>
 <tr><td>Management systems</td><td><code>psm</code>, <code>mah</code>, <code>rmp</code></td><td>Indian MSIHC schedules</td></tr>
-<tr><td>LNG, LPG and pipelines</td><td><code>lng</code>, <code>lpg</code>, <code>props</code>, <code>pipeline</code></td><td>Siting models; Indian pipeline rules</td></tr>
-<tr><td>Data centres</td><td><code>datacentre</code></td><td>Tier availability figures, ASHRAE envelopes, NFPA design values</td></tr>
 </table>
 </div>
 
-<h2>5. The data-centre helpers</h2>
-
-<p>A data centre is a high-reliability utility plant, so the same disciplines apply: power, fire, cooling water and risk. The new <code>datacentre</code> module covers PUE, the cooling-water heat balance, evaporative water use per kilowatt-hour of IT load (about 2.2 litres at three cycles of concentration, which matches a hand calculation), UPS battery and diesel sizing, and N, N+1 and 2N availability. It also ships a checklist of generic hazards for the fuel store, battery room, gas-suppression room, electrical rooms and cooling loops, each pointing to the toolkit module that helps.</p>
-
-<div class="good"><b>Checked.</b> The cooling-water flow satisfies the energy balance in both directions (double the heat doubles the flow; double the temperature rise halves it), and the water formula reproduces the 2.19 litres per kilowatt-hour hand calculation. Both are tests, not claims.</div>
-
-<div class="warn"><b>Deliberately not coded.</b> Uptime tier availability percentages, ASHRAE temperature envelopes, and NFPA 2001 or 75 design values. The documents were not read, so the numbers would be remembered, not verified. Diesel fuel consumption has no default because it is vendor data. The availability helpers assume independent units, which overstates availability.</div>
-
-<h2>6. Where the toolkit stops, and what would close each gap</h2>
+<h2>5. What this terminal needs next, and what would close each gap</h2>
 
 <ul>
-<li><b>No dense-gas model.</b> Use Phast or RISKCURVES footprints through the <code>overrides</code> hook, and let the toolkit do the frequencies, individual risk, ALARP and mitigation bookkeeping.</li>
-<li><b>Paywalled standards.</b> Reading API 752/753, IEC 60079-10-1 or IEEE 1584 would let the building-damage curves and zone extents become real code instead of inputs.</li>
-<li><b>No Indian default criteria.</b> No single tolerable-risk criterion exists for India in the public documents read, so the study uses UK or Dutch presets or a custom one you supply.</li>
-<li><b>Software-class studies.</b> Load flow, harmonics, transient stability, pulsation and illumination are listed as not implemented rather than approximated.</li>
+<li><b>Replace the placeholders.</b> Pump and equipment frequencies from a source such as the OGP 434-1 data or the UK HSE FRED rows, local weather and wind data, and the actual population around the site.</li>
+<li><b>Add a dense-gas footprint.</b> Run the propane releases in a validated tool and feed the footprints through <code>overrides</code>.</li>
+<li><b>Choose the criteria deliberately.</b> This run used the UK R2P2 preset; no single Indian tolerable-risk criterion exists in the public documents the toolkit read, so an Indian site should supply a custom one.</li>
+<li><b>Do what the toolkit lists as not implemented.</b> Layout and separation distances, hazardous-area classification extents, and fire-water design to the governing standards remain manual work.</li>
+<li><b>Hold the workshop.</b> The HAZID and HAZOP registers are a starting point; the studies are a team exercise.</li>
 </ul>
 
-<p class="src">Sources: the toolkit and its documentation, <a href="https://github.com/herrrickshaw/process-safety-design-toolkit">github.com/herrrickshaw/process-safety-design-toolkit</a> (open pull requests 1 and 2 hold the risk-assessment, study and data-centre additions); outputs above were produced by running the commands on 5 November 2026 with illustrative inputs. The service map in <code>docs/IFLUIDS_SERVICES.md</code> follows the public service list of a Chennai consultancy, iFluids Engineering. Everything computed is screening arithmetic and modelled, not measured.</p>
+<p>The same flow applies to other oil and gas assets, a gas processing plant, a refinery unit or an offshore platform, with different modules in play (relief and flare systems, hydrocarbon fire, explosion). The terminal here is only the asset the toolkit ships a worked example for.</p>
+
+<p class="src">Sources: the toolkit and its documentation, <a href="https://github.com/herrrickshaw/process-safety-design-toolkit">github.com/herrrickshaw/process-safety-design-toolkit</a> (open pull requests 1 and 2 hold the risk-assessment and study tools used here). Every output above comes from running the commands on 5 November 2026 on the toolkit's hypothetical LPG terminal example, with illustrative inputs; results are screening arithmetic and modelled, not measured, and are not a safety case.</p>
 
 <!--
   4. Revision history. Newest first. One line per published revision; say what a
@@ -335,7 +334,8 @@ python3 -m process_safety qra run study.json --out qra_out/</pre>
 <div id="changelog" class="note">
 <b>Revision history.</b>
 <ul>
-<li><b>v1.0.0</b> &mdash; 5 November 2026 &mdash; first published.</li>
+<li><b>v1.1.0</b> &mdash; 5 November 2026 &mdash; re-scoped to an oil and gas asset: an LPG storage and loading terminal walked through the toolkit with real outputs, and the dense-gas limit made explicit. The data-centre section moved to the repository docs.</li>
+<li><b>v1.0.0</b> &mdash; 5 November 2026 &mdash; first published (general how-to).</li>
 </ul>
 </div>
 

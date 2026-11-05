@@ -1,16 +1,16 @@
 {
   "id": "1525407524246570067",
-  "title": "Screen a Process-Safety Question in Five Minutes, and Know Exactly Where the Screen Stops",
+  "title": "Screen an LPG Terminal Before the Workshop, and See the Dense-Gas Gap It Cannot Close",
   "url": "https://masaladeutsch.blogspot.com/2026/11/screen-process-safety-question-in-five.html",
   "slug": "screen-process-safety-question-in-five",
   "published": "2026-11-05T17:30:56.000+05:30",
-  "updated": "2026-11-05T17:31:20.367+05:30",
+  "updated": "2026-11-05T17:51:55.347+05:30",
   "labels": [
     "Open-Source Tools & How-To",
     "Refining & Petrochemicals"
   ],
-  "bytes": 26530,
-  "sha256": "f500436f1276b6a87fe1fd305c28335a85b162c9154c97abc9eec4a05ab6deaf",
+  "bytes": 28007,
+  "sha256": "cbb7efee550d0e3c3d7d36e4f878cf1496597ce4a341dd8a73c813a9077719d5",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -30,6 +30,19 @@
       "level": "initial",
       "reason": "first snapshot",
       "note": "publish: process-safety toolkit how-to"
+    },
+    {
+      "version": "1.1.0",
+      "date": "2026-11-05T17:52:33+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+43/-29 distinct numbers))",
+      "bytes": [
+        26530,
+        28007
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "tailor how-to to an LPG terminal (oil and gas asset)"
     }
   ]
 }
