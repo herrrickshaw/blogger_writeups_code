@@ -16902,3 +16902,17 @@ index: add toolkit complete guide
 **Changed**
 
 - `article-index-start-here` — 955,263 → 956,258 bytes (+995)
+
+## 2026-11-06T04:15:03+05:30 — 497 posts live
+
+**Added**
+
+- `oil-gas-projects-under-evaluation-and` **v1.0.0** — Oil & Gas Projects Under Evaluation and Design: A Segment-Wise Read of 2026 (Upstream to Petchem) (17,007 bytes)
+
+**Versions**
+
+- `how-to-use-process-safety-design` **1.0.0 → 2.0.0** (MAJOR) — figures changed (+13/-0 distinct numbers)
+
+**Changed**
+
+- `how-to-use-process-safety-design` — 41,072 → 45,503 bytes (+4,431)

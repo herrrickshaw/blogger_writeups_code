@@ -442,7 +442,54 @@ $ python3 -c &quot;from process_safety import hydraulics as h; a=h.wave_speed_m_
 
 <p>Read next in the repository: <code>docs/QRA.md</code> (the study file and models), <code>docs/STUDIES.md</code> (the seven JSON tools), <code>docs/ELECTRICAL_MECHANICAL.md</code> (what was read versus corroborated), <code>docs/DATACENTRE.md</code> (data-centre helpers) and <code>docs/IFLUIDS_SERVICES.md</code> (consultancy services mapped to modules).</p>
 
-<p class="src">Sources: the toolkit and its documentation, <a href="https://github.com/herrrickshaw/process-safety-design-toolkit">github.com/herrrickshaw/process-safety-design-toolkit</a> (open pull requests 1 and 2 hold the risk-study, study-tool and data-centre additions). Every output above comes from running the command on 5 November 2026 with illustrative inputs; results are screening arithmetic and modelled, not measured, and are not a safety case.</p>
+<h2>13. What is new in version 0.10</h2>
+
+<p>Version 0.10 is on <a href="https://github.com/herrrickshaw/process-safety-design-toolkit/pull/3">pull request 3</a>, stacked on the two earlier pull requests, and is not yet merged: install from that branch to try it. It adds input checks, a glossary, a restructured command line and an independent cross-check. The short video shows each of them running.</p>
+
+<div style="position:relative;padding-bottom:56.25%;height:0;margin:16px 0;max-width:100%"><iframe style="position:absolute;inset:0;width:100%;height:100%;border:0" src="https://www.youtube.com/embed/zj99fY40jnw" title="Process-Safety Design Toolkit v0.10 demo" allowfullscreen></iframe></div>
+
+<h3>Inputs are checked against ranges</h3>
+<p>Each numeric input has a <b>hard range</b> (physically impossible outside it: the run stops with exit code 2) and a <b>soft range</b> (atypical: a warning on the error stream, and the run continues). The soft ranges are engineering judgement, there to catch unit slips; they are not a standard&rsquo;s limits. <code>--no-range-check</code> skips both for a deliberate extreme case.</p>
+<pre><code>$ python3 -m process_safety relief-gas --W 5000 --T 300 --set-g 1000 --M 30 --k 2.5
+warning: --k=2.5 is outside the typical range (-inf, 1.67] for Cp/Cv (isentropic exponent) (1.67 is monatomic; most process gases are 1.1 to 1.4): check the value
+{ "required_area_mm2": 415.42616954563, "orifice": "H", ... }     (exit code 0)
+
+$ python3 -m process_safety relief-gas --W 5000 --T -5 --set-g 1000 --M 30 --k 1.3
+process_safety: error: --T=-5 K is outside the possible range (0, inf) for absolute temperature     (exit code 2, no result)
+
+$ python3 -m process_safety ranges heat_capacity_ratio
+{
+  &quot;name&quot;: &quot;heat_capacity_ratio&quot;,
+  &quot;unit&quot;: &quot;-&quot;,
+  &quot;description&quot;: &quot;Cp/Cv (isentropic exponent)&quot;,
+  &quot;hard_range&quot;: &quot;(1, inf)&quot;,
+  &quot;soft_range&quot;: &quot;(-inf, 1.67]&quot;,
+  &quot;note&quot;: &quot;1.67 is monatomic; most process gases are 1.1 to 1.4&quot;
+}</code></pre>
+
+<h3>A glossary in the command line</h3>
+<p><code>python3 -m process_safety glossary TERM</code> searches about 115 terms and abbreviations; the same table generates <code>docs/GLOSSARY.md</code>. These are working definitions for orientation: the standard named in each entry governs.</p>
+<pre><code>$ python3 -m process_safety glossary BLEVE
+BLEVE (Boiling-liquid expanding-vapour explosion)
+    Sudden rupture of a vessel holding liquid above its atmospheric boiling point, usually ending in a fireball.
+    [Fire, explosion and dispersion; fireball]
+Fireball
+    The rising ball of burning vapour after a BLEVE or a large flash release; harm is by thermal radiation.
+    [Fire, explosion and dispersion; fireball]</code></pre>
+
+<h3>Cleaner structure, same numbers</h3>
+<p>The command line is now a registry with one class per command instead of a 34-branch conditional. Forty outputs captured before the change are compared after it, within 1e-9, because the last digit of a float differs between platforms. Continuous integration runs on Python 3.10 to 3.13. The lint step found two real bugs, both fixed: an f-string that was a syntax error on Python 3.10 and 3.11, and a missing import in the PSM module.</p>
+
+<h3>124 cross-checks, and the differences that remain</h3>
+<pre><code>$ python3 -m unittest discover tests
+Ran 192 tests in 7.346s
+
+OK
+$ python3 tests/crosscheck/validate.py
+checks: 124  within tolerance: 124  outside: 0  not computed: 0</code></pre>
+<p>The references are the <code>fluids</code>, <code>thermo</code> and <code>CoolProp</code> libraries and closed-form formulas from the open literature. Agreement shows the toolkit matches other implementations; it does not show a result is right for your plant. Known differences: liquid relief area runs about 4.7% below <code>fluids</code> in both cases checked and the cause is not resolved, so confirm it against vendor sizing; steam area uses the older Napier constant; and the API 2000 fire heat input has a boundary at 0.07 barg. The full list is in <code>docs/VALIDATION.md</code>.</p>
+
+<p class="src">Sources: the toolkit and its documentation, <a href="https://github.com/herrrickshaw/process-safety-design-toolkit">github.com/herrrickshaw/process-safety-design-toolkit</a> (open pull requests 1 and 2 hold the risk-study, study-tool and data-centre additions; pull request 3 holds version 0.10). Every output above comes from running the command on 5 November 2026 with illustrative inputs; results are screening arithmetic and modelled, not measured, and are not a safety case.</p>
 
 <!--
   4. Revision history. Newest first. One line per published revision; say what a
@@ -452,6 +499,7 @@ $ python3 -c &quot;from process_safety import hydraulics as h; a=h.wave_speed_m_
 <div id="changelog" class="note">
 <b>Revision history.</b>
 <ul>
+<li><b>v1.1.0</b> &mdash; 5 November 2026 &mdash; added section 13: version 0.10 (input ranges, glossary, restructured command line, 124 cross-checks) with a demo video. The earlier sections describe version 0.9 and are unchanged.</li>
 <li><b>v1.0.0</b> &mdash; 5 November 2026 &mdash; first published (complete walkthrough).</li>
 </ul>
 </div>
