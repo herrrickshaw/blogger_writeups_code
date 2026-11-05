@@ -16880,3 +16880,12 @@ index: retitled toolkit how-to
 **Changed**
 
 - `article-index-start-here` — 954,610 → 955,263 bytes (+653)
+
+## 2026-11-05T18:12:50+05:30 — 496 posts live
+
+publish: process-safety toolkit complete guide
+
+
+**Added**
+
+- `how-to-use-process-safety-design` **v1.0.0** — How to Use the Process-Safety Design Toolkit: A Complete Walkthrough, Command by Command (41,072 bytes)
