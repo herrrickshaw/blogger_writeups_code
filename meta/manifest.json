@@ -1,6 +1,6 @@
 {
-  "snapshot": "2026-11-04T18:46:56+05:30",
-  "count": 494,
+  "snapshot": "2026-11-05T17:32:10+05:30",
+  "count": 495,
   "posts": {
     "1008146607143508554": {
       "id": "1008146607143508554",
@@ -3856,6 +3856,41 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Rule 8 retrofit: added What would fix this section"
+        }
+      ]
+    },
+    "1525407524246570067": {
+      "id": "1525407524246570067",
+      "title": "Screen a Process-Safety Question in Five Minutes, and Know Exactly Where the Screen Stops",
+      "url": "https://masaladeutsch.blogspot.com/2026/11/screen-process-safety-question-in-five.html",
+      "slug": "screen-process-safety-question-in-five",
+      "published": "2026-11-05T17:30:56.000+05:30",
+      "updated": "2026-11-05T17:31:20.367+05:30",
+      "labels": [
+        "Open-Source Tools & How-To",
+        "Refining & Petrochemicals"
+      ],
+      "bytes": 26530,
+      "sha256": "f500436f1276b6a87fe1fd305c28335a85b162c9154c97abc9eec4a05ab6deaf",
+      "markers": {
+        "light_lock": true,
+        "dark_panel_guard": false,
+        "typo_unify": true,
+        "translate_widget": true,
+        "index_link": true,
+        "ai_disclosure": true,
+        "revision_line": true,
+        "inverted_media_query": false,
+        "disclaimer_in_script": false
+      },
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-05T17:32:10+05:30",
+          "level": "initial",
+          "reason": "first snapshot",
+          "note": "publish: process-safety toolkit how-to"
         }
       ]
     },
