@@ -16828,3 +16828,16 @@ publish: process-safety toolkit how-to
 **Added**
 
 - `screen-process-safety-question-in-five` **v1.0.0** — Screen a Process-Safety Question in Five Minutes, and Know Exactly Where the Screen Stops (26,530 bytes)
+
+## 2026-11-05T17:33:29+05:30 — 495 posts live
+
+index: add process-safety toolkit how-to
+
+
+**Versions**
+
+- `article-index-start-here` **70.6.0 → 71.0.0** (MAJOR) — figures changed (+3/-2 distinct numbers)
+
+**Changed**
+
+- `article-index-start-here` — 945,635 → 954,610 bytes (+8,975)

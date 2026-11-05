@@ -4,10 +4,10 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html",
   "slug": "article-index-start-here",
   "published": "2026-08-02T10:43:26.000+05:30",
-  "updated": "2026-10-31T09:31:35.137+05:30",
+  "updated": "2026-11-05T17:32:50.718+05:30",
   "labels": [],
-  "bytes": 945635,
-  "sha256": "2bbff65ae4c3e5c7971b98a9a325bd4d1bb6bcefa0366d38172a9cff2a4b14dd",
+  "bytes": 954610,
+  "sha256": "ffdbc9f2f1c5aa92a1873c48b3470754488f34c033082706767b45e31336b554",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "70.6.0",
+  "version": "71.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -2444,6 +2444,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "youtube-demo-uploads 2026-10-31: index republished with 3 new how-to posts (489 listed)"
+    },
+    {
+      "version": "71.0.0",
+      "date": "2026-11-05T17:33:29+05:30",
+      "level": "major",
+      "reason": "figures changed (+3/-2 distinct numbers)",
+      "bytes": [
+        945635,
+        954610
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "index: add process-safety toolkit how-to"
     }
   ]
 }
