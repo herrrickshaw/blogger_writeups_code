@@ -1,8 +1,8 @@
 # Masala Deutsch — All Posts, Summarised
 
-*488 published posts, 83 topic labels. Each entry is the post's own published standfirst — not a re-summary.*
+*495 published posts, 83 topic labels. Each entry is the post's own published standfirst — not a re-summary.*
 
-*Generated 31 October 2026 — regenerated daily by tools/update_summary_cron.sh.*
+*Generated 6 November 2026 — regenerated daily by tools/update_summary_cron.sh.*
 
 
 ## Units & Figures Used in This Blog
@@ -219,8 +219,12 @@
 ## By Topic
 
 
-### Agriculture & Fertilisers (79)
+### Agriculture & Fertilisers (81)
 
+- **[The Chessboard and India's Granaries](https://masaladeutsch.blogspot.com/2026/11/the-chessboard-and-indias-granaries.html)** — 2026-11-04
+  Where a record harvest, 918 lakh tonnes of storage and the world's oldest compounding puzzle meet
+- **[India Doesn’t Need a Blockchain to Pay Its Farmers. It May Need One to Agree on Who Owns the Land](https://masaladeutsch.blogspot.com/2026/11/india-doesnt-need-blockchain-to-pay-its.html)** — 2026-11-03
+  A small open-source project models farmer payments on a ledger. Tested against where Indian payments actually fail (PM-KISAN’s beneficiary list, sugar mills’ arrears, thin mandi auctions), most problems arise before any money moves. The one multi-party record worth a blockchain is land, which Andhra Pradesh is now piloting.
 - **[India Has Funded 3 Lakh Machines to Stop Stubble Burning. About 4,500 of Them Collect Straw](https://masaladeutsch.blogspot.com/2026/10/india-has-funded-3-lakh-machines-to.html)** — 2026-10-28
   The 2023-24 crop residue guidelines added a 65:25:10 window to fund balers, rakes and loaders for straw aggregators tied to a buyer, but only in four northern states. Coal plants, pellet makers and biogas plants across India need far more straw than that chain can collect.
 - **[Rice and Maize Became Ethanol Commodities With a Price, a Buyer and a Warehouse. Straw Has Only the Buyer](https://masaladeutsch.blogspot.com/2026/10/rice-and-maize-became-ethanol.html)** — 2026-10-28
@@ -720,8 +724,10 @@
 - **[Interpreting the Gazette Notification](https://masaladeutsch.blogspot.com/2026/09/interpreting-gazette-notification.html)** — 2026-09-04
   Read any single Indian gazette notification on its own and you cannot tell whether it is the first version of a rule or the seventh, whether an earlier version was quietly withdrawn as a mistake, or whether the deadline it extends has already been extended thirty-five times before. A small independent research project set out to build a citation index for these notifications — what amends what, ministry by ministry — and in doing so surfaced a tribunal whose report deadline has been pushed back 36 times since 1986, still unresolved 40 years later, tracked nowhere as a single chain until now.
 
-### Education (1)
+### Education (2)
 
+- **[A Free Cell Game Fits India’s New Class 9 Book. The Evolution Game With 1 Crore Downloads Fits Almost Nothing Before Class 12](https://masaladeutsch.blogspot.com/2026/11/a-free-cell-game-fits-indias-new-class.html)** — 2026-11-04
+  BioMan Biology’s browser games line up with NCERT’s cell chapters in Classes 9 and 11. Cell to Singularity is a vivid timeline of life that teaches evolution as a ladder with a goal, and since evolution left the Class 10 book, it has little to attach to until Class 12.
 - **[Do CBSE Past Papers Actually Help? Depends Which of the 11 Subjects You Ask.](https://masaladeutsch.blogspot.com/2026/09/do-cbse-past-papers-actually-help.html)** — 2026-09-17
   Parsing 30,734 questions from five years of CBSE Class-XII papers shows that "practise past papers" is good advice for Accountancy and Physics and close to useless for English Core and Biology — the coaching-industry folklore treats one subject's pattern as if it applied to all eleven.
 
@@ -734,8 +740,12 @@
 - **[India's Mobile-Phone PLI Beat Every Target. Its Chip-Fab Scheme Has 5 of 12 Plants Actually Producing.](https://masaladeutsch.blogspot.com/2026/08/indias-mobile-phone-pli-beat-every.html)** — 2026-08-30
   India's mobile-phone PLI scheme beat its own five-year investment target by 294% and its production target by 142% — a genuine, government-reported overperformance. Its chip-fabrication cousin, the Semicon India Programme, has 12 approved plants and, as of SEMICON India 2026 in September, 5 producing anything (up from 3 when this piece was first published). The gap between the two tells you which parts of India's electronics-manufacturing push are working and which are still mostly paper.
 
-### Energy & Fuels (147)
+### Energy & Fuels (149)
 
+- **[Oil & Gas Projects Under Evaluation and Design: A Segment-Wise Read of 2026 (Upstream to Petchem)](https://masaladeutsch.blogspot.com/2026/11/oil-gas-projects-under-evaluation-and.html)** — 2026-11-06
+  Sources: Global Energy Monitor (GEM), Wood Mackenzie, GlobalData, IEA, ADI Analytics, S&P Global, IGU. Written 6 Nov 2026.
+- **[E20 and the Spark Plug: What Ethanol Does to the Cheapest Part in India’s 20 Crore Two-Wheelers](https://masaladeutsch.blogspot.com/2026/11/e20-and-spark-plug-what-ethanol-does-to.html)** — 2026-11-02
+  Fuel-injected engines barely notice. Carburetted bikes run about 4% leaner on E20 and hotter at the plug tip, yet no Indian test of plug wear has been published. Even if plugs wore a quarter faster, the extra cost is about ₹60 a year, a tenth to an eighth of the mileage loss.
 - **[How to use saf-monitoring-system: track SAF batches against blending and carbon-credit rules](https://masaladeutsch.blogspot.com/2026/10/how-to-use-saf-monitoring-system-track.html)** — 2026-10-30
   A FastAPI and React app that ties sustainable aviation fuel feedstock, production batches, GHG intensity, ASTM pathway checks, ReFuelEU blending shares and CORSIA credit entries together. This post runs its tests and API on the repository's own seeded mock data. Not legal advice; every regulatory figure shown comes from the repository's data files, not from me. The repository is archived (read-only).
 - **[How to use refinery-design-opensource: test what a crude does to a refinery](https://masaladeutsch.blogspot.com/2026/10/how-to-use-refinery-design-opensource.html)** — 2026-10-30
@@ -1103,8 +1113,10 @@
 - **[US Stock Picks — Multi-Screen Quant Shortlist (24 Jul 2026)](https://masaladeutsch.blogspot.com/2026/07/us-stock-picks-multi-screen-quant.html)** — 2026-07-24
   Follow-up: see how the model portfolios built from these screens actually performed, cross-checked against public index benchmarks.
 
-### Ethanol & Biofuels (36)
+### Ethanol & Biofuels (37)
 
+- **[E20 and the Spark Plug: What Ethanol Does to the Cheapest Part in India’s 20 Crore Two-Wheelers](https://masaladeutsch.blogspot.com/2026/11/e20-and-spark-plug-what-ethanol-does-to.html)** — 2026-11-02
+  Fuel-injected engines barely notice. Carburetted bikes run about 4% leaner on E20 and hotter at the plug tip, yet no Indian test of plug wear has been published. Even if plugs wore a quarter faster, the extra cost is about ₹60 a year, a tenth to an eighth of the mileage loss.
 - **[How to use lignocellulosic-ethanol-opensource: size a 2G ethanol plant](https://masaladeutsch.blogspot.com/2026/10/how-to-use-lignocellulosic-ethanol.html)** — 2026-10-29
   Size a second-generation cellulosic ethanol plant that turns rice straw into fuel ethanol, and compare the result with real plants.
 - **[How to use uco-ulo-tracking: chain-of-custody, integrity flags and EPR checks for used cooking and lubricating oil](https://masaladeutsch.blogspot.com/2026/10/how-to-use-uco-ulo-tracking-chain-of.html)** — 2026-10-29
@@ -1238,8 +1250,10 @@
 - **[India Fuel Retail Outlets — 82k Geocoded Map (Part 2 of 3)](https://masaladeutsch.blogspot.com/2026/07/india-fuel-retail-outlets-82k-geocoded.html)** — 2026-07-22
   Part 2 of 3 in the CNG/CGD retail-mapping series. Companion posts: the CGD GA district map (Part 1) and the cold-chain × outlet integrated map (Part 3). Served live from GitHub Pages.
 
-### Gas & LNG (33)
+### Gas & LNG (34)
 
+- **[Oil & Gas Projects Under Evaluation and Design: A Segment-Wise Read of 2026 (Upstream to Petchem)](https://masaladeutsch.blogspot.com/2026/11/oil-gas-projects-under-evaluation-and.html)** — 2026-11-06
+  Sources: Global Energy Monitor (GEM), Wood Mackenzie, GlobalData, IEA, ADI Analytics, S&P Global, IGU. Written 6 Nov 2026.
 - **[India Wants 15% of Its Energy From Gas by 2030. The Official Energy Balance Shows Gas's Share Falling](https://masaladeutsch.blogspot.com/2026/10/india-wants-15-of-its-energy-from-gas.html)** — 2026-10-28
   A parliamentary committee has restated the 15% target. Gas’s share of primary energy slipped from 7.5% to 7.0% over the decade to 2023-24, and reaching 15% would take almost three times today’s gas, nearly all of it imported LNG.
 - **[GOBARdhan Aims for 12 Times Today's Biogas Output. The Mandate Meant to Buy It Covers Less Than Half](https://masaladeutsch.blogspot.com/2026/10/gobardhan-aims-for-12-times-todays.html)** — 2026-10-27
@@ -1331,8 +1345,10 @@
 - **[Europe Bought a Record Amount of LNG and Made Itself Dependent on One Supplier](https://masaladeutsch.blogspot.com/2026/08/europe-bought-record-amount-of-lng-and.html)** — 2026-08-08
   The EU imported 146 bcm of LNG in 2025, overtaking China and Japan to become the world’s largest buyer. Nearly three-fifths of it came from the United States. That is not diversification — it is one dependency exchanged for another, on a market where Europe now buys a third of its volume at spot and a chokepoint 6,000 km away can move the price.
 
-### Governance & Institutions (7)
+### Governance & Institutions (8)
 
+- **[India Doesn’t Need a Blockchain to Pay Its Farmers. It May Need One to Agree on Who Owns the Land](https://masaladeutsch.blogspot.com/2026/11/india-doesnt-need-blockchain-to-pay-its.html)** — 2026-11-03
+  A small open-source project models farmer payments on a ledger. Tested against where Indian payments actually fail (PM-KISAN’s beneficiary list, sugar mills’ arrears, thin mandi auctions), most problems arise before any money moves. The one multi-party record worth a blockchain is land, which Andhra Pradesh is now piloting.
 - **[India’s New Securities Code Gives SEBI 180 Days to Finish a Probe. Most Take a Year or More](https://masaladeutsch.blogspot.com/2026/10/indias-new-securities-code-gives-sebi.html)** — 2026-10-31
   A parliamentary committee wants the deadline doubled, every SEBI order open to appeal and limits on SEBI’s power to define offences. SEBI’s own numbers show open investigations rising again and under 2% of recovery notices collected.
 - **[States Can Draw Rs 61,008 Crore of Short-Term Credit From the RBI. A Few Live on It, While the Rest Park Up to Three Times That in Treasury Bills](https://masaladeutsch.blogspot.com/2026/10/states-can-draw-rs-61008-crore-of-short.html)** — 2026-10-31
@@ -1348,8 +1364,10 @@
 - **[The Two Biggest Parties in Parliament Ask About Everything. Everyone Else Doesn't.](https://masaladeutsch.blogspot.com/2026/09/the-two-biggest-parties-in-parliament.html)** — 2026-09-18
   Rank India's 51 parliamentary parties by how many questions their MPs asked in the 18th Lok Sabha and current Rajya Sabha sessions, and BJP wins, then INC — by margins that just track how many MPs each party has. That ranking answers a boring question. A different cut of the same 59,381 questions — each party's focus on a specific ministry, divided by what its overall size would predict — answers a more interesting one: which parties are actually specialists. The two biggest are not. Nearly everyone smaller is, sharply, on one or two ministries tied to exactly what you'd guess from their base.
 
-### Grain Procurement & Storage (13)
+### Grain Procurement & Storage (14)
 
+- **[The Chessboard and India's Granaries](https://masaladeutsch.blogspot.com/2026/11/the-chessboard-and-indias-granaries.html)** — 2026-11-04
+  Where a record harvest, 918 lakh tonnes of storage and the world's oldest compounding puzzle meet
 - **[India’s Winter Harvest Now Outgrows Its Monsoon One. Kharif, Rabi and Zaid, Crop by Crop: Area, Yield and When It Reaches the Mandi](https://masaladeutsch.blogspot.com/2026/10/indias-winter-harvest-now-outgrows-its.html)** — 2026-10-25
   Rabi and summer crops now give India 53% of its foodgrains, up from 36% in 1966-67, on land that grew by a third while kharif area stood still. Maize, rice and moong are moving into the winter and summer seasons, and each season’s harvest reaches the mandi in a narrow window, wheat mostly in a single month.
 - **[Maize Is Cheapest in a Different State Every Few Months. Rice Barely Moves.](https://masaladeutsch.blogspot.com/2026/10/maize-is-cheapest-in-different-state.html)** — 2026-10-24
@@ -1658,8 +1676,10 @@
 - **[India Grows the Soybean, Exports the Meal, Leads in Lecithin — and Barely Makes Tofu Yet](https://masaladeutsch.blogspot.com/2026/08/india-grows-soybean-exports-meal-leads.html)** — 2026-08-15
   Madhya Pradesh and Maharashtra between them sow roughly 93 lakh hectares of soybean a year — a scale that ought to make India a soy-food powerhouse. Almost none of that crop becomes tofu, soy milk or protein isolate on an Indian plate. Trace the harvested bean through a crusher and it splits into meal, most of which used to be exported, and oil, which still leaves India roughly two-thirds reliant on imports to meet its own edible-oil demand. The one soy-derived product where India genuinely leads the world — lecithin — is a byproduct of that same oil-crushing step, not a separate industry. This piece follows the bean from MP and Maharashtra's fields through crushing, lecithin, and the still-small frontier of tofu, soy protein and edamame.
 
-### Industrial Policy (125)
+### Industrial Policy (126)
 
+- **[The Chessboard and India's Granaries](https://masaladeutsch.blogspot.com/2026/11/the-chessboard-and-indias-granaries.html)** — 2026-11-04
+  Where a record harvest, 918 lakh tonnes of storage and the world's oldest compounding puzzle meet
 - **[Defence Exports Rose 63% to Rs 38,424 Crore. State Firms Supplied 86% of the Rise, and the 2029 Export Target Is Already Within Reach](https://masaladeutsch.blogspot.com/2026/10/defence-exports-rose-63-to-rs-38424.html)** — 2026-10-31
   India sold a record Rs 38,424 crore of defence goods in 2025-26, 25 times the 2016-17 level. Public-sector exports grew 151% in a year while private exports grew 14%. Exports now need only 9% a year to hit Rs 50,000 crore; production needs 19% to hit Rs 3 lakh crore. India remains the world’s second-largest arms importer.
 - **[States Won the Right to Tax Mines in 2024. A 45-Minute Law Took It Back, Along With Up to Rs 2 Lakh Crore of Dues](https://masaladeutsch.blogspot.com/2026/10/states-won-right-to-tax-mines-in-2024.html)** — 2026-10-28
@@ -2059,8 +2079,10 @@
 - **[How India's Automotive Clusters Rewired Themselves Around Just-in-Time Delivery](https://masaladeutsch.blogspot.com/2026/08/how-indias-automotive-clusters-rewired.html)** — 2026-08-15
   Maruti Suzuki gets over 76% of its 246 suppliers within 100km of its assembly lines, and its "e-Nagare" system cut the order-to-shopfloor cycle from 30 hours to 2. That single number is the clearest evidence of how India's automotive clusters actually work today — not as five separate manufacturing hubs, but as increasingly tight, just-in-time-organised ecosystems where component suppliers sit inside the same radius as the OEM. This piece maps the clusters, the mechanics of the JIT shift, and the one real crisis — the 2021 semiconductor shortage — that showed exactly where that model breaks.
 
-### Markets & Finance (76)
+### Markets & Finance (77)
 
+- **[India Doesn’t Need a Blockchain to Pay Its Farmers. It May Need One to Agree on Who Owns the Land](https://masaladeutsch.blogspot.com/2026/11/india-doesnt-need-blockchain-to-pay-its.html)** — 2026-11-03
+  A small open-source project models farmer payments on a ledger. Tested against where Indian payments actually fail (PM-KISAN’s beneficiary list, sugar mills’ arrears, thin mandi auctions), most problems arise before any money moves. The one multi-party record worth a blockchain is land, which Andhra Pradesh is now piloting.
 - **[India’s New Securities Code Gives SEBI 180 Days to Finish a Probe. Most Take a Year or More](https://masaladeutsch.blogspot.com/2026/10/indias-new-securities-code-gives-sebi.html)** — 2026-10-31
   A parliamentary committee wants the deadline doubled, every SEBI order open to appeal and limits on SEBI’s power to define offences. SEBI’s own numbers show open investigations rising again and under 2% of recovery notices collected.
 - **[How to use stock-portfolio-evaluator: a rule-of-thumb Newsvendor score for a stock portfolio](https://masaladeutsch.blogspot.com/2026/10/how-to-use-stock-portfolio-evaluator.html)** — 2026-10-30
@@ -2284,8 +2306,12 @@
 - **[India's Oil Fields Are Running Down: 36.96 to 28.70 MMT in a Decade, and the Targets Have Stopped Meaning Anything](https://masaladeutsch.blogspot.com/2026/08/indias-oil-fields-are-running-down-3696.html)** — 2026-08-06
   DGH's own ten-year table shows crude output falling every year but one since 2014-15. Gas has held up — but only because private deepwater replaced the state fields that were shrinking underneath it.
 
-### Open-Source Tools & How-To (68)
+### Open-Source Tools & How-To (70)
 
+- **[How to Use the Process-Safety Design Toolkit: A Complete Walkthrough, Command by Command](https://masaladeutsch.blogspot.com/2026/11/how-to-use-process-safety-design.html)** — 2026-11-05
+  FIRST in source (so the snippet reads real opening prose) while `order` restores the normal reading layout — backlink, eyebrow, title, standfirst — on screen. Do not reorder these elements back to document order; that reintroduces the bug. The site's JSON-LD script (theme.xml) already relies on `.standfirst` the same way for meta description, so this class must stay. --> Install it, learn the habits that keep a screening result honest, then work through every command with a real output and what to do with it, from a relief valve to a full quantitative risk study.
+- **[Screen an LPG Terminal Before the Workshop, and See the Dense-Gas Gap It Cannot Close](https://masaladeutsch.blogspot.com/2026/11/screen-process-safety-question-in-five.html)** — 2026-11-05
+  FIRST in source (so the snippet reads real opening prose) while `order` restores the normal reading layout — backlink, eyebrow, title, standfirst — on screen. Do not reorder these elements back to document order; that reintroduces the bug. The site's JSON-LD script (theme.xml) already relies on `.standfirst` the same way for meta description, so this class must stay. --> A free, dependency-free Python toolkit can screen an LPG storage and loading terminal in minutes: relief load, the safety function that stops an overfill, where the risk comes from and which fix pays. Here are the real outputs, the one limit that matters most for propane, and how the same questions appear in other oil and gas projects.
 - **[How to use saf-monitoring-system: track SAF batches against blending and carbon-credit rules](https://masaladeutsch.blogspot.com/2026/10/how-to-use-saf-monitoring-system-track.html)** — 2026-10-30
   A FastAPI and React app that ties sustainable aviation fuel feedstock, production batches, GHG intensity, ASTM pathway checks, ReFuelEU blending shares and CORSIA credit entries together. This post runs its tests and API on the repository's own seeded mock data. Not legal advice; every regulatory figure shown comes from the repository's data files, not from me. The repository is archived (read-only).
 - **[How to use refinery-design-opensource: test what a crude does to a refinery](https://masaladeutsch.blogspot.com/2026/10/how-to-use-refinery-design-opensource.html)** — 2026-10-30
@@ -2535,8 +2561,14 @@
 - **[India's Textile Import-Export Strategy: From Dependency to Self-Sufficiency](https://masaladeutsch.blogspot.com/2026/07/indias-textile-import-export-strategy.html)** — 2026-07-27
   HSN Breakdown Needed: Polypropylene, HDPE, LDPE, PET films by destination segment
 
-### Refining & Petrochemicals (12)
+### Refining & Petrochemicals (15)
 
+- **[Oil & Gas Projects Under Evaluation and Design: A Segment-Wise Read of 2026 (Upstream to Petchem)](https://masaladeutsch.blogspot.com/2026/11/oil-gas-projects-under-evaluation-and.html)** — 2026-11-06
+  Sources: Global Energy Monitor (GEM), Wood Mackenzie, GlobalData, IEA, ADI Analytics, S&P Global, IGU. Written 6 Nov 2026.
+- **[How to Use the Process-Safety Design Toolkit: A Complete Walkthrough, Command by Command](https://masaladeutsch.blogspot.com/2026/11/how-to-use-process-safety-design.html)** — 2026-11-05
+  FIRST in source (so the snippet reads real opening prose) while `order` restores the normal reading layout — backlink, eyebrow, title, standfirst — on screen. Do not reorder these elements back to document order; that reintroduces the bug. The site's JSON-LD script (theme.xml) already relies on `.standfirst` the same way for meta description, so this class must stay. --> Install it, learn the habits that keep a screening result honest, then work through every command with a real output and what to do with it, from a relief valve to a full quantitative risk study.
+- **[Screen an LPG Terminal Before the Workshop, and See the Dense-Gas Gap It Cannot Close](https://masaladeutsch.blogspot.com/2026/11/screen-process-safety-question-in-five.html)** — 2026-11-05
+  FIRST in source (so the snippet reads real opening prose) while `order` restores the normal reading layout — backlink, eyebrow, title, standfirst — on screen. Do not reorder these elements back to document order; that reintroduces the bug. The site's JSON-LD script (theme.xml) already relies on `.standfirst` the same way for meta description, so this class must stay. --> A free, dependency-free Python toolkit can screen an LPG storage and loading terminal in minutes: relief load, the safety function that stops an overfill, where the risk comes from and which fix pays. Here are the real outputs, the one limit that matters most for propane, and how the same questions appear in other oil and gas projects.
 - **[How to use refinery-design-opensource: test what a crude does to a refinery](https://masaladeutsch.blogspot.com/2026/10/how-to-use-refinery-design-opensource.html)** — 2026-10-30
   An open Python toolkit for conceptual refinery sizing that shows how different crudes change yields, sulfur and catalytic cracker temperature, and flags crudes that push the plant past its limits.
 - **[How to use coal-to-urea-design-opensource: size a coal-to-urea complex](https://masaladeutsch.blogspot.com/2026/10/how-to-use-coal-to-urea-design.html)** — 2026-10-23
@@ -2668,8 +2700,10 @@
 - **[India's Textile Import-Export Strategy: From Dependency to Self-Sufficiency](https://masaladeutsch.blogspot.com/2026/07/indias-textile-import-export-strategy.html)** — 2026-07-27
   HSN Breakdown Needed: Polypropylene, HDPE, LDPE, PET films by destination segment
 
-### Trade & Tariffs (90)
+### Trade & Tariffs (91)
 
+- **[E20 and the Spark Plug: What Ethanol Does to the Cheapest Part in India’s 20 Crore Two-Wheelers](https://masaladeutsch.blogspot.com/2026/11/e20-and-spark-plug-what-ethanol-does-to.html)** — 2026-11-02
+  Fuel-injected engines barely notice. Carburetted bikes run about 4% leaner on E20 and hotter at the plug tip, yet no Indian test of plug wear has been published. Even if plugs wore a quarter faster, the extra cost is about ₹60 a year, a tenth to an eighth of the mileage loss.
 - **[Defence Exports Rose 63% to Rs 38,424 Crore. State Firms Supplied 86% of the Rise, and the 2029 Export Target Is Already Within Reach](https://masaladeutsch.blogspot.com/2026/10/defence-exports-rose-63-to-rs-38424.html)** — 2026-10-31
   India sold a record Rs 38,424 crore of defence goods in 2025-26, 25 times the 2016-17 level. Public-sector exports grew 151% in a year while private exports grew 14%. Exports now need only 9% a year to hit Rs 50,000 crore; production needs 19% to hit Rs 3 lakh crore. India remains the world’s second-largest arms importer.
 - **[The Supercycle Is in Metals; the 2026 Oil Spike Is a Shock](https://masaladeutsch.blogspot.com/2026/10/the-supercycle-is-in-metals-2026-oil.html)** — 2026-10-28
@@ -5339,3 +5373,38 @@ A parliamentary committee wants the deadline doubled, every SEBI order open to a
 *2026-10-31 · Governance & Institutions, Macroeconomics & Monetary Policy*
 
 An RBI committee wants the ways-and-means limit raised 11% to Rs 67,839 crore and overdrafts cut short. The bigger problem is distribution: Punjab and Himachal were on RBI credit for two-thirds of 2025-26, while states together held Rs 1.6–2 lakh crore of idle cash.
+
+### [E20 and the Spark Plug: What Ethanol Does to the Cheapest Part in India’s 20 Crore Two-Wheelers](https://masaladeutsch.blogspot.com/2026/11/e20-and-spark-plug-what-ethanol-does-to.html)
+*2026-11-02 · Energy & Fuels, Ethanol & Biofuels, Trade & Tariffs*
+
+Fuel-injected engines barely notice. Carburetted bikes run about 4% leaner on E20 and hotter at the plug tip, yet no Indian test of plug wear has been published. Even if plugs wore a quarter faster, the extra cost is about ₹60 a year, a tenth to an eighth of the mileage loss.
+
+### [India Doesn’t Need a Blockchain to Pay Its Farmers. It May Need One to Agree on Who Owns the Land](https://masaladeutsch.blogspot.com/2026/11/india-doesnt-need-blockchain-to-pay-its.html)
+*2026-11-03 · Agriculture & Fertilisers, Governance & Institutions, Markets & Finance*
+
+A small open-source project models farmer payments on a ledger. Tested against where Indian payments actually fail (PM-KISAN’s beneficiary list, sugar mills’ arrears, thin mandi auctions), most problems arise before any money moves. The one multi-party record worth a blockchain is land, which Andhra Pradesh is now piloting.
+
+### [A Free Cell Game Fits India’s New Class 9 Book. The Evolution Game With 1 Crore Downloads Fits Almost Nothing Before Class 12](https://masaladeutsch.blogspot.com/2026/11/a-free-cell-game-fits-indias-new-class.html)
+*2026-11-04 · Education*
+
+BioMan Biology’s browser games line up with NCERT’s cell chapters in Classes 9 and 11. Cell to Singularity is a vivid timeline of life that teaches evolution as a ladder with a goal, and since evolution left the Class 10 book, it has little to attach to until Class 12.
+
+### [The Chessboard and India's Granaries](https://masaladeutsch.blogspot.com/2026/11/the-chessboard-and-indias-granaries.html)
+*2026-11-04 · Agriculture & Fertilisers, Grain Procurement & Storage, Industrial Policy*
+
+Where a record harvest, 918 lakh tonnes of storage and the world's oldest compounding puzzle meet
+
+### [How to Use the Process-Safety Design Toolkit: A Complete Walkthrough, Command by Command](https://masaladeutsch.blogspot.com/2026/11/how-to-use-process-safety-design.html)
+*2026-11-05 · Open-Source Tools & How-To, Refining & Petrochemicals*
+
+FIRST in source (so the snippet reads real opening prose) while `order` restores the normal reading layout — backlink, eyebrow, title, standfirst — on screen. Do not reorder these elements back to document order; that reintroduces the bug. The site's JSON-LD script (theme.xml) already relies on `.standfirst` the same way for meta description, so this class must stay. --> Install it, learn the habits that keep a screening result honest, then work through every command with a real output and what to do with it, from a relief valve to a full quantitative risk study.
+
+### [Screen an LPG Terminal Before the Workshop, and See the Dense-Gas Gap It Cannot Close](https://masaladeutsch.blogspot.com/2026/11/screen-process-safety-question-in-five.html)
+*2026-11-05 · Open-Source Tools & How-To, Refining & Petrochemicals*
+
+FIRST in source (so the snippet reads real opening prose) while `order` restores the normal reading layout — backlink, eyebrow, title, standfirst — on screen. Do not reorder these elements back to document order; that reintroduces the bug. The site's JSON-LD script (theme.xml) already relies on `.standfirst` the same way for meta description, so this class must stay. --> A free, dependency-free Python toolkit can screen an LPG storage and loading terminal in minutes: relief load, the safety function that stops an overfill, where the risk comes from and which fix pays. Here are the real outputs, the one limit that matters most for propane, and how the same questions appear in other oil and gas projects.
+
+### [Oil & Gas Projects Under Evaluation and Design: A Segment-Wise Read of 2026 (Upstream to Petchem)](https://masaladeutsch.blogspot.com/2026/11/oil-gas-projects-under-evaluation-and.html)
+*2026-11-06 · Energy & Fuels, Gas & LNG, Refining & Petrochemicals*
+
+Sources: Global Energy Monitor (GEM), Wood Mackenzie, GlobalData, IEA, ADI Analytics, S&P Global, IGU. Written 6 Nov 2026.
