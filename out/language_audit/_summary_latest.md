@@ -1,6 +1,6 @@
-# Language audit summary — 2026-10-31
+# Language audit summary — 2026-11-06
 
-*276 of 494 posts flagged. Report-only — nothing was published. Per-post detail in out/language_audit/<slug>.md.*
+*280 of 501 posts flagged. Report-only — nothing was published. Per-post detail in out/language_audit/<slug>.md.*
 
 - [Half-Empty Terminals, Costlier Pipes: Winter Comes for Europe's Landlocked Five](https://masaladeutsch.blogspot.com/2026/08/winter-is-coming-for-europes-landlocked.html) — 74 matches — see `winter-is-coming-for-europes-landlocked.md`
 - [A 17% Rural Pay Rise That Nobody Received](https://masaladeutsch.blogspot.com/2026/08/a-17-rural-pay-rise-that-nobody-received.html) — 54 matches — see `a-17-rural-pay-rise-that-nobody-received.md`
@@ -19,6 +19,7 @@
 - [India Leads the World in Jute and Ranks Second in Silk. Neither Fact Means What It Sounds Like.](https://masaladeutsch.blogspot.com/2026/09/india-leads-world-in-jute-and-ranks.html) — 14 matches — see `india-leads-world-in-jute-and-ranks.md`
 - [Thirty-One Years of Asking Parliament the Same Question About Fertiliser](https://masaladeutsch.blogspot.com/2026/08/thirty-one-years-of-asking-parliament.html) — 14 matches — see `thirty-one-years-of-asking-parliament.md`
 - [India's Display Fab Scheme Got Two Billion-Dollar Bids and Approved Neither. Then It Redefined "Display Fab" Small Enough to Claim One Anyway.](https://masaladeutsch.blogspot.com/2026/09/indias-display-fab-scheme-got-two.html) — 11 matches — see `indias-display-fab-scheme-got-two.md`
+- [CGD Geographical Areas — District Allotment Map (Part 1 of 3)](https://masaladeutsch.blogspot.com/2026/07/cgd-geographical-areas-district.html) — 10 matches — see `cgd-geographical-areas-district.md`
 - [India's 8-Digit Trade Book, Searchable](https://masaladeutsch.blogspot.com/2026/08/indias-8-digit-trade-book-searchable.html) — 10 matches — see `indias-8-digit-trade-book-searchable.md`
 - [The Balkan Relish India Already Has the Ingredients For: Making the Case for Ajvar](https://masaladeutsch.blogspot.com/2026/08/the-balkan-relish-india-already-has.html) — 10 matches — see `the-balkan-relish-india-already-has.md`
 - [How to use ev-battery-management-sim: simulate EV battery packs and test the model on battery datasets](https://masaladeutsch.blogspot.com/2026/10/how-to-use-ev-battery-management-sim.html) — 9 matches — see `how-to-use-ev-battery-management-sim.md`
@@ -45,6 +46,7 @@
 - [Not a Drop Out: Ethanol's Zero-Liquid-Discharge Rule, and the Treatment-Capacity Gap Behind It](https://masaladeutsch.blogspot.com/2026/08/not-drop-out-ethanols-zero-liquid.html) — 5 matches — see `not-drop-out-ethanols-zero-liquid.md`
 - [UPI Mimicking the Plastic Card: Will MDR Be Like Visa Fees?](https://masaladeutsch.blogspot.com/2026/08/beyond-pump-what-upi-fee-would-cost.html) — 4 matches — see `beyond-pump-what-upi-fee-would-cost.md`
 - [Do CBSE Past Papers Actually Help? Depends Which of the 11 Subjects You Ask.](https://masaladeutsch.blogspot.com/2026/09/do-cbse-past-papers-actually-help.html) — 4 matches — see `do-cbse-past-papers-actually-help.md`
+- [GAIL and Sumitomo Both Turned Their TruAlt MOUs Into Binding CBG Deals Within a Year. BPCL's Has Gone Quiet.](https://masaladeutsch.blogspot.com/2026/09/gail-and-sumitomo-both-turned-their.html) — 4 matches — see `gail-and-sumitomo-both-turned-their.md`
 - [How India Actually Plans to Hit Net Zero: Eleven Scenarios, a Rising Coal Curve, and a ₹20,000 Crore Bet on Carbon Capture](https://masaladeutsch.blogspot.com/2026/08/how-india-actually-plans-to-hit-net.html) — 4 matches — see `how-india-actually-plans-to-hit-net.md`
 - [How to use global-stock-screener: rule-based stock screens, offline](https://masaladeutsch.blogspot.com/2026/10/how-to-use-global-stock-screener-rule.html) — 4 matches — see `how-to-use-global-stock-screener-rule.md`
 - [How to use market_screener_rag: backtested stock strategies by country](https://masaladeutsch.blogspot.com/2026/10/how-to-use-marketscreenerrag-backtested.html) — 4 matches — see `how-to-use-marketscreenerrag-backtested.md`
@@ -108,7 +110,9 @@
 - [How to use gazette-translated-indexed: a citation index of Indian gazette notifications](https://masaladeutsch.blogspot.com/2026/10/how-to-use-gazette-translated-indexed.html) — 2 matches — see `how-to-use-gazette-translated-indexed.md`
 - [How to use india-forex-analysis: read, check and stress-test a 2020-2027 view of India's external account](https://masaladeutsch.blogspot.com/2026/10/how-to-use-india-forex-analysis-read.html) — 2 matches — see `how-to-use-india-forex-analysis-read.md`
 - [How to use india-omc-fuel-fleet-model: ethanol blend scenarios and OMC pump income in pure Python](https://masaladeutsch.blogspot.com/2026/10/how-to-use-india-omc-fuel-fleet-model.html) — 2 matches — see `how-to-use-india-omc-fuel-fleet-model.md`
+- [How to Use the Process-Safety Design Toolkit: A Complete Walkthrough, Command by Command](https://masaladeutsch.blogspot.com/2026/11/how-to-use-process-safety-design.html) — 2 matches — see `how-to-use-process-safety-design.md`
 - [If India Paid BRICS in Rupees: A Scenario Model of De-Dollarising 41% of the Import Bill](https://masaladeutsch.blogspot.com/2026/08/if-india-paid-brics-in-rupees-scenario.html) — 2 matches — see `if-india-paid-brics-in-rupees-scenario.md`
+- [India Doesn’t Need a Blockchain to Pay Its Farmers. It May Need One to Agree on Who Owns the Land](https://masaladeutsch.blogspot.com/2026/11/india-doesnt-need-blockchain-to-pay-its.html) — 2 matches — see `india-doesnt-need-blockchain-to-pay-its.md`
 - [India Forest, Wildlife & CRZ Clearances — PARIVESH](https://masaladeutsch.blogspot.com/2026/07/india-forest-wildlife-crz-clearances.html) — 2 matches — see `india-forest-wildlife-crz-clearances.md`
 - [India Fuel Retail Outlets — 82k Geocoded Map (Part 2 of 3)](https://masaladeutsch.blogspot.com/2026/07/india-fuel-retail-outlets-82k-geocoded.html) — 2 matches — see `india-fuel-retail-outlets-82k-geocoded.md`
 - [India Imports the Whey Protein Its Cheese Makers Pour Away. The Fix Is Shared Whey Hubs, Not a Dryer in Every Dairy](https://masaladeutsch.blogspot.com/2026/10/india-imports-whey-protein-its-cheese.html) — 2 matches — see `india-imports-whey-protein-its-cheese.md`
@@ -134,7 +138,6 @@
 - [Push the Ethanol SGST Rate From 2.5% to 5% and Beyond: What Each State Would Actually Earn](https://masaladeutsch.blogspot.com/2026/08/push-ethanol-sgst-rate-from-25-to-5-and.html) — 2 matches — see `push-ethanol-sgst-rate-from-25-to-5-and.md`
 - [Raising Green Debt Globally: The REC EuroYen Playbook, the CBI Stamp, and Every Avenue an Indian Issuer Actually Has](https://masaladeutsch.blogspot.com/2026/08/raising-green-debt-globally-rec-euroyen.html) — 2 matches — see `raising-green-debt-globally-rec-euroyen.md`
 - [Rice and Maize Became Ethanol Commodities With a Price, a Buyer and a Warehouse. Straw Has Only the Buyer](https://masaladeutsch.blogspot.com/2026/10/rice-and-maize-became-ethanol.html) — 2 matches — see `rice-and-maize-became-ethanol.md`
-- [Tamil Nadu's Wind Potential, According to NIWE: A Third Built, Two-Thirds Still on the Table](https://masaladeutsch.blogspot.com/2026/08/tamil-nadus-wind-potential-according-to.html) — 2 matches — see `tamil-nadus-wind-potential-according-to.md`
 - [Textbooks Say Project Returns Converge to Cost of Capital. About 79% of the Gap Survives Each Year](https://masaladeutsch.blogspot.com/2026/09/textbooks-say-project-returns-converge.html) — 2 matches — see `textbooks-say-project-returns-converge.md`
 - [The 1920s Rotor That's Now on 22 Real Ships, Not the Fleet It Was Studied to Power](https://masaladeutsch.blogspot.com/2026/08/the-1920s-rotor-thats-now-on-22-real.html) — 2 matches — see `the-1920s-rotor-thats-now-on-22-real.md`
 - [The 50/30/20 Rule — and the Case for Flipping It to Save First](https://masaladeutsch.blogspot.com/2026/08/the-503020-rule-is-elizabeth-warrens.html) — 2 matches — see `the-503020-rule-is-elizabeth-warrens.md`
@@ -173,6 +176,7 @@
 - [Earnings Drift and Piotroski Work Only Where Trading Is Thin](https://masaladeutsch.blogspot.com/2026/10/earnings-drift-and-piotroski-work-only.html) — 1 matches — see `earnings-drift-and-piotroski-work-only.md`
 - [Effective Buying Power & the China Comparison — Rupee Real Exchange Rate](https://masaladeutsch.blogspot.com/2026/08/effective-buying-power-china-comparison.html) — 1 matches — see `effective-buying-power-china-comparison.md`
 - [EPFO's Pay Ceiling Rose to ₹25,000 After 12 Years. In 2014 Rupees, That Is Slightly Less Than the Old ₹15,000](https://masaladeutsch.blogspot.com/2026/10/epfos-pay-ceiling-rose-to-25000-after.html) — 1 matches — see `epfos-pay-ceiling-rose-to-25000-after.md`
+- [Fourteen Years of Indian Wholesale Prices: Diesel Up 79%, Urea Up 13.8% — and Three Corrections to Our Own Earlier Posts](https://masaladeutsch.blogspot.com/2026/08/fourteen-years-of-indian-wholesale.html) — 1 matches — see `fourteen-years-of-indian-wholesale.md`
 - [From Barrel to Bottle: The Petrochemical Pivot Also Makes a Lighter LPG Cylinder](https://masaladeutsch.blogspot.com/2026/08/from-barrel-to-bottle-petrochemical.html) — 1 matches — see `from-barrel-to-bottle-petrochemical.md`
 - [GOBARdhan Aims for 12 Times Today's Biogas Output. The Mandate Meant to Buy It Covers Less Than Half](https://masaladeutsch.blogspot.com/2026/10/gobardhan-aims-for-12-times-todays.html) — 1 matches — see `gobardhan-aims-for-12-times-todays.md`
 - [Green Energy Corridor III Is 15 Times the Last Phase. The First Two Are Still Not Finished](https://masaladeutsch.blogspot.com/2026/10/green-energy-corridor-iii-is-15-times.html) — 1 matches — see `green-energy-corridor-iii-is-15-times.md`
@@ -249,12 +253,14 @@
 - [RBI Foreign Exchange Reserves — 2015–2026](https://masaladeutsch.blogspot.com/2026/08/rbi-foreign-exchange-reserves-20152026.html) — 1 matches — see `rbi-foreign-exchange-reserves-20152026.md`
 - [Re-Spinning the Charkha](https://masaladeutsch.blogspot.com/2026/08/re-spinning-charkha.html) — 1 matches — see `re-spinning-charkha.md`
 - [RIN, RED and CBIO: What India's Ethanol Programme Could Borrow From Three Different Carbon-Credit Machines](https://masaladeutsch.blogspot.com/2026/08/rin-red-and-cbio-what-indias-ethanol.html) — 1 matches — see `rin-red-and-cbio-what-indias-ethanol.md`
+- [Screen an LPG Terminal Before the Workshop, and See the Dense-Gas Gap It Cannot Close](https://masaladeutsch.blogspot.com/2026/11/screen-process-safety-question-in-five.html) — 1 matches — see `screen-process-safety-question-in-five.md`
 - [Sixteen Crops, Twenty Years: Where India’s Harvest Grew From More Land and Where From Better Yields](https://masaladeutsch.blogspot.com/2026/10/sixteen-crops-twenty-years-where-indias.html) — 1 matches — see `sixteen-crops-twenty-years-where-indias.md`
 - [State by State: Who Actually Earns from Ethanol Blending? SGST Scenarios, E10-E30](https://masaladeutsch.blogspot.com/2026/08/state-by-state-who-actually-earns-from.html) — 1 matches — see `state-by-state-who-actually-earns-from.md`
 - [States Won the Right to Tax Mines in 2024. A 45-Minute Law Took It Back, Along With Up to Rs 2 Lakh Crore of Dues](https://masaladeutsch.blogspot.com/2026/10/states-won-right-to-tax-mines-in-2024.html) — 1 matches — see `states-won-right-to-tax-mines-in-2024.md`
 - [Sugarcane's Third Claimant: What's Actually Being Fermented Into India's First PLA Plant](https://masaladeutsch.blogspot.com/2026/08/sugarcanes-third-claimant-whats.html) — 1 matches — see `sugarcanes-third-claimant-whats.md`
 - [Sun Pharma's $11.75bn Organon Bet Is Bigger Than the RBI Rule Written to Fund It](https://masaladeutsch.blogspot.com/2026/09/sun-pharmas-1175bn-organon-bet-is.html) — 1 matches — see `sun-pharmas-1175bn-organon-bet-is.md`
 - [Tamil Nadu's Water Infrastructure Runs on Three Separate Money Streams, and Only One of Them Explains the Number You've Heard](https://masaladeutsch.blogspot.com/2026/08/tamil-nadus-water-infrastructure-runs.html) — 1 matches — see `tamil-nadus-water-infrastructure-runs.md`
+- [Tamil Nadu's Wind Potential, According to NIWE: A Third Built, Two-Thirds Still on the Table](https://masaladeutsch.blogspot.com/2026/08/tamil-nadus-wind-potential-according-to.html) — 1 matches — see `tamil-nadus-wind-potential-according-to.md`
 - [Tarpaulin Is a Genuine Export Win. Geotextiles for India's Highways Are the Opposite Story](https://masaladeutsch.blogspot.com/2026/08/tarpaulin-is-genuine-export-win.html) — 1 matches — see `tarpaulin-is-genuine-export-win.md`
 - [TASMAC's Retail Exit: The Case for Privatizing 2,500 of Tamil Nadu's 4,048 Liquor Shops](https://masaladeutsch.blogspot.com/2026/08/tasmacs-retail-exit-case-for.html) — 1 matches — see `tasmacs-retail-exit-case-for.md`
 - [The 4% Nobody Notices, and Three Other Ways India Backstops Its Own Food System](https://masaladeutsch.blogspot.com/2026/09/the-4-nobody-notices-and-three-other.html) — 1 matches — see `the-4-nobody-notices-and-three-other.md`
@@ -275,6 +281,4 @@
 - [Wheat's Support Price Rose by ₹25, the Smallest Rise in Years. The Granaries Explain Why](https://masaladeutsch.blogspot.com/2026/10/wheats-support-price-rose-by-25.html) — 1 matches — see `wheats-support-price-rose-by-25.md`
 - [Where the World's Oil Sits When It Isn't Moving: Storage, Floating Barrels, and the Hormuz Shock of 2026](https://masaladeutsch.blogspot.com/2026/08/where-worlds-oil-sits-when-it-isnt.html) — 1 matches — see `where-worlds-oil-sits-when-it-isnt.md`
 - [Who Collects India's GST, and Who Actually Gets It Back](https://masaladeutsch.blogspot.com/2026/08/who-collects-indias-gst-and-who.html) — 1 matches — see `who-collects-indias-gst-and-who.md`
-- [CGD Geographical Areas — District Allotment Map (Part 1 of 3)](https://masaladeutsch.blogspot.com/2026/07/cgd-geographical-areas-district.html) — 0 matches — see `cgd-geographical-areas-district.md`
-- [Fourteen Years of Indian Wholesale Prices: Diesel Up 79%, Urea Up 13.8% — and Three Corrections to Our Own Earlier Posts](https://masaladeutsch.blogspot.com/2026/08/fourteen-years-of-indian-wholesale.html) — 0 matches — see `fourteen-years-of-indian-wholesale.md`
-- [GAIL and Sumitomo Both Turned Their TruAlt MOUs Into Binding CBG Deals Within a Year. BPCL's Has Gone Quiet.](https://masaladeutsch.blogspot.com/2026/09/gail-and-sumitomo-both-turned-their.html) — 0 matches — see `gail-and-sumitomo-both-turned-their.md`
+- [West Bengal Sanctioned 12.6 Lakh PMAY-G Houses. It Has Finished 1.5 Lakh. The Reason Is a Four-Year Funds Freeze.](https://masaladeutsch.blogspot.com/2026/08/west-bengal-sanctioned-126-lakh-pmay-g.html) — 0 matches — see `west-bengal-sanctioned-126-lakh-pmay-g.md`
