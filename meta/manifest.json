@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-11-06T04:16:13+05:30",
+  "snapshot": "2026-11-06T09:48:56+00:00",
   "count": 497,
   "posts": {
     "1008146607143508554": {
@@ -3865,13 +3865,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/11/screen-process-safety-question-in-five.html",
       "slug": "screen-process-safety-question-in-five",
       "published": "2026-11-05T17:30:56.000+05:30",
-      "updated": "2026-11-05T17:54:51.123+05:30",
+      "updated": "2026-11-06T09:05:31.013+05:30",
       "labels": [
         "Open-Source Tools & How-To",
         "Refining & Petrochemicals"
       ],
-      "bytes": 32960,
-      "sha256": "bbb547ffb6fbfb1c6740e76f71bdaa6c5180babf0c4dcf8f3893649b61aa8ffa",
+      "bytes": 33079,
+      "sha256": "f428d3c56e7b11ba76eefde7b358a5af4004d4f6d695c413c6499372f0b0b260",
       "markers": {
         "light_lock": true,
         "dark_panel_guard": false,
@@ -3883,7 +3883,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.2.0",
+      "version": "1.2.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -3917,6 +3917,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "add iFluids case-study section to toolkit how-to"
+        },
+        {
+          "version": "1.2.1",
+          "date": "2026-11-06T09:48:56+00:00",
+          "level": "patch",
+          "reason": "visible text identical; only markup/styling changed",
+          "bytes": [
+            32960,
+            33079
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "scheduled sync"
         }
       ]
     },
@@ -6195,13 +6208,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/11/how-to-use-process-safety-design.html",
       "slug": "how-to-use-process-safety-design",
       "published": "2026-11-05T18:11:55.000+05:30",
-      "updated": "2026-11-05T19:23:40.390+05:30",
+      "updated": "2026-11-06T09:06:13.195+05:30",
       "labels": [
         "Open-Source Tools & How-To",
         "Refining & Petrochemicals"
       ],
-      "bytes": 45503,
-      "sha256": "d4f43725279d6b0a06af38c6411cfcc91cf58be3fe65dbfee64ae72dcda94101",
+      "bytes": 53621,
+      "sha256": "810c7a15ab8b0b4ee7f360cd3d25bc1cbcf7f6cca7ab7905e454e795c325434a",
       "markers": {
         "light_lock": true,
         "dark_panel_guard": false,
@@ -6213,7 +6226,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "2.0.0",
+      "version": "3.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -6234,6 +6247,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "3.0.0",
+          "date": "2026-11-06T09:48:56+00:00",
+          "level": "major",
+          "reason": "figures changed (+21/-0 distinct numbers)",
+          "bytes": [
+            45503,
+            53621
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "scheduled sync"
         }
       ]
     },
@@ -14564,14 +14590,14 @@
       "url": "https://masaladeutsch.blogspot.com/2026/11/the-chessboard-and-indias-granaries.html",
       "slug": "the-chessboard-and-indias-granaries",
       "published": "2026-11-04T09:39:50.000+05:30",
-      "updated": "2026-11-04T18:43:01.428+05:30",
+      "updated": "2026-11-06T09:05:38.542+05:30",
       "labels": [
         "Agriculture & Fertilisers",
         "Grain Procurement & Storage",
         "Industrial Policy"
       ],
-      "bytes": 28211,
-      "sha256": "633a1abeb54cc828985d9bb9eda6fd4aadc1f23350a7c2b24707b974ef5e77fe",
+      "bytes": 28330,
+      "sha256": "c6202e6091a5ca93a1a103b1d3b61ee83e05879e741a06c029afd6c21ff1f499",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -14583,7 +14609,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "2.0.0",
+      "version": "2.0.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -14604,6 +14630,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "chessboard update, biology games post"
+        },
+        {
+          "version": "2.0.1",
+          "date": "2026-11-06T09:48:56+00:00",
+          "level": "patch",
+          "reason": "visible text identical; only markup/styling changed",
+          "bytes": [
+            28211,
+            28330
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "scheduled sync"
         }
       ]
     },
@@ -56378,14 +56417,14 @@
       "url": "https://masaladeutsch.blogspot.com/2026/11/oil-gas-projects-under-evaluation-and.html",
       "slug": "oil-gas-projects-under-evaluation-and",
       "published": "2026-11-06T04:14:03.000+05:30",
-      "updated": "2026-11-06T04:14:20.306+05:30",
+      "updated": "2026-11-06T09:05:15.929+05:30",
       "labels": [
         "Energy & Fuels",
         "Gas & LNG",
         "Refining & Petrochemicals"
       ],
-      "bytes": 17007,
-      "sha256": "e363178f704de5c79fde655f808bf9bc122effc739e25bf04086a2766bc892de",
+      "bytes": 17126,
+      "sha256": "d8873522fae9fff4d31dbe442e4b31d3f4636cba84099f2fcac37c5c6b47230b",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -56397,7 +56436,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -56405,6 +56444,19 @@
           "level": "initial",
           "reason": "first snapshot",
           "note": ""
+        },
+        {
+          "version": "1.0.1",
+          "date": "2026-11-06T09:48:56+00:00",
+          "level": "patch",
+          "reason": "visible text identical; only markup/styling changed",
+          "bytes": [
+            17007,
+            17126
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "scheduled sync"
         }
       ]
     },

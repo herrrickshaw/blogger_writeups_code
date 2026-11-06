@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/11/screen-process-safety-question-in-five.html",
   "slug": "screen-process-safety-question-in-five",
   "published": "2026-11-05T17:30:56.000+05:30",
-  "updated": "2026-11-05T17:54:51.123+05:30",
+  "updated": "2026-11-06T09:05:31.013+05:30",
   "labels": [
     "Open-Source Tools & How-To",
     "Refining & Petrochemicals"
   ],
-  "bytes": 32960,
-  "sha256": "bbb547ffb6fbfb1c6740e76f71bdaa6c5180babf0c4dcf8f3893649b61aa8ffa",
+  "bytes": 33079,
+  "sha256": "f428d3c56e7b11ba76eefde7b358a5af4004d4f6d695c413c6499372f0b0b260",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.2.0",
+  "version": "1.2.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -56,6 +56,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "add iFluids case-study section to toolkit how-to"
+    },
+    {
+      "version": "1.2.1",
+      "date": "2026-11-06T09:48:56+00:00",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        32960,
+        33079
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
     }
   ]
 }

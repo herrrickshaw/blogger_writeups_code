@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/11/how-to-use-process-safety-design.html",
   "slug": "how-to-use-process-safety-design",
   "published": "2026-11-05T18:11:55.000+05:30",
-  "updated": "2026-11-05T19:23:40.390+05:30",
+  "updated": "2026-11-06T09:06:13.195+05:30",
   "labels": [
     "Open-Source Tools & How-To",
     "Refining & Petrochemicals"
   ],
-  "bytes": 45503,
-  "sha256": "d4f43725279d6b0a06af38c6411cfcc91cf58be3fe65dbfee64ae72dcda94101",
+  "bytes": 53621,
+  "sha256": "810c7a15ab8b0b4ee7f360cd3d25bc1cbcf7f6cca7ab7905e454e795c325434a",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.0",
+  "version": "3.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -43,6 +43,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "3.0.0",
+      "date": "2026-11-06T09:48:56+00:00",
+      "level": "major",
+      "reason": "figures changed (+21/-0 distinct numbers)",
+      "bytes": [
+        45503,
+        53621
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
     }
   ]
 }

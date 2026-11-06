@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/11/oil-gas-projects-under-evaluation-and.html",
   "slug": "oil-gas-projects-under-evaluation-and",
   "published": "2026-11-06T04:14:03.000+05:30",
-  "updated": "2026-11-06T04:14:20.306+05:30",
+  "updated": "2026-11-06T09:05:15.929+05:30",
   "labels": [
     "Energy & Fuels",
     "Gas & LNG",
     "Refining & Petrochemicals"
   ],
-  "bytes": 17007,
-  "sha256": "e363178f704de5c79fde655f808bf9bc122effc739e25bf04086a2766bc892de",
+  "bytes": 17126,
+  "sha256": "d8873522fae9fff4d31dbe442e4b31d3f4636cba84099f2fcac37c5c6b47230b",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -31,6 +31,19 @@
       "level": "initial",
       "reason": "first snapshot",
       "note": ""
+    },
+    {
+      "version": "1.0.1",
+      "date": "2026-11-06T09:48:56+00:00",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        17007,
+        17126
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
     }
   ]
 }

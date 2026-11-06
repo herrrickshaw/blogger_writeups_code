@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/11/the-chessboard-and-indias-granaries.html",
   "slug": "the-chessboard-and-indias-granaries",
   "published": "2026-11-04T09:39:50.000+05:30",
-  "updated": "2026-11-04T18:43:01.428+05:30",
+  "updated": "2026-11-06T09:05:38.542+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Grain Procurement & Storage",
     "Industrial Policy"
   ],
-  "bytes": 28211,
-  "sha256": "633a1abeb54cc828985d9bb9eda6fd4aadc1f23350a7c2b24707b974ef5e77fe",
+  "bytes": 28330,
+  "sha256": "c6202e6091a5ca93a1a103b1d3b61ee83e05879e741a06c029afd6c21ff1f499",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.0",
+  "version": "2.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -44,6 +44,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "chessboard update, biology games post"
+    },
+    {
+      "version": "2.0.1",
+      "date": "2026-11-06T09:48:56+00:00",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        28211,
+        28330
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
     }
   ]
 }

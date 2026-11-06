@@ -16926,3 +16926,22 @@ index: add toolkit complete guide
 **Changed**
 
 - `article-index-start-here` — 956,258 → 958,182 bytes (+1,924)
+
+## 2026-11-06T09:48:56+00:00 — 497 posts live
+
+scheduled sync
+
+
+**Versions**
+
+- `oil-gas-projects-under-evaluation-and` **1.0.0 → 1.0.1** (PATCH) — visible text identical; only markup/styling changed
+- `how-to-use-process-safety-design` **2.0.0 → 3.0.0** (MAJOR) — figures changed (+21/-0 distinct numbers)
+- `screen-process-safety-question-in-five` **1.2.0 → 1.2.1** (PATCH) — visible text identical; only markup/styling changed
+- `the-chessboard-and-indias-granaries` **2.0.0 → 2.0.1** (PATCH) — visible text identical; only markup/styling changed
+
+**Changed**
+
+- `oil-gas-projects-under-evaluation-and` — 17,007 → 17,126 bytes (+119)
+- `how-to-use-process-safety-design` — 45,503 → 53,621 bytes (+8,118)
+- `screen-process-safety-question-in-five` — 32,960 → 33,079 bytes (+119)
+- `the-chessboard-and-indias-granaries` — 28,211 → 28,330 bytes (+119)

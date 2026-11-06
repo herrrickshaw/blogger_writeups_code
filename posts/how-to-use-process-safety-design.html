@@ -489,7 +489,60 @@ $ python3 tests/crosscheck/validate.py
 checks: 124  within tolerance: 124  outside: 0  not computed: 0</code></pre>
 <p>The references are the <code>fluids</code>, <code>thermo</code> and <code>CoolProp</code> libraries and closed-form formulas from the open literature. Agreement shows the toolkit matches other implementations; it does not show a result is right for your plant. Known differences: liquid relief area runs about 4.7% below <code>fluids</code> in both cases checked and the cause is not resolved, so confirm it against vendor sizing; steam area uses the older Napier constant; and the API 2000 fire heat input has a boundary at 0.07 barg. The full list is in <code>docs/VALIDATION.md</code>.</p>
 
-<p class="src">Sources: the toolkit and its documentation, <a href="https://github.com/herrrickshaw/process-safety-design-toolkit">github.com/herrrickshaw/process-safety-design-toolkit</a> (open pull requests 1 and 2 hold the risk-study, study-tool and data-centre additions; pull request 3 holds version 0.10). Every output above comes from running the command on 5 November 2026 with illustrative inputs; results are screening arithmetic and modelled, not measured, and are not a safety case.</p>
+<h2>14. What is new since 0.10: derogations, EU impact, insurance and legal clauses</h2>
+
+<p>These additions are on <a href="https://github.com/herrrickshaw/process-safety-design-toolkit/pull/4">pull request 4</a>, stacked on the earlier pull requests and not yet merged. The command line now has 47 commands, 342 automated tests pass and the cross-check suite has grown to 186 checks, all within tolerance. The new work answers one question: when a design departs from a <i>must</i> clause, who approves it, what does it cost the business, what does European law say about it, what does it do to the insurance, and where does the law set the limit? Every default below (tiers, approval levels, thresholds) is editable and is not any company&rsquo;s rule.</p>
+
+<div style="position:relative;padding-bottom:56.25%;height:0;margin:16px 0;max-width:100%"><iframe style="position:absolute;inset:0;width:100%;height:100%;border:0" src="https://www.youtube.com/embed/T2vICb0ieO8" title="Process-Safety Design Toolkit: derogations, EU impact, insurance and legal clauses" allowfullscreen></iframe></div>
+
+<h3>Must, should, can, and the derogation</h3>
+<p>Each clause in a standard is graded from its modal verb. A <b>must</b> (shall, must, shall not) is complied with or formally derogated. A <b>should</b> is comply-or-explain. A <b>can</b> is optional, and you record whether you adopted it. A <b>derogation</b> is a formal, approved departure from a must. It needs a justification, a risk assessment reference, at least one compensating measure, an expiry date, a consequence assessment and the sign-offs the matrix requires. A statutory clause cannot be derogated by company sign-off at all; only the regulator can exempt.</p>
+<pre><code>$ python3 -m process_safety compliance process_safety/examples/compliance.json --as-of 2026-11-06
+  "by_tier":  MUST  complied 1, derogated 3, open 0
+              SHOULD complied 0, derogated 1, open 1
+              CAN    adopted 0, not-adopted 1
+  "must_compliance": 1 of 4 satisfied (25.0%)
+  "ready_for_gate": false          (condensed from the JSON)</code></pre>
+<p>The example register is deliberately faulty, so that it fails the gate and shows each failure code. A gate that cannot fail would tell you nothing.</p>
+
+<h3>The approval matrix: TA1, TA2 and TA3</h3>
+<p>The class of a derogation is the highest of its safety severity and six management ratings (next section). The class then sets who must sign.</p>
+<div class="tw"><table>
+<thead><tr><th>Tier</th><th>low</th><th>medium</th><th>high</th><th>severe</th></tr></thead>
+<tbody><tr><td>MUST</td><td>TA2</td><td>TA2</td><td>TA1</td><td>TA1 + TA2</td></tr>
+<tr><td>SHOULD</td><td>TA3</td><td>TA3</td><td>TA2</td><td>TA1</td></tr></tbody></table></div>
+<p>TA1 is taken as the most senior level and TA3 the least: that ordering is an assumption you can edit. A higher level can stand in for a lower one, and each sign-off must come from a different person. With no consequence assessment the class defaults to severe. In the example, clause 4.2.2 is a medium must that needs TA2 but carries only a TA3 sign-off, so the review reports <code>unmet: TA2</code> and the issue <code>approval-insufficient</code>.</p>
+
+<h3>PESTLE: mapping the management consequence</h3>
+<p>For each derogation the assessor rates six lenses from 0 to 5: political, economic, social, technological, legal and environmental. 0 to 2 is low, 3 medium, 4 high and 5 severe. A rating of 3 or more needs a written management action, and a must derogation must address all six factors and describe the scenario if the derogated clause fails. In the example, clause 4.1.3 rates the economic factor 3 (a pump-house outage of about ten days) and records its action: a spare pump on site and business-interruption cover confirmed. The tool enforces completeness; the ratings themselves are the assessor&rsquo;s judgement.</p>
+
+<h3>EU impact: Seveso III</h3>
+<p>A company derogation never waives an EU or national requirement. A clause can be marked as restating an EU provision (non-derogable) or implementing one (it needs an equivalence argument and is floored to the high class). The register also records the Seveso tier and screens each derogation against the Article 11 question: is the change significant, was the authority informed, and were the notification, the major-accident prevention policy, the safety management system and, for an upper-tier site, the safety report updated?</p>
+<pre><code>"eu_compliance": { "seveso_tier": "upper", "non_derogable_eu_clauses": ["9.1"],
+  "art11_significant": ["4.1.3"], "art11_unassessed": ["4.2.2"], ... }
+issues: 4.1.3 seveso-documents-not-updated, 4.2.2 seveso-not-assessed,
+        9.1 statutory-no-exemption                       (condensed from the JSON)</code></pre>
+<p>Only the Seveso III articles are encoded. ATEX, the Pressure Equipment Directive, the Industrial Emissions Directive and your member state&rsquo;s transposition are separate checks.</p>
+
+<h3>Insurance impact, from an actuarial perspective</h3>
+<p><code>insurance</code> takes an exposure rating, scenario frequencies, loss distributions with an uncertainty (error) factor, and the deductible and limit. It computes the expected loss in the layer, its variance, a technical premium and the retained loss. Each case scales the scenario frequencies by the probability of failure on demand of the derogated safeguard. With the invented inputs shipped as an example:</p>
+<div class="tw"><table>
+<thead><tr><th>Case (USD)</th><th>Technical premium</th><th>Change</th><th>Retained expected loss</th></tr></thead>
+<tbody><tr><td>baseline</td><td>3,128,810</td><td>0%</td><td>40,346</td></tr>
+<tr><td>derogated</td><td>6,639,142</td><td>+112.2%</td><td>133,464</td></tr>
+<tr><td>derogated with compensating measure</td><td>4,205,767</td><td>+34.4%</td><td>63,617</td></tr></tbody></table></div>
+<p>In that illustration the present value of the saving from the compensating measure is about 16.8 million dollars against a measure cost of 2.5 million. The inputs are invented, so read this as a method, not a finding. A modelled premium is not a quotation, and no market rates or loss data are shipped.</p>
+
+<h3>Legal clauses across eight regimes</h3>
+<p><code>legal-clauses</code> searches 55 provisions from eight regimes: India (15), Australia at Commonwealth level (13), Singapore (6), Canada at federal level (6), South Korea (6), the EU (5), the US (3) and Great Britain (1). Each is filed under one of four topics: general duty, change, notify and exemption. <b>Grade A</b> (40 clauses) means the legal text was read. <b>Grade B</b> (15 clauses) means only guidance, a mirror or an OCR copy was seen: confirm it against the legislation. For India, the Manufacture, Storage and Import of Hazardous Chemical Rules 1989 treat a modification likely to cover major accident hazards as a new activity (rule 6) and need a further safety report at least 90 days before a material modification (rule 11), which is the central constraint on a derogation there.</p>
+<pre><code>$ python3 -m process_safety legal-clauses --region India --topic change
+IN-FA-41A    [India; change; grade A]  The Factories Act, 1948, s. 41A(1), (2), (5)
+IN-MSIHC-6   [India; change; grade B]  MSIHC Rules 1989, r. 6(2)(a)(ii)
+IN-MSIHC-11  [India; change; grade B]  MSIHC Rules 1989, r. 11(1)-(2)
+IN-MSIHC-13  [India; change; grade B]  MSIHC Rules 1989, r. 13(1)-(3)          (condensed)</code></pre>
+<p>Not yet read: China, Japan, Brazil, Norway, the Gulf states, and state or provincial law. The entries are paraphrased and are not legal advice.</p>
+
+<p class="src">Sources: the toolkit and its documentation, <a href="https://github.com/herrrickshaw/process-safety-design-toolkit">github.com/herrrickshaw/process-safety-design-toolkit</a> (open pull requests 1 and 2 hold the risk-study, study-tool and data-centre additions; pull request 3 holds version 0.10; pull request 4 holds the derogation, EU, insurance and legal-clause additions). Every output above comes from running the command on 5 November 2026 (section 14: 6 November 2026) with illustrative inputs; results are screening arithmetic and modelled, not measured, and are not a safety case.</p>
 
 <!--
   4. Revision history. Newest first. One line per published revision; say what a
@@ -499,6 +552,7 @@ checks: 124  within tolerance: 124  outside: 0  not computed: 0</code></pre>
 <div id="changelog" class="note">
 <b>Revision history.</b>
 <ul>
+<li><b>v1.2.0</b> &mdash; 6 November 2026 &mdash; added section 14: derogations and compliance tiers, the TA1/TA2/TA3 approval matrix, PESTLE consequence rating, EU (Seveso III) impact, actuarial insurance impact and a 55-clause legal index, with a demo video. Sections 1 to 13 are unchanged, so counts quoted there (35 commands, 173 and 192 tests, 124 cross-checks) describe the earlier versions.</li>
 <li><b>v1.1.0</b> &mdash; 5 November 2026 &mdash; added section 13: version 0.10 (input ranges, glossary, restructured command line, 124 cross-checks) with a demo video. The earlier sections describe version 0.9 and are unchanged.</li>
 <li><b>v1.0.0</b> &mdash; 5 November 2026 &mdash; first published (complete walkthrough).</li>
 </ul>
