@@ -1,0 +1,422 @@
+<div class="artx mdrx">
+<style>/*gs-typo-unify-v1*/
+.mdrx{font-family:Georgia,'Times New Roman',serif;line-height:1.62;color:#1a1a1a;max-width:54rem;margin:0 auto}
+.mdrx h1,.mdrx h2,.mdrx h3{line-height:1.3}
+.mdrx p,.mdrx li{max-width:38rem}
+.mdrx .eyebrow{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.72rem;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:#8a4b08;margin:0 0 .8rem}
+.mdrx h1{font-weight:400;font-size:2.15rem;letter-spacing:-.01em;margin:0 0 .9rem;max-width:24ch;color:#1a1a1a}
+.mdrx .standfirst{font-size:1.2rem;line-height:1.5;color:#4a4a4a;max-width:38rem;margin:0 0 1.4rem}
+.mdrx h2{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.75rem;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:#595959;border-top:1px solid #e2e2e2;padding-top:.8rem;margin:2.8rem 0 .35rem;max-width:38rem}
+.mdrx .h2sub{font-size:1.55rem;font-weight:400;line-height:1.26;margin:0 0 1rem;max-width:26ch;color:#1a1a1a}
+.mdrx h3{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:1rem;font-weight:600;margin:1.7rem 0 .4rem}
+.mdrx .stats{display:grid;gap:0 2rem;grid-template-columns:repeat(auto-fit,minmax(10rem,1fr));margin:1.8rem 0}
+.mdrx .stat{padding:.85rem 0;border-top:1px solid #e2e2e2}
+.mdrx .stat b{display:block;font-size:1.9rem;line-height:1;color:#8a4b08;margin-bottom:.3rem;font-weight:400}
+.mdrx .stat span{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.78rem;color:#595959;display:block;line-height:1.35}
+.mdrx .exhibit{margin:2.2rem 0}
+.mdrx .exno{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.69rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:#0a4c6a;margin:0 0 .25rem}
+.mdrx .extitle{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:1.12rem;font-weight:700;line-height:1.3;margin:0 0 .15rem;max-width:46ch}
+.mdrx .exsub{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.94rem;font-style:italic;color:#595959;margin:0 0 .8rem;max-width:52ch}
+.mdrx .exsrc{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.72rem;color:#595959;line-height:1.45;margin:.6rem 0 0}
+.mdrx .tw{overflow-x:auto}
+.mdrx table{width:auto;min-width:100%;border-collapse:collapse;font-size:.85rem;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
+.mdrx thead th{text-align:right;font-weight:600;font-size:.7rem;letter-spacing:.05em;text-transform:uppercase;color:#595959;border-bottom:1px solid #000;padding:.45rem .65rem;vertical-align:bottom}
+.mdrx thead th:first-child,.mdrx tbody td:first-child{text-align:left}
+.mdrx tbody td{text-align:right;padding:.46rem .65rem;border-bottom:1px dotted #d9d9d9;font-variant-numeric:tabular-nums}
+/* The .tw scroller only engages if the table is allowed to exceed it. With
+   width:100% the table shrank to fit and rows grew to 8 lines on a phone. */
+.mdrx th,.mdrx td{white-space:nowrap}
+.mdrx tbody tr:last-child td{border-bottom:1px solid #000}
+.mdrx tbody tr.hl td{background:#f6f4ef;font-weight:600}
+.mdrx .note,.mdrx .warn{border-left:2px solid #e2e2e2;padding:.1rem 0 .1rem 1rem;margin:1.6rem 0;font-size:.95rem;color:#4a4a4a}
+.mdrx .warn{border-left-color:#db2b27}
+.mdrx a{color:#12408f}
+.mdrx .sources{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.78rem;color:#595959;max-width:46rem;margin:2.6rem 0 0;padding-top:.9rem;border-top:1px solid #e2e2e2}
+.mdrx .revised{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.76rem;color:#595959;margin:0 0 1.2rem}
+.mdrx .disclaimer{font-size:.8rem;color:#555;margin-top:1.4rem;max-width:46rem}
+.mdrx img,.mdrx svg{max-width:100%;height:auto}
+
+/*gs-table-v1*/
+.post-body table{display:block;overflow-x:auto;max-width:100%;width:max-content;
+ min-width:100%;border-collapse:collapse;font-size:.86rem}
+.post-body thead th,.post-body tr:first-child th{background:#111;color:#fff;font-weight:700;
+ text-align:right;vertical-align:bottom;padding:.6rem .7rem;border:1px solid #111;
+ word-break:keep-all;min-width:5.5rem}
+.post-body thead th:first-child,.post-body tr:first-child th:first-child{text-align:left}
+.post-body td{border:1px solid #d9d9d9;padding:.5rem .7rem;text-align:right;
+ font-variant-numeric:tabular-nums;white-space:nowrap;color:#111;background:#fff}
+.post-body td:first-child{text-align:left;white-space:normal;min-width:8rem}
+.post-body tbody tr:nth-child(even) td{background:#fafafa}
+</style>
+
+<div class="gs-head-order" style="display:flex;flex-direction:column">
+<p style="order:4" class="standfirst">For six years the law made UPI free for merchants. On 4 August 2026 that shield came off: the government may now notify which payment modes stay fee-exempt, and the rest may lawfully carry a merchant discount rate. No merchant category is as exposed as the petrol pump, which keeps &#8377;3.87 of every &#8377;100 that crosses its counter while a fee would apply to all &#8377;100. The same forecourt, though, holds the hedge: cash, and the fee income of dispensing it.</p>
+<div class="topnav-index-link" style="order:1;font-size:.82em;margin:6px 0 14px"><a href="https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html" style="color:#0b5394;text-decoration:none">&#8592; All Articles (Index)</a></div>
+<p style="order:2" class="eyebrow">Payments &middot; Fuel retail &middot; Rural cash access</p>
+<h1 style="order:3">Transaction Fees for UPI: Will Petrol Pumps Have More ATMs? A Case for Rural Financial Inclusion</h1>
+</div>
+
+<figure class="gb-figure" style="margin:1.5rem 0 1.75rem;text-align:center">
+<svg role="img" style="width:100%;height:auto;max-width:700px;display:block;margin:0 auto" viewBox="0 0 700 380" xmlns="http://www.w3.org/2000/svg" font-family="Georgia, 'Times New Roman', serif">
+  <rect x="0" y="0" width="700" height="380" fill="#f8f9fa" />
+
+  <text x="40" y="34" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif" font-size="17" font-weight="700" fill="#1a1a1a">If UPI merchant fees return: the annualised fee pool</text>
+  <text x="40" y="54" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif" font-size="12" fill="#595959">Gross fee pool at hypothetical MDR rates, vs. India's &#8377;437 cr RuPay incentive (FY26)</text>
+
+  
+  <line x1="80" y1="300" x2="650" y2="300" stroke="#1a1a1a" stroke-width="1.2" />
+
+  
+  <line x1="80" y1="245" x2="650" y2="245" stroke="#e2e2e2" stroke-width="1" />
+  <line x1="80" y1="190" x2="650" y2="190" stroke="#e2e2e2" stroke-width="1" />
+  <line x1="80" y1="135" x2="650" y2="135" stroke="#e2e2e2" stroke-width="1" />
+  <line x1="80" y1="80" x2="650" y2="80" stroke="#e2e2e2" stroke-width="1" />
+
+  <text x="72" y="304" text-anchor="end" font-size="11" fill="#8a8a8a">0</text>
+  <text x="72" y="249" text-anchor="end" font-size="11" fill="#8a8a8a">1L cr</text>
+  <text x="72" y="194" text-anchor="end" font-size="11" fill="#8a8a8a">2L cr</text>
+  <text x="72" y="139" text-anchor="end" font-size="11" fill="#8a8a8a">3L cr</text>
+
+  
+  <rect x="150" y="245" width="110" height="55" fill="#0b5794" />
+  <text x="205" y="235" text-anchor="middle" font-size="14" fill="#1a1a1a" font-weight="700">&#8377;89,636 cr</text>
+  <text x="205" y="318" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif" font-size="12" fill="#1a1a1a" font-weight="600">0.25% MDR</text>
+  <text x="205" y="333" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif" font-size="11" fill="#8a4b08">205&#215; the incentive</text>
+
+  
+  <rect x="320" y="234" width="110" height="66" fill="#0b5794" />
+  <text x="375" y="224" text-anchor="middle" font-size="14" fill="#1a1a1a" font-weight="700">&#8377;1,07,564 cr</text>
+  <text x="375" y="318" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif" font-size="12" fill="#1a1a1a" font-weight="600">0.30% MDR</text>
+  <text x="375" y="333" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif" font-size="11" fill="#8a4b08">246&#215; the incentive</text>
+
+  
+  <rect x="490" y="80" width="110" height="220" fill="#8a4b08" />
+  <text x="545" y="70" text-anchor="middle" font-size="14" fill="#1a1a1a" font-weight="700">&#8377;3,58,546 cr</text>
+  <text x="545" y="318" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif" font-size="12" fill="#1a1a1a" font-weight="600">1.00% MDR</text>
+  <text x="545" y="333" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif" font-size="11" fill="#8a4b08">820&#215; the incentive</text>
+
+  <text x="40" y="354" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif" font-size="10.5" fill="#8a8a8a">Source: NPCI UPI product statistics, July 2026 monthly value (&#8377;29,87,880 cr) &#215; stated MDR rate, annualised. RuPay incentive cut</text>
+  <text x="40" y="367" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif" font-size="10.5" fill="#8a8a8a">from &#8377;2,000 cr to &#8377;437 cr (Budget 2025).</text>
+</svg>
+<figcaption style="font-size:.8em;color:#868e96;font-family:-apple-system,'Segoe UI',sans-serif;margin-top:.5rem">Annualised UPI merchant-fee pool at hypothetical MDR rates, compared with India's ₹437 crore RuPay incentive — figures from the post's own Exhibit 1 table.</figcaption>
+</figure>
+
+<a href="#" id="gs-skip-link" class="gs-skip-link" style="position:absolute;left:-9999px;top:auto;background:#1a1a1a;color:#fff;padding:.6rem 1rem;z-index:1000;border-radius:4px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.85rem">Skip to article content</a>
+<style>.gs-skip-link:focus{left:8px!important;top:8px!important}
+.gs-a11y-bar{display:flex;align-items:center;gap:.55rem;flex-wrap:wrap;background:#f4f5f7;border:1px solid #dfe3e8;border-radius:8px;padding:.55rem .8rem;margin:10px 0 16px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
+.gs-a11y-bar .gs-a11y-label{font-size:.68rem;font-weight:700;letter-spacing:.08em;color:#666;text-transform:uppercase;margin-right:.15rem}
+.gs-a11y-bar button{cursor:pointer;border:1px solid #c7cbd1;background:#fff;color:#1a1a1a;border-radius:5px;padding:.32rem .65rem;font-family:inherit;line-height:1}
+.gs-a11y-bar button.gs-a11y-fs{font-weight:700;min-width:2rem;text-align:center}
+.gs-a11y-bar button.gs-a11y-fs[data-size="sm"]{font-size:.8rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="md"]{font-size:1rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="lg"]{font-size:1.2rem}
+.gs-a11y-bar button.gs-a11y-fs[aria-pressed="true"]{background:#1a1a1a;color:#fff;border-color:#1a1a1a}
+.gs-a11y-bar button:hover{border-color:#8a4b08}
+.gs-a11y-bar button:focus-visible{outline:2px solid #8a4b08;outline-offset:1px}
+.gs-a11y-bar .gs-a11y-sep{width:1px;align-self:stretch;background:#dfe3e8;margin:0 .1rem}</style>
+<div class="gs-a11y-bar" role="group" aria-label="Accessibility controls">
+<span class="gs-a11y-label">Text Size</span>
+<button type="button" class="gs-a11y-fs" data-size="sm" aria-pressed="false" aria-label="Small text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="md" aria-pressed="true" aria-label="Medium text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="lg" aria-pressed="false" aria-label="Large text">A</button>
+<span class="gs-a11y-sep"></span>
+<button type="button" id="gs-a11y-listen" aria-label="Read this article aloud">&#128266; Listen</button>
+<button type="button" id="gs-a11y-stop" aria-label="Stop reading aloud">&#9632; Stop</button>
+</div>
+<script>(function(){
+var KEY='gs-a11y-fontsize', SIZES={sm:'0.92',md:'1',lg:'1.15'};
+function pb(){return document.querySelector('.post-body')||document.querySelector('.artx,.mdrx');}
+function apply(sz){
+  var el=pb(); if(!el||!SIZES[sz]) return;
+  el.style.fontSize=SIZES[sz]+'em';
+  var btns=document.querySelectorAll('.gs-a11y-fs');
+  for(var i=0;i<btns.length;i++){
+    var on=btns[i].getAttribute('data-size')===sz;
+    btns[i].setAttribute('aria-pressed', on?'true':'false');
+  }
+  try{localStorage.setItem(KEY,sz);}catch(e){}
+}
+var fsBtns=document.querySelectorAll('.gs-a11y-fs');
+for(var j=0;j<fsBtns.length;j++){
+  fsBtns[j].addEventListener('click',(function(b){return function(){apply(b.getAttribute('data-size'));};})(fsBtns[j]));
+}
+var saved; try{saved=localStorage.getItem(KEY);}catch(e){}
+apply(saved&&SIZES[saved]?saved:'md');
+
+var listenBtn=document.getElementById('gs-a11y-listen'), stopBtn=document.getElementById('gs-a11y-stop');
+if(listenBtn){
+  listenBtn.addEventListener('click', function(){
+    if(!('speechSynthesis' in window)){ alert('Text-to-speech is not supported in this browser.'); return; }
+    window.speechSynthesis.cancel();
+    var src=pb(); if(!src) return;
+    var clone=src.cloneNode(true);
+    var strip=clone.querySelectorAll('script,style,svg');
+    for(var k=0;k<strip.length;k++){ strip[k].parentNode.removeChild(strip[k]); }
+    var text=clone.textContent.replace(/\s+/g,' ').trim();
+    if(!text) return;
+    var chunks=text.match(/[\s\S]{1,180}(?:[.!?]|$)/g)||[text];
+    var idx=0;
+    function speakNext(){
+      if(idx>=chunks.length) return;
+      var u=new SpeechSynthesisUtterance(chunks[idx]);
+      u.onend=function(){ idx++; speakNext(); };
+      window.speechSynthesis.speak(u);
+    }
+    speakNext();
+  });
+}
+if(stopBtn){
+  stopBtn.addEventListener('click', function(){
+    if('speechSynthesis' in window) window.speechSynthesis.cancel();
+  });
+}
+var skip=document.getElementById('gs-skip-link');
+if(skip){
+  skip.addEventListener('click', function(ev){
+    ev.preventDefault();
+    var h=document.querySelector('.post-body h1')||document.querySelector('.artx h1,.mdrx h1,h1');
+    if(h){ h.setAttribute('tabindex','-1'); h.focus(); h.scrollIntoView(); }
+  });
+}
+})();</script>
+<style>.goog-te-menu-frame{max-width:340px!important;max-height:70vh!important;overflow:auto!important;box-shadow:0 6px 24px rgba(0,0,0,.25)!important}</style><div id="google_translate_element" style="margin:8px 0 16px;"></div><script type="text/javascript">function googleTranslateElementInit(){new google.translate.TranslateElement({pageLanguage:"en",includedLanguages:"hi,bn,ta,te,mr,gu,kn,ml,pa,or,as,ur,sa,ne,sd",layout:google.translate.TranslateElement.InlineLayout.SIMPLE,autoDisplay:false},"google_translate_element");}</script><script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+
+<p class="revised" data-gs-revision-v1="1">Published <time datetime="2026-08-08" itemprop="datePublished">8 August 2026</time> &middot; v1.0.0 &middot; PPAC price build-up (01.10.2025) &middot; PSS Act Section 10A amendment of 4 August 2026 &middot; RBI ATM fee structure of May 2025</p>
+<figure style="margin:1.6rem 0">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Indian_oil_Petrol_Pump_in_Marthandam.jpg/960px-Indian_oil_Petrol_Pump_in_Marthandam.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail" alt="An Indian Oil petrol pump forecourt" loading="lazy" style="width:100%;height:auto;border-radius:6px;display:block"/>
+<figcaption class="gb-note" style="margin-top:.4rem">Petrol pumps like this one are the merchant category this piece finds most exposed now that UPI's six-year fee shield has come off. <a href="https://commons.wikimedia.org/wiki/File:Indian_oil_Petrol_Pump_in_Marthandam.jpg" rel="noopener noreferrer">Indian oil Petrol Pump in Marthandam.jpg</a>, Manukrishnan80, CC BY-SA 4.0, via Wikimedia Commons.</figcaption>
+</figure>
+
+<div class="stats">
+<div class="stat"><b>3.87%</b><span>Blended dealer margin on the pump-price ticket</span></div>
+<div class="stat"><b>25.9&times;</b><span>Leverage of a full-ticket fee on that margin</span></div>
+<div class="stat"><b>&#8377;19</b><span>ATM interchange per cash withdrawal since May 2025</span></div>
+<div class="stat"><b>0.7%</b><span>Fuel outlets in SBI&rsquo;s Cash@PoS list vs PPAC&rsquo;s 103,682 outlets</span></div>
+</div>
+
+<div class="warn" style="border-left:4px solid #a5402c;background:rgba(165,64,44,.07);padding:.8em 1em;margin:1.2em 0;border-radius:4px"><b>Updated 7 November 2026.</b> The merchant fee had still not started by 7 November. NPCI&rsquo;s steering committee said it would apply &ldquo;immediately after Diwali&rdquo; on a date to be notified separately (<a href="https://theprint.in/economy/merchant-discount-rate-on-upi-transactions-deferred-to-after-diwali/3070328/">ThePrint</a>); later reports say it may slip to 1 January 2027, with no final decision taken (<a href="https://www.deccanchronicle.com/amp/nation/merchant-fee-on-upi-payments-may-be-deferred-till-january-1-1994195">Deccan Chronicle</a>, <a href="https://inc42.com/buzz/upi-mdr-rollout-may-be-deferred-to-january-2027-amid-pushback-by-retailers/">Inc42</a>). UPI handled 25.47 billion transactions worth about &#8377;31.53 lakh crore in October 2026, the festive month (<a href="https://www.freepressjournal.in/business/upi-transactions-hit-2547-billion-in-october-value-soars-to-3153-lakh-crore">Free Press Journal</a>, citing NPCI; not checked against NPCI&rsquo;s own table). On that value the fee pools in Exhibit 1 would be about 5.5% larger than on the July figure used below.</div>
+
+<div class="warn" style="border-left:4px solid #a5402c;background:rgba(165,64,44,.07);padding:.8em 1em;margin:1.2em 0;border-radius:4px"><b>Updated 18 October 2026.</b> The UPI merchant discount rate described below, including the flat &#8377;5 for fuel payments, did not take effect on 15 October 2026. Press reports (<a href="https://www.outlookbusiness.com/news/upi-mdr-charges-wont-kick-in-before-diwali-npci-defers-rollout">Outlook Business</a>, <a href="https://www.deccanherald.com/india/mdr-on-upi-deferred-until-after-diwali-npci-4181482">Deccan Herald</a>, <a href="https://www.moneylife.in/article/npci-defers-upi-mdr-rollout-amid-festive-season-select-merchant-payments-to-attract-charges-postdiwali/81931.html">Moneylife</a>) say NPCI deferred the rollout on 13 October until after Diwali. No new start date has been announced and the proposed rates are reported to be unchanged, so the six-month review proposed below would now run from whenever the fee starts. NPCI&rsquo;s circular was not seen directly. A second correction: the &#8377;437 crore figure used below for the RuPay and BHIM-UPI incentive was the 2025-26 budget estimate. A press reading of the Union Budget 2026-27 (<a href="https://inc42.com/?p=547197">Inc42</a>) puts the 2026-27 allocation at &#8377;2,000 crore and the 2025-26 revised estimate at about &#8377;2,196 crore. Against &#8377;2,000 crore, the fee pools in the first chart are roughly 45 to 180 times the subsidy rather than 205 to 820 times; the point that the fee pool dwarfs the subsidy stands. This rests on one report and has not been checked against the Demand for Grants. <i>The original text below is unchanged.</i></div>
+<h2>The shield came off on 4 August</h2>
+<p class="h2sub">Six years of statutory zero-MDR, replaced by a notification power.</p>
+
+
+<p>Since <b>1 January 2020</b>, Section 10A of the Payment and Settlement Systems Act has prohibited any merchant discount rate on UPI and RuPay debit transactions. Whatever a petrol pump&rsquo;s digital acceptance cost in those years &mdash; soundbox rentals, reconciliation effort, the card-MDR that rides in when a customer pays by RuPay <i>credit</i> card over UPI &mdash; the headline MDR on a UPI sale was, by statute, zero.</p>
+
+<p>The <b>Taxation and Other Laws (Amendment) Bill, introduced 4 August 2026</b>, replaces that blanket ban: the government will <i>notify</i> which electronic modes remain exempt, and modes left off the list may lawfully attract fees. The pressure behind the change is documented &mdash; the Payments Council of India formally sought &ldquo;urgent reconsideration&rdquo; of zero-MDR in March 2025, and the budget line that compensated banks for carrying free UPI was cut from <b>&#8377;2,000 crore to &#8377;437 crore</b> this fiscal year. When this piece was first published, no fee had been notified yet; the power to impose one had merely been created.</p>
+
+<div class="warn"><b>Update, 27 September 2026: the fee is no longer hypothetical, and fuel got a carve-out.</b> A Ministry of Finance gazette notification of 14 September 2026, followed by NPCI's operational circular the next day, set the actual MDR: <b>0.4% on person-to-merchant UPI transactions above &#8377;2,000</b>, capped at &#8377;300 for tickets of &#8377;75,000 or more, effective <b>15 October 2026</b>. Transactions of &#8377;2,000 or under, and all person-to-person transfers, stay free. Small merchants (under &#8377;1 lakh a month in UPI QR receipts) are exempt regardless of ticket size. Critically for this piece's subject: <b>fuel is one of a named list of categories &mdash; alongside railways, telecom, insurance, agri-inputs, utility bills and electricity &mdash; that gets a flat &#8377;5 per transaction instead of the 0.4% ad-valorem rate.</b> That is a materially different outcome from every scenario modelled below, which assumed an ad-valorem rate applied to the full ticket. Exhibit 4's own arithmetic shows why the flat fee cuts the other way at scale: a flat &#8377;5 is <em>higher</em> than a 0.25% MDR on the two-wheeler fill (&#8377;2.37) modelled below, about the same as the 0.25% rate on the car fill (&#8377;9.48 vs. a flat &#8377;5, i.e. lower), and dramatically lower than any ad-valorem rate on the truck fill (&#8377;5 flat vs. &#8377;65.75&ndash;263.01 modelled). The regulator, in other words, chose to protect the highest-value transactions in exactly the sector this piece flagged as most exposed &mdash; the diesel island the piece predicted would lead any resistance &mdash; while leaving small, low-ticket digital payments comparatively worse off under the flat fee than they would have been under a small ad-valorem rate. The scenario modelling below is preserved as it was written, since it correctly anticipated the shape of the fight and its resolution; treat the specific rates in Exhibits 1&ndash;4 as the range that was under debate, not as what was ultimately notified.</div>
+
+<div class="note"><b>The pump has been here before.</b> In January 2017, when banks moved to levy roughly 1% MDR on fuel card payments, dealer associations threatened to stop accepting cards outright and the charge was rolled back within days. That episode is the empirical anchor for everything below: at ~1% on the full ticket, dealers judged acceptance not worth having. Digital share of payments is far higher now than in 2017.</div>
+
+<h2>The pool being fought over, in NPCI&rsquo;s own numbers</h2>
+<p class="h2sub">&#8377;30 lakh crore a month now crosses UPI. A basis point of it is real money.</p>
+
+<div class="exhibit">
+<p class="exno">Exhibit 1</p>
+<p class="extitle">UPI in FY2026-27, and what an MDR on it would gross</p>
+<p class="exsub">Monthly volume and value from NPCI&rsquo;s product statistics; fee arithmetic on the July value.</p>
+<div class="tw">
+<table>
+<thead><tr><th>Month, 2026</th><th>Volume, mn transactions</th><th>Value, &#8377; cr</th><th>Average ticket, &#8377;</th></tr></thead>
+<tbody>
+<tr><td>April</td><td>22,347</td><td>29,02,988</td><td>1,299</td></tr>
+<tr><td>May</td><td>23,202</td><td>29,90,424</td><td>1,289</td></tr>
+<tr><td>June</td><td>22,716</td><td>28,92,139</td><td>1,273</td></tr>
+<tr><td>July</td><td>23,658</td><td>29,87,880</td><td>1,263</td></tr>
+</tbody>
+</table>
+</div>
+<figure style="margin:1.5rem 0 1.75rem;text-align:center">
+<svg role="img" style="width:100%;height:auto;max-width:700px;display:block;margin:0 auto" viewBox="0 0 700 380" xmlns="http://www.w3.org/2000/svg" font-family="Georgia,'Times New Roman',serif">
+<rect x="0" y="0" width="700" height="380" fill="#f8f9fa"/>
+<text x="350" y="30" text-anchor="middle" font-size="17" font-weight="700" fill="#212529">UPI Value Processed, FY2026-27</text>
+<text x="350" y="49" text-anchor="middle" font-size="12" fill="#495057">&#8377; crore per month, NPCI product statistics</text>
+
+<line x1="60" y1="300" x2="650" y2="300" stroke="#212529" stroke-width="1.5"/>
+<line x1="60" y1="80" x2="60" y2="300" stroke="#212529" stroke-width="1.5"/>
+
+<polyline points="120,110 280,86 440,132 600,90" fill="none" stroke="#0b5794" stroke-width="2.5"/>
+<circle cx="120" cy="110" r="4" fill="#0b5794"/><circle cx="280" cy="86" r="4" fill="#0b5794"/><circle cx="440" cy="132" r="4" fill="#0b5794"/><circle cx="600" cy="90" r="4" fill="#0b5794"/>
+
+<text x="120" y="98" text-anchor="middle" font-size="11" font-weight="700" fill="#212529">&#8377;29.03L cr</text>
+<text x="280" y="74" text-anchor="middle" font-size="11" font-weight="700" fill="#212529">&#8377;29.90L cr</text>
+<text x="440" y="150" text-anchor="middle" font-size="11" font-weight="700" fill="#212529">&#8377;28.92L cr</text>
+<text x="600" y="78" text-anchor="middle" font-size="11" font-weight="700" fill="#212529">&#8377;29.88L cr</text>
+
+<text x="120" y="316" text-anchor="middle" font-size="11" fill="#212529">April</text>
+<text x="280" y="316" text-anchor="middle" font-size="11" fill="#212529">May</text>
+<text x="440" y="316" text-anchor="middle" font-size="11" fill="#212529">June</text>
+<text x="600" y="316" text-anchor="middle" font-size="11" fill="#212529">July</text>
+<text x="120" y="332" text-anchor="middle" font-size="9.5" fill="#868e96">22,347M txns</text>
+<text x="280" y="332" text-anchor="middle" font-size="9.5" fill="#868e96">23,202M txns</text>
+<text x="440" y="332" text-anchor="middle" font-size="9.5" fill="#868e96">22,716M txns</text>
+<text x="600" y="332" text-anchor="middle" font-size="9.5" fill="#868e96">23,658M txns</text>
+
+<text x="350" y="360" text-anchor="middle" font-size="10" fill="#868e96">Source: NPCI product statistics; &#8377;30 lakh crore a month is the pool an MDR would be levied on</text>
+</svg>
+<figcaption style="font-size:.8em;color:#868e96;font-family:-apple-system,'Segoe UI',sans-serif;margin-top:.5rem">Roughly &#8377;30 lakh crore crosses UPI every month &mdash; a basis point of that is real money for whoever collects an MDR on it.</figcaption>
+</figure>
+<div class="tw">
+<table>
+<thead><tr><th>Hypothetical MDR rate, %</th><th>Gross fee pool, &#8377; cr/month</th><th>Annualised, &#8377; cr</th><th>Multiple of the &#8377;437 cr incentive</th></tr></thead>
+<tbody>
+<tr><td>0.25</td><td>7,470</td><td>89,636</td><td>205&times;</td></tr>
+<tr><td>0.30</td><td>8,964</td><td>1,07,564</td><td>246&times;</td></tr>
+<tr><td>1.00</td><td>29,879</td><td>3,58,546</td><td>820&times;</td></tr>
+</tbody>
+</table>
+</div>
+<p class="exsrc">NPCI, UPI product statistics (FY2026-27 monthly table), read 8 August 2026; 741 banks live on UPI as of July 2026. Fee arithmetic is the July value &times; the stated rate &mdash; a <i>gross ceiling</i>, since any actual notification would exempt small merchants, P2P transfers and possibly whole categories; nothing here assumes which. Annualised figures multiply one month by twelve.</p>
+</div>
+
+<div class="note"><b>Why the fight is this loud.</b> The subsidy that currently keeps UPI free for merchants is &#8377;437 crore a year. A 0.25% MDR on today&rsquo;s flows would gross roughly <b>&#8377;90,000 crore</b> &mdash; two hundred times that &mdash; and a card-style 1% would gross more than the central government&rsquo;s annual food subsidy. Even the smallest rate under discussion turns a rounding error in the Budget into one of the largest fee pools in Indian finance, which is precisely why banks and payment companies lobbied for it and why merchants &mdash; with fuel dealers the most leveraged among them, as the next section shows &mdash; will fight it. At the average ticket of about &#8377;1,263, a 0.25% MDR is &#8377;3.16 per transaction: invisible per swipe, enormous in aggregate.</div>
+
+<h2>Why the forecourt is the most exposed counter in India</h2>
+<p class="h2sub">A fee on the whole ticket, paid out of a 3.87% slice of it.</p>
+
+<p>The dealer&rsquo;s commission is a fixed rupee amount per litre &mdash; <b>&#8377;4.40 on petrol</b> against a &#8377;94.77 Delhi pump price (4.6%), <b>&#8377;3.03 on diesel</b> against &#8377;87.67 (3.5%), per PPAC&rsquo;s own price build-up. Everything else in the ticket is excise duty, state VAT and the oil company&rsquo;s product cost &mdash; money the dealer collects but never keeps. An MDR, however, is charged on the <i>full</i> ticket.</p>
+
+<div class="exhibit">
+<p class="exno">Exhibit 2</p>
+<p class="extitle">The average outlet&rsquo;s month, and the leverage</p>
+<p class="exsub">Throughput per PPAC Ready Reckoner FY2025-26 H1 averages; commissions and prices from the 01.10.2025 build-up at Delhi.</p>
+<div class="tw">
+<table>
+<thead><tr><th>Quantity</th><th>Value</th></tr></thead>
+<tbody>
+<tr><td>Petrol sold</td><td>~45,000 litres</td></tr>
+<tr><td>Diesel sold</td><td>~92,000 litres</td></tr>
+<tr><td>Sales value crossing the counter</td><td>&#8377;1.23 crore</td></tr>
+<tr><td>Gross dealer commission</td><td>&#8377;4.77 lakh</td></tr>
+<tr><td>Blended margin on ticket value</td><td><b>3.87%</b></td></tr>
+<tr><td><b>Leverage of a full-ticket fee on the margin</b></td><td><b>25.9&times;</b></td></tr>
+</tbody>
+</table>
+</div>
+<p class="exsrc">Computed from PPAC Ready Reckoner FY2025-26 H1 (price build-up Tables 8.2&ndash;8.5, retail outlet count and consumption tables), as used and verified in this blog&rsquo;s <a href="https://masaladeutsch.blogspot.com/2026/08/fuel-pricing-to-crude-cost.html">fuel-pricing piece</a>. &ldquo;Average outlet&rdquo; divides FY2025-26 consumption by the 99,281 outlets of that vintage (01.10.2025); the network has since grown to 103,682 (01.07.2026), which lowers the average slightly. An individual pump&rsquo;s figures vary widely.</p>
+</div>
+
+<div class="exhibit">
+<p class="exno">Exhibit 3</p>
+<p class="extitle">What an MDR would take of the dealer&rsquo;s gross fuel commission</p>
+<p class="exsub">Fee applied to the digital share of the average outlet&rsquo;s &#8377;1.23 crore monthly ticket value, expressed against its &#8377;4.77 lakh commission.</p>
+<div class="tw">
+<table>
+<thead><tr><th>Digital share of sales, %</th><th>0.25% MDR</th><th>0.30%</th><th>0.90%</th><th>1.00%</th></tr></thead>
+<tbody>
+<tr><td>30</td><td>1.9%</td><td>2.3%</td><td>7.0%</td><td>7.8%</td></tr>
+<tr><td>50</td><td>3.2%</td><td>3.9%</td><td>11.6%</td><td>12.9%</td></tr>
+<tr><td>70</td><td>4.5%</td><td>5.4%</td><td>16.3%</td><td>18.1%</td></tr>
+<tr><td>90</td><td>5.8%</td><td>7.0%</td><td>20.9%</td><td>23.3%</td></tr>
+</tbody>
+</table>
+</div>
+<p class="exsrc">Author&rsquo;s computation on the Exhibit 2 base. The digital share of fuel-retail payments is not published anywhere authoritative, which is why this is a grid and not a single claim. The commission must also fund staff, power, evaporation losses and licence fees, so the strike on the dealer&rsquo;s <i>net</i> income is proportionally larger than shown.</p>
+</div>
+
+<div class="warn"><b>Read the grid against the 2017 anchor.</b> The rolled-back 2017 charge sat in the right-hand columns &mdash; card-style ~1% rates that would now consume a fifth of gross commission at today&rsquo;s digital shares. But even the &ldquo;small&rdquo; 0.25&ndash;0.30% rates floated in MDR debates cost the average dealer 2&ndash;6% of gross commission: one to three days of margin a month, for accepting the payment mode the state spent a decade promoting.</div>
+
+<div class="note"><b>The leverage argument generalises far beyond fuel</b> &mdash; the same fee-rate-&divide;-margin arithmetic prices jewellery, kirana, electronics, liquor and every other UPI-accepting counter, and NPCI&rsquo;s own merchant-category data shows groceries, restaurants and fast food together carry 43.7% of UPI&rsquo;s transaction volume. That full cross-category analysis, including a dedicated look at groceries and food service, is worked in a <a href="https://masaladeutsch.blogspot.com/2026/08/beyond-pump-what-upi-fee-would-cost.html">companion article</a>, &ldquo;Beyond the Pump.&rdquo; What follows here stays with the forecourt: the per-tank arithmetic, and the ATM hedge.</div>
+
+<h2>What it looks like at the nozzle</h2>
+<p class="h2sub">The same percentages, translated to a full tank.</p>
+
+<p>An MDR is levied on the merchant, and both network rules and the 2017 settlement history say it cannot simply be surcharged onto the customer. But incidence has a way of travelling, and the per-fill arithmetic is what every constituency &mdash; dealer, fleet operator, commuter &mdash; will actually argue about. At the Delhi build-up prices used throughout this piece:</p>
+
+<div class="exhibit">
+<p class="exno">Exhibit 4</p>
+<p class="extitle">Fee per full tank, by vehicle class</p>
+<p class="exsub">Illustrative tank sizes; Delhi prices of 01.10.2025 (petrol &#8377;94.77/L, diesel &#8377;87.67/L). This is the fee generated by the transaction, wherever it finally lands.</p>
+<div class="tw">
+<table>
+<thead><tr><th>Vehicle (typical fill)</th><th>Tank value, &#8377;</th><th>At 0.25% MDR, &#8377;</th><th>0.30%, &#8377;</th><th>1.00%, &#8377;</th></tr></thead>
+<tbody>
+<tr><td>Two-wheeler (10 L petrol)</td><td>948</td><td>2.37</td><td>2.84</td><td>9.48</td></tr>
+<tr><td>Car (40 L petrol)</td><td>3,791</td><td>9.48</td><td>11.37</td><td>37.91</td></tr>
+<tr><td>Truck (300 L diesel)</td><td>26,301</td><td>65.75</td><td>78.90</td><td>263.01</td></tr>
+</tbody>
+</table>
+</div>
+<p class="exsrc">Author&rsquo;s computation: litres &times; Delhi RSP &times; MDR rate. Tank sizes are illustrative round figures, not sourced specifications &mdash; two-wheeler tanks run roughly 5&ndash;15 litres, cars 35&ndash;50, and heavy trucks 160&ndash;400, so scale the row to the vehicle at hand. Heavy fleets often refuel on OMC fleet-card programmes with negotiated commercial terms, which this table does not model.</p>
+</div>
+
+<div class="note"><b>The truck row is where the political economy lives.</b> A single 300-litre diesel fill generates &#8377;263 of fee at a card-style 1% &mdash; against &#8377;909 of dealer commission on that same sale, i.e. <b>29% of the dealer&rsquo;s margin on one transaction</b>. Nobody surcharges a two-wheeler&rsquo;s &#8377;2.37; everybody fights over the truck&rsquo;s &#8377;263. That is why the 2017 standoff was led by dealers in freight-corridor states, and why any future MDR notification will meet the same resistance first at the diesel island, not the petrol one.</div>
+
+<h2>Meanwhile, on the same counter: cash, and where the ATMs are not</h2>
+<p class="h2sub">The machine count and the fee that was raised because rural machines don&rsquo;t pay.</p>
+
+<p>India runs roughly <b>2.58 lakh ATMs and cash recyclers</b> (February 2025). Only about <b>20,000</b> are white-label ATMs &mdash; the operator category that skews semi-urban and rural. In <b>May 2025</b> RBI raised the interchange a card issuer pays the machine owner to <b>&#8377;19 per withdrawal</b> (&#8377;7 non-financial) and the beyond-free-limit customer charge to &#8377;23 &mdash; a raise granted, notably, <i>at the white-label operators&rsquo; request</i>, because rural machine economics did not close at &#8377;17.</p>
+
+<p>Against that stand <b>103,682 fuel retail outlets</b> (01.07.2026, of which 29,684 are rural) &mdash; a network five times the white-label fleet, already spread along highways and into tehsils, with power, lighting, a security presence, 24&times;7 staffing, and the one thing every rural ATM operator pays dearly to arrange: <b>a daily cash float</b>, arriving as fuel takings.</p>
+
+<div class="exhibit">
+<p class="exno">Exhibit 5</p>
+<p class="extitle">Cash-out at the pump: what exists, what it would earn</p>
+<p class="exsub">Existing penetration from this author&rsquo;s extraction of SBI&rsquo;s Cash@PoS fuel-station list; interchange arithmetic at the May 2025 rate.</p>
+<div class="tw">
+<table>
+<thead><tr><th>What exists</th><th>Count</th></tr></thead>
+<tbody>
+<tr><td>Fuel stations in SBI&rsquo;s Cash@PoS list</td><td>693</td></tr>
+<tr><td>Retail outlets nationally (PPAC, 01.07.2026)</td><td>103,682</td></tr>
+<tr><td><b>Cash-out penetration of the network</b></td><td><b>0.7% of outlets</b></td></tr>
+</tbody>
+</table>
+<table>
+<thead><tr><th>On-site ATM, withdrawals/day</th><th>Interchange pool, &#8377;/month</th><th>Share of avg fuel commission, %</th></tr></thead>
+<tbody>
+<tr><td>50</td><td>28,500</td><td>6.0</td></tr>
+<tr><td>100</td><td>57,000</td><td>12.0</td></tr>
+<tr><td>150</td><td>85,500</td><td>17.9</td></tr>
+</tbody>
+</table>
+</div>
+<div class="tw">
+<table>
+<thead><tr><th>Withdrawals/day</th><th>Host&rsquo;s share at &#8377;7&ndash;9/transaction, &#8377;/month</th><th>Share of avg fuel commission, %</th></tr></thead>
+<tbody>
+<tr><td>50</td><td>10,500&ndash;13,500</td><td>2.2&ndash;2.8</td></tr>
+<tr><td>100</td><td>21,000&ndash;27,000</td><td>4.4&ndash;5.7</td></tr>
+<tr><td>150</td><td>31,500&ndash;40,500</td><td>6.6&ndash;8.5</td></tr>
+<tr><td>200</td><td>42,000&ndash;54,000</td><td>8.8&ndash;11.3</td></tr>
+</tbody>
+</table>
+</div>
+<p class="exsrc">Penetration: 693 SBI-listed stations against PPAC&rsquo;s 103,682 outlets (01.07.2026); station list from the <code>fuel-retail-outlets</code> repository&rsquo;s Cash@PoS PDF extraction, whose join against the 82,609-outlet SSRI catalog (the outlet-level join of the two failed on source data quality &mdash; only 18 of 693 stations could be pinned to a specific outlet, so <i>which</i> pumps have cash-out cannot currently be audited). Interchange pool: withdrawals &times; &#8377;19 &times; 30 days; how it splits between a white-label operator and the host site is commercial and unpublished &mdash; the host&rsquo;s rent and share are bargained out of this pool, not equal to it.</p>
+</div>
+
+<div class="note"><b>The host&rsquo;s cut now has a market price, and it corroborates the official arithmetic.</b> White-label franchise marketing (ATM Franchise India, an aggregator for WLA operators, November 2025 material) advertises <b>&#8377;7&ndash;9 per transaction to the site partner</b>, against a <b>&#8377;6,00,000 fully-refundable deposit</b>, claimed average returns of 22&ndash;30% a year, and &ldquo;100&ndash;200+ transactions daily&rdquo; in high-footfall locations &mdash; with its best-returns profile being exactly a partner who <i>owns commercial premises on a main road</i>. That is a petrol pump dealer to the letter. The &#8377;7&ndash;9 is 37&ndash;47% of RBI&rsquo;s &#8377;19 interchange, which is coherent: the operator&rsquo;s retained share funds the machine, switch, and cash logistics &mdash; and the cash-logistics line is precisely what a forecourt&rsquo;s own float shrinks. <b>These are a franchise seller&rsquo;s promotional figures, not audited returns</b>; they are quoted here as the market&rsquo;s advertised terms, and the second table above prices the host&rsquo;s share by those terms against the official interchange table priced above it.</div>
+
+<div class="warn"><b>An update, and one that cuts against the hedge argument below.</b> The mechanism this section describes has an official name and a live product: NPCI&rsquo;s <i>Interoperable Cardless Cash Withdrawal</i>, branded &ldquo;UPI-ATM,&rdquo; launched with Hitachi Payment Services in September 2023 and now live at PNB, Union Bank, Canara Bank, Indian Bank and others &mdash; a &#8377;10,000 per-transaction limit, drawn from the same daily UPI cap as any other transaction. But <b>since 1 April 2026, several banks (HDFC among the first reported) have started counting UPI-ATM withdrawals against the same monthly free-transaction quota as card withdrawals</b> &mdash; five free at one&rsquo;s own bank under the standard &ldquo;5-3-5&rdquo; rule, &#8377;23 per transaction beyond that. That materially qualifies this article&rsquo;s hedge argument: cash-out via UPI is not a frictionless, uncapped consumer option layered on top of existing ATM access; for a customer who already uses their free quota at a branch machine, withdrawing via a pump-hosted UPI-ATM instead simply relocates which five transactions are free, rather than adding a sixth. The economics for the <i>host</i> &mdash; the interchange pool this article prices below &mdash; are unaffected; the economics for the <i>consumer</i> are not what they were when this section was first drafted. Separately, RBI shifted WLA-operator regulatory reporting to its Centralised Information Management System (CIMS) from the December 2025 period, and industry coverage in April 2026 named five licensed WLA operators nationally, with the largest single network (TCPSL&rsquo;s Indicash) at just over 15,000 machines &mdash; a more granular breakdown than the ~20,000-machine aggregate this article cites below, though not a contradiction of it.</div>
+
+<h2>The integration case: dispensing fees hedge acceptance fees</h2>
+<p class="h2sub">The two halves of the problem are one machine.</p>
+
+<ul>
+<li><b>The pump&rsquo;s float is the ATM&rsquo;s inventory.</b> Cash-in-transit and cash handling are the heaviest operating costs of a rural ATM. A machine fed by the forecourt&rsquo;s own takings shortens that loop and cuts the dealer&rsquo;s cash-deposit burden in the same stroke &mdash; subject, honestly, to RBI&rsquo;s currency-fitness rules: recycling needs a recycler machine and note-sorting compliance, not a drawer-to-dispenser shortcut.</li>
+<li><b>Interchange is fee income where MDR is fee outgo.</b> The grids above are the point: a dealer facing a 2&ndash;7% commission hit from a plausible future MDR can recover that order of magnitude as an ATM host &mdash; from the cash-preferring rural footfall that digital acceptance does not monetise.</li>
+<li><b>For the consumer, the win is availability, not price.</b> The capped &#8377;23 is not the real cost of rural cash; the trip to a distant machine is. Cash-out where fuel is bought uses a network that already exists in exactly the geography where machines do not.</li>
+<li><b>The forecourt already hosts non-fuel services at scale</b> &mdash; PPAC&rsquo;s infrastructure table (01.07.2026) counts <b>29,503 outlets with EV charging</b>, 7,689 selling CNG/LNG, 34,201 with at least one alternate fuel, and solar installations at 81,637. Adding cash-out is an increment to an established pattern of the pump as a services hub, not a novelty.</li>
+<li><b>The lighter version needs no ATM licence:</b> micro-ATM/AePS with the dealer as business-correspondent agent, or the cash-at-PoS facility that SBI&rsquo;s 693-station list already represents. At 0.7% penetration, the binding constraint is evidently not technology &mdash; it is that nobody has put the dealer&rsquo;s business case on paper. Exhibits 1&ndash;3 are that case.</li>
+</ul>
+
+<div class="note"><b>What this article does not establish.</b> Who ultimately bears an MDR &mdash; Exhibit 4 computes the fee a fill generates, not its final incidence, and pass-through to pump prices would need a policy change.  UPI&rsquo;s actual share of fuel-retail payment value &mdash; no authoritative split exists, hence the 30&ndash;90% grid. Whether an MDR will in fact be notified, at what rate, or with a fuel or large-merchant carve-out &mdash; the amendment creates the power, not the fee. Whether PPAC&rsquo;s commission formula already imputes payment-acceptance costs &mdash; the Ready Reckoner does not decompose it. The precise rural share of ATMs, beyond RBI&rsquo;s characterisation of white-label deployment. And which specific outlets host cash-out today &mdash; the source data cannot support that join.</div>
+<p class="sources"><b>Sources.</b> Dealer commissions, pump-price build-up, outlet count and throughput &mdash; <b>PPAC Ready Reckoner FY2025-26 H1</b> (01.10.2025 build-up at Delhi), as previously verified in this blog&rsquo;s fuel-pricing piece and modelled in the author&rsquo;s public <a href="https://github.com/herrrickshaw/omc-retail-profitability-model">OMC retail profitability repository</a>. Section 10A amendment of 4 August 2026 &mdash; reporting on the Taxation and Other Laws (Amendment) Bill (<a href="https://www.techtimes.com/articles/322958/20260804/india-opens-door-upi-merchant-fees-parliament-amends-six-year-zero-mdr-law.htm">TechTimes</a>); The Hindu&rsquo;s explainer &ldquo;Will UPI remain free to use?&rdquo; is cited as supplied by a reader &mdash; the site blocks automated retrieval, so it was not independently verified here. Incentive cut &#8377;2,000&nbsp;crore &#8594; &#8377;437&nbsp;crore &mdash; <a href="https://startuptalky.com/news/rupay-upi-incentive-reduced/">Budget 2025 coverage</a>. January 2017 fuel-MDR standoff &mdash; <a href="https://www.deccanherald.com/india/petrol-pumps-not-accept-card-1985185">Deccan Herald</a>. ATM counts, interchange &#8377;19/&#8377;7 and the &#8377;23 cap from May 2025 &mdash; <a href="https://www.rbi.org.in/commonman/Upload/English/FAQs/PDFs/FAQATM04072025.pdf">RBI ATM/WLA FAQ (4 July 2025)</a> and fee-revision coverage. Cash@PoS penetration &mdash; the author&rsquo;s <a href="https://github.com/herrrickshaw/fuel-retail-outlets">fuel-retail-outlets</a> extraction (693 SBI-listed stations against PPAC&rsquo;s 103,682 outlets as on 01.07.2026, Snapshot July-26 edition Table 14; the SSRI catalog of 82,609 and its join limitations are documented in the repository). UPI volumes, values and live-bank count &mdash; <a href="https://www.npci.org.in/product/upi/product-statistics">NPCI UPI product statistics</a>, FY2026-27 monthly table, read 8 August 2026. Franchise-market terms (&#8377;7&ndash;9 per transaction to the site partner, &#8377;6&nbsp;lakh refundable deposit, 22&ndash;30% claimed returns) &mdash; <a href="https://www.atmfranchiseindia.in/blog/atm-profit-calculator">ATM Franchise India, &ldquo;ATM Business Profit Calculator&rdquo;</a>, November 2025, read 8 August 2026: promotional material from a white-label franchise aggregator, quoted as advertised terms and not as audited outcomes. UPI-ATM (ICCW) product details, limit and launch &mdash; NPCI product overview and press coverage of the September 2023 Hitachi Payment Services launch. April 2026 change counting UPI-ATM withdrawals against the monthly free-transaction quota &mdash; press coverage of bank policy updates effective 1 April 2026, HDFC Bank among those reported. Current WLA operator count and CIMS reporting shift &mdash; industry coverage, April 2026. All computed figures are reproducible from these inputs; the MDR grid is scenario arithmetic, not a forecast. <b>Update, 27 September 2026:</b> the notified MDR schedule (0.4% general rate on P2M transactions above &#8377;2,000, capped at &#8377;300 for tickets &#8377;75,000 or more; flat &#8377;5 for railways, telecom, insurance, fuel, agri-inputs, utility bills and electricity; effective 15 October 2026) is per the Ministry of Finance's 14 September 2026 gazette notification and NPCI's 15 September 2026 operational circular, as reported by PayU, Vajiram &amp; Ravi, Digital Watch Observatory and Business Today. <b>Update of 7 November 2026:</b> deferral of the merchant fee &mdash; <a href="https://theprint.in/economy/merchant-discount-rate-on-upi-transactions-deferred-to-after-diwali/3070328/">ThePrint</a>, <a href="https://www.deccanchronicle.com/amp/nation/merchant-fee-on-upi-payments-may-be-deferred-till-january-1-1994195">Deccan Chronicle</a>, <a href="https://inc42.com/buzz/upi-mdr-rollout-may-be-deferred-to-january-2027-amid-pushback-by-retailers/">Inc42</a>; October 2026 UPI volume and value &mdash; <a href="https://www.freepressjournal.in/business/upi-transactions-hit-2547-billion-in-october-value-soars-to-3153-lakh-crore">Free Press Journal</a>.</p>
+
+<h2>What would fix this</h2>
+<ul>
+<li><b>NPCI should publish monthly UPI person-to-merchant volume and value for the fuel-retail category</b>, so the digital share of forecourt payments &mdash; which this post found no authoritative source for, forcing a 30&ndash;90% grid &mdash; can be measured directly.</li>
+<li><b>The Finance Ministry and NPCI should publish, six months after the 15 October 2026 MDR takes effect, fee collections by category, including the flat ₹5 charged on fuel transactions</b>, so the actual incidence of the new fee can be compared with the scenarios debated before it was notified.</li>
+<li><b>PPAC should decompose the dealer commission in its Ready Reckoner price build-up into its cost components, stating whether any allowance for payment-acceptance costs is included</b>, so the question this post could not settle is answered from the formula itself.</li>
+<li><b>IOCL, BPCL and HPCL should publish an outlet-coded list of their retail outlets offering cash withdrawal through Cash@PoS, micro-ATM or UPI-ATM</b>, since only 18 of SBI's 693 listed fuel stations could be matched to a specific outlet and cash-out at pumps cannot currently be audited.</li>
+<li><b>The RBI should publish ATM and white-label ATM counts by rural, semi-urban, urban and metropolitan population group every quarter</b>, so the rural share of cash machines is a published number rather than a characterisation of where white-label operators deploy.</li>
+</ul>
+<p>These are proposals from this blog, not recommendations any agency has adopted.</p>
+
+<p class="disclaimer" data-gs-ai-disclosure-v1="1"><strong>About this article:</strong> Researched, written and edited by Umashankar Triplicane Dwarakanathan, with AI research assistance; every figure is meant to trace to the primary source cited. See the <a href="https://masaladeutsch.blogspot.com/p/disclaimer.html">Editorial Policy</a> for how sourcing, AI use and corrections work.</p>
+
+</div>
+
+<div id="gs-idx"></div><script defer="defer" src="https://herrrickshaw.github.io/masaladeutsch/accordion.js"></script>
