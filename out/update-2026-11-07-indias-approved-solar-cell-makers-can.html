@@ -1,0 +1,305 @@
+<div class="artx cellx">
+<style>
+/* ---- typography (gs-typo-unify-v1): keep in sync across all posts ---- */
+.cellx{font-family:Georgia,'Times New Roman',serif;line-height:1.6;color:#111}
+.cellx h1,.cellx h2,.cellx h3{line-height:1.3}
+
+/* ---- palette: define every colour as a custom property here. Do not add
+       raw hex elsewhere in a post's <style> block — reference these vars, so
+       a future palette change is a 4-line edit instead of a find-and-replace
+       across every post. ----
+   --ink     #111    body text, light-locked (see below)
+   --accent  #8a4b08  eyebrow text, h2 rule, table header bg, stat numbers —
+                       the one colour that carries this post's "brand"
+   --rule    #e8dcc4  hairline borders, h2 underline, table cell borders
+   --panel   #fdf7ec  stat-card bg, even table rows — the palette's one tint
+*/
+.cellx{--ink:#111;--accent:#8a4b08;--rule:#e8dcc4;--panel:#fdf7ec;--good:#1a7a4c;--good-soft:#eaf6ef;--bad:#a5402c;--bad-soft:#fff4f0}
+
+/* ---- mono-label convention (added 2026-09-17, borrowed from the
+       india-trade-sector-policy-recommendations design system): the eyebrow
+       kicker and the source line read as data-journalism metadata, not
+       article prose, so they get a monospace face — a system stack, not a
+       hosted webfont, so no post gains an extra network request or a
+       flash-of-unstyled-text risk. Body text (h1/p/li/table) keeps the
+       serif — this is a two-place accent, not a font-pairing overhaul. ---- */
+.cellx{--mono:ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace}
+
+/* ---- light lock (gs-light-lock): a dark Blogger theme (and a browser/OS
+       set to prefers-color-scheme:dark) must not repaint text. Re-assert
+       the same values with !important — verified 2026-08-14 across 5 live
+       posts with the browser's colour scheme forced to dark: body/h1/p/table
+       all stayed light-background/dark-text with no low-contrast pairs.
+       Do NOT add selectors here for panels that are meant to be dark —
+       those go in the guard below. ---- */
+.cellx,.cellx p,.cellx li,.cellx td,.cellx th{color:var(--ink)!important}
+.cellx{background:#fff!important}
+
+/* ---- structure: title + subtitle ----
+   .eyebrow    = the small-caps kicker ABOVE the h1 — "Section · Topic ·
+                 Subtopic", sets context before the reader hits the claim
+   h1          = the headline itself. Write it as the CLAIM, not the topic
+                 ("The Rouble Is the Outlier, Not the Dollar" beats
+                 "Currency Trends Update"). font-size 1.5rem is the deliberate
+                 site-wide size — do not bump it per-post.
+   .standfirst = the one/two-sentence SUBTITLE directly under the h1. This is
+                 also what Blogger's snippet extractor and the JSON-LD meta
+                 description both read (see the gs-head-order block below) —
+                 write it as a real, complete sentence a reader could act on,
+                 not a fragment.
+*/
+.cellx .eyebrow{font-size:.8rem;font-weight:700;letter-spacing:.04em;color:var(--accent);text-transform:uppercase;margin:0 0 6px;font-family:var(--mono)}
+.cellx h1{margin:0 0 10px;font-size:1.5rem}
+.cellx .standfirst{font-size:1.05rem;color:#333!important;margin:0 0 18px}
+.cellx .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px;margin:18px 0}
+.cellx .stat{background:var(--panel);border:1px solid var(--rule);border-radius:10px;padding:12px 14px}
+.cellx .stat b{display:block;font-size:1.2rem;color:var(--accent)}
+.cellx .stat span{font-size:.8rem}
+.cellx h2{color:var(--accent);border-bottom:2px solid var(--rule);padding-bottom:6px;margin-top:30px;font-size:1.15rem}
+
+/* ---- tables: units live in the header, cells carry bare numbers.
+       .tw is the mobile-overflow fix — see the MOBILE comment above. ---- */
+.cellx .tw{overflow-x:auto}
+.cellx table{width:100%;border-collapse:collapse;margin:14px 0;font-size:.88rem}
+.cellx th,.cellx td{border:1px solid var(--rule);padding:7px 9px;text-align:right;word-wrap:break-word;overflow-wrap:break-word}
+.cellx th:first-child,.cellx td:first-child{text-align:left}
+.cellx th{background:var(--accent);color:#fff!important;font-weight:600}
+.cellx tr:nth-child(even){background:var(--panel)}
+
+.cellx .note{background:#eef4ff;border-left:4px solid #2a78d6;padding:12px 16px;margin:18px 0;border-radius:0 8px 8px 0;font-size:.93rem}
+.cellx .warn{background:var(--bad-soft);border-left:4px solid var(--bad);padding:12px 16px;margin:18px 0;border-radius:0 8px 8px 0;font-size:.93rem}
+/* ---- .good (added 2026-09-17): third semantic tier alongside .note (neutral
+       framing) and .warn (a caveat/scope limit) — for the case a caveat block
+       would otherwise get stretched to cover: confirming a figure checked out,
+       a correction that resolved cleanly, a claim that survived cross-check.
+       Same shape as .note/.warn on purpose, so all three read as one family. */
+.cellx .good{background:var(--good-soft);border-left:4px solid var(--good);padding:12px 16px;margin:18px 0;border-radius:0 8px 8px 0;font-size:.93rem}
+/* ---- .chip (added 2026-09-17): formalises a labelling pattern several posts
+       already built ad hoc in JS (e.g. "PLI coverage: strong/partial/gap")
+       into one reusable inline component, so a new post doesn't reinvent it.
+       Use inline: <span class="chip chip-good">Strong</span>. ---- */
+.cellx .chip{display:inline-block;font-family:var(--mono);font-size:.72rem;font-weight:700;letter-spacing:.02em;padding:.15rem .5rem;border-radius:99px;line-height:1.5}
+.cellx .chip-good{background:var(--good-soft);color:var(--good)}
+.cellx .chip-warn{background:var(--panel);color:var(--accent)}
+.cellx .chip-bad{background:var(--bad-soft);color:var(--bad)}
+.cellx .src{font-size:.84rem;font-family:var(--mono);border-top:1px solid var(--rule);padding-top:12px;margin-top:24px}
+.cellx .disclaimer{font-size:.82rem;color:#555;margin-top:10px}
+.cellx .revised{font-size:.8rem;color:#555!important;margin:0 0 14px}
+.cellx .revised code{font-family:inherit;background:var(--panel);padding:1px 5px;border-radius:4px}
+</style>
+
+<div class="gs-head-order" style="display:flex;flex-direction:column">
+<p class="standfirst" style="order:4">MNRE’s approved list of domestic solar-cell makers now holds 37.8 GW a year of enlisted capacity across 19 company names, but a third of it is in one state and the window for rooftop and open-access projects to skip the list shuts on 31 December 2026.</p>
+<div class="topnav-index-link" style="order:1;font-size:.82em;margin:6px 0 14px"><a href="https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html" style="color:#0b5394;text-decoration:none">&#8592; All Articles (Index)</a></div>
+<p class="eyebrow" style="order:2">Energy &middot; Solar Manufacturing &middot; ALMM List-II</p>
+<h1 style="order:3">India’s Approved Solar-Cell Makers Can Now Make 37.8 GW a Year. Rooftop Projects Have Until 31 December to Use Them</h1>
+</div>
+
+<a href="#" id="gs-skip-link" class="gs-skip-link" style="position:absolute;left:-9999px;top:auto;background:#1a1a1a;color:#fff;padding:.6rem 1rem;z-index:1000;border-radius:4px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.85rem">Skip to article content</a>
+<style>.gs-skip-link:focus{left:8px!important;top:8px!important}
+.gs-a11y-bar{display:flex;align-items:center;gap:.55rem;flex-wrap:wrap;background:#f4f5f7;border:1px solid #dfe3e8;border-radius:8px;padding:.55rem .8rem;margin:10px 0 16px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
+.gs-a11y-bar .gs-a11y-label{font-size:.68rem;font-weight:700;letter-spacing:.08em;color:#666;text-transform:uppercase;margin-right:.15rem}
+.gs-a11y-bar button{cursor:pointer;border:1px solid #c7cbd1;background:#fff;color:#1a1a1a;border-radius:5px;padding:.32rem .65rem;font-family:inherit;line-height:1}
+.gs-a11y-bar button.gs-a11y-fs{font-weight:700;min-width:2rem;text-align:center}
+.gs-a11y-bar button.gs-a11y-fs[data-size="sm"]{font-size:.8rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="md"]{font-size:1rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="lg"]{font-size:1.2rem}
+.gs-a11y-bar button.gs-a11y-fs[aria-pressed="true"]{background:#1a1a1a;color:#fff;border-color:#1a1a1a}
+.gs-a11y-bar button:hover{border-color:#8a4b08}
+.gs-a11y-bar button:focus-visible{outline:2px solid #8a4b08;outline-offset:1px}
+.gs-a11y-bar .gs-a11y-sep{width:1px;align-self:stretch;background:#dfe3e8;margin:0 .1rem}</style>
+<div class="gs-a11y-bar" role="group" aria-label="Accessibility controls">
+<span class="gs-a11y-label">Text Size</span>
+<button type="button" class="gs-a11y-fs" data-size="sm" aria-pressed="false" aria-label="Small text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="md" aria-pressed="true" aria-label="Medium text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="lg" aria-pressed="false" aria-label="Large text">A</button>
+<span class="gs-a11y-sep"></span>
+<button type="button" id="gs-a11y-listen" aria-label="Read this article aloud">&#128266; Listen</button>
+<button type="button" id="gs-a11y-stop" aria-label="Stop reading aloud">&#9632; Stop</button>
+</div>
+<script>(function(){
+var KEY='gs-a11y-fontsize', SIZES={sm:'0.92',md:'1',lg:'1.15'};
+function pb(){return document.querySelector('.post-body')||document.querySelector('.artx,.mdrx');}
+function apply(sz){
+  var el=pb(); if(!el||!SIZES[sz]) return;
+  el.style.fontSize=SIZES[sz]+'em';
+  var btns=document.querySelectorAll('.gs-a11y-fs');
+  for(var i=0;i<btns.length;i++){
+    var on=btns[i].getAttribute('data-size')===sz;
+    btns[i].setAttribute('aria-pressed', on?'true':'false');
+  }
+  try{localStorage.setItem(KEY,sz);}catch(e){}
+}
+var fsBtns=document.querySelectorAll('.gs-a11y-fs');
+for(var j=0;j<fsBtns.length;j++){
+  fsBtns[j].addEventListener('click',(function(b){return function(){apply(b.getAttribute('data-size'));};})(fsBtns[j]));
+}
+var saved; try{saved=localStorage.getItem(KEY);}catch(e){}
+apply(saved&&SIZES[saved]?saved:'md');
+
+var listenBtn=document.getElementById('gs-a11y-listen'), stopBtn=document.getElementById('gs-a11y-stop');
+if(listenBtn){
+  listenBtn.addEventListener('click', function(){
+    if(!('speechSynthesis' in window)){ alert('Text-to-speech is not supported in this browser.'); return; }
+    window.speechSynthesis.cancel();
+    var src=pb(); if(!src) return;
+    var clone=src.cloneNode(true);
+    var strip=clone.querySelectorAll('script,style,svg');
+    for(var k=0;k<strip.length;k++){ strip[k].parentNode.removeChild(strip[k]); }
+    var text=clone.textContent.replace(/\s+/g,' ').trim();
+    if(!text) return;
+    var chunks=text.match(/[\s\S]{1,180}(?:[.!?]|$)/g)||[text];
+    var idx=0;
+    function speakNext(){
+      if(idx>=chunks.length) return;
+      var u=new SpeechSynthesisUtterance(chunks[idx]);
+      u.onend=function(){ idx++; speakNext(); };
+      window.speechSynthesis.speak(u);
+    }
+    speakNext();
+  });
+}
+if(stopBtn){
+  stopBtn.addEventListener('click', function(){
+    if('speechSynthesis' in window) window.speechSynthesis.cancel();
+  });
+}
+var skip=document.getElementById('gs-skip-link');
+if(skip){
+  skip.addEventListener('click', function(ev){
+    ev.preventDefault();
+    var h=document.querySelector('.post-body h1')||document.querySelector('.artx h1,.mdrx h1,h1');
+    if(h){ h.setAttribute('tabindex','-1'); h.focus(); h.scrollIntoView(); }
+  });
+}
+})();</script>
+<style>.goog-te-menu-frame{max-width:340px!important;max-height:70vh!important;overflow:auto!important;box-shadow:0 6px 24px rgba(0,0,0,.25)!important}</style>
+<div id="google_translate_element" style="margin:8px 0 16px;"></div><script type="text/javascript">function googleTranslateElementInit(){new google.translate.TranslateElement({pageLanguage:"en",includedLanguages:"hi,bn,ta,te,mr,gu,kn,ml,pa,or,as,ur,sa,ne,sd",layout:google.translate.TranslateElement.InlineLayout.SIMPLE,autoDisplay:false},"google_translate_element");}</script><script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+<p class="revised" data-gs-revision-v1="1">Revised
+<time datetime="2026-10-26" itemprop="dateModified">26 October 2026</time>
+&middot; <code>v1.0.0</code> &middot; <a href="#changelog">what changed</a></p>
+
+<div class="stats">
+<div class="stat"><b>37.8 GW</b><span>Cell capacity enlisted a year in ALMM List-II, 12th revision, 8 Oct 2026</span></div>
+<div class="stat"><b>19 / 21</b><span>Company names / manufacturing units on the list</span></div>
+<div class="stat"><b>2.9x</b><span>Growth since the first list of 31 Jul 2025 (13.1 GW)</span></div>
+<div class="stat"><b>6.0x</b><span>Module capacity on List-I (228.5 GW, Sept 2026) over cell capacity on List-II</span></div>
+</div>
+
+<p>India&rsquo;s approved list of solar-cell factories now totals <b>37,796 MW a year</b> of enlisted capacity, from 19 company names running 21 units, according to my sum of the Ministry of New and Renewable Energy&rsquo;s (MNRE) <a href="https://mnre.gov.in/static/uploads/2026/10/d1f27eb73e8b4201c6fb42266f109bdc.pdf">12th revision of ALMM List-II, dated 8 October 2026</a>. That is the number that decides how many rooftop and open-access solar projects can be built with Indian cells. Under MNRE&rsquo;s <a href="https://mnre.gov.in/static/uploads/2026/10/ff10a64fa507f3e79029ecabb73c053d.pdf">office memorandum of 18 July 2026</a>, those projects can still commission without List-II cells until 31 December 2026. After that the list applies to them in full.</p>
+
+<div class="warn"><b>A date to get right.</b> The cell rule for net-metering and open-access projects dates from <b>1 June 2026</b>, not 18 June. The 18 July memorandum is the document that moved the exemption from 31 May to 31 December. I read the scanned memorandum page directly to confirm this, because text extraction misreads &ldquo;1st&rdquo; as &ldquo;18&rdquo;.</div>
+
+<div class="warn" style="border-left:4px solid #a5402c;background:rgba(165,64,44,.07);padding:.8em 1em;margin:1.2em 0;border-radius:4px"><b>Updated 7 November 2026.</b> A 13th revision of List-II has been reported since this piece was written: Energetica India says it added 7,063 MW from two new entrants, GREW Energy and Ampin Solar One (a joint venture of Ampin and Jupiter International, 1,160 MW of mono-PERC cells at Bhubaneswar), taking enlisted cell capacity to 44,858 MW (<a href="https://www.energetica-india.net/news/grew-solar-ampin-jupiter-jv-enter-alcm-list-total-enlisted-cell-capacity-nears-45-gw">Energetica India</a>). That is a single trade report, not checked against the MNRE memorandum, and other October coverage still gives 37.8 GW; the tables below remain on the 12th revision of 8 October.</div>
+<h2>What the rule says, and what the July memorandum changed</h2>
+<p>The framework dates from MNRE&rsquo;s memorandum of 9 December 2024. Modules must come from ALMM List-I, and those modules must in turn use cells from List-II. For net-metering and open-access renewable projects, the memorandum of 18 July 2026 recites that the rule bites on projects commissioned on or after 1 June 2026. It then does three things:</p>
+<ul>
+<li>It refuses a blanket extension of List-II for solar power projects.</li>
+<li>It gives net-metering and open-access projects a limited window to commission <b>without</b> List-II cells until 31 December 2026. In its words, such projects commissioned after 31 December 2026 &ldquo;will be required to comply&rdquo; with List-II.</li>
+<li>It supersedes MNRE&rsquo;s memorandum of 25 May 2026 and four June memoranda (8 June twice, 15 June and 23 June).</li>
+</ul>
+<p>The earlier 25 May memorandum was stricter. It also refused a blanket extension, but offered relief only case by case. A developer had to show that every module was already installed on site (Category I), or that &ldquo;effective steps&rdquo; had been taken (Category II). The second category needed at least 75% of the land, financial closure, a connectivity grant, approved electrical drawings and modules on site. Claims had to be filed on a National Institute of Solar Energy portal by 30 June 2026. The 18 July text, as I read it, lists no such conditions for the window. The test is the commissioning date. I could not confirm how states and distribution companies are applying it.</p>
+
+<h2>The list: 37.8 GW, with a long tail</h2>
+<p>List-II is published as a stack of revisions. The base list of 31 July 2025 and each later revision add or change entries. A note on every revision says the capacity shown against a unit replaces its earlier figure and is not added to it. I applied that rule unit by unit, and the arithmetic is in the companion notes. Twelve company names account for 86% of the total.</p>
+<div class="tw">
+<table>
+<tr><th>Manufacturer (as listed)</th><th>State</th><th>Cell type (MW a year)</th><th>Enlisted capacity (MW a year)</th><th>Share of total (%)</th></tr>
+<tr><td>Waaree Energies</td><td>Gujarat</td><td>PERC 1,328 + TOPCon 4,021</td><td>5,349</td><td>14.2</td></tr>
+<tr><td>TP Solar</td><td>Tamil Nadu</td><td>PERC 4,480 + TOPCon 53</td><td>4,533</td><td>12.0</td></tr>
+<tr><td>Avaada Electro</td><td>Maharashtra</td><td>TOPCon</td><td>3,621</td><td>9.6</td></tr>
+<tr><td>FS India Solar Ventures</td><td>Tamil Nadu</td><td>Not stated (deemed from List-I)</td><td>3,433</td><td>9.1</td></tr>
+<tr><td>Premier Energies Photovoltaic</td><td>Telangana</td><td>PERC 1,280 + TOPCon 1,358</td><td>2,638</td><td>7.0</td></tr>
+<tr><td>Mundra Solar PV</td><td>Gujarat</td><td>TOPCon</td><td>2,298</td><td>6.1</td></tr>
+<tr><td>Jupiter Solartech (two units)</td><td>Himachal Pradesh</td><td>PERC 991 + TOPCon 1,297</td><td>2,288</td><td>6.1</td></tr>
+<tr><td>Emmvee Energy</td><td>Karnataka</td><td>TOPCon</td><td>2,153</td><td>5.7</td></tr>
+<tr><td>Mundra Solar Energy</td><td>Gujarat</td><td>PERC</td><td>1,939</td><td>5.1</td></tr>
+<tr><td>ReNew Photovoltaics</td><td>Gujarat</td><td>PERC</td><td>1,766</td><td>4.7</td></tr>
+<tr><td>Reliance Industries</td><td>Gujarat</td><td>HJT</td><td>1,238</td><td>3.3</td></tr>
+<tr><td>Websol Energy System</td><td>West Bengal</td><td>PERC</td><td>1,202</td><td>3.2</td></tr>
+<tr><td>Seven others (below 1.2 GW each)</td><td>Six states</td><td>Mixed</td><td>5,338</td><td>14.1</td></tr>
+<tr><td><b>Total</b></td><td></td><td></td><td><b>37,796</b></td><td><b>100.0</b></td></tr>
+</table>
+</div>
+<p>Two points about the table. First, Waaree and TP Solar together hold 26% of the list, and the five largest names hold 52%. Second, FS India Solar Ventures is on the list without a cell type or efficiency range. The list says it is &ldquo;deemed to be eligible&rdquo; because it is already enlisted on List-I, under paragraph 9 of the December 2024 memorandum, so I report it as type not stated.</p>
+
+<h2>Where the factories are</h2>
+<div class="tw">
+<table>
+<tr><th>State</th><th>Enlisted capacity (MW a year)</th><th>Share of total (%)</th><th>Who is there</th></tr>
+<tr><td>Gujarat</td><td>12,992</td><td>34.4</td><td>Mundra (two entities), ReNew, Waaree, Reliance, Gopin</td></tr>
+<tr><td>Tamil Nadu</td><td>7,966</td><td>21.1</td><td>TP Solar, FS India</td></tr>
+<tr><td>Telangana</td><td>4,364</td><td>11.5</td><td>Premier (two entities), Renewsys</td></tr>
+<tr><td>Maharashtra</td><td>3,621</td><td>9.6</td><td>Avaada</td></tr>
+<tr><td>Himachal Pradesh</td><td>3,067</td><td>8.1</td><td>Jupiter (two companies, four units)</td></tr>
+<tr><td>Karnataka</td><td>2,433</td><td>6.4</td><td>Emmvee, Tata Power Renewable</td></tr>
+<tr><td>West Bengal</td><td>1,202</td><td>3.2</td><td>Websol</td></tr>
+<tr><td>Uttar Pradesh</td><td>1,077</td><td>2.8</td><td>Fujiyama</td></tr>
+<tr><td>Andhra Pradesh</td><td>1,074</td><td>2.8</td><td>Evervolt</td></tr>
+</table>
+</div>
+<p>Gujarat holds 34% and Tamil Nadu 21%. Nine states appear. By technology, mono PERC is still 46% of the list and TOPCon 42%:</p>
+<div class="tw">
+<table>
+<tr><th>Cell technology</th><th>Enlisted capacity (MW a year)</th><th>Share of total (%)</th></tr>
+<tr><td>Mono PERC (P-type)</td><td>17,370</td><td>46.0</td></tr>
+<tr><td>TOPCon (N-type)</td><td>15,755</td><td>41.7</td></tr>
+<tr><td>Type not stated (FS India, deemed from List-I)</td><td>3,433</td><td>9.1</td></tr>
+<tr><td>HJT</td><td>1,238</td><td>3.3</td></tr>
+</table>
+</div>
+<p>TOPCon accounts for 15.8 GW of the total, and the latest additions are TOPCon: Jupiter Solartech&rsquo;s 1,297 MW (28 September) and Gopin Semicon&rsquo;s 402 MW (8 October). The one HJT line is Reliance&rsquo;s 1,238 MW at Jamnagar, listed on 13 April 2026.</p>
+
+<h2>How fast the list has grown</h2>
+<div class="tw">
+<table>
+<tr><th>Revision</th><th>Date</th><th>Cumulative enlisted capacity (MW a year)</th><th>Company names</th><th>Cell lines on list</th></tr>
+<tr><td>0 (base)</td><td>31 Jul 2025</td><td>13,067</td><td>8</td><td>9</td></tr>
+<tr><td>1</td><td>23 Sep 2025</td><td>17,880</td><td>10</td><td>12</td></tr>
+<tr><td>2</td><td>24 Nov 2025</td><td>18,482</td><td>11</td><td>13</td></tr>
+<tr><td>3</td><td>15 Dec 2025</td><td>23,733</td><td>12</td><td>15</td></tr>
+<tr><td>4</td><td>5 Feb 2026</td><td>26,791</td><td>13</td><td>17</td></tr>
+<tr><td>5</td><td>13 Feb 2026</td><td>27,228</td><td>14</td><td>18</td></tr>
+<tr><td>6</td><td>13 Apr 2026</td><td>30,057</td><td>16</td><td>20</td></tr>
+<tr><td>7</td><td>30 Apr 2026</td><td>30,509</td><td>17</td><td>21</td></tr>
+<tr><td>8</td><td>22 Jul 2026</td><td>31,759</td><td>18</td><td>22</td></tr>
+<tr><td>9</td><td>21 Aug 2026</td><td>35,468</td><td>18</td><td>22</td></tr>
+<tr><td>10</td><td>28 Sep 2026</td><td>36,865</td><td>18</td><td>23</td></tr>
+<tr><td>11</td><td>5 Oct 2026</td><td>37,394</td><td>18</td><td>23</td></tr>
+<tr><td>12</td><td>8 Oct 2026</td><td>37,796</td><td>19</td><td>24</td></tr>
+</table>
+</div>
+<p>The list has roughly tripled in fourteen months, from 13,067 MW to 37,796 MW. The biggest single jump was the third revision (15 December 2025), when Waaree&rsquo;s 5,251 MW went on. My running total for the ninth revision, 35,468 MW, is within 1 MW of the 35,467 MW that trade outlet <a href="https://www.energetica-india.net/news/almm-update-solar-module-capacity-surpasses-228-gw-in-september-2026">Energetica India</a> reports for that revision. That is a useful independent check on the method.</p>
+
+<h2>Cells are the narrow end of the pipe</h2>
+<p>Modules are far easier to build than cells. Energetica India, which tracks MNRE&rsquo;s List-I, reports cumulative enlisted module capacity of <b>228,524 MW</b> after the September 2026 update. That is six times the cell capacity: 228,524 divided by 37,796 is 6.0. A module line needs cells, so List-II is where the constraint would show first.</p>
+<p>Compare the cell capacity with what India installs. JMK Research, citing MNRE, puts <a href="https://jmkresearch.com/india-installs-record-44-gw-solar-and-6-gw-wind-capacity-in-fy2026/">solar additions in FY2026 at about 44.6 GW, of which about 34.8 GW ground-mounted and 8.7 GW rooftop</a>. Enlisted cell capacity of 37.8 GW is about 85% of the all-segment total and 4.3 times the rooftop figure.</p>
+
+<div class="warn"><b>Do not read this as supply versus demand.</b> The comparison is indicative only. Enlisted capacity is a factory&rsquo;s annual nameplate, not what it ships, and a plant listed this month may not be at full output. The installation figures may mix AC and DC reporting bases, which I could not check. And List-II binds only some projects. Utility-scale projects won on bids submitted before 31 August 2025 are exempt, so part of the 34.8 GW of ground-mounted additions never needed List-II cells. The segment that does need them from January is net-metering and open access, and I have no published count of that demand.</div>
+
+<h2>What to watch before 31 December</h2>
+<ul>
+<li><b>Whether the window moves again.</b> MNRE issued five memoranda on the deadline between 25 May and 18 July, and the 18 July one itself records that the earlier dispensation ran only to 31 May 2026.</li>
+<li><b>Which plants ramp.</b> The list shows capacity MNRE has enlisted, not cells delivered. Avaada&rsquo;s entry went from 610 MW to 3,621 MW in a single month (22 July to 21 August).</li>
+<li><b>Geography.</b> A developer in a state with no enlisted cell plant must buy from Gujarat, Tamil Nadu or Telangana, which together hold 67% of the list.</li>
+<li><b>Efficiency claims.</b> The list carries manufacturer-claimed efficiency and wattage ranges, not tested values.</li>
+</ul>
+<p>This sits alongside two earlier posts on the same industry: <a href="https://masaladeutsch.blogspot.com/2026/09/indias-battery-storage-boom-is.html">India&rsquo;s battery storage boom</a> and <a href="https://masaladeutsch.blogspot.com/2026/09/the-solar-panel-recycling-opportunity.html">the solar panel recycling opportunity</a>. All three turn on the same question of how much of the solar chain is made at home.</p>
+
+<div class="note"><b>What I could not check.</b> I could not compute List-I&rsquo;s own total from the ministry&rsquo;s file. The 3 August 2026 List-I PDF is a stack of 50 revisions with no running total, so the module figure above comes from Energetica India&rsquo;s tracking and is not independently summed. I also could not read the pv magazine report on FY2026 installations, because its site blocked my request, so I used JMK Research&rsquo;s version of the same data. Whether the 25 May provision for residential &ldquo;Give It Up&rdquo; consumers under PM Surya Ghar survives the 18 July supersession is not stated in the text I read.</div>
+
+<p class="src">Sources: Energetica India, <a href="https://www.energetica-india.net/news/grew-solar-ampin-jupiter-jv-enter-alcm-list-total-enlisted-cell-capacity-nears-45-gw">&ldquo;GREW Solar, Ampin-Jupiter JV Enter ALCM List, Total Enlisted Cell Capacity Nears 45 GW&rdquo;</a> (13th revision, as reported; added 7 November 2026). MNRE, ALMM List-II for solar PV cells, 12th revision with all earlier revisions (8 October 2026), <a href="https://mnre.gov.in/static/uploads/2026/10/d1f27eb73e8b4201c6fb42266f109bdc.pdf">PDF</a>; MNRE O.M. No. 283/53/2026-GRID SOLAR, 18 July 2026, <a href="https://mnre.gov.in/static/uploads/2026/10/ff10a64fa507f3e79029ecabb73c053d.pdf">PDF</a>; MNRE O.M. No. 283/63/2025-GRID SOLAR, 25 May 2026, <a href="https://mnre.gov.in/static/uploads/2026/10/69e42640f60fc2ae142973c456e07a6f.pdf">PDF</a>; MNRE O.M. No. 283/34/2026-GRID SOLAR, 6 July 2026, <a href="https://mnre.gov.in/static/uploads/2026/10/47a7f5489232b4634abc74957ad59e34.pdf">PDF</a>; MNRE, ALMM List-I for solar PV modules, update of 3 August 2026, <a href="https://mnre.gov.in/static/uploads/2026/10/3ad74490b019f7799711abd84dc7d2a8.pdf">PDF</a>; Energetica India, <a href="https://www.energetica-india.net/news/almm-update-solar-module-capacity-surpasses-228-gw-in-september-2026">ALMM update, September 2026</a> (secondary, module total); JMK Research, <a href="https://jmkresearch.com/india-installs-record-44-gw-solar-and-6-gw-wind-capacity-in-fy2026/">India installs record 44 GW solar in FY2026</a>, 10 April 2026 (secondary). The List-II totals are my own sum of unit capacities, not a figure MNRE publishes. Capacity is annual manufacturing capacity as enlisted, not production.</p>
+
+<div id="changelog" class="note">
+<b>Revision history.</b>
+<ul>
+<li><b>v1.0.0</b> &mdash; 26 October 2026 &mdash; first published.</li>
+</ul>
+</div>
+
+<p class="disclaimer" data-gs-ai-disclosure-v1="1"><strong>About this article:</strong> Researched, written and edited by Umashankar Triplicane Dwarakanathan, with AI research assistance; every figure is meant to trace to the primary source cited. See the <a href="https://masaladeutsch.blogspot.com/p/disclaimer.html">Editorial Policy</a> for how sourcing, AI use and corrections work.</p>
+
+</div>
+
+<div id="gs-idx"></div><script defer="defer" src="https://herrrickshaw.github.io/masaladeutsch/accordion.js"></script>

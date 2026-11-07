@@ -1,0 +1,265 @@
+<div class="artx cptx">
+<style>
+/* ---- typography (gs-typo-unify-v1): keep in sync across all posts ---- */
+.cptx{font-family:Georgia,'Times New Roman',serif;line-height:1.6;color:#111}
+.cptx h1,.cptx h2,.cptx h3{line-height:1.3}
+
+/* ---- palette: define every colour as a custom property here. Do not add
+       raw hex elsewhere in a post's <style> block — reference these vars, so
+       a future palette change is a 4-line edit instead of a find-and-replace
+       across every post. ----
+   --ink     #111    body text, light-locked (see below)
+   --accent  #8a4b08  eyebrow text, h2 rule, table header bg, stat numbers —
+                       the one colour that carries this post's "brand"
+   --rule    #e8dcc4  hairline borders, h2 underline, table cell borders
+   --panel   #fdf7ec  stat-card bg, even table rows — the palette's one tint
+*/
+.cptx{--ink:#111;--accent:#8a4b08;--rule:#e8dcc4;--panel:#fdf7ec;--good:#1a7a4c;--good-soft:#eaf6ef;--bad:#a5402c;--bad-soft:#fff4f0}
+
+/* ---- mono-label convention (added 2026-09-17, borrowed from the
+       india-trade-sector-policy-recommendations design system): the eyebrow
+       kicker and the source line read as data-journalism metadata, not
+       article prose, so they get a monospace face — a system stack, not a
+       hosted webfont, so no post gains an extra network request or a
+       flash-of-unstyled-text risk. Body text (h1/p/li/table) keeps the
+       serif — this is a two-place accent, not a font-pairing overhaul. ---- */
+.cptx{--mono:ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace}
+
+/* ---- light lock (gs-light-lock): a dark Blogger theme (and a browser/OS
+       set to prefers-color-scheme:dark) must not repaint text. Re-assert
+       the same values with !important — verified 2026-08-14 across 5 live
+       posts with the browser's colour scheme forced to dark: body/h1/p/table
+       all stayed light-background/dark-text with no low-contrast pairs.
+       Do NOT add selectors here for panels that are meant to be dark —
+       those go in the guard below. ---- */
+.cptx,.cptx p,.cptx li,.cptx td,.cptx th{color:var(--ink)!important}
+.cptx{background:#fff!important}
+
+/* ---- structure: title + subtitle ----
+   .eyebrow    = the small-caps kicker ABOVE the h1 — "Section · Topic ·
+                 Subtopic", sets context before the reader hits the claim
+   h1          = the headline itself. Write it as the CLAIM, not the topic
+                 ("The Rouble Is the Outlier, Not the Dollar" beats
+                 "Currency Trends Update"). font-size 1.5rem is the deliberate
+                 site-wide size — do not bump it per-post.
+   .standfirst = the one/two-sentence SUBTITLE directly under the h1. This is
+                 also what Blogger's snippet extractor and the JSON-LD meta
+                 description both read (see the gs-head-order block below) —
+                 write it as a real, complete sentence a reader could act on,
+                 not a fragment.
+*/
+.cptx .eyebrow{font-size:.8rem;font-weight:700;letter-spacing:.04em;color:var(--accent);text-transform:uppercase;margin:0 0 6px;font-family:var(--mono)}
+.cptx h1{margin:0 0 10px;font-size:1.5rem}
+.cptx .standfirst{font-size:1.05rem;color:#333!important;margin:0 0 18px}
+.cptx .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px;margin:18px 0}
+.cptx .stat{background:var(--panel);border:1px solid var(--rule);border-radius:10px;padding:12px 14px}
+.cptx .stat b{display:block;font-size:1.2rem;color:var(--accent)}
+.cptx .stat span{font-size:.8rem}
+.cptx h2{color:var(--accent);border-bottom:2px solid var(--rule);padding-bottom:6px;margin-top:30px;font-size:1.15rem}
+
+/* ---- tables: units live in the header, cells carry bare numbers.
+       .tw is the mobile-overflow fix — see the MOBILE comment above. ---- */
+.cptx .tw{overflow-x:auto}
+.cptx table{width:100%;border-collapse:collapse;margin:14px 0;font-size:.88rem}
+.cptx th,.cptx td{border:1px solid var(--rule);padding:7px 9px;text-align:right;word-wrap:break-word;overflow-wrap:break-word}
+.cptx th:first-child,.cptx td:first-child{text-align:left}
+.cptx th{background:var(--accent);color:#fff!important;font-weight:600}
+.cptx tr:nth-child(even){background:var(--panel)}
+
+.cptx .note{background:#eef4ff;border-left:4px solid #2a78d6;padding:12px 16px;margin:18px 0;border-radius:0 8px 8px 0;font-size:.93rem}
+.cptx .warn{background:var(--bad-soft);border-left:4px solid var(--bad);padding:12px 16px;margin:18px 0;border-radius:0 8px 8px 0;font-size:.93rem}
+/* ---- .good (added 2026-09-17): third semantic tier alongside .note (neutral
+       framing) and .warn (a caveat/scope limit) — for the case a caveat block
+       would otherwise get stretched to cover: confirming a figure checked out,
+       a correction that resolved cleanly, a claim that survived cross-check.
+       Same shape as .note/.warn on purpose, so all three read as one family. */
+.cptx .good{background:var(--good-soft);border-left:4px solid var(--good);padding:12px 16px;margin:18px 0;border-radius:0 8px 8px 0;font-size:.93rem}
+/* ---- .chip (added 2026-09-17): formalises a labelling pattern several posts
+       already built ad hoc in JS (e.g. "PLI coverage: strong/partial/gap")
+       into one reusable inline component, so a new post doesn't reinvent it.
+       Use inline: <span class="chip chip-good">Strong</span>. ---- */
+.cptx .chip{display:inline-block;font-family:var(--mono);font-size:.72rem;font-weight:700;letter-spacing:.02em;padding:.15rem .5rem;border-radius:99px;line-height:1.5}
+.cptx .chip-good{background:var(--good-soft);color:var(--good)}
+.cptx .chip-warn{background:var(--panel);color:var(--accent)}
+.cptx .chip-bad{background:var(--bad-soft);color:var(--bad)}
+.cptx .src{font-size:.84rem;font-family:var(--mono);border-top:1px solid var(--rule);padding-top:12px;margin-top:24px}
+.cptx .disclaimer{font-size:.82rem;color:#555;margin-top:10px}
+.cptx .revised{font-size:.8rem;color:#555!important;margin:0 0 14px}
+.cptx .revised code{font-family:inherit;background:var(--panel);padding:1px 5px;border-radius:4px}
+</style>
+
+<div class="gs-head-order" style="display:flex;flex-direction:column">
+<p class="standfirst" style="order:4">Two Ministry of Power orders of 25 September 2026 draft 112 captive coal plants and the Mundra imported-coal plant into the grid; the exchange had already moved &#8377;4.88 to &#8377;7.3 a unit in a month while coal stocks held above 18 MT.</p>
+<div class="topnav-index-link" style="order:1;font-size:.82em;margin:6px 0 14px"><a href="https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html" style="color:#0b5394;text-decoration:none">&#8592; All Articles (Index)</a></div>
+<p class="eyebrow" style="order:2">Energy &amp; Fuels &middot; Power Supply &middot; Coal &middot; India</p>
+<h1 style="order:3">India Ordered 112 Captive Coal Plants to Run Flat Out After Exchange Prices Rose 50% in a Month, With Coal Stocks Steady</h1>
+</div>
+
+<a href="#" id="gs-skip-link" class="gs-skip-link" style="position:absolute;left:-9999px;top:auto;background:#1a1a1a;color:#fff;padding:.6rem 1rem;z-index:1000;border-radius:4px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.85rem">Skip to article content</a>
+<style>.gs-skip-link:focus{left:8px!important;top:8px!important}
+.gs-a11y-bar{display:flex;align-items:center;gap:.55rem;flex-wrap:wrap;background:#f4f5f7;border:1px solid #dfe3e8;border-radius:8px;padding:.55rem .8rem;margin:10px 0 16px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
+.gs-a11y-bar .gs-a11y-label{font-size:.68rem;font-weight:700;letter-spacing:.08em;color:#666;text-transform:uppercase;margin-right:.15rem}
+.gs-a11y-bar button{cursor:pointer;border:1px solid #c7cbd1;background:#fff;color:#1a1a1a;border-radius:5px;padding:.32rem .65rem;font-family:inherit;line-height:1}
+.gs-a11y-bar button.gs-a11y-fs{font-weight:700;min-width:2rem;text-align:center}
+.gs-a11y-bar button.gs-a11y-fs[data-size="sm"]{font-size:.8rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="md"]{font-size:1rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="lg"]{font-size:1.2rem}
+.gs-a11y-bar button.gs-a11y-fs[aria-pressed="true"]{background:#1a1a1a;color:#fff;border-color:#1a1a1a}
+.gs-a11y-bar button:hover{border-color:#8a4b08}
+.gs-a11y-bar button:focus-visible{outline:2px solid #8a4b08;outline-offset:1px}
+.gs-a11y-bar .gs-a11y-sep{width:1px;align-self:stretch;background:#dfe3e8;margin:0 .1rem}</style>
+<div class="gs-a11y-bar" role="group" aria-label="Accessibility controls">
+<span class="gs-a11y-label">Text Size</span>
+<button type="button" class="gs-a11y-fs" data-size="sm" aria-pressed="false" aria-label="Small text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="md" aria-pressed="true" aria-label="Medium text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="lg" aria-pressed="false" aria-label="Large text">A</button>
+<span class="gs-a11y-sep"></span>
+<button type="button" id="gs-a11y-listen" aria-label="Read this article aloud">&#128266; Listen</button>
+<button type="button" id="gs-a11y-stop" aria-label="Stop reading aloud">&#9632; Stop</button>
+</div>
+<script>(function(){
+var KEY='gs-a11y-fontsize', SIZES={sm:'0.92',md:'1',lg:'1.15'};
+function pb(){return document.querySelector('.post-body')||document.querySelector('.artx,.mdrx');}
+function apply(sz){
+  var el=pb(); if(!el||!SIZES[sz]) return;
+  el.style.fontSize=SIZES[sz]+'em';
+  var btns=document.querySelectorAll('.gs-a11y-fs');
+  for(var i=0;i<btns.length;i++){
+    var on=btns[i].getAttribute('data-size')===sz;
+    btns[i].setAttribute('aria-pressed', on?'true':'false');
+  }
+  try{localStorage.setItem(KEY,sz);}catch(e){}
+}
+var fsBtns=document.querySelectorAll('.gs-a11y-fs');
+for(var j=0;j<fsBtns.length;j++){
+  fsBtns[j].addEventListener('click',(function(b){return function(){apply(b.getAttribute('data-size'));};})(fsBtns[j]));
+}
+var saved; try{saved=localStorage.getItem(KEY);}catch(e){}
+apply(saved&&SIZES[saved]?saved:'md');
+
+var listenBtn=document.getElementById('gs-a11y-listen'), stopBtn=document.getElementById('gs-a11y-stop');
+if(listenBtn){
+  listenBtn.addEventListener('click', function(){
+    if(!('speechSynthesis' in window)){ alert('Text-to-speech is not supported in this browser.'); return; }
+    window.speechSynthesis.cancel();
+    var src=pb(); if(!src) return;
+    var clone=src.cloneNode(true);
+    var strip=clone.querySelectorAll('script,style,svg');
+    for(var k=0;k<strip.length;k++){ strip[k].parentNode.removeChild(strip[k]); }
+    var text=clone.textContent.replace(/\s+/g,' ').trim();
+    if(!text) return;
+    var chunks=text.match(/[\s\S]{1,180}(?:[.!?]|$)/g)||[text];
+    var idx=0;
+    function speakNext(){
+      if(idx>=chunks.length) return;
+      var u=new SpeechSynthesisUtterance(chunks[idx]);
+      u.onend=function(){ idx++; speakNext(); };
+      window.speechSynthesis.speak(u);
+    }
+    speakNext();
+  });
+}
+if(stopBtn){
+  stopBtn.addEventListener('click', function(){
+    if('speechSynthesis' in window) window.speechSynthesis.cancel();
+  });
+}
+var skip=document.getElementById('gs-skip-link');
+if(skip){
+  skip.addEventListener('click', function(ev){
+    ev.preventDefault();
+    var h=document.querySelector('.post-body h1')||document.querySelector('.artx h1,.mdrx h1,h1');
+    if(h){ h.setAttribute('tabindex','-1'); h.focus(); h.scrollIntoView(); }
+  });
+}
+})();</script>
+<style>.goog-te-menu-frame{max-width:340px!important;max-height:70vh!important;overflow:auto!important;box-shadow:0 6px 24px rgba(0,0,0,.25)!important}</style>
+<div id="google_translate_element" style="margin:8px 0 16px;"></div><script type="text/javascript">function googleTranslateElementInit(){new google.translate.TranslateElement({pageLanguage:"en",includedLanguages:"hi,bn,ta,te,mr,gu,kn,ml,pa,or,as,ur,sa,ne,sd",layout:google.translate.TranslateElement.InlineLayout.SIMPLE,autoDisplay:false},"google_translate_element");}</script><script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+<p class="revised" data-gs-revision-v1="1">Revised
+<time datetime="2026-10-26" itemprop="dateModified">26 October 2026</time>
+&middot; <code>v1.0.0</code></p>
+
+<div class="stats">
+<div class="stat"><b>112</b><span>captive coal plants named in the annexure (50 MW and above), ordered to run at maximum available capacity from 1 Oct to 31 Dec 2026</span></div>
+<div class="stat"><b>&#8377;4.88 &rarr; &#8377;7.3</b><span>IEX day-ahead average clearing price, August to September 2026 (&#8377;/kWh), about +50%</span></div>
+<div class="stat"><b>269 GW</b><span>peak demand on 10 September 2026, the day the exchange recorded a 281% year-on-year jump in buy bids</span></div>
+<div class="stat"><b>18.205 MT</b><span>coal stock at domestic power plants on 10 October 2026, roughly seven days of burn</span></div>
+</div>
+
+<p>On 25 September 2026 the Ministry of Power issued two orders under Section 11 of the Electricity Act, 2003, the clause that lets the Centre direct generators to run in the public interest. One told every captive coal plant of 50 MW or more on a 112-entry list to generate "to the maximum extent of their available capacity" from 1 October to 31 December 2026 and to offer whatever they do not need themselves to the power exchanges. The other extended, to 31 December, the Section 11 directions on the imported-coal plant of Coastal Gujarat Power Ltd (CGPL) at Mundra. Read together with exchange data, the pattern is of a market that was short of electricity at the margin in September, while coal at power plants was holding steady. That is a different story from a fuel shortage.</p>
+
+<div class="warn" style="border-left:4px solid #a5402c;background:rgba(165,64,44,.07);padding:.8em 1em;margin:1.2em 0;border-radius:4px"><b>Updated 7 November 2026.</b> October eased the shortage this piece describes without ending it. The IEX day-ahead average fell to &#8377;6.66/kWh in October from &#8377;7.3 in September, still 149% above October 2025&rsquo;s &#8377;2.67, which IEX partly put down to a low base; the real-time market averaged &#8377;5.78 (<a href="https://mercomindia.com/iexs-green-power-trading-volume-declines-30-in-october">Mercom</a>, reporting IEX&rsquo;s monthly update). Coal at power plants held at about 18.2 MT: the Ministry of Coal said stocks fell only about 0.06 MT a day in the first ten days of October, against 0.24 MT a day in September, as supply rose to 2.49 MT a day (<a href="https://www.thehansindia.com/business/market-compass/coal-stocks-at-indian-power-plants-stable-above-18-mt-as-supplies-strengthen-1131643">The Hans India</a>). No count of how much the 112 captive plants actually offered to the exchanges has been published.</div>
+<h2>What the two orders actually say</h2>
+
+<p>The <a href="https://powermin.gov.in/static/uploads/2026/09/1c9e465d38785fe239f2aef55220d076.pdf">captive-plant letter</a> cites the "prevailing demand-supply scenario and the expected rise in electricity demand in the coming months" and gives five directions. Captive coal stations of 50 MW and above operate at maximum available capacity; they offer available surplus, after meeting their own captive demand, through the power exchanges under the applicable market rules; they keep adequate coal stock; they send the Central Electricity Authority (CEA) a weekly report covering generation, captive consumption, exchange sales, available capacity and coal stock; and the whole thing applies from 1 October to 31 December 2026. The copy list includes CEA, the regulators, every state power secretary and Grid India.</p>
+
+<p>The annexure is a scanned list of names, numbered up to 112 (the scan garbles a few of the numerals; the trade press also reports <a href="https://indianmasterminds.com/news/power-ministry-112-captive-coal-plants-maximise-generation-october-2026-237463/">112 plants</a>). It has no capacity column, so the post cannot total the megawatts. Judging by names, the list is steel (Tata Steel, JSW, SAIL, RINL, Jindal), cement (UltraTech, ACC, Ambuja, Shree), aluminium and zinc (Vedanta, Hindalco, NALCO, BALCO, Hindustan Zinc), refining and chemicals (IOCL Paradip, Nayara, Reliance Jamnagar, HMEL, Haldia Petrochemicals), plus sugar and paper mills. Those are industries that run their own power stations because they burn a lot of it. One line, item 88, reads only "CPP1, CPP2, CPP3 and CPP4" with no owner, so even the name count has a gap.</p>
+
+<div class="warn"><b>What the order does not do.</b> It does not take captive power for the grid. The plants first serve their own factories; only the "available surplus" is offered to exchanges. A smelter that already uses all it generates adds nothing. The order's real effect is on plants that were holding back, and the annexure and the ministry's letter give no figure for how much that is.</div>
+
+<p>The <a href="https://powermin.gov.in/static/uploads/2026/09/5eab55faac0030c9fe0950ea40c5547e.pdf">CGPL letter</a> is shorter. It recalls the Section 11 directions of 22 March 2026, valid to 30 June, extended to 30 September by a letter of 19 June, and now extends them to 31 December "in view of the prevailing power demand scenario". The queue note that prompted this post called it the third extension; by the letter's own text it is the second extension of the original March order, the third document in the series. It is copied to the power secretaries of Gujarat, Haryana, Punjab, Maharashtra and Rajasthan, which presumably are the states buying from the plant. The letter does not say so, and it states no capacity; a market-news site, <a href="https://www.sahi.com/news/tata-power-mundra-plant-receives-section-11-extension-until-september-30-ensuring-continued-cost-pass-through-282-PE1_CORP">Sahi</a>, describes the plant as Tata Power's 4,000 MW Mundra project.</p>
+
+<div class="tw">
+<table>
+<tr><th>Order</th><th>Date issued</th><th>Covers</th><th>Valid until</th></tr>
+<tr><td>CGPL original direction</td><td>22 Mar 2026</td><td>CGPL imported-coal plant</td><td>30 Jun 2026</td></tr>
+<tr><td>CGPL first extension</td><td>19 Jun 2026</td><td>CGPL imported-coal plant</td><td>30 Sep 2026</td></tr>
+<tr><td>CGPL second extension</td><td>25 Sep 2026</td><td>CGPL imported-coal plant</td><td>31 Dec 2026</td></tr>
+<tr><td>Captive coal direction</td><td>25 Sep 2026</td><td>112 captive plants, 50 MW and above</td><td>31 Dec 2026 (from 1 Oct)</td></tr>
+</table>
+</div>
+
+<h2>Section 11 has been used this way before, but not on captives</h2>
+
+<p>In 2023 the ministry used Section 11 on imported-coal plants. A <a href="https://www.business-standard.com/economy/news/power-min-asks-imported-coal-based-plants-to-run-full-capacity-till-sept-30-123061200638_1.html">Business Standard/PTI report of 12 June 2023</a> says 15 such plants were told in February to run at full capacity from 16 March to 15 June 2023, and the period was extended to 30 September. <a href="https://www.powermag.com/india-extends-emergency-operation-order-for-plants-using-imported-coal">POWER magazine</a> reports that on 23 October 2023 the direction, then running to 31 October, was extended to 30 June 2024 and involved about 17 GW. I found no earlier Section 11 order aimed at captive plants. That does not prove there was none; I searched the web and the ministry's site only for 2022 to 2026 imported-coal orders and did not check the ministry's full archive. How the 2023-24 orders ended, and whether the 2026 CGPL order has precedents beyond what is above, I could not confirm from documents I opened.</p>
+
+<h2>The exchange was already pricing a squeeze</h2>
+
+<p>The Indian Energy Exchange's <a href="https://www.jmfinancialservices.in/market-news-and-insights/1735240">September release</a> (reproduced by JM Financial on 6 October) says peak demand touched 269 GW on 10 September 2026, energy consumption was 162 billion units (up 11% on the year), and buy bids in the day-ahead market (DAM) rose 281% year-on-year. The DAM average clearing price was &#8377;7.3 per unit, up 105%; the real-time market (RTM) averaged &#8377;6.9, up 108%. The same release puts DAM volume at 4,251 MU, up just 0.5%. Far more was bid; almost no more cleared. That is what scarcity looks like on an exchange.</p>
+
+<p>For August, <a href="https://mercomindia.com/iex-clocks-record-monthly-trading-volume-in-august-rises-to-13-94-bu">Mercom's report on IEX's August figures</a> gives a DAM average of &#8377;4.88 and an RTM average of &#8377;4.41, with 169.01 billion units consumed.</p>
+
+<div class="tw">
+<table>
+<tr><th>Measure</th><th>Aug 2026</th><th>Sep 2026</th><th>Change (%)</th></tr>
+<tr><td>DAM average price (&#8377;/kWh)</td><td>4.88</td><td>7.3</td><td>+50</td></tr>
+<tr><td>RTM average price (&#8377;/kWh)</td><td>4.41</td><td>6.9</td><td>+56</td></tr>
+<tr><td>DAM volume incl. HP-DAM (MU)</td><td>5,517</td><td>4,251</td><td>&minus;23</td></tr>
+<tr><td>Energy consumption (billion units)</td><td>169.01</td><td>162</td><td>&minus;4</td></tr>
+</table>
+</div>
+
+<p>The percentage changes are my arithmetic on the two reports' rounded figures. Prices rose by half in a month while total consumption was lower in September than August. The squeeze is therefore not about how much electricity India uses in a month; it is about having enough dispatchable supply at the hours when demand peaks. A captive plant that runs flat out adds supply in every hour, which is precisely what the ministry says it wants ("optimal availability of power").</p>
+
+<div class="warn"><b>What I could not check.</b> Exchange prices after 25 September are not yet published: IEX's October numbers come in early November. So I cannot say whether the order has cooled prices. Press reports put the September energy shortage at 544 million units (versus 98 million in August) citing Grid India, but I could not open that report or any Grid India daily file, so the figure is not used here. Likewise, I did not verify the all-time peak of May 2026.</div>
+
+<h2>The coal stock is stable, and that does not contradict the squeeze</h2>
+
+<p>The Coal Ministry's early-October note, as carried by <a href="https://newsonair.gov.in/coal-stocks-at-domestic-power-plants-remain-above-18-million-tonnes-since-september-29/">All India Radio</a>, says stocks at domestic coal plants have stayed above 18 MT since 29 September, at 18.205 MT on 10 October, with 469 rakes a day loaded for the power sector in 1 to 10 October against 426 in September. The fuller figures come from <a href="https://indianmasterminds.com/news/india-coal-stocks-above-18-mt-supply-rises-october-2026-241512/">Indian Masterminds' write-up of the ministry's data</a>.</p>
+
+<div class="tw">
+<table>
+<tr><th>Coal indicator</th><th>September 2026</th><th>1&ndash;10 October 2026</th></tr>
+<tr><td>Change in plant stock (MT per day)</td><td>&minus;0.24</td><td>&minus;0.06</td></tr>
+<tr><td>Coal supplied to power sector (MT per day)</td><td>2.21</td><td>2.49</td></tr>
+<tr><td>Rakes loaded per day</td><td>426</td><td>469</td></tr>
+</table>
+</div>
+
+<p>Stock stood at 18.932 MT on 29 September, so "stable above 18 MT" describes where the fall stopped, after a September drop of about 7.28 MT. Adding the 0.06 MT daily draw-down to the 2.49 MT daily supply implies burn of about 2.55 MT a day, and 18.2 MT then covers roughly seven days (my arithmetic). So the two facts fit together: plants have coal, enough for a week at current burn, and supply has been above the planned 2.37 MT a day on nine of ten days. Whether there is enough <em>generating capacity running at the right hour</em> is a separate question, and the Section 11 orders and the exchange prices address that one. It also explains clause (c) of the captive order, which makes the owners responsible for their own coal: a captive plant told to run harder will burn more.</p>
+
+<div class="good"><b>Reconciled.</b> No conflict between "stocks above 18 MT" and an emergency order: the first measures fuel in the yard, the second measures megawatts delivered. Stock rising in October is the condition that makes asking plants to run harder possible.</div>
+
+<h2>Why it matters</h2>
+
+<p>This is a second, small piece of evidence on a theme this blog <a href="https://masaladeutsch.blogspot.com/2026/09/the-ministry-of-power-published-two.html">raised on distribution losses</a>: the headline supply picture and the fine print differ. The ministry cites "the expected rise in electricity demand" as the reason for both orders but publishes no shortage or capacity number in either letter. The weekly CEA reports required of the 112 plants would settle how much power the order actually moves; they are not public, and I have seen no commitment to publish them. If they were, three numbers would answer the question: surplus offered, surplus cleared, and the price it cleared at.</p>
+
+<p class="src">Sources: Mercom, <a href="https://mercomindia.com/iexs-green-power-trading-volume-declines-30-in-october">IEX October 2026 market update</a>; The Hans India, <a href="https://www.thehansindia.com/business/market-compass/coal-stocks-at-indian-power-plants-stable-above-18-mt-as-supplies-strengthen-1131643">&ldquo;Coal stocks at Indian power plants stable above 18 MT&rdquo;</a> (both added 7 November 2026). Ministry of Power letters of 25 Sep 2026 (captive, <a href="https://powermin.gov.in/static/uploads/2026/09/1c9e465d38785fe239f2aef55220d076.pdf">PDF</a>; CGPL, <a href="https://powermin.gov.in/static/uploads/2026/09/5eab55faac0030c9fe0950ea40c5547e.pdf">PDF</a>); IEX September 2026 release via <a href="https://www.jmfinancialservices.in/market-news-and-insights/1735240">JM Financial</a>; August 2026 via <a href="https://mercomindia.com/iex-clocks-record-monthly-trading-volume-in-august-rises-to-13-94-bu">Mercom</a>; Ministry of Coal data via <a href="https://newsonair.gov.in/coal-stocks-at-domestic-power-plants-remain-above-18-million-tonnes-since-september-29/">All India Radio</a> and <a href="https://indianmasterminds.com/news/india-coal-stocks-above-18-mt-supply-rises-october-2026-241512/">Indian Masterminds</a>; 2023 precedents via <a href="https://www.business-standard.com/economy/news/power-min-asks-imported-coal-based-plants-to-run-full-capacity-till-sept-30-123061200638_1.html">Business Standard/PTI</a> and <a href="https://www.powermag.com/india-extends-emergency-operation-order-for-plants-using-imported-coal">POWER</a>; plant count cross-check <a href="https://indianmasterminds.com/news/power-ministry-112-captive-coal-plants-maximise-generation-october-2026-237463/">Indian Masterminds</a>; CGPL capacity <a href="https://www.sahi.com/news/tata-power-mundra-plant-receives-section-11-extension-until-september-30-ensuring-continued-cost-pass-through-282-PE1_CORP">Sahi</a> (secondary, unverified). Exchange and coal figures are second-hand reproductions of IEX and ministry releases, not the original files.</p>
+
+
+<p class="disclaimer" data-gs-ai-disclosure-v1="1"><strong>About this article:</strong> Researched, written and edited by Umashankar Triplicane Dwarakanathan, with AI research assistance; every figure is meant to trace to the primary source cited. See the <a href="https://masaladeutsch.blogspot.com/p/disclaimer.html">Editorial Policy</a> for how sourcing, AI use and corrections work.</p>
+
+</div>
+
+<div id="gs-idx"></div><script defer="defer" src="https://herrrickshaw.github.io/masaladeutsch/accordion.js"></script>
