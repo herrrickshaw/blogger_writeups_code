@@ -795,6 +795,7 @@ SLUG_CONTAINS = {
     "doesnt-need-blockchain-to-pay": ["Agriculture & Fertilisers", "Governance & Institutions", "Markets & Finance"],
     "free-cell-game-fits-indias": ["Education"],
     "chessboard-and-indias-granaries": ["Agriculture & Fertilisers", "Grain Procurement & Storage"],
+    "record-maize-crop-will-not": ["Chemicals", "Agriculture & Fertilisers", "Import Substitution"],
     "capped-margins-on-137-cancer": ["Healthcare"],
     "indians-pay-for-health": ["Healthcare"],
     "funded-3-lakh-machines": ["Agriculture & Fertilisers", "Energy & Fuels"],
