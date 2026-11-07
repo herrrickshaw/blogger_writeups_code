@@ -4,4 +4,6 @@
 
 **This is a report, not an applied fix.** LanguageTool has a high false-positive rate on this blog's prose (chart captions, code identifiers, valid constructions it misparses) — review each item before touching the post.
 
-- ERROR checking chunk: <urlopen error [Errno 8] nodename nor servname provided, or not known>
+- **[GRAMMAR/THE_SUPERLATIVE]** A determiner may be missing.
+  context: ... get first allocation and the rest goes cheapest feedstock first. Every award is subject...
+  suggested: the cheapest
