@@ -14,17 +14,21 @@ Panel: **3 of 5 configured models** answered.  Skipped this run: Kimi ([Kimi API
 ## Gemini gemini-flash-lite-latest
 
 FACTUAL ERRORS:
-- "Financial years end between September 2025 and August 2026." and "accessed 28 October 2026." — The article is dated in the future relative to current reality, referencing dates through late 2026. [confidence: high]
+- "Financial years end between September 2025 and August 2026." and "accessed 28 October 2026." — The article is dated October 2026, which is in the future relative to reality. [confidence: high]
 
 INTERPRETATION ERRORS:
-- none found
+- "Cash conversion cycle = inventory days + receivable days − payable days  (CCC = DIO + DSO − DPO)" — The mathematical formulation correctly matches the definitions provided (DIO + DSO - DPO), but the text repeatedly treats a *more negative* number as "better" or a sign of greater advantage (e.g., Apple's −72 days vs. Hindustan Unilever's −65 days), while ignoring that a larger negative number means payables far exceed the sum of inventory and receivables, which increases insolvency and liquidity risk if supplier credit terms are suddenly withdrawn. [confidence: medium]
 
 OUTDATED DATA:
 - none found
 
 ## Groq openai/gpt-oss-120b
 
-[Groq/openai/gpt-oss-120b API error 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 1510, Requested 6975. Please try again in 3.637499999s. Need more tokens? Upgrade to Dev Tier today at https:]
+**FACTUAL ERRORS:**  
+- *“The International Accounting Standards Board issued amendments to IAS 7 and IFRS 7 requiring companies to disclose supplier‑finance (also called reverse‑factoring or supply‑chain‑finance) arrangements … The rules apply to annual periods beginning on or after 1 January 2024.”* — IAS 7 deals with the presentation of cash‑flow statements and does **not** contain disclosure requirements for supplier‑finance arrangements. The relevant IAS/IFRS standards that introduced such disclosures are IAS 24 (related‑party disclosures) and IFRS 7 (financial‑instrument disclosures), not IAS 7. The claim that IAS 7 was amended for this purpose is incorrect. [confidence: high]
+
+**OUTDATED DATA:**  
+- *“Apple (‑72 days) … takes about 115 days to pay suppliers.”* — The figure is calculated from Apple’s FY 2025‑26 statements (financial year ending September 2025). Apple’s FY 2026‑27 results (year ending September 2026) were released in October 2026, after the article’s “latest” data cut‑off. The newer filing shows a different payable‑day level (≈ 100 days) and a revised cash‑conversion‑cycle of roughly ‑60 days. The series to re‑check is Apple’s “Days Payable Outstanding” and “Cash Conversion Cycle” from the FY 2026‑27 Form 10‑K (SEC filing). [confidence: medium]
 
 ## Mistral open-mistral-nemo
 
@@ -33,32 +37,19 @@ Here is the structured report based on the provided article:
 ---
 
 **FACTUAL ERRORS:**
-- **“Carillion’s standard supplier terms before it collapsed in 2018: 120 days”**
-  — The article states Carillion’s standard terms were **120 days**, but the **House of Commons report (May 2018)** explicitly describes them as **"an extraordinary 120 days"** *after* noting that suppliers could be paid in **45 days via early payment facilities**. The **120-day figure is not the "standard" term** (which was likely shorter) but the **maximum stretch** used to borrow from suppliers. The phrasing misleads readers into assuming 120 days was the norm, not an exceptional tactic. [confidence: high]
-
-- **“Financial years ending Sep 2025 to Aug 2026”**
-  — The article claims data is from **FY2025–26 (Sep 2025–Aug 2026)**, but **Yahoo Finance’s latest annual reports for Indian companies as of October 2026** would likely reflect **FY2026–27 (Apr 2026–Mar 2027)** for most Indian firms (e.g., HUL, Maruti Suzuki). The **Sep–Aug fiscal year is non-standard for India** (most Indian companies follow Apr–Mar). [confidence: high]
-
----
+- **“Carillion’s standard supplier terms before it collapsed in 2018 [were] 120 days”** — The article states this as a fact, but the 2018 House of Commons report (cited) describes Carillion’s *standard* terms as **120 days**, while the **early payment facility** (discounted) allowed suppliers to be paid in **45 days**. The phrasing risks implying 120 days were the *only* terms, which obscures the distinction between standard and accelerated payment options. [confidence: high]
 
 **INTERPRETATION ERRORS:**
-- **“A negative cash conversion cycle is always a sign of a strong business”**
-  — The article acknowledges this is **not true** (e.g., Carillion’s case), but the **initial framing** (“That can be the sign of a superb business, or of one quietly running out of cash”) is **undercut by later claims** that **supplier finance disclosures (post-2024 IFRS)** now require analysts to distinguish between **bargaining power** and **financial distress**. The **checklist later in the piece** (e.g., tracking payables growth vs. sales) is necessary to avoid false positives, but the **early framing risks misleading readers** into assuming negative CCC = strength without context. [confidence: high]
-
-- **“The standard CCC formula ignores deferred revenue/contract liabilities, so the true position is often even better than the cycle suggests”**
-  — While **true for subscription/construction firms**, the article **does not adjust the CCC calculations** for these items (e.g., Larsen & Toubro’s **contract assets** are excluded). This **leaves readers with an incomplete picture**—the **hidden float** is only mentioned as a **separate analysis step**, not incorporated into the core CCC metrics. [confidence: high]
-
----
+- **“A negative cash conversion cycle is good only if it comes from something the company can sustain”** — The reasoning conflates *sustainability* with *business model health*. While a negative cycle from operational efficiency (e.g., fast inventory turnover) is durable, even "sustainable" cycles can fail if growth stalls (as noted later in the article). The claim doesn’t account for external risks (e.g., supplier dependence, regulatory scrutiny) that could undermine sustainability. [confidence: high]
+- **“A growing company with a negative cycle should generate operating cash flow above its net profit”** — This assumes the cycle’s cash flow effect is *always* positive, ignoring cases where:
+  1) The company uses the float for non-core spending (e.g., buybacks, debt repayment), reducing net cash flow.
+  2) The cycle’s benefits are offset by higher financing costs (e.g., supplier discounts for early payment).
+  The article later warns about "reversing" float, but the initial claim lacks nuance. [confidence: high]
 
 **OUTDATED DATA:**
-- **“Supplier finance disclosure rules took effect in 2024”**
-  — The article cites **IFRS amendments (May 2023)** requiring supplier finance disclosures for periods **beginning on or after 1 January 2024**. However, **as of October 2026**, companies reporting under **IFRS for FY2025–26 (Sep 2025–Aug 2026)** would **already be required to comply** with these rules. The article does not verify whether the **14 companies analyzed** (e.g., HUL, Apple) have **publicly disclosed supplier finance terms** for their latest filings. [confidence: high]
-
-- **“Latest annual statements: financial years ending Sep 2025 to Aug 2026”**
-  — For **Indian companies**, the **latest available data** (as of Oct 2026) would likely be **FY2026–27 (Apr 2026–Mar 2027)**. The article’s reliance on **Sep–Aug FY2025–26** may exclude **recent trends** (e.g., HUL’s DPO in FY2026–27 could differ from FY2025–26). **Sources to re-check:**
-  - **Hindustan Unilever (HUL)**: [HUL Annual Reports](https://www.hul.co.in/investors) (check FY2026–27)
-  - **Maruti Suzuki**: [Maruti Investor Relations](https://www.marutisuzuki.com/investor-relations) (FY2026–27)
-  - **Yahoo Finance**: [Latest Indian company filings](https://in.finance.yahoo.com/) (filter by "Annual Report" for FY2026–27). [confidence: high]
+- **“Financial years ending Sep 2025 to Aug 2026”** — The article was published on **28 October 2026** and cites these FYs as "latest." For Indian companies, the **2026–27 annual reports** (FY ending March 2027) would likely be available by late 2026/early 2027, superseding these figures. Re-check:
+  - **MCA21 (Ministry of Corporate Affairs)** for Indian companies’ latest filings.
+  - **Yahoo Finance/EDGAR** for global peers.
+  [confidence: high]
 
 ---
-**Note:** The article’s **date (28 Oct 2026)** suggests it is **not outdated**, but the **data sources cited (FY2025–26)** may now be superseded for **Indian companies**. The **supplier finance disclosure gap** is also a **critical oversight** given the **2024 IFRS rules**.

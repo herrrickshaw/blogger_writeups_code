@@ -17456,3 +17456,16 @@ November data refresh
 - `the-world-bank-says-496-million-indians` — 2026-11-07 &rarr; 2026-11-07
 - `panchayats-raise-barely-two-rupees-in` — 2026-11-07 &rarr; 2026-11-07
 - `doubling-indias-csr-profit-trigger` — 2026-11-07 &rarr; 2026-11-07
+
+## 2026-11-07T10:54:34+05:30 — 501 posts live
+
+process-safety how-to: section 15 and demo link
+
+
+**Versions**
+
+- `how-to-use-process-safety-design` **3.1.0 → 3.2.0** (MINOR) — forced via --as minor (figures changed (+61/-0 distinct numbers))
+
+**Changed**
+
+- `how-to-use-process-safety-design` — 53,740 → 66,997 bytes (+13,257)

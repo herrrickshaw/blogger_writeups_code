@@ -14,41 +14,30 @@ Panel: **3 of 5 configured models** answered.  Skipped this run: Kimi ([Kimi API
 ## Gemini gemini-flash-lite-latest
 
 FACTUAL ERRORS:
-- "The World Bank expects commodity prices to rise 16 percent in 2026... +16% World Bank forecast rise in average commodity prices, 2026 (April outlook)" — The World Bank's Commodity Markets Outlook published in April 2026 is a hypothetical future event/forecast well beyond the knowledge cutoff and the current operational reality, making this specific forward-looking figure unverifiable and anachronistic for the current period. [confidence: high]
+- "Taiwan is missing because it does not report to Comtrade." — Taiwan does report trade data to UN Comtrade (often under "China, Hong Kong" or reported via alternative aggregates/partners, or historically reported directly; regardless, UN Comtrade does contain Taiwanese trade statistics). [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "A score of −1 means the country only imports that commodity; +1 means it only exports it... India: Energy (−0.42), Metals and ores (−0.24), Food (+0.21), Fertilizers (−0.98)..." — The net trade score formula provided is $(Exports - Imports) / (Exports + Imports)$. This is mathematically constrained to lie strictly between −1 and +1 when exports and imports are non-negative, but it does not represent absolute import dependency versus export dominance in volume terms without knowing the total trade volume; furthermore, categorizing a country's entire macro trade exposure based solely on this normalized ratio without weighting by GDP or total consumption can distort the true economic vulnerability (e.g., treating a small net exporter the same as a massive net exporter). [confidence: medium]
+- "A score of −1 means the country only imports that commodity; +1 means it only exports it." — The formula given is $(Exports - Imports) / (Exports + Imports)$. If a country has zero exports and positive imports, the numerator is $-Imports$ and the denominator is $+Imports$, yielding exactly $-1$. However, if a country has zero imports and positive exports, the numerator is $+Exports$ and the denominator is $+Exports$, yielding exactly $+1$. While the extremes are mathematically possible, interpreting intermediate scores strictly as "only imports" or "only exports" is imprecise, and treating the index as a linear scale of absolute dependence can be misleading when trade volumes are extremely asymmetric. [confidence: medium]
 
 OUTDATED DATA:
 - none found
 
 ## Groq openai/gpt-oss-120b
 
-[Groq/openai/gpt-oss-120b API error 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 3140, Requested 7759. Please try again in 21.7425s. Need more tokens? Upgrade to Dev Tier today at https://co]
+**FACTUAL ERRORS**  
+- *“In March 2026 the war with Iran effectively closed the Strait of Hormuz. The World Bank called the result the largest oil supply loss on record, about 10 million barrels a day.”* — No credible source records a war between Iran and any other state in March 2026 that led to a complete closure of the Strait of Hormuz, nor does the World Bank’s 2026 Pink Sheet describe a “largest oil supply loss on record” of 10 mb/d. The claim contradicts publicly available geopolitical and energy‑market data up to the end of 2026. **[confidence: high]**  
+
+**INTERPRETATION ERRORS**  
+- *“Saudi stocks rose 6.6 % as Hormuz closed and Japan’s fell 7.4 %, … Across all 19 markets, the link between energy trade position and returns was not statistically clear (t = 1.6).”* — The article treats the observed price moves of Saudi Arabia versus Japan as evidence that a country’s net‑energy‑export status determines stock‑market performance during the Hormuz shock. However, the reported t‑stat (1.6) indicates the relationship is not statistically significant, and the author himself notes the pattern is “loose.” Presenting the correlation as a causal explanation therefore overstates the evidence. **[confidence: high]**
 
 ## Mistral open-mistral-nemo
 
 **FACTUAL ERRORS:**
-- *"The World Bank called the result the largest oil supply loss on record, about 10 million barrels a day"* — The claim that **10 million barrels/day (mb/d) lost in March 2026** is the largest on record is **plausible but unverifiable** without cross-checking the World Bank’s *Commodity Markets Outlook* (April 2026) or historical supply disruption data (e.g., 1973 oil crisis: ~5 mb/d lost; 1990 Gulf War: ~3 mb/d). The article does not cite a primary source for this claim, and the **2026 figure may not exceed past peaks** (e.g., 2022 Russia-Ukraine war disruptions). [confidence: **medium**]
-
-- *"Gold had nearly doubled in a year"* — The claim that **gold prices nearly doubled from early 2025 to early 2026** is **likely incorrect**. Spot gold rose from ~$2,000/oz (Jan 2025) to ~$2,300/oz (Sep 2026), a **~15% increase**, not 100%. The World Bank’s *precious metals index* (312 vs. 223) reflects broader commodity trends, not spot gold alone. [confidence: **high**]
-
----
+- *"The World Bank called the result the largest oil supply loss on record, about 10 million barrels a day"* — The article does not cite a specific World Bank report or methodology to confirm this as the *largest* on record (e.g., historical comparisons to past disruptions like the 1973 oil crisis or 2019 Saudi Aramco attacks). While the claim aligns with the 2026 context, no direct evidence is provided to validate it as an absolute record. [confidence: medium]
 
 **INTERPRETATION ERRORS:**
-- *"The 2026 surge is really two stories moving at different speeds: **energy and fertilizers (supply shock) vs. metals (demand-driven supercycle)**"* — The **causal distinction is overstated**. While metals show **persistent demand-driven trends** (e.g., grids, batteries), the **2026 base metals rally (30% YoY)** is also **amplified by Hormuz-related shipping disruptions** (e.g., copper/lithium supply chains through the Gulf). The article conflates **structural demand** with **short-term supply frictions**, ignoring that metals like copper are **indirectly affected by geopolitical risks** (e.g., Red Sea shipping delays). [confidence: **high**]
+- *"The 2026 surge is really two stories moving at different speeds: Energy and fertilizers: a supply shock... Metals: the demand story"* — The article conflates *timing* (short-term supply shock vs. long-term demand-driven trends) with *causation* for the broader commodity price rise. While the distinction is analytically valid, the claim that metals’ 30% rise is purely demand-driven ignores that the same supply constraints (e.g., mine ramp-up times) apply to metals as to energy/fertilizers. The article’s narrative risks oversimplifying metals as a "supercycle" without addressing whether their price surge is also partly supply-constrained (e.g., geopolitical risks, infrastructure bottlenecks). [confidence: high]
 
-- *"A country’s trade position shapes how its stocks behave over many years, but **one shock, however large, adds too little information to separate winners from losers reliably**"* — The **statistical weakness (t = 1.6 for Hormuz shock)** is used to dismiss a clear **trade-dependence pattern**, but the **sector-level evidence contradicts this**. Energy stocks rose **7.3%** across markets in March–April 2026, while **consumer discretionary stocks fell 7.6%**, showing **sectoral sensitivity to shocks** persists. The article’s conclusion **underplays the shock’s immediate sectoral impact** in favor of long-term trade position. [confidence: **high**]
-
----
 **OUTDATED DATA:**
-- *"UN Comtrade, 2023"* — The **2023 trade data** for net trade scores (e.g., India’s fertilizer import dependence) is **outdated**. The latest UN Comtrade release (as of Oct 2026) likely includes **2024–2025 data**, which may show:
-  - **India’s fertilizer imports** surged further due to 2026 supply shocks (e.g., Russia’s reduced urea exports).
-  - **China’s energy imports** may have declined if domestic production rebounded post-Hormuz disruptions.
-  - **Saudi Arabia’s oil export volumes** could have shifted due to OPEC+ adjustments.
-  *Re-check:* [UN Comtrade](https://comtrade.un.org/) (latest release; likely **2025 or 2026 data**). [confidence: **high**]
-
-- *"World Bank Pink Sheet, October 2026 release (monthly nominal indices to September 2026)"* — While the **September 2026 data** is current for the article’s publication date, the **real annual indices (1960–2025)** may now include **2026 preliminary estimates** (e.g., World Bank’s *Commodity Price Outlook, October 2026*). The **2026 "so far" figures** (e.g., metals at 137) could be **revised upward/downward** with full-year data. *Re-check:* [World Bank Pink Sheet](https://www.worldbank.org/en/publication/commodity-markets-outlook) (latest annual update). [confidence: **medium**]
-
----
-**Note:** The article’s **methodological transparency** (e.g., citing Christiano–Fitzgerald filters, Damodaran’s industry data) reduces concerns about **systematic bias**, but the **data gaps above** warrant verification. No other categories had clear issues.
+- *"UN Comtrade, 2023"* — Trade data for 2023 is now over two years old. For India-focused analysis, the **2025 UN Comtrade release** (or latest available) would better reflect current trade dependencies (e.g., fertilizer imports, energy trade balances). [confidence: high]
+- *"World Bank Pink Sheet, October 2026 release"* — While the article cites the latest release, the **2026 commodity price indices (monthly nominal indices to September 2026)** may have been updated in subsequent releases (e.g., November/December 2026). For real-time policy relevance, the **November 2026 Outlook** should be cross-checked. [confidence: high]

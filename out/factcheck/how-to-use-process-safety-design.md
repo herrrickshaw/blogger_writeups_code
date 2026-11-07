@@ -7,46 +7,48 @@
 
 Source: `posts/how-to-use-process-safety-design.html`
 
-Text-SHA1: `c7a12ae0a204ab87`
+Text-SHA1: `db73b348cb782054`
 
 Panel: **3 of 5 configured models** answered.  Skipped this run: Kimi ([Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g9); Cerebras ([Cerebras API error 402: {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_).
 
 ## Gemini gemini-flash-lite-latest
 
 FACTUAL ERRORS:
-- "Seveso classification ... EU thresholds only; the Indian MSIHC schedules are not implemented" — The article notes under Seveso classification that Indian MSIHC (Manufacture, Storage and Import of Hazardous Chemical) rules are not implemented, but the blog's focus is on India-focused economics and process safety where omitting or failing to implement local statutory frameworks (like MSIHC or PESO rules) while providing US/EU tools is a structural omission rather than a factual error in the text itself. [confidence: low] (Actually, none found regarding outright false historical or technical facts within the described software tool context).
-- none found [confidence: high]
+- none found
 
 INTERPRETATION ERRORS:
-- "A hazard of 0.1 per year with two independent layers still leaves 1e-4 per year against a 1e-6 target, so a safety function with a risk reduction of 100 is required. A 1oo2 architecture with a dangerous undetected failure rate of 2e-6 per hour, a yearly proof test and a 5% common-cause factor gives a probability of failure of 5.3e-4, which meets the need on probability." — The reasoning jumps between frequencies per year and failure rates per hour/probability without reconciling the units correctly in the text's explanation, creating an apples-to-oranges comparison between an annual frequency reduction target and a demand/probability-of-failure metric. [confidence: medium]
+- none found
 
 OUTDATED DATA:
-- none found [confidence: high]
+- none found
 
 ## Groq openai/gpt-oss-120b
 
-[Groq/openai/gpt-oss-120b API error 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Requested 8767, please reduce your message size and try again. Need more tokens? Upgrade to Dev Tier today at https]
+[Groq/openai/gpt-oss-120b API error 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Requested 11567, please reduce your message size and try again. Need more tokens? Upgrade to Dev Tier today at http]
 
 ## Mistral open-mistral-nemo
 
-Since the provided text is **not an India-focused economics article** (it is a technical guide on a process-safety toolkit), I will **not** flag factual errors or outdated data as they are irrelevant to the requested scope. However, I will note **one clear interpretation error** and **one stylistic/structural issue** that could mislead readers if applied to an economics context (even if unintentional). Since the task requires **only distinct factual, interpretation, or outdated-data errors**, I will focus on the **interpretation error** below.
+This article is **not India-focused** (it covers process safety engineering tools with global standards like API, IEEE, OSHA, and EU Seveso III), so no factual errors or outdated data specific to India can be identified. However, I will flag **two distinct issues** that apply to the article as written:
 
 ---
 
-### **INTERPRETATION ERRORS:**
-- **"The article claims: *‘The toolkit will not invent [inputs]… a diesel specific fuel consumption has no default for that reason.’*"
-  **Reasoning gap:** This statement conflates **toolkit limitations** with **economic or regulatory constraints**. While the toolkit lacks defaults for diesel SFC (specific fuel consumption), this does not imply that such data is unavailable in India’s economic or policy context. For example, Indian diesel SFC benchmarks exist (e.g., from **BEE, MoPNG, or vehicle emission norms**), and the claim misleads readers into assuming the toolkit’s absence of defaults equates to a broader economic or regulatory gap. The error lies in **extrapolating a software limitation into a factual economic statement** without qualification.
-  **[Confidence: high]**
+**FACTUAL ERRORS:**
+- **"The Manufacture, Storage and Import of Hazardous Chemical Rules 1989 treat a modification likely to cover major accident hazards as a new activity (rule 6) and need a further safety report at least 90 days before a material modification (rule 11)"**
+  — **Rule 11 of the MSIHC Rules 1989 does not require a 90-day advance notice for "material modifications."** The correct timeline for safety reports under MSIHC is tied to **major hazard installations (MHIs)** and **safety reports** (Rule 11(1)–(2)), but the 90-day requirement is not explicitly tied to "material modifications" in the same way. The **MSIHC Rules 2021** (not 1989) later clarified timelines for modifications, but the 1989 version’s Rule 11(1) refers to **initial safety reports for new MHIs**, not routine modifications. The article conflates the 1989 rules with later amendments or interpretations.
+  **[Confidence: high]** *(Source: MSIHC Rules 1989, Rule 11(1)–(2) does not mandate 90 days for modifications; the 2021 rules revised this.)*
 
 ---
-### **FACTUAL ERRORS:**
-none found *(the text is a technical guide, not an economics article)*
 
-### **OUTDATED DATA:**
-none found *(the text explicitly states all outputs are illustrative and dated 5 November 2026, with no claims of "latest" or "current" data)*
+**INTERPRETATION ERRORS:**
+- **"The toolkit declines to answer outside a method’s range instead of returning a number (examples below)."**
+  — **This claim misrepresents the toolkit’s behavior.** While the toolkit *can* refuse to compute results for invalid inputs (e.g., enclosed arc-flash cases), the **examples provided later (e.g., `arc-flash` refusal for enclosed equipment)** are **not universal refusals** but **specific to the method’s scope**. The toolkit *does* return numbers for other invalid inputs (e.g., negative temperatures or extreme Cp/Cv values) with **warnings or errors**, not blanket refusals. The phrasing implies a strict "all-or-nothing" refusal policy, which is incorrect—it’s a **context-dependent design choice** tied to each command’s logic.
+  **[Confidence: high]** *(Evidence: The `relief-gas` example with `--T=-5` returns an error but still runs with warnings for atypical inputs, contradicting the blanket claim.)*
 
 ---
-**Note:** If this *were* an economics article (e.g., citing Indian GDP growth, inflation, or policy thresholds), I would flag claims like:
-- **"India’s GDP growth in FY2026 was 7.2%"** → *Check against [MoF/CSO latest estimates](https://www.gov.in/statistics)* (if pre-2026, outdated).
-- **"The GST revenue collection in April 2026 was ₹1.8 lakh crore"** → *Verify against [CBIC’s monthly bulletin](https://www.cbic.gov.in/)*.
-But since the text is non-economic, no such errors apply.
+**OUTDATED DATA:**
+- **none found**
+*(The article cites "latest" figures from 5–6 November 2026, but since these are illustrative inputs for a software toolkit (not empirical data), no official superseding source exists. The legal clauses section references the 1989 MSIHC Rules, but the 2021 version is the current law.)*
+
+---
+**Note on scope:**
+The article’s focus on **global standards (API, IEEE, OSHA, EU Seveso III)** and **software toolkits** means India-specific claims (e.g., MSIHC Rules) are either **misinterpreted** or **outdated**. No factual errors exist for non-India content.

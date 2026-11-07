@@ -17,14 +17,23 @@ FACTUAL ERRORS:
 - none found
 
 INTERPRETATION ERRORS:
-- "Universe membership uses full-sample dollar volume, a mild lookahead the repo documents." — Using full-sample dollar volume to select a universe introduces survivorship and lookahead bias, which fundamentally distorts backtest validity rather than being a "mild" issue, as it incorporates future information into past selection. [confidence: medium]
+- "+1.66% India breakout-buy bull-regime 21-day excess (t 14.7; was +2.08%)" — The article compares the fresh replay result (+1.66%) directly against the committed file result (+2.08%) while noting that the underlying panel changed (using split-adjusted prices and a different number of symbols), making this an apples-to-oranges comparison that attributes a data revision difference to a pure temporal or model update. [confidence: high]
 
 OUTDATED DATA:
 - none found
 
 ## Groq openai/gpt-oss-120b
 
-[Groq/openai/gpt-oss-120b API error 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 2903, Requested 5936. Please try again in 6.2925s. Need more tokens? Upgrade to Dev Tier today at https://con]
+**FACTUAL ERRORS:**  
+- none found  
+
+**INTERPRETATION ERRORS:**  
+- **Claim:** “*daily large‑cap returns are close to unpredictable, and the Markov layer is useful as a regime gate rather than a forecaster.*”  
+  **Reasoning gap:** The article’s evidence consists of 21‑day excess‑return statistics for breakout signals and model‑level Sharpe ratios, not a direct test of the predictability of *daily* returns. Moreover, the Markov model’s Sharpe (0.736) is essentially identical to the buy‑and‑hold Sharpe (0.738), providing little support for the assertion that the Markov regime gate adds value. The conclusion extrapolates from a specific 21‑day signal‑based back‑test to a broader claim about daily return predictability and the utility of the Markov gate, which the presented data do not substantiate. [confidence: high]  
+
+**OUTDATED DATA:**  
+- **Claim:** “*China’s panel stops on 1 July 2026, so its numbers did not change.*”  
+  **Series to re‑check:** The China OHLCV panel used for the replay (reports/replay_signals_cn.parquet). Since the article was published on 23 October 2026, a more recent data cut‑off (e.g., up to at least 23 Oct 2026) is likely available and would affect the reported excess‑return and t‑statistics. [confidence: medium]
 
 ## Mistral open-mistral-nemo
 
@@ -33,35 +42,25 @@ Here is the structured report based on the provided article text:
 ---
 
 **FACTUAL ERRORS:**
-- **"India breakout-buy bull-regime 21-day excess (t 14.7; was +2.08%)"** — The claim that the "committed files said +2.08%" is misleading because the article itself later states the *fresh replay* results are **+1.66% (t 14.69)**, not +2.08%. The "was +2.08%" appears to be an outdated or conflated reference to the *old committed signals* (from the table below), but the article’s own data shows the *current* value is +1.66%. The inconsistency suggests a failure to clearly distinguish between old and new results.
-  [confidence: **high**]
-
-- **"China's panel stops on 1 July 2026, so its numbers did not change"** — While technically true for the *mean excess return* (+2.77%), the **t-statistic (14.05)** remains unchanged because it is derived from the same overlapping-window data. However, the claim implies *no* data update occurred, which is incorrect: the panel’s end date is stale (1 Jul 2026 vs. later dates for other markets), and the article does not explain why China’s data was not refreshed to 21 Oct 2026 like other markets.
-  [confidence: **medium**]
+- **"India breakout-buy bull-regime 21-day excess (t 14.7; was +2.08%)"** — The article claims the *fresh* re-run result is **+1.66%** (t 14.69) for India, but the headline still cites the *old* **+2.08%** (t 17.58) as a comparison, creating a misleading contrast. The newer data (22 Oct 2026) explicitly shows **+1.66%**, not **+2.08%** [confidence: **high**].
 
 ---
 
 **INTERPRETATION ERRORS:**
-- **"Breakouts earn positive excess only in bull regimes"** — While the data shows bull-regime breakouts have positive excess returns (e.g., +1.66% for India), this claim **overgeneralizes** without acknowledging:
-  1. The **t-statistics are optimistic** due to overlapping 21-day windows (explicitly noted in the article), which inflates significance.
-  2. The **baseline is frictionless** (no costs, slippage, or borrow fees), so real-world applicability is unproven.
-  3. The **universe changes** (e.g., India’s split-adjusted prices vs. raw close) may distort comparability across regimes.
-  The conclusion conflates *statistical significance* (t-values) with *economic viability* without addressing these caveats.
-  [confidence: **high**]
+- **"The repo’s conclusion is modest: daily large-cap returns are close to unpredictable, and the Markov layer is useful as a regime gate rather than a forecaster."** — The conclusion conflates two distinct claims:
+  1. **Forecasting accuracy**: The Markov model’s directional accuracy (0.528 vs. naive baselines) is *slightly* better than random but not meaningfully so (e.g., Sharpe ratios match buy-and-hold). This suggests *no* predictive edge, not "close to unpredictable."
+  2. **Regime-gating utility**: The Markov layer *does* filter breakout signals (e.g., bull-regime breakouts earn +1.66% in India), but this is a *conditional* edge, not a general forecasting claim. The article conflates these as equivalent [confidence: **high**].
 
-- **"The repo’s conclusion is modest: daily large-cap returns are close to unpredictable"** — This is a **false causal claim** based on:
-  1. The **Markov layer’s role** is framed as a "regime gate," not a forecaster, yet the conclusion treats its directional accuracy (0.528) as evidence of unpredictability *without* comparing it to non-frictionless benchmarks (e.g., transaction costs).
-  2. The **LSTM/GRU models underperform naive baselines** in Sharpe (e.g., -0.153 vs. 0.738 for buy-and-hold), but this ignores that neural nets are sensitive to hyperparameters, random initialization, and small sample sizes (the article admits "small differences are not meaningful").
-  The conclusion **extrapolates** from backtested, cost-free results to real-world unpredictability without addressing critical frictions.
-  [confidence: **high**]
+- **"Overlapping 21-day windows make the clustered t-statistics optimistic"** — While true for *within-sample* t-stats, the article does not acknowledge that the **fresh re-run t-values (e.g., India: t 14.69)** are still inflated due to:
+  - **Autocorrelation in returns** (common in financial time series), which t-stats clustered by date do not fully address.
+  - **No adjustment for multiple testing** across signals/trends (e.g., 6 groups in the India table), inflating the effective significance [confidence: **high**].
 
 ---
 
 **OUTDATED DATA:**
-- **"110,852 signals from 2016-09-15 to 2026-07-17 across 1,000 symbols"** — The article later states the *fresh replay* (23 Oct 2026) covers **109,127 signals** (US) and uses a **different universe (989 vs. 1,000 names for India)**. The initial claim is outdated and should reference the **rebuilt panels (last session: 21 Oct 2026 for US, 22 Oct 2026 for India)**.
-  [confidence: **high**]
-
-- **"China: +2.77 (14.05) [data ends 1 Jul 2026]"** — The China panel’s end date is **stale** compared to other markets (e.g., US/India/JPN/KR updated to Oct 2026). The source series to re-check is the **author’s OHLCV warehouse** (not publicly available), but the article should note that China’s data is **not current** and may require re-aggregation to match the other markets’ timelines.
-  [confidence: **high**]
+- **"China’s panel stops on 1 July 2026 (stale, identical)"** — The article notes China’s data is unchanged but does not prompt readers to check for:
+  - **Newer official releases** (e.g., SSE/NSE updates post-July 2026) or
+  - **Split-adjusted data** (like India), which may now be available for China (e.g., from Wind Info, Bloomberg, or local exchanges). The claim assumes no updates, but the repo’s disclaimer about "local warehouse copy" suggests potential gaps [confidence: **medium**].
 
 ---
+**Note**: No stylistic or formatting issues were flagged as per instructions. The article’s core methodological caveats (costs, lookahead, frictionless P&L) are correctly disclosed, but the gaps above warrant correction for accuracy and rigor.

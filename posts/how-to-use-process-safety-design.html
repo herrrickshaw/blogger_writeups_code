@@ -238,8 +238,8 @@ if(skip){
   search engines; the visible text is what tells a reader the piece is maintained.
 -->
 <p class="revised" data-gs-revision-v1="1">Revised
-<time datetime="2026-11-05" itemprop="dateModified">5 November 2026</time>
-&middot; <code>v1.0.0</code> &middot; <a href="#changelog">what changed</a></p>
+<time datetime="2026-11-07" itemprop="dateModified">7 November 2026</time>
+&middot; <code>v1.3.0</code> &middot; <a href="#changelog">what changed</a></p>
 
 <div class="stats">
 <div class="stat"><b>35</b><span>Command-line commands, from relief valves to a full risk study</span></div>
@@ -249,6 +249,8 @@ if(skip){
 </div>
 
 <p>This is the long version of the guide. It installs the toolkit, explains the few habits that keep a screening result honest, and then goes through the commands by job: relief and venting, fire and explosion, functional safety, regulation, electrical, and the quantitative risk study. Every output below was produced by running the command on 5 November 2026 with <b>illustrative inputs</b>. A shorter, asset-specific walk-through of an LPG terminal is in <a href="https://masaladeutsch.blogspot.com/2026/11/screen-process-safety-question-in-five.html">the companion post</a>.</p>
+
+<p><b>Try it in the browser first.</b> A clickable design demo, <a href="https://process-safety-studio-demo.lovable.app">Process Safety Studio</a>, walks through five tasks in the same five steps the command line uses: choose a task, enter inputs with units, run, read the result with its notes and limits, and export. The tasks are a gas relief valve sized to API 520, OSHA PSM applicability, LNG terminal basics, PSM revalidation due dates and fire-and-gas detector coverage. Its results are outputs captured from the command line, not live calculations, so use it to see the workflow and install the toolkit to run your own numbers.</p>
 
 <div class="warn"><b>It is a screen, not a safety case.</b> Most of the governing standards are paywalled and were not read. Equations are derived from first principles where possible and tested against the standards&rsquo; own constants, and every remaining coefficient is flagged in the module&rsquo;s docstring. A qualified engineer owns any result, and validated software should decide real designs.</div>
 
@@ -542,7 +544,95 @@ IN-MSIHC-11  [India; change; grade B]  MSIHC Rules 1989, r. 11(1)-(2)
 IN-MSIHC-13  [India; change; grade B]  MSIHC Rules 1989, r. 13(1)-(3)          (condensed)</code></pre>
 <p>Not yet read: China, Japan, Brazil, Norway, the Gulf states, and state or provincial law. The entries are paraphrased and are not legal advice.</p>
 
-<p class="src">Sources: the toolkit and its documentation, <a href="https://github.com/herrrickshaw/process-safety-design-toolkit">github.com/herrrickshaw/process-safety-design-toolkit</a> (open pull requests 1 and 2 hold the risk-study, study-tool and data-centre additions; pull request 3 holds version 0.10; pull request 4 holds the derogation, EU, insurance and legal-clause additions). Every output above comes from running the command on 5 November 2026 (section 14: 6 November 2026) with illustrative inputs; results are screening arithmetic and modelled, not measured, and are not a safety case.</p>
+<h2>15. What is new on 6 and 7 November: US units, input templates, a scenario suite, cost and plant tools</h2>
+
+<p>These are also on <a href="https://github.com/herrrickshaw/process-safety-design-toolkit/pull/4">pull request 4</a>, now at version 0.11.0 and still not merged. The command line has 52 commands, 364 automated tests pass, and a new official scenario suite runs 159 scenarios with 787 checks, all passing. Every output below was produced by running the command on 7 November 2026 with illustrative inputs; long JSON is condensed. The rule that runs through all of it is the same as before: no remembered number is typed into the code. Walking speeds, lux targets, unit rates, cost indices and discharge coefficients are inputs, not defaults.</p>
+
+<h3>US-customary units, and why gauge and absolute pressure will not convert</h3>
+<p>Put <code>--units us</code> before any command and type every number in US units: psig, &deg;F, ft, in, lb/h, gpm, Btu/lb. Each is converted to the command&rsquo;s working unit before the range check, and the result gains US sibling keys next to the SI ones. Every conversion factor is a legal definition (the inch, the pound, standard gravity, the 231 in&sup3; gallon, the International Table Btu), not a remembered number.</p>
+<pre><code>$ python3 -m process_safety --units us relief-gas --W 22000 --T 140 --set-g 250 --M 44.1 --k 1.13 --Z 0.85
+  "required_area_mm2": 518.3,
+  "required_area_in2": 0.803,
+  "orifice": "J",  "regime": "critical"          (condensed)</code></pre>
+<p>That is 22,000 lb/h of propane-like vapour at 140 &deg;F and a 250 psig set pressure. Two deliberate refusals protect against the commonest unit mistakes in relief work. A gauge pressure will not convert to an absolute one unless you say so, because the difference is the atmosphere:</p>
+<pre><code>$ python3 -m process_safety convert 250 psig psia
+error: cannot convert psig (pressure_gauge) to psia (pressure_abs)
+$ python3 -m process_safety convert 250 psig psia --across-atmosphere
+  "result": 264.70</code></pre>
+<p>Temperature rises are a separate dimension (dK, dF), so they cannot be pushed through the &deg;F offset by mistake, and standard volumes (scf, Nm&sup3;) are not converted at all, because sources use different reference temperatures: give a mass flow instead. <code>docs/UNITS.md</code> lists the ten differences that cause mistakes.</p>
+
+<h3>Input templates: fill in a file instead of typing flags</h3>
+<p><code>template</code> writes a fill-in JSON (or CSV) for any command, in SI or US units, with each argument&rsquo;s unit, whether it is required and its valid range. <code>run</code> executes the filled file, and the file&rsquo;s own <code>units</code> field decides how its numbers are read.</p>
+<pre><code>$ python3 -m process_safety template relief-gas --system us &gt; relief_us.json
+   ... fill W, T, set_g, M, k, Z ...
+$ python3 -m process_safety run relief_us.json
+  "required_area_in2": 0.803,  "orifice": "J"     (same answer as the flags above)</code></pre>
+<p>The templates are generated from the command definitions themselves and a test keeps them in step, so a new argument appears in its template the moment it is added.</p>
+
+<h3>Two-phase relief from real fluid data</h3>
+<p><code>twophase</code> sizes flashing relief by the omega method, and <code>--fluid</code> now reads saturated-liquid properties from a bundled table of 18 fluids at 14 pressures generated with CoolProp. <code>fluid-data</code> shows what is in it.</p>
+<pre><code>$ python3 -m process_safety twophase --P0 1500 --fluid propane
+  "G_kg_m2_s": 9025,  "omega": 5.38,  "regime": "choked",
+  "G_hem_reference_kg_m2_s": 9018
+  "note": "homogeneous equilibrium; Kb/Kc not applied; subcooled and reactive (DIERS) cases need other methods"</code></pre>
+<p>The omega flux for saturated propane at 1,500 kPa absolute is within 0.1% of a direct homogeneous-equilibrium integration; across all 252 rows of the table the two agree within 2.2%. There is no default discharge coefficient for two-phase service: to get an area you must give <code>--Kd</code> from your valve data, alongside the relief rate <code>--W</code>. Near the critical point the single-point omega degrades, and the command now warns above half the critical pressure.</p>
+
+<h3>Flame radiation by view factor</h3>
+<p><code>flame-flux</code> integrates the view factor from a target to a flat, vertical rectangular flame face and multiplies by the surface emissive power you supply.</p>
+<pre><code>$ python3 -m process_safety flame-flux --width 10 --height 15 --distance 25 --sep 60
+  "view_factor": 0.061,  "incident_kW_m2": 3.66</code></pre>
+<p>A 10 m by 15 m flame face at 60 kW/m&sup2;, seen from 25 m, delivers about 3.7 kW/m&sup2;. The toolkit&rsquo;s own use cases found that its point-source <code>pool-fire</code> distances and this solid-flame method disagree by about four times in the far field, because they imply different radiant fractions. That disagreement is documented, not hidden: use both and say which you relied on.</p>
+
+<h3>Escape time and lighting</h3>
+<p><code>egress</code> compares the required safe escape time (detection, pre-movement, then travel or queuing at the narrowest exit, whichever is longer) with the available time from your fire or toxic study. <code>illumination</code> applies the lumen method.</p>
+<pre><code>$ python3 -m process_safety egress --distance 120 --speed 1.0 --people 40 --width 1.2 \
+    --specific-flow 1.3 --detect-s 60 --premove-s 90 --aset-s 420
+  "governing": "travel distance",  "rset_s": 270,  "margin_s": 150,  "escape_before_untenable": true
+
+$ python3 -m process_safety illumination --area 600 --flux 9000 --uf 0.55 --mf 0.8 --target 200
+  "n_luminaires": 31,  "achieved_lux": 204.6</code></pre>
+<p>Walking speed, flow per metre of exit, detection and response times, utilisation and maintenance factors and the lux target are all yours to supply. They depend on the occupants and on the standard the site follows, so the toolkit does not guess them.</p>
+
+<h3>From recommendations to money: shutdown, cost and LNG capex</h3>
+<p>Four new studies follow a safety recommendation through to cost and schedule. Each takes an input JSON and ships a worked example (<code>tool example &lt;name&gt;</code> copies it), and every rate, margin and cost index in the examples is a labelled placeholder: the toolkit ships no cost data.</p>
+<ul>
+<li><b>Shutdown risk</b> (<code>tool shutdown</code>): schedule and cost risk for a turnaround by Monte Carlo on a critical-path network, with the opportunity cost of lost operating days. Worked example: a 25-day base plan comes out at 31.5 days at P50 and 35.6 days at P80. A 500-run sample was not stable enough, so the tool ran 5,753 runs; the biggest driver is activity A6.</li>
+<li><b>Recommendation cost</b> (<code>tool recs</code>): the cost of implementing study recommendations by discipline, with contingency, the effect on the shutdown and an ALARP cost-benefit test. Worked example: six recommendations, capex 616 at P50 and 656 at P80 (in cost units); the independent high-level shutdown on the feed drum passes the ALARP test; the shutdown items add about 0.1 day at P80.</li>
+<li><b>Design workflow</b> (<code>tool workflow</code>): relief screening, resizing, a bill of quantities, capex, opex and ALARP chained in one run. Worked example: the V-101 fire case needs 664 mm&sup2; against 506 mm&sup2; installed, so the PSV is resized to a J orifice, and the package passes ALARP (cost-benefit ratio 2.5 against a disproportion factor of 3).</li>
+<li><b>LNG capex</b> (<code>tool lngcost</code>): concept-stage liquefaction capex from public analogs (24 plants used, 2 excluded). Worked example: an illustrative 5 MTPA greenfield train comes out at about $11.1 billion at P50, or $2.2 billion per MTPA. A reference notebook&rsquo;s unsourced shortcut gives $5.9 billion, below every analog.</li>
+</ul>
+<p>The LNG figure is an AACE Class 5 screening number, not a budget. The cost index and location factors are the largest judgements in it, so change them and look at the sensitivity. An optional script, <code>scripts/openpytea_bridge.py</code>, turns equipment you have sized into purchased and installed cost using the open OpenPyTEA correlations, and flags sizes outside a correlation&rsquo;s range, which OpenPyTEA itself costs without warning. The package stays standard-library only; the bridge sits outside it.</p>
+
+<h3>Reading a plant: heat and mass balance, P&amp;ID registers and the PHA</h3>
+<p><code>tool plant</code> reads stream tables, equipment and instrument registers (as CSV or Proteus XML) and a PHA register, then runs six scenario types with the existing models and checks the registers against seven P&amp;ID rules. Where an input is missing it reports <code>cannot_assess</code> and names the input, instead of guessing. In the worked example it finds:</p>
+<ul>
+<li>a blocked outlet on V-101 that needs 4,398 mm&sup2; of relief area (a Q orifice) against 830 mm&sup2; installed;</li>
+<li>depressuring V-101 to atmosphere could chill the gas to about &minus;105 &deg;C against a minimum design metal temperature of &minus;20 &deg;C;</li>
+<li>drum V-102 has no relief device in the register;</li>
+<li>tank T-201&rsquo;s PSV vents propane and butane to atmosphere.</li>
+</ul>
+<p>Each finding is tied to a recommendation type, and gaps that the PHA register does not already cover are listed separately.</p>
+
+<h3>Your own documents, incidents and sources</h3>
+<p><code>requirements</code> pulls the shall, should and must statements out of standards and specifications you hold (text, Word, or PDF via pdftotext), classifies them and compares them with a PHA register. Because those documents are usually someone else&rsquo;s copyright, it prints counts unless you ask for the statements, writes only to a file you name, and refuses to write inside a git repository unless the path is ignored. <code>incidents</code> searches 17 U.S. Chemical Safety Board investigations mapped to the toolkit&rsquo;s modules, and <code>literature</code> searches an index of 93 sources, each marked with whether its content was actually read.</p>
+<pre><code>$ python3 -m process_safety incidents --module overfill
+2005-03-23  BP America Texas City refinery explosion (Texas City, TX, 15 killed)
+2009-10-23  Caribbean Petroleum (CAPECO) refinery tank explosion and fire (Bayamon, PR)
+2022-09-20  BP-Husky Oregon (Toledo) refinery chemical release and fire (Oregon, OH, 2 killed)
+                                                         (condensed: each entry also gives the lesson and the CSB link)</code></pre>
+
+<h3>The scenario suite: how the toolkit checks itself</h3>
+<p><code>scripts/run_scenarios.py</code> runs 159 scenarios covering 72 of the 77 topics in the coverage map. Each scenario carries up to five kinds of check:</p>
+<ul>
+<li><b>Bounds:</b> a physical or logical limit holds.</li>
+<li><b>Oracles:</b> an independent recomputation from first principles agrees.</li>
+<li><b>Metamorphic relations:</b> doubling the flow doubles the relief area, for example.</li>
+<li><b>SI against US:</b> the same case typed in both unit systems gives the same answer.</li>
+<li><b>Regression snapshot:</b> current values are unchanged.</li>
+</ul>
+<p>The report says plainly that the snapshot only detects drift and is not evidence of correctness. The five topics without scenarios are the ones still marked not implemented. Writing the suite found a real trap: <code>blowdown --hole-d</code> is in metres, so a hole typed as &ldquo;25&rdquo; meaning millimetres was accepted as 25 m and gave a 0.4 ms blowdown. The help text now says metres.</p>
+
+<p class="src">Sources: the toolkit and its documentation, <a href="https://github.com/herrrickshaw/process-safety-design-toolkit">github.com/herrrickshaw/process-safety-design-toolkit</a>; the browser demo, <a href="https://process-safety-studio-demo.lovable.app">process-safety-studio-demo.lovable.app</a> (captured outputs, not live calculations) (open pull requests 1 and 2 hold the risk-study, study-tool and data-centre additions; pull request 3 holds version 0.10; pull request 4 holds the derogation, EU, insurance and legal-clause additions and the 6 and 7 November work in section 15). Every output above comes from running the command on 5 November 2026 (section 14: 6 November 2026; section 15: 7 November 2026, at commit b2561ae) with illustrative inputs; results are screening arithmetic and modelled, not measured, and are not a safety case.</p>
 
 <!--
   4. Revision history. Newest first. One line per published revision; say what a
@@ -552,6 +642,7 @@ IN-MSIHC-13  [India; change; grade B]  MSIHC Rules 1989, r. 13(1)-(3)          (
 <div id="changelog" class="note">
 <b>Revision history.</b>
 <ul>
+<li><b>v1.3.0</b> &mdash; 7 November 2026 &mdash; added section 15: US-customary units and the gauge/absolute pressure guard, input templates, two-phase relief from bundled fluid data, view-factor flame radiation, escape-time and lighting checks, the shutdown, recommendation-cost, design-workflow and LNG-capex studies, plant and P&amp;ID ingestion, the requirements extractor, incident and literature search, and the 159-scenario self-check; and a link to the Process Safety Studio browser demo near the top. The toolkit is now at version 0.11.0 with 52 commands and 364 tests; counts quoted in earlier sections and the summary tiles describe the versions those sections were written for.</li>
 <li><b>v1.2.0</b> &mdash; 6 November 2026 &mdash; added section 14: derogations and compliance tiers, the TA1/TA2/TA3 approval matrix, PESTLE consequence rating, EU (Seveso III) impact, actuarial insurance impact and a 55-clause legal index, with a demo video. Sections 1 to 13 are unchanged, so counts quoted there (35 commands, 173 and 192 tests, 124 cross-checks) describe the earlier versions.</li>
 <li><b>v1.1.0</b> &mdash; 5 November 2026 &mdash; added section 13: version 0.10 (input ranges, glossary, restructured command line, 124 cross-checks) with a demo video. The earlier sections describe version 0.9 and are unchanged.</li>
 <li><b>v1.0.0</b> &mdash; 5 November 2026 &mdash; first published (complete walkthrough).</li>

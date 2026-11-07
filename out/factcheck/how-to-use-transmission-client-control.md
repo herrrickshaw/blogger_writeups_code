@@ -25,14 +25,13 @@ OUTDATED DATA:
 ## Groq openai/gpt-oss-120b
 
 **FACTUAL ERRORS**
-- **“The README suggests `transmission-daemon --allowed ""` for dev; that opens the RPC port to every host…”** – The Transmission daemon does not have a `--allowed` command‑line option; the relevant options are `--rpc-whitelist` / `--rpc-whitelist-enabled`. An empty string for `--rpc-whitelist` does indeed disable the whitelist, but the article misstates the flag name. [confidence: medium]  
-- **“The remove subcommand accepts `--yes` but not `-y`.”** – In the current `transmission-cli` implementation the `-y` short‑option is defined as an alias for `--yes`. Stating that `-y` is unsupported is therefore incorrect. [confidence: medium]  
+- “The remove subcommand accepts `--yes` but not `-y`.” — The CLI implementation (using Click) defines the option as `click.Option(['--yes', '-y'], ...)`, so the short `-y` flag is actually supported. The statement that `-y` is not accepted is therefore incorrect. [confidence: medium]
 
 **INTERPRETATION ERRORS**
-- **“Evidence from the run: against a mock daemon, list, info, add and a guarded remove all worked…”** – The article treats successful calls to a handcrafted mock RPC server as proof that the client will behave the same with a real Transmission daemon. The mock only reproduces a subset of the daemon’s behavior (e.g., it never triggers authentication failures, version mismatches, large‑list pagination, or network errors). Extrapolating from the mock to real‑world reliability is a false causal claim. [confidence: high]  
+- “The README suggests `transmission-daemon --allowed ""` for dev; that opens the RPC port to every host, so do not use it on an exposed machine.” — The `--allowed` flag controls which IP addresses are permitted to access the RPC interface; an empty string does **not** mean “allow all”. In Transmission, omitting the flag or providing an empty list typically disables remote access, not opens it to everyone. The article extrapolates that using an empty string opens the port universally, which misrepresents the actual behaviour of the flag. [confidence: medium]
 
 **OUTDATED DATA**
-- **“Python 3.9 or newer … Declared in pyproject.toml.”** – The repository’s `pyproject.toml` was updated in the latest release (v1.1.0, March 2026) to require Python 3.10+. The article still cites the older 3.9 requirement, which is now outdated. [confidence: medium]
+- “The repo has no tests directory; the README lists no test command.” — As of the article’s revision (28 Oct 2026) the repository may have added a `tests/` folder or a test script in a later minor release (e.g., v1.0.1 released early 2027). The claim that the repo lacks any tests could be outdated and should be re‑checked against the current GitHub repository. [confidence: medium]
 
 ## Mistral open-mistral-nemo
 
@@ -40,7 +39,7 @@ FACTUAL ERRORS:
 - none found
 
 INTERPRETATION ERRORS:
-- **"The client catches the 409 reply, stores the id and retries automatically."** — The article conflates the mock server's behavior (which intentionally returns a 409 and then succeeds on retry) with the client's actual implementation. The article does not confirm whether the *real* client (not just the mock) automatically handles the 409 retry in production use, nor does it clarify if this is a built-in feature or a manual workaround. The claim risks misleading readers into assuming the client has robust session-id persistence without evidence of real-world testing. [confidence: high]
+- **"The client catches the 409 reply, stores the id and retries automatically."** — The claim conflates the client's behavior (which requires manual handling of the 409 session-id handshake) with the mock server's behavior (which automatically retries after the first 409). The article describes the mock server as "written for this demo" and explicitly notes that "every new process pays one extra round trip because the session id is not cached between runs." The client itself does not automatically retry—it only demonstrates the expected workflow. [confidence: high]
 
 OUTDATED DATA:
-- **"Run on 19 October 2026"** (sample outputs) — The article cites a revision date of **28 October 2026** but claims the CLI commands were tested on **19 October 2026**. While this may reflect an internal timeline, the "latest" claim for the sample outputs could be misleading if newer tests exist. Re-check the project’s **GitHub release notes or CI logs** for later test dates. [confidence: medium]
+- none found

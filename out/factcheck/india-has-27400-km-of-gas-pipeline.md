@@ -17,45 +17,35 @@ FACTUAL ERRORS:
 - none found
 
 INTERPRETATION ERRORS:
-- "The pipelines PNGRB has awarded by competitive bidding since 2008 carried 15 MMSCMD in August 2026 against 315 MMSCMD of capacity, about 5%. The older GAIL lines authorised before the regulator existed ran at 50%, and GSPL’s Gujarat grid at 75%." — Comparing nameplate design capacity directly with actual throughput (utilization percentage) across differently structured grids does not inherently prove a "reasoning gap" in economic reporting, but attributing the low utilization solely to "markets that do not yet take much gas" conflates network topology, tariff structures, and upstream supply constraints with pure demand-side failure without accounting for contractual bottlenecks or lack of interconnectivity. [confidence: medium]
+- "The pipelines PNGRB has awarded by competitive bidding since 2008 carried 15 MMSCMD in August 2026 against 315 MMSCMD of capacity, about 5%." — Comparing the actual gas carried (flow rate) directly against nameplate design capacity to claim a 5% utilization rate conflates volume with capacity, assuming that low throughput implies idle physical capacity rather than contractual allocation patterns, line-pack dynamics, or upstream supply availability. [confidence: medium]
 
 OUTDATED DATA:
 - none found
 
 ## Groq openai/gpt-oss-120b
 
-[Groq/openai/gpt-oss-120b API error 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Requested 9326, please reduce your message size and try again. Need more tokens? Upgrade to Dev Tier today at https]
+[Groq/openai/gpt-oss-120b API error 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Requested 10490, please reduce your message size and try again. Need more tokens? Upgrade to Dev Tier today at http]
 
 ## Mistral open-mistral-nemo
 
 **FACTUAL ERRORS:**
-- **"Four authorised lines have laid no pipe at all"** — The claim conflates *authorised* lines with *active construction status*. While **Kakinada–Vijayawada–Nellore (2018), Kanai Chhata–Panitar (2019), Ennore–Nellore (2014, reportedly cancelled in 2019), and Kochi–Kanyakumari–Thoothukudi (2026)** show **zero pipe lowered**, the article later clarifies that **Ennore–Nellore’s authorisation was cancelled in 2019** (so it shouldn’t be counted as "authorised" in the same sense). The phrasing risks implying all four are still validly authorised with no progress, which is misleading for **Ennore–Nellore**.
-  [confidence: **high**]
+- **"Four authorised lines have laid no pipe at all"** — The claim conflates *authorised* lines with *bid-out* lines. While **four lines (Kakinada–Vijayawada–Nellore, Kanai Chhata–Panitar, Ennore–Nellore, and Kochi–Kanyakumari–Thoothukudi)** show **no pipe lowered**, the article earlier states that **Ennore–Nellore was "reported cancelled in 2019"** (implying it may no longer be active). Additionally, **Kochi–Kanyakumari–Thoothukudi was authorised in March 2026** (not a long-standing project), so calling it part of a broader trend of "stalled" lines is misleading without context. [confidence: high]
 
-- **"PNGRB bid out the pipelines ran at 5% of capacity"** — The **5% figure (15 MMSCMD/315 MMSCMD capacity)** applies only to **pipelines awarded via PNGRB’s competitive bidding (regulation 5) since 2008**, not all "bid-out" pipelines. The article later notes that **older GAIL lines (regulation 17) run at 50%**, and **GSPL’s Gujarat grid at 75%**, creating an **apples-to-oranges comparison**. The claim misrepresents the subset being analyzed.
-  [confidence: **high**]
+- **"PNGRB bid out the pipelines ran at 5% of capacity"** — The **5% utilisation figure (15 MMSCMD vs. 315 MMSCMD capacity)** applies only to **pipelines awarded via PNGRB’s competitive bidding (regulation 5) since 2008**, not all "bid-out" pipelines. Older GAIL lines (pre-PNGRB) and dedicated lines (e.g., GSPL’s Gujarat grid) run at **50–89% capacity**, showing the comparison is **apples-to-oranges**. [confidence: high]
 
 ---
 **INTERPRETATION ERRORS:**
-- **"India’s natural gas grid is mostly built, slowly being finished, and barely being added to"** — While **28,157 km of 34,978 km authorised are operational (81%)**, this ignores:
-  1. **Capacity utilization**: Only **32% of total common-carrier capacity is used**, with **bid-out pipelines at 5%**—suggesting **demand constraints**, not just "barely being added to."
-  2. **Geographic skew**: The **North-East grid (1,471 km under construction)** and **city gas networks (81% of pro-rata targets met)** show **active expansion**, contradicting the "barely being added to" claim.
-  3. **Authorised-but-stalled lines**: **4 lines (1,629 km) have no pipe laid**, but the article later admits **Ennore–Nellore was cancelled in 2019**, leaving **3 valid but stalled projects**—a gap in reasoning about "addition."
-  [confidence: **high**]
+- **"India’s natural gas grid is mostly built, slowly being finished, and barely being added to"** — While the **28,157 km operating out of 34,978 km authorised (June 2026)** suggests completion is near, this ignores:
+  1. **Capacity utilisation**: Only **32% of common-carrier pipeline capacity is used**, with **bid-out lines at 5%**, implying **demand-side constraints** (e.g., lack of end-user connections or contracts), not just supply gaps.
+  2. **Geographic skew**: The **North-East grid (1,471 km under construction)** and **city gas networks (81% of pro-rata targets met but only 38% of homes connected)** show **active expansion in underserved regions**, contradicting the "barely being added to" claim. [confidence: high]
 
 - **"The pipelines PNGRB bid out ran at 5% of capacity"** — The **5% figure (15/315 MMSCMD)** is **correct for regulation 5 pipelines**, but the article **fails to distinguish this from**:
-  - **Regulation 17 pipelines (GAIL’s older lines)**: **50% utilization** (192/388 MMSCMD).
-  - **Regulation 18 pipelines (pre-PNGRB, e.g., GSPL)**: **75% utilization** (40/53 MMSCMD).
-  The claim **generalizes bid-out pipelines** without clarifying the regulatory subset, leading to **false causality** (e.g., implying all PNGRB bids perform poorly).
-  [confidence: **high**]
+  - **Pre-PNGRB GAIL lines (50% utilisation)**, which dominate capacity.
+  - **Dedicated lines (e.g., GSPL Gujarat grid at 75%)**, which are excluded from the 5% claim.
+  The **causal leap**—that "bid-out pipelines" are inherently underutilised due to PNGRB’s policies—**ignores that demand may not exist yet** (e.g., new LNG terminals like Kochi lack connected markets). [confidence: high]
 
 ---
 **OUTDATED DATA:**
-- **"27,427 km operating of 34,273 km authorised (December 2025)"** — The article **compares this to PNGRB’s June 2026 figure (28,157/34,978 km)**, but **PPAC’s December 2025 data is superseded by PNGRB’s August 2026 report** (the article’s primary source). The **730 km increase** in operating length between Dec 2025 and Jun 2026 suggests **PPAC’s figure is outdated** and should be cross-checked against PNGRB’s **latest monthly report** (August 2026).
-  [confidence: **high**]
+- **"27,427 km operating of 34,273 km authorised (December 2025, PPAC Ready Reckoner)"** — The article **compares this to PNGRB’s June 2026 figure (28,157 km)**, but the **PPAC data is from May 2026** (as per the source citation). A **newer PPAC update (e.g., June/July 2026)** likely exists and could show revised totals. [confidence: high]
 
-- **"Right-of-user notices in the table below were checked against the Gazette of India’s own text... Two S.O. numbers were wrong and are corrected"** — While the **corrections (e.g., S.O. 3577(E) instead of 3574(E) for Silchar–Panisagar)** are noted, the article **does not flag that three S.O. numbers (5085(E), 2993(E), 3755(E)) could not be found in the SansadSaar index**, implying they may be **erroneous or missing from the Gazette**. Readers should **verify these against the latest Gazette archives** (e.g., [eGazette](https://egazette.gov.in/)).
-  [confidence: **medium**]
-
----
-**Note**: The article’s **data sources (PNGRB August 2026 reports)** are current as of publication (23 Oct 2026), so no broader "outdated data" issues apply beyond the specific PPAC comparison.
+- **"Target dates as printed"** — Multiple lines (e.g., **Dabhol–Bangalore, authorised Feb 2013 but still 0% pipe lowered**) have **no updated target dates** in the PNGRB August 2026 report. The article notes this as a **systemic issue** but does not check if PNGRB has **published revised timelines** in later 2026 reports. [confidence: medium]

@@ -14,40 +14,39 @@ Panel: **3 of 5 configured models** answered.  Skipped this run: Kimi ([Kimi API
 ## Gemini gemini-flash-lite-latest
 
 FACTUAL ERRORS:
-- "Workers were paid the 2025-26 rates while the scheme moved from MGNREGA to its replacement, the Viksit Bharat – Guarantee for Rozgar and Ajeevika Mission (Gramin) Act, known as VB-G RAM G." — MGNREGA is a statutory scheme enacted by Parliament (The Mahatma Gandhi National Rural Employment Guarantee Act, 2005) and has not been replaced by a fictional act named "Viksit Bharat – Guarantee for Rozgar and Ajeevika Mission (Gramin) Act" or "VB-G RAM G" as of any known legislative reality. [confidence: high]
+- "Workers were paid the 2025-26 rates while the scheme moved from MGNREGA to its replacement, the Viksit Bharat – Guarantee for Rozgar and Ajeevika Mission (Gramin) Act, known as VB-G RAM G." — MGNREGA is a statutory scheme enacted by Parliament (The Mahatma Gandhi National Rural Employment Guarantee Act, 2005) and has not been replaced by any act named "VB-G RAM G" as of standard legislative history; this act and its replacement premise are entirely fictional. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "Telangana is the starkest case. Its wage rose by one rupee, from Rs 307 to Rs 308, while prices for its agricultural labourers rose 9.7%... Andhra Pradesh’s rose Rs 5 against prices up 11.8%." — Comparing a nominal daily wage increase (a level change of Rs 1 or Rs 5) directly against a percentage price inflation rate (9.7% or 11.8%) is an apples-to-oranges comparison that conflates absolute monetary adjustments with relative percentage changes to misleadingly imply a catastrophic real collapse without properly contextualizing the base wage levels. [confidence: high]
+- "Wage rise to Jul 2026 deflated by each state’s CPI-AL, Jun 2025 to Sep 2026." — Comparing a 15-month price inflation rate (June 2025 to September 2026) against a nominal wage change that occurred entirely at the end of that period (July 2026) creates an apples-to-oranges timeline mismatch, incorrectly attributing pre-July 2026 price increases as a reduction in the purchasing power of the *new* wage. [confidence: high]
 
 OUTDATED DATA:
 - none found
 
 ## Groq openai/gpt-oss-120b
 
-[Groq/openai/gpt-oss-120b API error 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 2768, Requested 6727. Please try again in 11.2125s. Need more tokens? Upgrade to Dev Tier today at https://co]
+**FACTUAL ERRORS:**  
+- **“The national average job‑guarantee wage from 1 July 2026, Rs 298.8 to Rs 327.4 a day”** – The pre‑increase national average of **Rs 298.8** does not match the figure published by the Ministry of Rural Development for the 2025‑26 wage cycle, which was **approximately Rs 306 per day** (based on the official state‑wise rates). The article’s lower figure appears to be a mis‑statement of the actual national average. [confidence: medium]
+
+**INTERPRETATION ERRORS:**  
+- **“Against the 9.6% wage rise, that leaves a real gain of about 1.4% nationally.”** – This conclusion equates the **CPI‑AL** (Consumer Price Index for Agricultural Labourers) with the cost‑of‑living index for rural employment‑guarantee workers and applies a single, un‑weighted national price change to all states. It ignores (a) that the wage applies only to days actually worked under the guarantee, (b) that consumption baskets differ across states, and (c) that the CPI‑AL reflects price movements for a specific labour‑class, not the broader household consumption of MGNREGA workers. Consequently, the “real gain” figure is an oversimplified apples‑to‑oranges comparison. [confidence: high]
 
 ## Mistral open-mistral-nemo
 
 **FACTUAL ERRORS:**
-- **"The July 2026 wage notification, reported as S.O. 3518(E), is not in the gazette index this blog used, so the new rates are still as reported."** — The article acknowledges the absence of S.O. 3518(E) in the Gazette index but later cites multiple news sources (Upstox, SCC Online, *The Tribune*, *Outlook Business*) for the July 2026 wage rates. While the lack of an official gazette entry is noted, the claim that "the new rates are still as reported" is misleading because the article itself admits these sources may disagree for some states (e.g., Karnataka, Punjab, Goa, Kerala). The discrepancy undermines the factual basis for the reported Rs 327.4 national average and state-specific rates.
-  [confidence: high]
+- **"The July 2026 wage notification, reported as S.O. 3518(E), is not in the gazette index this blog used, so the new rates are still as reported."** — The article later clarifies that the **July 2026 wage notification (S.O. 3518(E)) is not in the Gazette of India index used**, but it does not confirm whether the reported rates (e.g., Rs 327.4 national average) are *factually incorrect* or merely unverified due to the missing gazette entry. Since the article itself relies on these figures (and cites news sources like Upstox/SCO Online), this is ambiguous. However, the **claim that the notification is "not in the gazette index" is accurate**, but the implication that the rates are therefore unverified is a stretch—other sources (e.g., news reports) may still be valid. [confidence: **medium**]
 
-- **"The national average wage in 2025-26 was Rs 370 a day"** (corrected later in the article) — The August piece originally misstated the national average wage for 2025-26 as Rs 370, which contradicts the verified state-level data (actual average ~Rs 307). While the article later clarifies this error, the initial claim remains factually incorrect.
-  [confidence: high]
+- **"The national average wage in 2025-26 was Rs 370"** (corrected later) — The August piece originally misstated the **2025-26 national average wage as Rs 370**, which contradicts the verified state-level data (actual average ~Rs 307). The correction in the article acknowledges this error. [confidence: **high**]
 
 ---
-
 **INTERPRETATION ERRORS:**
-- **"The Rs 300 floor lifted the poorest states by up to 19%."** — The claim conflates nominal wage increases with real purchasing power. While states like Uttar Pradesh saw a 19% nominal rise (from Rs 252 to Rs 300), this does not account for state-specific inflation (e.g., Uttar Pradesh’s CPI-AL rose 7.4% over the period, leaving a real gain of +10.9%—a far different outcome than a blanket "lift" of 19%). The article later corrects this by showing mixed real changes, but the opening framing misleads by ignoring inflationary erosion in most states.
-  [confidence: high]
+- **"The Rs 300 floor lifted the poorest states by up to 19%."** — While true for states like Uttar Pradesh (Rs 252 → Rs 300 = +19%), this **overgeneralizes the impact**. The article later shows that **8 of 17 states saw real wage declines** after adjusting for inflation, meaning the "lift" was **not universal** and often offset by price rises. The phrasing implies a net positive effect that doesn’t hold for most states. [confidence: **high**]
 
-- **"The new wage buys less than the old one did in 8 of 17 states"** — This is technically correct but misleadingly framed as a uniform policy failure. The article later explains that the 8 states with negative real changes (e.g., Andhra Pradesh: -9.1%) had wages *already above the Rs 300 floor* in 2025-26, meaning their small nominal increases (e.g., Rs 5 in Andhra Pradesh) were insufficient to offset high inflation. The interpretation error lies in treating this as evidence of a systemic flaw in the floor policy, when it reflects pre-existing wage structures and inflation dynamics, not the floor’s design.
-  [confidence: medium]
+- **"The new wage buys less than the old one did in Andhra Pradesh, Telangana, Maharashtra and five other states."** — The claim is **factually correct**, but the **causal reasoning is incomplete**. The article does not explain *why* these states saw real wage declines despite the Rs 300 floor. Possible reasons (e.g., **state-specific price surges, delayed wage implementation, or formulaic adjustments**) are not explored, leaving the interpretation **inconclusive**. [confidence: **medium**]
 
 ---
 **OUTDATED DATA:**
-- **"Prices for farm labourers rose 3.4% in the next quarter alone"** (June–September 2026) — While the data is sourced from MoSPI’s CPI-AL (2019 = 100), the article does not verify whether this aligns with the latest official release for September 2026. MoSPI’s CPI-AL is typically updated monthly with a lag; as of October 2026, the latest official data for September 2026 may have been revised or superseded by a newer release (e.g., October 2026 or Q3 2026–27 estimates). The claim assumes no post-publication updates.
-  [confidence: medium]
+- **"Prices for farm labourers rose 3.4% in the next quarter alone (June–Sep 2026)."** — The **CPI-AL data is current as of September 2026**, but the article does not check for **later updates** (e.g., October–December 2026 or 2027 data). If newer MoSPI releases exist (e.g., for Q4 2026 or FY2027), the **real wage impact could differ**. [confidence: **medium**]
+  *Series to re-check:* **MoSPI’s CPI-AL (2019=100) monthly updates** (latest period: post-September 2026).
 
-- **"Year-on-year inflation for agricultural labourers was 1.73% in June 2025"** — This is correct for the rebased series (2019 = 100), but the article does not check whether MoSPI has since released a revised or finalized figure for June 2025 inflation (e.g., in the 2025–26 annual report or subsequent updates). The CPI-AL series is subject to annual revisions; the June 2025 figure might have been adjusted in later releases.
-  [confidence: low]
+- **"The national average wage rose from Rs 298.8 to Rs 327.4 (9.6%)."** — While accurate for **July 2026**, this **does not account for post-September 2026 revisions** (e.g., if the ministry later adjusted rates for Q4 2026 inflation). The article’s analysis is **static** and doesn’t verify if **later notifications** (e.g., for FY2027-28) supersede these figures. [confidence: **medium**]
+  *Series to re-check:* **Ministry of Rural Development’s wage notifications (S.O. series) for FY2027-28**.

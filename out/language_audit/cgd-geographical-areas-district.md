@@ -4,6 +4,9 @@
 
 **This is a report, not an applied fix.** LanguageTool has a high false-positive rate on this blog's prose (chart captions, code identifiers, valid constructions it misparses) — review each item before touching the post.
 
+- **[COMPOUNDING/PRO_RATA]** The Latin adjective/adverb “pro rata” is spelled as two words.
+  context: ...PNG connections in April 2026 against a pro-rata target of about 4.18 crore, and 8,948 C...
+  suggested: pro rata
 - **[COMPOUNDING/PER_CENT]** In American English, “percent” is the recommended spelling.
   context: ...d explicitly framed around reaching 100 per cent geographical coverage of the country; t...
   suggested: percent
@@ -28,9 +31,18 @@
 - **[COMPOUNDING/PER_CENT]** In American English, “percent” is the recommended spelling.
   context: ...ng: PNGRB's "98 per cent population, 88 per cent geography" coverage figure describes li...
   suggested: percent
+- **[COMPOUNDING/PRO_RATA]** The Latin adjective/adverb “pro rata” is spelled as two words.
+  context: ...bout 1.71 crore in April 2026 against a pro-rata target of about 4.18 crore under the au...
+  suggested: pro rata
+- **[COMPOUNDING/PRO_RATA]** The Latin adjective/adverb “pro rata” is spelled as two words.
+  context: ...stations, at 8,948, were ahead of their pro-rata target of 6,889. Household piping, not ...
+  suggested: pro rata
 - **[COMPOUNDING/PER_CENT]** In American English, “percent” is the recommended spelling.
   context: ...al PNG connection available, so the '98 per cent population, 88 per cent geography' figu...
   suggested: percent
 - **[COMPOUNDING/PER_CENT]** In American English, “percent” is the recommended spelling.
   context: ...ble, so the '98 per cent population, 88 per cent geography' figure is never the only cov...
   suggested: percent
+- **[COMPOUNDING/PRO_RATA]** The Latin adjective/adverb “pro rata” is spelled as two words.
+  context: ...ection and CNG-station progress against pro-rata targets (April 2026) per Indian Infrast...
+  suggested: pro rata
