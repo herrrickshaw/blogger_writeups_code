@@ -1,0 +1,266 @@
+<div class="artx inbx">
+<style>
+/* ---- typography (gs-typo-unify-v1): keep in sync across all posts ---- */
+.inbx{font-family:Georgia,'Times New Roman',serif;line-height:1.6;color:#111}
+.inbx h1,.inbx h2,.inbx h3{line-height:1.3}
+
+/* ---- palette: define every colour as a custom property here. Do not add
+       raw hex elsewhere in a post's <style> block — reference these vars, so
+       a future palette change is a 4-line edit instead of a find-and-replace
+       across every post. ----
+   --ink     #111    body text, light-locked (see below)
+   --accent  #8a4b08  eyebrow text, h2 rule, table header bg, stat numbers —
+                       the one colour that carries this post's "brand"
+   --rule    #e8dcc4  hairline borders, h2 underline, table cell borders
+   --panel   #fdf7ec  stat-card bg, even table rows — the palette's one tint
+*/
+.inbx{--ink:#111;--accent:#8a4b08;--rule:#e8dcc4;--panel:#fdf7ec;--good:#1a7a4c;--good-soft:#eaf6ef;--bad:#a5402c;--bad-soft:#fff4f0}
+
+/* ---- mono-label convention (added 2026-09-17, borrowed from the
+       india-trade-sector-policy-recommendations design system): the eyebrow
+       kicker and the source line read as data-journalism metadata, not
+       article prose, so they get a monospace face — a system stack, not a
+       hosted webfont, so no post gains an extra network request or a
+       flash-of-unstyled-text risk. Body text (h1/p/li/table) keeps the
+       serif — this is a two-place accent, not a font-pairing overhaul. ---- */
+.inbx{--mono:ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace}
+
+/* ---- light lock (gs-light-lock): a dark Blogger theme (and a browser/OS
+       set to prefers-color-scheme:dark) must not repaint text. Re-assert
+       the same values with !important — verified 2026-08-14 across 5 live
+       posts with the browser's colour scheme forced to dark: body/h1/p/table
+       all stayed light-background/dark-text with no low-contrast pairs.
+       Do NOT add selectors here for panels that are meant to be dark —
+       those go in the guard below. ---- */
+.inbx,.inbx p,.inbx li,.inbx td,.inbx th{color:var(--ink)!important}
+.inbx{background:#fff!important}
+
+/* ---- structure: title + subtitle ----
+   .eyebrow    = the small-caps kicker ABOVE the h1 — "Section · Topic ·
+                 Subtopic", sets context before the reader hits the claim
+   h1          = the headline itself. Write it as the CLAIM, not the topic
+                 ("The Rouble Is the Outlier, Not the Dollar" beats
+                 "Currency Trends Update"). font-size 1.5rem is the deliberate
+                 site-wide size — do not bump it per-post.
+   .standfirst = the one/two-sentence SUBTITLE directly under the h1. This is
+                 also what Blogger's snippet extractor and the JSON-LD meta
+                 description both read (see the gs-head-order block below) —
+                 write it as a real, complete sentence a reader could act on,
+                 not a fragment.
+*/
+.inbx .eyebrow{font-size:.8rem;font-weight:700;letter-spacing:.04em;color:var(--accent);text-transform:uppercase;margin:0 0 6px;font-family:var(--mono)}
+.inbx h1{margin:0 0 10px;font-size:1.5rem}
+.inbx .standfirst{font-size:1.05rem;color:#333!important;margin:0 0 18px}
+.inbx .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px;margin:18px 0}
+.inbx .stat{background:var(--panel);border:1px solid var(--rule);border-radius:10px;padding:12px 14px}
+.inbx .stat b{display:block;font-size:1.2rem;color:var(--accent)}
+.inbx .stat span{font-size:.8rem}
+.inbx h2{color:var(--accent);border-bottom:2px solid var(--rule);padding-bottom:6px;margin-top:30px;font-size:1.15rem}
+
+/* ---- tables: units live in the header, cells carry bare numbers.
+       .tw is the mobile-overflow fix — see the MOBILE comment above. ---- */
+.inbx .tw{overflow-x:auto}
+.inbx table{width:100%;border-collapse:collapse;margin:14px 0;font-size:.88rem}
+.inbx th,.inbx td{border:1px solid var(--rule);padding:7px 9px;text-align:right;word-wrap:break-word;overflow-wrap:break-word}
+.inbx th:first-child,.inbx td:first-child{text-align:left}
+.inbx th{background:var(--accent);color:#fff!important;font-weight:600}
+.inbx tr:nth-child(even){background:var(--panel)}
+
+.inbx .note{background:#eef4ff;border-left:4px solid #2a78d6;padding:12px 16px;margin:18px 0;border-radius:0 8px 8px 0;font-size:.93rem}
+.inbx .warn{background:var(--bad-soft);border-left:4px solid var(--bad);padding:12px 16px;margin:18px 0;border-radius:0 8px 8px 0;font-size:.93rem}
+/* ---- .good (added 2026-09-17): third semantic tier alongside .note (neutral
+       framing) and .warn (a caveat/scope limit) — for the case a caveat block
+       would otherwise get stretched to cover: confirming a figure checked out,
+       a correction that resolved cleanly, a claim that survived cross-check.
+       Same shape as .note/.warn on purpose, so all three read as one family. */
+.inbx .good{background:var(--good-soft);border-left:4px solid var(--good);padding:12px 16px;margin:18px 0;border-radius:0 8px 8px 0;font-size:.93rem}
+/* ---- .chip (added 2026-09-17): formalises a labelling pattern several posts
+       already built ad hoc in JS (e.g. "PLI coverage: strong/partial/gap")
+       into one reusable inline component, so a new post doesn't reinvent it.
+       Use inline: <span class="chip chip-good">Strong</span>. ---- */
+.inbx .chip{display:inline-block;font-family:var(--mono);font-size:.72rem;font-weight:700;letter-spacing:.02em;padding:.15rem .5rem;border-radius:99px;line-height:1.5}
+.inbx .chip-good{background:var(--good-soft);color:var(--good)}
+.inbx .chip-warn{background:var(--panel);color:var(--accent)}
+.inbx .chip-bad{background:var(--bad-soft);color:var(--bad)}
+.inbx .src{font-size:.84rem;font-family:var(--mono);border-top:1px solid var(--rule);padding-top:12px;margin-top:24px}
+.inbx .disclaimer{font-size:.82rem;color:#555;margin-top:10px}
+.inbx .revised{font-size:.8rem;color:#555!important;margin:0 0 14px}
+.inbx .revised code{font-family:inherit;background:var(--panel);padding:1px 5px;border-radius:4px}
+</style>
+
+<div class="gs-head-order" style="display:flex;flex-direction:column">
+<p class="standfirst" style="order:4">Indian courts have backed E20, handed States power over denatured alcohol, kept biodiesel outside petroleum-control law, and opened the oil companies' ethanol contracts to judicial review. This is how five rulings are reshaping the ethanol blending programme.</p>
+<div class="topnav-index-link" style="order:1;font-size:.82em;margin:6px 0 14px"><a href="https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html" style="color:#0b5394;text-decoration:none">&#8592; All Articles (Index)</a></div>
+<p class="eyebrow" style="order:2">Ethanol &amp; Biofuels &middot; Law &middot; India</p>
+<h1 style="order:3">India's Biofuel Rules Are Being Written in Court: E20 Survives, States Gain Alcohol Powers, and Ethanol Contracts Go on Trial</h1>
+</div>
+<a href="#" id="gs-skip-link" class="gs-skip-link" style="position:absolute;left:-9999px;top:auto;background:#1a1a1a;color:#fff;padding:.6rem 1rem;z-index:1000;border-radius:4px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.85rem">Skip to article content</a>
+<style>.gs-skip-link:focus{left:8px!important;top:8px!important}
+.gs-a11y-bar{display:flex;align-items:center;gap:.55rem;flex-wrap:wrap;background:#f4f5f7;border:1px solid #dfe3e8;border-radius:8px;padding:.55rem .8rem;margin:10px 0 16px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
+.gs-a11y-bar .gs-a11y-label{font-size:.68rem;font-weight:700;letter-spacing:.08em;color:#666;text-transform:uppercase;margin-right:.15rem}
+.gs-a11y-bar button{cursor:pointer;border:1px solid #c7cbd1;background:#fff;color:#1a1a1a;border-radius:5px;padding:.32rem .65rem;font-family:inherit;line-height:1}
+.gs-a11y-bar button.gs-a11y-fs{font-weight:700;min-width:2rem;text-align:center}
+.gs-a11y-bar button.gs-a11y-fs[data-size="sm"]{font-size:.8rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="md"]{font-size:1rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="lg"]{font-size:1.2rem}
+.gs-a11y-bar button.gs-a11y-fs[aria-pressed="true"]{background:#1a1a1a;color:#fff;border-color:#1a1a1a}
+.gs-a11y-bar button:hover{border-color:#8a4b08}
+.gs-a11y-bar button:focus-visible{outline:2px solid #8a4b08;outline-offset:1px}
+.gs-a11y-bar .gs-a11y-sep{width:1px;align-self:stretch;background:#dfe3e8;margin:0 .1rem}</style>
+<div class="gs-a11y-bar" role="group" aria-label="Accessibility controls">
+<span class="gs-a11y-label">Text Size</span>
+<button type="button" class="gs-a11y-fs" data-size="sm" aria-pressed="false" aria-label="Small text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="md" aria-pressed="true" aria-label="Medium text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="lg" aria-pressed="false" aria-label="Large text">A</button>
+<span class="gs-a11y-sep"></span>
+<button type="button" id="gs-a11y-listen" aria-label="Read this article aloud">&#128266; Listen</button>
+<button type="button" id="gs-a11y-stop" aria-label="Stop reading aloud">&#9632; Stop</button>
+</div>
+<script>(function(){
+var KEY='gs-a11y-fontsize', SIZES={sm:'0.92',md:'1',lg:'1.15'};
+function pb(){return document.querySelector('.post-body')||document.querySelector('.artx,.mdrx');}
+function apply(sz){
+  var el=pb(); if(!el||!SIZES[sz]) return;
+  el.style.fontSize=SIZES[sz]+'em';
+  var btns=document.querySelectorAll('.gs-a11y-fs');
+  for(var i=0;i<btns.length;i++){
+    var on=btns[i].getAttribute('data-size')===sz;
+    btns[i].setAttribute('aria-pressed', on?'true':'false');
+  }
+  try{localStorage.setItem(KEY,sz);}catch(e){}
+}
+var fsBtns=document.querySelectorAll('.gs-a11y-fs');
+for(var j=0;j<fsBtns.length;j++){
+  fsBtns[j].addEventListener('click',(function(b){return function(){apply(b.getAttribute('data-size'));};})(fsBtns[j]));
+}
+var saved; try{saved=localStorage.getItem(KEY);}catch(e){}
+apply(saved&&SIZES[saved]?saved:'md');
+
+var listenBtn=document.getElementById('gs-a11y-listen'), stopBtn=document.getElementById('gs-a11y-stop');
+if(listenBtn){
+  listenBtn.addEventListener('click', function(){
+    if(!('speechSynthesis' in window)){ alert('Text-to-speech is not supported in this browser.'); return; }
+    window.speechSynthesis.cancel();
+    var src=pb(); if(!src) return;
+    var clone=src.cloneNode(true);
+    var strip=clone.querySelectorAll('script,style,svg');
+    for(var k=0;k<strip.length;k++){ strip[k].parentNode.removeChild(strip[k]); }
+    var text=clone.textContent.replace(/\s+/g,' ').trim();
+    if(!text) return;
+    var chunks=text.match(/[\s\S]{1,180}(?:[.!?]|$)/g)||[text];
+    var idx=0;
+    function speakNext(){
+      if(idx>=chunks.length) return;
+      var u=new SpeechSynthesisUtterance(chunks[idx]);
+      u.onend=function(){ idx++; speakNext(); };
+      window.speechSynthesis.speak(u);
+    }
+    speakNext();
+  });
+}
+if(stopBtn){
+  stopBtn.addEventListener('click', function(){
+    if('speechSynthesis' in window) window.speechSynthesis.cancel();
+  });
+}
+var skip=document.getElementById('gs-skip-link');
+if(skip){
+  skip.addEventListener('click', function(ev){
+    ev.preventDefault();
+    var h=document.querySelector('.post-body h1')||document.querySelector('.artx h1,.mdrx h1,h1');
+    if(h){ h.setAttribute('tabindex','-1'); h.focus(); h.scrollIntoView(); }
+  });
+}
+})();</script>
+<style>.goog-te-menu-frame{max-width:340px!important;max-height:70vh!important;overflow:auto!important;box-shadow:0 6px 24px rgba(0,0,0,.25)!important}</style>
+<div id="google_translate_element" style="margin:8px 0 16px;"></div><script type="text/javascript">function googleTranslateElementInit(){new google.translate.TranslateElement({pageLanguage:"en",includedLanguages:"hi,bn,ta,te,mr,gu,kn,ml,pa,or,as,ur,sa,ne,sd",layout:google.translate.TranslateElement.InlineLayout.SIMPLE,autoDisplay:false},"google_translate_element");}</script><script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+<p class="revised" data-gs-revision-v1="1">Revised
+<time datetime="2026-10-03" itemprop="dateModified">3 October 2026</time>
+&middot; <code>v1.0.0</code></p>
+
+<div class="stats">
+<div class="stat"><b>8 : 1</b><span>Supreme Court majority placing industrial and denatured alcohol under State power (Lalta Prasad Vaish, 2024)</span></div>
+<div class="stat"><b>1,050 cr L</b><span>Ethanol sought by the oil companies for supply year 2025&ndash;26 (Tender 22376)</span></div>
+<div class="stat"><b>3.92 / 9.26</b><span>Crore litres allotted vs bid by one dedicated ethanol plant, the cut that started the VINP case</span></div>
+<div class="stat"><b>56%</b><span>Share of demand the Attorney General said DEPs would take if their contract clause were mandatory</span></div>
+</div>
+
+<p>India's ethanol and biodiesel programmes were built by notification: the National Biofuel Policy, the E20 roadmap, the oil marketing companies' (OMCs') annual tenders and the long-term offtake agreements that persuaded investors to build dedicated ethanol plants. Over the past two years the courts have started to test that structure. We read the judgments and orders, from the Supreme Court's nine-judge bench to the Karnataka High Court, and found four clear lines:</p>
+<ul>
+<li>the courts will not stop blending;</li>
+<li>the Constitution now gives States the regulatory hand over denatured alcohol;</li>
+<li>biodiesel is not a petroleum product;</li>
+<li>the OMCs' ethanol contracts can be reviewed by the courts.</li>
+</ul>
+
+<div class="warn" style="border-left:4px solid #a5402c;background:rgba(165,64,44,.07);padding:.8em 1em;margin:1.2em 0;border-radius:4px"><b>Updated 7 November 2026.</b> Two developments since this piece was revised. The 4 August interim arrangement let the oil companies award about 149 crore litres more for August&ndash;October 2026, taking 2025&ndash;26 procurement to about 1,197 crore litres. The 2026&ndash;27 tender, issued in October, keeps a preference for plants with long-term offtake agreements but says it is &ldquo;not a guarantee of offtake&rdquo; and that allocations can be cut, moved or cancelled without compensation; it also drops cane-juice ethanol and is about 55% of installed capacity (see this blog&rsquo;s <a href="https://masaladeutsch.blogspot.com/2026/10/indias-2026-27-ethanol-tender-drops.html">2026&ndash;27 tender piece</a>). This blog found no reported outcome of the Supreme Court hearing listed for 23 September 2026 on the VINP appeals and transferred cases.</div>
+<h2>The scorecard</h2>
+<div class="tw"><table>
+<tr><th>Decided</th><th>Court</th><th>Case</th><th>Issue</th><th>Outcome</th></tr>
+<tr><td>Oct 2024</td><td>Supreme Court (9 judges)</td><td>State of U.P. v. Lalta Prasad Vaish</td><td>Who regulates industrial and denatured alcohol</td><td><span class="chip chip-warn">States (8:1)</span></td></tr>
+<tr><td>Sep 2025</td><td>Supreme Court</td><td>Akshay Malhotra v. Union of India</td><td>E20 with no ethanol-free option</td><td><span class="chip chip-good">E20 stands</span></td></tr>
+<tr><td>Feb 2026</td><td>Supreme Court</td><td>OMCs v. VINP (SLP 7799/2026)</td><td>Interim allocation boost for a dedicated plant</td><td><span class="chip chip-good">OMCs (interim)</span></td></tr>
+<tr><td>Jun 2026</td><td>Karnataka HC</td><td>VINP Distilleries v. Union of India</td><td>Offtake-contract cut for a dedicated plant</td><td><span class="chip chip-bad">Distiller</span></td></tr>
+<tr><td>Aug 2026</td><td>Supreme Court</td><td>Modi Biotech v. VINP and others</td><td>Appeals; Q4 allocation</td><td><span class="chip chip-warn">Pending, interim deal</span></td></tr>
+<tr><td>2018 / 2023</td><td>Bombay HC</td><td>My Eco Energy; Abhay Rathi</td><td>Is biodiesel a petroleum product?</td><td><span class="chip chip-bad">No</span></td></tr>
+</table></div>
+
+<h2>1. E20: the Supreme Court will not stop blending</h2>
+<p>In <i>Akshay Malhotra v. Union of India</i> the petitioner did not oppose blending. He asked for:</p>
+<ul>
+<li>ethanol-free petrol (E0 or E10) for vehicles built before April 2023;</li>
+<li>labelling at fuel pumps;</li>
+<li>a study of E20's effect on older engines.</li>
+</ul>
+<p>He relied on a 2021 NITI Aayog report and on consumer-choice rights. The Attorney General called him a "name-lender" for a lobby and argued that the policy helps cane farmers and saves foreign exchange. On 1 September 2025 the bench of Chief Justice Gavai and Justice Vinod Chandran dismissed the petition in two lines, without reasons.</p>
+<div class="warn"><b>Read it narrowly.</b> A dismissal without reasons is not a ruling that E20 is lawful or harmless. It tells us the Court will not supervise fuel policy through a PIL. Claims about engine damage, insurance refusals or labelling remain open in consumer fora.</div>
+
+<h2>2. The Constitution: States now hold the alcohol lever</h2>
+<p><i>State of U.P. v. Lalta Prasad Vaish &amp; Sons</i> (23 October 2024) overruled the 1990 <i>Synthetics &amp; Chemicals</i> decision. Chief Justice Chandrachud wrote for eight judges.</p>
+<ul>
+<li>"Intoxicating liquor" in Entry 8 of the State List is not limited to drinks. It covers alcohol that could be "mischievously used", expressly including "rectified spirit, ENA and denatured spirit".</li>
+<li>The State's power runs "from the raw materials to the consumption".</li>
+<li>Parliament cannot take over this industry simply by declaring it under central control through the Industries (Development and Regulation) Act, 1951 (IDRA).</li>
+</ul>
+<p>The majority never mentions fuel. Justice Nagarathna, dissenting, did: she described industrial alcohol as "liquid fuel to be blended with petrol" and used the blending programme's growth to argue for central control. She lost 8&ndash;1.</p>
+<div class="note"><b>Why it matters for blending (our inference).</b> Fuel ethanol is anhydrous and usually denatured, so on the majority's test it very likely falls under State regulation: distillery licences, transport permits, movement passes and regulatory fees. The States cannot <i>tax</i> it under Entry 8; taxation sits in separate entries. Expect ethanol moving across State lines to the OMCs to become the next friction point, argued under the interstate-trade articles (301&ndash;304) and the rule that a fee must match a service.</div>
+
+<h2>3. Ethanol contracts: the VINP case</h2>
+<p>In 2021 the OMCs invited investors to build dedicated ethanol plants (DEPs) in ethanol-deficit states. The plants would sell only to the OMCs under long-term offtake agreements (LTOAs):</p>
+<ul>
+<li>clause 6.2 promised a base quantity "on best endeavor basis";</li>
+<li>clause 6.8 said extra volume up to design capacity would come through "preferential allocation".</li>
+</ul>
+<p>Tender 22376 for 2025&ndash;26 then said DEP volumes above the base quantity would <i>not</i> get preference. VINP Distilleries, a 300 KLPD plant in Haveri, bid 9.26 crore litres and was allotted 3.92 crore litres.</p>
+<ul>
+<li><b>Dec 2025 to Jan 2026:</b> a single judge and then a Division Bench of the Karnataka High Court ordered the allotment revised in line with clause 6.8.</li>
+<li><b>26 Feb 2026:</b> the Supreme Court set both orders aside. Supplies were well under way (281 crore litres delivered), and courts "should remain circumspect and slow in passing interim orders which may have the effect of seriously impeding the execution of the tender." The Attorney General warned that a mandatory clause 6.8 would hand DEPs about 56% of the 1,050 crore litres. The merits were left open.</li>
+<li><b>16 Jun 2026:</b> Justice Nagaprasanna ruled for VINP. The OMCs are State instrumentalities with monopoly power, so "fairness and reasonableness are not matters of grace but constitutional obligation". The new tender term was a "bolt from the blue", and "Arbitrariness can never masquerade as discretion." The relief, though, was only an order to <i>reconsider</i> VINP's request within four weeks.</li>
+<li><b>30 Jun and 4 Aug 2026:</b> the Supreme Court ordered status quo, then approved, as an interim arrangement, an OMC proposal for Q4 allocation to all bidders (reported as 149 crore litres extra). It pulled similar cases from the Bombay (Nagpur) and Patna High Courts to itself. Hearing is set for 23 September 2026.</li>
+</ul>
+<div class="warn"><b>Zero-sum.</b> Every litre of preference for a dedicated plant comes out of allocations to sugar mills and grain distillers that have no long-term offtake agreement. Whatever the Supreme Court decides will reprice the offtake promise that underpinned DEP investment.</div>
+
+<h2>4. Biodiesel: not a petroleum product</h2>
+<p>In 2018 the Bombay High Court (<i>My Eco Energy v. Union of India</i>) held that biodiesel is not "petroleum" or a "petroleum product". So the 2005 Motor Spirit and High Speed Diesel Control Order, with its marketing-rights barrier of about &#8377;2,000 crore of investment, could not block biodiesel sales. The Centre answered with Biodiesel Sale Guidelines in April 2019. In 2023 a Nagpur bench (<i>Abhay Rathi v. State of Maharashtra</i>) applied the same logic to quash a criminal case over seized biodiesel. Neither the Essential Commodities Act nor the Petroleum Act applied.</p>
+<p>The practical effect is that enforcement against fake "biodiesel" has to prove the product is really diesel, through lab testing. Simply calling biodiesel a controlled fuel is not enough.</p>
+
+<h2>What India can learn from the US credit cases</h2>
+<p>Our <a href="https://masaladeutsch.blogspot.com/2026/10/refiners-won-exemption-fight-biofuels.html">review of eight US rulings on biofuel credits</a> found American courts deferring to the regulator on volumes but insisting on individualised, reasoned decisions when it grants or refuses relief to particular refiners. India is following a similar path. The Supreme Court leaves E20 and procurement totals to the government, while the Karnataka High Court demands fair, consistent treatment when the OMCs change terms on investors they recruited. As India moves to SAF and co-processing credits, the lesson is to write offtake and credit rules that are clear, apply prospectively, and are honoured through tender cycles.</p>
+
+<h2>What to watch</h2>
+<ul>
+<li>The Supreme Court hearing on VINP and the transferred cases (listed 23 Sep 2026): whether clause 6.8 binds the OMCs, and whether LTOA disputes belong in writ courts or arbitration.</li>
+<li>State permit and fee rules on fuel ethanol after <i>Lalta Prasad Vaish</i>, and the first challenges to them.</li>
+<li>Consumer-forum cases on E20 engine damage and pump labelling.</li>
+<li>Whether the Centre brings biodiesel under a statutory framework instead of guidelines.</li>
+</ul>
+
+<p class="src">Sources: Supreme Court of India: State of U.P. v. Lalta Prasad Vaish &amp; Sons, [2024] 10 S.C.R. 1931 : 2024 INSC 812 (full text via Legal Data Hunter); W.P.(C) 813/2025, record of proceedings 1 Sep 2025; SLP(C) 7799/2026 order of 26 Feb 2026 (as recited in the Karnataka HC judgment); orders of 4 Aug 2026 in SLP(C) 22963/2026 and T.P.(C) 1924&ndash;1925/2026. Karnataka High Court: WP 109133/2025, judgment of 16 Jun 2026. Bombay High Court: WP 1556/2016 (Nov 2018, from press reports); Crl. Appl. 555 &amp; 695/2022, 2023:BHC-NAG:13366-DB (from case note). News: LiveLaw (1 Sep 2025), LiveLaw Biz (30 Jun 2026), Business Standard (12 Mar and 5 Aug 2026). Update of 7 November 2026: the 149 crore litre fourth-quarter allocation as reported by <a href="https://www.livelawbiz.com/top-stories/oil-marketing-companies-propose-additional-149-crore-litres-ethanol-allocation-for-fourth-quarter-before-supreme-court-546047">LiveLaw Biz</a>; 2026&ndash;27 tender terms from this blog&rsquo;s reading of the tender. Page and paragraph references are to the copies read. This is a summary of public court records, not legal advice.</p>
+
+<style id="gs-light-lock-v1">/* gs-light-lock-v1 BW-OVERRIDE */:root,.inbx{--ink:#111!important;--accent:#8a4b08!important;--rule:#e8dcc4!important;--panel:#fdf7ec!important;--good:#1a7a4c!important;--good-soft:#eaf6ef!important;--bad:#a5402c!important;--bad-soft:#fff4f0!important}</style>
+<p class="disclaimer" data-gs-ai-disclosure-v1="1"><strong>About this article:</strong> Researched, written and edited by Umashankar Triplicane Dwarakanathan, with AI research assistance; every figure is meant to trace to the primary source cited. See the <a href="https://masaladeutsch.blogspot.com/p/disclaimer.html">Editorial Policy</a> for how sourcing, AI use and corrections work.</p>
+
+</div>
+
+<div id="gs-idx"></div><script defer="defer" src="https://herrrickshaw.github.io/masaladeutsch/accordion.js"></script>
