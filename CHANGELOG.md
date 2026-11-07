@@ -16954,3 +16954,18 @@ maize cosmetics post
 **Added**
 
 - `a-record-maize-crop-will-not-make-india` **v1.0.0** — A Record Maize Crop Will Not Make India a Hyaluronic Acid Producer. The World’s Entire Supply Fits Inside 13,000 Tonnes of Grain (31,183 bytes)
+
+## 2026-11-07T06:18:26+05:30 — 501 posts live
+
+CSR, panchayat and poverty posts
+
+
+**Added**
+
+- `the-world-bank-says-496-million-indians` **v1.0.0** — The World Bank Says 496 Million Indians Left Poverty. Its Own Note Says the Last Year’s Drop Is Partly a Better Survey (25,678 bytes)
+- `panchayats-raise-barely-two-rupees-in` **v1.0.0** — Panchayats Raise Barely Two Rupees in Tax for Every Hundred They Receive, 33 Years After the 73rd Amendment (26,379 bytes)
+- `doubling-indias-csr-profit-trigger` **v1.0.0** — Doubling India’s CSR Profit Trigger Removes 11,204 Companies but About 3% of the Money (28,249 bytes)
+
+**Re-dated** (publication date changed; body and URL unchanged)
+
+- `a-record-maize-crop-will-not-make-india` — 2026-11-07 &rarr; 2026-11-07
