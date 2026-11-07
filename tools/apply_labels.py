@@ -799,6 +799,7 @@ SLUG_CONTAINS = {
     "doubling-indias-csr-profit": ["Governance & Institutions", "Markets & Finance"],
     "panchayats-raise-barely-two": ["Governance & Institutions", "Macroeconomics & Monetary Policy", "Scheme Delivery Gap"],
     "world-bank-says-496-million": ["Macroeconomics & Monetary Policy", "Governance & Institutions"],
+    "from-kerosene-in-diesel-to-ethanol": ["Energy & Fuels", "Fuel Retail & Pricing", "Ethanol & Biofuels", "Governance & Institutions"],
     "capped-margins-on-137-cancer": ["Healthcare"],
     "indians-pay-for-health": ["Healthcare"],
     "funded-3-lakh-machines": ["Agriculture & Fertilisers", "Energy & Fuels"],
