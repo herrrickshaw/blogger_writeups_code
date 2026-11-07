@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/pngrb-wants-prepaid-smart-meters-on.html",
   "slug": "pngrb-wants-prepaid-smart-meters-on",
   "published": "2026-09-08T09:22:34.000+05:30",
-  "updated": "2026-10-01T08:43:58.377+05:30",
+  "updated": "2026-11-07T08:54:35.179+05:30",
   "labels": [
     "City Gas Distribution",
     "Gas & LNG",
     "Industrial Policy"
   ],
-  "bytes": 26288,
-  "sha256": "228a191cd55c56305aea86a6b2ad49a763113632e83481c706ab5a1a5d08ffb0",
+  "bytes": 28108,
+  "sha256": "281dcf22fd0fcd6cd0c83c9966f74bb91d347e80a16b3fd74071e18bdb4713d3",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.1.0",
+  "version": "1.2.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -70,6 +70,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Rule 8 retrofit: added What would fix this section"
+    },
+    {
+      "version": "1.2.0",
+      "date": "2026-11-07T09:12:26+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+2/-0 distinct numbers))",
+      "bytes": [
+        26288,
+        28108
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "November data refresh"
     }
   ]
 }

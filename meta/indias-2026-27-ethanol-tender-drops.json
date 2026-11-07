@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/10/indias-2026-27-ethanol-tender-drops.html",
   "slug": "indias-2026-27-ethanol-tender-drops",
   "published": "2026-10-20T03:02:30.000+05:30",
-  "updated": "2026-10-26T14:19:41.788+05:30",
+  "updated": "2026-11-07T08:40:27.785+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Energy & Fuels",
     "Ethanol & Biofuels"
   ],
-  "bytes": 35562,
-  "sha256": "00715b9ced29a23d2783b08e174add95761c7baf022663e85dbf0bda11a703a2",
+  "bytes": 37037,
+  "sha256": "908ea716144d07637595ae4f5eeceea032ad869a07a2ed7c92f7e6685ace6e0a",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.0",
+  "version": "2.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -57,6 +57,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "published 15 source-gap corrections (2026-10-25 audit)"
+    },
+    {
+      "version": "2.1.0",
+      "date": "2026-11-07T09:12:26+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+1/-0 distinct numbers))",
+      "bytes": [
+        35562,
+        37037
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "November data refresh"
     }
   ]
 }

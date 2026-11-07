@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/indias-ethanol-sector-already-had-its.html",
   "slug": "indias-ethanol-sector-already-had-its",
   "published": "2026-09-15T06:49:17.000+05:30",
-  "updated": "2026-10-14T16:26:14.813+05:30",
+  "updated": "2026-11-07T08:43:58.804+05:30",
   "labels": [
     "Energy & Fuels"
   ],
-  "bytes": 24114,
-  "sha256": "bf67027b083738e34bb2dbcfeac8c6f430c2b36cd843c337ce070db577a78ec1",
+  "bytes": 24984,
+  "sha256": "cfe856eadea726a1072d7c1774bd2e0baae1612b224b1f70172236e806de7f18",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.2.0",
+  "version": "2.3.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -94,6 +94,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Update notes 12-13 Oct 2026 from the currency sweeps (45 posts)"
+    },
+    {
+      "version": "2.3.0",
+      "date": "2026-11-07T09:12:26+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+4/-0 distinct numbers))",
+      "bytes": [
+        24114,
+        24984
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "November data refresh"
     }
   ]
 }

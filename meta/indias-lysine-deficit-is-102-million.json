@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/10/indias-lysine-deficit-is-102-million.html",
   "slug": "indias-lysine-deficit-is-102-million",
   "published": "2026-10-10T21:36:17.000+05:30",
-  "updated": "2026-10-12T12:59:32.113+05:30",
+  "updated": "2026-11-07T08:46:01.359+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Chemicals",
     "Trade & Tariffs"
   ],
-  "bytes": 29353,
-  "sha256": "39349d615e3c161739fedb4f9ef91d16081486931afaf2e1bb2ed04fa9c0d9c2",
+  "bytes": 31016,
+  "sha256": "71306b80550ba3b87c4e84cedff74b6f51e7c7cff8d71acb5c160bc10760e49e",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.1.0",
+  "version": "1.2.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -44,6 +44,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Update notes 12 Oct 2026: bagasse sugar-season data, sucralose FSSAI and IDF, lysine price and EU inquiry"
+    },
+    {
+      "version": "1.2.0",
+      "date": "2026-11-07T09:12:26+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+13/-0 distinct numbers))",
+      "bytes": [
+        29353,
+        31016
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "November data refresh"
     }
   ]
 }

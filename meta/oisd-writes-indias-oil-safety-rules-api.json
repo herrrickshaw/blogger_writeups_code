@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/oisd-writes-indias-oil-safety-rules-api.html",
   "slug": "oisd-writes-indias-oil-safety-rules-api",
   "published": "2026-09-01T22:01:33.000+05:30",
-  "updated": "2026-10-26T14:19:57.887+05:30",
+  "updated": "2026-11-07T08:52:29.322+05:30",
   "labels": [
     "Gas & LNG",
     "Regulatory & Industry-Body Accountability"
   ],
-  "bytes": 36565,
-  "sha256": "5ba1d04e4308d48c2ab0756156cfced6a3f45b17a4d23c716a88c3f152728f99",
+  "bytes": 37683,
+  "sha256": "3856edffeb0c76a33abaf5a36e81f3fcba0d142668ce3d02b8ba1b31a31e4a6b",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.0",
+  "version": "2.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -121,6 +121,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "published 15 source-gap corrections (2026-10-25 audit)"
+    },
+    {
+      "version": "2.1.0",
+      "date": "2026-11-07T09:12:26+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+3/-0 distinct numbers))",
+      "bytes": [
+        36565,
+        37683
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "November data refresh"
     }
   ]
 }

@@ -4,15 +4,15 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/europe-bought-record-amount-of-lng-and.html",
   "slug": "europe-bought-record-amount-of-lng-and",
   "published": "2026-08-08T10:31:50.000+05:30",
-  "updated": "2026-10-26T08:59:27.688+05:30",
+  "updated": "2026-11-07T08:28:25.292+05:30",
   "labels": [
     "Gas & LNG",
     "Global LNG Markets",
     "Industrial Policy",
     "Trade & Tariffs"
   ],
-  "bytes": 46109,
-  "sha256": "b6c9b5034d55a95f3b294753c34604d5ebdac0150cad195b3ef6561074cd3721",
+  "bytes": 47132,
+  "sha256": "a2e59005a39b6ceebff1cea3ce6559708a6b086a68fcf0c5f851633ce5fa4a45",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "9.0.0",
+  "version": "9.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -331,6 +331,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Crosscheck 26 Oct: stale figures corrected in 10 posts (CAQM, gas grid, GDP, H2 tenders, wind, IOCL PII, rupee, Dahej)"
+    },
+    {
+      "version": "9.1.0",
+      "date": "2026-11-07T09:12:26+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+3/-0 distinct numbers))",
+      "bytes": [
+        46109,
+        47132
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "November data refresh"
     }
   ]
 }

@@ -4,15 +4,15 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/india-grows-soybean-exports-meal-leads.html",
   "slug": "india-grows-soybean-exports-meal-leads",
   "published": "2026-08-15T08:01:21.000+05:30",
-  "updated": "2026-10-09T09:48:30.428+05:30",
+  "updated": "2026-11-07T08:36:07.600+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Agriculture & Food Processing",
     "India Trade & Policy",
     "Trade & Tariffs"
   ],
-  "bytes": 41412,
-  "sha256": "1f2292e08e0d3bc7538412b42cfde1fc5938c4056df138fc4965d56282e6ad77",
+  "bytes": 43374,
+  "sha256": "e070934dc741da14b340a14b78262d428eaf1c2cd09ce1e85330853b5ca2c890",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "5.2.0",
+  "version": "5.3.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -201,6 +201,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "October update sweep: GEC-III, rabi MSP, edible-oil duty, GOBARdhan, GST H1, forex"
+    },
+    {
+      "version": "5.3.0",
+      "date": "2026-11-07T09:12:26+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+9/-0 distinct numbers))",
+      "bytes": [
+        41412,
+        43374
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "November data refresh"
     }
   ]
 }

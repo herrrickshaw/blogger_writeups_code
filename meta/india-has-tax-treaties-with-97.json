@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/india-has-tax-treaties-with-97.html",
   "slug": "india-has-tax-treaties-with-97",
   "published": "2026-08-09T10:54:39.000+05:30",
-  "updated": "2026-10-14T16:25:37.395+05:30",
+  "updated": "2026-11-07T08:36:41.093+05:30",
   "labels": [
     "Free Trade Agreements",
     "Trade & Tariffs"
   ],
-  "bytes": 30853,
-  "sha256": "c15df0963cfa8dd3552276c77838fb14554b1b9a20a8d13a10f5d712a8f3235c",
+  "bytes": 32377,
+  "sha256": "7f0d90b4748cda7b8b16a8305126976582904daa6ce94950cfaa2b5287fe284f",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "4.2.0",
+  "version": "4.3.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -264,6 +264,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Update notes 12-13 Oct 2026 from the currency sweeps (45 posts)"
+    },
+    {
+      "version": "4.3.0",
+      "date": "2026-11-07T09:12:26+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+4/-0 distinct numbers))",
+      "bytes": [
+        30853,
+        32377
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "November data refresh"
     }
   ]
 }

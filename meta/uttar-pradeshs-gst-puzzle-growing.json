@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/uttar-pradeshs-gst-puzzle-growing.html",
   "slug": "uttar-pradeshs-gst-puzzle-growing",
   "published": "2026-08-12T19:19:19.000+05:30",
-  "updated": "2026-10-23T10:10:22.774+05:30",
+  "updated": "2026-11-07T09:08:33.212+05:30",
   "labels": [
     "Macroeconomics & Monetary Policy",
     "Trade & Tariffs"
   ],
-  "bytes": 31735,
-  "sha256": "97b8c279139d6415b819fea970828d71d3d64941969a83539d394116217e01ff",
+  "bytes": 32824,
+  "sha256": "108f0f316d2aa3be0caffc622822bb031d8bcf2cb8b5f05f8b1111f4563c329b",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.1.1",
+  "version": "2.2.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -290,6 +290,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Sweep 4 MEDIUM items: dated update notes on 59 posts"
+    },
+    {
+      "version": "2.2.0",
+      "date": "2026-11-07T09:12:26+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+5/-0 distinct numbers))",
+      "bytes": [
+        31735,
+        32824
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "November data refresh"
     }
   ]
 }

@@ -4,15 +4,15 @@
   "url": "https://masaladeutsch.blogspot.com/2026/10/the-hydrogen-behind-biofuel-mandate.html",
   "slug": "the-hydrogen-behind-biofuel-mandate",
   "published": "2026-10-14T16:15:14.000+05:30",
-  "updated": "2026-10-16T10:40:38.433+05:30",
+  "updated": "2026-11-07T09:04:46.049+05:30",
   "labels": [
     "Energy & Fuels",
     "Ethanol & Biofuels",
     "Hydrogen",
     "Industrial Policy"
   ],
-  "bytes": 45658,
-  "sha256": "4f5cdb8d9dba37f163bfec4b4e693ee7bdf628e3712987ddc676dc291ed84df4",
+  "bytes": 47653,
+  "sha256": "6744f44682dd5a3a4bd1ea41996bf67c8e81ff5cd72dfd40f70cf2d462fc6189",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -32,6 +32,19 @@
       "level": "initial",
       "reason": "first snapshot",
       "note": ""
+    },
+    {
+      "version": "1.1.0",
+      "date": "2026-11-07T09:12:26+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+4/-0 distinct numbers))",
+      "bytes": [
+        45658,
+        47653
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "November data refresh"
     }
   ]
 }

@@ -4,15 +4,15 @@
   "url": "https://masaladeutsch.blogspot.com/2026/07/india-fuel-retail-outlets-82k-geocoded.html",
   "slug": "india-fuel-retail-outlets-82k-geocoded",
   "published": "2026-07-22T05:30:00.000+05:30",
-  "updated": "2026-10-01T08:28:29.646+05:30",
+  "updated": "2026-11-07T08:35:17.166+05:30",
   "labels": [
     "City Gas Distribution",
     "Energy & Fuels",
     "Fuel Retail & Pricing",
     "Gas & LNG"
   ],
-  "bytes": 21969,
-  "sha256": "f79a974994c38b9597c9f12e183fbda40e9b644347f2c5864e25916e1256e7f1",
+  "bytes": 23087,
+  "sha256": "9fa87461f89fdfe7b54fc97adc8dcdaa01d101581590db91887d66c179b96b02",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.1.0",
+  "version": "1.2.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -45,6 +45,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Rule 8 retrofit: added What would fix this section"
+    },
+    {
+      "version": "1.2.0",
+      "date": "2026-11-07T09:12:26+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+7/-0 distinct numbers))",
+      "bytes": [
+        21969,
+        23087
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "November data refresh"
     }
   ]
 }

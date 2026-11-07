@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/07/india-trade-sector-policy.html",
   "slug": "india-trade-sector-policy",
   "published": "2026-07-21T05:30:00.000+05:30",
-  "updated": "2026-09-11T00:10:36.966+05:30",
+  "updated": "2026-11-07T08:39:31.533+05:30",
   "labels": [
     "Industrial Policy"
   ],
-  "bytes": 20611,
-  "sha256": "1b5154eaf7f61c47a1cc45e54739e37ea17c8103d29c98e74e8a441596d69276",
+  "bytes": 21323,
+  "sha256": "aa36663cef6e09a6d82122542cf934178497487b7ece82c7d6d85d61b82e014f",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.4",
+  "version": "2.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -247,6 +247,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "2.1.0",
+      "date": "2026-11-07T09:12:26+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+6/-0 distinct numbers))",
+      "bytes": [
+        20611,
+        21323
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "November data refresh"
     }
   ]
 }

@@ -4,15 +4,15 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/the-green-shift-what-indias-oil.html",
   "slug": "the-green-shift-what-indias-oil",
   "published": "2026-08-28T13:30:58.000+05:30",
-  "updated": "2026-10-01T08:53:43.872+05:30",
+  "updated": "2026-11-07T09:04:23.283+05:30",
   "labels": [
     "Carbon Capture & Storage",
     "Climate & Carbon",
     "Energy & Fuels",
     "India"
   ],
-  "bytes": 26475,
-  "sha256": "27c8efe61087489446761f16f6a5714632b3647bd8ac1bcaff0a1f05fec4b383",
+  "bytes": 28215,
+  "sha256": "127a8cdeb04c925c9434075ec6784575c137603b27f96956fc1fa9353c1c11be",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.1.0",
+  "version": "3.2.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -123,6 +123,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Rule 8 retrofit: added What would fix this section"
+    },
+    {
+      "version": "3.2.0",
+      "date": "2026-11-07T09:12:26+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+2/-0 distinct numbers))",
+      "bytes": [
+        26475,
+        28215
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "November data refresh"
     }
   ]
 }

@@ -4,15 +4,15 @@
   "url": "https://masaladeutsch.blogspot.com/2026/10/indias-biofuel-rules-are-being-written.html",
   "slug": "indias-biofuel-rules-are-being-written",
   "published": "2026-10-03T06:40:19.000+05:30",
-  "updated": "2026-10-03T09:05:10.614+05:30",
+  "updated": "2026-11-07T08:41:48.282+05:30",
   "labels": [
     "Energy & Fuels",
     "Ethanol & Biofuels",
     "India",
     "Industrial Policy"
   ],
-  "bytes": 23394,
-  "sha256": "a9630b67b6a3cbd24f4321644cf4ce40cc827c8a03ebcc8332b8321403f5d64a",
+  "bytes": 24749,
+  "sha256": "74b4edbdc1230958b3dc7f63932026f860a6d8921c817105785ccb0cb9cb951f",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.1",
+  "version": "1.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -45,6 +45,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "1.1.0",
+      "date": "2026-11-07T09:12:26+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+5/-0 distinct numbers))",
+      "bytes": [
+        23394,
+        24749
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "November data refresh"
     }
   ]
 }

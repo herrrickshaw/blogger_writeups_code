@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/07/top-15-chemicals-for-import.html",
   "slug": "top-15-chemicals-for-import",
   "published": "2026-08-01T09:36:00.000+05:30",
-  "updated": "2026-10-27T17:28:25.991+05:30",
+  "updated": "2026-11-07T09:08:03.913+05:30",
   "labels": [
     "Chemicals",
     "Import Substitution"
   ],
-  "bytes": 106539,
-  "sha256": "baf259f4fb8ae7b7d7c313efc0bae5cdc2111541396371f4d85080336a9f6f0a",
+  "bytes": 107398,
+  "sha256": "dff3e04c1891ce9513bc85b4d3c0fa38880423c4e9220b25345b6f45f1370e5d",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "5.5.0",
+  "version": "5.6.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -404,6 +404,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Correct BHAVYA Rasayan capacity claims in two chemical posts"
+    },
+    {
+      "version": "5.6.0",
+      "date": "2026-11-07T09:12:26+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+1/-0 distinct numbers))",
+      "bytes": [
+        106539,
+        107398
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "November data refresh"
     }
   ]
 }

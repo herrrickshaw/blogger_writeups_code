@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/07/the-recycling-lottery-playbook-norways.html",
   "slug": "the-recycling-lottery-playbook-norways",
   "published": "2026-07-31T05:30:00.000+05:30",
-  "updated": "2026-10-26T14:20:29.707+05:30",
+  "updated": "2026-11-07T09:06:15.154+05:30",
   "labels": [
     "Industrial Policy"
   ],
-  "bytes": 35562,
-  "sha256": "8c26423f7daf1d9516c1ef169b09441e0c718f6f3282386a1b889a30e8791c31",
+  "bytes": 36412,
+  "sha256": "2522a6056c9a45571f532c618025b211e458c62ec7b9b1a1d4aa52ca49827a28",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "4.0.0",
+  "version": "4.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -281,6 +281,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "published 15 source-gap corrections (2026-10-25 audit)"
+    },
+    {
+      "version": "4.1.0",
+      "date": "2026-11-07T09:12:26+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+1/-0 distinct numbers))",
+      "bytes": [
+        35562,
+        36412
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "November data refresh"
     }
   ]
 }

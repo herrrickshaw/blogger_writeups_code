@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/india-imports-283000-tonnes-of-almonds.html",
   "slug": "india-imports-283000-tonnes-of-almonds",
   "published": "2026-08-21T23:00:40.000+05:30",
-  "updated": "2026-10-26T08:59:13.725+05:30",
+  "updated": "2026-11-07T08:37:09.637+05:30",
   "labels": [
     "Trade & Tariffs",
     "Trade Remedies & Antidumping"
   ],
-  "bytes": 35236,
-  "sha256": "3950b8451796742dd76f5ad929e584837e24176cff169978f18fb7e2f9d9a662",
+  "bytes": 36385,
+  "sha256": "a0409f40f6d32b676a9bd7db0bbeaf7b2ceb9b17ee63f3ecb74402cceee3ad1d",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.0",
+  "version": "3.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -160,6 +160,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Crosscheck 26 Oct: stale figures corrected in 10 posts (CAQM, gas grid, GDP, H2 tenders, wind, IOCL PII, rupee, Dahej)"
+    },
+    {
+      "version": "3.1.0",
+      "date": "2026-11-07T09:12:26+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+5/-0 distinct numbers))",
+      "bytes": [
+        35236,
+        36385
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "November data refresh"
     }
   ]
 }

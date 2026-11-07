@@ -4,15 +4,15 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/oilfield-costs-rose-68-while-global.html",
   "slug": "oilfield-costs-rose-68-while-global",
   "published": "2026-08-26T09:43:59.000+05:30",
-  "updated": "2026-10-01T08:42:25.064+05:30",
+  "updated": "2026-11-07T08:52:17.175+05:30",
   "labels": [
     "Energy & Fuels",
     "India",
     "Markets & Finance",
     "Oil & Gas Exploration"
   ],
-  "bytes": 34676,
-  "sha256": "1b2bce1159e002312dedf0ecd8557a08e07d51c3611cef81d7d189277d380c13",
+  "bytes": 36417,
+  "sha256": "c6ed5a0d1023e59d5e5a9a72f4ccfa0b033da4b2270ff590854a1d4c811310e3",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.1.0",
+  "version": "1.2.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -97,6 +97,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Rule 8 retrofit: added What would fix this section"
+    },
+    {
+      "version": "1.2.0",
+      "date": "2026-11-07T09:12:26+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+13/-0 distinct numbers))",
+      "bytes": [
+        34676,
+        36417
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "November data refresh"
     }
   ]
 }

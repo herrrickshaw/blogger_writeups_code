@@ -4,15 +4,15 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/indias-coal-to-chemicals-menu-ranked-by.html",
   "slug": "indias-coal-to-chemicals-menu-ranked-by",
   "published": "2026-08-27T03:43:38.000+05:30",
-  "updated": "2026-10-23T10:03:21.075+05:30",
+  "updated": "2026-11-07T08:42:16.332+05:30",
   "labels": [
     "Chemicals",
     "Coal & Coal Gasification",
     "Energy & Fuels",
     "Industrial Policy"
   ],
-  "bytes": 66000,
-  "sha256": "6d5fdf0c597650f6019dbf8e879ab9d595b35be775c6db7c9dd537f02a2a35bd",
+  "bytes": 68032,
+  "sha256": "1b9273983f78be366b203023dde1826e35435a024fc0e85d74fedd39837d7f31",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.2.1",
+  "version": "2.3.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -162,6 +162,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Sweep 4 MEDIUM items: dated update notes on 59 posts"
+    },
+    {
+      "version": "2.3.0",
+      "date": "2026-11-07T09:12:26+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+3/-0 distinct numbers))",
+      "bytes": [
+        66000,
+        68032
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "November data refresh"
     }
   ]
 }

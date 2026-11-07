@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/securitising-deficit-what-it-would.html",
   "slug": "securitising-deficit-what-it-would",
   "published": "2026-08-04T07:45:51.000+05:30",
-  "updated": "2026-10-23T18:44:45.597+05:30",
+  "updated": "2026-11-07T08:58:24.628+05:30",
   "labels": [
     "Markets & Finance"
   ],
-  "bytes": 135549,
-  "sha256": "21f67388e703809a086f90d0ade0d96439f85c65454d6d52b31d129c61851877",
+  "bytes": 136672,
+  "sha256": "6d1a536384b264054ed69b9fd4e7dfdacd554bd9fbde337c789fc733d90f463b",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "5.0.4",
+  "version": "5.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -385,6 +385,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Russia FDI note: DPIIT fact sheet to June 2026"
+    },
+    {
+      "version": "5.1.0",
+      "date": "2026-11-07T09:12:26+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+0/-0 distinct numbers))",
+      "bytes": [
+        135549,
+        136672
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "November data refresh"
     }
   ]
 }

@@ -4,15 +4,15 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/the-4-nobody-notices-and-three-other.html",
   "slug": "the-4-nobody-notices-and-three-other",
   "published": "2026-09-01T08:40:28.000+05:30",
-  "updated": "2026-10-27T15:17:15.975+05:30",
+  "updated": "2026-11-07T09:01:49.213+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Crop Insurance & Risk",
     "Industrial Policy",
     "Markets & Finance"
   ],
-  "bytes": 41619,
-  "sha256": "d2884199d0704bf1b6f837a6d0e1f28caf2707680c8a5a9b8482c81714832576",
+  "bytes": 43018,
+  "sha256": "5cf59e126576e0561e4925147ffd932a08be8854f3f60e114bd7a03ba16ed42a",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.0",
+  "version": "3.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -149,6 +149,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Fact-check corrections: 18 posts with dated update notes"
+    },
+    {
+      "version": "3.1.0",
+      "date": "2026-11-07T09:12:26+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+5/-0 distinct numbers))",
+      "bytes": [
+        41619,
+        43018
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "November data refresh"
     }
   ]
 }

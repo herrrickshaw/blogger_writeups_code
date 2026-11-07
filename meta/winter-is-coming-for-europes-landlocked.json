@@ -4,15 +4,15 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/winter-is-coming-for-europes-landlocked.html",
   "slug": "winter-is-coming-for-europes-landlocked",
   "published": "2026-08-22T08:38:34.000+05:30",
-  "updated": "2026-10-01T09:02:41.511+05:30",
+  "updated": "2026-11-07T09:11:27.555+05:30",
   "labels": [
     "Energy & Fuels",
     "Gas & LNG",
     "Global LNG Markets",
     "Norway"
   ],
-  "bytes": 70291,
-  "sha256": "df215bb28f8b30b6585da17ff41302a7711367946c9b9f61445ce9e0820c7617",
+  "bytes": 71539,
+  "sha256": "1f6e20cee027f237736004bb4d71e9dedadfb8d61d7f88f55c9bc9b4b3068196",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.1.0",
+  "version": "1.2.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -136,6 +136,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Rule 8 retrofit: added What would fix this section"
+    },
+    {
+      "version": "1.2.0",
+      "date": "2026-11-07T09:12:26+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+3/-0 distinct numbers))",
+      "bytes": [
+        70291,
+        71539
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "November data refresh"
     }
   ]
 }

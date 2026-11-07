@@ -4,15 +4,15 @@
   "url": "https://masaladeutsch.blogspot.com/2026/10/a-hectare-under-power-line-now-pays.html",
   "slug": "a-hectare-under-power-line-now-pays",
   "published": "2026-10-26T14:47:49.000+05:30",
-  "updated": "2026-10-27T06:25:45.176+05:30",
+  "updated": "2026-11-07T08:20:22.904+05:30",
   "labels": [
     "Energy & Fuels",
     "Gas Pipeline Infrastructure & Demand Planning",
     "Infrastructure & Investment",
     "Renewable Power & Storage"
   ],
-  "bytes": 28191,
-  "sha256": "68c68e7dd13063576e78389563706cacee1e758f74a4beea3256c206d3c3c4e6",
+  "bytes": 30111,
+  "sha256": "aad0fbfbf7e5d37baa3cc58caf49c66f9d1b3265367bda04b1cc655dbb279bdb",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.0",
+  "version": "2.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -58,6 +58,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Green debt post: chart, rate-gap and FX tables to late Oct; model-review paragraph splits in 20 posts"
+    },
+    {
+      "version": "2.1.0",
+      "date": "2026-11-07T09:12:26+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+0/-0 distinct numbers))",
+      "bytes": [
+        28191,
+        30111
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "November data refresh"
     }
   ]
 }

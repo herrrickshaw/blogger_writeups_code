@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/tarpaulin-is-genuine-export-win.html",
   "slug": "tarpaulin-is-genuine-export-win",
   "published": "2026-08-15T11:49:15.000+05:30",
-  "updated": "2026-10-01T08:49:26.889+05:30",
+  "updated": "2026-11-07T09:00:39.694+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "India Trade & Policy",
     "Textiles"
   ],
-  "bytes": 21462,
-  "sha256": "3a9b4228b791d7aa018680210e1c874ef892aad34ed4cb5c37bb9b6c32aded6c",
+  "bytes": 22371,
+  "sha256": "7483018ebaede72036574146e99a5a6d80de47f59453410501d3a525832c0470",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.1.0",
+  "version": "2.2.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -135,6 +135,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Rule 8 retrofit: added What would fix this section"
+    },
+    {
+      "version": "2.2.0",
+      "date": "2026-11-07T09:12:26+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+7/-0 distinct numbers))",
+      "bytes": [
+        21462,
+        22371
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "November data refresh"
     }
   ]
 }

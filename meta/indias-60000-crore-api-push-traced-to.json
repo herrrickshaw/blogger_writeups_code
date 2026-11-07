@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/indias-60000-crore-api-push-traced-to.html",
   "slug": "indias-60000-crore-api-push-traced-to",
   "published": "2026-09-16T14:11:49.000+05:30",
-  "updated": "2026-10-01T08:31:51.590+05:30",
+  "updated": "2026-11-07T08:41:05.308+05:30",
   "labels": [
     "Industrial Policy",
     "PLI Schemes"
   ],
-  "bytes": 25791,
-  "sha256": "68c4ebc4fced50eaf98e81e9f513592d590b8a5cfc0a4aaec0c2e9258f8d0c4d",
+  "bytes": 27141,
+  "sha256": "ee90c2ae3e5cae547038470a001c9ddeac22c237e3409a131b6aab3a2d487a45",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.4.0",
+  "version": "1.5.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -95,6 +95,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Rule 8 retrofit: added What would fix this section"
+    },
+    {
+      "version": "1.5.0",
+      "date": "2026-11-07T09:12:26+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+8/-0 distinct numbers))",
+      "bytes": [
+        25791,
+        27141
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "November data refresh"
     }
   ]
 }

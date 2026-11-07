@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/foreign-capital-found-indias-hospitals.html",
   "slug": "foreign-capital-found-indias-hospitals",
   "published": "2026-08-23T14:22:31.000+05:30",
-  "updated": "2026-10-23T09:56:54.585+05:30",
+  "updated": "2026-11-07T08:30:45.864+05:30",
   "labels": [
     "Healthcare",
     "India",
     "Infrastructure & Investment"
   ],
-  "bytes": 36229,
-  "sha256": "c84817976e6ebd857465ad4d07dbe974bd5fbe3c2bdf43a5d3832ac9b6d83e32",
+  "bytes": 37292,
+  "sha256": "c2b1f01345f3a38d4385fecb40aba62af6e5b1027e59344052bcaebd66880ff6",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "5.0.1",
+  "version": "5.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -161,6 +161,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "FDI posts updated with DPIIT fact sheet to June 2026"
+    },
+    {
+      "version": "5.1.0",
+      "date": "2026-11-07T09:12:26+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+3/-0 distinct numbers))",
+      "bytes": [
+        36229,
+        37292
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "November data refresh"
     }
   ]
 }

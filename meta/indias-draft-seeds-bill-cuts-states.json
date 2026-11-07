@@ -4,15 +4,15 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/indias-draft-seeds-bill-cuts-states.html",
   "slug": "indias-draft-seeds-bill-cuts-states",
   "published": "2026-09-10T08:27:41.000+05:30",
-  "updated": "2026-10-18T06:04:22.416+05:30",
+  "updated": "2026-11-07T08:43:12.249+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "India",
     "Industrial Policy",
     "Seeds & Plant Genetics"
   ],
-  "bytes": 26788,
-  "sha256": "63a05ee586dd0cdea7058b8f07b9e3aa91911d252002c2b0e1c345225b41f511",
+  "bytes": 28275,
+  "sha256": "000e8e0a049223d4bc2f2bde316b69e1665ebe3dc46a93090cbf400cc9f56a39",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.2.0",
+  "version": "1.3.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -97,6 +97,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Sweep 4: Seeds Bill note and stale-claim notes on 7 posts"
+    },
+    {
+      "version": "1.3.0",
+      "date": "2026-11-07T09:12:26+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+3/-0 distinct numbers))",
+      "bytes": [
+        26788,
+        28275
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "November data refresh"
     }
   ]
 }

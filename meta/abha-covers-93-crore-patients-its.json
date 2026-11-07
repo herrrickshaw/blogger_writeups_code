@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/abha-covers-93-crore-patients-its.html",
   "slug": "abha-covers-93-crore-patients-its",
   "published": "2026-09-17T06:56:16.000+05:30",
-  "updated": "2026-10-27T06:27:04.052+05:30",
+  "updated": "2026-11-07T08:21:12.555+05:30",
   "labels": [
     "Healthcare",
     "Industrial Policy"
   ],
-  "bytes": 26392,
-  "sha256": "a38506f50a85d50b754f5604c35178d586e38900ae788dc85b84dd6de448ee6b",
+  "bytes": 28737,
+  "sha256": "2d129da37810359bb8887ce8dc71811112d7e41bb296193a9ac833bd6fc13600",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.0",
+  "version": "2.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -82,6 +82,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Green debt post: chart, rate-gap and FX tables to late Oct; model-review paragraph splits in 20 posts"
+    },
+    {
+      "version": "2.1.0",
+      "date": "2026-11-07T09:12:26+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+6/-1 distinct numbers))",
+      "bytes": [
+        26392,
+        28737
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "November data refresh"
     }
   ]
 }

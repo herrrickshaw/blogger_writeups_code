@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/07/the-fearless-girls-charter-indias.html",
   "slug": "the-fearless-girls-charter-indias",
   "published": "2026-07-22T05:30:00.000+05:30",
-  "updated": "2026-10-01T08:53:21.227+05:30",
+  "updated": "2026-11-07T09:04:12.174+05:30",
   "labels": [
     "Markets & Finance"
   ],
-  "bytes": 29988,
-  "sha256": "f9053ecb920ee8eb39fd03315ee216e9ac083bc8148ac3f2b75888ff4ffee9dd",
+  "bytes": 32479,
+  "sha256": "63c66ff16437519aa4a4fb122153c320d2c885ce10d881e69d9eaf5ee7724a00",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.1.0",
+  "version": "1.2.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -286,6 +286,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Rule 8 retrofit: added What would fix this section"
+    },
+    {
+      "version": "1.2.0",
+      "date": "2026-11-07T09:12:26+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+6/-0 distinct numbers))",
+      "bytes": [
+        29988,
+        32479
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "November data refresh"
     }
   ]
 }

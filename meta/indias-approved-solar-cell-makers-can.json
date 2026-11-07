@@ -4,15 +4,15 @@
   "url": "https://masaladeutsch.blogspot.com/2026/10/indias-approved-solar-cell-makers-can.html",
   "slug": "indias-approved-solar-cell-makers-can",
   "published": "2026-10-26T14:47:45.000+05:30",
-  "updated": "2026-10-26T14:49:59.088+05:30",
+  "updated": "2026-11-07T08:41:24.714+05:30",
   "labels": [
     "Energy & Fuels",
     "Import Substitution",
     "Industrial Policy",
     "Renewable Power & Storage"
   ],
-  "bytes": 26846,
-  "sha256": "23c2ca1b7af10605260d27bbb9785faa4522ba7d5ce1a5ff91d2c4e1ea15f141",
+  "bytes": 27977,
+  "sha256": "cb8c0b02ee58ca744d2d752349fa3ed3c901a621d056e0eb8c0fb2becab37c1d",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.1",
+  "version": "1.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -45,6 +45,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "site-index stub injected into 4 new posts"
+    },
+    {
+      "version": "1.1.0",
+      "date": "2026-11-07T09:12:26+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+4/-0 distinct numbers))",
+      "bytes": [
+        26846,
+        27977
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "November data refresh"
     }
   ]
 }

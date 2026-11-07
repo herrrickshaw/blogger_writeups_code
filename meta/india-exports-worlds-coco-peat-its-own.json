@@ -4,15 +4,15 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/india-exports-worlds-coco-peat-its-own.html",
   "slug": "india-exports-worlds-coco-peat-its-own",
   "published": "2026-08-26T14:55:15.000+05:30",
-  "updated": "2026-10-01T08:28:04.329+05:30",
+  "updated": "2026-11-07T08:35:01.342+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Cash Crop Export Economics",
     "India",
     "Trade & Tariffs"
   ],
-  "bytes": 48259,
-  "sha256": "637542e0a0923d15bebcd6ea0839fc187a3027142e2a8b76850214de2e5a3f20",
+  "bytes": 50262,
+  "sha256": "3fb87789813f26c5df0f2276d390ef76c5a747d64e82283a8160aab7ace01bb8",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.1.0",
+  "version": "2.2.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -110,6 +110,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Rule 8 retrofit: added What would fix this section"
+    },
+    {
+      "version": "2.2.0",
+      "date": "2026-11-07T09:12:26+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+17/-0 distinct numbers))",
+      "bytes": [
+        48259,
+        50262
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "November data refresh"
     }
   ]
 }

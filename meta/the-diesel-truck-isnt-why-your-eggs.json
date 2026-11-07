@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/the-diesel-truck-isnt-why-your-eggs.html",
   "slug": "the-diesel-truck-isnt-why-your-eggs",
   "published": "2026-09-23T09:17:07.000+05:30",
-  "updated": "2026-10-14T16:32:26.860+05:30",
+  "updated": "2026-11-07T09:03:22.919+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Energy & Fuels",
     "Livestock & Dairy"
   ],
-  "bytes": 23614,
-  "sha256": "0f4a5027a1aae3220ace8a6d529ee252c64bd3a632d4ce5d24128b8054a86321",
+  "bytes": 24876,
+  "sha256": "e93b364796f1ae67f01c3bf059e984a8fcf7a58cab3183861893c07d80cc9e8b",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.1.0",
+  "version": "2.2.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -70,6 +70,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Update notes 12-13 Oct 2026 from the currency sweeps (45 posts)"
+    },
+    {
+      "version": "2.2.0",
+      "date": "2026-11-07T09:12:26+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+5/-0 distinct numbers))",
+      "bytes": [
+        23614,
+        24876
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "November data refresh"
     }
   ]
 }

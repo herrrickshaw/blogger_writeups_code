@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/10/india-got-record-945-billion-of-fdi.html",
   "slug": "india-got-record-945-billion-of-fdi",
   "published": "2026-10-27T17:25:06.000+05:30",
-  "updated": "2026-10-27T17:31:19.329+05:30",
+  "updated": "2026-11-07T08:35:25.162+05:30",
   "labels": [
     "Macroeconomics & Monetary Policy",
     "Markets & Finance"
   ],
-  "bytes": 27116,
-  "sha256": "193f98f69030901d81d9556f22de82ee3f0474ed882c74eaf8d21af40e4b6e3d",
+  "bytes": 28187,
+  "sha256": "9d9f4f137eb5e306bf8a54a3ae0acd2b3f65522129a2f5534a6b3b360c65e05d",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -30,6 +30,19 @@
       "level": "initial",
       "reason": "first snapshot",
       "note": "11 new posts: net FDI, steel policy, chemical parks and eight follow-ups"
+    },
+    {
+      "version": "1.1.0",
+      "date": "2026-11-07T09:12:26+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+8/-0 distinct numbers))",
+      "bytes": [
+        27116,
+        28187
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "November data refresh"
     }
   ]
 }

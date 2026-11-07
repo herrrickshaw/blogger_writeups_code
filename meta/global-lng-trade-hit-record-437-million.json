@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/global-lng-trade-hit-record-437-million.html",
   "slug": "global-lng-trade-hit-record-437-million",
   "published": "2026-09-14T14:50:21.000+05:30",
-  "updated": "2026-10-01T08:24:29.361+05:30",
+  "updated": "2026-11-07T08:32:34.747+05:30",
   "labels": [
     "Gas & LNG",
     "Global LNG Markets"
   ],
-  "bytes": 18343,
-  "sha256": "21ac5e15478d780cf6dec9c5a06b2d5ba8cf736c90ac6480f6465c41b9b48b61",
+  "bytes": 19583,
+  "sha256": "43adbc1b95e19182a611c4bb0de86c8aeec14695954ec0a88e50910ba19a1dc6",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.2.0",
+  "version": "1.3.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -56,6 +56,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Rule 8 retrofit: added What would fix this section"
+    },
+    {
+      "version": "1.3.0",
+      "date": "2026-11-07T09:12:26+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+5/-0 distinct numbers))",
+      "bytes": [
+        18343,
+        19583
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "November data refresh"
     }
   ]
 }

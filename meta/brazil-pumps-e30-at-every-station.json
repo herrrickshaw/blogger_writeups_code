@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/brazil-pumps-e30-at-every-station.html",
   "slug": "brazil-pumps-e30-at-every-station",
   "published": "2026-09-01T19:42:31.000+05:30",
-  "updated": "2026-10-01T08:15:45.526+05:30",
+  "updated": "2026-11-07T08:24:08.384+05:30",
   "labels": [
     "Energy & Fuels",
     "Mobility & EV"
   ],
-  "bytes": 40663,
-  "sha256": "0165dd6a93d4c0534f6ce9499c3260522a8f0580a9f24c41291edda86364e3f4",
+  "bytes": 42781,
+  "sha256": "686a82969f55ccf912942b5f79798b7690e1f86df09af12b4d40211c8750b56b",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.1.0",
+  "version": "1.2.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -95,6 +95,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Rule 8 retrofit: added What would fix this section"
+    },
+    {
+      "version": "1.2.0",
+      "date": "2026-11-07T09:12:26+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+7/-0 distinct numbers))",
+      "bytes": [
+        40663,
+        42781
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "November data refresh"
     }
   ]
 }

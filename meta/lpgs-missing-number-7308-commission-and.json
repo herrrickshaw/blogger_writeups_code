@@ -4,15 +4,15 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/lpgs-missing-number-7308-commission-and.html",
   "slug": "lpgs-missing-number-7308-commission-and",
   "published": "2026-08-08T20:55:54.000+05:30",
-  "updated": "2026-10-17T08:19:06.395+05:30",
+  "updated": "2026-11-07T08:50:27.843+05:30",
   "labels": [
     "Energy & Fuels",
     "Fuel Retail & Pricing",
     "Industrial Policy",
     "Markets & Finance"
   ],
-  "bytes": 31000,
-  "sha256": "c4661dc8dc7470d6dc13414b6842a450efe3dbc8fadbadc1694acb1f818b54c9",
+  "bytes": 33074,
+  "sha256": "02509614b7cf6f0fde0b028a4a0212f695f6036047027ea1747a2392a99e96dc",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.3.0",
+  "version": "3.4.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -240,6 +240,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "LPG commission: associations section; August note links the history post"
+    },
+    {
+      "version": "3.4.0",
+      "date": "2026-11-07T09:12:26+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+5/-0 distinct numbers))",
+      "bytes": [
+        31000,
+        33074
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "November data refresh"
     }
   ]
 }

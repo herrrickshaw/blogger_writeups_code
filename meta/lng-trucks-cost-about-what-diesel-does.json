@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/lng-trucks-cost-about-what-diesel-does.html",
   "slug": "lng-trucks-cost-about-what-diesel-does",
   "published": "2026-09-01T22:28:14.000+05:30",
-  "updated": "2026-10-18T06:04:58.807+05:30",
+  "updated": "2026-11-07T08:50:13.987+05:30",
   "labels": [
     "Energy & Fuels",
     "Gas & LNG",
     "LNG Trucking & Fleet Conversion"
   ],
-  "bytes": 35276,
-  "sha256": "3c130f9daa8c9040432f3de833ca57999a9cbc6991f8ada9d21dee9d761ea8cd",
+  "bytes": 37266,
+  "sha256": "7548d8a105eb67582debccabffc9884858bf35dacb024ebf15220309ab8d58b8",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.2.0",
+  "version": "1.3.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -109,6 +109,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Sweep 4: Seeds Bill note and stale-claim notes on 7 posts"
+    },
+    {
+      "version": "1.3.0",
+      "date": "2026-11-07T09:12:26+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+5/-0 distinct numbers))",
+      "bytes": [
+        35276,
+        37266
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "November data refresh"
     }
   ]
 }

@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/10/indias-fertiliser-sales-fell-where.html",
   "slug": "indias-fertiliser-sales-fell-where",
   "published": "2026-10-27T19:31:46.000+05:30",
-  "updated": "2026-10-27T19:33:01.480+05:30",
+  "updated": "2026-11-07T08:44:48.707+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Prices & Inflation"
   ],
-  "bytes": 24895,
-  "sha256": "eaac0493f333d0d637a45eefcaae26ec5c3688b982ce4b787702a1e5bfae65a1",
+  "bytes": 26066,
+  "sha256": "b9564a43691b394c45f66e8de86bc20806a829a033b103ef9e73ff3922e445ac",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -30,6 +30,19 @@
       "level": "initial",
       "reason": "first snapshot",
       "note": "New posts: fertiliser sales, Andhra investment, state deficits"
+    },
+    {
+      "version": "1.1.0",
+      "date": "2026-11-07T09:12:26+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+6/-0 distinct numbers))",
+      "bytes": [
+        24895,
+        26066
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "November data refresh"
     }
   ]
 }

@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/pngrb-hydrogen-blending-pilots-real.html",
   "slug": "pngrb-hydrogen-blending-pilots-real",
   "published": "2026-09-02T03:43:03.000+05:30",
-  "updated": "2026-10-23T10:06:33.719+05:30",
+  "updated": "2026-11-07T08:54:22.941+05:30",
   "labels": [
     "Energy & Fuels",
     "Gas & LNG",
     "Hydrogen"
   ],
-  "bytes": 35414,
-  "sha256": "55c144c000317828f1b7e65df244aa4c6f98ee916c3b60c31165bf6723efa250",
+  "bytes": 37032,
+  "sha256": "d9316007aeb26f57ac159e70d63a593e46949163264f913dee9b6efd8b07ec9b",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.1.1",
+  "version": "1.2.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -109,6 +109,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Sweep 4 MEDIUM items: dated update notes on 59 posts"
+    },
+    {
+      "version": "1.2.0",
+      "date": "2026-11-07T09:12:26+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+4/-0 distinct numbers))",
+      "bytes": [
+        35414,
+        37032
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "November data refresh"
     }
   ]
 }

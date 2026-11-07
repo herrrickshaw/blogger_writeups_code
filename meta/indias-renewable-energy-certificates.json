@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/indias-renewable-energy-certificates.html",
   "slug": "indias-renewable-energy-certificates",
   "published": "2026-08-23T22:23:00.000+05:30",
-  "updated": "2026-10-23T10:04:16.901+05:30",
+  "updated": "2026-11-07T08:47:15.909+05:30",
   "labels": [
     "Energy & Fuels",
     "India",
     "Industrial Policy"
   ],
-  "bytes": 40012,
-  "sha256": "cc6bd4cb77c4d4067073631274ca7d8ee2965285a79a44fa47ff0b3c29aefab6",
+  "bytes": 41710,
+  "sha256": "2273c758742550ec2ae16a75d5485db5030c6db599a8aa55b3109878be7595f2",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.2.1",
+  "version": "3.3.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -148,6 +148,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Sweep 4 MEDIUM items: dated update notes on 59 posts"
+    },
+    {
+      "version": "3.3.0",
+      "date": "2026-11-07T09:12:26+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+5/-0 distinct numbers))",
+      "bytes": [
+        40012,
+        41710
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "November data refresh"
     }
   ]
 }

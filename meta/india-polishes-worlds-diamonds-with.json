@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/india-polishes-worlds-diamonds-with.html",
   "slug": "india-polishes-worlds-diamonds-with",
   "published": "2026-09-30T06:03:05.000+05:30",
-  "updated": "2026-10-01T09:05:27.045+05:30",
+  "updated": "2026-11-07T08:38:36.454+05:30",
   "labels": [
     "Import Substitution",
     "Industrial Policy",
     "Trade & Tariffs"
   ],
-  "bytes": 26548,
-  "sha256": "fd3e474aac0d559071d3bd9746de44319aea0acf29e9fe23ba25fa4b1f4ff207",
+  "bytes": 28184,
+  "sha256": "8e06534f1861e6ca75547c7cca7a3408928c96470efa62f655fa60b87b235684",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.1.0",
+  "version": "1.2.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -44,6 +44,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Labour-codes retrofit retry; road cess post: NH tolls and satellite-tolling sections"
+    },
+    {
+      "version": "1.2.0",
+      "date": "2026-11-07T09:12:26+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+13/-0 distinct numbers))",
+      "bytes": [
+        26548,
+        28184
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "November data refresh"
     }
   ]
 }

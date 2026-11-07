@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/10/cotton-stalk-is-one-of-hardest-crop.html",
   "slug": "cotton-stalk-is-one-of-hardest-crop",
   "published": "2026-10-01T23:13:12.000+05:30",
-  "updated": "2026-10-02T05:54:56.401+05:30",
+  "updated": "2026-11-07T08:25:43.692+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Climate & Carbon",
     "Energy & Fuels"
   ],
-  "bytes": 50219,
-  "sha256": "1461570d41d753c2cfeee5a39481f58f90e641a3582169c9c0559abbeb4de520",
+  "bytes": 51865,
+  "sha256": "4294922653ba981d36cba3da40b6f274b9c12b1ccd2964e9788218774a137da8",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.3.1",
+  "version": "1.4.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -83,6 +83,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Road-cess post: add Macroeconomics & Monetary Policy label; site-index stubs"
+    },
+    {
+      "version": "1.4.0",
+      "date": "2026-11-07T09:12:26+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+6/-0 distinct numbers))",
+      "bytes": [
+        50219,
+        51865
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "November data refresh"
     }
   ]
 }

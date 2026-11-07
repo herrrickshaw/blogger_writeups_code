@@ -4,15 +4,15 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/indias-fertiliser-import-bill-hits-18.html",
   "slug": "indias-fertiliser-import-bill-hits-18",
   "published": "2026-08-08T21:49:47.000+05:30",
-  "updated": "2026-10-01T08:34:35.319+05:30",
+  "updated": "2026-11-07T08:44:39.895+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Energy & Fuels",
     "Fertilisers & Soil Health",
     "Trade & Tariffs"
   ],
-  "bytes": 28707,
-  "sha256": "0a83ed4a36887ed014a97f3f2e34cc6d75954f66af304c9a504f89afcfbc4ade",
+  "bytes": 30419,
+  "sha256": "2c0d99f1875d716315ddb88efc04d8cc0bc400e4df2e221512a372b0195803da",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.1.0",
+  "version": "3.2.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -227,6 +227,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Rule 8 retrofit: added What would fix this section"
+    },
+    {
+      "version": "3.2.0",
+      "date": "2026-11-07T09:12:26+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+14/-0 distinct numbers))",
+      "bytes": [
+        28707,
+        30419
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "November data refresh"
     }
   ]
 }

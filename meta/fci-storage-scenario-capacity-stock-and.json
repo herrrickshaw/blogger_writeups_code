@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/07/fci-storage-scenario-capacity-stock-and.html",
   "slug": "fci-storage-scenario-capacity-stock-and",
   "published": "2026-07-31T10:15:00.000+05:30",
-  "updated": "2026-10-14T16:32:09.436+05:30",
+  "updated": "2026-11-07T08:29:36.502+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Grain Procurement & Storage"
   ],
-  "bytes": 24483,
-  "sha256": "dc2b6d03cb48106ec718a38a46d8e8e5522994586b584c8cab6af4458c19f145",
+  "bytes": 25512,
+  "sha256": "baf8aae5310c18b13c4d5b2e419350bb8235b9d967e9af908a9248afe8662ef8",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.2.0",
+  "version": "3.3.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -308,6 +308,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Update notes 12-13 Oct 2026 from the currency sweeps (45 posts)"
+    },
+    {
+      "version": "3.3.0",
+      "date": "2026-11-07T09:12:26+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+6/-0 distinct numbers))",
+      "bytes": [
+        24483,
+        25512
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "November data refresh"
     }
   ]
 }

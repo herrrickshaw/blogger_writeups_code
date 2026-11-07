@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/every-india-europe-tech-agreement-pib.html",
   "slug": "every-india-europe-tech-agreement-pib",
   "published": "2026-08-23T18:35:54.000+05:30",
-  "updated": "2026-10-14T16:28:34.159+05:30",
+  "updated": "2026-11-07T08:28:51.932+05:30",
   "labels": [
     "India",
     "India Trade & Policy",
     "Industrial Policy"
   ],
-  "bytes": 34517,
-  "sha256": "201cb05c8810d25e2aac9bbe0e0e44ba888edbd9ed0860edc6fcd2f6991c4bc0",
+  "bytes": 36231,
+  "sha256": "0b387450e38bc41440300cca60d07a734630cf091f3ebf9f589054b178c4e733",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.2.0",
+  "version": "2.3.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -148,6 +148,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Update notes 12-13 Oct 2026 from the currency sweeps (45 posts)"
+    },
+    {
+      "version": "2.3.0",
+      "date": "2026-11-07T09:12:26+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+1/-0 distinct numbers))",
+      "bytes": [
+        34517,
+        36231
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "November data refresh"
     }
   ]
 }

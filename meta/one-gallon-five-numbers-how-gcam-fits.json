@@ -4,7 +4,7 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/one-gallon-five-numbers-how-gcam-fits.html",
   "slug": "one-gallon-five-numbers-how-gcam-fits",
   "published": "2026-08-13T11:20:44.000+05:30",
-  "updated": "2026-10-01T08:42:42.825+05:30",
+  "updated": "2026-11-07T08:52:44.072+05:30",
   "labels": [
     "Biofuels",
     "Carbon Markets",
@@ -12,8 +12,8 @@
     "Climate Modeling",
     "Ethanol & Biofuels"
   ],
-  "bytes": 30361,
-  "sha256": "aadf9fe38708442445dffb69a3ae2ef7c320eeef21970b8df24bf73b02680061",
+  "bytes": 31883,
+  "sha256": "45a9fed61309cea7ec46a02f51e11fcb8df19ad4919da03bacd6369f082dc223",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -25,7 +25,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.2.0",
+  "version": "2.3.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -163,6 +163,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Rule 8 retrofit: added What would fix this section"
+    },
+    {
+      "version": "2.3.0",
+      "date": "2026-11-07T09:12:26+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+8/-0 distinct numbers))",
+      "bytes": [
+        30361,
+        31883
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "November data refresh"
     }
   ]
 }

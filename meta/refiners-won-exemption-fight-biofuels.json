@@ -4,15 +4,15 @@
   "url": "https://masaladeutsch.blogspot.com/2026/10/refiners-won-exemption-fight-biofuels.html",
   "slug": "refiners-won-exemption-fight-biofuels",
   "published": "2026-10-03T06:26:57.000+05:30",
-  "updated": "2026-10-23T10:07:36.173+05:30",
+  "updated": "2026-11-07T08:57:15.418+05:30",
   "labels": [
     "Climate & Carbon",
     "Energy & Fuels",
     "Ethanol & Biofuels",
     "Refining & Petrochemicals"
   ],
-  "bytes": 26389,
-  "sha256": "21b8b428bb4fc4b9e3a5f9f94275b3f2ebec6ce71fd42beef978784062955689",
+  "bytes": 27678,
+  "sha256": "f29396193f81c90f88d9777966e8270298cee6e92ea48dc717ac1b159bb39b8f",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.2",
+  "version": "1.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -58,6 +58,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Sweep 4 MEDIUM items: dated update notes on 59 posts"
+    },
+    {
+      "version": "1.1.0",
+      "date": "2026-11-07T09:12:26+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+1/-0 distinct numbers))",
+      "bytes": [
+        26389,
+        27678
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "November data refresh"
     }
   ]
 }

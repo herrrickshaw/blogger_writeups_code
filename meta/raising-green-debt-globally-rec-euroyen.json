@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/raising-green-debt-globally-rec-euroyen.html",
   "slug": "raising-green-debt-globally-rec-euroyen",
   "published": "2026-08-03T19:10:19.000+05:30",
-  "updated": "2026-10-27T06:23:40.049+05:30",
+  "updated": "2026-11-07T08:56:03.155+05:30",
   "labels": [
     "Bonds & Fixed Income",
     "Markets & Finance"
   ],
-  "bytes": 82041,
-  "sha256": "1753bada244f962e419845dd6d13d2f36bb1786d18601bd71323cf539205dfdb",
+  "bytes": 83031,
+  "sha256": "2d2e20066f80758799156033d3a53e3a57c743d3a0db0a91093ce0c5d3197596",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "6.0.0",
+  "version": "6.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -334,6 +334,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Green debt post: chart, rate-gap, FX and yield tables to late Oct; model-review paragraph splits in 20 posts"
+    },
+    {
+      "version": "6.1.0",
+      "date": "2026-11-07T09:12:26+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+0/-0 distinct numbers))",
+      "bytes": [
+        82041,
+        83031
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "November data refresh"
     }
   ]
 }

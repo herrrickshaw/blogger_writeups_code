@@ -4,15 +4,15 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/upi-fees-are-now-legal-petrol-pumps.html",
   "slug": "upi-fees-are-now-legal-petrol-pumps",
   "published": "2026-08-08T16:24:01.000+05:30",
-  "updated": "2026-10-18T06:22:40.368+05:30",
+  "updated": "2026-11-07T09:08:19.043+05:30",
   "labels": [
     "Energy & Fuels",
     "Fuel Retail & Pricing",
     "Industrial Policy",
     "Markets & Finance"
   ],
-  "bytes": 48344,
-  "sha256": "f08ebdd1071bf0479c53c618bda3826d4fc60a152bd717ddb2f88d50f55b5d05",
+  "bytes": 50255,
+  "sha256": "0f6789dc9f211b31a3392e208c2b1b085739026e7de3e64561199c55e2fcec08",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "14.3.0",
+  "version": "14.4.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -409,6 +409,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Sweep 4: notes for posts 81-160 (SHANTI, ethanol, UPI, WPI/PPI, Kirkuk-Ceyhan, excise)"
+    },
+    {
+      "version": "14.4.0",
+      "date": "2026-11-07T09:12:26+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+4/-0 distinct numbers))",
+      "bytes": [
+        48344,
+        50255
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "November data refresh"
     }
   ]
 }

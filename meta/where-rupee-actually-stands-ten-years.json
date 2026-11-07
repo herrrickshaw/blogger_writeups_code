@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/where-rupee-actually-stands-ten-years.html",
   "slug": "where-rupee-actually-stands-ten-years",
   "published": "2026-08-14T10:47:17.000+05:30",
-  "updated": "2026-10-01T09:01:36.711+05:30",
+  "updated": "2026-11-07T09:10:25.799+05:30",
   "labels": [
     "Macroeconomics & Monetary Policy"
   ],
-  "bytes": 50966,
-  "sha256": "048fa7db43ea9650009a0d906cabbc997fc287204bef82ad4dc7661e77a0c904",
+  "bytes": 51634,
+  "sha256": "cf0b100cbb626484c7a7bfff376e545229feb7855a2e63d59dc3734261dca432",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.1.0",
+  "version": "2.2.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -133,6 +133,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Rule 8 retrofit: added What would fix this section"
+    },
+    {
+      "version": "2.2.0",
+      "date": "2026-11-07T09:12:26+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+2/-0 distinct numbers))",
+      "bytes": [
+        50966,
+        51634
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "November data refresh"
     }
   ]
 }

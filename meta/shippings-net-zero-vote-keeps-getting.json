@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/shippings-net-zero-vote-keeps-getting.html",
   "slug": "shippings-net-zero-vote-keeps-getting",
   "published": "2026-09-24T09:27:35.000+05:30",
-  "updated": "2026-09-26T09:51:03.711+05:30",
+  "updated": "2026-11-07T08:58:43.959+05:30",
   "labels": [
     "Energy & Fuels",
     "Ethanol & Biofuels",
     "Shipping & Maritime Fuels"
   ],
-  "bytes": 24633,
-  "sha256": "0e0ede4d2f8331c3e79647d8040179943b5f144853b0de8b0801ceff74514f0f",
+  "bytes": 26786,
+  "sha256": "517ab7801de9ab41e6ed19faeba0489158db78442fd07eccfab6db60c1ecffae",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -31,6 +31,19 @@
       "level": "initial",
       "reason": "first snapshot",
       "note": "New post: IMO's stalled Net-Zero Framework adoption vote (delayed to 4 Dec 2026), LNG's dominant share of alternative-fuel newbuild orders (Clarksons), marine biodiesel blending under FuelEU Maritime incl. MASH Makes' cashew-shell biofuel trial, and India's methanol-bunkering bet at Kandla"
+    },
+    {
+      "version": "1.1.0",
+      "date": "2026-11-07T09:12:26+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+13/-0 distinct numbers))",
+      "bytes": [
+        24633,
+        26786
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "November data refresh"
     }
   ]
 }

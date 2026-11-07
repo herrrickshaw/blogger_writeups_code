@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/financing-fuel-to-chemicals-pivot-how.html",
   "slug": "financing-fuel-to-chemicals-pivot-how",
   "published": "2026-08-14T11:33:51.000+05:30",
-  "updated": "2026-10-26T08:59:05.171+05:30",
+  "updated": "2026-11-07T08:29:49.693+05:30",
   "labels": [
     "Energy & Fuels",
     "Refining & Petrochemicals"
   ],
-  "bytes": 27797,
-  "sha256": "05159f9be6a50dd36b59ae29fdffbdb503619db85b6d99943bd469949b643340",
+  "bytes": 29293,
+  "sha256": "58d379cc0f2675e2555c07a1ed3a189c520d719152e23d24c4c55b6389bda29b",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.0",
+  "version": "3.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -173,6 +173,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Crosscheck 26 Oct: stale figures corrected in 10 posts (CAQM, gas grid, GDP, H2 tenders, wind, IOCL PII, rupee, Dahej)"
+    },
+    {
+      "version": "3.1.0",
+      "date": "2026-11-07T09:12:26+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+7/-0 distinct numbers))",
+      "bytes": [
+        27797,
+        29293
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "November data refresh"
     }
   ]
 }

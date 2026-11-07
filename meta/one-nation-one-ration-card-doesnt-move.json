@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/one-nation-one-ration-card-doesnt-move.html",
   "slug": "one-nation-one-ration-card-doesnt-move",
   "published": "2026-09-05T12:36:54.000+05:30",
-  "updated": "2026-10-26T14:20:05.463+05:30",
+  "updated": "2026-11-07T08:52:56.348+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Energy & Fuels",
     "Grain Procurement & Storage"
   ],
-  "bytes": 62176,
-  "sha256": "2e50049dd40721cde60ee9305f4dc1020e6941e57ef7d80883c014aa0b545399",
+  "bytes": 63595,
+  "sha256": "126405cc1382ed620d2e688a0c404ffd068f588dad434327a6bb863fd780c5d7",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.0",
+  "version": "2.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -109,6 +109,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "published 15 source-gap corrections (2026-10-25 audit)"
+    },
+    {
+      "version": "2.1.0",
+      "date": "2026-11-07T09:12:26+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+10/-0 distinct numbers))",
+      "bytes": [
+        62176,
+        63595
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "November data refresh"
     }
   ]
 }

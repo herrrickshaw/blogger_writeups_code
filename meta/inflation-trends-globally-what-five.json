@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/inflation-trends-globally-what-five.html",
   "slug": "inflation-trends-globally-what-five",
   "published": "2026-08-08T08:31:31.000+05:30",
-  "updated": "2026-10-23T10:05:28.743+05:30",
+  "updated": "2026-11-07T08:49:22.701+05:30",
   "labels": [
     "Prices & Inflation"
   ],
-  "bytes": 61281,
-  "sha256": "b42f80f0a1185b9dd68c9a0322c46a43959dab10c87f74cf1c3d5b9450ef1907",
+  "bytes": 61956,
+  "sha256": "a0d9af99ea2300d7c7345267bafe887f0e6e578ced04ef72ab4fa4bf96e7f463",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "4.2.1",
+  "version": "4.3.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -341,6 +341,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Sweep 4 MEDIUM items: dated update notes on 59 posts"
+    },
+    {
+      "version": "4.3.0",
+      "date": "2026-11-07T09:12:26+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+2/-0 distinct numbers))",
+      "bytes": [
+        61281,
+        61956
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "November data refresh"
     }
   ]
 }

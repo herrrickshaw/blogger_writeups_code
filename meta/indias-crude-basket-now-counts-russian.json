@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/10/indias-crude-basket-now-counts-russian.html",
   "slug": "indias-crude-basket-now-counts-russian",
   "published": "2026-10-27T17:26:22.000+05:30",
-  "updated": "2026-10-27T17:31:59.783+05:30",
+  "updated": "2026-11-07T08:43:00.269+05:30",
   "labels": [
     "Energy & Fuels"
   ],
-  "bytes": 24983,
-  "sha256": "22dc5762fd6b0e58b81ee30e3a60e4be5e4d72bc17f4d60c6723f91314d9d13e",
+  "bytes": 26560,
+  "sha256": "2322c2bd65a2c423c848fe4b3fb1795e1d4db3e109ef105b6e14372345b3b5b4",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -29,6 +29,19 @@
       "level": "initial",
       "reason": "first snapshot",
       "note": "11 new posts: net FDI, steel policy, chemical parks and eight follow-ups"
+    },
+    {
+      "version": "1.1.0",
+      "date": "2026-11-07T09:12:26+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+5/-0 distinct numbers))",
+      "bytes": [
+        24983,
+        26560
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "November data refresh"
     }
   ]
 }

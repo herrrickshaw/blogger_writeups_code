@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/state-by-state-who-actually-earns-from.html",
   "slug": "state-by-state-who-actually-earns-from",
   "published": "2026-08-02T17:07:30.000+05:30",
-  "updated": "2026-10-14T16:30:21.647+05:30",
+  "updated": "2026-11-07T08:59:16.929+05:30",
   "labels": [
     "Energy & Fuels"
   ],
-  "bytes": 58841,
-  "sha256": "5c7445c8d5172e9a80d8b3410a1cc5b1a852bde18415c982d6ec28845f49e76f",
+  "bytes": 59960,
+  "sha256": "7a4b0825d0bc4bb5b52d364fc270f06864f5d4bfaa4591f8fdaa8555a6500020",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.2.0",
+  "version": "3.3.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -250,6 +250,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Update notes 12-13 Oct 2026 from the currency sweeps (45 posts)"
+    },
+    {
+      "version": "3.3.0",
+      "date": "2026-11-07T09:12:26+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+4/-0 distinct numbers))",
+      "bytes": [
+        58841,
+        59960
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "November data refresh"
     }
   ]
 }

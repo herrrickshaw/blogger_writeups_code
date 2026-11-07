@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/10/new-zealand-opens-every-tariff-line-to.html",
   "slug": "new-zealand-opens-every-tariff-line-to",
   "published": "2026-10-09T11:56:09.000+05:30",
-  "updated": "2026-10-10T09:52:10.018+05:30",
+  "updated": "2026-11-07T08:51:27.307+05:30",
   "labels": [
     "Trade & Tariffs"
   ],
-  "bytes": 21411,
-  "sha256": "78cb946d451a3ad0d3b70c138b72025cb53a436e1814d5670d15244bb81c419c",
+  "bytes": 22273,
+  "sha256": "37ffc19b1a574e32f50098ccea1cdbf009ad5bca352ba9d3af457f7b7a6fba25",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -29,6 +29,19 @@
       "level": "initial",
       "reason": "first snapshot",
       "note": ""
+    },
+    {
+      "version": "1.1.0",
+      "date": "2026-11-07T09:12:26+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+2/-0 distinct numbers))",
+      "bytes": [
+        21411,
+        22273
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "November data refresh"
     }
   ]
 }

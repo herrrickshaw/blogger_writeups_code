@@ -4,7 +4,7 @@
   "url": "https://masaladeutsch.blogspot.com/2026/07/chemical-import-substitution-analysis.html",
   "slug": "chemical-import-substitution-analysis",
   "published": "2026-08-01T09:22:00.000+05:30",
-  "updated": "2026-10-27T17:28:08.066+05:30",
+  "updated": "2026-11-07T08:24:54.984+05:30",
   "labels": [
     "Chemicals",
     "Customs & HSN Trade Data",
@@ -12,8 +12,8 @@
     "Trade & Tariffs",
     "Trade Remedies & Antidumping"
   ],
-  "bytes": 42399,
-  "sha256": "e65e33d63a280da4d4c51694f0e3f4d49fb5c4a326be1c55aa92dc4fc0891af9",
+  "bytes": 43258,
+  "sha256": "7eb5a04bbf871f9775c869fd9e5ca6bb6c5f3d5619162bdfa3afa6f317da81dc",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -25,7 +25,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "4.3.0",
+  "version": "4.4.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -337,6 +337,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Correct BHAVYA Rasayan capacity claims in two chemical posts"
+    },
+    {
+      "version": "4.4.0",
+      "date": "2026-11-07T09:12:26+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+3/-0 distinct numbers))",
+      "bytes": [
+        42399,
+        43258
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "November data refresh"
     }
   ]
 }

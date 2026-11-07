@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/india-leads-world-in-jute-and-ranks.html",
   "slug": "india-leads-world-in-jute-and-ranks",
   "published": "2026-09-27T18:37:56.000+05:30",
-  "updated": "2026-10-27T15:16:01.717+05:30",
+  "updated": "2026-11-07T08:37:52.193+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Textiles",
     "Trade & Tariffs"
   ],
-  "bytes": 28127,
-  "sha256": "c5c809aa1a5bad40d22160c95cf599ebc65661ee68ecf836f9511aa47a4f7c8d",
+  "bytes": 29640,
+  "sha256": "ac68e3ab5b86a8ee4cdd911cccb07f730bc0d68e6ff1d47bd52c4bbf3d621a63",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.0",
+  "version": "2.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -57,6 +57,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Fact-check corrections: 18 posts with dated update notes"
+    },
+    {
+      "version": "2.1.0",
+      "date": "2026-11-07T09:12:26+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+3/-0 distinct numbers))",
+      "bytes": [
+        28127,
+        29640
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "November data refresh"
     }
   ]
 }

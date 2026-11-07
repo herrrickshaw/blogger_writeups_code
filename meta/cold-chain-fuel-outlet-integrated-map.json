@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/07/cold-chain-fuel-outlet-integrated-map.html",
   "slug": "cold-chain-fuel-outlet-integrated-map",
   "published": "2026-07-22T05:30:00.000+05:30",
-  "updated": "2026-10-01T08:17:32.840+05:30",
+  "updated": "2026-11-07T08:25:33.314+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "City Gas Distribution",
     "Gas & LNG"
   ],
-  "bytes": 22187,
-  "sha256": "93a106057ae7cdeeb2c3688cd0af8a396113d521259729790fde825a6a193f43",
+  "bytes": 23135,
+  "sha256": "15974bc7a2862280e7e547b706a13b74fdef0e428ad3008a4858e5133607ef86",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.1.0",
+  "version": "1.2.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -44,6 +44,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Rule 8 retrofit: added What would fix this section"
+    },
+    {
+      "version": "1.2.0",
+      "date": "2026-11-07T09:12:26+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+14/-1 distinct numbers))",
+      "bytes": [
+        22187,
+        23135
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "November data refresh"
     }
   ]
 }

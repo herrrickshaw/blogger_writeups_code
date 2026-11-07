@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/10/gems-purchases-stopped-growing-in-2025.html",
   "slug": "gems-purchases-stopped-growing-in-2025",
   "published": "2026-10-27T17:27:11.000+05:30",
-  "updated": "2026-10-27T17:32:40.958+05:30",
+  "updated": "2026-11-07T08:32:08.201+05:30",
   "labels": [
     "Governance & Institutions",
     "Industrial Policy"
   ],
-  "bytes": 23214,
-  "sha256": "f402563b50c07bb5698a28cedb21a9db7e03b3a60a9996929b1b9dc128241bfb",
+  "bytes": 24191,
+  "sha256": "fbb8f56c41f31a44b20decd72be3b631165edf49745dc29a91a64517d3ad3c8c",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -30,6 +30,19 @@
       "level": "initial",
       "reason": "first snapshot",
       "note": "11 new posts: net FDI, steel policy, chemical parks and eight follow-ups"
+    },
+    {
+      "version": "1.1.0",
+      "date": "2026-11-07T09:12:26+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+1/-0 distinct numbers))",
+      "bytes": [
+        23214,
+        24191
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "November data refresh"
     }
   ]
 }

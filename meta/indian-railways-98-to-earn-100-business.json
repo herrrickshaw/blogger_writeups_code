@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/indian-railways-98-to-earn-100-business.html",
   "slug": "indian-railways-98-to-earn-100-business",
   "published": "2026-08-20T06:09:42.000+05:30",
-  "updated": "2026-10-23T10:02:40.809+05:30",
+  "updated": "2026-11-07T08:40:20.796+05:30",
   "labels": [
     "Industrial Policy",
     "Public Sector & Infrastructure Finance",
     "Trade & Tariffs"
   ],
-  "bytes": 30186,
-  "sha256": "33cb62bebbfd24d525a2236414fefd341ef32e8a834a0fd264de09da5aed788a",
+  "bytes": 31741,
+  "sha256": "cc73a9ca3f48de141701182f06a8d82ffe0e57c9f5b7f1f8da4a6cb6832c4dbc",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.2.1",
+  "version": "2.3.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -148,6 +148,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Sweep 4 MEDIUM items: dated update notes on 59 posts"
+    },
+    {
+      "version": "2.3.0",
+      "date": "2026-11-07T09:12:26+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+15/-0 distinct numbers))",
+      "bytes": [
+        30186,
+        31741
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "November data refresh"
     }
   ]
 }

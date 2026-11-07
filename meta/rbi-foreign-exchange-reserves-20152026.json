@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/rbi-foreign-exchange-reserves-20152026.html",
   "slug": "rbi-foreign-exchange-reserves-20152026",
   "published": "2026-08-02T13:43:33.000+05:30",
-  "updated": "2026-10-09T09:49:18.581+05:30",
+  "updated": "2026-11-07T08:56:34.413+05:30",
   "labels": [
     "Markets & Finance"
   ],
-  "bytes": 57075,
-  "sha256": "35b01ce4c51d34e00250e5e20091ddbdfe31073f7a6d9586fbb2e50b76a6ed2e",
+  "bytes": 58167,
+  "sha256": "63c7db017ee630889ff838d8edb13655a78bc65ce6e8b9b3fa21967e4b8cd7cd",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": true,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "4.2.0",
+  "version": "4.3.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -307,6 +307,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "October update sweep: GEC-III, rabi MSP, edible-oil duty, GOBARdhan, GST H1, forex"
+    },
+    {
+      "version": "4.3.0",
+      "date": "2026-11-07T09:12:26+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+10/-0 distinct numbers))",
+      "bytes": [
+        57075,
+        58167
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "November data refresh"
     }
   ]
 }

@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/10/seven-states-plan-to-borrow-above-new-3.html",
   "slug": "seven-states-plan-to-borrow-above-new-3",
   "published": "2026-10-27T19:31:59.000+05:30",
-  "updated": "2026-10-27T19:33:17.915+05:30",
+  "updated": "2026-11-07T08:58:34.416+05:30",
   "labels": [
     "Governance & Institutions",
     "Macroeconomics & Monetary Policy"
   ],
-  "bytes": 28569,
-  "sha256": "26203921b164c7bc9046efa9309aee904f0896725c3c7ed2f624c8a60918d711",
+  "bytes": 29576,
+  "sha256": "66affea651cf727067ad578404632bb0878859f5c7aa4e5a8105ab1991c027e0",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -30,6 +30,19 @@
       "level": "initial",
       "reason": "first snapshot",
       "note": "New posts: fertiliser sales, Andhra investment, state deficits"
+    },
+    {
+      "version": "1.1.0",
+      "date": "2026-11-07T09:12:26+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+2/-0 distinct numbers))",
+      "bytes": [
+        28569,
+        29576
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "November data refresh"
     }
   ]
 }

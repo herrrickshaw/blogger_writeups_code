@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/indias-ethanol-plants-are-sitting-on.html",
   "slug": "indias-ethanol-plants-are-sitting-on",
   "published": "2026-09-28T16:47:52.000+05:30",
-  "updated": "2026-09-29T09:05:35.438+05:30",
+  "updated": "2026-11-07T08:43:47.663+05:30",
   "labels": [
     "Agriculture & Food Processing",
     "Circularity & Waste-to-Value",
     "Ethanol & Biofuels"
   ],
-  "bytes": 24148,
-  "sha256": "3e9fcc3a563ceb75eebd533b6ddee80dd0d23174413cd4647961f2b61a804ed4",
+  "bytes": 25712,
+  "sha256": "4ce0b2607111a416b5aefdf39123f5aa78b83772bf97796809cc2ec6ea1211ed",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.1",
+  "version": "1.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -44,6 +44,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "scheduled sync"
+    },
+    {
+      "version": "1.1.0",
+      "date": "2026-11-07T09:12:26+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+6/-0 distinct numbers))",
+      "bytes": [
+        24148,
+        25712
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "November data refresh"
     }
   ]
 }

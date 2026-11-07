@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/west-bengal-sanctioned-126-lakh-pmay-g.html",
   "slug": "west-bengal-sanctioned-126-lakh-pmay-g",
   "published": "2026-08-30T08:03:08.000+05:30",
-  "updated": "2026-10-18T06:04:48.178+05:30",
+  "updated": "2026-11-07T09:08:46.209+05:30",
   "labels": [
     "India",
     "Infrastructure & Investment",
     "Scheme Delivery Gap"
   ],
-  "bytes": 27382,
-  "sha256": "02591b1dfdc77ef6afebe3e268f80dff891f392de59782c2251e2bde1e88de4f",
+  "bytes": 28281,
+  "sha256": "0d9bfed1c661cce3dee9fce1fe10ed37dac3a85c00c0211192dfab78d360985e",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.2.0",
+  "version": "1.3.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -122,6 +122,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Sweep 4: Seeds Bill note and stale-claim notes on 7 posts"
+    },
+    {
+      "version": "1.3.0",
+      "date": "2026-11-07T09:12:26+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+2/-0 distinct numbers))",
+      "bytes": [
+        27382,
+        28281
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "November data refresh"
     }
   ]
 }

@@ -4,15 +4,15 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/india-cannot-sell-china-free-medicine.html",
   "slug": "india-cannot-sell-china-free-medicine",
   "published": "2026-08-23T10:16:58.000+05:30",
-  "updated": "2026-10-01T08:27:06.041+05:30",
+  "updated": "2026-11-07T08:34:38.649+05:30",
   "labels": [
     "Chemicals",
     "Healthcare",
     "Trade & Tariffs",
     "Trade Remedies & Antidumping"
   ],
-  "bytes": 37969,
-  "sha256": "869538ae005c8035d562777cde4b632520b2901a454299bca8b06bac3ea67774",
+  "bytes": 39783,
+  "sha256": "a49b75306d36d295950b38da9a8073fe066434faf4476b407f2270de9bfb3fee",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.1.0",
+  "version": "3.2.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -136,6 +136,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Rule 8 retrofit: added What would fix this section"
+    },
+    {
+      "version": "3.2.0",
+      "date": "2026-11-07T09:12:26+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+14/-0 distinct numbers))",
+      "bytes": [
+        37969,
+        39783
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "November data refresh"
     }
   ]
 }

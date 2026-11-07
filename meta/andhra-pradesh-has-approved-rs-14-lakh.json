@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/10/andhra-pradesh-has-approved-rs-14-lakh.html",
   "slug": "andhra-pradesh-has-approved-rs-14-lakh",
   "published": "2026-10-27T19:31:53.000+05:30",
-  "updated": "2026-10-27T19:33:09.503+05:30",
+  "updated": "2026-11-07T08:22:18.205+05:30",
   "labels": [
     "Industrial Policy"
   ],
-  "bytes": 26959,
-  "sha256": "9e338d5de6e84f1526cf6df547fe8521cc1e917937d0d688c9a5d17e3165309c",
+  "bytes": 28013,
+  "sha256": "a032eb80c9ea7cfa6196370b304e28131fe0dd65d11f7f603d7a6c6bca6b485e",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -29,6 +29,19 @@
       "level": "initial",
       "reason": "first snapshot",
       "note": "New posts: fertiliser sales, Andhra investment, state deficits"
+    },
+    {
+      "version": "1.1.0",
+      "date": "2026-11-07T09:12:26+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+3/-0 distinct numbers))",
+      "bytes": [
+        26959,
+        28013
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "November data refresh"
     }
   ]
 }

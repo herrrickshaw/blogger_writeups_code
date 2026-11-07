@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/10/samudra-manthan-pays-up-to-rs-675-crore.html",
   "slug": "samudra-manthan-pays-up-to-rs-675-crore",
   "published": "2026-10-27T17:26:29.000+05:30",
-  "updated": "2026-10-27T17:32:08.030+05:30",
+  "updated": "2026-11-07T08:57:51.848+05:30",
   "labels": [
     "Energy & Fuels",
     "Gas & LNG"
   ],
-  "bytes": 22796,
-  "sha256": "d913ccbb544bd7f1f7334d784a361e5f2c5e868f232a6f9b4d8d1d4b9a808714",
+  "bytes": 24516,
+  "sha256": "126159e8a7e20789cf1903234100c63065af3a8d0215cc9876a971085638e20d",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -30,6 +30,19 @@
       "level": "initial",
       "reason": "first snapshot",
       "note": "11 new posts: net FDI, steel policy, chemical parks and eight follow-ups"
+    },
+    {
+      "version": "1.1.0",
+      "date": "2026-11-07T09:12:26+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+5/-0 distinct numbers))",
+      "bytes": [
+        22796,
+        24516
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "November data refresh"
     }
   ]
 }

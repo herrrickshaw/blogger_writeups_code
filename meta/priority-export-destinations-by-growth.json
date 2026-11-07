@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/priority-export-destinations-by-growth.html",
   "slug": "priority-export-destinations-by-growth",
   "published": "2026-08-02T13:49:40.000+05:30",
-  "updated": "2026-10-23T10:07:00.184+05:30",
+  "updated": "2026-11-07T08:55:17.452+05:30",
   "labels": [
     "Trade & Tariffs"
   ],
-  "bytes": 44348,
-  "sha256": "c57e70c20107eeab1078f110026d07e7c46be27d2bf51d3f0710b1969ec64c25",
+  "bytes": 45614,
+  "sha256": "40909630d16b041ececfaf1728103133ea2058a754cd11b92f71f6208702ffe1",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.3.1",
+  "version": "3.4.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -294,6 +294,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Sweep 4 MEDIUM items: dated update notes on 59 posts"
+    },
+    {
+      "version": "3.4.0",
+      "date": "2026-11-07T09:12:26+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+3/-0 distinct numbers))",
+      "bytes": [
+        44348,
+        45614
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "November data refresh"
     }
   ]
 }

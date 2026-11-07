@@ -4,15 +4,15 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/ten-cubic-metres-hour-indias-first.html",
   "slug": "ten-cubic-metres-hour-indias-first",
   "published": "2026-08-20T10:01:38.000+05:30",
-  "updated": "2026-10-14T16:30:45.204+05:30",
+  "updated": "2026-11-07T09:00:53.813+05:30",
   "labels": [
     "Energy & Fuels",
     "Hydrogen",
     "Industrial Policy",
     "Shipping & Maritime Fuels"
   ],
-  "bytes": 37245,
-  "sha256": "edbf79d5f1941c608f9363572c4278382b822b69af9d8a5de95831c87189bd41",
+  "bytes": 38897,
+  "sha256": "a7253656a0130ba8748b4dce07f4495831b6fd411cac7ab439f084ed64160dfe",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.2.0",
+  "version": "2.3.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -149,6 +149,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Update notes 12-13 Oct 2026 from the currency sweeps (45 posts)"
+    },
+    {
+      "version": "2.3.0",
+      "date": "2026-11-07T09:12:26+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+3/-0 distinct numbers))",
+      "bytes": [
+        37245,
+        38897
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "November data refresh"
     }
   ]
 }

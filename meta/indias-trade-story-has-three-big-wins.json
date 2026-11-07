@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/indias-trade-story-has-three-big-wins.html",
   "slug": "indias-trade-story-has-three-big-wins",
   "published": "2026-08-08T21:53:13.000+05:30",
-  "updated": "2026-10-23T10:04:58.185+05:30",
+  "updated": "2026-11-07T08:48:51.356+05:30",
   "labels": [
     "Free Trade Agreements",
     "Industrial Policy",
     "Trade & Tariffs"
   ],
-  "bytes": 27270,
-  "sha256": "53a3932d3520b188b6194326e624b8477e5660691107a276837500b90c47566d",
+  "bytes": 28369,
+  "sha256": "2d0427fa01332336af32f5533b8eef1caf90f7c00b83d8c802a76884f06cdc5f",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.1.1",
+  "version": "3.2.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -252,6 +252,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Sweep 4 MEDIUM items: dated update notes on 59 posts"
+    },
+    {
+      "version": "3.2.0",
+      "date": "2026-11-07T09:12:26+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+7/-0 distinct numbers))",
+      "bytes": [
+        27270,
+        28369
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "November data refresh"
     }
   ]
 }

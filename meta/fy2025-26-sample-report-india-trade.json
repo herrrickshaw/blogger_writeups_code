@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/fy2025-26-sample-report-india-trade.html",
   "slug": "fy2025-26-sample-report-india-trade",
   "published": "2026-08-02T13:59:21.000+05:30",
-  "updated": "2026-10-26T13:54:41.759+05:30",
+  "updated": "2026-11-07T08:31:59.461+05:30",
   "labels": [
     "Industrial Policy",
     "Markets & Finance",
     "Trade & Tariffs"
   ],
-  "bytes": 43011,
-  "sha256": "9f4ed61ab3426498caaf65144c48f16c4adf2c187322c6cdc6a79f3dd79b85da",
+  "bytes": 44221,
+  "sha256": "07d7fc7e3e1990c7d4f7b10a85e22c7a645e2620c0fc019eb0b8b9defed03084",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": true,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "4.0.0",
+  "version": "4.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -335,6 +335,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "MoSPI refresh: Sep 2026 CPI by state, WPI items, CPI-AL/RL, GDP PE, WPI deflator fix"
+    },
+    {
+      "version": "4.1.0",
+      "date": "2026-11-07T09:12:26+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+10/-2 distinct numbers))",
+      "bytes": [
+        43011,
+        44221
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "November data refresh"
     }
   ]
 }

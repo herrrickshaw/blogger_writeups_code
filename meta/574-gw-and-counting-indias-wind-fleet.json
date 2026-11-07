@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/574-gw-and-counting-indias-wind-fleet.html",
   "slug": "574-gw-and-counting-indias-wind-fleet",
   "published": "2026-08-21T04:04:01.000+05:30",
-  "updated": "2026-10-27T06:24:47.757+05:30",
+  "updated": "2026-11-07T08:19:54.209+05:30",
   "labels": [
     "Energy & Fuels",
     "India Trade & Policy",
     "Renewable Power & Storage"
   ],
-  "bytes": 28149,
-  "sha256": "f22f99fe64c0d52b2fbbfc46638d77915f47d16381123a581e5fead1a323aa28",
+  "bytes": 29928,
+  "sha256": "e06ac5f6120cd282e529da2665bb0eff8e372c2371660ca7d7d29aeca4177de0",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "5.0.0",
+  "version": "5.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -187,6 +187,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Green debt post: chart, rate-gap and FX tables to late Oct; model-review paragraph splits in 20 posts"
+    },
+    {
+      "version": "5.1.0",
+      "date": "2026-11-07T09:12:26+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+3/-0 distinct numbers))",
+      "bytes": [
+        28149,
+        29928
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "November data refresh"
     }
   ]
 }

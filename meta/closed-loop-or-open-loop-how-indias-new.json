@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/10/closed-loop-or-open-loop-how-indias-new.html",
   "slug": "closed-loop-or-open-loop-how-indias-new",
   "published": "2026-10-27T07:52:33.000+05:30",
-  "updated": "2026-10-27T07:53:33.631+05:30",
+  "updated": "2026-11-07T08:25:03.281+05:30",
   "labels": [
     "Energy & Fuels",
     "Environment & Clearances",
     "Industrial Policy"
   ],
-  "bytes": 33074,
-  "sha256": "aac277d8fadc51ce341ba53812d5315ecba9d1453c1179e3fd19708cd426e35a",
+  "bytes": 34013,
+  "sha256": "ecb87086a26332489a1e545dd18bc4c0864fc5282dcc722e0cf3d8abf57525fe",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -31,6 +31,19 @@
       "level": "initial",
       "reason": "first snapshot",
       "note": "New post: closed- vs open-loop data-centre cooling"
+    },
+    {
+      "version": "1.1.0",
+      "date": "2026-11-07T09:12:26+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+3/-0 distinct numbers))",
+      "bytes": [
+        33074,
+        34013
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "November data refresh"
     }
   ]
 }

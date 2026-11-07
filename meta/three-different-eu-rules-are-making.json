@@ -4,15 +4,15 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/three-different-eu-rules-are-making.html",
   "slug": "three-different-eu-rules-are-making",
   "published": "2026-08-28T14:33:49.000+05:30",
-  "updated": "2026-10-01T08:57:12.947+05:30",
+  "updated": "2026-11-07T09:07:47.413+05:30",
   "labels": [
     "Climate & Carbon",
     "Energy & Fuels",
     "Shipping & Maritime Fuels",
     "Trade & Tariffs"
   ],
-  "bytes": 30228,
-  "sha256": "2694a800b5b9cbb74b02c5f0fe0f32008669fb495b0e40aa0e4ab05cd077ec68",
+  "bytes": 31469,
+  "sha256": "862c9213fceabd726c67dda432acb7e56d844357f73e271e452f77cea76af046",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.1.0",
+  "version": "1.2.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -110,6 +110,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Rule 8 retrofit: added What would fix this section"
+    },
+    {
+      "version": "1.2.0",
+      "date": "2026-11-07T09:12:26+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+3/-0 distinct numbers))",
+      "bytes": [
+        30228,
+        31469
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "November data refresh"
     }
   ]
 }

@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/icra-rates-most-of-indias-economy.html",
   "slug": "icra-rates-most-of-indias-economy",
   "published": "2026-09-03T10:20:13.000+05:30",
-  "updated": "2026-10-01T08:25:50.110+05:30",
+  "updated": "2026-11-07T08:33:45.346+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Industrial Policy"
   ],
-  "bytes": 40342,
-  "sha256": "7d3c7bb0492a15948a6d5922e689bcabedfafa614588d4bc4fdf34945a59c865",
+  "bytes": 41825,
+  "sha256": "055c2d3a88089ff3ec3be168a7e781ee33f1bf1191cb6e0baeefefc177a4a364",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.1.0",
+  "version": "1.2.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -108,6 +108,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Rule 8 retrofit: added What would fix this section"
+    },
+    {
+      "version": "1.2.0",
+      "date": "2026-11-07T09:12:26+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+2/-0 distinct numbers))",
+      "bytes": [
+        40342,
+        41825
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "November data refresh"
     }
   ]
 }

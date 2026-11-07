@@ -4,15 +4,15 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/pet-recycling-already-cuts-emissions-60.html",
   "slug": "pet-recycling-already-cuts-emissions-60",
   "published": "2026-08-16T07:25:04.000+05:30",
-  "updated": "2026-10-01T08:43:13.878+05:30",
+  "updated": "2026-11-07T08:53:26.366+05:30",
   "labels": [
     "Circularity & Waste-to-Value",
     "Environment & Clearances",
     "India Trade & Policy",
     "Trade & Tariffs"
   ],
-  "bytes": 26853,
-  "sha256": "ac637ba57f16ca7b7a5081e2bf9abc75e9eb71721484f665b0b73ac82f4eb682",
+  "bytes": 27740,
+  "sha256": "65df2c262a400227cfca31d87821da9c097384e65aeb3b1587bc7b7872311751",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.2.0",
+  "version": "2.3.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -175,6 +175,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Rule 8 retrofit: added What would fix this section"
+    },
+    {
+      "version": "2.3.0",
+      "date": "2026-11-07T09:12:26+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+11/-0 distinct numbers))",
+      "bytes": [
+        26853,
+        27740
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "November data refresh"
     }
   ]
 }

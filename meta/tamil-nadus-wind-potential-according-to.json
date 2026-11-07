@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/tamil-nadus-wind-potential-according-to.html",
   "slug": "tamil-nadus-wind-potential-according-to",
   "published": "2026-08-14T15:04:38.000+05:30",
-  "updated": "2026-10-23T10:08:40.664+05:30",
+  "updated": "2026-11-07T09:00:26.247+05:30",
   "labels": [
     "Energy & Fuels",
     "Renewable Power & Storage"
   ],
-  "bytes": 29802,
-  "sha256": "af092228dbd1a9e0fdd85a9e8c9d0547a141b503a11193fdeaaba620a35b35aa",
+  "bytes": 31374,
+  "sha256": "9f6516e380d1dc8c36b50c7f02c3f57cb9d441aef2abc15967845121a1400010",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.1.1",
+  "version": "3.2.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -173,6 +173,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Sweep 4 MEDIUM items: dated update notes on 59 posts"
+    },
+    {
+      "version": "3.2.0",
+      "date": "2026-11-07T09:12:26+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+1/-0 distinct numbers))",
+      "bytes": [
+        29802,
+        31374
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "November data refresh"
     }
   ]
 }

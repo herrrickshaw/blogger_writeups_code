@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/india-pays-5-8-billion-year-to-ship-its.html",
   "slug": "india-pays-5-8-billion-year-to-ship-its",
   "published": "2026-09-28T17:00:17.000+05:30",
-  "updated": "2026-10-23T10:02:11.500+05:30",
+  "updated": "2026-11-07T08:38:26.614+05:30",
   "labels": [
     "Energy & Fuels",
     "Industrial Policy",
     "Shipping & Maritime Fuels"
   ],
-  "bytes": 21409,
-  "sha256": "02180c3e9809bbe5f0401151ceeeedaa592cc98fdfe124777e293faf8a5a0b3d",
+  "bytes": 23745,
+  "sha256": "1367054db6d48af916382a2287f58c22b48d01b9c3fcb2bda4fbd834de5eb737",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.1.1",
+  "version": "1.2.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -70,6 +70,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Sweep 4 MEDIUM items: dated update notes on 59 posts"
+    },
+    {
+      "version": "1.2.0",
+      "date": "2026-11-07T09:12:26+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+11/-0 distinct numbers))",
+      "bytes": [
+        21409,
+        23745
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "November data refresh"
     }
   ]
 }

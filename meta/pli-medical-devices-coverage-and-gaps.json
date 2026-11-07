@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/pli-medical-devices-coverage-and-gaps.html",
   "slug": "pli-medical-devices-coverage-and-gaps",
   "published": "2026-08-05T05:27:53.000+05:30",
-  "updated": "2026-10-23T10:06:23.894+05:30",
+  "updated": "2026-11-07T08:54:10.686+05:30",
   "labels": [
     "Industrial Policy",
     "PLI Schemes",
     "Trade & Tariffs"
   ],
-  "bytes": 25727,
-  "sha256": "b1fd89d248b3c6217bdb055022a67299c4a0cff04af3f06a8790b59fc369004c",
+  "bytes": 27988,
+  "sha256": "5cb4a549506d9e97678a5688e770879b6f8b663c91cf53523b40fc06267c57ef",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.2.1",
+  "version": "3.3.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -300,6 +300,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Sweep 4 MEDIUM items: dated update notes on 59 posts"
+    },
+    {
+      "version": "3.3.0",
+      "date": "2026-11-07T09:12:26+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+6/-0 distinct numbers))",
+      "bytes": [
+        25727,
+        27988
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "November data refresh"
     }
   ]
 }
