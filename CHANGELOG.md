@@ -17469,3 +17469,12 @@ process-safety how-to: section 15 and demo link
 **Changed**
 
 - `how-to-use-process-safety-design` — 53,740 → 66,997 bytes (+13,257)
+
+## 2026-11-07T17:36:53+05:30 — 502 posts live
+
+fuel theft history post
+
+
+**Added**
+
+- `from-kerosene-in-diesel-to-ethanol-in` **v1.0.0** — From Kerosene in Diesel to Ethanol in Petrol: A History of Fuel Theft in India (42,364 bytes)
