@@ -17501,3 +17501,14 @@ IDBI, storage VGF, NSAP posts; BESS date fix
 **Re-dated** (publication date changed; body and URL unchanged)
 
 - `from-kerosene-in-diesel-to-ethanol-in` — 2026-11-07 &rarr; 2026-11-07
+
+## 2026-11-08T09:26:16+00:00 — 505 posts live
+
+scheduled sync
+
+
+**Re-dated** (publication date changed; body and URL unchanged)
+
+- `the-centres-old-age-pension-has-been` — 2026-11-08 &rarr; 2026-11-08
+- `14500-crore-for-92-gwh-indias-storage` — 2026-11-08 &rarr; 2026-11-08
+- `idbi-banks-rescuers-put-in-54000-crore` — 2026-11-08 &rarr; 2026-11-08
