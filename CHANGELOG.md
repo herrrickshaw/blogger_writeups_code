@@ -17478,3 +17478,26 @@ fuel theft history post
 **Added**
 
 - `from-kerosene-in-diesel-to-ethanol-in` **v1.0.0** — From Kerosene in Diesel to Ethanol in Petrol: A History of Fuel Theft in India (42,364 bytes)
+
+## 2026-11-08T07:37:56+05:30 — 505 posts live
+
+IDBI, storage VGF, NSAP posts; BESS date fix
+
+
+**Added**
+
+- `the-centres-old-age-pension-has-been` **v1.0.0** — The Centre’s Old-Age Pension Has Been ₹200 a Month Since 2007. It Now Buys What ₹63 Did Then (30,761 bytes)
+- `14500-crore-for-92-gwh-indias-storage` **v1.0.0** — ₹14,500 Crore for 92 GWh: India’s Storage Subsidy Is Down to ₹1,576 a kWh. The 40% Local-Content Rule Is the Harder Part (26,833 bytes)
+- `idbi-banks-rescuers-put-in-54000-crore` **v1.0.0** — IDBI Bank’s Rescuers Put In ₹54,000 Crore. At Fairfax’s ₹81 a Share They Make a Profit, but Less Than Government Bonds Would Have Paid (26,308 bytes)
+
+**Versions**
+
+- `indias-battery-storage-boom-is` **1.4.0 → 2.0.0** (MAJOR) — figures changed (+3/-0 distinct numbers)
+
+**Changed**
+
+- `indias-battery-storage-boom-is` — 50,610 → 50,972 bytes (+362)
+
+**Re-dated** (publication date changed; body and URL unchanged)
+
+- `from-kerosene-in-diesel-to-ethanol-in` — 2026-11-07 &rarr; 2026-11-07
