@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/10/india-will-spend-rs-33660-crore-on.html",
   "slug": "india-will-spend-rs-33660-crore-on",
   "published": "2026-10-27T06:59:39.000+05:30",
-  "updated": "2026-10-28T16:27:53.900+05:30",
+  "updated": "2026-11-09T17:14:03.168+05:30",
   "labels": [
     "Industrial Policy"
   ],
-  "bytes": 28991,
-  "sha256": "5519599165612466cdfd5f9e288d486e6d2730e24e12ee6e1c2be6c5497974e0",
+  "bytes": 29885,
+  "sha256": "942a5450616810cecb768b6ccebe8eaafe3d3f8deb32f3362a788ddf1cb669ff",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.0",
+  "version": "3.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -42,6 +42,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Gazette check: 24 posts verified against Gazette of India notifications"
+    },
+    {
+      "version": "3.0.0",
+      "date": "2026-11-09T17:18:54+05:30",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        28991,
+        29885
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

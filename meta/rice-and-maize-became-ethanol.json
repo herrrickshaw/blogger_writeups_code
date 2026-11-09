@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/10/rice-and-maize-became-ethanol.html",
   "slug": "rice-and-maize-became-ethanol",
   "published": "2026-10-28T16:59:58.000+05:30",
-  "updated": "2026-10-28T17:07:15.705+05:30",
+  "updated": "2026-11-09T17:15:45.325+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Energy & Fuels",
     "Ethanol & Biofuels"
   ],
-  "bytes": 30162,
-  "sha256": "ea037b46d2f42aa70099a03caa204c6eb9b6c62d9fc585c5ea580be318f80de1",
+  "bytes": 31192,
+  "sha256": "4aeac0a1317abcf7ff04fc016b53bcfa371caa6d32551b94b3bb770e489c49f2",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.1.0",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -44,6 +44,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Commodity post: bamboo and Numaligarh 2G ethanol section"
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-11-09T17:18:54+05:30",
+      "level": "major",
+      "reason": "figures changed (+3/-0 distinct numbers)",
+      "bytes": [
+        30162,
+        31192
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

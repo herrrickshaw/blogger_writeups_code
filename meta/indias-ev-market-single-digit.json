@@ -1,16 +1,16 @@
 {
   "id": "7041685892952394502",
-  "title": "India's EV Market: The Single-Digit Penetration Story Behind the Doubling Headline",
+  "title": "India's EVs Reached 12% of Vehicle Sales in April–September. Electric Cars Are Still in Single Digits",
   "url": "https://masaladeutsch.blogspot.com/2026/08/indias-ev-market-single-digit.html",
   "slug": "indias-ev-market-single-digit",
   "published": "2026-08-02T16:16:00.000+05:30",
-  "updated": "2026-10-28T16:28:33.540+05:30",
+  "updated": "2026-11-09T17:16:35.406+05:30",
   "labels": [
     "Mobility & EV",
     "Trade & Tariffs"
   ],
-  "bytes": 44918,
-  "sha256": "28a3f3ef763ae9d73e16d7748ce3834b10b20e20ac6a020ebda545fadb31707a",
+  "bytes": 46583,
+  "sha256": "dfd187581c4913b8f3168c5c05dcf18cb2ce257c224a61636d9aa14869136589",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.0",
+  "version": "4.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -264,6 +264,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Gazette check: 24 posts verified against Gazette of India notifications"
+    },
+    {
+      "version": "4.0.0",
+      "date": "2026-11-09T17:18:54+05:30",
+      "level": "major",
+      "reason": "figures changed (+8/-0 distinct numbers)",
+      "bytes": [
+        44918,
+        46583
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

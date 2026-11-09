@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/10/india-has-27400-km-of-gas-pipeline.html",
   "slug": "india-has-27400-km-of-gas-pipeline",
   "published": "2026-10-23T19:13:04.000+05:30",
-  "updated": "2026-10-28T16:27:01.879+05:30",
+  "updated": "2026-11-09T17:13:02.751+05:30",
   "labels": [
     "Energy & Fuels",
     "Gas & LNG",
     "Industrial Policy"
   ],
-  "bytes": 71364,
-  "sha256": "bd6b7305a1fab31da7e8abb4a9a558a5233466858297cc1ad597874d0516316b",
+  "bytes": 75894,
+  "sha256": "b57b62bb3232d0ae2c9b1d350298cdb3cce9e13a881572ccccb9bc54219d003e",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.0",
+  "version": "4.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -57,6 +57,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Gazette check: 24 posts verified against Gazette of India notifications"
+    },
+    {
+      "version": "4.0.0",
+      "date": "2026-11-09T17:18:54+05:30",
+      "level": "major",
+      "reason": "figures changed (+20/-0 distinct numbers)",
+      "bytes": [
+        71364,
+        75894
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

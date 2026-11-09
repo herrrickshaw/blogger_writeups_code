@@ -1,16 +1,16 @@
 {
   "id": "473772696488408610",
-  "title": "India Ended 63 Years of State Nuclear Monopoly — But Foreign Reactor Builders Are Still Locked Out",
+  "title": "India Voted to End Its 63-Year State Nuclear Monopoly. The Law Is Not in Force Yet, and Foreign Builders Stay Locked Out",
   "url": "https://masaladeutsch.blogspot.com/2026/09/india-ended-63-years-of-state-nuclear.html",
   "slug": "india-ended-63-years-of-state-nuclear",
   "published": "2026-09-15T10:11:42.000+05:30",
-  "updated": "2026-10-28T16:26:52.153+05:30",
+  "updated": "2026-11-09T17:16:47.419+05:30",
   "labels": [
     "Ease of Doing Business & Regulatory Reform",
     "Industrial Policy"
   ],
-  "bytes": 27355,
-  "sha256": "13bb2b16c74f91de2155e2de8503d7199566945849b9cf40a3e3f1384c82b81f",
+  "bytes": 29176,
+  "sha256": "ac333d931c0ce2576bc87bb001490e264566f8a9f3764faf8cc7757b3889c1d0",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.0",
+  "version": "4.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -147,6 +147,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Gazette check: 24 posts verified against Gazette of India notifications"
+    },
+    {
+      "version": "4.0.0",
+      "date": "2026-11-09T17:18:54+05:30",
+      "level": "major",
+      "reason": "figures changed (+3/-0 distinct numbers)",
+      "bytes": [
+        27355,
+        29176
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

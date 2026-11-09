@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/10/india-has-legalised-e100-for-flex-fuel.html",
   "slug": "india-has-legalised-e100-for-flex-fuel",
   "published": "2026-10-27T17:25:29.000+05:30",
-  "updated": "2026-10-28T16:27:11.463+05:30",
+  "updated": "2026-11-09T17:13:10.991+05:30",
   "labels": [
     "Energy & Fuels",
     "Ethanol & Biofuels"
   ],
-  "bytes": 25618,
-  "sha256": "f975e28375f416d70184df6f4b12206645f2fce208a28ffcddcb76c54365f7f6",
+  "bytes": 26907,
+  "sha256": "a15e925252b3d78f5091b19a20689baa2710745584dd80eb0ed745be37095d0a",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.0",
+  "version": "3.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -43,6 +43,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Gazette check: 24 posts verified against Gazette of India notifications"
+    },
+    {
+      "version": "3.0.0",
+      "date": "2026-11-09T17:18:54+05:30",
+      "level": "major",
+      "reason": "figures changed (+5/-0 distinct numbers)",
+      "bytes": [
+        25618,
+        26907
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

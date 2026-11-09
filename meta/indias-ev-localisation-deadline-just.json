@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/indias-ev-localisation-deadline-just.html",
   "slug": "indias-ev-localisation-deadline-just",
   "published": "2026-09-15T09:00:40.000+05:30",
-  "updated": "2026-10-28T16:28:16.188+05:30",
+  "updated": "2026-11-09T17:14:26.454+05:30",
   "labels": [
     "Import Substitution",
     "Industrial Policy",
     "Mobility & EV"
   ],
-  "bytes": 29169,
-  "sha256": "68d4583fb1f9ed11558e49e22bece837b18ac988b375d132dc1972667ea62fd7",
+  "bytes": 30416,
+  "sha256": "610547a79a121fac7fa4741fd18b5dce8cd13985a036a1388a2322e60041c425",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.0",
+  "version": "3.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -122,6 +122,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Gazette check: 24 posts verified against Gazette of India notifications"
+    },
+    {
+      "version": "3.0.0",
+      "date": "2026-11-09T17:18:54+05:30",
+      "level": "major",
+      "reason": "figures changed (+2/-0 distinct numbers)",
+      "bytes": [
+        29169,
+        30416
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

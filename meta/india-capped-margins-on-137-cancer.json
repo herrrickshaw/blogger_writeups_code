@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/10/india-capped-margins-on-137-cancer.html",
   "slug": "india-capped-margins-on-137-cancer",
   "published": "2026-10-28T15:54:43.000+05:30",
-  "updated": "2026-10-28T16:26:33.149+05:30",
+  "updated": "2026-11-09T17:12:42.534+05:30",
   "labels": [
     "Healthcare"
   ],
-  "bytes": 27009,
-  "sha256": "909e601e1b501187a111ccdb907515c2f559ff29053d403e9e972521dc497384",
+  "bytes": 29535,
+  "sha256": "dad4cca3a8eb9ae18b2653032e50e49dea0885da34ea03e1c410d580bfd03e54",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.0",
+  "version": "3.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -42,6 +42,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Gazette check: 24 posts verified against Gazette of India notifications"
+    },
+    {
+      "version": "3.0.0",
+      "date": "2026-11-09T17:18:54+05:30",
+      "level": "major",
+      "reason": "figures changed (+13/-0 distinct numbers)",
+      "bytes": [
+        27009,
+        29535
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

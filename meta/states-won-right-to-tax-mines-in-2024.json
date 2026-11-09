@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/10/states-won-right-to-tax-mines-in-2024.html",
   "slug": "states-won-right-to-tax-mines-in-2024",
   "published": "2026-10-28T15:54:36.000+05:30",
-  "updated": "2026-10-28T16:29:50.624+05:30",
+  "updated": "2026-11-09T17:16:07.562+05:30",
   "labels": [
     "Governance & Institutions",
     "Industrial Policy",
     "Macroeconomics & Monetary Policy"
   ],
-  "bytes": 28792,
-  "sha256": "2f501be578aeefdaacbab88820887e031914ac2dd273e8720eef03359ab99679",
+  "bytes": 30952,
+  "sha256": "ed5b52e7e532e3cda7864bcca4a7e7f3e6dfd3df6a4c1e81304269987ae49703",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.0",
+  "version": "3.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -57,6 +57,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Gazette check: 24 posts verified against Gazette of India notifications"
+    },
+    {
+      "version": "3.0.0",
+      "date": "2026-11-09T17:18:54+05:30",
+      "level": "major",
+      "reason": "figures changed (+3/-0 distinct numbers)",
+      "bytes": [
+        28792,
+        30952
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

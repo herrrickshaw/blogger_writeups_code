@@ -17535,3 +17535,53 @@ scheduled sync
 - `oil-gas-projects-under-evaluation-and` — 17,126 → 18,231 bytes (+1,105)
 - `one-nation-one-gst-rate-what-true-flat` — 29,325 → 30,467 bytes (+1,142)
 - `indias-battery-storage-boom-is` — 50,972 → 51,679 bytes (+707)
+
+## 2026-11-09T17:18:54+05:30 — 505 posts live
+
+**Versions**
+
+- `oil-gas-projects-under-evaluation-and` **2.0.0 → 3.0.0** (MAJOR) — figures changed (+34/-1 distinct numbers)
+- `rice-and-maize-became-ethanol` **1.1.0 → 2.0.0** (MAJOR) — figures changed (+3/-0 distinct numbers)
+- `india-capped-margins-on-137-cancer` **2.0.0 → 3.0.0** (MAJOR) — figures changed (+13/-0 distinct numbers)
+- `states-won-right-to-tax-mines-in-2024` **2.0.0 → 3.0.0** (MAJOR) — figures changed (+3/-0 distinct numbers)
+- `india-has-legalised-e100-for-flex-fuel` **2.0.0 → 3.0.0** (MAJOR) — figures changed (+5/-0 distinct numbers)
+- `india-will-spend-rs-33660-crore-on` **2.0.0 → 3.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `india-has-27400-km-of-gas-pipeline` **3.0.0 → 4.0.0** (MAJOR) — figures changed (+20/-0 distinct numbers)
+- `india-imported-295-more-steel-this-year` **2.0.0 → 3.0.0** (MAJOR) — figures changed (+17/-0 distinct numbers)
+- `india-raised-cooking-oil-duties-to-help` **2.0.0 → 3.0.0** (MAJOR) — figures changed (+12/-5 distinct numbers)
+- `indias-first-seabed-mineral-auction` **2.0.0 → 3.0.0** (MAJOR) — figures changed (+1/-0 distinct numbers)
+- `indias-new-car-rules-count-every-ev-as` **1.0.0 → 2.0.0** (MAJOR) — figures changed (+1/-0 distinct numbers)
+- `every-litre-of-petrol-pays-5-for-roads` **1.2.1 → 2.0.0** (MAJOR) — figures changed (+1/-0 distinct numbers)
+- `india-let-oil-companies-put-solar-on` **2.0.0 → 3.0.0** (MAJOR) — figures changed (+4/-0 distinct numbers)
+- `india-rewrote-its-entire-maritime-legal` **1.3.0 → 1.3.1** (PATCH) — wording changed; no figures, sections or claims moved
+- `india-ended-63-years-of-state-nuclear` **3.0.0 → 4.0.0** (MAJOR) — figures changed (+3/-0 distinct numbers)
+- `indias-ev-localisation-deadline-just` **2.0.0 → 3.0.0** (MAJOR) — figures changed (+2/-0 distinct numbers)
+- `right-of-user-what-indias-pipeline` **3.0.0 → 4.0.0** (MAJOR) — figures changed (+24/-0 distinct numbers)
+- `the-easiest-ev-conversion-in-india` **3.0.0 → 4.0.0** (MAJOR) — figures changed (+2/-0 distinct numbers)
+- `indias-mobile-phone-pli-beat-every` **2.2.0 → 2.2.1** (PATCH) — wording changed; no figures, sections or claims moved
+- `how-indias-automotive-clusters-rewired` **2.3.0 → 3.0.0** (MAJOR) — figures changed (+1/-0 distinct numbers)
+- `indias-ev-market-single-digit` **3.0.0 → 4.0.0** (MAJOR) — figures changed (+8/-0 distinct numbers)
+
+**Changed**
+
+- `oil-gas-projects-under-evaluation-and` — 18,231 → 22,754 bytes (+4,523)
+- `rice-and-maize-became-ethanol` — 30,162 → 31,192 bytes (+1,030)
+- `india-capped-margins-on-137-cancer` — 27,009 → 29,535 bytes (+2,526)
+- `states-won-right-to-tax-mines-in-2024` — 28,792 → 30,952 bytes (+2,160)
+- `india-has-legalised-e100-for-flex-fuel` — 25,618 → 26,907 bytes (+1,289)
+- `india-will-spend-rs-33660-crore-on` — 28,991 → 29,885 bytes (+894)
+- `india-has-27400-km-of-gas-pipeline` — 71,364 → 75,894 bytes (+4,530)
+- `india-imported-295-more-steel-this-year` — 26,539 → 28,983 bytes (+2,444)
+- `india-raised-cooking-oil-duties-to-help` — 25,479 → 26,803 bytes (+1,324)
+- `indias-first-seabed-mineral-auction` — 23,638 → 24,868 bytes (+1,230)
+- `indias-new-car-rules-count-every-ev-as` — 34,948 → 34,967 bytes (+19)
+- `every-litre-of-petrol-pays-5-for-roads` — 39,804 → 39,829 bytes (+25)
+- `india-let-oil-companies-put-solar-on` — 31,304 → 32,184 bytes (+880)
+- `india-rewrote-its-entire-maritime-legal` — 22,856 → 22,878 bytes (+22)
+- `india-ended-63-years-of-state-nuclear` — 27,355 → 29,176 bytes (+1,821)
+- `indias-ev-localisation-deadline-just` — 29,169 → 30,416 bytes (+1,247)
+- `right-of-user-what-indias-pipeline` — 47,133 → 53,709 bytes (+6,576)
+- `the-easiest-ev-conversion-in-india` — 40,226 → 41,436 bytes (+1,210)
+- `indias-mobile-phone-pli-beat-every` — 26,107 → 26,129 bytes (+22)
+- `how-indias-automotive-clusters-rewired` — 29,041 → 29,095 bytes (+54)
+- `indias-ev-market-single-digit` — 44,918 → 46,583 bytes (+1,665)

@@ -4,10 +4,10 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/india-rewrote-its-entire-maritime-legal.html",
   "slug": "india-rewrote-its-entire-maritime-legal",
   "published": "2026-09-15T10:51:58.000+05:30",
-  "updated": "2026-11-07T08:38:48.788+05:30",
+  "updated": "2026-11-09T17:13:54.164+05:30",
   "labels": [],
-  "bytes": 22856,
-  "sha256": "9c1cb955be97d1f914add043d7b0332742edc550ed7ef4e2531342649f855fc0",
+  "bytes": 22878,
+  "sha256": "9884705965b7dd476b3f45c26a58b4046906a4a665aa43329a971067d45c7195",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.3.0",
+  "version": "1.3.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -105,6 +105,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "November data refresh"
+    },
+    {
+      "version": "1.3.1",
+      "date": "2026-11-09T17:18:54+05:30",
+      "level": "patch",
+      "reason": "wording changed; no figures, sections or claims moved",
+      "bytes": [
+        22856,
+        22878
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

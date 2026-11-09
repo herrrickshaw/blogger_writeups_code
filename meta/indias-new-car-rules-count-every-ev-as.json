@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/10/indias-new-car-rules-count-every-ev-as.html",
   "slug": "indias-new-car-rules-count-every-ev-as",
   "published": "2026-10-02T09:04:39.000+05:30",
-  "updated": "2026-10-02T09:05:09.399+05:30",
+  "updated": "2026-11-09T17:15:16.983+05:30",
   "labels": [
     "Climate & Carbon",
     "Energy & Fuels",
     "Mobility & EV"
   ],
-  "bytes": 34948,
-  "sha256": "7cacb312226a6ed5df076dd1cbf0d99b634a6ca00d560d2e16ad751de3544cf4",
+  "bytes": 34967,
+  "sha256": "e85d88ee46de2045bf27ef44601d0d5da2c164da44479360cbb203dfa1cee587",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -31,6 +31,19 @@
       "level": "initial",
       "reason": "first snapshot",
       "note": "New post: CAFE-III compared with global fuel-efficiency rules"
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-11-09T17:18:54+05:30",
+      "level": "major",
+      "reason": "figures changed (+1/-0 distinct numbers)",
+      "bytes": [
+        34948,
+        34967
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }
