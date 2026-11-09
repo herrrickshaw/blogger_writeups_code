@@ -19,9 +19,9 @@ Checked, no change: farmer-payments-DLT (cane dues, sugar MSP still Rs 31/kg), c
 finances, IDBI sale (pending RBI approval), NSAP pensions (guidelines due ~mid-Jan 2027).
 
 Needs a human decision:
-- oil-gas-projects-under-evaluation-and: Segment 4's conclusion, two scorecard rows, the "Brent vs breakevens"
-  watch item and the offshore chart's $55-60 band rest on the January price outlook. The note dates them, but this
-  needs a rewrite (same issue as oilfield-costs-rose-68 in FLAGS.md section 1).
+- oil-gas-projects-under-evaluation-and: DONE 9 Nov. Segment 4 was rewritten on current data (Dallas Fed Q1/Q3 2026, EIA Oct STEO,
+  Spears/Westwood, Diamondback Q3, GEM GOGET Mar 2026), and so were its scorecard row and the breakevens watch item. Still open: Segment 1's
+  "$55-60" sentence and the offshore chart band (dated by the note, not rebuilt).
 - The 23.0 Gini is from the World Bank brief as summarised in the poverty post; open the World Bank India brief page
   for a primary link before publishing the GST-post note if you want one.
 Recheck: NSAP revised guidelines, ~mid-January 2027.
