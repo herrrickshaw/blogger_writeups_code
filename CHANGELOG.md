@@ -17585,3 +17585,15 @@ scheduled sync
 - `indias-mobile-phone-pli-beat-every` — 26,107 → 26,129 bytes (+22)
 - `how-indias-automotive-clusters-rewired` — 29,041 → 29,095 bytes (+54)
 - `indias-ev-market-single-digit` — 44,918 → 46,583 bytes (+1,665)
+
+## 2026-11-09T17:28:38+05:30 — 505 posts live
+
+**Versions**
+
+- `quarterly-reportage-4034-scheme` **2.1.4 → 3.0.0** (MAJOR) — figures changed (+21/-6 distinct numbers)
+- `ipa-digital-twin-reportage-latest` **2.1.0 → 3.0.0** (MAJOR) — figures changed (+17/-230 distinct numbers)
+
+**Changed**
+
+- `quarterly-reportage-4034-scheme` — 543,799 → 562,707 bytes (+18,908)
+- `ipa-digital-twin-reportage-latest` — 291,452 → 63,085 bytes (-228,367)

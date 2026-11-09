@@ -1,16 +1,16 @@
 {
   "id": "141021557520176306",
-  "title": "Quarterly Reportage — 4,099 Scheme Announcements, 2017 to August 2026",
+  "title": "Quarterly Reportage — 4,220 Scheme Announcements, 2017 to November 2026",
   "url": "https://masaladeutsch.blogspot.com/2026/08/quarterly-reportage-4034-scheme.html",
   "slug": "quarterly-reportage-4034-scheme",
   "published": "2026-08-04T13:58:09.000+05:30",
-  "updated": "2026-09-26T10:59:12.706+05:30",
+  "updated": "2026-11-09T17:27:42.867+05:30",
   "labels": [
     "Industrial Policy",
     "Parliamentary Scheme Tracking"
   ],
-  "bytes": 543799,
-  "sha256": "d3f243c96acd41f02cd9ad4c7767497f279f90e0be8bac31f14a2f1586fed08b",
+  "bytes": 562707,
+  "sha256": "204b7186eb71668d6fb354a2d811aabd81fba9a20a3d50fb067a1208754dcc2e",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": true,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.1.4",
+  "version": "3.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -304,6 +304,19 @@
         ]
       },
       "note": "Fix a real false-positive in consistency-check/checks.py: the dark-vars-locked/bw-override rules did naive substring matching for 'prefers-color-scheme', which falsely triggered a BLOCKER on quarterly-reportage-4034-scheme's own comment explaining why it deliberately has no dark palette; now strips comments first. Also repaired 6 posts missing the Google Translate widget (using consistency-check/fix.py's repair() against local files, since the tool's own fetch-from-live-page path is blocked here). Flagged about-author.html as genuinely deleted from Blogger (404 by ID and slug), not a listing anomaly -- documented in CHANGELOG rather than silently left"
+    },
+    {
+      "version": "3.0.0",
+      "date": "2026-11-09T17:28:38+05:30",
+      "level": "major",
+      "reason": "figures changed (+21/-6 distinct numbers)",
+      "bytes": [
+        543799,
+        562707
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }
