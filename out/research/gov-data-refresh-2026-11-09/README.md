@@ -46,3 +46,15 @@ plastic heat.
 ## Rechecks
 China rare-earth pause (after 10 Nov); CPI 12 Nov (edible-oil index); CPI-AL ~20 Nov; Jharkhand Assembly 25-26 Nov;
 offshore mineral bids 28 Dec.
+
+## PIB data refresh (later on 9 Nov)
+- PIB register (india-trade-sector-policy-recommendations/data/pib_index.sqlite) refreshed to 9 Nov 2026: 127,735 releases.
+  This was done by a session on the "masaladeutsch blog (PIB access)" environment (commit 16217d3), which also corrected
+  409 September dates. The reportage was rebuilt in digital-twin-for-ipa (commit 07a1205), central releases only.
+- quarterly-reportage-4034-scheme: 4,146 -> 4,220 rows. +57 rows for 2 Oct-6 Nov; +17 September rows from days the register
+  had missed; nine September rows re-dated by one day. Ten collisions were vetoed (the four from October plus Aditi Ashok,
+  the TBZ merger, a precision-medicine speech, an AFMS eye camp and two Rahat Mitra exercises). NIDHI was untagged from the
+  Digital Bharat Nidhi rows. Retitle to "4,220 ... 2017 to November 2026".
+- ipa-digital-twin-reportage-latest: window 15 Sep-9 Nov (101 central, 35 schemes, 13 Cabinet). The stale state wire
+  (to 26 Aug) was removed with a note. Retitle to "(15 Sep – 9 Nov 2026)".
+- Still open: the state wire needs collect_state_news.py run on the Mac, since the state portals are not allowed in the cloud environment.
