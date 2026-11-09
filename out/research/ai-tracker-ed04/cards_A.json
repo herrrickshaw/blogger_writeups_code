@@ -1,0 +1,442 @@
+{
+ "new": [
+  {
+   "name": "Gemini 4 Carbon",
+   "by": "Google DeepMind",
+   "cat": "foundation",
+   "isNew": true,
+   "why": "NEW: Google&rsquo;s strongest model, two weeks after Argon, built for multi-day coding and cyber-defence work. Google says it tops the Artificial Analysis Intelligence Index v5 at 59 (vendor-cited). Cyber experts get it first through the Fairwind programme; same introductory price as Argon, $2/$10 per million tokens.",
+   "badges": [
+    {
+     "t": "Frontier",
+     "c": "hot"
+    },
+    {
+     "t": "Limited access first",
+     "c": ""
+    },
+    {
+     "t": "Verified",
+     "c": ""
+    }
+   ],
+   "date": "28 Oct 2026",
+   "src": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/"
+  },
+  {
+   "name": "GPT-6.1 Terra",
+   "by": "OpenAI",
+   "cat": "foundation",
+   "isNew": true,
+   "why": "NEW: OpenAI&rsquo;s fast, cheaper model for computer use and everyday work, at 50% lower standard API prices than GPT-5.6 Terra. OpenAI says it matches GPT-6 Astra on its agents test at a tenth of the per-token price (vendor-reported). Rated &lsquo;Critical&rsquo; for cyber, so Astra&rsquo;s protections apply.",
+   "badges": [
+    {
+     "t": "Price cut",
+     "c": "hot"
+    },
+    {
+     "t": "Computer use",
+     "c": ""
+    },
+    {
+     "t": "Verified",
+     "c": ""
+    }
+   ],
+   "date": "26 Oct 2026",
+   "src": "https://openai.com/index/introducing-gpt-6-1-terra"
+  },
+  {
+   "name": "Kimi K3.1 Pro",
+   "by": "Moonshot AI",
+   "cat": "foundation",
+   "isNew": true,
+   "why": "NEW: a 2.8-trillion-parameter mixture-of-experts model (104B active, 1M-token context), launched in Kimi&rsquo;s apps and API and then released as open weights. Its custom licence restricts large model-as-a-service use.",
+   "badges": [
+    {
+     "t": "Open weights",
+     "c": "hot"
+    },
+    {
+     "t": "Custom licence",
+     "c": ""
+    },
+    {
+     "t": "Verified",
+     "c": ""
+    }
+   ],
+   "date": "23 Oct 2026 &middot; weights 4 Nov",
+   "src": "https://www.kimi.com/en/blog/kimi-k3-1-pro"
+  },
+  {
+   "name": "Muse Spark Open",
+   "by": "Meta",
+   "cat": "foundation",
+   "isNew": true,
+   "why": "NEW: open weights for an 816B-parameter (42B active), natively multimodal model with a 1M-token context, which Meta calls the most capable US open-weight model. It can run on two Apple M5 Ultra Mac Studios; the Muse Model License limits commercial use.",
+   "badges": [
+    {
+     "t": "Open weights",
+     "c": "hot"
+    },
+    {
+     "t": "Runs on desktop",
+     "c": ""
+    },
+    {
+     "t": "Verified",
+     "c": ""
+    }
+   ],
+   "date": "15 Oct 2026",
+   "src": "https://research.meta.ai/blog/muse-spark-open"
+  },
+  {
+   "name": "Mistral Large 4 (open weights)",
+   "by": "Mistral AI",
+   "cat": "foundation",
+   "isNew": true,
+   "why": "NEW: the 1-trillion-parameter multimodal &lsquo;Le Chonk&rsquo; went from API preview (6 Oct) to open weights on Hugging Face after three more weeks of training. Mistral reports Terminal-Bench 4.0 rising from 28% to 41% (vendor-reported); a quantised version runs on four B200 or B300 GPUs.",
+   "badges": [
+    {
+     "t": "Open weights",
+     "c": "hot"
+    },
+    {
+     "t": "European",
+     "c": ""
+    },
+    {
+     "t": "Verified",
+     "c": ""
+    }
+   ],
+   "date": "29 Oct 2026 (preview 6 Oct)",
+   "src": "https://mistral.ai/news/mistral-large-4-oss/"
+  },
+  {
+   "name": "DeepInfer",
+   "by": "DeepSeek",
+   "cat": "foundation",
+   "isNew": true,
+   "why": "NEW: DeepSeek open-sourced (Apache 2.0) the inference engine that runs its own production service, for Nvidia SM100 and Huawei Ascend 950 chips. It supports only V4.1-Flash for now and leaves out caching and load balancing; the speed figures are DeepSeek&rsquo;s own. Its repository passed 25,000 stars in its first 24 days.",
+   "badges": [
+    {
+     "t": "Open source",
+     "c": "hot"
+    },
+    {
+     "t": "Inference stack",
+     "c": ""
+    },
+    {
+     "t": "Verified",
+     "c": ""
+    }
+   ],
+   "date": "20 Oct 2026",
+   "src": "https://github.com/deepseek-ai/DeepInfer"
+  },
+  {
+   "name": "Tencent Hy4",
+   "by": "Tencent",
+   "cat": "foundation",
+   "isNew": true,
+   "why": "NEW: Tencent&rsquo;s latest model adds image understanding and computer use for the first time, at $0.834/$2.501 per million tokens. Tencent says weights and a system card will follow &lsquo;in the coming days&rsquo;; as of 9 Nov they were not out.",
+   "badges": [
+    {
+     "t": "Weights promised",
+     "c": ""
+    },
+    {
+     "t": "Computer use",
+     "c": ""
+    },
+    {
+     "t": "Verified",
+     "c": ""
+    }
+   ],
+   "date": "4 Nov 2026",
+   "src": "https://www.tencent.com/tencent-launches-hy4-joining-the-ranks-of-the-worlds-leading-open-source-ai-models/"
+  },
+  {
+   "name": "Genie 4",
+   "by": "Google DeepMind",
+   "cat": "foundation",
+   "isNew": true,
+   "why": "NEW: a world model that generates interactive scenes you can steer in plain language while they run, now with native audio and dialogue. It is a research preview for trusted testers, coming next to AI Ultra subscribers in Project Genie.",
+   "badges": [
+    {
+     "t": "World model",
+     "c": "hot"
+    },
+    {
+     "t": "Research preview",
+     "c": ""
+    },
+    {
+     "t": "Verified",
+     "c": ""
+    }
+   ],
+   "date": "27 Oct 2026",
+   "src": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/"
+  },
+  {
+   "name": "GPT-6 Cyber",
+   "by": "OpenAI",
+   "cat": "foundation",
+   "isNew": true,
+   "why": "NEW: a GPT-6 model for authorised vulnerability research, offered only to vetted defenders through OpenAI&rsquo;s Daybreak programme, not to the public.",
+   "badges": [
+    {
+     "t": "Cyber defence",
+     "c": ""
+    },
+    {
+     "t": "Limited access",
+     "c": ""
+    },
+    {
+     "t": "Verified",
+     "c": ""
+    }
+   ],
+   "date": "5 Nov 2026",
+   "src": "https://openai.com/index/introducing-gpt-6-cyber/"
+  },
+  {
+   "name": "ChatGPT Images 2.6",
+   "by": "OpenAI",
+   "cat": "consumer",
+   "isNew": true,
+   "why": "NEW: ChatGPT can now turn a prompt or photo into an animated GIF, edit single frames, and keep saved reference images of people, pets or characters for reuse. Available on all plans, free included; OpenAI says over 4 billion images a week are now made with its tools.",
+   "badges": [
+    {
+     "t": "GIFs",
+     "c": "hot"
+    },
+    {
+     "t": "All plans",
+     "c": ""
+    },
+    {
+     "t": "Verified",
+     "c": ""
+    }
+   ],
+   "date": "4 Nov 2026",
+   "src": "https://openai.com/index/introducing-images-2-6"
+  },
+  {
+   "name": "Siri AI (opened to all developers)",
+   "by": "Apple",
+   "cat": "consumer",
+   "isNew": true,
+   "why": "NEW: any app can now plug into the rebuilt Siri through a developer preview in the iOS 27.3 betas. Apple has also dropped the waitlist for users, but caps server-side use daily and plans a fee for more; Siri AI is still unavailable in the EU on iPhone.",
+   "badges": [
+    {
+     "t": "Platform",
+     "c": "hot"
+    },
+    {
+     "t": "Developer preview",
+     "c": ""
+    },
+    {
+     "t": "Verified",
+     "c": ""
+    }
+   ],
+   "date": "3 Nov 2026",
+   "src": "https://developer.apple.com/news/?id=gdk2umrf"
+  },
+  {
+   "name": "Grok Bot",
+   "by": "SpaceXAI (xAI)",
+   "cat": "consumer",
+   "isNew": true,
+   "why": "NEW to the board: the agent that runs tasks on its own virtual computer launched in August, but this window tested its economics. SpaceX said it had over 800,000 paid weekly users; on 1 Nov Musk said serving costs were &lsquo;unsustainably high relative to revenue&rsquo; as weekly limits ran out early. It gained phone calls on 4 Nov.",
+   "badges": [
+    {
+     "t": "Usage limits cut",
+     "c": "hot"
+    },
+    {
+     "t": "$30&ndash;200/mo plans",
+     "c": ""
+    },
+    {
+     "t": "Verified",
+     "c": ""
+    }
+   ],
+   "date": "1&ndash;4 Nov 2026",
+   "src": "https://www.businessinsider.com/grok-bot-usage-limits-costs-unsustainably-high-elon-musk-agents-2026-11"
+  },
+  {
+   "name": "Gemini app: Argon and tasks",
+   "by": "Google",
+   "cat": "consumer",
+   "isNew": true,
+   "why": "NEW: Pro and Ultra subscribers got Gemini 4 Argon in the app, plus a toggle from chat to &lsquo;tasks&rsquo; that keeps working while you are away, connections to more than 40 apps (Instacart, OpenTable, Shopify) and Antigravity coding in the Mac app.",
+   "badges": [
+    {
+     "t": "Background tasks",
+     "c": "hot"
+    },
+    {
+     "t": "Paid tiers",
+     "c": ""
+    },
+    {
+     "t": "Verified",
+     "c": ""
+    }
+   ],
+   "date": "13 Oct 2026",
+   "src": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-4-argon-availability/"
+  },
+  {
+   "name": "dsh-superagent (research prototype)",
+   "by": "DeepSeek Harness team",
+   "cat": "agentic",
+   "isNew": true,
+   "why": "NEW: an MIT-licensed, always-on coding agent for one GitHub repository that picks up requests from GitHub or Feishu, works in its own session and answers with a pull request. DeepSeek calls it research code, not a product, and warns a worker can read the operator&rsquo;s home directory. Fastest-rising repository on this edition&rsquo;s radar.",
+   "badges": [
+    {
+     "t": "Proactive agent",
+     "c": "hot"
+    },
+    {
+     "t": "Research code",
+     "c": ""
+    },
+    {
+     "t": "Verified",
+     "c": ""
+    }
+   ],
+   "date": "31 Oct 2026",
+   "src": "https://github.com/deepseek-ai/dsh-superagent-prototype"
+  }
+ ],
+ "carryover_updates": [
+  {
+   "name": "DeepSeek-V4.1-Flash-1017",
+   "by": "DeepSeek",
+   "cat": "foundation",
+   "isNew": false,
+   "why": "UPDATED: a new snapshot of September&rsquo;s V4.1-Flash, now the default behind DeepSeek&rsquo;s API, with open weights on Hugging Face. DeepSeek claims better benchmarks with shorter outputs (vendor-reported); it also opened web search and fetch APIs at $0.75 per 1,000 calls.",
+   "badges": [
+    {
+     "t": "Open weights",
+     "c": "hot"
+    },
+    {
+     "t": "Default API model",
+     "c": ""
+    },
+    {
+     "t": "Verified",
+     "c": ""
+    }
+   ],
+   "date": "17 Oct 2026",
+   "src": "https://api-docs.deepseek.com/news/news261017"
+  },
+  {
+   "name": "Gemini 4 Argon",
+   "by": "Google DeepMind",
+   "cat": "foundation",
+   "isNew": false,
+   "why": "UPDATED: no longer limited to cyber partners. Developers can use it on the paid Gemini API, AI Studio and Antigravity, and Pro and Ultra subscribers in the Gemini app, from 13 Oct.",
+   "badges": [
+    {
+     "t": "Now public",
+     "c": "hot"
+    },
+    {
+     "t": "$2/$10 intro price",
+     "c": ""
+    },
+    {
+     "t": "Verified",
+     "c": ""
+    }
+   ],
+   "date": "13 Oct 2026 (announced 30 Sep)",
+   "src": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-4-argon/"
+  },
+  {
+   "name": "Dots",
+   "by": "OpenAI",
+   "cat": "consumer",
+   "isNew": false,
+   "why": "UPDATED: dots can now be created on the phone (9 Oct), answered from an iPhone notification and run on GPT-6.1 Terra; on 4 Nov they reached eligible Enterprise, Edu and Healthcare workspaces, free in an admin preview until billing starts on 18 Nov.",
+   "badges": [
+    {
+     "t": "Enterprise GA",
+     "c": "hot"
+    },
+    {
+     "t": "Billing from 18 Nov",
+     "c": ""
+    },
+    {
+     "t": "Verified",
+     "c": ""
+    }
+   ],
+   "date": "9 Oct &ndash; 4 Nov 2026",
+   "src": "https://openai.com/products/release-notes"
+  }
+ ],
+ "retire": [
+  {
+   "name": "GPT-6 Astra",
+   "reason": "Predates the window (3 Sep); OpenAI's newer releases (GPT-6.1 Terra, GPT-6 Cyber) replace it on the board, though it remains OpenAI's top model."
+  },
+  {
+   "name": "Grok 4.7",
+   "reason": "No new development found in the window."
+  },
+  {
+   "name": "DeepSeek-V4.1-Flash",
+   "reason": "Superseded by the DeepSeek-V4.1-Flash-1017 snapshot (carried over)."
+  },
+  {
+   "name": "Qwen3.8-Flash-Next",
+   "reason": "August release; no new development found in the window."
+  },
+  {
+   "name": "Qwen3.8-Max (open weights)",
+   "reason": "August release; no new development found in the window."
+  },
+  {
+   "name": "Muse personal agent",
+   "reason": "8 Sep launch with no material consumer update found in the window; Meta's open-weight Muse Spark Open is on the foundation board instead."
+  },
+  {
+   "name": "Gemini Spark",
+   "reason": "No update found in the window; the Gemini app's new tasks mode (13 Oct) is on the board instead. Spark's $99.99/mo price was single-source."
+  },
+  {
+   "name": "GitHub Copilot (unified)",
+   "reason": "The merge was due from late September; no new development found in the window (group B may cover Copilot under coding)."
+  }
+ ],
+ "notes": [
+  "Missed by the 9 Oct refresh and not added, because they predate this window: Claude Opus 5.5 (22 Sep), Claude Sonnet 5.5 (28 Sep), GPT-6.1 Sol (29 Sep), Claude Haiku 5.5 (7 Oct) and GPT-6 with Intelligent UI in ChatGPT (7 Oct).",
+  "Dates that differ between sources: GPT-6.1 Terra (OpenAI's launch posts 26 Oct; one model-tracking site lists 15 Oct); Kimi K3.1 Pro weights (Moonshot's post 4 Nov; one roundup says 5 Nov); Tencent Hy4 (Tencent 4 Nov; Artificial Analysis 3 Nov).",
+  "Mistral Large 4 active parameters: Mistral's 6 Oct post on X says 49B, while its blog and TNW give about 52B for the released model.",
+  "Tencent Hy4 is described as open source, but its weights were not out by 9 Nov; Artificial Analysis lists it as proprietary for now.",
+  "Single-source figures: Grok Bot's 800,000+ paid weekly users (SpaceX, via Business Insider) and the Siri AI waitlist removal (Yahoo Tech).",
+  "All benchmark figures on these cards are the vendors' own. Model-tracking aggregators (nocode.mba, llmbenchmark.ai, benchlm.ai) were used only to find releases; every card links a first-party page or a GitHub repository.",
+  "Name-collision watch: 'Muse' is Meta's consumer agent, also its Muse Spark model family and its Muse Code tool. Grok Bot posts from the @bot account on X. xAI now trades as SpaceXAI.",
+  "dsh-superagent-prototype is filed under agentic; dedupe it against group B's cards. DeepInfer sits with the foundation models because it is DeepSeek's serving stack for V4.1-Flash.",
+  "Not carded: GPT-6 Cyber's details beyond limited Daybreak access, Gemini Omni 1.2 Flash (video, 5 Nov), and the long tail of smaller October releases (MiniMax M3.1 Flash, Nemotron 3.5, Liquid d1)."
+ ]
+}

@@ -803,6 +803,7 @@ SLUG_CONTAINS = {
     "idbi-banks-rescuers-put-in": ["Markets & Finance", "Governance & Institutions", "Macroeconomics & Monetary Policy"],
     "14500-crore-for-92-gwh": ["Energy & Fuels", "Industrial Policy", "Import Substitution", "Climate & Carbon"],
     "old-age-pension-has-been-200": ["Governance & Institutions", "Scheme Delivery Gap", "Prices & Inflation"],
+    "ai-tools-edition-04": ["AI Tracker"],
     "capped-margins-on-137-cancer": ["Healthcare"],
     "indians-pay-for-health": ["Healthcare"],
     "funded-3-lakh-machines": ["Agriculture & Fertilisers", "Energy & Fuels"],

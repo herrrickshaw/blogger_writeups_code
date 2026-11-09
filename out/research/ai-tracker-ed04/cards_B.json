@@ -1,0 +1,509 @@
+{
+ "new": [
+  {
+   "name": "GitHub Copilot app &amp; Copilot projects",
+   "by": "GitHub",
+   "cat": "coding",
+   "isNew": true,
+   "why": "NEW at Universe: an agent-first desktop app where a developer sets a goal and Copilot runs as many agents as the job needs across several repositories, then brings back pull requests for review. Copilot Fusion routes each task across models; GitHub says Fusion Max scored within two points of Opus 5.5 Max on Artificial Analysis&rsquo;s coding-agent index at half the cost (vendor-reported).",
+   "badges": [
+    {
+     "t": "Universe &rsquo;26",
+     "c": "hot"
+    },
+    {
+     "t": "Multi-repo agents",
+     "c": ""
+    },
+    {
+     "t": "Verified",
+     "c": ""
+    }
+   ],
+   "date": "28 Oct 2026",
+   "src": "https://github.blog/news-insights/company-news/github-universe-2026-evolving-every-layer-of-the-stack/"
+  },
+  {
+   "name": "Copilot included in GitHub Enterprise",
+   "by": "GitHub",
+   "cat": "coding",
+   "isNew": true,
+   "why": "NEW pricing: GitHub Enterprise Cloud customers get every Copilot feature, including the app, code review and automations, without a separate Copilot seat; usage is metered against an enterprise budget. Users without an Enterprise licence pay $10 a month for Copilot Standalone, and self-serve customers get the model later, in stages.",
+   "badges": [
+    {
+     "t": "No separate seat",
+     "c": "hot"
+    },
+    {
+     "t": "Metered usage",
+     "c": ""
+    },
+    {
+     "t": "Verified",
+     "c": ""
+    }
+   ],
+   "date": "28 Oct 2026",
+   "src": "https://github.blog/changelog/2026-10-28-github-enterprise-now-includes-access-to-github-copilot"
+  },
+  {
+   "name": "Claude Code Review (GA)",
+   "by": "Anthropic",
+   "cat": "coding",
+   "isNew": true,
+   "why": "NEW: out of research preview and generally available to Claude Team and Enterprise organisations; reviews run automatically on new pull requests. Eligible Enterprise organisations can claim at least $10,000 in review credits until 15 January 2027.",
+   "badges": [
+    {
+     "t": "GA",
+     "c": "hot"
+    },
+    {
+     "t": "PR review",
+     "c": ""
+    },
+    {
+     "t": "Verified",
+     "c": ""
+    }
+   ],
+   "date": "15 Oct 2026",
+   "src": "https://claude.com/resources/articles/code-review-is-now-generally-available"
+  },
+  {
+   "name": "Claude Security continuous scanning",
+   "by": "Anthropic",
+   "cat": "coding",
+   "isNew": true,
+   "why": "NEW: Claude Security now keeps scanning repositories as code changes, tracks findings until they are fixed, learns from context a team adds and connects to other tools through an API and MCP. Public beta for Claude Enterprise.",
+   "badges": [
+    {
+     "t": "Public beta",
+     "c": ""
+    },
+    {
+     "t": "Code security",
+     "c": ""
+    },
+    {
+     "t": "Verified",
+     "c": ""
+    }
+   ],
+   "date": "21 Oct 2026",
+   "src": "https://claude.com/resources/product-announcements"
+  },
+  {
+   "name": "OpenAI to acquire Pierre",
+   "by": "OpenAI",
+   "cat": "coding",
+   "isNew": true,
+   "why": "NEW: OpenAI agreed to buy Pierre Computer Company, maker of Code Storage and the Trees and Diffs libraries already used in the Codex app, to build source control for teams working with coding agents. Pierre&rsquo;s open-source projects stay open; the deal needs regulatory approval to close.",
+   "badges": [
+    {
+     "t": "Acquisition",
+     "c": "fund"
+    },
+    {
+     "t": "Pending close",
+     "c": ""
+    },
+    {
+     "t": "Verified",
+     "c": ""
+    }
+   ],
+   "date": "4 Nov 2026",
+   "src": "https://openai.com/index/openai-to-acquire-pierre"
+  },
+  {
+   "name": "Greptile",
+   "by": "Greptile (Menlo Ventures)",
+   "cat": "coding",
+   "isNew": true,
+   "why": "NEW raise: AI code review and testing that sits as an independent check on code from people and coding agents. The company says it reviews and tests more than 1% of all pull requests opened on GitHub each day (company-reported).",
+   "badges": [
+    {
+     "t": "$50M Series B",
+     "c": "fund"
+    },
+    {
+     "t": "$750M valuation",
+     "c": "fund"
+    },
+    {
+     "t": "Verified",
+     "c": ""
+    }
+   ],
+   "date": "19 Oct 2026",
+   "src": "https://www.greptile.com/blog/series-b"
+  },
+  {
+   "name": "Traversal",
+   "by": "Traversal (Kleiner Perkins, Redpoint, Khosla)",
+   "cat": "coding",
+   "isNew": true,
+   "why": "NEW raise: AI site-reliability agents that investigate production incidents and find root causes, with Nubank, American Express and PepsiCo among customers. On its own ORCA-bench, the best of five frontier agents identified only 25.3% of medium-difficulty incidents (company-reported).",
+   "badges": [
+    {
+     "t": "$120M Series B",
+     "c": "fund"
+    },
+    {
+     "t": "$1B valuation",
+     "c": "fund"
+    },
+    {
+     "t": "Verified",
+     "c": ""
+    }
+   ],
+   "date": "3 Nov 2026",
+   "src": "https://www.businesswire.com/news/home/20261103122345/en/Traversal-Raises-%24120M-with-a-%241-Billion-Valuation-to-Keep-Code-Running-With-a-Superintelligent-AI-Site-Reliability-Engineer"
+  },
+  {
+   "name": "dsh-superagent (prototype)",
+   "by": "DeepSeek (Harness team)",
+   "cat": "agentic",
+   "isNew": true,
+   "why": "NEW: an open-source research prototype of an always-on coding agent for one GitHub repository. A resident router hands requests from approved people, via GitHub or Feishu, to isolated workers that reproduce bugs and open pull requests. DeepSeek says it is not an official product and not production-ready; Bloomberg framed it as a challenge to Claude Code.",
+   "badges": [
+    {
+     "t": "Open source (MIT)",
+     "c": "hot"
+    },
+    {
+     "t": "Research prototype",
+     "c": ""
+    },
+    {
+     "t": "Verified",
+     "c": ""
+    }
+   ],
+   "date": "31 Oct 2026",
+   "src": "https://github.com/deepseek-ai/dsh-superagent-prototype"
+  },
+  {
+   "name": "Agent Skills joins the Agentic AI Foundation",
+   "by": "Anthropic &rarr; Linux Foundation (AAIF)",
+   "cat": "agentic",
+   "isNew": true,
+   "why": "NEW: Anthropic donated the SKILL.md standard, with its name, GitHub organisation and agentskills.io domain, to the Linux Foundation&rsquo;s Agentic AI Foundation, which already holds MCP. Anthropic says more than 70 agent platforms, including ChatGPT, Cursor, GitHub Copilot and VS Code, have integrated it (company-reported).",
+   "badges": [
+    {
+     "t": "Open standard",
+     "c": "hot"
+    },
+    {
+     "t": "Vendor-neutral",
+     "c": ""
+    },
+    {
+     "t": "Verified",
+     "c": ""
+    }
+   ],
+   "date": "22 Oct 2026",
+   "src": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation"
+  },
+  {
+   "name": "Agent Compute Engine &amp; Agent Substrate",
+   "by": "Google Cloud",
+   "cat": "agentic",
+   "isNew": true,
+   "why": "NEW: a compute service that suspends idle agents and resumes them with their state intact, already running Gemini&rsquo;s work agent and due in preview in the coming months. Its open-source Kubernetes counterpart, Agent Substrate, reached 1.0, went GA on GKE and was donated to the CNCF with gVisor and OpenRL on 5 November.",
+   "badges": [
+    {
+     "t": "Agent runtime",
+     "c": "hot"
+    },
+    {
+     "t": "Open source",
+     "c": ""
+    },
+    {
+     "t": "Verified",
+     "c": ""
+    }
+   ],
+   "date": "22 Oct &ndash; 5 Nov 2026",
+   "src": "https://cloud.google.com/blog/topics/ai-infrastructure/introducing-agent-compute-engine-and-expanded-agent-governance"
+  },
+  {
+   "name": "Daytona",
+   "by": "Daytona (FirstMark Growth)",
+   "cat": "agentic",
+   "isNew": true,
+   "why": "NEW raise: a cloud built for long-running agents that gives each agent its own sandboxed Linux, Windows, macOS or GPU machine. Anthropic, OpenAI, Nvidia and Cursor are among the customers it names.",
+   "badges": [
+    {
+     "t": "$60M Series B",
+     "c": "fund"
+    },
+    {
+     "t": "$1B valuation",
+     "c": "fund"
+    },
+    {
+     "t": "date conflict",
+     "c": ""
+    },
+    {
+     "t": "Verified",
+     "c": ""
+    }
+   ],
+   "date": "20&ndash;23 Oct 2026 (sources differ)",
+   "src": "https://techcrunch.com/2026/10/23/agent-cloud-startup-daytona-hits-1b-valuation-backed-by-firstmark-and-a-whos-who-of-angels/"
+  },
+  {
+   "name": "Copilot Automations &amp; Agentic Workflows",
+   "by": "GitHub",
+   "cat": "automation",
+   "isNew": true,
+   "why": "NEW at Universe: Copilot Automations can now review their own outcomes and propose changes to their prompts, tools or triggers, which a person approves before they apply; GitHub Agentic Workflows became generally available in Actions.",
+   "badges": [
+    {
+     "t": "Self-improving",
+     "c": "hot"
+    },
+    {
+     "t": "GA",
+     "c": ""
+    },
+    {
+     "t": "Verified",
+     "c": ""
+    }
+   ],
+   "date": "28 Oct 2026",
+   "src": "https://github.blog/changelog/2026-10-28-copilot-automations-now-learn-from-outcomes-and-self-improve/"
+  },
+  {
+   "name": "Kiro bots",
+   "by": "AWS (Kiro Crew)",
+   "cat": "automation",
+   "isNew": true,
+   "why": "NEW: named, long-running agents that each own one responsibility, such as build health. A bot launches and monitors parallel sessions, keeps its own notes and checks in only when a decision matters. Generally available in Kiro Crew and covered by existing Kiro plans.",
+   "badges": [
+    {
+     "t": "Proactive agents",
+     "c": "hot"
+    },
+    {
+     "t": "GA",
+     "c": ""
+    },
+    {
+     "t": "Verified",
+     "c": ""
+    }
+   ],
+   "date": "5 Nov 2026",
+   "src": "https://kiro.dev/blog/crew-bots"
+  },
+  {
+   "name": "Serval",
+   "by": "Serval (Sequoia)",
+   "cat": "automation",
+   "isNew": true,
+   "why": "NEW raise: an enterprise service-management platform where staff describe a workflow in plain language and agents write and run the automation. It is moving from IT into HR, finance and legal; this is its third round in 12 months.",
+   "badges": [
+    {
+     "t": "$150M Series C",
+     "c": "fund"
+    },
+    {
+     "t": "$3B valuation",
+     "c": "fund"
+    },
+    {
+     "t": "Verified",
+     "c": ""
+    }
+   ],
+   "date": "29 Oct 2026",
+   "src": "https://www.businesswire.com/news/home/20261029114967/en/Serval-Raises-%24150M-Series-C-at-%243B-Valuation-Led-by-Sequoia"
+  },
+  {
+   "name": "Pliant",
+   "by": "Pliant (Seaya Nova, Speedinvest)",
+   "cat": "automation",
+   "isNew": true,
+   "why": "NEW raise: a Berlin B2B payments platform opening card issuing and payment accounts to AI agents. Outside agents such as Claude and ChatGPT connect through MCP, with permissions and audit trails built in.",
+   "badges": [
+    {
+     "t": "$80M Series C",
+     "c": "fund"
+    },
+    {
+     "t": "Agent payments",
+     "c": ""
+    },
+    {
+     "t": "Verified",
+     "c": ""
+    }
+   ],
+   "date": "4 Nov 2026",
+   "src": "https://www.getpliant.com/en/press/80-million-series-c"
+  }
+ ],
+ "carryover_updates": [
+  {
+   "name": "Cursor Origin",
+   "by": "Cursor",
+   "cat": "coding",
+   "isNew": false,
+   "why": "UPDATED: the Origin App Marketplace opened with more than 20 apps for deployment, CI, code review, security, monitoring and project management (partners include Cloudflare, Linear, Sentry and Socket Security), and it now accepts public submissions.",
+   "badges": [
+    {
+     "t": "Marketplace",
+     "c": ""
+    },
+    {
+     "t": "20+ apps",
+     "c": ""
+    },
+    {
+     "t": "Verified",
+     "c": ""
+    }
+   ],
+   "date": "Aug 2026 &middot; updated 13 Oct",
+   "src": "https://cursor.com/changelog/origin-app-marketplace"
+  },
+  {
+   "name": "Codex Cloud &amp; Codex Security Cloud",
+   "by": "OpenAI",
+   "cat": "coding",
+   "isNew": false,
+   "why": "UPDATED: GPT-5.5 retired from Codex for ChatGPT sign-ins on 14 October, with GPT-6.1 Sol as the replacement; Codex CLI releases into early November added an agent command center for tracking parallel sessions.",
+   "badges": [
+    {
+     "t": "Model switch",
+     "c": ""
+    },
+    {
+     "t": "CLI updates",
+     "c": ""
+    },
+    {
+     "t": "Verified",
+     "c": ""
+    }
+   ],
+   "date": "29 Sep 2026 &middot; updated 14 Oct &ndash; 6 Nov",
+   "src": "https://help.openai.com/en/articles/11428266-codex-changelog"
+  },
+  {
+   "name": "Google Antigravity",
+   "by": "Google",
+   "cat": "coding",
+   "isNew": false,
+   "why": "UPDATED: the agentic IDE added Gemini 4 Argon (15 October), partner plugins from Figma, Linear, Notion and Stripe in its marketplace (29 October), and remote agents, voice mode and redesigned automations (3 November).",
+   "badges": [
+    {
+     "t": "Remote agents",
+     "c": ""
+    },
+    {
+     "t": "Plugins",
+     "c": ""
+    },
+    {
+     "t": "Verified",
+     "c": ""
+    }
+   ],
+   "date": "Updated 3 Nov 2026",
+   "src": "https://antigravity.google/changelog"
+  },
+  {
+   "name": "Nous Research (Hermes Agent)",
+   "by": "Nous Research (Robot Ventures)",
+   "cat": "agentic",
+   "isNew": false,
+   "why": "UPDATED: the round is now confirmed by the company: $90M Series B at a $1.5B valuation led by Robot Ventures, with Nvidia among backers. It is launching Hermes for Businesses for private enterprise agent deployments.",
+   "badges": [
+    {
+     "t": "$90M Series B",
+     "c": "fund"
+    },
+    {
+     "t": "$1.5B valuation",
+     "c": "fund"
+    },
+    {
+     "t": "Verified",
+     "c": ""
+    }
+   ],
+   "date": "7 Oct 2026",
+   "src": "https://techcrunch.com/2026/10/07/nous-research-confirms-it-hit-1-5b-valuation-launches-ai-agents-for-business-users"
+  },
+  {
+   "name": "UiPath agents",
+   "by": "UiPath",
+   "cat": "automation",
+   "isNew": false,
+   "why": "UPDATED: October releases added runtime evaluations for deployed agents (preview, 20 October) and agent review by Autopilot, replacing the old agent score (preview, 8 October).",
+   "badges": [
+    {
+     "t": "Agent evals",
+     "c": ""
+    },
+    {
+     "t": "Preview",
+     "c": ""
+    },
+    {
+     "t": "Verified",
+     "c": ""
+    }
+   ],
+   "date": "Sep 2026 &middot; updated 8&ndash;20 Oct",
+   "src": "https://docs.uipath.com/agents/automation-cloud/latest/release-notes/october-2026"
+  }
+ ],
+ "retire": [
+  {
+   "name": "Agentforce long-horizon runtime",
+   "reason": "Dreamforce (15-17 Sep) predates the window; no new development found."
+  },
+  {
+   "name": "Temporal",
+   "reason": "Round logged in the 9 Oct refresh (14 Sep); no new development."
+  },
+  {
+   "name": "AIR",
+   "reason": "1 Sep round; predates the window."
+  },
+  {
+   "name": "OpenAI Agent Plugins",
+   "reason": "No new development since 29 Sep."
+  },
+  {
+   "name": "Muse Code",
+   "reason": "No new development found since August beta."
+  },
+  {
+   "name": "Cloudflare Wallets &amp; cloudflare.pay",
+   "reason": "August launch; no new development."
+  },
+  {
+   "name": "Cloudflare Kitesurf",
+   "reason": "No new development since 28 Sep; open-sourcing still only promised."
+  }
+ ],
+ "notes": [
+  "Carried over unchanged (no new development found, still inside the eight-week window): Gemini agent (8 Oct; the Agent Compute Engine card covers the infrastructure behind it), OpenAI Agents API (29 Sep) and Microsoft Copilot Autopilot (25 Sep, private preview). Ruflo and Graphify star counts are for the parent's GitHub API refresh.",
+  "Date conflict: Daytona's round is dated Tuesday 20 Oct by Fortune and Friday 23 Oct by TechCrunch; shown as a range. Traversal's release is 3 Nov (Business Wire); some press dates it 4 Nov.",
+  "Vendor- or company-reported figures, not independently checked: Copilot Fusion Max benchmark claim; Greptile's 1% of GitHub PRs; Anthropic's 70+ platforms (and about 1 million skills published); Traversal's ORCA-bench 25.3%; Daytona's customer list.",
+  "Claude Security's source is Anthropic's product-announcements listing (21 Oct entry); the article's own URL was not seen.",
+  "Left out: Manus ($500M+, 8 Oct), Rein Security ($25M Series A, 8 Oct) and Vesta ($30M, 8 Oct) predate the window; Claude Managed Agents dynamic workflows went to beta on 9 Oct, one day before it. Legora ($550M Series E, legal AI) and Fal ($1.3B, inference) are not agent tooling. Cursor's cloud-agent canvases (16 Oct) were seen only on third-party changelog trackers.",
+  "Name collision: UiPath's Autopilot (its in-product assistant) is unrelated to Microsoft's Copilot Autopilot.",
+  "For the foundation/star groups: DeepSeek open-sourced DeepInfer, its production inference engine for DeepSeek-V4.1-Flash, on 20 Oct (repo created 16 Oct; github.com/deepseek-ai/DeepInfer). It is infrastructure for models, so it is not on this board."
+ ]
+}
