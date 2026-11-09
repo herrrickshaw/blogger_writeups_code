@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/11/a-record-maize-crop-will-not-make-india.html",
   "slug": "a-record-maize-crop-will-not-make-india",
   "published": "2026-11-07T05:55:57.000+05:30",
-  "updated": "2026-11-07T05:56:44.316+05:30",
+  "updated": "2026-11-09T10:56:56.810+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Chemicals",
     "Import Substitution"
   ],
-  "bytes": 31183,
-  "sha256": "339670d6d0ce36e7ca5eba44fb7288398a1542091a25900ae431fec5aec797aa",
+  "bytes": 32460,
+  "sha256": "bc081a415fb53103bb7b4672470f886d71e3eb7dd40067f2253cea07443351c4",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -31,6 +31,19 @@
       "level": "initial",
       "reason": "first snapshot",
       "note": "maize cosmetics post"
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-11-09T10:15:58+00:00",
+      "level": "major",
+      "reason": "figures changed (+7/-0 distinct numbers)",
+      "bytes": [
+        31183,
+        32460
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
     }
   ]
 }

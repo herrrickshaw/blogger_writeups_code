@@ -17512,3 +17512,26 @@ scheduled sync
 - `the-centres-old-age-pension-has-been` — 2026-11-08 &rarr; 2026-11-08
 - `14500-crore-for-92-gwh-indias-storage` — 2026-11-08 &rarr; 2026-11-08
 - `idbi-banks-rescuers-put-in-54000-crore` — 2026-11-08 &rarr; 2026-11-08
+
+## 2026-11-09T10:15:58+00:00 — 505 posts live
+
+scheduled sync
+
+
+**Versions**
+
+- `14500-crore-for-92-gwh-indias-storage` **1.0.0 → 2.0.0** (MAJOR) — figures changed (+1/-0 distinct numbers)
+- `from-kerosene-in-diesel-to-ethanol-in` **1.0.0 → 2.0.0** (MAJOR) — figures changed (+1/-0 distinct numbers)
+- `a-record-maize-crop-will-not-make-india` **1.0.0 → 2.0.0** (MAJOR) — figures changed (+7/-0 distinct numbers)
+- `oil-gas-projects-under-evaluation-and` **1.0.1 → 2.0.0** (MAJOR) — figures changed (+1/-0 distinct numbers)
+- `one-nation-one-gst-rate-what-true-flat` **2.0.0 → 3.0.0** (MAJOR) — figures changed (+6/-0 distinct numbers)
+- `indias-battery-storage-boom-is` **2.0.0 → 3.0.0** (MAJOR) — figures changed (+2/-0 distinct numbers)
+
+**Changed**
+
+- `14500-crore-for-92-gwh-indias-storage` — 26,833 → 27,717 bytes (+884)
+- `from-kerosene-in-diesel-to-ethanol-in` — 42,364 → 43,689 bytes (+1,325)
+- `a-record-maize-crop-will-not-make-india` — 31,183 → 32,460 bytes (+1,277)
+- `oil-gas-projects-under-evaluation-and` — 17,126 → 18,231 bytes (+1,105)
+- `one-nation-one-gst-rate-what-true-flat` — 29,325 → 30,467 bytes (+1,142)
+- `indias-battery-storage-boom-is` — 50,972 → 51,679 bytes (+707)

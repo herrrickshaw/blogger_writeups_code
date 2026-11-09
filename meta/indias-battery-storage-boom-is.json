@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/indias-battery-storage-boom-is.html",
   "slug": "indias-battery-storage-boom-is",
   "published": "2026-09-11T21:19:57.000+05:30",
-  "updated": "2026-11-08T07:37:19.992+05:30",
+  "updated": "2026-11-09T10:56:18.863+05:30",
   "labels": [
     "Energy & Fuels",
     "Industrial Policy",
     "Renewable Power & Storage"
   ],
-  "bytes": 50972,
-  "sha256": "deb6370fada5e101fb5a8ce4aee0db812d87da3712867562f1e33cf70ca10f7b",
+  "bytes": 51679,
+  "sha256": "45a64e118e7f0bfd6511854487560c302c2268e15a0d9a8d9c62bcefc0aa0e62",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": true,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.0",
+  "version": "3.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -114,6 +114,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "IDBI, storage VGF, NSAP posts; BESS date fix"
+    },
+    {
+      "version": "3.0.0",
+      "date": "2026-11-09T10:15:58+00:00",
+      "level": "major",
+      "reason": "figures changed (+2/-0 distinct numbers)",
+      "bytes": [
+        50972,
+        51679
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
     }
   ]
 }

@@ -4,15 +4,15 @@
   "url": "https://masaladeutsch.blogspot.com/2026/11/from-kerosene-in-diesel-to-ethanol-in.html",
   "slug": "from-kerosene-in-diesel-to-ethanol-in",
   "published": "2026-11-07T17:36:16.000+05:30",
-  "updated": "2026-11-07T17:37:02.279+05:30",
+  "updated": "2026-11-09T10:56:47.659+05:30",
   "labels": [
     "Energy & Fuels",
     "Ethanol & Biofuels",
     "Fuel Retail & Pricing",
     "Governance & Institutions"
   ],
-  "bytes": 42364,
-  "sha256": "2ea24cb9418886713540fd77208ab2436f5ae0d48f436f69be4d011216cdd81e",
+  "bytes": 43689,
+  "sha256": "19474e6099b5f66c982d33e1733bfcadc1b03e9a103fd2c0b125bd322fd97fb2",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -32,6 +32,19 @@
       "level": "initial",
       "reason": "first snapshot",
       "note": "fuel theft history post"
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-11-09T10:15:58+00:00",
+      "level": "major",
+      "reason": "figures changed (+1/-0 distinct numbers)",
+      "bytes": [
+        42364,
+        43689
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
     }
   ]
 }

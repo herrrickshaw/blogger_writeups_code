@@ -4,15 +4,15 @@
   "url": "https://masaladeutsch.blogspot.com/2026/11/14500-crore-for-92-gwh-indias-storage.html",
   "slug": "14500-crore-for-92-gwh-indias-storage",
   "published": "2026-11-08T07:36:59.000+05:30",
-  "updated": "2026-11-08T07:38:04.618+05:30",
+  "updated": "2026-11-09T10:56:28.103+05:30",
   "labels": [
     "Climate & Carbon",
     "Energy & Fuels",
     "Import Substitution",
     "Industrial Policy"
   ],
-  "bytes": 26833,
-  "sha256": "62c561fe6bb299095dfa7458834deeacf78d805d422692749b65459e91a2ab34",
+  "bytes": 27717,
+  "sha256": "f2691e6c9bfde456a631e857be96817793b43fb73b8c685df3e66d4354548872",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -32,6 +32,19 @@
       "level": "initial",
       "reason": "first snapshot",
       "note": "IDBI, storage VGF, NSAP posts; BESS date fix"
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-11-09T10:15:58+00:00",
+      "level": "major",
+      "reason": "figures changed (+1/-0 distinct numbers)",
+      "bytes": [
+        26833,
+        27717
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
     }
   ]
 }
