@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-11-09T17:52:17+05:30",
+  "snapshot": "2026-11-09T18:16:59+05:30",
   "count": 506,
   "posts": {
     "1008146607143508554": {
@@ -23054,9 +23054,11 @@
       "title": "AI Tools Edition 04: DeepSeek Put Its Agent and Its Inference Engine on GitHub. They Drew 47,000 Stars in Under Four Weeks",
       "url": "https://masaladeutsch.blogspot.com/2026/11/ai-tools-edition-04-deepseek-put-its.html",
       "slug": "ai-tools-edition-04-deepseek-put-its",
-      "published": "2026-11-09T17:51:38.475+05:30",
-      "updated": "2026-11-09T17:51:38.475+05:30",
-      "labels": [],
+      "published": "2026-11-09T17:51:38.000+05:30",
+      "updated": "2026-11-09T18:16:19.315+05:30",
+      "labels": [
+        "AI Tracker"
+      ],
       "bytes": 64462,
       "sha256": "30662d73529bcdd9a333a539a130b9351499741163e6c6e2468115be380992ba",
       "markers": {
@@ -70090,13 +70092,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/ipa-digital-twin-reportage-latest.html",
       "slug": "ipa-digital-twin-reportage-latest",
       "published": "2026-08-02T09:54:34.000+05:30",
-      "updated": "2026-11-09T17:28:00.909+05:30",
+      "updated": "2026-11-09T18:16:10.352+05:30",
       "labels": [
         "Industrial Policy",
         "Parliamentary Scheme Tracking"
       ],
-      "bytes": 63085,
-      "sha256": "5a20e8ca61829b75fb95543d2ef7009f0efd03c87f75a2652130080ff9d4f194",
+      "bytes": 102018,
+      "sha256": "d7b67a0f963e156d7c496e9e37187f297efada9e3cf362561923eed27e153cac",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -70108,7 +70110,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "3.0.0",
+      "version": "4.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -70216,6 +70218,19 @@
           "bytes": [
             291452,
             63085
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
+        },
+        {
+          "version": "4.0.0",
+          "date": "2026-11-09T18:16:59+05:30",
+          "level": "major",
+          "reason": "figures changed (+31/-0 distinct numbers)",
+          "bytes": [
+            63085,
+            102018
           ],
           "url_changed": null,
           "markers_changed": null,

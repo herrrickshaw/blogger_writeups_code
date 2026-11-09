@@ -17603,3 +17603,17 @@ scheduled sync
 **Added**
 
 - `ai-tools-edition-04-deepseek-put-its` **v1.0.0** — AI Tools Edition 04: DeepSeek Put Its Agent and Its Inference Engine on GitHub. They Drew 47,000 Stars in Under Four Weeks (64,462 bytes)
+
+## 2026-11-09T18:16:59+05:30 — 506 posts live
+
+**Versions**
+
+- `ipa-digital-twin-reportage-latest` **3.0.0 → 4.0.0** (MAJOR) — figures changed (+31/-0 distinct numbers)
+
+**Changed**
+
+- `ipa-digital-twin-reportage-latest` — 63,085 → 102,018 bytes (+38,933)
+
+**Re-dated** (publication date changed; body and URL unchanged)
+
+- `ai-tools-edition-04-deepseek-put-its` — 2026-11-09 &rarr; 2026-11-09
