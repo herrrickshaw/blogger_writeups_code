@@ -58,3 +58,7 @@ offshore mineral bids 28 Dec.
 - ipa-digital-twin-reportage-latest: window 15 Sep-9 Nov (101 central, 35 schemes, 13 Cabinet). The stale state wire
   (to 26 Aug) was removed with a note. Retitle to "(15 Sep – 9 Nov 2026)".
 - Still open: the state wire needs collect_state_news.py run on the Mac, since the state portals are not allowed in the cloud environment.
+- ipa-digital-twin-reportage-latest: state wire restored (89 items, 12 states, 15 Sep-9 Nov) from
+  digital-twin-for-ipa docs/state_wire_2026-09-15_2026-11-09.csv (commit 46f96f5), using build_reportage's signal filter.
+  Punjab, Kerala, Assam and West Bengal failed on the Mac (scrapling module missing), and the MP Hindi titles were not
+  translated. To widen it: pip install scrapling, enable translation, re-run collect_state_news.py --days 56.
