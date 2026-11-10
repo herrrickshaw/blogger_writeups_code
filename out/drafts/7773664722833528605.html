@@ -1,0 +1,283 @@
+<div class="artx htuindiam">
+<style>
+/* ---- typography (gs-typo-unify-v1): keep in sync across all posts ---- */
+.htuindiam{font-family:Georgia,'Times New Roman',serif;line-height:1.6;color:#111}
+.htuindiam h1,.htuindiam h2,.htuindiam h3{line-height:1.3}
+
+/* ---- palette: define every colour as a custom property here. Do not add
+       raw hex elsewhere in a post's <style> block — reference these vars, so
+       a future palette change is a 4-line edit instead of a find-and-replace
+       across every post. ----
+   --ink     #111    body text, light-locked (see below)
+   --accent  #8a4b08  eyebrow text, h2 rule, table header bg, stat numbers —
+                       the one colour that carries this post's "brand"
+   --rule    #e8dcc4  hairline borders, h2 underline, table cell borders
+   --panel   #fdf7ec  stat-card bg, even table rows — the palette's one tint
+*/
+.htuindiam{--ink:#111;--accent:#8a4b08;--rule:#e8dcc4;--panel:#fdf7ec;--good:#1a7a4c;--good-soft:#eaf6ef;--bad:#a5402c;--bad-soft:#fff4f0}
+
+/* ---- mono-label convention (added 2026-09-17, borrowed from the
+       india-trade-sector-policy-recommendations design system): the eyebrow
+       kicker and the source line read as data-journalism metadata, not
+       article prose, so they get a monospace face — a system stack, not a
+       hosted webfont, so no post gains an extra network request or a
+       flash-of-unstyled-text risk. Body text (h1/p/li/table) keeps the
+       serif — this is a two-place accent, not a font-pairing overhaul. ---- */
+.htuindiam{--mono:ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace}
+
+/* ---- light lock (gs-light-lock): a dark Blogger theme (and a browser/OS
+       set to prefers-color-scheme:dark) must not repaint text. Re-assert
+       the same values with !important — verified 2026-08-14 across 5 live
+       posts with the browser's colour scheme forced to dark: body/h1/p/table
+       all stayed light-background/dark-text with no low-contrast pairs.
+       Do NOT add selectors here for panels that are meant to be dark —
+       those go in the guard below. ---- */
+.htuindiam,.htuindiam p,.htuindiam li,.htuindiam td,.htuindiam th{color:var(--ink)!important}
+.htuindiam{background:#fff!important}
+
+/* ---- structure: title + subtitle ----
+   .eyebrow    = the small-caps kicker ABOVE the h1 — "Section · Topic ·
+                 Subtopic", sets context before the reader hits the claim
+   h1          = the headline itself. Write it as the CLAIM, not the topic
+                 ("The Rouble Is the Outlier, Not the Dollar" beats
+                 "Currency Trends Update"). font-size 1.5rem is the deliberate
+                 site-wide size — do not bump it per-post.
+   .standfirst = the one/two-sentence SUBTITLE directly under the h1. This is
+                 also what Blogger's snippet extractor and the JSON-LD meta
+                 description both read (see the gs-head-order block below) —
+                 write it as a real, complete sentence a reader could act on,
+                 not a fragment.
+*/
+.htuindiam .eyebrow{font-size:.8rem;font-weight:700;letter-spacing:.04em;color:var(--accent);text-transform:uppercase;margin:0 0 6px;font-family:var(--mono)}
+.htuindiam h1{margin:0 0 10px;font-size:1.5rem}
+.htuindiam .standfirst{font-size:1.05rem;color:#333!important;margin:0 0 18px}
+.htuindiam .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px;margin:18px 0}
+.htuindiam .stat{background:var(--panel);border:1px solid var(--rule);border-radius:10px;padding:12px 14px}
+.htuindiam .stat b{display:block;font-size:1.2rem;color:var(--accent)}
+.htuindiam .stat span{font-size:.8rem}
+.htuindiam h2{color:var(--accent);border-bottom:2px solid var(--rule);padding-bottom:6px;margin-top:30px;font-size:1.15rem}
+
+/* ---- tables: units live in the header, cells carry bare numbers.
+       .tw is the mobile-overflow fix — see the MOBILE comment above. ---- */
+.htuindiam .tw{overflow-x:auto}
+.htuindiam table{width:100%;border-collapse:collapse;margin:14px 0;font-size:.88rem}
+.htuindiam th,.htuindiam td{border:1px solid var(--rule);padding:7px 9px;text-align:right;word-wrap:break-word;overflow-wrap:break-word}
+.htuindiam th:first-child,.htuindiam td:first-child{text-align:left}
+.htuindiam th{background:var(--accent);color:#fff!important;font-weight:600}
+.htuindiam tr:nth-child(even){background:var(--panel)}
+
+.htuindiam .note{background:#eef4ff;border-left:4px solid #2a78d6;padding:12px 16px;margin:18px 0;border-radius:0 8px 8px 0;font-size:.93rem}
+.htuindiam .warn{background:var(--bad-soft);border-left:4px solid var(--bad);padding:12px 16px;margin:18px 0;border-radius:0 8px 8px 0;font-size:.93rem}
+/* ---- .good (added 2026-09-17): third semantic tier alongside .note (neutral
+       framing) and .warn (a caveat/scope limit) — for the case a caveat block
+       would otherwise get stretched to cover: confirming a figure checked out,
+       a correction that resolved cleanly, a claim that survived cross-check.
+       Same shape as .note/.warn on purpose, so all three read as one family. */
+.htuindiam .good{background:var(--good-soft);border-left:4px solid var(--good);padding:12px 16px;margin:18px 0;border-radius:0 8px 8px 0;font-size:.93rem}
+/* ---- .chip (added 2026-09-17): formalises a labelling pattern several posts
+       already built ad hoc in JS (e.g. "PLI coverage: strong/partial/gap")
+       into one reusable inline component, so a new post doesn't reinvent it.
+       Use inline: <span class="chip chip-good">Strong</span>. ---- */
+.htuindiam .chip{display:inline-block;font-family:var(--mono);font-size:.72rem;font-weight:700;letter-spacing:.02em;padding:.15rem .5rem;border-radius:99px;line-height:1.5}
+.htuindiam .chip-good{background:var(--good-soft);color:var(--good)}
+.htuindiam .chip-warn{background:var(--panel);color:var(--accent)}
+.htuindiam .chip-bad{background:var(--bad-soft);color:var(--bad)}
+.htuindiam .src{font-size:.84rem;font-family:var(--mono);border-top:1px solid var(--rule);padding-top:12px;margin-top:24px}
+.htuindiam .disclaimer{font-size:.82rem;color:#555;margin-top:10px}
+.htuindiam .revised{font-size:.8rem;color:#555!important;margin:0 0 14px}
+.htuindiam .revised code{font-family:inherit;background:var(--panel);padding:1px 5px;border-radius:4px}
+</style>
+
+
+<div class="gs-head-order" style="display:flex;flex-direction:column">
+<p class="standfirst" style="order:4">Agmarknet mandi arrivals and prices (2019 to Oct 2026) and UPAG area, production, yield, MSP, procurement, WPI and trade, as small gzipped CSVs with stdlib-only collectors and one script that rebuilds 14 insight tables. This post loads the data, rebuilds the reports and shows what the joins reveal.</p>
+<div class="topnav-index-link" style="order:1;font-size:.82em;margin:6px 0 14px"><a href="https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html" style="color:#0b5394;text-decoration:none">&#8592; All Articles (Index)</a></div>
+<p class="eyebrow" style="order:2">Open-Source Tools · How-To · Agri &amp; trade trackers</p>
+<h1 style="order:3">How to use india-mandi-arrivals: India&#x27;s mandi arrivals and prices joined with crop output, MSP and trade</h1>
+</div>
+
+
+<a href="#" id="gs-skip-link" class="gs-skip-link" style="position:absolute;left:-9999px;top:auto;background:#1a1a1a;color:#fff;padding:.6rem 1rem;z-index:1000;border-radius:4px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.85rem">Skip to article content</a>
+<style>.gs-skip-link:focus{left:8px!important;top:8px!important}
+.gs-a11y-bar{display:flex;align-items:center;gap:.55rem;flex-wrap:wrap;background:#f4f5f7;border:1px solid #dfe3e8;border-radius:8px;padding:.55rem .8rem;margin:10px 0 16px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
+.gs-a11y-bar .gs-a11y-label{font-size:.68rem;font-weight:700;letter-spacing:.08em;color:#666;text-transform:uppercase;margin-right:.15rem}
+.gs-a11y-bar button{cursor:pointer;border:1px solid #c7cbd1;background:#fff;color:#1a1a1a;border-radius:5px;padding:.32rem .65rem;font-family:inherit;line-height:1}
+.gs-a11y-bar button.gs-a11y-fs{font-weight:700;min-width:2rem;text-align:center}
+.gs-a11y-bar button.gs-a11y-fs[data-size="sm"]{font-size:.8rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="md"]{font-size:1rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="lg"]{font-size:1.2rem}
+.gs-a11y-bar button.gs-a11y-fs[aria-pressed="true"]{background:#1a1a1a;color:#fff;border-color:#1a1a1a}
+.gs-a11y-bar button:hover{border-color:#8a4b08}
+.gs-a11y-bar button:focus-visible{outline:2px solid #8a4b08;outline-offset:1px}
+.gs-a11y-bar .gs-a11y-sep{width:1px;align-self:stretch;background:#dfe3e8;margin:0 .1rem}</style>
+<div class="gs-a11y-bar" role="group" aria-label="Accessibility controls">
+<span class="gs-a11y-label">Text Size</span>
+<button type="button" class="gs-a11y-fs" data-size="sm" aria-pressed="false" aria-label="Small text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="md" aria-pressed="true" aria-label="Medium text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="lg" aria-pressed="false" aria-label="Large text">A</button>
+<span class="gs-a11y-sep"></span>
+<button type="button" id="gs-a11y-listen" aria-label="Read this article aloud">&#128266; Listen</button>
+<button type="button" id="gs-a11y-stop" aria-label="Stop reading aloud">&#9632; Stop</button>
+</div>
+<script>(function(){
+var KEY='gs-a11y-fontsize', SIZES={sm:'0.92',md:'1',lg:'1.15'};
+function pb(){return document.querySelector('.post-body')||document.querySelector('.artx,.mdrx');}
+function apply(sz){
+  var el=pb(); if(!el||!SIZES[sz]) return;
+  el.style.fontSize=SIZES[sz]+'em';
+  var btns=document.querySelectorAll('.gs-a11y-fs');
+  for(var i=0;i<btns.length;i++){
+    var on=btns[i].getAttribute('data-size')===sz;
+    btns[i].setAttribute('aria-pressed', on?'true':'false');
+  }
+  try{localStorage.setItem(KEY,sz);}catch(e){}
+}
+var fsBtns=document.querySelectorAll('.gs-a11y-fs');
+for(var j=0;j<fsBtns.length;j++){
+  fsBtns[j].addEventListener('click',(function(b){return function(){apply(b.getAttribute('data-size'));};})(fsBtns[j]));
+}
+var saved; try{saved=localStorage.getItem(KEY);}catch(e){}
+apply(saved&&SIZES[saved]?saved:'md');
+
+var listenBtn=document.getElementById('gs-a11y-listen'), stopBtn=document.getElementById('gs-a11y-stop');
+if(listenBtn){
+  listenBtn.addEventListener('click', function(){
+    if(!('speechSynthesis' in window)){ alert('Text-to-speech is not supported in this browser.'); return; }
+    window.speechSynthesis.cancel();
+    var src=pb(); if(!src) return;
+    var clone=src.cloneNode(true);
+    var strip=clone.querySelectorAll('script,style,svg');
+    for(var k=0;k<strip.length;k++){ strip[k].parentNode.removeChild(strip[k]); }
+    var text=clone.textContent.replace(/\s+/g,' ').trim();
+    if(!text) return;
+    var chunks=text.match(/[\s\S]{1,180}(?:[.!?]|$)/g)||[text];
+    var idx=0;
+    function speakNext(){
+      if(idx>=chunks.length) return;
+      var u=new SpeechSynthesisUtterance(chunks[idx]);
+      u.onend=function(){ idx++; speakNext(); };
+      window.speechSynthesis.speak(u);
+    }
+    speakNext();
+  });
+}
+if(stopBtn){
+  stopBtn.addEventListener('click', function(){
+    if('speechSynthesis' in window) window.speechSynthesis.cancel();
+  });
+}
+var skip=document.getElementById('gs-skip-link');
+if(skip){
+  skip.addEventListener('click', function(ev){
+    ev.preventDefault();
+    var h=document.querySelector('.post-body h1')||document.querySelector('.artx h1,.mdrx h1,h1');
+    if(h){ h.setAttribute('tabindex','-1'); h.focus(); h.scrollIntoView(); }
+  });
+}
+})();</script>
+<style>.goog-te-menu-frame{max-width:340px!important;max-height:70vh!important;overflow:auto!important;box-shadow:0 6px 24px rgba(0,0,0,.25)!important}</style>
+<div id="google_translate_element" style="margin:8px 0 16px;"></div><script type="text/javascript">function googleTranslateElementInit(){new google.translate.TranslateElement({pageLanguage:"en",includedLanguages:"hi,bn,ta,te,mr,gu,kn,ml,pa,or,as,ur,sa,ne,sd",layout:google.translate.TranslateElement.InlineLayout.SIMPLE,autoDisplay:false},"google_translate_element");}</script><script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+
+<p class="revised" data-gs-revision-v1="1">Revised
+<time datetime="2026-10-30" itemprop="dateModified">30 October 2026</time>
+&middot; <code>v1.0.0</code> &middot; <a href="#changelog">what changed</a></p>
+
+<style>.htuindiam pre{background:#f6f3ea!important;color:#111!important;border:1px solid var(--rule);border-radius:8px;padding:10px 12px;overflow-x:auto;font-size:.82rem;line-height:1.45}.htuindiam pre code{background:none!important;color:#111!important;font-family:var(--mono)}.htuindiam code{font-family:var(--mono);font-size:.88em}.htuindiam .vid{position:relative;padding-bottom:56.25%;height:0;margin:16px 0;max-width:100%}.htuindiam .vid iframe{position:absolute;inset:0;width:100%;height:100%;border:0}</style><div class="stats"><div class="stat"><b>203,798</b><span>state x commodity x month rows of prices and arrivals, Jan 2019 to Oct 2026</span></div><div class="stat"><b>455</b><span>commodities across 32 states in the monthly file</span></div><div class="stat"><b>14</b><span>insight tables rebuilt in 16 s, byte-identical to the committed ones</span></div><div class="stat"><b>40.3%</b><span>of Madhya Pradesh&#x27;s 2025-26 wheat output passed through mandis</span></div></div>
+<p>Code: <a href="https://github.com/herrrickshaw/india-mandi-arrivals">github.com/herrrickshaw/india-mandi-arrivals</a></p>
+<h2>Why it is useful</h2>
+<ul><li>Agricultural economists, commodity analysts and journalists get Agmarknet and UPAG as ready CSVs: no portal clicking, no login, no reverse-engineering of UPAG&#x27;s Dash callbacks (the collectors already do that and are documented in docs/).</li><li>It replaces the hour-long portal pull and the messy join: crosswalks map Agmarknet commodity and state names to UPAG&#x27;s, including the paddy x 0.67 to milled-rice conversion, and build_insights.py produces arrivals-as-share-of-production, mandi-vs-MSP, volatility and top-mandi tables in one run.</li><li>The joined view answers what neither portal does alone: how much of a state&#x27;s crop reaches regulated markets, how often mandi prices sit below MSP, and which mandis dominate each crop.</li><li>Evidence from the run: pip install plus python analysis/build_insights.py regenerated all 14 report files in 16 seconds and git status stayed clean, so the committed tables are reproducible. Example finding: Madhya Pradesh wheat moved from 6.4% below MSP in May 2026 to 2.9% above in October 2026.</li></ul>
+<h2>What it is for</h2>
+<p>The repo is a point-in-time open-data extract plus the code to rebuild it. data/agmarknet/ holds state-monthly prices and arrivals, a market-level daily sample (23 field crops, every sixth day since Nov 2025) and the master lists; data/upag/ holds APY by state and district, MSP, WPI, FCI procurement, DGCIS trade and the crop calendar. analysis/ turns them into reports/ (CSV and INSIGHTS.md), and collectors/ refresh the data from the two portals using only the Python standard library, with a cache so interrupted runs resume.</p>
+<p>Use it to read the committed tables straight away, to rebuild them after editing the analysis, or to refresh the data yourself. Data is Government of India open data re-published under GODL-India; code is MIT.</p>
+<p><b>Who it is for</b></p>
+<ul><li>Agri-economists and policy analysts comparing mandi prices with MSP or market arrivals with production</li><li>Commodity and food-sector analysts who need a quick, citable view of seasonality and volatility by crop and state</li><li>Data journalists and students who want clean government agri data without building a scraper</li></ul>
+<div class="warn"><b>Not for.</b><ul><li>Trading or hedging decisions. Prices mix varieties and grades and arrivals are what markets choose to report. This is not investment advice</li><li>Official statistics: the files are an unofficial extract; check figures against agmarknet.gov.in and upag.gov.in before relying on them</li><li>Lot-level trades, district cumulative arrivals or anything behind a login or captcha: these are out of scope</li></ul></div>
+<h2>What you need</h2>
+<div class="tw"><table><tr><th>Requirement</th><th>Why</th><th>How to get it</th></tr><tr><td>Python 3.9+ with pandas, numpy and openpyxl</td><td>The analysis scripts and workbooks need them; the collectors need only the standard library</td><td>pip install -r requirements.txt (run here on Python 3.15.1)</td></tr><tr><td>git and about 29 MB of disk</td><td>The data is committed as gzipped CSV, no Git LFS</td><td>git-scm.com</td></tr><tr><td>Internet access to agmarknet.gov.in and upag.gov.in (only to refresh)</td><td>The collectors call the portals; Agmarknet returns HTTP 429 if hurried, so the client throttles to one request per 1.5 s</td><td>Not needed to read the committed data. Not run in this post</td></tr></table></div>
+<h2>Get the code and an AI assistant</h2>
+<p>You do not have to be a programmer. Get the repository, give it to an AI assistant, and ask in plain language. Any of these routes works:</p>
+<div class="tw"><table><tr><th>Tool</th><th>What you need</th><th>Best for</th></tr><tr><td><b>GitHub</b></td><td>Free account to fork or star; <code>git</code> to clone, or the green <b>Code</b> button, then <b>Download ZIP</b>, or open in <b>Codespaces</b></td><td>Getting the code and keeping up with updates</td></tr><tr><td><b>Claude Code</b></td><td>Claude subscription or API key; run <code>claude</code> inside the cloned folder</td><td>Letting the AI read and run the whole repo</td></tr><tr><td><b>Gemini CLI</b></td><td>Google account; run <code>gemini</code> inside the cloned folder</td><td>The same hands-on workflow with Gemini</td></tr><tr><td><b>Claude.ai, Gemini or ChatGPT in the browser</b></td><td>A chat account; upload <code>README.md</code> and the files you care about (or paste the output of <code>git ls-files</code>)</td><td>Understanding the project and asking questions without installing anything</td></tr><tr><td><b>Other tools</b> (Copilot Chat, Cursor, Codex CLI)</td><td>Open the cloned folder in the tool and point it at <code>README.md</code> first</td><td>Editing and extending the code</td></tr></table></div>
+<pre><code>git clone https://github.com/herrrickshaw/india-mandi-arrivals.git
+cd india-mandi-arrivals
+claude      # or: gemini</code></pre>
+<h2>Install</h2><ol><li>Clone the repository<pre><code>git clone https://github.com/herrrickshaw/india-mandi-arrivals.git
+cd india-mandi-arrivals</code></pre></li><li>Create a virtual environment and install the analysis dependencies<pre><code>python3 -m venv .venv &amp;&amp; source .venv/bin/activate
+pip install -r requirements.txt</code></pre></li></ol>
+<h2>Quick start: commands and what you should see</h2>
+<p><b>Check the main files load and how big they are</b></p>
+<pre><code>python3 -c &quot;import pandas as pd
+for f in [&#x27;data/agmarknet/state_monthly.csv.gz&#x27;,&#x27;data/agmarknet/market_daily_sample.csv.gz&#x27;,&#x27;data/upag/apy_state.csv.gz&#x27;,&#x27;data/upag/msp.csv.gz&#x27;]:
+    d=pd.read_csv(f); print(f, len(d), list(d.columns)[:6])&quot;</code></pre>
+<p>state_monthly 203,798 rows (month, commodity_id, commodity, group, state, arrivals_t, price_rs_qtl); market_daily_sample 275,423 rows; apy_state 173,967 rows; msp 1,003 rows.</p>
+<p><b>Rebuild the 14 insight tables from the data</b></p>
+<pre><code>python analysis/build_insights.py</code></pre>
+<p>wrote reports/: [&#x27;INSIGHTS.md&#x27;, &#x27;area_by_crop.csv&#x27;, &#x27;arrivals_share_of_production.csv&#x27;, ... &#x27;yield_trends.csv&#x27;] after about 16 s; git status shows no changes because the committed tables are reproduced exactly.</p>
+<p><b>Read the headline tables</b></p>
+<pre><code>grep &#x27;^## &#x27; reports/INSIGHTS.md</code></pre>
+<p>Six sections: arrivals as a share of production (2025-26), mandi prices against MSP (last 24 months), most and least volatile large markets, yield growth, area by crop, largest mandis.</p>
+<h2>Sample outputs</h2><p>Real output from a run on the date shown in the sources line; trimmed to fit.</p>
+<p><b>Madhya Pradesh wheat against MSP, last six months (from reports/mandi_vs_msp.csv)</b></p>
+<pre><code>v=pd.read_csv(&#x27;reports/mandi_vs_msp.csv&#x27;); v[(v.commodity==&#x27;Wheat&#x27;)&amp;(v.state==&#x27;Madhya Pradesh&#x27;)].tail(6)
+  month          state  arrivals_t  price_rs_qtl msp_year  msp_rs_qtl  price_vs_msp  below_msp
+2026-05 Madhya Pradesh  1925234.17       2418.76  2026-27      2585.0     -0.064309       True
+2026-06 Madhya Pradesh  1227436.06       2395.11  2026-27      2585.0     -0.073458       True
+2026-07 Madhya Pradesh   810673.96       2510.17  2026-27      2585.0     -0.028948       True
+2026-08 Madhya Pradesh   544962.35       2581.90  2026-27      2585.0     -0.001199       True
+2026-09 Madhya Pradesh   619729.43       2635.74  2026-27      2585.0      0.019629      False
+2026-10 Madhya Pradesh   365163.71       2661.26  2026-27      2585.0      0.029501      False</code></pre>
+<p>Arrivals in tonnes, prices in Rs per quintal. The harvest-month glut (May) sits 6.4% under the Rs 2,585 MSP; by October the mandi price is 2.9% above it. The MSP year is matched to the marketing year by the script.</p>
+<p><b>Mandi prices against MSP, last 24 months, by commodity (from reports/INSIGHTS.md)</b></p>
+<pre><code>| Commodity                   | State-months | Below MSP | Median price vs MSP |
+| Ragi(Finger Millet)         | 78           | 98.7%     | -25.8% |
+| Groundnut                   | 261          | 86.6%     | -15.9% |
+| Bajra(Pearl Millet/Cumbu)   | 223          | 79.4%     | -11.5% |
+| Green Gram(Moong)(Whole)    | 220          | 79.1%     | -16.5% |
+| Soyabean                    | 199          | 76.4%     | -14.5% |
+| Maize                       | 332          | 70.8%     | -6.5%  |
+| Cotton                      | 126          | 54.0%     | -0.6%  |
+| Paddy(Common)               | 429          | 40.1%     | 1.2%   |
+| Mustard                     | 248          | 21.4%     | 9.1%   |
+| Wheat                       | 314          | 20.1%     | 5.1%   |</code></pre>
+<p>Share of state-months in which the state&#x27;s weighted mandi price was below that year&#x27;s MSP. Millets, groundnut and pulses trade below MSP most of the time; wheat and mustard rarely do. Commodity names are Agmarknet&#x27;s.</p>
+<p><b>Largest mandis by estimated annual arrivals, 23 field crops (from reports/top_mandis.csv)</b></p>
+<pre><code>         state    district                   market  est_annual_t     main_crop  main_crop_share
+ Uttar Pradesh   Barabanki           Barabanki APMC       2179557        Potato             83.8
+     Rajasthan       Bundi               Bundi APMC       2031682 Paddy(Common)             45.7
+     Karnataka   Bengaluru           Bengaluru APMC       1749188         Onion             46.8
+   Chattisgarh       Balod               Balod APMC       1654468 Paddy(Common)            100.0
+Madhya Pradesh      Indore              Indore APMC       1422869         Onion             56.9
+ Uttar Pradesh      Kanpur       Kanpur(Grain) APMC       1372928        Potato             29.3
+   Maharashtra      Nashik APMC Pimpalgaon Baswant        1016216         Onion             60.0
+   Chattisgarh Balodabazar           Bhatapara APMC        939225 Paddy(Common)             99.1</code></pre>
+<p>Annual tonnes are the every-sixth-day sample x 6, fine for ranking but approximate in level. State spellings are as Agmarknet publishes them (Chattisgarh).</p>
+<p><b>Arrivals as a share of production, crop year 2025-26 (first rows of reports/INSIGHTS.md)</b></p>
+<pre><code>| State          | Crop  | Arrivals (t) | Production (t) | Share  |
+| Uttar Pradesh  | Wheat | 8,451,149    | 35,877,000     | 23.6%  |
+| Madhya Pradesh | Wheat | 10,656,968   | 26,443,000     | 40.3%  |
+| Uttar Pradesh  | Rice  | 5,654,865    | 19,805,000     | 28.6%  |
+| Telangana      | Rice  | 513,489      | 18,529,000     | 2.8%   |
+| Punjab         | Wheat | 5,297,754    | 17,079,000     | 31.0%  |
+| Odisha         | Rice  | 4,247        | 10,218,000     | 0.0%   |
+| Madhya Pradesh | Maize | 6,990,736    | 10,049,000     | 69.6%  |
+| Chhattisgarh   | Rice  | 10,064,010   | 9,910,000      | 101.6% |</code></pre>
+<p>Low shares (Telangana, Odisha rice) reflect direct government procurement bypassing mandis; above 100% (Chhattisgarh) means support-price paddy purchases are recorded as arrivals or grain arrives from other states. Both are explained in the README caveats.</p>
+<h2>Ways to use it</h2>
+<div class="tw"><table><tr><th>Method</th><th>How it works</th></tr><tr><td>Read the committed tables</td><td>Open reports/*.csv or INSIGHTS.md directly; no code needed.</td></tr><tr><td>pandas on the raw extracts</td><td>pd.read_csv on any data/**/*.csv.gz; join Agmarknet to UPAG via crosswalks/commodity_crosswalk.csv and state_crosswalk.csv.</td></tr><tr><td>Rebuild or extend the analysis</td><td>python analysis/build_insights.py, clusters.py, crop_profiles.py; workbook scripts under analysis/workbooks/ write Excel files with live formulas.</td></tr><tr><td>Refresh the data</td><td>python3 collectors/agmarknet_collect.py state-monthly --from 2019-01 --to 2026-10 and python3 collectors/upag_collect.py all (stdlib only, cached, throttled; a full state-monthly refresh takes about an hour). Not run in this post.</td></tr><tr><td>Through an AI assistant</td><td>Point it at README.md and docs/agmarknet_api.md and ask for a specific state-crop comparison.</td></tr></table></div>
+<h2>Sample prompts for your AI assistant</h2><p>Copy, paste and edit the parts in [brackets].</p>
+<ul><li>Load data/agmarknet/state_monthly.csv.gz and plot monthly arrivals and prices for [Soyabean] in [Maharashtra] since 2022, marking the MSP from data/upag/msp.csv.gz.</li><li>Using reports/mandi_vs_msp.csv, list the five state-commodity pairs with the largest share of months below MSP in the last 24 months and explain what the README says could cause it.</li><li>Join data/upag/apy_state.csv.gz to the Agmarknet monthly file through crosswalks/ and compute arrivals as a share of production for [Rajasthan] [Bajra]; flag any share above 100%.</li><li>Read collectors/upag_collect.py and docs/upag_api.md and explain how the Dash callback is called, and what would break if upag.gov.in changed its layout.</li><li>From reports/volatility_seasonality.csv, find the cheapest and dearest months for [Onion] in each state and the typical monthly price move.</li><li>Explain why Odisha paddy shows near-zero volatility in this data and whether that is a market fact or a reporting pattern.</li></ul>
+<h2>Limits and honest caveats</h2>
+<div class="warn"><ul><li>The collectors were not run in this post (they call the two portals, Agmarknet throttles to roughly one request per 1.5 s, and a full refresh takes about an hour). Everything shown is from the committed extract, latest month October 2026.</li><li>Arrivals are what markets report. Markets reporting irregularly are understated, grain bought directly by government agencies or traded outside APMCs is missing, and Agmarknet widened its market coverage from November 2025, so recent arrivals are not comparable with earlier years.</li><li>Shares above 100% of production and near-zero volatility series are reporting patterns (inter-state flows, support-price recording), not errors; prices mix varieties and grades; UPAG&#x27;s latest year is an advance estimate.</li><li>The market-level sample is every sixth day; annual mandi figures are sampled tonnes x 6. UPAG&#x27;s data callbacks are an internal UI contract and can change on a redeploy.</li><li>Data is re-published under GODL-India: attribute Agmarknet and UPAG, do not imply endorsement, and check figures against the source portals. Not investment advice.</li></ul></div>
+<p class="src">Sources: the india-mandi-arrivals repo (README, DATA_LICENSE.md, data/, reports/INSIGHTS.md and the CSVs under reports/), with pip install -r requirements.txt and python analysis/build_insights.py run in a throwaway virtualenv on 29 October 2026 from a fresh clone; collectors not run.</p>
+<div id="changelog" class="note">
+<b>Revision history.</b>
+<ul>
+<li><b>v1.0.0</b> &mdash; 30 October 2026 &mdash; first published.</li>
+</ul>
+</div>
+
+
+<style>/* gs-light-lock-v1 */.htuindiam{--ink:#111!important;--accent:#8a4b08!important;--rule:#e8dcc4!important;--panel:#fdf7ec!important;--good:#1a7a4c!important;--good-soft:#eaf6ef!important;--bad:#a5402c!important;--bad-soft:#fff4f0!important}</style>
+<p class="disclaimer" data-gs-ai-disclosure-v1="1"><strong>About this article:</strong> Researched, written and edited by Umashankar Triplicane Dwarakanathan, with AI research assistance; every figure is meant to trace to the primary source cited. See the <a href="https://masaladeutsch.blogspot.com/p/disclaimer.html">Editorial Policy</a> for how sourcing, AI use and corrections work.</p>
+
+</div>

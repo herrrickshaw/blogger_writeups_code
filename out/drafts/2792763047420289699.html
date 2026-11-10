@@ -1,0 +1,289 @@
+<div class="artx htuclaude">
+<style>
+/* ---- typography (gs-typo-unify-v1): keep in sync across all posts ---- */
+.htuclaude{font-family:Georgia,'Times New Roman',serif;line-height:1.6;color:#111}
+.htuclaude h1,.htuclaude h2,.htuclaude h3{line-height:1.3}
+
+/* ---- palette: define every colour as a custom property here. Do not add
+       raw hex elsewhere in a post's <style> block — reference these vars, so
+       a future palette change is a 4-line edit instead of a find-and-replace
+       across every post. ----
+   --ink     #111    body text, light-locked (see below)
+   --accent  #8a4b08  eyebrow text, h2 rule, table header bg, stat numbers —
+                       the one colour that carries this post's "brand"
+   --rule    #e8dcc4  hairline borders, h2 underline, table cell borders
+   --panel   #fdf7ec  stat-card bg, even table rows — the palette's one tint
+*/
+.htuclaude{--ink:#111;--accent:#8a4b08;--rule:#e8dcc4;--panel:#fdf7ec;--good:#1a7a4c;--good-soft:#eaf6ef;--bad:#a5402c;--bad-soft:#fff4f0}
+
+/* ---- mono-label convention (added 2026-09-17, borrowed from the
+       india-trade-sector-policy-recommendations design system): the eyebrow
+       kicker and the source line read as data-journalism metadata, not
+       article prose, so they get a monospace face — a system stack, not a
+       hosted webfont, so no post gains an extra network request or a
+       flash-of-unstyled-text risk. Body text (h1/p/li/table) keeps the
+       serif — this is a two-place accent, not a font-pairing overhaul. ---- */
+.htuclaude{--mono:ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace}
+
+/* ---- light lock (gs-light-lock): a dark Blogger theme (and a browser/OS
+       set to prefers-color-scheme:dark) must not repaint text. Re-assert
+       the same values with !important — verified 2026-08-14 across 5 live
+       posts with the browser's colour scheme forced to dark: body/h1/p/table
+       all stayed light-background/dark-text with no low-contrast pairs.
+       Do NOT add selectors here for panels that are meant to be dark —
+       those go in the guard below. ---- */
+.htuclaude,.htuclaude p,.htuclaude li,.htuclaude td,.htuclaude th{color:var(--ink)!important}
+.htuclaude{background:#fff!important}
+
+/* ---- structure: title + subtitle ----
+   .eyebrow    = the small-caps kicker ABOVE the h1 — "Section · Topic ·
+                 Subtopic", sets context before the reader hits the claim
+   h1          = the headline itself. Write it as the CLAIM, not the topic
+                 ("The Rouble Is the Outlier, Not the Dollar" beats
+                 "Currency Trends Update"). font-size 1.5rem is the deliberate
+                 site-wide size — do not bump it per-post.
+   .standfirst = the one/two-sentence SUBTITLE directly under the h1. This is
+                 also what Blogger's snippet extractor and the JSON-LD meta
+                 description both read (see the gs-head-order block below) —
+                 write it as a real, complete sentence a reader could act on,
+                 not a fragment.
+*/
+.htuclaude .eyebrow{font-size:.8rem;font-weight:700;letter-spacing:.04em;color:var(--accent);text-transform:uppercase;margin:0 0 6px;font-family:var(--mono)}
+.htuclaude h1{margin:0 0 10px;font-size:1.5rem}
+.htuclaude .standfirst{font-size:1.05rem;color:#333!important;margin:0 0 18px}
+.htuclaude .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px;margin:18px 0}
+.htuclaude .stat{background:var(--panel);border:1px solid var(--rule);border-radius:10px;padding:12px 14px}
+.htuclaude .stat b{display:block;font-size:1.2rem;color:var(--accent)}
+.htuclaude .stat span{font-size:.8rem}
+.htuclaude h2{color:var(--accent);border-bottom:2px solid var(--rule);padding-bottom:6px;margin-top:30px;font-size:1.15rem}
+
+/* ---- tables: units live in the header, cells carry bare numbers.
+       .tw is the mobile-overflow fix — see the MOBILE comment above. ---- */
+.htuclaude .tw{overflow-x:auto}
+.htuclaude table{width:100%;border-collapse:collapse;margin:14px 0;font-size:.88rem}
+.htuclaude th,.htuclaude td{border:1px solid var(--rule);padding:7px 9px;text-align:right;word-wrap:break-word;overflow-wrap:break-word}
+.htuclaude th:first-child,.htuclaude td:first-child{text-align:left}
+.htuclaude th{background:var(--accent);color:#fff!important;font-weight:600}
+.htuclaude tr:nth-child(even){background:var(--panel)}
+
+.htuclaude .note{background:#eef4ff;border-left:4px solid #2a78d6;padding:12px 16px;margin:18px 0;border-radius:0 8px 8px 0;font-size:.93rem}
+.htuclaude .warn{background:var(--bad-soft);border-left:4px solid var(--bad);padding:12px 16px;margin:18px 0;border-radius:0 8px 8px 0;font-size:.93rem}
+/* ---- .good (added 2026-09-17): third semantic tier alongside .note (neutral
+       framing) and .warn (a caveat/scope limit) — for the case a caveat block
+       would otherwise get stretched to cover: confirming a figure checked out,
+       a correction that resolved cleanly, a claim that survived cross-check.
+       Same shape as .note/.warn on purpose, so all three read as one family. */
+.htuclaude .good{background:var(--good-soft);border-left:4px solid var(--good);padding:12px 16px;margin:18px 0;border-radius:0 8px 8px 0;font-size:.93rem}
+/* ---- .chip (added 2026-09-17): formalises a labelling pattern several posts
+       already built ad hoc in JS (e.g. "PLI coverage: strong/partial/gap")
+       into one reusable inline component, so a new post doesn't reinvent it.
+       Use inline: <span class="chip chip-good">Strong</span>. ---- */
+.htuclaude .chip{display:inline-block;font-family:var(--mono);font-size:.72rem;font-weight:700;letter-spacing:.02em;padding:.15rem .5rem;border-radius:99px;line-height:1.5}
+.htuclaude .chip-good{background:var(--good-soft);color:var(--good)}
+.htuclaude .chip-warn{background:var(--panel);color:var(--accent)}
+.htuclaude .chip-bad{background:var(--bad-soft);color:var(--bad)}
+.htuclaude .src{font-size:.84rem;font-family:var(--mono);border-top:1px solid var(--rule);padding-top:12px;margin-top:24px}
+.htuclaude .disclaimer{font-size:.82rem;color:#555;margin-top:10px}
+.htuclaude .revised{font-size:.8rem;color:#555!important;margin:0 0 14px}
+.htuclaude .revised code{font-family:inherit;background:var(--panel);padding:1px 5px;border-radius:4px}
+</style>
+
+
+<div class="gs-head-order" style="display:flex;flex-direction:column">
+<p class="standfirst" style="order:4">A folder of Python scripts that print a one-ticker report for India, the US or Singapore and scan whole exchanges with a Darvas, Piotroski and Coffee Can pipeline. On 4 November 2026 I ran the US report for MSFT and the Buffett screener, and found a dividend-yield display bug and placeholder values in the screener output. Research and education only; not investment advice.</p>
+<div class="topnav-index-link" style="order:1;font-size:.82em;margin:6px 0 14px"><a href="https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html" style="color:#0b5394;text-decoration:none">&#8592; All Articles (Index)</a></div>
+<p class="eyebrow" style="order:2">Open-Source Tools · How-To · Markets research</p>
+<h1 style="order:3">How to use claude-stock-tools: single-stock reports and Darvas, Piotroski and Coffee Can screeners</h1>
+</div>
+
+
+<a href="#" id="gs-skip-link" class="gs-skip-link" style="position:absolute;left:-9999px;top:auto;background:#1a1a1a;color:#fff;padding:.6rem 1rem;z-index:1000;border-radius:4px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.85rem">Skip to article content</a>
+<style>.gs-skip-link:focus{left:8px!important;top:8px!important}
+.gs-a11y-bar{display:flex;align-items:center;gap:.55rem;flex-wrap:wrap;background:#f4f5f7;border:1px solid #dfe3e8;border-radius:8px;padding:.55rem .8rem;margin:10px 0 16px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
+.gs-a11y-bar .gs-a11y-label{font-size:.68rem;font-weight:700;letter-spacing:.08em;color:#666;text-transform:uppercase;margin-right:.15rem}
+.gs-a11y-bar button{cursor:pointer;border:1px solid #c7cbd1;background:#fff;color:#1a1a1a;border-radius:5px;padding:.32rem .65rem;font-family:inherit;line-height:1}
+.gs-a11y-bar button.gs-a11y-fs{font-weight:700;min-width:2rem;text-align:center}
+.gs-a11y-bar button.gs-a11y-fs[data-size="sm"]{font-size:.8rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="md"]{font-size:1rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="lg"]{font-size:1.2rem}
+.gs-a11y-bar button.gs-a11y-fs[aria-pressed="true"]{background:#1a1a1a;color:#fff;border-color:#1a1a1a}
+.gs-a11y-bar button:hover{border-color:#8a4b08}
+.gs-a11y-bar button:focus-visible{outline:2px solid #8a4b08;outline-offset:1px}
+.gs-a11y-bar .gs-a11y-sep{width:1px;align-self:stretch;background:#dfe3e8;margin:0 .1rem}</style>
+<div class="gs-a11y-bar" role="group" aria-label="Accessibility controls">
+<span class="gs-a11y-label">Text Size</span>
+<button type="button" class="gs-a11y-fs" data-size="sm" aria-pressed="false" aria-label="Small text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="md" aria-pressed="true" aria-label="Medium text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="lg" aria-pressed="false" aria-label="Large text">A</button>
+<span class="gs-a11y-sep"></span>
+<button type="button" id="gs-a11y-listen" aria-label="Read this article aloud">&#128266; Listen</button>
+<button type="button" id="gs-a11y-stop" aria-label="Stop reading aloud">&#9632; Stop</button>
+</div>
+<script>(function(){
+var KEY='gs-a11y-fontsize', SIZES={sm:'0.92',md:'1',lg:'1.15'};
+function pb(){return document.querySelector('.post-body')||document.querySelector('.artx,.mdrx');}
+function apply(sz){
+  var el=pb(); if(!el||!SIZES[sz]) return;
+  el.style.fontSize=SIZES[sz]+'em';
+  var btns=document.querySelectorAll('.gs-a11y-fs');
+  for(var i=0;i<btns.length;i++){
+    var on=btns[i].getAttribute('data-size')===sz;
+    btns[i].setAttribute('aria-pressed', on?'true':'false');
+  }
+  try{localStorage.setItem(KEY,sz);}catch(e){}
+}
+var fsBtns=document.querySelectorAll('.gs-a11y-fs');
+for(var j=0;j<fsBtns.length;j++){
+  fsBtns[j].addEventListener('click',(function(b){return function(){apply(b.getAttribute('data-size'));};})(fsBtns[j]));
+}
+var saved; try{saved=localStorage.getItem(KEY);}catch(e){}
+apply(saved&&SIZES[saved]?saved:'md');
+
+var listenBtn=document.getElementById('gs-a11y-listen'), stopBtn=document.getElementById('gs-a11y-stop');
+if(listenBtn){
+  listenBtn.addEventListener('click', function(){
+    if(!('speechSynthesis' in window)){ alert('Text-to-speech is not supported in this browser.'); return; }
+    window.speechSynthesis.cancel();
+    var src=pb(); if(!src) return;
+    var clone=src.cloneNode(true);
+    var strip=clone.querySelectorAll('script,style,svg');
+    for(var k=0;k<strip.length;k++){ strip[k].parentNode.removeChild(strip[k]); }
+    var text=clone.textContent.replace(/\s+/g,' ').trim();
+    if(!text) return;
+    var chunks=text.match(/[\s\S]{1,180}(?:[.!?]|$)/g)||[text];
+    var idx=0;
+    function speakNext(){
+      if(idx>=chunks.length) return;
+      var u=new SpeechSynthesisUtterance(chunks[idx]);
+      u.onend=function(){ idx++; speakNext(); };
+      window.speechSynthesis.speak(u);
+    }
+    speakNext();
+  });
+}
+if(stopBtn){
+  stopBtn.addEventListener('click', function(){
+    if('speechSynthesis' in window) window.speechSynthesis.cancel();
+  });
+}
+var skip=document.getElementById('gs-skip-link');
+if(skip){
+  skip.addEventListener('click', function(ev){
+    ev.preventDefault();
+    var h=document.querySelector('.post-body h1')||document.querySelector('.artx h1,.mdrx h1,h1');
+    if(h){ h.setAttribute('tabindex','-1'); h.focus(); h.scrollIntoView(); }
+  });
+}
+})();</script>
+<style>.goog-te-menu-frame{max-width:340px!important;max-height:70vh!important;overflow:auto!important;box-shadow:0 6px 24px rgba(0,0,0,.25)!important}</style>
+<div id="google_translate_element" style="margin:8px 0 16px;"></div><script type="text/javascript">function googleTranslateElementInit(){new google.translate.TranslateElement({pageLanguage:"en",includedLanguages:"hi,bn,ta,te,mr,gu,kn,ml,pa,or,as,ur,sa,ne,sd",layout:google.translate.TranslateElement.InlineLayout.SIMPLE,autoDisplay:false},"google_translate_element");}</script><script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+
+<p class="revised" data-gs-revision-v1="1">Revised
+<time datetime="2026-11-04" itemprop="dateModified">4 November 2026</time>
+&middot; <code>v1.0.0</code> &middot; <a href="#changelog">what changed</a></p>
+
+<style>.htuclaude pre{background:#f6f3ea!important;color:#111!important;border:1px solid var(--rule);border-radius:8px;padding:10px 12px;overflow-x:auto;font-size:.82rem;line-height:1.45}.htuclaude pre code{background:none!important;color:#111!important;font-family:var(--mono)}.htuclaude code{font-family:var(--mono);font-size:.88em}.htuclaude .vid{position:relative;padding-bottom:56.25%;height:0;margin:16px 0;max-width:100%}.htuclaude .vid iframe{position:absolute;inset:0;width:100%;height:100%;border:0}</style><div class="stats"><div class="stat"><b>6</b><span>markets covered: India, US, Europe, Japan, Korea, Singapore</span></div><div class="stat"><b>3</b><span>stages: Darvas Box, Piotroski F-Score, Coffee Can</span></div><div class="stat"><b>$520.99</b><span>MSFT last price in my 4 Nov 2026 report</span></div><div class="stat"><b>5</b><span>stocks in the screener&#x27;s fallback sample</span></div></div>
+<p>Code: <a href="https://github.com/herrrickshaw/claude-stock-tools">github.com/herrrickshaw/claude-stock-tools</a></p>
+<h2>Why it is useful</h2>
+<ul><li>Self-directed investors and students who want a free, readable example of a layered screen (price structure, then financial health, then compounder quality) get a script they can run and read.</li><li>It replaces opening several finance sites for one ticker: one command printed quote, valuation, dividends, earnings dates, 30-day summary and holders for MSFT.</li><li>Evidence from the run: the US daily report fetched and printed a full MSFT page in one command with only yfinance, pandas and openpyxl installed.</li><li>It also shows the cost of free data: my run found a wrong dividend yield and a screener that fell back to a five-stock sample with placeholder metrics.</li></ul>
+<h2>What it is for</h2>
+<p>Claude Stock Tools is a collection of scripts. 01_daily_reports has one-ticker terminal reports for India, the US and Singapore. 02_market_screeners has full-exchange scanners that run Darvas Box detection, then Piotroski and Coffee Can scoring on breakout candidates, plus a Buffett-style value screener. Colab notebooks, a strategy reference and Damodaran enrichment sit in the other folders.</p>
+<p>All prices and fundamentals come from Yahoo Finance via yfinance, so the scripts need network access and inherit its gaps.</p>
+<p><b>Who it is for</b></p>
+<ul><li>Students learning Darvas, Piotroski and Coffee Can by reading working code</li><li>Self-directed investors who want a quick one-ticker research page</li><li>Developers who need a starting point for a multi-market scanner</li></ul>
+<div class="warn"><b>Not for.</b><ul><li>Investment advice: this is not investment advice, and nothing here is a recommendation to buy or sell</li><li>Unattended trading or alerts: the data is unofficial and sometimes wrong</li><li>Treating the Buffett screener output as meaningful without checking it (see the limits)</li></ul></div>
+<h2>What you need</h2>
+<div class="tw"><table><tr><th>Requirement</th><th>Why</th><th>How to get it</th></tr><tr><td>Python 3.9+</td><td>Stated in the README</td><td>python3 --version</td></tr><tr><td>yfinance, pandas, openpyxl, requests</td><td>Core data and Excel output; nsepython, bseindia, kabupy and pykrx are extra for India, Japan and Korea</td><td>pip install yfinance pandas openpyxl requests</td></tr><tr><td>Internet access</td><td>Every script fetches live data from Yahoo Finance</td><td>No key is needed</td></tr></table></div>
+<h2>Get the code and an AI assistant</h2>
+<p>You do not have to be a programmer. Get the repository, give it to an AI assistant, and ask in plain language. Any of these routes works:</p>
+<div class="tw"><table><tr><th>Tool</th><th>What you need</th><th>Best for</th></tr><tr><td><b>GitHub</b></td><td>Free account to fork or star; <code>git</code> to clone, or the green <b>Code</b> button, then <b>Download ZIP</b>, or open in <b>Codespaces</b></td><td>Getting the code and keeping up with updates</td></tr><tr><td><b>Claude Code</b></td><td>Claude subscription or API key; run <code>claude</code> inside the cloned folder</td><td>Letting the AI read and run the whole repo</td></tr><tr><td><b>Gemini CLI</b></td><td>Google account; run <code>gemini</code> inside the cloned folder</td><td>The same hands-on workflow with Gemini</td></tr><tr><td><b>Claude.ai, Gemini or ChatGPT in the browser</b></td><td>A chat account; upload <code>README.md</code> and the files you care about (or paste the output of <code>git ls-files</code>)</td><td>Understanding the project and asking questions without installing anything</td></tr><tr><td><b>Other tools</b> (Copilot Chat, Cursor, Codex CLI)</td><td>Open the cloned folder in the tool and point it at <code>README.md</code> first</td><td>Editing and extending the code</td></tr></table></div>
+<pre><code>git clone https://github.com/herrrickshaw/claude-stock-tools.git
+cd claude-stock-tools
+claude      # or: gemini</code></pre>
+<h2>Install</h2><ol><li>Clone the repository<pre><code>git clone https://github.com/herrrickshaw/claude-stock-tools.git
+cd claude-stock-tools</code></pre></li><li>Create an environment and install dependencies<pre><code>python3 -m venv .venv &amp;&amp; source .venv/bin/activate
+pip install yfinance pandas openpyxl requests</code></pre></li></ol>
+<h2>Quick start: commands and what you should see</h2>
+<p><b>Print a one-ticker US report</b></p>
+<pre><code>python 01_daily_reports/us_daily_report.py MSFT</code></pre>
+<p>A terminal page with live quote and valuation, corporate actions and earnings calendar, 30-day summary, holders and news.</p>
+<p><b>Run the Buffett value screener on a small US sample</b></p>
+<pre><code>python 02_market_screeners/buffett_value_screener.py --market us --limit 20</code></pre>
+<p>Logs the number of equities screened and saves an Excel workbook next to the script.</p>
+<h2>Sample outputs</h2><p>Real output from a run on the date shown in the sources line; trimmed to fit.</p>
+<p><b>US daily report for MSFT, 4 Nov 2026 (top of the report; insider and news sections left out)</b></p>
+<pre><code>python 01_daily_reports/us_daily_report.py MSFT
+
+------------------------------------------------------------
+  LIVE QUOTE &amp; VALUATION
+------------------------------------------------------------
+  Company                        Microsoft Corporation
+  Exchange                       NMS
+  Sector                         Technology
+  Industry                       Software - Infrastructure
+  Country                        United States
+
+  Last Price                     $520.99
+  Prev Close                     $516.50
+  Change                         $4.49  ▲ 0.87%
+  Open                           $509.01
+  Day High                       $523.44
+  Day Low                        $507.82
+
+  52-Week High                   $551.15
+  52-Week Low                    $349.20
+  YTD Change                     ▲ 2.73%
+  50-Day Avg                     $514.06
+  200-Day Avg                    $438.48
+
+  Volume                         19,940,200
+  Avg Volume (3m)                23,247,226
+  Market Cap                     $3.87T
+
+  Trailing P/E                   27.19
+  Forward P/E                    21.55
+  PEG Ratio                      1.54
+  Price/Book                     8.22
+  Trailing EPS                   $19.16
+  Forward EPS                    $24.18
+  Dividend Yield                 75.00%
+  Beta                           1.04
+  Short Ratio                    2.94</code></pre>
+<p>Live Yahoo Finance data at run time. The &#x27;Dividend Yield 75.00%&#x27; line is wrong: Microsoft&#x27;s yield is about 0.75 percent. See the limits.</p>
+<p><b>Buffett value screener log</b></p>
+<pre><code>python 02_market_screeners/buffett_value_screener.py --market us --limit 20
+WARNING  Could not fetch S&amp;P 500; using top 500 manually
+INFO  Loaded 5 US equities (sample)
+INFO  Screening 5 of 5 us equities with 4 workers...
+INFO  US: 5 results, 0 Buffett picks
+INFO  Saved results → 02_market_screeners/buffett_value_scan_2026-11-04.xlsx</code></pre>
+<p>The index list could not be fetched, so the screener used a 5-stock built-in sample.</p>
+<p><b>First rows of that workbook (columns trimmed)</b></p>
+<pre><code>pandas.read_excel(&#x27;buffett_value_scan_2026-11-04.xlsx&#x27;)
+  Ticker Exchange  ROE %  Debt/Eq  Gross Margin %  Current Ratio  Margin Stability  Years Profitable    PE
+0   NVDA       US      0        0             100              1                 1                 0  26.1
+1   MSFT       US      0        0             100              1                 1                 0  27.2
+2   AAPL       US      0        0             100              1                 1                 0  37.0
+3   AMZN       US      0        0             100              1                 1                 0  20.3
+4  GOOGL       US      0        0             100              1                 1                 0  14.6</code></pre>
+<p>Only the PE column carries real values. The rest look like defaults, so no stock could pass. This is a data problem to fix before relying on the screener.</p>
+<h2>Ways to use it</h2>
+<div class="tw"><table><tr><th>Method</th><th>How it works</th></tr><tr><td>One-ticker report</td><td>Run the daily report for India (NSE symbols such as RELIANCE), the US (AAPL) or Singapore (D05.SI).</td></tr><tr><td>Exchange scan</td><td>Run a market scan script and open the Excel output; use --workers to speed up and --exchange to narrow Europe.</td></tr><tr><td>Colab</td><td>Open the notebooks in 03_colab_notebooks for a no-install run.</td></tr><tr><td>Through an AI assistant</td><td>Open the clone in Claude Code or Gemini CLI and ask it to explain the Darvas box rules or to fix the issues listed below.</td></tr></table></div>
+<h2>Sample prompts for your AI assistant</h2><p>Copy, paste and edit the parts in [brackets].</p>
+<ul><li>Read README.md and HOW_TO_USE_WITH_AI.md in this repository and explain in plain English what claude-stock-tools does and how to run it.</li><li>List every command in the README, mark which ones need the network and which run offline, and run the offline ones.</li><li>Walk through the main entry point step by step and explain each function in language a non-programmer can follow.</li><li>Find places in the code where an empty or missing input could crash the program and suggest small, safe fixes.</li><li>Suggest three small experiments I can run on the sample data to learn how the tool behaves, and what to look for in each.</li><li>In 01_daily_reports/us_daily_report.py the dividend yield prints as 75.00% for MSFT. Find the cause and fix it for the current yfinance format.</li></ul>
+<h2>Limits and honest caveats</h2>
+<div class="warn"><ul><li>Not investment advice. These scripts are mechanical filters for research and education.</li><li>Bug found: the US report shows MSFT dividend yield as 75.00%. The script formats the yfinance dividendYield field as a fraction, but current yfinance already returns a percentage (0.75).</li><li>Bug found: the Buffett screener fell back to a 5-stock sample when the S&amp;P 500 list could not be fetched, and its fundamental columns held placeholder values (ROE 0, gross margin 100), so it reported 0 picks.</li><li>Data comes from Yahoo Finance via yfinance, which is unofficial; verify anything interesting against filings. Annual fundamentals only.</li><li>I did not run the full-exchange scanners; they need many minutes of network calls and extra packages for India, Japan and Korea.</li><li>The insider-transaction section of the report lists named officers from public filings; I left that section out of this post.</li></ul></div>
+<p class="src">Sources: the claude-stock-tools README and scripts 01_daily_reports/us_daily_report.py and 02_market_screeners/buffett_value_screener.py, run on 4 November 2026 in a scratch clone and throwaway virtual environment (Python 3.15) with live Yahoo Finance data via yfinance.</p>
+<div id="changelog" class="note">
+<b>Revision history.</b>
+<ul>
+<li><b>v1.0.0</b> &mdash; 4 November 2026 &mdash; first published.</li>
+</ul>
+</div>
+
+
+<style>/* gs-light-lock-v1 */.htuclaude{--ink:#111!important;--accent:#8a4b08!important;--rule:#e8dcc4!important;--panel:#fdf7ec!important;--good:#1a7a4c!important;--good-soft:#eaf6ef!important;--bad:#a5402c!important;--bad-soft:#fff4f0!important}</style>
+<p class="disclaimer" data-gs-ai-disclosure-v1="1"><strong>About this article:</strong> Researched, written and edited by Umashankar Triplicane Dwarakanathan, with AI research assistance; every figure is meant to trace to the primary source cited. See the <a href="https://masaladeutsch.blogspot.com/p/disclaimer.html">Editorial Policy</a> for how sourcing, AI use and corrections work.</p>
+
+</div>

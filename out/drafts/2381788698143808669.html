@@ -1,0 +1,263 @@
+<div class="artx htuglobal">
+<style>
+/* ---- typography (gs-typo-unify-v1): keep in sync across all posts ---- */
+.htuglobal{font-family:Georgia,'Times New Roman',serif;line-height:1.6;color:#111}
+.htuglobal h1,.htuglobal h2,.htuglobal h3{line-height:1.3}
+
+/* ---- palette: define every colour as a custom property here. Do not add
+       raw hex elsewhere in a post's <style> block — reference these vars, so
+       a future palette change is a 4-line edit instead of a find-and-replace
+       across every post. ----
+   --ink     #111    body text, light-locked (see below)
+   --accent  #8a4b08  eyebrow text, h2 rule, table header bg, stat numbers —
+                       the one colour that carries this post's "brand"
+   --rule    #e8dcc4  hairline borders, h2 underline, table cell borders
+   --panel   #fdf7ec  stat-card bg, even table rows — the palette's one tint
+*/
+.htuglobal{--ink:#111;--accent:#8a4b08;--rule:#e8dcc4;--panel:#fdf7ec;--good:#1a7a4c;--good-soft:#eaf6ef;--bad:#a5402c;--bad-soft:#fff4f0}
+
+/* ---- mono-label convention (added 2026-09-17, borrowed from the
+       india-trade-sector-policy-recommendations design system): the eyebrow
+       kicker and the source line read as data-journalism metadata, not
+       article prose, so they get a monospace face — a system stack, not a
+       hosted webfont, so no post gains an extra network request or a
+       flash-of-unstyled-text risk. Body text (h1/p/li/table) keeps the
+       serif — this is a two-place accent, not a font-pairing overhaul. ---- */
+.htuglobal{--mono:ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace}
+
+/* ---- light lock (gs-light-lock): a dark Blogger theme (and a browser/OS
+       set to prefers-color-scheme:dark) must not repaint text. Re-assert
+       the same values with !important — verified 2026-08-14 across 5 live
+       posts with the browser's colour scheme forced to dark: body/h1/p/table
+       all stayed light-background/dark-text with no low-contrast pairs.
+       Do NOT add selectors here for panels that are meant to be dark —
+       those go in the guard below. ---- */
+.htuglobal,.htuglobal p,.htuglobal li,.htuglobal td,.htuglobal th{color:var(--ink)!important}
+.htuglobal{background:#fff!important}
+
+/* ---- structure: title + subtitle ----
+   .eyebrow    = the small-caps kicker ABOVE the h1 — "Section · Topic ·
+                 Subtopic", sets context before the reader hits the claim
+   h1          = the headline itself. Write it as the CLAIM, not the topic
+                 ("The Rouble Is the Outlier, Not the Dollar" beats
+                 "Currency Trends Update"). font-size 1.5rem is the deliberate
+                 site-wide size — do not bump it per-post.
+   .standfirst = the one/two-sentence SUBTITLE directly under the h1. This is
+                 also what Blogger's snippet extractor and the JSON-LD meta
+                 description both read (see the gs-head-order block below) —
+                 write it as a real, complete sentence a reader could act on,
+                 not a fragment.
+*/
+.htuglobal .eyebrow{font-size:.8rem;font-weight:700;letter-spacing:.04em;color:var(--accent);text-transform:uppercase;margin:0 0 6px;font-family:var(--mono)}
+.htuglobal h1{margin:0 0 10px;font-size:1.5rem}
+.htuglobal .standfirst{font-size:1.05rem;color:#333!important;margin:0 0 18px}
+.htuglobal .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px;margin:18px 0}
+.htuglobal .stat{background:var(--panel);border:1px solid var(--rule);border-radius:10px;padding:12px 14px}
+.htuglobal .stat b{display:block;font-size:1.2rem;color:var(--accent)}
+.htuglobal .stat span{font-size:.8rem}
+.htuglobal h2{color:var(--accent);border-bottom:2px solid var(--rule);padding-bottom:6px;margin-top:30px;font-size:1.15rem}
+
+/* ---- tables: units live in the header, cells carry bare numbers.
+       .tw is the mobile-overflow fix — see the MOBILE comment above. ---- */
+.htuglobal .tw{overflow-x:auto}
+.htuglobal table{width:100%;border-collapse:collapse;margin:14px 0;font-size:.88rem}
+.htuglobal th,.htuglobal td{border:1px solid var(--rule);padding:7px 9px;text-align:right;word-wrap:break-word;overflow-wrap:break-word}
+.htuglobal th:first-child,.htuglobal td:first-child{text-align:left}
+.htuglobal th{background:var(--accent);color:#fff!important;font-weight:600}
+.htuglobal tr:nth-child(even){background:var(--panel)}
+
+.htuglobal .note{background:#eef4ff;border-left:4px solid #2a78d6;padding:12px 16px;margin:18px 0;border-radius:0 8px 8px 0;font-size:.93rem}
+.htuglobal .warn{background:var(--bad-soft);border-left:4px solid var(--bad);padding:12px 16px;margin:18px 0;border-radius:0 8px 8px 0;font-size:.93rem}
+/* ---- .good (added 2026-09-17): third semantic tier alongside .note (neutral
+       framing) and .warn (a caveat/scope limit) — for the case a caveat block
+       would otherwise get stretched to cover: confirming a figure checked out,
+       a correction that resolved cleanly, a claim that survived cross-check.
+       Same shape as .note/.warn on purpose, so all three read as one family. */
+.htuglobal .good{background:var(--good-soft);border-left:4px solid var(--good);padding:12px 16px;margin:18px 0;border-radius:0 8px 8px 0;font-size:.93rem}
+/* ---- .chip (added 2026-09-17): formalises a labelling pattern several posts
+       already built ad hoc in JS (e.g. "PLI coverage: strong/partial/gap")
+       into one reusable inline component, so a new post doesn't reinvent it.
+       Use inline: <span class="chip chip-good">Strong</span>. ---- */
+.htuglobal .chip{display:inline-block;font-family:var(--mono);font-size:.72rem;font-weight:700;letter-spacing:.02em;padding:.15rem .5rem;border-radius:99px;line-height:1.5}
+.htuglobal .chip-good{background:var(--good-soft);color:var(--good)}
+.htuglobal .chip-warn{background:var(--panel);color:var(--accent)}
+.htuglobal .chip-bad{background:var(--bad-soft);color:var(--bad)}
+.htuglobal .src{font-size:.84rem;font-family:var(--mono);border-top:1px solid var(--rule);padding-top:12px;margin-top:24px}
+.htuglobal .disclaimer{font-size:.82rem;color:#555;margin-top:10px}
+.htuglobal .revised{font-size:.8rem;color:#555!important;margin:0 0 14px}
+.htuglobal .revised code{font-family:inherit;background:var(--panel);padding:1px 5px;border-radius:4px}
+</style>
+
+
+<div class="gs-head-order" style="display:flex;flex-direction:column">
+<p class="standfirst" style="order:4">A kdb+/q port of a cross-sectional equity signal study: twelve signals, Newey-West t-statistics, FDR, Fama-MacBeth, cost-adjusted quintile spreads, Deflated Sharpe and a purged walk-forward. On 5 November 2026 I ran its parity check on the bundled synthetic sample: every output table matched the Python original.</p>
+<div class="topnav-index-link" style="order:1;font-size:.82em;margin:6px 0 14px"><a href="https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html" style="color:#0b5394;text-decoration:none">&#8592; All Articles (Index)</a></div>
+<p class="eyebrow" style="order:2">Open-Source Tools · How-To · Markets research</p>
+<h1 style="order:3">How to use global-market-kdb: a kdb+/q equity-signal study checked against Python</h1>
+</div>
+
+
+<a href="#" id="gs-skip-link" class="gs-skip-link" style="position:absolute;left:-9999px;top:auto;background:#1a1a1a;color:#fff;padding:.6rem 1rem;z-index:1000;border-radius:4px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.85rem">Skip to article content</a>
+<style>.gs-skip-link:focus{left:8px!important;top:8px!important}
+.gs-a11y-bar{display:flex;align-items:center;gap:.55rem;flex-wrap:wrap;background:#f4f5f7;border:1px solid #dfe3e8;border-radius:8px;padding:.55rem .8rem;margin:10px 0 16px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
+.gs-a11y-bar .gs-a11y-label{font-size:.68rem;font-weight:700;letter-spacing:.08em;color:#666;text-transform:uppercase;margin-right:.15rem}
+.gs-a11y-bar button{cursor:pointer;border:1px solid #c7cbd1;background:#fff;color:#1a1a1a;border-radius:5px;padding:.32rem .65rem;font-family:inherit;line-height:1}
+.gs-a11y-bar button.gs-a11y-fs{font-weight:700;min-width:2rem;text-align:center}
+.gs-a11y-bar button.gs-a11y-fs[data-size="sm"]{font-size:.8rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="md"]{font-size:1rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="lg"]{font-size:1.2rem}
+.gs-a11y-bar button.gs-a11y-fs[aria-pressed="true"]{background:#1a1a1a;color:#fff;border-color:#1a1a1a}
+.gs-a11y-bar button:hover{border-color:#8a4b08}
+.gs-a11y-bar button:focus-visible{outline:2px solid #8a4b08;outline-offset:1px}
+.gs-a11y-bar .gs-a11y-sep{width:1px;align-self:stretch;background:#dfe3e8;margin:0 .1rem}</style>
+<div class="gs-a11y-bar" role="group" aria-label="Accessibility controls">
+<span class="gs-a11y-label">Text Size</span>
+<button type="button" class="gs-a11y-fs" data-size="sm" aria-pressed="false" aria-label="Small text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="md" aria-pressed="true" aria-label="Medium text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="lg" aria-pressed="false" aria-label="Large text">A</button>
+<span class="gs-a11y-sep"></span>
+<button type="button" id="gs-a11y-listen" aria-label="Read this article aloud">&#128266; Listen</button>
+<button type="button" id="gs-a11y-stop" aria-label="Stop reading aloud">&#9632; Stop</button>
+</div>
+<script>(function(){
+var KEY='gs-a11y-fontsize', SIZES={sm:'0.92',md:'1',lg:'1.15'};
+function pb(){return document.querySelector('.post-body')||document.querySelector('.artx,.mdrx');}
+function apply(sz){
+  var el=pb(); if(!el||!SIZES[sz]) return;
+  el.style.fontSize=SIZES[sz]+'em';
+  var btns=document.querySelectorAll('.gs-a11y-fs');
+  for(var i=0;i<btns.length;i++){
+    var on=btns[i].getAttribute('data-size')===sz;
+    btns[i].setAttribute('aria-pressed', on?'true':'false');
+  }
+  try{localStorage.setItem(KEY,sz);}catch(e){}
+}
+var fsBtns=document.querySelectorAll('.gs-a11y-fs');
+for(var j=0;j<fsBtns.length;j++){
+  fsBtns[j].addEventListener('click',(function(b){return function(){apply(b.getAttribute('data-size'));};})(fsBtns[j]));
+}
+var saved; try{saved=localStorage.getItem(KEY);}catch(e){}
+apply(saved&&SIZES[saved]?saved:'md');
+
+var listenBtn=document.getElementById('gs-a11y-listen'), stopBtn=document.getElementById('gs-a11y-stop');
+if(listenBtn){
+  listenBtn.addEventListener('click', function(){
+    if(!('speechSynthesis' in window)){ alert('Text-to-speech is not supported in this browser.'); return; }
+    window.speechSynthesis.cancel();
+    var src=pb(); if(!src) return;
+    var clone=src.cloneNode(true);
+    var strip=clone.querySelectorAll('script,style,svg');
+    for(var k=0;k<strip.length;k++){ strip[k].parentNode.removeChild(strip[k]); }
+    var text=clone.textContent.replace(/\s+/g,' ').trim();
+    if(!text) return;
+    var chunks=text.match(/[\s\S]{1,180}(?:[.!?]|$)/g)||[text];
+    var idx=0;
+    function speakNext(){
+      if(idx>=chunks.length) return;
+      var u=new SpeechSynthesisUtterance(chunks[idx]);
+      u.onend=function(){ idx++; speakNext(); };
+      window.speechSynthesis.speak(u);
+    }
+    speakNext();
+  });
+}
+if(stopBtn){
+  stopBtn.addEventListener('click', function(){
+    if('speechSynthesis' in window) window.speechSynthesis.cancel();
+  });
+}
+var skip=document.getElementById('gs-skip-link');
+if(skip){
+  skip.addEventListener('click', function(ev){
+    ev.preventDefault();
+    var h=document.querySelector('.post-body h1')||document.querySelector('.artx h1,.mdrx h1,h1');
+    if(h){ h.setAttribute('tabindex','-1'); h.focus(); h.scrollIntoView(); }
+  });
+}
+})();</script>
+<style>.goog-te-menu-frame{max-width:340px!important;max-height:70vh!important;overflow:auto!important;box-shadow:0 6px 24px rgba(0,0,0,.25)!important}</style>
+<div id="google_translate_element" style="margin:8px 0 16px;"></div><script type="text/javascript">function googleTranslateElementInit(){new google.translate.TranslateElement({pageLanguage:"en",includedLanguages:"hi,bn,ta,te,mr,gu,kn,ml,pa,or,as,ur,sa,ne,sd",layout:google.translate.TranslateElement.InlineLayout.SIMPLE,autoDisplay:false},"google_translate_element");}</script><script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+
+<p class="revised" data-gs-revision-v1="1">Revised
+<time datetime="2026-11-05" itemprop="dateModified">5 November 2026</time>
+&middot; <code>v1.0.0</code> &middot; <a href="#changelog">what changed</a></p>
+
+<style>.htuglobal pre{background:#f6f3ea!important;color:#111!important;border:1px solid var(--rule);border-radius:8px;padding:10px 12px;overflow-x:auto;font-size:.82rem;line-height:1.45}.htuglobal pre code{background:none!important;color:#111!important;font-family:var(--mono)}.htuglobal code{font-family:var(--mono);font-size:.88em}.htuglobal .vid{position:relative;padding-bottom:56.25%;height:0;margin:16px 0;max-width:100%}.htuglobal .vid iframe{position:absolute;inset:0;width:100%;height:100%;border:0}</style><div class="stats"><div class="stat"><b>6 of 6</b><span>output tables matching Python in my run</span></div><div class="stat"><b>142,483</b><span>synthetic daily bars (120 names)</span></div><div class="stat"><b>10 passed</b><span>pytest result</span></div><div class="stat"><b>11 of 11</b><span>signal/horizon pairs rated NOISE on random data</span></div></div>
+<p>Code: <a href="https://github.com/herrrickshaw/global-market-kdb">github.com/herrrickshaw/global-market-kdb</a></p>
+<h2>Why it is useful</h2>
+<ul><li>Quant researchers who know kdb+/q or want to learn it get a worked, tested example of a full signal-research pipeline in q, not a toy snippet.</li><li>It replaces hand-porting a pandas study to q and wondering whether the numbers are right: a parity script compares every output table with the original Python row by row (tolerance 1e-10 plus 1e-8 relative).</li><li>Evidence from my run: parity.py reported PASS on ic_series (10,032 rows, max difference 0), ic_table, fama_macbeth_10d, costs, walk_forward_10d and health, and pytest gave 10 passed.</li><li>The bundled data is synthetic, and the study correctly finds nothing in it (every health status was NOISE). That is a useful sanity check of the statistics, not a market finding.</li></ul>
+<h2>What it is for</h2>
+<p>global-market-kdb implements a cross-sectional signal study in kdb+/q: it builds a date-partitioned database of daily bars, computes twelve signals (reversal, RSI, momentum, trend, 52-week high, low volatility, illiquidity and others) at 5, 10, 21 and 63 day horizons, and then runs the statistics: rank information coefficients with Newey-West t, Benjamini-Hochberg FDR, Fama-MacBeth regressions, cost-adjusted quintile spreads, Deflated Sharpe and a purged walk-forward combination.</p>
+<p>The Python original is vendored in python/upstream/ and is used as the oracle. python/parity.py runs both and compares every table. This is research code and a teaching example, not investment advice.</p>
+<p><b>Who it is for</b></p>
+<ul><li>Quant developers learning q by reading a complete, tested study</li><li>Researchers who want a reference for Newey-West, FDR, Fama-MacBeth and Deflated Sharpe on a signal panel</li><li>Teams validating a q port against a Python reference</li></ul>
+<div class="warn"><b>Not for.</b><ul><li>Investment advice: this is not investment advice and the sample data says nothing about any market</li><li>Anyone without a KDB-X licence: q is required to run the study (the free Community Edition is enough)</li><li>Production trading: it is a research study, not an execution system</li></ul></div>
+<h2>What you need</h2>
+<div class="tw"><table><tr><th>Requirement</th><th>Why</th><th>How to get it</th></tr><tr><td>KDB-X Community Edition (q)</td><td>runs the study</td><td>Register with KX and run their installer; q lands in ~/.kx/bin (check the KX licence terms)</td></tr><tr><td>Python 3.10+ with pandas, numpy, scipy, duckdb, pytest</td><td>the upstream oracle and the parity script</td><td>pip install -r requirements.txt</td></tr></table></div>
+<h2>Get the code and an AI assistant</h2>
+<p>You do not have to be a programmer. Get the repository, give it to an AI assistant, and ask in plain language. Any of these routes works:</p>
+<div class="tw"><table><tr><th>Tool</th><th>What you need</th><th>Best for</th></tr><tr><td><b>GitHub</b></td><td>Free account to fork or star; <code>git</code> to clone, or the green <b>Code</b> button, then <b>Download ZIP</b>, or open in <b>Codespaces</b></td><td>Getting the code and keeping up with updates</td></tr><tr><td><b>Claude Code</b></td><td>Claude subscription or API key; run <code>claude</code> inside the cloned folder</td><td>Letting the AI read and run the whole repo</td></tr><tr><td><b>Gemini CLI</b></td><td>Google account; run <code>gemini</code> inside the cloned folder</td><td>The same hands-on workflow with Gemini</td></tr><tr><td><b>Claude.ai, Gemini or ChatGPT in the browser</b></td><td>A chat account; upload <code>README.md</code> and the files you care about (or paste the output of <code>git ls-files</code>)</td><td>Understanding the project and asking questions without installing anything</td></tr><tr><td><b>Other tools</b> (Copilot Chat, Cursor, Codex CLI)</td><td>Open the cloned folder in the tool and point it at <code>README.md</code> first</td><td>Editing and extending the code</td></tr></table></div>
+<pre><code>git clone https://github.com/herrrickshaw/global-market-kdb.git
+cd global-market-kdb
+claude      # or: gemini</code></pre>
+<h2>Install</h2><ol><li>Clone the repository<pre><code>git clone https://github.com/herrrickshaw/global-market-kdb.git
+cd global-market-kdb</code></pre></li><li>Create an environment and install the requirements<pre><code>python3 -m venv .venv
+.venv/bin/pip install -r requirements.txt
+export PATH=$HOME/.kx/bin:$PATH</code></pre></li></ol>
+<h2>Quick start: commands and what you should see</h2>
+<p><b>Run the parity check on the synthetic sample</b></p>
+<pre><code>.venv/bin/python python/parity.py</code></pre>
+<p>It loads the CSV into a q database, runs the q study and the Python study, and prints a comparison table ending in PASS (about 10 seconds on my Mac).</p>
+<p><b>Run the tests</b></p>
+<pre><code>.venv/bin/python -m pytest -q</code></pre>
+<p>10 passed.</p>
+<p><b>Run q directly</b></p>
+<pre><code>q q/load.q -csv data/sample/ohlcv.csv -hdb db
+q q/run.q -hdb db -univ 100 -start 2019.01.01 -out out/q</code></pre>
+<p>CSV tables (ic_table, health, costs, fama_macbeth_10d, walk_forward_10d, ic_series) appear in out/q.</p>
+<h2>Sample outputs</h2><p>Real output from a run on the date shown in the sources line; trimmed to fit.</p>
+<p><b>Parity check, 5 Nov 2026</b></p>
+<pre><code>.venv/bin/python python/parity.py
+q: 142483 bars, 1 market(s)
+parity on ohlcv.csv: n=100, start=2019-01-01, atol=1e-10, rtol=1e-08
+           table  rows  max_abs_diff  mismatches  pass
+       ic_series 10032      0.00e+00           0  True
+        ic_table    48      1.35e-13           0  True
+fama_macbeth_10d    11      4.27e-14           0  True
+           costs    33      4.55e-13           0  True
+walk_forward_10d     5      1.39e-17           0  True
+          health    11      4.44e-16           0  True
+exempt (null pattern only): ic_table lowvol [&#x27;neutral_ic&#x27;, &#x27;neutral_t&#x27;] - degenerate upstream value, see README
+PASS</code></pre>
+<p>Trimmed: the &#x27;worst&#x27; column and the data-write line are omitted.</p>
+<p><b>First rows of out/q/ic_table.csv (synthetic data)</b></p>
+<pre><code>head -4 out/q/ic_table.csv  # selected columns
+market signal h  mean_ic  nw_t   p      hit    q_bh
+SYN    rev5   5  0.0056   0.723  0.471  0.512  0.945
+SYN    rev5   10 0.0017   0.222  0.825  0.502  0.963
+SYN    rev5   21 0.0117   1.379  0.169  0.507  0.941</code></pre>
+<p>Values rounded; all q-values are far from significant, as expected for random data.</p>
+<p><b>Signal health on the synthetic sample</b></p>
+<pre><code>cut -d, -f1,2,7 out/q/health.csv
+All 11 signal rows: status NOISE</code></pre>
+<p>The study correctly reports no signal in random prices.</p>
+<h2>Ways to use it</h2>
+<div class="tw"><table><tr><th>Method</th><th>How it works</th></tr><tr><td>Read it</td><td>Start with q/study.q and q/stats.q, then compare with python/upstream/ to see the same method in both languages.</td></tr><tr><td>Rerun on your own bars</td><td>Use python/extract_sample.py to produce a CSV, then python/parity.py --csv your.csv. Mind your data licence.</td></tr><tr><td>Reuse the statistics</td><td>The Newey-West, BH-FDR and Deflated Sharpe functions are self-contained in q/stats.q.</td></tr></table></div>
+<h2>Sample prompts for your AI assistant</h2><p>Copy, paste and edit the parts in [brackets].</p>
+<ul><li>Read README.md in this repository and explain in plain English what global-market-kdb does and how to run it.</li><li>List every command in the README, mark which need extra software or a licence and which run offline, then run the offline ones and show the output.</li><li>Explain how the parity test decides that the q output equals the Python output, and why lowvol is exempted.</li><li>Walk me through q/stats.q and explain the Newey-West t function in plain English.</li><li>Review the &#x27;limits&#x27; section of the README and tell me which results I should not trust yet and why.</li><li>Suggest three small, safe extensions to this project and sketch the code for the simplest one.</li></ul>
+<h2>Limits and honest caveats</h2>
+<div class="warn"><ul><li>Not investment advice. The committed sample is synthetic and no printed number says anything about any market.</li><li>Needs q (KDB-X Community Edition, free but licensed). I did not run the PyKX route or the Parquet warehouse route, which need extra data or a licence file.</li><li>The README&#x27;s real-data parity rows (US + India slice) were not re-run by me; I only ran the bundled sample.</li><li>lowvol neutralised IC is floating-point noise by construction, so parity checks only its null pattern.</li></ul></div>
+<p class="src">Sources: the global-market-kdb README, q/ and python/ folders, run on 5 November 2026 in a scratch clone and throwaway virtual environment, with q from KDB-X Community Edition. Only the bundled synthetic sample was used.</p>
+<div id="changelog" class="note">
+<b>Revision history.</b>
+<ul>
+<li><b>v1.0.0</b> &mdash; 5 November 2026 &mdash; first published.</li>
+</ul>
+</div>
+
+
+<style>/* gs-light-lock-v1 */.htuglobal{--ink:#111!important;--accent:#8a4b08!important;--rule:#e8dcc4!important;--panel:#fdf7ec!important;--good:#1a7a4c!important;--good-soft:#eaf6ef!important;--bad:#a5402c!important;--bad-soft:#fff4f0!important}</style>
+<p class="disclaimer" data-gs-ai-disclosure-v1="1"><strong>About this article:</strong> Researched, written and edited by Umashankar Triplicane Dwarakanathan, with AI research assistance; every figure is meant to trace to the primary source cited. See the <a href="https://masaladeutsch.blogspot.com/p/disclaimer.html">Editorial Policy</a> for how sourcing, AI use and corrections work.</p>
+
+</div>

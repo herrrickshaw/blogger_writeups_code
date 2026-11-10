@@ -1,0 +1,262 @@
+<div class="artx htumarket">
+<style>
+/* ---- typography (gs-typo-unify-v1): keep in sync across all posts ---- */
+.htumarket{font-family:Georgia,'Times New Roman',serif;line-height:1.6;color:#111}
+.htumarket h1,.htumarket h2,.htumarket h3{line-height:1.3}
+
+/* ---- palette: define every colour as a custom property here. Do not add
+       raw hex elsewhere in a post's <style> block — reference these vars, so
+       a future palette change is a 4-line edit instead of a find-and-replace
+       across every post. ----
+   --ink     #111    body text, light-locked (see below)
+   --accent  #8a4b08  eyebrow text, h2 rule, table header bg, stat numbers —
+                       the one colour that carries this post's "brand"
+   --rule    #e8dcc4  hairline borders, h2 underline, table cell borders
+   --panel   #fdf7ec  stat-card bg, even table rows — the palette's one tint
+*/
+.htumarket{--ink:#111;--accent:#8a4b08;--rule:#e8dcc4;--panel:#fdf7ec;--good:#1a7a4c;--good-soft:#eaf6ef;--bad:#a5402c;--bad-soft:#fff4f0}
+
+/* ---- mono-label convention (added 2026-09-17, borrowed from the
+       india-trade-sector-policy-recommendations design system): the eyebrow
+       kicker and the source line read as data-journalism metadata, not
+       article prose, so they get a monospace face — a system stack, not a
+       hosted webfont, so no post gains an extra network request or a
+       flash-of-unstyled-text risk. Body text (h1/p/li/table) keeps the
+       serif — this is a two-place accent, not a font-pairing overhaul. ---- */
+.htumarket{--mono:ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace}
+
+/* ---- light lock (gs-light-lock): a dark Blogger theme (and a browser/OS
+       set to prefers-color-scheme:dark) must not repaint text. Re-assert
+       the same values with !important — verified 2026-08-14 across 5 live
+       posts with the browser's colour scheme forced to dark: body/h1/p/table
+       all stayed light-background/dark-text with no low-contrast pairs.
+       Do NOT add selectors here for panels that are meant to be dark —
+       those go in the guard below. ---- */
+.htumarket,.htumarket p,.htumarket li,.htumarket td,.htumarket th{color:var(--ink)!important}
+.htumarket{background:#fff!important}
+
+/* ---- structure: title + subtitle ----
+   .eyebrow    = the small-caps kicker ABOVE the h1 — "Section · Topic ·
+                 Subtopic", sets context before the reader hits the claim
+   h1          = the headline itself. Write it as the CLAIM, not the topic
+                 ("The Rouble Is the Outlier, Not the Dollar" beats
+                 "Currency Trends Update"). font-size 1.5rem is the deliberate
+                 site-wide size — do not bump it per-post.
+   .standfirst = the one/two-sentence SUBTITLE directly under the h1. This is
+                 also what Blogger's snippet extractor and the JSON-LD meta
+                 description both read (see the gs-head-order block below) —
+                 write it as a real, complete sentence a reader could act on,
+                 not a fragment.
+*/
+.htumarket .eyebrow{font-size:.8rem;font-weight:700;letter-spacing:.04em;color:var(--accent);text-transform:uppercase;margin:0 0 6px;font-family:var(--mono)}
+.htumarket h1{margin:0 0 10px;font-size:1.5rem}
+.htumarket .standfirst{font-size:1.05rem;color:#333!important;margin:0 0 18px}
+.htumarket .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px;margin:18px 0}
+.htumarket .stat{background:var(--panel);border:1px solid var(--rule);border-radius:10px;padding:12px 14px}
+.htumarket .stat b{display:block;font-size:1.2rem;color:var(--accent)}
+.htumarket .stat span{font-size:.8rem}
+.htumarket h2{color:var(--accent);border-bottom:2px solid var(--rule);padding-bottom:6px;margin-top:30px;font-size:1.15rem}
+
+/* ---- tables: units live in the header, cells carry bare numbers.
+       .tw is the mobile-overflow fix — see the MOBILE comment above. ---- */
+.htumarket .tw{overflow-x:auto}
+.htumarket table{width:100%;border-collapse:collapse;margin:14px 0;font-size:.88rem}
+.htumarket th,.htumarket td{border:1px solid var(--rule);padding:7px 9px;text-align:right;word-wrap:break-word;overflow-wrap:break-word}
+.htumarket th:first-child,.htumarket td:first-child{text-align:left}
+.htumarket th{background:var(--accent);color:#fff!important;font-weight:600}
+.htumarket tr:nth-child(even){background:var(--panel)}
+
+.htumarket .note{background:#eef4ff;border-left:4px solid #2a78d6;padding:12px 16px;margin:18px 0;border-radius:0 8px 8px 0;font-size:.93rem}
+.htumarket .warn{background:var(--bad-soft);border-left:4px solid var(--bad);padding:12px 16px;margin:18px 0;border-radius:0 8px 8px 0;font-size:.93rem}
+/* ---- .good (added 2026-09-17): third semantic tier alongside .note (neutral
+       framing) and .warn (a caveat/scope limit) — for the case a caveat block
+       would otherwise get stretched to cover: confirming a figure checked out,
+       a correction that resolved cleanly, a claim that survived cross-check.
+       Same shape as .note/.warn on purpose, so all three read as one family. */
+.htumarket .good{background:var(--good-soft);border-left:4px solid var(--good);padding:12px 16px;margin:18px 0;border-radius:0 8px 8px 0;font-size:.93rem}
+/* ---- .chip (added 2026-09-17): formalises a labelling pattern several posts
+       already built ad hoc in JS (e.g. "PLI coverage: strong/partial/gap")
+       into one reusable inline component, so a new post doesn't reinvent it.
+       Use inline: <span class="chip chip-good">Strong</span>. ---- */
+.htumarket .chip{display:inline-block;font-family:var(--mono);font-size:.72rem;font-weight:700;letter-spacing:.02em;padding:.15rem .5rem;border-radius:99px;line-height:1.5}
+.htumarket .chip-good{background:var(--good-soft);color:var(--good)}
+.htumarket .chip-warn{background:var(--panel);color:var(--accent)}
+.htumarket .chip-bad{background:var(--bad-soft);color:var(--bad)}
+.htumarket .src{font-size:.84rem;font-family:var(--mono);border-top:1px solid var(--rule);padding-top:12px;margin-top:24px}
+.htumarket .disclaimer{font-size:.82rem;color:#555;margin-top:10px}
+.htumarket .revised{font-size:.8rem;color:#555!important;margin:0 0 14px}
+.htumarket .revised code{font-family:inherit;background:var(--panel);padding:1px 5px;border-radius:4px}
+</style>
+
+
+<div class="gs-head-order" style="display:flex;flex-direction:column">
+<p class="standfirst" style="order:4">One Python file that fetches settled closes for 15 Indian and 15 US large caps from yfinance, computes day change, 50/200-day cross and a Darvas box signal, and writes a self-contained HTML brief. No cache, no state, and a missing price is never treated as zero.</p>
+<div class="topnav-index-link" style="order:1;font-size:.82em;margin:6px 0 14px"><a href="https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html" style="color:#0b5394;text-decoration:none">&#8592; All Articles (Index)</a></div>
+<p class="eyebrow" style="order:2">Open-Source Tools · How-To · Markets research</p>
+<h1 style="order:3">How to use market-brief-base: a one-file daily market brief for 30 India and US large caps that fails loudly, not silently</h1>
+</div>
+
+
+<a href="#" id="gs-skip-link" class="gs-skip-link" style="position:absolute;left:-9999px;top:auto;background:#1a1a1a;color:#fff;padding:.6rem 1rem;z-index:1000;border-radius:4px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.85rem">Skip to article content</a>
+<style>.gs-skip-link:focus{left:8px!important;top:8px!important}
+.gs-a11y-bar{display:flex;align-items:center;gap:.55rem;flex-wrap:wrap;background:#f4f5f7;border:1px solid #dfe3e8;border-radius:8px;padding:.55rem .8rem;margin:10px 0 16px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
+.gs-a11y-bar .gs-a11y-label{font-size:.68rem;font-weight:700;letter-spacing:.08em;color:#666;text-transform:uppercase;margin-right:.15rem}
+.gs-a11y-bar button{cursor:pointer;border:1px solid #c7cbd1;background:#fff;color:#1a1a1a;border-radius:5px;padding:.32rem .65rem;font-family:inherit;line-height:1}
+.gs-a11y-bar button.gs-a11y-fs{font-weight:700;min-width:2rem;text-align:center}
+.gs-a11y-bar button.gs-a11y-fs[data-size="sm"]{font-size:.8rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="md"]{font-size:1rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="lg"]{font-size:1.2rem}
+.gs-a11y-bar button.gs-a11y-fs[aria-pressed="true"]{background:#1a1a1a;color:#fff;border-color:#1a1a1a}
+.gs-a11y-bar button:hover{border-color:#8a4b08}
+.gs-a11y-bar button:focus-visible{outline:2px solid #8a4b08;outline-offset:1px}
+.gs-a11y-bar .gs-a11y-sep{width:1px;align-self:stretch;background:#dfe3e8;margin:0 .1rem}</style>
+<div class="gs-a11y-bar" role="group" aria-label="Accessibility controls">
+<span class="gs-a11y-label">Text Size</span>
+<button type="button" class="gs-a11y-fs" data-size="sm" aria-pressed="false" aria-label="Small text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="md" aria-pressed="true" aria-label="Medium text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="lg" aria-pressed="false" aria-label="Large text">A</button>
+<span class="gs-a11y-sep"></span>
+<button type="button" id="gs-a11y-listen" aria-label="Read this article aloud">&#128266; Listen</button>
+<button type="button" id="gs-a11y-stop" aria-label="Stop reading aloud">&#9632; Stop</button>
+</div>
+<script>(function(){
+var KEY='gs-a11y-fontsize', SIZES={sm:'0.92',md:'1',lg:'1.15'};
+function pb(){return document.querySelector('.post-body')||document.querySelector('.artx,.mdrx');}
+function apply(sz){
+  var el=pb(); if(!el||!SIZES[sz]) return;
+  el.style.fontSize=SIZES[sz]+'em';
+  var btns=document.querySelectorAll('.gs-a11y-fs');
+  for(var i=0;i<btns.length;i++){
+    var on=btns[i].getAttribute('data-size')===sz;
+    btns[i].setAttribute('aria-pressed', on?'true':'false');
+  }
+  try{localStorage.setItem(KEY,sz);}catch(e){}
+}
+var fsBtns=document.querySelectorAll('.gs-a11y-fs');
+for(var j=0;j<fsBtns.length;j++){
+  fsBtns[j].addEventListener('click',(function(b){return function(){apply(b.getAttribute('data-size'));};})(fsBtns[j]));
+}
+var saved; try{saved=localStorage.getItem(KEY);}catch(e){}
+apply(saved&&SIZES[saved]?saved:'md');
+
+var listenBtn=document.getElementById('gs-a11y-listen'), stopBtn=document.getElementById('gs-a11y-stop');
+if(listenBtn){
+  listenBtn.addEventListener('click', function(){
+    if(!('speechSynthesis' in window)){ alert('Text-to-speech is not supported in this browser.'); return; }
+    window.speechSynthesis.cancel();
+    var src=pb(); if(!src) return;
+    var clone=src.cloneNode(true);
+    var strip=clone.querySelectorAll('script,style,svg');
+    for(var k=0;k<strip.length;k++){ strip[k].parentNode.removeChild(strip[k]); }
+    var text=clone.textContent.replace(/\s+/g,' ').trim();
+    if(!text) return;
+    var chunks=text.match(/[\s\S]{1,180}(?:[.!?]|$)/g)||[text];
+    var idx=0;
+    function speakNext(){
+      if(idx>=chunks.length) return;
+      var u=new SpeechSynthesisUtterance(chunks[idx]);
+      u.onend=function(){ idx++; speakNext(); };
+      window.speechSynthesis.speak(u);
+    }
+    speakNext();
+  });
+}
+if(stopBtn){
+  stopBtn.addEventListener('click', function(){
+    if('speechSynthesis' in window) window.speechSynthesis.cancel();
+  });
+}
+var skip=document.getElementById('gs-skip-link');
+if(skip){
+  skip.addEventListener('click', function(ev){
+    ev.preventDefault();
+    var h=document.querySelector('.post-body h1')||document.querySelector('.artx h1,.mdrx h1,h1');
+    if(h){ h.setAttribute('tabindex','-1'); h.focus(); h.scrollIntoView(); }
+  });
+}
+})();</script>
+<style>.goog-te-menu-frame{max-width:340px!important;max-height:70vh!important;overflow:auto!important;box-shadow:0 6px 24px rgba(0,0,0,.25)!important}</style>
+<div id="google_translate_element" style="margin:8px 0 16px;"></div><script type="text/javascript">function googleTranslateElementInit(){new google.translate.TranslateElement({pageLanguage:"en",includedLanguages:"hi,bn,ta,te,mr,gu,kn,ml,pa,or,as,ur,sa,ne,sd",layout:google.translate.TranslateElement.InlineLayout.SIMPLE,autoDisplay:false},"google_translate_element");}</script><script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+
+<p class="revised" data-gs-revision-v1="1">Revised
+<time datetime="2026-11-06" itemprop="dateModified">6 November 2026</time>
+&middot; <code>v1.0.0</code> &middot; <a href="#changelog">what changed</a></p>
+
+<style>.htumarket pre{background:#f6f3ea!important;color:#111!important;border:1px solid var(--rule);border-radius:8px;padding:10px 12px;overflow-x:auto;font-size:.82rem;line-height:1.45}.htumarket pre code{background:none!important;color:#111!important;font-family:var(--mono)}.htumarket code{font-family:var(--mono);font-size:.88em}.htumarket .vid{position:relative;padding-bottom:56.25%;height:0;margin:16px 0;max-width:100%}.htumarket .vid iframe{position:absolute;inset:0;width:100%;height:100%;border:0}</style><div class="stats"><div class="stat"><b>30</b><span>stocks: 15 India (.NS) and 15 US</span></div><div class="stat"><b>12</b><span>offline self-test checks passed</span></div><div class="stat"><b>30 of 30</b><span>tickers priced in the live run</span></div><div class="stat"><b>7.6 s</b><span>wall-clock time for the live run</span></div></div>
+<p>Code: <a href="https://github.com/herrrickshaw/market-brief-base">github.com/herrrickshaw/market-brief-base</a></p>
+<h2>Why it is useful</h2>
+<ul><li>Retail investors and students who follow a small set of large caps get a daily answer to &#x27;did anything happen?&#x27; in one HTML file, with the bar date printed next to every price.</li><li>It replaces fragile multi-source pipelines with one file and one data source (yfinance), pinned dependencies, and failure rules written down: a failed market is named in the output, and if nothing fetches the script exits non-zero instead of sending an empty brief.</li><li>Evidence from the run: the offline self-test passed 12 checks, including &#x27;a NaN final close is NO_DATA, not a fabricated zero&#x27;, and the live run priced 30 of 30 tickers in about 7.6 seconds.</li><li>It is also a compact worked example of defensive design: no zero-filling, hardcoded universe, dates on every number.</li></ul>
+<h2>What it is for</h2>
+<p>market-brief-base is the deliberately minimal floor beneath a larger pipeline. For 30 hardcoded large caps it reports the last settled close and its bar date, the day change, a 50/200-day moving-average cross label and a Darvas box state (IN_BOX, BREAKOUT_BUY, BREAKDOWN_SELL or NO_DATA), then renders HTML and can optionally email it.</p>
+<p>The labels are mechanical screen states for research and education. They are not recommendations.</p>
+<p><b>Who it is for</b></p>
+<ul><li>Self-directed investors who want a plain daily summary of a few large caps</li><li>Students learning Darvas boxes and moving-average crosses on real data</li><li>Developers who want a template for a reliable scheduled report</li></ul>
+<div class="warn"><b>Not for.</b><ul><li>Investment advice: this is not investment advice, and nothing here is a recommendation to buy or sell</li><li>Intraday or real-time prices: it uses settled daily bars</li><li>Broad coverage: it is hardcoded to 30 stocks and has no fundamentals, news or watchlist</li></ul></div>
+<h2>What you need</h2>
+<div class="tw"><table><tr><th>Requirement</th><th>Why</th><th>How to get it</th></tr><tr><td>Python 3.11 (or another version compatible with the pinned pandas 2.3.3 and yfinance 0.2.66)</td><td>requirements.txt pins both so laptop and CI behave identically</td><td>pip install -r requirements.txt inside a virtual environment; run.sh creates the venv for you</td></tr><tr><td>Internet access</td><td>yfinance downloads about one year of daily bars</td><td>Any connection; no account needed</td></tr><tr><td>SMTP credentials (optional)</td><td>Only for --email; you would create a NEW app password and put it in a local .env</td><td>Skip for this walkthrough; never commit .env</td></tr><tr><td>A terminal and git</td><td>To clone and run</td><td>Terminal on macOS/Linux, or Git Bash/WSL on Windows</td></tr></table></div>
+<h2>Get the code and an AI assistant</h2>
+<p>You do not have to be a programmer. Get the repository, give it to an AI assistant, and ask in plain language. Any of these routes works:</p>
+<div class="tw"><table><tr><th>Tool</th><th>What you need</th><th>Best for</th></tr><tr><td><b>GitHub</b></td><td>Free account to fork or star; <code>git</code> to clone, or the green <b>Code</b> button, then <b>Download ZIP</b>, or open in <b>Codespaces</b></td><td>Getting the code and keeping up with updates</td></tr><tr><td><b>Claude Code</b></td><td>Claude subscription or API key; run <code>claude</code> inside the cloned folder</td><td>Letting the AI read and run the whole repo</td></tr><tr><td><b>Gemini CLI</b></td><td>Google account; run <code>gemini</code> inside the cloned folder</td><td>The same hands-on workflow with Gemini</td></tr><tr><td><b>Claude.ai, Gemini or ChatGPT in the browser</b></td><td>A chat account; upload <code>README.md</code> and the files you care about (or paste the output of <code>git ls-files</code>)</td><td>Understanding the project and asking questions without installing anything</td></tr><tr><td><b>Other tools</b> (Copilot Chat, Cursor, Codex CLI)</td><td>Open the cloned folder in the tool and point it at <code>README.md</code> first</td><td>Editing and extending the code</td></tr></table></div>
+<pre><code>git clone https://github.com/herrrickshaw/market-brief-base.git
+cd market-brief-base
+claude      # or: gemini</code></pre>
+<h2>Install</h2><ol><li>Clone and enter the repo<pre><code>git clone https://github.com/herrrickshaw/market-brief-base.git
+cd market-brief-base</code></pre></li><li>Either let run.sh build the venv, or do it by hand<pre><code>./run.sh --self-test
+# or by hand:
+python3 -m venv .venv &amp;&amp; source .venv/bin/activate
+pip install -r requirements.txt</code></pre></li></ol>
+<h2>Quick start: commands and what you should see</h2>
+<p><b>Verify the signal logic offline</b></p>
+<pre><code>python brief.py --self-test</code></pre>
+<p>A list of PASS lines ending with &#x27;self-test: OK&#x27;. No network needed.</p>
+<p><b>Produce today&#x27;s brief</b></p>
+<pre><code>python brief.py --out brief.html</code></pre>
+<p>&#x27;India: 15/15 priced&#x27;, &#x27;US: 15/15 priced&#x27;, then &#x27;wrote brief.html&#x27;. Open the HTML in a browser.</p>
+<h2>Sample outputs</h2><p>Real output from a run on the date shown in the sources line; trimmed to fit.</p>
+<p><b>Offline self-test (run 6 Nov 2026)</b></p>
+<pre><code>python brief.py --self-test
+  PASS  decisive break above the box is BREAKOUT_BUY
+  PASS  decisive break below the box is BREAKDOWN_SELL
+  PASS  a NaN final close is NO_DATA, not a fabricated zero
+  PASS  sma returns None rather than inventing a short average
+  PASS  sma ignores NaN instead of treating it as zero
+  email: not configured (SMTP_USER, SMTP_PASS, SMTP_TO) — skipping send
+  PASS  unconfigured send skips cleanly instead of raising
+
+  self-test: OK</code></pre>
+<p>Trimmed; 12 PASS lines in total.</p>
+<p><b>Live run (6 Nov 2026), console summary</b></p>
+<pre><code>python brief.py --out brief.html
+  India: 15/15 priced
+  US: 15/15 priced
+  wrote brief.html (7,086 bytes)</code></pre>
+<p>About 7.6 seconds wall-clock.</p>
+<p><b>Excerpt of the HTML table (bars as of 4-5 Nov 2026)</b></p>
+<pre><code>open brief.html
+Symbol       Close      As of       Day     Trend         Darvas
+TCS.NS       2,436.00   2026-11-04  -2.52%  Death Cross   IN_BOX
+TITAN.NS     4,754.40   2026-11-04  +4.22%  Golden Cross  BREAKOUT_BUY
+AAPL         344.17     2026-11-05  -1.53%  Golden Cross  IN_BOX
+MSFT         535.93     2026-11-05  -3.58%  Golden Cross  IN_BOX
+NVDA         181.60     2026-11-05  -9.26%  Golden Cross  BREAKDOWN_SELL</code></pre>
+<p>Five of 30 rows, from public Yahoo Finance data via yfinance. Mechanical screen states on one day&#x27;s data, not advice. India and US rows carry different bar dates because the markets close at different times; the bar date is printed on every row.</p>
+<h2>Ways to use it</h2>
+<div class="tw"><table><tr><th>Method</th><th>How it works</th></tr><tr><td>Run locally</td><td>./run.sh writes brief.html; open it in a browser.</td></tr><tr><td>Schedule it</td><td>The repo includes a GitHub Actions workflow (weekdays 01:00 UTC) and a launchd plist; without email secrets the workflow uploads the brief as an artifact. Keep the repo private if you set email secrets.</td></tr><tr><td>Change the universe</td><td>Edit the UNIVERSE dict at the top of brief.py (use exchange-qualified tickers such as .NS for NSE) and re-run the self-test.</td></tr><tr><td>Through an AI assistant</td><td>Open the folder in Claude Code or Gemini CLI and ask it to explain the Darvas logic or add a sector column, or upload brief.py to a chat assistant.</td></tr></table></div>
+<h2>Sample prompts for your AI assistant</h2><p>Copy, paste and edit the parts in [brackets].</p>
+<ul><li>Explain this repository in plain English: what does brief.py do, and why is it deliberately a single file?</li><li>Run the self-test and then the live brief, and summarise which stocks are in BREAKOUT_BUY versus IN_BOX, with their bar dates.</li><li>Explain how brief.py defines the Darvas box and why the current bar is excluded when forming it.</li><li>Change the universe to [my 10 exchange-qualified tickers] and run the self-test to confirm nothing broke.</li><li>Why can a stock be labelled BREAKOUT_BUY and Death Cross at the same time? Explain what each indicator measures.</li></ul>
+<h2>Limits and honest caveats</h2>
+<div class="warn"><ul><li>Educational and research only: this is not investment advice, and the labels are not buy or sell recommendations.</li><li>Data come from Yahoo Finance via yfinance, which can change or rate-limit; the script fails soft per market and exits non-zero if nothing fetches.</li><li>The Darvas label and the 50/200 cross measure different things, so combinations like BREAKOUT_BUY with Death Cross are normal in the output.</li><li>I ran it on Python 3.11 with the pinned versions; I did not test other Python versions against the pins.</li><li>I did not test email sending, GitHub Actions or the launchd plist. Never commit SMTP credentials; the README warns to use a new app password.</li><li>The brief reflects one day&#x27;s settled bars (4-5 November 2026); your numbers will differ.</li></ul></div>
+<p class="src">Sources: the market-brief-base README and brief.py; --self-test and one live run of brief.py (yfinance 0.2.66, pandas 2.3.3, Python 3.11) on 6 November 2026 on a fresh clone in a throwaway virtual environment.</p>
+<div id="changelog" class="note">
+<b>Revision history.</b>
+<ul>
+<li><b>v1.0.0</b> &mdash; 6 November 2026 &mdash; first published.</li>
+</ul>
+</div>
+
+
+<style>/* gs-light-lock-v1 */.htumarket{--ink:#111!important;--accent:#8a4b08!important;--rule:#e8dcc4!important;--panel:#fdf7ec!important;--good:#1a7a4c!important;--good-soft:#eaf6ef!important;--bad:#a5402c!important;--bad-soft:#fff4f0!important}</style>
+<p class="disclaimer" data-gs-ai-disclosure-v1="1"><strong>About this article:</strong> Researched, written and edited by Umashankar Triplicane Dwarakanathan, with AI research assistance; every figure is meant to trace to the primary source cited. See the <a href="https://masaladeutsch.blogspot.com/p/disclaimer.html">Editorial Policy</a> for how sourcing, AI use and corrections work.</p>
+
+</div>
