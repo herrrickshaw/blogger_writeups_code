@@ -19,7 +19,7 @@
 <!-- Archive, search and label listings are auto-generated snippet pages: keep
      them out of the index (they stay fully usable) so crawlers and reviewers
      judge the site on its articles and pages, not on hundreds of thin lists. -->
-<b:if cond='data:view.isArchive or data:view.isSearch or data:view.isLabelSearch or data:view.isError'>
+<b:if cond='data:blog.pageType == &quot;archive&quot; or data:blog.pageType == &quot;error_page&quot; or data:blog.searchLabel or data:blog.searchQuery'>
   <meta content='noindex,follow' name='robots'/>
 </b:if>
 <b:include data='blog' name='all-head-content'/>
