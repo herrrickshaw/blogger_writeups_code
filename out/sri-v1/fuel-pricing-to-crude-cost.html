@@ -1,0 +1,614 @@
+<div class="gs-head-order" style="display:flex;flex-direction:column">
+<p style="order:4" class="dek">Petrol and diesel at the pump are not a simple pass-through of the crude oil
+price &mdash; they run through a fixed-rate excise duty, a dealer commission and a
+percentage state VAT before they reach the retail selling price (RSP). This piece builds
+that chain from PPAC's own published price structure, re-prices it against live crude
+benchmarks from Rigzone and OilPriceAPI, and runs it across all 35 state capitals to show
+how much of a crude move actually reaches the pump &mdash; and how much gets held back or
+amplified by tax design.</p>
+<div class="topnav-index-link" style="order:1;font-size:.82em;margin:6px 0 14px"><a href="https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html" style="color:#0b5394;text-decoration:none">&larr; All Articles (Index)</a></div>
+<div style="order:2" class="kick">Energy pricing &middot; Crude oil &middot; 5 August 2026</div>
+<h1 style="order:3">Fuel Pricing to Crude Cost</h1>
+</div>
+
+<figure class="gb-figure" style="margin:1.5rem 0 1.75rem;text-align:center">
+<svg role="img" style="width:100%;height:auto;max-width:700px;display:block;margin:0 auto" viewBox="0 0 700 380" xmlns="http://www.w3.org/2000/svg" font-family="Georgia,'Times New Roman',serif">
+  <rect x="0" y="0" width="700" height="380" fill="#f8f9fa" />
+  <text x="350" y="30" text-anchor="middle" font-size="18" font-weight="bold" fill="#0b1a2a">What builds ₹1 of petrol vs. diesel, Delhi</text>
+  <text x="350" y="49" text-anchor="middle" font-size="12.5" fill="#5a666e">PPAC price build-up, ₹/litre, as on 01.10.2025</text>
+
+  
+  <line x1="90" y1="320" x2="610" y2="320" stroke="#0b1a2a" stroke-width="1.5" />
+
+  
+  <g>
+    <rect x="150" y="181.17" width="160" height="138.83" fill="#0b5794" />
+    <rect x="150" y="123.87" width="160" height="57.3" fill="#c0392b" />
+    <rect x="150" y="112.33" width="160" height="11.54" fill="#8a8f96" />
+    <rect x="150" y="72.0" width="160" height="40.33" fill="#1a8f4c" />
+    <text x="230" y="337" text-anchor="middle" font-size="13.5" font-weight="bold" fill="#0b1a2a">Petrol</text>
+    <text x="230" y="66.4" text-anchor="middle" font-size="12" fill="#0b1a2a" font-weight="bold">RSP ₹94.77/l</text>
+
+    <text x="230" y="255.2" text-anchor="middle" font-size="11.5" fill="#fff">Dealer price ₹53.07</text>
+    <text x="230" y="155.1" text-anchor="middle" font-size="11.5" fill="#fff">Excise ₹21.90</text>
+    <text x="316" y="121.7" text-anchor="start" font-size="10.5" fill="#5a666e">Commission ₹4.40</text>
+    <text x="230" y="95.0" text-anchor="middle" font-size="11.5" fill="#fff">VAT ₹15.40</text>
+  </g>
+
+  
+  <g>
+    <rect x="420" y="171.8" width="160" height="148.2" fill="#0b5794" />
+    <rect x="420" y="123.0" width="160" height="48.8" fill="#c0392b" />
+    <rect x="420" y="114.7" width="160" height="8.3" fill="#8a8f96" />
+    <rect x="420" y="79.5" width="160" height="35.2" fill="#1a8f4c" />
+    <text x="500" y="337" text-anchor="middle" font-size="13.5" font-weight="bold" fill="#0b1a2a">Diesel</text>
+    <text x="500" y="74" text-anchor="middle" font-size="12" fill="#0b1a2a" font-weight="bold">RSP ₹87.67/l</text>
+
+    <text x="500" y="250" text-anchor="middle" font-size="11.5" fill="#fff">Dealer price ₹54.01</text>
+    <text x="500" y="151" text-anchor="middle" font-size="11.5" fill="#fff">Excise ₹17.80</text>
+    <text x="586" y="121" text-anchor="start" font-size="10.5" fill="#5a666e">Commission ₹3.03</text>
+    <text x="500" y="101" text-anchor="middle" font-size="11.5" fill="#fff">VAT ₹12.83</text>
+  </g>
+
+  
+  <g font-size="11.5" fill="#0b1a2a">
+    <rect x="90" y="352" width="12" height="12" fill="#0b5794" />
+    <text x="106" y="362">Dealer price (crude-linked)</text>
+    <rect x="290" y="352" width="12" height="12" fill="#c0392b" />
+    <text x="306" y="362">Excise (flat ₹/l)</text>
+    <rect x="430" y="352" width="12" height="12" fill="#8a8f96" />
+    <text x="446" y="362">Commission</text>
+    <rect x="545" y="352" width="12" height="12" fill="#1a8f4c" />
+    <text x="561" y="362">VAT / GST</text>
+  </g>
+  <text x="90" y="16" font-size="10.5" fill="#5a666e">Only the blue segment moves with crude — excise, commission and VAT rates are fixed policy inputs.</text>
+</svg>
+<figcaption style="font-size:.8em;color:#868e96;font-family:-apple-system,'Segoe UI',sans-serif;margin-top:.5rem">What builds a litre of petrol and diesel in Delhi — only the dealer-price layer moves with crude; excise, commission and VAT are fixed policy inputs. Source: PPAC Ready Reckoner, as on 01.10.2025.</figcaption>
+</figure>
+
+<a href="#" id="gs-skip-link" class="gs-skip-link" style="position:absolute;left:-9999px;top:auto;background:#1a1a1a;color:#fff;padding:.6rem 1rem;z-index:1000;border-radius:4px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.85rem">Skip to article content</a>
+<style>.gs-skip-link:focus{left:8px!important;top:8px!important}
+.gs-a11y-bar{display:flex;align-items:center;gap:.55rem;flex-wrap:wrap;background:#f4f5f7;border:1px solid #dfe3e8;border-radius:8px;padding:.55rem .8rem;margin:10px 0 16px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
+.gs-a11y-bar .gs-a11y-label{font-size:.68rem;font-weight:700;letter-spacing:.08em;color:#666;text-transform:uppercase;margin-right:.15rem}
+.gs-a11y-bar button{cursor:pointer;border:1px solid #c7cbd1;background:#fff;color:#1a1a1a;border-radius:5px;padding:.32rem .65rem;font-family:inherit;line-height:1}
+.gs-a11y-bar button.gs-a11y-fs{font-weight:700;min-width:2rem;text-align:center}
+.gs-a11y-bar button.gs-a11y-fs[data-size="sm"]{font-size:.8rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="md"]{font-size:1rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="lg"]{font-size:1.2rem}
+.gs-a11y-bar button.gs-a11y-fs[aria-pressed="true"]{background:#1a1a1a;color:#fff;border-color:#1a1a1a}
+.gs-a11y-bar button:hover{border-color:#8a4b08}
+.gs-a11y-bar button:focus-visible{outline:2px solid #8a4b08;outline-offset:1px}
+.gs-a11y-bar .gs-a11y-sep{width:1px;align-self:stretch;background:#dfe3e8;margin:0 .1rem}</style>
+<div class="gs-a11y-bar" role="group" aria-label="Accessibility controls">
+<span class="gs-a11y-label">Text Size</span>
+<button type="button" class="gs-a11y-fs" data-size="sm" aria-pressed="false" aria-label="Small text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="md" aria-pressed="true" aria-label="Medium text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="lg" aria-pressed="false" aria-label="Large text">A</button>
+<span class="gs-a11y-sep"></span>
+<button type="button" id="gs-a11y-listen" aria-label="Read this article aloud">&#128266; Listen</button>
+<button type="button" id="gs-a11y-stop" aria-label="Stop reading aloud">&#9632; Stop</button>
+</div>
+<script>(function(){
+var KEY='gs-a11y-fontsize', SIZES={sm:'0.92',md:'1',lg:'1.15'};
+function pb(){return document.querySelector('.post-body')||document.querySelector('.artx,.mdrx');}
+function apply(sz){
+  var el=pb(); if(!el||!SIZES[sz]) return;
+  el.style.fontSize=SIZES[sz]+'em';
+  var btns=document.querySelectorAll('.gs-a11y-fs');
+  for(var i=0;i<btns.length;i++){
+    var on=btns[i].getAttribute('data-size')===sz;
+    btns[i].setAttribute('aria-pressed', on?'true':'false');
+  }
+  try{localStorage.setItem(KEY,sz);}catch(e){}
+}
+var fsBtns=document.querySelectorAll('.gs-a11y-fs');
+for(var j=0;j<fsBtns.length;j++){
+  fsBtns[j].addEventListener('click',(function(b){return function(){apply(b.getAttribute('data-size'));};})(fsBtns[j]));
+}
+var saved; try{saved=localStorage.getItem(KEY);}catch(e){}
+apply(saved&&SIZES[saved]?saved:'md');
+
+var listenBtn=document.getElementById('gs-a11y-listen'), stopBtn=document.getElementById('gs-a11y-stop');
+if(listenBtn){
+  listenBtn.addEventListener('click', function(){
+    if(!('speechSynthesis' in window)){ alert('Text-to-speech is not supported in this browser.'); return; }
+    window.speechSynthesis.cancel();
+    var src=pb(); if(!src) return;
+    var clone=src.cloneNode(true);
+    var strip=clone.querySelectorAll('script,style,svg');
+    for(var k=0;k<strip.length;k++){ strip[k].parentNode.removeChild(strip[k]); }
+    var text=clone.textContent.replace(/\s+/g,' ').trim();
+    if(!text) return;
+    var chunks=text.match(/[\s\S]{1,180}(?:[.!?]|$)/g)||[text];
+    var idx=0;
+    function speakNext(){
+      if(idx>=chunks.length) return;
+      var u=new SpeechSynthesisUtterance(chunks[idx]);
+      u.onend=function(){ idx++; speakNext(); };
+      window.speechSynthesis.speak(u);
+    }
+    speakNext();
+  });
+}
+if(stopBtn){
+  stopBtn.addEventListener('click', function(){
+    if('speechSynthesis' in window) window.speechSynthesis.cancel();
+  });
+}
+var skip=document.getElementById('gs-skip-link');
+if(skip){
+  skip.addEventListener('click', function(ev){
+    ev.preventDefault();
+    var h=document.querySelector('.post-body h1')||document.querySelector('.artx h1,.mdrx h1,h1');
+    if(h){ h.setAttribute('tabindex','-1'); h.focus(); h.scrollIntoView(); }
+  });
+}
+})();</script>
+<style>.goog-te-menu-frame{max-width:340px!important;max-height:70vh!important;overflow:auto!important;box-shadow:0 6px 24px rgba(0,0,0,.25)!important}</style><div id="google_translate_element" style="margin:8px 0 16px;"></div><script type="text/javascript">function googleTranslateElementInit(){new google.translate.TranslateElement({pageLanguage:"en",includedLanguages:"hi,bn,ta,te,mr,gu,kn,ml,pa,or,as,ur,sa,ne,sd",layout:google.translate.TranslateElement.InlineLayout.SIMPLE,autoDisplay:false},"google_translate_element");}</script><script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+<style>/*gs-typo-unify-v1*/
+.fpx,.fpx p,.fpx li,.fpx td,.fpx th{font-family:Georgia,'Times New Roman',serif!important;}
+.fpx h1,.fpx h2,.fpx h3{font-family:Georgia,'Times New Roman',serif!important;line-height:1.3!important;}
+
+/*gs-table-v1 — scoped to .post-body, not .artx: several posts use other
+  wrapper classes (.tblwrap among them) and an .artx-scoped rule silently did
+  nothing on them. Verified on a canary post before the batch. */
+.post-body .tw{overflow-x:auto;margin:1.1rem 0}
+/* display:block makes the table its OWN scroller, so it works whether or not
+   the post wrapped it in .tw — several posts use .tblwrap or nothing, and a
+   width:auto table with no scroller pushes the whole page sideways. */
+.post-body table{display:block;overflow-x:auto;max-width:100%;width:max-content;
+ min-width:100%;border-collapse:collapse;font-size:.86rem}
+.post-body thead th,.post-body tr:first-child th{background:#111;color:#fff;font-weight:700;
+ text-align:right;vertical-align:bottom;padding:.6rem .7rem;border:1px solid #111;
+ white-space:normal;overflow-wrap:normal;word-break:keep-all;min-width:5.5rem}
+.post-body thead th:first-child,.post-body tr:first-child th:first-child{text-align:left}
+.post-body td{border:1px solid #d9d9d9;padding:.5rem .7rem;text-align:right;
+ font-variant-numeric:tabular-nums;white-space:nowrap;color:#111;background:#fff}
+.post-body td:first-child{text-align:left;white-space:normal;min-width:8rem}
+.post-body tbody tr:nth-child(even) td{background:#fafafa}
+</style>
+<style>
+.fpx{--ink:#051C2C;--mut:#5A666E;--acc:#2251FF;--accs:#EAF0FF;--line:#D4DDE5;--chip:#F4F7FB;
+ background:#fff;color:var(--ink);line-height:1.6;max-width:none}
+.fpx *{box-sizing:border-box}
+.fpx ::first-letter{font-size:inherit!important;float:none!important;font-weight:inherit!important}
+.fpx .kick{font-family:-apple-system,'Segoe UI',sans-serif!important;font-size:.72em;
+ letter-spacing:.16em;text-transform:uppercase;font-weight:700;color:var(--acc)}
+.fpx h1{font-size:2em;margin:.3rem 0 .7rem;letter-spacing:-.01em}
+.fpx .dek{color:var(--mut);font-size:.95em;max-width:76ch;margin:0 0 1.1rem}
+.fpx h2{font-family:-apple-system,'Segoe UI',sans-serif!important;font-size:1.2em;font-weight:700;
+ border-top:2px solid var(--ink);padding-top:.6rem;margin:2.2rem 0 .6rem}
+.fpx h2 .n{color:var(--mut);font-weight:400;font-size:.8em}
+.fpx .twrap{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:.4rem 0 .8rem}
+.fpx table{border-collapse:collapse;width:100%;font-family:-apple-system,'Segoe UI',sans-serif!important;
+ font-size:.82em}
+.fpx thead th{background:var(--ink);color:#fff;text-align:left;padding:7px 10px;white-space:nowrap}
+.fpx td,.fpx th{padding:6px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+.fpx tbody tr:nth-child(even){background:var(--chip)}
+.fpx .num{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+.fpx ol,.fpx ul{padding-left:1.3em}
+.fpx li{margin-bottom:.5rem}
+.fpx .src{color:var(--mut);font-size:.8em;margin:.2rem 0 1.2rem}
+.fpx .note{color:var(--mut);font-size:.82em;border-top:1px dashed var(--line);
+ margin-top:2rem;padding-top:12px;max-width:82ch}
+.fpx .warn{background:#FFF8F0;border:1px solid #F0D9B5;border-radius:10px;
+ padding:.9rem 1.1rem;margin:1rem 0;font-size:.9em;color:var(--ink)}
+.fpx .grid2{display:grid;grid-template-columns:1fr;gap:16px;margin:1rem 0}
+.fpx .card{background:var(--chip);border:1px solid var(--line);border-radius:10px;padding:14px 16px}
+.fpx .card h3{font-family:-apple-system,'Segoe UI',sans-serif!important;font-size:.95em;margin:0 0 6px}
+.fpx .cap{color:var(--mut);font-size:.8em;margin-bottom:8px}
+.fpx .chartbox{position:relative;height:280px}
+.fpx .kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin:10px 0 6px}
+.fpx .kpi{background:var(--chip);border:1px solid var(--line);border-radius:10px;padding:10px 12px}
+.fpx .kpi b{display:block;font-size:1.15em}
+.fpx .kpi span{color:var(--mut);font-size:.78em}
+.fpx select{font-family:-apple-system,'Segoe UI',sans-serif;font-size:.85em;padding:6px 8px;
+ border:1px solid var(--line);border-radius:8px;width:100%;background:#fff;color:var(--ink)}
+.fpx .filterrow{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:10px 0}
+@media(max-width:640px){.fpx thead th{font-size:.9em}.fpx .filterrow{grid-template-columns:1fr}}
+</style>
+
+<div class="fpx">
+
+
+
+
+<div class="warn" style="border-left:4px solid #a5402c;background:rgba(165,64,44,.07);padding:.8em 1em;margin:1.2em 0;border-radius:4px"><b>Updated 18 October 2026.</b> This piece holds excise duty at its 1 October 2025 level (&#8377;21.90 a litre on petrol, &#8377;17.80 on diesel) and starts from Delhi pump prices of &#8377;94.77 and &#8377;87.67. Both had changed before it was published. A notification of 26 March 2026 cut the special additional excise duty from &#8377;13 to &#8377;3 a litre on petrol and from &#8377;10 to nil on diesel, with pump prices left unchanged at the time (<a href="https://moneylife.in/article/petrol-excise-duty-down-to-3-diesel-nil-no-change-in-retail-prices-as-govt-aims-to-cut-omc-losses/80059.html">Moneylife</a>); with the other components unchanged, that leaves central excise at about &#8377;11.90 and &#8377;7.80 a litre. Four price rises from 15 May 2026 then took Delhi petrol to &#8377;102.12 and diesel to &#8377;95.20, as reported in <a href="https://masaladeutsch.blogspot.com/2026/10/petrol-pump-margins-and-e20-one-dealer.html">this blog&rsquo;s fuel-retail piece</a>. The scenario prices below therefore start from an out-of-date base, and the excise &ldquo;cushion&rdquo; the government has already used is smaller than the table implies. Whether the March excise rates are still in force in October was not confirmed. <i>The original text below is unchanged.</i></div>
+<h2>1. The build-up, litre by litre <span class="n">&middot; PPAC, as on 01.10.2025</span></h2>
+<div class="grid2">
+<div class="card"><h3>Petrol, diesel &amp; PDS kerosene &mdash; &#8377;/litre components</h3>
+<div class="cap">Dealer price (crude + refining + marketing) is the only crude-linked layer. Excise
+is a flat &#8377;/litre policy rate; VAT/GST is percentage-based and compounds on top of the
+dealer price, excise and commission.</div>
+<div class="chartbox"><canvas id="c_buildup"></canvas></div></div>
+</div>
+<div class="twrap"><table><thead><tr><th>Element</th><th class="num">Petrol, Delhi (&#8377;/l)</th>
+<th class="num">Diesel, Delhi (&#8377;/l)</th><th class="num">PDS kerosene, Mumbai (&#8377;/l)</th></tr></thead>
+<tbody>
+<tr><td>Dealer price (ex-refinery, pre-tax)</td><td class="num">53.07</td><td class="num">54.01</td><td class="num">53.60</td></tr>
+<tr><td>Excise duty (Basic + SAED + RIC + AIDC)</td><td class="num">21.90</td><td class="num">17.80</td><td class="num">&mdash;</td></tr>
+<tr><td>Dealer / distributor commission</td><td class="num">4.40</td><td class="num">3.03</td><td class="num">2.65</td></tr>
+<tr><td>State VAT / GST</td><td class="num">15.40</td><td class="num">12.83</td><td class="num">2.81</td></tr>
+<tr><td><strong>Retail selling price</strong></td><td class="num"><strong>94.77</strong></td>
+<td class="num"><strong>87.67</strong></td><td class="num"><strong>59.06</strong></td></tr>
+<tr><td>Tax share of RSP</td><td class="num">39.3%</td><td class="num">34.9%</td><td class="num">4.8%</td></tr>
+</tbody></table></div>
+<p class="src">Source: PPAC Ready Reckoner, FY2025-26 H1 edition, Tables 8.2&ndash;8.5 and 8.16A
+(price build-up of Petrol/Diesel at Delhi, PDS Kerosene at Mumbai; customs &amp; excise duty
+schedule), as on 01.10.2025.</p>
+<figure style="margin:1.6rem 0">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Petrol_pump%2C_Nagpur%2C_India.jpg/960px-Petrol_pump%2C_Nagpur%2C_India.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail" alt="A petrol pump dispensing fuel in India" loading="lazy" style="width:100%;height:auto;border-radius:6px;display:block"/>
+<figcaption class="gb-note" style="margin-top:.4rem">The retail selling price built up at the pump, not the crude price itself, is what this piece decomposes litre by litre. <a href="https://commons.wikimedia.org/wiki/File:Petrol_pump,_Nagpur,_India.jpg" rel="noopener noreferrer">Petrol pump, Nagpur, India.jpg</a>, Ganesh Dhamodkar, CC BY 1.0, via Wikimedia Commons.</figcaption>
+</figure>
+
+<p class="dek">Petrol and diesel sit entirely outside GST &mdash; Table 8.16A of the Ready
+Reckoner lists them (with crude oil and ATF) under "products on which GST is not levied."
+Instead they carry a four-part central excise stack, each component a flat &#8377;/litre
+regardless of the crude price: Basic Excise Duty, Special Additional Excise Duty, the Road
+&amp; Infrastructure Cess, and the Agriculture Infrastructure &amp; Development Cess. Petrol's
+stack (&#8377;21.90/l: 1.40+13.00+5.00+2.50) is heavier than diesel's (&#8377;17.80/l:
+1.80+10.00+2.00+4.00) &mdash; a deliberate policy tilt against private motoring versus freight
+and agriculture. Because none of these four components move with crude, they are the lever
+government has historically pulled to cushion pump prices when crude spikes, and the reason
+the "full pass-through" scenarios below likely overstate how much of a crude rally would
+actually reach the pump.</p>
+
+
+<h2>2. Where crude stood on 5 August 2026 <span class="n">&middot; Rigzone + OilPriceAPI, cross-checked against PPAC's own weighting</span></h2>
+<div class="warn" style="border-left:4px solid #a5402c;background:rgba(165,64,44,.07);padding:.8em 1em;margin:1.2em 0;border-radius:4px"><b>Updated 2 November 2026.</b> Press reports of PPAC data now put the Indian Basket&rsquo;s September 2026 <i>average</i> at about $116.09/bbl, against $90.19 in August and $69.61 in September 2025. That does not square with the single-day $101.07/bbl reading for 25 September used below, or with the earlier description of it as the first reading above $100 since May, which has been removed. The scenario row and calculator default below are kept as a dated point at $101.07 until PPAC&rsquo;s own series can be read; at the September average, pump prices would be higher than shown.</div>
+<div class="warn"><b>Update, 25 September 2026: this section has now been re-priced against current crude.</b> This section originally labelled the quotes below "live" and "today." A static page cannot carry a live price, so that framing was always going to age badly; on 24 September 2026 it was relabelled to show the dates it actually describes. As of 25 September 2026, crude has moved well past the 5 August levels below: Brent was trading around $104&ndash;105/bbl and WTI around $93/bbl (Tradingeconomics, ConvexTrade, OneValor), and PPAC's own Indian Basket &mdash; per Business Standard and Yahoo Finance coverage of PPAC's published series &mdash; topped $100/bbl for the first time since May 2026, reported at $101.07/bbl, up from a $99.38/bbl September-to-date average earlier in the month. The KPI row directly below is that 25 September re-price; the original 5 August snapshot is kept underneath for the method trail. A new "25 Sep 2026" row has been added to the Section 3 scenario table, the Section 4 state-by-state selector, and Section 5's calculator default using the same held-duty methodology as every other row &mdash; no figure here is independently re-derived from a primary PPAC fetch, since ppac.gov.in itself returns a blocked-egress error in this piece's research environment; the $101.07/bbl figure is PPAC-attributed via secondary reporting, not read directly from PPAC's own page.</div>
+<div class="kpis">
+<div class="kpi"><b>$104&ndash;105/bbl</b><span>Brent Crude, as of 25 Sep 2026</span></div>
+<div class="kpi"><b>~$93/bbl</b><span>WTI Crude, as of 25 Sep 2026</span></div>
+<div class="kpi"><b>$101.07/bbl</b><span>Indian basket, 25 Sep 2026 (PPAC, via secondary reporting)</span></div>
+<div class="kpi"><b>+44.6%</b><span>vs PPAC's last published Jul&ndash;Sep 2025 average ($69.89/bbl)</span></div>
+</div>
+<p class="dek"><strong>5 August 2026 snapshot, kept for the method trail:</strong></p>
+<div class="kpis">
+<div class="kpi"><b>$78.87/bbl</b><span>Brent Crude, as of 5 Aug 2026 (OilPriceAPI &amp; Rigzone agreed to 2&cent; that day)</span></div>
+<div class="kpi"><b>$74.84/bbl</b><span>WTI Crude, as of 5 Aug 2026</span></div>
+<div class="kpi"><b>$78.30/bbl</b><span>Implied Indian basket, 5 Aug 2026</span></div>
+<div class="kpi"><b>+12.0%</b><span>vs PPAC's last published Jul&ndash;Sep 2025 average, as of 5 Aug 2026</span></div>
+</div>
+<p class="dek">Rigzone's public quote widget put Brent at $78.85/bbl and WTI at $75.02/bbl on 5 August 2026.
+OilPriceAPI's feed for that day agreed closely &mdash; $78.87 and $74.84 &mdash; and additionally
+carried Dubai ($78.04) and Oman ($78.26) benchmarks, the two sour-crude grades PPAC
+uses to build the Indian basket. Applying PPAC's own published weighting formula (78.71%
+average of Oman/Dubai, 21.29% Brent Dated) to that day's quotes gives an <strong>implied
+Indian basket of $78.30/bbl</strong> &mdash; up 12.0% on the $69.89/bbl PPAC actually published
+as the Jul&ndash;Sep 2025 quarterly average (Table 8.1).</p>
+<p class="dek"><strong>Data-quality note:</strong> OilPriceAPI's market-overview endpoint
+returned two conflicting fields for the same benchmark in the same response &mdash; "Brent
+Crude Oil" at $78.87 (matching Rigzone and the dedicated price endpoint) alongside a separate
+"BRENT_SPOT_USD" field at $91.82, and an equivalent split for WTI ($74.84 vs "WTI_SPOT_USD"
+$84.25). This piece uses the $78.87/$74.84 figures, corroborated by two independent sources;
+the higher pair looks like a stale or differently-scoped cache and is flagged here rather
+than silently reconciled.</p>
+<p class="dek">PPAC's own monthly Indian-basket series (Table 8.1) runs only to September 2025
+in this Ready Reckoner edition, so the "5 Aug 2026" figure above is not a PPAC-published number
+&mdash; it is PPAC's published <em>formula</em> applied to that day's OilPriceAPI inputs, an
+&#8776;11-month gap from the last officially published monthly print.</p>
+
+<h2>3. Crude scenarios, held-duty basis <span class="n">&middot; Delhi RSP under five crude levels</span></h2>
+<div class="chartbox"><canvas id="c_scenarios"></canvas></div>
+<div class="twrap"><table><thead><tr><th>Scenario</th><th class="num">Indian basket ($/bbl)</th>
+<th class="num">Petrol RSP (&#8377;/l)</th><th class="num">Change, %</th>
+<th class="num">Diesel RSP (&#8377;/l)</th><th class="num">Change, %</th></tr></thead><tbody>
+<tr><td>Past-year low</td><td class="num">59.16</td><td class="num">87.65</td><td class="num">-7.5</td><td class="num">80.69</td><td class="num">-8.0</td></tr>
+<tr><td>PPAC Jul&ndash;Sep 2025 baseline</td><td class="num">69.89</td><td class="num">94.77</td><td class="num">&mdash;</td><td class="num">87.67</td><td class="num">&mdash;</td></tr>
+<tr><td>5 Aug 2026, implied</td><td class="num">78.30</td><td class="num">100.35</td><td class="num">+5.9</td><td class="num">93.14</td><td class="num">+6.2</td></tr>
+<tr><td>5 Aug 2026 +10%</td><td class="num">86.13</td><td class="num">105.54</td><td class="num">+11.4</td><td class="num">98.24</td><td class="num">+12.1</td></tr>
+<tr><td><strong>25 Sep 2026 (current)</strong></td><td class="num"><strong>101.07</strong></td><td class="num"><strong>115.42</strong></td><td class="num"><strong>+21.8</strong></td><td class="num"><strong>107.96</strong></td><td class="num"><strong>+23.1</strong></td></tr>
+<tr><td>Past-year high analogue</td><td class="num">116.54</td><td class="num">125.71</td><td class="num">+32.7</td><td class="num">118.03</td><td class="num">+34.6</td></tr>
+</tbody></table></div>
+<p class="src">Method: dealer price = crude-equivalent (Indian basket $/bbl &times; &#8377;88.32/$
+&divide; 158.987 litres/bbl) + a fixed refining-and-marketing wedge (&#8377;14.24/l petrol,
+&#8377;15.18/l diesel, backed out of the PPAC Jul&ndash;Sep 2025 baseline). Excise duty, dealer
+commission and the effective VAT rate are held at their 01.10.2025 PPAC levels &mdash; i.e.
+no policy offset. Past-year Brent high/low ($117.38 / $59.59, OilPriceAPI 365-day history
+as of 5 August 2026) converted to an Indian-basket analogue by scaling proportionally to
+5 August 2026's Brent-to-basket ratio, since a historical Oman/Dubai series was not
+available to apply PPAC's exact formula at those dates. The 25 Sep 2026 row uses the same
+formula and the same held FX rate (&#8377;88.32/$) applied to $101.07/bbl, PPAC's own Indian
+Basket figure for that date as reported by Business Standard and Yahoo Finance &mdash; not an
+OilPriceAPI/Rigzone pull like the other rows, since this piece's research environment could
+not reach either live-quote provider or ppac.gov.in directly at the time of this update; a
+real 25 September rupee rate would also differ from the held &#8377;88.32/$, which this row
+does not model, consistent with every other row in this table.</p>
+<p class="dek">The scenario range makes the excise lever visible: a 97% swing in crude (past-year
+low to high) would, on a naive full pass-through, move Delhi petrol by &#8776;43% (&#8377;87.65
+to &#8377;125.71) &mdash; a smaller swing than crude's own, because the flat-rate excise and
+commission layers don't move at all, and only the dealer-price and VAT layers scale. In
+practice the swing at the pump has historically been smaller still, because government has
+repeatedly cut excise duty when crude spiked (and raised it when crude fell) specifically to
+smooth this pass-through &mdash; a policy choice this build-up deliberately does not model,
+so as to isolate what the tax <em>structure</em> alone would do.</p>
+
+<h2>4. All 35 state capitals <span class="n">&middot; filter by state and crude scenario</span></h2>
+<p class="dek">State VAT is applied on top of the same national dealer price, excise and
+commission, so the state-to-state spread is almost entirely a tax-policy spread, not a
+supply-cost spread. PPAC publishes actual pump prices per state capital (Table 8.14) but not
+the state-by-state VAT build-up math, so the "effective incidence" column below is backed out
+of the published RSP &mdash; it captures state VAT <em>plus</em> any local freight
+differential baked into that city's dealer price, not the bare statutory VAT rate alone.</p>
+<div class="filterrow">
+<div><label style="font-size:.8em;color:var(--mut);display:block;margin-bottom:4px" for="fp_state">State / UT capital</label>
+<select id="fp_state"></select></div>
+<div><label style="font-size:.8em;color:var(--mut);display:block;margin-bottom:4px" for="fp_scen">Crude scenario</label>
+<select id="fp_scen">
+<option value="59.16">Past-year low ($59/bbl)</option>
+<option value="69.89">PPAC Jul-Sep 2025 baseline ($70/bbl)</option>
+<option value="78.30">5 Aug 2026, implied ($78/bbl)</option>
+<option value="86.13">5 Aug 2026 +10% ($86/bbl)</option>
+<option value="101.07" selected>25 Sep 2026, current ($101/bbl)</option>
+<option value="116.54">Past-year high analogue ($117/bbl)</option>
+</select></div>
+</div>
+<div class="kpis">
+<div class="kpi"><b id="fp_outP">&#8377;100.35/l</b><span id="fp_outPpub">PPAC published: &#8377;94.77/l</span></div>
+<div class="kpi"><b id="fp_outD">&#8377;93.14/l</b><span id="fp_outDpub">PPAC published: &#8377;87.67/l</span></div>
+<div class="kpi"><b id="fp_outR">39.3% / 34.9%</b><span>Effective incidence, petrol / diesel</span></div>
+</div>
+<div class="twrap"><table><thead><tr><th>State / UT</th><th>Capital</th><th class="num">Petrol RSP (&#8377;/litre)</th><th class="num">Diesel RSP (&#8377;/litre)</th><th class="num">Effective incidence, petrol, %</th><th class="num">Effective incidence, diesel, %</th></tr></thead><tbody><tr><td>Andaman & Nicobar Islands</td><td>Sri Vijaya Puram</td><td class="num">82.46</td><td class="num">78.05</td><td class="num">3.9</td><td class="num">4.3</td></tr><tr><td>Andhra Pradesh</td><td>Amaravati</td><td class="num">109.74</td><td class="num">97.57</td><td class="num">38.3</td><td class="num">30.4</td></tr><tr><td>Arunachal Pradesh</td><td>Itanagar</td><td class="num">90.92</td><td class="num">80.41</td><td class="num">14.5</td><td class="num">7.4</td></tr><tr><td>Assam</td><td>Guwahati</td><td class="num">98.19</td><td class="num">89.42</td><td class="num">23.7</td><td class="num">19.5</td></tr><tr><td>Bihar</td><td>Patna</td><td class="num">105.23</td><td class="num">91.49</td><td class="num">32.6</td><td class="num">22.2</td></tr><tr><td>Chandigarh</td><td>Chandigarh</td><td class="num">94.30</td><td class="num">82.45</td><td class="num">18.8</td><td class="num">10.2</td></tr><tr><td>Chhattisgarh</td><td>Raipur</td><td class="num">99.44</td><td class="num">93.39</td><td class="num">25.3</td><td class="num">24.8</td></tr><tr><td>Dadra and Nagar Haveli and Daman & Diu</td><td>Daman</td><td class="num">92.44</td><td class="num">87.94</td><td class="num">16.5</td><td class="num">17.5</td></tr><tr><td>Delhi</td><td>New Delhi</td><td class="num">94.77</td><td class="num">87.67</td><td class="num">19.4</td><td class="num">17.1</td></tr><tr><td>Goa</td><td>Panaji</td><td class="num">96.43</td><td class="num">88.20</td><td class="num">21.5</td><td class="num">17.8</td></tr><tr><td>Gujarat</td><td>Gandhinagar</td><td class="num">94.70</td><td class="num">90.38</td><td class="num">19.3</td><td class="num">20.8</td></tr><tr><td>Haryana</td><td>Ambala</td><td class="num">95.94</td><td class="num">88.37</td><td class="num">20.9</td><td class="num">18.1</td></tr><tr><td>Himachal Pradesh</td><td>Shimla</td><td class="num">95.29</td><td class="num">87.29</td><td class="num">20.1</td><td class="num">16.6</td></tr><tr><td>Jammu & Kashmir</td><td>Srinagar</td><td class="num">100.71</td><td class="num">86.88</td><td class="num">26.9</td><td class="num">16.1</td></tr><tr><td>Jharkhand</td><td>Ranchi</td><td class="num">97.86</td><td class="num">92.62</td><td class="num">23.3</td><td class="num">23.8</td></tr><tr><td>Karnataka</td><td>Bengaluru</td><td class="num">102.92</td><td class="num">90.99</td><td class="num">29.7</td><td class="num">21.6</td></tr><tr><td>Kerala</td><td>Thiruvananthapuram</td><td class="num">107.48</td><td class="num">96.48</td><td class="num">35.4</td><td class="num">28.9</td></tr><tr><td>Ladakh</td><td>Leh</td><td class="num">102.56</td><td class="num">87.57</td><td class="num">29.2</td><td class="num">17.0</td></tr><tr><td>Madhya Pradesh</td><td>Bhopal</td><td class="num">106.52</td><td class="num">91.89</td><td class="num">34.2</td><td class="num">22.8</td></tr><tr><td>Maharashtra</td><td>Mumbai</td><td class="num">103.50</td><td class="num">90.03</td><td class="num">30.4</td><td class="num">20.3</td></tr><tr><td>Manipur</td><td>Imphal</td><td class="num">99.19</td><td class="num">85.26</td><td class="num">25.0</td><td class="num">13.9</td></tr><tr><td>Meghalaya</td><td>Shillong</td><td class="num">96.32</td><td class="num">87.52</td><td class="num">21.4</td><td class="num">16.9</td></tr><tr><td>Mizoram</td><td>Aizawl</td><td class="num">99.26</td><td class="num">88.04</td><td class="num">25.1</td><td class="num">17.6</td></tr><tr><td>Nagaland</td><td>Kohima</td><td class="num">97.74</td><td class="num">88.85</td><td class="num">23.1</td><td class="num">18.7</td></tr><tr><td>Odisha</td><td>Bhubaneswar</td><td class="num">101.11</td><td class="num">92.69</td><td class="num">27.4</td><td class="num">23.8</td></tr><tr><td>Puducherry</td><td>Puducherry</td><td class="num">96.26</td><td class="num">86.47</td><td class="num">21.3</td><td class="num">15.5</td></tr><tr><td>Punjab</td><td>Jalandhar</td><td class="num">97.55</td><td class="num">87.38</td><td class="num">22.9</td><td class="num">16.8</td></tr><tr><td>Rajasthan</td><td>Jaipur</td><td class="num">104.72</td><td class="num">90.21</td><td class="num">31.9</td><td class="num">20.5</td></tr><tr><td>Sikkim</td><td>Gangtok</td><td class="num">103.30</td><td class="num">90.45</td><td class="num">30.1</td><td class="num">20.9</td></tr><tr><td>Tamil Nadu</td><td>Chennai</td><td class="num">100.80</td><td class="num">92.39</td><td class="num">27.0</td><td class="num">23.4</td></tr><tr><td>Telangana</td><td>Hyderabad</td><td class="num">107.46</td><td class="num">95.70</td><td class="num">35.4</td><td class="num">27.9</td></tr><tr><td>Tripura</td><td>Agartala</td><td class="num">97.53</td><td class="num">86.55</td><td class="num">22.9</td><td class="num">15.7</td></tr><tr><td>Uttar Pradesh</td><td>Lucknow</td><td class="num">94.69</td><td class="num">87.81</td><td class="num">19.3</td><td class="num">17.3</td></tr><tr><td>Uttarakhand</td><td>Dehradun</td><td class="num">93.50</td><td class="num">88.34</td><td class="num">17.8</td><td class="num">18.0</td></tr><tr><td>West Bengal</td><td>Kolkata</td><td class="num">105.41</td><td class="num">92.02</td><td class="num">32.8</td><td class="num">23.0</td></tr></tbody></table></div>
+<p class="src">Source: PPAC Ready Reckoner Table 8.14, "Retail Selling Price of petroleum
+products at State capitals/UTs as on 01.10.2025," sourced by PPAC from IOCL.</p>
+
+<h2>5. Enter a crude price, pick a blend <span class="n">&middot; E0 to E35, all 36 states and UTs</span></h2>
+<p class="dek">Petrol at the pump also runs through an ethanol blend before it reaches the tank.
+Ethanol is excise-exempt, so the more of the litre it makes up, the less central excise the
+government collects on that litre &mdash; and, as the map below shows, that foregone excise
+outweighs ethanol's own cost premium over crude-linked petrol, so a cost-reflective blended
+price actually <em>falls</em> slightly as the blend rises. This map reuses the India state
+boundaries from this site's <a href="https://masaladeutsch.blogspot.com/2026/07/india-grain-cultivation-fci-storage.html" style="color:var(--acc)">grain-cultivation/FCI-storage
+map</a>, re-priced state by state.</p>
+<p class="dek"><strong>Capacity is not the constraint.</strong> India's installed ethanol distillery capacity is roughly 2,000 crore litres for ESY2025-26 (CareEdge estimate), against 904.8 crore litres actually drawn by PSU OMCs in ESY2024-25 (PPAC Table 6.10) &mdash; about 1,095 crore litres of spare, already-built capacity sitting unused. Because ethanol's cost is fixed annually by government notification rather than tracking crude, a higher blend share structurally dampens how much a crude spike passes through to the pump: modelling the FY2021-22&ndash;FY2025-26 crude range ($69.89&ndash;$93.15/bbl) through the build-up above, petrol's cost-reflective price would have swung &#8377;15.43/litre at E0 versus &#8377;12.34/litre at E20 &mdash; about 20% less volatile. That spare capacity means blending can be pushed harder during a crude shock without waiting on new plants; the real limit is feedstock supply (46.4% of ethanol now comes from maize, per Table 6.10A) competing with food-security demand for the same grain, not distillery capacity itself.</p>
+<div style="display:flex;flex-wrap:wrap;gap:12px;margin:1rem 0;">
+  <div style="flex:1;min-width:160px;">
+    <label style="font-size:.8em;color:var(--mut);display:block;margin-bottom:4px;" for="em_crude">Indian basket crude ($/bbl)</label>
+    <input type="number" id="em_crude" value="101.07" min="20" max="200" step="0.5" style="width:100%;height:34px;padding:0 10px;border:1px solid var(--line);border-radius:8px;" />
+  </div>
+  <div style="flex:1;min-width:160px;">
+    <label style="font-size:.8em;color:var(--mut);display:block;margin-bottom:4px;" for="em_blend">Ethanol blend</label>
+    <select id="em_blend" style="width:100%;">
+      <option value="0">E0 (no blending)</option>
+      <option value="0.05">E5</option>
+      <option value="0.10">E10</option>
+      <option value="0.20" selected>E20</option>
+      <option value="0.25">E25</option>
+      <option value="0.35">E35</option>
+    </select>
+  </div>
+</div>
+<div class="kpis">
+<div class="kpi"><b id="em_avgP">&#8211;</b><span>National avg petrol RSP</span></div>
+<div class="kpi"><b id="em_vsE0">&#8211;</b><span>vs E0 (unblended) at same crude</span></div>
+<div class="kpi"><b id="em_avgD">&#8211;</b><span>National avg diesel RSP (unaffected by blend)</span></div>
+<div class="kpi"><b id="em_selName">Delhi</b><span>Selected state</span></div>
+</div>
+<div style="width:100%;max-width:480px;margin:10px auto;">
+<svg role="img" aria-label="Clickable map of India used to pick a state or union territory capital and show its petrol and diesel retail selling prices." id="em_svg" viewBox="0 0 640.0 715.8" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;"></svg>
+</div>
+<div id="em_tooltip" style="background:var(--chip);border-radius:10px;padding:12px 14px;font-size:.85em;min-height:60px;">
+Click a state on the map to see its price build-up.
+</div>
+<p class="src">Model: excise duty (&#8377;21.90/l petrol) applies only to the non-ethanol
+share of the blend; ethanol costed at &#8377;71.16/l, OMCs' ESY2025-26 weighted-average
+delivered procurement cost (ex-mill average &#8377;66.61/l plus GST and transport, per
+government disclosures reported early August 2026). State VAT/GST uses each state's
+effective incidence from Section 4. Diesel is not ethanol-blended in India at scale, so it
+does not change with the blend selector. <strong>In practice, pump prices today do not vary
+by blend grade</strong> &mdash; OMCs sell E10/E20/E0 at the same notified price and absorb the
+difference internally; this is the cost-reflective price implied by the tax structure, not a
+price you will see posted differently at two pumps.</p>
+
+<h2>6. Checked against the OMCs' own websites <span class="n">&middot; coverage, not live cross-validation</span></h2>
+<p class="dek">IOCL, BPCL and HPCL were checked directly (5 August 2026) to see whether any
+publishes a live, scrapable multi-city price table that could validate the figures above
+against today's actual pump price. None does:</p>
+<ul>
+<li><strong>IOCL</strong> (iocl.com/petrol-diesel-price, page last updated 03/08/2026) carries
+no live price table. It routes the public to an SMS lookup ("RSP &lt;dealer code&gt;" to
+92249&nbsp;92249) against a published list of 42 dealer codes, or the IndianOil ONE app. The
+city list overlaps closely with PPAC's 35 state capitals, with minor naming differences (e.g.
+Jammu listed separately from Srinagar; Vijayawada/Visakhapatnam rather than Amaravati for
+Andhra Pradesh).</li>
+<li><strong>BPCL</strong> (bharatpetroleum.in, petro-prices page, site last updated 04/08/2026)
+likewise has no live table &mdash; only a station locator and downloadable PDFs titled "Price
+Build-up of Petrol/Diesel at Delhi at BPCL Retail Pump Outlets," Delhi-only, structurally
+identical to PPAC's own Table 8.4/8.5.</li>
+<li><strong>HPCL</strong>'s direct price-page URL redirected to its generic homepage; no live
+table was reachable there either.</li>
+</ul>
+<p class="dek">So PPAC's Table 8.14 &mdash; a snapshot dated 01.10.2025, not a live feed &mdash;
+remains the most complete multi-location source actually available in machine-readable form.
+The scenario figures in this piece should be read as "PPAC's last-published baseline, re-priced
+under a crude assumption," not as today's actual pump price at any of these 35 cities.</p>
+
+<h2>7. The link to petrochemicals <span class="n">&middot; same crude, different tax regime</span></h2>
+<p class="dek">Naphtha and other petrochemical feedstocks come off the same crude barrel and the
+same refinery gate as petrol and diesel, but Table 8.16 draws a hard administrative line:
+petrol, diesel, ATF and crude oil sit outside GST under the flat-rate excise regime detailed
+above; virtually everything else &mdash; including the organic-chemical and polymer imports
+covered in this site's <a href="https://masaladeutsch.blogspot.com/2026/07/indias-textile-import-export-strategy.html" style="color:var(--acc)">textile
+import-export strategy piece</a> &mdash; is priced and taxed under GST (IGST plus, on imports,
+the BCD/AIDC/SWS stack detailed in the <a href="https://masaladeutsch.blogspot.com/2026/08/india-mineral-oil-hsn-ch27-trade.html" style="color:var(--acc)">HSN
+Ch.27 dashboard</a>). That is the structural reason India's petrochemical import bill is far
+more exposed to a crude/rupee swing than the pump price is: fuel pricing has a flat-rate
+excise shock absorber built in; ad-valorem GST-rated chemical imports do not.</p>
+
+<p class="note">
+<strong>Method.</strong> Crude-to-litre conversion uses 158.987 litres/barrel and a held
+exchange rate of &#8377;88.32/$ (PPAC's own September 2025 average, Table 8.13B note) across
+all scenarios &mdash; a real crude move would also move the rupee, which this piece does not
+model. Refining-and-marketing wedge and state effective-incidence figures are both backed out
+of PPAC's own published prices, not independently sourced cost data; PPAC does not publish a
+crude-vs-margin split. Crude prices, original 5 August 2026 build: Rigzone
+(rigzone.com/news/oil_gas_price) and OilPriceAPI (oilpriceapi.com), both queried 5 August 2026,
+02:00 UTC. Crude price for the 25 September 2026 row added in this update: PPAC's own Indian
+Basket figure ($101.07/bbl), attributed via Business Standard and Yahoo Finance's contemporaneous
+coverage of PPAC's published series rather than a direct fetch of ppac.gov.in, Rigzone or
+OilPriceAPI, all of which returned blocked-egress errors in this piece's research environment
+at the time of this update; Brent ($104&ndash;105/bbl) and WTI (~$93/bbl) for the same date via
+Tradingeconomics, ConvexTrade and OneValor. State price baseline and duty schedule: PPAC Ready
+Reckoner FY2025-26 H1 edition, Tables 8.1&ndash;8.17.
+</p>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js" integrity="sha384-bs/nf9FbdNouRbMiFcrcZfLXYPKiPaGVGplVbv7dLGECccEXDW+S3zjqSKR5ZEaD" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+(function(){
+var buildupData = {
+  labels: ['Petrol, Delhi', 'Diesel, Delhi', 'PDS Kerosene, Mumbai'],
+  datasets: [
+    { label: 'Dealer price', data: [53.07, 54.01, 53.60], backgroundColor: '#2251FF' },
+    { label: 'Excise / GST on fuel', data: [21.90, 17.80, 0], backgroundColor: '#D8452B' },
+    { label: 'Commission', data: [4.40, 3.03, 2.65], backgroundColor: '#E3A008' },
+    { label: 'State VAT / GST', data: [15.40, 12.83, 2.81], backgroundColor: '#5A3AA7' }
+  ]
+};
+new Chart(document.getElementById('c_buildup'), {
+  type: 'bar', data: buildupData,
+  options: { responsive:true, maintainAspectRatio:false,
+    scales: { x:{stacked:true}, y:{stacked:true, title:{display:true, text:'Rs per litre'}} },
+    plugins: { legend:{position:'bottom'}, tooltip:{callbacks:{label:function(c){return c.dataset.label+': Rs'+c.parsed.y.toFixed(2);}}} }
+  }
+});
+new Chart(document.getElementById('c_scenarios'), {
+  type: 'bar',
+  data: {
+    labels: ['Past-yr low\n$59', 'PPAC Jul-Sep25\n$70', '5 Aug 2026\n$78', '5 Aug 2026 +10%\n$86', '25 Sep 2026\n$101', 'Past-yr high\n$117'],
+    datasets: [
+      { label:'Petrol', data:[87.65,94.77,100.35,105.54,115.42,125.71], backgroundColor:'#2251FF' },
+      { label:'Diesel', data:[80.69,87.67,93.14,98.24,107.96,118.03], backgroundColor:'#D8452B' }
+    ]
+  },
+  options: { responsive:true, maintainAspectRatio:false,
+    scales: { y:{title:{display:true, text:'Rs per litre, Delhi RSP'}} },
+    plugins: { legend:{position:'bottom'}, tooltip:{callbacks:{label:function(c){return c.dataset.label+': Rs'+c.parsed.y.toFixed(2)+'/l';}}} }
+  }
+});
+
+var FP_DATA = [["Andaman & Nicobar Islands", "Sri Vijaya Puram", 82.46, 78.05, 0.0389, 0.0429], ["Andhra Pradesh", "Amaravati", 109.74, 97.57, 0.3826, 0.3037], ["Arunachal Pradesh", "Itanagar", 90.92, 80.41, 0.1455, 0.0744], ["Assam", "Guwahati", 98.19, 89.42, 0.2371, 0.1948], ["Bihar", "Patna", 105.23, 91.49, 0.3258, 0.2225], ["Chandigarh", "Chandigarh", 94.3, 82.45, 0.1881, 0.1017], ["Chhattisgarh", "Raipur", 99.44, 93.39, 0.2529, 0.2479], ["Dadra and Nagar Haveli and Daman & Diu", "Daman", 92.44, 87.94, 0.1647, 0.175], ["Delhi", "New Delhi", 94.77, 87.67, 0.194, 0.1714], ["Goa", "Panaji", 96.43, 88.2, 0.2149, 0.1785], ["Gujarat", "Gandhinagar", 94.7, 90.38, 0.1931, 0.2076], ["Haryana", "Ambala", 95.94, 88.37, 0.2088, 0.1808], ["Himachal Pradesh", "Shimla", 95.29, 87.29, 0.2006, 0.1664], ["Jammu & Kashmir", "Srinagar", 100.71, 86.88, 0.2689, 0.1609], ["Jharkhand", "Ranchi", 97.86, 92.62, 0.233, 0.2376], ["Karnataka", "Bengaluru", 102.92, 90.99, 0.2967, 0.2158], ["Kerala", "Thiruvananthapuram", 107.48, 96.48, 0.3542, 0.2892], ["Ladakh", "Leh", 102.56, 87.57, 0.2922, 0.1701], ["Madhya Pradesh", "Bhopal", 106.52, 91.89, 0.3421, 0.2278], ["Maharashtra", "Mumbai", 103.5, 90.03, 0.304, 0.203], ["Manipur", "Imphal", 99.19, 85.26, 0.2497, 0.1392], ["Meghalaya", "Shillong", 96.32, 87.52, 0.2136, 0.1694], ["Mizoram", "Aizawl", 99.26, 88.04, 0.2506, 0.1764], ["Nagaland", "Kohima", 97.74, 88.85, 0.2314, 0.1872], ["Odisha", "Bhubaneswar", 101.11, 92.69, 0.2739, 0.2385], ["Puducherry", "Puducherry", 96.26, 86.47, 0.2128, 0.1554], ["Punjab", "Jalandhar", 97.55, 87.38, 0.2291, 0.1676], ["Rajasthan", "Jaipur", 104.72, 90.21, 0.3194, 0.2054], ["Sikkim", "Gangtok", 103.3, 90.45, 0.3015, 0.2086], ["Tamil Nadu", "Chennai", 100.8, 92.39, 0.27, 0.2345], ["Telangana", "Hyderabad", 107.46, 95.7, 0.3539, 0.2787], ["Tripura", "Agartala", 97.53, 86.55, 0.2288, 0.1565], ["Uttar Pradesh", "Lucknow", 94.69, 87.81, 0.193, 0.1733], ["Uttarakhand", "Dehradun", 93.5, 88.34, 0.178, 0.1804], ["West Bengal", "Kolkata", 105.41, 92.02, 0.3281, 0.2296]];
+var FX=88.32, BBL_L=158.987;
+var DEALER_P=53.07, EXC_P=21.90, COMM_P=4.40, CRUDE_BASE=69.89, WEDGE_P=DEALER_P-(CRUDE_BASE*FX/BBL_L);
+var DEALER_D=54.01, EXC_D=17.80, COMM_D=3.03, WEDGE_D=DEALER_D-(CRUDE_BASE*FX/BBL_L);
+var stSel=document.getElementById('fp_state');
+FP_DATA.forEach(function(r,i){
+  var o=document.createElement('option'); o.value=i; o.textContent=r[0]+' ('+r[1]+')';
+  if(r[0]==='Delhi') o.selected=true; stSel.appendChild(o);
+});
+function fpRender(){
+  var row=FP_DATA[stSel.value];
+  var pubP=row[2], pubD=row[3], rateP=row[4], rateD=row[5];
+  var crude=parseFloat(document.getElementById('fp_scen').value);
+  var crudeEq=crude*FX/BBL_L;
+  var dealerP=crudeEq+WEDGE_P, dealerD=crudeEq+WEDGE_D;
+  var preP=dealerP+EXC_P+COMM_P, preD=dealerD+EXC_D+COMM_D;
+  var rspP=preP*(1+rateP), rspD=preD*(1+rateD);
+  document.getElementById('fp_outP').textContent='Rs '+rspP.toFixed(2)+'/l';
+  document.getElementById('fp_outD').textContent='Rs '+rspD.toFixed(2)+'/l';
+  document.getElementById('fp_outPpub').textContent='PPAC published (01.10.2025): Rs '+pubP.toFixed(2)+'/l';
+  document.getElementById('fp_outDpub').textContent='PPAC published (01.10.2025): Rs '+pubD.toFixed(2)+'/l';
+  document.getElementById('fp_outR').textContent=(rateP*100).toFixed(1)+'% / '+(rateD*100).toFixed(1)+'%';
+}
+stSel.addEventListener('change', fpRender);
+document.getElementById('fp_scen').addEventListener('change', fpRender);
+fpRender();
+
+var EM_MAP = [["Andaman & Nicobar Islands","M562,706 L563,709 L564,711 L563,714 L563,716 L560,715 L559,712 L558,711 L558,707 L562,706 Z M559,701 L560,703 L557,706 L557,703 L559,701 Z M551,687 L553,689 L551,690 L550,688 L551,687 Z M538,658 L539,661 L537,661 L537,659 L538,658 Z M532,619 L534,622 L534,624 L532,628 L531,627 L529,625 L530,622 L532,619 Z M536,587 L538,589 L537,594 L538,595 L538,600 L535,603 L533,597 L535,596 L535,591 L536,587 Z M538,586 L539,586 L540,588 L537,591 L538,586 Z M544,556 L544,559 L545,561 L544,565 L544,567 L542,568 L540,571 L541,571 L543,576 L542,581 L541,585 L536,585 L537,579 L538,577 L537,574 L539,572 L538,569 L540,560 L540,558 L544,556 Z","Sri Vijaya Puram",82.46,78.05,0.0389,0.0429],["Andhra Pradesh","M308,481 L307,482 L308,485 L300,489 L295,491 L291,490 L288,490 L285,492 L283,498 L283,499 L280,502 L279,505 L276,505 L275,502 L273,501 L269,502 L265,504 L264,506 L262,511 L260,515 L259,520 L260,528 L262,532 L260,543 L263,550 L263,554 L261,553 L259,555 L261,558 L263,558 L264,559 L261,558 L259,557 L257,559 L256,561 L248,564 L247,562 L245,562 L245,564 L242,567 L240,566 L239,569 L237,569 L235,568 L233,567 L229,568 L227,570 L227,571 L226,575 L222,579 L220,578 L219,575 L219,573 L221,571 L223,572 L224,569 L226,566 L226,563 L221,561 L222,556 L219,555 L215,553 L216,549 L213,547 L210,547 L209,550 L206,551 L203,553 L201,550 L196,549 L195,552 L192,552 L191,550 L192,547 L190,545 L190,543 L192,542 L192,544 L195,546 L199,545 L200,543 L203,542 L203,539 L201,538 L198,539 L195,538 L193,540 L189,538 L189,535 L186,531 L188,527 L189,523 L187,523 L187,520 L189,521 L193,522 L195,519 L195,516 L193,514 L192,512 L192,507 L193,501 L197,499 L203,500 L206,501 L209,502 L211,501 L216,502 L219,500 L219,498 L223,496 L226,497 L227,496 L231,498 L234,494 L236,493 L240,493 L241,486 L241,485 L245,485 L247,483 L250,483 L253,481 L257,483 L259,479 L257,478 L259,476 L263,474 L265,478 L268,480 L270,480 L270,476 L268,477 L265,475 L268,473 L270,471 L276,474 L277,470 L279,470 L283,469 L284,467 L285,467 L287,465 L289,466 L290,464 L291,461 L292,457 L297,455 L296,454 L300,451 L302,450 L305,450 L307,451 L309,450 L309,444 L309,441 L312,438 L313,439 L313,442 L315,442 L314,445 L318,443 L319,441 L322,443 L324,442 L325,436 L326,433 L328,433 L331,432 L332,431 L330,428 L334,427 L337,425 L339,427 L341,427 L343,432 L349,433 L353,432 L353,430 L355,429 L356,427 L358,424 L361,425 L362,426 L358,430 L358,432 L356,434 L353,438 L348,443 L348,444 L339,448 L336,451 L332,455 L331,458 L328,461 L315,468 L310,472 L308,474 L307,477 L308,478 L308,481 Z","Amaravati",109.74,97.57,0.3826,0.3037],["Arunachal Pradesh","M592,245 L592,241 L592,241 L591,237 L597,235 L598,232 L600,233 L605,231 L607,231 L609,229 L604,223 L604,221 L607,217 L608,215 L605,215 L600,215 L598,217 L595,218 L594,217 L588,220 L584,220 L583,221 L575,225 L571,223 L571,226 L568,227 L566,229 L564,231 L561,235 L560,236 L558,239 L554,239 L551,239 L543,240 L540,238 L536,237 L534,239 L531,239 L527,240 L523,240 L523,238 L522,236 L522,234 L522,228 L522,227 L513,226 L511,223 L513,221 L513,219 L517,219 L519,221 L522,220 L526,218 L528,220 L532,218 L533,219 L537,215 L536,213 L536,211 L539,210 L541,209 L544,207 L548,206 L547,204 L549,202 L550,199 L554,198 L557,199 L562,198 L563,198 L565,196 L565,194 L568,192 L570,189 L573,187 L574,185 L577,185 L579,182 L584,186 L587,188 L592,188 L593,189 L596,190 L598,189 L599,186 L600,185 L604,182 L608,182 L611,180 L613,182 L615,187 L612,189 L614,192 L617,190 L618,190 L620,191 L621,193 L622,196 L622,197 L618,201 L617,205 L622,203 L624,203 L631,207 L633,206 L635,207 L637,208 L639,210 L638,211 L640,214 L639,217 L637,216 L632,220 L629,223 L630,225 L629,227 L635,235 L632,235 L628,232 L627,230 L622,229 L619,231 L614,231 L610,233 L608,237 L605,237 L603,241 L600,242 L599,242 L596,245 L594,246 L592,245 Z","Itanagar",90.92,80.41,0.1455,0.0744],["Assam","M523,240 L527,240 L531,239 L534,239 L536,237 L540,238 L543,240 L551,239 L554,239 L558,239 L560,236 L561,235 L564,231 L566,229 L568,227 L571,226 L571,223 L575,225 L583,221 L584,220 L588,220 L594,217 L595,218 L598,217 L600,215 L605,215 L608,215 L607,217 L604,221 L604,223 L609,229 L607,231 L605,231 L600,233 L598,232 L597,235 L591,237 L589,239 L587,240 L584,240 L583,243 L580,244 L577,245 L574,247 L574,249 L569,251 L569,253 L567,254 L565,258 L564,261 L565,264 L562,265 L560,263 L559,265 L556,267 L554,270 L550,272 L553,275 L553,278 L552,279 L550,283 L549,285 L549,286 L547,290 L545,292 L545,293 L543,299 L539,300 L538,297 L536,301 L533,305 L531,305 L530,303 L528,303 L526,303 L527,300 L526,297 L527,293 L528,292 L526,288 L528,287 L530,289 L532,288 L530,285 L533,282 L535,283 L536,281 L539,280 L538,277 L534,274 L535,273 L532,271 L531,268 L526,268 L525,269 L525,263 L526,260 L521,261 L519,262 L517,259 L515,260 L515,263 L512,261 L509,265 L506,265 L505,268 L503,268 L503,265 L501,266 L498,263 L494,263 L491,263 L488,261 L481,263 L480,263 L476,266 L475,268 L478,271 L474,272 L475,270 L473,266 L475,263 L471,258 L472,254 L474,253 L474,245 L480,244 L482,241 L484,242 L486,240 L489,243 L493,243 L500,243 L501,242 L507,243 L508,242 L510,243 L514,243 L519,240 L522,242 L523,240 Z","Guwahati",98.19,89.42,0.2371,0.1948],["Bihar","M436,249 L438,250 L440,253 L436,256 L433,260 L430,261 L429,265 L431,265 L431,267 L434,269 L434,271 L428,276 L430,279 L429,280 L426,278 L423,277 L422,280 L418,280 L418,283 L416,283 L415,285 L415,288 L413,290 L412,295 L410,294 L408,296 L406,294 L404,296 L403,295 L400,297 L399,300 L397,298 L396,296 L394,294 L392,295 L392,292 L390,291 L388,292 L387,290 L384,290 L380,295 L378,296 L374,297 L369,299 L365,300 L365,298 L363,296 L355,301 L353,300 L353,297 L350,296 L348,298 L346,294 L344,296 L339,297 L334,296 L335,294 L332,290 L331,288 L331,282 L331,281 L335,278 L337,278 L340,276 L341,276 L344,272 L347,270 L349,268 L350,269 L352,269 L354,268 L356,269 L359,267 L357,265 L355,264 L349,261 L346,258 L349,256 L349,253 L347,253 L343,249 L346,249 L347,246 L351,247 L353,245 L351,242 L347,241 L346,237 L344,236 L345,233 L343,232 L342,230 L343,228 L346,228 L348,226 L351,227 L352,229 L359,230 L361,233 L360,237 L364,238 L367,240 L372,241 L372,244 L375,244 L381,241 L384,243 L384,246 L386,248 L390,246 L394,247 L397,247 L401,249 L405,252 L408,251 L410,249 L412,249 L415,252 L419,252 L422,251 L425,253 L429,251 L433,252 L435,251 L436,249 Z","Patna",105.23,91.49,0.3258,0.2225],["Chandigarh","M188,151 L186,150 L185,149 L188,149 L188,151 Z","Chandigarh",94.3,82.45,0.1881,0.1017],["Chhattisgarh","M331,307 L335,308 L336,312 L339,313 L339,316 L340,318 L346,320 L345,324 L347,325 L346,329 L348,331 L349,334 L354,333 L352,338 L350,340 L347,341 L345,344 L346,345 L346,348 L342,348 L340,351 L338,351 L335,355 L335,357 L336,360 L334,361 L334,362 L332,365 L331,368 L332,371 L329,371 L328,377 L326,378 L322,376 L321,376 L315,376 L315,379 L312,382 L312,384 L309,383 L309,386 L310,389 L309,391 L311,394 L310,396 L311,399 L310,402 L315,404 L317,404 L317,408 L311,406 L309,408 L307,404 L305,404 L300,401 L299,403 L298,406 L303,409 L302,411 L303,415 L304,417 L306,417 L305,421 L306,425 L307,429 L305,430 L305,432 L301,435 L300,437 L296,441 L291,445 L290,452 L288,456 L285,455 L283,454 L280,456 L278,449 L274,447 L275,445 L274,441 L271,439 L268,436 L265,437 L263,434 L265,432 L263,429 L265,424 L266,423 L268,419 L270,418 L271,420 L274,421 L276,419 L277,416 L276,414 L272,413 L272,411 L268,408 L270,404 L269,401 L266,400 L266,398 L269,397 L271,396 L270,394 L271,389 L270,386 L269,382 L268,382 L267,380 L268,376 L272,374 L272,372 L274,369 L273,363 L275,362 L276,358 L278,354 L280,355 L280,351 L282,349 L282,346 L284,346 L287,344 L290,345 L293,344 L294,341 L296,341 L296,336 L300,334 L300,331 L302,331 L305,329 L306,325 L304,323 L301,323 L300,320 L298,321 L296,319 L293,321 L293,318 L295,316 L293,312 L294,311 L297,313 L300,312 L302,313 L306,313 L309,314 L314,313 L316,311 L319,310 L322,312 L325,312 L328,311 L331,307 Z","Raipur",99.44,93.39,0.2529,0.2479],["Delhi","M196,194 L199,200 L199,202 L197,203 L195,205 L193,202 L189,202 L188,201 L191,198 L190,195 L193,193 L196,194 Z","New Delhi",94.77,87.67,0.194,0.1714],["Dadra and Nagar Haveli and Daman & Diu","M109,401 L107,402 L103,400 L103,399 L103,397 L104,397 L106,396 L107,397 L105,399 L106,400 L109,401 Z","Daman",92.44,87.94,0.1647,0.175],["Goa","M119,505 L125,504 L125,507 L126,508 L129,507 L131,507 L131,510 L133,515 L132,521 L130,524 L128,524 L125,520 L123,513 L121,510 L119,505 Z","Panaji",96.43,88.2,0.2149,0.1785],["Gujarat","M2,314 L3,314 L3,317 L0,317 L2,314 Z M133,331 L135,335 L136,336 L134,341 L132,341 L129,344 L132,347 L130,349 L127,348 L127,350 L129,351 L128,356 L129,357 L122,360 L124,363 L122,366 L123,368 L127,367 L130,367 L131,369 L127,369 L125,371 L125,373 L122,374 L122,376 L120,377 L121,380 L124,380 L125,386 L123,386 L122,389 L120,390 L118,390 L117,389 L114,387 L113,388 L115,391 L113,394 L113,399 L111,399 L109,401 L106,400 L105,399 L107,397 L106,396 L104,397 L103,397 L103,399 L101,398 L100,401 L98,400 L99,397 L100,395 L101,393 L102,390 L99,382 L95,373 L96,369 L95,368 L96,365 L94,364 L94,360 L93,357 L94,353 L96,351 L96,350 L93,350 L91,349 L90,351 L87,355 L88,362 L89,365 L87,370 L84,374 L84,375 L81,377 L78,378 L72,381 L70,383 L65,385 L63,386 L59,387 L57,387 L56,387 L48,383 L40,378 L32,367 L21,358 L15,351 L15,349 L16,347 L18,347 L20,346 L20,349 L21,350 L28,348 L30,348 L32,345 L34,347 L37,344 L39,343 L42,343 L45,338 L46,334 L43,333 L41,334 L34,336 L32,339 L28,338 L26,338 L24,337 L20,336 L12,331 L11,331 L7,328 L8,324 L5,322 L5,318 L10,312 L7,312 L6,310 L11,310 L11,302 L13,304 L15,302 L16,304 L18,303 L20,303 L23,302 L27,303 L29,302 L32,305 L38,305 L41,302 L51,299 L51,303 L56,304 L60,300 L60,294 L62,293 L66,295 L71,293 L74,294 L79,293 L81,294 L83,292 L86,294 L87,294 L88,296 L90,296 L92,299 L94,297 L97,298 L98,300 L101,300 L102,301 L104,298 L106,299 L108,301 L106,305 L109,307 L113,308 L113,311 L112,312 L113,314 L117,317 L118,318 L118,320 L120,323 L122,322 L124,325 L127,325 L129,326 L129,328 L131,328 L133,331 Z","Gandhinagar",94.7,90.38,0.1931,0.2076],["Himachal Pradesh","M167,106 L168,104 L168,102 L165,99 L167,98 L169,99 L172,96 L175,95 L176,93 L178,92 L183,91 L184,92 L186,91 L189,93 L192,96 L195,96 L196,98 L200,100 L205,97 L207,97 L212,101 L212,103 L213,106 L216,104 L218,104 L222,102 L222,105 L220,106 L220,108 L223,107 L225,110 L224,113 L227,114 L226,116 L231,120 L229,124 L230,127 L232,129 L229,131 L231,133 L232,135 L234,137 L236,141 L233,141 L231,138 L228,139 L227,138 L224,138 L221,136 L216,139 L211,140 L209,144 L209,147 L207,149 L209,151 L208,153 L209,155 L204,157 L204,158 L201,157 L199,156 L196,156 L195,151 L192,149 L190,146 L187,145 L183,143 L184,138 L180,136 L178,133 L176,136 L174,136 L173,133 L170,128 L168,124 L167,121 L163,118 L161,114 L164,113 L166,111 L168,110 L166,108 L167,106 Z","Shimla",95.29,87.29,0.2006,0.1664],["Haryana","M187,145 L190,146 L192,149 L195,151 L196,156 L199,156 L201,157 L204,158 L201,164 L198,166 L196,169 L195,174 L194,176 L195,180 L194,182 L194,188 L196,190 L196,194 L193,193 L190,195 L191,198 L188,201 L189,202 L193,202 L195,205 L197,203 L199,202 L202,204 L203,208 L202,213 L203,216 L198,219 L194,220 L193,219 L191,222 L189,221 L190,216 L190,214 L191,211 L188,209 L187,211 L182,213 L180,211 L178,211 L173,214 L174,219 L172,217 L169,217 L170,213 L168,212 L171,209 L167,205 L162,201 L160,200 L159,194 L157,190 L156,189 L156,184 L150,185 L149,184 L147,184 L146,182 L144,181 L142,182 L139,182 L138,181 L139,178 L138,177 L139,173 L136,172 L138,170 L137,168 L140,169 L143,167 L146,168 L148,170 L149,170 L152,171 L153,173 L151,175 L154,176 L158,171 L160,173 L163,171 L166,171 L167,173 L171,173 L174,170 L174,167 L175,164 L178,164 L181,165 L184,164 L184,162 L183,161 L186,157 L188,157 L190,153 L188,151 L188,149 L187,145 Z","Ambala",95.94,88.37,0.2088,0.1808],["Jharkhand","M334,296 L339,297 L344,296 L346,294 L348,298 L350,296 L353,297 L353,300 L355,301 L363,296 L365,298 L365,300 L369,299 L374,297 L378,296 L380,295 L384,290 L387,290 L388,292 L390,291 L392,292 L392,295 L394,294 L396,296 L397,298 L399,300 L400,297 L403,295 L404,296 L406,294 L408,296 L410,294 L412,295 L413,290 L415,288 L415,285 L416,283 L418,283 L418,280 L422,280 L423,277 L426,278 L429,280 L428,283 L431,285 L433,288 L431,289 L431,296 L429,296 L429,299 L428,302 L425,304 L426,305 L422,306 L422,309 L419,309 L417,308 L418,311 L414,314 L409,312 L407,313 L407,316 L405,316 L401,318 L399,318 L397,320 L398,321 L395,323 L393,321 L393,319 L390,319 L390,321 L386,322 L387,325 L386,326 L387,330 L390,329 L392,331 L394,333 L396,332 L399,334 L398,338 L400,340 L403,340 L404,343 L406,343 L409,349 L407,351 L405,351 L404,350 L397,348 L395,346 L390,344 L389,351 L390,352 L387,357 L384,357 L382,354 L379,354 L376,353 L374,354 L372,356 L371,355 L368,354 L369,350 L369,345 L365,346 L357,346 L355,348 L352,348 L349,347 L348,345 L345,344 L347,341 L350,340 L352,338 L354,333 L349,334 L348,331 L346,329 L347,325 L345,324 L346,320 L340,318 L339,316 L339,313 L336,312 L335,308 L331,307 L332,303 L332,302 L332,297 L334,296 Z","Ranchi",97.86,92.62,0.233,0.2376],["Ladakh","M186,91 L183,87 L177,82 L174,83 L175,80 L170,74 L166,74 L165,72 L160,68 L156,65 L155,60 L153,58 L153,56 L150,52 L147,55 L144,54 L141,52 L139,52 L138,47 L132,49 L128,47 L126,45 L121,43 L119,41 L122,37 L121,35 L119,36 L110,34 L108,33 L107,29 L101,27 L99,28 L96,27 L95,23 L97,19 L102,16 L107,11 L108,8 L110,7 L122,8 L123,3 L125,5 L128,5 L131,4 L140,0 L145,1 L146,2 L150,2 L154,1 L155,1 L163,11 L170,14 L173,17 L176,18 L181,21 L184,22 L186,24 L186,27 L188,30 L194,31 L198,32 L200,34 L202,38 L206,38 L210,37 L216,36 L218,33 L221,31 L226,30 L228,28 L232,28 L237,30 L238,27 L241,25 L245,28 L252,30 L256,29 L258,33 L262,35 L263,41 L261,45 L261,48 L258,53 L258,55 L252,58 L252,61 L247,61 L246,62 L248,66 L247,70 L244,72 L239,71 L234,72 L234,73 L235,76 L237,80 L237,81 L234,83 L234,86 L237,89 L237,91 L240,91 L245,92 L243,96 L247,102 L248,105 L245,106 L242,108 L241,107 L238,109 L238,111 L235,111 L231,108 L230,103 L227,105 L226,105 L223,107 L220,108 L220,106 L222,105 L222,102 L218,104 L216,104 L213,106 L212,103 L212,101 L207,97 L205,97 L200,100 L196,98 L195,96 L192,96 L189,93 L186,91 Z","Leh",102.56,87.57,0.2922,0.1701],["Karnataka","M129,507 L130,504 L134,504 L134,501 L137,496 L137,493 L133,491 L133,485 L138,483 L140,485 L141,481 L145,480 L146,476 L150,476 L153,478 L154,478 L154,476 L158,475 L159,476 L163,476 L163,472 L162,471 L162,468 L161,468 L162,463 L165,466 L168,467 L175,466 L177,466 L178,464 L177,461 L180,459 L181,457 L186,457 L187,454 L190,453 L190,448 L191,447 L193,447 L195,446 L195,444 L199,440 L201,442 L202,445 L204,444 L206,451 L204,455 L204,457 L202,458 L201,461 L207,463 L202,466 L200,471 L202,472 L203,475 L202,477 L202,480 L202,485 L198,489 L205,490 L202,495 L203,500 L197,499 L193,501 L192,507 L192,512 L193,514 L195,516 L195,519 L193,522 L189,521 L187,520 L187,523 L189,523 L188,527 L186,531 L189,535 L189,538 L193,540 L195,538 L198,539 L201,538 L203,539 L203,542 L200,543 L199,545 L195,546 L192,544 L192,542 L190,543 L190,545 L192,547 L191,550 L192,552 L195,552 L196,549 L201,550 L203,553 L206,551 L209,550 L210,547 L213,547 L216,549 L215,553 L219,555 L222,556 L221,561 L226,563 L226,566 L224,569 L223,572 L221,571 L219,573 L219,575 L216,575 L215,573 L213,574 L212,572 L209,573 L209,574 L208,577 L205,577 L204,581 L205,582 L205,585 L202,588 L208,589 L209,591 L206,594 L202,595 L201,599 L198,598 L194,599 L192,598 L190,598 L188,603 L182,602 L181,600 L179,601 L174,596 L172,597 L172,594 L170,595 L167,594 L165,591 L164,592 L160,589 L156,582 L153,580 L151,577 L145,575 L144,573 L141,561 L141,554 L139,549 L137,545 L134,534 L133,533 L132,529 L130,529 L129,527 L128,524 L130,524 L132,521 L133,515 L131,510 L131,507 L129,507 Z","Bengaluru",102.92,90.99,0.2967,0.2158],["Kerala","M145,575 L151,577 L153,580 L156,582 L160,589 L164,592 L165,591 L167,594 L170,595 L172,594 L172,597 L174,596 L179,601 L177,603 L175,603 L176,605 L179,606 L182,610 L180,612 L183,612 L186,614 L184,619 L188,620 L189,622 L188,627 L187,631 L188,633 L191,635 L195,632 L198,635 L197,640 L196,644 L196,647 L195,650 L197,651 L198,650 L200,652 L199,654 L198,657 L197,661 L195,664 L197,667 L195,670 L198,675 L194,681 L191,679 L184,668 L182,666 L181,664 L177,654 L175,641 L172,631 L168,622 L167,616 L164,608 L163,606 L161,605 L160,601 L157,597 L156,596 L154,593 L152,591 L147,581 L145,575 Z","Thiruvananthapuram",107.48,96.48,0.3542,0.2892],["Lakshadweep","M99,611 L99,612 L99,612 L99,611 L99,611 Z",null,null,null,null,null],["Maharashtra","M109,401 L111,399 L113,399 L113,394 L115,391 L113,388 L114,387 L117,389 L118,390 L120,390 L122,389 L123,386 L125,386 L124,380 L121,380 L120,377 L122,376 L122,374 L125,373 L125,371 L127,369 L131,369 L130,367 L127,367 L123,368 L122,366 L124,363 L122,360 L129,357 L132,358 L134,356 L137,358 L137,363 L138,364 L143,366 L146,365 L149,367 L150,369 L153,370 L160,371 L167,371 L171,372 L172,371 L174,376 L174,378 L178,378 L180,377 L180,375 L183,375 L184,373 L183,372 L187,369 L187,366 L190,366 L193,363 L198,363 L198,362 L202,362 L204,365 L204,367 L202,367 L202,371 L205,371 L209,370 L212,371 L217,368 L218,367 L223,366 L227,368 L234,368 L234,366 L238,366 L241,363 L243,364 L246,364 L247,367 L252,366 L254,367 L259,367 L262,365 L263,365 L266,368 L267,370 L271,372 L272,372 L272,374 L268,376 L267,380 L268,382 L269,382 L270,386 L271,389 L270,394 L271,396 L269,397 L266,398 L266,400 L269,401 L270,404 L268,408 L272,411 L272,413 L276,414 L277,416 L276,419 L274,421 L271,420 L270,418 L268,419 L266,423 L265,424 L263,429 L265,432 L263,434 L260,435 L258,433 L256,432 L256,427 L254,425 L256,423 L257,418 L256,416 L252,413 L248,414 L246,416 L244,414 L241,413 L240,416 L238,415 L236,415 L235,412 L233,412 L232,409 L229,409 L227,408 L222,408 L221,410 L220,412 L220,417 L218,418 L217,422 L215,421 L213,419 L211,420 L211,423 L208,426 L209,428 L210,428 L212,432 L210,432 L208,438 L205,440 L203,443 L204,444 L202,445 L201,442 L199,440 L195,444 L195,446 L193,447 L191,447 L190,448 L190,453 L187,454 L186,457 L181,457 L180,459 L177,461 L178,464 L177,466 L175,466 L168,467 L165,466 L162,463 L161,468 L162,468 L162,471 L163,472 L163,476 L159,476 L158,475 L154,476 L154,478 L153,478 L150,476 L146,476 L145,480 L141,481 L140,485 L138,483 L133,485 L133,491 L137,493 L137,496 L134,501 L134,504 L130,504 L129,507 L126,508 L125,507 L125,504 L119,505 L117,500 L115,500 L112,488 L111,486 L111,479 L110,477 L110,475 L109,468 L109,467 L108,464 L107,458 L105,452 L103,448 L104,445 L102,440 L102,438 L101,435 L102,430 L104,427 L101,427 L99,423 L99,419 L99,418 L98,415 L98,413 L96,405 L98,404 L98,400 L100,401 L101,398 L103,399 L103,400 L107,402 L109,401 Z","Mumbai",103.5,90.03,0.304,0.203],["Meghalaya","M474,272 L478,271 L475,268 L476,266 L480,263 L481,263 L488,261 L491,263 L494,263 L498,263 L501,266 L503,265 L503,268 L505,268 L506,265 L509,265 L512,261 L515,263 L515,260 L517,259 L519,262 L521,261 L526,260 L525,263 L525,269 L526,268 L531,268 L532,271 L535,273 L534,274 L538,277 L539,280 L536,281 L535,283 L533,282 L530,285 L526,283 L523,281 L515,282 L513,281 L510,282 L505,280 L501,281 L496,282 L494,281 L489,281 L487,282 L485,281 L480,280 L477,278 L474,278 L473,276 L474,274 L474,272 Z","Shillong",96.32,87.52,0.2136,0.1694],["Manipur","M553,278 L554,280 L556,281 L558,277 L561,274 L560,273 L565,271 L568,273 L572,274 L577,271 L577,273 L580,274 L579,276 L578,280 L581,282 L581,287 L579,289 L578,292 L575,295 L573,300 L571,305 L570,308 L569,312 L563,310 L561,311 L560,309 L557,309 L554,310 L552,307 L550,308 L545,308 L543,306 L544,301 L543,299 L545,293 L545,292 L547,290 L549,286 L549,285 L550,283 L552,279 L553,278 Z","Imphal",99.19,85.26,0.2497,0.1392],["Madhya Pradesh","M218,242 L221,241 L222,242 L226,244 L229,243 L233,245 L235,245 L235,248 L237,250 L239,253 L236,255 L236,260 L234,261 L232,266 L230,268 L231,271 L228,272 L224,272 L223,273 L220,276 L222,281 L221,283 L221,285 L217,288 L220,293 L220,298 L223,302 L225,300 L226,301 L228,303 L230,303 L233,304 L235,301 L235,299 L233,294 L231,295 L230,289 L227,286 L226,279 L227,275 L230,277 L230,274 L234,273 L232,277 L233,281 L236,279 L238,281 L241,283 L242,281 L241,278 L243,277 L245,279 L244,283 L246,283 L249,282 L252,282 L254,283 L254,280 L258,279 L258,277 L260,277 L262,275 L264,276 L264,278 L267,281 L265,282 L263,285 L269,283 L272,284 L275,282 L277,284 L276,287 L279,287 L283,286 L285,284 L285,281 L290,282 L292,281 L295,284 L299,285 L299,288 L304,290 L307,291 L307,293 L310,295 L310,293 L316,292 L318,294 L317,300 L318,302 L317,307 L319,310 L316,311 L314,313 L309,314 L306,313 L302,313 L300,312 L297,313 L294,311 L293,312 L295,316 L293,318 L293,321 L296,319 L298,321 L300,320 L301,323 L304,323 L306,325 L305,329 L302,331 L300,331 L300,334 L296,336 L296,341 L294,341 L293,344 L290,345 L287,344 L284,346 L282,346 L282,349 L280,351 L280,355 L278,354 L276,358 L275,362 L273,363 L274,369 L272,372 L271,372 L267,370 L266,368 L263,365 L262,365 L259,367 L254,367 L252,366 L247,367 L246,364 L243,364 L241,363 L238,366 L234,366 L234,368 L227,368 L223,366 L218,367 L217,368 L212,371 L209,370 L205,371 L202,371 L202,367 L204,367 L204,365 L202,362 L198,362 L198,363 L193,363 L190,366 L187,366 L187,369 L183,372 L184,373 L183,375 L180,375 L180,377 L178,378 L174,378 L174,376 L172,371 L171,372 L167,371 L160,371 L153,370 L150,369 L149,367 L146,365 L143,366 L138,364 L137,363 L137,358 L134,356 L132,358 L129,357 L128,356 L129,351 L127,350 L127,348 L130,349 L132,347 L129,344 L132,341 L134,341 L136,336 L135,335 L133,331 L134,330 L137,331 L141,328 L140,326 L137,325 L139,322 L144,320 L146,315 L146,312 L148,308 L145,304 L143,301 L144,298 L141,297 L143,290 L145,293 L148,292 L148,290 L145,290 L144,287 L149,289 L150,288 L151,284 L155,284 L155,286 L154,288 L154,290 L154,292 L158,293 L161,293 L164,291 L168,295 L168,298 L165,298 L164,299 L165,304 L164,306 L165,309 L162,308 L161,309 L159,308 L158,311 L160,312 L161,314 L164,312 L167,312 L169,311 L169,308 L173,307 L172,304 L177,303 L181,305 L183,303 L187,306 L190,306 L190,304 L188,301 L188,298 L192,298 L193,295 L192,292 L188,291 L187,290 L190,289 L189,285 L192,283 L193,284 L195,283 L198,283 L200,283 L201,280 L199,278 L198,275 L196,278 L193,277 L191,278 L185,277 L183,276 L181,273 L181,266 L184,264 L187,263 L189,259 L191,258 L194,256 L196,256 L199,253 L201,253 L206,250 L210,248 L214,245 L216,245 L216,243 L218,242 Z","Bhopal",106.52,91.89,0.3421,0.2278],["Mizoram","M528,303 L530,303 L531,305 L533,305 L536,301 L538,297 L539,300 L543,299 L544,301 L543,306 L545,308 L550,308 L552,311 L552,315 L553,316 L551,324 L552,329 L550,333 L546,332 L546,335 L545,340 L546,342 L546,344 L547,346 L548,350 L546,352 L544,352 L543,357 L540,355 L537,353 L536,356 L534,357 L535,352 L533,343 L533,341 L531,335 L529,334 L530,331 L529,327 L529,324 L528,321 L528,316 L527,315 L527,313 L528,311 L528,310 L528,306 L528,303 Z","Aizawl",99.26,88.04,0.2506,0.1764],["Nagaland","M591,237 L592,241 L592,241 L592,245 L588,251 L590,252 L590,259 L591,260 L587,265 L588,267 L586,269 L585,272 L583,274 L580,274 L577,273 L577,271 L572,274 L568,273 L565,271 L560,273 L561,274 L558,277 L556,281 L554,280 L553,278 L553,275 L550,272 L554,270 L556,267 L559,265 L560,263 L562,265 L565,264 L564,261 L565,258 L567,254 L569,253 L569,251 L574,249 L574,247 L577,245 L580,244 L583,243 L584,240 L587,240 L589,239 L591,237 Z","Kohima",97.74,88.85,0.2314,0.1872],["Odisha","M362,426 L361,425 L358,424 L356,427 L355,429 L353,430 L353,432 L349,433 L343,432 L341,427 L339,427 L337,425 L334,427 L330,428 L332,431 L331,432 L328,433 L326,433 L325,436 L324,442 L322,443 L319,441 L318,443 L314,445 L315,442 L313,442 L313,439 L312,438 L309,441 L309,444 L309,450 L307,451 L305,450 L302,450 L300,451 L296,454 L294,454 L293,455 L288,456 L290,452 L291,445 L296,441 L300,437 L301,435 L305,432 L305,430 L307,429 L306,425 L305,421 L306,417 L304,417 L303,415 L302,411 L303,409 L298,406 L299,403 L300,401 L305,404 L307,404 L309,408 L311,406 L317,408 L317,404 L315,404 L310,402 L311,399 L310,396 L311,394 L309,391 L310,389 L309,386 L309,383 L312,384 L312,382 L315,379 L315,376 L321,376 L322,376 L326,378 L328,377 L329,371 L332,371 L331,368 L332,365 L334,362 L334,361 L336,360 L335,357 L335,355 L338,351 L340,351 L342,348 L346,348 L346,345 L345,344 L348,345 L349,347 L352,348 L355,348 L357,346 L365,346 L369,345 L369,350 L368,354 L371,355 L372,356 L374,354 L376,353 L379,354 L382,354 L384,357 L387,357 L390,352 L389,351 L390,344 L395,346 L397,348 L404,350 L405,351 L408,354 L410,354 L412,357 L412,360 L416,357 L417,361 L421,362 L422,366 L420,367 L416,367 L411,370 L409,372 L407,377 L411,385 L411,387 L407,391 L405,394 L406,395 L404,397 L401,399 L397,405 L382,410 L376,413 L370,417 L365,421 L362,426 Z","Bhubaneswar",101.11,92.69,0.2739,0.2385],["Punjab","M167,106 L166,108 L168,110 L166,111 L164,113 L161,114 L163,118 L167,121 L168,124 L170,128 L173,133 L174,136 L176,136 L178,133 L180,136 L184,138 L183,143 L187,145 L188,149 L185,149 L186,150 L188,151 L190,153 L188,157 L186,157 L183,161 L184,162 L184,164 L181,165 L178,164 L175,164 L174,167 L174,170 L171,173 L167,173 L166,171 L163,171 L160,173 L158,171 L154,176 L151,175 L153,173 L152,171 L149,170 L148,170 L146,168 L143,167 L140,169 L137,168 L123,168 L124,166 L125,164 L125,162 L123,158 L125,155 L128,153 L131,150 L133,147 L138,143 L139,141 L137,140 L137,137 L140,132 L137,126 L139,122 L144,121 L145,118 L148,119 L150,118 L153,118 L156,114 L155,112 L157,112 L163,110 L167,106 Z","Jalandhar",97.55,87.38,0.2291,0.1676],["Puducherry","M254,621 L252,619 L253,617 L254,617 L254,621 Z M253,598 L252,595 L254,594 L253,598 Z","Puducherry",96.26,86.47,0.2128,0.1554],["Rajasthan","M125,162 L125,164 L124,166 L123,168 L137,168 L138,170 L136,172 L139,173 L138,177 L139,178 L138,181 L139,182 L142,182 L144,181 L146,182 L147,184 L149,184 L150,185 L156,184 L156,189 L157,190 L159,194 L160,200 L162,201 L167,205 L171,209 L168,212 L170,213 L169,217 L172,217 L174,219 L173,214 L178,211 L180,211 L182,213 L187,211 L188,209 L191,211 L190,214 L190,216 L189,221 L191,222 L193,219 L194,220 L198,219 L199,222 L199,225 L201,227 L201,229 L204,230 L206,233 L204,237 L207,238 L201,241 L202,243 L207,241 L208,239 L211,241 L216,239 L219,240 L218,242 L216,243 L216,245 L214,245 L210,248 L206,250 L201,253 L199,253 L196,256 L194,256 L191,258 L189,259 L187,263 L184,264 L181,266 L181,273 L183,276 L185,277 L191,278 L193,277 L196,278 L198,275 L199,278 L201,280 L200,283 L198,283 L195,283 L193,284 L192,283 L189,285 L190,289 L187,290 L188,291 L192,292 L193,295 L192,298 L188,298 L188,301 L190,304 L190,306 L187,306 L183,303 L181,305 L177,303 L172,304 L173,307 L169,308 L169,311 L167,312 L164,312 L161,314 L160,312 L158,311 L159,308 L161,309 L162,308 L165,309 L164,306 L165,304 L164,299 L165,298 L168,298 L168,295 L164,291 L161,293 L158,293 L154,292 L154,290 L154,288 L155,286 L155,284 L151,284 L150,288 L149,289 L144,287 L145,290 L148,290 L148,292 L145,293 L143,290 L141,297 L144,298 L143,301 L145,304 L148,308 L146,312 L146,315 L144,320 L139,322 L137,325 L140,326 L141,328 L137,331 L134,330 L133,331 L131,328 L129,328 L129,326 L127,325 L124,325 L122,322 L120,323 L118,320 L118,318 L117,317 L113,314 L112,312 L113,311 L113,308 L109,307 L106,305 L108,301 L106,299 L104,298 L102,301 L101,300 L98,300 L97,298 L94,297 L92,299 L90,296 L88,296 L87,294 L86,294 L83,292 L81,294 L79,293 L74,294 L71,293 L66,295 L62,293 L59,287 L58,282 L55,279 L53,276 L53,273 L53,269 L47,270 L44,269 L40,263 L40,260 L42,256 L42,250 L42,249 L39,247 L35,248 L27,244 L27,243 L27,238 L29,234 L35,228 L38,225 L41,218 L46,214 L50,214 L53,216 L53,218 L55,221 L57,221 L66,218 L69,217 L74,217 L80,215 L80,211 L82,209 L86,206 L89,199 L90,196 L98,192 L103,190 L104,187 L106,185 L110,177 L112,168 L117,166 L121,165 L125,162 Z","Jaipur",104.72,90.21,0.3194,0.2054],["Sikkim","M450,234 L448,234 L445,234 L443,236 L440,235 L435,235 L434,233 L435,228 L434,226 L438,219 L436,215 L442,215 L447,212 L450,213 L452,214 L452,219 L452,222 L450,225 L451,228 L454,230 L451,232 L450,234 Z","Gangtok",103.3,90.45,0.3015,0.2086],["Telangana","M204,444 L203,443 L205,440 L208,438 L210,432 L212,432 L210,428 L209,428 L208,426 L211,423 L211,420 L213,419 L215,421 L217,422 L218,418 L220,417 L220,412 L221,410 L222,408 L227,408 L229,409 L232,409 L233,412 L235,412 L236,415 L238,415 L240,416 L241,413 L244,414 L246,416 L248,414 L252,413 L256,416 L257,418 L256,423 L254,425 L256,427 L256,432 L258,433 L260,435 L263,434 L265,437 L268,436 L271,439 L274,441 L275,445 L274,447 L278,449 L280,456 L283,454 L285,455 L288,456 L293,455 L294,454 L296,454 L297,455 L292,457 L291,461 L290,464 L289,466 L287,465 L285,467 L284,467 L283,469 L279,470 L277,470 L276,474 L270,471 L268,473 L265,475 L268,477 L270,476 L270,480 L268,480 L265,478 L263,474 L259,476 L257,478 L259,479 L257,483 L253,481 L250,483 L247,483 L245,485 L241,485 L241,486 L240,493 L236,493 L234,494 L231,498 L227,496 L226,497 L223,496 L219,498 L219,500 L216,502 L211,501 L209,502 L206,501 L203,500 L202,495 L205,490 L198,489 L202,485 L202,480 L202,477 L203,475 L202,472 L200,471 L202,466 L207,463 L201,461 L202,458 L204,457 L204,455 L206,451 L204,444 Z","Hyderabad",107.46,95.7,0.3539,0.2787],["Tamil Nadu","M219,575 L220,578 L222,579 L226,575 L227,571 L227,570 L229,568 L233,567 L235,568 L237,569 L239,569 L240,566 L242,567 L245,564 L245,562 L247,562 L248,564 L256,561 L257,559 L259,557 L261,558 L264,559 L265,563 L264,566 L263,574 L261,582 L255,592 L254,594 L252,595 L253,598 L252,603 L254,608 L254,617 L253,617 L252,619 L254,621 L255,633 L252,634 L244,633 L242,634 L241,637 L242,639 L239,642 L238,644 L235,647 L233,653 L234,654 L237,657 L228,660 L226,661 L223,661 L218,665 L217,667 L217,670 L216,672 L217,676 L215,679 L209,682 L208,684 L204,685 L204,686 L199,685 L194,681 L198,675 L195,670 L197,667 L195,664 L197,661 L198,657 L199,654 L200,652 L198,650 L197,651 L195,650 L196,647 L196,644 L197,640 L198,635 L195,632 L191,635 L188,633 L187,631 L188,627 L189,622 L188,620 L184,619 L186,614 L183,612 L180,612 L182,610 L179,606 L176,605 L175,603 L177,603 L179,601 L181,600 L182,602 L188,603 L190,598 L192,598 L194,599 L198,598 L201,599 L202,595 L206,594 L209,591 L208,589 L202,588 L205,585 L205,582 L204,581 L205,577 L208,577 L209,574 L209,573 L212,572 L213,574 L215,573 L216,575 L219,575 Z","Chennai",100.8,92.39,0.27,0.2345],["Tripura","M526,297 L527,300 L526,303 L528,303 L528,306 L528,310 L528,311 L527,313 L527,315 L525,315 L523,317 L520,317 L521,321 L518,323 L516,326 L517,330 L515,333 L512,333 L509,327 L508,328 L506,327 L505,321 L503,318 L503,315 L504,315 L504,312 L507,306 L511,307 L513,307 L514,305 L515,303 L519,306 L521,300 L524,300 L526,297 Z","Agartala",97.53,86.55,0.2288,0.1565],["Uttar Pradesh","M204,157 L206,157 L207,159 L212,161 L210,164 L209,165 L207,170 L210,175 L213,174 L213,178 L214,178 L217,175 L219,174 L221,172 L224,173 L225,176 L231,179 L234,180 L231,183 L233,187 L236,187 L238,188 L239,189 L242,192 L244,192 L245,194 L253,193 L254,194 L256,197 L258,197 L259,195 L260,195 L268,199 L270,198 L275,202 L281,205 L284,206 L287,210 L289,210 L290,212 L295,215 L299,218 L301,216 L303,216 L311,222 L317,221 L318,224 L318,226 L322,226 L324,227 L328,227 L330,230 L332,228 L332,227 L337,227 L342,230 L343,232 L345,233 L344,236 L346,237 L347,241 L351,242 L353,245 L351,247 L347,246 L346,249 L343,249 L347,253 L349,253 L349,256 L346,258 L349,261 L355,264 L357,265 L359,267 L356,269 L354,268 L352,269 L350,269 L349,268 L347,270 L344,272 L341,276 L340,276 L337,278 L335,278 L331,281 L331,282 L331,288 L332,290 L335,294 L334,296 L332,297 L332,302 L332,303 L331,307 L328,311 L325,312 L322,312 L319,310 L317,307 L318,302 L317,300 L318,294 L316,292 L310,293 L310,295 L307,293 L307,291 L304,290 L299,288 L299,285 L295,284 L292,281 L290,282 L285,281 L285,284 L283,286 L279,287 L276,287 L277,284 L275,282 L272,284 L269,283 L263,285 L265,282 L267,281 L264,278 L264,276 L262,275 L260,277 L258,277 L258,279 L254,280 L254,283 L252,282 L249,282 L246,283 L244,283 L245,279 L243,277 L241,278 L242,281 L241,283 L238,281 L236,279 L233,281 L232,277 L234,273 L230,274 L230,277 L227,275 L226,279 L227,286 L230,289 L231,295 L233,294 L235,299 L235,301 L233,304 L230,303 L228,303 L226,301 L225,300 L223,302 L220,298 L220,293 L217,288 L221,285 L221,283 L222,281 L220,276 L223,273 L224,272 L228,272 L231,271 L230,268 L232,266 L234,261 L236,260 L236,255 L239,253 L237,250 L235,248 L235,245 L233,245 L229,243 L226,244 L222,242 L221,241 L218,242 L219,240 L216,239 L211,241 L208,239 L207,241 L202,243 L201,241 L207,238 L204,237 L206,233 L204,230 L201,229 L201,227 L199,225 L199,222 L198,219 L203,216 L202,213 L203,208 L202,204 L199,202 L199,200 L196,194 L196,190 L194,188 L194,182 L195,180 L194,176 L195,174 L196,169 L198,166 L201,164 L204,158 L204,157 Z","Lucknow",94.69,87.81,0.193,0.1733],["Uttarakhand","M259,195 L258,197 L256,197 L254,194 L253,193 L245,194 L244,192 L242,192 L239,189 L238,188 L236,187 L233,187 L231,183 L234,180 L231,179 L225,176 L224,173 L221,172 L219,174 L217,175 L214,178 L213,178 L213,174 L210,175 L207,170 L209,165 L210,164 L212,161 L207,159 L206,157 L204,157 L209,155 L208,153 L209,151 L207,149 L209,147 L209,144 L211,140 L216,139 L221,136 L224,138 L227,138 L228,139 L231,138 L233,141 L236,141 L234,137 L237,132 L238,133 L241,136 L242,139 L244,140 L245,142 L247,142 L249,145 L252,143 L254,144 L256,146 L261,148 L263,149 L262,153 L266,154 L269,156 L270,155 L274,158 L278,162 L277,164 L272,168 L271,168 L270,171 L266,173 L267,175 L265,178 L263,180 L265,183 L264,187 L261,188 L261,190 L259,193 L259,195 Z","Dehradun",93.5,88.34,0.178,0.1804],["West Bengal","M436,359 L437,362 L436,365 L434,364 L436,359 Z M434,233 L435,235 L440,235 L443,236 L445,234 L448,234 L450,234 L452,235 L454,240 L457,240 L458,242 L461,242 L463,241 L465,243 L467,242 L472,245 L474,245 L474,253 L472,254 L471,258 L469,257 L470,260 L467,262 L463,261 L459,258 L458,254 L454,251 L453,252 L455,254 L451,255 L449,252 L445,250 L442,248 L441,250 L444,251 L443,253 L441,255 L441,256 L437,258 L435,264 L436,266 L439,267 L443,270 L443,271 L448,274 L452,274 L452,277 L454,279 L454,281 L449,280 L446,281 L443,281 L443,284 L441,287 L438,286 L437,289 L435,291 L433,293 L436,297 L441,300 L443,300 L449,302 L449,305 L449,311 L446,313 L446,317 L447,318 L450,323 L449,327 L451,328 L453,327 L454,328 L452,330 L452,333 L454,336 L453,338 L454,340 L454,343 L452,343 L452,347 L451,350 L448,351 L447,354 L446,357 L442,359 L438,362 L437,357 L438,356 L437,354 L434,356 L433,360 L429,364 L422,366 L421,362 L417,361 L416,357 L412,360 L412,357 L410,354 L408,354 L405,351 L407,351 L409,349 L406,343 L404,343 L403,340 L400,340 L398,338 L399,334 L396,332 L394,333 L392,331 L390,329 L387,330 L386,326 L387,325 L386,322 L390,321 L390,319 L393,319 L393,321 L395,323 L398,321 L397,320 L399,318 L401,318 L405,316 L407,316 L407,313 L409,312 L414,314 L418,311 L417,308 L419,309 L422,309 L422,306 L426,305 L425,304 L428,302 L429,299 L429,296 L431,296 L431,289 L433,288 L431,285 L428,283 L429,280 L430,279 L428,276 L434,271 L434,269 L431,267 L431,265 L429,265 L430,261 L433,260 L436,256 L440,253 L438,250 L436,249 L437,247 L437,243 L436,238 L433,235 L434,233 Z","Kolkata",105.41,92.02,0.3281,0.2296],["Jammu & Kashmir","M186,91 L184,92 L183,91 L178,92 L176,93 L175,95 L172,96 L169,99 L167,98 L165,99 L168,102 L168,104 L167,106 L163,110 L157,112 L155,112 L151,110 L149,108 L147,109 L144,108 L141,108 L140,105 L141,104 L139,102 L136,103 L133,102 L128,99 L123,97 L120,97 L116,93 L117,91 L116,86 L117,85 L116,82 L117,80 L115,78 L116,76 L115,73 L114,71 L114,67 L113,64 L113,60 L114,59 L119,58 L120,54 L125,54 L126,53 L128,47 L132,49 L138,47 L139,52 L141,52 L144,54 L147,55 L150,52 L153,56 L153,58 L155,60 L156,65 L160,68 L165,72 L166,74 L170,74 L175,80 L174,83 L177,82 L183,87 L186,91 Z","Srinagar",100.71,86.88,0.2689,0.1609]];
+var EM_ETHANOL_COST = 71.16;
+var em_svg = document.getElementById('em_svg');
+var em_selectedIdx = null;
+var em_paths = [];
+EM_MAP.forEach(function(row, idx){
+  var name=row[0], d=row[1], city=row[2];
+  var el = document.createElementNS('http://www.w3.org/2000/svg','path');
+  el.setAttribute('d', d);
+  el.setAttribute('stroke', '#fff');
+  el.setAttribute('stroke-width', '0.6');
+  el.style.cursor = 'pointer';
+  if (city === null) el.setAttribute('fill', '#e9ecef');
+  el.addEventListener('click', function(){ em_selectedIdx = idx; emRender(); });
+  var title = document.createElementNS('http://www.w3.org/2000/svg','title');
+  title.textContent = name;
+  el.appendChild(title);
+  em_svg.appendChild(el);
+  em_paths.push(el);
+});
+function emPriceFor(row, crude, blend){
+  var city = row[2];
+  if (city === null) return null;
+  var pubP=row[3], pubD=row[4], rateP=row[5], rateD=row[6];
+  var crudeEq = crude*FX/BBL_L;
+  var dealerBlend = blend*EM_ETHANOL_COST + (1-blend)*(crudeEq+WEDGE_P);
+  var exciseBlend = (1-blend)*EXC_P;
+  var preP = dealerBlend + exciseBlend + COMM_P;
+  var rspP = preP*(1+rateP);
+  var dealerD = crudeEq+WEDGE_D;
+  var preD = dealerD + EXC_D + COMM_D;
+  var rspD = preD*(1+rateD);
+  var e0pre = (crudeEq+WEDGE_P)+EXC_P+COMM_P;
+  var e0rsp = e0pre*(1+rateP);
+  return {rspP:rspP, rspD:rspD, e0rsp:e0rsp, pubP:pubP, pubD:pubD, city:city};
+}
+function emColor(v, lo, hi){
+  var t = hi>lo ? (v-lo)/(hi-lo) : 0.5;
+  t = Math.max(0, Math.min(1, t));
+  var stops = [[230,241,251],[181,212,244],[133,183,235],[55,138,221],[24,95,165],[12,68,124],[4,44,83]];
+  var pos = t*(stops.length-1);
+  var i0 = Math.floor(pos), i1 = Math.min(stops.length-1, i0+1);
+  var f = pos-i0;
+  var c0=stops[i0], c1=stops[i1];
+  return 'rgb('+Math.round(c0[0]+(c1[0]-c0[0])*f)+','+Math.round(c0[1]+(c1[1]-c0[1])*f)+','+Math.round(c0[2]+(c1[2]-c0[2])*f)+')';
+}
+function emRender(){
+  var crude = parseFloat(document.getElementById('em_crude').value) || 101.07;
+  var blend = parseFloat(document.getElementById('em_blend').value);
+  var results = EM_MAP.map(function(row){ return emPriceFor(row, crude, blend); });
+  var vals = []; results.forEach(function(r){ if (r) vals.push(r.rspP); });
+  var lo = Math.min.apply(null, vals), hi = Math.max.apply(null, vals);
+  var sumP=0, sumD=0, sumE0=0, n=0;
+  em_paths.forEach(function(el, idx){
+    var r = results[idx];
+    if (!r) { el.setAttribute('fill', '#e9ecef'); return; }
+    el.setAttribute('fill', emColor(r.rspP, lo, hi));
+    sumP+=r.rspP; sumD+=r.rspD; sumE0+=r.e0rsp; n++;
+    el.setAttribute('stroke', idx===em_selectedIdx ? '#051C2C' : '#fff');
+    el.setAttribute('stroke-width', idx===em_selectedIdx ? '2' : '0.6');
+  });
+  document.getElementById('em_avgP').textContent = 'Rs '+(sumP/n).toFixed(2)+'/l';
+  document.getElementById('em_avgD').textContent = 'Rs '+(sumD/n).toFixed(2)+'/l';
+  var vs=(sumP/n)-(sumE0/n);
+  document.getElementById('em_vsE0').textContent=(vs>=0?'+':'')+'Rs '+vs.toFixed(2)+'/l';
+  if (em_selectedIdx === null) em_selectedIdx = EM_MAP.findIndex(function(r){return r[0]==='Delhi';});
+  var row = EM_MAP[em_selectedIdx], r = results[em_selectedIdx];
+  document.getElementById('em_selName').textContent = row[0];
+  var tt = document.getElementById('em_tooltip');
+  if (!r) {
+    tt.innerHTML = '<strong>'+row[0]+'</strong> &mdash; not covered by PPAC Table 8.14.';
+  } else {
+    tt.innerHTML = '<strong>'+row[0]+'</strong> ('+r.city+')<br>'+
+      'Petrol at '+(blend*100).toFixed(0)+'% blend: Rs '+r.rspP.toFixed(2)+'/l &nbsp;&middot;&nbsp; '+
+      'Unblended (E0): Rs '+r.e0rsp.toFixed(2)+'/l &nbsp;&middot;&nbsp; Diesel: Rs '+r.rspD.toFixed(2)+'/l<br>'+
+      '<span style="color:var(--mut)">PPAC published baseline (01.10.2025): petrol Rs '+r.pubP.toFixed(2)+'/l, diesel Rs '+r.pubD.toFixed(2)+'/l</span>';
+  }
+}
+document.getElementById('em_crude').addEventListener('input', emRender);
+document.getElementById('em_blend').addEventListener('change', emRender);
+emRender();
+})();
+</script>
+
+<h2>What would fix this</h2>
+<ul>
+<li><b>PPAC should publish the monthly Indian basket crude price as a downloadable series within days of each month&rsquo;s close</b>, rather than in the half-yearly Ready Reckoner, so analysts are not left applying PPAC&rsquo;s formula themselves across an eleven-month gap from the last official print.</li>
+<li><b>PPAC should add a state-by-state price build-up for each of the 35 state capitals, showing statutory VAT rate, local levies and freight separately</b>, so the effective incidence of state taxes no longer has to be backed out of the published retail price.</li>
+<li><b>PPAC should publish the dealer price split into crude cost and refining-and-marketing margin for petrol and diesel</b>, so the crude-linked layer of the litre is a published figure rather than a wedge inferred from a single quarterly baseline.</li>
+<li><b>IOCL, BPCL and HPCL should each publish a daily, machine-readable table of retail selling prices for the cities they already list</b>, so current pump prices can be checked without SMS look-ups, apps or Delhi-only PDFs.</li>
+<li><b>The Ministry of Petroleum and Natural Gas should publish the cost difference OMCs absorb between unblended and E20 petrol at the same notified pump price</b>, so the effect of ethanol blending on the litre&rsquo;s economics is disclosed rather than modelled from outside.</li>
+</ul>
+<p>These are proposals from this blog, not recommendations any agency has adopted.</p>
+
+<p class="disclaimer" data-gs-ai-disclosure-v1="1"><strong>About this article:</strong> Researched, written and edited by Umashankar Triplicane Dwarakanathan, with AI research assistance; every figure is meant to trace to the primary source cited. See the <a href="https://masaladeutsch.blogspot.com/p/disclaimer.html">Editorial Policy</a> for how sourcing, AI use and corrections work.</p>
+<div id="gs-idx"></div><script defer="defer" src="https://herrrickshaw.github.io/masaladeutsch/accordion.js"></script>
