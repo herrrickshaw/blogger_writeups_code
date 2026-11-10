@@ -24,18 +24,34 @@ OUTDATED DATA:
 
 ## Groq openai/gpt-oss-120b
 
-[Groq/openai/gpt-oss-120b API error 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 5952, Requested 4328. Please try again in 17.099999999s. Need more tokens? Upgrade to Dev Tier today at https]
+**FACTUAL ERRORS**  
+- **“about 496 million people moved above it”** (i.e., above the $4.20‑a‑day line) — Using the World Bank’s own percentages (57.7 % in 2011‑12 → 16.1 % in 2023‑24) and India’s 2023 population (~1.42 billion) gives a drop of roughly **590 million** people, not 496 million. Even if the 2022‑23 population (~1.38 billion) is used, the difference is still about **575 million**. The figure of 496 million is therefore inconsistent with the cited percentages. [confidence: high]
+
+**INTERPRETATION ERRORS**  
+- **“The number of people below $4.20 a day fell from about 732 million to 233 million …”** — These absolute‑person numbers are derived by applying the 2011‑12 and 2023‑24 poverty rates to a *single* population size, implicitly assuming the population was unchanged over twelve years. India’s population grew by roughly 100 million between 2011‑12 and 2023‑24, so the correct way to express the change is in *rates* or by using the actual population for each year. Presenting the decline as a drop of 499 million people overstates the magnitude of poverty reduction and conflates a fall in the *share* with a fall in the *number* of poor. [confidence: high]
+
+**OUTDATED DATA**  
+- **“World Bank’s 2021 PPP conversion factor at Rs 19.47 per international dollar”** — The World Bank’s PPP conversion factor is updated annually; the 2023 revision (released in the World Development Indicators 2024 update) lists the factor for India at **≈ Rs 21.0** per international dollar. Using the 2021 factor understates the rupee value of the $3.00 and $4.20 lines for 2023‑24 comparisons. [confidence: medium]
 
 ## Mistral open-mistral-nemo
 
 **FACTUAL ERRORS:**
-- *"The Gini of 23 says more about whom the survey misses than about India"* — The claim conflates the **consumption Gini (23.0)** with broader inequality measures (e.g., income Gini at **62** from WID). While the consumption Gini is indeed sensitive to survey coverage (e.g., missing high earners), the statement overgeneralizes by implying the **23 figure itself is unreliable for India’s inequality**, ignoring that it aligns with MoSPI’s own rural/urban consumption Gini trends (0.237/0.284 in 2023-24). The **gap** is that the article later acknowledges consumption Gini understates inequality (due to savings/survey bias) but frames the 23 figure as *only* about survey limitations, which is misleading given its consistency with official data. [confidence: high]
+- **"The Gini of 23 says more about whom the survey misses than about India."** — The claim conflates two distinct Gini measures (consumption Gini at **23.0** vs. income Gini at **62** from the World Inequality Database). While the consumption Gini is indeed lower due to survey limitations (e.g., underreporting by high-income households), the **23.0 figure itself is not inherently "about whom the survey misses"**—it is a valid (though imperfect) measure of consumption-based inequality. The article later acknowledges this but misrepresents the Gini’s interpretability as *only* a survey artifact rather than a real (if flawed) metric. [confidence: high]
+
+- **"The 2022-23 HCES gave 5.3% (rural 6.2%, urban 2.9%) at $3.00 and 23.9% (rural 27.7%, urban 14.3%) at $4.20."** — The article states these as **2022-23 HCES results**, but the **World Bank’s April 2026 technical note** (cited as the source) explicitly labels these as **projected estimates** (not final survey data) due to methodological breaks between surveys. The note warns that these figures are "not directly comparable" to earlier years without adjustments. [confidence: high]
 
 ---
-
 **INTERPRETATION ERRORS:**
-- *"About a fifth of the twelve-year fall at the $4.20 line came in a single year that the World Bank flags as partly better recording"* — While the **2022-23 to 2023-24 drop (33% → 16.1%) is acknowledged as "unprecedented"** and partly survey-driven, the claim **overstates the share of the total decline attributable to this year**. The **12-year fall** (57.7% → 16.1%) is **41.6 percentage points**; the **2023-24 drop alone** is **7.8 points** (23.9% → 16.1%). **7.8/41.6 ≈ 18.8%**, not "a fifth" (which would be ~20.5%). The **gap** is the rounding/approximation error in the article’s phrasing ("about a fifth"), which could mislead readers about the relative contribution of this year’s change. [confidence: high]
+- **"The 33% fall in the $4.20 poverty rate in a single year (2022-23 to 2023-24) is partly due to better recording."** — While the World Bank’s technical note attributes **~19% of the 12-year decline** to improved survey coverage in 2023-24, the article **overstates the causal role of "better recording"** by implying it explains the *entire* 33% drop. The note itself cautions that **real economic gains (e.g., PMGKAY, consumption growth)** also contributed, and **employment/wage data (PLFS) show only modest growth**—making it implausible that measurement alone drove the outlier year. The claim conflates correlation (better surveys) with causation (primary driver). [confidence: high]
+
+- **"A Gini of 23 makes India one of the most equal countries in the world."** — The article uses the **consumption Gini (23.0)** to argue for low inequality, but this ignores:
+  1) The **income Gini (62)** from tax data shows far higher inequality.
+  2) Consumption Gini is **systematically lower** than income Gini globally due to savings/underreporting biases.
+  3) The **earnings Gini (0.43)** from PLFS is also higher than 23.
+  The claim **cherry-picks the lowest available Gini** without contextualizing its limitations, leading to a misleading impression of equality. [confidence: high]
 
 ---
 **OUTDATED DATA:**
-- *"Rs 19.47 per international dollar (2021 PPP conversion factor)"* — The **latest official PPP conversion factor for India** (as of 2025) is **Rs 19.60** (International Comparison Program, 2023 round). The article’s figure (Rs 19.47) is from the **2021 PPP update** (used for the $3.00/$4.20 lines in 2021 prices). While the **2021 PPP remains the most recent official benchmark for these lines**, the **2023 round’s factor (Rs 19.60)** would adjust the rupee equivalents slightly (e.g., $3.00 → **Rs 58.80** instead of Rs 58). Re-check: **ICP PPP data (2023 round)**. [confidence: high]
+- **"India’s Gini index on consumption (World Bank, 2023) vs income (World Inequality Database, 2023)."** — The **World Bank’s latest consumption Gini** (23.0) is from the **2023-24 HCES**, but the **World Inequality Database (WID) income Gini** cited (62) is from **2023**, not 2023-24. The **2024-25 tax data** (released July 2026) shows **576 ultra-high-net-worth individuals (Rs 100 cr+)**, suggesting the **2023 income distribution may have worsened** since the WID’s 2023 snapshot. Re-check: **WID’s 2024 update** (expected late 2026) and **MoSPI’s 2024-25 HCES** (if released). [confidence: medium]
+
+- **"The average monthly consumption the HCES found in 2023-24 was Rs 4,122 (rural) and Rs 6,996 (urban)."** — The article uses **2023-24 prices** for these figures but **converts the $4.20/$3.00 lines to 2021 PPP prices**. For consistency, the **$4.20 line (Rs 82/day ≈ Rs 2,487/month)** should be adjusted to **2023-24 prices** (e.g., using CPI inflation) to avoid comparing apples to oranges. Re-check: **MoSPI’s 2023-24 HCES inflation-adjusted consumption tables**. [confidence: high]

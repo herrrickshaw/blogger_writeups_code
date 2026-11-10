@@ -62,3 +62,9 @@ offshore mineral bids 28 Dec.
   digital-twin-for-ipa docs/state_wire_2026-09-15_2026-11-09.csv (commit 46f96f5), using build_reportage's signal filter.
   Punjab, Kerala, Assam and West Bengal failed on the Mac (scrapling module missing), and the MP Hindi titles were not
   translated. To widen it: pip install scrapling, enable translation, re-run collect_state_news.py --days 56.
+- interpreting-gazette-notification: Gazette Trail freshness pass (gazette-translated-indexed c57995e, run on the
+  data-collectors environment; egazette.gov.in reachable from the cloud) -> 2,656 notifications / 2,170 cross-references
+  (+19/+20, six ministries; nothing new in the Ravi-Beas, Post Office Rules or CAT chains). Relation table and chart and
+  provenance split updated (1,762 / 401 / 7). Reader data rebuilt with out/research/gazette-trail/build_reader_json.py
+  and pushed to masaladeutsch (de1f4fb).
+- PARIVESH: parivesh.nic.in resets TLS from cloud IPs, so the refresh must run on the Mac (commands given; PR #4 adds summarize.py).

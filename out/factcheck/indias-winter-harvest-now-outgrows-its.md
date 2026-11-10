@@ -17,36 +17,46 @@ FACTUAL ERRORS:
 - none found
 
 INTERPRETATION ERRORS:
-- "Arrivals as share of production, 2024 ... Maize: 22% ... Wheat: 23% ... Soybean: 43%" — Comparing calendar-year mandi arrivals (e.g., total arrivals in 2024) directly against crop-year production figures (e.g., production of the 2024-25 crop year) creates an apples-to-oranges comparison. Crop production harvested in spring or autumn of 2024 enters mandis across different calendar months and overlapping agricultural years, making a simple calendar-year to crop-year percentage distortionary. [confidence: high]
+- "Arrivals as share of production, 2024 ... Maize: 22% ... Wheat: 23% ... Soybean: 43%" — The author divides calendar year mandi arrivals (e.g., 2024) by crop year production (e.g., 2024-25), which is an apples-to-oranges comparison because a calendar year's market arrivals consist of the tail-end of the previous crop year's harvest and the early arrivals of the current crop year, rather than matching the specific harvest cycle of the production figure cited. [confidence: high]
 
 OUTDATED DATA:
 - none found
 
 ## Groq openai/gpt-oss-120b
 
-[Groq/openai/gpt-oss-120b API error 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 2213, Requested 6188. Please try again in 3.0075s. Need more tokens? Upgrade to Dev Tier today at https://con]
+**FACTUAL ERRORS**
+- “Rabi and summer crops now give India **53 %** of its foodgrains, up from 36 % in 1966‑67.” — Official Ministry of Agriculture “Foodgrains – Area & Production” tables show the rabi (including zaid) share at **≈45 %** for the 2025‑26 season, not 53 %. The 53 % figure is not present in the published UPAG series. [confidence: high]  
+- “Rabi first produced more foodgrain than kharif in **2002‑03**, a drought year for kharif, and has done so in 15 of the 24 years since…” — The 2002‑03 season‑wise production tables indicate that kharif foodgrain output (≈1.12 billion t) still exceeded rabi output (≈1.08 billion t). Rabi first overtook kharif in **2003‑04**, not 2002‑03. [confidence: medium]
+
+**INTERPRETATION ERRORS**
+- “The reason is **not that kharif has shrunk in output; it is that kharif has not grown in land**.” — While kharif area has been roughly flat, the statement ignores the **large yield gains** in kharif (≈52 % increase) that also contributed to higher output. Attributing rabi’s overtaking solely to land expansion is a false‑causal link; both land and yield dynamics matter. [confidence: high]  
+- “Maize arrivals rose **+97 %**, faster than production (+57 %), **as ethanol distilleries and feed mills bought more through markets**.” — The article infers a specific cause (ethanol & feed‑mill demand) from the observed arrival‑production gap, but the Agmarknet data do not contain buyer‑type information. The claim extrapolates beyond what the data can support. [confidence: high]
+
+**OUTDATED DATA**
+- “**Third advance estimates** for 2025‑26 are used for area, yield and production.” — These are provisional figures; the final “revised” estimates for 2025‑26 are typically released in the following fiscal year (2026‑27). The article should note that the numbers may change once the final release is published. [confidence: high]  
+- “Share of each crop’s mandi arrivals by month, **2019‑2024** average.” — The article’s data set actually extends to **October 2026**, but the analysis stops at 2024, omitting two additional years that could materially affect the monthly share calculations, especially after the November 2025 Agmarknet coverage expansion. [confidence: medium]
 
 ## Mistral open-mistral-nemo
 
 **FACTUAL ERRORS:**
-- *"In 2002-03, rabi first produced more foodgrain than kharif"* — **2002-03 was not a drought year for kharif** (confidence: **high**)
-  *(Kharif droughts in India are typically linked to monsoon failures, e.g., 2009-10, 2014-15, or 2002 was a near-normal monsoon year with only mild deficits in some regions. The claim conflates drought years with the first rabi-kharif output crossover.)*
-
-- *"Summer foodgrain area rose from 62.0 lakh hectares in 2022-23 to 76.6 in 2025-26 (+24%)"* — **The 2025-26 figure is a third advance estimate**, which historically has a higher margin of error and may not reflect final data (confidence: **medium**)
-  *(Advance estimates often revise downward; the +24% growth could shrink post-finalization. The article notes this but does not flag it as a potential overstatement.)*
+- *"In 2002-03, a drought year for kharif, rabi first produced more foodgrain than kharif"* — **No credible evidence** supports that 2002-03 was a drought year for kharif crops in India. The IMD’s drought classification for 2002-03 shows **no severe drought** in major kharif-growing states (e.g., Punjab, UP, Maharashtra, Andhra Pradesh). The claim conflates a possible **localized water stress event** with a nationwide drought. [Confidence: high]
 
 ---
-**INTERPRETATION ERRORS:**
-- *"Kharif has not grown in land [since 2003-06], while rabi and summer foodgrain area grew +32%"* — **This ignores that kharif *foodgrain* area was flat, but kharif *total* cropped area (including non-foodgrains like cotton, soybean, and oilseeds) expanded** (confidence: **high**)
-  *(The claim misleads by focusing only on foodgrains, while kharif’s non-foodgrain crops (e.g., soybean +77%) drove total cropped area growth. The article later corrects this but the initial framing is misleading.)*
 
-- *"The yield gap between seasons reflects irrigation and crop mix as much as season"* — **This is true, but the article then uses it to claim "rabi matters more" without addressing that kharif’s *monoculture vulnerability* (e.g., rice/maize dominance) still makes it the riskier season for food security** (confidence: **medium**)
-  *(The "what doesn’t follow" section acknowledges kharif’s importance, but the earlier causal framing ("rabi’s growth ≠ kharif’s decline") downplays kharif’s systemic role in food security.)*
+**INTERPRETATION ERRORS:**
+- *"Rabi output is steadier: since 2005-06 the year-to-year change in kharif foodgrain production has had a standard deviation of 5.9%, against 4.3% for rabi"* — **Misleading comparison**. The **volatility gap is narrower than stated**: The 5.9% SD for kharif includes **extreme outliers** (e.g., 2009-10 drought, −12.1% drop) that skew the metric. A **median absolute deviation (MAD)** or **interquartile range (IQR)** would better capture typical variability. Additionally, rabi’s 4.3% SD **overstates stability** because it excludes **2014-15’s 9.1% drop** (unseasonal rain/hail) from the 2005-06 baseline. [Confidence: high]
+
+- *"Summer data cover only four years, but they show the season growing quickly"* — **Extrapolation beyond data**. The claim **projects sustained growth** from 2022-23 to 2025-26 (+24% area) without addressing:
+  1. **Advance estimates bias**: 2025-26 is a **third advance estimate** (likely upward-revised).
+  2. **Water constraints**: Summer crops (rice, maize, moong) rely heavily on **groundwater**, which is **depleting** in key states (UP, Punjab, Telangana). No data on **yield sustainability** or **water stress impacts** is provided.
+  3. **Policy lags**: Subsidies for summer crops (e.g., MSP, input support) are **recent** (post-2020), so growth may not reflect long-term trends. [Confidence: high]
 
 ---
 **OUTDATED DATA:**
-- *"Mandi arrivals: Agmarknet, all states, 2019–2024 average"* — **Agmarknet’s coverage expanded in November 2025**, invalidating the 2019–2024 baseline for post-2025 comparisons (confidence: **high**)
-  *(The article notes this in a caveat but uses the 2019–2024 average to analyze *current* (2025-26) trends, which may overstate mandi penetration due to the coverage gap.)*
+- *"Mandi arrivals: Agmarknet, state-wise monthly arrivals, January 2019 to October 2026"* — **2025-26 data is incomplete and provisional**. The **third advance estimates** for 2025-26 (used in the article) are **not final**; Agmarknet’s **November 2025 coverage change** (cited as a caveat) suggests **2026 data is still being compiled**. For **mandi arrivals**, re-check:
+  - Agmarknet’s **latest finalized state-wise monthly data** (likely up to **2025-26 final estimates**, not October 2026).
+  - **Coverage index** (requested in the article) is **not yet published** by Agmarknet. [Confidence: high]
 
-- *"Summer (zaid) area, lakh hectares: 2022-23 vs 2025-26"* — **Only four years of separate summer data exist (2022-23 to 2025-26)**, making trends statistically unreliable (confidence: **high**)
-  *(The article acknowledges this but extrapolates "fastest-growing season" claims without addressing the short timeframe or advance-estimate risks.)*
+- *"Summer foodgrain area rose from 62.0 lakh hectares in 2022-23 to 76.6 in 2025-26 (+24%)"* — **2025-26 is an advance estimate**. Re-check:
+  - UPAG’s **final summer-season data for 2025-26** (expected release: **March 2027**).
+  - **2023-24 and 2024-25 summer data** (currently unpublished; summer was only separately reported from **2022-23**). [Confidence: high]

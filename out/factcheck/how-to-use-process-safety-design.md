@@ -7,7 +7,7 @@
 
 Source: `posts/how-to-use-process-safety-design.html`
 
-Text-SHA1: `db73b348cb782054`
+Text-SHA1: `b953ddb5e7383cea`
 
 Panel: **3 of 5 configured models** answered.  Skipped this run: Kimi ([Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g9); Cerebras ([Cerebras API error 402: {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_).
 
@@ -24,31 +24,27 @@ OUTDATED DATA:
 
 ## Groq openai/gpt-oss-120b
 
-[Groq/openai/gpt-oss-120b API error 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Requested 11567, please reduce your message size and try again. Need more tokens? Upgrade to Dev Tier today at http]
+[Groq/openai/gpt-oss-120b API error 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Requested 13486, please reduce your message size and try again. Need more tokens? Upgrade to Dev Tier today at http]
 
 ## Mistral open-mistral-nemo
 
-This article is **not India-focused** (it covers process safety engineering tools with global standards like API, IEEE, OSHA, and EU Seveso III), so no factual errors or outdated data specific to India can be identified. However, I will flag **two distinct issues** that apply to the article as written:
+FACTUAL ERRORS:
+- none found
 
----
+INTERPRETATION ERRORS:
+- **"The toolkit ships UK and Dutch presets; supply a custom criterion for an Indian site."**
+  — The claim conflates *availability* of presets with *applicability* to Indian regulatory frameworks. While the toolkit lacks Indian-specific risk criteria (e.g., from the *Indian Standards Institute* or *Ministry of Environment’s* guidelines), this does not mean Indian sites *cannot* use the UK/Dutch presets as a starting point for ALARP analysis. The tool’s disclaimer explicitly states it is not a safety case, and the *legal-clauses* module (section 14) acknowledges India’s MSIHC Rules 1989 as a separate legal regime. The error lies in implying the toolkit *refuses* Indian adaptation rather than merely omitting local defaults.
+  [confidence: high]
 
-**FACTUAL ERRORS:**
-- **"The Manufacture, Storage and Import of Hazardous Chemical Rules 1989 treat a modification likely to cover major accident hazards as a new activity (rule 6) and need a further safety report at least 90 days before a material modification (rule 11)"**
-  — **Rule 11 of the MSIHC Rules 1989 does not require a 90-day advance notice for "material modifications."** The correct timeline for safety reports under MSIHC is tied to **major hazard installations (MHIs)** and **safety reports** (Rule 11(1)–(2)), but the 90-day requirement is not explicitly tied to "material modifications" in the same way. The **MSIHC Rules 2021** (not 1989) later clarified timelines for modifications, but the 1989 version’s Rule 11(1) refers to **initial safety reports for new MHIs**, not routine modifications. The article conflates the 1989 rules with later amendments or interpretations.
-  **[Confidence: high]** *(Source: MSIHC Rules 1989, Rule 11(1)–(2) does not mandate 90 days for modifications; the 2021 rules revised this.)*
+- **"The LNG figure is an AACE Class 5 screening number, not a budget."**
+  — While technically correct, this misleads readers about the toolkit’s *intended use*. AACE Class 5 is a *feasibility-level* estimate (typically ±30% accuracy), but the article later states the LNG capex example is derived from "24 plants used, 2 excluded" (implying a *back-of-the-envelope* analog method). The gap is that the toolkit’s own documentation (e.g., *docs/VALIDATION.md*) flags its LNG cost correlations as *unvalidated against Indian projects*, yet the article frames it as a "screening number" without clarifying that Indian LNG projects (e.g., Dabhol, Kamarajar) would require site-specific adjustments for labor costs, taxes, or fuel prices. The claim risks overstating the toolkit’s precision for Indian contexts.
+  [confidence: high]
 
----
+OUTDATED DATA:
+- **"OSHA PSM applicability | psm-check --chemical chlorine --kg 700 | Threshold 680 kg, covered: true"**
+  — The threshold for chlorine under OSHA PSM (29 CFR 1910.119) is **650 kg** (not 680 kg). The toolkit’s hardcoded value likely stems from an older version of the Appendix A list (last updated in 2019). Re-check the *OSHA PSM Appendix A* (latest revision: [2023](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.119)) for the current threshold.
+  [confidence: high]
 
-**INTERPRETATION ERRORS:**
-- **"The toolkit declines to answer outside a method’s range instead of returning a number (examples below)."**
-  — **This claim misrepresents the toolkit’s behavior.** While the toolkit *can* refuse to compute results for invalid inputs (e.g., enclosed arc-flash cases), the **examples provided later (e.g., `arc-flash` refusal for enclosed equipment)** are **not universal refusals** but **specific to the method’s scope**. The toolkit *does* return numbers for other invalid inputs (e.g., negative temperatures or extreme Cp/Cv values) with **warnings or errors**, not blanket refusals. The phrasing implies a strict "all-or-nothing" refusal policy, which is incorrect—it’s a **context-dependent design choice** tied to each command’s logic.
-  **[Confidence: high]** *(Evidence: The `relief-gas` example with `--T=-5` returns an error but still runs with warnings for atypical inputs, contradicting the blanket claim.)*
-
----
-**OUTDATED DATA:**
-- **none found**
-*(The article cites "latest" figures from 5–6 November 2026, but since these are illustrative inputs for a software toolkit (not empirical data), no official superseding source exists. The legal clauses section references the 1989 MSIHC Rules, but the 2021 version is the current law.)*
-
----
-**Note on scope:**
-The article’s focus on **global standards (API, IEEE, OSHA, EU Seveso III)** and **software toolkits** means India-specific claims (e.g., MSIHC Rules) are either **misinterpreted** or **outdated**. No factual errors exist for non-India content.
+- **"Seveso classification | seveso Chlorine:H=6 'Hydrogen sulphide:H=3' | Tier: lower-tier, sum 1.2 against the lower threshold"**
+  — The Seveso III Directive (2012/18/EU) thresholds for chlorine are **H=5000 kg** (lower-tier) and **H=50,000 kg** (upper-tier), not H=6. The "H" value here appears to be a misinterpretation of the *Seveso hazard class* (e.g., "H=6" might refer to a custom scaling, but the toolkit’s implementation lacks EU compliance updates post-2015. Re-check the [EU Seveso III Annex I](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32012L018EU) for current thresholds (latest amendment: 2023).
+  [confidence: high]
