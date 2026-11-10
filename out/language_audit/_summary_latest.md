@@ -1,6 +1,6 @@
-# Language audit summary — 2026-11-07
+# Language audit summary — 2026-11-10
 
-*285 of 505 posts flagged. Report-only — nothing was published. Per-post detail in out/language_audit/<slug>.md.*
+*287 of 510 posts flagged. Report-only — nothing was published. Per-post detail in out/language_audit/<slug>.md.*
 
 - [Half-Empty Terminals, Costlier Pipes: Winter Comes for Europe's Landlocked Five](https://masaladeutsch.blogspot.com/2026/08/winter-is-coming-for-europes-landlocked.html) — 74 matches — see `winter-is-coming-for-europes-landlocked.md`
 - [A 17% Rural Pay Rise That Nobody Received](https://masaladeutsch.blogspot.com/2026/08/a-17-rural-pay-rise-that-nobody-received.html) — 54 matches — see `a-17-rural-pay-rise-that-nobody-received.md`
@@ -30,21 +30,21 @@
 - [Foreign Capital Found India's Hospitals — It Is Buying Them, Not Building New Ones](https://masaladeutsch.blogspot.com/2026/08/foreign-capital-found-indias-hospitals.html) — 7 matches — see `foreign-capital-found-indias-hospitals.md`
 - [How to use agentic-insurance-agent: open-source insurance workflows with safe AI](https://masaladeutsch.blogspot.com/2026/10/how-to-use-agentic-insurance-agent-open.html) — 7 matches — see `how-to-use-agentic-insurance-agent-open.md`
 - [India Pays $5-8 Billion a Year to Ship Its Own Oil. Only 20% of That Cargo Travels on an Indian Vessel.](https://masaladeutsch.blogspot.com/2026/09/india-pays-5-8-billion-year-to-ship-its.html) — 7 matches — see `india-pays-5-8-billion-year-to-ship-its.md`
-- [IPA Digital Twin — Reportage: Latest Updates (28 Jul – 14 Sep 2026)](https://masaladeutsch.blogspot.com/2026/08/ipa-digital-twin-reportage-latest.html) — 7 matches — see `ipa-digital-twin-reportage-latest.md`
 - [One Nation, One GST Rate: What a True Flat Tax Would Take, and Why Not Even Singapore Has One](https://masaladeutsch.blogspot.com/2026/09/one-nation-one-gst-rate-what-true-flat.html) — 7 matches — see `one-nation-one-gst-rate-what-true-flat.md`
 - [Sugar at ₹55.70 a Kilo: Why Cane Acreage Isn't Growing, and Ethanol Is Losing the Diversion Race](https://masaladeutsch.blogspot.com/2026/08/sugar-at-5570-kilo-why-cane-acreage.html) — 7 matches — see `sugar-at-5570-kilo-why-cane-acreage.md`
 - [Ten Cubic Metres an Hour: India's First Green Fuel Bunkering Rulebook, and the Pilots Behind It](https://masaladeutsch.blogspot.com/2026/08/ten-cubic-metres-hour-indias-first.html) — 7 matches — see `ten-cubic-metres-hour-indias-first.md`
-- [The Fearless Girl's Charter — India's Market Asks 2026](https://masaladeutsch.blogspot.com/2026/07/the-fearless-girls-charter-indias.html) — 7 matches — see `the-fearless-girls-charter-indias.md`
 - [$0.28 a Unit: The Diesel Math Behind India's Data Centres and Telecom Towers, and Why It's Already Losing](https://masaladeutsch.blogspot.com/2026/08/028-unit-diesel-math-behind-indias-data.html) — 6 matches — see `028-unit-diesel-math-behind-indias-data.md`
 - [How to use claude-lmstudio-router: keep working when Claude is unavailable](https://masaladeutsch.blogspot.com/2026/10/how-to-use-claude-lmstudio-router-keep.html) — 6 matches — see `how-to-use-claude-lmstudio-router-keep.md`
 - [How to Use the Process-Safety Design Toolkit: A Complete Walkthrough, Command by Command](https://masaladeutsch.blogspot.com/2026/11/how-to-use-process-safety-design.html) — 6 matches — see `how-to-use-process-safety-design.md`
 - [How to use transmission-client: control a Transmission daemon from a CLI, a web page or Python](https://masaladeutsch.blogspot.com/2026/10/how-to-use-transmission-client-control.html) — 6 matches — see `how-to-use-transmission-client-control.md`
+- [IPA Digital Twin — Reportage: Latest Updates (15 Sep – 9 Nov 2026)](https://masaladeutsch.blogspot.com/2026/08/ipa-digital-twin-reportage-latest.html) — 6 matches — see `ipa-digital-twin-reportage-latest.md`
 - [57.4 GW and Counting: India's Wind Fleet, State by State, Against What NIWE Says Is Actually There](https://masaladeutsch.blogspot.com/2026/08/574-gw-and-counting-indias-wind-fleet.html) — 5 matches — see `574-gw-and-counting-indias-wind-fleet.md`
 - [Annadata to Urjadata: The Farmer-Income Case for Ethanol Blending](https://masaladeutsch.blogspot.com/2026/08/annadata-to-urjadata-farmer-income-case.html) — 5 matches — see `annadata-to-urjadata-farmer-income-case.md`
 - [How to use bms-battery-management: simulate an EV battery pack in Python](https://masaladeutsch.blogspot.com/2026/10/how-to-use-bms-battery-management.html) — 5 matches — see `how-to-use-bms-battery-management.md`
 - [How to use five open toolkits: finance models, documents, care audits](https://masaladeutsch.blogspot.com/2026/10/how-to-use-five-open-toolkits-finance.html) — 5 matches — see `how-to-use-five-open-toolkits-finance.md`
 - [Inside the Refinery: How Hydrogen Cleans Your Diesel — and Why Going Green Could Raise Its Price](https://masaladeutsch.blogspot.com/2026/08/inside-refinery-how-hydrogen-cleans.html) — 5 matches — see `inside-refinery-how-hydrogen-cleans.md`
 - [Not a Drop Out: Ethanol's Zero-Liquid-Discharge Rule, and the Treatment-Capacity Gap Behind It](https://masaladeutsch.blogspot.com/2026/08/not-drop-out-ethanols-zero-liquid.html) — 5 matches — see `not-drop-out-ethanols-zero-liquid.md`
+- [AI Tools Edition 04: DeepSeek Put Its Agent and Its Inference Engine on GitHub. They Drew 47,000 Stars in Under Four Weeks](https://masaladeutsch.blogspot.com/2026/11/ai-tools-edition-04-deepseek-put-its.html) — 4 matches — see `ai-tools-edition-04-deepseek-put-its.md`
 - [UPI Mimicking the Plastic Card: Will MDR Be Like Visa Fees?](https://masaladeutsch.blogspot.com/2026/08/beyond-pump-what-upi-fee-would-cost.html) — 4 matches — see `beyond-pump-what-upi-fee-would-cost.md`
 - [Do CBSE Past Papers Actually Help? Depends Which of the 11 Subjects You Ask.](https://masaladeutsch.blogspot.com/2026/09/do-cbse-past-papers-actually-help.html) — 4 matches — see `do-cbse-past-papers-actually-help.md`
 - [GAIL and Sumitomo Both Turned Their TruAlt MOUs Into Binding CBG Deals Within a Year. BPCL's Has Gone Quiet.](https://masaladeutsch.blogspot.com/2026/09/gail-and-sumitomo-both-turned-their.html) — 4 matches — see `gail-and-sumitomo-both-turned-their.md`
@@ -106,6 +106,7 @@
 - [Financing the Fuel-to-Chemicals Pivot: How Indian Oil's ₹15,000 Crore Debt Raise Fits a Much Bigger Pattern](https://masaladeutsch.blogspot.com/2026/08/financing-fuel-to-chemicals-pivot-how.html) — 2 matches — see `financing-fuel-to-chemicals-pivot-how.md`
 - [FIPI's Biggest Ask Is Getting Natural Gas Under GST. It Still Hasn't Happened](https://masaladeutsch.blogspot.com/2026/09/fipis-biggest-ask-is-getting-natural.html) — 2 matches — see `fipis-biggest-ask-is-getting-natural.md`
 - [From Cane to Code: The Digital Layer Underneath India's E20 Milestone](https://masaladeutsch.blogspot.com/2026/08/from-cane-to-code-digital-layer.html) — 2 matches — see `from-cane-to-code-digital-layer.md`
+- [From Kerosene in Diesel to Ethanol in Petrol: A History of Fuel Theft in India](https://masaladeutsch.blogspot.com/2026/11/from-kerosene-in-diesel-to-ethanol-in.html) — 2 matches — see `from-kerosene-in-diesel-to-ethanol-in.md`
 - [Global LNG Trade Hit a Record 437 Million Tonnes in 2025 — Almost Double What It Was a Decade Ago](https://masaladeutsch.blogspot.com/2026/09/global-lng-trade-hit-record-437-million.html) — 2 matches — see `global-lng-trade-hit-record-437-million.md`
 - [How to use amazon-product-selector: a gated shortlist of rising Amazon keywords you can actually enter](https://masaladeutsch.blogspot.com/2026/10/how-to-use-amazon-product-selector.html) — 2 matches — see `how-to-use-amazon-product-selector.md`
 - [How to use Bazartalks_Py2Cplus: a C++ port of a quant research platform, with its Python-vs-C++ benchmark](https://masaladeutsch.blogspot.com/2026/10/how-to-use-bazartalkspy2cplus-c-port-of.html) — 2 matches — see `how-to-use-bazartalkspy2cplus-c-port-of.md`
@@ -210,7 +211,7 @@
 - [India Built an Offshore Insurance Hub. It Writes $12 Million of Direct Cover a Year.](https://masaladeutsch.blogspot.com/2026/09/india-built-offshore-insurance-hub-it.html) — 1 matches — see `india-built-offshore-insurance-hub-it.md`
 - [India Capped Margins on 137 Cancer Drugs. Common Medicines Outside Price Control Carry Markups of Up to 1,800%](https://masaladeutsch.blogspot.com/2026/10/india-capped-margins-on-137-cancer.html) — 1 matches — see `india-capped-margins-on-137-cancer.md`
 - [India Doesn't Have One Quality Regulator. It Has 37 — and One Just Repealed Itself Before It Started.](https://masaladeutsch.blogspot.com/2026/09/india-doesnt-have-one-quality-regulator.html) — 1 matches — see `india-doesnt-have-one-quality-regulator.md`
-- [India Ended 63 Years of State Nuclear Monopoly — But Foreign Reactor Builders Are Still Locked Out](https://masaladeutsch.blogspot.com/2026/09/india-ended-63-years-of-state-nuclear.html) — 1 matches — see `india-ended-63-years-of-state-nuclear.md`
+- [India Voted to End Its 63-Year State Nuclear Monopoly. The Law Is Not in Force Yet, and Foreign Builders Stay Locked Out](https://masaladeutsch.blogspot.com/2026/09/india-ended-63-years-of-state-nuclear.html) — 1 matches — see `india-ended-63-years-of-state-nuclear.md`
 - [India Exports the Naphtha and Benzene Its Own Pharma Industry Needs — Mostly to China](https://masaladeutsch.blogspot.com/2026/09/india-exports-naphtha-and-benzene-its.html) — 1 matches — see `india-exports-naphtha-and-benzene-its.md`
 - [India Exports the World's Coco Peat. Its Own Highest-Value Crop Barely Uses Any of It.](https://masaladeutsch.blogspot.com/2026/08/india-exports-worlds-coco-peat-its-own.html) — 1 matches — see `india-exports-worlds-coco-peat-its-own.md`
 - [India Got a Record $94.5 Billion of FDI Last Year. Net of Exits and Investment Abroad, $7.7 Billion Stayed](https://masaladeutsch.blogspot.com/2026/10/india-got-record-945-billion-of-fdi.html) — 1 matches — see `india-got-record-945-billion-of-fdi.md`
@@ -287,3 +288,4 @@
 - [Wheat's Support Price Rose by ₹25, the Smallest Rise in Years. The Granaries Explain Why](https://masaladeutsch.blogspot.com/2026/10/wheats-support-price-rose-by-25.html) — 1 matches — see `wheats-support-price-rose-by-25.md`
 - [Where the World's Oil Sits When It Isn't Moving: Storage, Floating Barrels, and the Hormuz Shock of 2026](https://masaladeutsch.blogspot.com/2026/08/where-worlds-oil-sits-when-it-isnt.html) — 1 matches — see `where-worlds-oil-sits-when-it-isnt.md`
 - [Who Collects India's GST, and Who Actually Gets It Back](https://masaladeutsch.blogspot.com/2026/08/who-collects-indias-gst-and-who.html) — 1 matches — see `who-collects-indias-gst-and-who.md`
+- [The Fearless Girl's Charter — India's Market Asks 2026](https://masaladeutsch.blogspot.com/2026/07/the-fearless-girls-charter-indias.html) — 0 matches — see `the-fearless-girls-charter-indias.md`

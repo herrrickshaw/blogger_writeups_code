@@ -1,4 +1,4 @@
-# Language audit — India Ended 63 Years of State Nuclear Monopoly — But Foreign Reactor Builders Are Still Locked Out
+# Language audit — India Voted to End Its 63-Year State Nuclear Monopoly. The Law Is Not in Force Yet, and Foreign Builders Stay Locked Out
 
 *https://masaladeutsch.blogspot.com/2026/09/india-ended-63-years-of-state-nuclear.html*
 
