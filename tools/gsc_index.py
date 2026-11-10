@@ -25,7 +25,7 @@ Report-only: never touches the blog.
 import argparse, csv, collections, datetime as dt, json, pathlib, sys, time, urllib.error, urllib.parse, urllib.request
 
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
-from gsc_report import get_access_token, DEFAULT_SITE  # noqa: E402
+DEFAULT_SITE = "https://masaladeutsch.blogspot.com/"
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 OUT = ROOT / "out" / "gsc_index"
@@ -83,6 +83,7 @@ def inspect(args, site):
     if args.limit:
         todo = todo[:args.limit]
     print(f"{len(urls)} URLs; {len(todo)} to inspect now")
+    from gsc_report import get_access_token  # needs `cryptography`; only the API path imports it
     token, t0, n = get_access_token(), time.time(), 0
     with CACHE.open("a") as fh:
         for u in todo:
