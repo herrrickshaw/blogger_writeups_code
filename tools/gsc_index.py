@@ -150,8 +150,13 @@ def main():
     ap.add_argument("--only-not-indexed", action="store_true")
     ap.add_argument("--summary", action="store_true", help="rebuild the summary from the cache; no API calls")
     a = ap.parse_args()
-    if not a.summary:
-        inspect(a, a.site)
+    try:
+        if not a.summary:
+            inspect(a, a.site)
+    except KeyboardInterrupt:
+        print("interrupted; writing the summary from what was inspected")
+    except Exception as e:  # keep the cache usable and still write a summary
+        print(f"stopped early: {type(e).__name__}: {e}")
     summary(a.site)
 
 
