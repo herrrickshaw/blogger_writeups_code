@@ -439,6 +439,31 @@ def cmd_publish_draft(args):
     print(f"url     {res.get('url', '(no url returned)')}")
 
 
+def cmd_revert_draft(args):
+    """Move live posts back to draft (posts.revert). Content is kept; the public URL stops serving.
+    Takes --slug (repeatable) or --file with one slug per line."""
+    slugs = list(args.slug or [])
+    if args.file:
+        slugs += [l.strip() for l in pathlib.Path(args.file).read_text().splitlines() if l.strip() and not l.startswith("#")]
+    if not slugs:
+        raise SystemExit("give --slug or --file")
+    for slug in slugs:
+        try:
+            p = find_post(slug)
+        except SystemExit as e:
+            print(f"  skip {slug}: {e}")
+            continue
+        print(f"  {slug}  id={p['id']}  {p.get('title','')[:60]}")
+        if args.dry_run:
+            continue
+        try:
+            api(f"/blogs/{BLOG_ID}/posts/{p['id']}/revert", data={}, method="POST")
+        except Ceiling as e:
+            print(f"daily write ceiling reached: {e}")
+            sys.exit(3)
+        print("    reverted to draft")
+
+
 def cmd_page(args):
     """Create or update a Blogger PAGE. Pages are not part of the post index, so
     a large data table lives here without consuming the homepage render budget
@@ -548,6 +573,9 @@ def main():
     pd = sub.add_parser("publish-draft", help="publish an existing draft by id")
     pd.add_argument("--id", required=True); pd.add_argument("--dry-run", action="store_true")
     pd.set_defaults(fn=cmd_publish_draft)
+    rv = sub.add_parser("revert-draft", help="move live posts back to draft (unpublish, content kept)")
+    rv.add_argument("--slug", action="append"); rv.add_argument("--file", help="one slug per line")
+    rv.add_argument("--dry-run", action="store_true"); rv.set_defaults(fn=cmd_revert_draft)
 
     b = sub.add_parser("bulk"); b.add_argument("--manifest", required=True)
     b.add_argument("--limit", type=int, default=0)
