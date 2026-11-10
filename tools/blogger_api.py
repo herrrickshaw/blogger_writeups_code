@@ -390,6 +390,55 @@ def cmd_insert(args):
     sys.exit(0 if ok else 2)
 
 
+def cmd_drafts(args):
+    """List every draft post; with --out, save each draft's HTML and an index.json there
+    so the drafts can be reviewed outside the Blogger dashboard."""
+    items, token = [], None
+    while True:
+        q = {"status": "draft", "fetchBodies": "true" if args.out else "false", "maxResults": 20,
+             "view": "ADMIN"}
+        if token:
+            q["pageToken"] = token
+        page = api(f"/blogs/{BLOG_ID}/posts?{urllib.parse.urlencode(q)}")
+        items += page.get("items", [])
+        token = page.get("nextPageToken")
+        if not token:
+            break
+    out = pathlib.Path(args.out) if args.out else None
+    if out:
+        out.mkdir(parents=True, exist_ok=True)
+    index = []
+    for p in sorted(items, key=lambda x: x.get("updated", ""), reverse=True):
+        body = p.get("content") or ""
+        row = {"id": p["id"], "title": p.get("title", ""), "updated": p.get("updated", ""),
+               "published": p.get("published", ""), "labels": p.get("labels", []), "bytes": len(body.encode())}
+        index.append(row)
+        print(f"  {row['id']}  {row['updated'][:10]}  {row['bytes']:>8,}  {row['title'][:70]}")
+        if out:
+            (out / f"{p['id']}.html").write_text(body, encoding="utf-8")
+    print(f"{len(items)} draft(s)")
+    if out:
+        (out / "index.json").write_text(json.dumps(index, indent=1, ensure_ascii=False), encoding="utf-8")
+        print(f"saved to {out}/")
+
+
+def cmd_publish_draft(args):
+    """Publish an existing draft by id (posts.publish). Use `drafts` to find ids."""
+    p = api(f"/blogs/{BLOG_ID}/posts/{args.id}?view=ADMIN")
+    if p.get("status") != "DRAFT":
+        raise SystemExit(f"{args.id} is {p.get('status')}, not a draft; nothing done")
+    print(f"publishing {args.id}: {p.get('title','')}")
+    if args.dry_run:
+        print("DRY RUN — not published")
+        return
+    try:
+        res = api(f"/blogs/{BLOG_ID}/posts/{args.id}/publish", data={}, method="POST")
+    except Ceiling as e:
+        print(f"daily write ceiling reached: {e}")
+        sys.exit(3)
+    print(f"url     {res.get('url', '(no url returned)')}")
+
+
 def cmd_page(args):
     """Create or update a Blogger PAGE. Pages are not part of the post index, so
     a large data table lives here without consuming the homepage render budget
@@ -494,6 +543,11 @@ def main():
     pg.add_argument("--id", help="update this page instead of creating one")
     pg.add_argument("--dry-run", action="store_true"); pg.set_defaults(fn=cmd_page)
     sub.add_parser("pages", help="list pages").set_defaults(fn=cmd_pages)
+    dr = sub.add_parser("drafts", help="list draft posts; --out DIR saves each draft's HTML + index.json")
+    dr.add_argument("--out"); dr.set_defaults(fn=cmd_drafts)
+    pd = sub.add_parser("publish-draft", help="publish an existing draft by id")
+    pd.add_argument("--id", required=True); pd.add_argument("--dry-run", action="store_true")
+    pd.set_defaults(fn=cmd_publish_draft)
 
     b = sub.add_parser("bulk"); b.add_argument("--manifest", required=True)
     b.add_argument("--limit", type=int, default=0)
