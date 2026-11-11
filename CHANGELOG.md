@@ -17623,3 +17623,1030 @@ scheduled sync
 **Added**
 
 - `india-has-50-lakh-stray-cattle-and-371` **v1.0.0** — India Has 50 Lakh Stray Cattle and 371 Certified Compostable-Bag Makers. The Bin Matters More Than the Bag (34,299 bytes)
+
+## 2026-11-11T05:46:22+05:30 — 502 posts live
+
+**Versions**
+
+- `india-has-50-lakh-stray-cattle-and-371` **1.0.0 → 1.0.1** (PATCH) — moved to a new URL; body unchanged
+- `ai-tools-edition-04-deepseek-put-its` **1.0.0 → 1.0.1** (PATCH) — moved to a new URL; body unchanged
+- `the-centres-old-age-pension-has-been` **1.0.0 → 1.0.1** (PATCH) — moved to a new URL; body unchanged
+- `14500-crore-for-92-gwh-indias-storage` **2.0.0 → 2.0.1** (PATCH) — moved to a new URL; body unchanged
+- `idbi-banks-rescuers-put-in-54000-crore` **1.0.0 → 1.0.1** (PATCH) — moved to a new URL; body unchanged
+- `from-kerosene-in-diesel-to-ethanol-in` **2.0.0 → 2.0.1** (PATCH) — moved to a new URL; body unchanged
+- `the-world-bank-says-496-million-indians` **1.0.0 → 1.0.1** (PATCH) — moved to a new URL; body unchanged
+- `panchayats-raise-barely-two-rupees-in` **1.0.0 → 1.0.1** (PATCH) — moved to a new URL; body unchanged
+- `doubling-indias-csr-profit-trigger` **1.0.0 → 1.0.1** (PATCH) — moved to a new URL; body unchanged
+- `a-record-maize-crop-will-not-make-india` **2.0.0 → 2.0.1** (PATCH) — moved to a new URL; body unchanged
+- `oil-gas-projects-under-evaluation-and` **3.0.0 → 3.0.1** (PATCH) — moved to a new URL; body unchanged
+- `how-to-use-process-safety-design` **3.2.0 → 4.0.0** (MAJOR) — figures changed (+37/-0 distinct numbers)
+- `screen-process-safety-question-in-five` **1.2.1 → 1.2.2** (PATCH) — moved to a new URL; body unchanged
+- `a-free-cell-game-fits-indias-new-class` **1.0.0 → 1.0.1** (PATCH) — moved to a new URL; body unchanged
+- `the-chessboard-and-indias-granaries` **2.0.1 → 2.0.2** (PATCH) — moved to a new URL; body unchanged
+- `india-doesnt-need-blockchain-to-pay-its` **1.0.0 → 1.0.1** (PATCH) — moved to a new URL; body unchanged
+- `e20-and-spark-plug-what-ethanol-does-to` **1.0.0 → 1.0.1** (PATCH) — moved to a new URL; body unchanged
+- `states-can-draw-rs-61008-crore-of-short` **1.0.0 → 1.0.1** (PATCH) — moved to a new URL; body unchanged
+- `indias-new-securities-code-gives-sebi` **1.0.0 → 1.0.1** (PATCH) — moved to a new URL; body unchanged
+- `defence-exports-rose-63-to-rs-38424` **1.0.0 → 1.0.1** (PATCH) — moved to a new URL; body unchanged
+- `how-to-use-five-open-toolkits-finance` **1.0.1 → 1.0.2** (PATCH) — moved to a new URL; body unchanged
+- `how-to-use-stock-portfolio-evaluator` **1.0.1 → 1.0.2** (PATCH) — moved to a new URL; body unchanged
+- `how-to-use-global-stock-screener-rule` **1.0.1 → 1.0.2** (PATCH) — moved to a new URL; body unchanged
+- `how-to-use-saf-monitoring-system-track` **1.0.1 → 1.0.2** (PATCH) — moved to a new URL; body unchanged
+- `how-to-use-refinery-design-opensource` **1.0.1 → 1.0.2** (PATCH) — moved to a new URL; body unchanged
+- `how-to-use-uco-ulo-tracking-chain-of` **1.0.1 → 1.0.2** (PATCH) — moved to a new URL; body unchanged
+- `how-to-use-lok-rajya-sabha-qa-see-which` **1.0.1 → 1.0.2** (PATCH) — moved to a new URL; body unchanged
+- `how-to-use-lng-design-opensource-size` **1.0.1 → 1.0.2** (PATCH) — moved to a new URL; body unchanged
+- `how-to-use-lignocellulosic-ethanol` **1.0.1 → 1.0.2** (PATCH) — moved to a new URL; body unchanged
+- `rice-and-maize-became-ethanol` **2.0.0 → 2.0.1** (PATCH) — moved to a new URL; body unchanged
+- `india-has-funded-3-lakh-machines-to` **1.1.0 → 1.1.1** (PATCH) — moved to a new URL; body unchanged
+- `most-of-what-indians-pay-for-health-is` **1.0.0 → 1.0.1** (PATCH) — moved to a new URL; body unchanged
+- `india-capped-margins-on-137-cancer` **3.0.0 → 3.0.1** (PATCH) — moved to a new URL; body unchanged
+- `states-won-right-to-tax-mines-in-2024` **3.0.0 → 3.0.1** (PATCH) — moved to a new URL; body unchanged
+- `a-kilo-of-crude-fish-oil-sells-for` **1.0.0 → 1.0.1** (PATCH) — moved to a new URL; body unchanged
+- `india-dropped-last-approvals-on-its` **2.0.0 → 2.0.1** (PATCH) — moved to a new URL; body unchanged
+- `india-wants-15-of-its-energy-from-gas` **1.0.0 → 1.0.1** (PATCH) — moved to a new URL; body unchanged
+- `the-negative-cash-conversion-cycle-free` **2.0.1 → 2.0.2** (PATCH) — moved to a new URL; body unchanged
+- `earnings-drift-and-piotroski-work-only` **2.0.1 → 2.0.2** (PATCH) — moved to a new URL; body unchanged
+- `the-supercycle-is-in-metals-2026-oil` **2.0.1 → 2.0.2** (PATCH) — moved to a new URL; body unchanged
+- `how-to-use-india-trade-export-analysis` **1.0.1 → 1.0.2** (PATCH) — moved to a new URL; body unchanged
+- `how-to-use-india-forex-analysis-read` **1.0.1 → 1.0.2** (PATCH) — moved to a new URL; body unchanged
+- `seven-states-plan-to-borrow-above-new-3` **1.1.0 → 1.1.1** (PATCH) — moved to a new URL; body unchanged
+- `andhra-pradesh-has-approved-rs-14-lakh` **1.1.0 → 1.1.1** (PATCH) — moved to a new URL; body unchanged
+- `indias-fertiliser-sales-fell-where` **1.1.0 → 1.1.1** (PATCH) — moved to a new URL; body unchanged
+- `gems-purchases-stopped-growing-in-2025` **1.1.0 → 1.1.1** (PATCH) — moved to a new URL; body unchanged
+- `india-wants-emergency-braking-in-every` **1.0.0 → 1.0.1** (PATCH) — moved to a new URL; body unchanged
+- `india-has-approved-12-chip-plants-and` **1.0.0 → 1.0.1** (PATCH) — moved to a new URL; body unchanged
+- `gobardhan-aims-for-12-times-todays` **1.0.0 → 1.0.1** (PATCH) — moved to a new URL; body unchanged
+- `samudra-manthan-pays-up-to-rs-675-crore` **1.1.0 → 1.1.1** (PATCH) — moved to a new URL; body unchanged
+- `indias-crude-basket-now-counts-russian` **1.1.0 → 1.1.1** (PATCH) — moved to a new URL; body unchanged
+- `india-raised-dap-subsidy-18-this-kharif` **1.0.0 → 1.0.1** (PATCH) — moved to a new URL; body unchanged
+- `india-has-legalised-e100-for-flex-fuel` **3.0.0 → 3.0.1** (PATCH) — moved to a new URL; body unchanged
+- `indias-rs-3030-crore-chemical-parks` **1.1.0 → 1.1.1** (PATCH) — moved to a new URL; body unchanged
+- `indias-draft-steel-policy-plans-604-mt` **1.0.0 → 1.0.1** (PATCH) — moved to a new URL; body unchanged
+- `india-got-record-945-billion-of-fdi` **1.1.0 → 1.1.1** (PATCH) — moved to a new URL; body unchanged
+- `half-of-php-websites-run-version-nobody` **1.0.0 → 1.0.1** (PATCH) — moved to a new URL; body unchanged
+- `closed-loop-or-open-loop-how-indias-new` **1.1.0 → 1.1.1** (PATCH) — moved to a new URL; body unchanged
+- `half-of-udans-closed-routes-shut-while` **1.0.0 → 1.0.1** (PATCH) — moved to a new URL; body unchanged
+- `rural-job-guarantee-pay-rose-96-in-july` **2.0.0 → 2.0.1** (PATCH) — moved to a new URL; body unchanged
+- `india-will-spend-rs-33660-crore-on` **3.0.0 → 3.0.1** (PATCH) — moved to a new URL; body unchanged
+- `the-desh-bill-never-came-india-is` **1.0.0 → 1.0.1** (PATCH) — moved to a new URL; body unchanged
+- `indias-constitution-set-deadline` **1.1.0 → 1.1.1** (PATCH) — moved to a new URL; body unchanged
+- `a-hectare-under-power-line-now-pays` **2.1.0 → 2.1.1** (PATCH) — moved to a new URL; body unchanged
+- `indias-approved-solar-cell-makers-can` **1.1.0 → 1.1.1** (PATCH) — moved to a new URL; body unchanged
+- `the-phone-plis-successor-pays-up-to-5` **2.0.0 → 2.0.1** (PATCH) — moved to a new URL; body unchanged
+- `india-ordered-112-captive-coal-plants` **1.1.0 → 1.1.1** (PATCH) — moved to a new URL; body unchanged
+- `indias-winter-harvest-now-outgrows-its` **1.0.0 → 1.0.1** (PATCH) — moved to a new URL; body unchanged
+- `how-to-use-hydrogen-electrolyser` **2.0.0 → 2.0.1** (PATCH) — moved to a new URL; body unchanged
+- `how-to-use-fuel-retail-outlets-see` **2.0.0 → 2.0.1** (PATCH) — moved to a new URL; body unchanged
+- `how-to-use-focus-sector-investor-map` **2.0.0 → 2.0.1** (PATCH) — moved to a new URL; body unchanged
+- `how-to-use-ethanol-design-opensource` **2.0.0 → 2.0.1** (PATCH) — moved to a new URL; body unchanged
+- `how-to-use-discom-debt-and-revenue` **2.0.0 → 2.0.1** (PATCH) — moved to a new URL; body unchanged
+- `sixteen-crops-twenty-years-where-indias` **1.0.0 → 1.0.1** (PATCH) — moved to a new URL; body unchanged
+- `indias-farm-map-in-seven-charts-maize` **1.0.0 → 1.0.1** (PATCH) — moved to a new URL; body unchanged
+- `indias-biggest-mandi-crops-have` **1.0.0 → 1.0.1** (PATCH) — moved to a new URL; body unchanged
+- `maize-is-cheapest-in-different-state` **3.0.0 → 3.0.1** (PATCH) — moved to a new URL; body unchanged
+- `ethanol-plants-that-trade-maize-to` **3.0.0 → 3.0.1** (PATCH) — moved to a new URL; body unchanged
+- `europe-wants-green-steel-it-cant-afford` **1.1.0 → 1.1.1** (PATCH) — moved to a new URL; body unchanged
+- `to-comply-or-not-to-comply-cbam-costs` **1.1.0 → 1.1.1** (PATCH) — moved to a new URL; body unchanged
+- `india-has-27400-km-of-gas-pipeline` **4.0.0 → 4.0.1** (PATCH) — moved to a new URL; body unchanged
+- `indias-cheapest-lng-capacity-is-extra` **2.0.0 → 2.0.1** (PATCH) — moved to a new URL; body unchanged
+- `how-to-use-coal-to-urea-design` **1.0.1 → 1.0.2** (PATCH) — moved to a new URL; body unchanged
+- `how-to-use-cng-cgd-retail-outlet` **1.0.1 → 1.0.2** (PATCH) — moved to a new URL; body unchanged
+- `how-to-use-cbg-design-opensource-size` **1.0.1 → 1.0.2** (PATCH) — moved to a new URL; body unchanged
+- `india-imports-whey-protein-its-cheese` **1.2.0 → 1.2.1** (PATCH) — moved to a new URL; body unchanged
+- `indias-2026-27-ethanol-tender-drops` **2.1.0 → 2.1.1** (PATCH) — moved to a new URL; body unchanged
+- `how-to-use-biomass-to-syngas-opensource` **1.0.1 → 1.0.2** (PATCH) — moved to a new URL; body unchanged
+- `how-to-use-agentic-insurance-agent-open` **1.0.1 → 1.0.2** (PATCH) — moved to a new URL; body unchanged
+- `how-to-use-vehiclefuelmileage-running` **1.0.1 → 1.0.2** (PATCH) — moved to a new URL; body unchanged
+- `how-to-use-us-stock-picks-multi-screen` **1.0.1 → 1.0.2** (PATCH) — moved to a new URL; body unchanged
+- `how-to-use-transmission-client-control` **1.0.1 → 1.0.2** (PATCH) — moved to a new URL; body unchanged
+- `how-to-use-research-design-system-one` **1.0.1 → 1.0.2** (PATCH) — moved to a new URL; body unchanged
+- `how-to-use-repo-data-dedup-find` **1.0.1 → 1.0.2** (PATCH) — moved to a new URL; body unchanged
+- `how-to-use-pricepredictionbacktest` **1.0.1 → 1.0.2** (PATCH) — moved to a new URL; body unchanged
+- `how-to-use-ppac-ready-reckoner-data` **1.0.1 → 1.0.2** (PATCH) — moved to a new URL; body unchanged
+- `how-to-use-piotroski-liquidity-research` **1.0.1 → 1.0.2** (PATCH) — moved to a new URL; body unchanged
+- `how-to-use-mospi-dataset-analysis` **1.0.1 → 1.0.2** (PATCH) — moved to a new URL; body unchanged
+- `how-to-use-memory-map-optimizer-cluster` **1.0.1 → 1.0.2** (PATCH) — moved to a new URL; body unchanged
+- `how-to-use-market-correlation-matrices` **1.0.1 → 1.0.2** (PATCH) — moved to a new URL; body unchanged
+- `how-to-use-ltm-warehouse-tests-test` **1.0.1 → 1.0.2** (PATCH) — moved to a new URL; body unchanged
+- `how-to-use-kalkiflooding-125-years-of` **1.0.1 → 1.0.2** (PATCH) — moved to a new URL; body unchanged
+- `how-to-use-india-trade-tracker-india` **1.0.1 → 1.0.2** (PATCH) — moved to a new URL; body unchanged
+- `how-to-use-india-trade-sector-policy` **1.0.1 → 1.0.2** (PATCH) — moved to a new URL; body unchanged
+- `how-to-use-india-trade-data-analysis` **1.0.1 → 1.0.2** (PATCH) — moved to a new URL; body unchanged
+- `how-to-use-india-quality-regulation` **1.0.1 → 1.0.2** (PATCH) — moved to a new URL; body unchanged
+- `how-to-use-india-omc-fuel-fleet-model` **1.0.1 → 1.0.2** (PATCH) — moved to a new URL; body unchanged
+- `how-to-use-india-ec-subsector-analysis` **1.0.1 → 1.0.2** (PATCH) — moved to a new URL; body unchanged
+- `how-to-use-india-commodity-trade` **1.0.1 → 1.0.2** (PATCH) — moved to a new URL; body unchanged
+- `how-to-use-global-ticker-universe-look` **2.0.0 → 2.0.1** (PATCH) — moved to a new URL; body unchanged
+- `how-to-use-gazette-translated-indexed` **2.0.0 → 2.0.1** (PATCH) — moved to a new URL; body unchanged
+- `how-to-use-ev-battery-management-sim` **2.0.0 → 2.0.1** (PATCH) — moved to a new URL; body unchanged
+- `how-to-use-eu-ets-compliance-platform` **2.0.0 → 2.0.1** (PATCH) — moved to a new URL; body unchanged
+- `how-to-use-delivery-playbook-field` **1.0.1 → 1.0.2** (PATCH) — moved to a new URL; body unchanged
+- `how-to-use-data-source-mining-pull` **1.0.1 → 1.0.2** (PATCH) — moved to a new URL; body unchanged
+- `how-to-use-cricket-data-analysis-score` **1.0.1 → 1.0.2** (PATCH) — moved to a new URL; body unchanged
+- `how-to-use-colab-market-fundamentals` **1.0.1 → 1.0.2** (PATCH) — moved to a new URL; body unchanged
+- `how-to-use-claude-provenance-auditable` **1.0.1 → 1.0.2** (PATCH) — moved to a new URL; body unchanged
+- `how-to-use-chemicalimportsubstitution` **1.0.1 → 1.0.2** (PATCH) — moved to a new URL; body unchanged
+- `how-to-use-blog-consistency-check-is` **1.0.1 → 1.0.2** (PATCH) — moved to a new URL; body unchanged
+- `how-to-use-amazon-product-selector` **1.0.1 → 1.0.2** (PATCH) — moved to a new URL; body unchanged
+- `how-to-use-agri-commodity-tracker-india` **1.0.1 → 1.0.2** (PATCH) — moved to a new URL; body unchanged
+- `how-to-use-fci-warehouse-mspvsmsv-grain` **1.0.1 → 1.0.2** (PATCH) — moved to a new URL; body unchanged
+- `how-to-use-cbsepaperpatterns-check` **1.0.1 → 1.0.2** (PATCH) — moved to a new URL; body unchanged
+- `how-to-use-bazartalkspy2cplus-c-port-of` **1.0.1 → 1.0.2** (PATCH) — moved to a new URL; body unchanged
+- `how-to-use-bazaartalks-multi-market` **1.0.1 → 1.0.2** (PATCH) — moved to a new URL; body unchanged
+- `how-to-use-digital-twin-for-ipa` **1.0.1 → 1.0.2** (PATCH) — moved to a new URL; body unchanged
+- `how-to-use-ship2shorerag-offline` **2.0.1 → 2.0.2** (PATCH) — moved to a new URL; body unchanged
+- `how-to-use-patient-history-tracking` **1.0.4 → 1.0.5** (PATCH) — moved to a new URL; body unchanged
+- `how-to-use-marketscreenerrag-backtested` **2.0.1 → 2.0.2** (PATCH) — moved to a new URL; body unchanged
+- `how-to-use-news-tracker-score-headlines` **3.0.0 → 3.0.1** (PATCH) — moved to a new URL; body unchanged
+- `how-to-use-bms-battery-management` **1.0.4 → 1.0.5** (PATCH) — moved to a new URL; body unchanged
+- `how-to-use-claude-lmstudio-router-keep` **1.0.2 → 1.0.3** (PATCH) — moved to a new URL; body unchanged
+- `how-to-use-cachememorycleaner-free-mac` **1.0.2 → 1.0.3** (PATCH) — moved to a new URL; body unchanged
+- `ai-is-not-taking-indias-offshore-work` **2.1.0 → 2.1.1** (PATCH) — moved to a new URL; body unchanged
+- `india-tracks-every-taxpayer-in-minutes` **2.0.0 → 2.0.1** (PATCH) — moved to a new URL; body unchanged
+- `the-lpg-distributors-commission-rose-16` **1.1.0 → 1.1.1** (PATCH) — moved to a new URL; body unchanged
+- `petrol-pump-margins-and-e20-one-dealer` **1.3.0 → 1.3.1** (PATCH) — moved to a new URL; body unchanged
+- `biogas-is-priority-sector-loan-43` **1.1.0 → 1.1.1** (PATCH) — moved to a new URL; body unchanged
+- `the-hydrogen-behind-biofuel-mandate` **1.1.0 → 1.1.1** (PATCH) — moved to a new URL; body unchanged
+- `methionine-not-lysine-is-indias-biggest` **1.0.0 → 1.0.1** (PATCH) — moved to a new URL; body unchanged
+- `indias-lysine-deficit-is-102-million` **1.2.0 → 1.2.1** (PATCH) — moved to a new URL; body unchanged
+- `india-imported-28-million-of-sucralose` **1.2.0 → 1.2.1** (PATCH) — moved to a new URL; body unchanged
+- `bagasse-is-one-crop-residue-already` **2.1.0 → 2.1.1** (PATCH) — moved to a new URL; body unchanged
+- `thermocol-dissolves-in-orange-peel-oil` **3.0.0 → 3.0.1** (PATCH) — moved to a new URL; body unchanged
+- `indias-fdi-moved-to-software-and` **1.0.1 → 1.0.2** (PATCH) — moved to a new URL; body unchanged
+- `the-rbis-fcnrb-window-drew-133-billion` **2.0.0 → 2.0.1** (PATCH) — moved to a new URL; body unchanged
+- `indias-first-tourism-survey-since-2014` **1.0.0 → 1.0.1** (PATCH) — moved to a new URL; body unchanged
+- `india-and-mercosur-are-expanding-450` **1.0.0 → 1.0.1** (PATCH) — moved to a new URL; body unchanged
+- `indias-reported-central-project-overrun` **1.1.0 → 1.1.1** (PATCH) — moved to a new URL; body unchanged
+- `the-sme-growth-fund-is-indias-fourth` **1.0.0 → 1.0.1** (PATCH) — moved to a new URL; body unchanged
+- `india-imported-295-more-steel-this-year` **3.0.0 → 3.0.1** (PATCH) — moved to a new URL; body unchanged
+- `india-has-auctioned-141-commercial-coal` **1.1.0 → 1.1.1** (PATCH) — moved to a new URL; body unchanged
+- `epfos-pay-ceiling-rose-to-25000-after` **2.0.0 → 2.0.1** (PATCH) — moved to a new URL; body unchanged
+- `new-zealand-opens-every-tariff-line-to` **1.1.0 → 1.1.1** (PATCH) — moved to a new URL; body unchanged
+- `wheats-support-price-rose-by-25` **1.0.0 → 1.0.1** (PATCH) — moved to a new URL; body unchanged
+- `india-raised-cooking-oil-duties-to-help` **3.0.0 → 3.0.1** (PATCH) — moved to a new URL; body unchanged
+- `indias-first-seabed-mineral-auction` **3.0.0 → 3.0.1** (PATCH) — moved to a new URL; body unchanged
+- `green-energy-corridor-iii-is-15-times` **2.0.0 → 2.0.1** (PATCH) — moved to a new URL; body unchanged
+- `indias-military-quantum-plan-has-four` **2.0.0 → 2.0.1** (PATCH) — moved to a new URL; body unchanged
+- `indias-old-factory-index-said` **1.0.0 → 1.0.1** (PATCH) — moved to a new URL; body unchanged
+- `indias-petroleum-act-still-fines` **1.1.0 → 1.1.1** (PATCH) — moved to a new URL; body unchanged
+- `indias-factory-intentions-20012024-how_0101046393` **4.0.0 → 4.0.1** (PATCH) — moved to a new URL; body unchanged
+- `cough-syrup-in-lollipop-for-babies` **1.1.0 → 1.1.1** (PATCH) — moved to a new URL; body unchanged
+- `indias-ethanol-surplus-buys-about-five` **7.2.0 → 7.2.1** (PATCH) — moved to a new URL; body unchanged
+- `indias-biofuel-rules-are-being-written` **1.1.0 → 1.1.1** (PATCH) — moved to a new URL; body unchanged
+- `refiners-won-exemption-fight-biofuels` **1.1.0 → 1.1.1** (PATCH) — moved to a new URL; body unchanged
+- `abu-dhabi-paid-2-billion-for-binance` **2.0.0 → 2.0.1** (PATCH) — moved to a new URL; body unchanged
+- `the-rbi-has-put-bonds-and-rupees-on-one` **1.0.0 → 1.0.1** (PATCH) — moved to a new URL; body unchanged
+- `indias-new-car-rules-count-every-ev-as` **2.0.0 → 2.0.1** (PATCH) — moved to a new URL; body unchanged
+- `making-plastic-releases-heat-unmaking` **2.0.0 → 2.0.1** (PATCH) — moved to a new URL; body unchanged
+- `cotton-stalk-is-one-of-hardest-crop` **1.4.0 → 1.4.1** (PATCH) — moved to a new URL; body unchanged
+- `every-litre-of-petrol-pays-5-for-roads` **2.0.0 → 2.0.1** (PATCH) — moved to a new URL; body unchanged
+- `india-sells-world-about-third-of-its` **1.2.0 → 1.2.1** (PATCH) — moved to a new URL; body unchanged
+- `india-polishes-worlds-diamonds-with` **1.2.0 → 1.2.1** (PATCH) — moved to a new URL; body unchanged
+- `cocoa-quintupled-then-gave-most-of-it` **1.2.0 → 1.2.1** (PATCH) — moved to a new URL; body unchanged
+- `one-nation-one-gst-rate-what-true-flat` **3.0.0 → 3.0.1** (PATCH) — moved to a new URL; body unchanged
+- `india-pays-5-8-billion-year-to-ship-its` **1.2.0 → 1.2.1** (PATCH) — moved to a new URL; body unchanged
+- `indias-live-ipo-queue-has-232-companies` **1.1.0 → 1.1.1** (PATCH) — moved to a new URL; body unchanged
+- `indias-ethanol-plants-are-sitting-on` **1.1.0 → 1.1.1** (PATCH) — moved to a new URL; body unchanged
+- `gail-and-sumitomo-both-turned-their` **1.0.1 → 1.0.2** (PATCH) — moved to a new URL; body unchanged
+- `indias-display-fab-scheme-got-two` **2.0.0 → 2.0.1** (PATCH) — moved to a new URL; body unchanged
+- `india-mapped-12174-tariff-codes-to-31` **1.0.1 → 1.0.2** (PATCH) — moved to a new URL; body unchanged
+- `india-let-oil-companies-put-solar-on` **3.0.0 → 3.0.1** (PATCH) — moved to a new URL; body unchanged
+- `india-leads-world-in-jute-and-ranks` **2.1.0 → 2.1.1** (PATCH) — moved to a new URL; body unchanged
+- `india-imports-60-of-its-cooking-gas` **1.1.0 → 1.1.1** (PATCH) — moved to a new URL; body unchanged
+- `indias-cotton-yield-fell-from-566-kg-to` **2.0.0 → 2.0.1** (PATCH) — moved to a new URL; body unchanged
+- `indias-irrigation-system-recovered-96` **1.0.1 → 1.0.2** (PATCH) — moved to a new URL; body unchanged
+- `india-doesnt-have-one-quality-regulator` **1.1.0 → 1.1.1** (PATCH) — moved to a new URL; body unchanged
+- `shippings-net-zero-vote-keeps-getting` **1.1.0 → 1.1.1** (PATCH) — moved to a new URL; body unchanged
+- `kpler-and-vortexa-track-every-barrel` **1.2.0 → 1.2.1** (PATCH) — moved to a new URL; body unchanged
+- `under-corsias-own-numbers-corn-ethanol` **2.0.1 → 2.0.2** (PATCH) — moved to a new URL; body unchanged
+- `india-has-132-compressed-biogas-plants` **2.1.0 → 2.1.1** (PATCH) — moved to a new URL; body unchanged
+- `pngrb-graded-its-own-homework-on-2025` **1.0.1 → 1.0.2** (PATCH) — moved to a new URL; body unchanged
+- `the-diesel-truck-isnt-why-your-eggs` **2.2.0 → 2.2.1** (PATCH) — moved to a new URL; body unchanged
+- `nobody-blockaded-hormuz-to-slow-india` **1.1.0 → 1.1.1** (PATCH) — moved to a new URL; body unchanged
+- `mopsws-25000-crore-maritime-development` **2.1.0 → 2.1.1** (PATCH) — moved to a new URL; body unchanged
+- `india-wants-isobutanol-in-both-diesel` **1.1.0 → 1.1.1** (PATCH) — moved to a new URL; body unchanged
+- `india-has-tested-its-soil-twice-second` **1.0.0 → 1.0.1** (PATCH) — moved to a new URL; body unchanged
+- `pmfby-advertises-51-return-to-farmers` **2.0.0 → 2.0.1** (PATCH) — moved to a new URL; body unchanged
+- `indias-oil-fields-are-running-down` **1.1.0 → 1.1.1** (PATCH) — moved to a new URL; body unchanged
+- `the-ministry-of-power-published-two` **1.0.1 → 1.0.2** (PATCH) — moved to a new URL; body unchanged
+- `the-reactor-nobody-names-how-coal` **2.0.0 → 2.0.1** (PATCH) — moved to a new URL; body unchanged
+- `the-two-biggest-parties-in-parliament` **2.0.0 → 2.0.1** (PATCH) — moved to a new URL; body unchanged
+- `e20-doesnt-cut-tailpipe-co2-by-30-run` **2.0.0 → 2.0.1** (PATCH) — moved to a new URL; body unchanged
+- `india-built-offshore-insurance-hub-it` **1.3.0 → 1.3.1** (PATCH) — moved to a new URL; body unchanged
+- `the-wage-beats-crop-in-survey-that` **1.3.0 → 1.3.1** (PATCH) — moved to a new URL; body unchanged
+- `india-irrigates-itself-966-of-its` **1.3.0 → 1.3.1** (PATCH) — moved to a new URL; body unchanged
+- `rural-indias-farm-employment-share` **1.4.0 → 1.4.1** (PATCH) — moved to a new URL; body unchanged
+- `do-cbse-past-papers-actually-help` **1.3.0 → 2.0.0** (MAJOR) — figures changed (+5/-0 distinct numbers)
+- `577-of-indias-plant-variety` **1.2.0 → 1.2.1** (PATCH) — moved to a new URL; body unchanged
+- `abha-covers-93-crore-patients-its` **2.1.0 → 2.1.1** (PATCH) — moved to a new URL; body unchanged
+- `india-exports-naphtha-and-benzene-its` **1.3.0 → 1.3.1** (PATCH) — moved to a new URL; body unchanged
+- `jan-aushadhi-sells-2439-products-heres` **1.4.0 → 1.4.1** (PATCH) — moved to a new URL; body unchanged
+- `sun-pharmas-1175bn-organon-bet-is` **1.4.0 → 1.4.1** (PATCH) — moved to a new URL; body unchanged
+- `indias-60000-crore-api-push-traced-to` **1.5.0 → 1.5.1** (PATCH) — moved to a new URL; body unchanged
+- `indias-semaglutide-patent-cliff-26` **1.4.0 → 1.4.1** (PATCH) — moved to a new URL; body unchanged
+- `dr-reddys-cut-its-semaglutide-guidance` **1.4.0 → 1.4.1** (PATCH) — moved to a new URL; body unchanged
+- `ethanol-freed-up-refinery-capacity-for` **2.2.0 → 2.2.1** (PATCH) — moved to a new URL; body unchanged
+- `indias-labour-codes-took-six-years-to` **2.0.0 → 2.0.1** (PATCH) — moved to a new URL; body unchanged
+- `five-years-and-25000-crore-later-china` **1.4.0 → 1.4.1** (PATCH) — moved to a new URL; body unchanged
+- `india-rewrote-its-entire-maritime-legal` **1.3.1 → 1.3.2** (PATCH) — moved to a new URL; body unchanged
+- `india-ended-63-years-of-state-nuclear` **4.0.0 → 4.0.1** (PATCH) — moved to a new URL; body unchanged
+- `indias-12385-project-investment-grid` **1.2.0 → 1.2.1** (PATCH) — moved to a new URL; body unchanged
+- `what-failed-bankruptcy-auction-actually` **1.2.0 → 1.2.1** (PATCH) — moved to a new URL; body unchanged
+- `a-2223-crore-coal-freight-railway-line` **2.1.0 → 2.1.1** (PATCH) — moved to a new URL; body unchanged
+- `a-textile-sez-built-to-re-employ-mill` **2.0.0 → 2.0.1** (PATCH) — moved to a new URL; body unchanged
+- `indias-e-commerce-inventory-ban-just` **1.3.0 → 1.3.1** (PATCH) — moved to a new URL; body unchanged
+- `indias-ev-localisation-deadline-just` **3.0.0 → 3.0.1** (PATCH) — moved to a new URL; body unchanged
+- `a-supreme-court-ruling-on-intoxicating` **2.0.0 → 2.0.1** (PATCH) — moved to a new URL; body unchanged
+- `engineering-and-auto-component-makers` **1.2.0 → 1.2.1** (PATCH) — moved to a new URL; body unchanged
+- `indias-ethanol-sector-already-had-its` **2.3.0 → 2.3.1** (PATCH) — moved to a new URL; body unchanged
+- `global-lng-trade-hit-record-437-million` **1.3.0 → 1.3.1** (PATCH) — moved to a new URL; body unchanged
+- `indias-lng-trucks-grew-75-in-2025-about` **1.3.0 → 1.3.1** (PATCH) — moved to a new URL; body unchanged
+- `electrification-is-lngs-biggest` **1.4.0 → 1.4.1** (PATCH) — moved to a new URL; body unchanged
+- `delhis-smog-towers-failed-test-44-year` **1.4.0 → 1.4.1** (PATCH) — moved to a new URL; body unchanged
+- `the-50-tariff-and-234-one-untangling` **1.5.0 → 1.5.1** (PATCH) — moved to a new URL; body unchanged
+- `indias-battery-storage-boom-is` **3.0.0 → 3.0.1** (PATCH) — moved to a new URL; body unchanged
+- `the-solar-panel-recycling-opportunity` **1.3.0 → 1.3.1** (PATCH) — moved to a new URL; body unchanged
+- `alimco-jaipur-foot-and-bionic-gap-in` **1.2.1 → 1.2.2** (PATCH) — moved to a new URL; body unchanged
+- `endoscopes-never-made-indias-pli-list` **1.3.0 → 1.3.1** (PATCH) — moved to a new URL; body unchanged
+- `indias-draft-seeds-bill-cuts-states` **1.3.0 → 1.3.1** (PATCH) — moved to a new URL; body unchanged
+- `fourteen-states-reimburse-investors` **1.3.0 → 1.3.1** (PATCH) — moved to a new URL; body unchanged
+- `pngrbs-own-2025-committee-now-expects` **1.1.1 → 1.1.2** (PATCH) — moved to a new URL; body unchanged
+- `a-2013-vision-saw-india-needing-746` **3.0.0 → 3.0.1** (PATCH) — moved to a new URL; body unchanged
+- `pngrb-wants-prepaid-smart-meters-on` **1.2.0 → 1.2.1** (PATCH) — moved to a new URL; body unchanged
+- `pngrbs-own-committee-found-pipelines` **1.3.0 → 1.3.1** (PATCH) — moved to a new URL; body unchanged
+- `mapping-indias-other-pipelines-every` **1.2.0 → 1.2.1** (PATCH) — moved to a new URL; body unchanged
+- `india-is-piping-jet-fuel-to-five-new` **1.1.0 → 1.1.1** (PATCH) — moved to a new URL; body unchanged
+- `indias-gas-pipelines-run-at-half` **2.1.0 → 2.1.1** (PATCH) — moved to a new URL; body unchanged
+- `right-of-user-what-indias-pipeline` **4.0.0 → 4.0.1** (PATCH) — moved to a new URL; body unchanged
+- `one-nation-one-ration-card-doesnt-move` **2.1.0 → 2.1.1** (PATCH) — moved to a new URL; body unchanged
+- `interpreting-gazette-notification` **3.0.0 → 3.0.1** (PATCH) — moved to a new URL; body unchanged
+- `where-indias-fdi-actually-lands-state` **2.2.1 → 2.2.2** (PATCH) — moved to a new URL; body unchanged
+- `textbooks-say-project-returns-converge` **2.0.0 → 2.0.1** (PATCH) — moved to a new URL; body unchanged
+- `icra-rates-most-of-indias-economy` **1.2.0 → 1.2.1** (PATCH) — moved to a new URL; body unchanged
+- `what-sewage-disposal-in-key-parts-of` **3.0.0 → 3.0.1** (PATCH) — moved to a new URL; body unchanged
+- `everyone-worries-about-who-pays-for` **2.1.0 → 2.1.1** (PATCH) — moved to a new URL; body unchanged
+- `dgh-has-awarded-172-oalp-blocks-and-436_0369361351` **2.2.0 → 2.2.1** (PATCH) — moved to a new URL; body unchanged
+- `fipis-biggest-ask-is-getting-natural` **2.1.0 → 2.1.1** (PATCH) — moved to a new URL; body unchanged
+- `pngrb-hydrogen-blending-pilots-real` **1.2.0 → 1.2.1** (PATCH) — moved to a new URL; body unchanged
+- `indias-oil-psus-say-they-clear-their_01269248608` **2.0.0 → 2.0.1** (PATCH) — moved to a new URL; body unchanged
+- `india-solved-carbon-credit-banking-with` **1.2.0 → 1.2.1** (PATCH) — moved to a new URL; body unchanged
+- `lng-trucks-cost-about-what-diesel-does` **1.3.0 → 1.3.1** (PATCH) — moved to a new URL; body unchanged
+- `indias-lng-terminal-rules-changed-twice` **1.2.0 → 1.2.1** (PATCH) — moved to a new URL; body unchanged
+- `oisd-writes-indias-oil-safety-rules-api` **2.1.0 → 2.1.1** (PATCH) — moved to a new URL; body unchanged
+- `tnpl-has-made-paper-from-sugarcane` **1.2.0 → 1.2.1** (PATCH) — moved to a new URL; body unchanged
+- `brazil-pumps-e30-at-every-station` **1.2.0 → 1.2.1** (PATCH) — moved to a new URL; body unchanged
+- `the-detergent-chemical-india-exports` **1.6.0 → 1.6.1** (PATCH) — moved to a new URL; body unchanged
+- `the-4-nobody-notices-and-three-other` **3.1.0 → 3.1.1** (PATCH) — moved to a new URL; body unchanged
+- `the-easiest-ev-conversion-in-india` **4.0.0 → 4.0.1** (PATCH) — moved to a new URL; body unchanged
+- `the-corrosion-you-cant-see-until` **1.3.0 → 1.3.1** (PATCH) — moved to a new URL; body unchanged
+- `the-1920s-rotor-thats-now-on-22-real` **2.3.0 → 2.3.1** (PATCH) — moved to a new URL; body unchanged
+- `uk-retail-canopies-at-54m-real-design` **1.1.0 → 1.1.1** (PATCH) — moved to a new URL; body unchanged
+- `brandsafway-and-2017-roll-up-wave-that` **1.1.0 → 1.1.1** (PATCH) — moved to a new URL; body unchanged
+- `the-helper-motor-trick-that-already` **1.2.0 → 1.2.1** (PATCH) — moved to a new URL; body unchanged
+- `a-million-wine-market-behind-150-wall` **2.0.0 → 2.0.1** (PATCH) — moved to a new URL; body unchanged
+- `tasmacs-retail-exit-case-for` **2.0.0 → 2.0.1** (PATCH) — moved to a new URL; body unchanged
+- `nine-ministries-one-list-every-company` **2.2.0 → 2.2.1** (PATCH) — moved to a new URL; body unchanged
+- `indias-mobile-phone-pli-beat-every` **2.2.1 → 2.2.2** (PATCH) — moved to a new URL; body unchanged
+- `west-bengal-sanctioned-126-lakh-pmay-g` **1.3.0 → 1.3.1** (PATCH) — moved to a new URL; body unchanged
+- `indias-6000-crore-fisheries-scheme` **1.2.0 → 1.2.1** (PATCH) — moved to a new URL; body unchanged
+- `amruts-197-lakh-crore-urban-portfolio` **1.3.0 → 1.3.1** (PATCH) — moved to a new URL; body unchanged
+- `indias-79-lakh-crore-rural-water` **3.2.0 → 3.2.1** (PATCH) — moved to a new URL; body unchanged
+- `sugarcanes-third-claimant-whats` **4.3.0 → 4.3.1** (PATCH) — moved to a new URL; body unchanged
+- `three-different-eu-rules-are-making` **1.2.0 → 1.2.1** (PATCH) — moved to a new URL; body unchanged
+- `the-green-shift-what-indias-oil` **3.2.0 → 3.2.1** (PATCH) — moved to a new URL; body unchanged
+- `what-seven-model-stock-portfolios-look` **1.1.0 → 1.1.1** (PATCH) — moved to a new URL; body unchanged
+- `where-indias-captured-carbon-would` **1.2.0 → 1.2.1** (PATCH) — moved to a new URL; body unchanged
+- `how-india-actually-plans-to-hit-net` **1.2.0 → 1.2.1** (PATCH) — moved to a new URL; body unchanged
+- `the-battery-passport-was-built-for` **3.1.0 → 3.1.1** (PATCH) — moved to a new URL; body unchanged
+- `indias-coal-to-chemicals-menu-ranked-by` **2.3.0 → 2.3.1** (PATCH) — moved to a new URL; body unchanged
+- `india-will-finance-waste-to-energy` **3.2.0 → 3.2.1** (PATCH) — moved to a new URL; body unchanged
+- `the-hydrogen-bill-hiding-inside-indias` **2.0.0 → 2.0.1** (PATCH) — moved to a new URL; body unchanged
+- `india-exports-worlds-coco-peat-its-own` **2.2.0 → 2.2.1** (PATCH) — moved to a new URL; body unchanged
+- `oilfield-costs-rose-68-while-global` **1.2.0 → 1.2.1** (PATCH) — moved to a new URL; body unchanged
+- `interest-subvention-built-499-ethanol` **2.3.0 → 2.3.1** (PATCH) — moved to a new URL; body unchanged
+- `tamil-nadus-water-infrastructure-runs` **3.1.0 → 3.1.1** (PATCH) — moved to a new URL; body unchanged
+- `india-approved-15-lakh-crore-in` **5.2.0 → 5.2.1** (PATCH) — moved to a new URL; body unchanged
+- `we-fact-checked-66-investment` **2.2.0 → 2.2.1** (PATCH) — moved to a new URL; body unchanged
+- `indias-445-billion-spice-export-book-is` **2.3.0 → 2.3.1** (PATCH) — moved to a new URL; body unchanged
+- `indias-coffee-crop-hasnt-grown-in` **4.1.0 → 4.1.1** (PATCH) — moved to a new URL; body unchanged
+- `india-grows-most-coconuts-in-world-and` **3.2.0 → 3.2.1** (PATCH) — moved to a new URL; body unchanged
+- `indias-renewable-energy-certificates` **3.3.0 → 3.3.1** (PATCH) — moved to a new URL; body unchanged
+- `what-actually-happens-to-indias-used` **3.2.0 → 3.2.1** (PATCH) — moved to a new URL; body unchanged
+- `every-india-europe-tech-agreement-pib` **2.3.0 → 2.3.1** (PATCH) — moved to a new URL; body unchanged
+- `foreign-capital-found-indias-hospitals` **5.1.0 → 5.1.1** (PATCH) — moved to a new URL; body unchanged
+- `india-cannot-sell-china-free-medicine` **3.2.0 → 3.2.1** (PATCH) — moved to a new URL; body unchanged
+- `indias-8-digit-trade-book-searchable` **3.1.0 → 3.1.1** (PATCH) — moved to a new URL; body unchanged
+- `japan-ran-out-of-matcha-assam-just-sold` **3.2.0 → 3.2.1** (PATCH) — moved to a new URL; body unchanged
+- `thirty-one-years-of-asking-parliament` **2.1.0 → 2.1.1** (PATCH) — moved to a new URL; body unchanged
+- `indias-shrimp-exports-did-not-collapse` **2.1.0 → 2.1.1** (PATCH) — moved to a new URL; body unchanged
+- `nano-urea-works-as-supplement-and-fails` **2.2.0 → 2.2.1** (PATCH) — moved to a new URL; body unchanged
+- `india-hit-e20-on-maize-and-rice-not` **2.2.0 → 2.2.1** (PATCH) — moved to a new URL; body unchanged
+- `you-cannot-substitute-crude-oil-or-gold` **3.2.0 → 3.2.1** (PATCH) — moved to a new URL; body unchanged
+- `5071-items-you-cannot-import-and-rs` **3.0.0 → 3.0.1** (PATCH) — moved to a new URL; body unchanged
+- `premium-now-claim-later-float-indias` **1.2.0 → 1.2.1** (PATCH) — moved to a new URL; body unchanged
+- `a-17-rural-pay-rise-that-nobody-received` **6.0.0 → 6.0.1** (PATCH) — moved to a new URL; body unchanged
+- `winter-is-coming-for-europes-landlocked` **1.2.0 → 1.2.1** (PATCH) — moved to a new URL; body unchanged
+- `379-kilos-hectare-in-punjab-44-in` **3.0.0 → 3.0.1** (PATCH) — moved to a new URL; body unchanged
+- `india-imports-283000-tonnes-of-almonds` **3.1.0 → 3.1.1** (PATCH) — moved to a new URL; body unchanged
+- `7186-litre-why-maize-is-indias-priciest` **3.1.0 → 3.1.1** (PATCH) — moved to a new URL; body unchanged
+- `sugar-at-5570-kilo-why-cane-acreage` **4.3.0 → 4.3.1** (PATCH) — moved to a new URL; body unchanged
+- `574-gw-and-counting-indias-wind-fleet` **5.1.0 → 5.1.1** (PATCH) — moved to a new URL; body unchanged
+- `where-indias-gigawatt-data-centre-bets` **2.2.0 → 2.2.1** (PATCH) — moved to a new URL; body unchanged
+- `028-unit-diesel-math-behind-indias-data` **3.1.0 → 3.1.1** (PATCH) — moved to a new URL; body unchanged
+- `the-balkan-relish-india-already-has` **2.0.0 → 2.0.1** (PATCH) — moved to a new URL; body unchanged
+- `refineries-under-fire-how-two-wars` **2.3.0 → 2.3.1** (PATCH) — moved to a new URL; body unchanged
+- `ten-cubic-metres-hour-indias-first` **2.3.0 → 2.3.1** (PATCH) — moved to a new URL; body unchanged
+- `the-software-behind-still-whats` **2.3.0 → 2.3.1** (PATCH) — moved to a new URL; body unchanged
+- `inside-refinery-how-hydrogen-cleans` **2.1.0 → 2.1.1** (PATCH) — moved to a new URL; body unchanged
+- `the-levelised-cost-of-hydrogen` **2.1.1 → 2.1.2** (PATCH) — moved to a new URL; body unchanged
+- `indian-railways-98-to-earn-100-business` **2.3.0 → 2.3.1** (PATCH) — moved to a new URL; body unchanged
+- `biomass-power-at-night-dispatchable` **3.3.0 → 3.3.1** (PATCH) — moved to a new URL; body unchanged
+- `the-national-beekeeping-honey-mission` **3.1.0 → 3.1.1** (PATCH) — moved to a new URL; body unchanged
+- `the-most-discussed-schemes-in` **1.2.0 → 1.2.1** (PATCH) — moved to a new URL; body unchanged
+- `blending-on-budget-energy-density-and` **2.2.0 → 2.2.1** (PATCH) — moved to a new URL; body unchanged
+- `global-biofuels-m-bankruptcy-bolt-on` **2.3.0 → 2.3.1** (PATCH) — moved to a new URL; body unchanged
+- `the-milk-india-doesnt-drink-cheese-and` **3.1.0 → 3.1.1** (PATCH) — moved to a new URL; body unchanged
+- `lemon-cultivation-in-india-steady-trees` **2.1.0 → 2.1.1** (PATCH) — moved to a new URL; body unchanged
+- `green-gold-what-spirulina-actually-is` **3.0.0 → 3.0.1** (PATCH) — moved to a new URL; body unchanged
+- `the-water-bill-nobody-mentions-what` **2.1.0 → 2.1.1** (PATCH) — moved to a new URL; body unchanged
+- `not-drop-out-ethanols-zero-liquid` **3.2.0 → 3.2.1** (PATCH) — moved to a new URL; body unchanged
+- `ethanols-coal-boilers-briquette-gap-and` **2.2.0 → 2.2.1** (PATCH) — moved to a new URL; body unchanged
+- `scan-bottle-deliver-what-ppacs-numbers` **2.3.0 → 2.3.1** (PATCH) — moved to a new URL; body unchanged
+- `guar-gum-indias-35-billion-export-peak` **5.1.0 → 5.1.1** (PATCH) — moved to a new URL; body unchanged
+- `basf-and-mitsubishi-are-running` **2.2.0 → 2.2.1** (PATCH) — moved to a new URL; body unchanged
+- `pet-recycling-already-cuts-emissions-60` **2.3.0 → 2.3.1** (PATCH) — moved to a new URL; body unchanged
+- `tarpaulin-is-genuine-export-win` **2.2.0 → 2.2.1** (PATCH) — moved to a new URL; body unchanged
+- `airbags-and-seat-belts-are-import-heavy` **5.1.0 → 5.1.1** (PATCH) — moved to a new URL; body unchanged
+- `india-grows-soybean-exports-meal-leads` **5.3.0 → 5.3.1** (PATCH) — moved to a new URL; body unchanged
+- `the-cluster-automotive-piece-left-out` **2.2.0 → 2.2.1** (PATCH) — moved to a new URL; body unchanged
+- `how-indias-automotive-clusters-rewired` **3.0.0 → 3.0.1** (PATCH) — moved to a new URL; body unchanged
+- `which-ecb-currencies-are-actually` **3.0.0 → 3.0.1** (PATCH) — moved to a new URL; body unchanged
+- `fbil-rates-vs-tradestat-volumes-does-fx` **2.1.0 → 2.1.1** (PATCH) — moved to a new URL; body unchanged
+- `the-currency-rupee-trends-piece-left` **2.1.1 → 2.1.2** (PATCH) — moved to a new URL; body unchanged
+- `tamil-nadus-wind-potential-according-to` **3.2.0 → 3.2.1** (PATCH) — moved to a new URL; body unchanged
+- `what-tepa-actually-opens-efta-goods` **2.2.0 → 2.2.1** (PATCH) — moved to a new URL; body unchanged
+- `financing-fuel-to-chemicals-pivot-how` **3.1.0 → 3.1.1** (PATCH) — moved to a new URL; body unchanged
+- `where-rupee-actually-stands-ten-years` **2.2.0 → 2.2.1** (PATCH) — moved to a new URL; body unchanged
+- `can-rupee-trade-actually-offset` **3.1.0 → 3.1.1** (PATCH) — moved to a new URL; body unchanged
+- `what-india-is-actually-paying-for` **3.1.0 → 3.1.1** (PATCH) — moved to a new URL; body unchanged
+- `indias-coking-coal-import-problem-and` **4.1.0 → 4.1.1** (PATCH) — moved to a new URL; body unchanged
+- `where-worlds-oil-sits-when-it-isnt` **3.1.0 → 3.1.1** (PATCH) — moved to a new URL; body unchanged
+- `rin-red-and-cbio-what-indias-ethanol` **2.3.0 → 2.3.1** (PATCH) — moved to a new URL; body unchanged
+- `one-gallon-five-numbers-how-gcam-fits` **2.3.0 → 2.3.1** (PATCH) — moved to a new URL; body unchanged
+- `price-is-wire-how-gcam-actually-links` **3.1.0 → 3.1.1** (PATCH) — moved to a new URL; body unchanged
+- `the-margin-case-why-lpg-and` **3.2.0 → 3.2.1** (PATCH) — moved to a new URL; body unchanged
+- `from-barrel-to-bottle-petrochemical` **2.3.0 → 2.3.1** (PATCH) — moved to a new URL; body unchanged
+- `the-fcc-lever-trading-petrol-yield-for` **2.2.0 → 2.2.1** (PATCH) — moved to a new URL; body unchanged
+- `fuel-and-bottle-two-taxes-states-never` **2.1.0 → 2.1.1** (PATCH) — moved to a new URL; body unchanged
+- `the-barrel-really-is-shifting-indias` **2.3.0 → 2.3.1** (PATCH) — moved to a new URL; body unchanged
+- `the-case-for-biofuels-over-imports` **2.2.0 → 2.2.1** (PATCH) — moved to a new URL; body unchanged
+- `push-ethanol-sgst-rate-from-25-to-5-and` **2.2.0 → 2.2.1** (PATCH) — moved to a new URL; body unchanged
+- `would-more-sgst-fix-donor-state-problem` **2.2.0 → 2.2.1** (PATCH) — moved to a new URL; body unchanged
+- `tamil-nadus-gst-gap-108-economy-growing` **2.3.0 → 2.3.1** (PATCH) — moved to a new URL; body unchanged
+- `uttar-pradeshs-gst-puzzle-growing` **2.2.0 → 2.2.1** (PATCH) — moved to a new URL; body unchanged
+- `who-collects-indias-gst-and-who` **2.4.0 → 2.4.1** (PATCH) — moved to a new URL; body unchanged
+- `indias-two-tracks-of-health-cover-and` **4.1.0 → 4.1.1** (PATCH) — moved to a new URL; body unchanged
+- `abha-what-indias-14-digit-health-id` **5.1.0 → 5.1.1** (PATCH) — moved to a new URL; body unchanged
+- `mrs-watanabe-traded-from-kitchen-table` **2.2.0 → 2.2.1** (PATCH) — moved to a new URL; body unchanged
+- `do-cheap-stocks-stay-cheap-price-band` **3.1.0 → 3.1.1** (PATCH) — moved to a new URL; body unchanged
+- `050-is-its-own-category-diving-into` **3.0.0 → 4.0.0** (MAJOR) — figures changed (+57/-0 distinct numbers)
+- `below-250-is-where-real-junk-lives` **2.1.0 → 2.1.1** (PATCH) — moved to a new URL; body unchanged
+- `why-bet-on-one-horse-when-you-can-buy` **2.1.0 → 2.1.1** (PATCH) — moved to a new URL; body unchanged
+- `tiffin-meets-thali-10-day-sip-already` **2.2.1 → 2.2.2** (PATCH) — moved to a new URL; body unchanged
+- `a-slice-of-apple-costs-about-1700-slice` **3.1.0 → 3.1.1** (PATCH) — moved to a new URL; body unchanged
+- `indias-lock-imports-hit-19784-million` **2.2.0 → 2.2.1** (PATCH) — moved to a new URL; body unchanged
+- `indias-used-oil-epr-wants-half-of-all` **3.1.0 → 3.1.1** (PATCH) — moved to a new URL; body unchanged
+- `ahidf-has-sanctioned-19751-crore-in` **5.0.0 → 5.0.1** (PATCH) — moved to a new URL; body unchanged
+- `the-503020-rule-is-elizabeth-warrens` **4.1.0 → 4.1.1** (PATCH) — moved to a new URL; body unchanged
+- `thali-investing-whats-actually-on-plate` **3.2.0 → 3.2.1** (PATCH) — moved to a new URL; body unchanged
+- `the-rule-of-72-rule-of-114-and-how-to` **4.2.0 → 4.2.1** (PATCH) — moved to a new URL; body unchanged
+- `india-has-tax-treaties-with-97` **4.3.0 → 4.3.1** (PATCH) — moved to a new URL; body unchanged
+- `up-has-indias-biggest-herd-punjab-has` **4.1.0 → 4.1.1** (PATCH) — moved to a new URL; body unchanged
+- `cow-dung-already-flew-rocket-engine` **4.2.0 → 4.2.1** (PATCH) — moved to a new URL; body unchanged
+- `one-refinery-flipped-nigeria-from` **4.2.0 → 4.2.1** (PATCH) — moved to a new URL; body unchanged
+- `indias-epr-regime-just-got-teeth-and` **3.2.0 → 3.2.1** (PATCH) — moved to a new URL; body unchanged
+- `indias-trade-story-has-three-big-wins` **3.2.0 → 3.2.1** (PATCH) — moved to a new URL; body unchanged
+- `indias-fertiliser-import-bill-hits-18` **3.2.0 → 3.2.1** (PATCH) — moved to a new URL; body unchanged
+- `indias-food-processing-story-pli-scheme` **4.1.0 → 4.1.1** (PATCH) — moved to a new URL; body unchanged
+- `cocoas-blockchain-reckoning-one` **3.2.0 → 3.2.1** (PATCH) — moved to a new URL; body unchanged
+- `from-cane-to-code-digital-layer` **2.3.0 → 2.3.1** (PATCH) — moved to a new URL; body unchanged
+- `thermal-parity-is-dead-what-85-oil-and` **4.2.0 → 4.2.1** (PATCH) — moved to a new URL; body unchanged
+- `lpgs-missing-number-7308-commission-and` **3.4.0 → 3.4.1** (PATCH) — moved to a new URL; body unchanged
+- `beyond-pump-what-upi-fee-would-cost` **5.2.0 → 5.2.1** (PATCH) — moved to a new URL; body unchanged
+- `cheap-yen-rupee-roads-where-carry-trade` **3.0.0 → 3.0.1** (PATCH) — moved to a new URL; body unchanged
+- `the-masala-deutsch-shop-books-things` **9.1.0 → 9.1.1** (PATCH) — moved to a new URL; body unchanged
+- `where-india-actually-burns-its-fuel` **2.1.0 → 2.1.1** (PATCH) — moved to a new URL; body unchanged
+- `city-gas-just-became-indias-largest-gas` **3.1.0 → 3.1.1** (PATCH) — moved to a new URL; body unchanged
+- `upi-fees-are-now-legal-petrol-pumps` **14.4.0 → 14.4.1** (PATCH) — moved to a new URL; body unchanged
+- `south-africa-lost-its-gulf-fuel-supply` **2.2.0 → 2.2.1** (PATCH) — moved to a new URL; body unchanged
+- `india-sells-world-53-billion-of-fuel` **3.2.0 → 3.2.1** (PATCH) — moved to a new URL; body unchanged
+- `europe-bought-record-amount-of-lng-and` **9.1.0 → 9.1.1** (PATCH) — moved to a new URL; body unchanged
+- `petroleum-trade-pairings-and-us-crude` **5.2.0 → 5.2.1** (PATCH) — moved to a new URL; body unchanged
+- `inflation-trends-globally-what-five` **4.3.0 → 4.3.1** (PATCH) — moved to a new URL; body unchanged
+- `indias-wholesale-prices-next-to` **7.2.2 → 7.2.3** (PATCH) — moved to a new URL; body unchanged
+- `reinvesting-capital-gains-in-higher` **3.0.0 → 3.0.1** (PATCH) — moved to a new URL; body unchanged
+- `diesel-doesnt-move-cpi-it-moves-40` **6.2.0 → 6.2.1** (PATCH) — moved to a new URL; body unchanged
+- `chemical-import-substitution-hsn-8-registry` **4.2.0 → 5.0.0** (MAJOR) — figures changed (+1899/-0 distinct numbers)
+- `indias-oil-fields-are-running-down-3696` **4.2.0 → 4.2.1** (PATCH) — moved to a new URL; body unchanged
+- `rooftop-solar-is-working-household` **4.2.0 → 4.2.1** (PATCH) — moved to a new URL; body unchanged
+- `fourteen-years-of-indian-wholesale` **3.2.1 → 3.2.2** (PATCH) — moved to a new URL; body unchanged
+- `europes-export-credit-agencies-are` **3.2.0 → 3.2.1** (PATCH) — moved to a new URL; body unchanged
+- `indias-state-incentive-war-gujarats` **5.2.0 → 5.2.1** (PATCH) — moved to a new URL; body unchanged
+- `where-indias-green-hydrogen-bets-are` **3.2.0 → 3.2.1** (PATCH) — moved to a new URL; body unchanged
+- `indias-ethanol-surplus-isnt-going-to` **3.2.0 → 3.2.1** (PATCH) — moved to a new URL; body unchanged
+- `the-empty-shed-greenhouse-what-indias` **2.1.0 → 2.1.1** (PATCH) — moved to a new URL; body unchanged
+- `indias-animal-protein-export-complex` **3.0.0 → 3.0.1** (PATCH) — moved to a new URL; body unchanged
+- `indias-tyre-waste-problem-and-crumb` **2.2.0 → 2.2.1** (PATCH) — moved to a new URL; body unchanged
+- `whos-actually-building-mri-and-ct` **2.2.0 → 2.2.1** (PATCH) — moved to a new URL; body unchanged
+- `the-ethanol-sectors-buyers-market` **3.2.0 → 3.2.1** (PATCH) — moved to a new URL; body unchanged
+- `rare-earth-magnets-and-specialty-steel` **3.2.0 → 3.2.1** (PATCH) — moved to a new URL; body unchanged
+- `vehicles-out-motors-in-indias-chapter` **3.1.0 → 3.1.1** (PATCH) — moved to a new URL; body unchanged
+- `chemical-import-substitution-full-hsn-8_01082878313` **3.0.6 → 3.0.7** (PATCH) — moved to a new URL; body unchanged
+- `fuel-pricing-to-crude-cost` **2.3.0 → 2.3.1** (PATCH) — moved to a new URL; body unchanged
+- `pli-medical-devices-coverage-and-gaps` **3.3.0 → 3.3.1** (PATCH) — moved to a new URL; body unchanged
+- `indias-medical-device-trade-gap-and` **2.3.0 → 2.3.1** (PATCH) — moved to a new URL; body unchanged
+- `jai-kisan-jai-javan-fci-based-military` **3.1.0 → 3.1.1** (PATCH) — moved to a new URL; body unchanged
+- `annadata-to-urjadata-farmer-income-case` **3.2.0 → 3.2.1** (PATCH) — moved to a new URL; body unchanged
+- `if-india-paid-brics-in-rupees-scenario` **2.2.0 → 2.2.1** (PATCH) — moved to a new URL; body unchanged
+- `lok-sabha-question-registry-1843-scheme` **3.2.0 → 3.2.1** (PATCH) — moved to a new URL; body unchanged
+- `rajya-sabha-question-registry-scheme` **3.1.0 → 3.1.1** (PATCH) — moved to a new URL; body unchanged
+- `quarterly-reportage-4034-scheme` **3.0.0 → 3.0.1** (PATCH) — moved to a new URL; body unchanged
+- `indian-it-in-ai-era` **2.2.0 → 2.2.1** (PATCH) — moved to a new URL; body unchanged
+- `securitising-deficit-what-it-would` **5.1.0 → 5.1.1** (PATCH) — moved to a new URL; body unchanged
+- `the-rupee-fell-10-and-exports-grew-09` **2.2.0 → 2.2.1** (PATCH) — moved to a new URL; body unchanged
+- `the-price-and-tap-two-levers-behind` **3.1.0 → 3.1.1** (PATCH) — moved to a new URL; body unchanged
+- `raising-green-debt-globally-rec-euroyen` **6.1.0 → 6.1.1** (PATCH) — moved to a new URL; body unchanged
+- `half-of-indias-import-bill-is` **2.3.0 → 2.3.1** (PATCH) — moved to a new URL; body unchanged
+- `re-spinning-charkha` **2.2.0 → 2.2.1** (PATCH) — moved to a new URL; body unchanged
+- `annexure-314-hsn-codes-mapped-to` **2.0.4 → 2.0.5** (PATCH) — moved to a new URL; body unchanged
+- `from-fuel-to-fibre-indias-textile` **3.2.0 → 3.2.1** (PATCH) — moved to a new URL; body unchanged
+- `greenhouse-emissions-reduction-and-cbam` **4.1.0 → 4.1.1** (PATCH) — moved to a new URL; body unchanged
+- `indias-carbon-credit-market-domestic` **4.1.0 → 4.1.1** (PATCH) — moved to a new URL; body unchanged
+- `bio-fertiliser-and-green-credits` **6.1.0 → 6.1.1** (PATCH) — moved to a new URL; body unchanged
+- `nature-versus-nurture-indias-fertiliser` **5.1.1 → 5.1.2** (PATCH) — moved to a new URL; body unchanged
+- `announced-vs-delivered-three-indian` **4.4.0 → 4.4.1** (PATCH) — moved to a new URL; body unchanged
+- `a-tax-play-grow-ethanol-sgst-revenue` **3.1.0 → 3.1.1** (PATCH) — moved to a new URL; body unchanged
+- `state-by-state-who-actually-earns-from` **3.3.0 → 3.3.1** (PATCH) — moved to a new URL; body unchanged
+- `indias-ev-market-single-digit` **4.0.0 → 4.0.1** (PATCH) — moved to a new URL; body unchanged
+- `cpi-inflation-heatmap-india-june-2026` **4.0.0 → 4.0.1** (PATCH) — moved to a new URL; body unchanged
+- `hsn-wise-historical-importexport-trends` **4.2.0 → 4.2.1** (PATCH) — moved to a new URL; body unchanged
+- `import-dependent-sectors-vs-government` **3.2.0 → 3.2.1** (PATCH) — moved to a new URL; body unchanged
+- `effective-buying-power-china-comparison` **2.2.0 → 2.2.1** (PATCH) — moved to a new URL; body unchanged
+- `priority-trade-partners-by-import` **3.2.0 → 3.2.1** (PATCH) — moved to a new URL; body unchanged
+- `indias-trade-balance-hsn-wise` **3.2.0 → 3.2.1** (PATCH) — moved to a new URL; body unchanged
+- `fy2025-26-sample-report-india-trade` **4.1.0 → 4.1.1** (PATCH) — moved to a new URL; body unchanged
+- `five-year-synthesis-trade-currency` **3.1.0 → 3.1.1** (PATCH) — moved to a new URL; body unchanged
+- `imported-fertiliser-fuel-prices-diesel` **5.0.0 → 5.0.1** (PATCH) — moved to a new URL; body unchanged
+- `priority-export-destinations-by-growth` **3.4.0 → 3.4.1** (PATCH) — moved to a new URL; body unchanged
+- `cpi-wpi-trends-mospi-bulletin` **3.0.0 → 3.0.1** (PATCH) — moved to a new URL; body unchanged
+- `where-indias-forex-goes-country` **3.2.0 → 3.2.1** (PATCH) — moved to a new URL; body unchanged
+- `real-gdp-growth-india-fy2012-13-to` **4.1.0 → 4.1.1** (PATCH) — moved to a new URL; body unchanged
+- `rbi-foreign-exchange-reserves-20152026` **4.3.0 → 4.3.1** (PATCH) — moved to a new URL; body unchanged
+- `discom-debt-relief-token-charge` **3.2.0 → 3.2.1** (PATCH) — moved to a new URL; body unchanged
+- `iem-conversion-historical-performance` **2.1.0 → 2.1.1** (PATCH) — moved to a new URL; body unchanged
+- `where-indias-factories-actually-get` **3.1.0 → 3.1.1** (PATCH) — moved to a new URL; body unchanged
+- `article-index-start-here` **74.0.0 → 74.0.1** (PATCH) — moved to a new URL; body unchanged
+- `ipa-digital-twin-reportage-latest` **4.0.0 → 4.0.1** (PATCH) — moved to a new URL; body unchanged
+- `top-15-chemicals-for-import` **5.6.0 → 5.6.1** (PATCH) — moved to a new URL; body unchanged
+- `chemical-import-substitution-quarterly` **3.3.0 → 3.3.1** (PATCH) — moved to a new URL; body unchanged
+- `chemical-import-substitution-analysis` **4.4.0 → 4.4.1** (PATCH) — moved to a new URL; body unchanged
+- `fci-storage-scenario-capacity-stock-and` **3.3.0 → 3.3.1** (PATCH) — moved to a new URL; body unchanged
+- `india-grain-cultivation-fci-storage` **2.2.0 → 2.2.1** (PATCH) — moved to a new URL; body unchanged
+- `fci-grain-flow-procurement-storage` **3.2.0 → 3.2.1** (PATCH) — moved to a new URL; body unchanged
+- `the-grain-value-loop-integrated-rice` **5.1.0 → 5.1.1** (PATCH) — moved to a new URL; body unchanged
+- `ai-high-demand-launch-tracker` **5.0.0 → 5.0.1** (PATCH) — moved to a new URL; body unchanged
+- `the-recycling-lottery-playbook-norways` **4.1.0 → 4.1.1** (PATCH) — moved to a new URL; body unchanged
+- `indias-subsidised-imports-fertilisers` **1.2.0 → 1.2.1** (PATCH) — moved to a new URL; body unchanged
+- `india-mineral-oil-hsn-ch27-trade` **3.3.0 → 3.3.1** (PATCH) — moved to a new URL; body unchanged
+- `the-cbg-incentive-stack-every-leg-of` **3.4.0 → 3.4.1** (PATCH) — moved to a new URL; body unchanged
+- `textile-hsn-deep-dive-apparel-vs-mmf` **1.2.0 → 1.2.1** (PATCH) — moved to a new URL; body unchanged
+- `indias-textile-import-export-strategy` **4.3.0 → 4.3.1** (PATCH) — moved to a new URL; body unchanged
+- `ethanol-blending-omc-books-e20-today-vs` **2.2.0 → 2.2.1** (PATCH) — moved to a new URL; body unchanged
+- `indias-petrochemical-import-tree-from` **1.1.0 → 1.1.1** (PATCH) — moved to a new URL; body unchanged
+- `us-stock-picks-multi-screen-quant` **1.1.0 → 1.1.1** (PATCH) — moved to a new URL; body unchanged
+- `the-price-of-grain-msp-msv-and` **6.1.0 → 6.1.1** (PATCH) — moved to a new URL; body unchanged
+- `the-fearless-girls-charter-indias` **1.2.0 → 1.2.1** (PATCH) — moved to a new URL; body unchanged
+- `cgd-geographical-areas-district` **3.2.0 → 3.2.1** (PATCH) — moved to a new URL; body unchanged
+- `india-trade-sector-policy` **2.1.0 → 2.1.1** (PATCH) — moved to a new URL; body unchanged
+- `tech-for-business-so-2019-tech-as` **1.0.14 → 1.0.15** (PATCH) — moved to a new URL; body unchanged
+
+**Changed**
+
+- `how-to-use-process-safety-design` — 66,997 → 79,553 bytes (+12,556)
+- `do-cbse-past-papers-actually-help` — 26,002 → 29,173 bytes (+3,171)
+- `050-is-its-own-category-diving-into` — 22,604 → 31,747 bytes (+9,143)
+- `chemical-import-substitution-hsn-8-registry` — 25,014 → 399,544 bytes (+374,530)
+
+**Moved** (old URL is now dead — Blogger never releases a slug)
+
+- `India Has 50 Lakh Stray Cattle and 371 Certified Compostable` — `india-has-50-lakh-stray-cattle-and-371` → `india-has-50-lakh-stray-cattle-and-371`
+- `AI Tools Edition 04: DeepSeek Put Its Agent and Its Inferenc` — `ai-tools-edition-04-deepseek-put-its` → `ai-tools-edition-04-deepseek-put-its`
+- `The Centre’s Old-Age Pension Has Been ₹200 a Month Since 200` — `the-centres-old-age-pension-has-been` → `the-centres-old-age-pension-has-been`
+- `₹14,500 Crore for 92 GWh: India’s Storage Subsidy Is Down to` — `14500-crore-for-92-gwh-indias-storage` → `14500-crore-for-92-gwh-indias-storage`
+- `IDBI Bank’s Rescuers Put In ₹54,000 Crore. At Fairfax’s ₹81 ` — `idbi-banks-rescuers-put-in-54000-crore` → `idbi-banks-rescuers-put-in-54000-crore`
+- `From Kerosene in Diesel to Ethanol in Petrol: A History of F` — `from-kerosene-in-diesel-to-ethanol-in` → `from-kerosene-in-diesel-to-ethanol-in`
+- `The World Bank Says 496 Million Indians Left Poverty. Its Ow` — `the-world-bank-says-496-million-indians` → `the-world-bank-says-496-million-indians`
+- `Panchayats Raise Barely Two Rupees in Tax for Every Hundred ` — `panchayats-raise-barely-two-rupees-in` → `panchayats-raise-barely-two-rupees-in`
+- `Doubling India’s CSR Profit Trigger Removes 11,204 Companies` — `doubling-indias-csr-profit-trigger` → `doubling-indias-csr-profit-trigger`
+- `A Record Maize Crop Will Not Make India a Hyaluronic Acid Pr` — `a-record-maize-crop-will-not-make-india` → `a-record-maize-crop-will-not-make-india`
+- `Oil & Gas Projects Under Evaluation and Design: A Segment-Wi` — `oil-gas-projects-under-evaluation-and` → `oil-gas-projects-under-evaluation-and`
+- `How to Use the Process-Safety Design Toolkit: A Complete Wal` — `how-to-use-process-safety-design` → `how-to-use-process-safety-design`
+- `Screen an LPG Terminal Before the Workshop, and See the Dens` — `screen-process-safety-question-in-five` → `screen-process-safety-question-in-five`
+- `A Free Cell Game Fits India’s New Class 9 Book. The Evolutio` — `a-free-cell-game-fits-indias-new-class` → `a-free-cell-game-fits-indias-new-class`
+- `The Chessboard and India's Granaries` — `the-chessboard-and-indias-granaries` → `the-chessboard-and-indias-granaries`
+- `India Doesn’t Need a Blockchain to Pay Its Farmers. It May N` — `india-doesnt-need-blockchain-to-pay-its` → `india-doesnt-need-blockchain-to-pay-its`
+- `E20 and the Spark Plug: What Ethanol Does to the Cheapest Pa` — `e20-and-spark-plug-what-ethanol-does-to` → `e20-and-spark-plug-what-ethanol-does-to`
+- `States Can Draw Rs 61,008 Crore of Short-Term Credit From th` — `states-can-draw-rs-61008-crore-of-short` → `states-can-draw-rs-61008-crore-of-short`
+- `India’s New Securities Code Gives SEBI 180 Days to Finish a ` — `indias-new-securities-code-gives-sebi` → `indias-new-securities-code-gives-sebi`
+- `Defence Exports Rose 63% to Rs 38,424 Crore. State Firms Sup` — `defence-exports-rose-63-to-rs-38424` → `defence-exports-rose-63-to-rs-38424`
+- `How to use five open toolkits: finance models, documents, ca` — `how-to-use-five-open-toolkits-finance` → `how-to-use-five-open-toolkits-finance`
+- `How to use stock-portfolio-evaluator: a rule-of-thumb Newsve` — `how-to-use-stock-portfolio-evaluator` → `how-to-use-stock-portfolio-evaluator`
+- `How to use global-stock-screener: rule-based stock screens, ` — `how-to-use-global-stock-screener-rule` → `how-to-use-global-stock-screener-rule`
+- `How to use saf-monitoring-system: track SAF batches against ` — `how-to-use-saf-monitoring-system-track` → `how-to-use-saf-monitoring-system-track`
+- `How to use refinery-design-opensource: test what a crude doe` — `how-to-use-refinery-design-opensource` → `how-to-use-refinery-design-opensource`
+- `How to use uco-ulo-tracking: chain-of-custody, integrity fla` — `how-to-use-uco-ulo-tracking-chain-of` → `how-to-use-uco-ulo-tracking-chain-of`
+- `How to use lok-rajya-sabha-qa: see which parties and ministr` — `how-to-use-lok-rajya-sabha-qa-see-which` → `how-to-use-lok-rajya-sabha-qa-see-which`
+- `How to use lng-design-opensource: size an LNG train with ope` — `how-to-use-lng-design-opensource-size` → `how-to-use-lng-design-opensource-size`
+- `How to use lignocellulosic-ethanol-opensource: size a 2G eth` — `how-to-use-lignocellulosic-ethanol` → `how-to-use-lignocellulosic-ethanol`
+- `Rice and Maize Became Ethanol Commodities With a Price, a Bu` — `rice-and-maize-became-ethanol` → `rice-and-maize-became-ethanol`
+- `India Has Funded 3 Lakh Machines to Stop Stubble Burning. Ab` — `india-has-funded-3-lakh-machines-to` → `india-has-funded-3-lakh-machines-to`
+- `Most of What Indians Pay for Health Is Outpatient Care. Ayus` — `most-of-what-indians-pay-for-health-is` → `most-of-what-indians-pay-for-health-is`
+- `India Capped Margins on 137 Cancer Drugs. Common Medicines O` — `india-capped-margins-on-137-cancer` → `india-capped-margins-on-137-cancer`
+- `States Won the Right to Tax Mines in 2024. A 45-Minute Law T` — `states-won-right-to-tax-mines-in-2024` → `states-won-right-to-tax-mines-in-2024`
+- `A Kilo of Crude Fish Oil Sells for About Rs 650. In Capsules` — `a-kilo-of-crude-fish-oil-sells-for` → `a-kilo-of-crude-fish-oil-sells-for`
+- `India Dropped the Last Approvals on Its Data-Centre Tax Holi` — `india-dropped-last-approvals-on-its` → `india-dropped-last-approvals-on-its`
+- `India Wants 15% of Its Energy From Gas by 2030. The Official` — `india-wants-15-of-its-energy-from-gas` → `india-wants-15-of-its-energy-from-gas`
+- `The Negative Cash Conversion Cycle: Free Money or a Warning ` — `the-negative-cash-conversion-cycle-free` → `the-negative-cash-conversion-cycle-free`
+- `Earnings Drift and Piotroski Work Only Where Trading Is Thin` — `earnings-drift-and-piotroski-work-only` → `earnings-drift-and-piotroski-work-only`
+- `The Supercycle Is in Metals; the 2026 Oil Spike Is a Shock` — `the-supercycle-is-in-metals-2026-oil` → `the-supercycle-is-in-metals-2026-oil`
+- `How to use india-trade-export-analysis: read India's 2020-20` — `how-to-use-india-trade-export-analysis` → `how-to-use-india-trade-export-analysis`
+- `How to use india-forex-analysis: read, check and stress-test` — `how-to-use-india-forex-analysis-read` → `how-to-use-india-forex-analysis-read`
+- `Seven States Plan to Borrow Above the New 3% Limit. Last Yea` — `seven-states-plan-to-borrow-above-new-3` → `seven-states-plan-to-borrow-above-new-3`
+- `Andhra Pradesh Has Approved Rs 14 Lakh Crore of Investment i` — `andhra-pradesh-has-approved-rs-14-lakh` → `andhra-pradesh-has-approved-rs-14-lakh`
+- `India's Fertiliser Sales Fell Where Prices Rose. NPK Is Down` — `indias-fertiliser-sales-fell-where` → `indias-fertiliser-sales-fell-where`
+- `GeM's Purchases Stopped Growing in 2025-26. Small Firms Won ` — `gems-purchases-stopped-growing-in-2025` → `gems-purchases-stopped-growing-in-2025`
+- `India Wants Emergency Braking in Every Car by 2032. Fewer Th` — `india-wants-emergency-braking-in-every` → `india-wants-emergency-braking-in-every`
+- `India Has Approved 12 Chip Plants and Paid Out About 7% of t` — `india-has-approved-12-chip-plants-and` → `india-has-approved-12-chip-plants-and`
+- `GOBARdhan Aims for 12 Times Today's Biogas Output. The Manda` — `gobardhan-aims-for-12-times-todays` → `gobardhan-aims-for-12-times-todays`
+- `Samudra Manthan Pays Up to Rs 675 Crore a Well. India's Last` — `samudra-manthan-pays-up-to-rs-675-crore` → `samudra-manthan-pays-up-to-rs-675-crore`
+- `India's Crude Basket Now Counts Russian Oil as 'Sweet'. The ` — `indias-crude-basket-now-counts-russian` → `indias-crude-basket-now-counts-russian`
+- `India Raised the DAP Subsidy 18% This Kharif. Imported DAP S` — `india-raised-dap-subsidy-18-this-kharif` → `india-raised-dap-subsidy-18-this-kharif`
+- `India Has Legalised E100 for Flex-Fuel Cars. Its E85 Still C` — `india-has-legalised-e100-for-flex-fuel` → `india-has-legalised-e100-for-flex-fuel`
+- `India's Rs 3,030 Crore Chemical Parks Copy the Bulk-Drug Par` — `indias-rs-3030-crore-chemical-parks` → `indias-rs-3030-crore-chemical-parks`
+- `India's Draft Steel Policy Plans 604 Mt by 2047. Its Own Coa` — `indias-draft-steel-policy-plans-604-mt` → `indias-draft-steel-policy-plans-604-mt`
+- `India Got a Record $94.5 Billion of FDI Last Year. Net of Ex` — `india-got-record-945-billion-of-fdi` → `india-got-record-945-billion-of-fdi`
+- `Half of PHP Websites Run a Version Nobody Patches. What a Ha` — `half-of-php-websites-run-version-nobody` → `half-of-php-websites-run-version-nobody`
+- `Closed Loop or Open Loop? How India's New Data Centres Shoul` — `closed-loop-or-open-loop-how-indias-new` → `closed-loop-or-open-loop-how-indias-new`
+- `Half of UDAN's Closed Routes Shut While Still Subsidised. Th` — `half-of-udans-closed-routes-shut-while` → `half-of-udans-closed-routes-shut-while`
+- `Rural Job-Guarantee Pay Rose 9.6% in July. In Eight States I` — `rural-job-guarantee-pay-rose-96-in-july` → `rural-job-guarantee-pay-rose-96-in-july`
+- `India Will Spend Rs 33,660 Crore on Ready-Made Factory Parks` — `india-will-spend-rs-33660-crore-on` → `india-will-spend-rs-33660-crore-on`
+- `The DESH Bill Never Came. India Is Rewriting Its SEZ Law One` — `the-desh-bill-never-came-india-is` → `the-desh-bill-never-came-india-is`
+- `India's Constitution Set a Deadline Parliament Hasn't Met: T` — `indias-constitution-set-deadline` → `indias-constitution-set-deadline`
+- `A Hectare Under a Power Line Now Pays Three to Six Times Wha` — `a-hectare-under-power-line-now-pays` → `a-hectare-under-power-line-now-pays`
+- `India's Approved Solar-Cell Makers Can Now Make 37.8 GW a Ye` — `indias-approved-solar-cell-makers-can` → `indias-approved-solar-cell-makers-can`
+- `The Phone PLI's Successor Pays Up to 5%, Wants 15% Growth a ` — `the-phone-plis-successor-pays-up-to-5` → `the-phone-plis-successor-pays-up-to-5`
+- `India Ordered 112 Captive Coal Plants to Run Flat Out as Exc` — `india-ordered-112-captive-coal-plants` → `india-ordered-112-captive-coal-plants`
+- `India’s Winter Harvest Now Outgrows Its Monsoon One. Kharif,` — `indias-winter-harvest-now-outgrows-its` → `indias-winter-harvest-now-outgrows-its`
+- `How to use hydrogen-electrolyser-control: a simulated PEM, A` — `how-to-use-hydrogen-electrolyser` → `how-to-use-hydrogen-electrolyser`
+- `How to use fuel-retail-outlets: see where India's petrol pum` — `how-to-use-fuel-retail-outlets-see` → `how-to-use-fuel-retail-outlets-see`
+- `How to use focus-sector-investor-map: see which foreign inve` — `how-to-use-focus-sector-investor-map` → `how-to-use-focus-sector-investor-map`
+- `How to use ethanol-design-opensource: size a fuel-ethanol di` — `how-to-use-ethanol-design-opensource` → `how-to-use-ethanol-design-opensource`
+- `How to use discom-debt-and-revenue-models: a scenario calcul` — `how-to-use-discom-debt-and-revenue` → `how-to-use-discom-debt-and-revenue`
+- `Sixteen Crops, Twenty Years: Where India’s Harvest Grew From` — `sixteen-crops-twenty-years-where-indias` → `sixteen-crops-twenty-years-where-indias`
+- `India’s Farm Map in Seven Charts: Maize Is Spreading, Yields` — `indias-farm-map-in-seven-charts-maize` → `indias-farm-map-in-seven-charts-maize`
+- `India’s Biggest Mandi Crops Have the Steadiest Prices. Its V` — `indias-biggest-mandi-crops-have` → `indias-biggest-mandi-crops-have`
+- `Maize Is Cheapest in a Different State Every Few Months. Ric` — `maize-is-cheapest-in-different-state` → `maize-is-cheapest-in-different-state`
+- `Ethanol Plants That Trade Maize to Poultry Mills Can Earn Fo` — `ethanol-plants-that-trade-maize-to` → `ethanol-plants-that-trade-maize-to`
+- `Europe Wants Green Steel It Can’t Afford to Make. Why CBAM S` — `europe-wants-green-steel-it-cant-afford` → `europe-wants-green-steel-it-cant-afford`
+- `To Comply or Not to Comply: CBAM Costs Indian Steel €93 a To` — `to-comply-or-not-to-comply-cbam-costs` → `to-comply-or-not-to-comply-cbam-costs`
+- `India Has 28,000 km of Gas Pipeline Working and 7,000 km Sti` — `india-has-27400-km-of-gas-pipeline` → `india-has-27400-km-of-gas-pipeline`
+- `India's Cheapest LNG Capacity Is an Extra Tank at Dahej. Its` — `indias-cheapest-lng-capacity-is-extra` → `indias-cheapest-lng-capacity-is-extra`
+- `How to use coal-to-urea-design-opensource: size a coal-to-ur` — `how-to-use-coal-to-urea-design` → `how-to-use-coal-to-urea-design`
+- `How to use cng-cgd-retail-outlet-mapping: find which gas dis` — `how-to-use-cng-cgd-retail-outlet` → `how-to-use-cng-cgd-retail-outlet`
+- `How to use cbg-design-opensource: size a compressed biogas p` — `how-to-use-cbg-design-opensource-size` → `how-to-use-cbg-design-opensource-size`
+- `India Imports the Whey Protein Its Cheese Makers Pour Away. ` — `india-imports-whey-protein-its-cheese` → `india-imports-whey-protein-its-cheese`
+- `India's 2026-27 Ethanol Tender Drops Cane Juice, Cuts Maize ` — `indias-2026-27-ethanol-tender-drops` → `indias-2026-27-ethanol-tender-drops`
+- `How to use biomass-to-syngas-opensource: size a biomass gasi` — `how-to-use-biomass-to-syngas-opensource` → `how-to-use-biomass-to-syngas-opensource`
+- `How to use agentic-insurance-agent: open-source insurance wo` — `how-to-use-agentic-insurance-agent-open` → `how-to-use-agentic-insurance-agent-open`
+- `How to use vehicle_fuel_mileage: running cost per km for pet` — `how-to-use-vehiclefuelmileage-running` → `how-to-use-vehiclefuelmileage-running`
+- `How to use us-stock-picks: a multi-screen ranking of US stoc` — `how-to-use-us-stock-picks-multi-screen` → `how-to-use-us-stock-picks-multi-screen`
+- `How to use transmission-client: control a Transmission daemo` — `how-to-use-transmission-client-control` → `how-to-use-transmission-client-control`
+- `How to use research-design-system: one set of design tokens,` — `how-to-use-research-design-system-one` → `how-to-use-research-design-system-one`
+- `How to use repo-data-dedup: find duplicate LFS storage acros` — `how-to-use-repo-data-dedup-find` → `how-to-use-repo-data-dedup-find`
+- `How to use price_prediction_backtest: honest walk-forward te` — `how-to-use-pricepredictionbacktest` → `how-to-use-pricepredictionbacktest`
+- `How to use ppac-ready-reckoner-data: load India's petroleum ` — `how-to-use-ppac-ready-reckoner-data` → `how-to-use-ppac-ready-reckoner-data`
+- `How to use piotroski-liquidity-research: a point-in-time tes` — `how-to-use-piotroski-liquidity-research` → `how-to-use-piotroski-liquidity-research`
+- `How to use mospi-dataset-analysis-public: browse India's off` — `how-to-use-mospi-dataset-analysis` → `how-to-use-mospi-dataset-analysis`
+- `How to use memory-map-optimizer: cluster a knowledge graph a` — `how-to-use-memory-map-optimizer-cluster` → `how-to-use-memory-map-optimizer-cluster`
+- `How to use market-correlation-matrices: read per-market stoc` — `how-to-use-market-correlation-matrices` → `how-to-use-market-correlation-matrices`
+- `How to use ltm-warehouse-tests: test a Postgres price-histor` — `how-to-use-ltm-warehouse-tests-test` → `how-to-use-ltm-warehouse-tests-test`
+- `How to use kalki_flooding: 125 years of Indian city rainfall` — `how-to-use-kalkiflooding-125-years-of` → `how-to-use-kalkiflooding-125-years-of`
+- `How to use india-trade-tracker: India chapter-wise exports a` — `how-to-use-india-trade-tracker-india` → `how-to-use-india-trade-tracker-india`
+- `How to use india-trade-sector-policy-recommendations: tiered` — `how-to-use-india-trade-sector-policy` → `how-to-use-india-trade-sector-policy`
+- `How to use india-trade-data-analysis: read India's trade, ru` — `how-to-use-india-trade-data-analysis` → `how-to-use-india-trade-data-analysis`
+- `How to use india-quality-regulation: a sourced map of who re` — `how-to-use-india-quality-regulation` → `how-to-use-india-quality-regulation`
+- `How to use india-omc-fuel-fleet-model: ethanol blend scenari` — `how-to-use-india-omc-fuel-fleet-model` → `how-to-use-india-omc-fuel-fleet-model`
+- `How to use india-ec-subsector-analysis: see which states lea` — `how-to-use-india-ec-subsector-analysis` → `how-to-use-india-ec-subsector-analysis`
+- `How to use india-commodity-trade-deficit: eight years of HS-` — `how-to-use-india-commodity-trade` → `how-to-use-india-commodity-trade`
+- `How to use global-ticker-universe: look up exchange-qualifie` — `how-to-use-global-ticker-universe-look` → `how-to-use-global-ticker-universe-look`
+- `How to use gazette-translated-indexed: a citation index of I` — `how-to-use-gazette-translated-indexed` → `how-to-use-gazette-translated-indexed`
+- `How to use ev-battery-management-sim: simulate EV battery pa` — `how-to-use-ev-battery-management-sim` → `how-to-use-ev-battery-management-sim`
+- `How to use eu-ets-compliance-platform: a hands-on EU ETS and` — `how-to-use-eu-ets-compliance-platform` → `how-to-use-eu-ets-compliance-platform`
+- `How to use delivery-playbook: a field guide for choosing and` — `how-to-use-delivery-playbook-field` → `how-to-use-delivery-playbook-field`
+- `How to use data-source-mining: pull World Bank indicators an` — `how-to-use-data-source-mining-pull` → `how-to-use-data-source-mining-pull`
+- `How to use cricket-data-analysis: score how predictable IPL ` — `how-to-use-cricket-data-analysis-score` → `how-to-use-cricket-data-analysis-score`
+- `How to use colab-market-fundamentals: collect dated annual f` — `how-to-use-colab-market-fundamentals` → `how-to-use-colab-market-fundamentals`
+- `How to use claude-provenance: an auditable log of every Clau` — `how-to-use-claude-provenance-auditable` → `how-to-use-claude-provenance-auditable`
+- `How to use chemical_import_substitution: HS-8 import-substit` — `how-to-use-chemicalimportsubstitution` → `how-to-use-chemicalimportsubstitution`
+- `How to use blog-consistency-check: a "is this blog post brok` — `how-to-use-blog-consistency-check-is` → `how-to-use-blog-consistency-check-is`
+- `How to use amazon-product-selector: a gated shortlist of ris` — `how-to-use-amazon-product-selector` → `how-to-use-amazon-product-selector`
+- `How to use agri-commodity-tracker: India mandi prices and an` — `how-to-use-agri-commodity-tracker-india` → `how-to-use-agri-commodity-tracker-india`
+- `How to use FCI-warehouse-MSPvsMSV: grain procurement, MSP an` — `how-to-use-fci-warehouse-mspvsmsv-grain` → `how-to-use-fci-warehouse-mspvsmsv-grain`
+- `How to use CBSE_paper_patterns: check which Class 12 topics ` — `how-to-use-cbsepaperpatterns-check` → `how-to-use-cbsepaperpatterns-check`
+- `How to use Bazartalks_Py2Cplus: a C++ port of a quant resear` — `how-to-use-bazartalkspy2cplus-c-port-of` → `how-to-use-bazartalkspy2cplus-c-port-of`
+- `How to use BazaarTalks: a multi-market quant research platfo` — `how-to-use-bazaartalks-multi-market` → `how-to-use-bazaartalks-multi-market`
+- `How to use digital-twin-for-ipa: a searchable map of India's` — `how-to-use-digital-twin-for-ipa` → `how-to-use-digital-twin-for-ipa`
+- `How to use ship2shore_rag: offline answers from open maritim` — `how-to-use-ship2shorerag-offline` → `how-to-use-ship2shorerag-offline`
+- `How to use patient-history-tracking: a demo ICU dashboard an` — `how-to-use-patient-history-tracking` → `how-to-use-patient-history-tracking`
+- `How to use market_screener_rag: backtested stock strategies ` — `how-to-use-marketscreenerrag-backtested` → `how-to-use-marketscreenerrag-backtested`
+- `How to use the news tracker: score headlines and check them ` — `how-to-use-news-tracker-score-headlines` → `how-to-use-news-tracker-score-headlines`
+- `How to use bms-battery-management: simulate an EV battery pa` — `how-to-use-bms-battery-management` → `how-to-use-bms-battery-management`
+- `How to use claude-lmstudio-router: keep working when Claude ` — `how-to-use-claude-lmstudio-router-keep` → `how-to-use-claude-lmstudio-router-keep`
+- `How to use cache_memory_cleaner: free Mac disk space without` — `how-to-use-cachememorycleaner-free-mac` → `how-to-use-cachememorycleaner-free-mac`
+- `AI Is Not Taking India's Offshore Work Evenly: A Sector-by-S` — `ai-is-not-taking-indias-offshore-work` → `ai-is-not-taking-indias-offshore-work`
+- `India Tracks Every Taxpayer in Minutes. Its Patients Got a D` — `india-tracks-every-taxpayer-in-minutes` → `india-tracks-every-taxpayer-in-minutes`
+- `The LPG Distributor's Commission Rose 16 Times Since 2004. A` — `the-lpg-distributors-commission-rose-16` → `the-lpg-distributors-commission-rose-16`
+- `Petrol-Pump Margins and E20: The First Dealer Raise in Seven` — `petrol-pump-margins-and-e20-one-dealer` → `petrol-pump-margins-and-e20-one-dealer`
+- `Biogas Is a Priority-Sector Loan. The 43% Higher CBG Price I` — `biogas-is-priority-sector-loan-43` → `biogas-is-priority-sector-loan-43`
+- `The Hydrogen Behind the Biofuel Mandate: A Country-by-Countr` — `the-hydrogen-behind-biofuel-mandate` → `the-hydrogen-behind-biofuel-mandate`
+- `Methionine, Not Lysine, Is India's Biggest Amino-Acid Gap. I` — `methionine-not-lysine-is-indias-biggest` → `methionine-not-lysine-is-indias-biggest`
+- `India's Lysine Deficit Is $102 Million and China Holds About` — `indias-lysine-deficit-is-102-million` → `indias-lysine-deficit-is-102-million`
+- `India Imported $28 Million of Sucralose in FY26, Up 49%. Sug` — `india-imported-28-million-of-sucralose` → `india-imported-28-million-of-sucralose`
+- `Bagasse Is the One Crop Residue Already Sitting at a Factory` — `bagasse-is-one-crop-residue-already` → `bagasse-is-one-crop-residue-already`
+- `Thermocol Dissolves in Orange-Peel Oil, as Researchers Showe` — `thermocol-dissolves-in-orange-peel-oil` → `thermocol-dissolves-in-orange-peel-oil`
+- `India's FDI Moved to Software and Trading After 2017: Softwa` — `indias-fdi-moved-to-software-and` → `indias-fdi-moved-to-software-and`
+- `The RBI's FCNR(B) Window Drew $133 Billion. Reserves Have Si` — `the-rbis-fcnrb-window-drew-133-billion` → `the-rbis-fcnrb-window-drew-133-billion`
+- `India's First Tourism Survey Since 2014-15 Finds Pilgrimage ` — `indias-first-tourism-survey-since-2014` → `indias-first-tourism-survey-since-2014`
+- `India and MERCOSUR Are Expanding a 450-Line Trade Pact. Indi` — `india-and-mercosur-are-expanding-450` → `india-and-mercosur-are-expanding-450`
+- `India's Reported Central Project Overrun Halved in Four Mont` — `indias-reported-central-project-overrun` → `indias-reported-central-project-overrun`
+- `The SME Growth Fund Is India's Fourth ₹10,000 Crore Governme` — `the-sme-growth-fund-is-indias-fourth` → `the-sme-growth-fund-is-indias-fourth`
+- `India Imported 29.5% More Steel This Year Despite a Safeguar` — `india-imported-295-more-steel-this-year` → `india-imported-295-more-steel-this-year`
+- `India Has Auctioned 141 Commercial Coal Mines Since 2020. Fi` — `india-has-auctioned-141-commercial-coal` → `india-has-auctioned-141-commercial-coal`
+- `EPFO's Pay Ceiling Rose to ₹25,000 After 12 Years. In 2014 R` — `epfos-pay-ceiling-rose-to-25000-after` → `epfos-pay-ceiling-rose-to-25000-after`
+- `New Zealand Opens Every Tariff Line to India on 20 October. ` — `new-zealand-opens-every-tariff-line-to` → `new-zealand-opens-every-tariff-line-to`
+- `Wheat's Support Price Rose by ₹25, the Smallest Rise in Year` — `wheats-support-price-rose-by-25` → `wheats-support-price-rose-by-25`
+- `India Raised Cooking-Oil Duties to Help Farmers in 2024. It ` — `india-raised-cooking-oil-duties-to-help` → `india-raised-cooking-oil-duties-to-help`
+- `India's First Seabed Mineral Auction Drew No Winner. The Sec` — `indias-first-seabed-mineral-auction` → `indias-first-seabed-mineral-auction`
+- `Green Energy Corridor III Is 15 Times the Last Phase. The Fi` — `green-energy-corridor-iii-is-15-times` → `green-energy-corridor-iii-is-15-times`
+- `India's Military Quantum Plan Has Four Pillars. So Far, the ` — `indias-military-quantum-plan-has-four` → `indias-military-quantum-plan-has-four`
+- `India's Old Factory Index Said Electronics Output Fell 11% i` — `indias-old-factory-index-said` → `indias-old-factory-index-said`
+- `India's Petroleum Act Still Fines a Licence Breach ₹1,000. T` — `indias-petroleum-act-still-fines` → `indias-petroleum-act-still-fines`
+- `India's Factory Intentions, 2001–2024: How Many IEM Filings ` — `indias-factory-intentions-20012024-how_0101046393` → `indias-factory-intentions-20012024-how_0101046393`
+- `Cough Syrup in a Lollipop? For Babies, the Evidence Points t` — `cough-syrup-in-lollipop-for-babies` → `cough-syrup-in-lollipop-for-babies`
+- `India's Ethanol Surplus Buys About Five Blend Points. E30, D` — `indias-ethanol-surplus-buys-about-five` → `indias-ethanol-surplus-buys-about-five`
+- `India's Biofuel Rules Are Being Written in Court: E20 Surviv` — `indias-biofuel-rules-are-being-written` → `indias-biofuel-rules-are-being-written`
+- `Refiners Won the Exemption Fight, Biofuels Kept the Volumes:` — `refiners-won-exemption-fight-biofuels` → `refiners-won-exemption-fight-biofuels`
+- `Abu Dhabi Paid $2 Billion for a Binance Stake in Stablecoins` — `abu-dhabi-paid-2-billion-for-binance` → `abu-dhabi-paid-2-billion-for-binance`
+- `The RBI Has Put Bonds and Rupees on One Ledger. The Hard Par` — `the-rbi-has-put-bonds-and-rupees-on-one` → `the-rbi-has-put-bonds-and-rupees-on-one`
+- `India's New Car Rules Count Every EV as Three Cars. Europe, ` — `indias-new-car-rules-count-every-ev-as` → `indias-new-car-rules-count-every-ev-as`
+- `Making Plastic Releases Heat. Unmaking It Takes Heat, Entrop` — `making-plastic-releases-heat-unmaking` → `making-plastic-releases-heat-unmaking`
+- `Cotton Stalk Is One of the Hardest Crop Wastes to Turn Into ` — `cotton-stalk-is-one-of-hardest-crop` → `cotton-stalk-is-one-of-hardest-crop`
+- `Every Litre of Petrol Pays ₹5 for Roads. Electric Vehicles P` — `every-litre-of-petrol-pays-5-for-roads` → `every-litre-of-petrol-pays-5-for-roads`
+- `India Sells the World About a Third of Its Oleoresins. The U` — `india-sells-world-about-third-of-its` → `india-sells-world-about-third-of-its`
+- `India Polishes the World's Diamonds With Chinese Powder. Gri` — `india-polishes-worlds-diamonds-with` → `india-polishes-worlds-diamonds-with`
+- `Cocoa Quintupled, Then Gave Most of It Back. Vanilla Lost 90` — `cocoa-quintupled-then-gave-most-of-it` → `cocoa-quintupled-then-gave-most-of-it`
+- `One Nation, One GST Rate: What a True Flat Tax Would Take, a` — `one-nation-one-gst-rate-what-true-flat` → `one-nation-one-gst-rate-what-true-flat`
+- `India Pays $5-8 Billion a Year to Ship Its Own Oil. Only 20%` — `india-pays-5-8-billion-year-to-ship-its` → `india-pays-5-8-billion-year-to-ship-its`
+- `India's Live IPO Queue Has 232 Companies in It. Power and Re` — `indias-live-ipo-queue-has-232-companies` → `indias-live-ipo-queue-has-232-companies`
+- `India's Ethanol Plants Are Sitting on Food-Grade CO2. Its Sp` — `indias-ethanol-plants-are-sitting-on` → `indias-ethanol-plants-are-sitting-on`
+- `GAIL and Sumitomo Both Turned Their TruAlt MOUs Into Binding` — `gail-and-sumitomo-both-turned-their` → `gail-and-sumitomo-both-turned-their`
+- `India's Display Fab Scheme Got Two Billion-Dollar Bids and A` — `indias-display-fab-scheme-got-two` → `indias-display-fab-scheme-got-two`
+- `India Mapped 12,174 Tariff Codes to 31 Ministries. 495 Produ` — `india-mapped-12174-tariff-codes-to-31` → `india-mapped-12174-tariff-codes-to-31`
+- `India Let Oil Companies Put Solar on Their Own Leases. A Yea` — `india-let-oil-companies-put-solar-on` → `india-let-oil-companies-put-solar-on`
+- `India Leads the World in Jute and Ranks Second in Silk. Neit` — `india-leads-world-in-jute-and-ranks` → `india-leads-world-in-jute-and-ranks`
+- `India Imports 60% of Its Cooking Gas. Four Redesigned Stoves` — `india-imports-60-of-its-cooking-gas` → `india-imports-60-of-its-cooking-gas`
+- `India's Cotton Yield Fell From 566 kg to Under 450 Since 201` — `indias-cotton-yield-fell-from-566-kg-to` → `indias-cotton-yield-fell-from-566-kg-to`
+- `India's Irrigation System Recovered 96% of Its Running Costs` — `indias-irrigation-system-recovered-96` → `indias-irrigation-system-recovered-96`
+- `India Doesn't Have One Quality Regulator. It Has 37 — and On` — `india-doesnt-have-one-quality-regulator` → `india-doesnt-have-one-quality-regulator`
+- `Shipping's Net-Zero Vote Keeps Getting Delayed. The Fuel Swi` — `shippings-net-zero-vote-keeps-getting` → `shippings-net-zero-vote-keeps-getting`
+- `Kpler and Vortexa Track Every Barrel India Imports. Nobody T` — `kpler-and-vortexa-track-every-barrel` → `kpler-and-vortexa-track-every-barrel`
+- `Under CORSIA's Own Numbers, Corn Ethanol Fails as Jet Fuel —` — `under-corsias-own-numbers-corn-ethanol` → `under-corsias-own-numbers-corn-ethanol`
+- `India Has 132 Compressed Biogas Plants Running. The Pipeline` — `india-has-132-compressed-biogas-plants` → `india-has-132-compressed-biogas-plants`
+- `PNGRB Graded Its Own Homework on the 2025-26 Plan. Its Own N` — `pngrb-graded-its-own-homework-on-2025` → `pngrb-graded-its-own-homework-on-2025`
+- `The Diesel Truck Isn't Why Your Eggs Cost More. The Ethanol ` — `the-diesel-truck-isnt-why-your-eggs` → `the-diesel-truck-isnt-why-your-eggs`
+- `Nobody Blockaded Hormuz to Slow India-Europe Trade. The Corr` — `nobody-blockaded-hormuz-to-slow-india` → `nobody-blockaded-hormuz-to-slow-india`
+- `MoPSW's ₹25,000 Crore Maritime Development Fund Has Guidelin` — `mopsws-25000-crore-maritime-development` → `mopsws-25000-crore-maritime-development`
+- `India Wants Isobutanol in Both Diesel and Jet Fuel. It Has B` — `india-wants-isobutanol-in-both-diesel` → `india-wants-isobutanol-in-both-diesel`
+- `India Has Tested Its Soil Twice. The Second Time, a Machine ` — `india-has-tested-its-soil-twice-second` → `india-has-tested-its-soil-twice-second`
+- `PMFBY Advertises a 5:1 Return to Farmers. Farmers Put In Abo` — `pmfby-advertises-51-return-to-farmers` → `pmfby-advertises-51-return-to-farmers`
+- `India's Oil Fields Are Running Down. The Policy to Squeeze M` — `indias-oil-fields-are-running-down` → `indias-oil-fields-are-running-down`
+- `The Ministry of Power Published Two Different AT&C Loss Figu` — `the-ministry-of-power-published-two` → `the-ministry-of-power-published-two`
+- `The Reactor Nobody Names: How Coal Becomes Syngas, and Why I` — `the-reactor-nobody-names-how-coal` → `the-reactor-nobody-names-how-coal`
+- `The Two Biggest Parties in Parliament Ask About Everything. ` — `the-two-biggest-parties-in-parliament` → `the-two-biggest-parties-in-parliament`
+- `E20 Doesn't Cut Tailpipe CO2 by 30%. Run the Chemistry and t` — `e20-doesnt-cut-tailpipe-co2-by-30-run` → `e20-doesnt-cut-tailpipe-co2-by-30-run`
+- `India Built an Offshore Insurance Hub. It Writes $12 Million` — `india-built-offshore-insurance-hub-it` → `india-built-offshore-insurance-hub-it`
+- `The Wage Beats the Crop — In the Survey That Leaves the Wage` — `the-wage-beats-crop-in-survey-that` → `the-wage-beats-crop-in-survey-that`
+- `India Irrigates Itself. 96.6% of Its Irrigation Schemes Are ` — `india-irrigates-itself-966-of-its` → `india-irrigates-itself-966-of-its`
+- `Rural India's Farm-Employment Share Dropped 5.6 Points in Si` — `rural-indias-farm-employment-share` → `rural-indias-farm-employment-share`
+- `Do CBSE Past Papers Actually Help? Depends Which of the 11 S` — `do-cbse-past-papers-actually-help` → `do-cbse-past-papers-actually-help`
+- `57.7% of India's Plant-Variety Certificates Are Cereals. Its` — `577-of-indias-plant-variety` → `577-of-indias-plant-variety`
+- `ABHA Covers 93 Crore Patients. Its Doctor Registry Covers 67` — `abha-covers-93-crore-patients-its` → `abha-covers-93-crore-patients-its`
+- `India Exports the Naphtha and Benzene Its Own Pharma Industr` — `india-exports-naphtha-and-benzene-its` → `india-exports-naphtha-and-benzene-its`
+- `Jan Aushadhi Sells 2,439 Products. Here's What We Actually K` — `jan-aushadhi-sells-2439-products-heres` → `jan-aushadhi-sells-2439-products-heres`
+- `Sun Pharma's $11.75bn Organon Bet Is Bigger Than the RBI Rul` — `sun-pharmas-1175bn-organon-bet-is` → `sun-pharmas-1175bn-organon-bet-is`
+- `India's ₹60,000 Crore API Push, Traced to Its Six Actual Sch` — `indias-60000-crore-api-push-traced-to` → `indias-60000-crore-api-push-traced-to`
+- `India's Semaglutide Patent Cliff: 26 Brands in Weeks, a Pric` — `indias-semaglutide-patent-cliff-26` → `indias-semaglutide-patent-cliff-26`
+- `Dr. Reddy's Cut Its Semaglutide Guidance in Half After an AP` — `dr-reddys-cut-its-semaglutide-guidance` → `dr-reddys-cut-its-semaglutide-guidance`
+- `Ethanol Freed Up Refinery Capacity for Petrochemicals. The P` — `ethanol-freed-up-refinery-capacity-for` → `ethanol-freed-up-refinery-capacity-for`
+- `India's Labour Codes Took Six Years to Become Law. The Rules` — `indias-labour-codes-took-six-years-to` → `indias-labour-codes-took-six-years-to`
+- `Five Years and ₹25,000 Crore Later, China Still Supplies Thr` — `five-years-and-25000-crore-later-china` → `five-years-and-25000-crore-later-china`
+- `India Rewrote Its Entire Maritime Legal Code in Five Months.` — `india-rewrote-its-entire-maritime-legal` → `india-rewrote-its-entire-maritime-legal`
+- `India Voted to End Its 63-Year State Nuclear Monopoly. The L` — `india-ended-63-years-of-state-nuclear` → `india-ended-63-years-of-state-nuclear`
+- `India's 12,385-Project Investment Grid Has Two "Projects" Th` — `indias-12385-project-investment-grid` → `indias-12385-project-investment-grid`
+- `What a Failed Bankruptcy Auction Actually Costs, in India's ` — `what-failed-bankruptcy-auction-actually` → `what-failed-bankruptcy-auction-actually`
+- `A ₹2,223 Crore Coal-Freight Railway Line Is Being Acquired O` — `a-2223-crore-coal-freight-railway-line` → `a-2223-crore-coal-freight-railway-line`
+- `A Textile SEZ Built to Re-Employ Mill Workers Has Shrunk 87%` — `a-textile-sez-built-to-re-employ-mill` → `a-textile-sez-built-to-re-employ-mill`
+- `India's E-Commerce Inventory Ban Just Got Its First Real Exc` — `indias-e-commerce-inventory-ban-just` → `indias-e-commerce-inventory-ban-just`
+- `India's EV Localisation Deadline Just Split in Two, Because ` — `indias-ev-localisation-deadline-just` → `indias-ev-localisation-deadline-just`
+- `A Supreme Court Ruling on "Intoxicating Liquor" Just Became ` — `a-supreme-court-ruling-on-intoxicating` → `a-supreme-court-ruling-on-intoxicating`
+- `Engineering and Auto-Component Makers File More SEBI DRHPs T` — `engineering-and-auto-component-makers` → `engineering-and-auto-component-makers`
+- `India's Ethanol Sector Already Had Its IPOs. Here's Who's Li` — `indias-ethanol-sector-already-had-its` → `indias-ethanol-sector-already-had-its`
+- `Global LNG Trade Hit a Record 437 Million Tonnes in 2025 — A` — `global-lng-trade-hit-record-437-million` → `global-lng-trade-hit-record-437-million`
+- `India's LNG Trucks Grew 75% in 2025 — About a Third of What ` — `indias-lng-trucks-grew-75-in-2025-about` → `indias-lng-trucks-grew-75-in-2025-about`
+- `Electrification Is LNG's Biggest Decarbonization Lever. The ` — `electrification-is-lngs-biggest` → `electrification-is-lngs-biggest`
+- `Delhi's Smog Towers Failed the Test. A 44-Year-Old Army Prog` — `delhis-smog-towers-failed-test-44-year` → `delhis-smog-towers-failed-test-44-year`
+- `From 50% to 10%: How Three Tariff Regimes and a Supreme Cour` — `the-50-tariff-and-234-one-untangling` → `the-50-tariff-and-234-one-untangling`
+- `India's Battery Storage Boom Is Outrunning Both Its Tariffs ` — `indias-battery-storage-boom-is` → `indias-battery-storage-boom-is`
+- `The Solar Panel Recycling Opportunity, and the Storage Manda` — `the-solar-panel-recycling-opportunity` → `the-solar-panel-recycling-opportunity`
+- `ALIMCO, Jaipur Foot, and the Bionic Gap in India's Artificia` — `alimco-jaipur-foot-and-bionic-gap-in` → `alimco-jaipur-foot-and-bionic-gap-in`
+- `Endoscopes Never Made India's PLI List. At 57% Export Covera` — `endoscopes-never-made-indias-pli-list` → `endoscopes-never-made-indias-pli-list`
+- `India's Draft Seeds Bill Cuts States' Committee Seats From 2` — `indias-draft-seeds-bill-cuts-states` → `indias-draft-seeds-bill-cuts-states`
+- `Fourteen States "Reimburse" Investors' SGST. None of Them Ca` — `fourteen-states-reimburse-investors` → `fourteen-states-reimburse-investors`
+- `PNGRB's Own 2025 Committee Now Expects Less Gas Demand by 20` — `pngrbs-own-2025-committee-now-expects` → `pngrbs-own-2025-committee-now-expects`
+- `A 2013 Vision Saw India Needing 746 MMSCMD of Gas by 2030. A` — `a-2013-vision-saw-india-needing-746` → `a-2013-vision-saw-india-needing-746`
+- `PNGRB Wants Prepaid Smart Meters on Every New Gas Connection` — `pngrb-wants-prepaid-smart-meters-on` → `pngrb-wants-prepaid-smart-meters-on`
+- `PNGRB's Own Committee Found Pipelines Running at 2% and 165%` — `pngrbs-own-committee-found-pipelines` → `pngrbs-own-committee-found-pipelines`
+- `Mapping India's Other Pipelines: Every Major Crude, Petrol-D` — `mapping-indias-other-pipelines-every` → `mapping-indias-other-pipelines-every`
+- `India Is Piping Jet Fuel to Five New Airports at Once. Only ` — `india-is-piping-jet-fuel-to-five-new` → `india-is-piping-jet-fuel-to-five-new`
+- `India's Gas Pipelines Run at Half Capacity. Its Oil Pipeline` — `indias-gas-pipelines-run-at-half` → `indias-gas-pipelines-run-at-half`
+- `Right of User: What India's Pipeline Gazette Notifications A` — `right-of-user-what-indias-pipeline` → `right-of-user-what-indias-pipeline`
+- `One Nation One Ration Card Doesn't Move Grain. FCI's Ethanol` — `one-nation-one-ration-card-doesnt-move` → `one-nation-one-ration-card-doesnt-move`
+- `Interpreting the Gazette Notification` — `interpreting-gazette-notification` → `interpreting-gazette-notification`
+- `Where India's FDI Actually Lands: 24 Quarters of DPIIT's Own` — `where-indias-fdi-actually-lands-state` → `where-indias-fdi-actually-lands-state`
+- `Textbooks Say Project Returns Converge to Cost of Capital. A` — `textbooks-say-project-returns-converge` → `textbooks-say-project-returns-converge`
+- `ICRA Rates Most of India's Economy Stable. Three Sectors Got` — `icra-rates-most-of-indias-economy` → `icra-rates-most-of-indias-economy`
+- `What Sewage Disposal in Key Parts of Tamil Nadu Actually Cos` — `what-sewage-disposal-in-key-parts-of` → `what-sewage-disposal-in-key-parts-of`
+- `Everyone Worries About Who Pays for India's CO2 Pipelines. P` — `everyone-worries-about-who-pays-for` → `everyone-worries-about-who-pays-for`
+- `DGH Has Awarded 172 OALP Blocks and 4.36 Billion Dollars in ` — `dgh-has-awarded-172-oalp-blocks-and-436_0369361351` → `dgh-has-awarded-172-oalp-blocks-and-436_0369361351`
+- `FIPI's Biggest Ask Is Getting Natural Gas Under GST. It Stil` — `fipis-biggest-ask-is-getting-natural` → `fipis-biggest-ask-is-getting-natural`
+- `PNGRB Hydrogen-Blending Pilots: The Real Numbers Behind the ` — `pngrb-hydrogen-blending-pilots-real` → `pngrb-hydrogen-blending-pilots-real`
+- `India's Oil PSUs Say They Clear Their MSME Quota Easily. The` — `indias-oil-psus-say-they-clear-their_01269248608` → `indias-oil-psus-say-they-clear-their_01269248608`
+- `India Solved Carbon-Credit Banking With No Limit At All. Tra` — `india-solved-carbon-credit-banking-with` → `india-solved-carbon-credit-banking-with`
+- `LNG Trucks Cost About What Diesel Does. GreenLine, Delhivery` — `lng-trucks-cost-about-what-diesel-does` → `lng-trucks-cost-about-what-diesel-does`
+- `India's LNG Terminal Rules Changed Twice in 2025. A Concrete` — `indias-lng-terminal-rules-changed-twice` → `indias-lng-terminal-rules-changed-twice`
+- `OISD Writes India's Oil-Safety Rules. API Just Signed FIPI U` — `oisd-writes-indias-oil-safety-rules-api` → `oisd-writes-indias-oil-safety-rules-api`
+- `TNPL Has Made Paper From Sugarcane Waste Since 1984. Its Own` — `tnpl-has-made-paper-from-sugarcane` → `tnpl-has-made-paper-from-sugarcane`
+- `Brazil Pumps E30 at Every Station. The Equipment Behind It I` — `brazil-pumps-e30-at-every-station` → `brazil-pumps-e30-at-every-station`
+- `The Detergent Chemical India Exports, and the Diaper Chemica` — `the-detergent-chemical-india-exports` → `the-detergent-chemical-india-exports`
+- `The 4% Nobody Notices, and Three Other Ways India Backstops ` — `the-4-nobody-notices-and-three-other` → `the-4-nobody-notices-and-three-other`
+- `The Easiest EV Conversion in India Hasn't Happened Yet: The ` — `the-easiest-ev-conversion-in-india` → `the-easiest-ev-conversion-in-india`
+- `The Corrosion You Can't See Until the Insulation Comes Off: ` — `the-corrosion-you-cant-see-until` → `the-corrosion-you-cant-see-until`
+- `The 1920s Rotor That's Now on 22 Real Ships, Not the Fleet I` — `the-1920s-rotor-thats-now-on-22-real` → `the-1920s-rotor-thats-now-on-22-real`
+- `UK Retail Canopies at 5.4m: The Real Design Standard Is 5.03` — `uk-retail-canopies-at-54m-real-design` → `uk-retail-canopies-at-54m-real-design`
+- `BrandSafway and the 2017 Roll-Up Wave That Turned Scaffoldin` — `brandsafway-and-2017-roll-up-wave-that` → `brandsafway-and-2017-roll-up-wave-that`
+- `The Helper Motor Trick That Already Adds LNG Throughput With` — `the-helper-motor-trick-that-already` → `the-helper-motor-trick-that-already`
+- `A $195 Million Wine Market Behind a 150% Wall, and the Deal ` — `a-million-wine-market-behind-150-wall` → `a-million-wine-market-behind-150-wall`
+- `TASMAC's Retail Exit: The Case for Privatizing 2,500 of Tami` — `tasmacs-retail-exit-case-for` → `tasmacs-retail-exit-case-for`
+- `India's 14 PLI Schemes, and Every Company Publicly Named as ` — `nine-ministries-one-list-every-company` → `nine-ministries-one-list-every-company`
+- `India's Mobile-Phone PLI Beat Every Target. Its Chip-Fab Sch` — `indias-mobile-phone-pli-beat-every` → `indias-mobile-phone-pli-beat-every`
+- `West Bengal Sanctioned 12.6 Lakh PMAY-G Houses. It Has Finis` — `west-bengal-sanctioned-126-lakh-pmay-g` → `west-bengal-sanctioned-126-lakh-pmay-g`
+- `India Allocated ₹6,000 Crore for Fisheries Under PM-MKSSY. I` — `indias-6000-crore-fisheries-scheme` → `indias-6000-crore-fisheries-scheme`
+- `AMRUT's ₹1.97 Lakh Crore Urban Portfolio: Water Supply Is 41` — `amruts-197-lakh-crore-urban-portfolio` → `amruts-197-lakh-crore-urban-portfolio`
+- `India's ₹7.9 Lakh Crore Rural Water Pipeline: What 'Upcoming` — `indias-79-lakh-crore-rural-water` → `indias-79-lakh-crore-rural-water`
+- `Sugarcane's Third Claimant: What's Actually Being Fermented ` — `sugarcanes-third-claimant-whats` → `sugarcanes-third-claimant-whats`
+- `Three Different EU Rules Are Making Ships Change Fuel Near E` — `three-different-eu-rules-are-making` → `three-different-eu-rules-are-making`
+- `The Green Shift: What India's Oil Ministry Thinks Global Maj` — `the-green-shift-what-indias-oil` → `the-green-shift-what-indias-oil`
+- `What Seven Model Stock Portfolios Look Like Once You Check T` — `what-seven-model-stock-portfolios-look` → `what-seven-model-stock-portfolios-look`
+- `Where India's Captured Carbon Would Actually Go: Two Named W` — `where-indias-captured-carbon-would` → `where-indias-captured-carbon-would`
+- `How India Actually Plans to Hit Net Zero: Eleven Scenarios, ` — `how-india-actually-plans-to-hit-net` → `how-india-actually-plans-to-hit-net`
+- `The Battery Passport Was Built for Recycling. Now It's Also ` — `the-battery-passport-was-built-for` → `the-battery-passport-was-built-for`
+- `India's Coal-to-Chemicals Menu, Ranked by What Actually Clea` — `indias-coal-to-chemicals-menu-ranked-by` → `indias-coal-to-chemicals-menu-ranked-by`
+- `India Will Finance a Waste-to-Energy Plant Before It Finance` — `india-will-finance-waste-to-energy` → `india-will-finance-waste-to-energy`
+- `The Hydrogen Bill Hiding Inside India's Sustainable Aviation` — `the-hydrogen-bill-hiding-inside-indias` → `the-hydrogen-bill-hiding-inside-indias`
+- `India Exports the World's Coco Peat. Its Own Highest-Value C` — `india-exports-worlds-coco-peat-its-own` → `india-exports-worlds-coco-peat-its-own`
+- `Oilfield Costs Rose 6–8% While Global Spending Fell. Asia's ` — `oilfield-costs-rose-68-while-global` → `oilfield-costs-rose-68-while-global`
+- `Interest Subvention Built 499 Ethanol Distilleries. Viabilit` — `interest-subvention-built-499-ethanol` → `interest-subvention-built-499-ethanol`
+- `Tamil Nadu's Water Infrastructure Runs on Three Separate Mon` — `tamil-nadus-water-infrastructure-runs` → `tamil-nadus-water-infrastructure-runs`
+- `India Approved ₹1.5 Lakh Crore in Manufacturing Subsidies. P` — `india-approved-15-lakh-crore-in` → `india-approved-15-lakh-crore-in`
+- `India's State-by-State Investment Directory: 66 Confirmed De` — `we-fact-checked-66-investment` → `we-fact-checked-66-investment`
+- `India's $4.45 Billion Spice Export Book Is Really Eight Diff` — `indias-445-billion-spice-export-book-is` → `indias-445-billion-spice-export-book-is`
+- `India's Coffee Crop Hasn't Grown in a Decade. Its Export Ear` — `indias-coffee-crop-hasnt-grown-in` → `indias-coffee-crop-hasnt-grown-in`
+- `India Grows the Most Coconuts in the World and Still Imports` — `india-grows-most-coconuts-in-world-and` → `india-grows-most-coconuts-in-world-and`
+- `India's Renewable Energy Certificates Swung 20x in Three Yea` — `indias-renewable-energy-certificates` → `indias-renewable-energy-certificates`
+- `India Finally Has a Rule for Used Motor Oil. Nobody Can Pric` — `what-actually-happens-to-indias-used` → `what-actually-happens-to-indias-used`
+- `Sixteen Years, Nine Countries: What India and Europe Actuall` — `every-india-europe-tech-agreement-pib` → `every-india-europe-tech-agreement-pib`
+- `Foreign Capital Found India's Hospitals — It Is Buying Them,` — `foreign-capital-found-indias-hospitals` → `foreign-capital-found-indias-hospitals`
+- `Indian Medicine Depends Heavily on Chinese Imports` — `india-cannot-sell-china-free-medicine` → `india-cannot-sell-china-free-medicine`
+- `India's 8-Digit Trade Book, Searchable` — `indias-8-digit-trade-book-searchable` → `indias-8-digit-trade-book-searchable`
+- `Japan Ran Out of Matcha. Assam Just Sold Its First Five Kilo` — `japan-ran-out-of-matcha-assam-just-sold` → `japan-ran-out-of-matcha-assam-just-sold`
+- `Thirty-One Years of Asking Parliament the Same Question Abou` — `thirty-one-years-of-asking-parliament` → `thirty-one-years-of-asking-parliament`
+- `India's Shrimp Exports Did Not Collapse. The Code Did.` — `indias-shrimp-exports-did-not-collapse` → `indias-shrimp-exports-did-not-collapse`
+- `Nano Urea Works as a Supplement and Fails as a Substitute. T` — `nano-urea-works-as-supplement-and-fails` → `nano-urea-works-as-supplement-and-fails`
+- `India Hit E20 on Maize and Rice, Not Sugarcane` — `india-hit-e20-on-maize-and-rice-not` → `india-hit-e20-on-maize-and-rice-not`
+- `You Cannot Substitute Crude Oil or Gold. That Is 40% of Indi` — `you-cannot-substitute-crude-oil-or-gold` → `you-cannot-substitute-crude-oil-or-gold`
+- `5,417 Items You Cannot Import — and the Ministry's Own Two N` — `5071-items-you-cannot-import-and-rs` → `5071-items-you-cannot-import-and-rs`
+- `Premium Now, Claim Later: The Float India's Car Boom Is Buil` — `premium-now-claim-later-float-indias` → `premium-now-claim-later-float-indias`
+- `A 17% Rural Pay Rise That Nobody Received` — `a-17-rural-pay-rise-that-nobody-received` → `a-17-rural-pay-rise-that-nobody-received`
+- `Half-Empty Terminals, Costlier Pipes: Winter Comes for Europ` — `winter-is-coming-for-europes-landlocked` → `winter-is-coming-for-europes-landlocked`
+- `379 Kilos a Hectare in Punjab, 44 in Kerala: India's Urea Ma` — `379-kilos-hectare-in-punjab-44-in` → `379-kilos-hectare-in-punjab-44-in`
+- `India Imports 283,000 Tonnes of Almonds and Grows 4,100: Ins` — `india-imports-283000-tonnes-of-almonds` → `india-imports-283000-tonnes-of-almonds`
+- `₹71.86 a Litre: Why Maize Is India's Priciest Ethanol Feedst` — `7186-litre-why-maize-is-indias-priciest` → `7186-litre-why-maize-is-indias-priciest`
+- `Sugar at ₹55.70 a Kilo: Why Cane Acreage Isn't Growing, and ` — `sugar-at-5570-kilo-why-cane-acreage` → `sugar-at-5570-kilo-why-cane-acreage`
+- `57.4 GW and Counting: India's Wind Fleet, State by State, Ag` — `574-gw-and-counting-indias-wind-fleet` → `574-gw-and-counting-indias-wind-fleet`
+- `Where India's Gigawatt Data-Centre Bets Actually Land: Proje` — `where-indias-gigawatt-data-centre-bets` → `where-indias-gigawatt-data-centre-bets`
+- `$0.28 a Unit: The Diesel Math Behind India's Data Centres an` — `028-unit-diesel-math-behind-indias-data` → `028-unit-diesel-math-behind-indias-data`
+- `The Balkan Relish India Already Has the Ingredients For: Mak` — `the-balkan-relish-india-already-has` → `the-balkan-relish-india-already-has`
+- `Refineries Under Fire: How Two Wars Turned Oil and Gas Infra` — `refineries-under-fire-how-two-wars` → `refineries-under-fire-how-two-wars`
+- `Ten Cubic Metres an Hour: India's First Green Fuel Bunkering` — `ten-cubic-metres-hour-indias-first` → `ten-cubic-metres-hour-indias-first`
+- `The Software Behind the Still: What's Actually Digitising In` — `the-software-behind-still-whats` → `the-software-behind-still-whats`
+- `Inside the Refinery: How Hydrogen Cleans Your Diesel — and W` — `inside-refinery-how-hydrogen-cleans` → `inside-refinery-how-hydrogen-cleans`
+- `The Levelised Cost of Hydrogen, Explained: What It Would Act` — `the-levelised-cost-of-hydrogen` → `the-levelised-cost-of-hydrogen`
+- `Indian Railways: A ₹98-to-Earn-₹100 Business, and the Decade` — `indian-railways-98-to-earn-100-business` → `indian-railways-98-to-earn-100-business`
+- `Biomass Power at Night: The Dispatchable Renewable India's G` — `biomass-power-at-night-dispatchable` → `biomass-power-at-night-dispatchable`
+- `The National Beekeeping & Honey Mission: A Sweet Revolution,` — `the-national-beekeeping-honey-mission` → `the-national-beekeeping-honey-mission`
+- `The Most Discussed Schemes in Parliament — Lok Sabha & Rajya` — `the-most-discussed-schemes-in` → `the-most-discussed-schemes-in`
+- `Blending on a Budget: Energy Density and Cost Per Kilometre,` — `blending-on-budget-energy-density-and` → `blending-on-budget-energy-density-and`
+- `Global Biofuels M&A: A Bankruptcy, a Bolt-On, and Where the ` — `global-biofuels-m-bankruptcy-bolt-on` → `global-biofuels-m-bankruptcy-bolt-on`
+- `The Milk India Doesn't Drink: Cheese and the Value-Added Dai` — `the-milk-india-doesnt-drink-cheese-and` → `the-milk-india-doesnt-drink-cheese-and`
+- `Lemon Cultivation in India: Steady Trees, Volatile Prices` — `lemon-cultivation-in-india-steady-trees` → `lemon-cultivation-in-india-steady-trees`
+- `Green Gold: What Spirulina Actually Is, and Isn't, Good For` — `green-gold-what-spirulina-actually-is` → `green-gold-what-spirulina-actually-is`
+- `The Water Bill Nobody Mentions: What Taiwan's Chip Crisis Sa` — `the-water-bill-nobody-mentions-what` → `the-water-bill-nobody-mentions-what`
+- `Not a Drop Out: Ethanol's Zero-Liquid-Discharge Rule, and th` — `not-drop-out-ethanols-zero-liquid` → `not-drop-out-ethanols-zero-liquid`
+- `Ethanol's Coal Boilers, the Briquette Gap, and What US Carbo` — `ethanols-coal-boilers-briquette-gap-and` → `ethanols-coal-boilers-briquette-gap-and`
+- `Scan, Bottle, Deliver: What PPAC's Numbers Say About the LPG` — `scan-bottle-deliver-what-ppacs-numbers` → `scan-bottle-deliver-what-ppacs-numbers`
+- `Guar Gum: India's $3.5 Billion Export Peak, the Crash After,` — `guar-gum-indias-35-billion-export-peak` → `guar-gum-indias-35-billion-export-peak`
+- `Rice Cultivation and Innovation` — `basf-and-mitsubishi-are-running` → `basf-and-mitsubishi-are-running`
+- `PET Recycling Already Cuts Emissions 60%+. The New MOEFCC Ru` — `pet-recycling-already-cuts-emissions-60` → `pet-recycling-already-cuts-emissions-60`
+- `Tarpaulin Is a Genuine Export Win. Geotextiles for India's H` — `tarpaulin-is-genuine-export-win` → `tarpaulin-is-genuine-export-win`
+- `Airbags and Seat Belts Are Import-Heavy. Tyre Cord Isn't. In` — `airbags-and-seat-belts-are-import-heavy` → `airbags-and-seat-belts-are-import-heavy`
+- `India Grows the Soybean, Exports the Meal, Leads in Lecithin` — `india-grows-soybean-exports-meal-leads` → `india-grows-soybean-exports-meal-leads`
+- `The Cluster the Automotive Piece Left Out: Pitching Madhya P` — `the-cluster-automotive-piece-left-out` → `the-cluster-automotive-piece-left-out`
+- `How India's Automotive Clusters Rewired Themselves Around Ju` — `how-indias-automotive-clusters-rewired` → `how-indias-automotive-clusters-rewired`
+- `Which ECB Currencies Are Actually Investable, Once Real Vola` — `which-ecb-currencies-are-actually` → `which-ecb-currencies-are-actually`
+- `FBIL Rates vs. TradeStat Volumes: Does FX Volatility Actuall` — `fbil-rates-vs-tradestat-volumes-does-fx` → `fbil-rates-vs-tradestat-volumes-does-fx`
+- `The Currency the Rupee-Trends Piece Left Out: What INR/JPY A` — `the-currency-rupee-trends-piece-left` → `the-currency-rupee-trends-piece-left`
+- `Tamil Nadu's Wind Potential, According to NIWE: A Third Buil` — `tamil-nadus-wind-potential-according-to` → `tamil-nadus-wind-potential-according-to`
+- `What TEPA Actually Opens: EFTA Goods, India's Real Numbers, ` — `what-tepa-actually-opens-efta-goods` → `what-tepa-actually-opens-efta-goods`
+- `Financing the Fuel-to-Chemicals Pivot: How Indian Oil's ₹15,` — `financing-fuel-to-chemicals-pivot-how` → `financing-fuel-to-chemicals-pivot-how`
+- `Where the Rupee Actually Stands: Ten Years Against the Dolla` — `where-rupee-actually-stands-ten-years` → `where-rupee-actually-stands-ten-years`
+- `Can Rupee Trade Actually Offset the Inflation India Is Impor` — `can-rupee-trade-actually-offset` → `can-rupee-trade-actually-offset`
+- `What India Is Actually Paying For: Absorbing Someone Else's ` — `what-india-is-actually-paying-for` → `what-india-is-actually-paying-for`
+- `India's Coking Coal Import Problem, and Why "Biomass Pellets` — `indias-coking-coal-import-problem-and` → `indias-coking-coal-import-problem-and`
+- `Where the World's Oil Sits When It Isn't Moving: Storage, Fl` — `where-worlds-oil-sits-when-it-isnt` → `where-worlds-oil-sits-when-it-isnt`
+- `RIN, RED and CBIO: What India's Ethanol Programme Could Borr` — `rin-red-and-cbio-what-indias-ethanol` → `rin-red-and-cbio-what-indias-ethanol`
+- `One Gallon, Five Numbers: How GCAM Fits Into — and Stays Out` — `one-gallon-five-numbers-how-gcam-fits` → `one-gallon-five-numbers-how-gcam-fits`
+- `Price Is the Wire: How GCAM Actually Links India's Energy, L` — `price-is-wire-how-gcam-actually-links` → `price-is-wire-how-gcam-actually-links`
+- `The Margin Case: Why LPG and Petrochemicals Beat Petrol, Fro` — `the-margin-case-why-lpg-and` → `the-margin-case-why-lpg-and`
+- `From Barrel to Bottle: The Petrochemical Pivot Also Makes a ` — `from-barrel-to-bottle-petrochemical` → `from-barrel-to-bottle-petrochemical`
+- `The FCC Lever: Trading Petrol Yield for LPG, and Where India` — `the-fcc-lever-trading-petrol-yield-for` → `the-fcc-lever-trading-petrol-yield-for`
+- `Fuel and the Bottle: The Two Taxes States Never Handed to GS` — `fuel-and-bottle-two-taxes-states-never` → `fuel-and-bottle-two-taxes-states-never`
+- `The Barrel Really Is Shifting: India's Refiners Quantify the` — `the-barrel-really-is-shifting-indias` → `the-barrel-really-is-shifting-indias`
+- `The Case for Biofuels Over Imports: Raise Ethanol's SGST, Cu` — `the-case-for-biofuels-over-imports` → `the-case-for-biofuels-over-imports`
+- `Push the Ethanol SGST Rate From 2.5% to 5% and Beyond: What ` — `push-ethanol-sgst-rate-from-25-to-5-and` → `push-ethanol-sgst-rate-from-25-to-5-and`
+- `Would More SGST Fix the "Donor State" Problem? Ethanol Shows` — `would-more-sgst-fix-donor-state-problem` → `would-more-sgst-fix-donor-state-problem`
+- `Tamil Nadu's GST Gap: A 10.8% Economy Growing a 0.7%-Shrinki` — `tamil-nadus-gst-gap-108-economy-growing` → `tamil-nadus-gst-gap-108-economy-growing`
+- `Uttar Pradesh's GST Puzzle: A Growing Economy That Had a Ter` — `uttar-pradeshs-gst-puzzle-growing` → `uttar-pradeshs-gst-puzzle-growing`
+- `Who Collects India's GST, and Who Actually Gets It Back` — `who-collects-indias-gst-and-who` → `who-collects-indias-gst-and-who`
+- `India's Two Tracks of Health Cover, and Where They Actually ` — `indias-two-tracks-of-health-cover-and` → `indias-two-tracks-of-health-cover-and`
+- `ABHA: What India's 14-Digit Health ID Actually Does, in the ` — `abha-what-indias-14-digit-health-id` → `abha-what-indias-14-digit-health-id`
+- `Mrs Watanabe Traded From the Kitchen Table. India's Next Wav` — `mrs-watanabe-traded-from-kitchen-table` → `mrs-watanabe-traded-from-kitchen-table`
+- `Do Cheap Stocks Stay Cheap? Price-Band Migration and What K-` — `do-cheap-stocks-stay-cheap-price-band` → `do-cheap-stocks-stay-cheap-price-band`
+- `₹0–50 Is Its Own Category: Diving Into India's Actual Microc` — `050-is-its-own-category-diving-into` → `050-is-its-own-category-diving-into`
+- `Below ₹250 Is Where the Real Risk Lives: Splitting India's C` — `below-250-is-where-real-junk-lives` → `below-250-is-where-real-junk-lives`
+- `Why Bet on One Horse, When You Can Buy the Stable?` — `why-bet-on-one-horse-when-you-can-buy` → `why-bet-on-one-horse-when-you-can-buy`
+- `Tiffin Meets Thali: The ₹10-a-Day SIP Already Exists. Fracti` — `tiffin-meets-thali-10-day-sip-already` → `tiffin-meets-thali-10-day-sip-already`
+- `A Slice of Apple Costs About ₹1,700. A Slice of MRF Still Is` — `a-slice-of-apple-costs-about-1700-slice` → `a-slice-of-apple-costs-about-1700-slice`
+- `India's Lock Imports Hit $197.84 Million. Dindigul's 150-Yea` — `indias-lock-imports-hit-19784-million` → `indias-lock-imports-hit-19784-million`
+- `India's Used-Oil EPR Wants Half of All Lubricant Recycled by` — `indias-used-oil-epr-wants-half-of-all` → `indias-used-oil-epr-wants-half-of-all`
+- `AHIDF Has Sanctioned ₹19,751 Crore in Animal-Husbandry Loans` — `ahidf-has-sanctioned-19751-crore-in` → `ahidf-has-sanctioned-19751-crore-in`
+- `The 50/30/20 Rule — and the Case for Flipping It to Save Fir` — `the-503020-rule-is-elizabeth-warrens` → `the-503020-rule-is-elizabeth-warrens`
+- `Thali Investing: What's Actually on the Plate When People Sa` — `thali-investing-whats-actually-on-plate` → `thali-investing-whats-actually-on-plate`
+- `The Rule of 72, the Rule of 114, and How to Actually Check a` — `the-rule-of-72-rule-of-114-and-how-to` → `the-rule-of-72-rule-of-114-and-how-to`
+- `India Has Tax Treaties With 97 Countries and Trade Treaties ` — `india-has-tax-treaties-with-97` → `india-has-tax-treaties-with-97`
+- `UP Has India's Biggest Herd. Punjab Has India's Best Yield. ` — `up-has-indias-biggest-herd-punjab-has` → `up-has-indias-biggest-herd-punjab-has`
+- `Cow Dung Already Flew a Rocket Engine. India's Biogas Progra` — `cow-dung-already-flew-rocket-engine` → `cow-dung-already-flew-rocket-engine`
+- `One Refinery Flipped Nigeria From Importer to Exporter. Afri` — `one-refinery-flipped-nigeria-from` → `one-refinery-flipped-nigeria-from`
+- `India's EPR Regime Just Got Teeth — and a Battery Recycling ` — `indias-epr-regime-just-got-teeth-and` → `indias-epr-regime-just-got-teeth-and`
+- `India's Trade Story Has Three Big Wins and One Gap the Headl` — `indias-trade-story-has-three-big-wins` → `indias-trade-story-has-three-big-wins`
+- `India's Fertiliser Import Bill Hits $18 Billion, and Parliam` — `indias-fertiliser-import-bill-hits-18` → `indias-fertiliser-import-bill-hits-18`
+- `India's Food Processing Story: A PLI Scheme Beating Its Own ` — `indias-food-processing-story-pli-scheme` → `indias-food-processing-story-pli-scheme`
+- `Cocoa's Blockchain Reckoning: One Platform Failed, One Pilot` — `cocoas-blockchain-reckoning-one` → `cocoas-blockchain-reckoning-one`
+- `From Cane to Code: The Digital Layer Underneath India's E20 ` — `from-cane-to-code-digital-layer` → `from-cane-to-code-digital-layer`
+- `Thermal Parity Is Dead: What $85 Oil and a $7 Gas Ceiling Ac` — `thermal-parity-is-dead-what-85-oil-and` → `thermal-parity-is-dead-what-85-oil-and`
+- `LPG's Missing Number: A ₹73.08 Commission, and Why Gas Is Sa` — `lpgs-missing-number-7308-commission-and` → `lpgs-missing-number-7308-commission-and`
+- `UPI Mimicking the Plastic Card: Will MDR Be Like Visa Fees?` — `beyond-pump-what-upi-fee-would-cost` → `beyond-pump-what-upi-fee-would-cost`
+- `Cheap Yen, Rupee Roads: Where the Carry Trade Meets Project ` — `cheap-yen-rupee-roads-where-carry-trade` → `cheap-yen-rupee-roads-where-carry-trade`
+- `The Masala Deutsch Shop — Books & Things From the Articles` — `the-masala-deutsch-shop-books-things` → `the-masala-deutsch-shop-books-things`
+- `Where India Actually Burns Its Fuel: Sixteen Years of State-` — `where-india-actually-burns-its-fuel` → `where-india-actually-burns-its-fuel`
+- `City Gas Just Became India's Largest Gas Consumer` — `city-gas-just-became-indias-largest-gas` → `city-gas-just-became-indias-largest-gas`
+- `Transaction Fees for UPI: Will Petrol Pumps Have More ATMs? ` — `upi-fees-are-now-legal-petrol-pumps` → `upi-fees-are-now-legal-petrol-pumps`
+- `South Africa Lost Its Gulf Fuel Supply. It Turned to America` — `south-africa-lost-its-gulf-fuel-supply` → `south-africa-lost-its-gulf-fuel-supply`
+- `India Sells the World $53 Billion of Fuel. Its Neighbours Bu` — `india-sells-world-53-billion-of-fuel` → `india-sells-world-53-billion-of-fuel`
+- `Europe Bought a Record Amount of LNG and Made Itself Depende` — `europe-bought-record-amount-of-lng-and` → `europe-bought-record-amount-of-lng-and`
+- `Petroleum Trade Pairings and the US Crude Storage Picture` — `petroleum-trade-pairings-and-us-crude` → `petroleum-trade-pairings-and-us-crude`
+- `Inflation Trends Globally: What Five Years Actually Cost` — `inflation-trends-globally-what-five` → `inflation-trends-globally-what-five`
+- `India's Wholesale Prices Next to Everyone Else's: What Survi` — `indias-wholesale-prices-next-to` → `indias-wholesale-prices-next-to`
+- `Reinvesting Capital Gains in Higher-Yielding Bonds: The Rs 6` — `reinvesting-capital-gains-in-higher` → `reinvesting-capital-gains-in-higher`
+- `From Diesel to CNG: Where the Switch Actually Pays` — `diesel-doesnt-move-cpi-it-moves-40` → `diesel-doesnt-move-cpi-it-moves-40`
+- `Which of 827 Chemical HSN-8 Codes Are Real Substitution Targ` — `chemical-import-substitution-hsn-8-registry` → `chemical-import-substitution-hsn-8-registry`
+- `India's Oil Fields Are Running Down: 36.96 to 28.70 MMT in a` — `indias-oil-fields-are-running-down-3696` → `indias-oil-fields-are-running-down-3696`
+- `Rooftop Solar Is Working. Household Batteries Are Not Part o` — `rooftop-solar-is-working-household` → `rooftop-solar-is-working-household`
+- `Fourteen Years of Indian Wholesale Prices: Diesel Up 79%, Ur` — `fourteen-years-of-indian-wholesale` → `fourteen-years-of-indian-wholesale`
+- `Europe's Export Credit Agencies Are Quietly Bankrolling Indi` — `europes-export-credit-agencies-are` → `europes-export-credit-agencies-are`
+- `India's State Incentive War: Gujarat's Execution Edge, Karna` — `indias-state-incentive-war-gujarats` → `indias-state-incentive-war-gujarats`
+- `Where India's Green Hydrogen Bets Are Actually Landing: A St` — `where-indias-green-hydrogen-bets-are` → `where-indias-green-hydrogen-bets-are`
+- `India's Ethanol Surplus Isn't Going to Brazil or the USA — t` — `indias-ethanol-surplus-isnt-going-to` → `indias-ethanol-surplus-isnt-going-to`
+- `The Empty-Shed Greenhouse: What India's Polyhouse Economics ` — `the-empty-shed-greenhouse-what-indias` → `the-empty-shed-greenhouse-what-indias`
+- `India's Animal-Protein Export Complex: Buffalo Meat, the Tal` — `indias-animal-protein-export-complex` → `indias-animal-protein-export-complex`
+- `India's Tyre-Waste Problem and the Crumb-Rubber Road Fix` — `indias-tyre-waste-problem-and-crumb` → `indias-tyre-waste-problem-and-crumb`
+- `Who's Actually Building MRI and CT Scanners in India: The PL` — `whos-actually-building-mri-and-ct` → `whos-actually-building-mri-and-ct`
+- `The Ethanol Sector's Buyers' Market: Overcapacity, Cooperati` — `the-ethanol-sectors-buyers-market` → `the-ethanol-sectors-buyers-market`
+- `Rare-Earth Magnets and Specialty Steel: India's ₹7,280 Crore` — `rare-earth-magnets-and-specialty-steel` → `rare-earth-magnets-and-specialty-steel`
+- `Vehicles Out, Motors In: India's Chapter 87 Surplus and Its ` — `vehicles-out-motors-in-indias-chapter` → `vehicles-out-motors-in-indias-chapter`
+- `Chemical Import Substitution: the Full 827-Code Data Tables` — `chemical-import-substitution-full-hsn-8_01082878313` → `chemical-import-substitution-full-hsn-8_01082878313`
+- `Fuel Pricing to Crude Cost` — `fuel-pricing-to-crude-cost` → `fuel-pricing-to-crude-cost`
+- `PLI for Medical Devices: What's Covered, What Isn't — and Wh` — `pli-medical-devices-coverage-and-gaps` → `pli-medical-devices-coverage-and-gaps`
+- `India's Medical-Device Trade Gap — and the Devices Worth Mak` — `indias-medical-device-trade-gap-and` → `indias-medical-device-trade-gap-and`
+- `Jai Kisan, Jai Javan — An FCI-Based Military Ration Strategy` — `jai-kisan-jai-javan-fci-based-military` → `jai-kisan-jai-javan-fci-based-military`
+- `Annadata to Urjadata: The Farmer-Income Case for Ethanol Ble` — `annadata-to-urjadata-farmer-income-case` → `annadata-to-urjadata-farmer-income-case`
+- `If India Paid BRICS in Rupees: A Scenario Model of De-Dollar` — `if-india-paid-brics-in-rupees-scenario` → `if-india-paid-brics-in-rupees-scenario`
+- `Lok Sabha Question Registry — Scheme & Incentive Questions, ` — `lok-sabha-question-registry-1843-scheme` → `lok-sabha-question-registry-1843-scheme`
+- `Rajya Sabha Question Registry — Scheme & Incentive Questions` — `rajya-sabha-question-registry-scheme` → `rajya-sabha-question-registry-scheme`
+- `Quarterly Reportage — 4,220 Scheme Announcements, 2017 to No` — `quarterly-reportage-4034-scheme` → `quarterly-reportage-4034-scheme`
+- `Indian IT in an AI Era` — `indian-it-in-ai-era` → `indian-it-in-ai-era`
+- `Is India a Dollar Salesman? China Sold the Yuan to BRICS as ` — `securitising-deficit-what-it-would` → `securitising-deficit-what-it-would`
+- `The Rupee Fell 10% and Exports Grew 0.9%: What the Exchange ` — `the-rupee-fell-10-and-exports-grew-09` → `the-rupee-fell-10-and-exports-grew-09`
+- `The Price and the Tap: The Two Levers Behind Every Central B` — `the-price-and-tap-two-levers-behind` → `the-price-and-tap-two-levers-behind`
+- `Raising Green Debt Globally: The REC EuroYen Playbook, the C` — `raising-green-debt-globally-rec-euroyen` → `raising-green-debt-globally-rec-euroyen`
+- `Half of India's Import Bill Is Commodities. Recycling and Im` — `half-of-indias-import-bill-is` → `half-of-indias-import-bill-is`
+- `Re-Spinning the Charkha` — `re-spinning-charkha` → `re-spinning-charkha`
+- `Annexure: 314 HSN Codes Mapped to Technical-Textile Segments` — `annexure-314-hsn-codes-mapped-to` → `annexure-314-hsn-codes-mapped-to`
+- `From Fuel to Fibre: India's Textile Import-Substitution Loop` — `from-fuel-to-fibre-indias-textile` → `from-fuel-to-fibre-indias-textile`
+- `Greenhouse Emissions Reduction and CBAM Compliance — Real or` — `greenhouse-emissions-reduction-and-cbam` → `greenhouse-emissions-reduction-and-cbam`
+- `India's Carbon Credit Market: Domestic Compliance Meets Inte` — `indias-carbon-credit-market-domestic` → `indias-carbon-credit-market-domestic`
+- `Bio-Fertiliser and Green Credits: Regrowing India's Arid Lan` — `bio-fertiliser-and-green-credits` → `bio-fertiliser-and-green-credits`
+- `Nature Versus Nurture: India's Fertiliser-Fed Food Security` — `nature-versus-nurture-indias-fertiliser` → `nature-versus-nurture-indias-fertiliser`
+- `Announced vs. Delivered: Five Indian State Industrial Polici` — `announced-vs-delivered-three-indian` → `announced-vs-delivered-three-indian`
+- `A Tax Play: Grow Ethanol SGST Revenue, Cut CNG VAT to Match ` — `a-tax-play-grow-ethanol-sgst-revenue` → `a-tax-play-grow-ethanol-sgst-revenue`
+- `State by State: Who Actually Earns from Ethanol Blending? SG` — `state-by-state-who-actually-earns-from` → `state-by-state-who-actually-earns-from`
+- `India's EVs Reached 12% of Vehicle Sales in April–September.` — `indias-ev-market-single-digit` → `indias-ev-market-single-digit`
+- `CPI Inflation Heatmap — India, June 2026` — `cpi-inflation-heatmap-india-june-2026` → `cpi-inflation-heatmap-india-june-2026`
+- `HSN-wise Historical Import/Export Trends — India, FY2018-19 ` — `hsn-wise-historical-importexport-trends` → `hsn-wise-historical-importexport-trends`
+- `Import-Dependent Sectors vs. Government Scheme Attention — I` — `import-dependent-sectors-vs-government` → `import-dependent-sectors-vs-government`
+- `Effective Buying Power & the China Comparison — Rupee Real E` — `effective-buying-power-china-comparison` → `effective-buying-power-china-comparison`
+- `Priority Trade Partners by Import-Growth Sector, & Real PLI ` — `priority-trade-partners-by-import` → `priority-trade-partners-by-import`
+- `India's Trade Balance — HSN-wise Export/Import Analysis` — `indias-trade-balance-hsn-wise` → `indias-trade-balance-hsn-wise`
+- `FY2025-26 Sample Report — India Trade, Currency & Policy Sna` — `fy2025-26-sample-report-india-trade` → `fy2025-26-sample-report-india-trade`
+- `Five-Year Synthesis: Trade, Currency & Policy, FY2021-22 to ` — `five-year-synthesis-trade-currency` → `five-year-synthesis-trade-currency`
+- `Imported Fertiliser & Fuel Prices → Diesel → CPI/WPI — India` — `imported-fertiliser-fuel-prices-diesel` → `imported-fertiliser-fuel-prices-diesel`
+- `Priority Export Destinations by Growth Sector, & Real PLI Co` — `priority-export-destinations-by-growth` → `priority-export-destinations-by-growth`
+- `CPI & WPI Trends — India (CPI from MoSPI, WPI from DPIIT)` — `cpi-wpi-trends-mospi-bulletin` → `cpi-wpi-trends-mospi-bulletin`
+- `Where India's Forex Goes — Country Deficits & a Decade of Po` — `where-indias-forex-goes-country` → `where-indias-forex-goes-country`
+- `Real GDP Growth — India, FY2012-13 to FY2025-26` — `real-gdp-growth-india-fy2012-13-to` → `real-gdp-growth-india-fy2012-13-to`
+- `RBI Foreign Exchange Reserves — 2015–2026` — `rbi-foreign-exchange-reserves-20152026` → `rbi-foreign-exchange-reserves-20152026`
+- `DISCOM Debt Relief — Token Charge Calculator` — `discom-debt-relief-token-charge` → `discom-debt-relief-token-charge`
+- `IEM Conversion — A Historical Performance Review (2017–2025)` — `iem-conversion-historical-performance` → `iem-conversion-historical-performance`
+- `Where India’s Factories Actually Get Built — IEM State & Sec` — `where-indias-factories-actually-get` → `where-indias-factories-actually-get`
+- `📚 Article Index — Start Here` — `article-index-start-here` → `article-index-start-here`
+- `IPA Digital Twin — Reportage: Latest Updates (15 Sep – 9 Nov` — `ipa-digital-twin-reportage-latest` → `ipa-digital-twin-reportage-latest`
+- `The Top 15 Import-Substitution Chemicals, Code by Code` — `top-15-chemicals-for-import` → `top-15-chemicals-for-import`
+- `Chemical Import Substitution — Quarterly Tracking Dashboard` — `chemical-import-substitution-quarterly` → `chemical-import-substitution-quarterly`
+- `Chemical Import Substitution Analysis: Executive Summary` — `chemical-import-substitution-analysis` → `chemical-import-substitution-analysis`
+- `FCI Storage Scenario — Capacity, Stock, and the Road to 2,15` — `fci-storage-scenario-capacity-stock-and` → `fci-storage-scenario-capacity-stock-and`
+- `India — Grain Cultivation · FCI Storage · FPOs (State Map)` — `india-grain-cultivation-fci-storage` → `india-grain-cultivation-fci-storage`
+- `FCI Grain Flow — Procurement · Storage · Disposal Dashboard` — `fci-grain-flow-procurement-storage` → `fci-grain-flow-procurement-storage`
+- `The Grain Value Loop — Integrated Rice Biorefinery Pitch` — `the-grain-value-loop-integrated-rice` → `the-grain-value-loop-integrated-rice`
+- `AI Tools Edition 03: A Repo With 98,000 Stars This Tracker H` — `ai-high-demand-launch-tracker` → `ai-high-demand-launch-tracker`
+- `The Recycling Lottery Playbook — Norway's Pantelotteriet, an` — `the-recycling-lottery-playbook-norways` → `the-recycling-lottery-playbook-norways`
+- `India's Subsidised Imports — Fertilisers Explode +76% (FY25 ` — `indias-subsidised-imports-fertilisers` → `indias-subsidised-imports-fertilisers`
+- `India Mineral-Oil (HSN Ch.27) Trade × Pricing Dashboard` — `india-mineral-oil-hsn-ch27-trade` → `india-mineral-oil-hsn-ch27-trade`
+- `The CBG Incentive Stack — Every Leg of a Biogas Plant De-ris` — `the-cbg-incentive-stack-every-leg-of` → `the-cbg-incentive-stack-every-leg-of`
+- `Textile HSN Deep-Dive — Apparel vs MMF Fibre Trade Scenarios` — `textile-hsn-deep-dive-apparel-vs-mmf` → `textile-hsn-deep-dive-apparel-vs-mmf`
+- `India's Textile Import-Export Strategy: From Dependency to S` — `indias-textile-import-export-strategy` → `indias-textile-import-export-strategy`
+- `Ethanol Blending & the OMC Books — E20 today vs E30 + SGST` — `ethanol-blending-omc-books-e20-today-vs` → `ethanol-blending-omc-books-e20-today-vs`
+- `India’s Petrochemical Import Tree — From Petrol to Product (` — `indias-petrochemical-import-tree-from` → `indias-petrochemical-import-tree-from`
+- `US Stock Picks — Multi-Screen Quant Shortlist (24 Jul 2026)` — `us-stock-picks-multi-screen-quant` → `us-stock-picks-multi-screen-quant`
+- `The Price of Grain: MSP, MSV, and the Arithmetic of the Indi` — `the-price-of-grain-msp-msv-and` → `the-price-of-grain-msp-msv-and`
+- `The Fearless Girl's Charter — India's Market Asks 2026` — `the-fearless-girls-charter-indias` → `the-fearless-girls-charter-indias`
+- `CGD Geographical Areas — District Allotment Map (Part 1 of 3` — `cgd-geographical-areas-district` → `cgd-geographical-areas-district`
+- `India Trade — Sector & Policy Recommendations (Chart Library` — `india-trade-sector-policy` → `india-trade-sector-policy`
+- `Tech for Business so 2019, Tech As Business is for 2020! ` — `tech-for-business-so-2019-tech-as` → `tech-for-business-so-2019-tech-as`
+
+**No longer published** (drafted or deleted; file kept in `posts/`)
+
+- `india-forest-wildlife-crz-clearances` — India Forest, Wildlife & CRZ Clearances — PARIVESH
+- `india-ec-approval-funnel-parivesh-20` — India EC Approval Funnel — PARIVESH 2.0
+- `cold-chain-fuel-outlet-integrated-map` — Cold-Chain × Fuel-Outlet Integrated Map (Part 3 of 3)
+- `india-environmental-clearances-state` — India Environmental Clearances — State × Sub-sector Dashboard
+- `india-fuel-retail-outlets-82k-geocoded` — India Fuel Retail Outlets — 82k Geocoded Map (Part 2 of 3)

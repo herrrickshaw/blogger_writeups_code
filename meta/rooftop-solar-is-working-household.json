@@ -1,10 +1,10 @@
 {
   "id": "2452302396809471268",
   "title": "Rooftop Solar Is Working. Household Batteries Are Not Part of the Deal — and That Is the Next Problem.",
-  "url": "https://masaladeutsch.blogspot.com/2026/08/rooftop-solar-is-working-household.html",
+  "url": "https://blog.vertistratsolution.com/2026/08/rooftop-solar-is-working-household.html",
   "slug": "rooftop-solar-is-working-household",
   "published": "2026-08-06T08:11:47.000+05:30",
-  "updated": "2026-10-14T16:27:21.205+05:30",
+  "updated": "2026-10-14T16:27:21.000+05:30",
   "labels": [
     "Industrial Policy",
     "Mobility & EV"
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "4.2.0",
+  "version": "4.2.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -264,6 +264,22 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Update notes 12-13 Oct 2026 from the currency sweeps (45 posts)"
+    },
+    {
+      "version": "4.2.1",
+      "date": "2026-11-11T05:46:22+05:30",
+      "level": "patch",
+      "reason": "moved to a new URL; body unchanged",
+      "bytes": [
+        21775,
+        21775
+      ],
+      "url_changed": [
+        "https://masaladeutsch.blogspot.com/2026/08/rooftop-solar-is-working-household.html",
+        "https://blog.vertistratsolution.com/2026/08/rooftop-solar-is-working-household.html"
+      ],
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

@@ -238,8 +238,8 @@ if(skip){
   search engines; the visible text is what tells a reader the piece is maintained.
 -->
 <p class="revised" data-gs-revision-v1="1">Revised
-<time datetime="2026-11-07" itemprop="dateModified">7 November 2026</time>
-&middot; <code>v1.3.0</code> &middot; <a href="#changelog">what changed</a></p>
+<time datetime="2026-11-10" itemprop="dateModified">10 November 2026</time>
+&middot; <code>v1.4.0</code> &middot; <a href="#changelog">what changed</a></p>
 
 <div class="stats">
 <div class="stat"><b>35</b><span>Command-line commands, from relief valves to a full risk study</span></div>
@@ -248,12 +248,13 @@ if(skip){
 <div class="stat"><b>7</b><span>JSON study tools: bow-tie, SIL, fire and gas, thermal runaway, ATEX, RAM, PHA</span></div>
 </div>
 
-<p>This is the long version of the guide. It installs the toolkit, explains the few habits that keep a screening result honest, and then goes through the commands by job: relief and venting, fire and explosion, functional safety, regulation, electrical, and the quantitative risk study. Every output below was produced by running the command on 5 November 2026 with <b>illustrative inputs</b>. A shorter, asset-specific walk-through of an LPG terminal is in <a href="https://masaladeutsch.blogspot.com/2026/11/screen-process-safety-question-in-five.html">the companion post</a>.</p>
+<p>This is the long version of the guide. It installs the toolkit, explains the few habits that keep a screening result honest, and then goes through the commands by job: relief and venting, fire and explosion, functional safety, regulation, electrical, and the quantitative risk study. Every output below was produced by running the command on 5 November 2026 with <b>illustrative inputs</b>. An asset-specific walk-through of an LPG terminal, with every result, is in <a href="#s16">section 16</a>.</p>
 
 <p><b>Try it in the browser first.</b> A clickable design demo, <a href="https://process-safety-studio-demo.lovable.app">Process Safety Studio</a>, walks through five tasks in the same five steps the command line uses: choose a task, enter inputs with units, run, read the result with its notes and limits, and export. The tasks are a gas relief valve sized to API 520, OSHA PSM applicability, LNG terminal basics, PSM revalidation due dates and fire-and-gas detector coverage. Its results are outputs captured from the command line, not live calculations, so use it to see the workflow and install the toolkit to run your own numbers.</p>
 
 <div class="warn"><b>It is a screen, not a safety case.</b> Most of the governing standards are paywalled and were not read. Equations are derived from first principles where possible and tested against the standards&rsquo; own constants, and every remaining coefficient is flagged in the module&rsquo;s docstring. A qualified engineer owns any result, and validated software should decide real designs.</div>
 
+<div class="warn" style="border-left:4px solid #a5402c;background:rgba(165,64,44,.07);padding:.8em 1em;margin:1.2em 0;border-radius:4px"><b>Updated 10 November 2026.</b> This guide now includes the LPG-terminal worked example as <a href="#s16">section 16</a>. It was previously a separate post, &ldquo;Screen an LPG Terminal Before the Workshop, and See the Dense-Gas Gap It Cannot Close&rdquo;, which has been retired; its results, the dense-gas warning and its table of matching consultancy projects are all here now.</div>
 <h2>1. Install and orient</h2>
 
 <pre>git clone https://github.com/herrrickshaw/process-safety-design-toolkit
@@ -359,7 +360,7 @@ $ python3 -m process_safety pfd --arch 1oo2 --lambda-du 2e-6 --ti-years 1 --beta
 </div>
 
 
-<h2>8. The risk study (<code>qra</code>)</h2>
+<h2 id="s8">8. The risk study (<code>qra</code>)</h2>
 
 <p>The risk study chains six steps: hazard identification, frequency, consequence, risk, evaluation against criteria, and mitigation. Everything is driven by one JSON file. Copy the worked example and edit it.</p>
 
@@ -436,7 +437,7 @@ $ python3 -c &quot;from process_safety import hydraulics as h; a=h.wave_speed_m_
 <h2>12. Limits, and where to go next</h2>
 
 <ul>
-<li><b>No dense-gas model.</b> Propane and chlorine clouds spread differently from the neutral plume. Feed validated footprints from a tool such as DNV Phast or RISKCURVES through the <code>overrides</code> hook.</li>
+<li><b>No dense-gas model.</b> Propane and chlorine clouds spread differently from the neutral plume. Feed validated footprints from a tool such as DNV Phast or RISKCURVES through the <code>overrides</code> hook. <a href="#s16">Section 16</a> shows what this means for a propane terminal.</li>
 <li><b>Paywalled standards.</b> API 752/753, IEC 60079-10-1 and IEEE 1584 were not read, so building-damage curves, zone extents and enclosed arc flash are inputs or refusals.</li>
 <li><b>No default Indian criteria.</b> The risk study ships UK and Dutch presets; supply a custom criterion for an Indian site.</li>
 <li><b>Software-class studies.</b> Load flow, harmonics, transient stability, pulsation and illumination are listed as not implemented.</li>
@@ -632,7 +633,54 @@ $ python3 -m process_safety illumination --area 600 --flux 9000 --uf 0.55 --mf 0
 </ul>
 <p>The report says plainly that the snapshot only detects drift and is not evidence of correctness. The five topics without scenarios are the ones still marked not implemented. Writing the suite found a real trap: <code>blowdown --hole-d</code> is in metres, so a hole typed as &ldquo;25&rdquo; meaning millimetres was accepted as 25 m and gave a 0.4 ms blowdown. The help text now says metres.</p>
 
-<p class="src">Sources: the toolkit and its documentation, <a href="https://github.com/herrrickshaw/process-safety-design-toolkit">github.com/herrrickshaw/process-safety-design-toolkit</a>; the browser demo, <a href="https://process-safety-studio-demo.lovable.app">process-safety-studio-demo.lovable.app</a> (captured outputs, not live calculations) (open pull requests 1 and 2 hold the risk-study, study-tool and data-centre additions; pull request 3 holds version 0.10; pull request 4 holds the derogation, EU, insurance and legal-clause additions and the 6 and 7 November work in section 15). Every output above comes from running the command on 5 November 2026 (section 14: 6 November 2026; section 15: 7 November 2026, at commit b2561ae) with illustrative inputs; results are screening arithmetic and modelled, not measured, and are not a safety case.</p>
+<h2 id="s16">16. Worked example: an LPG terminal, start to finish</h2>
+<p>An LPG storage and loading terminal is a good test of the toolkit: pressurised propane bullets, transfer pumps, a road-tanker loading bay, a flare, and a control room and village close enough to matter. This section walks that asset through the commands above with the actual outputs, asking the questions a process-safety workshop asks first: how big is the fire relief load, is the overfill trip good enough, where does the risk come from, and how far must emergency planning reach. The individual-risk, F-N and cost-benefit results of the same study are read in <a href="#s8">section 8</a>.</p>
+<div class="warn"><b>The terminal is hypothetical.</b> It is the toolkit&rsquo;s worked example: four sections (a propane bullet with pumps, a road-tanker loading bay, a sour fuel-gas header, a diesel tank in a bund), 60,000 kg of propane at 750 kPag and 303 K in the bullet. Pump failure frequencies, weather, wind rose, population, building vulnerability, the value of a prevented fatality and mitigation costs are <b>illustrative placeholders</b>; replace every one with site data before any decision.</div>
+<div class="tw">
+<ul style="padding-left:1.1em">
+<li style="margin:0 0 .9em"><b>How much vapour must the bullet relieve in a pool fire?</b><br><code style="white-space:normal;word-break:normal;overflow-wrap:anywhere">relief-fire --D 3.5 --L 14 --level 2.5 --latent 330</code><br>Wetted area 119 m&sup2;, heat input 2,174 kW, relief rate 23,720 kg/h. The geometry and the 330 kJ/kg latent heat are inputs.</li>
+<li style="margin:0 0 .9em"><b>What pressure and fill limit does propane set?</b><br><code style="white-space:normal;word-break:normal;overflow-wrap:anywhere">lpg propane --fill-C 15 --max-C 50</code><br>Vapour pressure 1,616 kPag at 50 &deg;C, liquid density 506 kg/m&sup3; at 15 &deg;C, a thermodynamic fill ceiling of 88%. Codes set the practical limit.</li>
+<li style="margin:0 0 .9em"><b>Is the overfill trip good enough?</b><br><code style="white-space:normal;word-break:normal;overflow-wrap:anywhere">tool sif sif.json</code><br>Target SIL 2. The PFDavg of 6.6e-3 (risk reduction 151) meets SIL 2 by probability, but a single type-A inlet shutdown valve with 40% safe-failure fraction caps the architecture at SIL 1. It fails.</li>
+<li style="margin:0 0 .9em"><b>Which barriers carry the risk?</b><br><code style="white-space:normal;word-break:normal;overflow-wrap:anywhere">tool bowtie bowtie.json</code><br>Top event 1.7e-4 per year. Given a loss of containment: 69% unignited, 21% vapour-cloud explosion or flash fire, 9% jet fire, 1% BLEVE. The independent high-high level trip is the safety-critical element.</li>
+<li style="margin:0 0 .9em"><b>Where does individual risk come from?</b><br><code style="white-space:normal;word-break:normal;overflow-wrap:anywhere">qra run study.json</code><br>Highest location risk 0.012 per year at (120, 40) m; population risk (PLL) 0.051 per year.</li>
+<li style="margin:0 0 .9em"><b>How exposed are the buildings?</b><br><span style="color:#595959">(same run as above)</span><br>Occupant risk per year: control room 5.0e-4, admin building 9.7e-5, loading-bay shelter 6.1e-3.</li>
+<li style="margin:0 0 .9em"><b>How far must emergency planning reach?</b><br><span style="color:#595959">(same run as above)</span><br>Credible case (4-inch line rupture, jet and pool fire): 58, 102 and 179 m to 37.5, 12.5 and 4 kW/m&sup2;. Worst case (bullet fireball): 296, 551 and 996 m. Vapour-cloud explosion: 621 m to 0.3 bar, 786 m to 0.1 bar.</li>
+</ul>
+</div>
+
+<p>One reading is worth pausing on. The overfill function passes on probability and fails on architecture, so the fix is a redundant or higher-integrity final element, not a shorter proof-test interval. That comes from a check the toolkit runs, not from judgement added afterwards.</p>
+
+<div class="warn"><b>The limit that matters most for propane.</b> The toolkit warns on this very study: <i>propane is heavier than air, and the flash-fire and toxic footprints use a neutral Gaussian plume, so consider a dense-gas override.</i> Dense clouds spread along the ground and reach further than a neutral plume. The vapour-cloud and flash-fire distances above (0.3 bar at 621 m, 0.1 bar at 786 m) and the risk that depends on them should therefore be treated as optimistic until footprints from a validated dense-gas tool such as DNV Phast or RISKCURVES are fed in through the <code>overrides</code> hook. The toolkit then still does the frequency, individual-risk, ALARP and mitigation bookkeeping.</div>
+
+<h3>The same questions in real projects</h3>
+<p>iFluids Engineering, a Chennai consultancy, publishes <a href="https://ifluids.com/case-studies/">case studies</a> and an <a href="https://ifluids.com/all-projects/">all-projects list</a>. Several entries are the same questions the terminal raised. The list below matches each to the toolkit module that screens it, with a real output on <b>illustrative inputs</b>. No result, input or design from any listed project is shown or implied: only the client, title and scope as the iFluids pages state them, and the toolkit is not iFluids&rsquo; method.</p>
+
+<div class="tw">
+<ul style="padding-left:1.1em">
+<li style="margin:0 0 1em"><b>GSPL: integrated QRA for LNG transport routes and regasification</b><br><span style="color:#595959">Question screened:</span> Impoundment, boil-off and regas duty at a terminal (<code>lng</code>, <code>qra</code>)<br><span style="color:#595959">Toolkit output (illustrative inputs):</span> For a 160,000 m&sup3; tank, 4,000 kW heat ingress, 50 kg/s regas and 5 K seawater rise: impoundment 176,000 m&sup3;, boil-off 7.8 kg/s (1.0% a day), regas duty 44.4 MW, seawater 2.17 m&sup3;/s<br><span style="color:#595959">Where the toolkit stops:</span> Impoundment follows the US rule (49 CFR 193.2181). Siting models and road-transport route risk are not implemented</li>
+<li style="margin:0 0 1em"><b>Kuwait Oil Company thermal testing facility; Jafurah downstream pipeline Phase II: fire and gas mapping</b><br><span style="color:#595959">Question screened:</span> Detector coverage of a hazard zone (<code>fg_mapping</code>)<br><span style="color:#595959">Toolkit output (illustrative inputs):</span> On the toolkit&rsquo;s example bullet area, two-detector coverage as drawn is 1.8% against a 90% target. The optimiser adds 18 gas detectors and reaches 68.7%, still short<br><span style="color:#595959">Where the toolkit stops:</span> 2D geographic coverage only. 3D mapping and scenario-based coverage are not implemented</li>
+<li style="margin:0 0 1em"><b>CPCL Manali refinery: PSM gap assessment against the 20 CCPS RBPS elements</b><br><span style="color:#595959">Question screened:</span> Scoring and tracking a management system (<code>psm</code>)<br><span style="color:#595959">Toolkit output (illustrative inputs):</span> Gap scoring (0 to 4 per element) and weakest-element ranking for the 14 OSHA PSM elements and AIGA 99; for dates, a PHA last done 15 Mar 2021 is overdue by 235 days on 5 Nov 2026<br><span style="color:#595959">Where the toolkit stops:</span> The 20-element RBPS scoring itself is not implemented, only the element list and a crosswalk</li>
+<li style="margin:0 0 1em"><b>NGL pipeline surge analysis (14-inch, about 300 km, in the projects list)</b><br><span style="color:#595959">Question screened:</span> Surge pressure on a fast valve closure (<code>hydraulics.surge_screen</code>)<br><span style="color:#595959">Toolkit output (illustrative inputs):</span> Assuming density 560 kg/m&sup3;, bulk modulus 1 GPa and a 9.5 mm wall: wave speed 1,228 m/s, critical time 489 s, a 1.5 m/s stop in 30 s gives 1,032 kPa (Joukowsky)<br><span style="color:#595959">Where the toolkit stops:</span> A screen, not a transient simulator: no pump trips, column separation or full pipeline model</li>
+<li style="margin:0 0 1em"><b>IOCL Mathura tank conversion (20,000 KL and 5,000 KL tanks)</b><br><span style="color:#595959">Question screened:</span> Fire venting of an atmospheric tank (<code>tank_venting</code>)<br><span style="color:#595959">Toolkit output (illustrative inputs):</span> A bare vertical tank, 40 m by 16 m (about 20,000 m&sup3;): wetted area 1,149 m&sup2;, emergency venting 19,897 Nm&sup3;/h, of which 18,397 Nm&sup3;/h is beyond a 1,500 Nm&sup3;/h normal capacity<br><span style="color:#595959">Where the toolkit stops:</span> API 2000 5th edition (1998) only; the 7th edition and vent hardware sizing are not implemented</li>
+<li style="margin:0 0 1em"><b>Essar re-HAZOP of P&amp;IDs; Oil India HAZOP and QRA; Qatar Petroleum bow-tie development</b><br><span style="color:#595959">Question screened:</span> Registers, revalidation and barrier ranking (<code>hazop</code>, <code>pha</code>, <code>bowtie</code>, <code>qra</code>)<br><span style="color:#595959">Toolkit output (illustrative inputs):</span> The terminal study above: HAZOP worksheets, barrier importance and the safety-critical element, QRA individual and societal risk<br><span style="color:#595959">Where the toolkit stops:</span> The study itself is a team exercise; the tools keep the records</li>
+<li style="margin:0 0 1em"><b>HAZID for mining standpipe infrastructure (Pilbara)</b><br><span style="color:#595959">Question screened:</span> Hazard identification checklist (<code>qra.hazid</code>)<br><span style="color:#595959">Toolkit output (illustrative inputs):</span> A HAZID register by section and a loss-of-containment list<br><span style="color:#595959">Where the toolkit stops:</span> Generic prompts, not standard text; not an oil and gas asset</li>
+</ul>
+</div>
+
+<div class="note"><b>Not computational, so not covered.</b> The iFluids pages also list safety-culture perception surveys and a behaviour-based safety programme (BCPL, Assam), an external safety audit of paint plants (Berger Paints), and an ammonia-ingress control-room pressurisation design (IFFCO Kalol). These are surveys, audits and ventilation design. The toolkit does not attempt them, and it has no indoor toxic model.</div>
+
+<h3>What this terminal needs next</h3>
+<ul>
+<li><b>Replace the placeholders.</b> Pump and equipment frequencies from a source such as the OGP 434-1 data or the UK HSE FRED rows, local weather and wind data, and the actual population around the site.</li>
+<li><b>Add a dense-gas footprint.</b> Run the propane releases in a validated tool and feed the footprints through <code>overrides</code>.</li>
+<li><b>Choose the criteria deliberately.</b> This run used the UK R2P2 preset; no single Indian tolerable-risk criterion exists in the public documents the toolkit read, so an Indian site should supply a custom one.</li>
+<li><b>Do what the toolkit lists as not implemented.</b> Layout and separation distances, hazardous-area classification extents, and fire-water design to the governing standards remain manual work.</li>
+<li><b>Hold the workshop.</b> The HAZID and HAZOP registers are a starting point; the studies are a team exercise.</li>
+</ul>
+
+<p>The same flow applies to other oil and gas assets, a gas processing plant, a refinery unit or an offshore platform, with different modules in play (relief and flare systems, hydrocarbon fire, explosion). The terminal here is only the asset the toolkit ships a worked example for.</p>
+
+<p class="src">Sources: the toolkit and its documentation, <a href="https://github.com/herrrickshaw/process-safety-design-toolkit">github.com/herrrickshaw/process-safety-design-toolkit</a>; the browser demo, <a href="https://process-safety-studio-demo.lovable.app">process-safety-studio-demo.lovable.app</a> (captured outputs, not live calculations) (open pull requests 1 and 2 hold the risk-study, study-tool and data-centre additions; pull request 3 holds version 0.10; pull request 4 holds the derogation, EU, insurance and legal-clause additions and the 6 and 7 November work in section 15). Every output above comes from running the command on 5 November 2026 (section 14: 6 November 2026; section 15: 7 November 2026, at commit b2561ae) with illustrative inputs; results are screening arithmetic and modelled, not measured, and are not a safety case. Section 16: outputs from running the commands on 5 November 2026 on the toolkit&rsquo;s hypothetical LPG terminal; client names and project scopes as stated on <a href="https://ifluids.com/case-studies/">ifluids.com/case-studies</a> and <a href="https://ifluids.com/all-projects/">ifluids.com/all-projects</a>, read on 5 November 2026 (the projects page was only partly read).</p>
 
 <!--
   4. Revision history. Newest first. One line per published revision; say what a
@@ -642,6 +690,7 @@ $ python3 -m process_safety illumination --area 600 --flux 9000 --uf 0.55 --mf 0
 <div id="changelog" class="note">
 <b>Revision history.</b>
 <ul>
+<li><b>v1.4.0</b> &mdash; 10 November 2026 &mdash; added section 16, the LPG-terminal worked example (relief, propane limits, the overfill trip, bow-tie, location and building risk, emergency distances, the dense-gas limit and matching consultancy projects), merged in from a separate post that has been retired.</li>
 <li><b>v1.3.0</b> &mdash; 7 November 2026 &mdash; added section 15: US-customary units and the gauge/absolute pressure guard, input templates, two-phase relief from bundled fluid data, view-factor flame radiation, escape-time and lighting checks, the shutdown, recommendation-cost, design-workflow and LNG-capex studies, plant and P&amp;ID ingestion, the requirements extractor, incident and literature search, and the 159-scenario self-check; and a link to the Process Safety Studio browser demo near the top. The toolkit is now at version 0.11.0 with 52 commands and 364 tests; counts quoted in earlier sections and the summary tiles describe the versions those sections were written for.</li>
 <li><b>v1.2.0</b> &mdash; 6 November 2026 &mdash; added section 14: derogations and compliance tiers, the TA1/TA2/TA3 approval matrix, PESTLE consequence rating, EU (Seveso III) impact, actuarial insurance impact and a 55-clause legal index, with a demo video. Sections 1 to 13 are unchanged, so counts quoted there (35 commands, 173 and 192 tests, 124 cross-checks) describe the earlier versions.</li>
 <li><b>v1.1.0</b> &mdash; 5 November 2026 &mdash; added section 13: version 0.10 (input ranges, glossary, restructured command line, 124 cross-checks) with a demo video. The earlier sections describe version 0.9 and are unchanged.</li>

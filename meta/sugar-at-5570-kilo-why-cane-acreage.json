@@ -1,10 +1,10 @@
 {
   "id": "5841602714763305656",
   "title": "Sugar at ₹55.70 a Kilo: Why Cane Acreage Isn't Growing, and Ethanol Is Losing the Diversion Race",
-  "url": "https://masaladeutsch.blogspot.com/2026/08/sugar-at-5570-kilo-why-cane-acreage.html",
+  "url": "https://blog.vertistratsolution.com/2026/08/sugar-at-5570-kilo-why-cane-acreage.html",
   "slug": "sugar-at-5570-kilo-why-cane-acreage",
   "published": "2026-08-21T21:04:54.000+05:30",
-  "updated": "2026-11-07T08:59:32.592+05:30",
+  "updated": "2026-11-07T08:59:32.000+05:30",
   "labels": [
     "Agriculture & Food Processing",
     "Ethanol & Biofuels"
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "4.3.0",
+  "version": "4.3.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -173,6 +173,22 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "November data refresh"
+    },
+    {
+      "version": "4.3.1",
+      "date": "2026-11-11T05:46:22+05:30",
+      "level": "patch",
+      "reason": "moved to a new URL; body unchanged",
+      "bytes": [
+        34082,
+        34082
+      ],
+      "url_changed": [
+        "https://masaladeutsch.blogspot.com/2026/08/sugar-at-5570-kilo-why-cane-acreage.html",
+        "https://blog.vertistratsolution.com/2026/08/sugar-at-5570-kilo-why-cane-acreage.html"
+      ],
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

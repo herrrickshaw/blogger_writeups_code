@@ -1,10 +1,10 @@
 {
   "id": "298328407700655471",
   "title": "How to use stock-portfolio-evaluator: a rule-of-thumb Newsvendor score for a stock portfolio",
-  "url": "https://masaladeutsch.blogspot.com/2026/10/how-to-use-stock-portfolio-evaluator.html",
+  "url": "https://blog.vertistratsolution.com/2026/10/how-to-use-stock-portfolio-evaluator.html",
   "slug": "how-to-use-stock-portfolio-evaluator",
   "published": "2026-10-30T09:26:38.000+05:30",
-  "updated": "2026-10-31T09:05:24.449+05:30",
+  "updated": "2026-10-31T09:05:24.000+05:30",
   "labels": [
     "Equity Markets & Stock Screening",
     "Markets & Finance",
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -44,6 +44,22 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "youtube-demo-uploads 2026-10-31: 3 how-to posts promoted live"
+    },
+    {
+      "version": "1.0.2",
+      "date": "2026-11-11T05:46:22+05:30",
+      "level": "patch",
+      "reason": "moved to a new URL; body unchanged",
+      "bytes": [
+        25849,
+        25849
+      ],
+      "url_changed": [
+        "https://masaladeutsch.blogspot.com/2026/10/how-to-use-stock-portfolio-evaluator.html",
+        "https://blog.vertistratsolution.com/2026/10/how-to-use-stock-portfolio-evaluator.html"
+      ],
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

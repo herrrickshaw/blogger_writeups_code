@@ -1,10 +1,10 @@
 {
   "id": "753290623294277289",
   "title": "Blending on a Budget: Energy Density and Cost Per Kilometre, Across Four Fuel Pairs",
-  "url": "https://masaladeutsch.blogspot.com/2026/08/blending-on-budget-energy-density-and.html",
+  "url": "https://blog.vertistratsolution.com/2026/08/blending-on-budget-energy-density-and.html",
   "slug": "blending-on-budget-energy-density-and",
   "published": "2026-08-19T12:07:25.000+05:30",
-  "updated": "2026-11-07T08:23:55.790+05:30",
+  "updated": "2026-11-07T08:23:55.000+05:30",
   "labels": [
     "Energy & Fuels",
     "Ethanol & Biofuels"
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.2.0",
+  "version": "2.2.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -173,6 +173,22 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "November data refresh"
+    },
+    {
+      "version": "2.2.1",
+      "date": "2026-11-11T05:46:22+05:30",
+      "level": "patch",
+      "reason": "moved to a new URL; body unchanged",
+      "bytes": [
+        44395,
+        44395
+      ],
+      "url_changed": [
+        "https://masaladeutsch.blogspot.com/2026/08/blending-on-budget-energy-density-and.html",
+        "https://blog.vertistratsolution.com/2026/08/blending-on-budget-energy-density-and.html"
+      ],
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

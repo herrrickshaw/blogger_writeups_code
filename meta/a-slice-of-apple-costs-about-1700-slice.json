@@ -1,10 +1,10 @@
 {
   "id": "8591050122986827293",
   "title": "A Slice of Apple Costs About ₹1,700. A Slice of MRF Still Isn't Legal. Fractional Investing Hasn't Closed That Gap Yet.",
-  "url": "https://masaladeutsch.blogspot.com/2026/08/a-slice-of-apple-costs-about-1700-slice.html",
+  "url": "https://blog.vertistratsolution.com/2026/08/a-slice-of-apple-costs-about-1700-slice.html",
   "slug": "a-slice-of-apple-costs-about-1700-slice",
   "published": "2026-08-11T10:59:06.000+05:30",
-  "updated": "2026-11-07T08:20:38.427+05:30",
+  "updated": "2026-11-07T08:20:38.000+05:30",
   "labels": [
     "Markets & Finance",
     "Personal Finance & Retail Investing Access"
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.1.0",
+  "version": "3.1.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -368,6 +368,22 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "November data refresh"
+    },
+    {
+      "version": "3.1.1",
+      "date": "2026-11-11T05:46:22+05:30",
+      "level": "patch",
+      "reason": "moved to a new URL; body unchanged",
+      "bytes": [
+        58147,
+        58147
+      ],
+      "url_changed": [
+        "https://masaladeutsch.blogspot.com/2026/08/a-slice-of-apple-costs-about-1700-slice.html",
+        "https://blog.vertistratsolution.com/2026/08/a-slice-of-apple-costs-about-1700-slice.html"
+      ],
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

@@ -1,10 +1,10 @@
 {
   "id": "280111152568653435",
   "title": "How to use cricket-data-analysis: score how predictable IPL and World Cup match-ups are",
-  "url": "https://masaladeutsch.blogspot.com/2026/10/how-to-use-cricket-data-analysis-score.html",
+  "url": "https://blog.vertistratsolution.com/2026/10/how-to-use-cricket-data-analysis-score.html",
   "slug": "how-to-use-cricket-data-analysis-score",
   "published": "2026-10-19T05:10:06.000+05:30",
-  "updated": "2026-10-23T09:05:53.685+05:30",
+  "updated": "2026-10-23T09:05:53.000+05:30",
   "labels": [
     "India",
     "Open-Source Tools & How-To"
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -43,6 +43,22 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "FDI posts updated with DPIIT fact sheet to June 2026"
+    },
+    {
+      "version": "1.0.2",
+      "date": "2026-11-11T05:46:22+05:30",
+      "level": "patch",
+      "reason": "moved to a new URL; body unchanged",
+      "bytes": [
+        23949,
+        23949
+      ],
+      "url_changed": [
+        "https://masaladeutsch.blogspot.com/2026/10/how-to-use-cricket-data-analysis-score.html",
+        "https://blog.vertistratsolution.com/2026/10/how-to-use-cricket-data-analysis-score.html"
+      ],
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

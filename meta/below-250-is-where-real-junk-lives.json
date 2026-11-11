@@ -1,10 +1,10 @@
 {
   "id": "6165998540674439464",
   "title": "Below ₹250 Is Where the Real Risk Lives: Splitting India's Cheapest Stocks Four Ways",
-  "url": "https://masaladeutsch.blogspot.com/2026/08/below-250-is-where-real-junk-lives.html",
+  "url": "https://blog.vertistratsolution.com/2026/08/below-250-is-where-real-junk-lives.html",
   "slug": "below-250-is-where-real-junk-lives",
   "published": "2026-08-11T15:22:00.000+05:30",
-  "updated": "2026-10-01T08:14:44.941+05:30",
+  "updated": "2026-10-01T08:14:44.000+05:30",
   "labels": [
     "Equity Markets & Stock Screening",
     "Markets & Finance"
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.1.0",
+  "version": "2.1.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -238,6 +238,22 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Rule 8 retrofit: added What would fix this section"
+    },
+    {
+      "version": "2.1.1",
+      "date": "2026-11-11T05:46:22+05:30",
+      "level": "patch",
+      "reason": "moved to a new URL; body unchanged",
+      "bytes": [
+        22401,
+        22401
+      ],
+      "url_changed": [
+        "https://masaladeutsch.blogspot.com/2026/08/below-250-is-where-real-junk-lives.html",
+        "https://blog.vertistratsolution.com/2026/08/below-250-is-where-real-junk-lives.html"
+      ],
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

@@ -1,10 +1,10 @@
 {
   "id": "8477134620379082390",
   "title": "India Allocated ₹6,000 Crore for Fisheries Under PM-MKSSY. It Has Paid Out ₹4.73 Crore So Far.",
-  "url": "https://masaladeutsch.blogspot.com/2026/08/indias-6000-crore-fisheries-scheme.html",
+  "url": "https://blog.vertistratsolution.com/2026/08/indias-6000-crore-fisheries-scheme.html",
   "slug": "indias-6000-crore-fisheries-scheme",
   "published": "2026-08-30T07:43:52.000+05:30",
-  "updated": "2026-11-07T08:40:52.369+05:30",
+  "updated": "2026-11-07T08:40:52.000+05:30",
   "labels": [
     "Fisheries & Aquaculture",
     "India",
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.2.0",
+  "version": "1.2.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -135,6 +135,22 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "November data refresh"
+    },
+    {
+      "version": "1.2.1",
+      "date": "2026-11-11T05:46:22+05:30",
+      "level": "patch",
+      "reason": "moved to a new URL; body unchanged",
+      "bytes": [
+        29039,
+        29039
+      ],
+      "url_changed": [
+        "https://masaladeutsch.blogspot.com/2026/08/indias-6000-crore-fisheries-scheme.html",
+        "https://blog.vertistratsolution.com/2026/08/indias-6000-crore-fisheries-scheme.html"
+      ],
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

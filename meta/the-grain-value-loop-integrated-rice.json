@@ -1,10 +1,10 @@
 {
   "id": "6758993569034587827",
   "title": "The Grain Value Loop — Integrated Rice Biorefinery Pitch",
-  "url": "https://masaladeutsch.blogspot.com/2026/07/the-grain-value-loop-integrated-rice.html",
+  "url": "https://blog.vertistratsolution.com/2026/07/the-grain-value-loop-integrated-rice.html",
   "slug": "the-grain-value-loop-integrated-rice",
   "published": "2026-07-31T10:00:00.000+05:30",
-  "updated": "2026-11-04T18:46:03.745+05:30",
+  "updated": "2026-11-04T18:46:03.000+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Energy & Fuels",
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "5.1.0",
+  "version": "5.1.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -345,6 +345,22 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "crosscheck 2 Nov fixes"
+    },
+    {
+      "version": "5.1.1",
+      "date": "2026-11-11T05:46:22+05:30",
+      "level": "patch",
+      "reason": "moved to a new URL; body unchanged",
+      "bytes": [
+        90436,
+        90436
+      ],
+      "url_changed": [
+        "https://masaladeutsch.blogspot.com/2026/07/the-grain-value-loop-integrated-rice.html",
+        "https://blog.vertistratsolution.com/2026/07/the-grain-value-loop-integrated-rice.html"
+      ],
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

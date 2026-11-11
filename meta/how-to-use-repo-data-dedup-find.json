@@ -1,10 +1,10 @@
 {
   "id": "5245765309154167408",
   "title": "How to use repo-data-dedup: find duplicate LFS storage across your GitHub repos",
-  "url": "https://masaladeutsch.blogspot.com/2026/10/how-to-use-repo-data-dedup-find.html",
+  "url": "https://blog.vertistratsolution.com/2026/10/how-to-use-repo-data-dedup-find.html",
   "slug": "how-to-use-repo-data-dedup-find",
   "published": "2026-10-19T05:14:33.000+05:30",
-  "updated": "2026-10-31T09:06:03.189+05:30",
+  "updated": "2026-10-31T09:06:03.000+05:30",
   "labels": [
     "Open-Source Tools & How-To"
   ],
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -42,6 +42,22 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "youtube-demo-uploads 2026-10-31: 3 how-to posts promoted live"
+    },
+    {
+      "version": "1.0.2",
+      "date": "2026-11-11T05:46:22+05:30",
+      "level": "patch",
+      "reason": "moved to a new URL; body unchanged",
+      "bytes": [
+        25085,
+        25085
+      ],
+      "url_changed": [
+        "https://masaladeutsch.blogspot.com/2026/10/how-to-use-repo-data-dedup-find.html",
+        "https://blog.vertistratsolution.com/2026/10/how-to-use-repo-data-dedup-find.html"
+      ],
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

@@ -1,10 +1,10 @@
 {
   "id": "6109214871583276996",
   "title": "FIPI's Biggest Ask Is Getting Natural Gas Under GST. It Still Hasn't Happened",
-  "url": "https://masaladeutsch.blogspot.com/2026/09/fipis-biggest-ask-is-getting-natural.html",
+  "url": "https://blog.vertistratsolution.com/2026/09/fipis-biggest-ask-is-getting-natural.html",
   "slug": "fipis-biggest-ask-is-getting-natural",
   "published": "2026-09-02T03:59:01.000+05:30",
-  "updated": "2026-11-07T08:30:02.626+05:30",
+  "updated": "2026-11-07T08:30:02.000+05:30",
   "labels": [
     "Gas & LNG",
     "Regulatory & Industry-Body Accountability"
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.1.0",
+  "version": "2.1.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -134,6 +134,22 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "November data refresh"
+    },
+    {
+      "version": "2.1.1",
+      "date": "2026-11-11T05:46:22+05:30",
+      "level": "patch",
+      "reason": "moved to a new URL; body unchanged",
+      "bytes": [
+        41340,
+        41340
+      ],
+      "url_changed": [
+        "https://masaladeutsch.blogspot.com/2026/09/fipis-biggest-ask-is-getting-natural.html",
+        "https://blog.vertistratsolution.com/2026/09/fipis-biggest-ask-is-getting-natural.html"
+      ],
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

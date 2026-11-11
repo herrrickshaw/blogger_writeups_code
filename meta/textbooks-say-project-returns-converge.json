@@ -1,10 +1,10 @@
 {
   "id": "1470391020597369483",
   "title": "Textbooks Say Project Returns Converge to Cost of Capital. About 79% of the Gap Survives Each Year",
-  "url": "https://masaladeutsch.blogspot.com/2026/09/textbooks-say-project-returns-converge.html",
+  "url": "https://blog.vertistratsolution.com/2026/09/textbooks-say-project-returns-converge.html",
   "slug": "textbooks-say-project-returns-converge",
   "published": "2026-09-03T11:07:13.000+05:30",
-  "updated": "2026-10-26T14:20:13.559+05:30",
+  "updated": "2026-10-26T14:20:13.000+05:30",
   "labels": [
     "Markets & Finance"
   ],
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.0",
+  "version": "2.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -107,6 +107,22 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "published 15 source-gap corrections (2026-10-25 audit)"
+    },
+    {
+      "version": "2.0.1",
+      "date": "2026-11-11T05:46:22+05:30",
+      "level": "patch",
+      "reason": "moved to a new URL; body unchanged",
+      "bytes": [
+        31769,
+        31769
+      ],
+      "url_changed": [
+        "https://masaladeutsch.blogspot.com/2026/09/textbooks-say-project-returns-converge.html",
+        "https://blog.vertistratsolution.com/2026/09/textbooks-say-project-returns-converge.html"
+      ],
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

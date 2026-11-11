@@ -1,10 +1,10 @@
 {
   "id": "1481404533544286528",
   "title": "Uttar Pradesh's GST Puzzle: A Growing Economy That Had a Terrible Year, and Then Didn't",
-  "url": "https://masaladeutsch.blogspot.com/2026/08/uttar-pradeshs-gst-puzzle-growing.html",
+  "url": "https://blog.vertistratsolution.com/2026/08/uttar-pradeshs-gst-puzzle-growing.html",
   "slug": "uttar-pradeshs-gst-puzzle-growing",
   "published": "2026-08-12T19:19:19.000+05:30",
-  "updated": "2026-11-07T09:08:33.212+05:30",
+  "updated": "2026-11-07T09:08:33.000+05:30",
   "labels": [
     "Macroeconomics & Monetary Policy",
     "Trade & Tariffs"
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.2.0",
+  "version": "2.2.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -303,6 +303,22 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "November data refresh"
+    },
+    {
+      "version": "2.2.1",
+      "date": "2026-11-11T05:46:22+05:30",
+      "level": "patch",
+      "reason": "moved to a new URL; body unchanged",
+      "bytes": [
+        32824,
+        32824
+      ],
+      "url_changed": [
+        "https://masaladeutsch.blogspot.com/2026/08/uttar-pradeshs-gst-puzzle-growing.html",
+        "https://blog.vertistratsolution.com/2026/08/uttar-pradeshs-gst-puzzle-growing.html"
+      ],
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

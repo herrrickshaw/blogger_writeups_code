@@ -1,10 +1,10 @@
 {
   "id": "507441048491220111",
   "title": "India's Coking Coal Import Problem, and Why \"Biomass Pellets\" Isn't the Fix — Biochar Is a SAIL Pilot, Not a Programme",
-  "url": "https://masaladeutsch.blogspot.com/2026/08/indias-coking-coal-import-problem-and.html",
+  "url": "https://blog.vertistratsolution.com/2026/08/indias-coking-coal-import-problem-and.html",
   "slug": "indias-coking-coal-import-problem-and",
   "published": "2026-08-14T07:34:14.000+05:30",
-  "updated": "2026-11-07T08:42:43.231+05:30",
+  "updated": "2026-11-07T08:42:43.000+05:30",
   "labels": [
     "Import Substitution"
   ],
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "4.1.0",
+  "version": "4.1.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -185,6 +185,22 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "November data refresh"
+    },
+    {
+      "version": "4.1.1",
+      "date": "2026-11-11T05:46:22+05:30",
+      "level": "patch",
+      "reason": "moved to a new URL; body unchanged",
+      "bytes": [
+        52107,
+        52107
+      ],
+      "url_changed": [
+        "https://masaladeutsch.blogspot.com/2026/08/indias-coking-coal-import-problem-and.html",
+        "https://blog.vertistratsolution.com/2026/08/indias-coking-coal-import-problem-and.html"
+      ],
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

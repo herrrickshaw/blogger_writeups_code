@@ -1,10 +1,10 @@
 {
   "id": "1866284573090655336",
   "title": "Brazil Pumps E30 at Every Station. The Equipment Behind It Is the Part Indias E20 Story Skips",
-  "url": "https://masaladeutsch.blogspot.com/2026/09/brazil-pumps-e30-at-every-station.html",
+  "url": "https://blog.vertistratsolution.com/2026/09/brazil-pumps-e30-at-every-station.html",
   "slug": "brazil-pumps-e30-at-every-station",
   "published": "2026-09-01T19:42:31.000+05:30",
-  "updated": "2026-11-07T08:24:08.384+05:30",
+  "updated": "2026-11-07T08:24:08.000+05:30",
   "labels": [
     "Energy & Fuels",
     "Mobility & EV"
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.2.0",
+  "version": "1.2.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -108,6 +108,22 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "November data refresh"
+    },
+    {
+      "version": "1.2.1",
+      "date": "2026-11-11T05:46:22+05:30",
+      "level": "patch",
+      "reason": "moved to a new URL; body unchanged",
+      "bytes": [
+        42781,
+        42781
+      ],
+      "url_changed": [
+        "https://masaladeutsch.blogspot.com/2026/09/brazil-pumps-e30-at-every-station.html",
+        "https://blog.vertistratsolution.com/2026/09/brazil-pumps-e30-at-every-station.html"
+      ],
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

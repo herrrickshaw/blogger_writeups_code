@@ -1,10 +1,10 @@
 {
   "id": "2924638461828937928",
   "title": "India — Grain Cultivation · FCI Storage · FPOs (State Map)",
-  "url": "https://masaladeutsch.blogspot.com/2026/07/india-grain-cultivation-fci-storage.html",
+  "url": "https://blog.vertistratsolution.com/2026/07/india-grain-cultivation-fci-storage.html",
   "slug": "india-grain-cultivation-fci-storage",
   "published": "2026-07-31T10:10:00.000+05:30",
-  "updated": "2026-11-07T08:35:41.082+05:30",
+  "updated": "2026-11-07T08:35:41.000+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Grain Procurement & Storage"
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.2.0",
+  "version": "2.2.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -295,6 +295,22 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "November data refresh"
+    },
+    {
+      "version": "2.2.1",
+      "date": "2026-11-11T05:46:22+05:30",
+      "level": "patch",
+      "reason": "moved to a new URL; body unchanged",
+      "bytes": [
+        89559,
+        89559
+      ],
+      "url_changed": [
+        "https://masaladeutsch.blogspot.com/2026/07/india-grain-cultivation-fci-storage.html",
+        "https://blog.vertistratsolution.com/2026/07/india-grain-cultivation-fci-storage.html"
+      ],
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

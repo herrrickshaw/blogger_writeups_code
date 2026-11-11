@@ -1,10 +1,10 @@
 {
   "id": "2494479953157904925",
   "title": "Electrification Is LNG's Biggest Decarbonization Lever. The Grid Is What Actually Limits It",
-  "url": "https://masaladeutsch.blogspot.com/2026/09/electrification-is-lngs-biggest.html",
+  "url": "https://blog.vertistratsolution.com/2026/09/electrification-is-lngs-biggest.html",
   "slug": "electrification-is-lngs-biggest",
   "published": "2026-09-14T14:29:55.000+05:30",
-  "updated": "2026-11-07T08:27:46.695+05:30",
+  "updated": "2026-11-07T08:27:46.000+05:30",
   "labels": [
     "Climate & Carbon",
     "Gas & LNG",
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.4.0",
+  "version": "1.4.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -96,6 +96,22 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "November data refresh"
+    },
+    {
+      "version": "1.4.1",
+      "date": "2026-11-11T05:46:22+05:30",
+      "level": "patch",
+      "reason": "moved to a new URL; body unchanged",
+      "bytes": [
+        32608,
+        32608
+      ],
+      "url_changed": [
+        "https://masaladeutsch.blogspot.com/2026/09/electrification-is-lngs-biggest.html",
+        "https://blog.vertistratsolution.com/2026/09/electrification-is-lngs-biggest.html"
+      ],
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

@@ -1,15 +1,15 @@
 {
   "id": "3007209494230714825",
   "title": "Do CBSE Past Papers Actually Help? Depends Which of the 11 Subjects You Ask.",
-  "url": "https://masaladeutsch.blogspot.com/2026/09/do-cbse-past-papers-actually-help.html",
+  "url": "https://blog.vertistratsolution.com/2026/09/do-cbse-past-papers-actually-help.html",
   "slug": "do-cbse-past-papers-actually-help",
   "published": "2026-09-17T07:21:20.000+05:30",
-  "updated": "2026-10-01T08:18:59.314+05:30",
+  "updated": "2026-11-11T05:45:38.000+05:30",
   "labels": [
     "Education"
   ],
-  "bytes": 26002,
-  "sha256": "82ddc178fd1855565225fc8c5ff0bc264f394c84a05c488a22db8de121ce1886",
+  "bytes": 29173,
+  "sha256": "86c857333cfe01288457cdc51661ebefe4306c8f7712b8343b203ce5166bafca",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.3.0",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -88,6 +88,22 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Rule 8 retrofit: added What would fix this section"
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-11-11T05:46:22+05:30",
+      "level": "major",
+      "reason": "figures changed (+5/-0 distinct numbers)",
+      "bytes": [
+        26002,
+        29173
+      ],
+      "url_changed": [
+        "https://masaladeutsch.blogspot.com/2026/09/do-cbse-past-papers-actually-help.html",
+        "https://blog.vertistratsolution.com/2026/09/do-cbse-past-papers-actually-help.html"
+      ],
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

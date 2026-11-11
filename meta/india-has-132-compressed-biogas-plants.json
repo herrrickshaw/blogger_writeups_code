@@ -1,10 +1,10 @@
 {
   "id": "4507390373071790777",
   "title": "India Has 132 Compressed Biogas Plants Running. The Pipeline to Actually Use That Gas Reaches 17 of Them.",
-  "url": "https://masaladeutsch.blogspot.com/2026/09/india-has-132-compressed-biogas-plants.html",
+  "url": "https://blog.vertistratsolution.com/2026/09/india-has-132-compressed-biogas-plants.html",
   "slug": "india-has-132-compressed-biogas-plants",
   "published": "2026-09-23T13:15:31.000+05:30",
-  "updated": "2026-11-07T08:36:17.600+05:30",
+  "updated": "2026-11-07T08:36:17.000+05:30",
   "labels": [
     "City Gas Distribution",
     "Energy & Fuels",
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.1.0",
+  "version": "2.1.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -96,6 +96,22 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "November data refresh"
+    },
+    {
+      "version": "2.1.1",
+      "date": "2026-11-11T05:46:22+05:30",
+      "level": "patch",
+      "reason": "moved to a new URL; body unchanged",
+      "bytes": [
+        28149,
+        28149
+      ],
+      "url_changed": [
+        "https://masaladeutsch.blogspot.com/2026/09/india-has-132-compressed-biogas-plants.html",
+        "https://blog.vertistratsolution.com/2026/09/india-has-132-compressed-biogas-plants.html"
+      ],
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

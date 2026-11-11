@@ -1,10 +1,10 @@
 {
   "id": "334006577320986890",
   "title": "How to use claude-provenance: an auditable log of every Claude message on your machine",
-  "url": "https://masaladeutsch.blogspot.com/2026/10/how-to-use-claude-provenance-auditable.html",
+  "url": "https://blog.vertistratsolution.com/2026/10/how-to-use-claude-provenance-auditable.html",
   "slug": "how-to-use-claude-provenance-auditable",
   "published": "2026-10-19T05:09:22.000+05:30",
-  "updated": "2026-10-23T09:06:08.383+05:30",
+  "updated": "2026-10-23T09:06:08.000+05:30",
   "labels": [
     "Open-Source Tools & How-To"
   ],
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -42,6 +42,22 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "FDI posts updated with DPIIT fact sheet to June 2026"
+    },
+    {
+      "version": "1.0.2",
+      "date": "2026-11-11T05:46:22+05:30",
+      "level": "patch",
+      "reason": "moved to a new URL; body unchanged",
+      "bytes": [
+        24775,
+        24775
+      ],
+      "url_changed": [
+        "https://masaladeutsch.blogspot.com/2026/10/how-to-use-claude-provenance-auditable.html",
+        "https://blog.vertistratsolution.com/2026/10/how-to-use-claude-provenance-auditable.html"
+      ],
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

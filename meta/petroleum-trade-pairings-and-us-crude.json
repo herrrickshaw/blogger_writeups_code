@@ -1,10 +1,10 @@
 {
   "id": "1367106299160743452",
   "title": "Petroleum Trade Pairings and the US Crude Storage Picture",
-  "url": "https://masaladeutsch.blogspot.com/2026/08/petroleum-trade-pairings-and-us-crude.html",
+  "url": "https://blog.vertistratsolution.com/2026/08/petroleum-trade-pairings-and-us-crude.html",
   "slug": "petroleum-trade-pairings-and-us-crude",
   "published": "2026-08-08T10:22:11.000+05:30",
-  "updated": "2026-11-07T08:53:53.977+05:30",
+  "updated": "2026-11-07T08:53:53.000+05:30",
   "labels": [
     "Energy & Fuels"
   ],
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "5.2.0",
+  "version": "5.2.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -285,6 +285,22 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "November data refresh"
+    },
+    {
+      "version": "5.2.1",
+      "date": "2026-11-11T05:46:22+05:30",
+      "level": "patch",
+      "reason": "moved to a new URL; body unchanged",
+      "bytes": [
+        154849,
+        154849
+      ],
+      "url_changed": [
+        "https://masaladeutsch.blogspot.com/2026/08/petroleum-trade-pairings-and-us-crude.html",
+        "https://blog.vertistratsolution.com/2026/08/petroleum-trade-pairings-and-us-crude.html"
+      ],
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

@@ -1,10 +1,10 @@
 {
   "id": "7017562240024395930",
   "title": "India Sells the World $53 Billion of Fuel. Its Neighbours Buy 5% of It.",
-  "url": "https://masaladeutsch.blogspot.com/2026/08/india-sells-world-53-billion-of-fuel.html",
+  "url": "https://blog.vertistratsolution.com/2026/08/india-sells-world-53-billion-of-fuel.html",
   "slug": "india-sells-world-53-billion-of-fuel",
   "published": "2026-08-08T12:26:53.000+05:30",
-  "updated": "2026-11-07T08:39:03.807+05:30",
+  "updated": "2026-11-07T08:39:03.000+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Energy & Fuels",
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.2.0",
+  "version": "3.2.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -252,6 +252,22 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "November data refresh"
+    },
+    {
+      "version": "3.2.1",
+      "date": "2026-11-11T05:46:22+05:30",
+      "level": "patch",
+      "reason": "moved to a new URL; body unchanged",
+      "bytes": [
+        36391,
+        36391
+      ],
+      "url_changed": [
+        "https://masaladeutsch.blogspot.com/2026/08/india-sells-world-53-billion-of-fuel.html",
+        "https://blog.vertistratsolution.com/2026/08/india-sells-world-53-billion-of-fuel.html"
+      ],
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

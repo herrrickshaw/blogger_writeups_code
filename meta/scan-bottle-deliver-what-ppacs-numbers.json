@@ -1,10 +1,10 @@
 {
   "id": "4540001917901304633",
   "title": "Scan, Bottle, Deliver: What PPAC's Numbers Say About the LPG Cylinder in Your Kitchen",
-  "url": "https://masaladeutsch.blogspot.com/2026/08/scan-bottle-deliver-what-ppacs-numbers.html",
+  "url": "https://blog.vertistratsolution.com/2026/08/scan-bottle-deliver-what-ppacs-numbers.html",
   "slug": "scan-bottle-deliver-what-ppacs-numbers",
   "published": "2026-08-17T07:05:11.000+05:30",
-  "updated": "2026-11-07T08:58:06.855+05:30",
+  "updated": "2026-11-07T08:58:06.000+05:30",
   "labels": [
     "Energy & Fuels",
     "Gas & LNG",
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.3.0",
+  "version": "2.3.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -161,6 +161,22 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "November data refresh"
+    },
+    {
+      "version": "2.3.1",
+      "date": "2026-11-11T05:46:22+05:30",
+      "level": "patch",
+      "reason": "moved to a new URL; body unchanged",
+      "bytes": [
+        29065,
+        29065
+      ],
+      "url_changed": [
+        "https://masaladeutsch.blogspot.com/2026/08/scan-bottle-deliver-what-ppacs-numbers.html",
+        "https://blog.vertistratsolution.com/2026/08/scan-bottle-deliver-what-ppacs-numbers.html"
+      ],
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

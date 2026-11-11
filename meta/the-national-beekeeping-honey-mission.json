@@ -1,10 +1,10 @@
 {
   "id": "8198391815299309140",
   "title": "The National Beekeeping & Honey Mission: A Sweet Revolution, and the Adulteration Problem Sitting Next to It",
-  "url": "https://masaladeutsch.blogspot.com/2026/08/the-national-beekeeping-honey-mission.html",
+  "url": "https://blog.vertistratsolution.com/2026/08/the-national-beekeeping-honey-mission.html",
   "slug": "the-national-beekeeping-honey-mission",
   "published": "2026-08-20T05:42:27.000+05:30",
-  "updated": "2026-11-07T09:05:27.556+05:30",
+  "updated": "2026-11-07T09:05:27.000+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Agriculture & Food Processing"
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.1.0",
+  "version": "3.1.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -173,6 +173,22 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "November data refresh"
+    },
+    {
+      "version": "3.1.1",
+      "date": "2026-11-11T05:46:22+05:30",
+      "level": "patch",
+      "reason": "moved to a new URL; body unchanged",
+      "bytes": [
+        34499,
+        34499
+      ],
+      "url_changed": [
+        "https://masaladeutsch.blogspot.com/2026/08/the-national-beekeeping-honey-mission.html",
+        "https://blog.vertistratsolution.com/2026/08/the-national-beekeeping-honey-mission.html"
+      ],
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

@@ -1,10 +1,10 @@
 {
   "id": "5900031357044279018",
   "title": "How to use amazon-product-selector: a gated shortlist of rising Amazon keywords you can actually enter",
-  "url": "https://masaladeutsch.blogspot.com/2026/10/how-to-use-amazon-product-selector.html",
+  "url": "https://blog.vertistratsolution.com/2026/10/how-to-use-amazon-product-selector.html",
   "slug": "how-to-use-amazon-product-selector",
   "published": "2026-10-19T05:09:17.000+05:30",
-  "updated": "2026-10-20T09:05:26.804+05:30",
+  "updated": "2026-10-20T09:05:26.000+05:30",
   "labels": [
     "Business & Strategy",
     "India",
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -44,6 +44,22 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "scheduled sync"
+    },
+    {
+      "version": "1.0.2",
+      "date": "2026-11-11T05:46:22+05:30",
+      "level": "patch",
+      "reason": "moved to a new URL; body unchanged",
+      "bytes": [
+        22633,
+        22633
+      ],
+      "url_changed": [
+        "https://masaladeutsch.blogspot.com/2026/10/how-to-use-amazon-product-selector.html",
+        "https://blog.vertistratsolution.com/2026/10/how-to-use-amazon-product-selector.html"
+      ],
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

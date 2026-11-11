@@ -1,10 +1,10 @@
 {
   "id": "5872586407197754812",
   "title": "India Got a Record $94.5 Billion of FDI Last Year. Net of Exits and Investment Abroad, $7.7 Billion Stayed",
-  "url": "https://masaladeutsch.blogspot.com/2026/10/india-got-record-945-billion-of-fdi.html",
+  "url": "https://blog.vertistratsolution.com/2026/10/india-got-record-945-billion-of-fdi.html",
   "slug": "india-got-record-945-billion-of-fdi",
   "published": "2026-10-27T17:25:06.000+05:30",
-  "updated": "2026-11-07T08:35:25.162+05:30",
+  "updated": "2026-11-07T08:35:25.000+05:30",
   "labels": [
     "Macroeconomics & Monetary Policy",
     "Markets & Finance"
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.1.0",
+  "version": "1.1.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -43,6 +43,22 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "November data refresh"
+    },
+    {
+      "version": "1.1.1",
+      "date": "2026-11-11T05:46:22+05:30",
+      "level": "patch",
+      "reason": "moved to a new URL; body unchanged",
+      "bytes": [
+        28187,
+        28187
+      ],
+      "url_changed": [
+        "https://masaladeutsch.blogspot.com/2026/10/india-got-record-945-billion-of-fdi.html",
+        "https://blog.vertistratsolution.com/2026/10/india-got-record-945-billion-of-fdi.html"
+      ],
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

@@ -1,10 +1,10 @@
 {
   "id": "2119850573344134450",
   "title": "How to use us-stock-picks: a multi-screen ranking of US stocks with paper-portfolio output",
-  "url": "https://masaladeutsch.blogspot.com/2026/10/how-to-use-us-stock-picks-multi-screen.html",
+  "url": "https://blog.vertistratsolution.com/2026/10/how-to-use-us-stock-picks-multi-screen.html",
   "slug": "how-to-use-us-stock-picks-multi-screen",
   "published": "2026-10-19T05:15:17.000+05:30",
-  "updated": "2026-11-02T09:05:22.774+05:30",
+  "updated": "2026-11-02T09:05:22.000+05:30",
   "labels": [
     "Equity Markets & Stock Screening",
     "Markets & Finance",
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -44,6 +44,22 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "scheduled sync"
+    },
+    {
+      "version": "1.0.2",
+      "date": "2026-11-11T05:46:22+05:30",
+      "level": "patch",
+      "reason": "moved to a new URL; body unchanged",
+      "bytes": [
+        25775,
+        25775
+      ],
+      "url_changed": [
+        "https://masaladeutsch.blogspot.com/2026/10/how-to-use-us-stock-picks-multi-screen.html",
+        "https://blog.vertistratsolution.com/2026/10/how-to-use-us-stock-picks-multi-screen.html"
+      ],
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

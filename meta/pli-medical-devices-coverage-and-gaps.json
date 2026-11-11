@@ -1,10 +1,10 @@
 {
   "id": "1647861138238344835",
   "title": "PLI for Medical Devices: What's Covered, What Isn't — and Where to Apply Next",
-  "url": "https://masaladeutsch.blogspot.com/2026/08/pli-medical-devices-coverage-and-gaps.html",
+  "url": "https://blog.vertistratsolution.com/2026/08/pli-medical-devices-coverage-and-gaps.html",
   "slug": "pli-medical-devices-coverage-and-gaps",
   "published": "2026-08-05T05:27:53.000+05:30",
-  "updated": "2026-11-07T08:54:10.686+05:30",
+  "updated": "2026-11-07T08:54:10.000+05:30",
   "labels": [
     "Industrial Policy",
     "PLI Schemes",
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.3.0",
+  "version": "3.3.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -313,6 +313,22 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "November data refresh"
+    },
+    {
+      "version": "3.3.1",
+      "date": "2026-11-11T05:46:22+05:30",
+      "level": "patch",
+      "reason": "moved to a new URL; body unchanged",
+      "bytes": [
+        27988,
+        27988
+      ],
+      "url_changed": [
+        "https://masaladeutsch.blogspot.com/2026/08/pli-medical-devices-coverage-and-gaps.html",
+        "https://blog.vertistratsolution.com/2026/08/pli-medical-devices-coverage-and-gaps.html"
+      ],
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

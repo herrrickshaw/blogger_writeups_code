@@ -1,10 +1,10 @@
 {
   "id": "97396751203794827",
   "title": "India Imports 60% of Its Cooking Gas. Four Redesigned Stoves Are Trying to Fix That — Only One Is Actually for Sale.",
-  "url": "https://masaladeutsch.blogspot.com/2026/09/india-imports-60-of-its-cooking-gas.html",
+  "url": "https://blog.vertistratsolution.com/2026/09/india-imports-60-of-its-cooking-gas.html",
   "slug": "india-imports-60-of-its-cooking-gas",
   "published": "2026-09-27T12:51:20.000+05:30",
-  "updated": "2026-11-07T08:37:20.597+05:30",
+  "updated": "2026-11-07T08:37:20.000+05:30",
   "labels": [
     "Energy & Fuels",
     "Fuel Retail & Pricing",
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.1.0",
+  "version": "1.1.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -58,6 +58,22 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "November data refresh"
+    },
+    {
+      "version": "1.1.1",
+      "date": "2026-11-11T05:46:22+05:30",
+      "level": "patch",
+      "reason": "moved to a new URL; body unchanged",
+      "bytes": [
+        30256,
+        30256
+      ],
+      "url_changed": [
+        "https://masaladeutsch.blogspot.com/2026/09/india-imports-60-of-its-cooking-gas.html",
+        "https://blog.vertistratsolution.com/2026/09/india-imports-60-of-its-cooking-gas.html"
+      ],
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

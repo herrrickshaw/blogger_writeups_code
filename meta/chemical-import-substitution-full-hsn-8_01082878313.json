@@ -1,10 +1,10 @@
 {
   "id": "8677832990636879595",
   "title": "Chemical Import Substitution: the Full 827-Code Data Tables",
-  "url": "https://masaladeutsch.blogspot.com/2026/08/chemical-import-substitution-full-hsn-8_01082878313.html",
+  "url": "https://blog.vertistratsolution.com/2026/08/chemical-import-substitution-full-hsn-8_01082878313.html",
   "slug": "chemical-import-substitution-full-hsn-8_01082878313",
   "published": "2026-08-05T09:00:00.000+05:30",
-  "updated": "2026-09-26T10:50:25.767+05:30",
+  "updated": "2026-09-26T10:50:25.000+05:30",
   "labels": [
     "Chemicals",
     "Customs & HSN Trade Data",
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.6",
+  "version": "3.0.7",
   "version_history": [
     {
       "version": "1.0.0",
@@ -284,6 +284,22 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "refresh chemical import-substitution family (4 posts): BPCL Andhra Pradesh complex cost revised to ₹1.45L cr and EC status updated (filed, grant expected end-Sep 2026) in top-15-chemicals-for-import and chemical-import-substitution-quarterly, per BPCL CMD's 16 Sep 2026 statement; hsn-8-registry and full-hsn-8 data tables checked and confirmed still FY2025-26-current (no newer TradeStat annual release exists), vintage note added"
+    },
+    {
+      "version": "3.0.7",
+      "date": "2026-11-11T05:46:22+05:30",
+      "level": "patch",
+      "reason": "moved to a new URL; body unchanged",
+      "bytes": [
+        388394,
+        388394
+      ],
+      "url_changed": [
+        "https://masaladeutsch.blogspot.com/2026/08/chemical-import-substitution-full-hsn-8_01082878313.html",
+        "https://blog.vertistratsolution.com/2026/08/chemical-import-substitution-full-hsn-8_01082878313.html"
+      ],
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

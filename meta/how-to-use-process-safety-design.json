@@ -1,16 +1,16 @@
 {
   "id": "1785108289696977018",
   "title": "How to Use the Process-Safety Design Toolkit: A Complete Walkthrough, Command by Command",
-  "url": "https://masaladeutsch.blogspot.com/2026/11/how-to-use-process-safety-design.html",
+  "url": "https://blog.vertistratsolution.com/2026/11/how-to-use-process-safety-design.html",
   "slug": "how-to-use-process-safety-design",
   "published": "2026-11-05T18:11:55.000+05:30",
-  "updated": "2026-11-07T10:54:01.118+05:30",
+  "updated": "2026-11-11T05:45:46.000+05:30",
   "labels": [
     "Open-Source Tools & How-To",
     "Refining & Petrochemicals"
   ],
-  "bytes": 66997,
-  "sha256": "d7e36cf9be8e649b98395383868311cf842cced9c7f5d8120660b3615395516c",
+  "bytes": 79553,
+  "sha256": "a3ff888d4458262d3bbccd1a275d262bdb37b8cb3f79a73ac5489e204a206dbd",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.2.0",
+  "version": "4.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -82,6 +82,22 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "process-safety how-to: section 15 and demo link"
+    },
+    {
+      "version": "4.0.0",
+      "date": "2026-11-11T05:46:22+05:30",
+      "level": "major",
+      "reason": "figures changed (+37/-0 distinct numbers)",
+      "bytes": [
+        66997,
+        79553
+      ],
+      "url_changed": [
+        "https://masaladeutsch.blogspot.com/2026/11/how-to-use-process-safety-design.html",
+        "https://blog.vertistratsolution.com/2026/11/how-to-use-process-safety-design.html"
+      ],
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

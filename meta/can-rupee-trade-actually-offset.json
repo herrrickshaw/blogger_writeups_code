@@ -1,10 +1,10 @@
 {
   "id": "3467462935277445173",
   "title": "Can Rupee Trade Actually Offset the Inflation India Is Importing?",
-  "url": "https://masaladeutsch.blogspot.com/2026/08/can-rupee-trade-actually-offset.html",
+  "url": "https://blog.vertistratsolution.com/2026/08/can-rupee-trade-actually-offset.html",
   "slug": "can-rupee-trade-actually-offset",
   "published": "2026-08-14T08:31:13.000+05:30",
-  "updated": "2026-11-07T08:24:22.417+05:30",
+  "updated": "2026-11-07T08:24:22.000+05:30",
   "labels": [
     "Macroeconomics & Monetary Policy"
   ],
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.1.0",
+  "version": "3.1.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -172,6 +172,22 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "November data refresh"
+    },
+    {
+      "version": "3.1.1",
+      "date": "2026-11-11T05:46:22+05:30",
+      "level": "patch",
+      "reason": "moved to a new URL; body unchanged",
+      "bytes": [
+        35736,
+        35736
+      ],
+      "url_changed": [
+        "https://masaladeutsch.blogspot.com/2026/08/can-rupee-trade-actually-offset.html",
+        "https://blog.vertistratsolution.com/2026/08/can-rupee-trade-actually-offset.html"
+      ],
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

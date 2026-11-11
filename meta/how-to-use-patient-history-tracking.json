@@ -1,10 +1,10 @@
 {
   "id": "9206879689138643813",
   "title": "How to use patient-history-tracking: a demo ICU dashboard and linked record",
-  "url": "https://masaladeutsch.blogspot.com/2026/10/how-to-use-patient-history-tracking.html",
+  "url": "https://blog.vertistratsolution.com/2026/10/how-to-use-patient-history-tracking.html",
   "slug": "how-to-use-patient-history-tracking",
   "published": "2026-10-18T08:54:52.000+05:30",
-  "updated": "2026-10-29T09:08:12.396+05:30",
+  "updated": "2026-10-29T09:08:12.000+05:30",
   "labels": [
     "Healthcare",
     "India",
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.4",
+  "version": "1.0.5",
   "version_history": [
     {
       "version": "1.0.0",
@@ -83,6 +83,22 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "youtube-demo-uploads: uco-ulo-tracking post live"
+    },
+    {
+      "version": "1.0.5",
+      "date": "2026-11-11T05:46:22+05:30",
+      "level": "patch",
+      "reason": "moved to a new URL; body unchanged",
+      "bytes": [
+        23518,
+        23518
+      ],
+      "url_changed": [
+        "https://masaladeutsch.blogspot.com/2026/10/how-to-use-patient-history-tracking.html",
+        "https://blog.vertistratsolution.com/2026/10/how-to-use-patient-history-tracking.html"
+      ],
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

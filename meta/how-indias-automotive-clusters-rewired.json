@@ -1,10 +1,10 @@
 {
   "id": "4490275512460536937",
   "title": "How India's Automotive Clusters Rewired Themselves Around Just-in-Time Delivery",
-  "url": "https://masaladeutsch.blogspot.com/2026/08/how-indias-automotive-clusters-rewired.html",
+  "url": "https://blog.vertistratsolution.com/2026/08/how-indias-automotive-clusters-rewired.html",
   "slug": "how-indias-automotive-clusters-rewired",
   "published": "2026-08-15T07:16:39.000+05:30",
-  "updated": "2026-11-09T17:12:33.417+05:30",
+  "updated": "2026-11-09T17:12:33.000+05:30",
   "labels": [
     "Industrial Policy",
     "Manufacturing"
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.0",
+  "version": "3.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -184,6 +184,22 @@
         29095
       ],
       "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.0.1",
+      "date": "2026-11-11T05:46:22+05:30",
+      "level": "patch",
+      "reason": "moved to a new URL; body unchanged",
+      "bytes": [
+        29095,
+        29095
+      ],
+      "url_changed": [
+        "https://masaladeutsch.blogspot.com/2026/08/how-indias-automotive-clusters-rewired.html",
+        "https://blog.vertistratsolution.com/2026/08/how-indias-automotive-clusters-rewired.html"
+      ],
       "markers_changed": null,
       "note": ""
     }

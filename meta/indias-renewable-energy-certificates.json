@@ -1,10 +1,10 @@
 {
   "id": "3677624312514527278",
   "title": "India's Renewable Energy Certificates Swung 20x in Three Years — and They're One of Six Certificate Markets Now Running",
-  "url": "https://masaladeutsch.blogspot.com/2026/08/indias-renewable-energy-certificates.html",
+  "url": "https://blog.vertistratsolution.com/2026/08/indias-renewable-energy-certificates.html",
   "slug": "indias-renewable-energy-certificates",
   "published": "2026-08-23T22:23:00.000+05:30",
-  "updated": "2026-11-07T08:47:15.909+05:30",
+  "updated": "2026-11-07T08:47:15.000+05:30",
   "labels": [
     "Energy & Fuels",
     "India",
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.3.0",
+  "version": "3.3.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -161,6 +161,22 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "November data refresh"
+    },
+    {
+      "version": "3.3.1",
+      "date": "2026-11-11T05:46:22+05:30",
+      "level": "patch",
+      "reason": "moved to a new URL; body unchanged",
+      "bytes": [
+        41710,
+        41710
+      ],
+      "url_changed": [
+        "https://masaladeutsch.blogspot.com/2026/08/indias-renewable-energy-certificates.html",
+        "https://blog.vertistratsolution.com/2026/08/indias-renewable-energy-certificates.html"
+      ],
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

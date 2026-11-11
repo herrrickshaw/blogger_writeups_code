@@ -1,10 +1,10 @@
 {
   "id": "4668752008244639144",
   "title": "The Ethanol Sector's Buyers' Market: Overcapacity, Cooperative Mills, and the M&A Window",
-  "url": "https://masaladeutsch.blogspot.com/2026/08/the-ethanol-sectors-buyers-market.html",
+  "url": "https://blog.vertistratsolution.com/2026/08/the-ethanol-sectors-buyers-market.html",
   "slug": "the-ethanol-sectors-buyers-market",
   "published": "2026-08-05T12:13:26.000+05:30",
-  "updated": "2026-11-07T09:03:39.612+05:30",
+  "updated": "2026-11-07T09:03:39.000+05:30",
   "labels": [
     "Agriculture & Fertilisers"
   ],
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.2.0",
+  "version": "3.2.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -268,6 +268,22 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "November data refresh"
+    },
+    {
+      "version": "3.2.1",
+      "date": "2026-11-11T05:46:22+05:30",
+      "level": "patch",
+      "reason": "moved to a new URL; body unchanged",
+      "bytes": [
+        19056,
+        19056
+      ],
+      "url_changed": [
+        "https://masaladeutsch.blogspot.com/2026/08/the-ethanol-sectors-buyers-market.html",
+        "https://blog.vertistratsolution.com/2026/08/the-ethanol-sectors-buyers-market.html"
+      ],
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

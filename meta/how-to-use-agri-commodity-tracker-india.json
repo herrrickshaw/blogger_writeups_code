@@ -1,10 +1,10 @@
 {
   "id": "3067927412217214798",
   "title": "How to use agri-commodity-tracker: India mandi prices and an agriculture panel in one DuckDB file",
-  "url": "https://masaladeutsch.blogspot.com/2026/10/how-to-use-agri-commodity-tracker-india.html",
+  "url": "https://blog.vertistratsolution.com/2026/10/how-to-use-agri-commodity-tracker-india.html",
   "slug": "how-to-use-agri-commodity-tracker-india",
   "published": "2026-10-19T05:08:35.000+05:30",
-  "updated": "2026-10-20T09:05:34.479+05:30",
+  "updated": "2026-10-20T09:05:34.000+05:30",
   "labels": [
     "India",
     "Markets & Finance",
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -44,6 +44,22 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "scheduled sync"
+    },
+    {
+      "version": "1.0.2",
+      "date": "2026-11-11T05:46:22+05:30",
+      "level": "patch",
+      "reason": "moved to a new URL; body unchanged",
+      "bytes": [
+        24771,
+        24771
+      ],
+      "url_changed": [
+        "https://masaladeutsch.blogspot.com/2026/10/how-to-use-agri-commodity-tracker-india.html",
+        "https://blog.vertistratsolution.com/2026/10/how-to-use-agri-commodity-tracker-india.html"
+      ],
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

@@ -1,10 +1,10 @@
 {
   "id": "1964166395488869750",
   "title": "The Masala Deutsch Shop — Books & Things From the Articles",
-  "url": "https://masaladeutsch.blogspot.com/2026/08/the-masala-deutsch-shop-books-things.html",
+  "url": "https://blog.vertistratsolution.com/2026/08/the-masala-deutsch-shop-books-things.html",
   "slug": "the-masala-deutsch-shop-books-things",
   "published": "2026-08-08T18:11:59.000+05:30",
-  "updated": "2026-10-17T08:08:34.135+05:30",
+  "updated": "2026-10-17T08:08:34.000+05:30",
   "labels": [
     "Shop"
   ],
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "9.1.0",
+  "version": "9.1.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -515,6 +515,22 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Content-policy check: shop regulated items removed; labels for new posts"
+    },
+    {
+      "version": "9.1.1",
+      "date": "2026-11-11T05:46:22+05:30",
+      "level": "patch",
+      "reason": "moved to a new URL; body unchanged",
+      "bytes": [
+        51645,
+        51645
+      ],
+      "url_changed": [
+        "https://masaladeutsch.blogspot.com/2026/08/the-masala-deutsch-shop-books-things.html",
+        "https://blog.vertistratsolution.com/2026/08/the-masala-deutsch-shop-books-things.html"
+      ],
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

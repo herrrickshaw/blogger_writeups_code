@@ -1,10 +1,10 @@
 {
   "id": "384945848702172197",
   "title": "Half of India's Import Bill Is Commodities. Recycling and Import Substitution Are the Only Two Exits.",
-  "url": "https://masaladeutsch.blogspot.com/2026/08/half-of-indias-import-bill-is.html",
+  "url": "https://blog.vertistratsolution.com/2026/08/half-of-indias-import-bill-is.html",
   "slug": "half-of-indias-import-bill-is",
   "published": "2026-08-03T17:03:34.000+05:30",
-  "updated": "2026-11-07T08:33:05.275+05:30",
+  "updated": "2026-11-07T08:33:05.000+05:30",
   "labels": [
     "Import Substitution",
     "Trade & Tariffs"
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.3.0",
+  "version": "2.3.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -308,6 +308,22 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "November data refresh"
+    },
+    {
+      "version": "2.3.1",
+      "date": "2026-11-11T05:46:22+05:30",
+      "level": "patch",
+      "reason": "moved to a new URL; body unchanged",
+      "bytes": [
+        29846,
+        29846
+      ],
+      "url_changed": [
+        "https://masaladeutsch.blogspot.com/2026/08/half-of-indias-import-bill-is.html",
+        "https://blog.vertistratsolution.com/2026/08/half-of-indias-import-bill-is.html"
+      ],
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

@@ -1,10 +1,10 @@
 {
   "id": "6005716037070145582",
   "title": "FCI Storage Scenario — Capacity, Stock, and the Road to 2,150 LMT",
-  "url": "https://masaladeutsch.blogspot.com/2026/07/fci-storage-scenario-capacity-stock-and.html",
+  "url": "https://blog.vertistratsolution.com/2026/07/fci-storage-scenario-capacity-stock-and.html",
   "slug": "fci-storage-scenario-capacity-stock-and",
   "published": "2026-07-31T10:15:00.000+05:30",
-  "updated": "2026-11-07T08:29:36.502+05:30",
+  "updated": "2026-11-07T08:29:36.000+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Grain Procurement & Storage"
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.3.0",
+  "version": "3.3.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -321,6 +321,22 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "November data refresh"
+    },
+    {
+      "version": "3.3.1",
+      "date": "2026-11-11T05:46:22+05:30",
+      "level": "patch",
+      "reason": "moved to a new URL; body unchanged",
+      "bytes": [
+        25512,
+        25512
+      ],
+      "url_changed": [
+        "https://masaladeutsch.blogspot.com/2026/07/fci-storage-scenario-capacity-stock-and.html",
+        "https://blog.vertistratsolution.com/2026/07/fci-storage-scenario-capacity-stock-and.html"
+      ],
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

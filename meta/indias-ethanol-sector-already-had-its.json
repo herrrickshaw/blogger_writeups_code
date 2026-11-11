@@ -1,10 +1,10 @@
 {
   "id": "2810587694480901909",
   "title": "India's Ethanol Sector Already Had Its IPOs. Here's Who's Listed, Who Just Joined, and What's Still Pending",
-  "url": "https://masaladeutsch.blogspot.com/2026/09/indias-ethanol-sector-already-had-its.html",
+  "url": "https://blog.vertistratsolution.com/2026/09/indias-ethanol-sector-already-had-its.html",
   "slug": "indias-ethanol-sector-already-had-its",
   "published": "2026-09-15T06:49:17.000+05:30",
-  "updated": "2026-11-07T08:43:58.804+05:30",
+  "updated": "2026-11-07T08:43:58.000+05:30",
   "labels": [
     "Energy & Fuels"
   ],
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.3.0",
+  "version": "2.3.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -107,6 +107,22 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "November data refresh"
+    },
+    {
+      "version": "2.3.1",
+      "date": "2026-11-11T05:46:22+05:30",
+      "level": "patch",
+      "reason": "moved to a new URL; body unchanged",
+      "bytes": [
+        24984,
+        24984
+      ],
+      "url_changed": [
+        "https://masaladeutsch.blogspot.com/2026/09/indias-ethanol-sector-already-had-its.html",
+        "https://blog.vertistratsolution.com/2026/09/indias-ethanol-sector-already-had-its.html"
+      ],
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

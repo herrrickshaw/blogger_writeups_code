@@ -1,10 +1,10 @@
 {
   "id": "6892050126904544194",
   "title": "LPG's Missing Number: A ₹73.08 Commission, and Why Gas Is Safer From an MDR Than Petrol",
-  "url": "https://masaladeutsch.blogspot.com/2026/08/lpgs-missing-number-7308-commission-and.html",
+  "url": "https://blog.vertistratsolution.com/2026/08/lpgs-missing-number-7308-commission-and.html",
   "slug": "lpgs-missing-number-7308-commission-and",
   "published": "2026-08-08T20:55:54.000+05:30",
-  "updated": "2026-11-07T08:50:27.843+05:30",
+  "updated": "2026-11-07T08:50:27.000+05:30",
   "labels": [
     "Energy & Fuels",
     "Fuel Retail & Pricing",
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.4.0",
+  "version": "3.4.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -253,6 +253,22 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "November data refresh"
+    },
+    {
+      "version": "3.4.1",
+      "date": "2026-11-11T05:46:22+05:30",
+      "level": "patch",
+      "reason": "moved to a new URL; body unchanged",
+      "bytes": [
+        33074,
+        33074
+      ],
+      "url_changed": [
+        "https://masaladeutsch.blogspot.com/2026/08/lpgs-missing-number-7308-commission-and.html",
+        "https://blog.vertistratsolution.com/2026/08/lpgs-missing-number-7308-commission-and.html"
+      ],
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

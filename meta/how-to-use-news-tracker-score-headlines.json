@@ -1,10 +1,10 @@
 {
   "id": "4687292652236063014",
   "title": "How to use the news tracker: score headlines and check them against stock picks",
-  "url": "https://masaladeutsch.blogspot.com/2026/10/how-to-use-news-tracker-score-headlines.html",
+  "url": "https://blog.vertistratsolution.com/2026/10/how-to-use-news-tracker-score-headlines.html",
   "slug": "how-to-use-news-tracker-score-headlines",
   "published": "2026-10-18T08:54:48.000+05:30",
-  "updated": "2026-10-26T09:06:24.536+05:30",
+  "updated": "2026-10-26T09:06:24.000+05:30",
   "labels": [
     "Equity Markets & Stock Screening",
     "India",
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.0",
+  "version": "3.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -84,6 +84,22 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Wind post: MNRE August 2026 state-wise capacity table"
+    },
+    {
+      "version": "3.0.1",
+      "date": "2026-11-11T05:46:22+05:30",
+      "level": "patch",
+      "reason": "moved to a new URL; body unchanged",
+      "bytes": [
+        22442,
+        22442
+      ],
+      "url_changed": [
+        "https://masaladeutsch.blogspot.com/2026/10/how-to-use-news-tracker-score-headlines.html",
+        "https://blog.vertistratsolution.com/2026/10/how-to-use-news-tracker-score-headlines.html"
+      ],
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

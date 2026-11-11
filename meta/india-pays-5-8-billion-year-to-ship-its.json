@@ -1,10 +1,10 @@
 {
   "id": "3065904871784062044",
   "title": "India Pays $5-8 Billion a Year to Ship Its Own Oil. Only 20% of That Cargo Travels on an Indian Vessel.",
-  "url": "https://masaladeutsch.blogspot.com/2026/09/india-pays-5-8-billion-year-to-ship-its.html",
+  "url": "https://blog.vertistratsolution.com/2026/09/india-pays-5-8-billion-year-to-ship-its.html",
   "slug": "india-pays-5-8-billion-year-to-ship-its",
   "published": "2026-09-28T17:00:17.000+05:30",
-  "updated": "2026-11-07T08:38:26.614+05:30",
+  "updated": "2026-11-07T08:38:26.000+05:30",
   "labels": [
     "Energy & Fuels",
     "Industrial Policy",
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.2.0",
+  "version": "1.2.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -83,6 +83,22 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "November data refresh"
+    },
+    {
+      "version": "1.2.1",
+      "date": "2026-11-11T05:46:22+05:30",
+      "level": "patch",
+      "reason": "moved to a new URL; body unchanged",
+      "bytes": [
+        23745,
+        23745
+      ],
+      "url_changed": [
+        "https://masaladeutsch.blogspot.com/2026/09/india-pays-5-8-billion-year-to-ship-its.html",
+        "https://blog.vertistratsolution.com/2026/09/india-pays-5-8-billion-year-to-ship-its.html"
+      ],
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

@@ -1,10 +1,10 @@
 {
   "id": "8825016235559283120",
   "title": "Mapping India's Other Pipelines: Every Major Crude, Petrol-Diesel and LPG Line, By Company",
-  "url": "https://masaladeutsch.blogspot.com/2026/09/mapping-indias-other-pipelines-every.html",
+  "url": "https://blog.vertistratsolution.com/2026/09/mapping-indias-other-pipelines-every.html",
   "slug": "mapping-indias-other-pipelines-every",
   "published": "2026-09-08T09:01:53.000+05:30",
-  "updated": "2026-11-07T08:50:39.340+05:30",
+  "updated": "2026-11-07T08:50:39.000+05:30",
   "labels": [
     "Energy & Fuels",
     "Gas & LNG",
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.2.0",
+  "version": "1.2.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -84,6 +84,22 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "November data refresh"
+    },
+    {
+      "version": "1.2.1",
+      "date": "2026-11-11T05:46:22+05:30",
+      "level": "patch",
+      "reason": "moved to a new URL; body unchanged",
+      "bytes": [
+        27546,
+        27546
+      ],
+      "url_changed": [
+        "https://masaladeutsch.blogspot.com/2026/09/mapping-indias-other-pipelines-every.html",
+        "https://blog.vertistratsolution.com/2026/09/mapping-indias-other-pipelines-every.html"
+      ],
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

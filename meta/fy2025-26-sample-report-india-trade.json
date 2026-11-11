@@ -1,10 +1,10 @@
 {
   "id": "614388816218440558",
   "title": "FY2025-26 Sample Report — India Trade, Currency & Policy Snapshot",
-  "url": "https://masaladeutsch.blogspot.com/2026/08/fy2025-26-sample-report-india-trade.html",
+  "url": "https://blog.vertistratsolution.com/2026/08/fy2025-26-sample-report-india-trade.html",
   "slug": "fy2025-26-sample-report-india-trade",
   "published": "2026-08-02T13:59:21.000+05:30",
-  "updated": "2026-11-07T08:31:59.461+05:30",
+  "updated": "2026-11-07T08:31:59.000+05:30",
   "labels": [
     "Industrial Policy",
     "Markets & Finance",
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "4.1.0",
+  "version": "4.1.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -348,6 +348,22 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "November data refresh"
+    },
+    {
+      "version": "4.1.1",
+      "date": "2026-11-11T05:46:22+05:30",
+      "level": "patch",
+      "reason": "moved to a new URL; body unchanged",
+      "bytes": [
+        44221,
+        44221
+      ],
+      "url_changed": [
+        "https://masaladeutsch.blogspot.com/2026/08/fy2025-26-sample-report-india-trade.html",
+        "https://blog.vertistratsolution.com/2026/08/fy2025-26-sample-report-india-trade.html"
+      ],
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

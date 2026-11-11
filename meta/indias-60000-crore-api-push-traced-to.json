@@ -1,10 +1,10 @@
 {
   "id": "7697539646438965679",
   "title": "India's ₹60,000 Crore API Push, Traced to Its Six Actual Schemes",
-  "url": "https://masaladeutsch.blogspot.com/2026/09/indias-60000-crore-api-push-traced-to.html",
+  "url": "https://blog.vertistratsolution.com/2026/09/indias-60000-crore-api-push-traced-to.html",
   "slug": "indias-60000-crore-api-push-traced-to",
   "published": "2026-09-16T14:11:49.000+05:30",
-  "updated": "2026-11-07T08:41:05.308+05:30",
+  "updated": "2026-11-07T08:41:05.000+05:30",
   "labels": [
     "Industrial Policy",
     "PLI Schemes"
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.5.0",
+  "version": "1.5.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -108,6 +108,22 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "November data refresh"
+    },
+    {
+      "version": "1.5.1",
+      "date": "2026-11-11T05:46:22+05:30",
+      "level": "patch",
+      "reason": "moved to a new URL; body unchanged",
+      "bytes": [
+        27141,
+        27141
+      ],
+      "url_changed": [
+        "https://masaladeutsch.blogspot.com/2026/09/indias-60000-crore-api-push-traced-to.html",
+        "https://blog.vertistratsolution.com/2026/09/indias-60000-crore-api-push-traced-to.html"
+      ],
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

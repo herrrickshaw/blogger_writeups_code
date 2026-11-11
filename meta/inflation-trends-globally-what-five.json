@@ -1,10 +1,10 @@
 {
   "id": "5993280256743257743",
   "title": "Inflation Trends Globally: What Five Years Actually Cost",
-  "url": "https://masaladeutsch.blogspot.com/2026/08/inflation-trends-globally-what-five.html",
+  "url": "https://blog.vertistratsolution.com/2026/08/inflation-trends-globally-what-five.html",
   "slug": "inflation-trends-globally-what-five",
   "published": "2026-08-08T08:31:31.000+05:30",
-  "updated": "2026-11-07T08:49:22.701+05:30",
+  "updated": "2026-11-07T08:49:22.000+05:30",
   "labels": [
     "Prices & Inflation"
   ],
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "4.3.0",
+  "version": "4.3.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -354,6 +354,22 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "November data refresh"
+    },
+    {
+      "version": "4.3.1",
+      "date": "2026-11-11T05:46:22+05:30",
+      "level": "patch",
+      "reason": "moved to a new URL; body unchanged",
+      "bytes": [
+        61956,
+        61956
+      ],
+      "url_changed": [
+        "https://masaladeutsch.blogspot.com/2026/08/inflation-trends-globally-what-five.html",
+        "https://blog.vertistratsolution.com/2026/08/inflation-trends-globally-what-five.html"
+      ],
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

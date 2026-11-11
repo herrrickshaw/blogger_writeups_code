@@ -1,10 +1,10 @@
 {
   "id": "3706872991888402287",
   "title": "What Seven Model Stock Portfolios Look Like Once You Check Them Against the Index",
-  "url": "https://masaladeutsch.blogspot.com/2026/08/what-seven-model-stock-portfolios-look.html",
+  "url": "https://blog.vertistratsolution.com/2026/08/what-seven-model-stock-portfolios-look.html",
   "slug": "what-seven-model-stock-portfolios-look",
   "published": "2026-08-28T10:25:17.000+05:30",
-  "updated": "2026-10-01T08:59:41.512+05:30",
+  "updated": "2026-10-01T08:59:41.000+05:30",
   "labels": [
     "Data & Analytics",
     "Markets & Investing"
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.1.0",
+  "version": "1.1.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -121,6 +121,22 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Rule 8 retrofit: added What would fix this section"
+    },
+    {
+      "version": "1.1.1",
+      "date": "2026-11-11T05:46:22+05:30",
+      "level": "patch",
+      "reason": "moved to a new URL; body unchanged",
+      "bytes": [
+        26007,
+        26007
+      ],
+      "url_changed": [
+        "https://masaladeutsch.blogspot.com/2026/08/what-seven-model-stock-portfolios-look.html",
+        "https://blog.vertistratsolution.com/2026/08/what-seven-model-stock-portfolios-look.html"
+      ],
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

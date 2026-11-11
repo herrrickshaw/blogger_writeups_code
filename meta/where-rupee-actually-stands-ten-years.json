@@ -1,10 +1,10 @@
 {
   "id": "968675767071535524",
   "title": "Where the Rupee Actually Stands: Ten Years Against the Dollar, Yuan, Rouble, Riyal and Dirham",
-  "url": "https://masaladeutsch.blogspot.com/2026/08/where-rupee-actually-stands-ten-years.html",
+  "url": "https://blog.vertistratsolution.com/2026/08/where-rupee-actually-stands-ten-years.html",
   "slug": "where-rupee-actually-stands-ten-years",
   "published": "2026-08-14T10:47:17.000+05:30",
-  "updated": "2026-11-07T09:10:25.799+05:30",
+  "updated": "2026-11-07T09:10:25.000+05:30",
   "labels": [
     "Macroeconomics & Monetary Policy"
   ],
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.2.0",
+  "version": "2.2.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -146,6 +146,22 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "November data refresh"
+    },
+    {
+      "version": "2.2.1",
+      "date": "2026-11-11T05:46:22+05:30",
+      "level": "patch",
+      "reason": "moved to a new URL; body unchanged",
+      "bytes": [
+        51634,
+        51634
+      ],
+      "url_changed": [
+        "https://masaladeutsch.blogspot.com/2026/08/where-rupee-actually-stands-ten-years.html",
+        "https://blog.vertistratsolution.com/2026/08/where-rupee-actually-stands-ten-years.html"
+      ],
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

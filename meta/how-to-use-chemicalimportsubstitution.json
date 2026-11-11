@@ -1,10 +1,10 @@
 {
   "id": "889749838564878715",
   "title": "How to use chemical_import_substitution: HS-8 import-substitution signals for India's chemical chapters",
-  "url": "https://masaladeutsch.blogspot.com/2026/10/how-to-use-chemicalimportsubstitution.html",
+  "url": "https://blog.vertistratsolution.com/2026/10/how-to-use-chemicalimportsubstitution.html",
   "slug": "how-to-use-chemicalimportsubstitution",
   "published": "2026-10-19T05:09:20.000+05:30",
-  "updated": "2026-10-23T09:06:16.139+05:30",
+  "updated": "2026-10-23T09:06:16.000+05:30",
   "labels": [
     "India",
     "Open-Source Tools & How-To"
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -43,6 +43,22 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "FDI posts updated with DPIIT fact sheet to June 2026"
+    },
+    {
+      "version": "1.0.2",
+      "date": "2026-11-11T05:46:22+05:30",
+      "level": "patch",
+      "reason": "moved to a new URL; body unchanged",
+      "bytes": [
+        25588,
+        25588
+      ],
+      "url_changed": [
+        "https://masaladeutsch.blogspot.com/2026/10/how-to-use-chemicalimportsubstitution.html",
+        "https://blog.vertistratsolution.com/2026/10/how-to-use-chemicalimportsubstitution.html"
+      ],
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

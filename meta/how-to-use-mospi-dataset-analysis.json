@@ -1,10 +1,10 @@
 {
   "id": "7848156802365072414",
   "title": "How to use mospi-dataset-analysis-public: browse India's official MoSPI data snapshot",
-  "url": "https://masaladeutsch.blogspot.com/2026/10/how-to-use-mospi-dataset-analysis.html",
+  "url": "https://blog.vertistratsolution.com/2026/10/how-to-use-mospi-dataset-analysis.html",
   "slug": "how-to-use-mospi-dataset-analysis",
   "published": "2026-10-19T05:13:12.000+05:30",
-  "updated": "2026-10-29T09:06:29.308+05:30",
+  "updated": "2026-10-29T09:06:29.000+05:30",
   "labels": [
     "India",
     "Infrastructure & Investment",
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -44,6 +44,22 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "youtube-demo-uploads: uco-ulo-tracking post live"
+    },
+    {
+      "version": "1.0.2",
+      "date": "2026-11-11T05:46:22+05:30",
+      "level": "patch",
+      "reason": "moved to a new URL; body unchanged",
+      "bytes": [
+        23059,
+        23059
+      ],
+      "url_changed": [
+        "https://masaladeutsch.blogspot.com/2026/10/how-to-use-mospi-dataset-analysis.html",
+        "https://blog.vertistratsolution.com/2026/10/how-to-use-mospi-dataset-analysis.html"
+      ],
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

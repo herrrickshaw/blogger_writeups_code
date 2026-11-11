@@ -1,5 +1,5 @@
 <div class="gs-head-order" style="display:flex;flex-direction:column">
-<p style="order:4" class="dek">The previous piece split "under ₹1,000" into four bands and found the ₹0&ndash;250 slice was the worst-performing, highest-risk quarter of the entire market — and that it alone held 79% of every stock priced under ₹1,000. That's still a wide net. This piece splits ₹0&ndash;250 itself into four narrower bands to find out whether the bottom of that range is uniformly bad, or whether the real basement is even smaller than it looked.</p>
+<p style="order:4" class="dek">This blog's first price-band piece found no clean link between a stock's price and its risk, but its cheapest bucket, "under ₹1,000", held almost 4,900 stocks. This piece splits that bucket twice. The first split finds the ₹0&ndash;250 slice is the worst-performing, highest-risk quarter of the market, and that it alone holds 79% of every stock priced under ₹1,000. The second splits ₹0&ndash;250 itself into four narrower bands, to see whether the bottom of that range is uniformly bad or whether the real basement is even smaller.</p>
 <div class="topnav-index-link" style="order:1;font-size:.82em;margin:6px 0 14px"><a href="https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html" style="color:#0b5394;text-decoration:none">← All Articles (Index)</a></div>
 <h1 style="order:3">₹0&ndash;50 Is Its Own Category: Diving Into India's Actual Microcap Basement</h1>
 </div>
@@ -181,7 +181,86 @@ if(skip){
 
 
 
-<h2>1. Even inside "cheap," most of the mass sits at the very bottom</h2>
+<div class="warn" style="border-left:4px solid #a5402c;background:rgba(165,64,44,.07);padding:.8em 1em;margin:1.2em 0;border-radius:4px"><b>Updated 10 November 2026.</b> This page now carries this blog's earlier post <i>Below ₹250 Is Where the Real Risk Lives</i>, which has been retired. Its split of the under-₹1,000 universe into four bands is section 1 below; the original drill into the ₹0&ndash;250 band follows from section 2. The figures are unchanged: both pieces use the same Screener.in pull of 11 August 2026 and the same weekly NSE price window, 2 January 2023 to 7 August 2026.</div>
+<h2 id="under-1000">1. Under ₹1,000: one bucket, four very different neighbourhoods</h2>
+<p>Of the 4,862 NSE/BSE stocks priced under ₹1,000, this article split them into four sub-bands — ₹0&ndash;250, ₹250&ndash;500, ₹500&ndash;750 and ₹750&ndash;1,000 — using the same Screener.in price data as <a href="https://masaladeutsch.blogspot.com/2026/08/a-slice-of-apple-costs-about-1700-slice.html">the earlier five-band piece</a>. The split is lopsided in a way the single "under ₹1,000" label never showed:</p>
+<table>
+<thead><tr><th>Price sub-band, ₹</th><th>Stocks</th><th>Share of the under-1,000 universe, %</th><th>Median market cap, ₹ crore</th></tr></thead>
+<tbody>
+<tr><td>0&ndash;250</td><td>3,850</td><td>79.2</td><td>80</td></tr>
+<tr><td>250&ndash;500</td><td>568</td><td>11.7</td><td>1,154</td></tr>
+<tr><td>500&ndash;750</td><td>290</td><td>6.0</td><td>3,713</td></tr>
+<tr><td>750&ndash;1,000</td><td>154</td><td>3.2</td><td>3,474</td></tr>
+</tbody>
+</table>
+<p>Nearly 80% of every stock priced under ₹1,000 is actually priced under ₹250, and the median market cap in that bottom slice — ₹80 crore — is a rounding error next to the ₹1,154 crore median just one sub-band up. The "under ₹1,000" bucket in that piece wasn't really one population; it was a huge population of tiny, largely unproven companies with a much smaller population of genuinely small-to-mid-cap businesses riding along at the top of the same label.</p>
+
+
+<h3>Beta, return and Sharpe ratio, split four ways</h3>
+<p>Using the same methodology as the earlier piece — equal-weighted portfolios, 3.5 years of weekly local NSE price data (2 January 2023 to 7 August 2026), a 6.5% risk-free proxy — computed separately for each of the four sub-bands:</p>
+<table>
+<thead><tr><th>Price sub-band, ₹</th><th>Stocks with computed beta</th><th>Median beta</th><th>Portfolio return, % p.a.</th><th>Portfolio volatility, % p.a.</th><th>Sharpe ratio</th></tr></thead>
+<tbody>
+<tr><td>0&ndash;250</td><td>1,086 of 1,267 priced</td><td>1.28</td><td>14.6</td><td>24.4</td><td>0.33</td></tr>
+<tr><td>250&ndash;500</td><td>333 of 374 priced</td><td>1.19</td><td>24.3</td><td>21.0</td><td>0.85</td></tr>
+<tr><td>500&ndash;750</td><td>207 of 229 priced</td><td>1.08</td><td>25.0</td><td>19.3</td><td>0.96</td></tr>
+<tr><td>750&ndash;1,000</td><td>112 of 117 priced</td><td>1.12</td><td>32.7</td><td>19.8</td><td>1.32</td></tr>
+</tbody>
+</table>
+<p>Unlike the five broad bands in the earlier piece, this is a genuinely clean, close-to-monotonic gradient. Beta falls from 1.28 to roughly 1.08&ndash;1.12 as price rises through the sub-bands; annualised volatility falls from 24.4% to about 19&ndash;20%; and the Sharpe ratio climbs steadily from 0.33 (poor, per the ranges in the earlier piece) to 1.32 (good) at the top of the range. At this level of zoom the ₹0&ndash;250 sub-band is the worst-performing, highest-risk group — worse than the under-₹1,000 band looked as a whole, because that wider label was averaging nearly 4,900 mostly-junk names against a much smaller number of decent ones.</p>
+
+<h3>Real returns confirm the same pattern</h3>
+<p>Screener.in's own reported return and profit-growth fields, for the full population in each sub-band rather than a sample, tell the same story independently of the beta/Sharpe calculation above:</p>
+<table>
+<thead><tr><th>Price sub-band, ₹</th><th>Median 1-year return, %</th><th>Median 6-month return, %</th><th>Median YoY quarterly profit growth, %</th></tr></thead>
+<tbody>
+<tr><td>0&ndash;250</td><td>&minus;17.7</td><td>&minus;5.6</td><td>13.5</td></tr>
+<tr><td>250&ndash;500</td><td>0.4</td><td>6.1</td><td>30.1</td></tr>
+<tr><td>500&ndash;750</td><td>4.3</td><td>11.8</td><td>21.5</td></tr>
+<tr><td>750&ndash;1,000</td><td>8.3</td><td>8.3</td><td>20.9</td></tr>
+</tbody>
+</table>
+<figure class="gb-figure" style="margin:1.5rem 0 1.75rem;text-align:center">
+<svg role="img" style="width:100%;height:auto;max-width:700px;display:block;margin:0 auto" viewBox="0 0 700 380" xmlns="http://www.w3.org/2000/svg" font-family="Georgia,'Times New Roman',serif">
+<rect x="0" y="0" width="700" height="380" fill="#f8f9fa" />
+<rect x="555" y="54.7" width="90" height="72" fill="#1a8f4c" />
+<text x="350" y="32" text-anchor="middle" font-size="19" font-weight="bold" fill="#111">Below ₹250, the median stock lost money</text>
+<text x="350" y="52" text-anchor="middle" font-size="13" fill="#444">Median 1-year return by price sub-band, stocks under ₹1,000 (NSE/BSE)</text>
+<line x1="60" y1="126.7" x2="660" y2="126.7" stroke="#111" stroke-width="1.5" />
+<text x="52" y="131" text-anchor="end" font-size="12" fill="#333">0%</text>
+
+<line x1="60" y1="300" x2="660" y2="300" stroke="#ccc" stroke-width="1" />
+<text x="52" y="304" text-anchor="end" font-size="11" fill="#888">-20%</text>
+<line x1="60" y1="40" x2="660" y2="40" stroke="#ccc" stroke-width="1" />
+<text x="52" y="44" text-anchor="end" font-size="11" fill="#888">+10%</text>
+
+<rect x="105" y="126.7" width="90" height="153.4" fill="#b0332e" />
+<text x="150" y="209" text-anchor="middle" font-size="16" font-weight="bold" fill="#fff">&#8722;17.7%</text>
+<text x="150" y="336" text-anchor="middle" font-size="13" fill="#111">₹0&#8211;250</text>
+<text x="150" y="352" text-anchor="middle" font-size="11" fill="#666">3,850 stocks (79%)</text>
+
+<rect x="255" y="123.2" width="90" height="3.5" fill="#1a8f4c" />
+<text x="300" y="118" text-anchor="middle" font-size="16" font-weight="bold" fill="#111">+0.4%</text>
+<text x="300" y="336" text-anchor="middle" font-size="13" fill="#111">₹250&#8211;500</text>
+<text x="300" y="352" text-anchor="middle" font-size="11" fill="#666">568 stocks (12%)</text>
+
+<rect x="405" y="89.4" width="90" height="37.3" fill="#1a8f4c" />
+<text x="450" y="84" text-anchor="middle" font-size="16" font-weight="bold" fill="#111">+4.3%</text>
+<text x="450" y="336" text-anchor="middle" font-size="13" fill="#111">₹500&#8211;750</text>
+<text x="450" y="352" text-anchor="middle" font-size="11" fill="#666">290 stocks (6%)</text>
+
+<text x="600" y="49" text-anchor="middle" font-size="16" font-weight="bold" fill="#111">+8.3%</text>
+<text x="600" y="336" text-anchor="middle" font-size="13" fill="#111">₹750&#8211;1,000</text>
+<text x="600" y="352" text-anchor="middle" font-size="11" fill="#666">154 stocks (3%)</text>
+<text x="350" y="372" text-anchor="middle" font-size="10.5" fill="#777">Source: Screener.in company data, 4,862 NSE/BSE stocks under ₹1,000, 11 Aug 2026</text>
+</svg>
+<figcaption style="font-size:.8em;color:#868e96;font-family:-apple-system,'Segoe UI',sans-serif;margin-top:.5rem">Median trailing 1-year return by price sub-band, among India's under-₹1,000 stocks (Screener.in data, cited 11 Aug 2026).</figcaption>
+</figure>
+<p>The median stock priced under ₹250 <em>lost</em> 17.7% over the trailing year; every sub-band above it posted a positive median return. This isn't a quirk of one calculation method — the equal-weighted portfolio series, the per-stock median beta, and Screener's own raw return field all point the same direction.</p>
+
+<p>The obvious next question is whether the ₹0&ndash;250 band is uniformly bad, or whether something inside it is doing most of the damage. The rest of this piece splits it again.</p>
+
+<h2 id="under-250">2. Inside ₹0&ndash;250: most of the mass sits at the very bottom</h2>
 <p>Splitting the 3,850 stocks priced under ₹250 into four ₹50-wide bands shows the same lopsided pattern this blog's price-segmentation work keeps finding at every level it's checked:</p>
 <figure style="margin:1.6rem 0">
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/BSE_-_Bombay_Stock_Exchange_Building.jpg/960px-BSE_-_Bombay_Stock_Exchange_Building.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail" alt="The Bombay Stock Exchange building in Mumbai, home to the listed universe this piece segments by price band" loading="lazy" style="width:100%;height:auto;border-radius:6px;display:block"/>
@@ -196,11 +275,11 @@ if(skip){
 <tr><td>150&ndash;250</td><td>552</td><td>14.3</td><td>451</td></tr>
 </tbody>
 </table>
-<p>More than half of every stock priced under ₹250 — 2,086 of them, or 43% of the entire under-₹1,000 universe from the previous piece — is actually priced under ₹50. Median market cap rises in a straight line as the price band moves up: ₹32 crore at the bottom, ₹451 crore at the top of this range, a 14&times; jump across just four ₹50-wide bands.</p>
+<p>More than half of every stock priced under ₹250 — 2,086 of them, or 43% of the entire under-₹1,000 universe in section 1 — is actually priced under ₹50. Median market cap rises in a straight line as the price band moves up: ₹32 crore at the bottom, ₹451 crore at the top of this range, a 14&times; jump across just four ₹50-wide bands.</p>
 
 
-<h2>2. Beta, return and Sharpe ratio inside the basement</h2>
-<p>Same methodology as both earlier pieces — equal-weighted portfolios, 3.5 years of weekly local NSE price data (2 Jan 2023&ndash;7 Aug 2026), 6.5% risk-free proxy:</p>
+<h2>3. Beta, return and Sharpe ratio inside the basement</h2>
+<p>Same methodology as section 1 — equal-weighted portfolios, 3.5 years of weekly local NSE price data (2 Jan 2023&ndash;7 Aug 2026), 6.5% risk-free proxy:</p>
 <table>
 <thead><tr><th>Price band, ₹</th><th>Stocks with computed beta</th><th>Median beta</th><th>Portfolio return, % p.a.</th><th>Portfolio volatility, % p.a.</th><th>Sharpe ratio</th></tr></thead>
 <tbody>
@@ -210,9 +289,9 @@ if(skip){
 <tr><td>150&ndash;250</td><td>269 of 296 priced</td><td>1.23</td><td>15.2</td><td>21.9</td><td>0.40</td></tr>
 </tbody>
 </table>
-<p>The <strong>₹0&ndash;50 band has the worst Sharpe ratio of any price segment measured across all three of this blog's price-band pieces</strong> — 0.20, deep in "poor" territory, driven by the highest volatility (27.2%) and highest beta (1.31) at the same time as the lowest return of the four. It is, on every measure used so far, the single worst place in the Indian listed-equity market to have parked money over this window, and it's also the single largest group by count: 2,086 stocks, more than the entire ₹1,000-and-above universe from the very first piece in this series combined.</p>
+<p>The <strong>₹0&ndash;50 band has the worst Sharpe ratio of any price segment this blog has measured</strong> — 0.20, deep in "poor" territory, driven by the highest volatility (27.2%) and highest beta (1.31) at the same time as the lowest return of the four. It is, on every measure used so far, the single worst place in the Indian listed-equity market to have parked money over this window, and it's also the single largest group by count: 2,086 stocks, more than the entire ₹1,000-and-above universe from the very first piece in this series combined.</p>
 
-<h2>3. What "cheap" actually correlates with down here</h2>
+<h2>4. What "cheap" actually correlates with down here</h2>
 <p>Screener.in's own return, profit-growth and dividend fields for the full population in each micro-band, not a sample:</p>
 <table>
 <thead><tr><th>Price band, ₹</th><th>Median 1-year return, %</th><th>Median 6-month return, %</th><th>Median YoY quarterly profit growth, %</th><th>Median dividend yield, %</th></tr></thead>
@@ -223,36 +302,37 @@ if(skip){
 <tr><td>150&ndash;250</td><td>&minus;6.2</td><td>1.8</td><td>34.9</td><td>0.0</td></tr>
 </tbody>
 </table>
-<p>Two things stand out. First, the return gradient is completely clean here — median 1-year return improves at every single step up, from &minus;22.7% under ₹50 to &minus;6.2% at ₹150&ndash;250, and every one of these four bands still posted a <em>negative</em> median return, worse across the board than the ₹250-plus sub-bands in the previous piece. Second, the <strong>median dividend yield is exactly 0.0% in all four bands</strong> — meaning the typical stock anywhere under ₹250, not just under ₹50, pays its shareholders nothing at all, a detail the price tag alone doesn't hint at and profit-growth figures (which stay positive even in the worst band) can actively mask.</p>
+<p>Two things stand out. First, the return gradient is completely clean here — median 1-year return improves at every single step up, from &minus;22.7% under ₹50 to &minus;6.2% at ₹150&ndash;250, and every one of these four bands still posted a <em>negative</em> median return, worse across the board than the ₹250-plus sub-bands in section 1. Second, the <strong>median dividend yield is exactly 0.0% in all four bands</strong> — meaning the typical stock anywhere under ₹250, not just under ₹50, pays its shareholders nothing at all, a detail the price tag alone doesn't hint at and profit-growth figures (which stay positive even in the worst band) can actively mask.</p>
 
-<h2>4. Reading this alongside the two earlier pieces</h2>
-<p>Three pieces, three levels of zoom, and the pattern gets more extreme every time the lens narrows: no clean price-risk relationship across the five broad bands from ₹1,000 up; a real, close-to-monotonic gradient once "under ₹1,000" is split into four; and now an even sharper version of the same gradient inside just the bottom quarter of that.</p>
-<p>The mechanism is the same one identified in the previous piece — price under roughly ₹250, and especially under ₹50, is doing double duty as a rough proxy for market capitalisation, which is the thing that's actually moving with risk. It is not, on this evidence, a coincidence that the cheapest four out of every ten listed Indian stocks by count are also the segment with the highest beta, the worst Sharpe ratio, the most negative typical return, and no dividend income to show for holding through the volatility.</p>
+<h2 id="reading">5. Three levels of zoom</h2>
+<p>Three levels of zoom, and the pattern gets more extreme every time the lens narrows: no clean price-risk relationship across the five broad bands from ₹1,000 up; a real, close-to-monotonic gradient once "under ₹1,000" is split into four; and now an even sharper version of the same gradient inside just the bottom quarter of that.</p>
+<p>The mechanism is the one section 1 points to. The finding of the broad five-band comparison, that price and risk are not cleanly related, still holds among stocks priced above ₹1,000: those bands showed betas clustered close to 1.0 with no clean order. The relationship reappears only at the bottom, because price under roughly ₹250, and especially under ₹50, is doing double duty as a rough proxy for market capitalisation, which is the thing that's actually moving with risk. Genuinely small companies rarely get split or bonus-issued down from a high share price the way established companies do, so at the very bottom of the market a low price and a small company tend to go together. It is not, on this evidence, a coincidence that the cheapest four out of every ten listed Indian stocks by count are also the segment with the highest beta, the worst Sharpe ratio, the most negative typical return, and no dividend income to show for holding through the volatility.</p>
 
-<div class="verdict">Verdict: <strong>The basement has a sub-basement.</strong> Splitting "under ₹250" into four narrower bands shows the ₹0&ndash;50 range — 2,086 stocks, 43% of the entire under-₹1,000 universe from the first piece in this series — is the single worst-performing, highest-risk price segment identified anywhere across all three pieces: Sharpe ratio 0.20, median 1-year return &minus;22.7%, median dividend yield zero. The gradient from there to ₹250 is clean and consistent across every metric checked (beta, Sharpe, return, market cap), reinforcing that market capitalisation and liquidity, not the price tag itself, are what's actually driving the pattern this deep into the cheap end of the market.</div>
+<div class="verdict">Verdict: <strong>The basement has a sub-basement.</strong> Splitting "under ₹1,000" four ways puts 79% of those stocks below ₹250, where the median company is worth ₹80 crore and the median trailing-year return is &minus;17.7%. Splitting "under ₹250" into four narrower bands shows the ₹0&ndash;50 range — 2,086 stocks, 43% of the entire under-₹1,000 universe — is the single worst-performing, highest-risk price segment identified at any level of zoom: Sharpe ratio 0.20, median 1-year return &minus;22.7%, median dividend yield zero. The gradient from there to ₹250 is clean and consistent across every metric checked (beta, Sharpe, return, market cap), reinforcing that market capitalisation and liquidity, not the price tag itself, are what's actually driving the pattern this deep into the cheap end of the market.</div>
 
 <hr>
 <h3>Related on this blog</h3>
-<p><span>See also:</span> <a href="https://masaladeutsch.blogspot.com/2026/08/below-250-is-where-real-junk-lives.html">Below ₹250 Is Where the Real Junk Lives</a> — the first split of the under-₹1,000 band this piece drills further into. · <a href="https://masaladeutsch.blogspot.com/2026/08/a-slice-of-apple-costs-about-1700-slice.html">A Slice of Apple Costs About ₹1,700. A Slice of MRF Still Isn't Legal.</a> — the original five-band price segmentation this whole series builds on.</p>
+<p><span>See also:</span> <a href="https://masaladeutsch.blogspot.com/2026/08/a-slice-of-apple-costs-about-1700-slice.html">A Slice of Apple Costs About ₹1,700. A Slice of MRF Still Isn't Legal.</a> — the original five-band price segmentation this piece splits further. · <a href="https://masaladeutsch.blogspot.com/2026/08/why-bet-on-one-horse-when-you-can-buy.html">Why Bet on One Horse, When You Can Buy the Stable?</a> — the Markowitz/Sharpe-ratio framework and methodology used here.</p>
 
 
 <h2>What would fix this</h2>
 <ul>
-<li><b>NSE and BSE should publish a quarterly statistic of listed stocks by price band, with count, median market cap, median traded value and share paying any dividend</b>, so that the ₹0&ndash;50 band&rsquo;s 2,086 stocks and their zero median dividend yield are visible from exchange data, not only from private screeners.</li>
-<li><b>NSE and BSE should publish free, adjusted daily price histories for every listed security, including BSE-only scrips</b>, so that independent analysis of the cheapest band is not limited to the 80&ndash;91% of priced stocks this post could compute a beta for, a minority of each band&rsquo;s full count.</li>
-<li><b>SEBI should require brokers&rsquo; order screens to show market capitalisation, average daily traded value and trailing dividend next to the price for stocks quoted under ₹50</b>, so that a low price tag is not read as a proxy for value when the post finds it tracks small size and high beta instead.</li>
+<li><b>NSE and BSE should publish a quarterly table of listed stocks by price band and by market-capitalisation band, with count, median market cap, median traded value, median return, volatility and beta, and the share paying any dividend</b>, so that the ₹0&ndash;250 band&rsquo;s ₹80 crore median company and the ₹0&ndash;50 band&rsquo;s zero median dividend yield are visible from exchange data, not only from private screeners and one-off studies.</li>
+<li><b>NSE and BSE should show each stock&rsquo;s market capitalisation and average daily traded value next to its share price on their public quote pages and in broker data feeds</b>, so a low share price is not read as a measure of size.</li>
+<li><b>NSE and BSE should publish free, corporate-action-adjusted daily price histories for every listed security, including BSE-only scrips, with the days each was suspended or untraded</b>, so gaps like the 181 of 1,267 ₹0&ndash;250 stocks without enough continuous history for a beta can be explained rather than silently dropped.</li>
+<li><b>SEBI should require brokers&rsquo; order screens to show market capitalisation band, average daily traded value and trailing dividend next to the price, using one standard definition across brokers, at least for stocks quoted under ₹250</b>, so that a low price tag is not read as a proxy for value when it tracks small size and high beta instead.</li>
 <li><b>SEBI should direct the exchanges to publish an annual report on retail participation by price band, showing unique investors and retail share of turnover</b>, so that it is measurable how many savers sit in the segment with the worst Sharpe ratio (0.20) and median 1-year return (&minus;22.7%) found here.</li>
 </ul>
 <p>These are proposals from this blog, not recommendations any agency has adopted.</p>
 
 <h3>Sources</h3>
 <ul class="sources">
-<li>Price segmentation, returns, profit-growth and dividend-yield data for the 3,850 stocks under ₹250, split into four ₹50-wide sub-bands — Screener.in company data, 11 Aug 2026</li>
+<li>Price-band segmentation and returns/profit-growth data for the 4,862 stocks under ₹1,000, split into four sub-bands, and returns, profit-growth and dividend-yield data for the 3,850 stocks under ₹250, split into four ₹50-wide sub-bands — Screener.in company data, 11 Aug 2026</li>
 <li>Beta, portfolio return, volatility and Sharpe ratio for each sub-band — computed from a local historical NSE OHLCV warehouse (adjusted close, year-partitioned parquet, 2 Jan 2023&ndash;7 Aug 2026), same methodology and window as this blog's earlier price-segmentation and Markowitz pieces</li>
 <li>Nifty 50 benchmark series and risk-free proxy sourced via Yahoo Finance, cross-checked against <a href="https://www.screener.in/company/NIFTY/">Screener.in's Nifty 50 index page</a></li>
 </ul>
 
-<p class="disclaimer">This analysis is based on historical price and fundamentals data cited above. It is provided for informational and research purposes only and does not constitute investment advice. Local price-history coverage was partial in every band (roughly 80&ndash;91% of priced stocks returned a computable beta, itself typically a minority of each band's full count once stocks lacking any NSE/BSE ticker are included) &mdash; a limitation shared with, and consistent in scale to, the earlier pieces in this series.</p>
+<p class="disclaimer">This analysis is based on historical price and fundamentals data cited above. It is provided for informational and research purposes only and does not constitute investment advice. Local price-history coverage was partial in every band (roughly 80&ndash;91% of priced stocks returned a computable beta, itself typically a minority of each band's full count once stocks lacking any NSE/BSE ticker are included) &mdash; a limitation shared with, and consistent in scale to, the earlier pieces in this series. In section 1, 1,086 of the 1,267 priced ₹0&ndash;250 stocks had enough continuous weekly history for a reliable beta, a real but partial sample of the full 3,850-stock band.</p>
 <p class="disclaimer">Past risk-adjusted returns are backward-looking and specific to the window measured, not a prediction. Thinly traded microcap stocks, which this price range is disproportionately made up of, can show large price swings on very low volume; individual-stock figures within these bands should be treated with particular caution beyond the aggregate patterns discussed here.</p>
 <p class="disclaimer" data-gs-ai-disclosure-v1="1"><strong>About this article:</strong> Researched, written and edited by Umashankar Triplicane Dwarakanathan, with AI research assistance; every figure is meant to trace to the primary source cited. See the <a href="https://masaladeutsch.blogspot.com/p/disclaimer.html">Editorial Policy</a> for how sourcing, AI use and corrections work.</p>
 </div>

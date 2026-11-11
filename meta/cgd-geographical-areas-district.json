@@ -1,10 +1,10 @@
 {
   "id": "833317224051461139",
   "title": "CGD Geographical Areas — District Allotment Map (Part 1 of 3)",
-  "url": "https://masaladeutsch.blogspot.com/2026/07/cgd-geographical-areas-district.html",
+  "url": "https://blog.vertistratsolution.com/2026/07/cgd-geographical-areas-district.html",
   "slug": "cgd-geographical-areas-district",
   "published": "2026-07-22T05:30:00.000+05:30",
-  "updated": "2026-11-07T08:24:38.542+05:30",
+  "updated": "2026-11-07T08:24:38.000+05:30",
   "labels": [
     "City Gas Distribution",
     "Gas & LNG",
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.2.0",
+  "version": "3.2.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -327,6 +327,22 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "November data refresh"
+    },
+    {
+      "version": "3.2.1",
+      "date": "2026-11-11T05:46:22+05:30",
+      "level": "patch",
+      "reason": "moved to a new URL; body unchanged",
+      "bytes": [
+        23473,
+        23473
+      ],
+      "url_changed": [
+        "https://masaladeutsch.blogspot.com/2026/07/cgd-geographical-areas-district.html",
+        "https://blog.vertistratsolution.com/2026/07/cgd-geographical-areas-district.html"
+      ],
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

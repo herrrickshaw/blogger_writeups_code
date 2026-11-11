@@ -1,10 +1,10 @@
 {
   "id": "2916027213729149958",
   "title": "Priority Trade Partners by Import-Growth Sector, & Real PLI Coverage",
-  "url": "https://masaladeutsch.blogspot.com/2026/08/priority-trade-partners-by-import.html",
+  "url": "https://blog.vertistratsolution.com/2026/08/priority-trade-partners-by-import.html",
   "slug": "priority-trade-partners-by-import",
   "published": "2026-08-02T14:01:14.000+05:30",
-  "updated": "2026-11-07T08:55:32.871+05:30",
+  "updated": "2026-11-07T08:55:32.000+05:30",
   "labels": [
     "Industrial Policy",
     "PLI Schemes",
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.2.0",
+  "version": "3.2.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -326,6 +326,22 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "November data refresh"
+    },
+    {
+      "version": "3.2.1",
+      "date": "2026-11-11T05:46:22+05:30",
+      "level": "patch",
+      "reason": "moved to a new URL; body unchanged",
+      "bytes": [
+        48441,
+        48441
+      ],
+      "url_changed": [
+        "https://masaladeutsch.blogspot.com/2026/08/priority-trade-partners-by-import.html",
+        "https://blog.vertistratsolution.com/2026/08/priority-trade-partners-by-import.html"
+      ],
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

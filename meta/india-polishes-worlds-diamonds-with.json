@@ -1,10 +1,10 @@
 {
   "id": "3273897251757787598",
   "title": "India Polishes the World's Diamonds With Chinese Powder. Grinding Up Its Lab-Grown Stones Won't Fix That.",
-  "url": "https://masaladeutsch.blogspot.com/2026/09/india-polishes-worlds-diamonds-with.html",
+  "url": "https://blog.vertistratsolution.com/2026/09/india-polishes-worlds-diamonds-with.html",
   "slug": "india-polishes-worlds-diamonds-with",
   "published": "2026-09-30T06:03:05.000+05:30",
-  "updated": "2026-11-07T08:38:36.454+05:30",
+  "updated": "2026-11-07T08:38:36.000+05:30",
   "labels": [
     "Import Substitution",
     "Industrial Policy",
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.2.0",
+  "version": "1.2.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -57,6 +57,22 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "November data refresh"
+    },
+    {
+      "version": "1.2.1",
+      "date": "2026-11-11T05:46:22+05:30",
+      "level": "patch",
+      "reason": "moved to a new URL; body unchanged",
+      "bytes": [
+        28184,
+        28184
+      ],
+      "url_changed": [
+        "https://masaladeutsch.blogspot.com/2026/09/india-polishes-worlds-diamonds-with.html",
+        "https://blog.vertistratsolution.com/2026/09/india-polishes-worlds-diamonds-with.html"
+      ],
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

@@ -1,10 +1,10 @@
 {
   "id": "235349681595122068",
   "title": "What TEPA Actually Opens: EFTA Goods, India's Real Numbers, and Where Domestic Manufacturing Needs to Catch Up",
-  "url": "https://masaladeutsch.blogspot.com/2026/08/what-tepa-actually-opens-efta-goods.html",
+  "url": "https://blog.vertistratsolution.com/2026/08/what-tepa-actually-opens-efta-goods.html",
   "slug": "what-tepa-actually-opens-efta-goods",
   "published": "2026-08-14T12:27:50.000+05:30",
-  "updated": "2026-11-07T09:09:26.950+05:30",
+  "updated": "2026-11-07T09:09:26.000+05:30",
   "labels": [
     "Free Trade Agreements",
     "Trade & Tariffs"
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.2.0",
+  "version": "2.2.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -160,6 +160,22 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "November data refresh"
+    },
+    {
+      "version": "2.2.1",
+      "date": "2026-11-11T05:46:22+05:30",
+      "level": "patch",
+      "reason": "moved to a new URL; body unchanged",
+      "bytes": [
+        31937,
+        31937
+      ],
+      "url_changed": [
+        "https://masaladeutsch.blogspot.com/2026/08/what-tepa-actually-opens-efta-goods.html",
+        "https://blog.vertistratsolution.com/2026/08/what-tepa-actually-opens-efta-goods.html"
+      ],
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

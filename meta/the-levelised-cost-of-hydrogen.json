@@ -1,10 +1,10 @@
 {
   "id": "5745185672239755809",
   "title": "The Levelised Cost of Hydrogen, Explained: What It Would Actually Take to Hit India's $1.50/kg Target",
-  "url": "https://masaladeutsch.blogspot.com/2026/08/the-levelised-cost-of-hydrogen.html",
+  "url": "https://blog.vertistratsolution.com/2026/08/the-levelised-cost-of-hydrogen.html",
   "slug": "the-levelised-cost-of-hydrogen",
   "published": "2026-08-20T06:13:26.000+05:30",
-  "updated": "2026-10-23T10:09:49.278+05:30",
+  "updated": "2026-10-23T10:09:49.000+05:30",
   "labels": [
     "Energy & Fuels",
     "Hydrogen",
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.1.1",
+  "version": "2.1.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -200,6 +200,22 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Sweep 4 MEDIUM items: dated update notes on 59 posts"
+    },
+    {
+      "version": "2.1.2",
+      "date": "2026-11-11T05:46:22+05:30",
+      "level": "patch",
+      "reason": "moved to a new URL; body unchanged",
+      "bytes": [
+        58133,
+        58133
+      ],
+      "url_changed": [
+        "https://masaladeutsch.blogspot.com/2026/08/the-levelised-cost-of-hydrogen.html",
+        "https://blog.vertistratsolution.com/2026/08/the-levelised-cost-of-hydrogen.html"
+      ],
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

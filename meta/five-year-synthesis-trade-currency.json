@@ -1,10 +1,10 @@
 {
   "id": "3143408713196154814",
   "title": "Five-Year Synthesis: Trade, Currency & Policy, FY2021-22 to FY2025-26",
-  "url": "https://masaladeutsch.blogspot.com/2026/08/five-year-synthesis-trade-currency.html",
+  "url": "https://blog.vertistratsolution.com/2026/08/five-year-synthesis-trade-currency.html",
   "slug": "five-year-synthesis-trade-currency",
   "published": "2026-08-02T13:51:50.000+05:30",
-  "updated": "2026-11-07T08:30:18.470+05:30",
+  "updated": "2026-11-07T08:30:18.000+05:30",
   "labels": [
     "Industrial Policy",
     "Trade & Tariffs"
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.1.0",
+  "version": "3.1.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -343,6 +343,22 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "November data refresh"
+    },
+    {
+      "version": "3.1.1",
+      "date": "2026-11-11T05:46:22+05:30",
+      "level": "patch",
+      "reason": "moved to a new URL; body unchanged",
+      "bytes": [
+        52762,
+        52762
+      ],
+      "url_changed": [
+        "https://masaladeutsch.blogspot.com/2026/08/five-year-synthesis-trade-currency.html",
+        "https://blog.vertistratsolution.com/2026/08/five-year-synthesis-trade-currency.html"
+      ],
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

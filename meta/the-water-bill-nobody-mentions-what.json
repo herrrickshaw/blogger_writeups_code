@@ -1,10 +1,10 @@
 {
   "id": "8266711618804173378",
   "title": "The Water Bill Nobody Mentions: What Taiwan's Chip Crisis Says About India's Fab Plans",
-  "url": "https://masaladeutsch.blogspot.com/2026/08/the-water-bill-nobody-mentions-what.html",
+  "url": "https://blog.vertistratsolution.com/2026/08/the-water-bill-nobody-mentions-what.html",
   "slug": "the-water-bill-nobody-mentions-what",
   "published": "2026-08-18T04:39:02.000+05:30",
-  "updated": "2026-10-01T08:56:40.611+05:30",
+  "updated": "2026-10-01T08:56:40.000+05:30",
   "labels": [
     "Environment & Clearances",
     "Import Substitution",
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.1.0",
+  "version": "2.1.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -135,6 +135,22 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Rule 8 retrofit: added What would fix this section"
+    },
+    {
+      "version": "2.1.1",
+      "date": "2026-11-11T05:46:22+05:30",
+      "level": "patch",
+      "reason": "moved to a new URL; body unchanged",
+      "bytes": [
+        25665,
+        25665
+      ],
+      "url_changed": [
+        "https://masaladeutsch.blogspot.com/2026/08/the-water-bill-nobody-mentions-what.html",
+        "https://blog.vertistratsolution.com/2026/08/the-water-bill-nobody-mentions-what.html"
+      ],
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

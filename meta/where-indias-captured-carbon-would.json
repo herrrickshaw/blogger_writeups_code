@@ -1,10 +1,10 @@
 {
   "id": "8417484502305983575",
   "title": "Where India's Captured Carbon Would Actually Go: Two Named Wells, and a Lot of Basins on a Map",
-  "url": "https://masaladeutsch.blogspot.com/2026/08/where-indias-captured-carbon-would.html",
+  "url": "https://blog.vertistratsolution.com/2026/08/where-indias-captured-carbon-would.html",
   "slug": "where-indias-captured-carbon-would",
   "published": "2026-08-28T07:52:34.000+05:30",
-  "updated": "2026-11-07T09:09:39.478+05:30",
+  "updated": "2026-11-07T09:09:39.000+05:30",
   "labels": [
     "Carbon Capture & Storage",
     "Climate & Carbon",
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.2.0",
+  "version": "1.2.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -110,6 +110,22 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "November data refresh"
+    },
+    {
+      "version": "1.2.1",
+      "date": "2026-11-11T05:46:22+05:30",
+      "level": "patch",
+      "reason": "moved to a new URL; body unchanged",
+      "bytes": [
+        29410,
+        29410
+      ],
+      "url_changed": [
+        "https://masaladeutsch.blogspot.com/2026/08/where-indias-captured-carbon-would.html",
+        "https://blog.vertistratsolution.com/2026/08/where-indias-captured-carbon-would.html"
+      ],
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

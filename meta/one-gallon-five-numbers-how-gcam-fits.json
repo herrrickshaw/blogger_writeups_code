@@ -1,10 +1,10 @@
 {
   "id": "5331484031743767237",
   "title": "One Gallon, Five Numbers: How GCAM Fits Into — and Stays Out of — the World's Biofuel Carbon-Credit Systems",
-  "url": "https://masaladeutsch.blogspot.com/2026/08/one-gallon-five-numbers-how-gcam-fits.html",
+  "url": "https://blog.vertistratsolution.com/2026/08/one-gallon-five-numbers-how-gcam-fits.html",
   "slug": "one-gallon-five-numbers-how-gcam-fits",
   "published": "2026-08-13T11:20:44.000+05:30",
-  "updated": "2026-11-07T08:52:44.072+05:30",
+  "updated": "2026-11-07T08:52:44.000+05:30",
   "labels": [
     "Biofuels",
     "Carbon Markets",
@@ -25,7 +25,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.3.0",
+  "version": "2.3.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -176,6 +176,22 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "November data refresh"
+    },
+    {
+      "version": "2.3.1",
+      "date": "2026-11-11T05:46:22+05:30",
+      "level": "patch",
+      "reason": "moved to a new URL; body unchanged",
+      "bytes": [
+        31883,
+        31883
+      ],
+      "url_changed": [
+        "https://masaladeutsch.blogspot.com/2026/08/one-gallon-five-numbers-how-gcam-fits.html",
+        "https://blog.vertistratsolution.com/2026/08/one-gallon-five-numbers-how-gcam-fits.html"
+      ],
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

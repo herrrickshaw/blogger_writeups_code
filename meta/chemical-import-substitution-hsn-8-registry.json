@@ -1,16 +1,16 @@
 {
   "id": "6790374087242629357",
   "title": "Which of 827 Chemical HSN-8 Codes Are Real Substitution Targets",
-  "url": "https://masaladeutsch.blogspot.com/2026/08/chemical-import-substitution-hsn-8-registry.html",
+  "url": "https://blog.vertistratsolution.com/2026/08/chemical-import-substitution-hsn-8-registry.html",
   "slug": "chemical-import-substitution-hsn-8-registry",
   "published": "2026-08-06T09:07:16.000+05:30",
-  "updated": "2026-10-01T08:16:43.019+05:30",
+  "updated": "2026-11-11T05:45:23.000+05:30",
   "labels": [
     "Chemicals",
     "Import Substitution"
   ],
-  "bytes": 25014,
-  "sha256": "0b15558be4ac3b0ebe88827271e4797d22192141adc4c6e0c9e4861877563bdc",
+  "bytes": 399544,
+  "sha256": "50af0899ec0299bcb251691af7ef05d7c324b046f52c511514a39703bca452ad",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "4.2.0",
+  "version": "5.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -317,6 +317,22 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Rule 8 retrofit: added What would fix this section"
+    },
+    {
+      "version": "5.0.0",
+      "date": "2026-11-11T05:46:22+05:30",
+      "level": "major",
+      "reason": "figures changed (+1899/-0 distinct numbers)",
+      "bytes": [
+        25014,
+        399544
+      ],
+      "url_changed": [
+        "https://masaladeutsch.blogspot.com/2026/08/chemical-import-substitution-hsn-8-registry.html",
+        "https://blog.vertistratsolution.com/2026/08/chemical-import-substitution-hsn-8-registry.html"
+      ],
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

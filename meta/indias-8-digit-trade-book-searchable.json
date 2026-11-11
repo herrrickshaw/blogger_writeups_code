@@ -1,10 +1,10 @@
 {
   "id": "3337701442741025664",
   "title": "India's 8-Digit Trade Book, Searchable",
-  "url": "https://masaladeutsch.blogspot.com/2026/08/indias-8-digit-trade-book-searchable.html",
+  "url": "https://blog.vertistratsolution.com/2026/08/indias-8-digit-trade-book-searchable.html",
   "slug": "indias-8-digit-trade-book-searchable",
   "published": "2026-08-23T07:09:47.000+05:30",
-  "updated": "2026-10-01T08:32:12.244+05:30",
+  "updated": "2026-10-01T08:32:12.000+05:30",
   "labels": [
     "Customs & HSN Trade Data",
     "India Trade & Policy",
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.1.0",
+  "version": "3.1.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -123,6 +123,22 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Rule 8 retrofit: added What would fix this section"
+    },
+    {
+      "version": "3.1.1",
+      "date": "2026-11-11T05:46:22+05:30",
+      "level": "patch",
+      "reason": "moved to a new URL; body unchanged",
+      "bytes": [
+        34575,
+        34575
+      ],
+      "url_changed": [
+        "https://masaladeutsch.blogspot.com/2026/08/indias-8-digit-trade-book-searchable.html",
+        "https://blog.vertistratsolution.com/2026/08/indias-8-digit-trade-book-searchable.html"
+      ],
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

@@ -1,10 +1,10 @@
 {
   "id": "9053217851150932322",
   "title": "Jai Kisan, Jai Javan — An FCI-Based Military Ration Strategy",
-  "url": "https://masaladeutsch.blogspot.com/2026/08/jai-kisan-jai-javan-fci-based-military.html",
+  "url": "https://blog.vertistratsolution.com/2026/08/jai-kisan-jai-javan-fci-based-military.html",
   "slug": "jai-kisan-jai-javan-fci-based-military",
   "published": "2026-08-04T16:15:00.000+05:30",
-  "updated": "2026-10-01T08:40:14.774+05:30",
+  "updated": "2026-10-01T08:40:14.000+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Grain Procurement & Storage"
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.1.0",
+  "version": "3.1.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -256,6 +256,22 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Rule 8 retrofit: added What would fix this section"
+    },
+    {
+      "version": "3.1.1",
+      "date": "2026-11-11T05:46:22+05:30",
+      "level": "patch",
+      "reason": "moved to a new URL; body unchanged",
+      "bytes": [
+        23936,
+        23936
+      ],
+      "url_changed": [
+        "https://masaladeutsch.blogspot.com/2026/08/jai-kisan-jai-javan-fci-based-military.html",
+        "https://blog.vertistratsolution.com/2026/08/jai-kisan-jai-javan-fci-based-military.html"
+      ],
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

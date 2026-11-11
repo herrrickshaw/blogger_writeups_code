@@ -1,10 +1,10 @@
 {
   "id": "602008193297885632",
   "title": "Ten Cubic Metres an Hour: India's First Green Fuel Bunkering Rulebook, and the Pilots Behind It",
-  "url": "https://masaladeutsch.blogspot.com/2026/08/ten-cubic-metres-hour-indias-first.html",
+  "url": "https://blog.vertistratsolution.com/2026/08/ten-cubic-metres-hour-indias-first.html",
   "slug": "ten-cubic-metres-hour-indias-first",
   "published": "2026-08-20T10:01:38.000+05:30",
-  "updated": "2026-11-07T09:00:53.813+05:30",
+  "updated": "2026-11-07T09:00:53.000+05:30",
   "labels": [
     "Energy & Fuels",
     "Hydrogen",
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.3.0",
+  "version": "2.3.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -162,6 +162,22 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "November data refresh"
+    },
+    {
+      "version": "2.3.1",
+      "date": "2026-11-11T05:46:22+05:30",
+      "level": "patch",
+      "reason": "moved to a new URL; body unchanged",
+      "bytes": [
+        38897,
+        38897
+      ],
+      "url_changed": [
+        "https://masaladeutsch.blogspot.com/2026/08/ten-cubic-metres-hour-indias-first.html",
+        "https://blog.vertistratsolution.com/2026/08/ten-cubic-metres-hour-indias-first.html"
+      ],
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

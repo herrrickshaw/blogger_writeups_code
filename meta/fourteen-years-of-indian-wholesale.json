@@ -1,10 +1,10 @@
 {
   "id": "1665435353922419990",
   "title": "Fourteen Years of Indian Wholesale Prices: Diesel Up 79%, Urea Up 13.8% — and Three Corrections to Our Own Earlier Posts",
-  "url": "https://masaladeutsch.blogspot.com/2026/08/fourteen-years-of-indian-wholesale.html",
+  "url": "https://blog.vertistratsolution.com/2026/08/fourteen-years-of-indian-wholesale.html",
   "slug": "fourteen-years-of-indian-wholesale",
   "published": "2026-08-05T21:46:29.000+05:30",
-  "updated": "2026-10-23T10:01:09.378+05:30",
+  "updated": "2026-10-23T10:01:09.000+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Energy & Fuels",
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.2.1",
+  "version": "3.2.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -304,6 +304,22 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Sweep 4 MEDIUM items: dated update notes on 59 posts"
+    },
+    {
+      "version": "3.2.2",
+      "date": "2026-11-11T05:46:22+05:30",
+      "level": "patch",
+      "reason": "moved to a new URL; body unchanged",
+      "bytes": [
+        33162,
+        33162
+      ],
+      "url_changed": [
+        "https://masaladeutsch.blogspot.com/2026/08/fourteen-years-of-indian-wholesale.html",
+        "https://blog.vertistratsolution.com/2026/08/fourteen-years-of-indian-wholesale.html"
+      ],
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

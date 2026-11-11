@@ -1,10 +1,10 @@
 {
   "id": "2328058311414505235",
   "title": "India's Reported Central Project Overrun Halved in Four Months. The Monitored List Shrank, and the Count of Late Projects Is No Longer Published",
-  "url": "https://masaladeutsch.blogspot.com/2026/10/indias-reported-central-project-overrun.html",
+  "url": "https://blog.vertistratsolution.com/2026/10/indias-reported-central-project-overrun.html",
   "slug": "indias-reported-central-project-overrun",
   "published": "2026-10-09T20:01:36.000+05:30",
-  "updated": "2026-11-07T08:47:26.943+05:30",
+  "updated": "2026-11-07T08:47:26.000+05:30",
   "labels": [],
   "bytes": 24334,
   "sha256": "b7abc597adf0ddde226acb8c49193f80ef01aa4843edcb688045a581f79699d9",
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.1.0",
+  "version": "1.1.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -40,6 +40,22 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "November data refresh"
+    },
+    {
+      "version": "1.1.1",
+      "date": "2026-11-11T05:46:22+05:30",
+      "level": "patch",
+      "reason": "moved to a new URL; body unchanged",
+      "bytes": [
+        24334,
+        24334
+      ],
+      "url_changed": [
+        "https://masaladeutsch.blogspot.com/2026/10/indias-reported-central-project-overrun.html",
+        "https://blog.vertistratsolution.com/2026/10/indias-reported-central-project-overrun.html"
+      ],
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

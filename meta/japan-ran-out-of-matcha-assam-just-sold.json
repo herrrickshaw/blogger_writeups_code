@@ -1,10 +1,10 @@
 {
   "id": "803112054538889595",
   "title": "Japan Ran Out of Matcha. Assam Just Sold Its First Five Kilos.",
-  "url": "https://masaladeutsch.blogspot.com/2026/08/japan-ran-out-of-matcha-assam-just-sold.html",
+  "url": "https://blog.vertistratsolution.com/2026/08/japan-ran-out-of-matcha-assam-just-sold.html",
   "slug": "japan-ran-out-of-matcha-assam-just-sold",
   "published": "2026-08-23T05:48:49.000+05:30",
-  "updated": "2026-11-07T08:49:49.790+05:30",
+  "updated": "2026-11-07T08:49:49.000+05:30",
   "labels": [
     "Agriculture & Food Processing",
     "Cash Crop Export Economics",
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.2.0",
+  "version": "3.2.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -123,6 +123,22 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "November data refresh"
+    },
+    {
+      "version": "3.2.1",
+      "date": "2026-11-11T05:46:22+05:30",
+      "level": "patch",
+      "reason": "moved to a new URL; body unchanged",
+      "bytes": [
+        36593,
+        36593
+      ],
+      "url_changed": [
+        "https://masaladeutsch.blogspot.com/2026/08/japan-ran-out-of-matcha-assam-just-sold.html",
+        "https://blog.vertistratsolution.com/2026/08/japan-ran-out-of-matcha-assam-just-sold.html"
+      ],
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

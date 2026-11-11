@@ -1,10 +1,10 @@
 {
   "id": "3921232394818232198",
   "title": "Indian IT in an AI Era",
-  "url": "https://masaladeutsch.blogspot.com/2026/08/indian-it-in-ai-era.html",
+  "url": "https://blog.vertistratsolution.com/2026/08/indian-it-in-ai-era.html",
   "slug": "indian-it-in-ai-era",
   "published": "2026-08-04T12:48:16.000+05:30",
-  "updated": "2026-11-07T08:40:08.833+05:30",
+  "updated": "2026-11-07T08:40:08.000+05:30",
   "labels": [
     "Markets & Finance"
   ],
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.2.0",
+  "version": "2.2.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -337,6 +337,22 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "November data refresh"
+    },
+    {
+      "version": "2.2.1",
+      "date": "2026-11-11T05:46:22+05:30",
+      "level": "patch",
+      "reason": "moved to a new URL; body unchanged",
+      "bytes": [
+        44782,
+        44782
+      ],
+      "url_changed": [
+        "https://masaladeutsch.blogspot.com/2026/08/indian-it-in-ai-era.html",
+        "https://blog.vertistratsolution.com/2026/08/indian-it-in-ai-era.html"
+      ],
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

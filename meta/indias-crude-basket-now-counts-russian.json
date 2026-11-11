@@ -1,10 +1,10 @@
 {
   "id": "8033011323447484171",
   "title": "India's Crude Basket Now Counts Russian Oil as 'Sweet'. The Barrels Its Refineries Run Are Still Mostly Sour",
-  "url": "https://masaladeutsch.blogspot.com/2026/10/indias-crude-basket-now-counts-russian.html",
+  "url": "https://blog.vertistratsolution.com/2026/10/indias-crude-basket-now-counts-russian.html",
   "slug": "indias-crude-basket-now-counts-russian",
   "published": "2026-10-27T17:26:22.000+05:30",
-  "updated": "2026-11-07T08:43:00.269+05:30",
+  "updated": "2026-11-07T08:43:00.000+05:30",
   "labels": [
     "Energy & Fuels"
   ],
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.1.0",
+  "version": "1.1.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -42,6 +42,22 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "November data refresh"
+    },
+    {
+      "version": "1.1.1",
+      "date": "2026-11-11T05:46:22+05:30",
+      "level": "patch",
+      "reason": "moved to a new URL; body unchanged",
+      "bytes": [
+        26560,
+        26560
+      ],
+      "url_changed": [
+        "https://masaladeutsch.blogspot.com/2026/10/indias-crude-basket-now-counts-russian.html",
+        "https://blog.vertistratsolution.com/2026/10/indias-crude-basket-now-counts-russian.html"
+      ],
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

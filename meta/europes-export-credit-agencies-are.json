@@ -1,10 +1,10 @@
 {
   "id": "7601363762801353983",
   "title": "Europe's Export Credit Agencies Are Quietly Bankrolling India's Infrastructure — Not Its Factories",
-  "url": "https://masaladeutsch.blogspot.com/2026/08/europes-export-credit-agencies-are.html",
+  "url": "https://blog.vertistratsolution.com/2026/08/europes-export-credit-agencies-are.html",
   "slug": "europes-export-credit-agencies-are",
   "published": "2026-08-05T19:00:06.000+05:30",
-  "updated": "2026-11-07T08:28:39.979+05:30",
+  "updated": "2026-11-07T08:28:39.000+05:30",
   "labels": [
     "Trade & Tariffs"
   ],
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.2.0",
+  "version": "3.2.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -281,6 +281,22 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "November data refresh"
+    },
+    {
+      "version": "3.2.1",
+      "date": "2026-11-11T05:46:22+05:30",
+      "level": "patch",
+      "reason": "moved to a new URL; body unchanged",
+      "bytes": [
+        28857,
+        28857
+      ],
+      "url_changed": [
+        "https://masaladeutsch.blogspot.com/2026/08/europes-export-credit-agencies-are.html",
+        "https://blog.vertistratsolution.com/2026/08/europes-export-credit-agencies-are.html"
+      ],
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

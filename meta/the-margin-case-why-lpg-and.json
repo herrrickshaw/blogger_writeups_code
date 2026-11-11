@@ -1,10 +1,10 @@
 {
   "id": "7340128580742502464",
   "title": "The Margin Case: Why LPG and Petrochemicals Beat Petrol, From the Same Barrel",
-  "url": "https://masaladeutsch.blogspot.com/2026/08/the-margin-case-why-lpg-and.html",
+  "url": "https://blog.vertistratsolution.com/2026/08/the-margin-case-why-lpg-and.html",
   "slug": "the-margin-case-why-lpg-and",
   "published": "2026-08-13T08:58:40.000+05:30",
-  "updated": "2026-11-07T09:05:00.174+05:30",
+  "updated": "2026-11-07T09:05:00.000+05:30",
   "labels": [
     "Chemicals",
     "Energy & Fuels",
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.2.0",
+  "version": "3.2.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -239,6 +239,22 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "November data refresh"
+    },
+    {
+      "version": "3.2.1",
+      "date": "2026-11-11T05:46:22+05:30",
+      "level": "patch",
+      "reason": "moved to a new URL; body unchanged",
+      "bytes": [
+        43103,
+        43103
+      ],
+      "url_changed": [
+        "https://masaladeutsch.blogspot.com/2026/08/the-margin-case-why-lpg-and.html",
+        "https://blog.vertistratsolution.com/2026/08/the-margin-case-why-lpg-and.html"
+      ],
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

@@ -1,10 +1,10 @@
 {
   "id": "6337878052656983483",
   "title": "📚 Article Index — Start Here",
-  "url": "https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html",
+  "url": "https://blog.vertistratsolution.com/2026/08/article-index-start-here.html",
   "slug": "article-index-start-here",
   "published": "2026-08-02T10:43:26.000+05:30",
-  "updated": "2026-11-06T04:15:28.736+05:30",
+  "updated": "2026-11-06T04:15:28.000+05:30",
   "labels": [],
   "bytes": 958182,
   "sha256": "754059ae13fbe9a7834a466c92f4bf3d1b4354d4e8977f50e6bd9c5785c23245",
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "74.0.0",
+  "version": "74.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -2494,6 +2494,22 @@
         958182
       ],
       "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "74.0.1",
+      "date": "2026-11-11T05:46:22+05:30",
+      "level": "patch",
+      "reason": "moved to a new URL; body unchanged",
+      "bytes": [
+        958182,
+        958182
+      ],
+      "url_changed": [
+        "https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html",
+        "https://blog.vertistratsolution.com/2026/08/article-index-start-here.html"
+      ],
       "markers_changed": null,
       "note": ""
     }

@@ -1,10 +1,10 @@
 {
   "id": "2905029390166160336",
   "title": "Chemical Import Substitution Analysis: Executive Summary",
-  "url": "https://masaladeutsch.blogspot.com/2026/07/chemical-import-substitution-analysis.html",
+  "url": "https://blog.vertistratsolution.com/2026/07/chemical-import-substitution-analysis.html",
   "slug": "chemical-import-substitution-analysis",
   "published": "2026-08-01T09:22:00.000+05:30",
-  "updated": "2026-11-07T08:24:54.984+05:30",
+  "updated": "2026-11-07T08:24:54.000+05:30",
   "labels": [
     "Chemicals",
     "Customs & HSN Trade Data",
@@ -25,7 +25,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "4.4.0",
+  "version": "4.4.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -350,6 +350,22 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "November data refresh"
+    },
+    {
+      "version": "4.4.1",
+      "date": "2026-11-11T05:46:22+05:30",
+      "level": "patch",
+      "reason": "moved to a new URL; body unchanged",
+      "bytes": [
+        43258,
+        43258
+      ],
+      "url_changed": [
+        "https://masaladeutsch.blogspot.com/2026/07/chemical-import-substitution-analysis.html",
+        "https://blog.vertistratsolution.com/2026/07/chemical-import-substitution-analysis.html"
+      ],
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

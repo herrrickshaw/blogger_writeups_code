@@ -1,10 +1,10 @@
 {
   "id": "573067405213775485",
   "title": "Chemical Import Substitution — Quarterly Tracking Dashboard",
-  "url": "https://masaladeutsch.blogspot.com/2026/07/chemical-import-substitution-quarterly.html",
+  "url": "https://blog.vertistratsolution.com/2026/07/chemical-import-substitution-quarterly.html",
   "slug": "chemical-import-substitution-quarterly",
   "published": "2026-08-01T09:33:00.000+05:30",
-  "updated": "2026-11-04T18:44:21.956+05:30",
+  "updated": "2026-11-04T18:44:21.000+05:30",
   "labels": [
     "Chemicals",
     "Customs & HSN Trade Data",
@@ -25,7 +25,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.3.0",
+  "version": "3.3.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -350,6 +350,22 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "crosscheck 2 Nov fixes"
+    },
+    {
+      "version": "3.3.1",
+      "date": "2026-11-11T05:46:22+05:30",
+      "level": "patch",
+      "reason": "moved to a new URL; body unchanged",
+      "bytes": [
+        61928,
+        61928
+      ],
+      "url_changed": [
+        "https://masaladeutsch.blogspot.com/2026/07/chemical-import-substitution-quarterly.html",
+        "https://blog.vertistratsolution.com/2026/07/chemical-import-substitution-quarterly.html"
+      ],
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

@@ -1,10 +1,10 @@
 {
   "id": "5856131261765479806",
   "title": "Where India's Gigawatt Data-Centre Bets Actually Land: Projects, Cables, and the $210 Billion Behind Them",
-  "url": "https://masaladeutsch.blogspot.com/2026/08/where-indias-gigawatt-data-centre-bets.html",
+  "url": "https://blog.vertistratsolution.com/2026/08/where-indias-gigawatt-data-centre-bets.html",
   "slug": "where-indias-gigawatt-data-centre-bets",
   "published": "2026-08-20T21:16:29.000+05:30",
-  "updated": "2026-11-04T18:46:19.240+05:30",
+  "updated": "2026-11-04T18:46:19.000+05:30",
   "labels": [
     "Data Centres & AI Infra",
     "Infrastructure & Investment"
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.2.0",
+  "version": "2.2.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -134,6 +134,22 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "crosscheck 2 Nov fixes"
+    },
+    {
+      "version": "2.2.1",
+      "date": "2026-11-11T05:46:22+05:30",
+      "level": "patch",
+      "reason": "moved to a new URL; body unchanged",
+      "bytes": [
+        28801,
+        28801
+      ],
+      "url_changed": [
+        "https://masaladeutsch.blogspot.com/2026/08/where-indias-gigawatt-data-centre-bets.html",
+        "https://blog.vertistratsolution.com/2026/08/where-indias-gigawatt-data-centre-bets.html"
+      ],
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

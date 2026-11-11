@@ -1,10 +1,10 @@
 {
   "id": "7425363437817305526",
   "title": "Which ECB Currencies Are Actually Investable, Once Real Volatility Replaces the Theory",
-  "url": "https://masaladeutsch.blogspot.com/2026/08/which-ecb-currencies-are-actually.html",
+  "url": "https://blog.vertistratsolution.com/2026/08/which-ecb-currencies-are-actually.html",
   "slug": "which-ecb-currencies-are-actually",
   "published": "2026-08-14T18:53:36.000+05:30",
-  "updated": "2026-10-07T11:06:36.580+05:30",
+  "updated": "2026-10-07T11:06:36.000+05:30",
   "labels": [
     "Markets & Finance",
     "Sustainable Finance"
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.0",
+  "version": "3.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -160,6 +160,22 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "RBI repo 5.50% on 7 Oct: rate drafts"
+    },
+    {
+      "version": "3.0.1",
+      "date": "2026-11-11T05:46:22+05:30",
+      "level": "patch",
+      "reason": "moved to a new URL; body unchanged",
+      "bytes": [
+        26295,
+        26295
+      ],
+      "url_changed": [
+        "https://masaladeutsch.blogspot.com/2026/08/which-ecb-currencies-are-actually.html",
+        "https://blog.vertistratsolution.com/2026/08/which-ecb-currencies-are-actually.html"
+      ],
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

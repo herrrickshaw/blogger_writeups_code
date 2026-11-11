@@ -1,10 +1,10 @@
 {
   "id": "1975857880529961487",
   "title": "India Finally Has a Rule for Used Motor Oil. Nobody Can Price What It Costs Yet.",
-  "url": "https://masaladeutsch.blogspot.com/2026/08/what-actually-happens-to-indias-used.html",
+  "url": "https://blog.vertistratsolution.com/2026/08/what-actually-happens-to-indias-used.html",
   "slug": "what-actually-happens-to-indias-used",
   "published": "2026-08-23T22:08:12.000+05:30",
-  "updated": "2026-11-07T09:08:59.491+05:30",
+  "updated": "2026-11-07T09:08:59.000+05:30",
   "labels": [
     "Chemicals",
     "Circularity & Waste-to-Value",
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.2.0",
+  "version": "3.2.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -148,6 +148,22 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "November data refresh"
+    },
+    {
+      "version": "3.2.1",
+      "date": "2026-11-11T05:46:22+05:30",
+      "level": "patch",
+      "reason": "moved to a new URL; body unchanged",
+      "bytes": [
+        44707,
+        44707
+      ],
+      "url_changed": [
+        "https://masaladeutsch.blogspot.com/2026/08/what-actually-happens-to-indias-used.html",
+        "https://blog.vertistratsolution.com/2026/08/what-actually-happens-to-indias-used.html"
+      ],
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

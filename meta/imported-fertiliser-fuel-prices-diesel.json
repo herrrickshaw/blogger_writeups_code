@@ -1,10 +1,10 @@
 {
   "id": "2524029659880077510",
   "title": "Imported Fertiliser & Fuel Prices → Diesel → CPI/WPI — India",
-  "url": "https://masaladeutsch.blogspot.com/2026/08/imported-fertiliser-fuel-prices-diesel.html",
+  "url": "https://blog.vertistratsolution.com/2026/08/imported-fertiliser-fuel-prices-diesel.html",
   "slug": "imported-fertiliser-fuel-prices-diesel",
   "published": "2026-08-02T13:50:50.000+05:30",
-  "updated": "2026-10-26T13:54:24.853+05:30",
+  "updated": "2026-10-26T13:54:24.000+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Energy & Fuels",
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "5.0.0",
+  "version": "5.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -310,6 +310,22 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "MoSPI refresh: Sep 2026 CPI by state, WPI items, CPI-AL/RL, GDP PE, WPI deflator fix"
+    },
+    {
+      "version": "5.0.1",
+      "date": "2026-11-11T05:46:22+05:30",
+      "level": "patch",
+      "reason": "moved to a new URL; body unchanged",
+      "bytes": [
+        37898,
+        37898
+      ],
+      "url_changed": [
+        "https://masaladeutsch.blogspot.com/2026/08/imported-fertiliser-fuel-prices-diesel.html",
+        "https://blog.vertistratsolution.com/2026/08/imported-fertiliser-fuel-prices-diesel.html"
+      ],
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

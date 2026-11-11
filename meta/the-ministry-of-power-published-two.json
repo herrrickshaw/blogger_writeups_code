@@ -1,10 +1,10 @@
 {
   "id": "7801757411175454220",
   "title": "The Ministry of Power Published Two Different AT&C Loss Figures for the Same Year. Its Flagship Scheme's Target Sits Between Them.",
-  "url": "https://masaladeutsch.blogspot.com/2026/09/the-ministry-of-power-published-two.html",
+  "url": "https://blog.vertistratsolution.com/2026/09/the-ministry-of-power-published-two.html",
   "slug": "the-ministry-of-power-published-two",
   "published": "2026-09-19T07:43:38.000+05:30",
-  "updated": "2026-09-19T07:57:18.022+05:30",
+  "updated": "2026-09-19T07:57:18.000+05:30",
   "labels": [
     "Energy & Fuels",
     "Industrial Policy"
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -43,6 +43,22 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "publish 3: IOR/EOR recovery-factor piece, PMFBY who-pays-the-premium, Soil Health Card April-2023 seam. Republish 2: AT&C figures piece and coal-to-chemicals menu (fixed a stale cross-link phrase). All five carry the new 'What would fix this' section (house rule added to CLAUDE.md)."
+    },
+    {
+      "version": "1.0.2",
+      "date": "2026-11-11T05:46:22+05:30",
+      "level": "patch",
+      "reason": "moved to a new URL; body unchanged",
+      "bytes": [
+        17407,
+        17407
+      ],
+      "url_changed": [
+        "https://masaladeutsch.blogspot.com/2026/09/the-ministry-of-power-published-two.html",
+        "https://blog.vertistratsolution.com/2026/09/the-ministry-of-power-published-two.html"
+      ],
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

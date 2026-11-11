@@ -1,10 +1,10 @@
 {
   "id": "4093846361849774289",
   "title": "What a Failed Bankruptcy Auction Actually Costs, in India's Own Numbers",
-  "url": "https://masaladeutsch.blogspot.com/2026/09/what-failed-bankruptcy-auction-actually.html",
+  "url": "https://blog.vertistratsolution.com/2026/09/what-failed-bankruptcy-auction-actually.html",
   "slug": "what-failed-bankruptcy-auction-actually",
   "published": "2026-09-15T09:41:43.000+05:30",
-  "updated": "2026-10-01T08:59:20.870+05:30",
+  "updated": "2026-10-01T08:59:20.000+05:30",
   "labels": [],
   "bytes": 21757,
   "sha256": "b5e959ed8ad4f03cfec13a83f313bd97780e310b1e5fcae13427675eaafa2428",
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.2.0",
+  "version": "1.2.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -79,6 +79,22 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Rule 8 retrofit: added What would fix this section"
+    },
+    {
+      "version": "1.2.1",
+      "date": "2026-11-11T05:46:22+05:30",
+      "level": "patch",
+      "reason": "moved to a new URL; body unchanged",
+      "bytes": [
+        21757,
+        21757
+      ],
+      "url_changed": [
+        "https://masaladeutsch.blogspot.com/2026/09/what-failed-bankruptcy-auction-actually.html",
+        "https://blog.vertistratsolution.com/2026/09/what-failed-bankruptcy-auction-actually.html"
+      ],
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

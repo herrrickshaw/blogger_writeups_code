@@ -1,10 +1,10 @@
 {
   "id": "5577238356711896476",
   "title": "India's Coal-to-Chemicals Menu, Ranked by What Actually Clears the Import Price",
-  "url": "https://masaladeutsch.blogspot.com/2026/08/indias-coal-to-chemicals-menu-ranked-by.html",
+  "url": "https://blog.vertistratsolution.com/2026/08/indias-coal-to-chemicals-menu-ranked-by.html",
   "slug": "indias-coal-to-chemicals-menu-ranked-by",
   "published": "2026-08-27T03:43:38.000+05:30",
-  "updated": "2026-11-07T08:42:16.332+05:30",
+  "updated": "2026-11-07T08:42:16.000+05:30",
   "labels": [
     "Chemicals",
     "Coal & Coal Gasification",
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.3.0",
+  "version": "2.3.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -175,6 +175,22 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "November data refresh"
+    },
+    {
+      "version": "2.3.1",
+      "date": "2026-11-11T05:46:22+05:30",
+      "level": "patch",
+      "reason": "moved to a new URL; body unchanged",
+      "bytes": [
+        68032,
+        68032
+      ],
+      "url_changed": [
+        "https://masaladeutsch.blogspot.com/2026/08/indias-coal-to-chemicals-menu-ranked-by.html",
+        "https://blog.vertistratsolution.com/2026/08/indias-coal-to-chemicals-menu-ranked-by.html"
+      ],
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

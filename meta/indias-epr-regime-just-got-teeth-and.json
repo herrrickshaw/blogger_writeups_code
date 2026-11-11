@@ -1,10 +1,10 @@
 {
   "id": "8111051561933582100",
   "title": "India's EPR Regime Just Got Teeth — and a Battery Recycling Policy Brief Explains Where It Still Bites Nothing",
-  "url": "https://masaladeutsch.blogspot.com/2026/08/indias-epr-regime-just-got-teeth-and.html",
+  "url": "https://blog.vertistratsolution.com/2026/08/indias-epr-regime-just-got-teeth-and.html",
   "slug": "indias-epr-regime-just-got-teeth-and",
   "published": "2026-08-08T21:56:27.000+05:30",
-  "updated": "2026-11-07T08:43:38.051+05:30",
+  "updated": "2026-11-07T08:43:38.000+05:30",
   "labels": [
     "Industrial Policy",
     "Mobility & EV"
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.2.0",
+  "version": "3.2.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -277,6 +277,22 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "November data refresh"
+    },
+    {
+      "version": "3.2.1",
+      "date": "2026-11-11T05:46:22+05:30",
+      "level": "patch",
+      "reason": "moved to a new URL; body unchanged",
+      "bytes": [
+        30265,
+        30265
+      ],
+      "url_changed": [
+        "https://masaladeutsch.blogspot.com/2026/08/indias-epr-regime-just-got-teeth-and.html",
+        "https://blog.vertistratsolution.com/2026/08/indias-epr-regime-just-got-teeth-and.html"
+      ],
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

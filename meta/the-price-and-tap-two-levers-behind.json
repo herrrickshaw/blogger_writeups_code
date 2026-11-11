@@ -1,10 +1,10 @@
 {
   "id": "8597692575201322604",
   "title": "The Price and the Tap: The Two Levers Behind Every Central Bank, and Why RBI Pulls Them Differently",
-  "url": "https://masaladeutsch.blogspot.com/2026/08/the-price-and-tap-two-levers-behind.html",
+  "url": "https://blog.vertistratsolution.com/2026/08/the-price-and-tap-two-levers-behind.html",
   "slug": "the-price-and-tap-two-levers-behind",
   "published": "2026-08-04T06:09:47.000+05:30",
-  "updated": "2026-11-07T09:05:42.484+05:30",
+  "updated": "2026-11-07T09:05:42.000+05:30",
   "labels": [
     "Macroeconomics & Monetary Policy"
   ],
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.1.0",
+  "version": "3.1.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -307,6 +307,22 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "November data refresh"
+    },
+    {
+      "version": "3.1.1",
+      "date": "2026-11-11T05:46:22+05:30",
+      "level": "patch",
+      "reason": "moved to a new URL; body unchanged",
+      "bytes": [
+        27829,
+        27829
+      ],
+      "url_changed": [
+        "https://masaladeutsch.blogspot.com/2026/08/the-price-and-tap-two-levers-behind.html",
+        "https://blog.vertistratsolution.com/2026/08/the-price-and-tap-two-levers-behind.html"
+      ],
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

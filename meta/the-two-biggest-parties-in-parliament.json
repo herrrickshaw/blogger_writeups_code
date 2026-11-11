@@ -1,10 +1,10 @@
 {
   "id": "753583821656685996",
   "title": "The Two Biggest Parties in Parliament Ask About Everything. Everyone Else Doesn't.",
-  "url": "https://masaladeutsch.blogspot.com/2026/09/the-two-biggest-parties-in-parliament.html",
+  "url": "https://blog.vertistratsolution.com/2026/09/the-two-biggest-parties-in-parliament.html",
   "slug": "the-two-biggest-parties-in-parliament",
   "published": "2026-09-18T20:24:04.000+05:30",
-  "updated": "2026-10-27T15:18:15.873+05:30",
+  "updated": "2026-10-27T15:18:15.000+05:30",
   "labels": [
     "Governance & Institutions"
   ],
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.0",
+  "version": "2.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -81,6 +81,22 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Fact-check corrections: 18 posts with dated update notes"
+    },
+    {
+      "version": "2.0.1",
+      "date": "2026-11-11T05:46:22+05:30",
+      "level": "patch",
+      "reason": "moved to a new URL; body unchanged",
+      "bytes": [
+        123828,
+        123828
+      ],
+      "url_changed": [
+        "https://masaladeutsch.blogspot.com/2026/09/the-two-biggest-parties-in-parliament.html",
+        "https://blog.vertistratsolution.com/2026/09/the-two-biggest-parties-in-parliament.html"
+      ],
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

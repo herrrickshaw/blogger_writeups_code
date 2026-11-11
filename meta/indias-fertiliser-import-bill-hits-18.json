@@ -1,10 +1,10 @@
 {
   "id": "5479141779838120427",
   "title": "India's Fertiliser Import Bill Hits $18 Billion, and Parliament's Own Committee Explains Why",
-  "url": "https://masaladeutsch.blogspot.com/2026/08/indias-fertiliser-import-bill-hits-18.html",
+  "url": "https://blog.vertistratsolution.com/2026/08/indias-fertiliser-import-bill-hits-18.html",
   "slug": "indias-fertiliser-import-bill-hits-18",
   "published": "2026-08-08T21:49:47.000+05:30",
-  "updated": "2026-11-07T08:44:39.895+05:30",
+  "updated": "2026-11-07T08:44:39.000+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Energy & Fuels",
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.2.0",
+  "version": "3.2.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -240,6 +240,22 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "November data refresh"
+    },
+    {
+      "version": "3.2.1",
+      "date": "2026-11-11T05:46:22+05:30",
+      "level": "patch",
+      "reason": "moved to a new URL; body unchanged",
+      "bytes": [
+        30419,
+        30419
+      ],
+      "url_changed": [
+        "https://masaladeutsch.blogspot.com/2026/08/indias-fertiliser-import-bill-hits-18.html",
+        "https://blog.vertistratsolution.com/2026/08/indias-fertiliser-import-bill-hits-18.html"
+      ],
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

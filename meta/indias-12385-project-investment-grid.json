@@ -1,10 +1,10 @@
 {
   "id": "584479844204414921",
   "title": "India's 12,385-Project Investment Grid Has Two \"Projects\" That Are Actually Just Government Schemes",
-  "url": "https://masaladeutsch.blogspot.com/2026/09/indias-12385-project-investment-grid.html",
+  "url": "https://blog.vertistratsolution.com/2026/09/indias-12385-project-investment-grid.html",
   "slug": "indias-12385-project-investment-grid",
   "published": "2026-09-15T09:44:39.000+05:30",
-  "updated": "2026-10-01T08:31:14.990+05:30",
+  "updated": "2026-10-01T08:31:14.000+05:30",
   "labels": [
     "Industrial Policy"
   ],
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.2.0",
+  "version": "1.2.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -94,6 +94,22 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Rule 8 retrofit: added What would fix this section"
+    },
+    {
+      "version": "1.2.1",
+      "date": "2026-11-11T05:46:22+05:30",
+      "level": "patch",
+      "reason": "moved to a new URL; body unchanged",
+      "bytes": [
+        21067,
+        21067
+      ],
+      "url_changed": [
+        "https://masaladeutsch.blogspot.com/2026/09/indias-12385-project-investment-grid.html",
+        "https://blog.vertistratsolution.com/2026/09/indias-12385-project-investment-grid.html"
+      ],
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

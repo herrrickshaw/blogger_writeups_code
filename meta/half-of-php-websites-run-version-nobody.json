@@ -1,10 +1,10 @@
 {
   "id": "5734919035972853038",
   "title": "Half of PHP Websites Run a Version Nobody Patches. What a Hacked Site Gives Away About Its Company",
-  "url": "https://masaladeutsch.blogspot.com/2026/10/half-of-php-websites-run-version-nobody.html",
+  "url": "https://blog.vertistratsolution.com/2026/10/half-of-php-websites-run-version-nobody.html",
   "slug": "half-of-php-websites-run-version-nobody",
   "published": "2026-10-27T15:19:01.000+05:30",
-  "updated": "2026-10-27T15:20:45.327+05:30",
+  "updated": "2026-10-27T15:20:45.000+05:30",
   "labels": [
     "Cybersecurity"
   ],
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -29,6 +29,22 @@
       "level": "initial",
       "reason": "first snapshot",
       "note": "New post: PHP attack surface"
+    },
+    {
+      "version": "1.0.1",
+      "date": "2026-11-11T05:46:22+05:30",
+      "level": "patch",
+      "reason": "moved to a new URL; body unchanged",
+      "bytes": [
+        27607,
+        27607
+      ],
+      "url_changed": [
+        "https://masaladeutsch.blogspot.com/2026/10/half-of-php-websites-run-version-nobody.html",
+        "https://blog.vertistratsolution.com/2026/10/half-of-php-websites-run-version-nobody.html"
+      ],
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

@@ -1,10 +1,10 @@
 {
   "id": "648899739867743060",
   "title": "The FCC Lever: Trading Petrol Yield for LPG, and Where India Is Building Room to Store the Difference",
-  "url": "https://masaladeutsch.blogspot.com/2026/08/the-fcc-lever-trading-petrol-yield-for.html",
+  "url": "https://blog.vertistratsolution.com/2026/08/the-fcc-lever-trading-petrol-yield-for.html",
   "slug": "the-fcc-lever-trading-petrol-yield-for",
   "published": "2026-08-13T04:07:57.000+05:30",
-  "updated": "2026-11-07T09:03:55.273+05:30",
+  "updated": "2026-11-07T09:03:55.000+05:30",
   "labels": [
     "Energy & Fuels",
     "Ethanol & Biofuels",
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.2.0",
+  "version": "2.2.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -265,6 +265,22 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "November data refresh"
+    },
+    {
+      "version": "2.2.1",
+      "date": "2026-11-11T05:46:22+05:30",
+      "level": "patch",
+      "reason": "moved to a new URL; body unchanged",
+      "bytes": [
+        41650,
+        41650
+      ],
+      "url_changed": [
+        "https://masaladeutsch.blogspot.com/2026/08/the-fcc-lever-trading-petrol-yield-for.html",
+        "https://blog.vertistratsolution.com/2026/08/the-fcc-lever-trading-petrol-yield-for.html"
+      ],
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

@@ -1,10 +1,10 @@
 {
   "id": "2906394065511429472",
   "title": "Where India’s Factories Actually Get Built — IEM State & Sector Analysis",
-  "url": "https://masaladeutsch.blogspot.com/2026/08/where-indias-factories-actually-get.html",
+  "url": "https://blog.vertistratsolution.com/2026/08/where-indias-factories-actually-get.html",
   "slug": "where-indias-factories-actually-get",
   "published": "2026-08-02T12:14:17.000+05:30",
-  "updated": "2026-10-01T09:00:41.294+05:30",
+  "updated": "2026-10-01T09:00:41.000+05:30",
   "labels": [
     "Industrial Policy",
     "State Investment Incentives"
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.1.0",
+  "version": "3.1.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -238,6 +238,22 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Rule 8 retrofit: added What would fix this section"
+    },
+    {
+      "version": "3.1.1",
+      "date": "2026-11-11T05:46:22+05:30",
+      "level": "patch",
+      "reason": "moved to a new URL; body unchanged",
+      "bytes": [
+        47717,
+        47717
+      ],
+      "url_changed": [
+        "https://masaladeutsch.blogspot.com/2026/08/where-indias-factories-actually-get.html",
+        "https://blog.vertistratsolution.com/2026/08/where-indias-factories-actually-get.html"
+      ],
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

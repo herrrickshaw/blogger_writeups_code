@@ -1,10 +1,10 @@
 {
   "id": "4079217955450119583",
   "title": "India's Trade Story Has Three Big Wins and One Gap the Headlines Skip",
-  "url": "https://masaladeutsch.blogspot.com/2026/08/indias-trade-story-has-three-big-wins.html",
+  "url": "https://blog.vertistratsolution.com/2026/08/indias-trade-story-has-three-big-wins.html",
   "slug": "indias-trade-story-has-three-big-wins",
   "published": "2026-08-08T21:53:13.000+05:30",
-  "updated": "2026-11-07T08:48:51.356+05:30",
+  "updated": "2026-11-07T08:48:51.000+05:30",
   "labels": [
     "Free Trade Agreements",
     "Industrial Policy",
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.2.0",
+  "version": "3.2.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -265,6 +265,22 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "November data refresh"
+    },
+    {
+      "version": "3.2.1",
+      "date": "2026-11-11T05:46:22+05:30",
+      "level": "patch",
+      "reason": "moved to a new URL; body unchanged",
+      "bytes": [
+        28369,
+        28369
+      ],
+      "url_changed": [
+        "https://masaladeutsch.blogspot.com/2026/08/indias-trade-story-has-three-big-wins.html",
+        "https://blog.vertistratsolution.com/2026/08/indias-trade-story-has-three-big-wins.html"
+      ],
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

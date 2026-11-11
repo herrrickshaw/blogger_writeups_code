@@ -1,10 +1,10 @@
 {
   "id": "8478704422769886505",
   "title": "Do Cheap Stocks Stay Cheap? Price-Band Migration and What K-Means Clustering Actually Finds",
-  "url": "https://masaladeutsch.blogspot.com/2026/08/do-cheap-stocks-stay-cheap-price-band.html",
+  "url": "https://blog.vertistratsolution.com/2026/08/do-cheap-stocks-stay-cheap-price-band.html",
   "slug": "do-cheap-stocks-stay-cheap-price-band",
   "published": "2026-08-11T15:52:01.000+05:30",
-  "updated": "2026-10-01T08:19:11.994+05:30",
+  "updated": "2026-10-01T08:19:11.000+05:30",
   "labels": [
     "Equity Markets & Stock Screening",
     "Markets & Finance"
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.1.0",
+  "version": "3.1.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -264,6 +264,22 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Rule 8 retrofit: added What would fix this section"
+    },
+    {
+      "version": "3.1.1",
+      "date": "2026-11-11T05:46:22+05:30",
+      "level": "patch",
+      "reason": "moved to a new URL; body unchanged",
+      "bytes": [
+        95944,
+        95944
+      ],
+      "url_changed": [
+        "https://masaladeutsch.blogspot.com/2026/08/do-cheap-stocks-stay-cheap-price-band.html",
+        "https://blog.vertistratsolution.com/2026/08/do-cheap-stocks-stay-cheap-price-band.html"
+      ],
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

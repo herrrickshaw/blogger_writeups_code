@@ -1,10 +1,10 @@
 {
   "id": "3908650754243458391",
   "title": "How to use focus-sector-investor-map: see which foreign investors pair with which Indian government initiative",
-  "url": "https://masaladeutsch.blogspot.com/2026/10/how-to-use-focus-sector-investor-map.html",
+  "url": "https://blog.vertistratsolution.com/2026/10/how-to-use-focus-sector-investor-map.html",
   "slug": "how-to-use-focus-sector-investor-map",
   "published": "2026-10-25T07:26:48.000+05:30",
-  "updated": "2026-10-26T09:05:29.047+05:30",
+  "updated": "2026-10-26T09:05:29.000+05:30",
   "labels": [
     "India",
     "Infrastructure & Investment",
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.0",
+  "version": "2.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -45,6 +45,22 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Wind post: MNRE August 2026 state-wise capacity table"
+    },
+    {
+      "version": "2.0.1",
+      "date": "2026-11-11T05:46:22+05:30",
+      "level": "patch",
+      "reason": "moved to a new URL; body unchanged",
+      "bytes": [
+        26190,
+        26190
+      ],
+      "url_changed": [
+        "https://masaladeutsch.blogspot.com/2026/10/how-to-use-focus-sector-investor-map.html",
+        "https://blog.vertistratsolution.com/2026/10/how-to-use-focus-sector-investor-map.html"
+      ],
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

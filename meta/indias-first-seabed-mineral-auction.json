@@ -1,10 +1,10 @@
 {
   "id": "5553839560992847392",
   "title": "India's First Seabed Mineral Auction Drew No Winner. The Second Offers Two Blocks and a Lower Bar",
-  "url": "https://masaladeutsch.blogspot.com/2026/10/indias-first-seabed-mineral-auction.html",
+  "url": "https://blog.vertistratsolution.com/2026/10/indias-first-seabed-mineral-auction.html",
   "slug": "indias-first-seabed-mineral-auction",
   "published": "2026-10-09T11:07:28.000+05:30",
-  "updated": "2026-11-09T17:14:52.868+05:30",
+  "updated": "2026-11-09T17:14:52.000+05:30",
   "labels": [],
   "bytes": 24868,
   "sha256": "d5e93986dd0b5688282149663efc03f4bfa491442c828cf142528b388bb823a2",
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.0",
+  "version": "3.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -51,6 +51,22 @@
         24868
       ],
       "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.0.1",
+      "date": "2026-11-11T05:46:22+05:30",
+      "level": "patch",
+      "reason": "moved to a new URL; body unchanged",
+      "bytes": [
+        24868,
+        24868
+      ],
+      "url_changed": [
+        "https://masaladeutsch.blogspot.com/2026/10/indias-first-seabed-mineral-auction.html",
+        "https://blog.vertistratsolution.com/2026/10/indias-first-seabed-mineral-auction.html"
+      ],
       "markers_changed": null,
       "note": ""
     }

@@ -1,10 +1,10 @@
 {
   "id": "5280038841806806913",
   "title": "Price Is the Wire: How GCAM Actually Links India's Energy, Land, Water and Economy to a Net-Zero Target",
-  "url": "https://masaladeutsch.blogspot.com/2026/08/price-is-wire-how-gcam-actually-links.html",
+  "url": "https://blog.vertistratsolution.com/2026/08/price-is-wire-how-gcam-actually-links.html",
   "slug": "price-is-wire-how-gcam-actually-links",
   "published": "2026-08-13T10:21:55.000+05:30",
-  "updated": "2026-10-01T08:44:57.527+05:30",
+  "updated": "2026-10-01T08:44:57.000+05:30",
   "labels": [
     "Climate & Carbon",
     "Climate Modeling",
@@ -25,7 +25,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.1.0",
+  "version": "3.1.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -202,6 +202,22 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Rule 8 retrofit: added What would fix this section"
+    },
+    {
+      "version": "3.1.1",
+      "date": "2026-11-11T05:46:22+05:30",
+      "level": "patch",
+      "reason": "moved to a new URL; body unchanged",
+      "bytes": [
+        44156,
+        44156
+      ],
+      "url_changed": [
+        "https://masaladeutsch.blogspot.com/2026/08/price-is-wire-how-gcam-actually-links.html",
+        "https://blog.vertistratsolution.com/2026/08/price-is-wire-how-gcam-actually-links.html"
+      ],
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

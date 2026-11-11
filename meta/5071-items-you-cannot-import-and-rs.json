@@ -1,10 +1,10 @@
 {
   "id": "6916028891163531929",
   "title": "5,417 Items You Cannot Import — and the Ministry's Own Two Numbers for What Replaced Them",
-  "url": "https://masaladeutsch.blogspot.com/2026/08/5071-items-you-cannot-import-and-rs.html",
+  "url": "https://blog.vertistratsolution.com/2026/08/5071-items-you-cannot-import-and-rs.html",
   "slug": "5071-items-you-cannot-import-and-rs",
   "published": "2026-08-23T04:16:49.000+05:30",
-  "updated": "2026-10-27T06:24:34.637+05:30",
+  "updated": "2026-10-27T06:24:34.000+05:30",
   "labels": [
     "Defence",
     "Import Substitution",
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.0",
+  "version": "3.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -154,6 +154,22 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Green debt post: chart, rate-gap and FX tables to late Oct; model-review paragraph splits in 20 posts"
+    },
+    {
+      "version": "3.0.1",
+      "date": "2026-11-11T05:46:22+05:30",
+      "level": "patch",
+      "reason": "moved to a new URL; body unchanged",
+      "bytes": [
+        42531,
+        42531
+      ],
+      "url_changed": [
+        "https://masaladeutsch.blogspot.com/2026/08/5071-items-you-cannot-import-and-rs.html",
+        "https://blog.vertistratsolution.com/2026/08/5071-items-you-cannot-import-and-rs.html"
+      ],
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

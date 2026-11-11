@@ -1,10 +1,10 @@
 {
   "id": "7770772157723338486",
   "title": "How to use ev-battery-management-sim: simulate EV battery packs and test the model on battery datasets",
-  "url": "https://masaladeutsch.blogspot.com/2026/10/how-to-use-ev-battery-management-sim.html",
+  "url": "https://blog.vertistratsolution.com/2026/10/how-to-use-ev-battery-management-sim.html",
   "slug": "how-to-use-ev-battery-management-sim",
   "published": "2026-10-19T05:10:13.000+05:30",
-  "updated": "2026-10-26T09:06:08.437+05:30",
+  "updated": "2026-10-26T09:06:08.000+05:30",
   "labels": [
     "Energy & Fuels",
     "Mobility & EV",
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.0",
+  "version": "2.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -44,6 +44,22 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Wind post: MNRE August 2026 state-wise capacity table"
+    },
+    {
+      "version": "2.0.1",
+      "date": "2026-11-11T05:46:22+05:30",
+      "level": "patch",
+      "reason": "moved to a new URL; body unchanged",
+      "bytes": [
+        24609,
+        24609
+      ],
+      "url_changed": [
+        "https://masaladeutsch.blogspot.com/2026/10/how-to-use-ev-battery-management-sim.html",
+        "https://blog.vertistratsolution.com/2026/10/how-to-use-ev-battery-management-sim.html"
+      ],
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

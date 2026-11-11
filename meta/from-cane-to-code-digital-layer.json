@@ -1,10 +1,10 @@
 {
   "id": "1212051047991729383",
   "title": "From Cane to Code: The Digital Layer Underneath India's E20 Milestone",
-  "url": "https://masaladeutsch.blogspot.com/2026/08/from-cane-to-code-digital-layer.html",
+  "url": "https://blog.vertistratsolution.com/2026/08/from-cane-to-code-digital-layer.html",
   "slug": "from-cane-to-code-digital-layer",
   "published": "2026-08-08T21:20:54.000+05:30",
-  "updated": "2026-11-07T08:31:27.458+05:30",
+  "updated": "2026-11-07T08:31:27.000+05:30",
   "labels": [
     "AI Tools",
     "Energy & Fuels",
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.3.0",
+  "version": "2.3.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -252,6 +252,22 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "November data refresh"
+    },
+    {
+      "version": "2.3.1",
+      "date": "2026-11-11T05:46:22+05:30",
+      "level": "patch",
+      "reason": "moved to a new URL; body unchanged",
+      "bytes": [
+        31623,
+        31623
+      ],
+      "url_changed": [
+        "https://masaladeutsch.blogspot.com/2026/08/from-cane-to-code-digital-layer.html",
+        "https://blog.vertistratsolution.com/2026/08/from-cane-to-code-digital-layer.html"
+      ],
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

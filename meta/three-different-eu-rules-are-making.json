@@ -1,10 +1,10 @@
 {
   "id": "7526385884349093443",
   "title": "Three Different EU Rules Are Making Ships Change Fuel Near Europe — and Only One of Them Is the ETS",
-  "url": "https://masaladeutsch.blogspot.com/2026/08/three-different-eu-rules-are-making.html",
+  "url": "https://blog.vertistratsolution.com/2026/08/three-different-eu-rules-are-making.html",
   "slug": "three-different-eu-rules-are-making",
   "published": "2026-08-28T14:33:49.000+05:30",
-  "updated": "2026-11-07T09:07:47.413+05:30",
+  "updated": "2026-11-07T09:07:47.000+05:30",
   "labels": [
     "Climate & Carbon",
     "Energy & Fuels",
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.2.0",
+  "version": "1.2.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -123,6 +123,22 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "November data refresh"
+    },
+    {
+      "version": "1.2.1",
+      "date": "2026-11-11T05:46:22+05:30",
+      "level": "patch",
+      "reason": "moved to a new URL; body unchanged",
+      "bytes": [
+        31469,
+        31469
+      ],
+      "url_changed": [
+        "https://masaladeutsch.blogspot.com/2026/08/three-different-eu-rules-are-making.html",
+        "https://blog.vertistratsolution.com/2026/08/three-different-eu-rules-are-making.html"
+      ],
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

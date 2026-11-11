@@ -1,10 +1,10 @@
 {
   "id": "4707409148657902439",
   "title": "Jan Aushadhi Sells 2,439 Products. Here's What We Actually Know About Where Their APIs Come From.",
-  "url": "https://masaladeutsch.blogspot.com/2026/09/jan-aushadhi-sells-2439-products-heres.html",
+  "url": "https://blog.vertistratsolution.com/2026/09/jan-aushadhi-sells-2439-products-heres.html",
   "slug": "jan-aushadhi-sells-2439-products-heres",
   "published": "2026-09-16T20:39:10.000+05:30",
-  "updated": "2026-10-01T08:40:22.532+05:30",
+  "updated": "2026-10-01T08:40:22.000+05:30",
   "labels": [
     "Chemicals",
     "Healthcare",
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.4.0",
+  "version": "1.4.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -96,6 +96,22 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Rule 8 retrofit: added What would fix this section"
+    },
+    {
+      "version": "1.4.1",
+      "date": "2026-11-11T05:46:22+05:30",
+      "level": "patch",
+      "reason": "moved to a new URL; body unchanged",
+      "bytes": [
+        28178,
+        28178
+      ],
+      "url_changed": [
+        "https://masaladeutsch.blogspot.com/2026/09/jan-aushadhi-sells-2439-products-heres.html",
+        "https://blog.vertistratsolution.com/2026/09/jan-aushadhi-sells-2439-products-heres.html"
+      ],
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

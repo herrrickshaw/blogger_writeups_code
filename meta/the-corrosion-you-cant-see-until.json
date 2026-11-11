@@ -1,10 +1,10 @@
 {
   "id": "6788744439423537169",
   "title": "The Corrosion You Can't See Until the Insulation Comes Off: CUI on FSRUs and FPSOs",
-  "url": "https://masaladeutsch.blogspot.com/2026/08/the-corrosion-you-cant-see-until.html",
+  "url": "https://blog.vertistratsolution.com/2026/08/the-corrosion-you-cant-see-until.html",
   "slug": "the-corrosion-you-cant-see-until",
   "published": "2026-08-30T22:42:06.000+05:30",
-  "updated": "2026-10-01T08:52:08.036+05:30",
+  "updated": "2026-10-01T08:52:08.000+05:30",
   "labels": [
     "Gas & LNG",
     "LNG Plant & Terminal Engineering"
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.3.0",
+  "version": "1.3.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -121,6 +121,22 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Rule 8 retrofit: added What would fix this section"
+    },
+    {
+      "version": "1.3.1",
+      "date": "2026-11-11T05:46:22+05:30",
+      "level": "patch",
+      "reason": "moved to a new URL; body unchanged",
+      "bytes": [
+        37005,
+        37005
+      ],
+      "url_changed": [
+        "https://masaladeutsch.blogspot.com/2026/08/the-corrosion-you-cant-see-until.html",
+        "https://blog.vertistratsolution.com/2026/08/the-corrosion-you-cant-see-until.html"
+      ],
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }
