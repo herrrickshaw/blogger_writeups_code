@@ -18664,3 +18664,13 @@ scheduled sync
 - `how-to-use-five-open-toolkits-finance` — 26,673 → 26,582 bytes (-91)
 - `how-to-use-cbsepaperpatterns-check` — 24,746 → 24,851 bytes (+105)
 - `do-cbse-past-papers-actually-help` — 29,173 → 29,214 bytes (+41)
+
+## 2026-11-11T15:13:29+05:30 — 502 posts live
+
+**Added**
+
+- `india-forest-wildlife-crz-clearances` **v1.0.0** — India Forest, Wildlife & CRZ Clearances — PARIVESH (27,087 bytes)
+
+**No longer published** (drafted or deleted; file kept in `posts/`)
+
+- `how-to-use-cbsepaperpatterns-check` — How to use CBSE_paper_patterns: check which Class 12 topics keep coming back at high marks
