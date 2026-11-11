@@ -25,7 +25,7 @@ def fix(slug, t):
         for s, u in URL.items():
             # whole index rows: <li ...> ... href=u ... </li> where the row's title link is u
             t = re.sub(r'<li\b[^>]*>(?:(?!</li>).)*?class="ctitle" href="' + re.escape(u) + r'"(?:(?!</li>).)*?</li>\s*', "", t, flags=re.S)
-            t = re.sub(r'<li>\s*<a href="' + re.escape(u) + r'">(?:(?!</li>).)*?</li>\s*', "", t, flags=re.S)
+            t = re.sub(r'<li>\s*(?:<time\b[^>]*>[^<]*</time>\s*)?<a href="' + re.escape(u) + r'">(?:(?!</li>).)*?</li>\s*', "", t, flags=re.S)
             t = re.sub(r'\s*<a class="crel-a" href="' + re.escape(u) + r'">.*?</a>', "", t, flags=re.S)
         return t, n0 != t
     for s, u in URL.items():
@@ -59,7 +59,6 @@ for slug, p in sorted(M.items()):
     if not any(u in t for u in URL.values()):
         continue
     new, ch = fix(slug, t)
-    left = [s for s, u in URL.items() if u in new and not (TURL[s] and TURL[s] in new and False)]
     left = [s for s, u in URL.items() if u in new]
     if ch:
         upd.write_text(new)
