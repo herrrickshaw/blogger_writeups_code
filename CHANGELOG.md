@@ -18650,3 +18650,17 @@ scheduled sync
 - `cold-chain-fuel-outlet-integrated-map` — Cold-Chain × Fuel-Outlet Integrated Map (Part 3 of 3)
 - `india-environmental-clearances-state` — India Environmental Clearances — State × Sub-sector Dashboard
 - `india-fuel-retail-outlets-82k-geocoded` — India Fuel Retail Outlets — 82k Geocoded Map (Part 2 of 3)
+
+## 2026-11-11T14:59:14+05:30 — 502 posts live
+
+**Versions**
+
+- `how-to-use-five-open-toolkits-finance` **1.0.2 → 1.0.3** (PATCH) — wording changed; no figures, sections or claims moved
+- `how-to-use-cbsepaperpatterns-check` **1.0.2 → 2.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `do-cbse-past-papers-actually-help` **2.0.0 → 3.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+
+**Changed**
+
+- `how-to-use-five-open-toolkits-finance` — 26,673 → 26,582 bytes (-91)
+- `how-to-use-cbsepaperpatterns-check` — 24,746 → 24,851 bytes (+105)
+- `do-cbse-past-papers-actually-help` — 29,173 → 29,214 bytes (+41)

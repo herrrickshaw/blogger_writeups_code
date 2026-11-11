@@ -4,13 +4,13 @@
   "url": "https://blog.vertistratsolution.com/2026/10/how-to-use-cbsepaperpatterns-check.html",
   "slug": "how-to-use-cbsepaperpatterns-check",
   "published": "2026-10-19T05:08:31.000+05:30",
-  "updated": "2026-10-20T09:05:49.000+05:30",
+  "updated": "2026-11-11T14:58:38.000+05:30",
   "labels": [
     "India",
     "Open-Source Tools & How-To"
   ],
-  "bytes": 24746,
-  "sha256": "3471fd38a7d158a8ebda63ae40e92b68dacff9881ed7bca9e92d041145f7c9e2",
+  "bytes": 24851,
+  "sha256": "18d2d1ed5e95be7839734fbe0cc8f3a810a583262281e77f7d13898ed1cb5dcb",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.2",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -57,6 +57,19 @@
         "https://masaladeutsch.blogspot.com/2026/10/how-to-use-cbsepaperpatterns-check.html",
         "https://blog.vertistratsolution.com/2026/10/how-to-use-cbsepaperpatterns-check.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-11-11T14:59:14+05:30",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        24746,
+        24851
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-11-11T05:46:22+05:30",
+  "snapshot": "2026-11-11T14:59:14+05:30",
   "count": 502,
   "posts": {
     "1008146607143508554": {
@@ -20640,12 +20640,12 @@
       "url": "https://blog.vertistratsolution.com/2026/09/do-cbse-past-papers-actually-help.html",
       "slug": "do-cbse-past-papers-actually-help",
       "published": "2026-09-17T07:21:20.000+05:30",
-      "updated": "2026-11-11T05:45:38.000+05:30",
+      "updated": "2026-11-11T14:58:28.000+05:30",
       "labels": [
         "Education"
       ],
-      "bytes": 29173,
-      "sha256": "86c857333cfe01288457cdc51661ebefe4306c8f7712b8343b203ce5166bafca",
+      "bytes": 29214,
+      "sha256": "9ce1bb72fad00ed136d05fcd38a43babac57eea0a82492dd679c3a4603d6aa5e",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -20657,7 +20657,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "2.0.0",
+      "version": "3.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -20738,6 +20738,19 @@
             "https://masaladeutsch.blogspot.com/2026/09/do-cbse-past-papers-actually-help.html",
             "https://blog.vertistratsolution.com/2026/09/do-cbse-past-papers-actually-help.html"
           ],
+          "markers_changed": null,
+          "note": ""
+        },
+        {
+          "version": "3.0.0",
+          "date": "2026-11-11T14:59:14+05:30",
+          "level": "major",
+          "reason": "figures changed (+0/-0 distinct numbers)",
+          "bytes": [
+            29173,
+            29214
+          ],
+          "url_changed": null,
           "markers_changed": null,
           "note": ""
         }
@@ -31191,13 +31204,13 @@
       "url": "https://blog.vertistratsolution.com/2026/10/how-to-use-cbsepaperpatterns-check.html",
       "slug": "how-to-use-cbsepaperpatterns-check",
       "published": "2026-10-19T05:08:31.000+05:30",
-      "updated": "2026-10-20T09:05:49.000+05:30",
+      "updated": "2026-11-11T14:58:38.000+05:30",
       "labels": [
         "India",
         "Open-Source Tools & How-To"
       ],
-      "bytes": 24746,
-      "sha256": "3471fd38a7d158a8ebda63ae40e92b68dacff9881ed7bca9e92d041145f7c9e2",
+      "bytes": 24851,
+      "sha256": "18d2d1ed5e95be7839734fbe0cc8f3a810a583262281e77f7d13898ed1cb5dcb",
       "markers": {
         "light_lock": true,
         "dark_panel_guard": false,
@@ -31209,7 +31222,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.2",
+      "version": "2.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -31244,6 +31257,19 @@
             "https://masaladeutsch.blogspot.com/2026/10/how-to-use-cbsepaperpatterns-check.html",
             "https://blog.vertistratsolution.com/2026/10/how-to-use-cbsepaperpatterns-check.html"
           ],
+          "markers_changed": null,
+          "note": ""
+        },
+        {
+          "version": "2.0.0",
+          "date": "2026-11-11T14:59:14+05:30",
+          "level": "major",
+          "reason": "figures changed (+0/-0 distinct numbers)",
+          "bytes": [
+            24746,
+            24851
+          ],
+          "url_changed": null,
           "markers_changed": null,
           "note": ""
         }
@@ -69199,14 +69225,14 @@
       "url": "https://blog.vertistratsolution.com/2026/10/how-to-use-five-open-toolkits-finance.html",
       "slug": "how-to-use-five-open-toolkits-finance",
       "published": "2026-10-30T09:26:39.000+05:30",
-      "updated": "2026-10-31T09:05:16.000+05:30",
+      "updated": "2026-11-11T14:58:46.000+05:30",
       "labels": [
         "Healthcare",
         "Markets & Finance",
         "Open-Source Tools & How-To"
       ],
-      "bytes": 26673,
-      "sha256": "2f7e06d2564d085ae29644ddc14e4237e078548edf3d0d291f78f814d644fdf9",
+      "bytes": 26582,
+      "sha256": "af7fe4fba1ce563f33df46a3a778ac2dd233c41f5955840ea24d65e9298f205a",
       "markers": {
         "light_lock": true,
         "dark_panel_guard": false,
@@ -69218,7 +69244,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.2",
+      "version": "1.0.3",
       "version_history": [
         {
           "version": "1.0.0",
@@ -69253,6 +69279,19 @@
             "https://masaladeutsch.blogspot.com/2026/10/how-to-use-five-open-toolkits-finance.html",
             "https://blog.vertistratsolution.com/2026/10/how-to-use-five-open-toolkits-finance.html"
           ],
+          "markers_changed": null,
+          "note": ""
+        },
+        {
+          "version": "1.0.3",
+          "date": "2026-11-11T14:59:14+05:30",
+          "level": "patch",
+          "reason": "wording changed; no figures, sections or claims moved",
+          "bytes": [
+            26673,
+            26582
+          ],
+          "url_changed": null,
           "markers_changed": null,
           "note": ""
         }
