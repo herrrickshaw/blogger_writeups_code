@@ -1,6 +1,6 @@
 # Language audit — How to use transmission-client: control a Transmission daemon from a CLI, a web page or Python
 
-*https://masaladeutsch.blogspot.com/2026/10/how-to-use-transmission-client-control.html*
+*https://blog.vertistratsolution.com/2026/10/how-to-use-transmission-client-control.html*
 
 **This is a report, not an applied fix.** LanguageTool has a high false-positive rate on this blog's prose (chart captions, code identifiers, valid constructions it misparses) — review each item before touching the post.
 

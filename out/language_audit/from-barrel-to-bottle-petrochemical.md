@@ -1,6 +1,6 @@
 # Language audit — From Barrel to Bottle: The Petrochemical Pivot Also Makes a Lighter LPG Cylinder
 
-*https://masaladeutsch.blogspot.com/2026/08/from-barrel-to-bottle-petrochemical.html*
+*https://blog.vertistratsolution.com/2026/08/from-barrel-to-bottle-petrochemical.html*
 
 **This is a report, not an applied fix.** LanguageTool has a high false-positive rate on this blog's prose (chart captions, code identifiers, valid constructions it misparses) — review each item before touching the post.
 

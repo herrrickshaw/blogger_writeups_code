@@ -1,6 +1,6 @@
 # Language audit — India's Cotton Yield Fell From 566 kg to Under 450 Since 2013. Kaala Cotton Isn't Grown Where That Drop Hurts Most.
 
-*https://masaladeutsch.blogspot.com/2026/09/indias-cotton-yield-fell-from-566-kg-to.html*
+*https://blog.vertistratsolution.com/2026/09/indias-cotton-yield-fell-from-566-kg-to.html*
 
 **This is a report, not an applied fix.** LanguageTool has a high false-positive rate on this blog's prose (chart captions, code identifiers, valid constructions it misparses) — review each item before touching the post.
 

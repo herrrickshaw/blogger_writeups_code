@@ -1,6 +1,6 @@
 # Language audit — What Sewage Disposal in Key Parts of Tamil Nadu Actually Costs
 
-*https://masaladeutsch.blogspot.com/2026/09/what-sewage-disposal-in-key-parts-of.html*
+*https://blog.vertistratsolution.com/2026/09/what-sewage-disposal-in-key-parts-of.html*
 
 **This is a report, not an applied fix.** LanguageTool has a high false-positive rate on this blog's prose (chart captions, code identifiers, valid constructions it misparses) — review each item before touching the post.
 

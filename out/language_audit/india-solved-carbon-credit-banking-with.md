@@ -1,6 +1,6 @@
 # Language audit — India Solved Carbon-Credit Banking With No Limit At All. Trading Still Hasn't Started.
 
-*https://masaladeutsch.blogspot.com/2026/09/india-solved-carbon-credit-banking-with.html*
+*https://blog.vertistratsolution.com/2026/09/india-solved-carbon-credit-banking-with.html*
 
 **This is a report, not an applied fix.** LanguageTool has a high false-positive rate on this blog's prose (chart captions, code identifiers, valid constructions it misparses) — review each item before touching the post.
 

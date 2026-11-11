@@ -1,6 +1,6 @@
 # Language audit — From Cane to Code: The Digital Layer Underneath India's E20 Milestone
 
-*https://masaladeutsch.blogspot.com/2026/08/from-cane-to-code-digital-layer.html*
+*https://blog.vertistratsolution.com/2026/08/from-cane-to-code-digital-layer.html*
 
 **This is a report, not an applied fix.** LanguageTool has a high false-positive rate on this blog's prose (chart captions, code identifiers, valid constructions it misparses) — review each item before touching the post.
 

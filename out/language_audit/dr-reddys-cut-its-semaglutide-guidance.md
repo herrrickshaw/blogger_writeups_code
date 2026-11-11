@@ -1,6 +1,6 @@
 # Language audit — Dr. Reddy's Cut Its Semaglutide Guidance in Half After an API Impurity It Caught Itself
 
-*https://masaladeutsch.blogspot.com/2026/09/dr-reddys-cut-its-semaglutide-guidance.html*
+*https://blog.vertistratsolution.com/2026/09/dr-reddys-cut-its-semaglutide-guidance.html*
 
 **This is a report, not an applied fix.** LanguageTool has a high false-positive rate on this blog's prose (chart captions, code identifiers, valid constructions it misparses) — review each item before touching the post.
 

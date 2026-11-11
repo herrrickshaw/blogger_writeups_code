@@ -1,6 +1,6 @@
 # Language audit — India Imported $28 Million of Sucralose in FY26, Up 49%. Sugar Mills Make the Raw Material. Making the Sweetener Is a Chlorination Problem, Not a Sugar One
 
-*https://masaladeutsch.blogspot.com/2026/10/india-imported-28-million-of-sucralose.html*
+*https://blog.vertistratsolution.com/2026/10/india-imported-28-million-of-sucralose.html*
 
 **This is a report, not an applied fix.** LanguageTool has a high false-positive rate on this blog's prose (chart captions, code identifiers, valid constructions it misparses) — review each item before touching the post.
 

@@ -1,6 +1,6 @@
 # Language audit — India Imports the Whey Protein Its Cheese Makers Pour Away. The Fix Is Shared Whey Hubs, Not a Dryer in Every Dairy
 
-*https://masaladeutsch.blogspot.com/2026/10/india-imports-whey-protein-its-cheese.html*
+*https://blog.vertistratsolution.com/2026/10/india-imports-whey-protein-its-cheese.html*
 
 **This is a report, not an applied fix.** LanguageTool has a high false-positive rate on this blog's prose (chart captions, code identifiers, valid constructions it misparses) — review each item before touching the post.
 

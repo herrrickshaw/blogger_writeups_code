@@ -1,6 +1,6 @@
 # Language audit — India Has 28,000 km of Gas Pipeline Working and 7,000 km Still to Build. A Map of Where, and of the Lines Still on Paper
 
-*https://masaladeutsch.blogspot.com/2026/10/india-has-27400-km-of-gas-pipeline.html*
+*https://blog.vertistratsolution.com/2026/10/india-has-27400-km-of-gas-pipeline.html*
 
 **This is a report, not an applied fix.** LanguageTool has a high false-positive rate on this blog's prose (chart captions, code identifiers, valid constructions it misparses) — review each item before touching the post.
 

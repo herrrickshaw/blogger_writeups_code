@@ -1,6 +1,6 @@
 # Language audit — How to use coal-to-urea-design-opensource: size a coal-to-urea complex
 
-*https://masaladeutsch.blogspot.com/2026/10/how-to-use-coal-to-urea-design.html*
+*https://blog.vertistratsolution.com/2026/10/how-to-use-coal-to-urea-design.html*
 
 **This is a report, not an applied fix.** LanguageTool has a high false-positive rate on this blog's prose (chart captions, code identifiers, valid constructions it misparses) — review each item before touching the post.
 

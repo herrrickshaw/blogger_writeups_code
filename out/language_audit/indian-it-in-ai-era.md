@@ -1,6 +1,6 @@
 # Language audit — Indian IT in an AI Era
 
-*https://masaladeutsch.blogspot.com/2026/08/indian-it-in-ai-era.html*
+*https://blog.vertistratsolution.com/2026/08/indian-it-in-ai-era.html*
 
 **This is a report, not an applied fix.** LanguageTool has a high false-positive rate on this blog's prose (chart captions, code identifiers, valid constructions it misparses) — review each item before touching the post.
 

@@ -1,6 +1,6 @@
 # Language audit — India's Wholesale Prices Next to Everyone Else's: What Survives the Methodology Check
 
-*https://masaladeutsch.blogspot.com/2026/08/indias-wholesale-prices-next-to.html*
+*https://blog.vertistratsolution.com/2026/08/indias-wholesale-prices-next-to.html*
 
 **This is a report, not an applied fix.** LanguageTool has a high false-positive rate on this blog's prose (chart captions, code identifiers, valid constructions it misparses) — review each item before touching the post.
 

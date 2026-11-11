@@ -1,6 +1,6 @@
 # Language audit — India's Display Fab Scheme Got Two Billion-Dollar Bids and Approved Neither. Then It Redefined "Display Fab" Small Enough to Claim One Anyway.
 
-*https://masaladeutsch.blogspot.com/2026/09/indias-display-fab-scheme-got-two.html*
+*https://blog.vertistratsolution.com/2026/09/indias-display-fab-scheme-got-two.html*
 
 **This is a report, not an applied fix.** LanguageTool has a high false-positive rate on this blog's prose (chart captions, code identifiers, valid constructions it misparses) — review each item before touching the post.
 

@@ -1,6 +1,6 @@
 # Language audit — FIPI's Biggest Ask Is Getting Natural Gas Under GST. It Still Hasn't Happened
 
-*https://masaladeutsch.blogspot.com/2026/09/fipis-biggest-ask-is-getting-natural.html*
+*https://blog.vertistratsolution.com/2026/09/fipis-biggest-ask-is-getting-natural.html*
 
 **This is a report, not an applied fix.** LanguageTool has a high false-positive rate on this blog's prose (chart captions, code identifiers, valid constructions it misparses) — review each item before touching the post.
 

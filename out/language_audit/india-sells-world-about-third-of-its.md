@@ -1,6 +1,6 @@
 # Language audit — India Sells the World About a Third of Its Oleoresins. The US Just Put Duties of Up to 31% on the Biggest One.
 
-*https://masaladeutsch.blogspot.com/2026/09/india-sells-world-about-third-of-its.html*
+*https://blog.vertistratsolution.com/2026/09/india-sells-world-about-third-of-its.html*
 
 **This is a report, not an applied fix.** LanguageTool has a high false-positive rate on this blog's prose (chart captions, code identifiers, valid constructions it misparses) — review each item before touching the post.
 

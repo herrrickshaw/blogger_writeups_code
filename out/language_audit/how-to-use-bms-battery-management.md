@@ -1,6 +1,6 @@
 # Language audit — How to use bms-battery-management: simulate an EV battery pack in Python
 
-*https://masaladeutsch.blogspot.com/2026/10/how-to-use-bms-battery-management.html*
+*https://blog.vertistratsolution.com/2026/10/how-to-use-bms-battery-management.html*
 
 **This is a report, not an applied fix.** LanguageTool has a high false-positive rate on this blog's prose (chart captions, code identifiers, valid constructions it misparses) — review each item before touching the post.
 

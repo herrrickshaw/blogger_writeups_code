@@ -1,6 +1,6 @@
 # Language audit — How India Actually Plans to Hit Net Zero: Eleven Scenarios, a Rising Coal Curve, and a ₹20,000 Crore Bet on Carbon Capture
 
-*https://masaladeutsch.blogspot.com/2026/08/how-india-actually-plans-to-hit-net.html*
+*https://blog.vertistratsolution.com/2026/08/how-india-actually-plans-to-hit-net.html*
 
 **This is a report, not an applied fix.** LanguageTool has a high false-positive rate on this blog's prose (chart captions, code identifiers, valid constructions it misparses) — review each item before touching the post.
 

@@ -1,6 +1,6 @@
 # Language audit — Screen an LPG Terminal Before the Workshop, and See the Dense-Gas Gap It Cannot Close
 
-*https://masaladeutsch.blogspot.com/2026/11/screen-process-safety-question-in-five.html*
+*https://blog.vertistratsolution.com/2026/11/screen-process-safety-question-in-five.html*
 
 **This is a report, not an applied fix.** LanguageTool has a high false-positive rate on this blog's prose (chart captions, code identifiers, valid constructions it misparses) — review each item before touching the post.
 

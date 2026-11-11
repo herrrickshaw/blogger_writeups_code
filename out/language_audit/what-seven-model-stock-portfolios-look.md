@@ -1,6 +1,6 @@
 # Language audit — What Seven Model Stock Portfolios Look Like Once You Check Them Against the Index
 
-*https://masaladeutsch.blogspot.com/2026/08/what-seven-model-stock-portfolios-look.html*
+*https://blog.vertistratsolution.com/2026/08/what-seven-model-stock-portfolios-look.html*
 
 **This is a report, not an applied fix.** LanguageTool has a high false-positive rate on this blog's prose (chart captions, code identifiers, valid constructions it misparses) — review each item before touching the post.
 

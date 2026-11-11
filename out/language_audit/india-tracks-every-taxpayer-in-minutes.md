@@ -1,6 +1,6 @@
 # Language audit — India Tracks Every Taxpayer in Minutes. Its Patients Got a Digital ID in 2021, While Indian IT Earns Billions From Foreign Healthcare
 
-*https://masaladeutsch.blogspot.com/2026/10/india-tracks-every-taxpayer-in-minutes.html*
+*https://blog.vertistratsolution.com/2026/10/india-tracks-every-taxpayer-in-minutes.html*
 
 **This is a report, not an applied fix.** LanguageTool has a high false-positive rate on this blog's prose (chart captions, code identifiers, valid constructions it misparses) — review each item before touching the post.
 

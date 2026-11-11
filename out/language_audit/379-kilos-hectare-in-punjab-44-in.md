@@ -1,6 +1,6 @@
 # Language audit — 379 Kilos a Hectare in Punjab, 44 in Kerala: India's Urea Map Is a Crop Map
 
-*https://masaladeutsch.blogspot.com/2026/08/379-kilos-hectare-in-punjab-44-in.html*
+*https://blog.vertistratsolution.com/2026/08/379-kilos-hectare-in-punjab-44-in.html*
 
 **This is a report, not an applied fix.** LanguageTool has a high false-positive rate on this blog's prose (chart captions, code identifiers, valid constructions it misparses) — review each item before touching the post.
 

@@ -1,6 +1,6 @@
 # Language audit — India's Ethanol Surplus Buys About Five Blend Points. E30, Diesel and Jet Fuel Need Twice the Supply.
 
-*https://masaladeutsch.blogspot.com/2026/10/indias-ethanol-surplus-buys-about-five.html*
+*https://blog.vertistratsolution.com/2026/10/indias-ethanol-surplus-buys-about-five.html*
 
 **This is a report, not an applied fix.** LanguageTool has a high false-positive rate on this blog's prose (chart captions, code identifiers, valid constructions it misparses) — review each item before touching the post.
 

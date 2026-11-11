@@ -1,6 +1,6 @@
 # Language audit — A Record Maize Crop Will Not Make India a Hyaluronic Acid Producer. The World’s Entire Supply Fits Inside 13,000 Tonnes of Grain
 
-*https://masaladeutsch.blogspot.com/2026/11/a-record-maize-crop-will-not-make-india.html*
+*https://blog.vertistratsolution.com/2026/11/a-record-maize-crop-will-not-make-india.html*
 
 **This is a report, not an applied fix.** LanguageTool has a high false-positive rate on this blog's prose (chart captions, code identifiers, valid constructions it misparses) — review each item before touching the post.
 

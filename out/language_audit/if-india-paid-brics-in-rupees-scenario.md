@@ -1,6 +1,6 @@
 # Language audit — If India Paid BRICS in Rupees: A Scenario Model of De-Dollarising 41% of the Import Bill
 
-*https://masaladeutsch.blogspot.com/2026/08/if-india-paid-brics-in-rupees-scenario.html*
+*https://blog.vertistratsolution.com/2026/08/if-india-paid-brics-in-rupees-scenario.html*
 
 **This is a report, not an applied fix.** LanguageTool has a high false-positive rate on this blog's prose (chart captions, code identifiers, valid constructions it misparses) — review each item before touching the post.
 

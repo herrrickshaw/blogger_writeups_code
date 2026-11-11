@@ -1,6 +1,6 @@
 # Language audit — India Wants 15% of Its Energy From Gas by 2030. The Official Energy Balance Shows Gas's Share Falling
 
-*https://masaladeutsch.blogspot.com/2026/10/india-wants-15-of-its-energy-from-gas.html*
+*https://blog.vertistratsolution.com/2026/10/india-wants-15-of-its-energy-from-gas.html*
 
 **This is a report, not an applied fix.** LanguageTool has a high false-positive rate on this blog's prose (chart captions, code identifiers, valid constructions it misparses) — review each item before touching the post.
 

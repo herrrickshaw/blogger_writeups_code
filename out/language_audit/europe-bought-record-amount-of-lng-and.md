@@ -1,6 +1,6 @@
 # Language audit — Europe Bought a Record Amount of LNG and Made Itself Dependent on One Supplier
 
-*https://masaladeutsch.blogspot.com/2026/08/europe-bought-record-amount-of-lng-and.html*
+*https://blog.vertistratsolution.com/2026/08/europe-bought-record-amount-of-lng-and.html*
 
 **This is a report, not an applied fix.** LanguageTool has a high false-positive rate on this blog's prose (chart captions, code identifiers, valid constructions it misparses) — review each item before touching the post.
 

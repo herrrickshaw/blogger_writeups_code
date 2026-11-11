@@ -1,6 +1,6 @@
 # Language audit — How to use delivery-playbook: a field guide for choosing and fixing your software process
 
-*https://masaladeutsch.blogspot.com/2026/10/how-to-use-delivery-playbook-field.html*
+*https://blog.vertistratsolution.com/2026/10/how-to-use-delivery-playbook-field.html*
 
 **This is a report, not an applied fix.** LanguageTool has a high false-positive rate on this blog's prose (chart captions, code identifiers, valid constructions it misparses) — review each item before touching the post.
 

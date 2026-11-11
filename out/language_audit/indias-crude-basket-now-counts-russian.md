@@ -1,6 +1,6 @@
 # Language audit — India's Crude Basket Now Counts Russian Oil as 'Sweet'. The Barrels Its Refineries Run Are Still Mostly Sour
 
-*https://masaladeutsch.blogspot.com/2026/10/indias-crude-basket-now-counts-russian.html*
+*https://blog.vertistratsolution.com/2026/10/indias-crude-basket-now-counts-russian.html*
 
 **This is a report, not an applied fix.** LanguageTool has a high false-positive rate on this blog's prose (chart captions, code identifiers, valid constructions it misparses) — review each item before touching the post.
 

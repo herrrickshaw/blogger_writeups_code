@@ -1,6 +1,6 @@
 # Language audit — Cough Syrup in a Lollipop? For Babies, the Evidence Points to a 2 mm Tablet Instead
 
-*https://masaladeutsch.blogspot.com/2026/10/cough-syrup-in-lollipop-for-babies.html*
+*https://blog.vertistratsolution.com/2026/10/cough-syrup-in-lollipop-for-babies.html*
 
 **This is a report, not an applied fix.** LanguageTool has a high false-positive rate on this blog's prose (chart captions, code identifiers, valid constructions it misparses) — review each item before touching the post.
 

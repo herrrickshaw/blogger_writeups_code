@@ -1,6 +1,6 @@
 # Language audit — India Will Spend Rs 33,660 Crore on Ready-Made Factory Parks. Its Existing Parks Have 1.25 Lakh Empty Plots
 
-*https://masaladeutsch.blogspot.com/2026/10/india-will-spend-rs-33660-crore-on.html*
+*https://blog.vertistratsolution.com/2026/10/india-will-spend-rs-33660-crore-on.html*
 
 **This is a report, not an applied fix.** LanguageTool has a high false-positive rate on this blog's prose (chart captions, code identifiers, valid constructions it misparses) — review each item before touching the post.
 

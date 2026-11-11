@@ -1,6 +1,6 @@
 # Language audit — Europe Wants Green Steel It Can’t Afford to Make. Why CBAM Should Be Rolled Out More Gently
 
-*https://masaladeutsch.blogspot.com/2026/10/europe-wants-green-steel-it-cant-afford.html*
+*https://blog.vertistratsolution.com/2026/10/europe-wants-green-steel-it-cant-afford.html*
 
 **This is a report, not an applied fix.** LanguageTool has a high false-positive rate on this blog's prose (chart captions, code identifiers, valid constructions it misparses) — review each item before touching the post.
 

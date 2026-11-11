@@ -1,6 +1,6 @@
 # Language audit — UPI Mimicking the Plastic Card: Will MDR Be Like Visa Fees?
 
-*https://masaladeutsch.blogspot.com/2026/08/beyond-pump-what-upi-fee-would-cost.html*
+*https://blog.vertistratsolution.com/2026/08/beyond-pump-what-upi-fee-would-cost.html*
 
 **This is a report, not an applied fix.** LanguageTool has a high false-positive rate on this blog's prose (chart captions, code identifiers, valid constructions it misparses) — review each item before touching the post.
 

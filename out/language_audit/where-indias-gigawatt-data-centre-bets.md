@@ -1,6 +1,6 @@
 # Language audit — Where India's Gigawatt Data-Centre Bets Actually Land: Projects, Cables, and the $210 Billion Behind Them
 
-*https://masaladeutsch.blogspot.com/2026/08/where-indias-gigawatt-data-centre-bets.html*
+*https://blog.vertistratsolution.com/2026/08/where-indias-gigawatt-data-centre-bets.html*
 
 **This is a report, not an applied fix.** LanguageTool has a high false-positive rate on this blog's prose (chart captions, code identifiers, valid constructions it misparses) — review each item before touching the post.
 

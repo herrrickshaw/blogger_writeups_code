@@ -1,6 +1,6 @@
 # Language audit — FCI Storage Scenario — Capacity, Stock, and the Road to 2,150 LMT
 
-*https://masaladeutsch.blogspot.com/2026/07/fci-storage-scenario-capacity-stock-and.html*
+*https://blog.vertistratsolution.com/2026/07/fci-storage-scenario-capacity-stock-and.html*
 
 **This is a report, not an applied fix.** LanguageTool has a high false-positive rate on this blog's prose (chart captions, code identifiers, valid constructions it misparses) — review each item before touching the post.
 

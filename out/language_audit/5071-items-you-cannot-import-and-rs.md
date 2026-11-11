@@ -1,6 +1,6 @@
 # Language audit — 5,417 Items You Cannot Import — and the Ministry's Own Two Numbers for What Replaced Them
 
-*https://masaladeutsch.blogspot.com/2026/08/5071-items-you-cannot-import-and-rs.html*
+*https://blog.vertistratsolution.com/2026/08/5071-items-you-cannot-import-and-rs.html*
 
 **This is a report, not an applied fix.** LanguageTool has a high false-positive rate on this blog's prose (chart captions, code identifiers, valid constructions it misparses) — review each item before touching the post.
 

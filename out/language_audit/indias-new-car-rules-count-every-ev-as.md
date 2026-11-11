@@ -1,6 +1,6 @@
 # Language audit — India's New Car Rules Count Every EV as Three Cars. Europe, the US and China Used Smaller Multipliers, Then Phased Them Out.
 
-*https://masaladeutsch.blogspot.com/2026/10/indias-new-car-rules-count-every-ev-as.html*
+*https://blog.vertistratsolution.com/2026/10/indias-new-car-rules-count-every-ev-as.html*
 
 **This is a report, not an applied fix.** LanguageTool has a high false-positive rate on this blog's prose (chart captions, code identifiers, valid constructions it misparses) — review each item before touching the post.
 

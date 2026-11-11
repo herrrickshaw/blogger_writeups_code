@@ -1,6 +1,6 @@
 # Language audit — India's Military Quantum Plan Has Four Pillars. So Far, the Forces Have Bought Only One
 
-*https://masaladeutsch.blogspot.com/2026/10/indias-military-quantum-plan-has-four.html*
+*https://blog.vertistratsolution.com/2026/10/indias-military-quantum-plan-has-four.html*
 
 **This is a report, not an applied fix.** LanguageTool has a high false-positive rate on this blog's prose (chart captions, code identifiers, valid constructions it misparses) — review each item before touching the post.
 

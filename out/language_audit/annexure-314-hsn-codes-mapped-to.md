@@ -1,6 +1,6 @@
 # Language audit — Annexure: 314 HSN Codes Mapped to Technical-Textile Segments
 
-*https://masaladeutsch.blogspot.com/2026/08/annexure-314-hsn-codes-mapped-to.html*
+*https://blog.vertistratsolution.com/2026/08/annexure-314-hsn-codes-mapped-to.html*
 
 **This is a report, not an applied fix.** LanguageTool has a high false-positive rate on this blog's prose (chart captions, code identifiers, valid constructions it misparses) — review each item before touching the post.
 

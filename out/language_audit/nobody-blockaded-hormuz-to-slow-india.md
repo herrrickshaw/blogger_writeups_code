@@ -1,6 +1,6 @@
 # Language audit — Nobody Blockaded Hormuz to Slow India-Europe Trade. The Corridor Meant to Bypass It Is Getting Built Faster Anyway.
 
-*https://masaladeutsch.blogspot.com/2026/09/nobody-blockaded-hormuz-to-slow-india.html*
+*https://blog.vertistratsolution.com/2026/09/nobody-blockaded-hormuz-to-slow-india.html*
 
 **This is a report, not an applied fix.** LanguageTool has a high false-positive rate on this blog's prose (chart captions, code identifiers, valid constructions it misparses) — review each item before touching the post.
 

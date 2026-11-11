@@ -1,6 +1,6 @@
 # Language audit — 57.4 GW and Counting: India's Wind Fleet, State by State, Against What NIWE Says Is Actually There
 
-*https://masaladeutsch.blogspot.com/2026/08/574-gw-and-counting-indias-wind-fleet.html*
+*https://blog.vertistratsolution.com/2026/08/574-gw-and-counting-indias-wind-fleet.html*
 
 **This is a report, not an applied fix.** LanguageTool has a high false-positive rate on this blog's prose (chart captions, code identifiers, valid constructions it misparses) — review each item before touching the post.
 

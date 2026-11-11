@@ -1,6 +1,6 @@
 # Language audit — $0.28 a Unit: The Diesel Math Behind India's Data Centres and Telecom Towers, and Why It's Already Losing
 
-*https://masaladeutsch.blogspot.com/2026/08/028-unit-diesel-math-behind-indias-data.html*
+*https://blog.vertistratsolution.com/2026/08/028-unit-diesel-math-behind-indias-data.html*
 
 **This is a report, not an applied fix.** LanguageTool has a high false-positive rate on this blog's prose (chart captions, code identifiers, valid constructions it misparses) — review each item before touching the post.
 

@@ -1,6 +1,6 @@
 # Language audit — How to use chemical_import_substitution: HS-8 import-substitution signals for India's chemical chapters
 
-*https://masaladeutsch.blogspot.com/2026/10/how-to-use-chemicalimportsubstitution.html*
+*https://blog.vertistratsolution.com/2026/10/how-to-use-chemicalimportsubstitution.html*
 
 **This is a report, not an applied fix.** LanguageTool has a high false-positive rate on this blog's prose (chart captions, code identifiers, valid constructions it misparses) — review each item before touching the post.
 

@@ -1,6 +1,6 @@
 # Language audit — How to use price_prediction_backtest: honest walk-forward tests of price-prediction models
 
-*https://masaladeutsch.blogspot.com/2026/10/how-to-use-pricepredictionbacktest.html*
+*https://blog.vertistratsolution.com/2026/10/how-to-use-pricepredictionbacktest.html*
 
 **This is a report, not an applied fix.** LanguageTool has a high false-positive rate on this blog's prose (chart captions, code identifiers, valid constructions it misparses) — review each item before touching the post.
 

@@ -1,6 +1,6 @@
 # Language audit — Engineering and Auto-Component Makers File More SEBI DRHPs Than Any Other Sector — Not Tech, Not Finance
 
-*https://masaladeutsch.blogspot.com/2026/09/engineering-and-auto-component-makers.html*
+*https://blog.vertistratsolution.com/2026/09/engineering-and-auto-component-makers.html*
 
 **This is a report, not an applied fix.** LanguageTool has a high false-positive rate on this blog's prose (chart captions, code identifiers, valid constructions it misparses) — review each item before touching the post.
 

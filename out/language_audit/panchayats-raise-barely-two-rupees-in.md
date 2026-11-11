@@ -1,6 +1,6 @@
 # Language audit — Panchayats Raise Barely Two Rupees in Tax for Every Hundred They Receive, 33 Years After the 73rd Amendment
 
-*https://masaladeutsch.blogspot.com/2026/11/panchayats-raise-barely-two-rupees-in.html*
+*https://blog.vertistratsolution.com/2026/11/panchayats-raise-barely-two-rupees-in.html*
 
 **This is a report, not an applied fix.** LanguageTool has a high false-positive rate on this blog's prose (chart captions, code identifiers, valid constructions it misparses) — review each item before touching the post.
 

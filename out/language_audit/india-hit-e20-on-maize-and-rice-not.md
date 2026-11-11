@@ -1,6 +1,6 @@
 # Language audit — India Hit E20 on Maize and Rice, Not Sugarcane
 
-*https://masaladeutsch.blogspot.com/2026/08/india-hit-e20-on-maize-and-rice-not.html*
+*https://blog.vertistratsolution.com/2026/08/india-hit-e20-on-maize-and-rice-not.html*
 
 **This is a report, not an applied fix.** LanguageTool has a high false-positive rate on this blog's prose (chart captions, code identifiers, valid constructions it misparses) — review each item before touching the post.
 

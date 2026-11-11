@@ -1,6 +1,6 @@
 # Language audit — India Imports 283,000 Tonnes of Almonds and Grows 4,100: Inside the Diwali Nut Trade
 
-*https://masaladeutsch.blogspot.com/2026/08/india-imports-283000-tonnes-of-almonds.html*
+*https://blog.vertistratsolution.com/2026/08/india-imports-283000-tonnes-of-almonds.html*
 
 **This is a report, not an applied fix.** LanguageTool has a high false-positive rate on this blog's prose (chart captions, code identifiers, valid constructions it misparses) — review each item before touching the post.
 

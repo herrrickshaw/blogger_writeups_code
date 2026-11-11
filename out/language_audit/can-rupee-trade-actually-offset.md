@@ -1,6 +1,6 @@
 # Language audit — Can Rupee Trade Actually Offset the Inflation India Is Importing?
 
-*https://masaladeutsch.blogspot.com/2026/08/can-rupee-trade-actually-offset.html*
+*https://blog.vertistratsolution.com/2026/08/can-rupee-trade-actually-offset.html*
 
 **This is a report, not an applied fix.** LanguageTool has a high false-positive rate on this blog's prose (chart captions, code identifiers, valid constructions it misparses) — review each item before touching the post.
 

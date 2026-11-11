@@ -1,6 +1,6 @@
 # Language audit — India Is Piping Jet Fuel to Five New Airports at Once. Only Six Had It Before
 
-*https://masaladeutsch.blogspot.com/2026/09/india-is-piping-jet-fuel-to-five-new.html*
+*https://blog.vertistratsolution.com/2026/09/india-is-piping-jet-fuel-to-five-new.html*
 
 **This is a report, not an applied fix.** LanguageTool has a high false-positive rate on this blog's prose (chart captions, code identifiers, valid constructions it misparses) — review each item before touching the post.
 

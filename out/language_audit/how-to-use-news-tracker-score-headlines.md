@@ -1,6 +1,6 @@
 # Language audit — How to use the news tracker: score headlines and check them against stock picks
 
-*https://masaladeutsch.blogspot.com/2026/10/how-to-use-news-tracker-score-headlines.html*
+*https://blog.vertistratsolution.com/2026/10/how-to-use-news-tracker-score-headlines.html*
 
 **This is a report, not an applied fix.** LanguageTool has a high false-positive rate on this blog's prose (chart captions, code identifiers, valid constructions it misparses) — review each item before touching the post.
 

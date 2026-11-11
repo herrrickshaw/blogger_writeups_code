@@ -1,6 +1,6 @@
 # Language audit — Bagasse Is the One Crop Residue Already Sitting at a Factory Gate. Labs Have Liquefied and Hydrolysed It. Nobody Has Priced It Against the Boiler
 
-*https://masaladeutsch.blogspot.com/2026/10/bagasse-is-one-crop-residue-already.html*
+*https://blog.vertistratsolution.com/2026/10/bagasse-is-one-crop-residue-already.html*
 
 **This is a report, not an applied fix.** LanguageTool has a high false-positive rate on this blog's prose (chart captions, code identifiers, valid constructions it misparses) — review each item before touching the post.
 

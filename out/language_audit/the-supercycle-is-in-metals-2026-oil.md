@@ -1,6 +1,6 @@
 # Language audit — The Supercycle Is in Metals; the 2026 Oil Spike Is a Shock
 
-*https://masaladeutsch.blogspot.com/2026/10/the-supercycle-is-in-metals-2026-oil.html*
+*https://blog.vertistratsolution.com/2026/10/the-supercycle-is-in-metals-2026-oil.html*
 
 **This is a report, not an applied fix.** LanguageTool has a high false-positive rate on this blog's prose (chart captions, code identifiers, valid constructions it misparses) — review each item before touching the post.
 

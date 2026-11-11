@@ -1,6 +1,6 @@
 # Language audit — Lemon Cultivation in India: Steady Trees, Volatile Prices
 
-*https://masaladeutsch.blogspot.com/2026/08/lemon-cultivation-in-india-steady-trees.html*
+*https://blog.vertistratsolution.com/2026/08/lemon-cultivation-in-india-steady-trees.html*
 
 **This is a report, not an applied fix.** LanguageTool has a high false-positive rate on this blog's prose (chart captions, code identifiers, valid constructions it misparses) — review each item before touching the post.
 

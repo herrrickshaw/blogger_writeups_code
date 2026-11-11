@@ -1,6 +1,6 @@
 # Language audit — Doubling India’s CSR Profit Trigger Removes 11,204 Companies but About 3% of the Money
 
-*https://masaladeutsch.blogspot.com/2026/11/doubling-indias-csr-profit-trigger.html*
+*https://blog.vertistratsolution.com/2026/11/doubling-indias-csr-profit-trigger.html*
 
 **This is a report, not an applied fix.** LanguageTool has a high false-positive rate on this blog's prose (chart captions, code identifiers, valid constructions it misparses) — review each item before touching the post.
 

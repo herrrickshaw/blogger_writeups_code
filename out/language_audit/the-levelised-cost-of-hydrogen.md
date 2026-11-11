@@ -1,6 +1,6 @@
 # Language audit — The Levelised Cost of Hydrogen, Explained: What It Would Actually Take to Hit India's $1.50/kg Target
 
-*https://masaladeutsch.blogspot.com/2026/08/the-levelised-cost-of-hydrogen.html*
+*https://blog.vertistratsolution.com/2026/08/the-levelised-cost-of-hydrogen.html*
 
 **This is a report, not an applied fix.** LanguageTool has a high false-positive rate on this blog's prose (chart captions, code identifiers, valid constructions it misparses) — review each item before touching the post.
 

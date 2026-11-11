@@ -1,6 +1,6 @@
 # Language audit — Not a Drop Out: Ethanol's Zero-Liquid-Discharge Rule, and the Treatment-Capacity Gap Behind It
 
-*https://masaladeutsch.blogspot.com/2026/08/not-drop-out-ethanols-zero-liquid.html*
+*https://blog.vertistratsolution.com/2026/08/not-drop-out-ethanols-zero-liquid.html*
 
 **This is a report, not an applied fix.** LanguageTool has a high false-positive rate on this blog's prose (chart captions, code identifiers, valid constructions it misparses) — review each item before touching the post.
 

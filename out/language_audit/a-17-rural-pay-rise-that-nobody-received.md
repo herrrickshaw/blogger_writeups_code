@@ -1,6 +1,6 @@
 # Language audit — A 17% Rural Pay Rise That Nobody Received
 
-*https://masaladeutsch.blogspot.com/2026/08/a-17-rural-pay-rise-that-nobody-received.html*
+*https://blog.vertistratsolution.com/2026/08/a-17-rural-pay-rise-that-nobody-received.html*
 
 **This is a report, not an applied fix.** LanguageTool has a high false-positive rate on this blog's prose (chart captions, code identifiers, valid constructions it misparses) — review each item before touching the post.
 

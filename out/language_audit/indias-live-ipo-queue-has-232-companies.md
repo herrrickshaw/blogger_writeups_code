@@ -1,6 +1,6 @@
 # Language audit — India's Live IPO Queue Has 232 Companies in It. Power and Renewables Outnumbers Oil and Gas Nearly 5 to 1.
 
-*https://masaladeutsch.blogspot.com/2026/09/indias-live-ipo-queue-has-232-companies.html*
+*https://blog.vertistratsolution.com/2026/09/indias-live-ipo-queue-has-232-companies.html*
 
 **This is a report, not an applied fix.** LanguageTool has a high false-positive rate on this blog's prose (chart captions, code identifiers, valid constructions it misparses) — review each item before touching the post.
 

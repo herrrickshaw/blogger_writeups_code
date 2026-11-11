@@ -1,6 +1,6 @@
 # Language audit — Rural India's Farm-Employment Share Dropped 5.6 Points in Six Months. Structural Shift or Just the Season? The Data Can't Yet Say.
 
-*https://masaladeutsch.blogspot.com/2026/09/rural-indias-farm-employment-share.html*
+*https://blog.vertistratsolution.com/2026/09/rural-indias-farm-employment-share.html*
 
 **This is a report, not an applied fix.** LanguageTool has a high false-positive rate on this blog's prose (chart captions, code identifiers, valid constructions it misparses) — review each item before touching the post.
 

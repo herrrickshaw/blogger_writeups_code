@@ -1,6 +1,6 @@
 # Language audit — India Pays $5-8 Billion a Year to Ship Its Own Oil. Only 20% of That Cargo Travels on an Indian Vessel.
 
-*https://masaladeutsch.blogspot.com/2026/09/india-pays-5-8-billion-year-to-ship-its.html*
+*https://blog.vertistratsolution.com/2026/09/india-pays-5-8-billion-year-to-ship-its.html*
 
 **This is a report, not an applied fix.** LanguageTool has a high false-positive rate on this blog's prose (chart captions, code identifiers, valid constructions it misparses) — review each item before touching the post.
 

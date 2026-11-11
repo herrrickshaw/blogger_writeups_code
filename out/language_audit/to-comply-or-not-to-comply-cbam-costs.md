@@ -1,6 +1,6 @@
 # Language audit — To Comply or Not to Comply: CBAM Costs Indian Steel €93 a Tonne With Verified Data and €270 Without. Indian Carbon Credits Won’t Close the Gap
 
-*https://masaladeutsch.blogspot.com/2026/10/to-comply-or-not-to-comply-cbam-costs.html*
+*https://blog.vertistratsolution.com/2026/10/to-comply-or-not-to-comply-cbam-costs.html*
 
 **This is a report, not an applied fix.** LanguageTool has a high false-positive rate on this blog's prose (chart captions, code identifiers, valid constructions it misparses) — review each item before touching the post.
 

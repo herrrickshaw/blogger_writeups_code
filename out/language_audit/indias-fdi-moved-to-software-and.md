@@ -1,6 +1,6 @@
 # Language audit — India's FDI Moved to Software and Trading After 2017: Software Rose From 7.4% to 22.7% of Inflow, Townships Fell From 7.3% to 0.7%
 
-*https://masaladeutsch.blogspot.com/2026/10/indias-fdi-moved-to-software-and.html*
+*https://blog.vertistratsolution.com/2026/10/indias-fdi-moved-to-software-and.html*
 
 **This is a report, not an applied fix.** LanguageTool has a high false-positive rate on this blog's prose (chart captions, code identifiers, valid constructions it misparses) — review each item before touching the post.
 

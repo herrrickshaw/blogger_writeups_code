@@ -1,6 +1,6 @@
 # Language audit — India Doesn’t Need a Blockchain to Pay Its Farmers. It May Need One to Agree on Who Owns the Land
 
-*https://masaladeutsch.blogspot.com/2026/11/india-doesnt-need-blockchain-to-pay-its.html*
+*https://blog.vertistratsolution.com/2026/11/india-doesnt-need-blockchain-to-pay-its.html*
 
 **This is a report, not an applied fix.** LanguageTool has a high false-positive rate on this blog's prose (chart captions, code identifiers, valid constructions it misparses) — review each item before touching the post.
 

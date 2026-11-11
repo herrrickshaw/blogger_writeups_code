@@ -1,6 +1,6 @@
 # Language audit — Ethanol's Coal Boilers, the Briquette Gap, and What US Carbon Capture Actually Delivers
 
-*https://masaladeutsch.blogspot.com/2026/08/ethanols-coal-boilers-briquette-gap-and.html*
+*https://blog.vertistratsolution.com/2026/08/ethanols-coal-boilers-briquette-gap-and.html*
 
 **This is a report, not an applied fix.** LanguageTool has a high false-positive rate on this blog's prose (chart captions, code identifiers, valid constructions it misparses) — review each item before touching the post.
 

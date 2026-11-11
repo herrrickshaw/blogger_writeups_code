@@ -1,6 +1,6 @@
 # Language audit — Petroleum Trade Pairings and the US Crude Storage Picture
 
-*https://masaladeutsch.blogspot.com/2026/08/petroleum-trade-pairings-and-us-crude.html*
+*https://blog.vertistratsolution.com/2026/08/petroleum-trade-pairings-and-us-crude.html*
 
 **This is a report, not an applied fix.** LanguageTool has a high false-positive rate on this blog's prose (chart captions, code identifiers, valid constructions it misparses) — review each item before touching the post.
 
