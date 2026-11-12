@@ -809,6 +809,7 @@ SLUG_CONTAINS = {
     "funded-3-lakh-machines": ["Agriculture & Fertilisers", "Energy & Fuels"],
     "rice-and-maize-became-ethanol": ["Agriculture & Fertilisers", "Ethanol & Biofuels", "Energy & Fuels"],
     "50-lakh-stray-cattle": ["Circularity & Waste-to-Value", "Environment & Clearances", "Livestock & Dairy"],
+    "top-law-firms-have-signed": ["Governance & Institutions", "Markets & Finance"],
 }
 
 
