@@ -1,0 +1,261 @@
+<div class="artx hturegint">
+<style>
+/* ---- typography (gs-typo-unify-v1): keep in sync across all posts ---- */
+.hturegint{font-family:Georgia,'Times New Roman',serif;line-height:1.6;color:#111}
+.hturegint h1,.hturegint h2,.hturegint h3{line-height:1.3}
+
+/* ---- palette: define every colour as a custom property here. Do not add
+       raw hex elsewhere in a post's <style> block — reference these vars, so
+       a future palette change is a 4-line edit instead of a find-and-replace
+       across every post. ----
+   --ink     #111    body text, light-locked (see below)
+   --accent  #8a4b08  eyebrow text, h2 rule, table header bg, stat numbers —
+                       the one colour that carries this post's "brand"
+   --rule    #e8dcc4  hairline borders, h2 underline, table cell borders
+   --panel   #fdf7ec  stat-card bg, even table rows — the palette's one tint
+*/
+.hturegint{--ink:#111;--accent:#8a4b08;--rule:#e8dcc4;--panel:#fdf7ec;--good:#1a7a4c;--good-soft:#eaf6ef;--bad:#a5402c;--bad-soft:#fff4f0}
+
+/* ---- mono-label convention (added 2026-09-17, borrowed from the
+       india-trade-sector-policy-recommendations design system): the eyebrow
+       kicker and the source line read as data-journalism metadata, not
+       article prose, so they get a monospace face — a system stack, not a
+       hosted webfont, so no post gains an extra network request or a
+       flash-of-unstyled-text risk. Body text (h1/p/li/table) keeps the
+       serif — this is a two-place accent, not a font-pairing overhaul. ---- */
+.hturegint{--mono:ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace}
+
+/* ---- light lock (gs-light-lock): a dark Blogger theme (and a browser/OS
+       set to prefers-color-scheme:dark) must not repaint text. Re-assert
+       the same values with !important — verified 2026-08-14 across 5 live
+       posts with the browser's colour scheme forced to dark: body/h1/p/table
+       all stayed light-background/dark-text with no low-contrast pairs.
+       Do NOT add selectors here for panels that are meant to be dark —
+       those go in the guard below. ---- */
+.hturegint,.hturegint p,.hturegint li,.hturegint td,.hturegint th{color:var(--ink)!important}
+.hturegint{background:#fff!important}
+
+/* ---- structure: title + subtitle ----
+   .eyebrow    = the small-caps kicker ABOVE the h1 — "Section · Topic ·
+                 Subtopic", sets context before the reader hits the claim
+   h1          = the headline itself. Write it as the CLAIM, not the topic
+                 ("The Rouble Is the Outlier, Not the Dollar" beats
+                 "Currency Trends Update"). font-size 1.5rem is the deliberate
+                 site-wide size — do not bump it per-post.
+   .standfirst = the one/two-sentence SUBTITLE directly under the h1. This is
+                 also what Blogger's snippet extractor and the JSON-LD meta
+                 description both read (see the gs-head-order block below) —
+                 write it as a real, complete sentence a reader could act on,
+                 not a fragment.
+*/
+.hturegint .eyebrow{font-size:.8rem;font-weight:700;letter-spacing:.04em;color:var(--accent);text-transform:uppercase;margin:0 0 6px;font-family:var(--mono)}
+.hturegint h1{margin:0 0 10px;font-size:1.5rem}
+.hturegint .standfirst{font-size:1.05rem;color:#333!important;margin:0 0 18px}
+.hturegint .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px;margin:18px 0}
+.hturegint .stat{background:var(--panel);border:1px solid var(--rule);border-radius:10px;padding:12px 14px}
+.hturegint .stat b{display:block;font-size:1.2rem;color:var(--accent)}
+.hturegint .stat span{font-size:.8rem}
+.hturegint h2{color:var(--accent);border-bottom:2px solid var(--rule);padding-bottom:6px;margin-top:30px;font-size:1.15rem}
+
+/* ---- tables: units live in the header, cells carry bare numbers.
+       .tw is the mobile-overflow fix — see the MOBILE comment above. ---- */
+.hturegint .tw{overflow-x:auto}
+.hturegint table{width:100%;border-collapse:collapse;margin:14px 0;font-size:.88rem}
+.hturegint th,.hturegint td{border:1px solid var(--rule);padding:7px 9px;text-align:right;word-wrap:break-word;overflow-wrap:break-word}
+.hturegint th:first-child,.hturegint td:first-child{text-align:left}
+.hturegint th{background:var(--accent);color:#fff!important;font-weight:600}
+.hturegint tr:nth-child(even){background:var(--panel)}
+
+.hturegint .note{background:#eef4ff;border-left:4px solid #2a78d6;padding:12px 16px;margin:18px 0;border-radius:0 8px 8px 0;font-size:.93rem}
+.hturegint .warn{background:var(--bad-soft);border-left:4px solid var(--bad);padding:12px 16px;margin:18px 0;border-radius:0 8px 8px 0;font-size:.93rem}
+/* ---- .good (added 2026-09-17): third semantic tier alongside .note (neutral
+       framing) and .warn (a caveat/scope limit) — for the case a caveat block
+       would otherwise get stretched to cover: confirming a figure checked out,
+       a correction that resolved cleanly, a claim that survived cross-check.
+       Same shape as .note/.warn on purpose, so all three read as one family. */
+.hturegint .good{background:var(--good-soft);border-left:4px solid var(--good);padding:12px 16px;margin:18px 0;border-radius:0 8px 8px 0;font-size:.93rem}
+/* ---- .chip (added 2026-09-17): formalises a labelling pattern several posts
+       already built ad hoc in JS (e.g. "PLI coverage: strong/partial/gap")
+       into one reusable inline component, so a new post doesn't reinvent it.
+       Use inline: <span class="chip chip-good">Strong</span>. ---- */
+.hturegint .chip{display:inline-block;font-family:var(--mono);font-size:.72rem;font-weight:700;letter-spacing:.02em;padding:.15rem .5rem;border-radius:99px;line-height:1.5}
+.hturegint .chip-good{background:var(--good-soft);color:var(--good)}
+.hturegint .chip-warn{background:var(--panel);color:var(--accent)}
+.hturegint .chip-bad{background:var(--bad-soft);color:var(--bad)}
+.hturegint .src{font-size:.84rem;font-family:var(--mono);border-top:1px solid var(--rule);padding-top:12px;margin-top:24px}
+.hturegint .disclaimer{font-size:.82rem;color:#555;margin-top:10px}
+.hturegint .revised{font-size:.8rem;color:#555!important;margin:0 0 14px}
+.hturegint .revised code{font-family:inherit;background:var(--panel);padding:1px 5px;border-radius:4px}
+</style>
+
+
+<div class="gs-head-order" style="display:flex;flex-direction:column">
+<p class="standfirst" style="order:4">reg-intel pulls RBI Master Directions, asks an LLM to find the obligations in them, and keeps only the ones whose citation appears word for word in the source, with every step written to a tamper-evident log.</p>
+<div class="topnav-index-link" style="order:1;font-size:.82em;margin:6px 0 14px"><a href="https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html" style="color:#0b5394;text-decoration:none">&#8592; All Articles (Index)</a></div>
+<p class="eyebrow" style="order:2">Open-Source Tools · How-To · Climate &amp; compliance</p>
+<h1 style="order:3">How to use reg-intel: auditable obligation extraction from RBI Master Directions</h1>
+</div>
+
+
+<a href="#" id="gs-skip-link" class="gs-skip-link" style="position:absolute;left:-9999px;top:auto;background:#1a1a1a;color:#fff;padding:.6rem 1rem;z-index:1000;border-radius:4px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.85rem">Skip to article content</a>
+<style>.gs-skip-link:focus{left:8px!important;top:8px!important}
+.gs-a11y-bar{display:flex;align-items:center;gap:.55rem;flex-wrap:wrap;background:#f4f5f7;border:1px solid #dfe3e8;border-radius:8px;padding:.55rem .8rem;margin:10px 0 16px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
+.gs-a11y-bar .gs-a11y-label{font-size:.68rem;font-weight:700;letter-spacing:.08em;color:#666;text-transform:uppercase;margin-right:.15rem}
+.gs-a11y-bar button{cursor:pointer;border:1px solid #c7cbd1;background:#fff;color:#1a1a1a;border-radius:5px;padding:.32rem .65rem;font-family:inherit;line-height:1}
+.gs-a11y-bar button.gs-a11y-fs{font-weight:700;min-width:2rem;text-align:center}
+.gs-a11y-bar button.gs-a11y-fs[data-size="sm"]{font-size:.8rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="md"]{font-size:1rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="lg"]{font-size:1.2rem}
+.gs-a11y-bar button.gs-a11y-fs[aria-pressed="true"]{background:#1a1a1a;color:#fff;border-color:#1a1a1a}
+.gs-a11y-bar button:hover{border-color:#8a4b08}
+.gs-a11y-bar button:focus-visible{outline:2px solid #8a4b08;outline-offset:1px}
+.gs-a11y-bar .gs-a11y-sep{width:1px;align-self:stretch;background:#dfe3e8;margin:0 .1rem}</style>
+<div class="gs-a11y-bar" role="group" aria-label="Accessibility controls">
+<span class="gs-a11y-label">Text Size</span>
+<button type="button" class="gs-a11y-fs" data-size="sm" aria-pressed="false" aria-label="Small text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="md" aria-pressed="true" aria-label="Medium text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="lg" aria-pressed="false" aria-label="Large text">A</button>
+<span class="gs-a11y-sep"></span>
+<button type="button" id="gs-a11y-listen" aria-label="Read this article aloud">&#128266; Listen</button>
+<button type="button" id="gs-a11y-stop" aria-label="Stop reading aloud">&#9632; Stop</button>
+</div>
+<script>(function(){
+var KEY='gs-a11y-fontsize', SIZES={sm:'0.92',md:'1',lg:'1.15'};
+function pb(){return document.querySelector('.post-body')||document.querySelector('.artx,.mdrx');}
+function apply(sz){
+  var el=pb(); if(!el||!SIZES[sz]) return;
+  el.style.fontSize=SIZES[sz]+'em';
+  var btns=document.querySelectorAll('.gs-a11y-fs');
+  for(var i=0;i<btns.length;i++){
+    var on=btns[i].getAttribute('data-size')===sz;
+    btns[i].setAttribute('aria-pressed', on?'true':'false');
+  }
+  try{localStorage.setItem(KEY,sz);}catch(e){}
+}
+var fsBtns=document.querySelectorAll('.gs-a11y-fs');
+for(var j=0;j<fsBtns.length;j++){
+  fsBtns[j].addEventListener('click',(function(b){return function(){apply(b.getAttribute('data-size'));};})(fsBtns[j]));
+}
+var saved; try{saved=localStorage.getItem(KEY);}catch(e){}
+apply(saved&&SIZES[saved]?saved:'md');
+
+var listenBtn=document.getElementById('gs-a11y-listen'), stopBtn=document.getElementById('gs-a11y-stop');
+if(listenBtn){
+  listenBtn.addEventListener('click', function(){
+    if(!('speechSynthesis' in window)){ alert('Text-to-speech is not supported in this browser.'); return; }
+    window.speechSynthesis.cancel();
+    var src=pb(); if(!src) return;
+    var clone=src.cloneNode(true);
+    var strip=clone.querySelectorAll('script,style,svg');
+    for(var k=0;k<strip.length;k++){ strip[k].parentNode.removeChild(strip[k]); }
+    var text=clone.textContent.replace(/\s+/g,' ').trim();
+    if(!text) return;
+    var chunks=text.match(/[\s\S]{1,180}(?:[.!?]|$)/g)||[text];
+    var idx=0;
+    function speakNext(){
+      if(idx>=chunks.length) return;
+      var u=new SpeechSynthesisUtterance(chunks[idx]);
+      u.onend=function(){ idx++; speakNext(); };
+      window.speechSynthesis.speak(u);
+    }
+    speakNext();
+  });
+}
+if(stopBtn){
+  stopBtn.addEventListener('click', function(){
+    if('speechSynthesis' in window) window.speechSynthesis.cancel();
+  });
+}
+var skip=document.getElementById('gs-skip-link');
+if(skip){
+  skip.addEventListener('click', function(ev){
+    ev.preventDefault();
+    var h=document.querySelector('.post-body h1')||document.querySelector('.artx h1,.mdrx h1,h1');
+    if(h){ h.setAttribute('tabindex','-1'); h.focus(); h.scrollIntoView(); }
+  });
+}
+})();</script>
+<style>.goog-te-menu-frame{max-width:340px!important;max-height:70vh!important;overflow:auto!important;box-shadow:0 6px 24px rgba(0,0,0,.25)!important}</style>
+<div id="google_translate_element" style="margin:8px 0 16px;"></div><script type="text/javascript">function googleTranslateElementInit(){new google.translate.TranslateElement({pageLanguage:"en",includedLanguages:"hi,bn,ta,te,mr,gu,kn,ml,pa,or,as,ur,sa,ne,sd",layout:google.translate.TranslateElement.InlineLayout.SIMPLE,autoDisplay:false},"google_translate_element");}</script><script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+
+<p class="revised" data-gs-revision-v1="1">Revised
+<time datetime="2026-11-02" itemprop="dateModified">2 November 2026</time>
+&middot; <code>v1.0.0</code> &middot; <a href="#changelog">what changed</a></p>
+
+<style>.hturegint pre{background:#f6f3ea!important;color:#111!important;border:1px solid var(--rule);border-radius:8px;padding:10px 12px;overflow-x:auto;font-size:.82rem;line-height:1.45}.hturegint pre code{background:none!important;color:#111!important;font-family:var(--mono)}.hturegint code{font-family:var(--mono);font-size:.88em}.hturegint .vid{position:relative;padding-bottom:56.25%;height:0;margin:16px 0;max-width:100%}.hturegint .vid iframe{position:absolute;inset:0;width:100%;height:100%;border:0}</style><div class="stats"><div class="stat"><b>8 of 8</b><span>offline tests passed in the demo</span></div><div class="stat"><b>45</b><span>labelled obligations across the two gold documents (27 + 18)</span></div><div class="stat"><b>2</b><span>gold documents with draft, not yet human-reviewed, labels</span></div><div class="stat"><b>0</b><span>network or LLM calls needed for the tests</span></div></div>
+<p>Code: <a href="https://github.com/herrrickshaw/reg-intel">github.com/herrrickshaw/reg-intel</a></p>
+<h2>Why it is useful</h2>
+<ul><li>Compliance analysts and researchers who read banking and insurance rules get a repeatable way to list what a Master Direction obliges a regulated entity to do, each item tied to a quote you can check.</li><li>It replaces trusting an LLM summary: a citation that is not a verbatim substring of the stored document is flagged as ungrounded, and a hash-chained ledger shows whether the record was edited afterwards.</li><li>Evidence from the run: all 8 tests passed in under a second offline, including a test where a made-up citation is correctly rejected, and the ledger check reported &#x27;ledger chain intact&#x27;. A live fetch of one RBI listing entry also worked.</li><li>The repo reports its own recall and precision from draft gold labels, and says plainly that they are indicative until a person reviews them.</li></ul>
+<h2>What it is for</h2>
+<p>Indian banks and insurers are bound by RBI Master Directions, which run to many pages. reg-intel is step 1 of a pipeline: fetch the directions politely, store the text, have an LLM pick out obligations (who must or must not do what, with any deadline), and accept an item only if its citation is found verbatim in the source text.</p>
+<p>The default mode is line-indexed: the model selects numbered source lines and the citation is the line itself, which favours recall. A generate mode, where the model writes the quote, is also available and is the stricter test of grounding.</p>
+<p>Output is not legal advice. Always read the cited source.</p>
+<p><b>Who it is for</b></p>
+<ul><li>Compliance and risk teams in banks and insurers exploring LLM-assisted obligation registers</li><li>Researchers studying how to ground LLM extraction in source text</li><li>Developers who want a small example of a verbatim-citation gate and a hash-chained audit log</li></ul>
+<div class="warn"><b>Not for.</b><ul><li>Legal or compliance sign-off. It is not legal advice and the gold labels are unreviewed drafts</li><li>Anyone expecting a finished obligations database. Only two documents are labelled so far</li><li>Other regulators. The fetcher targets RBI Master Directions</li></ul></div>
+<h2>What you need</h2>
+<div class="tw"><table><tr><th>Requirement</th><th>Why</th><th>How to get it</th></tr><tr><td>Python 3.10 or newer</td><td>pyproject.toml sets requires-python to 3.10 or above</td><td>python.org or brew install python</td></tr><tr><td>requests, beautifulsoup4, openai, pytest</td><td>fetching, parsing, the LLM client and the tests</td><td>pip install inside a virtual environment</td></tr><tr><td>An OpenAI-compatible LLM endpoint (extraction only)</td><td>the extract step needs a model; a Groq key or a local server such as LM Studio works</td><td>set GROQ_API_KEY, or REG_INTEL_BASE_URL, REG_INTEL_API_KEY and REG_INTEL_MODEL. Not needed for the tests, and not used in this demo</td></tr></table></div>
+<h2>Get the code and an AI assistant</h2>
+<p>You do not have to be a programmer. Get the repository, give it to an AI assistant, and ask in plain language. Any of these routes works:</p>
+<div class="tw"><table><tr><th>Tool</th><th>What you need</th><th>Best for</th></tr><tr><td><b>GitHub</b></td><td>Free account to fork or star; <code>git</code> to clone, or the green <b>Code</b> button, then <b>Download ZIP</b>, or open in <b>Codespaces</b></td><td>Getting the code and keeping up with updates</td></tr><tr><td><b>Claude Code</b></td><td>Claude subscription or API key; run <code>claude</code> inside the cloned folder</td><td>Letting the AI read and run the whole repo</td></tr><tr><td><b>Gemini CLI</b></td><td>Google account; run <code>gemini</code> inside the cloned folder</td><td>The same hands-on workflow with Gemini</td></tr><tr><td><b>Claude.ai, Gemini or ChatGPT in the browser</b></td><td>A chat account; upload <code>README.md</code> and the files you care about (or paste the output of <code>git ls-files</code>)</td><td>Understanding the project and asking questions without installing anything</td></tr><tr><td><b>Other tools</b> (Copilot Chat, Cursor, Codex CLI)</td><td>Open the cloned folder in the tool and point it at <code>README.md</code> first</td><td>Editing and extending the code</td></tr></table></div>
+<pre><code>git clone https://github.com/herrrickshaw/reg-intel.git
+cd reg-intel
+claude      # or: gemini</code></pre>
+<h2>Install</h2><ol><li>Clone the repo.<pre><code>git clone https://github.com/herrrickshaw/reg-intel.git
+cd reg-intel</code></pre></li><li>Create a virtual environment and install the dependencies. In the demo, pip install -e . failed at the build step (the repo has several top-level folders), so the dependencies were installed directly and the package was run from the repo folder, which works.<pre><code>python3 -m venv .venv
+.venv/bin/pip install requests beautifulsoup4 openai pytest</code></pre></li></ol>
+<h2>Quick start: commands and what you should see</h2>
+<p><b>Run the offline tests.</b></p>
+<pre><code>.venv/bin/python -m pytest -v</code></pre>
+<p>8 passed in well under a second: citation gate, hallucinated-citation flagging, ledger tamper detection, listing parser, bad-JSON handling, line-indexed citation, precision override and lead-in detection.</p>
+<p><b>Fetch one Master Direction (polite 2 second delay between requests).</b></p>
+<pre><code>.venv/bin/python -m reg_intel.cli fetch --limit 1</code></pre>
+<p>Prints the title it fetched and stores it in a local SQLite database.</p>
+<p><b>Check the audit ledger.</b></p>
+<pre><code>.venv/bin/python -m reg_intel.cli verify</code></pre>
+<p>ledger chain intact</p>
+<h2>Sample outputs</h2><p>Real output from a run on the date shown in the sources line; trimmed to fit.</p>
+<p><b>Offline tests, 2 Nov 2026</b></p>
+<pre><code>python -m pytest -v
+tests/test_core.py::test_citation_gate PASSED
+tests/test_core.py::test_extract_flags_hallucinated_citation PASSED
+tests/test_core.py::test_ledger_detects_tampering PASSED
+tests/test_core.py::test_parsers PASSED
+tests/test_core.py::test_bad_json_is_logged_not_fatal PASSED
+tests/test_core.py::test_v2_cites_source_line_not_model_text PASSED
+tests/test_core.py::test_precision_human_overrides_draft PASSED
+tests/test_core.py::test_find_lead_in PASSED
+8 passed</code></pre>
+<p>Run on a fresh clone in a throwaway virtual environment.</p>
+<p><b>The verbatim-citation gate on a tiny source</b></p>
+<pre><code>extract.verify_citation(citation, source)
+&#x27;report fraud to the RBI within 14 days&#x27;  -&gt; True
+&#x27;report fraud within 7 days&#x27;              -&gt; False
+&#x27;All branches must comply.&#x27;               -&gt; True</code></pre>
+<p>Source text was &#x27;Banks shall report fraud to the RBI within 14 days of detection. All branches must comply.&#x27; Whitespace differences are tolerated; paraphrases and wrong numbers are rejected.</p>
+<p><b>Draft gold-set results as documented in the repo (not re-run)</b></p>
+<pre><code>gold/README.md
+Doc                                   Gold   Recall v1 -&gt; v2   Precision strict / lenient
+Payments banks (id 13100)              27    0.52 -&gt; 1.00      0.86 / 0.91
+Insurance, FEMA (id 10738)         18 (partial) 0.56 -&gt; 1.00     0.91 / 0.98</code></pre>
+<p>These come from the repo&#x27;s own README, produced with a model run the demo did not repeat (it needs an LLM key). Labels are drafts by Claude, not human-reviewed, and the scorer can undercount when the extractor cites a neighbouring sentence.</p>
+<h2>Ways to use it</h2>
+<div class="tw"><table><tr><th>Method</th><th>How it works</th></tr><tr><td>Run the tests</td><td>Offline, no key. A good way to see how the citation gate and ledger behave.</td></tr><tr><td>Extract from RBI directions</td><td>fetch, then extract with an LLM key, then report grounded versus total per document.</td></tr><tr><td>Review the gold set</td><td>gold/ holds labelled obligations and precision CSVs. Fill the human column to turn the draft numbers into reviewed ones.</td></tr><tr><td>Reuse the gate</td><td>The verbatim-citation check and hash-chained ledger are small and can be lifted into other extraction projects.</td></tr><tr><td>Through an AI assistant</td><td>Open the folder in Claude Code or Gemini CLI and start from README.md and gold/README.md.</td></tr></table></div>
+<h2>Sample prompts for your AI assistant</h2><p>Copy, paste and edit the parts in [brackets].</p>
+<ul><li>Read README.md and gold/README.md and explain in plain English what the verbatim-citation gate does and what it cannot catch.</li><li>Create a virtual environment, install the dependencies, run the tests and tell me what each of the 8 tests checks.</li><li>Explain the difference between the lines mode and the generate mode in reg_intel/extract.py, and which one measures grounding more strictly.</li><li>Show me how the hash-chained ledger in reg_intel/store.py detects a tampered row.</li><li>I want to add a new Master Direction to the gold set. Walk me through labelling it and running the precision review without editing anything yet.</li></ul>
+<h2>Limits and honest caveats</h2>
+<div class="warn"><ul><li>Not legal advice. The tool lists candidate obligations; a qualified person must read the cited source.</li><li>The gold labels are drafts made by Claude and not human-reviewed. Recall and precision numbers are indicative only, and only two documents exist, so they are not held-out results.</li><li>In the default line-indexed mode the citation is the source line itself, so the grounding check is trivially satisfied and no longer measures precision on its own.</li><li>pip install -e . failed in the demo; run it from the cloned folder after installing the dependencies.</li><li>The repo notes that RBI&#x27;s PDF host blocks scripted downloads; PDF-only documents must be downloaded manually in a browser.</li><li>The LLM extraction step was not run in the demo (no key), so extraction output is not shown, and the extract/report numbers above are the repo&#x27;s own.</li></ul></div>
+<p class="src">Sources: the reg-intel README, pyproject.toml, gold/README.md, gold/TARGETS.md and reg_intel/score.py, and the demo run of 2 November 2026 (8 tests passed, one RBI listing fetch, ledger verified).</p>
+<div id="changelog" class="note">
+<b>Revision history.</b>
+<ul>
+<li><b>v1.0.0</b> &mdash; 2 November 2026 &mdash; first published.</li>
+</ul>
+</div>
+
+
+<style>/* gs-light-lock-v1 */.hturegint{--ink:#111!important;--accent:#8a4b08!important;--rule:#e8dcc4!important;--panel:#fdf7ec!important;--good:#1a7a4c!important;--good-soft:#eaf6ef!important;--bad:#a5402c!important;--bad-soft:#fff4f0!important}</style>
+<p class="disclaimer" data-gs-ai-disclosure-v1="1"><strong>About this article:</strong> Researched, written and edited by Umashankar Triplicane Dwarakanathan, with AI research assistance; every figure is meant to trace to the primary source cited. See the <a href="https://masaladeutsch.blogspot.com/p/disclaimer.html">Editorial Policy</a> for how sourcing, AI use and corrections work.</p>
+
+</div>

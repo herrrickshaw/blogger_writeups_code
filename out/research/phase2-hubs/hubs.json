@@ -1,0 +1,373 @@
+{
+ "process-design": {
+  "working_title": "Open-source process-design kits: biofuels, gas, refining and SAF",
+  "live_guides": [
+   {
+    "slug": "how-to-use-ethanol-design-opensource",
+    "file": "posts/how-to-use-ethanol-design-opensource.html",
+    "repo": "ethanol-design-opensource"
+   },
+   {
+    "slug": "how-to-use-lignocellulosic-ethanol",
+    "file": "posts/how-to-use-lignocellulosic-ethanol.html",
+    "repo": "lignocellulosic-ethanol-opensource"
+   },
+   {
+    "slug": "how-to-use-cbg-design-opensource-size",
+    "file": "posts/how-to-use-cbg-design-opensource-size.html",
+    "repo": "cbg-design-opensource"
+   },
+   {
+    "slug": "how-to-use-coal-to-urea-design",
+    "file": "posts/how-to-use-coal-to-urea-design.html",
+    "repo": "coal-to-urea-design-opensource"
+   },
+   {
+    "slug": "how-to-use-biomass-to-syngas-opensource",
+    "file": "posts/how-to-use-biomass-to-syngas-opensource.html",
+    "repo": "biomass-to-syngas-opensource"
+   },
+   {
+    "slug": "how-to-use-refinery-design-opensource",
+    "file": "posts/how-to-use-refinery-design-opensource.html",
+    "repo": "refinery-design-opensource"
+   },
+   {
+    "slug": "how-to-use-lng-design-opensource-size",
+    "file": "posts/how-to-use-lng-design-opensource-size.html",
+    "repo": "lng-design-opensource"
+   },
+   {
+    "slug": "how-to-use-saf-monitoring-system-track",
+    "file": "posts/how-to-use-saf-monitoring-system-track.html",
+    "repo": "saf-monitoring-system"
+   }
+  ],
+  "draft_guides": [
+   {
+    "draft_id": "7176509704430283962",
+    "file": "out/research/phase2-hubs/sources/drafts/lng-cost.html",
+    "repo": "lng-cost"
+   }
+  ]
+ },
+ "battery-hydrogen": {
+  "working_title": "Battery, hydrogen and control simulators",
+  "live_guides": [
+   {
+    "slug": "how-to-use-bms-battery-management",
+    "file": "posts/how-to-use-bms-battery-management.html",
+    "repo": "bms-battery-management"
+   },
+   {
+    "slug": "how-to-use-ev-battery-management-sim",
+    "file": "posts/how-to-use-ev-battery-management-sim.html",
+    "repo": "ev-battery-management-sim"
+   },
+   {
+    "slug": "how-to-use-hydrogen-electrolyser",
+    "file": "posts/how-to-use-hydrogen-electrolyser.html",
+    "repo": "hydrogen-electrolyser-control"
+   }
+  ],
+  "draft_guides": [
+   {
+    "draft_id": "5670911339146836231",
+    "file": "out/research/phase2-hubs/sources/drafts/cell-guardian.html",
+    "repo": "cell-guardian"
+   },
+   {
+    "draft_id": "633149807591984803",
+    "file": "out/research/phase2-hubs/sources/drafts/bionic-limb-control.html",
+    "repo": "bionic-limb-control"
+   }
+  ]
+ },
+ "trade-data": {
+  "working_title": "India trade-data toolkit",
+  "live_guides": [
+   {
+    "slug": "how-to-use-india-trade-tracker-india",
+    "file": "posts/how-to-use-india-trade-tracker-india.html",
+    "repo": "india-trade-tracker"
+   },
+   {
+    "slug": "how-to-use-india-trade-data-analysis",
+    "file": "posts/how-to-use-india-trade-data-analysis.html",
+    "repo": "india-trade-data-analysis"
+   },
+   {
+    "slug": "how-to-use-india-trade-export-analysis",
+    "file": "posts/how-to-use-india-trade-export-analysis.html",
+    "repo": "india-trade-export-analysis"
+   },
+   {
+    "slug": "how-to-use-india-commodity-trade",
+    "file": "posts/how-to-use-india-commodity-trade.html",
+    "repo": "india-commodity-trade-deficit"
+   },
+   {
+    "slug": "how-to-use-india-trade-sector-policy",
+    "file": "posts/how-to-use-india-trade-sector-policy.html",
+    "repo": "india-trade-sector-policy-recommendations"
+   },
+   {
+    "slug": "how-to-use-chemicalimportsubstitution",
+    "file": "posts/how-to-use-chemicalimportsubstitution.html",
+    "repo": "chemical_import_substitution"
+   },
+   {
+    "slug": "how-to-use-india-forex-analysis-read",
+    "file": "posts/how-to-use-india-forex-analysis-read.html",
+    "repo": "india-forex-analysis"
+   },
+   {
+    "slug": "how-to-use-mospi-dataset-analysis",
+    "file": "posts/how-to-use-mospi-dataset-analysis.html",
+    "repo": "mospi-dataset-analysis-public"
+   }
+  ],
+  "draft_guides": []
+ },
+ "fuel-energy": {
+  "working_title": "India fuel-retail and energy-data tools",
+  "live_guides": [
+   {
+    "slug": "how-to-use-fuel-retail-outlets-see",
+    "file": "posts/how-to-use-fuel-retail-outlets-see.html",
+    "repo": "fuel-retail-outlets"
+   },
+   {
+    "slug": "how-to-use-cng-cgd-retail-outlet",
+    "file": "posts/how-to-use-cng-cgd-retail-outlet.html",
+    "repo": "cng-cgd-retail-outlet-mapping"
+   },
+   {
+    "slug": "how-to-use-india-omc-fuel-fleet-model",
+    "file": "posts/how-to-use-india-omc-fuel-fleet-model.html",
+    "repo": "india-omc-fuel-fleet-model"
+   },
+   {
+    "slug": "how-to-use-ppac-ready-reckoner-data",
+    "file": "posts/how-to-use-ppac-ready-reckoner-data.html",
+    "repo": "ppac-ready-reckoner-data"
+   },
+   {
+    "slug": "how-to-use-vehiclefuelmileage-running",
+    "file": "posts/how-to-use-vehiclefuelmileage-running.html",
+    "repo": "vehicle_fuel_mileage"
+   },
+   {
+    "slug": "how-to-use-uco-ulo-tracking-chain-of",
+    "file": "posts/how-to-use-uco-ulo-tracking-chain-of.html",
+    "repo": "uco-ulo-tracking"
+   },
+   {
+    "slug": "how-to-use-discom-debt-and-revenue",
+    "file": "posts/how-to-use-discom-debt-and-revenue.html",
+    "repo": "discom-debt-and-revenue-models"
+   }
+  ],
+  "draft_guides": []
+ },
+ "governance": {
+  "working_title": "India governance, registry and regulation tools",
+  "live_guides": [
+   {
+    "slug": "how-to-use-digital-twin-for-ipa",
+    "file": "posts/how-to-use-digital-twin-for-ipa.html",
+    "repo": "digital-twin-for-ipa"
+   },
+   {
+    "slug": "how-to-use-gazette-translated-indexed",
+    "file": "posts/how-to-use-gazette-translated-indexed.html",
+    "repo": "gazette-translated-indexed"
+   },
+   {
+    "slug": "how-to-use-lok-rajya-sabha-qa-see-which",
+    "file": "posts/how-to-use-lok-rajya-sabha-qa-see-which.html",
+    "repo": "lok-rajya-sabha-qa"
+   },
+   {
+    "slug": "how-to-use-india-ec-subsector-analysis",
+    "file": "posts/how-to-use-india-ec-subsector-analysis.html",
+    "repo": "india-ec-subsector-analysis"
+   },
+   {
+    "slug": "how-to-use-india-quality-regulation",
+    "file": "posts/how-to-use-india-quality-regulation.html",
+    "repo": "india-quality-regulation"
+   },
+   {
+    "slug": "how-to-use-focus-sector-investor-map",
+    "file": "posts/how-to-use-focus-sector-investor-map.html",
+    "repo": "focus-sector-investor-map"
+   }
+  ],
+  "draft_guides": [
+   {
+    "draft_id": "7592746511475541432",
+    "file": "out/research/phase2-hubs/sources/drafts/iem-tracker.html",
+    "repo": "iem-tracker"
+   },
+   {
+    "draft_id": "3060430701139230132",
+    "file": "out/research/phase2-hubs/sources/drafts/reg-intel.html",
+    "repo": "reg-intel"
+   }
+  ]
+ },
+ "agri-food": {
+  "working_title": "India agri and food-data tools",
+  "live_guides": [
+   {
+    "slug": "how-to-use-agri-commodity-tracker-india",
+    "file": "posts/how-to-use-agri-commodity-tracker-india.html",
+    "repo": "agri-commodity-tracker"
+   },
+   {
+    "slug": "how-to-use-fci-warehouse-mspvsmsv-grain",
+    "file": "posts/how-to-use-fci-warehouse-mspvsmsv-grain.html",
+    "repo": "fci-warehouse-mspvsmsv"
+   }
+  ],
+  "draft_guides": [
+   {
+    "draft_id": "7773664722833528605",
+    "file": "out/research/phase2-hubs/sources/drafts/india-mandi-arrivals.html",
+    "repo": "india-mandi-arrivals"
+   }
+  ]
+ },
+ "market-data": {
+  "working_title": "Market-data tools (public repositories)",
+  "live_guides": [
+   {
+    "slug": "how-to-use-colab-market-fundamentals",
+    "file": "posts/how-to-use-colab-market-fundamentals.html",
+    "repo": "colab-market-fundamentals"
+   },
+   {
+    "slug": "how-to-use-global-ticker-universe-look",
+    "file": "posts/how-to-use-global-ticker-universe-look.html",
+    "repo": "global-ticker-universe"
+   },
+   {
+    "slug": "how-to-use-market-correlation-matrices",
+    "file": "posts/how-to-use-market-correlation-matrices.html",
+    "repo": "market-correlation-matrices"
+   },
+   {
+    "slug": "how-to-use-five-open-toolkits-finance",
+    "file": "posts/how-to-use-five-open-toolkits-finance.html",
+    "repo": "financial-analysis-toolkit-public"
+   }
+  ],
+  "draft_guides": [
+   {
+    "draft_id": "5008627458635939960",
+    "file": "out/research/phase2-hubs/sources/drafts/market-brief-base.html",
+    "repo": "market-brief-base"
+   },
+   {
+    "draft_id": "2381788698143808669",
+    "file": "out/research/phase2-hubs/sources/drafts/global-market-kdb.html",
+    "repo": "global-market-kdb"
+   },
+   {
+    "draft_id": "1093119336740370789",
+    "file": "out/research/phase2-hubs/sources/drafts/event-driven-stock-analysis.html",
+    "repo": "event-driven-stock-analysis"
+   }
+  ]
+ },
+ "dev-ai": {
+  "working_title": "Developer and AI tooling",
+  "live_guides": [
+   {
+    "slug": "how-to-use-blog-consistency-check-is",
+    "file": "posts/how-to-use-blog-consistency-check-is.html",
+    "repo": "blog-consistency-check"
+   },
+   {
+    "slug": "how-to-use-cachememorycleaner-free-mac",
+    "file": "posts/how-to-use-cachememorycleaner-free-mac.html",
+    "repo": "cache_memory_cleaner"
+   },
+   {
+    "slug": "how-to-use-claude-lmstudio-router-keep",
+    "file": "posts/how-to-use-claude-lmstudio-router-keep.html",
+    "repo": "claude-lmstudio-router"
+   },
+   {
+    "slug": "how-to-use-data-source-mining-pull",
+    "file": "posts/how-to-use-data-source-mining-pull.html",
+    "repo": "data-source-mining"
+   },
+   {
+    "slug": "how-to-use-delivery-playbook-field",
+    "file": "posts/how-to-use-delivery-playbook-field.html",
+    "repo": "delivery-playbook"
+   },
+   {
+    "slug": "how-to-use-ltm-warehouse-tests-test",
+    "file": "posts/how-to-use-ltm-warehouse-tests-test.html",
+    "repo": "ltm-warehouse-tests"
+   },
+   {
+    "slug": "how-to-use-memory-map-optimizer-cluster",
+    "file": "posts/how-to-use-memory-map-optimizer-cluster.html",
+    "repo": "memory-map-optimizer"
+   },
+   {
+    "slug": "how-to-use-repo-data-dedup-find",
+    "file": "posts/how-to-use-repo-data-dedup-find.html",
+    "repo": "repo-data-dedup"
+   },
+   {
+    "slug": "how-to-use-research-design-system-one",
+    "file": "posts/how-to-use-research-design-system-one.html",
+    "repo": "research-design-system"
+   },
+   {
+    "slug": "how-to-use-transmission-client-control",
+    "file": "posts/how-to-use-transmission-client-control.html",
+    "repo": "transmission-client"
+   },
+   {
+    "slug": "how-to-use-ship2shorerag-offline",
+    "file": "posts/how-to-use-ship2shorerag-offline.html",
+    "repo": "ship2shore_rag"
+   }
+  ],
+  "draft_guides": [
+   {
+    "draft_id": "4790686407806731290",
+    "file": "out/research/phase2-hubs/sources/drafts/llm-extract-citation-fix.html",
+    "repo": "llm-extract-citation-fix"
+   },
+   {
+    "draft_id": "2788994062047221374",
+    "file": "out/research/phase2-hubs/sources/drafts/prompt-efficiency-tracker-public.html",
+    "repo": "prompt-efficiency-tracker-public"
+   }
+  ]
+ },
+ "health": {
+  "working_title": "Health and medical prototypes",
+  "live_guides": [
+   {
+    "slug": "how-to-use-patient-history-tracking",
+    "file": "posts/how-to-use-patient-history-tracking.html",
+    "repo": "patient-history-tracking"
+   }
+  ],
+  "draft_guides": [
+   {
+    "draft_id": "1949920652475768698",
+    "file": "out/research/phase2-hubs/sources/drafts/capsule-endoscopy-cv.html",
+    "repo": "capsule-endoscopy-cv"
+   }
+  ]
+ }
+}

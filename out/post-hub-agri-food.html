@@ -1,0 +1,237 @@
+<div style="max-width:760px;margin:0 auto;font-family:Georgia,'Times New Roman',serif;color:#212529;background:#fff;line-height:1.7;font-size:17px">
+
+<style>
+.gb-card{background:#f8f9fa;border:1px solid #dee2e6;border-radius:12px;padding:1.25rem 1.5rem;margin:1.5rem 0;box-shadow:0 1px 2px rgba(0,0,0,.04)}
+.gb-table{border-collapse:collapse;width:100%;font-size:.85em;font-family:-apple-system,'Segoe UI',sans-serif;margin:1.25rem 0}
+.gb-table thead th{background:#212529;color:#fff;padding:.5rem .75rem;text-align:left;white-space:nowrap}
+.gb-table td{padding:.5rem .75rem;border-bottom:1px solid #dee2e6;color:#212529;word-wrap:break-word}
+.gb-table tbody tr:nth-child(even){background:#f8f9fa}
+.gb-tblwrap{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:0 0 1em}
+.gb-kicker{font-family:-apple-system,'Segoe UI',sans-serif;text-transform:uppercase;letter-spacing:.12em;font-size:.72em;color:#868e96;margin-bottom:.5rem}
+.gb-h2{font-family:-apple-system,'Segoe UI',sans-serif;font-weight:700;font-size:1.35em;margin:2.2rem 0 .8rem;color:#212529;letter-spacing:-.01em}
+.gb-note{font-size:.8em;color:#868e96;font-family:-apple-system,'Segoe UI',sans-serif;line-height:1.5}
+.gb-pull{border-left:4px solid #212529;padding:.25rem 0 .25rem 1.25rem;margin:1.75rem 0;font-size:1.15em;font-style:italic;color:#495057}
+.gb-related{background:#eef6ff;border:1px solid #b6d4f0;border-radius:12px;padding:1.1rem 1.4rem;margin:1.5rem 0;font-family:-apple-system,'Segoe UI',sans-serif;font-size:.9em}
+.gb-related a{color:#0b5394}
+.gb-warn{background:#fff8f0;border:1px solid #f0d9b5;border-radius:10px;padding:1rem 1.25rem;margin:1.25rem 0;font-size:.92em}
+.gb-stats{display:grid;gap:1rem;grid-template-columns:repeat(auto-fit,minmax(11rem,1fr));margin:1.4rem 0 1.8rem}
+.gb-stat{background:#f8f9fa;border:1px solid #dee2e6;border-radius:10px;padding:.9rem 1rem;font-family:-apple-system,'Segoe UI',sans-serif}
+.gb-stat b{display:block;font-size:1.35em;color:#212529;font-family:Georgia,serif}
+.gb-stat span{display:block;font-size:.76em;color:#868e96;margin-top:.2rem;line-height:1.4}
+.gb-stats>.google-auto-placed,.gb-stats>ins.adsbygoogle{grid-column:1/-1;order:99;width:100%;margin:.4rem 0}
+.gs-head-order>.google-auto-placed,.gs-head-order>ins.adsbygoogle{order:99}
+
+.post-body .tw{overflow-x:auto;margin:1.1rem 0}
+.post-body table{display:block;overflow-x:auto;max-width:100%;width:max-content;
+ min-width:100%;border-collapse:collapse;font-size:.86rem}
+.post-body thead th,.post-body tr:first-child th{background:#111;color:#fff;font-weight:700;
+ text-align:right;vertical-align:bottom;padding:.6rem .7rem;border:1px solid #111;
+ white-space:normal;overflow-wrap:normal;word-break:keep-all;min-width:5.5rem}
+.post-body thead th:first-child,.post-body tr:first-child th:first-child{text-align:left}
+.post-body td{border:1px solid #d9d9d9;padding:.5rem .7rem;text-align:right;
+ font-variant-numeric:tabular-nums;white-space:nowrap;color:#111;background:#fff}
+.post-body td:first-child{text-align:left;white-space:normal;min-width:8rem}
+.post-body tbody tr:nth-child(even) td{background:#fafafa}
+</style>
+
+<div class="gs-head-order" style="display:flex;flex-direction:column">
+<p class="standfirst" style="order:4;font-size:1.1em;color:#495057"><em>Three small repositories turn Agmarknet, UPAG and FCI data into files you can query, one for daily mandi prices, one for monthly arrivals joined to production and MSP, and one for procurement and the cost of holding grain. This guide shows which to pick, the command to start with, and where each one&rsquo;s numbers stop.</em></p>
+<div class="topnav-index-link" style="order:1;font-size:.82em;margin:6px 0 14px"><a href="https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html" style="color:#0b5394;text-decoration:none">&larr; All Articles (Index)</a></div>
+<div class="gb-kicker" style="order:2">Open-Source Tools &middot; 12 November 2026</div>
+<h1 style="order:3;font-family:-apple-system,'Segoe UI',sans-serif;font-weight:800;font-size:2em;line-height:1.2;letter-spacing:-.02em;margin:.25rem 0 1rem">Three Open-Source Tools for India&rsquo;s Mandi and Grain Data: Daily Prices, Monthly Arrivals Since 2019, and the MSP Question</h1>
+</div>
+
+<a href="#" id="gs-skip-link" class="gs-skip-link" style="position:absolute;left:-9999px;top:auto;background:#1a1a1a;color:#fff;padding:.6rem 1rem;z-index:1000;border-radius:4px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.85rem">Skip to article content</a>
+<style>.gs-skip-link:focus{left:8px!important;top:8px!important}
+.gs-a11y-bar{display:flex;align-items:center;gap:.55rem;flex-wrap:wrap;background:#f4f5f7;border:1px solid #dfe3e8;border-radius:8px;padding:.55rem .8rem;margin:10px 0 16px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
+.gs-a11y-bar .gs-a11y-label{font-size:.68rem;font-weight:700;letter-spacing:.08em;color:#666;text-transform:uppercase;margin-right:.15rem}
+.gs-a11y-bar button{cursor:pointer;border:1px solid #c7cbd1;background:#fff;color:#1a1a1a;border-radius:5px;padding:.32rem .65rem;font-family:inherit;line-height:1}
+.gs-a11y-bar button.gs-a11y-fs{font-weight:700;min-width:2rem;text-align:center}
+.gs-a11y-bar button.gs-a11y-fs[data-size="sm"]{font-size:.8rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="md"]{font-size:1rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="lg"]{font-size:1.2rem}
+.gs-a11y-bar button.gs-a11y-fs[aria-pressed="true"]{background:#1a1a1a;color:#fff;border-color:#1a1a1a}
+.gs-a11y-bar button:hover{border-color:#8a4b08}
+.gs-a11y-bar button:focus-visible{outline:2px solid #8a4b08;outline-offset:1px}
+.gs-a11y-bar .gs-a11y-sep{width:1px;align-self:stretch;background:#dfe3e8;margin:0 .1rem}</style>
+<div class="gs-a11y-bar" role="group" aria-label="Accessibility controls">
+<span class="gs-a11y-label">Text Size</span>
+<button type="button" class="gs-a11y-fs" data-size="sm" aria-pressed="false" aria-label="Small text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="md" aria-pressed="true" aria-label="Medium text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="lg" aria-pressed="false" aria-label="Large text">A</button>
+<span class="gs-a11y-sep"></span>
+<button type="button" id="gs-a11y-listen" aria-label="Read this article aloud">&#128266; Listen</button>
+<button type="button" id="gs-a11y-stop" aria-label="Stop reading aloud">&#9632; Stop</button>
+</div>
+<script>(function(){
+var KEY='gs-a11y-fontsize', SIZES={sm:'0.92',md:'1',lg:'1.15'};
+function pb(){return document.querySelector('.post-body')||document.querySelector('.artx,.mdrx');}
+function apply(sz){
+  var el=pb(); if(!el||!SIZES[sz]) return;
+  el.style.fontSize=SIZES[sz]+'em';
+  var btns=document.querySelectorAll('.gs-a11y-fs');
+  for(var i=0;i<btns.length;i++){
+    var on=btns[i].getAttribute('data-size')===sz;
+    btns[i].setAttribute('aria-pressed', on?'true':'false');
+  }
+  try{localStorage.setItem(KEY,sz);}catch(e){}
+}
+var fsBtns=document.querySelectorAll('.gs-a11y-fs');
+for(var j=0;j<fsBtns.length;j++){
+  fsBtns[j].addEventListener('click',(function(b){return function(){apply(b.getAttribute('data-size'));};})(fsBtns[j]));
+}
+var saved; try{saved=localStorage.getItem(KEY);}catch(e){}
+apply(saved&&SIZES[saved]?saved:'md');
+
+var listenBtn=document.getElementById('gs-a11y-listen'), stopBtn=document.getElementById('gs-a11y-stop');
+if(listenBtn){
+  listenBtn.addEventListener('click', function(){
+    if(!('speechSynthesis' in window)){ alert('Text-to-speech is not supported in this browser.'); return; }
+    window.speechSynthesis.cancel();
+    var src=pb(); if(!src) return;
+    var clone=src.cloneNode(true);
+    var strip=clone.querySelectorAll('script,style,svg');
+    for(var k=0;k<strip.length;k++){ strip[k].parentNode.removeChild(strip[k]); }
+    var text=clone.textContent.replace(/\s+/g,' ').trim();
+    if(!text) return;
+    var chunks=text.match(/[\s\S]{1,180}(?:[.!?]|$)/g)||[text];
+    var idx=0;
+    function speakNext(){
+      if(idx>=chunks.length) return;
+      var u=new SpeechSynthesisUtterance(chunks[idx]);
+      u.onend=function(){ idx++; speakNext(); };
+      window.speechSynthesis.speak(u);
+    }
+    speakNext();
+  });
+}
+if(stopBtn){
+  stopBtn.addEventListener('click', function(){
+    if('speechSynthesis' in window) window.speechSynthesis.cancel();
+  });
+}
+var skip=document.getElementById('gs-skip-link');
+if(skip){
+  skip.addEventListener('click', function(ev){
+    ev.preventDefault();
+    var h=document.querySelector('.post-body h1')||document.querySelector('.artx h1,.mdrx h1,h1');
+    if(h){ h.setAttribute('tabindex','-1'); h.focus(); h.scrollIntoView(); }
+  });
+}
+})();</script>
+<style>.goog-te-menu-frame{max-width:340px!important;max-height:70vh!important;overflow:auto!important;box-shadow:0 6px 24px rgba(0,0,0,.25)!important}</style><div id="google_translate_element" style="margin:8px 0 16px;"></div><script type="text/javascript">function googleTranslateElementInit(){new google.translate.TranslateElement({pageLanguage:"en",includedLanguages:"hi,bn,ta,te,mr,gu,kn,ml,pa,or,as,ur,sa,ne,sd",layout:google.translate.TranslateElement.InlineLayout.SIMPLE,autoDisplay:false},"google_translate_element");}</script><script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+
+<div class="gb-stats">
+<div class="gb-stat"><b>3 repos</b><span>one for daily mandi prices, one for monthly prices and arrivals since 2019, one for MSP and grain stocks</span></div>
+<div class="gb-stat"><b>Jan 2019 &ndash; Oct 2026</b><span>span of the monthly state-by-commodity mandi file in india-mandi-arrivals</span></div>
+<div class="gb-stat"><b>10 records</b><span>per request with data.gov.in&rsquo;s public demo key, which makes a full daily pull slow</span></div>
+<div class="gb-stat"><b>14 tables</b><span>of mandi insights rebuilt from the data in 16 seconds in one guide&rsquo;s run, identical to the committed ones</span></div>
+</div>
+
+<p>India&rsquo;s farm-price data sits on several government portals. Agmarknet and data.gov.in carry daily mandi prices and arrivals. UPAG has area, production, yield, MSP and procurement, while CACP reports, DFPD bulletins and FCI data cover support prices, stocks and storage. Each portal has its own names and formats, and some serve only the current day. The three open-source repositories on this page pull that data into files you can query, and join it where the portals do not.</p>
+<p>They are for agricultural economists, policy analysts, journalists and students who want to check a claim such as &ldquo;the mandi price is below MSP&rdquo; against the data. Each works at a different time grain: daily, monthly, or a single day&rsquo;s snapshot alongside long annual series. Start with the table, then read the section on the tool you pick.</p>
+
+<h2 class="gb-h2">Which tool for which job</h2>
+<div class="gb-tblwrap"><table class="gb-table"><thead><tr><th>Tool</th><th>What it does</th><th>Use it when</th></tr></thead><tbody><tr><td>agri-commodity-tracker</td><td>Collects daily APMC mandi prices from Agmarknet via data.gov.in, plus World Bank, FAOSTAT and NASA POWER data, into DuckDB</td><td>You want market-level daily prices and are willing to run a collector every day</td></tr><tr><td>india-mandi-arrivals</td><td>Monthly Agmarknet prices and arrivals since 2019, joined to UPAG output, MSP, procurement and trade, with 14 ready insight tables</td><td>You want arrivals against production, prices against MSP, or seasonality, by state and crop</td></tr><tr><td>FCI-warehouse-MSPvsMSV</td><td>A sourced data and research repo on procurement, MSP, FCI stocks and storage, with small economic models</td><td>You are asking whether MSP holds in the market, or whether buying and storing grain pays</td></tr></tbody></table></div>
+<p class="gb-note">Each section below gives the tool&rsquo;s data sources and outputs, one quick-start command copied from its guide, the repo link and its main limitation.</p>
+
+<h2 class="gb-h2">The tools, one by one</h2>
+<h3 style="font-family:-apple-system,'Segoe UI',sans-serif;font-weight:700;font-size:1.12em;margin:1.8rem 0 .5rem;color:#212529">agri-commodity-tracker: daily mandi prices in one DuckDB file</h3>
+<p>This collects APMC mandi prices from Agmarknet through data.gov.in: state, district, market, commodity, variety, and minimum, maximum and modal price in rupees per quintal. It writes them to a local DuckDB file, and re-running a day replaces that day instead of duplicating it. The README suggests running the collector daily at 14:30 IST.</p>
+<p>Other collectors pull a World Bank agriculture indicator panel, FAOSTAT producer prices and crop production, NASA POWER monthly rainfall and temperature for 14 states, and the FCI depot directory. Committed CSV snapshots let you query without any network: the guide&rsquo;s snapshot held 463,023 price rows pulled between 21 July and 24 September 2026, and 10 tests passed.</p>
+<p><strong>Quick start.</strong> Query the committed snapshot with DuckDB, no network needed (the latest pull dates with row and commodity counts):</p>
+<pre style="background:#f6f3ea;color:#111;border:1px solid #dee2e6;border-radius:8px;padding:10px 12px;overflow-x:auto;font-size:.82rem;line-height:1.45;white-space:pre"><code>python3 -c &quot;import duckdb; print(duckdb.sql(\&quot;select pulled_on, count(*) n, count(distinct commodity) commodities from read_csv_auto(&#x27;data/mandi_prices_snapshot.csv&#x27;) group by 1 order by 1 desc limit 3\&quot;))&quot;</code></pre>
+<p><strong>Code:</strong> <a href="https://github.com/herrrickshaw/agri-commodity-tracker">github.com/herrrickshaw/agri-commodity-tracker</a></p>
+<p><strong>Main limitation.</strong> The source serves only the current day, so history depends on running the collector. Days before 23 July 2026 are stubs of about 10 rows from an earlier bug and cannot be backfilled. The demo key returns 10 records per request, and the repo&rsquo;s collection log ends with an HTTP 429 (too many requests). Day sizes vary, so compare like with like.</p>
+<h3 style="font-family:-apple-system,'Segoe UI',sans-serif;font-weight:700;font-size:1.12em;margin:1.8rem 0 .5rem;color:#212529">india-mandi-arrivals: arrivals and prices joined to production and MSP</h3>
+<p>This is a point-in-time extract plus the code to rebuild it. The Agmarknet side holds state-by-commodity monthly prices and arrivals from January 2019 to October 2026, a market-level daily sample (23 field crops, every sixth day since November 2025) and the master lists. The UPAG side holds area, production and yield by state and district, MSP, WPI, FCI procurement, DGCIS trade and the crop calendar.</p>
+<p>Crosswalks map Agmarknet commodity and state names to UPAG&rsquo;s, including the paddy &times; 0.67 conversion to milled rice. One script, build_insights.py, turns the data into 14 report tables: arrivals as a share of production, mandi prices against MSP, volatility and seasonality, yield trends, area by crop and the largest mandis. The collectors use only the standard library, throttle requests and cache, so an interrupted run resumes. The worked example below uses this tool.</p>
+<p><strong>Quick start.</strong> Check the main files load, and how big they are:</p>
+<pre style="background:#f6f3ea;color:#111;border:1px solid #dee2e6;border-radius:8px;padding:10px 12px;overflow-x:auto;font-size:.82rem;line-height:1.45;white-space:pre"><code>python3 -c &quot;import pandas as pd
+for f in [&#x27;data/agmarknet/state_monthly.csv.gz&#x27;,&#x27;data/agmarknet/market_daily_sample.csv.gz&#x27;,&#x27;data/upag/apy_state.csv.gz&#x27;,&#x27;data/upag/msp.csv.gz&#x27;]:
+    d=pd.read_csv(f); print(f, len(d), list(d.columns)[:6])&quot;</code></pre>
+<p><strong>Code:</strong> <a href="https://github.com/herrrickshaw/india-mandi-arrivals">github.com/herrrickshaw/india-mandi-arrivals</a></p>
+<p><strong>Main limitation.</strong> Arrivals are what markets choose to report: grain bought directly by government agencies or traded outside APMCs is missing, and Agmarknet widened its market coverage from November 2025, so recent arrivals are not comparable with earlier years. The files are an unofficial extract, so check them against the source portals. A full refresh takes about an hour and was not run by the guide.</p>
+<h3 style="font-family:-apple-system,'Segoe UI',sans-serif;font-weight:700;font-size:1.12em;margin:1.8rem 0 .5rem;color:#212529">FCI-warehouse-MSPvsMSV: MSP, procurement and the cost of holding grain</h3>
+<p>This research and data repository asks whether a Minimum Support Volume guarantee could extend price support beyond rice and wheat. Its data folder holds 49 CSVs, and a MANIFEST.md records where each came from and what is missing. The files include the MSP series for 14 crops from 2010-11, procurement by year, stocks against norms and a one-day table of mandi modal prices against MSP for 16 crops (23 July 2026).</p>
+<p>It also has cited reports, a self-contained HTML dashboard, a Colab notebook and small Python models: holding economics, the unit economics of processing OMSS grain, rice-bran oil savings and a real farm income index. In the guide&rsquo;s run, the holding-economics model found storage and financing costs exceeded price appreciation for all 16 commodities tested, over 12, 24 and 36 months.</p>
+<p><strong>Quick start.</strong> Run the holding-economics model (it prints summary, horizon-return and post-crash tables, and rewrites three CSVs next to the script, so run it in a copy if you want the repo untouched):</p>
+<pre style="background:#f6f3ea;color:#111;border:1px solid #dee2e6;border-radius:8px;padding:10px 12px;overflow-x:auto;font-size:.82rem;line-height:1.45;white-space:pre"><code>cd data &amp;&amp; python3 holding_economics.py</code></pre>
+<p><strong>Code:</strong> <a href="https://github.com/herrrickshaw/FCI-warehouse-MSPvsMSV">github.com/herrrickshaw/FCI-warehouse-MSPvsMSV</a></p>
+<p><strong>Main limitation.</strong> Year labels differ between files: msp_series.csv uses the sowing year, while the mandi table uses the marketing year, so check before joining them. The mandi comparison covers one day and includes crops with very few reports. The holding verdict depends on the assumed storage and financing rates, and the models are stylised unit economics, not forecasts.</p>
+
+<h2 class="gb-h2">Worked example: does the mandi price hold up to MSP? (india-mandi-arrivals)</h2>
+<p>This follows the india-mandi-arrivals guide, which ran these steps in a fresh virtual environment on 29 October 2026. It used the committed extract (latest month October 2026) and did not run the collectors. The figures describe that extract, not current prices.</p>
+<p><strong>Step 1.</strong> Get the repository and install the analysis dependencies (pandas, numpy and openpyxl).</p>
+<pre style="background:#f6f3ea;color:#111;border:1px solid #dee2e6;border-radius:8px;padding:10px 12px;overflow-x:auto;font-size:.82rem;line-height:1.45;white-space:pre"><code>git clone https://github.com/herrrickshaw/india-mandi-arrivals.git
+cd india-mandi-arrivals</code></pre>
+<pre style="background:#f6f3ea;color:#111;border:1px solid #dee2e6;border-radius:8px;padding:10px 12px;overflow-x:auto;font-size:.82rem;line-height:1.45;white-space:pre"><code>python3 -m venv .venv &amp;&amp; source .venv/bin/activate
+pip install -r requirements.txt</code></pre>
+<p><strong>Step 2.</strong> Rebuild the 14 insight tables from the data:</p>
+<pre style="background:#f6f3ea;color:#111;border:1px solid #dee2e6;border-radius:8px;padding:10px 12px;overflow-x:auto;font-size:.82rem;line-height:1.45;white-space:pre"><code>python analysis/build_insights.py</code></pre>
+<p>The guide reported that the script wrote reports/ in about 16 seconds, and that git status showed no changes: the committed tables were reproduced exactly.</p>
+<p><strong>Step 3.</strong> List the headline sections:</p>
+<pre style="background:#f6f3ea;color:#111;border:1px solid #dee2e6;border-radius:8px;padding:10px 12px;overflow-x:auto;font-size:.82rem;line-height:1.45;white-space:pre"><code>grep &#x27;^## &#x27; reports/INSIGHTS.md</code></pre>
+<p>Six sections: arrivals as a share of production (2025-26), mandi prices against MSP (last 24 months), most and least volatile large markets, yield growth, area by crop, and the largest mandis.</p>
+<p><strong>Step 4.</strong> Read Madhya Pradesh wheat against MSP for the last six months, from reports/mandi_vs_msp.csv. Arrivals are in tonnes and prices in rupees per quintal:</p>
+<pre style="background:#f6f3ea;color:#111;border:1px solid #dee2e6;border-radius:8px;padding:10px 12px;overflow-x:auto;font-size:.82rem;line-height:1.45;white-space:pre"><code>v=pd.read_csv(&#x27;reports/mandi_vs_msp.csv&#x27;); v[(v.commodity==&#x27;Wheat&#x27;)&amp;(v.state==&#x27;Madhya Pradesh&#x27;)].tail(6)
+  month          state  arrivals_t  price_rs_qtl msp_year  msp_rs_qtl  price_vs_msp  below_msp
+2026-05 Madhya Pradesh  1925234.17       2418.76  2026-27      2585.0     -0.064309       True
+2026-06 Madhya Pradesh  1227436.06       2395.11  2026-27      2585.0     -0.073458       True
+2026-07 Madhya Pradesh   810673.96       2510.17  2026-27      2585.0     -0.028948       True
+2026-08 Madhya Pradesh   544962.35       2581.90  2026-27      2585.0     -0.001199       True
+2026-09 Madhya Pradesh   619729.43       2635.74  2026-27      2585.0      0.019629      False
+2026-10 Madhya Pradesh   365163.71       2661.26  2026-27      2585.0      0.029501      False</code></pre>
+<p>In the harvest month of May, the mandi price sat 6.4% under the Rs 2,585 MSP. By October it was 2.9% above. The script matches the MSP year to the marketing year.</p>
+<p><strong>Step 5.</strong> Compare crops. The guide&rsquo;s table from INSIGHTS.md shows the share of state-months, over the last 24 months, in which a state&rsquo;s weighted mandi price was below that year&rsquo;s MSP:</p>
+<pre style="background:#f6f3ea;color:#111;border:1px solid #dee2e6;border-radius:8px;padding:10px 12px;overflow-x:auto;font-size:.82rem;line-height:1.45;white-space:pre"><code>| Commodity                   | State-months | Below MSP | Median price vs MSP |
+| Ragi(Finger Millet)         | 78           | 98.7%     | -25.8% |
+| Groundnut                   | 261          | 86.6%     | -15.9% |
+| Bajra(Pearl Millet/Cumbu)   | 223          | 79.4%     | -11.5% |
+| Green Gram(Moong)(Whole)    | 220          | 79.1%     | -16.5% |
+| Soyabean                    | 199          | 76.4%     | -14.5% |
+| Maize                       | 332          | 70.8%     | -6.5%  |
+| Cotton                      | 126          | 54.0%     | -0.6%  |
+| Paddy(Common)               | 429          | 40.1%     | 1.2%   |
+| Mustard                     | 248          | 21.4%     | 9.1%   |
+| Wheat                       | 314          | 20.1%     | 5.1%   |</code></pre>
+<p><strong>What the guide drew from it.</strong> Millets, groundnut and pulses traded below MSP most of the time; wheat and mustard rarely did. Commodity names are Agmarknet&rsquo;s own.</p>
+
+<h2 class="gb-h2">What these tools do not do</h2>
+<ul>
+<li><strong>No trading signals.</strong> The prices are mandi spot prices, not futures, and they mix varieties and grades. None of the three is investment advice.</li>
+<li><strong>No official statistics.</strong> All three republish or compile public data without auditing it. Check figures against agmarknet.gov.in and upag.gov.in before relying on them.</li>
+<li><strong>No lot-level trades.</strong> District cumulative arrivals and anything behind a login or captcha are out of scope for india-mandi-arrivals.</li>
+<li><strong>No complete record of what was grown or sold.</strong> Arrivals miss direct government purchases and trade outside APMCs. Shares above 100% of production, or near-zero volatility, are reporting patterns, not errors.</li>
+<li><strong>No back history on demand.</strong> data.gov.in serves only the current day, so agri-commodity-tracker&rsquo;s daily history exists only for days someone ran the collector.</li>
+<li><strong>No forecasts.</strong> The holding-economics and processing models in FCI-warehouse-MSPvsMSV are deterministic, with labelled assumptions. They are not for farm-level decisions.</li>
+</ul>
+
+<h2 class="gb-h2">Where the guides differ</h2>
+<ul>
+<li><strong>&ldquo;How often below MSP&rdquo; depends on the measure.</strong> FCI-warehouse-MSPvsMSV counts market reports on a single day (23 July 2026): 19% below MSP for wheat, 92% for bajra and 84% for moong. india-mandi-arrivals counts state-months over 24 months up to October 2026: 20.1%, 79.4% and 79.1%. The second is newer and covers far more time, so prefer it for patterns. Treat the one-day table as a snapshot, especially for crops with few reports.</li>
+<li><strong>MSP year labels.</strong> The FCI repo&rsquo;s msp_series.csv files the Rs 2,425 rabi wheat MSP under 2024-25 and Rs 2,585 under 2025-26, by sowing year. Its mandi table, like india-mandi-arrivals, uses the marketing year: wheat Rs 2,425 for 2025-26, and Rs 2,585 in india-mandi-arrivals for 2026-27. Align the labels before you join files from different repos.</li>
+<li><strong>Rate limits.</strong> Both collectors run into them. agri-commodity-tracker&rsquo;s collection log ends with an HTTP 429 from its source. india-mandi-arrivals throttles itself to one request per 1.5 seconds because Agmarknet returns HTTP 429 if hurried.</li>
+</ul>
+
+<h2 class="gb-h2">Sources and caveats</h2>
+<div class="gb-card">
+<p class="gb-note" style="margin:0">This page replaces the separate how-to guides for these three repositories, which were run between 19 and 29 October 2026. Repositories: <a href="https://github.com/herrrickshaw/agri-commodity-tracker">github.com/herrrickshaw/agri-commodity-tracker</a>; <a href="https://github.com/herrrickshaw/india-mandi-arrivals">github.com/herrrickshaw/india-mandi-arrivals</a>; <a href="https://github.com/herrrickshaw/FCI-warehouse-MSPvsMSV">github.com/herrrickshaw/FCI-warehouse-MSPvsMSV</a>. Underlying data, as recorded by the repos: Agmarknet (directly and via data.gov.in), UPAG, CACP, DFPD bulletins, FCI, World Bank, FAOSTAT and NASA POWER. india-mandi-arrivals re-publishes Government of India open data under GODL-India. Figures quoted here are those the guides reported on the dates given, not current values. Not investment advice.</p>
+</div>
+
+<div class="gb-related">
+<strong>Related on this blog:</strong>
+<a href="https://masaladeutsch.blogspot.com/2026/07/the-price-of-grain-msp-msv-and.html">The Price of Grain: MSP, MSV, and the Arithmetic of the Indian Grain State</a>
+<a href="https://masaladeutsch.blogspot.com/2026/10/indias-biggest-mandi-crops-have.html">India’s Biggest Mandi Crops Have the Steadiest Prices. Its Vegetables Swing Two to Eight Times as Much.</a>
+<a href="https://masaladeutsch.blogspot.com/2026/10/maize-is-cheapest-in-different-state.html">Maize Is Cheapest in a Different State Every Few Months. Rice Barely Moves.</a>
+<a href="https://masaladeutsch.blogspot.com/2026/10/wheats-support-price-rose-by-25.html">Wheat&#x27;s Support Price Rose by ₹25, the Smallest Rise in Years. The Granaries Explain Why</a>
+<a href="https://masaladeutsch.blogspot.com/2026/07/fci-grain-flow-procurement-storage.html">FCI Grain Flow — Procurement · Storage · Disposal Dashboard</a>
+<a href="https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html">All articles (index)</a>
+</div>
+
+<p class="disclaimer" data-gs-ai-disclosure-v1="1"><strong>About this article:</strong> Researched, written and edited by Umashankar Triplicane Dwarakanathan, with AI research assistance; every figure is meant to trace to the primary source cited. See the <a href="https://masaladeutsch.blogspot.com/p/disclaimer.html">Editorial Policy</a> for how sourcing, AI use and corrections work.</p>
+
+</div>
+
+<div id="gs-idx"></div><script defer="defer" src="https://herrrickshaw.github.io/masaladeutsch/accordion.js"></script>

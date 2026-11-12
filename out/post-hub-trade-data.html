@@ -1,0 +1,283 @@
+<div style="max-width:760px;margin:0 auto;font-family:Georgia,'Times New Roman',serif;color:#212529;background:#fff;line-height:1.7;font-size:17px">
+
+<style>
+.gb-card{background:#f8f9fa;border:1px solid #dee2e6;border-radius:12px;padding:1.25rem 1.5rem;margin:1.5rem 0;box-shadow:0 1px 2px rgba(0,0,0,.04)}
+.gb-table{border-collapse:collapse;width:100%;font-size:.85em;font-family:-apple-system,'Segoe UI',sans-serif;margin:1.25rem 0}
+.gb-table thead th{background:#212529;color:#fff;padding:.5rem .75rem;text-align:left;white-space:nowrap}
+.gb-table td{padding:.5rem .75rem;border-bottom:1px solid #dee2e6;color:#212529;word-wrap:break-word}
+.gb-table tbody tr:nth-child(even){background:#f8f9fa}
+.gb-tblwrap{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:0 0 1em}
+.gb-kicker{font-family:-apple-system,'Segoe UI',sans-serif;text-transform:uppercase;letter-spacing:.12em;font-size:.72em;color:#868e96;margin-bottom:.5rem}
+.gb-h2{font-family:-apple-system,'Segoe UI',sans-serif;font-weight:700;font-size:1.35em;margin:2.2rem 0 .8rem;color:#212529;letter-spacing:-.01em}
+.gb-note{font-size:.8em;color:#868e96;font-family:-apple-system,'Segoe UI',sans-serif;line-height:1.5}
+.gb-pull{border-left:4px solid #212529;padding:.25rem 0 .25rem 1.25rem;margin:1.75rem 0;font-size:1.15em;font-style:italic;color:#495057}
+.gb-related{background:#eef6ff;border:1px solid #b6d4f0;border-radius:12px;padding:1.1rem 1.4rem;margin:1.5rem 0;font-family:-apple-system,'Segoe UI',sans-serif;font-size:.9em}
+.gb-related a{color:#0b5394}
+.gb-warn{background:#fff8f0;border:1px solid #f0d9b5;border-radius:10px;padding:1rem 1.25rem;margin:1.25rem 0;font-size:.92em}
+.gb-stats{display:grid;gap:1rem;grid-template-columns:repeat(auto-fit,minmax(11rem,1fr));margin:1.4rem 0 1.8rem}
+.gb-stat{background:#f8f9fa;border:1px solid #dee2e6;border-radius:10px;padding:.9rem 1rem;font-family:-apple-system,'Segoe UI',sans-serif}
+.gb-stat b{display:block;font-size:1.35em;color:#212529;font-family:Georgia,serif}
+.gb-stat span{display:block;font-size:.76em;color:#868e96;margin-top:.2rem;line-height:1.4}
+.gb-stats>.google-auto-placed,.gb-stats>ins.adsbygoogle{grid-column:1/-1;order:99;width:100%;margin:.4rem 0}
+.gs-head-order>.google-auto-placed,.gs-head-order>ins.adsbygoogle{order:99}
+
+.post-body .tw{overflow-x:auto;margin:1.1rem 0}
+.post-body table{display:block;overflow-x:auto;max-width:100%;width:max-content;
+ min-width:100%;border-collapse:collapse;font-size:.86rem}
+.post-body thead th,.post-body tr:first-child th{background:#111;color:#fff;font-weight:700;
+ text-align:right;vertical-align:bottom;padding:.6rem .7rem;border:1px solid #111;
+ white-space:normal;overflow-wrap:normal;word-break:keep-all;min-width:5.5rem}
+.post-body thead th:first-child,.post-body tr:first-child th:first-child{text-align:left}
+.post-body td{border:1px solid #d9d9d9;padding:.5rem .7rem;text-align:right;
+ font-variant-numeric:tabular-nums;white-space:nowrap;color:#111;background:#fff}
+.post-body td:first-child{text-align:left;white-space:normal;min-width:8rem}
+.post-body tbody tr:nth-child(even) td{background:#fafafa}
+</style>
+
+<div class="gs-head-order" style="display:flex;flex-direction:column">
+<p class="standfirst" style="order:4;font-size:1.1em;color:#495057"><em>Eight small repositories turn TRADESTAT, the Export-Import Data Bank, RBI and MoSPI data into files you can query, each answering a different question about India&rsquo;s trade. This guide shows what each one does, the command to start with, and where its numbers stop being reliable.</em></p>
+<div class="topnav-index-link" style="order:1;font-size:.82em;margin:6px 0 14px"><a href="https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html" style="color:#0b5394;text-decoration:none">&larr; All Articles (Index)</a></div>
+<div class="gb-kicker" style="order:2">Open-Source Tools &middot; 12 November 2026</div>
+<h1 style="order:3;font-family:-apple-system,'Segoe UI',sans-serif;font-weight:800;font-size:2em;line-height:1.2;letter-spacing:-.02em;margin:.25rem 0 1rem">Eight Open-Source Tools for India&rsquo;s Trade Data, From HS Chapters to Chemical Codes and Forex, and Which One Answers Which Question</h1>
+</div>
+
+<a href="#" id="gs-skip-link" class="gs-skip-link" style="position:absolute;left:-9999px;top:auto;background:#1a1a1a;color:#fff;padding:.6rem 1rem;z-index:1000;border-radius:4px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.85rem">Skip to article content</a>
+<style>.gs-skip-link:focus{left:8px!important;top:8px!important}
+.gs-a11y-bar{display:flex;align-items:center;gap:.55rem;flex-wrap:wrap;background:#f4f5f7;border:1px solid #dfe3e8;border-radius:8px;padding:.55rem .8rem;margin:10px 0 16px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
+.gs-a11y-bar .gs-a11y-label{font-size:.68rem;font-weight:700;letter-spacing:.08em;color:#666;text-transform:uppercase;margin-right:.15rem}
+.gs-a11y-bar button{cursor:pointer;border:1px solid #c7cbd1;background:#fff;color:#1a1a1a;border-radius:5px;padding:.32rem .65rem;font-family:inherit;line-height:1}
+.gs-a11y-bar button.gs-a11y-fs{font-weight:700;min-width:2rem;text-align:center}
+.gs-a11y-bar button.gs-a11y-fs[data-size="sm"]{font-size:.8rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="md"]{font-size:1rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="lg"]{font-size:1.2rem}
+.gs-a11y-bar button.gs-a11y-fs[aria-pressed="true"]{background:#1a1a1a;color:#fff;border-color:#1a1a1a}
+.gs-a11y-bar button:hover{border-color:#8a4b08}
+.gs-a11y-bar button:focus-visible{outline:2px solid #8a4b08;outline-offset:1px}
+.gs-a11y-bar .gs-a11y-sep{width:1px;align-self:stretch;background:#dfe3e8;margin:0 .1rem}</style>
+<div class="gs-a11y-bar" role="group" aria-label="Accessibility controls">
+<span class="gs-a11y-label">Text Size</span>
+<button type="button" class="gs-a11y-fs" data-size="sm" aria-pressed="false" aria-label="Small text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="md" aria-pressed="true" aria-label="Medium text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="lg" aria-pressed="false" aria-label="Large text">A</button>
+<span class="gs-a11y-sep"></span>
+<button type="button" id="gs-a11y-listen" aria-label="Read this article aloud">&#128266; Listen</button>
+<button type="button" id="gs-a11y-stop" aria-label="Stop reading aloud">&#9632; Stop</button>
+</div>
+<script>(function(){
+var KEY='gs-a11y-fontsize', SIZES={sm:'0.92',md:'1',lg:'1.15'};
+function pb(){return document.querySelector('.post-body')||document.querySelector('.artx,.mdrx');}
+function apply(sz){
+  var el=pb(); if(!el||!SIZES[sz]) return;
+  el.style.fontSize=SIZES[sz]+'em';
+  var btns=document.querySelectorAll('.gs-a11y-fs');
+  for(var i=0;i<btns.length;i++){
+    var on=btns[i].getAttribute('data-size')===sz;
+    btns[i].setAttribute('aria-pressed', on?'true':'false');
+  }
+  try{localStorage.setItem(KEY,sz);}catch(e){}
+}
+var fsBtns=document.querySelectorAll('.gs-a11y-fs');
+for(var j=0;j<fsBtns.length;j++){
+  fsBtns[j].addEventListener('click',(function(b){return function(){apply(b.getAttribute('data-size'));};})(fsBtns[j]));
+}
+var saved; try{saved=localStorage.getItem(KEY);}catch(e){}
+apply(saved&&SIZES[saved]?saved:'md');
+
+var listenBtn=document.getElementById('gs-a11y-listen'), stopBtn=document.getElementById('gs-a11y-stop');
+if(listenBtn){
+  listenBtn.addEventListener('click', function(){
+    if(!('speechSynthesis' in window)){ alert('Text-to-speech is not supported in this browser.'); return; }
+    window.speechSynthesis.cancel();
+    var src=pb(); if(!src) return;
+    var clone=src.cloneNode(true);
+    var strip=clone.querySelectorAll('script,style,svg');
+    for(var k=0;k<strip.length;k++){ strip[k].parentNode.removeChild(strip[k]); }
+    var text=clone.textContent.replace(/\s+/g,' ').trim();
+    if(!text) return;
+    var chunks=text.match(/[\s\S]{1,180}(?:[.!?]|$)/g)||[text];
+    var idx=0;
+    function speakNext(){
+      if(idx>=chunks.length) return;
+      var u=new SpeechSynthesisUtterance(chunks[idx]);
+      u.onend=function(){ idx++; speakNext(); };
+      window.speechSynthesis.speak(u);
+    }
+    speakNext();
+  });
+}
+if(stopBtn){
+  stopBtn.addEventListener('click', function(){
+    if('speechSynthesis' in window) window.speechSynthesis.cancel();
+  });
+}
+var skip=document.getElementById('gs-skip-link');
+if(skip){
+  skip.addEventListener('click', function(ev){
+    ev.preventDefault();
+    var h=document.querySelector('.post-body h1')||document.querySelector('.artx h1,.mdrx h1,h1');
+    if(h){ h.setAttribute('tabindex','-1'); h.focus(); h.scrollIntoView(); }
+  });
+}
+})();</script>
+<style>.goog-te-menu-frame{max-width:340px!important;max-height:70vh!important;overflow:auto!important;box-shadow:0 6px 24px rgba(0,0,0,.25)!important}</style><div id="google_translate_element" style="margin:8px 0 16px;"></div><script type="text/javascript">function googleTranslateElementInit(){new google.translate.TranslateElement({pageLanguage:"en",includedLanguages:"hi,bn,ta,te,mr,gu,kn,ml,pa,or,as,ur,sa,ne,sd",layout:google.translate.TranslateElement.InlineLayout.SIMPLE,autoDisplay:false},"google_translate_element");}</script><script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+
+<div class="gb-stats">
+<div class="gb-stat"><b>8 repos</b><span>each covering one slice of India&rsquo;s trade data, from HS chapters to chemical codes and reserves</span></div>
+<div class="gb-stat"><b>FY2018-19 to FY2025-26</b><span>the longest annual span, in the chapter-level TRADESTAT files</span></div>
+<div class="gb-stat"><b>827 codes</b><span>chemical HS-8 lines sorted into import-substitution signals</span></div>
+<div class="gb-stat"><b>3 of 8</b><span>repos are archived or kept only as a legacy snapshot: read them, do not build on them</span></div>
+</div>
+
+<p>India&rsquo;s trade data is spread across several official sites: the Commerce Ministry&rsquo;s TRADESTAT and Export-Import Data Bank, the RBI and MoSPI. Each has its own download format, and the Export-Import Data Bank can only be queried through a browser. The eight open-source repositories on this page each take one slice of that data and turn it into files you can query: chapter totals, eight-digit chemical lines, metal imports by country, reserves and inflation. Some also add an analysis or a set of policy calls on top.</p>
+<p>They are for students, journalists, policy analysts and exporters who want a dated, sourced number without paying for a data feed. Most need only Python, and several need nothing but a browser to read the committed files. Three of them are archived or kept only as a legacy snapshot, and this page says which. Start with the table, then read the section on the tool you pick.</p>
+
+<h2 class="gb-h2">Which tool for which job</h2>
+<div class="gb-tblwrap"><table class="gb-table"><thead><tr><th>Tool</th><th>What it does</th><th>Use it when</th></tr></thead><tbody><tr><td>india-trade-tracker</td><td>Pulls annual exports and imports by 2-digit HS chapter from the Export-Import Data Bank into DuckDB; also World Bank, NIRYAT and UN Comtrade collectors</td><td>You want to collect chapter totals yourself, straight from the government data bank</td></tr><tr><td>india-commodity-trade-deficit</td><td>Two JSON files from TRADESTAT: all HS chapters for eight fiscal years, and 4-digit metal imports by partner country</td><td>You need the trade balance by chapter over time, or gold, silver and copper imports split out</td></tr><tr><td>india-trade-data-analysis</td><td>Dated JSON extracts and charts on trade, the rupee, reserves, inflation and GDP, with a five-year synthesis</td><td>You want one sourced, descriptive picture of the external sector without installing anything</td></tr><tr><td>india-trade-sector-policy-recommendations</td><td>Turns the same data into tiered calls on import substitution, export growth and country exposure</td><td>You want explicit policy recommendations you can check or argue with</td></tr><tr><td>chemical_import_substitution</td><td>Sorts 827 chemical, fertiliser and plastics HS-8 lines into substitution signals</td><td>You are screening chemical imports at product level, not chapter level</td></tr><tr><td>india-trade-export-analysis</td><td>Archived pandas scripts and CSVs on commodity exports, with a high-growth shortlist</td><td>You want a starting export table to verify, or to see how a growth screen breaks</td></tr><tr><td>india-forex-analysis</td><td>Archived markdown study of reserves, the trade deficit and borrowing; no code</td><td>You want an audit exercise, not a source to cite</td></tr><tr><td>mospi-dataset-analysis-public</td><td>Frozen snapshot of CPI, WPI, IIP and RBI forex series pulled through the MoSPI data connector, with 14 charts</td><td>You want a worked example of the MoSPI connector, and dated figures are fine</td></tr></tbody></table></div>
+<p class="gb-note">Each section below gives the tool&rsquo;s data sources, one quick-start command copied from its guide, the repo link and its main limitation.</p>
+
+<h2 class="gb-h2">The tools, one by one</h2>
+<h3 style="font-family:-apple-system,'Segoe UI',sans-serif;font-weight:700;font-size:1.12em;margin:1.8rem 0 .5rem;color:#212529">india-trade-tracker: chapter totals from the government data bank</h3>
+<p>This collects India&rsquo;s annual merchandise exports and imports by 2-digit HS chapter from the DGFT / Department of Commerce Export-Import Data Bank. Each row has the current-year and previous-year value in US$ million and the growth rate. The data bank site is built in JavaScript, so the collector drives headless Chrome and stores each pull in DuckDB with the pull date.</p>
+<p>Other collectors pull a World Bank trade indicator panel, bilateral monthly data and HS8 detail from the NIRYAT portal, and chapter totals from the UN Comtrade public preview API. A committed CSV snapshot holds two financial years (FY2024-25 and FY2025-26) for both flows, so the tests and queries run with no browser and no network. The guide&rsquo;s run had 17 tests passing.</p>
+<p><strong>Quick start.</strong> Pull one financial year live (needs Chrome and a network connection; the guide did not run this step, only the snapshot and tests):</p>
+<pre style="background:#f6f3ea;color:#111;border:1px solid #dee2e6;border-radius:8px;padding:10px 12px;overflow-x:auto;font-size:.82rem;line-height:1.45;white-space:pre"><code>python3 collectors/eidb_trade.py --year 2024</code></pre>
+<p><strong>Code:</strong> <a href="https://github.com/herrrickshaw/india-trade-tracker">github.com/herrrickshaw/india-trade-tracker</a></p>
+<p><strong>Main limitation.</strong> The guide ran only the snapshot and the tests, not the live collector. The snapshot covers two years at chapter level, and monthly series and 4/6/8-digit drill-down are still on the roadmap. The NIRYAT collector turns off TLS certificate checks because of a certificate mismatch on that site; understand that before you use it.</p>
+<h3 style="font-family:-apple-system,'Segoe UI',sans-serif;font-weight:700;font-size:1.12em;margin:1.8rem 0 .5rem;color:#212529">india-commodity-trade-deficit: eight years of chapters, plus bare metals</h3>
+<p>Two small JSON files from the Commerce Ministry&rsquo;s TRADESTAT (DGCI&amp;S) carry the commodity side of India&rsquo;s trade gap. The chapter file has exports and imports for all HS chapters from FY2018-19 to FY2025-26 in US$ million. The 4-digit file splits bullion out of chapter 71, with gold (7108), silver (7106), copper and other metal imports, and a by-country block for each code.</p>
+<p>You need only Python&rsquo;s standard library. The repo also holds a finished essay on metal recycling as a self-contained HTML page. The worked example below uses this tool.</p>
+<p><strong>Quick start.</strong> Print the trade balance by fiscal year (eight rows: year, imports, exports, balance in US$ billion):</p>
+<pre style="background:#f6f3ea;color:#111;border:1px solid #dee2e6;border-radius:8px;padding:10px 12px;overflow-x:auto;font-size:.82rem;line-height:1.45;white-space:pre"><code>python3 - &lt;&lt;&#x27;E&#x27;
+import json
+d=json.load(open(&#x27;data/tradestat_hsn_export_import_2018-19_to_2025-26.json&#x27;))
+t=d[&#x27;totals&#x27;]
+for y in t[&#x27;import&#x27;]:
+    print(y, round(t[&#x27;import&#x27;][y]/1e3,1), round(t[&#x27;export&#x27;][y]/1e3,1), round((t[&#x27;export&#x27;][y]-t[&#x27;import&#x27;][y])/1e3,1))
+E</code></pre>
+<p><strong>Code:</strong> <a href="https://github.com/herrrickshaw/india-commodity-trade-deficit">github.com/herrrickshaw/india-commodity-trade-deficit</a></p>
+<p><strong>Main limitation.</strong> The data is annual, and FY2025-26 is provisional. The files were retrieved on 18 July and 3 August 2026, so later revisions are missing. The metals file covers 14 selected 4-digit codes, not all of HS.</p>
+<h3 style="font-family:-apple-system,'Segoe UI',sans-serif;font-weight:700;font-size:1.12em;margin:1.8rem 0 .5rem;color:#212529">india-trade-data-analysis: the descriptive picture in one place</h3>
+<p>This is the data half of a two-repo study. It records CPI and WPI by state, GDP growth with revisions, forex reserves, the rupee, the goods and services balance, and imports and exports by HS chapter from FY2018-19 to FY2025-26. A five-year synthesis puts all of these on one window, and a sample FY2025-26 report states every figure in US$ million.</p>
+<p>The extracts come as JSON, each stating its purpose, source and retrieval date, with charts served on the project&rsquo;s GitHub Pages site. A validation file compares TRADESTAT totals with the Commerce Ministry&rsquo;s TIA portal and records a gap of about 2% on exports.</p>
+<p><strong>Quick start.</strong> Print the five-year export and import totals and growth rates:</p>
+<pre style="background:#f6f3ea;color:#111;border:1px solid #dee2e6;border-radius:8px;padding:10px 12px;overflow-x:auto;font-size:.82rem;line-height:1.45;white-space:pre"><code>python3 -c &quot;import json;d=json.load(open(&#x27;data/five_year_trade_currency_synthesis_2026-07-18.json&#x27;))[&#x27;trade_totals_usd_million&#x27;];print(d[&#x27;years&#x27;]);print(d[&#x27;export&#x27;]);print(d[&#x27;import&#x27;]);print(d[&#x27;export_growth_5yr_pct&#x27;],d[&#x27;import_growth_5yr_pct&#x27;])&quot;</code></pre>
+<p><strong>Code:</strong> <a href="https://github.com/herrrickshaw/india-trade-data-analysis">github.com/herrrickshaw/india-trade-data-analysis</a></p>
+<p><strong>Main limitation.</strong> Everything is a snapshot retrieved on 18 July 2026, and FY2025-26 is provisional in every source. The guide read the committed files only; it did not re-pull MoSPI, RBI or TRADESTAT data or run the Colab notebook. Services trade runs one year behind goods.</p>
+<h3 style="font-family:-apple-system,'Segoe UI',sans-serif;font-weight:700;font-size:1.12em;margin:1.8rem 0 .5rem;color:#212529">india-trade-sector-policy-recommendations: tiered calls you can argue with</h3>
+<p>This is the prescriptive half of the same study. It takes the chapter rankings and country concentration from india-trade-data-analysis, checks them against PLI scheme coverage and policy history, and sorts import chapters into three tiers: &ldquo;Act now&rdquo;, &ldquo;Scale existing scheme&rdquo; and &ldquo;Different lever&rdquo;. It does the same for export growth and for country relationships (de-risk, diversify, monitor).</p>
+<p>Each call names an HS chapter, its FY2025-26 value, a growth rate and any existing scheme. The repo has 67 data files, 29 HTML charts, a PLI scheme report card and a quarterly PDF. It flags two risks it says it cross-checked against NITI Aayog&rsquo;s Trade Watch: EU CBAM exposure on iron and steel exports, and a long decline in gems and jewellery exports.</p>
+<p><strong>Quick start.</strong> List the three import-substitution tiers with their chapters and growth rates:</p>
+<pre style="background:#f6f3ea;color:#111;border:1px solid #dee2e6;border-radius:8px;padding:10px 12px;overflow-x:auto;font-size:.82rem;line-height:1.45;white-space:pre"><code>python3 -c &quot;import json;d=json.load(open(&#x27;data/sector_and_policy_recommendations_2026-07-18.json&#x27;))
+for t in d[&#x27;import_substitution_tiers&#x27;]:print(t[&#x27;tier&#x27;],t[&#x27;label&#x27;],[(c[&#x27;hs&#x27;],c[&#x27;name&#x27;],c[&#x27;growth_pct&#x27;]) for c in t[&#x27;chapters&#x27;]])&quot;</code></pre>
+<p><strong>Code:</strong> <a href="https://github.com/herrrickshaw/india-trade-sector-policy-recommendations">github.com/herrrickshaw/india-trade-sector-policy-recommendations</a></p>
+<p><strong>Main limitation.</strong> The tiers are the repo author&rsquo;s judgements on a July 2026 snapshot of provisional data, not official policy. A different weighting would move chapters between tiers. The guide did not rebuild the PDFs or re-check the NITI Aayog and PIB cross-checks.</p>
+<h3 style="font-family:-apple-system,'Segoe UI',sans-serif;font-weight:700;font-size:1.12em;margin:1.8rem 0 .5rem;color:#212529">chemical_import_substitution: product-level signals for chemical imports</h3>
+<p>One script and its results file sort India&rsquo;s chemical imports at 8-digit HS level. It covers chapters 28, 29, 31, 32, 33, 34, 38 and 39, and keeps every code with a FY2025-26 import-minus-export gap of at least $0.5 million: 827 codes in the committed results. For each it computes value, volume and unit-price growth and assigns a signal: A scissors (value and volume falling, price rising), B inelastic target, C insufficient data, D deepening, or E no clear signal.</p>
+<p>Each code also gets a short rationale tag. A styled HTML registry lets you browse all the lines. In the guide&rsquo;s read, 59.6% of codes showed no clear one-year signal, which says how little a single year can tell you.</p>
+<p><strong>Quick start.</strong> Summarise the committed results by chapter: code count, deficit in US$ billion, and a count of signal letters:</p>
+<pre style="background:#f6f3ea;color:#111;border:1px solid #dee2e6;border-radius:8px;padding:10px 12px;overflow-x:auto;font-size:.82rem;line-height:1.45;white-space:pre"><code>python3 - &lt;&lt;&#x27;E&#x27;
+import json
+from collections import Counter
+d=json.load(open(&#x27;data/chem_hsn8_signals.json&#x27;))
+for ch,v in sorted(d[&#x27;by_chapter&#x27;].items()):
+    print(ch, d[&#x27;ch_names&#x27;][ch], len(v), round(sum(r[&#x27;deficit_fy26&#x27;] for r in v)/1e3,1), dict(Counter(r[&#x27;is_signal&#x27;][0] for r in v)))
+E</code></pre>
+<p><strong>Code:</strong> <a href="https://github.com/herrrickshaw/chemical_import_substitution">github.com/herrrickshaw/chemical_import_substitution</a></p>
+<p><strong>Main limitation.</strong> It compares one year with the previous one (FY2024-25 to FY2025-26) only. The rationale tags are keyword rules on product names, not engineering assessment. The script needs raw TRADESTAT Excel files that are not in the repo, and the repo has no README; the usage notes come from the script&rsquo;s docstring.</p>
+<h3 style="font-family:-apple-system,'Segoe UI',sans-serif;font-weight:700;font-size:1.12em;margin:1.8rem 0 .5rem;color:#212529">india-trade-export-analysis: an archived export table and growth screen</h3>
+<p>Pandas scripts read TradeStat Excel exports, compute growth between 2020 and 2023, project 2025 and 2026 by extending that growth, and classify commodities as mega-growth, high-value growing or emerging opportunity. The committed results include a 14,980-row commodity table and a 293-row shortlist (which includes the all-India total row).</p>
+<p>The repository is archived and read-only. The README calls it indicative analysis from public sources, not official statistics.</p>
+<p><strong>Quick start.</strong> Count the three opportunity classes in the shortlist (run after installing pandas in a virtual environment):</p>
+<pre style="background:#f6f3ea;color:#111;border:1px solid #dee2e6;border-radius:8px;padding:10px 12px;overflow-x:auto;font-size:.82rem;line-height:1.45;white-space:pre"><code>.venv/bin/python -c &quot;import pandas as pd; print(pd.read_csv(&#x27;HIGH_OPPORTUNITY_EXPORTS.csv&#x27;).Opportunity.value_counts())&quot;</code></pre>
+<p><strong>Code:</strong> <a href="https://github.com/herrrickshaw/india-trade-export-analysis">github.com/herrrickshaw/india-trade-export-analysis</a></p>
+<p><strong>Main limitation.</strong> The scripts need raw TradeStat workbooks from a hard-coded personal Downloads path, so they cannot be re-run from a clone. The line items add up to about 5% more than the total row. The column labelled 5-year growth compares 2020 with 2023, and the 2025&ndash;2026 projections only repeat that growth rate.</p>
+<h3 style="font-family:-apple-system,'Segoe UI',sans-serif;font-weight:700;font-size:1.12em;margin:1.8rem 0 .5rem;color:#212529">india-forex-analysis: a report to audit, not to cite</h3>
+<p>Nine numbered markdown documents and an index cover export growth from 2020 to 2023, imports and exports, RBI reserves against the trade deficit, a reconciliation of Budget 2026-27 tax revenue, debt and borrowing, a five-year comparison and an executive summary with scenario probabilities. There is no code. The &ldquo;amber alert&rdquo; rating and the scenario probabilities are the author&rsquo;s judgement, not outputs of a documented model.</p>
+<p>The guide treats it as an audit exercise. Some tables add up: the reserve components, the six-month change and the tax shares recompute correctly. The headline export figure does not (see below). The repository is archived and will not be corrected.</p>
+<p><strong>Quick start.</strong> Find every place the stated 2023 export figure appears (it recurs in several documents, so one error spreads):</p>
+<pre style="background:#f6f3ea;color:#111;border:1px solid #dee2e6;border-radius:8px;padding:10px 12px;overflow-x:auto;font-size:.82rem;line-height:1.45;white-space:pre"><code>grep -n &quot;875.4&quot; *.md</code></pre>
+<p><strong>Code:</strong> <a href="https://github.com/herrrickshaw/india-forex-analysis">github.com/herrrickshaw/india-forex-analysis</a></p>
+<p><strong>Main limitation.</strong> The 2023 export total of US$875.4 bn is exactly twice the 437.7 bn total row in india-trade-export-analysis, which points to double counting. The trade-deficit headline therefore needs re-deriving before anyone quotes it.</p>
+<h3 style="font-family:-apple-system,'Segoe UI',sans-serif;font-weight:700;font-size:1.12em;margin:1.8rem 0 .5rem;color:#212529">mospi-dataset-analysis-public: a frozen MoSPI snapshot</h3>
+<p>This is a public, frozen copy of an analysis built on India&rsquo;s MoSPI data connector (api.mospi.gov.in) and related sources: inflation by state, the rupee and reserves, the trade balance by HS chapter, import-dependency gaps and policy coverage. It has 14 interactive HTML charts and 20 JSON datasets, and the README catalogues 25 MoSPI datasets and the workflow used to pull them.</p>
+<p>It logs its own data problems. The snapshot&rsquo;s connector health log records that the NAS indicator call returned an upstream error and fell back to local definitions, and that the RBI forex series lagged to June 2025.</p>
+<p><strong>Quick start.</strong> Read the dated snapshot (prints the latest month and the Rural, Urban and Combined CPI):</p>
+<pre style="background:#f6f3ea;color:#111;border:1px solid #dee2e6;border-radius:8px;padding:10px 12px;overflow-x:auto;font-size:.82rem;line-height:1.45;white-space:pre"><code>python3 -c &quot;import json;d=json.load(open(&#x27;data/mospi_snapshot_2026-07-18.json&#x27;));print(d[&#x27;cpi&#x27;][&#x27;latest_month&#x27;],d[&#x27;cpi&#x27;][&#x27;general_index&#x27;])&quot;</code></pre>
+<p><strong>Code:</strong> <a href="https://github.com/herrrickshaw/mospi-dataset-analysis-public">github.com/herrrickshaw/mospi-dataset-analysis-public</a></p>
+<p><strong>Main limitation.</strong> It is a legacy snapshot dated 18 July 2026, kept for history. New work happens in india-trade-data-analysis and india-trade-sector-policy-recommendations, so use those for anything maintained.</p>
+
+<h2 class="gb-h2">Worked example: which chapters drive the deficit (india-commodity-trade-deficit)</h2>
+<p>This walk-through follows the india-commodity-trade-deficit guide, which ran these queries with Python 3&rsquo;s standard library on 19 October 2026. The files hold TRADESTAT data retrieved in July and August 2026; FY2025-26 is provisional. Treat the figures as that snapshot, not as current numbers.</p>
+<p><strong>Step 1.</strong> Get the repository. Nothing else needs installing.</p>
+<pre style="background:#f6f3ea;color:#111;border:1px solid #dee2e6;border-radius:8px;padding:10px 12px;overflow-x:auto;font-size:.82rem;line-height:1.45;white-space:pre"><code>git clone https://github.com/herrrickshaw/india-commodity-trade-deficit.git
+cd india-commodity-trade-deficit</code></pre>
+<p><strong>Step 2.</strong> Run the trade-balance command shown in the tool section above. The guide reported eight rows, in US$ billion:</p>
+<pre style="background:#f6f3ea;color:#111;border:1px solid #dee2e6;border-radius:8px;padding:10px 12px;overflow-x:auto;font-size:.82rem;line-height:1.45;white-space:pre"><code>FY          imports  exports  balance
+2018-19      514.1    330.1   -184.0
+2019-20      474.7    313.4   -161.3
+2020-21      394.4    291.8   -102.6
+2021-22      613.1    422.0   -191.0
+2022-23      716.0    451.1   -264.9
+2023-24      678.2    437.1   -241.1
+2024-25      721.2    437.7   -283.5
+2025-26      776.0    441.7   -334.3  (provisional)</code></pre>
+<p><strong>Step 3.</strong> Rank chapters by their FY2025-26 balance:</p>
+<pre style="background:#f6f3ea;color:#111;border:1px solid #dee2e6;border-radius:8px;padding:10px 12px;overflow-x:auto;font-size:.82rem;line-height:1.45;white-space:pre"><code>python3 - &lt;&lt;&#x27;E&#x27;
+import json
+d=json.load(open(&#x27;data/tradestat_hsn_export_import_2018-19_to_2025-26.json&#x27;))
+i,e=d[&#x27;by_chapter&#x27;][&#x27;import&#x27;],d[&#x27;by_chapter&#x27;][&#x27;export&#x27;]
+y=&#x27;2025 - 2026&#x27;
+r=sorted((e.get(c,{}).get(y,0)-v[y],c,v[&#x27;name&#x27;][:40]) for c,v in i.items())
+for b,c,n in r[:8]: print(c,n,round(b/1e3,1))
+E</code></pre>
+<p>The guide&rsquo;s table of the eight largest deficits, in US$ billion (it added the import and export columns for readability):</p>
+<pre style="background:#f6f3ea;color:#111;border:1px solid #dee2e6;border-radius:8px;padding:10px 12px;overflow-x:auto;font-size:.82rem;line-height:1.45;white-space:pre"><code>ch  name                                     imports exports balance
+27  Mineral fuels, mineral oils              203.4    55.9   -147.5
+71  Pearls, precious/semi-precious stones+metals 109.4  28.3    -81.1
+85  Electrical machinery and equipment       104.9    54.0    -50.9
+84  Nuclear reactors, boilers, machinery      74.0    36.6    -37.4
+15  Animal or vegetable fats and oils         19.8     2.2    -17.5
+39  Plastic and articles thereof              22.2     7.6    -14.6
+31  Fertilisers                               14.6     0.2    -14.4
+88  Aircraft, spacecraft and parts            13.8     1.7    -12.1</code></pre>
+<p><strong>What the guide drew from it.</strong> Mineral fuels come first, then precious stones and metals, then electrical machinery. In the guide&rsquo;s calculation chapters 27 and 71 together were 40.3% of FY2025-26 imports, and chapter 71 alone supplied $20.5 bn of the $54.8 bn rise in total imports (37%). The README puts the commodity share at 48%, but it counts oil plus chapter 71 plus the metal chapters. The two figures use different definitions, so say which one you use.</p>
+
+<h2 class="gb-h2">What these tools do not do</h2>
+<ul>
+<li><strong>No shipment or company data.</strong> The chapter collectors give totals, not bills of lading. HS8 detail exists only in the NIRYAT collector (for a few partner countries) and in the chemical tool (for eight chemical chapters).</li>
+<li><strong>No live figures.</strong> The data is annual, FY2025-26 is provisional everywhere, and the committed snapshots date from July to September 2026. The MoSPI snapshot&rsquo;s reserves series stops at June 2025.</li>
+<li><strong>No official statistics or advice.</strong> Every guide says its tool is not investment advice, and the tracker guide adds that it is not an official customs reference. The policy tiers and the &ldquo;amber alert&rdquo; are the repos&rsquo; author&rsquo;s judgements; the export &ldquo;opportunity&rdquo; classes are a mechanical growth screen.</li>
+<li><strong>Not every script re-runs.</strong> india-trade-export-analysis and chemical_import_substitution need raw TRADESTAT workbooks that are not in their repos. The guides read the committed results instead.</li>
+<li><strong>No trends from one year.</strong> The chemical signals compare two years only. Its docstring lists what is missing: a 3&ndash;5 year trend, an import penetration ratio, country-of-origin checks and a tariff/PLI cross-reference.</li>
+<li><strong>No forecasts.</strong> The export projections to 2025 and 2026 extend one historical growth rate, and the forex scenario probabilities are stated without a method.</li>
+</ul>
+
+<h2 class="gb-h2">Where the guides disagree</h2>
+<ul>
+<li><strong>FY2025-26 totals differ slightly by data vintage.</strong> The india-trade-tracker snapshot, pulled on 15 September 2026, sums to US$441.4 bn of exports and US$775.7 bn of imports. india-trade-data-analysis and india-commodity-trade-deficit, built on July and August 2026 retrievals, give 441.7 and 776.0. The tracker&rsquo;s pull is the latest of the three. All of them call the year provisional.</li>
+<li><strong>Chapter counts.</strong> The tracker guide reports 97 chapters per flow and year. The commodity-trade guide describes 98 HS chapters. Neither guide explains the difference, so check before you join the two.</li>
+<li><strong>Year labels in the export table.</strong> The total row that india-trade-export-analysis labels 2023 (US$437.7 bn) is the same figure the commodity-trade and trade-data-analysis guides give for FY2024-25. Its 2020 value (US$291.8 bn) matches their FY2020-21. Check the year basis before you compare it with the other tools.</li>
+<li><strong>Commodity share of imports.</strong> 48% in the commodity-trade README against 40.3% in its guide. The gap comes from which chapters are counted.</li>
+</ul>
+
+<h2 class="gb-h2">Sources and caveats</h2>
+<div class="gb-card">
+<p class="gb-note" style="margin:0">This page replaces the eight separate how-to guides for these repositories, which were run or read between 19 and 23 October 2026 and published between 19 October and 3 November 2026. Repositories: <a href="https://github.com/herrrickshaw/india-trade-tracker">github.com/herrrickshaw/india-trade-tracker</a>; <a href="https://github.com/herrrickshaw/india-commodity-trade-deficit">github.com/herrrickshaw/india-commodity-trade-deficit</a>; <a href="https://github.com/herrrickshaw/india-trade-data-analysis">github.com/herrrickshaw/india-trade-data-analysis</a>; <a href="https://github.com/herrrickshaw/india-trade-sector-policy-recommendations">github.com/herrrickshaw/india-trade-sector-policy-recommendations</a>; <a href="https://github.com/herrrickshaw/chemical_import_substitution">github.com/herrrickshaw/chemical_import_substitution</a>; <a href="https://github.com/herrrickshaw/india-trade-export-analysis">github.com/herrrickshaw/india-trade-export-analysis</a>; <a href="https://github.com/herrrickshaw/india-forex-analysis">github.com/herrrickshaw/india-forex-analysis</a>; <a href="https://github.com/herrrickshaw/mospi-dataset-analysis-public">github.com/herrrickshaw/mospi-dataset-analysis-public</a>. Underlying data, as recorded by the repos: DGFT / Department of Commerce Export-Import Data Bank, DGCI&amp;S TRADESTAT, the Commerce Ministry TIA portal, RBI, MoSPI, World Bank, NIRYAT and UN Comtrade. Figures quoted here are those the guides reported on the dates given, not current values; FY2025-26 is provisional in every source. Not legal, customs or investment advice.</p>
+</div>
+
+<div class="gb-related">
+<strong>Related on this blog:</strong>
+<a href="https://masaladeutsch.blogspot.com/2026/08/half-of-indias-import-bill-is.html">Half of India&#x27;s Import Bill Is Commodities. Recycling and Import Substitution Are the Only Two Exits.</a>
+<a href="https://masaladeutsch.blogspot.com/2026/08/you-cannot-substitute-crude-oil-or-gold.html">You Cannot Substitute Crude Oil or Gold. That Is 40% of India&#x27;s Import Bill.</a>
+<a href="https://masaladeutsch.blogspot.com/2026/08/chemical-import-substitution-hsn-8-registry.html">Which of 827 Chemical HSN-8 Codes Are Real Substitution Targets</a>
+<a href="https://masaladeutsch.blogspot.com/2026/08/five-year-synthesis-trade-currency.html">Five-Year Synthesis: Trade, Currency &amp; Policy, FY2021-22 to FY2025-26</a>
+<a href="https://masaladeutsch.blogspot.com/2026/08/indias-8-digit-trade-book-searchable.html">India&#x27;s 8-Digit Trade Book, Searchable</a>
+<a href="https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html">All articles (index)</a>
+</div>
+
+<p class="disclaimer" data-gs-ai-disclosure-v1="1"><strong>About this article:</strong> Researched, written and edited by Umashankar Triplicane Dwarakanathan, with AI research assistance; every figure is meant to trace to the primary source cited. See the <a href="https://masaladeutsch.blogspot.com/p/disclaimer.html">Editorial Policy</a> for how sourcing, AI use and corrections work.</p>
+
+</div>
+
+<div id="gs-idx"></div><script defer="defer" src="https://herrrickshaw.github.io/masaladeutsch/accordion.js"></script>
