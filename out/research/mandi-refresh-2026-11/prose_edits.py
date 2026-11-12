@@ -10,7 +10,7 @@ NOTE = ('<div class="warn" style="border-left:4px solid #a5402c;background:rgba(
  'One earlier slip is also corrected: Chhattisgarh, at 10.2%, edges out Uttar Pradesh (10.3%) as onion&rsquo;s steadiest state. '
  'MoSPI&rsquo;s October consumer price index put onion up 116% on a year earlier (<a href="https://www.zeebiz.com/economy-infra/news-retail-inflation-rises-to-609-in-october-food-inflation-climbs-to-894-onion-prices-surge-116-405482">Zee Business, 12 November 2026</a>). '
  'In the mandi data, the all-India arrival-weighted onion price in October 2026 was Rs 3,440 a quintal. That is 3.2 times October 2025&rsquo;s Rs 1,059 and 4% below September&rsquo;s Rs 3,590, after five monthly rises from Rs 1,077 in May. '
- 'A year earlier was itself unusually cheap: October 2024 was Rs 3,507. October&rsquo;s onion arrivals were 1.30 million tonnes against 1.34 million a year earlier. '
+ 'October 2025 was itself unusually cheap: in October 2024 the price was Rs 3,507. October&rsquo;s onion arrivals were 1.30 million tonnes against 1.34 million a year earlier. '
  'The CPI is a retail index and the mandi figure is a wholesale price, so the two are not expected to match.</div>\n')
 R = [
  ('<div class="gb-kicker" style="order:2">Agriculture &middot; Mandi prices &middot; 24 October 2026</div>\n', None),  # anchor check only
