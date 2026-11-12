@@ -1,6 +1,6 @@
 {
-  "snapshot": "2026-11-11T15:13:29+05:30",
-  "count": 502,
+  "snapshot": "2026-11-13T03:39:53+05:30",
+  "count": 516,
   "posts": {
     "1008146607143508554": {
       "id": "1008146607143508554",
@@ -17736,13 +17736,13 @@
       "url": "https://blog.vertistratsolution.com/2026/08/where-indias-factories-actually-get.html",
       "slug": "where-indias-factories-actually-get",
       "published": "2026-08-02T12:14:17.000+05:30",
-      "updated": "2026-10-01T09:00:41.000+05:30",
+      "updated": "2026-11-12T21:55:57.000+05:30",
       "labels": [
         "Industrial Policy",
         "State Investment Incentives"
       ],
-      "bytes": 47717,
-      "sha256": "864c862246a8286f7bb2743251d29c58a6b10567998736c7e8e7d3887ef89acd",
+      "bytes": 48843,
+      "sha256": "8e28a0b0a70041108328880e26da99ee1d1ef46a01afc642f882a5ab224a56c7",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -17754,7 +17754,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "3.1.1",
+      "version": "4.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -17984,6 +17984,19 @@
             "https://masaladeutsch.blogspot.com/2026/08/where-indias-factories-actually-get.html",
             "https://blog.vertistratsolution.com/2026/08/where-indias-factories-actually-get.html"
           ],
+          "markers_changed": null,
+          "note": ""
+        },
+        {
+          "version": "4.0.0",
+          "date": "2026-11-13T03:39:53+05:30",
+          "level": "major",
+          "reason": "figures changed (+2/-0 distinct numbers)",
+          "bytes": [
+            47717,
+            48843
+          ],
+          "url_changed": null,
           "markers_changed": null,
           "note": ""
         }
@@ -21843,6 +21856,38 @@
             "https://blog.vertistratsolution.com/2026/08/five-year-synthesis-trade-currency.html"
           ],
           "markers_changed": null,
+          "note": ""
+        }
+      ]
+    },
+    "3144833955125559433": {
+      "id": "3144833955125559433",
+      "title": "Three Open-Source Tools for India’s Mandi and Grain Data: Daily Prices, Monthly Arrivals Since 2019, and the MSP Question",
+      "url": "https://blog.vertistratsolution.com/2026/11/three-open-source-tools-for-indias.html",
+      "slug": "three-open-source-tools-for-indias",
+      "published": "2026-11-13T03:37:49.000+05:30",
+      "updated": "2026-11-13T03:37:49.000+05:30",
+      "labels": [],
+      "bytes": 28004,
+      "sha256": "49cbee5e31a8c7d58a5d33d4fa0fe292c3268ffae79227ee87bbd806445736a5",
+      "markers": {
+        "light_lock": false,
+        "dark_panel_guard": false,
+        "typo_unify": false,
+        "translate_widget": true,
+        "index_link": true,
+        "ai_disclosure": true,
+        "revision_line": false,
+        "inverted_media_query": false,
+        "disclaimer_in_script": false
+      },
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-13T03:39:53+05:30",
+          "level": "initial",
+          "reason": "first snapshot",
           "note": ""
         }
       ]
@@ -28122,6 +28167,38 @@
         }
       ]
     },
+    "3966354610920921107": {
+      "id": "3966354610920921107",
+      "title": "Seven Open-Source Tools for Stock-Market Research, From Ticker Lists to Valuation Models, and Where Each One Stops",
+      "url": "https://blog.vertistratsolution.com/2026/11/seven-open-source-tools-for-stock.html",
+      "slug": "seven-open-source-tools-for-stock",
+      "published": "2026-11-13T03:39:10.000+05:30",
+      "updated": "2026-11-13T03:39:10.000+05:30",
+      "labels": [],
+      "bytes": 33987,
+      "sha256": "263a3c5c9f8a58fddab342187ddb4524c3cd269e16580b5d763a0873c27289aa",
+      "markers": {
+        "light_lock": false,
+        "dark_panel_guard": false,
+        "typo_unify": false,
+        "translate_widget": true,
+        "index_link": true,
+        "ai_disclosure": true,
+        "revision_line": false,
+        "inverted_media_query": false,
+        "disclaimer_in_script": false
+      },
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-13T03:39:53+05:30",
+          "level": "initial",
+          "reason": "first snapshot",
+          "note": ""
+        }
+      ]
+    },
     "3976081607584478395": {
       "id": "3976081607584478395",
       "title": "₹71.86 a Litre: Why Maize Is India's Priciest Ethanol Feedstock, Even as This Season's Acreage Falls",
@@ -29518,6 +29595,38 @@
         {
           "version": "1.0.0",
           "date": "2026-11-11T15:13:29+05:30",
+          "level": "initial",
+          "reason": "first snapshot",
+          "note": ""
+        }
+      ]
+    },
+    "4178047698112336993": {
+      "id": "4178047698112336993",
+      "title": "Eight Open-Source Tools for India’s Trade Data, From HS Chapters to Chemical Codes and Forex, and Which One Answers Which Question",
+      "url": "https://blog.vertistratsolution.com/2026/11/eight-open-source-tools-for-indias.html",
+      "slug": "eight-open-source-tools-for-indias",
+      "published": "2026-11-13T03:39:25.000+05:30",
+      "updated": "2026-11-13T03:39:25.000+05:30",
+      "labels": [],
+      "bytes": 37673,
+      "sha256": "844b6d7bfa0784d7e72072479e00466d1639f2e15db5600b06d033518c65775e",
+      "markers": {
+        "light_lock": false,
+        "dark_panel_guard": false,
+        "typo_unify": false,
+        "translate_widget": true,
+        "index_link": true,
+        "ai_disclosure": true,
+        "revision_line": false,
+        "inverted_media_query": false,
+        "disclaimer_in_script": false
+      },
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-13T03:39:53+05:30",
           "level": "initial",
           "reason": "first snapshot",
           "note": ""
@@ -34232,6 +34341,38 @@
         }
       ]
     },
+    "4593507551985660613": {
+      "id": "4593507551985660613",
+      "title": "Five Open-Source Control Simulators for EV Batteries, Hydrogen Electrolysers and Prosthetic Hands, and Which to Start With",
+      "url": "https://blog.vertistratsolution.com/2026/11/five-open-source-control-simulators-for.html",
+      "slug": "five-open-source-control-simulators-for",
+      "published": "2026-11-13T03:37:56.000+05:30",
+      "updated": "2026-11-13T03:37:56.000+05:30",
+      "labels": [],
+      "bytes": 29086,
+      "sha256": "46790513cd001cf97364bb1b45f06959dbcf5da9ede4820fcaaabc409b088a79",
+      "markers": {
+        "light_lock": false,
+        "dark_panel_guard": false,
+        "typo_unify": false,
+        "translate_widget": true,
+        "index_link": true,
+        "ai_disclosure": true,
+        "revision_line": false,
+        "inverted_media_query": false,
+        "disclaimer_in_script": false
+      },
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-13T03:39:53+05:30",
+          "level": "initial",
+          "reason": "first snapshot",
+          "note": ""
+        }
+      ]
+    },
     "4599299138596017830": {
       "id": "4599299138596017830",
       "title": "India's State-by-State Investment Directory: 66 Confirmed Deals, Sector by Sector",
@@ -35475,12 +35616,12 @@
       "url": "https://blog.vertistratsolution.com/2026/08/iem-conversion-historical-performance.html",
       "slug": "iem-conversion-historical-performance",
       "published": "2026-08-02T13:07:57.000+05:30",
-      "updated": "2026-10-01T08:26:02.000+05:30",
+      "updated": "2026-11-12T21:56:11.000+05:30",
       "labels": [
         "Industrial Policy"
       ],
-      "bytes": 25106,
-      "sha256": "0534a1aa0b1946a4f6c27a571f3adaeadc5aad2b6b1b9d2ad16433c0e484afe3",
+      "bytes": 26232,
+      "sha256": "d6e5d9c83578bba8c246ac24ddd7c8b8a4922a1952c9c7eb4625aec14ca56f82",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -35492,7 +35633,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "2.1.1",
+      "version": "3.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -35740,6 +35881,19 @@
             "https://masaladeutsch.blogspot.com/2026/08/iem-conversion-historical-performance.html",
             "https://blog.vertistratsolution.com/2026/08/iem-conversion-historical-performance.html"
           ],
+          "markers_changed": null,
+          "note": ""
+        },
+        {
+          "version": "3.0.0",
+          "date": "2026-11-13T03:39:53+05:30",
+          "level": "major",
+          "reason": "figures changed (+4/-0 distinct numbers)",
+          "bytes": [
+            25106,
+            26232
+          ],
+          "url_changed": null,
           "markers_changed": null,
           "note": ""
         }
@@ -38420,6 +38574,38 @@
         }
       ]
     },
+    "4948195795635103236": {
+      "id": "4948195795635103236",
+      "title": "Nine Open-Source Tools for Sizing and Costing India’s Biofuel, Gas and Refining Plants, and Which One to Start With",
+      "url": "https://blog.vertistratsolution.com/2026/11/nine-open-source-tools-for-sizing-and.html",
+      "slug": "nine-open-source-tools-for-sizing-and",
+      "published": "2026-11-13T03:39:18.000+05:30",
+      "updated": "2026-11-13T03:39:18.000+05:30",
+      "labels": [],
+      "bytes": 36135,
+      "sha256": "7e53b70e5be35cea58e07f46ce4431d4c240eb22132caf96c040380f18f99612",
+      "markers": {
+        "light_lock": false,
+        "dark_panel_guard": false,
+        "typo_unify": false,
+        "translate_widget": true,
+        "index_link": true,
+        "ai_disclosure": true,
+        "revision_line": false,
+        "inverted_media_query": false,
+        "disclaimer_in_script": false
+      },
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-13T03:39:53+05:30",
+          "level": "initial",
+          "reason": "first snapshot",
+          "note": ""
+        }
+      ]
+    },
     "4955121354438810131": {
       "id": "4955121354438810131",
       "title": "RIN, RED and CBIO: What India's Ethanol Programme Could Borrow From Three Different Carbon-Credit Machines",
@@ -38946,6 +39132,38 @@
             "https://blog.vertistratsolution.com/2026/08/from-barrel-to-bottle-petrochemical.html"
           ],
           "markers_changed": null,
+          "note": ""
+        }
+      ]
+    },
+    "498956522797235038": {
+      "id": "498956522797235038",
+      "title": "India's Top Law Firms Have Signed Up for AI. Most of the Fake Citations India's Courts Have Caught Came From the Bench",
+      "url": "https://blog.vertistratsolution.com/2026/11/indias-top-law-firms-have-signed-up-for.html",
+      "slug": "indias-top-law-firms-have-signed-up-for",
+      "published": "2026-11-12T21:18:05.000+05:30",
+      "updated": "2026-11-12T21:18:05.000+05:30",
+      "labels": [],
+      "bytes": 36160,
+      "sha256": "700e1a1659633cf96b2f15315aa6daf5653fe27a821a11040b54f77db07577d0",
+      "markers": {
+        "light_lock": false,
+        "dark_panel_guard": false,
+        "typo_unify": false,
+        "translate_widget": true,
+        "index_link": true,
+        "ai_disclosure": true,
+        "revision_line": false,
+        "inverted_media_query": false,
+        "disclaimer_in_script": false
+      },
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-13T03:39:53+05:30",
+          "level": "initial",
+          "reason": "first snapshot",
           "note": ""
         }
       ]
@@ -40041,6 +40259,40 @@
             "https://blog.vertistratsolution.com/2026/10/india-capped-margins-on-137-cancer.html"
           ],
           "markers_changed": null,
+          "note": ""
+        }
+      ]
+    },
+    "5182635025304732949": {
+      "id": "5182635025304732949",
+      "title": "India EC Approval Funnel — PARIVESH 2.0",
+      "url": "https://blog.vertistratsolution.com/2026/07/india-ec-approval-funnel-parivesh-20.html",
+      "slug": "india-ec-approval-funnel-parivesh-20",
+      "published": "2026-07-22T05:30:00.000+05:30",
+      "updated": "2026-10-01T08:27:26.000+05:30",
+      "labels": [
+        "Environment & Clearances"
+      ],
+      "bytes": 22767,
+      "sha256": "301ec05fcb4787b6e75247f309163b75f74b4f21410983b6194dd8d06fa13230",
+      "markers": {
+        "light_lock": false,
+        "dark_panel_guard": false,
+        "typo_unify": true,
+        "translate_widget": true,
+        "index_link": true,
+        "ai_disclosure": true,
+        "revision_line": false,
+        "inverted_media_query": false,
+        "disclaimer_in_script": false
+      },
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-13T03:39:53+05:30",
+          "level": "initial",
+          "reason": "first snapshot",
           "note": ""
         }
       ]
@@ -42779,6 +43031,38 @@
             "https://blog.vertistratsolution.com/2026/10/indias-first-seabed-mineral-auction.html"
           ],
           "markers_changed": null,
+          "note": ""
+        }
+      ]
+    },
+    "5561001801754037123": {
+      "id": "5561001801754037123",
+      "title": "Thirteen Small Open-Source Tools for Developers and AI Users, From a Local Claude Fallback to an LFS Duplicate Audit, and What Each One Is For",
+      "url": "https://blog.vertistratsolution.com/2026/11/thirteen-small-open-source-tools-for.html",
+      "slug": "thirteen-small-open-source-tools-for",
+      "published": "2026-11-13T03:38:03.000+05:30",
+      "updated": "2026-11-13T03:38:03.000+05:30",
+      "labels": [],
+      "bytes": 44667,
+      "sha256": "1a0f9373ae3b0597e2bf6af523d8c8cf26d87344549aefc99b49934d3762875d",
+      "markers": {
+        "light_lock": false,
+        "dark_panel_guard": false,
+        "typo_unify": false,
+        "translate_widget": true,
+        "index_link": true,
+        "ai_disclosure": true,
+        "revision_line": false,
+        "inverted_media_query": false,
+        "disclaimer_in_script": false
+      },
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-13T03:39:53+05:30",
+          "level": "initial",
+          "reason": "first snapshot",
           "note": ""
         }
       ]
@@ -47162,13 +47446,13 @@
       "url": "https://blog.vertistratsolution.com/2026/08/re-spinning-charkha.html",
       "slug": "re-spinning-charkha",
       "published": "2026-08-03T10:32:15.000+05:30",
-      "updated": "2026-11-07T08:56:50.000+05:30",
+      "updated": "2026-11-12T22:09:40.000+05:30",
       "labels": [
         "Energy & Fuels",
         "Textiles"
       ],
-      "bytes": 32374,
-      "sha256": "2e027ca15fc7a7202e41f07befdca863a77effee085f24c18dbbdea52c121697",
+      "bytes": 33475,
+      "sha256": "be0fc11788c68d99fac3d424477fada5d324520ed1ee8a8a15286632b7c4e049",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -47180,7 +47464,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "2.2.1",
+      "version": "3.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -47410,6 +47694,19 @@
             "https://masaladeutsch.blogspot.com/2026/08/re-spinning-charkha.html",
             "https://blog.vertistratsolution.com/2026/08/re-spinning-charkha.html"
           ],
+          "markers_changed": null,
+          "note": ""
+        },
+        {
+          "version": "3.0.0",
+          "date": "2026-11-13T03:39:53+05:30",
+          "level": "major",
+          "reason": "figures changed (+7/-0 distinct numbers)",
+          "bytes": [
+            32374,
+            33475
+          ],
+          "url_changed": null,
           "markers_changed": null,
           "note": ""
         }
@@ -49100,14 +49397,14 @@
       "url": "https://blog.vertistratsolution.com/2026/08/indias-used-oil-epr-wants-half-of-all.html",
       "slug": "indias-used-oil-epr-wants-half-of-all",
       "published": "2026-08-10T11:46:04.000+05:30",
-      "updated": "2026-10-01T08:39:11.000+05:30",
+      "updated": "2026-11-12T22:12:10.000+05:30",
       "labels": [
         "Industrial Policy",
         "Quality Standards & Certification",
         "Trade & Tariffs"
       ],
-      "bytes": 30438,
-      "sha256": "4b0ea5fee602639a4fb7c3957a17592db513592e85e4eaccbdbc2bf45888bc17",
+      "bytes": 34979,
+      "sha256": "c7cf9be6946f90581a534b00e707a816ff6420f3725b01470998b9a7e183a9e0",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -49119,7 +49416,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "3.1.1",
+      "version": "4.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -49362,6 +49659,19 @@
             "https://masaladeutsch.blogspot.com/2026/08/indias-used-oil-epr-wants-half-of-all.html",
             "https://blog.vertistratsolution.com/2026/08/indias-used-oil-epr-wants-half-of-all.html"
           ],
+          "markers_changed": null,
+          "note": ""
+        },
+        {
+          "version": "4.0.0",
+          "date": "2026-11-13T03:39:53+05:30",
+          "level": "major",
+          "reason": "figures changed (+13/-0 distinct numbers)",
+          "bytes": [
+            30438,
+            34979
+          ],
+          "url_changed": null,
           "markers_changed": null,
           "note": ""
         }
@@ -50535,6 +50845,38 @@
             "https://blog.vertistratsolution.com/2026/08/indias-445-billion-spice-export-book-is.html"
           ],
           "markers_changed": null,
+          "note": ""
+        }
+      ]
+    },
+    "6070588924300958693": {
+      "id": "6070588924300958693",
+      "title": "Two Open-Source Health Prototypes, an ICU Vitals Dashboard and a Capsule-Endoscopy Screener, and Why Neither Is a Medical Device",
+      "url": "https://blog.vertistratsolution.com/2026/11/two-open-source-health-prototypes-icu.html",
+      "slug": "two-open-source-health-prototypes-icu",
+      "published": "2026-11-13T03:39:02.000+05:30",
+      "updated": "2026-11-13T03:39:02.000+05:30",
+      "labels": [],
+      "bytes": 23902,
+      "sha256": "af9a30094e4ff76bd929737872b0769b62897e0a9ba84c25372443f621c2c30d",
+      "markers": {
+        "light_lock": false,
+        "dark_panel_guard": false,
+        "typo_unify": false,
+        "translate_widget": true,
+        "index_link": true,
+        "ai_disclosure": true,
+        "revision_line": false,
+        "inverted_media_query": false,
+        "disclaimer_in_script": false
+      },
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-13T03:39:53+05:30",
+          "level": "initial",
+          "reason": "first snapshot",
           "note": ""
         }
       ]
@@ -56000,6 +56342,42 @@
         }
       ]
     },
+    "6387819269251154916": {
+      "id": "6387819269251154916",
+      "title": "Cold-Chain × Fuel-Outlet Integrated Map (Part 3 of 3)",
+      "url": "https://blog.vertistratsolution.com/2026/07/cold-chain-fuel-outlet-integrated-map.html",
+      "slug": "cold-chain-fuel-outlet-integrated-map",
+      "published": "2026-07-22T05:30:00.000+05:30",
+      "updated": "2026-11-07T08:25:33.000+05:30",
+      "labels": [
+        "Agriculture & Fertilisers",
+        "City Gas Distribution",
+        "Gas & LNG"
+      ],
+      "bytes": 23135,
+      "sha256": "15974bc7a2862280e7e547b706a13b74fdef0e428ad3008a4858e5133607ef86",
+      "markers": {
+        "light_lock": false,
+        "dark_panel_guard": false,
+        "typo_unify": true,
+        "translate_widget": true,
+        "index_link": true,
+        "ai_disclosure": true,
+        "revision_line": false,
+        "inverted_media_query": false,
+        "disclaimer_in_script": false
+      },
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-13T03:39:53+05:30",
+          "level": "initial",
+          "reason": "first snapshot",
+          "note": ""
+        }
+      ]
+    },
     "639691074426959200": {
       "id": "639691074426959200",
       "title": "57.7% of India's Plant-Variety Certificates Are Cereals. Its $4.45 Billion Spice Trade Has 151.",
@@ -57206,15 +57584,15 @@
       "url": "https://blog.vertistratsolution.com/2026/09/india-doesnt-have-one-quality-regulator.html",
       "slug": "india-doesnt-have-one-quality-regulator",
       "published": "2026-09-24T11:31:15.000+05:30",
-      "updated": "2026-10-01T08:27:13.000+05:30",
+      "updated": "2026-11-12T21:55:41.000+05:30",
       "labels": [
         "Ease of Doing Business & Regulatory Reform",
         "Industrial Policy",
         "Quality Standards & Certification",
         "Trade & Tariffs"
       ],
-      "bytes": 25540,
-      "sha256": "0334bb8429bde550918ad0114292d65ffb948d28da2cd1961223bdcab3be4b73",
+      "bytes": 33455,
+      "sha256": "d08cb2b995d9d533cb98ce2008f45ffb9328e1a2ca5957d3908fa816b65a4a49",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -57226,7 +57604,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.1.1",
+      "version": "2.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -57261,6 +57639,19 @@
             "https://masaladeutsch.blogspot.com/2026/09/india-doesnt-have-one-quality-regulator.html",
             "https://blog.vertistratsolution.com/2026/09/india-doesnt-have-one-quality-regulator.html"
           ],
+          "markers_changed": null,
+          "note": ""
+        },
+        {
+          "version": "2.0.0",
+          "date": "2026-11-13T03:39:53+05:30",
+          "level": "major",
+          "reason": "figures changed (+27/-0 distinct numbers)",
+          "bytes": [
+            25540,
+            33455
+          ],
+          "url_changed": null,
           "markers_changed": null,
           "note": ""
         }
@@ -58857,6 +59248,38 @@
             "https://blog.vertistratsolution.com/2026/10/gems-purchases-stopped-growing-in-2025.html"
           ],
           "markers_changed": null,
+          "note": ""
+        }
+      ]
+    },
+    "6879796470588921642": {
+      "id": "6879796470588921642",
+      "title": "Eight Open-Source Tools for Tracking India’s Gazette, Parliament, Clearances, Incentives and Regulators, and What Each One Answers",
+      "url": "https://blog.vertistratsolution.com/2026/11/eight-open-source-tools-for-tracking.html",
+      "slug": "eight-open-source-tools-for-tracking",
+      "published": "2026-11-13T03:38:17.000+05:30",
+      "updated": "2026-11-13T03:38:17.000+05:30",
+      "labels": [],
+      "bytes": 38027,
+      "sha256": "00b7eb8136bd0b92bd3f16b89fde2750cf4256d3bdc910725d4dfedd1a971f98",
+      "markers": {
+        "light_lock": false,
+        "dark_panel_guard": false,
+        "typo_unify": false,
+        "translate_widget": true,
+        "index_link": true,
+        "ai_disclosure": true,
+        "revision_line": false,
+        "inverted_media_query": false,
+        "disclaimer_in_script": false
+      },
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-13T03:39:53+05:30",
+          "level": "initial",
+          "reason": "first snapshot",
           "note": ""
         }
       ]
@@ -62107,6 +62530,38 @@
         }
       ]
     },
+    "7044471044815990050": {
+      "id": "7044471044815990050",
+      "title": "Seven Open-Source Tools for India’s Fuel and Power Data: Petrol Pumps, CNG Areas, Ethanol Blends, Used Oil and Discom Debt, and Which One to Use",
+      "url": "https://blog.vertistratsolution.com/2026/11/seven-open-source-tools-for-indias-fuel.html",
+      "slug": "seven-open-source-tools-for-indias-fuel",
+      "published": "2026-11-13T03:38:10.000+05:30",
+      "updated": "2026-11-13T03:38:10.000+05:30",
+      "labels": [],
+      "bytes": 34701,
+      "sha256": "17c7ad6d518fa91ef9b2ce4ed707a3a365b4948675be3664a7dc516a2f668673",
+      "markers": {
+        "light_lock": false,
+        "dark_panel_guard": false,
+        "typo_unify": false,
+        "translate_widget": true,
+        "index_link": true,
+        "ai_disclosure": true,
+        "revision_line": false,
+        "inverted_media_query": false,
+        "disclaimer_in_script": false
+      },
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-13T03:39:53+05:30",
+          "level": "initial",
+          "reason": "first snapshot",
+          "note": ""
+        }
+      ]
+    },
     "7056947153435077945": {
       "id": "7056947153435077945",
       "title": "How to use saf-monitoring-system: track SAF batches against blending and carbon-credit rules",
@@ -62779,6 +63234,40 @@
             "https://blog.vertistratsolution.com/2026/08/premium-now-claim-later-float-indias.html"
           ],
           "markers_changed": null,
+          "note": ""
+        }
+      ]
+    },
+    "7181512681958714120": {
+      "id": "7181512681958714120",
+      "title": "India Environmental Clearances — State × Sub-sector Dashboard",
+      "url": "https://blog.vertistratsolution.com/2026/07/india-environmental-clearances-state.html",
+      "slug": "india-environmental-clearances-state",
+      "published": "2026-07-22T05:30:00.000+05:30",
+      "updated": "2026-10-01T08:27:46.000+05:30",
+      "labels": [
+        "Environment & Clearances"
+      ],
+      "bytes": 20062,
+      "sha256": "f0218d5b8c1809b40e2c61a40f548935517d4cee1bf6a984c29fb47abe105847",
+      "markers": {
+        "light_lock": false,
+        "dark_panel_guard": false,
+        "typo_unify": true,
+        "translate_widget": true,
+        "index_link": true,
+        "ai_disclosure": true,
+        "revision_line": false,
+        "inverted_media_query": false,
+        "disclaimer_in_script": false
+      },
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-13T03:39:53+05:30",
+          "level": "initial",
+          "reason": "first snapshot",
           "note": ""
         }
       ]
@@ -71675,14 +72164,14 @@
       "url": "https://blog.vertistratsolution.com/2026/08/from-fuel-to-fibre-indias-textile.html",
       "slug": "from-fuel-to-fibre-indias-textile",
       "published": "2026-08-03T09:12:32.000+05:30",
-      "updated": "2026-11-07T08:31:43.000+05:30",
+      "updated": "2026-11-12T22:09:24.000+05:30",
       "labels": [
         "Import Substitution",
         "Textiles",
         "Trade & Tariffs"
       ],
-      "bytes": 40096,
-      "sha256": "f625f90b8b9622e83d8031594432b60289f1b305a4ace6bc7e125c69294ad107",
+      "bytes": 41677,
+      "sha256": "9556f28ffd52e1c673e4b27a44ad621c4b86b5956a0303dfa76edaabdf7e0fb0",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -71694,7 +72183,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "3.2.1",
+      "version": "4.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -71950,6 +72439,19 @@
             "https://masaladeutsch.blogspot.com/2026/08/from-fuel-to-fibre-indias-textile.html",
             "https://blog.vertistratsolution.com/2026/08/from-fuel-to-fibre-indias-textile.html"
           ],
+          "markers_changed": null,
+          "note": ""
+        },
+        {
+          "version": "4.0.0",
+          "date": "2026-11-13T03:39:53+05:30",
+          "level": "major",
+          "reason": "figures changed (+9/-0 distinct numbers)",
+          "bytes": [
+            40096,
+            41677
+          ],
+          "url_changed": null,
           "markers_changed": null,
           "note": ""
         }
@@ -74195,6 +74697,43 @@
             "https://blog.vertistratsolution.com/2026/08/lemon-cultivation-in-india-steady-trees.html"
           ],
           "markers_changed": null,
+          "note": ""
+        }
+      ]
+    },
+    "8473540333846382541": {
+      "id": "8473540333846382541",
+      "title": "India Fuel Retail Outlets — 82k Geocoded Map (Part 2 of 3)",
+      "url": "https://blog.vertistratsolution.com/2026/07/india-fuel-retail-outlets-82k-geocoded.html",
+      "slug": "india-fuel-retail-outlets-82k-geocoded",
+      "published": "2026-07-22T05:30:00.000+05:30",
+      "updated": "2026-11-07T08:35:17.000+05:30",
+      "labels": [
+        "City Gas Distribution",
+        "Energy & Fuels",
+        "Fuel Retail & Pricing",
+        "Gas & LNG"
+      ],
+      "bytes": 23087,
+      "sha256": "9fa87461f89fdfe7b54fc97adc8dcdaa01d101581590db91887d66c179b96b02",
+      "markers": {
+        "light_lock": false,
+        "dark_panel_guard": false,
+        "typo_unify": true,
+        "translate_widget": true,
+        "index_link": true,
+        "ai_disclosure": true,
+        "revision_line": false,
+        "inverted_media_query": false,
+        "disclaimer_in_script": false
+      },
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-13T03:39:53+05:30",
+          "level": "initial",
+          "reason": "first snapshot",
           "note": ""
         }
       ]

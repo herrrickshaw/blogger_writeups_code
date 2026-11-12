@@ -1,0 +1,218 @@
+<div style="max-width:760px;margin:0 auto;font-family:Georgia,'Times New Roman',serif;color:#212529;background:#fff;line-height:1.7;font-size:17px">
+
+<style>
+.gb-card{background:#f8f9fa;border:1px solid #dee2e6;border-radius:12px;padding:1.25rem 1.5rem;margin:1.5rem 0;box-shadow:0 1px 2px rgba(0,0,0,.04)}
+.gb-table{border-collapse:collapse;width:100%;font-size:.85em;font-family:-apple-system,'Segoe UI',sans-serif;margin:1.25rem 0}
+.gb-table thead th{background:#212529;color:#fff;padding:.5rem .75rem;text-align:left;white-space:nowrap}
+.gb-table td{padding:.5rem .75rem;border-bottom:1px solid #dee2e6;color:#212529;word-wrap:break-word}
+.gb-table tbody tr:nth-child(even){background:#f8f9fa}
+.gb-tblwrap{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:0 0 1em}
+.gb-kicker{font-family:-apple-system,'Segoe UI',sans-serif;text-transform:uppercase;letter-spacing:.12em;font-size:.72em;color:#868e96;margin-bottom:.5rem}
+.gb-h2{font-family:-apple-system,'Segoe UI',sans-serif;font-weight:700;font-size:1.35em;margin:2.2rem 0 .8rem;color:#212529;letter-spacing:-.01em}
+.gb-note{font-size:.8em;color:#868e96;font-family:-apple-system,'Segoe UI',sans-serif;line-height:1.5}
+.gb-pull{border-left:4px solid #212529;padding:.25rem 0 .25rem 1.25rem;margin:1.75rem 0;font-size:1.15em;font-style:italic;color:#495057}
+.gb-related{background:#eef6ff;border:1px solid #b6d4f0;border-radius:12px;padding:1.1rem 1.4rem;margin:1.5rem 0;font-family:-apple-system,'Segoe UI',sans-serif;font-size:.9em}
+.gb-related a{color:#0b5394}
+.gb-warn{background:#fff8f0;border:1px solid #f0d9b5;border-radius:10px;padding:1rem 1.25rem;margin:1.25rem 0;font-size:.92em}
+.gb-stats{display:grid;gap:1rem;grid-template-columns:repeat(auto-fit,minmax(11rem,1fr));margin:1.4rem 0 1.8rem}
+.gb-stat{background:#f8f9fa;border:1px solid #dee2e6;border-radius:10px;padding:.9rem 1rem;font-family:-apple-system,'Segoe UI',sans-serif}
+.gb-stat b{display:block;font-size:1.35em;color:#212529;font-family:Georgia,serif}
+.gb-stat span{display:block;font-size:.76em;color:#868e96;margin-top:.2rem;line-height:1.4}
+.gb-stats>.google-auto-placed,.gb-stats>ins.adsbygoogle{grid-column:1/-1;order:99;width:100%;margin:.4rem 0}
+.gs-head-order>.google-auto-placed,.gs-head-order>ins.adsbygoogle{order:99}
+
+.post-body .tw{overflow-x:auto;margin:1.1rem 0}
+.post-body table{display:block;overflow-x:auto;max-width:100%;width:max-content;
+ min-width:100%;border-collapse:collapse;font-size:.86rem}
+.post-body thead th,.post-body tr:first-child th{background:#111;color:#fff;font-weight:700;
+ text-align:right;vertical-align:bottom;padding:.6rem .7rem;border:1px solid #111;
+ white-space:normal;overflow-wrap:normal;word-break:keep-all;min-width:5.5rem}
+.post-body thead th:first-child,.post-body tr:first-child th:first-child{text-align:left}
+.post-body td{border:1px solid #d9d9d9;padding:.5rem .7rem;text-align:right;
+ font-variant-numeric:tabular-nums;white-space:nowrap;color:#111;background:#fff}
+.post-body td:first-child{text-align:left;white-space:normal;min-width:8rem}
+.post-body tbody tr:nth-child(even) td{background:#fafafa}
+</style>
+
+<div class="gs-head-order" style="display:flex;flex-direction:column">
+<p class="standfirst" style="order:4;font-size:1.1em;color:#495057"><em>One free project replays de-identified ICU vital signs into a multi-bed dashboard tied to a single patient record; the other screens capsule-endoscopy video for suspected bleeding and lesions and writes a report. Both are research and learning prototypes run on demo or synthetic data, and both say plainly that they are not medical devices.</em></p>
+<div class="topnav-index-link" style="order:1;font-size:.82em;margin:6px 0 14px"><a href="https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html" style="color:#0b5394;text-decoration:none">&larr; All Articles (Index)</a></div>
+<div class="gb-kicker" style="order:2">Open-Source Tools &middot; 12 November 2026</div>
+<h1 style="order:3;font-family:-apple-system,'Segoe UI',sans-serif;font-weight:800;font-size:2em;line-height:1.2;letter-spacing:-.02em;margin:.25rem 0 1rem">Two Open-Source Health Prototypes, an ICU Vitals Dashboard and a Capsule-Endoscopy Screener, and Why Neither Is a Medical Device</h1>
+</div>
+
+<a href="#" id="gs-skip-link" class="gs-skip-link" style="position:absolute;left:-9999px;top:auto;background:#1a1a1a;color:#fff;padding:.6rem 1rem;z-index:1000;border-radius:4px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.85rem">Skip to article content</a>
+<style>.gs-skip-link:focus{left:8px!important;top:8px!important}
+.gs-a11y-bar{display:flex;align-items:center;gap:.55rem;flex-wrap:wrap;background:#f4f5f7;border:1px solid #dfe3e8;border-radius:8px;padding:.55rem .8rem;margin:10px 0 16px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
+.gs-a11y-bar .gs-a11y-label{font-size:.68rem;font-weight:700;letter-spacing:.08em;color:#666;text-transform:uppercase;margin-right:.15rem}
+.gs-a11y-bar button{cursor:pointer;border:1px solid #c7cbd1;background:#fff;color:#1a1a1a;border-radius:5px;padding:.32rem .65rem;font-family:inherit;line-height:1}
+.gs-a11y-bar button.gs-a11y-fs{font-weight:700;min-width:2rem;text-align:center}
+.gs-a11y-bar button.gs-a11y-fs[data-size="sm"]{font-size:.8rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="md"]{font-size:1rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="lg"]{font-size:1.2rem}
+.gs-a11y-bar button.gs-a11y-fs[aria-pressed="true"]{background:#1a1a1a;color:#fff;border-color:#1a1a1a}
+.gs-a11y-bar button:hover{border-color:#8a4b08}
+.gs-a11y-bar button:focus-visible{outline:2px solid #8a4b08;outline-offset:1px}
+.gs-a11y-bar .gs-a11y-sep{width:1px;align-self:stretch;background:#dfe3e8;margin:0 .1rem}</style>
+<div class="gs-a11y-bar" role="group" aria-label="Accessibility controls">
+<span class="gs-a11y-label">Text Size</span>
+<button type="button" class="gs-a11y-fs" data-size="sm" aria-pressed="false" aria-label="Small text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="md" aria-pressed="true" aria-label="Medium text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="lg" aria-pressed="false" aria-label="Large text">A</button>
+<span class="gs-a11y-sep"></span>
+<button type="button" id="gs-a11y-listen" aria-label="Read this article aloud">&#128266; Listen</button>
+<button type="button" id="gs-a11y-stop" aria-label="Stop reading aloud">&#9632; Stop</button>
+</div>
+<script>(function(){
+var KEY='gs-a11y-fontsize', SIZES={sm:'0.92',md:'1',lg:'1.15'};
+function pb(){return document.querySelector('.post-body')||document.querySelector('.artx,.mdrx');}
+function apply(sz){
+  var el=pb(); if(!el||!SIZES[sz]) return;
+  el.style.fontSize=SIZES[sz]+'em';
+  var btns=document.querySelectorAll('.gs-a11y-fs');
+  for(var i=0;i<btns.length;i++){
+    var on=btns[i].getAttribute('data-size')===sz;
+    btns[i].setAttribute('aria-pressed', on?'true':'false');
+  }
+  try{localStorage.setItem(KEY,sz);}catch(e){}
+}
+var fsBtns=document.querySelectorAll('.gs-a11y-fs');
+for(var j=0;j<fsBtns.length;j++){
+  fsBtns[j].addEventListener('click',(function(b){return function(){apply(b.getAttribute('data-size'));};})(fsBtns[j]));
+}
+var saved; try{saved=localStorage.getItem(KEY);}catch(e){}
+apply(saved&&SIZES[saved]?saved:'md');
+
+var listenBtn=document.getElementById('gs-a11y-listen'), stopBtn=document.getElementById('gs-a11y-stop');
+if(listenBtn){
+  listenBtn.addEventListener('click', function(){
+    if(!('speechSynthesis' in window)){ alert('Text-to-speech is not supported in this browser.'); return; }
+    window.speechSynthesis.cancel();
+    var src=pb(); if(!src) return;
+    var clone=src.cloneNode(true);
+    var strip=clone.querySelectorAll('script,style,svg');
+    for(var k=0;k<strip.length;k++){ strip[k].parentNode.removeChild(strip[k]); }
+    var text=clone.textContent.replace(/\s+/g,' ').trim();
+    if(!text) return;
+    var chunks=text.match(/[\s\S]{1,180}(?:[.!?]|$)/g)||[text];
+    var idx=0;
+    function speakNext(){
+      if(idx>=chunks.length) return;
+      var u=new SpeechSynthesisUtterance(chunks[idx]);
+      u.onend=function(){ idx++; speakNext(); };
+      window.speechSynthesis.speak(u);
+    }
+    speakNext();
+  });
+}
+if(stopBtn){
+  stopBtn.addEventListener('click', function(){
+    if('speechSynthesis' in window) window.speechSynthesis.cancel();
+  });
+}
+var skip=document.getElementById('gs-skip-link');
+if(skip){
+  skip.addEventListener('click', function(ev){
+    ev.preventDefault();
+    var h=document.querySelector('.post-body h1')||document.querySelector('.artx h1,.mdrx h1,h1');
+    if(h){ h.setAttribute('tabindex','-1'); h.focus(); h.scrollIntoView(); }
+  });
+}
+})();</script>
+<style>.goog-te-menu-frame{max-width:340px!important;max-height:70vh!important;overflow:auto!important;box-shadow:0 6px 24px rgba(0,0,0,.25)!important}</style><div id="google_translate_element" style="margin:8px 0 16px;"></div><script type="text/javascript">function googleTranslateElementInit(){new google.translate.TranslateElement({pageLanguage:"en",includedLanguages:"hi,bn,ta,te,mr,gu,kn,ml,pa,or,as,ur,sa,ne,sd",layout:google.translate.TranslateElement.InlineLayout.SIMPLE,autoDisplay:false},"google_translate_element");}</script><script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+
+<div class="gb-stats">
+<div class="gb-stat"><b>2</b><span>open-source health prototypes, both labelled not a medical device</span></div>
+<div class="gb-stat"><b>7</b><span>ICU beds replayed from open, de-identified VitalDB surgical cases</span></div>
+<div class="gb-stat"><b>600</b><span>synthetic capsule-endoscopy frames screened in about 3.4 s on the guide&rsquo;s Mac</span></div>
+<div class="gb-stat"><b>0</b><span>patient images used in the capsule demo; its thresholds were tuned on synthetic video</span></div>
+</div>
+
+<p>These two repositories show how a piece of health software is put together, from incoming data to a dashboard or a report. patient-history-tracking replays real, de-identified ICU vital signs into a multi-bed dashboard, raises alarms and keeps one linked patient record. capsule-endoscopy-cv screens every frame of a wireless capsule-endoscopy video, flags suspected bleeding and lesions, and writes a report.</p>
+
+<p>The guides write for engineers who want to see a complete pipeline in one small codebase, health-IT students learning how a linked patient record is structured, and researchers who want a baseline and a report format before adding a deep-learning model. They also write for non-programmers who want an AI assistant to explain how an ICU dashboard works.</p>
+
+<div class="gb-warn"><strong>Not for patient care.</strong> Both projects are research and learning prototypes. Neither is a medical device, neither has been validated for clinical use, and neither gives clinical advice. The ICU dashboard runs on demo data marked &ldquo;not for clinical use&rdquo;; the capsule screener has not been validated on patient data, and the absence of a flag does not exclude disease.</div>
+
+<h2 class="gb-h2">Which tool for which job</h2>
+<div class="gb-tblwrap"><table class="gb-table"><thead><tr><th>Tool</th><th>What it does</th><th>Use it when</th></tr></thead><tbody><tr><td><a href="https://github.com/herrrickshaw/patient-history-tracking">patient-history-tracking</a></td><td>Replays de-identified ICU vitals into a multi-bed dashboard with alarm rules, and ties a synthetic health ID, simulated insurance, prescriptions and a discharge summary to one patient record</td><td>You want to see how a live-vitals pipeline and a linked patient record fit together in one small codebase</td></tr><tr><td><a href="https://github.com/herrrickshaw/capsule-endoscopy-cv">capsule-endoscopy-cv</a></td><td>Screens every frame of a capsule-endoscopy video for quality, suspected bleeding and lesion candidates, drops redundant frames, estimates gut regions and writes an HTML report</td><td>You want a classical computer-vision baseline and report format before adding a learned detector</td></tr></tbody></table></div>
+
+<h2 class="gb-h2">Which one to start with</h2>
+<p>capsule-endoscopy-cv is the quicker of the two to get running. It needs only Python 3.10 or newer and three packages, makes its own synthetic study, and analysed 600 frames in about 3.4 seconds on the guide&rsquo;s Mac. patient-history-tracking has more moving parts: a Python backend, a Node.js dashboard in a second terminal, and an internet connection on first run to fetch VitalDB cases. Its API can be explored with the backend alone.</p>
+
+<h2 class="gb-h2">The two tools</h2>
+<h3>1. patient-history-tracking: a demo ICU dashboard and linked record</h3>
+<p>This repository shows how an ICU aggregation dashboard can be put together. A FastAPI backend fetches bedside-monitor numbers from VitalDB, a set of open, de-identified surgical cases, and replays them. It checks each reading against alarm rules and streams the readings over a WebSocket to a React and Vite dashboard with a live bed grid, sparklines and colour-coded alarms. A single patient record collects what other features write into it: a synthetic health ID, simulated insurance, prescriptions, alerts and a discharge summary. Optional OCR of prescriptions and lab reports uses a local Tesseract install.</p>
+<p>The patient names, health ID numbers, insurer and policies are all invented, and nothing connects to a real hospital, health ID system or insurer. You need Python 3 for the backend, Node.js and npm for the dashboard, and internet on first run, because the vitaldb library fetches case data at runtime. No login, paid key, database server or Docker is needed; SQLite is created locally. In the guide&rsquo;s demo the API returned:</p>
+<div class="gb-tblwrap"><table class="gb-table"><thead><tr><th>Endpoint</th><th>What the demo returned</th></tr></thead><tbody><tr><td><code>GET /api/beds</code></td><td>Seven beds, Bed-A to Bed-F plus Bed-DEMO, each backed by a VitalDB case (Bed-A is case 4096). Bed-DEMO has a 40-second encounter and is marked demo=True.</td></tr><tr><td><code>WebSocket /ws/vitals</code></td><td>One tick per bed with heart rate, oxygen saturation, respiratory rate and systolic blood pressure. At sim_t=8, Bed-A showed HR 76, SpO2 100, RR 19. Some values are None when a case has no reading.</td></tr><tr><td><code>GET /api/beds/Bed-A/identity</code></td><td>A generated name and a synthetic ABHA-style number, age 53, sex F, General surgery, Cholecystectomy, with a disclaimer that the number is not real.</td></tr><tr><td><code>GET /api/beds/Bed-DEMO/insurance</code></td><td>An invented insurer, an eligible status and an approved claim.</td></tr><tr><td><code>GET /api/beds/Bed-DEMO/record</code></td><td>Admission, eligibility check, prescriptions, alerts, discharge, discharge summary and claim in one append-only timeline: 27 events.</td></tr><tr><td><code>GET /api/beds/Bed-DEMO/discharge-summary</code></td><td>Vitals ranges (HR 71 to 82, SpO2 99 to 100), one alert (RR low), the approved claim and a disclaimer that it is not a real clinical document.</td></tr></tbody></table></div>
+<p>Start the backend from the <code>backend</code> folder after <code>pip install -r requirements.txt</code>; the dashboard then runs from <code>frontend</code> with <code>npm install</code> and <code>npm run dev -- --port 5273</code>, at http://localhost:5273.</p>
+<pre><code>uvicorn app.main:app --port 8710</code></pre>
+<p><strong>Main limitation.</strong> Demo data, not for clinical use: it is a prototype, not validated, and not a medical device. The alarm thresholds in backend/app/alerts.py are illustrative defaults that have not been clinically reviewed. There is no real ABDM or insurer integration. Storage is one SQLite file in one process, so it does not scale across machines. The OCR features were not exercised in the demo; the README reports that handwriting OCR misread 650mg as 850mg, so every extracted result goes to a human review queue. The demo called the API in-process, so the browser dashboard itself was not shown.</p>
+<p>Code: <a href="https://github.com/herrrickshaw/patient-history-tracking">github.com/herrrickshaw/patient-history-tracking</a></p>
+
+<h3>2. capsule-endoscopy-cv: triage and a report from capsule-endoscopy video</h3>
+<p>The capsule_cv package screens a capsule-endoscopy recording: a video file, a folder of frames, or a live TCP stream. It uses colour and texture heuristics to score frame quality (brightness, blur, debris), suspected blood, and compact pale or red lesion candidates. It drops frames that repeat the last kept frame and estimates where the stomach, small bowel and colon begin. Flagged frames are grouped into episodes with a peak frame.</p>
+<p>Its outputs are report.html (KPIs, a timeline and annotated peak frames), highlights.mp4, frames.csv with every metric for every frame, and study.json. The TCP receiver uses sequence numbers and CRC32, and the guide points to FrameAnalyzer.analyze as the place to add a learned detector, whose results the events and report would then pick up. It needs Python 3.10 or newer with opencv-python-headless, numpy and pytest, and 8 tests passed.</p>
+<pre><code>.venv/bin/python -m capsule_cv analyze synthetic/capsule.mp4 --out report</code></pre>
+<p><strong>Main limitation.</strong> It is a research and decision-support sketch, not a medical device, not validated on patient data and not a diagnosis. Its thresholds were tuned on its own synthetic generator, so the events it recovers show that the plumbing works, not that it works on patients; the README suggests re-tuning on labelled real data such as Kvasir-Capsule. It has no polyp or tumour detection and no deep model, and the region segmentation assumes the study reaches the colon. The live receive and send path was not run in the guide.</p>
+<p>Code: <a href="https://github.com/herrrickshaw/capsule-endoscopy-cv">github.com/herrrickshaw/capsule-endoscopy-cv</a></p>
+
+<h2 class="gb-h2">Worked example: screening a synthetic capsule study</h2>
+<p>This example is from the capsule-endoscopy-cv guide, run on 5 November 2026 in a scratch clone and a throwaway virtual environment, on synthetic data only.</p>
+<p><strong>Step 1: get the code and install.</strong></p>
+<pre><code>git clone https://github.com/herrrickshaw/capsule-endoscopy-cv.git
+cd capsule-endoscopy-cv
+python3 -m venv .venv
+.venv/bin/pip install -r requirements.txt</code></pre>
+<p><strong>Step 2: make a synthetic study and analyse it.</strong></p>
+<pre><code>.venv/bin/python -m capsule_cv synth --out synthetic/capsule.mp4
+.venv/bin/python -m capsule_cv analyze synthetic/capsule.mp4 --out report</code></pre>
+<p>A JSON summary prints, and the report folder gains report.html, highlights.mp4, frames.csv and study.json. The guide&rsquo;s summary, reformatted onto fewer lines with values unchanged:</p>
+<pre><code>{
+  "frames": 600, "duration_s": 149.8,
+  "usable_frames": 582, "usable_pct": 97.0,
+  "duplicate_frames": 131, "frames_to_review": 455,
+  "review_reduction_pct": 24.2,
+  "bleeding_frames": 30, "lesion_frames": 19,
+  "events": {"bleeding": 2, "lesion": 2},
+  "region_confidence": 0.73,
+  "gastric_transit_s": 22.5, "small_bowel_transit_s": 90.0
+}</code></pre>
+<p><strong>Step 3: look at the events.</strong> study.json lists each episode. The first two, with fields rearranged for reading:</p>
+<pre><code>bleeding  frames 210-227  t=52.5-56.75 s
+          peak_score 0.163   region: small bowel
+lesion    frames 288-297  t=72.0-74.25 s
+          peak_score 0.0081  region: small bowel</code></pre>
+<p><strong>Step 4: run the tests.</strong> <code>.venv/bin/python -m pytest -q tests</code> gave 8 passed.</p>
+<p><strong>How to read it.</strong> Of 600 frames, 582 were usable and 131 were redundant, and 455 remained for review: a 24.2% cut in review work. The guide warns not to read that as typical, because it comes from one synthetic study. The two bleeding and two lesion events come from a synthetic study with known ground truth, and the thresholds were tuned on the same generator, so they show the plumbing works, not that it works on patients.</p>
+
+<h2 class="gb-h2">What these tools do not do</h2>
+<ul>
+<li><strong>They are research prototypes, not medical devices.</strong> Both guides say so in those words. Neither is for diagnosis, patient care or monitoring of real people, and neither is clinical advice.</li>
+<li><strong>Neither has been clinically validated.</strong> The ICU dashboard&rsquo;s alarm thresholds have not been clinically reviewed. The capsule screener has not been validated on patient data, and a frame with no flag does not rule out disease.</li>
+<li><strong>The demo results come from demo or synthetic data.</strong> The ICU vitals are real but de-identified surgical cases; the names, health IDs, insurer, policies, claims and prescriptions are invented. The capsule study is wholly synthetic.</li>
+<li><strong>They do not connect to real systems.</strong> There is no real ABDM health ID or insurer integration, and the dashboard runs as one process on a SQLite file, not as a hospital system.</li>
+<li><strong>Some features were not tested in the guides.</strong> The OCR path, the browser dashboard, the capsule screener&rsquo;s live TCP path and its use on real recordings were not run.</li>
+<li><strong>The data have conditions.</strong> VitalDB data are licensed CC BY-NC-SA 4.0 under a data use agreement: non-commercial use only, and no attempt at re-identification. The guide asks anyone who builds on it to cite Lee et al., Scientific Data 2022.</li>
+</ul>
+
+<h2 class="gb-h2">Sources and caveats</h2>
+<div class="gb-card">
+<p class="gb-note" style="margin:0">This page replaces the two separate how-to guides this blog wrote for these tools, one per repository. Everything here is taken from those guides: the patient-history-tracking guide used the repository README, backend/requirements.txt and a demo run of 18 October 2026; the capsule-endoscopy-cv guide used the README, capsule_cv/ and tests/, run on 5 November 2026 on synthetic data only, with no patient images. Neither project is a medical device. Repositories: <a href="https://github.com/herrrickshaw/patient-history-tracking">github.com/herrrickshaw/patient-history-tracking</a>; <a href="https://github.com/herrrickshaw/capsule-endoscopy-cv">github.com/herrrickshaw/capsule-endoscopy-cv</a>.</p>
+</div>
+
+<div class="gb-related">
+<strong>Related on this blog:</strong>
+<a href="https://masaladeutsch.blogspot.com/2026/08/abha-what-indias-14-digit-health-id.html">ABHA: What India&#x27;s 14-Digit Health ID Actually Does, in the Real Numbers</a>
+<a href="https://masaladeutsch.blogspot.com/2026/09/abha-covers-93-crore-patients-its.html">ABHA Covers 93 Crore Patients. Its Doctor Registry Covers 67%, and Insurers Aren&#x27;t Required to Use the Claims Exchange Yet</a>
+<a href="https://masaladeutsch.blogspot.com/2026/09/endoscopes-never-made-indias-pli-list.html">Endoscopes Never Made India&#x27;s PLI List. At 57% Export Coverage, They Didn&#x27;t Need To.</a>
+<a href="https://masaladeutsch.blogspot.com/2026/08/indias-medical-device-trade-gap-and.html">India&#x27;s Medical-Device Trade Gap — and the Devices Worth Making Here</a>
+<a href="https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html">All articles (index)</a>
+</div>
+
+<p class="disclaimer" data-gs-ai-disclosure-v1="1"><strong>About this article:</strong> Researched, written and edited by Umashankar Triplicane Dwarakanathan, with AI research assistance; every figure is meant to trace to the primary source cited. See the <a href="https://masaladeutsch.blogspot.com/p/disclaimer.html">Editorial Policy</a> for how sourcing, AI use and corrections work.</p>
+
+</div>
+
+<div id="gs-idx"></div><script defer="defer" src="https://herrrickshaw.github.io/masaladeutsch/accordion.js"></script>

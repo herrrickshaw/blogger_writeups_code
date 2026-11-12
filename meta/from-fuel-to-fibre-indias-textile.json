@@ -4,14 +4,14 @@
   "url": "https://blog.vertistratsolution.com/2026/08/from-fuel-to-fibre-indias-textile.html",
   "slug": "from-fuel-to-fibre-indias-textile",
   "published": "2026-08-03T09:12:32.000+05:30",
-  "updated": "2026-11-07T08:31:43.000+05:30",
+  "updated": "2026-11-12T22:09:24.000+05:30",
   "labels": [
     "Import Substitution",
     "Textiles",
     "Trade & Tariffs"
   ],
-  "bytes": 40096,
-  "sha256": "f625f90b8b9622e83d8031594432b60289f1b305a4ace6bc7e125c69294ad107",
+  "bytes": 41677,
+  "sha256": "9556f28ffd52e1c673e4b27a44ad621c4b86b5956a0303dfa76edaabdf7e0fb0",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.2.1",
+  "version": "4.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -279,6 +279,19 @@
         "https://masaladeutsch.blogspot.com/2026/08/from-fuel-to-fibre-indias-textile.html",
         "https://blog.vertistratsolution.com/2026/08/from-fuel-to-fibre-indias-textile.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "4.0.0",
+      "date": "2026-11-13T03:39:53+05:30",
+      "level": "major",
+      "reason": "figures changed (+9/-0 distinct numbers)",
+      "bytes": [
+        40096,
+        41677
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

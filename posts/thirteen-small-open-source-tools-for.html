@@ -1,0 +1,291 @@
+<div style="max-width:760px;margin:0 auto;font-family:Georgia,'Times New Roman',serif;color:#212529;background:#fff;line-height:1.7;font-size:17px">
+
+<style>
+.gb-card{background:#f8f9fa;border:1px solid #dee2e6;border-radius:12px;padding:1.25rem 1.5rem;margin:1.5rem 0;box-shadow:0 1px 2px rgba(0,0,0,.04)}
+.gb-table{border-collapse:collapse;width:100%;font-size:.85em;font-family:-apple-system,'Segoe UI',sans-serif;margin:1.25rem 0}
+.gb-table thead th{background:#212529;color:#fff;padding:.5rem .75rem;text-align:left;white-space:nowrap}
+.gb-table td{padding:.5rem .75rem;border-bottom:1px solid #dee2e6;color:#212529;word-wrap:break-word}
+.gb-table tbody tr:nth-child(even){background:#f8f9fa}
+.gb-tblwrap{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:0 0 1em}
+.gb-kicker{font-family:-apple-system,'Segoe UI',sans-serif;text-transform:uppercase;letter-spacing:.12em;font-size:.72em;color:#868e96;margin-bottom:.5rem}
+.gb-h2{font-family:-apple-system,'Segoe UI',sans-serif;font-weight:700;font-size:1.35em;margin:2.2rem 0 .8rem;color:#212529;letter-spacing:-.01em}
+.gb-note{font-size:.8em;color:#868e96;font-family:-apple-system,'Segoe UI',sans-serif;line-height:1.5}
+.gb-pull{border-left:4px solid #212529;padding:.25rem 0 .25rem 1.25rem;margin:1.75rem 0;font-size:1.15em;font-style:italic;color:#495057}
+.gb-related{background:#eef6ff;border:1px solid #b6d4f0;border-radius:12px;padding:1.1rem 1.4rem;margin:1.5rem 0;font-family:-apple-system,'Segoe UI',sans-serif;font-size:.9em}
+.gb-related a{color:#0b5394}
+.gb-warn{background:#fff8f0;border:1px solid #f0d9b5;border-radius:10px;padding:1rem 1.25rem;margin:1.25rem 0;font-size:.92em}
+.gb-stats{display:grid;gap:1rem;grid-template-columns:repeat(auto-fit,minmax(11rem,1fr));margin:1.4rem 0 1.8rem}
+.gb-stat{background:#f8f9fa;border:1px solid #dee2e6;border-radius:10px;padding:.9rem 1rem;font-family:-apple-system,'Segoe UI',sans-serif}
+.gb-stat b{display:block;font-size:1.35em;color:#212529;font-family:Georgia,serif}
+.gb-stat span{display:block;font-size:.76em;color:#868e96;margin-top:.2rem;line-height:1.4}
+.gb-stats>.google-auto-placed,.gb-stats>ins.adsbygoogle{grid-column:1/-1;order:99;width:100%;margin:.4rem 0}
+.gs-head-order>.google-auto-placed,.gs-head-order>ins.adsbygoogle{order:99}
+
+.post-body .tw{overflow-x:auto;margin:1.1rem 0}
+.post-body table{display:block;overflow-x:auto;max-width:100%;width:max-content;
+ min-width:100%;border-collapse:collapse;font-size:.86rem}
+.post-body thead th,.post-body tr:first-child th{background:#111;color:#fff;font-weight:700;
+ text-align:right;vertical-align:bottom;padding:.6rem .7rem;border:1px solid #111;
+ white-space:normal;overflow-wrap:normal;word-break:keep-all;min-width:5.5rem}
+.post-body thead th:first-child,.post-body tr:first-child th:first-child{text-align:left}
+.post-body td{border:1px solid #d9d9d9;padding:.5rem .7rem;text-align:right;
+ font-variant-numeric:tabular-nums;white-space:nowrap;color:#111;background:#fff}
+.post-body td:first-child{text-align:left;white-space:normal;min-width:8rem}
+.post-body tbody tr:nth-child(even) td{background:#fafafa}
+</style>
+
+<div class="gs-head-order" style="display:flex;flex-direction:column">
+<p class="standfirst" style="order:4;font-size:1.1em;color:#495057"><em>Thirteen small repositories each solve one narrow problem: falling back to a local model when Claude is unavailable, checking an LLM&rsquo;s citations, logging token cost, searching maritime reports offline, testing a warehouse backfill, finding duplicate Git LFS storage, checking blog posts for broken code, or freeing Mac disk space safely. This guide says what each one does, the command to start with, and what its own guide found it cannot do.</em></p>
+<div class="topnav-index-link" style="order:1;font-size:.82em;margin:6px 0 14px"><a href="https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html" style="color:#0b5394;text-decoration:none">&larr; All Articles (Index)</a></div>
+<div class="gb-kicker" style="order:2">Open-Source Tools &middot; 12 November 2026</div>
+<h1 style="order:3;font-family:-apple-system,'Segoe UI',sans-serif;font-weight:800;font-size:2em;line-height:1.2;letter-spacing:-.02em;margin:.25rem 0 1rem">Thirteen Small Open-Source Tools for Developers and AI Users, From a Local Claude Fallback to an LFS Duplicate Audit, and What Each One Is For</h1>
+</div>
+
+<a href="#" id="gs-skip-link" class="gs-skip-link" style="position:absolute;left:-9999px;top:auto;background:#1a1a1a;color:#fff;padding:.6rem 1rem;z-index:1000;border-radius:4px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.85rem">Skip to article content</a>
+<style>.gs-skip-link:focus{left:8px!important;top:8px!important}
+.gs-a11y-bar{display:flex;align-items:center;gap:.55rem;flex-wrap:wrap;background:#f4f5f7;border:1px solid #dfe3e8;border-radius:8px;padding:.55rem .8rem;margin:10px 0 16px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
+.gs-a11y-bar .gs-a11y-label{font-size:.68rem;font-weight:700;letter-spacing:.08em;color:#666;text-transform:uppercase;margin-right:.15rem}
+.gs-a11y-bar button{cursor:pointer;border:1px solid #c7cbd1;background:#fff;color:#1a1a1a;border-radius:5px;padding:.32rem .65rem;font-family:inherit;line-height:1}
+.gs-a11y-bar button.gs-a11y-fs{font-weight:700;min-width:2rem;text-align:center}
+.gs-a11y-bar button.gs-a11y-fs[data-size="sm"]{font-size:.8rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="md"]{font-size:1rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="lg"]{font-size:1.2rem}
+.gs-a11y-bar button.gs-a11y-fs[aria-pressed="true"]{background:#1a1a1a;color:#fff;border-color:#1a1a1a}
+.gs-a11y-bar button:hover{border-color:#8a4b08}
+.gs-a11y-bar button:focus-visible{outline:2px solid #8a4b08;outline-offset:1px}
+.gs-a11y-bar .gs-a11y-sep{width:1px;align-self:stretch;background:#dfe3e8;margin:0 .1rem}</style>
+<div class="gs-a11y-bar" role="group" aria-label="Accessibility controls">
+<span class="gs-a11y-label">Text Size</span>
+<button type="button" class="gs-a11y-fs" data-size="sm" aria-pressed="false" aria-label="Small text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="md" aria-pressed="true" aria-label="Medium text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="lg" aria-pressed="false" aria-label="Large text">A</button>
+<span class="gs-a11y-sep"></span>
+<button type="button" id="gs-a11y-listen" aria-label="Read this article aloud">&#128266; Listen</button>
+<button type="button" id="gs-a11y-stop" aria-label="Stop reading aloud">&#9632; Stop</button>
+</div>
+<script>(function(){
+var KEY='gs-a11y-fontsize', SIZES={sm:'0.92',md:'1',lg:'1.15'};
+function pb(){return document.querySelector('.post-body')||document.querySelector('.artx,.mdrx');}
+function apply(sz){
+  var el=pb(); if(!el||!SIZES[sz]) return;
+  el.style.fontSize=SIZES[sz]+'em';
+  var btns=document.querySelectorAll('.gs-a11y-fs');
+  for(var i=0;i<btns.length;i++){
+    var on=btns[i].getAttribute('data-size')===sz;
+    btns[i].setAttribute('aria-pressed', on?'true':'false');
+  }
+  try{localStorage.setItem(KEY,sz);}catch(e){}
+}
+var fsBtns=document.querySelectorAll('.gs-a11y-fs');
+for(var j=0;j<fsBtns.length;j++){
+  fsBtns[j].addEventListener('click',(function(b){return function(){apply(b.getAttribute('data-size'));};})(fsBtns[j]));
+}
+var saved; try{saved=localStorage.getItem(KEY);}catch(e){}
+apply(saved&&SIZES[saved]?saved:'md');
+
+var listenBtn=document.getElementById('gs-a11y-listen'), stopBtn=document.getElementById('gs-a11y-stop');
+if(listenBtn){
+  listenBtn.addEventListener('click', function(){
+    if(!('speechSynthesis' in window)){ alert('Text-to-speech is not supported in this browser.'); return; }
+    window.speechSynthesis.cancel();
+    var src=pb(); if(!src) return;
+    var clone=src.cloneNode(true);
+    var strip=clone.querySelectorAll('script,style,svg');
+    for(var k=0;k<strip.length;k++){ strip[k].parentNode.removeChild(strip[k]); }
+    var text=clone.textContent.replace(/\s+/g,' ').trim();
+    if(!text) return;
+    var chunks=text.match(/[\s\S]{1,180}(?:[.!?]|$)/g)||[text];
+    var idx=0;
+    function speakNext(){
+      if(idx>=chunks.length) return;
+      var u=new SpeechSynthesisUtterance(chunks[idx]);
+      u.onend=function(){ idx++; speakNext(); };
+      window.speechSynthesis.speak(u);
+    }
+    speakNext();
+  });
+}
+if(stopBtn){
+  stopBtn.addEventListener('click', function(){
+    if('speechSynthesis' in window) window.speechSynthesis.cancel();
+  });
+}
+var skip=document.getElementById('gs-skip-link');
+if(skip){
+  skip.addEventListener('click', function(ev){
+    ev.preventDefault();
+    var h=document.querySelector('.post-body h1')||document.querySelector('.artx h1,.mdrx h1,h1');
+    if(h){ h.setAttribute('tabindex','-1'); h.focus(); h.scrollIntoView(); }
+  });
+}
+})();</script>
+<style>.goog-te-menu-frame{max-width:340px!important;max-height:70vh!important;overflow:auto!important;box-shadow:0 6px 24px rgba(0,0,0,.25)!important}</style><div id="google_translate_element" style="margin:8px 0 16px;"></div><script type="text/javascript">function googleTranslateElementInit(){new google.translate.TranslateElement({pageLanguage:"en",includedLanguages:"hi,bn,ta,te,mr,gu,kn,ml,pa,or,as,ur,sa,ne,sd",layout:google.translate.TranslateElement.InlineLayout.SIMPLE,autoDisplay:false},"google_translate_element");}</script><script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+
+<div class="gb-stats">
+<div class="gb-stat"><b>13</b><span>small tools, most of them one script or one short package</span></div>
+<div class="gb-stat"><b>0.76 &rarr; 0.82</b><span>recall@5 without and with reranking on 17 test questions (ship2shore_rag, 18 Oct 2026)</span></div>
+<div class="gb-stat"><b>1.83 GB vs 0.71 GB</b><span>LFS storage counted against unique content in a synthetic three-repo audit (19 Oct 2026)</span></div>
+<div class="gb-stat"><b>5 tiers</b><span>from &ldquo;never touch&rdquo; to &ldquo;delete now&rdquo; in the Mac disk cleaner</span></div>
+</div>
+
+<p>These thirteen repositories are small and single-purpose. Most were written to fix a problem their author actually hit: a Claude rate limit in the middle of a long job, an LLM check that marked a correct extraction as ungrounded, a GitHub LFS quota used up by backup copies, a Mac disk at 99%, and defects that reached this blog&rsquo;s own published posts.</p>
+
+<p>They are for developers, data engineers and heavy users of AI assistants who want a working example to read or reuse. Several are also usable by non-programmers who hand the repository to an AI assistant and ask in plain language. Many were demonstrated on synthetic data, mock servers or dry runs, so each section says what was actually run, and when.</p>
+
+<h2 class="gb-h2">Which tool for which job</h2>
+<div class="gb-tblwrap"><table class="gb-table"><thead><tr><th>Tool</th><th>What it does</th><th>Use it when</th></tr></thead><tbody><tr><td><a href="#router">claude-lmstudio-router</a></td><td>Sends a prompt to Claude first and falls back to a model in LM Studio on your machine; a proxy lets Claude Code itself run on a local model.</td><td>Rate limits stop a long job, or some text must stay on your own computer.</td></tr><tr><td><a href="#citations">llm-extract-citation-fix</a></td><td>One Python file that extracts JSON fields from a document with an LLM and checks that each field&rsquo;s quoted evidence is in the text.</td><td>You pull figures from filings or statements with an LLM and want a guard against invented values.</td></tr><tr><td><a href="#tokens">prompt-efficiency-tracker-public</a></td><td>A Claude Code Stop hook that logs tokens, estimated cost, project and a success or tool_error flag per turn to SQLite, plus a heartbeat check.</td><td>You use Claude Code heavily and want your own record of where tokens go.</td></tr><tr><td><a href="#maritime">ship2shore_rag</a></td><td>Search over open maritime literature and accident reports that returns cited passages, on a shore server or offline on a ship.</td><td>You want to look up past maritime incidents or definitions, including on a vessel with no internet.</td></tr><tr><td><a href="#memory">memory-map-optimizer</a></td><td>A single-file CLI that finds communities in a graph file, searches markdown notes with keywords plus embeddings, and flags near-duplicates.</td><td>You keep a large markdown notes or AI-assistant memory folder and want structure and duplicates found for you.</td></tr><tr><td><a href="#datamining">data-source-mining</a></td><td>A short script that pulls World Bank indicators and Agmarknet mandi prices into one local DuckDB file.</td><td>You want a quick cross-country macro panel, or a sample of daily mandi prices, queryable with SQL.</td></tr><tr><td><a href="#warehouse">ltm-warehouse-tests</a></td><td>A harness that builds a throwaway Postgres database, seeds awkward synthetic tickers, runs backfill scripts against it and drops it.</td><td>You maintain scripts that write into a price warehouse and want to re-check a change without touching real data.</td></tr><tr><td><a href="#lfs">repo-data-dedup</a></td><td>An audit that lists every Git LFS pointer in every repo of a GitHub account, without downloading any LFS object, and totals the duplicates.</td><td>Your LFS quota is used up or growing and you need to know which repos hold the same bytes before deleting anything.</td></tr><tr><td><a href="#blogcheck">blog-consistency-check</a></td><td>A script that fetches a published post from this blog and tests it against rules drawn from real defects, exiting non-zero on a blocker.</td><td>You hand-write or bulk-edit HTML posts with their own CSS and JavaScript and want a check after each edit, or a CI gate.</td></tr><tr><td><a href="#design">research-design-system</a></td><td>A small CSS kit with one token contract, four themes and one component set for reports, bulletins and dashboards.</td><td>You publish HTML reports or dashboards and want them to look related without copying styles.</td></tr><tr><td><a href="#playbook">delivery-playbook</a></td><td>A single-file HTML guide to SDLC models, Agile, DevOps, DDD and TOGAF, with a fit-finder and named failure modes.</td><td>Your team is choosing or fixing a delivery process and needs shared words for it.</td></tr><tr><td><a href="#cleaner">cache_memory_cleaner</a></td><td>A macOS shell script that sorts any folder into five safety tiers before you delete it, and previews cache cleanup.</td><td>Your Mac disk is nearly full and you want a written reason before deleting anything.</td></tr><tr><td><a href="#transmission">transmission-client</a></td><td>A Python client for the Transmission daemon&rsquo;s RPC API, with a command-line tool, a local web page and a library.</td><td>You run transmission-daemon headless on a server or NAS and want to script it.</td></tr></tbody></table></div>
+
+<p>Each section below says what the tool does, the one command to start with, and the main limitation its guide records. All need git to clone; extra software is noted where it matters.</p>
+<h2 class="gb-h2">Working with LLMs and AI assistants</h2>
+<h3 id="router" style="font-family:-apple-system,'Segoe UI',sans-serif;font-weight:700;font-size:1.12em;margin:1.8rem 0 .5rem">claude-lmstudio-router: fall back to a local model when Claude is unavailable</h3>
+<p>There are two tools. <code>router.py</code> tries the Claude API, retries twice on a 429 or 529 error, then sends the same prompt to a model served by LM Studio, and logs each call to <code>router_log.jsonl</code>. <code>claude_code_proxy.py</code> translates between the Anthropic API that Claude Code speaks and the OpenAI API that LM Studio speaks, so the whole agent can run offline on a local tool-calling model. You load the model and start LM Studio&rsquo;s server yourself. The guide&rsquo;s demo of 18 October 2026 used a canned stand-in server, not LM Studio.</p>
+<p><strong>Start here.</strong> Run one prompt (needs <code>pip install anthropic</code>; set <code>ANTHROPIC_API_KEY</code> for the Claude path).</p>
+<pre style="overflow-x:auto;background:#f8f9fa;border:1px solid #dee2e6;border-radius:8px;padding:.75rem 1rem;font-size:.8em;line-height:1.45;white-space:pre"><code>python -I router.py --prompt "Summarize: tariffs"</code></pre>
+<p>With no key and no LM Studio it fails honestly: it reports both failures, prints &lsquo;FAILED: Both Claude and local LM Studio failed&rsquo; and logs engine=none. When the local server answers, the output says &lsquo;Answered by: LOCAL&rsquo; and the log shows engine=local.</p>
+<p><strong>Code:</strong> <a href="https://github.com/herrrickshaw/claude-lmstudio-router">github.com/herrrickshaw/claude-lmstudio-router</a>. <strong>Main limitation:</strong> local models are weaker and slower, so treat fallback output as a draft. The proxy needs a tool-calling model and drops image blocks. Text goes to Anthropic whenever Claude answers. No unit tests ship with the repo.</p>
+
+<h3 id="citations" style="font-family:-apple-system,'Segoe UI',sans-serif;font-weight:700;font-size:1.12em;margin:1.8rem 0 .5rem">llm-extract-citation-fix: LLM extraction that checks its own citations</h3>
+<p><code>llm_extract.py</code> exposes <code>extract_structured(text, schema)</code>: it asks a Groq model (Gemini as fallback) for fields plus citations, checks each citation against the source, and adds a <code>_grounding</code> map. The fix in this repo makes the check accept list fields, where each item carries its own quote; the old check marked such correct extractions as ungrounded. The verifier runs offline with no key. Live extraction needs your own Groq or Gemini key and was not run in the guide.</p>
+<p><strong>Start here.</strong> Check a citation against source text, with no key.</p>
+<pre style="overflow-x:auto;background:#f8f9fa;border:1px solid #dee2e6;border-radius:8px;padding:.75rem 1rem;font-size:.8em;line-height:1.45;white-space:pre"><code>python3 -c "from llm_extract import _verify_citation as v; src='TCS  Qty 5   Avg 3200.50'; print(v(['TCS  Qty 5   Avg 3200.50'], src), v(['WIPRO Qty 7'], src))"</code></pre>
+<p><code>True False</code>: a list of per-item quotes passes only if every quote is in the text (run of 3 November 2026).</p>
+<p><strong>Code:</strong> <a href="https://github.com/herrrickshaw/llm-extract-citation-fix">github.com/herrrickshaw/llm-extract-citation-fix</a>. <strong>Main limitation:</strong> a grounded field proves that the quote exists, not that a derived value such as a midpoint is right. The guide notes that the default model names in the file are retired, so set <code>GROQ_MODEL</code> and <code>GEMINI_MODEL</code> yourself. There are no tests, requirements file or packaging.</p>
+
+<h3 id="tokens" style="font-family:-apple-system,'Segoe UI',sans-serif;font-weight:700;font-size:1.12em;margin:1.8rem 0 .5rem">prompt-efficiency-tracker-public: log Claude Code token cost, and notice when logging stops</h3>
+<p>The hook writes one row per turn into a local SQLite table, split by project and by main agent versus subagent, and marks a turn tool_error if a tool result errored since the last logged message. The heartbeat script reports when the hook has dropped out of <code>settings.json</code> or the database has gone stale; a macOS launchd plist runs it daily. In the guide&rsquo;s run of 3 November 2026, in a throwaway home directory with a synthetic transcript, running the hook twice left exactly two rows.</p>
+<p><strong>Start here.</strong> Run the heartbeat (try it first with a throwaway <code>HOME</code>).</p>
+<pre style="overflow-x:auto;background:#f8f9fa;border:1px solid #dee2e6;border-radius:8px;padding:.75rem 1rem;font-size:.8em;line-height:1.45;white-space:pre"><code>python3 scripts/heartbeat_check.py; tail -1 "$HOME/.ruflo/logs/heartbeat.log"</code></pre>
+<p>It always exits 0. On an empty home the log line lists two problems: settings.json missing, and token_usage.db does not exist. Once the hook was wired in the demo home, it reported ok.</p>
+<p><strong>Code:</strong> <a href="https://github.com/herrrickshaw/prompt-efficiency-tracker-public">github.com/herrrickshaw/prompt-efficiency-tracker-public</a>. <strong>Main limitation:</strong> the hook does not create its <code>token_usage</code> table and the schema is not in the repo, so you must create it. Costs are estimates from a hard-coded price table, not billing data. Scheduling and notifications are macOS-only.</p>
+
+<h3 id="maritime" style="font-family:-apple-system,'Segoe UI',sans-serif;font-weight:700;font-size:1.12em;margin:1.8rem 0 .5rem">ship2shore_rag: offline, cited answers from open maritime reports</h3>
+<p>It collects arXiv papers, Wikipedia, UK MAIB and US NTSB accident reports, and your own PDF or Word files, splits them into passages, and combines meaning-based and keyword search with a reranking step. Ashore it uses Postgres with pgvector; on a vessel it uses one SQLite file. Writing an answer with Claude is optional; without a key it lists ranked passages with their sources. The repo ships a snapshot of 125 documents, and the install (sentence-transformers and two small models) needs about 1 GB of disk.</p>
+<p><strong>Start here.</strong> With <code>STORAGE_BACKEND=sqlite</code> and <code>SQLITE_PATH=snapshots/ship2shore.sqlite3</code> set in <code>.env</code>, ask a question without an API key.</p>
+<pre style="overflow-x:auto;background:#f8f9fa;border:1px solid #dee2e6;border-radius:8px;padding:.75rem 1rem;font-size:.8em;line-height:1.45;white-space:pre"><code>python3 cli.py ask "What is a bill of lading and what does it do?" --no-generate --top-k 3</code></pre>
+<p>Three passages. In the guide&rsquo;s run of 18 October 2026, two came from the Wikipedia article on the bill of lading and one from the article on charterparties. On the repo&rsquo;s 17 test questions, recall@5 was 0.76 without reranking and 0.82 with it.</p>
+<p><strong>Code:</strong> <a href="https://github.com/herrrickshaw/ship2shore_rag">github.com/herrrickshaw/ship2shore_rag</a>. <strong>Main limitation:</strong> the corpus is small: questions about engine-room fires returned only loosely related reports, and 17 test queries make the scores indicative, not a benchmark. It does not replace statutory logs, and its web API accepts requests from any origin, so keep it on localhost.</p>
+
+<h3 id="memory" style="font-family:-apple-system,'Segoe UI',sans-serif;font-weight:700;font-size:1.12em;margin:1.8rem 0 .5rem">memory-map-optimizer: cluster a knowledge graph, search and dedupe notes</h3>
+<p>It has five commands. <code>cluster</code> runs Leiden community detection on a graph JSON; <code>embed</code> indexes markdown files with a sentence-embedding model; <code>search</code> combines BM25 keyword and embedding ranks, with an optional reranker; <code>dedup</code> groups near-duplicate files by cosine similarity; <code>report</code> writes an HTML overview. Defaults point at the author&rsquo;s own Claude Code memory paths, so pass your own.</p>
+<p><strong>Start here.</strong> Cluster a graph file.</p>
+<pre style="overflow-x:auto;background:#f8f9fa;border:1px solid #dee2e6;border-radius:8px;padding:.75rem 1rem;font-size:.8em;line-height:1.45;white-space:pre"><code>python memory_map_optimizer.py cluster --graph my_graph.json --write-back --out clusters.json</code></pre>
+<p>A line such as &lsquo;60 nodes, 213 edges -&gt; 3 communities (modularity 0.6082)&rsquo; and a size per cluster. The worked example below shows the full run.</p>
+<p><strong>Code:</strong> <a href="https://github.com/herrrickshaw/memory-map-optimizer">github.com/herrrickshaw/memory-map-optimizer</a>. <strong>Main limitation:</strong> only <code>cluster</code> and the bundled checks were run in the guide. The other commands need a model download of about 1.5 GB, and the README says <code>embed</code> was never confirmed end to end. <code>--write-back</code> edits your graph JSON in place, so work on a copy.</p>
+
+<h2 class="gb-h2">Data pipelines and testing</h2>
+<h3 id="datamining" style="font-family:-apple-system,'Segoe UI',sans-serif;font-weight:700;font-size:1.12em;margin:1.8rem 0 .5rem">data-source-mining: World Bank indicators and mandi prices in one DuckDB file</h3>
+<p><code>mine_underused_sources.py</code> pulls 12 World Bank indicators (GDP, growth, inflation, agriculture share, trade, energy mix, FDI and others) for India and six comparison economies, and the data.gov.in Agmarknet resource using the public sample key that data.gov.in documents. It needs Python and the <code>duckdb</code> package, and no account. The committed database was pulled on 21 July 2026 and has 4,532 World Bank rows and 4 mandi rows.</p>
+<p><strong>Start here.</strong> Pull the World Bank leg only.</p>
+<pre style="overflow-x:auto;background:#f8f9fa;border:1px solid #dee2e6;border-radius:8px;padding:.75rem 1rem;font-size:.8em;line-height:1.45;white-space:pre"><code>.venv/bin/python mine_underused_sources.py --wb-only</code></pre>
+<p>One line per country, then &lsquo;worldbank_indicators: N rows&rsquo; and a table list. It makes about 84 API calls and takes a few minutes.</p>
+<p><strong>Code:</strong> <a href="https://github.com/herrrickshaw/data-source-mining">github.com/herrrickshaw/data-source-mining</a>. <strong>Main limitation:</strong> run in the cloned folder, it overwrites the World Bank table in the committed database, so copy the folder first. The mandi sample key returns a small, rate-limited sample. It mines a fixed pair of sources and is not a general discovery tool.</p>
+
+<h3 id="warehouse" style="font-family:-apple-system,'Segoe UI',sans-serif;font-weight:700;font-size:1.12em;margin:1.8rem 0 .5rem">ltm-warehouse-tests: test a price-history backfill on a throwaway Postgres</h3>
+<p><code>run_tests.sh</code> creates a test database, applies a schema that mirrors the real tables, and seeds synthetic symbols that encode past bugs: a ticker already carrying a suffix, a symbol under two countries, an NSE series switching mid-history. It runs three test files and drops the database even if a test fails. The tests check deduplication, that low-fidelity estimates go to a separate table, that a dry run never persists, and that the NSE tier fires only for India. No API keys are needed.</p>
+<p><strong>Start here.</strong> Run the whole suite against a local Postgres (install <code>requirements.txt</code> with <code>&quot;sqlalchemy&lt;2.1&quot;</code> first).</p>
+<pre style="overflow-x:auto;background:#f8f9fa;border:1px solid #dee2e6;border-radius:8px;padding:.75rem 1rem;font-size:.8em;line-height:1.45;white-space:pre"><code>./run_tests.sh</code></pre>
+<p>It ends with &lsquo;All tests passed.&rsquo; and drops the database. In the guide&rsquo;s run of 19 October 2026 on a throwaway Postgres 17, all three test files passed.</p>
+<p><strong>Code:</strong> <a href="https://github.com/herrrickshaw/ltm-warehouse-tests">github.com/herrrickshaw/ltm-warehouse-tests</a>. <strong>Main limitation:</strong> with <code>requirements.txt</code> as written, a fresh install picked SQLAlchemy 2.1.5 and seeding failed, hence the pin. The script ignores the port in <code>PG_ADMIN_URL</code>, so set <code>PGPORT</code> and <code>PGHOST</code> for a non-default port. Live Yahoo, NSE and SerpApi calls are not exercised.</p>
+
+<h3 id="lfs" style="font-family:-apple-system,'Segoe UI',sans-serif;font-weight:700;font-size:1.12em;margin:1.8rem 0 .5rem">repo-data-dedup: find duplicate Git LFS storage across your repos</h3>
+<p><code>scripts/audit_lfs.py</code> makes a filtered clone of each repo that reads only the small pointer files, writes <code>lfs_inventory.csv</code> (every pointer, its size and whether HEAD still uses it) and <code>repo_summary.csv</code>, and prints total stored, total unique and cross-repo duplicate waste. It needs Python 3, git and a logged-in GitHub CLI. On a synthetic three-repo account in the guide&rsquo;s run of 19 October 2026, it counted 1.83 GB stored against 0.71 GB unique.</p>
+<p><strong>Start here.</strong> Audit your own account, read-only. Replace <code>&lt;owner&gt;</code> with your GitHub user or organisation.</p>
+<pre style="overflow-x:auto;background:#f8f9fa;border:1px solid #dee2e6;border-radius:8px;padding:.75rem 1rem;font-size:.8em;line-height:1.45;white-space:pre"><code>mkdir -p ~/lfs_audit &amp;&amp; cd ~/lfs_audit
+python3 /path/to/repo-data-dedup/scripts/audit_lfs.py &lt;owner&gt; ~/lfs_audit/clones</code></pre>
+<p>One progress line per repo, then the three totals; the two CSVs appear in the current folder.</p>
+<p><strong>Code:</strong> <a href="https://github.com/herrrickshaw/repo-data-dedup">github.com/herrrickshaw/repo-data-dedup</a>. <strong>Main limitation:</strong> it counts pointers; it does not prove that a copy is safe to delete. The repo&rsquo;s <code>delete_archive_twins.sh --run</code> deletes real repositories from a list hard-coded for the author&rsquo;s account, so read it and use only its default dry run. LFS storage is freed only by deleting repositories.</p>
+
+<h2 class="gb-h2">Publishing, design and process</h2>
+<h3 id="blogcheck" style="font-family:-apple-system,'Segoe UI',sans-serif;font-weight:700;font-size:1.12em;margin:1.8rem 0 .5rem">blog-consistency-check: is this blog post broken?</h3>
+<p>It lists posts through the public Blogger feed, downloads each with curl, and applies 10 static rules: 4 blockers (such as JavaScript that does not parse, or a dark palette with no light-mode lock), 2 major and 4 minor. <code>CHECKLIST.md</code> explains each rule. An optional Playwright pass adds contrast and overflow checks. It needs Python 3, curl and node.</p>
+<p><strong>Start here.</strong> Audit one public post.</p>
+<pre style="overflow-x:auto;background:#f8f9fa;border:1px solid #dee2e6;border-radius:8px;padding:.75rem 1rem;font-size:.8em;line-height:1.45;white-space:pre"><code>python3 audit.py --url &lt;post URL&gt;</code></pre>
+<p>It writes <code>out/report.md</code> and <code>out/report.json</code> and prints a count of BLOCKER failures. In the guide&rsquo;s run of 19 October 2026, one live post showed 1 BLOCKER and 1 MINOR, both about its CSS.</p>
+<p><strong>Code:</strong> <a href="https://github.com/herrrickshaw/blog-consistency-check">github.com/herrrickshaw/blog-consistency-check</a>. <strong>Main limitation:</strong> it is hard-coded to masaladeutsch.blogspot.com, and several rules are specific to this blog. The static pass reads the HTML source, so a CSS finding is a signal to inspect, not proof of a visible fault. The fix scripts edit content and were not run in the guide.</p>
+
+<h3 id="design" style="font-family:-apple-system,'Segoe UI',sans-serif;font-weight:700;font-size:1.12em;margin:1.8rem 0 .5rem">research-design-system: one set of design tokens, four themes</h3>
+<p>Components use only semantic tokens such as <code>--c-text</code> and <code>--c-accent</code>, and each theme rebinds about a dozen of them. The same page switches between the bulletin, report, reportage and slate themes by changing one stylesheet and one body class; the guide rendered all four on 19 October 2026. Templates for a report, a bulletin and a dashboard, a component gallery and A4 print rules for WeasyPrint are included. There is no JavaScript or build step.</p>
+<p><strong>Start here.</strong> Start from a template and open it.</p>
+<pre style="overflow-x:auto;background:#f8f9fa;border:1px solid #dee2e6;border-radius:8px;padding:.75rem 1rem;font-size:.8em;line-height:1.45;white-space:pre"><code>cp templates/report.html my-report.html   # then fix the ../ paths or keep the file inside the repo
+open my-report.html</code></pre>
+<p>A report page with a masthead, stat tiles, a table and side and warning boxes. Load the stylesheets in this order: tokens, theme, components, print.</p>
+<p><strong>Code:</strong> <a href="https://github.com/herrrickshaw/research-design-system">github.com/herrrickshaw/research-design-system</a>. <strong>Main limitation:</strong> it is a starter kit, not a brand system, and only CSS. Dark mode is opt-in through a data-theme attribute, not the operating-system setting. Numbers in the shipped templates are placeholders, not data. The WeasyPrint path was not tested in the guide.</p>
+
+<h3 id="playbook" style="font-family:-apple-system,'Segoe UI',sans-serif;font-weight:700;font-size:1.12em;margin:1.8rem 0 .5rem">delivery-playbook: a field guide for choosing and fixing a software process</h3>
+<p>The page compares Waterfall, V-Model, Spiral, Scrum, Kanban, XP and DevOps. It offers a two-question fit-finder (how often requirements really change, and how costly a mistake is once shipped) and six named failure modes, such as Zombie Scrum and Watermelon status, each with a fix. It also covers computer-science theory applied to product decisions, Domain-Driven Design, TOGAF and a testing playbook. There is nothing to install.</p>
+<p><strong>Start here.</strong> Open the page.</p>
+<pre style="overflow-x:auto;background:#f8f9fa;border:1px solid #dee2e6;border-radius:8px;padding:.75rem 1rem;font-size:.8em;line-height:1.45;white-space:pre"><code>open index.html   # macOS; on Linux use xdg-open, on Windows double-click the file</code></pre>
+<p>The fit-finder places a project in one of four quadrants. High stakes with unclear scope points to Spiral; low stakes with unclear scope to Scrum, XP or Lean Startup.</p>
+<p><strong>Code:</strong> <a href="https://github.com/herrrickshaw/delivery-playbook">github.com/herrrickshaw/delivery-playbook</a>. <strong>Main limitation:</strong> it is a field guide with the author&rsquo;s opinions, not an official Scrum, SAFe or TOGAF text, so check the primary sources it links. The live copy is not auto-synced with the repo.</p>
+
+<h2 class="gb-h2">Machine housekeeping</h2>
+<h3 id="cleaner" style="font-family:-apple-system,'Segoe UI',sans-serif;font-weight:700;font-size:1.12em;margin:1.8rem 0 .5rem">cache_memory_cleaner: free Mac disk space without losing data</h3>
+<p>Its key command, <code>classify</code>, reads git status, whether a running process has the path open, whether it sits in a cloud-sync folder, whether the name looks like a personal scan, and how long since anything changed, then prints a tier and the reason. It never deletes. Other commands act on the tiers: <code>clean-caches</code>, <code>compress-local</code> (needs afsctool) and <code>archive-evict</code>, which uploads to your cloud with rclone, checks the bytes, and only then deletes. Put <code>DRY_RUN=1</code> in front of any command to preview it.</p>
+<p><strong>Start here.</strong> Ask which tier a folder belongs to (read-only).</p>
+<pre style="overflow-x:auto;background:#f8f9fa;border:1px solid #dee2e6;border-radius:8px;padding:.75rem 1rem;font-size:.8em;line-height:1.45;white-space:pre"><code>./cache_memory_cleaner.sh classify path/to/venv</code></pre>
+<p>In the guide&rsquo;s demo of 18 October 2026, a virtual environment came back as Tier 1 (permanent local, compress in place) and a <code>__pycache__</code> folder as Tier 4 (delete immediately).</p>
+<p><strong>Code:</strong> <a href="https://github.com/herrrickshaw/cache_memory_cleaner">github.com/herrrickshaw/cache_memory_cleaner</a>. <strong>Main limitation:</strong> <code>classify</code> is a heuristic, so read its reason before acting. Never point the archive remote at a path that another rclone sync job mirrors: in the author&rsquo;s case a sync wiped four verified archives. <code>archive-evict</code> deletes originals and was not run in the demo.</p>
+
+<h3 id="transmission" style="font-family:-apple-system,'Segoe UI',sans-serif;font-weight:700;font-size:1.12em;margin:1.8rem 0 .5rem">transmission-client: control a Transmission daemon from a CLI, a web page or Python</h3>
+<p>You can list, inspect, add, start, stop and remove torrents from a terminal, from a web page on 127.0.0.1:5000, or from your own Python code. The client handles Transmission&rsquo;s session-id handshake for you: it catches the 409 reply, stores the id and retries. It needs Python 3.9 or newer and a running daemon. Use it only for content you have the right to download and share.</p>
+<p><strong>Start here.</strong> List torrents (after <code>pip install -e .</code> and setting <code>TRANSMISSION_HOST</code> and <code>TRANSMISSION_PORT</code>).</p>
+<pre style="overflow-x:auto;background:#f8f9fa;border:1px solid #dee2e6;border-radius:8px;padding:.75rem 1rem;font-size:.8em;line-height:1.45;white-space:pre"><code>transmission-cli list</code></pre>
+<p>A table with ID, STATUS, DONE, SIZE, DOWN, UP and NAME columns. The guide&rsquo;s run of 19 October 2026 used a mock daemon, not a real one.</p>
+<p><strong>Code:</strong> <a href="https://github.com/herrrickshaw/transmission-client">github.com/herrrickshaw/transmission-client</a>. <strong>Main limitation:</strong> it was shown against a mock only, so behaviour with a real daemon is untested. The repo has no tests, and the session id is not cached between runs. The README&rsquo;s development setting <code>--allowed &quot;&quot;</code> opens the RPC port to every host; do not use it on an exposed machine.</p>
+
+<h2 class="gb-h2">Worked example: clustering a graph (memory-map-optimizer)</h2>
+<p>This is the run recorded in the memory-map-optimizer guide on 19 October 2026, from a fresh clone in a throwaway virtual environment. The guide installed only python-igraph, leidenalg, rank-bm25 and numpy, which is enough for the checks and the <code>cluster</code> command; the full <code>requirements.txt</code> also pulls in sentence-transformers.</p>
+<p><strong>1. Get the code and an environment.</strong></p>
+<pre style="overflow-x:auto;background:#f8f9fa;border:1px solid #dee2e6;border-radius:8px;padding:.75rem 1rem;font-size:.8em;line-height:1.45;white-space:pre"><code>git clone https://github.com/herrrickshaw/memory-map-optimizer.git
+cd memory-map-optimizer
+python3 -m venv .venv
+source .venv/bin/activate</code></pre>
+<p><strong>2. Run the bundled checks.</strong></p>
+<pre style="overflow-x:auto;background:#f8f9fa;border:1px solid #dee2e6;border-radius:8px;padding:.75rem 1rem;font-size:.8em;line-height:1.45;white-space:pre"><code>python test_memory_map_optimizer.py
+test_leiden_finds_real_communities OK (4 communities found, planted 4, modularity 0.721)
+test_hybrid_search_ranks_relevant_doc_first OK
+test_find_duplicate_groups_merges_transitively OK
+test_report_runs_without_index_or_clusters OK
+ALL TESTS PASSED</code></pre>
+<p>Trimmed to four of 14 lines. The search and dedup checks use hand-built vectors, not a real model.</p>
+<p><strong>3. Cluster a test graph.</strong> The guide built a random graph of 60 nodes in three planted groups of 20: dense inside each group (35% of node pairs linked) and sparse between them (1%).</p>
+<pre style="overflow-x:auto;background:#f8f9fa;border:1px solid #dee2e6;border-radius:8px;padding:.75rem 1rem;font-size:.8em;line-height:1.45;white-space:pre"><code>python memory_map_optimizer.py cluster --graph g.json --write-back --out clusters.json
+60 nodes, 213 edges -&gt; 3 communities (modularity 0.6082)
+  cluster 2: 20 nodes
+  cluster 0: 20 nodes
+  cluster 1: 20 nodes
+wrote clusters.json
+wrote community assignments back into g.json</code></pre>
+<p>The tool recovered the three planted groups exactly, in 0.14 seconds. <code>clusters.json</code> records the node and edge counts, the modularity, the cluster sizes and each node&rsquo;s cluster, and <code>--write-back</code> added a &lsquo;community&rsquo; field to every node in <code>g.json</code>. Leiden results depend on the seed and resolution, so other settings can give a different number of communities.</p>
+
+<h2 class="gb-h2">What these tools do not do</h2>
+<ul>
+<li><strong>Most were not tested at full scale.</strong> The guides ran them against a mock Transmission daemon, a canned stand-in for LM Studio, a synthetic GitHub account, a synthetic transcript and a random graph. Behaviour on real systems is less tested than the outputs suggest.</li>
+<li><strong>Some can delete things.</strong> <code>archive-evict</code> deletes originals, <code>delete_archive_twins.sh --run</code> deletes repositories, and the blog checker&rsquo;s fix scripts edit posts. Use the dry runs and read the scripts first.</li>
+<li><strong>The LLM tools check where an answer came from, not whether it is right.</strong> A grounded citation proves that a quote exists; a local fallback answer is a draft; a 17-question retrieval test is indicative.</li>
+<li><strong>Costs and scores are estimates.</strong> The token tracker&rsquo;s cost comes from a hard-coded price table, not billing data.</li>
+<li><strong>Several are tied to the author&rsquo;s setup.</strong> The blog checker is hard-coded to this blog, the memory tool and the heartbeat default to the author&rsquo;s paths, and the archive-twin list names the author&rsquo;s repositories.</li>
+<li><strong>Some ship without tests.</strong> The guides found no tests in claude-lmstudio-router, transmission-client or llm-extract-citation-fix.</li>
+<li><strong>They are not professional advice.</strong> The data miner returns raw open statistics, not investment advice; ship2shore_rag is not for legal, safety-critical or class decisions; delivery-playbook is not a certification text.</li>
+</ul>
+
+<h2 class="gb-h2">Sources and caveats</h2>
+<div class="gb-card">
+<p class="gb-note" style="margin:0">Code: <a href="https://github.com/herrrickshaw/claude-lmstudio-router">github.com/herrrickshaw/claude-lmstudio-router</a>; <a href="https://github.com/herrrickshaw/llm-extract-citation-fix">github.com/herrrickshaw/llm-extract-citation-fix</a>; <a href="https://github.com/herrrickshaw/prompt-efficiency-tracker-public">github.com/herrrickshaw/prompt-efficiency-tracker-public</a>; <a href="https://github.com/herrrickshaw/ship2shore_rag">github.com/herrrickshaw/ship2shore_rag</a>; <a href="https://github.com/herrrickshaw/memory-map-optimizer">github.com/herrrickshaw/memory-map-optimizer</a>; <a href="https://github.com/herrrickshaw/data-source-mining">github.com/herrrickshaw/data-source-mining</a>; <a href="https://github.com/herrrickshaw/ltm-warehouse-tests">github.com/herrrickshaw/ltm-warehouse-tests</a>; <a href="https://github.com/herrrickshaw/repo-data-dedup">github.com/herrrickshaw/repo-data-dedup</a>; <a href="https://github.com/herrrickshaw/blog-consistency-check">github.com/herrrickshaw/blog-consistency-check</a>; <a href="https://github.com/herrrickshaw/research-design-system">github.com/herrrickshaw/research-design-system</a>; <a href="https://github.com/herrrickshaw/delivery-playbook">github.com/herrrickshaw/delivery-playbook</a>; <a href="https://github.com/herrrickshaw/cache_memory_cleaner">github.com/herrrickshaw/cache_memory_cleaner</a>; <a href="https://github.com/herrrickshaw/transmission-client">github.com/herrrickshaw/transmission-client</a>. This page replaces the separate how-to guides for these thirteen repositories, written between 18 October and 9 November 2026. Every command, output and figure here is taken from those guides&rsquo; own demo runs, on the dates given in the text. Data used by the tools comes from the World Bank API, data.gov.in (Agmarknet), arXiv, Wikipedia, UK MAIB and US NTSB reports, as stated per tool.</p>
+</div>
+
+<div class="gb-related">
+<strong>Related on this blog:</strong>
+<a href="https://masaladeutsch.blogspot.com/2026/07/ai-high-demand-launch-tracker.html">AI Tools Edition 03: A Repo With 98,000 Stars This Tracker Had Never Heard Of</a>
+<a href="https://masaladeutsch.blogspot.com/2026/08/indian-it-in-ai-era.html">Indian IT in an AI Era</a>
+<a href="https://masaladeutsch.blogspot.com/2026/10/ai-is-not-taking-indias-offshore-work.html">AI Is Not Taking India&#x27;s Offshore Work Evenly: A Sector-by-Sector Check, and the Government Backlogs the Same Skills Could Clear</a>
+<a href="https://masaladeutsch.blogspot.com/2026/10/half-of-php-websites-run-version-nobody.html">Half of PHP Websites Run a Version Nobody Patches. What a Hacked Site Gives Away About Its Company</a>
+<a href="https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html">All articles (index)</a>
+</div>
+
+<p class="disclaimer" data-gs-ai-disclosure-v1="1"><strong>About this article:</strong> Researched, written and edited by Umashankar Triplicane Dwarakanathan, with AI research assistance; every figure is meant to trace to the primary source cited. See the <a href="https://masaladeutsch.blogspot.com/p/disclaimer.html">Editorial Policy</a> for how sourcing, AI use and corrections work.</p>
+
+</div>
+
+<div id="gs-idx"></div><script defer="defer" src="https://herrrickshaw.github.io/masaladeutsch/accordion.js"></script>

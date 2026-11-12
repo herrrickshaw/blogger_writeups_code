@@ -1,0 +1,279 @@
+<div style="max-width:760px;margin:0 auto;font-family:Georgia,'Times New Roman',serif;color:#212529;background:#fff;line-height:1.7;font-size:17px">
+
+<style>
+.gb-card{background:#f8f9fa;border:1px solid #dee2e6;border-radius:12px;padding:1.25rem 1.5rem;margin:1.5rem 0;box-shadow:0 1px 2px rgba(0,0,0,.04)}
+.gb-table{border-collapse:collapse;width:100%;font-size:.85em;font-family:-apple-system,'Segoe UI',sans-serif;margin:1.25rem 0}
+.gb-table thead th{background:#212529;color:#fff;padding:.5rem .75rem;text-align:left;white-space:nowrap}
+.gb-table td{padding:.5rem .75rem;border-bottom:1px solid #dee2e6;color:#212529;word-wrap:break-word}
+.gb-table tbody tr:nth-child(even){background:#f8f9fa}
+.gb-tblwrap{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:0 0 1em}
+.gb-kicker{font-family:-apple-system,'Segoe UI',sans-serif;text-transform:uppercase;letter-spacing:.12em;font-size:.72em;color:#868e96;margin-bottom:.5rem}
+.gb-h2{font-family:-apple-system,'Segoe UI',sans-serif;font-weight:700;font-size:1.35em;margin:2.2rem 0 .8rem;color:#212529;letter-spacing:-.01em}
+.gb-note{font-size:.8em;color:#868e96;font-family:-apple-system,'Segoe UI',sans-serif;line-height:1.5}
+.gb-pull{border-left:4px solid #212529;padding:.25rem 0 .25rem 1.25rem;margin:1.75rem 0;font-size:1.15em;font-style:italic;color:#495057}
+.gb-related{background:#eef6ff;border:1px solid #b6d4f0;border-radius:12px;padding:1.1rem 1.4rem;margin:1.5rem 0;font-family:-apple-system,'Segoe UI',sans-serif;font-size:.9em}
+.gb-related a{color:#0b5394}
+.gb-warn{background:#fff8f0;border:1px solid #f0d9b5;border-radius:10px;padding:1rem 1.25rem;margin:1.25rem 0;font-size:.92em}
+.gb-stats{display:grid;gap:1rem;grid-template-columns:repeat(auto-fit,minmax(11rem,1fr));margin:1.4rem 0 1.8rem}
+.gb-stat{background:#f8f9fa;border:1px solid #dee2e6;border-radius:10px;padding:.9rem 1rem;font-family:-apple-system,'Segoe UI',sans-serif}
+.gb-stat b{display:block;font-size:1.35em;color:#212529;font-family:Georgia,serif}
+.gb-stat span{display:block;font-size:.76em;color:#868e96;margin-top:.2rem;line-height:1.4}
+.gb-stats>.google-auto-placed,.gb-stats>ins.adsbygoogle{grid-column:1/-1;order:99;width:100%;margin:.4rem 0}
+.gs-head-order>.google-auto-placed,.gs-head-order>ins.adsbygoogle{order:99}
+
+.post-body .tw{overflow-x:auto;margin:1.1rem 0}
+.post-body table{display:block;overflow-x:auto;max-width:100%;width:max-content;
+ min-width:100%;border-collapse:collapse;font-size:.86rem}
+.post-body thead th,.post-body tr:first-child th{background:#111;color:#fff;font-weight:700;
+ text-align:right;vertical-align:bottom;padding:.6rem .7rem;border:1px solid #111;
+ white-space:normal;overflow-wrap:normal;word-break:keep-all;min-width:5.5rem}
+.post-body thead th:first-child,.post-body tr:first-child th:first-child{text-align:left}
+.post-body td{border:1px solid #d9d9d9;padding:.5rem .7rem;text-align:right;
+ font-variant-numeric:tabular-nums;white-space:nowrap;color:#111;background:#fff}
+.post-body td:first-child{text-align:left;white-space:normal;min-width:8rem}
+.post-body tbody tr:nth-child(even) td{background:#fafafa}
+</style>
+
+<div class="gs-head-order" style="display:flex;flex-direction:column">
+<p class="standfirst" style="order:4;font-size:1.1em;color:#495057"><em>Seven small repositories turn pump crawls, regulator lists, PPAC tables and stated assumptions into data and models you can run, each built for a different question about India&rsquo;s fuel and power. This guide shows what each one does, the command to start with, and the limit its own guide found.</em></p>
+<div class="topnav-index-link" style="order:1;font-size:.82em;margin:6px 0 14px"><a href="https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html" style="color:#0b5394;text-decoration:none">&larr; All Articles (Index)</a></div>
+<div class="gb-kicker" style="order:2">Open-Source Tools &middot; 12 November 2026</div>
+<h1 style="order:3;font-family:-apple-system,'Segoe UI',sans-serif;font-weight:800;font-size:2em;line-height:1.2;letter-spacing:-.02em;margin:.25rem 0 1rem">Seven Open-Source Tools for India&rsquo;s Fuel and Power Data: Petrol Pumps, CNG Areas, Ethanol Blends, Used Oil and Discom Debt, and Which One to Use</h1>
+</div>
+
+<a href="#" id="gs-skip-link" class="gs-skip-link" style="position:absolute;left:-9999px;top:auto;background:#1a1a1a;color:#fff;padding:.6rem 1rem;z-index:1000;border-radius:4px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.85rem">Skip to article content</a>
+<style>.gs-skip-link:focus{left:8px!important;top:8px!important}
+.gs-a11y-bar{display:flex;align-items:center;gap:.55rem;flex-wrap:wrap;background:#f4f5f7;border:1px solid #dfe3e8;border-radius:8px;padding:.55rem .8rem;margin:10px 0 16px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
+.gs-a11y-bar .gs-a11y-label{font-size:.68rem;font-weight:700;letter-spacing:.08em;color:#666;text-transform:uppercase;margin-right:.15rem}
+.gs-a11y-bar button{cursor:pointer;border:1px solid #c7cbd1;background:#fff;color:#1a1a1a;border-radius:5px;padding:.32rem .65rem;font-family:inherit;line-height:1}
+.gs-a11y-bar button.gs-a11y-fs{font-weight:700;min-width:2rem;text-align:center}
+.gs-a11y-bar button.gs-a11y-fs[data-size="sm"]{font-size:.8rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="md"]{font-size:1rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="lg"]{font-size:1.2rem}
+.gs-a11y-bar button.gs-a11y-fs[aria-pressed="true"]{background:#1a1a1a;color:#fff;border-color:#1a1a1a}
+.gs-a11y-bar button:hover{border-color:#8a4b08}
+.gs-a11y-bar button:focus-visible{outline:2px solid #8a4b08;outline-offset:1px}
+.gs-a11y-bar .gs-a11y-sep{width:1px;align-self:stretch;background:#dfe3e8;margin:0 .1rem}</style>
+<div class="gs-a11y-bar" role="group" aria-label="Accessibility controls">
+<span class="gs-a11y-label">Text Size</span>
+<button type="button" class="gs-a11y-fs" data-size="sm" aria-pressed="false" aria-label="Small text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="md" aria-pressed="true" aria-label="Medium text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="lg" aria-pressed="false" aria-label="Large text">A</button>
+<span class="gs-a11y-sep"></span>
+<button type="button" id="gs-a11y-listen" aria-label="Read this article aloud">&#128266; Listen</button>
+<button type="button" id="gs-a11y-stop" aria-label="Stop reading aloud">&#9632; Stop</button>
+</div>
+<script>(function(){
+var KEY='gs-a11y-fontsize', SIZES={sm:'0.92',md:'1',lg:'1.15'};
+function pb(){return document.querySelector('.post-body')||document.querySelector('.artx,.mdrx');}
+function apply(sz){
+  var el=pb(); if(!el||!SIZES[sz]) return;
+  el.style.fontSize=SIZES[sz]+'em';
+  var btns=document.querySelectorAll('.gs-a11y-fs');
+  for(var i=0;i<btns.length;i++){
+    var on=btns[i].getAttribute('data-size')===sz;
+    btns[i].setAttribute('aria-pressed', on?'true':'false');
+  }
+  try{localStorage.setItem(KEY,sz);}catch(e){}
+}
+var fsBtns=document.querySelectorAll('.gs-a11y-fs');
+for(var j=0;j<fsBtns.length;j++){
+  fsBtns[j].addEventListener('click',(function(b){return function(){apply(b.getAttribute('data-size'));};})(fsBtns[j]));
+}
+var saved; try{saved=localStorage.getItem(KEY);}catch(e){}
+apply(saved&&SIZES[saved]?saved:'md');
+
+var listenBtn=document.getElementById('gs-a11y-listen'), stopBtn=document.getElementById('gs-a11y-stop');
+if(listenBtn){
+  listenBtn.addEventListener('click', function(){
+    if(!('speechSynthesis' in window)){ alert('Text-to-speech is not supported in this browser.'); return; }
+    window.speechSynthesis.cancel();
+    var src=pb(); if(!src) return;
+    var clone=src.cloneNode(true);
+    var strip=clone.querySelectorAll('script,style,svg');
+    for(var k=0;k<strip.length;k++){ strip[k].parentNode.removeChild(strip[k]); }
+    var text=clone.textContent.replace(/\s+/g,' ').trim();
+    if(!text) return;
+    var chunks=text.match(/[\s\S]{1,180}(?:[.!?]|$)/g)||[text];
+    var idx=0;
+    function speakNext(){
+      if(idx>=chunks.length) return;
+      var u=new SpeechSynthesisUtterance(chunks[idx]);
+      u.onend=function(){ idx++; speakNext(); };
+      window.speechSynthesis.speak(u);
+    }
+    speakNext();
+  });
+}
+if(stopBtn){
+  stopBtn.addEventListener('click', function(){
+    if('speechSynthesis' in window) window.speechSynthesis.cancel();
+  });
+}
+var skip=document.getElementById('gs-skip-link');
+if(skip){
+  skip.addEventListener('click', function(ev){
+    ev.preventDefault();
+    var h=document.querySelector('.post-body h1')||document.querySelector('.artx h1,.mdrx h1,h1');
+    if(h){ h.setAttribute('tabindex','-1'); h.focus(); h.scrollIntoView(); }
+  });
+}
+})();</script>
+<style>.goog-te-menu-frame{max-width:340px!important;max-height:70vh!important;overflow:auto!important;box-shadow:0 6px 24px rgba(0,0,0,.25)!important}</style><div id="google_translate_element" style="margin:8px 0 16px;"></div><script type="text/javascript">function googleTranslateElementInit(){new google.translate.TranslateElement({pageLanguage:"en",includedLanguages:"hi,bn,ta,te,mr,gu,kn,ml,pa,or,as,ur,sa,ne,sd",layout:google.translate.TranslateElement.InlineLayout.SIMPLE,autoDisplay:false},"google_translate_element");}</script><script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+
+<div class="gb-stats">
+<div class="gb-stat"><b>7 repos</b><span>covering petrol pumps, gas areas, ethanol blends, PPAC tables, running costs, used oil and discom debt</span></div>
+<div class="gb-stat"><b>21%</b><span>of rows in the raw pump crawl (16 Oct 2026 file) are duplicates; remove them before counting anything</span></div>
+<div class="gb-stat"><b>100 tables</b><span>from PPAC&rsquo;s Ready Reckoner (FY2025-26 H1 edition) as CSV, which still need cleaning</span></div>
+<div class="gb-stat"><b>4% vs about 7%</b><span>the E20 mileage drop two models assume, against the extra litres implied by energy content alone</span></div>
+</div>
+
+<p>Questions about India&rsquo;s fuel and power systems often start with a simple count or sum. Where are the petrol pumps? Which gas company may sell CNG at this one? What does E20 do to oil-company income, or to the cost of driving a kilometre? How fast does a distribution company&rsquo;s debt grow if nothing changes? The seven open-source repositories on this page each answer one of these questions from public data, or from assumptions you can see and edit.</p>
+<p>They are for energy analysts, planners of CNG and EV-charging sites, students, journalists and compliance teams. Some are datasets you load and clean, some are models you run, and one is a working backend for tracking used oil. Start with the table, then read the section on the tool you pick, including its main limitation.</p>
+
+<h2 class="gb-h2">Which tool for which job</h2>
+<div class="gb-tblwrap"><table class="gb-table"><thead><tr><th>Tool</th><th>What it does</th><th>Use it when</th></tr></thead><tbody><tr><td>fuel-retail-outlets</td><td>A crawl of petrol-pump records from a public API, with extractors, a map and a state gap-analysis heatmap</td><td>You need a pump-level list with company, fuel type and location, to count or map outlets</td></tr><tr><td>cng-cgd-retail-outlet-mapping</td><td>Links each petrol pump to the city gas distribution area and company authorised in its district</td><td>You want to know which gas company may supply CNG at a given pump</td></tr><tr><td>india-omc-fuel-fleet-model</td><td>Small Python models of oil-company pump income at E20, E25 and E30, and of the active vehicle fleet</td><td>You want to test the ethanol-blend argument with assumptions you can edit</td></tr><tr><td>ppac-ready-reckoner-data</td><td>PPAC Ready Reckoner tables extracted from PDF into CSV, with the extraction script</td><td>You need refining margins, ethanol blending or fuel sales as tables, not a PDF</td></tr><tr><td>vehicle_fuel_mileage</td><td>A formula-driven Excel model of cost per km for petrol (E20), diesel, CNG and EVs in six cities</td><td>You want to compare running costs by fuel and city, with your own prices</td></tr><tr><td>uco-ulo-tracking</td><td>A FastAPI and SQLite backend that tracks used cooking oil and used lubricating oil from source to buyer</td><td>You are designing a traceability or used-oil EPR compliance system</td></tr><tr><td>discom-debt-and-revenue-models</td><td>An archived one-file calculator of distribution-company debt under five scenarios</td><td>You want to show which levers move discom debt, and what each does to a household bill</td></tr></tbody></table></div>
+<p class="gb-note">Each section below gives the tool&rsquo;s data sources and outputs, one quick-start command copied from its guide, the repo link and its main limitation.</p>
+
+<h2 class="gb-h2">The tools, one by one</h2>
+<h3 style="font-family:-apple-system,'Segoe UI',sans-serif;font-weight:700;font-size:1.12em;margin:1.8rem 0 .5rem;color:#212529">fuel-retail-outlets: where the petrol pumps are</h3>
+<p>This repo collects Indian petrol, diesel and CNG outlet listings from public sources: the SSRI petrol-pump API, the BPCL dealership locator and CashAtPOS. The committed crawl is a gzipped JSON-lines file dated 16 October 2026. Two small web apps show the outlets on a map and draw a state-level coverage heatmap.</p>
+<p>The raw crawl must be deduplicated before use; the worked example below shows how and what changes. The data is indicative, for planning and visualisation, and the outlet records are public business listings.</p>
+<p><strong>Quick start.</strong> Serve the gap-analysis heatmap, then visit http://localhost:8001 (the page loads its map tiles from the internet; the guide did not open it):</p>
+<pre style="background:#f6f3ea;color:#111;border:1px solid #dee2e6;border-radius:8px;padding:10px 12px;overflow-x:auto;font-size:.82rem;line-height:1.45;white-space:pre"><code>cd fuel-station-gap-analysis &amp;&amp; python3 -m http.server 8001</code></pre>
+<p><strong>Code:</strong> <a href="https://github.com/herrrickshaw/fuel-retail-outlets">github.com/herrrickshaw/fuel-retail-outlets</a></p>
+<p><strong>Main limitation.</strong> It is not an official registry. Even after cleaning, the guide counted 82,602 outlets against a PPAC baseline of 103,450 (May 2026) quoted in the repo&rsquo;s notes, about 80% coverage. State names come in 53 spellings, and all 9,007 Nayara outlets have the state &ldquo;unknown&rdquo;.</p>
+<h3 style="font-family:-apple-system,'Segoe UI',sans-serif;font-weight:700;font-size:1.12em;margin:1.8rem 0 .5rem;color:#212529">cng-cgd-retail-outlet-mapping: which gas company may supply each pump</h3>
+<p>The repo parses the regulator PNGRB&rsquo;s list of authorised City Gas Distribution geographical areas (309 areas, 58 companies). It assigns each petrol pump to a district by point-in-polygon and publishes the result as a table of outlets plus a self-contained map page that works offline.</p>
+<p>The table flags pumps already equipped for CNG, so you can see the CNG share by state or by authorised company. The guide&rsquo;s run had 17 of 17 tests passing, and the headline counts reproduced.</p>
+<p><strong>Quick start.</strong> Summarise the linkage table: outlet count, link status and CNG-equipped outlets:</p>
+<pre style="background:#f6f3ea;color:#111;border:1px solid #dee2e6;border-radius:8px;padding:10px 12px;overflow-x:auto;font-size:.82rem;line-height:1.45;white-space:pre"><code>python3 - &lt;&lt;&#x27;E&#x27;
+import csv,gzip,collections
+rows=list(csv.DictReader(gzip.open(&#x27;data/outlets_cgd.csv.gz&#x27;,&#x27;rt&#x27;)))
+print(len(rows));print(collections.Counter(r[&#x27;cgd_status&#x27;] for r in rows))
+print(sum(r[&#x27;has_cng&#x27;]==&#x27;True&#x27; for r in rows))
+E</code></pre>
+<p><strong>Code:</strong> <a href="https://github.com/herrrickshaw/cng-cgd-retail-outlet-mapping">github.com/herrrickshaw/cng-cgd-retail-outlet-mapping</a></p>
+<p><strong>Main limitation.</strong> Authorisation is not pipeline reach: the list does not say how far a company&rsquo;s network has actually been built. The data is a 22 July 2026 snapshot running through bidding round 12A. The full pipeline cannot be rerun from a fresh clone, because a 47 MB district map and the regulator PDF are not committed.</p>
+<h3 style="font-family:-apple-system,'Segoe UI',sans-serif;font-weight:700;font-size:1.12em;margin:1.8rem 0 .5rem;color:#212529">india-omc-fuel-fleet-model: ethanol blends and pump income</h3>
+<p>The repo models the retail margin of India&rsquo;s oil marketing companies on petrol and diesel from PPAC reference data, and what changes at E20, E25 and E30. The mechanism: blended fuel has less energy per litre, so drivers buy more litres, which raises pump throughput and so oil-company income.</p>
+<p>Other scripts estimate how many vehicles are actually driven from fuel sales, compare the energy content of blends and split the extra spend between excise, VAT, dealers and oil companies. The main scripts use only the Python standard library; in the guide&rsquo;s run the main model took 0.05 seconds. Results land in outputs/ as CSV and Markdown.</p>
+<p><strong>Quick start.</strong> Run the profitability and blend-scenario model (five lines of output, plus files under outputs/):</p>
+<pre style="background:#f6f3ea;color:#111;border:1px solid #dee2e6;border-radius:8px;padding:10px 12px;overflow-x:auto;font-size:.82rem;line-height:1.45;white-space:pre"><code>python3 omc_model.py</code></pre>
+<p><strong>Code:</strong> <a href="https://github.com/herrrickshaw/india-omc-fuel-fleet-model">github.com/herrrickshaw/india-omc-fuel-fleet-model</a></p>
+<p><strong>Main limitation.</strong> The README calls the headline results illustrative and the oil-company margin the key lever. The model assumes a 4% mileage drop at E20, while the energy-content script implies about 6.8% less energy per litre and 7.3% more litres; that choice drives the extra-income result.</p>
+<h3 style="font-family:-apple-system,'Segoe UI',sans-serif;font-weight:700;font-size:1.12em;margin:1.8rem 0 .5rem;color:#212529">ppac-ready-reckoner-data: PPAC&rsquo;s statistics as CSV</h3>
+<p>The repo holds the tables of the PPAC Ready Reckoner, FY2025-26 H1 edition, as 100 CSV files, from Table 1.1 (economy indicators) to Table 6.10 (ethanol blending). They include gross refining margins by refinery and state-wise fuel sales. An index.csv maps each file to its table number, caption and page.</p>
+<p>The script extract_rr.py rebuilds the CSVs from a Ready Reckoner PDF using pdfplumber, so it can be pointed at the next edition. In the guide&rsquo;s run all 100 CSVs loaded in pandas.</p>
+<p><strong>Quick start.</strong> Read one table, gross refining margins by refiner and financial year:</p>
+<pre style="background:#f6f3ea;color:#111;border:1px solid #dee2e6;border-radius:8px;padding:10px 12px;overflow-x:auto;font-size:.82rem;line-height:1.45;white-space:pre"><code>python3 -c &quot;import pandas as pd;print(pd.read_csv(&#x27;annual_fy2025-26_h1/csv/Table_4.7_grossrefiningmargins_grm_ofrefineries.csv&#x27;,skiprows=2).head(8))&quot;</code></pre>
+<p><strong>Code:</strong> <a href="https://github.com/herrrickshaw/ppac-ready-reckoner-data">github.com/herrrickshaw/ppac-ready-reckoner-data</a></p>
+<p><strong>Main limitation.</strong> The tables are machine-extracted and need cleaning: some state names lost their spaces, a Grand Total row is shifted one column, &ldquo;**&rdquo; and &ldquo;#&rdquo; source markers sit in the data, and numbers use Indian digit grouping. Only one edition is covered, the PDF is not in the repo, and the guide found no PPAC licence terms in it.</p>
+<h3 style="font-family:-apple-system,'Segoe UI',sans-serif;font-weight:700;font-size:1.12em;margin:1.8rem 0 .5rem;color:#212529">vehicle_fuel_mileage: running cost per km by fuel</h3>
+<p>The repo builds an 11-sheet Excel cost model: cities, cost per km, ethanol impact, total cost of ownership, tax structure, fleet sales, an oil-company price board and exchequer revenue, on a July 2026 price basis. You choose a city, change inputs such as the E20 mileage drop or usage, and the workbook reprices.</p>
+<p>A second script extracts and analyses 303 certified car fuel-efficiency declarations from the SIAM PDF, which the model uses to calibrate its mileage assumptions. The guide&rsquo;s run had 19 tests passing and all 21 built-in checks reading PASS after recalculation.</p>
+<p><strong>Quick start.</strong> Build the workbook, then recalculate it so the values can be read (recalc.py uses LibreOffice; you can also open the file in Excel):</p>
+<pre style="background:#f6f3ea;color:#111;border:1px solid #dee2e6;border-radius:8px;padding:10px 12px;overflow-x:auto;font-size:.82rem;line-height:1.45;white-space:pre"><code>python scripts/build_model.py
+python scripts/recalc.py outputs/EV_CNG_Diesel_Ethanol_Vehicle_Cost_Model.xlsx</code></pre>
+<p><strong>Code:</strong> <a href="https://github.com/herrrickshaw/vehicle_fuel_mileage">github.com/herrrickshaw/vehicle_fuel_mileage</a></p>
+<p><strong>Main limitation.</strong> Prices are a July 2026 snapshot, so update them before drawing conclusions. The workbook has no values until it is recalculated. The declaration data is for passenger vehicles as on 1 April 2020, with only 11 CNG, 8 hybrid and 1 electric entry, so those averages are thin.</p>
+<h3 style="font-family:-apple-system,'Segoe UI',sans-serif;font-weight:700;font-size:1.12em;margin:1.8rem 0 .5rem;color:#212529">uco-ulo-tracking: chain of custody for used cooking and lubricating oil</h3>
+<p>A FastAPI service over SQLite, with a React front end, tracks used cooking oil and used lubricating oil from generator to buyer: collection manifests, lots, processing batches, dispatches and shipments, with the quality fields regulators care about. Named integrity checks flag things like suspiciously fresh cooking oil, a generator collecting over capacity, duplicate manifests, a lapsed registration or a broken mass balance. A SHA-256 hash-chained ledger makes edits to logged records detectable.</p>
+<p>A used-oil EPR module codes the arithmetic of the HOWM 2023 amendment: the producer target ladder, the Y-2 basis, certificate weightage and the purchase cap. Every threshold is an editable default served at /api/compliance/parameters. On first start the API seeds six months of mock data with planted anomalies, so each check has something to show.</p>
+<p><strong>Quick start.</strong> From the backend/ folder, start the API (it seeds the mock data on first run):</p>
+<pre style="background:#f6f3ea;color:#111;border:1px solid #dee2e6;border-radius:8px;padding:10px 12px;overflow-x:auto;font-size:.82rem;line-height:1.45;white-space:pre"><code>uvicorn app.main:app --port 8000
+# interactive docs: http://127.0.0.1:8000/docs</code></pre>
+<p><strong>Code:</strong> <a href="https://github.com/herrrickshaw/uco-ulo-tracking">github.com/herrrickshaw/uco-ulo-tracking</a></p>
+<p><strong>Main limitation.</strong> Everything the guide showed is mock data. Several regulatory defaults are marked VERIFY or PLACEHOLDER, a flag is a prompt to investigate rather than a finding, and the ledger is tamper-evident on one node only, not tamper-proof. It is not legal or regulatory advice.</p>
+<h3 style="font-family:-apple-system,'Segoe UI',sans-serif;font-weight:700;font-size:1.12em;margin:1.8rem 0 .5rem;color:#212529">discom-debt-and-revenue-models: a debt scenario calculator</h3>
+<p>One standard-library Python script models a distribution company&rsquo;s year: energy billed after losses, revenue collected, cost of supply, subsidy actually received, interest, and closing debt. It compares five scenarios (status quo, tariff hikes, loss and collection reform, a combined UDAY-style path and an aggressive turnaround) and prints the household bill for each.</p>
+<p>Every input can be changed with a command-line flag, and --json gives machine-readable output. On the default, illustrative inputs only the aggressive scenario cut debt in the guide&rsquo;s run, at a 50.4% rise in the household bill. The repository is archived.</p>
+<p><strong>Quick start.</strong> Run the default illustrative company (the guide used Python 3.13):</p>
+<pre style="background:#f6f3ea;color:#111;border:1px solid #dee2e6;border-radius:8px;padding:10px 12px;overflow-x:auto;font-size:.82rem;line-height:1.45;white-space:pre"><code>python3.13 discom_debt_calculator.py</code></pre>
+<p><strong>Code:</strong> <a href="https://github.com/herrrickshaw/discom-debt-and-revenue-models">github.com/herrrickshaw/discom-debt-and-revenue-models</a></p>
+<p><strong>Main limitation.</strong> It is a conceptual calculator, not a forecast: flat cost growth, one blended tariff, no demand response and a fixed subsidy. It crashes at start-up on Python 3.14 because of a bare percent sign in a help string. Its own interpretation text says operational reform cuts debt, but on the default inputs reform alone ends with more debt than a tariff-only path.</p>
+
+<h2 class="gb-h2">Worked example: counting petrol pumps by state (fuel-retail-outlets)</h2>
+<p>This follows the fuel-retail-outlets guide. It read the committed crawl dated 16 October 2026 with the Python standard library on 19 October 2026. Nothing needs installing and no network call is made. The counts describe that crawl, not today&rsquo;s network.</p>
+<p><strong>Step 1.</strong> Get the repository.</p>
+<pre style="background:#f6f3ea;color:#111;border:1px solid #dee2e6;border-radius:8px;padding:10px 12px;overflow-x:auto;font-size:.82rem;line-height:1.45;white-space:pre"><code>git clone https://github.com/herrrickshaw/fuel-retail-outlets.git
+cd fuel-retail-outlets</code></pre>
+<p><strong>Step 2.</strong> Load the crawl and deduplicate it on name, address, company and coordinates, the way the repo&rsquo;s notes describe:</p>
+<pre style="background:#f6f3ea;color:#111;border:1px solid #dee2e6;border-radius:8px;padding:10px 12px;overflow-x:auto;font-size:.82rem;line-height:1.45;white-space:pre"><code>python3 -I - &lt;&lt;&#x27;E&#x27;
+import gzip,json,collections
+p=&#x27;api-data-integration/outlet_data_ssri_complete/ssri_pumps_raw_20261016.jsonl.gz&#x27;
+rows=[json.loads(l) for l in gzip.open(p,&#x27;rt&#x27;) if l.strip()]
+k={}
+for r in rows:
+    key=(r[&#x27;name&#x27;],r[&#x27;address&#x27;],r[&#x27;company&#x27;],r[&#x27;latitude&#x27;],r[&#x27;longitude&#x27;])
+    if key not in k or r[&#x27;id&#x27;]&gt;k[key][&#x27;id&#x27;]: k[key]=r
+u=list(k.values())
+print(len(rows),len(u),len(rows)-len(u))
+print(collections.Counter(r[&#x27;company&#x27;] for r in u).most_common(5))
+E</code></pre>
+<p>The guide reported <code>104945 82602 22343</code>: 104,945 rows, 82,602 outlets after deduplication and 22,343 duplicate rows removed (21.3%). The company counts that follow were BPCL 25,795, HPCL 23,543, IOCL 19,446, Nayara 9,007 and Unknown 2,504.</p>
+<p><strong>Step 3.</strong> See why the step matters. Delhi, raw against cleaned:</p>
+<pre style="background:#f6f3ea;color:#111;border:1px solid #dee2e6;border-radius:8px;padding:10px 12px;overflow-x:auto;font-size:.82rem;line-height:1.45;white-space:pre"><code>raw rows with state == &#x27;Delhi&#x27;  : 21,939
+  of which district &#x27;New Delhi&#x27; : 21,572, all IOCL-heavy
+  sitting on only 57 distinct coordinates (3,986 identical rows on each of several points)
+after dedup (name+address+company+lat+lon): 419</code></pre>
+<p>The repo&rsquo;s own notes document this, but the 16 October file is still raw, so you have to apply the step yourself. The guide&rsquo;s count of 82,602 differs slightly from the 82,609 in the notes&rsquo; earlier snapshot.</p>
+<p><strong>Step 4.</strong> Group the cleaned outlets by state and divide by the populations in the gap-analysis app&rsquo;s data.js. The guide&rsquo;s result:</p>
+<pre style="background:#f6f3ea;color:#111;border:1px solid #dee2e6;border-radius:8px;padding:10px 12px;overflow-x:auto;font-size:.82rem;line-height:1.45;white-space:pre"><code>state             pumps   per 100k people   per 1000 km2
+Uttar Pradesh      8,915        4.5              37.0
+Maharashtra        7,317        6.5              23.8
+Tamil Nadu         5,812        8.1              44.7
+Madhya Pradesh     5,320        7.3              17.3
+Karnataka          5,268        8.6              27.5
+-- lowest (states with 100+ pumps) --
+Delhi                419        2.5             282.5
+Bihar              2,779        2.7              29.5
+West Bengal        2,522        2.8              28.4
+Jharkhand          1,109        3.4              13.9
+Assam              1,108        3.6              14.1
+-- highest --
+Arunachal Pradesh    201       14.6              2.4
+Punjab             3,204       11.5              63.6
+Haryana            2,855       11.3              64.6
+Telangana          3,609       10.3              32.2</code></pre>
+<p><strong>How to read it.</strong> Delhi&rsquo;s low per-person figure is a dense city counted against its whole population, not a real gap. Only outlets whose state name could be matched (72,070 in the guide&rsquo;s check) feed this table, so states with spelling variants are understated and Nayara&rsquo;s outlets are missing. The populations are older census-based numbers. Treat the table as a first screen, not a verdict.</p>
+
+<h2 class="gb-h2">What these tools do not do</h2>
+<ul>
+<li><strong>No official registers.</strong> The pump list and the gas-area table are indicative planning data. PPAC publishes the official outlet totals, and the guide says to check with the regulator before acting on any authorisation.</li>
+<li><strong>No pipeline or supply data.</strong> An outlet inside an authorised gas area can be supplied by the authorised company, but the data does not say whether the pipe has reached it.</li>
+<li><strong>No live prices.</strong> Pump prices in the crawl, the cost model&rsquo;s fuel prices and the PPAC tables are snapshots (July 2026 prices; the FY2025-26 H1 Ready Reckoner).</li>
+<li><strong>No forecasts.</strong> The oil-company projection, the discom scenarios and the cost model run on stated assumptions. The guides call them illustrative or conceptual, not forecasts or investment advice.</li>
+<li><strong>No real compliance data.</strong> uco-ulo-tracking runs on seeded mock data with fictional names, and its regulatory thresholds must be checked against the official notifications before anyone relies on them.</li>
+<li><strong>No audited tables.</strong> The PPAC CSVs are extracted from PDF as printed and are not corrected or validated.</li>
+<li><strong>Not every pipeline reruns from a clone.</strong> The gas-area pipeline needs files that are not committed, and the PPAC extractor needs the source PDF.</li>
+</ul>
+
+<h2 class="gb-h2">Where the guides disagree</h2>
+<ul>
+<li><strong>Outlet counts.</strong> The fuel-retail-outlets guide gets 82,602 outlets after deduplicating the 16 October 2026 crawl. The cng-cgd guide&rsquo;s linkage table, built from a 22 July 2026 snapshot, has 82,593. The repo notes&rsquo; earlier figure is 82,609. The crawl dated 16 October 2026 is the newest.</li>
+<li><strong>Raw source size.</strong> The cng-cgd guide says the SSRI source has grown to 107,380 raw records. The fuel-retail-outlets guide counts 104,945 rows in the 16 October 2026 file. The guides do not reconcile the two.</li>
+<li><strong>CNG-equipped outlets.</strong> 11,198 in the file the cng-cgd guide read, against 11,194 in that repo&rsquo;s README; the guide puts the gap down to a later edit of the table.</li>
+<li><strong>The E20 mileage drop.</strong> Both the oil-company model and the running-cost workbook default to 4%. The energy-content comparison implies about 6.8% less energy per litre. Both models let you change it, and the result moves with it.</li>
+</ul>
+
+<h2 class="gb-h2">Sources and caveats</h2>
+<div class="gb-card">
+<p class="gb-note" style="margin:0">This page replaces the seven separate how-to guides for these repositories, which were run between 19 and 29 October 2026 and published between 19 and 30 October 2026. Repositories: <a href="https://github.com/herrrickshaw/fuel-retail-outlets">github.com/herrrickshaw/fuel-retail-outlets</a>; <a href="https://github.com/herrrickshaw/cng-cgd-retail-outlet-mapping">github.com/herrrickshaw/cng-cgd-retail-outlet-mapping</a>; <a href="https://github.com/herrrickshaw/india-omc-fuel-fleet-model">github.com/herrrickshaw/india-omc-fuel-fleet-model</a>; <a href="https://github.com/herrrickshaw/ppac-ready-reckoner-data">github.com/herrrickshaw/ppac-ready-reckoner-data</a>; <a href="https://github.com/herrrickshaw/vehicle_fuel_mileage">github.com/herrrickshaw/vehicle_fuel_mileage</a>; <a href="https://github.com/herrrickshaw/uco-ulo-tracking">github.com/herrrickshaw/uco-ulo-tracking</a>; <a href="https://github.com/herrrickshaw/discom-debt-and-revenue-models">github.com/herrrickshaw/discom-debt-and-revenue-models</a>. Underlying data, as recorded by the repos: the SSRI petrol-pump API, the BPCL dealership locator and CashAtPOS; PNGRB&rsquo;s list of authorised City Gas Distribution areas; PPAC&rsquo;s Ready Reckoner and reference data; SIAM fuel-efficiency declarations. Figures quoted here are those the guides reported on the dates given, not current values. Not investment, legal or regulatory advice.</p>
+</div>
+
+<div class="gb-related">
+<strong>Related on this blog:</strong>
+<a href="https://masaladeutsch.blogspot.com/2026/07/ethanol-blending-omc-books-e20-today-vs.html">Ethanol Blending &amp; the OMC Books — E20 today vs E30 + SGST</a>
+<a href="https://masaladeutsch.blogspot.com/2026/08/blending-on-budget-energy-density-and.html">Blending on a Budget: Energy Density and Cost Per Kilometre, Across Four Fuel Pairs</a>
+<a href="https://masaladeutsch.blogspot.com/2026/08/indias-used-oil-epr-wants-half-of-all.html">India&#x27;s Used-Oil EPR Wants Half of All Lubricant Recycled by 2030. So Far, 119 Producers Have Actually Registered.</a>
+<a href="https://masaladeutsch.blogspot.com/2026/08/discom-debt-relief-token-charge.html">DISCOM Debt Relief — Token Charge Calculator</a>
+<a href="https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html">All articles (index)</a>
+</div>
+
+<p class="disclaimer" data-gs-ai-disclosure-v1="1"><strong>About this article:</strong> Researched, written and edited by Umashankar Triplicane Dwarakanathan, with AI research assistance; every figure is meant to trace to the primary source cited. See the <a href="https://masaladeutsch.blogspot.com/p/disclaimer.html">Editorial Policy</a> for how sourcing, AI use and corrections work.</p>
+
+</div>
+
+<div id="gs-idx"></div><script defer="defer" src="https://herrrickshaw.github.io/masaladeutsch/accordion.js"></script>

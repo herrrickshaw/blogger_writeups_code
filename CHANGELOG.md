@@ -18674,3 +18674,40 @@ scheduled sync
 **No longer published** (drafted or deleted; file kept in `posts/`)
 
 - `how-to-use-cbsepaperpatterns-check` — How to use CBSE_paper_patterns: check which Class 12 topics keep coming back at high marks
+
+## 2026-11-13T03:39:53+05:30 — 516 posts live
+
+**Added**
+
+- `eight-open-source-tools-for-indias` **v1.0.0** — Eight Open-Source Tools for India’s Trade Data, From HS Chapters to Chemical Codes and Forex, and Which One Answers Which Question (37,673 bytes)
+- `nine-open-source-tools-for-sizing-and` **v1.0.0** — Nine Open-Source Tools for Sizing and Costing India’s Biofuel, Gas and Refining Plants, and Which One to Start With (36,135 bytes)
+- `seven-open-source-tools-for-stock` **v1.0.0** — Seven Open-Source Tools for Stock-Market Research, From Ticker Lists to Valuation Models, and Where Each One Stops (33,987 bytes)
+- `two-open-source-health-prototypes-icu` **v1.0.0** — Two Open-Source Health Prototypes, an ICU Vitals Dashboard and a Capsule-Endoscopy Screener, and Why Neither Is a Medical Device (23,902 bytes)
+- `eight-open-source-tools-for-tracking` **v1.0.0** — Eight Open-Source Tools for Tracking India’s Gazette, Parliament, Clearances, Incentives and Regulators, and What Each One Answers (38,027 bytes)
+- `seven-open-source-tools-for-indias-fuel` **v1.0.0** — Seven Open-Source Tools for India’s Fuel and Power Data: Petrol Pumps, CNG Areas, Ethanol Blends, Used Oil and Discom Debt, and Which One to Use (34,701 bytes)
+- `thirteen-small-open-source-tools-for` **v1.0.0** — Thirteen Small Open-Source Tools for Developers and AI Users, From a Local Claude Fallback to an LFS Duplicate Audit, and What Each One Is For (44,667 bytes)
+- `five-open-source-control-simulators-for` **v1.0.0** — Five Open-Source Control Simulators for EV Batteries, Hydrogen Electrolysers and Prosthetic Hands, and Which to Start With (29,086 bytes)
+- `three-open-source-tools-for-indias` **v1.0.0** — Three Open-Source Tools for India’s Mandi and Grain Data: Daily Prices, Monthly Arrivals Since 2019, and the MSP Question (28,004 bytes)
+- `indias-top-law-firms-have-signed-up-for` **v1.0.0** — India's Top Law Firms Have Signed Up for AI. Most of the Fake Citations India's Courts Have Caught Came From the Bench (36,160 bytes)
+- `india-ec-approval-funnel-parivesh-20` **v1.0.0** — India EC Approval Funnel — PARIVESH 2.0 (22,767 bytes)
+- `cold-chain-fuel-outlet-integrated-map` **v1.0.0** — Cold-Chain × Fuel-Outlet Integrated Map (Part 3 of 3) (23,135 bytes)
+- `india-environmental-clearances-state` **v1.0.0** — India Environmental Clearances — State × Sub-sector Dashboard (20,062 bytes)
+- `india-fuel-retail-outlets-82k-geocoded` **v1.0.0** — India Fuel Retail Outlets — 82k Geocoded Map (Part 2 of 3) (23,087 bytes)
+
+**Versions**
+
+- `india-doesnt-have-one-quality-regulator` **1.1.1 → 2.0.0** (MAJOR) — figures changed (+27/-0 distinct numbers)
+- `indias-used-oil-epr-wants-half-of-all` **3.1.1 → 4.0.0** (MAJOR) — figures changed (+13/-0 distinct numbers)
+- `re-spinning-charkha` **2.2.1 → 3.0.0** (MAJOR) — figures changed (+7/-0 distinct numbers)
+- `from-fuel-to-fibre-indias-textile` **3.2.1 → 4.0.0** (MAJOR) — figures changed (+9/-0 distinct numbers)
+- `iem-conversion-historical-performance` **2.1.1 → 3.0.0** (MAJOR) — figures changed (+4/-0 distinct numbers)
+- `where-indias-factories-actually-get` **3.1.1 → 4.0.0** (MAJOR) — figures changed (+2/-0 distinct numbers)
+
+**Changed**
+
+- `india-doesnt-have-one-quality-regulator` — 25,540 → 33,455 bytes (+7,915)
+- `indias-used-oil-epr-wants-half-of-all` — 30,438 → 34,979 bytes (+4,541)
+- `re-spinning-charkha` — 32,374 → 33,475 bytes (+1,101)
+- `from-fuel-to-fibre-indias-textile` — 40,096 → 41,677 bytes (+1,581)
+- `iem-conversion-historical-performance` — 25,106 → 26,232 bytes (+1,126)
+- `where-indias-factories-actually-get` — 47,717 → 48,843 bytes (+1,126)

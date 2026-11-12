@@ -4,14 +4,14 @@
   "url": "https://blog.vertistratsolution.com/2026/08/indias-used-oil-epr-wants-half-of-all.html",
   "slug": "indias-used-oil-epr-wants-half-of-all",
   "published": "2026-08-10T11:46:04.000+05:30",
-  "updated": "2026-10-01T08:39:11.000+05:30",
+  "updated": "2026-11-12T22:12:10.000+05:30",
   "labels": [
     "Industrial Policy",
     "Quality Standards & Certification",
     "Trade & Tariffs"
   ],
-  "bytes": 30438,
-  "sha256": "4b0ea5fee602639a4fb7c3957a17592db513592e85e4eaccbdbc2bf45888bc17",
+  "bytes": 34979,
+  "sha256": "c7cf9be6946f90581a534b00e707a816ff6420f3725b01470998b9a7e183a9e0",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.1.1",
+  "version": "4.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -266,6 +266,19 @@
         "https://masaladeutsch.blogspot.com/2026/08/indias-used-oil-epr-wants-half-of-all.html",
         "https://blog.vertistratsolution.com/2026/08/indias-used-oil-epr-wants-half-of-all.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "4.0.0",
+      "date": "2026-11-13T03:39:53+05:30",
+      "level": "major",
+      "reason": "figures changed (+13/-0 distinct numbers)",
+      "bytes": [
+        30438,
+        34979
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

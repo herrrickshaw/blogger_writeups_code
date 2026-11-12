@@ -4,13 +4,13 @@
   "url": "https://blog.vertistratsolution.com/2026/08/re-spinning-charkha.html",
   "slug": "re-spinning-charkha",
   "published": "2026-08-03T10:32:15.000+05:30",
-  "updated": "2026-11-07T08:56:50.000+05:30",
+  "updated": "2026-11-12T22:09:40.000+05:30",
   "labels": [
     "Energy & Fuels",
     "Textiles"
   ],
-  "bytes": 32374,
-  "sha256": "2e027ca15fc7a7202e41f07befdca863a77effee085f24c18dbbdea52c121697",
+  "bytes": 33475,
+  "sha256": "be0fc11788c68d99fac3d424477fada5d324520ed1ee8a8a15286632b7c4e049",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.2.1",
+  "version": "3.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -252,6 +252,19 @@
         "https://masaladeutsch.blogspot.com/2026/08/re-spinning-charkha.html",
         "https://blog.vertistratsolution.com/2026/08/re-spinning-charkha.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.0.0",
+      "date": "2026-11-13T03:39:53+05:30",
+      "level": "major",
+      "reason": "figures changed (+7/-0 distinct numbers)",
+      "bytes": [
+        32374,
+        33475
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

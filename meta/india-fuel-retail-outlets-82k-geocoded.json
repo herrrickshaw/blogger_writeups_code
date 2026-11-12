@@ -1,10 +1,10 @@
 {
   "id": "8473540333846382541",
   "title": "India Fuel Retail Outlets — 82k Geocoded Map (Part 2 of 3)",
-  "url": "https://masaladeutsch.blogspot.com/2026/07/india-fuel-retail-outlets-82k-geocoded.html",
+  "url": "https://blog.vertistratsolution.com/2026/07/india-fuel-retail-outlets-82k-geocoded.html",
   "slug": "india-fuel-retail-outlets-82k-geocoded",
   "published": "2026-07-22T05:30:00.000+05:30",
-  "updated": "2026-11-07T08:35:17.166+05:30",
+  "updated": "2026-11-07T08:35:17.000+05:30",
   "labels": [
     "City Gas Distribution",
     "Energy & Fuels",
@@ -24,40 +24,14 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.2.0",
+  "version": "1.0.0",
   "version_history": [
     {
       "version": "1.0.0",
-      "date": "2026-09-19T02:28:33+00:00",
+      "date": "2026-11-13T03:39:53+05:30",
       "level": "initial",
       "reason": "first snapshot",
-      "note": "publish 3: IOR/EOR recovery-factor piece, PMFBY who-pays-the-premium, Soil Health Card April-2023 seam. Republish 2: AT&C figures piece and coal-to-chemicals menu (fixed a stale cross-link phrase). All five carry the new 'What would fix this' section (house rule added to CLAUDE.md)."
-    },
-    {
-      "version": "1.1.0",
-      "date": "2026-10-01T09:03:45+05:30",
-      "level": "minor",
-      "reason": "forced via --as minor (figures changed (+0/-0 distinct numbers))",
-      "bytes": [
-        20748,
-        21969
-      ],
-      "url_changed": null,
-      "markers_changed": null,
-      "note": "Rule 8 retrofit: added What would fix this section"
-    },
-    {
-      "version": "1.2.0",
-      "date": "2026-11-07T09:12:26+05:30",
-      "level": "minor",
-      "reason": "forced via --as minor (figures changed (+7/-0 distinct numbers))",
-      "bytes": [
-        21969,
-        23087
-      ],
-      "url_changed": null,
-      "markers_changed": null,
-      "note": "November data refresh"
+      "note": ""
     }
   ]
 }

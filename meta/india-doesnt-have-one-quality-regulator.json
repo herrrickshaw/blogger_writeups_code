@@ -4,15 +4,15 @@
   "url": "https://blog.vertistratsolution.com/2026/09/india-doesnt-have-one-quality-regulator.html",
   "slug": "india-doesnt-have-one-quality-regulator",
   "published": "2026-09-24T11:31:15.000+05:30",
-  "updated": "2026-10-01T08:27:13.000+05:30",
+  "updated": "2026-11-12T21:55:41.000+05:30",
   "labels": [
     "Ease of Doing Business & Regulatory Reform",
     "Industrial Policy",
     "Quality Standards & Certification",
     "Trade & Tariffs"
   ],
-  "bytes": 25540,
-  "sha256": "0334bb8429bde550918ad0114292d65ffb948d28da2cd1961223bdcab3be4b73",
+  "bytes": 33455,
+  "sha256": "d08cb2b995d9d533cb98ce2008f45ffb9328e1a2ca5957d3908fa816b65a4a49",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.1.1",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -59,6 +59,19 @@
         "https://masaladeutsch.blogspot.com/2026/09/india-doesnt-have-one-quality-regulator.html",
         "https://blog.vertistratsolution.com/2026/09/india-doesnt-have-one-quality-regulator.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-11-13T03:39:53+05:30",
+      "level": "major",
+      "reason": "figures changed (+27/-0 distinct numbers)",
+      "bytes": [
+        25540,
+        33455
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

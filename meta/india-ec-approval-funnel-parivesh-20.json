@@ -1,10 +1,10 @@
 {
   "id": "5182635025304732949",
   "title": "India EC Approval Funnel — PARIVESH 2.0",
-  "url": "https://masaladeutsch.blogspot.com/2026/07/india-ec-approval-funnel-parivesh-20.html",
+  "url": "https://blog.vertistratsolution.com/2026/07/india-ec-approval-funnel-parivesh-20.html",
   "slug": "india-ec-approval-funnel-parivesh-20",
   "published": "2026-07-22T05:30:00.000+05:30",
-  "updated": "2026-10-01T08:27:26.481+05:30",
+  "updated": "2026-10-01T08:27:26.000+05:30",
   "labels": [
     "Environment & Clearances"
   ],
@@ -21,27 +21,14 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.1.0",
+  "version": "1.0.0",
   "version_history": [
     {
       "version": "1.0.0",
-      "date": "2026-09-19T02:28:33+00:00",
+      "date": "2026-11-13T03:39:53+05:30",
       "level": "initial",
       "reason": "first snapshot",
-      "note": "publish 3: IOR/EOR recovery-factor piece, PMFBY who-pays-the-premium, Soil Health Card April-2023 seam. Republish 2: AT&C figures piece and coal-to-chemicals menu (fixed a stale cross-link phrase). All five carry the new 'What would fix this' section (house rule added to CLAUDE.md)."
-    },
-    {
-      "version": "1.1.0",
-      "date": "2026-10-01T09:03:45+05:30",
-      "level": "minor",
-      "reason": "forced via --as minor (figures changed (+0/-0 distinct numbers))",
-      "bytes": [
-        21408,
-        22767
-      ],
-      "url_changed": null,
-      "markers_changed": null,
-      "note": "Rule 8 retrofit: added What would fix this section"
+      "note": ""
     }
   ]
 }

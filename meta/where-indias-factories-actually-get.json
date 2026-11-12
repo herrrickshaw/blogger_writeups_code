@@ -4,13 +4,13 @@
   "url": "https://blog.vertistratsolution.com/2026/08/where-indias-factories-actually-get.html",
   "slug": "where-indias-factories-actually-get",
   "published": "2026-08-02T12:14:17.000+05:30",
-  "updated": "2026-10-01T09:00:41.000+05:30",
+  "updated": "2026-11-12T21:55:57.000+05:30",
   "labels": [
     "Industrial Policy",
     "State Investment Incentives"
   ],
-  "bytes": 47717,
-  "sha256": "864c862246a8286f7bb2743251d29c58a6b10567998736c7e8e7d3887ef89acd",
+  "bytes": 48843,
+  "sha256": "8e28a0b0a70041108328880e26da99ee1d1ef46a01afc642f882a5ab224a56c7",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.1.1",
+  "version": "4.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -252,6 +252,19 @@
         "https://masaladeutsch.blogspot.com/2026/08/where-indias-factories-actually-get.html",
         "https://blog.vertistratsolution.com/2026/08/where-indias-factories-actually-get.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "4.0.0",
+      "date": "2026-11-13T03:39:53+05:30",
+      "level": "major",
+      "reason": "figures changed (+2/-0 distinct numbers)",
+      "bytes": [
+        47717,
+        48843
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }
