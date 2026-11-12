@@ -9,7 +9,7 @@ import json, pathlib, re
 
 HERE = pathlib.Path(__file__).resolve().parent
 ROOT = HERE.parents[2]
-SRC = ROOT / "out/update-2026-11-10-cpi-inflation-heatmap-india-june-2026.html"
+SRC = ROOT / "out/research/cpi-heatmap/base_2026-11-10.html"  # live post + Phase 1 link fix
 OUT = ROOT / "out/update-2026-11-12-cpi-inflation-heatmap-india-june-2026.html"
 D = json.load(open(HERE / "cpi_2026_jun_sep_oct.json"))
 S = D["states_general_yoy"]
