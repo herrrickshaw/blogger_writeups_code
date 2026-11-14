@@ -91,9 +91,9 @@ PLACEMENT = {
 
 # Posts that moved: old URL still in the index -> slug of the live post.
 MOVED = {
-    "https://masaladeutsch.blogspot.com/2026/08/chemical-import-substitution-full-hsn-8.html":
+    "https://blog.vertistratsolution.com/2026/08/chemical-import-substitution-full-hsn-8.html":
         "chemical-import-substitution-hsn-8-registry",
-    "https://masaladeutsch.blogspot.com/2026/07/india-mineral-oil-hsn-ch27-trade.html":
+    "https://blog.vertistratsolution.com/2026/07/india-mineral-oil-hsn-ch27-trade.html":
         "india-mineral-oil-hsn-ch27-trade",
 }
 

@@ -36,7 +36,7 @@
 
 <div class="gs-head-order" style="display:flex;flex-direction:column">
 <p class="standfirst" style="order:4;font-size:1.1em;color:#495057"><em>Thirteen small repositories each solve one narrow problem: falling back to a local model when Claude is unavailable, checking an LLM&rsquo;s citations, logging token cost, searching maritime reports offline, testing a warehouse backfill, finding duplicate Git LFS storage, checking blog posts for broken code, or freeing Mac disk space safely. This guide says what each one does, the command to start with, and what its own guide found it cannot do.</em></p>
-<div class="topnav-index-link" style="order:1;font-size:.82em;margin:6px 0 14px"><a href="https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html" style="color:#0b5394;text-decoration:none">&larr; All Articles (Index)</a></div>
+<div class="topnav-index-link" style="order:1;font-size:.82em;margin:6px 0 14px"><a href="https://blog.vertistratsolution.com/2026/08/article-index-start-here.html" style="color:#0b5394;text-decoration:none">&larr; All Articles (Index)</a></div>
 <div class="gb-kicker" style="order:2">Open-Source Tools &middot; 12 November 2026</div>
 <h1 style="order:3;font-family:-apple-system,'Segoe UI',sans-serif;font-weight:800;font-size:2em;line-height:1.2;letter-spacing:-.02em;margin:.25rem 0 1rem">Thirteen Small Open-Source Tools for Developers and AI Users, From a Local Claude Fallback to an LFS Duplicate Audit, and What Each One Is For</h1>
 </div>
@@ -202,7 +202,7 @@ python3 /path/to/repo-data-dedup/scripts/audit_lfs.py &lt;owner&gt; ~/lfs_audit/
 <p><strong>Start here.</strong> Audit one public post.</p>
 <pre style="overflow-x:auto;background:#f8f9fa;border:1px solid #dee2e6;border-radius:8px;padding:.75rem 1rem;font-size:.8em;line-height:1.45;white-space:pre"><code>python3 audit.py --url &lt;post URL&gt;</code></pre>
 <p>It writes <code>out/report.md</code> and <code>out/report.json</code> and prints a count of BLOCKER failures. In the guide&rsquo;s run of 19 October 2026, one live post showed 1 BLOCKER and 1 MINOR, both about its CSS.</p>
-<p><strong>Code:</strong> <a href="https://github.com/herrrickshaw/blog-consistency-check">github.com/herrrickshaw/blog-consistency-check</a>. <strong>Main limitation:</strong> it is hard-coded to masaladeutsch.blogspot.com, and several rules are specific to this blog. The static pass reads the HTML source, so a CSS finding is a signal to inspect, not proof of a visible fault. The fix scripts edit content and were not run in the guide.</p>
+<p><strong>Code:</strong> <a href="https://github.com/herrrickshaw/blog-consistency-check">github.com/herrrickshaw/blog-consistency-check</a>. <strong>Main limitation:</strong> it is hard-coded to blog.vertistratsolution.com, and several rules are specific to this blog. The static pass reads the HTML source, so a CSS finding is a signal to inspect, not proof of a visible fault. The fix scripts edit content and were not run in the guide.</p>
 
 <h3 id="design" style="font-family:-apple-system,'Segoe UI',sans-serif;font-weight:700;font-size:1.12em;margin:1.8rem 0 .5rem">research-design-system: one set of design tokens, four themes</h3>
 <p>Components use only semantic tokens such as <code>--c-text</code> and <code>--c-accent</code>, and each theme rebinds about a dozen of them. The same page switches between the bulletin, report, reportage and slate themes by changing one stylesheet and one body class; the guide rendered all four on 19 October 2026. Templates for a report, a bulletin and a dashboard, a component gallery and A4 print rules for WeasyPrint are included. There is no JavaScript or build step.</p>
@@ -277,14 +277,14 @@ wrote community assignments back into g.json</code></pre>
 
 <div class="gb-related">
 <strong>Related on this blog:</strong>
-<a href="https://masaladeutsch.blogspot.com/2026/07/ai-high-demand-launch-tracker.html">AI Tools Edition 03: A Repo With 98,000 Stars This Tracker Had Never Heard Of</a>
-<a href="https://masaladeutsch.blogspot.com/2026/08/indian-it-in-ai-era.html">Indian IT in an AI Era</a>
-<a href="https://masaladeutsch.blogspot.com/2026/10/ai-is-not-taking-indias-offshore-work.html">AI Is Not Taking India&#x27;s Offshore Work Evenly: A Sector-by-Sector Check, and the Government Backlogs the Same Skills Could Clear</a>
-<a href="https://masaladeutsch.blogspot.com/2026/10/half-of-php-websites-run-version-nobody.html">Half of PHP Websites Run a Version Nobody Patches. What a Hacked Site Gives Away About Its Company</a>
-<a href="https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html">All articles (index)</a>
+<a href="https://blog.vertistratsolution.com/2026/07/ai-high-demand-launch-tracker.html">AI Tools Edition 03: A Repo With 98,000 Stars This Tracker Had Never Heard Of</a>
+<a href="https://blog.vertistratsolution.com/2026/08/indian-it-in-ai-era.html">Indian IT in an AI Era</a>
+<a href="https://blog.vertistratsolution.com/2026/10/ai-is-not-taking-indias-offshore-work.html">AI Is Not Taking India&#x27;s Offshore Work Evenly: A Sector-by-Sector Check, and the Government Backlogs the Same Skills Could Clear</a>
+<a href="https://blog.vertistratsolution.com/2026/10/half-of-php-websites-run-version-nobody.html">Half of PHP Websites Run a Version Nobody Patches. What a Hacked Site Gives Away About Its Company</a>
+<a href="https://blog.vertistratsolution.com/2026/08/article-index-start-here.html">All articles (index)</a>
 </div>
 
-<p class="disclaimer" data-gs-ai-disclosure-v1="1"><strong>About this article:</strong> Researched, written and edited by Umashankar Triplicane Dwarakanathan, with AI research assistance; every figure is meant to trace to the primary source cited. See the <a href="https://masaladeutsch.blogspot.com/p/disclaimer.html">Editorial Policy</a> for how sourcing, AI use and corrections work.</p>
+<p class="disclaimer" data-gs-ai-disclosure-v1="1"><strong>About this article:</strong> Researched, written and edited by Umashankar Triplicane Dwarakanathan, with AI research assistance; every figure is meant to trace to the primary source cited. See the <a href="https://blog.vertistratsolution.com/p/disclaimer.html">Editorial Policy</a> for how sourcing, AI use and corrections work.</p>
 
 </div>
 

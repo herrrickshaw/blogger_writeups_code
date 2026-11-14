@@ -49,7 +49,7 @@ LABEL_HUBS = [
     ("Ethanol & Biofuels", "Ethanol%20%26%20Biofuels"),
 ]
 
-INDEX_URL = "https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html"
+INDEX_URL = "https://blog.vertistratsolution.com/2026/08/article-index-start-here.html"
 
 CSS = """<style>/*gs-side-acc-v1*/
 .gs-side-wrap{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;max-width:320px}
@@ -77,7 +77,7 @@ JS = """<script>//<![CDATA[
 // is what keeps this from ever drifting stale the way a hand-kept sidebar
 // list would.
 (function(){
-  var BASE='https://masaladeutsch.blogspot.com', n=0;
+  var BASE='https://blog.vertistratsolution.com', n=0;
   window.gsSideAcc = window.gsSideAcc || {};
   function jsonp(url, cb){
     var name='s'+(n++); window.gsSideAcc[name]=cb;
@@ -134,7 +134,7 @@ def main():
     A('<div class="gs-side-wrap">')
     A('<p class="gs-side-title">Browse by topic</p>')
     for name, slugpart in sorted(LABEL_HUBS, key=lambda t: t[0].lower()):
-        hub = f"https://masaladeutsch.blogspot.com/search/label/{slugpart}"
+        hub = f"https://blog.vertistratsolution.com/search/label/{slugpart}"
         A(f'<details class="gs-side-acc" data-label="{E(name)}" data-hub="{E(hub)}">'
           f'<summary>{E(name)} <span class="gs-side-n"></span></summary>'
           '<ul><li>Loading&#8230;</li></ul></details>')

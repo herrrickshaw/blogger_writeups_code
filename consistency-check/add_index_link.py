@@ -21,7 +21,7 @@ import re
 import sys
 
 FIXES = pathlib.Path(__file__).resolve().parent / "fixes"
-INDEX_URL = "https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html"
+INDEX_URL = "https://blog.vertistratsolution.com/2026/08/article-index-start-here.html"
 MARKER = "article-index-start-here"
 
 LINE = (

@@ -46,7 +46,7 @@ import urllib.parse
 import urllib.request
 from pathlib import Path
 
-BLOG = "https://masaladeutsch.blogspot.com"
+BLOG = "https://blog.vertistratsolution.com"
 UA = "Mozilla/5.0 (masaladeutsch-archive snapshot)"
 ROOT = Path(__file__).resolve().parent.parent
 POSTS = ROOT / "posts"
