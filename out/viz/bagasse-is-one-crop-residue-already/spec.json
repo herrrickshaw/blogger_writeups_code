@@ -1,0 +1,17 @@
+{"top": [["75%", " of raw bagasse liquefied in 9 minutes at 150°C, in one microwave study with a lab polyol."], ["0", " cost or life-cycle studies of a bagasse polyol or foam process were found."], ["27–55 g", " of sugar per 100 g dry bagasse across 115 cane varieties, after pretreatment and enzymes."]],
+ "sections": [
+  {"h2": "Sugar yield from bagasse depends heavily on the cane variety",
+   "chart": {"type": "bars", "title": "Sugar yield varied by a factor of two across 115 cane varieties", "sub": "Sugar released after pretreatment plus enzymes, g per 100 g dry matter.", "source": "Study of 115 sugarcane varieties, as reported in the post.", "unit": "g per 100 g", "accent": "Highest-yielding variety", "rows": [["Lowest-yielding variety", 27.3], ["Highest-yielding variety", 55.2]]},
+   "means": "Pretreatment and variety set how much sugar comes out, and none of these lab yields has been costed.",
+   "todo": "Test the highest-yielding varieties in a pilot pretreatment and enzyme run before any plant is built.",
+   "numbers": {"table": "T2"}},
+  {"h2": "Lab foams from bagasse polyol reached 0.32–0.48 MPa at the hotter cook",
+   "chart": {"type": "bars", "title": "Hotter cooks gave the strongest lab foams, at 0.32–0.48 MPa", "sub": "Compressive strength of foams made from bagasse polyol, MPa; each range spans bagasse-to-solvent ratios from 1/2 to 1/4.", "source": "Xie et al. 2015.", "unit": "MPa", "accent": "Polyol made at 150°C", "rows": [["Polyol made at 125°C", [0.19, 0.34]], ["Polyol made at 150°C", [0.32, 0.48]]]},
+   "means": "The foams are small-batch lab results from one study, with no independent replication found.",
+   "todo": "Make foams in a larger batch, with thermal and replicate tests, before any commercial polyol is replaced."},
+  {"h2": "Mills already burn bagasse, so a polyol plant competes with the boiler",
+   "chart": {"type": "bars", "title": "Mills already burn bagasse in cogeneration, 9,806 MW at the end of 2024", "sub": "Installed bagasse cogeneration capacity, MW. The two figures differ in date and scope and are not additive.", "source": "MNRE data reported in trade press; ministry table, July 2026.", "unit": "MW", "accent": "Bagasse cogeneration, end 2024", "rows": [["Bagasse cogeneration, end 2024", 9806, "MNRE data"], ["Bagasse and other biomass, July 2026", 11748, "different scope"]]},
+   "means": "Most bagasse is burned for steam and power, so a polyol plant would have to replace that fuel and power.",
+   "todo": "Publish the price a polyol plant would need to pay to cover the lost fuel and export power."}
+ ],
+ "derived": {}}

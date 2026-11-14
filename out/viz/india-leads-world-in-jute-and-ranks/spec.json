@@ -1,0 +1,20 @@
+{"top": [["~60%", " of world jute production is India's, yet Bangladesh ships about 70% of jute exports."], ["92.2 million kg", " of raw wool imported in 2023-24, nearly three times the 33.69 million kg India produced."], ["42,033 t", " of raw silk produced in 2025-26, yet India still imports upward of $150 million of raw silk a year."]],
+ "sections": [
+  {"h2": "Jute: India grows about 60% of the world's crop but barely exports it",
+   "chart": {"type": "bars", "title": "National raw jute output fell from 97.6 to 91.8 lakh bales despite the mandate", "sub": "National raw jute output, lakh bales of 180 kg each.", "source": "Figures as cited in the post.", "unit": "lakh bales", "accent": "Latest reported", "rows": [["2021-22", 97.6], ["Latest reported", 91.8]]},
+   "means": "India's jute goes almost entirely to a statutory domestic packaging market rather than to export.",
+   "todo": "Raising the MSP helps farmers directly, but it does not make jute compete on export terms."},
+  {"h2": "Silk: output grew about 60% in a decade, yet India still imports raw silk",
+   "chart": {"type": "bars", "title": "Raw silk output grew from about 26,000 to 42,033 tonnes between 2014 and 2025-26", "sub": "National raw silk production, tonnes.", "source": "Central Silk Board, as cited in the post.", "unit": "tonnes", "accent": "2025-26", "rows": [["2014, about", 26000], ["2025-26", 42033]]},
+   "means": "Total output grew about 60% over the decade, so volume alone does not explain the imports.",
+   "todo": "Closing the bivoltine supply gap, not adding raw tonnage, is what would reduce silk imports."},
+  {"h2": "Only 11,229 tonnes of India's mulberry silk is the bivoltine grade industry needs",
+   "chart": {"type": "bars", "title": "Bivoltine silk is a minority of mulberry output, the grade weaving needs", "sub": "Mulberry silk output in the year reported, tonnes.", "source": "Central Silk Board, as cited in the post.", "unit": "tonnes", "accent": "Bivoltine mulberry", "rows": [["Mulberry silk, all grades", 32250], ["Bivoltine mulberry", 11229]]},
+   "means": "Most Indian cocoons are multivoltine, which does not substitute cleanly for the bivoltine grade industrial weaving needs.",
+   "todo": "Breeding for bivoltine cocoons is the fix the post points to, because raw tonnage was never the constraint."},
+  {"h2": "India imports more raw wool than it produces, despite a large sheep flock",
+   "chart": {"type": "bars", "title": "Raw wool imports in 2023-24 were nearly three times domestic output", "sub": "Raw wool output and imports, 2023-24, million kg.", "source": "Basic Animal Husbandry Statistics 2024; import figure as cited in the post.", "unit": "million kg", "accent": "Raw wool imports", "rows": [["Domestic wool output", 33.69], ["Raw wool imports", 92.2]]},
+   "means": "The wool gap is about grade rather than headcount, since India imports more raw wool by weight than it produces.",
+   "todo": "Inbreeding-driven quality decline, not sheep numbers, is what the post says needs fixing to cut wool imports."}
+ ],
+ "derived": {}}

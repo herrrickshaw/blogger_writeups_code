@@ -1,0 +1,40 @@
+{
+ "top": [
+  ["98.43%", " operating ratio budgeted for FY2025-26, so nearly all income goes straight into running costs."],
+  ["57%", " of passenger travel cost recovered from fares, per two former railway officers."],
+  ["2024", " RTI reply: Railways could not say whether its Vande Bharat trains were profitable."]
+ ],
+ "sections": [
+  {"h2": "Railways spent ₹107 for every ₹100 earned in 2021-22",
+   "chart": {"type": "bars",
+             "title": "The operating ratio has stayed near 98% since 2018-19, peaking at 107%",
+             "sub": "Working expenses as a share of traffic receipts, %.",
+             "source": "PRS Legislative Research; CAG.",
+             "unit": "%",
+             "accent": "2021-22",
+             "ref": [100, "100% = spending equals earnings"],
+             "rows": [["2018-19", 97.29], ["2019-20", 98.36], ["2021-22", 107], ["2025-26 budget", 98.43]]},
+   "means": "The ratio has stayed above 96% every year since 2016-17, and reached 107% in 2021-22.",
+   "todo": "Track each service's cost against its revenue so the ratio is managed deliberately, not only reported annually."},
+  {"h2": "Freight rates rose 91% in a decade while passenger fares rose 28%",
+   "chart": {"type": "bars",
+             "title": "Freight rates grew far faster than passenger fares over 2009 to 2019",
+             "sub": "Change in freight rates and passenger fares, 2009 to 2019, %.",
+             "source": "PRS Legislative Research; NITI Aayog.",
+             "unit": "%",
+             "accent": "Freight rates",
+             "rows": [["Freight rates", 91], ["Passenger fares", 28]]},
+   "means": "Freight is funding passenger losses that are classed as social obligations rather than commercial failures.",
+   "todo": "Rationalise freight rates through direct budgetary support rather than continued cross-subsidy, as the Hindu Centre analysis proposes."},
+  {"h2": "A 2015 committee asked for train-wise costing; a 2024 reply shows it is still missing",
+   "chart": {"type": "flow",
+             "title": "Nine years on, Railways still cannot say whether Vande Bharat makes money",
+             "events": [
+              ["June 2015", "Debroy Committee finds the accounting system cannot say what it costs to run a train."],
+              ["April 2024", "RTI reply on Vande Bharat: \"train-wise portability is not maintained\".", true]
+             ]},
+   "means": "The 2015 committee said Railways could not cost individual trains, and the 2024 RTI reply shows that is still true.",
+   "todo": "Adopt the committee's accrual, double-entry accounting so each train's cost and viability can be determined."}
+ ],
+ "derived": {}
+}

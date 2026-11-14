@@ -1,0 +1,16 @@
+{"top": [["99%+", " purity of liquid biomethane that Japan's IST fired in a rocket engine in December 2023."], ["200+", " CBG plants commissioned against India's 5,000-plant SATAT target."], ["₹2,110", " per MMBTU administered CBG price that GOBARdhan guarantees for a minimum 10 years."]],
+ "sections": [
+  {"h2": "India has commissioned 200+ of the 5,000 CBG plants it targeted",
+   "chart": {"type": "bars", "title": "Commissioned CBG plants are a small fraction of the national target", "sub": "CBG plants, count.", "source": "Cabinet approval of GOBARdhan, PMO press release, 6 Aug 2026.", "unit": "plants", "accent": "Commissioned", "rows": [["Commissioned (200+)", 200], ["SATAT target", 5000]]},
+   "means": "Over 200 CBG plants were commissioned by 6 August 2026, against a target of 5,000.",
+   "todo": "Planners should treat the scheme's guaranteed price floor as the basis for new plant investment."},
+  {"h2": "Rocket-grade liquid methane is 99% pure, against 90% under IS 16087",
+   "chart": {"type": "bars", "title": "Rocket-grade methane sits above the CBG standard's 90% floor", "sub": "Methane content, % minimum.", "source": "BIS IS 16087:2013, Table 1; rocket-grade figure as cited in the article.", "unit": "%", "accent": "Rocket-grade liquid methane", "rows": [["IS 16087:2013 (CBG)", 90], ["Rocket-grade liquid methane", 99]]},
+   "means": "The methane purity that rocket fuel needs is above the minimum set for city-gas and vehicle biomethane.",
+   "todo": "Any plant aiming at rocket-grade output should plan an extra liquefaction and purification step beyond CBG grade."},
+  {"h2": "The CNG/PNG blending obligation rises from 3% to 5% by FY2028-29",
+   "chart": {"type": "bars", "title": "Offtake demand is set to grow as the blending obligation rises to 5%", "sub": "CNG/PNG blending obligation, %.", "source": "Cabinet approval of GOBARdhan, PMO press release, 6 Aug 2026.", "unit": "%", "accent": "FY2028-29", "rows": [["FY2026-27", 3], ["FY2027-28", 4], ["FY2028-29", 5]]},
+   "means": "The offtake obligation grows each year, giving CBG producers a rising market for vehicle fuel.",
+   "todo": "Producers should match plant output to the blending schedule before committing to new capacity."}
+ ],
+ "derived": {}}

@@ -1,0 +1,16 @@
+{"top": [["14 of 69", " industry-years change sign between the two series; in 13 of them the old base showed a fall and the new base shows growth."], ["+31.2", " points: the gap between the two bases for computer, electronic and optical products in 2023-24."], ["5.7%", " all-industry growth in 2024-25 on the new base, against 4.0% on the old."]],
+ "sections": [
+  {"h2": "Electronics went from an 11.3% fall to 19.9% growth, depending on the base",
+   "chart": {"type": "bars", "title": "The same electronics output fell on the old base and grew on the new", "sub": "Growth of computer, electronic and optical products in 2023-24, %.", "source": "MoSPI, IIP annual indices (eSankhyiki).", "unit": "%", "accent": "New base (2022-23)", "rows": [["Old base (2011-12)", -11.3], ["New base (2022-23)", 19.9]]},
+   "means": "Electronics is the sharpest case: whether its output grew or shrank in 2023-24 depends on which base is used.",
+   "todo": "Quote the base year alongside any IIP growth figure, especially for runs of years that cross April 2023."},
+  {"h2": "All-industry growth in 2024-25 was 5.7% on the new base, against 4.0% on the old",
+   "chart": {"type": "bars", "title": "On the new base, all-industry growth was 1.7 points higher in 2024-25", "sub": "Growth of the general index over the previous year, %.", "source": "MoSPI, IIP annual indices (eSankhyiki).", "unit": "%", "accent": "New base (2022-23)", "rows": [["Old base (2011-12)", 4.0], ["New base (2022-23)", 5.7]]},
+   "means": "The gap for all industry is largest in 2024-25 and almost closes in 2025-26, when the two bases show 4.1% and 4.3%.",
+   "todo": "Read the 2023-24 to 2025-26 figures from both bases side by side rather than from one series alone."},
+  {"h2": "Fourteen of 69 industry-years flip sign between the two series",
+   "chart": {"type": "bars", "title": "Computer and electronics has the widest gap; electrical equipment runs the other way", "sub": "Difference between new-base and old-base growth, percentage points, twelve largest gaps.", "source": "MoSPI, IIP annual indices by two-digit industry.", "unit": "pts", "accent": "Computer, electronic & optical", "table": {"id": "T3", "label": 0, "value": 4, "rows": "top:12", "sort": "desc"}},
+   "means": "Most of the largest gaps are in industries whose product mix changed most, though this blog could not confirm the cause for any single industry.",
+   "todo": "Say which base a growth rate uses before comparing it with a figure published before June 2026."}
+ ],
+ "derived": {}}

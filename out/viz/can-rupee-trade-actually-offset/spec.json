@@ -1,0 +1,41 @@
+{
+ "top": [
+  ["12x", " more imports from Russia (US$55.4 billion) than India exports to it (US$4,493.51 million), FY2025-26."],
+  ["23.2%", " 2026 year-to-date rupee-rouble range as a share of its average, the widest of the five pairs."],
+  ["156", " Special Rupee Vostro Accounts with 26 Indian banks, the latest official count (Feb 2025)."]
+ ],
+ "sections": [
+  {"h2": "India imports about 12 times what it sells to Russia",
+   "chart": {"type": "bars", "title": "Russia is the partner where the trade flows most one-sided",
+             "sub": "Trade with Russia, FY2025-26, US$ million.", "source": "DGCI&S TradeStat, Country-wise all Commodities.",
+             "unit": "US$M", "accent": "Imports from Russia",
+             "rows": [["Imports from Russia", 55363.11], ["Exports to Russia", 4493.51]]},
+   "means": "Rupee invoicing changes who carries the conversion risk, but Russia's surplus of rupees shows the imbalance itself does not go away.",
+   "todo": "Publish the exposure of the rupee surplus held by Russian entities so the treasury-bill parking is visible to the public.",
+   "numbers": {"table": "T1"}},
+  {"h2": "India runs a deficit with four of its five largest partners, not the US",
+   "chart": {"type": "bars", "title": "Only the United States buys more from India than it sells",
+             "sub": "India's trade balance with each partner, FY2025-26, US$ billion.", "source": "DGCI&S TradeStat, Country-wise all Commodities.",
+             "unit": "US$bn", "accent": "USA",
+             "rows": [["China", -112.1], ["UAE", -26.5], ["Russia", -50.9], ["USA", 33.8], ["Saudi Arabia", -20.5]]},
+   "means": "Four of the five partners are deficit partners, so the rupee has little natural demand from exporters in those countries.",
+   "todo": "Set out how the rupee settlement mechanism would generate demand for rupees from partners India runs deficits with."},
+  {"h2": "The rouble pair is far more volatile than the dollar-linked Gulf pairs",
+   "chart": {"type": "bars", "title": "The rouble's 2026 range, 23.2% of its average, is the widest of five pairs",
+             "sub": "2026 year-to-date high-low range as % of the average rate; approximate.", "source": "exchange-rates.org; exchangerates.org.uk.",
+             "unit": "%", "accent": "RUB/INR",
+             "rows": [["RUB/INR", 23.2], ["CNY/INR", 10.0], ["USD/INR", 7.8], ["AED/INR", 7.4], ["SAR/INR", 5.4]]},
+   "means": "The riyal and dirham are pegged to the dollar, so settling in them removes almost none of the exchange-rate exposure.",
+   "todo": "Publish an official direct INR reference rate for the yuan, rouble and riyal, since FBIL publishes none for them."},
+  {"h2": "The UAE pact led to a rupee-paid crude purchase that August",
+   "chart": {"type": "flow", "events": [
+             ["July 2022", "RBI opens the Special Rupee Vostro Account framework"],
+             ["15 July 2023", "India and UAE sign the local-currency settlement pact and a payment-system MoU"],
+             ["August 2023", "Indian Oil pays ADNOC in rupees and dirhams for about 1 million barrels of crude", true],
+             ["February 2024", "UPI-AANI and RuPay-JAYWAN payment links launch"],
+             ["February 2025", "156 Vostro accounts with 26 Indian banks, the latest official count"]]},
+   "means": "The UAE is the post's clearest working example, and the only named crude purchase it cites that was settled in rupees.",
+   "todo": "Name any active yuan or riyal settlement mechanism in writing, since the post found none for either."}
+ ],
+ "derived": {"4": "count: four of the five partners are deficit partners"}
+}

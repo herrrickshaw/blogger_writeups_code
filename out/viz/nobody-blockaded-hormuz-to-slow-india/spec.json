@@ -1,0 +1,39 @@
+{
+ "top": [
+  ["39%", " of global trade and 31% of global shipments were disrupted by September 2026, Hormuz, Red Sea and pipeline combined."],
+  ["27 Jan", " the India-EU FTA was concluded, a month before the Iran war began."]
+ ],
+ "sections": [
+  {"h2": "The India-EU FTA was concluded a month before the war began",
+   "chart": {"type": "flow",
+             "title": "The trade deal predates the war, so the sequence rules out a reaction to it",
+             "source": "Ministry of Commerce & Industry (PIB); Wikipedia.",
+             "events": [["27 Jan 2026", "India-EU FTA concluded at the 16th India-EU Summit"],
+                        ["28 Feb 2026", "US-Israel campaign against Iran begins", true]]},
+   "means": "The FTA was concluded on 27 January 2026, a month before the war began on 28 February, so the sequence argues against a reaction.",
+   "todo": "Track freight costs on Gulf-linked lanes as the FTA phases in, since they can offset the tariff saving."},
+  {"h2": "Hormuz and the Red Sea together disrupt an estimated 39% of global trade",
+   "chart": {"type": "bars",
+             "title": "Compounded disruption reaches 39% of trade and 31% of shipments by September",
+             "sub": "Share of global total disrupted by September 2026, %.",
+             "source": "European Council on Foreign Relations.",
+             "unit": "%",
+             "accent": "Share of global trade disrupted",
+             "rows": [["Share of global trade disrupted", 39],
+                      ["Share of global shipments disrupted", 31]]},
+   "means": "By September 2026 the disruption reached an estimated 39% of global trade and 31% of global shipments, at roughly $25bn in business cost.",
+   "todo": "Build more routes rather than rely on one chokepoint, as the Atlantic Council argues."},
+  {"h2": "Red Sea rerouting already added 25-30% to Asia-Europe container rates",
+   "chart": {"type": "bars",
+             "title": "The reroute premium predates the war; IMEC's 30% is a ceiling, not a result",
+             "sub": "Percent of freight cost. Ranges shown as bands.",
+             "source": "AGBI; Freightos; ORF Middle East.",
+             "unit": "%",
+             "accent": "Red Sea reroute premium, Asia-Europe container rates",
+             "rows": [["Red Sea reroute premium, Asia-Europe container rates", [25, 30], "In effect since late 2023"],
+                      ["IMEC projected saving, ceiling estimate", 30, "Corridor not yet built"]]},
+   "means": "The Red Sea reroute premium of 25-30% predates the 2026 war, and the 30% IMEC figure is a ceiling for a corridor still under construction.",
+   "todo": "Track the freight premium, not only the tariff cut, as the FTA phases in for India-Europe cargo."}
+ ],
+ "derived": {}
+}

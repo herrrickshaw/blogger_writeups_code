@@ -1,0 +1,17 @@
+{"top": [["2 hours", " to push a production plan to the shopfloor under Maruti's e-Nagare, down from about 30 hours."], ["80%", " of NCR's auto-component firms are Tier-2/Tier-3 MSMEs, against about 20% large Tier-1 manufacturers."], ["₹44,326 crore", " of investment attracted by PLI-Auto by March 2026, against a ₹25,938 crore outlay."]],
+ "sections": [
+  {"h2": "Maruti's e-Nagare cut plan-to-shopfloor time from about 30 hours to 2",
+   "chart": {"type": "bars", "title": "Digitising the production-plan sequence shortened the cycle sharply", "sub": "Hours from vendor plan to shopfloor, as reported for Maruti Suzuki.", "source": "Maruti Suzuki, as cited in the post.", "unit": "hours", "accent": "With e-Nagare", "rows": [["Before e-Nagare", 30], ["With e-Nagare", 2]]},
+   "means": "Just-in-time only works when the production sequence reaches suppliers quickly, and e-Nagare does that digitally.",
+   "todo": "Any new cluster should build this digital plan link before adding more suppliers, as the Maruti case suggests.",
+   "numbers": {"table": "T1"}},
+  {"h2": "NCR's component base is mostly small MSMEs, unlike Pune and Chennai",
+   "chart": {"type": "bars", "title": "Most NCR component firms are Tier-2 or Tier-3 MSMEs, not large Tier-1s", "sub": "Share of Delhi-Haryana (NCR) auto-component firms, %, roughly.", "source": "As cited in the post.", "unit": "%", "accent": "Tier-2/Tier-3 MSMEs", "rows": [["Tier-2/Tier-3 MSMEs", 80], ["Large Tier-1 manufacturers", 20]]},
+   "means": "A cluster can be close to its OEM yet still too small to absorb the working-capital demands of just-in-time supply.",
+   "todo": "Policy support for NCR suppliers should target that capital and technology gap, the post's central concern for this cluster."},
+  {"h2": "PLI-Auto has drawn more investment than its outlay so far",
+   "chart": {"type": "bars", "title": "Investment attracted by PLI-Auto already exceeds its outlay", "sub": "Rupees crore; outlay covers FY2022-23 to FY2026-27, investment is as of March 2026.", "source": "Ministry of Heavy Industries; as cited in the post.", "unit": "₹ crore", "accent": "Investment attracted", "rows": [["Scheme outlay", 25938], ["Investment attracted by March 2026", 44326]]},
+   "means": "The 50% domestic value addition floor pushes more of the supply chain inside the radius where just-in-time already works.",
+   "todo": "Track the 50% domestic value addition target against the 18 applicants with DVA certificates, as the post suggests."}
+ ],
+ "derived": {}}

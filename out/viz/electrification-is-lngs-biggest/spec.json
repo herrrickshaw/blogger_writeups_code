@@ -1,0 +1,22 @@
+{"top": [["0.35 t", " CO2e per tonne of LNG for the global average, against 0.15 t announced by LNG Canada Phase 1."], ["~95%", " motor efficiency for electric drive, against 25–42% for gas turbines."], ["13.4%", " of new liquefaction trains ordered in 2025 used electric-motor drive."]],
+ "sections": [
+  {"h2": "Careful conventional design already closes most of the gap to best-in-class",
+   "chart": {"type": "bars", "title": "The global average is more than double LNG Canada Phase 1's announced target",
+             "sub": "Tonnes of CO2-equivalent per tonne of LNG produced.", "source": "IISD analysis; CBC News/Globe and Mail; LNG Canada.",
+             "unit": "t CO2e/t", "accent": "LNG Canada Phase 1",
+             "rows": [["Global LNG average", 0.35, "Average across several international facilities"], ["BC regulatory benchmark", 0.16, "Limit for new LNG facilities"], ["LNG Canada Phase 1", 0.15, "Announced target, gas-turbine-driven, Kitimat"]]},
+   "means": "Careful design of a conventional gas-turbine plant gets close to the best reported figure before any electrification.",
+   "todo": "Judge each new LNG project against the 0.15 t target and the 0.16 t BC benchmark, the baselines the post uses."},
+  {"h2": "Electric drive reaches about 95% efficiency, against 25–42% for gas turbines",
+   "chart": {"type": "bars", "title": "An electric motor converts far more input energy than a gas turbine does",
+             "sub": "Efficiency, %.", "source": "Siemens Energy 2023 feasibility paper, as cited in the post.",
+             "unit": "%", "accent": "Electric motor",
+             "rows": [["Electric motor", 95, "Exceeding 95%, before transformer and drive losses"], ["Aeroderivative turbine", [38, 42]], ["Single-shaft industrial turbine", [25, 30]]]},
+   "means": "Once transformer, drive and transmission losses are counted, the drivetrain gap narrows to about 40% against 34–36%.",
+   "todo": "Compare full drivetrain efficiency, not the motor rating alone, when judging an electric-drive plant."},
+  {"h2": "Electric-drive LNG plants move from feasibility to construction and operation",
+   "chart": {"type": "flow", "title": "Electric-drive LNG moves from order books to operating plants, with 675 MW at Freeport",
+             "events": [["2025", "Electric-motor drive takes 13.4% of new liquefaction train orders"], ["Operating", "Freeport LNG, Texas: reportedly the largest all-electric LNG plant, with 675 MW built in", true], ["July 2026", "Woodfibre LNG about 70% complete, completion scheduled for 2027"], ["2028", "Ruwais LNG targets commercial operations, reported ahead of schedule"]]},
+   "means": "Freeport LNG is the only one of the three named electric-drive projects reported as operating.",
+   "todo": "Check where Woodfibre and Ruwais draw their power as they start up, since the post calls grid supply the binding question."}
+ ]}

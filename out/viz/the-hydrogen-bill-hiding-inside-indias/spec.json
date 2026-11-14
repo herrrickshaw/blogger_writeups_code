@@ -1,0 +1,40 @@
+{
+ "top": [
+  ["528 g", " of hydrogen per litre of power-to-liquid SAF, against about 40 g for HEFA and ATJ."],
+  ["528 kt", " of green hydrogen for the 2030 blend under a PtL-heavy mix, against 40 kt via HEFA or ATJ."],
+  ["$8–10", " a litre for PtL SAF at today's $4–5/kg hydrogen, against about $1.45 for HEFA."]
+ ],
+ "sections": [
+  {"h2": "Power-to-liquid SAF needs far more hydrogen per litre than HEFA or ATJ",
+   "chart": {"type": "bars",
+             "title": "Hydrogen per litre of SAF: 528 g for PtL, 40 g for HEFA and ATJ",
+             "sub": "Grams of H₂ consumed per litre of finished SAF, at about 0.8 kg/L density.",
+             "source": "Xynteo (2026); ScienceDirect (2024).",
+             "unit": "g/L",
+             "accent": "PtL / e-SAF",
+             "rows": [["HEFA", 40, "Xynteo, India"], ["ATJ", 40, "single-source estimate"], ["PtL / e-SAF", 528, "cross-checked"]]},
+   "means": "Hydrogen is a required input to every SAF route, and the route chosen sets how much of it each litre needs.",
+   "todo": "Compare SAF routes on grams of hydrogen per litre as well as on price, because the draw differs so widely between them."},
+  {"h2": "At the 2030 mandate, a PtL-heavy supply would need far more green hydrogen",
+   "chart": {"type": "bars",
+             "title": "Meeting the 2030 5% blend: 40 kt of hydrogen via HEFA/ATJ, 528 kt via PtL",
+             "sub": "Green hydrogen needed for about 800 kt of SAF (100 crore litres), by supply route.",
+             "source": "Xynteo (2026).",
+             "unit": "kt H₂",
+             "accent": "PtL-heavy supply",
+             "rows": [["HEFA/ATJ-heavy supply", 40, "2030, 5% blend"], ["PtL-heavy supply", 528]]},
+   "means": "The same 2030 blending target needs more than thirteen times as much green hydrogen under a PtL-heavy mix.",
+   "todo": "Plan near-term hydrogen supply around HEFA and ATJ, and build PtL capacity only once it is committed at scale."},
+  {"h2": "PtL SAF costs several times more per litre than HEFA or PBtL SAF",
+   "chart": {"type": "bars",
+             "title": "PtL at $8–10 a litre sits well above HEFA at about $1.45 and PBtL at $1.41",
+             "sub": "Indicative SAF cost per litre, by pathway and hydrogen price.",
+             "source": "Xynteo (2026); Berkeley-based India Energy & Climate Center; trade press.",
+             "unit": "$/L",
+             "accent": "PtL / e-SAF",
+             "rows": [["PtL / e-SAF (at $4–5/kg H₂)", [8, 10]], ["HEFA SAF", 1.45], ["PBtL (at $3/kg H₂)", 1.41]]},
+   "means": "Hydrogen-heavy SAF becomes affordable at the mandate's volumes only once green hydrogen nears its $1.50–2.50/kg target range.",
+   "todo": "Tie SAF blending targets to the green hydrogen price curve rather than treating the two as separate policy questions."}
+ ],
+ "derived": {}
+}

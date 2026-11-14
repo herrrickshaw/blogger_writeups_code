@@ -1,0 +1,19 @@
+{"top": [["17.01%", " forecast CAGR for India's wine market, from US$195.3 million in 2023 to US$802.9 million by 2032."], ["150%", " import duty on wine, India's WTO-bound ceiling, which the January 2026 EU deal would cut in phases."], ["61%", " of the Elite and Premium segments, reported for Sula Vineyards in FY2022."]],
+ "sections": [
+  {"h2": "India's wine market: US$195.3 million, forecast to grow four-fold by 2032",
+   "chart": {"type": "bars", "title": "Growth is four-fold on paper, from a market of US$195.3 million", "sub": "Wine market size, US$ million.", "source": "IMARC Group, India Wine Market report.", "unit": "US$ million", "accent": "2023 market", "rows": [["2023 market", 195.3, "estimate"], ["2032 forecast", 802.9, "at 17.01% CAGR"]]},
+   "means": "IMARC Group puts India's wine market at US$195.3 million in 2023, forecast to reach US$802.9 million by 2032.",
+   "todo": "Check the 2032 forecast against actual annual sales before treating the 17.01% CAGR as settled.",
+   "numbers": {"table": "T1"}},
+  {"h2": "The 150% tariff wall, and an EU deal that would cut it in phases",
+   "chart": {"type": "bars", "title": "The initial cut takes wine from 150% to 75%, with lower phased rates after", "sub": "Wine import tariff rates, %.", "source": "India-EU FTA trade reporting, following the 27 January 2026 political agreement.", "unit": "%", "accent": "Current WTO-bound ceiling", "ref": [100, "100% = no duty reduction"], "rows": [["Current WTO-bound ceiling", 150], ["Initial cut on entry into force", 75], ["Premium wine, final phased rate", 20], ["Mid-range wine, final phased rate", 30]]},
+   "means": "The India-EU political agreement of 27 January 2026 would cut wine tariffs from 150% to 75% on entry into force, then to 20% for premium and 30% for mid-range wine.",
+   "todo": "Track ratification and the phased schedule, not the headline tariff figure, before judging how the market will change.",
+   "numbers": {"table": "T5"}},
+  {"h2": "Sula Vineyards reports over half of domestic 100%-grape wine",
+   "chart": {"type": "bars", "title": "Sula's reported share exceeds half of the 100%-grape wine category", "sub": "Sula Vineyards' reported market share, %.", "source": "Sula Vineyards IPO-era regulatory filings and disclosures.", "unit": "%", "accent": "100%-grape wine, FY2021", "rows": [["100%-grape wine, FY2021", 52.6, "domestic category"], ["Elite and Premium segments, FY2022", 61, "price segments"]]},
+   "means": "Sula reported 52.6% of domestic 100%-grape wine in FY2021, and about 61% of the Elite and Premium segments in FY2022.",
+   "todo": "Read Sula's share as a category figure, not as its share of every bottle of wine sold in India.",
+   "numbers": {"table": "T4"}}
+ ],
+ "derived": {}}

@@ -1,0 +1,57 @@
+The industry behind this story. India's auto component industry turned over ₹7.59 lakh crore (~$85.9 billion) in FY2025-26, up 12.7% from ₹6.73 lakh crore in FY2024-25 and growing at a 17% CAGR from FY2021 to FY2026 (ACMA) — a scale-up that happened largely inside the cluster geography this piece maps, not by spreading suppliers further apart.
+
+Ashok Leyland's Chennai factory anchors the Chennai/Sriperumbudur cluster this piece calls India's "Detroit" — the deepest, most export-oriented base in the just-in-time supplier geography it maps. [Ashok Leyland Factory](https://commons.wikimedia.org/wiki/File:Ashok_Leyland_Factory.JPG), Nikhilb239, CC BY-SA 3.0, via Wikimedia Commons.
+
+Updated 7 November 2026. ACMA’s figures for 2025-26 are now out: industry turnover was ₹7.59 lakh crore (about $85.9 billion), up 12.7% from ₹6.73 lakh crore in 2024-25, with supplies to vehicle makers up 16.3% to ₹6.63 lakh crore. Exports rose 5% to about $24 billion while component imports reached $25.4 billion, so the industry ran a small trade deficit; ACMA puts growth at a 17% compound annual rate from 2020-21 to 2025-26. The cluster analysis below is unchanged. Sources: [Autocar Professional](https://www.autocarpro.in/news/acma-indian-auto-component-industry-grows-127-percent-to-inr-76-lakh-crore-in-fy26-133454), [Zee Business](https://www.zeebiz.com/automobile/news-indias-auto-component-industry-crosses-rs-76-lakh-crore-turnover-in-fy26-doubles-in-five-years-acma-398517).
+
+## 1. The five clusters, and what actually sits in each
+
+
+[T1 "1. The five clusters, and what actually sits in each" 5 rows; use rows by number in a chart "table" spec]
+  cols: c0 Cluster | c1 Anchor OEMs | c2 Character
+  r0: Chennai / Sriperumbudur (Tamil Nadu) | Ford (legacy), Hyundai, BMW, Ashok Leyland | India's "Detroit" — the deepest, most export-oriented component base
+  r1: Gurugram-Manesar (NCR, Haryana) | Maruti Suzuki, Hero MotoCorp | India's largest passenger-vehicle volume base; component belt skews heavily MSME
+  r2: Pune-Chakan-Talegaon (Maharashtra) | Tata Motors, Mercedes-Benz, Bajaj Auto, Mahindra | Precision engineering and premium/commercial-vehicle focus
+  r3: Sanand (Gujarat) | Tata Motors (ex-Nano plant), Maruti Suzuki Gujarat, Ford (legacy) | Newer greenfield cluster, built explicitly around co-located vendor parks
+  r4: Pune-Aurangabad-Nashik belt / AURIC | Diverse Tier-1/2 base; Maharashtra's flagship greenfield smart industrial city | The newest layer — purpose-built trunk infrastructure for supplier co-location
+
+
+Sources: India Briefing and Invest India cluster profiles; ABS Logistics on dedicated JIT freight lanes connecting these five clusters plus Bengaluru; AURIC/Maharashtra Industrial Policy 2023 coverage.
+
+What connects these five geographically separate regions into one functional system is dedicated surface-freight capacity built specifically around production calendars — carriers running kanban and pull-system logistics, coordinating delivery windows against OEM shift schedules and line-side sequencing requirements, not generic freight timetables. The clusters aren't really five independent hubs; they're five nodes on one JIT network.
+
+A sixth region this table leaves out. A regional breakdown of India's auto industry circulating on LinkedIn (Gowthamraj Mahadevan) groups the country into four belts rather than five clusters, and its East India belt — anchored by Tata Motors, Hindustan Motors and Exide — doesn't appear in the table above at all. That's a real gap, not a rounding error: this piece's JIT argument is entirely about supplier-to-OEM radius, and an East India node (Jamshedpur/Kolkata-belt legacy manufacturing) sits outside the five-cluster, five-node freight network described here. One commenter on that same post separately flagged that the visual didn't clearly mark the Chennai-Bengaluru-Hosur corridor either — TVS Motor's Hosur base and the wider Bengaluru supplier belt function as an extension of the Chennai cluster in Section 1's table, not a separate hub, but the ambiguity is worth naming rather than smoothing over. Neither gap changes this piece's core claim about the five clusters it does cover; they're flagged here because the JIT logic applies with less force wherever cluster geography hasn't been mapped this precisely.
+
+## 2. What "just-in-time" actually looks like at one OEM, with real numbers
+
+Maruti Suzuki's supplier base is the clearest documented case. Over 76% of its 246 component suppliers sit within a 100km radius of its assembly lines — more than 70% of parts, by Maruti's own account, are sourced from within that radius to feed the line directly, cutting both packaging and ordering costs relative to a dispersed supplier base. Vendors for high-volume, bulky components — instrument boards, fuel tanks, bumpers, seats — are deliberately sited adjoining Maruti's own manufacturing footprint inside dedicated supplier parks, with Maruti actively encouraging vendors to build warehouses on-site.
+
+The e-Nagare system is the mechanism, not just the philosophy. Maruti's "e-Nagare" (electronic flow) system digitises the production-plan sequence from vendor to shopfloor. Before it, that sequence took roughly 30 hours to propagate from plan to shopfloor; after, it takes about 2 hours. The knock-on effects were substantial and measured: material ordering cycles fell from a monthly cadence to roughly 15 days, and in-plant inventory levels dropped by ~70%. This is what "just-in-time" means in practice at scale — not a slogan, but a specific digital-logistics system with a specific, documented before-and-after.
+
+The mechanism generalises: Just-in-Sequence (JIS), the tighter cousin of JIT where components arrive not just on time but in the exact build order the line needs, depends entirely on the same short-radius, digitally-synced supplier geography. Neither JIT nor JIS works at all if the supplier is three states away.
+
+## 3. The cluster geography isn't equally developed
+
+The JIT model this piece describes assumes a dense, technologically capable Tier-1 supplier base sitting close to the OEM. That assumption holds much better in some clusters than others. Pune and Chennai are Tier-1-heavy and can accelerate technologically alongside their anchor OEMs. The Delhi-Haryana (NCR) belt looks structurally different: roughly 80% of its auto-component firms are Tier-2/Tier-3 MSMEs, with only about 20% large Tier-1 manufacturers — despite NCR hosting Maruti Suzuki, India's single largest passenger-vehicle producer by volume, and the specific 76%-within-100km statistic cited above. A cluster can be geographically JIT-ready (suppliers physically close) while remaining institutionally weaker (smaller, less capitalised, less able to absorb the working-capital and technology demands JIT places on a supplier) — and NCR is the clearest case of that gap in India's own cluster geography.
+
+## 4. The one crisis that showed exactly where this model breaks
+
+JIT's central bet is that suppliers will always be able to deliver on the short cycle the system depends on. The 2021 global semiconductor shortage was the test case, and it did not go well for India's automakers specifically. Indian automakers were forced to cut output by up to 40% during the first three quarters of 2021; Bosch, a major Tier-1 supplier into the Indian market, reported a "severe supply shortage" of imported microcontrollers that directly constrained its ability to deliver. Chip lead times globally stretched from a pre-pandemic three-to-four months to a year or longer through 2021-22.
+
+A supply-chain model built to minimise inventory has no answer when the shortage isn't local and can't be solved by moving a supplier closer.
+
+The lesson wasn't that JIT itself failed — the short-radius, high-frequency delivery mechanics documented in Section 2 kept working exactly as designed for every input that was actually available. The lesson was narrower and sharper: JIT assumes supply reliability, and a system with near-zero buffer stock has no slack to absorb a shock in an input (semiconductors) that sits far upstream of the domestic cluster geography entirely, imported rather than locally sourced. The industry-wide response since has leaned toward selective buffer stock and dual-sourcing for the specific inputs most exposed to this kind of global shock, layered on top of — not replacing — the short-radius JIT model for everything else.
+
+## 5. Localisation policy is quietly making JIT more feasible, not less
+
+The PLI-Auto scheme, approved September 2021 with a ₹25,938 crore outlay running FY2022-23 to FY2026-27, requires a minimum 50% Domestic Value Addition (DVA) from participating companies. As of March 2026 it had attracted ₹44,326 crore in investment and generated roughly 67,820 jobs; by July 2026, 18 applicants held DVA certificates covering 155 Advanced Automotive Technology products and variants.
+
+KPMG's November 2024 "Automotive Pulse India" newsletter independently corroborates the direction of travel: it names "supply chain disruptions due to geopolitical tensions" as one of the sector's top identified challenges going into FY25 — the same imported-far-upstream fragility Section 4 documents for semiconductors specifically — and separately reports that India's automobile sector had, as a distinct policy track from PLI-Auto, identified 28 key components for indigenisation under a formal "localisation roadmap" aimed at accelerating Make in India. The auto-component industry's FY24 export base (₹ equivalent of USD21.2 billion, up 5.5% year-on-year, against USD20.9 billion of imports) is the balance PLI-Auto and the 28-component roadmap are both trying to shift further onshore.
+
+Why this connects back to Sections 2 and 4. A 50% domestic-value-addition floor is, mechanically, a push toward shorter, more India-based supply chains for exactly the kind of advanced components (the semiconductor-adjacent electronics covered in this site's Chapter 85 piece included) that caused the 2021 shortage in the first place. Deeper localisation doesn't just serve an industrial-policy goal on its own terms — it directly shrinks the distance between "component made" and "component needed," which is the same geography this piece's JIT sections have been describing all along. If PLI-Auto succeeds at its DVA target, the 2021 shortage's specific failure mode — JIT with no slack for an imported, far-upstream input — becomes structurally less likely, not because JIT changed, but because more of the supply chain moved inside the radius where JIT already works.
+
+Updated 13 October 2026. The PLI-Auto scheme’s tenure was extended by one year, so incentives now run to FY2027-28 rather than ending in FY2026-27 as stated below; the outlay stays at ₹25,938 crore. The extension was announced in 2023 and gazetted later, so the end date below was already out of date when this article was written. Sources: [Autocar Professional](https://autocarpro.in/News/govt-extends-tenure-of-automobile-component-pli-scheme-by-1-year-to-fy28-118460), [Outlook Business](https://www.outlookbusiness.com/economy-and-policy/govt-extends-pli-for-auto-sector-by-a-year). The investment, jobs and applicant figures in the article match the Ministry of Heavy Industries reply of early August 2026. The original text below is unchanged.
+
+## What would fix this
+
+[kept verbatim, open: What would fix this; 4 items]
