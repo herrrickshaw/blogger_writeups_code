@@ -316,7 +316,7 @@ def main():
     abbrs_found = sorted({m.group(0) for m in ABBR_RE.finditer(corpus)} & set(GLOSSARY_DEFS))
 
     out = []
-    out.append('# Masala Deutsch — All Posts, Summarised\n')
+    out.append('# VertiStrat Solutions — All Posts, Summarised\n')
     out.append(f'*{len(posts)} published posts, {len(by_label)} topic labels. '
                 'Each entry is the post\'s own published standfirst — not a re-summary.*\n')
     out.append(f'*Generated {datetime.date.today().strftime("%-d %B %Y")} — regenerated daily by tools/update_summary_cron.sh.*\n')

@@ -508,7 +508,24 @@ def migrate_links(body):
     for h in OLD_HOSTS:
         new = re.sub(r"(?:https?:)?//(?:www\.)?" + re.escape(h), NEW_BASE, new)
         new = new.replace(h, NEW_BASE.split("//", 1)[1])
-    return new
+    return rebrand(new)
+
+
+BRAND = "VertiStrat Solutions"
+
+
+def rebrand(text):
+    """Replace the old blog name in visible text with the new brand. Never touches a URL or
+    path: herrrickshaw.github.io/masaladeutsch/... (scripts and data the posts load) and the
+    the-masala-deutsch-shop-... post address keep working because a name preceded by '/',
+    '.', '-' or a word character, or followed by '/', '-', '.<host>' or a word character,
+    is left alone."""
+    text = re.sub(r"(?<![\w/.\-])Masala[ \u00a0]Deutsch(?![\w/\-])", BRAND, text)
+    text = re.sub(r"(?<![\w/.\-])MASALA[ \u00a0]DEUTSCH(?![\w/\-])", BRAND.upper(), text)
+    text = re.sub(r"(?<![\w/.\-])masala deutsch(?![\w/\-])", BRAND.lower(), text)
+    # the repo/folder name in commands and code spans stays: `cd masaladeutsch`, `masaladeutsch`
+    text = re.sub(r"(?<![\w/.\-`])(?<!cd )masaladeutsch(?![\w/\-`])(?!\.(?:blogspot|github))", BRAND, text, flags=re.I)
+    return text
 
 
 def cmd_migrate_domain(args):
@@ -527,18 +544,24 @@ def cmd_migrate_domain(args):
             for p in page.get("items", []):
                 body = p.get("content") or ""
                 new = migrate_links(body)
-                if new != body:
+                title = rebrand(p.get("title") or "")
+                if new != body or title != p.get("title"):
+                    p["title"] = title
                     todo.append((status, p, new, sum(body.count(h) for h in OLD_HOSTS)))
             token = page.get("nextPageToken")
             if not token:
                 break
     pages = api(f"/blogs/{BLOG_ID}/pages?fetchBodies=true&view=ADMIN").get("items", [])
-    page_todo = [(p, migrate_links(p.get("content") or "")) for p in pages]
-    page_todo = [(p, n) for p, n in page_todo if n != (p.get("content") or "")]
+    page_todo = []
+    for p in pages:
+        n, title = migrate_links(p.get("content") or ""), rebrand(p.get("title") or "")
+        if n != (p.get("content") or "") or title != p.get("title"):
+            p["title"] = title
+            page_todo.append((p, n))
     # the article index first: every post footer links to it
     todo.sort(key=lambda t: (t[0] != "live",
                              (t[1].get("url") or "").rsplit("/", 1)[-1] != "article-index-start-here.html"))
-    print(f"{len(todo)} posts and {len(page_todo)} pages carry old-domain links "
+    print(f"{len(todo)} posts and {len(page_todo)} pages carry old-domain links or the old name "
           f"({sum(t[3] for t in todo):,} links in posts)")
     if args.limit:
         todo = todo[:args.limit]
@@ -658,8 +681,8 @@ def main():
     rv.add_argument("--slug", action="append"); rv.add_argument("--file", help="one slug per line")
     rv.add_argument("--dry-run", action="store_true"); rv.set_defaults(fn=cmd_revert_draft)
 
-    md = sub.add_parser("migrate-domain", help="rewrite masaladeutsch.blogspot.com links to the custom domain "
-                        "in every live post and page (re-runnable)")
+    md = sub.add_parser("migrate-domain", help="rewrite masaladeutsch.blogspot.com links to the custom domain and the "
+                        "old blog name to VertiStrat Solutions in every live post and page (re-runnable)")
     md.add_argument("--drafts", action="store_true", help="also rewrite draft posts")
     md.add_argument("--limit", type=int, default=0, help="write at most N posts this run")
     md.add_argument("--dry-run", action="store_true"); md.set_defaults(fn=cmd_migrate_domain)

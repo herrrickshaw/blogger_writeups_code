@@ -180,10 +180,10 @@ def main():
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Every article by topic — Masala Deutsch</title>
+<title>Every article by topic — VertiStrat Solutions</title>
 <meta name="description" content="Every article on blog.vertistratsolution.com, grouped by topic: {len(topics)} topics, {len(labelled)} articles. A plain, static index that needs no JavaScript.">
 <link rel="canonical" href="https://herrrickshaw.github.io/masaladeutsch/topics.html">
-<meta property="og:title" content="Every article by topic — Masala Deutsch">
+<meta property="og:title" content="Every article by topic — VertiStrat Solutions">
 <meta property="og:description" content="{len(topics)} topics, {len(labelled)} articles, grouped and dated.">
 <meta property="og:type" content="website">
 <style>{CSS}</style>
