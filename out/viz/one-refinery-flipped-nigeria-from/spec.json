@@ -1,0 +1,43 @@
+{
+ "top": [
+  ["62%", " of Nigeria's petrol now comes from Dangote's refinery, up from a standing start."],
+  ["650,000 bpd", " is the operating rate, about 99% utilisation, reached by January 2026."],
+  ["About 3.4 million bpd", " is the 2050 forecast for Africa's refined-product imports, up from about 2 million in 2024."]
+ ],
+ "sections": [
+  {"h2": "Dangote's refinery ramped from first crude to about 99% utilisation by January 2026",
+   "chart": {"type":"flow",
+             "title":"The refinery reached 650,000 bpd two years after it began processing crude",
+             "sub":"Key dates, as reported.",
+             "source":"OilPrice.com; Wikipedia, Dangote refinery.",
+             "events":[["December 2019","Announced start date, later missed by more than four years"],
+                       ["January 2024","Begins processing crude"],
+                       ["September 2024","Starts producing petrol"],
+                       ["January 2026","Running at roughly 650,000 barrels a day, about 99% of capacity",true]]},
+   "means": "The plant moved from first crude to near full output in about two years, after a long delay to its original date.",
+   "todo": "Track the 1.4 million bpd expansion target for 2028, since the post treats earlier capacity figures as unsettled."},
+  {"h2": "Dangote now covers 62% of Nigeria's petrol, with petrol imports down 54% in Q1 2025",
+   "chart": {"type":"bars",
+             "title":"Dangote supplies 57% of Nigeria's fuel and 62% of its petrol",
+             "sub":"Share of supply, %, as reported January to February 2026.",
+             "source":"OilPrice.com, January to February 2026.",
+             "unit":"%",
+             "accent":"Dangote share of Nigeria's petrol",
+             "rows":[["Dangote share of Nigeria's total fuel supply",57],["Dangote share of Nigeria's petrol",62]]},
+   "means": "Dangote's refinery now supplies most of Nigeria's petrol, and reported petrol imports fell sharply.",
+   "todo": "Check the net-exporter and jet-fuel export claims against customs or shipping data before relying on them.",
+   "numbers": {"table":"T1"}},
+  {"h2": "Africa's imports are still forecast to rise to about 3.4 million bpd by 2050",
+   "chart": {"type":"bars",
+             "title":"Net imports are forecast to rise from about 2 to about 3.4 million bpd by 2050",
+             "sub":"Net refined-product imports, million bpd.",
+             "source":"African Energy Chamber, 2026.",
+             "unit":"million bpd",
+             "accent":"2050 forecast",
+             "rows":[["2024",2],["2050 forecast",3.4]]},
+   "means": "Africa's import dependence is forecast to grow even after the refinery pipeline the Chamber counted.",
+   "todo": "Ask whether the Chamber's 3.4 million bpd forecast includes Nigeria's 24-project pipeline, which this post could not confirm.",
+   "numbers": {"table":"T2"}}
+ ],
+ "derived": {}
+}

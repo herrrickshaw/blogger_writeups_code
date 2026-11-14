@@ -1,0 +1,16 @@
+{"top": [["Rs 38,424 crore", " of defence exports in 2025-26, up 62.7% from Rs 23,622 crore."], ["86%", " of last year's Rs 14,802 crore rise came from public-sector firms."], ["9% a year", " is all exports now need to reach the Rs 50,000 crore target by 2028-29."]],
+ "sections": [
+  {"h2": "Defence exports have risen every year since FY21, reaching Rs 38,424 crore",
+   "chart": {"type": "bars", "title": "Exports grew about 25-fold since FY17, with the latest jump the largest since FY19", "sub": "Defence exports by financial year, Rs crore.", "source": "Ministry of Defence figures as reported; FY18-FY21 from news coverage.", "unit": "Rs crore", "accent": "FY26", "table": {"id": "T1", "label": 0, "value": 2, "rows": "top:10"}},
+   "means": "Exports rose from Rs 1,522 crore in 2016-17 to Rs 38,424 crore, while production grew far more slowly.",
+   "todo": "Treat the exports-to-production ratio as indicative only, since the two series are measured differently."},
+  {"h2": "Public-sector firms overtook private firms as the main exporters in 2025-26",
+   "chart": {"type": "bars", "title": "Public-sector exports rose 151% in one year, to Rs 21,071 crore", "sub": "Defence exports in 2025-26 by seller type, Rs crore.", "source": "Ministry of Defence figures as reported.", "unit": "Rs crore", "accent": "DPSUs and other PSUs", "rows": [["Private firms", 17353, "up 14%"], ["DPSUs and other PSUs", 21071, "up 151%"]]},
+   "means": "Private exports still grew 14% to Rs 17,353 crore, so the record rests on a few state firms and large orders.",
+   "todo": "Watch whether private firms regain growth, since their two-year pace is about 7% a year."},
+  {"h2": "Exports need about 9% a year to reach the 2029 target, production about 19%",
+   "chart": {"type": "bars", "title": "The export target needs less growth than recent years; production needs slightly more", "sub": "Annual growth, %. Targets read as 2028-29 from the FY26 base.", "source": "Ministry of Defence targets; growth rates as stated in the post.", "unit": "% a year", "accent": "Production needed to 2029", "rows": [["Exports needed", 9], ["Exports, last three years", 34], ["Production needed", 19], ["Production, last three years", 18]]},
+   "means": "Exports need about 9% a year against 34% over the last three years, so the export goal looks likely to be met.",
+   "todo": "Track deliveries on the large domestic orders, since the 2029 production goal depends on them."}
+ ],
+ "derived": {}}

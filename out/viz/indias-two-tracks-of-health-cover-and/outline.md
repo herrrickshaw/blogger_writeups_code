@@ -1,0 +1,44 @@
+## 1. The public track: PM-JAY's scale, and how states actually run it
+
+Ayushman Bharat PM-JAY offers eligible families up to ₹5 lakh per year in cashless secondary and tertiary care. As of this piece's original reporting, 43.52 crore Ayushman cards had been created nationally, with 12.69 crore cumulative hospital admissions authorised as of 30 June 2026 and over ₹1.92 lakh crore in approved claims. Update, 27 September 2026: by the scheme's 8th anniversary (23 September 2026), the government reported over 48.54 crore Ayushman cards created, 13.25 crore hospital admissions funded (as of 31 August 2026), and ₹2.03 lakh crore in treatment support — roughly 5 crore more cards issued in under three months. Source: organiser.org, ddindia.co.in and thenewsmill.com coverage of the anniversary, citing NHA/government figures. The scheme reached full national coverage in mid-2026: West Bengal, the sole remaining holdout, signed its implementation MoU with the National Health Authority on 8 June 2026, bringing an estimated 1.43 crore families (roughly 6 crore individuals) into the scheme.
+
+An Ayushman Bharat primary health centre in Nagpur — the public-scheme side of India's two parallel, and largely complementary, tracks of health cover. [Urban Primary Health Centre Ayushman Bharat Bidipeth Nagpur.jpg](https://commons.wikimedia.org/wiki/File:Urban_Primary_Health_Centre_Ayushman_Bharat_Bidipeth_Nagpur.jpg), Ganesh Dhamodkar, CC BY-SA 4.0, via Wikimedia Commons.
+
+What's less visible in the headline numbers is that states don't all run PM-JAY the same way. Most operate in trust mode — the state government directly bears claim risk rather than buying an insurance policy. Four states (Gujarat, Jharkhand, Rajasthan and West Bengal) use a hybrid trust-insurer structure, and Tamil Nadu alone runs a pure insurance-company model. Research comparing the two dominant approaches found the trust model processes claims more slowly and with a higher rejection rate, but costs less per beneficiary enrolled — a real trade-off between claimant experience and fiscal cost, not a case where one model is simply better.
+
+The more important structural fact for this piece: several states don't stop at PM-JAY's ₹5 lakh cap. Tamil Nadu's CMCHIS and Odisha's BSKY both add state-funded coverage on top of the central scheme rather than replacing it, and Rajasthan's Chiranjeevi Yojana goes further still — universal, all-family coverage layered onto the PM-JAY base. This is convergence, not competition: the state schemes assume PM-JAY as a floor and build upward from it.
+
+## 2. The private track: a real GST-driven acceleration, and a low base
+
+India's insurance penetration — premiums as a share of GDP — sits at 3.7%, well below the 7.3% global average, even after a decade of PM-JAY. But the growth rate has genuinely accelerated on the private side too. The GST Council recommended, and the government implemented from 22 September 2025, a full GST exemption on individual life and health insurance policies (including family floater plans), explicitly framed as supporting an "Insurance for All" goal. The effect shows up directly in premium collection data: individual health insurance premiums (including family floater) grew 29.7% in the October–March 2025-26 period, against 7.0% growth in the same period a year earlier — roughly a fourfold jump in growth rate. Individual life insurance saw a smaller but still real acceleration, 11.2% versus 7.7%. IRDAI subsequently confirmed to the Finance Department that insurers had not raised base premium rates to offset the tax cut — the relief was actually passed through to policyholders, not absorbed.
+
+
+[T1 "2. The private track: a real GST-driven acceleration, and a low base" 2 rows; use rows by number in a chart "table" spec]
+  cols: c0 Category | c1 Growth, Oct–Mar 2024-25 | c2 Growth, Oct–Mar 2025-26 (post-GST-exemption)
+  r0: Individual health insurance (incl. family floater) | 7.0% | 29.7%
+  r1: Individual life insurance | 7.7% | 11.2%
+
+
+Source: reported via VATupdate, 4 August 2026, citing a2ztaxcorp.net; the underlying government/IRDAI dataset was not independently located for this piece, so treat this as a secondary-sourced figure consistent with IRDAI's own public confirmation that the exemption's benefit reached policyholders, not a primary-filing citation.
+
+## 3. The actual linkage: complement, not substitute
+
+The intuitive assumption is that PM-JAY's expansion should crowd out private insurance demand — why buy a policy if the government already covers ₹5 lakh of hospitalisation? The research evidence points the other way. Studies of PM-JAY's effects on hospital-utilisation patterns found that enrollment is associated with a higher, not lower, probability of visiting a private facility — roughly a 4.6 percentage-point increase — and a broader shift in utilisation from public to private hospitals among covered beneficiaries. PM-JAY appears to function as a demand-side subsidy that makes private care newly affordable for beneficiaries who couldn't previously access it, rather than a substitute that displaces private-sector demand once someone already has (or could afford) a private policy.
+
+That reframes the two tracks: PM-JAY is expanding access for the population that couldn't previously pay for private care at all, while the GST-driven private premium growth is happening among the population that already could, and is now doing so more cheaply. They're not competing for the same household's decision so much as operating on different segments of the same underlying gap — the roughly 43% of India's total health expenditure that NHA 2022-23 still records as out-of-pocket is the space both tracks are separately trying to shrink, from opposite ends of the income distribution.
+
+## 4. The supply side: reinsurance capacity is arriving specifically for this gap
+
+A less-covered part of the same story is happening on the supply side, in GIFT City. India's International Financial Services Centres Authority (IFSCA) has approved a wave of new reinsurance branches through 2026: International General Insurance (IGI), Singapore Reinsurance Corporation, Santam, Abu Dhabi National Insurance, Eurasia Insurance, Korean Re, Kuwait Re, Peak Re, Saudi Re, Allianz, Generali, Starr International, Qatar Re, Doha Re and Lloyd's have all either received licences or begun operations in GIFT City's insurance offices (IIOs) this financial year, taking the count of active IIOs from roughly 8 to around 24. Several of these entrants have specifically flagged health reinsurance — alongside surety bonds, parametric cover, marine and cyber risk — as an underdeveloped product line they intend to build out in India, precisely because domestic reinsurance capacity for health risk has lagged the growth in both PM-JAY's claim volume and private health premium collection documented above.
+
+That's a genuine structural link between the two tracks this piece has been describing: more reinsurance capacity lowers the cost of writing health risk for both a state's PM-JAY-adjacent scheme and a private insurer's individual policy book, since both ultimately need reinsurance backing to absorb catastrophic claims. It's a capacity story sitting underneath both the public and private demand-side growth already covered, not a third, separate track.
+
+Verdict: Public and private health cover in India are growing in parallel, not colliding. PM-JAY's 43.52-crore-card, all-36-state reach and the private sector's GST-driven 29.7% premium surge are both real, verified growth stories happening at the same time, but the evidence points to them serving largely different segments — PM-JAY extending first-time access to previously-uncovered households (and, per the research cited, actually increasing their private-facility visits), while GST relief accelerates uptake among households that could already afford insurance. States that layer their own schemes (CMCHIS, BSKY, Chiranjeevi) on top of PM-JAY rather than replacing it reinforce the same complement-not-substitute pattern. The new reinsurance capacity arriving in GIFT City, several entrants explicitly targeting health as an underserved line, is the supply-side infrastructure catching up to both tracks at once.
+
+### Related on this blog
+
+See also: [ABHA: What India's 14-Digit Health ID Actually Does, in the Real Numbers](https://blog.vertistratsolution.com/2026/08/abha-what-indias-14-digit-health-id.html) · [India Cannot Sell “China-Free” Medicine While Importing 43% of What’s In It](https://blog.vertistratsolution.com/2026/08/india-cannot-sell-china-free-medicine.html) · [Foreign Capital Found India’s Hospitals — It Is Buying Them, Not Building New Ones](https://blog.vertistratsolution.com/2026/08/foreign-capital-found-indias-hospitals.html)
+
+## What would fix this
+
+[kept verbatim, open: What would fix this; 5 items]

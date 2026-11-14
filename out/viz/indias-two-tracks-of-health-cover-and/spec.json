@@ -1,0 +1,41 @@
+{
+ "top": [
+  ["29.7%", " growth in individual health premiums in Oct–Mar 2025-26, against 7.0% a year earlier, after the GST exemption."],
+  ["48.54 crore", " Ayushman cards created by the scheme's 8th anniversary, per government figures."],
+  ["3.7%", " of GDP is India's insurance premium share, against a 7.3% global average."]
+ ],
+ "sections": [
+  {"h2": "Individual health premium growth rose from 7.0% to 29.7% after the GST exemption",
+   "chart": {"type": "bars",
+             "title": "Health premiums grew 29.7% in Oct–Mar 2025-26, up from 7.0% a year earlier",
+             "sub": "Growth in individual health insurance premiums incl. family floater, %.",
+             "source": "VATupdate, 4 August 2026, citing a2ztaxcorp.net.",
+             "unit": "%",
+             "accent": "Oct–Mar 2025-26",
+             "rows": [["Oct–Mar 2024-25", 7.0], ["Oct–Mar 2025-26", 29.7]]},
+   "means": "The GST exemption on individual health and life policies, effective 22 September 2025, coincided with a sharp rise in premium growth.",
+   "todo": "Read the 29.7% as secondary-sourced and check the IRDAI dataset before quoting it as a primary figure.",
+   "numbers": {"table": "T1"}},
+  {"h2": "PM-JAY has issued 43.52 crore cards, rising to 48.54 crore by its 8th anniversary",
+   "chart": {"type": "bars",
+             "title": "Ayushman cards rose from 43.52 crore to 48.54 crore in under three months",
+             "sub": "Ayushman cards created nationally, crore.",
+             "source": "Coverage of the 8th anniversary, citing NHA and government figures.",
+             "unit": "crore cards",
+             "accent": "8th anniversary, Sep 2026",
+             "rows": [["Original reporting", 43.52], ["8th anniversary, Sep 2026", 48.54]]},
+   "means": "The card count is the scheme's headline reach figure, and it grew quickly in the months after the original reporting.",
+   "todo": "Check the date of each card count before comparing it with other scheme figures, since the two come from different points in time."},
+  {"h2": "India's premiums are 3.7% of GDP, against a 7.3% global average",
+   "chart": {"type": "bars",
+             "title": "India's insurance penetration sits well below the 7.3% global average",
+             "sub": "Premiums as a share of GDP, %.",
+             "source": "Figures as cited in the post.",
+             "unit": "%",
+             "accent": "India",
+             "rows": [["India", 3.7], ["Global average", 7.3]]},
+   "means": "Even after a decade of PM-JAY, private premiums remain a small share of GDP, which leaves a large gap to close.",
+   "todo": "Read the private growth as a low-base story, not as evidence that the market is already close to saturation."}
+ ],
+ "derived": {}
+}

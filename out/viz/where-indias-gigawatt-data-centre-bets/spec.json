@@ -1,0 +1,55 @@
+{
+ "top": [
+  ["1.2–1.5 GW", " operating in India today, against forecasts of 6–6.5 GW to 17 GW by about 2031."],
+  ["14.8 Tbps", " across Chennai's six cables, the main reason gigawatt bets cluster there."],
+  ["16.64%", " transmission and distribution losses, which the post calls a bigger limit than generation."]
+ ],
+ "sections": [
+  {"h2": "Forecasts run from 6–6.5 GW to 17 GW against 1.2–1.5 GW operating today",
+   "chart": {"type": "bars",
+             "title": "Every forecast in the post describes a four-to-tenfold expansion within five years",
+             "sub": "Data-centre capacity or demand, GW.",
+             "source": "Press Information Bureau (Ministry of Power); S&P Global; Mordor Intelligence; Jefferies, as cited by the post.",
+             "unit": "GW",
+             "accent": "Ministry of Power projection, FY2031–32",
+             "rows": [
+               ["Operational today", [1.2, 1.5], "Current range"],
+               ["S&P Global consensus, 2030", [6, 6.5], "9 GW bull case"],
+               ["Ministry of Power projection, FY2031–32", 13.56, "Built into transmission planning"],
+               ["Mordor Intelligence, 2031", 15.21],
+               ["Jefferies estimate", 17, "Cited by industry trackers"]
+             ]},
+   "means": "The forecasts disagree sharply, but every one of them implies a large expansion from today's operating base.",
+   "todo": "Plan against the Ministry of Power's 13.56 GW transmission projection, since it is the one figure with a government commitment behind it.",
+   "numbers": {"table": "T1"}},
+  {"h2": "Chennai's cable landings give it 14.8 Tbps, the basis of its location edge",
+   "chart": {"type": "bars",
+             "title": "Chennai's six cables carry a combined 14.8 Tbps, the densest landing in India",
+             "sub": "Capacity in Tbps, as stated in the post.",
+             "source": "Post's cable table; operator figures as cited.",
+             "unit": "Tbps",
+             "accent": "Chennai total, six cables",
+             "rows": [
+               ["i2i (Chennai–Singapore)", 8.4],
+               ["SEA-ME-WE 4, capacity added into India", 5.12],
+               ["Chennai total, six cables", 14.8]
+             ]},
+   "means": "i2i and SEA-ME-WE 4 are shown with their stated capacities, and the post gives no cable-by-cable split for the 14.8 Tbps total.",
+   "todo": "Name each of the six Chennai cables and its capacity before relying on the 14.8 Tbps total in any siting decision.",
+   "numbers": {"table": "T2"}},
+  {"h2": "Power is not the limit; transmission losses of 16.64% are the bottleneck",
+   "chart": {"type": "bars",
+             "title": "Data centres draw under 1% of national power, while transmission losses reach 16.64%",
+             "sub": "Share of national electricity, %.",
+             "source": "Post's figures, citing industry estimates and national grid data.",
+             "unit": "%",
+             "accent": "India transmission and distribution losses",
+             "rows": [
+               ["Data centres, share of national electricity", [0.5, 0.8]],
+               ["India transmission and distribution losses", 16.64]
+             ]},
+   "means": "The post argues the substations serving Mumbai and the National Capital Region are nearing local limits, so generation is not the near-term constraint.",
+   "todo": "Schedule substation upgrades alongside land and power-purchase deals, since a campus can be stalled waiting on one."}
+ ],
+ "derived": {}
+}

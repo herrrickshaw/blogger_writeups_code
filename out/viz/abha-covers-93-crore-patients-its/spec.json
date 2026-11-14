@@ -1,0 +1,36 @@
+{
+ "top": [
+  ["67%", " upper bound on India's doctors on the HPR, against 95%+ for Estonia's national EHR."],
+  ["90.1%", " is the lowest patient-record coverage among the four comparison countries; India's 93+ crore accounts is a count, not a share."]
+ ],
+ "sections": [
+  {"h2": "Patients: abroad, national records reach 90% or more of residents",
+   "chart": {"type": "bars", "title": "Comparison countries' patient records reach 90.1% to ~100% of residents",
+             "sub": "Share of residents with a national patient record, %.",
+             "source": "Figures from the comparison table above; India not charted, as no share is published.",
+             "unit": "%", "accent": "Estonia",
+             "rows": [["Estonia", 100, "~100% of residents"], ["Denmark", 96, "96% recognition"], ["UK (England)", 96, "96%+ (55M+ people)"], ["Australia", 90.1, "90.1%, opt-out since 2019"]]},
+   "means": "India's 93+ crore accounts is a count of accounts created, not a share, so it is not charted and no like-for-like coverage figure exists.",
+   "todo": "Publish an active-use figure beside account counts, since accounts created are not records used.",
+   "numbers": {"table": "T1"}},
+  {"h2": "Doctors: India's registry reaches at most 67%, Estonia's EHR 95%+",
+   "chart": {"type": "bars", "title": "Estonia's national EHR reaches over 95% of doctors; India's registry at most 67%",
+             "sub": "Share of the country's doctors on the national digital system, %.",
+             "source": "Invest in Estonia; HPR and NMC figures per 2026 secondary reporting.",
+             "unit": "%", "accent": "India (HPR, upper bound)",
+             "rows": [["India (HPR, upper bound)", 67, "~9.5 lakh of ~14.2 lakh registered doctors"], ["Estonia (national EHR)", 95, "95%+; live since 2008"]]},
+   "means": "Registration is voluntary in India but tied to practice in Estonia, which explains part of the gap.",
+   "todo": "Publish a doctors-only HPR count so the 67% upper bound can be replaced by a true share."},
+  {"h2": "Insurers: NHCX went live in 2024, but mandatory integration is only recommended",
+   "chart": {"type": "flow", "title": "Mandatory insurer integration was recommended in August 2026, two years after launch",
+             "events": [["June 2024", "National Health Claims Exchange goes live as a standardised, FHIR-based claims pipe"], ["August 2026", "IRDAI-constituted panel recommends mandating NHCX integration for insurers", true]]},
+   "means": "Denmark's Shared Medication Record already works across institutions, while India's claims exchange is still in voluntary onboarding.",
+   "todo": "Make NHCX integration mandatory for insurers, as the IRDAI panel recommends."},
+  {"h2": "The UK's unified record arrives in 2028, eighteen years after its summary",
+   "chart": {"type": "flow", "title": "Summary coverage came first; the full Single Patient Record is due in 2028",
+             "events": [["2010", "Summary Care Record rolls out, covering 96%+ of the population"], ["2028", "Single Patient Record due to reach patients via the NHS App, with GP and hospital data", true]]},
+   "means": "England's summary record has high coverage but holds only a limited extract, not the full record.",
+   "todo": "Judge any national record by what it contains and who can act on it, not by coverage alone."}
+ ],
+ "derived": {}
+}

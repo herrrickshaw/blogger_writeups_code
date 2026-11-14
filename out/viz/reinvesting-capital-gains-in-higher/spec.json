@@ -1,0 +1,22 @@
+{"top": [["₹60.09 lakh", " is where 54EC bonds end after five years, ahead of every AAA and AA alternative in the table."], ["9.92%", " is the pre-tax yield a rival must earn over five years to match 54EC at a 30% slab."], ["₹2.25 lakh", " of the ₹6.50 lakh tax exemption reaches the investor; the rest goes to issuers as a below-market coupon."]],
+ "sections": [
+  {"h2": "The 54EC route beats every AAA and AA alternative over five years",
+   "chart": {"type": "bars", "title": "Only BBB and A-rated paper beats 54EC bonds at their 5.25% coupon", "sub": "Terminal value of a ₹50 lakh gain after five years, ₹ lakh. The top row is a hypothetical market-rate 54EC, not purchasable.", "source": "Author's model; issuer boards for 54EC coupons; RBI Floating Rate Savings Bond 2020 (Taxable).", "unit": "₹ lakh", "accent": "Section 54EC bonds", "table": {"id": "T1", "label": 0, "value": 4, "rows": "top:11", "sort": "desc"}},
+   "means": "The 54EC bonds end at ₹60.09 lakh, ahead of every AAA and AA alternative and the RBI's 8.05% bond, and only BBB and A-rated paper beats them.",
+   "todo": "Compare investments on terminal wealth after tax, and check the credit rating before buying anything that beats 54EC.",
+   "numbers": {"table": "T1"}},
+  {"h2": "A rival must earn 9.92% pre-tax over five years to match 54EC at a 30% slab",
+   "chart": {"type": "bars", "title": "A 30% slab lifts the five-year breakeven to 9.92%, from 8.74% at a 5% slab", "sub": "Pre-tax yield an alternative must earn to match 54EC over five years, by marginal slab rate, %.", "source": "Author's model, same assumptions as the terminal-value table.", "unit": "%", "accent": "30% slab", "rows": [["5% slab", 8.74], ["20% slab", 9.36], ["30% slab", 9.92]]},
+   "means": "The breakeven rises with the slab rate, so 54EC is worth most to investors in the highest bracket.",
+   "todo": "Judge 54EC over its five-year lock-in only, since its edge over higher-yielding rivals shrinks on longer horizons.",
+   "numbers": {"table": "T2"}},
+  {"h2": "Below-market coupons return ₹4.25 lakh of the ₹6.50 lakh exemption to issuers",
+   "chart": {"type": "bars", "title": "The investor keeps ₹2.25 lakh of the ₹6.50 lakh tax exemption", "sub": "Tax forgone on a ₹50 lakh gain, split between the investor and the issuers, ₹ lakh.", "source": "Author's calculation; 54EC coupon of 5.25% against the 7.46% AAA PSU market yield.", "unit": "₹ lakh", "accent": "Kept by the investor", "rows": [["Tax exemption granted", 6.5], ["Returned to issuers via coupon", 4.25], ["Kept by the investor", 2.25]]},
+   "means": "Repricing 54EC at the 7.46% market rate lifts its terminal value from ₹60.09 lakh to ₹64.33 lakh, which is the ₹4.25 lakh cost of the below-market coupon.",
+   "todo": "Judge the exemption by the ₹2.25 lakh the investor keeps, not by the ₹6.50 lakh headline tax saving."},
+  {"h2": "Today's ₹50 lakh cap buys only what ₹34.2 lakh bought in 2014",
+   "chart": {"type": "bars", "title": "The ₹50 lakh ceiling has lost 31.7% of its real value since 2014", "sub": "The ₹50 lakh ceiling as set in 2014, and today's ₹50 lakh expressed in 2014 prices, ₹ lakh.", "source": "Income-tax Act 1961; Office of the Economic Adviser, DPIIT (WPI, base 2011-12); author's calculation.", "unit": "₹ lakh", "accent": "Today's ₹50 lakh in 2014 prices", "rows": [["Cap as set in 2014", 50], ["Today's ₹50 lakh in 2014 prices", 34.2]]},
+   "means": "The ₹50 lakh ceiling has not been revised since 2014, and on the blog's wholesale price series it has lost 31.7% of its real value.",
+   "todo": "Ask for the ceiling to be indexed to prices, so the exemption does not shrink in real terms every year it stays fixed."}
+ ],
+ "derived": {}}

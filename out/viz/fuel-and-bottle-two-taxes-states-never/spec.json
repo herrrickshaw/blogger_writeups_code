@@ -1,0 +1,40 @@
+{
+ "top": [
+  ["34%", " of states' own-tax revenue comes from fuel VAT and liquor excise together, both outside GST."],
+  ["56.4%", " of Arunachal Pradesh's own-tax revenue comes from fuel and liquor, the highest share in the table."]
+ ],
+ "sections": [
+  {"h2": "Fuel VAT and liquor excise supply 34% of state own-tax revenue, outside GST",
+   "chart": {"type": "bars",
+             "title": "Fuel VAT is the second-largest state tax after SGST, ahead of liquor excise",
+             "sub": "Share of national own-tax revenue, 2025-26 budget estimates, %.",
+             "source": "PRS Legislative Research, State of State Finances 2025, Figure 20.",
+             "unit": "%",
+             "accent": "Sales tax / VAT (mostly fuel)",
+             "rows": [["SGST (post-2017 GST base)", 44], ["Sales tax / VAT (mostly fuel)", 20], ["State excise (mostly liquor)", 14], ["Stamp duty and registration", 12]]},
+   "means": "Fuel VAT and liquor excise together make up a third of what states raise themselves, from two commodities outside GST.",
+   "todo": "Treat petrol and diesel as roughly a fifth of state own-tax revenue in any GST Council decision about them."},
+  {"h2": "Telangana, Meghalaya and Andhra Pradesh each draw about 44% from fuel and liquor",
+   "chart": {"type": "bars",
+             "table": {"id": "T1", "label": 0, "value": 7, "rows": "top:10", "sort": "desc"},
+             "title": "Arunachal Pradesh's fuel and liquor share is over half its own-tax revenue",
+             "sub": "Fuel VAT plus liquor excise as a share of each state's own-tax revenue, %.",
+             "source": "PRS Legislative Research, State of State Finances 2025, Figure 20.",
+             "unit": "%",
+             "accent": "Arunachal Pradesh"},
+   "means": "Kerala's 40.6% runs mostly through fuel VAT at 2.4% of GSDP, while its liquor excise is only 0.2%.",
+   "todo": "Compare states on their fuel and liquor shares together with each state's own-tax total, not on either line alone.",
+   "numbers": {"table": "T1"}},
+  {"h2": "Bihar, Mizoram and Nagaland collect no liquor excise under prohibition",
+   "chart": {"type": "bars",
+             "title": "Under prohibition the liquor excise line falls to zero",
+             "sub": "State excise on liquor, % of GSDP, 2025-26 budget estimates.",
+             "source": "PRS Legislative Research, State of State Finances 2025, Figure 20.",
+             "unit": "% of GSDP",
+             "accent": "Bihar",
+             "rows": [["Bihar", 0, "prohibition"], ["Mizoram", 0, "prohibition"], ["Nagaland", 0, "restricted sale"], ["Uttar Pradesh", 2.0, "no prohibition"]]},
+   "means": "Bihar's fuel-plus-liquor share is just 18.2%, with fuel VAT at 1.0% of GSDP and no excise.",
+   "todo": "Model a prohibition state's revenue on fuel VAT alone, not on a combined fuel-and-liquor base."}
+ ],
+ "derived": {}
+}

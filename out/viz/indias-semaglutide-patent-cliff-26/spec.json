@@ -1,0 +1,40 @@
+{
+ "top": [
+  ["26", " semaglutide brands from 13 companies launched within weeks of the March 2026 patent expiry."],
+  ["33%", " of India's GLP-1 segment in March 2026, up from 25% a month earlier."],
+  ["49", " entities inspected by the drug regulator in the same month, with irregularities flagged."]
+ ],
+ "sections": [
+  {"h2": "Generics launched at ₹1,300–4,200 a month, against Novo's ₹10,000–22,000",
+   "chart": {"type": "bars",
+             "title": "Generic prices sit well below Novo's Indian brand prices",
+             "sub": "Monthly price in rupees, as reported in the post.",
+             "source": "Business Standard; BusinessToday; Reuters via malaymail.com.",
+             "unit": "₹",
+             "accent": "Generic, from",
+             "rows": [["Generic, from", 1300], ["Generic, Dr. Reddy's diabetes version", 4200], ["Novo brands, low end", 10000], ["Novo brands, high end", 22000]]},
+   "means": "Named generic makers, including Sun Pharma and Dr Reddy's, were in market within days of the 21 March launch, with prices from ₹1,300.",
+   "todo": "Track whether generic prices hold as the launch rush levels off."},
+  {"h2": "Within a month, semaglutide's share of India's GLP-1 category rose from 25% to 33%",
+   "chart": {"type": "bars",
+             "title": "Semaglutide gained category share in March as Eli Lilly's fell",
+             "sub": "Share of India's GLP-1 category, February vs March 2026, %.",
+             "source": "CNBC; Bloomberg; Seeking Alpha; eMarketer.",
+             "unit": "%",
+             "accent": "Semaglutide, Mar 2026",
+             "rows": [["Eli Lilly, Feb 2026", 61], ["Eli Lilly, Mar 2026", 56], ["Semaglutide, Feb 2026", 25], ["Semaglutide, Mar 2026", 33]]},
+   "means": "Eli Lilly's overall share fell from 61% to 56% in the first month after expiry, while Novo's own branded share held at 25%.",
+   "todo": "Watch the next monthly share data to see whether semaglutide's gain holds."},
+  {"h2": "Regulators tightened GLP-1 enforcement in the same fortnight as the launch",
+   "chart": {"type": "flow",
+             "title": "The crackdown ran in parallel with the launch, not after it",
+             "events": [
+               ["10 March 2026", "CDSCO advisory bars surrogate advertising and indirect promotion of GLP-1 drugs"],
+               ["20 March 2026", "Semaglutide composition patent expires in India"],
+               ["24 March 2026", "Government has inspected 49 entities and flagged irregularities", true]
+             ]},
+   "means": "By 24 March the government had inspected 49 entities, flagging irregularities in unauthorised sales and non-compliant promotion.",
+   "todo": "Watch whether the notices issued to several entities lead to licence cancellations or prosecution."}
+ ],
+ "derived": {}
+}
