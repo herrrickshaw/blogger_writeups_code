@@ -1,6 +1,6 @@
 # Leaf brief: visual-first edition of one post (read this whole file; it is short)
 
-Repo: /home/user/blogger_writeups_code. You own only `out/viz/<slug>/**` and `out/update-2026-11-15-<slug>.html`.
+Repo: /home/user/blogger_writeups_code. You own only `out/viz/<slug>/**` (the edition is written to `out/viz/<slug>/edition.html`).
 No git, no blogger_api, no edits under tools/ posts/ meta/ templates/ theme/. Nothing is published.
 
 ## Do exactly this (about 5 turns)

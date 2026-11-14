@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Acceptance oracle for a visual-first edition (docs/VISUAL_STORY_STYLE.md).
 
-    python3 tools/viz_verify.py <slug>                 # checks out/update-2026-11-15-<slug>.html against posts/<slug>.html
+    python3 tools/viz_verify.py <slug>                 # checks out/viz/<slug>/edition.html against posts/<slug>.html
     python3 tools/viz_verify.py <slug> --edition FILE
     python3 tools/viz_verify.py --self-test            # runs the oracle on a known-good and known-bad pair
 
@@ -90,7 +90,7 @@ def mobile(path):
 def verify(slug, edition=None, quiet=False):
     errs, manual = [], []
     orig_path = ROOT / f"posts/{slug}.html"
-    ed_path = pathlib.Path(edition) if edition else ROOT / f"out/update-{DATE}-{slug}.html"
+    ed_path = pathlib.Path(edition) if edition else ROOT / f"out/viz/{slug}/edition.html"
     if not orig_path.exists():
         return [f"no live post posts/{slug}.html"], manual
     if not ed_path.exists():
@@ -217,7 +217,7 @@ def verify(slug, edition=None, quiet=False):
 def self_test():
     """Known-good: the blending pilot. Known-bad: the same file with an invented number and a broken frame."""
     slug = "blending-on-budget-energy-density-and"
-    good = ROOT / f"out/update-{DATE}-{slug}.html"
+    good = ROOT / f"out/viz/{slug}/edition.html"
     errs, _ = verify(slug, good)
     assert not errs, f"the known-good pilot failed: {errs}"
     bad = good.read_text(encoding="utf-8").replace("<h1", "<h1 data-x=1", 1)

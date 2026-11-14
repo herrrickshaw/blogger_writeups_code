@@ -195,7 +195,7 @@ def build(slug):
 
     note = (f'<p class="gb-note"><b>Updated 15 November 2026:</b> rewritten as charts; figures unchanged.</p>\n')
     mid = STYLE + top + fr.keep_front + update_notes(fr.body) + note + "".join(secs) + extra
-    out = ROOT / f"out/update-{DATE}-{slug}.html"
+    out = d / "edition.html"            # NOT out/update-*.html: phase3_publish.sh publishes every file with that name
     out.write_text(fr.head + fr.mid + mid + "\n" + fr.tail, encoding="utf-8")
     (d / "derived.json").write_text(json.dumps(spec.get("derived", {}), indent=1) + "\n", encoding="utf-8")
     return out

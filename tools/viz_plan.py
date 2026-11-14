@@ -20,8 +20,8 @@ Mode: orchestrated
 
 ## Contract
 
-- Interfaces: out/update-2026-11-15-<slug>.html is a full post body = live head + [hero figure] + accessibility/translate block + new middle + live tail (tools/viz_frame.py); middle built with tools/exec_viz.py
-- Ownership: each leaf owns out/viz/<slug>/** and out/update-2026-11-15-<slug>.html, nothing else; posts/ and meta/ are never edited (CLAUDE.md rule 1)
+- Interfaces: out/viz/<slug>/edition.html is a full post body = live head + [hero figure] + accessibility/translate block + new middle + live tail (tools/viz_frame.py); middle built with tools/exec_viz.py
+- Ownership: each leaf owns out/viz/<slug>/** (the edition is out/viz/<slug>/edition.html), nothing else; posts/ and meta/ are never edited (CLAUDE.md rule 1)
 - Dependencies: none between leaves; branch = one wave
 - Host launch mode: Claude background Agents (the Dynamic Workflow tool needs the user's explicit opt-in)
 - Wave policy: waves of up to 6 until the pass rate and cost per leaf are measured, then larger; every leaf in a wave launches before any result is read
@@ -75,7 +75,7 @@ Scope: the oracle works, and every wave branch is verified
 
 LEAF = """# Gates: viz {slug}
 
-OWNS: out/viz/{slug}/**, out/update-2026-11-15-{slug}.html
+OWNS: out/viz/{slug}/**
 
 Scope: a visual-first edition of {slug} that passes the oracle and reads correctly at 375px
 
@@ -106,7 +106,7 @@ def wave(n, slugs):
         (D / "gates" / f"leaf-{lid}.md").write_text(LEAF.format(slug=s))
         tree_add.append(f"  - 1.{n} wave {n} ........ gates/node-1.{n}.md" if i == 1 else None)
         tree_add.append(f"    - {lid} {s} ...... gates/leaf-{lid}.md")
-        rows.append(f"| {lid} | out/viz/{s}/**, out/update-2026-11-15-{s}.html | - | judgment | {n} | READY |")
+        rows.append(f"| {lid} | out/viz/{s}/** | - | judgment | {n} | READY |")
     tree_add = [t for t in tree_add if t]
     plan = plan.replace("- 1 visual-first rewrite ........ GATES.md\n", "- 1 visual-first rewrite ........ GATES.md\n" + "\n".join(tree_add) + "\n", 1)
     plan = plan.replace("|---|---|---|---|---|---|\n\n## Status log", "|---|---|---|---|---|---|\n" + "\n".join(rows) + "\n\n## Status log", 1)

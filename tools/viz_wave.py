@@ -25,7 +25,11 @@ def manifest(n):
 
 def prepare(n, k):
     tri = json.loads((ROOT / "out/viz/triage.json").read_text())
-    slugs = [x["slug"] for x in tri if x["disposition"] == "rewrite" and not (ROOT / f"out/viz/{x['slug']}").exists()][:k]
+    taken = {s for f in (ROOT / "out/viz").glob("wave-*.json") for s in json.loads(f.read_text())["slugs"]}
+    taken |= {s for s in json.loads((ROOT / "out/viz/triage.json").read_text()) and [x["slug"] for x in tri] if (ROOT / f"out/viz/{s}/.verified").exists()}
+    w2 = ROOT / ".unlazy/viz/gates"                      # waves 1 and 2 were launched before manifests existed
+    taken |= {m.group(1) for f in w2.glob("leaf-1.*.md") for m in [re.search(r"OWNS: out/viz/([^/]+)/", f.read_text())] if m}
+    slugs = [x["slug"] for x in tri if x["disposition"] == "rewrite" and x["slug"] not in taken][:k]
     print(sh(sys.executable, "tools/viz_plan.py", "wave", str(n), *slugs).stdout.strip())
     for s in slugs:
         sh(sys.executable, "tools/viz_new.py", s)
@@ -57,7 +61,7 @@ def collect(n):
     for i, (s, h) in enumerate(zip(m["slugs"], m["handles"]), 1):
         f = tasks / f"{h}.output"
         finished = f.exists() and "SubagentHandback" in f.read_text(errors="replace")
-        v = sh(sys.executable, "tools/viz_verify.py", s).stdout.strip() if (ROOT / f"out/update-2026-11-15-{s}.html").exists() else "no edition"
+        v = sh(sys.executable, "tools/viz_verify.py", s).stdout.strip() if (ROOT / f"out/viz/{s}/edition.html").exists() else "no edition"
         st = sh(sys.executable, "tools/viz_leafstats.py", str(f)).stdout.split("turns")[-1].strip()[:60] if f.exists() else ""
         if finished:
             done += 1

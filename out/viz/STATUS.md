@@ -2,7 +2,7 @@
 
 Pipeline: `docs/VIZ_LEAF_BRIEF.md` (the leaf instructions), `tools/viz_verify.py` (the oracle), `tools/viz_triage.py`,
 `tools/viz_new.py`, `tools/viz_plan.py`. Run state lives in `.unlazy/viz/` (not committed: machine-specific).
-Nothing here is published. Editions are `out/update-2026-11-15-<slug>.html`; publish each with
+Nothing here is published. Editions are `out/viz/<slug>/edition.html` (NOT out/update-*.html: phase3_publish.sh publishes every file with that name); publish each with
 `python3 tools/blogger_api.py update --slug <slug> --file <edition> --dry-run` after reading it.
 
 ## Triage of the 482 live posts (`out/viz/triage.json`)

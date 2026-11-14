@@ -16,7 +16,7 @@ from exec_viz import STYLE, bars, insight, line, numbers, top_line  # noqa: E402
 
 SLUG = "blending-on-budget-energy-density-and"
 SRC = (ROOT / f"posts/{SLUG}.html").read_text(encoding="utf-8")
-OUT = ROOT / f"out/update-2026-11-15-{SLUG}.html"
+OUT = ROOT / f"out/viz/{SLUG}/edition.html"
 
 # ---- figures from the live post ----
 PETROL, ETHANOL, DIESEL, ISOBUTANOL = 32.4, 21.3, 35.8, 26.6        # MJ/L

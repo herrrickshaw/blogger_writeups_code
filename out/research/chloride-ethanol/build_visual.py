@@ -17,7 +17,7 @@ D = runpy.run_path(str(pathlib.Path(__file__).with_name("build_post.py")))
 LIMITS, EMAIL, R = D["LIMITS"], D["EMAIL"], D["R"]
 TANK_L, TANK_KG = D["TANK_L"], D["TANK_KG"]
 ACC, PERM = D["IS10500_ACC"], D["IS10500_PERM"]
-OUT = ROOT / "out/update-2026-11-15-chloride-in-fuel-ethanol-is-15464-sets.html"
+OUT = ROOT / "out/viz/chloride-in-fuel-ethanol-is-15464-sets/edition.html"
 
 assert R[500][0] > TANK_L > R[100][0]          # the chart's claim: 500 mg/kg needs more water than the tank holds
 assert round(EMAIL[0][2] / 3) == 190            # "up to 190 times the 3 ppm limit"

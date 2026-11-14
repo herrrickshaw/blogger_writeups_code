@@ -40,8 +40,8 @@ redrawing, not CSS. Build and upload: `python3 tools/theme_build.py`, then Theme
 Long paragraphs and dense tables are content problems. `docs/VISUAL_STORY_STYLE.md` sets the format and
 `tools/exec_viz.py` builds the parts. Pilots (15 Nov 2026):
 
-- `out/update-2026-11-15-chloride-in-fuel-ethanol-is-15464-sets.html` (`out/research/chloride-ethanol/build_visual.py`)
-- `out/update-2026-11-15-blending-on-budget-energy-density-and.html` (`out/research/blending-visual/build.py`): 3,886 words to about 1,740.
+- `out/viz/chloride-in-fuel-ethanol-is-15464-sets/edition.html` (`out/research/chloride-ethanol/build_visual.py`)
+- `out/viz/blending-on-budget-energy-density-and/edition.html` (`out/research/blending-visual/build.py`): 3,886 words to about 1,740.
 
 Suggested order for the rest: the most-read list first, then posts with the most swipe tables and small charts
 (re-run the audit script to rank them).
