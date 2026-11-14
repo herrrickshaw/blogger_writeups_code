@@ -811,6 +811,7 @@ SLUG_CONTAINS = {
     "50-lakh-stray-cattle": ["Circularity & Waste-to-Value", "Environment & Clearances", "Livestock & Dairy"],
     "top-law-firms-have-signed": ["Governance & Institutions", "Markets & Finance"],
     "spare-crop-residue-could-make": ["Agriculture & Fertilisers", "Climate & Carbon", "Circularity & Waste-to-Value"],
+    "chloride-in-fuel-ethanol": ["Ethanol & Biofuels", "Energy & Fuels"],
 }
 
 
