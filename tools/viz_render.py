@@ -143,6 +143,17 @@ def lint(spec):
                 errs.append(f"section {i} chart title is {len(t)} characters (1 to 90): {t[:60]!r}")
             if not re.search(r"\d", t) and len(t.split()) < 7:
                 errs.append(f"section {i} chart title does not state a finding (add the number or make it a full statement): {t!r}")
+        if c.get("type") == "bars":
+            n = len(c["table"].get("rows", [])) if isinstance(c.get("table", {}).get("rows"), list) else None
+            rows = c.get("rows") or []
+            m = re.fullmatch(r"top:(\d+)", str(c.get("table", {}).get("rows", "")))
+            count = len(rows) if rows else (int(m.group(1)) if m else n)
+            if count is not None and not 2 <= count <= 14:
+                errs.append(f"section {i} bar chart has {count} bars (2 to 14): choose the rows that carry the finding; the rest belongs in 'numbers'")
+            if not c.get("accent"):
+                errs.append(f"section {i} bar chart has no 'accent': name the label (or labels) the title is about so exactly the finding is highlighted")
+        if c.get("type") == "line" and not c.get("accent"):
+            errs.append(f"section {i} line chart has no 'accent' series")
         for k in ("means", "todo"):
             if not one(s.get(k, "")):
                 errs.append(f"section {i} '{k}' must be exactly one sentence ending in a full stop (no '. Capital' inside): {plain(s.get(k, ''))[:80]!r}")
@@ -196,7 +207,7 @@ def build(slug):
     note = (f'<p class="gb-note"><b>Updated 15 November 2026:</b> rewritten as charts; figures unchanged.</p>\n')
     mid = STYLE + top + fr.keep_front + update_notes(fr.body) + note + "".join(secs) + extra
     out = d / "edition.html"            # NOT out/update-*.html: phase3_publish.sh publishes every file with that name
-    out.write_text(fr.head + fr.mid + mid + "\n" + fr.tail, encoding="utf-8")
+    out.write_text(fr.head + fr.mid + fr.bridge + mid + "\n" + fr.tail, encoding="utf-8")
     (d / "derived.json").write_text(json.dumps(spec.get("derived", {}), indent=1) + "\n", encoding="utf-8")
     return out
 

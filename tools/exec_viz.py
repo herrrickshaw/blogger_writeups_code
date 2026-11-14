@@ -87,7 +87,10 @@ def _title(t):
 
 
 def _fmt(v, unit=""):
-    s = f"{v:,.0f}" if abs(v) >= 100 or float(v).is_integer() else f"{v:,.2f}".rstrip("0").rstrip(".")
+    if float(v) < 0:
+        out = _fmt(-v, unit)
+        return "-" + out
+    s = f"{v:,.0f}" if float(v).is_integer() else f"{v:,.2f}".rstrip("0").rstrip(".")      # never round a figure into a different number
     if not unit:
         return s
     m = re.fullmatch(r"([$\u20b9\u20ac\u00a3])\s*(.*)", unit.strip())      # "$/kg" -> "$4.21/kg"; "\u20b9 crore" -> "\u20b958,711 crore"
@@ -141,7 +144,8 @@ def bars(title, rows, *, unit="", sub="", source="", accent=None, ref=None, vmax
     zero = 100 * (-lo_all) / span if neg else 0
     plain = fmt is None
     fmt = fmt or (lambda v: _fmt(v, unit))
-    fmt_lo = (lambda v: _fmt(v)) if plain else fmt
+    sym = (re.match(r"[$\u20b9\u20ac\u00a3]", unit.strip()) or [""])[0] if plain else ""
+    fmt_lo = (lambda v: _fmt(v, sym)) if plain else fmt        # "\u20b932,000\u2013\u20b934,000 crore": the symbol on both ends, the unit word once
     out = []
     if ref:
         out.append(f'<p class="xv-key"><i></i>{ref[1]}</p>')

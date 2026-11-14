@@ -15,7 +15,7 @@ import html as _html
 import re
 from collections import namedtuple
 
-Frame = namedtuple("Frame", "head lead mid body keep_front notes tail")
+Frame = namedtuple("Frame", "head lead mid body keep_front notes tail bridge")
 
 _H1_END = re.compile(r"</h1>\s*(?:<p class=\"standfirst\">.*?</p>\s*)?(?:</div>\s*)?", re.S)
 _TRANSLATE_END = re.compile(r"translate\.google\.com/translate_a/element\.js\?cb=googleTranslateElementInit\"></script>\s*", re.S)
@@ -27,6 +27,37 @@ _TAIL_MARKS = [
     r'(?:<hr>\s*)?<h[23][^>]*>\s*Related on this blog',
     r'<h[23][^>]*>\s*(?:Sources|Documents(?: &amp;|&) sources)',
 ]
+
+
+def _open_containers(text):
+    """Stack of container elements still open at the end of text: [(name, full opening tag)]."""
+    t = re.sub(r"<(script|style)\b.*?</\1>", "", text, flags=re.S | re.I)
+    st = []
+    for m in re.finditer(r"<(/?)(div|section|article|header|main|aside)\b[^>]*>", t, re.I):
+        name = m.group(2).lower()
+        if m.group(1):
+            for i in range(len(st) - 1, -1, -1):
+                if st[i][0] == name:
+                    del st[i:]
+                    break
+        elif not m.group(0).rstrip().endswith("/>"):
+            st.append((name, m.group(0)))
+    return st
+
+
+def _bridge(upto_mid, upto_tail):
+    """Tags to put between the kept header and the new content so that the kept footer finds the containers it expects:
+    close what is open after the header but not at the footer, open what the footer expects but the header did not."""
+    a, b = _open_containers(upto_mid), _open_containers(upto_tail)
+    k = 0
+    while k < min(len(a), len(b)) and a[k][0] == b[k][0]:
+        k += 1
+    return "".join(f"</{n}>" for n, _ in reversed(a[k:])) + "".join(tag for _, tag in b[k:])
+
+
+def container_balance(html):
+    """Number of container elements left open at the end of html (0 for a well-formed fragment)."""
+    return len(_open_containers(html))
 
 
 def split(html):
@@ -54,10 +85,12 @@ def split(html):
         return None
     # keep photographs (and their credit lines) and an "Updated ..." note out of the rewrite
     keep = "".join(re.findall(r'<figure[^>]*>(?:(?!</figure>).)*?<img\b.*?</figure>', body, re.S))
-    sk = html.find('<a href="#" id="gs-skip-link"', h.end(), t.end())
-    sk = h.end() if sk < 0 else sk
+    head_end = h.end()
+    sk = html.find('<a href="#" id="gs-skip-link"', head_end, t.end())
+    sk = head_end if sk < 0 else sk
     notes = "".join(re.findall(r'<div class="warn"[^>]*>\s*<b>Updated .*?</div>', body, re.S))   # dated update notes stay
-    return Frame(html[:h.end()], html[h.end():sk], html[sk:t.end()], body, keep, notes, html[tail_at:])
+    bridge = _bridge(html[:t.end()], html[:tail_at])
+    return Frame(html[:head_end], html[head_end:sk], html[sk:t.end()], body, keep, notes, html[tail_at:], bridge)
 
 
 def visible(html):

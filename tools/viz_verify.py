@@ -36,7 +36,7 @@ import tempfile
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "tools"))
-from viz_frame import numbers, split, visible  # noqa: E402
+from viz_frame import container_balance, numbers, split, visible  # noqa: E402
 
 DATE = "2026-11-15"
 OPS = {ast.Add: operator.add, ast.Sub: operator.sub, ast.Mult: operator.mul, ast.Div: operator.truediv, ast.Pow: operator.pow}
@@ -109,6 +109,10 @@ def verify(slug, edition=None, quiet=False):
     if errs:
         return errs, manual
     mid = ed[len(front):len(ed) - len(back)]
+    if container_balance(ed) != container_balance(orig):
+        errs.append(f"frame: the edition leaves {container_balance(ed)} container element(s) open, the live post {container_balance(orig)}; "
+                    "content would inherit an open wrapper's styling (a hero or slide). tools/viz_frame.py's bridge should prevent this")
+        return errs, manual
     new_text, old_body = visible(mid), visible(fr.body)
 
     # ---- structure ----

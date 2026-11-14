@@ -5,6 +5,7 @@
 
   rewrite     standard frame, 500+ words, enough numbers to chart, nothing interactive  -> leaf agent builds an edition
   done        an edition already passes tools/viz_verify.py
+  pending     an unpublished update or Phase 3 merge exists for this post; rewrite after it is published and snapshotted
   frame       a different template (tools/viz_frame.py cannot split it); needs a template fix or hand work
   interactive scripts, canvas or iframes that a rewrite would break; phone layout only (theme module gs-mobile-v1)
   walkthrough "How to use ..." command walkthroughs; code blocks are the content; phone layout only
@@ -34,7 +35,36 @@ def interactive(html):
     return bool(re.search(r"<(canvas|iframe)\b", html, re.I))
 
 
+def pending_posts():
+    """Posts whose newest update file differs from the live text by more than 3% (an unpublished rewrite), plus the Phase 3
+    merge targets: a visual edition built from the live text would conflict with them. Rewrite these after they are
+    published and the next snapshot has run."""
+    import glob
+    latest = {}
+    for f in sorted(glob.glob(str(ROOT / "out/update-*.html"))):
+        m = re.match(r"update-(\d{4}-\d\d-\d\d)-(.+)\.html$", pathlib.Path(f).name)
+        if m:
+            latest[m.group(2)] = f
+    hold = set(json.load(open(ROOT / "out/gsc_index/phase3_map.json")).values())
+    shingles = lambda w: {" ".join(w[i:i + 5]) for i in range(max(1, len(w) - 4))}
+    for s, f in latest.items():
+        live = ROOT / f"posts/{s}.html"
+        if not live.exists():
+            continue
+        a, b = visible(open(f, encoding="utf-8", errors="replace").read()).split(), visible(live.read_text(encoding="utf-8")).split()
+        if a != b:
+            A, B = shingles(a), shingles(b)
+            if len(A & B) / max(1, len(A | B)) < 0.97:
+                hold.add(s)
+    return hold
+
+
+HOLD = set()
+
+
 def main():
+    global HOLD
+    HOLD = pending_posts()
     manifest = json.load(open(ROOT / "meta/manifest.json"))["posts"].values()
     retired = set(json.load(open(ROOT / "out/gsc_index/phase1_remove.json"))) | set(json.load(open(ROOT / "out/gsc_index/phase3_map.json")))
     most_read = re.findall(r"/([a-z0-9-]+)\.html", (pathlib.Path("/home/user/vertistrat-site/src/data/mostRead.ts").read_text() if pathlib.Path("/home/user/vertistrat-site/src/data/mostRead.ts").exists() else ""))
@@ -53,6 +83,8 @@ def main():
         nums = len([n for n in numbers(visible(fr.body if fr else html)) if not re.fullmatch(r"(19|20)\d\d", n)])
         if (ROOT / f"out/viz/{slug}/.verified").exists():
             d = "done"
+        elif slug in HOLD:
+            d = "pending"
         elif slug.startswith(("how-to-use", "how-to-")) or re.search(r"-open-source-tools?-|open-source-toolkits?", slug):
             d = "walkthrough"
         elif interactive(html):
