@@ -1,0 +1,49 @@
+{
+ "top": [
+  ["73.71%", " of India's API, bulk-drug and intermediate imports (US$4.35bn, FY2024-25) came from China."],
+  ["2,192", " crore of imports avoided under PLI-Bulk Drugs by December 2025, against a 6,940 crore outlay."],
+  ["0 of 3", " Bulk Drug Parks in commercial production, five years after Cabinet approval."]
+ ],
+ "sections": [
+  {"h2": "China supplies 73.71% of India's API imports, far ahead of any other origin",
+   "chart": {"type": "bars",
+             "title": "No other single country exceeds 2.5% of the import bill",
+             "sub": "Share of India's API, bulk-drug and intermediate imports by origin, FY2024-25, %.",
+             "source": "PIB (DGCIS data), release PRID 2222528, 3 Feb 2026.",
+             "unit": "%",
+             "accent": "China",
+             "table": {"id": "T4", "label": 0, "value": 1, "rows": "top:4"}},
+   "means": "China's share sits near its FY23 peak, so five years of PLI have not visibly reduced it.",
+   "todo": "Set an explicit target percentage and year for closing the China gap, since no PIB document states one.",
+   "numbers": {"table": "T4"}},
+  {"h2": "Imports avoided rose each snapshot, reaching 2,192 crore by December 2025",
+   "chart": {"type": "bars",
+             "title": "Cumulative imports avoided climbed from 1,483 to 2,192 crore in six months",
+             "sub": "Cumulative imports avoided under PLI-Bulk Drugs, crore.",
+             "source": "PIB and Department of Pharmaceuticals releases, June to December 2025.",
+             "unit": "crore",
+             "accent": "Dec 2025",
+             "table": {"id": "T2", "label": 0, "value": 4, "rows": "top:3"}},
+   "means": "Imports avoided remain small beside the 6,940 crore outlay, even though the figure is rising.",
+   "todo": "Publish a newer imports-avoided figure, since none later than December 2025 was found.",
+   "numbers": {"table": "T2"}},
+  {"h2": "Capacity exists in some molecules, but China still supplies most of their imports",
+   "chart": {"type": "bars",
+             "title": "PLI-localised rifampicin, norfloxacin and vitamin B6 remain heavily China-dependent",
+             "sub": "China's share of India's imports of each molecule, FY2024-25, %.",
+             "source": "PIB, 3 Feb 2026.",
+             "unit": "%",
+             "accent": "Vitamin B6",
+             "rows": [
+               ["Norfloxacin", 99.90, "PLI-localised, flat"],
+               ["Rifampicin", 89.01, "PLI-localised, flat"],
+               ["Penicillins & salts", 92.87, "PLI-localised, worse"],
+               ["Vitamin B6", 88.28, "PLI-localised, worse"],
+               ["Ibuprofen", 80.73, "No PLI project, improved"]
+             ]},
+   "means": "Capacity commissioned is not the same as import substitution having happened.",
+   "todo": "Judge the scheme on imports displaced by molecule, not on capacity commissioned.",
+   "numbers": {"table": "T6"}}
+ ],
+ "derived": {}
+}

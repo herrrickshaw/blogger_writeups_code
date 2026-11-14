@@ -1,0 +1,42 @@
+{
+ "top": [
+  ["89%", " of India's 2024 imports from Switzerland is gold, and TEPA's tariff schedule leaves gold untouched."],
+  ["99.6%", " of India's exports are covered by EFTA's tariff offer, against 95.3% of EFTA's exports under India's offer."],
+  ["260-to-1", " is Norway's salmon sales to China against India this year, so tariff cuts alone will not build the market."]
+ ],
+ "sections": [
+  {"h2": "Gold is 89% of India's Swiss imports, and TEPA does not change its duty",
+   "chart": {"type": "bars",
+             "title": "Gold, pearls and precious stones dominate India's imports from Switzerland",
+             "sub": "India's imports from Switzerland, 2024, US$ billion.",
+             "source": "Secondary compilations of Swiss customs and DGCI&S data, as reported in the post.",
+             "unit": "US$ bn",
+             "accent": "Pearls, precious stones and gold",
+             "rows": [["Pearls, precious stones and gold", 19.19], ["All other imports", 2.33]]},
+   "means": "Gold's effective duty does not change under TEPA, so the headline import figure is mostly not a TEPA exposure.",
+   "todo": "Strip gold out of gross trade figures before measuring what TEPA exposes India to."},
+  {"h2": "EFTA's tariff offer is broader on paper, covering 99.6% of India's exports",
+   "chart": {"type": "bars",
+             "title": "EFTA offers duty cuts on more tariff lines than India offers in return",
+             "sub": "Share of tariff lines covered by each side's offer, %.",
+             "source": "PIB press releases on TEPA's coming into force (Oct 2025), as reported in secondary coverage.",
+             "unit": "%",
+             "accent": "EFTA's offer to India",
+             "ref": [100, "100% = every tariff line"],
+             "rows": [["India's offer to EFTA", 82.7, "95.3% of EFTA exports"], ["EFTA's offer to India", 92.2, "99.6% of India's exports"]]},
+   "means": "Basmati and non-basmati rice get duty-free EFTA access with no reciprocal concession from India.",
+   "todo": "Actively market the duty-free rice access to exporters, as the post recommends.",
+   "numbers": {"table": "T1"}},
+  {"h2": "Norway sells India about 200 tonnes of salmon, against 52,000 to China",
+   "chart": {"type": "bars",
+             "title": "TEPA removes the tariff, but India's salmon market still has to be built",
+             "sub": "Norwegian salmon sales this year, tonnes.",
+             "source": "Norwegian Seafood Council, as reported in the post.",
+             "unit": "tonnes",
+             "accent": "Salmon to India",
+             "rows": [["Salmon to China", 52000], ["Salmon to India", 200]]},
+   "means": "Norway sold roughly 52,000 tonnes of salmon to China this year, against about 200 tonnes to India.",
+   "todo": "Pair the tariff cut with cold-chain and distribution investment before expecting salmon volumes to follow."}
+ ],
+ "derived": {"2.33": "21.52-19.19", "260": "52000/200"}
+}

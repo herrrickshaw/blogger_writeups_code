@@ -1,0 +1,54 @@
+{
+  "top": [
+    ["19%", " growth in bio-power capacity since December 2019, against 384% for solar."],
+    ["4.9%", " is bio-power's share of non-hydro renewable capacity in 2026, down from 11.4% in 2019."],
+    ["₹9.6–11.1", " per kWh is the biomass levellised tariff in the proposed CERC order, against ₹2.5–3.5 for solar and wind."]
+  ],
+  "sections": [
+    {
+      "h2": "Bio-power grew 19% in six and a half years, while solar grew 384%",
+      "chart": {
+        "type": "bars",
+        "title": "Bio-power lagged every other non-hydro renewable category",
+        "sub": "Growth in installed capacity, December 2019 to July 2026, %.",
+        "source": "CSEP Working Paper 58 (2019, citing CEA); MNRE state-wise capacity table, 31 July 2026.",
+        "unit": "%",
+        "accent": "Bio-power",
+        "rows": [["Solar", 384], ["Wind", 55], ["Bio-power", 19], ["Small hydro", 11]]
+      },
+      "means": "Bio-power's share of non-hydro renewable capacity fell from 11.4% in 2019 to 4.9% in 2026.",
+      "todo": "Track whether biomass capacity starts to grow once Time-of-Day tariffs reach more consumers.",
+      "numbers": {"table": "T1"}
+    },
+    {
+      "h2": "Three states hold roughly 62% of India's bio-power capacity",
+      "chart": {
+        "type": "bars",
+        "title": "Maharashtra, Uttar Pradesh and Karnataka hold roughly 62% of capacity",
+        "sub": "Share of national bio-power capacity, %, as on 31 July 2026.",
+        "source": "MNRE state-wise installed renewable-capacity table, as on 31.07.2026.",
+        "unit": "%",
+        "accent": "Maharashtra",
+        "table": {"id": "T2", "label": 0, "value": 2, "rows": "top:6", "sort": "desc"}
+      },
+      "means": "Most of this capacity is sugarcane-bagasse cogeneration attached to sugar mills, not purpose-built biomass plants.",
+      "todo": "Find out how much of this state-level capacity sells power under purchase agreements rather than for captive use.",
+      "numbers": {"table": "T2"}
+    },
+    {
+      "h2": "Biomass costs ₹9.6–11.1 per kWh to supply, against ₹2.5–3.5 for solar and wind",
+      "chart": {
+        "type": "bars",
+        "title": "Biomass levellised tariff sits several times above normal solar and wind tariffs",
+        "sub": "Tariff in rupees per kWh; ranges as reported in the post.",
+        "source": "CERC proposed RE tariff order for FY2026-27, as cited in the post.",
+        "unit": "₹/kWh",
+        "accent": "Biomass levellised tariff",
+        "rows": [["Biomass levellised tariff", [9.6, 11.1]], ["Normal solar and wind tariff", [2.5, 3.5]]]
+      },
+      "means": "The post's cost figures suggest the 10–20% ToD premium is unlikely to be the deciding factor on its own.",
+      "todo": "Check the final FY2026-27 CERC biomass tariffs, which the post has not yet compared against this range."
+    }
+  ],
+  "derived": {}
+}
