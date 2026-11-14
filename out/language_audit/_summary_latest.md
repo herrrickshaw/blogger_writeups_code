@@ -1,6 +1,6 @@
-# Language audit summary — 2026-11-11
+# Language audit summary — 2026-11-14
 
-*289 of 511 posts flagged. Report-only — nothing was published. Per-post detail in out/language_audit/<slug>.md.*
+*296 of 521 posts flagged. Report-only — nothing was published. Per-post detail in out/language_audit/<slug>.md.*
 
 - [Half-Empty Terminals, Costlier Pipes: Winter Comes for Europe's Landlocked Five](https://blog.vertistratsolution.com/2026/08/winter-is-coming-for-europes-landlocked.html) — 74 matches — see `winter-is-coming-for-europes-landlocked.md`
 - [A 17% Rural Pay Rise That Nobody Received](https://blog.vertistratsolution.com/2026/08/a-17-rural-pay-rise-that-nobody-received.html) — 54 matches — see `a-17-rural-pay-rise-that-nobody-received.md`
@@ -27,6 +27,7 @@
 - [The Levelised Cost of Hydrogen, Explained: What It Would Actually Take to Hit India's $1.50/kg Target](https://blog.vertistratsolution.com/2026/08/the-levelised-cost-of-hydrogen.html) — 9 matches — see `the-levelised-cost-of-hydrogen.md`
 - [Everyone Worries About Who Pays for India's CO2 Pipelines. Pipelines Are the Cheap Part](https://blog.vertistratsolution.com/2026/09/everyone-worries-about-who-pays-for.html) — 8 matches — see `everyone-worries-about-who-pays-for.md`
 - [One Nation One Ration Card Doesn't Move Grain. FCI's Ethanol Tenders Move a Lot of It](https://blog.vertistratsolution.com/2026/09/one-nation-one-ration-card-doesnt-move.html) — 8 matches — see `one-nation-one-ration-card-doesnt-move.md`
+- [Five Open-Source Control Simulators for EV Batteries, Hydrogen Electrolysers and Prosthetic Hands, and Which to Start With](https://blog.vertistratsolution.com/2026/11/five-open-source-control-simulators-for.html) — 7 matches — see `five-open-source-control-simulators-for.md`
 - [Foreign Capital Found India's Hospitals — It Is Buying Them, Not Building New Ones](https://blog.vertistratsolution.com/2026/08/foreign-capital-found-indias-hospitals.html) — 7 matches — see `foreign-capital-found-indias-hospitals.md`
 - [How to use agentic-insurance-agent: open-source insurance workflows with safe AI](https://blog.vertistratsolution.com/2026/10/how-to-use-agentic-insurance-agent-open.html) — 7 matches — see `how-to-use-agentic-insurance-agent-open.md`
 - [India Pays $5-8 Billion a Year to Ship Its Own Oil. Only 20% of That Cargo Travels on an Indian Vessel.](https://blog.vertistratsolution.com/2026/09/india-pays-5-8-billion-year-to-ship-its.html) — 7 matches — see `india-pays-5-8-billion-year-to-ship-its.md`
@@ -39,6 +40,8 @@
 - [How to Use the Process-Safety Design Toolkit: A Complete Walkthrough, Command by Command](https://blog.vertistratsolution.com/2026/11/how-to-use-process-safety-design.html) — 6 matches — see `how-to-use-process-safety-design.md`
 - [How to use transmission-client: control a Transmission daemon from a CLI, a web page or Python](https://blog.vertistratsolution.com/2026/10/how-to-use-transmission-client-control.html) — 6 matches — see `how-to-use-transmission-client-control.md`
 - [IPA Digital Twin — Reportage: Latest Updates (15 Sep – 9 Nov 2026)](https://blog.vertistratsolution.com/2026/08/ipa-digital-twin-reportage-latest.html) — 6 matches — see `ipa-digital-twin-reportage-latest.md`
+- [Nine Open-Source Tools for Sizing and Costing India’s Biofuel, Gas and Refining Plants, and Which One to Start With](https://blog.vertistratsolution.com/2026/11/nine-open-source-tools-for-sizing-and.html) — 6 matches — see `nine-open-source-tools-for-sizing-and.md`
+- [Thirteen Small Open-Source Tools for Developers and AI Users, From a Local Claude Fallback to an LFS Duplicate Audit, and What Each One Is For](https://blog.vertistratsolution.com/2026/11/thirteen-small-open-source-tools-for.html) — 6 matches — see `thirteen-small-open-source-tools-for.md`
 - [57.4 GW and Counting: India's Wind Fleet, State by State, Against What NIWE Says Is Actually There](https://blog.vertistratsolution.com/2026/08/574-gw-and-counting-indias-wind-fleet.html) — 5 matches — see `574-gw-and-counting-indias-wind-fleet.md`
 - [Annadata to Urjadata: The Farmer-Income Case for Ethanol Blending](https://blog.vertistratsolution.com/2026/08/annadata-to-urjadata-farmer-income-case.html) — 5 matches — see `annadata-to-urjadata-farmer-income-case.md`
 - [How to use bms-battery-management: simulate an EV battery pack in Python](https://blog.vertistratsolution.com/2026/10/how-to-use-bms-battery-management.html) — 5 matches — see `how-to-use-bms-battery-management.md`
@@ -90,6 +93,7 @@
 - [The Software Behind the Still: What's Actually Digitising India's Ethanol and Biofuel Supply Chain](https://blog.vertistratsolution.com/2026/08/the-software-behind-still-whats.html) — 3 matches — see `the-software-behind-still-whats.md`
 - [The Supercycle Is in Metals; the 2026 Oil Spike Is a Shock](https://blog.vertistratsolution.com/2026/10/the-supercycle-is-in-metals-2026-oil.html) — 3 matches — see `the-supercycle-is-in-metals-2026-oil.md`
 - [The Water Bill Nobody Mentions: What Taiwan's Chip Crisis Says About India's Fab Plans](https://blog.vertistratsolution.com/2026/08/the-water-bill-nobody-mentions-what.html) — 3 matches — see `the-water-bill-nobody-mentions-what.md`
+- [Two Open-Source Health Prototypes, an ICU Vitals Dashboard and a Capsule-Endoscopy Screener, and Why Neither Is a Medical Device](https://blog.vertistratsolution.com/2026/11/two-open-source-health-prototypes-icu.html) — 3 matches — see `two-open-source-health-prototypes-icu.md`
 - [Uttar Pradesh's GST Puzzle: A Growing Economy That Had a Terrible Year, and Then Didn't](https://blog.vertistratsolution.com/2026/08/uttar-pradeshs-gst-puzzle-growing.html) — 3 matches — see `uttar-pradeshs-gst-puzzle-growing.md`
 - [Where India's Gigawatt Data-Centre Bets Actually Land: Projects, Cables, and the $210 Billion Behind Them](https://blog.vertistratsolution.com/2026/08/where-indias-gigawatt-data-centre-bets.html) — 3 matches — see `where-indias-gigawatt-data-centre-bets.md`
 - [_drafted-commodity-supercycle-trade-dependence]() — 2 matches — see `_drafted-commodity-supercycle-trade-dependence.md`
@@ -118,8 +122,8 @@
 - [How to use india-omc-fuel-fleet-model: ethanol blend scenarios and OMC pump income in pure Python](https://blog.vertistratsolution.com/2026/10/how-to-use-india-omc-fuel-fleet-model.html) — 2 matches — see `how-to-use-india-omc-fuel-fleet-model.md`
 - [If India Paid BRICS in Rupees: A Scenario Model of De-Dollarising 41% of the Import Bill](https://blog.vertistratsolution.com/2026/08/if-india-paid-brics-in-rupees-scenario.html) — 2 matches — see `if-india-paid-brics-in-rupees-scenario.md`
 - [India Doesn’t Need a Blockchain to Pay Its Farmers. It May Need One to Agree on Who Owns the Land](https://blog.vertistratsolution.com/2026/11/india-doesnt-need-blockchain-to-pay-its.html) — 2 matches — see `india-doesnt-need-blockchain-to-pay-its.md`
-- [India Forest, Wildlife & CRZ Clearances — PARIVESH](https://masaladeutsch.blogspot.com/2026/07/india-forest-wildlife-crz-clearances.html) — 2 matches — see `india-forest-wildlife-crz-clearances.md`
-- [India Fuel Retail Outlets — 82k Geocoded Map (Part 2 of 3)](https://masaladeutsch.blogspot.com/2026/07/india-fuel-retail-outlets-82k-geocoded.html) — 2 matches — see `india-fuel-retail-outlets-82k-geocoded.md`
+- [India Forest, Wildlife & CRZ Clearances — PARIVESH](https://blog.vertistratsolution.com/2026/07/india-forest-wildlife-crz-clearances.html) — 2 matches — see `india-forest-wildlife-crz-clearances.md`
+- [India Fuel Retail Outlets — 82k Geocoded Map (Part 2 of 3)](https://blog.vertistratsolution.com/2026/07/india-fuel-retail-outlets-82k-geocoded.html) — 2 matches — see `india-fuel-retail-outlets-82k-geocoded.md`
 - [India Imports the Whey Protein Its Cheese Makers Pour Away. The Fix Is Shared Whey Hubs, Not a Dryer in Every Dairy](https://blog.vertistratsolution.com/2026/10/india-imports-whey-protein-its-cheese.html) — 2 matches — see `india-imports-whey-protein-its-cheese.md`
 - [India Irrigates Itself. 96.6% of Its Irrigation Schemes Are Privately Owned.](https://blog.vertistratsolution.com/2026/09/india-irrigates-itself-966-of-its.html) — 2 matches — see `india-irrigates-itself-966-of-its.md`
 - [India Is Piping Jet Fuel to Five New Airports at Once. Only Six Had It Before](https://blog.vertistratsolution.com/2026/09/india-is-piping-jet-fuel-to-five-new.html) — 2 matches — see `india-is-piping-jet-fuel-to-five-new.md`
@@ -181,6 +185,8 @@
 - [Dr. Reddy's Cut Its Semaglutide Guidance in Half After an API Impurity It Caught Itself](https://blog.vertistratsolution.com/2026/09/dr-reddys-cut-its-semaglutide-guidance.html) — 1 matches — see `dr-reddys-cut-its-semaglutide-guidance.md`
 - [Earnings Drift and Piotroski Work Only Where Trading Is Thin](https://blog.vertistratsolution.com/2026/10/earnings-drift-and-piotroski-work-only.html) — 1 matches — see `earnings-drift-and-piotroski-work-only.md`
 - [Effective Buying Power & the China Comparison — Rupee Real Exchange Rate](https://blog.vertistratsolution.com/2026/08/effective-buying-power-china-comparison.html) — 1 matches — see `effective-buying-power-china-comparison.md`
+- [Eight Open-Source Tools for India’s Trade Data, From HS Chapters to Chemical Codes and Forex, and Which One Answers Which Question](https://blog.vertistratsolution.com/2026/11/eight-open-source-tools-for-indias.html) — 1 matches — see `eight-open-source-tools-for-indias.md`
+- [Eight Open-Source Tools for Tracking India’s Gazette, Parliament, Clearances, Incentives and Regulators, and What Each One Answers](https://blog.vertistratsolution.com/2026/11/eight-open-source-tools-for-tracking.html) — 1 matches — see `eight-open-source-tools-for-tracking.md`
 - [EPFO's Pay Ceiling Rose to ₹25,000 After 12 Years. In 2014 Rupees, That Is Slightly Less Than the Old ₹15,000](https://blog.vertistratsolution.com/2026/10/epfos-pay-ceiling-rose-to-25000-after.html) — 1 matches — see `epfos-pay-ceiling-rose-to-25000-after.md`
 - [Fourteen Years of Indian Wholesale Prices: Diesel Up 79%, Urea Up 13.8% — and Three Corrections to Our Own Earlier Posts](https://blog.vertistratsolution.com/2026/08/fourteen-years-of-indian-wholesale.html) — 1 matches — see `fourteen-years-of-indian-wholesale.md`
 - [From Barrel to Bottle: The Petrochemical Pivot Also Makes a Lighter LPG Cylinder](https://blog.vertistratsolution.com/2026/08/from-barrel-to-bottle-petrochemical.html) — 1 matches — see `from-barrel-to-bottle-petrochemical.md`
@@ -262,6 +268,8 @@
 - [Re-Spinning the Charkha](https://blog.vertistratsolution.com/2026/08/re-spinning-charkha.html) — 1 matches — see `re-spinning-charkha.md`
 - [RIN, RED and CBIO: What India's Ethanol Programme Could Borrow From Three Different Carbon-Credit Machines](https://blog.vertistratsolution.com/2026/08/rin-red-and-cbio-what-indias-ethanol.html) — 1 matches — see `rin-red-and-cbio-what-indias-ethanol.md`
 - [Screen an LPG Terminal Before the Workshop, and See the Dense-Gas Gap It Cannot Close](https://blog.vertistratsolution.com/2026/11/screen-process-safety-question-in-five.html) — 1 matches — see `screen-process-safety-question-in-five.md`
+- [Seven Open-Source Tools for India’s Fuel and Power Data: Petrol Pumps, CNG Areas, Ethanol Blends, Used Oil and Discom Debt, and Which One to Use](https://blog.vertistratsolution.com/2026/11/seven-open-source-tools-for-indias-fuel.html) — 1 matches — see `seven-open-source-tools-for-indias-fuel.md`
+- [Seven Open-Source Tools for Stock-Market Research, From Ticker Lists to Valuation Models, and Where Each One Stops](https://blog.vertistratsolution.com/2026/11/seven-open-source-tools-for-stock.html) — 1 matches — see `seven-open-source-tools-for-stock.md`
 - [Sixteen Crops, Twenty Years: Where India’s Harvest Grew From More Land and Where From Better Yields](https://blog.vertistratsolution.com/2026/10/sixteen-crops-twenty-years-where-indias.html) — 1 matches — see `sixteen-crops-twenty-years-where-indias.md`
 - [State by State: Who Actually Earns from Ethanol Blending? SGST Scenarios, E10-E30](https://blog.vertistratsolution.com/2026/08/state-by-state-who-actually-earns-from.html) — 1 matches — see `state-by-state-who-actually-earns-from.md`
 - [States Won the Right to Tax Mines in 2024. A 45-Minute Law Took It Back, Along With Up to Rs 2 Lakh Crore of Dues](https://blog.vertistratsolution.com/2026/10/states-won-right-to-tax-mines-in-2024.html) — 1 matches — see `states-won-right-to-tax-mines-in-2024.md`
@@ -289,5 +297,4 @@
 - [Wheat's Support Price Rose by ₹25, the Smallest Rise in Years. The Granaries Explain Why](https://blog.vertistratsolution.com/2026/10/wheats-support-price-rose-by-25.html) — 1 matches — see `wheats-support-price-rose-by-25.md`
 - [Where the World's Oil Sits When It Isn't Moving: Storage, Floating Barrels, and the Hormuz Shock of 2026](https://blog.vertistratsolution.com/2026/08/where-worlds-oil-sits-when-it-isnt.html) — 1 matches — see `where-worlds-oil-sits-when-it-isnt.md`
 - [Who Collects India's GST, and Who Actually Gets It Back](https://blog.vertistratsolution.com/2026/08/who-collects-indias-gst-and-who.html) — 1 matches — see `who-collects-indias-gst-and-who.md`
-- [What TEPA Actually Opens: EFTA Goods, India's Real Numbers, and Where Domestic Manufacturing Needs to Catch Up](https://blog.vertistratsolution.com/2026/08/what-tepa-actually-opens-efta-goods.html) — 0 matches — see `what-tepa-actually-opens-efta-goods.md`
-- [Where India's Green Hydrogen Bets Are Actually Landing: A State-by-State Map of the Pipeline](https://blog.vertistratsolution.com/2026/08/where-indias-green-hydrogen-bets-are.html) — 0 matches — see `where-indias-green-hydrogen-bets-are.md`
+- [Three Open-Source Tools for India’s Mandi and Grain Data: Daily Prices, Monthly Arrivals Since 2019, and the MSP Question](https://blog.vertistratsolution.com/2026/11/three-open-source-tools-for-indias.html) — 0 matches — see `three-open-source-tools-for-indias.md`
