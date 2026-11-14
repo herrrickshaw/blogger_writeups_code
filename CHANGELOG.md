@@ -18717,3 +18717,13 @@ scheduled sync
 **Added**
 
 - `indias-spare-crop-residue-could-make-57` **v1.0.0** — India’s Spare Crop Residue Could Make 57 Million Tonnes of Biochar a Year. Only Two Crop–State Pairs Stay Near the Top However You Weigh It (112,100 bytes)
+
+## 2026-11-14T11:58:10+05:30 — 517 posts live
+
+**Added**
+
+- `indias-spare-crop-residue-could-make-57_0594387739` **v1.0.0** — India’s Spare Crop Residue Could Make 57 Million Tonnes of Biochar a Year. Only Two Crop–State Pairs Stay Near the Top However You Weigh It (112,100 bytes)
+
+**No longer published** (drafted or deleted; file kept in `posts/`)
+
+- `indias-subsidised-imports-fertilisers` — India's Subsidised Imports — Fertilisers Explode +76% (FY25 vs FY26)
