@@ -38,7 +38,7 @@ import sys
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "tools"))
 from exec_viz import STYLE, bars, flow, insight, line, numbers, sources_block, top_line, waterfall  # noqa: E402
-from viz_frame import body_links, caveat, fixes, split, tables, update_notes  # noqa: E402
+from viz_frame import body_links, caveat, fixes, related_box, sources_section, split, tables, update_notes  # noqa: E402
 
 DATE = "2026-11-15"
 esc = lambda s: _html.escape(str(s), quote=False)
@@ -120,6 +120,35 @@ def numbers_block(n, T):
     return numbers(n["head"], n["rows"], n.get("summary", "Show the numbers"))
 
 
+def lint(spec):
+    """Every spec-level problem at once (so a leaf fixes them in one edit): lengths, sentence counts, shapes."""
+    errs, plain = [], lambda h: re.sub(r"\s+", " ", _html.unescape(re.sub(r"<[^>]+>", "", h))).strip()
+    one = lambda t: plain(t).endswith(".") and not re.search(r"\.\s+[A-Z]", plain(t))
+    if not 1 <= len(spec.get("top", [])) <= 3:
+        errs.append("top: needs 1 to 3 bullets of [big number, rest of sentence]")
+    for i, b in enumerate(spec.get("top", []), 1):
+        if len(b) != 2 or not str(b[0]).strip():
+            errs.append(f"top[{i}]: must be [\"big number\", \" rest of the sentence.\"]")
+    secs = spec.get("sections", [])
+    if not 3 <= len(secs) <= 4:
+        errs.append(f"sections: need 3 or 4, have {len(secs)}")
+    for i, s in enumerate(secs, 1):
+        h = plain(s.get("h2", ""))
+        if not h or len(h) > 90:
+            errs.append(f"section {i} h2 is {len(h)} characters (1 to 90): {h[:60]!r}")
+        c = s.get("chart", {})
+        if c.get("type") != "flow":
+            t = plain(c.get("title", ""))
+            if not t or len(t) > 90:
+                errs.append(f"section {i} chart title is {len(t)} characters (1 to 90): {t[:60]!r}")
+            if not re.search(r"\d", t) and len(t.split()) < 7:
+                errs.append(f"section {i} chart title does not state a finding (add the number or make it a full statement): {t!r}")
+        for k in ("means", "todo"):
+            if not one(s.get(k, "")):
+                errs.append(f"section {i} '{k}' must be exactly one sentence ending in a full stop (no '. Capital' inside): {plain(s.get(k, ''))[:80]!r}")
+    return errs
+
+
 def build(slug):
     d = ROOT / f"out/viz/{slug}"
     spec = json.loads((d / "spec.json").read_text(encoding="utf-8"))
@@ -131,6 +160,9 @@ def build(slug):
     fr = split(src)
     if not fr:
         sys.exit("the live post does not have the standard frame")
+    problems = lint(spec)
+    if problems:
+        sys.exit("spec error (all problems at once):\n  - " + "\n  - ".join(problems))
     T = {t["id"]: t for t in tables(fr.body)}
     top = top_line([tuple(b) for b in spec["top"]])
     secs = []
@@ -154,6 +186,13 @@ def build(slug):
         title = t["title"] or t["id"]
         extra += numbers_block({"table": t["id"], "summary": f"Table: {title}"}, T)
     extra += sources_block(body_links(fr.body))
+    rel = related_box(fr.body)          # only when the live post keeps it in the body (no clean footer): carried over verbatim
+    if rel:
+        extra += rel + "\n"
+    src_sec = sources_section(fr.body)
+    if src_sec:
+        extra += f'<details class="xv-n"><summary>{esc(src_sec[0])}</summary>{src_sec[1]}</details>\n'
+
     note = (f'<p class="gb-note"><b>Updated 15 November 2026:</b> rewritten as charts; figures unchanged.</p>\n')
     mid = STYLE + top + fr.keep_front + update_notes(fr.body) + note + "".join(secs) + extra
     out = ROOT / f"out/update-{DATE}-{slug}.html"

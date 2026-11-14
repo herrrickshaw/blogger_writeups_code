@@ -34,10 +34,21 @@ def split(html):
     t = _TRANSLATE_END.search(html, h.end()) if h else None
     if not (h and t):
         return None
-    tails = [m.start() for p in _TAIL_MARKS for m in [re.search(p, html[t.end():], re.S)] if m]
-    if not tails:
-        return None
-    tail_at = t.end() + min(tails)
+    rest = html[t.end():]
+    marks = sorted(m.start() for p in _TAIL_MARKS for m in re.finditer(p, rest, re.S))
+    # the tail is the trailing block (caveat card, related links, sources, disclaimer): the first mark after which only
+    # footer headings remain. A related-links box in the middle of the article is not the tail, because article sections follow it.
+    footer = re.compile(r"sources|documents|related|establish|caveat|about this article|disclaimer|editorial policy|references|notes? on", re.I)
+    def only_footer(m):
+        hs = [visible(h) for h in re.findall(rf"{_HEAD}(.*?)</(?:h[1-6]|div)>", rest[m:], re.S)]
+        return all(footer.search(h) for h in hs if h)
+    tails = [m for m in marks if only_footer(m)]
+    if not tails:      # no clean footer: the tail is only the closing disclosure paragraph; related links and sources move to the body
+        d = re.search(r'<p class="disclaimer" data-gs-ai-disclosure-v1', rest)
+        if not d:
+            return None
+        tails = [d.start()]
+    tail_at = t.end() + tails[0]
     body = html[t.end():tail_at]
     if len(visible(body).split()) < 500:      # the match cut the article short: not a standard frame
         return None
@@ -166,3 +177,14 @@ def fixes(body_html):
 def update_notes(body_html):
     """Dated 'Updated <date>' notices (div or p), kept in the edition verbatim."""
     return "".join(m.group(0) for m in re.finditer(r"<(div|p)\b[^>]*>\s*(?:<b>|<strong>)?\s*Updated \d{1,2} [A-Z][a-z]+ 20\d\d.*?</\1>", body_html, re.S))
+
+
+def related_box(body_html):
+    """The related-links box when it sits in the body (a div of links), verbatim, else ''."""
+    m = re.search(r'<div class="gb-related">.*?</div>', body_html, re.S)
+    return m.group(0) if m else ""
+
+
+def sources_section(body_html):
+    """A 'Sources' / 'Documents & sources' section in the body: (title, inner_html) or None."""
+    return _section(body_html, r"^(?:sources|documents(?: &|\s*and)? sources|sources and caveats|references)\b")

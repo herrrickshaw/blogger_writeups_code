@@ -19,6 +19,7 @@ House rules the functions enforce (see docs/VISUAL_STORY_STYLE.md):
   - No JavaScript: the main site (vertistratsolution.com) strips scripts from posts.
 """
 import html as _html
+import re
 import itertools as _it
 
 ACCENT, GREY, INK, SOFT, LINE = "#2251FF", "#A9B4BF", "#0B1F2D", "#43535F", "#D9E1E8"
@@ -87,6 +88,14 @@ def _title(t):
 
 def _fmt(v, unit=""):
     s = f"{v:,.0f}" if abs(v) >= 100 or float(v).is_integer() else f"{v:,.2f}".rstrip("0").rstrip(".")
+    if not unit:
+        return s
+    m = re.fullmatch(r"([$\u20b9\u20ac\u00a3])\s*(.*)", unit.strip())      # "$/kg" -> "$4.21/kg"; "\u20b9 crore" -> "\u20b958,711 crore"
+    if m:
+        rest = m.group(2)
+        return f"{m.group(1)}{s}" + (rest if not rest or rest.startswith("/") else f" {rest}")
+    if re.match(r"[A-Za-z]", unit):                                           # "USD/t", "mmscmd" -> "419 USD/t"
+        return f"{s} {unit}"
     return s + unit
 
 

@@ -189,8 +189,8 @@ def verify(slug, edition=None, quiet=False):
         errs.append(f"coverage: {len(lost)} source link(s) from the original body are missing, e.g. {lost[0]}")
     shown = visible(re.sub(r"<details.*?</details>", " ", mid, flags=re.S))      # what a reader sees before opening anything
     ratio = len(shown.split()) / max(1, len(old_body.split()))
-    if not 0.12 <= ratio <= 0.85:
-        errs.append(f"size: the text shown by default is {ratio:.0%} of the original body (allowed 12% to 85%; collapsed blocks do not count)")
+    if len(shown.split()) < min(0.12 * len(old_body.split()), 250) or ratio > 0.85:
+        errs.append(f"size: the text shown by default is {len(shown.split())} words, {ratio:.0%} of the original body (needs at least 250 words, at most 85%; collapsed blocks do not count)")
 
     # ---- safety ----
     if re.search(r"<script|<iframe", mid, re.I):
