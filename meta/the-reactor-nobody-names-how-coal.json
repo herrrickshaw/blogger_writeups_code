@@ -4,15 +4,15 @@
   "url": "https://blog.vertistratsolution.com/2026/09/the-reactor-nobody-names-how-coal.html",
   "slug": "the-reactor-nobody-names-how-coal",
   "published": "2026-09-19T07:03:06.000+05:30",
-  "updated": "2026-09-26T09:50:21.000+05:30",
+  "updated": "2026-11-14T12:55:22.283+05:30",
   "labels": [
     "Chemicals",
     "Coal & Coal Gasification",
     "Energy & Fuels",
     "Industrial Policy"
   ],
-  "bytes": 22857,
-  "sha256": "67bf69e69a81b15c89fa4b62736625ff3752e0805bcc82a6efb598fc19028890",
+  "bytes": 22861,
+  "sha256": "a0ea66a288d4868d2460958a6c7f4d884efcf9dad2bbe8946019a30e4fa41ae0",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.1",
+  "version": "2.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -72,6 +72,19 @@
         "https://masaladeutsch.blogspot.com/2026/09/the-reactor-nobody-names-how-coal.html",
         "https://blog.vertistratsolution.com/2026/09/the-reactor-nobody-names-how-coal.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        22857,
+        22861
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

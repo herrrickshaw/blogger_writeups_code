@@ -4,12 +4,12 @@
   "url": "https://blog.vertistratsolution.com/2026/09/engineering-and-auto-component-makers.html",
   "slug": "engineering-and-auto-component-makers",
   "published": "2026-09-15T06:57:03.000+05:30",
-  "updated": "2026-10-01T08:20:03.000+05:30",
+  "updated": "2026-11-14T13:00:02.010+05:30",
   "labels": [
     "Markets & Finance"
   ],
-  "bytes": 25245,
-  "sha256": "1e1a7f014a9b339be2d45096d154832090da8a94eb457a0ddc3dab33e8b10fa2",
+  "bytes": 25248,
+  "sha256": "a1ddbaffebb6bd817e5fdf4e8cfbbd0778d9e379803480bea3b5e52b5988a109",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.2.1",
+  "version": "1.2.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -69,6 +69,19 @@
         "https://masaladeutsch.blogspot.com/2026/09/engineering-and-auto-component-makers.html",
         "https://blog.vertistratsolution.com/2026/09/engineering-and-auto-component-makers.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.2.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        25245,
+        25248
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

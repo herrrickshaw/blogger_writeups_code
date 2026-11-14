@@ -4,13 +4,13 @@
   "url": "https://blog.vertistratsolution.com/2026/08/the-cluster-automotive-piece-left-out.html",
   "slug": "the-cluster-automotive-piece-left-out",
   "published": "2026-08-15T07:20:21.000+05:30",
-  "updated": "2026-11-07T09:03:00.000+05:30",
+  "updated": "2026-11-14T13:20:19.115+05:30",
   "labels": [
     "Industrial Policy",
     "Manufacturing"
   ],
-  "bytes": 25855,
-  "sha256": "d6878eb341e3e4c9b63d0fac901205bae75b9966c94182a25efac2b733df2f86",
+  "bytes": 25859,
+  "sha256": "9a3bc59a63c28c8babcce43d9f4c0de22079cf30f481049d377ed44a3897259b",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.2.1",
+  "version": "2.2.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -187,6 +187,19 @@
         "https://masaladeutsch.blogspot.com/2026/08/the-cluster-automotive-piece-left-out.html",
         "https://blog.vertistratsolution.com/2026/08/the-cluster-automotive-piece-left-out.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.2.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        25855,
+        25859
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

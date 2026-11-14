@@ -4,10 +4,12 @@
   "url": "https://blog.vertistratsolution.com/2026/11/seven-open-source-tools-for-stock.html",
   "slug": "seven-open-source-tools-for-stock",
   "published": "2026-11-13T03:39:10.000+05:30",
-  "updated": "2026-11-13T03:39:10.000+05:30",
-  "labels": [],
-  "bytes": 33987,
-  "sha256": "263a3c5c9f8a58fddab342187ddb4524c3cd269e16580b5d763a0873c27289aa",
+  "updated": "2026-11-14T14:23:34.759+05:30",
+  "labels": [
+    "Markets & Finance"
+  ],
+  "bytes": 33994,
+  "sha256": "e181b9639605bb85151e75cd398392dffe9009aa44e426aa87089f94dcbf77e1",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,13 +21,26 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "version_history": [
     {
       "version": "1.0.0",
       "date": "2026-11-13T03:39:53+05:30",
       "level": "initial",
       "reason": "first snapshot",
+      "note": ""
+    },
+    {
+      "version": "1.0.1",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        33987,
+        33994
+      ],
+      "url_changed": null,
+      "markers_changed": null,
       "note": ""
     }
   ]

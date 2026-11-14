@@ -4,14 +4,14 @@
   "url": "https://blog.vertistratsolution.com/2026/10/how-to-use-agri-commodity-tracker-india.html",
   "slug": "how-to-use-agri-commodity-tracker-india",
   "published": "2026-10-19T05:08:35.000+05:30",
-  "updated": "2026-10-20T09:05:34.000+05:30",
+  "updated": "2026-11-14T12:42:19.498+05:30",
   "labels": [
     "India",
     "Markets & Finance",
     "Open-Source Tools & How-To"
   ],
-  "bytes": 24771,
-  "sha256": "36c9f87c489b288fbb2e9b139a780bd7fa51dbb28520e813aba458146bf8b6b0",
+  "bytes": 24773,
+  "sha256": "08fb03b836e9d54d12a213843e88d847558d93b58ab4100d9e3ed6faf007a3a9",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.2",
+  "version": "1.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -58,6 +58,19 @@
         "https://masaladeutsch.blogspot.com/2026/10/how-to-use-agri-commodity-tracker-india.html",
         "https://blog.vertistratsolution.com/2026/10/how-to-use-agri-commodity-tracker-india.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.3",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        24771,
+        24773
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

@@ -4,13 +4,13 @@
   "url": "https://blog.vertistratsolution.com/2026/10/indias-constitution-set-deadline.html",
   "slug": "indias-constitution-set-deadline",
   "published": "2026-10-26T21:20:42.000+05:30",
-  "updated": "2026-11-07T08:42:52.000+05:30",
+  "updated": "2026-11-14T12:32:29.431+05:30",
   "labels": [
     "Governance & Institutions",
     "India"
   ],
-  "bytes": 25749,
-  "sha256": "6d3a0ce7b2d6d853b0ed6ec685537731e95f934760fcd34714a78547176fb2c0",
+  "bytes": 25751,
+  "sha256": "aeb2f34b1a7363cf39224fb6a92b9c765a132ce310bbae8abdc4ac0f7fc74a36",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.1.1",
+  "version": "1.1.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -70,6 +70,19 @@
         "https://masaladeutsch.blogspot.com/2026/10/indias-constitution-set-deadline.html",
         "https://blog.vertistratsolution.com/2026/10/indias-constitution-set-deadline.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.1.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        25749,
+        25751
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

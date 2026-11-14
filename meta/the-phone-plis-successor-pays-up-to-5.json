@@ -4,7 +4,7 @@
   "url": "https://blog.vertistratsolution.com/2026/10/the-phone-plis-successor-pays-up-to-5.html",
   "slug": "the-phone-plis-successor-pays-up-to-5",
   "published": "2026-10-26T14:47:42.000+05:30",
-  "updated": "2026-10-28T16:30:12.000+05:30",
+  "updated": "2026-11-14T12:32:58.781+05:30",
   "labels": [
     "Electronics & Semiconductors",
     "Import Substitution",
@@ -12,8 +12,8 @@
     "PLI Schemes",
     "Trade & Tariffs"
   ],
-  "bytes": 28260,
-  "sha256": "ed3a9752ff58bd5a09def17613ac0b3325b6562518ad8b1c7cc58a869297007c",
+  "bytes": 28263,
+  "sha256": "1a4df498dfb0d1ac606ab0fd39b1cb0f83edd36e9048ce634f9ef6628a83720a",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": false,
@@ -25,7 +25,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.1",
+  "version": "2.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -73,6 +73,19 @@
         "https://masaladeutsch.blogspot.com/2026/10/the-phone-plis-successor-pays-up-to-5.html",
         "https://blog.vertistratsolution.com/2026/10/the-phone-plis-successor-pays-up-to-5.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        28260,
+        28263
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

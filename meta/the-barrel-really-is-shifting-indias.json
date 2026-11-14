@@ -4,14 +4,14 @@
   "url": "https://blog.vertistratsolution.com/2026/08/the-barrel-really-is-shifting-indias.html",
   "slug": "the-barrel-really-is-shifting-indias",
   "published": "2026-08-12T20:24:23.000+05:30",
-  "updated": "2026-11-07T09:02:17.000+05:30",
+  "updated": "2026-11-14T13:23:36.185+05:30",
   "labels": [
     "Chemicals",
     "Energy & Fuels",
     "Refining & Petrochemicals"
   ],
-  "bytes": 40101,
-  "sha256": "637f587bbd0bca32ef211c2fa09981bc9578603a1f799573c041ebb48c8bca52",
+  "bytes": 40113,
+  "sha256": "810a27e0b26edb3c0220a6d5da12fbf419f0b4b5db0a8d0758f19fe00057b0e3",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.3.1",
+  "version": "2.3.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -331,6 +331,19 @@
         "https://masaladeutsch.blogspot.com/2026/08/the-barrel-really-is-shifting-indias.html",
         "https://blog.vertistratsolution.com/2026/08/the-barrel-really-is-shifting-indias.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.3.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        40101,
+        40113
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

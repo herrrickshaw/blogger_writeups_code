@@ -4,14 +4,14 @@
   "url": "https://blog.vertistratsolution.com/2026/09/india-mapped-12174-tariff-codes-to-31.html",
   "slug": "india-mapped-12174-tariff-codes-to-31",
   "published": "2026-09-28T16:15:24.000+05:30",
-  "updated": "2026-09-29T09:05:57.000+05:30",
+  "updated": "2026-11-14T12:52:09.026+05:30",
   "labels": [
     "Ease of Doing Business & Regulatory Reform",
     "Industrial Policy",
     "Trade & Tariffs"
   ],
-  "bytes": 23962,
-  "sha256": "618e05cf6e5ed78be814d114743507ead9e8163e29028afccea789c94ed5e4f5",
+  "bytes": 23969,
+  "sha256": "05c3a1b0fe75b6528446ca876924bea0e08620f0e77a3881ec9a051ceaf23f0b",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.2",
+  "version": "1.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -58,6 +58,19 @@
         "https://masaladeutsch.blogspot.com/2026/09/india-mapped-12174-tariff-codes-to-31.html",
         "https://blog.vertistratsolution.com/2026/09/india-mapped-12174-tariff-codes-to-31.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.3",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        23962,
+        23969
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

@@ -4,13 +4,13 @@
   "url": "https://blog.vertistratsolution.com/2026/10/how-to-use-cricket-data-analysis-score.html",
   "slug": "how-to-use-cricket-data-analysis-score",
   "published": "2026-10-19T05:10:06.000+05:30",
-  "updated": "2026-10-23T09:05:53.000+05:30",
+  "updated": "2026-11-14T12:41:17.867+05:30",
   "labels": [
     "India",
     "Open-Source Tools & How-To"
   ],
-  "bytes": 23949,
-  "sha256": "b8c27a6ab7595a9bd3c3a3005cd22ef2976e62d1546e9974566365f25398190b",
+  "bytes": 23951,
+  "sha256": "0c2ffbc52ad4db216fda1e7e797eabfdb91f05c9127b37d9eff5a45601b76b59",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.2",
+  "version": "1.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -57,6 +57,19 @@
         "https://masaladeutsch.blogspot.com/2026/10/how-to-use-cricket-data-analysis-score.html",
         "https://blog.vertistratsolution.com/2026/10/how-to-use-cricket-data-analysis-score.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.3",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        23949,
+        23951
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

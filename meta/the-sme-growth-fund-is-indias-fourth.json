@@ -4,12 +4,12 @@
   "url": "https://blog.vertistratsolution.com/2026/10/the-sme-growth-fund-is-indias-fourth.html",
   "slug": "the-sme-growth-fund-is-indias-fourth",
   "published": "2026-10-09T19:27:48.000+05:30",
-  "updated": "2026-10-10T09:52:25.000+05:30",
+  "updated": "2026-11-14T12:46:54.021+05:30",
   "labels": [
     "Markets & Finance"
   ],
-  "bytes": 24502,
-  "sha256": "0773f35c3b4268eaa911942cea68342c2ddd6228652f6e15dd7e2ee65aa67138",
+  "bytes": 24508,
+  "sha256": "68a0dac1c56d6768773f2914cde024b394560397ec1354dcad5f5ac559947352",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -43,6 +43,19 @@
         "https://masaladeutsch.blogspot.com/2026/10/the-sme-growth-fund-is-indias-fourth.html",
         "https://blog.vertistratsolution.com/2026/10/the-sme-growth-fund-is-indias-fourth.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        24502,
+        24508
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

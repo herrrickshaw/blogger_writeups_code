@@ -4,10 +4,14 @@
   "url": "https://blog.vertistratsolution.com/2026/11/indias-spare-crop-residue-could-make-57.html",
   "slug": "indias-spare-crop-residue-could-make-57",
   "published": "2026-11-14T11:57:02.000+05:30",
-  "updated": "2026-11-14T11:57:02.000+05:30",
-  "labels": [],
-  "bytes": 112100,
-  "sha256": "47dbdcaf5fc8736717e60b60bd84a3a450cf89d33e26ffeb25ba76e1e3c1bf9c",
+  "updated": "2026-11-14T14:23:02.730+05:30",
+  "labels": [
+    "Agriculture & Fertilisers",
+    "Circularity & Waste-to-Value",
+    "Climate & Carbon"
+  ],
+  "bytes": 112110,
+  "sha256": "4c4abc9feb9c24e21724f78fe5a72a49c911a76cd504de3798f2116c8c35b432",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,13 +23,26 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "version_history": [
     {
       "version": "1.0.0",
       "date": "2026-11-14T11:57:30+05:30",
       "level": "initial",
       "reason": "first snapshot",
+      "note": ""
+    },
+    {
+      "version": "1.0.1",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        112100,
+        112110
+      ],
+      "url_changed": null,
+      "markers_changed": null,
       "note": ""
     }
   ]

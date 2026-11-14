@@ -4,14 +4,14 @@
   "url": "https://blog.vertistratsolution.com/2026/09/the-diesel-truck-isnt-why-your-eggs.html",
   "slug": "the-diesel-truck-isnt-why-your-eggs",
   "published": "2026-09-23T09:17:07.000+05:30",
-  "updated": "2026-11-07T09:03:22.000+05:30",
+  "updated": "2026-11-14T12:54:06.637+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Energy & Fuels",
     "Livestock & Dairy"
   ],
-  "bytes": 24876,
-  "sha256": "e93b364796f1ae67f01c3bf059e984a8fcf7a58cab3183861893c07d80cc9e8b",
+  "bytes": 24883,
+  "sha256": "9e794e7c8dde7d3aa52c01b615c54351bfddcbea555836e331eaf80ec55f6de5",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.2.1",
+  "version": "2.2.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -97,6 +97,19 @@
         "https://masaladeutsch.blogspot.com/2026/09/the-diesel-truck-isnt-why-your-eggs.html",
         "https://blog.vertistratsolution.com/2026/09/the-diesel-truck-isnt-why-your-eggs.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.2.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        24876,
+        24883
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

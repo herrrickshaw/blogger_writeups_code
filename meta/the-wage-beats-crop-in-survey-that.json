@@ -4,12 +4,12 @@
   "url": "https://blog.vertistratsolution.com/2026/09/the-wage-beats-crop-in-survey-that.html",
   "slug": "the-wage-beats-crop-in-survey-that",
   "published": "2026-09-17T08:25:01.000+05:30",
-  "updated": "2026-11-07T09:07:21.000+05:30",
+  "updated": "2026-11-14T12:56:03.436+05:30",
   "labels": [
     "Agriculture & Fertilisers"
   ],
-  "bytes": 19094,
-  "sha256": "ec8d5645bdcc37db86d574db66d7bb51c3a4a016e0ab9483cabb2b25bbfc0baa",
+  "bytes": 19100,
+  "sha256": "ee13c4ddfc074648d2f2743da540798d4696c8d8a9422a578423efc39cba4030",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.3.1",
+  "version": "1.3.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -82,6 +82,19 @@
         "https://masaladeutsch.blogspot.com/2026/09/the-wage-beats-crop-in-survey-that.html",
         "https://blog.vertistratsolution.com/2026/09/the-wage-beats-crop-in-survey-that.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.3.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        19094,
+        19100
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

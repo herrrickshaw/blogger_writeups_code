@@ -4,13 +4,13 @@
   "url": "https://blog.vertistratsolution.com/2026/08/five-year-synthesis-trade-currency.html",
   "slug": "five-year-synthesis-trade-currency",
   "published": "2026-08-02T13:51:50.000+05:30",
-  "updated": "2026-11-07T08:30:18.000+05:30",
+  "updated": "2026-11-14T13:39:53.053+05:30",
   "labels": [
     "Industrial Policy",
     "Trade & Tariffs"
   ],
-  "bytes": 52762,
-  "sha256": "d01d0ef555d2087eb38e70aeee64b81d31edd7a5095920fa0540ceb7b27bde6a",
+  "bytes": 52769,
+  "sha256": "49df6910b1565652bc3cb7ff73e1ad35ad6cc5917ab26a9eee3973022af1022a",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": true,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.1.1",
+  "version": "3.1.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -357,6 +357,19 @@
         "https://masaladeutsch.blogspot.com/2026/08/five-year-synthesis-trade-currency.html",
         "https://blog.vertistratsolution.com/2026/08/five-year-synthesis-trade-currency.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.1.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        52762,
+        52769
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

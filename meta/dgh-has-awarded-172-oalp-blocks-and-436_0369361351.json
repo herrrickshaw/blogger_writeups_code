@@ -4,14 +4,14 @@
   "url": "https://blog.vertistratsolution.com/2026/09/dgh-has-awarded-172-oalp-blocks-and-436_0369361351.html",
   "slug": "dgh-has-awarded-172-oalp-blocks-and-436_0369361351",
   "published": "2026-09-02T10:40:46.000+05:30",
-  "updated": "2026-11-07T08:26:31.000+05:30",
+  "updated": "2026-11-14T13:04:39.236+05:30",
   "labels": [
     "Energy & Fuels",
     "Industrial Policy",
     "Oil & Gas Exploration"
   ],
-  "bytes": 54175,
-  "sha256": "8e7bfcc78d857dd27dff10e84db1b1690e0b1ea3b6b7f4940fdee81938d27a2c",
+  "bytes": 54179,
+  "sha256": "1f284645230b252c177a5fdf3c0468a7b851f6230a92bd0daebbb8447505636a",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.2.1",
+  "version": "2.2.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -149,6 +149,19 @@
         "https://masaladeutsch.blogspot.com/2026/09/dgh-has-awarded-172-oalp-blocks-and-436_0369361351.html",
         "https://blog.vertistratsolution.com/2026/09/dgh-has-awarded-172-oalp-blocks-and-436_0369361351.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.2.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        54175,
+        54179
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

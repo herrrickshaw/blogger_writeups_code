@@ -4,13 +4,13 @@
   "url": "https://blog.vertistratsolution.com/2026/09/delhis-smog-towers-failed-test-44-year.html",
   "slug": "delhis-smog-towers-failed-test-44-year",
   "published": "2026-09-13T10:10:56.000+05:30",
-  "updated": "2026-11-07T08:26:19.000+05:30",
+  "updated": "2026-11-14T13:00:52.226+05:30",
   "labels": [
     "Climate & Carbon",
     "Environment & Clearances"
   ],
-  "bytes": 43933,
-  "sha256": "40cfddee90ebef303d05953f26bd32e5bcdb45ce5b59f57063ec4e72c53f57d2",
+  "bytes": 43937,
+  "sha256": "0a8542458649455f36d44a86144501371dd1e96865466edc60433ed66c784eaa",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.4.1",
+  "version": "1.4.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -109,6 +109,19 @@
         "https://masaladeutsch.blogspot.com/2026/09/delhis-smog-towers-failed-test-44-year.html",
         "https://blog.vertistratsolution.com/2026/09/delhis-smog-towers-failed-test-44-year.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.4.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        43933,
+        43937
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

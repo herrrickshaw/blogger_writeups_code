@@ -4,15 +4,15 @@
   "url": "https://blog.vertistratsolution.com/2026/08/chemical-import-substitution-full-hsn-8_01082878313.html",
   "slug": "chemical-import-substitution-full-hsn-8_01082878313",
   "published": "2026-08-05T09:00:00.000+05:30",
-  "updated": "2026-09-26T10:50:25.000+05:30",
+  "updated": "2026-11-14T13:34:01.098+05:30",
   "labels": [
     "Chemicals",
     "Customs & HSN Trade Data",
     "Import Substitution",
     "Trade & Tariffs"
   ],
-  "bytes": 388394,
-  "sha256": "f7c40530092ad88dd63fbc31f74bffdba6f4b811632bc2d82fcd3101861f6839",
+  "bytes": 388399,
+  "sha256": "ff2ae738dd90c5c84714462bee1bb2eeb8d2300b6715ae28cca85c4de3c56f79",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.7",
+  "version": "3.0.8",
   "version_history": [
     {
       "version": "1.0.0",
@@ -298,6 +298,19 @@
         "https://masaladeutsch.blogspot.com/2026/08/chemical-import-substitution-full-hsn-8_01082878313.html",
         "https://blog.vertistratsolution.com/2026/08/chemical-import-substitution-full-hsn-8_01082878313.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.0.8",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        388394,
+        388399
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

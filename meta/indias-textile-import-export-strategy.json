@@ -4,15 +4,15 @@
   "url": "https://blog.vertistratsolution.com/2026/07/indias-textile-import-export-strategy.html",
   "slug": "indias-textile-import-export-strategy",
   "published": "2026-07-27T05:30:00.000+05:30",
-  "updated": "2026-11-07T08:48:19.000+05:30",
+  "updated": "2026-11-14T13:43:48.192+05:30",
   "labels": [
     "Chemicals",
     "Quality Standards & Certification",
     "Textiles",
     "Trade & Tariffs"
   ],
-  "bytes": 55866,
-  "sha256": "a7e1e74f9882dd632423c1da9b1bea5f4fe66807b8ebd9a35883f827c73ad187",
+  "bytes": 55873,
+  "sha256": "8867eef90b7f6e70f21207c28cd4836ace8fc170db838a3c93f66060bf4235b6",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "4.3.1",
+  "version": "4.3.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -368,6 +368,19 @@
         "https://masaladeutsch.blogspot.com/2026/07/indias-textile-import-export-strategy.html",
         "https://blog.vertistratsolution.com/2026/07/indias-textile-import-export-strategy.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "4.3.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        55866,
+        55873
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

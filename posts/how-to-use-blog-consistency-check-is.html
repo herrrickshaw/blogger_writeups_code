@@ -90,8 +90,8 @@
 
 
 <div class="gs-head-order" style="display:flex;flex-direction:column">
-<p class="standfirst" style="order:4">A small Python script that fetches a published masaladeutsch post and tests it against rules taken from real defects: broken JavaScript, backwards dark-mode media queries, missing disclaimers, unlocked dark palettes. It exits non-zero on a blocker, so it can gate CI.</p>
-<div class="topnav-index-link" style="order:1;font-size:.82em;margin:6px 0 14px"><a href="https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html" style="color:#0b5394;text-decoration:none">&#8592; All Articles (Index)</a></div>
+<p class="standfirst" style="order:4">A small Python script that fetches a published VertiStrat Solutions post and tests it against rules taken from real defects: broken JavaScript, backwards dark-mode media queries, missing disclaimers, unlocked dark palettes. It exits non-zero on a blocker, so it can gate CI.</p>
+<div class="topnav-index-link" style="order:1;font-size:.82em;margin:6px 0 14px"><a href="https://blog.vertistratsolution.com/2026/08/article-index-start-here.html" style="color:#0b5394;text-decoration:none">&#8592; All Articles (Index)</a></div>
 <p class="eyebrow" style="order:2">Open-Source Tools · How-To · Dev &amp; ops tools</p>
 <h1 style="order:3">How to use blog-consistency-check: a &quot;is this blog post broken?&quot; audit for HTML posts</h1>
 </div>
@@ -190,7 +190,7 @@ if(skip){
 <h2>Why it is useful</h2>
 <ul><li>Who benefits: anyone who hand-writes or bulk-edits HTML blog posts with embedded CSS/JS and cannot eyeball every post after every edit.</li><li>What it replaces: screenshot-diff services ask whether a page changed; this asks whether it is broken, which suits posts that rarely change after publishing.</li><li>Evidence from the run: auditing one live post took a few seconds with only curl and node and produced a 10-rule table plus a plain-language list of failures.</li><li>The run found a real BLOCKER (dark palette with no light-mode lock) on a recent post, so the rules do fire on current content.</li></ul>
 <h2>What it is for</h2>
-<p>blog-consistency-check is a checker for masaladeutsch.blogspot.com. It lists posts through the public Blogger feed, downloads each page with curl, and applies a fixed set of static rules. An optional Playwright pass adds computed-contrast and overflow checks in light and dark mode.</p>
+<p>blog-consistency-check is a checker for blog.vertistratsolution.com. It lists posts through the public Blogger feed, downloads each page with curl, and applies a fixed set of static rules. An optional Playwright pass adds computed-contrast and overflow checks in light and dark mode.</p>
 <p>The rules encode defects that actually happened on the live blog. CHECKLIST.md explains each one, so the checklist and the code stay in step. The repo also has fix.py and helper scripts for repairing the problems; this post covers only the read-only audit.</p>
 <p><b>Who it is for</b></p>
 <ul><li>Bloggers who publish self-contained HTML posts with their own CSS and JavaScript</li><li>Maintainers who bulk-edit posts with scripts and want a safety net</li><li>Anyone who wants a CI gate that exits non-zero on broken posts</li></ul>
@@ -207,7 +207,7 @@ claude      # or: gemini</code></pre>
 cd blog-consistency-check</code></pre></li><li>No packages are needed for the static pass. Check the two tools it shells out to.<pre><code>which curl node</code></pre></li></ol>
 <h2>Quick start: commands and what you should see</h2>
 <p><b>Audit one public post (static pass).</b></p>
-<pre><code>python3 audit.py --url https://masaladeutsch.blogspot.com/2026/10/how-to-use-ship2shorerag-offline.html</code></pre>
+<pre><code>python3 audit.py --url https://blog.vertistratsolution.com/2026/10/how-to-use-ship2shorerag-offline.html</code></pre>
 <p>It writes out/report.md and out/report.json, prints the report path, and prints a count of BLOCKER failures. The exit code is non-zero when a blocker fails.</p>
 <p><b>Read the report.</b></p>
 <pre><code>cat out/report.md</code></pre>
@@ -240,10 +240,10 @@ posts audited: 1 · posts with at least one failure: 1
 <h2>Ways to use it</h2>
 <div class="tw"><table><tr><th>Method</th><th>How it works</th></tr><tr><td>Spot-check after publishing</td><td>Run --url on the new post and read the report before announcing it.</td></tr><tr><td>Whole-blog sweep</td><td>Run python3 audit.py with no arguments to walk the full feed (about 30 seconds for the static pass per the README).</td></tr><tr><td>CI gate</td><td>Because blockers produce a non-zero exit, a workflow can fail when a post regresses.</td></tr><tr><td>Add your own rule</td><td>Write a function in checks.py returning (ok, detail), register it in STATIC_RULES, and add a line to CHECKLIST.md.</td></tr></table></div>
 <h2>Sample prompts for your AI assistant</h2><p>Copy, paste and edit the parts in [brackets].</p>
-<ul><li>Claude: Read audit.py and checks.py in this repo and explain each rule in one sentence, then tell me which ones are specific to masaladeutsch.</li><li>Gemini: Run python3 audit.py --url &lt;my post URL&gt; and summarise out/report.md in plain English, ordered by severity.</li><li>ChatGPT: Here is out/report.md. For each failing rule, explain what the reader would see and suggest the smallest CSS change.</li><li>GitHub Copilot: Add a new static rule to checks.py that flags images without alt text, with a matching CHECKLIST.md entry.</li><li>Claude: Adapt this audit to my own blog by listing which constants and rules I would need to change.</li></ul>
+<ul><li>Claude: Read audit.py and checks.py in this repo and explain each rule in one sentence, then tell me which ones are specific to VertiStrat Solutions.</li><li>Gemini: Run python3 audit.py --url &lt;my post URL&gt; and summarise out/report.md in plain English, ordered by severity.</li><li>ChatGPT: Here is out/report.md. For each failing rule, explain what the reader would see and suggest the smallest CSS change.</li><li>GitHub Copilot: Add a new static rule to checks.py that flags images without alt text, with a matching CHECKLIST.md entry.</li><li>Claude: Adapt this audit to my own blog by listing which constants and rules I would need to change.</li></ul>
 <h2>Limits and honest caveats</h2>
-<div class="warn"><ul><li>Hard-coded to masaladeutsch.blogspot.com (BLOG constant in audit.py); other blogs need a code change.</li><li>The README&#x27;s install line points at a private virtualenv path (~/.venvs/testing/bin/python3); use your own Python instead.</li><li>The static pass checks the HTML source, so a CSS finding like dark-vars-locked is a signal to inspect, not proof of a visible fault.</li><li>The --rendered pass (Playwright contrast/overflow) was not run for this post.</li><li>The fix scripts (fix.py, add_*.py) were not run; they edit content and need review before use. This is not investment, legal or clinical advice; it is a code-quality tool.</li></ul></div>
-<p class="src">Sources: README, CHECKLIST.md, audit.py and checks.py in github.com/herrrickshaw/blog-consistency-check; static audit run read-only on 19 October 2026 against one already-public masaladeutsch post, in a scratchpad clone.</p>
+<div class="warn"><ul><li>Hard-coded to blog.vertistratsolution.com (BLOG constant in audit.py); other blogs need a code change.</li><li>The README&#x27;s install line points at a private virtualenv path (~/.venvs/testing/bin/python3); use your own Python instead.</li><li>The static pass checks the HTML source, so a CSS finding like dark-vars-locked is a signal to inspect, not proof of a visible fault.</li><li>The --rendered pass (Playwright contrast/overflow) was not run for this post.</li><li>The fix scripts (fix.py, add_*.py) were not run; they edit content and need review before use. This is not investment, legal or clinical advice; it is a code-quality tool.</li></ul></div>
+<p class="src">Sources: README, CHECKLIST.md, audit.py and checks.py in github.com/herrrickshaw/blog-consistency-check; static audit run read-only on 19 October 2026 against one already-public VertiStrat Solutions post, in a scratchpad clone.</p>
 <div id="changelog" class="note">
 <b>Revision history.</b>
 <ul>
@@ -253,7 +253,7 @@ posts audited: 1 · posts with at least one failure: 1
 
 
 <style>/* gs-light-lock-v1 */.htublogco{--ink:#111!important;--accent:#8a4b08!important;--rule:#e8dcc4!important;--panel:#fdf7ec!important;--good:#1a7a4c!important;--good-soft:#eaf6ef!important;--bad:#a5402c!important;--bad-soft:#fff4f0!important}</style>
-<p class="disclaimer" data-gs-ai-disclosure-v1="1"><strong>About this article:</strong> Researched, written and edited by Umashankar Triplicane Dwarakanathan, with AI research assistance; every figure is meant to trace to the primary source cited. See the <a href="https://masaladeutsch.blogspot.com/p/disclaimer.html">Editorial Policy</a> for how sourcing, AI use and corrections work.</p>
+<p class="disclaimer" data-gs-ai-disclosure-v1="1"><strong>About this article:</strong> Researched, written and edited by Umashankar Triplicane Dwarakanathan, with AI research assistance; every figure is meant to trace to the primary source cited. See the <a href="https://blog.vertistratsolution.com/p/disclaimer.html">Editorial Policy</a> for how sourcing, AI use and corrections work.</p>
 
 </div>
 

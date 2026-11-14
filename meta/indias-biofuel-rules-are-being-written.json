@@ -4,15 +4,15 @@
   "url": "https://blog.vertistratsolution.com/2026/10/indias-biofuel-rules-are-being-written.html",
   "slug": "indias-biofuel-rules-are-being-written",
   "published": "2026-10-03T06:40:19.000+05:30",
-  "updated": "2026-11-07T08:41:48.000+05:30",
+  "updated": "2026-11-14T12:49:24.806+05:30",
   "labels": [
     "Energy & Fuels",
     "Ethanol & Biofuels",
     "India",
     "Industrial Policy"
   ],
-  "bytes": 24749,
-  "sha256": "74b4edbdc1230958b3dc7f63932026f860a6d8921c817105785ccb0cb9cb951f",
+  "bytes": 24753,
+  "sha256": "d61bdc4276369604a363f7c5b67f37e850354075b641b7e9ec5b3e166c5cba7a",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.1.1",
+  "version": "1.1.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -72,6 +72,19 @@
         "https://masaladeutsch.blogspot.com/2026/10/indias-biofuel-rules-are-being-written.html",
         "https://blog.vertistratsolution.com/2026/10/indias-biofuel-rules-are-being-written.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.1.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        24749,
+        24753
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

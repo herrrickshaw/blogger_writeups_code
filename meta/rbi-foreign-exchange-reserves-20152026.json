@@ -4,12 +4,12 @@
   "url": "https://blog.vertistratsolution.com/2026/08/rbi-foreign-exchange-reserves-20152026.html",
   "slug": "rbi-foreign-exchange-reserves-20152026",
   "published": "2026-08-02T13:43:33.000+05:30",
-  "updated": "2026-11-07T08:56:34.000+05:30",
+  "updated": "2026-11-14T13:40:55.637+05:30",
   "labels": [
     "Markets & Finance"
   ],
-  "bytes": 58167,
-  "sha256": "63c7db017ee630889ff838d8edb13655a78bc65ce6e8b9b3fa21967e4b8cd7cd",
+  "bytes": 58172,
+  "sha256": "7b5e76d924484d0c7b991cd331ff1417ed37a03d544d94d81997be8be9984375",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": true,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "4.3.1",
+  "version": "4.3.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -334,6 +334,19 @@
         "https://masaladeutsch.blogspot.com/2026/08/rbi-foreign-exchange-reserves-20152026.html",
         "https://blog.vertistratsolution.com/2026/08/rbi-foreign-exchange-reserves-20152026.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "4.3.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        58167,
+        58172
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

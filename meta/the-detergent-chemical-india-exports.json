@@ -4,14 +4,14 @@
   "url": "https://blog.vertistratsolution.com/2026/09/the-detergent-chemical-india-exports.html",
   "slug": "the-detergent-chemical-india-exports",
   "published": "2026-09-01T18:38:29.000+05:30",
-  "updated": "2026-11-07T09:03:12.000+05:30",
+  "updated": "2026-11-14T13:06:18.309+05:30",
   "labels": [
     "Chemicals",
     "Quality Standards & Certification",
     "Trade & Tariffs"
   ],
-  "bytes": 54285,
-  "sha256": "a7ea8e46a1b760385f5af95a765b381ac1fc28cc50b799ca7ddf8400613773de",
+  "bytes": 54290,
+  "sha256": "76c26f4d7d8cac5d83bdfd86b3b650661a1e2392b19e21dc67e3b8d825dd9704",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.6.1",
+  "version": "1.6.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -188,6 +188,19 @@
         "https://masaladeutsch.blogspot.com/2026/09/the-detergent-chemical-india-exports.html",
         "https://blog.vertistratsolution.com/2026/09/the-detergent-chemical-india-exports.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.6.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        54285,
+        54290
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

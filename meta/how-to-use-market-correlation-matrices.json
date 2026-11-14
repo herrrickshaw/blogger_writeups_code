@@ -4,14 +4,14 @@
   "url": "https://blog.vertistratsolution.com/2026/10/how-to-use-market-correlation-matrices.html",
   "slug": "how-to-use-market-correlation-matrices",
   "published": "2026-10-19T05:13:08.000+05:30",
-  "updated": "2026-10-29T09:06:44.000+05:30",
+  "updated": "2026-11-14T12:38:36.482+05:30",
   "labels": [
     "Equity Markets & Stock Screening",
     "Markets & Finance",
     "Open-Source Tools & How-To"
   ],
-  "bytes": 27445,
-  "sha256": "e0191e5ffdefc34512ae0a86de66ef127496fe2c0525a2601b5dd0210f1ad01c",
+  "bytes": 27447,
+  "sha256": "00aa3b53ff9e3fbc838d4c220b21f51bd857e41f08b2a25a53c223f187e6e162",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.2",
+  "version": "1.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -58,6 +58,19 @@
         "https://masaladeutsch.blogspot.com/2026/10/how-to-use-market-correlation-matrices.html",
         "https://blog.vertistratsolution.com/2026/10/how-to-use-market-correlation-matrices.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.3",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        27445,
+        27447
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

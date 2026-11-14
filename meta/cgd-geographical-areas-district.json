@@ -4,14 +4,14 @@
   "url": "https://blog.vertistratsolution.com/2026/07/cgd-geographical-areas-district.html",
   "slug": "cgd-geographical-areas-district",
   "published": "2026-07-22T05:30:00.000+05:30",
-  "updated": "2026-11-07T08:24:38.000+05:30",
+  "updated": "2026-11-14T13:44:47.478+05:30",
   "labels": [
     "City Gas Distribution",
     "Gas & LNG",
     "Industrial Policy"
   ],
-  "bytes": 23473,
-  "sha256": "1b87586fba17687f97e86559aca3d0b5620267e8f512d35a3203bb8e97920379",
+  "bytes": 23477,
+  "sha256": "f58a7f215edcedcbe5e70a015728a938f09c464e528bd9cea3f054f36abf14b1",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.2.1",
+  "version": "3.2.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -341,6 +341,19 @@
         "https://masaladeutsch.blogspot.com/2026/07/cgd-geographical-areas-district.html",
         "https://blog.vertistratsolution.com/2026/07/cgd-geographical-areas-district.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.2.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        23473,
+        23477
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

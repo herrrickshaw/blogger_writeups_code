@@ -4,14 +4,14 @@
   "url": "https://blog.vertistratsolution.com/2026/10/india-tracks-every-taxpayer-in-minutes.html",
   "slug": "india-tracks-every-taxpayer-in-minutes",
   "published": "2026-10-18T06:50:17.000+05:30",
-  "updated": "2026-10-26T14:19:33.000+05:30",
+  "updated": "2026-11-14T12:44:29.783+05:30",
   "labels": [
     "Healthcare",
     "Industrial Policy",
     "Scheme Delivery Gap"
   ],
-  "bytes": 53639,
-  "sha256": "77ad08628cb405e408883ad79215922c99cf2a6d784479705e83215201854bdb",
+  "bytes": 53649,
+  "sha256": "6a573c1d1a688440f06c8f287b0c1164fdded09c1d359d59420fccbb0c49b08f",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.1",
+  "version": "2.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -84,6 +84,19 @@
         "https://masaladeutsch.blogspot.com/2026/10/india-tracks-every-taxpayer-in-minutes.html",
         "https://blog.vertistratsolution.com/2026/10/india-tracks-every-taxpayer-in-minutes.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        53639,
+        53649
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

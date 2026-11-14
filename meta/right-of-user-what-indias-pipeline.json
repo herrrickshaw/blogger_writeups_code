@@ -4,14 +4,14 @@
   "url": "https://blog.vertistratsolution.com/2026/09/right-of-user-what-indias-pipeline.html",
   "slug": "right-of-user-what-indias-pipeline",
   "published": "2026-09-05T15:59:46.000+05:30",
-  "updated": "2026-11-09T17:15:58.000+05:30",
+  "updated": "2026-11-14T13:03:17.456+05:30",
   "labels": [
     "Energy & Fuels",
     "Gas & LNG",
     "Gas Pipeline Infrastructure & Demand Planning"
   ],
-  "bytes": 53709,
-  "sha256": "987fb774d502195aae7d5f0d9fb69b5b379f187671cbf91d105a0183add86356",
+  "bytes": 53713,
+  "sha256": "1ec267d6436bbca1d4140d6ba079253d61edfbfcf63d63711b0cc191b63a5d43",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "4.0.1",
+  "version": "4.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -149,6 +149,19 @@
         "https://masaladeutsch.blogspot.com/2026/09/right-of-user-what-indias-pipeline.html",
         "https://blog.vertistratsolution.com/2026/09/right-of-user-what-indias-pipeline.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "4.0.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        53709,
+        53713
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

@@ -4,14 +4,14 @@
   "url": "https://blog.vertistratsolution.com/2026/10/indias-rs-3030-crore-chemical-parks.html",
   "slug": "indias-rs-3030-crore-chemical-parks",
   "published": "2026-10-27T17:25:21.000+05:30",
-  "updated": "2026-11-07T08:47:34.000+05:30",
+  "updated": "2026-11-14T12:31:00.353+05:30",
   "labels": [
     "Chemicals",
     "Import Substitution",
     "Industrial Policy"
   ],
-  "bytes": 28321,
-  "sha256": "8ddfab380c2cdd0a584b22eab9891cee9a94d068edd21251dfbc65dd507e685d",
+  "bytes": 28330,
+  "sha256": "a5a2e96563dfe4aa9ba5cd83a90005085a776e3cccc535c113d2a1aa3731e279",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.1.1",
+  "version": "1.1.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -58,6 +58,19 @@
         "https://masaladeutsch.blogspot.com/2026/10/indias-rs-3030-crore-chemical-parks.html",
         "https://blog.vertistratsolution.com/2026/10/indias-rs-3030-crore-chemical-parks.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.1.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        28321,
+        28330
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

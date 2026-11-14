@@ -4,13 +4,13 @@
   "url": "https://blog.vertistratsolution.com/2026/08/raising-green-debt-globally-rec-euroyen.html",
   "slug": "raising-green-debt-globally-rec-euroyen",
   "published": "2026-08-03T19:10:19.000+05:30",
-  "updated": "2026-11-07T08:56:03.000+05:30",
+  "updated": "2026-11-14T13:36:29.622+05:30",
   "labels": [
     "Bonds & Fixed Income",
     "Markets & Finance"
   ],
-  "bytes": 83031,
-  "sha256": "2d2e20066f80758799156033d3a53e3a57c743d3a0db0a91093ce0c5d3197596",
+  "bytes": 83043,
+  "sha256": "19c3ded354227579cab78155ece4a9822d73a5bc59d037dc0b0fc4ddb5d23d86",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "6.1.1",
+  "version": "6.1.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -361,6 +361,19 @@
         "https://masaladeutsch.blogspot.com/2026/08/raising-green-debt-globally-rec-euroyen.html",
         "https://blog.vertistratsolution.com/2026/08/raising-green-debt-globally-rec-euroyen.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "6.1.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        83031,
+        83043
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

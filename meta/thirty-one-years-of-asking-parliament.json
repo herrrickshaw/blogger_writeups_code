@@ -4,15 +4,15 @@
   "url": "https://blog.vertistratsolution.com/2026/08/thirty-one-years-of-asking-parliament.html",
   "slug": "thirty-one-years-of-asking-parliament",
   "published": "2026-08-23T05:17:05.000+05:30",
-  "updated": "2026-10-01T08:57:02.000+05:30",
+  "updated": "2026-11-14T13:13:28.797+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Fertilisers & Soil Health",
     "India",
     "Industrial Policy"
   ],
-  "bytes": 38244,
-  "sha256": "497b20860331d8be0473d04736085a692548d1181e099979edb4d28ed9675acd",
+  "bytes": 38248,
+  "sha256": "7a7ea112d9d8256ae7227a5f96586f88b5e8cf1232151f978cf9ec5760d9cd99",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.1.1",
+  "version": "2.1.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -111,6 +111,19 @@
         "https://masaladeutsch.blogspot.com/2026/08/thirty-one-years-of-asking-parliament.html",
         "https://blog.vertistratsolution.com/2026/08/thirty-one-years-of-asking-parliament.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.1.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        38244,
+        38248
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

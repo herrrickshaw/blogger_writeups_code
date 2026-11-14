@@ -4,14 +4,14 @@
   "url": "https://blog.vertistratsolution.com/2026/09/india-let-oil-companies-put-solar-on.html",
   "slug": "india-let-oil-companies-put-solar-on",
   "published": "2026-09-28T15:57:52.000+05:30",
-  "updated": "2026-11-09T17:13:30.000+05:30",
+  "updated": "2026-11-14T12:52:18.926+05:30",
   "labels": [
     "Energy & Fuels",
     "Oil & Gas Exploration",
     "Renewable Power & Storage"
   ],
-  "bytes": 32184,
-  "sha256": "8e46a9163cefb8b3a25bc5ca1b50fa5b57b8274286a62f0757b3c128b3cb2a8d",
+  "bytes": 32193,
+  "sha256": "a3a4034369c866fc435fb0a97d8e13deb4c00fbddaef6bcdd57826e2ed9a6001",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.1",
+  "version": "3.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -97,6 +97,19 @@
         "https://masaladeutsch.blogspot.com/2026/09/india-let-oil-companies-put-solar-on.html",
         "https://blog.vertistratsolution.com/2026/09/india-let-oil-companies-put-solar-on.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.0.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        32184,
+        32193
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

@@ -4,15 +4,15 @@
   "url": "https://blog.vertistratsolution.com/2026/08/india-hit-e20-on-maize-and-rice-not.html",
   "slug": "india-hit-e20-on-maize-and-rice-not",
   "published": "2026-08-23T04:34:22.000+05:30",
-  "updated": "2026-11-07T08:36:55.000+05:30",
+  "updated": "2026-11-14T13:13:57.574+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Energy & Fuels",
     "Ethanol & Biofuels",
     "India"
   ],
-  "bytes": 26860,
-  "sha256": "f7121dace93ffbbaa393a6d23a9b1475739caf7a0ddc150001c85bc2a158498f",
+  "bytes": 26865,
+  "sha256": "a1535e939206eb705e6a29dd6f4abef5e59b043840eefad788451807bf40f5a0",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.2.1",
+  "version": "2.2.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -124,6 +124,19 @@
         "https://masaladeutsch.blogspot.com/2026/08/india-hit-e20-on-maize-and-rice-not.html",
         "https://blog.vertistratsolution.com/2026/08/india-hit-e20-on-maize-and-rice-not.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.2.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        26860,
+        26865
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

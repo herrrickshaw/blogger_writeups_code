@@ -4,14 +4,14 @@
   "url": "https://blog.vertistratsolution.com/2026/09/india-leads-world-in-jute-and-ranks.html",
   "slug": "india-leads-world-in-jute-and-ranks",
   "published": "2026-09-27T18:37:56.000+05:30",
-  "updated": "2026-11-07T08:37:52.000+05:30",
+  "updated": "2026-11-14T12:52:28.873+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Textiles",
     "Trade & Tariffs"
   ],
-  "bytes": 29640,
-  "sha256": "ac68e3ab5b86a8ee4cdd911cccb07f730bc0d68e6ff1d47bd52c4bbf3d621a63",
+  "bytes": 29647,
+  "sha256": "01cdb6ee6de2fe0c5f7718aa5550228528d5a79dc9e1f8bb914dad91cd18bc8c",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.1.1",
+  "version": "2.1.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -84,6 +84,19 @@
         "https://masaladeutsch.blogspot.com/2026/09/india-leads-world-in-jute-and-ranks.html",
         "https://blog.vertistratsolution.com/2026/09/india-leads-world-in-jute-and-ranks.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.1.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        29640,
+        29647
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

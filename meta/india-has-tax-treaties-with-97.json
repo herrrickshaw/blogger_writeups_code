@@ -4,13 +4,13 @@
   "url": "https://blog.vertistratsolution.com/2026/08/india-has-tax-treaties-with-97.html",
   "slug": "india-has-tax-treaties-with-97",
   "published": "2026-08-09T10:54:39.000+05:30",
-  "updated": "2026-11-07T08:36:41.000+05:30",
+  "updated": "2026-11-14T13:27:11.199+05:30",
   "labels": [
     "Free Trade Agreements",
     "Trade & Tariffs"
   ],
-  "bytes": 32377,
-  "sha256": "7f0d90b4748cda7b8b16a8305126976582904daa6ce94950cfaa2b5287fe284f",
+  "bytes": 32381,
+  "sha256": "cee8ac52adc18fe0ec78516444564a283890b530b83d6325c08067dfd91328b6",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "4.3.1",
+  "version": "4.3.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -291,6 +291,19 @@
         "https://masaladeutsch.blogspot.com/2026/08/india-has-tax-treaties-with-97.html",
         "https://blog.vertistratsolution.com/2026/08/india-has-tax-treaties-with-97.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "4.3.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        32377,
+        32381
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

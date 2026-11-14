@@ -4,15 +4,15 @@
   "url": "https://blog.vertistratsolution.com/2026/08/indias-445-billion-spice-export-book-is.html",
   "slug": "indias-445-billion-spice-export-book-is",
   "published": "2026-08-24T15:02:33.000+05:30",
-  "updated": "2026-11-07T08:40:40.000+05:30",
+  "updated": "2026-11-14T13:11:49.668+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Cash Crop Export Economics",
     "India",
     "Trade & Tariffs"
   ],
-  "bytes": 35882,
-  "sha256": "6a8123ebf25593b0f12a1b9a4093b400f9b74c80e7e968bf49031cea2e8b9411",
+  "bytes": 35888,
+  "sha256": "a1f79deb53b0e9d91f26f88f06101b79ed468c0ef8d69958797be0e66f74c4d0",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.3.1",
+  "version": "2.3.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -150,6 +150,19 @@
         "https://masaladeutsch.blogspot.com/2026/08/indias-445-billion-spice-export-book-is.html",
         "https://blog.vertistratsolution.com/2026/08/indias-445-billion-spice-export-book-is.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.3.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        35882,
+        35888
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

@@ -4,14 +4,14 @@
   "url": "https://blog.vertistratsolution.com/2026/10/how-to-use-five-open-toolkits-finance.html",
   "slug": "how-to-use-five-open-toolkits-finance",
   "published": "2026-10-30T09:26:39.000+05:30",
-  "updated": "2026-11-11T14:58:46.000+05:30",
+  "updated": "2026-11-14T12:25:35.199+05:30",
   "labels": [
     "Healthcare",
     "Markets & Finance",
     "Open-Source Tools & How-To"
   ],
-  "bytes": 26582,
-  "sha256": "af7fe4fba1ce563f33df46a3a778ac2dd233c41f5955840ea24d65e9298f205a",
+  "bytes": 26584,
+  "sha256": "ddfb363c2e9ca594d9c0ef2f7af81e039a3ad9737b4cca37e83eda9cdb2e62f0",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.3",
+  "version": "1.0.4",
   "version_history": [
     {
       "version": "1.0.0",
@@ -69,6 +69,19 @@
       "bytes": [
         26673,
         26582
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.4",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        26582,
+        26584
       ],
       "url_changed": null,
       "markers_changed": null,

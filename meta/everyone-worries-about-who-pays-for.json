@@ -4,12 +4,12 @@
   "url": "https://blog.vertistratsolution.com/2026/09/everyone-worries-about-who-pays-for.html",
   "slug": "everyone-worries-about-who-pays-for",
   "published": "2026-09-03T05:50:09.000+05:30",
-  "updated": "2026-11-07T08:29:04.000+05:30",
+  "updated": "2026-11-14T13:04:29.220+05:30",
   "labels": [
     "Industrial Policy"
   ],
-  "bytes": 46519,
-  "sha256": "e16423073e069881330161c29a98a9718b4d4f2ac18fc6134051f87796568b34",
+  "bytes": 46524,
+  "sha256": "6f31857e9b2511fbe0402e79f548597f2e46e0ef745b41c81dfce49b9881c4ea",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.1.1",
+  "version": "2.1.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -160,6 +160,19 @@
         "https://masaladeutsch.blogspot.com/2026/09/everyone-worries-about-who-pays-for.html",
         "https://blog.vertistratsolution.com/2026/09/everyone-worries-about-who-pays-for.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.1.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        46519,
+        46524
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

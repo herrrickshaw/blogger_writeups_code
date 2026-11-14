@@ -4,12 +4,12 @@
   "url": "https://blog.vertistratsolution.com/2026/09/textbooks-say-project-returns-converge.html",
   "slug": "textbooks-say-project-returns-converge",
   "published": "2026-09-03T11:07:13.000+05:30",
-  "updated": "2026-10-26T14:20:13.000+05:30",
+  "updated": "2026-11-14T13:03:59.130+05:30",
   "labels": [
     "Markets & Finance"
   ],
-  "bytes": 31769,
-  "sha256": "c312ffabc90fa1f17e4f609640a99e6fa48f20042c9097b5cf3e09fe8080664e",
+  "bytes": 31772,
+  "sha256": "fad3fec953d2b03f88d43455385381de3bbc7723b4a69e2cdd22c0dd13240875",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.1",
+  "version": "2.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -121,6 +121,19 @@
         "https://masaladeutsch.blogspot.com/2026/09/textbooks-say-project-returns-converge.html",
         "https://blog.vertistratsolution.com/2026/09/textbooks-say-project-returns-converge.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        31769,
+        31772
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

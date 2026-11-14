@@ -4,14 +4,14 @@
   "url": "https://blog.vertistratsolution.com/2026/07/indias-subsidised-imports-fertilisers.html",
   "slug": "indias-subsidised-imports-fertilisers",
   "published": "2026-07-31T05:30:00.000+05:30",
-  "updated": "2026-11-04T18:45:32.000+05:30",
+  "updated": "2026-11-14T14:38:38.261+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Chemicals",
     "Trade & Tariffs"
   ],
-  "bytes": 39579,
-  "sha256": "b847af874a8b4827d52a91b1f09e27e62f42aac06ee3205a2481370a1a500a98",
+  "bytes": 39590,
+  "sha256": "b51f28df924aefc2b1b019f2e579b2761234e162e518c1ed476ba92d58e35edc",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,55 +23,13 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.2.1",
+  "version": "1.0.0",
   "version_history": [
     {
       "version": "1.0.0",
-      "date": "2026-09-24T06:01:59+00:00",
+      "date": "2026-11-14T14:39:05+05:30",
       "level": "initial",
       "reason": "first snapshot",
-      "note": "New post based on herrrickshaw/india-quality-regulation: India's four-layer quality-regulation architecture (37 bodies), with an independent correction -- BIS Scheme-X was repealed 14 Jan 2026, not 'due September 2026' as the source repo's own fetch still states"
-    },
-    {
-      "version": "1.1.0",
-      "date": "2026-10-01T09:03:45+05:30",
-      "level": "minor",
-      "reason": "forced via --as minor (figures changed (+0/-0 distinct numbers))",
-      "bytes": [
-        38180,
-        39556
-      ],
-      "url_changed": null,
-      "markers_changed": null,
-      "note": "Rule 8 retrofit: added What would fix this section"
-    },
-    {
-      "version": "1.2.0",
-      "date": "2026-11-04T18:46:56+05:30",
-      "level": "minor",
-      "reason": "forced via --as minor (figures changed (+2/-0 distinct numbers))",
-      "bytes": [
-        39556,
-        39579
-      ],
-      "url_changed": null,
-      "markers_changed": null,
-      "note": "crosscheck 2 Nov fixes"
-    },
-    {
-      "version": "1.2.1",
-      "date": "2026-11-11T05:46:22+05:30",
-      "level": "patch",
-      "reason": "moved to a new URL; body unchanged",
-      "bytes": [
-        39579,
-        39579
-      ],
-      "url_changed": [
-        "https://masaladeutsch.blogspot.com/2026/07/indias-subsidised-imports-fertilisers.html",
-        "https://blog.vertistratsolution.com/2026/07/indias-subsidised-imports-fertilisers.html"
-      ],
-      "markers_changed": null,
       "note": ""
     }
   ]

@@ -4,13 +4,13 @@
   "url": "https://blog.vertistratsolution.com/2026/08/hsn-wise-historical-importexport-trends.html",
   "slug": "hsn-wise-historical-importexport-trends",
   "published": "2026-08-02T14:04:15.000+05:30",
-  "updated": "2026-10-01T08:25:41.000+05:30",
+  "updated": "2026-11-14T13:38:53.826+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Trade & Tariffs"
   ],
-  "bytes": 36156,
-  "sha256": "f57c8cd1b844c571ad39ab9740876b7fb93c4021e2b735039b6b83674ff46a79",
+  "bytes": 36160,
+  "sha256": "a1eb482f104e2b8eed4d93a94aebd9db4a0023fc97a9256c66e966380e35a3bd",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "4.2.1",
+  "version": "4.2.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -352,6 +352,19 @@
         "https://masaladeutsch.blogspot.com/2026/08/hsn-wise-historical-importexport-trends.html",
         "https://blog.vertistratsolution.com/2026/08/hsn-wise-historical-importexport-trends.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "4.2.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        36156,
+        36160
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

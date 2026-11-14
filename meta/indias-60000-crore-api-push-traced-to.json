@@ -4,13 +4,13 @@
   "url": "https://blog.vertistratsolution.com/2026/09/indias-60000-crore-api-push-traced-to.html",
   "slug": "indias-60000-crore-api-push-traced-to",
   "published": "2026-09-16T14:11:49.000+05:30",
-  "updated": "2026-11-07T08:41:05.000+05:30",
+  "updated": "2026-11-14T12:57:31.431+05:30",
   "labels": [
     "Industrial Policy",
     "PLI Schemes"
   ],
-  "bytes": 27141,
-  "sha256": "ee90c2ae3e5cae547038470a001c9ddeac22c237e3409a131b6aab3a2d487a45",
+  "bytes": 27147,
+  "sha256": "13e59c154475c0203ce00e7780634448ad9b44f69c45684fb732286bec15ba18",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.5.1",
+  "version": "1.5.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -122,6 +122,19 @@
         "https://masaladeutsch.blogspot.com/2026/09/indias-60000-crore-api-push-traced-to.html",
         "https://blog.vertistratsolution.com/2026/09/indias-60000-crore-api-push-traced-to.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.5.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        27141,
+        27147
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

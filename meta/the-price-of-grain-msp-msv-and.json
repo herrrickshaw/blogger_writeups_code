@@ -4,13 +4,13 @@
   "url": "https://blog.vertistratsolution.com/2026/07/the-price-of-grain-msp-msv-and.html",
   "slug": "the-price-of-grain-msp-msv-and",
   "published": "2026-07-23T05:30:00.000+05:30",
-  "updated": "2026-11-07T09:05:57.000+05:30",
+  "updated": "2026-11-14T13:44:27.767+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Grain Procurement & Storage"
   ],
-  "bytes": 46315,
-  "sha256": "6d14d1362f747468eefcc28a9de41351b608d3390371b8b552e26fd359d9340c",
+  "bytes": 46321,
+  "sha256": "c0c057360b52f72276d61af53ed3dbdd28ab30b4021b242625cab6e5d2939864",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "6.1.1",
+  "version": "6.1.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -379,6 +379,19 @@
         "https://masaladeutsch.blogspot.com/2026/07/the-price-of-grain-msp-msv-and.html",
         "https://blog.vertistratsolution.com/2026/07/the-price-of-grain-msp-msv-and.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "6.1.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "wording changed; no figures, sections or claims moved",
+      "bytes": [
+        46315,
+        46321
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

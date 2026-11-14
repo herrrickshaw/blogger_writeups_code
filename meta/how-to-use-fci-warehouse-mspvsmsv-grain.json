@@ -4,13 +4,13 @@
   "url": "https://blog.vertistratsolution.com/2026/10/how-to-use-fci-warehouse-mspvsmsv-grain.html",
   "slug": "how-to-use-fci-warehouse-mspvsmsv-grain",
   "published": "2026-10-19T05:08:33.000+05:30",
-  "updated": "2026-10-20T09:05:42.000+05:30",
+  "updated": "2026-11-14T12:42:29.345+05:30",
   "labels": [
     "India",
     "Open-Source Tools & How-To"
   ],
-  "bytes": 25014,
-  "sha256": "1c194df75bfeca33cb2859a789771587dd4ff9b5856a58b9281b731a3a94c1d3",
+  "bytes": 25016,
+  "sha256": "2c7f033360a64966f224c67095cd26c1069e86b5180c6d25c9586a33dbc74196",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.2",
+  "version": "1.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -57,6 +57,19 @@
         "https://masaladeutsch.blogspot.com/2026/10/how-to-use-fci-warehouse-mspvsmsv-grain.html",
         "https://blog.vertistratsolution.com/2026/10/how-to-use-fci-warehouse-mspvsmsv-grain.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.3",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        25014,
+        25016
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

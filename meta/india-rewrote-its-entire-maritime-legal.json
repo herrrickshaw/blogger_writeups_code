@@ -4,10 +4,10 @@
   "url": "https://blog.vertistratsolution.com/2026/09/india-rewrote-its-entire-maritime-legal.html",
   "slug": "india-rewrote-its-entire-maritime-legal",
   "published": "2026-09-15T10:51:58.000+05:30",
-  "updated": "2026-11-09T17:13:54.000+05:30",
+  "updated": "2026-11-14T12:58:33.048+05:30",
   "labels": [],
-  "bytes": 22878,
-  "sha256": "9884705965b7dd476b3f45c26a58b4046906a4a665aa43329a971067d45c7195",
+  "bytes": 22883,
+  "sha256": "5b211fd52f339e94f9bb4f341434828802ef1e97d7a566b88c47dfd11809a119",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.3.2",
+  "version": "1.3.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -132,6 +132,19 @@
         "https://masaladeutsch.blogspot.com/2026/09/india-rewrote-its-entire-maritime-legal.html",
         "https://blog.vertistratsolution.com/2026/09/india-rewrote-its-entire-maritime-legal.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.3.3",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        22878,
+        22883
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

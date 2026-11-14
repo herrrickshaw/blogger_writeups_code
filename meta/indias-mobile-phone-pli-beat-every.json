@@ -4,15 +4,15 @@
   "url": "https://blog.vertistratsolution.com/2026/08/indias-mobile-phone-pli-beat-every.html",
   "slug": "indias-mobile-phone-pli-beat-every",
   "published": "2026-08-30T08:15:44.000+05:30",
-  "updated": "2026-11-09T17:15:05.000+05:30",
+  "updated": "2026-11-14T13:08:17.518+05:30",
   "labels": [
     "Electronics & Semiconductors",
     "India",
     "Industrial Policy",
     "PLI Schemes"
   ],
-  "bytes": 26129,
-  "sha256": "c8708d896b799f469da14b75312da42a189b203b643cdf0eb6f025227a979042",
+  "bytes": 26134,
+  "sha256": "acda485f44d8136515d8f80c2c46c37e2ea6bccc6500c5739dae827f9961a408",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.2.2",
+  "version": "2.2.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -163,6 +163,19 @@
         "https://masaladeutsch.blogspot.com/2026/08/indias-mobile-phone-pli-beat-every.html",
         "https://blog.vertistratsolution.com/2026/08/indias-mobile-phone-pli-beat-every.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.2.3",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        26129,
+        26134
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

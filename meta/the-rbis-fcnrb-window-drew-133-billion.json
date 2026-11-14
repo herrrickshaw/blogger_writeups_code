@@ -4,13 +4,13 @@
   "url": "https://blog.vertistratsolution.com/2026/10/the-rbis-fcnrb-window-drew-133-billion.html",
   "slug": "the-rbis-fcnrb-window-drew-133-billion",
   "published": "2026-10-10T02:30:54.000+05:30",
-  "updated": "2026-10-28T16:30:24.000+05:30",
+  "updated": "2026-11-14T12:46:17.489+05:30",
   "labels": [
     "Macroeconomics & Monetary Policy",
     "Markets & Finance"
   ],
-  "bytes": 30655,
-  "sha256": "22fc1669cff91a1d9d662f92f8535925c27626ea514244b139519a04f8f9a238",
+  "bytes": 30661,
+  "sha256": "dd16fd7e013c8632387c1815aeea4bfb30e5d0343e6d975050c67a9417d7e753",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.1",
+  "version": "2.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -57,6 +57,19 @@
         "https://masaladeutsch.blogspot.com/2026/10/the-rbis-fcnrb-window-drew-133-billion.html",
         "https://blog.vertistratsolution.com/2026/10/the-rbis-fcnrb-window-drew-133-billion.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        30655,
+        30661
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

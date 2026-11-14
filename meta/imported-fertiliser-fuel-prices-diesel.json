@@ -4,15 +4,15 @@
   "url": "https://blog.vertistratsolution.com/2026/08/imported-fertiliser-fuel-prices-diesel.html",
   "slug": "imported-fertiliser-fuel-prices-diesel",
   "published": "2026-08-02T13:50:50.000+05:30",
-  "updated": "2026-10-26T13:54:24.000+05:30",
+  "updated": "2026-11-14T13:40:03.993+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Energy & Fuels",
     "Fertilisers & Soil Health",
     "Prices & Inflation"
   ],
-  "bytes": 37898,
-  "sha256": "0b37d2f54d584a1b1b863af208baa11fc2f3ad9fd86e2bab82b4707ea51013b6",
+  "bytes": 37910,
+  "sha256": "75a193127ffae8468802382c316ca1e723a65f3294c22e18e0d4653bd99e6e52",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "5.0.1",
+  "version": "5.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -324,6 +324,19 @@
         "https://masaladeutsch.blogspot.com/2026/08/imported-fertiliser-fuel-prices-diesel.html",
         "https://blog.vertistratsolution.com/2026/08/imported-fertiliser-fuel-prices-diesel.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "5.0.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        37898,
+        37910
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

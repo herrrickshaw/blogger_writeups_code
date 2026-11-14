@@ -4,15 +4,15 @@
   "url": "https://blog.vertistratsolution.com/2026/10/india-ordered-112-captive-coal-plants.html",
   "slug": "india-ordered-112-captive-coal-plants",
   "published": "2026-10-26T14:47:39.000+05:30",
-  "updated": "2026-11-07T08:38:17.000+05:30",
+  "updated": "2026-11-14T12:33:08.490+05:30",
   "labels": [
     "Coal & Coal Gasification",
     "Energy & Fuels",
     "India",
     "Markets & Finance"
   ],
-  "bytes": 27459,
-  "sha256": "11655254735f9a0a07a39d17032b7a1d99b64360fe1fcec5d181019baaab4848",
+  "bytes": 27462,
+  "sha256": "a37ea7c28f77ce4aa010fd8e4f030a4b8d5d41fc51a9b937761e5098d289a465",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.1.1",
+  "version": "1.1.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -72,6 +72,19 @@
         "https://masaladeutsch.blogspot.com/2026/10/india-ordered-112-captive-coal-plants.html",
         "https://blog.vertistratsolution.com/2026/10/india-ordered-112-captive-coal-plants.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.1.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        27459,
+        27462
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

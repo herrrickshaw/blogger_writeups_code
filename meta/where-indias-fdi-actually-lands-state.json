@@ -4,13 +4,13 @@
   "url": "https://blog.vertistratsolution.com/2026/09/where-indias-fdi-actually-lands-state.html",
   "slug": "where-indias-fdi-actually-lands-state",
   "published": "2026-09-03T13:14:49.000+05:30",
-  "updated": "2026-10-23T09:57:31.000+05:30",
+  "updated": "2026-11-14T13:03:48.152+05:30",
   "labels": [
     "Industrial Policy",
     "Markets & Finance"
   ],
-  "bytes": 53754,
-  "sha256": "0d7be279a080045242599c5ffb07d06e16e23c89bb912fe28e65cec6cff40d7d",
+  "bytes": 53757,
+  "sha256": "38ab64c74840aa4cf883ed6721a156a8a939479aabfbf3e0e9bf5d3906baec18",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.2.2",
+  "version": "2.2.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -148,6 +148,19 @@
         "https://masaladeutsch.blogspot.com/2026/09/where-indias-fdi-actually-lands-state.html",
         "https://blog.vertistratsolution.com/2026/09/where-indias-fdi-actually-lands-state.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.2.3",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        53754,
+        53757
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

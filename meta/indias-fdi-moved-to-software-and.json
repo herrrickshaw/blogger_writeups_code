@@ -4,12 +4,12 @@
   "url": "https://blog.vertistratsolution.com/2026/10/indias-fdi-moved-to-software-and.html",
   "slug": "indias-fdi-moved-to-software-and",
   "published": "2026-10-10T02:54:22.000+05:30",
-  "updated": "2026-10-23T09:57:03.000+05:30",
+  "updated": "2026-11-14T12:46:07.691+05:30",
   "labels": [
     "Markets & Finance"
   ],
-  "bytes": 45532,
-  "sha256": "01a9d1d756b49f6f8230cfefa8b8d9febde75931a1c93c73847233952c1074d3",
+  "bytes": 45538,
+  "sha256": "785169905b59aa8434578be2e6e185eb2d1ac45c059cce2b5a326d55ffd5c1a9",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.2",
+  "version": "1.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -56,6 +56,19 @@
         "https://masaladeutsch.blogspot.com/2026/10/indias-fdi-moved-to-software-and.html",
         "https://blog.vertistratsolution.com/2026/10/indias-fdi-moved-to-software-and.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.3",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        45532,
+        45538
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

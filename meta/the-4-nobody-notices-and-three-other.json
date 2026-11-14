@@ -4,15 +4,15 @@
   "url": "https://blog.vertistratsolution.com/2026/09/the-4-nobody-notices-and-three-other.html",
   "slug": "the-4-nobody-notices-and-three-other",
   "published": "2026-09-01T08:40:28.000+05:30",
-  "updated": "2026-11-07T09:01:49.000+05:30",
+  "updated": "2026-11-14T13:06:27.611+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Crop Insurance & Risk",
     "Industrial Policy",
     "Markets & Finance"
   ],
-  "bytes": 43018,
-  "sha256": "5cf59e126576e0561e4925147ffd932a08be8854f3f60e114bd7a03ba16ed42a",
+  "bytes": 43022,
+  "sha256": "9e6e7291e5831276d1683702a47b2eda1e832580e193a85720357094980758c0",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.1.1",
+  "version": "3.1.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -176,6 +176,19 @@
         "https://masaladeutsch.blogspot.com/2026/09/the-4-nobody-notices-and-three-other.html",
         "https://blog.vertistratsolution.com/2026/09/the-4-nobody-notices-and-three-other.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.1.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        43018,
+        43022
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

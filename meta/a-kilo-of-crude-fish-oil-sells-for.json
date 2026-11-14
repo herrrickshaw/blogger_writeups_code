@@ -4,13 +4,13 @@
   "url": "https://blog.vertistratsolution.com/2026/10/a-kilo-of-crude-fish-oil-sells-for.html",
   "slug": "a-kilo-of-crude-fish-oil-sells-for",
   "published": "2026-10-28T15:34:15.000+05:30",
-  "updated": "2026-10-28T15:35:20.000+05:30",
+  "updated": "2026-11-14T12:27:49.921+05:30",
   "labels": [
     "Agriculture & Food Processing",
     "Livestock & Dairy"
   ],
-  "bytes": 30867,
-  "sha256": "499310aa574eb4a57ebcce3e8306f2272b18f8a73a1b4dc30c26162a98c14b6f",
+  "bytes": 30877,
+  "sha256": "f61c46bac8b3a9ed771c596ae3c90ce3c454a15c1457cd09ee06bf918648848d",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -44,6 +44,19 @@
         "https://masaladeutsch.blogspot.com/2026/10/a-kilo-of-crude-fish-oil-sells-for.html",
         "https://blog.vertistratsolution.com/2026/10/a-kilo-of-crude-fish-oil-sells-for.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        30867,
+        30877
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

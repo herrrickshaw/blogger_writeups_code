@@ -4,14 +4,14 @@
   "url": "https://blog.vertistratsolution.com/2026/09/one-nation-one-ration-card-doesnt-move.html",
   "slug": "one-nation-one-ration-card-doesnt-move",
   "published": "2026-09-05T12:36:54.000+05:30",
-  "updated": "2026-11-07T08:52:56.000+05:30",
+  "updated": "2026-11-14T13:03:27.025+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Energy & Fuels",
     "Grain Procurement & Storage"
   ],
-  "bytes": 63595,
-  "sha256": "126405cc1382ed620d2e688a0c404ffd068f588dad434327a6bb863fd780c5d7",
+  "bytes": 63602,
+  "sha256": "63bf93ed63873ba9113c9751d003205afa1349be3ed981807a0658a685a4dfae",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.1.1",
+  "version": "2.1.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -136,6 +136,19 @@
         "https://masaladeutsch.blogspot.com/2026/09/one-nation-one-ration-card-doesnt-move.html",
         "https://blog.vertistratsolution.com/2026/09/one-nation-one-ration-card-doesnt-move.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.1.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        63595,
+        63602
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

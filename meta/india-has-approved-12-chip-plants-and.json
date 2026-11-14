@@ -4,13 +4,13 @@
   "url": "https://blog.vertistratsolution.com/2026/10/india-has-approved-12-chip-plants-and.html",
   "slug": "india-has-approved-12-chip-plants-and",
   "published": "2026-10-27T17:26:44.000+05:30",
-  "updated": "2026-10-27T17:32:24.000+05:30",
+  "updated": "2026-11-14T12:30:00.748+05:30",
   "labels": [
     "Import Substitution",
     "Industrial Policy"
   ],
-  "bytes": 24355,
-  "sha256": "65c38f3a4554e782d82ffdc9270617d77bc44811f5ac5c0caa64b7cc2e086153",
+  "bytes": 24362,
+  "sha256": "8ff452ce066848c69f68d1afba2949a054456c16658723a45da370fb55e51d71",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -44,6 +44,19 @@
         "https://masaladeutsch.blogspot.com/2026/10/india-has-approved-12-chip-plants-and.html",
         "https://blog.vertistratsolution.com/2026/10/india-has-approved-12-chip-plants-and.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        24355,
+        24362
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

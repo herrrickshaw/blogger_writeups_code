@@ -4,10 +4,13 @@
   "url": "https://blog.vertistratsolution.com/2026/11/eight-open-source-tools-for-indias.html",
   "slug": "eight-open-source-tools-for-indias",
   "published": "2026-11-13T03:39:25.000+05:30",
-  "updated": "2026-11-13T03:39:25.000+05:30",
-  "labels": [],
-  "bytes": 37673,
-  "sha256": "844b6d7bfa0784d7e72072479e00466d1639f2e15db5600b06d033518c65775e",
+  "updated": "2026-11-14T14:22:34.345+05:30",
+  "labels": [
+    "Chemicals",
+    "Trade & Tariffs"
+  ],
+  "bytes": 37681,
+  "sha256": "f31bc5df4eb3ffca1848b2ad26f216a0b306a279b8ebf882b3da6ee818e138e2",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,13 +22,26 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "version_history": [
     {
       "version": "1.0.0",
       "date": "2026-11-13T03:39:53+05:30",
       "level": "initial",
       "reason": "first snapshot",
+      "note": ""
+    },
+    {
+      "version": "1.0.1",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        37673,
+        37681
+      ],
+      "url_changed": null,
+      "markers_changed": null,
       "note": ""
     }
   ]

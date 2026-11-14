@@ -4,12 +4,12 @@
   "url": "https://blog.vertistratsolution.com/2026/10/indias-first-tourism-survey-since-2014.html",
   "slug": "indias-first-tourism-survey-since-2014",
   "published": "2026-10-09T21:29:06.000+05:30",
-  "updated": "2026-10-10T09:51:54.000+05:30",
+  "updated": "2026-11-14T12:46:26.332+05:30",
   "labels": [
     "Industrial Policy"
   ],
-  "bytes": 21707,
-  "sha256": "fadabde9704824d4a4356404be758b7f89bd75faf1c4fb7de2ad256c9a41705b",
+  "bytes": 21712,
+  "sha256": "01ad83ca148ef3b6fafe7b79451b9bb998d080d051beba9b9f56ff9564a5663a",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -43,6 +43,19 @@
         "https://masaladeutsch.blogspot.com/2026/10/indias-first-tourism-survey-since-2014.html",
         "https://blog.vertistratsolution.com/2026/10/indias-first-tourism-survey-since-2014.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        21707,
+        21712
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

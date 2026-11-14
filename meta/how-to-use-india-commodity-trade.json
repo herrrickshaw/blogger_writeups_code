@@ -4,14 +4,14 @@
   "url": "https://blog.vertistratsolution.com/2026/10/how-to-use-india-commodity-trade.html",
   "slug": "how-to-use-india-commodity-trade",
   "published": "2026-10-19T05:11:32.000+05:30",
-  "updated": "2026-10-29T09:08:04.000+05:30",
+  "updated": "2026-11-14T12:40:06.552+05:30",
   "labels": [
     "India",
     "Markets & Finance",
     "Open-Source Tools & How-To"
   ],
-  "bytes": 24498,
-  "sha256": "e865a15a4769c149f5675de56fae0f0d99b67b503cbbc1c854fa25db807d0d10",
+  "bytes": 24500,
+  "sha256": "891c3fc02d5d8fa6b5133b57f0da124578ce2f247feed6bed260b522fd39f75c",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.2",
+  "version": "1.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -58,6 +58,19 @@
         "https://masaladeutsch.blogspot.com/2026/10/how-to-use-india-commodity-trade.html",
         "https://blog.vertistratsolution.com/2026/10/how-to-use-india-commodity-trade.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.3",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        24498,
+        24500
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

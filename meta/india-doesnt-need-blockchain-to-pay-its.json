@@ -4,14 +4,14 @@
   "url": "https://blog.vertistratsolution.com/2026/11/india-doesnt-need-blockchain-to-pay-its.html",
   "slug": "india-doesnt-need-blockchain-to-pay-its",
   "published": "2026-11-03T17:48:45.000+05:30",
-  "updated": "2026-11-04T18:40:30.000+05:30",
+  "updated": "2026-11-14T12:24:45.961+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Governance & Institutions",
     "Markets & Finance"
   ],
-  "bytes": 34153,
-  "sha256": "6b0d813c602689b7a7fbbb8b5c5dce13cb84fe8ced4aa0763d8e3ac9ecc58b8b",
+  "bytes": 34162,
+  "sha256": "12e841d8181e8acfcebf2c5de9efbd8e02e013b2f6b8d6be33dd69e55ae84058",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -45,6 +45,19 @@
         "https://masaladeutsch.blogspot.com/2026/11/india-doesnt-need-blockchain-to-pay-its.html",
         "https://blog.vertistratsolution.com/2026/11/india-doesnt-need-blockchain-to-pay-its.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        34153,
+        34162
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

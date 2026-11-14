@@ -4,14 +4,14 @@
   "url": "https://blog.vertistratsolution.com/2026/10/how-to-use-india-trade-sector-policy.html",
   "slug": "how-to-use-india-trade-sector-policy",
   "published": "2026-10-19T05:12:21.000+05:30",
-  "updated": "2026-10-29T09:07:13.000+05:30",
+  "updated": "2026-11-14T12:39:16.569+05:30",
   "labels": [
     "India",
     "Infrastructure & Investment",
     "Open-Source Tools & How-To"
   ],
-  "bytes": 23076,
-  "sha256": "847d22d1d7b2ed3ffab6e6a7a2d37c3f0c6defaa1bd3b49b7f329c8c4b7e7e10",
+  "bytes": 23078,
+  "sha256": "150b1962e0d5a8f8d4728e75c8e44c90cef9631a22de56cf7402cf16b999c277",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.2",
+  "version": "1.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -58,6 +58,19 @@
         "https://masaladeutsch.blogspot.com/2026/10/how-to-use-india-trade-sector-policy.html",
         "https://blog.vertistratsolution.com/2026/10/how-to-use-india-trade-sector-policy.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.3",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        23076,
+        23078
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

@@ -4,14 +4,14 @@
   "url": "https://blog.vertistratsolution.com/2026/09/the-50-tariff-and-234-one-untangling.html",
   "slug": "the-50-tariff-and-234-one-untangling",
   "published": "2026-09-12T22:12:05.000+05:30",
-  "updated": "2026-11-07T09:02:02.000+05:30",
+  "updated": "2026-11-14T13:01:01.358+05:30",
   "labels": [
     "India Trade & Policy",
     "Trade & Tariffs",
     "Trade Remedies & Antidumping"
   ],
-  "bytes": 58126,
-  "sha256": "cef01eb772de6849f8bbf72c93ae1421331861225f12f12dec8c34f621ece6b6",
+  "bytes": 58130,
+  "sha256": "13b2050a7d7fe78d6e8065b5c2377b622543ee6e30536e9bc99e7bf6dc8b2f19",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.5.1",
+  "version": "1.5.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -149,6 +149,19 @@
         "https://masaladeutsch.blogspot.com/2026/09/the-50-tariff-and-234-one-untangling.html",
         "https://blog.vertistratsolution.com/2026/09/the-50-tariff-and-234-one-untangling.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.5.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        58126,
+        58130
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

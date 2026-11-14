@@ -4,12 +4,12 @@
   "url": "https://blog.vertistratsolution.com/2026/08/cow-dung-already-flew-rocket-engine.html",
   "slug": "cow-dung-already-flew-rocket-engine",
   "published": "2026-08-09T04:20:09.000+05:30",
-  "updated": "2026-11-07T08:26:06.000+05:30",
+  "updated": "2026-11-14T13:27:30.717+05:30",
   "labels": [
     "Energy & Fuels"
   ],
-  "bytes": 41509,
-  "sha256": "776e05b702227cc6825bdafa94906639383577ace18778117e4a2ed1575f624f",
+  "bytes": 41514,
+  "sha256": "16d995995d5cdbb2a63576b93353955373cb2decacda0a7cd00f2b18221ab908",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "4.2.1",
+  "version": "4.2.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -303,6 +303,19 @@
         "https://masaladeutsch.blogspot.com/2026/08/cow-dung-already-flew-rocket-engine.html",
         "https://blog.vertistratsolution.com/2026/08/cow-dung-already-flew-rocket-engine.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "4.2.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        41509,
+        41514
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

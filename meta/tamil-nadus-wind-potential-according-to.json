@@ -4,13 +4,13 @@
   "url": "https://blog.vertistratsolution.com/2026/08/tamil-nadus-wind-potential-according-to.html",
   "slug": "tamil-nadus-wind-potential-according-to",
   "published": "2026-08-14T15:04:38.000+05:30",
-  "updated": "2026-11-07T09:00:26.000+05:30",
+  "updated": "2026-11-14T13:21:10.412+05:30",
   "labels": [
     "Energy & Fuels",
     "Renewable Power & Storage"
   ],
-  "bytes": 31374,
-  "sha256": "9f6516e380d1dc8c36b50c7f02c3f57cb9d441aef2abc15967845121a1400010",
+  "bytes": 31378,
+  "sha256": "6df3bb7c17f4f8575b0aa4468c47e9bf28cb8bc86bdf7cfac8e6c68ae98cfbdb",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.2.1",
+  "version": "3.2.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -200,6 +200,19 @@
         "https://masaladeutsch.blogspot.com/2026/08/tamil-nadus-wind-potential-according-to.html",
         "https://blog.vertistratsolution.com/2026/08/tamil-nadus-wind-potential-according-to.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.2.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        31374,
+        31378
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

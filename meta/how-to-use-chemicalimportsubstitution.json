@@ -4,13 +4,13 @@
   "url": "https://blog.vertistratsolution.com/2026/10/how-to-use-chemicalimportsubstitution.html",
   "slug": "how-to-use-chemicalimportsubstitution",
   "published": "2026-10-19T05:09:20.000+05:30",
-  "updated": "2026-10-23T09:06:16.000+05:30",
+  "updated": "2026-11-14T12:41:48.300+05:30",
   "labels": [
     "India",
     "Open-Source Tools & How-To"
   ],
-  "bytes": 25588,
-  "sha256": "1cb957ed529bb018e8921c1e3459200a2fbbb5ce29359430b392298ab6d56122",
+  "bytes": 25590,
+  "sha256": "d33e7fbf9bd126edc0eb7d347bab4ec056d041361acd72a8b6b621dc6632f0ae",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.2",
+  "version": "1.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -57,6 +57,19 @@
         "https://masaladeutsch.blogspot.com/2026/10/how-to-use-chemicalimportsubstitution.html",
         "https://blog.vertistratsolution.com/2026/10/how-to-use-chemicalimportsubstitution.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.3",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        25588,
+        25590
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

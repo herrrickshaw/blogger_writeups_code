@@ -4,14 +4,14 @@
   "url": "https://blog.vertistratsolution.com/2026/08/bio-fertiliser-and-green-credits.html",
   "slug": "bio-fertiliser-and-green-credits",
   "published": "2026-08-02T21:16:59.000+05:30",
-  "updated": "2026-11-04T18:44:05.000+05:30",
+  "updated": "2026-11-14T13:37:39.420+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Climate & Carbon",
     "Fertilisers & Soil Health"
   ],
-  "bytes": 53269,
-  "sha256": "35dfa094743e5aeaad3b87b7d72980296aa40434e8a5212ef6ef7f89cda9127c",
+  "bytes": 53287,
+  "sha256": "15eeb65512f64de7f4019c38f8bc1b7042b8bcd0c3f5439d408825f09fa1793d",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "6.1.1",
+  "version": "6.1.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -357,6 +357,19 @@
         "https://masaladeutsch.blogspot.com/2026/08/bio-fertiliser-and-green-credits.html",
         "https://blog.vertistratsolution.com/2026/08/bio-fertiliser-and-green-credits.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "6.1.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        53269,
+        53287
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

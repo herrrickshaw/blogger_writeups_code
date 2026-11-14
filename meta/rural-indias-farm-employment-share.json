@@ -4,12 +4,12 @@
   "url": "https://blog.vertistratsolution.com/2026/09/rural-indias-farm-employment-share.html",
   "slug": "rural-indias-farm-employment-share",
   "published": "2026-09-17T08:10:45.000+05:30",
-  "updated": "2026-11-07T08:57:43.000+05:30",
+  "updated": "2026-11-14T12:56:23.933+05:30",
   "labels": [
     "Agriculture & Fertilisers"
   ],
-  "bytes": 22194,
-  "sha256": "c6dd54ea4770da4f16ec87fdee24faf5454fa8661106e0b89142c99deb52f084",
+  "bytes": 22198,
+  "sha256": "190d21ab998dba54d95baa4167df738231c4cb47283659e51582b9634372460f",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.4.1",
+  "version": "1.4.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -108,6 +108,19 @@
         "https://masaladeutsch.blogspot.com/2026/09/rural-indias-farm-employment-share.html",
         "https://blog.vertistratsolution.com/2026/09/rural-indias-farm-employment-share.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.4.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        22194,
+        22198
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

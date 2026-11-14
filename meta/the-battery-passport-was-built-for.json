@@ -4,14 +4,14 @@
   "url": "https://blog.vertistratsolution.com/2026/08/the-battery-passport-was-built-for.html",
   "slug": "the-battery-passport-was-built-for",
   "published": "2026-08-27T09:16:18.000+05:30",
-  "updated": "2026-10-01T08:51:25.000+05:30",
+  "updated": "2026-11-14T13:10:09.794+05:30",
   "labels": [
     "Circularity & Waste-to-Value",
     "Industrial Policy",
     "Mobility & EV"
   ],
-  "bytes": 37190,
-  "sha256": "5f8059c229fbd94e823a66cdf61d28e3a935db712375befc9c58195a742655f0",
+  "bytes": 37196,
+  "sha256": "7a4645faab94226a02eea3584ac05646269ece845cd0dc1f3a2cd855d208569d",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.1.1",
+  "version": "3.1.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -149,6 +149,19 @@
         "https://masaladeutsch.blogspot.com/2026/08/the-battery-passport-was-built-for.html",
         "https://blog.vertistratsolution.com/2026/08/the-battery-passport-was-built-for.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.1.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        37190,
+        37196
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

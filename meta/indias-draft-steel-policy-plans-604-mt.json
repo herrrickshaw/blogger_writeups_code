@@ -4,14 +4,14 @@
   "url": "https://blog.vertistratsolution.com/2026/10/indias-draft-steel-policy-plans-604-mt.html",
   "slug": "indias-draft-steel-policy-plans-604-mt",
   "published": "2026-10-27T17:25:13.000+05:30",
-  "updated": "2026-10-27T17:31:27.000+05:30",
+  "updated": "2026-11-14T12:31:10.117+05:30",
   "labels": [
     "Climate & Carbon",
     "Industrial Policy",
     "Trade & Tariffs"
   ],
-  "bytes": 29816,
-  "sha256": "a8122470af9c89168fcc0fde9383c06a55595933aa1236b64c8af73e6d9b2bc9",
+  "bytes": 29823,
+  "sha256": "9625f8b29d9c1b2cb648acb11de0792207650e8bb71afd3546ca50ab52d8e271",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -45,6 +45,19 @@
         "https://masaladeutsch.blogspot.com/2026/10/indias-draft-steel-policy-plans-604-mt.html",
         "https://blog.vertistratsolution.com/2026/10/indias-draft-steel-policy-plans-604-mt.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        29816,
+        29823
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

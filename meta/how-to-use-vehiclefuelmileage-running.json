@@ -4,15 +4,15 @@
   "url": "https://blog.vertistratsolution.com/2026/10/how-to-use-vehiclefuelmileage-running.html",
   "slug": "how-to-use-vehiclefuelmileage-running",
   "published": "2026-10-19T05:15:19.000+05:30",
-  "updated": "2026-11-02T09:05:15.000+05:30",
+  "updated": "2026-11-14T12:36:58.539+05:30",
   "labels": [
     "Energy & Fuels",
     "India",
     "Mobility & EV",
     "Open-Source Tools & How-To"
   ],
-  "bytes": 24427,
-  "sha256": "586eb5cbf2c8214f649980a6d12e0edaa60f4d7007e252de6d317e5f0b0cf586",
+  "bytes": 24429,
+  "sha256": "a7c54810db397c139593ba7caf332666b2d98ea51daccdddbccc13ff9bc52dd2",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.2",
+  "version": "1.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -59,6 +59,19 @@
         "https://masaladeutsch.blogspot.com/2026/10/how-to-use-vehiclefuelmileage-running.html",
         "https://blog.vertistratsolution.com/2026/10/how-to-use-vehiclefuelmileage-running.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.3",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        24427,
+        24429
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

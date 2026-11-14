@@ -4,13 +4,13 @@
   "url": "https://blog.vertistratsolution.com/2026/09/icra-rates-most-of-indias-economy.html",
   "slug": "icra-rates-most-of-indias-economy",
   "published": "2026-09-03T10:20:13.000+05:30",
-  "updated": "2026-11-07T08:33:45.000+05:30",
+  "updated": "2026-11-14T13:04:08.927+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Industrial Policy"
   ],
-  "bytes": 41825,
-  "sha256": "055c2d3a88089ff3ec3be168a7e781ee33f1bf1191cb6e0baeefefc177a4a364",
+  "bytes": 41828,
+  "sha256": "792e5addd44ca23d09e183291ea7c793b2a010414455a509ef41d9bcd71ece18",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.2.1",
+  "version": "1.2.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -135,6 +135,19 @@
         "https://masaladeutsch.blogspot.com/2026/09/icra-rates-most-of-indias-economy.html",
         "https://blog.vertistratsolution.com/2026/09/icra-rates-most-of-indias-economy.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.2.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        41825,
+        41828
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

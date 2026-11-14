@@ -4,14 +4,14 @@
   "url": "https://blog.vertistratsolution.com/2026/10/how-to-use-global-ticker-universe-look.html",
   "slug": "how-to-use-global-ticker-universe-look",
   "published": "2026-10-19T05:11:30.000+05:30",
-  "updated": "2026-10-26T09:05:52.000+05:30",
+  "updated": "2026-11-14T12:40:16.268+05:30",
   "labels": [
     "Equity Markets & Stock Screening",
     "Markets & Finance",
     "Open-Source Tools & How-To"
   ],
-  "bytes": 24394,
-  "sha256": "30e0ac8cf60105de03cfd348a7597a8f9b573a11ac770ea7e508d89984d63e8b",
+  "bytes": 24396,
+  "sha256": "b5f722fd8ba29f7a9101c4d61f8975e6723f29cf96078d59b3cd6474b5c3d10f",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.1",
+  "version": "2.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -58,6 +58,19 @@
         "https://masaladeutsch.blogspot.com/2026/10/how-to-use-global-ticker-universe-look.html",
         "https://blog.vertistratsolution.com/2026/10/how-to-use-global-ticker-universe-look.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        24394,
+        24396
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

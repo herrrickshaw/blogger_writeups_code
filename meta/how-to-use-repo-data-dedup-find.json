@@ -4,12 +4,12 @@
   "url": "https://blog.vertistratsolution.com/2026/10/how-to-use-repo-data-dedup-find.html",
   "slug": "how-to-use-repo-data-dedup-find",
   "published": "2026-10-19T05:14:33.000+05:30",
-  "updated": "2026-10-31T09:06:03.000+05:30",
+  "updated": "2026-11-14T12:37:35.766+05:30",
   "labels": [
     "Open-Source Tools & How-To"
   ],
-  "bytes": 25085,
-  "sha256": "45be202e29350020a0a0eec03ec8a71e47bd5ac81744500f074189d763109e32",
+  "bytes": 25087,
+  "sha256": "006f55cd27313dd0d246bf5a16dc89b1075a19543a4e54ea9750877e8722ccda",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.2",
+  "version": "1.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -56,6 +56,19 @@
         "https://masaladeutsch.blogspot.com/2026/10/how-to-use-repo-data-dedup-find.html",
         "https://blog.vertistratsolution.com/2026/10/how-to-use-repo-data-dedup-find.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.3",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        25085,
+        25087
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

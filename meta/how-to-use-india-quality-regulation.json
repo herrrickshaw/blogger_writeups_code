@@ -4,13 +4,13 @@
   "url": "https://blog.vertistratsolution.com/2026/10/how-to-use-india-quality-regulation.html",
   "slug": "how-to-use-india-quality-regulation",
   "published": "2026-10-19T05:12:17.000+05:30",
-  "updated": "2026-10-29T09:07:40.000+05:30",
+  "updated": "2026-11-14T12:39:37.223+05:30",
   "labels": [
     "India",
     "Open-Source Tools & How-To"
   ],
-  "bytes": 24851,
-  "sha256": "af78a66ce34ad2d1d17df46f3c8b7567321a4222edab99f832b4353e3682fb8d",
+  "bytes": 24853,
+  "sha256": "4f1183c2a0ffb896695af27a765251a8f79a338557797b6ad5174d68f60afec8",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.2",
+  "version": "1.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -57,6 +57,19 @@
         "https://masaladeutsch.blogspot.com/2026/10/how-to-use-india-quality-regulation.html",
         "https://blog.vertistratsolution.com/2026/10/how-to-use-india-quality-regulation.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.3",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        24851,
+        24853
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

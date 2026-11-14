@@ -4,13 +4,13 @@
   "url": "https://blog.vertistratsolution.com/2026/10/thermocol-dissolves-in-orange-peel-oil.html",
   "slug": "thermocol-dissolves-in-orange-peel-oil",
   "published": "2026-10-10T09:50:59.000+05:30",
-  "updated": "2026-10-26T14:20:37.000+05:30",
+  "updated": "2026-11-14T12:45:57.826+05:30",
   "labels": [
     "Chemicals",
     "Climate & Carbon"
   ],
-  "bytes": 34049,
-  "sha256": "c56a4b213db6385be73d9856167b25e7dc051c534fd1568fe7301add1512b39b",
+  "bytes": 34055,
+  "sha256": "3649153a5d5861f78e780a4ff67055c15081ca98ca9bb4faab206ae538112f5c",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.1",
+  "version": "3.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -70,6 +70,19 @@
         "https://masaladeutsch.blogspot.com/2026/10/thermocol-dissolves-in-orange-peel-oil.html",
         "https://blog.vertistratsolution.com/2026/10/thermocol-dissolves-in-orange-peel-oil.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.0.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        34049,
+        34055
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

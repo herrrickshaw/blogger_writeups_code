@@ -4,13 +4,13 @@
   "url": "https://blog.vertistratsolution.com/2026/08/discom-debt-relief-token-charge.html",
   "slug": "discom-debt-relief-token-charge",
   "published": "2026-08-02T13:41:21.000+05:30",
-  "updated": "2026-11-07T08:27:04.000+05:30",
+  "updated": "2026-11-14T13:41:05.677+05:30",
   "labels": [
     "Industrial Policy",
     "Public Sector & Infrastructure Finance"
   ],
-  "bytes": 30485,
-  "sha256": "1fc2810d8945d574ecf09058f843df9b6241d4a0755f53b7f821a74e2d122508",
+  "bytes": 30490,
+  "sha256": "47d1c4e7ee886f5503a32272d832a2ba002d820181e9b9cd20c7a13835bb47ea",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.2.1",
+  "version": "3.2.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -291,6 +291,19 @@
         "https://masaladeutsch.blogspot.com/2026/08/discom-debt-relief-token-charge.html",
         "https://blog.vertistratsolution.com/2026/08/discom-debt-relief-token-charge.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.2.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        30485,
+        30490
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

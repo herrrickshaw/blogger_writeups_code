@@ -4,13 +4,13 @@
   "url": "https://blog.vertistratsolution.com/2026/08/the-easiest-ev-conversion-in-india.html",
   "slug": "the-easiest-ev-conversion-in-india",
   "published": "2026-08-31T15:51:11.000+05:30",
-  "updated": "2026-11-09T17:16:19.000+05:30",
+  "updated": "2026-11-14T13:06:37.397+05:30",
   "labels": [
     "Industrial Policy",
     "Mobility & EV"
   ],
-  "bytes": 41436,
-  "sha256": "e58bdf61a90bace474158c1c342710f87ea72a86852e88a23aed0946c55e929f",
+  "bytes": 41441,
+  "sha256": "b5f617a3a86e7000d7b728f2dc470070a8f0d880d050f8f39f6c42da609641aa",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "4.0.1",
+  "version": "4.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -187,6 +187,19 @@
         "https://masaladeutsch.blogspot.com/2026/08/the-easiest-ev-conversion-in-india.html",
         "https://blog.vertistratsolution.com/2026/08/the-easiest-ev-conversion-in-india.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "4.0.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        41436,
+        41441
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

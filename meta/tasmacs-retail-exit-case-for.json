@@ -4,13 +4,13 @@
   "url": "https://blog.vertistratsolution.com/2026/08/tasmacs-retail-exit-case-for.html",
   "slug": "tasmacs-retail-exit-case-for",
   "published": "2026-08-30T11:24:44.000+05:30",
-  "updated": "2026-10-27T15:17:04.000+05:30",
+  "updated": "2026-11-14T13:07:56.477+05:30",
   "labels": [
     "India",
     "Markets & Finance"
   ],
-  "bytes": 30804,
-  "sha256": "25c2f0f708198c6243a85898457d12241b37a106224e24f18521c51acc3769ed",
+  "bytes": 30807,
+  "sha256": "23a64b4f6a366074a5952b4083aab53604cb5d36948f579ee920b5cd65c2290f",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.1",
+  "version": "2.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -148,6 +148,19 @@
         "https://masaladeutsch.blogspot.com/2026/08/tasmacs-retail-exit-case-for.html",
         "https://blog.vertistratsolution.com/2026/08/tasmacs-retail-exit-case-for.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        30804,
+        30807
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

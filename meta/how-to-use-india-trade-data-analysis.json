@@ -4,14 +4,14 @@
   "url": "https://blog.vertistratsolution.com/2026/10/how-to-use-india-trade-data-analysis.html",
   "slug": "how-to-use-india-trade-data-analysis",
   "published": "2026-10-19T05:12:19.000+05:30",
-  "updated": "2026-10-29T09:07:21.000+05:30",
+  "updated": "2026-11-14T12:39:26.570+05:30",
   "labels": [
     "India",
     "Markets & Finance",
     "Open-Source Tools & How-To"
   ],
-  "bytes": 23162,
-  "sha256": "4cf78fd5b10ae00d8f04e73dfd82806049399540a9f38a655908ddec63852be8",
+  "bytes": 23164,
+  "sha256": "16e890178bc00fef812a40b3b9313d7bb8049a11dcb18c1bc223239d8ebf4e5f",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.2",
+  "version": "1.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -58,6 +58,19 @@
         "https://masaladeutsch.blogspot.com/2026/10/how-to-use-india-trade-data-analysis.html",
         "https://blog.vertistratsolution.com/2026/10/how-to-use-india-trade-data-analysis.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.3",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        23162,
+        23164
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

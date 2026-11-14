@@ -4,13 +4,13 @@
   "url": "https://blog.vertistratsolution.com/2026/07/us-stock-picks-multi-screen-quant.html",
   "slug": "us-stock-picks-multi-screen-quant",
   "published": "2026-07-24T05:30:00.000+05:30",
-  "updated": "2026-10-15T13:43:39.000+05:30",
+  "updated": "2026-11-14T13:44:17.733+05:30",
   "labels": [
     "Equity Markets & Stock Screening",
     "Markets & Finance"
   ],
-  "bytes": 37854,
-  "sha256": "064353dcb90f28b045485aa6f176807c1e91689218ec74c5ede2445176e0362a",
+  "bytes": 37857,
+  "sha256": "12c68ab6fffe251bb319110868ff39615ac831ba36609c1862c4e21290e7ee86",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.1.1",
+  "version": "1.1.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -57,6 +57,19 @@
         "https://masaladeutsch.blogspot.com/2026/07/us-stock-picks-multi-screen-quant.html",
         "https://blog.vertistratsolution.com/2026/07/us-stock-picks-multi-screen-quant.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.1.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        37854,
+        37857
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

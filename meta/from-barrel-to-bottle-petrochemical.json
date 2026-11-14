@@ -4,14 +4,14 @@
   "url": "https://blog.vertistratsolution.com/2026/08/from-barrel-to-bottle-petrochemical.html",
   "slug": "from-barrel-to-bottle-petrochemical",
   "published": "2026-08-13T08:48:38.000+05:30",
-  "updated": "2026-11-07T08:31:12.000+05:30",
+  "updated": "2026-11-14T13:23:07.119+05:30",
   "labels": [
     "Chemicals",
     "Energy & Fuels",
     "Refining & Petrochemicals"
   ],
-  "bytes": 34504,
-  "sha256": "06b1dc9791a2d25dfe6009f6f57380d20a9509315498f2aa1ab6911330d61471",
+  "bytes": 34509,
+  "sha256": "ad31f8cbcdfe9d12c778da9f26479c5f8d77b1469bc5fcd7134c6b27ca72ebec",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.3.1",
+  "version": "2.3.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -253,6 +253,19 @@
         "https://masaladeutsch.blogspot.com/2026/08/from-barrel-to-bottle-petrochemical.html",
         "https://blog.vertistratsolution.com/2026/08/from-barrel-to-bottle-petrochemical.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.3.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        34504,
+        34509
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

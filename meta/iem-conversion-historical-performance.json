@@ -4,12 +4,12 @@
   "url": "https://blog.vertistratsolution.com/2026/08/iem-conversion-historical-performance.html",
   "slug": "iem-conversion-historical-performance",
   "published": "2026-08-02T13:07:57.000+05:30",
-  "updated": "2026-11-12T21:56:11.000+05:30",
+  "updated": "2026-11-14T13:41:16.372+05:30",
   "labels": [
     "Industrial Policy"
   ],
-  "bytes": 26232,
-  "sha256": "d6e5d9c83578bba8c246ac24ddd7c8b8a4922a1952c9c7eb4625aec14ca56f82",
+  "bytes": 26236,
+  "sha256": "2fa4c790beee611ac9d49d5e052b071aae122b3036a8c172a7136f988806c97d",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.0",
+  "version": "3.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -280,6 +280,19 @@
       "bytes": [
         25106,
         26232
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.0.1",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        26232,
+        26236
       ],
       "url_changed": null,
       "markers_changed": null,

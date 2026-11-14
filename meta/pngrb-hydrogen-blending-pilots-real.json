@@ -4,14 +4,14 @@
   "url": "https://blog.vertistratsolution.com/2026/09/pngrb-hydrogen-blending-pilots-real.html",
   "slug": "pngrb-hydrogen-blending-pilots-real",
   "published": "2026-09-02T03:43:03.000+05:30",
-  "updated": "2026-11-07T08:54:22.000+05:30",
+  "updated": "2026-11-14T13:04:58.924+05:30",
   "labels": [
     "Energy & Fuels",
     "Gas & LNG",
     "Hydrogen"
   ],
-  "bytes": 37032,
-  "sha256": "d9316007aeb26f57ac159e70d63a593e46949163264f913dee9b6efd8b07ec9b",
+  "bytes": 37036,
+  "sha256": "59e4dd7f267746bee39c4ef5a63202460ac08a1031dd8d2ee0afc750f12537c9",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.2.1",
+  "version": "1.2.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -136,6 +136,19 @@
         "https://masaladeutsch.blogspot.com/2026/09/pngrb-hydrogen-blending-pilots-real.html",
         "https://blog.vertistratsolution.com/2026/09/pngrb-hydrogen-blending-pilots-real.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.2.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        37032,
+        37036
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

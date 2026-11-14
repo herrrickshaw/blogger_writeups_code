@@ -4,13 +4,13 @@
   "url": "https://blog.vertistratsolution.com/2026/09/indias-lng-trucks-grew-75-in-2025-about.html",
   "slug": "indias-lng-trucks-grew-75-in-2025-about",
   "published": "2026-09-14T14:50:09.000+05:30",
-  "updated": "2026-11-07T08:45:35.000+05:30",
+  "updated": "2026-11-14T13:00:32.402+05:30",
   "labels": [
     "Gas & LNG",
     "LNG Trucking & Fleet Conversion"
   ],
-  "bytes": 20944,
-  "sha256": "bf689ee73a10efd0297ff4b4e6633bf787986b6aef770f8d8ff2f503dd838516",
+  "bytes": 20948,
+  "sha256": "872ba7f3e3e81b7e7c44f5ff07e5ca0d5452909b40113ab5492935badfcb275b",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.3.1",
+  "version": "1.3.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -83,6 +83,19 @@
         "https://masaladeutsch.blogspot.com/2026/09/indias-lng-trucks-grew-75-in-2025-about.html",
         "https://blog.vertistratsolution.com/2026/09/indias-lng-trucks-grew-75-in-2025-about.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.3.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        20944,
+        20948
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

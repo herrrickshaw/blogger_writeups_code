@@ -4,15 +4,15 @@
   "url": "https://blog.vertistratsolution.com/2026/08/ten-cubic-metres-hour-indias-first.html",
   "slug": "ten-cubic-metres-hour-indias-first",
   "published": "2026-08-20T10:01:38.000+05:30",
-  "updated": "2026-11-07T09:00:53.000+05:30",
+  "updated": "2026-11-14T13:16:27.722+05:30",
   "labels": [
     "Energy & Fuels",
     "Hydrogen",
     "Industrial Policy",
     "Shipping & Maritime Fuels"
   ],
-  "bytes": 38897,
-  "sha256": "a7253656a0130ba8748b4dce07f4495831b6fd411cac7ab439f084ed64160dfe",
+  "bytes": 38902,
+  "sha256": "c0dc5bda476a3c144dd8c7f75e5a01dfccb78679b171e89eccd7ed0b277bc4a4",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.3.1",
+  "version": "2.3.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -176,6 +176,19 @@
         "https://masaladeutsch.blogspot.com/2026/08/ten-cubic-metres-hour-indias-first.html",
         "https://blog.vertistratsolution.com/2026/08/ten-cubic-metres-hour-indias-first.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.3.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        38897,
+        38902
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

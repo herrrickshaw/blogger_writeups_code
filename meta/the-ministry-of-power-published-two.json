@@ -4,13 +4,13 @@
   "url": "https://blog.vertistratsolution.com/2026/09/the-ministry-of-power-published-two.html",
   "slug": "the-ministry-of-power-published-two",
   "published": "2026-09-19T07:43:38.000+05:30",
-  "updated": "2026-09-19T07:57:18.000+05:30",
+  "updated": "2026-11-14T12:55:13.437+05:30",
   "labels": [
     "Energy & Fuels",
     "Industrial Policy"
   ],
-  "bytes": 17407,
-  "sha256": "aee50fef90e3978f3ad29b81a66f807166e6496e70a34b197014fb1c7a191bd9",
+  "bytes": 17411,
+  "sha256": "ff3bf3dde5efd65170d28057667b7ea68f72be917fee445b8ddbb17c6eda469f",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.2",
+  "version": "1.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -57,6 +57,19 @@
         "https://masaladeutsch.blogspot.com/2026/09/the-ministry-of-power-published-two.html",
         "https://blog.vertistratsolution.com/2026/09/the-ministry-of-power-published-two.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.3",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        17407,
+        17411
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

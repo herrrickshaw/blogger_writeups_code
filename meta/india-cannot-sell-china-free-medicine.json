@@ -4,15 +4,15 @@
   "url": "https://blog.vertistratsolution.com/2026/08/india-cannot-sell-china-free-medicine.html",
   "slug": "india-cannot-sell-china-free-medicine",
   "published": "2026-08-23T10:16:58.000+05:30",
-  "updated": "2026-11-07T08:34:38.000+05:30",
+  "updated": "2026-11-14T13:12:59.495+05:30",
   "labels": [
     "Chemicals",
     "Healthcare",
     "Trade & Tariffs",
     "Trade Remedies & Antidumping"
   ],
-  "bytes": 39783,
-  "sha256": "a49b75306d36d295950b38da9a8073fe066434faf4476b407f2270de9bfb3fee",
+  "bytes": 39788,
+  "sha256": "b7f10d3df6d15c37d3704df4ba5299e45602217de524e2ae133f9190e9cb213e",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.2.1",
+  "version": "3.2.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -163,6 +163,19 @@
         "https://masaladeutsch.blogspot.com/2026/08/india-cannot-sell-china-free-medicine.html",
         "https://blog.vertistratsolution.com/2026/08/india-cannot-sell-china-free-medicine.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.2.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        39783,
+        39788
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

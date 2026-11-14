@@ -4,13 +4,13 @@
   "url": "https://blog.vertistratsolution.com/2026/10/states-can-draw-rs-61008-crore-of-short.html",
   "slug": "states-can-draw-rs-61008-crore-of-short",
   "published": "2026-10-31T05:12:30.000+05:30",
-  "updated": "2026-10-31T05:13:23.000+05:30",
+  "updated": "2026-11-14T12:25:05.836+05:30",
   "labels": [
     "Governance & Institutions",
     "Macroeconomics & Monetary Policy"
   ],
-  "bytes": 25206,
-  "sha256": "74cbc34cbe6edf0dcd6a2870af1f0f976e6dd4039cd65a08b81183bc28c2211f",
+  "bytes": 25213,
+  "sha256": "ff3963c87b8d635859445bc66b5f77496e36b868c27b00146b698f7f8c009846",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -44,6 +44,19 @@
         "https://masaladeutsch.blogspot.com/2026/10/states-can-draw-rs-61008-crore-of-short.html",
         "https://blog.vertistratsolution.com/2026/10/states-can-draw-rs-61008-crore-of-short.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        25206,
+        25213
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

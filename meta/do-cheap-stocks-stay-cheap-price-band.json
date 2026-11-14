@@ -4,13 +4,13 @@
   "url": "https://blog.vertistratsolution.com/2026/08/do-cheap-stocks-stay-cheap-price-band.html",
   "slug": "do-cheap-stocks-stay-cheap-price-band",
   "published": "2026-08-11T15:52:01.000+05:30",
-  "updated": "2026-10-01T08:19:11.000+05:30",
+  "updated": "2026-11-14T13:25:14.489+05:30",
   "labels": [
     "Equity Markets & Stock Screening",
     "Markets & Finance"
   ],
-  "bytes": 95944,
-  "sha256": "70551cdf55775a1e6f0315b5e7a4470ca15e5661c6dd100ca6c06fc9779b2eef",
+  "bytes": 95949,
+  "sha256": "7ceab5785df9c477e6494667f34bddae6c327d8c8c5c37f69598dd70029c8a07",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.1.1",
+  "version": "3.1.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -278,6 +278,19 @@
         "https://masaladeutsch.blogspot.com/2026/08/do-cheap-stocks-stay-cheap-price-band.html",
         "https://blog.vertistratsolution.com/2026/08/do-cheap-stocks-stay-cheap-price-band.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.1.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        95944,
+        95949
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

@@ -4,15 +4,15 @@
   "url": "https://blog.vertistratsolution.com/2026/09/india-doesnt-have-one-quality-regulator.html",
   "slug": "india-doesnt-have-one-quality-regulator",
   "published": "2026-09-24T11:31:15.000+05:30",
-  "updated": "2026-11-12T21:55:41.000+05:30",
+  "updated": "2026-11-14T12:53:07.224+05:30",
   "labels": [
     "Ease of Doing Business & Regulatory Reform",
     "Industrial Policy",
     "Quality Standards & Certification",
     "Trade & Tariffs"
   ],
-  "bytes": 33455,
-  "sha256": "d08cb2b995d9d533cb98ce2008f45ffb9328e1a2ca5957d3908fa816b65a4a49",
+  "bytes": 33457,
+  "sha256": "12ae427270c362e9316f9e6aa89d46e1e9e877946039d10ba45dfeb15bb98249",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.0",
+  "version": "2.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -70,6 +70,19 @@
       "bytes": [
         25540,
         33455
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.1",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        33455,
+        33457
       ],
       "url_changed": null,
       "markers_changed": null,

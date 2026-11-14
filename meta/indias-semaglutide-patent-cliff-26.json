@@ -4,14 +4,14 @@
   "url": "https://blog.vertistratsolution.com/2026/09/indias-semaglutide-patent-cliff-26.html",
   "slug": "indias-semaglutide-patent-cliff-26",
   "published": "2026-09-16T14:09:01.000+05:30",
-  "updated": "2026-11-07T08:47:46.000+05:30",
+  "updated": "2026-11-14T12:57:41.302+05:30",
   "labels": [
     "Chemicals",
     "Healthcare",
     "Trade & Tariffs"
   ],
-  "bytes": 24245,
-  "sha256": "10caf9a83afa19c3ac5e5fd1bb5d512737f89ff9357b227b8952d7955561f1c4",
+  "bytes": 24249,
+  "sha256": "08fbb394a8bb059e1b0abdb430389e96f47d53c8ecb46c36d6459b71147eb303",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.4.1",
+  "version": "1.4.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -110,6 +110,19 @@
         "https://masaladeutsch.blogspot.com/2026/09/indias-semaglutide-patent-cliff-26.html",
         "https://blog.vertistratsolution.com/2026/09/indias-semaglutide-patent-cliff-26.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.4.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        24245,
+        24249
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

@@ -4,15 +4,15 @@
   "url": "https://blog.vertistratsolution.com/2026/10/how-to-use-news-tracker-score-headlines.html",
   "slug": "how-to-use-news-tracker-score-headlines",
   "published": "2026-10-18T08:54:48.000+05:30",
-  "updated": "2026-10-26T09:06:24.000+05:30",
+  "updated": "2026-11-14T12:43:37.930+05:30",
   "labels": [
     "Equity Markets & Stock Screening",
     "India",
     "Markets & Finance",
     "Open-Source Tools & How-To"
   ],
-  "bytes": 22442,
-  "sha256": "e38c67262f55aa5389dd212f4edc46ec382c91ca10b4cb01f269515f0f7847c0",
+  "bytes": 22444,
+  "sha256": "9640f68f2b5c0e9f51118dd61afebda6e2a97dc81526642bf3ad2cd1baad7678",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.1",
+  "version": "3.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -98,6 +98,19 @@
         "https://masaladeutsch.blogspot.com/2026/10/how-to-use-news-tracker-score-headlines.html",
         "https://blog.vertistratsolution.com/2026/10/how-to-use-news-tracker-score-headlines.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.0.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        22442,
+        22444
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

@@ -4,12 +4,12 @@
   "url": "https://blog.vertistratsolution.com/2026/10/how-to-use-claude-lmstudio-router-keep.html",
   "slug": "how-to-use-claude-lmstudio-router-keep",
   "published": "2026-10-18T08:51:07.000+05:30",
-  "updated": "2026-10-19T09:05:50.000+05:30",
+  "updated": "2026-11-14T12:43:57.365+05:30",
   "labels": [
     "Open-Source Tools & How-To"
   ],
-  "bytes": 24635,
-  "sha256": "8f598e4e2930f28fd0507247a98b79411fc50af466d1da5f8969987cc48ed9c3",
+  "bytes": 24637,
+  "sha256": "31f19ad786c406ca027916428c13e94b1b4887f8cb57a2a5000d8685e6b314f1",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.3",
+  "version": "1.0.4",
   "version_history": [
     {
       "version": "1.0.0",
@@ -69,6 +69,19 @@
         "https://masaladeutsch.blogspot.com/2026/10/how-to-use-claude-lmstudio-router-keep.html",
         "https://blog.vertistratsolution.com/2026/10/how-to-use-claude-lmstudio-router-keep.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.4",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        24635,
+        24637
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

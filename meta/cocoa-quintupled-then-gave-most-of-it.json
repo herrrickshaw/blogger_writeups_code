@@ -4,14 +4,14 @@
   "url": "https://blog.vertistratsolution.com/2026/09/cocoa-quintupled-then-gave-most-of-it.html",
   "slug": "cocoa-quintupled-then-gave-most-of-it",
   "published": "2026-09-30T03:34:12.000+05:30",
-  "updated": "2026-10-14T16:24:41.000+05:30",
+  "updated": "2026-11-14T12:51:02.204+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Climate & Carbon",
     "Trade & Tariffs"
   ],
-  "bytes": 34435,
-  "sha256": "fe3110aa7042c31944f4c2259fbcad4f019c4d43aa6b221974b6459a8f3923ad",
+  "bytes": 34440,
+  "sha256": "7963be5799976e2682ce4e178895a81084ca83aaa234d67962660ddc4f71e345",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.2.1",
+  "version": "1.2.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -71,6 +71,19 @@
         "https://masaladeutsch.blogspot.com/2026/09/cocoa-quintupled-then-gave-most-of-it.html",
         "https://blog.vertistratsolution.com/2026/09/cocoa-quintupled-then-gave-most-of-it.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.2.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        34435,
+        34440
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

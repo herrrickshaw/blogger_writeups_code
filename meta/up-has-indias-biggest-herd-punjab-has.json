@@ -4,13 +4,13 @@
   "url": "https://blog.vertistratsolution.com/2026/08/up-has-indias-biggest-herd-punjab-has.html",
   "slug": "up-has-indias-biggest-herd-punjab-has",
   "published": "2026-08-09T09:57:06.000+05:30",
-  "updated": "2026-10-01T08:58:10.000+05:30",
+  "updated": "2026-11-14T13:27:21.025+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Livestock & Dairy"
   ],
-  "bytes": 30747,
-  "sha256": "b471c4f9e157a1e47c69cddbd918f0bb8bdbcb37a55c87674a4018f117afbcf9",
+  "bytes": 30752,
+  "sha256": "460ac72485d5ca7c49ab69761277eacd9f6299c145764ead4b7484744c8057f2",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "4.1.1",
+  "version": "4.1.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -265,6 +265,19 @@
         "https://masaladeutsch.blogspot.com/2026/08/up-has-indias-biggest-herd-punjab-has.html",
         "https://blog.vertistratsolution.com/2026/08/up-has-indias-biggest-herd-punjab-has.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "4.1.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        30747,
+        30752
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

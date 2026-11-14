@@ -4,12 +4,12 @@
   "url": "https://blog.vertistratsolution.com/2026/07/ai-high-demand-launch-tracker.html",
   "slug": "ai-high-demand-launch-tracker",
   "published": "2026-07-31T09:37:00.000+05:30",
-  "updated": "2026-10-09T11:41:32.000+05:30",
+  "updated": "2026-11-14T14:38:28.307+05:30",
   "labels": [
     "AI Tracker"
   ],
-  "bytes": 42215,
-  "sha256": "420019e1509c3c3972caee5fced6c7f304bd503ed9aa7691f6a4dc09813c6188",
+  "bytes": 42227,
+  "sha256": "0641a5c02301a8fdc2b17b101962007b17d867a25bb01eaa0ff397cc1fb7858c",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "5.0.1",
+  "version": "5.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -352,6 +352,19 @@
         "https://masaladeutsch.blogspot.com/2026/07/ai-high-demand-launch-tracker.html",
         "https://blog.vertistratsolution.com/2026/07/ai-high-demand-launch-tracker.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "5.0.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "wording changed; no figures, sections or claims moved",
+      "bytes": [
+        42215,
+        42227
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

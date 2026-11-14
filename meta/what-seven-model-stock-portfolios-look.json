@@ -4,13 +4,13 @@
   "url": "https://blog.vertistratsolution.com/2026/08/what-seven-model-stock-portfolios-look.html",
   "slug": "what-seven-model-stock-portfolios-look",
   "published": "2026-08-28T10:25:17.000+05:30",
-  "updated": "2026-10-01T08:59:41.000+05:30",
+  "updated": "2026-11-14T13:09:38.168+05:30",
   "labels": [
     "Data & Analytics",
     "Markets & Investing"
   ],
-  "bytes": 26007,
-  "sha256": "51a2789a6507fc076093f67a78478cbdc5a282e770e45f18f4c292434300acaf",
+  "bytes": 26010,
+  "sha256": "0a1468d12cbcca31edf00d857ca9a418dc628d4f128da206420ff1ab7c897f91",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.1.1",
+  "version": "1.1.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -135,6 +135,19 @@
         "https://masaladeutsch.blogspot.com/2026/08/what-seven-model-stock-portfolios-look.html",
         "https://blog.vertistratsolution.com/2026/08/what-seven-model-stock-portfolios-look.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.1.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        26007,
+        26010
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

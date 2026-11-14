@@ -4,12 +4,12 @@
   "url": "https://blog.vertistratsolution.com/2026/08/a-tax-play-grow-ethanol-sgst-revenue.html",
   "slug": "a-tax-play-grow-ethanol-sgst-revenue",
   "published": "2026-08-02T17:57:40.000+05:30",
-  "updated": "2026-11-07T08:20:58.000+05:30",
+  "updated": "2026-11-14T14:37:48.279+05:30",
   "labels": [
     "Energy & Fuels"
   ],
-  "bytes": 45693,
-  "sha256": "13cc02a18c6bb9caa448afba7c3b6a140e67c7ca74913bbcb7fe2ae597f28a3f",
+  "bytes": 45714,
+  "sha256": "ed4d74a8a7ddee87673c57a60ecc92d6414bccee678b02a2f0aa848fc5b5e33e",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.1.1",
+  "version": "3.1.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -316,6 +316,19 @@
         "https://masaladeutsch.blogspot.com/2026/08/a-tax-play-grow-ethanol-sgst-revenue.html",
         "https://blog.vertistratsolution.com/2026/08/a-tax-play-grow-ethanol-sgst-revenue.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.1.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "wording changed; no figures, sections or claims moved",
+      "bytes": [
+        45693,
+        45714
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

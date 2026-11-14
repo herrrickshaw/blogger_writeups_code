@@ -4,10 +4,13 @@
   "url": "https://blog.vertistratsolution.com/2026/11/nine-open-source-tools-for-sizing-and.html",
   "slug": "nine-open-source-tools-for-sizing-and",
   "published": "2026-11-13T03:39:18.000+05:30",
-  "updated": "2026-11-13T03:39:18.000+05:30",
-  "labels": [],
-  "bytes": 36135,
-  "sha256": "7e53b70e5be35cea58e07f46ce4431d4c240eb22132caf96c040380f18f99612",
+  "updated": "2026-11-14T14:23:19.384+05:30",
+  "labels": [
+    "Energy & Fuels",
+    "Gas & LNG"
+  ],
+  "bytes": 36143,
+  "sha256": "fc216d84c8c854666ce77a390044186efd1001fbf36c18fd6116ebc66c772453",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,13 +22,26 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "version_history": [
     {
       "version": "1.0.0",
       "date": "2026-11-13T03:39:53+05:30",
       "level": "initial",
       "reason": "first snapshot",
+      "note": ""
+    },
+    {
+      "version": "1.0.1",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        36135,
+        36143
+      ],
+      "url_changed": null,
+      "markers_changed": null,
       "note": ""
     }
   ]

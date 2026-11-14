@@ -4,10 +4,10 @@
   "url": "https://blog.vertistratsolution.com/2026/10/india-has-auctioned-141-commercial-coal.html",
   "slug": "india-has-auctioned-141-commercial-coal",
   "published": "2026-10-09T18:56:21.000+05:30",
-  "updated": "2026-11-07T08:36:27.000+05:30",
+  "updated": "2026-11-14T12:47:14.915+05:30",
   "labels": [],
-  "bytes": 23658,
-  "sha256": "b3d3c3a595345d768e39925c2a80e2a221d5c658853743d8c0dab8c248c47164",
+  "bytes": 23664,
+  "sha256": "c5e2e05eb963727cbd833df6c3e68e4cef4e60b2125bc082c7f0a27fec13fdcf",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.1.1",
+  "version": "1.1.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -54,6 +54,19 @@
         "https://masaladeutsch.blogspot.com/2026/10/india-has-auctioned-141-commercial-coal.html",
         "https://blog.vertistratsolution.com/2026/10/india-has-auctioned-141-commercial-coal.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.1.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        23658,
+        23664
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

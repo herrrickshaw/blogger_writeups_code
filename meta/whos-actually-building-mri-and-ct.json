@@ -4,13 +4,13 @@
   "url": "https://blog.vertistratsolution.com/2026/08/whos-actually-building-mri-and-ct.html",
   "slug": "whos-actually-building-mri-and-ct",
   "published": "2026-08-05T12:30:13.000+05:30",
-  "updated": "2026-11-07T09:11:12.000+05:30",
+  "updated": "2026-11-14T13:33:19.504+05:30",
   "labels": [
     "Industrial Policy",
     "PLI Schemes"
   ],
-  "bytes": 18013,
-  "sha256": "5f2c33c93afcdf2c4c7f95148a8945eaffe850496194e45be67263f36ea8ff98",
+  "bytes": 18017,
+  "sha256": "67cbbe4b49e341d57d3cb9b5bf7ea60c603de99c7aebe660865358b5dcab4b24",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": true,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.2.1",
+  "version": "2.2.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -231,6 +231,19 @@
         "https://masaladeutsch.blogspot.com/2026/08/whos-actually-building-mri-and-ct.html",
         "https://blog.vertistratsolution.com/2026/08/whos-actually-building-mri-and-ct.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.2.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        18013,
+        18017
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

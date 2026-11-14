@@ -4,14 +4,14 @@
   "url": "https://blog.vertistratsolution.com/2026/10/how-to-use-colab-market-fundamentals.html",
   "slug": "how-to-use-colab-market-fundamentals",
   "published": "2026-10-19T05:09:24.000+05:30",
-  "updated": "2026-10-23T09:06:01.000+05:30",
+  "updated": "2026-11-14T12:41:28.467+05:30",
   "labels": [
     "Equity Markets & Stock Screening",
     "Markets & Finance",
     "Open-Source Tools & How-To"
   ],
-  "bytes": 24828,
-  "sha256": "2995a572016be89a2b1a0a0f9e86d935762bc717ca1d53a69c83a6dac0874f1c",
+  "bytes": 24830,
+  "sha256": "f01cc31c38ee4a5649f883f1b4571f14c3844107fe1030074bcb8fa4370c0613",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.2",
+  "version": "1.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -58,6 +58,19 @@
         "https://masaladeutsch.blogspot.com/2026/10/how-to-use-colab-market-fundamentals.html",
         "https://blog.vertistratsolution.com/2026/10/how-to-use-colab-market-fundamentals.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.3",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        24828,
+        24830
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

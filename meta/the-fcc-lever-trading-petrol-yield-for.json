@@ -4,14 +4,14 @@
   "url": "https://blog.vertistratsolution.com/2026/08/the-fcc-lever-trading-petrol-yield-for.html",
   "slug": "the-fcc-lever-trading-petrol-yield-for",
   "published": "2026-08-13T04:07:57.000+05:30",
-  "updated": "2026-11-07T09:03:55.000+05:30",
+  "updated": "2026-11-14T13:23:16.880+05:30",
   "labels": [
     "Energy & Fuels",
     "Ethanol & Biofuels",
     "Refining & Petrochemicals"
   ],
-  "bytes": 41650,
-  "sha256": "64c94c0b081c8bc8e3f6bf23ad965101563dc489bc8c56f616ef9aee52c7b30f",
+  "bytes": 41661,
+  "sha256": "b46477974866cbe3e2adead2fe954e42a8785b6d5def44d4684ff5294518274d",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.2.1",
+  "version": "2.2.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -279,6 +279,19 @@
         "https://masaladeutsch.blogspot.com/2026/08/the-fcc-lever-trading-petrol-yield-for.html",
         "https://blog.vertistratsolution.com/2026/08/the-fcc-lever-trading-petrol-yield-for.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.2.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        41650,
+        41661
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

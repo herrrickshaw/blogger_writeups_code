@@ -4,10 +4,10 @@
   "url": "https://blog.vertistratsolution.com/2026/10/indias-military-quantum-plan-has-four.html",
   "slug": "indias-military-quantum-plan-has-four",
   "published": "2026-10-09T10:25:56.000+05:30",
-  "updated": "2026-10-09T11:16:34.000+05:30",
+  "updated": "2026-11-14T12:48:25.873+05:30",
   "labels": [],
-  "bytes": 25815,
-  "sha256": "3d73af5d4a954cf4ec1792e8c20f1b255d7196ebbc31a5c919b8dc9cd6568b94",
+  "bytes": 25820,
+  "sha256": "10ece4c186cb0780e1db564199b6625d8342639837e7d2a5c9ff00067614f1dd",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.1",
+  "version": "2.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -54,6 +54,19 @@
         "https://masaladeutsch.blogspot.com/2026/10/indias-military-quantum-plan-has-four.html",
         "https://blog.vertistratsolution.com/2026/10/indias-military-quantum-plan-has-four.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        25815,
+        25820
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

@@ -4,14 +4,14 @@
   "url": "https://blog.vertistratsolution.com/2026/09/indias-live-ipo-queue-has-232-companies.html",
   "slug": "indias-live-ipo-queue-has-232-companies",
   "published": "2026-09-28T16:58:26.000+05:30",
-  "updated": "2026-11-07T08:45:12.000+05:30",
+  "updated": "2026-11-14T12:51:30.799+05:30",
   "labels": [
     "Equity Markets & Stock Screening",
     "Markets & Finance",
     "Renewable Power & Storage"
   ],
-  "bytes": 21713,
-  "sha256": "264e1f55ec363561933e49bf00663c014da3796a542fd9319abb04d0f7b1d4e1",
+  "bytes": 21718,
+  "sha256": "8a22bec4430d0d0f0e40c0e69e5db969af547681726866a3b3cb42ed5716a31e",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.1.1",
+  "version": "1.1.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -71,6 +71,19 @@
         "https://masaladeutsch.blogspot.com/2026/09/indias-live-ipo-queue-has-232-companies.html",
         "https://blog.vertistratsolution.com/2026/09/indias-live-ipo-queue-has-232-companies.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.1.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        21713,
+        21718
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

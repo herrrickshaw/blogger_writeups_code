@@ -4,12 +4,12 @@
   "url": "https://blog.vertistratsolution.com/2026/10/india-raised-dap-subsidy-18-this-kharif.html",
   "slug": "india-raised-dap-subsidy-18-this-kharif",
   "published": "2026-10-27T17:25:37.000+05:30",
-  "updated": "2026-10-27T17:31:51.000+05:30",
+  "updated": "2026-11-14T12:30:40.790+05:30",
   "labels": [
     "Agriculture & Fertilisers"
   ],
-  "bytes": 23068,
-  "sha256": "7b645b2d385a04be7fbbf84f4ea0af4675d725d6679913cbf71fedb2c3bfcc0e",
+  "bytes": 23077,
+  "sha256": "cfaff664712baffb81395dc65f3d6d79051aa03e5df926bb19715f1006573af7",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -43,6 +43,19 @@
         "https://masaladeutsch.blogspot.com/2026/10/india-raised-dap-subsidy-18-this-kharif.html",
         "https://blog.vertistratsolution.com/2026/10/india-raised-dap-subsidy-18-this-kharif.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        23068,
+        23077
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

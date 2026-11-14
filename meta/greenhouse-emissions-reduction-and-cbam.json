@@ -4,13 +4,13 @@
   "url": "https://blog.vertistratsolution.com/2026/08/greenhouse-emissions-reduction-and-cbam.html",
   "slug": "greenhouse-emissions-reduction-and-cbam",
   "published": "2026-08-02T22:18:00.000+05:30",
-  "updated": "2026-11-07T08:32:50.000+05:30",
+  "updated": "2026-11-14T13:37:19.587+05:30",
   "labels": [
     "Climate & Carbon",
     "Industrial Policy"
   ],
-  "bytes": 34861,
-  "sha256": "f8172401ad48ca59cfc19b8131417daa03ac1dddee96f4fc7e25489f204d1af5",
+  "bytes": 34869,
+  "sha256": "0350a6e5b71a85215b66e41e2d75466a52a1c69c843df5da9f05cac89c189d23",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "4.1.1",
+  "version": "4.1.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -291,6 +291,19 @@
         "https://masaladeutsch.blogspot.com/2026/08/greenhouse-emissions-reduction-and-cbam.html",
         "https://blog.vertistratsolution.com/2026/08/greenhouse-emissions-reduction-and-cbam.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "4.1.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        34861,
+        34869
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

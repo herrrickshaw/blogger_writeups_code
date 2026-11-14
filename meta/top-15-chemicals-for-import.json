@@ -4,13 +4,13 @@
   "url": "https://blog.vertistratsolution.com/2026/07/top-15-chemicals-for-import.html",
   "slug": "top-15-chemicals-for-import",
   "published": "2026-08-01T09:36:00.000+05:30",
-  "updated": "2026-11-07T09:08:03.000+05:30",
+  "updated": "2026-11-14T13:41:47.093+05:30",
   "labels": [
     "Chemicals",
     "Import Substitution"
   ],
-  "bytes": 107398,
-  "sha256": "dff3e04c1891ce9513bc85b4d3c0fa38880423c4e9220b25345b6f45f1370e5d",
+  "bytes": 107402,
+  "sha256": "dc2c02325366056c2a76048a9da460b4974643edd66e4d6cd8bffe019c422e71",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "5.6.1",
+  "version": "5.6.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -431,6 +431,19 @@
         "https://masaladeutsch.blogspot.com/2026/07/top-15-chemicals-for-import.html",
         "https://blog.vertistratsolution.com/2026/07/top-15-chemicals-for-import.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "5.6.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        107398,
+        107402
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

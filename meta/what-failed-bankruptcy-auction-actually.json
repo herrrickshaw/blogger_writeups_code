@@ -4,10 +4,10 @@
   "url": "https://blog.vertistratsolution.com/2026/09/what-failed-bankruptcy-auction-actually.html",
   "slug": "what-failed-bankruptcy-auction-actually",
   "published": "2026-09-15T09:41:43.000+05:30",
-  "updated": "2026-10-01T08:59:20.000+05:30",
+  "updated": "2026-11-14T12:59:03.405+05:30",
   "labels": [],
-  "bytes": 21757,
-  "sha256": "b5e959ed8ad4f03cfec13a83f313bd97780e310b1e5fcae13427675eaafa2428",
+  "bytes": 21760,
+  "sha256": "f03c6cc2868a2c56f7a4c7a435cbe040b881eb221b04907961543ada29ab83a7",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.2.1",
+  "version": "1.2.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -93,6 +93,19 @@
         "https://masaladeutsch.blogspot.com/2026/09/what-failed-bankruptcy-auction-actually.html",
         "https://blog.vertistratsolution.com/2026/09/what-failed-bankruptcy-auction-actually.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.2.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        21757,
+        21760
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

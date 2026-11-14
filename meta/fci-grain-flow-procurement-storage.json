@@ -4,13 +4,13 @@
   "url": "https://blog.vertistratsolution.com/2026/07/fci-grain-flow-procurement-storage.html",
   "slug": "fci-grain-flow-procurement-storage",
   "published": "2026-07-31T10:04:00.000+05:30",
-  "updated": "2026-11-07T08:29:20.000+05:30",
+  "updated": "2026-11-14T13:42:37.381+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Grain Procurement & Storage"
   ],
-  "bytes": 43633,
-  "sha256": "bd3b25eff1421695f1220bb672f10b287dd05505567d083bf444cc34b457ac57",
+  "bytes": 43638,
+  "sha256": "877189ae8d2e20b87177841143a59493ae18c845374cff1b36df6874d4025fc4",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.2.1",
+  "version": "3.2.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -322,6 +322,19 @@
         "https://masaladeutsch.blogspot.com/2026/07/fci-grain-flow-procurement-storage.html",
         "https://blog.vertistratsolution.com/2026/07/fci-grain-flow-procurement-storage.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.2.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        43633,
+        43638
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

@@ -4,15 +4,15 @@
   "url": "https://blog.vertistratsolution.com/2026/08/lpgs-missing-number-7308-commission-and.html",
   "slug": "lpgs-missing-number-7308-commission-and",
   "published": "2026-08-08T20:55:54.000+05:30",
-  "updated": "2026-11-07T08:50:27.000+05:30",
+  "updated": "2026-11-14T13:28:57.765+05:30",
   "labels": [
     "Energy & Fuels",
     "Fuel Retail & Pricing",
     "Industrial Policy",
     "Markets & Finance"
   ],
-  "bytes": 33074,
-  "sha256": "02509614b7cf6f0fde0b028a4a0212f695f6036047027ea1747a2392a99e96dc",
+  "bytes": 33092,
+  "sha256": "df18407c2f943c71d11a8f0f15ce4b8ac0877b6a6b50efcc2215a7ddbb1b3910",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.4.1",
+  "version": "3.4.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -267,6 +267,19 @@
         "https://masaladeutsch.blogspot.com/2026/08/lpgs-missing-number-7308-commission-and.html",
         "https://blog.vertistratsolution.com/2026/08/lpgs-missing-number-7308-commission-and.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.4.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "wording changed; no figures, sections or claims moved",
+      "bytes": [
+        33074,
+        33092
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

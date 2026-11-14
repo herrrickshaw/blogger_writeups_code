@@ -4,12 +4,12 @@
   "url": "https://blog.vertistratsolution.com/2026/07/india-forest-wildlife-crz-clearances.html",
   "slug": "india-forest-wildlife-crz-clearances",
   "published": "2026-07-22T05:30:00.000+05:30",
-  "updated": "2026-10-01T08:28:16.000+05:30",
+  "updated": "2026-11-14T13:44:57.294+05:30",
   "labels": [
     "Environment & Clearances"
   ],
-  "bytes": 27087,
-  "sha256": "cc2dd5837651dd7950fde0b938076652c975cc77fa2205b2f9717f78945a0428",
+  "bytes": 27091,
+  "sha256": "173f95ac3b8321b8dd44a62e49049c4a59a08d4f97bfd60dcf025f538d478e23",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,13 +21,26 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "version_history": [
     {
       "version": "1.0.0",
       "date": "2026-11-11T15:13:29+05:30",
       "level": "initial",
       "reason": "first snapshot",
+      "note": ""
+    },
+    {
+      "version": "1.0.1",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        27087,
+        27091
+      ],
+      "url_changed": null,
+      "markers_changed": null,
       "note": ""
     }
   ]

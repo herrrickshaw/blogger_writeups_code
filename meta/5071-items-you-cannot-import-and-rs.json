@@ -4,15 +4,15 @@
   "url": "https://blog.vertistratsolution.com/2026/08/5071-items-you-cannot-import-and-rs.html",
   "slug": "5071-items-you-cannot-import-and-rs",
   "published": "2026-08-23T04:16:49.000+05:30",
-  "updated": "2026-10-27T06:24:34.000+05:30",
+  "updated": "2026-11-14T13:14:17.226+05:30",
   "labels": [
     "Defence",
     "Import Substitution",
     "Industrial Policy",
     "Manufacturing"
   ],
-  "bytes": 42531,
-  "sha256": "f29a23ed6bd7fee2d98914b7140af76921cc7ba00b1e163ba24bc952f8180fac",
+  "bytes": 42536,
+  "sha256": "9485745f5e323ba590d4bd7c819856ee77b244942ea9af6af19f42c33703666e",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.1",
+  "version": "3.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -168,6 +168,19 @@
         "https://masaladeutsch.blogspot.com/2026/08/5071-items-you-cannot-import-and-rs.html",
         "https://blog.vertistratsolution.com/2026/08/5071-items-you-cannot-import-and-rs.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.0.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        42531,
+        42536
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

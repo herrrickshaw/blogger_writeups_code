@@ -4,15 +4,15 @@
   "url": "https://blog.vertistratsolution.com/2026/09/mapping-indias-other-pipelines-every.html",
   "slug": "mapping-indias-other-pipelines-every",
   "published": "2026-09-08T09:01:53.000+05:30",
-  "updated": "2026-11-07T08:50:39.000+05:30",
+  "updated": "2026-11-14T13:02:47.678+05:30",
   "labels": [
     "Energy & Fuels",
     "Gas & LNG",
     "Gas Pipeline Infrastructure & Demand Planning",
     "Infrastructure & Investment"
   ],
-  "bytes": 27546,
-  "sha256": "e96b721843fc0c877cf3051041698a586bba30ce6e01cc96f3c8f0624bc2a94b",
+  "bytes": 27552,
+  "sha256": "fd59c1203201c01d363dc4eed0e55d26bdd322deef0b5e55953c625ecb470dba",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.2.1",
+  "version": "1.2.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -98,6 +98,19 @@
         "https://masaladeutsch.blogspot.com/2026/09/mapping-indias-other-pipelines-every.html",
         "https://blog.vertistratsolution.com/2026/09/mapping-indias-other-pipelines-every.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.2.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        27546,
+        27552
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

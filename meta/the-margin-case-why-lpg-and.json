@@ -4,14 +4,14 @@
   "url": "https://blog.vertistratsolution.com/2026/08/the-margin-case-why-lpg-and.html",
   "slug": "the-margin-case-why-lpg-and",
   "published": "2026-08-13T08:58:40.000+05:30",
-  "updated": "2026-11-07T09:05:00.000+05:30",
+  "updated": "2026-11-14T13:22:57.283+05:30",
   "labels": [
     "Chemicals",
     "Energy & Fuels",
     "Refining & Petrochemicals"
   ],
-  "bytes": 43103,
-  "sha256": "ae2f6ef7e9cc396806d303b5ad2318f7059378e6491a105ed51221e2542dfdae",
+  "bytes": 43108,
+  "sha256": "ed20f5f46473bfb0281a83e7be94ce4715f052b5dd5aa630bfb0e0c773629089",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.2.1",
+  "version": "3.2.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -253,6 +253,19 @@
         "https://masaladeutsch.blogspot.com/2026/08/the-margin-case-why-lpg-and.html",
         "https://blog.vertistratsolution.com/2026/08/the-margin-case-why-lpg-and.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.2.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        43103,
+        43108
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

@@ -4,15 +4,15 @@
   "url": "https://blog.vertistratsolution.com/2026/10/how-to-use-cng-cgd-retail-outlet.html",
   "slug": "how-to-use-cng-cgd-retail-outlet",
   "published": "2026-10-23T06:25:09.000+05:30",
-  "updated": "2026-10-23T09:05:22.000+05:30",
+  "updated": "2026-11-14T12:36:00.809+05:30",
   "labels": [
     "Energy & Fuels",
     "India",
     "Mobility & EV",
     "Open-Source Tools & How-To"
   ],
-  "bytes": 24608,
-  "sha256": "01ddb42353614c5099f69f0409c34d6f70a2ad3177cca6a878b91cd86ed1494e",
+  "bytes": 24610,
+  "sha256": "b7c3f6eed8d19d36041df53fa8b2f86cbc82988a8677343d361b5326b9067c85",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.2",
+  "version": "1.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -59,6 +59,19 @@
         "https://masaladeutsch.blogspot.com/2026/10/how-to-use-cng-cgd-retail-outlet.html",
         "https://blog.vertistratsolution.com/2026/10/how-to-use-cng-cgd-retail-outlet.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.3",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        24608,
+        24610
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

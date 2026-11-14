@@ -4,15 +4,15 @@
   "url": "https://blog.vertistratsolution.com/2026/10/how-to-use-cbg-design-opensource-size.html",
   "slug": "how-to-use-cbg-design-opensource-size",
   "published": "2026-10-23T06:25:07.000+05:30",
-  "updated": "2026-10-23T09:05:30.000+05:30",
+  "updated": "2026-11-14T12:36:10.475+05:30",
   "labels": [
     "Energy & Fuels",
     "Ethanol & Biofuels",
     "India",
     "Open-Source Tools & How-To"
   ],
-  "bytes": 21666,
-  "sha256": "55dd1193957ea3f421ad32905f4d989615fdfec090433c6318c3cfaaf0685026",
+  "bytes": 21668,
+  "sha256": "96bb89eea94599dde62ffee5c33398a628f4832db8711337eddffb697a5c775c",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.2",
+  "version": "1.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -59,6 +59,19 @@
         "https://masaladeutsch.blogspot.com/2026/10/how-to-use-cbg-design-opensource-size.html",
         "https://blog.vertistratsolution.com/2026/10/how-to-use-cbg-design-opensource-size.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.3",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        21666,
+        21668
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

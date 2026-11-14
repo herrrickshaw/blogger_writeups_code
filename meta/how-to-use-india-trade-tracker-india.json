@@ -4,14 +4,14 @@
   "url": "https://blog.vertistratsolution.com/2026/10/how-to-use-india-trade-tracker-india.html",
   "slug": "how-to-use-india-trade-tracker-india",
   "published": "2026-10-19T05:12:23.000+05:30",
-  "updated": "2026-10-29T09:07:06.000+05:30",
+  "updated": "2026-11-14T12:39:06.718+05:30",
   "labels": [
     "India",
     "Markets & Finance",
     "Open-Source Tools & How-To"
   ],
-  "bytes": 24114,
-  "sha256": "268747911d71f46be58bbe6f6ba0b3d3b8487af22c903cc2cf2090132cc48ada",
+  "bytes": 24116,
+  "sha256": "164c1a55d015a8119751d4af96c4554491a14c0af4ab28f8159fa52bcb7f1ffb",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.2",
+  "version": "1.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -58,6 +58,19 @@
         "https://masaladeutsch.blogspot.com/2026/10/how-to-use-india-trade-tracker-india.html",
         "https://blog.vertistratsolution.com/2026/10/how-to-use-india-trade-tracker-india.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.3",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        24114,
+        24116
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

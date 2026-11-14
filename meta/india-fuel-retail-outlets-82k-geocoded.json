@@ -4,15 +4,15 @@
   "url": "https://blog.vertistratsolution.com/2026/07/india-fuel-retail-outlets-82k-geocoded.html",
   "slug": "india-fuel-retail-outlets-82k-geocoded",
   "published": "2026-07-22T05:30:00.000+05:30",
-  "updated": "2026-11-07T08:35:17.000+05:30",
+  "updated": "2026-11-14T13:45:36.539+05:30",
   "labels": [
     "City Gas Distribution",
     "Energy & Fuels",
     "Fuel Retail & Pricing",
     "Gas & LNG"
   ],
-  "bytes": 23087,
-  "sha256": "9fa87461f89fdfe7b54fc97adc8dcdaa01d101581590db91887d66c179b96b02",
+  "bytes": 23091,
+  "sha256": "6456595c63f5403037e19bedb8ce85c6ddd49066597045d771e329cd9d7f705a",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,13 +24,26 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "version_history": [
     {
       "version": "1.0.0",
       "date": "2026-11-13T03:39:53+05:30",
       "level": "initial",
       "reason": "first snapshot",
+      "note": ""
+    },
+    {
+      "version": "1.0.1",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        23087,
+        23091
+      ],
+      "url_changed": null,
+      "markers_changed": null,
       "note": ""
     }
   ]

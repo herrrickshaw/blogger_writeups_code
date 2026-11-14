@@ -4,10 +4,12 @@
   "url": "https://blog.vertistratsolution.com/2026/11/eight-open-source-tools-for-tracking.html",
   "slug": "eight-open-source-tools-for-tracking",
   "published": "2026-11-13T03:38:17.000+05:30",
-  "updated": "2026-11-13T03:38:17.000+05:30",
-  "labels": [],
-  "bytes": 38027,
-  "sha256": "00b7eb8136bd0b92bd3f16b89fde2750cf4256d3bdc910725d4dfedd1a971f98",
+  "updated": "2026-11-14T14:22:41.134+05:30",
+  "labels": [
+    "Industrial Policy"
+  ],
+  "bytes": 38034,
+  "sha256": "f503a75687111606c5cad24e0e4033643ac16f537a43785914cbbc28f81d1bcf",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,13 +21,26 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "version_history": [
     {
       "version": "1.0.0",
       "date": "2026-11-13T03:39:53+05:30",
       "level": "initial",
       "reason": "first snapshot",
+      "note": ""
+    },
+    {
+      "version": "1.0.1",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        38027,
+        38034
+      ],
+      "url_changed": null,
+      "markers_changed": null,
       "note": ""
     }
   ]

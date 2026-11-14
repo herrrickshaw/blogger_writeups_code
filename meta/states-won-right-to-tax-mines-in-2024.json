@@ -4,14 +4,14 @@
   "url": "https://blog.vertistratsolution.com/2026/10/states-won-right-to-tax-mines-in-2024.html",
   "slug": "states-won-right-to-tax-mines-in-2024",
   "published": "2026-10-28T15:54:36.000+05:30",
-  "updated": "2026-11-09T17:16:07.000+05:30",
+  "updated": "2026-11-14T12:27:40.179+05:30",
   "labels": [
     "Governance & Institutions",
     "Industrial Policy",
     "Macroeconomics & Monetary Policy"
   ],
-  "bytes": 30952,
-  "sha256": "ed5b52e7e532e3cda7864bcca4a7e7f3e6dfd3df6a4c1e81304269987ae49703",
+  "bytes": 30961,
+  "sha256": "c4443e3adbdbde0ae854ee4c6866e961c626231e5678693d8e7882d6bf2ebee5",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.1",
+  "version": "3.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -84,6 +84,19 @@
         "https://masaladeutsch.blogspot.com/2026/10/states-won-right-to-tax-mines-in-2024.html",
         "https://blog.vertistratsolution.com/2026/10/states-won-right-to-tax-mines-in-2024.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.0.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        30952,
+        30961
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

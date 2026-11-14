@@ -4,13 +4,13 @@
   "url": "https://blog.vertistratsolution.com/2026/08/we-fact-checked-66-investment.html",
   "slug": "we-fact-checked-66-investment",
   "published": "2026-08-25T06:17:26.000+05:30",
-  "updated": "2026-10-01T08:58:52.000+05:30",
+  "updated": "2026-11-14T13:11:39.680+05:30",
   "labels": [
     "India",
     "Trade & Tariffs"
   ],
-  "bytes": 68832,
-  "sha256": "3d1543a62aec91473974a57e82ce3c0aeeccda1fa45d7a019f53cdda650afc0d",
+  "bytes": 68837,
+  "sha256": "a4f688c8d4d20135a69235f3c2403a954fdd8b4d6af70c3dd71fd33ce77e86e5",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.2.1",
+  "version": "2.2.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -135,6 +135,19 @@
         "https://masaladeutsch.blogspot.com/2026/08/we-fact-checked-66-investment.html",
         "https://blog.vertistratsolution.com/2026/08/we-fact-checked-66-investment.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.2.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        68832,
+        68837
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

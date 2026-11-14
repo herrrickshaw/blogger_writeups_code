@@ -4,13 +4,13 @@
   "url": "https://blog.vertistratsolution.com/2026/09/brazil-pumps-e30-at-every-station.html",
   "slug": "brazil-pumps-e30-at-every-station",
   "published": "2026-09-01T19:42:31.000+05:30",
-  "updated": "2026-11-07T08:24:08.000+05:30",
+  "updated": "2026-11-14T13:06:09.041+05:30",
   "labels": [
     "Energy & Fuels",
     "Mobility & EV"
   ],
-  "bytes": 42781,
-  "sha256": "686a82969f55ccf912942b5f79798b7690e1f86df09af12b4d40211c8750b56b",
+  "bytes": 42785,
+  "sha256": "60bc30669183cc46b7aa580f66fecee5bd7a74ee5ba61dea51878a7860d63788",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.2.1",
+  "version": "1.2.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -122,6 +122,19 @@
         "https://masaladeutsch.blogspot.com/2026/09/brazil-pumps-e30-at-every-station.html",
         "https://blog.vertistratsolution.com/2026/09/brazil-pumps-e30-at-every-station.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.2.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        42781,
+        42785
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

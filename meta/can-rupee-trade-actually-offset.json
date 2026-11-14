@@ -4,12 +4,12 @@
   "url": "https://blog.vertistratsolution.com/2026/08/can-rupee-trade-actually-offset.html",
   "slug": "can-rupee-trade-actually-offset",
   "published": "2026-08-14T08:31:13.000+05:30",
-  "updated": "2026-11-07T08:24:22.000+05:30",
+  "updated": "2026-11-14T13:21:49.544+05:30",
   "labels": [
     "Macroeconomics & Monetary Policy"
   ],
-  "bytes": 35736,
-  "sha256": "cb50747d0529cc68877e6af75db2d1aa34b0f79f360133f609fb12ea9f379f42",
+  "bytes": 35740,
+  "sha256": "6f2903f2646b8767e595e56cc37320e318de08fa2f0bbbe6d5cc375c82f04212",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.1.1",
+  "version": "3.1.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -186,6 +186,19 @@
         "https://masaladeutsch.blogspot.com/2026/08/can-rupee-trade-actually-offset.html",
         "https://blog.vertistratsolution.com/2026/08/can-rupee-trade-actually-offset.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.1.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        35736,
+        35740
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

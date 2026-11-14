@@ -4,15 +4,15 @@
   "url": "https://blog.vertistratsolution.com/2026/09/five-years-and-25000-crore-later-china.html",
   "slug": "five-years-and-25000-crore-later-china",
   "published": "2026-09-16T12:03:59.000+05:30",
-  "updated": "2026-11-07T08:30:30.000+05:30",
+  "updated": "2026-11-14T12:58:22.095+05:30",
   "labels": [
     "Import Substitution",
     "Industrial Policy",
     "PLI Schemes",
     "Trade & Tariffs"
   ],
-  "bytes": 38524,
-  "sha256": "f47497ffc7ef6dfec690325617140c48928b0b3b6df2f26247b0259fbe050326",
+  "bytes": 38528,
+  "sha256": "1eb426d1794dfa63076756c5cd4f294ab236a508664badc9fd3630c1e0793348",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.4.1",
+  "version": "1.4.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -124,6 +124,19 @@
         "https://masaladeutsch.blogspot.com/2026/09/five-years-and-25000-crore-later-china.html",
         "https://blog.vertistratsolution.com/2026/09/five-years-and-25000-crore-later-china.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.4.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        38524,
+        38528
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

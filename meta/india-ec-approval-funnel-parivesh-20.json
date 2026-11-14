@@ -4,12 +4,12 @@
   "url": "https://blog.vertistratsolution.com/2026/07/india-ec-approval-funnel-parivesh-20.html",
   "slug": "india-ec-approval-funnel-parivesh-20",
   "published": "2026-07-22T05:30:00.000+05:30",
-  "updated": "2026-10-01T08:27:26.000+05:30",
+  "updated": "2026-11-14T13:45:07.213+05:30",
   "labels": [
     "Environment & Clearances"
   ],
-  "bytes": 22767,
-  "sha256": "301ec05fcb4787b6e75247f309163b75f74b4f21410983b6194dd8d06fa13230",
+  "bytes": 22771,
+  "sha256": "020fcfdd01a3103e67e09958a59d3b3f83dbe53e0143062638b465fe48780208",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,13 +21,26 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "version_history": [
     {
       "version": "1.0.0",
       "date": "2026-11-13T03:39:53+05:30",
       "level": "initial",
       "reason": "first snapshot",
+      "note": ""
+    },
+    {
+      "version": "1.0.1",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        22767,
+        22771
+      ],
+      "url_changed": null,
+      "markers_changed": null,
       "note": ""
     }
   ]

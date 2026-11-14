@@ -4,12 +4,12 @@
   "url": "https://blog.vertistratsolution.com/2026/11/ai-tools-edition-04-deepseek-put-its.html",
   "slug": "ai-tools-edition-04-deepseek-put-its",
   "published": "2026-11-09T17:51:38.000+05:30",
-  "updated": "2026-11-09T18:16:19.000+05:30",
+  "updated": "2026-11-14T14:36:46.132+05:30",
   "labels": [
     "AI Tracker"
   ],
-  "bytes": 64462,
-  "sha256": "30662d73529bcdd9a333a539a130b9351499741163e6c6e2468115be380992ba",
+  "bytes": 64475,
+  "sha256": "ad956dbc908ce607d5b0798c7c41b9e5da5537487f33a87c2be006f8fe17a5e9",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -43,6 +43,19 @@
         "https://masaladeutsch.blogspot.com/2026/11/ai-tools-edition-04-deepseek-put-its.html",
         "https://blog.vertistratsolution.com/2026/11/ai-tools-edition-04-deepseek-put-its.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "wording changed; no figures, sections or claims moved",
+      "bytes": [
+        64462,
+        64475
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

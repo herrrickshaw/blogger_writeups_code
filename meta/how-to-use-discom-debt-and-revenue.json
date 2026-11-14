@@ -4,14 +4,14 @@
   "url": "https://blog.vertistratsolution.com/2026/10/how-to-use-discom-debt-and-revenue.html",
   "slug": "how-to-use-discom-debt-and-revenue",
   "published": "2026-10-25T07:26:45.000+05:30",
-  "updated": "2026-10-26T09:05:44.000+05:30",
+  "updated": "2026-11-14T12:34:06.122+05:30",
   "labels": [
     "Energy & Fuels",
     "India",
     "Open-Source Tools & How-To"
   ],
-  "bytes": 25504,
-  "sha256": "243a7639f96d8ad0fe6895a3721c10d6347a075b0ce886055d2a0aaecb3c1247",
+  "bytes": 25506,
+  "sha256": "ab1f1022311026237a8f7921664159c2a0340261be3c00229c346817e21d0fe6",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.1",
+  "version": "2.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -58,6 +58,19 @@
         "https://masaladeutsch.blogspot.com/2026/10/how-to-use-discom-debt-and-revenue.html",
         "https://blog.vertistratsolution.com/2026/10/how-to-use-discom-debt-and-revenue.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        25504,
+        25506
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

@@ -4,13 +4,13 @@
   "url": "https://blog.vertistratsolution.com/2026/09/india-ended-63-years-of-state-nuclear.html",
   "slug": "india-ended-63-years-of-state-nuclear",
   "published": "2026-09-15T10:11:42.000+05:30",
-  "updated": "2026-11-09T17:16:47.000+05:30",
+  "updated": "2026-11-14T12:58:43.473+05:30",
   "labels": [
     "Ease of Doing Business & Regulatory Reform",
     "Industrial Policy"
   ],
-  "bytes": 29176,
-  "sha256": "ac333d931c0ce2576bc87bb001490e264566f8a9f3764faf8cc7757b3889c1d0",
+  "bytes": 29180,
+  "sha256": "84fe46794879302330454d8b15dba5a8f6a4976d94a0f072b3cf659eb61fb590",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "4.0.1",
+  "version": "4.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -174,6 +174,19 @@
         "https://masaladeutsch.blogspot.com/2026/09/india-ended-63-years-of-state-nuclear.html",
         "https://blog.vertistratsolution.com/2026/09/india-ended-63-years-of-state-nuclear.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "4.0.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        29176,
+        29180
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

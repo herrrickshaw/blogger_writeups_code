@@ -4,12 +4,12 @@
   "url": "https://blog.vertistratsolution.com/2026/08/securitising-deficit-what-it-would.html",
   "slug": "securitising-deficit-what-it-would",
   "published": "2026-08-04T07:45:51.000+05:30",
-  "updated": "2026-11-07T08:58:24.000+05:30",
+  "updated": "2026-11-14T13:35:59.162+05:30",
   "labels": [
     "Markets & Finance"
   ],
-  "bytes": 136672,
-  "sha256": "6d1a536384b264054ed69b9fd4e7dfdacd554bd9fbde337c789fc733d90f463b",
+  "bytes": 136677,
+  "sha256": "419bdb334ba86f52a477a49afdf74c5e6b30a069a84cd9a84559969c945d88f8",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "5.1.1",
+  "version": "5.1.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -412,6 +412,19 @@
         "https://masaladeutsch.blogspot.com/2026/08/securitising-deficit-what-it-would.html",
         "https://blog.vertistratsolution.com/2026/08/securitising-deficit-what-it-would.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "5.1.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        136672,
+        136677
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

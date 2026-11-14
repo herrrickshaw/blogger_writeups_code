@@ -4,12 +4,12 @@
   "url": "https://blog.vertistratsolution.com/2026/07/india-trade-sector-policy.html",
   "slug": "india-trade-sector-policy",
   "published": "2026-07-21T05:30:00.000+05:30",
-  "updated": "2026-11-07T08:39:31.000+05:30",
+  "updated": "2026-11-14T13:45:46.177+05:30",
   "labels": [
     "Industrial Policy"
   ],
-  "bytes": 21323,
-  "sha256": "aa36663cef6e09a6d82122542cf934178497487b7ece82c7d6d85d61b82e014f",
+  "bytes": 21327,
+  "sha256": "7f4a294d1713d0f7c698d3193e88cae5a8ed4e8087b1c53ad9157daba5a0e0f5",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.1.1",
+  "version": "2.1.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -274,6 +274,19 @@
         "https://masaladeutsch.blogspot.com/2026/07/india-trade-sector-policy.html",
         "https://blog.vertistratsolution.com/2026/07/india-trade-sector-policy.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.1.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        21323,
+        21327
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

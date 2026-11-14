@@ -4,12 +4,12 @@
   "url": "https://blog.vertistratsolution.com/2026/08/where-rupee-actually-stands-ten-years.html",
   "slug": "where-rupee-actually-stands-ten-years",
   "published": "2026-08-14T10:47:17.000+05:30",
-  "updated": "2026-11-07T09:10:25.000+05:30",
+  "updated": "2026-11-14T13:21:39.768+05:30",
   "labels": [
     "Macroeconomics & Monetary Policy"
   ],
-  "bytes": 51634,
-  "sha256": "cf0b100cbb626484c7a7bfff376e545229feb7855a2e63d59dc3734261dca432",
+  "bytes": 51640,
+  "sha256": "5cd754d9297f13ead0c7c95a4d6a478aedbd79281311264d700265c8bdb5da53",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.2.1",
+  "version": "2.2.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -160,6 +160,19 @@
         "https://masaladeutsch.blogspot.com/2026/08/where-rupee-actually-stands-ten-years.html",
         "https://blog.vertistratsolution.com/2026/08/where-rupee-actually-stands-ten-years.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.2.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        51634,
+        51640
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

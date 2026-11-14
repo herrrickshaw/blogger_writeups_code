@@ -4,12 +4,12 @@
   "url": "https://blog.vertistratsolution.com/2026/08/cpi-wpi-trends-mospi-bulletin.html",
   "slug": "cpi-wpi-trends-mospi-bulletin",
   "published": "2026-08-02T13:48:25.000+05:30",
-  "updated": "2026-10-26T13:54:16.000+05:30",
+  "updated": "2026-11-14T13:40:25.312+05:30",
   "labels": [
     "Prices & Inflation"
   ],
-  "bytes": 51548,
-  "sha256": "b1dedf05ee955c5596c6c5b2d07494b46a582f33a660485c7df320cbaf25e5de",
+  "bytes": 51551,
+  "sha256": "becd130960da98f6850d8193a8ba271eea54bc77fbca497ca8ea7d069d783f73",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": true,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.1",
+  "version": "3.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -334,6 +334,19 @@
         "https://masaladeutsch.blogspot.com/2026/08/cpi-wpi-trends-mospi-bulletin.html",
         "https://blog.vertistratsolution.com/2026/08/cpi-wpi-trends-mospi-bulletin.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.0.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        51548,
+        51551
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

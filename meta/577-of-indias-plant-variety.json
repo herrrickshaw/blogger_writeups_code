@@ -4,13 +4,13 @@
   "url": "https://blog.vertistratsolution.com/2026/09/577-of-indias-plant-variety.html",
   "slug": "577-of-indias-plant-variety",
   "published": "2026-09-17T07:21:11.000+05:30",
-  "updated": "2026-10-01T08:11:35.000+05:30",
+  "updated": "2026-11-14T12:56:42.888+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Seeds & Plant Genetics"
   ],
-  "bytes": 21789,
-  "sha256": "234d5f04aaa8363dacbcb103774c3687b214163e67dbb5eb7fe275ebae64cdd0",
+  "bytes": 21796,
+  "sha256": "7990a10c1891ca719eea8e03273efd7e93b3e516232ef9afa034dfd0ede9e2ec",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.2.1",
+  "version": "1.2.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -70,6 +70,19 @@
         "https://masaladeutsch.blogspot.com/2026/09/577-of-indias-plant-variety.html",
         "https://blog.vertistratsolution.com/2026/09/577-of-indias-plant-variety.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.2.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        21789,
+        21796
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

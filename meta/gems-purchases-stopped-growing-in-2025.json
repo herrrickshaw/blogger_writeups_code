@@ -4,13 +4,13 @@
   "url": "https://blog.vertistratsolution.com/2026/10/gems-purchases-stopped-growing-in-2025.html",
   "slug": "gems-purchases-stopped-growing-in-2025",
   "published": "2026-10-27T17:27:11.000+05:30",
-  "updated": "2026-11-07T08:32:08.000+05:30",
+  "updated": "2026-11-14T12:29:40.447+05:30",
   "labels": [
     "Governance & Institutions",
     "Industrial Policy"
   ],
-  "bytes": 24191,
-  "sha256": "fbb8f56c41f31a44b20decd72be3b631165edf49745dc29a91a64517d3ad3c8c",
+  "bytes": 24196,
+  "sha256": "8f0cd4a4bf94798ca86598b1d1fa83c321ca9aceb4e7c42dc6bc98f4d07b67da",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.1.1",
+  "version": "1.1.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -57,6 +57,19 @@
         "https://masaladeutsch.blogspot.com/2026/10/gems-purchases-stopped-growing-in-2025.html",
         "https://blog.vertistratsolution.com/2026/10/gems-purchases-stopped-growing-in-2025.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.1.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        24191,
+        24196
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

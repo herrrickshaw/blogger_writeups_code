@@ -4,12 +4,12 @@
   "url": "https://blog.vertistratsolution.com/2026/10/india-imported-295-more-steel-this-year.html",
   "slug": "india-imported-295-more-steel-this-year",
   "published": "2026-10-09T18:59:43.000+05:30",
-  "updated": "2026-11-09T17:13:20.000+05:30",
+  "updated": "2026-11-14T12:47:04.083+05:30",
   "labels": [
     "Trade & Tariffs"
   ],
-  "bytes": 28983,
-  "sha256": "bcbfd778828300ccf83d0db854e05fbf1011aa09a06f6a205ce78afbecc1fd38",
+  "bytes": 28989,
+  "sha256": "4c1e50f6c57d70b2444dfb65922ba7239a2e278319af7b136dc37430c4a9f09a",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.1",
+  "version": "3.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -69,6 +69,19 @@
         "https://masaladeutsch.blogspot.com/2026/10/india-imported-295-more-steel-this-year.html",
         "https://blog.vertistratsolution.com/2026/10/india-imported-295-more-steel-this-year.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.0.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        28983,
+        28989
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

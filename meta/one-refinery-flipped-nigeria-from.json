@@ -4,13 +4,13 @@
   "url": "https://blog.vertistratsolution.com/2026/08/one-refinery-flipped-nigeria-from.html",
   "slug": "one-refinery-flipped-nigeria-from",
   "published": "2026-08-09T03:00:24.000+05:30",
-  "updated": "2026-11-07T08:53:11.000+05:30",
+  "updated": "2026-11-14T13:27:40.597+05:30",
   "labels": [
     "Energy & Fuels",
     "Trade & Tariffs"
   ],
-  "bytes": 41333,
-  "sha256": "91a4c24b7f3519ab9c44c96eee1dfdf2e22004b130fdc3eaf2495d9807e1d8b9",
+  "bytes": 41337,
+  "sha256": "eb2f50f2b9351ac1b434e99f137d1a55048b2472a754847e347689d42541b652",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "4.2.1",
+  "version": "4.2.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -317,6 +317,19 @@
         "https://masaladeutsch.blogspot.com/2026/08/one-refinery-flipped-nigeria-from.html",
         "https://blog.vertistratsolution.com/2026/08/one-refinery-flipped-nigeria-from.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "4.2.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        41333,
+        41337
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

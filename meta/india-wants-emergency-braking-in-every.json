@@ -4,13 +4,13 @@
   "url": "https://blog.vertistratsolution.com/2026/10/india-wants-emergency-braking-in-every.html",
   "slug": "india-wants-emergency-braking-in-every",
   "published": "2026-10-27T17:26:52.000+05:30",
-  "updated": "2026-10-27T17:32:32.000+05:30",
+  "updated": "2026-11-14T12:29:50.939+05:30",
   "labels": [
     "Import Substitution",
     "Mobility & EV"
   ],
-  "bytes": 24772,
-  "sha256": "1c92ce060a7ba496abe2b8473ff696efa78bda75a1ee8c8463fdcccc61821c8a",
+  "bytes": 24778,
+  "sha256": "acac45db826ffd7ba48eff7d8e0efabb4e9c4d7e938a1cc1db46667bc831b681",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -44,6 +44,19 @@
         "https://masaladeutsch.blogspot.com/2026/10/india-wants-emergency-braking-in-every.html",
         "https://blog.vertistratsolution.com/2026/10/india-wants-emergency-braking-in-every.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        24772,
+        24778
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

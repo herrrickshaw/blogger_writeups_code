@@ -4,14 +4,14 @@
   "url": "https://blog.vertistratsolution.com/2026/08/green-gold-what-spirulina-actually-is.html",
   "slug": "green-gold-what-spirulina-actually-is",
   "published": "2026-08-19T05:42:27.000+05:30",
-  "updated": "2026-10-27T15:15:51.000+05:30",
+  "updated": "2026-11-14T13:18:27.374+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Biofuels",
     "Healthcare"
   ],
-  "bytes": 36989,
-  "sha256": "73e6d00753678fb14219374f5a4667804f01f011494a85faa785f65406216d4e",
+  "bytes": 36994,
+  "sha256": "51110f4aa85361bc933e69e46981c43b09a27b65edef451db1b27d9160830869",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.1",
+  "version": "3.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -175,6 +175,19 @@
         "https://masaladeutsch.blogspot.com/2026/08/green-gold-what-spirulina-actually-is.html",
         "https://blog.vertistratsolution.com/2026/08/green-gold-what-spirulina-actually-is.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.0.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        36989,
+        36994
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

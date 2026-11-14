@@ -4,14 +4,14 @@
   "url": "https://blog.vertistratsolution.com/2026/08/the-1920s-rotor-thats-now-on-22-real.html",
   "slug": "the-1920s-rotor-thats-now-on-22-real",
   "published": "2026-08-30T22:16:33.000+05:30",
-  "updated": "2026-11-07T09:01:36.000+05:30",
+  "updated": "2026-11-14T13:07:04.744+05:30",
   "labels": [
     "Climate & Carbon",
     "Energy & Fuels",
     "Shipping & Maritime Fuels"
   ],
-  "bytes": 42796,
-  "sha256": "e8ba9bdea7dbd25a808b61126f7ea4538cf715a68802fe4216199f0508122b24",
+  "bytes": 42799,
+  "sha256": "81fe2c33f333da8aa52c99233b31d14a01b5f125ea5a38fc40ca63756c0629a8",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.3.1",
+  "version": "2.3.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -149,6 +149,19 @@
         "https://masaladeutsch.blogspot.com/2026/08/the-1920s-rotor-thats-now-on-22-real.html",
         "https://blog.vertistratsolution.com/2026/08/the-1920s-rotor-thats-now-on-22-real.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.3.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        42796,
+        42799
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

@@ -4,14 +4,14 @@
   "url": "https://blog.vertistratsolution.com/2026/08/priority-trade-partners-by-import.html",
   "slug": "priority-trade-partners-by-import",
   "published": "2026-08-02T14:01:14.000+05:30",
-  "updated": "2026-11-07T08:55:32.000+05:30",
+  "updated": "2026-11-14T13:39:23.689+05:30",
   "labels": [
     "Industrial Policy",
     "PLI Schemes",
     "Trade & Tariffs"
   ],
-  "bytes": 48441,
-  "sha256": "476d6ad1f9f607ed3d09c5db8b03a7f4758e733d23a184701892d57122c56e5e",
+  "bytes": 48446,
+  "sha256": "b6200e9da0c5ad3e614f47de5ed291e1b12706dc1f381b9dd3247c7e00ce9d00",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.2.1",
+  "version": "3.2.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -340,6 +340,19 @@
         "https://masaladeutsch.blogspot.com/2026/08/priority-trade-partners-by-import.html",
         "https://blog.vertistratsolution.com/2026/08/priority-trade-partners-by-import.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.2.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        48441,
+        48446
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

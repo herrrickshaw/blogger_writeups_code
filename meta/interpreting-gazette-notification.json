@@ -4,14 +4,14 @@
   "url": "https://blog.vertistratsolution.com/2026/09/interpreting-gazette-notification.html",
   "slug": "interpreting-gazette-notification",
   "published": "2026-09-04T10:06:40.000+05:30",
-  "updated": "2026-10-09T11:41:16.000+05:30",
+  "updated": "2026-11-14T13:03:37.246+05:30",
   "labels": [
     "Ease of Doing Business & Regulatory Reform",
     "Industrial Policy",
     "Trade & Tariffs"
   ],
-  "bytes": 44572,
-  "sha256": "7e0d29e1138f0e4eb886d732f4af99078f557c6db061fb26a41afb6a2e49abd8",
+  "bytes": 44576,
+  "sha256": "9edb7c915dbcbbaf7679feaabc75ac8914bbc2447aa77761d755fa2de39a5106",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.1",
+  "version": "3.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -149,6 +149,19 @@
         "https://masaladeutsch.blogspot.com/2026/09/interpreting-gazette-notification.html",
         "https://blog.vertistratsolution.com/2026/09/interpreting-gazette-notification.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.0.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        44572,
+        44576
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

@@ -4,12 +4,12 @@
   "url": "https://blog.vertistratsolution.com/2026/08/indias-carbon-credit-market-domestic.html",
   "slug": "indias-carbon-credit-market-domestic",
   "published": "2026-08-02T21:37:31.000+05:30",
-  "updated": "2026-11-07T08:42:04.000+05:30",
+  "updated": "2026-11-14T13:37:29.463+05:30",
   "labels": [
     "Climate & Carbon"
   ],
-  "bytes": 37762,
-  "sha256": "be62fae5a9b0c439c3e292da6cb0c539c252819055cbf374ba6b0f7df440447c",
+  "bytes": 37771,
+  "sha256": "d7d3acac5123aea43eb3d78377ef05d1fa81cc39ac333d4696ca14d122e5a37d",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "4.1.1",
+  "version": "4.1.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -329,6 +329,19 @@
         "https://masaladeutsch.blogspot.com/2026/08/indias-carbon-credit-market-domestic.html",
         "https://blog.vertistratsolution.com/2026/08/indias-carbon-credit-market-domestic.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "4.1.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        37762,
+        37771
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

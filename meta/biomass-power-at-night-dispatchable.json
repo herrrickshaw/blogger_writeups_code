@@ -4,14 +4,14 @@
   "url": "https://blog.vertistratsolution.com/2026/08/biomass-power-at-night-dispatchable.html",
   "slug": "biomass-power-at-night-dispatchable",
   "published": "2026-08-20T05:54:52.000+05:30",
-  "updated": "2026-11-07T08:23:44.000+05:30",
+  "updated": "2026-11-14T13:17:17.881+05:30",
   "labels": [
     "Climate & Carbon",
     "Energy & Fuels",
     "Renewable Power & Storage"
   ],
-  "bytes": 35598,
-  "sha256": "f0aa93332379a36bbd786a99fb87a9004926b782cc5e8b429301000431ece0dc",
+  "bytes": 35603,
+  "sha256": "8580fa58c94eca0fe84cd0b6397e9074a2460dd1692a84d08e83e05d228b554a",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.3.1",
+  "version": "3.3.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -201,6 +201,19 @@
         "https://masaladeutsch.blogspot.com/2026/08/biomass-power-at-night-dispatchable.html",
         "https://blog.vertistratsolution.com/2026/08/biomass-power-at-night-dispatchable.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.3.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        35598,
+        35603
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

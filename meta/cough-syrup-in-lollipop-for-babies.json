@@ -4,13 +4,13 @@
   "url": "https://blog.vertistratsolution.com/2026/10/cough-syrup-in-lollipop-for-babies.html",
   "slug": "cough-syrup-in-lollipop-for-babies",
   "published": "2026-10-06T19:54:41.000+05:30",
-  "updated": "2026-11-07T08:25:53.000+05:30",
+  "updated": "2026-11-14T12:49:04.654+05:30",
   "labels": [
     "Healthcare",
     "Industrial Policy"
   ],
-  "bytes": 30857,
-  "sha256": "8fbe8db108614a797ea45e1086424db47ff2f390226b80e8c89bbe3a0986e64c",
+  "bytes": 30861,
+  "sha256": "e01a3d63bdb89181b0abac1e904310e2043be73047dad90f038a36094526eb12",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.1.1",
+  "version": "1.1.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -57,6 +57,19 @@
         "https://masaladeutsch.blogspot.com/2026/10/cough-syrup-in-lollipop-for-babies.html",
         "https://blog.vertistratsolution.com/2026/10/cough-syrup-in-lollipop-for-babies.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.1.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        30857,
+        30861
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

@@ -4,13 +4,13 @@
   "url": "https://blog.vertistratsolution.com/2026/09/one-nation-one-gst-rate-what-true-flat.html",
   "slug": "one-nation-one-gst-rate-what-true-flat",
   "published": "2026-09-29T17:37:19.000+05:30",
-  "updated": "2026-11-09T17:15:36.000+05:30",
+  "updated": "2026-11-14T12:51:11.996+05:30",
   "labels": [
     "Macroeconomics & Monetary Policy",
     "Trade & Tariffs"
   ],
-  "bytes": 30467,
-  "sha256": "3674878c3d73026819575971c4bcc374f5e19fac97d71c6036c861e41a7cc336",
+  "bytes": 30474,
+  "sha256": "bafc754a77528b2dcc5b08f5aaa29c4f2a961bd4223f06b5099efd5708977d71",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.1",
+  "version": "3.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -96,6 +96,19 @@
         "https://masaladeutsch.blogspot.com/2026/09/one-nation-one-gst-rate-what-true-flat.html",
         "https://blog.vertistratsolution.com/2026/09/one-nation-one-gst-rate-what-true-flat.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.0.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        30467,
+        30474
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

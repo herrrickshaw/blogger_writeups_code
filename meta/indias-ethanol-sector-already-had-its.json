@@ -4,12 +4,12 @@
   "url": "https://blog.vertistratsolution.com/2026/09/indias-ethanol-sector-already-had-its.html",
   "slug": "indias-ethanol-sector-already-had-its",
   "published": "2026-09-15T06:49:17.000+05:30",
-  "updated": "2026-11-07T08:43:58.000+05:30",
+  "updated": "2026-11-14T13:00:11.828+05:30",
   "labels": [
     "Energy & Fuels"
   ],
-  "bytes": 24984,
-  "sha256": "cfe856eadea726a1072d7c1774bd2e0baae1612b224b1f70172236e806de7f18",
+  "bytes": 24987,
+  "sha256": "2ca1a86189f7ac924686c603953b0ca11b4e8114ad175755494e1cf153c38bf1",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.3.1",
+  "version": "2.3.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -121,6 +121,19 @@
         "https://masaladeutsch.blogspot.com/2026/09/indias-ethanol-sector-already-had-its.html",
         "https://blog.vertistratsolution.com/2026/09/indias-ethanol-sector-already-had-its.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.3.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        24984,
+        24987
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

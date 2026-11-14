@@ -4,7 +4,7 @@
   "url": "https://blog.vertistratsolution.com/2026/08/price-is-wire-how-gcam-actually-links.html",
   "slug": "price-is-wire-how-gcam-actually-links",
   "published": "2026-08-13T10:21:55.000+05:30",
-  "updated": "2026-10-01T08:44:57.000+05:30",
+  "updated": "2026-11-14T13:22:48.363+05:30",
   "labels": [
     "Climate & Carbon",
     "Climate Modeling",
@@ -12,8 +12,8 @@
     "Energy Systems",
     "India"
   ],
-  "bytes": 44156,
-  "sha256": "0530a83376db08d676d1b3d5a20d49f2dfc6237621f2558ce2645d00abb3ec16",
+  "bytes": 44161,
+  "sha256": "745b22580e8ddde013f2d08667373d07792749db93e068eea63341924d71e05e",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -25,7 +25,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.1.1",
+  "version": "3.1.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -216,6 +216,19 @@
         "https://masaladeutsch.blogspot.com/2026/08/price-is-wire-how-gcam-actually-links.html",
         "https://blog.vertistratsolution.com/2026/08/price-is-wire-how-gcam-actually-links.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.1.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        44156,
+        44161
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

@@ -4,14 +4,14 @@
   "url": "https://blog.vertistratsolution.com/2026/08/indias-79-lakh-crore-rural-water.html",
   "slug": "indias-79-lakh-crore-rural-water",
   "published": "2026-08-29T12:08:35.000+05:30",
-  "updated": "2026-11-07T08:41:17.000+05:30",
+  "updated": "2026-11-14T13:08:58.625+05:30",
   "labels": [
     "India",
     "Infrastructure & Investment",
     "Water Infrastructure Financing"
   ],
-  "bytes": 28431,
-  "sha256": "862b1d8ae447837df2659dc66888f387ae25a9ca4b59b8c7e184750a9887fed5",
+  "bytes": 28435,
+  "sha256": "413828b62168287a601932da1e45a3c07acecee50b217920d698e17a79a19cce",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.2.1",
+  "version": "3.2.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -149,6 +149,19 @@
         "https://masaladeutsch.blogspot.com/2026/08/indias-79-lakh-crore-rural-water.html",
         "https://blog.vertistratsolution.com/2026/08/indias-79-lakh-crore-rural-water.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.2.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        28431,
+        28435
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

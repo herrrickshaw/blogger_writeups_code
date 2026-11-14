@@ -4,14 +4,14 @@
   "url": "https://blog.vertistratsolution.com/2026/08/indian-railways-98-to-earn-100-business.html",
   "slug": "indian-railways-98-to-earn-100-business",
   "published": "2026-08-20T06:09:42.000+05:30",
-  "updated": "2026-11-07T08:40:20.000+05:30",
+  "updated": "2026-11-14T13:17:08.143+05:30",
   "labels": [
     "Industrial Policy",
     "Public Sector & Infrastructure Finance",
     "Trade & Tariffs"
   ],
-  "bytes": 31741,
-  "sha256": "cc73a9ca3f48de141701182f06a8d82ffe0e57c9f5b7f1f8da4a6cb6832c4dbc",
+  "bytes": 31745,
+  "sha256": "a862ba2c22dc1bfca0f80ec4895c54003fd654d571b9d2d0d133d45caada82ff",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.3.1",
+  "version": "2.3.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -175,6 +175,19 @@
         "https://masaladeutsch.blogspot.com/2026/08/indian-railways-98-to-earn-100-business.html",
         "https://blog.vertistratsolution.com/2026/08/indian-railways-98-to-earn-100-business.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.3.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        31741,
+        31745
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

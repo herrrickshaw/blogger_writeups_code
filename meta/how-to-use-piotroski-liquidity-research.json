@@ -4,14 +4,14 @@
   "url": "https://blog.vertistratsolution.com/2026/10/how-to-use-piotroski-liquidity-research.html",
   "slug": "how-to-use-piotroski-liquidity-research",
   "published": "2026-10-19T05:13:14.000+05:30",
-  "updated": "2026-10-29T09:06:21.000+05:30",
+  "updated": "2026-11-14T12:38:06.039+05:30",
   "labels": [
     "Equity Markets & Stock Screening",
     "Markets & Finance",
     "Open-Source Tools & How-To"
   ],
-  "bytes": 30086,
-  "sha256": "19cd0638b331345b50b87adcfcbb1532861d359118727c9e114d19586317a930",
+  "bytes": 30088,
+  "sha256": "c8d7d3f71c15d4235bc47d6188acec7e69a9cf03e948087c56e0155c72ae9bc7",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.2",
+  "version": "1.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -58,6 +58,19 @@
         "https://masaladeutsch.blogspot.com/2026/10/how-to-use-piotroski-liquidity-research.html",
         "https://blog.vertistratsolution.com/2026/10/how-to-use-piotroski-liquidity-research.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.3",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        30086,
+        30088
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

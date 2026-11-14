@@ -4,14 +4,14 @@
   "url": "https://blog.vertistratsolution.com/2026/09/india-pays-5-8-billion-year-to-ship-its.html",
   "slug": "india-pays-5-8-billion-year-to-ship-its",
   "published": "2026-09-28T17:00:17.000+05:30",
-  "updated": "2026-11-07T08:38:26.000+05:30",
+  "updated": "2026-11-14T12:51:21.874+05:30",
   "labels": [
     "Energy & Fuels",
     "Industrial Policy",
     "Shipping & Maritime Fuels"
   ],
-  "bytes": 23745,
-  "sha256": "1367054db6d48af916382a2287f58c22b48d01b9c3fcb2bda4fbd834de5eb737",
+  "bytes": 23750,
+  "sha256": "7016a9342710aba4f50e1e7c7a78db45bcfc1d36a8690dd990c58b9af56a8db4",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.2.1",
+  "version": "1.2.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -97,6 +97,19 @@
         "https://masaladeutsch.blogspot.com/2026/09/india-pays-5-8-billion-year-to-ship-its.html",
         "https://blog.vertistratsolution.com/2026/09/india-pays-5-8-billion-year-to-ship-its.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.2.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        23745,
+        23750
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

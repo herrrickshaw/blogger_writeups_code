@@ -4,12 +4,12 @@
   "url": "https://blog.vertistratsolution.com/2026/08/what-india-is-actually-paying-for.html",
   "slug": "what-india-is-actually-paying-for",
   "published": "2026-08-14T08:10:54.000+05:30",
-  "updated": "2026-11-07T09:09:13.000+05:30",
+  "updated": "2026-11-14T13:21:59.337+05:30",
   "labels": [
     "Macroeconomics & Monetary Policy"
   ],
-  "bytes": 40996,
-  "sha256": "797e673c9b0f349ca9189eb13786df6c09d7e86fc2317fb7d5a6d0235c36118f",
+  "bytes": 41001,
+  "sha256": "dea582b7d8383e6500c57de6c957bf66b0cbaa6852b351984cd0b38099dfc9ac",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.1.1",
+  "version": "3.1.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -225,6 +225,19 @@
         "https://masaladeutsch.blogspot.com/2026/08/what-india-is-actually-paying-for.html",
         "https://blog.vertistratsolution.com/2026/08/what-india-is-actually-paying-for.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.1.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        40996,
+        41001
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

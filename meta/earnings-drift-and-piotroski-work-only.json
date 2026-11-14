@@ -4,13 +4,13 @@
   "url": "https://blog.vertistratsolution.com/2026/10/earnings-drift-and-piotroski-work-only.html",
   "slug": "earnings-drift-and-piotroski-work-only",
   "published": "2026-10-28T09:49:08.000+05:30",
-  "updated": "2026-10-29T09:05:49.000+05:30",
+  "updated": "2026-11-14T12:28:29.627+05:30",
   "labels": [
     "Equity Markets & Stock Screening",
     "Markets & Investing"
   ],
-  "bytes": 32611,
-  "sha256": "c013a463cc9bab46f52067ef8c99bb3cffe9c1d8b181feb1d5d0ea62bb216ddd",
+  "bytes": 32613,
+  "sha256": "d65a5f9ae3cc43c981622c00c6d3b51c88cfcfd93c16d25f4b1b824f126f9c30",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.2",
+  "version": "2.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -70,6 +70,19 @@
         "https://masaladeutsch.blogspot.com/2026/10/earnings-drift-and-piotroski-work-only.html",
         "https://blog.vertistratsolution.com/2026/10/earnings-drift-and-piotroski-work-only.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.3",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        32611,
+        32613
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

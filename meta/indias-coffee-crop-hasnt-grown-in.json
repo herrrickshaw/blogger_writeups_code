@@ -4,15 +4,15 @@
   "url": "https://blog.vertistratsolution.com/2026/08/indias-coffee-crop-hasnt-grown-in.html",
   "slug": "indias-coffee-crop-hasnt-grown-in",
   "published": "2026-08-24T14:55:25.000+05:30",
-  "updated": "2026-11-07T08:42:28.000+05:30",
+  "updated": "2026-11-14T13:11:59.771+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Cash Crop Export Economics",
     "India",
     "Trade & Tariffs"
   ],
-  "bytes": 34767,
-  "sha256": "ca1de1c74725cf3dc042bbf92b14c755f70411834e0165bd2323423efc8e8233",
+  "bytes": 34773,
+  "sha256": "71175ed8242946f04e2bf3df8b7b320a8fd82fe3bc8264cdb156bb3d5a746c55",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "4.1.1",
+  "version": "4.1.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -189,6 +189,19 @@
         "https://masaladeutsch.blogspot.com/2026/08/indias-coffee-crop-hasnt-grown-in.html",
         "https://blog.vertistratsolution.com/2026/08/indias-coffee-crop-hasnt-grown-in.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "4.1.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        34767,
+        34773
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

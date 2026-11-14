@@ -4,14 +4,14 @@
   "url": "https://blog.vertistratsolution.com/2026/08/pli-medical-devices-coverage-and-gaps.html",
   "slug": "pli-medical-devices-coverage-and-gaps",
   "published": "2026-08-05T05:27:53.000+05:30",
-  "updated": "2026-11-07T08:54:10.000+05:30",
+  "updated": "2026-11-14T13:34:22.678+05:30",
   "labels": [
     "Industrial Policy",
     "PLI Schemes",
     "Trade & Tariffs"
   ],
-  "bytes": 27988,
-  "sha256": "5cb4a549506d9e97678a5688e770879b6f8b663c91cf53523b40fc06267c57ef",
+  "bytes": 27993,
+  "sha256": "5bf08b9e719e24f89019d383e206c4952fe705ff6ed20352ebe2e97e5006ab66",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.3.1",
+  "version": "3.3.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -327,6 +327,19 @@
         "https://masaladeutsch.blogspot.com/2026/08/pli-medical-devices-coverage-and-gaps.html",
         "https://blog.vertistratsolution.com/2026/08/pli-medical-devices-coverage-and-gaps.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.3.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        27988,
+        27993
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

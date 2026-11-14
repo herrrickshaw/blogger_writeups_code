@@ -4,14 +4,14 @@
   "url": "https://blog.vertistratsolution.com/2026/10/indias-winter-harvest-now-outgrows-its.html",
   "slug": "indias-winter-harvest-now-outgrows-its",
   "published": "2026-10-25T07:33:05.000+05:30",
-  "updated": "2026-10-25T07:33:40.000+05:30",
+  "updated": "2026-11-14T12:33:18.377+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Grain Procurement & Storage",
     "Prices & Inflation"
   ],
-  "bytes": 57823,
-  "sha256": "f13c18cc74a2af2361a93f63a30c90c8822edef994b53f03d9dfa8b27794c236",
+  "bytes": 57831,
+  "sha256": "9616ed119989d138e3eb7eb40ac95e7de48f6e1194a5c97250d4dc319df40c0b",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -45,6 +45,19 @@
         "https://masaladeutsch.blogspot.com/2026/10/indias-winter-harvest-now-outgrows-its.html",
         "https://blog.vertistratsolution.com/2026/10/indias-winter-harvest-now-outgrows-its.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        57823,
+        57831
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

@@ -4,12 +4,12 @@
   "url": "https://blog.vertistratsolution.com/2026/08/where-indias-forex-goes-country.html",
   "slug": "where-indias-forex-goes-country",
   "published": "2026-08-02T13:46:53.000+05:30",
-  "updated": "2026-11-07T09:09:56.000+05:30",
+  "updated": "2026-11-14T13:40:34.473+05:30",
   "labels": [
     "Industrial Policy"
   ],
-  "bytes": 51565,
-  "sha256": "c903ceeb6a54bd7f9d83bedddca84d038e2bde4dbd3959904b947456415023c3",
+  "bytes": 51569,
+  "sha256": "76c1af46743ad4e6b7064efec14ba88a5d7f0fb71eef37f08cd315624f956bd9",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.2.1",
+  "version": "3.2.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -325,6 +325,19 @@
         "https://masaladeutsch.blogspot.com/2026/08/where-indias-forex-goes-country.html",
         "https://blog.vertistratsolution.com/2026/08/where-indias-forex-goes-country.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.2.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        51565,
+        51569
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

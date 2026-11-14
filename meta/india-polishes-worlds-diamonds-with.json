@@ -4,14 +4,14 @@
   "url": "https://blog.vertistratsolution.com/2026/09/india-polishes-worlds-diamonds-with.html",
   "slug": "india-polishes-worlds-diamonds-with",
   "published": "2026-09-30T06:03:05.000+05:30",
-  "updated": "2026-11-07T08:38:36.000+05:30",
+  "updated": "2026-11-14T12:50:52.403+05:30",
   "labels": [
     "Import Substitution",
     "Industrial Policy",
     "Trade & Tariffs"
   ],
-  "bytes": 28184,
-  "sha256": "8e06534f1861e6ca75547c7cca7a3408928c96470efa62f655fa60b87b235684",
+  "bytes": 28189,
+  "sha256": "7119992d00344055dc47af5d4438ae4b6b5a105784173dcd8386589e984fcc29",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.2.1",
+  "version": "1.2.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -71,6 +71,19 @@
         "https://masaladeutsch.blogspot.com/2026/09/india-polishes-worlds-diamonds-with.html",
         "https://blog.vertistratsolution.com/2026/09/india-polishes-worlds-diamonds-with.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.2.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        28184,
+        28189
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

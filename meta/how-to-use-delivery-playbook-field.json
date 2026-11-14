@@ -4,12 +4,12 @@
   "url": "https://blog.vertistratsolution.com/2026/10/how-to-use-delivery-playbook-field.html",
   "slug": "how-to-use-delivery-playbook-field",
   "published": "2026-10-19T05:10:09.000+05:30",
-  "updated": "2026-10-23T09:05:38.000+05:30",
+  "updated": "2026-11-14T12:40:57.944+05:30",
   "labels": [
     "Open-Source Tools & How-To"
   ],
-  "bytes": 25185,
-  "sha256": "2ec5cfc84a0aa815f58143194b45edcb134f6b6cbf3141bf44dcb59acc951744",
+  "bytes": 25187,
+  "sha256": "566a5b0f1f002f71e7ed10dd0f66a912a4bae189b3b42ecb6ff97e8e5ae9279d",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.2",
+  "version": "1.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -56,6 +56,19 @@
         "https://masaladeutsch.blogspot.com/2026/10/how-to-use-delivery-playbook-field.html",
         "https://blog.vertistratsolution.com/2026/10/how-to-use-delivery-playbook-field.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.3",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        25185,
+        25187
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

@@ -4,13 +4,13 @@
   "url": "https://blog.vertistratsolution.com/2026/09/e20-doesnt-cut-tailpipe-co2-by-30-run.html",
   "slug": "e20-doesnt-cut-tailpipe-co2-by-30-run",
   "published": "2026-09-18T18:00:41.000+05:30",
-  "updated": "2026-10-27T15:15:26.000+05:30",
+  "updated": "2026-11-14T12:55:42.751+05:30",
   "labels": [
     "Energy & Fuels",
     "Mobility & EV"
   ],
-  "bytes": 25569,
-  "sha256": "17c54679b00545789b611508b003e03d81c050dc060933f0a76bd0d74e9d4945",
+  "bytes": 25575,
+  "sha256": "6475391b74ab93feeaa564772188f69409d3d463784e233a3681eb20a2448e67",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.1",
+  "version": "2.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -83,6 +83,19 @@
         "https://masaladeutsch.blogspot.com/2026/09/e20-doesnt-cut-tailpipe-co2-by-30-run.html",
         "https://blog.vertistratsolution.com/2026/09/e20-doesnt-cut-tailpipe-co2-by-30-run.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        25569,
+        25575
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

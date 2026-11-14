@@ -4,12 +4,12 @@
   "url": "https://blog.vertistratsolution.com/2026/08/the-price-and-tap-two-levers-behind.html",
   "slug": "the-price-and-tap-two-levers-behind",
   "published": "2026-08-04T06:09:47.000+05:30",
-  "updated": "2026-11-07T09:05:42.000+05:30",
+  "updated": "2026-11-14T13:36:19.696+05:30",
   "labels": [
     "Macroeconomics & Monetary Policy"
   ],
-  "bytes": 27829,
-  "sha256": "c549e89b87da299f4de7015b4a1ab8bc0d7ada07811f2e4d9c832bfe5dcba32e",
+  "bytes": 27834,
+  "sha256": "5b73c51aca568a13dc86487ea630819465f626580c4ae91f8f1ffa03e96f2c22",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.1.1",
+  "version": "3.1.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -321,6 +321,19 @@
         "https://masaladeutsch.blogspot.com/2026/08/the-price-and-tap-two-levers-behind.html",
         "https://blog.vertistratsolution.com/2026/08/the-price-and-tap-two-levers-behind.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.1.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        27829,
+        27834
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

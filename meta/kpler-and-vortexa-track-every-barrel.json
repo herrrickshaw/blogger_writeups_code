@@ -4,13 +4,13 @@
   "url": "https://blog.vertistratsolution.com/2026/09/kpler-and-vortexa-track-every-barrel.html",
   "slug": "kpler-and-vortexa-track-every-barrel",
   "published": "2026-09-24T08:43:14.000+05:30",
-  "updated": "2026-11-07T08:50:00.000+05:30",
+  "updated": "2026-11-14T12:53:25.978+05:30",
   "labels": [
     "Energy & Fuels",
     "Trade & Tariffs"
   ],
-  "bytes": 40316,
-  "sha256": "96057db8440eef34a3144b7f077de2abe58575b7ed1daf91441a2649bcbd8c44",
+  "bytes": 40326,
+  "sha256": "c6e101c5e8a4ecaee33a4e9759449dc6569bcbd0a9e9c1ab3425a2ce18ba41cf",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.2.1",
+  "version": "1.2.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -96,6 +96,19 @@
         "https://masaladeutsch.blogspot.com/2026/09/kpler-and-vortexa-track-every-barrel.html",
         "https://blog.vertistratsolution.com/2026/09/kpler-and-vortexa-track-every-barrel.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.2.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        40316,
+        40326
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

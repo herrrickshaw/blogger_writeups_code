@@ -4,14 +4,14 @@
   "url": "https://blog.vertistratsolution.com/2026/10/how-to-use-eu-ets-compliance-platform.html",
   "slug": "how-to-use-eu-ets-compliance-platform",
   "published": "2026-10-19T05:10:11.000+05:30",
-  "updated": "2026-10-26T09:06:16.000+05:30",
+  "updated": "2026-11-14T12:40:48.259+05:30",
   "labels": [
     "Climate & Carbon",
     "India",
     "Open-Source Tools & How-To"
   ],
-  "bytes": 25256,
-  "sha256": "2ab5ff5a0e96244aad0e85dbf23649778b8606f5f4f53bbadaebe61b1774199e",
+  "bytes": 25258,
+  "sha256": "cd84305d35761ef5a35a556493567472325543ae14675938968cb767dbd3fa53",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.1",
+  "version": "2.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -58,6 +58,19 @@
         "https://masaladeutsch.blogspot.com/2026/10/how-to-use-eu-ets-compliance-platform.html",
         "https://blog.vertistratsolution.com/2026/10/how-to-use-eu-ets-compliance-platform.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        25256,
+        25258
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

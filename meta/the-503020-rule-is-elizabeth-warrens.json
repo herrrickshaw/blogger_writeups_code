@@ -4,13 +4,13 @@
   "url": "https://blog.vertistratsolution.com/2026/08/the-503020-rule-is-elizabeth-warrens.html",
   "slug": "the-503020-rule-is-elizabeth-warrens",
   "published": "2026-08-10T06:47:21.000+05:30",
-  "updated": "2026-10-01T08:50:54.000+05:30",
+  "updated": "2026-11-14T13:26:42.647+05:30",
   "labels": [
     "Markets & Finance",
     "Personal Finance & Retail Investing Access"
   ],
-  "bytes": 25922,
-  "sha256": "0fa5d70344824951e311e73f6cba849c3becba311b4c462ce51bbd8a399e4eaa",
+  "bytes": 25925,
+  "sha256": "d5cde2949fc98bb19053dc5ff3596462ef5fcfe8178d7e4454522e7a9104a604",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "4.1.1",
+  "version": "4.1.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -265,6 +265,19 @@
         "https://masaladeutsch.blogspot.com/2026/08/the-503020-rule-is-elizabeth-warrens.html",
         "https://blog.vertistratsolution.com/2026/08/the-503020-rule-is-elizabeth-warrens.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "4.1.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        25922,
+        25925
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

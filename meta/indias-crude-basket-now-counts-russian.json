@@ -4,12 +4,12 @@
   "url": "https://blog.vertistratsolution.com/2026/10/indias-crude-basket-now-counts-russian.html",
   "slug": "indias-crude-basket-now-counts-russian",
   "published": "2026-10-27T17:26:22.000+05:30",
-  "updated": "2026-11-07T08:43:00.000+05:30",
+  "updated": "2026-11-14T12:30:30.917+05:30",
   "labels": [
     "Energy & Fuels"
   ],
-  "bytes": 26560,
-  "sha256": "2322c2bd65a2c423c848fe4b3fb1795e1d4db3e109ef105b6e14372345b3b5b4",
+  "bytes": 26569,
+  "sha256": "281c2f2f9e94586f4564fb7b4eed3e9368b08eb0670dc56005fbdfebfd2d8912",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.1.1",
+  "version": "1.1.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -56,6 +56,19 @@
         "https://masaladeutsch.blogspot.com/2026/10/indias-crude-basket-now-counts-russian.html",
         "https://blog.vertistratsolution.com/2026/10/indias-crude-basket-now-counts-russian.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.1.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        26560,
+        26569
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

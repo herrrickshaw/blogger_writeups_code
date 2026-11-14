@@ -4,14 +4,14 @@
   "url": "https://blog.vertistratsolution.com/2026/08/ethanols-coal-boilers-briquette-gap-and.html",
   "slug": "ethanols-coal-boilers-briquette-gap-and",
   "published": "2026-08-17T09:07:49.000+05:30",
-  "updated": "2026-11-04T18:44:35.000+05:30",
+  "updated": "2026-11-14T13:18:57.691+05:30",
   "labels": [
     "Carbon Markets",
     "Energy & Fuels",
     "Ethanol & Biofuels"
   ],
-  "bytes": 39204,
-  "sha256": "5c56325e9b722c4faa20c9c4fbf4c831a50f069a5fdf8aaf049c986a2c95b40a",
+  "bytes": 39213,
+  "sha256": "07e169a3758ed6dd1790b8fcd14da987c6f4cbcbf8d4bdaffae757025727e607",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.2.1",
+  "version": "2.2.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -214,6 +214,19 @@
         "https://masaladeutsch.blogspot.com/2026/08/ethanols-coal-boilers-briquette-gap-and.html",
         "https://blog.vertistratsolution.com/2026/08/ethanols-coal-boilers-briquette-gap-and.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.2.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        39204,
+        39213
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

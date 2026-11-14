@@ -4,13 +4,13 @@
   "url": "https://blog.vertistratsolution.com/2026/09/indias-oil-psus-say-they-clear-their_01269248608.html",
   "slug": "indias-oil-psus-say-they-clear-their_01269248608",
   "published": "2026-09-02T03:35:50.000+05:30",
-  "updated": "2026-10-28T16:28:56.000+05:30",
+  "updated": "2026-11-14T13:05:08.900+05:30",
   "labels": [
     "Energy & Fuels",
     "Industrial Policy"
   ],
-  "bytes": 40961,
-  "sha256": "fc91524a4a8c425cc95f7434977dc9215f29b583f9b6303793f9c518fe3f1a61",
+  "bytes": 40965,
+  "sha256": "767fed09fceb2df56451cca4d3d8598416f2b8446bf30877f3b0ae08f96343f8",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.1",
+  "version": "2.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -148,6 +148,19 @@
         "https://masaladeutsch.blogspot.com/2026/09/indias-oil-psus-say-they-clear-their_01269248608.html",
         "https://blog.vertistratsolution.com/2026/09/indias-oil-psus-say-they-clear-their_01269248608.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        40961,
+        40965
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

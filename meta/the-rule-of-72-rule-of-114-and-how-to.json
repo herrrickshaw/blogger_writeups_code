@@ -4,13 +4,13 @@
   "url": "https://blog.vertistratsolution.com/2026/08/the-rule-of-72-rule-of-114-and-how-to.html",
   "slug": "the-rule-of-72-rule-of-114-and-how-to",
   "published": "2026-08-10T06:21:23.000+05:30",
-  "updated": "2026-11-07T09:06:29.000+05:30",
+  "updated": "2026-11-14T13:27:01.491+05:30",
   "labels": [
     "Markets & Finance",
     "Personal Finance & Retail Investing Access"
   ],
-  "bytes": 30658,
-  "sha256": "066bfa02f6cfdc2fa5c191565cc9f04a846e98be8ad996cfc44386cb7482c4f0",
+  "bytes": 30661,
+  "sha256": "c368bd1e3501756aab0ebc30590bf131c88ebb0e1d1a252e86002a0f8c42b332",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "4.2.1",
+  "version": "4.2.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -265,6 +265,19 @@
         "https://masaladeutsch.blogspot.com/2026/08/the-rule-of-72-rule-of-114-and-how-to.html",
         "https://blog.vertistratsolution.com/2026/08/the-rule-of-72-rule-of-114-and-how-to.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "4.2.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        30658,
+        30661
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

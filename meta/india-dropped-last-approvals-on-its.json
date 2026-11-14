@@ -4,13 +4,13 @@
   "url": "https://blog.vertistratsolution.com/2026/10/india-dropped-last-approvals-on-its.html",
   "slug": "india-dropped-last-approvals-on-its",
   "published": "2026-10-28T15:34:08.000+05:30",
-  "updated": "2026-10-28T16:26:41.000+05:30",
+  "updated": "2026-11-14T12:28:00.125+05:30",
   "labels": [
     "Industrial Policy",
     "Trade & Tariffs"
   ],
-  "bytes": 26262,
-  "sha256": "ef326866dde828e950361c17c97d62e8d11774539fd36b6b8a30ef7abebcb8d7",
+  "bytes": 26273,
+  "sha256": "d89c3d21d2a37748477c2533921ec40310b60fd567002ee7d1f4ad389c676831",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.1",
+  "version": "2.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -57,6 +57,19 @@
         "https://masaladeutsch.blogspot.com/2026/10/india-dropped-last-approvals-on-its.html",
         "https://blog.vertistratsolution.com/2026/10/india-dropped-last-approvals-on-its.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        26262,
+        26273
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

@@ -4,15 +4,15 @@
   "url": "https://blog.vertistratsolution.com/2026/10/how-to-use-ethanol-design-opensource.html",
   "slug": "how-to-use-ethanol-design-opensource",
   "published": "2026-10-25T07:26:46.000+05:30",
-  "updated": "2026-10-26T09:05:36.000+05:30",
+  "updated": "2026-11-14T12:33:56.257+05:30",
   "labels": [
     "Energy & Fuels",
     "Ethanol & Biofuels",
     "India",
     "Open-Source Tools & How-To"
   ],
-  "bytes": 21875,
-  "sha256": "de4f74f831fd922b0667fc51d46c6f29269609d1a36b235695d7c9b03d9ffab8",
+  "bytes": 21877,
+  "sha256": "b0b0eef3990ef12ec8afcd70306fb2af8990ee0190ee60e7e931d7f8ee32a8e0",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.1",
+  "version": "2.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -59,6 +59,19 @@
         "https://masaladeutsch.blogspot.com/2026/10/how-to-use-ethanol-design-opensource.html",
         "https://blog.vertistratsolution.com/2026/10/how-to-use-ethanol-design-opensource.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        21875,
+        21877
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

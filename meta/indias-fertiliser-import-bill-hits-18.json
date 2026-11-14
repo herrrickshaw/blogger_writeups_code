@@ -4,15 +4,15 @@
   "url": "https://blog.vertistratsolution.com/2026/08/indias-fertiliser-import-bill-hits-18.html",
   "slug": "indias-fertiliser-import-bill-hits-18",
   "published": "2026-08-08T21:49:47.000+05:30",
-  "updated": "2026-11-07T08:44:39.000+05:30",
+  "updated": "2026-11-14T13:28:09.416+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Energy & Fuels",
     "Fertilisers & Soil Health",
     "Trade & Tariffs"
   ],
-  "bytes": 30419,
-  "sha256": "2c0d99f1875d716315ddb88efc04d8cc0bc400e4df2e221512a372b0195803da",
+  "bytes": 30431,
+  "sha256": "56bf6a590b476e629c83a16f1003bd454e142648db6ae810ecde590dbe2cbc42",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.2.1",
+  "version": "3.2.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -254,6 +254,19 @@
         "https://masaladeutsch.blogspot.com/2026/08/indias-fertiliser-import-bill-hits-18.html",
         "https://blog.vertistratsolution.com/2026/08/indias-fertiliser-import-bill-hits-18.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.2.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        30419,
+        30431
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

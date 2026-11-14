@@ -4,12 +4,12 @@
   "url": "https://blog.vertistratsolution.com/2026/09/do-cbse-past-papers-actually-help.html",
   "slug": "do-cbse-past-papers-actually-help",
   "published": "2026-09-17T07:21:20.000+05:30",
-  "updated": "2026-11-11T14:58:28.000+05:30",
+  "updated": "2026-11-14T12:56:33.026+05:30",
   "labels": [
     "Education"
   ],
-  "bytes": 29214,
-  "sha256": "9ce1bb72fad00ed136d05fcd38a43babac57eea0a82492dd679c3a4603d6aa5e",
+  "bytes": 29217,
+  "sha256": "7fedb41f34dc89030a0fc2cfe9038f3b657670490771f562f840b19da55d278b",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.0",
+  "version": "3.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -113,6 +113,19 @@
       "bytes": [
         29173,
         29214
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.0.1",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        29214,
+        29217
       ],
       "url_changed": null,
       "markers_changed": null,

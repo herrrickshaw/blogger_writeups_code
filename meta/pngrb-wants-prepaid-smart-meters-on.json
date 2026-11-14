@@ -4,14 +4,14 @@
   "url": "https://blog.vertistratsolution.com/2026/09/pngrb-wants-prepaid-smart-meters-on.html",
   "slug": "pngrb-wants-prepaid-smart-meters-on",
   "published": "2026-09-08T09:22:34.000+05:30",
-  "updated": "2026-11-07T08:54:35.000+05:30",
+  "updated": "2026-11-14T13:02:27.736+05:30",
   "labels": [
     "City Gas Distribution",
     "Gas & LNG",
     "Industrial Policy"
   ],
-  "bytes": 28108,
-  "sha256": "281dcf22fd0fcd6cd0c83c9966f74bb91d347e80a16b3fd74071e18bdb4713d3",
+  "bytes": 28112,
+  "sha256": "f7efb7476713fe6cd9f2b8c63981522ab9831bce8ee10b8eb58c792b5b96ec40",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.2.1",
+  "version": "1.2.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -97,6 +97,19 @@
         "https://masaladeutsch.blogspot.com/2026/09/pngrb-wants-prepaid-smart-meters-on.html",
         "https://blog.vertistratsolution.com/2026/09/pngrb-wants-prepaid-smart-meters-on.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.2.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        28108,
+        28112
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

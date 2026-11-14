@@ -4,14 +4,14 @@
   "url": "https://blog.vertistratsolution.com/2026/10/making-plastic-releases-heat-unmaking.html",
   "slug": "making-plastic-releases-heat-unmaking",
   "published": "2026-10-02T05:36:49.000+05:30",
-  "updated": "2026-10-28T16:29:08.000+05:30",
+  "updated": "2026-11-14T12:50:14.286+05:30",
   "labels": [
     "Climate & Carbon",
     "Energy & Fuels",
     "Industrial Policy"
   ],
-  "bytes": 58620,
-  "sha256": "f1b7fee34339c3935d1ce4cc55c4629d9a027aa38d2d539080fb769ccfb15d70",
+  "bytes": 58627,
+  "sha256": "e4f7497bfe35e59aff99f0b5afccb461cfa405b40cd49572a54aa3f18a5f2c7e",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.1",
+  "version": "2.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -84,6 +84,19 @@
         "https://masaladeutsch.blogspot.com/2026/10/making-plastic-releases-heat-unmaking.html",
         "https://blog.vertistratsolution.com/2026/10/making-plastic-releases-heat-unmaking.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        58620,
+        58627
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

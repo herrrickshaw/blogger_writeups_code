@@ -4,10 +4,13 @@
   "url": "https://blog.vertistratsolution.com/2026/11/thirteen-small-open-source-tools-for.html",
   "slug": "thirteen-small-open-source-tools-for",
   "published": "2026-11-13T03:38:03.000+05:30",
-  "updated": "2026-11-13T03:38:03.000+05:30",
-  "labels": [],
-  "bytes": 44667,
-  "sha256": "1a0f9373ae3b0597e2bf6af523d8c8cf26d87344549aefc99b49934d3762875d",
+  "updated": "2026-11-14T14:23:42.410+05:30",
+  "labels": [
+    "Gas & LNG",
+    "Industrial Policy"
+  ],
+  "bytes": 44675,
+  "sha256": "aa9d5677b845fc18a37a3b47d9789f7eccd1ba7558739bdc03093495bbe555f9",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,13 +22,26 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "version_history": [
     {
       "version": "1.0.0",
       "date": "2026-11-13T03:39:53+05:30",
       "level": "initial",
       "reason": "first snapshot",
+      "note": ""
+    },
+    {
+      "version": "1.0.1",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "wording changed; no figures, sections or claims moved",
+      "bytes": [
+        44667,
+        44675
+      ],
+      "url_changed": null,
+      "markers_changed": null,
       "note": ""
     }
   ]

@@ -4,14 +4,14 @@
   "url": "https://blog.vertistratsolution.com/2026/08/foreign-capital-found-indias-hospitals.html",
   "slug": "foreign-capital-found-indias-hospitals",
   "published": "2026-08-23T14:22:31.000+05:30",
-  "updated": "2026-11-07T08:30:45.000+05:30",
+  "updated": "2026-11-14T13:12:49.480+05:30",
   "labels": [
     "Healthcare",
     "India",
     "Infrastructure & Investment"
   ],
-  "bytes": 37292,
-  "sha256": "c2b1f01345f3a38d4385fecb40aba62af6e5b1027e59344052bcaebd66880ff6",
+  "bytes": 37297,
+  "sha256": "31836337ee374b73715a15b452483cefebeae9ad8e187f343d7e559111dd16cf",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "5.1.1",
+  "version": "5.1.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -188,6 +188,19 @@
         "https://masaladeutsch.blogspot.com/2026/08/foreign-capital-found-indias-hospitals.html",
         "https://blog.vertistratsolution.com/2026/08/foreign-capital-found-indias-hospitals.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "5.1.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        37292,
+        37297
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

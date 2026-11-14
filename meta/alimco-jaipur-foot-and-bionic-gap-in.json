@@ -4,13 +4,13 @@
   "url": "https://blog.vertistratsolution.com/2026/09/alimco-jaipur-foot-and-bionic-gap-in.html",
   "slug": "alimco-jaipur-foot-and-bionic-gap-in",
   "published": "2026-09-11T06:42:14.000+05:30",
-  "updated": "2026-10-23T09:58:59.000+05:30",
+  "updated": "2026-11-14T13:01:30.751+05:30",
   "labels": [
     "Defence",
     "Healthcare"
   ],
-  "bytes": 36877,
-  "sha256": "54d5f044de46cc8539527caf358bf6f804596693e67d712c0fe6239c32bb78a4",
+  "bytes": 36881,
+  "sha256": "bb3bd6f422a422aa0e5d1aa8c51f07c0c331bf488a1d2e4f2623d733257b9d11",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.2.2",
+  "version": "1.2.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -83,6 +83,19 @@
         "https://masaladeutsch.blogspot.com/2026/09/alimco-jaipur-foot-and-bionic-gap-in.html",
         "https://blog.vertistratsolution.com/2026/09/alimco-jaipur-foot-and-bionic-gap-in.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.2.3",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        36877,
+        36881
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

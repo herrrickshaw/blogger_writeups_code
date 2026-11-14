@@ -4,12 +4,12 @@
   "url": "https://blog.vertistratsolution.com/2026/07/india-environmental-clearances-state.html",
   "slug": "india-environmental-clearances-state",
   "published": "2026-07-22T05:30:00.000+05:30",
-  "updated": "2026-10-01T08:27:46.000+05:30",
+  "updated": "2026-11-14T13:45:26.796+05:30",
   "labels": [
     "Environment & Clearances"
   ],
-  "bytes": 20062,
-  "sha256": "f0218d5b8c1809b40e2c61a40f548935517d4cee1bf6a984c29fb47abe105847",
+  "bytes": 20067,
+  "sha256": "fad58ab01afdd5ef3a26a9a233acf14a94bd1ce23f68b93e4d5be397482e5b24",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,13 +21,26 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "version_history": [
     {
       "version": "1.0.0",
       "date": "2026-11-13T03:39:53+05:30",
       "level": "initial",
       "reason": "first snapshot",
+      "note": ""
+    },
+    {
+      "version": "1.0.1",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "wording changed; no figures, sections or claims moved",
+      "bytes": [
+        20062,
+        20067
+      ],
+      "url_changed": null,
+      "markers_changed": null,
       "note": ""
     }
   ]

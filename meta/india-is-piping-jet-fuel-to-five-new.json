@@ -4,14 +4,14 @@
   "url": "https://blog.vertistratsolution.com/2026/09/india-is-piping-jet-fuel-to-five-new.html",
   "slug": "india-is-piping-jet-fuel-to-five-new",
   "published": "2026-09-08T05:37:18.000+05:30",
-  "updated": "2026-10-01T08:29:52.000+05:30",
+  "updated": "2026-11-14T13:02:57.457+05:30",
   "labels": [
     "Energy & Fuels",
     "Infrastructure & Investment",
     "Mobility & EV"
   ],
-  "bytes": 37428,
-  "sha256": "7c6f58aa9dae254667d9676834685110be3ae15bfbfd737a9025f319ce885712",
+  "bytes": 37434,
+  "sha256": "7978895360b5368f2541d6298da395bda7d4d74c30166e3dd717e05c0133d8ee",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.1.1",
+  "version": "1.1.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -97,6 +97,19 @@
         "https://masaladeutsch.blogspot.com/2026/09/india-is-piping-jet-fuel-to-five-new.html",
         "https://blog.vertistratsolution.com/2026/09/india-is-piping-jet-fuel-to-five-new.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.1.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        37428,
+        37434
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

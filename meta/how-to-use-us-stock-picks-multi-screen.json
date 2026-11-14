@@ -4,14 +4,14 @@
   "url": "https://blog.vertistratsolution.com/2026/10/how-to-use-us-stock-picks-multi-screen.html",
   "slug": "how-to-use-us-stock-picks-multi-screen",
   "published": "2026-10-19T05:15:17.000+05:30",
-  "updated": "2026-11-02T09:05:22.000+05:30",
+  "updated": "2026-11-14T12:37:08.300+05:30",
   "labels": [
     "Equity Markets & Stock Screening",
     "Markets & Finance",
     "Open-Source Tools & How-To"
   ],
-  "bytes": 25775,
-  "sha256": "b9db154d082f4312a78c3d7ee052f9235e2335540a1795de81ed1aa48d880add",
+  "bytes": 25777,
+  "sha256": "2a7a93810cd495216b93cb1f0e7240bfc35415125815f1c53a3e6330070f30b9",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.2",
+  "version": "1.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -58,6 +58,19 @@
         "https://masaladeutsch.blogspot.com/2026/10/how-to-use-us-stock-picks-multi-screen.html",
         "https://blog.vertistratsolution.com/2026/10/how-to-use-us-stock-picks-multi-screen.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.3",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        25775,
+        25777
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

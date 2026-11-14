@@ -4,15 +4,15 @@
   "url": "https://blog.vertistratsolution.com/2026/10/refiners-won-exemption-fight-biofuels.html",
   "slug": "refiners-won-exemption-fight-biofuels",
   "published": "2026-10-03T06:26:57.000+05:30",
-  "updated": "2026-11-07T08:57:15.000+05:30",
+  "updated": "2026-11-14T12:49:34.573+05:30",
   "labels": [
     "Climate & Carbon",
     "Energy & Fuels",
     "Ethanol & Biofuels",
     "Refining & Petrochemicals"
   ],
-  "bytes": 27678,
-  "sha256": "f29396193f81c90f88d9777966e8270298cee6e92ea48dc717ac1b159bb39b8f",
+  "bytes": 27680,
+  "sha256": "47d87f1b4b7602b96e45330ae6b2ed82dccfd238fa4e94e333115343a04e9fea",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.1.1",
+  "version": "1.1.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -85,6 +85,19 @@
         "https://masaladeutsch.blogspot.com/2026/10/refiners-won-exemption-fight-biofuels.html",
         "https://blog.vertistratsolution.com/2026/10/refiners-won-exemption-fight-biofuels.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.1.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        27678,
+        27680
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

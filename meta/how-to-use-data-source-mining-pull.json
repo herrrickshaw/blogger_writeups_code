@@ -4,12 +4,12 @@
   "url": "https://blog.vertistratsolution.com/2026/10/how-to-use-data-source-mining-pull.html",
   "slug": "how-to-use-data-source-mining-pull",
   "published": "2026-10-19T05:10:07.000+05:30",
-  "updated": "2026-10-23T09:05:45.000+05:30",
+  "updated": "2026-11-14T12:41:08.764+05:30",
   "labels": [
     "Open-Source Tools & How-To"
   ],
-  "bytes": 24703,
-  "sha256": "7efb53702404200cab32f2af7dfcd803e53e6f5930dbfca62e874b15d611cba8",
+  "bytes": 24705,
+  "sha256": "a74051dbb67fe7c402e81b6e30882baa103eef9a4b191d91b3324a6b8198347b",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.2",
+  "version": "1.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -56,6 +56,19 @@
         "https://masaladeutsch.blogspot.com/2026/10/how-to-use-data-source-mining-pull.html",
         "https://blog.vertistratsolution.com/2026/10/how-to-use-data-source-mining-pull.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.3",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        24703,
+        24705
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

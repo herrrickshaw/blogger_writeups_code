@@ -4,15 +4,15 @@
   "url": "https://blog.vertistratsolution.com/2026/08/pet-recycling-already-cuts-emissions-60.html",
   "slug": "pet-recycling-already-cuts-emissions-60",
   "published": "2026-08-16T07:25:04.000+05:30",
-  "updated": "2026-11-07T08:53:26.000+05:30",
+  "updated": "2026-11-14T13:19:39.574+05:30",
   "labels": [
     "Circularity & Waste-to-Value",
     "Environment & Clearances",
     "India Trade & Policy",
     "Trade & Tariffs"
   ],
-  "bytes": 27740,
-  "sha256": "65df2c262a400227cfca31d87821da9c097384e65aeb3b1587bc7b7872311751",
+  "bytes": 27749,
+  "sha256": "7258a50266bf39495922924990fb729df957d4d4f42a37f6ee85b5f12bb1e3d4",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.3.1",
+  "version": "2.3.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -202,6 +202,19 @@
         "https://masaladeutsch.blogspot.com/2026/08/pet-recycling-already-cuts-emissions-60.html",
         "https://blog.vertistratsolution.com/2026/08/pet-recycling-already-cuts-emissions-60.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.3.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        27740,
+        27749
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

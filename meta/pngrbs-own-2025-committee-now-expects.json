@@ -4,15 +4,15 @@
   "url": "https://blog.vertistratsolution.com/2026/09/pngrbs-own-2025-committee-now-expects.html",
   "slug": "pngrbs-own-2025-committee-now-expects",
   "published": "2026-09-09T07:35:00.000+05:30",
-  "updated": "2026-10-23T10:06:44.000+05:30",
+  "updated": "2026-11-14T13:02:08.272+05:30",
   "labels": [
     "Energy & Fuels",
     "Gas & LNG",
     "Gas Pipeline Infrastructure & Demand Planning",
     "Industrial Policy"
   ],
-  "bytes": 33104,
-  "sha256": "61b51bedf26d57bbaa156bfb6a6623608a0cf72ae9ffa6c72cecb3c569448770",
+  "bytes": 33108,
+  "sha256": "af4fc97f39faf3154a205774ea709243edfd917dde672728ebd2b3fe7fe6e5a7",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.1.2",
+  "version": "1.1.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -98,6 +98,19 @@
         "https://masaladeutsch.blogspot.com/2026/09/pngrbs-own-2025-committee-now-expects.html",
         "https://blog.vertistratsolution.com/2026/09/pngrbs-own-2025-committee-now-expects.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.1.3",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        33104,
+        33108
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

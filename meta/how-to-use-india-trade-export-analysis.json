@@ -4,14 +4,14 @@
   "url": "https://blog.vertistratsolution.com/2026/10/how-to-use-india-trade-export-analysis.html",
   "slug": "how-to-use-india-trade-export-analysis",
   "published": "2026-10-27T21:18:24.000+05:30",
-  "updated": "2026-10-29T09:06:05.000+05:30",
+  "updated": "2026-11-14T12:28:49.630+05:30",
   "labels": [
     "India",
     "Markets & Finance",
     "Open-Source Tools & How-To"
   ],
-  "bytes": 23588,
-  "sha256": "8fd67ffc23d416b8338d80fdf8e8eb15e7a3039aadef1ceb754fd3fd467d4d94",
+  "bytes": 23590,
+  "sha256": "815fe9ae19f29e04f675de4a03aabfd95b0b51c463bf4d8848efe33e87edb0f2",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.2",
+  "version": "1.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -58,6 +58,19 @@
         "https://masaladeutsch.blogspot.com/2026/10/how-to-use-india-trade-export-analysis.html",
         "https://blog.vertistratsolution.com/2026/10/how-to-use-india-trade-export-analysis.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.3",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        23588,
+        23590
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

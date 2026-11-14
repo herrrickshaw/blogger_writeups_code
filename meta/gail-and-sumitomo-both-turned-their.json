@@ -4,14 +4,14 @@
   "url": "https://blog.vertistratsolution.com/2026/09/gail-and-sumitomo-both-turned-their.html",
   "slug": "gail-and-sumitomo-both-turned-their",
   "published": "2026-09-28T16:45:41.000+05:30",
-  "updated": "2026-09-29T09:05:42.000+05:30",
+  "updated": "2026-11-14T12:51:50.173+05:30",
   "labels": [
     "Energy & Fuels",
     "Ethanol & Biofuels",
     "Industrial Policy"
   ],
-  "bytes": 20488,
-  "sha256": "0ad8e17c9e323546cc6c63812bda3380a233c5ac136bdfc2cfcca63ee9892b57",
+  "bytes": 20493,
+  "sha256": "9b064c5e9a3930157a5f6169b96d6de3243eccc997e75fbf3a783dee5487734d",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.2",
+  "version": "1.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -58,6 +58,19 @@
         "https://masaladeutsch.blogspot.com/2026/09/gail-and-sumitomo-both-turned-their.html",
         "https://blog.vertistratsolution.com/2026/09/gail-and-sumitomo-both-turned-their.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.3",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        20488,
+        20493
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

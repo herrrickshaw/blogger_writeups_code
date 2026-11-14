@@ -4,15 +4,15 @@
   "url": "https://blog.vertistratsolution.com/2026/10/how-to-use-biomass-to-syngas-opensource.html",
   "slug": "how-to-use-biomass-to-syngas-opensource",
   "published": "2026-10-19T10:21:39.000+05:30",
-  "updated": "2026-10-20T09:05:12.000+05:30",
+  "updated": "2026-11-14T12:36:39.769+05:30",
   "labels": [
     "Climate & Carbon",
     "Energy & Fuels",
     "India",
     "Open-Source Tools & How-To"
   ],
-  "bytes": 21593,
-  "sha256": "074718c13e5b9ec4ca1c1c57158b3a25d9a63cce6834d8cb1f96ec925fda9c4e",
+  "bytes": 21595,
+  "sha256": "023e9a49d6d6ba6ca0bbbe7ef9df3c58e4e0d1b5f02edc8fa8d4eeb842856da3",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.2",
+  "version": "1.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -59,6 +59,19 @@
         "https://masaladeutsch.blogspot.com/2026/10/how-to-use-biomass-to-syngas-opensource.html",
         "https://blog.vertistratsolution.com/2026/10/how-to-use-biomass-to-syngas-opensource.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.3",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        21593,
+        21595
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

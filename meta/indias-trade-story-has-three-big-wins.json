@@ -4,14 +4,14 @@
   "url": "https://blog.vertistratsolution.com/2026/08/indias-trade-story-has-three-big-wins.html",
   "slug": "indias-trade-story-has-three-big-wins",
   "published": "2026-08-08T21:53:13.000+05:30",
-  "updated": "2026-11-07T08:48:51.000+05:30",
+  "updated": "2026-11-14T13:28:00.514+05:30",
   "labels": [
     "Free Trade Agreements",
     "Industrial Policy",
     "Trade & Tariffs"
   ],
-  "bytes": 28369,
-  "sha256": "2d0427fa01332336af32f5533b8eef1caf90f7c00b83d8c802a76884f06cdc5f",
+  "bytes": 28373,
+  "sha256": "236841e3f296f0a5fdf0f33bf2ab41dec7fab7ba3a97b4c42302932b57fae35a",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.2.1",
+  "version": "3.2.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -279,6 +279,19 @@
         "https://masaladeutsch.blogspot.com/2026/08/indias-trade-story-has-three-big-wins.html",
         "https://blog.vertistratsolution.com/2026/08/indias-trade-story-has-three-big-wins.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.2.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        28369,
+        28373
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

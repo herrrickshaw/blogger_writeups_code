@@ -4,14 +4,14 @@
   "url": "https://blog.vertistratsolution.com/2026/10/how-to-use-bazaartalks-multi-market.html",
   "slug": "how-to-use-bazaartalks-multi-market",
   "published": "2026-10-19T05:08:27.000+05:30",
-  "updated": "2026-10-20T09:06:04.000+05:30",
+  "updated": "2026-11-14T12:42:48.991+05:30",
   "labels": [
     "Equity Markets & Stock Screening",
     "Markets & Finance",
     "Open-Source Tools & How-To"
   ],
-  "bytes": 25289,
-  "sha256": "faa977686bf7100b7ab52cb95b8f46d95771f90702ff772de912bebfa529a80d",
+  "bytes": 25291,
+  "sha256": "3a1bc5037ec6feeac3b1317f21172bd745696984d4bedd7387d98f6f30104d37",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.2",
+  "version": "1.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -58,6 +58,19 @@
         "https://masaladeutsch.blogspot.com/2026/10/how-to-use-bazaartalks-multi-market.html",
         "https://blog.vertistratsolution.com/2026/10/how-to-use-bazaartalks-multi-market.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.3",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        25289,
+        25291
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

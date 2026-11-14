@@ -4,12 +4,12 @@
   "url": "https://blog.vertistratsolution.com/2026/07/ethanol-blending-omc-books-e20-today-vs.html",
   "slug": "ethanol-blending-omc-books-e20-today-vs",
   "published": "2026-07-24T05:30:00.000+05:30",
-  "updated": "2026-10-18T06:23:30.000+05:30",
+  "updated": "2026-11-14T13:43:58.099+05:30",
   "labels": [
     "Energy & Fuels"
   ],
-  "bytes": 49057,
-  "sha256": "1bd5f591e9c3d7ce3cf8abb0482e3b7fc8fc46a7395fbda06e8cafe8931f28af",
+  "bytes": 49061,
+  "sha256": "6fd0a40dbe3306d0fe322410b764d670a5cb6262e2bbeb263dad443f7f61acd3",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": true,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.2.1",
+  "version": "2.2.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -309,6 +309,19 @@
         "https://masaladeutsch.blogspot.com/2026/07/ethanol-blending-omc-books-e20-today-vs.html",
         "https://blog.vertistratsolution.com/2026/07/ethanol-blending-omc-books-e20-today-vs.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.2.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        49057,
+        49061
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

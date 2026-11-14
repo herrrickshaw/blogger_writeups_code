@@ -4,14 +4,14 @@
   "url": "https://blog.vertistratsolution.com/2026/10/the-lpg-distributors-commission-rose-16.html",
   "slug": "the-lpg-distributors-commission-rose-16",
   "published": "2026-10-17T08:07:54.000+05:30",
-  "updated": "2026-10-17T08:21:47.000+05:30",
+  "updated": "2026-11-14T12:44:39.735+05:30",
   "labels": [
     "Energy & Fuels",
     "Fuel Retail & Pricing",
     "Prices & Inflation"
   ],
-  "bytes": 38994,
-  "sha256": "0c100fa13037077c8f463ce597115972d00e06f1db915271935651cf4ed29978",
+  "bytes": 39003,
+  "sha256": "4f1b2d174bb4b0952d47bbbb6f7288d807f634b0b0296ef613158ee9463bbbd7",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.1.1",
+  "version": "1.1.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -58,6 +58,19 @@
         "https://masaladeutsch.blogspot.com/2026/10/the-lpg-distributors-commission-rose-16.html",
         "https://blog.vertistratsolution.com/2026/10/the-lpg-distributors-commission-rose-16.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.1.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        38994,
+        39003
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

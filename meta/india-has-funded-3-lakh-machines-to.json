@@ -4,13 +4,13 @@
   "url": "https://blog.vertistratsolution.com/2026/10/india-has-funded-3-lakh-machines-to.html",
   "slug": "india-has-funded-3-lakh-machines-to",
   "published": "2026-10-28T16:33:26.000+05:30",
-  "updated": "2026-11-04T18:45:15.000+05:30",
+  "updated": "2026-11-14T12:27:11.773+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Energy & Fuels"
   ],
-  "bytes": 38885,
-  "sha256": "faedcd4f631c21266716053e046c4329fb9d776e1aa8dcbe20c2b6e8632b5dae",
+  "bytes": 38893,
+  "sha256": "ff123715ee24eb3789ec9ed110a339a2ee9fb660731d501c0ef3d2343c7964ad",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.1.1",
+  "version": "1.1.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -57,6 +57,19 @@
         "https://masaladeutsch.blogspot.com/2026/10/india-has-funded-3-lakh-machines-to.html",
         "https://blog.vertistratsolution.com/2026/10/india-has-funded-3-lakh-machines-to.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.1.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        38885,
+        38893
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

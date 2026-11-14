@@ -4,15 +4,15 @@
   "url": "https://blog.vertistratsolution.com/2026/08/indias-8-digit-trade-book-searchable.html",
   "slug": "indias-8-digit-trade-book-searchable",
   "published": "2026-08-23T07:09:47.000+05:30",
-  "updated": "2026-10-01T08:32:12.000+05:30",
+  "updated": "2026-11-14T13:13:09.330+05:30",
   "labels": [
     "Customs & HSN Trade Data",
     "India Trade & Policy",
     "Markets & Finance",
     "Trade & Tariffs"
   ],
-  "bytes": 34575,
-  "sha256": "b74b7f11fa0bff195ae45eec76b6dc0920b8307dc534bd2a33f475dc09235896",
+  "bytes": 34582,
+  "sha256": "ca1e82e3be2185fa0b4a90810649b4da855e6be8265e7046e845dbd03539c9ad",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.1.1",
+  "version": "3.1.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -137,6 +137,19 @@
         "https://masaladeutsch.blogspot.com/2026/08/indias-8-digit-trade-book-searchable.html",
         "https://blog.vertistratsolution.com/2026/08/indias-8-digit-trade-book-searchable.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.1.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        34575,
+        34582
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

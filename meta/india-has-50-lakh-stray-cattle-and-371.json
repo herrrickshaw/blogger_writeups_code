@@ -4,10 +4,14 @@
   "url": "https://blog.vertistratsolution.com/2026/11/india-has-50-lakh-stray-cattle-and-371.html",
   "slug": "india-has-50-lakh-stray-cattle-and-371",
   "published": "2026-11-10T14:20:24.000+05:30",
-  "updated": "2026-11-10T14:20:24.000+05:30",
-  "labels": [],
-  "bytes": 34299,
-  "sha256": "08132a1c0243a2e9d69fa2cd4066c45cff7f26905541d98448fe79ebf4a87c61",
+  "updated": "2026-11-14T14:22:55.908+05:30",
+  "labels": [
+    "Circularity & Waste-to-Value",
+    "Environment & Clearances",
+    "Livestock & Dairy"
+  ],
+  "bytes": 34307,
+  "sha256": "e1f2f8afed3b01e0110fe6ea8b67b6a0e3e6f806d31a072f927a683a65e060c2",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -41,6 +45,19 @@
         "https://masaladeutsch.blogspot.com/2026/11/india-has-50-lakh-stray-cattle-and-371.html",
         "https://blog.vertistratsolution.com/2026/11/india-has-50-lakh-stray-cattle-and-371.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        34299,
+        34307
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

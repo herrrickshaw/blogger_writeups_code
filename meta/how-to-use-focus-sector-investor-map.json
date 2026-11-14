@@ -4,15 +4,15 @@
   "url": "https://blog.vertistratsolution.com/2026/10/how-to-use-focus-sector-investor-map.html",
   "slug": "how-to-use-focus-sector-investor-map",
   "published": "2026-10-25T07:26:48.000+05:30",
-  "updated": "2026-10-26T09:05:29.000+05:30",
+  "updated": "2026-11-14T12:33:47.312+05:30",
   "labels": [
     "India",
     "Infrastructure & Investment",
     "Markets & Finance",
     "Open-Source Tools & How-To"
   ],
-  "bytes": 26190,
-  "sha256": "8b244b9e466a4af8be3528de26914fbecb5ae80542c34b5a7565f73bc86fd741",
+  "bytes": 26192,
+  "sha256": "8120231c1055c1e523b985a7c0cf347273c399c2399c79fa7e0c448d45c5522d",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.1",
+  "version": "2.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -59,6 +59,19 @@
         "https://masaladeutsch.blogspot.com/2026/10/how-to-use-focus-sector-investor-map.html",
         "https://blog.vertistratsolution.com/2026/10/how-to-use-focus-sector-investor-map.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        26190,
+        26192
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

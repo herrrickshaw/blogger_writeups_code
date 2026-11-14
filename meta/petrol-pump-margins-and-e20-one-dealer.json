@@ -4,14 +4,14 @@
   "url": "https://blog.vertistratsolution.com/2026/10/petrol-pump-margins-and-e20-one-dealer.html",
   "slug": "petrol-pump-margins-and-e20-one-dealer",
   "published": "2026-10-16T10:51:40.000+05:30",
-  "updated": "2026-11-07T08:53:36.000+05:30",
+  "updated": "2026-11-14T12:44:49.586+05:30",
   "labels": [
     "Energy & Fuels",
     "Ethanol & Biofuels",
     "Fuel Retail & Pricing"
   ],
-  "bytes": 53264,
-  "sha256": "29ffb13ee6fb0b19520b48eef4232426152c3fe4def76f5fd12f3ee025c16452",
+  "bytes": 53275,
+  "sha256": "ba883dc3254062168a1045df5fe758a6cd231469eb6fc162c63f917803d78f71",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.3.1",
+  "version": "1.3.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -84,6 +84,19 @@
         "https://masaladeutsch.blogspot.com/2026/10/petrol-pump-margins-and-e20-one-dealer.html",
         "https://blog.vertistratsolution.com/2026/10/petrol-pump-margins-and-e20-one-dealer.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.3.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        53264,
+        53275
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

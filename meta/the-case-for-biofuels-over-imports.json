@@ -4,14 +4,14 @@
   "url": "https://blog.vertistratsolution.com/2026/08/the-case-for-biofuels-over-imports.html",
   "slug": "the-case-for-biofuels-over-imports",
   "published": "2026-08-12T20:16:34.000+05:30",
-  "updated": "2026-11-07T09:02:31.000+05:30",
+  "updated": "2026-11-14T13:23:45.915+05:30",
   "labels": [
     "Chemicals",
     "Energy & Fuels",
     "Refining & Petrochemicals"
   ],
-  "bytes": 32929,
-  "sha256": "2a3fedf42d10e2c400a651f293651cbc9b219200427174c939feb5b2d6e3011a",
+  "bytes": 32945,
+  "sha256": "0bd715f97aed70a03145978af3dbe298949ccdb4c4349f9f53643754f98e3085",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.2.1",
+  "version": "2.2.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -253,6 +253,19 @@
         "https://masaladeutsch.blogspot.com/2026/08/the-case-for-biofuels-over-imports.html",
         "https://blog.vertistratsolution.com/2026/08/the-case-for-biofuels-over-imports.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.2.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        32929,
+        32945
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

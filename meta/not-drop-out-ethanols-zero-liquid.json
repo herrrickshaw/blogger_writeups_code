@@ -4,14 +4,14 @@
   "url": "https://blog.vertistratsolution.com/2026/08/not-drop-out-ethanols-zero-liquid.html",
   "slug": "not-drop-out-ethanols-zero-liquid",
   "published": "2026-08-17T21:43:00.000+05:30",
-  "updated": "2026-11-07T08:52:03.000+05:30",
+  "updated": "2026-11-14T13:18:47.870+05:30",
   "labels": [
     "Energy & Fuels",
     "Environment & Clearances",
     "Ethanol & Biofuels"
   ],
-  "bytes": 48449,
-  "sha256": "eba1bdb1ed42b577258b11f44cc38574e03c3ab2a37b1b18f8900039b8316035",
+  "bytes": 48454,
+  "sha256": "0923329aeac00be6dbb64f703459c68cd262965777870c2067b0cfad673edcf7",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.2.1",
+  "version": "3.2.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -188,6 +188,19 @@
         "https://masaladeutsch.blogspot.com/2026/08/not-drop-out-ethanols-zero-liquid.html",
         "https://blog.vertistratsolution.com/2026/08/not-drop-out-ethanols-zero-liquid.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.2.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        48449,
+        48454
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

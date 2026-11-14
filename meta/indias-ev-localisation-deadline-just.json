@@ -4,14 +4,14 @@
   "url": "https://blog.vertistratsolution.com/2026/09/indias-ev-localisation-deadline-just.html",
   "slug": "indias-ev-localisation-deadline-just",
   "published": "2026-09-15T09:00:40.000+05:30",
-  "updated": "2026-11-09T17:14:26.000+05:30",
+  "updated": "2026-11-14T12:59:42.447+05:30",
   "labels": [
     "Import Substitution",
     "Industrial Policy",
     "Mobility & EV"
   ],
-  "bytes": 30416,
-  "sha256": "610547a79a121fac7fa4741fd18b5dce8cd13985a036a1388a2322e60041c425",
+  "bytes": 30420,
+  "sha256": "eb6329a40551fbb2d671a1468a103ccefe697dfb7a198367fe8f733040d95988",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.1",
+  "version": "3.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -149,6 +149,19 @@
         "https://masaladeutsch.blogspot.com/2026/09/indias-ev-localisation-deadline-just.html",
         "https://blog.vertistratsolution.com/2026/09/indias-ev-localisation-deadline-just.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.0.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        30416,
+        30420
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

@@ -4,13 +4,13 @@
   "url": "https://blog.vertistratsolution.com/2026/10/samudra-manthan-pays-up-to-rs-675-crore.html",
   "slug": "samudra-manthan-pays-up-to-rs-675-crore",
   "published": "2026-10-27T17:26:29.000+05:30",
-  "updated": "2026-11-07T08:57:51.000+05:30",
+  "updated": "2026-11-14T12:30:21.299+05:30",
   "labels": [
     "Energy & Fuels",
     "Gas & LNG"
   ],
-  "bytes": 24516,
-  "sha256": "126159e8a7e20789cf1903234100c63065af3a8d0215cc9876a971085638e20d",
+  "bytes": 24522,
+  "sha256": "a98ee9cad002793041ddd8433cea3be5c9e1f694a55185552dc844891f8304ea",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.1.1",
+  "version": "1.1.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -57,6 +57,19 @@
         "https://masaladeutsch.blogspot.com/2026/10/samudra-manthan-pays-up-to-rs-675-crore.html",
         "https://blog.vertistratsolution.com/2026/10/samudra-manthan-pays-up-to-rs-675-crore.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.1.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        24516,
+        24522
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

@@ -4,13 +4,13 @@
   "url": "https://blog.vertistratsolution.com/2026/07/india-grain-cultivation-fci-storage.html",
   "slug": "india-grain-cultivation-fci-storage",
   "published": "2026-07-31T10:10:00.000+05:30",
-  "updated": "2026-11-07T08:35:41.000+05:30",
+  "updated": "2026-11-14T13:42:27.009+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Grain Procurement & Storage"
   ],
-  "bytes": 89559,
-  "sha256": "0a21af3eca573faa5eb90da1ee6af1883989a69a9ba69e6366ba01506eb0cf85",
+  "bytes": 89562,
+  "sha256": "f11a93e78b70874d63ed0ef32f67568f5ffc76a3286447c53c7316668e7da702",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.2.1",
+  "version": "2.2.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -309,6 +309,19 @@
         "https://masaladeutsch.blogspot.com/2026/07/india-grain-cultivation-fci-storage.html",
         "https://blog.vertistratsolution.com/2026/07/india-grain-cultivation-fci-storage.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.2.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        89559,
+        89562
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

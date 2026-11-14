@@ -4,13 +4,13 @@
   "url": "https://blog.vertistratsolution.com/2026/08/chemical-import-substitution-hsn-8-registry.html",
   "slug": "chemical-import-substitution-hsn-8-registry",
   "published": "2026-08-06T09:07:16.000+05:30",
-  "updated": "2026-11-11T05:45:23.000+05:30",
+  "updated": "2026-11-14T13:31:31.917+05:30",
   "labels": [
     "Chemicals",
     "Import Substitution"
   ],
-  "bytes": 399544,
-  "sha256": "50af0899ec0299bcb251691af7ef05d7c324b046f52c511514a39703bca452ad",
+  "bytes": 399551,
+  "sha256": "822f636a2d2b0ff923f9190fc44c5f954be27efe535bcee75e1bb5eeebc9092d",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "5.0.0",
+  "version": "5.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -331,6 +331,19 @@
         "https://masaladeutsch.blogspot.com/2026/08/chemical-import-substitution-hsn-8-registry.html",
         "https://blog.vertistratsolution.com/2026/08/chemical-import-substitution-hsn-8-registry.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "5.0.1",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        399544,
+        399551
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

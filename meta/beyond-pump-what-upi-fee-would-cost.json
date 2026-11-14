@@ -4,13 +4,13 @@
   "url": "https://blog.vertistratsolution.com/2026/08/beyond-pump-what-upi-fee-would-cost.html",
   "slug": "beyond-pump-what-upi-fee-would-cost",
   "published": "2026-08-08T20:01:53.000+05:30",
-  "updated": "2026-10-18T06:05:10.000+05:30",
+  "updated": "2026-11-14T13:29:07.584+05:30",
   "labels": [
     "Industrial Policy",
     "Markets & Finance"
   ],
-  "bytes": 43412,
-  "sha256": "f1615d2b6be832197dc75db55cd583d21287aecf1b4961a1fec4bde0130eed3d",
+  "bytes": 43416,
+  "sha256": "ad53df1a9bd6ed24e1ddd2e693a9418004c1857540d9421179879c3f0edf16cc",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "5.2.1",
+  "version": "5.2.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -304,6 +304,19 @@
         "https://masaladeutsch.blogspot.com/2026/08/beyond-pump-what-upi-fee-would-cost.html",
         "https://blog.vertistratsolution.com/2026/08/beyond-pump-what-upi-fee-would-cost.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "5.2.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        43412,
+        43416
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

@@ -4,13 +4,13 @@
   "url": "https://blog.vertistratsolution.com/2026/10/how-to-use-blog-consistency-check-is.html",
   "slug": "how-to-use-blog-consistency-check-is",
   "published": "2026-10-19T05:09:18.000+05:30",
-  "updated": "2026-10-23T09:06:24.000+05:30",
+  "updated": "2026-11-14T14:37:17.319+05:30",
   "labels": [
     "Dev & Ops Tools",
     "Open-Source Tools & How-To"
   ],
-  "bytes": 23272,
-  "sha256": "c47405bb40fec094bc8c7a8ad7e21b5ff61f8ddc608c7c9b17cc98139b694db1",
+  "bytes": 23298,
+  "sha256": "7b95b1671ddcde9621706183e6e3ec30410e6caf6fd56c3e001f8bb6c1f045c3",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.2",
+  "version": "1.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -57,6 +57,19 @@
         "https://masaladeutsch.blogspot.com/2026/10/how-to-use-blog-consistency-check-is.html",
         "https://blog.vertistratsolution.com/2026/10/how-to-use-blog-consistency-check-is.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.3",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "wording changed; no figures, sections or claims moved",
+      "bytes": [
+        23272,
+        23298
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

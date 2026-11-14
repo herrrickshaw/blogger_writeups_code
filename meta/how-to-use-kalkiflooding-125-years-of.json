@@ -4,14 +4,14 @@
   "url": "https://blog.vertistratsolution.com/2026/10/how-to-use-kalkiflooding-125-years-of.html",
   "slug": "how-to-use-kalkiflooding-125-years-of",
   "published": "2026-10-19T05:12:25.000+05:30",
-  "updated": "2026-10-29T09:06:59.000+05:30",
+  "updated": "2026-11-14T12:38:57.909+05:30",
   "labels": [
     "Environment & Climate",
     "India",
     "Open-Source Tools & How-To"
   ],
-  "bytes": 21345,
-  "sha256": "7c739aac4eac32f5cb0823209593140a8e2a20f1c52d992b876e6e70d57a0d1b",
+  "bytes": 21347,
+  "sha256": "e49791586b3e7a77b52d38b754b80274b23de64ab2768f475affe13334b9e8fd",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.2",
+  "version": "1.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -58,6 +58,19 @@
         "https://masaladeutsch.blogspot.com/2026/10/how-to-use-kalkiflooding-125-years-of.html",
         "https://blog.vertistratsolution.com/2026/10/how-to-use-kalkiflooding-125-years-of.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.3",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        21345,
+        21347
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

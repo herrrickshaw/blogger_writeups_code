@@ -4,12 +4,12 @@
   "url": "https://blog.vertistratsolution.com/2026/10/indias-petroleum-act-still-fines.html",
   "slug": "indias-petroleum-act-still-fines",
   "published": "2026-10-09T10:10:29.000+05:30",
-  "updated": "2026-11-07T08:47:03.000+05:30",
+  "updated": "2026-11-14T12:48:45.868+05:30",
   "labels": [
     "Energy & Fuels"
   ],
-  "bytes": 20229,
-  "sha256": "c68fb2bcbda50d94e8ea9a553d56cb78a3b5391c42f21ad513b58c8178b76ccb",
+  "bytes": 20236,
+  "sha256": "53450aa918a07fe29c3f4daa3e3ebfb07768dd069fde59154e3a092ee226fe43",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.1.1",
+  "version": "1.1.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -56,6 +56,19 @@
         "https://masaladeutsch.blogspot.com/2026/10/indias-petroleum-act-still-fines.html",
         "https://blog.vertistratsolution.com/2026/10/indias-petroleum-act-still-fines.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.1.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        20229,
+        20236
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

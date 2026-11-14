@@ -4,10 +4,10 @@
   "url": "https://blog.vertistratsolution.com/2026/10/indias-first-seabed-mineral-auction.html",
   "slug": "indias-first-seabed-mineral-auction",
   "published": "2026-10-09T11:07:28.000+05:30",
-  "updated": "2026-11-09T17:14:52.000+05:30",
+  "updated": "2026-11-14T12:48:05.288+05:30",
   "labels": [],
-  "bytes": 24868,
-  "sha256": "d5e93986dd0b5688282149663efc03f4bfa491442c828cf142528b388bb823a2",
+  "bytes": 24874,
+  "sha256": "c59b0e6827e03a0cc61760649b5952bf087560e763a1623393c8a6ac6ae4f215",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.1",
+  "version": "3.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -67,6 +67,19 @@
         "https://masaladeutsch.blogspot.com/2026/10/indias-first-seabed-mineral-auction.html",
         "https://blog.vertistratsolution.com/2026/10/indias-first-seabed-mineral-auction.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.0.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        24868,
+        24874
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

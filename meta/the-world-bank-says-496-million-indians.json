@@ -4,13 +4,13 @@
   "url": "https://blog.vertistratsolution.com/2026/11/the-world-bank-says-496-million-indians.html",
   "slug": "the-world-bank-says-496-million-indians",
   "published": "2026-11-07T06:17:42.000+05:30",
-  "updated": "2026-11-07T06:18:49.000+05:30",
+  "updated": "2026-11-14T12:23:36.965+05:30",
   "labels": [
     "Governance & Institutions",
     "Macroeconomics & Monetary Policy"
   ],
-  "bytes": 25678,
-  "sha256": "75a3cf88f2a059dda14808a9ddae9a717d7bfb2a45979c35087f255bd7ad95b9",
+  "bytes": 25686,
+  "sha256": "e97ef862ef7ccdcf9c465fbaafe0a067d7985223da1c6bbb672a6ae973f39674",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -44,6 +44,19 @@
         "https://masaladeutsch.blogspot.com/2026/11/the-world-bank-says-496-million-indians.html",
         "https://blog.vertistratsolution.com/2026/11/the-world-bank-says-496-million-indians.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        25678,
+        25686
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

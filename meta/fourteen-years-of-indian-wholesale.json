@@ -4,14 +4,14 @@
   "url": "https://blog.vertistratsolution.com/2026/08/fourteen-years-of-indian-wholesale.html",
   "slug": "fourteen-years-of-indian-wholesale",
   "published": "2026-08-05T21:46:29.000+05:30",
-  "updated": "2026-10-23T10:01:09.000+05:30",
+  "updated": "2026-11-14T13:32:02.186+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Energy & Fuels",
     "Prices & Inflation"
   ],
-  "bytes": 33162,
-  "sha256": "add4807cf07acebd6f00c160188adaaf40bc5a3d5aa4ccc927d117f06e0b581f",
+  "bytes": 33166,
+  "sha256": "5aef8767e90b3f9cf5c02f4afddd44a14324b8d19e627054d8e128e75af029a5",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.2.2",
+  "version": "3.2.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -318,6 +318,19 @@
         "https://masaladeutsch.blogspot.com/2026/08/fourteen-years-of-indian-wholesale.html",
         "https://blog.vertistratsolution.com/2026/08/fourteen-years-of-indian-wholesale.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.2.3",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        33162,
+        33166
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

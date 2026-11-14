@@ -4,14 +4,14 @@
   "url": "https://blog.vertistratsolution.com/2026/08/indias-state-incentive-war-gujarats.html",
   "slug": "indias-state-incentive-war-gujarats",
   "published": "2026-08-05T17:18:03.000+05:30",
-  "updated": "2026-11-07T08:48:02.000+05:30",
+  "updated": "2026-11-14T13:32:21.219+05:30",
   "labels": [
     "Industrial Policy",
     "Markets & Finance",
     "State Investment Incentives"
   ],
-  "bytes": 43243,
-  "sha256": "824a564bb69e6138d0804a593ca04a07ae48b00c43dbf354bdafec29b53a0a87",
+  "bytes": 43249,
+  "sha256": "2707bb3a23d92e38b8e2d27d94616c6e6ec38131b4a23a1119d432764e6849b9",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "5.2.1",
+  "version": "5.2.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -340,6 +340,19 @@
         "https://masaladeutsch.blogspot.com/2026/08/indias-state-incentive-war-gujarats.html",
         "https://blog.vertistratsolution.com/2026/08/indias-state-incentive-war-gujarats.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "5.2.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        43243,
+        43249
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

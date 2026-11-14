@@ -4,14 +4,14 @@
   "url": "https://blog.vertistratsolution.com/2026/10/indias-biggest-mandi-crops-have.html",
   "slug": "indias-biggest-mandi-crops-have",
   "published": "2026-10-24T11:36:27.000+05:30",
-  "updated": "2026-10-24T11:36:56.000+05:30",
+  "updated": "2026-11-14T12:34:39.071+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Grain Procurement & Storage",
     "Prices & Inflation"
   ],
-  "bytes": 71059,
-  "sha256": "f51ef4e83a7ec4350663e816da54271ebfef16ef6e8ae295706a7c1005c5bf07",
+  "bytes": 71068,
+  "sha256": "186900995c4f1f656cf68a3f50d0d2cf0ff8d18a587a464eef29aaa8dbfb2202",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -45,6 +45,19 @@
         "https://masaladeutsch.blogspot.com/2026/10/indias-biggest-mandi-crops-have.html",
         "https://blog.vertistratsolution.com/2026/10/indias-biggest-mandi-crops-have.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        71059,
+        71068
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

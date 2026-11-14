@@ -4,14 +4,14 @@
   "url": "https://blog.vertistratsolution.com/2026/09/india-exports-naphtha-and-benzene-its.html",
   "slug": "india-exports-naphtha-and-benzene-its",
   "published": "2026-09-17T06:39:50.000+05:30",
-  "updated": "2026-11-07T08:34:50.000+05:30",
+  "updated": "2026-11-14T12:57:02.808+05:30",
   "labels": [
     "Energy & Fuels",
     "Refining & Petrochemicals",
     "Trade & Tariffs"
   ],
-  "bytes": 26803,
-  "sha256": "6592f3cde53e83f469791b18c9480d57d2e88c7cfa95b0d4315a3c7a9d04ed70",
+  "bytes": 26810,
+  "sha256": "80bc6b8d4e7a99799c2fc3cdd377a31edd10d05983d2963f272fa2e75beb2b2b",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.3.1",
+  "version": "1.3.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -97,6 +97,19 @@
         "https://masaladeutsch.blogspot.com/2026/09/india-exports-naphtha-and-benzene-its.html",
         "https://blog.vertistratsolution.com/2026/09/india-exports-naphtha-and-benzene-its.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.3.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        26803,
+        26810
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

@@ -4,14 +4,14 @@
   "url": "https://blog.vertistratsolution.com/2026/10/how-to-use-bms-battery-management.html",
   "slug": "how-to-use-bms-battery-management",
   "published": "2026-10-18T08:54:46.000+05:30",
-  "updated": "2026-10-20T09:06:19.000+05:30",
+  "updated": "2026-11-14T12:43:47.542+05:30",
   "labels": [
     "Energy & Fuels",
     "Mobility & EV",
     "Open-Source Tools & How-To"
   ],
-  "bytes": 22569,
-  "sha256": "d039e15ce5e06a7fc37d6ff94b9afc88eb9c7fcbbc6b2b32fd4cc7a5323b8780",
+  "bytes": 22571,
+  "sha256": "b21c1465325cefdc20d95536f84214b5bb62fbf911fb39203b784706cd85d8af",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.5",
+  "version": "1.0.6",
   "version_history": [
     {
       "version": "1.0.0",
@@ -97,6 +97,19 @@
         "https://masaladeutsch.blogspot.com/2026/10/how-to-use-bms-battery-management.html",
         "https://blog.vertistratsolution.com/2026/10/how-to-use-bms-battery-management.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.6",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        22569,
+        22571
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

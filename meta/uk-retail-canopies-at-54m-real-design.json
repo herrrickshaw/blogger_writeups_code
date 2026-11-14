@@ -4,13 +4,13 @@
   "url": "https://blog.vertistratsolution.com/2026/08/uk-retail-canopies-at-54m-real-design.html",
   "slug": "uk-retail-canopies-at-54m-real-design",
   "published": "2026-08-30T18:07:20.000+05:30",
-  "updated": "2026-10-01T08:57:58.000+05:30",
+  "updated": "2026-11-14T13:07:14.729+05:30",
   "labels": [
     "Energy & Fuels",
     "Fuel Retail & Pricing"
   ],
-  "bytes": 30753,
-  "sha256": "2e90c5531a9df99a9071450387991a9a85f9735b267ce76c9d80322c59180df3",
+  "bytes": 30757,
+  "sha256": "2e20e4e238774a5fee61e47b6707caf939f46433e76f42761727c1df75d0411b",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.1.1",
+  "version": "1.1.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -122,6 +122,19 @@
         "https://masaladeutsch.blogspot.com/2026/08/uk-retail-canopies-at-54m-real-design.html",
         "https://blog.vertistratsolution.com/2026/08/uk-retail-canopies-at-54m-real-design.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.1.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        30753,
+        30757
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

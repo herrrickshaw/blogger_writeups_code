@@ -4,12 +4,12 @@
   "url": "https://blog.vertistratsolution.com/2026/10/how-to-use-claude-provenance-auditable.html",
   "slug": "how-to-use-claude-provenance-auditable",
   "published": "2026-10-19T05:09:22.000+05:30",
-  "updated": "2026-10-23T09:06:08.000+05:30",
+  "updated": "2026-11-14T12:41:38.548+05:30",
   "labels": [
     "Open-Source Tools & How-To"
   ],
-  "bytes": 24775,
-  "sha256": "b999577286b792d9e3605f36e1d716360bcc0ef2f28f4e8809d8193d4e3f7ad6",
+  "bytes": 24777,
+  "sha256": "ce620b015c4095c0a4aac481396fc659dc162b6d739572f1d2ede0d12756f4e8",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.2",
+  "version": "1.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -56,6 +56,19 @@
         "https://masaladeutsch.blogspot.com/2026/10/how-to-use-claude-provenance-auditable.html",
         "https://blog.vertistratsolution.com/2026/10/how-to-use-claude-provenance-auditable.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.3",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        24775,
+        24777
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

@@ -4,15 +4,15 @@
   "url": "https://blog.vertistratsolution.com/2026/10/how-to-use-coal-to-urea-design.html",
   "slug": "how-to-use-coal-to-urea-design",
   "published": "2026-10-23T06:25:10.000+05:30",
-  "updated": "2026-10-23T09:05:14.000+05:30",
+  "updated": "2026-11-14T12:35:51.081+05:30",
   "labels": [
     "Energy & Fuels",
     "India",
     "Open-Source Tools & How-To",
     "Refining & Petrochemicals"
   ],
-  "bytes": 21561,
-  "sha256": "2993bb69e4d1b71cde7c78e5ffb6e7d6e11914f336053d9756346aea9a6f4e0d",
+  "bytes": 21563,
+  "sha256": "2af65bbdf7a0779946f38ae7fbcbac2bdaad7f7161a7d78f63c08b9407e51358",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.2",
+  "version": "1.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -59,6 +59,19 @@
         "https://masaladeutsch.blogspot.com/2026/10/how-to-use-coal-to-urea-design.html",
         "https://blog.vertistratsolution.com/2026/10/how-to-use-coal-to-urea-design.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.3",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        21561,
+        21563
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

@@ -4,15 +4,15 @@
   "url": "https://blog.vertistratsolution.com/2026/10/india-imported-28-million-of-sucralose.html",
   "slug": "india-imported-28-million-of-sucralose",
   "published": "2026-10-10T19:38:39.000+05:30",
-  "updated": "2026-10-12T12:59:12.000+05:30",
+  "updated": "2026-11-14T12:45:39.028+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Chemicals",
     "Healthcare",
     "Trade & Tariffs"
   ],
-  "bytes": 33355,
-  "sha256": "018c59993555ba94200459bc5d3ee0d6172ef3f0dad790b2246c034409011bf0",
+  "bytes": 33361,
+  "sha256": "c025867e8d254a5ae6921f496458109a7553690bd413aede2bd8cfc6c2b9f8c0",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.2.1",
+  "version": "1.2.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -72,6 +72,19 @@
         "https://masaladeutsch.blogspot.com/2026/10/india-imported-28-million-of-sucralose.html",
         "https://blog.vertistratsolution.com/2026/10/india-imported-28-million-of-sucralose.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.2.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        33355,
+        33361
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

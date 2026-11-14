@@ -4,14 +4,14 @@
   "url": "https://blog.vertistratsolution.com/2026/09/indias-battery-storage-boom-is.html",
   "slug": "indias-battery-storage-boom-is",
   "published": "2026-09-11T21:19:57.000+05:30",
-  "updated": "2026-11-09T17:14:14.000+05:30",
+  "updated": "2026-11-14T13:01:11.256+05:30",
   "labels": [
     "Energy & Fuels",
     "Industrial Policy",
     "Renewable Power & Storage"
   ],
-  "bytes": 51679,
-  "sha256": "45a64e118e7f0bfd6511854487560c302c2268e15a0d9a8d9c62bcefc0aa0e62",
+  "bytes": 51684,
+  "sha256": "a8a3ac3da737e38815ae04472c5eb52d86997744276edf63d53f5d3db2d2fc92",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": true,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.1",
+  "version": "3.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -141,6 +141,19 @@
         "https://masaladeutsch.blogspot.com/2026/09/indias-battery-storage-boom-is.html",
         "https://blog.vertistratsolution.com/2026/09/indias-battery-storage-boom-is.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.0.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        51679,
+        51684
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

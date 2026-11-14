@@ -4,15 +4,15 @@
   "url": "https://blog.vertistratsolution.com/2026/11/from-kerosene-in-diesel-to-ethanol-in.html",
   "slug": "from-kerosene-in-diesel-to-ethanol-in",
   "published": "2026-11-07T17:36:16.000+05:30",
-  "updated": "2026-11-09T17:12:19.000+05:30",
+  "updated": "2026-11-14T12:23:26.678+05:30",
   "labels": [
     "Energy & Fuels",
     "Ethanol & Biofuels",
     "Fuel Retail & Pricing",
     "Governance & Institutions"
   ],
-  "bytes": 43689,
-  "sha256": "19474e6099b5f66c982d33e1733bfcadc1b03e9a103fd2c0b125bd322fd97fb2",
+  "bytes": 43702,
+  "sha256": "622df7abad7d779088929446cf91c8f8e416b1f9e9687223c08e015f0960b09c",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.1",
+  "version": "2.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -59,6 +59,19 @@
         "https://masaladeutsch.blogspot.com/2026/11/from-kerosene-in-diesel-to-ethanol-in.html",
         "https://blog.vertistratsolution.com/2026/11/from-kerosene-in-diesel-to-ethanol-in.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        43689,
+        43702
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

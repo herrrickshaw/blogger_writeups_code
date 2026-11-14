@@ -4,12 +4,12 @@
   "url": "https://blog.vertistratsolution.com/2026/10/indias-factory-intentions-20012024-how_0101046393.html",
   "slug": "indias-factory-intentions-20012024-how_0101046393",
   "published": "2026-10-07T11:49:56.000+05:30",
-  "updated": "2026-10-10T09:51:39.000+05:30",
+  "updated": "2026-11-14T12:48:55.708+05:30",
   "labels": [
     "Industrial Policy"
   ],
-  "bytes": 37180,
-  "sha256": "c3e9fa39e44072c48b4d23a0c759fd0b32974d188a562d05656d369e698f0dd7",
+  "bytes": 37183,
+  "sha256": "a7aedade75208af215a6afc0d8b76d3b9584540fbb5f369fc257b847999e32dc",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "4.0.1",
+  "version": "4.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -95,6 +95,19 @@
         "https://masaladeutsch.blogspot.com/2026/10/indias-factory-intentions-20012024-how_0101046393.html",
         "https://blog.vertistratsolution.com/2026/10/indias-factory-intentions-20012024-how_0101046393.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "4.0.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        37180,
+        37183
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

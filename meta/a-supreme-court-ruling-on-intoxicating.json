@@ -4,12 +4,12 @@
   "url": "https://blog.vertistratsolution.com/2026/09/a-supreme-court-ruling-on-intoxicating.html",
   "slug": "a-supreme-court-ruling-on-intoxicating",
   "published": "2026-09-15T07:55:31.000+05:30",
-  "updated": "2026-10-27T06:26:26.000+05:30",
+  "updated": "2026-11-14T12:59:52.270+05:30",
   "labels": [
     "Energy & Fuels"
   ],
-  "bytes": 24341,
-  "sha256": "2328061cce1800575d05792202bd2ed965c7d6338604a9849dfd908a509610e4",
+  "bytes": 24344,
+  "sha256": "2cd3349cf84cef781680dd3746c6db74ab579aa770c48b22c146f8cb4d9d847a",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.1",
+  "version": "2.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -95,6 +95,19 @@
         "https://masaladeutsch.blogspot.com/2026/09/a-supreme-court-ruling-on-intoxicating.html",
         "https://blog.vertistratsolution.com/2026/09/a-supreme-court-ruling-on-intoxicating.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        24341,
+        24344
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

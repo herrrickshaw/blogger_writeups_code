@@ -4,14 +4,14 @@
   "url": "https://blog.vertistratsolution.com/2026/09/ethanol-freed-up-refinery-capacity-for.html",
   "slug": "ethanol-freed-up-refinery-capacity-for",
   "published": "2026-09-16T13:32:18.000+05:30",
-  "updated": "2026-11-07T08:28:08.000+05:30",
+  "updated": "2026-11-14T12:58:01.504+05:30",
   "labels": [
     "Chemicals",
     "Energy & Fuels",
     "Refining & Petrochemicals"
   ],
-  "bytes": 50341,
-  "sha256": "e589ebc1b608bc7272b803cbf179fded06bcce422ab50b46a85f40fc77fa161a",
+  "bytes": 50351,
+  "sha256": "cc23a1efcbf39a0c8d5780dbedbcc0aac515488dda5c8cc945d3080d4dd6b5a1",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.2.1",
+  "version": "2.2.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -253,6 +253,19 @@
         "https://masaladeutsch.blogspot.com/2026/09/ethanol-freed-up-refinery-capacity-for.html",
         "https://blog.vertistratsolution.com/2026/09/ethanol-freed-up-refinery-capacity-for.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.2.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        50341,
+        50351
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

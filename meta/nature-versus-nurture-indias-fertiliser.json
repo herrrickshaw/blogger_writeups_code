@@ -4,14 +4,14 @@
   "url": "https://blog.vertistratsolution.com/2026/08/nature-versus-nurture-indias-fertiliser.html",
   "slug": "nature-versus-nurture-indias-fertiliser",
   "published": "2026-08-02T21:05:10.000+05:30",
-  "updated": "2026-10-23T10:05:54.000+05:30",
+  "updated": "2026-11-14T13:37:48.768+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Fertilisers & Soil Health",
     "Gas & LNG"
   ],
-  "bytes": 88808,
-  "sha256": "8a2014f7658b3ac4ad61437eebb70dbe6d3b1a2089d85528f56c55a5b2ce17c4",
+  "bytes": 88822,
+  "sha256": "8f888e5b008c886f018fbe00d802c0524853879e12624aa5774cc1ec93c1eb33",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "5.1.2",
+  "version": "5.1.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -318,6 +318,19 @@
         "https://masaladeutsch.blogspot.com/2026/08/nature-versus-nurture-indias-fertiliser.html",
         "https://blog.vertistratsolution.com/2026/08/nature-versus-nurture-indias-fertiliser.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "5.1.3",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        88808,
+        88822
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

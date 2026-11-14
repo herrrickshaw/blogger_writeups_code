@@ -4,12 +4,12 @@
   "url": "https://blog.vertistratsolution.com/2026/08/the-ethanol-sectors-buyers-market.html",
   "slug": "the-ethanol-sectors-buyers-market",
   "published": "2026-08-05T12:13:26.000+05:30",
-  "updated": "2026-11-07T09:03:39.000+05:30",
+  "updated": "2026-11-14T13:33:29.300+05:30",
   "labels": [
     "Agriculture & Fertilisers"
   ],
-  "bytes": 19056,
-  "sha256": "a60ba358777f08329760add12efd5bd757853bfe311b90f19a44bc145334b8c7",
+  "bytes": 19062,
+  "sha256": "4f65ce10946b4fae414c854f5b183b9109efbf060578019dd93d74f13923a456",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": true,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.2.1",
+  "version": "3.2.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -282,6 +282,19 @@
         "https://masaladeutsch.blogspot.com/2026/08/the-ethanol-sectors-buyers-market.html",
         "https://blog.vertistratsolution.com/2026/08/the-ethanol-sectors-buyers-market.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.2.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        19056,
+        19062
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

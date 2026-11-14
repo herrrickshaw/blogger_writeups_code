@@ -4,15 +4,15 @@
   "url": "https://blog.vertistratsolution.com/2026/10/how-to-use-india-omc-fuel-fleet-model.html",
   "slug": "how-to-use-india-omc-fuel-fleet-model",
   "published": "2026-10-19T05:11:36.000+05:30",
-  "updated": "2026-10-29T09:07:47.000+05:30",
+  "updated": "2026-11-14T12:39:46.975+05:30",
   "labels": [
     "Energy & Fuels",
     "Ethanol & Biofuels",
     "India",
     "Open-Source Tools & How-To"
   ],
-  "bytes": 25443,
-  "sha256": "1496534aa47bca46d8279cf58198479d604aa5a252ea8883029db5c2cee33db6",
+  "bytes": 25445,
+  "sha256": "a0685babd4858b26d0e077c063bbeef992cf728fce07f6edde89efbf6237cfea",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.2",
+  "version": "1.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -59,6 +59,19 @@
         "https://masaladeutsch.blogspot.com/2026/10/how-to-use-india-omc-fuel-fleet-model.html",
         "https://blog.vertistratsolution.com/2026/10/how-to-use-india-omc-fuel-fleet-model.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.3",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        25443,
+        25445
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

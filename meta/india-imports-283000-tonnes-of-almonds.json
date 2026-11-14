@@ -4,13 +4,13 @@
   "url": "https://blog.vertistratsolution.com/2026/08/india-imports-283000-tonnes-of-almonds.html",
   "slug": "india-imports-283000-tonnes-of-almonds",
   "published": "2026-08-21T23:00:40.000+05:30",
-  "updated": "2026-11-07T08:37:09.000+05:30",
+  "updated": "2026-11-14T13:15:06.839+05:30",
   "labels": [
     "Trade & Tariffs",
     "Trade Remedies & Antidumping"
   ],
-  "bytes": 36385,
-  "sha256": "a0409f40f6d32b676a9bd7db0bbeaf7b2ceb9b17ee63f3ecb74402cceee3ad1d",
+  "bytes": 36389,
+  "sha256": "1317800344e9327c54502cd40e75a6460e8a00fbbfdb4c4ff72d0149a30c3f51",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.1.1",
+  "version": "3.1.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -187,6 +187,19 @@
         "https://masaladeutsch.blogspot.com/2026/08/india-imports-283000-tonnes-of-almonds.html",
         "https://blog.vertistratsolution.com/2026/08/india-imports-283000-tonnes-of-almonds.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.1.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        36385,
+        36389
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

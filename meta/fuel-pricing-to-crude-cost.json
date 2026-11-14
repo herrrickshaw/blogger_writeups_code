@@ -4,13 +4,13 @@
   "url": "https://blog.vertistratsolution.com/2026/08/fuel-pricing-to-crude-cost.html",
   "slug": "fuel-pricing-to-crude-cost",
   "published": "2026-08-05T08:39:37.000+05:30",
-  "updated": "2026-11-04T18:44:51.000+05:30",
+  "updated": "2026-11-14T13:34:12.407+05:30",
   "labels": [
     "Energy & Fuels",
     "Fuel Retail & Pricing"
   ],
-  "bytes": 90107,
-  "sha256": "e2db2bc00dcbe6eac164e3945c5af14882f43987d51ed341a700355835ed1e6b",
+  "bytes": 90113,
+  "sha256": "d82832c331a591232110d578e6f13e78db551cd3dc526700ed8d42691287bda5",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.3.1",
+  "version": "2.3.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -378,6 +378,19 @@
         "https://masaladeutsch.blogspot.com/2026/08/fuel-pricing-to-crude-cost.html",
         "https://blog.vertistratsolution.com/2026/08/fuel-pricing-to-crude-cost.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.3.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        90107,
+        90113
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

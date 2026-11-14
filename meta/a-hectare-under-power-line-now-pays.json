@@ -4,15 +4,15 @@
   "url": "https://blog.vertistratsolution.com/2026/10/a-hectare-under-power-line-now-pays.html",
   "slug": "a-hectare-under-power-line-now-pays",
   "published": "2026-10-26T14:47:49.000+05:30",
-  "updated": "2026-11-07T08:20:22.000+05:30",
+  "updated": "2026-11-14T12:32:39.191+05:30",
   "labels": [
     "Energy & Fuels",
     "Gas Pipeline Infrastructure & Demand Planning",
     "Infrastructure & Investment",
     "Renewable Power & Storage"
   ],
-  "bytes": 30111,
-  "sha256": "aad0fbfbf7e5d37baa3cc58caf49c66f9d1b3265367bda04b1cc655dbb279bdb",
+  "bytes": 30117,
+  "sha256": "4542b90f967539ab030dd3407c85aa0fee188279c0e0dce395acb82a25ebbae2",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.1.1",
+  "version": "2.1.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -85,6 +85,19 @@
         "https://masaladeutsch.blogspot.com/2026/10/a-hectare-under-power-line-now-pays.html",
         "https://blog.vertistratsolution.com/2026/10/a-hectare-under-power-line-now-pays.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.1.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        30111,
+        30117
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

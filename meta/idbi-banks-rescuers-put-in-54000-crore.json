@@ -4,14 +4,14 @@
   "url": "https://blog.vertistratsolution.com/2026/11/idbi-banks-rescuers-put-in-54000-crore.html",
   "slug": "idbi-banks-rescuers-put-in-54000-crore",
   "published": "2026-11-08T07:36:51.000+05:30",
-  "updated": "2026-11-08T07:38:12.000+05:30",
+  "updated": "2026-11-14T12:23:16.831+05:30",
   "labels": [
     "Governance & Institutions",
     "Macroeconomics & Monetary Policy",
     "Markets & Finance"
   ],
-  "bytes": 26308,
-  "sha256": "5de6921fee26b7fad0222ccde8fac820eb61658a546fe9a4a7a87acf34175994",
+  "bytes": 26315,
+  "sha256": "831e16fe3b30ab1f14d061715d86710a7ffb8a45100954a8c4ecf047b7284a50",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -45,6 +45,19 @@
         "https://masaladeutsch.blogspot.com/2026/11/idbi-banks-rescuers-put-in-54000-crore.html",
         "https://blog.vertistratsolution.com/2026/11/idbi-banks-rescuers-put-in-54000-crore.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        26308,
+        26315
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

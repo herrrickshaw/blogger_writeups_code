@@ -4,13 +4,13 @@
   "url": "https://blog.vertistratsolution.com/2026/09/indias-lng-terminal-rules-changed-twice.html",
   "slug": "indias-lng-terminal-rules-changed-twice",
   "published": "2026-09-01T22:21:11.000+05:30",
-  "updated": "2026-11-07T08:45:23.000+05:30",
+  "updated": "2026-11-14T13:05:38.667+05:30",
   "labels": [
     "Gas & LNG",
     "LNG Plant & Terminal Engineering"
   ],
-  "bytes": 32913,
-  "sha256": "dfb82f39647cb6631c8d478cee240d5991b5b55df9e2dd35bd41fb1c0bdf646a",
+  "bytes": 32917,
+  "sha256": "91e97ab66eb9eedef3f56c0d0979654fff5216ae7b9292a46a4c95cfd5715c14",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.2.1",
+  "version": "1.2.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -122,6 +122,19 @@
         "https://masaladeutsch.blogspot.com/2026/09/indias-lng-terminal-rules-changed-twice.html",
         "https://blog.vertistratsolution.com/2026/09/indias-lng-terminal-rules-changed-twice.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.2.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        32913,
+        32917
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

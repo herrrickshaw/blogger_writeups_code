@@ -4,15 +4,15 @@
   "url": "https://blog.vertistratsolution.com/2026/09/india-imports-60-of-its-cooking-gas.html",
   "slug": "india-imports-60-of-its-cooking-gas",
   "published": "2026-09-27T12:51:20.000+05:30",
-  "updated": "2026-11-07T08:37:20.000+05:30",
+  "updated": "2026-11-14T12:52:38.821+05:30",
   "labels": [
     "Energy & Fuels",
     "Fuel Retail & Pricing",
     "Hydrogen",
     "Import Substitution"
   ],
-  "bytes": 30256,
-  "sha256": "c6049ee19b9329e1df75ccc1763d207925771168ed3e7bdfcf3e1bd7ff429d2b",
+  "bytes": 30264,
+  "sha256": "e73805cf4f100cade9e028dc5f5e21c661af2cb9ddc37f19556ce3f31f943b3c",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.1.1",
+  "version": "1.1.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -72,6 +72,19 @@
         "https://masaladeutsch.blogspot.com/2026/09/india-imports-60-of-its-cooking-gas.html",
         "https://blog.vertistratsolution.com/2026/09/india-imports-60-of-its-cooking-gas.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.1.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        30256,
+        30264
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

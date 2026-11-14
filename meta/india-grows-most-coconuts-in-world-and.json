@@ -4,15 +4,15 @@
   "url": "https://blog.vertistratsolution.com/2026/08/india-grows-most-coconuts-in-world-and.html",
   "slug": "india-grows-most-coconuts-in-world-and",
   "published": "2026-08-24T14:29:35.000+05:30",
-  "updated": "2026-11-07T08:35:53.000+05:30",
+  "updated": "2026-11-14T13:12:09.589+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Cash Crop Export Economics",
     "India",
     "Trade & Tariffs"
   ],
-  "bytes": 32876,
-  "sha256": "0834bd317aaa64a5d91c36adcd31cc856a805210eb17d9c1b87c86d2a72c75bb",
+  "bytes": 32881,
+  "sha256": "5ef98979bd9acc7cb0d25b115ea3df8c4f42a1d35e9e96f57248975ee016195e",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.2.1",
+  "version": "3.2.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -150,6 +150,19 @@
         "https://masaladeutsch.blogspot.com/2026/08/india-grows-most-coconuts-in-world-and.html",
         "https://blog.vertistratsolution.com/2026/08/india-grows-most-coconuts-in-world-and.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.2.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        32876,
+        32881
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

@@ -4,13 +4,13 @@
   "url": "https://blog.vertistratsolution.com/2026/09/abha-covers-93-crore-patients-its.html",
   "slug": "abha-covers-93-crore-patients-its",
   "published": "2026-09-17T06:56:16.000+05:30",
-  "updated": "2026-11-07T08:21:12.000+05:30",
+  "updated": "2026-11-14T12:56:52.855+05:30",
   "labels": [
     "Healthcare",
     "Industrial Policy"
   ],
-  "bytes": 28737,
-  "sha256": "2d129da37810359bb8887ce8dc71811112d7e41bb296193a9ac833bd6fc13600",
+  "bytes": 28742,
+  "sha256": "3727a250e0c5cac9b91b0207a756bd14fe83c8208b37774df616b11ddcd8e7b9",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.1.1",
+  "version": "2.1.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -109,6 +109,19 @@
         "https://masaladeutsch.blogspot.com/2026/09/abha-covers-93-crore-patients-its.html",
         "https://blog.vertistratsolution.com/2026/09/abha-covers-93-crore-patients-its.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.1.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        28737,
+        28742
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

@@ -4,12 +4,12 @@
   "url": "https://blog.vertistratsolution.com/2026/08/vehicles-out-motors-in-indias-chapter.html",
   "slug": "vehicles-out-motors-in-indias-chapter",
   "published": "2026-08-05T12:06:45.000+05:30",
-  "updated": "2026-10-01T08:58:42.000+05:30",
+  "updated": "2026-11-14T13:33:49.030+05:30",
   "labels": [
     "Industrial Policy"
   ],
-  "bytes": 18752,
-  "sha256": "1b582fbe2bc5c660914a2cd58f721a7e92299916e116bc869ff77f0d1905e79c",
+  "bytes": 18756,
+  "sha256": "7102674cc28a9fabfbc2826285a6f9a46db8a9d814d438b732c68e01fa674ee2",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": true,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.1.1",
+  "version": "3.1.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -243,6 +243,19 @@
         "https://masaladeutsch.blogspot.com/2026/08/vehicles-out-motors-in-indias-chapter.html",
         "https://blog.vertistratsolution.com/2026/08/vehicles-out-motors-in-indias-chapter.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.1.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        18752,
+        18756
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

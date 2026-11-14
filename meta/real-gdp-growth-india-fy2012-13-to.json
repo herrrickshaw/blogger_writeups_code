@@ -4,12 +4,12 @@
   "url": "https://blog.vertistratsolution.com/2026/08/real-gdp-growth-india-fy2012-13-to.html",
   "slug": "real-gdp-growth-india-fy2012-13-to",
   "published": "2026-08-02T13:45:39.000+05:30",
-  "updated": "2026-11-04T18:45:47.000+05:30",
+  "updated": "2026-11-14T13:40:44.465+05:30",
   "labels": [
     "Macroeconomics & Monetary Policy"
   ],
-  "bytes": 44318,
-  "sha256": "64f67fee832ccab2012e8b951c56192cde73f95a8f6a2c60f30f59dfd6169d0c",
+  "bytes": 44323,
+  "sha256": "cfd29adc6c013cbde15fc5718bff45873ec2552c90345b4dac219590f2a5747c",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": true,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "4.1.1",
+  "version": "4.1.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -343,6 +343,19 @@
         "https://masaladeutsch.blogspot.com/2026/08/real-gdp-growth-india-fy2012-13-to.html",
         "https://blog.vertistratsolution.com/2026/08/real-gdp-growth-india-fy2012-13-to.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "4.1.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        44318,
+        44323
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

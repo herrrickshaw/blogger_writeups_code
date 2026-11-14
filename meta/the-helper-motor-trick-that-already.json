@@ -4,13 +4,13 @@
   "url": "https://blog.vertistratsolution.com/2026/08/the-helper-motor-trick-that-already.html",
   "slug": "the-helper-motor-trick-that-already",
   "published": "2026-08-30T16:49:04.000+05:30",
-  "updated": "2026-11-07T09:04:35.000+05:30",
+  "updated": "2026-11-14T13:07:34.754+05:30",
   "labels": [
     "Gas & LNG",
     "LNG Plant & Terminal Engineering"
   ],
-  "bytes": 31041,
-  "sha256": "9a76fd5303f1725be3ddf1faf9e2ec0482023207ce8ee480e14cd19b70ac3b53",
+  "bytes": 31045,
+  "sha256": "623461a18530aaf1e2327165e699a92bc17155af648b94a6e9a76fd9ae1cac52",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.2.1",
+  "version": "1.2.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -148,6 +148,19 @@
         "https://masaladeutsch.blogspot.com/2026/08/the-helper-motor-trick-that-already.html",
         "https://blog.vertistratsolution.com/2026/08/the-helper-motor-trick-that-already.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.2.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        31041,
+        31045
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

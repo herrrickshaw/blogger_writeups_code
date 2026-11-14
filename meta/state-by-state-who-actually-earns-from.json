@@ -4,12 +4,12 @@
   "url": "https://blog.vertistratsolution.com/2026/08/state-by-state-who-actually-earns-from.html",
   "slug": "state-by-state-who-actually-earns-from",
   "published": "2026-08-02T17:07:30.000+05:30",
-  "updated": "2026-11-07T08:59:16.000+05:30",
+  "updated": "2026-11-14T13:38:20.152+05:30",
   "labels": [
     "Energy & Fuels"
   ],
-  "bytes": 59960,
-  "sha256": "7a4b0825d0bc4bb5b52d364fc270f06864f5d4bfaa4591f8fdaa8555a6500020",
+  "bytes": 59966,
+  "sha256": "76a141deff297078f3f130ac90ab778b6bae1547ed64c9ce88e5d6497235c3bd",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.3.1",
+  "version": "3.3.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -277,6 +277,19 @@
         "https://masaladeutsch.blogspot.com/2026/08/state-by-state-who-actually-earns-from.html",
         "https://blog.vertistratsolution.com/2026/08/state-by-state-who-actually-earns-from.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.3.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        59960,
+        59966
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

@@ -4,13 +4,13 @@
   "url": "https://blog.vertistratsolution.com/2026/08/re-spinning-charkha.html",
   "slug": "re-spinning-charkha",
   "published": "2026-08-03T10:32:15.000+05:30",
-  "updated": "2026-11-12T22:09:40.000+05:30",
+  "updated": "2026-11-14T13:36:49.474+05:30",
   "labels": [
     "Energy & Fuels",
     "Textiles"
   ],
-  "bytes": 33475,
-  "sha256": "be0fc11788c68d99fac3d424477fada5d324520ed1ee8a8a15286632b7c4e049",
+  "bytes": 33485,
+  "sha256": "8d749755824a9ecd346d6042d0c1ae591176ca10a17df9e4d32a8dcd22a176d9",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.0",
+  "version": "3.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -263,6 +263,19 @@
       "bytes": [
         32374,
         33475
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.0.1",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        33475,
+        33485
       ],
       "url_changed": null,
       "markers_changed": null,

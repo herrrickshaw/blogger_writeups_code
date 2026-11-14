@@ -4,13 +4,13 @@
   "url": "https://blog.vertistratsolution.com/2026/08/india-mineral-oil-hsn-ch27-trade.html",
   "slug": "india-mineral-oil-hsn-ch27-trade",
   "published": "2026-07-30T09:42:00.000+05:30",
-  "updated": "2026-11-07T08:38:08.000+05:30",
+  "updated": "2026-11-14T13:43:18.054+05:30",
   "labels": [
     "Customs & HSN Trade Data",
     "Trade & Tariffs"
   ],
-  "bytes": 113920,
-  "sha256": "291f6dd55500cf2a81d84b9aaec239589edacf5786317566bf800c9cba2ebf30",
+  "bytes": 113923,
+  "sha256": "5f36fe12ff141f7c8f8da5055f3b4b8e8ecc78c28895d27e943843b26065fca2",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.3.1",
+  "version": "3.3.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -365,6 +365,19 @@
         "https://masaladeutsch.blogspot.com/2026/08/india-mineral-oil-hsn-ch27-trade.html",
         "https://blog.vertistratsolution.com/2026/08/india-mineral-oil-hsn-ch27-trade.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.3.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        113920,
+        113923
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

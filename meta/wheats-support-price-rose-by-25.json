@@ -4,14 +4,14 @@
   "url": "https://blog.vertistratsolution.com/2026/10/wheats-support-price-rose-by-25.html",
   "slug": "wheats-support-price-rose-by-25",
   "published": "2026-10-09T11:47:23.000+05:30",
-  "updated": "2026-10-10T09:52:33.000+05:30",
+  "updated": "2026-11-14T12:47:45.426+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Industrial Policy",
     "Trade & Tariffs"
   ],
-  "bytes": 23666,
-  "sha256": "f50c2ef93e6512599dbdd64351f816dc1c3b6c9ec20006b5fb164e61f590b16d",
+  "bytes": 23673,
+  "sha256": "8b949745b8d3ee272ef847892c71461f158821fdd9f448414f2da761ad48cb99",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -45,6 +45,19 @@
         "https://masaladeutsch.blogspot.com/2026/10/wheats-support-price-rose-by-25.html",
         "https://blog.vertistratsolution.com/2026/10/wheats-support-price-rose-by-25.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        23666,
+        23673
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

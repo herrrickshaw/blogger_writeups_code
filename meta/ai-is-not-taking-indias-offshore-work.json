@@ -4,14 +4,14 @@
   "url": "https://blog.vertistratsolution.com/2026/10/ai-is-not-taking-indias-offshore-work.html",
   "slug": "ai-is-not-taking-indias-offshore-work",
   "published": "2026-10-18T08:26:29.000+05:30",
-  "updated": "2026-11-07T08:21:40.000+05:30",
+  "updated": "2026-11-14T12:44:19.659+05:30",
   "labels": [
     "Industrial Policy",
     "Markets & Finance",
     "Scheme Delivery Gap"
   ],
-  "bytes": 58645,
-  "sha256": "c616ed56ea180f1b13bed8d172bfdd89f73ca770a6c3b09de92fd4911c896ebf",
+  "bytes": 58653,
+  "sha256": "ae075587bd84dfb4c6705a1e1f6293342803de9b37a5628e2d29510dc02c0dcd",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.1.1",
+  "version": "2.1.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -71,6 +71,19 @@
         "https://masaladeutsch.blogspot.com/2026/10/ai-is-not-taking-indias-offshore-work.html",
         "https://blog.vertistratsolution.com/2026/10/ai-is-not-taking-indias-offshore-work.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.1.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        58645,
+        58653
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

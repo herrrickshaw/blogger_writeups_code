@@ -4,14 +4,14 @@
   "url": "https://blog.vertistratsolution.com/2026/10/europe-wants-green-steel-it-cant-afford.html",
   "slug": "europe-wants-green-steel-it-cant-afford",
   "published": "2026-10-24T08:16:33.000+05:30",
-  "updated": "2026-10-24T16:58:09.000+05:30",
+  "updated": "2026-11-14T12:35:10.617+05:30",
   "labels": [
     "Climate & Carbon",
     "Industrial Policy",
     "Trade & Tariffs"
   ],
-  "bytes": 47217,
-  "sha256": "36962165d5cbdf15fe163bc7206db18e7a52155e509d31d7a3111b56e1ad9dda",
+  "bytes": 47226,
+  "sha256": "59477292b6bf6ee216b86ac1f567fefc805c309c3564211a93bea090b51e741f",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.1.1",
+  "version": "1.1.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -58,6 +58,19 @@
         "https://masaladeutsch.blogspot.com/2026/10/europe-wants-green-steel-it-cant-afford.html",
         "https://blog.vertistratsolution.com/2026/10/europe-wants-green-steel-it-cant-afford.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.1.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        47217,
+        47226
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

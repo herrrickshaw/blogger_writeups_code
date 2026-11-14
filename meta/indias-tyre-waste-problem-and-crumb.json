@@ -4,13 +4,13 @@
   "url": "https://blog.vertistratsolution.com/2026/08/indias-tyre-waste-problem-and-crumb.html",
   "slug": "indias-tyre-waste-problem-and-crumb",
   "published": "2026-08-05T14:30:35.000+05:30",
-  "updated": "2026-11-07T08:49:07.000+05:30",
+  "updated": "2026-11-14T13:33:09.729+05:30",
   "labels": [
     "Quality Standards & Certification",
     "Trade & Tariffs"
   ],
-  "bytes": 22566,
-  "sha256": "1364ed9905e1f8c53027a47b0d1531e7c71a15e88f342d1b7004dbbb43276be5",
+  "bytes": 22569,
+  "sha256": "3b6ec3486a9a7b44f1980a4f817c2f0aa0b84d4dbc6fc442840be613cb571bf0",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": true,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.2.1",
+  "version": "2.2.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -257,6 +257,19 @@
         "https://masaladeutsch.blogspot.com/2026/08/indias-tyre-waste-problem-and-crumb.html",
         "https://blog.vertistratsolution.com/2026/08/indias-tyre-waste-problem-and-crumb.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.2.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        22566,
+        22569
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

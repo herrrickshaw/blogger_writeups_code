@@ -4,14 +4,14 @@
   "url": "https://blog.vertistratsolution.com/2026/10/how-to-use-pricepredictionbacktest.html",
   "slug": "how-to-use-pricepredictionbacktest",
   "published": "2026-10-19T05:14:31.000+05:30",
-  "updated": "2026-10-31T09:06:10.000+05:30",
+  "updated": "2026-11-14T12:37:46.351+05:30",
   "labels": [
     "Equity Markets & Stock Screening",
     "Markets & Finance",
     "Open-Source Tools & How-To"
   ],
-  "bytes": 28937,
-  "sha256": "f9fdad4d780d0ff96e302f4722a7695dd418167cf4097f05ffbcf72bd8865d7e",
+  "bytes": 28939,
+  "sha256": "c2bb530a288a9a64c63d9f2f650c35cc9ba2d2d2eb068950cf1ad0633a024d26",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.2",
+  "version": "1.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -58,6 +58,19 @@
         "https://masaladeutsch.blogspot.com/2026/10/how-to-use-pricepredictionbacktest.html",
         "https://blog.vertistratsolution.com/2026/10/how-to-use-pricepredictionbacktest.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.3",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        28937,
+        28939
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

@@ -4,14 +4,14 @@
   "url": "https://blog.vertistratsolution.com/2026/08/574-gw-and-counting-indias-wind-fleet.html",
   "slug": "574-gw-and-counting-indias-wind-fleet",
   "published": "2026-08-21T04:04:01.000+05:30",
-  "updated": "2026-11-07T08:19:54.000+05:30",
+  "updated": "2026-11-14T13:15:38.525+05:30",
   "labels": [
     "Energy & Fuels",
     "India Trade & Policy",
     "Renewable Power & Storage"
   ],
-  "bytes": 29928,
-  "sha256": "e06ac5f6120cd282e529da2665bb0eff8e372c2371660ca7d7d29aeca4177de0",
+  "bytes": 29933,
+  "sha256": "b3ef333eab1244d490afae0d3d4db897acba2d49bb9eb38bb826785366a86234",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "5.1.1",
+  "version": "5.1.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -214,6 +214,19 @@
         "https://masaladeutsch.blogspot.com/2026/08/574-gw-and-counting-indias-wind-fleet.html",
         "https://blog.vertistratsolution.com/2026/08/574-gw-and-counting-indias-wind-fleet.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "5.1.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        29928,
+        29933
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

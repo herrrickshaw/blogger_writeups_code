@@ -4,13 +4,13 @@
   "url": "https://blog.vertistratsolution.com/2026/08/the-balkan-relish-india-already-has.html",
   "slug": "the-balkan-relish-india-already-has",
   "published": "2026-08-20T12:14:58.000+05:30",
-  "updated": "2026-10-09T11:56:00.000+05:30",
+  "updated": "2026-11-14T13:16:07.894+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Import Substitution"
   ],
-  "bytes": 27161,
-  "sha256": "55b4029c9c62a2af776a14e935aadc357ef78126f09d754baa65e0fdd322ff68",
+  "bytes": 27165,
+  "sha256": "a320703a34da9d29ec5194775911b356bf598be58d0bf36c5c2b2beb27faf863",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.1",
+  "version": "2.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -135,6 +135,19 @@
         "https://masaladeutsch.blogspot.com/2026/08/the-balkan-relish-india-already-has.html",
         "https://blog.vertistratsolution.com/2026/08/the-balkan-relish-india-already-has.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        27161,
+        27165
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

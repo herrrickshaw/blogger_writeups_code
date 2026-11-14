@@ -4,14 +4,14 @@
   "url": "https://blog.vertistratsolution.com/2026/08/where-india-actually-burns-its-fuel.html",
   "slug": "where-india-actually-burns-its-fuel",
   "published": "2026-08-08T16:55:16.000+05:30",
-  "updated": "2026-10-01T09:00:12.000+05:30",
+  "updated": "2026-11-14T13:29:37.195+05:30",
   "labels": [
     "Energy & Fuels",
     "Mobility & EV",
     "Prices & Inflation"
   ],
-  "bytes": 29489,
-  "sha256": "96edb0e1ad2f71ae5bbce21dc40183ec9f573d21d4eb2c010fcb3842052c0b37",
+  "bytes": 29494,
+  "sha256": "824757676cf1253004f1448ff183b6c4bcfb70e6b76e3e08979315fd99bd00dd",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.1.1",
+  "version": "2.1.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -253,6 +253,19 @@
         "https://masaladeutsch.blogspot.com/2026/08/where-india-actually-burns-its-fuel.html",
         "https://blog.vertistratsolution.com/2026/08/where-india-actually-burns-its-fuel.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.1.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        29489,
+        29494
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

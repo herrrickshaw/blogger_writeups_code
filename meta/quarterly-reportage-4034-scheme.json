@@ -4,13 +4,13 @@
   "url": "https://blog.vertistratsolution.com/2026/08/quarterly-reportage-4034-scheme.html",
   "slug": "quarterly-reportage-4034-scheme",
   "published": "2026-08-04T13:58:09.000+05:30",
-  "updated": "2026-11-09T17:27:42.000+05:30",
+  "updated": "2026-11-14T13:35:38.089+05:30",
   "labels": [
     "Industrial Policy",
     "Parliamentary Scheme Tracking"
   ],
-  "bytes": 562707,
-  "sha256": "204b7186eb71668d6fb354a2d811aabd81fba9a20a3d50fb067a1208754dcc2e",
+  "bytes": 562711,
+  "sha256": "566c517ed7d113bc0f096a57f4146f1c308cd1f87a567b9439699e5ee5cec723",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": true,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.1",
+  "version": "3.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -331,6 +331,19 @@
         "https://masaladeutsch.blogspot.com/2026/08/quarterly-reportage-4034-scheme.html",
         "https://blog.vertistratsolution.com/2026/08/quarterly-reportage-4034-scheme.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.0.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        562707,
+        562711
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

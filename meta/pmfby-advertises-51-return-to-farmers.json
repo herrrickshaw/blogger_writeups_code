@@ -4,14 +4,14 @@
   "url": "https://blog.vertistratsolution.com/2026/09/pmfby-advertises-51-return-to-farmers.html",
   "slug": "pmfby-advertises-51-return-to-farmers",
   "published": "2026-09-19T07:57:35.000+05:30",
-  "updated": "2026-09-27T10:57:13.000+05:30",
+  "updated": "2026-11-14T12:54:54.583+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Crop Insurance & Risk",
     "Industrial Policy"
   ],
-  "bytes": 16201,
-  "sha256": "e49c5760084e63654c6a10f370ae726b9274746a5e4295bd0b503415c0dfb18d",
+  "bytes": 16206,
+  "sha256": "8ce01bfae6a6b984edeb975c6591447db2cacddfc68c6bf5fdcb5ec0454045fe",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.1",
+  "version": "2.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -58,6 +58,19 @@
         "https://masaladeutsch.blogspot.com/2026/09/pmfby-advertises-51-return-to-farmers.html",
         "https://blog.vertistratsolution.com/2026/09/pmfby-advertises-51-return-to-farmers.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        16201,
+        16206
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

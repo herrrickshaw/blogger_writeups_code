@@ -4,14 +4,14 @@
   "url": "https://blog.vertistratsolution.com/2026/10/how-to-use-gazette-translated-indexed.html",
   "slug": "how-to-use-gazette-translated-indexed",
   "published": "2026-10-19T05:11:28.000+05:30",
-  "updated": "2026-10-26T09:05:59.000+05:30",
+  "updated": "2026-11-14T12:40:26.893+05:30",
   "labels": [
     "India",
     "Infrastructure & Investment",
     "Open-Source Tools & How-To"
   ],
-  "bytes": 24961,
-  "sha256": "590e0fcfd7793c16310fdc06c20ff84dc4388434ab95f6f266220c6e47a77889",
+  "bytes": 24963,
+  "sha256": "2402516d874a5755b3b11f93ee16bd16eb467452ddf324456b1ff1145982fe24",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.1",
+  "version": "2.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -58,6 +58,19 @@
         "https://masaladeutsch.blogspot.com/2026/10/how-to-use-gazette-translated-indexed.html",
         "https://blog.vertistratsolution.com/2026/10/how-to-use-gazette-translated-indexed.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        24961,
+        24963
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

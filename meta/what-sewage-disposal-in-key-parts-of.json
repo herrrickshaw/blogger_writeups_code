@@ -4,12 +4,12 @@
   "url": "https://blog.vertistratsolution.com/2026/09/what-sewage-disposal-in-key-parts-of.html",
   "slug": "what-sewage-disposal-in-key-parts-of",
   "published": "2026-09-03T06:14:39.000+05:30",
-  "updated": "2026-10-27T15:18:25.000+05:30",
+  "updated": "2026-11-14T13:04:19.373+05:30",
   "labels": [
     "Energy & Fuels"
   ],
-  "bytes": 52504,
-  "sha256": "355f0a6e0401e400d0254d750bac9ffe552a58f9ecce8758cf97027f448019fc",
+  "bytes": 52507,
+  "sha256": "22657f01fe15191445270b8f618384b44d2072dbc30b9bc025f037e43f917c46",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.1",
+  "version": "3.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -147,6 +147,19 @@
         "https://masaladeutsch.blogspot.com/2026/09/what-sewage-disposal-in-key-parts-of.html",
         "https://blog.vertistratsolution.com/2026/09/what-sewage-disposal-in-key-parts-of.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.0.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        52504,
+        52507
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

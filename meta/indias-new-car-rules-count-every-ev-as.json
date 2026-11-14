@@ -4,14 +4,14 @@
   "url": "https://blog.vertistratsolution.com/2026/10/indias-new-car-rules-count-every-ev-as.html",
   "slug": "indias-new-car-rules-count-every-ev-as",
   "published": "2026-10-02T09:04:39.000+05:30",
-  "updated": "2026-11-09T17:15:16.000+05:30",
+  "updated": "2026-11-14T12:50:04.225+05:30",
   "labels": [
     "Climate & Carbon",
     "Energy & Fuels",
     "Mobility & EV"
   ],
-  "bytes": 34967,
-  "sha256": "e85d88ee46de2045bf27ef44601d0d5da2c164da44479360cbb203dfa1cee587",
+  "bytes": 34973,
+  "sha256": "fa90307486ed089dd76c77512f2d195df5419a2defb523ef285609831cd22e39",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.1",
+  "version": "2.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -58,6 +58,19 @@
         "https://masaladeutsch.blogspot.com/2026/10/indias-new-car-rules-count-every-ev-as.html",
         "https://blog.vertistratsolution.com/2026/10/indias-new-car-rules-count-every-ev-as.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        34967,
+        34973
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

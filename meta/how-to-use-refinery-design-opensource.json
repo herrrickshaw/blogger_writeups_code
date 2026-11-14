@@ -4,15 +4,15 @@
   "url": "https://blog.vertistratsolution.com/2026/10/how-to-use-refinery-design-opensource.html",
   "slug": "how-to-use-refinery-design-opensource",
   "published": "2026-10-30T09:26:32.000+05:30",
-  "updated": "2026-10-31T09:05:47.000+05:30",
+  "updated": "2026-11-14T12:26:12.880+05:30",
   "labels": [
     "Energy & Fuels",
     "India",
     "Open-Source Tools & How-To",
     "Refining & Petrochemicals"
   ],
-  "bytes": 22445,
-  "sha256": "dea1e775f750039f2c0456574065be7d67d20264b55cb99738551f880ca2a680",
+  "bytes": 22447,
+  "sha256": "b8b9002734022712e127db0daec8812866ad6ca5acddda73a94fe49274ecff46",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.2",
+  "version": "1.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -59,6 +59,19 @@
         "https://masaladeutsch.blogspot.com/2026/10/how-to-use-refinery-design-opensource.html",
         "https://blog.vertistratsolution.com/2026/10/how-to-use-refinery-design-opensource.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.3",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        22445,
+        22447
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

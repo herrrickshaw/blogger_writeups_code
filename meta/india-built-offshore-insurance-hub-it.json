@@ -4,13 +4,13 @@
   "url": "https://blog.vertistratsolution.com/2026/09/india-built-offshore-insurance-hub-it.html",
   "slug": "india-built-offshore-insurance-hub-it",
   "published": "2026-09-18T17:56:33.000+05:30",
-  "updated": "2026-11-07T08:34:24.000+05:30",
+  "updated": "2026-11-14T12:55:52.544+05:30",
   "labels": [
     "Insurance & Reinsurance",
     "Markets & Finance"
   ],
-  "bytes": 19197,
-  "sha256": "00fce31e7b4ec691255f3b0d14973a1b36cb602cffae50f7a3add49c48c7589b",
+  "bytes": 19203,
+  "sha256": "9a1b633e009d5401e01c3f415918001e890fbac79c5f2d5ef70ad9658695753b",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.3.1",
+  "version": "1.3.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -83,6 +83,19 @@
         "https://masaladeutsch.blogspot.com/2026/09/india-built-offshore-insurance-hub-it.html",
         "https://blog.vertistratsolution.com/2026/09/india-built-offshore-insurance-hub-it.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.3.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        19197,
+        19203
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

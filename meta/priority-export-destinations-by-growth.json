@@ -4,12 +4,12 @@
   "url": "https://blog.vertistratsolution.com/2026/08/priority-export-destinations-by-growth.html",
   "slug": "priority-export-destinations-by-growth",
   "published": "2026-08-02T13:49:40.000+05:30",
-  "updated": "2026-11-07T08:55:17.000+05:30",
+  "updated": "2026-11-14T13:40:15.008+05:30",
   "labels": [
     "Trade & Tariffs"
   ],
-  "bytes": 45614,
-  "sha256": "40909630d16b041ececfaf1728103133ea2058a754cd11b92f71f6208702ffe1",
+  "bytes": 45618,
+  "sha256": "dd995384b3054b1d869e298ee10e1af1158936f05ebfdde568f3398763f1374f",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.4.1",
+  "version": "3.4.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -321,6 +321,19 @@
         "https://masaladeutsch.blogspot.com/2026/08/priority-export-destinations-by-growth.html",
         "https://blog.vertistratsolution.com/2026/08/priority-export-destinations-by-growth.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.4.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        45614,
+        45618
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

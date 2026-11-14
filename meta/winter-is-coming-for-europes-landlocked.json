@@ -4,15 +4,15 @@
   "url": "https://blog.vertistratsolution.com/2026/08/winter-is-coming-for-europes-landlocked.html",
   "slug": "winter-is-coming-for-europes-landlocked",
   "published": "2026-08-22T08:38:34.000+05:30",
-  "updated": "2026-11-07T09:11:27.000+05:30",
+  "updated": "2026-11-14T13:14:46.526+05:30",
   "labels": [
     "Energy & Fuels",
     "Gas & LNG",
     "Global LNG Markets",
     "Norway"
   ],
-  "bytes": 71539,
-  "sha256": "1f6e20cee027f237736004bb4d71e9dedadfb8d61d7f88f55c9bc9b4b3068196",
+  "bytes": 71543,
+  "sha256": "e01cb12a798d5cde95190945ec1a13124ab5000e00cd212b0768adf7e4e023ad",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.2.1",
+  "version": "1.2.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -163,6 +163,19 @@
         "https://masaladeutsch.blogspot.com/2026/08/winter-is-coming-for-europes-landlocked.html",
         "https://blog.vertistratsolution.com/2026/08/winter-is-coming-for-europes-landlocked.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.2.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        71539,
+        71543
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

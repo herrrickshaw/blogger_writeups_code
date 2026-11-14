@@ -4,10 +4,10 @@
   "url": "https://blog.vertistratsolution.com/2026/10/indias-old-factory-index-said.html",
   "slug": "indias-old-factory-index-said",
   "published": "2026-10-09T10:10:39.000+05:30",
-  "updated": "2026-10-09T10:10:39.000+05:30",
+  "updated": "2026-11-14T12:48:35.899+05:30",
   "labels": [],
-  "bytes": 26636,
-  "sha256": "b0c5047ee98369a38b6610a1ef8c9f24f851d7354411233d1320c2bc2aca31a5",
+  "bytes": 26643,
+  "sha256": "430193e8f6f6c97527dfd57f31242a964bb24a710307b0526b1f57cb9b360981",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -41,6 +41,19 @@
         "https://masaladeutsch.blogspot.com/2026/10/indias-old-factory-index-said.html",
         "https://blog.vertistratsolution.com/2026/10/indias-old-factory-index-said.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        26636,
+        26643
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

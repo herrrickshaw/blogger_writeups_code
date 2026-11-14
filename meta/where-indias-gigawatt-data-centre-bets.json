@@ -4,13 +4,13 @@
   "url": "https://blog.vertistratsolution.com/2026/08/where-indias-gigawatt-data-centre-bets.html",
   "slug": "where-indias-gigawatt-data-centre-bets",
   "published": "2026-08-20T21:16:29.000+05:30",
-  "updated": "2026-11-04T18:46:19.000+05:30",
+  "updated": "2026-11-14T13:15:48.400+05:30",
   "labels": [
     "Data Centres & AI Infra",
     "Infrastructure & Investment"
   ],
-  "bytes": 28801,
-  "sha256": "62701741e686621e01fdfd4c9a30d658d4916305167edeedac7b6d012c598331",
+  "bytes": 28806,
+  "sha256": "c1413195b73adb8b7085fd0c770ac1d1806274e748d43b3fe6a65bc9ae2c46b8",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.2.1",
+  "version": "2.2.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -148,6 +148,19 @@
         "https://masaladeutsch.blogspot.com/2026/08/where-indias-gigawatt-data-centre-bets.html",
         "https://blog.vertistratsolution.com/2026/08/where-indias-gigawatt-data-centre-bets.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.2.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        28801,
+        28806
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

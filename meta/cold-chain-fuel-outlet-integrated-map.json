@@ -4,14 +4,14 @@
   "url": "https://blog.vertistratsolution.com/2026/07/cold-chain-fuel-outlet-integrated-map.html",
   "slug": "cold-chain-fuel-outlet-integrated-map",
   "published": "2026-07-22T05:30:00.000+05:30",
-  "updated": "2026-11-07T08:25:33.000+05:30",
+  "updated": "2026-11-14T13:45:16.931+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "City Gas Distribution",
     "Gas & LNG"
   ],
-  "bytes": 23135,
-  "sha256": "15974bc7a2862280e7e547b706a13b74fdef0e428ad3008a4858e5133607ef86",
+  "bytes": 23140,
+  "sha256": "fb7ad297b58addbbf900528211606f8df598d58c147a515865206cea5005ec67",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,13 +23,26 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "version_history": [
     {
       "version": "1.0.0",
       "date": "2026-11-13T03:39:53+05:30",
       "level": "initial",
       "reason": "first snapshot",
+      "note": ""
+    },
+    {
+      "version": "1.0.1",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        23135,
+        23140
+      ],
+      "url_changed": null,
+      "markers_changed": null,
       "note": ""
     }
   ]

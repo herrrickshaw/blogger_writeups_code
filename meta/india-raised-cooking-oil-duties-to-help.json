@@ -4,14 +4,14 @@
   "url": "https://blog.vertistratsolution.com/2026/10/india-raised-cooking-oil-duties-to-help.html",
   "slug": "india-raised-cooking-oil-duties-to-help",
   "published": "2026-10-09T11:15:49.000+05:30",
-  "updated": "2026-11-09T17:13:41.000+05:30",
+  "updated": "2026-11-14T12:47:55.352+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Energy & Fuels",
     "Trade & Tariffs"
   ],
-  "bytes": 26803,
-  "sha256": "53b3b8012e61bcf2c2b1c606b75f8d1fef58b065762c314936b358889bffea80",
+  "bytes": 26809,
+  "sha256": "448baf87121adc5e34a51afa39097fc7df544b156acab5845ec7a1601c4ba537",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.1",
+  "version": "3.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -71,6 +71,19 @@
         "https://masaladeutsch.blogspot.com/2026/10/india-raised-cooking-oil-duties-to-help.html",
         "https://blog.vertistratsolution.com/2026/10/india-raised-cooking-oil-duties-to-help.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.0.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        26803,
+        26809
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

@@ -4,15 +4,15 @@
   "url": "https://blog.vertistratsolution.com/2026/10/how-to-use-fuel-retail-outlets-see.html",
   "slug": "how-to-use-fuel-retail-outlets-see",
   "published": "2026-10-25T07:26:49.000+05:30",
-  "updated": "2026-10-26T09:05:20.000+05:30",
+  "updated": "2026-11-14T12:33:37.451+05:30",
   "labels": [
     "Energy & Fuels",
     "India",
     "Mobility & EV",
     "Open-Source Tools & How-To"
   ],
-  "bytes": 25605,
-  "sha256": "18ca54ea77259ce14b644244f5183c65c9ba7bce38b759c4896b8b7c0f21dada",
+  "bytes": 25607,
+  "sha256": "7a78df5c871fa1e36717f1423c92ea67a591b8d06e4e62705c86f850b289e284",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.1",
+  "version": "2.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -59,6 +59,19 @@
         "https://masaladeutsch.blogspot.com/2026/10/how-to-use-fuel-retail-outlets-see.html",
         "https://blog.vertistratsolution.com/2026/10/how-to-use-fuel-retail-outlets-see.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        25605,
+        25607
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

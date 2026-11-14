@@ -4,15 +4,15 @@
   "url": "https://blog.vertistratsolution.com/2026/08/europe-bought-record-amount-of-lng-and.html",
   "slug": "europe-bought-record-amount-of-lng-and",
   "published": "2026-08-08T10:31:50.000+05:30",
-  "updated": "2026-11-07T08:28:25.000+05:30",
+  "updated": "2026-11-14T13:30:25.813+05:30",
   "labels": [
     "Gas & LNG",
     "Global LNG Markets",
     "Industrial Policy",
     "Trade & Tariffs"
   ],
-  "bytes": 47132,
-  "sha256": "a2e59005a39b6ceebff1cea3ce6559708a6b086a68fcf0c5f851633ce5fa4a45",
+  "bytes": 47144,
+  "sha256": "8c368d21e89674a957314103fa769932e4c8892914e9a6f8524347da249c384a",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "9.1.1",
+  "version": "9.1.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -358,6 +358,19 @@
         "https://masaladeutsch.blogspot.com/2026/08/europe-bought-record-amount-of-lng-and.html",
         "https://blog.vertistratsolution.com/2026/08/europe-bought-record-amount-of-lng-and.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "9.1.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        47132,
+        47144
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

@@ -4,12 +4,12 @@
   "url": "https://blog.vertistratsolution.com/2026/07/textile-hsn-deep-dive-apparel-vs-mmf.html",
   "slug": "textile-hsn-deep-dive-apparel-vs-mmf",
   "published": "2026-07-28T05:30:00.000+05:30",
-  "updated": "2026-11-07T09:01:09.000+05:30",
+  "updated": "2026-11-14T13:43:38.283+05:30",
   "labels": [
     "Textiles"
   ],
-  "bytes": 23254,
-  "sha256": "efd0c920aa6c1d80a9cc42dbf1529a035b208fd28e168cffad15bbcf6bd7bf49",
+  "bytes": 23259,
+  "sha256": "4653776d9fb8f9fbf6beda9d78a3325ff96de098fd638eaf22da3b02b5240813",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.2.1",
+  "version": "1.2.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -69,6 +69,19 @@
         "https://masaladeutsch.blogspot.com/2026/07/textile-hsn-deep-dive-apparel-vs-mmf.html",
         "https://blog.vertistratsolution.com/2026/07/textile-hsn-deep-dive-apparel-vs-mmf.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.2.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        23254,
+        23259
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

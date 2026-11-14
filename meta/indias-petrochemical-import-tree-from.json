@@ -4,15 +4,15 @@
   "url": "https://blog.vertistratsolution.com/2026/07/indias-petrochemical-import-tree-from.html",
   "slug": "indias-petrochemical-import-tree-from",
   "published": "2026-07-24T05:30:00.000+05:30",
-  "updated": "2026-10-01T08:37:06.000+05:30",
+  "updated": "2026-11-14T13:44:07.870+05:30",
   "labels": [
     "Chemicals",
     "Customs & HSN Trade Data",
     "Energy & Fuels",
     "Trade & Tariffs"
   ],
-  "bytes": 32989,
-  "sha256": "c6809031b690610ffc70506564dcd627177827c0168a4b3a8a96d1b5eda5ef33",
+  "bytes": 32993,
+  "sha256": "1385004ccb749782a1cfd5b005f86cf1dd2127f772e9bea96d06d97bb48b4921",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": true,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.1.1",
+  "version": "1.1.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -59,6 +59,19 @@
         "https://masaladeutsch.blogspot.com/2026/07/indias-petrochemical-import-tree-from.html",
         "https://blog.vertistratsolution.com/2026/07/indias-petrochemical-import-tree-from.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.1.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        32989,
+        32993
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

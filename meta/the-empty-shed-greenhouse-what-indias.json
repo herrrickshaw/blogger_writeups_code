@@ -4,12 +4,12 @@
   "url": "https://blog.vertistratsolution.com/2026/08/the-empty-shed-greenhouse-what-indias.html",
   "slug": "the-empty-shed-greenhouse-what-indias",
   "published": "2026-08-05T14:59:21.000+05:30",
-  "updated": "2026-10-01T08:52:46.000+05:30",
+  "updated": "2026-11-14T13:32:50.677+05:30",
   "labels": [
     "Agriculture & Fertilisers"
   ],
-  "bytes": 16454,
-  "sha256": "f9b382df951db5d1f0c672d09c164af427657d311f466b376348b81b7ab516e9",
+  "bytes": 16458,
+  "sha256": "66ca0b69687ac2aeeaac73457de1f1b53aeacd60957a61b5be957df72cd53851",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.1.1",
+  "version": "2.1.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -226,6 +226,19 @@
         "https://masaladeutsch.blogspot.com/2026/08/the-empty-shed-greenhouse-what-indias.html",
         "https://blog.vertistratsolution.com/2026/08/the-empty-shed-greenhouse-what-indias.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.1.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        16454,
+        16458
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

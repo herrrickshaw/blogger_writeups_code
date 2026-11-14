@@ -4,15 +4,15 @@
   "url": "https://blog.vertistratsolution.com/2026/08/nano-urea-works-as-supplement-and-fails.html",
   "slug": "nano-urea-works-as-supplement-and-fails",
   "published": "2026-08-23T04:38:11.000+05:30",
-  "updated": "2026-11-07T08:51:18.000+05:30",
+  "updated": "2026-11-14T13:13:47.754+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Fertilisers & Soil Health",
     "India",
     "Industrial Policy"
   ],
-  "bytes": 29771,
-  "sha256": "0e3d2fe74e108ea682c607bbf51c8c310dfdfda4e817cb8a46aa16b9f3efa05f",
+  "bytes": 29774,
+  "sha256": "cad0983c80ea9902e9b2057d6042290f9a62302ae5bd560e12e7ddd5e1e0b011",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.2.1",
+  "version": "2.2.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -124,6 +124,19 @@
         "https://masaladeutsch.blogspot.com/2026/08/nano-urea-works-as-supplement-and-fails.html",
         "https://blog.vertistratsolution.com/2026/08/nano-urea-works-as-supplement-and-fails.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.2.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        29771,
+        29774
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

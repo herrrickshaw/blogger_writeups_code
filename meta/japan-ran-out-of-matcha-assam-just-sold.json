@@ -4,15 +4,15 @@
   "url": "https://blog.vertistratsolution.com/2026/08/japan-ran-out-of-matcha-assam-just-sold.html",
   "slug": "japan-ran-out-of-matcha-assam-just-sold",
   "published": "2026-08-23T05:48:49.000+05:30",
-  "updated": "2026-11-07T08:49:49.000+05:30",
+  "updated": "2026-11-14T13:13:19.033+05:30",
   "labels": [
     "Agriculture & Food Processing",
     "Cash Crop Export Economics",
     "India",
     "Trade & Tariffs"
   ],
-  "bytes": 36593,
-  "sha256": "9ec38f38ff49f8259a3c2a2539e50c9e62024876b893aa35829d44e8dfe054cb",
+  "bytes": 36599,
+  "sha256": "80116b037b9264b18d3bc391569ab8a16db7844a765a36eb3b249358f885dbfc",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.2.1",
+  "version": "3.2.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -137,6 +137,19 @@
         "https://masaladeutsch.blogspot.com/2026/08/japan-ran-out-of-matcha-assam-just-sold.html",
         "https://blog.vertistratsolution.com/2026/08/japan-ran-out-of-matcha-assam-just-sold.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.2.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        36593,
+        36599
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

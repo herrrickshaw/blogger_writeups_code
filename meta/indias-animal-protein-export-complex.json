@@ -4,7 +4,7 @@
   "url": "https://blog.vertistratsolution.com/2026/08/indias-animal-protein-export-complex.html",
   "slug": "indias-animal-protein-export-complex",
   "published": "2026-08-05T14:53:50.000+05:30",
-  "updated": "2026-10-27T15:16:17.000+05:30",
+  "updated": "2026-11-14T13:32:59.869+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Energy & Fuels",
@@ -12,8 +12,8 @@
     "Livestock & Dairy",
     "Trade & Tariffs"
   ],
-  "bytes": 18678,
-  "sha256": "d3ad1cc5651722ed2ddf3730db81652205becdda355ac0d42d3012a947238384",
+  "bytes": 18681,
+  "sha256": "74506c69c6304414949f0a86563346ec8e273df1440747ccdcb71f8441476b7a",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": true,
@@ -25,7 +25,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.1",
+  "version": "3.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -299,6 +299,19 @@
         "https://masaladeutsch.blogspot.com/2026/08/indias-animal-protein-export-complex.html",
         "https://blog.vertistratsolution.com/2026/08/indias-animal-protein-export-complex.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.0.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        18678,
+        18681
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

@@ -4,14 +4,14 @@
   "url": "https://blog.vertistratsolution.com/2026/10/cotton-stalk-is-one-of-hardest-crop.html",
   "slug": "cotton-stalk-is-one-of-hardest-crop",
   "published": "2026-10-01T23:13:12.000+05:30",
-  "updated": "2026-11-07T08:25:43.000+05:30",
+  "updated": "2026-11-14T12:50:24.429+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Climate & Carbon",
     "Energy & Fuels"
   ],
-  "bytes": 51865,
-  "sha256": "4294922653ba981d36cba3da40b6f274b9c12b1ccd2964e9788218774a137da8",
+  "bytes": 51872,
+  "sha256": "f951a93f9c9337996b07f2a526c2e02ada5ccab845fbfb21926b9822cd8d2b9b",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.4.1",
+  "version": "1.4.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -110,6 +110,19 @@
         "https://masaladeutsch.blogspot.com/2026/10/cotton-stalk-is-one-of-hardest-crop.html",
         "https://blog.vertistratsolution.com/2026/10/cotton-stalk-is-one-of-hardest-crop.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.4.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        51865,
+        51872
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

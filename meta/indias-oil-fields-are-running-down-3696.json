@@ -4,13 +4,13 @@
   "url": "https://blog.vertistratsolution.com/2026/08/indias-oil-fields-are-running-down-3696.html",
   "slug": "indias-oil-fields-are-running-down-3696",
   "published": "2026-08-06T08:32:50.000+05:30",
-  "updated": "2026-11-07T08:46:43.000+05:30",
+  "updated": "2026-11-14T13:31:42.242+05:30",
   "labels": [
     "Energy & Fuels",
     "Oil & Gas Exploration"
   ],
-  "bytes": 26170,
-  "sha256": "56b9ba1ab732976dfc281cb4a31855ffa5cb5b2f19b668112eaf26b2eb95cb7b",
+  "bytes": 26174,
+  "sha256": "6a2ca5ff1fc8748625ab836ed9976998d3d77c7361ca7aa61c94c587bb825661",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "4.2.1",
+  "version": "4.2.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -291,6 +291,19 @@
         "https://masaladeutsch.blogspot.com/2026/08/indias-oil-fields-are-running-down-3696.html",
         "https://blog.vertistratsolution.com/2026/08/indias-oil-fields-are-running-down-3696.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "4.2.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        26170,
+        26174
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

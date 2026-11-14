@@ -4,12 +4,12 @@
   "url": "https://blog.vertistratsolution.com/2026/08/indias-coking-coal-import-problem-and.html",
   "slug": "indias-coking-coal-import-problem-and",
   "published": "2026-08-14T07:34:14.000+05:30",
-  "updated": "2026-11-07T08:42:43.000+05:30",
+  "updated": "2026-11-14T13:22:08.198+05:30",
   "labels": [
     "Import Substitution"
   ],
-  "bytes": 52107,
-  "sha256": "3e07d4478d5e454f44722075e99ddb2f78ae29afba73a7075f0e4fec98ff878e",
+  "bytes": 52112,
+  "sha256": "32ce04acc2e3192c500a516494f56e040f5b8928f3703ae2c6f1a6a6eb2db1e8",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "4.1.1",
+  "version": "4.1.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -199,6 +199,19 @@
         "https://masaladeutsch.blogspot.com/2026/08/indias-coking-coal-import-problem-and.html",
         "https://blog.vertistratsolution.com/2026/08/indias-coking-coal-import-problem-and.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "4.1.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        52107,
+        52112
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

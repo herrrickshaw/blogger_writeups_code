@@ -4,13 +4,13 @@
   "url": "https://blog.vertistratsolution.com/2026/08/would-more-sgst-fix-donor-state-problem.html",
   "slug": "would-more-sgst-fix-donor-state-problem",
   "published": "2026-08-12T19:54:17.000+05:30",
-  "updated": "2026-10-14T16:32:53.000+05:30",
+  "updated": "2026-11-14T13:24:05.482+05:30",
   "labels": [
     "Energy & Fuels",
     "Macroeconomics & Monetary Policy"
   ],
-  "bytes": 31928,
-  "sha256": "bb7fa1c58fbdf7eed5249e3a86949877f6f91f2a80821edd14f7bc1abc9cc616",
+  "bytes": 31937,
+  "sha256": "2c5ed820ca9c1ec6d19809b416711c3efacf4b3dd1ca1f09580deda0dbe6a94a",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.2.1",
+  "version": "2.2.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -278,6 +278,19 @@
         "https://masaladeutsch.blogspot.com/2026/08/would-more-sgst-fix-donor-state-problem.html",
         "https://blog.vertistratsolution.com/2026/08/would-more-sgst-fix-donor-state-problem.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.2.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        31928,
+        31937
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

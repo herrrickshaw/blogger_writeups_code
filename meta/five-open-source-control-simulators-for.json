@@ -4,10 +4,12 @@
   "url": "https://blog.vertistratsolution.com/2026/11/five-open-source-control-simulators-for.html",
   "slug": "five-open-source-control-simulators-for",
   "published": "2026-11-13T03:37:56.000+05:30",
-  "updated": "2026-11-13T03:37:56.000+05:30",
-  "labels": [],
-  "bytes": 29086,
-  "sha256": "46790513cd001cf97364bb1b45f06959dbcf5da9ede4820fcaaabc409b088a79",
+  "updated": "2026-11-14T14:22:48.142+05:30",
+  "labels": [
+    "Mobility & EV"
+  ],
+  "bytes": 29094,
+  "sha256": "6ba1865bfc4a0b98be202794a2c5ce4d982a0682cfde3d84e583d2b8852f62e4",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,13 +21,26 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "version_history": [
     {
       "version": "1.0.0",
       "date": "2026-11-13T03:39:53+05:30",
       "level": "initial",
       "reason": "first snapshot",
+      "note": ""
+    },
+    {
+      "version": "1.0.1",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        29086,
+        29094
+      ],
+      "url_changed": null,
+      "markers_changed": null,
       "note": ""
     }
   ]

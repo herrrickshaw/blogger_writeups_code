@@ -4,12 +4,12 @@
   "url": "https://blog.vertistratsolution.com/2026/10/most-of-what-indians-pay-for-health-is.html",
   "slug": "most-of-what-indians-pay-for-health-is",
   "published": "2026-10-28T15:54:51.000+05:30",
-  "updated": "2026-10-28T15:56:01.000+05:30",
+  "updated": "2026-11-14T12:27:21.516+05:30",
   "labels": [
     "Healthcare"
   ],
-  "bytes": 23226,
-  "sha256": "c84e29b3450de57ab1e17cf122d1f3138bb9e9baba959478662883afad20e4b8",
+  "bytes": 23234,
+  "sha256": "53af9a0279a32a16b35ccc7a4ef1c1200a1ac0314eed70d88618967e03a3ce1c",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -43,6 +43,19 @@
         "https://masaladeutsch.blogspot.com/2026/10/most-of-what-indians-pay-for-health-is.html",
         "https://blog.vertistratsolution.com/2026/10/most-of-what-indians-pay-for-health-is.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        23226,
+        23234
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

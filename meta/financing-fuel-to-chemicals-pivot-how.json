@@ -4,13 +4,13 @@
   "url": "https://blog.vertistratsolution.com/2026/08/financing-fuel-to-chemicals-pivot-how.html",
   "slug": "financing-fuel-to-chemicals-pivot-how",
   "published": "2026-08-14T11:33:51.000+05:30",
-  "updated": "2026-11-07T08:29:49.000+05:30",
+  "updated": "2026-11-14T13:21:29.145+05:30",
   "labels": [
     "Energy & Fuels",
     "Refining & Petrochemicals"
   ],
-  "bytes": 29293,
-  "sha256": "58d379cc0f2675e2555c07a1ed3a189c520d719152e23d24c4c55b6389bda29b",
+  "bytes": 29299,
+  "sha256": "5df654f9207f3f06c51b8e6c8ae22909206721875df819b94b69e8e991a11f00",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.1.1",
+  "version": "3.1.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -200,6 +200,19 @@
         "https://masaladeutsch.blogspot.com/2026/08/financing-fuel-to-chemicals-pivot-how.html",
         "https://blog.vertistratsolution.com/2026/08/financing-fuel-to-chemicals-pivot-how.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.1.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        29293,
+        29299
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

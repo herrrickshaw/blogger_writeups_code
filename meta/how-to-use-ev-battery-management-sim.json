@@ -4,14 +4,14 @@
   "url": "https://blog.vertistratsolution.com/2026/10/how-to-use-ev-battery-management-sim.html",
   "slug": "how-to-use-ev-battery-management-sim",
   "published": "2026-10-19T05:10:13.000+05:30",
-  "updated": "2026-10-26T09:06:08.000+05:30",
+  "updated": "2026-11-14T12:40:37.562+05:30",
   "labels": [
     "Energy & Fuels",
     "Mobility & EV",
     "Open-Source Tools & How-To"
   ],
-  "bytes": 24609,
-  "sha256": "eed09dda391b9fec9adda6fda9ae4431b8339e69b671d4d226fe2e23a6528842",
+  "bytes": 24611,
+  "sha256": "854273b56197c5d9abc24b0052bc00672e5971f1df2d7eb76bbcf3b70b142e35",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.1",
+  "version": "2.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -58,6 +58,19 @@
         "https://masaladeutsch.blogspot.com/2026/10/how-to-use-ev-battery-management-sim.html",
         "https://blog.vertistratsolution.com/2026/10/how-to-use-ev-battery-management-sim.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        24609,
+        24611
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

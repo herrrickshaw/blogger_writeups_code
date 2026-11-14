@@ -4,13 +4,13 @@
   "url": "https://blog.vertistratsolution.com/2026/08/jai-kisan-jai-javan-fci-based-military.html",
   "slug": "jai-kisan-jai-javan-fci-based-military",
   "published": "2026-08-04T16:15:00.000+05:30",
-  "updated": "2026-10-01T08:40:14.000+05:30",
+  "updated": "2026-11-14T13:34:41.634+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Grain Procurement & Storage"
   ],
-  "bytes": 23936,
-  "sha256": "f3af5a9198a350b7a8e4b1e72441bbda6935118daba5d40e3900f3e6e8d3e126",
+  "bytes": 23941,
+  "sha256": "2d1dc365ea1e0b327bb7d7ab84e4d780a6d76d8b43402877f8662827c15ac9bc",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.1.1",
+  "version": "3.1.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -270,6 +270,19 @@
         "https://masaladeutsch.blogspot.com/2026/08/jai-kisan-jai-javan-fci-based-military.html",
         "https://blog.vertistratsolution.com/2026/08/jai-kisan-jai-javan-fci-based-military.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.1.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        23936,
+        23941
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

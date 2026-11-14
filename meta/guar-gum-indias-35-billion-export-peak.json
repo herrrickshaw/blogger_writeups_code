@@ -4,13 +4,13 @@
   "url": "https://blog.vertistratsolution.com/2026/08/guar-gum-indias-35-billion-export-peak.html",
   "slug": "guar-gum-indias-35-billion-export-peak",
   "published": "2026-08-16T11:44:39.000+05:30",
-  "updated": "2026-10-01T08:25:02.000+05:30",
+  "updated": "2026-11-14T13:19:18.078+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "India Trade & Policy"
   ],
-  "bytes": 31669,
-  "sha256": "1e22df070883cdb18ce020a64656c7d361b5a65dc028ce33029dddcfa1a4e2b2",
+  "bytes": 31674,
+  "sha256": "470966af43d3a4cf6d06a35c260057f824b08581bd81ef09feb45a0074cc39cb",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "5.1.1",
+  "version": "5.1.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -226,6 +226,19 @@
         "https://masaladeutsch.blogspot.com/2026/08/guar-gum-indias-35-billion-export-peak.html",
         "https://blog.vertistratsolution.com/2026/08/guar-gum-indias-35-billion-export-peak.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "5.1.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        31669,
+        31674
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

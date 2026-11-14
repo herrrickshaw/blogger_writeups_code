@@ -4,12 +4,12 @@
   "url": "https://blog.vertistratsolution.com/2026/08/effective-buying-power-china-comparison.html",
   "slug": "effective-buying-power-china-comparison",
   "published": "2026-08-02T14:02:12.000+05:30",
-  "updated": "2026-11-07T08:27:33.000+05:30",
+  "updated": "2026-11-14T13:39:13.832+05:30",
   "labels": [
     "Markets & Finance"
   ],
-  "bytes": 42794,
-  "sha256": "95c45d6aff01fa03c5cecd5354081f26d7c108a4d1edbd66e781b19cbc150cfb",
+  "bytes": 42797,
+  "sha256": "850aba41d16691f98d2953d5dccc88320b08a42cdfc04fbd9c26e3d1aa921f8c",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": true,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.2.1",
+  "version": "2.2.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -317,6 +317,19 @@
         "https://masaladeutsch.blogspot.com/2026/08/effective-buying-power-china-comparison.html",
         "https://blog.vertistratsolution.com/2026/08/effective-buying-power-china-comparison.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.2.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        42794,
+        42797
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

@@ -4,15 +4,15 @@
   "url": "https://blog.vertistratsolution.com/2026/10/how-to-use-lignocellulosic-ethanol.html",
   "slug": "how-to-use-lignocellulosic-ethanol",
   "published": "2026-10-29T05:12:14.000+05:30",
-  "updated": "2026-10-29T09:05:32.000+05:30",
+  "updated": "2026-11-14T12:26:52.945+05:30",
   "labels": [
     "Energy & Fuels",
     "Ethanol & Biofuels",
     "India",
     "Open-Source Tools & How-To"
   ],
-  "bytes": 21561,
-  "sha256": "374b70791120217ebb0cfac85cb178689ad54f38a654d1e97e19f720ee7c75a8",
+  "bytes": 21563,
+  "sha256": "417bdc68c9d339d0cc952a574eeea22bfb3cb43eda71c824910d7dbeb4da659b",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.2",
+  "version": "1.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -59,6 +59,19 @@
         "https://masaladeutsch.blogspot.com/2026/10/how-to-use-lignocellulosic-ethanol.html",
         "https://blog.vertistratsolution.com/2026/10/how-to-use-lignocellulosic-ethanol.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.3",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        21561,
+        21563
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

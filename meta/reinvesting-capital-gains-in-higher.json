@@ -4,13 +4,13 @@
   "url": "https://blog.vertistratsolution.com/2026/08/reinvesting-capital-gains-in-higher.html",
   "slug": "reinvesting-capital-gains-in-higher",
   "published": "2026-08-07T13:46:48.000+05:30",
-  "updated": "2026-10-26T13:54:33.000+05:30",
+  "updated": "2026-11-14T13:31:08.363+05:30",
   "labels": [
     "Bonds & Fixed Income",
     "Markets & Finance"
   ],
-  "bytes": 32091,
-  "sha256": "6c43f2403a342f56d17531cbe6724e17f1c1adbab8575c1830e19c5ed698c63f",
+  "bytes": 32095,
+  "sha256": "c968a65b53b745fb4a7a075bc71090cdd7d9065325e56a8c7fb15aea3bc4728b",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.1",
+  "version": "3.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -278,6 +278,19 @@
         "https://masaladeutsch.blogspot.com/2026/08/reinvesting-capital-gains-in-higher.html",
         "https://blog.vertistratsolution.com/2026/08/reinvesting-capital-gains-in-higher.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.0.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "wording changed; no figures, sections or claims moved",
+      "bytes": [
+        32091,
+        32095
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

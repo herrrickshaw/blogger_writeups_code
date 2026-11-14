@@ -4,7 +4,7 @@
   "url": "https://blog.vertistratsolution.com/2026/07/chemical-import-substitution-analysis.html",
   "slug": "chemical-import-substitution-analysis",
   "published": "2026-08-01T09:22:00.000+05:30",
-  "updated": "2026-11-07T08:24:54.000+05:30",
+  "updated": "2026-11-14T14:38:18.299+05:30",
   "labels": [
     "Chemicals",
     "Customs & HSN Trade Data",
@@ -12,8 +12,8 @@
     "Trade & Tariffs",
     "Trade Remedies & Antidumping"
   ],
-  "bytes": 43258,
-  "sha256": "7eb5a04bbf871f9775c869fd9e5ca6bb6c5f3d5619162bdfa3afa6f317da81dc",
+  "bytes": 43270,
+  "sha256": "de8224b2270c9c64cbe0d5774bb9d426da28b8618eabd63b3374679ba6cb9852",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -25,7 +25,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "4.4.1",
+  "version": "4.4.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -364,6 +364,19 @@
         "https://masaladeutsch.blogspot.com/2026/07/chemical-import-substitution-analysis.html",
         "https://blog.vertistratsolution.com/2026/07/chemical-import-substitution-analysis.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "4.4.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "wording changed; no figures, sections or claims moved",
+      "bytes": [
+        43258,
+        43270
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

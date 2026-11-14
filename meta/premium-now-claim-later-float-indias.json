@@ -4,15 +4,15 @@
   "url": "https://blog.vertistratsolution.com/2026/08/premium-now-claim-later-float-indias.html",
   "slug": "premium-now-claim-later-float-indias",
   "published": "2026-08-22T20:29:04.000+05:30",
-  "updated": "2026-11-07T08:55:01.000+05:30",
+  "updated": "2026-11-14T13:14:26.355+05:30",
   "labels": [
     "Insurance & Reinsurance",
     "Macroeconomics & Monetary Policy",
     "Markets & Finance",
     "Mobility & EV"
   ],
-  "bytes": 66697,
-  "sha256": "d221bc2bbb39e740eecea670230275cca82db2c7ca78e3cc49401564f103a2e9",
+  "bytes": 66701,
+  "sha256": "e78f5cc5bc9d3b02c3f563241503ac34abc200423ef29cfcc960dc4d3b8241b3",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.2.1",
+  "version": "1.2.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -111,6 +111,19 @@
         "https://masaladeutsch.blogspot.com/2026/08/premium-now-claim-later-float-indias.html",
         "https://blog.vertistratsolution.com/2026/08/premium-now-claim-later-float-indias.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.2.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        66697,
+        66701
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

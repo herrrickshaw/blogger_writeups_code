@@ -4,14 +4,14 @@
   "url": "https://blog.vertistratsolution.com/2026/10/how-to-use-saf-monitoring-system-track.html",
   "slug": "how-to-use-saf-monitoring-system-track",
   "published": "2026-10-30T09:26:34.000+05:30",
-  "updated": "2026-10-31T09:05:39.000+05:30",
+  "updated": "2026-11-14T12:26:04.063+05:30",
   "labels": [
     "Climate & Carbon",
     "Energy & Fuels",
     "Open-Source Tools & How-To"
   ],
-  "bytes": 24898,
-  "sha256": "15dba560f0dd96c1794f9def62ac7a7a25a12557a560c605c71c433080700101",
+  "bytes": 24900,
+  "sha256": "e4adf75b4a852885d2bfa703c97b89928b37a15b638dc1d0de7fc6286a6f9627",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.2",
+  "version": "1.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -58,6 +58,19 @@
         "https://masaladeutsch.blogspot.com/2026/10/how-to-use-saf-monitoring-system-track.html",
         "https://blog.vertistratsolution.com/2026/10/how-to-use-saf-monitoring-system-track.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.3",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        24898,
+        24900
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

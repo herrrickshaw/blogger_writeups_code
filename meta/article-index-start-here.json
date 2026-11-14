@@ -4,10 +4,10 @@
   "url": "https://blog.vertistratsolution.com/2026/08/article-index-start-here.html",
   "slug": "article-index-start-here",
   "published": "2026-08-02T10:43:26.000+05:30",
-  "updated": "2026-11-06T04:15:28.000+05:30",
+  "updated": "2026-11-14T14:33:51.805+05:30",
   "labels": [],
-  "bytes": 958182,
-  "sha256": "754059ae13fbe9a7834a466c92f4bf3d1b4354d4e8977f50e6bd9c5785c23245",
+  "bytes": 976832,
+  "sha256": "b88f076602b26f1732c42f2266524284d52de63bafdc6ac4ec096d58d0fdcca5",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "74.0.1",
+  "version": "75.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -2510,6 +2510,19 @@
         "https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html",
         "https://blog.vertistratsolution.com/2026/08/article-index-start-here.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "75.0.0",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "major",
+      "reason": "figures changed (+23/-11 distinct numbers)",
+      "bytes": [
+        958182,
+        976832
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

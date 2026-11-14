@@ -4,14 +4,14 @@
   "url": "https://blog.vertistratsolution.com/2026/10/to-comply-or-not-to-comply-cbam-costs.html",
   "slug": "to-comply-or-not-to-comply-cbam-costs",
   "published": "2026-10-24T07:51:30.000+05:30",
-  "updated": "2026-10-24T08:07:35.000+05:30",
+  "updated": "2026-11-14T12:35:21.617+05:30",
   "labels": [
     "Climate & Carbon",
     "Industrial Policy",
     "Trade & Tariffs"
   ],
-  "bytes": 69780,
-  "sha256": "51d505a7762cf4c1bf162d3b1fe9b7bcaa0c50afa6e741efc704b74647eb16c7",
+  "bytes": 69791,
+  "sha256": "e41d3d4e8e7bf856e77fcf738b26e7e8830aa9b7465ec326b7b4de37c5c21924",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.1.1",
+  "version": "1.1.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -58,6 +58,19 @@
         "https://masaladeutsch.blogspot.com/2026/10/to-comply-or-not-to-comply-cbam-costs.html",
         "https://blog.vertistratsolution.com/2026/10/to-comply-or-not-to-comply-cbam-costs.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.1.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        69780,
+        69791
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

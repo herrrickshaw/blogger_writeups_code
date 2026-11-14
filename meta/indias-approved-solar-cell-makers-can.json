@@ -4,15 +4,15 @@
   "url": "https://blog.vertistratsolution.com/2026/10/indias-approved-solar-cell-makers-can.html",
   "slug": "indias-approved-solar-cell-makers-can",
   "published": "2026-10-26T14:47:45.000+05:30",
-  "updated": "2026-11-07T08:41:24.000+05:30",
+  "updated": "2026-11-14T12:32:48.982+05:30",
   "labels": [
     "Energy & Fuels",
     "Import Substitution",
     "Industrial Policy",
     "Renewable Power & Storage"
   ],
-  "bytes": 27977,
-  "sha256": "cb8c0b02ee58ca744d2d752349fa3ed3c901a621d056e0eb8c0fb2becab37c1d",
+  "bytes": 27981,
+  "sha256": "c8f47c546dc0e46db7ee614bec2c6c89dbfda839d763853cc767b331fd18e777",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.1.1",
+  "version": "1.1.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -72,6 +72,19 @@
         "https://masaladeutsch.blogspot.com/2026/10/indias-approved-solar-cell-makers-can.html",
         "https://blog.vertistratsolution.com/2026/10/indias-approved-solar-cell-makers-can.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.1.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        27977,
+        27981
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

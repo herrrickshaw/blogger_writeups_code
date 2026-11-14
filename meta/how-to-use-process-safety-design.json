@@ -4,13 +4,13 @@
   "url": "https://blog.vertistratsolution.com/2026/11/how-to-use-process-safety-design.html",
   "slug": "how-to-use-process-safety-design",
   "published": "2026-11-05T18:11:55.000+05:30",
-  "updated": "2026-11-11T05:45:46.000+05:30",
+  "updated": "2026-11-14T14:36:56.893+05:30",
   "labels": [
     "Open-Source Tools & How-To",
     "Refining & Petrochemicals"
   ],
-  "bytes": 79553,
-  "sha256": "a3ff888d4458262d3bbccd1a275d262bdb37b8cb3f79a73ac5489e204a206dbd",
+  "bytes": 79562,
+  "sha256": "c1ee4541507b28fc8f8634a1c5013866593a01199c594d172d2533d783605349",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "4.0.0",
+  "version": "4.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -96,6 +96,19 @@
         "https://masaladeutsch.blogspot.com/2026/11/how-to-use-process-safety-design.html",
         "https://blog.vertistratsolution.com/2026/11/how-to-use-process-safety-design.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "4.0.1",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        79553,
+        79562
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

@@ -4,13 +4,13 @@
   "url": "https://blog.vertistratsolution.com/2026/10/india-got-record-945-billion-of-fdi.html",
   "slug": "india-got-record-945-billion-of-fdi",
   "published": "2026-10-27T17:25:06.000+05:30",
-  "updated": "2026-11-07T08:35:25.000+05:30",
+  "updated": "2026-11-14T12:31:19.912+05:30",
   "labels": [
     "Macroeconomics & Monetary Policy",
     "Markets & Finance"
   ],
-  "bytes": 28187,
-  "sha256": "9d9f4f137eb5e306bf8a54a3ae0acd2b3f65522129a2f5534a6b3b360c65e05d",
+  "bytes": 28195,
+  "sha256": "d8d388664a71d5b80f1d24850fd46d6f5b45056ad0429d49086dd046a328f87b",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.1.1",
+  "version": "1.1.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -57,6 +57,19 @@
         "https://masaladeutsch.blogspot.com/2026/10/india-got-record-945-billion-of-fdi.html",
         "https://blog.vertistratsolution.com/2026/10/india-got-record-945-billion-of-fdi.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.1.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        28187,
+        28195
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

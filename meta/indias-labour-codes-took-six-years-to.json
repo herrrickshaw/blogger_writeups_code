@@ -4,10 +4,10 @@
   "url": "https://blog.vertistratsolution.com/2026/09/indias-labour-codes-took-six-years-to.html",
   "slug": "indias-labour-codes-took-six-years-to",
   "published": "2026-09-16T13:11:13.000+05:30",
-  "updated": "2026-10-27T15:16:38.000+05:30",
+  "updated": "2026-11-14T12:58:12.286+05:30",
   "labels": [],
-  "bytes": 23626,
-  "sha256": "88bac6f012d41e706042eeddb548da08624149b1f8b9e7d3686d3669b15a1e00",
+  "bytes": 23629,
+  "sha256": "143bafcc69281ff47da4ad65788d36be3809e601448dce950d669f94e632dcd8",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.1",
+  "version": "2.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -132,6 +132,19 @@
         "https://masaladeutsch.blogspot.com/2026/09/indias-labour-codes-took-six-years-to.html",
         "https://blog.vertistratsolution.com/2026/09/indias-labour-codes-took-six-years-to.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        23626,
+        23629
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

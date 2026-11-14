@@ -4,12 +4,12 @@
   "url": "https://blog.vertistratsolution.com/2026/10/india-capped-margins-on-137-cancer.html",
   "slug": "india-capped-margins-on-137-cancer",
   "published": "2026-10-28T15:54:43.000+05:30",
-  "updated": "2026-11-09T17:12:42.000+05:30",
+  "updated": "2026-11-14T12:27:31.124+05:30",
   "labels": [
     "Healthcare"
   ],
-  "bytes": 29535,
-  "sha256": "dad4cca3a8eb9ae18b2653032e50e49dea0885da34ea03e1c410d580bfd03e54",
+  "bytes": 29542,
+  "sha256": "093c5770fa78af841ce73e2083c2d00fba3642aceebad665354b415dcf4db166",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.1",
+  "version": "3.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -69,6 +69,19 @@
         "https://masaladeutsch.blogspot.com/2026/10/india-capped-margins-on-137-cancer.html",
         "https://blog.vertistratsolution.com/2026/10/india-capped-margins-on-137-cancer.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.0.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        29535,
+        29542
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

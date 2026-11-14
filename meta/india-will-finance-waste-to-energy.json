@@ -4,14 +4,14 @@
   "url": "https://blog.vertistratsolution.com/2026/08/india-will-finance-waste-to-energy.html",
   "slug": "india-will-finance-waste-to-energy",
   "published": "2026-08-26T20:20:49.000+05:30",
-  "updated": "2026-11-07T08:39:54.000+05:30",
+  "updated": "2026-11-14T13:10:30.246+05:30",
   "labels": [
     "Circularity & Waste-to-Value",
     "Energy & Fuels",
     "Industrial Policy"
   ],
-  "bytes": 42031,
-  "sha256": "eaf37ab32ba605324b2afe1abefa98acd2a0b65fe0b554ddf7df1e712c6a3c0c",
+  "bytes": 42039,
+  "sha256": "235150fb24fc54a13da482b3b846f1f289123ea3262861f169edbe2a8a86e0e3",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.2.1",
+  "version": "3.2.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -149,6 +149,19 @@
         "https://masaladeutsch.blogspot.com/2026/08/india-will-finance-waste-to-energy.html",
         "https://blog.vertistratsolution.com/2026/08/india-will-finance-waste-to-energy.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.2.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        42031,
+        42039
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

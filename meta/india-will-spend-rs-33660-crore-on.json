@@ -4,12 +4,12 @@
   "url": "https://blog.vertistratsolution.com/2026/10/india-will-spend-rs-33660-crore-on.html",
   "slug": "india-will-spend-rs-33660-crore-on",
   "published": "2026-10-27T06:59:39.000+05:30",
-  "updated": "2026-11-09T17:14:03.000+05:30",
+  "updated": "2026-11-14T12:32:09.875+05:30",
   "labels": [
     "Industrial Policy"
   ],
-  "bytes": 29885,
-  "sha256": "942a5450616810cecb768b6ccebe8eaafe3d3f8deb32f3362a788ddf1cb669ff",
+  "bytes": 29894,
+  "sha256": "20c74471dc66db0006d25cd1b8f6aa390cb8dc074ff40604b167f5dcd9aebddb",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.1",
+  "version": "3.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -69,6 +69,19 @@
         "https://masaladeutsch.blogspot.com/2026/10/india-will-spend-rs-33660-crore-on.html",
         "https://blog.vertistratsolution.com/2026/10/india-will-spend-rs-33660-crore-on.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.0.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        29885,
+        29894
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

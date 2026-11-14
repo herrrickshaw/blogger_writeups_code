@@ -4,15 +4,15 @@
   "url": "https://blog.vertistratsolution.com/2026/09/a-2013-vision-saw-india-needing-746.html",
   "slug": "a-2013-vision-saw-india-needing-746",
   "published": "2026-09-09T07:20:06.000+05:30",
-  "updated": "2026-10-27T06:25:24.000+05:30",
+  "updated": "2026-11-14T13:02:17.933+05:30",
   "labels": [
     "Energy & Fuels",
     "Gas & LNG",
     "Gas Pipeline Infrastructure & Demand Planning",
     "Macroeconomics & Monetary Policy"
   ],
-  "bytes": 29095,
-  "sha256": "ae4425a28764ba5cf5aacc01eb3b32dea0983fec917737030f5937ca62583da0",
+  "bytes": 29101,
+  "sha256": "834c85ec1c281745407a4313877bd8c6b8b43bd7bcec585b3f47d3adecb7214e",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.1",
+  "version": "3.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -124,6 +124,19 @@
         "https://masaladeutsch.blogspot.com/2026/09/a-2013-vision-saw-india-needing-746.html",
         "https://blog.vertistratsolution.com/2026/09/a-2013-vision-saw-india-needing-746.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.0.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        29095,
+        29101
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

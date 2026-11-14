@@ -4,13 +4,13 @@
   "url": "https://blog.vertistratsolution.com/2026/10/how-to-use-india-ec-subsector-analysis.html",
   "slug": "how-to-use-india-ec-subsector-analysis",
   "published": "2026-10-19T05:11:34.000+05:30",
-  "updated": "2026-10-29T09:07:55.000+05:30",
+  "updated": "2026-11-14T12:39:56.898+05:30",
   "labels": [
     "India",
     "Open-Source Tools & How-To"
   ],
-  "bytes": 24791,
-  "sha256": "b3c96c1e57f22af2d2e2fca707b52b5c4f77720261bf7e37b5140cb6e024f760",
+  "bytes": 24793,
+  "sha256": "0f0823c8bef7f596d56035760e2e542d282fa8f275a8bcc37a110e6e2e51a8b7",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.2",
+  "version": "1.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -57,6 +57,19 @@
         "https://masaladeutsch.blogspot.com/2026/10/how-to-use-india-ec-subsector-analysis.html",
         "https://blog.vertistratsolution.com/2026/10/how-to-use-india-ec-subsector-analysis.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.3",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        24791,
+        24793
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

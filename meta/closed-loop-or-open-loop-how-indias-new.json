@@ -4,14 +4,14 @@
   "url": "https://blog.vertistratsolution.com/2026/10/closed-loop-or-open-loop-how-indias-new.html",
   "slug": "closed-loop-or-open-loop-how-indias-new",
   "published": "2026-10-27T07:52:33.000+05:30",
-  "updated": "2026-11-07T08:25:03.000+05:30",
+  "updated": "2026-11-14T12:31:39.582+05:30",
   "labels": [
     "Energy & Fuels",
     "Environment & Clearances",
     "Industrial Policy"
   ],
-  "bytes": 34013,
-  "sha256": "ecb87086a26332489a1e545dd18bc4c0864fc5282dcc722e0cf3d8abf57525fe",
+  "bytes": 34019,
+  "sha256": "4247daa00e0c91050cf3ce951495ea69adc3542e03df1d19e3b542181464d4c9",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.1.1",
+  "version": "1.1.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -58,6 +58,19 @@
         "https://masaladeutsch.blogspot.com/2026/10/closed-loop-or-open-loop-how-indias-new.html",
         "https://blog.vertistratsolution.com/2026/10/closed-loop-or-open-loop-how-indias-new.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.1.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        34013,
+        34019
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

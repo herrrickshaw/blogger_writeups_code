@@ -4,14 +4,14 @@
   "url": "https://blog.vertistratsolution.com/2026/10/rice-and-maize-became-ethanol.html",
   "slug": "rice-and-maize-became-ethanol",
   "published": "2026-10-28T16:59:58.000+05:30",
-  "updated": "2026-11-09T17:15:45.000+05:30",
+  "updated": "2026-11-14T12:27:02.775+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Energy & Fuels",
     "Ethanol & Biofuels"
   ],
-  "bytes": 31192,
-  "sha256": "4aeac0a1317abcf7ff04fc016b53bcfa371caa6d32551b94b3bb770e489c49f2",
+  "bytes": 31202,
+  "sha256": "89aecc07628143893016a9f3002c9cf5f547fa3e7b9f670dd30c71e73e366c9b",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.1",
+  "version": "2.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -71,6 +71,19 @@
         "https://masaladeutsch.blogspot.com/2026/10/rice-and-maize-became-ethanol.html",
         "https://blog.vertistratsolution.com/2026/10/rice-and-maize-became-ethanol.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        31192,
+        31202
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

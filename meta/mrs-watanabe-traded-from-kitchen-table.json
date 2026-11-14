@@ -4,13 +4,13 @@
   "url": "https://blog.vertistratsolution.com/2026/08/mrs-watanabe-traded-from-kitchen-table.html",
   "slug": "mrs-watanabe-traded-from-kitchen-table",
   "published": "2026-08-11T21:32:38.000+05:30",
-  "updated": "2026-11-07T08:51:04.000+05:30",
+  "updated": "2026-11-14T13:25:04.292+05:30",
   "labels": [
     "Markets & Finance",
     "Personal Finance & Retail Investing Access"
   ],
-  "bytes": 31125,
-  "sha256": "419b7738f84814e27234bad8ad3f43c4919399b2a309ed039d065ed97a2f8dd6",
+  "bytes": 31130,
+  "sha256": "f206222b2a90d2075360094603372c91e50f9f79a279f63967b7bdb34ea35ed6",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.2.1",
+  "version": "2.2.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -278,6 +278,19 @@
         "https://masaladeutsch.blogspot.com/2026/08/mrs-watanabe-traded-from-kitchen-table.html",
         "https://blog.vertistratsolution.com/2026/08/mrs-watanabe-traded-from-kitchen-table.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.2.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        31125,
+        31130
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

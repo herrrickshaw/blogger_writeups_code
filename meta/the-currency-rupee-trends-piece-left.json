@@ -4,13 +4,13 @@
   "url": "https://blog.vertistratsolution.com/2026/08/the-currency-rupee-trends-piece-left.html",
   "slug": "the-currency-rupee-trends-piece-left",
   "published": "2026-08-14T18:48:54.000+05:30",
-  "updated": "2026-10-23T10:09:14.000+05:30",
+  "updated": "2026-11-14T13:20:59.721+05:30",
   "labels": [
     "Currency Markets",
     "Macroeconomics & Monetary Policy"
   ],
-  "bytes": 38694,
-  "sha256": "c48f2d212e9c6ca81aae1c90b73a73b52eb0f4856c262d15ced97f57dab6475a",
+  "bytes": 38700,
+  "sha256": "0652f0f05b260d72501022cf0ba1bcf96f086977b60c4d35ec2309064ad09afa",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.1.2",
+  "version": "2.1.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -187,6 +187,19 @@
         "https://masaladeutsch.blogspot.com/2026/08/the-currency-rupee-trends-piece-left.html",
         "https://blog.vertistratsolution.com/2026/08/the-currency-rupee-trends-piece-left.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.1.3",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        38694,
+        38700
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

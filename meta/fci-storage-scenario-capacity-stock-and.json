@@ -4,13 +4,13 @@
   "url": "https://blog.vertistratsolution.com/2026/07/fci-storage-scenario-capacity-stock-and.html",
   "slug": "fci-storage-scenario-capacity-stock-and",
   "published": "2026-07-31T10:15:00.000+05:30",
-  "updated": "2026-11-07T08:29:36.000+05:30",
+  "updated": "2026-11-14T13:42:17.837+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Grain Procurement & Storage"
   ],
-  "bytes": 25512,
-  "sha256": "baf8aae5310c18b13c4d5b2e419350bb8235b9d967e9af908a9248afe8662ef8",
+  "bytes": 25517,
+  "sha256": "1465e8ef999ba6ae299a90d9b4d5e281c670be937e0c06ea851fff389443ee6e",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.3.1",
+  "version": "3.3.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -335,6 +335,19 @@
         "https://masaladeutsch.blogspot.com/2026/07/fci-storage-scenario-capacity-stock-and.html",
         "https://blog.vertistratsolution.com/2026/07/fci-storage-scenario-capacity-stock-and.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.3.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        25512,
+        25517
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

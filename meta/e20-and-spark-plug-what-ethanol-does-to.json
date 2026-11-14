@@ -4,14 +4,14 @@
   "url": "https://blog.vertistratsolution.com/2026/11/e20-and-spark-plug-what-ethanol-does-to.html",
   "slug": "e20-and-spark-plug-what-ethanol-does-to",
   "published": "2026-11-02T07:42:13.000+05:30",
-  "updated": "2026-11-02T07:42:56.000+05:30",
+  "updated": "2026-11-14T12:24:55.887+05:30",
   "labels": [
     "Energy & Fuels",
     "Ethanol & Biofuels",
     "Trade & Tariffs"
   ],
-  "bytes": 29959,
-  "sha256": "94c8b087d333587d8c763b66ae8ced09ed917212b20b6721246b42d7d52f98da",
+  "bytes": 29968,
+  "sha256": "e7f5b5c1dc91020d54f4f17ed45df1724f46b339b069c2f9bf0b52aae55edccc",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -45,6 +45,19 @@
         "https://masaladeutsch.blogspot.com/2026/11/e20-and-spark-plug-what-ethanol-does-to.html",
         "https://blog.vertistratsolution.com/2026/11/e20-and-spark-plug-what-ethanol-does-to.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.2",
+      "date": "2026-11-14T14:39:05+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        29959,
+        29968
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }
