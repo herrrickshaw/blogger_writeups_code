@@ -1,16 +1,16 @@
 {
   "id": "8111051561933582100",
-  "title": "India's EPR Regime Just Got Teeth — and a Battery Recycling Policy Brief Explains Where It Still Bites Nothing",
+  "title": "India's EPR rules: plastic loophole closed, battery scrap enforcement gap documented",
   "url": "https://blog.vertistratsolution.com/2026/08/indias-epr-regime-just-got-teeth-and.html",
   "slug": "indias-epr-regime-just-got-teeth-and",
   "published": "2026-08-08T21:56:27.000+05:30",
-  "updated": "2026-11-14T13:27:51.412+05:30",
+  "updated": "2026-11-14T15:38:43.816+05:30",
   "labels": [
     "Industrial Policy",
     "Mobility & EV"
   ],
-  "bytes": 30269,
-  "sha256": "6069ed5c7e4c0e8bc084c33d430c3b915ed412b9e0e8efee0bedf2473a21e30e",
+  "bytes": 30245,
+  "sha256": "40579a47a9b709bbe2e82303099353749b1063f0ecfbcd7045d0f64c2f4753c0",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.2.2",
+  "version": "4.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -302,6 +302,19 @@
       "bytes": [
         30265,
         30269
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "4.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "section(s) removed: India's EPR Regime Just Got Teeth &mdash; and a Battery Recycling Policy Brief Explains Where It Still Bites",
+      "bytes": [
+        30269,
+        30245
       ],
       "url_changed": null,
       "markers_changed": null,

@@ -1,17 +1,17 @@
 {
   "id": "3796076982690348500",
-  "title": "Right of User: What India's Pipeline Gazette Notifications Actually Show, State by State",
+  "title": "India's gas pipeline gazette notifications: 34,803 km authorised, 27,905 km operational",
   "url": "https://blog.vertistratsolution.com/2026/09/right-of-user-what-indias-pipeline.html",
   "slug": "right-of-user-what-indias-pipeline",
   "published": "2026-09-05T15:59:46.000+05:30",
-  "updated": "2026-11-14T13:03:17.456+05:30",
+  "updated": "2026-11-14T15:56:31.559+05:30",
   "labels": [
     "Energy & Fuels",
     "Gas & LNG",
     "Gas Pipeline Infrastructure & Demand Planning"
   ],
-  "bytes": 53713,
-  "sha256": "1ec267d6436bbca1d4140d6ba079253d61edfbfcf63d63711b0cc191b63a5d43",
+  "bytes": 53712,
+  "sha256": "1ddf014b067f27f5eab73a2e9f1c0c99f4ebb09b64d41473e7269688175ff59f",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "4.0.2",
+  "version": "5.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -160,6 +160,19 @@
       "bytes": [
         53709,
         53713
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "5.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        53713,
+        53712
       ],
       "url_changed": null,
       "markers_changed": null,

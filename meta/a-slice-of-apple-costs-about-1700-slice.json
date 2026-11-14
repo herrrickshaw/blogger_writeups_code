@@ -1,16 +1,16 @@
 {
   "id": "8591050122986827293",
-  "title": "A Slice of Apple Costs About ₹1,700. A Slice of MRF Still Isn't Legal. Fractional Investing Hasn't Closed That Gap Yet.",
+  "title": "Fractional investing in India: available for US stocks, not yet for Indian stocks",
   "url": "https://blog.vertistratsolution.com/2026/08/a-slice-of-apple-costs-about-1700-slice.html",
   "slug": "a-slice-of-apple-costs-about-1700-slice",
   "published": "2026-08-11T10:59:06.000+05:30",
-  "updated": "2026-11-14T13:26:03.435+05:30",
+  "updated": "2026-11-14T15:07:14.288+05:30",
   "labels": [
     "Markets & Finance",
     "Personal Finance & Retail Investing Access"
   ],
-  "bytes": 58152,
-  "sha256": "ae29458a9a4ed3e6ca5624aebfed30f15325af86b3813f8e7e7c408a0fff7655",
+  "bytes": 58114,
+  "sha256": "c10567610ea6063526b716488d33cbf83b7c8d87a52b780731e8b480b2b53909",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.1.2",
+  "version": "4.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -393,6 +393,19 @@
       "bytes": [
         58147,
         58152
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "4.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "figures changed (+0/-1 distinct numbers)",
+      "bytes": [
+        58152,
+        58114
       ],
       "url_changed": null,
       "markers_changed": null,

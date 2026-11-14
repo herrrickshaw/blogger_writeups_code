@@ -1,17 +1,17 @@
 {
   "id": "5390993960749353656",
-  "title": "$0.28 a Unit: The Diesel Math Behind India's Data Centres and Telecom Towers, and Why It's Already Losing",
+  "title": "Diesel backup for data centres and towers: $0.28 a unit, about 3 times grid power",
   "url": "https://blog.vertistratsolution.com/2026/08/028-unit-diesel-math-behind-indias-data.html",
   "slug": "028-unit-diesel-math-behind-indias-data",
   "published": "2026-08-20T19:11:25.000+05:30",
-  "updated": "2026-11-14T13:15:58.097+05:30",
+  "updated": "2026-11-14T15:04:35.478+05:30",
   "labels": [
     "Data Centres & AI Infra",
     "Energy & Fuels",
     "Renewable Power & Storage"
   ],
-  "bytes": 38929,
-  "sha256": "72c0651dd47551c3617862dd249084c493d14525e4976bb8e483ad71578ccced",
+  "bytes": 38905,
+  "sha256": "d07b907f20d8c29621899839bca6b9fa3c8b5831c91efcb78509ea1905ab1ac5",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.1.2",
+  "version": "4.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -212,6 +212,19 @@
       "bytes": [
         38924,
         38929
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "4.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        38929,
+        38905
       ],
       "url_changed": null,
       "markers_changed": null,

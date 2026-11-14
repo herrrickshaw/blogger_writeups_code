@@ -1,17 +1,17 @@
 {
   "id": "7017562240024395930",
-  "title": "India Sells the World $53 Billion of Fuel. Its Neighbours Buy 5% of It.",
+  "title": "India's refined fuel exports: $53 billion, with 5% going to its neighbours",
   "url": "https://blog.vertistratsolution.com/2026/08/india-sells-world-53-billion-of-fuel.html",
   "slug": "india-sells-world-53-billion-of-fuel",
   "published": "2026-08-08T12:26:53.000+05:30",
-  "updated": "2026-11-14T13:30:16.558+05:30",
+  "updated": "2026-11-14T15:32:49.124+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Energy & Fuels",
     "Trade & Tariffs"
   ],
-  "bytes": 36397,
-  "sha256": "12a19271f3500a2b4e0e080ca7ccfa80f0a7126e04b15c7f23ee8427a91eabe9",
+  "bytes": 36400,
+  "sha256": "78e0d3299238aa9cab83f9f219871310ec66fefefc59f08d85ba8ebd89cd2628",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.2.2",
+  "version": "4.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -277,6 +277,19 @@
       "bytes": [
         36391,
         36397
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "4.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "section(s) removed: India Sells the World $53 Billion of Fuel. Its Neighbours Buy 5% of It.",
+      "bytes": [
+        36397,
+        36400
       ],
       "url_changed": null,
       "markers_changed": null,

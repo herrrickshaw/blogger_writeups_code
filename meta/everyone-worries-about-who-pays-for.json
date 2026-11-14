@@ -1,15 +1,15 @@
 {
   "id": "4297682823098443740",
-  "title": "Everyone Worries About Who Pays for India's CO2 Pipelines. Pipelines Are the Cheap Part",
+  "title": "CO2 pipelines in India: $0.70 to $4.19 a tonne, with capture the main cost",
   "url": "https://blog.vertistratsolution.com/2026/09/everyone-worries-about-who-pays-for.html",
   "slug": "everyone-worries-about-who-pays-for",
   "published": "2026-09-03T05:50:09.000+05:30",
-  "updated": "2026-11-14T13:04:29.220+05:30",
+  "updated": "2026-11-14T15:18:08.798+05:30",
   "labels": [
     "Industrial Policy"
   ],
-  "bytes": 46524,
-  "sha256": "6f31857e9b2511fbe0402e79f548597f2e46e0ef745b41c81dfce49b9881c4ea",
+  "bytes": 46511,
+  "sha256": "46a3445ba8f955f1d0b70cbf6cdea817ac3f04b4718d5626c675cef5f7489dc9",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.1.2",
+  "version": "3.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -171,6 +171,19 @@
       "bytes": [
         46519,
         46524
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        46524,
+        46511
       ],
       "url_changed": null,
       "markers_changed": null,

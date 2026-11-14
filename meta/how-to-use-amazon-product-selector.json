@@ -1,17 +1,17 @@
 {
   "id": "5900031357044279018",
-  "title": "How to use amazon-product-selector: a gated shortlist of rising Amazon keywords you can actually enter",
+  "title": "How to use amazon-product-selector: a gated shortlist of rising Amazon keywords",
   "url": "https://blog.vertistratsolution.com/2026/10/how-to-use-amazon-product-selector.html",
   "slug": "how-to-use-amazon-product-selector",
   "published": "2026-10-19T05:09:17.000+05:30",
-  "updated": "2026-11-14T12:42:09.513+05:30",
+  "updated": "2026-11-14T15:23:34.690+05:30",
   "labels": [
     "Business & Strategy",
     "India",
     "Open-Source Tools & How-To"
   ],
-  "bytes": 22635,
-  "sha256": "dd3f80bdc012514c9631e552b89c65dec31cfb1400c5edde4ce2adf3e8a2012f",
+  "bytes": 22612,
+  "sha256": "5e2537d45dcf5c252a50ac08167ba14d38e38deb0e9b937a9272f7faf6a04748",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.3",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -69,6 +69,19 @@
       "bytes": [
         22633,
         22635
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "section(s) removed: How to use amazon-product-selector: a gated shortlist of rising Amazon keywords you can actually enter",
+      "bytes": [
+        22635,
+        22612
       ],
       "url_changed": null,
       "markers_changed": null,

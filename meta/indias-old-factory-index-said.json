@@ -1,13 +1,13 @@
 {
   "id": "3328794842787795088",
-  "title": "India's Old Factory Index Said Electronics Output Fell 11% in 2023-24. The New One Says It Rose 20%",
+  "title": "Industrial production index: electronics down 11% in 2023-24 on old base, up 20% on new",
   "url": "https://blog.vertistratsolution.com/2026/10/indias-old-factory-index-said.html",
   "slug": "indias-old-factory-index-said",
   "published": "2026-10-09T10:10:39.000+05:30",
-  "updated": "2026-11-14T12:48:35.899+05:30",
+  "updated": "2026-11-14T15:43:34.806+05:30",
   "labels": [],
-  "bytes": 26643,
-  "sha256": "430193e8f6f6c97527dfd57f31242a964bb24a710307b0526b1f57cb9b360981",
+  "bytes": 26625,
+  "sha256": "08565e2f5c1efd66fc95bb14c76a18c53f50b794bc0ca0289a64513f0b8b039a",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.2",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -52,6 +52,19 @@
       "bytes": [
         26636,
         26643
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "section(s) removed: India&rsquo;s Old Factory Index Said Electronics Output Fell 11% in 2023-24. The New One Says It Rose 20%",
+      "bytes": [
+        26643,
+        26625
       ],
       "url_changed": null,
       "markers_changed": null,

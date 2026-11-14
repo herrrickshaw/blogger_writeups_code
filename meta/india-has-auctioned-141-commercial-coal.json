@@ -1,13 +1,13 @@
 {
   "id": "7270078247256084662",
-  "title": "India Has Auctioned 141 Commercial Coal Mines Since 2020. Fifteen Produce Coal",
+  "title": "Commercial coal mines in India: 141 auctioned since 2020, 15 producing",
   "url": "https://blog.vertistratsolution.com/2026/10/india-has-auctioned-141-commercial-coal.html",
   "slug": "india-has-auctioned-141-commercial-coal",
   "published": "2026-10-09T18:56:21.000+05:30",
-  "updated": "2026-11-14T12:47:14.915+05:30",
+  "updated": "2026-11-14T15:29:07.253+05:30",
   "labels": [],
-  "bytes": 23664,
-  "sha256": "c5e2e05eb963727cbd833df6c3e68e4cef4e60b2125bc082c7f0a27fec13fdcf",
+  "bytes": 23656,
+  "sha256": "d27bde02e0b9364877dce29ba7a04156f2585cdf2aba58927ecc7ca258602517",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.1.2",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -65,6 +65,19 @@
       "bytes": [
         23658,
         23664
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        23664,
+        23656
       ],
       "url_changed": null,
       "markers_changed": null,

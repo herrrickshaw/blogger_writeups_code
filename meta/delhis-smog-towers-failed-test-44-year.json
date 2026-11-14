@@ -1,16 +1,16 @@
 {
   "id": "6542665269617085138",
-  "title": "Delhi's Smog Towers Failed the Test. A 44-Year-Old Army Programme Didn't.",
+  "title": "Delhi's smog towers and purifiers: almost no measured effect at city scale",
   "url": "https://blog.vertistratsolution.com/2026/09/delhis-smog-towers-failed-test-44-year.html",
   "slug": "delhis-smog-towers-failed-test-44-year",
   "published": "2026-09-13T10:10:56.000+05:30",
-  "updated": "2026-11-14T13:00:52.226+05:30",
+  "updated": "2026-11-14T15:13:43.091+05:30",
   "labels": [
     "Climate & Carbon",
     "Environment & Clearances"
   ],
-  "bytes": 43937,
-  "sha256": "0a8542458649455f36d44a86144501371dd1e96865466edc60433ed66c784eaa",
+  "bytes": 43938,
+  "sha256": "7a28374e6d104c71a25941f76bacde4ca5646ae6aa9f91889557c1e00f17896b",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.4.2",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -120,6 +120,19 @@
       "bytes": [
         43933,
         43937
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        43937,
+        43938
       ],
       "url_changed": null,
       "markers_changed": null,

@@ -1,18 +1,18 @@
 {
   "id": "602008193297885632",
-  "title": "Ten Cubic Metres an Hour: India's First Green Fuel Bunkering Rulebook, and the Pilots Behind It",
+  "title": "India's green fuel bunkering rules: detailed circular, 10 Nm³/hour hydrogen pilot",
   "url": "https://blog.vertistratsolution.com/2026/08/ten-cubic-metres-hour-indias-first.html",
   "slug": "ten-cubic-metres-hour-indias-first",
   "published": "2026-08-20T10:01:38.000+05:30",
-  "updated": "2026-11-14T13:16:27.722+05:30",
+  "updated": "2026-11-14T16:00:43.585+05:30",
   "labels": [
     "Energy & Fuels",
     "Hydrogen",
     "Industrial Policy",
     "Shipping & Maritime Fuels"
   ],
-  "bytes": 38902,
-  "sha256": "c0dc5bda476a3c144dd8c7f75e5a01dfccb78679b171e89eccd7ed0b277bc4a4",
+  "bytes": 38888,
+  "sha256": "0453f8d5af86994124b91507669ab0908c8fe54dd5d4385ae6e48ca6d178542b",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.3.2",
+  "version": "3.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -187,6 +187,19 @@
       "bytes": [
         38897,
         38902
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        38902,
+        38888
       ],
       "url_changed": null,
       "markers_changed": null,

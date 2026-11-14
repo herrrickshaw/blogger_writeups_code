@@ -1,17 +1,17 @@
 {
   "id": "3828911004436594072",
-  "title": "Interpreting the Gazette Notification",
+  "title": "India's gazette notifications: the Gazette Trail database holds 2,637 of them",
   "url": "https://blog.vertistratsolution.com/2026/09/interpreting-gazette-notification.html",
   "slug": "interpreting-gazette-notification",
   "published": "2026-09-04T10:06:40.000+05:30",
-  "updated": "2026-11-14T13:03:37.246+05:30",
+  "updated": "2026-11-14T15:47:14.709+05:30",
   "labels": [
     "Ease of Doing Business & Regulatory Reform",
     "Industrial Policy",
     "Trade & Tariffs"
   ],
-  "bytes": 44576,
-  "sha256": "9edb7c915dbcbbaf7679feaabc75ac8914bbc2447aa77761d755fa2de39a5106",
+  "bytes": 44616,
+  "sha256": "61fc78dcc6dc4ae339b43045dbe7ba299242df6ce5cfdbcd7cec307f26d4260e",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.2",
+  "version": "4.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -160,6 +160,19 @@
       "bytes": [
         44572,
         44576
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "4.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        44576,
+        44616
       ],
       "url_changed": null,
       "markers_changed": null,

@@ -1,16 +1,16 @@
 {
   "id": "2726991489449968213",
-  "title": "India Dropped the Last Approvals on Its Data-Centre Tax Holiday. It Never Said What the Holiday Costs",
+  "title": "India's data centre tax holiday to 2047: approvals dropped, cost not published",
   "url": "https://blog.vertistratsolution.com/2026/10/india-dropped-last-approvals-on-its.html",
   "slug": "india-dropped-last-approvals-on-its",
   "published": "2026-10-28T15:34:08.000+05:30",
-  "updated": "2026-11-14T12:28:00.125+05:30",
+  "updated": "2026-11-14T15:26:31.991+05:30",
   "labels": [
     "Industrial Policy",
     "Trade & Tariffs"
   ],
-  "bytes": 26273,
-  "sha256": "d89c3d21d2a37748477c2533921ec40310b60fd567002ee7d1f4ad389c676831",
+  "bytes": 26250,
+  "sha256": "965a38f5192ddd0cc43efe38d41f4f8c384684249c70c067154ba80ccfb35a87",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.2",
+  "version": "3.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -68,6 +68,19 @@
       "bytes": [
         26262,
         26273
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        26273,
+        26250
       ],
       "url_changed": null,
       "markers_changed": null,

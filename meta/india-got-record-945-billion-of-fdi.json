@@ -1,16 +1,16 @@
 {
   "id": "5872586407197754812",
-  "title": "India Got a Record $94.5 Billion of FDI Last Year. Net of Exits and Investment Abroad, $7.7 Billion Stayed",
+  "title": "India's net FDI: $7.7 billion stayed of a record $94.5 billion last year",
   "url": "https://blog.vertistratsolution.com/2026/10/india-got-record-945-billion-of-fdi.html",
   "slug": "india-got-record-945-billion-of-fdi",
   "published": "2026-10-27T17:25:06.000+05:30",
-  "updated": "2026-11-14T12:31:19.912+05:30",
+  "updated": "2026-11-14T15:27:47.892+05:30",
   "labels": [
     "Macroeconomics & Monetary Policy",
     "Markets & Finance"
   ],
-  "bytes": 28195,
-  "sha256": "d8d388664a71d5b80f1d24850fd46d6f5b45056ad0429d49086dd046a328f87b",
+  "bytes": 28161,
+  "sha256": "8e79f2bca12b280eec4715fc807a4c4b317146552e58a4cafbb005f75226d71c",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.1.2",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -68,6 +68,19 @@
       "bytes": [
         28187,
         28195
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "section(s) removed: India Got a Record $94.5 Billion of FDI Last Year. Net of Exits and Investment Abroad, $7.7 Billion Stayed",
+      "bytes": [
+        28195,
+        28161
       ],
       "url_changed": null,
       "markers_changed": null,

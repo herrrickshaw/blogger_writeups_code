@@ -1,17 +1,17 @@
 {
   "id": "1647861138238344835",
-  "title": "PLI for Medical Devices: What's Covered, What Isn't — and Where to Apply Next",
+  "title": "PLI for medical devices: 28 projects, no new application rounds before March 2027",
   "url": "https://blog.vertistratsolution.com/2026/08/pli-medical-devices-coverage-and-gaps.html",
   "slug": "pli-medical-devices-coverage-and-gaps",
   "published": "2026-08-05T05:27:53.000+05:30",
-  "updated": "2026-11-14T13:34:22.678+05:30",
+  "updated": "2026-11-14T15:53:05.119+05:30",
   "labels": [
     "Industrial Policy",
     "PLI Schemes",
     "Trade & Tariffs"
   ],
-  "bytes": 27993,
-  "sha256": "5bf08b9e719e24f89019d383e206c4952fe705ff6ed20352ebe2e97e5006ab66",
+  "bytes": 27991,
+  "sha256": "0def317df156f4bf4818f398cfae85c7266b9ca7b9396cf4042014fb7e7ee1a2",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.3.2",
+  "version": "4.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -338,6 +338,19 @@
       "bytes": [
         27988,
         27993
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "4.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        27993,
+        27991
       ],
       "url_changed": null,
       "markers_changed": null,

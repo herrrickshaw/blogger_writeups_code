@@ -1,17 +1,17 @@
 {
   "id": "2494479953157904925",
-  "title": "Electrification Is LNG's Biggest Decarbonization Lever. The Grid Is What Actually Limits It",
+  "title": "LNG decarbonization: electrification is the biggest lever, limited by the grid",
   "url": "https://blog.vertistratsolution.com/2026/09/electrification-is-lngs-biggest.html",
   "slug": "electrification-is-lngs-biggest",
   "published": "2026-09-14T14:29:55.000+05:30",
-  "updated": "2026-11-14T13:00:43.200+05:30",
+  "updated": "2026-11-14T15:16:00.691+05:30",
   "labels": [
     "Climate & Carbon",
     "Gas & LNG",
     "LNG Plant & Terminal Engineering"
   ],
-  "bytes": 32611,
-  "sha256": "257aae5f73fa88d54f3ee80f3ca69f604f4d8eb206edb851cdc4ee960de6fba3",
+  "bytes": 32598,
+  "sha256": "3a2053f49985c29e9c67b0049a37ce246e4b00e2925fbd1236016d222830771c",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.4.2",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -121,6 +121,19 @@
       "bytes": [
         32608,
         32611
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "section(s) removed: Electrification Is LNG's Biggest Decarbonization Lever. The Grid Is What Actually Limits It",
+      "bytes": [
+        32611,
+        32598
       ],
       "url_changed": null,
       "markers_changed": null,

@@ -1,16 +1,16 @@
 {
   "id": "8628895431012854238",
-  "title": "IPA Digital Twin — Reportage: Latest Updates (15 Sep – 9 Nov 2026)",
+  "title": "IPA Digital Twin: scheme-tagged press releases, 15 Sep to 9 Nov 2026",
   "url": "https://blog.vertistratsolution.com/2026/08/ipa-digital-twin-reportage-latest.html",
   "slug": "ipa-digital-twin-reportage-latest",
   "published": "2026-08-02T09:54:34.000+05:30",
-  "updated": "2026-11-14T13:41:35.955+05:30",
+  "updated": "2026-11-14T15:47:25.151+05:30",
   "labels": [
     "Industrial Policy",
     "Parliamentary Scheme Tracking"
   ],
-  "bytes": 102021,
-  "sha256": "1c5c2450fc329112a5198659398907502c6771b9a83901728a3a20168214a80e",
+  "bytes": 102063,
+  "sha256": "86312bc3ab14f985fbfef4b21c8d2d7ebdd6e4c7855082d41f80a0ed6d157055",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "4.0.2",
+  "version": "5.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -172,6 +172,19 @@
       "bytes": [
         102018,
         102021
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "5.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        102021,
+        102063
       ],
       "url_changed": null,
       "markers_changed": null,

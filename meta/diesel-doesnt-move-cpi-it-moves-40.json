@@ -1,15 +1,15 @@
 {
   "id": "4224393206963221960",
-  "title": "From Diesel to CNG: Where the Switch Actually Pays",
+  "title": "Diesel to CNG in India: the case is a ₹40-per-litre price gap between buyers",
   "url": "https://blog.vertistratsolution.com/2026/08/diesel-doesnt-move-cpi-it-moves-40.html",
   "slug": "diesel-doesnt-move-cpi-it-moves-40",
   "published": "2026-08-06T12:38:39.000+05:30",
-  "updated": "2026-11-14T14:37:38.071+05:30",
+  "updated": "2026-11-14T15:14:02.998+05:30",
   "labels": [
     "Energy & Fuels"
   ],
-  "bytes": 42486,
-  "sha256": "dd74a95d3ffa1f41176cccd0f0b9c4bd18280b4774ee32704fd373435fbc5ab4",
+  "bytes": 42512,
+  "sha256": "e7f25736fb66d44fe43cc5a42306ebedad1e9b9c03d56eec5a169df8b296bff0",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "6.2.2",
+  "version": "7.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -379,6 +379,19 @@
       "bytes": [
         42476,
         42486
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "7.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        42486,
+        42512
       ],
       "url_changed": null,
       "markers_changed": null,

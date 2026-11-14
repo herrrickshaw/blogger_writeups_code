@@ -1,16 +1,16 @@
 {
   "id": "8835495385247490703",
-  "title": "DISCOM Debt Relief — Token Charge Calculator",
+  "title": "Power distribution company debt: a token charge calculator for debt relief",
   "url": "https://blog.vertistratsolution.com/2026/08/discom-debt-relief-token-charge.html",
   "slug": "discom-debt-relief-token-charge",
   "published": "2026-08-02T13:41:21.000+05:30",
-  "updated": "2026-11-14T13:41:05.677+05:30",
+  "updated": "2026-11-14T15:14:12.826+05:30",
   "labels": [
     "Industrial Policy",
     "Public Sector & Infrastructure Finance"
   ],
-  "bytes": 30490,
-  "sha256": "47d1c4e7ee886f5503a32272d832a2ba002d820181e9b9cd20c7a13835bb47ea",
+  "bytes": 30518,
+  "sha256": "fd1ac1652d8b30de36d12edf659cec0e818134e5cc76d5ee8c5044ab2e64a11a",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.2.2",
+  "version": "4.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -302,6 +302,19 @@
       "bytes": [
         30485,
         30490
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "4.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "section(s) removed: ⚡ DISCOM Debt Relief — Token Charge Calculator",
+      "bytes": [
+        30490,
+        30518
       ],
       "url_changed": null,
       "markers_changed": null,

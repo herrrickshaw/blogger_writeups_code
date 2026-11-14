@@ -1,17 +1,17 @@
 {
   "id": "6127984960566289209",
-  "title": "India’s Biggest Mandi Crops Have the Steadiest Prices. Its Vegetables Swing Two to Eight Times as Much.",
+  "title": "Mandi prices in India: vegetables swing 2 to 8 times as much as paddy and wheat",
   "url": "https://blog.vertistratsolution.com/2026/10/indias-biggest-mandi-crops-have.html",
   "slug": "indias-biggest-mandi-crops-have",
   "published": "2026-10-24T11:36:27.000+05:30",
-  "updated": "2026-11-14T12:34:39.071+05:30",
+  "updated": "2026-11-14T15:36:26.099+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Grain Procurement & Storage",
     "Prices & Inflation"
   ],
-  "bytes": 71068,
-  "sha256": "186900995c4f1f656cf68a3f50d0d2cf0ff8d18a587a464eef29aaa8dbfb2202",
+  "bytes": 71038,
+  "sha256": "02ff512d4111412d325be691bf92145f2b449d1ca84d77f008ea2b6a2fd1c83d",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.2",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -56,6 +56,19 @@
       "bytes": [
         71059,
         71068
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        71068,
+        71038
       ],
       "url_changed": null,
       "markers_changed": null,

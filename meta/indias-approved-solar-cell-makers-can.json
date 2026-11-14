@@ -1,18 +1,18 @@
 {
   "id": "3807717669854813577",
-  "title": "India's Approved Solar-Cell Makers Can Now Make 37.8 GW a Year. Rooftop Projects Have Until 31 December to Use Them",
+  "title": "India's approved solar-cell list: 37.8 GW a year, rooftop exemption ends 31 December 2026",
   "url": "https://blog.vertistratsolution.com/2026/10/indias-approved-solar-cell-makers-can.html",
   "slug": "indias-approved-solar-cell-makers-can",
   "published": "2026-10-26T14:47:45.000+05:30",
-  "updated": "2026-11-14T12:32:48.982+05:30",
+  "updated": "2026-11-14T15:36:05.618+05:30",
   "labels": [
     "Energy & Fuels",
     "Import Substitution",
     "Industrial Policy",
     "Renewable Power & Storage"
   ],
-  "bytes": 27981,
-  "sha256": "c8f47c546dc0e46db7ee614bec2c6c89dbfda839d763853cc767b331fd18e777",
+  "bytes": 27955,
+  "sha256": "502c9452d0c96fdf56e395f9b722975991f841f3eeef22b7471cbc1153a56651",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.1.2",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -83,6 +83,19 @@
       "bytes": [
         27977,
         27981
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        27981,
+        27955
       ],
       "url_changed": null,
       "markers_changed": null,

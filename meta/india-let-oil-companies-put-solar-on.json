@@ -1,17 +1,17 @@
 {
   "id": "3472420158660161675",
-  "title": "India Let Oil Companies Put Solar on Their Own Leases. A Year On, ONGC's Own Build Is Under 1 Megawatt — It Bought 4 Gigawatts Instead.",
+  "title": "ONGC solar on oil leases: under 1 MW built a year after the law, 4 GW bought",
   "url": "https://blog.vertistratsolution.com/2026/09/india-let-oil-companies-put-solar-on.html",
   "slug": "india-let-oil-companies-put-solar-on",
   "published": "2026-09-28T15:57:52.000+05:30",
-  "updated": "2026-11-14T12:52:18.926+05:30",
+  "updated": "2026-11-14T15:31:20.133+05:30",
   "labels": [
     "Energy & Fuels",
     "Oil & Gas Exploration",
     "Renewable Power & Storage"
   ],
-  "bytes": 32193,
-  "sha256": "a3a4034369c866fc435fb0a97d8e13deb4c00fbddaef6bcdd57826e2ed9a6001",
+  "bytes": 32128,
+  "sha256": "3762161dc3100be8ee4a05a9dae38ad1a3c9155631076e79eeaa7b802d2f7431",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.2",
+  "version": "4.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -108,6 +108,19 @@
       "bytes": [
         32184,
         32193
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "4.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "section(s) removed: India Let Oil Companies Put Solar on Their Own Leases. A Year On, ONGC's Own Build Is Under 1 Megawatt &mdash; It Bought 4 Gigawatts Instead.",
+      "bytes": [
+        32193,
+        32128
       ],
       "url_changed": null,
       "markers_changed": null,

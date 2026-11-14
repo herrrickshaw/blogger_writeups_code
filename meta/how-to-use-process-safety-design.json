@@ -1,16 +1,16 @@
 {
   "id": "1785108289696977018",
-  "title": "How to Use the Process-Safety Design Toolkit: A Complete Walkthrough, Command by Command",
+  "title": "How to use the process-safety design toolkit: relief, fire and dispersion checks",
   "url": "https://blog.vertistratsolution.com/2026/11/how-to-use-process-safety-design.html",
   "slug": "how-to-use-process-safety-design",
   "published": "2026-11-05T18:11:55.000+05:30",
-  "updated": "2026-11-14T14:36:56.893+05:30",
+  "updated": "2026-11-14T15:24:15.213+05:30",
   "labels": [
     "Open-Source Tools & How-To",
     "Refining & Petrochemicals"
   ],
-  "bytes": 79562,
-  "sha256": "c1ee4541507b28fc8f8634a1c5013866593a01199c594d172d2533d783605349",
+  "bytes": 79639,
+  "sha256": "ea5a9ebe7ef70b365b747bbcc1cd82b3327530020c1c5b04a5d5401d0dada1c0",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "4.0.1",
+  "version": "5.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -107,6 +107,19 @@
       "bytes": [
         79553,
         79562
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "5.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "section(s) removed: ...",
+      "bytes": [
+        79562,
+        79639
       ],
       "url_changed": null,
       "markers_changed": null,

@@ -1,16 +1,16 @@
 {
   "id": "9122899492628506232",
-  "title": "Refineries Under Fire: How Two Wars Turned Oil and Gas Infrastructure Into a Drone Target, and Made Counter-UAS a Global Energy-Security Line Item",
+  "title": "Refineries as drone targets: 2 wars make counter-drone defence an energy-security cost",
   "url": "https://blog.vertistratsolution.com/2026/08/refineries-under-fire-how-two-wars.html",
   "slug": "refineries-under-fire-how-two-wars",
   "published": "2026-08-20T10:22:11.000+05:30",
-  "updated": "2026-11-14T13:16:17.751+05:30",
+  "updated": "2026-11-14T15:55:52.320+05:30",
   "labels": [
     "Energy & Fuels",
     "Industrial Policy"
   ],
-  "bytes": 43376,
-  "sha256": "6a8cab7c5a40c496e62430714197b0de20eb0d101807181200b37fcd73cc3c44",
+  "bytes": 43316,
+  "sha256": "1802c492beb73a5d7bd9f7b9b6cf272bc9afd3431e91f88ca089b76d59cbc4f7",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.3.2",
+  "version": "3.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -198,6 +198,19 @@
       "bytes": [
         43372,
         43376
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        43376,
+        43316
       ],
       "url_changed": null,
       "markers_changed": null,

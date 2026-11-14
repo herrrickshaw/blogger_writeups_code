@@ -1,17 +1,17 @@
 {
   "id": "3723395141865746516",
-  "title": "India Tracks Every Taxpayer in Minutes. Its Patients Got a Digital ID in 2021, While Indian IT Earns Billions From Foreign Healthcare",
+  "title": "India's health ID: optional since 2021, while tax numbers are issued in about 10 minutes",
   "url": "https://blog.vertistratsolution.com/2026/10/india-tracks-every-taxpayer-in-minutes.html",
   "slug": "india-tracks-every-taxpayer-in-minutes",
   "published": "2026-10-18T06:50:17.000+05:30",
-  "updated": "2026-11-14T12:44:29.783+05:30",
+  "updated": "2026-11-14T15:33:17.841+05:30",
   "labels": [
     "Healthcare",
     "Industrial Policy",
     "Scheme Delivery Gap"
   ],
-  "bytes": 53649,
-  "sha256": "6a573c1d1a688440f06c8f287b0c1164fdded09c1d359d59420fccbb0c49b08f",
+  "bytes": 53604,
+  "sha256": "1807b1b0df39a656169ac07dfa59e50601dea273299db28ae1c3fd02f17ab4d0",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.2",
+  "version": "3.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -95,6 +95,19 @@
       "bytes": [
         53639,
         53649
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        53649,
+        53604
       ],
       "url_changed": null,
       "markers_changed": null,

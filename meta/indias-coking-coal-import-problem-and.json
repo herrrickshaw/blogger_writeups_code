@@ -1,15 +1,15 @@
 {
   "id": "507441048491220111",
-  "title": "India's Coking Coal Import Problem, and Why \"Biomass Pellets\" Isn't the Fix — Biochar Is a SAIL Pilot, Not a Programme",
+  "title": "India's coking coal: roughly 90% imported, with biochar at pilot scale at SAIL",
   "url": "https://blog.vertistratsolution.com/2026/08/indias-coking-coal-import-problem-and.html",
   "slug": "indias-coking-coal-import-problem-and",
   "published": "2026-08-14T07:34:14.000+05:30",
-  "updated": "2026-11-14T13:22:08.198+05:30",
+  "updated": "2026-11-14T15:37:26.883+05:30",
   "labels": [
     "Import Substitution"
   ],
-  "bytes": 52112,
-  "sha256": "32ce04acc2e3192c500a516494f56e040f5b8928f3703ae2c6f1a6a6eb2db1e8",
+  "bytes": 52066,
+  "sha256": "e4b8640933f6364726c230cb87074d573dcf6e0f8d2af00b77d93b3a7bf92084",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "4.1.2",
+  "version": "5.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -210,6 +210,19 @@
       "bytes": [
         52107,
         52112
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "5.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        52112,
+        52066
       ],
       "url_changed": null,
       "markers_changed": null,

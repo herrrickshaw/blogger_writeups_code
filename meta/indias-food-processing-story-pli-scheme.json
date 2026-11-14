@@ -1,16 +1,16 @@
 {
   "id": "3297231875858891336",
-  "title": "India's Food Processing Story: A PLI Scheme Beating Its Own Targets, and a Cold-Chain Gap That Isn't Closing",
+  "title": "Food processing in India: PLI beats its job target, cold-chain gap remains",
   "url": "https://blog.vertistratsolution.com/2026/08/indias-food-processing-story-pli-scheme.html",
   "slug": "indias-food-processing-story-pli-scheme",
   "published": "2026-08-08T21:33:25.000+05:30",
-  "updated": "2026-11-14T13:28:19.190+05:30",
+  "updated": "2026-11-14T15:40:56.076+05:30",
   "labels": [
     "Industrial Policy",
     "PLI Schemes"
   ],
-  "bytes": 28029,
-  "sha256": "38df0e3a60d7dc1cbc71a986bb1b4685ce16eb5d7b44c9841bb15a3dccdb2318",
+  "bytes": 27995,
+  "sha256": "0c5a412fa76621cd4d4fc9fbb08cbbec10f6981034d41e979473107061bbfc8f",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "4.1.2",
+  "version": "5.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -302,6 +302,19 @@
       "bytes": [
         28025,
         28029
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "5.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "section(s) removed: India's Food Processing Story: A PLI Scheme Beating Its Own Targets, and a Cold-Chain Gap That Isn't Closing",
+      "bytes": [
+        28029,
+        27995
       ],
       "url_changed": null,
       "markers_changed": null,

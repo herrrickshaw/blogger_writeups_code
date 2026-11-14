@@ -1,15 +1,15 @@
 {
   "id": "8574358114193474299",
-  "title": "A Textile SEZ Built to Re-Employ Mill Workers Has Shrunk 87% Since 2007",
+  "title": "Textile SEZ built to re-employ mill workers: 87% smaller since 2007",
   "url": "https://blog.vertistratsolution.com/2026/09/a-textile-sez-built-to-re-employ-mill.html",
   "slug": "a-textile-sez-built-to-re-employ-mill",
   "published": "2026-09-15T09:29:36.000+05:30",
-  "updated": "2026-11-14T12:59:22.087+05:30",
+  "updated": "2026-11-14T15:07:34.218+05:30",
   "labels": [
     "Textiles"
   ],
-  "bytes": 20237,
-  "sha256": "fe017c3c87efd2f289a628a48075b7be86625d849dbf56c56453ffde46752512",
+  "bytes": 20233,
+  "sha256": "45d2c27eaf88d1bd772bfd0b368d5d34deb674d4fc5e7ed0072aee0499236f69",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.2",
+  "version": "3.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -119,6 +119,19 @@
       "bytes": [
         20233,
         20237
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "section(s) removed: A Textile SEZ Built to Re-Employ Mill Workers Has Shrunk 87% Since 2007",
+      "bytes": [
+        20237,
+        20233
       ],
       "url_changed": null,
       "markers_changed": null,

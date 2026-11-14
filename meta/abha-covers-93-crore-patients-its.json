@@ -1,16 +1,16 @@
 {
   "id": "5621785209926858364",
-  "title": "ABHA Covers 93 Crore Patients. Its Doctor Registry Covers 67%, and Insurers Aren't Required to Use the Claims Exchange Yet",
+  "title": "ABHA: 93 crore patient accounts, with 67% of doctors holding a professional ID",
   "url": "https://blog.vertistratsolution.com/2026/09/abha-covers-93-crore-patients-its.html",
   "slug": "abha-covers-93-crore-patients-its",
   "published": "2026-09-17T06:56:16.000+05:30",
-  "updated": "2026-11-14T12:56:52.855+05:30",
+  "updated": "2026-11-14T15:07:44.012+05:30",
   "labels": [
     "Healthcare",
     "Industrial Policy"
   ],
-  "bytes": 28742,
-  "sha256": "3727a250e0c5cac9b91b0207a756bd14fe83c8208b37774df616b11ddcd8e7b9",
+  "bytes": 28698,
+  "sha256": "bc845f8a1127361be10cb49f2e6dca6c52bbd8f1938c0f0f0b5c9e9672dacce3",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.1.2",
+  "version": "3.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -120,6 +120,19 @@
       "bytes": [
         28737,
         28742
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "section(s) removed: ABHA Covers 93 Crore Patients. Its Doctor Registry Covers 67%, and Insurers Aren't Required to Use the Claims Exchange Yet",
+      "bytes": [
+        28742,
+        28698
       ],
       "url_changed": null,
       "markers_changed": null,

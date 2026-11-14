@@ -1,18 +1,18 @@
 {
   "id": "1512618575384210314",
-  "title": "India Hit E20 on Maize and Rice, Not Sugarcane",
+  "title": "India's E20 ethanol target: reached mainly with maize and rice, not sugarcane",
   "url": "https://blog.vertistratsolution.com/2026/08/india-hit-e20-on-maize-and-rice-not.html",
   "slug": "india-hit-e20-on-maize-and-rice-not",
   "published": "2026-08-23T04:34:22.000+05:30",
-  "updated": "2026-11-14T13:13:57.574+05:30",
+  "updated": "2026-11-14T15:29:54.614+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Energy & Fuels",
     "Ethanol & Biofuels",
     "India"
   ],
-  "bytes": 26865,
-  "sha256": "a1535e939206eb705e6a29dd6f4abef5e59b043840eefad788451807bf40f5a0",
+  "bytes": 26896,
+  "sha256": "e85575a9804d95539de737a72a4a7825ac5214d31255137e5574818f1195e2f1",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.2.2",
+  "version": "3.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -135,6 +135,19 @@
       "bytes": [
         26860,
         26865
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "section(s) removed: India Hit E20 on Maize and Rice, Not Sugarcane",
+      "bytes": [
+        26865,
+        26896
       ],
       "url_changed": null,
       "markers_changed": null,

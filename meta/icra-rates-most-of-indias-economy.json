@@ -1,16 +1,16 @@
 {
   "id": "987709202630092179",
-  "title": "ICRA Rates Most of India's Economy Stable. Three Sectors Got Hit by the Same Shock",
+  "title": "ICRA outlook for India: most sectors stable, 3 downgraded by one shared cause",
   "url": "https://blog.vertistratsolution.com/2026/09/icra-rates-most-of-indias-economy.html",
   "slug": "icra-rates-most-of-indias-economy",
   "published": "2026-09-03T10:20:13.000+05:30",
-  "updated": "2026-11-14T13:04:08.927+05:30",
+  "updated": "2026-11-14T15:24:24.509+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Industrial Policy"
   ],
-  "bytes": 41828,
-  "sha256": "792e5addd44ca23d09e183291ea7c793b2a010414455a509ef41d9bcd71ece18",
+  "bytes": 41823,
+  "sha256": "89f0ef50ac34d1fd22fa03c42da3ca0a9794b7e53ebca58518e760fdafec4faf",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.2.2",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -146,6 +146,19 @@
       "bytes": [
         41825,
         41828
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        41828,
+        41823
       ],
       "url_changed": null,
       "markers_changed": null,

@@ -1,17 +1,17 @@
 {
   "id": "2428462414715391757",
-  "title": "Ethanol Freed Up Refinery Capacity for Petrochemicals. The Pharma Chain Hasn't Seen Much of It Yet.",
+  "title": "E20 blending: freed refinery capacity goes to polymers and LPG, not pharma",
   "url": "https://blog.vertistratsolution.com/2026/09/ethanol-freed-up-refinery-capacity-for.html",
   "slug": "ethanol-freed-up-refinery-capacity-for",
   "published": "2026-09-16T13:32:18.000+05:30",
-  "updated": "2026-11-14T12:58:01.504+05:30",
+  "updated": "2026-11-14T15:16:49.483+05:30",
   "labels": [
     "Chemicals",
     "Energy & Fuels",
     "Refining & Petrochemicals"
   ],
-  "bytes": 50351,
-  "sha256": "cc23a1efcbf39a0c8d5780dbedbcc0aac515488dda5c8cc945d3080d4dd6b5a1",
+  "bytes": 50326,
+  "sha256": "67a53b183d515c02638cab5fde9b34af389d3b26063d7289e93061b4cdcf540e",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.2.2",
+  "version": "3.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -264,6 +264,19 @@
       "bytes": [
         50341,
         50351
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        50351,
+        50326
       ],
       "url_changed": null,
       "markers_changed": null,

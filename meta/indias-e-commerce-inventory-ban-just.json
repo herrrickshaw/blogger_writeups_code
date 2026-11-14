@@ -1,15 +1,15 @@
 {
   "id": "6385822206370470964",
-  "title": "India's E-Commerce Inventory Ban Just Got Its First Real Exception — For Exports Only",
+  "title": "India's e-commerce inventory ban: 19th amendment allows inventory for exports",
   "url": "https://blog.vertistratsolution.com/2026/09/indias-e-commerce-inventory-ban-just.html",
   "slug": "indias-e-commerce-inventory-ban-just",
   "published": "2026-09-15T09:26:58.000+05:30",
-  "updated": "2026-11-14T12:59:31.668+05:30",
+  "updated": "2026-11-14T15:38:33.795+05:30",
   "labels": [
     "Trade & Tariffs"
   ],
-  "bytes": 24587,
-  "sha256": "94eac7bd92799571a80a04da4cdd055d09b11b5f5e2f7737acdfa1204cffbb82",
+  "bytes": 24573,
+  "sha256": "516c6f924903b687a4f0951223163dae03b2aa5af09cd7b499d890d918bd914f",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.3.2",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -119,6 +119,19 @@
       "bytes": [
         24583,
         24587
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        24587,
+        24573
       ],
       "url_changed": null,
       "markers_changed": null,

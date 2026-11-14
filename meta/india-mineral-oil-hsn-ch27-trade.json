@@ -1,16 +1,16 @@
 {
   "id": "6935574229087271959",
-  "title": "India Mineral-Oil (HSN Ch.27) Trade × Pricing Dashboard",
+  "title": "India's mineral oil trade, HSN Chapter 27: trade balance and pricing dashboard",
   "url": "https://blog.vertistratsolution.com/2026/08/india-mineral-oil-hsn-ch27-trade.html",
   "slug": "india-mineral-oil-hsn-ch27-trade",
   "published": "2026-07-30T09:42:00.000+05:30",
-  "updated": "2026-11-14T13:43:18.054+05:30",
+  "updated": "2026-11-14T15:31:40.532+05:30",
   "labels": [
     "Customs & HSN Trade Data",
     "Trade & Tariffs"
   ],
-  "bytes": 113923,
-  "sha256": "5f36fe12ff141f7c8f8da5055f3b4b8e8ecc78c28895d27e943843b26065fca2",
+  "bytes": 113953,
+  "sha256": "c72c9406a10ce6898743f62a6ce8211691c6093699ada1453834051ac5c0dc19",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.3.2",
+  "version": "4.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -376,6 +376,19 @@
       "bytes": [
         113920,
         113923
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "4.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        113923,
+        113953
       ],
       "url_changed": null,
       "markers_changed": null,

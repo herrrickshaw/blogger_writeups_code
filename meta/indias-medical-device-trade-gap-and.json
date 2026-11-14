@@ -1,16 +1,16 @@
 {
   "id": "2950583578332905916",
-  "title": "India's Medical-Device Trade Gap — and the Devices Worth Making Here",
+  "title": "India's medical-device trade gap: 148 tariff lines and which devices to make in India",
   "url": "https://blog.vertistratsolution.com/2026/08/indias-medical-device-trade-gap-and.html",
   "slug": "indias-medical-device-trade-gap-and",
   "published": "2026-08-05T05:24:27.000+05:30",
-  "updated": "2026-11-14T13:34:32.599+05:30",
+  "updated": "2026-11-14T15:42:15.031+05:30",
   "labels": [
     "Industrial Policy",
     "Trade & Tariffs"
   ],
-  "bytes": 30585,
-  "sha256": "b1f7a800867386d347b31309e6b01eff42c67ce64bec8e986abafbcee84bedfd",
+  "bytes": 30596,
+  "sha256": "80cb1582ea98ec4a49c37c8e95ee086d810966f985b2046f3464f9089e353346",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.3.2",
+  "version": "3.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -311,6 +311,19 @@
       "bytes": [
         30580,
         30585
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        30585,
+        30596
       ],
       "url_changed": null,
       "markers_changed": null,

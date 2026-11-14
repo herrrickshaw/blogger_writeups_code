@@ -1,16 +1,16 @@
 {
   "id": "5907700817280955310",
-  "title": "India Has Tax Treaties With 97 Countries and Trade Treaties With a Fraction of Them",
+  "title": "India's treaties: tax treaties with 97 countries, trade treaties with a fraction",
   "url": "https://blog.vertistratsolution.com/2026/08/india-has-tax-treaties-with-97.html",
   "slug": "india-has-tax-treaties-with-97",
   "published": "2026-08-09T10:54:39.000+05:30",
-  "updated": "2026-11-14T13:27:11.199+05:30",
+  "updated": "2026-11-14T15:29:35.886+05:30",
   "labels": [
     "Free Trade Agreements",
     "Trade & Tariffs"
   ],
-  "bytes": 32381,
-  "sha256": "cee8ac52adc18fe0ec78516444564a283890b530b83d6325c08067dfd91328b6",
+  "bytes": 32378,
+  "sha256": "8d3d041d3a7d879ba535547b67ab34622e43dfa2bc59d667e5e552cfb27e4f5b",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "4.3.2",
+  "version": "5.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -302,6 +302,19 @@
       "bytes": [
         32377,
         32381
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "5.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "section(s) removed: India Has Tax Treaties With 97 Countries and Trade Treaties With a Fraction of Them",
+      "bytes": [
+        32381,
+        32378
       ],
       "url_changed": null,
       "markers_changed": null,

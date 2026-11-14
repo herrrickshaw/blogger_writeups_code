@@ -1,18 +1,18 @@
 {
   "id": "8688286946981926359",
-  "title": "India's Cotton Yield Fell From 566 kg to Under 450 Since 2013. Kaala Cotton Isn't Grown Where That Drop Hurts Most.",
+  "title": "India's cotton yield: 566 kg/ha in 2013-14, under 450 kg/ha by 2024-25",
   "url": "https://blog.vertistratsolution.com/2026/09/indias-cotton-yield-fell-from-566-kg-to.html",
   "slug": "indias-cotton-yield-fell-from-566-kg-to",
   "published": "2026-09-27T10:35:29.000+05:30",
-  "updated": "2026-11-14T12:52:47.640+05:30",
+  "updated": "2026-11-14T15:37:45.494+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Circularity & Waste-to-Value",
     "Fertilisers & Soil Health",
     "Seeds & Plant Genetics"
   ],
-  "bytes": 39076,
-  "sha256": "41fb503154efecfc3fe98aaceb6ed5fbc823a4c22c472015f7df7146df68b90a",
+  "bytes": 39019,
+  "sha256": "110a8f6b84832fb0790b2bd85dc69170abdb7cf15661201e44772b2b99a04035",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.2",
+  "version": "3.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -96,6 +96,19 @@
       "bytes": [
         39068,
         39076
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "figures changed (+1/-0 distinct numbers)",
+      "bytes": [
+        39076,
+        39019
       ],
       "url_changed": null,
       "markers_changed": null,

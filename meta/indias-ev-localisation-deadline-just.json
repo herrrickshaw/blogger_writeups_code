@@ -1,17 +1,17 @@
 {
   "id": "6366434109919130393",
-  "title": "India's EV Localisation Deadline Just Split in Two, Because of the One Part China Still Controls",
+  "title": "India's EV localisation deadline: split in two over the one input China controls",
   "url": "https://blog.vertistratsolution.com/2026/09/indias-ev-localisation-deadline-just.html",
   "slug": "indias-ev-localisation-deadline-just",
   "published": "2026-09-15T09:00:40.000+05:30",
-  "updated": "2026-11-14T12:59:42.447+05:30",
+  "updated": "2026-11-14T15:39:22.850+05:30",
   "labels": [
     "Import Substitution",
     "Industrial Policy",
     "Mobility & EV"
   ],
-  "bytes": 30420,
-  "sha256": "eb6329a40551fbb2d671a1468a103ccefe697dfb7a198367fe8f733040d95988",
+  "bytes": 30404,
+  "sha256": "b09a9dc225af9c7b2e0629c76b02f714299dbcb1ad03786a5c2e720cf319302f",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.2",
+  "version": "4.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -160,6 +160,19 @@
       "bytes": [
         30416,
         30420
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "4.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "section(s) removed: India's EV Localisation Deadline Just Split in Two, Because of the One Part China Still Controls",
+      "bytes": [
+        30420,
+        30404
       ],
       "url_changed": null,
       "markers_changed": null,

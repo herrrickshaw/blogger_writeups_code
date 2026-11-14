@@ -1,18 +1,18 @@
 {
   "id": "4348565879124749641",
-  "title": "India's Mobile-Phone PLI Beat Every Target. Its Chip-Fab Scheme Has 5 of 12 Plants Actually Producing.",
+  "title": "India's electronics schemes: phone PLI beat targets, 5 of 12 chip plants produce",
   "url": "https://blog.vertistratsolution.com/2026/08/indias-mobile-phone-pli-beat-every.html",
   "slug": "indias-mobile-phone-pli-beat-every",
   "published": "2026-08-30T08:15:44.000+05:30",
-  "updated": "2026-11-14T13:08:17.518+05:30",
+  "updated": "2026-11-14T15:42:34.462+05:30",
   "labels": [
     "Electronics & Semiconductors",
     "India",
     "Industrial Policy",
     "PLI Schemes"
   ],
-  "bytes": 26134,
-  "sha256": "acda485f44d8136515d8f80c2c46c37e2ea6bccc6500c5739dae827f9961a408",
+  "bytes": 26112,
+  "sha256": "9945dbb5615e1f671ab3d97aa16ce5d3a750d3105b350fd3fe73cfb21aca4198",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.2.3",
+  "version": "3.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -174,6 +174,19 @@
       "bytes": [
         26129,
         26134
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "section(s) removed: India's Mobile-Phone PLI Beat Every Target. Its Chip-Fab Scheme Has 5 of 12 Plants Actually Producing.",
+      "bytes": [
+        26134,
+        26112
       ],
       "url_changed": null,
       "markers_changed": null,

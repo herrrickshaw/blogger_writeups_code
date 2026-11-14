@@ -1,16 +1,16 @@
 {
   "id": "1565226703963072925",
-  "title": "Global LNG Trade Hit a Record 437 Million Tonnes in 2025 — Almost Double What It Was a Decade Ago",
+  "title": "Global LNG trade: record 437 million tonnes in 2025, nearly double a decade ago",
   "url": "https://blog.vertistratsolution.com/2026/09/global-lng-trade-hit-record-437-million.html",
   "slug": "global-lng-trade-hit-record-437-million",
   "published": "2026-09-14T14:50:21.000+05:30",
-  "updated": "2026-11-14T13:00:22.458+05:30",
+  "updated": "2026-11-14T15:21:49.125+05:30",
   "labels": [
     "Gas & LNG",
     "Global LNG Markets"
   ],
-  "bytes": 19586,
-  "sha256": "b37845fef5894211f8938488659449911e482d47e90c3039878bcebafbe5498f",
+  "bytes": 19562,
+  "sha256": "966952d7cf48261c1ff6121d7492255b63ecc93692a64cc8365e8a30a2fe9032",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.3.2",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -94,6 +94,19 @@
       "bytes": [
         19583,
         19586
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        19586,
+        19562
       ],
       "url_changed": null,
       "markers_changed": null,

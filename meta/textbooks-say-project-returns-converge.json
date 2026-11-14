@@ -1,15 +1,15 @@
 {
   "id": "1470391020597369483",
-  "title": "Textbooks Say Project Returns Converge to Cost of Capital. About 79% of the Gap Survives Each Year",
+  "title": "Project returns and cost of capital: about 79% of the gap persists each year",
   "url": "https://blog.vertistratsolution.com/2026/09/textbooks-say-project-returns-converge.html",
   "slug": "textbooks-say-project-returns-converge",
   "published": "2026-09-03T11:07:13.000+05:30",
-  "updated": "2026-11-14T13:03:59.130+05:30",
+  "updated": "2026-11-14T16:00:53.330+05:30",
   "labels": [
     "Markets & Finance"
   ],
-  "bytes": 31772,
-  "sha256": "fad3fec953d2b03f88d43455385381de3bbc7723b4a69e2cdd22c0dd13240875",
+  "bytes": 31720,
+  "sha256": "eefd28eba728dfcca890be4ea4f55831243e937902a2ae0e7c06fc4d0f763319",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.2",
+  "version": "3.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -132,6 +132,19 @@
       "bytes": [
         31769,
         31772
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "section(s) removed: Textbooks Say Project Returns Converge to Cost of Capital. About 79% of a Company's Edge Over Average Returns Survives Each Year",
+      "bytes": [
+        31772,
+        31720
       ],
       "url_changed": null,
       "markers_changed": null,

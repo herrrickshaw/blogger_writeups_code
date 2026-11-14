@@ -1,17 +1,17 @@
 {
   "id": "63637821813004824",
-  "title": "India Imports the Whey Protein Its Cheese Makers Pour Away. The Fix Is Shared Whey Hubs, Not a Dryer in Every Dairy",
+  "title": "India's whey protein: mostly imported, while cheese makers pour whey away",
   "url": "https://blog.vertistratsolution.com/2026/10/india-imports-whey-protein-its-cheese.html",
   "slug": "india-imports-whey-protein-its-cheese",
   "published": "2026-10-22T12:18:52.000+05:30",
-  "updated": "2026-11-14T12:36:20.205+05:30",
+  "updated": "2026-11-14T15:30:41.994+05:30",
   "labels": [
     "Agriculture & Food Processing",
     "Import Substitution",
     "Livestock & Dairy"
   ],
-  "bytes": 38654,
-  "sha256": "f49385381cb0b7a0660d7bcbfb3afcc69ef89549577a6654b446f7680b2316e6",
+  "bytes": 38612,
+  "sha256": "435d45b40c303acb78833b3a98fb4b9126aaf19c37aa5f9a6de0d87abf061533",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.2.2",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -82,6 +82,19 @@
       "bytes": [
         38640,
         38654
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "section(s) removed: India Imports the Whey Protein Its Cheese Makers Pour Away. The Fix Is Shared Whey Hubs, Not a Dryer in Every Dairy",
+      "bytes": [
+        38654,
+        38612
       ],
       "url_changed": null,
       "markers_changed": null,

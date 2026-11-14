@@ -1,18 +1,18 @@
 {
   "id": "6068404038481835725",
-  "title": "India's $4.45 Billion Spice Export Book Is Really Eight Different Crops in Eight Different States",
+  "title": "India's spice exports: $4.45 billion from 8 crops grown in 8 different states",
   "url": "https://blog.vertistratsolution.com/2026/08/indias-445-billion-spice-export-book-is.html",
   "slug": "indias-445-billion-spice-export-book-is",
   "published": "2026-08-24T15:02:33.000+05:30",
-  "updated": "2026-11-14T13:11:49.668+05:30",
+  "updated": "2026-11-14T15:35:08.010+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Cash Crop Export Economics",
     "India",
     "Trade & Tariffs"
   ],
-  "bytes": 35888,
-  "sha256": "a1f79deb53b0e9d91f26f88f06101b79ed468c0ef8d69958797be0e66f74c4d0",
+  "bytes": 35868,
+  "sha256": "7ce26a219d9fa23c0f18ecc3d4dbac8da3fc576bcf66573fbcd3a6edd6318250",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.3.2",
+  "version": "3.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -161,6 +161,19 @@
       "bytes": [
         35882,
         35888
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        35888,
+        35868
       ],
       "url_changed": null,
       "markers_changed": null,

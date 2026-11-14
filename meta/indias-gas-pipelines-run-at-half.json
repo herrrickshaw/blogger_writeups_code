@@ -1,18 +1,18 @@
 {
   "id": "647682710859994315",
-  "title": "India's Gas Pipelines Run at Half Capacity. Its Oil Pipelines Have the Opposite Problem",
+  "title": "India's pipelines: gas lines run at half capacity, oil product lines at 69.40%",
   "url": "https://blog.vertistratsolution.com/2026/09/indias-gas-pipelines-run-at-half.html",
   "slug": "indias-gas-pipelines-run-at-half",
   "published": "2026-09-08T05:37:01.000+05:30",
-  "updated": "2026-11-14T13:03:07.409+05:30",
+  "updated": "2026-11-14T15:41:05.989+05:30",
   "labels": [
     "Energy & Fuels",
     "Gas & LNG",
     "Gas Pipeline Infrastructure & Demand Planning",
     "Industrial Policy"
   ],
-  "bytes": 38728,
-  "sha256": "af429e43cf465fb74e68f742dfaccf6f2235ce40673d88479d445396c8d39914",
+  "bytes": 38719,
+  "sha256": "fcb69c4d456b75e42acf555824a4befd76b14a0eaee5f1e915abc11aaca0782c",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.1.2",
+  "version": "3.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -161,6 +161,19 @@
       "bytes": [
         38719,
         38728
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        38728,
+        38719
       ],
       "url_changed": null,
       "markers_changed": null,

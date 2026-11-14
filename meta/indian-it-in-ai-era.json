@@ -1,15 +1,15 @@
 {
   "id": "3921232394818232198",
-  "title": "Indian IT in an AI Era",
+  "title": "Indian IT services in the AI era: measured data shows AI helping, not hurting",
   "url": "https://blog.vertistratsolution.com/2026/08/indian-it-in-ai-era.html",
   "slug": "indian-it-in-ai-era",
   "published": "2026-08-04T12:48:16.000+05:30",
-  "updated": "2026-11-14T13:35:48.714+05:30",
+  "updated": "2026-11-14T15:34:29.246+05:30",
   "labels": [
     "Markets & Finance"
   ],
-  "bytes": 44786,
-  "sha256": "46eb263c210421e23e22cc8e7269d01a1390d63ab95e15605830c3f7af97829f",
+  "bytes": 44824,
+  "sha256": "77015b9fc296ddaef67cb9e5887a84c7a373b5b8a35f828d5822a8954d7cc552",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.2.2",
+  "version": "3.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -362,6 +362,19 @@
       "bytes": [
         44782,
         44786
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "section(s) removed: Indian IT in an AI Era",
+      "bytes": [
+        44786,
+        44824
       ],
       "url_changed": null,
       "markers_changed": null,

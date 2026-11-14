@@ -1,17 +1,17 @@
 {
   "id": "7443374010567847077",
-  "title": "Oil & Gas Projects Under Evaluation and Design: A Segment-Wise Read of 2026 (Upstream to Petchem)",
+  "title": "Oil and gas projects under evaluation in 2026: offshore, LNG, pipelines, upstream",
   "url": "https://blog.vertistratsolution.com/2026/11/oil-gas-projects-under-evaluation-and.html",
   "slug": "oil-gas-projects-under-evaluation-and",
   "published": "2026-11-06T04:14:03.000+05:30",
-  "updated": "2026-11-09T17:15:25.097+05:30",
+  "updated": "2026-11-14T15:51:16.433+05:30",
   "labels": [
     "Energy & Fuels",
     "Gas & LNG",
     "Refining & Petrochemicals"
   ],
-  "bytes": 22754,
-  "sha256": "aa5378b50c1e6ce8ff8ce9c666ec85d92c00c1ab82b4600b5d22b2ea1a2dd3e3",
+  "bytes": 22734,
+  "sha256": "d92b656c23cb1f1779be7f31bb4a1dd696d57b4c07c43cc3901b4d7d2c842ef9",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.1",
+  "version": "4.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -84,6 +84,19 @@
         "https://masaladeutsch.blogspot.com/2026/11/oil-gas-projects-under-evaluation-and.html",
         "https://blog.vertistratsolution.com/2026/11/oil-gas-projects-under-evaluation-and.html"
       ],
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "4.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "section(s) removed: Oil &amp; Gas Projects Under Evaluation and Design: A Segment-Wise Read of 2026 (Upstream to Petchem)",
+      "bytes": [
+        22754,
+        22734
+      ],
+      "url_changed": null,
       "markers_changed": null,
       "note": ""
     }

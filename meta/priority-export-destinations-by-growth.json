@@ -1,15 +1,15 @@
 {
   "id": "1687650766601616182",
-  "title": "Priority Export Destinations by Growth Sector, & Real PLI Coverage",
+  "title": "India's 12 growth export chapters: top destinations and PLI coverage, FY2025-26",
   "url": "https://blog.vertistratsolution.com/2026/08/priority-export-destinations-by-growth.html",
   "slug": "priority-export-destinations-by-growth",
   "published": "2026-08-02T13:49:40.000+05:30",
-  "updated": "2026-11-14T13:40:15.008+05:30",
+  "updated": "2026-11-14T15:54:25.860+05:30",
   "labels": [
     "Trade & Tariffs"
   ],
-  "bytes": 45618,
-  "sha256": "dd995384b3054b1d869e298ee10e1af1158936f05ebfdde568f3398763f1374f",
+  "bytes": 45574,
+  "sha256": "651ada14cb068553204d2f674dd360ee8b8e862aa8fc1bbc3cc9dd8e66651687",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.4.2",
+  "version": "4.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -332,6 +332,19 @@
       "bytes": [
         45614,
         45618
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "4.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        45618,
+        45574
       ],
       "url_changed": null,
       "markers_changed": null,

@@ -1,17 +1,17 @@
 {
   "id": "4966098788478018231",
-  "title": "From Barrel to Bottle: The Petrochemical Pivot Also Makes a Lighter LPG Cylinder",
+  "title": "Composite LPG cylinders: about half the weight of steel ones at around 15.3 kg",
   "url": "https://blog.vertistratsolution.com/2026/08/from-barrel-to-bottle-petrochemical.html",
   "slug": "from-barrel-to-bottle-petrochemical",
   "published": "2026-08-13T08:48:38.000+05:30",
-  "updated": "2026-11-14T13:23:07.119+05:30",
+  "updated": "2026-11-14T15:20:20.956+05:30",
   "labels": [
     "Chemicals",
     "Energy & Fuels",
     "Refining & Petrochemicals"
   ],
-  "bytes": 34509,
-  "sha256": "ad31f8cbcdfe9d12c778da9f26479c5f8d77b1469bc5fcd7134c6b27ca72ebec",
+  "bytes": 34507,
+  "sha256": "6879dd8c81f7c12a54580c7abbfa236deba12d627b72983299c586d8d1fa801a",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.3.2",
+  "version": "3.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -264,6 +264,19 @@
       "bytes": [
         34504,
         34509
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        34509,
+        34507
       ],
       "url_changed": null,
       "markers_changed": null,

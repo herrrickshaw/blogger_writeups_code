@@ -1,10 +1,10 @@
 {
   "id": "5280038841806806913",
-  "title": "Price Is the Wire: How GCAM Actually Links India's Energy, Land, Water and Economy to a Net-Zero Target",
+  "title": "Global Change Analysis Model: how prices link India's energy, land and water",
   "url": "https://blog.vertistratsolution.com/2026/08/price-is-wire-how-gcam-actually-links.html",
   "slug": "price-is-wire-how-gcam-actually-links",
   "published": "2026-08-13T10:21:55.000+05:30",
-  "updated": "2026-11-14T13:22:48.363+05:30",
+  "updated": "2026-11-14T15:54:15.821+05:30",
   "labels": [
     "Climate & Carbon",
     "Climate Modeling",
@@ -12,8 +12,8 @@
     "Energy Systems",
     "India"
   ],
-  "bytes": 44161,
-  "sha256": "745b22580e8ddde013f2d08667373d07792749db93e068eea63341924d71e05e",
+  "bytes": 44134,
+  "sha256": "60610d9cb970a212fcd917afb9823b3ce3f192d0c079b93ab19c0bb2aa1c8a96",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -25,7 +25,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.1.2",
+  "version": "4.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -227,6 +227,19 @@
       "bytes": [
         44156,
         44161
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "4.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "section(s) removed: Price Is the Wire: How GCAM Actually Links India's Energy, Land, Water and Economy to a Net-Zero Target",
+      "bytes": [
+        44161,
+        44134
       ],
       "url_changed": null,
       "markers_changed": null,

@@ -1,16 +1,16 @@
 {
   "id": "8478704422769886505",
-  "title": "Do Cheap Stocks Stay Cheap? Price-Band Migration and What K-Means Clustering Actually Finds",
+  "title": "Stock price bands: how 5,390 tickers moved from 2023 to 2026, and K-means clusters",
   "url": "https://blog.vertistratsolution.com/2026/08/do-cheap-stocks-stay-cheap-price-band.html",
   "slug": "do-cheap-stocks-stay-cheap-price-band",
   "published": "2026-08-11T15:52:01.000+05:30",
-  "updated": "2026-11-14T13:25:14.489+05:30",
+  "updated": "2026-11-14T15:14:32.955+05:30",
   "labels": [
     "Equity Markets & Stock Screening",
     "Markets & Finance"
   ],
-  "bytes": 95949,
-  "sha256": "7ceab5785df9c477e6494667f34bddae6c327d8c8c5c37f69598dd70029c8a07",
+  "bytes": 95940,
+  "sha256": "12bed0d282d364751cf872e12b55184e98e3bce5bd3a64b308ec6b37af2d01c1",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.1.2",
+  "version": "4.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -289,6 +289,19 @@
       "bytes": [
         95944,
         95949
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "4.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "figures changed (+1/-0 distinct numbers)",
+      "bytes": [
+        95949,
+        95940
       ],
       "url_changed": null,
       "markers_changed": null,

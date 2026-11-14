@@ -1,16 +1,16 @@
 {
   "id": "7881040128743478301",
-  "title": "Annadata to Urjadata: The Farmer-Income Case for Ethanol Blending",
+  "title": "Ethanol blending in India: how the payments reach farmers, and the maize limit",
   "url": "https://blog.vertistratsolution.com/2026/08/annadata-to-urjadata-farmer-income-case.html",
   "slug": "annadata-to-urjadata-farmer-income-case",
   "published": "2026-08-04T16:10:00.000+05:30",
-  "updated": "2026-11-14T13:34:50.751+05:30",
+  "updated": "2026-11-14T15:09:32.414+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Energy & Fuels"
   ],
-  "bytes": 46663,
-  "sha256": "169c716a9e2f19b504c086fb861e636a6fa2a6554b279d7169c1a1198e0a06da",
+  "bytes": 46637,
+  "sha256": "3201a833bc2d945f9cb8e6924be8351e171d1b587f209bffb433d9b60cb32b5f",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.2.2",
+  "version": "4.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -328,6 +328,19 @@
       "bytes": [
         46653,
         46663
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "4.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "section(s) removed: Annadata to Urjadata: The Farmer-Income Case for Ethanol Blending — and the Oversupply It Must Now Solve",
+      "bytes": [
+        46663,
+        46637
       ],
       "url_changed": null,
       "markers_changed": null,

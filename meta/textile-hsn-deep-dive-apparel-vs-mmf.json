@@ -1,15 +1,15 @@
 {
   "id": "3402930958562553181",
-  "title": "Textile HSN Deep-Dive — Apparel vs MMF Fibre Trade Scenarios",
+  "title": "India's apparel exports by HSN code: cotton lines lead, man-made fibre lines lag",
   "url": "https://blog.vertistratsolution.com/2026/07/textile-hsn-deep-dive-apparel-vs-mmf.html",
   "slug": "textile-hsn-deep-dive-apparel-vs-mmf",
   "published": "2026-07-28T05:30:00.000+05:30",
-  "updated": "2026-11-14T13:43:38.283+05:30",
+  "updated": "2026-11-14T16:01:02.970+05:30",
   "labels": [
     "Textiles"
   ],
-  "bytes": 23259,
-  "sha256": "4653776d9fb8f9fbf6beda9d78a3325ff96de098fd638eaf22da3b02b5240813",
+  "bytes": 23279,
+  "sha256": "a8cffa37ac051a5ab19ee50314969d7026a8f891c12b151a46772a2c9c93214a",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.2.2",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -80,6 +80,19 @@
       "bytes": [
         23254,
         23259
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "section(s) removed: Textile HSN Deep-Dive — Apparel vs MMF Fibre Trade Scenarios",
+      "bytes": [
+        23259,
+        23279
       ],
       "url_changed": null,
       "markers_changed": null,

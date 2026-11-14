@@ -1,15 +1,15 @@
 {
   "id": "4593507551985660613",
-  "title": "Five Open-Source Control Simulators for EV Batteries, Hydrogen Electrolysers and Prosthetic Hands, and Which to Start With",
+  "title": "Open-source control simulators: 5 for EV batteries, electrolysers and prosthetic hands",
   "url": "https://blog.vertistratsolution.com/2026/11/five-open-source-control-simulators-for.html",
   "slug": "five-open-source-control-simulators-for",
   "published": "2026-11-13T03:37:56.000+05:30",
-  "updated": "2026-11-14T14:22:48.142+05:30",
+  "updated": "2026-11-14T15:19:41.758+05:30",
   "labels": [
     "Mobility & EV"
   ],
-  "bytes": 29094,
-  "sha256": "6ba1865bfc4a0b98be202794a2c5ce4d982a0682cfde3d84e583d2b8852f62e4",
+  "bytes": 29058,
+  "sha256": "d8191209c5c8ddc6f64d99398bf44b4fcc241e2606ca7a2fd7159c6ed8417fc8",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.1",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -38,6 +38,19 @@
       "bytes": [
         29086,
         29094
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        29094,
+        29058
       ],
       "url_changed": null,
       "markers_changed": null,

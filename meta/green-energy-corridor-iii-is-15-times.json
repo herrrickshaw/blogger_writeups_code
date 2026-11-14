@@ -1,13 +1,13 @@
 {
   "id": "5982350296328415821",
-  "title": "Green Energy Corridor III Is 15 Times the Last Phase. The First Two Are Still Not Finished",
+  "title": "Green Energy Corridor III: 15 times the size of phase II, with phases I and II incomplete",
   "url": "https://blog.vertistratsolution.com/2026/10/green-energy-corridor-iii-is-15-times.html",
   "slug": "green-energy-corridor-iii-is-15-times",
   "published": "2026-10-09T10:31:11.000+05:30",
-  "updated": "2026-11-14T12:48:16.039+05:30",
+  "updated": "2026-11-14T15:22:08.441+05:30",
   "labels": [],
-  "bytes": 23096,
-  "sha256": "f1912102dfb09fe2931ff813f37f34d16bb39682ab548c48e6b36dc6e832ab38",
+  "bytes": 23095,
+  "sha256": "cda7908e0983f51c84e44d7bc8e78e10f4dc3e96022d271ac3e50709945fc8ac",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.2",
+  "version": "3.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -65,6 +65,19 @@
       "bytes": [
         23089,
         23096
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "section(s) removed: Green Energy Corridor III Is 15 Times the Last Phase. The First Two Are Still Not Finished",
+      "bytes": [
+        23096,
+        23095
       ],
       "url_changed": null,
       "markers_changed": null,

@@ -1,16 +1,16 @@
 {
   "id": "2281369762362374331",
-  "title": "India Has Legalised E100 for Flex-Fuel Cars. Its E85 Still Costs More per Kilometre Than Petrol",
+  "title": "Flex-fuel cars in India: E100 legalised, E85 costs more per kilometre than petrol",
   "url": "https://blog.vertistratsolution.com/2026/10/india-has-legalised-e100-for-flex-fuel.html",
   "slug": "india-has-legalised-e100-for-flex-fuel",
   "published": "2026-10-27T17:25:29.000+05:30",
-  "updated": "2026-11-14T12:30:50.524+05:30",
+  "updated": "2026-11-14T15:29:26.717+05:30",
   "labels": [
     "Energy & Fuels",
     "Ethanol & Biofuels"
   ],
-  "bytes": 26916,
-  "sha256": "f1886e66e6420fcfc0116be6aeb77bd18c7c6e16aa86e94c7bd9353e88b41816",
+  "bytes": 26902,
+  "sha256": "54aae6bdca56afb6553234f0712540d034a143d9fc4b79658eed37e16d0eef7f",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.2",
+  "version": "4.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -81,6 +81,19 @@
       "bytes": [
         26907,
         26916
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "4.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "section(s) removed: India Has Legalised E100 for Flex-Fuel Cars. Its E85 Still Costs More per Kilometre Than Petrol",
+      "bytes": [
+        26916,
+        26902
       ],
       "url_changed": null,
       "markers_changed": null,

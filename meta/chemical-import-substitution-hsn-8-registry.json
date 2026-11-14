@@ -1,16 +1,16 @@
 {
   "id": "6790374087242629357",
-  "title": "Which of 827 Chemical HSN-8 Codes Are Real Substitution Targets",
+  "title": "India's chemical imports: a registry of 827 HSN-8 codes screened for import substitution",
   "url": "https://blog.vertistratsolution.com/2026/08/chemical-import-substitution-hsn-8-registry.html",
   "slug": "chemical-import-substitution-hsn-8-registry",
   "published": "2026-08-06T09:07:16.000+05:30",
-  "updated": "2026-11-14T13:31:31.917+05:30",
+  "updated": "2026-11-14T15:11:54.854+05:30",
   "labels": [
     "Chemicals",
     "Import Substitution"
   ],
-  "bytes": 399551,
-  "sha256": "822f636a2d2b0ff923f9190fc44c5f954be27efe535bcee75e1bb5eeebc9092d",
+  "bytes": 399576,
+  "sha256": "1664f3e1de4dc2feac7ede4def307486e83305afe70f24c5067fbd411fc7791d",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "5.0.1",
+  "version": "6.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -342,6 +342,19 @@
       "bytes": [
         399544,
         399551
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "6.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "section(s) removed: Which of 827 Chemical HSN-8 Codes Are Real Substitution Targets",
+      "bytes": [
+        399551,
+        399576
       ],
       "url_changed": null,
       "markers_changed": null,

@@ -1,16 +1,16 @@
 {
   "id": "4872285679683100177",
-  "title": "India's Lock Imports Hit $197.84 Million. Dindigul's 150-Year-Old Cluster Isn't Who's Losing Sleep Over It.",
+  "title": "India's lock imports: $197.84 million, with Dindigul facing other pressures",
   "url": "https://blog.vertistratsolution.com/2026/08/indias-lock-imports-hit-19784-million.html",
   "slug": "indias-lock-imports-hit-19784-million",
   "published": "2026-08-11T10:03:48.000+05:30",
-  "updated": "2026-11-14T13:26:13.263+05:30",
+  "updated": "2026-11-14T15:41:56.231+05:30",
   "labels": [
     "Industrial Policy",
     "Trade & Tariffs"
   ],
-  "bytes": 27450,
-  "sha256": "e30f9048ba5392278f7259d4715aef37d99dff33e1ab9ee199f2a00f329b5b97",
+  "bytes": 27419,
+  "sha256": "bc63fc38e8a3046d7897c6d2dca5239e520c5967d78a4280f54e616ff03b9b79",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.2.2",
+  "version": "3.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -276,6 +276,19 @@
       "bytes": [
         27444,
         27450
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "section(s) removed: India's Lock Imports Hit $197.84 Million. Dindigul's Century-Old Cluster Isn't Who's Losing Sleep Over It.",
+      "bytes": [
+        27450,
+        27419
       ],
       "url_changed": null,
       "markers_changed": null,

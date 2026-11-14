@@ -1,13 +1,13 @@
 {
   "id": "2328058311414505235",
-  "title": "India's Reported Central Project Overrun Halved in Four Months. The Monitored List Shrank, and the Count of Late Projects Is No Longer Published",
+  "title": "India's central project overrun: ₹5.65 lakh crore in April, ₹2.88 lakh crore in August",
   "url": "https://blog.vertistratsolution.com/2026/10/indias-reported-central-project-overrun.html",
   "slug": "indias-reported-central-project-overrun",
   "published": "2026-10-09T20:01:36.000+05:30",
-  "updated": "2026-11-14T12:46:45.017+05:30",
+  "updated": "2026-11-14T15:44:13.611+05:30",
   "labels": [],
-  "bytes": 24340,
-  "sha256": "737972e680867802f995e2cd66cdb7e8b5ff539414647073fefae1c9f7f7d04d",
+  "bytes": 24276,
+  "sha256": "8cfd8fdcb54d8719d5bad6eb9fa550e778844ac3b50bd6685bf3303f0d412068",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.1.2",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -65,6 +65,19 @@
       "bytes": [
         24334,
         24340
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        24340,
+        24276
       ],
       "url_changed": null,
       "markers_changed": null,

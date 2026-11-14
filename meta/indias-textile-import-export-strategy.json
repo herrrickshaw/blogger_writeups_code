@@ -1,18 +1,18 @@
 {
   "id": "5671551644330576770",
-  "title": "India's Textile Import-Export Strategy: From Dependency to Self-Sufficiency",
+  "title": "India's textile feedstock trade: polymer imports up 66% while exports stalled",
   "url": "https://blog.vertistratsolution.com/2026/07/indias-textile-import-export-strategy.html",
   "slug": "indias-textile-import-export-strategy",
   "published": "2026-07-27T05:30:00.000+05:30",
-  "updated": "2026-11-14T13:43:48.192+05:30",
+  "updated": "2026-11-14T15:45:13.331+05:30",
   "labels": [
     "Chemicals",
     "Quality Standards & Certification",
     "Textiles",
     "Trade & Tariffs"
   ],
-  "bytes": 55873,
-  "sha256": "8867eef90b7f6e70f21207c28cd4836ace8fc170db838a3c93f66060bf4235b6",
+  "bytes": 55906,
+  "sha256": "972a21527decd07c5d42fdcbdaad4a95a28c8109eefd0db229524d2ca685da54",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "4.3.2",
+  "version": "5.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -379,6 +379,19 @@
       "bytes": [
         55866,
         55873
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "5.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        55873,
+        55906
       ],
       "url_changed": null,
       "markers_changed": null,

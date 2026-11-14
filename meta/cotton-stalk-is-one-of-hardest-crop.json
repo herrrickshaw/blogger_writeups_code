@@ -1,17 +1,17 @@
 {
   "id": "5987177499359753968",
-  "title": "Cotton Stalk Is One of the Hardest Crop Wastes to Turn Into Gas. The Manure Left Over Is What India's Tired Fields Need.",
+  "title": "Cotton stalk biogas in India: hard to digest, with manure for depleted soils",
   "url": "https://blog.vertistratsolution.com/2026/10/cotton-stalk-is-one-of-hardest-crop.html",
   "slug": "cotton-stalk-is-one-of-hardest-crop",
   "published": "2026-10-01T23:13:12.000+05:30",
-  "updated": "2026-11-14T12:50:24.429+05:30",
+  "updated": "2026-11-14T15:12:53.778+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Climate & Carbon",
     "Energy & Fuels"
   ],
-  "bytes": 51872,
-  "sha256": "f951a93f9c9337996b07f2a526c2e02ada5ccab845fbfb21926b9822cd8d2b9b",
+  "bytes": 51828,
+  "sha256": "8eeaff5837d1f5871dd3ca84939ca33c22f69285a12a9372e6b1f644e2358b47",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.4.2",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -121,6 +121,19 @@
       "bytes": [
         51865,
         51872
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "section(s) removed: Cotton Stalk Is One of the Hardest Crop Wastes to Turn Into Gas. The Manure Left Over Is What India's Tired Fields Need.",
+      "bytes": [
+        51872,
+        51828
       ],
       "url_changed": null,
       "markers_changed": null,

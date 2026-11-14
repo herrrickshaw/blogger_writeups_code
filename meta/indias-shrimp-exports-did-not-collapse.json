@@ -1,17 +1,17 @@
 {
   "id": "4745336154047255463",
-  "title": "India's Shrimp Exports Did Not Collapse. The Code Did.",
+  "title": "Shrimp exports from India: the apparent collapse is a product-code change",
   "url": "https://blog.vertistratsolution.com/2026/08/indias-shrimp-exports-did-not-collapse.html",
   "slug": "indias-shrimp-exports-did-not-collapse",
   "published": "2026-08-23T04:44:23.000+05:30",
-  "updated": "2026-11-14T13:13:37.915+05:30",
+  "updated": "2026-11-14T15:44:43.311+05:30",
   "labels": [
     "India Trade & Policy",
     "Markets & Finance",
     "Trade & Tariffs"
   ],
-  "bytes": 34545,
-  "sha256": "006339e2c24b73bde05199b527254733b01fd2796a84774f199614de0f0969d9",
+  "bytes": 34558,
+  "sha256": "29c477790a0cde5d2bf72704cdbcb44acd95013d3ddfdb4365d3cb3480c2afef",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.1.2",
+  "version": "3.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -134,6 +134,19 @@
       "bytes": [
         34542,
         34545
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "section(s) removed: India&rsquo;s Shrimp Exports Did Not Collapse. The Code Did.",
+      "bytes": [
+        34545,
+        34558
       ],
       "url_changed": null,
       "markers_changed": null,

@@ -1,15 +1,15 @@
 {
   "id": "635264766642751229",
-  "title": "ABHA: What India's 14-Digit Health ID Actually Does, in the Real Numbers",
+  "title": "ABHA health ID: over 93 crore accounts and over 104 crore linked records in mid-2026",
   "url": "https://blog.vertistratsolution.com/2026/08/abha-what-indias-14-digit-health-id.html",
   "slug": "abha-what-indias-14-digit-health-id",
   "published": "2026-08-12T04:31:28.000+05:30",
-  "updated": "2026-11-14T13:24:54.456+05:30",
+  "updated": "2026-11-14T15:07:53.815+05:30",
   "labels": [
     "Healthcare"
   ],
-  "bytes": 31736,
-  "sha256": "cd8a3c3fb6420c517cf8e5b3c729b0ed60e1084b9e0fb41e6d6bab4396c4ac95",
+  "bytes": 31748,
+  "sha256": "71b8cf2b031854726727ab4c0013441a7e9765baa5f451e639236b795a39dce4",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "5.1.2",
+  "version": "6.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -314,6 +314,19 @@
       "bytes": [
         31728,
         31736
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "6.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        31736,
+        31748
       ],
       "url_changed": null,
       "markers_changed": null,

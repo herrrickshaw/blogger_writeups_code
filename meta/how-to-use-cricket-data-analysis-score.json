@@ -1,16 +1,16 @@
 {
   "id": "280111152568653435",
-  "title": "How to use cricket-data-analysis: score how predictable IPL and World Cup match-ups are",
+  "title": "How to use cricket-data-analysis: predictability of IPL and World Cup match-ups",
   "url": "https://blog.vertistratsolution.com/2026/10/how-to-use-cricket-data-analysis-score.html",
   "slug": "how-to-use-cricket-data-analysis-score",
   "published": "2026-10-19T05:10:06.000+05:30",
-  "updated": "2026-11-14T12:41:17.867+05:30",
+  "updated": "2026-11-14T15:23:45.184+05:30",
   "labels": [
     "India",
     "Open-Source Tools & How-To"
   ],
-  "bytes": 23951,
-  "sha256": "0c2ffbc52ad4db216fda1e7e797eabfdb91f05c9127b37d9eff5a45601b76b59",
+  "bytes": 23943,
+  "sha256": "9cb95ade6dbba2856a77fb13be5a83b089d6a5843ceb280f3f359a7c46a2d4fd",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.3",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -68,6 +68,19 @@
       "bytes": [
         23949,
         23951
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "section(s) removed: How to use cricket-data-analysis: score how predictable IPL and World Cup match-ups are",
+      "bytes": [
+        23951,
+        23943
       ],
       "url_changed": null,
       "markers_changed": null,

@@ -1,16 +1,16 @@
 {
   "id": "420401747753286794",
-  "title": "A Kilo of Crude Fish Oil Sells for About Rs 650. In Capsules It Retails for Rs 7,500 or More. India's Fishers Sell Only the Fish",
+  "title": "Fish oil in India: crude sells for about Rs 650 a kilo, Rs 7,500 or more in capsules",
   "url": "https://blog.vertistratsolution.com/2026/10/a-kilo-of-crude-fish-oil-sells-for.html",
   "slug": "a-kilo-of-crude-fish-oil-sells-for",
   "published": "2026-10-28T15:34:15.000+05:30",
-  "updated": "2026-11-14T12:27:49.921+05:30",
+  "updated": "2026-11-14T15:06:44.599+05:30",
   "labels": [
     "Agriculture & Food Processing",
     "Livestock & Dairy"
   ],
-  "bytes": 30877,
-  "sha256": "f61c46bac8b3a9ed771c596ae3c90ce3c454a15c1457cd09ee06bf918648848d",
+  "bytes": 30827,
+  "sha256": "2f239026d77920593311c574e1b13d2de616b8d72c2beb0fc446ec1c0cd796c3",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.2",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -55,6 +55,19 @@
       "bytes": [
         30867,
         30877
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "section(s) removed: A Kilo of Crude Fish Oil Sells for About Rs 650. In Capsules It Retails for Rs 7,500 or More. India&rsquo;s Fishers Sell Only the Fish",
+      "bytes": [
+        30877,
+        30827
       ],
       "url_changed": null,
       "markers_changed": null,

@@ -1,13 +1,13 @@
 {
   "id": "8994260697014545618",
-  "title": "India's Labour Codes Took Six Years to Become Law. The Rules That Enforce Them Are Still Rolling Out State by State",
+  "title": "India's labour codes: law since 21 November 2025, rules in about a third of states",
   "url": "https://blog.vertistratsolution.com/2026/09/indias-labour-codes-took-six-years-to.html",
   "slug": "indias-labour-codes-took-six-years-to",
   "published": "2026-09-16T13:11:13.000+05:30",
-  "updated": "2026-11-14T12:58:12.286+05:30",
+  "updated": "2026-11-14T15:41:26.318+05:30",
   "labels": [],
-  "bytes": 23629,
-  "sha256": "143bafcc69281ff47da4ad65788d36be3809e601448dce950d669f94e632dcd8",
+  "bytes": 23596,
+  "sha256": "c642314eddadda61e951f496c2dbf439e816f5b872b37d9973fff0db5d65fd4e",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.2",
+  "version": "3.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -143,6 +143,19 @@
       "bytes": [
         23626,
         23629
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        23629,
+        23596
       ],
       "url_changed": null,
       "markers_changed": null,

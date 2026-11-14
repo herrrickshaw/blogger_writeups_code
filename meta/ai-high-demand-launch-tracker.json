@@ -1,15 +1,15 @@
 {
   "id": "179632962556562936",
-  "title": "AI Tools Edition 03: A Repo With 98,000 Stars This Tracker Had Never Heard Of",
+  "title": "AI tools tracker edition 03: wider sources and a 98,000-star repository it missed",
   "url": "https://blog.vertistratsolution.com/2026/07/ai-high-demand-launch-tracker.html",
   "slug": "ai-high-demand-launch-tracker",
   "published": "2026-07-31T09:37:00.000+05:30",
-  "updated": "2026-11-14T14:38:28.307+05:30",
+  "updated": "2026-11-14T15:08:23.450+05:30",
   "labels": [
     "AI Tracker"
   ],
-  "bytes": 42227,
-  "sha256": "0641a5c02301a8fdc2b17b101962007b17d867a25bb01eaa0ff397cc1fb7858c",
+  "bytes": 42192,
+  "sha256": "0ba8799daf090a1222f96ea01125b08cbbaecea3023aac477ecdeb40a059862d",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "5.0.2",
+  "version": "6.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -363,6 +363,19 @@
       "bytes": [
         42215,
         42227
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "6.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "figures changed (+1/-0 distinct numbers)",
+      "bytes": [
+        42227,
+        42192
       ],
       "url_changed": null,
       "markers_changed": null,

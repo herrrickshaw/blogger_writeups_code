@@ -1,16 +1,16 @@
 {
   "id": "9095202195339358609",
-  "title": "India's Oil PSUs Say They Clear Their MSME Quota Easily. The Portal Built to Prove It Doesn't Show Its Work",
+  "title": "India's oil PSUs and the MSME quota: compliance claimed, no data on the portal",
   "url": "https://blog.vertistratsolution.com/2026/09/indias-oil-psus-say-they-clear-their_01269248608.html",
   "slug": "indias-oil-psus-say-they-clear-their_01269248608",
   "published": "2026-09-02T03:35:50.000+05:30",
-  "updated": "2026-11-14T13:05:08.900+05:30",
+  "updated": "2026-11-14T15:43:24.796+05:30",
   "labels": [
     "Energy & Fuels",
     "Industrial Policy"
   ],
-  "bytes": 40965,
-  "sha256": "767fed09fceb2df56451cca4d3d8598416f2b8446bf30877f3b0ae08f96343f8",
+  "bytes": 40936,
+  "sha256": "a8d9af7a7380e4cffedc853422e9fe53f9d01ed0001f571baa09bd1c1eabb962",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.2",
+  "version": "3.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -159,6 +159,19 @@
       "bytes": [
         40961,
         40965
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "section(s) removed: India's Oil PSUs Say They Clear Their MSME Quota Easily. The Portal Built to Prove It Doesn't Show Its Work",
+      "bytes": [
+        40965,
+        40936
       ],
       "url_changed": null,
       "markers_changed": null,

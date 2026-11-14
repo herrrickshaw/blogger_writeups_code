@@ -1,16 +1,16 @@
 {
   "id": "1048441984418088016",
-  "title": "India Has Tested Its Soil Twice. The Second Time, a Machine Chose the Spot.",
+  "title": "Soil Health Card data: since April 2023, an app fixes where samples are taken",
   "url": "https://blog.vertistratsolution.com/2026/09/india-has-tested-its-soil-twice-second.html",
   "slug": "india-has-tested-its-soil-twice-second",
   "published": "2026-09-19T07:57:41.000+05:30",
-  "updated": "2026-11-14T12:54:44.859+05:30",
+  "updated": "2026-11-14T15:29:44.733+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Fertilisers & Soil Health"
   ],
-  "bytes": 14771,
-  "sha256": "035094b11561e27c01f3b817f7e6721fb39cd89e45101ca14e4d1063b712140f",
+  "bytes": 14773,
+  "sha256": "172515334df02676844ab05b379fbaf963616e4673920a0fa155707e5b6164cd",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.2",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -55,6 +55,19 @@
       "bytes": [
         14766,
         14771
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        14771,
+        14773
       ],
       "url_changed": null,
       "markers_changed": null,

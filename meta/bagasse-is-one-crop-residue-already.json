@@ -1,16 +1,16 @@
 {
   "id": "8948593636108200151",
-  "title": "Bagasse Is the One Crop Residue Already Sitting at a Factory Gate. Labs Have Liquefied and Hydrolysed It. Nobody Has Priced It Against the Boiler",
+  "title": "Bagasse: about 75% liquefied in 9 minutes in one lab study, no cost study found",
   "url": "https://blog.vertistratsolution.com/2026/10/bagasse-is-one-crop-residue-already.html",
   "slug": "bagasse-is-one-crop-residue-already",
   "published": "2026-10-10T10:00:57.000+05:30",
-  "updated": "2026-11-14T12:45:47.899+05:30",
+  "updated": "2026-11-14T15:10:02.311+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Chemicals"
   ],
-  "bytes": 32876,
-  "sha256": "1bac938af254970935304cf629aaa2c89ad076feb146bbb2f254df06a40846f2",
+  "bytes": 32810,
+  "sha256": "52f2186f50dd9f5f56e0390672c481af5497df60c7276cca759dd3e52741723d",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.1.2",
+  "version": "3.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -94,6 +94,19 @@
       "bytes": [
         32870,
         32876
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        32876,
+        32810
       ],
       "url_changed": null,
       "markers_changed": null,

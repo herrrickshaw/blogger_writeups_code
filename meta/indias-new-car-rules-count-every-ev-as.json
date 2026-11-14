@@ -1,17 +1,17 @@
 {
   "id": "554216919463574914",
-  "title": "India's New Car Rules Count Every EV as Three Cars. Europe, the US and China Used Smaller Multipliers, Then Phased Them Out.",
+  "title": "India's car efficiency rules: each battery EV counts as 3 cars, above other markets",
   "url": "https://blog.vertistratsolution.com/2026/10/indias-new-car-rules-count-every-ev-as.html",
   "slug": "indias-new-car-rules-count-every-ev-as",
   "published": "2026-10-02T09:04:39.000+05:30",
-  "updated": "2026-11-14T12:50:04.225+05:30",
+  "updated": "2026-11-14T15:42:44.223+05:30",
   "labels": [
     "Climate & Carbon",
     "Energy & Fuels",
     "Mobility & EV"
   ],
-  "bytes": 34973,
-  "sha256": "fa90307486ed089dd76c77512f2d195df5419a2defb523ef285609831cd22e39",
+  "bytes": 34926,
+  "sha256": "bde265247d1e37691f57ce78ee80a01d71534e1263b326571911bec73eb6b05f",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.2",
+  "version": "3.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -69,6 +69,19 @@
       "bytes": [
         34967,
         34973
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        34973,
+        34926
       ],
       "url_changed": null,
       "markers_changed": null,

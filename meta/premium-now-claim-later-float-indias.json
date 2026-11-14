@@ -1,18 +1,18 @@
 {
   "id": "7170652269472258966",
-  "title": "Premium Now, Claim Later: The Float India's Car Boom Is Building",
+  "title": "India's car insurance float: premiums paid before claims, growing with car sales",
   "url": "https://blog.vertistratsolution.com/2026/08/premium-now-claim-later-float-indias.html",
   "slug": "premium-now-claim-later-float-indias",
   "published": "2026-08-22T20:29:04.000+05:30",
-  "updated": "2026-11-14T13:14:26.355+05:30",
+  "updated": "2026-11-14T15:54:05.725+05:30",
   "labels": [
     "Insurance & Reinsurance",
     "Macroeconomics & Monetary Policy",
     "Markets & Finance",
     "Mobility & EV"
   ],
-  "bytes": 66701,
-  "sha256": "e78f5cc5bc9d3b02c3f563241503ac34abc200423ef29cfcc960dc4d3b8241b3",
+  "bytes": 66711,
+  "sha256": "2c0666e521c42ae82c108515bf312190bba2be4f04fdd0de1da399bd14bfe88e",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.2.2",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -122,6 +122,19 @@
       "bytes": [
         66697,
         66701
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "section(s) removed: Premium Now, Claim Later: The Float India&rsquo;s Car Boom Is Building",
+      "bytes": [
+        66701,
+        66711
       ],
       "url_changed": null,
       "markers_changed": null,

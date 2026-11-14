@@ -1,16 +1,16 @@
 {
   "id": "8145616789813592558",
-  "title": "FBIL Rates vs. TradeStat Volumes: Does FX Volatility Actually Predict Trade Imbalance?",
+  "title": "Rupee volatility and trade imbalance: FBIL and TradeStat data for 5 countries",
   "url": "https://blog.vertistratsolution.com/2026/08/fbil-rates-vs-tradestat-volumes-does-fx.html",
   "slug": "fbil-rates-vs-tradestat-volumes-does-fx",
   "published": "2026-08-14T18:51:11.000+05:30",
-  "updated": "2026-11-14T13:20:49.374+05:30",
+  "updated": "2026-11-14T15:18:18.726+05:30",
   "labels": [
     "Currency Markets",
     "Macroeconomics & Monetary Policy"
   ],
-  "bytes": 22705,
-  "sha256": "ebfa95ccc96e323611b1ffbbb806dbc293aea95b4ff501d0835759a1938b91dc",
+  "bytes": 22696,
+  "sha256": "b800461f899be82ee8e7ff878f673681cf19c053af17a6e9ddf6a594fd9e7ddf",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.1.2",
+  "version": "3.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -159,6 +159,19 @@
       "bytes": [
         22700,
         22705
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        22705,
+        22696
       ],
       "url_changed": null,
       "markers_changed": null,

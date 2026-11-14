@@ -1,17 +1,17 @@
 {
   "id": "8991504474381800219",
-  "title": "Ethanol's Coal Boilers, the Briquette Gap, and What US Carbon Capture Actually Delivers",
+  "title": "Ethanol distilleries in India: coal boilers, the briquette gap and US carbon capture",
   "url": "https://blog.vertistratsolution.com/2026/08/ethanols-coal-boilers-briquette-gap-and.html",
   "slug": "ethanols-coal-boilers-briquette-gap-and",
   "published": "2026-08-17T09:07:49.000+05:30",
-  "updated": "2026-11-14T13:18:57.691+05:30",
+  "updated": "2026-11-14T15:17:08.367+05:30",
   "labels": [
     "Carbon Markets",
     "Energy & Fuels",
     "Ethanol & Biofuels"
   ],
-  "bytes": 39213,
-  "sha256": "07e169a3758ed6dd1790b8fcd14da987c6f4cbcbf8d4bdaffae757025727e607",
+  "bytes": 39210,
+  "sha256": "db8abc7c54435b160629f6b8b75cd119146c7bdc2deda092d56157bc5ca95fe1",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.2.2",
+  "version": "3.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -225,6 +225,19 @@
       "bytes": [
         39204,
         39213
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "section(s) removed: Ethanol's Coal Boilers, the Briquette Gap, and What US Carbon Capture Actually Delivers",
+      "bytes": [
+        39213,
+        39210
       ],
       "url_changed": null,
       "markers_changed": null,

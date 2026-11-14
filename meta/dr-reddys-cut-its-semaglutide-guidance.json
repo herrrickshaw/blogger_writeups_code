@@ -1,17 +1,17 @@
 {
   "id": "1921258220253333627",
-  "title": "Dr. Reddy's Cut Its Semaglutide Guidance in Half After an API Impurity It Caught Itself",
+  "title": "Dr Reddy's semaglutide: FY27 pen guidance halved after a self-detected impurity",
   "url": "https://blog.vertistratsolution.com/2026/09/dr-reddys-cut-its-semaglutide-guidance.html",
   "slug": "dr-reddys-cut-its-semaglutide-guidance",
   "published": "2026-09-16T14:06:55.000+05:30",
-  "updated": "2026-11-14T12:57:51.553+05:30",
+  "updated": "2026-11-14T15:14:52.342+05:30",
   "labels": [
     "Chemicals",
     "Healthcare",
     "Industrial Policy"
   ],
-  "bytes": 22949,
-  "sha256": "365d9b010f09e67601c0b2cf0a376c4cc683586bc797f3bf80cc07d99e21454c",
+  "bytes": 22941,
+  "sha256": "f43e6cc8c93496312010821bbb62bfc590297009a32874121ae9a542c39d86ea",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.4.2",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -121,6 +121,19 @@
       "bytes": [
         22945,
         22949
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        22949,
+        22941
       ],
       "url_changed": null,
       "markers_changed": null,

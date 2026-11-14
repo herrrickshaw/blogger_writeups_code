@@ -1,17 +1,17 @@
 {
   "id": "7714544472537767701",
-  "title": "Not a Drop Out: Ethanol's Zero-Liquid-Discharge Rule, and the Treatment-Capacity Gap Behind It",
+  "title": "Ethanol distilleries: zero-liquid-discharge rule and the treatment-capacity gap",
   "url": "https://blog.vertistratsolution.com/2026/08/not-drop-out-ethanols-zero-liquid.html",
   "slug": "not-drop-out-ethanols-zero-liquid",
   "published": "2026-08-17T21:43:00.000+05:30",
-  "updated": "2026-11-14T13:18:47.870+05:30",
+  "updated": "2026-11-14T15:51:06.585+05:30",
   "labels": [
     "Energy & Fuels",
     "Environment & Clearances",
     "Ethanol & Biofuels"
   ],
-  "bytes": 48454,
-  "sha256": "0923329aeac00be6dbb64f703459c68cd262965777870c2067b0cfad673edcf7",
+  "bytes": 48439,
+  "sha256": "3a665be48f565f73a4c843ea28193d7252224a5e5c07473fd7cc35df8627ae1d",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.2.2",
+  "version": "4.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -199,6 +199,19 @@
       "bytes": [
         48449,
         48454
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "4.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "section(s) removed: Not a Drop Out: Ethanol's Zero-Liquid-Discharge Rule, and the Treatment-Capacity Gap Behind It",
+      "bytes": [
+        48454,
+        48439
       ],
       "url_changed": null,
       "markers_changed": null,

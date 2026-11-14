@@ -1,16 +1,16 @@
 {
   "id": "7041685892952394502",
-  "title": "India's EVs Reached 12% of Vehicle Sales in April–September. Electric Cars Are Still in Single Digits",
+  "title": "India's EV sales: 12% of vehicles in April–September, cars in single digits",
   "url": "https://blog.vertistratsolution.com/2026/08/indias-ev-market-single-digit.html",
   "slug": "indias-ev-market-single-digit",
   "published": "2026-08-02T16:16:00.000+05:30",
-  "updated": "2026-11-14T14:37:58.455+05:30",
+  "updated": "2026-11-14T15:39:31.852+05:30",
   "labels": [
     "Mobility & EV",
     "Trade & Tariffs"
   ],
-  "bytes": 46594,
-  "sha256": "bd833ca2e4d90eeef7f86222fe37ab87cadf65f98646ea2cb658b8ec61ab47bb",
+  "bytes": 46562,
+  "sha256": "fc7c67234643da072d5749354c89899f9aa098e47a23a77e5f05612d1f5fe15f",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "4.0.2",
+  "version": "5.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -302,6 +302,19 @@
       "bytes": [
         46583,
         46594
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "5.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "section(s) removed: India's EVs Reached 12% of Vehicle Sales in April&ndash;September. Electric Cars Are Still in Single Digits",
+      "bytes": [
+        46594,
+        46562
       ],
       "url_changed": null,
       "markers_changed": null,

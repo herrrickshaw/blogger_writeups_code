@@ -1,17 +1,17 @@
 {
   "id": "3677624312514527278",
-  "title": "India's Renewable Energy Certificates Swung 20x in Three Years — and They're One of Six Certificate Markets Now Running",
+  "title": "India's renewable energy certificates: ₹2,300 to ₹115 once the price band ended",
   "url": "https://blog.vertistratsolution.com/2026/08/indias-renewable-energy-certificates.html",
   "slug": "indias-renewable-energy-certificates",
   "published": "2026-08-23T22:23:00.000+05:30",
-  "updated": "2026-11-14T13:12:19.424+05:30",
+  "updated": "2026-11-14T15:44:04.429+05:30",
   "labels": [
     "Energy & Fuels",
     "India",
     "Industrial Policy"
   ],
-  "bytes": 41715,
-  "sha256": "2b6cffff2f111a73e152d9aa6b4c89c3326ca5ae93fe835c1089a5ee26bc723f",
+  "bytes": 41669,
+  "sha256": "ac1e3d009eb003bc08114168cc42210edd828caffc4e85b2e1e5613728332816",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.3.2",
+  "version": "4.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -186,6 +186,19 @@
       "bytes": [
         41710,
         41715
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "4.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        41715,
+        41669
       ],
       "url_changed": null,
       "markers_changed": null,

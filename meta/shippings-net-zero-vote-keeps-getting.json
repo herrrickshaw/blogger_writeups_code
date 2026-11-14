@@ -1,17 +1,17 @@
 {
   "id": "4210252629812091413",
-  "title": "Shipping's Net-Zero Vote Keeps Getting Delayed. The Fuel Switch Is Happening Without It.",
+  "title": "Shipping's net-zero framework: 2 IMO deadlines missed, fuel switching goes ahead",
   "url": "https://blog.vertistratsolution.com/2026/09/shippings-net-zero-vote-keeps-getting.html",
   "slug": "shippings-net-zero-vote-keeps-getting",
   "published": "2026-09-24T09:27:35.000+05:30",
-  "updated": "2026-11-14T12:53:17.116+05:30",
+  "updated": "2026-11-14T15:58:25.279+05:30",
   "labels": [
     "Energy & Fuels",
     "Ethanol & Biofuels",
     "Shipping & Maritime Fuels"
   ],
-  "bytes": 26794,
-  "sha256": "d4cf200e669c8acf2d8978c60adb289eacac0057dc37ac9403316210d4bab82c",
+  "bytes": 26786,
+  "sha256": "b0b292ccdca9b37e0d95e40708c27940db39ba59f3174494a0e0ad76bc3c7a34",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.1.2",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -69,6 +69,19 @@
       "bytes": [
         26786,
         26794
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        26794,
+        26786
       ],
       "url_changed": null,
       "markers_changed": null,

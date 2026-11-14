@@ -1,17 +1,17 @@
 {
   "id": "3153858344526767482",
-  "title": "India's Ethanol Surplus Buys About Five Blend Points. E30, Diesel and Jet Fuel Need Twice the Supply.",
+  "title": "India's ethanol overcapacity: about 2,000 crore litres built, and uses for the surplus",
   "url": "https://blog.vertistratsolution.com/2026/10/indias-ethanol-surplus-buys-about-five.html",
   "slug": "indias-ethanol-surplus-buys-about-five",
   "published": "2026-10-03T14:45:56.000+05:30",
-  "updated": "2026-11-14T12:49:14.480+05:30",
+  "updated": "2026-11-14T15:39:12.917+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Energy & Fuels",
     "Ethanol & Biofuels"
   ],
-  "bytes": 62415,
-  "sha256": "445dbb831e34965c22bcf4101f8078a96d91246b4fc926e77e8ae398189670ef",
+  "bytes": 62400,
+  "sha256": "c00fafb6979f1881ffd19ba8e080b109318f3fc0b3d24e7c78e88e063ec0c3fa",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "7.2.2",
+  "version": "8.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -173,6 +173,19 @@
       "bytes": [
         62405,
         62415
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "8.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        62415,
+        62400
       ],
       "url_changed": null,
       "markers_changed": null,

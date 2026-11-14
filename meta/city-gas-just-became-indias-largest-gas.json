@@ -1,18 +1,18 @@
 {
   "id": "4720582416339622712",
-  "title": "City Gas Just Became India's Largest Gas Consumer",
+  "title": "India's largest gas consumer: city gas passes fertiliser in Q1 FY2026-27",
   "url": "https://blog.vertistratsolution.com/2026/08/city-gas-just-became-indias-largest-gas.html",
   "slug": "city-gas-just-became-indias-largest-gas",
   "published": "2026-08-08T16:38:51.000+05:30",
-  "updated": "2026-11-14T13:29:47.040+05:30",
+  "updated": "2026-11-14T15:12:04.967+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "City Gas Distribution",
     "Energy & Fuels",
     "Gas & LNG"
   ],
-  "bytes": 30604,
-  "sha256": "f2e74e07bf11ad99b16bbd4e8680173a0abc394626bfd39c6f898d6896edd289",
+  "bytes": 30621,
+  "sha256": "87626683b9bd0bef067473c2b9854cbfe99510cdc06bf24d73a02ce507c9c11d",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.1.2",
+  "version": "4.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -265,6 +265,19 @@
       "bytes": [
         30590,
         30604
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "4.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        30604,
+        30621
       ],
       "url_changed": null,
       "markers_changed": null,

@@ -1,16 +1,16 @@
 {
   "id": "5777545325969578772",
-  "title": "Fuel Pricing to Crude Cost",
+  "title": "Petrol and diesel prices in India: build-up from crude cost to pump, by state",
   "url": "https://blog.vertistratsolution.com/2026/08/fuel-pricing-to-crude-cost.html",
   "slug": "fuel-pricing-to-crude-cost",
   "published": "2026-08-05T08:39:37.000+05:30",
-  "updated": "2026-11-14T13:34:12.407+05:30",
+  "updated": "2026-11-14T15:21:10.007+05:30",
   "labels": [
     "Energy & Fuels",
     "Fuel Retail & Pricing"
   ],
-  "bytes": 90113,
-  "sha256": "d82832c331a591232110d578e6f13e78db551cd3dc526700ed8d42691287bda5",
+  "bytes": 90164,
+  "sha256": "08537ea99e65580a2e45b8390edba8828075295f5e89220bf710fef60b27c3ef",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.3.2",
+  "version": "3.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -389,6 +389,19 @@
       "bytes": [
         90107,
         90113
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "section(s) removed: Fuel Pricing to Crude Cost",
+      "bytes": [
+        90113,
+        90164
       ],
       "url_changed": null,
       "markers_changed": null,

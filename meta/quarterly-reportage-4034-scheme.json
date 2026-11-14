@@ -1,16 +1,16 @@
 {
   "id": "141021557520176306",
-  "title": "Quarterly Reportage — 4,220 Scheme Announcements, 2017 to November 2026",
+  "title": "Quarterly Reportage: 4,220 scheme announcements, 2017 to November 2026",
   "url": "https://blog.vertistratsolution.com/2026/08/quarterly-reportage-4034-scheme.html",
   "slug": "quarterly-reportage-4034-scheme",
   "published": "2026-08-04T13:58:09.000+05:30",
-  "updated": "2026-11-14T13:35:38.089+05:30",
+  "updated": "2026-11-14T15:54:50.065+05:30",
   "labels": [
     "Industrial Policy",
     "Parliamentary Scheme Tracking"
   ],
-  "bytes": 562711,
-  "sha256": "566c517ed7d113bc0f096a57f4146f1c308cd1f87a567b9439699e5ee5cec723",
+  "bytes": 562762,
+  "sha256": "6fe4c8791e7a99bce47730bc1fb4bfd51c3f804154ea7bb64fa5a05eb7257fb5",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": true,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.2",
+  "version": "4.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -342,6 +342,19 @@
       "bytes": [
         562707,
         562711
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "4.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        562711,
+        562762
       ],
       "url_changed": null,
       "markers_changed": null,

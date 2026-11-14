@@ -1,17 +1,17 @@
 {
   "id": "1386880010926973636",
-  "title": "Green Gold: What Spirulina Actually Is, and Isn't, Good For",
+  "title": "Spirulina: what the cyanobacterium Arthrospira platensis is and is not good for",
   "url": "https://blog.vertistratsolution.com/2026/08/green-gold-what-spirulina-actually-is.html",
   "slug": "green-gold-what-spirulina-actually-is",
   "published": "2026-08-19T05:42:27.000+05:30",
-  "updated": "2026-11-14T13:18:27.374+05:30",
+  "updated": "2026-11-14T15:22:17.405+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Biofuels",
     "Healthcare"
   ],
-  "bytes": 36994,
-  "sha256": "51110f4aa85361bc933e69e46981c43b09a27b65edef451db1b27d9160830869",
+  "bytes": 37014,
+  "sha256": "f45fc9b22ab6325495b28691383417f91cb80d5ee1621558a8aa1447f2b4f6e2",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.2",
+  "version": "4.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -186,6 +186,19 @@
       "bytes": [
         36989,
         36994
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "4.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "section(s) removed: Green Gold: What Spirulina Actually Is, and Isn't, Good For",
+      "bytes": [
+        36994,
+        37014
       ],
       "url_changed": null,
       "markers_changed": null,

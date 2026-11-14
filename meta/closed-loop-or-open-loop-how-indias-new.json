@@ -1,17 +1,17 @@
 {
   "id": "4648900184704359242",
-  "title": "Closed Loop or Open Loop? How India's New Data Centres Should Be Cooled, Site by Site",
+  "title": "Cooling India's data centres: open towers use about 2 litres of water per kWh",
   "url": "https://blog.vertistratsolution.com/2026/10/closed-loop-or-open-loop-how-indias-new.html",
   "slug": "closed-loop-or-open-loop-how-indias-new",
   "published": "2026-10-27T07:52:33.000+05:30",
-  "updated": "2026-11-14T12:31:39.582+05:30",
+  "updated": "2026-11-14T15:12:14.767+05:30",
   "labels": [
     "Energy & Fuels",
     "Environment & Clearances",
     "Industrial Policy"
   ],
-  "bytes": 34019,
-  "sha256": "4247daa00e0c91050cf3ce951495ea69adc3542e03df1d19e3b542181464d4c9",
+  "bytes": 34005,
+  "sha256": "fd25768218d5aa7736ca4b344ba3df3c0b7066d980237ac1e5951741a815968f",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.1.2",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -69,6 +69,19 @@
       "bytes": [
         34013,
         34019
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        34019,
+        34005
       ],
       "url_changed": null,
       "markers_changed": null,

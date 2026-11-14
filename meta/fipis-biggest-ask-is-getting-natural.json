@@ -1,16 +1,16 @@
 {
   "id": "6109214871583276996",
-  "title": "FIPI's Biggest Ask Is Getting Natural Gas Under GST. It Still Hasn't Happened",
+  "title": "FIPI's main lobbying demand: natural gas under GST, not yet adopted",
   "url": "https://blog.vertistratsolution.com/2026/09/fipis-biggest-ask-is-getting-natural.html",
   "slug": "fipis-biggest-ask-is-getting-natural",
   "published": "2026-09-02T03:59:01.000+05:30",
-  "updated": "2026-11-14T13:04:49.163+05:30",
+  "updated": "2026-11-14T15:19:32.750+05:30",
   "labels": [
     "Gas & LNG",
     "Regulatory & Industry-Body Accountability"
   ],
-  "bytes": 41343,
-  "sha256": "3f68040fb500c10d945558abec1eb487ae267ad225100c5d48fa97cd7fa24727",
+  "bytes": 41333,
+  "sha256": "1a21074fffd120927893c43c87bd3f8bb445ae59d8e9b6ab95861d1dd0978e7f",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.1.2",
+  "version": "3.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -159,6 +159,19 @@
       "bytes": [
         41340,
         41343
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "section(s) removed: FIPI's Biggest Ask Is Getting Natural Gas Under GST. It Still Hasn't Happened",
+      "bytes": [
+        41343,
+        41333
       ],
       "url_changed": null,
       "markers_changed": null,

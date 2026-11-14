@@ -1,18 +1,18 @@
 {
   "id": "3424491529852312263",
-  "title": "India’s Farm Map in Seven Charts: Maize Is Spreading, Yields Are Shifting, and Prices Fall Into Four Clusters",
+  "title": "India's farm map in 7 charts: maize spreads, jowar area down 42%, 4 price clusters",
   "url": "https://blog.vertistratsolution.com/2026/10/indias-farm-map-in-seven-charts-maize.html",
   "slug": "indias-farm-map-in-seven-charts-maize",
   "published": "2026-10-24T13:47:56.000+05:30",
-  "updated": "2026-11-14T12:34:27.783+05:30",
+  "updated": "2026-11-14T15:39:54.258+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Grain Procurement & Storage",
     "Open-Source Tools & How-To",
     "Prices & Inflation"
   ],
-  "bytes": 359077,
-  "sha256": "2b790ea67ba83fb791ac02bf37a5aeb90822ed437dacd61d4259c77592bf58be",
+  "bytes": 359044,
+  "sha256": "1560e2169e026bf76ff26b395f88f9a8681d7b40531d7e419ff836ba508a1e5e",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.2",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -57,6 +57,19 @@
       "bytes": [
         359066,
         359077
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        359077,
+        359044
       ],
       "url_changed": null,
       "markers_changed": null,

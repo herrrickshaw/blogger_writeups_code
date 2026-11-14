@@ -1,17 +1,17 @@
 {
   "id": "899100923525876711",
-  "title": "PMFBY Advertises a 5:1 Return to Farmers. Farmers Put In About a Fifth of the Premium. Governments Put In the Rest.",
+  "title": "PMFBY crop insurance: 5-to-1 return, farmers pay about a fifth of the premium",
   "url": "https://blog.vertistratsolution.com/2026/09/pmfby-advertises-51-return-to-farmers.html",
   "slug": "pmfby-advertises-51-return-to-farmers",
   "published": "2026-09-19T07:57:35.000+05:30",
-  "updated": "2026-11-14T12:54:54.583+05:30",
+  "updated": "2026-11-14T15:53:15.810+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Crop Insurance & Risk",
     "Industrial Policy"
   ],
-  "bytes": 16206,
-  "sha256": "8ce01bfae6a6b984edeb975c6591447db2cacddfc68c6bf5fdcb5ec0454045fe",
+  "bytes": 16168,
+  "sha256": "e57f9a2fe4ad078c29693e9710a6d1ae7e6e5657eb8ac5c698b0b4d09b2a0b3f",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.2",
+  "version": "3.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -69,6 +69,19 @@
       "bytes": [
         16201,
         16206
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "section(s) removed: PMFBY Advertises a 5:1 Return to Farmers. Farmers Put In About a Fifth of the Premium. Governments Put In the Rest.",
+      "bytes": [
+        16206,
+        16168
       ],
       "url_changed": null,
       "markers_changed": null,

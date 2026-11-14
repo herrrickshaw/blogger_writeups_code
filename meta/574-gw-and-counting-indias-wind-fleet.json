@@ -1,17 +1,17 @@
 {
   "id": "434818081840759141",
-  "title": "57.4 GW and Counting: India's Wind Fleet, State by State, Against What NIWE Says Is Actually There",
+  "title": "India's wind power by state: 57.4 GW installed, under a tenth of the potential",
   "url": "https://blog.vertistratsolution.com/2026/08/574-gw-and-counting-indias-wind-fleet.html",
   "slug": "574-gw-and-counting-indias-wind-fleet",
   "published": "2026-08-21T04:04:01.000+05:30",
-  "updated": "2026-11-14T13:15:38.525+05:30",
+  "updated": "2026-11-14T15:05:25.311+05:30",
   "labels": [
     "Energy & Fuels",
     "India Trade & Policy",
     "Renewable Power & Storage"
   ],
-  "bytes": 29933,
-  "sha256": "b3ef333eab1244d490afae0d3d4db897acba2d49bb9eb38bb826785366a86234",
+  "bytes": 29913,
+  "sha256": "b9edca05c39240b32cea794d855de0d1dec6b18ea315103167fa99af80d32d58",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "5.1.2",
+  "version": "6.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -225,6 +225,19 @@
       "bytes": [
         29928,
         29933
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "6.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "section(s) removed: 57.4 GW and Counting: India's Wind Fleet, State by State, Against What NIWE Says Is Actually There",
+      "bytes": [
+        29933,
+        29913
       ],
       "url_changed": null,
       "markers_changed": null,

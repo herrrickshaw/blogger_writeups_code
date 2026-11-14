@@ -1,16 +1,16 @@
 {
   "id": "5348220487533730342",
-  "title": "Earnings Drift and Piotroski Work Only Where Trading Is Thin",
+  "title": "Earnings drift and Piotroski F-score: both work in thinly traded stocks",
   "url": "https://blog.vertistratsolution.com/2026/10/earnings-drift-and-piotroski-work-only.html",
   "slug": "earnings-drift-and-piotroski-work-only",
   "published": "2026-10-28T09:49:08.000+05:30",
-  "updated": "2026-11-14T12:28:29.627+05:30",
+  "updated": "2026-11-14T15:15:21.946+05:30",
   "labels": [
     "Equity Markets & Stock Screening",
     "Markets & Investing"
   ],
-  "bytes": 32613,
-  "sha256": "d65a5f9ae3cc43c981622c00c6d3b51c88cfcfd93c16d25f4b1b824f126f9c30",
+  "bytes": 32624,
+  "sha256": "499ba156da5ce16239b97a204c64ed45a0a682b6a937c5fecc173bd9b06add80",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.3",
+  "version": "3.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -81,6 +81,19 @@
       "bytes": [
         32611,
         32613
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "section(s) removed: Earnings Drift and Piotroski Work Only Where Trading Is Thin",
+      "bytes": [
+        32613,
+        32624
       ],
       "url_changed": null,
       "markers_changed": null,

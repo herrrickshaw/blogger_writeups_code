@@ -1,17 +1,17 @@
 {
   "id": "2858632704846965392",
-  "title": "Lok Sabha Question Registry — Scheme & Incentive Questions, 2019 to Today",
+  "title": "Parliament questions on schemes: 3,773 in Lok Sabha and Rajya Sabha, 2019–2026",
   "url": "https://blog.vertistratsolution.com/2026/08/lok-sabha-question-registry-1843-scheme.html",
   "slug": "lok-sabha-question-registry-1843-scheme",
   "published": "2026-08-04T16:00:00.000+05:30",
-  "updated": "2026-11-14T13:35:12.180+05:30",
+  "updated": "2026-11-14T15:48:35.516+05:30",
   "labels": [
     "Import Substitution",
     "Industrial Policy",
     "Parliamentary Scheme Tracking"
   ],
-  "bytes": 396984,
-  "sha256": "531ca076f805187503eaf313dad3a7cb76d91a63663a4bf94c726dda38713763",
+  "bytes": 397035,
+  "sha256": "2f15bc472286964e0efdd3fa778002d52f6b1a1b012e192fa3a133a4373f3645",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.2.2",
+  "version": "4.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -338,6 +338,19 @@
       "bytes": [
         396979,
         396984
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "4.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "figures changed (+1/-0 distinct numbers)",
+      "bytes": [
+        396984,
+        397035
       ],
       "url_changed": null,
       "markers_changed": null,

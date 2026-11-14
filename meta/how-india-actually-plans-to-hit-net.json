@@ -1,17 +1,17 @@
 {
   "id": "5630013194430301747",
-  "title": "How India Actually Plans to Hit Net Zero: Eleven Scenarios, a Rising Coal Curve, and a ₹20,000 Crore Bet on Carbon Capture",
+  "title": "India's net zero pathways: all 11 scenarios have coal rising before it falls",
   "url": "https://blog.vertistratsolution.com/2026/08/how-india-actually-plans-to-hit-net.html",
   "slug": "how-india-actually-plans-to-hit-net",
   "published": "2026-08-28T07:26:34.000+05:30",
-  "updated": "2026-11-14T13:09:59.018+05:30",
+  "updated": "2026-11-14T15:23:15.126+05:30",
   "labels": [
     "Climate & Carbon",
     "Energy & Fuels",
     "Industrial Policy"
   ],
-  "bytes": 41942,
-  "sha256": "13888573fdeb4c76deb31e81c4d202188c7d0bf8a4689ec7c0ffbd58a4553cf7",
+  "bytes": 41890,
+  "sha256": "ebfbb730228bc046ba4a3d8ae5b00d8bdada1be30a94c6738a7cbbc1acb9a8ed",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.2.2",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -147,6 +147,19 @@
       "bytes": [
         41937,
         41942
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        41942,
+        41890
       ],
       "url_changed": null,
       "markers_changed": null,

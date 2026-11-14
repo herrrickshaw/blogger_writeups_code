@@ -1,15 +1,15 @@
 {
   "id": "650113111229004775",
-  "title": "India Raised the DAP Subsidy 18% This Kharif. Imported DAP Still Costs About Rs 30,000 a Tonne More Than It Earns",
+  "title": "DAP subsidy in kharif 2026: up 18%, while imports lose about Rs 30,000 a tonne",
   "url": "https://blog.vertistratsolution.com/2026/10/india-raised-dap-subsidy-18-this-kharif.html",
   "slug": "india-raised-dap-subsidy-18-this-kharif",
   "published": "2026-10-27T17:25:37.000+05:30",
-  "updated": "2026-11-14T12:30:40.790+05:30",
+  "updated": "2026-11-14T15:32:29.611+05:30",
   "labels": [
     "Agriculture & Fertilisers"
   ],
-  "bytes": 23077,
-  "sha256": "cfaff664712baffb81395dc65f3d6d79051aa03e5df926bb19715f1006573af7",
+  "bytes": 23042,
+  "sha256": "b2a4a6d4dae43054454f4d284915ac5fe92a9364bdf413f8d21f269ede4bac72",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.2",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -54,6 +54,19 @@
       "bytes": [
         23068,
         23077
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        23077,
+        23042
       ],
       "url_changed": null,
       "markers_changed": null,

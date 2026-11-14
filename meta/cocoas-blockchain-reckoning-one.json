@@ -1,16 +1,16 @@
 {
   "id": "7985956709535054713",
-  "title": "Cocoa's Blockchain Reckoning: One Platform Failed, One Pilot Just Ended, and a Real Deadline Is Four Months Out",
+  "title": "Cocoa blockchain tracing: TradeLens closed after 5 years and a deadline is 4 months away",
   "url": "https://blog.vertistratsolution.com/2026/08/cocoas-blockchain-reckoning-one.html",
   "slug": "cocoas-blockchain-reckoning-one",
   "published": "2026-08-08T21:27:49.000+05:30",
-  "updated": "2026-11-14T13:28:28.990+05:30",
+  "updated": "2026-11-14T15:12:34.284+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Trade & Tariffs"
   ],
-  "bytes": 29238,
-  "sha256": "0fbe5d42d33592c8836abd94cf1765137f57f35619c3e60854ab6b208ee1164e",
+  "bytes": 29191,
+  "sha256": "b0389c0b546e030040fb7e50ead13db9c62266e98f7c870ac1af930d45da8ac2",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.2.2",
+  "version": "4.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -315,6 +315,19 @@
       "bytes": [
         29233,
         29238
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "4.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "figures changed (+1/-0 distinct numbers)",
+      "bytes": [
+        29238,
+        29191
       ],
       "url_changed": null,
       "markers_changed": null,

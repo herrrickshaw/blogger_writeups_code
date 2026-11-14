@@ -1,16 +1,16 @@
 {
   "id": "299403441011327631",
-  "title": "India Imports 283,000 Tonnes of Almonds and Grows 4,100: Inside the Diwali Nut Trade",
+  "title": "Almonds in India: 283,000 tonnes imported and 4,100 grown, priced around Diwali",
   "url": "https://blog.vertistratsolution.com/2026/08/india-imports-283000-tonnes-of-almonds.html",
   "slug": "india-imports-283000-tonnes-of-almonds",
   "published": "2026-08-21T23:00:40.000+05:30",
-  "updated": "2026-11-14T13:15:06.839+05:30",
+  "updated": "2026-11-14T15:30:23.082+05:30",
   "labels": [
     "Trade & Tariffs",
     "Trade Remedies & Antidumping"
   ],
-  "bytes": 36389,
-  "sha256": "1317800344e9327c54502cd40e75a6460e8a00fbbfdb4c4ff72d0149a30c3f51",
+  "bytes": 36384,
+  "sha256": "93939a1f92186661d7161042bef50e9606be0bec88b7b86d092f6cad6f06a0f9",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.1.2",
+  "version": "4.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -198,6 +198,19 @@
       "bytes": [
         36385,
         36389
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "4.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "section(s) removed: India Imports 283,000 Tonnes of Almonds and Grows 4,100: Inside the Diwali Nut Trade",
+      "bytes": [
+        36389,
+        36384
       ],
       "url_changed": null,
       "markers_changed": null,

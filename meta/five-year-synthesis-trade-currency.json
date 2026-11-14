@@ -1,16 +1,16 @@
 {
   "id": "3143408713196154814",
-  "title": "Five-Year Synthesis: Trade, Currency & Policy, FY2021-22 to FY2025-26",
+  "title": "India's trade over 5 years: goods deficit up $92.5bn, services covered $81.3bn",
   "url": "https://blog.vertistratsolution.com/2026/08/five-year-synthesis-trade-currency.html",
   "slug": "five-year-synthesis-trade-currency",
   "published": "2026-08-02T13:51:50.000+05:30",
-  "updated": "2026-11-14T13:39:53.053+05:30",
+  "updated": "2026-11-14T15:19:17.473+05:30",
   "labels": [
     "Industrial Policy",
     "Trade & Tariffs"
   ],
-  "bytes": 52769,
-  "sha256": "49df6910b1565652bc3cb7ff73e1ad35ad6cc5917ab26a9eee3973022af1022a",
+  "bytes": 52713,
+  "sha256": "daf42927738c2dfe89789719f691ab5c40a0c0c12e33139efc1eda1847fb99de",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": true,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.1.2",
+  "version": "4.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -368,6 +368,19 @@
       "bytes": [
         52762,
         52769
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "4.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "figures changed (+1/-0 distinct numbers)",
+      "bytes": [
+        52769,
+        52713
       ],
       "url_changed": null,
       "markers_changed": null,

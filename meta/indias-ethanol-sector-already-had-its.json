@@ -1,15 +1,15 @@
 {
   "id": "2810587694480901909",
-  "title": "India's Ethanol Sector Already Had Its IPOs. Here's Who's Listed, Who Just Joined, and What's Still Pending",
+  "title": "Ethanol IPOs in India: Godavari Biorefineries and TruAlt listed, one more pending",
   "url": "https://blog.vertistratsolution.com/2026/09/indias-ethanol-sector-already-had-its.html",
   "slug": "indias-ethanol-sector-already-had-its",
   "published": "2026-09-15T06:49:17.000+05:30",
-  "updated": "2026-11-14T13:00:11.828+05:30",
+  "updated": "2026-11-14T15:39:03.052+05:30",
   "labels": [
     "Energy & Fuels"
   ],
-  "bytes": 24987,
-  "sha256": "2ca1a86189f7ac924686c603953b0ca11b4e8114ad175755494e1cf153c38bf1",
+  "bytes": 24961,
+  "sha256": "fbfd7d699acee5c13676a76800e5fc85a5039ad67c26f6b78c861b974c365db3",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.3.2",
+  "version": "3.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -132,6 +132,19 @@
       "bytes": [
         24984,
         24987
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "section(s) removed: India's Ethanol Sector Already Had Its IPOs. Here's Who's Listed, Who Just Joined, and What's Still Pending",
+      "bytes": [
+        24987,
+        24961
       ],
       "url_changed": null,
       "markers_changed": null,

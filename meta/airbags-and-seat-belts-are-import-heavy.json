@@ -1,17 +1,17 @@
 {
   "id": "5572443051977108998",
-  "title": "Airbags and Seat Belts Are Import-Heavy. Tyre Cord Isn't. India's Automotive Textiles Aren't One Story",
+  "title": "Automotive textiles in India: airbags and seat belts import-heavy, tyre cord not",
   "url": "https://blog.vertistratsolution.com/2026/08/airbags-and-seat-belts-are-import-heavy.html",
   "slug": "airbags-and-seat-belts-are-import-heavy",
   "published": "2026-08-15T11:27:49.000+05:30",
-  "updated": "2026-11-14T13:19:59.151+05:30",
+  "updated": "2026-11-14T15:08:53.973+05:30",
   "labels": [
     "Automotive & Manufacturing",
     "India Trade & Policy",
     "Textiles"
   ],
-  "bytes": 34536,
-  "sha256": "dc51509296f07ecf3e2667ed248e68451e2bcf10b3e9a2e7988fb9da75accddc",
+  "bytes": 34514,
+  "sha256": "3b93b0a57896781eda08c653cfba0d12aee30a79f68ba15b3b00337a3eacc296",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "5.1.2",
+  "version": "6.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -264,6 +264,19 @@
       "bytes": [
         34530,
         34536
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "6.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "section(s) removed: Airbags and Seat Belts Are Import-Heavy. Tyre Cord Isn't. India's Automotive Textiles Aren't One Story",
+      "bytes": [
+        34536,
+        34514
       ],
       "url_changed": null,
       "markers_changed": null,

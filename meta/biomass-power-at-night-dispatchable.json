@@ -1,17 +1,17 @@
 {
   "id": "4265707565642664899",
-  "title": "Biomass Power at Night: The Dispatchable Renewable India's Growth Numbers Left Behind",
+  "title": "Indian biomass power since 2019: growth at roughly an eighth of other renewables",
   "url": "https://blog.vertistratsolution.com/2026/08/biomass-power-at-night-dispatchable.html",
   "slug": "biomass-power-at-night-dispatchable",
   "published": "2026-08-20T05:54:52.000+05:30",
-  "updated": "2026-11-14T13:17:17.881+05:30",
+  "updated": "2026-11-14T15:10:42.943+05:30",
   "labels": [
     "Climate & Carbon",
     "Energy & Fuels",
     "Renewable Power & Storage"
   ],
-  "bytes": 35603,
-  "sha256": "8580fa58c94eca0fe84cd0b6397e9074a2460dd1692a84d08e83e05d228b554a",
+  "bytes": 35598,
+  "sha256": "127b293a44a7c94f26a29d29d800d7786178de3467dee4b913af6c47d091a3f3",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.3.2",
+  "version": "4.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -212,6 +212,19 @@
       "bytes": [
         35598,
         35603
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "4.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        35603,
+        35598
       ],
       "url_changed": null,
       "markers_changed": null,

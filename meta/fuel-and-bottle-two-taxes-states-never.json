@@ -1,16 +1,16 @@
 {
   "id": "5577698951877824521",
-  "title": "Fuel and the Bottle: The Two Taxes States Never Handed to GST",
+  "title": "Fuel and liquor taxes: over a third of Indian states' own-tax revenue, outside GST",
   "url": "https://blog.vertistratsolution.com/2026/08/fuel-and-bottle-two-taxes-states-never.html",
   "slug": "fuel-and-bottle-two-taxes-states-never",
   "published": "2026-08-12T21:27:32.000+05:30",
-  "updated": "2026-11-14T13:23:26.571+05:30",
+  "updated": "2026-11-14T15:21:00.078+05:30",
   "labels": [
     "Ethanol & Biofuels",
     "Macroeconomics & Monetary Policy"
   ],
-  "bytes": 32813,
-  "sha256": "3d2615907c77fdeb6d44858ef7f43a2cdf6c774357470c0d3aafc6219e714c20",
+  "bytes": 32834,
+  "sha256": "fbbfb4d9ff31ce26705ecf359890a7812d74a77a66074f2b80d4ddac7d418dbe",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.1.2",
+  "version": "3.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -315,6 +315,19 @@
       "bytes": [
         32798,
         32813
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "section(s) removed: Fuel and the Bottle: The Two Taxes States Never Handed to GST",
+      "bytes": [
+        32813,
+        32834
       ],
       "url_changed": null,
       "markers_changed": null,

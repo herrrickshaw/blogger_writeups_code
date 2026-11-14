@@ -1,17 +1,17 @@
 {
   "id": "2429811206826710614",
-  "title": "Announced vs. Delivered: Five Indian State Industrial Policies, Checked Against the Numbers",
+  "title": "State industrial policies in India: targets in 5 policies checked against delivery",
   "url": "https://blog.vertistratsolution.com/2026/08/announced-vs-delivered-three-indian.html",
   "slug": "announced-vs-delivered-three-indian",
   "published": "2026-08-02T18:31:16.000+05:30",
-  "updated": "2026-11-14T13:37:59.190+05:30",
+  "updated": "2026-11-14T15:09:52.389+05:30",
   "labels": [
     "Industrial Policy",
     "Mobility & EV",
     "State Investment Incentives"
   ],
-  "bytes": 58164,
-  "sha256": "16c9f4a1876b22474a3e3296ddd89e233d608f95bcb9d711179820d30c9b3b0b",
+  "bytes": 58155,
+  "sha256": "7108a431a68d1495b6903b1ed5bffa053637bcc3902f47e20897158bcb8cf3c5",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "4.4.2",
+  "version": "5.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -368,6 +368,19 @@
       "bytes": [
         58156,
         58164
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "5.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        58164,
+        58155
       ],
       "url_changed": null,
       "markers_changed": null,

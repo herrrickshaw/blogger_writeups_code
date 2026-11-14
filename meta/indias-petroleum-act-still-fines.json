@@ -1,15 +1,15 @@
 {
   "id": "1896511243041708211",
-  "title": "India's Petroleum Act Still Fines a Licence Breach ₹1,000. The Draft Fix Goes to ₹5 Crore",
+  "title": "India's Petroleum Act: licence breach fine ₹1,000, draft proposes up to ₹5 crore",
   "url": "https://blog.vertistratsolution.com/2026/10/indias-petroleum-act-still-fines.html",
   "slug": "indias-petroleum-act-still-fines",
   "published": "2026-10-09T10:10:29.000+05:30",
-  "updated": "2026-11-14T12:48:45.868+05:30",
+  "updated": "2026-11-14T15:43:55.505+05:30",
   "labels": [
     "Energy & Fuels"
   ],
-  "bytes": 20236,
-  "sha256": "53450aa918a07fe29c3f4daa3e3ebfb07768dd069fde59154e3a092ee226fe43",
+  "bytes": 20209,
+  "sha256": "23c6a1a1a2dcfdf3d05a3815402ac1722e1c981f8e92c877a2809fc8a78911e6",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.1.2",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -67,6 +67,19 @@
       "bytes": [
         20229,
         20236
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        20236,
+        20209
       ],
       "url_changed": null,
       "markers_changed": null,

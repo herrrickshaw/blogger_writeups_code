@@ -1,15 +1,15 @@
 {
   "id": "1589573471033349406",
-  "title": "India's FDI Moved to Software and Trading After 2017: Software Rose From 7.4% to 22.7% of Inflow, Townships Fell From 7.3% to 0.7%",
+  "title": "India's FDI by sector after 2017: software rose from 7.4% to 22.7% of inflow",
   "url": "https://blog.vertistratsolution.com/2026/10/indias-fdi-moved-to-software-and.html",
   "slug": "indias-fdi-moved-to-software-and",
   "published": "2026-10-10T02:54:22.000+05:30",
-  "updated": "2026-11-14T12:46:07.691+05:30",
+  "updated": "2026-11-14T15:40:05.872+05:30",
   "labels": [
     "Markets & Finance"
   ],
-  "bytes": 45538,
-  "sha256": "785169905b59aa8434578be2e6e185eb2d1ac45c059cce2b5a326d55ffd5c1a9",
+  "bytes": 45478,
+  "sha256": "08f1e2e99effac494c2379dce908e7e896717f8c382debeb3e7c9fbf3ddcdbf4",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.3",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -67,6 +67,19 @@
       "bytes": [
         45532,
         45538
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        45538,
+        45478
       ],
       "url_changed": null,
       "markers_changed": null,

@@ -1,17 +1,17 @@
 {
   "id": "3065904871784062044",
-  "title": "India Pays $5-8 Billion a Year to Ship Its Own Oil. Only 20% of That Cargo Travels on an Indian Vessel.",
+  "title": "India's oil shipping bill: $5-8 billion a year, with 20% of cargo on Indian vessels",
   "url": "https://blog.vertistratsolution.com/2026/09/india-pays-5-8-billion-year-to-ship-its.html",
   "slug": "india-pays-5-8-billion-year-to-ship-its",
   "published": "2026-09-28T17:00:17.000+05:30",
-  "updated": "2026-11-14T12:51:21.874+05:30",
+  "updated": "2026-11-14T15:32:00.577+05:30",
   "labels": [
     "Energy & Fuels",
     "Industrial Policy",
     "Shipping & Maritime Fuels"
   ],
-  "bytes": 23750,
-  "sha256": "7016a9342710aba4f50e1e7c7a78db45bcfc1d36a8690dd990c58b9af56a8db4",
+  "bytes": 23730,
+  "sha256": "f1a9a2605e5e3412948a5d441be64d4943462c133b0ac3bd6487f389092c64ba",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.2.2",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -108,6 +108,19 @@
       "bytes": [
         23745,
         23750
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "section(s) removed: India Pays $5-8 Billion a Year to Ship Its Own Oil. Only 20% of That Cargo Travels on an Indian Vessel.",
+      "bytes": [
+        23750,
+        23730
       ],
       "url_changed": null,
       "markers_changed": null,

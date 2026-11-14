@@ -1,16 +1,16 @@
 {
   "id": "2452302396809471268",
-  "title": "Rooftop Solar Is Working. Household Batteries Are Not Part of the Deal — and That Is the Next Problem.",
+  "title": "Rooftop solar in India: over 12 GW by May 2026, household batteries unsubsidised",
   "url": "https://blog.vertistratsolution.com/2026/08/rooftop-solar-is-working-household.html",
   "slug": "rooftop-solar-is-working-household",
   "published": "2026-08-06T08:11:47.000+05:30",
-  "updated": "2026-11-14T13:31:52.197+05:30",
+  "updated": "2026-11-14T15:56:50.555+05:30",
   "labels": [
     "Industrial Policy",
     "Mobility & EV"
   ],
-  "bytes": 21780,
-  "sha256": "1b74d84d28784e39dcaab6d1d80898c0a93d2bfa9585411b34cb2ebd644a13b4",
+  "bytes": 21752,
+  "sha256": "d5ce717747f3312e501d8cec3ac0e95f77ff0b6a5ebfe1d95e9415b0bc90cf78",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "4.2.2",
+  "version": "5.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -289,6 +289,19 @@
       "bytes": [
         21775,
         21780
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "5.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        21780,
+        21752
       ],
       "url_changed": null,
       "markers_changed": null,

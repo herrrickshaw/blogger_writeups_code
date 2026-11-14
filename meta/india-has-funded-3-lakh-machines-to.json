@@ -1,16 +1,16 @@
 {
   "id": "206710431453134033",
-  "title": "India Has Funded 3 Lakh Machines to Stop Stubble Burning. About 4,500 of Them Collect Straw",
+  "title": "Crop residue machines in India: 3 lakh subsidised, about 4,500 collect straw",
   "url": "https://blog.vertistratsolution.com/2026/10/india-has-funded-3-lakh-machines-to.html",
   "slug": "india-has-funded-3-lakh-machines-to",
   "published": "2026-10-28T16:33:26.000+05:30",
-  "updated": "2026-11-14T12:27:11.773+05:30",
+  "updated": "2026-11-14T15:29:16.911+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Energy & Fuels"
   ],
-  "bytes": 38893,
-  "sha256": "ff123715ee24eb3789ec9ed110a339a2ee9fb660731d501c0ef3d2343c7964ad",
+  "bytes": 38878,
+  "sha256": "6da6ad9f3d85050799b319a4e861de0e70284fbdcf1ad3f5e6497f1dff5e441d",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.1.2",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -68,6 +68,19 @@
       "bytes": [
         38885,
         38893
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "section(s) removed: India Has Funded 3 Lakh Machines to Stop Stubble Burning. About 4,500 of Them Collect Straw",
+      "bytes": [
+        38893,
+        38878
       ],
       "url_changed": null,
       "markers_changed": null,

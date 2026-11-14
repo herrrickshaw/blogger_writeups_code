@@ -1,15 +1,15 @@
 {
   "id": "5985376440688519611",
-  "title": "Annexure: 314 HSN Codes Mapped to Technical-Textile Segments",
+  "title": "Annexure: 314 HSN codes mapped to technical-textile segments",
   "url": "https://blog.vertistratsolution.com/2026/08/annexure-314-hsn-codes-mapped-to.html",
   "slug": "annexure-314-hsn-codes-mapped-to",
   "published": "2026-08-03T09:53:02.000+05:30",
-  "updated": "2026-11-14T13:36:59.361+05:30",
+  "updated": "2026-11-14T15:09:42.224+05:30",
   "labels": [
     "Textiles"
   ],
   "bytes": 46767,
-  "sha256": "32c7c45ea3e8efbcb827ca8fa851f272dcac65d751d8703de2d92edd901a5590",
+  "sha256": "9f59b609ae52be9e67f9c9e453bb908461236c5ca37f8c25e57411be2ba5d954",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.6",
+  "version": "3.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -261,6 +261,19 @@
       "reason": "visible text identical; only markup/styling changed",
       "bytes": [
         46763,
+        46767
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "section(s) removed: Annexure: 314 HSN Codes Mapped to Technical-Textile Segments",
+      "bytes": [
+        46767,
         46767
       ],
       "url_changed": null,

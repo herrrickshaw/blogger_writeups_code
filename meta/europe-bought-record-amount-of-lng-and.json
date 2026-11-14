@@ -1,18 +1,18 @@
 {
   "id": "8664072105984985528",
-  "title": "Europe Bought a Record Amount of LNG and Made Itself Dependent on One Supplier",
+  "title": "EU LNG imports: a record 146 bcm in 2025, nearly three-fifths from the US",
   "url": "https://blog.vertistratsolution.com/2026/08/europe-bought-record-amount-of-lng-and.html",
   "slug": "europe-bought-record-amount-of-lng-and",
   "published": "2026-08-08T10:31:50.000+05:30",
-  "updated": "2026-11-14T13:30:25.813+05:30",
+  "updated": "2026-11-14T15:17:18.206+05:30",
   "labels": [
     "Gas & LNG",
     "Global LNG Markets",
     "Industrial Policy",
     "Trade & Tariffs"
   ],
-  "bytes": 47144,
-  "sha256": "8c368d21e89674a957314103fa769932e4c8892914e9a6f8524347da249c384a",
+  "bytes": 47139,
+  "sha256": "ffa906c8049794b08ade0db850e129b22691c83db206230e8ed3ecec58034e38",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "9.1.2",
+  "version": "10.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -369,6 +369,19 @@
       "bytes": [
         47132,
         47144
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "10.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        47144,
+        47139
       ],
       "url_changed": null,
       "markers_changed": null,

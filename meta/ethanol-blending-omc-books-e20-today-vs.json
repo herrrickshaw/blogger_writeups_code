@@ -1,15 +1,15 @@
 {
   "id": "2440503955529656350",
-  "title": "Ethanol Blending & the OMC Books — E20 today vs E30 + SGST",
+  "title": "Ethanol blending and oil marketers' books: E20 today compared with E30 plus SGST",
   "url": "https://blog.vertistratsolution.com/2026/07/ethanol-blending-omc-books-e20-today-vs.html",
   "slug": "ethanol-blending-omc-books-e20-today-vs",
   "published": "2026-07-24T05:30:00.000+05:30",
-  "updated": "2026-11-14T13:43:58.099+05:30",
+  "updated": "2026-11-14T15:16:40.276+05:30",
   "labels": [
     "Energy & Fuels"
   ],
-  "bytes": 49061,
-  "sha256": "6fd0a40dbe3306d0fe322410b764d670a5cb6262e2bbeb263dad443f7f61acd3",
+  "bytes": 49098,
+  "sha256": "f6d7125393c438b45958cced15f9d80911559b9b4c801c2b051951e43f7b8876",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": true,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.2.2",
+  "version": "3.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -320,6 +320,19 @@
       "bytes": [
         49057,
         49061
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        49061,
+        49098
       ],
       "url_changed": null,
       "markers_changed": null,

@@ -1,18 +1,18 @@
 {
   "id": "6056302382445516180",
-  "title": "From Kerosene in Diesel to Ethanol in Petrol: A History of Fuel Theft in India",
+  "title": "Fuel theft in India: a history from kerosene in diesel to ethanol in petrol",
   "url": "https://blog.vertistratsolution.com/2026/11/from-kerosene-in-diesel-to-ethanol-in.html",
   "slug": "from-kerosene-in-diesel-to-ethanol-in",
   "published": "2026-11-07T17:36:16.000+05:30",
-  "updated": "2026-11-14T12:23:26.678+05:30",
+  "updated": "2026-11-14T15:20:50.267+05:30",
   "labels": [
     "Energy & Fuels",
     "Ethanol & Biofuels",
     "Fuel Retail & Pricing",
     "Governance & Institutions"
   ],
-  "bytes": 43702,
-  "sha256": "622df7abad7d779088929446cf91c8f8e416b1f9e9687223c08e015f0960b09c",
+  "bytes": 43699,
+  "sha256": "544204e3f7c855880850da358f06564ef53dcb0085d056349dc846c59a29f525",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.2",
+  "version": "3.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -70,6 +70,19 @@
       "bytes": [
         43689,
         43702
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "section(s) removed: From Kerosene in Diesel to Ethanol in Petrol: A History of Fuel Theft in India",
+      "bytes": [
+        43702,
+        43699
       ],
       "url_changed": null,
       "markers_changed": null,

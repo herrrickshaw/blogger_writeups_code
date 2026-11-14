@@ -1,17 +1,17 @@
 {
   "id": "5521803855484705521",
-  "title": "India Approved ₹1.5 Lakh Crore in Manufacturing Subsidies. Parliament's Own Answers Show How Little of It Has Actually Been Paid.",
+  "title": "Manufacturing subsidies in India: ₹1.5 lakh crore approved, a small part paid out",
   "url": "https://blog.vertistratsolution.com/2026/08/india-approved-15-lakh-crore-in.html",
   "slug": "india-approved-15-lakh-crore-in",
   "published": "2026-08-25T06:30:48.000+05:30",
-  "updated": "2026-11-14T13:11:29.532+05:30",
+  "updated": "2026-11-14T15:25:32.169+05:30",
   "labels": [
     "India",
     "Scheme Delivery Gap",
     "Trade & Tariffs"
   ],
-  "bytes": 42928,
-  "sha256": "74237d3542bdd442d6d51f10f57cf96f47d8cc18004c4c5ffcb639169a1eb3e3",
+  "bytes": 42874,
+  "sha256": "e33b599fc3b9abc28020eac41aead9a184d17e81e9a82cd7e32357d6cdf773f1",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "5.2.2",
+  "version": "6.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -186,6 +186,19 @@
       "bytes": [
         42924,
         42928
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "6.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "section(s) removed: India Approved &#8377;1.5 Lakh Crore in Manufacturing Subsidies. Parliament's Own Answers Show How Little of It Has Actually Been Paid.",
+      "bytes": [
+        42928,
+        42874
       ],
       "url_changed": null,
       "markers_changed": null,

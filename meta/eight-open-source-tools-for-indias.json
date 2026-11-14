@@ -1,16 +1,16 @@
 {
   "id": "4178047698112336993",
-  "title": "Eight Open-Source Tools for India’s Trade Data, From HS Chapters to Chemical Codes and Forex, and Which One Answers Which Question",
+  "title": "India's trade data: 8 open-source tools and the question each one answers",
   "url": "https://blog.vertistratsolution.com/2026/11/eight-open-source-tools-for-indias.html",
   "slug": "eight-open-source-tools-for-indias",
   "published": "2026-11-13T03:39:25.000+05:30",
-  "updated": "2026-11-14T14:22:34.345+05:30",
+  "updated": "2026-11-14T15:15:40.853+05:30",
   "labels": [
     "Chemicals",
     "Trade & Tariffs"
   ],
-  "bytes": 37681,
-  "sha256": "f31bc5df4eb3ffca1848b2ad26f216a0b306a279b8ebf882b3da6ee818e138e2",
+  "bytes": 37618,
+  "sha256": "c8766715235b16403a161f80649fae2ef2d7f4a5b8c4f82f633350e5b9d8d2cb",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.1",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -39,6 +39,19 @@
       "bytes": [
         37673,
         37681
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        37681,
+        37618
       ],
       "url_changed": null,
       "markers_changed": null,

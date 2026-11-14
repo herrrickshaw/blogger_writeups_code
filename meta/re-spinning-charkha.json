@@ -1,16 +1,16 @@
 {
   "id": "5860499963089825470",
-  "title": "Re-Spinning the Charkha",
+  "title": "Indian textiles and petrochemicals: the backward integration from cloth to crude",
   "url": "https://blog.vertistratsolution.com/2026/08/re-spinning-charkha.html",
   "slug": "re-spinning-charkha",
   "published": "2026-08-03T10:32:15.000+05:30",
-  "updated": "2026-11-14T13:36:49.474+05:30",
+  "updated": "2026-11-14T15:55:32.718+05:30",
   "labels": [
     "Energy & Fuels",
     "Textiles"
   ],
-  "bytes": 33485,
-  "sha256": "8d749755824a9ecd346d6042d0c1ae591176ca10a17df9e4d32a8dcd22a176d9",
+  "bytes": 33542,
+  "sha256": "d05b9b3dcc6b36dff6c2727fbf94da60edf04fe549e8f2f3a9fdf2532643f314",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.1",
+  "version": "4.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -276,6 +276,19 @@
       "bytes": [
         33475,
         33485
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "4.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "section(s) removed: Re-Spinning the Charkha",
+      "bytes": [
+        33485,
+        33542
       ],
       "url_changed": null,
       "markers_changed": null,

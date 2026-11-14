@@ -1,18 +1,18 @@
 {
   "id": "2406063480257265998",
-  "title": "India Imported $28 Million of Sucralose in FY26, Up 49%. Sugar Mills Make the Raw Material. Making the Sweetener Is a Chlorination Problem, Not a Sugar One",
+  "title": "Sucralose in India: imports of $28 million in FY26, up 49%, and no verified domestic plant",
   "url": "https://blog.vertistratsolution.com/2026/10/india-imported-28-million-of-sucralose.html",
   "slug": "india-imported-28-million-of-sucralose",
   "published": "2026-10-10T19:38:39.000+05:30",
-  "updated": "2026-11-14T12:45:39.028+05:30",
+  "updated": "2026-11-14T15:30:03.620+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Chemicals",
     "Healthcare",
     "Trade & Tariffs"
   ],
-  "bytes": 33361,
-  "sha256": "c025867e8d254a5ae6921f496458109a7553690bd413aede2bd8cfc6c2b9f8c0",
+  "bytes": 33296,
+  "sha256": "90f32dc349a656a945f1ea287c2cc32635cd21897c4a2a6bd44469688a2d1488",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.2.2",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -83,6 +83,19 @@
       "bytes": [
         33355,
         33361
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "section(s) removed: India Imported $28 Million of Sucralose in FY26, Up 49%. Sugar Mills Make the Raw Material. Making the Sweetener Is a Chlorination Problem, Not a Sugar One",
+      "bytes": [
+        33361,
+        33296
       ],
       "url_changed": null,
       "markers_changed": null,

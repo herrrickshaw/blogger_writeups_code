@@ -1,15 +1,15 @@
 {
   "id": "1563290819503966785",
-  "title": "India's Two Tracks of Health Cover, and Where They Actually Meet",
+  "title": "India's health cover: over 48.5 crore PM-JAY cards and a private insurance track",
   "url": "https://blog.vertistratsolution.com/2026/08/indias-two-tracks-of-health-cover-and.html",
   "slug": "indias-two-tracks-of-health-cover-and",
   "published": "2026-08-12T10:54:13.000+05:30",
-  "updated": "2026-11-14T13:24:43.798+05:30",
+  "updated": "2026-11-14T15:45:53.703+05:30",
   "labels": [
     "Healthcare"
   ],
-  "bytes": 29042,
-  "sha256": "3e25b81e20f284b69efe68fbf55a90abb651a0bf64b2a76bece4056e78d0b6a2",
+  "bytes": 29058,
+  "sha256": "6c7446421921cfca3cc33da7d1b8a1ed2150216b83bd1f9983f8587151e0e1ac",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "4.1.2",
+  "version": "5.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -262,6 +262,19 @@
       "bytes": [
         29037,
         29042
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "5.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        29042,
+        29058
       ],
       "url_changed": null,
       "markers_changed": null,

@@ -1,15 +1,15 @@
 {
   "id": "6980353450072624800",
-  "title": "RBI Foreign Exchange Reserves — 2015–2026",
+  "title": "RBI foreign exchange reserves, 2015–2026: monthly and weekly data with the rupee",
   "url": "https://blog.vertistratsolution.com/2026/08/rbi-foreign-exchange-reserves-20152026.html",
   "slug": "rbi-foreign-exchange-reserves-20152026",
   "published": "2026-08-02T13:43:33.000+05:30",
-  "updated": "2026-11-14T13:40:55.637+05:30",
+  "updated": "2026-11-14T15:55:22.057+05:30",
   "labels": [
     "Markets & Finance"
   ],
-  "bytes": 58172,
-  "sha256": "7b5e76d924484d0c7b991cd331ff1417ed37a03d544d94d81997be8be9984375",
+  "bytes": 58215,
+  "sha256": "870062a5a92d71648704a712f711f6addef7ba2e07003a54c773e5fe65d4a89c",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": true,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "4.3.2",
+  "version": "5.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -345,6 +345,19 @@
       "bytes": [
         58167,
         58172
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "5.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        58172,
+        58215
       ],
       "url_changed": null,
       "markers_changed": null,

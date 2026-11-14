@@ -1,18 +1,18 @@
 {
   "id": "3210995078525849235",
-  "title": "Oilfield Costs Rose 6–8% While Global Spending Fell. Asia's Thin Rig Fleet Is Where That Squeeze Bites Hardest.",
+  "title": "Oilfield costs: up 6–8% while global spending fell, most pressure on Asia's rig fleet",
   "url": "https://blog.vertistratsolution.com/2026/08/oilfield-costs-rose-68-while-global.html",
   "slug": "oilfield-costs-rose-68-while-global",
   "published": "2026-08-26T09:43:59.000+05:30",
-  "updated": "2026-11-14T13:10:59.037+05:30",
+  "updated": "2026-11-14T15:51:26.347+05:30",
   "labels": [
     "Energy & Fuels",
     "India",
     "Markets & Finance",
     "Oil & Gas Exploration"
   ],
-  "bytes": 36421,
-  "sha256": "443a1eef8917302e5f4f1b1d1f243a8ef97367accdbfcaa18ba58d148eee8a84",
+  "bytes": 36389,
+  "sha256": "0e75fcdc9eae901e83b4c55ca65b7fd2e7b4dee3b4a52cb465ea6063d918f784",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.2.2",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -135,6 +135,19 @@
       "bytes": [
         36417,
         36421
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "section(s) removed: Oilfield Costs Rose 6&ndash;8% While Global Spending Fell. Asia's Thin Rig Fleet Is Where That Squeeze Bites Hardest.",
+      "bytes": [
+        36421,
+        36389
       ],
       "url_changed": null,
       "markers_changed": null,

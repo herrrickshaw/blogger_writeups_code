@@ -1,15 +1,15 @@
 {
   "id": "1367106299160743452",
-  "title": "Petroleum Trade Pairings and the US Crude Storage Picture",
+  "title": "US crude storage and petroleum trade pairings: reserves, Cushing and OPEC output",
   "url": "https://blog.vertistratsolution.com/2026/08/petroleum-trade-pairings-and-us-crude.html",
   "slug": "petroleum-trade-pairings-and-us-crude",
   "published": "2026-08-08T10:22:11.000+05:30",
-  "updated": "2026-11-14T13:30:36.334+05:30",
+  "updated": "2026-11-14T15:52:54.691+05:30",
   "labels": [
     "Energy & Fuels"
   ],
-  "bytes": 154853,
-  "sha256": "85b30bd2f3d6d82ca3ce876f74a48121210ead9e5239cc6c11b30facb1f4fefe",
+  "bytes": 154876,
+  "sha256": "dec4736596e845e42b0c140e277a9c830f7a48bba9a95437a48eb9eaaacb6ea1",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": true,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "5.2.2",
+  "version": "6.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -310,6 +310,19 @@
       "bytes": [
         154849,
         154853
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "6.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "section(s) removed: Petroleum trade pairings and the US crude storage picture",
+      "bytes": [
+        154853,
+        154876
       ],
       "url_changed": null,
       "markers_changed": null,

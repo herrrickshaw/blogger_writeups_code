@@ -1,16 +1,16 @@
 {
   "id": "4948195795635103236",
-  "title": "Nine Open-Source Tools for Sizing and Costing India’s Biofuel, Gas and Refining Plants, and Which One to Start With",
+  "title": "India's biofuel, gas and refining plants: 9 open-source sizing and costing tools",
   "url": "https://blog.vertistratsolution.com/2026/11/nine-open-source-tools-for-sizing-and.html",
   "slug": "nine-open-source-tools-for-sizing-and",
   "published": "2026-11-13T03:39:18.000+05:30",
-  "updated": "2026-11-14T14:23:19.384+05:30",
+  "updated": "2026-11-14T15:50:46.962+05:30",
   "labels": [
     "Energy & Fuels",
     "Gas & LNG"
   ],
-  "bytes": 36143,
-  "sha256": "fc216d84c8c854666ce77a390044186efd1001fbf36c18fd6116ebc66c772453",
+  "bytes": 36102,
+  "sha256": "6ee4b6644f8069fe2659f0775521392048549bf302cb0e3b52f6d7456f37fb76",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.1",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -39,6 +39,19 @@
       "bytes": [
         36135,
         36143
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        36143,
+        36102
       ],
       "url_changed": null,
       "markers_changed": null,

@@ -1,16 +1,16 @@
 {
   "id": "7697539646438965679",
-  "title": "India's ₹60,000 Crore API Push, Traced to Its Six Actual Schemes",
+  "title": "India's ₹60,000 crore API push: at least 6 existing schemes added together",
   "url": "https://blog.vertistratsolution.com/2026/09/indias-60000-crore-api-push-traced-to.html",
   "slug": "indias-60000-crore-api-push-traced-to",
   "published": "2026-09-16T14:11:49.000+05:30",
-  "updated": "2026-11-14T12:57:31.431+05:30",
+  "updated": "2026-11-14T15:35:27.638+05:30",
   "labels": [
     "Industrial Policy",
     "PLI Schemes"
   ],
-  "bytes": 27147,
-  "sha256": "13e59c154475c0203ce00e7780634448ad9b44f69c45684fb732286bec15ba18",
+  "bytes": 27151,
+  "sha256": "b9737bb0f7807cbd665c2c0a09cca06dea43210dd17ce3a44e3cc755c35379e9",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.5.2",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -133,6 +133,19 @@
       "bytes": [
         27141,
         27147
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "figures changed (+1/-0 distinct numbers)",
+      "bytes": [
+        27147,
+        27151
       ],
       "url_changed": null,
       "markers_changed": null,

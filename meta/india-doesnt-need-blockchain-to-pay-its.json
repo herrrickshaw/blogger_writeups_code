@@ -1,17 +1,17 @@
 {
   "id": "8572345336122751544",
-  "title": "India Doesn’t Need a Blockchain to Pay Its Farmers. It May Need One to Agree on Who Owns the Land",
+  "title": "Blockchain for Indian farmers: land records are a stronger use case than payments",
   "url": "https://blog.vertistratsolution.com/2026/11/india-doesnt-need-blockchain-to-pay-its.html",
   "slug": "india-doesnt-need-blockchain-to-pay-its",
   "published": "2026-11-03T17:48:45.000+05:30",
-  "updated": "2026-11-14T12:24:45.961+05:30",
+  "updated": "2026-11-14T15:26:22.253+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Governance & Institutions",
     "Markets & Finance"
   ],
-  "bytes": 34162,
-  "sha256": "12e841d8181e8acfcebf2c5de9efbd8e02e013b2f6b8d6be33dd69e55ae84058",
+  "bytes": 34140,
+  "sha256": "2cbb6606b3480927951afa968d58818cba942f7f8b9bb13e3445a43426402217",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.2",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -56,6 +56,19 @@
       "bytes": [
         34153,
         34162
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "section(s) removed: India Doesn&rsquo;t Need a Blockchain to Pay Its Farmers. It May Need One to Agree on Who Owns the Land",
+      "bytes": [
+        34162,
+        34140
       ],
       "url_changed": null,
       "markers_changed": null,

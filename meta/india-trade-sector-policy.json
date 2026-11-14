@@ -1,15 +1,15 @@
 {
   "id": "5110699644222752308",
-  "title": "India Trade — Sector & Policy Recommendations (Chart Library)",
+  "title": "India's trade by sector: chart library of policy recommendations",
   "url": "https://blog.vertistratsolution.com/2026/07/india-trade-sector-policy.html",
   "slug": "india-trade-sector-policy",
   "published": "2026-07-21T05:30:00.000+05:30",
-  "updated": "2026-11-14T13:45:46.177+05:30",
+  "updated": "2026-11-14T15:33:28.657+05:30",
   "labels": [
     "Industrial Policy"
   ],
-  "bytes": 21327,
-  "sha256": "7f4a294d1713d0f7c698d3193e88cae5a8ed4e8087b1c53ad9157daba5a0e0f5",
+  "bytes": 21342,
+  "sha256": "d000a43aa538971e4b2ef3c228f5d92f6457141cf6a70cdbb430696a2668d91e",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.1.2",
+  "version": "3.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -285,6 +285,19 @@
       "bytes": [
         21323,
         21327
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "section(s) removed: India Trade — Sector &amp; Policy Recommendations",
+      "bytes": [
+        21327,
+        21342
       ],
       "url_changed": null,
       "markers_changed": null,

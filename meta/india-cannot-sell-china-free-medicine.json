@@ -1,18 +1,18 @@
 {
   "id": "2477910080752035281",
-  "title": "Indian Medicine Depends Heavily on Chinese Imports",
+  "title": "Indian medicines: dependence on Chinese imports and the BIOSECURE opportunity",
   "url": "https://blog.vertistratsolution.com/2026/08/india-cannot-sell-china-free-medicine.html",
   "slug": "india-cannot-sell-china-free-medicine",
   "published": "2026-08-23T10:16:58.000+05:30",
-  "updated": "2026-11-14T13:12:59.495+05:30",
+  "updated": "2026-11-14T15:25:50.637+05:30",
   "labels": [
     "Chemicals",
     "Healthcare",
     "Trade & Tariffs",
     "Trade Remedies & Antidumping"
   ],
-  "bytes": 39788,
-  "sha256": "b7f10d3df6d15c37d3704df4ba5299e45602217de524e2ae133f9190e9cb213e",
+  "bytes": 39772,
+  "sha256": "37525e259625d1750333deab9c953c382ef9c574dd6dfa1ecdae150e271035c1",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.2.2",
+  "version": "4.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -174,6 +174,19 @@
       "bytes": [
         39783,
         39788
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "4.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        39788,
+        39772
       ],
       "url_changed": null,
       "markers_changed": null,

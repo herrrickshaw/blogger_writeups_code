@@ -1,17 +1,17 @@
 {
   "id": "8837047490664481936",
-  "title": "A 17% Rural Pay Rise That Nobody Received",
+  "title": "Rural wages in India: a sample revision made growth look 3 times faster",
   "url": "https://blog.vertistratsolution.com/2026/08/a-17-rural-pay-rise-that-nobody-received.html",
   "slug": "a-17-rural-pay-rise-that-nobody-received",
   "published": "2026-08-22T11:06:55.000+05:30",
-  "updated": "2026-11-14T13:14:36.350+05:30",
+  "updated": "2026-11-14T15:05:55.615+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "India",
     "Prices & Inflation"
   ],
-  "bytes": 42055,
-  "sha256": "7851c9c899c321f5f3132526f8d29395c5bed79b5ada65a1bf20d0a4da1c9b73",
+  "bytes": 42085,
+  "sha256": "38456351cf2010590416d35bd20b57d5fc7ed90280e8ef1719d231cf9cadfa58",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "6.0.2",
+  "version": "7.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -199,6 +199,19 @@
       "bytes": [
         42049,
         42055
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "7.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "figures changed (+1/-0 distinct numbers)",
+      "bytes": [
+        42055,
+        42085
       ],
       "url_changed": null,
       "markers_changed": null,

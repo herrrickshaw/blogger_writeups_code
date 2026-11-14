@@ -1,16 +1,16 @@
 {
   "id": "9053217851150932322",
-  "title": "Jai Kisan, Jai Javan — An FCI-Based Military Ration Strategy",
+  "title": "Military ration supply through FCI: a proposal to route rations via its mill network",
   "url": "https://blog.vertistratsolution.com/2026/08/jai-kisan-jai-javan-fci-based-military.html",
   "slug": "jai-kisan-jai-javan-fci-based-military",
   "published": "2026-08-04T16:15:00.000+05:30",
-  "updated": "2026-11-14T13:34:41.634+05:30",
+  "updated": "2026-11-14T15:47:35.431+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Grain Procurement & Storage"
   ],
-  "bytes": 23941,
-  "sha256": "2d1dc365ea1e0b327bb7d7ab84e4d780a6d76d8b43402877f8662827c15ac9bc",
+  "bytes": 23965,
+  "sha256": "0aaa35a36d4e2721a22f64db5c3d15ba48eaa8ee9dd3f14a900198f466009f19",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.1.2",
+  "version": "4.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -281,6 +281,19 @@
       "bytes": [
         23936,
         23941
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "4.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "section(s) removed: Jai Kisan, Jai Javan — An FCI-Based Military Ration Strategy",
+      "bytes": [
+        23941,
+        23965
       ],
       "url_changed": null,
       "markers_changed": null,

@@ -1,18 +1,18 @@
 {
   "id": "7676917224590597326",
-  "title": "A Hectare Under a Power Line Now Pays Three to Six Times What One Over a Pipeline Does",
+  "title": "Land under power lines: 30–60% of market value paid, against 10% for pipelines",
   "url": "https://blog.vertistratsolution.com/2026/10/a-hectare-under-power-line-now-pays.html",
   "slug": "a-hectare-under-power-line-now-pays",
   "published": "2026-10-26T14:47:49.000+05:30",
-  "updated": "2026-11-14T12:32:39.191+05:30",
+  "updated": "2026-11-14T15:06:34.821+05:30",
   "labels": [
     "Energy & Fuels",
     "Gas Pipeline Infrastructure & Demand Planning",
     "Infrastructure & Investment",
     "Renewable Power & Storage"
   ],
-  "bytes": 30117,
-  "sha256": "4542b90f967539ab030dd3407c85aa0fee188279c0e0dce395acb82a25ebbae2",
+  "bytes": 30109,
+  "sha256": "c5da55686c178e0eca82c124bfe4421dfb6cb935c70bb1ccb6cb566104a22450",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.1.2",
+  "version": "3.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -96,6 +96,19 @@
       "bytes": [
         30111,
         30117
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        30117,
+        30109
       ],
       "url_changed": null,
       "markers_changed": null,

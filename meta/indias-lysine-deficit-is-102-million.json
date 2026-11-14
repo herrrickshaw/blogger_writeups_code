@@ -1,17 +1,17 @@
 {
   "id": "7477474267251542309",
-  "title": "India's Lysine Deficit Is $102 Million and China Holds About Three-Quarters of World Capacity. Molasses Is the Cheap Part. The Fermenter Is the Hard Part",
+  "title": "India's lysine imports: $106 million a year, unit price down 18.7% in FY26",
   "url": "https://blog.vertistratsolution.com/2026/10/indias-lysine-deficit-is-102-million.html",
   "slug": "indias-lysine-deficit-is-102-million",
   "published": "2026-10-10T21:36:17.000+05:30",
-  "updated": "2026-11-14T12:45:29.094+05:30",
+  "updated": "2026-11-14T15:42:05.943+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Chemicals",
     "Trade & Tariffs"
   ],
-  "bytes": 31022,
-  "sha256": "bcd8e8882e9600b26ac350ece3ee9f168d8063e8f0ad7b16f878a7a945f8e7b1",
+  "bytes": 30937,
+  "sha256": "859806c2115c66b3429275919099e368310ecdfc44b8932e89e4a71290d25763",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.2.2",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -82,6 +82,19 @@
       "bytes": [
         31016,
         31022
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        31022,
+        30937
       ],
       "url_changed": null,
       "markers_changed": null,

@@ -1,17 +1,17 @@
 {
   "id": "4540001917901304633",
-  "title": "Scan, Bottle, Deliver: What PPAC's Numbers Say About the LPG Cylinder in Your Kitchen",
+  "title": "LPG cylinders in India: PPAC data on bottling and delivery",
   "url": "https://blog.vertistratsolution.com/2026/08/scan-bottle-deliver-what-ppacs-numbers.html",
   "slug": "scan-bottle-deliver-what-ppacs-numbers",
   "published": "2026-08-17T07:05:11.000+05:30",
-  "updated": "2026-11-14T13:19:07.489+05:30",
+  "updated": "2026-11-14T15:57:33.338+05:30",
   "labels": [
     "Energy & Fuels",
     "Gas & LNG",
     "India Trade & Policy"
   ],
-  "bytes": 29070,
-  "sha256": "1c932449eec6dc540d3fd84ea0ada86b88785b27aafe8e1a5a1078195e09aa66",
+  "bytes": 29043,
+  "sha256": "d98a00463328cd8ee3099b7bf980706a87a8babb1c8d43f9739acab2bb9e8ebe",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.3.2",
+  "version": "3.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -186,6 +186,19 @@
       "bytes": [
         29065,
         29070
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "section(s) removed: Scan, Bottle, Deliver: What PPAC's Numbers Say About the LPG Cylinder in Your Kitchen",
+      "bytes": [
+        29070,
+        29043
       ],
       "url_changed": null,
       "markers_changed": null,

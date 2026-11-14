@@ -1,17 +1,17 @@
 {
   "id": "8288163348624701745",
-  "title": "Petrol-Pump Margins and E20: The First Dealer Raise in Seven Years, Not Tied to Ethanol, While Oil-Company Margins Followed Crude Into the Red in 2026",
+  "title": "Petrol pump dealer margins: October 2024 brought the first raise in 7 years",
   "url": "https://blog.vertistratsolution.com/2026/10/petrol-pump-margins-and-e20-one-dealer.html",
   "slug": "petrol-pump-margins-and-e20-one-dealer",
   "published": "2026-10-16T10:51:40.000+05:30",
-  "updated": "2026-11-14T12:44:49.586+05:30",
+  "updated": "2026-11-14T15:52:44.243+05:30",
   "labels": [
     "Energy & Fuels",
     "Ethanol & Biofuels",
     "Fuel Retail & Pricing"
   ],
-  "bytes": 53275,
-  "sha256": "ba883dc3254062168a1045df5fe758a6cd231469eb6fc162c63f917803d78f71",
+  "bytes": 53200,
+  "sha256": "dfd54865b55a92d9f150de57d9a75c4d2e849cad7127d5d0609df952851d51ad",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.3.2",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -95,6 +95,19 @@
       "bytes": [
         53264,
         53275
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        53275,
+        53200
       ],
       "url_changed": null,
       "markers_changed": null,

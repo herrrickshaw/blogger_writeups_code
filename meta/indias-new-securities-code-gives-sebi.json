@@ -1,16 +1,16 @@
 {
   "id": "4784325280705660653",
-  "title": "India’s New Securities Code Gives SEBI 180 Days to Finish a Probe. Most Take a Year or More",
+  "title": "SEBI investigations: new securities code sets 180 days, most take a year or more",
   "url": "https://blog.vertistratsolution.com/2026/10/indias-new-securities-code-gives-sebi.html",
   "slug": "indias-new-securities-code-gives-sebi",
   "published": "2026-10-31T05:12:22.000+05:30",
-  "updated": "2026-11-14T12:25:15.708+05:30",
+  "updated": "2026-11-14T15:42:53.993+05:30",
   "labels": [
     "Governance & Institutions",
     "Markets & Finance"
   ],
-  "bytes": 26395,
-  "sha256": "8b45432c069990fce31def2ccfd2a00cb0ca0a55a43bcabec8fe192036f3f288",
+  "bytes": 26378,
+  "sha256": "18f9533eb6a134c1145823314fe373404b6fe32754d431e712800282e1988028",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.2",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -55,6 +55,19 @@
       "bytes": [
         26387,
         26395
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "section(s) removed: India&rsquo;s New Securities Code Gives SEBI 180 Days to Finish a Probe. Most Take a Year or More",
+      "bytes": [
+        26395,
+        26378
       ],
       "url_changed": null,
       "markers_changed": null,

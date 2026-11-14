@@ -1,18 +1,18 @@
 {
   "id": "2524029659880077510",
-  "title": "Imported Fertiliser & Fuel Prices → Diesel → CPI/WPI — India",
+  "title": "Imported fertiliser and fuel prices in India: diesel, CPI and WPI, FY2012–FY2026",
   "url": "https://blog.vertistratsolution.com/2026/08/imported-fertiliser-fuel-prices-diesel.html",
   "slug": "imported-fertiliser-fuel-prices-diesel",
   "published": "2026-08-02T13:50:50.000+05:30",
-  "updated": "2026-11-14T13:40:03.993+05:30",
+  "updated": "2026-11-14T15:25:13.685+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Energy & Fuels",
     "Fertilisers & Soil Health",
     "Prices & Inflation"
   ],
-  "bytes": 37910,
-  "sha256": "75a193127ffae8468802382c316ca1e723a65f3294c22e18e0d4653bd99e6e52",
+  "bytes": 37896,
+  "sha256": "9eafa71660446208dd807cade41f71a590d1a0acb10bb046917886d7e7b98f5a",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "5.0.2",
+  "version": "6.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -335,6 +335,19 @@
       "bytes": [
         37898,
         37910
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "6.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        37910,
+        37896
       ],
       "url_changed": null,
       "markers_changed": null,

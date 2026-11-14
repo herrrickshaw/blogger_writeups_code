@@ -1,17 +1,17 @@
 {
   "id": "8952821901335105426",
-  "title": "India Raised Cooking-Oil Duties to Help Farmers in 2024. It Has Cut Them Twice Since, and Prices Kept Rising",
+  "title": "India's cooking oil duty: cut from 27.5% to 11% in 2 steps as prices rose",
   "url": "https://blog.vertistratsolution.com/2026/10/india-raised-cooking-oil-duties-to-help.html",
   "slug": "india-raised-cooking-oil-duties-to-help",
   "published": "2026-10-09T11:15:49.000+05:30",
-  "updated": "2026-11-14T12:47:55.352+05:30",
+  "updated": "2026-11-14T15:32:19.976+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Energy & Fuels",
     "Trade & Tariffs"
   ],
-  "bytes": 26809,
-  "sha256": "448baf87121adc5e34a51afa39097fc7df544b156acab5845ec7a1601c4ba537",
+  "bytes": 26774,
+  "sha256": "e363980b8a909429b6530168a0139cbe03db88d489fff3f929f06a56d840b7be",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.2",
+  "version": "4.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -82,6 +82,19 @@
       "bytes": [
         26803,
         26809
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "4.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        26809,
+        26774
       ],
       "url_changed": null,
       "markers_changed": null,

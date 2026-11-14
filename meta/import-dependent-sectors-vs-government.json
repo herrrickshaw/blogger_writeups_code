@@ -1,16 +1,16 @@
 {
   "id": "3526793739672333269",
-  "title": "Import-Dependent Sectors vs. Government Scheme Attention — India",
+  "title": "India's import-dependent sectors: 12 chapters set against 6 months of scheme news",
   "url": "https://blog.vertistratsolution.com/2026/08/import-dependent-sectors-vs-government.html",
   "slug": "import-dependent-sectors-vs-government",
   "published": "2026-08-02T14:03:17.000+05:30",
-  "updated": "2026-11-14T13:39:03.544+05:30",
+  "updated": "2026-11-14T15:25:04.095+05:30",
   "labels": [
     "Industrial Policy",
     "Trade & Tariffs"
   ],
-  "bytes": 32121,
-  "sha256": "a4314b52799cefcd15fff44df24f4657f22ed9d958fff404e1f2b2b4469de05f",
+  "bytes": 32076,
+  "sha256": "ac99157a27456fbc7d5156341e023235459e9796d457e1cbc24fd2f89e8632a7",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.2.2",
+  "version": "4.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -294,6 +294,19 @@
       "bytes": [
         32116,
         32121
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "4.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "figures changed (+1/-0 distinct numbers)",
+      "bytes": [
+        32121,
+        32076
       ],
       "url_changed": null,
       "markers_changed": null,

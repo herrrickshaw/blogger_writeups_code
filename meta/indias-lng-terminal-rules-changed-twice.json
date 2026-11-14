@@ -1,16 +1,16 @@
 {
   "id": "7984358415503039178",
-  "title": "India's LNG Terminal Rules Changed Twice in 2025. A Concrete Platform at Kakinada Is Testing How Far They Stretch",
+  "title": "India's LNG terminal rules: 2 changes in 2025, tested by a concrete platform at Kakinada",
   "url": "https://blog.vertistratsolution.com/2026/09/indias-lng-terminal-rules-changed-twice.html",
   "slug": "indias-lng-terminal-rules-changed-twice",
   "published": "2026-09-01T22:21:11.000+05:30",
-  "updated": "2026-11-14T13:05:38.667+05:30",
+  "updated": "2026-11-14T15:41:46.499+05:30",
   "labels": [
     "Gas & LNG",
     "LNG Plant & Terminal Engineering"
   ],
-  "bytes": 32917,
-  "sha256": "91e97ab66eb9eedef3f56c0d0979654fff5216ae7b9292a46a4c95cfd5715c14",
+  "bytes": 32892,
+  "sha256": "2453eda3cad7567e9fbc0b860080b9aa8945e8d6da86b762d8ffa67bbf563623",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.2.2",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -133,6 +133,19 @@
       "bytes": [
         32913,
         32917
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        32917,
+        32892
       ],
       "url_changed": null,
       "markers_changed": null,

@@ -1,17 +1,17 @@
 {
   "id": "7900736457866290219",
-  "title": "How to use five open toolkits: finance models, documents, care audits",
+  "title": "How to use 5 open toolkits: finance models, documents, care audits",
   "url": "https://blog.vertistratsolution.com/2026/10/how-to-use-five-open-toolkits-finance.html",
   "slug": "how-to-use-five-open-toolkits-finance",
   "published": "2026-10-30T09:26:39.000+05:30",
-  "updated": "2026-11-14T12:25:35.199+05:30",
+  "updated": "2026-11-14T15:23:55.563+05:30",
   "labels": [
     "Healthcare",
     "Markets & Finance",
     "Open-Source Tools & How-To"
   ],
-  "bytes": 26584,
-  "sha256": "ddfb363c2e9ca594d9c0ef2f7af81e039a3ad9737b4cca37e83eda9cdb2e62f0",
+  "bytes": 26581,
+  "sha256": "a3234a5dae637c078a5ef5a91e9bf24444fbd1e182f46f6a182696b3b027cf2c",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.4",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -82,6 +82,19 @@
       "bytes": [
         26582,
         26584
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        26584,
+        26581
       ],
       "url_changed": null,
       "markers_changed": null,

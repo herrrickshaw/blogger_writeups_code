@@ -1,15 +1,15 @@
 {
   "id": "3007209494230714825",
-  "title": "Do CBSE Past Papers Actually Help? Depends Which of the 11 Subjects You Ask.",
+  "title": "CBSE past papers: useful for Accountancy and Physics, not English Core",
   "url": "https://blog.vertistratsolution.com/2026/09/do-cbse-past-papers-actually-help.html",
   "slug": "do-cbse-past-papers-actually-help",
   "published": "2026-09-17T07:21:20.000+05:30",
-  "updated": "2026-11-14T12:56:33.026+05:30",
+  "updated": "2026-11-14T15:14:22.612+05:30",
   "labels": [
     "Education"
   ],
-  "bytes": 29217,
-  "sha256": "7fedb41f34dc89030a0fc2cfe9038f3b657670490771f562f840b19da55d278b",
+  "bytes": 29211,
+  "sha256": "284bbc73e69387c1f0ce21bfd2167edd97d90b2c161231d698c0cbd82ca13c7b",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.1",
+  "version": "4.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -126,6 +126,19 @@
       "bytes": [
         29214,
         29217
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "4.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        29217,
+        29211
       ],
       "url_changed": null,
       "markers_changed": null,

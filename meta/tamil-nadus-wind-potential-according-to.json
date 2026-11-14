@@ -1,16 +1,16 @@
 {
   "id": "5004959433275107762",
-  "title": "Tamil Nadu's Wind Potential, According to NIWE: A Third Built, Two-Thirds Still on the Table",
+  "title": "Tamil Nadu wind power: about a third of 33,799 MW onshore potential built",
   "url": "https://blog.vertistratsolution.com/2026/08/tamil-nadus-wind-potential-according-to.html",
   "slug": "tamil-nadus-wind-potential-according-to",
   "published": "2026-08-14T15:04:38.000+05:30",
-  "updated": "2026-11-14T13:21:10.412+05:30",
+  "updated": "2026-11-14T16:00:14.878+05:30",
   "labels": [
     "Energy & Fuels",
     "Renewable Power & Storage"
   ],
-  "bytes": 31378,
-  "sha256": "6df3bb7c17f4f8575b0aa4468c47e9bf28cb8bc86bdf7cfac8e6c68ae98cfbdb",
+  "bytes": 31359,
+  "sha256": "21f2c40d38f27b487501b8f4b022dcc88314fbdad375a66156d2881719a5fa0e",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.2.2",
+  "version": "4.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -211,6 +211,19 @@
       "bytes": [
         31374,
         31378
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "4.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        31378,
+        31359
       ],
       "url_changed": null,
       "markers_changed": null,

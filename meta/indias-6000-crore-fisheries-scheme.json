@@ -1,17 +1,17 @@
 {
   "id": "8477134620379082390",
-  "title": "India Allocated ₹6,000 Crore for Fisheries Under PM-MKSSY. It Has Paid Out ₹4.73 Crore So Far.",
+  "title": "PM-MKSSY fisheries scheme: ₹4.73 crore paid out of ₹6,000 crore allocated",
   "url": "https://blog.vertistratsolution.com/2026/08/indias-6000-crore-fisheries-scheme.html",
   "slug": "indias-6000-crore-fisheries-scheme",
   "published": "2026-08-30T07:43:52.000+05:30",
-  "updated": "2026-11-14T13:08:38.103+05:30",
+  "updated": "2026-11-14T15:35:17.891+05:30",
   "labels": [
     "Fisheries & Aquaculture",
     "India",
     "Scheme Delivery Gap"
   ],
-  "bytes": 29043,
-  "sha256": "4d0f762247882d7ea1cff960a81dd398a25cb43560e64117ff224b42095334ad",
+  "bytes": 29010,
+  "sha256": "b2e3b5609be6e3e346080f1c5041dfdafbf4bb54297747ae4b7525dca2eaf55a",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.2.2",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -160,6 +160,19 @@
       "bytes": [
         29039,
         29043
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "section(s) removed: India Allocated &#8377;6,000 Crore for Fisheries Under PM-MKSSY. It Has Paid Out &#8377;4.73 Crore So Far.",
+      "bytes": [
+        29043,
+        29010
       ],
       "url_changed": null,
       "markers_changed": null,

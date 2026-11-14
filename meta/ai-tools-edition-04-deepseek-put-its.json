@@ -1,15 +1,15 @@
 {
   "id": "3680745820035339241",
-  "title": "AI Tools Edition 04: DeepSeek Put Its Agent and Its Inference Engine on GitHub. They Drew 47,000 Stars in Under Four Weeks",
+  "title": "AI tools edition 04: DeepSeek's agent and inference engine drew 47,000 GitHub stars",
   "url": "https://blog.vertistratsolution.com/2026/11/ai-tools-edition-04-deepseek-put-its.html",
   "slug": "ai-tools-edition-04-deepseek-put-its",
   "published": "2026-11-09T17:51:38.000+05:30",
-  "updated": "2026-11-14T14:36:46.132+05:30",
+  "updated": "2026-11-14T15:08:42.857+05:30",
   "labels": [
     "AI Tracker"
   ],
-  "bytes": 64475,
-  "sha256": "ad956dbc908ce607d5b0798c7c41b9e5da5537487f33a87c2be006f8fe17a5e9",
+  "bytes": 64456,
+  "sha256": "06dffb7c5dff9084c16bcc59c60173a517c366180ed35973e4db7ef1383fc362",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.2",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -54,6 +54,19 @@
       "bytes": [
         64462,
         64475
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        64475,
+        64456
       ],
       "url_changed": null,
       "markers_changed": null,

@@ -1,16 +1,16 @@
 {
   "id": "753290623294277289",
-  "title": "Blending on a Budget: Energy Density and Cost Per Kilometre, Across Four Fuel Pairs",
+  "title": "Biofuel blends and mileage: ethanol carries 66% of petrol's energy per litre",
   "url": "https://blog.vertistratsolution.com/2026/08/blending-on-budget-energy-density-and.html",
   "slug": "blending-on-budget-energy-density-and",
   "published": "2026-08-19T12:07:25.000+05:30",
-  "updated": "2026-11-14T13:17:47.944+05:30",
+  "updated": "2026-11-14T15:10:52.831+05:30",
   "labels": [
     "Energy & Fuels",
     "Ethanol & Biofuels"
   ],
-  "bytes": 44399,
-  "sha256": "3dc9290d3406127d665dd98283583456ecda6f0063f1a4190f9a9994fd7c233d",
+  "bytes": 44392,
+  "sha256": "e77885d31c62ae3b7f73d97e653ec26545fbf458b00c8f0094253cadc2019d98",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.2.2",
+  "version": "3.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -198,6 +198,19 @@
       "bytes": [
         44395,
         44399
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        44399,
+        44392
       ],
       "url_changed": null,
       "markers_changed": null,

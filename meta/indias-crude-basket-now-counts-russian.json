@@ -1,15 +1,15 @@
 {
   "id": "8033011323447484171",
-  "title": "India's Crude Basket Now Counts Russian Oil as 'Sweet'. The Barrels Its Refineries Run Are Still Mostly Sour",
+  "title": "India's crude basket: Brent weighted at 61%, while most imported barrels are sour",
   "url": "https://blog.vertistratsolution.com/2026/10/indias-crude-basket-now-counts-russian.html",
   "slug": "indias-crude-basket-now-counts-russian",
   "published": "2026-10-27T17:26:22.000+05:30",
-  "updated": "2026-11-14T12:30:30.917+05:30",
+  "updated": "2026-11-14T15:37:55.426+05:30",
   "labels": [
     "Energy & Fuels"
   ],
-  "bytes": 26569,
-  "sha256": "281c2f2f9e94586f4564fb7b4eed3e9368b08eb0670dc56005fbdfebfd2d8912",
+  "bytes": 26524,
+  "sha256": "27b65cddd7170ec460398dcf8e91e36602ad9745b0905e09d6bc4c7c9762cf26",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.1.2",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -67,6 +67,19 @@
       "bytes": [
         26560,
         26569
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        26569,
+        26524
       ],
       "url_changed": null,
       "markers_changed": null,

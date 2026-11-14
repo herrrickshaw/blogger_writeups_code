@@ -1,15 +1,15 @@
 {
   "id": "3467462935277445173",
-  "title": "Can Rupee Trade Actually Offset the Inflation India Is Importing?",
+  "title": "Rupee trade settlement and imported inflation in India: the evidence from Russia",
   "url": "https://blog.vertistratsolution.com/2026/08/can-rupee-trade-actually-offset.html",
   "slug": "can-rupee-trade-actually-offset",
   "published": "2026-08-14T08:31:13.000+05:30",
-  "updated": "2026-11-14T13:21:49.544+05:30",
+  "updated": "2026-11-14T15:11:23.321+05:30",
   "labels": [
     "Macroeconomics & Monetary Policy"
   ],
-  "bytes": 35740,
-  "sha256": "6f2903f2646b8767e595e56cc37320e318de08fa2f0bbbe6d5cc375c82f04212",
+  "bytes": 35755,
+  "sha256": "750f49a58cd92f79b79f55b08fb4649c6f4f4b79289478396659240e87e0512e",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.1.2",
+  "version": "4.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -197,6 +197,19 @@
       "bytes": [
         35736,
         35740
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "4.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "section(s) removed: Can Rupee Trade Actually Offset the Inflation India Is Importing?",
+      "bytes": [
+        35740,
+        35755
       ],
       "url_changed": null,
       "markers_changed": null,

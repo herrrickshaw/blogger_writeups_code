@@ -1,18 +1,18 @@
 {
   "id": "4511978802615272050",
-  "title": "Maize Is Cheapest in a Different State Every Few Months. Rice Barely Moves.",
+  "title": "Maize and rice prices in India: maize is cheapest in a different state every few months",
   "url": "https://blog.vertistratsolution.com/2026/10/maize-is-cheapest-in-different-state.html",
   "slug": "maize-is-cheapest-in-different-state",
   "published": "2026-10-24T11:03:41.000+05:30",
-  "updated": "2026-11-14T12:34:50.547+05:30",
+  "updated": "2026-11-14T15:48:57.390+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Ethanol & Biofuels",
     "Grain Procurement & Storage",
     "Prices & Inflation"
   ],
-  "bytes": 251863,
-  "sha256": "9f64969f7dc00852624112ac39878ed10bdd3c20521468d250483607c7f362a8",
+  "bytes": 251875,
+  "sha256": "11b05d4d09cf87f0e70773fc7c0b03f13170ea95f8904daecc46f1d08b72c4e0",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.2",
+  "version": "4.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -83,6 +83,19 @@
       "bytes": [
         251856,
         251863
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "4.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "section(s) removed: Maize Is Cheapest in a Different State Every Few Months. Rice Barely Moves.",
+      "bytes": [
+        251863,
+        251875
       ],
       "url_changed": null,
       "markers_changed": null,

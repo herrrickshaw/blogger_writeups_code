@@ -1,17 +1,17 @@
 {
   "id": "9097914174045855577",
-  "title": "India Leads the World in Jute and Ranks Second in Silk. Neither Fact Means What It Sounds Like.",
+  "title": "Jute: India grows about 60% of world output, Bangladesh has about 70% of exports",
   "url": "https://blog.vertistratsolution.com/2026/09/india-leads-world-in-jute-and-ranks.html",
   "slug": "india-leads-world-in-jute-and-ranks",
   "published": "2026-09-27T18:37:56.000+05:30",
-  "updated": "2026-11-14T12:52:28.873+05:30",
+  "updated": "2026-11-14T15:31:10.399+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Textiles",
     "Trade & Tariffs"
   ],
-  "bytes": 29647,
-  "sha256": "01cdb6ee6de2fe0c5f7718aa5550228528d5a79dc9e1f8bb914dad91cd18bc8c",
+  "bytes": 29632,
+  "sha256": "3f37cef0e956ecbb393b52ddde867b7034b7b4207ede8f655f69b05545b3bd87",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.1.2",
+  "version": "3.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -95,6 +95,19 @@
       "bytes": [
         29640,
         29647
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        29647,
+        29632
       ],
       "url_changed": null,
       "markers_changed": null,

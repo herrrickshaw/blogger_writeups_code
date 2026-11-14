@@ -1,17 +1,17 @@
 {
   "id": "7570311248945099893",
-  "title": "India's Ethanol Plants Are Sitting on Food-Grade CO2. Its Spice-Extract Industry Needs Exactly That. Nobody's Named the Deal.",
+  "title": "Food-grade CO2 from ethanol plants: spice extractors need it, no deal documented",
   "url": "https://blog.vertistratsolution.com/2026/09/indias-ethanol-plants-are-sitting-on.html",
   "slug": "indias-ethanol-plants-are-sitting-on",
   "published": "2026-09-28T16:47:52.000+05:30",
-  "updated": "2026-11-14T12:51:40.494+05:30",
+  "updated": "2026-11-14T15:38:53.377+05:30",
   "labels": [
     "Agriculture & Food Processing",
     "Circularity & Waste-to-Value",
     "Ethanol & Biofuels"
   ],
-  "bytes": 25717,
-  "sha256": "a36b8b395b540d4d9d2f5ebb6b77382f77ee001f24143bb20b08e214a5016e69",
+  "bytes": 25666,
+  "sha256": "15180de77f19f05aabf2ba9b3f2c7c98c221a5f113be3594507e5cb28788fdfd",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.1.2",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -82,6 +82,19 @@
       "bytes": [
         25712,
         25717
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        25717,
+        25666
       ],
       "url_changed": null,
       "markers_changed": null,

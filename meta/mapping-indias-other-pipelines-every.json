@@ -1,18 +1,18 @@
 {
   "id": "8825016235559283120",
-  "title": "Mapping India's Other Pipelines: Every Major Crude, Petrol-Diesel and LPG Line, By Company",
+  "title": "India's oil pipelines by company: crude, petrol-diesel and LPG lines mapped",
   "url": "https://blog.vertistratsolution.com/2026/09/mapping-indias-other-pipelines-every.html",
   "slug": "mapping-indias-other-pipelines-every",
   "published": "2026-09-08T09:01:53.000+05:30",
-  "updated": "2026-11-14T13:02:47.678+05:30",
+  "updated": "2026-11-14T15:49:18.340+05:30",
   "labels": [
     "Energy & Fuels",
     "Gas & LNG",
     "Gas Pipeline Infrastructure & Demand Planning",
     "Infrastructure & Investment"
   ],
-  "bytes": 27552,
-  "sha256": "fd59c1203201c01d363dc4eed0e55d26bdd322deef0b5e55953c625ecb470dba",
+  "bytes": 27537,
+  "sha256": "5856bfabcf0fe5e46107b466afd6ef3dcab7bd99137aec7841c2ff6edc6f054c",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.2.2",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -109,6 +109,19 @@
       "bytes": [
         27546,
         27552
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "section(s) removed: Mapping India's Other Pipelines: Every Major Crude, Petrol-Diesel and LPG Line, By Company",
+      "bytes": [
+        27552,
+        27537
       ],
       "url_changed": null,
       "markers_changed": null,

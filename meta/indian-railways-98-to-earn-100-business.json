@@ -1,17 +1,17 @@
 {
   "id": "8335726892182177061",
-  "title": "Indian Railways: A ₹98-to-Earn-₹100 Business, and the Decade-Old Accounting Fix It Still Hasn't Made",
+  "title": "Indian Railways: ₹98 spent to earn ₹100, and a 2015 accounting reform not yet made",
   "url": "https://blog.vertistratsolution.com/2026/08/indian-railways-98-to-earn-100-business.html",
   "slug": "indian-railways-98-to-earn-100-business",
   "published": "2026-08-20T06:09:42.000+05:30",
-  "updated": "2026-11-14T13:17:08.143+05:30",
+  "updated": "2026-11-14T15:34:38.321+05:30",
   "labels": [
     "Industrial Policy",
     "Public Sector & Infrastructure Finance",
     "Trade & Tariffs"
   ],
-  "bytes": 31745,
-  "sha256": "a862ba2c22dc1bfca0f80ec4895c54003fd654d571b9d2d0d133d45caada82ff",
+  "bytes": 31715,
+  "sha256": "3ea399979e560a57427b5505a576932066d12e4e0e54afd6c97c2c72767544fe",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.3.2",
+  "version": "3.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -186,6 +186,19 @@
       "bytes": [
         31741,
         31745
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "figures changed (+1/-0 distinct numbers)",
+      "bytes": [
+        31745,
+        31715
       ],
       "url_changed": null,
       "markers_changed": null,

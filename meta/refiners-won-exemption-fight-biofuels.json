@@ -1,18 +1,18 @@
 {
   "id": "8857838670140688882",
-  "title": "Refiners Won the Exemption Fight, Biofuels Kept the Volumes: What Eight Court Rulings Did to America's Biofuel Credits",
+  "title": "US biofuel credits, 8 court rulings: refiners win exemptions, biofuels keep volumes",
   "url": "https://blog.vertistratsolution.com/2026/10/refiners-won-exemption-fight-biofuels.html",
   "slug": "refiners-won-exemption-fight-biofuels",
   "published": "2026-10-03T06:26:57.000+05:30",
-  "updated": "2026-11-14T12:49:34.573+05:30",
+  "updated": "2026-11-14T15:56:02.087+05:30",
   "labels": [
     "Climate & Carbon",
     "Energy & Fuels",
     "Ethanol & Biofuels",
     "Refining & Petrochemicals"
   ],
-  "bytes": 27680,
-  "sha256": "47d87f1b4b7602b96e45330ae6b2ed82dccfd238fa4e94e333115343a04e9fea",
+  "bytes": 27645,
+  "sha256": "f1120df275a8a0232fe7c4964a49382948b3b33aa71a2ad07be8c10f46be5ef1",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.1.2",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -96,6 +96,19 @@
       "bytes": [
         27678,
         27680
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "figures changed (+1/-0 distinct numbers)",
+      "bytes": [
+        27680,
+        27645
       ],
       "url_changed": null,
       "markers_changed": null,

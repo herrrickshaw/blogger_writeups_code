@@ -1,15 +1,15 @@
 {
   "id": "7601363762801353983",
-  "title": "Europe's Export Credit Agencies Are Quietly Bankrolling India's Infrastructure — Not Its Factories",
+  "title": "European export credit agencies in India: infrastructure more than factories",
   "url": "https://blog.vertistratsolution.com/2026/08/europes-export-credit-agencies-are.html",
   "slug": "europes-export-credit-agencies-are",
   "published": "2026-08-05T19:00:06.000+05:30",
-  "updated": "2026-11-14T13:32:12.101+05:30",
+  "updated": "2026-11-14T15:17:38.694+05:30",
   "labels": [
     "Trade & Tariffs"
   ],
-  "bytes": 28861,
-  "sha256": "c7473269fe59618c27698fa7defdbac00259b638e981e4a6cda5e14a9422e111",
+  "bytes": 28839,
+  "sha256": "a28148b4b88b29e26de3faadf9bd4cc9a066c5aac950836106fb3d21edb93e10",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.2.2",
+  "version": "4.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -306,6 +306,19 @@
       "bytes": [
         28857,
         28861
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "4.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "section(s) removed: Europe's Export Credit Agencies Are Quietly Bankrolling India's Infrastructure — Not Its Factories",
+      "bytes": [
+        28861,
+        28839
       ],
       "url_changed": null,
       "markers_changed": null,

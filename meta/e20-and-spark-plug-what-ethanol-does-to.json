@@ -1,17 +1,17 @@
 {
   "id": "524878923608975775",
-  "title": "E20 and the Spark Plug: What Ethanol Does to the Cheapest Part in India’s 20 Crore Two-Wheelers",
+  "title": "E20 and two-wheeler spark plugs: about ₹60 a year if plugs wear a quarter faster",
   "url": "https://blog.vertistratsolution.com/2026/11/e20-and-spark-plug-what-ethanol-does-to.html",
   "slug": "e20-and-spark-plug-what-ethanol-does-to",
   "published": "2026-11-02T07:42:13.000+05:30",
-  "updated": "2026-11-14T12:24:55.887+05:30",
+  "updated": "2026-11-14T15:15:02.170+05:30",
   "labels": [
     "Energy & Fuels",
     "Ethanol & Biofuels",
     "Trade & Tariffs"
   ],
-  "bytes": 29968,
-  "sha256": "e7f5b5c1dc91020d54f4f17ed45df1724f46b339b069c2f9bf0b52aae55edccc",
+  "bytes": 29947,
+  "sha256": "9a13616b06693309ae4b54729d4750f38e463b8f67a43cc75bbce77560a1c67c",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.2",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -56,6 +56,19 @@
       "bytes": [
         29959,
         29968
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        29968,
+        29947
       ],
       "url_changed": null,
       "markers_changed": null,

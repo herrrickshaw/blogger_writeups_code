@@ -1,16 +1,16 @@
 {
   "id": "7396173689282608827",
-  "title": "India Wants Emergency Braking in Every Car by 2032. Fewer Than One in Ten Cars Sold Has It Now",
+  "title": "Automatic emergency braking in India: draft mandate for all cars from 2032",
   "url": "https://blog.vertistratsolution.com/2026/10/india-wants-emergency-braking-in-every.html",
   "slug": "india-wants-emergency-braking-in-every",
   "published": "2026-10-27T17:26:52.000+05:30",
-  "updated": "2026-11-14T12:29:50.939+05:30",
+  "updated": "2026-11-14T15:33:49.035+05:30",
   "labels": [
     "Import Substitution",
     "Mobility & EV"
   ],
-  "bytes": 24778,
-  "sha256": "acac45db826ffd7ba48eff7d8e0efabb4e9c4d7e938a1cc1db46667bc831b681",
+  "bytes": 24758,
+  "sha256": "55011df2cd19406da6f22b3fc852f6a57989559e2001f3f1448822be70184cc1",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.2",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -55,6 +55,19 @@
       "bytes": [
         24772,
         24778
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "section(s) removed: India Wants Emergency Braking in Every Car by 2032. Fewer Than One in Ten Cars Sold Has It Now",
+      "bytes": [
+        24778,
+        24758
       ],
       "url_changed": null,
       "markers_changed": null,

@@ -1,15 +1,15 @@
 {
   "id": "5828901523184974026",
-  "title": "Effective Buying Power & the China Comparison — Rupee Real Exchange Rate",
+  "title": "Rupee real exchange rate: nominal and inflation-adjusted, with a China comparison",
   "url": "https://blog.vertistratsolution.com/2026/08/effective-buying-power-china-comparison.html",
   "slug": "effective-buying-power-china-comparison",
   "published": "2026-08-02T14:02:12.000+05:30",
-  "updated": "2026-11-14T13:39:13.832+05:30",
+  "updated": "2026-11-14T15:15:31.848+05:30",
   "labels": [
     "Markets & Finance"
   ],
-  "bytes": 42797,
-  "sha256": "850aba41d16691f98d2953d5dccc88320b08a42cdfc04fbd9c26e3d1aa921f8c",
+  "bytes": 42802,
+  "sha256": "05932a8a6a63dbbc51690aeada9acab85451993d3f668987c11658f3bdce36ce",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": true,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.2.2",
+  "version": "3.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -328,6 +328,19 @@
       "bytes": [
         42794,
         42797
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "section(s) removed: How much of the rupee's fall is real, and is this what China was accused of?",
+      "bytes": [
+        42797,
+        42802
       ],
       "url_changed": null,
       "markers_changed": null,

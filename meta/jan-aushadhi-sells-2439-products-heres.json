@@ -1,17 +1,17 @@
 {
   "id": "4707409148657902439",
-  "title": "Jan Aushadhi Sells 2,439 Products. Here's What We Actually Know About Where Their APIs Come From.",
+  "title": "Jan Aushadhi's 2,439 products: API origin by batch is not in any public dataset",
   "url": "https://blog.vertistratsolution.com/2026/09/jan-aushadhi-sells-2439-products-heres.html",
   "slug": "jan-aushadhi-sells-2439-products-heres",
   "published": "2026-09-16T20:39:10.000+05:30",
-  "updated": "2026-11-14T12:57:12.604+05:30",
+  "updated": "2026-11-14T15:47:45.114+05:30",
   "labels": [
     "Chemicals",
     "Healthcare",
     "Industrial Policy"
   ],
-  "bytes": 28184,
-  "sha256": "82ce5552d9bc5ba4cfb56c4aa1d9204e277ec36a4e790958b47ce89f971740bb",
+  "bytes": 28166,
+  "sha256": "f507ff18e67a15b29f330618f11e988867278edeba0e5911eb84ab92276ddc25",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.4.2",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -121,6 +121,19 @@
       "bytes": [
         28178,
         28184
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "section(s) removed: Jan Aushadhi Sells 2,439 Products. Here's What We Actually Know About Where Their APIs Come From.",
+      "bytes": [
+        28184,
+        28166
       ],
       "url_changed": null,
       "markers_changed": null,

@@ -1,15 +1,15 @@
 {
   "id": "5734919035972853038",
-  "title": "Half of PHP Websites Run a Version Nobody Patches. What a Hacked Site Gives Away About Its Company",
+  "title": "PHP websites: about half run a version that no longer gets security fixes",
   "url": "https://blog.vertistratsolution.com/2026/10/half-of-php-websites-run-version-nobody.html",
   "slug": "half-of-php-websites-run-version-nobody",
   "published": "2026-10-27T15:19:01.000+05:30",
-  "updated": "2026-11-14T12:31:29.881+05:30",
+  "updated": "2026-11-14T15:22:55.586+05:30",
   "labels": [
     "Cybersecurity"
   ],
-  "bytes": 27612,
-  "sha256": "ccdcf46c9a7f03f96847d4c85ced1490a1523ba28c9002fbcb960db5ba0468ee",
+  "bytes": 27587,
+  "sha256": "7df8b1c53f1beb832759be9776e0cff38acab25d203ad02061476f874066e18d",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.2",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -54,6 +54,19 @@
       "bytes": [
         27607,
         27612
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "section(s) removed: Half of PHP Websites Run a Version Nobody Patches. What a Hacked Site Gives Away About Its Company",
+      "bytes": [
+        27612,
+        27587
       ],
       "url_changed": null,
       "markers_changed": null,

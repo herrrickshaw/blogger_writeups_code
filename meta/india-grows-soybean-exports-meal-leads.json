@@ -1,18 +1,18 @@
 {
   "id": "6965989740286458852",
-  "title": "India Grows the Soybean, Exports the Meal, Leads in Lecithin — and Barely Makes Tofu Yet",
+  "title": "India's soybean chain: meal exports and lecithin lead, tofu output stays small",
   "url": "https://blog.vertistratsolution.com/2026/08/india-grows-soybean-exports-meal-leads.html",
   "slug": "india-grows-soybean-exports-meal-leads",
   "published": "2026-08-15T08:01:21.000+05:30",
-  "updated": "2026-11-14T13:20:10.225+05:30",
+  "updated": "2026-11-14T15:28:18.639+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Agriculture & Food Processing",
     "India Trade & Policy",
     "Trade & Tariffs"
   ],
-  "bytes": 43379,
-  "sha256": "2ed70ca83b235bdf2e5f4ee053b57911ef2fbea47414bcc4758b7f284632ef06",
+  "bytes": 43363,
+  "sha256": "f5acfc74b1838ef581d0a926c3db77ac928ab9f46fdef90d7ed777c2996018fb",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "5.3.2",
+  "version": "6.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -239,6 +239,19 @@
       "bytes": [
         43374,
         43379
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "6.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "section(s) removed: India Grows the Soybean, Exports the Meal, Leads in Lecithin &mdash; and Barely Makes Tofu Yet",
+      "bytes": [
+        43379,
+        43363
       ],
       "url_changed": null,
       "markers_changed": null,

@@ -1,18 +1,18 @@
 {
   "id": "5479141779838120427",
-  "title": "India's Fertiliser Import Bill Hits $18 Billion, and Parliament's Own Committee Explains Why",
+  "title": "India's fertiliser import bill: set for a record $18 billion, up 76% in a year",
   "url": "https://blog.vertistratsolution.com/2026/08/indias-fertiliser-import-bill-hits-18.html",
   "slug": "indias-fertiliser-import-bill-hits-18",
   "published": "2026-08-08T21:49:47.000+05:30",
-  "updated": "2026-11-14T13:28:09.416+05:30",
+  "updated": "2026-11-14T15:40:16.593+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Energy & Fuels",
     "Fertilisers & Soil Health",
     "Trade & Tariffs"
   ],
-  "bytes": 30431,
-  "sha256": "56bf6a590b476e629c83a16f1003bd454e142648db6ae810ecde590dbe2cbc42",
+  "bytes": 30417,
+  "sha256": "8f1b1172f9dbbd341c8a0446b7bb16b31a09e6882e1ab2270ec138ef3e8a90d5",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.2.2",
+  "version": "4.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -265,6 +265,19 @@
       "bytes": [
         30419,
         30431
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "4.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        30431,
+        30417
       ],
       "url_changed": null,
       "markers_changed": null,

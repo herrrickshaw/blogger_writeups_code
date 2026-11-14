@@ -1,15 +1,15 @@
 {
   "id": "6879796470588921642",
-  "title": "Eight Open-Source Tools for Tracking India’s Gazette, Parliament, Clearances, Incentives and Regulators, and What Each One Answers",
+  "title": "Indian government records: 8 open-source tools for gazette, Parliament and clearances",
   "url": "https://blog.vertistratsolution.com/2026/11/eight-open-source-tools-for-tracking.html",
   "slug": "eight-open-source-tools-for-tracking",
   "published": "2026-11-13T03:38:17.000+05:30",
-  "updated": "2026-11-14T14:22:41.134+05:30",
+  "updated": "2026-11-14T15:15:50.755+05:30",
   "labels": [
     "Industrial Policy"
   ],
-  "bytes": 38034,
-  "sha256": "f503a75687111606c5cad24e0e4033643ac16f537a43785914cbbc28f81d1bcf",
+  "bytes": 37983,
+  "sha256": "87e9bc20cb01f22cbfbae1ecd95c3d2193e4f03a8fab36a301f033722fc33090",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.1",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -38,6 +38,19 @@
       "bytes": [
         38027,
         38034
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        38034,
+        37983
       ],
       "url_changed": null,
       "markers_changed": null,

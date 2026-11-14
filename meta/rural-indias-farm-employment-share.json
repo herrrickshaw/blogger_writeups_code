@@ -1,15 +1,15 @@
 {
   "id": "3625769708355333591",
-  "title": "Rural India's Farm-Employment Share Dropped 5.6 Points in Six Months. Structural Shift or Just the Season? The Data Can't Yet Say.",
+  "title": "India's rural farm-employment share: down 5.6 points in 2 quarters, cause unclear",
   "url": "https://blog.vertistratsolution.com/2026/09/rural-indias-farm-employment-share.html",
   "slug": "rural-indias-farm-employment-share",
   "published": "2026-09-17T08:10:45.000+05:30",
-  "updated": "2026-11-14T12:56:23.933+05:30",
+  "updated": "2026-11-14T15:57:01.373+05:30",
   "labels": [
     "Agriculture & Fertilisers"
   ],
-  "bytes": 22198,
-  "sha256": "190d21ab998dba54d95baa4167df738231c4cb47283659e51582b9634372460f",
+  "bytes": 22149,
+  "sha256": "520decf5994ba2ba55608b015b992fd93308410ce80d72e301b4d386c2bf9ee9",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.4.2",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -119,6 +119,19 @@
       "bytes": [
         22194,
         22198
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "figures changed (+1/-0 distinct numbers)",
+      "bytes": [
+        22198,
+        22149
       ],
       "url_changed": null,
       "markers_changed": null,

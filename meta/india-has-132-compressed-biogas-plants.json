@@ -1,17 +1,17 @@
 {
   "id": "4507390373071790777",
-  "title": "India Has 132 Compressed Biogas Plants Running. The Pipeline to Actually Use That Gas Reaches 17 of Them.",
+  "title": "Compressed biogas plants in India: most lack a pipeline link to city gas",
   "url": "https://blog.vertistratsolution.com/2026/09/india-has-132-compressed-biogas-plants.html",
   "slug": "india-has-132-compressed-biogas-plants",
   "published": "2026-09-23T13:15:31.000+05:30",
-  "updated": "2026-11-14T12:53:46.891+05:30",
+  "updated": "2026-11-14T15:28:27.750+05:30",
   "labels": [
     "City Gas Distribution",
     "Energy & Fuels",
     "Gas & LNG"
   ],
-  "bytes": 28154,
-  "sha256": "315f463e8261ef33cd068a2658546d9d56a33d977d08975cc5b5feea9150b2ff",
+  "bytes": 28121,
+  "sha256": "f0f27f3dec1aaf980ca242ec21deed56bef43c8b036125ec9599b5ba8e25695b",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.1.2",
+  "version": "3.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -121,6 +121,19 @@
       "bytes": [
         28149,
         28154
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        28154,
+        28121
       ],
       "url_changed": null,
       "markers_changed": null,

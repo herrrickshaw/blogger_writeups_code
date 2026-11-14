@@ -1,17 +1,17 @@
 {
   "id": "5697167118658262166",
-  "title": "Sixteen Crops, Twenty Years: Where India’s Harvest Grew From More Land and Where From Better Yields",
+  "title": "India's crop growth over 20 years: land versus yield for 16 crops",
   "url": "https://blog.vertistratsolution.com/2026/10/sixteen-crops-twenty-years-where-indias.html",
   "slug": "sixteen-crops-twenty-years-where-indias",
   "published": "2026-10-24T14:12:24.000+05:30",
-  "updated": "2026-11-14T12:34:15.554+05:30",
+  "updated": "2026-11-14T15:58:35.521+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Grain Procurement & Storage",
     "Open-Source Tools & How-To"
   ],
-  "bytes": 138434,
-  "sha256": "ece590e30a95e5fc0b211a0831d4bdea43253070f05db6c3ade5e603ef2366eb",
+  "bytes": 138394,
+  "sha256": "8574d2adc992d51eb967a81bc6e74e7ab8bf801d2710f32ee61723e383537c52",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.2",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -56,6 +56,19 @@
       "bytes": [
         138425,
         138434
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        138434,
+        138394
       ],
       "url_changed": null,
       "markers_changed": null,

@@ -1,17 +1,17 @@
 {
   "id": "1230986305107562857",
-  "title": "PNGRB Hydrogen-Blending Pilots: The Real Numbers Behind the 10 Percent Claim",
+  "title": "PNGRB hydrogen-blending pilots: the blend each pilot runs against the 10% claim",
   "url": "https://blog.vertistratsolution.com/2026/09/pngrb-hydrogen-blending-pilots-real.html",
   "slug": "pngrb-hydrogen-blending-pilots-real",
   "published": "2026-09-02T03:43:03.000+05:30",
-  "updated": "2026-11-14T13:04:58.924+05:30",
+  "updated": "2026-11-14T15:53:36.172+05:30",
   "labels": [
     "Energy & Fuels",
     "Gas & LNG",
     "Hydrogen"
   ],
-  "bytes": 37036,
-  "sha256": "59e4dd7f267746bee39c4ef5a63202460ac08a1031dd8d2ee0afc750f12537c9",
+  "bytes": 37039,
+  "sha256": "ce78db57c85002393987412153c8df6fe97f4ef8b459b244f3a616c45f1db8e4",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.2.2",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -147,6 +147,19 @@
       "bytes": [
         37032,
         37036
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "section(s) removed: PNGRB's Hydrogen-Blending Pilots Are Real. The \"Up to 10%\" Target Isn't, Yet",
+      "bytes": [
+        37036,
+        37039
       ],
       "url_changed": null,
       "markers_changed": null,

@@ -1,17 +1,17 @@
 {
   "id": "4260009366238711924",
-  "title": "Inside the Refinery: How Hydrogen Cleans Your Diesel — and Why Going Green Could Raise Its Price",
+  "title": "Hydrogen in Indian refineries: needed for 10 ppm BS-VI diesel, mostly from fossil gas",
   "url": "https://blog.vertistratsolution.com/2026/08/inside-refinery-how-hydrogen-cleans.html",
   "slug": "inside-refinery-how-hydrogen-cleans",
   "published": "2026-08-20T09:33:21.000+05:30",
-  "updated": "2026-11-14T13:16:47.363+05:30",
+  "updated": "2026-11-14T15:46:54.060+05:30",
   "labels": [
     "Energy & Fuels",
     "Hydrogen",
     "Industrial Policy"
   ],
-  "bytes": 39500,
-  "sha256": "3aaae7d85967fb4d0c36451f56a37e355ac709c7901650111d678f77ebd3a9f0",
+  "bytes": 39483,
+  "sha256": "d65fbcc2e23d7b3d37542d2e4c6092c7a8f3c1d51d1257ae4433d146e8350d3a",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.1.2",
+  "version": "3.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -160,6 +160,19 @@
       "bytes": [
         39496,
         39500
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        39500,
+        39483
       ],
       "url_changed": null,
       "markers_changed": null,

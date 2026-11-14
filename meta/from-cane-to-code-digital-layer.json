@@ -1,17 +1,17 @@
 {
   "id": "1212051047991729383",
-  "title": "From Cane to Code: The Digital Layer Underneath India's E20 Milestone",
+  "title": "Ethanol blending beyond E20: AI in mills and fields, no blockchain tracing yet",
   "url": "https://blog.vertistratsolution.com/2026/08/from-cane-to-code-digital-layer.html",
   "slug": "from-cane-to-code-digital-layer",
   "published": "2026-08-08T21:20:54.000+05:30",
-  "updated": "2026-11-14T13:28:38.380+05:30",
+  "updated": "2026-11-14T15:20:30.742+05:30",
   "labels": [
     "AI Tools",
     "Energy & Fuels",
     "Ethanol & Biofuels"
   ],
-  "bytes": 31626,
-  "sha256": "4b596e96cc485cc1f5c05f7b9ba9fe7c75fe876cb344a6c12081f7ddc2130230",
+  "bytes": 31635,
+  "sha256": "ced9a31c7da5fae9264631549905879b590203eb335f44289e849d5c922be36c",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.3.2",
+  "version": "3.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -277,6 +277,19 @@
       "bytes": [
         31623,
         31626
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "section(s) removed: From Cane to Code: The Digital Layer Underneath India's E20 Milestone",
+      "bytes": [
+        31626,
+        31635
       ],
       "url_changed": null,
       "markers_changed": null,

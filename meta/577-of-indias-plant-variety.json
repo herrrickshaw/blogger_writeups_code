@@ -1,16 +1,16 @@
 {
   "id": "639691074426959200",
-  "title": "57.7% of India's Plant-Variety Certificates Are Cereals. Its $4.45 Billion Spice Trade Has 151.",
+  "title": "India's plant variety certificates: 57.7% cereals, 151 for export spices",
   "url": "https://blog.vertistratsolution.com/2026/09/577-of-indias-plant-variety.html",
   "slug": "577-of-indias-plant-variety",
   "published": "2026-09-17T07:21:11.000+05:30",
-  "updated": "2026-11-14T12:56:42.888+05:30",
+  "updated": "2026-11-14T15:05:35.057+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Seeds & Plant Genetics"
   ],
-  "bytes": 21796,
-  "sha256": "7990a10c1891ca719eea8e03273efd7e93b3e516232ef9afa034dfd0ede9e2ec",
+  "bytes": 21767,
+  "sha256": "ec609d7daf9cd1e786d66f325dba5227d8855db85299e3fd2e5f02f35fbbfa81",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.2.2",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -81,6 +81,19 @@
       "bytes": [
         21789,
         21796
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        21796,
+        21767
       ],
       "url_changed": null,
       "markers_changed": null,

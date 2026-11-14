@@ -1,16 +1,16 @@
 {
   "id": "3386564593549277642",
-  "title": "India Wants Isobutanol in Both Diesel and Jet Fuel. It Has Built a Domestic Supply Chain for Neither.",
+  "title": "Isobutanol in India: planned for diesel and jet fuel, with almost no dedicated production",
   "url": "https://blog.vertistratsolution.com/2026/09/india-wants-isobutanol-in-both-diesel.html",
   "slug": "india-wants-isobutanol-in-both-diesel",
   "published": "2026-09-21T11:00:00.000+05:30",
-  "updated": "2026-11-14T12:54:34.987+05:30",
+  "updated": "2026-11-14T15:33:58.794+05:30",
   "labels": [
     "Energy & Fuels",
     "Ethanol & Biofuels"
   ],
-  "bytes": 29893,
-  "sha256": "d941a315b18bd33b94fffddb2122acb4e0b2a9868f1412c9e04a3bc2ede06f03",
+  "bytes": 29881,
+  "sha256": "0f597d8cffb9bbc174275e64c21b4e6be7294661269169e71ea6aba3277b7224",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.1.2",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -94,6 +94,19 @@
       "bytes": [
         29888,
         29893
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "section(s) removed: India Wants Isobutanol in Both Diesel and Jet Fuel. It Has Built a Domestic Supply Chain for Neither.",
+      "bytes": [
+        29893,
+        29881
       ],
       "url_changed": null,
       "markers_changed": null,

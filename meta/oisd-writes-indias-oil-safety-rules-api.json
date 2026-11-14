@@ -1,16 +1,16 @@
 {
   "id": "418059496701669760",
-  "title": "OISD Writes India's Oil-Safety Rules. API Just Signed FIPI Up to Help Its Own Standards Reach Further.",
+  "title": "Oil-safety standards in India: API signs FIPI, OISD and PNGRB as partners",
   "url": "https://blog.vertistratsolution.com/2026/09/oisd-writes-indias-oil-safety-rules-api.html",
   "slug": "oisd-writes-indias-oil-safety-rules-api",
   "published": "2026-09-01T22:01:33.000+05:30",
-  "updated": "2026-11-14T13:05:48.406+05:30",
+  "updated": "2026-11-14T15:51:36.098+05:30",
   "labels": [
     "Gas & LNG",
     "Regulatory & Industry-Body Accountability"
   ],
-  "bytes": 37688,
-  "sha256": "896c67d611dce2eb3f0695efdc9a60480b010b92b16547bb8f28421d9b9ebffa",
+  "bytes": 37659,
+  "sha256": "0b558361826ec7fd12511f9d1f1787eda9d3c0b39045353ce93c197cf2b4e011",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.1.2",
+  "version": "3.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -159,6 +159,19 @@
       "bytes": [
         37683,
         37688
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "section(s) removed: OISD Writes India's Oil-Safety Rules. API Just Signed FIPI Up to Help Its Own Standards Reach Further.",
+      "bytes": [
+        37688,
+        37659
       ],
       "url_changed": null,
       "markers_changed": null,

@@ -1,16 +1,16 @@
 {
   "id": "2924638461828937928",
-  "title": "India — Grain Cultivation · FCI Storage · FPOs (State Map)",
+  "title": "Grain, FCI storage and farmer producer organisations in India: a state map",
   "url": "https://blog.vertistratsolution.com/2026/07/india-grain-cultivation-fci-storage.html",
   "slug": "india-grain-cultivation-fci-storage",
   "published": "2026-07-31T10:10:00.000+05:30",
-  "updated": "2026-11-14T13:42:27.009+05:30",
+  "updated": "2026-11-14T15:27:57.891+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Grain Procurement & Storage"
   ],
-  "bytes": 89562,
-  "sha256": "f11a93e78b70874d63ed0ef32f67568f5ffc76a3286447c53c7316668e7da702",
+  "bytes": 89579,
+  "sha256": "7d9983267b74646b5cb2a17d8227e9dcaf64c2b3bbeebbf4420e8c5fc339afa7",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.2.2",
+  "version": "3.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -320,6 +320,19 @@
       "bytes": [
         89559,
         89562
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "section(s) removed: India — where the grain, the storage, and the farmers are",
+      "bytes": [
+        89562,
+        89579
       ],
       "url_changed": null,
       "markers_changed": null,

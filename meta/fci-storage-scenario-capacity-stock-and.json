@@ -1,16 +1,16 @@
 {
   "id": "6005716037070145582",
-  "title": "FCI Storage Scenario — Capacity, Stock, and the Road to 2,150 LMT",
+  "title": "FCI grain storage: about 147 LMT owned of roughly 482 LMT, with 70% hired",
   "url": "https://blog.vertistratsolution.com/2026/07/fci-storage-scenario-capacity-stock-and.html",
   "slug": "fci-storage-scenario-capacity-stock-and",
   "published": "2026-07-31T10:15:00.000+05:30",
-  "updated": "2026-11-14T13:42:17.837+05:30",
+  "updated": "2026-11-14T15:18:38.231+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Grain Procurement & Storage"
   ],
-  "bytes": 25517,
-  "sha256": "1465e8ef999ba6ae299a90d9b4d5e281c670be937e0c06ea851fff389443ee6e",
+  "bytes": 25533,
+  "sha256": "8b3d7de4c7ae6045ee0d5a99feb4b548fea160fb9176e4bfcafa5cc71eaf1d0a",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.3.2",
+  "version": "4.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -346,6 +346,19 @@
       "bytes": [
         25512,
         25517
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "4.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        25517,
+        25533
       ],
       "url_changed": null,
       "markers_changed": null,

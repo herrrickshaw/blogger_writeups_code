@@ -1,17 +1,17 @@
 {
   "id": "3965092070651993137",
-  "title": "India's 2026-27 Ethanol Tender Drops Cane Juice, Cuts Maize by Rs 3 a Litre and Flips From Sugar-First to Cheapest-First",
+  "title": "India's 2026-27 ethanol tender: no cane juice, and maize cut by Rs 3 a litre",
   "url": "https://blog.vertistratsolution.com/2026/10/indias-2026-27-ethanol-tender-drops.html",
   "slug": "indias-2026-27-ethanol-tender-drops",
   "published": "2026-10-20T03:02:30.000+05:30",
-  "updated": "2026-11-14T12:36:29.968+05:30",
+  "updated": "2026-11-14T15:34:57.763+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Energy & Fuels",
     "Ethanol & Biofuels"
   ],
-  "bytes": 37045,
-  "sha256": "f7339b765f9676485582ea233aa0a3100eabd8fe5b3e7b00892f521e9d994479",
+  "bytes": 36995,
+  "sha256": "502052e6fd8001c83bc4884b569fa12f213ffd83818d737939979362e2bbfe25",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.1.2",
+  "version": "3.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -95,6 +95,19 @@
       "bytes": [
         37037,
         37045
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "section(s) removed: India&rsquo;s 2026-27 Ethanol Tender Drops Cane Juice, Cuts Maize by Rs 3 a Litre and Flips From Sugar-First to Cheapest-First",
+      "bytes": [
+        37045,
+        36995
       ],
       "url_changed": null,
       "markers_changed": null,

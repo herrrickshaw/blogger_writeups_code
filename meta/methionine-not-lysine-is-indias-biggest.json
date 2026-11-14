@@ -1,17 +1,17 @@
 {
   "id": "1942629420325316641",
-  "title": "Methionine, Not Lysine, Is India's Biggest Amino-Acid Gap. It Is Made From Petrochemicals, Not Sugar, and Glycine Is Now an Anti-Dumping Case",
+  "title": "India's amino-acid deficit: $354 million, 48% of it methionine from petrochemicals",
   "url": "https://blog.vertistratsolution.com/2026/10/methionine-not-lysine-is-indias-biggest.html",
   "slug": "methionine-not-lysine-is-indias-biggest",
   "published": "2026-10-12T14:32:44.000+05:30",
-  "updated": "2026-11-14T12:45:19.325+05:30",
+  "updated": "2026-11-14T15:49:28.078+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Chemicals",
     "Trade & Tariffs"
   ],
-  "bytes": 29753,
-  "sha256": "cdee09c6e6ab20e0510e016bf09f13f6345e6e50cf99d154a27c0e7291e4e3d8",
+  "bytes": 29688,
+  "sha256": "25daf86c25b67aeb91804644c2f170e982b170565fcf434493b209bf01575435",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.2",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -56,6 +56,19 @@
       "bytes": [
         29747,
         29753
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        29753,
+        29688
       ],
       "url_changed": null,
       "markers_changed": null,

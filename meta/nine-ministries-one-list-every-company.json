@@ -1,17 +1,17 @@
 {
   "id": "6375593370761887241",
-  "title": "India's 14 PLI Schemes, and Every Company Publicly Named as a Winner, 2019–2026",
+  "title": "India's 14 PLI schemes and government auctions: every named winner, 2019–2026",
   "url": "https://blog.vertistratsolution.com/2026/08/nine-ministries-one-list-every-company.html",
   "slug": "nine-ministries-one-list-every-company",
   "published": "2026-08-30T08:48:36.000+05:30",
-  "updated": "2026-11-14T13:08:07.363+05:30",
+  "updated": "2026-11-14T15:50:37.788+05:30",
   "labels": [
     "India",
     "Industrial Policy",
     "PLI Schemes"
   ],
-  "bytes": 73435,
-  "sha256": "eb0744140f7f5f86e159418233079d3045fe2daece6c8be2e996f4c887b640d9",
+  "bytes": 73427,
+  "sha256": "d8a83a20020a2f1ca16daf9bad9e10c5655d28af5a088ad260aacb2986feb370",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.2.2",
+  "version": "3.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -199,6 +199,19 @@
       "bytes": [
         73429,
         73435
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "section(s) removed: India's 14 PLI Schemes, and Every Company Publicly Named as a Winner, 2019&ndash;2026",
+      "bytes": [
+        73435,
+        73427
       ],
       "url_changed": null,
       "markers_changed": null,

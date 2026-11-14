@@ -1,17 +1,17 @@
 {
   "id": "5769041465501125594",
-  "title": "India's Live IPO Queue Has 232 Companies in It. Power and Renewables Outnumbers Oil and Gas Nearly 5 to 1.",
+  "title": "India's 232-company IPO queue: power and renewables lead oil and gas nearly 5 to 1",
   "url": "https://blog.vertistratsolution.com/2026/09/indias-live-ipo-queue-has-232-companies.html",
   "slug": "indias-live-ipo-queue-has-232-companies",
   "published": "2026-09-28T16:58:26.000+05:30",
-  "updated": "2026-11-14T12:51:30.799+05:30",
+  "updated": "2026-11-14T15:41:35.999+05:30",
   "labels": [
     "Equity Markets & Stock Screening",
     "Markets & Finance",
     "Renewable Power & Storage"
   ],
-  "bytes": 21718,
-  "sha256": "8a22bec4430d0d0f0e40c0e69e5db969af547681726866a3b3cb42ed5716a31e",
+  "bytes": 21694,
+  "sha256": "4328e04f489ad1ad0367cbed79f3dfd794f8d1090a3e3e0347f73af87b5bf3e7",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.1.2",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -82,6 +82,19 @@
       "bytes": [
         21713,
         21718
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "section(s) removed: India's Live IPO Queue Has 232 Companies in It. Power and Renewables Outnumbers Oil and Gas Nearly 5 to 1.",
+      "bytes": [
+        21718,
+        21694
       ],
       "url_changed": null,
       "markers_changed": null,

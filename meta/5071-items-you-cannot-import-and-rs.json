@@ -1,18 +1,18 @@
 {
   "id": "6916028891163531929",
-  "title": "5,417 Items You Cannot Import — and the Ministry's Own Two Numbers for What Replaced Them",
+  "title": "Import-barred items in India: 5,417, and 2 ministry figures for replacements",
   "url": "https://blog.vertistratsolution.com/2026/08/5071-items-you-cannot-import-and-rs.html",
   "slug": "5071-items-you-cannot-import-and-rs",
   "published": "2026-08-23T04:16:49.000+05:30",
-  "updated": "2026-11-14T13:14:17.226+05:30",
+  "updated": "2026-11-14T15:05:15.440+05:30",
   "labels": [
     "Defence",
     "Import Substitution",
     "Industrial Policy",
     "Manufacturing"
   ],
-  "bytes": 42536,
-  "sha256": "9485745f5e323ba590d4bd7c819856ee77b244942ea9af6af19f42c33703666e",
+  "bytes": 42517,
+  "sha256": "66254d73736b5f9d3dcbebf9aa16fe8cb556e81a72a678e2371a5bbb6b380c1b",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.2",
+  "version": "4.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -179,6 +179,19 @@
       "bytes": [
         42531,
         42536
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "4.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "figures changed (+1/-0 distinct numbers)",
+      "bytes": [
+        42536,
+        42517
       ],
       "url_changed": null,
       "markers_changed": null,

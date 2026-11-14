@@ -19771,3 +19771,685 @@ scheduled sync
 **No longer published** (drafted or deleted; file kept in `posts/`)
 
 - `indias-spare-crop-residue-could-make-57_0594387739` — India’s Spare Crop Residue Could Make 57 Million Tonnes of Biochar a Year. Only Two Crop–State Pairs Stay Near the Top However You Weigh It
+
+## 2026-11-14T16:01:30+05:30 — 518 posts live
+
+**Added**
+
+- `chloride-in-fuel-ethanol-is-15464-sets` **v1.0.0** — Chloride in fuel ethanol: IS 15464 sets 3 mg/kg for 2G ethanol and no limit for 1G (30,314 bytes)
+
+**Versions**
+
+- `indias-spare-crop-residue-could-make-57` **1.0.1 → 2.0.0** (MAJOR) — section(s) removed: India&rsquo;s Spare Crop Residue Could Make 57 Million Tonnes of Biochar a Year. Only Two Crop&ndash;State Pairs Stay Near the Top However You Weigh It
+- `eight-open-source-tools-for-indias` **1.0.1 → 2.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `nine-open-source-tools-for-sizing-and` **1.0.1 → 2.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `seven-open-source-tools-for-stock` **1.0.1 → 2.0.0** (MAJOR) — figures changed (+1/-0 distinct numbers)
+- `eight-open-source-tools-for-tracking` **1.0.1 → 2.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `seven-open-source-tools-for-indias-fuel` **1.0.1 → 2.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `five-open-source-control-simulators-for` **1.0.1 → 2.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `indias-top-law-firms-have-signed-up-for` **1.0.1 → 2.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `india-has-50-lakh-stray-cattle-and-371` **1.0.2 → 2.0.0** (MAJOR) — section(s) removed: India Has 50 Lakh Stray Cattle and 371 Certified Compostable-Bag Makers. The Bin Matters More Than the Bag
+- `ai-tools-edition-04-deepseek-put-its` **1.0.2 → 2.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `14500-crore-for-92-gwh-indias-storage` **2.0.2 → 3.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `idbi-banks-rescuers-put-in-54000-crore` **1.0.2 → 2.0.0** (MAJOR) — figures changed (+0/-1 distinct numbers)
+- `from-kerosene-in-diesel-to-ethanol-in` **2.0.2 → 3.0.0** (MAJOR) — section(s) removed: From Kerosene in Diesel to Ethanol in Petrol: A History of Fuel Theft in India
+- `panchayats-raise-barely-two-rupees-in` **1.0.2 → 2.0.0** (MAJOR) — figures changed (+0/-1 distinct numbers)
+- `doubling-indias-csr-profit-trigger` **1.0.2 → 2.0.0** (MAJOR) — section(s) removed: Doubling India&rsquo;s CSR Profit Trigger Removes 11,204 Companies but About 3% of the Money
+- `a-record-maize-crop-will-not-make-india` **2.0.2 → 3.0.0** (MAJOR) — figures changed (+0/-1 distinct numbers)
+- `oil-gas-projects-under-evaluation-and` **3.0.1 → 4.0.0** (MAJOR) — section(s) removed: Oil &amp; Gas Projects Under Evaluation and Design: A Segment-Wise Read of 2026 (Upstream to Petchem)
+- `how-to-use-process-safety-design` **4.0.1 → 5.0.0** (MAJOR) — section(s) removed: ...
+- `a-free-cell-game-fits-indias-new-class` **1.0.2 → 2.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `india-doesnt-need-blockchain-to-pay-its` **1.0.2 → 2.0.0** (MAJOR) — section(s) removed: India Doesn&rsquo;t Need a Blockchain to Pay Its Farmers. It May Need One to Agree on Who Owns the Land
+- `e20-and-spark-plug-what-ethanol-does-to` **1.0.2 → 2.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `states-can-draw-rs-61008-crore-of-short` **1.0.2 → 2.0.0** (MAJOR) — section(s) removed: States Can Draw Rs 61,008 Crore of Short-Term Credit From the RBI. A Few Live on It, While the Rest Park Up to Three Times That in Treasury Bills
+- `indias-new-securities-code-gives-sebi` **1.0.2 → 2.0.0** (MAJOR) — section(s) removed: India&rsquo;s New Securities Code Gives SEBI 180 Days to Finish a Probe. Most Take a Year or More
+- `defence-exports-rose-63-to-rs-38424` **1.0.2 → 2.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `how-to-use-five-open-toolkits-finance` **1.0.4 → 2.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `rice-and-maize-became-ethanol` **2.0.2 → 3.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `india-has-funded-3-lakh-machines-to` **1.1.2 → 2.0.0** (MAJOR) — section(s) removed: India Has Funded 3 Lakh Machines to Stop Stubble Burning. About 4,500 of Them Collect Straw
+- `most-of-what-indians-pay-for-health-is` **1.0.2 → 2.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `india-capped-margins-on-137-cancer` **3.0.2 → 4.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `states-won-right-to-tax-mines-in-2024` **3.0.2 → 4.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `a-kilo-of-crude-fish-oil-sells-for` **1.0.2 → 2.0.0** (MAJOR) — section(s) removed: A Kilo of Crude Fish Oil Sells for About Rs 650. In Capsules It Retails for Rs 7,500 or More. India&rsquo;s Fishers Sell Only the Fish
+- `india-dropped-last-approvals-on-its` **2.0.2 → 3.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `india-wants-15-of-its-energy-from-gas` **1.0.2 → 2.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `earnings-drift-and-piotroski-work-only` **2.0.3 → 3.0.0** (MAJOR) — section(s) removed: Earnings Drift and Piotroski Work Only Where Trading Is Thin
+- `seven-states-plan-to-borrow-above-new-3` **1.1.2 → 2.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `andhra-pradesh-has-approved-rs-14-lakh` **1.1.2 → 2.0.0** (MAJOR) — figures changed (+0/-1 distinct numbers)
+- `indias-fertiliser-sales-fell-where` **1.1.2 → 2.0.0** (MAJOR) — figures changed (+0/-1 distinct numbers)
+- `gems-purchases-stopped-growing-in-2025` **1.1.2 → 2.0.0** (MAJOR) — section(s) removed: GeM&rsquo;s Purchases Stopped Growing in 2025-26. Small Firms Won Two-Thirds of the Orders but Less Than Half the Money
+- `india-wants-emergency-braking-in-every` **1.0.2 → 2.0.0** (MAJOR) — section(s) removed: India Wants Emergency Braking in Every Car by 2032. Fewer Than One in Ten Cars Sold Has It Now
+- `india-has-approved-12-chip-plants-and` **1.0.2 → 2.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `gobardhan-aims-for-12-times-todays` **1.0.2 → 2.0.0** (MAJOR) — section(s) removed: GOBARdhan Aims for 12 Times Today&rsquo;s Biogas Output. The Mandate Meant to Buy It Covers Less Than Half
+- `samudra-manthan-pays-up-to-rs-675-crore` **1.1.2 → 2.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `indias-crude-basket-now-counts-russian` **1.1.2 → 2.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `india-raised-dap-subsidy-18-this-kharif` **1.0.2 → 2.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `india-has-legalised-e100-for-flex-fuel` **3.0.2 → 4.0.0** (MAJOR) — section(s) removed: India Has Legalised E100 for Flex-Fuel Cars. Its E85 Still Costs More per Kilometre Than Petrol
+- `indias-rs-3030-crore-chemical-parks` **1.1.2 → 2.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `indias-draft-steel-policy-plans-604-mt` **1.0.2 → 2.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `india-got-record-945-billion-of-fdi` **1.1.2 → 2.0.0** (MAJOR) — section(s) removed: India Got a Record $94.5 Billion of FDI Last Year. Net of Exits and Investment Abroad, $7.7 Billion Stayed
+- `half-of-php-websites-run-version-nobody` **1.0.2 → 2.0.0** (MAJOR) — section(s) removed: Half of PHP Websites Run a Version Nobody Patches. What a Hacked Site Gives Away About Its Company
+- `closed-loop-or-open-loop-how-indias-new` **1.1.2 → 2.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `half-of-udans-closed-routes-shut-while` **1.0.2 → 2.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `rural-job-guarantee-pay-rose-96-in-july` **2.0.2 → 3.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `india-will-spend-rs-33660-crore-on` **3.0.2 → 4.0.0** (MAJOR) — section(s) removed: India Will Spend Rs 33,660 Crore on Ready-Made Factory Parks. Its Existing Parks Have 1.25 Lakh Empty Plots
+- `indias-constitution-set-deadline` **1.1.2 → 2.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `a-hectare-under-power-line-now-pays` **2.1.2 → 3.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `indias-approved-solar-cell-makers-can` **1.1.2 → 2.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `india-ordered-112-captive-coal-plants` **1.1.2 → 2.0.0** (MAJOR) — section(s) removed: India Ordered 112 Captive Coal Plants to Run Flat Out After Exchange Prices Rose 50% in a Month, With Coal Stocks Steady
+- `indias-winter-harvest-now-outgrows-its` **1.0.2 → 2.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `sixteen-crops-twenty-years-where-indias` **1.0.2 → 2.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `indias-farm-map-in-seven-charts-maize` **1.0.2 → 2.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `indias-biggest-mandi-crops-have` **1.0.2 → 2.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `maize-is-cheapest-in-different-state` **3.0.2 → 4.0.0** (MAJOR) — section(s) removed: Maize Is Cheapest in a Different State Every Few Months. Rice Barely Moves.
+- `ethanol-plants-that-trade-maize-to` **3.0.2 → 4.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `europe-wants-green-steel-it-cant-afford` **1.1.2 → 2.0.0** (MAJOR) — section(s) removed: Europe Wants Green Steel It Can&rsquo;t Afford to Make. Why CBAM Should Be Rolled Out More Gently
+- `india-has-27400-km-of-gas-pipeline` **4.0.2 → 5.0.0** (MAJOR) — figures changed (+0/-2 distinct numbers)
+- `indias-cheapest-lng-capacity-is-extra` **2.0.2 → 3.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `india-imports-whey-protein-its-cheese` **1.2.2 → 2.0.0** (MAJOR) — section(s) removed: India Imports the Whey Protein Its Cheese Makers Pour Away. The Fix Is Shared Whey Hubs, Not a Dryer in Every Dairy
+- `indias-2026-27-ethanol-tender-drops` **2.1.2 → 3.0.0** (MAJOR) — section(s) removed: India&rsquo;s 2026-27 Ethanol Tender Drops Cane Juice, Cuts Maize by Rs 3 a Litre and Flips From Sugar-First to Cheapest-First
+- `how-to-use-kalkiflooding-125-years-of` **1.0.3 → 2.0.0** (MAJOR) — section(s) removed: How to use kalki_flooding: 125 years of Indian city rainfall extremes from IMD gridded data
+- `how-to-use-cricket-data-analysis-score` **1.0.3 → 2.0.0** (MAJOR) — section(s) removed: How to use cricket-data-analysis: score how predictable IPL and World Cup match-ups are
+- `how-to-use-amazon-product-selector` **1.0.3 → 2.0.0** (MAJOR) — section(s) removed: How to use amazon-product-selector: a gated shortlist of rising Amazon keywords you can actually enter
+- `ai-is-not-taking-indias-offshore-work` **2.1.2 → 3.0.0** (MAJOR) — section(s) removed: AI Is Not Taking India&rsquo;s Offshore Work Evenly: A Sector-by-Sector Check, and the Government Backlogs the Same Skills Could Clear
+- `india-tracks-every-taxpayer-in-minutes` **2.0.2 → 3.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `petrol-pump-margins-and-e20-one-dealer` **1.3.2 → 2.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `biogas-is-priority-sector-loan-43` **1.1.2 → 2.0.0** (MAJOR) — section(s) removed: Biogas Is a Priority-Sector Loan. The 43% Higher CBG Price Is Worth About 50 Times the Cost of the Repo Hike, for the Plants It Reaches
+- `methionine-not-lysine-is-indias-biggest` **1.0.2 → 2.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `indias-lysine-deficit-is-102-million` **1.2.2 → 2.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `india-imported-28-million-of-sucralose` **1.2.2 → 2.0.0** (MAJOR) — section(s) removed: India Imported $28 Million of Sucralose in FY26, Up 49%. Sugar Mills Make the Raw Material. Making the Sweetener Is a Chlorination Problem, Not a Sugar One
+- `bagasse-is-one-crop-residue-already` **2.1.2 → 3.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `indias-fdi-moved-to-software-and` **1.0.3 → 2.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `indias-first-tourism-survey-since-2014` **1.0.2 → 2.0.0** (MAJOR) — figures changed (+0/-1 distinct numbers)
+- `india-and-mercosur-are-expanding-450` **1.0.2 → 2.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `indias-reported-central-project-overrun` **1.1.2 → 2.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `india-imported-295-more-steel-this-year` **3.0.2 → 4.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `india-has-auctioned-141-commercial-coal` **1.1.2 → 2.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `epfos-pay-ceiling-rose-to-25000-after` **2.0.2 → 3.0.0** (MAJOR) — section(s) removed: EPFO&rsquo;s Pay Ceiling Rose to &#8377;25,000 After 12 Years. In 2014 Rupees, That Is Slightly Less Than the Old &#8377;15,000
+- `new-zealand-opens-every-tariff-line-to` **1.1.2 → 2.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `india-raised-cooking-oil-duties-to-help` **3.0.2 → 4.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `indias-first-seabed-mineral-auction` **3.0.2 → 4.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `green-energy-corridor-iii-is-15-times` **2.0.2 → 3.0.0** (MAJOR) — section(s) removed: Green Energy Corridor III Is 15 Times the Last Phase. The First Two Are Still Not Finished
+- `indias-military-quantum-plan-has-four` **2.0.2 → 3.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `indias-old-factory-index-said` **1.0.2 → 2.0.0** (MAJOR) — section(s) removed: India&rsquo;s Old Factory Index Said Electronics Output Fell 11% in 2023-24. The New One Says It Rose 20%
+- `indias-petroleum-act-still-fines` **1.1.2 → 2.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `indias-factory-intentions-20012024-how_0101046393` **4.0.2 → 5.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `cough-syrup-in-lollipop-for-babies` **1.1.2 → 2.0.0** (MAJOR) — section(s) removed: Cough Syrup in a Lollipop? For Babies, the Evidence Points to a 2 mm Tablet Instead
+- `indias-ethanol-surplus-buys-about-five` **7.2.2 → 8.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `indias-biofuel-rules-are-being-written` **1.1.2 → 2.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `refiners-won-exemption-fight-biofuels` **1.1.2 → 2.0.0** (MAJOR) — figures changed (+1/-0 distinct numbers)
+- `abu-dhabi-paid-2-billion-for-binance` **2.0.2 → 3.0.0** (MAJOR) — section(s) removed: Abu Dhabi Paid $2 Billion for a Binance Stake in Stablecoins. India&rsquo;s FDI Rules Have No Box for That.
+- `indias-new-car-rules-count-every-ev-as` **2.0.2 → 3.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `making-plastic-releases-heat-unmaking` **2.0.2 → 3.0.0** (MAJOR) — section(s) removed: Making Plastic Releases Heat. Unmaking It Takes Heat, Entropy and a Catalyst India's Refineries Already Throw Away.
+- `cotton-stalk-is-one-of-hardest-crop` **1.4.2 → 2.0.0** (MAJOR) — section(s) removed: Cotton Stalk Is One of the Hardest Crop Wastes to Turn Into Gas. The Manure Left Over Is What India's Tired Fields Need.
+- `every-litre-of-petrol-pays-5-for-roads` **2.0.2 → 3.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `india-sells-world-about-third-of-its` **1.2.2 → 2.0.0** (MAJOR) — section(s) removed: India Sells the World About a Third of Its Oleoresins. The US Just Put Duties of Up to 31% on the Biggest One.
+- `india-polishes-worlds-diamonds-with` **1.2.2 → 2.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `cocoa-quintupled-then-gave-most-of-it` **1.2.2 → 2.0.0** (MAJOR) — section(s) removed: Cocoa Quintupled, Then Gave Most of It Back. Vanilla Lost 90%. Only One of Those Is a Weather Story.
+- `one-nation-one-gst-rate-what-true-flat` **3.0.2 → 4.0.0** (MAJOR) — section(s) removed: One Nation, One GST Rate: What a True Flat Tax Would Take, and Why Not Even Singapore Has One
+- `india-pays-5-8-billion-year-to-ship-its` **1.2.2 → 2.0.0** (MAJOR) — section(s) removed: India Pays $5-8 Billion a Year to Ship Its Own Oil. Only 20% of That Cargo Travels on an Indian Vessel.
+- `indias-live-ipo-queue-has-232-companies` **1.1.2 → 2.0.0** (MAJOR) — section(s) removed: India's Live IPO Queue Has 232 Companies in It. Power and Renewables Outnumbers Oil and Gas Nearly 5 to 1.
+- `indias-ethanol-plants-are-sitting-on` **1.1.2 → 2.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `gail-and-sumitomo-both-turned-their` **1.0.3 → 2.0.0** (MAJOR) — section(s) removed: GAIL and Sumitomo Both Turned Their TruAlt MOUs Into Binding CBG Deals Within a Year. BPCL's Has Gone Quiet.
+- `indias-display-fab-scheme-got-two` **2.0.2 → 3.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `india-mapped-12174-tariff-codes-to-31` **1.0.3 → 2.0.0** (MAJOR) — section(s) removed: India Mapped 12,174 Tariff Codes to 31 Ministries. 495 Products Still Have No One Willing to Own Them.
+- `india-let-oil-companies-put-solar-on` **3.0.2 → 4.0.0** (MAJOR) — section(s) removed: India Let Oil Companies Put Solar on Their Own Leases. A Year On, ONGC's Own Build Is Under 1 Megawatt &mdash; It Bought 4 Gigawatts Instead.
+- `india-leads-world-in-jute-and-ranks` **2.1.2 → 3.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `india-imports-60-of-its-cooking-gas` **1.1.2 → 2.0.0** (MAJOR) — figures changed (+1/-0 distinct numbers)
+- `indias-cotton-yield-fell-from-566-kg-to` **2.0.2 → 3.0.0** (MAJOR) — figures changed (+1/-0 distinct numbers)
+- `indias-irrigation-system-recovered-96` **1.0.3 → 2.0.0** (MAJOR) — section(s) removed: India's Irrigation System Recovered 96% of Its Running Costs in 1975. It Recovers About 7% Now.
+- `india-doesnt-have-one-quality-regulator` **2.0.1 → 3.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `shippings-net-zero-vote-keeps-getting` **1.1.2 → 2.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `kpler-and-vortexa-track-every-barrel` **1.2.2 → 2.0.0** (MAJOR) — section(s) removed: Kpler and Vortexa Track Every Barrel India Imports. Nobody Tracks Its Cooking-Oil Waste the Same Way.
+- `india-has-132-compressed-biogas-plants` **2.1.2 → 3.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `pngrb-graded-its-own-homework-on-2025` **1.0.3 → 2.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `nobody-blockaded-hormuz-to-slow-india` **1.1.2 → 2.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `mopsws-25000-crore-maritime-development` **2.1.2 → 3.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `india-wants-isobutanol-in-both-diesel` **1.1.2 → 2.0.0** (MAJOR) — section(s) removed: India Wants Isobutanol in Both Diesel and Jet Fuel. It Has Built a Domestic Supply Chain for Neither.
+- `india-has-tested-its-soil-twice-second` **1.0.2 → 2.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `pmfby-advertises-51-return-to-farmers` **2.0.2 → 3.0.0** (MAJOR) — section(s) removed: PMFBY Advertises a 5:1 Return to Farmers. Farmers Put In About a Fifth of the Premium. Governments Put In the Rest.
+- `indias-oil-fields-are-running-down` **1.1.2 → 2.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `e20-doesnt-cut-tailpipe-co2-by-30-run` **2.0.2 → 3.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `india-built-offshore-insurance-hub-it` **1.3.2 → 2.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `india-irrigates-itself-966-of-its` **1.3.2 → 2.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `rural-indias-farm-employment-share` **1.4.2 → 2.0.0** (MAJOR) — figures changed (+1/-0 distinct numbers)
+- `do-cbse-past-papers-actually-help` **3.0.1 → 4.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `577-of-indias-plant-variety` **1.2.2 → 2.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `abha-covers-93-crore-patients-its` **2.1.2 → 3.0.0** (MAJOR) — section(s) removed: ABHA Covers 93 Crore Patients. Its Doctor Registry Covers 67%, and Insurers Aren't Required to Use the Claims Exchange Yet
+- `india-exports-naphtha-and-benzene-its` **1.3.2 → 2.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `jan-aushadhi-sells-2439-products-heres` **1.4.2 → 2.0.0** (MAJOR) — section(s) removed: Jan Aushadhi Sells 2,439 Products. Here's What We Actually Know About Where Their APIs Come From.
+- `sun-pharmas-1175bn-organon-bet-is` **1.4.2 → 2.0.0** (MAJOR) — section(s) removed: Sun Pharma's $11.75bn Organon Bet Is Bigger Than the RBI Rule Written to Fund It
+- `indias-60000-crore-api-push-traced-to` **1.5.2 → 2.0.0** (MAJOR) — figures changed (+1/-0 distinct numbers)
+- `indias-semaglutide-patent-cliff-26` **1.4.2 → 2.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `dr-reddys-cut-its-semaglutide-guidance` **1.4.2 → 2.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `ethanol-freed-up-refinery-capacity-for` **2.2.2 → 3.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `indias-labour-codes-took-six-years-to` **2.0.2 → 3.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `five-years-and-25000-crore-later-china` **1.4.2 → 2.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `india-rewrote-its-entire-maritime-legal` **1.3.3 → 2.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `india-ended-63-years-of-state-nuclear` **4.0.2 → 5.0.0** (MAJOR) — section(s) removed: India Voted to End Its 63-Year State Nuclear Monopoly. The Law Is Not in Force Yet, and Foreign Builders Stay Locked Out
+- `indias-12385-project-investment-grid` **1.2.2 → 2.0.0** (MAJOR) — figures changed (+1/-0 distinct numbers)
+- `a-2223-crore-coal-freight-railway-line` **2.1.2 → 3.0.0** (MAJOR) — section(s) removed: A &#8377;2,223 Crore Coal-Freight Railway Line Is Being Acquired One Farm Plot at a Time
+- `a-textile-sez-built-to-re-employ-mill` **2.0.2 → 3.0.0** (MAJOR) — section(s) removed: A Textile SEZ Built to Re-Employ Mill Workers Has Shrunk 87% Since 2007
+- `indias-e-commerce-inventory-ban-just` **1.3.2 → 2.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `indias-ev-localisation-deadline-just` **3.0.2 → 4.0.0** (MAJOR) — section(s) removed: India's EV Localisation Deadline Just Split in Two, Because of the One Part China Still Controls
+- `a-supreme-court-ruling-on-intoxicating` **2.0.2 → 3.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `engineering-and-auto-component-makers` **1.2.2 → 2.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `indias-ethanol-sector-already-had-its` **2.3.2 → 3.0.0** (MAJOR) — section(s) removed: India's Ethanol Sector Already Had Its IPOs. Here's Who's Listed, Who Just Joined, and What's Still Pending
+- `global-lng-trade-hit-record-437-million` **1.3.2 → 2.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `electrification-is-lngs-biggest` **1.4.2 → 2.0.0** (MAJOR) — section(s) removed: Electrification Is LNG's Biggest Decarbonization Lever. The Grid Is What Actually Limits It
+- `delhis-smog-towers-failed-test-44-year` **1.4.2 → 2.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `indias-battery-storage-boom-is` **3.0.2 → 4.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `alimco-jaipur-foot-and-bionic-gap-in` **1.2.3 → 2.0.0** (MAJOR) — section(s) removed: ALIMCO, Jaipur Foot, and the Bionic Gap in India's Artificial-Limb System
+- `endoscopes-never-made-indias-pli-list` **1.3.2 → 2.0.0** (MAJOR) — section(s) removed: Endoscopes Never Made India's PLI List. At 57% Export Coverage, They Didn't Need To.
+- `indias-draft-seeds-bill-cuts-states` **1.3.2 → 2.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `fourteen-states-reimburse-investors` **1.3.2 → 2.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `a-2013-vision-saw-india-needing-746` **3.0.2 → 4.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `pngrb-wants-prepaid-smart-meters-on` **1.2.2 → 2.0.0** (MAJOR) — section(s) removed: PNGRB Wants Prepaid Smart Meters on Every New Gas Connection From 2027, All of Them by 2030
+- `pngrbs-own-committee-found-pipelines` **1.3.2 → 2.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `mapping-indias-other-pipelines-every` **1.2.2 → 2.0.0** (MAJOR) — section(s) removed: Mapping India's Other Pipelines: Every Major Crude, Petrol-Diesel and LPG Line, By Company
+- `india-is-piping-jet-fuel-to-five-new` **1.1.2 → 2.0.0** (MAJOR) — figures changed (+1/-0 distinct numbers)
+- `indias-gas-pipelines-run-at-half` **2.1.2 → 3.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `right-of-user-what-indias-pipeline` **4.0.2 → 5.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `one-nation-one-ration-card-doesnt-move` **2.1.2 → 3.0.0** (MAJOR) — section(s) removed: One Nation One Ration Card Doesn't Move Grain. FCI's Ethanol Tenders Move a Lot of It
+- `interpreting-gazette-notification` **3.0.2 → 4.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `textbooks-say-project-returns-converge` **2.0.2 → 3.0.0** (MAJOR) — section(s) removed: Textbooks Say Project Returns Converge to Cost of Capital. About 79% of a Company's Edge Over Average Returns Survives Each Year
+- `icra-rates-most-of-indias-economy` **1.2.2 → 2.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `everyone-worries-about-who-pays-for` **2.1.2 → 3.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `dgh-has-awarded-172-oalp-blocks-and-436_0369361351` **2.2.2 → 3.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `fipis-biggest-ask-is-getting-natural` **2.1.2 → 3.0.0** (MAJOR) — section(s) removed: FIPI's Biggest Ask Is Getting Natural Gas Under GST. It Still Hasn't Happened
+- `pngrb-hydrogen-blending-pilots-real` **1.2.2 → 2.0.0** (MAJOR) — section(s) removed: PNGRB's Hydrogen-Blending Pilots Are Real. The "Up to 10%" Target Isn't, Yet
+- `indias-oil-psus-say-they-clear-their_01269248608` **2.0.2 → 3.0.0** (MAJOR) — section(s) removed: India's Oil PSUs Say They Clear Their MSME Quota Easily. The Portal Built to Prove It Doesn't Show Its Work
+- `india-solved-carbon-credit-banking-with` **1.2.2 → 2.0.0** (MAJOR) — section(s) removed: India Solved Carbon-Credit Banking With No Limit At All. Trading Still Hasn't Started.
+- `lng-trucks-cost-about-what-diesel-does` **1.3.2 → 2.0.0** (MAJOR) — figures changed (+1/-0 distinct numbers)
+- `indias-lng-terminal-rules-changed-twice` **1.2.2 → 2.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `oisd-writes-indias-oil-safety-rules-api` **2.1.2 → 3.0.0** (MAJOR) — section(s) removed: OISD Writes India's Oil-Safety Rules. API Just Signed FIPI Up to Help Its Own Standards Reach Further.
+- `brazil-pumps-e30-at-every-station` **1.2.2 → 2.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `the-4-nobody-notices-and-three-other` **3.1.2 → 4.0.0** (MAJOR) — section(s) removed: The 4% Nobody Notices, and Three Other Ways India Backstops Its Own Food System
+- `the-1920s-rotor-thats-now-on-22-real` **2.3.2 → 3.0.0** (MAJOR) — section(s) removed: The 1920s Rotor That's Now on 22 Real Ships, Not the Fleet It Was Studied to Power
+- `brandsafway-and-2017-roll-up-wave-that` **1.1.2 → 2.0.0** (MAJOR) — section(s) removed: BrandSafway and the 2017 Roll-Up Wave That Turned Scaffolding Into a $6.7 Billion Industry
+- `a-million-wine-market-behind-150-wall` **2.0.2 → 3.0.0** (MAJOR) — section(s) removed: A $195 Million Wine Market Behind a 150% Wall, and the Deal That Cracks It
+- `tasmacs-retail-exit-case-for` **2.0.2 → 3.0.0** (MAJOR) — section(s) removed: TASMAC's Retail Exit: The Case for Privatizing 2,500 of Tamil Nadu's 4,048 Liquor Shops
+- `nine-ministries-one-list-every-company` **2.2.2 → 3.0.0** (MAJOR) — section(s) removed: India's 14 PLI Schemes, and Every Company Publicly Named as a Winner, 2019&ndash;2026
+- `indias-mobile-phone-pli-beat-every` **2.2.3 → 3.0.0** (MAJOR) — section(s) removed: India's Mobile-Phone PLI Beat Every Target. Its Chip-Fab Scheme Has 5 of 12 Plants Actually Producing.
+- `indias-6000-crore-fisheries-scheme` **1.2.2 → 2.0.0** (MAJOR) — section(s) removed: India Allocated &#8377;6,000 Crore for Fisheries Under PM-MKSSY. It Has Paid Out &#8377;4.73 Crore So Far.
+- `amruts-197-lakh-crore-urban-portfolio` **1.3.2 → 2.0.0** (MAJOR) — section(s) removed: AMRUT's &#8377;1.97 Lakh Crore Urban Portfolio: Water Supply Is 41% of Projects, 60% of the Money
+- `indias-79-lakh-crore-rural-water` **3.2.2 → 4.0.0** (MAJOR) — section(s) removed: India's &#8377;7.9 Lakh Crore Rural Water Pipeline: What "Upcoming" Actually Means, State by State
+- `sugarcanes-third-claimant-whats` **4.3.2 → 5.0.0** (MAJOR) — section(s) removed: Sugarcane's Third Claimant: What's Actually Being Fermented Into India's First PLA Plant
+- `how-india-actually-plans-to-hit-net` **1.2.2 → 2.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `indias-coal-to-chemicals-menu-ranked-by` **2.3.2 → 3.0.0** (MAJOR) — section(s) removed: India&#8217;s Coal-to-Chemicals Menu, Ranked by What Actually Clears the Import Price
+- `india-will-finance-waste-to-energy` **3.2.2 → 4.0.0** (MAJOR) — section(s) removed: India Will Finance a Waste-to-Energy Plant Before It Finances a Sorting Line
+- `india-exports-worlds-coco-peat-its-own` **2.2.2 → 3.0.0** (MAJOR) — section(s) removed: India Exports the World's Coco Peat. Its Own Highest-Value Crop Barely Uses Any of It.
+- `oilfield-costs-rose-68-while-global` **1.2.2 → 2.0.0** (MAJOR) — section(s) removed: Oilfield Costs Rose 6&ndash;8% While Global Spending Fell. Asia's Thin Rig Fleet Is Where That Squeeze Bites Hardest.
+- `interest-subvention-built-499-ethanol` **2.3.2 → 3.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `tamil-nadus-water-infrastructure-runs` **3.1.2 → 4.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `india-approved-15-lakh-crore-in` **5.2.2 → 6.0.0** (MAJOR) — section(s) removed: India Approved &#8377;1.5 Lakh Crore in Manufacturing Subsidies. Parliament's Own Answers Show How Little of It Has Actually Been Paid.
+- `indias-445-billion-spice-export-book-is` **2.3.2 → 3.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `indias-coffee-crop-hasnt-grown-in` **4.1.2 → 5.0.0** (MAJOR) — section(s) removed: India's Coffee Crop Hasn't Grown in a Decade. Its Export Earnings Have.
+- `india-grows-most-coconuts-in-world-and` **3.2.2 → 4.0.0** (MAJOR) — section(s) removed: India Grows the Most Coconuts in the World and Still Imports Copra
+- `indias-renewable-energy-certificates` **3.3.2 → 4.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `every-india-europe-tech-agreement-pib` **2.3.2 → 3.0.0** (MAJOR) — figures changed (+1/-0 distinct numbers)
+- `foreign-capital-found-indias-hospitals` **5.1.2 → 6.0.0** (MAJOR) — section(s) removed: Foreign Capital Found India&rsquo;s Hospitals &mdash; It Is Buying Them, Not Building New Ones
+- `india-cannot-sell-china-free-medicine` **3.2.2 → 4.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `indias-8-digit-trade-book-searchable` **3.1.2 → 4.0.0** (MAJOR) — section(s) removed: India&rsquo;s 8-Digit Trade Book, Searchable
+- `japan-ran-out-of-matcha-assam-just-sold` **3.2.2 → 4.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `indias-shrimp-exports-did-not-collapse` **2.1.2 → 3.0.0** (MAJOR) — section(s) removed: India&rsquo;s Shrimp Exports Did Not Collapse. The Code Did.
+- `nano-urea-works-as-supplement-and-fails` **2.2.2 → 3.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `india-hit-e20-on-maize-and-rice-not` **2.2.2 → 3.0.0** (MAJOR) — section(s) removed: India Hit E20 on Maize and Rice, Not Sugarcane
+- `5071-items-you-cannot-import-and-rs` **3.0.2 → 4.0.0** (MAJOR) — figures changed (+1/-0 distinct numbers)
+- `premium-now-claim-later-float-indias` **1.2.2 → 2.0.0** (MAJOR) — section(s) removed: Premium Now, Claim Later: The Float India&rsquo;s Car Boom Is Building
+- `a-17-rural-pay-rise-that-nobody-received` **6.0.2 → 7.0.0** (MAJOR) — figures changed (+1/-0 distinct numbers)
+- `379-kilos-hectare-in-punjab-44-in` **3.0.2 → 4.0.0** (MAJOR) — section(s) removed: 379 Kilos a Hectare in Punjab, 44 in Kerala: India&rsquo;s Urea Map Is a Crop Map
+- `india-imports-283000-tonnes-of-almonds` **3.1.2 → 4.0.0** (MAJOR) — section(s) removed: India Imports 283,000 Tonnes of Almonds and Grows 4,100: Inside the Diwali Nut Trade
+- `7186-litre-why-maize-is-indias-priciest` **3.1.2 → 4.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `sugar-at-5570-kilo-why-cane-acreage` **4.3.2 → 5.0.0** (MAJOR) — section(s) removed: Sugar at &#8377;55.70 a Kilo: Why Cane Acreage Isn't Growing, and Ethanol Is Losing the Diversion Race
+- `574-gw-and-counting-indias-wind-fleet` **5.1.2 → 6.0.0** (MAJOR) — section(s) removed: 57.4 GW and Counting: India's Wind Fleet, State by State, Against What NIWE Says Is Actually There
+- `028-unit-diesel-math-behind-indias-data` **3.1.2 → 4.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `refineries-under-fire-how-two-wars` **2.3.2 → 3.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `ten-cubic-metres-hour-indias-first` **2.3.2 → 3.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `inside-refinery-how-hydrogen-cleans` **2.1.2 → 3.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `indian-railways-98-to-earn-100-business` **2.3.2 → 3.0.0** (MAJOR) — figures changed (+1/-0 distinct numbers)
+- `biomass-power-at-night-dispatchable` **3.3.2 → 4.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `blending-on-budget-energy-density-and` **2.2.2 → 3.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `global-biofuels-m-bankruptcy-bolt-on` **2.3.2 → 3.0.0** (MAJOR) — section(s) removed: Global Biofuels M&amp;A: A Bankruptcy, a Bolt-On, and Where the Capital Is Actually Going
+- `lemon-cultivation-in-india-steady-trees` **2.1.2 → 3.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `green-gold-what-spirulina-actually-is` **3.0.2 → 4.0.0** (MAJOR) — section(s) removed: Green Gold: What Spirulina Actually Is, and Isn't, Good For
+- `not-drop-out-ethanols-zero-liquid` **3.2.2 → 4.0.0** (MAJOR) — section(s) removed: Not a Drop Out: Ethanol's Zero-Liquid-Discharge Rule, and the Treatment-Capacity Gap Behind It
+- `ethanols-coal-boilers-briquette-gap-and` **2.2.2 → 3.0.0** (MAJOR) — section(s) removed: Ethanol's Coal Boilers, the Briquette Gap, and What US Carbon Capture Actually Delivers
+- `scan-bottle-deliver-what-ppacs-numbers` **2.3.2 → 3.0.0** (MAJOR) — section(s) removed: Scan, Bottle, Deliver: What PPAC's Numbers Say About the LPG Cylinder in Your Kitchen
+- `guar-gum-indias-35-billion-export-peak` **5.1.2 → 6.0.0** (MAJOR) — section(s) removed: Guar Gum: India's $3.5 Billion Export Peak, the Crash After, and Why the Crop Still Makes Sense on Poor Soil
+- `basf-and-mitsubishi-are-running` **2.2.2 → 3.0.0** (MAJOR) — section(s) removed: Rice Cultivation and Innovation
+- `pet-recycling-already-cuts-emissions-60` **2.3.2 → 3.0.0** (MAJOR) — section(s) removed: PET Recycling Already Cuts Emissions 60%+. The New MOEFCC Rules Are About Making That System Traceable
+- `tarpaulin-is-genuine-export-win` **2.2.2 → 3.0.0** (MAJOR) — section(s) removed: Tarpaulin Is a Genuine Export Win. Geotextiles for India's Highways Are the Opposite Story
+- `airbags-and-seat-belts-are-import-heavy` **5.1.2 → 6.0.0** (MAJOR) — section(s) removed: Airbags and Seat Belts Are Import-Heavy. Tyre Cord Isn't. India's Automotive Textiles Aren't One Story
+- `india-grows-soybean-exports-meal-leads` **5.3.2 → 6.0.0** (MAJOR) — section(s) removed: India Grows the Soybean, Exports the Meal, Leads in Lecithin &mdash; and Barely Makes Tofu Yet
+- `how-indias-automotive-clusters-rewired` **3.0.2 → 4.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `fbil-rates-vs-tradestat-volumes-does-fx` **2.1.2 → 3.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `tamil-nadus-wind-potential-according-to` **3.2.2 → 4.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `financing-fuel-to-chemicals-pivot-how` **3.1.2 → 4.0.0** (MAJOR) — section(s) removed: Financing the Fuel-to-Chemicals Pivot: How Indian Oil's &#8377;15,000 Crore Debt Raise Fits a Much Bigger Pattern
+- `can-rupee-trade-actually-offset` **3.1.2 → 4.0.0** (MAJOR) — section(s) removed: Can Rupee Trade Actually Offset the Inflation India Is Importing?
+- `indias-coking-coal-import-problem-and` **4.1.2 → 5.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `rin-red-and-cbio-what-indias-ethanol` **2.3.2 → 3.0.0** (MAJOR) — section(s) removed: RIN, RED and CBIO: What India's Ethanol Programme Could Borrow From Three Different Carbon-Credit Machines
+- `one-gallon-five-numbers-how-gcam-fits` **2.3.2 → 3.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `price-is-wire-how-gcam-actually-links` **3.1.2 → 4.0.0** (MAJOR) — section(s) removed: Price Is the Wire: How GCAM Actually Links India's Energy, Land, Water and Economy to a Net-Zero Target
+- `from-barrel-to-bottle-petrochemical` **2.3.2 → 3.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `fuel-and-bottle-two-taxes-states-never` **2.1.2 → 3.0.0** (MAJOR) — section(s) removed: Fuel and the Bottle: The Two Taxes States Never Handed to GST
+- `tamil-nadus-gst-gap-108-economy-growing` **2.3.2 → 3.0.0** (MAJOR) — section(s) removed: Tamil Nadu's GST Gap: A 10.8% Economy, a 0.7%-Shrinking GST Take
+- `indias-two-tracks-of-health-cover-and` **4.1.2 → 5.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `abha-what-indias-14-digit-health-id` **5.1.2 → 6.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `mrs-watanabe-traded-from-kitchen-table` **2.2.2 → 3.0.0** (MAJOR) — section(s) removed: Mrs Watanabe Traded From the Kitchen Table. India's Next Wave of Traders Could Too
+- `do-cheap-stocks-stay-cheap-price-band` **3.1.2 → 4.0.0** (MAJOR) — figures changed (+1/-0 distinct numbers)
+- `050-is-its-own-category-diving-into` **4.0.1 → 5.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `a-slice-of-apple-costs-about-1700-slice` **3.1.2 → 4.0.0** (MAJOR) — figures changed (+0/-1 distinct numbers)
+- `indias-lock-imports-hit-19784-million` **2.2.2 → 3.0.0** (MAJOR) — section(s) removed: India's Lock Imports Hit $197.84 Million. Dindigul's Century-Old Cluster Isn't Who's Losing Sleep Over It.
+- `indias-used-oil-epr-wants-half-of-all` **4.0.1 → 5.0.0** (MAJOR) — figures changed (+1/-0 distinct numbers)
+- `ahidf-has-sanctioned-19751-crore-in` **5.0.2 → 6.0.0** (MAJOR) — section(s) removed: AHIDF Has Sanctioned &#8377;19,751 Crore in Animal-Husbandry Loans. Only 39% of It Has Reached a Bank Account.
+- `thali-investing-whats-actually-on-plate` **3.2.2 → 4.0.0** (MAJOR) — section(s) removed: Thali Investing: What's Actually on the Plate When People Say &ldquo;Diversify&rdquo;
+- `india-has-tax-treaties-with-97` **4.3.2 → 5.0.0** (MAJOR) — section(s) removed: India Has Tax Treaties With 97 Countries and Trade Treaties With a Fraction of Them
+- `cow-dung-already-flew-rocket-engine` **4.2.2 → 5.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `one-refinery-flipped-nigeria-from` **4.2.2 → 5.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `indias-epr-regime-just-got-teeth-and` **3.2.2 → 4.0.0** (MAJOR) — section(s) removed: India's EPR Regime Just Got Teeth &mdash; and a Battery Recycling Policy Brief Explains Where It Still Bites
+- `indias-trade-story-has-three-big-wins` **3.2.2 → 4.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `indias-fertiliser-import-bill-hits-18` **3.2.2 → 4.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `indias-food-processing-story-pli-scheme` **4.1.2 → 5.0.0** (MAJOR) — section(s) removed: India's Food Processing Story: A PLI Scheme Beating Its Own Targets, and a Cold-Chain Gap That Isn't Closing
+- `cocoas-blockchain-reckoning-one` **3.2.2 → 4.0.0** (MAJOR) — figures changed (+1/-0 distinct numbers)
+- `from-cane-to-code-digital-layer` **2.3.2 → 3.0.0** (MAJOR) — section(s) removed: From Cane to Code: The Digital Layer Underneath India's E20 Milestone
+- `lpgs-missing-number-7308-commission-and` **3.4.2 → 4.0.0** (MAJOR) — figures changed (+1/-0 distinct numbers)
+- `cheap-yen-rupee-roads-where-carry-trade` **3.0.2 → 4.0.0** (MAJOR) — section(s) removed: Cheap Yen, Rupee Roads: Where the Carry Trade Meets Project Bonds
+- `city-gas-just-became-indias-largest-gas` **3.1.2 → 4.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `south-africa-lost-its-gulf-fuel-supply` **2.2.2 → 3.0.0** (MAJOR) — section(s) removed: South Africa Lost Its Gulf Fuel Supply. It Turned to America, Not India.
+- `india-sells-world-53-billion-of-fuel` **3.2.2 → 4.0.0** (MAJOR) — section(s) removed: India Sells the World $53 Billion of Fuel. Its Neighbours Buy 5% of It.
+- `europe-bought-record-amount-of-lng-and` **9.1.2 → 10.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `petroleum-trade-pairings-and-us-crude` **5.2.2 → 6.0.0** (MAJOR) — section(s) removed: Petroleum trade pairings and the US crude storage picture
+- `inflation-trends-globally-what-five` **4.3.2 → 5.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `indias-wholesale-prices-next-to` **7.2.4 → 8.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `reinvesting-capital-gains-in-higher` **3.0.2 → 4.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `diesel-doesnt-move-cpi-it-moves-40` **6.2.2 → 7.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `chemical-import-substitution-hsn-8-registry` **5.0.1 → 6.0.0** (MAJOR) — section(s) removed: Which of 827 Chemical HSN-8 Codes Are Real Substitution Targets
+- `indias-oil-fields-are-running-down-3696` **4.2.2 → 5.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `rooftop-solar-is-working-household` **4.2.2 → 5.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `europes-export-credit-agencies-are` **3.2.2 → 4.0.0** (MAJOR) — section(s) removed: Europe's Export Credit Agencies Are Quietly Bankrolling India's Infrastructure — Not Its Factories
+- `fuel-pricing-to-crude-cost` **2.3.2 → 3.0.0** (MAJOR) — section(s) removed: Fuel Pricing to Crude Cost
+- `pli-medical-devices-coverage-and-gaps` **3.3.2 → 4.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `indias-medical-device-trade-gap-and` **2.3.2 → 3.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `jai-kisan-jai-javan-fci-based-military` **3.1.2 → 4.0.0** (MAJOR) — section(s) removed: Jai Kisan, Jai Javan — An FCI-Based Military Ration Strategy
+- `annadata-to-urjadata-farmer-income-case` **3.2.2 → 4.0.0** (MAJOR) — section(s) removed: Annadata to Urjadata: The Farmer-Income Case for Ethanol Blending — and the Oversupply It Must Now Solve
+- `if-india-paid-brics-in-rupees-scenario` **2.2.2 → 3.0.0** (MAJOR) — figures changed (+0/-1 distinct numbers)
+- `lok-sabha-question-registry-1843-scheme` **3.2.2 → 4.0.0** (MAJOR) — figures changed (+1/-0 distinct numbers)
+- `quarterly-reportage-4034-scheme` **3.0.2 → 4.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `indian-it-in-ai-era` **2.2.2 → 3.0.0** (MAJOR) — section(s) removed: Indian IT in an AI Era
+- `securitising-deficit-what-it-would` **5.1.2 → 6.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `raising-green-debt-globally-rec-euroyen` **6.1.2 → 7.0.0** (MAJOR) — section(s) removed: Raising Green Debt Globally: The REC EuroYen Playbook, the CBI Stamp, and Every Avenue an Indian Issuer Actually Has
+- `half-of-indias-import-bill-is` **2.3.2 → 3.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `re-spinning-charkha` **3.0.1 → 4.0.0** (MAJOR) — section(s) removed: Re-Spinning the Charkha
+- `annexure-314-hsn-codes-mapped-to` **2.0.6 → 3.0.0** (MAJOR) — section(s) removed: Annexure: 314 HSN Codes Mapped to Technical-Textile Segments
+- `from-fuel-to-fibre-indias-textile` **4.0.1 → 5.0.0** (MAJOR) — section(s) removed: From Fuel to Fibre: India's Textile Import-Substitution Loop
+- `greenhouse-emissions-reduction-and-cbam` **4.1.2 → 5.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `indias-carbon-credit-market-domestic` **4.1.2 → 5.0.0** (MAJOR) — section(s) removed: India's Carbon Credit Market: Domestic Compliance Meets International Article 6.2
+- `bio-fertiliser-and-green-credits` **6.1.2 → 7.0.0** (MAJOR) — section(s) removed: Bio-Fertiliser and Green Credits: Regrowing India's Arid Land
+- `nature-versus-nurture-indias-fertiliser` **5.1.3 → 6.0.0** (MAJOR) — section(s) removed: Nature Versus Nurture: India's Fertiliser-Fed Food Security
+- `announced-vs-delivered-three-indian` **4.4.2 → 5.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `state-by-state-who-actually-earns-from` **3.3.2 → 4.0.0** (MAJOR) — figures changed (+1/-0 distinct numbers)
+- `indias-ev-market-single-digit` **4.0.2 → 5.0.0** (MAJOR) — section(s) removed: India's EVs Reached 12% of Vehicle Sales in April&ndash;September. Electric Cars Are Still in Single Digits
+- `cpi-inflation-heatmap-india-june-2026` **4.0.2 → 5.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `import-dependent-sectors-vs-government` **3.2.2 → 4.0.0** (MAJOR) — figures changed (+1/-0 distinct numbers)
+- `effective-buying-power-china-comparison` **2.2.2 → 3.0.0** (MAJOR) — section(s) removed: How much of the rupee's fall is real, and is this what China was accused of?
+- `priority-trade-partners-by-import` **3.2.2 → 4.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `indias-trade-balance-hsn-wise` **3.2.2 → 4.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `five-year-synthesis-trade-currency` **3.1.2 → 4.0.0** (MAJOR) — figures changed (+1/-0 distinct numbers)
+- `imported-fertiliser-fuel-prices-diesel` **5.0.2 → 6.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `priority-export-destinations-by-growth` **3.4.2 → 4.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `real-gdp-growth-india-fy2012-13-to` **4.1.2 → 5.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `rbi-foreign-exchange-reserves-20152026` **4.3.2 → 5.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `discom-debt-relief-token-charge` **3.2.2 → 4.0.0** (MAJOR) — section(s) removed: ⚡ DISCOM Debt Relief — Token Charge Calculator
+- `iem-conversion-historical-performance` **3.0.1 → 4.0.0** (MAJOR) — section(s) removed: IEM Conversion — A Historical Performance Review (2017&ndash;2025)
+- `ipa-digital-twin-reportage-latest` **4.0.2 → 5.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `fci-storage-scenario-capacity-stock-and` **3.3.2 → 4.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `india-grain-cultivation-fci-storage` **2.2.2 → 3.0.0** (MAJOR) — section(s) removed: India — where the grain, the storage, and the farmers are
+- `fci-grain-flow-procurement-storage` **3.2.2 → 4.0.0** (MAJOR) — section(s) removed: FCI Grain Flow — Procurement · Storage · Disposal
+- `ai-high-demand-launch-tracker` **5.0.2 → 6.0.0** (MAJOR) — figures changed (+1/-0 distinct numbers)
+- `india-mineral-oil-hsn-ch27-trade` **3.3.2 → 4.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `textile-hsn-deep-dive-apparel-vs-mmf` **1.2.2 → 2.0.0** (MAJOR) — section(s) removed: Textile HSN Deep-Dive — Apparel vs MMF Fibre Trade Scenarios
+- `indias-textile-import-export-strategy` **4.3.2 → 5.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `ethanol-blending-omc-books-e20-today-vs` **2.2.2 → 3.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `indias-petrochemical-import-tree-from` **1.1.2 → 2.0.0** (MAJOR) — section(s) removed: From petrol to product — India's petrochemical import tree
+- `india-forest-wildlife-crz-clearances` **1.0.1 → 2.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `india-ec-approval-funnel-parivesh-20` **1.0.1 → 2.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `india-trade-sector-policy` **2.1.2 → 3.0.0** (MAJOR) — section(s) removed: India Trade — Sector &amp; Policy Recommendations
+
+**Changed**
+
+- `indias-spare-crop-residue-could-make-57` — 112,110 → 112,033 bytes (-77)
+- `eight-open-source-tools-for-indias` — 37,681 → 37,618 bytes (-63)
+- `nine-open-source-tools-for-sizing-and` — 36,143 → 36,102 bytes (-41)
+- `seven-open-source-tools-for-stock` — 33,994 → 33,961 bytes (-33)
+- `eight-open-source-tools-for-tracking` — 38,034 → 37,983 bytes (-51)
+- `seven-open-source-tools-for-indias-fuel` — 34,708 → 34,639 bytes (-69)
+- `five-open-source-control-simulators-for` — 29,094 → 29,058 bytes (-36)
+- `indias-top-law-firms-have-signed-up-for` — 36,167 → 36,119 bytes (-48)
+- `india-has-50-lakh-stray-cattle-and-371` — 34,307 → 34,285 bytes (-22)
+- `ai-tools-edition-04-deepseek-put-its` — 64,475 → 64,456 bytes (-19)
+- `14500-crore-for-92-gwh-indias-storage` — 27,726 → 27,659 bytes (-67)
+- `idbi-banks-rescuers-put-in-54000-crore` — 26,315 → 26,237 bytes (-78)
+- `from-kerosene-in-diesel-to-ethanol-in` — 43,702 → 43,699 bytes (-3)
+- `panchayats-raise-barely-two-rupees-in` — 26,387 → 26,354 bytes (-33)
+- `doubling-indias-csr-profit-trigger` — 28,255 → 28,241 bytes (-14)
+- `a-record-maize-crop-will-not-make-india` — 32,469 → 32,408 bytes (-61)
+- `oil-gas-projects-under-evaluation-and` — 22,754 → 22,734 bytes (-20)
+- `how-to-use-process-safety-design` — 79,562 → 79,639 bytes (+77)
+- `a-free-cell-game-fits-indias-new-class` — 29,441 → 29,389 bytes (-52)
+- `india-doesnt-need-blockchain-to-pay-its` — 34,162 → 34,140 bytes (-22)
+- `e20-and-spark-plug-what-ethanol-does-to` — 29,968 → 29,947 bytes (-21)
+- `states-can-draw-rs-61008-crore-of-short` — 25,213 → 25,147 bytes (-66)
+- `indias-new-securities-code-gives-sebi` — 26,395 → 26,378 bytes (-17)
+- `defence-exports-rose-63-to-rs-38424` — 26,767 → 26,695 bytes (-72)
+- `how-to-use-five-open-toolkits-finance` — 26,584 → 26,581 bytes (-3)
+- `rice-and-maize-became-ethanol` — 31,202 → 31,183 bytes (-19)
+- `india-has-funded-3-lakh-machines-to` — 38,893 → 38,878 bytes (-15)
+- `most-of-what-indians-pay-for-health-is` — 23,234 → 23,214 bytes (-20)
+- `india-capped-margins-on-137-cancer` — 29,542 → 29,508 bytes (-34)
+- `states-won-right-to-tax-mines-in-2024` — 30,961 → 30,929 bytes (-32)
+- `a-kilo-of-crude-fish-oil-sells-for` — 30,877 → 30,827 bytes (-50)
+- `india-dropped-last-approvals-on-its` — 26,273 → 26,250 bytes (-23)
+- `india-wants-15-of-its-energy-from-gas` — 30,250 → 30,220 bytes (-30)
+- `earnings-drift-and-piotroski-work-only` — 32,613 → 32,624 bytes (+11)
+- `seven-states-plan-to-borrow-above-new-3` — 29,584 → 29,567 bytes (-17)
+- `andhra-pradesh-has-approved-rs-14-lakh` — 28,022 → 27,971 bytes (-51)
+- `indias-fertiliser-sales-fell-where` — 26,072 → 26,032 bytes (-40)
+- `gems-purchases-stopped-growing-in-2025` — 24,196 → 24,166 bytes (-30)
+- `india-wants-emergency-braking-in-every` — 24,778 → 24,758 bytes (-20)
+- `india-has-approved-12-chip-plants-and` — 24,362 → 24,337 bytes (-25)
+- `gobardhan-aims-for-12-times-todays` — 22,951 → 22,921 bytes (-30)
+- `samudra-manthan-pays-up-to-rs-675-crore` — 24,522 → 24,491 bytes (-31)
+- `indias-crude-basket-now-counts-russian` — 26,569 → 26,524 bytes (-45)
+- `india-raised-dap-subsidy-18-this-kharif` — 23,077 → 23,042 bytes (-35)
+- `india-has-legalised-e100-for-flex-fuel` — 26,916 → 26,902 bytes (-14)
+- `indias-rs-3030-crore-chemical-parks` — 28,330 → 28,297 bytes (-33)
+- `indias-draft-steel-policy-plans-604-mt` — 29,823 → 29,790 bytes (-33)
+- `india-got-record-945-billion-of-fdi` — 28,195 → 28,161 bytes (-34)
+- `half-of-php-websites-run-version-nobody` — 27,612 → 27,587 bytes (-25)
+- `closed-loop-or-open-loop-how-indias-new` — 34,019 → 34,005 bytes (-14)
+- `half-of-udans-closed-routes-shut-while` — 25,401 → 25,375 bytes (-26)
+- `rural-job-guarantee-pay-rose-96-in-july` — 27,644 → 27,640 bytes (-4)
+- `india-will-spend-rs-33660-crore-on` — 29,894 → 29,865 bytes (-29)
+- `indias-constitution-set-deadline` — 25,751 → 25,774 bytes (+23)
+- `a-hectare-under-power-line-now-pays` — 30,117 → 30,109 bytes (-8)
+- `indias-approved-solar-cell-makers-can` — 27,981 → 27,955 bytes (-26)
+- `india-ordered-112-captive-coal-plants` — 27,462 → 27,417 bytes (-45)
+- `indias-winter-harvest-now-outgrows-its` — 57,831 → 57,766 bytes (-65)
+- `sixteen-crops-twenty-years-where-indias` — 138,434 → 138,394 bytes (-40)
+- `indias-farm-map-in-seven-charts-maize` — 359,077 → 359,044 bytes (-33)
+- `indias-biggest-mandi-crops-have` — 71,068 → 71,038 bytes (-30)
+- `maize-is-cheapest-in-different-state` — 251,863 → 251,875 bytes (+12)
+- `ethanol-plants-that-trade-maize-to` — 37,081 → 37,062 bytes (-19)
+- `europe-wants-green-steel-it-cant-afford` — 47,226 → 47,207 bytes (-19)
+- `india-has-27400-km-of-gas-pipeline` — 75,902 → 75,863 bytes (-39)
+- `indias-cheapest-lng-capacity-is-extra` — 51,649 → 51,628 bytes (-21)
+- `india-imports-whey-protein-its-cheese` — 38,654 → 38,612 bytes (-42)
+- `indias-2026-27-ethanol-tender-drops` — 37,045 → 36,995 bytes (-50)
+- `how-to-use-kalkiflooding-125-years-of` — 21,347 → 21,339 bytes (-8)
+- `how-to-use-cricket-data-analysis-score` — 23,951 → 23,943 bytes (-8)
+- `how-to-use-amazon-product-selector` — 22,635 → 22,612 bytes (-23)
+- `ai-is-not-taking-indias-offshore-work` — 58,653 → 58,609 bytes (-44)
+- `india-tracks-every-taxpayer-in-minutes` — 53,649 → 53,604 bytes (-45)
+- `petrol-pump-margins-and-e20-one-dealer` — 53,275 → 53,200 bytes (-75)
+- `biogas-is-priority-sector-loan-43` — 36,183 → 36,137 bytes (-46)
+- `methionine-not-lysine-is-indias-biggest` — 29,753 → 29,688 bytes (-65)
+- `indias-lysine-deficit-is-102-million` — 31,022 → 30,937 bytes (-85)
+- `india-imported-28-million-of-sucralose` — 33,361 → 33,296 bytes (-65)
+- `bagasse-is-one-crop-residue-already` — 32,876 → 32,810 bytes (-66)
+- `indias-fdi-moved-to-software-and` — 45,538 → 45,478 bytes (-60)
+- `indias-first-tourism-survey-since-2014` — 21,712 → 21,618 bytes (-94)
+- `india-and-mercosur-are-expanding-450` — 25,142 → 25,070 bytes (-72)
+- `indias-reported-central-project-overrun` — 24,340 → 24,276 bytes (-64)
+- `india-imported-295-more-steel-this-year` — 28,989 → 28,954 bytes (-35)
+- `india-has-auctioned-141-commercial-coal` — 23,664 → 23,656 bytes (-8)
+- `epfos-pay-ceiling-rose-to-25000-after` — 23,194 → 23,154 bytes (-40)
+- `new-zealand-opens-every-tariff-line-to` — 22,279 → 22,221 bytes (-58)
+- `india-raised-cooking-oil-duties-to-help` — 26,809 → 26,774 bytes (-35)
+- `indias-first-seabed-mineral-auction` — 24,874 → 24,850 bytes (-24)
+- `green-energy-corridor-iii-is-15-times` — 23,096 → 23,095 bytes (-1)
+- `indias-military-quantum-plan-has-four` — 25,820 → 25,804 bytes (-16)
+- `indias-old-factory-index-said` — 26,643 → 26,625 bytes (-18)
+- `indias-petroleum-act-still-fines` — 20,236 → 20,209 bytes (-27)
+- `indias-factory-intentions-20012024-how_0101046393` — 37,183 → 37,180 bytes (-3)
+- `cough-syrup-in-lollipop-for-babies` — 30,861 → 30,853 bytes (-8)
+- `indias-ethanol-surplus-buys-about-five` — 62,415 → 62,400 bytes (-15)
+- `indias-biofuel-rules-are-being-written` — 24,753 → 24,717 bytes (-36)
+- `refiners-won-exemption-fight-biofuels` — 27,680 → 27,645 bytes (-35)
+- `abu-dhabi-paid-2-billion-for-binance` — 30,953 → 30,930 bytes (-23)
+- `indias-new-car-rules-count-every-ev-as` — 34,973 → 34,926 bytes (-47)
+- `making-plastic-releases-heat-unmaking` — 58,627 → 58,591 bytes (-36)
+- `cotton-stalk-is-one-of-hardest-crop` — 51,872 → 51,828 bytes (-44)
+- `every-litre-of-petrol-pays-5-for-roads` — 39,834 → 39,791 bytes (-43)
+- `india-sells-world-about-third-of-its` — 26,643 → 26,609 bytes (-34)
+- `india-polishes-worlds-diamonds-with` — 28,189 → 28,167 bytes (-22)
+- `cocoa-quintupled-then-gave-most-of-it` — 34,440 → 34,427 bytes (-13)
+- `one-nation-one-gst-rate-what-true-flat` — 30,474 → 30,460 bytes (-14)
+- `india-pays-5-8-billion-year-to-ship-its` — 23,750 → 23,730 bytes (-20)
+- `indias-live-ipo-queue-has-232-companies` — 21,718 → 21,694 bytes (-24)
+- `indias-ethanol-plants-are-sitting-on` — 25,717 → 25,666 bytes (-51)
+- `gail-and-sumitomo-both-turned-their` — 20,493 → 20,465 bytes (-28)
+- `indias-display-fab-scheme-got-two` — 26,909 → 26,850 bytes (-59)
+- `india-mapped-12174-tariff-codes-to-31` — 23,969 → 23,943 bytes (-26)
+- `india-let-oil-companies-put-solar-on` — 32,193 → 32,128 bytes (-65)
+- `india-leads-world-in-jute-and-ranks` — 29,647 → 29,632 bytes (-15)
+- `india-imports-60-of-its-cooking-gas` — 30,264 → 30,219 bytes (-45)
+- `indias-cotton-yield-fell-from-566-kg-to` — 39,076 → 39,019 bytes (-57)
+- `indias-irrigation-system-recovered-96` — 24,684 → 24,667 bytes (-17)
+- `india-doesnt-have-one-quality-regulator` — 33,457 → 33,417 bytes (-40)
+- `shippings-net-zero-vote-keeps-getting` — 26,794 → 26,786 bytes (-8)
+- `kpler-and-vortexa-track-every-barrel` — 40,326 → 40,299 bytes (-27)
+- `india-has-132-compressed-biogas-plants` — 28,154 → 28,121 bytes (-33)
+- `pngrb-graded-its-own-homework-on-2025` — 19,999 → 19,984 bytes (-15)
+- `nobody-blockaded-hormuz-to-slow-india` — 33,508 → 33,475 bytes (-33)
+- `mopsws-25000-crore-maritime-development` — 29,066 → 29,045 bytes (-21)
+- `india-wants-isobutanol-in-both-diesel` — 29,893 → 29,881 bytes (-12)
+- `india-has-tested-its-soil-twice-second` — 14,771 → 14,773 bytes (+2)
+- `pmfby-advertises-51-return-to-farmers` — 16,206 → 16,168 bytes (-38)
+- `indias-oil-fields-are-running-down` — 22,053 → 21,994 bytes (-59)
+- `e20-doesnt-cut-tailpipe-co2-by-30-run` — 25,575 → 25,528 bytes (-47)
+- `india-built-offshore-insurance-hub-it` — 19,203 → 19,201 bytes (-2)
+- `india-irrigates-itself-966-of-its` — 18,985 → 18,992 bytes (+7)
+- `rural-indias-farm-employment-share` — 22,198 → 22,149 bytes (-49)
+- `do-cbse-past-papers-actually-help` — 29,217 → 29,211 bytes (-6)
+- `577-of-indias-plant-variety` — 21,796 → 21,767 bytes (-29)
+- `abha-covers-93-crore-patients-its` — 28,742 → 28,698 bytes (-44)
+- `india-exports-naphtha-and-benzene-its` — 26,810 → 26,783 bytes (-27)
+- `jan-aushadhi-sells-2439-products-heres` — 28,184 → 28,166 bytes (-18)
+- `sun-pharmas-1175bn-organon-bet-is` — 23,178 → 23,177 bytes (-1)
+- `indias-60000-crore-api-push-traced-to` — 27,147 → 27,151 bytes (+4)
+- `indias-semaglutide-patent-cliff-26` — 24,249 → 24,230 bytes (-19)
+- `dr-reddys-cut-its-semaglutide-guidance` — 22,949 → 22,941 bytes (-8)
+- `ethanol-freed-up-refinery-capacity-for` — 50,351 → 50,326 bytes (-25)
+- `indias-labour-codes-took-six-years-to` — 23,629 → 23,596 bytes (-33)
+- `five-years-and-25000-crore-later-china` — 38,528 → 38,497 bytes (-31)
+- `india-rewrote-its-entire-maritime-legal` — 22,883 → 22,866 bytes (-17)
+- `india-ended-63-years-of-state-nuclear` — 29,180 → 29,141 bytes (-39)
+- `indias-12385-project-investment-grid` — 21,071 → 21,050 bytes (-21)
+- `a-2223-crore-coal-freight-railway-line` — 20,981 → 20,969 bytes (-12)
+- `a-textile-sez-built-to-re-employ-mill` — 20,237 → 20,233 bytes (-4)
+- `indias-e-commerce-inventory-ban-just` — 24,587 → 24,573 bytes (-14)
+- `indias-ev-localisation-deadline-just` — 30,420 → 30,404 bytes (-16)
+- `a-supreme-court-ruling-on-intoxicating` — 24,344 → 24,332 bytes (-12)
+- `engineering-and-auto-component-makers` — 25,248 → 25,218 bytes (-30)
+- `indias-ethanol-sector-already-had-its` — 24,987 → 24,961 bytes (-26)
+- `global-lng-trade-hit-record-437-million` — 19,586 → 19,562 bytes (-24)
+- `electrification-is-lngs-biggest` — 32,611 → 32,598 bytes (-13)
+- `delhis-smog-towers-failed-test-44-year` — 43,937 → 43,938 bytes (+1)
+- `indias-battery-storage-boom-is` — 51,684 → 51,681 bytes (-3)
+- `alimco-jaipur-foot-and-bionic-gap-in` — 36,881 → 36,884 bytes (+3)
+- `endoscopes-never-made-indias-pli-list` — 27,557 → 27,544 bytes (-13)
+- `indias-draft-seeds-bill-cuts-states` — 28,278 → 28,230 bytes (-48)
+- `fourteen-states-reimburse-investors` — 35,511 → 35,493 bytes (-18)
+- `a-2013-vision-saw-india-needing-746` — 29,101 → 29,091 bytes (-10)
+- `pngrb-wants-prepaid-smart-meters-on` — 28,112 → 28,094 bytes (-18)
+- `pngrbs-own-committee-found-pipelines` — 32,617 → 32,607 bytes (-10)
+- `mapping-indias-other-pipelines-every` — 27,552 → 27,537 bytes (-15)
+- `india-is-piping-jet-fuel-to-five-new` — 37,434 → 37,429 bytes (-5)
+- `indias-gas-pipelines-run-at-half` — 38,728 → 38,719 bytes (-9)
+- `right-of-user-what-indias-pipeline` — 53,713 → 53,712 bytes (-1)
+- `one-nation-one-ration-card-doesnt-move` — 63,602 → 63,598 bytes (-4)
+- `interpreting-gazette-notification` — 44,576 → 44,616 bytes (+40)
+- `textbooks-say-project-returns-converge` — 31,772 → 31,720 bytes (-52)
+- `icra-rates-most-of-indias-economy` — 41,828 → 41,823 bytes (-5)
+- `everyone-worries-about-who-pays-for` — 46,524 → 46,511 bytes (-13)
+- `dgh-has-awarded-172-oalp-blocks-and-436_0369361351` — 54,179 → 54,168 bytes (-11)
+- `fipis-biggest-ask-is-getting-natural` — 41,343 → 41,333 bytes (-10)
+- `pngrb-hydrogen-blending-pilots-real` — 37,036 → 37,039 bytes (+3)
+- `indias-oil-psus-say-they-clear-their_01269248608` — 40,965 → 40,936 bytes (-29)
+- `india-solved-carbon-credit-banking-with` — 36,780 → 36,771 bytes (-9)
+- `lng-trucks-cost-about-what-diesel-does` — 37,269 → 37,239 bytes (-30)
+- `indias-lng-terminal-rules-changed-twice` — 32,917 → 32,892 bytes (-25)
+- `oisd-writes-indias-oil-safety-rules-api` — 37,688 → 37,659 bytes (-29)
+- `brazil-pumps-e30-at-every-station` — 42,785 → 42,777 bytes (-8)
+- `the-4-nobody-notices-and-three-other` — 43,022 → 43,020 bytes (-2)
+- `the-1920s-rotor-thats-now-on-22-real` — 42,799 → 42,785 bytes (-14)
+- `brandsafway-and-2017-roll-up-wave-that` — 26,650 → 26,636 bytes (-14)
+- `a-million-wine-market-behind-150-wall` — 36,990 → 36,991 bytes (+1)
+- `tasmacs-retail-exit-case-for` — 30,807 → 30,807 bytes (+0)
+- `nine-ministries-one-list-every-company` — 73,435 → 73,427 bytes (-8)
+- `indias-mobile-phone-pli-beat-every` — 26,134 → 26,112 bytes (-22)
+- `indias-6000-crore-fisheries-scheme` — 29,043 → 29,010 bytes (-33)
+- `amruts-197-lakh-crore-urban-portfolio` — 28,892 → 28,882 bytes (-10)
+- `indias-79-lakh-crore-rural-water` — 28,435 → 28,413 bytes (-22)
+- `sugarcanes-third-claimant-whats` — 38,252 → 38,231 bytes (-21)
+- `how-india-actually-plans-to-hit-net` — 41,942 → 41,890 bytes (-52)
+- `indias-coal-to-chemicals-menu-ranked-by` — 68,036 → 68,023 bytes (-13)
+- `india-will-finance-waste-to-energy` — 42,039 → 42,043 bytes (+4)
+- `india-exports-worlds-coco-peat-its-own` — 50,269 → 50,261 bytes (-8)
+- `oilfield-costs-rose-68-while-global` — 36,421 → 36,389 bytes (-32)
+- `interest-subvention-built-499-ethanol` — 40,508 → 40,494 bytes (-14)
+- `tamil-nadus-water-infrastructure-runs` — 30,832 → 30,791 bytes (-41)
+- `india-approved-15-lakh-crore-in` — 42,928 → 42,874 bytes (-54)
+- `indias-445-billion-spice-export-book-is` — 35,888 → 35,868 bytes (-20)
+- `indias-coffee-crop-hasnt-grown-in` — 34,773 → 34,767 bytes (-6)
+- `india-grows-most-coconuts-in-world-and` — 32,881 → 32,903 bytes (+22)
+- `indias-renewable-energy-certificates` — 41,715 → 41,669 bytes (-46)
+- `every-india-europe-tech-agreement-pib` — 36,234 → 36,243 bytes (+9)
+- `foreign-capital-found-indias-hospitals` — 37,297 → 37,283 bytes (-14)
+- `india-cannot-sell-china-free-medicine` — 39,788 → 39,772 bytes (-16)
+- `indias-8-digit-trade-book-searchable` — 34,582 → 34,610 bytes (+28)
+- `japan-ran-out-of-matcha-assam-just-sold` — 36,599 → 36,610 bytes (+11)
+- `indias-shrimp-exports-did-not-collapse` — 34,545 → 34,558 bytes (+13)
+- `nano-urea-works-as-supplement-and-fails` — 29,774 → 29,771 bytes (-3)
+- `india-hit-e20-on-maize-and-rice-not` — 26,865 → 26,896 bytes (+31)
+- `5071-items-you-cannot-import-and-rs` — 42,536 → 42,517 bytes (-19)
+- `premium-now-claim-later-float-indias` — 66,701 → 66,711 bytes (+10)
+- `a-17-rural-pay-rise-that-nobody-received` — 42,055 → 42,085 bytes (+30)
+- `379-kilos-hectare-in-punjab-44-in` — 69,360 → 69,348 bytes (-12)
+- `india-imports-283000-tonnes-of-almonds` — 36,389 → 36,384 bytes (-5)
+- `7186-litre-why-maize-is-indias-priciest` — 41,779 → 41,753 bytes (-26)
+- `sugar-at-5570-kilo-why-cane-acreage` — 34,089 → 34,067 bytes (-22)
+- `574-gw-and-counting-indias-wind-fleet` — 29,933 → 29,913 bytes (-20)
+- `028-unit-diesel-math-behind-indias-data` — 38,929 → 38,905 bytes (-24)
+- `refineries-under-fire-how-two-wars` — 43,376 → 43,316 bytes (-60)
+- `ten-cubic-metres-hour-indias-first` — 38,902 → 38,888 bytes (-14)
+- `inside-refinery-how-hydrogen-cleans` — 39,500 → 39,483 bytes (-17)
+- `indian-railways-98-to-earn-100-business` — 31,745 → 31,715 bytes (-30)
+- `biomass-power-at-night-dispatchable` — 35,603 → 35,598 bytes (-5)
+- `blending-on-budget-energy-density-and` — 44,399 → 44,392 bytes (-7)
+- `global-biofuels-m-bankruptcy-bolt-on` — 29,531 → 29,524 bytes (-7)
+- `lemon-cultivation-in-india-steady-trees` — 28,231 → 28,246 bytes (+15)
+- `green-gold-what-spirulina-actually-is` — 36,994 → 37,014 bytes (+20)
+- `not-drop-out-ethanols-zero-liquid` — 48,454 → 48,439 bytes (-15)
+- `ethanols-coal-boilers-briquette-gap-and` — 39,213 → 39,210 bytes (-3)
+- `scan-bottle-deliver-what-ppacs-numbers` — 29,070 → 29,043 bytes (-27)
+- `guar-gum-indias-35-billion-export-peak` — 31,674 → 31,646 bytes (-28)
+- `basf-and-mitsubishi-are-running` — 25,931 → 25,979 bytes (+48)
+- `pet-recycling-already-cuts-emissions-60` — 27,749 → 27,727 bytes (-22)
+- `tarpaulin-is-genuine-export-win` — 22,376 → 22,368 bytes (-8)
+- `airbags-and-seat-belts-are-import-heavy` — 34,536 → 34,514 bytes (-22)
+- `india-grows-soybean-exports-meal-leads` — 43,379 → 43,363 bytes (-16)
+- `how-indias-automotive-clusters-rewired` — 29,100 → 29,102 bytes (+2)
+- `fbil-rates-vs-tradestat-volumes-does-fx` — 22,705 → 22,696 bytes (-9)
+- `tamil-nadus-wind-potential-according-to` — 31,378 → 31,359 bytes (-19)
+- `financing-fuel-to-chemicals-pivot-how` — 29,299 → 29,260 bytes (-39)
+- `can-rupee-trade-actually-offset` — 35,740 → 35,755 bytes (+15)
+- `indias-coking-coal-import-problem-and` — 52,112 → 52,066 bytes (-46)
+- `rin-red-and-cbio-what-indias-ethanol` — 44,000 → 43,977 bytes (-23)
+- `one-gallon-five-numbers-how-gcam-fits` — 31,887 → 31,855 bytes (-32)
+- `price-is-wire-how-gcam-actually-links` — 44,161 → 44,134 bytes (-27)
+- `from-barrel-to-bottle-petrochemical` — 34,509 → 34,507 bytes (-2)
+- `fuel-and-bottle-two-taxes-states-never` — 32,813 → 32,834 bytes (+21)
+- `tamil-nadus-gst-gap-108-economy-growing` — 30,433 → 30,436 bytes (+3)
+- `indias-two-tracks-of-health-cover-and` — 29,042 → 29,058 bytes (+16)
+- `abha-what-indias-14-digit-health-id` — 31,736 → 31,748 bytes (+12)
+- `mrs-watanabe-traded-from-kitchen-table` — 31,130 → 31,119 bytes (-11)
+- `do-cheap-stocks-stay-cheap-price-band` — 95,949 → 95,940 bytes (-9)
+- `050-is-its-own-category-diving-into` — 31,752 → 31,758 bytes (+6)
+- `a-slice-of-apple-costs-about-1700-slice` — 58,152 → 58,114 bytes (-38)
+- `indias-lock-imports-hit-19784-million` — 27,450 → 27,419 bytes (-31)
+- `indias-used-oil-epr-wants-half-of-all` — 34,984 → 34,950 bytes (-34)
+- `ahidf-has-sanctioned-19751-crore-in` — 27,428 → 27,398 bytes (-30)
+- `thali-investing-whats-actually-on-plate` — 34,601 → 34,597 bytes (-4)
+- `india-has-tax-treaties-with-97` — 32,381 → 32,378 bytes (-3)
+- `cow-dung-already-flew-rocket-engine` — 41,514 → 41,502 bytes (-12)
+- `one-refinery-flipped-nigeria-from` — 41,337 → 41,330 bytes (-7)
+- `indias-epr-regime-just-got-teeth-and` — 30,269 → 30,245 bytes (-24)
+- `indias-trade-story-has-three-big-wins` — 28,373 → 28,383 bytes (+10)
+- `indias-fertiliser-import-bill-hits-18` — 30,431 → 30,417 bytes (-14)
+- `indias-food-processing-story-pli-scheme` — 28,029 → 27,995 bytes (-34)
+- `cocoas-blockchain-reckoning-one` — 29,238 → 29,191 bytes (-47)
+- `from-cane-to-code-digital-layer` — 31,626 → 31,635 bytes (+9)
+- `lpgs-missing-number-7308-commission-and` — 33,092 → 33,073 bytes (-19)
+- `cheap-yen-rupee-roads-where-carry-trade` — 28,900 → 28,914 bytes (+14)
+- `city-gas-just-became-indias-largest-gas` — 30,604 → 30,621 bytes (+17)
+- `south-africa-lost-its-gulf-fuel-supply` — 33,195 → 33,210 bytes (+15)
+- `india-sells-world-53-billion-of-fuel` — 36,397 → 36,400 bytes (+3)
+- `europe-bought-record-amount-of-lng-and` — 47,144 → 47,139 bytes (-5)
+- `petroleum-trade-pairings-and-us-crude` — 154,853 → 154,876 bytes (+23)
+- `inflation-trends-globally-what-five` — 61,959 → 61,980 bytes (+21)
+- `indias-wholesale-prices-next-to` — 44,998 → 45,019 bytes (+21)
+- `reinvesting-capital-gains-in-higher` — 32,095 → 32,102 bytes (+7)
+- `diesel-doesnt-move-cpi-it-moves-40` — 42,486 → 42,512 bytes (+26)
+- `chemical-import-substitution-hsn-8-registry` — 399,551 → 399,576 bytes (+25)
+- `indias-oil-fields-are-running-down-3696` — 26,174 → 26,129 bytes (-45)
+- `rooftop-solar-is-working-household` — 21,780 → 21,752 bytes (-28)
+- `europes-export-credit-agencies-are` — 28,861 → 28,839 bytes (-22)
+- `fuel-pricing-to-crude-cost` — 90,113 → 90,164 bytes (+51)
+- `pli-medical-devices-coverage-and-gaps` — 27,993 → 27,991 bytes (-2)
+- `indias-medical-device-trade-gap-and` — 30,585 → 30,596 bytes (+11)
+- `jai-kisan-jai-javan-fci-based-military` — 23,941 → 23,965 bytes (+24)
+- `annadata-to-urjadata-farmer-income-case` — 46,663 → 46,637 bytes (-26)
+- `if-india-paid-brics-in-rupees-scenario` — 40,635 → 40,635 bytes (+0)
+- `lok-sabha-question-registry-1843-scheme` — 396,984 → 397,035 bytes (+51)
+- `quarterly-reportage-4034-scheme` — 562,711 → 562,762 bytes (+51)
+- `indian-it-in-ai-era` — 44,786 → 44,824 bytes (+38)
+- `securitising-deficit-what-it-would` — 136,677 → 136,609 bytes (-68)
+- `raising-green-debt-globally-rec-euroyen` — 83,043 → 83,005 bytes (-38)
+- `half-of-indias-import-bill-is` — 29,868 → 29,846 bytes (-22)
+- `re-spinning-charkha` — 33,485 → 33,542 bytes (+57)
+- `annexure-314-hsn-codes-mapped-to` — 46,767 → 46,767 bytes (+0)
+- `from-fuel-to-fibre-indias-textile` — 41,683 → 41,697 bytes (+14)
+- `greenhouse-emissions-reduction-and-cbam` — 34,869 → 34,871 bytes (+2)
+- `indias-carbon-credit-market-domestic` — 37,771 → 37,766 bytes (-5)
+- `bio-fertiliser-and-green-credits` — 53,287 → 53,302 bytes (+15)
+- `nature-versus-nurture-indias-fertiliser` — 88,822 → 88,842 bytes (+20)
+- `announced-vs-delivered-three-indian` — 58,164 → 58,155 bytes (-9)
+- `state-by-state-who-actually-earns-from` — 59,966 → 59,992 bytes (+26)
+- `indias-ev-market-single-digit` — 46,594 → 46,562 bytes (-32)
+- `cpi-inflation-heatmap-india-june-2026` — 84,414 → 84,457 bytes (+43)
+- `import-dependent-sectors-vs-government` — 32,121 → 32,076 bytes (-45)
+- `effective-buying-power-china-comparison` — 42,797 → 42,802 bytes (+5)
+- `priority-trade-partners-by-import` — 48,446 → 48,340 bytes (-106)
+- `indias-trade-balance-hsn-wise` — 66,186 → 66,229 bytes (+43)
+- `five-year-synthesis-trade-currency` — 52,769 → 52,713 bytes (-56)
+- `imported-fertiliser-fuel-prices-diesel` — 37,910 → 37,896 bytes (-14)
+- `priority-export-destinations-by-growth` — 45,618 → 45,574 bytes (-44)
+- `real-gdp-growth-india-fy2012-13-to` — 44,323 → 44,335 bytes (+12)
+- `rbi-foreign-exchange-reserves-20152026` — 58,172 → 58,215 bytes (+43)
+- `discom-debt-relief-token-charge` — 30,490 → 30,518 bytes (+28)
+- `iem-conversion-historical-performance` — 26,236 → 26,244 bytes (+8)
+- `ipa-digital-twin-reportage-latest` — 102,021 → 102,063 bytes (+42)
+- `fci-storage-scenario-capacity-stock-and` — 25,517 → 25,533 bytes (+16)
+- `india-grain-cultivation-fci-storage` — 89,562 → 89,579 bytes (+17)
+- `fci-grain-flow-procurement-storage` — 43,638 → 43,663 bytes (+25)
+- `ai-high-demand-launch-tracker` — 42,227 → 42,192 bytes (-35)
+- `india-mineral-oil-hsn-ch27-trade` — 113,923 → 113,953 bytes (+30)
+- `textile-hsn-deep-dive-apparel-vs-mmf` — 23,259 → 23,279 bytes (+20)
+- `indias-textile-import-export-strategy` — 55,873 → 55,906 bytes (+33)
+- `ethanol-blending-omc-books-e20-today-vs` — 49,061 → 49,098 bytes (+37)
+- `indias-petrochemical-import-tree-from` — 32,993 → 33,018 bytes (+25)
+- `india-forest-wildlife-crz-clearances` — 27,091 → 27,125 bytes (+34)
+- `india-ec-approval-funnel-parivesh-20` — 22,771 → 22,805 bytes (+34)
+- `india-trade-sector-policy` — 21,327 → 21,342 bytes (+15)

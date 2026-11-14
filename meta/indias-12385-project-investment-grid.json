@@ -1,15 +1,15 @@
 {
   "id": "584479844204414921",
-  "title": "India's 12,385-Project Investment Grid Has Two \"Projects\" That Are Actually Just Government Schemes",
+  "title": "India's investment grid: 12,385 projects, the 2 largest are government schemes",
   "url": "https://blog.vertistratsolution.com/2026/09/indias-12385-project-investment-grid.html",
   "slug": "indias-12385-project-investment-grid",
   "published": "2026-09-15T09:44:39.000+05:30",
-  "updated": "2026-11-14T12:58:53.564+05:30",
+  "updated": "2026-11-14T15:34:48.163+05:30",
   "labels": [
     "Industrial Policy"
   ],
-  "bytes": 21071,
-  "sha256": "c9030ebae9d02fadcbdac15e946264467c9ea498956e1b1045eb6af0efe6c96f",
+  "bytes": 21050,
+  "sha256": "eabb301b03888dc6e9748c82a15c152615c4ed79be1ea16ead74eb331ae16ab1",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.2.2",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -119,6 +119,19 @@
       "bytes": [
         21067,
         21071
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "figures changed (+1/-0 distinct numbers)",
+      "bytes": [
+        21071,
+        21050
       ],
       "url_changed": null,
       "markers_changed": null,

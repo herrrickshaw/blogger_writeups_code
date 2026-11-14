@@ -1,17 +1,17 @@
 {
   "id": "2916027213729149958",
-  "title": "Priority Trade Partners by Import-Growth Sector, & Real PLI Coverage",
+  "title": "India's priority trade partners: suppliers in 12 import-growth sectors and PLI coverage",
   "url": "https://blog.vertistratsolution.com/2026/08/priority-trade-partners-by-import.html",
   "slug": "priority-trade-partners-by-import",
   "published": "2026-08-02T14:01:14.000+05:30",
-  "updated": "2026-11-14T13:39:23.689+05:30",
+  "updated": "2026-11-14T15:54:36.665+05:30",
   "labels": [
     "Industrial Policy",
     "PLI Schemes",
     "Trade & Tariffs"
   ],
-  "bytes": 48446,
-  "sha256": "b6200e9da0c5ad3e614f47de5ed291e1b12706dc1f381b9dd3247c7e00ce9d00",
+  "bytes": 48340,
+  "sha256": "daf91dbb4104559eb2baac621ea426b68f40b3a36281b2d8abc6c6f175151801",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.2.2",
+  "version": "4.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -351,6 +351,19 @@
       "bytes": [
         48441,
         48446
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "4.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        48446,
+        48340
       ],
       "url_changed": null,
       "markers_changed": null,

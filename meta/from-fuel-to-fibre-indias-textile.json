@@ -1,17 +1,17 @@
 {
   "id": "8296126162029687965",
-  "title": "From Fuel to Fibre: India's Textile Import-Substitution Loop",
+  "title": "Textile import substitution in India: ethanol blending, fibre and PM MITRA",
   "url": "https://blog.vertistratsolution.com/2026/08/from-fuel-to-fibre-indias-textile.html",
   "slug": "from-fuel-to-fibre-indias-textile",
   "published": "2026-08-03T09:12:32.000+05:30",
-  "updated": "2026-11-14T13:37:09.564+05:30",
+  "updated": "2026-11-14T15:20:40.508+05:30",
   "labels": [
     "Import Substitution",
     "Textiles",
     "Trade & Tariffs"
   ],
-  "bytes": 41683,
-  "sha256": "9be31723143d5c542d7f14f4fe9286b530db8f3e64b6f6bab0e775e2a4faba5d",
+  "bytes": 41697,
+  "sha256": "e800047cb77f48c61482c8d4974df085b316fe5a2ae5153e1b9266061cbdb247",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "4.0.1",
+  "version": "5.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -303,6 +303,19 @@
       "bytes": [
         41677,
         41683
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "5.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "section(s) removed: From Fuel to Fibre: India's Textile Import-Substitution Loop",
+      "bytes": [
+        41683,
+        41697
       ],
       "url_changed": null,
       "markers_changed": null,

@@ -1,18 +1,18 @@
 {
   "id": "5577238356711896476",
-  "title": "India's Coal-to-Chemicals Menu, Ranked by What Actually Clears the Import Price",
+  "title": "India's coal-to-chemicals options: most do not yet beat the import price",
   "url": "https://blog.vertistratsolution.com/2026/08/indias-coal-to-chemicals-menu-ranked-by.html",
   "slug": "indias-coal-to-chemicals-menu-ranked-by",
   "published": "2026-08-27T03:43:38.000+05:30",
-  "updated": "2026-11-14T13:10:20.227+05:30",
+  "updated": "2026-11-14T15:37:06.984+05:30",
   "labels": [
     "Chemicals",
     "Coal & Coal Gasification",
     "Energy & Fuels",
     "Industrial Policy"
   ],
-  "bytes": 68036,
-  "sha256": "5383fe21b2cb15a0eca8cd3e32f582fde6bfb858ee8bca1d01b16305571251a1",
+  "bytes": 68023,
+  "sha256": "bfdc48abf196f9f9bad5d9a6a7c8c2a1a85f59f3a670a64e9180ef7ccac9185c",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.3.2",
+  "version": "3.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -200,6 +200,19 @@
       "bytes": [
         68032,
         68036
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "section(s) removed: India&#8217;s Coal-to-Chemicals Menu, Ranked by What Actually Clears the Import Price",
+      "bytes": [
+        68036,
+        68023
       ],
       "url_changed": null,
       "markers_changed": null,

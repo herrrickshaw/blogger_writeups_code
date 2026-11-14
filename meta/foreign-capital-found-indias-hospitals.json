@@ -1,17 +1,17 @@
 {
   "id": "6962157966390170519",
-  "title": "Foreign Capital Found India's Hospitals — It Is Buying Them, Not Building New Ones",
+  "title": "Foreign capital in India's hospitals: buying existing hospitals, not adding beds",
   "url": "https://blog.vertistratsolution.com/2026/08/foreign-capital-found-indias-hospitals.html",
   "slug": "foreign-capital-found-indias-hospitals",
   "published": "2026-08-23T14:22:31.000+05:30",
-  "updated": "2026-11-14T13:12:49.480+05:30",
+  "updated": "2026-11-14T15:20:01.357+05:30",
   "labels": [
     "Healthcare",
     "India",
     "Infrastructure & Investment"
   ],
-  "bytes": 37297,
-  "sha256": "31836337ee374b73715a15b452483cefebeae9ad8e187f343d7e559111dd16cf",
+  "bytes": 37283,
+  "sha256": "25c6841cde0be733ad32a664ebf3ed0441b27c757811728b79fc90a5c78beca4",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "5.1.2",
+  "version": "6.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -199,6 +199,19 @@
       "bytes": [
         37292,
         37297
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "6.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "section(s) removed: Foreign Capital Found India&rsquo;s Hospitals &mdash; It Is Buying Them, Not Building New Ones",
+      "bytes": [
+        37297,
+        37283
       ],
       "url_changed": null,
       "markers_changed": null,

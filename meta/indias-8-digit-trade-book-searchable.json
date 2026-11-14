@@ -1,18 +1,18 @@
 {
   "id": "3337701442741025664",
-  "title": "India's 8-Digit Trade Book, Searchable",
+  "title": "India's 8-digit trade book: a searchable table and how to read its flags",
   "url": "https://blog.vertistratsolution.com/2026/08/indias-8-digit-trade-book-searchable.html",
   "slug": "indias-8-digit-trade-book-searchable",
   "published": "2026-08-23T07:09:47.000+05:30",
-  "updated": "2026-11-14T13:13:09.330+05:30",
+  "updated": "2026-11-14T15:35:46.263+05:30",
   "labels": [
     "Customs & HSN Trade Data",
     "India Trade & Policy",
     "Markets & Finance",
     "Trade & Tariffs"
   ],
-  "bytes": 34582,
-  "sha256": "ca1e82e3be2185fa0b4a90810649b4da855e6be8265e7046e845dbd03539c9ad",
+  "bytes": 34610,
+  "sha256": "9ca036fd68cdd0570b3100234f4fc9ed584d14730a44b28dc36820605571fdf4",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.1.2",
+  "version": "4.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -148,6 +148,19 @@
       "bytes": [
         34575,
         34582
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "4.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "section(s) removed: India&rsquo;s 8-Digit Trade Book, Searchable",
+      "bytes": [
+        34582,
+        34610
       ],
       "url_changed": null,
       "markers_changed": null,

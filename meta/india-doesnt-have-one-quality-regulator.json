@@ -1,18 +1,18 @@
 {
   "id": "6579645631096942481",
-  "title": "India Doesn't Have One Quality Regulator. It Has 37 — and One Just Repealed Itself Before It Started.",
+  "title": "India's quality regulators: 37 bodies, 1 repealed before it started",
   "url": "https://blog.vertistratsolution.com/2026/09/india-doesnt-have-one-quality-regulator.html",
   "slug": "india-doesnt-have-one-quality-regulator",
   "published": "2026-09-24T11:31:15.000+05:30",
-  "updated": "2026-11-14T12:53:07.224+05:30",
+  "updated": "2026-11-14T15:26:11.499+05:30",
   "labels": [
     "Ease of Doing Business & Regulatory Reform",
     "Industrial Policy",
     "Quality Standards & Certification",
     "Trade & Tariffs"
   ],
-  "bytes": 33457,
-  "sha256": "12ae427270c362e9316f9e6aa89d46e1e9e877946039d10ba45dfeb15bb98249",
+  "bytes": 33417,
+  "sha256": "44c3a2838ba8777d14ed7b120448a626be5beb0369d3e8dde17e4ee6ed733525",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.1",
+  "version": "3.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -83,6 +83,19 @@
       "bytes": [
         33455,
         33457
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        33457,
+        33417
       ],
       "url_changed": null,
       "markers_changed": null,

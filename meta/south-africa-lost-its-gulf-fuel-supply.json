@@ -1,16 +1,16 @@
 {
   "id": "8397471625586235878",
-  "title": "South Africa Lost Its Gulf Fuel Supply. It Turned to America, Not India.",
+  "title": "South Africa's fuel imports: US cargoes replace Gulf supply, India's sales down a third",
   "url": "https://blog.vertistratsolution.com/2026/08/south-africa-lost-its-gulf-fuel-supply.html",
   "slug": "south-africa-lost-its-gulf-fuel-supply",
   "published": "2026-08-08T12:55:40.000+05:30",
-  "updated": "2026-11-14T13:30:06.782+05:30",
+  "updated": "2026-11-14T15:58:45.799+05:30",
   "labels": [
     "Energy & Fuels",
     "Trade & Tariffs"
   ],
-  "bytes": 33195,
-  "sha256": "cda5e96e71f53ecafe451049ce430797b6165eec1a739b4638761f3cb55a4e0e",
+  "bytes": 33210,
+  "sha256": "df7a4d8439e5f56acaf58a90019f1e82c537c854faff78a4037d915bb0c47e86",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.2.2",
+  "version": "3.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -276,6 +276,19 @@
       "bytes": [
         33192,
         33195
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.0.0",
+      "date": "2026-11-14T16:01:30+05:30",
+      "level": "major",
+      "reason": "section(s) removed: South Africa Lost Its Gulf Fuel Supply. It Turned to America, Not India.",
+      "bytes": [
+        33195,
+        33210
       ],
       "url_changed": null,
       "markers_changed": null,
