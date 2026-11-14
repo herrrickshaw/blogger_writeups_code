@@ -35,7 +35,7 @@ DISCLAIMER = (
     '<strong>About this article:</strong> Researched, written and edited by '
     'Umashankar Triplicane Dwarakanathan, with AI research assistance; every figure '
     'is meant to trace to the primary source cited. See the '
-    '<a href="https://masaladeutsch.blogspot.com/p/disclaimer.html">Editorial Policy</a> '
+    '<a href="https://blog.vertistratsolution.com/p/disclaimer.html">Editorial Policy</a> '
     'for how sourcing, AI use and corrections work.</p>')
 
 
@@ -346,7 +346,7 @@ def theme_css():
     """
     if "css" in _THEME_CACHE:
         return _THEME_CACHE["css"]
-    html = sh(["curl", "-s", "-A", UA, "https://masaladeutsch.blogspot.com/"])
+    html = sh(["curl", "-s", "-A", UA, "https://blog.vertistratsolution.com/"])
     blocks = re.findall(r"<style[^>]*id='page-skin-1'[^>]*>([\s\S]*?)</style>", html)
     if not blocks:
         blocks = re.findall(r"<style[^>]*>([\s\S]*?)</style>", html)[:3]

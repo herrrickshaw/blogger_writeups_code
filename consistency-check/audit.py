@@ -22,7 +22,7 @@ from concurrent.futures import ThreadPoolExecutor
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from checks import STATIC_RULES, BLOCKER, MAJOR, MINOR, CONTRAST_JS, OVERFLOW_JS
 
-BLOG = "https://masaladeutsch.blogspot.com"
+BLOG = "https://blog.vertistratsolution.com"
 HERE = os.path.dirname(os.path.abspath(__file__))
 OUT = os.path.join(HERE, "out")
 SHOTS = os.path.join(HERE, "baseline")

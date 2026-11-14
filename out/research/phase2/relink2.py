@@ -11,6 +11,9 @@ Links are matched by path (/YYYY/MM/slug.html) whatever the domain, since live p
 """
 import json, pathlib, re, sys
 
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parents[3] / "tools"))
+from blogger_api import migrate_links  # noqa: E402
+
 ROOT = pathlib.Path(__file__).resolve().parents[3]
 OUT_DATE = sys.argv[1]
 MAP = json.load(open(ROOT / "out/gsc_index/phase2_map.json"))
@@ -90,6 +93,7 @@ for slug in sorted(M):
     new, ch, rep = fix(slug, t)
     left = [s for s, p in PATH.items() if re.search(href_re(p), new)]
     if ch:
+        new = migrate_links(new)   # never re-publish the old blogspot domain
         (ROOT / f"out/update-{OUT_DATE}-{slug}.html").write_text(new)
         changed.append(slug)
         print(f"{slug}  (from {src.relative_to(ROOT)})" + (f"  STILL LINKS {left}" if left else "") + (f"  deduped {len(rep)}" if rep else ""))

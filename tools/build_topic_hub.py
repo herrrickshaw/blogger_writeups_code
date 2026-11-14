@@ -26,7 +26,7 @@ from collections import defaultdict
 from datetime import datetime
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
-BLOG = "https://masaladeutsch.blogspot.com"
+BLOG = "https://blog.vertistratsolution.com"
 # "Shop" is a page, not a subject; it has its own front-door link.
 EXCLUDE_LABELS = {"Shop"}
 
@@ -181,7 +181,7 @@ def main():
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Every article by topic — Masala Deutsch</title>
-<meta name="description" content="Every article on masaladeutsch.blogspot.com, grouped by topic: {len(topics)} topics, {len(labelled)} articles. A plain, static index that needs no JavaScript.">
+<meta name="description" content="Every article on blog.vertistratsolution.com, grouped by topic: {len(topics)} topics, {len(labelled)} articles. A plain, static index that needs no JavaScript.">
 <link rel="canonical" href="https://herrrickshaw.github.io/masaladeutsch/topics.html">
 <meta property="og:title" content="Every article by topic — Masala Deutsch">
 <meta property="og:description" content="{len(topics)} topics, {len(labelled)} articles, grouped and dated.">

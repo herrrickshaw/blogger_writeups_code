@@ -27,7 +27,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 MANIFEST = ROOT / "meta" / "manifest.json"
-BLOG = "https://masaladeutsch.blogspot.com"
+BLOG = "https://blog.vertistratsolution.com"
 UA = {"User-Agent": "Mozilla/5.0 (masaladeutsch-archive health check)"}
 PACE = 0.0   # seconds between requests per worker; set in main()
 

@@ -36,7 +36,7 @@ import urllib.request
 import webbrowser
 
 BLOG_ID = "2071644453461588122"
-BLOG_URL = "https://masaladeutsch.blogspot.com"
+BLOG_URL = "https://blog.vertistratsolution.com"
 API = "https://blogger.googleapis.com/v3"
 SCOPE = "https://www.googleapis.com/auth/blogger"
 
@@ -497,6 +497,87 @@ def cmd_pages(args):
         print(f"      {p.get('url','(no url)')}")
 
 
+OLD_HOSTS = ("masaladeutsch.blogspot.com",)
+NEW_BASE = "https://blog.vertistratsolution.com"
+
+
+def migrate_links(body):
+    """Point every link at the custom domain: https, http and protocol-relative forms,
+    a www. prefix, and the bare host in text or JSON."""
+    new = body
+    for h in OLD_HOSTS:
+        new = re.sub(r"(?:https?:)?//(?:www\.)?" + re.escape(h), NEW_BASE, new)
+        new = new.replace(h, NEW_BASE.split("//", 1)[1])
+    return new
+
+
+def cmd_migrate_domain(args):
+    """Rewrite masaladeutsch.blogspot.com links to blog.vertistratsolution.com in every
+    live post and page (drafts too with --drafts). Each body is read from the API at run
+    time, so anything published earlier is kept. Writes only what changed, so it is safe
+    to re-run after the daily write ceiling stops it: migrated posts are skipped."""
+    todo = []
+    for status in ["live"] + (["draft"] if args.drafts else []):
+        token = None
+        while True:
+            q = {"status": status, "fetchBodies": "true", "maxResults": 20, "view": "ADMIN"}
+            if token:
+                q["pageToken"] = token
+            page = api(f"/blogs/{BLOG_ID}/posts?{urllib.parse.urlencode(q)}")
+            for p in page.get("items", []):
+                body = p.get("content") or ""
+                new = migrate_links(body)
+                if new != body:
+                    todo.append((status, p, new, sum(body.count(h) for h in OLD_HOSTS)))
+            token = page.get("nextPageToken")
+            if not token:
+                break
+    pages = api(f"/blogs/{BLOG_ID}/pages?fetchBodies=true&view=ADMIN").get("items", [])
+    page_todo = [(p, migrate_links(p.get("content") or "")) for p in pages]
+    page_todo = [(p, n) for p, n in page_todo if n != (p.get("content") or "")]
+    # the article index first: every post footer links to it
+    todo.sort(key=lambda t: (t[0] != "live",
+                             (t[1].get("url") or "").rsplit("/", 1)[-1] != "article-index-start-here.html"))
+    print(f"{len(todo)} posts and {len(page_todo)} pages carry old-domain links "
+          f"({sum(t[3] for t in todo):,} links in posts)")
+    if args.limit:
+        todo = todo[:args.limit]
+    done = failed = 0
+    try:
+        for p, new in page_todo:
+            print(f"  page  {p['title'][:70]}")
+            if args.dry_run:
+                continue
+            api(f"/blogs/{BLOG_ID}/pages/{p['id']}",
+                data={"kind": "blogger#page", "id": p["id"], "title": p["title"], "content": new}, method="PUT")
+            done += 1
+            time.sleep(WRITE_GAP_SECONDS)
+        for status, p, new, n in todo:
+            name = (p.get("url") or p["id"]).rsplit("/", 1)[-1]
+            print(f"  {status:<5} {name}  ({n} links)")
+            if status == "draft":
+                if not args.dry_run:
+                    payload = {"id": p["id"], "title": p["title"], "content": new}
+                    if p.get("labels"):
+                        payload["labels"] = p["labels"]
+                    api(f"/blogs/{BLOG_ID}/posts/{p['id']}", data=payload, method="PUT")
+                    done += 1
+                    time.sleep(WRITE_GAP_SECONDS)
+                continue
+            ok = do_update(p["id"], p["url"], p["title"], new, published=p.get("published"),
+                           labels=p.get("labels"), dry_run=args.dry_run)
+            done += ok
+            failed += (not ok)
+            if not args.dry_run:
+                time.sleep(WRITE_GAP_SECONDS)
+    except Ceiling as err:
+        print(f"\ndaily write ceiling reached after {done} writes: {err}")
+        print("re-run tomorrow: migrated posts are skipped")
+        sys.exit(3)
+    print(f"\n{'DRY RUN: ' if args.dry_run else ''}{done} written, {failed} failed verification")
+    sys.exit(0 if not failed else 2)
+
+
 def cmd_bulk(args):
     entries = json.loads(pathlib.Path(args.manifest).read_text())
     done = failed = 0
@@ -576,6 +657,12 @@ def main():
     rv = sub.add_parser("revert-draft", help="move live posts back to draft (unpublish, content kept)")
     rv.add_argument("--slug", action="append"); rv.add_argument("--file", help="one slug per line")
     rv.add_argument("--dry-run", action="store_true"); rv.set_defaults(fn=cmd_revert_draft)
+
+    md = sub.add_parser("migrate-domain", help="rewrite masaladeutsch.blogspot.com links to the custom domain "
+                        "in every live post and page (re-runnable)")
+    md.add_argument("--drafts", action="store_true", help="also rewrite draft posts")
+    md.add_argument("--limit", type=int, default=0, help="write at most N posts this run")
+    md.add_argument("--dry-run", action="store_true"); md.set_defaults(fn=cmd_migrate_domain)
 
     b = sub.add_parser("bulk"); b.add_argument("--manifest", required=True)
     b.add_argument("--limit", type=int, default=0)

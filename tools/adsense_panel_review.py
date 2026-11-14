@@ -40,7 +40,7 @@ import multi_model_factcheck as mm  # noqa: E402  (creds, key, extract_text, UA,
 ROOT = HERE.parent
 OUT_MD = ROOT / "out" / "adsense_panel_review.md"
 OUT_DOSSIER = ROOT / "out" / "adsense_panel_dossier.txt"
-SITE = "https://masaladeutsch.blogspot.com"
+SITE = "https://blog.vertistratsolution.com"
 
 PROMPT = """You are reviewing a website exactly as a Google AdSense policy reviewer
 would after the site received a "Low value content" rejection ("Your site does

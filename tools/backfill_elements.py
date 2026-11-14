@@ -53,7 +53,7 @@ TRANSLATE_SNIPPET = (
 
 INDEX_LINK_SNIPPET = (
     '<div class="topnav-index-link" style="font-size:.82em;margin:6px 0 14px">'
-    '<a href="https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html" '
+    '<a href="https://blog.vertistratsolution.com/2026/08/article-index-start-here.html" '
     'style="color:#0b5394;text-decoration:none">&larr; All Articles (Index)</a></div>\n'
 )
 

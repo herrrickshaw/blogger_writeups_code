@@ -45,7 +45,8 @@ from pathlib import Path
 from urllib.parse import urlparse
 
 ROOT = Path(__file__).resolve().parent.parent
-BLOG_HOST = "masaladeutsch.blogspot.com"
+BLOG_HOST = "blog.vertistratsolution.com"
+OLD_HOST = "masaladeutsch.blogspot.com"   # pre-migration links still count as internal
 UA = {
     "User-Agent": (
         "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
@@ -94,7 +95,7 @@ def collect():
 def classify(u):
     if not u.startswith("http"):
         return "relative"
-    return "internal" if BLOG_HOST in u else "external"
+    return "internal" if (BLOG_HOST in u or OLD_HOST in u) else "external"
 
 
 def check(u, timeout=30):
