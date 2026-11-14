@@ -1,54 +1,53 @@
 # Visual-first rewrite: status (15 Nov 2026)
 
-Pipeline: `docs/VIZ_LEAF_BRIEF.md` (the leaf instructions), `tools/viz_verify.py` (the oracle), `tools/viz_triage.py`,
-`tools/viz_new.py`, `tools/viz_plan.py`. Run state lives in `.unlazy/viz/` (not committed: machine-specific).
-Nothing here is published. Editions are `out/viz/<slug>/edition.html` (NOT out/update-*.html: phase3_publish.sh publishes every file with that name); publish each with
-`python3 tools/blogger_api.py update --slug <slug> --file <edition> --dry-run` after reading it.
+Pipeline: `docs/VIZ_LEAF_BRIEF.md` (leaf instructions), `tools/viz_verify.py` (the oracle), `tools/viz_render.py` (spec to edition),
+`tools/viz_go.py` (render + check in one call), `tools/viz_triage.py`, `tools/viz_wave.py`, `tools/viz_publish.py`.
+Run state lives in `.unlazy/viz/` (not committed: machine-specific). **Nothing is published.** Editions are
+`out/viz/<slug>/edition.html`, never `out/update-*.html` (phase3_publish.sh publishes every file with that name).
 
-## Triage of the 482 live posts (`out/viz/triage.json`)
+## Where it stands
 
 | Disposition | Posts | What happens |
 |---|---|---|
-| rewrite | 246 | leaf agent builds an edition; ~609,000 words |
-| frame | 109 | different page template; `tools/viz_frame.py` needs a second template before they can be rewritten |
-| walkthrough | 64 | "How to use ..." command walkthroughs; phone layout only (theme module) |
-| interactive | 34 | scripts, canvas or iframes; phone layout only |
-| light | 27 | fewer than 30 distinct numbers; nothing to chart |
-| done | 2 | edition passes the oracle (blending, chloride) |
+| done | 170 | edition passes the oracle, a driver read of every chart at 375px, and a contrast check |
+| rewrite | 143 | queued; a Haiku leaf builds a spec (about 100k tokens, 40-60 s), the code renders it |
+| walkthrough | 64 | How-to command walkthroughs; phone layout only (theme module) |
+| light | 40 | fewer than 30 distinct numbers; nothing to chart |
+| interactive | 31 | scripts, canvas or iframes; phone layout only |
+| frame | 19 | a template the splitter cannot cut yet |
+| pending | 15 | an unpublished update or Phase 3 merge exists; rewrite after it is published and snapshotted |
 
-## Wave 1 (6 posts): 6 of 6 verified
+Waves 1 to 10 are closed (170 editions). Each wave: `viz_wave.py prepare N 20`, 20 leaves, `seal`, `collect`, a contact sheet read
+(`tools/viz_sheet.js`), `tools/viz_contrast.js`, `close`, commit.
 
-| Post | Words (post incl. frame) | Charts | Agent tokens | Time |
-|---|---|---|---|---|
-| the-milk-india-doesnt-drink-cheese-and | 4,430 to 3,314 | 3 bar + 1 timeline | 143k | 149s |
-| guar-gum-indias-35-billion-export-peak | 2,270 to 1,651 | 4 bar | 128k | 108s |
-| global-biofuels-m-bankruptcy-bolt-on | 2,384 to 2,034 | 4 bar | 137k | 132s |
-| sixteen-crops-twenty-years-where-indias | 3,706 to 2,203 | 4 bar | 149k | 187s |
-| where-indias-fdi-actually-lands-state | 4,741 to 2,516 | 4 bar | 153k | 176s |
-| one-nation-one-ration-card-doesnt-move | 7,765 to 2,767 | 4 bar | 145k | 147s |
+## How the oracle works (what a leaf cannot get wrong)
 
-Cost to scale: about 140k tokens and 2.5 minutes per post, so the 246-post queue is roughly 35 million tokens
-in waves of 20 to 30. Every leaf reached PASS on its own re-runs; the parent re-ran every gate and read every chart.
-What the parent caught that the leaf missed: a line chart joining five dated points across nine-year gaps (guar seed price),
-replaced by one bar per dated reading.
+Frame bytes (head, tail, sources card, caveats, dated notes) are kept by code; the leaf only chooses the findings. Every number
+in the new text must be in the original or declared as arithmetic or a count in `derived.json`. One-sentence takeaways, one unit
+per chart, no overflow at 375px, no chart label under 9.5px, collapsed tables, no script or old-domain link. Posts whose header
+leaves a wrapper open (slide decks) get a bridge of closing and opening tags so charts keep a light surface.
 
-## Defects found in the live posts while rewriting (for the author; originals not changed)
+## Token findings
 
-- one-nation-one-ration-card: Fix 1 says interstate use is "under 1 per cent" but the 25 October correction says up to 2.4%;
-  section 8 gives the allocation as 554.93 lakh tonnes, the rest of the post 554.99; 6.35 million tonnes of rice sold to
-  distillers sits beside 39 to 44 lakh tonnes used or issued for ethanol.
-- where-indias-fdi-actually-lands-state: photo caption says Bengaluru tops four of five quarters, but the 24-quarter totals put
-  Navi Mumbai first; Delhi "present in 25 of 24 quarters"; text says every other Maharashtra district is under 0.3% but Nashik
-  is 0.32%; the Calendar 2021 chart cites "figures as stated in this article" and its numbers appear nowhere else.
-- sixteen-crops-twenty-years: standfirst calls maize the "fastest-growing major crop", but moong (6.1%) outgrows maize (5.8%);
-  the edition says "fastest-growing cereal".
-- global-biofuels: "SAF and RNG still get capital" sits awkwardly with Montana Renewables' second DOE draw cut from up to
-  $658 million to $34 million in September 2026.
-- guar-gum: the hero image does not load offline (alt text only); it is an external image, not a fault of the edition.
+Cost is turns x context: each leaf turn re-reads about 100k tokens of tool and system overhead, so 8 turns is about 100k. What cut it:
+spec-driven rendering (the leaf writes JSON, never HTML), a compact outline instead of the full post, one command that renders and
+checks and prints every fix at once, Haiku (same pass rate as the default model on a 12-post A/B), a prompt that names the required
+steps. Median 8 turns, 100k tokens, 45 s per post.
 
-## Known limits of the kit (improvements to make before the next wave)
+## Defects the leaves found in the originals
 
-- `exec_viz.bars` has no diverging (negative) bars: negative growth shows as a tiny grey bar with a minus sign.
-- A chart that mixes a flow, a stock and a norm on one axis (ration-card allocation chart) passes the oracle; only the
-  manual read catches it. The oracle cannot judge whether a chart type fits the data.
-- The oracle's counted items (`count:`) are listed for review; FDI used four (row counts).
+Each leaf reports figures that look wrong in the post it read. They are collected in the commit messages of each wave only as
+"checked"; the posts themselves are not edited. Repeated kinds: a headline number that disagrees with its own table by one unit or a
+rounding step; a section that still states a figure its own later update replaced; a ratio quoted as "about three times" that
+computes to 2.3; a count of items named that is smaller than the count claimed.
+
+## Publishing (on the Mac, after reading the editions)
+
+    git pull
+    zsh out/gsc_index/phase3_publish.sh        # first: the merged posts must be live, and it publishes the old relink files
+    python3 tools/viz_publish.py --dry-run     # shows what it would send
+    python3 tools/viz_publish.py --limit 20    # publishes the next 20; stops at Blogger's daily write ceiling; run again tomorrow
+    python3 tools/snapshot.py && git add -A && git commit -m "snapshot" && git push
+
+`viz_publish.py` holds back an edition that links to a retired post and lists it (four today: they link to How-to posts that Phase 1
+retired). Published slugs are recorded in `out/viz/published.json`.
