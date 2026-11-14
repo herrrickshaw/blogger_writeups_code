@@ -16,6 +16,7 @@ Exit codes:
     0  success
     2  transient failure — safe to retry soon
     3  per-blog daily write ceiling reached — retry tomorrow, not sooner
+    4  insert refused: a live post already has this title
 """
 import argparse
 import html
@@ -361,6 +362,48 @@ def cmd_delete(args):
     print("  deleted")
 
 
+def _title_key(t):
+    return re.sub(r"\W+", " ", html.unescape(t or "")).strip().lower()
+
+
+def live_posts_meta():
+    """Every live post's id, title, url and published date (no bodies)."""
+    out, token = [], None
+    while True:
+        q = {"maxResults": 100, "fetchBodies": "false", "status": "LIVE"}
+        if token:
+            q["pageToken"] = token
+        page = api(f"/blogs/{BLOG_ID}/posts?{urllib.parse.urlencode(q)}")
+        out += page.get("items", [])
+        token = page.get("nextPageToken")
+        if not token:
+            return out
+
+
+def cmd_duplicates(args):
+    """List titles that are live more than once. With --delete-newer --yes, permanently delete
+    every copy except the earliest-published one (its address has no _<digits> suffix)."""
+    groups = {}
+    for p in live_posts_meta():
+        groups.setdefault(_title_key(p["title"]), []).append(p)
+    dups = [sorted(g, key=lambda p: p.get("published", "")) for g in groups.values() if len(g) > 1]
+    if not dups:
+        print("no duplicate titles among live posts")
+        return
+    for g in dups:
+        print(f"\n{g[0]['title']}")
+        for i, p in enumerate(g):
+            print(f"  {'KEEP  ' if i == 0 else 'DELETE'} id={p['id']}  published {p.get('published', '')[:16]}  {p['url']}")
+    if not (args.delete_newer and args.yes):
+        print("\nlisted only; pass --delete-newer --yes to delete the copies marked DELETE")
+        return
+    for g in dups:
+        for p in g[1:]:
+            api(f"/blogs/{BLOG_ID}/posts/{p['id']}", method="DELETE")
+            print(f"  deleted id={p['id']}  {p['url']}")
+            time.sleep(WRITE_GAP_SECONDS)
+
+
 def cmd_insert(args):
     """Create and publish a new post. Blogger's web editor silently stops
     responding under load; posts.insert returns a status code."""
@@ -370,6 +413,16 @@ def cmd_insert(args):
               f"\n  title : {args.title}"
               f"\n  status: {'DRAFT' if args.draft else 'LIVE'}")
         return
+    # Refuse a second live post with the same title: re-running an insert (a re-pasted block, or a
+    # retry after a timeout that had in fact succeeded) is how duplicate posts with a _<digits>
+    # address suffix have appeared. --allow-duplicate overrides.
+    same = [p for p in live_posts_meta() if _title_key(p["title"]) == _title_key(args.title)]
+    if same and not args.allow_duplicate:
+        for p in same:
+            print(f"already live: id={p['id']}  {p['url']}  published {p.get('published', '')[:16]}")
+        print("not inserted: a live post already has this title (use update to change it, "
+              "or --allow-duplicate if a second copy is really wanted)")
+        sys.exit(4)
     payload = {"kind": "blogger#post", "title": args.title, "content": body}
     q = "?isDraft=true" if args.draft else ""
     try:
@@ -724,6 +777,7 @@ def main():
     i.add_argument("--title", required=True)
     i.add_argument("--draft", action="store_true", help="create as a draft")
     i.add_argument("--dry-run", action="store_true")
+    i.add_argument("--allow-duplicate", action="store_true", help="insert even if a live post has the same title")
     i.set_defaults(fn=cmd_insert)
 
     pg = sub.add_parser("page", help="create or update a Blogger page")
@@ -745,6 +799,10 @@ def main():
     md.add_argument("--drafts", action="store_true", help="also rewrite draft posts")
     md.add_argument("--limit", type=int, default=0, help="write at most N posts this run")
     md.add_argument("--dry-run", action="store_true"); md.set_defaults(fn=cmd_migrate_domain)
+
+    du = sub.add_parser("duplicates", help="list titles live more than once; --delete-newer --yes removes later copies")
+    du.add_argument("--delete-newer", action="store_true"); du.add_argument("--yes", action="store_true")
+    du.set_defaults(fn=cmd_duplicates)
 
     rt = sub.add_parser("retitle", help="apply new titles from a slug<TAB>title file (Blogger title and body h1)")
     rt.add_argument("--file", required=True); rt.add_argument("--limit", type=int, default=0)
