@@ -247,3 +247,11 @@ def insight(headline, chart, means, todo, anchor=""):
     a = f' id="{anchor}"' if anchor else ""
     return (f'<section class="xv-sec"><h2 class="gb-h2"{a}>{headline}</h2>\n{chart}'
             f'<div class="xv-so"><p><b>What it means:</b> {means}</p><p><b>What to do:</b> {todo}</p></div></section>\n')
+
+
+def sources_block(links, summary="Sources cited in the article"):
+    """The original body's external links, kept as a collapsed list: links = [(url, text)] from viz_frame.body_links."""
+    if not links:
+        return ""
+    li = "".join(f'<li><a href="{esc(u)}">{esc(t or u)}</a></li>' for u, t in links)
+    return f'<details class="xv-n"><summary>{summary}</summary><ul>{li}</ul></details>\n'

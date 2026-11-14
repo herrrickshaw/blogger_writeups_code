@@ -29,14 +29,12 @@ for s in ("₹3,900–4,900 a year", "₹0.27–0.33 per kilometre", "2–6% eff
           "3% in FY2026-27, 4% in FY2027-28 and 5% from FY2028-29", "1% blending from 2027, rising to 2% by 2028 and 5% by 2030"):
     assert s in re.sub(r"\s+", " ", html.unescape(SRC)), s
 
-# ---- the live frame ----
-fig_start = SRC.index('<figure class="gb-figure"')
-fig_end = SRC.index("</figure>", fig_start) + len("</figure>")
-head = SRC[:fig_start]                                                # PRE, title block
-mid_end = SRC.index('<div class="gb-card" style="background:#eef6ff')
-mid = SRC[fig_end:mid_end]                                            # skip link, a11y bar, translate widget
-picture = re.search(r'<figure style="margin:1.6rem 0">.*?</figure>', SRC, re.S).group(0)
-tail = SRC[SRC.index('<div class="gb-card gb-note">\n<strong style="color:#212529">What this piece does not establish'):]
+# ---- the live frame (tools/viz_frame.py): head and mid kept byte for byte, the hero chart replaced by the sections ----
+sys.path.insert(0, str(ROOT / "tools"))
+from viz_frame import split  # noqa: E402
+FR = split(SRC)
+head, mid, tail = FR.head, FR.mid, FR.tail
+picture = FR.keep_front + FR.notes
 
 top = top_line([
     ("66%", " of petrol&rsquo;s energy per litre is what ethanol carries, so E20 costs drivers 2&ndash;6% in mileage: "

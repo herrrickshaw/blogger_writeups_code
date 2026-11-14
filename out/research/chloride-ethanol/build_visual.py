@@ -9,7 +9,7 @@ import sys
 ROOT = pathlib.Path(__file__).resolve().parents[3]
 sys.path.insert(0, str(ROOT / "tools"))
 sys.path.insert(0, str(ROOT / "tools/postbuild"))
-from buildpost import build  # noqa: E402
+from viz_frame import split  # noqa: E402
 from exec_viz import STYLE, bars, flow, insight, numbers, top_line  # noqa: E402
 
 # reuse the first edition's data (running it also rewrites out/post-chloride-in-fuel-ethanol-india.html, unchanged)
@@ -132,8 +132,8 @@ gaps = '''<details class="xv-n"><summary>What this piece could not establish</su
 '''
 
 body = STYLE + top + s1 + s2 + s3 + s4 + rules + harm + fixes + gaps
-build("Fuel quality &middot; Standards", D["TITLE"],
-      "India&rsquo;s ethanol standard caps chloride only for 2G ethanol. In 2026 automakers reported hundreds of ppm and oil companies "
-      "under 3. Four charts on the limits, the readings and what tank-cleaning water can explain.",
-      body, D["SOURCES"], D["RELATED"], str(OUT))
+SLUG = "chloride-in-fuel-ethanol-is-15464-sets"
+FR = split((ROOT / f"posts/{SLUG}.html").read_text(encoding="utf-8"))
+assert FR, "live post does not have the standard frame"
+OUT.write_text(FR.head + FR.mid + body + "\n" + FR.tail, encoding="utf-8")
 print("wrote", OUT.relative_to(ROOT))

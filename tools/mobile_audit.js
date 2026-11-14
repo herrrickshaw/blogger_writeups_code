@@ -30,7 +30,7 @@ function themeParts() {
 function measure() {
   const W = innerWidth, root = document.querySelector('.post-body');
   const scroller = (e) => { for (let a = e.parentElement; a && a !== document.body; a = a.parentElement) { const s = getComputedStyle(a).overflowX; if (s === 'auto' || s === 'scroll') return a; } return null; };
-  const tables = [...root.querySelectorAll('table')].map((t) => { const s = scroller(t); return !!(s && s.scrollWidth > s.clientWidth + 2); });
+  const tables = [...root.querySelectorAll('table')].filter((t) => !t.closest('details:not([open])')).map((t) => { const s = scroller(t); return !!(s && s.scrollWidth > s.clientWidth + 2); });
   const charts = [...root.querySelectorAll('svg')].filter((s) => s.getBoundingClientRect().width > 120).map((s) => {
     const vb = s.viewBox && s.viewBox.baseVal, k = vb && vb.width ? s.getBoundingClientRect().width / vb.width : 1;
     const f = [...s.querySelectorAll('text')].map((t) => parseFloat(getComputedStyle(t).fontSize) * k).filter((x) => x > 0).sort((a, b) => a - b);

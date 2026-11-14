@@ -42,3 +42,7 @@ out/headings/.failed.log
 
 # raw downloads (PARIVESH EC register ~130 MB): regenerate with tools/iem_parivesh.py fetch
 cache/
+
+# unlazy pipeline state: machine-specific (absolute paths, local approvals); summary lives in out/viz/STATUS.md
+.unlazy/
+.unlazy-hook-state.json
