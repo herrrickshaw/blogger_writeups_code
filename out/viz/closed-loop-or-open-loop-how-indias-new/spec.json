@@ -1,0 +1,18 @@
+{"top": [["88%", " less water per kWh of IT load for dry cooling in the worst case, counting the coal plant behind the grid."], ["0.135 kWh", " extra electricity per kWh of IT load, the price of dry cooling when compressors run every hour."], ["29 km", " from a cable landing for four of the campuses; the other three are 478 km or more away."]],
+ "sections": [
+  {"h2": "Dry cooling uses far less water per kWh, even counting the power plant",
+   "chart": {"type": "bars", "title": "Dry cooling saves about 88% of the water once the power plant's share counts", "sub": "Litres per kWh of IT load; tower at 3 cycles of concentration.", "source": "This blog's arithmetic on ECBC 2017 minimums; NTPC 2023-24.", "unit": "L", "accent": "Dry cooling, water at power plant", "rows": [["Evaporative tower, on site", 2.19], ["Dry cooling, water at power plant", 0.27]]},
+   "means": "Counting the power plant's water, dry cooling uses about 0.27 litres per kWh against about 2.2 for an evaporative tower.",
+   "todo": "Use dry cooling where water is scarce, and set its design temperature high enough to avoid compressors on most hours.",
+   "numbers": {"table": "T1"}},
+  {"h2": "The price of dry cooling is electricity, and the worst case is avoidable",
+   "chart": {"type": "bars", "title": "Air-cooled chillers need 0.33 kWh to remove a kWh of heat, against 0.20 for water-cooled", "sub": "Electricity per kWh of heat removed, tower fans and pumps included.", "source": "India's Energy Conservation Building Code (2017), minimum efficiencies.", "unit": "kWh", "accent": "Air-cooled chiller", "rows": [["Water-cooled chiller plant", 0.20], ["Air-cooled chiller", 0.33]]},
+   "means": "Dry cooling with compressors on every hour adds 0.135 kWh per kWh of IT load, which is the worst case the post costs out.",
+   "todo": "Keep closed-loop air-cooled chillers in existing halls and raise supply temperatures rather than converting to towers."},
+  {"h2": "Coastal campuses sit at cable landings, while inland ones are hundreds of km away",
+   "chart": {"type": "bars", "title": "Four campuses sit within 29 km of a cable landing; the rest are 478 km or more away", "sub": "Great-circle distance from each campus to its nearest subsea cable landing.", "source": "This blog's arithmetic on city-centre coordinates; cable landings per the post.", "unit": "km", "accent": "Greater Noida", "rows": [["Visakhapatnam", 0], ["Navi Mumbai", 17], ["Thane", 19], ["Chennai", 29], ["Jamnagar", 478], ["Hyderabad", 503], ["Greater Noida", 1146]]},
+   "means": "Coastal sites can cool a closed inner loop through seawater, which the post calls the efficient answer on the coast.",
+   "todo": "Build coastal campuses with closed inner loops, and never cool with municipal drinking water.",
+   "numbers": {"table": "T3"}}
+ ],
+ "derived": {}}

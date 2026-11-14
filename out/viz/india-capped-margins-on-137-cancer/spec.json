@@ -1,0 +1,22 @@
+{"top": [["82%", " of India's medicine sales by value are non-scheduled: no ceiling price and no margin limit."], ["953%", " markup on a cetirizine pack, with an MRP of Rs 21.06 against a stockist price of Rs 2, as the committee cited."], ["16%", " of the Rs 10,030 crore of overcharging demanded by March 2026 had been recovered."]],
+ "sections": [
+  {"h2": "Most medicine sales sit outside any price ceiling",
+   "chart": {"type": "bars", "title": "Non-scheduled medicines, 82% of sales by value, have no ceiling price", "sub": "Share of India's medicine sales by value, %.", "source": "Lok Sabha Standing Committee, Dec 2025; DPCO 2013.", "unit": "%", "accent": "Non-scheduled, no ceiling price or margin limit", "ref": [100, "100% = all medicine sales by value"], "rows": [["Non-scheduled, no ceiling price or margin limit", 82, "about Rs 1.97 lakh crore"], ["Under a ceiling price", null]]},
+   "means": "The regulator's only rule for these medicines is a cap of 10% a year on MRP rises, and the launch price is left to the company.",
+   "todo": "Set a standing trade-margin framework that reaches beyond the named lists, as the committee asked."},
+  {"h2": "Common packs were marked up by 920% to 953% over stockist price",
+   "chart": {"type": "bars", "title": "Two packs cited by the committee carried markups of 920% and 953%", "sub": "Markup of MRP over stockist price, %.", "source": "Lok Sabha Standing Committee, Dec 2025. Brands not named.", "unit": "%", "accent": "Cetirizine pack", "rows": [["Cetirizine pack", 953, "MRP Rs 21.06 vs stockist Rs 2"], ["Pantoprazole pack", 920, "MRP Rs 102 vs stockist Rs 10"]]},
+   "means": "The public cannot see stockist prices, so these margins are invisible to buyers.",
+   "todo": "Publish stockist prices alongside MRPs so that buyers can see the margin they are paying.",
+   "numbers": {"table": "T2"}},
+  {"h2": "Earlier caps cut cancer-drug prices by 73% to 87% where they applied",
+   "chart": {"type": "bars", "title": "Named-list caps cut cancer-drug MRPs sharply, but each applied only to its list", "sub": "Cut in MRP after the 2019 cap, %.", "source": "NPPA 2019 order; parliamentary replies.", "unit": "%", "accent": "Pemetrexed 500 mg injection", "rows": [["Pemetrexed 500 mg injection", 87, "MRP Rs 22,000 to Rs 2,800"], ["Erlotinib 150 mg tablets", 73, "MRP Rs 8,800 to Rs 2,400"]]},
+   "means": "Each cap was issued under emergency powers for a named list, and the 2026 list covers only cancer drugs.",
+   "todo": "Turn trade-margin rationalisation into a standing part of the price-control order with a set timeline.",
+   "numbers": {"table": "T4"}},
+  {"h2": "Only 16% of overcharging demanded by March 2026 has been recovered",
+   "chart": {"type": "bars", "title": "Rs 10,030 crore was demanded by March 2026, but only Rs 1,582 crore recovered", "sub": "Overcharging demanded and recovered, cumulative, Rs crore.", "source": "Parliamentary replies; March 2026 figure from an explainer of official data.", "unit": "Rs crore", "accent": "Recovered", "rows": [["Demanded", 10030], ["Recovered", 1582, "16%"]]},
+   "means": "Most of the unrecovered sum is tied up in court, some cases for more than 20 years.",
+   "todo": "Adopt the committee's fast-track mechanism for cases outside court and a legal cell inside the regulator."}
+ ],
+ "derived": {}}

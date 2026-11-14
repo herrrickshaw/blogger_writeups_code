@@ -1,0 +1,161 @@
+{
+ "top": [
+  [
+   "119 of 252",
+   " producer applications granted on the CPCB portal by 10 August 2026."
+  ],
+  [
+   "3%",
+   " of the 2024-25 used-oil target is covered by EPR certificates, per Parliament's answer of 5 March 2026."
+  ],
+  [
+   "5% → 50%",
+   " the used-oil recycling target ramp, from 2024-25 to 2030-31 onward."
+  ]
+ ],
+ "sections": [
+  {
+   "h2": "Fewer than half of producer applications have cleared registration",
+   "chart": {
+    "type": "bars",
+    "title": "Only 119 of 252 producer applications have been granted",
+    "sub": "Producer applications on the CPCB Used Oil EPR Portal, 10 August 2026.",
+    "source": "CPCB Used Oil EPR Portal, accessed 10 August 2026.",
+    "unit": "applications",
+    "accent": "Granted",
+    "rows": [
+     [
+      "Granted",
+      119
+     ],
+     [
+      "Under process",
+      39
+     ],
+     [
+      "Incomplete",
+      94
+     ]
+    ]
+   },
+   "means": "Fewer than half of the 252 producer applications had been granted by 10 August 2026, more than two years into the obligation period.",
+   "todo": "Producers with incomplete applications should finish them on the portal, since 94 are marked that way."
+  },
+  {
+   "h2": "EPR certificates cover about 3% of the 2024-25 target",
+   "chart": {
+    "type": "bars",
+    "title": "Certificates issued so far are about 3% of the first year's target",
+    "sub": "EPR certificates issued by 5 March 2026, as a share of the 2024-25 used-oil target of 68,946 tonnes.",
+    "source": "PIB, Parliament answer on EPR status, 5 March 2026; CPCB.",
+    "unit": "%",
+    "accent": "Certificates issued",
+    "ref": [
+     100,
+     "100% = full 2024-25 target"
+    ],
+    "rows": [
+     [
+      "Certificates issued",
+      3
+     ],
+     [
+      "Gap",
+      null
+     ]
+    ]
+   },
+   "means": "About 2,000 tonnes of certificates had been issued by 5 March 2026, against a first-year obligation of 68,946 tonnes.",
+   "todo": "Recyclers should reconcile recycled tonnage with certificates, since the Parliament answer does not explain the gap."
+  },
+  {
+   "h2": "Lube oil imports rise each year while exports stay small",
+   "chart": {
+    "type": "bars",
+    "title": "Imports climbed to 3,177 thousand tonnes while exports fell to 11",
+    "sub": "LOBS/Lube oil line, fiscal years 2023-24 to 2025-26 (2025-26 provisional), thousand tonnes.",
+    "source": "PPAC, Import/Export of Crude Oil and Petroleum Products (LOBS/Lube oil line), accessed 10 August 2026.",
+    "unit": "thousand tonnes",
+    "accent": "Imports, 2025-26",
+    "rows": [
+     [
+      "Imports, 2023-24",
+      2412
+     ],
+     [
+      "Imports, 2024-25",
+      2864
+     ],
+     [
+      "Imports, 2025-26",
+      3177
+     ],
+     [
+      "Exports, 2023-24",
+      15
+     ],
+     [
+      "Exports, 2024-25",
+      17
+     ],
+     [
+      "Exports, 2025-26",
+      11
+     ]
+    ]
+   },
+   "means": "Imports ran from 2,412 to 3,177 thousand tonnes a year across 2023-24 to 2025-26, while exports stayed between 11 and 17 thousand tonnes.",
+   "todo": "Check the provisional 2025-26 PPAC figures against final data before drawing a trade conclusion."
+  },
+  {
+   "h2": "The recycling target climbs in steps to 50% from 2030-31",
+   "chart": {
+    "type": "bars",
+    "title": "The required recycled share rises from 5% to 50% of oil sold two years earlier",
+    "sub": "Used-oil recycling target by obligation year, as a percentage of base oil and lubricating oil.",
+    "source": "CPCB, FAQs on EPR for Used Oil Management, reproducing Rule 27(2), Second Amendment Rules, 2023.",
+    "unit": "%",
+    "accent": "2030-31 onward",
+    "rows": [
+     [
+      "2024-25",
+      5
+     ],
+     [
+      "2025-26",
+      10
+     ],
+     [
+      "2026-27",
+      20
+     ],
+     [
+      "2027-28",
+      20
+     ],
+     [
+      "2028-29",
+      40
+     ],
+     [
+      "2029-30",
+      40
+     ],
+     [
+      "2030-31 onward",
+      50
+     ]
+    ]
+   },
+   "means": "The obligation starts at 5% in 2024-25 and reaches 50% from 2030-31 onward, in steps set by Rule 27(2).",
+   "todo": "Producers and importers should plan purchases of EPR certificates against these steps, since each year's target rises."
+  }
+ ],
+ "details": [
+  {
+   "summary": "Source link for the 5 March 2026 EPR status",
+   "html": "<a href=\"https://www.pib.gov.in/PressReleasePage.aspx?PRID=2244104&lang=1&reg=1\">PIB, Parliament question on circular economy and EPR (status as on 5 March 2026)</a>"
+  }
+ ],
+ "derived": {}
+}

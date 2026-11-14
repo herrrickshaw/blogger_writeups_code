@@ -1,0 +1,29 @@
+{
+ "top": [
+  ["US$535.9m", " of spice oils and oleoresins exported in 2024–25, from 20,940 tonnes: about a third of the world market on the post's estimate."],
+  ["US$25.60", " a kilo, against US$2.62 for India's spice exports overall."],
+  ["23–31%", " combined US anti-dumping and anti-subsidy rates on Indian paprika oleoresin, final in August 2026."]
+ ],
+ "sections": [
+  {"h2": "Export value has not grown in five years, and the price per kilo has slipped",
+   "chart": {"type": "bars", "title": "Value peaked in 2021–22 and 2024–25 sits below it, with price per kilo falling", "sub": "Spice oils and oleoresins, US$ million, by year.", "source": "Spices Board, from DGCI&S data.", "unit": "US$ m", "accent": "2024–25", "table": {"id": "T1", "label": 0, "value": 2, "rows": "top:10"}},
+   "means": "The value has gone nowhere in five years: US$535.9 million in 2024–25 is below the 2021–22 peak.",
+   "todo": "Read the flat value together with the falling price per kilo, which the post links to a more crowded market.",
+   "numbers": {"table": "T1"}},
+  {"h2": "Five firms lead the trade, and two of them are now owned by European groups",
+   "chart": {"type": "bars", "title": "Synthite has the largest total revenue of the five, though years differ", "sub": "Total company revenue, ₹ crore, latest year found for each.", "source": "Company filings, as compiled in the post.", "unit": "₹ crore", "accent": "Synthite Industries", "table": {"id": "T2", "label": 0, "value": 1, "rows": "top:10", "sort": "desc"}},
+   "means": "Synthite alone is put at 30–40% of the world market by CRISIL, close to the one-third estimated for all of India.",
+   "todo": "Reconcile the two shares before quoting either, since the post could not do so.",
+   "numbers": {"table": "T2"}},
+  {"h2": "The US duties rest mostly on Indian export subsidies, not on dumping",
+   "chart": {"type": "bars", "title": "Subsidy rates of 19–25% drove the US case; dumping margins were 4–6%", "sub": "Subsidy rate by exporter, %.", "source": "US Department of Commerce.", "unit": "%", "accent": "Synthite", "table": {"id": "T3", "label": 0, "value": 1, "rows": "top:10", "sort": "desc"}},
+   "means": "The dumping margins were 4–6%, so the case turned mainly on Indian government support to exporters.",
+   "todo": "Read Commerce's issues-and-decision memorandum to see which Indian export schemes it counted, since the same schemes back many other exports.",
+   "numbers": {"table": "T3"}},
+  {"h2": "Much of the pepper behind India's oleoresin is imported",
+   "chart": {"type": "bars", "title": "Pepper imports in 2024 were more than twice India's 2024–25 pepper exports", "sub": "Pepper, tonnes. Periods and sources differ, so this is a rough comparison.", "source": "UN Comtrade, via a trade-data provider; the post's export figure.", "unit": "tonnes", "accent": "Pepper imported, 2024", "rows": [["Pepper imported, 2024", 52000], ["Pepper exported, 2024–25", 20830]]},
+   "means": "A good share of the raw material is imported, and 55% of India's 2024 pepper imports came from Sri Lanka.",
+   "todo": "Keep the import and export pepper figures apart when quoting them, since the post says the periods and sources differ."}
+ ],
+ "derived": {}
+}

@@ -1,0 +1,40 @@
+{
+ "top": [
+  ["9.34 crore", " farmers were paid in PM-KISAN's 24th instalment, down from 10.07 crore in early 2025."],
+  ["₹12,779 crore", " of 2025-26 cane dues were still unpaid by mills on 20 April 2026, despite a 14-day rule."],
+  ["11 crore", " Farmer IDs by 23 October 2026, up from 10.28 crore in July, five months ahead of target."]
+ ],
+ "sections": [
+  {"h2": "Mills still owed farmers ₹12,779 crore in cane dues in April, despite a 14-day rule",
+   "chart": {"type": "bars",
+             "title": "Cane dues fell from ₹16,087 crore in February to ₹12,779 crore by April",
+             "sub": "Cane dues owed by mills on each date, ₹ crore.",
+             "source": "Standing Committee (Feb); PIB (Apr).",
+             "unit": "₹ crore",
+             "accent": "20 Apr 2026",
+             "rows": [["16 Feb 2026", 16087], ["20 Apr 2026", 12779]]},
+   "means": "Arrears persist because mills face a cash squeeze, with cane prices rising to ₹365 while the minimum sugar price has stayed at ₹31 a kilo since 2019.",
+   "todo": "Require a bank-guaranteed escrow for cane purchases and enforce interest on payments delayed beyond 14 days."},
+  {"h2": "Tighter PM-KISAN lists cut paid farmers from 10.07 crore to 9.34 crore",
+   "chart": {"type": "bars",
+             "title": "Payees fell by about 73 lakh between the 19th and 24th instalments",
+             "sub": "Farmers paid per PM-KISAN instalment, crore.",
+             "source": "Agriculture ministry figures, as reported in the post.",
+             "unit": "crore",
+             "accent": "24th instalment",
+             "rows": [["19th instalment", 10.07], ["24th instalment", 9.34]]},
+   "means": "Stricter checks removed ineligible names, but they also stopped payments to eligible farmers whose Aadhaar, e-KYC or land seeding was incomplete.",
+   "todo": "Publish, for each instalment, how many eligible farmers are held back and why, so the cut can be checked."},
+  {"h2": "Farmer ID registries reached 11 crore in October, five months ahead of target",
+   "chart": {"type": "bars",
+             "title": "Farmer IDs rose from 10.28 crore in July to 11 crore by 23 October",
+             "sub": "Farmer IDs generated under AgriStack, crore.",
+             "source": "Agriculture ministry, as reported in the post.",
+             "unit": "crore",
+             "accent": "23 Oct 2026",
+             "rows": [["30 Jul 2026", 10.28], ["23 Oct 2026", 11]]},
+   "means": "Each Farmer ID is matched to digitised land records, so the register is only as reliable as the land records behind it.",
+   "todo": "Extend registration to tenants and sharecroppers, of whom only about 28,680 had been registered in five states by October."}
+ ],
+ "derived": {}
+}

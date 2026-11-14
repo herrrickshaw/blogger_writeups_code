@@ -1,0 +1,22 @@
+{"top": [["566", " kg of lint a hectare was India's 2013-14 peak; the 2024-25 estimate is roughly 436 to under 450."], ["~60 lakh", " bales of cotton imports projected by CAI for 2025-26, up from 47 lakh."], ["29.74 million", " tonnes of surplus cotton-stalk residue, mostly unused as biogas feedstock."]],
+ "sections": [
+  {"h2": "India's cotton lint yield has slid from its 2013-14 peak of 566 kg/ha",
+   "chart": {"type": "bars", "title": "India's yield sits well below the world average and China's record", "sub": "Approximate lint yield, kg per hectare.", "source": "Secondary estimates; USDA; China official figure.", "unit": "kg/ha", "accent": "India, 2024-25 (estimate)", "rows": [["India, 2013-14 (peak)", 566, "national peak"], ["India, 2024-25 (estimate)", [436, 450], "secondary estimates"], ["World average", 800, "USDA: about 814-854"], ["China, 2024-25", 2384, "USDA estimate"]]},
+   "means": "India's lint yield has fallen since 2013-14 while the world average stays above 800 kg/ha.",
+   "todo": "Treat the 2024-25 India figure as a range until the official estimate firms up.",
+   "numbers": {"table": "T1"}},
+  {"h2": "CAI's projected cotton imports for 2025-26 rose from 47 to about 60 lakh bales",
+   "chart": {"type": "bars", "title": "Mills front-loaded imports, so the projected record rose from 47 to about 60 lakh bales", "sub": "Cotton imports, 2025-26 season, lakh bales.", "source": "Cotton Association of India.", "unit": "lakh bales", "accent": "Imports, latest CAI projection", "rows": [["Imports, earlier CAI figure", 47], ["Imports, latest CAI projection", 60]]},
+   "means": "Mills front-loaded purchases to use a temporary 11% import-duty exemption before it lapses.",
+   "todo": "Check CAI's end-of-season import figure against the 60 lakh projection before reading the trend.",
+   "numbers": {"table": "T1"}},
+  {"h2": "Cotton stalk is 29.74 million tonnes of surplus residue, mostly unused",
+   "chart": {"type": "bars", "title": "Cotton stalk is one slice of India's 234 million tonnes of surplus residue", "sub": "Surplus residue, million tonnes.", "source": "National residue estimates as cited in the post.", "unit": "million tonnes", "accent": "Surplus cotton-stalk residue", "rows": [["Surplus cotton-stalk residue", 29.74], ["All surplus agricultural residue", 234]]},
+   "means": "Stalk is mostly burnt in the field or discarded, and a small CBG plant costs Rs 300-500 lakh, beyond most single farmers.",
+   "todo": "Build cluster-level or FPO-backed biogas capacity rather than expecting individual farmers to convert stalk."},
+  {"h2": "Zinc is deficient in 60% or more of the soils in Madhya Pradesh's two cotton tracts",
+   "chart": {"type": "bars", "title": "Zinc deficiency affects 60% or more of soils in both cotton tracts", "sub": "Share of soils with severe zinc deficiency, %.", "source": "Agro-climatic zone surveys as cited in the post.", "unit": "%", "accent": ["Malwa Plateau", "Nimar Valley"], "rows": [["Malwa Plateau", 62.6], ["Nimar Valley", 60.0]]},
+   "means": "Cotton fibre quality is unusually sensitive to potassium, which these soils can under-supply even when they look rich.",
+   "todo": "Test soils for zinc and potassium before dosing nitrogen alone."}
+ ],
+ "derived": {}}
