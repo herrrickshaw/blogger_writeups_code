@@ -11,33 +11,31 @@ Text-SHA1: `b277feba1ad06ad0`
 
 Panel: **3 of 5 configured models** answered.  Skipped this run: Kimi ([Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g9); Cerebras ([Cerebras API error 402: {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_).
 
-## Gemini gemini-flash-latest
+## Gemini gemini-flash-lite-latest
 
 FACTUAL ERRORS:
-- "Shell’s ₹21,600 crore expansion of Hazira." / "Hazira 6.28 → 26.2 (cleared 2025) | Expansion needing new marine works | 21,600 | 19.92 | 1,084 | ₹21,600 cr incl. new breakwater, jetty and 2.8 million m³ dredging; environment clearance Sep 2025" — The ₹21,600 crore environmental and CRZ clearance granted for Hazira Port is for the overall multi-cargo port expansion (handling dry bulk, containers, break-bulk, and liquid cargo), not an expansion of Shell's LNG regasification terminal from 6.28 to 26.2 MMTPA. Conflating total port cargo throughput (in million metric tonnes per annum) with LNG regasification capacity (MMTPA of LNG) is factually incorrect; adding ~20 MMTPA of LNG regasification capacity at Hazira alone would equal nearly 75 MMSCMD of gas send-out and nearly 40% of India's entire LNG capacity. [confidence: high]
+- "QatarEnergy declared force majeure after the March 2026 attack on Ras Laffan" — Ras Laffan in Qatar has not experienced a major military strike or attack resulting in a formal force majeure declaration by QatarEnergy as of known contemporary records; this appears to be a fabricated or confused geopolitical event. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "in April–May 2026, worked at 24–37% of capacity while Dahej ran at 92%" / "91.9% vs 10.5–40.1% Utilisation of Dahej (on its old 17.5 MMTPA base) against the other seven terminals, April–May 2026" — The article uses the 91.9% figure to argue that Dahej's newly expanded capacity is running full while greenfield terminals sit empty. However, as the text notes, this 91.9% figure uses the old 17.5 MMTPA base as the denominator rather than the expanded 22.5 MMTPA capacity commissioned on 31 March 2026. On the enlarged base, Dahej operated at only 65.6%, and the article concedes the new 5 MMTPA is "mostly headroom." Measuring Dahej against its pre-expansion capacity while comparing it to other terminals on their full capacity bases creates an apples-to-oranges metric that undermines the core causal thesis. [confidence: high]
-- "~40 vs 95–100 MMSCMD Gujarat’s GSPL evacuation capacity against the regas capacity of Dahej, Mundra and Hazira" / "yet the GSPL pipelines that evacuate gas from them carry “only around 40 MMSCMD”" — The article compares the combined regasification capacity of Dahej, Hazira, and Mundra against the evacuation capacity of Gujarat State Petronet Limited's (GSPL) network to prove an evacuation bottleneck. This is an invalid comparison because GSPL is an intra-state transmission network. Significant volumes from Dahej and Hazira are evacuated directly into national interstate trunk pipelines operated by GAIL (notably the Hazira–Vijaipur–Jagdishpur [HVJ] and Dahej–Vijaipur [DVPL] systems) which take gas outside Gujarat independently of GSPL. [confidence: high]
+- "At PNGRB’s own conversion (190 MMSCMD = 52.7 MMTPA) that is about 55.5 MMTPA of LNG... which at an 85% utilisation ceiling needs about 65 MMTPA of regas capacity." — The reasoning divides the target volume by an 85% utilization cap rather than dividing it by utilization to find the required nameplate capacity ($55.5 / 0.85 = 65.3$), but applying a flat capacity ceiling mathematically restricts operational throughput rather than dictating the physical nameplate sizing requirement in this manner, confusing an operational cap with required design margins. [confidence: medium]
 
 OUTDATED DATA:
-none found
+- none found
 
 ## Groq openai/gpt-oss-120b
 
-[Groq/openai/gpt-oss-120b API error 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Requested 8937, please reduce your message size and try again. Need more tokens? Upgrade to Dev Tier today at https]
+[Groq/openai/gpt-oss-120b API error 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Requested 8859, please reduce your message size and try again. Need more tokens? Upgrade to Dev Tier today at https]
 
 ## Mistral open-mistral-nemo
 
 **FACTUAL ERRORS:**
-- **"Dahej ran at 92% of capacity while PNGRB’s own data point to the pipeline out, not the tank, as the constraint"** — The claim conflates two timeframes: Dahej’s utilisation is reported at **91.9% for April–May 2026** (PPAC data) and **~85% on the enlarged 22.5 MMTPA capacity in April–June 2026** (Petronet’s own results), but the pipeline constraint (GSPL’s ~40 MMSCMD capacity vs. ~130 MMSCMD regas capacity in Gujarat) is a **long-standing issue** (not specific to 2026). The article’s phrasing misrepresents the temporal link between utilisation and pipeline constraints. [confidence: high]
+- **"Dahej ran at 92% of capacity while PNGRB’s own data point to the pipeline out, not the tank, as the constraint"** — The claim conflates two timeframes: Dahej’s utilisation is reported as **91.9% in April–May 2026** (PPAC data) but **92% is referenced as a year-earlier baseline (2024–25)**. The pipeline constraint is correctly attributed to PNGRB’s 2025 report, but the 92% figure is inconsistent with the 91.9% cited later in the same article. [confidence: high]
 
 **INTERPRETATION ERRORS:**
-- **"India’s new onshore terminals cost ₹950–1,290 crore per MMTPA, ran 22–35 months late"** — While the cost and delay ranges are factually correct, the claim **misrepresents causality**: the delays are primarily driven by **marine works (breakwaters, dredging), evacuation pipeline gaps, and regulatory hurdles** (e.g., Dabhol’s breakwater took 44 months; Jafrabad’s FSRU is still unoperational due to charter failures). The article later acknowledges this but frames the delays as generic project inefficiencies rather than systemic bottlenecks tied to **location-specific constraints** (e.g., Gujarat’s pipeline choke vs. Dahej’s pre-existing infrastructure). [confidence: high]
+- **"India’s new onshore terminals cost ₹950–1,290 crore per MMTPA, ran 22–35 months late"** — While the cost and delay ranges are factually plausible, the claim **misrepresents causality**: the delays are not inherently tied to the cost per MMTPA (e.g., Chhara’s ₹950 crore/MMTPA was 29 months late, but Mundra’s ₹1,008 crore/MMTPA was only 22 months late). The article later notes that **marine works (breakwaters, jetties) drive both cost and delay**, not the terminal type alone. [confidence: high]
 
 **OUTDATED DATA:**
-- **"PPAC’s latest Ready Reckoner lists 53.5 MMTPA of regasification capacity"** — As of **June 2026** (PPAC’s May 2026 Ready Reckoner), Dahej’s expansion to **22.5 MMTPA (commissioned 31 March 2026)** is **not reflected** in the capacity figures cited (still listed at 17.5 MMTPA). The article notes this discrepancy but does not adjust the **total nameplate capacity** (should be **~58.5 MMTPA**, not 53.5). [confidence: high]
-- **"LNG imports for 2025-26 and June–September 2026"** — The article cites **provisional PPAC data** for these periods but does not clarify whether these are **finalised figures** or **preliminary estimates**. For example, the **2025-26 import figure (34,216 MMSCM)** may be updated in PPAC’s **final annual report** (due ~December 2026). [confidence: medium]
+- **"PPAC’s latest Ready Reckoner lists 53.5 MMTPA of regas capacity"** — As of **June 2026**, PPAC’s *May 2026 Ready Reckoner* (Table 21) already reflects Dahej’s expansion to **22.5 MMTPA**, making the total **~58.5 MMTPA**. The article’s claim is accurate but cites the *April 2025* PNGRB demand paper (p.21) instead of the newer PPAC data. [confidence: high]
 
 ---
-**Note:** The article’s reliance on **press reports** (e.g., PTI, ICRA) for cost/schedule data introduces potential variability, but these were flagged only where they conflicted with **direct PPAC/PNGRB sources** (e.g., Dahej’s capacity lag). No **stylistic or minor inconsistencies** were flagged per instructions.
+*Note: No other distinct factual, interpretive, or outdated-data issues were identified.*

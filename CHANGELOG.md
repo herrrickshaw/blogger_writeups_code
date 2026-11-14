@@ -18711,3 +18711,9 @@ scheduled sync
 - `from-fuel-to-fibre-indias-textile` — 40,096 → 41,677 bytes (+1,581)
 - `iem-conversion-historical-performance` — 25,106 → 26,232 bytes (+1,126)
 - `where-indias-factories-actually-get` — 47,717 → 48,843 bytes (+1,126)
+
+## 2026-11-14T11:57:30+05:30 — 517 posts live
+
+**Added**
+
+- `indias-spare-crop-residue-could-make-57` **v1.0.0** — India’s Spare Crop Residue Could Make 57 Million Tonnes of Biochar a Year. Only Two Crop–State Pairs Stay Near the Top However You Weigh It (112,100 bytes)
