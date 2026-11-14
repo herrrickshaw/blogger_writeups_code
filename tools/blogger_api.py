@@ -528,6 +528,65 @@ def rebrand(text):
     return text
 
 
+def set_h1(body, title):
+    """Replace the text of the first <h1> in a post body with the new title, keeping its
+    attributes. Returns the body unchanged if the post has no <h1> (the theme shows the
+    Blogger title on those)."""
+    esc = html.escape(title, quote=False)
+    return re.sub(r"(<h1\b[^>]*>).*?(</h1>)", lambda m: m.group(1) + esc + m.group(2), body, count=1, flags=re.S)
+
+
+def cmd_retitle(args):
+    """Apply new titles from a TSV (slug<TAB>title): sets the Blogger title and the first
+    <h1> in the body; the post address never changes. Skips posts already titled, so it is
+    safe to re-run after the daily write ceiling stops it."""
+    want = {}
+    for line in pathlib.Path(args.file).read_text(encoding="utf-8").splitlines():
+        if "\t" in line and not line.startswith("#"):
+            s, t = line.split("\t", 1)
+            want[s.strip()] = t.strip()
+    live, token = {}, None
+    while True:
+        q = {"status": "live", "fetchBodies": "true", "maxResults": 20, "view": "ADMIN"}
+        if token:
+            q["pageToken"] = token
+        page = api(f"/blogs/{BLOG_ID}/posts?{urllib.parse.urlencode(q)}")
+        for p in page.get("items", []):
+            live[p["url"].rsplit("/", 1)[-1][:-5]] = p
+        token = page.get("nextPageToken")
+        if not token:
+            break
+    todo, missing = [], [s for s in want if s not in live]
+    for s, t in want.items():
+        p = live.get(s)
+        if not p:
+            continue
+        body = p.get("content") or ""
+        new = migrate_links(set_h1(body, t))
+        if p["title"] != t or new != body:
+            todo.append((s, p, t, new))
+    print(f"{len(want)} titles in {args.file}; {len(todo)} to change; "
+          f"{len(want) - len(todo) - len(missing)} already done; {len(missing)} not live (skipped)")
+    if args.limit:
+        todo = todo[:args.limit]
+    done = failed = 0
+    try:
+        for s, p, t, new in todo:
+            print(f"  {s}\n    {p['title'][:100]}\n -> {t}")
+            ok = do_update(p["id"], p["url"], t, new, published=p.get("published"),
+                           labels=p.get("labels"), dry_run=args.dry_run)
+            done += ok
+            failed += (not ok)
+            if not args.dry_run:
+                time.sleep(WRITE_GAP_SECONDS)
+    except Ceiling as err:
+        print(f"\ndaily write ceiling reached after {done} writes: {err}")
+        print("re-run tomorrow: retitled posts are skipped")
+        sys.exit(3)
+    print(f"\n{'DRY RUN: ' if args.dry_run else ''}{done} retitled, {failed} failed verification")
+    sys.exit(0 if not failed else 2)
+
+
 def cmd_migrate_domain(args):
     """Rewrite masaladeutsch.blogspot.com links to blog.vertistratsolution.com in every
     live post and page (drafts too with --drafts). Each body is read from the API at run
@@ -686,6 +745,10 @@ def main():
     md.add_argument("--drafts", action="store_true", help="also rewrite draft posts")
     md.add_argument("--limit", type=int, default=0, help="write at most N posts this run")
     md.add_argument("--dry-run", action="store_true"); md.set_defaults(fn=cmd_migrate_domain)
+
+    rt = sub.add_parser("retitle", help="apply new titles from a slug<TAB>title file (Blogger title and body h1)")
+    rt.add_argument("--file", required=True); rt.add_argument("--limit", type=int, default=0)
+    rt.add_argument("--dry-run", action="store_true"); rt.set_defaults(fn=cmd_retitle)
 
     b = sub.add_parser("bulk"); b.add_argument("--manifest", required=True)
     b.add_argument("--limit", type=int, default=0)

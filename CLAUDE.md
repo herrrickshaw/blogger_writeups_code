@@ -1,8 +1,14 @@
 # CLAUDE.md — working in this repository
 
-This is the version-history archive for **masaladeutsch.blogspot.com**. Blogger
+This is the version-history archive for the blog now published as **VertiStrat Solutions**
+at **blog.vertistratsolution.com** (formerly Masala Deutsch, masaladeutsch.blogspot.com;
+migrated 14 Nov 2026 -- never write the old domain or name into a post). Blogger
 keeps no usable revision history, so this repo is the only way to see what a post
 used to say, or to put it back.
+
+**Titles and section headings follow `docs/HEADLINE_STYLE.md`** (plain reference tone:
+"Subject: what the data shows", sentence case, <= 90 characters, no idioms or teasers),
+so they survive the 15-language translate widget.
 
 **The single most important fact: `posts/` and `meta/` are OUTPUTS, not a
 workspace.** `tools/snapshot.py` writes them by pulling the live blog. Editing

@@ -26,6 +26,10 @@ G = ROOT / "out/gsc_index"
 revert = {l.strip() for l in (G / "phase1_revert_to_draft.txt").read_text().splitlines()
           if l.strip() and not l.startswith("#")}
 titles = dict(l.split("\t", 1) for l in (G / "phase1_titles.tsv").read_text().splitlines() if "\t" in l)
+# house-style titles (docs/HEADLINE_STYLE.md), applied before the next snapshot catches up
+RT = ROOT / "out/retitle/titles.tsv"
+if RT.exists():
+    titles.update(dict(l.split("\t", 1) for l in RT.read_text(encoding="utf-8").splitlines() if "\t" in l))
 
 with tempfile.TemporaryDirectory() as td:
     graph = pathlib.Path(td) / "graph.json"
