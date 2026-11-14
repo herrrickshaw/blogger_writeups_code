@@ -154,6 +154,13 @@ def lint(spec):
                 errs.append(f"section {i} bar chart has no 'accent': name the label (or labels) the title is about so exactly the finding is highlighted")
         if c.get("type") == "line" and not c.get("accent"):
             errs.append(f"section {i} line chart has no 'accent' series")
+        if c.get("type") == "line":
+            ser = c.get("series", {})
+            if any(len(v) < 4 for v in ser.values()):
+                errs.append(f"section {i} line chart has a series with under 4 points: use bars for two or three readings")
+            hi = [max(abs(y) for _, y in v) for v in ser.values() if v]
+            if hi and max(hi) > 20 * max(min(hi), 1e-9):
+                errs.append(f"section {i} line chart puts series of very different size on one axis (largest {max(hi):g}, smallest {min(hi):g}): chart one series, or use bars")
         for k in ("means", "todo"):
             if not one(s.get(k, "")):
                 errs.append(f"section {i} '{k}' must be exactly one sentence ending in a full stop (no '. Capital' inside): {plain(s.get(k, ''))[:80]!r}")

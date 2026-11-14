@@ -206,8 +206,13 @@ def waterfall(title, start, steps, end_label, *, unit="", sub="", source="", acc
     return _fig(title, sub, "".join(out), source)
 
 
+def _us(unit):
+    """Unit as a suffix: a word unit gets a space ("3,177 thousand tonnes"), % and symbols do not."""
+    return " " + unit if unit and re.match(r"[A-Za-z]", unit) else unit
+
+
 def _line_svg(series, accent, W, fs, unit, yfmt, cls):
-    longest = max(len(f"{_html.unescape(k)} {yfmt(s[-1][1])}{unit}") for k, s in series.items())
+    longest = max(len(f"{_html.unescape(k)} {yfmt(s[-1][1])}{_us(unit)}") for k, s in series.items())
     H, L, T, B = (230 if W < 500 else 260), 8, 22, 26
     R = min(int(longest * fs * 0.6) + 14, W // 2)
     xs = [x for s in series.values() for x, _ in s]
@@ -219,7 +224,7 @@ def _line_svg(series, accent, W, fs, unit, yfmt, cls):
     s = [f'<svg class="xv-svg {cls}" viewBox="0 0 {W} {H}" role="img" aria-hidden="{"true" if cls == "xv-wide" else "false"}" '
          f'font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif">',
          f'<line x1="{L}" x2="{W - R}" y1="{py(y0):.1f}" y2="{py(y0):.1f}" stroke="{LINE}" stroke-width="1"/>',
-         f'<text x="{L}" y="{T - 8}" font-size="{fs - 1}" fill="{SOFT}">{yfmt(y1 / 1.08)}{unit}</text>',
+         f'<text x="{L}" y="{T - 8}" font-size="{fs - 1}" fill="{SOFT}">{yfmt(y1 / 1.08)}{_us(unit)}</text>',
          f'<line x1="{L}" x2="{W - R}" y1="{py(y1 / 1.08):.1f}" y2="{py(y1 / 1.08):.1f}" stroke="{LINE}" stroke-width="1"/>',
          f'<text x="{L}" y="{H - 6}" font-size="{fs - 1}" fill="{SOFT}">{x0:g}</text>',
          f'<text x="{W - R}" y="{H - 6}" font-size="{fs - 1}" fill="{SOFT}" text-anchor="end">{x1:g}</text>']
@@ -230,7 +235,7 @@ def _line_svg(series, accent, W, fs, unit, yfmt, cls):
         c, w = (ACCENT, 2.5) if k == accent else (GREY, 2)
         d = " ".join(f"{'M' if i == 0 else 'L'}{px(x):.1f},{py(y):.1f}" for i, (x, y) in enumerate(pts))
         s.append(f'<path d="{d}" fill="none" stroke="{c}" stroke-width="{w}" stroke-linejoin="round" stroke-linecap="round">'
-                 f'<title>{esc(_html.unescape(k))}: {yfmt(pts[0][1])} to {yfmt(pts[-1][1])}{unit}</title></path>')
+                 f'<title>{esc(_html.unescape(k))}: {yfmt(pts[0][1])} to {yfmt(pts[-1][1])}{_us(unit)}</title></path>')
         xe, ye = pts[-1]
         s.append(f'<circle cx="{px(xe):.1f}" cy="{py(ye):.1f}" r="4" fill="{c}" stroke="#fff" stroke-width="2"/>')
         ends.append([py(ye), k, yfmt(ye), k == accent])
@@ -239,7 +244,7 @@ def _line_svg(series, accent, W, fs, unit, yfmt, cls):
         ends[i][0] = max(ends[i][0], ends[i - 1][0] + fs + 2)
     for y, k, v, a in ends:
         s.append(f'<text x="{W - R + 8}" y="{y + fs / 3:.1f}" font-size="{fs}" fill="{INK}" font-weight="{800 if a else 500}">'
-                 f'{esc(_html.unescape(k))} {v}{unit}</text>')
+                 f'{esc(_html.unescape(k))} {v}{_us(unit)}</text>')
     s.append("</svg>")
     return "".join(s)
 
