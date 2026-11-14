@@ -23,8 +23,8 @@ Nothing here is published. Editions are `out/update-2026-11-15-<slug>.html`; pub
 | the-milk-india-doesnt-drink-cheese-and | 4,430 to 3,314 | 3 bar + 1 timeline | 143k | 149s |
 | guar-gum-indias-35-billion-export-peak | 2,270 to 1,651 | 4 bar | 128k | 108s |
 | global-biofuels-m-bankruptcy-bolt-on | 2,384 to 2,034 | 4 bar | 137k | 132s |
-| sixteen-crops-twenty-years-where-indias | see edition | 4 bar | 149k | 187s |
-| where-indias-fdi-actually-lands-state | see edition | 4 bar | 153k | 176s |
+| sixteen-crops-twenty-years-where-indias | 3,706 to 2,203 | 4 bar | 149k | 187s |
+| where-indias-fdi-actually-lands-state | 4,741 to 2,516 | 4 bar | 153k | 176s |
 | one-nation-one-ration-card-doesnt-move | 7,765 to 2,767 | 4 bar | 145k | 147s |
 
 Cost to scale: about 140k tokens and 2.5 minutes per post, so the 246-post queue is roughly 35 million tokens
