@@ -4,15 +4,15 @@
   "url": "https://blog.vertistratsolution.com/2026/10/biogas-is-priority-sector-loan-43.html",
   "slug": "biogas-is-priority-sector-loan-43",
   "published": "2026-10-16T10:51:21.000+05:30",
-  "updated": "2026-11-14T15:10:33.139+05:30",
+  "updated": "2026-11-14T16:28:56.261+05:30",
   "labels": [
     "City Gas Distribution",
     "Energy & Fuels",
     "Gas & LNG",
     "Markets & Finance"
   ],
-  "bytes": 36137,
-  "sha256": "f075781432c72140d40a96a0e453ce161ab4eebacf119eb9f7b2741979579ac1",
+  "bytes": 36190,
+  "sha256": "a9c622be8816dc5aaed3420bc30ed6761f19764fe7c96f8c712f5acc216fce30",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.0",
+  "version": "3.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -83,6 +83,19 @@
       "bytes": [
         36183,
         36137
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.0.0",
+      "date": "2026-11-14T16:33:16+05:30",
+      "level": "major",
+      "reason": "figures changed (+2/-0 distinct numbers)",
+      "bytes": [
+        36137,
+        36190
       ],
       "url_changed": null,
       "markers_changed": null,

@@ -1,15 +1,15 @@
 {
   "id": "4944973073342428982",
-  "title": "Where the World's Oil Sits When It Isn't Moving: Storage, Floating Barrels, and the Hormuz Shock of 2026",
+  "title": "Global oil storage: onshore tanks and floating barrels in the 2026 Hormuz shock",
   "url": "https://blog.vertistratsolution.com/2026/08/where-worlds-oil-sits-when-it-isnt.html",
   "slug": "where-worlds-oil-sits-when-it-isnt",
   "published": "2026-08-14T07:00:46.000+05:30",
-  "updated": "2026-11-14T13:22:19.165+05:30",
+  "updated": "2026-11-14T16:15:00.155+05:30",
   "labels": [
     "Energy & Fuels"
   ],
-  "bytes": 54639,
-  "sha256": "777ffb95ad809eb2ed1e1657ea6e81cbd22c16eb96ee0b2a52d9442d5e746eb4",
+  "bytes": 54614,
+  "sha256": "48fa61465a2e1b435c032ee90a56e9cc78e0dd0b631a426d53b7c6b5f79b4fa4",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.1.2",
+  "version": "4.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -223,6 +223,19 @@
       "bytes": [
         54635,
         54639
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "4.0.0",
+      "date": "2026-11-14T16:33:16+05:30",
+      "level": "major",
+      "reason": "section(s) removed: Where the World's Oil Sits When It Isn't Moving: Storage, Floating Barrels, and the Hormuz Shock of 2026",
+      "bytes": [
+        54639,
+        54614
       ],
       "url_changed": null,
       "markers_changed": null,

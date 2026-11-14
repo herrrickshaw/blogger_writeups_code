@@ -4,14 +4,14 @@
   "url": "https://blog.vertistratsolution.com/2026/10/indias-lysine-deficit-is-102-million.html",
   "slug": "indias-lysine-deficit-is-102-million",
   "published": "2026-10-10T21:36:17.000+05:30",
-  "updated": "2026-11-14T15:42:05.943+05:30",
+  "updated": "2026-11-14T16:32:44.870+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Chemicals",
     "Trade & Tariffs"
   ],
-  "bytes": 30937,
-  "sha256": "859806c2115c66b3429275919099e368310ecdfc44b8932e89e4a71290d25763",
+  "bytes": 30924,
+  "sha256": "88c282e211ee12ffdca5b2ad7151ee4a00ffd643327c6eeac84726e851d0d472",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.0",
+  "version": "3.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -95,6 +95,19 @@
       "bytes": [
         31022,
         30937
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.0.0",
+      "date": "2026-11-14T16:33:16+05:30",
+      "level": "major",
+      "reason": "figures changed (+1/-0 distinct numbers)",
+      "bytes": [
+        30937,
+        30924
       ],
       "url_changed": null,
       "markers_changed": null,

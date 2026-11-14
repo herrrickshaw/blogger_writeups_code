@@ -1,16 +1,16 @@
 {
   "id": "3706872991888402287",
-  "title": "What Seven Model Stock Portfolios Look Like Once You Check Them Against the Index",
+  "title": "Model stock portfolios: 7 checked against the index, 1 clear outperformer",
   "url": "https://blog.vertistratsolution.com/2026/08/what-seven-model-stock-portfolios-look.html",
   "slug": "what-seven-model-stock-portfolios-look",
   "published": "2026-08-28T10:25:17.000+05:30",
-  "updated": "2026-11-14T13:09:38.168+05:30",
+  "updated": "2026-11-14T16:13:00.227+05:30",
   "labels": [
     "Data & Analytics",
     "Markets & Investing"
   ],
-  "bytes": 26010,
-  "sha256": "0a1468d12cbcca31edf00d857ca9a418dc628d4f128da206420ff1ab7c897f91",
+  "bytes": 26002,
+  "sha256": "fd2ad38f2ec7c918b4c6b04fad7f7ed23b0a7b2e614e3acd793545e6dde1070e",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.1.2",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -146,6 +146,19 @@
       "bytes": [
         26007,
         26010
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-11-14T16:33:16+05:30",
+      "level": "major",
+      "reason": "figures changed (+1/-0 distinct numbers)",
+      "bytes": [
+        26010,
+        26002
       ],
       "url_changed": null,
       "markers_changed": null,

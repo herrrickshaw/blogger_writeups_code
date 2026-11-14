@@ -1,16 +1,16 @@
 {
   "id": "6616971901295415719",
-  "title": "The World Bank Says 496 Million Indians Left Poverty. Its Own Note Says the Last Year’s Drop Is Partly a Better Survey",
+  "title": "World Bank on India: 496 million left poverty, last year's drop partly a better survey",
   "url": "https://blog.vertistratsolution.com/2026/11/the-world-bank-says-496-million-indians.html",
   "slug": "the-world-bank-says-496-million-indians",
   "published": "2026-11-07T06:17:42.000+05:30",
-  "updated": "2026-11-14T12:23:36.965+05:30",
+  "updated": "2026-11-14T16:09:16.097+05:30",
   "labels": [
     "Governance & Institutions",
     "Macroeconomics & Monetary Policy"
   ],
-  "bytes": 25686,
-  "sha256": "e97ef862ef7ccdcf9c465fbaafe0a067d7985223da1c6bbb672a6ae973f39674",
+  "bytes": 25648,
+  "sha256": "666dedb1900d2a42de004d78823b21a41f2df3e129ef8a9e1801e78ba4eeba35",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.2",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -55,6 +55,19 @@
       "bytes": [
         25678,
         25686
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-11-14T16:33:16+05:30",
+      "level": "major",
+      "reason": "section(s) removed: The World Bank Says 496 Million Indians Left Poverty. Its Own Note Says the Last Year&rsquo;s Drop Is Partly a Better Survey",
+      "bytes": [
+        25686,
+        25648
       ],
       "url_changed": null,
       "markers_changed": null,

@@ -1,16 +1,16 @@
 {
   "id": "3101128453072388526",
-  "title": "Where India's FDI Actually Lands: 24 Quarters of DPIIT's Own State-and-District Data",
+  "title": "FDI in India by state and district: 24 quarters of DPIIT data from October 2019",
   "url": "https://blog.vertistratsolution.com/2026/09/where-indias-fdi-actually-lands-state.html",
   "slug": "where-indias-fdi-actually-lands-state",
   "published": "2026-09-03T13:14:49.000+05:30",
-  "updated": "2026-11-14T13:03:48.152+05:30",
+  "updated": "2026-11-14T16:14:10.006+05:30",
   "labels": [
     "Industrial Policy",
     "Markets & Finance"
   ],
-  "bytes": 53757,
-  "sha256": "38ab64c74840aa4cf883ed6721a156a8a939479aabfbf3e0e9bf5d3906baec18",
+  "bytes": 53752,
+  "sha256": "96298dff6e379b695351c2522c30fa5b8bcf807a087fff5a9bbd4fedf2ac5f69",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.2.3",
+  "version": "3.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -159,6 +159,19 @@
       "bytes": [
         53754,
         53757
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.0.0",
+      "date": "2026-11-14T16:33:16+05:30",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        53757,
+        53752
       ],
       "url_changed": null,
       "markers_changed": null,

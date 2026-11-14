@@ -1,17 +1,17 @@
 {
   "id": "7340128580742502464",
-  "title": "The Margin Case: Why LPG and Petrochemicals Beat Petrol, From the Same Barrel",
+  "title": "Indian refining margins: $4–6 a barrel, with LPG and petrochemicals beating petrol",
   "url": "https://blog.vertistratsolution.com/2026/08/the-margin-case-why-lpg-and.html",
   "slug": "the-margin-case-why-lpg-and",
   "published": "2026-08-13T08:58:40.000+05:30",
-  "updated": "2026-11-14T13:22:57.283+05:30",
+  "updated": "2026-11-14T16:05:26.570+05:30",
   "labels": [
     "Chemicals",
     "Energy & Fuels",
     "Refining & Petrochemicals"
   ],
-  "bytes": 43108,
-  "sha256": "ed20f5f46473bfb0281a83e7be94ce4715f052b5dd5aa630bfb0e0c773629089",
+  "bytes": 43113,
+  "sha256": "81082bb153d9023e1dea7a07a51731c9cb5bc6d99046ab29f923921c5d0ae673",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.2.2",
+  "version": "4.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -264,6 +264,19 @@
       "bytes": [
         43103,
         43108
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "4.0.0",
+      "date": "2026-11-14T16:33:16+05:30",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        43108,
+        43113
       ],
       "url_changed": null,
       "markers_changed": null,

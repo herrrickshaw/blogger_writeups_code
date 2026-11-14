@@ -1,16 +1,16 @@
 {
   "id": "3750506158663005147",
-  "title": "The Most Discussed Schemes in Parliament — Lok Sabha & Rajya Sabha",
+  "title": "Schemes most discussed in Parliament: 51 actively monitored, 10 never questioned",
   "url": "https://blog.vertistratsolution.com/2026/08/the-most-discussed-schemes-in.html",
   "slug": "the-most-discussed-schemes-in",
   "published": "2026-08-19T15:50:00.000+05:30",
-  "updated": "2026-11-14T13:17:37.738+05:30",
+  "updated": "2026-11-14T16:06:06.002+05:30",
   "labels": [
     "Industrial Policy",
     "Parliamentary Scheme Tracking"
   ],
-  "bytes": 36484,
-  "sha256": "0544865bfd21625a73025cf41938f58782c07b9be366635687d7d76e4089153c",
+  "bytes": 36524,
+  "sha256": "235554fac04074be5a1f3f984a0da5c7cf1a71ac09322e6e3614b8cde9727b46",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.2.2",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -311,6 +311,19 @@
       "bytes": [
         36479,
         36484
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-11-14T16:33:16+05:30",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        36484,
+        36524
       ],
       "url_changed": null,
       "markers_changed": null,

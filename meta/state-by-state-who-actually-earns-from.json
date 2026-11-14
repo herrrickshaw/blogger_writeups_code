@@ -4,12 +4,12 @@
   "url": "https://blog.vertistratsolution.com/2026/08/state-by-state-who-actually-earns-from.html",
   "slug": "state-by-state-who-actually-earns-from",
   "published": "2026-08-02T17:07:30.000+05:30",
-  "updated": "2026-11-14T15:58:55.605+05:30",
+  "updated": "2026-11-14T16:27:59.813+05:30",
   "labels": [
     "Energy & Fuels"
   ],
-  "bytes": 59992,
-  "sha256": "1a878c1945f6c7d6547ddc192cb964d9b4a1813f7c692bcc20f303c222799030",
+  "bytes": 89306,
+  "sha256": "32de8d31070ec008c9336481b1274496378c84212dd6e0341f3c33a4b60913f6",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "4.0.0",
+  "version": "5.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -301,6 +301,19 @@
       "bytes": [
         59966,
         59992
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "5.0.0",
+      "date": "2026-11-14T16:33:16+05:30",
+      "level": "major",
+      "reason": "figures changed (+253/-28 distinct numbers)",
+      "bytes": [
+        59992,
+        89306
       ],
       "url_changed": null,
       "markers_changed": null,

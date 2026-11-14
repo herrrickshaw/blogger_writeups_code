@@ -1,16 +1,16 @@
 {
   "id": "7425363437817305526",
-  "title": "Which ECB Currencies Are Actually Investable, Once Real Volatility Replaces the Theory",
+  "title": "External commercial borrowing: which currencies are investable with real volatility",
   "url": "https://blog.vertistratsolution.com/2026/08/which-ecb-currencies-are-actually.html",
   "slug": "which-ecb-currencies-are-actually",
   "published": "2026-08-14T18:53:36.000+05:30",
-  "updated": "2026-11-14T13:20:39.546+05:30",
+  "updated": "2026-11-14T16:31:14.253+05:30",
   "labels": [
     "Markets & Finance",
     "Sustainable Finance"
   ],
-  "bytes": 26300,
-  "sha256": "173b3a7b20d5656f1b4819a1c03a89dea42ff36be75e895543893bd296e97eac",
+  "bytes": 26182,
+  "sha256": "7cb3419f59a94e10e117c6dfa35d49b31f704a9d0048ccf5d77c1ae305d65424",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.2",
+  "version": "4.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -185,6 +185,19 @@
       "bytes": [
         26295,
         26300
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "4.0.0",
+      "date": "2026-11-14T16:33:16+05:30",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        26300,
+        26182
       ],
       "url_changed": null,
       "markers_changed": null,

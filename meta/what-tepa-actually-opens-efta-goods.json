@@ -1,16 +1,16 @@
 {
   "id": "235349681595122068",
-  "title": "What TEPA Actually Opens: EFTA Goods, India's Real Numbers, and Where Domestic Manufacturing Needs to Catch Up",
+  "title": "India-EFTA TEPA: in force since 1 October 2025, with a $100 billion commitment",
   "url": "https://blog.vertistratsolution.com/2026/08/what-tepa-actually-opens-efta-goods.html",
   "slug": "what-tepa-actually-opens-efta-goods",
   "published": "2026-08-14T12:27:50.000+05:30",
-  "updated": "2026-11-14T13:21:20.211+05:30",
+  "updated": "2026-11-14T16:13:19.891+05:30",
   "labels": [
     "Free Trade Agreements",
     "Trade & Tariffs"
   ],
-  "bytes": 31945,
-  "sha256": "09cc8e51c37e06a07577a0591008b223014299e8cf959202c774690a2c9bd73e",
+  "bytes": 31913,
+  "sha256": "16ea18f99db46ccd65dccadba85d06fe6339d8503e455bc381de46847d428e82",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.2.2",
+  "version": "3.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -185,6 +185,19 @@
       "bytes": [
         31937,
         31945
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.0.0",
+      "date": "2026-11-14T16:33:16+05:30",
+      "level": "major",
+      "reason": "figures changed (+1/-0 distinct numbers)",
+      "bytes": [
+        31945,
+        31913
       ],
       "url_changed": null,
       "markers_changed": null,

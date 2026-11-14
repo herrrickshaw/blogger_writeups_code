@@ -1,17 +1,17 @@
 {
   "id": "7777114023128798759",
-  "title": "The Detergent Chemical India Exports, and the Diaper Chemical It Imports Completely",
+  "title": "Detergent and diaper chemicals in India: LAB exported, SAP mostly imported",
   "url": "https://blog.vertistratsolution.com/2026/09/the-detergent-chemical-india-exports.html",
   "slug": "the-detergent-chemical-india-exports",
   "published": "2026-09-01T18:38:29.000+05:30",
-  "updated": "2026-11-14T13:06:18.309+05:30",
+  "updated": "2026-11-14T16:03:29.094+05:30",
   "labels": [
     "Chemicals",
     "Quality Standards & Certification",
     "Trade & Tariffs"
   ],
-  "bytes": 54290,
-  "sha256": "76c26f4d7d8cac5d83bdfd86b3b650661a1e2392b19e21dc67e3b8d825dd9704",
+  "bytes": 54281,
+  "sha256": "fb8da2b7ba40e8b769c1b615cbf040cc7ae4ca60b8a31d4176a8df729d46c1de",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.6.2",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -199,6 +199,19 @@
       "bytes": [
         54285,
         54290
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-11-14T16:33:16+05:30",
+      "level": "major",
+      "reason": "section(s) removed: The Detergent Chemical India Exports, and the Diaper Chemical It Imports Completely",
+      "bytes": [
+        54290,
+        54281
       ],
       "url_changed": null,
       "markers_changed": null,

@@ -1,16 +1,16 @@
 {
   "id": "2906394065511429472",
-  "title": "Where India’s Factories Actually Get Built — IEM State & Sector Analysis",
+  "title": "Factory investment in India: 63.3% in Gujarat, Odisha and Maharashtra, 2021-2025",
   "url": "https://blog.vertistratsolution.com/2026/08/where-indias-factories-actually-get.html",
   "slug": "where-indias-factories-actually-get",
   "published": "2026-08-02T12:14:17.000+05:30",
-  "updated": "2026-11-14T13:41:26.305+05:30",
+  "updated": "2026-11-14T16:13:59.995+05:30",
   "labels": [
     "Industrial Policy",
     "State Investment Incentives"
   ],
-  "bytes": 48849,
-  "sha256": "32a12c7463b541bab8756caa660444f64524b00431c32897aa5e92257f830e65",
+  "bytes": 48853,
+  "sha256": "456ac3d982c368724d9545080a00e52e43e1d2392549ee4c152b743e04c674ec",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "4.0.1",
+  "version": "5.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -276,6 +276,19 @@
       "bytes": [
         48843,
         48849
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "5.0.0",
+      "date": "2026-11-14T16:33:16+05:30",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        48849,
+        48853
       ],
       "url_changed": null,
       "markers_changed": null,

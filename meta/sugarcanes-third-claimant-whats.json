@@ -4,14 +4,14 @@
   "url": "https://blog.vertistratsolution.com/2026/08/sugarcanes-third-claimant-whats.html",
   "slug": "sugarcanes-third-claimant-whats",
   "published": "2026-08-28T21:08:06.000+05:30",
-  "updated": "2026-11-14T15:59:34.848+05:30",
+  "updated": "2026-11-14T16:30:13.281+05:30",
   "labels": [
     "Chemicals",
     "Circularity & Waste-to-Value",
     "Ethanol & Biofuels"
   ],
-  "bytes": 38231,
-  "sha256": "acb90414a0bc8af7789a22510f86197b9f9fac10592241745cd175118cd270a5",
+  "bytes": 38230,
+  "sha256": "8e149c522dafdfacc9bfed222902763dee735e655de835cf61cc688eaf03037f",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "5.0.0",
+  "version": "6.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -199,6 +199,19 @@
       "bytes": [
         38252,
         38231
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "6.0.0",
+      "date": "2026-11-14T16:33:16+05:30",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        38231,
+        38230
       ],
       "url_changed": null,
       "markers_changed": null,

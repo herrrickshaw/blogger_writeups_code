@@ -4,14 +4,14 @@
   "url": "https://blog.vertistratsolution.com/2026/09/lng-trucks-cost-about-what-diesel-does.html",
   "slug": "lng-trucks-cost-about-what-diesel-does",
   "published": "2026-09-01T22:28:14.000+05:30",
-  "updated": "2026-11-14T15:48:23.947+05:30",
+  "updated": "2026-11-14T16:27:27.358+05:30",
   "labels": [
     "Energy & Fuels",
     "Gas & LNG",
     "LNG Trucking & Fleet Conversion"
   ],
-  "bytes": 37239,
-  "sha256": "f062b63d280ac0f1b75853f9b6f1f7c3597fdc5d7b0f4437b00b4300146026c0",
+  "bytes": 38186,
+  "sha256": "d7cb41b365db3babf2d5d7091c08edde547a6cf7acc0de159af1a5e98f0e82b3",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.0",
+  "version": "3.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -160,6 +160,19 @@
       "bytes": [
         37269,
         37239
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.0.0",
+      "date": "2026-11-14T16:33:16+05:30",
+      "level": "major",
+      "reason": "figures changed (+8/-3 distinct numbers)",
+      "bytes": [
+        37239,
+        38186
       ],
       "url_changed": null,
       "markers_changed": null,

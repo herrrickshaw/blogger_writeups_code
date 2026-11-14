@@ -1,10 +1,10 @@
 {
   "id": "212396316685707154",
-  "title": "The Phone PLI's Successor Pays Up to 5%, Wants 15% Growth a Year, and Offers 0.2% to Make the Cell Here",
+  "title": "Smartphone PLI successor: up to 5% above 15% yearly growth, 0.20% for battery cells",
   "url": "https://blog.vertistratsolution.com/2026/10/the-phone-plis-successor-pays-up-to-5.html",
   "slug": "the-phone-plis-successor-pays-up-to-5",
   "published": "2026-10-26T14:47:42.000+05:30",
-  "updated": "2026-11-14T12:32:58.781+05:30",
+  "updated": "2026-11-14T16:06:35.536+05:30",
   "labels": [
     "Electronics & Semiconductors",
     "Import Substitution",
@@ -12,8 +12,8 @@
     "PLI Schemes",
     "Trade & Tariffs"
   ],
-  "bytes": 28263,
-  "sha256": "1a4df498dfb0d1ac606ab0fd39b1cb0f83edd36e9048ce634f9ef6628a83720a",
+  "bytes": 28237,
+  "sha256": "56fa5ca6368d8338f4e818f3324ca7d1dcececc8cea45ce7c94a4ff3e040ea7e",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": false,
@@ -25,7 +25,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.2",
+  "version": "3.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -84,6 +84,19 @@
       "bytes": [
         28260,
         28263
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.0.0",
+      "date": "2026-11-14T16:33:16+05:30",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        28263,
+        28237
       ],
       "url_changed": null,
       "markers_changed": null,

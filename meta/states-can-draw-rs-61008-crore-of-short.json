@@ -4,13 +4,13 @@
   "url": "https://blog.vertistratsolution.com/2026/10/states-can-draw-rs-61008-crore-of-short.html",
   "slug": "states-can-draw-rs-61008-crore-of-short",
   "published": "2026-10-31T05:12:30.000+05:30",
-  "updated": "2026-11-14T15:59:05.524+05:30",
+  "updated": "2026-11-14T16:29:43.731+05:30",
   "labels": [
     "Governance & Institutions",
     "Macroeconomics & Monetary Policy"
   ],
-  "bytes": 25147,
-  "sha256": "7d380e1ea6e144d4acbe10be954693e773a0b9b8a595be5d415a154a1fd1b57a",
+  "bytes": 25171,
+  "sha256": "c6021d9a2f274dd919c03e99f818c3a75cd7d1a667207908e9304d59dffd184e",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.0",
+  "version": "3.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -68,6 +68,19 @@
       "bytes": [
         25213,
         25147
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.0.0",
+      "date": "2026-11-14T16:33:16+05:30",
+      "level": "major",
+      "reason": "figures changed (+2/-0 distinct numbers)",
+      "bytes": [
+        25147,
+        25171
       ],
       "url_changed": null,
       "markers_changed": null,

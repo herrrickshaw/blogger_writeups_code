@@ -1,17 +1,17 @@
 {
   "id": "48203542213791280",
-  "title": "West Bengal Sanctioned 12.6 Lakh PMAY-G Houses. It Has Finished 1.5 Lakh. The Reason Is a Four-Year Funds Freeze.",
+  "title": "PMAY-G in West Bengal: 12.6 lakh houses sanctioned, 1.5 lakh built, funds frozen 4 years",
   "url": "https://blog.vertistratsolution.com/2026/08/west-bengal-sanctioned-126-lakh-pmay-g.html",
   "slug": "west-bengal-sanctioned-126-lakh-pmay-g",
   "published": "2026-08-30T08:03:08.000+05:30",
-  "updated": "2026-11-14T13:08:27.341+05:30",
+  "updated": "2026-11-14T16:12:21.188+05:30",
   "labels": [
     "India",
     "Infrastructure & Investment",
     "Scheme Delivery Gap"
   ],
-  "bytes": 28285,
-  "sha256": "23fa4280b1011fab46d65421f008668f401fefad366e7e1f245b039d0a100965",
+  "bytes": 28260,
+  "sha256": "a5a12a223ffbc98cbb7600fcc13f9fe4ad2475bc7917c847efb574009bbd52fb",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.3.2",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -160,6 +160,19 @@
       "bytes": [
         28281,
         28285
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-11-14T16:33:16+05:30",
+      "level": "major",
+      "reason": "figures changed (+1/-0 distinct numbers)",
+      "bytes": [
+        28285,
+        28260
       ],
       "url_changed": null,
       "markers_changed": null,

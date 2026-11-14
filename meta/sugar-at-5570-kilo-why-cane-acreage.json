@@ -4,13 +4,13 @@
   "url": "https://blog.vertistratsolution.com/2026/08/sugar-at-5570-kilo-why-cane-acreage.html",
   "slug": "sugar-at-5570-kilo-why-cane-acreage",
   "published": "2026-08-21T21:04:54.000+05:30",
-  "updated": "2026-11-14T15:59:25.205+05:30",
+  "updated": "2026-11-14T16:29:57.862+05:30",
   "labels": [
     "Agriculture & Food Processing",
     "Ethanol & Biofuels"
   ],
-  "bytes": 34067,
-  "sha256": "f37226c2c406f3f05b491b4012ad82e46150390a1d82e5246f943e9125ac327c",
+  "bytes": 34066,
+  "sha256": "ce7b69970afd19a13cb1bc25782ac3759d26f887009429e26286db2ba40240e0",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "5.0.0",
+  "version": "6.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -211,6 +211,19 @@
       "bytes": [
         34089,
         34067
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "6.0.0",
+      "date": "2026-11-14T16:33:16+05:30",
+      "level": "major",
+      "reason": "figures changed (+1/-0 distinct numbers)",
+      "bytes": [
+        34067,
+        34066
       ],
       "url_changed": null,
       "markers_changed": null,

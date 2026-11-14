@@ -1,16 +1,16 @@
 {
   "id": "4599299138596017830",
-  "title": "India's State-by-State Investment Directory: 66 Confirmed Deals, Sector by Sector",
+  "title": "India's state-by-state investment directory: 66 confirmed deals, sector by sector",
   "url": "https://blog.vertistratsolution.com/2026/08/we-fact-checked-66-investment.html",
   "slug": "we-fact-checked-66-investment",
   "published": "2026-08-25T06:17:26.000+05:30",
-  "updated": "2026-11-14T13:11:39.680+05:30",
+  "updated": "2026-11-14T16:12:11.228+05:30",
   "labels": [
     "India",
     "Trade & Tariffs"
   ],
   "bytes": 68837,
-  "sha256": "a4f688c8d4d20135a69235f3c2403a954fdd8b4d6af70c3dd71fd33ce77e86e5",
+  "sha256": "151c47d59ee9dcc40ceb5eae5c62786ec0c75062bdb10ce790cb1ee7a0fd19c3",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.2.2",
+  "version": "3.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -145,6 +145,19 @@
       "reason": "visible text identical; only markup/styling changed",
       "bytes": [
         68832,
+        68837
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.0.0",
+      "date": "2026-11-14T16:33:16+05:30",
+      "level": "major",
+      "reason": "section(s) removed: India's State-by-State Investment Directory: 66 Confirmed Deals, Sector by Sector",
+      "bytes": [
+        68837,
         68837
       ],
       "url_changed": null,

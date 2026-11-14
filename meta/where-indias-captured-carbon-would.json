@@ -1,18 +1,18 @@
 {
   "id": "8417484502305983575",
-  "title": "Where India's Captured Carbon Would Actually Go: Two Named Wells, and a Lot of Basins on a Map",
+  "title": "Carbon storage in India: 2 named pilot wells, basins mapped without identified wells",
   "url": "https://blog.vertistratsolution.com/2026/08/where-indias-captured-carbon-would.html",
   "slug": "where-indias-captured-carbon-would",
   "published": "2026-08-28T07:52:34.000+05:30",
-  "updated": "2026-11-14T13:09:48.930+05:30",
+  "updated": "2026-11-14T16:13:49.330+05:30",
   "labels": [
     "Carbon Capture & Storage",
     "Climate & Carbon",
     "Energy & Fuels",
     "India"
   ],
-  "bytes": 29414,
-  "sha256": "24cabcefbc1d9a5e1a6650c419c70785ad55e2104679f26e6b9f31b02c463568",
+  "bytes": 29404,
+  "sha256": "ee7a8c450577fb7fc7edd94f0cada662976aa5e2babffa0e72a572be9833b5bf",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.2.2",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -135,6 +135,19 @@
       "bytes": [
         29410,
         29414
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-11-14T16:33:16+05:30",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        29414,
+        29404
       ],
       "url_changed": null,
       "markers_changed": null,

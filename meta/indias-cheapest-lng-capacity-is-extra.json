@@ -4,14 +4,14 @@
   "url": "https://blog.vertistratsolution.com/2026/10/indias-cheapest-lng-capacity-is-extra.html",
   "slug": "indias-cheapest-lng-capacity-is-extra",
   "published": "2026-10-23T18:33:39.000+05:30",
-  "updated": "2026-11-14T15:36:56.921+05:30",
+  "updated": "2026-11-14T16:32:21.511+05:30",
   "labels": [
     "Energy & Fuels",
     "Gas & LNG",
     "Industrial Policy"
   ],
-  "bytes": 51628,
-  "sha256": "75c6e6863c79b319d83d376d5bce23869b53c0ad0dbcd56e7deaad70d4efdbec",
+  "bytes": 51548,
+  "sha256": "fcca8869819df7e31ba96c3a40756c4b05719b4ca925895ef6bbb3dafecc52ff",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.0",
+  "version": "4.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -82,6 +82,19 @@
       "bytes": [
         51649,
         51628
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "4.0.0",
+      "date": "2026-11-14T16:33:16+05:30",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        51628,
+        51548
       ],
       "url_changed": null,
       "markers_changed": null,

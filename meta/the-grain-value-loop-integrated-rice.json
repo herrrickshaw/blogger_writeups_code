@@ -1,18 +1,18 @@
 {
   "id": "6758993569034587827",
-  "title": "The Grain Value Loop — Integrated Rice Biorefinery Pitch",
+  "title": "Rice biorefinery proposal: byproducts of about 520 LMT of rice go to millers free",
   "url": "https://blog.vertistratsolution.com/2026/07/the-grain-value-loop-integrated-rice.html",
   "slug": "the-grain-value-loop-integrated-rice",
   "published": "2026-07-31T10:00:00.000+05:30",
-  "updated": "2026-11-14T13:42:47.577+05:30",
+  "updated": "2026-11-14T16:04:27.037+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Energy & Fuels",
     "Grain Procurement & Storage",
     "Trade & Tariffs"
   ],
-  "bytes": 90442,
-  "sha256": "747879a066bccb8ebf0849c600b3a6b6b8b2ea898f1f06345fe46310b1c8b881",
+  "bytes": 90503,
+  "sha256": "4c2038eefa27220c78c288e5ef6332d3eb9f58fba750def1d7405487d5445422",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": true,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "5.1.2",
+  "version": "6.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -370,6 +370,19 @@
       "bytes": [
         90436,
         90442
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "6.0.0",
+      "date": "2026-11-14T16:33:16+05:30",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        90442,
+        90503
       ],
       "url_changed": null,
       "markers_changed": null,

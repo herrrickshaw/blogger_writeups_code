@@ -1,16 +1,16 @@
 {
   "id": "7697252404917481553",
-  "title": "UP Has India's Biggest Herd. Punjab Has India's Best Yield. The Census Behind Both Numbers Is Six Years Old.",
+  "title": "India's livestock census: UP has the largest herd, Punjab the top yield, 2019 data",
   "url": "https://blog.vertistratsolution.com/2026/08/up-has-indias-biggest-herd-punjab-has.html",
   "slug": "up-has-indias-biggest-herd-punjab-has",
   "published": "2026-08-09T09:57:06.000+05:30",
-  "updated": "2026-11-14T13:27:21.025+05:30",
+  "updated": "2026-11-14T16:11:31.516+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Livestock & Dairy"
   ],
-  "bytes": 30752,
-  "sha256": "460ac72485d5ca7c49ab69761277eacd9f6299c145764ead4b7484744c8057f2",
+  "bytes": 30726,
+  "sha256": "978dc36539029451bb7a335c4c6dc10724371868cc9b7c33634aca1731fe2ce1",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "4.1.2",
+  "version": "5.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -276,6 +276,19 @@
       "bytes": [
         30747,
         30752
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "5.0.0",
+      "date": "2026-11-14T16:33:16+05:30",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        30752,
+        30726
       ],
       "url_changed": null,
       "markers_changed": null,

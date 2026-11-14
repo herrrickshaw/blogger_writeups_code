@@ -4,14 +4,14 @@
   "url": "https://blog.vertistratsolution.com/2026/10/indias-ethanol-surplus-buys-about-five.html",
   "slug": "indias-ethanol-surplus-buys-about-five",
   "published": "2026-10-03T14:45:56.000+05:30",
-  "updated": "2026-11-14T15:39:12.917+05:30",
+  "updated": "2026-11-14T16:26:57.989+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Energy & Fuels",
     "Ethanol & Biofuels"
   ],
-  "bytes": 62400,
-  "sha256": "c00fafb6979f1881ffd19ba8e080b109318f3fc0b3d24e7c78e88e063ec0c3fa",
+  "bytes": 82548,
+  "sha256": "7926f54bd616380cadc97b7463b7c556882e5a508eede2bdec59f94fe2490757",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "8.0.0",
+  "version": "9.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -186,6 +186,19 @@
       "bytes": [
         62415,
         62400
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "9.0.0",
+      "date": "2026-11-14T16:33:16+05:30",
+      "level": "major",
+      "reason": "figures changed (+41/-0 distinct numbers)",
+      "bytes": [
+        62400,
+        82548
       ],
       "url_changed": null,
       "markers_changed": null,

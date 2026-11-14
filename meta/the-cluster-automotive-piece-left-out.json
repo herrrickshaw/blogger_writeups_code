@@ -1,16 +1,16 @@
 {
   "id": "3123938214878466887",
-  "title": "The Cluster the Automotive Piece Left Out: Pitching Madhya Pradesh as India's Sixth Hub",
+  "title": "Pithampur auto cluster: 120 large units and about 25,000 jobs, pitched as India's 6th hub",
   "url": "https://blog.vertistratsolution.com/2026/08/the-cluster-automotive-piece-left-out.html",
   "slug": "the-cluster-automotive-piece-left-out",
   "published": "2026-08-15T07:20:21.000+05:30",
-  "updated": "2026-11-14T13:20:19.115+05:30",
+  "updated": "2026-11-14T16:03:00.838+05:30",
   "labels": [
     "Industrial Policy",
     "Manufacturing"
   ],
-  "bytes": 25859,
-  "sha256": "9a3bc59a63c28c8babcce43d9f4c0de22079cf30f481049d377ed44a3897259b",
+  "bytes": 25861,
+  "sha256": "948805cf23904b66fd36c397c2de017f4e5eb5f09bb37040f8b0accca5861ce5",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.2.2",
+  "version": "3.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -198,6 +198,19 @@
       "bytes": [
         25855,
         25859
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.0.0",
+      "date": "2026-11-14T16:33:16+05:30",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        25859,
+        25861
       ],
       "url_changed": null,
       "markers_changed": null,

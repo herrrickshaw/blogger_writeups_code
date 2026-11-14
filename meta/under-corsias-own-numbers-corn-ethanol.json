@@ -1,16 +1,16 @@
 {
   "id": "4490239412864077844",
-  "title": "Under CORSIA's Own Numbers, Corn Ethanol Fails as Jet Fuel — Worse Than the Fossil Fuel It Would Replace",
+  "title": "Corn ethanol jet fuel under CORSIA: worse than the fossil fuel it replaces",
   "url": "https://blog.vertistratsolution.com/2026/09/under-corsias-own-numbers-corn-ethanol.html",
   "slug": "under-corsias-own-numbers-corn-ethanol",
   "published": "2026-09-23T16:31:55.000+05:30",
-  "updated": "2026-11-14T12:53:36.496+05:30",
+  "updated": "2026-11-14T16:11:20.733+05:30",
   "labels": [
     "Energy & Fuels",
     "Ethanol & Biofuels"
   ],
-  "bytes": 34432,
-  "sha256": "fdb150f85dd46b1c7704400c3fd1b1864498a8a3ab95d2a022eafe6ff4d2f52f",
+  "bytes": 34396,
+  "sha256": "a3284d3fe860f3ea4fe458c80404c86a50c81ed67bdb9a96a5fb35f352c722b0",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.3",
+  "version": "3.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -120,6 +120,19 @@
       "bytes": [
         34427,
         34432
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.0.0",
+      "date": "2026-11-14T16:33:16+05:30",
+      "level": "major",
+      "reason": "section(s) removed: Under CORSIA's Own Numbers, Corn Ethanol Fails as Jet Fuel &mdash; Worse Than the Fossil Fuel It Would Replace",
+      "bytes": [
+        34432,
+        34396
       ],
       "url_changed": null,
       "markers_changed": null,

@@ -1,16 +1,16 @@
 {
   "id": "9054600943880295003",
-  "title": "The Price of Grain: MSP, MSV, and the Arithmetic of the Indian Grain State",
+  "title": "India's grain prices: 6 administered prices for 1 kg of rice, from MSP to MSV",
   "url": "https://blog.vertistratsolution.com/2026/07/the-price-of-grain-msp-msv-and.html",
   "slug": "the-price-of-grain-msp-msv-and",
   "published": "2026-07-23T05:30:00.000+05:30",
-  "updated": "2026-11-14T13:44:27.767+05:30",
+  "updated": "2026-11-14T16:06:55.336+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Grain Procurement & Storage"
   ],
-  "bytes": 46321,
-  "sha256": "c0c057360b52f72276d61af53ed3dbdd28ab30b4021b242625cab6e5d2939864",
+  "bytes": 46380,
+  "sha256": "198a7efda0a013fdefeebfc9f848d1df7a384a6bb62212ac90aab4dfd536e8a3",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "6.1.2",
+  "version": "7.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -390,6 +390,19 @@
       "bytes": [
         46315,
         46321
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "7.0.0",
+      "date": "2026-11-14T16:33:16+05:30",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        46321,
+        46380
       ],
       "url_changed": null,
       "markers_changed": null,

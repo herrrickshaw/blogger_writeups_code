@@ -1,16 +1,16 @@
 {
   "id": "4668756122287723508",
-  "title": "Thermal Parity Is Dead: What $85 Oil and a $7 Gas Ceiling Actually Say About Decoupling",
+  "title": "Oil-gas decoupling: $85 oil, a $7 gas ceiling and India's crude-linked formula",
   "url": "https://blog.vertistratsolution.com/2026/08/thermal-parity-is-dead-what-85-oil-and.html",
   "slug": "thermal-parity-is-dead-what-85-oil-and",
   "published": "2026-08-08T21:04:59.000+05:30",
-  "updated": "2026-11-14T13:28:48.048+05:30",
+  "updated": "2026-11-14T16:09:25.258+05:30",
   "labels": [
     "Energy & Fuels",
     "Markets & Finance"
   ],
-  "bytes": 34297,
-  "sha256": "5e074376a349e07e2b4b037605eba20ea7c16b6bfc5ccdb659b9fd9480977417",
+  "bytes": 34280,
+  "sha256": "fd5be071da6f62f544da66a5466d77b915d926edec1eab9ecdec15008371b691",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "4.2.2",
+  "version": "5.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -276,6 +276,19 @@
       "bytes": [
         34286,
         34297
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "5.0.0",
+      "date": "2026-11-14T16:33:16+05:30",
+      "level": "major",
+      "reason": "section(s) removed: Thermal Parity Is Dead: What &#36;85 Oil and a &#36;7 Gas Ceiling Actually Say About Decoupling",
+      "bytes": [
+        34297,
+        34280
       ],
       "url_changed": null,
       "markers_changed": null,

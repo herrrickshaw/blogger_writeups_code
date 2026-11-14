@@ -4,13 +4,13 @@
   "url": "https://blog.vertistratsolution.com/2026/10/india-wants-15-of-its-energy-from-gas.html",
   "slug": "india-wants-15-of-its-energy-from-gas",
   "published": "2026-10-28T15:34:01.000+05:30",
-  "updated": "2026-11-14T15:33:39.159+05:30",
+  "updated": "2026-11-14T16:31:43.659+05:30",
   "labels": [
     "Energy & Fuels",
     "Gas & LNG"
   ],
-  "bytes": 30220,
-  "sha256": "259b02ec5bdaab0e603d22e9bc7ff61bad6be47c324de2b1d0932848c2ea1e69",
+  "bytes": 30001,
+  "sha256": "b37dbebd3ffafa97aa1173a239951f496f012be52d7f04ca667837000d2999fd",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.0",
+  "version": "3.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -68,6 +68,19 @@
       "bytes": [
         30250,
         30220
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.0.0",
+      "date": "2026-11-14T16:33:16+05:30",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        30220,
+        30001
       ],
       "url_changed": null,
       "markers_changed": null,

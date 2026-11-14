@@ -1,16 +1,16 @@
 {
   "id": "7914654740088009580",
-  "title": "The RBI Has Put Bonds and Rupees on One Ledger. The Hard Part Is Telling It What Happens Off It.",
+  "title": "RBI's Unified Markets Interface: pilots settled ₹1,025 crore of tokenised corporate bonds",
   "url": "https://blog.vertistratsolution.com/2026/10/the-rbi-has-put-bonds-and-rupees-on-one.html",
   "slug": "the-rbi-has-put-bonds-and-rupees-on-one",
   "published": "2026-10-02T09:11:59.000+05:30",
-  "updated": "2026-11-14T12:49:54.347+05:30",
+  "updated": "2026-11-14T16:07:05.065+05:30",
   "labels": [
     "Macroeconomics & Monetary Policy",
     "Markets & Finance"
   ],
-  "bytes": 24918,
-  "sha256": "95254dbfce2de1616c81c427d9d09953bbc7f293b7caa3f576c1dd3b94ac2e7e",
+  "bytes": 24911,
+  "sha256": "7df814e59ad60ca71f9ef34c75584636f2e540e5377633cbbf29f114f2e30ff3",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.2",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -55,6 +55,19 @@
       "bytes": [
         24913,
         24918
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-11-14T16:33:16+05:30",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        24918,
+        24911
       ],
       "url_changed": null,
       "markers_changed": null,

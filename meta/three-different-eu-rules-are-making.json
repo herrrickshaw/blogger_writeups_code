@@ -1,18 +1,18 @@
 {
   "id": "7526385884349093443",
-  "title": "Three Different EU Rules Are Making Ships Change Fuel Near Europe — and Only One of Them Is the ETS",
+  "title": "EU rules on ship fuel: 3 regimes drive switching near Europe, and the ETS is one",
   "url": "https://blog.vertistratsolution.com/2026/08/three-different-eu-rules-are-making.html",
   "slug": "three-different-eu-rules-are-making",
   "published": "2026-08-28T14:33:49.000+05:30",
-  "updated": "2026-11-14T13:09:18.468+05:30",
+  "updated": "2026-11-14T16:10:02.917+05:30",
   "labels": [
     "Climate & Carbon",
     "Energy & Fuels",
     "Shipping & Maritime Fuels",
     "Trade & Tariffs"
   ],
-  "bytes": 31473,
-  "sha256": "c8d79971d8e522375680d524e7cbcb762e1686e12f6462ad703ca9714e4744b2",
+  "bytes": 31448,
+  "sha256": "00812c4242b0cf4d1bb4209eb34bdb36f0b86d103f5768a90728bd14d2741a8a",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.2.2",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -148,6 +148,19 @@
       "bytes": [
         31469,
         31473
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-11-14T16:33:16+05:30",
+      "level": "major",
+      "reason": "figures changed (+1/-0 distinct numbers)",
+      "bytes": [
+        31473,
+        31448
       ],
       "url_changed": null,
       "markers_changed": null,

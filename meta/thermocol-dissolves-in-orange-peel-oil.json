@@ -1,16 +1,16 @@
 {
   "id": "640610099545404322",
-  "title": "Thermocol Dissolves in Orange-Peel Oil, as Researchers Showed in 1998. The Published Record Stops Where the Recycling Begins",
+  "title": "Thermocol in orange-peel oil: dissolving shown in 1998, recycling cost unmeasured",
   "url": "https://blog.vertistratsolution.com/2026/10/thermocol-dissolves-in-orange-peel-oil.html",
   "slug": "thermocol-dissolves-in-orange-peel-oil",
   "published": "2026-10-10T09:50:59.000+05:30",
-  "updated": "2026-11-14T12:45:57.826+05:30",
+  "updated": "2026-11-14T16:09:34.324+05:30",
   "labels": [
     "Chemicals",
     "Climate & Carbon"
   ],
-  "bytes": 34055,
-  "sha256": "3649153a5d5861f78e780a4ff67055c15081ca98ca9bb4faab206ae538112f5c",
+  "bytes": 34012,
+  "sha256": "283dcf4368fafe940eeb7df98bc059fb014255ed162e0226348ad59065bbb9d3",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.2",
+  "version": "4.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -81,6 +81,19 @@
       "bytes": [
         34049,
         34055
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "4.0.0",
+      "date": "2026-11-14T16:33:16+05:30",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        34055,
+        34012
       ],
       "url_changed": null,
       "markers_changed": null,

@@ -4,12 +4,12 @@
   "url": "https://blog.vertistratsolution.com/2026/08/indias-trade-balance-hsn-wise.html",
   "slug": "indias-trade-balance-hsn-wise",
   "published": "2026-08-02T14:00:15.000+05:30",
-  "updated": "2026-11-14T15:45:34.257+05:30",
+  "updated": "2026-11-14T16:27:14.832+05:30",
   "labels": [
     "Trade & Tariffs"
   ],
-  "bytes": 66229,
-  "sha256": "abea9b81599a1a0bbe8f81f97368d80d89d5259011ea6557a2630d818b0023f1",
+  "bytes": 84588,
+  "sha256": "9b059d477c6f9967f0bcd6ce0e66c352bcaa0f1d259ab78199a62fa41b888473",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": true,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "4.0.0",
+  "version": "5.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -332,6 +332,19 @@
       "bytes": [
         66186,
         66229
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "5.0.0",
+      "date": "2026-11-14T16:33:16+05:30",
+      "level": "major",
+      "reason": "figures changed (+57/-11 distinct numbers)",
+      "bytes": [
+        66229,
+        84588
       ],
       "url_changed": null,
       "markers_changed": null,

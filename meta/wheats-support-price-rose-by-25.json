@@ -1,17 +1,17 @@
 {
   "id": "653197232765737117",
-  "title": "Wheat's Support Price Rose by ₹25, the Smallest Rise in Years. The Granaries Explain Why",
+  "title": "Wheat MSP for 2027-28: up ₹25 or 1.0%, with 480 lakh tonnes in the central pool",
   "url": "https://blog.vertistratsolution.com/2026/10/wheats-support-price-rose-by-25.html",
   "slug": "wheats-support-price-rose-by-25",
   "published": "2026-10-09T11:47:23.000+05:30",
-  "updated": "2026-11-14T12:47:45.426+05:30",
+  "updated": "2026-11-14T16:13:29.633+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Industrial Policy",
     "Trade & Tariffs"
   ],
-  "bytes": 23673,
-  "sha256": "8b949745b8d3ee272ef847892c71461f158821fdd9f448414f2da761ad48cb99",
+  "bytes": 23652,
+  "sha256": "fabd825bcd1018c84dcbc81fb00817a206c6c9c77ac10fb718b623a05e07c4b6",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.2",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -56,6 +56,19 @@
       "bytes": [
         23666,
         23673
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-11-14T16:33:16+05:30",
+      "level": "major",
+      "reason": "figures changed (+0/-1 distinct numbers)",
+      "bytes": [
+        23673,
+        23652
       ],
       "url_changed": null,
       "markers_changed": null,

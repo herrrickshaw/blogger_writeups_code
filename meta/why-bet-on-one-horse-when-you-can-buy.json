@@ -1,16 +1,16 @@
 {
   "id": "8364648466321281338",
-  "title": "Why Bet on One Horse, When You Can Buy the Stable?",
+  "title": "Tobin's separation theorem: 5 stock portfolios by price band, built with Sharpe ratios",
   "url": "https://blog.vertistratsolution.com/2026/08/why-bet-on-one-horse-when-you-can-buy.html",
   "slug": "why-bet-on-one-horse-when-you-can-buy",
   "published": "2026-08-11T14:23:23.000+05:30",
-  "updated": "2026-11-14T13:25:43.764+05:30",
+  "updated": "2026-11-14T16:15:39.333+05:30",
   "labels": [
     "Equity Markets & Stock Screening",
     "Markets & Finance"
   ],
-  "bytes": 37274,
-  "sha256": "0cc746bdd360227cdefb3721758a991576c12eddb771687ff7fd2acaee30e58f",
+  "bytes": 37310,
+  "sha256": "591095a7d75081a2d7735568e6d022969965fd708ff0d491ef5a8f3c8ed64838",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.1.2",
+  "version": "3.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -328,6 +328,19 @@
       "bytes": [
         37270,
         37274
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.0.0",
+      "date": "2026-11-14T16:33:16+05:30",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        37274,
+        37310
       ],
       "url_changed": null,
       "markers_changed": null,

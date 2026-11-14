@@ -1,16 +1,16 @@
 {
   "id": "2902449070088447628",
-  "title": "The RBI's FCNR(B) Window Drew $133 Billion. Reserves Have Since Fallen $51 Billion From Their Peak, and the RBI's Short Forward Book Passed $200 Billion",
+  "title": "RBI's FCNR(B) swap window: $133 billion drawn, reserves down $51 billion from peak",
   "url": "https://blog.vertistratsolution.com/2026/10/the-rbis-fcnrb-window-drew-133-billion.html",
   "slug": "the-rbis-fcnrb-window-drew-133-billion",
   "published": "2026-10-10T02:30:54.000+05:30",
-  "updated": "2026-11-14T12:46:17.489+05:30",
+  "updated": "2026-11-14T16:07:15.820+05:30",
   "labels": [
     "Macroeconomics & Monetary Policy",
     "Markets & Finance"
   ],
-  "bytes": 30661,
-  "sha256": "dd16fd7e013c8632387c1815aeea4bfb30e5d0343e6d975050c67a9417d7e753",
+  "bytes": 30567,
+  "sha256": "1cedd23cc11a20fddcdb086b6809bd53a40bdef7ee1c9d16d9278f9775ef26e4",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.2",
+  "version": "3.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -68,6 +68,19 @@
       "bytes": [
         30655,
         30661
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.0.0",
+      "date": "2026-11-14T16:33:16+05:30",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        30661,
+        30567
       ],
       "url_changed": null,
       "markers_changed": null,

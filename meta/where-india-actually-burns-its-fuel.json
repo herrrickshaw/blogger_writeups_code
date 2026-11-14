@@ -1,17 +1,17 @@
 {
   "id": "7106455307710848249",
-  "title": "Where India Actually Burns Its Fuel: Sixteen Years of State-Level Sales",
+  "title": "State fuel sales in India: diesel-to-petrol ratio fell from 4.6 to 2.3 over 16 years",
   "url": "https://blog.vertistratsolution.com/2026/08/where-india-actually-burns-its-fuel.html",
   "slug": "where-india-actually-burns-its-fuel",
   "published": "2026-08-08T16:55:16.000+05:30",
-  "updated": "2026-11-14T13:29:37.195+05:30",
+  "updated": "2026-11-14T16:31:00.166+05:30",
   "labels": [
     "Energy & Fuels",
     "Mobility & EV",
     "Prices & Inflation"
   ],
-  "bytes": 29494,
-  "sha256": "824757676cf1253004f1448ff183b6c4bcfb70e6b76e3e08979315fd99bd00dd",
+  "bytes": 29509,
+  "sha256": "1d7c58274caa2050f273cb8efb0d46cd22716d5014e1c0bcde1e0f01fec92dfd",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.1.2",
+  "version": "3.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -264,6 +264,19 @@
       "bytes": [
         29489,
         29494
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.0.0",
+      "date": "2026-11-14T16:33:16+05:30",
+      "level": "major",
+      "reason": "figures changed (+1/-0 distinct numbers)",
+      "bytes": [
+        29494,
+        29509
       ],
       "url_changed": null,
       "markers_changed": null,

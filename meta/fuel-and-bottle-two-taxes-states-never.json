@@ -4,13 +4,13 @@
   "url": "https://blog.vertistratsolution.com/2026/08/fuel-and-bottle-two-taxes-states-never.html",
   "slug": "fuel-and-bottle-two-taxes-states-never",
   "published": "2026-08-12T21:27:32.000+05:30",
-  "updated": "2026-11-14T15:21:00.078+05:30",
+  "updated": "2026-11-14T16:30:03.550+05:30",
   "labels": [
     "Ethanol & Biofuels",
     "Macroeconomics & Monetary Policy"
   ],
-  "bytes": 32834,
-  "sha256": "fbbfb4d9ff31ce26705ecf359890a7812d74a77a66074f2b80d4ddac7d418dbe",
+  "bytes": 32236,
+  "sha256": "59cf0561d364f98119a9905d960d634efb6f3b6750a7b1a9e7ffd1a232d54d64",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.0",
+  "version": "4.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -328,6 +328,19 @@
       "bytes": [
         32813,
         32834
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "4.0.0",
+      "date": "2026-11-14T16:33:16+05:30",
+      "level": "major",
+      "reason": "figures changed (+1/-0 distinct numbers)",
+      "bytes": [
+        32834,
+        32236
       ],
       "url_changed": null,
       "markers_changed": null,

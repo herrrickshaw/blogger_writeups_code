@@ -1,16 +1,16 @@
 {
   "id": "6788744439423537169",
-  "title": "The Corrosion You Can't See Until the Insulation Comes Off: CUI on FSRUs and FPSOs",
+  "title": "Corrosion under insulation on floating LNG and oil units: hidden until insulation is off",
   "url": "https://blog.vertistratsolution.com/2026/08/the-corrosion-you-cant-see-until.html",
   "slug": "the-corrosion-you-cant-see-until",
   "published": "2026-08-30T22:42:06.000+05:30",
-  "updated": "2026-11-14T13:06:47.344+05:30",
+  "updated": "2026-11-14T16:03:10.385+05:30",
   "labels": [
     "Gas & LNG",
     "LNG Plant & Terminal Engineering"
   ],
-  "bytes": 37009,
-  "sha256": "5fbcf55ad5ef713a983f66649a67967953d9b086f2f6b4dd9e7208731ea437ba",
+  "bytes": 37015,
+  "sha256": "9ff3537b61d3eda97492c62f3d1d6d49db9414c37b61586ced9953784cd9d7ff",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.3.2",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -146,6 +146,19 @@
       "bytes": [
         37005,
         37009
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-11-14T16:33:16+05:30",
+      "level": "major",
+      "reason": "section(s) removed: The Corrosion You Can't See Until the Insulation Comes Off: CUI on FSRUs and FPSOs",
+      "bytes": [
+        37009,
+        37015
       ],
       "url_changed": null,
       "markers_changed": null,

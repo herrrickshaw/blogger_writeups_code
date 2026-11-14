@@ -1,15 +1,15 @@
 {
   "id": "3144833955125559433",
-  "title": "Three Open-Source Tools for India’s Mandi and Grain Data: Daily Prices, Monthly Arrivals Since 2019, and the MSP Question",
+  "title": "India's mandi and grain data: 3 open-source tools for prices, arrivals and MSP",
   "url": "https://blog.vertistratsolution.com/2026/11/three-open-source-tools-for-indias.html",
   "slug": "three-open-source-tools-for-indias",
   "published": "2026-11-13T03:37:49.000+05:30",
-  "updated": "2026-11-14T14:23:50.087+05:30",
+  "updated": "2026-11-14T16:10:12.664+05:30",
   "labels": [
     "Agriculture & Fertilisers"
   ],
-  "bytes": 28012,
-  "sha256": "32d4adcb78c3e653ec0704112e72469a529aa8f164067624ae72cdd3cef613aa",
+  "bytes": 27963,
+  "sha256": "e2576b3527dbafba0359559b5ceed75def83132936cca051689dc758d07541bd",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.1",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -38,6 +38,19 @@
       "bytes": [
         28004,
         28012
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-11-14T16:33:16+05:30",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        28012,
+        27963
       ],
       "url_changed": null,
       "markers_changed": null,

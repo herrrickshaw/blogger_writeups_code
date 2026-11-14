@@ -1,17 +1,17 @@
 {
   "id": "2158272546772953614",
-  "title": "The Diesel Truck Isn't Why Your Eggs Cost More. The Ethanol Tank Is.",
+  "title": "Egg prices in India: maize demand for ethanol raises feed costs more than diesel",
   "url": "https://blog.vertistratsolution.com/2026/09/the-diesel-truck-isnt-why-your-eggs.html",
   "slug": "the-diesel-truck-isnt-why-your-eggs",
   "published": "2026-09-23T09:17:07.000+05:30",
-  "updated": "2026-11-14T12:54:06.637+05:30",
+  "updated": "2026-11-14T16:03:38.142+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Energy & Fuels",
     "Livestock & Dairy"
   ],
-  "bytes": 24883,
-  "sha256": "9e794e7c8dde7d3aa52c01b615c54351bfddcbea555836e331eaf80ec55f6de5",
+  "bytes": 24895,
+  "sha256": "0366c47a0371e35e3731d7af2c605555fe0a8427b7caeebb838d293c94a99dfb",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.2.2",
+  "version": "3.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -108,6 +108,19 @@
       "bytes": [
         24876,
         24883
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.0.0",
+      "date": "2026-11-14T16:33:16+05:30",
+      "level": "major",
+      "reason": "section(s) removed: The Diesel Truck Isn't Why Your Eggs Cost More. The Ethanol Tank Is.",
+      "bytes": [
+        24883,
+        24895
       ],
       "url_changed": null,
       "markers_changed": null,

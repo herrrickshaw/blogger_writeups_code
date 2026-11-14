@@ -1,16 +1,16 @@
 {
   "id": "1058853159205559121",
-  "title": "Who Collects India's GST, and Who Actually Gets It Back",
+  "title": "India's GST by state: 5 states generate over 40% and get a fraction back",
   "url": "https://blog.vertistratsolution.com/2026/08/who-collects-indias-gst-and-who.html",
   "slug": "who-collects-indias-gst-and-who",
   "published": "2026-08-12T19:04:21.000+05:30",
-  "updated": "2026-11-14T13:24:33.943+05:30",
+  "updated": "2026-11-14T16:15:20.035+05:30",
   "labels": [
     "Macroeconomics & Monetary Policy",
     "Trade & Tariffs"
   ],
-  "bytes": 39354,
-  "sha256": "06135d45ca325c7e4079f503adbdd47b9799c6d3b5fe6ba41fd037ca991dfce7",
+  "bytes": 39371,
+  "sha256": "4afa4fc8947796f0d93435d2ac8a50aa51cfcaf20275584f62b08c911ed6652e",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.4.2",
+  "version": "3.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -328,6 +328,19 @@
       "bytes": [
         39351,
         39354
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.0.0",
+      "date": "2026-11-14T16:33:16+05:30",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        39354,
+        39371
       ],
       "url_changed": null,
       "markers_changed": null,

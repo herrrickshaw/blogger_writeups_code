@@ -1,18 +1,18 @@
 {
   "id": "7808613838219885844",
-  "title": "The Hydrogen Behind the Biofuel Mandate: A Country-by-Country Map of Who Is Covered, What Counts, and Which Hydrogen Gets Paid For",
+  "title": "Biofuel mandates by country: EU, UK and some member states set hydrogen quotas",
   "url": "https://blog.vertistratsolution.com/2026/10/the-hydrogen-behind-biofuel-mandate.html",
   "slug": "the-hydrogen-behind-biofuel-mandate",
   "published": "2026-10-14T16:15:14.000+05:30",
-  "updated": "2026-11-14T12:45:09.387+05:30",
+  "updated": "2026-11-14T16:04:56.917+05:30",
   "labels": [
     "Energy & Fuels",
     "Ethanol & Biofuels",
     "Hydrogen",
     "Industrial Policy"
   ],
-  "bytes": 47667,
-  "sha256": "141d540da7afe5afc156127eb6859ae48a2e4ebb030c151246b87a701a97fd11",
+  "bytes": 47615,
+  "sha256": "bc2ebc4019814f826c02d804f9f1f618d810ddad0c5d4cbf63731dee43de4e98",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.1.2",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -70,6 +70,19 @@
       "bytes": [
         47653,
         47667
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-11-14T16:33:16+05:30",
+      "level": "major",
+      "reason": "section(s) removed: The Hydrogen Behind the Biofuel Mandate: A Country-by-Country Map of Who Is Covered, What Counts, and Which Hydrogen Gets Paid For",
+      "bytes": [
+        47667,
+        47615
       ],
       "url_changed": null,
       "markers_changed": null,

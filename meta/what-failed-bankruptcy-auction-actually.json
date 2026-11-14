@@ -1,13 +1,13 @@
 {
   "id": "4093846361849774289",
-  "title": "What a Failed Bankruptcy Auction Actually Costs, in India's Own Numbers",
+  "title": "India's insolvency auctions: 9,531 liquidation notices show what failure costs",
   "url": "https://blog.vertistratsolution.com/2026/09/what-failed-bankruptcy-auction-actually.html",
   "slug": "what-failed-bankruptcy-auction-actually",
   "published": "2026-09-15T09:41:43.000+05:30",
-  "updated": "2026-11-14T12:59:03.405+05:30",
+  "updated": "2026-11-14T16:12:40.958+05:30",
   "labels": [],
-  "bytes": 21760,
-  "sha256": "f03c6cc2868a2c56f7a4c7a435cbe040b881eb221b04907961543ada29ab83a7",
+  "bytes": 21767,
+  "sha256": "2a78dd17772fb2dcf2e5e1175cd21ee2f6aa8c0b9ca5fc82335d544405d8bff0",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.2.2",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -104,6 +104,19 @@
       "bytes": [
         21757,
         21760
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-11-14T16:33:16+05:30",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        21760,
+        21767
       ],
       "url_changed": null,
       "markers_changed": null,

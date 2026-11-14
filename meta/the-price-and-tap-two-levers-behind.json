@@ -1,15 +1,15 @@
 {
   "id": "8597692575201322604",
-  "title": "The Price and the Tap: The Two Levers Behind Every Central Bank, and Why RBI Pulls Them Differently",
+  "title": "RBI's rate lever: a corridor around the repo rate, targeting the call rate",
   "url": "https://blog.vertistratsolution.com/2026/08/the-price-and-tap-two-levers-behind.html",
   "slug": "the-price-and-tap-two-levers-behind",
   "published": "2026-08-04T06:09:47.000+05:30",
-  "updated": "2026-11-14T13:36:19.696+05:30",
+  "updated": "2026-11-14T16:06:45.196+05:30",
   "labels": [
     "Macroeconomics & Monetary Policy"
   ],
-  "bytes": 27834,
-  "sha256": "5b73c51aca568a13dc86487ea630819465f626580c4ae91f8f1ffa03e96f2c22",
+  "bytes": 27809,
+  "sha256": "f8d9c105c8a5378046a5d2d9fd66fa955e256f86317800ec67bc2af2efcf6062",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.1.2",
+  "version": "4.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -332,6 +332,19 @@
       "bytes": [
         27829,
         27834
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "4.0.0",
+      "date": "2026-11-14T16:33:16+05:30",
+      "level": "major",
+      "reason": "section(s) removed: The Price and the Tap: The Two Levers Behind Every Central Bank, and Why RBI Pulls Them Differently",
+      "bytes": [
+        27834,
+        27809
       ],
       "url_changed": null,
       "markers_changed": null,

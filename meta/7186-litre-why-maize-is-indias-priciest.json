@@ -4,13 +4,13 @@
   "url": "https://blog.vertistratsolution.com/2026/08/7186-litre-why-maize-is-indias-priciest.html",
   "slug": "7186-litre-why-maize-is-indias-priciest",
   "published": "2026-08-21T21:11:49.000+05:30",
-  "updated": "2026-11-14T15:05:45.860+05:30",
+  "updated": "2026-11-14T16:28:29.457+05:30",
   "labels": [
     "Agriculture & Food Processing",
     "Ethanol & Biofuels"
   ],
-  "bytes": 41753,
-  "sha256": "fed62d176483704eddb2d6289a54bd5c0a780f4d9d62607ac8d444aec0b9b2cc",
+  "bytes": 41752,
+  "sha256": "46bc0e9e5f157fac08c6ad1c576a9462c2d1b2d2810b13cd5270885abf20e4d5",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "4.0.0",
+  "version": "5.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -185,6 +185,19 @@
       "bytes": [
         41779,
         41753
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "5.0.0",
+      "date": "2026-11-14T16:33:16+05:30",
+      "level": "major",
+      "reason": "figures changed (+1/-0 distinct numbers)",
+      "bytes": [
+        41753,
+        41752
       ],
       "url_changed": null,
       "markers_changed": null,
