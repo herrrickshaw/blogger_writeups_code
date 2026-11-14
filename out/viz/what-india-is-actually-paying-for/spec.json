@@ -1,0 +1,16 @@
+{"top": [["$775.7bn", " total import bill in FY2025-26, nearly double the $393bn of FY2020-21."], ["46%", " rise in the crude import bill in April–September 2026, on roughly flat volumes."], ["17.0%", " of India's imports come from China, which has domestic inflation of just 0.5%."]],
+ "sections": [
+  {"h2": "The rupee fell to a record low of ₹95.63 in May 2026, after ending FY2025-26 at ₹93.88",
+   "chart": {"type": "bars", "title": "The rupee's record intraday low came weeks after its year-end level", "sub": "Rupee per US dollar.", "source": "Figures as cited in the post.", "unit": "₹/$", "accent": "Record low, 13 May 2026", "rows": [["Year-end FY2025-26", 93.88, "End FY2025-26"], ["Record intraday low", 95.63, "13 May 2026"]]},
+   "means": "The rupee depreciated roughly 9% over FY2025-26, while the RBI sold $50.8bn of its own dollar reserves to slow the slide.",
+   "todo": "Track the RBI's reserves, since the post shows $728.49bn falling to $700.9bn by 10 April 2026."},
+  {"h2": "Crude import bill up 46% in April–September 2026, with volumes roughly flat",
+   "chart": {"type": "bars", "title": "Roughly flat volumes, higher prices: the crude bill rose to $90.6bn from $61.9bn", "sub": "Crude oil import bill, $ billion, April to September.", "source": "ThePrint.", "unit": "$bn", "accent": "Apr–Sep 2026", "rows": [["Apr–Sep 2025", 61.9], ["Apr–Sep 2026", 90.6]]},
+   "means": "Brent averaged $116.77 a barrel in September, against $68.02 a year earlier.",
+   "todo": "Watch the Brent price monthly, because the post notes each $10-a-barrel move adds billions to the annual bill."},
+  {"h2": "China, India's largest supplier, has near-flat inflation; Russia and the US run hotter",
+   "chart": {"type": "bars", "title": "Russia's 6.0% and the US's 3.4% are high; China's 0.5% is near flat", "sub": "Most recent domestic inflation reading in India's top five import sources, %.", "source": "TradeStat; domestic CPI figures cited in the post.", "unit": "%", "accent": "China", "rows": [["China", 0.5, "Jul 2026"], ["Saudi Arabia", 1.8, "Jun 2026"], ["UAE", [1.5, 2.5], "2026 estimate"], ["USA", 3.4, "Jul 2026"], ["Russia", 6.0, "Jun 2026"]]},
+   "means": "China supplies 17.0% of India's imports but runs close to zero inflation, which cuts against the imported-inflation story.",
+   "todo": "Check the energy channel first, since the post finds fuel drives the US and Russian inflation."}
+ ],
+ "derived": {}}

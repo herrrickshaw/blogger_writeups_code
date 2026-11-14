@@ -1,5 +1,31 @@
 {
- "top": [],
- "sections": [],
+ "top": [
+  ["63.3%", " of implemented industrial investment, 2021 to December 2025, sits in Gujarat, Odisha and Maharashtra."],
+  ["22%", " of national FDI goes to Karnataka, against 2.2% of implemented manufacturing investment."]
+ ],
+ "sections": [
+  {"h2": "Three states hold 63.3% of implemented factory investment, 2021-2025",
+   "chart": {"type":"bars", "title":"Gujarat implemented more than Odisha and Maharashtra combined",
+             "sub":"Implemented industrial investment, 2021 to December 2025, Rs crore.", "source":"DPIIT Industrial Entrepreneurs Memoranda, Part B.",
+             "unit":"Rs cr", "accent":"Gujarat",
+             "rows":[["Gujarat",660254],["Odisha",336487],["Maharashtra",237988],["Andhra Pradesh",140445],["Uttar Pradesh",73954]]},
+   "means": "Gujarat, Odisha and Maharashtra took 63.3% of all implemented industrial investment in the five years to December 2025.",
+   "todo": "DPIIT should resume the monthly IEM Statistics Report, last issued for August 2024 data.",
+   "numbers": {"table":"T2"}},
+  {"h2": "Karnataka has 2.2% of implemented investment and 22% of national FDI",
+   "chart": {"type":"bars", "title":"Karnataka's FDI is services and software, which IEM filings cannot see",
+             "sub":"Share of the national total, %.", "source":"DPIIT IEM Part B; FDI equity inflow data.",
+             "unit":"%", "accent":"FDI share",
+             "rows":[["Implementation share",2.2],["FDI share",22]]},
+   "means": "Karnataka is 2.2% of national implemented investment but 22% of national FDI.",
+   "todo": "DPIIT should add a field to IEM filings recording whether the capital is domestic or foreign."},
+  {"h2": "Maharashtra has the most filed intent not yet built, Rs 454,589 crore",
+   "chart": {"type":"bars", "title":"Gujarat implemented more intent than it filed in the 2020-2025 window",
+             "sub":"Filed intent minus implemented investment, 2020-2025, Rs crore. Negative means more built than filed.", "source":"DPIIT Part A and Part B, window-matched.",
+             "unit":"Rs cr", "accent":"Gujarat",
+             "rows":[["Maharashtra",454589],["Karnataka",312828],["Odisha",232433],["Tamil Nadu",51463],["Gujarat",-277616]]},
+   "means": "Maharashtra has the largest unbuilt intent, while Gujarat built more than it filed in the window.",
+   "todo": "DPIIT should tag each Part B implementation with the year of its original Part A filing and publish conversion rates by filing cohort."}
+ ],
  "derived": {}
 }

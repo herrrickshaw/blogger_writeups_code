@@ -1,5 +1,34 @@
 {
- "top": [],
- "sections": [],
- "derived": {}
-}
+ "top": [
+  ["284.6M bbl", " left in the US Strategic Petroleum Reserve in the week to 18 September 2026, 39.9% of its 714M bbl authorised capacity."],
+  ["135M bbl", " of Iranian crude sat in floating storage in early August, more than the 80-120M bbl global pool usually seen in calm markets."],
+  ["85 to 1", " daily Strait of Hormuz transits, pre-crisis baseline against the PortWatch count for 20 September 2026."]
+ ],
+ "sections": [
+  {"h2": "The US reserve is far smaller than China's estimated stock",
+   "chart": {"type":"bars", "title":"China's estimated stock is several times the US reserve, which fell below 300M bbl",
+             "sub":"Reported or estimated stock, million barrels. China's figure is a third-party estimate; it publishes none.",
+             "source":"EIA; NPR; third-party estimates as stated in the post.",
+             "unit":"M bbl", "accent":"United States (SPR)",
+             "rows":[["China (govt + commercial, est.)",1400,"~1,400, Dec 2025"],["Japan (govt + private, est.)",470,"~470"],["United States (SPR)",284.6,"week to 18 Sep 2026"]]},
+   "means": "The US reserve was drawn down by a 172M bbl emergency release, and it fell to its lowest level since 1983 in early August.",
+   "todo": "ISPRL should publish fill levels for India's three strategic sites, so the 39M bbl designed capacity can be read against barrels actually held.",
+   "numbers": {"table":"T1"}},
+  {"h2": "Iran's floating crude alone is larger than the usual global pool",
+   "chart": {"type":"bars", "title":"Blockaded Iranian cargoes exceed the global floating pool seen in calm markets",
+             "sub":"Oil on idle tankers, million barrels. The Iranian figure is Iran-specific, not a global total.",
+             "source":"Vortexa, as cited in the post; calm-market range from the post's background.",
+             "unit":"M bbl", "accent":"Iranian crude afloat, early Aug 2026",
+             "rows":[["Global floating storage, calm markets",[80,120]],["Iranian crude afloat, early Aug 2026",135,"up 14% in a month"]]},
+   "means": "The US port blockade stops empty tankers returning for the next loading, so the pile-up grows even without new demand for the oil.",
+   "todo": "The IEA should publish a dated global floating-storage total, with its definition, in each Oil Market Report while the disruption lasts."},
+  {"h2": "Strait transits fell from about 85 a day to 1 on 20 September",
+   "chart": {"type":"bars", "title":"PortWatch counted 1 Strait transit on 20 September against a baseline of about 85 a day",
+             "sub":"Daily Strait of Hormuz transits. US officials cited roughly 60 ships on a single day that same week.",
+             "source":"IMF PortWatch; US officials as reported in the post.",
+             "unit":"transits a day", "accent":"20 Sep 2026",
+             "rows":[["Pre-crisis baseline",85,"about 85 a day"],["20 Sep 2026",1,"PortWatch count"]]},
+   "means": "The two readings come from different counting methods, and the post does not reconcile them.",
+   "todo": "IMF PortWatch should publish its Strait of Hormuz transit counting method alongside its daily figures, so the two readings can be reconciled."}
+ ],
+ "derived": {"285": "284.6"}}

@@ -1,5 +1,27 @@
 {
- "top": [],
- "sections": [],
- "derived": {}
-}
+ "top": [["$0.70–4.19", " a tonne is CEEW's modelled pipeline transport cost, the small part of India's CO2 bill."],
+         ["$2.2 billion", " is the government's CCUS scheme, about 2.2% of the $100 billion low-end need."]],
+ "sections": [
+  {"h2": "Pipeline transport is $0.70–4.19 a tonne, far below global capture-and-storage cost",
+   "chart": {"type":"bars", "title":"Transport is a few dollars a tonne; the global capture-and-storage figure is $40–60",
+             "sub":"Cost per tonne of CO2, US dollars.", "source":"CEEW CO2 pipeline network study; secondary global CCS cost sourcing as cited in the post.",
+             "unit":"US$ per tonne", "accent":"Capture and storage, global avoided cost",
+             "rows":[["Transport, saline aquifer sinks",[0.70,2.16]],["Transport, basalt sinks",[2.89,4.19]],["Capture and storage, global avoided cost",[40,60]]]},
+   "means": "The post's own CEEW figures put pipeline transport well below the $40–60 global capture-and-storage benchmark.",
+   "todo": "Check capture and all-in costs, not pipeline tariffs, before pricing any Indian CO2 storage project."},
+  {"h2": "Storage estimates range from 1.2 Gt to 359 Gt depending on scope",
+   "chart": {"type":"bars", "title":"Viable storage of about 1.2 Gt is a fraction of the 317–359 Gt estimates",
+             "sub":"Storage capacity in gigatonnes of CO2, by scope of count.", "source":"CEEW storage assessment; peer-reviewed JGSI 2025 paper; DGH draft 2030 CCUS roadmap.",
+             "unit":"Gt CO2", "accent":"DGH viable capacity, 2030 draft roadmap",
+             "rows":[["CEEW broadest estimate",317],["Peer-reviewed paper, 2025",359],["DGH viable capacity, 2030 draft roadmap",1.2]]},
+   "means": "The post shows that India's storage figures differ by scope, with the regulator's viable estimate far below the theoretical totals.",
+   "todo": "State the scope of any storage figure before citing it as India's storage limit."},
+  {"h2": "Government funding covers a first instalment, not the $100–150 billion need",
+   "chart": {"type":"bars", "title":"The $2.2 billion scheme is about 2.2% of the $100 billion low-end need",
+             "sub":"Government CCUS scheme against NITI Aayog's investment estimate through 2050, US$ billion.", "source":"Union Budget 2026-27; EFC approval; NITI Aayog CCUS policy framework.",
+             "unit":"US$ billion", "accent":"Government CCUS scheme, about $2.2 billion",
+             "rows":[["Government CCUS scheme, about $2.2 billion",2.2],["NITI Aayog need to 2050, low end",100],["NITI Aayog need to 2050, high end",150]]},
+   "means": "The ₹19,700 crore scheme is a first commitment against NITI Aayog's $100–150 billion estimate, not the full bill.",
+   "todo": "Track whether the ₹20,000 crore CCUS outlay gets Cabinet approval and guidelines, which were not reported as of 7 November 2026."}
+ ],
+ "derived": {}}

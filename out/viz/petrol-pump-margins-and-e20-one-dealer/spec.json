@@ -1,5 +1,31 @@
 {
- "top": [],
- "sections": [],
+ "top": [
+  ["Rs 4.77 lakh", " gross dealer commission a month at the average outlet, on about 137 kilolitres sold."],
+  ["+Rs 0.52", " a litre on petrol from 30 Oct 2024: the first dealer commission rise in seven years, and a litigation settlement."],
+  ["Rs 6 to 12", " a litre: analyst estimate of the oil companies' petrol margin in Apr-Jun 2026, against about +Rs 10 a year earlier."]
+ ],
+ "sections": [
+  {"h2": "Delhi dealer commission on petrol rose to Rs 4.39 a litre after the 2024 revision",
+   "chart": {"type":"bars", "title":"The only rise since 2017 came in October 2024, and it was a settlement",
+             "sub":"Average dealer commission on petrol in Delhi, Rs per litre.", "source":"HPCL and BPCL Delhi price sheets; PPAC.",
+             "unit":"Rs/l", "accent":"8 Apr 2025 (after the revision)",
+             "rows":[["1 Dec 2022 (before E20 launch)",3.76],["1 May 2024 (before the revision)",3.77],["8 Apr 2025 (after the revision)",4.39]]},
+   "means": "The October 2024 revision lifted Delhi's average petrol commission by about Rs 0.62 a litre, with no change in pump prices.",
+   "todo": "PPAC should keep its dealer-commission table current past December 2024, so a later revision cannot be missed."},
+  {"h2": "Fixed petrol commission, in real terms, is still below its August 2017 level",
+   "chart": {"type":"bars", "title":"Fixed petrol commission in Dec 2025 rupees: Rs 3.91 in 2017, Rs 2.69 in Sept 2024",
+             "sub":"Fixed part of dealer commission on petrol, Rs per litre, in December 2025 rupees.", "source":"PPAC dealer-commission table (posted 3 Dec 2024); MoSPI CPI.",
+             "unit":"Rs/l", "accent":"Sept 2024 (before the revision)",
+             "rows":[["Aug 2017",3.91],["Sept 2024 (before the revision)",2.69],["After the Oct 2024 revision",3.17]]},
+   "means": "The October 2024 revision restored about 40% of the real loss in the fixed petrol commission since August 2017, on the blog's own calculation.",
+   "todo": "PPAC should publish the slab-based incentives paid by credit note since August 2017, which its table mentions but does not quantify."},
+  {"h2": "Oil companies' petrol and diesel margin: analyst estimates turned negative in 2026",
+   "chart": {"type":"bars", "title":"Analyst estimates show the marketing margin turning negative in Apr-Jun 2026",
+             "sub":"Oil marketing margin, Rs per litre, analyst and press estimates; no audited per-litre figures found.", "source":"Nomura; Crisil; Emkay; press reports.",
+             "unit":"Rs/l", "accent":"Q1 FY27 petrol, estimates range",
+             "rows":[["Q1 FY26, petrol and diesel blended (Nomura)",10.3],["FY26 forecast, blended (Crisil)",8],["Q1 FY27 petrol, estimates range",[-12,-6]],["Q1 FY27 diesel, estimates range",[-32,-19]]]},
+   "means": "Analyst estimates put the April-June 2026 marketing loss at Rs 6 to 12 a litre on petrol, and no company states a per-litre figure.",
+   "todo": "Oil companies should report auto-fuel marketing margins per litre in their quarterly decks on a consistent basis."}
+ ],
  "derived": {}
 }

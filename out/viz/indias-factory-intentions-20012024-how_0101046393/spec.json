@@ -1,5 +1,29 @@
-{
- "top": [],
- "sections": [],
- "derived": {}
-}
+{"top": [
+  ["15%", " of 2001–2018 factory plans filed with DPIIT are cited by a later production report."],
+  ["45%", " of plants proposed in Assam reached production, against 10% in Jammu and Kashmir."],
+  ["36%", " of filings made in 2016–2018 reached production, up from 19% for 2001–2006 (wider count)."]
+ ],
+ "sections": [
+  {"h2": "Most factory plans filed with DPIIT never appear as started production",
+   "chart": {"type":"bars", "title":"Only 15% of 2001–2018 filings are cited by a later production report",
+             "sub":"Share of 48,485 Part A memoranda filed 2001–2018, %.", "source":"DPIIT monthly IEM lists, parsed by this blog.",
+             "unit":"%", "accent":"Cited by number",
+             "rows":[["Cited by number",15,"Part B cites the Part A number"],["Plus same-company matches",23,"upper estimate"]]},
+   "means": "Filing a plan with DPIIT is not a commitment to build, so most filings leave no production record.",
+   "todo": "DPIIT should give every Part A filing a status such as production started, still planned, withdrawn or lapsed."},
+  {"h2": "Filings from later years were more likely to be followed by production",
+   "chart": {"type":"bars", "title":"Share of filings reaching production rose from 19% to 36% across the period",
+             "sub":"Share of Part A filings that reached Part B, counting name-only matches, %.", "source":"DPIIT monthly IEM lists, parsed by this blog.",
+             "unit":"%", "accent":"2016–2018",
+             "rows":[["2001–2006",19],["2009–2015",24],["2016–2018",36,"later years have less time to report"]]},
+   "means": "Later filings show a higher share, but filings from 2020 onwards are understated because the Part B lists stop in August 2024.",
+   "todo": "DPIIT should resume the monthly IEM Statistics Report so the series from 2001 is not broken by the move to NSWS."},
+  {"h2": "Plants proposed in Assam were followed through far more often than in Tamil Nadu",
+   "chart": {"type":"bars", "title":"Assam reached production at 45% of filings, Tamil Nadu at 12%",
+             "sub":"Share of 2001–2018 Part A filings that reached Part B, by plant state, %.", "source":"DPIIT monthly IEM lists, parsed by this blog.",
+             "unit":"%", "accent":"Assam",
+             "rows":[["Assam",45,"457 filings"],["Gujarat",31,"6,425 filings"],["Maharashtra",21,"8,352 filings"],["Tamil Nadu",12,"3,305 filings"],["Jammu and Kashmir",10,"429 filings"]]},
+   "means": "The share that reached production varies widely by the state where the plant was proposed.",
+   "todo": "MoSPI should link IEM acknowledgement numbers to the Annual Survey of Industries through GSTIN or CIN, so production can be checked from survey and tax records."}
+ ],
+ "derived": {}}

@@ -1,5 +1,30 @@
-{
- "top": [],
- "sections": [],
- "derived": {}
-}
+{"top": [["₹5", " a litre of petrol goes to the road cess, fixed since May 2022; an electric car pays none of it."],
+          ["₹70,278 cr", " of national highway tolls in 2025–26, more than the road cess; electric cars pay them, two-wheelers do not."],
+          ["1,700 km", " of highway a year is what the budgeted cess buys at average project cost."]],
+ "sections": [
+  {"h2": "The cess buys about 1,700 km of highway a year at average project cost",
+   "chart": {"type": "bars", "title": "Costlier highways buy far fewer kilometres from the same cess",
+             "sub": "Km of national highway one year's cess buys, at each yardstick's cost.",
+             "source": "CAG 2023; Parliament reply; this blog's division.",
+             "unit": "km", "accent": "NH projects under way (average)",
+             "table": {"id": "T2", "label": 0, "value": 2, "rows": "top:10", "sort": "desc"}},
+   "means": "Costlier projects buy far fewer kilometres from the same cess, so the average figure hides a tenfold spread.",
+   "todo": "Audit the cess transfers the CAG has flagged, since the cess is earmarked in law but loosely in practice."},
+  {"h2": "Each electric vehicle avoids the road cess its fuel-burning twin pays",
+   "chart": {"type": "bars", "title": "Road cess per vehicle a year runs from ₹1,000 for a two-wheeler to ₹34,286 for a bus",
+             "sub": "Road cess a fuel vehicle pays each year, in ₹, which its electric version avoids.",
+             "source": "This blog's estimates; Vahan; ICCT; UrbanEmissions.",
+             "unit": "₹ per vehicle a year", "accent": "Petrol car",
+             "table": {"id": "T3", "label": 0, "value": 2, "rows": "top:10", "sort": "desc"}},
+   "means": "The post estimates each electric vehicle avoids the road cess that its petrol or diesel twin pays every year.",
+   "todo": "Price electric vehicles' road use against what petrol and diesel vehicles pay, while meeting the privacy objection that stopped satellite tolling."},
+  {"h2": "National highway tolls more than doubled in four years, now above the road cess",
+   "chart": {"type": "bars", "title": "Tolls rose from ₹33,929 crore to ₹70,278 crore in four years",
+             "sub": "Toll collections on national highways and expressways, ₹ crore; 2022–23 not reported in the post.",
+             "source": "Rajya Sabha reply, July 2026, as reported in the post.",
+             "unit": "₹ crore", "accent": "2025–26",
+             "rows": [["2021–22", 33929], ["2023–24", 55882], ["2024–25", 61408], ["2025–26", 70278]]},
+   "means": "Tolls charge per plaza crossing, so electric cars already pay them while two-wheelers do not, and tolls now outweigh the road cess.",
+   "todo": "Revisit satellite tolling with a privacy answer, since per-crossing tolls still charge for a point on the road, not for distance."}
+ ],
+ "derived": {}}

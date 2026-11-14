@@ -1,5 +1,31 @@
 {
- "top": [],
- "sections": [],
+ "top": [
+  ["₹2,400 crore", " is Madurai's underground sewerage figure per the 2 September 2026 announcement, not ₹1,400 crore."],
+  ["5,587", " malaria cases in 2015 fell to roughly 200-300 in 2025, credited to elimination and migrant screening rather than drains."],
+  ["27,378", " dengue cases in 2024 and 23,407 in 2025, and the main Aedes mosquito breeds in household containers, not open drains."]
+ ],
+ "sections": [
+  {"h2": "Madurai's sewerage modernisation is ₹2,400 crore, not ₹1,400 crore",
+   "chart": {"type":"bars", "title":"The claimed figure sits well below the 2 September announcement",
+             "sub":"Madurai underground sewerage, ₹ crore.", "source":"Chief Minister's 2 September 2026 announcement.",
+             "unit":"₹ crore", "accent":"Per CM announcement",
+             "rows":[["Claimed",1400],["Per CM announcement",2400]]},
+   "means": "The corrected Madurai figure is a correction, not a rounding difference.",
+   "todo": "Check the Madurai figure against the announcement before citing either number."},
+  {"h2": "Malaria fell from 5,587 cases in 2015, but drainage is not shown as the cause",
+   "chart": {"type":"bars", "title":"Malaria cases fell sharply, and the sourcing credits programmes, not drains",
+             "sub":"Tamil Nadu malaria cases; 2025 is a range across sources.", "source":"The Migration Story; Edunovations, on India's malaria-elimination progress.",
+             "unit":"cases", "accent":"2025",
+             "rows":[["2015",5587],["2025",[200,300]]]},
+   "means": "No Tamil Nadu study found links the malaria decline to drainage investment.",
+   "todo": "Treat drainage as a plausible contributor to malaria control, not a proven cause."},
+  {"h2": "Dengue's main mosquito breeds in stored water, so drains are a weak lever",
+   "chart": {"type":"bars", "title":"Official dengue counts fell from 27,378 in 2024 to 23,407 in 2025",
+             "sub":"Tamil Nadu dengue cases, full-year official series.", "source":"National Centre for Vector Borne Diseases Control (NCVBDC).",
+             "unit":"cases", "accent":"2025",
+             "rows":[["2024",27378],["2025",23407]]},
+   "means": "Aedes breeds mainly in household water containers, so underground sewerage reaches it less directly.",
+   "todo": "Count dengue against household-container controls, not drainage upgrades alone."}
+ ],
  "derived": {}
 }

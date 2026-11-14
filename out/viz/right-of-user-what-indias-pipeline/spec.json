@@ -1,0 +1,38 @@
+{
+ "top": [
+  ["27,905 km", " of India's 34,803 km authorised natural gas pipeline network was operational on 31 March 2026."],
+  ["About 700", " of the ministry's 1,081 tracked gazette items are pipeline land-acquisition notices, per this blog's estimate."],
+  ["657 km", " of the 1,104 km Kochi-Koottanad-Bengaluru-Mangaluru gas line was commissioned by GAIL's 13 April 2026 disclosure."]
+ ],
+ "sections": [
+  {"h2": "Natural gas: 27,905 km of 34,803 km authorised network operational",
+   "chart": {"type": "bars",
+             "title": "About four-fifths of the authorised gas network was operational on 31 March 2026",
+             "sub": "Natural gas pipeline length, km, as of 31 March 2026.",
+             "source": "PNGRB data bank, as reported in trade press.",
+             "unit": "km", "accent": "Operational",
+             "rows": [["Authorised total", 34803], ["Operational", 27905], ["Under construction or partly commissioned", 8551]]},
+   "means": "Of the 34,803 km authorised, 27,905 km was operational on 31 March 2026, according to PNGRB.",
+   "todo": "Read the operational figure as a snapshot, since the authorised total grows with each new approval.",
+   "numbers": {"table": "T1"}},
+  {"h2": "Kochi-Koottanad-Bengaluru-Mangaluru gas line: completion moved to September 2026",
+   "chart": {"type": "bars",
+             "title": "Kochi-Koottanad-Bengaluru-Mangaluru: 657 km commissioned of 1,104 km by April 2026",
+             "sub": "Authorised, laid and commissioned length, km, per GAIL's 13 April 2026 disclosure.",
+             "source": "GAIL disclosure, as reported by trade press.",
+             "unit": "km", "accent": "Commissioned",
+             "rows": [["Authorised length", 1104], ["Laid", 919], ["Commissioned", 657]]},
+   "means": "GAIL gives delays in getting hindrance-free work fronts as the reason for both completion-date revisions.",
+   "todo": "Ask GAIL for a completion report, since the September 2026 date has passed with none found."},
+  {"h2": "Land-acquisition notices are about 700 of the ministry's 1,081 tracked gazette items",
+   "chart": {"type": "bars",
+             "title": "Pipeline land-acquisition notices make up most of the ministry's tracked gazette output",
+             "sub": "Tracked gazette items of the Ministry of Petroleum and Natural Gas, by type.",
+             "source": "gazettetracker.com aggregator; this blog's gazette-indexing estimate.",
+             "unit": "items", "accent": "Land-acquisition (ARUL) notices",
+             "rows": [["All tracked items", 1081], ["Land-acquisition (ARUL) notices, estimate", 700]]},
+   "means": "The land-acquisition notices are roughly two-thirds of the ministry's 1,081 tracked items, per this blog's estimate.",
+   "todo": "Check the roughly 700 estimate against the Gazette's full text before quoting it as a count."}
+ ],
+ "derived": {}
+}

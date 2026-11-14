@@ -1,5 +1,27 @@
-{
- "top": [],
- "sections": [],
- "derived": {}
-}
+{"top": [["38 → 45", " rotor sails installed on Norsepower ships, from June 2025 to Q1 2026."],
+          ["49 → 63", " wind-assist sails delivered across all vendors, from 2024 to 2025."],
+          ["87", " vessels ordered in 2025 on LNG, the largest alternative-fuel category."]],
+ "sections": [
+  {"h2": "Norsepower's installed rotor sails rose from 38 to 45 by Q1 2026",
+   "chart": {"type": "bars", "title": "Norsepower's rotor-sail count grew from June 2025 to Q1 2026",
+             "sub": "Rotor sails installed, Norsepower's reported figures.", "source": "Norsepower (IWSA profile; live site).",
+             "unit": "sails", "accent": "Q1 2026",
+             "rows": [["Jun 2025", 38], ["Q1 2026", 45]]},
+   "means": "Norsepower reports 38 rotor sails on 22 vessels as of June 2025, and 45 sails on 25 ships by Q1 2026.",
+   "todo": "Check whether the 39 units still planned across 16 further ships are installed on schedule."},
+  {"h2": "Wind-assist sail deliveries grew from 49 in 2024 to 63 in 2025",
+   "chart": {"type": "bars", "title": "Wind-assist sails delivered across all vendors were higher in 2025 than 2024",
+             "sub": "Wind-assist sails on ships delivered in each year, all vendors.", "source": "DNV Alternative Fuels Insight.",
+             "unit": "sails", "accent": "2025",
+             "rows": [["2024", 49], ["2025", 63]]},
+   "means": "DNV counted 22 ships delivered with wind-assist devices in 2024 and 24 ships in 2025, carrying 49 and 63 sails.",
+   "todo": "Compare measured savings on each ship's own route before treating the 5-25% range as typical."},
+  {"h2": "LNG led 2025 alternative-fuel orders, well ahead of methanol",
+   "chart": {"type": "bars", "title": "LNG accounted for 87 vessels of 2025 alternative-fuel orders",
+             "sub": "Full-year 2025 orders by fuel type, vessels. LPG is a partial-year snapshot.", "source": "DNV Alternative Fuels Insight.",
+             "unit": "vessels", "accent": "LNG",
+             "rows": [["LNG", 87], ["Methanol", 40], ["LPG / ethane", 19], ["Ammonia", [3, 5]], ["Hydrogen", 4]]},
+   "means": "DNV counted 1,794 alternative-fuel-capable ships in operation as of August 2025, with 1,544 more on order.",
+   "todo": "Treat rotor sails as a retrofit for engines that still burn conventional fuel, separate from the fuel-switching orders."}
+ ],
+ "derived": {}}

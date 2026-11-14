@@ -1,5 +1,27 @@
 {
- "top": [],
- "sections": [],
+ "top": [["₹36,000-38,000 crore", " projected aviation net loss for FY2027, widening from the FY2026 estimate."], ["Three", " of the fourteen sectors ICRA reviewed were downgraded to Negative in 2026, for one shared cause."]],
+ "sections": [
+  {"h2": "Aviation's projected net loss widens to ₹36,000-38,000 crore in FY2027",
+   "chart": {"type":"bars", "title":"Aviation loss estimates: FY2026 cut to ₹28,000-30,000 crore, FY2027 seen wider",
+             "sub":"Industry-wide net loss, ₹ crore.", "source":"ICRA aviation notes, 2026; ICRA update of 27 August 2026.",
+             "unit":"₹ crore", "accent":"FY2027 projection",
+             "rows":[["FY2026, March 2026 estimate",[32000,34000]],["FY2026, 27 August 2026 update",[28000,30000]],["FY2027 projection",[36000,38000]]]},
+   "means": "ICRA says airlines are unlikely to pass higher fuel, lease and operating costs fully through fares, so the pressure is expected to persist.",
+   "todo": "Track whether airlines recover costs through fares and whether the FY2027 domestic passenger growth guidance of 3-6% holds."},
+  {"h2": "Banks: a deliberate credit slowdown, with the banking outlook kept Stable",
+   "chart": {"type":"bars", "title":"Credit growth is expected to ease from 15.9% to 11.0-11.7% in FY2027",
+             "sub":"Banking credit growth, %.", "source":"ICRA press release, 22 April 2026.",
+             "unit":"%", "accent":"FY2027 projected credit growth",
+             "rows":[["FY2026 credit growth",15.9],["FY2027 projected credit growth",[11.0,11.7]]]},
+   "means": "ICRA frames the slowdown as deliberate and keeps banking Stable, citing comfortable capitalisation and manageable asset quality.",
+   "todo": "Watch net interest margins, which ICRA expects to face pressure from elevated funding costs before an easing later in FY2027."},
+  {"h2": "Renewables: 40-45 GW of the pipeline still lacks a signed power purchase agreement",
+   "chart": {"type":"bars", "title":"Over 150 GW is under construction, but 40-45 GW still lacks a signed PPA",
+             "sub":"Renewable energy capacity, GW.", "source":"ICRA Indian Renewable Energy Sector note, June 2026; ICRA press release, 7 May 2026.",
+             "unit":"GW", "accent":"Unsigned PPAs, April 2026",
+             "rows":[["Under construction, 30 June 2026 (more than 150 GW)",150],["Unsigned PPAs, April 2026",[40,45]]]},
+   "means": "Demand for renewable capacity is large, and ICRA names land, transmission, PPA-signing delays and discom health as the execution risks.",
+   "todo": "Check that a project's power purchase agreement is signed before financial close, since that contract drives its bankability."}
+ ],
  "derived": {}
 }

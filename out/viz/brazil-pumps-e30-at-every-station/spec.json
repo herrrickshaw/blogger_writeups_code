@@ -1,5 +1,31 @@
-{
- "top": [],
- "sections": [],
- "derived": {}
-}
+{"top": [["32%", " is Brazil's mandatory ethanol share in petrol since 1 August 2026, the highest mandatory rate anywhere, and a temporary one."],
+          ["82%", " of Brazil's light-vehicle fleet is flex-fuel by stock, so drivers can pick pure ethanol at the same station."],
+          ["20%", " is India's nationwide ethanol share since April 2026, with standards already published up to 30%."]],
+ "sections": [
+  {"h2": "Brazil's ethanol share has ranged from 18% to 32%, and 32% is temporary",
+   "chart": {"type": "bars", "title": "Selected blend rates ran from 18% to 32%; the 2026 rate lasts 180 days",
+             "sub": "Anhydrous ethanol in regular petrol (gasolina C), % by volume, selected years.",
+             "source": "Post's blend table; ANP; CNPE; Law 14.993/2024.",
+             "unit": "%", "accent": "2026 (Aug)",
+             "rows": [["1993", 22], ["2007", 25], ["2011", 18], ["2015", 27], ["2025 (Aug)", 30], ["2026 (Aug)", 32]]},
+   "means": "Brazil has mandated ethanol in petrol since 1938, and the 2024 law let the regulator move the blend within 22-35%.",
+   "todo": "The E32 decision should wait for the E35 technical tests the post says are still pending."},
+  {"h2": "Dispensers needed certification at each step, not just a blend decision",
+   "chart": {"type": "flow", "title": "Each blend step needed equipment and certification work, not only a policy change",
+             "events": [["1938", "Ethanol blending in petrol made mandatory"],
+                        ["1975", "Proálcool decree 76.593 responds to the 1973 oil shock"],
+                        ["2003", "VW Gol 1.6 Total Flex launches as the first mass-market flex-fuel car"],
+                        ["2022", "Portaria INMETRO 227/2022 updates dispenser rules last set in 1985"],
+                        ["2026", "E20 becomes the only petrol sold nationwide in India", true]]},
+   "means": "Ethanol attacks seals and elastomers more than metal, so dispensers need metrology and UL certification before a blend is safe to sell.",
+   "todo": "Publish the outlet-level list of ethanol-compatible seal retrofits, as the post proposes for India's oil marketing companies."},
+  {"h2": "India's E20 is behind Brazil's 32%, but its standards already reach E30",
+   "chart": {"type": "bars", "title": "Brazil sells 32% today; India sells 20% and has standards up to 30%",
+             "sub": "Ethanol share of petrol, %.",
+             "source": "Post; BIS IS 19850:2026; ANP and CNPE.",
+             "unit": "%", "accent": "Brazil, current mandate",
+             "rows": [["Brazil, current mandate", 32], ["India, nationwide now", 20], ["India, top notified standard", 30]]},
+   "means": "India's dispensers are at an earlier stage than Brazil's, which built its certification regime over five decades.",
+   "todo": "BIS and Legal Metrology should publish a materials test standard and a searchable meter-approval register, as the post proposes."}
+ ],
+ "derived": {}}

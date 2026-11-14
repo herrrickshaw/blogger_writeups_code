@@ -1,5 +1,44 @@
 {
- "top": [],
- "sections": [],
+ "top": [
+  ["28%", " of India's urban sewage generation is matched by treatment capacity in use, against 44% installed."],
+  ["4,263 MLD", " of Namami Gange sewage capacity is complete, roughly 61% of the 7,000 MLD target for December 2026."]
+ ],
+ "sections": [
+  {"h2": "Installed sewage capacity covers 44% of generation; only about 28% is in use",
+   "chart": {"type": "bars",
+             "title": "Capacity falls from 44% installed to about 28% actually utilised",
+             "sub": "Share of urban sewage generated (72,368 MLD), %.",
+             "source": "CPCB March 2021 inventory via PIB, 12 Dec 2022; Down To Earth.",
+             "unit": "%",
+             "accent": "Actually utilised",
+             "ref": [100, "100% = all sewage generated"],
+             "rows": [["Installed", 44, "31,841 MLD"], ["Operational", 37, "26,869 MLD"], ["Actually utilised", 28, "about 20,235 MLD"]]},
+   "means": "Of 72,368 MLD of urban sewage generated, 31,841 MLD is installed but only about 20,235 MLD is utilised.",
+   "todo": "CPCB should refresh its sewage treatment inventory, last comprehensively published in March 2021."
+  },
+  {"h2": "Namami Gange has 4,263 MLD complete, about 61% of its 7,000 MLD target",
+   "chart": {"type": "bars",
+             "title": "Completed capacity rose from 3,806 to 4,263 MLD, still short of 7,000",
+             "sub": "Sewage treatment capacity, MLD, Namami Gange.",
+             "source": "PIB releases, Dec 2023 and Dec 2025; Lok Sabha reply, Aug 2026.",
+             "unit": "MLD",
+             "accent": "Completed, Aug 2026",
+             "rows": [["Completed, Oct 2025", 3806, "138 projects"], ["Completed, Aug 2026", 4263, "146 projects"], ["Target, Dec 2026", 7000]]},
+   "means": "Completed capacity grew from 3,806 MLD in October 2025 to 4,263 MLD in August 2026, against a 7,000 MLD target.",
+   "todo": "The National Mission for Clean Ganga should publish quarterly the status of the 1,625.50 MLD where construction has not started."
+  },
+  {"h2": "India's ~28% treatment share sits near lower-middle-income peers at 26%",
+   "chart": {"type": "bars",
+             "title": "India tracks income peers, well below high-income countries at 74%",
+             "sub": "Share of wastewater safely treated, %.",
+             "source": "UN-Water 2024 update and UN SDG 6 2025 report, via secondary reporting.",
+             "unit": "%",
+             "accent": "India",
+             "ref": [100, "100% = all wastewater treated safely"],
+             "rows": [["Global average", 56], ["High-income", 74], ["Upper-middle-income", 43], ["Lower-middle-income", 26], ["India", 28, "this post's estimate"], ["Low-income", 4.3]]},
+   "means": "India's roughly 28% is close to the lower-middle-income figure of 26%, while high-income countries reach 74%.",
+   "todo": "Judge India against income peers rather than the EU, as the post argues."
+  }
+ ],
  "derived": {}
 }

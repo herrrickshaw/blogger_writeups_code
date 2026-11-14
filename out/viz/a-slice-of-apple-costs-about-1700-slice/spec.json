@@ -1,5 +1,85 @@
 {
- "top": [],
- "sections": [],
+ "top": [
+  [
+   "90.2%",
+   " of listed stocks trade under \u20b91,000 a share, but they hold 41.8% of market value."
+  ],
+  [
+   "0.93",
+   " is the median beta of both the cheapest band and the \u20b95,000\u201310,000 band, yet their one-year returns differed by 26 points."
+  ]
+ ],
+ "sections": [
+  {
+   "h2": "Most listed stocks are cheap, but market value sits in pricier shares",
+   "chart": {
+    "type": "bars",
+    "title": "Share of market value drops from 41.8% under \u20b91,000 to 5.0% above \u20b910,000",
+    "sub": "Share of combined listed market cap by price band, %.",
+    "source": "Screener.in, 5,390 NSE/BSE-listed stocks, 11 Aug 2026.",
+    "unit": "%",
+    "accent": "Under 1,000",
+    "table": {
+     "id": "T5",
+     "label": 0,
+     "value": 4,
+     "rows": "top:5"
+    }
+   },
+   "means": "Stocks under \u20b91,000 are 90.2% of the count but only 41.8% of market value.",
+   "todo": "Weigh any fractional-share proposal against the roughly 530 stocks above \u20b91,000 that hold most of the value.",
+   "numbers": {
+    "table": "T5"
+   }
+  },
+  {
+   "h2": "Median beta is close to 1.0 in every price band",
+   "chart": {
+    "type": "bars",
+    "title": "Median beta ranges only from 0.93 to 1.10 across the five bands",
+    "sub": "Median three-year weekly beta against the Nifty 50, by price band.",
+    "source": "Yahoo Finance weekly closes, three years to 11 Aug 2026; Screener.in price bands.",
+    "unit": "beta",
+    "ref": [
+     1,
+     "beta 1.0 = moves in line with the Nifty 50"
+    ],
+    "table": {
+     "id": "T6",
+     "label": 0,
+     "value": 4,
+     "rows": "top:5"
+    },
+    "accent": "Above 10,000"
+   },
+   "means": "A higher share price did not come with lower market risk in this window.",
+   "todo": "Check beta over a long window, since MRF's six-week figure of 0.34 misled against its three-year 1.06.",
+   "numbers": {
+    "table": "T6"
+   }
+  },
+  {
+   "h2": "Two bands with the same 0.93 beta returned -13.7% and +12.7% over a year",
+   "chart": {
+    "type": "bars",
+    "title": "Median one-year return: -13.7% under \u20b91,000, +12.7% at \u20b95,000\u201310,000",
+    "sub": "Median return over the trailing year, %, by price band.",
+    "source": "Screener.in, 5,390 listed stocks, 11 Aug 2026.",
+    "unit": "%",
+    "accent": "Under 1,000",
+    "table": {
+     "id": "T7",
+     "label": 0,
+     "value": 3,
+     "rows": "top:5"
+    }
+   },
+   "means": "Matching beta did not mean matching returns, and the cheapest band had the weakest year.",
+   "todo": "Look at the median return, not only the average, before backing a cheap band, since its mean was +10.3% against a median of -13.7%.",
+   "numbers": {
+    "table": "T7"
+   }
+  }
+ ],
  "derived": {}
 }

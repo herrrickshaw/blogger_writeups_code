@@ -1,5 +1,32 @@
 {
- "top": [],
- "sections": [],
+ "top": [
+  ["4%", " of every general insurance policy's business is ceded to GIC Re, the same rate for FY2026-27 as for FY2025-26."],
+  ["1.5-5%", " of the actuarial premium is paid by farmers under PMFBY; the Centre and states pay the rest."],
+  ["25-35%", " yield gains in NITI Aayog-documented drone pilots, against 10-15% in independent studies."]
+ ],
+ "sections": [
+  {"h2": "The obligatory cession fell from roughly 20% to 4% and has held there since FY2022-23",
+   "chart": {"type":"bars", "title":"Each step cut the share GIC Re is guaranteed; 4% has held for three years",
+             "sub":"Share of every general insurance policy ceded to GIC Re, %.", "source":"IRDAI notifications as reported by Business Standard and The Tribune.",
+             "unit":"%", "accent":"FY2022-23 onward",
+             "rows":[["Earlier years",20,"roughly 20%"],["Later step",15],["Later step",10],["Later step",5],["FY2022-23 onward",4,"3rd year running"]]},
+   "means": "The rate stepped down from roughly 20% to 4%, and IRDAI has confirmed 4% for FY2026-27 as well.",
+   "todo": "Do not read a change to the 4% rate as a change to what a PMFBY claimant receives."},
+  {"h2": "Farmers fund only 1.5-5% of PMFBY premiums; the state pays the rest",
+   "chart": {"type":"bars", "title":"Farmers pay 1.5-5% of the capped premium; the Centre and states pay 95-98.5%",
+             "sub":"Farmer's capped premium share, by crop category, %.", "source":"PIB Explainer ID 155010, 11 August 2025.",
+             "unit":"%", "accent":"Annual commercial / horticultural crops",
+             "table":{"id":"T1","label":0,"value":1,"rows":"top:3","sort":"desc"}},
+   "means": "PMFBY is structurally much closer to a government subsidy routed through insurers than to insurance as most people understand it.",
+   "todo": "Judge PMFBY's claim totals against the public premium that funded them, not against farmers' payments.",
+   "numbers": {"table":"T1"}},
+  {"h2": "Precision-farming yield gains range from 10-15% to 25-35% by study type",
+   "chart": {"type":"bars", "title":"Drone studies show 10-15% gains; NITI-documented pilots show 25-35%",
+             "sub":"Reported yield gain, %. Vendor marketing claims are left out.", "source":"Leher.ag; India Mongabay; NITI Aayog Frontier Tech.",
+             "unit":"%", "accent":"NITI-documented pilots",
+             "rows":[["Independent drone-adoption studies",[10,15]],["Broader sensor and analytics adoption",20,"up to 20%"],["NITI Aayog-documented pilots",[25,35]]]},
+   "means": "Reported gains differ widely by who measured them, so no single yield figure is the expected gain from precision farming.",
+   "todo": "Ask for independent measurement before relying on the 25-35% pilot figures."}
+ ],
  "derived": {}
 }

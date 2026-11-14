@@ -1,40 +1,172 @@
-{"top": [
-  ["64%", " growth in India's maize area over ten years, to 144 lakh hectares in 2025-26; mustard grew as much."],
-  ["−42%", " fall in jowar area over the same decade, the steepest of any major crop."],
-  ["11.5%", " typical monthly price move in the onion-potato-tomato price cluster, against 3.4% for harvest-bunched field crops such as wheat."]
+{
+ "top": [
+  [
+   "64%",
+   " growth in India's maize area over ten years, to 144 lakh hectares in 2025-26; mustard grew as much."
+  ],
+  [
+   "\u221242%",
+   " fall in jowar area over the same decade, the steepest of any major crop."
+  ],
+  [
+   "11.5%",
+   " typical monthly price move in the onion-potato-tomato price cluster, against 3.4% for harvest-bunched field crops such as wheat."
+  ]
  ],
  "sections": [
-  {"h2": "Maize and mustard area grew 64% in ten years, while jowar area fell 42%",
-   "chart": {"type":"bars", "title":"Maize and mustard gained the most land; jowar lost the most",
-     "sub":"Change in area, 2025-26 against 2015-16, %.", "source":"UPAG all-India area, production and yield; this blog's calculations.",
-     "unit":"%", "accent":"Maize",
-     "rows":[["Maize",64,"144 lakh ha"],["Rapeseed & Mustard",64],["Moong",61],["Lentil",38],["Groundnut",28],["Rice",21],["Wheat",10],["Bajra",-2],["Cotton",-6],["Urad",-13],["Sesamum",-22],["Jowar",-42]]},
+  {
+   "h2": "Maize and mustard area grew 64% in ten years, while jowar area fell 42%",
+   "chart": {
+    "type": "bars",
+    "title": "Maize and mustard gained the most land; jowar lost the most",
+    "sub": "Change in area, 2025-26 against 2015-16, %.",
+    "source": "UPAG all-India area, production and yield; this blog's calculations.",
+    "unit": "%",
+    "accent": "Maize",
+    "rows": [
+     [
+      "Maize",
+      64,
+      "144 lakh ha"
+     ],
+     [
+      "Rapeseed & Mustard",
+      64
+     ],
+     [
+      "Moong",
+      61
+     ],
+     [
+      "Lentil",
+      38
+     ],
+     [
+      "Groundnut",
+      28
+     ],
+     [
+      "Rice",
+      21
+     ],
+     [
+      "Wheat",
+      10
+     ],
+     [
+      "Bajra",
+      -2
+     ],
+     [
+      "Cotton",
+      -6
+     ],
+     [
+      "Urad",
+      -13
+     ],
+     [
+      "Sesamum",
+      -22
+     ],
+     [
+      "Jowar",
+      -42
+     ]
+    ]
+   },
    "means": "Land is moving toward crops with new demand or price support and away from the traditional dryland cereals.",
-   "todo": "Plan inputs, storage and procurement around the crops gaining area, led by maize and mustard."},
-  {"h2": "Maize, groundnut, moong, gram and jowar yields grew 3.4-4.7% a year since 2015",
-   "chart": {"type":"bars", "title":"Yields of five crops grew 3.4-4.7% a year since 2015; cotton slipped",
-     "sub":"Yield growth per year, 2015-2025, %.", "source":"UPAG; this blog's calculations.",
-     "unit":"%", "accent":"Maize",
-     "table":{"id":"T1","label":0,"value":4,"rows":"top:11","sort":"desc"}},
+   "todo": "Plan inputs, storage and procurement around the crops gaining area, led by maize and mustard."
+  },
+  {
+   "h2": "Maize, groundnut, moong, gram and jowar yields grew 3.4-4.7% a year since 2015",
+   "chart": {
+    "type": "bars",
+    "title": "Yields of five crops grew 3.4-4.7% a year since 2015; cotton slipped",
+    "sub": "Yield growth per year, 2015-2025, %.",
+    "source": "UPAG; this blog's calculations.",
+    "unit": "%",
+    "accent": "Maize",
+    "table": {
+     "id": "T1",
+     "label": 0,
+     "value": 4,
+     "rows": "top:11",
+     "sort": "desc"
+    }
+   },
    "means": "Rice and wheat yields grew about 2% a year, slower than the fastest crops, while tur and soybean have barely moved.",
    "todo": "Direct seed and extension effort to tur, soybean and cotton, where yield has barely moved or slipped.",
-   "numbers": {"table":"T1"}},
-  {"h2": "Indo-Gangetic states use 326 kg of urea a hectare against 124 kg in the eastern rice belt",
-   "chart": {"type":"bars", "title":"Urea use per hectare differs sharply between crop-mix clusters",
-     "sub":"Urea sold per hectare of cropped land, 2025-26, kg.", "source":"Department of Fertilizers; UPAG; this blog's calculations.",
-     "unit":"kg/ha", "accent":"4 Indo-Gangetic wheat–rice",
-     "table":{"id":"T2","label":0,"value":2,"rows":"top:4","sort":"desc"}},
+   "numbers": {
+    "table": "T1"
+   }
+  },
+  {
+   "h2": "Indo-Gangetic states use 326 kg of urea a hectare against 124 kg in the eastern rice belt",
+   "chart": {
+    "type": "bars",
+    "title": "Urea use per hectare differs sharply between crop-mix clusters",
+    "sub": "Urea sold per hectare of cropped land, 2025-26, kg.",
+    "source": "Department of Fertilizers; UPAG; this blog's calculations.",
+    "unit": "kg/ha",
+    "accent": "4 Indo-Gangetic wheat\u2013rice",
+    "table": {
+     "id": "T2",
+     "label": 0,
+     "value": 2,
+     "rows": "top:4",
+     "sort": "desc"
+    }
+   },
    "means": "Where urea use is highest, each tonne returns less grain, about 8.6 tonnes against about 12, which fits diminishing returns to nitrogen.",
    "todo": "Aim fertiliser-efficiency efforts at the Indo-Gangetic states rather than raising urea supply everywhere.",
-   "numbers": {"table":"T2"}},
-  {"h2": "Tomato, garlic and onion move 13.5-20.4% a month; wheat, maize and soybean 2.5-2.9%",
-   "chart": {"type":"bars", "title":"Perishables swing many times more than storable grains in a typical month",
-     "sub":"Typical monthly price move, %.", "source":"Agmarknet; this blog's calculations.",
-     "unit":"%", "accent":"Maize",
-     "table":{"id":"T3","label":0,"value":3,"rows":"top:23","sort":"desc"}},
+   "numbers": {
+    "table": "T2"
+   }
+  },
+  {
+   "h2": "Tomato, garlic and onion move 13.5-20.4% a month; wheat, maize and soybean 2.5-2.9%",
+   "chart": {
+    "type": "bars",
+    "title": "Perishables swing 6.2-20.4% a month; wheat, maize and rice 2.3-2.9%",
+    "sub": "Typical monthly price move, %; the four perishables with the largest moves against four storable grains.",
+    "source": "Agmarknet; this blog's calculations.",
+    "unit": "%",
+    "accent": [
+     "Tomato",
+     "Garlic",
+     "Onion",
+     "Potato"
+    ],
+    "table": {
+     "id": "T3",
+     "label": 0,
+     "value": 3,
+     "rows": [
+      6,
+      11,
+      2,
+      3,
+      4,
+      1,
+      8,
+      5
+     ],
+     "sort": "desc"
+    }
+   },
    "means": "Storable grains, pulses and oilseeds move a few percent a month, while vegetables that cannot be stored for long can double or halve within a season.",
    "todo": "Build storage and price-stabilisation support around vegetables rather than grains.",
-   "numbers": {"table":"T3"}}
+   "numbers": {
+    "table": "T3"
+   }
+  }
  ],
- "details": [{"summary":"Seasonal price index, selected readings (1.00 = the crop's average month)","html":"<p>Onion is cheapest at 0.58 and dearest at 1.60. Potato reads 1.31 in November and 1.04 in December. Garlic reads 0.97 in July and 1.32 in December.</p>"}],
- "derived": {}}
+ "details": [
+  {
+   "summary": "Seasonal price index, selected readings (1.00 = the crop's average month)",
+   "html": "<p>Onion is cheapest at 0.58 and dearest at 1.60. Potato reads 1.31 in November and 1.04 in December. Garlic reads 0.97 in July and 1.32 in December.</p>"
+  }
+ ],
+ "derived": {}
+}

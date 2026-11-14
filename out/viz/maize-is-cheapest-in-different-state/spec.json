@@ -1,5 +1,32 @@
-{
- "top": [],
- "sections": [],
- "derived": {}
-}
+{"top": [["Rs 510", " a quintal: gap between the cheapest large maize state (Madhya Pradesh) and the dearest (Tamil Nadu) in October 2026."], ["0 of 20", " state-and-grain pairs where buying and holding for six months made money on average since 2023."], ["19%", " how far the all-India maize price in October 2026 sat above its 12-month average."]],
+ "sections": [
+  {"h2": "Maize is cheapest in the central states and dearest in the south",
+   "chart": {"type":"bars", "title":"Maize, Oct 2026: Madhya Pradesh Rs 131 below all-India, Tamil Nadu Rs 379 above",
+             "sub":"Agmarknet state price minus the all-India price, October 2026 to the 23rd, Rs/quintal.", "source":"Agmarknet; this blog's calculations.",
+             "unit":"Rs/quintal", "accent":"Madhya Pradesh", "ref":[0,"0 = the all-India price, Rs 2,202 a quintal"],
+             "rows":[["Madhya Pradesh",-131],["Rajasthan",-119],["Punjab",254],["Tamil Nadu",379]]},
+   "means": "Madhya Pradesh and Rajasthan sold maize Rs 119 to Rs 131 below the all-India price in October 2026, while Tamil Nadu paid Rs 379 more.",
+   "todo": "Buy maize from the central states at the time of their harvest, rather than from the dearer southern markets."},
+  {"h2": "Maize's cheap season moves with each harvest; rice stays in a narrow band",
+   "chart": {"type":"bars", "title":"Maize's seasonal swing reaches 45% in Punjab; rice's stays at 5–9%",
+             "sub":"Seasonal swing between the cheapest and dearest month, 2019 to 2025, %.", "source":"Agmarknet; this blog's calculations.",
+             "unit":"%", "accent":"Maize: Punjab",
+             "rows":[["Maize: Uttar Pradesh",12],["Maize: Maharashtra",30],["Maize: Punjab",45],["Rice: main states",[5,9]]]},
+   "means": "Maize's seasonal price swing is 12% in Uttar Pradesh, 30% in Maharashtra and 45% in Punjab, against 5 to 9% for rice.",
+   "todo": "Time purchases to each state's cheap month, which runs from Tamil Nadu in January to Punjab and Uttar Pradesh in June and the kharif belt in October."},
+  {"h2": "Holding maize or rice for six months lost money in all 20 state-and-grain pairs",
+   "chart": {"type":"bars", "title":"Six-month carry lost Rs 135–212 a quintal on average in each maize state",
+             "sub":"Average six-month carry result after rent, interest and shrinkage, Rs/quintal, tested from January 2023.", "source":"Agmarknet; this blog's calculations.",
+             "unit":"Rs/quintal", "accent":"Uttar Pradesh", "ref":[0,"0 = break-even"],
+             "rows":[["All India",-167],["Madhya Pradesh",-149],["Uttar Pradesh",-212],["Karnataka",-149],["Maharashtra",-142],["Rajasthan",-178],["Telangana",-135],["Tamil Nadu",-169]]},
+   "means": "Across the maize states shown, the average six-month carry result was a loss of Rs 135 to Rs 212 a quintal.",
+   "todo": "Stockpile only in a genuine glut, when a state's price is 15% or more below its 12-month average."},
+  {"h2": "All-India maize price index ranges from 0.95 in October to 1.04 in August",
+   "chart": {"type":"bars", "title":"All-India maize: the monthly index peaks at 1.04 in August and bottoms at 0.95 in October",
+             "sub":"Calendar-month average divided by the average of all months, full years 2019 to 2025 (1.00 = average month).", "source":"Agmarknet; this blog's calculations.",
+             "unit":"index", "accent":"Oct", "ref":[1,"1.00 = the average month"],
+             "rows":[["Jan",1.01],["Feb",1.02],["Mar",1.03],["Apr",1.01],["May",0.99],["Jun",0.97],["Jul",0.99],["Aug",1.04],["Sep",1.03],["Oct",0.95],["Nov",0.96],["Dec",1.00]]},
+   "means": "The all-India index is lowest at 0.95 in October, when the monsoon crop arrives, and highest at 1.04 in August, over the 2019 to 2025 full years.",
+   "todo": "Buy in October and November, when the monsoon crop arrives, rather than storing grain through the year."}
+ ],
+ "derived": {}}

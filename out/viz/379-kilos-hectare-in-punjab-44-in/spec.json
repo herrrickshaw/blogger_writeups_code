@@ -1,5 +1,26 @@
-{
- "top": [],
- "sections": [],
- "derived": {}
-}
+{"top": [["379", " kilos of urea a hectare in Punjab, against 182 across India and 44 in Kerala. The map follows the crops, not the farm size."], ["93.5", " per cent of Punjab's gross cropped area is irrigated, against a national figure near 60."]],
+ "sections": [
+  {"h2": "Punjab applies 379 kg of urea a hectare, Kerala 44, against an all-India 182",
+   "chart": {"type":"bars", "title":"Paddy-wheat states sit well above the national urea rate per hectare",
+             "sub":"Urea sales 2025-26 divided by gross cropped area, kg per hectare.", "source":"Department of Fertilizers; Land Use Statistics 2023-24.",
+             "unit":"kg/ha", "accent":"Punjab", "ref":[182,"All-India average, 182 kg/ha"],
+             "rows":[["Punjab",379],["Haryana",333],["Bihar",323],["Uttar Pradesh",269],["Madhya Pradesh",140],["Rajasthan",101],["Kerala",44]]},
+   "means": "Three of the top four states run irrigated wheat and paddy rotations, where nitrogen is the main input.",
+   "todo": "Set doses from soil tests and crop need, as the ICAR smart nutrient framework proposes.",
+   "numbers": {"table":"T2"}},
+  {"h2": "Cereals take the most nitrogen: sugarcane 125 kg a hectare, pigeon pea 21",
+   "chart": {"type":"bars", "title":"Pulses and millets take a third or less of the nitrogen that cereals take",
+             "sub":"Nitrogen applied per hectare by crop, kg N/ha.", "source":"FAO country study, as cited in the post.",
+             "unit":"kg N/ha", "accent":"Paddy", "ref":[59.2,"All crops average, 59.2 kg N/ha"],
+             "rows":[["Sugar cane",124.8],["Wheat",99.6],["Cotton",89.5],["Paddy",81.7],["Groundnut",24.4],["Pearl millet",21.9],["Pigeon pea",20.9]]},
+   "means": "Legumes fix nitrogen from the air through root nodules, so they need only a starter dose of applied nitrogen.",
+   "todo": "Plan rotations that bring pulses back into the cereal belt to lower the nitrogen load."},
+  {"h2": "ICAR's recommended urea for irrigated kharif rice is 130 kg a hectare",
+   "chart": {"type":"bars", "title":"Punjab's applied urea is well above the ICAR dose for irrigated rice",
+             "sub":"Urea per hectare: ICAR recommended doses for rice and maize, against state applied rates.", "source":"ICAR-NRRI crop advisory; Department of Fertilizers.",
+             "unit":"kg/ha", "accent":"Punjab applied", "ref":[130,"Lowland kharif irrigated rice dose, 130 kg/ha"],
+             "rows":[["Rainfed upland rice",87],["Lowland kharif irrigated rice",130],["Rabi rice",174],["Hybrid rice",217],["Haryana applied",333],["Punjab applied",379]]},
+   "means": "Recommended doses are converted from N-P-K at 46 per cent nitrogen in urea, so they compare directly with the applied rates.",
+   "todo": "Tie fertiliser pricing to phosphorus and potash, so farmers have a reason to follow the recommended doses."}
+ ],
+ "derived": {}}

@@ -1,5 +1,36 @@
 {
- "top": [],
- "sections": [],
+ "top": [
+  ["119", " plants are authorised to sell bio-manure in bulk, built up over seven Gazette notifications in 27 months."],
+  ["13%", " was the national utilisation of rated CBG capacity in FY2024-25, against the 70-85% the situation report calls sound."],
+  ["₹1,500", " per MT is the MDA subsidy on FOM/LFOM sold, and the post argues plant economics rest on that leg."]
+ ],
+ "sections": [
+  {"h2": "Authorised plants reached 119 across seven notifications, a steady rollout",
+   "chart": {"type":"bars", "title":"Cumulative authorised plants rose steadily, not in an accelerating curve",
+             "sub":"Cumulative plants authorised for bulk sale, after each Gazette notification.",
+             "source":"Gazette notifications I-VII, Department of Agriculture & Farmers Welfare, Nov 2023-Feb 2026.",
+             "unit":"plants", "accent":"VII",
+             "rows":[["I",27],["II",41],["III",62],["IV",69],["V",86],["VI",106],["VII",119]]},
+   "means": "Each authorisation lasts three years from its Gazette date, so the first cohort comes up for renewal in November 2026.",
+   "todo": "Watch the November 2026 renewals to see whether the programme is treated as a going concern or lapses plant by plant.",
+   "numbers": {"table":"T1"}},
+  {"h2": "Uttar Pradesh holds 28 plants, and the top six states about 70 per cent",
+   "chart": {"type":"bars", "title":"Uttar Pradesh alone holds roughly a quarter of the 119 authorised plants",
+             "sub":"Authorised plants by state, top eight.",
+             "source":"Gazette notifications I-VII, Department of Agriculture & Farmers Welfare.",
+             "unit":"plants", "accent":"Uttar Pradesh",
+             "rows":[["Uttar Pradesh",28],["Haryana",13],["Gujarat",12],["Karnataka",12],["Maharashtra",10],["Punjab",9],["Madhya Pradesh",7],["Rajasthan",7]]},
+   "means": "Plant siting follows agricultural and dairy feedstock, which leaves the bio-fertiliser base concentrated in a few states.",
+   "todo": "Route the bulk-sale programme toward the states that have the plants and the degraded land, not only the largest feedstock pools.",
+   "numbers": {"table":"T2"}},
+  {"h2": "Only 13% of rated CBG capacity was used, so running plants is the bottleneck",
+   "chart": {"type":"bars", "title":"Utilisation is the bottleneck: plants run at 30-35% against 100% for the best operator",
+             "sub":"Share of rated capacity used, %, FY2024-25 unless stated.",
+             "source":"Situation report on India's CBG sector, July 2026 (PPAC, MoPNG, PNGRB data).",
+             "unit":"%", "accent":"National average", "ref":[100,"100% = full rated capacity"],
+             "rows":[["National average",13],["Struggling plants",[30,35]],["IOCL",70],["EverEnviro",100]]},
+   "means": "The report puts the gap down to execution and utilisation, not demand, since the CBG blending obligation guarantees a buyer.",
+   "todo": "Fund the plant-running gap first, since the post's own sources say offtake is not the bottleneck."}
+ ],
  "derived": {}
 }

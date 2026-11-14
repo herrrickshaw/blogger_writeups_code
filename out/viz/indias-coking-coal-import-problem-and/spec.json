@@ -1,5 +1,31 @@
 {
- "top": [],
- "sections": [],
- "derived": {}
+ "top": [
+  ["~90%", " of the coking coal India's steel mills need is imported, the costliest raw material in steel-making."],
+  ["39%", " fall in the dollar value of coking coal imports from the FY2022-23 peak to FY2025-26, consistent with easing prices."],
+  ["₹61.85 crore", " of CAQM compensation imposed on six thermal plants that missed FY2024-25 biomass co-firing targets."]
+ ],
+ "sections": [
+  {"h2": "Coking coal imports fell 39% in dollar value from the FY2022-23 peak",
+   "chart": {"type":"bars", "title":"Dollar value of coking coal imports fell every year after the FY2022-23 peak",
+             "sub":"US$ million, HS 27011910 'Coking coal'. FY2025-26 is provisional.", "source":"DGCI&S TradeStat.",
+             "unit":"US$M", "accent":"2025-26",
+             "rows":[["2022-23",19285.76],["2023-24",15964.75],["2024-25",12151.72],["2025-26",11767.63]]},
+   "means": "The decline tracks falling global coal prices rather than India needing less coking coal, since Ministry of Coal volume targets still rise.",
+   "todo": "DGCI&S should report coking coal imports by country of origin as well as consignment, so trade-hub figures can be checked."},
+  {"h2": "Australia's US$5,110.92 million outweighs the USA, Singapore and Russia combined",
+   "chart": {"type":"bars", "title":"Australia supplied far more coking coal value than any other source in FY2025-26",
+             "sub":"US$ million, FY2025-26 provisional, HS 27011910. Singapore and Switzerland are trading hubs, not mine origins.", "source":"DGCI&S TradeStat, Commodity x Country report.",
+             "unit":"US$M", "accent":"Australia",
+             "rows":[["Australia",5110.92],["USA",1774.14],["Singapore",1430.14],["Russia",1230.81],["Mozambique",854.50],["UAE",550.13]]},
+   "means": "Australia's supply is concentrated, while Singapore and Switzerland likely overstate their role as mine-of-origin suppliers.",
+   "todo": "DGCI&S should publish country-of-origin data so readers can see where Singapore's US$1,430.14 million coking coal actually comes from."},
+  {"h2": "Six thermal plants face ₹61.85 crore compensation for missing biomass co-firing targets",
+   "chart": {"type":"bars", "title":"Talwandi Sabo accounts for more than half of the ₹61.85 crore",
+             "sub":"Compensation imposed by CAQM on 8 April 2026, for FY2024-25 co-firing shortfalls. Unit: ₹ crore.", "source":"CAQM press release, 8 April 2026.",
+             "unit":"₹ crore", "accent":"Talwandi Sabo Power Ltd (Vedanta)",
+             "rows":[["Talwandi Sabo Power Ltd (Vedanta)",33.02],["Panipat Thermal Power Station",8.98],["Deenbandhu Chhotu Ram TPS",6.69],["Rajiv Gandhi Thermal Power Plant",5.55],["Guru Hargobind Thermal Power Plant",4.87],["Harduaganj Thermal Power Station",2.74]]},
+   "means": "Six plants in Punjab, Haryana and Uttar Pradesh were penalised for missing FY2024-25 co-firing targets under the Delhi-NCR track.",
+   "todo": "The Ministry of Power and CAQM should issue one joint notice stating the co-firing percentage that applied in FY2024-25, since the sources give 3% and 5%."}
+ ],
+ "derived": {"11768": "11767.63", "12152": "12151.72", "1231": "1230.81", "15965": "15964.75", "1774": "1774.14", "19286": "19285.76", "5111": "5110.92", "550": "550.13", "855": "854.50", "854": "854.50", "1430": "1430.14"}
 }

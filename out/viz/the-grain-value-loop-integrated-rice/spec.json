@@ -1,5 +1,39 @@
 {
- "top": [],
- "sections": [],
+ "top": [
+  ["₹21,087 cr", " a year of imports could be replaced by processing the byproducts the state already holds."],
+  ["168 LMT", " of edible oil imported a year, against 122 LMT of domestic edible oil."]
+ ],
+ "sections": [
+  {"h2": "Edible-oil imports cost ₹1,68,000 cr a year; the food subsidy costs ₹2,05,000 cr",
+   "chart": {"type": "bars",
+             "title": "Edible-oil imports are the third-largest line in the listed spend, after MSP and food",
+             "sub": "Annual spend lines, ₹ crore.",
+             "source": "Post spend table (MSP KMS 2025-26; DGCI&S).",
+             "unit": "₹ cr",
+             "accent": "Edible-oil imports",
+             "rows": [["MSP paid to ~1.3 cr farmers", 232000], ["Food subsidy (free grain, 80 cr)", 205000], ["Edible-oil imports", 168000], ["Pulse imports", 31000], ["Excess-stock carry (~330 LMT over buffer)", 18000], ["Rice bran given away free", 7650]]},
+   "means": "Edible-oil imports are a large recurring cost, and the post treats domestic processing as the way to recover part of it.",
+   "todo": "Redirect the oil spend to domestic processing and jobs, as the post proposes."},
+  {"h2": "Processing could replace ₹21,087 cr of imports a year; ₹11,000 cr is capturable now",
+   "chart": {"type": "bars",
+             "title": "About ₹11,000 cr of the ₹21,087 cr is capturable now",
+             "sub": "Annual values, ₹ crore.",
+             "source": "Post import-substitution table; DGCI&S import values.",
+             "unit": "₹ cr",
+             "accent": "Import substitution (processing)",
+             "rows": [["Import substitution (processing)", 21087], ["of which capturable now", 11000], ["Byproduct monetised (bran → RBO)", 7650], ["Excess-stock carry avoided (up to)", 18000]]},
+   "means": "The capturable part comes from rice bran oil, cottonseed oil and soy and sunflower crush, per the post's stream-by-stream estimate.",
+   "todo": "Ring-fence the commercial arm and contract the offtake, as the post recommends."},
+  {"h2": "Edible-oil imports (168 LMT) exceed domestic edible oil (122 LMT)",
+   "chart": {"type": "bars",
+             "title": "Edible-oil imports at 168 LMT outweigh the 122 LMT of domestic edible oil",
+             "sub": "Annual volumes, lakh metric tonnes.",
+             "source": "Post supply-balance table.",
+             "unit": "LMT",
+             "accent": "Edible oil imported",
+             "rows": [["Domestic edible oil", 122], ["Edible oil imported", 168], ["Rice bran oil", 10]]},
+   "means": "Byproduct oil competes with imports rather than with food grain, so the post argues it does not compete with people's food supply.",
+   "todo": "Build the byproduct oil routes first, as the post's sequencing proposes."}
+ ],
  "derived": {}
 }

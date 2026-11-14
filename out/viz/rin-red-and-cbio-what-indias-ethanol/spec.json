@@ -1,5 +1,31 @@
 {
- "top": [],
- "sections": [],
+ "top": [
+  ["12.1%", " rise in rice's national average modal price from 23 Jul to 11 Aug 2026, while paddy fell 2.0%."],
+  ["₹2,342", " maize average on 11 Aug 2026, below its ₹2,410 per quintal Kharif 2026-27 MSP."],
+  ["€82.32", " per tonne CBAM certificate price for Q3 2026; ethanol is outside CBAM's product scope."]
+ ],
+ "sections": [
+  {"h2": "Feedstock prices: maize up 7.7%, rice up 12.1%, paddy down 2.0% in three weeks",
+   "chart": {"type":"bars", "title":"Maize and rice mandi prices rose from 23 Jul to 11 Aug 2026; paddy fell",
+             "sub":"Change in national average modal price, 23 Jul to 11 Aug 2026, %.", "source":"Agmarknet daily prices via data.gov.in.",
+             "unit":"%", "accent":"Rice",
+             "rows":[["Maize",7.7],["Rice",12.1],["Paddy (Common)",-2.0]]},
+   "means": "Maize rose 7.7% and rice 12.1% over the window, while raw paddy fell 2.0%.",
+   "todo": "Agmarknet should add daily arrival quantities to its price feed so demand-led and supply-led moves can be told apart."},
+  {"h2": "Maize's mandi price stayed below its Kharif 2026-27 support price",
+   "chart": {"type":"bars", "title":"Maize averaged ₹2,342 per quintal on 11 Aug, under its ₹2,410 MSP",
+             "sub":"National average modal price and Kharif 2026-27 MSP, ₹ per quintal.", "source":"Agmarknet via data.gov.in; PIB, Kharif 2026-27 MSP.",
+             "unit":"₹/quintal", "accent":"Maize, 11 Aug mandi",
+             "rows":[["Maize, 23 Jul mandi",2175],["Maize, 11 Aug mandi",2342],["Maize Kharif 2026-27 MSP",2410]]},
+   "means": "Both maize readings sat below the ₹2,410 per quintal MSP, which the post says CACP set with a 56% margin built in.",
+   "todo": "The Ministry of Petroleum and Natural Gas should publish a quarterly feedstock-cost index for maize, FCI rice and molasses against ethanol offtake prices."},
+  {"h2": "CBAM certificate price rose to €82.32 in Q3 2026, but ethanol is outside its scope",
+   "chart": {"type":"bars", "title":"The EU CBAM certificate price rose to €82.32 per tonne in Q3 2026",
+             "sub":"EU CBAM quarterly certificate price, € per tCO₂e.", "source":"European Commission, CBAM certificate prices, as cited in the post.",
+             "unit":"€/tCO₂e", "accent":"Q3 2026",
+             "rows":[["Q1 2026",75.36],["Q2 2026",75.28],["Q3 2026",82.32]]},
+   "means": "The CBAM prices are €75.36 for Q1, €75.28 for Q2 and €82.32 for Q3 2026, and its scope covers steel, aluminium, cement, fertilisers, hydrogen and electricity, not ethanol.",
+   "todo": "The Ministry of Environment, Forest and Climate Change and the Department of Commerce should publish whether CCTS instruments qualify as a carbon price under CBAM Article 9."}
+ ],
  "derived": {}
 }

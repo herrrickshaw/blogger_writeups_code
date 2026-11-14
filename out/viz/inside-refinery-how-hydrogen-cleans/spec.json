@@ -1,0 +1,39 @@
+{
+ "top": [
+  ["₹0.55–0.80", " per litre is the premium on diesel if every refinery hydrogen molecule were green at today's SIGHT bid price."],
+  ["$4.16/kg", " for green hydrogen against a $1.50/kg global grey benchmark, which is why only 30 KTPA has been contracted so far."]
+ ],
+ "sections": [
+  {"h2": "Green hydrogen at the SIGHT bid is $4.16/kg, against $1.50/kg for grey",
+   "chart": {"type": "bars",
+             "title": "The competitive green bid sits well above the grey benchmark",
+             "sub": "Hydrogen price, US$ per kg.",
+             "source": "Post, Sections 3 and 5 (SIGHT Mode-2B bid; global SMR benchmark).",
+             "unit": "$/kg",
+             "accent": "Green, SIGHT bid",
+             "rows": [["Grey, global SMR benchmark", 1.5], ["Green, SIGHT bid average", 4.16]]},
+   "means": "Green hydrogen is priced at roughly three times grey, so the switch carries a real cost premium.",
+   "todo": "Refiners should keep tendering for green hydrogen at these bid prices while tracking how the premium falls."},
+  {"h2": "Per barrel, hydrogen costs $0.76 in grey and $2.12 in green",
+   "chart": {"type": "bars",
+             "title": "A barrel of diesel needs about 0.51 kg of hydrogen, so green costs $2.12",
+             "sub": "Hydrogen cost per barrel of BS-VI diesel, US$.",
+             "source": "Post, Sections 2 and 5; 0.51 kg/bbl is the post's consumption figure.",
+             "unit": "$/bbl",
+             "accent": "Green, SIGHT bid",
+             "rows": [["Grey, global benchmark", 0.76], ["Green, SIGHT bid", 2.12]]},
+   "means": "Hydrotreating hydrogen is a small share of a barrel's cost, but the green premium roughly triples it.",
+   "todo": "Refiners should publish per-barrel hydrogen costs so consumers can see the effect of the switch on diesel."},
+  {"h2": "Full green substitution would add ₹0.55–0.80 per litre, close to BS-VI's ₹1",
+   "chart": {"type": "bars",
+             "title": "A full switch to green would add about the same as the BS-VI price rise",
+             "sub": "Rupees per litre of diesel.",
+             "source": "Post, Sections 2 and 5 (this piece's own worked estimate).",
+             "unit": "₹/litre",
+             "accent": "Premium, grey to green",
+             "rows": [["BS-VI desulphurisation price rise, April 2020", 1], ["Premium, grey to green, full substitution", [0.55, 0.80]]]},
+   "means": "The premium is an illustrative ceiling, not a price move: only 30 KTPA is contracted against about 2.5 MTPA of grey demand.",
+   "todo": "Government and refiners should track how much of the 2.5 MTPA grey demand is actually switched to green hydrogen."}
+ ],
+ "derived": {}
+}

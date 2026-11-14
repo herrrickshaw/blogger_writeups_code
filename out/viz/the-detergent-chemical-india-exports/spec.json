@@ -1,5 +1,27 @@
-{
- "top": [],
- "sections": [],
- "derived": {}
-}
+{"top": [["162,000", " tonnes a year: Indian Oil's LAB unit, the largest reported, after its 2022 revamp."],
+         ["₹3,686 crore", " of alkylbenzene (LAB) imports in FY2024-25, against ₹37 crore exported."],
+         ["200", " tonnes a year: BPCL's SAP demo plant, against a national market of about 50,000 tonnes."]],
+ "sections": [
+  {"h2": "India already makes LAB, and Indian Oil's unit is the largest reported",
+   "chart": {"type":"bars", "title":"Indian Oil's LAB unit is the largest reported, at 162,000 tonnes a year",
+             "sub":"LAB capacity by producer, tonnes a year.", "source":"Indian Oil investor presentation; Tamilnadu Petroproducts; post sources.",
+             "unit":"tonnes/year", "accent":"Indian Oil Corporation",
+             "rows":[["Indian Oil Corporation",162000,"Revamped 2022"],["Tamilnadu Petroproducts",145000,"Expanded March 2026"]]},
+   "means": "Two domestic producers have reported capacity, and TPL says its LAB sits in roughly 40% of India's fabric detergents.",
+   "todo": "Track whether Reliance and ONGC Petro publish capacity figures, since none were found for them."},
+  {"h2": "Detergent makers run a small surplus, while LAB imports far outweigh exports",
+   "chart": {"type":"bars", "title":"Alkylbenzene imports outweigh exports by ₹3,649 crore, the largest gap",
+             "sub":"Trade balance by HS line, FY2024-25, ₹ crore (positive is surplus).", "source":"DGCI&S 8-digit trade lines, as cited in the post.",
+             "unit":"₹ crore", "accent":"Alkylbenzenes incl. LAB",
+             "rows":[["Detergents & surfactants (3402)",1686],["Diapers & pads (9619)",-186],["Acrylic polymers, SAP line (39069090)",-2725],["Alkylbenzenes incl. LAB (3817)",-3649]]},
+   "means": "Finished detergents are in surplus, but the chemicals that feed them are imported in large amounts.",
+   "todo": "Check whether FY2025-26 alkylbenzene imports keep rising, as the post's updated trade figures suggest."},
+  {"h2": "Domestic SAP output is a sliver of a market of about 50,000 tonnes",
+   "chart": {"type":"bars", "title":"BPCL's 200-tonne demo plant is a fraction of national SAP demand",
+             "sub":"SAP volumes, tonnes a year.", "source":"BPCL; ChemAnalyst; BlueWeave; EF Polymer.",
+             "unit":"tonnes/year", "accent":"BPCL demo plant",
+             "rows":[["BPCL demo plant, Kochi",200],["EF Polymer, Rajasthan (about)",1200],["National SAP demand (about)",50000]]},
+   "means": "India can now make SAP at small scale, but nearly all of its demand is still met by imports.",
+   "todo": "Watch for the commissioning of BPCL's planned 50,000-tonne commercial SAP plant, which has no confirmed date."}
+ ],
+ "derived": {}}
