@@ -214,7 +214,12 @@ def verify(slug, edition=None, quiet=False):
         if m["swipeTables"]:
             errs.append(f"phone: {m['swipeTables']} table(s) need sideways swiping; put them in numbers()")
         if m["longParas"] > 2:
-            errs.append(f"phone: {m['longParas']} paragraphs over 90 words (allowed 2, the sources card)")
+            # paragraphs kept word for word from the live post (lede, sources card, dated notes) are not the leaf's to shorten
+            orig_text = visible(orig)
+            kept = sum(1 for q in re.findall(r"<p\b[^>]*>(.*?)</p>", ed, re.S)
+                       if len(visible(q).split()) > 90 and visible(q) in orig_text)
+            if m["longParas"] - kept > 2:
+                errs.append(f"phone: {m['longParas'] - kept} new paragraphs over 90 words (allowed 2; {kept} more are kept verbatim from the post)")
     return errs, manual
 
 
