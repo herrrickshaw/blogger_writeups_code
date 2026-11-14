@@ -1,49 +1,44 @@
-# Leaf brief: visual-first edition of one post
+# Leaf brief: visual-first edition of one post (read this whole file; it is short)
 
-You are rewriting ONE live post into the visual-first format. You own only `out/viz/<slug>/**` and
-`out/update-2026-11-15-<slug>.html`. Do not touch any other file, do not publish, do not run git.
-Work from the repo root `/home/user/blogger_writeups_code`.
+Repo: /home/user/blogger_writeups_code. You own only `out/viz/<slug>/**` and `out/update-2026-11-15-<slug>.html`.
+No git, no blogger_api, no edits under tools/ posts/ meta/ templates/ theme/. Nothing is published.
 
-## Steps
+## Do exactly this (about 5 turns)
 
-1. `python3 tools/viz_new.py <slug>` (skip if `out/viz/<slug>/outline.md` exists). Read `out/viz/<slug>/outline.md`
-   (the post as headings, paragraphs and pipe-row tables). Read `docs/VISUAL_STORY_STYLE.md`. Read
-   `out/research/blending-visual/build.py`: it is a finished example (a longer post, 4 charts) that passes the oracle.
-2. Decide the 3 or 4 findings the post exists to show. A finding is a comparison, a trend, a share, a gap or a
-   sequence that the post's own numbers support. Choose the chart form by the job (`docs/VISUAL_STORY_STYLE.md`):
-   ranking or comparison -> `bars`; range -> `bars` with `(low, high)`; share with uncertain top ->
-   `bars(..., from_zero=True)`; change over time -> `line`; how a total is built -> `waterfall`; sequence of
-   events -> `flow`. One chart per section. Put the data behind a chart in `numbers([...], [...])` when a reader may want it.
-3. Edit `out/viz/<slug>/build.py`: `top_line([...])` (1 to 3 bullets, a big number first, drawn from the post's headline
-   figures), then `insight(headline, chart, "What it means: one sentence.", "What to do: one sentence.", anchor)` for each
-   section. Put the things a reader may still want but that do not earn a section in collapsed blocks:
-   caveats the original made ("what this could not establish"), standards or method notes, and
-   `sources_block(body_links(FR.body))` for every external link in the original body (already in the skeleton).
-   Keep dated "Updated ..." notes and photographs (the skeleton does: `FR.keep_front + FR.notes`).
-4. Every number you write must be in the original post, or computed from its numbers: put the computation in
-   `out/viz/<slug>/derived.json`, e.g. `{"190": "570/3"}` (operands must be original numbers), or
-   `{"7": "count: seven countries in the table"}` for a count you made yourself. Never round a figure to a different
-   number, and never add a number from memory or from outside the post. Keep units, years and qualifiers
-   ("about", "reported", "projected") the original used. If the original disputes or hedges a figure, the chart title
-   and the sentence must too.
-5. Run `python3 out/viz/<slug>/build.py` then `python3 tools/viz_verify.py <slug>`. Read every FAIL line, fix the build,
-   repeat. It must print `PASS <slug>`. Do not edit anything under `tools/` to make it pass.
-6. Look at the result: `node tools/mobile_audit.js out/update-2026-11-15-<slug>.html --shot /tmp/<slug>.png`, then Read the
-   PNG (it is a full-page 375px screenshot; if it is very tall, that is expected). Check that each bar, label and value is
-   legible and unclipped, each headline is supported by its chart, the accent colour marks the finding the headline names,
-   and nothing from the original's argument was reversed or lost. Fix and re-run until you would publish it.
-7. Report back in under 120 words: the three or four headlines, anything you left out of the body on purpose and where
-   it went, any `count:` items, and any figure in the original that looked wrong or inconsistent (do not silently fix the
-   original's content; say so).
+1. `python3 tools/viz_new.py <slug>` then Read `out/viz/<slug>/outline.md`. (Tables show as `[T3 ... rN rows]` with row numbers;
+   fixes, caveats, dated notes and source links are kept by code, so do not rewrite them.)
+2. Write `out/viz/<slug>/spec.json` in ONE Write call. Choose 3 or 4 findings the post's own numbers prove.
+3. `python3 tools/viz_go.py <slug>`. It renders and checks. Fix every line it prints in ONE edit, run again, until `PASS <slug>`.
+4. Reply in under 80 words: the 3-4 headlines, anything you left out on purpose, any figure in the original that looks wrong.
+   Do not take screenshots; the driver reads the rendering.
 
-## Rules that matter most
+## Spec (JSON)
 
-- Fidelity beats polish. A chart whose headline overstates the data is worse than no chart.
-- Headlines: "Subject: what the data shows", sentence case, 90 characters or fewer, no idioms, questions or teasers
-  (`docs/HEADLINE_STYLE.md`). Chart titles state the takeaway; section `<h2>`s state the finding.
-- Exactly two sentences per section after the chart, each ending in a full stop, no other full stops followed by a capital.
-  Use `Rs`/`₹` forms and abbreviations that do not contain ". " (write "No. 5" as "number 5", "Dr." as "Dr").
-- Collapsed detail is the place for nuance, not the body. The body is what a busy reader takes in on a phone.
-- Do not invent a recommendation the original does not support. "What to do" must follow from the post's own
-  proposals or findings; if the post proposes fixes, use them.
-- No scripts, no iframes, no new external links, no old domain (`masaladeutsch.blogspot.com`).
+```
+{"top": [["66%", " of petrol's energy per litre is what ethanol carries, so E20 costs drivers 2-6% in mileage."]],   // 1-3 bullets, big number first
+ "sections": [                                                                                                      // 3 or 4
+  {"h2": "Energy per litre: ethanol 66% of petrol, isobutanol 74% of diesel",                                      // the finding, sentence case, <= 90 chars
+   "chart": {"type":"bars", "title":"Only the two alcohols fall well short of the fuel they replace",             // takeaway, <= 90 chars
+             "sub":"Share of the host fuel's energy density, %.", "source":"NITI Aayog; US DOE.",
+             "unit":"%", "accent":"Ethanol in petrol", "ref":[100,"100% = same energy as the host fuel"],
+             "rows":[["Ethanol in petrol",66,"E20, live"],["Isobutanol in diesel",74],["CBG in CNG",[93,95]],["Gap",null]]},
+             // or "table":{"id":"T2","label":0,"value":2,"rows":"top:10","sort":"desc"}  -> rows pulled from the original's table
+   "means": "One sentence.", "todo": "One sentence.",                                                              // exactly one sentence each, ending in a full stop
+   "numbers": {"table":"T2"}}                                                                                       // optional collapsed table of the data
+ ],
+ "derived": {"190": "570/3"}}                                                                                       // numbers you computed; see rules
+```
+Other chart types: `{"type":"line","title":..,"series":{"A":[[2020,5],[2021,6]]},"accent":"A","unit":"%"}` (real points only; for sparse dated readings use bars, never
+a line across big gaps); `{"type":"waterfall","title":..,"start":["2024",100],"steps":[["Gain",12],["Loss",-5]],"end":"2025"}`;
+`{"type":"flow","events":[["Date","What happened"],["Date","What",true]]}` (a sequence; true accents one). Negative bar values draw left of zero.
+Optional: `"fixes":"drop"`, `"tables":"none"|["T2"]` (default keeps every original table collapsed), `"details":[{"summary":"..","html":".."}]`.
+
+## Rules (the checker enforces the first four)
+
+1. Every number you write is in the original, or is arithmetic on its numbers declared in `derived` (`"190":"570/3"`; operands must be original numbers), or a count you made
+   (`"7":"count: seven countries in the table"`). Never round a figure into a different number; keep "about", "reported", "projected".
+2. One unit per chart. Never put a flow (a year's total), a stock (on a date) and a norm on one axis; if the post mixes them, chart what is comparable.
+3. Chart titles and `h2`s state a finding. Headlines follow docs/HEADLINE_STYLE.md: sentence case, no idioms or questions.
+4. `means` and `todo` are one sentence each; "What to do" follows from the post's own proposals or findings.
+5. If a figure inside the original contradicts another, say so in your reply and use the figure the post uses most; do not silently pick.
+6. Prefer `table` row selection over retyping: labels and values then match the original exactly.

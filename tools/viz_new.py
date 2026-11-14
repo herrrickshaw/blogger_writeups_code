@@ -3,68 +3,69 @@
 
     python3 tools/viz_new.py <slug>
 
-Writes out/viz/<slug>/outline.md (the post as headings, paragraphs and pipe-row tables: read this, not the HTML),
-out/viz/<slug>/build.py (a skeleton that already assembles the frame) and out/viz/<slug>/derived.json ({}).
-Then fill in build.py, run it, and run  python3 tools/viz_verify.py <slug>  until it prints PASS.
-See docs/VIZ_LEAF_BRIEF.md and docs/VISUAL_STORY_STYLE.md."""
+Writes out/viz/<slug>/outline.md (what the model needs to read: the argument and the figures, with the parts that
+code keeps verbatim collapsed to one line and tables listed compactly with row numbers) and spec.json (empty).
+Then fill spec.json (shape: top of tools/viz_render.py) and run  python3 tools/viz_go.py <slug>  until it prints PASS."""
 import json
 import pathlib
+import re
 import sys
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "tools"))
-from viz_frame import body_links, outline, split  # noqa: E402
+from viz_frame import body_links, caveat, fixes, outline, split, tables, update_notes  # noqa: E402
 
-SKELETON = '''"""Visual-first edition of {slug}. Run from the repo root:  python3 out/viz/{slug}/build.py"""
-import pathlib
-import sys
+MAXROWS = 25
 
-ROOT = pathlib.Path(__file__).resolve().parents[3]
-sys.path.insert(0, str(ROOT / "tools"))
-from exec_viz import STYLE, bars, flow, insight, line, numbers, sources_block, top_line, waterfall  # noqa: E402,F401
-from viz_frame import body_links, split  # noqa: E402
 
-SLUG = "{slug}"
-SRC = (ROOT / f"posts/{{SLUG}}.html").read_text(encoding="utf-8")
-FR = split(SRC)
-OUT = ROOT / f"out/update-2026-11-15-{{SLUG}}.html"
+def table_text(t):
+    n = len(t["rows"])
+    cols = " | ".join(f"c{i} {h}" for i, h in enumerate(t["head"]))
+    rows = list(enumerate(t["rows"]))
+    if n > MAXROWS:
+        rows = rows[:MAXROWS - 5] + [(None, None)] + rows[-4:]
+    lines = [f'[{t["id"]} "{t["title"][:70]}" {n} rows; use rows by number in a chart "table" spec]', f"  cols: {cols}"]
+    for i, r in rows:
+        lines.append("  ..." if i is None else f"  r{i}: " + " | ".join(r))
+    return "\n".join(lines)
 
-# Numbers computed from the original's numbers go in derived.json ({{"190": "570/3"}}), never typed in silently.
 
-top = top_line([
-    # ("big number", " sentence that completes it."),   # 1 to 3 bullets
-])
-
-sections = [
-    # insight("Headline stating the finding", bars(...) or line(...) or flow(...) or waterfall(...) [+ numbers(...)],
-    #         "One sentence: what it means.", "One sentence: what to do.", "anchor"),
-]
-
-extras = (
-    # collapsed detail: standards, method, caveats the original made, and
-    # sources_block(body_links(FR.body)) for every external link in the original body
-    sources_block(body_links(FR.body))
-)
-
-body = STYLE + top + FR.keep_front + FR.notes + "".join(sections) + extras
-OUT.write_text(FR.head + FR.mid + body + "\\n" + FR.tail, encoding="utf-8")
-print("wrote", OUT.relative_to(ROOT))
-'''
+def make_outline(fr):
+    b = fr.body
+    n = update_notes(b)
+    if n:
+        b = b.replace(n, '<p>[kept verbatim: dated update notes]</p>')
+    fx = fixes(b)
+    if fx:
+        b = b.replace(fx[1], f"<p>[kept verbatim, open: {fx[0]}; {len(re.findall('<li', fx[1]))} items]</p>", 1)
+    cv = caveat(b)
+    if cv:
+        b = b.replace(cv[1], f"<p>[kept verbatim, collapsed: {cv[0]}]</p>", 1)
+    T = tables(fr.body)
+    seen = iter(T)
+    def sub(m):
+        rows = len(re.findall(r"<tr\b", m.group(0)))
+        if rows < 2:
+            return m.group(0)
+        return f"<p>@@{next(seen)['id']}@@</p>"
+    b = re.sub(r"<table\b.*?</table>", sub, b, flags=re.S)
+    text = outline(b)
+    byid = {t["id"]: t for t in T}
+    text = re.sub(r"@@(T\d+)@@", lambda m: "\n" + table_text(byid[m.group(1)]) + "\n", text)
+    return text, T
 
 
 def main(slug):
-    src = (ROOT / f"posts/{slug}.html").read_text(encoding="utf-8")
-    fr = split(src)
+    fr = split((ROOT / f"posts/{slug}.html").read_text(encoding="utf-8"))
     if not fr:
         sys.exit(f"{slug}: not a standard frame")
     d = ROOT / f"out/viz/{slug}"
     d.mkdir(parents=True, exist_ok=True)
-    (d / "outline.md").write_text(outline(fr.body) + "\n", encoding="utf-8")
-    if not (d / "build.py").exists():
-        (d / "build.py").write_text(SKELETON.format(slug=slug), encoding="utf-8")
-    if not (d / "derived.json").exists():
-        (d / "derived.json").write_text("{}\n")
-    print(f"out/viz/{slug}/outline.md ({len(outline(fr.body).split()):,} words), build.py, derived.json; {len(body_links(fr.body))} body links to keep")
+    text, T = make_outline(fr)
+    (d / "outline.md").write_text(text + "\n", encoding="utf-8")
+    if not (d / "spec.json").exists():
+        (d / "spec.json").write_text(json.dumps({"top": [], "sections": [], "derived": {}}, indent=1) + "\n")
+    print(f"out/viz/{slug}/outline.md {len(text.split()):,} words, {len(T)} tables, {len(body_links(fr.body))} body links kept by code")
 
 
 if __name__ == "__main__":

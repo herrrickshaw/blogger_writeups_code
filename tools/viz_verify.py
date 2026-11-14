@@ -18,7 +18,7 @@ What it proves (each is measured, none is taken from the author):
              item ("7": "count: seven countries listed in the table"); counted items are listed for review
   coverage   at least 3 of the original's 5 most repeated numbers survive; the original's caveat section and
              "Updated <date>" notes survive; every external link in the original body survives
-  size       the new text is 12% to 85% of the original body
+  size       the text shown by default (collapsed blocks excluded) is 12% to 85% of the original body
   safety     no script, iframe or old-domain link in the new text
   phone      at 375px: page not wider than the screen, no chart label under 9.5px, no table that needs swiping,
              at most 2 paragraphs over 90 words (tools/mobile_audit.js)
@@ -156,10 +156,18 @@ def verify(slug, edition=None, quiet=False):
             declared.add(next(iter(numbers(claim)), claim))
             if is_manual:
                 manual.append(f"{claim} = {expr}")
-    stray = sorted(n for n in new_nums - orig_nums - declared if not re.fullmatch(r"20\d\d|15", n) or n not in numbers(DATE))
-    stray = [n for n in stray if n not in {"2026", "15"} or n in new_nums - orig_nums - declared and False]
+    stray = sorted(n for n in new_nums - orig_nums - declared if not (n in ("2026", "15")))
     if stray:
-        errs.append(f"numbers: not in the original post and not declared in out/viz/{slug}/derived.json: {stray[:12]}")
+        def near(n):
+            try:
+                x = float(n)
+                c = sorted((o for o in orig_nums if re.fullmatch(r"\d+(?:\.\d+)?", o)), key=lambda o: abs(float(o) - x))[:2]
+                return f"{n} (closest in the original: {', '.join(c)})" if c else n
+            except ValueError:
+                return n
+        errs.append("numbers: not in the original and not in derived.json: " + "; ".join(near(n) for n in stray[:8])
+                    + (f" and {len(stray) - 8} more" if len(stray) > 8 else "")
+                    + ". Use the original's figure, or declare the arithmetic in spec 'derived'.")
 
     # ---- coverage ----
     freq = {}
@@ -179,9 +187,10 @@ def verify(slug, edition=None, quiet=False):
     lost = sorted(external_links(fr.body) - external_links(mid) - external_links(back))
     if lost:
         errs.append(f"coverage: {len(lost)} source link(s) from the original body are missing, e.g. {lost[0]}")
-    ratio = len(new_text.split()) / max(1, len(old_body.split()))
+    shown = visible(re.sub(r"<details.*?</details>", " ", mid, flags=re.S))      # what a reader sees before opening anything
+    ratio = len(shown.split()) / max(1, len(old_body.split()))
     if not 0.12 <= ratio <= 0.85:
-        errs.append(f"size: new text is {ratio:.0%} of the original body (allowed 12% to 85%)")
+        errs.append(f"size: the text shown by default is {ratio:.0%} of the original body (allowed 12% to 85%; collapsed blocks do not count)")
 
     # ---- safety ----
     if re.search(r"<script|<iframe", mid, re.I):

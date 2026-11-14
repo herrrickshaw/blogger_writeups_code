@@ -48,6 +48,10 @@ STYLE = f"""<style>
 .xv .xv-hi .xv-b{{background:{ACCENT}}}
 .xv .xv-v{{font-size:.88rem;font-weight:600;color:{INK};white-space:nowrap;font-variant-numeric:tabular-nums;flex:none}}
 .xv .xv-hi .xv-v{{font-weight:800}}
+.xv .xv-tk.xv-div{{display:block;height:14px}}
+.xv .xv-div .xv-b{{position:absolute;top:0;border-radius:4px}}
+.xv .xv-div .xv-neg{{background:#7d8a96}}
+.xv .xv-hi .xv-div .xv-neg,.xv .xv-hi.xv-divrow .xv-neg{{background:{ACCENT}}}
 .xv .xv-none{{display:block;flex:1;height:12px;border:1.5px dashed {ACCENT};background:#E9EEFF;border-radius:4px}}
 .xv .xv-m{{position:absolute;top:-3px;bottom:-3px;width:2px;background:{INK}}}
 .xv .xv-svg{{display:block;width:100%;height:auto}}
@@ -102,24 +106,30 @@ def top_line(items, eyebrow="Top line"):
     return f'<div class="xv-top"><p class="xv-eb">{eyebrow}</p><ul>{li}</ul></div>\n'
 
 
-def _row(accented, tip, label, value, track):
+def _row(accented, tip, label, value, track, cls="xv-tk"):
     """One bar row: the label and its value share the top line (value right-aligned), the bar runs full width below."""
     return (f'<div class="xv-r{" xv-hi" if accented else ""}" title="{esc(_html.unescape(tip))}"><div class="xv-l"><span>{label}</span>'
-            f'<b class="xv-v">{value}</b></div><div class="xv-tk">{track}</div></div>')
+            f'<b class="xv-v">{value}</b></div><div class="{cls}">{track}</div></div>')
 
 
 def bars(title, rows, *, unit="", sub="", source="", accent=None, ref=None, vmax=None, fmt=None, from_zero=False):
     """Horizontal bars, label above each bar so long labels never squeeze the plot.
 
-    rows:   (label, value) or (label, value, note); value None draws a dashed "no value" track;
-            value may be a (low, high) pair: a floating bar, or with from_zero=True a bar from zero that is
-            solid to the low end and lighter to the high end (a share with an uncertain top, say).
+    rows:   (label, value[, note[, shown]]); value None draws a dashed "no value" track; value may be a (low, high)
+            pair (floating bar, or with from_zero=True a bar from zero, solid to the low end and lighter to the high
+            end); a negative value draws left of a zero line (the other bars right of it). `shown` is the exact text
+            to print as the value (keeps the original's currency signs and digit grouping).
     accent: label (or list of labels) drawn in the accent colour; everything else is grey.
     ref:    (value, text) draws a thin marker on every track and explains it once above the chart.
     """
     acc = {accent} if isinstance(accent, str) else set(accent or ())
-    hi = [r[1][1] if isinstance(r[1], tuple) else r[1] for r in rows if r[1] is not None]
-    top = vmax or max(hi + ([ref[0]] if ref else [])) * 1.0
+    vals = [x for r in rows if r[1] is not None for x in (r[1] if isinstance(r[1], tuple) else (r[1],))]
+    neg = min(vals + [0]) < 0
+    lo_all = min(vals + [0]) if neg else 0
+    hi_all = max(vals + ([ref[0]] if ref else []))
+    top = vmax or hi_all
+    span = (top - lo_all) or 1
+    zero = 100 * (-lo_all) / span if neg else 0
     plain = fmt is None
     fmt = fmt or (lambda v: _fmt(v, unit))
     fmt_lo = (lambda v: _fmt(v)) if plain else fmt
@@ -129,23 +139,34 @@ def bars(title, rows, *, unit="", sub="", source="", accent=None, ref=None, vmax
     for r in rows:
         lab, v = r[0], r[1]
         note = f" <small>{r[2]}</small>" if len(r) > 2 and r[2] else ""
-        mark = f'<i class="xv-m" style="left:{100 * ref[0] / top:.2f}%" aria-hidden="true"></i>' if ref else ""
+        shown = r[3] if len(r) > 3 and r[3] else None
+        pos = lambda x: (100 * (x - lo_all) / span) if neg else (100 * x / top)
+        mark = f'<i class="xv-m" style="left:{pos(ref[0]):.2f}%" aria-hidden="true"></i>' if ref else ""
+        cls = "xv-tk xv-div" if neg else "xv-tk"
         if v is None:
-            val, tip, bar = "none", f"{lab}: none", '<i class="xv-none" aria-hidden="true"></i>'
+            val, tip, bar = shown or "none", f"{lab}: none", '<i class="xv-none" aria-hidden="true"></i>'
+            cls = "xv-tk"
         elif isinstance(v, tuple):
             lo, hv = v
-            val, tip = f"{fmt_lo(lo)}&ndash;{fmt(hv)}", f"{lab}: {fmt(lo)} to {fmt(hv)}"
+            val, tip = shown or f"{fmt_lo(lo)}&ndash;{fmt(hv)}", f"{lab}: {fmt(lo)} to {fmt(hv)}"
             if from_zero:
                 c = ACCENT if lab in acc else GREY
-                cut = 100 * lo / hv
-                bar = (f'<i class="xv-b" style="width:{100 * hv / top:.2f}%;background:linear-gradient(90deg,{c} {cut:.1f}%,'
+                cut = 100 * lo / hv if hv else 100
+                bar = (f'<i class="xv-b" style="width:{max(pos(hv), .6):.2f}%;background:linear-gradient(90deg,{c} {cut:.1f}%,'
                        f'{c}55 {cut:.1f}%)"></i>')
             else:
-                bar = f'<i class="xv-b xv-float" style="margin-left:{100 * lo / top:.2f}%;width:{max(100 * (hv - lo) / top, .6):.2f}%"></i>'
+                bar = f'<i class="xv-b xv-float" style="margin-left:{pos(lo):.2f}%;width:{max(pos(hv) - pos(lo), .6):.2f}%"></i>'
+        elif neg:
+            val, tip = shown or fmt(v), f"{lab}: {fmt(v)}"
+            w = max(100 * abs(v) / span, .6)
+            left = zero if v >= 0 else zero - w
+            bar = (f'<i class="xv-b{"" if v >= 0 else " xv-neg"}" style="left:{left:.2f}%;width:{w:.2f}%;'
+                   f'{"border-radius:0 4px 4px 0" if v >= 0 else "border-radius:4px 0 0 4px"}"></i>'
+                   f'<i class="xv-m" style="left:{zero:.2f}%" aria-hidden="true"></i>')
         else:
-            val, tip = fmt(v), f"{lab}: {fmt(v)}"
-            bar = f'<i class="xv-b" style="width:{max(100 * v / top, .6):.2f}%"></i>'
-        out.append(_row(lab in acc, tip, lab + note, val, bar + mark))
+            val, tip = shown or fmt(v), f"{lab}: {fmt(v)}"
+            bar = f'<i class="xv-b" style="width:{max(pos(v), .6):.2f}%"></i>'
+        out.append(_row(lab in acc, tip, lab + note, val, bar + mark, cls))
     return _fig(title, sub, "".join(out), source)
 
 
