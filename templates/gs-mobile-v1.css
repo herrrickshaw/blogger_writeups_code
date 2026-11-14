@@ -1,0 +1,13 @@
+/* gs-mobile-v1 (2026-11-15) — pairs with templates/gs-mobile-v1.js. */
+#Blog1 .post-body .gs-chartscroll{overflow-x:auto;-webkit-overflow-scrolling:touch;width:100%;max-width:100%;min-width:0;contain:inline-size;margin:.2rem 0 1rem}
+#Blog1 .post-body .gs-chartscroll>svg{display:block}
+#Blog1 .post-body .gs-chartscroll:focus-visible{outline:2px solid #2251FF;outline-offset:2px}
+#Blog1 .post-body .gs-swipe{font:600 .78rem/1.3 -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;color:#43535F;margin:.7rem 0 .3rem;max-width:none}
+@media (max-width:640px){
+  /* keep the row label in view while a wide table scrolls sideways */
+  #Blog1 .post-body .gs-scrolls table tr>:first-child{position:sticky;left:0;z-index:1;background:#fff;box-shadow:1px 0 0 #D9E1E8;max-width:9.5rem;white-space:normal}
+  #Blog1 .post-body .gs-scrolls table tbody tr:nth-child(even)>:first-child{background:#f6f7f8}
+  /* shorter lines and a little more air between paragraphs on a phone */
+  #Blog1 .post-body p{line-height:1.62}
+  #Blog1 .post-body p+p{margin-top:.9em}
+}

@@ -7,6 +7,10 @@
    "note": "line length, long links, note and ad-label contrast, anchor offset, nav tap targets"},
   {"id": "gs-content-guard-v2", "kind": "js", "file": "templates/gs-content-guard-v2.js",
    "note": "wraps tables; moves Auto-ads containers out of tables, lists, figures, side-by-side layouts and clipped boxes, and off headings"},
+  {"id": "gs-mobile-v1-css", "kind": "css", "file": "templates/gs-mobile-v1.css",
+   "note": "phone readability: chart scroller and swipe hint, table first column stays in view, paragraph spacing"},
+  {"id": "gs-mobile-v1", "kind": "js", "file": "templates/gs-mobile-v1.js",
+   "note": "gives inline SVG charts whose labels would render under 10px on a phone a readable width in a sideways scroller; hints on tables that scroll"},
   {"id": "gs-table-guard-v1", "kind": "js", "file": "templates/gs-table-guard-v1.js", "retired": true,
    "note": "replaced by gs-content-guard-v2"}
 ]

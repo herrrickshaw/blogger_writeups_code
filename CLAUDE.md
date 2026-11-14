@@ -10,6 +10,10 @@ used to say, or to put it back.
 "Subject: what the data shows", sentence case, <= 90 characters, no idioms or teasers),
 so they survive the 15-language translate widget.
 
+**New and rewritten posts are visual-first** (`docs/VISUAL_STORY_STYLE.md`): a three-bullet top line,
+three or four insight sections of one chart plus two sentences, charts built with `tools/exec_viz.py`
+(phone-sized, no open data grids). Check phone rendering with `node tools/mobile_audit.js <file>`.
+
 **The single most important fact: `posts/` and `meta/` are OUTPUTS, not a
 workspace.** `tools/snapshot.py` writes them by pulling the live blog. Editing
 them by hand breaks the thing the repo exists to provide. See rule 1 below.

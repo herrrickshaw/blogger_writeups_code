@@ -19,7 +19,7 @@
 <!-- Archive, search and label listings are auto-generated snippet pages: keep
      them out of the index (they stay fully usable) so crawlers and reviewers
      judge the site on its articles and pages, not on hundreds of thin lists. -->
-<b:if cond='data:blog.pageType == &quot;archive&quot; or data:blog.pageType == &quot;error_page&quot; or data:blog.searchLabel or data:blog.searchQuery'>
+<b:if cond='data:view.isArchive or data:view.isSearch or data:view.isLabelSearch or data:view.isError'>
   <meta content='noindex,follow' name='robots'/>
 </b:if>
 <b:include data='blog' name='all-head-content'/>
@@ -37,7 +37,7 @@
 </b:if>
 <b:skin><![CDATA[
 /* ===========================================================================
-   Masala Deutsch — a Blogger theme built for long, data-heavy analysis posts.
+   VertiStrat Solutions — a Blogger theme built for long, data-heavy analysis posts.
    No third-party JavaScript. No packed/encrypted footer scripts. No web fonts.
 
    Two design constraints came from real failures on this blog:
@@ -305,6 +305,21 @@ body:has(ins.adsbygoogle[data-anchor-status]) .site-foot{padding-bottom:110px}
 }
 .site-nav a{display:inline-block;padding:4px 0;min-height:24px}
 /* END theme-module: gs-readable-v1 */
+/* BEGIN theme-module: gs-mobile-v1-css */
+/* gs-mobile-v1 (2026-11-15) — pairs with templates/gs-mobile-v1.js. */
+#Blog1 .post-body .gs-chartscroll{overflow-x:auto;-webkit-overflow-scrolling:touch;width:100%;max-width:100%;min-width:0;contain:inline-size;margin:.2rem 0 1rem}
+#Blog1 .post-body .gs-chartscroll>svg{display:block}
+#Blog1 .post-body .gs-chartscroll:focus-visible{outline:2px solid #2251FF;outline-offset:2px}
+#Blog1 .post-body .gs-swipe{font:600 .78rem/1.3 -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;color:#43535F;margin:.7rem 0 .3rem;max-width:none}
+@media (max-width:640px){
+  /* keep the row label in view while a wide table scrolls sideways */
+  #Blog1 .post-body .gs-scrolls table tr>:first-child{position:sticky;left:0;z-index:1;background:#fff;box-shadow:1px 0 0 #D9E1E8;max-width:9.5rem;white-space:normal}
+  #Blog1 .post-body .gs-scrolls table tbody tr:nth-child(even)>:first-child{background:#f6f7f8}
+  /* shorter lines and a little more air between paragraphs on a phone */
+  #Blog1 .post-body p{line-height:1.62}
+  #Blog1 .post-body p+p{margin-top:.9em}
+}
+/* END theme-module: gs-mobile-v1-css */
 ]]></b:skin>
 </head>
 
@@ -312,14 +327,14 @@ body:has(ins.adsbygoogle[data-anchor-status]) .site-foot{padding-bottom:110px}
 
 <header class='site-head'>
   <div class='wrap'>
-    <a class='site-title' expr:href='data:blog.homepageUrl' aria-label='VertiStrat Insights, home'>
-      <svg width='22' height='22' viewBox='0 0 22 22' aria-hidden='true'><rect x='0' y='13' width='5' height='9' rx='1' fill='#1e64ef'/><rect x='8' y='7' width='5' height='15' rx='1' fill='#1e64ef'/><rect x='16' y='0' width='5' height='22' rx='1' fill='#eb8a00'/></svg>
+    <a aria-label='VertiStrat Insights, home' class='site-title' expr:href='data:blog.homepageUrl'>
+      <svg aria-hidden='true' height='22' viewBox='0 0 22 22' width='22'><rect fill='#1e64ef' height='9' rx='1' width='5' x='0' y='13'/><rect fill='#1e64ef' height='15' rx='1' width='5' x='8' y='7'/><rect fill='#eb8a00' height='22' rx='1' width='5' x='16' y='0'/></svg>
       <span class='wm'>VertiStrat</span><span class='sub'>Insights</span>
     </a>
     <b:section class='site-nav' id='nav' maxwidgets='2' showaddelement='yes'>
       <b:widget id='PageList1' locked='false' title='Pages' type='PageList' version='1'>
         <b:widget-settings>
-          <b:widget-setting name='pageListJson'><![CDATA[{"home":{"href":"http://masaladeutsch.blogspot.com/","position":0,"title":"Home"}}]]></b:widget-setting>
+          <b:widget-setting name='pageListJson'><![CDATA[{"home":{"href":"https://blog.vertistratsolution.com/","position":0,"title":"Home"}}]]></b:widget-setting>
           <b:widget-setting name='homeTitle'>Home</b:widget-setting>
         </b:widget-settings>
         <b:includable id='main'>
@@ -417,7 +432,7 @@ body:has(ins.adsbygoogle[data-anchor-status]) .site-foot{padding-bottom:110px}
           <b:else/>
             <span/>
           </b:if>
-          <a class='pager-index' href='https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html'>All articles &#183; Index</a>
+          <a class='pager-index' href='https://blog.vertistratsolution.com/2026/08/article-index-start-here.html'>All articles &#183; Index</a>
           <b:if cond='data:olderPageUrl'>
             <a expr:href='data:olderPageUrl'>Older &#8594;</a>
           </b:if>
@@ -1257,9 +1272,9 @@ material, so verify any number that matters to a decision against the linked pri
         <b:widget-setting name='content'><![CDATA[<div class="browse">
 <div class="browse-head">
 <h2>Browse all articles by topic</h2>
-<p>Every piece on this blog, grouped. Or read the <a href="https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html">full index</a>.</p>
+<p>Every piece on this blog, grouped. Or read the <a href="https://blog.vertistratsolution.com/2026/08/article-index-start-here.html">full index</a>.</p>
 </div>
-<div class="topics"><style>.topics{margin:.7rem 0 0}.topics .tchip{display:inline-block;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.82rem;font-weight:600;color:#0B1F2D;background:#F4F7FB;border:1px solid #e2e6ee;padding:.5rem .9rem;border-radius:2px;text-decoration:none;margin:0 .5rem .5rem 0}.topics .tchip:hover{background:#e6ecf5}.topics .tnote{font-size:.8rem;color:#595959;margin:.7rem 0 0;max-width:62ch}</style><a class="tchip" href="https://masaladeutsch.blogspot.com/search/label/Agriculture%20%26%20Fertilisers">Agriculture &amp; Fertilisers</a><a class="tchip" href="https://masaladeutsch.blogspot.com/search/label/AI%20Tools">AI Tools</a><a class="tchip" href="https://masaladeutsch.blogspot.com/search/label/Chemicals">Chemicals</a><a class="tchip" href="https://masaladeutsch.blogspot.com/search/label/Climate%20%26%20Carbon">Climate &amp; Carbon</a><a class="tchip" href="https://masaladeutsch.blogspot.com/search/label/Energy%20%26%20Fuels">Energy &amp; Fuels</a><a class="tchip" href="https://masaladeutsch.blogspot.com/search/label/Gas%20%26%20LNG">Gas &amp; LNG</a><a class="tchip" href="https://masaladeutsch.blogspot.com/search/label/Import%20Substitution">Import Substitution</a><a class="tchip" href="https://masaladeutsch.blogspot.com/search/label/Industrial%20Policy">Industrial Policy</a><a class="tchip" href="https://masaladeutsch.blogspot.com/search/label/Markets%20%26%20Finance">Markets &amp; Finance</a><a class="tchip" href="https://masaladeutsch.blogspot.com/search/label/Mobility%20%26%20EV">Mobility &amp; EV</a><a class="tchip" href="https://masaladeutsch.blogspot.com/search/label/Prices%20%26%20Inflation">Prices &amp; Inflation</a><a class="tchip" href="https://masaladeutsch.blogspot.com/search/label/Textiles">Textiles</a><a class="tchip" href="https://masaladeutsch.blogspot.com/search/label/Trade%20%26%20Tariffs">Trade &amp; Tariffs</a><p class="tnote">Each topic is a live archive page that updates itself as pieces are labelled. It replaces a hand-kept list that had fallen 18 articles behind.</p></div></div>]]></b:widget-setting>
+<div class="topics"><style>.topics{margin:.7rem 0 0}.topics .tchip{display:inline-block;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.82rem;font-weight:600;color:#0B1F2D;background:#F4F7FB;border:1px solid #e2e6ee;padding:.5rem .9rem;border-radius:2px;text-decoration:none;margin:0 .5rem .5rem 0}.topics .tchip:hover{background:#e6ecf5}.topics .tnote{font-size:.8rem;color:#595959;margin:.7rem 0 0;max-width:62ch}</style><a class="tchip" href="https://blog.vertistratsolution.com/search/label/Agriculture%20%26%20Fertilisers">Agriculture &amp; Fertilisers</a><a class="tchip" href="https://blog.vertistratsolution.com/search/label/AI%20Tools">AI Tools</a><a class="tchip" href="https://blog.vertistratsolution.com/search/label/Chemicals">Chemicals</a><a class="tchip" href="https://blog.vertistratsolution.com/search/label/Climate%20%26%20Carbon">Climate &amp; Carbon</a><a class="tchip" href="https://blog.vertistratsolution.com/search/label/Energy%20%26%20Fuels">Energy &amp; Fuels</a><a class="tchip" href="https://blog.vertistratsolution.com/search/label/Gas%20%26%20LNG">Gas &amp; LNG</a><a class="tchip" href="https://blog.vertistratsolution.com/search/label/Import%20Substitution">Import Substitution</a><a class="tchip" href="https://blog.vertistratsolution.com/search/label/Industrial%20Policy">Industrial Policy</a><a class="tchip" href="https://blog.vertistratsolution.com/search/label/Markets%20%26%20Finance">Markets &amp; Finance</a><a class="tchip" href="https://blog.vertistratsolution.com/search/label/Mobility%20%26%20EV">Mobility &amp; EV</a><a class="tchip" href="https://blog.vertistratsolution.com/search/label/Prices%20%26%20Inflation">Prices &amp; Inflation</a><a class="tchip" href="https://blog.vertistratsolution.com/search/label/Textiles">Textiles</a><a class="tchip" href="https://blog.vertistratsolution.com/search/label/Trade%20%26%20Tariffs">Trade &amp; Tariffs</a><p class="tnote">Each topic is a live archive page that updates itself as pieces are labelled. It replaces a hand-kept list that had fallen 18 articles behind.</p></div></div>]]></b:widget-setting>
       </b:widget-settings>
       <b:includable id='main'>
   <!-- only display title if it's non-empty -->
@@ -1286,12 +1301,12 @@ material, so verify any number that matters to a decision against the linked pri
         </b:widget-settings>
         <b:includable id='main'>
     <nav aria-label='Site policies' class='site-foot-links' style='text-align:center;font-family:-apple-system,BlinkMacSystemFont,&apos;Segoe UI&apos;,Helvetica,Arial,sans-serif;font-size:.82rem;margin:0 0 .8rem;'>
-      <a href='https://masaladeutsch.blogspot.com/p/about.html' style='margin:0 .6rem;'>About</a>
-      <a href='https://masaladeutsch.blogspot.com/p/contact.html' style='margin:0 .6rem;'>Contact</a>
-      <a href='https://masaladeutsch.blogspot.com/p/privacy-policy.html' style='margin:0 .6rem;'>Privacy Policy</a>
-      <a href='https://masaladeutsch.blogspot.com/p/disclaimer.html' style='margin:0 .6rem;'>Editorial Policy &amp; Disclaimer</a>
-      <a href='https://masaladeutsch.blogspot.com/p/terms.html' style='margin:0 .6rem;'>Terms of Use</a>
-      <a href='https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html' style='margin:0 .6rem;'>Article Index</a>
+      <a href='https://blog.vertistratsolution.com/p/about.html' style='margin:0 .6rem;'>About</a>
+      <a href='https://blog.vertistratsolution.com/p/contact.html' style='margin:0 .6rem;'>Contact</a>
+      <a href='https://blog.vertistratsolution.com/p/privacy-policy.html' style='margin:0 .6rem;'>Privacy Policy</a>
+      <a href='https://blog.vertistratsolution.com/p/disclaimer.html' style='margin:0 .6rem;'>Editorial Policy &amp; Disclaimer</a>
+      <a href='https://blog.vertistratsolution.com/p/terms.html' style='margin:0 .6rem;'>Terms of Use</a>
+      <a href='https://blog.vertistratsolution.com/2026/08/article-index-start-here.html' style='margin:0 .6rem;'>Article Index</a>
     </nav>
     <div class='widget-content' style='text-align: center;'>
       <b:if cond='data:attribution != &quot;&quot;'>
@@ -1550,6 +1565,102 @@ material, so verify any number that matters to a decision against the linked pri
   else run();
 })();
 /* END theme-module: gs-content-guard-v2 */
+//]]></script>
+<script>//<![CDATA[
+/* BEGIN theme-module: gs-mobile-v1 */
+/* gs-mobile-v1 (2026-11-15) — phone readability for posts written before the visual-first style.
+   Pairs with templates/gs-mobile-v1.css. Measured problem (docs/MOBILE_READABILITY.md): most inline
+   SVG charts were drawn about 700 units wide, so on a 375px phone they shrink to half size and
+   their labels render at about 6px.
+   1. Charts: an inline SVG whose typical label would render below 10px is given the width at which
+      it renders at 10px (never more than its natural width) inside a sideways scroller, with a
+      one-line "swipe" hint above it. Charts built with tools/exec_viz.py (.xv) are already sized
+      for phones and are left alone.
+   2. Tables: a table wrapper that still needs sideways scrolling gets the same hint, and the CSS
+      keeps its first column in view while it scrolls. */
+(function () {
+  var MIN_PX = 10;
+  var SCROLLS = '.gs-chartscroll,.xv';
+
+  function hint(text, before) {
+    var p = document.createElement('p');
+    p.className = 'gs-swipe';
+    p.setAttribute('aria-hidden', 'true');
+    p.textContent = text;
+    before.parentNode.insertBefore(p, before);
+  }
+
+  function typicalFont(svg) {
+    var t = svg.querySelectorAll('text'), a = [], i, f;
+    for (i = 0; i < t.length && i < 200; i++) {
+      f = parseFloat(window.getComputedStyle(t[i]).fontSize);
+      if (f > 0) a.push(f);
+    }
+    if (!a.length) return 0;
+    a.sort(function (x, y) { return x - y; });
+    return a[a.length >> 1];
+  }
+
+  function scrollsAlready(el) {
+    for (var a = el.parentElement; a && !a.classList.contains('post-body'); a = a.parentElement) {
+      var o = window.getComputedStyle(a).overflowX;
+      if (o === 'auto' || o === 'scroll') return true;
+    }
+    return false;
+  }
+
+  function charts(root) {
+    var svgs = root.querySelectorAll('svg[viewBox]'), i;
+    for (i = 0; i < svgs.length; i++) {
+      var svg = svgs[i];
+      if (svg.closest(SCROLLS) || scrollsAlready(svg)) continue;
+      var vb = svg.viewBox && svg.viewBox.baseVal;
+      if (!vb || vb.width < 300) continue;
+      var shown = svg.getBoundingClientRect().width;
+      if (shown < 120) continue;
+      var f = typicalFont(svg);
+      if (!f) continue;
+      var need = Math.min(vb.width, vb.width * MIN_PX / f);
+      if (need <= shown + 1) continue;
+      var wrap = document.createElement('div');
+      wrap.className = 'gs-chartscroll';
+      wrap.setAttribute('tabindex', '0');
+      wrap.setAttribute('role', 'region');
+      wrap.setAttribute('aria-label', 'Chart, scrolls sideways');
+      svg.parentNode.insertBefore(wrap, svg);
+      wrap.appendChild(svg);
+      svg.style.width = Math.round(need) + 'px';
+      svg.style.maxWidth = 'none';
+      svg.style.height = 'auto';
+      hint('Swipe sideways to read the whole chart →', wrap);
+    }
+  }
+
+  function tables(root) {
+    var w = root.querySelectorAll('.gs-tblwrap,.gb-tblwrap,.tw'), i;
+    for (i = 0; i < w.length; i++) {
+      var box = w[i], t = box.querySelector('table');
+      if (!t || box.classList.contains('gs-scrolls')) continue;
+      var scroller = box.scrollWidth > box.clientWidth + 4 ? box : (t.scrollWidth > t.clientWidth + 4 ? t : null);
+      if (!scroller) continue;
+      box.classList.add('gs-scrolls');
+      hint('Swipe the table sideways for more columns →', box);
+    }
+  }
+
+  function run() {
+    var posts = document.querySelectorAll('.post-body'), i;
+    for (i = 0; i < posts.length; i++) {
+      try { charts(posts[i]); tables(posts[i]); } catch (e) { /* never break the page */ }
+    }
+  }
+
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', run);
+  else run();
+  var timer;
+  window.addEventListener('resize', function () { clearTimeout(timer); timer = setTimeout(run, 250); });
+})();
+/* END theme-module: gs-mobile-v1 */
 //]]></script>
 </body>
 </html>

@@ -19,7 +19,7 @@
 <!-- Archive, search and label listings are auto-generated snippet pages: keep
      them out of the index (they stay fully usable) so crawlers and reviewers
      judge the site on its articles and pages, not on hundreds of thin lists. -->
-<b:if cond='data:blog.pageType == &quot;archive&quot; or data:blog.pageType == &quot;error_page&quot; or data:blog.searchLabel or data:blog.searchQuery'>
+<b:if cond='data:view.isArchive or data:view.isSearch or data:view.isLabelSearch or data:view.isError'>
   <meta content='noindex,follow' name='robots'/>
 </b:if>
 <b:include data='blog' name='all-head-content'/>
@@ -37,7 +37,7 @@
 </b:if>
 <b:skin><![CDATA[
 /* ===========================================================================
-   Masala Deutsch — a Blogger theme built for long, data-heavy analysis posts.
+   VertiStrat Solutions — a Blogger theme built for long, data-heavy analysis posts.
    No third-party JavaScript. No packed/encrypted footer scripts. No web fonts.
 
    Two design constraints came from real failures on this blog:
@@ -91,6 +91,14 @@ a:hover{color:var(--accent-ink)}
 .site-title{font-family:var(--sans);font-weight:700;font-size:1rem;
   letter-spacing:.02em;text-transform:uppercase;color:var(--ink);text-decoration:none}
 .site-title span{color:var(--accent)}
+/* gs-brand-header-v1 (2026-11-10): VertiStrat logo + link to the main website */
+.site-title{display:inline-flex;align-items:center;gap:10px;text-transform:none;letter-spacing:-.01em;font-size:1.15rem}
+.site-title svg{flex:none}
+.site-title .wm{color:var(--ink)}
+.site-title .sub{color:var(--ink);opacity:.65;font-weight:500;font-size:.75rem;letter-spacing:.12em;text-transform:uppercase;padding-left:10px;border-left:1px solid var(--line)}
+.site-nav{margin-left:auto}
+.site-main{font-family:var(--sans);font-size:.82rem;font-weight:600;text-decoration:none;border:1px solid var(--accent);border-radius:8px;padding:6px 12px;white-space:nowrap}
+.site-main:hover{background:var(--accent);color:#fff}
 .site-nav{font-family:var(--sans);font-size:.82rem;display:flex;gap:16px;flex-wrap:wrap}
 .site-nav a{text-decoration:none}
 .site-nav a:hover{text-decoration:underline}
@@ -243,13 +251,14 @@ body:has(ins.adsbygoogle[data-anchor-status]) .site-foot{padding-bottom:110px}
 
 <header class='site-head'>
   <div class='wrap'>
-    <a class='site-title' expr:href='data:blog.homepageUrl'>
-      <data:blog.title/>
+    <a aria-label='VertiStrat Insights, home' class='site-title' expr:href='data:blog.homepageUrl'>
+      <svg aria-hidden='true' height='22' viewBox='0 0 22 22' width='22'><rect fill='#1e64ef' height='9' rx='1' width='5' x='0' y='13'/><rect fill='#1e64ef' height='15' rx='1' width='5' x='8' y='7'/><rect fill='#eb8a00' height='22' rx='1' width='5' x='16' y='0'/></svg>
+      <span class='wm'>VertiStrat</span><span class='sub'>Insights</span>
     </a>
     <b:section class='site-nav' id='nav' maxwidgets='2' showaddelement='yes'>
       <b:widget id='PageList1' locked='false' title='Pages' type='PageList' version='1'>
         <b:widget-settings>
-          <b:widget-setting name='pageListJson'><![CDATA[{"home":{"href":"http://masaladeutsch.blogspot.com/","position":0,"title":"Home"}}]]></b:widget-setting>
+          <b:widget-setting name='pageListJson'><![CDATA[{"home":{"href":"https://blog.vertistratsolution.com/","position":0,"title":"Home"}}]]></b:widget-setting>
           <b:widget-setting name='homeTitle'>Home</b:widget-setting>
         </b:widget-settings>
         <b:includable id='main'>
@@ -259,6 +268,7 @@ body:has(ins.adsbygoogle[data-anchor-status]) .site-foot{padding-bottom:110px}
         </b:includable>
       </b:widget>
     </b:section>
+    <a class='site-main' href='https://vertistratsolution.com/'>Main website &#8599;</a>
   </div>
 </header>
 
@@ -346,7 +356,7 @@ body:has(ins.adsbygoogle[data-anchor-status]) .site-foot{padding-bottom:110px}
           <b:else/>
             <span/>
           </b:if>
-          <a class='pager-index' href='https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html'>All articles &#183; Index</a>
+          <a class='pager-index' href='https://blog.vertistratsolution.com/2026/08/article-index-start-here.html'>All articles &#183; Index</a>
           <b:if cond='data:olderPageUrl'>
             <a expr:href='data:olderPageUrl'>Older &#8594;</a>
           </b:if>
@@ -1186,9 +1196,9 @@ material, so verify any number that matters to a decision against the linked pri
         <b:widget-setting name='content'><![CDATA[<div class="browse">
 <div class="browse-head">
 <h2>Browse all articles by topic</h2>
-<p>Every piece on this blog, grouped. Or read the <a href="https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html">full index</a>.</p>
+<p>Every piece on this blog, grouped. Or read the <a href="https://blog.vertistratsolution.com/2026/08/article-index-start-here.html">full index</a>.</p>
 </div>
-<div class="topics"><style>.topics{margin:.7rem 0 0}.topics .tchip{display:inline-block;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.82rem;font-weight:600;color:#0B1F2D;background:#F4F7FB;border:1px solid #e2e6ee;padding:.5rem .9rem;border-radius:2px;text-decoration:none;margin:0 .5rem .5rem 0}.topics .tchip:hover{background:#e6ecf5}.topics .tnote{font-size:.8rem;color:#595959;margin:.7rem 0 0;max-width:62ch}</style><a class="tchip" href="https://masaladeutsch.blogspot.com/search/label/Agriculture%20%26%20Fertilisers">Agriculture &amp; Fertilisers</a><a class="tchip" href="https://masaladeutsch.blogspot.com/search/label/AI%20Tools">AI Tools</a><a class="tchip" href="https://masaladeutsch.blogspot.com/search/label/Chemicals">Chemicals</a><a class="tchip" href="https://masaladeutsch.blogspot.com/search/label/Climate%20%26%20Carbon">Climate &amp; Carbon</a><a class="tchip" href="https://masaladeutsch.blogspot.com/search/label/Energy%20%26%20Fuels">Energy &amp; Fuels</a><a class="tchip" href="https://masaladeutsch.blogspot.com/search/label/Gas%20%26%20LNG">Gas &amp; LNG</a><a class="tchip" href="https://masaladeutsch.blogspot.com/search/label/Import%20Substitution">Import Substitution</a><a class="tchip" href="https://masaladeutsch.blogspot.com/search/label/Industrial%20Policy">Industrial Policy</a><a class="tchip" href="https://masaladeutsch.blogspot.com/search/label/Markets%20%26%20Finance">Markets &amp; Finance</a><a class="tchip" href="https://masaladeutsch.blogspot.com/search/label/Mobility%20%26%20EV">Mobility &amp; EV</a><a class="tchip" href="https://masaladeutsch.blogspot.com/search/label/Prices%20%26%20Inflation">Prices &amp; Inflation</a><a class="tchip" href="https://masaladeutsch.blogspot.com/search/label/Textiles">Textiles</a><a class="tchip" href="https://masaladeutsch.blogspot.com/search/label/Trade%20%26%20Tariffs">Trade &amp; Tariffs</a><p class="tnote">Each topic is a live archive page that updates itself as pieces are labelled. It replaces a hand-kept list that had fallen 18 articles behind.</p></div></div>]]></b:widget-setting>
+<div class="topics"><style>.topics{margin:.7rem 0 0}.topics .tchip{display:inline-block;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.82rem;font-weight:600;color:#0B1F2D;background:#F4F7FB;border:1px solid #e2e6ee;padding:.5rem .9rem;border-radius:2px;text-decoration:none;margin:0 .5rem .5rem 0}.topics .tchip:hover{background:#e6ecf5}.topics .tnote{font-size:.8rem;color:#595959;margin:.7rem 0 0;max-width:62ch}</style><a class="tchip" href="https://blog.vertistratsolution.com/search/label/Agriculture%20%26%20Fertilisers">Agriculture &amp; Fertilisers</a><a class="tchip" href="https://blog.vertistratsolution.com/search/label/AI%20Tools">AI Tools</a><a class="tchip" href="https://blog.vertistratsolution.com/search/label/Chemicals">Chemicals</a><a class="tchip" href="https://blog.vertistratsolution.com/search/label/Climate%20%26%20Carbon">Climate &amp; Carbon</a><a class="tchip" href="https://blog.vertistratsolution.com/search/label/Energy%20%26%20Fuels">Energy &amp; Fuels</a><a class="tchip" href="https://blog.vertistratsolution.com/search/label/Gas%20%26%20LNG">Gas &amp; LNG</a><a class="tchip" href="https://blog.vertistratsolution.com/search/label/Import%20Substitution">Import Substitution</a><a class="tchip" href="https://blog.vertistratsolution.com/search/label/Industrial%20Policy">Industrial Policy</a><a class="tchip" href="https://blog.vertistratsolution.com/search/label/Markets%20%26%20Finance">Markets &amp; Finance</a><a class="tchip" href="https://blog.vertistratsolution.com/search/label/Mobility%20%26%20EV">Mobility &amp; EV</a><a class="tchip" href="https://blog.vertistratsolution.com/search/label/Prices%20%26%20Inflation">Prices &amp; Inflation</a><a class="tchip" href="https://blog.vertistratsolution.com/search/label/Textiles">Textiles</a><a class="tchip" href="https://blog.vertistratsolution.com/search/label/Trade%20%26%20Tariffs">Trade &amp; Tariffs</a><p class="tnote">Each topic is a live archive page that updates itself as pieces are labelled. It replaces a hand-kept list that had fallen 18 articles behind.</p></div></div>]]></b:widget-setting>
       </b:widget-settings>
       <b:includable id='main'>
   <!-- only display title if it's non-empty -->
@@ -1211,16 +1221,16 @@ material, so verify any number that matters to a decision against the linked pri
     <b:section id='footer' showaddelement='yes'>
       <b:widget id='Attribution1' locked='false' title='' type='Attribution' version='1'>
         <b:widget-settings>
-          <b:widget-setting name='copyright'>&#169; 2019&#8211;2026 Masala Deutsch &#183; Umashankar Triplicane Dwarakanathan. Text and original charts may be quoted with attribution and a link.</b:widget-setting>
+          <b:widget-setting name='copyright'>&#169; 2026 VertiStrat Solutions LLP. All rights reserved. Content here is its intellectual property, protected by copyright. Quote with attribution and a link; other use needs written permission</b:widget-setting>
         </b:widget-settings>
         <b:includable id='main'>
     <nav aria-label='Site policies' class='site-foot-links' style='text-align:center;font-family:-apple-system,BlinkMacSystemFont,&apos;Segoe UI&apos;,Helvetica,Arial,sans-serif;font-size:.82rem;margin:0 0 .8rem;'>
-      <a href='https://masaladeutsch.blogspot.com/p/about.html' style='margin:0 .6rem;'>About</a>
-      <a href='https://masaladeutsch.blogspot.com/p/contact.html' style='margin:0 .6rem;'>Contact</a>
-      <a href='https://masaladeutsch.blogspot.com/p/privacy-policy.html' style='margin:0 .6rem;'>Privacy Policy</a>
-      <a href='https://masaladeutsch.blogspot.com/p/disclaimer.html' style='margin:0 .6rem;'>Editorial Policy &amp; Disclaimer</a>
-      <a href='https://masaladeutsch.blogspot.com/p/terms.html' style='margin:0 .6rem;'>Terms of Use</a>
-      <a href='https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html' style='margin:0 .6rem;'>Article Index</a>
+      <a href='https://blog.vertistratsolution.com/p/about.html' style='margin:0 .6rem;'>About</a>
+      <a href='https://blog.vertistratsolution.com/p/contact.html' style='margin:0 .6rem;'>Contact</a>
+      <a href='https://blog.vertistratsolution.com/p/privacy-policy.html' style='margin:0 .6rem;'>Privacy Policy</a>
+      <a href='https://blog.vertistratsolution.com/p/disclaimer.html' style='margin:0 .6rem;'>Editorial Policy &amp; Disclaimer</a>
+      <a href='https://blog.vertistratsolution.com/p/terms.html' style='margin:0 .6rem;'>Terms of Use</a>
+      <a href='https://blog.vertistratsolution.com/2026/08/article-index-start-here.html' style='margin:0 .6rem;'>Article Index</a>
     </nav>
     <div class='widget-content' style='text-align: center;'>
       <b:if cond='data:attribution != &quot;&quot;'>
