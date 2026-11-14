@@ -1,0 +1,42 @@
+{
+ "top": [
+  ["331 of 679", " UDAN routes that started had closed by July 2026; 348 were flying."],
+  ["165", " of the closed routes shut while their subsidy was still being paid, about half of all closures."],
+  ["Rs 2,960", " of airline subsidy per UDAN passenger over ten years."]
+ ],
+ "sections": [
+  {"h2": "Of 679 routes that started, 331 have closed, half of them before subsidy ended",
+   "chart": {"type": "bars",
+             "title": "Half of the 331 closed routes shut before their subsidy ran out",
+             "sub": "Routes that started under UDAN, by status at July 2026.",
+             "source": "Rajya Sabha reply, 10 July 2026.",
+             "unit": "routes",
+             "accent": "Closed before subsidy ended",
+             "rows": [["Still flying", 348], ["Closed after subsidy ended", 166], ["Closed before subsidy ended", 165]]},
+   "means": "Half the closures came while routes were still fully subsidised, so they were not short of support time.",
+   "todo": "Track closures by route and month so the 165 early closures are not hidden inside one total.",
+   "numbers": {"table": "T2"}},
+  {"h2": "Across the first three rounds, 52% of awarded routes never started",
+   "chart": {"type": "bars",
+             "title": "Only 54 of 774 awarded routes were still flying after their subsidy",
+             "sub": "Routes in rounds 1 to 3, position to March 2023.",
+             "source": "CAG performance audit of RCS-UDAN, to March 2023.",
+             "unit": "routes",
+             "accent": "Still flying after subsidy",
+             "rows": [["Awarded", 774], ["Started", 371], ["Completed 3 years of subsidy", 112], ["Still flying after subsidy", 54]]},
+   "means": "Only 7% of the routes awarded were still flying once their subsidy had ended.",
+   "todo": "Report awarded, started and surviving routes on the same basis in every round so later counts can be compared.",
+   "numbers": {"table": "T1"}},
+  {"h2": "Modified UDAN extends full support by half a year, then tapers it",
+   "chart": {"type": "bars",
+             "title": "Tapering buys 3.5 years of full support against 3, but year three drops to 75%",
+             "sub": "Years of full viability gap funding per route.",
+             "source": "Civil Aviation Minister, July 2026.",
+             "unit": "years",
+             "accent": "Modified UDAN, full support",
+             "rows": [["Original UDAN, full support", 3], ["Modified UDAN, full support", 3.5]]},
+   "means": "The new terms give about 17% more full support over a route's life but cut year-three support from 100% to 75%.",
+   "todo": "Judge the five-year taper against the 165 routes that closed under full subsidy, since a longer taper does not help them."}
+ ],
+ "derived": {}
+}

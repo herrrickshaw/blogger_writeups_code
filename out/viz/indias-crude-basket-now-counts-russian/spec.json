@@ -1,0 +1,16 @@
+{"top": [["61%", " weight of Dated Brent, a sweet marker, in the Indian Basket since March 2026, up from 21%."], ["about 89%", " of September's crude imports came from Russia and the Middle East, whose main grades are sour."], ["−87%", " fall in US crude arriving in India between October 2025 and August 2026."]],
+ "sections": [
+  {"h2": "The basket now gives sweet Brent 61% of its weight, up from 21%",
+   "chart": {"type": "bars", "title": "The sweet benchmark's weight jumped from 21% to 61% in March 2026", "sub": "Dated Brent's share of the Indian Basket price formula, %.", "source": "PPAC formula as reported by Business Standard (April 2026).", "unit": "%", "accent": "From Mar 2026", "rows": [["Until Feb 2026", 21], ["From Mar 2026", 61]]},
+   "means": "The basket is a price formula, so a heavier Brent weight means India's crude is priced like sweet crude, not that more of it is sweet.",
+   "todo": "Read the basket price next to the grades actually loaded before treating its ratio as a sulphur mix."},
+  {"h2": "Russian crude into India fell from 2,820 to 1,820 thousand barrels a day",
+   "chart": {"type": "bars", "title": "Russian crude into India fell from July to September as Gulf flows recovered", "sub": "Crude into India from Russia, thousand barrels a day.", "source": "Kpler via Business Standard and Hellenic Shipping News. Monthly tanker-tracking estimates, not customs data.", "unit": "thousand b/d", "accent": "Sep 2026", "rows": [["Jul 2026", 2820], ["Aug 2026", 2080], ["Sep 2026", 1820]]},
+   "means": "Russian intake followed the discount, which had mostly disappeared by March as Urals sold above Dated Brent.",
+   "todo": "Track monthly tanker-tracking estimates against the sour grades refiners process before judging the sweet-sour mix."},
+  {"h2": "US crude arriving in India fell 87% between October 2025 and August 2026",
+   "chart": {"type": "bars", "title": "US crude into India fell from 565 to 75 thousand barrels a day", "sub": "Crude into India from the US, thousand barrels a day.", "source": "Kpler via Indian Oil & Gas (August 2026). Monthly tanker-tracking estimates, not customs data.", "unit": "thousand b/d", "accent": "Aug 2026", "rows": [["Oct 2025", 565], ["Jan 2026", 295], ["Mar 2026", 165], ["Jul 2026", 125], ["Aug 2026", 75]]},
+   "means": "US crude, the sweetest grade in the mix, was cheap in October 2025 when the Brent–WTI spread was wide, and had shrunk to a fraction by August.",
+   "todo": "Check whether the trade talks with Washington show up in tanker arrivals in the months ahead."}
+ ],
+ "derived": {}}

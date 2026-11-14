@@ -1,0 +1,22 @@
+{"top": [["721", " products still covered by Quality Control Orders in March 2026, down from 773 in August 2025."], ["142", " Quality Control Orders in force; the \"voluntary\" ISI mark is compulsory wherever one names a product."]],
+ "sections": [
+  {"h2": "India's mandatory quality list shrank by 52 products between August 2025 and March 2026",
+   "chart": {"type": "bars", "title": "Products under Quality Control Orders fell from 773 to 721 after withdrawals",
+             "sub": "Products covered by Quality Control Orders in force, by date.",
+             "source": "DPIIT Lok Sabha answer, March 2026; Department of Consumer Affairs year-end review.",
+             "unit": "products", "accent": "March 2026",
+             "rows": [["August 2025", 773, "190 orders"], ["March 2026", 721, "142 orders"]]},
+   "means": "Withdrawals from July 2025 account for the fall, while new orders kept arriving for finished goods.",
+   "todo": "Check whether your product category is named in a Quality Control Order before assuming its mark is optional."},
+  {"h2": "Scheme-X was deferred and then repealed before its September 2026 start date",
+   "chart": {"type": "flow", "title": "Scheme-X was deferred twice and then repealed outright",
+             "events": [["12 June 2025", "Quality Control Order moves the start from August 2025 to 1 September 2026"], ["13 November 2025", "Deferred again, to a date still to be notified"], ["14 January 2026", "Underlying omnibus order repealed outright", true]]},
+   "means": "The repository's September 2026 date for Scheme-X is no longer current; the scheme is scrapped.",
+   "todo": "Check any BIS scheme's status against its latest notification rather than the page's fetch date."},
+  {"h2": "The induction hob mandatory label moved from 1 July 2026 to 1 January 2027",
+   "chart": {"type": "flow", "title": "BEE's induction hob label was delayed, with the delay linked to LPG supply",
+             "events": [["1 July 2026", "Mandatory label due from this date"], ["1 January 2027", "Pushed back to this date", true]]},
+   "means": "The induction hob label was postponed to 1 January 2027 rather than dropped.",
+   "todo": "Plan induction hob sales against the 1 January 2027 date and recheck it if LPG supply shifts."}
+ ],
+ "derived": {"52": "773-721"}}

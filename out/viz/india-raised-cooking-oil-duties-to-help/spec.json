@@ -1,0 +1,22 @@
+{"top": [["11%", " effective duty on crude palm and soybean oil after the 24 September 2026 cut, down from 16.5%."], ["16%", " rise in the vegetable oils price index between the May 2025 cut and September 2026."], ["10% a year", " oilseed growth needed for the 2030-31 target, against about 4% a year since 2023-24."]],
+ "sections": [
+  {"h2": "Crude oil duty was cut twice in sixteen months, to 11% effective",
+   "chart": {"type": "bars", "title": "Each cut lowered the effective duty on crude palm and soybean oil", "sub": "Effective duty on crude palm and soybean oil, %, including cesses.", "source": "Customs notifications No. 43/2024 and No. 31/2025; Department of Consumer Affairs release, 25 September 2026.", "unit": "%", "accent": "Sep 2026 cut", "rows": [["Sep 2024 rise (basic 20%)", 27.5], ["May 2025 cut (basic 10%)", 16.5], ["Sep 2026 cut (basic 5%)", 11]]},
+   "means": "The basic duty on crude palm and soybean oil went up to 20% in September 2024 and has since been cut to 5%, which with cesses gives an effective 11%.",
+   "todo": "Watch the October price index as the first real test of whether the September cut reaches shops.",
+   "numbers": {"table": "T1"}},
+  {"h2": "Vegetable oil prices kept rising through both duty cuts",
+   "chart": {"type": "bars", "title": "The vegetable oils price index is 16% above its May 2025 level", "sub": "Consumer price index, vegetable oils, 2024 = 100.", "source": "MoSPI consumer price index (base 2024), via eSankhyiki API.", "unit": "index", "accent": "Sep 2026", "rows": [["May 2025 (duty cut)", 117.0], ["Sep 2025", 124.2], ["Aug 2026", 133.9], ["Sep 2026", 135.8]]},
+   "means": "Prices kept climbing after the May 2025 cut, and the September 2026 reading was collected before the latest duty cut.",
+   "todo": "Read the October index as the first test of whether the September duty cut reaches consumers."},
+  {"h2": "Palm oil is the largest edible oil import, at 65.34 lakh tonnes in 2025-26",
+   "chart": {"type": "bars", "title": "Palm oil leads edible oil imports, ahead of soybean and sunflower oil", "sub": "Edible oil imports, first ten months of the November to October oil year, lakh tonnes.", "source": "Solvent Extractors' Association of India.", "unit": "lakh tonnes", "accent": "Palm oil", "rows": [["Palm oil", 65.34, "2024-25: 61.47"], ["Soybean oil", 45.61, "2024-25: 44.64"], ["Sunflower oil", 25.15, "2024-25: 24.00"]]},
+   "means": "Total edible oil imports reached 136.2 lakh tonnes in the first ten months, 5% more than a year earlier.",
+   "todo": "Treat rising imports as the baseline, since domestic oilseed output is not yet growing fast enough to replace them.",
+   "numbers": {"table": "T2"}},
+  {"h2": "Oilseed output must grow about 10% a year to meet the 2030-31 target",
+   "chart": {"type": "bars", "title": "The 2030-31 target needs growth well above the recent pace", "sub": "Oilseed output growth, % a year.", "source": "Government reply to the Lok Sabha, August 2026; National Mission on Edible Oils.", "unit": "% a year", "accent": "Needed to 2030-31", "rows": [["Achieved, 2023-24 onward", 4, "about 4% a year"], ["Needed to 2030-31", 10, "about 10% a year"]]},
+   "means": "The mission asks farmers to grow about 60% more oilseeds by 2030-31 than in 2025-26, while the duty has moved in both directions.",
+   "todo": "Set a steadier duty path so farmers can plan their kharif sowing."}
+ ],
+ "derived": {}}

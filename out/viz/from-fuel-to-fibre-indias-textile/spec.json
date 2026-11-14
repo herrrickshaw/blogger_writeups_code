@@ -1,16 +1,92 @@
-{"top": [["$19.6 billion", " combined deficit in plastics and organic chemicals in FY2025-26, down from $20.4 billion."], ["$396M", " net deficit in specialty fibres and composites in FY2025-26, the largest of any segment."], ["$325M", " Indutech deficit in FY2025-26, up from $112M the year before."]],
- "sections": [
-  {"h2": "Plastics carries most of the $19.6 billion feedstock deficit",
-   "chart": {"type": "bars", "title": "Plastics widened to a $14.6 billion deficit while organic chemicals narrowed", "sub": "FY2025-26 deficit, exports minus imports, USD billion.", "source": "DGCI&S TradeStat, chapter level (HS 2-digit).", "unit": "USD bn", "accent": "Plastics (Chapter 39)", "rows": [["Plastics (Chapter 39)", 14.6], ["Organic chemicals (Chapter 29)", 5.0]]},
-   "means": "The Chapter 39 plastics deficit widened from $14.0 billion to $14.6 billion while the Chapter 29 chemicals deficit narrowed to $5.0 billion.",
-   "todo": "Keep the chapter split visible in future trade tracking, since the combined headline hides the widening plastics gap."},
-  {"h2": "Specialty fibres, Indutech and Mobiltech show the largest FY2025-26 deficits",
-   "chart": {"type": "bars", "title": "Three segments carry the largest net deficits in FY2025-26", "sub": "Net trade balance by technical-textile segment, FY2025-26, USD million.", "source": "DGCI&S TradeStat, commodity-wise, matched to the 314-code segment mapping.", "unit": "USD M", "accent": "Specialty Fibres & Composites", "rows": [["Specialty Fibres & Composites", 396], ["Indutech", 325], ["Mobiltech", 310]]},
-   "means": "Specialty fibres and composites has the largest net deficit at $396M, ahead of Indutech at $325M and Mobiltech at $310M.",
-   "todo": "Prioritise these three segments for feedstock and capacity support, as the post's segment table recommends."},
-  {"h2": "Indutech's deficit nearly tripled in one year, to $325 million",
-   "chart": {"type": "bars", "title": "Indutech's net deficit grew from $112M to $325M in a single year", "sub": "Indutech net trade balance, USD million.", "source": "DGCI&S TradeStat, commodity-wise, FY2024-25 and FY2025-26.", "unit": "USD M", "accent": "FY26", "rows": [["FY25", 112], ["FY26", 325]]},
-   "means": "Indutech moved from a $112 million deficit in FY25 to a $325 million deficit in FY26, and the post links the segment to LLDPE and HDPE dependence.",
-   "todo": "Lock multi-year feedstock offtake contracts before new LLDPE and polyester capacity comes online."}
+{
+ "top": [
+  [
+   "$19.6 billion",
+   " combined deficit in plastics and organic chemicals in FY2025-26, down from $20.4 billion."
+  ],
+  [
+   "$396M",
+   " net deficit in specialty fibres and composites in FY2025-26, the largest of any segment."
+  ],
+  [
+   "$325M",
+   " Indutech deficit in FY2025-26, up from $112M the year before."
+  ]
  ],
- "tables": "none", "derived": {}}
+ "sections": [
+  {
+   "h2": "Plastics carries most of the $19.6 billion feedstock deficit",
+   "chart": {
+    "type": "bars",
+    "title": "Plastics widened to a $14.6 billion deficit while organic chemicals narrowed",
+    "sub": "FY2025-26 deficit, exports minus imports, USD billion.",
+    "source": "DGCI&S TradeStat, chapter level (HS 2-digit).",
+    "unit": "USD bn",
+    "accent": "Plastics (Chapter 39)",
+    "rows": [
+     [
+      "Plastics (Chapter 39)",
+      14.6
+     ],
+     [
+      "Organic chemicals (Chapter 29)",
+      5.0
+     ]
+    ]
+   },
+   "means": "The Chapter 39 plastics deficit widened from $14.0 billion to $14.6 billion while the Chapter 29 chemicals deficit narrowed to $5.0 billion.",
+   "todo": "Keep the chapter split visible in future trade tracking, since the combined headline hides the widening plastics gap."
+  },
+  {
+   "h2": "Specialty fibres, Indutech and Mobiltech show the largest FY2025-26 deficits",
+   "chart": {
+    "type": "bars",
+    "title": "Three segments carry the largest net deficits in FY2025-26",
+    "sub": "Net trade balance by technical-textile segment, FY2025-26, USD million.",
+    "source": "DGCI&S TradeStat, commodity-wise, matched to the 314-code segment mapping.",
+    "unit": "USD M",
+    "accent": "Specialty Fibres & Composites",
+    "rows": [
+     [
+      "Specialty Fibres & Composites",
+      396
+     ],
+     [
+      "Indutech",
+      325
+     ],
+     [
+      "Mobiltech",
+      310
+     ]
+    ]
+   },
+   "means": "Specialty fibres and composites has the largest net deficit at $396M, ahead of Indutech at $325M and Mobiltech at $310M.",
+   "todo": "Prioritise these three segments for feedstock and capacity support, as the post's segment table recommends."
+  },
+  {
+   "h2": "Indutech's deficit nearly tripled in one year, to $325 million",
+   "chart": {
+    "type": "bars",
+    "title": "Indutech's net deficit grew from $112M to $325M in a single year",
+    "sub": "Indutech net trade balance, USD million.",
+    "source": "DGCI&S TradeStat, commodity-wise, FY2024-25 and FY2025-26.",
+    "unit": "USD M",
+    "accent": "FY26",
+    "rows": [
+     [
+      "FY25",
+      112
+     ],
+     [
+      "FY26",
+      325
+     ]
+    ]
+   },
+   "means": "Indutech moved from a $112 million deficit in FY25 to a $325 million deficit in FY26, and the post links the segment to LLDPE and HDPE dependence.",
+   "todo": "Lock multi-year feedstock offtake contracts before new LLDPE and polyester capacity comes online."
+  }
+ ],
+ "derived": {}
+}

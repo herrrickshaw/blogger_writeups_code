@@ -1,0 +1,41 @@
+{
+ "top": [
+  ["91%", " of India's paracetamol API imports come from China, on a molecule found in 43 Jan Aushadhi SKUs."],
+  ["95.8%", " China dependence for Penicillin G, a PLI-localised molecule that is still near-total."]
+ ],
+ "sections": [
+  {"h2": "Cardiovascular and nervous-system medicines lead the basket",
+   "chart": {"type": "bars",
+             "title": "Cardiovascular (304) and CNS (301) medicines each number about 300 products",
+             "sub": "Products in the PMBJP basket by therapeutic group, top 10.",
+             "source": "PMBI Product List, 16 September 2026.",
+             "unit": "products",
+             "accent": "Cardiovascular System (CVS)",
+             "table": {"id": "T1", "label": 0, "value": 1, "rows": "top:10", "sort": "desc"}},
+   "means": "The 2,125 medicine products span roughly 60 therapeutic groups, and a handful account for most of the basket.",
+   "todo": "Check category totals against the PMBI Product List, which the post says updates daily.",
+   "numbers": {"table": "T1"}},
+  {"h2": "Metformin appears in 77 Jan Aushadhi SKUs, more than any other molecule checked",
+   "chart": {"type": "bars",
+             "title": "Paracetamol and diclofenac follow metformin with 43 and 23 SKUs",
+             "sub": "Jan Aushadhi SKUs containing each molecule, top 10 of the 15 checked.",
+             "source": "PMBI Product List, 16 September 2026; this post's Section 3 cross-reference.",
+             "unit": "SKUs",
+             "accent": "Metformin",
+             "table": {"id": "T2", "label": 0, "value": 3, "rows": "top:10", "sort": "desc"}},
+   "means": "These are case-insensitive name matches against the product list, so they count SKUs and do not measure dependency.",
+   "todo": "Treat the five molecules with no located China figure as open gaps until a verifiable source is found.",
+   "numbers": {"table": "T2"}},
+  {"h2": "Ibuprofen's China dependence fell sharply with no PLI scheme behind it",
+   "chart": {"type": "bars",
+             "title": "Ibuprofen's China import dependence fell from 99.34% to 80.73% in one year",
+             "sub": "China import dependency for ibuprofen, %, by fiscal year.",
+             "source": "PIB Annexure PRID 2237414 (10 Mar 2026), as reported in this post.",
+             "unit": "%",
+             "accent": "FY24-25",
+             "rows": [["FY23-24", 99.34], ["FY24-25", 80.73]]},
+   "means": "Ibuprofen is the one checked molecule where dependence fell by a large margin without a Bulk Drugs PLI project.",
+   "todo": "Press BPPI for API country-of-origin disclosure, the gap the post says no current public dataset closes."}
+ ],
+ "derived": {}
+}

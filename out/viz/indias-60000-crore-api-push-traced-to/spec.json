@@ -1,0 +1,107 @@
+{
+ "top": [
+  [
+   "₹43,000–44,000 crore",
+   " of government outlay sits behind the ₹60,000cr \"API push\" headline, which is a roll-up, not one appropriation."
+  ],
+  [
+   "₹5,211cr",
+   " actually invested under the Bulk Drugs PLI by June 2026, against a ₹6,940cr outlay."
+  ],
+  [
+   "43.45%",
+   " of India's pharma imports still come from China, a share these schemes have not moved much yet."
+  ]
+ ],
+ "sections": [
+  {
+   "h2": "Government outlays behind the ₹60,000 crore headline add up to about ₹43,000 crore",
+   "chart": {
+    "type": "bars",
+    "title": "PLI Pharmaceuticals and Biopharma SHAKTI are the two largest outlays",
+    "sub": "Government outlay, ₹ crore, for each scheme in the post's table.",
+    "source": "Post's table 1; PIB; Policy Circle; India Briefing.",
+    "unit": "₹ crore",
+    "accent": "PLI — Bulk Drugs (KSM/DI/API)",
+    "rows": [
+     [
+      "PLI — Pharmaceuticals",
+      15000
+     ],
+     [
+      "Biopharma SHAKTI",
+      10000
+     ],
+     [
+      "PLI — Bulk Drugs (KSM/DI/API)",
+      6940
+     ],
+     [
+      "PRIP (research & innovation)",
+      5000
+     ],
+     [
+      "PLI — Medical Devices",
+      3420
+     ],
+     [
+      "Bulk Drug Parks (central share)",
+      3000
+     ]
+    ]
+   },
+   "means": "Government outlays alone total about ₹43,000–44,000 crore, and the gap to ₹60,000 crore is private and state co-investment the schemes are built to attract.",
+   "todo": "Judge the push by each scheme's outlay and results, not by the ₹60,000 crore roll-up."
+  },
+  {
+   "h2": "Bulk Drugs PLI sales were flat from December 2025 to March 2026",
+   "chart": {
+    "type": "bars",
+    "title": "Cumulative sales reached ₹3,792 crore in June 2026, after a flat quarter",
+    "sub": "Bulk Drugs PLI cumulative sales, ₹ crore, at each reported snapshot.",
+    "source": "Post's table 2; Parliament, March 2026.",
+    "unit": "₹ crore",
+    "accent": "Jun 2026",
+    "table": {
+     "id": "T2",
+     "label": 0,
+     "value": 2,
+     "rows": "top:10"
+    }
+   },
+   "means": "The March 2026 figures sit almost exactly on December's, so they read as restated data rather than new growth.",
+   "todo": "Track the next snapshot for real movement before counting the flat quarter as a trend.",
+   "numbers": {
+    "table": "T2"
+   }
+  },
+  {
+   "h2": "Investment attracted ran ahead of the ₹4,322 crore commitment by December 2025",
+   "chart": {
+    "type": "bars",
+    "title": "Attracted investment was ₹4,814 crore in December 2025 and ₹5,211 crore by June 2026",
+    "sub": "Bulk Drugs PLI committed figure and investment attracted, ₹ crore.",
+    "source": "Post's section 2; PSU Watch, June 2026 update.",
+    "unit": "₹ crore",
+    "accent": "Investment attracted, Dec 2025",
+    "rows": [
+     [
+      "Committed figure",
+      4322
+     ],
+     [
+      "Investment attracted, Dec 2025",
+      4814
+     ],
+     [
+      "Investment attracted, Jun 2026",
+      5211
+     ]
+    ]
+   },
+   "means": "The Bulk Drugs PLI attracted ₹4,814 crore by December 2025 against a committed ₹4,322 crore, so investment is ahead of its own commitment.",
+   "todo": "Check whether investment keeps pace with the ₹6,940 crore outlay while the 43.45% China import share stays put."
+  }
+ ],
+ "derived": {}
+}

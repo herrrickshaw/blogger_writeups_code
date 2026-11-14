@@ -1,0 +1,22 @@
+{"top": [["57%", " export coverage for endoscopes in FY2025-26, against 48% for the surgical and diagnostic instruments family."], ["$112mn", " of endoscope imports in FY2025-26 (provisional), with Japan-dominated supply."], ["38", " devices on PLI-MD's official list, and none of them is an endoscope."]],
+ "sections": [
+  {"h2": "Endoscopes export 57% of their import value, ahead of most PLI-covered lines",
+   "chart": {"type": "bars", "title": "Endoscopes beat every PLI-covered line in the post's data except dialysis machines",
+             "sub": "Export coverage (exports as a share of imports), %.", "source": "TradeStat FY2025-26 (provisional), as used in the companion trade-gap post.",
+             "unit": "%", "accent": "Endoscopes", "ref": [100, "100% = exports equal imports"],
+             "rows": [["Dialysis machines", 71], ["Endoscopes", 57], ["Surgical & diagnostic instruments (family)", 48], ["Oxygen concentrators", 9], ["Pacemakers", 1]]},
+   "means": "Endoscopes export 57% of their imports, beating every PLI-covered line in this data except dialysis machines.",
+   "todo": "Break the 57% figure into finished scopes, sub-assemblies and re-exports before reading it as a strength."},
+  {"h2": "Endoscope imports of $112mn were partly offset by about $64mn of exports",
+   "chart": {"type": "bars", "title": "In FY2025-26, endoscope imports ran well ahead of exports",
+             "sub": "Endoscopes (rigid/flexible), US$ million, FY2025-26 provisional.", "source": "TradeStat FY2025-26 (provisional).",
+             "unit": "$mn", "accent": "Imports", "rows": [["Imports", 112], ["Exports", 64]]},
+   "means": "Endoscope imports of $112mn in FY2025-26 (provisional) were offset in part by roughly $64mn of exports.",
+   "todo": "Count capsule, disposable and AI-detection devices separately, since the $112mn line likely leaves them out."},
+  {"h2": "PLI-MD's 38-device list omits endoscopes, and new applications close in March 2027",
+   "chart": {"type": "flow", "title": "The scheme's window closes before any endoscope applicant could be added",
+             "events": [["16 December 2025", "Lok Sabha statement: PLI-MD closes to new applicants in March 2027"], ["13 February 2026", "Official 38-device PLI-MD list published; endoscopes are not a line item"], ["June 2026", "SMDI components and accessories window opens"], ["March 2027", "PLI-MD closes to new applicants", true]]},
+   "means": "PLI-MD's official 38-device list does not name endoscopes, and the scheme closes to new applicants in March 2027.",
+   "todo": "Confirm whether the SMDI components window is still open before planning an endoscope application."}
+ ],
+ "derived": {}}
