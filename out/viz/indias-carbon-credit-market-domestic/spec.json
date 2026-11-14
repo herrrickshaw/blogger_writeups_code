@@ -1,0 +1,18 @@
+{"top": [["490", " obligated entities under CCTS, from two notified batches in about three months (8 Oct 2025 to 13 Jan 2026)."], ["5.8%", " aluminium reduction target under the GEI rules; cement is 3.4%, chlor-alkali 7.5%, pulp and paper 7.1%."], ["13.8878", " tCO2e per tonne: the 2023-24 baseline GEI of Vedanta's Jharsuguda smelter, against 1.1875 at Nalco's Damanjodi refinery."]],
+ "sections": [
+  {"h2": "Obligated entities reached 490 across two notified CCTS batches in three months",
+   "chart": {"type": "bars", "title": "The first batch carried 282 of the 490 obligated entities, the second 208", "sub": "Obligated entities by notified batch.", "source": "G.S.R. 739(E), 8 Oct 2025; PIB release, 22 Jan 2026.", "unit": "entities", "accent": "Total", "rows": [["First batch", 282], ["Second batch", 208], ["Total", 490]]},
+   "means": "Obligated entities came from two notified batches, 282 in the first and 208 in the second, for 490 in total.",
+   "todo": "Watch the next PIB notification batch, since the post says Fertiliser and Iron & Steel are designated but not yet targeted.",
+   "numbers": {"table": "T1"}},
+  {"h2": "Aluminium smelters carry far higher carbon intensity than refineries",
+   "chart": {"type": "bars", "title": "Smelter baselines sit far above refinery baselines within the same sector", "sub": "2023-24 baseline GEI, tCO2e per tonne of product, sample plants.", "source": "GEI Target Rules, 2025 (final schedules, G.S.R. 739(E)).", "unit": "tCO2e/t", "accent": "Hindalco Industries Ltd, Hirakud Smelter", "table": {"id": "T2", "label": 1, "value": 4, "rows": "top:5", "sort": "desc"}},
+   "means": "Electrolytic smelting, not alumina refining, is where nearly all of the aluminium sector's carbon intensity sits, so a sector-wide 5.8% target bites very differently at each.",
+   "todo": "Read any sector-wide reduction target against plant-level baselines before judging what it means for a specific plant.",
+   "numbers": {"table": "T2"}},
+  {"h2": "Compressed bio-gas is on India's Article 6.2 eligible list, notified in 2023",
+   "chart": {"type": "flow", "title": "Compressed bio-gas is an activity eligible for Article 6.2 trading since February 2023", "sub": "Milestones in India's Article 6.2 host-party listing.", "source": "MoEFCC; PIB Release ID 1900216.", "events": [["30 May 2022", "NDAIAPA notified by Gazette as the National Designated Authority for the Paris Agreement"], ["17 Feb 2023", "MoEFCC finalises the eligible Article 6.2 activities; compressed bio-gas is item 5", true]]},
+   "means": "The Article 6.2 host list, notified on 17 February 2023, includes compressed bio-gas, so the CBG carbon leg rests on a primary notice.",
+   "todo": "Check whether MoEFCC has revised the list, since its stated initial three-year window has now elapsed."}
+ ],
+ "derived": {}}

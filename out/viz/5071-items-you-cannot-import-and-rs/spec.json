@@ -1,0 +1,19 @@
+{"top": [["5,417", " DPSU items are now barred from import across six lists, but the item count says little about money."], ["1.4–1.9%", " of FY2025-26 defence production is the ministry's own import-substitution figure for lists 1–4."], ["₹94 or ₹114 lakh", " per item, depending on which of the ministry's two releases is used."]],
+ "sections": [
+  {"h2": "Six lists bar 5,417 DPSU items from import, most of them in the first list",
+   "chart": {"type": "bars", "title": "Item count per list is set by how finely a parts list was cut", "sub": "Items barred from import, per notified Positive Indigenisation List.", "source": "Dept. of Defence Production, PIB PRID 1924426, 2033571, 2300723.", "unit": "items", "accent": "1st PIL", "rows": [["1st PIL", 2851], ["2nd PIL", 107], ["3rd PIL", 780], ["4th PIL", 928], ["5th PIL", 346], ["6th PIL (Aug 2026)", 405]]},
+   "means": "Item counts track how finely a parts list was cut, not how much capability moved onshore.",
+   "todo": "Publish the value of each list so the later, harder lists can be judged on money.",
+   "numbers": {"table": "T1"}},
+  {"h2": "The ministry's two releases give ₹94 lakh and ₹114 lakh per item for the same lists",
+   "chart": {"type": "bars", "title": "The same four lists carry two substitution values in two releases", "sub": "Import substitution value per indigenised item, ₹ lakh, PILs 1–4.", "source": "Ministry of Defence via PIB, PRID 1924426 (May 2023) and 2033571 (July 2024).", "unit": "₹ lakh", "accent": "July 2024 release", "rows": [["May 2023 release", 94], ["July 2024 release", 114]]},
+   "means": "The ministry's May 2023 and July 2024 releases report different substitution values for the identical four-list scope.",
+   "todo": "Reconcile the two releases and state which figure is current.",
+   "numbers": {"table": "T2"}},
+  {"h2": "Even the largest reading of the lists is under 2 per cent of one year's output",
+   "chart": {"type": "bars", "title": "Against one year's production, the lists and ADITI are small", "sub": "Share of FY2025-26 defence production, %.", "source": "MoD via PIB, 17 June 2026; shares computed in the original post.", "unit": "%", "accent": "PIL import substitution", "ref": [100, "100% = all FY2025-26 defence production"], "rows": [["Modernisation earmark", 63], ["Private-sector share", 24], ["Defence exports", 22], ["6th PIL business potential", 1.7], ["PIL import substitution", [1.4, 1.9]], ["Project ADITI corpus", 0.4]]},
+   "means": "Against a single year's production the lists and ADITI are small, though the ratio mixes cumulative and annual figures.",
+   "todo": "Publish the method behind import substitution value and the ADITI rate of conversion to production orders.",
+   "numbers": {"table": "T3"}}
+ ],
+ "derived": {}}

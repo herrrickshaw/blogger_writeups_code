@@ -1,0 +1,17 @@
+{"top": [["6.2 t", " of coal per tonne of olefins, the most of any product in the post's table; ammonia and urea need 1.3–2.0 t."], ["₹235.52 crore", " paid of the ₹6,233.06 crore earmarked under the ₹8,500 crore scheme, as of August 2026."], ["22.6 million t", " a year of gasification capacity is operational or under way, against a 100-million-tonne target for 2030."]],
+ "sections": [
+  {"h2": "Olefins need about 6.2 t of coal per tonne, the most of any product listed",
+   "chart": {"type": "bars", "title": "Coal intensity rises from ammonia and urea to olefins", "sub": "Tonnes of coal per tonne of product, China-derived ratios.", "source": "Post's sorting table (T1); China-derived coal-to-chemicals literature.", "unit": "t coal per t", "accent": "Olefins (ethylene/propylene)", "rows": [["Ammonia (→ urea)", [1.3, 2.0]], ["Methanol", [1.5, 2.5]], ["MEG", [3.0, 3.5]], ["Olefins (ethylene/propylene)", 6.2]]},
+   "means": "Coal use per tonne rises sharply from ammonia and urea to MEG and olefins, the products with no funded Indian project behind them in the first pass.",
+   "todo": "Treat the ratios as an order-of-magnitude guide and check any India-specific plant figure before relying on them.",
+   "numbers": {"table": "T1"}},
+  {"h2": "Three named groups make up the 22.6 million tonnes a year under way",
+   "chart": {"type": "bars", "title": "Named schemes make up the 22.6 million tonnes a year under way", "sub": "Gasification capacity, million tonnes a year.", "source": "Post's reporting on the National Coal Gasification Mission.", "unit": "million t a year", "accent": "Eight projects under the ₹8,500 crore scheme", "rows": [["JSL", 8], ["Talcher Fertilisers", 2.6], ["Eight projects under the ₹8,500 crore scheme", 12]]},
+   "means": "Most of the capacity under way sits in a handful of named projects, against a 100-million-tonne target for 2030.",
+   "todo": "Watch whether the second, larger scheme adds capacity in the methanol or MEG routes, which none of its first-round applicants has proposed."},
+  {"h2": "Under the first scheme, ₹235.52 crore of ₹6,233.06 crore has been paid",
+   "chart": {"type": "bars", "title": "Earmarked incentives far exceed payments under the first scheme", "sub": "Incentives under the ₹8,500 crore Scheme for Promotion of Coal/Lignite Gasification, ₹ crore.", "source": "Rajya Sabha Starred Question 165, 3 August 2026.", "unit": "₹ crore", "accent": "Paid by August 2026", "rows": [["Earmarked for eight projects", 6233.06], ["Paid by August 2026", 235.52]]},
+   "means": "Eight projects hold ₹6,233.06 crore of earmarked incentives under the first scheme, and only ₹235.52 crore had been paid, all of it to Jindal Steel.",
+   "todo": "Track the next disbursement in Rajya Sabha answers before treating the earmarked sum as money spent."}
+ ],
+ "derived": {}}

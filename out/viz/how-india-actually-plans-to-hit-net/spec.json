@@ -1,0 +1,17 @@
+{"top": [["$6.5 trillion", " of India's $22.7 trillion Net Zero investment need has no domestic source to fill it."], ["52.57%", " non-fossil capacity was reached in February 2026, ahead of the 60% target for 2035."]],
+ "sections": [
+  {"h2": "A $6.5 trillion financing gap sits inside the $22.7 trillion Net Zero bill",
+   "chart": {"type": "bars", "title": "Domestic sources cannot close the gap in India's Net Zero investment need", "sub": "Cumulative investment by 2070 under NITI Aayog's Net Zero scenario, $ trillion.", "source": "NITI Aayog, Scenarios Towards Viksit Bharat and Net Zero, Vol. 9 (Financing Needs), February 2026.", "unit": "$ trillion", "accent": "Financing gap, domestic sources fall short", "rows": [["Total investment need by 2070", 22.7], ["Financing gap, domestic sources fall short", 6.5]]},
+   "means": "NITI Aayog's own modelled estimate shows the Net Zero pathway needs outside finance on a large scale.",
+   "todo": "Secure cheaper external finance, as the CEO's five-step strategy proposes.",
+   "numbers": {"table": "T1"}},
+  {"h2": "Non-fossil capacity is already past the 2015 target and near the 2035 goal",
+   "chart": {"type": "bars", "title": "Non-fossil capacity reached 52.57% before the 60% target for 2035", "sub": "Share of installed power capacity, %.", "source": "Cabinet approval of India's NDC for 2031-2035, 25 March 2026; NITI Aayog.", "unit": "%", "accent": "Non-fossil capacity, February 2026", "rows": [["2015 NDC target, met early", 40], ["Non-fossil capacity, February 2026", 52.57], ["2035 NDC target", 60]]},
+   "means": "India has beaten its last capacity target early, which is the track record the new NDC relies on.",
+   "todo": "Keep the capacity build-out on pace, since coal still rises in absolute terms until 2047."},
+  {"h2": "Emissions intensity cut of 36% by 2020 is the base for a 47% cut by 2035",
+   "chart": {"type": "bars", "title": "The new 2035 target asks for 11 points more intensity cut than was achieved by 2020", "sub": "Reduction in GDP emissions intensity from a 2005 base, %.", "source": "Cabinet approval of India's NDC for 2031-2035, 25 March 2026.", "unit": "%", "accent": "2035 NDC target", "rows": [["Achieved by 2020", 36], ["2035 NDC target", 47]]},
+   "means": "The NDC raises the intensity ambition well above what India had already delivered.",
+   "todo": "Track intensity against the 47% goal each year, as the NDC's ahead-of-schedule record suggests."}
+ ],
+ "derived": {"11": "47-36"}}

@@ -1,0 +1,18 @@
+{"top": [["101 mn", " Indians have diabetes by the ICMR-INDIAB estimate, with 136 million more with prediabetes."], ["$28.4 mn", " of sucralose imported in FY26, up 49.3% in value and 71.0% in volume."], ["0", " Indian sucralose factories verified; most directory sellers list Chinese-made product."]],
+ "sections": [
+  {"h2": "About 101 million Indians have diabetes, and state rates differ widely",
+   "chart": {"type": "bars", "title": "Diabetes prevalence runs from 4.8% in Uttar Pradesh to 26.4% in Goa", "sub": "Share of people surveyed with diabetes, %.", "source": "ICMR-INDIAB, Lancet Diabetes & Endocrinology 2023, as reported in the press.", "unit": "%", "accent": "All India", "rows": [["Uttar Pradesh (lowest)", 4.8], ["All India", 11.4], ["Goa (highest)", 26.4]]},
+   "means": "The spread between states is wide, and the national figure is a projection from a survey run from 2008 to 2020.",
+   "todo": "Quote the ICMR-INDIAB figure with its survey dates and projection caveat, not the older claim about who uses intense sweeteners."},
+  {"h2": "Sucralose imports rose 49.3% in value in FY26 as the unit price fell",
+   "chart": {"type": "bars", "title": "Volume grew faster than value, so the unit price fell 12.4%", "sub": "Change on FY25 for sucralose imports under tariff line 29321400, %.", "source": "This blog's trade registry; customs data.", "unit": "%", "accent": "Volume", "rows": [["Value", 49.3], ["Volume", 71.0], ["Unit price", -12.4]]},
+   "means": "Sucralose is the one intense sweetener this blog's registry singles out, with a $27.7 mn trade deficit.",
+   "todo": "Confirm the saccharin, aspartame and acesulfame tariff lines against the Customs Tariff before quoting any import value.",
+   "numbers": {"table": "T1"}},
+  {"h2": "Most sugar demand comes from institutional buyers, not households",
+   "chart": {"type": "bars", "title": "Institutional buyers, mostly drinks makers, take 60-65% of sugar demand", "sub": "Share of Indian sugar demand, 2023-24, %.", "source": "ISMA, as reported in the post.", "unit": "%", "accent": "Institutional buyers", "rows": [["Institutional buyers", [60, 65]], ["Households", [35, 40]]]},
+   "means": "The sweetener question is as much about drinks makers and sweet shops as about the tabletop tablet.",
+   "todo": "Check any Indian sucralose seller's plant, licence and certificate of analysis before treating it as a manufacturer.",
+   "numbers": {"table": "T2"}}
+ ],
+ "derived": {}}
