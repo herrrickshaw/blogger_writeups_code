@@ -421,7 +421,7 @@ def main():
     A('<div class="topnav-index-link" style="font-size:.82em;margin:6px 0 14px">'
       '<a href="https://blog.vertistratsolution.com/2026/08/article-index-start-here.html" '
       'style="color:#0b5394;text-decoration:none">&#8592; All Articles (Index)</a></div>')
-    A('<p class="eyebrow">Masala Deutsch &middot; Article index</p>')
+    A('<p class="eyebrow">VertiStrat Insights &middot; Article index</p>')
     A('<h1>Every piece on this blog, three ways in</h1>')
     dates = sorted(p["published"] for p in posts.values() if p["published"])
     first, last = (dates[0], dates[-1]) if dates else ("", "")
