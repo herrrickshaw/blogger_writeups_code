@@ -1,0 +1,40 @@
+{
+ "top": [
+  ["$4.11–4.21/kg", " is what India's first competitively bid green hydrogen contracts (SIGHT) cost to produce, against a $1.50/kg target for 2030."],
+  ["$0.50/kg", " is roughly how much a 10% cut in the electricity price feeding an electrolyser lowers its hydrogen cost, per one industry overview."]
+ ],
+ "sections": [
+  {"h2": "India's SIGHT bids sit about 2.7 to 2.8 times the 2030 target",
+   "chart": {"type": "bars",
+             "title": "Both competitive bids are roughly 2.7 times the $1.50/kg 2030 target",
+             "sub": "Hydrogen production cost, $ per kg, plant gate.",
+             "source": "PIB press release on the National Green Hydrogen Mission; SIGHT bid prices as separately reported.",
+             "unit": "$/kg",
+             "accent": "SIGHT bid, IOCL",
+             "rows": [["NGHM 2030 target", 1.5], ["SIGHT bid, IOCL", 4.21], ["SIGHT bid, BPCL/HPCL refineries", 4.11]]},
+   "means": "Both bids for India's first green hydrogen supply contracts are above $4 per kg, roughly 2.7 times the mission's own 2030 cost target.",
+   "todo": "Read every headline India hydrogen price against the $1.50/kg target and state whether it is a plant-gate or a delivered figure.",
+   "numbers": {"table": "T1"}},
+  {"h2": "Electrolysers are projected to learn far more slowly than solar PV",
+   "chart": {"type": "bars",
+             "title": "Electrolysers' projected 16 to 21% learning rate trails solar's 36%",
+             "sub": "Learning rate: % cost decline each time cumulative deployment doubles.",
+             "source": "Industry masterclass on green hydrogen cost reduction, as cited in the post.",
+             "unit": "%",
+             "accent": "Electrolysers / fuel cells, projected",
+             "rows": [["Solar PV, last 10 years", 36], ["Electrolysers / fuel cells, projected", [16, 21]]]},
+   "means": "Electrolyser costs are expected to fall much more slowly per doubling of deployment than solar panel costs did, so closing the gap will take longer.",
+   "todo": "Set electrolyser cost targets on a 16 to 21% learning rate, not solar's 36%."},
+  {"h2": "Waiving open-access charges is the largest policy lever at $0.48/kg",
+   "chart": {"type": "bars",
+             "title": "Open-access waiver is the biggest of three levers in the CFLI target case",
+             "sub": "Reduction in hydrogen cost from each lever, $ per kg.",
+             "source": "CEEW and CFLI, Financing Green Hydrogen in India (2024), as cited in the post.",
+             "unit": "$/kg",
+             "accent": "Waive open-access charges",
+             "rows": [["Waive open-access charges", 0.48], ["Market-driven electrolyser cost cut", 0.41], ["Market-driven renewable cost cut", 0.21]]},
+   "means": "Waiving open-access charges is the largest single lever in the financiers' policy-plus-market stack, ahead of electrolyser and renewable cost reductions.",
+   "todo": "Prioritise open-access and power-cost measures in policy, since they move the cost most in the report's model."}
+ ],
+ "derived": {}
+}

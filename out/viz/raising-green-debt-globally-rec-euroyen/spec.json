@@ -1,0 +1,49 @@
+{
+ "top": [
+  ["About 13", " of the 25 economies with policy rates below India's have an offshore market deep enough for an Indian PSU or NBFC to price a benchmark."],
+  ["+7.0%", " is the rupee's change against the yen over 10 years, against -42.4% for the dollar and -44.7% for the euro."],
+  ["6bp", " greenium on the April 2026 sovereign green bond, the largest since January 2023, after the RBI rejected every bid at a 30-year green auction in June 2025."]
+ ],
+ "sections": [
+  {"h2": "Rate gap: 25 economies sit below India's repo rate, about 13 are reachable",
+   "chart": {"type": "bars", "title": "The 13 reachable currencies show gaps from 0.90 to 5.50 points against India",
+             "sub": "Policy-rate gap against India's 5.50% repo, percentage points, 26 October 2026; economies marked as an issuance currency for an Indian PSU or NBFC.",
+             "source": "Central bank releases; BIS policy rate statistics.",
+             "unit": " pp", "accent": "Switzerland",
+             "table": {"id": "T3", "label": 0, "value": 2, "rows": [0, 2, 3, 4, 5, 7, 10, 11, 15, 17, 18, 21, 24], "sort": "desc"}},
+   "means": "Covered interest parity means the hedge costs about what the cheap coupon saves, which is why hedged yen landed below 7% rather than near 3%.",
+   "todo": "Harvest the gap only where an issuer can leave part of it unhedged against matching foreign-currency cash flows, or where hedging is subsidised or partly waived.",
+   "numbers": {"table": "T3"}},
+  {"h2": "Rupee over 10 years: -42.4% vs dollar, -44.7% vs euro, +7.0% vs yen",
+   "chart": {"type": "bars", "title": "Ten years: rupee down 42.4% vs dollar, down 44.7% vs euro, up 7.0% vs yen",
+             "sub": "Rupee change against the borrowed currency, %, July 2016 to October 2026; negative means the rupee weakened.",
+             "source": "RBI Reference Rate Archive; yfinance monthly closes.",
+             "unit": "%", "accent": "Yen",
+             "rows": [["Dollar", -42.4], ["Euro", -44.7], ["Yen", 7.0]]},
+   "means": "An unhedged dollar or euro borrower repaid more rupees every year on the principal alone, while a yen borrower over the past decade repaid roughly the same or fewer.",
+   "todo": "Choose the currency for the investor base and the hedge economics, and treat any unhedged FX gain as luck, not strategy.",
+   "numbers": {"table": "T4"}},
+  {"h2": "Sovereign greenium: 6bp in April 2026 after the RBI rejected every bid in June 2025",
+   "chart": {"type": "flow", "title": "The sovereign green label stopped paying in 2024-25 and paid again in 2026",
+             "events": [
+              ["Jan 2023", "India's sovereign debut priced 5-6bp inside conventional G-secs"],
+              ["Nov 2024", "₹1,502 cr accepted of ₹5,000 cr offered"],
+              ["Jun 2025", "The RBI rejected every bid at a 30-year green auction"],
+              ["Apr 2026", "The 7.50% GOI SGrB 2056 sold at a 6bp greenium, the largest since January 2023", true],
+              ["Aug 2026", "Reopened with ₹5,000 crore notified for 14 August; greenium reported at about 4bp, not checked against the RBI result"],
+              ["Oct 2026", "Reopened again with ₹3,000 crore notified for 1 October"]
+             ]},
+   "means": "The sovereign programme now shows that the label pays when supply is kept short, with ₹15,000 crore of 30-year green tranches of ₹3,000 crore in the October 2026 to March 2027 calendar.",
+   "todo": "When the label stops paying, the correct response is issuance discipline rather than label inflation."},
+  {"h2": "Rating gap: Japan is 3 notches above India on Fitch's scale, Switzerland 7",
+   "chart": {"type": "bars", "title": "Japan and China are 3 notches above India; the six AAA economies are 7 above",
+             "sub": "Notches above India on Fitch's 21-notch long-term scale, illustrative.",
+             "source": "S&P Global, Moody's and Fitch sovereign rating pages, August 2026.",
+             "unit": " notches", "accent": ["Japan", "China"],
+             "table": {"id": "T8", "label": 0, "value": 4, "rows": "0-9", "sort": "desc"}},
+   "means": "The economies with the cheapest funding are rated well above India, so their institutional investors have room to hold BBB- rated foreign paper.",
+   "todo": "A single-notch downgrade at Fitch or Moody's would push REC, PFC and EXIM out of many minimum-rating mandates, so debt trajectory is the metric to watch.",
+   "numbers": {"table": "T8"}}
+ ],
+ "derived": {"13": "count: 13 economies marked Yes in the issuance-currency column of T3", "6": "count: six AAA economies in T8 at 7 notches"}
+}
