@@ -1,0 +1,729 @@
+<div class="gs-head-order" style="display:flex;flex-direction:column">
+<p style="order:4" class="dek">India's record grain targets are the "nature" story — sown area, monsoon, yield. The fertiliser supply chain that actually delivers them is the "nurture" — engineered, imported, gas-priced, and increasingly exposed to events thousands of kilometres from any Indian field.</p>
+<div class="topnav-index-link" style="order:1;font-size:.82em;margin:6px 0 14px"><a href="https://blog.vertistratsolution.com/2026/08/article-index-start-here.html" style="color:#0b5394;text-decoration:none">← All Articles (Index)</a></div>
+<h1 style="order:3">India's fertiliser-fed food security: demand forecast, import bill and gas grid</h1>
+</div>
+
+<a href="#" id="gs-skip-link" class="gs-skip-link" style="position:absolute;left:-9999px;top:auto;background:#1a1a1a;color:#fff;padding:.6rem 1rem;z-index:1000;border-radius:4px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.85rem">Skip to article content</a>
+<style>.gs-skip-link:focus{left:8px!important;top:8px!important}
+.gs-a11y-bar{display:flex;align-items:center;gap:.55rem;flex-wrap:wrap;background:#f4f5f7;border:1px solid #dfe3e8;border-radius:8px;padding:.55rem .8rem;margin:10px 0 16px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
+.gs-a11y-bar .gs-a11y-label{font-size:.68rem;font-weight:700;letter-spacing:.08em;color:#666;text-transform:uppercase;margin-right:.15rem}
+.gs-a11y-bar button{cursor:pointer;border:1px solid #c7cbd1;background:#fff;color:#1a1a1a;border-radius:5px;padding:.32rem .65rem;font-family:inherit;line-height:1}
+.gs-a11y-bar button.gs-a11y-fs{font-weight:700;min-width:2rem;text-align:center}
+.gs-a11y-bar button.gs-a11y-fs[data-size="sm"]{font-size:.8rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="md"]{font-size:1rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="lg"]{font-size:1.2rem}
+.gs-a11y-bar button.gs-a11y-fs[aria-pressed="true"]{background:#1a1a1a;color:#fff;border-color:#1a1a1a}
+.gs-a11y-bar button:hover{border-color:#8a4b08}
+.gs-a11y-bar button:focus-visible{outline:2px solid #8a4b08;outline-offset:1px}
+.gs-a11y-bar .gs-a11y-sep{width:1px;align-self:stretch;background:#dfe3e8;margin:0 .1rem}</style>
+<div class="gs-a11y-bar" role="group" aria-label="Accessibility controls">
+<span class="gs-a11y-label">Text Size</span>
+<button type="button" class="gs-a11y-fs" data-size="sm" aria-pressed="false" aria-label="Small text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="md" aria-pressed="true" aria-label="Medium text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="lg" aria-pressed="false" aria-label="Large text">A</button>
+<span class="gs-a11y-sep"></span>
+<button type="button" id="gs-a11y-listen" aria-label="Read this article aloud">&#128266; Listen</button>
+<button type="button" id="gs-a11y-stop" aria-label="Stop reading aloud">&#9632; Stop</button>
+</div>
+<script>(function(){
+var KEY='gs-a11y-fontsize', SIZES={sm:'0.92',md:'1',lg:'1.15'};
+function pb(){return document.querySelector('.post-body')||document.querySelector('.artx,.mdrx');}
+function apply(sz){
+  var el=pb(); if(!el||!SIZES[sz]) return;
+  el.style.fontSize=SIZES[sz]+'em';
+  var btns=document.querySelectorAll('.gs-a11y-fs');
+  for(var i=0;i<btns.length;i++){
+    var on=btns[i].getAttribute('data-size')===sz;
+    btns[i].setAttribute('aria-pressed', on?'true':'false');
+  }
+  try{localStorage.setItem(KEY,sz);}catch(e){}
+}
+var fsBtns=document.querySelectorAll('.gs-a11y-fs');
+for(var j=0;j<fsBtns.length;j++){
+  fsBtns[j].addEventListener('click',(function(b){return function(){apply(b.getAttribute('data-size'));};})(fsBtns[j]));
+}
+var saved; try{saved=localStorage.getItem(KEY);}catch(e){}
+apply(saved&&SIZES[saved]?saved:'md');
+
+var listenBtn=document.getElementById('gs-a11y-listen'), stopBtn=document.getElementById('gs-a11y-stop');
+if(listenBtn){
+  listenBtn.addEventListener('click', function(){
+    if(!('speechSynthesis' in window)){ alert('Text-to-speech is not supported in this browser.'); return; }
+    window.speechSynthesis.cancel();
+    var src=pb(); if(!src) return;
+    var clone=src.cloneNode(true);
+    var strip=clone.querySelectorAll('script,style,svg');
+    for(var k=0;k<strip.length;k++){ strip[k].parentNode.removeChild(strip[k]); }
+    var text=clone.textContent.replace(/\s+/g,' ').trim();
+    if(!text) return;
+    var chunks=text.match(/[\s\S]{1,180}(?:[.!?]|$)/g)||[text];
+    var idx=0;
+    function speakNext(){
+      if(idx>=chunks.length) return;
+      var u=new SpeechSynthesisUtterance(chunks[idx]);
+      u.onend=function(){ idx++; speakNext(); };
+      window.speechSynthesis.speak(u);
+    }
+    speakNext();
+  });
+}
+if(stopBtn){
+  stopBtn.addEventListener('click', function(){
+    if('speechSynthesis' in window) window.speechSynthesis.cancel();
+  });
+}
+var skip=document.getElementById('gs-skip-link');
+if(skip){
+  skip.addEventListener('click', function(ev){
+    ev.preventDefault();
+    var h=document.querySelector('.post-body h1')||document.querySelector('.artx h1,.mdrx h1,h1');
+    if(h){ h.setAttribute('tabindex','-1'); h.focus(); h.scrollIntoView(); }
+  });
+}
+})();</script>
+<style>.goog-te-menu-frame{max-width:340px!important;max-height:70vh!important;overflow:auto!important;box-shadow:0 6px 24px rgba(0,0,0,.25)!important}</style><div id="google_translate_element" style="margin:8px 0 16px;"></div><script type="text/javascript">function googleTranslateElementInit(){new google.translate.TranslateElement({pageLanguage:"en",includedLanguages:"hi,bn,ta,te,mr,gu,kn,ml,pa,or,as,ur,sa,ne,sd",layout:google.translate.TranslateElement.InlineLayout.SIMPLE,autoDisplay:false},"google_translate_element");}</script><script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+<div class="artx">
+<style scoped>
+.artx{background:#ffffff;color:#000000;font-family:Georgia,'Times New Roman',serif;line-height:1.6;max-width:760px;margin:0 auto;padding:0 4px;}
+.artx h1{font-size:1.9em;line-height:1.25;margin:0 0 8px;color:#000;}
+.artx h2{font-size:1.35em;line-height:1.3;margin:36px 0 10px;color:#000;border-bottom:2px solid #000;padding-bottom:4px;}
+.artx h3{font-size:1.1em;margin:22px 0 6px;color:#000;}
+.artx p{margin:0 0 14px;color:#000;}
+.artx .dek{font-size:1.1em;font-style:italic;margin:0 0 20px;color:#000;}
+.artx .byline{font-size:0.9em;margin:0 0 24px;color:#000;}
+.artx a{color:#000;text-decoration:underline;}
+.artx a:hover{text-decoration:none;}
+.artx table{width:100%;border-collapse:collapse;margin:14px 0 20px;font-size:0.95em;}
+.artx th,.artx td{border:1px solid #000;padding:7px 9px;text-align:left;vertical-align:top;color:#000;}
+.artx th{background:#000;color:#fff;}
+.artx .verdict{border:2px solid #000;padding:12px 16px;margin:16px 0 22px;font-weight:bold;}
+.artx .callout{border-left:4px solid #000;padding:8px 14px;margin:14px 0 20px;background:#f2f2f2;}
+.artx blockquote{border-left:4px solid #000;margin:14px 0 20px;padding:4px 14px;font-style:italic;background:#f2f2f2;}
+.artx .sources{font-size:0.9em;}
+.artx .sources li{margin-bottom:6px;color:#000;}
+.artx hr{border:none;border-top:1px solid #000;margin:30px 0;}
+.artx .disclaimer{font-size:0.85em;font-style:italic;border-top:1px solid #000;padding-top:12px;margin-top:34px;}
+.artx ul,.artx ol{margin:0 0 14px;padding-left:22px;color:#000;}
+.artx li{margin-bottom:4px;}
+.artx strong{color:#000;}
+.artx th,.artx td{word-wrap:break-word;overflow-wrap:break-word;word-break:break-word;}
+
+/*gs-table-v1 — scoped to .post-body, not .artx: several posts use other
+  wrapper classes (.tblwrap among them) and an .artx-scoped rule silently did
+  nothing on them. Verified on a canary post before the batch. */
+.post-body .tw{overflow-x:auto;margin:1.1rem 0}
+/* display:block makes the table its OWN scroller, so it works whether or not
+   the post wrapped it in .tw — several posts use .tblwrap or nothing, and a
+   width:auto table with no scroller pushes the whole page sideways. */
+.post-body table{display:block;overflow-x:auto;max-width:100%;width:max-content;
+ min-width:100%;border-collapse:collapse;font-size:.86rem}
+.post-body thead th,.post-body tr:first-child th{background:#111;color:#fff;font-weight:700;
+ text-align:right;vertical-align:bottom;padding:.6rem .7rem;border:1px solid #111;
+ white-space:normal;overflow-wrap:normal;word-break:keep-all;min-width:5.5rem}
+.post-body thead th:first-child,.post-body tr:first-child th:first-child{text-align:left}
+.post-body td{border:1px solid #d9d9d9;padding:.5rem .7rem;text-align:right;
+ font-variant-numeric:tabular-nums;white-space:nowrap;color:#111;background:#fff}
+.post-body td:first-child{text-align:left;white-space:normal;min-width:8rem}
+.post-body tbody tr:nth-child(even) td{background:#fafafa}
+</style>
+
+
+
+
+<p class="byline">Thinking global, living local — an independent strategic briefing, July 2026</p>
+
+<figure style="margin:1.6rem 0">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Agricultural_drone_spraying_on_paddy_field.jpg/960px-Agricultural_drone_spraying_on_paddy_field.jpg" alt="An agricultural drone spraying over a green paddy field" loading="lazy" style="width:100%;height:auto;border-radius:6px;display:block"/>
+<figcaption class="gb-note" style="margin-top:.4rem">Fertiliser and agrochemical application in an Indian field. <a href="https://commons.wikimedia.org/wiki/File:Agricultural_drone_spraying_on_paddy_field.jpg" rel="noopener noreferrer">Agricultural drone spraying on paddy field.jpg</a>, Shreesha Sharma, CC BY-SA 4.0, via Wikimedia Commons.</figcaption>
+</figure>
+<div class="warn" style="border-left:4px solid #a5402c;background:rgba(165,64,44,.07);padding:.8em 1em;margin:1.2em 0;border-radius:4px"><b>Updated 22 October 2026.</b> This post cites a 2025-26 foodgrain target of 362.5 MT and a 2024-25 record of 353.96 MT. The Ministry of Agriculture's Third Advance Estimates for 2025-26, released in late May 2026, put output at a record 376.56 MT, above the target, with wheat at 120.66 MT. The same release revised 2024-25 to 357.73 MT. The demand-floor argument below is unchanged. The post also quotes a warning that China could tighten urea exports after August 2026. That had not happened by September. Trade press (Fertilizer Daily, citing Profercy and Bloomberg) reported lowest offers of about $390&ndash;394/t cfr in RCF's August 2026 urea tender, with China expected to supply at least 1.2 MT. That is below the $419/t used here as the cycle's cheapest. On this piece's own formula, the gas-price crossover would fall from about $10.3 to about $9.3/MMBtu. Final award prices were not confirmed. Sources: <a href="https://desagri.gov.in/wp-content/uploads/2026/06/Time-Series-3rd-AE-2025-26-English.pdf">Agriculture Ministry estimates</a>, <a href="https://www.fertilizerdaily.com/20260807-india-rcf-urea-tender-1-7-million-tonnes-august-2026/">Fertilizer Daily (August)</a>, <a href="https://www.fertilizerdaily.com/20260907-china-urea-india-tender-1-2-million-tonnes-2026/">Fertilizer Daily (September)</a>. <i>The original text below is unchanged.</i></div>
+<h2>Nature Versus Nurture, Applied to a Harvest</h2>
+<p>The nature-versus-nurture question is usually asked about people: how much of who we are is innate, and how much is shaped by what is done to us? India's foodgrain economy poses the same question every season, and the answer is more lopsided than the record-breaking headlines suggest.</p>
+
+<p>The "nature" side is real. The Ministry of Agriculture & Farmers Welfare has set a foodgrain production target of <strong>362.5 million tonnes (MT)</strong> for FY 2025–26, building on a record FY 2024–25 in which India achieved 353.96 MT — 12.41 MT ahead of that year's own target. Rice, wheat and Kharif cereals are all printing record or near-record numbers. Read on its own, this looks like a story about soil, seed and monsoon — biology doing what biology does, at scale.</p>
+<p>But none of it happens on nature's terms alone. Every additional tonne of rice, wheat or maize is a direct claim on fertiliser — nitrogen, phosphate, potash — and that fertiliser is, structurally and increasingly, an imported, gas-priced, policy-engineered input. This is the "nurture" side: not organic to the land, but manufactured, shipped, subsidised and rationed by decisions made inside the Fertiliser Association of India, GAIL, PNGRB and the Ministry of Chemicals & Fertilisers. Government policy has gone further and made this explicit — it has directed that fertiliser demand arising from higher sown area be "fully met," which removes fertiliser availability as a constraint on the production target and shifts the entire burden of supply risk onto procurement: imports, domestic production, and the subsidy budget that bridges the two.</p>
+<p>What follows is a full, sourced accounting of that nurture side — where India's fertiliser actually comes from, what it costs when a real geopolitical shock hits the supply chain, and what it would take, physically, to rely on it less.</p>
+
+<div class="verdict">Five findings anchor this briefing:
+<ul style="margin-top:10px;">
+<li><strong>Import dependence is rising, not falling.</strong> Urea imports were up 120% y/y in Apr–Nov FY25–26 even as the government completed six revived mega-plants; DAP import-dependence rose from 56% to 67% in the same period.</li>
+<li><strong>The Hormuz shock proved the exposure, then reversed.</strong> Urea tender prices went from $419/t (Nov-25) to $959/t (Apr-26) and back to $447/t (Jun-26) inside roughly seven months — a swing larger than India's entire annual subsidy planning buffer.</li>
+<li><strong>Domestic production is cheaper — but only below ~$10.3/MMBtu gas.</strong> At APM gas pricing ($7/MMBtu), modelled domestic urea cost (~$320/t) undercuts every import tender of this cycle. At crisis-level spot LNG (~$20/MMBtu), domestic cost (~$710/t) is cheaper only against the April peak, not the cheaper tenders either side of it.</li>
+<li><strong>GAIL sits at the centre of both routine and crisis allocation.</strong> The same Pool Fund mechanism that has uniformly priced gas to 27 urea plants since 2015 was repurposed in March 2026 to manage real-time diversion under the Gas Supply Regulation Order.</li>
+<li><strong>38 plants, 9 LNG terminals, one grid.</strong> FAI's own plant-location and gas-pipeline maps show the full physical footprint linking India's nitrogenous fertiliser plants to Mundra, Dahej, Hazira, Dabhol, Kochi, Ennore, Haldia, Dhamra and Paradeep — a single network through which any future Hormuz-style shock will transmit.</li>
+</ul>
+</div>
+<p>Two further findings, developed later in this briefing, complete the picture: eliminating urea imports entirely would strain the very LNG terminals that reach fertiliser plants, and the case for new regasification capacity is overdetermined — city-gas distribution and petrochemicals alone account for most of the growth that will require it.</p>
+
+<h2>1. The Growth Mandate: Crop Production Targets</h2>
+<h3>1.1 Foodgrain Targets and Achievement</h3>
+<table>
+<tr><th>Metric</th><th>Figure (MT)</th><th>Period</th></tr>
+<tr><td>Foodgrain production target</td><td>362.5</td><td>FY 2025–26</td></tr>
+<tr><td>Foodgrain production achieved</td><td>353.96</td><td>FY 2024–25 (record)</td></tr>
+<tr><td>Outperformance vs. prior year's target</td><td>+12.41</td><td>FY 2024–25</td></tr>
+<tr><td>Rice production</td><td>151.84</td><td>FY 2024–25 (record, +12.4 MT y/y)</td></tr>
+<tr><td>Wheat production</td><td>120.21</td><td>2nd advance estimate, 2025–26 (record)</td></tr>
+<tr><td>Maize / coarse cereals (Kharif)</td><td>41.41</td><td>1st advance estimate, FY 2025–26</td></tr>
+<tr><td>Total Kharif foodgrain</td><td>173.33</td><td>+3.87 MT y/y</td></tr>
+</table>
+<p style="font-size:0.85em;">Source: Ministry of Agriculture & Farmers Welfare; Press Information Bureau (PIB) crop production releases, 2025–26.</p>
+
+<h3>1.2 The Policy Commitment Behind the Numbers</h3>
+<p>Because the government has committed to fully meeting fertiliser demand regardless of import cost, the 362.5 MT target functions as a demand floor for nitrogen, phosphate and potash fertilisers — independent of global price swings. It is not a forecast that can flex downward if import prices spike; it is only a cost that the subsidy budget must absorb. This is the nature-versus-nurture asymmetry in one sentence: the "nature" target is fixed, so the "nurture" input must bend to meet it, whatever the price.</p>
+
+<h3>1.3 Kharif 2026 Demand Reassessment</h3>
+<p>As the cropping season progressed, the government revised its Kharif 2026 fertiliser requirement downward, reflecting El Niño-related weather concerns and a below-normal monsoon forecast.</p>
+<table>
+<tr><th>Nutrient</th><th>Revised requirement, MT</th><th>Earlier estimate (MT)</th></tr>
+<tr><td>Total Kharif 2026 fertiliser requirement</td><td>38.39</td><td>39.05</td></tr>
+<tr><td>Urea</td><td>19.03 (−1.9%)</td><td>19.40</td></tr>
+<tr><td>DAP</td><td>5.62 (−4.9%)</td><td>5.91</td></tr>
+</table>
+<figure style="margin:1.5rem 0 1.75rem;text-align:center">
+<svg role="img" style="width:100%;height:auto;max-width:700px;display:block;margin:0 auto" viewBox="0 0 700 340" xmlns="http://www.w3.org/2000/svg" font-family="Georgia,'Times New Roman',serif">
+<rect x="0" y="0" width="700" height="340" fill="#f8f9fa"/>
+<text x="350" y="30" text-anchor="middle" font-size="17" font-weight="700" fill="#212529">Kharif 2026 Requirement, Revised Down</text>
+<text x="350" y="49" text-anchor="middle" font-size="12" fill="#495057">Million tonnes &#8212; earlier estimate vs. revised requirement</text>
+
+<line x1="230" y1="76" x2="230" y2="300" stroke="#212529" stroke-width="1.5"/>
+
+<text x="225" y="98" text-anchor="end" font-size="12" fill="#212529">Total requirement</text>
+<rect x="235" y="82" width="238" height="18" fill="#868e96"/><text x="478" y="96" font-size="11" fill="#868e96">39.05</text>
+<rect x="235" y="102" width="234" height="18" fill="#0b5794"/><text x="474" y="116" font-size="11" font-weight="700" fill="#212529">38.39</text>
+
+<text x="225" y="150" text-anchor="end" font-size="12" fill="#212529">Urea</text>
+<rect x="235" y="134" width="118" height="18" fill="#868e96"/><text x="358" y="148" font-size="11" fill="#868e96">19.40</text>
+<rect x="235" y="154" width="116" height="18" fill="#0b5794"/><text x="356" y="168" font-size="11" font-weight="700" fill="#212529">19.03 (&#8722;1.9%)</text>
+
+<text x="225" y="202" text-anchor="end" font-size="12" fill="#212529">DAP</text>
+<rect x="235" y="186" width="36" height="18" fill="#868e96"/><text x="276" y="200" font-size="11" fill="#868e96">5.91</text>
+<rect x="235" y="206" width="34" height="18" fill="#c0392b"/><text x="274" y="220" font-size="11" font-weight="700" fill="#212529">5.62 (&#8722;4.9%)</text>
+
+<rect x="235" y="250" width="12" height="12" fill="#868e96"/><text x="252" y="260" font-size="11" fill="#212529">Earlier estimate</text>
+<rect x="395" y="250" width="12" height="12" fill="#0b5794"/><text x="412" y="260" font-size="11" fill="#212529">Revised requirement</text>
+
+<text x="350" y="300" text-anchor="middle" font-size="10" fill="#868e96">Source: Ministry of Agriculture &amp; Farmers Welfare, Kharif 2026 reassessment</text>
+</svg>
+<figcaption style="font-size:.8em;color:#868e96;font-family:-apple-system,'Segoe UI',sans-serif;margin-top:.5rem">A below-normal monsoon forecast cut DAP's requirement nearly 2.5x as much as urea's, in percentage terms.</figcaption>
+</figure>
+<p style="font-size:0.85em;">Source: Business Standard, "India scales down kharif 2026 fertiliser requirement to 38.39 mn tonnes," 1 June 2026, citing government officials. The IMD's second-stage 2026 monsoon forecast was lowered to 90% of the Long Period Average from 92%, which would make 2026 India's driest monsoon in over a decade if realised.</p>
+<p>Separately, government officials confirmed that approximately 13.24 million tonnes of fertiliser have been added to total availability through imports and domestic production since the West Asia crisis began — including roughly 2.5 MT of urea, 1.5 MT of DAP, and 1 MT of NPKS secured via tenders for June–July delivery, plus an additional global tender of 1.7 MT of urea in progress as of early June 2026.</p>
+
+<h2>2. Fertiliser Demand Forecast and Supply Scenario</h2>
+<h3>2.1 Sales Hold Firm as Domestic Output Dips</h3>
+<table>
+<tr><th>Nutrient</th><th>FY24–25 (Apr–Nov) (MT)</th><th>FY25–26 (Apr–Nov) (MT)</th><th>Change, %</th></tr>
+<tr><td>Urea sales</td><td>24.83</td><td>25.40</td><td>+2.3</td></tr>
+<tr><td>Urea domestic output</td><td>—</td><td>19.75</td><td>−3.7</td></tr>
+<tr><td>DAP sales</td><td>7.19</td><td>7.12</td><td>−1.0</td></tr>
+<tr><td>DAP domestic output</td><td>—</td><td>2.68</td><td>−5.2</td></tr>
+<tr><td>NP/NPK complex sales</td><td>—</td><td>10.38</td><td>+0.1</td></tr>
+<tr><td>MOP (potash) sales</td><td>—</td><td>1.55</td><td>+8.6</td></tr>
+</table>
+<p style="font-size:0.85em;">Source: Department of Fertilizers; Fertiliser Association of India (FAI) sales bulletins, Apr–Nov FY 2025–26.</p>
+<p>The entire incremental demand from record cropping is being filled by imports, not new domestic capacity: urea sales rose 2.3% while domestic urea output fell 3.7% over the same window.</p>
+
+<h3>2.2 Imports Are Now Structural, Not a Buffer</h3>
+<blockquote>"Imports are structural, not supplementary," said Dr Suresh Kumar Chaudhari, Director General of the Fertiliser Association of India.</blockquote>
+<table>
+<tr><th>Nutrient</th><th>Domestic output, MT</th><th>Imports</th><th>Import growth y/y</th></tr>
+<tr><td>Urea</td><td>19.75 (−3.7%)</td><td>7.17 MT</td><td>+120%</td></tr>
+<tr><td>DAP</td><td>2.68 (−5.2%)</td><td>67% import-dependent</td><td>up from 56%</td></tr>
+<tr><td>NPK Complex</td><td>8.15 (+13.8%)</td><td>still rising</td><td>+98.7%</td></tr>
+<tr><td>MOP (Potash)</td><td>0 — no domestic reserves</td><td>100% imported</td><td>1.55 MT sold, +8.6%</td></tr>
+</table>
+<p style="font-size:0.85em;">Source: Department of Fertilizers; Fertiliser Association of India; Ministry of Commerce trade data.</p>
+
+<h3>2.3 The DAP Sourcing Pivot: China Out, Saudi Arabia In</h3>
+<ul>
+<li>China's DAP exports to India fell from 22.28 lakh tonnes (LMT) in FY 2023–24 to 8.47 LMT in FY 2024–25, as Beijing prioritised export curbs to protect domestic farmer access.</li>
+<li>Saudi Arabia's Maaden signed five-year supply agreements with Indian Potash Limited (IPL), KRIBHCO, and Coromandel International Ltd (CIL) for 3.1 million tonnes of DAP annually from FY 2025–26.</li>
+<li>China's fertiliser exports to India nonetheless recorded a sharp rebound: a 173% year-on-year increase in FY 2025–26, reaching 5.02 million tonnes — even as Russia grew to become India's single largest fertiliser supplier at 6.8 million tonnes (up from 4.9 MT in FY 2024–25). The two countries now dominate India's import sourcing.</li>
+</ul>
+<p style="font-size:0.85em;">Source: Argus Media; Maritime Gateway, "India Fertiliser Imports Surge 173% from China in FY26," 18 May 2026, citing Ministry of Commerce data.</p>
+
+<h3>2.4 Why DAP Is India's Most Exposed Nutrient</h3>
+<table>
+<tr><th>Input</th><th>Import dependence, %</th><th>Why it matters</th></tr>
+<tr><td>Rock phosphate</td><td>86</td><td>No domestic substitute at scale</td></tr>
+<tr><td>Ammonia</td><td>75</td><td>Second key DAP input</td></tr>
+<tr><td>Sulphur and phosphoric acid</td><td>>50</td><td>Remaining processing inputs</td></tr>
+</table>
+<p style="font-size:0.85em;">Source: National Standing Committee on Chemicals & Fertilisers; Department of Fertilizers.</p>
+<p>Domestic DAP output fell 5.2% to 2.68 MT (Apr–Nov 2025) even as sales held at 7.12 MT — a gap that only imports can close, and one that explains why DAP's import-dependence ratio (67%, up from 56% the prior year) is rising faster than any other major nutrient category.</p>
+
+<h2>3. Global Pricing: What India's Own Tenders Reveal</h2>
+<h3>3.1 The Urea Tender Trajectory</h3>
+<table>
+<tr><th>Tender</th><th>Buyer</th><th>Price (USD/t cfr)</th><th>Context</th></tr>
+<tr><td>20 Nov 2025</td><td>IPL</td><td>$418.40 (EC) / $419.90 (WC)</td><td>Pre-crisis baseline</td></tr>
+<tr><td>Mid-Feb 2026</td><td>RCF</td><td>~$500–510</td><td>Early conflict premium building</td></tr>
+<tr><td>23 Apr 2026</td><td>IPL</td><td>$935 (WC) / $959 (EC)</td><td>Crisis peak — offers totalled 5.6 MT vs. 2.5 MT sought, most bids near $1,000, high bid $1,136</td></tr>
+<tr><td>10 Jun 2026</td><td>NFL</td><td>$445–449</td><td>China resumed urea exports; price crashed &gt;50% from April level</td></tr>
+</table>
+<p style="font-size:0.85em;">Source: Argus Media, "Lowest urea offer at $418.40/t cfr EC to India's IPL" (20 Nov 2025); "India eyes $2.64bn urea award as tender lifts global fob values to four year highs" (17 Apr 2026), Profercy; StoneX Market Intelligence (16 Apr 2026); Chemical Industry Digest (25 Apr 2026); Business Standard, "India's last urea tender quotes price 50% lower than Apr as China opens up" (10 Jun 2026); BusinessToday (24 Apr 2026).</p>
+<figure style="margin:1.5rem 0 1.75rem;text-align:center">
+<svg role="img" style="width:100%;height:auto;max-width:700px;display:block;margin:0 auto" viewBox="0 0 700 380" xmlns="http://www.w3.org/2000/svg" font-family="Georgia,'Times New Roman',serif">
+<rect x="0" y="0" width="700" height="380" fill="#f8f9fa"/>
+<text x="350" y="30" text-anchor="middle" font-size="17" font-weight="700" fill="#212529">India's Urea Tender Whiplash</text>
+<text x="350" y="49" text-anchor="middle" font-size="12" fill="#495057">USD/tonne cfr, successive tenders</text>
+
+<line x1="70" y1="310" x2="630" y2="310" stroke="#212529" stroke-width="1.5"/>
+
+<rect x="110" y="252" width="90" height="58" fill="#0b5794"/>
+<text x="155" y="242" text-anchor="middle" font-size="13" font-weight="700" fill="#212529">~$419</text>
+<text x="155" y="326" text-anchor="middle" font-size="10.5" fill="#212529">20 Nov 2025</text>
+<text x="155" y="340" text-anchor="middle" font-size="10" fill="#868e96">Pre-crisis baseline</text>
+
+<rect x="250" y="223" width="90" height="87" fill="#0b5794"/>
+<text x="295" y="213" text-anchor="middle" font-size="13" font-weight="700" fill="#212529">~$505</text>
+<text x="295" y="326" text-anchor="middle" font-size="10.5" fill="#212529">Mid-Feb 2026</text>
+<text x="295" y="340" text-anchor="middle" font-size="10" fill="#868e96">Conflict premium building</text>
+
+<rect x="390" y="80" width="90" height="230" fill="#c0392b"/>
+<text x="435" y="70" text-anchor="middle" font-size="13" font-weight="700" fill="#212529">~$947</text>
+<text x="435" y="326" text-anchor="middle" font-size="10.5" fill="#212529">23 Apr 2026</text>
+<text x="435" y="340" text-anchor="middle" font-size="10" fill="#c0392b" font-weight="700">Crisis peak</text>
+
+<rect x="530" y="255" width="90" height="55" fill="#1a8f4c"/>
+<text x="575" y="245" text-anchor="middle" font-size="13" font-weight="700" fill="#212529">~$447</text>
+<text x="575" y="326" text-anchor="middle" font-size="10.5" fill="#212529">10 Jun 2026</text>
+<text x="575" y="340" text-anchor="middle" font-size="10" fill="#1a8f4c" font-weight="700">China resumes exports</text>
+
+<text x="350" y="364" text-anchor="middle" font-size="10" fill="#868e96">Source: Argus Media, Profercy, StoneX, Chemical Industry Digest, Business Standard, BusinessToday</text>
+</svg>
+<figcaption style="font-size:.8em;color:#868e96;font-family:-apple-system,'Segoe UI',sans-serif;margin-top:.5rem">More than doubling in five months, then crashing over 50% in seven weeks &mdash; the same tender mechanism both ways.</figcaption>
+</figure>
+<p>The April tender result illustrates tender mechanics: under standard practice, all participating suppliers are required to match the lowest accepted bid level for their respective coast, so India secured its full 2.5 MT target at the floor price of the qualifying range ($935/$959) despite headline offers running as high as $1,136/t.</p>
+
+<h3>3.2 The DAP Price Trajectory</h3>
+<ul>
+<li>Hindustan Urvarak and Rasayan (HURL) bought 50,000t of DAP at $809/t cfr in a tender closing 18 August 2025 — already an elevated level by historical standards.</li>
+<li>A consortium import tender on behalf of eight Indian companies subsequently settled DAP at $935/t cfr (east coast) and $930/t cfr (west coast), alongside TSP at $710/t cfr, with the Argus-assessed netback implying $880s/t fob Morocco for DAP.</li>
+<li>Gulf DAP prices in Southeast Asia firmed to $800–850/t cfr by 19 March 2026, up from $730–750/t cfr on 26 February — the day before the conflict began.</li>
+</ul>
+<p style="font-size:0.85em;">Source: Argus Media, "India's Hurl awards DAP tender at $809/t cfr"; "India buys Moroccan DAP, TSP" (2 Jun 2026); Hui Xuan Lek, Argus Media tender reporting on Southeast Asian DAP benchmarks.</p>
+
+<h3>3.3 What Drove the Spike — and the Reversal</h3>
+<p><strong>Drivers of the spike:</strong></p>
+<ul>
+<li><strong>Hormuz closure:</strong> the Mideast Gulf ships approximately 21 million tonnes/year of urea export capacity (around 35% of global seaborne urea trade), including Iran, Qatar and Saudi Arabia; the strait's closure blocked this overnight.</li>
+<li><strong>Freight and insurance:</strong> war-risk premiums pushed Gulf-to-India freight up 476% in two months, from $16–18/t (26 Feb) to $92–104/t reflecting additional toll payments for safe passage by 30 April.</li>
+<li><strong>Sulphur squeeze:</strong> Adnoc's official selling price (OSP) for sulphur to the Indian subcontinent rose $160/t in a single month (April to May 2026) to $760/t fob Ruwais, implying a delivered cost of $855–859/t cfr India before insurance.</li>
+</ul>
+<p><strong>The reversal:</strong> China's decision to resume urea exports — having restricted them since March 2026 to protect domestic farmer access — crashed India's next tender 53% below the April award. The National Fertilisers Limited (NFL) tender of 10 June 2026 quoted bids as low as $445–449/t cfr, with traders noting that a large share of east-coast supply would likely come from China given geographic proximity. One senior industry official cautioned that the comfortable pricing window "may remain comfortable until August 2026, after which China could again start imposing stringent curbs."</p>
+<p style="font-size:0.85em;">Source: Argus Media tender and price reporting; Business Standard, "India's last urea tender quotes price 50% lower than Apr as China opens up," 10 June 2026.</p>
+<div class="callout"><strong>The whiplash is the real story.</strong> Pricing power swung from $419/t to $959/t and back to $447/t inside roughly seven months — driven not by India's own demand fundamentals but by a single exporter's (China's) policy decision and a geopolitical event thousands of kilometres away. Any cost-benefit analysis of domestic production versus imports has to account for this volatility, not just a single snapshot price.</div>
+
+<h2>4. The Import Bill, Subsidy Spend, and the Make-vs-Buy Cost Model</h2>
+<h3>4.1 The Scale of the Import Bill</h3>
+<table>
+<tr><th>Metric</th><th>Figure</th><th>Period</th></tr>
+<tr><td>Urea imports</td><td>7.17 MT (+120% y/y)</td><td>Apr–Nov FY25–26</td></tr>
+<tr><td>Urea imports (extended window)</td><td>89.30 LMT</td><td>FY25–26 Apr–Jan, vs. 48.70 LMT prior year</td></tr>
+<tr><td>DAP imports (extended window)</td><td>60.16 LMT</td><td>FY25–26 Apr–Jan, vs. 43.09 LMT prior year</td></tr>
+<tr><td>India's net fertiliser trade deficit</td><td>$7.7 billion</td><td>2024, all nutrient categories</td></tr>
+</table>
+<p style="font-size:0.85em;">Source: Department of Fertilizers; UN COMTRADE database via Trading Economics; Fertiliser Association of India.</p>
+
+<h3>4.2 The Subsidy Budget</h3>
+<p>India's FY 2026–27 fertiliser subsidy budget stands at <strong>₹1.71 lakh crore (~$18.65 billion)</strong>, split between two mechanisms:</p>
+<ul>
+<li><strong>Urea subsidy:</strong> ₹1.168 lakh crore, delivered through fixed pricing under the New Pricing Scheme (NPS) / New Investment Policy (NIP).</li>
+<li><strong>Nutrient-Based Subsidy (NBS) for P&amp;K fertilisers:</strong> ₹0.54 lakh crore, covering DAP, MOP and complex fertilisers at a concessional rate.</li>
+</ul>
+<p>This dual architecture reflects different production and import-dependency profiles: urea retains majority domestic production with import top-up, while P&amp;K fertilisers (especially MOP) are overwhelmingly import-sourced. The FY 2025–26 phosphate import subsidy ran 24% over budget due to DAP price volatility, with the price trajectory moving from $648.50/t in April 2025 to a peak of $810/t in August before partially normalising to the high $660s/t by February 2026.</p>
+<p style="font-size:0.85em;">Source: Union Budget documents, Notes on Demands for Grants 2026–2027, Department of Fertilisers; Discovery Alert, "India Fertilizer Subsidy Budget Rs 1.71 Trillion FY27," 2 February 2026.</p>
+
+<h3>4.3 Why the Bill Keeps Rising</h3>
+<ul>
+<li><strong>China swing:</strong> fertiliser imports from China surged 173% y/y to 5.02 MT in FY 2025–26, even as Russia grew to 6.8 MT — the two now dominate India's sourcing mix, concentrating exposure in two relationships.</li>
+<li><strong>Tender-to-tender swings:</strong> the same urea that cost India $959/t cfr in April 2026 settled at $445–449/t cfr just seven weeks later once China reopened exports.</li>
+<li><strong>Forward risk:</strong> if landed import costs stay structurally elevated, industry trackers (Indian Fertilizer News) flag the subsidy bill potentially doubling toward ₹3.4 lakh crore in FY 2026–27 — nearly double the currently budgeted ₹1.71 lakh crore.</li>
+</ul>
+<p style="font-size:0.85em;">Source: Indianfertilizer.com news aggregation; Maritime Gateway; Argus Media tender reporting.</p>
+
+<h3>4.4 Make vs. Buy: A Domestic Production Cost Model</h3>
+<p><strong>Methodology:</strong> gas consumption per tonne of urea runs approximately 28–32 MMBtu (this briefing uses the midpoint, 30 MMBtu/tonne); natural gas typically accounts for 60–80% of total urea production cost, with each $1/MMBtu change in gas price moving urea production cost by roughly $20–30/tonne. A non-gas cost component of approximately $110/tonne is assumed for operating expenditure and capital cost recovery, derived as a residual consistent with publicly reported total production costs at known historical gas price points.</p>
+<p style="font-size:0.85em;">Source: Fertilizer Daily, "Friday's Insider: What are the costs of India's urea self-sufficiency," 14 June 2024; Farmonaut, "Urea Fertilizer Price India 2025"; IMARC Group / CF Industries cost-structure references.</p>
+
+<table>
+<tr><th>Gas price scenario</th><th>Feedstock gas price, mmbtu US$/MMBtu</th><th>Modelled domestic cost, tonne US$/tonne</th></tr>
+<tr><td>APM gas (regulated, legacy fields)</td><td>7</td><td>~ 320</td></tr>
+<tr><td>Pooled gas (historical NIP entry point)</td><td>9</td><td>~ 380</td></tr>
+<tr><td>NIP-2012 pricing ceiling</td><td>14</td><td>~ 530</td></tr>
+<tr><td>Crisis-level spot LNG (Mar–Apr 2026 peak)</td><td>~ 20</td><td>~ 710</td></tr>
+</table>
+<p style="font-size:0.85em;">Source: Author's calculation: (Gas price × 30 MMBtu/tonne) + $110/tonne non-gas cost. APM price per PSU Watch / Angel One reporting on the March 2026 APM gas price revision to $7/mmBtu; NIP-2012 ceiling per Department of Fertilizers Urea Pricing Policy documentation; crisis spot LNG level per Energy News Monitor (ORF) reporting.</p>
+
+<p>Comparing the modelled domestic-cost curve against the actual tender prices in Section 3 identifies a <strong>crossover at approximately $10.3/MMBtu</strong> delivered gas price, solving (gas price × 30 MMBtu/tonne) + $110/tonne against the cheapest tender of this cycle, $419/t (Nov-25). Below that, modelled domestic production undercuts every import tender India executed this cycle, including the post-China-reopening low of $447/t. Above it, imports at pre-crisis prices ($419–510/t) begin to beat domestic production on cost alone. At the APM price of $7/MMBtu, modelled domestic urea (~$320/t) is cheaper than every recorded import tender this cycle by between $127/tonne (vs. the cheapest, June 2026) and $627/tonne (vs. the costliest, April 2026 peak). Scaled to India's typical urea import volume of 6–10 million tonnes/year, this implies a notional savings range of roughly <strong>$0.8–6.3 billion</strong>, depending on which import price is used as the counterfactual.</p>
+<p class="callout"><strong>Caveat:</strong> this is a simplified feedstock-cost model, not a full plant profit-and-loss statement. It excludes freight and bagging costs on the import side, and brownfield-versus-greenfield capital expenditure differences on the domestic side. It illustrates order of magnitude and directionality — not a precise unit-economics figure for any individual plant or transaction.</p>
+
+<h2>5. Fertiliser Plants and the National Gas Grid</h2>
+<h3>5.1 The Full Plant Index</h3>
+<p>FAI's "Location of Straight Nitrogenous Fertiliser Plants (Urea, AS &amp; ACI)" map identifies 38 plants across 19 states.</p>
+<table>
+<tr><th>State</th><th>Plants</th></tr>
+<tr><td>Gujarat</td><td>Bharuch, Vadodara area (×3), Kalol, Hazira (5 plants)</td></tr>
+<tr><td>Uttar Pradesh</td><td>Panki, Aonla, Phulpur, Jagdishpur, Shahjahanpur, Babrala, Gorakhpur (7 plants)</td></tr>
+<tr><td>Tamil Nadu</td><td>Manali (Chennai), Tuticorin (×2) (3 plants)</td></tr>
+<tr><td>West Bengal</td><td>Burnpur-Kulti, Panagarh, Durgapur (3 plants)</td></tr>
+<tr><td>Andhra Pradesh</td><td>Kakinada, Visakhapatnam (2 plants)</td></tr>
+<tr><td>Punjab</td><td>Nangal, Bhatinda (2 plants)</td></tr>
+<tr><td>Rajasthan</td><td>Kota (2 plants)</td></tr>
+<tr><td>Jharkhand</td><td>Sindri, Bokaro (2 plants)</td></tr>
+<tr><td>Maharashtra</td><td>Trombay, Thal Vaishet (2 plants)</td></tr>
+<tr><td>Bihar</td><td>Barauni</td></tr>
+<tr><td>Assam</td><td>Namrup</td></tr>
+<tr><td>Goa</td><td>Zuari Nagar</td></tr>
+<tr><td>Haryana</td><td>Panipat</td></tr>
+<tr><td>Karnataka</td><td>Mangalore</td></tr>
+<tr><td>Kerala</td><td>Udyogamandal</td></tr>
+<tr><td>Chhattisgarh</td><td>Bhilai</td></tr>
+<tr><td>Madhya Pradesh</td><td>Vijaipur</td></tr>
+<tr><td>Odisha</td><td>Rourkela</td></tr>
+<tr><td>Telangana</td><td>Ramagundam</td></tr>
+</table>
+<p style="font-size:0.85em;">Source: Fertiliser Association of India, "Location of Straight Nitrogenous Fertiliser Plants (Urea, AS & ACI), as on 1-11-2024."</p>
+
+<h3>5.2 Regional Clusters and Pipeline / LNG Linkage</h3>
+<table>
+<tr><th>Cluster</th><th>Pipeline / LNG linkage</th></tr>
+<tr><td>Gujarat cluster (5)</td><td>Kalol, Vadodara, Bharuch, Hazira — fed by Mundra, Dahej and Hazira LNG terminals</td></tr>
+<tr><td>UP belt (7)</td><td>Panki, Phulpur, Jagdishpur, Gorakhpur, Aonla, Babrala, Shahjahanpur — HBJ trunk plus the Haldia spur</td></tr>
+<tr><td>Punjab / Haryana (3)</td><td>Nangal, Bhatinda, Panipat — HBJ trunk spur</td></tr>
+<tr><td>Jharkhand / Bihar (3)</td><td>Sindri, Bokaro, Barauni — Dhamra / Paradeep approved spur</td></tr>
+<tr><td>West Bengal (3)</td><td>Panagarh, Durgapur, Burnpur-Kulti — Haldia / Dhamra LNG</td></tr>
+<tr><td>Andhra Pradesh / Telangana (3)</td><td>Kakinada, Visakhapatnam, Ramagundam — east coast trunk pipeline</td></tr>
+<tr><td>Tamil Nadu / Kerala / Karnataka (5)</td><td>Manali, Tuticorin (2), Mangalore, Udyogamandal — Kochi and Ennore LNG</td></tr>
+<tr><td>Maharashtra / Goa (3)</td><td>Trombay, Thal Vaishet, Zuari Nagar — Dabhol and Hazira LNG</td></tr>
+<tr><td>Rajasthan / MP / Chhattisgarh / Odisha (5)</td><td>Kota (2), Vijaipur, Bhilai, Rourkela — Paradeep / HBJ corridor</td></tr>
+<tr><td>Assam (1)</td><td>Namrup — Indradhanush Gas Grid (Northeast)</td></tr>
+</table>
+<p style="font-size:0.85em;">Source: Fertiliser Association of India, "Gas Pipeline Network and Location of Urea Plants," sourced by FAI from PNGRB, GAIL, IGX, RGTIL and GSPL. FAI's map notes that "the pipeline network and LNG terminals are indicative only."</p>
+
+<h3>5.3 LNG Terminals Serving the Fertiliser Sector</h3>
+<p>FAI's gas-pipeline map identifies nine LNG terminals as coastal entry points feeding this network: <strong>Mundra, Dahej, Hazira, Dabhol, Kochi, Ennore, Haldia, Dhamra, and Paradeep.</strong> Each anchors a distinct regional cluster of plants, meaning a disruption at any single terminal has a geographically concentrated impact rather than an evenly distributed national one.</p>
+
+<h3>5.4 The DAP / Complex Fertiliser Plant Map</h3>
+<p>FAI separately publishes a map of 20 DAP and complex fertiliser plants — a distinct dataset from the 38 straight-nitrogenous plants above — including Visakhapatnam, Kakinada, Paradeep, Haldia, Kandla, Sikka, Taloja, Sagar, Meghnagar, Udyogamandal, Zuari Nagar, Mangalore, Tuticorin, Manali/Ennore, Cochin, Vadodara, and Bharuch. FAI also publishes a separate SSP/TSP plant map showing more than 100 numbered locations nationally.</p>
+<p style="font-size:0.85em;">Source: Fertiliser Association of India, FAI Statistics and Maps portal, faidelhi.org/statistics/maps.</p>
+
+<h2>6. Gas Demand, GAIL, and the Allocation Mechanism</h2>
+<h3>6.1 PNGRB's Fertiliser-Sector Gas Demand Forecast</h3>
+<table>
+<tr><th>Sector</th><th>FY 2023–24, mmscmd</th><th>2030 (GtG), mmscmd</th><th>2040 (GtG), mmscmd</th></tr>
+<tr><td>Fertiliser</td><td>58</td><td>65.3</td><td>72.9</td></tr>
+<tr><td>City Gas Distribution (CGD)</td><td>37</td><td>87</td><td>—</td></tr>
+<tr><td>Refineries / Petrochemicals</td><td>22</td><td>43.3</td><td>—</td></tr>
+<tr><td>Power</td><td>25.2</td><td>35.7</td><td>—</td></tr>
+</table>
+<figure style="margin:1.5rem 0 1.75rem;text-align:center">
+<svg role="img" style="width:100%;height:auto;max-width:700px;display:block;margin:0 auto" viewBox="0 0 700 380" xmlns="http://www.w3.org/2000/svg" font-family="Georgia,'Times New Roman',serif">
+<rect x="0" y="0" width="700" height="380" fill="#f8f9fa"/>
+<text x="350" y="30" text-anchor="middle" font-size="17" font-weight="700" fill="#212529">Gas Demand by Sector: FY24 vs. 2030</text>
+<text x="350" y="49" text-anchor="middle" font-size="12" fill="#495057">mmscmd, PNGRB "Good-to-Go" scenario</text>
+
+<line x1="60" y1="300" x2="650" y2="300" stroke="#212529" stroke-width="1.5"/>
+<line x1="60" y1="80" x2="60" y2="300" stroke="#212529" stroke-width="1.5"/>
+
+<rect x="100" y="190" width="30" height="110" fill="#0b5794"/><text x="115" y="180" text-anchor="middle" font-size="11" font-weight="700" fill="#212529">58</text>
+<rect x="132" y="176" width="30" height="124" fill="#1a8f4c"/><text x="147" y="166" text-anchor="middle" font-size="11" font-weight="700" fill="#212529">65.3</text>
+<text x="146" y="316" text-anchor="middle" font-size="11" fill="#212529">Fertiliser</text>
+
+<rect x="220" y="230" width="30" height="70" fill="#0b5794"/><text x="235" y="220" text-anchor="middle" font-size="11" font-weight="700" fill="#212529">37</text>
+<rect x="252" y="135" width="30" height="165" fill="#1a8f4c"/><text x="267" y="125" text-anchor="middle" font-size="11" font-weight="700" fill="#212529">87</text>
+<text x="266" y="316" text-anchor="middle" font-size="11" fill="#212529">City Gas (CGD)</text>
+
+<rect x="360" y="258" width="30" height="42" fill="#0b5794"/><text x="375" y="248" text-anchor="middle" font-size="11" font-weight="700" fill="#212529">22</text>
+<rect x="392" y="217" width="30" height="83" fill="#1a8f4c"/><text x="407" y="207" text-anchor="middle" font-size="11" font-weight="700" fill="#212529">43.3</text>
+<text x="406" y="316" text-anchor="middle" font-size="11" fill="#212529">Refineries</text>
+
+<rect x="480" y="252" width="30" height="48" fill="#0b5794"/><text x="495" y="242" text-anchor="middle" font-size="11" font-weight="700" fill="#212529">25.2</text>
+<rect x="512" y="232" width="30" height="68" fill="#1a8f4c"/><text x="527" y="222" text-anchor="middle" font-size="11" font-weight="700" fill="#212529">35.7</text>
+<text x="526" y="316" text-anchor="middle" font-size="11" fill="#212529">Power</text>
+
+<rect x="230" y="340" width="12" height="12" fill="#0b5794"/><text x="247" y="350" font-size="11" fill="#212529">FY23-24</text>
+<rect x="380" y="340" width="12" height="12" fill="#1a8f4c"/><text x="397" y="350" font-size="11" fill="#212529">2030 (Good-to-Go)</text>
+
+<text x="350" y="368" text-anchor="middle" font-size="10" fill="#868e96">Source: PNGRB, Natural Gas Demand Projections 2030/2040</text>
+</svg>
+<figcaption style="font-size:.8em;color:#868e96;font-family:-apple-system,'Segoe UI',sans-serif;margin-top:.5rem">City Gas Distribution is projected to grow fastest of the four sectors &mdash; more than doubling by 2030 while fertiliser demand grows modestly.</figcaption>
+</figure>
+<p style="font-size:0.85em;">Source: Petroleum and Natural Gas Regulatory Board (PNGRB), "Natural Gas Demand Projections 2030/2040," Good-to-Go scenario.</p>
+<p>Fertiliser was India's single largest gas-consuming sector in FY 2023–24 at 58 mmscmd. PNGRB's central finding is that CGD overtakes fertiliser to become the largest consumer by 2030 (~87 mmscmd) — fertiliser drops from rank #1 to #2 even as its absolute demand keeps growing. PNGRB attributes fertiliser's comparatively modest growth trajectory to the fact that "no new fertilizer plant" on the natural-gas route "is coming up soon"; the one major addition, Talcher, uses coal gasification instead. Fertiliser-sector gas demand grew at just 3.4% CAGR from 2015–16 to 2023–24 — the slowest-growing major demand segment apart from refineries.</p>
+
+<h3>6.2 GAIL and the National Priority Order</h3>
+<p>GAIL sits at the operational centre of India's fertiliser-sector gas supply: as the dominant transmission pipeline operator (16,420 km, more than 70% national market share); as the entity managing diversion and allocation under crisis conditions; and as a part-owner of new urea capacity (31.85% equity in Talcher Fertilizers Ltd).</p>
+<table>
+<tr><th>Tier</th><th>Category</th><th>Allocation</th></tr>
+<tr><td>1</td><td>Domestic PNG, CNG transport, LPG production & pipeline fuel</td><td>100%</td></tr>
+<tr><td>2</td><td>Fertiliser plants</td><td>70% → 95%</td></tr>
+<tr><td>3</td><td>Tea industry, manufacturing & other grid-connected industrial consumers</td><td>80%</td></tr>
+<tr><td>4</td><td>Petrochemicals (incl. GAIL's Pata complex) & power plants</td><td>Cut first</td></tr>
+</table>
+<p style="font-size:0.85em;">Source: Natural Gas (Supply Regulation) Order, 2026, issued under the Essential Commodities Act; PIB notifications, March 2026.</p>
+<p><strong>Timeline:</strong> 3 March 2026, Petronet invoked force majeure on Hormuz-transiting LNG cargoes. 6 March 2026, GNFC's gas allocation from GAIL was cut to 60% of contracted quantity. 11 April 2026, government enhanced fertiliser-plant gas allocation by a further five percentage points to approximately 95% of six-month average consumption. 22–23 June 2026, following the US-Iran de-escalation MoU signed 17 June, eleven India-bound merchant vessels crossed the Strait of Hormuz — the first major resumption of commercial traffic since the conflict began; four carried approximately 0.18 million tonnes of fertilisers and fertiliser inputs, including roughly 92,250 tonnes of urea, scheduled to berth at Krishnapatnam, Kakinada, Paradeep and Mundra.</p>
+<p style="font-size:0.85em;">Source: Business Standard, "Four India-bound ships with 0.18 mn tonnes of fertilisers clear Hormuz," 22 June 2026; India.com, citing External Affairs Ministry spokesperson Randhir Jaiswal and National Security Advisor Ajit Doval.</p>
+<p>India's total fertiliser sales in the post-crisis window (1 March–21 June 2026) reached 13.36 million tonnes, comprising 7.9 MT of urea, 3.48 MT of NPKS and 1.98 MT of DAP. Domestic production over the same window rose to 13.31 MT, matched by approximately 4.36 MT of imports; combined with the latest 1.77 MT global tender, India has tied up roughly 9 MT of urea and complexes since the crisis began.</p>
+
+<h3>6.3 The GAIL-Operated Gas Pool: How Uniform Pricing Works</h3>
+<p>Since a Ministry of Petroleum & Natural Gas notification dated 20 May 2015, GAIL has operated a routine "Pool Fund" mechanism for gas-based urea plants, in five steps:</p>
+<ol>
+<li><strong>Department of Fertilisers</strong> determines total national gas requirement and a plant-wise allocation list across all 27 gas-based urea units.</li>
+<li><strong>Empowered Pool Management Committee</strong> (Ministry of Petroleum & Natural Gas, Department of Fertilisers, Department of Expenditure, GAIL) approves plant-wise supply quantities.</li>
+<li><strong>GAIL as Pool Operator</strong> sources domestic APM/HPHT gas first, then tops up with long-term or spot RLNG.</li>
+<li><strong>Pooled price declared</strong> — GAIL averages domestic and imported cost components into one uniform delivered price applied to every plant, regardless of its actual domestic/imported mix.</li>
+<li><strong>PPAC settlement</strong> — the gap between the pooled price and each plant's actual contract price flows through a Pool Fund Account, certified by the Petroleum Planning & Analysis Cell.</li>
+</ol>
+<p style="font-size:0.85em;">Source: GAIL ebank Fertiliser Price Pool portal, implementing the MoP&NG notification dated 20.05.2015.</p>
+<p>Pooling gave every gas-based urea plant the same input cost — a design change credited with directly enabling the operational revival of the Gorakhpur, Barauni and Sindri plants. Under the 2026 Gas Supply Regulation Order, GAIL again sits at the centre of the mechanism, but manages real-time diversion of gas from non-priority sectors to fertiliser, submitting diverted-gas invoice prices to PPAC, which notifies a pooled price for the redirected volumes — the same operator, the same pooling logic, repurposed for emergency redistribution.</p>
+
+<h3>6.4 The Indian Gas Exchange (IGX): A Spot Market Under Strain</h3>
+<table>
+<tr><th>FY22</th><th>FY23</th><th>FY24</th><th>FY25 / FY26</th></tr>
+<tr><td>19 mn MMBtu</td><td>30 mn MMBtu</td><td>47 mn MMBtu</td><td>60 / 76.8 mn MMBtu</td></tr>
+</table>
+<p style="font-size:0.85em;">Source: IGX annual trading data; 41.7% CAGR FY22–FY26. FY26 total was a record 76.8 million MMBtu (~1,935 MMSCM), up 28% y/y, across 1,924 trades.</p>
+<p>March 2026 — the first full month of the West Asia crisis — saw IGX monthly volume fall 11% month-on-month and 8% year-on-year to 4.8 million MMBtu, not because of weak demand but because the priority-sector order pulled domestic HPHT gas into administered allocation. Of the March volume that did trade, 93% was domestic HPHT gas transacted at the regulatory ceiling price of $8.9/MMBtu and routed to priority sectors including fertiliser; only 7% represented genuine free-market gas. NSE and IGX are jointly developing India's first domestic natural gas futures contract, benchmarked to the GIXI index, explicitly intended to let fertiliser producers hedge this volatility.</p>
+
+<h2>7. Capacity, Expansion, and the Path Forward</h2>
+<h3>7.1 The Revived and New Urea Mega-Plants</h3>
+<table>
+<tr><th>Plant</th><th>State</th><th>Capacity, LMTPA</th><th>Status</th></tr>
+<tr><td>Ramagundam</td><td>Telangana</td><td>12.7</td><td>Operational (RFCL)</td></tr>
+<tr><td>Gorakhpur</td><td>Uttar Pradesh</td><td>12.7</td><td>Operational (HURL)</td></tr>
+<tr><td>Sindri</td><td>Jharkhand</td><td>12.7</td><td>Operational (HURL)</td></tr>
+<tr><td>Barauni</td><td>Bihar</td><td>12.7</td><td>Operational (HURL)</td></tr>
+<tr><td>Panagarh</td><td>West Bengal</td><td>12.7</td><td>Operational (Matix, private)</td></tr>
+<tr><td>Gadepan-III</td><td>Rajasthan</td><td>12.7</td><td>Operational (Chambal, private)</td></tr>
+<tr><td>Talcher</td><td>Odisha</td><td>12.7</td><td>Under construction — coal gasification route, targeted June 2027</td></tr>
+</table>
+<p style="font-size:0.85em;">Source: Department of Fertilizers; GAIL Annual Report (31.85% GAIL equity stake in Talcher Fertilizers Ltd).</p>
+<p>Combined, these additions represent +76.2 LMTPA of added capacity since 2014–15, taking reassessed national urea capacity from 207.54 LMTPA to 283.74 LMTPA. Talcher is strategically distinct: it runs on coal gasification rather than natural gas, directly reducing gas-import volatility for this increment of capacity — though it has faced repeated delays (COVID-19, contractor issues with China's WECL) and now targets mechanical completion by June 2027, against an original 2024 target. A parallel Assam project at Namrup involves an approximately ₹11,000 crore investment for another 12.7 LMTPA brownfield ammonia-urea complex, with its foundation stone laid in December 2025.</p>
+
+<h3>7.2 Geographic Concentration of Production</h3>
+<p>Despite the geographic spread of the 38-plant network, plants are concentrated in a handful of states: <strong>Uttar Pradesh</strong> holds 7 of the 38 (Panki, Aonla, Phulpur, Jagdishpur, Shahjahanpur, Babrala, Gorakhpur), <strong>Gujarat</strong> 5 &mdash; benefiting from direct port access via Kandla &mdash; and <strong>Tamil Nadu</strong> 3, together more than a third of the national network. These figures are plant counts, not capacity tonnages — the FAI map does not publish per-state capacity, and the national total is 283.74 LMTPA across all 38 plants.</p>
+
+<h3>7.3 Beyond Urea: Phosphatic and Potassic Expansion</h3>
+<ul>
+<li>59.65 LMT of new DAP/NPK capacity being set up under the NBS scheme.</li>
+<li>44.21 LMT of phosphoric and sulphuric acid capacity being added alongside it.</li>
+<li>7.24 LMT of green ammonia earmarked for fertiliser production under the National Green Hydrogen Mission.</li>
+</ul>
+<p style="font-size:0.85em;">Source: Department of Fertilizers; Ministry of New and Renewable Energy, National Green Hydrogen Mission documentation.</p>
+
+<h3>7.4 Path Forward: Four Priorities</h3>
+<ol>
+<li><strong>Lock in firm LNG</strong> — long-term, fixed-price contracts ring-fenced for fertiliser feedstock to insulate plant-level gas allocation from spot-market and Hormuz-transit shocks.</li>
+<li><strong>Accelerate the coal-route urea model</strong> — pushing Talcher to its June 2027 target and replicating coal gasification at future greenfield sites would sidestep the $10.3/MMBtu crossover risk entirely for that capacity.</li>
+<li><strong>Diversify P&amp;K raw material sourcing</strong> — beyond the Saudi Arabia (Maaden) relationship, into Morocco, Jordan, and Canada/Belarus, ideally through equity stakes rather than offtake-only agreements.</li>
+<li><strong>Build strategic gas storage</strong> — developing the 3–4 billion cubic metre (bcm) underground storage capacity already under feasibility study by the Ministry of Petroleum & Natural Gas, GAIL, ONGC and Oil India.</li>
+</ol>
+
+<h2>8. A 100% Import-Substitution Scenario</h2>
+<p>This section models a deliberately extreme scenario — India eliminates finished urea (and proportionally, DAP) imports entirely and instead meets that demand through additional domestic production fed by imported LNG — to quantify both the incremental gas volume required and whether India's physical LNG regasification infrastructure has the headroom to absorb it.</p>
+
+<h3>8.1–8.2 Volume to Substitute and Incremental Gas Demand</h3>
+<table>
+<tr><th>Scenario</th><th>Urea volume to substitute, MT/year</th><th>Urea (mmscmd)</th><th>DAP (mmscmd)</th><th>Total incremental demand, mmscmd</th></tr>
+<tr><td>Low</td><td>6</td><td>13.7</td><td>4.3</td><td>18.0</td></tr>
+<tr><td>Central</td><td>9</td><td>20.6</td><td>4.3</td><td>24.9</td></tr>
+<tr><td>High (crisis-annualised)</td><td>10.75</td><td>24.5</td><td>4.3</td><td>28.8</td></tr>
+</table>
+<p style="font-size:0.85em;">Source: Author's calculation. Gas-to-urea intensity: 30 MMBtu/tonne. DAP gas intensity via ammonia route: ~0.22 tonne ammonia/tonne DAP × 36 MMBtu/tonne ammonia ≈ 7.9 MMBtu/tonne DAP, applied to the 67% import-dependent share of annualised DAP sales (~7.16 MT/year). MMBtu-to-MMSCM conversion of 36,000 MMBtu/MMSCM.</p>
+<p>Layered onto PNGRB's existing fertiliser-sector gas demand baseline of 58 mmscmd (FY 2023–24), this scenario would push total fertiliser-sector gas demand to between 76 and 87 mmscmd — a 31–50% increase, achieved entirely through import substitution rather than organic demand growth. Critically, "zero urea imports" does not mean zero import dependence: the same tonnes previously imported as finished urea are instead imported as LNG. This substitution is a net financial saving only when delivered gas costs less than approximately $10.3/MMBtu.</p>
+
+<h3>8.3 Mapping Incremental Demand Against Installed Regas Capacity</h3>
+<p>India's eight operational onshore LNG terminals had a combined installed regasification capacity of 52.7 MMTPA — approximately 190 mmscmd — as of mid-2025, running at a national average utilisation of approximately 44–50%.</p>
+<table>
+<tr><th>Terminal</th><th>Capacity (mmscmd)</th><th>Utilisation (%)</th><th>Used (mmscmd)</th><th>Spare (mmscmd)</th></tr>
+<tr><td>Dahej (PLL)</td><td>63.1</td><td>89.9</td><td>56.7</td><td>6.4</td></tr>
+<tr><td>Hazira (Shell)</td><td>18.7</td><td>31.5</td><td>5.9</td><td>12.8</td></tr>
+<tr><td>Dabhol (GAIL/Konkan)</td><td>18.0</td><td>41.5</td><td>7.5</td><td>10.5</td></tr>
+<tr><td>Mundra (GSPC)</td><td>18.0</td><td>12.6</td><td>2.3</td><td>15.8</td></tr>
+<tr><td>Kochi (PLL)</td><td>18.0</td><td>20.6</td><td>3.7</td><td>14.3</td></tr>
+<tr><td>Ennore (IOCL)</td><td>18.0</td><td>17.8</td><td>3.2</td><td>14.8</td></tr>
+<tr><td>Dhamra (Adani Total)</td><td>18.0</td><td>25.0</td><td>4.5</td><td>13.5</td></tr>
+<tr><td>Chhara (HPCL)</td><td>18.0</td><td>4.0</td><td>0.7</td><td>17.3</td></tr>
+<tr><td><strong>NATIONAL TOTAL</strong></td><td><strong>190.0</strong></td><td><strong>44.5</strong></td><td><strong>84.5</strong></td><td><strong>105.5</strong></td></tr>
+</table>
+<p style="font-size:0.85em;">Source: Indian Infrastructure, "Exploring Alternatives: Developments in the LNG and green hydrogen segments," as of 1 July 2025, cross-checked against PNGRB, "Optimising LNG Supplies from Terminals in India," December 2024, and LNG Journal terminal throughput reporting.</p>
+
+<h3>8.4 Why National Aggregate Headroom Overstates Real Availability</h3>
+<p>On a simple national basis, the 105.5 mmscmd of aggregate spare regas capacity appears to comfortably absorb even the high-end 28.8 mmscmd incremental demand from full import substitution. But this is misleading, because spare capacity is heavily concentrated at terminals poorly connected to the fertiliser plant clusters mapped in Section 5:</p>
+<ul>
+<li><strong>High-connectivity spare capacity (Dahej + Hazira): 19.2 mmscmd.</strong> These Gujarat-coast terminals feed the Gujarat plant cluster directly and connect via the HBJ trunk pipeline to the UP belt and Punjab/Haryana plants. But Dahej is already running at 89.9% utilisation, leaving only 6.4 mmscmd spare there.</li>
+<li><strong>Medium-connectivity spare capacity (adds Dabhol + Mundra): a further 41.1 mmscmd.</strong> Mundra has substantial spare capacity (15.8 mmscmd, only 12.6% utilised) but has historically restricted third-party access.</li>
+<li><strong>Low-connectivity / effectively stranded spare capacity: 45.1 mmscmd.</strong> Kochi and Ennore serve the southern cluster in relative isolation. Dhamra sits on a corridor PNGRB explicitly describes as "commercially stranded" due to incomplete pipeline network build-out. Chhara, commissioned only in 2024, has minimal pipeline integration so far.</li>
+</ul>
+<p style="font-size:0.85em;">Source: PNGRB, "Optimising LNG Supplies from Terminals in India," December 2024.</p>
+
+<h3>8.5 Headroom Check by Scenario</h3>
+<table>
+<tr><th>Scenario (incremental demand), mmscmd</th><th>vs. high-connectivity spare (19.2 mmscmd), %</th><th>vs. high + medium spare (60.3 mmscmd), %</th><th>vs. all national spare (105.5 mmscmd), %</th></tr>
+<tr><td>Low (18.0)</td><td>94 — tight</td><td>30 — fits comfortably</td><td>17 — fits comfortably</td></tr>
+<tr><td>Central (24.9)</td><td>130 — EXCEEDS</td><td>41 — fits comfortably</td><td>24 — fits comfortably</td></tr>
+<tr><td>High (28.8)</td><td>150 — EXCEEDS</td><td>48 — fits comfortably</td><td>27 — fits comfortably</td></tr>
+</table>
+<div class="verdict">Under the central and high substitution scenarios, incremental demand exceeds the spare capacity at the two terminals (Dahej, Hazira) actually well-connected to India's main fertiliser plant clusters. Even the low scenario consumes 94% of that readily usable headroom.</div>
+
+<h3>8.6 Additional Regas Capacity Is a Precondition, Not an Option</h3>
+<p>A full or near-full substitution of urea and proportionate DAP imports with domestically-produced, LNG-fed output would require: completing pipeline connectivity from the east-coast terminals (Dhamra in particular) to the Jharkhand/Bihar/West Bengal plant cluster; resolving third-party access constraints at Mundra, which alone holds 15.8 mmscmd of spare capacity on the same coast as the already-saturated Dahej terminal; and treating any further capacity additions (Gopalpur, expansions at Dahej and Dabhol, the planned Jaigarh and Jafrabad FSRUs) as fertiliser-sector-relevant infrastructure decisions, not simply aggregate national capacity.</p>
+
+<h2>9. Annual Savings Across Pricing Scenarios, and the CGD/Petrochemical Context</h2>
+<h3>9.1 Annual Savings Sensitivity Matrix</h3>
+<table>
+<tr><th>Gas price → domestic cost</th><th>vs. $419/t (Nov-25)</th><th>vs. $447/t (Jun-26)</th><th>vs. $510/t (Feb-26)</th><th>vs. $959/t (Apr-26)</th></tr>
+<tr><td>APM $7 → $320/t</td><td>+$99/t</td><td>+$127/t</td><td>+$190/t</td><td>+$639/t</td></tr>
+<tr><td>Pooled $9 → $380/t</td><td>+$39/t</td><td>+$67/t</td><td>+$130/t</td><td>+$579/t</td></tr>
+<tr><td>NIP ceiling $14 → $530/t</td><td>−$111/t</td><td>−$83/t</td><td>−$20/t</td><td>+$429/t</td></tr>
+<tr><td>Crisis spot $20 → $710/t</td><td>−$291/t</td><td>−$263/t</td><td>−$200/t</td><td>+$249/t</td></tr>
+</table>
+<p style="font-size:0.85em;">Source: Author's calculation, methodology per Section 4.4.1–4.4.2. Positive values = domestic LNG-fed production saves money relative to that import price; negative = it costs more.</p>
+
+<table>
+<tr><th>Gas price scenario</th><th>vs. $419/t, US$ bn</th><th>vs. $447/t, US$ bn</th><th>vs. $510/t, US$ bn</th><th>vs. $959/t, US$ bn</th></tr>
+<tr><td>APM ($7/MMBtu)</td><td>+0.89</td><td>+1.14</td><td>+1.71</td><td>+5.75</td></tr>
+<tr><td>Pooled ($9/MMBtu)</td><td>+0.35</td><td>+0.60</td><td>+1.17</td><td>+5.21</td></tr>
+<tr><td>NIP ceiling ($14/MMBtu)</td><td>−1.00</td><td>−0.75</td><td>−0.18</td><td>+3.86</td></tr>
+<tr><td>Crisis spot ($20/MMBtu)</td><td>−2.62</td><td>−2.37</td><td>−1.80</td><td>+2.24</td></tr>
+</table>
+<p style="font-size:0.85em;">Source: Author's calculation: per-tonne saving × 9 million tonnes/year (central displacement volume, Section 8.1).</p>
+<p>Sixteen scenarios, twelve of which show a positive saving. The single scenario combining the highest gas cost with the lowest import price ($20/MMBtu vs. $419/t) is the worst case for domestic production, costing $2.62bn/year more than continuing to import. The single best case ($7/MMBtu vs. $959/t) saves $5.75bn/year. The width of this range — a roughly $8.4bn/year swing depending only on which scenario materialises — is itself the central finding: the savings case for import substitution is real, but it is not robust to gas-price volatility.</p>
+
+<h3>9.2 Sectoral Demand Growth: CGD, Petrochemicals, and Fertiliser Together</h3>
+<table>
+<tr><th>Sector</th><th>FY 2023–24 (mmscmd)</th><th>2030 GtG (mmscmd)</th><th>Incremental</th></tr>
+<tr><td>City Gas Distribution (CGD)</td><td>37</td><td>87</td><td>+50.0</td></tr>
+<tr><td>Refineries / Petrochemicals</td><td>22</td><td>43.3</td><td>+21.3</td></tr>
+<tr><td>Power</td><td>25.2</td><td>35.7</td><td>+10.5</td></tr>
+<tr><td>Fertiliser (organic growth only)</td><td>58</td><td>65.3</td><td>+7.3</td></tr>
+<tr><td><strong>SUBTOTAL (these four sectors)</strong></td><td><strong>142.2</strong></td><td><strong>231.3</strong></td><td><strong>+89.1</strong></td></tr>
+</table>
+<p style="font-size:0.85em;">Source: PNGRB, "Natural Gas Demand Projections 2030/2040" and "Natural Gas Projections – 2030 Base Case," Good-to-Go scenario. CGD is projected to grow 2.5–3.5 times by 2030 from its FY24 base.</p>
+<p>CGD alone accounts for more than half of this combined incremental demand (+50.0 of +89.1 mmscmd), confirming PNGRB's own framing of CGD as "the primary growth driver" of national gas demand.</p>
+
+<h3>9.3 The Combined Capacity Test</h3>
+<table>
+<tr><th>Fertiliser substitution scenario</th><th>Combined incremental demand by 2030, mmscmd</th><th>Current usage + increment, mmscmd</th><th>vs. today's installed capacity (190 mmscmd), %</th></tr>
+<tr><td>Low</td><td>107.1</td><td>191.6</td><td>101 — EXCEEDS</td></tr>
+<tr><td>Central</td><td>114.0</td><td>198.5</td><td>104 — EXCEEDS</td></tr>
+<tr><td>High</td><td>117.9</td><td>202.4</td><td>107 — EXCEEDS</td></tr>
+</table>
+<p style="font-size:0.85em;">Source: Author's calculation. Current regas usage taken as 84.5 mmscmd (44.5% of 190 mmscmd installed capacity).</p>
+<div class="verdict">Even under the low-end fertiliser substitution scenario, combined demand from CGD, refineries/petrochemicals, power and fertiliser growth alone — without any further industrial or transport-sector gas growth — would push total national gas demand to or beyond 100% of today's installed regasification capacity by 2030. CGD's organic growth alone (+50.0 mmscmd) is larger than the entire incremental demand from full urea and DAP import substitution. The case for new LNG regasification capacity in India is overdetermined — it would be necessary even if the fertiliser sector's import dependence never changed at all.</div>
+<p>PNGRB's own December 2024 report sets out a planned expansion path to approximately 87 MMTPA (≈314 mmscmd) of installed capacity, incorporating the Dahej and Dabhol expansions, the Gopalpur, Jaigarh and Jafrabad projects. Against this planned capacity, even the high fertiliser-substitution scenario would represent only 65% utilisation — comfortable headroom, provided the expansion is delivered on time and the associated pipeline connectivity gaps (particularly on the east coast) are closed alongside the terminal capacity itself.</p>
+<table>
+<tr><th>Capacity benchmark</th><th>Capacity (mmscmd)</th><th>Utilisation implied (central scenario)</th></tr>
+<tr><td>Today's installed capacity</td><td>190</td><td>104% — exceeded</td></tr>
+<tr><td>PNGRB's planned 2030 capacity (~87 MMTPA)</td><td>314</td><td>63% — comfortable</td></tr>
+</table>
+<p style="font-size:0.85em;">Source: PNGRB, "Optimising LNG Supplies from Terminals in India," December 2024 — citing planned total regasification capacity of around 87 MMTPA against expected LNG import demand of 56 MMTPA.</p>
+
+<h2>10. The Bill Coming Due: Urea's Cost to Soil Fertility</h2>
+<p>Everything so far in this briefing treats fertiliser as a supply-chain problem — where the tonnes come from, what they cost, whether the gas and the terminals can carry the load. But there is a second, quieter dimension to the nature-versus-nurture story: the "nurture" that has propped up India's crop targets for decades is not neutral to the "nature" underneath it. The government's own soil-monitoring data now shows that decades of urea-heavy, nitrogen-first fertiliser policy have degraded the very soil fertility that record foodgrain output depends on. This is not an external shock like Hormuz — it is a slower-moving, self-inflicted cost of the same nurture-dependency this briefing has been tracing.</p>
+
+<h3>10.1 What the Soil Health Card Data Actually Shows</h3>
+<p>Since 19 February 2015, India has run a nationwide Soil Health Card (SHC) scheme testing 12 parameters per sample — nitrogen (N), phosphorus (P) and potassium (K) as macronutrients; sulphur (S) as a secondary nutrient; zinc, iron, copper, manganese and boron as micronutrients; and pH, electrical conductivity and organic carbon as physical parameters — sampled on a GPS-based grid of 2.5 hectares in irrigated areas and 10 hectares in rainfed areas, per ICAR criteria.</p>
+<table>
+<tr><th>Metric</th><th>Cycle I (2015-16 to 2016-17) (lakh)</th><th>Cycle II (2017-18 to 2018-19, as of 23.8.2019) (lakh)</th></tr>
+<tr><td>Soil samples collected</td><td>253.49</td><td>272.32</td></tr>
+<tr><td>Soil Health Cards distributed</td><td>1,073.89</td><td>1,079.52</td></tr>
+</table>
+<p style="font-size:0.85em;">Source: EnviStats India 2019, Volume II — Environment Accounts, Chapter 2 "Soil Nutrient Indices," Ministry of Statistics & Programme Implementation, Government of India.</p>
+<p>The Soil Nutrient Index (N.I.) used to rate each state is calculated as N.I. = (N<sub>L</sub>×1 + N<sub>M</sub>×2 + N<sub>H</sub>×3)/N<sub>T</sub>, where samples are bucketed Low, Medium or High and N<sub>T</sub> is the total sample count; a state rates Low below 1.67, Medium between 1.67 and 2.33, and High above 2.33. Applied across two full monitoring cycles, the finding is unambiguous: <strong>"Nitrogen fertility status in both cycles has been generally low, except in the case of Arunachal Pradesh and Nagaland."</strong> Phosphorus fertility status has "either been low or medium in the majority of States for both cycles." Potassium fertility status has been "medium in most of the States for both cycles." Only Andhra Pradesh, Bihar, Delhi, Gujarat, Jharkhand, Manipur, Telangana and West Bengal showed improvement in some nutrients between the two cycles; most other major agricultural states — Assam, Himachal Pradesh, Karnataka, Kerala, Madhya Pradesh, Odisha, Punjab, Tamil Nadu, Uttar Pradesh and Uttarakhand — showed "no major change."</p>
+<p style="font-size:0.85em;">Source: EnviStats India 2019, Volume II, Chapter 2, para 17.</p>
+<div class="callout">The finding is counterintuitive on its face: India applies enormous and rising volumes of nitrogen-based urea (Section 2 of this briefing), yet its own government soil monitoring shows nitrogen fertility nationally stuck at Low across two full survey cycles spanning 2015–2019. Pouring in more of the "nurture" input has not repaired the underlying soil nutrient status it is meant to compensate for.</div>
+
+<h3>10.2 Field Evidence: How Farmers Have Experienced the Shift</h3>
+<p>A field study of 1,440 sampled households (1,080 farmers interviewed) across semi-arid districts of Andhra Pradesh, Uttar Pradesh, Madhya Pradesh, Jharkhand and Karnataka, published in the CMDR Journal of Social Research, adds farmer-perception evidence to the Soil Health Card statistics. Only 16.94% of sampled farmers used chemical fertilisers exclusively; strikingly, 0% used only organic manures — but 32.50% of farmers still spent more than half their soil-fertility budget on organic manures or practices, rising to 46.67% among small farmers specifically.</p>
+<p>The study's central finding is a reversal over time in how farmers perceived their own soil's fertility:</p>
+<table>
+<tr><th>Farmer perception</th><th>Large farmers (%)</th><th>Medium farmers (%)</th><th>Small farmers (%)</th></tr>
+<tr><td>Fertility <strong>increased</strong>, 2000 → 2010</td><td>73.33</td><td>65.00</td><td>50.00</td></tr>
+<tr><td>Fertility <strong>decreased</strong>, 2010 → 2020</td><td>45.00</td><td>43.33</td><td>42.50</td></tr>
+</table>
+<p style="font-size:0.85em;">Source: B. Suresh Reddy, "Traditional Soil Fertility Management Practices in Semi-Arid Regions of India," CMDR Journal of Social Research, Vol. 1, No. 1, July–December 2024, pp. 1–17.</p>
+<p>The study's interpretation is that the 2000s gains reflect the early productivity boost of chemical-fertiliser adoption, while the 2010s reversal set in as farmers "started depending more and more on chemical fertilisers alone, moving away from their traditional fertility-enhancing practices." That retreat from traditional practice is measurable: by 2020, 65.83% of all sampled farmers used fewer than two traditional soil-fertility-enhancing practices (farmyard manure, crop rotation, tank silt, green manuring, sheep penning) — against a documented historical repertoire of up to 22 distinct traditional practices in the Deccan region alone.</p>
+<p>The same study puts a number on the import side of this cycle too: "the additional bill for fertiliser imports in 2021 and 2022 was at least US$4.8 billion for India" — a figure that predates, but foreshadows, the far larger tender swings documented in Section 3 of this briefing. It also documents a striking imbalance in per-hectare nutrient application:</p>
+<table>
+<tr><th>State / national average</th><th>Total NPK consumption (kg/ha, 2019-20)</th></tr>
+<tr><td>Uttar Pradesh</td><td>170.1</td></tr>
+<tr><td>India (national average)</td><td>133.1</td></tr>
+<tr><td>Madhya Pradesh</td><td>90.3</td></tr>
+<tr><td>Jharkhand</td><td>59.8</td></tr>
+</table>
+<p style="font-size:0.85em;">Source: B. Suresh Reddy (2024), citing Fertiliser Association of India, 2020.</p>
+<p>The study's policy conclusion is direct: farmers' own soil fertility management options are "being undermined by government policies that give more priority to chemical fertiliser-based strategies," and it calls for a "level playing field" between organic and inorganic support — a critique that lands squarely on the subsidy architecture detailed in Section 4.2 of this briefing, which subsidises urea and NBS-eligible P&amp;K fertilisers but not organic inputs on comparable terms.</p>
+
+<h3>10.3 The Government's Own Corrective Response, July 2026</h3>
+<p>The clearest evidence that this is now an acknowledged policy problem, not just an academic finding, comes from the government's own messaging — issued the same month as the fertiliser-security briefing this article is built on. A PIB backgrounder titled "Saving Soil, Securing Farms — 'Beneath Every Harvest Lies Healthy Soil,'" published 24 July 2026, sets out both the scale of the underlying land base and the corrective programmes now underway.</p>
+<ul>
+<li>Land Use Statistics 2022-23 put India's total reported area at 306.65 million hectares, of which approximately 59% is under agriculture; over 46% of India's workforce is employed in agriculture and allied activities.</li>
+<li>The Soil Health Card Scheme has now generated <strong>over 25.89 crore cards cumulatively</strong> — a striking jump from the 10.73 crore (Cycle-I) and 4.71 crore (Cycle-II, as of the release date) reported in a 31 July 2018 PIB release on the same scheme, and from the Cycle-II total of 1,079.52 lakh (10.80 crore) reported in EnviStats as of August 2019.</li>
+<li>The <strong>National Mission on Natural Farming (NMNF)</strong>, launched in 2024 and explicitly framed as reducing farmers' reliance on chemical inputs, has expanded to 18,786 clusters covering 8.80 lakh hectares, with over 18.19 lakh farmers enrolled as of March 2026, supported by 33,676 trained Community Resource Persons.</li>
+<li><strong>Neem-coated urea</strong> is now mandatory — 100% of domestically produced urea must be neem-coated, to slow nitrogen release, improve nutrient-use efficiency, and reduce diversion to non-agricultural uses. The mandate is itself a tacit admission that uncoated urea was being over-applied or misused.</li>
+<li>The <strong>National Mission for Sustainable Agriculture (NMSA)</strong>, running since 2014-15, has released Rs. 2,119.84 crore under Rainfed Area Development, covering 8.50 lakh hectares and benefiting 14.35 lakh farmers through Integrated Farming Systems aimed at improving soil organic carbon.</li>
+<li>Fertiliser subsidy disbursements totalled <strong>Rs. 6.77 lakh crore</strong> between 2022-23 and July 2025, delivered via Aadhaar-linked Point-of-Sale devices under Direct Benefit Transfer in Fertilisers — the same subsidy architecture, still overwhelmingly weighted toward urea and NBS-eligible P&amp;K fertilisers (Section 4.2), that the NMNF and organic-farming push now sit alongside rather than replace.</li>
+</ul>
+<p style="font-size:0.85em;">Source: PIB Backgrounder, "Saving Soil, Securing Farms — 'Beneath Every Harvest Lies Healthy Soil,'" Ministry of Agriculture & Farmers Welfare, 24 July 2026; PIB press release, "Fertility of Soil," 31 July 2018 (Minister of State Shri Gajendra Singh Shekhawat).</p>
+<p>For context on scheme infrastructure at the earlier baseline: as of the 2018 PIB release, 1,738 Soil Testing Labs existed nationally, and state-wise Soil Health Card scheme fund releases from 2015-16 to 2018-19 totalled Rs. 51,742.20 lakh (~Rs 517.4 crore), with a further Rs. 20,736.72 lakh (~Rs 207.4 crore) released under the separate Soil Health Management scheme over the same period.</p>
+
+<div class="verdict">Read together, these three sources describe a single arc: the Soil Health Card programme was built to monitor exactly the nitrogen-fertility problem it went on to find (Section 10.1); independent field research shows that problem is not an abstraction but something farmers themselves have watched happen to their land since roughly 2010 (Section 10.2); and the government's own July 2026 messaging — neem-coating mandates, the Natural Farming Mission, carbon-focused rainfed development — amounts to an admission that urea-heavy nurture has been drawing down the nature it was deployed to support (Section 10.3). The Nutrient Based Subsidy scheme that funds DAP and P&amp;K fertilisers on a seasonal Kharif/Rabi basis (Section 4.2) still sits, largely unreformed, at the centre of the incentive structure that both the CMDR field study and the government's own corrective programmes are now working around rather than through.</div>
+
+
+<h2>What would fix this</h2>
+<ul>
+<li><b>The Ministry of Agriculture and Farmers Welfare should publish state-wise Soil Nutrient Index values for every Soil Health Card cycle since 2019, in the same format as EnviStats 2019</b>, so that whether nitrogen fertility is still Low can be checked against the 25.89 crore cards issued, not only the 2015&ndash;2019 cycles.</li>
+<li><b>The Department of Fertilizers should publish a costed option paper for supporting organic manures and soil-fertility practices on terms comparable to urea and NBS subsidies</b>, so that the “level playing field” question raised by field research is answered with numbers inside the ₹1.71 lakh crore subsidy architecture.</li>
+<li><b>PNGRB should publish third-party access terms and booked versus available capacity at every LNG terminal, starting with Mundra</b>, since Mundra holds 15.8 mmscmd of spare capacity on the same coast as a near-saturated Dahej that feeds the main fertiliser clusters.</li>
+<li><b>PNGRB should publish quarterly progress against schedule for the pipeline links between the Dhamra terminal and the Jharkhand, Bihar and West Bengal fertiliser plants</b>, so that capacity it already calls “commercially stranded” can be tracked towards actually reaching those plants.</li>
+<li><b>The Department of Fertilizers should publish a register of every urea and DAP import tender, with date, quantity awarded, origin and landed price</b>, so that swings such as $959 a tonne to $447 inside seven weeks are visible in an official record rather than trade-press tender reporting.</li>
+</ul>
+<p>These are proposals from this blog, not recommendations any agency has adopted.</p>
+
+<h2>Sources</h2>
+<p>This briefing draws on government data, industry association publications, and trade-press / market-intelligence reporting. A representative set of the citations underlying the figures above:</p>
+<ul class="sources">
+<li>Ministry of Agriculture & Farmers Welfare — crop production estimates and foodgrain targets, FY 2024–25 / 2025–26.</li>
+<li>Press Information Bureau (PIB) — crop production and fertiliser policy releases, 2025–26.</li>
+<li>Department of Fertilizers, Government of India — Urea Pricing Policy (New Investment Policy 2012) and Notes on Demands for Grants, 2026–2027. <a href="https://fert.gov.in/documents/act-policies/urea-policy">fert.gov.in/documents/act-policies/urea-policy</a></li>
+<li>Petroleum and Natural Gas Regulatory Board (PNGRB) — "Natural Gas Demand Projections 2030/2040," Good-to-Go scenario; "Optimising LNG Supplies from Terminals in India," December 2024, <a href="https://pngrb.gov.in/pdf/CaseStudies/20241231_CSR.pdf">pngrb.gov.in/pdf/CaseStudies/20241231_CSR.pdf</a>; "Natural Gas Projections – 2030 Base Case," <a href="https://pngrb.gov.in/pdf/CaseStudies/20250609_CSR.pdf">pngrb.gov.in/pdf/CaseStudies/20250609_CSR.pdf</a>.</li>
+<li>Natural Gas (Supply Regulation) Order, 2026, issued under the Essential Commodities Act.</li>
+<li>Union Budget documents, India Budget portal — Notes on Demands for Grants, Department of Fertilisers, 2026–2027. <a href="https://www.indiabudget.gov.in/doc/eb/sbe6.pdf">indiabudget.gov.in/doc/eb/sbe6.pdf</a></li>
+<li>GAIL ebank Fertiliser Price Pool portal, implementing MoP&NG notification dated 20 May 2015. <a href="https://gailebank.gail.co.in/fpp/frmhome.aspx">gailebank.gail.co.in/fpp/frmhome.aspx</a></li>
+<li>Fertiliser Association of India (FAI) — plant-location and gas-pipeline maps, all dated 1-11-2024: straight nitrogenous plants, <a href="https://www.faidelhi.org/wp-content/uploads/2025/05/map-strat-n-1.pdf">map-strat-n-1.pdf</a>; gas pipeline network, <a href="https://www.faidelhi.org/wp-content/uploads/2025/05/map-gas-1.pdf">map-gas-1.pdf</a>; DAP/complex plants, <a href="https://www.faidelhi.org/wp-content/uploads/2025/05/map-pk-1.pdf">map-pk-1.pdf</a>; SSP/TSP plants, <a href="https://www.faidelhi.org/wp-content/uploads/2025/05/map-ssp-1.pdf">map-ssp-1.pdf</a>; plus FAI sales and production bulletins, Apr–Nov FY 2025–26.</li>
+<li>Argus Media — tender-by-tender urea and DAP price reporting throughout 2025–26, including "Lowest urea offer at $418.40/t cfr EC to India's IPL" (20 Nov 2025); "India's Hurl awards DAP tender at $809/t cfr" (Aug 2025); "India buys Moroccan DAP, TSP" (2 Jun 2026); "India outlines 2026-27 urea subsidy."</li>
+<li>Business Standard — "India scales down kharif 2026 fertiliser requirement to 38.39 mn tonnes" (1 Jun 2026); "Four India-bound ships with 0.18 mn tonnes of fertilisers clear Hormuz" (22 Jun 2026); "India's last urea tender quotes price 50% lower than Apr as China opens up" (10 Jun 2026).</li>
+<li>Maritime Gateway — "India Fertiliser Imports Surge 173% from China in FY26," 18 May 2026, citing Ministry of Commerce data.</li>
+<li>The Indian Express — "Why fertilisers could be the war's soft underbelly victim for India," 9 March 2026. <a href="https://indianexpress.com/article/explained/explained-economics/why-fertilisers-could-be-the-wars-soft-underbelly-victim-10571937/">indianexpress.com</a></li>
+<li>Discovery Alert — "India Fertilizer Subsidy Budget Rs 1.71 Trillion FY27," 2 February 2026.</li>
+<li>Fertilizer Daily — "Friday's Insider: What are the costs of India's urea self-sufficiency," 14 June 2024.</li>
+<li>Indian Infrastructure — "Exploring Alternatives: Developments in the LNG and green hydrogen segments," 4 August 2025.</li>
+<li>Bharat Petroleum — LNG terminal capacity and ownership summary. <a href="https://www.bharatpetroleum.in/images/files/lng-terminals.pdf">bharatpetroleum.in/images/files/lng-terminals.pdf</a></li>
+<li>EnviStats India 2019, Volume II — Environment Accounts, Chapter 2 "Soil Nutrient Indices," Ministry of Statistics & Programme Implementation, Government of India.</li>
+<li>B. Suresh Reddy, "Traditional Soil Fertility Management Practices in Semi-Arid Regions of India," CMDR Journal of Social Research, Vol. 1, No. 1, July–December 2024, pp. 1–17, Centre for Multi-disciplinary Development Research, Dharwad.</li>
+<li>PIB press release, "Fertility of Soil," Ministry of Agriculture & Farmers Welfare, 31 July 2018 (Minister of State Shri Gajendra Singh Shekhawat).</li>
+<li>PIB Backgrounder, "Saving Soil, Securing Farms — 'Beneath Every Harvest Lies Healthy Soil,'" Ministry of Agriculture & Farmers Welfare, 24 July 2026.</li>
+</ul>
+<p style="font-size:0.85em;">This is a representative, non-exhaustive selection; the full underlying briefing cites more than 40 government, industry-association and trade-press sources. This briefing reflects publicly available information as of 24 July 2026 — prices, tender outcomes and policy settings referenced throughout are subject to change.</p>
+
+<hr>
+<h2>The Nurture Side Is the Load-Bearing One</h2>
+<p>Return to the frame this piece opened with. India's 362.5 MT foodgrain target is a "nature" number in the loosest sense only — it is really a policy target that assumes fertiliser will show up on time, in volume, regardless of price. The "nurture" side of that equation — gas allocation decisions made inside GAIL and PPAC, tender outcomes decided by a single exporter's policy choice half a world away, regasification capacity that may or may not get built where the pipelines actually reach the plants — is not a natural given. It is a set of market and policy choices, several of them still unresolved as of this writing.</p>
+<p>The Hormuz shock and its reversal — $959 a tonne on one tender, $447 on the next, seven weeks apart — is the clearest possible demonstration that the constraint on India's food security is not, in any meaningful sense, natural anymore. It is engineered, and it can be engineered better: firmer LNG contracts, faster coal-route capacity, diversified sourcing, and pipeline build-out that actually reaches the 38 plants mapped in this briefing. Nature grows the crop. Nurture — gas, ships, tenders, and the Pool Fund — is what lets it get harvested at scale.</p>
+
+<div class="callout">This piece diagnosed the problem. A follow-up, <a href="https://blog.vertistratsolution.com/2026/08/bio-fertiliser-and-green-credits.html">"Bio-Fertiliser and Green Credits: Regrowing India's Arid Land"</a>, looks at two real but early-stage candidate corrections — India's GOBARdhan bio-fertiliser production network and the Green Credit Programme's tree-plantation registry — and is honest about how far each still is from actually reversing the soil-degradation trend documented above.</div>
+<div class="note"><b>Related on this blog &mdash; fertilisers.</b> <a href="https://blog.vertistratsolution.com/2026/08/indias-fertiliser-import-bill-hits-18.html">India's Fertiliser Import Bill Hits $18 Billion</a> &middot; <a href="https://blog.vertistratsolution.com/2026/08/bio-fertiliser-and-green-credits.html">Bio-Fertiliser and Green Credits: Regrowing India's Arid Land</a> &middot; <a href="https://blog.vertistratsolution.com/2026/07/indias-subsidised-imports-fertilisers.html">India's Subsidised Imports — Fertilisers Explode +76% (FY25 vs FY26)</a> &middot; <a href="https://blog.vertistratsolution.com/2026/08/imported-fertiliser-fuel-prices-diesel.html">Imported Fertiliser &amp; Fuel Prices → Diesel → CPI/WPI</a>.<br><b>Related &mdash; gas &amp; LPG.</b> <a href="https://blog.vertistratsolution.com/2026/08/thermal-parity-is-dead-what-85-oil-and.html">Thermal Parity Is Dead</a> &middot; <a href="https://blog.vertistratsolution.com/2026/08/city-gas-just-became-indias-largest-gas.html">City Gas Just Became India's Largest Gas Consumer</a> &middot; <a href="https://blog.vertistratsolution.com/2026/08/lpgs-missing-number-7308-commission-and.html">LPG's Missing Number</a> &middot; <a href="https://blog.vertistratsolution.com/2026/08/europe-bought-record-amount-of-lng-and.html">Europe Bought a Record Amount of LNG</a> &middot; <a href="https://blog.vertistratsolution.com/2026/07/the-cbg-incentive-stack-every-leg-of.html">The CBG Incentive Stack</a>.</div>
+
+<p class="disclaimer">This analysis is based on publicly available government and market data cited in the article above. It is provided for informational and research purposes only and does not constitute investment, legal, or policy advice.</p>
+
+<p>The GOBARdhan network discussed above sits inside a wider biofuels policy cluster this blog has covered separately: <a href="https://blog.vertistratsolution.com/2026/08/cow-dung-already-flew-rocket-engine.html">India's biogas programme</a>, which names cattle dung as a core feedstock, and <a href="https://blog.vertistratsolution.com/2026/10/indias-ethanol-surplus-buys-about-five.html">India's ethanol overcapacity and the sustainable aviation fuel (SAF) pathway</a> &mdash; three schemes drawing on overlapping agricultural and livestock residue streams.</p>
+<p class="disclaimer" data-gs-ai-disclosure-v1="1"><strong>About this article:</strong> Researched, written and edited by Umashankar Triplicane Dwarakanathan, with AI research assistance; every figure is meant to trace to the primary source cited. See the <a href="https://blog.vertistratsolution.com/p/disclaimer.html">Editorial Policy</a> for how sourcing, AI use and corrections work.</p>
+</div>
+
+<div id="gs-idx"></div><script defer="defer" src="https://herrrickshaw.github.io/masaladeutsch/accordion.js"></script>

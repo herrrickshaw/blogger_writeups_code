@@ -1,0 +1,663 @@
+<style>/*gs-typo-unify-v1*/
+.artx,.fertx,.ecx,.mapx,.idx,.wrap,.slide,.stat{font-family:Georgia,'Times New Roman',serif!important;}
+.artx p,.fertx p,.ecx p,.mapx p,.idx p,.wrap p,.slide p,.stat p,
+.artx li,.fertx li,.ecx li,.mapx li,.idx li,.wrap li,.slide li,.stat li,
+.artx td,.fertx td,.ecx td,.mapx td,.idx td,.wrap td,.slide td,.stat td,
+.artx th,.fertx th,.ecx th,.mapx th,.idx th,.wrap th,.slide th,.stat th,
+.artx blockquote,.fertx blockquote,.ecx blockquote,.mapx blockquote,.idx blockquote,.wrap blockquote,.slide blockquote,.stat blockquote
+{font-family:Georgia,'Times New Roman',serif!important;}
+.artx h1,.fertx h1,.ecx h1,.mapx h1,.idx h1,.wrap h1,.slide h1,.stat h1,
+.artx h2,.fertx h2,.ecx h2,.mapx h2,.idx h2,.wrap h2,.slide h2,.stat h2,
+.artx h3,.fertx h3,.ecx h3,.mapx h3,.idx h3,.wrap h3,.slide h3,.stat h3
+{font-family:Georgia,'Times New Roman',serif!important;line-height:1.3!important;}
+body,p,li,td,th,blockquote,h1,h2,h3{font-family:Georgia,'Times New Roman',serif;}
+
+/*gs-table-v1 — scoped to .post-body, not .artx: several posts use other
+  wrapper classes (.tblwrap among them) and an .artx-scoped rule silently did
+  nothing on them. Verified on a canary post before the batch. */
+.post-body .tw{overflow-x:auto;margin:1.1rem 0}
+/* display:block makes the table its OWN scroller, so it works whether or not
+   the post wrapped it in .tw — several posts use .tblwrap or nothing, and a
+   width:auto table with no scroller pushes the whole page sideways. */
+.post-body table{display:block;overflow-x:auto;max-width:100%;width:max-content;
+ min-width:100%;border-collapse:collapse;font-size:.86rem}
+.post-body thead th,.post-body tr:first-child th{background:#111;color:#fff;font-weight:700;
+ text-align:right;vertical-align:bottom;padding:.6rem .7rem;border:1px solid #111;
+ white-space:normal;overflow-wrap:normal;word-break:keep-all;min-width:5.5rem}
+.post-body thead th:first-child,.post-body tr:first-child th:first-child{text-align:left}
+.post-body td{border:1px solid #d9d9d9;padding:.5rem .7rem;text-align:right;
+ font-variant-numeric:tabular-nums;white-space:nowrap;color:#111;background:#fff}
+.post-body td:first-child{text-align:left;white-space:normal;min-width:8rem}
+.post-body tbody tr:nth-child(even) td{background:#fafafa}
+</style>
+<div class="sgstx artx">
+<style>
+.sgstx{
+  --paper:#F7F8F7; --surface:#FFFFFF; --surface-2:#F1F4F2;
+  --ink:#14201C; --muted:#3E4C46; --line:#DCE3DE; --line-strong:#C4CFC8;
+  --accent:#0F7C86; --gain:#1F6B44; --loss:#9E3324; --total:#33454E; --ethanol:#8A5A12;
+  --shadow:0 1px 2px rgba(20,32,28,.05), 0 8px 28px rgba(20,32,28,.06);
+  --font-display:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,"Times New Roman",serif;
+  --font-body:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  --font-mono:"SF Mono",ui-monospace,"Cascadia Mono","Roboto Mono",Menlo,Consolas,monospace;
+  background:var(--paper);color:var(--ink);font-family:var(--font-body);line-height:1.6;
+  -webkit-font-smoothing:antialiased;
+}
+.sgstx *{box-sizing:border-box}
+.sgstx .wrap{max-width:1080px;margin:0 auto;padding:clamp(20px,4vw,44px) clamp(14px,3vw,28px) 64px;}
+.sgstx h1,.sgstx h2,.sgstx h3{font-family:var(--font-display);font-weight:700;color:var(--ink);
+  text-wrap:balance;letter-spacing:-.01em;line-height:1.15;}
+.sgstx h1{font-size:clamp(26px,4.6vw,42px);margin:.1em 0 .25em;}
+.sgstx h2{font-size:clamp(20px,2.8vw,26px);margin:2.4em 0 .5em;padding-top:.4em;border-top:1px solid var(--line);}
+.sgstx h2:first-of-type{border-top:0;padding-top:0;margin-top:1.2em;}
+.sgstx h3{font-size:clamp(16.5px,2vw,19px);margin:1.6em 0 .5em;color:var(--total);}
+.sgstx p{color:var(--ink);margin:0 0 1em;}
+.sgstx a{color:var(--accent);}
+.sgstx .eyebrow{font-family:var(--font-mono);font-size:12px;letter-spacing:.14em;text-transform:uppercase;
+  color:var(--accent);font-weight:700;margin-bottom:12px;}
+.sgstx .lede{font-size:clamp(15.5px,1.8vw,18px);color:var(--ink);max-width:68ch;}
+.sgstx .num{font-family:var(--font-mono);font-variant-numeric:tabular-nums;}
+
+.sgstx .chips{display:flex;flex-wrap:wrap;gap:10px;margin:22px 0 6px;}
+.sgstx .chip{display:flex;align-items:center;gap:8px;background:var(--surface);border:1px solid var(--line);
+  border-radius:999px;padding:7px 14px 7px 11px;box-shadow:var(--shadow);font-size:13.5px;color:var(--ink);}
+.sgstx .dot{width:10px;height:10px;border-radius:50%;flex:0 0 auto;}
+
+.sgstx .callout{background:var(--surface-2);border:1px solid var(--line);border-left:4px solid var(--ethanol);
+  border-radius:10px;padding:15px 17px;margin:20px 0;font-size:14.5px;color:var(--ink);}
+.sgstx .callout b{color:var(--ink);}
+.sgstx .callout.warn{border-left-color:var(--loss);}
+.sgstx .callout.good{border-left-color:var(--gain);}
+
+.sgstx .tablewrap{overflow-x:auto;margin:18px 0 8px;border:1px solid var(--line);border-radius:12px;
+  background:var(--surface);box-shadow:var(--shadow);}
+.sgstx table{border-collapse:collapse;width:100%;min-width:540px;font-size:14px;color:var(--ink);}
+.sgstx th,.sgstx td{padding:10px 13px;text-align:right;border-bottom:1px solid var(--line);color:var(--ink);}
+.sgstx th:first-child,.sgstx td:first-child{text-align:left;}
+.sgstx thead th{font-family:var(--font-mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;
+  color:var(--ink);font-weight:700;background:var(--surface-2);}
+.sgstx tbody tr:last-child td{border-bottom:0;}
+.sgstx tbody tr:nth-child(odd){background:rgba(0,0,0,.015);}
+.sgstx td.num,.sgstx th.num{font-family:var(--font-mono);font-variant-numeric:tabular-nums;}
+.sgstx .sub{display:block;font-size:11.5px;color:var(--muted);font-weight:400;font-family:var(--font-body);}
+.sgstx caption{caption-side:top;text-align:left;font-size:13px;color:var(--muted);padding:10px 13px 0;font-style:italic;}
+
+.sgstx .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:20px 0;}
+.sgstx .card{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:16px 16px 14px;
+  box-shadow:var(--shadow);display:flex;flex-direction:column;gap:6px;position:relative;overflow:hidden;}
+.sgstx .card::before{content:"";position:absolute;left:0;top:0;bottom:0;width:3px;background:var(--rail,var(--accent));}
+.sgstx .card .k{font-family:var(--font-mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);}
+.sgstx .card .v{font-family:var(--font-display);font-size:24px;font-weight:700;color:var(--ink);}
+.sgstx .card p{margin:2px 0 0;font-size:12.5px;color:var(--muted);line-height:1.45;}
+
+.sgstx .assume{columns:2;column-gap:30px;font-size:13px;color:var(--ink);margin:18px 0;}
+.sgstx .assume li{margin:0 0 8px;break-inside:avoid;}
+.sgstx .assume b{color:var(--ink);font-weight:700;}
+.sgstx ul,.sgstx ol{padding-left:1.3em;}
+.sgstx li{margin-bottom:.5em;color:var(--ink);}
+.sgstx li::marker{color:var(--muted);}
+
+.sgstx footer.artx-foot{margin-top:44px;padding-top:18px;border-top:1px solid var(--line);font-size:12px;
+  color:var(--muted);}
+
+.sgstx .disclaimer{margin-top:34px;padding:16px 18px;background:var(--surface-2);border:1px solid var(--line);
+  border-radius:10px;font-size:12.5px;color:var(--muted);}
+
+@media (max-width:720px){
+  .sgstx .cards{grid-template-columns:1fr;}
+  .sgstx .assume{columns:1;}
+}
+.artx td,.fertx td,.ecx td,.mapx td,.idx td,.wrap td,.slide td,.stat td,.artx th,.fertx th,.ecx th,.mapx th,.idx th,.wrap th,.slide th,.stat th,td,th,.sgstx th,.sgstx td,.sgstx thead th,.sgstx tbody tr:last-child td{word-wrap:break-word;overflow-wrap:break-word;word-break:break-word;}
+</style>
+
+<div class="wrap">
+  <header>
+    <div class="gs-head-order" style="display:flex;flex-direction:column">
+    <p class="lede standfirst" style="order:4">Ethanol blended into petrol is taxed under GST at 5%, while the petrol it replaces carries state VAT of 13% to over 35%. This piece models what that difference costs each state from E10 to E30, how far a higher state GST (SGST) rate on ethanol would close it, what lower VAT on CNG would cost and save, how the loss lines up with the donor-state argument over GST devolution, and the limits of the combined proposal. What blending does to the oil marketing companies&rsquo; books is covered in a <a href="https://blog.vertistratsolution.com/2026/07/ethanol-blending-omc-books-e20-today-vs.html">separate piece</a>.</p>
+    <div class="topnav-index-link" style="order:1;font-size:.82em;margin:6px 0 14px"><a href="https://blog.vertistratsolution.com/2026/08/article-index-start-here.html" style="color:#0b5394;text-decoration:none">&larr; All Articles (Index)</a></div>
+    <div class="eyebrow" style="order:2">India &#183; Ethanol Blending &#183; State Finances &#183; CNG &#183; &#8377; crore / year</div>
+    <h1 style="order:3">State tax from ethanol blending in India: Rs 17,863 crore net loss at E20, by state</h1>
+    </div>
+
+<a href="#" id="gs-skip-link" class="gs-skip-link" style="position:absolute;left:-9999px;top:auto;background:#1a1a1a;color:#fff;padding:.6rem 1rem;z-index:1000;border-radius:4px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.85rem">Skip to article content</a>
+<style>.gs-skip-link:focus{left:8px!important;top:8px!important}
+.gs-a11y-bar{display:flex;align-items:center;gap:.55rem;flex-wrap:wrap;background:#f4f5f7;border:1px solid #dfe3e8;border-radius:8px;padding:.55rem .8rem;margin:10px 0 16px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
+.gs-a11y-bar .gs-a11y-label{font-size:.68rem;font-weight:700;letter-spacing:.08em;color:#666;text-transform:uppercase;margin-right:.15rem}
+.gs-a11y-bar button{cursor:pointer;border:1px solid #c7cbd1;background:#fff;color:#1a1a1a;border-radius:5px;padding:.32rem .65rem;font-family:inherit;line-height:1}
+.gs-a11y-bar button.gs-a11y-fs{font-weight:700;min-width:2rem;text-align:center}
+.gs-a11y-bar button.gs-a11y-fs[data-size="sm"]{font-size:.8rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="md"]{font-size:1rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="lg"]{font-size:1.2rem}
+.gs-a11y-bar button.gs-a11y-fs[aria-pressed="true"]{background:#1a1a1a;color:#fff;border-color:#1a1a1a}
+.gs-a11y-bar button:hover{border-color:#8a4b08}
+.gs-a11y-bar button:focus-visible{outline:2px solid #8a4b08;outline-offset:1px}
+.gs-a11y-bar .gs-a11y-sep{width:1px;align-self:stretch;background:#dfe3e8;margin:0 .1rem}</style>
+<div class="gs-a11y-bar" role="group" aria-label="Accessibility controls">
+<span class="gs-a11y-label">Text Size</span>
+<button type="button" class="gs-a11y-fs" data-size="sm" aria-pressed="false" aria-label="Small text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="md" aria-pressed="true" aria-label="Medium text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="lg" aria-pressed="false" aria-label="Large text">A</button>
+<span class="gs-a11y-sep"></span>
+<button type="button" id="gs-a11y-listen" aria-label="Read this article aloud">&#128266; Listen</button>
+<button type="button" id="gs-a11y-stop" aria-label="Stop reading aloud">&#9632; Stop</button>
+</div>
+<script>(function(){
+var KEY='gs-a11y-fontsize', SIZES={sm:'0.92',md:'1',lg:'1.15'};
+function pb(){return document.querySelector('.post-body')||document.querySelector('.artx,.mdrx');}
+function apply(sz){
+  var el=pb(); if(!el||!SIZES[sz]) return;
+  el.style.fontSize=SIZES[sz]+'em';
+  var btns=document.querySelectorAll('.gs-a11y-fs');
+  for(var i=0;i<btns.length;i++){
+    var on=btns[i].getAttribute('data-size')===sz;
+    btns[i].setAttribute('aria-pressed', on?'true':'false');
+  }
+  try{localStorage.setItem(KEY,sz);}catch(e){}
+}
+var fsBtns=document.querySelectorAll('.gs-a11y-fs');
+for(var j=0;j<fsBtns.length;j++){
+  fsBtns[j].addEventListener('click',(function(b){return function(){apply(b.getAttribute('data-size'));};})(fsBtns[j]));
+}
+var saved; try{saved=localStorage.getItem(KEY);}catch(e){}
+apply(saved&&SIZES[saved]?saved:'md');
+
+var listenBtn=document.getElementById('gs-a11y-listen'), stopBtn=document.getElementById('gs-a11y-stop');
+if(listenBtn){
+  listenBtn.addEventListener('click', function(){
+    if(!('speechSynthesis' in window)){ alert('Text-to-speech is not supported in this browser.'); return; }
+    window.speechSynthesis.cancel();
+    var src=pb(); if(!src) return;
+    var clone=src.cloneNode(true);
+    var strip=clone.querySelectorAll('script,style,svg');
+    for(var k=0;k<strip.length;k++){ strip[k].parentNode.removeChild(strip[k]); }
+    var text=clone.textContent.replace(/\s+/g,' ').trim();
+    if(!text) return;
+    var chunks=text.match(/[\s\S]{1,180}(?:[.!?]|$)/g)||[text];
+    var idx=0;
+    function speakNext(){
+      if(idx>=chunks.length) return;
+      var u=new SpeechSynthesisUtterance(chunks[idx]);
+      u.onend=function(){ idx++; speakNext(); };
+      window.speechSynthesis.speak(u);
+    }
+    speakNext();
+  });
+}
+if(stopBtn){
+  stopBtn.addEventListener('click', function(){
+    if('speechSynthesis' in window) window.speechSynthesis.cancel();
+  });
+}
+var skip=document.getElementById('gs-skip-link');
+if(skip){
+  skip.addEventListener('click', function(ev){
+    ev.preventDefault();
+    var h=document.querySelector('.post-body h1')||document.querySelector('.artx h1,.mdrx h1,h1');
+    if(h){ h.setAttribute('tabindex','-1'); h.focus(); h.scrollIntoView(); }
+  });
+}
+})();</script>
+<style>.goog-te-menu-frame{max-width:340px!important;max-height:70vh!important;overflow:auto!important;box-shadow:0 6px 24px rgba(0,0,0,.25)!important}</style><div id="google_translate_element" style="margin:8px 0 16px;"></div><script type="text/javascript">function googleTranslateElementInit(){new google.translate.TranslateElement({pageLanguage:"en",includedLanguages:"hi,bn,ta,te,mr,gu,kn,ml,pa,or,as,ur,sa,ne,sd",layout:google.translate.TranslateElement.InlineLayout.SIMPLE,autoDisplay:false},"google_translate_element");}</script><script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <div class="chips">
+      <div class="chip"><span class="dot" style="background:var(--muted)"></span>Scenarios&nbsp;&#183;&nbsp;<b>E10&nbsp;&middot;&nbsp;E20&nbsp;&middot;&nbsp;E25&nbsp;&middot;&nbsp;E30</b></div>
+      <div class="chip"><span class="dot" style="background:var(--ethanol)"></span>36 states/UTs modelled &#183; PPAC state-wise petrol sales</div>
+      <div class="chip"><span class="dot" style="background:var(--accent)"></span>Ethanol SGST rates modelled &#183; <b>2.5% to 18%</b></div>
+    </div>
+  </header>
+
+<div class="warn" style="border-left:4px solid #a5402c;background:rgba(165,64,44,.07);padding:.8em 1em;margin:1.2em 0;border-radius:4px"><b>Updated 14 November 2026.</b> This piece now combines four related posts from August 2026: the proposal to raise state GST on ethanol and cut VAT on CNG, the question of whether a bigger SGST share would help donor states, the ethanol SGST rate scenarios above 2.5%, and the combined biofuel tax proposal that adds the 18% rate and the case for keeping crude for petrochemicals. The combined piece puts the state-by-state losses, every rate scenario from 2.5% to 18%, the CNG VAT map and the donor-state comparison in one place, with a single table of what each proposed lever would close.</div>
+
+  <div class="callout warn">
+    <b>Read this first.</b> No state finance department, the GST Council or the CAG publishes a state-wise, blend-wise breakdown of SGST collected on ethanol against VAT foregone on the petrol it displaces. Every state revenue figure below is a <b>model</b>, built from public PPAC petrol-sales and VAT-rate tables plus stated assumptions (&#8377;78/litre pre-VAT petrol, &#8377;60/litre ethanol at E10&ndash;E20, a 0.74 kg/litre density conversion). It is not an official state government figure. The section <a href="#limits">What this piece could not establish</a> lists the treasury data that would be needed to check it.
+  </div>
+
+  <section id="mechanism">
+    <figure style="margin:1.6rem 0">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Harvesting_Sugarcane_Doddagowdana_Koppalu_Aug24_A7CR_02231.jpg/960px-Harvesting_Sugarcane_Doddagowdana_Koppalu_Aug24_A7CR_02231.jpg" alt="Sugarcane being cut by hand in a field in Karnataka" loading="lazy" style="width:100%;height:auto;border-radius:6px;display:block"/>
+<figcaption class="gb-note" style="margin-top:.4rem">Cane was the feedstock the ethanol programme was built around; grain has since overtaken it. <a href="https://commons.wikimedia.org/wiki/File:Harvesting_Sugarcane_Doddagowdana_Koppalu_Aug24_A7CR_02231.jpg" rel="noopener noreferrer">Harvesting Sugarcane Doddagowdana Koppalu Aug24 A7CR 02231.jpg</a>, This Photo was taken by Timothy A. Gonsalves. Feel free to use my photos, but please mention me as the author. I would much appreciate if you send me an email tagooty@yahoo.com or write on my talk page, for my information. Please contact me before commercial use. Please do not upload an edited image here without consulting me. I would like to make corrections only at my own source to ensure that the changes improve the image and are preserved.Otherwise you may upload an edited image with a new name. Please use one of the templates derivative or extract., CC BY-SA 4.0, via Wikimedia Commons.</figcaption>
+</figure>
+<h2>1. Blending moves fuel tax from state VAT to a 5% GST</h2>
+    <p>Petrol sits outside GST. States tax it under their own VAT laws, ad valorem on the pre-tax price, and headline rates vary widely: about 13% in Tamil Nadu and 13.7% in Gujarat, 29&ndash;31% in Karnataka, Kerala, Andhra Pradesh and Madhya Pradesh, and over 35% in Telangana. Petrol also carries central excise, which goes to the Union.</p>
+    <p>Ethanol bought by the oil marketing companies (OMCs) for blending sits inside GST, at a flat <b>5%</b>: 2.5% CGST and 2.5% SGST. At the pump the blend is still sold and taxed as petrol at the state&rsquo;s full VAT rate, but on the input side a rising share of every litre is 5%-GST ethanol rather than VAT-rated petrol. The state collects no VAT on that ethanol fraction when the OMC buys it; it gets only the 2.5% SGST. As the blend rises from E10 to E20 and beyond, the gap between the VAT the state would have collected on that volume as petrol and the SGST it collects on it as ethanol widens, in proportion to each state&rsquo;s own VAT rate and petrol consumption.</p>
+    <div class="callout">
+      <b>GST is destination-based.</b> SGST on ethanol accrues to the state where the fuel is <i>consumed</i>, not where the ethanol is <i>distilled</i>. A cane-surplus state that sends ethanol to a deficit state does not keep that ethanol&rsquo;s SGST; place-of-supply rules route it to the consuming state, subject to IGST settlement on the interstate movement. Production capacity and SGST revenue are two separate maps.
+    </div>
+    <p class="gb-note" style="font-size:13.5px"><b>Central excise (update of 13 October 2026).</b> The model was built when central excise on petrol was about &#8377;19.90 a litre. The Finance Ministry cut it by about &#8377;10 a litre for domestic sale by a notification of 26 March 2026, with no change in retail prices; one report puts the relevant duty at &#8377;3 a litre, down from &#8377;13 (<a href="https://moneylife.in/article/petrol-excise-duty-down-to-3-diesel-nil-no-change-in-retail-prices-as-govt-aims-to-cut-omc-losses/80059.html" rel="noopener">Moneylife</a>, <a href="https://www.taxtmi.com/news?id=71850" rel="noopener">TaxTMI</a>). Check the current Central Excise tariff before quoting a rupee figure. The state VAT arithmetic below does not depend on excise; the Union excise-loss range in Section 2, computed at the old rate, is overstated.</p>
+
+    <h3>Where the ethanol is made</h3>
+    <p>Supply comes from two feedstock families. <b>Sugarcane and molasses</b> distilleries, built off sugar mills, are concentrated in Maharashtra, Uttar Pradesh, Karnataka, Tamil Nadu, Gujarat and Bihar. <b>Grain</b> distilleries, using maize and damaged or surplus FCI rice, are the fastest-growing segment; Uttar Pradesh added roughly 50 crore litres a year of new grain capacity in 2025 alone, much of it around the Gorakhpur GIDA industrial cluster, alongside Punjab, Bihar and Madhya Pradesh.</p>
+    <p>Installed capacity stood at roughly <b>2,000 crore litres a year</b> for ethanol supply year 2025&ndash;26 (CareEdge, May 2026), with about 400 crore litres a year more expected by FY27. The Department of Food and Public Distribution (DFPD) sanction register is far larger, at about 4,530 crore litres across 1,212 approved projects. The same CareEdge report (&ldquo;E85 Impact: Ethanol Overcapacity to Persist,&rdquo; 14 May 2026) states as its headline finding that India has roughly <b>700 crore litres a year of structural overcapacity</b>, with distilleries running at 60&ndash;65% utilisation, a condition it expects to last three years or more. Regional modelling from the same dataset puts Maharashtra about 277 crore litres a year in surplus and Tamil Nadu about 77 crore litres a year in deficit. Because of the destination rule above, Maharashtra&rsquo;s surplus earns SGST for whichever state burns it.</p>
+    <p>The marginal litre past E20 is increasingly grain, principally maize, the costliest feedstock per litre, which ties ethanol economics to poultry and animal-feed markets. FCI surplus rice covers an estimated ~211 crore litres a year at typical lifting rates (about 3.9 percentage points of national blend); rice-for-ethanol allocation was suspended once before, in July 2023.</p>
+    <p class="gb-note" style="font-size:13.5px"><b>2026-27 tender (update of 7 November 2026).</b> The tender issued on 16 October 2026 seeks about 1,100 crore litres for November 2026 to October 2027, roughly 55% of the ~2,000 crore litres of capacity, and invites no ethanol made from cane juice, sugar syrup or B-heavy molasses. Cane-belt distilleries can bid only C-heavy molasses this year, priced at &#8377;57.97 a litre, while grain distilleries take the rest (<a href="https://thefederal.com/category/business/india-sets-zero-sugar-diversion-ethanol-2026-27-259885">The Federal</a>, <a href="https://swarajyamag.com/world/india-bars-ethanol-made-from-sugarcane-juice-syrup-and-b-heavy-molasses-in-2026-27-tender-as-sugar-prices-rise">Swarajya</a>). The SGST arithmetic is unaffected, since it depends on where fuel is sold, and no change to the 5% GST rate on blending ethanol was found.</p>
+  </section>
+
+  <section id="state-losses">
+    <h2>2. States lose &#8377;17,863 crore a year at E20 and &#8377;26,795 crore at E30</h2>
+    <p>The tables below apply today&rsquo;s tax architecture (5% GST on ethanol, 2.5% to the state; full state VAT foregone on the petrol volume ethanol displaces) to PPAC state-wise petrol (MS) sales and headline state VAT rates, at four blend levels.</p>
+    <div class="tablewrap">
+      <table>
+        <caption>All-India: ethanol volume, state VAT foregone, SGST gained at 2.5%, and the net state shortfall, by blend.</caption>
+        <thead><tr><th>Blend</th><th class="num">Ethanol displacing petrol, bn L</th><th class="num">State VAT foregone, crore ₹</th><th class="num">SGST gained (2.5%), crore ₹</th><th class="num">Net state loss, crore ₹</th></tr></thead>
+        <tbody>
+          <tr><td>E10</td><td class="num">5.4</td><td class="num">9,743</td><td class="num">811</td><td class="num">8,932</td></tr>
+          <tr><td>E20 <span class="sub">(current)</span></td><td class="num">10.8</td><td class="num">19,485</td><td class="num">1,622</td><td class="num">17,863</td></tr>
+          <tr><td>E25</td><td class="num">13.5</td><td class="num">24,358</td><td class="num">2,025</td><td class="num">22,333</td></tr>
+          <tr><td>E30</td><td class="num">16.2</td><td class="num">29,229</td><td class="num">2,434</td><td class="num">26,795</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="lede" style="font-size:13.5px;max-width:70ch;">E10 is derived by linear scaling of the E20 model, not separately re-derived from PPAC tables. The Union also forgoes roughly &#8377;10,760&ndash;&#8377;32,270 crore a year of central excise across E10&ndash;E30 on the same displaced volume, a bigger number than the state VAT loss at every blend level but one the Centre absorbs; it was computed at the pre-March 2026 excise rate and is overstated (see Section 1).</p>
+
+<figure class="gb-figure" style="margin:1.5rem 0 1.75rem;text-align:center">
+<svg role="img" aria-label="Net state tax shortfall by blend level: 8,932 crore rupees at E10, 17,863 at E20, 22,333 at E25 and 26,795 at E30" style="width:100%;height:auto;max-width:700px;display:block;margin:0 auto" viewBox="0 0 700 360" xmlns="http://www.w3.org/2000/svg" font-family="Georgia,'Times New Roman',serif">
+<rect x="0" y="0" width="700" height="360" fill="#f8f9fa"/>
+<text x="350" y="30" text-anchor="middle" font-size="17" font-weight="700" fill="#212529">Net State Tax Shortfall, by Blend Level</text>
+<text x="350" y="49" text-anchor="middle" font-size="12" fill="#495057">All-India, &#8377; crore &#8212; VAT foregone minus SGST gained</text>
+<line x1="70" y1="300" x2="630" y2="300" stroke="#212529" stroke-width="1.5"/>
+<rect x="110" y="220" width="90" height="80" fill="#0b5794"/>
+<text x="155" y="210" text-anchor="middle" font-size="13" font-weight="700" fill="#212529">&#8377;8,932cr</text>
+<text x="155" y="316" text-anchor="middle" font-size="12" fill="#212529">E10</text>
+<rect x="250" y="140" width="90" height="160" fill="#0b5794"/>
+<text x="295" y="130" text-anchor="middle" font-size="13" font-weight="700" fill="#212529">&#8377;17,863cr</text>
+<text x="295" y="316" text-anchor="middle" font-size="12" fill="#212529">E20 (current)</text>
+<rect x="390" y="100" width="90" height="200" fill="#0b5794"/>
+<text x="435" y="90" text-anchor="middle" font-size="13" font-weight="700" fill="#212529">&#8377;22,333cr</text>
+<text x="435" y="316" text-anchor="middle" font-size="12" fill="#212529">E25</text>
+<rect x="530" y="60" width="90" height="240" fill="#c0392b"/>
+<text x="575" y="50" text-anchor="middle" font-size="13" font-weight="700" fill="#212529">&#8377;26,795cr</text>
+<text x="575" y="316" text-anchor="middle" font-size="12" fill="#212529">E30</text>
+<text x="350" y="340" text-anchor="middle" font-size="10" fill="#868e96">Source: PPAC Ready Reckoner FY2025-26 H1 state-wise petrol sales, headline state VAT rates; modelled at &#8377;78/L pre-VAT petrol, &#8377;60/L ethanol</text>
+</svg>
+<figcaption style="font-size:.8em;color:#868e96;font-family:-apple-system,'Segoe UI',sans-serif;margin-top:.5rem">At every blend level the VAT states forgo far exceeds the SGST they gain: &#8377;19,485 crore against &#8377;1,622 crore at E20. The Centre does not share this gap.</figcaption>
+</figure>
+
+    <h3>Top 15 states by net loss at E20</h3>
+    <div class="tablewrap">
+      <table>
+        <caption>Ranked by net state revenue shortfall at E20. VAT is the headline petrol rate (excludes cesses and floors). The last two columns apply the higher ethanol SGST rates of Section 3; &ldquo;&mdash;&rdquo; means not modelled for that state.</caption>
+        <thead><tr><th>State</th><th class="num">Petrol VAT, %</th><th class="num">Petrol, bn L</th><th class="num">Ethanol, bn L</th><th class="num">VAT foregone, crore ₹</th><th class="num">Net loss today (2.5% SGST), crore ₹</th><th class="num">Net loss at 10% SGST, crore ₹</th><th class="num">Net loss at 15% SGST, crore ₹</th></tr></thead>
+        <tbody>
+          <tr><td>Maharashtra</td><td class="num">25.0</td><td class="num">5.91</td><td class="num">1.18</td><td class="num">2,303</td><td class="num">2,126</td><td class="num">1,594</td><td class="num">1,240</td></tr>
+          <tr><td>Karnataka</td><td class="num">29.84</td><td class="num">4.13</td><td class="num">0.83</td><td class="num">1,921</td><td class="num">1,798</td><td class="num">1,426</td><td class="num">1,178</td></tr>
+          <tr><td>Uttar Pradesh</td><td class="num">19.36</td><td class="num">6.53</td><td class="num">1.31</td><td class="num">1,972</td><td class="num">1,776</td><td class="num">1,188</td><td class="num">796</td></tr>
+          <tr><td>Telangana</td><td class="num">35.2</td><td class="num">2.43</td><td class="num">0.49</td><td class="num">1,337</td><td class="num">1,264</td><td class="num">1,045</td><td class="num">899</td></tr>
+          <tr><td>Rajasthan</td><td class="num">29.04</td><td class="num">2.75</td><td class="num">0.55</td><td class="num">1,246</td><td class="num">1,164</td><td class="num">916</td><td class="num">751</td></tr>
+          <tr><td>Kerala</td><td class="num">30.08</td><td class="num">2.54</td><td class="num">0.51</td><td class="num">1,192</td><td class="num">1,116</td><td class="num">887</td><td class="num">735</td></tr>
+          <tr><td>Madhya Pradesh</td><td class="num">29.0</td><td class="num">2.64</td><td class="num">0.53</td><td class="num">1,195</td><td class="num">1,116</td><td class="num">878</td><td class="num">719</td></tr>
+          <tr><td>Andhra Pradesh</td><td class="num">31.0</td><td class="num">2.20</td><td class="num">0.44</td><td class="num">1,063</td><td class="num">997</td><td class="num">799</td><td class="num">667</td></tr>
+          <tr><td>Tamil Nadu</td><td class="num">13.0</td><td class="num">4.78</td><td class="num">0.96</td><td class="num">968</td><td class="num">825</td><td class="num">395</td><td class="num">108</td></tr>
+          <tr><td>Gujarat</td><td class="num">13.7</td><td class="num">3.65</td><td class="num">0.73</td><td class="num">780</td><td class="num">671</td><td class="num">342</td><td class="num">123</td></tr>
+          <tr><td>West Bengal</td><td class="num">25.0</td><td class="num">1.86</td><td class="num">0.37</td><td class="num">727</td><td class="num">671</td><td class="num">&mdash;</td><td class="num">&mdash;</td></tr>
+          <tr><td>Odisha</td><td class="num">28.0</td><td class="num">1.56</td><td class="num">0.31</td><td class="num">683</td><td class="num">636</td><td class="num">&mdash;</td><td class="num">&mdash;</td></tr>
+          <tr><td>Bihar</td><td class="num">23.58</td><td class="num">1.57</td><td class="num">0.31</td><td class="num">577</td><td class="num">530</td><td class="num">&mdash;</td><td class="num">&mdash;</td></tr>
+          <tr><td>Haryana</td><td class="num">18.2</td><td class="num">1.93</td><td class="num">0.39</td><td class="num">549</td><td class="num">491</td><td class="num">&mdash;</td><td class="num">&mdash;</td></tr>
+          <tr><td>Chhattisgarh</td><td class="num">24.0</td><td class="num">1.19</td><td class="num">0.24</td><td class="num">446</td><td class="num">410</td><td class="num">&mdash;</td><td class="num">&mdash;</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="gb-note" style="font-size:12.5px;color:var(--muted)">The rate-scenario model recomputes SGST from rounded ethanol volumes, so its &ldquo;today&rdquo; figures differ from this table by &#8377;1 crore for three states (Karnataka 1,797, Rajasthan 1,163, Gujarat 670).</p>
+    <p>Two things set a state&rsquo;s exposure: its <b>VAT rate</b> (Telangana, Kerala, Andhra Pradesh, Karnataka, Rajasthan and Madhya Pradesh sit near or above 29%) and its <b>petrol volume</b> (Uttar Pradesh, Maharashtra, Tamil Nadu and Gujarat are large fuel markets). Maharashtra and Karnataka score high on both and carry the largest absolute exposure. Telangana&rsquo;s 35.2% rate makes it heavily exposed even at a smaller volume. Tamil Nadu (13%) and Gujarat (13.7%) are large markets whose light VAT rates cap the loss per litre.</p>
+
+    <h3>The loss scales with the blend</h3>
+    <div class="tablewrap">
+      <table>
+        <caption>Net state revenue shortfall by blend level, top 8 states. E10 is linearly derived from the E20 model; E25 and E30 come directly from it.</caption>
+        <thead><tr><th>State</th><th class="num">E10, crore ₹</th><th class="num">E20, crore ₹</th><th class="num">E25, crore ₹</th><th class="num">E30, crore ₹</th></tr></thead>
+        <tbody>
+          <tr><td>Maharashtra</td><td class="num">1,063</td><td class="num">2,126</td><td class="num">2,658</td><td class="num">3,189</td></tr>
+          <tr><td>Karnataka</td><td class="num">899</td><td class="num">1,798</td><td class="num">2,247</td><td class="num">2,696</td></tr>
+          <tr><td>Uttar Pradesh</td><td class="num">888</td><td class="num">1,776</td><td class="num">2,221</td><td class="num">2,665</td></tr>
+          <tr><td>Telangana</td><td class="num">632</td><td class="num">1,264</td><td class="num">1,579</td><td class="num">1,895</td></tr>
+          <tr><td>Rajasthan</td><td class="num">582</td><td class="num">1,164</td><td class="num">1,455</td><td class="num">1,746</td></tr>
+          <tr><td>Kerala</td><td class="num">558</td><td class="num">1,116</td><td class="num">1,394</td><td class="num">1,673</td></tr>
+          <tr><td>Madhya Pradesh</td><td class="num">558</td><td class="num">1,116</td><td class="num">1,395</td><td class="num">1,674</td></tr>
+          <tr><td>Andhra Pradesh</td><td class="num">499</td><td class="num">997</td><td class="num">1,247</td><td class="num">1,496</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p>Doubling the blend from E10 to E20 roughly doubles each state&rsquo;s shortfall, and E30 roughly triples it against E10. Under the present split there are no state winners: every one of the 36 states and UTs in the model shows a net loss at every blend level, because the 2.5% SGST is smaller than the VAT the same volume would have earned as petrol at every observed headline rate from 13% to over 35%. Higher blending is a headwind for every state at once, of different sizes.</p>
+    <div class="cards">
+      <div class="card" style="--rail:var(--loss)">
+        <div class="k">Loses most</div>
+        <div class="v">High VAT &#215; high volume</div>
+        <p>Maharashtra and Karnataka top the list. Telangana&rsquo;s 35.2% rate makes it heavily exposed at a smaller volume.</p>
+      </div>
+      <div class="card" style="--rail:var(--gain)">
+        <div class="k">Loses least (relative)</div>
+        <div class="v">Low VAT states</div>
+        <p>Tamil Nadu (13%) and Gujarat (13.7%) are large petrol markets with a smaller shortfall per litre.</p>
+      </div>
+      <div class="card" style="--rail:var(--accent)">
+        <div class="k">Produces, does not necessarily earn</div>
+        <div class="v">Maharashtra&rsquo;s surplus</div>
+        <p>The ~277 crore litre a year surplus feeds deficit states such as Tamil Nadu; the SGST is collected where the fuel is burned.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="sgst-rates">
+    <h2>3. A higher ethanol SGST rate narrows the loss; at 18% two states turn net-positive</h2>
+    <p>Two framings of the same lever appear in this series. The first is a <b>dedicated</b> state levy of 1&ndash;5% on top of today&rsquo;s embedded 2.5% SGST, funded from the roughly &#8377;15 a litre cost gap between ethanol and the petrol it replaces, so that it need not move the pump price. The second is a single <b>total</b> SGST-equivalent rate on ethanol, raised from 2.5% to 5%, 7.5%, 10%, 12.5%, 15% and the standard 18% GST slab. A dedicated 5% levy is the same as a 7.5% total rate; both arrive at 18.2% of the gap closed. None of these rates is enacted or under GST Council discussion at these levels, as far as this series could determine.</p>
+
+    <div class="tablewrap">
+      <table>
+        <caption>National ethanol SGST and net state position at E20, by total SGST-equivalent rate on ethanol. National ethanol value at E20: &#8377;64,872 crore a year.</caption>
+        <thead><tr><th>Rate on ethanol, %</th><th class="num">National SGST, crore ₹/yr</th><th class="num">National net position, crore ₹</th><th class="num">Share of the &#8377;17,863 crore gap closed, %</th></tr></thead>
+        <tbody>
+          <tr><td>2.5 (today)</td><td class="num">1,622</td><td class="num">&minus;17,863</td><td class="num">0.0</td></tr>
+          <tr><td>5.0</td><td class="num">3,244</td><td class="num">&minus;16,241</td><td class="num">9.1</td></tr>
+          <tr><td>7.5</td><td class="num">4,865</td><td class="num">&minus;14,620</td><td class="num">18.2</td></tr>
+          <tr><td>10.0</td><td class="num">6,487</td><td class="num">&minus;12,998</td><td class="num">27.2</td></tr>
+          <tr><td>12.5</td><td class="num">8,109</td><td class="num">&minus;11,376</td><td class="num">36.3</td></tr>
+          <tr><td>15.0</td><td class="num">9,731</td><td class="num">&minus;9,754</td><td class="num">45.4</td></tr>
+          <tr><td>18.0 (standard GST slab)</td><td class="num">11,677</td><td class="num">&minus;7,808</td><td class="num">56.3</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="gb-note" style="font-size:12.5px;color:var(--muted)">Net position = SGST at that rate minus the &#8377;19,485 crore of VAT foregone at E20, which does not depend on the ethanol rate. &ldquo;Gap closed&rdquo; counts only revenue above today&rsquo;s 2.5%. E20 blend, &#8377;60/litre ethanol, 0.74 kg/litre density, 36 states/UTs. <b>Update of 7 November 2026:</b> PPAC data reported for 2025-26 show petrol consumption up about 6.5% (<a href="https://navhindtimes.in/?p=454930">Navhind Times</a>, citing PPAC; <a href="https://www.business-standard.com/economy/news/india-petrol-demand-october-festive-season-diesel-sales-125110200513_1.html">Business Standard</a>: up 6.79% in the first seven months). Both the SGST and the VAT foregone scale with volume, so each rupee figure in this piece would be roughly 6.5% higher on 2025-26 volumes while the shares closed stay the same; the tables have not been rerun.</p>
+
+<figure class="gb-figure" style="margin:1.5rem 0 1.75rem;text-align:center">
+<svg role="img" aria-label="Share of the 17,863 crore rupee state gap closed by ethanol SGST rate: 0% at 2.5, 9.1% at 5, 18.2% at 7.5, 27.2% at 10, 36.3% at 12.5, 45.4% at 15, 56.3% at 18" style="width:100%;height:auto;max-width:700px;display:block;margin:0 auto" viewBox="0 0 700 380" xmlns="http://www.w3.org/2000/svg" font-family="Georgia,'Times New Roman',serif">
+<rect x="0" y="0" width="700" height="380" fill="#f8f9fa"/>
+<text x="30" y="34" font-size="18" fill="#1a1a1a" font-weight="bold">Share of the State Gap Closed, by Ethanol SGST Rate</text>
+<text x="30" y="54" font-size="12.5" fill="#4a4a4a" font-style="italic">National, E20, share of the &#8377;17,863 crore net shortfall closed</text>
+<g font-size="11" fill="#595959" font-family="-apple-system,Helvetica,Arial,sans-serif">
+<line x1="70" y1="265" x2="670" y2="265" stroke="#e2e2e2"/><text x="60" y="269" text-anchor="end">10%</text>
+<line x1="70" y1="230" x2="670" y2="230" stroke="#e2e2e2"/><text x="60" y="234" text-anchor="end">20%</text>
+<line x1="70" y1="195" x2="670" y2="195" stroke="#e2e2e2"/><text x="60" y="199" text-anchor="end">30%</text>
+<line x1="70" y1="160" x2="670" y2="160" stroke="#e2e2e2"/><text x="60" y="164" text-anchor="end">40%</text>
+<line x1="70" y1="125" x2="670" y2="125" stroke="#e2e2e2"/><text x="60" y="129" text-anchor="end">50%</text>
+<line x1="70" y1="90" x2="670" y2="90" stroke="#e2e2e2"/><text x="60" y="94" text-anchor="end">60%</text>
+<text x="60" y="304" text-anchor="end">0%</text>
+</g>
+<line x1="70" y1="300" x2="670" y2="300" stroke="#1a1a1a" stroke-width="1.2"/>
+<g font-size="12" fill="#1a1a1a" font-family="-apple-system,Helvetica,Arial,sans-serif" text-anchor="middle">
+<rect x="95" y="299" width="60" height="1" fill="#c9c9c9"/><text x="125" y="292">0.0%</text><text x="125" y="316">2.5%</text>
+<rect x="177" y="268.2" width="60" height="31.8" fill="#0b5794"/><text x="207" y="261">9.1%</text><text x="207" y="316">5%</text>
+<rect x="259" y="236.3" width="60" height="63.7" fill="#0b5794"/><text x="289" y="229">18.2%</text><text x="289" y="316">7.5%</text>
+<rect x="341" y="204.8" width="60" height="95.2" fill="#0b5794"/><text x="371" y="197">27.2%</text><text x="371" y="316">10%</text>
+<rect x="423" y="173" width="60" height="127" fill="#0b5794"/><text x="453" y="166">36.3%</text><text x="453" y="316">12.5%</text>
+<rect x="505" y="141.1" width="60" height="158.9" fill="#0b5794"/><text x="535" y="134">45.4%</text><text x="535" y="316">15%</text>
+<rect x="587" y="102.9" width="60" height="197.1" fill="#1a8f4c"/><text x="617" y="96" font-weight="bold">56.3%</text><text x="617" y="316" font-weight="bold">18%</text>
+</g>
+<text x="370" y="342" text-anchor="middle" font-size="12" fill="#595959" font-family="-apple-system,Helvetica,Arial,sans-serif">Total state SGST-equivalent rate on ethanol (2.5% today; 18% is the standard GST slab)</text>
+<text x="30" y="368" font-size="10.5" fill="#8a4b08" font-family="-apple-system,Helvetica,Arial,sans-serif">The national net position stays negative at every rate modelled. Source: PPAC state-wise petrol sales, &#8377;60/L ethanol, E20 blend</text>
+</svg>
+<figcaption style="font-size:.8em;color:#868e96;font-family:-apple-system,'Segoe UI',sans-serif;margin-top:.5rem">Even the 18% standard slab closes 56.3% of the national gap; full parity through an ethanol-only rate would need a rate near 27%, at which point the levy starts to move the pump price.</figcaption>
+</figure>
+
+    <h3>The dedicated levy at each blend</h3>
+    <div class="tablewrap">
+      <table>
+        <caption>Dedicated ethanol SGST on top of today&rsquo;s 2.5%, crore ₹ a year, at 1&ndash;5% by blend. E10 is linearly derived; E20 to E30 are as modelled, with the ethanol price rising from about &#8377;61.5/litre at E22 to about &#8377;68.1/litre at E30.</caption>
+        <thead><tr><th>Blend</th><th class="num">Ethanol, bn L</th><th class="num">1% levy, crore ₹</th><th class="num">2% levy, crore ₹</th><th class="num">3% levy, crore ₹</th><th class="num">4% levy, crore ₹</th><th class="num">5% levy, crore ₹</th></tr></thead>
+        <tbody>
+          <tr><td>E10</td><td class="num">5.4</td><td class="num">325</td><td class="num">649</td><td class="num">973</td><td class="num">1,297</td><td class="num">1,622</td></tr>
+          <tr><td>E20 <span class="sub">(current)</span></td><td class="num">10.8</td><td class="num">649</td><td class="num">1,297</td><td class="num">1,946</td><td class="num">2,594</td><td class="num">3,243</td></tr>
+          <tr><td>E22</td><td class="num">11.9</td><td class="num">732</td><td class="num">1,465</td><td class="num">2,197</td><td class="num">2,930</td><td class="num">3,662</td></tr>
+          <tr><td>E25</td><td class="num">13.5</td><td class="num">865</td><td class="num">1,730</td><td class="num">2,594</td><td class="num">3,459</td><td class="num">4,324</td></tr>
+          <tr><td>E27</td><td class="num">14.6</td><td class="num">957</td><td class="num">1,915</td><td class="num">2,872</td><td class="num">3,829</td><td class="num">4,787</td></tr>
+          <tr><td>E30</td><td class="num">16.2</td><td class="num">1,103</td><td class="num">2,205</td><td class="num">3,308</td><td class="num">4,410</td><td class="num">5,513</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p>Across these rates and blends a dedicated levy recovers <b>3&ndash;18%</b> of the VAT states forgo. At E27, the non-flex-fleet ceiling used as the modelling anchor, a 5% dedicated levy would raise the most in Uttar Pradesh (&#8377;578 crore), Maharashtra (&#8377;523 crore), Tamil Nadu (&#8377;423 crore), Karnataka (&#8377;366 crore) and Gujarat (&#8377;323 crore).</p>
+
+    <h3>State by state, the gain tracks petrol volume</h3>
+    <div class="tablewrap">
+      <table>
+        <caption>SGST on ethanol by state at E20, crore ₹ a year, ranked by ethanol volume. PPAC state-wise MS consumption, &#8377;60/litre ethanol, 0.74 kg/litre.</caption>
+        <thead><tr><th>State</th><th class="num">Ethanol, bn L (E20)</th><th class="num">At 2.5% (today), crore ₹</th><th class="num">At 5%, crore ₹</th><th class="num">At 7.5%, crore ₹</th><th class="num">At 10%, crore ₹</th></tr></thead>
+        <tbody>
+          <tr><td>Uttar Pradesh</td><td class="num">1.31</td><td class="num">196</td><td class="num">392</td><td class="num">588</td><td class="num">784</td></tr>
+          <tr><td>Maharashtra</td><td class="num">1.18</td><td class="num">177</td><td class="num">354</td><td class="num">532</td><td class="num">709</td></tr>
+          <tr><td>Tamil Nadu</td><td class="num">0.96</td><td class="num">143</td><td class="num">287</td><td class="num">430</td><td class="num">573</td></tr>
+          <tr><td>Karnataka</td><td class="num">0.83</td><td class="num">124</td><td class="num">248</td><td class="num">371</td><td class="num">495</td></tr>
+          <tr><td>Gujarat</td><td class="num">0.73</td><td class="num">110</td><td class="num">219</td><td class="num">329</td><td class="num">438</td></tr>
+          <tr><td>Rajasthan</td><td class="num">0.55</td><td class="num">83</td><td class="num">165</td><td class="num">248</td><td class="num">330</td></tr>
+          <tr><td>Madhya Pradesh</td><td class="num">0.53</td><td class="num">79</td><td class="num">159</td><td class="num">238</td><td class="num">317</td></tr>
+          <tr><td>Kerala</td><td class="num">0.51</td><td class="num">76</td><td class="num">152</td><td class="num">229</td><td class="num">305</td></tr>
+          <tr><td>Telangana</td><td class="num">0.49</td><td class="num">73</td><td class="num">146</td><td class="num">219</td><td class="num">292</td></tr>
+          <tr><td>Andhra Pradesh</td><td class="num">0.44</td><td class="num">66</td><td class="num">132</td><td class="num">198</td><td class="num">264</td></tr>
+          <tr><td>Haryana</td><td class="num">0.39</td><td class="num">58</td><td class="num">116</td><td class="num">174</td><td class="num">232</td></tr>
+          <tr><td>West Bengal</td><td class="num">0.37</td><td class="num">56</td><td class="num">112</td><td class="num">168</td><td class="num">224</td></tr>
+          <tr><td>Punjab</td><td class="num">0.34</td><td class="num">51</td><td class="num">102</td><td class="num">152</td><td class="num">203</td></tr>
+          <tr><td>Bihar</td><td class="num">0.31</td><td class="num">47</td><td class="num">94</td><td class="num">141</td><td class="num">188</td></tr>
+          <tr><td>Odisha</td><td class="num">0.31</td><td class="num">47</td><td class="num">94</td><td class="num">140</td><td class="num">187</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="gb-note" style="font-size:12.5px;color:var(--muted)">Bihar and Odisha both round to 0.31 bn litres of ethanol, but their petrol volumes differ (1.57 against 1.56 bn litres), so their figures diverge slightly at 7.5% and 10%.</p>
+    <p>Uttar Pradesh, India&rsquo;s largest petrol market, tops the list on volume despite a 19.36% VAT rate. At 10% its SGST on ethanol would rise from &#8377;196 crore to &#8377;784 crore a year, an extra &#8377;588 crore, against a net VAT shortfall of about &#8377;1,776 crore. Tamil Nadu ranks third on volume despite one of the lowest petrol VAT rates.</p>
+    <p>The net position (the last two columns of the <a href="#state-losses">top-15 table</a>) follows VAT rates as much as volume, because a low-VAT state has a smaller gap to close. Tamil Nadu improves from &minus;&#8377;825 crore today to &minus;&#8377;108 crore at 15%, an 86.9% closure, the best of any state modelled; Gujarat reaches &minus;&#8377;123 crore. At <b>18%</b> both cross into surplus: Tamil Nadu to <b>+&#8377;63 crore</b> (107% of its gap closed) and Gujarat to <b>+&#8377;8 crore</b> (101%), while Uttar Pradesh closes 72% of its gap. Maharashtra and Karnataka show the opposite pattern: even at 15% they remain &#8377;1,240 crore and &#8377;1,178 crore short, more than Tamil Nadu&rsquo;s whole gap today. A higher rate compresses the remaining gap fastest where it was already smallest.</p>
+
+    <h3>Karnataka&rsquo;s 2024 VAT increase is a precedent for petrol, not for ethanol</h3>
+    <p>In June 2024 Karnataka raised its sales tax on petrol from 25.92% to 29.84% and on diesel from 14.34% to 18.44%, a ₹3 a litre increase expected to bring in an extra &#8377;2,500&ndash;3,000 crore a year. That shows a state can raise fuel taxation for meaningful revenue, but it was a change to petrol VAT, which is within state control under Article 246 and decided in a state budget. Ethanol sits inside GST, so its rate and its CGST:SGST split are GST Council decisions needing a three-quarters weighted majority, with states holding two-thirds of the weight and the Centre one-third. No single state can raise the ethanol SGST on its own.</p>
+  </section>
+
+  <section id="cng-vat">
+    <h2>4. CNG VAT ranges from 0% to 15% across states</h2>
+    <p>The second half of the proposal concerns CNG, which runs on the opposite problem. PNGRB&rsquo;s April 2025 case study report on state/UT-wise VAT on natural gas (&ldquo;as per data submitted by entities on PNGRB e-portal&rdquo;) shows a tax map that has never been harmonised, for a fuel promoted nationally as the cleaner, cheaper alternative to petrol and diesel.</p>
+<figure style="margin:1.6rem 0">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Compressed_Natural_Gas_%28CNG%29_Filling_Station%2C_Maharastra%2C_India_%281%29.jpg/960px-Compressed_Natural_Gas_%28CNG%29_Filling_Station%2C_Maharastra%2C_India_%281%29.jpg" alt="A CNG filling station in Maharashtra, India" loading="lazy" style="width:100%;height:auto;border-radius:6px;display:block"/>
+<figcaption class="gb-note" style="margin-top:.4rem">A CNG filling station in Maharashtra, one of the low-VAT states for CNG. <a href="https://commons.wikimedia.org/wiki/File:Compressed_Natural_Gas_(CNG)_Filling_Station,_Maharastra,_India_(1).jpg" rel="noopener noreferrer">Compressed Natural Gas (CNG) Filling Station, Maharastra, India (1)</a>, K.Venkataramana, CC0, via Wikimedia Commons.</figcaption>
+</figure>
+    <div class="tablewrap">
+      <table>
+        <caption>VAT on domestic piped natural gas (DPNG) and CNG, and CNG retail prices (taxes included), by state/UT, April 2025. &ldquo;&mdash;&rdquo; means the price table does not list the state.</caption>
+        <thead><tr><th>State / UT</th><th class="num">DPNG VAT, %</th><th class="num">CNG VAT, %</th><th class="num">Avg CNG price, ₹/kg</th><th class="num">Max CNG price, ₹/kg</th></tr></thead>
+        <tbody>
+          <tr><td>NCT of Delhi</td><td class="num">5</td><td class="num">0</td><td class="num">76.08</td><td class="num">76.08</td></tr>
+          <tr><td>Maharashtra</td><td class="num">3</td><td class="num">3</td><td class="num">86.95</td><td class="num">96.95</td></tr>
+          <tr><td>Goa; Tripura</td><td class="num">4</td><td class="num">4</td><td class="num">&mdash;</td><td class="num">&mdash;</td></tr>
+          <tr><td>Gujarat</td><td class="num">5</td><td class="num">5</td><td class="num">79.92</td><td class="num">82.67</td></tr>
+          <tr><td>Andhra Pradesh, Kerala, Tamil Nadu, West Bengal</td><td class="num">5</td><td class="num">5</td><td class="num">&mdash;</td><td class="num">&mdash;</td></tr>
+          <tr><td>Assam</td><td class="num">14.5</td><td class="num">5</td><td class="num">&mdash;</td><td class="num">&mdash;</td></tr>
+          <tr><td>Karnataka</td><td class="num">5.5</td><td class="num">5</td><td class="num">&mdash;</td><td class="num">&mdash;</td></tr>
+          <tr><td>Haryana</td><td class="num">5.25</td><td class="num">5.25</td><td class="num">&mdash;</td><td class="num">&mdash;</td></tr>
+          <tr><td>UT Daman &amp; Diu / Dadra &amp; Nagar Haveli</td><td class="num">6</td><td class="num">6</td><td class="num">&mdash;</td><td class="num">&mdash;</td></tr>
+          <tr><td>Rajasthan</td><td class="num">7.5</td><td class="num">7.5</td><td class="num">89.48</td><td class="num">102.00</td></tr>
+          <tr><td>Uttarakhand</td><td class="num">5</td><td class="num">10</td><td class="num">103.15 (highest average)</td><td class="num">106.50</td></tr>
+          <tr><td>Uttar Pradesh</td><td class="num">tax on input 10</td><td class="num">tax on input 10; tax on sale 12.5</td><td class="num">94.05</td><td class="num">101.90</td></tr>
+          <tr><td>Bihar</td><td class="num">12.5</td><td class="num">12.5</td><td class="num">89.73</td><td class="num">93.00</td></tr>
+          <tr><td>UT Chandigarh</td><td class="num">5</td><td class="num">12.5</td><td class="num">&mdash;</td><td class="num">&mdash;</td></tr>
+          <tr><td>Himachal Pradesh</td><td class="num">4</td><td class="num">13.75</td><td class="num">101.70</td><td class="num">122.00 (national high)</td></tr>
+          <tr><td>Jharkhand, Madhya Pradesh</td><td class="num">14</td><td class="num">14</td><td class="num">&mdash;</td><td class="num">&mdash;</td></tr>
+          <tr><td>Punjab</td><td class="num">3.3</td><td class="num">14.3</td><td class="num">&mdash;</td><td class="num">&mdash;</td></tr>
+          <tr><td>Chhattisgarh</td><td class="num">14.5</td><td class="num">14.5</td><td class="num">&mdash;</td><td class="num">&mdash;</td></tr>
+          <tr><td>Telangana</td><td class="num">5</td><td class="num">14.5</td><td class="num">95.12</td><td class="num">96.00</td></tr>
+          <tr><td>UT Puducherry</td><td class="num">5</td><td class="num">14.5</td><td class="num">76.30</td><td class="num">78.00</td></tr>
+          <tr><td>Odisha</td><td class="num">5</td><td class="num">15</td><td class="num">89.41</td><td class="num">94.46</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="gb-note" style="font-size:12.5px;color:var(--muted)">Source: PNGRB Case Study Report, &ldquo;State/UT wise VAT on Natural Gas&rdquo; and &ldquo;State/UT wise D-PNG &amp; CNG Rates: Minimum &amp; Maximum,&rdquo; data as on April 2025. <b>Update of 7 November 2026:</b> Chandigarh cut VAT on natural gas from 12.5% to 5% from 18 September 2026 (<a href="https://www.constructionworld.in/energy-infrastructure/oil-and-gas/chandigarh-cuts-natural-gas-vat-from-12.5-per-cent-to-5-per-cent/97685">Construction World</a>), and Ladakh from 21% to 5% in August 2026 (<a href="https://www.outlookbusiness.com/news/ladakh-cuts-vat-on-natural-gas-to-5-to-boost-clean-energy-adoption">Outlook Business</a>). Prices have also risen: Delhi&rsquo;s IGL charged &#8377;86.98/kg after a 29 August 2026 increase, against &#8377;76.08 in the table (see <a href="https://blog.vertistratsolution.com/2026/10/biogas-is-priority-sector-loan-43.html">this blog&rsquo;s CBG price piece</a>).</p>
+    <p>Two clusters stand out. The low-VAT cluster is Delhi (0%), Maharashtra (3%) and Gujarat, Kerala, Tamil Nadu, Andhra Pradesh, West Bengal and Karnataka (about 5%). The high-VAT cluster charges 12.5&ndash;15%: Odisha (15%), Telangana, Puducherry and Chhattisgarh (14.5%), Jharkhand and Madhya Pradesh (14%), Himachal Pradesh (13.75%), Punjab (14.3%) and Bihar (12.5%). Punjab charges 14.3% on CNG against a DPNG rate of 3.3%, a gap the PNGRB table does not explain.</p>
+    <p>Prices follow VAT only loosely. Delhi and Puducherry sit near the bottom despite opposite VAT rates (0% and 14.5%); Puducherry&rsquo;s low price likely reflects its small, union-territory-scale distribution economics. Uttarakhand&rsquo;s average (&#8377;103.15/kg) exceeds Himachal Pradesh&rsquo;s (&#8377;101.70/kg) at a lower VAT (10% against 13.75%), which points to transport distance and terrain doing part of the work in the hill states.</p>
+
+    <h3>What the VAT gap costs a driver</h3>
+    <p>Applying the per-segment CNG efficiency from this blog&rsquo;s <a href="https://github.com/herrrickshaw/vehicle_fuel_mileage" target="_blank" rel="noopener">vehicle_fuel_mileage</a> cost model to the Delhi and Himachal Pradesh prices turns the tax gap into a cost per kilometre:</p>
+    <div class="tablewrap">
+      <table>
+        <caption>CNG cost per km at April 2025 PNGRB prices. Efficiency from the vehicle_fuel_mileage CostPerKm sheet.</caption>
+        <thead><tr><th>Vehicle segment</th><th class="num">CNG efficiency, km/kg</th><th class="num">Delhi (0% VAT, &#8377;76.08/kg), ₹/km</th><th class="num">Himachal avg (13.75% VAT, &#8377;101.70/kg), ₹/km</th><th class="num">Himachal max (&#8377;122.00/kg), ₹/km</th></tr></thead>
+        <tbody>
+          <tr><td>Two-wheeler</td><td class="num">102</td><td class="num">0.75</td><td class="num">1.00</td><td class="num">1.20</td></tr>
+          <tr><td>Hatchback</td><td class="num">28</td><td class="num">2.72</td><td class="num">3.63</td><td class="num">4.36</td></tr>
+          <tr><td>Sedan</td><td class="num">26</td><td class="num">2.93</td><td class="num">3.91</td><td class="num">4.69</td></tr>
+          <tr><td>Compact SUV</td><td class="num">22</td><td class="num">3.46</td><td class="num">4.62</td><td class="num">5.55</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p>At 15,000 km a year (the model&rsquo;s &ldquo;Average&rdquo; bracket), a hatchback owner in Himachal Pradesh paying the state average spends roughly <b>&#8377;13,700 a year</b> more on fuel than a Delhi driver, and roughly &#8377;24,600 more at the state&rsquo;s highest observed price. For a compact SUV the gaps are &#8377;17,500 and &#8377;31,300. That is 25&ndash;40% of the Himachal driver&rsquo;s annual CNG spend. Prices across states differ by up to 55&ndash;60% per kilogram between the highest- and lowest-VAT states, though the more typical gap is roughly 34&ndash;36%, for reasons of geography as much as policy.</p>
+    <p>If Himachal Pradesh cut CNG VAT to the 5% low-cluster rate, and assuming as a simplification that the pre-tax base price stays fixed, its average price would fall from &#8377;101.70/kg to roughly &#8377;93.88/kg, a saving of about &#8377;7.82/kg (7.7%), or roughly <b>&#8377;4,200 a year</b> for an average hatchback. That is real money but does not close the gap to Delhi. Any revenue-neutrality calculation would have to net this saving against the state&rsquo;s foregone CNG VAT, which this series did not cost.</p>
+    <p class="gb-note" style="font-size:12.5px;color:var(--muted)">The Delhi price differs by source and date: &#8377;76.08/kg (PNGRB, April 2025), &#8377;80.90/kg (outlet snapshot, 22 July 2026), &#8377;83.09/kg (city fuel board used in the cost model, July 2026) and &#8377;86.98/kg (IGL, after 29 August 2026, the latest). The April 2025 figures are kept above as the tax-arithmetic reference.</p>
+
+    <h3>Uptake and outlets are higher where CNG VAT is lower</h3>
+    <div class="tablewrap">
+      <table>
+        <caption>CNG VAT, CNG sales (PPAC Ready Reckoner FY2025-26 H1, Table 3.7, companies as on 30.09.2025) and CNG-equipped fuel outlets (82,593-outlet register, snapshot 22 July 2026), by state. &ldquo;&mdash;&rdquo; means not in that source&rsquo;s table.</caption>
+        <thead><tr><th>State / UT</th><th class="num">CNG VAT, %</th><th class="num">CNG sales FY26 H1, TMT</th><th class="num">CGD entities</th><th class="num">Fuel outlets, count</th><th class="num">CNG-equipped, count</th><th class="num">CNG share of outlets, %</th><th class="num">Avg posted CNG price, ₹/kg</th></tr></thead>
+        <tbody>
+          <tr><td>Delhi</td><td class="num">0</td><td class="num">610</td><td class="num">1</td><td class="num">363</td><td class="num">5</td><td class="num">1.4</td><td class="num">80.90</td></tr>
+          <tr><td>Maharashtra</td><td class="num">3</td><td class="num">726</td><td class="num">12</td><td class="num">8,270</td><td class="num">1,276</td><td class="num">15.4</td><td class="num">91.22</td></tr>
+          <tr><td>Gujarat</td><td class="num">5</td><td class="num">701</td><td class="num">8</td><td class="num">6,325</td><td class="num">1,510</td><td class="num">23.9</td><td class="num">82.00</td></tr>
+          <tr><td>Haryana</td><td class="num">5.25</td><td class="num">331</td><td class="num">10</td><td class="num">3,160</td><td class="num">699</td><td class="num">22.1</td><td class="num">85.51</td></tr>
+          <tr><td>Kerala</td><td class="num">5</td><td class="num">&mdash;</td><td class="num">&mdash;</td><td class="num">2,525</td><td class="num">359</td><td class="num">14.2</td><td class="num">85.37</td></tr>
+          <tr><td>Tamil Nadu</td><td class="num">5</td><td class="num">88</td><td class="num">7</td><td class="num">&mdash;</td><td class="num">&mdash;</td><td class="num">&mdash;</td><td class="num">&mdash;</td></tr>
+          <tr><td>Rajasthan</td><td class="num">7.5</td><td class="num">131</td><td class="num">12</td><td class="num">&mdash;</td><td class="num">&mdash;</td><td class="num">&mdash;</td><td class="num">&mdash;</td></tr>
+          <tr><td>Uttar Pradesh</td><td class="num">10 input / 12.5 sale</td><td class="num">518</td><td class="num">12</td><td class="num">9,814</td><td class="num">1,612</td><td class="num">16.4</td><td class="num">91.51</td></tr>
+          <tr><td>Uttarakhand</td><td class="num">10</td><td class="num">29</td><td class="num">4</td><td class="num">677</td><td class="num">89</td><td class="num">13.1</td><td class="num">87.96</td></tr>
+          <tr><td>Bihar</td><td class="num">12.5</td><td class="num">&mdash;</td><td class="num">&mdash;</td><td class="num">2,860</td><td class="num">358</td><td class="num">12.5</td><td class="num">89.68</td></tr>
+          <tr><td>Himachal Pradesh</td><td class="num">13.75</td><td class="num">1</td><td class="num">3</td><td class="num">591</td><td class="num">29</td><td class="num">4.9</td><td class="num">97.89</td></tr>
+          <tr><td>Madhya Pradesh</td><td class="num">14</td><td class="num">81</td><td class="num">10</td><td class="num">5,887</td><td class="num">708</td><td class="num">12.0</td><td class="num">85.94</td></tr>
+          <tr><td>Punjab</td><td class="num">14.3</td><td class="num">&mdash;</td><td class="num">&mdash;</td><td class="num">3,296</td><td class="num">403</td><td class="num">12.2</td><td class="num">87.35</td></tr>
+          <tr><td>Telangana</td><td class="num">14.5</td><td class="num">62</td><td class="num">5</td><td class="num">&mdash;</td><td class="num">&mdash;</td><td class="num">&mdash;</td><td class="num">&mdash;</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="gb-note" style="font-size:12.5px;color:var(--muted)">Outlet register: cng-cgd-retail-outlet-mapping repo (PNGRB GA allotment &times; SSRI retail-outlet register), built for this blog&rsquo;s <a href="https://blog.vertistratsolution.com/2026/07/india-fuel-retail-outlets-82k-geocoded.html">82,000-outlet mapping piece</a>. It links CNG dispensing to petrol-pump-format outlets only and undercounts standalone CGD stations, which is almost certainly why Delhi reads 1.4% against Indraprastha Gas&rsquo;s several hundred stations; treat the share column as a lower bound.</p>
+    <p>Himachal Pradesh sold 1 TMT of CNG in H1 FY26 against Delhi&rsquo;s 610 TMT from a single incumbent, though VAT is not the only reason: it is a smaller, dispersed hill market with three CGD entities still building networks. Low-VAT Gujarat and Haryana have the highest CNG-outlet shares (22&ndash;24%), Himachal the second-lowest (4.9%). Bihar breaks the pattern, with a 12.5% VAT and a 12.5% outlet share in line with Madhya Pradesh and Punjab, a reminder that roll-out timing can outweigh the VAT effect. CNG is not niche: FADA&rsquo;s FY26 retail data put it at roughly <b>22% of passenger-vehicle sales</b>.</p>
+
+    <h3>CNG against petrol and EV, by vehicle segment</h3>
+    <div class="tablewrap">
+      <table>
+        <caption>Delhi, July 2026 basis, from the vehicle_fuel_mileage model. Petrol reflects a 4% central E20 mileage-drop assumption (ARAI/SIAM range 2&ndash;6%); diesel is modelled only for sedan and compact SUV. Payback at 15,000 km a year.</caption>
+        <thead><tr><th>Vehicle segment</th><th class="num">Petrol (E20), ₹/km</th><th class="num">Diesel, ₹/km</th><th class="num">CNG, ₹/km</th><th class="num">EV, ₹/km</th><th class="num">CNG payback, years</th><th class="num">EV payback, years</th></tr></thead>
+        <tbody>
+          <tr><td>Two-wheeler</td><td class="num">1.93</td><td class="num">&mdash;</td><td class="num">0.81</td><td class="num">0.35</td><td class="num">0.9</td><td class="num">1.8</td></tr>
+          <tr><td>Hatchback</td><td class="num">6.65</td><td class="num">&mdash;</td><td class="num">2.97</td><td class="num">1.41</td><td class="num">1.7</td><td class="num">5.6</td></tr>
+          <tr><td>Sedan</td><td class="num">7.09</td><td class="num">4.33</td><td class="num">3.20</td><td class="num">1.51</td><td class="num">1.7</td><td class="num">5.8</td></tr>
+          <tr><td>Compact SUV</td><td class="num">8.18</td><td class="num">5.01</td><td class="num">3.78</td><td class="num">1.63</td><td class="num">1.7</td><td class="num">4.0</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p>CNG saves roughly 55&ndash;58% per km against E20 petrol in every segment, and pays back its upfront premium in about 1.7 years for cars and under a year for two-wheelers, faster than EV everywhere (diesel pays back in 3.1 years for a sedan and 3.4 for a compact SUV). EV payback approaches CNG&rsquo;s only at high mileage: at 25,000 km a year a hatchback EV pays back in about 3.4 years. Sales match this: CNG&rsquo;s ~22% of passenger-vehicle sales compares with an EV share of 8.5% of all FY26 vehicle sales (up from 6.8% in FY24), though the two shares are not like-for-like. Electric three-wheelers are over 60% of 3W sales (L5 passenger share 30.5%), while e-2Ws are 58% of EV units (1.4 million) but only 6.5% of two-wheelers sold (CEEW-GFC dashboard on Vahan, JMK Research, IESA, FADA FY26, via this blog&rsquo;s <a href="https://blog.vertistratsolution.com/2026/08/indias-ev-market-single-digit.html">EV market piece</a>). Across six metros the petrol cost per km for a hatchback runs from &#8377;6.65 (Delhi) to &#8377;7.53 (Hyderabad), almost entirely a VAT effect within a pump-price spread of &#8377;101.5 to &#8377;115.7 a litre; CNG and EV costs vary less between cities.</p>
+    <p>CNG also carries no equivalent of the ethanol mileage penalty. Ethanol&rsquo;s lower heating value is roughly 21 MJ/L against petrol&rsquo;s 32&ndash;33 MJ/L, so blending dilutes the energy in each litre. CNG runs through its own tank and injection system, and the SIAM data in the vehicle_fuel_mileage repo show the same-nameplate petrol-to-CNG conversion <em>gaining</em> distance per unit of fuel (+40.3% mean across 11 matched nameplates).</p>
+  </section>
+
+  <section id="donor-states">
+    <h2>5. Among donor states, the ethanol loss is largest in Maharashtra, Karnataka and Telangana</h2>
+    <p>Maharashtra, Karnataka, Gujarat and Tamil Nadu get back a fraction of what they contribute in GST, as this blog&rsquo;s <a href="https://blog.vertistratsolution.com/2026/08/who-collects-indias-gst-and-who.html">devolution piece</a> documented. One response on record is a state minister&rsquo;s formal proposal to the GST Council to change the 50:50 CGST:SGST split to something closer to SGST 70&ndash;80% and CGST 20&ndash;30%. That split divides <em>a single state&rsquo;s own GST collection</em> at the point of sale. It has nothing to do with the Finance Commission&rsquo;s separate, larger pool of Union taxes (income tax, corporation tax, customs, Union excise, plus CGST), redistributed under Article 280 with weights toward population and income distance. A bigger SGST share would help each state in proportion to its own GST base, so it would help the largest collectors most in absolute terms and do comparatively little for Uttar Pradesh or Bihar, which is likely to widen the donor-state grievance unless paired with a change to the devolution formula.</p>
+    <p>What donor states ask for on the record is different:</p>
+    <ul>
+      <li><b>A higher vertical share</b>, from 41% to 50% (Karnataka, via its Chief Minister&rsquo;s economic adviser).</li>
+      <li><b>Cesses and surcharges in the shareable pool.</b> The official devolution rate is 41%, but the effective share states receive is closer to 29&ndash;30%, because cesses and surcharges, outside Article 270&rsquo;s divisible pool, have grown as a share of central revenue.</li>
+      <li><b>New horizontal weights.</b> Karnataka has proposed GSDP contribution as an indicator, under which its share would rise from roughly 3.64% to 5.24%.</li>
+    </ul>
+    <p class="gb-note" style="font-size:13.5px"><b>Update of 13 October 2026.</b> The 16th Finance Commission&rsquo;s report, tabled on 1 February 2026, kept the states&rsquo; share at 41% for 2026-31 and gave contribution to GDP a 10% weight in place of the 2.5% tax-effort criterion (<a href="https://prsindia.org/policy/report-summaries/report-of-the-16th-finance-commission-for-2026-31" rel="noopener">PRS India</a>, <a href="https://moneylife.in/article/16th-finance-commission-retains-41-percentage-tax-devolution-interse-shares-to-shift-as-criteria-are-reworked-report/79561.html" rel="noopener">Moneylife</a>). The asks above therefore point to the Commission after 2031; the effect on Karnataka&rsquo;s 3.64% to 5.24% figures was not checked against the report.</p>
+    <p>The ethanol gap is different in kind: a GST Council matter, not a Finance Commission one, and one that falls heavily on some of the same states.</p>
+    <div class="tablewrap">
+      <table>
+        <caption>Petrol VAT and devolution-to-effective-GST-share ratio. Below 1&times; = net devolution donor; above 1&times; = net receiver.</caption>
+        <thead><tr><th>State</th><th class="num">Petrol VAT, %</th><th class="num">Net ethanol loss at E20, crore ₹</th><th class="num">Devolution &divide; effective GST share, ratio</th></tr></thead>
+        <tbody>
+          <tr><td>Telangana</td><td class="num">35.2</td><td class="num">1,264</td><td class="num">0.49</td></tr>
+          <tr><td>Karnataka</td><td class="num">29.84</td><td class="num">1,798</td><td class="num">0.49</td></tr>
+          <tr><td>Maharashtra</td><td class="num">25.0</td><td class="num">2,126</td><td class="num">0.34</td></tr>
+          <tr><td>Gujarat</td><td class="num">13.7</td><td class="num">671</td><td class="num">0.48</td></tr>
+          <tr><td>Tamil Nadu</td><td class="num">13.0</td><td class="num">825</td><td class="num">0.54</td></tr>
+          <tr><td>Uttar Pradesh</td><td class="num">19.36</td><td class="num">1,776</td><td class="num">2.13</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="gb-note" style="font-size:12.5px;color:var(--muted)">Ratio recomputed on a consistent all-state basis: PIB&rsquo;s 1 August 2026 devolution instalment share &divide; FY2025-26 effective GST share (SGST + settled IGST). Figures differ slightly from the narrower table in the devolution piece; direction and rough magnitude are the same.</p>
+    <p>Five of the six states are net donors. Telangana, Karnataka and Maharashtra combine the highest petrol VAT rates in the table with pronounced donor ratios (0.49, 0.49 and 0.34). Beyond those three, donor status does not track petrol VAT: Gujarat and Tamil Nadu are donors at the two lowest VAT rates, and Uttar Pradesh, the only receiver (2.13), taxes petrol more heavily than either. Closing the ethanol gap would not touch the 41% share or the cess leak, but it is a GST Council decision that would do most, in absolute terms, for the three donor states with the highest petrol VAT, on a timeline that does not depend on winning the constitutional argument first.</p>
+  </section>
+
+  <section id="proposal">
+    <h2>6. The proposal: four levers, and the share of the gap each closes</h2>
+    <p>The posts folded into this piece describe a package: change how ethanol is taxed so states stop losing VAT, and use that recovery to make lower CNG VAT affordable, on the reasoning that both fuels displace imported crude and should not be taxed more heavily than the fuels they replace.</p>
+    <div class="tablewrap">
+      <table>
+        <caption>Levers for the state ethanol gap at E20 (&#8377;17,863 crore net), from Sections 3 and 6.</caption>
+        <thead><tr><th>Lever</th><th>Who decides</th><th>Share of the E20 gap closed</th></tr></thead>
+        <tbody>
+          <tr><td>Bigger SGST share of all GST (70&ndash;80%)</td><td>GST Council</td><td>Not modelled; does not target the ethanol gap</td></tr>
+          <tr><td>Dedicated ethanol levy of 1&ndash;5%</td><td>GST Council</td><td>3&ndash;18%, by rate and blend</td></tr>
+          <tr><td>Total ethanol SGST rate of 15%</td><td>GST Council</td><td>45.4%</td></tr>
+          <tr><td>Total ethanol SGST rate of 18%</td><td>GST Council</td><td>56.3% (Tamil Nadu and Gujarat net-positive)</td></tr>
+          <tr><td>Option B: state cess from the whole OMC blending margin</td><td>Not stated; no GST reclassification needed</td><td>About 40% (about 41% at E30)</td></tr>
+          <tr><td>Option A: blended petrol taxed wholly under state VAT at retail</td><td>GST Council</td><td>Full, by definition</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h3>Option A: tax the blended litre as petrol at retail</h3>
+    <p>The root of the mismatch is not the 5% rate but which regime governs the product at retail. Under Option A, the GST Council would agree that blended motor spirit (E10, E20, E30 as sold at the pump) is a single retail product taxed wholly under state VAT, like pure petrol, whatever its ethanol fraction. The distillery-to-OMC supply would stay inside GST. Because no GST slice is left at retail, this closes the gap completely, but it is the heavier lift: a structural carve-out needing a three-quarters weighted-majority Council vote, and OMCs would have to re-plumb invoicing and input-tax-credit treatment for the ethanol they buy.</p>
+
+    <h3>Option B: a state compensation cess funded from OMC margin</h3>
+    <p>The <a href="https://blog.vertistratsolution.com/2026/07/ethanol-blending-omc-books-e20-today-vs.html">OMC-books piece</a> put the OMC and refiner contribution gain from blending at roughly <b>&#8377;7,200 crore at E20</b> and &#8377;11,100 crore at E30, funded from the roughly &#8377;15 a litre cost cushion between ethanol and petrol. Option B would redirect a defined share of that gain through a cess collected by OMCs at retail and remitted to the consuming state, calibrated to each state&rsquo;s petrol VAT rate. Because it draws on margin rather than a higher tax on ethanol, it avoids the &ldquo;27% rate needed&rdquo; problem. But even the whole OMC gain, which OMCs would resist giving up, closes only about 40% of the gap at E20 (7,200 against 17,863) and about 41% at E30. It is a partial fix.</p>
+
+    <h3>Linking ethanol and CNG</h3>
+    <p>A state asked to accept lower CNG VAT, a revenue giveaway on its own, is easier to persuade in the same Council session that offers it a way to recover ethanol losses. Telangana is the clean case: a 35.2% petrol VAT and a 14.5% CNG VAT, so its ethanol-side recovery and CNG-side giveaway sit close enough to self-fund within its own ledger. Odisha, Madhya Pradesh and Chhattisgarh are also in the high-CNG-VAT cluster and carry petrol VAT of 28%, 29% and 24% (net E20 losses of &#8377;636 crore, &#8377;1,116 crore and &#8377;410 crore); Jharkhand and Puducherry are not in the petrol model. Whether those states would come out even has not been modelled. For states without a clean match the proposal is a <b>pooled</b> fund, administratively like the 2017&ndash;2022 GST compensation cess pool, with ethanol recoveries flowing in and CNG relief drawn out. CNG VAT itself is a state budget decision, the same lever Karnataka used in 2024, so that half of the package needs no Council consensus; the ethanol half does.</p>
+
+    <h3>Crude for petrochemicals</h3>
+    <p>The ethanol programme substituted a cumulative <b>316 lakh tonnes of crude</b> and saved more than <b>&#8377;1.97 lakh crore</b> of foreign exchange between ESY 2014-15 and June 2026, per the government (<a href="https://deccanherald.com/business/ethanol-blending-leads-to-rs-197-lakh-crore-forex-savings-centre-4080737">Deccan Herald</a>); earlier figures were 244 lakh tonnes and &#8377;1.84 lakh crore, and a separate ministry estimate of &#8377;1.44 lakh crore saved on crude import costs has not been updated. The next milestones are E27 around 2028 and E30 by 2030. Crude-derived petrochemical feedstock demand does not go away: naphtha and reformate, the same petrol-range refinery streams burned as fuel, feed the ethylene, propylene and BTX chains behind India&rsquo;s imported polymers and chemicals (see this blog&rsquo;s <a href="https://blog.vertistratsolution.com/2026/07/indias-petrochemical-import-tree-from.html">petrochemical import-tree piece</a>). Transport demand that moves to ethanol or CNG/CBG frees crude and refining capacity that could in principle feed that demand. This is a directional argument; quantifying it would need refinery product-slate data that this series did not have.</p>
+
+    <h3>What the proposal does not solve</h3>
+    <ul>
+      <li><b>Council approval is not a formality.</b> Option A, any ethanol rate change and a pooled CNG fund all need a three-quarters weighted-majority vote, and a proposal that helps some states (Telangana, Maharashtra, Karnataka) more than others is the kind that stalls.</li>
+      <li><b>Revenue-neutral in aggregate is not revenue-neutral per state.</b> Some states would pay into a pool more than they draw out.</li>
+      <li><b>Below 18%, a rate rise leaves every state short.</b> At 15%, Maharashtra and Karnataka still lose more than &#8377;1,100 crore each; Option B alone leaves about 60% of the gap open.</li>
+      <li><b>CNG prices are not purely a VAT problem.</b> Transport and terrain costs in the hill states mean harmonised VAT would not equalise the price map.</li>
+      <li><b>Drivers pay a cost none of these levers returns.</b> The model holds the pump price flat, so the mileage penalty, about 7% at E30 per the OMC-books piece, falls on consumers. At E20 against pure petrol (Delhi price, 15,000 km a year) the vehicle_fuel_mileage model puts the extra fuel spend at &#8377;1,160 a year for a two-wheeler, &#8377;3,989 for a hatchback, &#8377;4,255 for a sedan and &#8377;4,910 for a compact SUV (&#8377;0.08&ndash;0.33 per km). A three-way gain for states, consumers and OMCs would need part of the &#8377;15 a litre cushion passed through as a lower retail price, a pricing-formula question this series did not model.</li>
+    </ul>
+  </section>
+
+  <section id="fix">
+    <h2>What would fix this</h2>
+    <ul>
+      <li><b>The GST Council secretariat should place before the Council a state-by-state estimate of petrol VAT foregone and SGST gained from blending at E20 and E30, with a study of IGST settlement on interstate ethanol supply, before any vote on ethanol&rsquo;s rate, its CGST:SGST split, blended motor spirit or a compensation pool</b>, so states vote knowing figures like Tamil Nadu&rsquo;s small gap and Maharashtra&rsquo;s large one.</li>
+      <li><b>GSTN should publish SGST collected on ethanol by state and year, and each state finance department should report VAT on petrol, diesel and CNG as separate budget lines with litres sold</b>, so the modelled &#8377;17,863 crore E20 shortfall, including Maharashtra&rsquo;s &#8377;2,126 crore and Karnataka&rsquo;s &#8377;1,798 crore, can be checked against treasury data.</li>
+      <li><b>PPAC should publish, in one dated table, each state&rsquo;s full petrol VAT schedule (including fixed cesses and &ldquo;whichever is higher&rdquo; floors) and the volume of ethanol actually blended in each state</b>, so estimates do not rest on headline rates, a density conversion and an assumed uniform E20 blend.</li>
+      <li><b>PNGRB should add the statutory notification and levy point behind each state&rsquo;s DPNG and CNG VAT rate to its case-study table</b>, so anomalies such as Punjab&rsquo;s 14.3% CNG rate against 3.3% for DPNG, and Uttar Pradesh&rsquo;s split input and sale treatment, are explained in the source.</li>
+      <li><b>The public-sector OMCs should disclose in their annual reports the contribution gain attributable to blending and their weighted-average ethanol procurement price for each supply year</b>, so the margin Option B would redirect (about &#8377;7,200 crore at E20) and the &#8377;60 a litre price assumption become reported figures.</li>
+    </ul>
+    <p>These are proposals from this blog, not recommendations any agency has adopted.</p>
+  </section>
+
+  <section id="limits">
+    <h2>What this piece could not establish</h2>
+    <ul class="assume">
+      <li><b>No official dataset exists.</b> No state, the GST Council or the CAG publishes a state-wise, blend-attributed split of SGST on ethanol against VAT foregone. All state figures are reconstructed from PPAC tables and stated assumptions.</li>
+      <li><b>Headline VAT only.</b> Several states add fixed cesses or &ldquo;whichever is higher of % or &#8377;/L&rdquo; floors, so real losses there are likely understated.</li>
+      <li><b>Data year.</b> The state loss tables cite PPAC Ready Reckoner FY2025&ndash;26 H1 state-wise sales; the rate scenarios were computed from PPAC&rsquo;s FY2024-25 full-year state-wise consumption file and reproduce the same state volumes (Maharashtra 5.91 bn litres of petrol, Karnataka 0.83 bn litres of ethanol). Neither has been rerun on 2025-26 volumes.</li>
+      <li><b>Interstate movement is not modelled.</b> The destination rule is described, not quantified; IGST settlement on interstate ethanol needs a different model.</li>
+      <li><b>Fixed prices.</b> Petrol is held at &#8377;78/litre pre-VAT; ethanol at &#8377;60/litre for E10&ndash;E20, rising to about &#8377;61.5 at E22 and &#8377;68.1 at E30. Real procurement prices vary by feedstock and year.</li>
+      <li><b>The rates are hypothetical.</b> The 1&ndash;5% levy and the 5&ndash;18% total rates are modelled constructs, not law or Council decisions. The CNG harmonisation saving assumes a fixed pre-tax price; it is not a tax-incidence model, and the state revenue cost of CNG VAT cuts was not estimated.</li>
+      <li><b>Capacity data are industry figures.</b> Distillery capacity and surplus/deficit numbers come from CareEdge and the DFPD sanction register, not a verified state census.</li>
+      <li><b>CNG sources differ.</b> The PNGRB rates are as submitted by entities on its portal; the outlet register undercounts standalone CGD stations; Punjab&rsquo;s CNG/DPNG gap is unexplained.</li>
+      <li><b>Consumer figures are modelled.</b> Cost per km is calibrated on 303 ARAI-certified SIAM declarations and OMC city fuel boards, not driver surveys; three-wheelers are not in the cost model; Vahan figures are registrations, and EV and CNG shares are not strictly comparable.</li>
+      <li><b>Devolution sources.</b> The SGST-split proposal and Karnataka&rsquo;s asks are taken from press and tax-industry coverage; the devolution ratio is this blog&rsquo;s recomputation. The crude-substitution totals are ministry figures whose method was not verified, and the petrochemical argument is not quantified.</li>
+      <li><b>Out of scope.</b> Blend-wall compatibility, E20-rated vehicle penetration and actual ethanol offtake against target are covered nationally in the <a href="https://blog.vertistratsolution.com/2026/07/ethanol-blending-omc-books-e20-today-vs.html">OMC-books piece</a>.</li>
+    </ul>
+  </section>
+
+  <footer class="artx-foot">
+    <b>Sources.</b>
+    <ul>
+      <li>PPAC Ready Reckoner FY2025&ndash;26 H1: Table 6.4(B) state-wise MS sales, Table 8.17 state VAT rates, Table 3.7 CNG sales in India (companies as on 30.09.2025).</li>
+      <li>PPAC, <a href="https://ppac.gov.in/consumption/state-wise">state-wise petroleum product consumption</a>, &ldquo;Statewise Sales (POL) Consumption,&rdquo; FY2024-25.</li>
+      <li>PNGRB, &ldquo;Analysis on &ndash; DPNG &amp; CNG Prices (as per data submitted by entities on PNGRB e-portal, as on April 2025)&rdquo;: <a href="https://www.pngrb.gov.in/pdf/CaseStudies/20250620_CSR_Apr.pdf">Case Study Report PDF</a>.</li>
+      <li>CareEdge Ratings, &ldquo;E85 Impact: Ethanol Overcapacity to Persist,&rdquo; 14 May 2026; DFPD ethanol sanction register; Vahan4 registration dashboard, CY2026 YTD.</li>
+      <li>Central excise cut, March 2026: <a href="https://moneylife.in/article/petrol-excise-duty-down-to-3-diesel-nil-no-change-in-retail-prices-as-govt-aims-to-cut-omc-losses/80059.html">Moneylife</a>, <a href="https://www.taxtmi.com/news?id=71850">TaxTMI</a>.</li>
+      <li>2026-27 ethanol tender: <a href="https://thefederal.com/category/business/india-sets-zero-sugar-diversion-ethanol-2026-27-259885">The Federal</a>, <a href="https://swarajyamag.com/world/india-bars-ethanol-made-from-sugarcane-juice-syrup-and-b-heavy-molasses-in-2026-27-tender-as-sugar-prices-rise">Swarajya</a>.</li>
+      <li>CNG VAT cuts: <a href="https://www.constructionworld.in/energy-infrastructure/oil-and-gas/chandigarh-cuts-natural-gas-vat-from-12.5-per-cent-to-5-per-cent/97685">Construction World</a> (Chandigarh), <a href="https://www.outlookbusiness.com/news/ladakh-cuts-vat-on-natural-gas-to-5-to-boost-clean-energy-adoption">Outlook Business</a> (Ladakh).</li>
+      <li>Petrol demand 2025-26: <a href="https://navhindtimes.in/?p=454930">Navhind Times, &ldquo;Goa&rsquo;s petrol consumption jumped by 9% in 2025-26&rdquo;</a> (citing PPAC&rsquo;s all-India 6.5%); <a href="https://www.business-standard.com/economy/news/india-petrol-demand-october-festive-season-diesel-sales-125110200513_1.html">Business Standard</a>.</li>
+      <li>Ethanol crude substitution and forex savings: <a href="https://deccanherald.com/business/ethanol-blending-leads-to-rs-197-lakh-crore-forex-savings-centre-4080737">Deccan Herald</a> (₹1.97 lakh crore, 316 lakh tonnes, to June 2026); <a href="https://www.outlookbusiness.com/news/ethanol-programme-saved-190-lakh-cr-in-forex-since-2014-15-says-govt-amid-row-over-e20-fuel">Outlook Business</a> (₹1.90 lakh crore, 310 lakh tonnes, to May 2026); Ministry of Petroleum and Natural Gas / PIB reporting on 244 lakh tonnes, ₹1.44 lakh crore crude and ₹1.84 lakh crore forex since ESY 2014-15, and the E27/E30 timeline.</li>
+      <li>16th Finance Commission: <a href="https://prsindia.org/policy/report-summaries/report-of-the-16th-finance-commission-for-2026-31">PRS India</a>, <a href="https://moneylife.in/article/16th-finance-commission-retains-41-percentage-tax-devolution-interse-shares-to-shift-as-criteria-are-reworked-report/79561.html">Moneylife</a>.</li>
+      <li>State minister&rsquo;s proposal to the GST Council on a 70&ndash;80% SGST split, as reported in press and tax-industry coverage; Karnataka Chief Minister&rsquo;s economic adviser on 41% to 50% and 3.64% to 5.24%, via Deccan Herald and related coverage; reporting on the official (41%) and effective (~29&ndash;30%) devolution shares; PIB devolution instalment of 1 August 2026; GSTN statistics.</li>
+      <li>Karnataka June 2024 petrol and diesel VAT increase: ThePrint, Deccan Herald and related coverage.</li>
+      <li>Cost per km, payback and mileage: <a href="https://github.com/herrrickshaw/vehicle_fuel_mileage">vehicle_fuel_mileage</a> repo (ARAI/SIAM declarations, OMC city fuel boards); outlet register: cng-cgd-retail-outlet-mapping repo (PNGRB GA allotment &times; SSRI register, 22 July 2026). Sales mix: CEEW-GFC Electric Mobility Dashboard (Vahan), JMK Research, IESA, FADA FY26.</li>
+      <li>Related on this blog: <a href="https://blog.vertistratsolution.com/2026/07/ethanol-blending-omc-books-e20-today-vs.html">Ethanol blending and oil marketers&rsquo; books: E20 today compared with E30 plus SGST</a> &middot; <a href="https://blog.vertistratsolution.com/2026/08/who-collects-indias-gst-and-who.html">Who collects India&rsquo;s GST, and who gets it back</a> &middot; <a href="https://blog.vertistratsolution.com/2026/08/tamil-nadus-gst-gap-108-economy-growing.html">Tamil Nadu&rsquo;s GST gap</a> &middot; <a href="https://blog.vertistratsolution.com/2026/07/indias-petrochemical-import-tree-from.html">India&rsquo;s petrochemical import tree</a> &middot; <a href="https://blog.vertistratsolution.com/2026/08/indias-ev-market-single-digit.html">India&rsquo;s EV market</a> &middot; <a href="https://blog.vertistratsolution.com/2026/07/india-fuel-retail-outlets-82k-geocoded.html">India&rsquo;s fuel retail outlets, geocoded</a> &middot; <a href="https://blog.vertistratsolution.com/2026/10/biogas-is-priority-sector-loan-43.html">CBG prices and priority-sector lending</a>.</li>
+    </ul>
+  </footer>
+
+  <div class="disclaimer">
+    This analysis is based on publicly available government and market data cited in the article above. It is provided for informational and research purposes only and does not constitute investment, legal, or policy advice.
+  </div>
+</div>
+<p class="disclaimer" data-gs-ai-disclosure-v1="1"><strong>About this article:</strong> Researched, written and edited by Umashankar Triplicane Dwarakanathan, with AI research assistance; every figure is meant to trace to the primary source cited. See the <a href="https://blog.vertistratsolution.com/p/disclaimer.html">Editorial Policy</a> for how sourcing, AI use and corrections work.</p>
+</div>
+<div id="gs-idx"></div><script defer="defer" src="https://herrrickshaw.github.io/masaladeutsch/accordion.js"></script>

@@ -23,8 +23,8 @@ sys.path.insert(0, str(ROOT / "tools"))
 from blogger_api import migrate_links  # noqa: E402
 
 G = ROOT / "out/gsc_index"
-revert = {l.strip() for l in (G / "phase1_revert_to_draft.txt").read_text().splitlines()
-          if l.strip() and not l.startswith("#")}
+revert = {l.strip() for f in ("phase1_revert_to_draft.txt", "phase3_revert_to_draft.txt") if (G / f).exists()
+          for l in (G / f).read_text().splitlines() if l.strip() and not l.startswith("#")}
 titles = dict(l.split("\t", 1) for l in (G / "phase1_titles.tsv").read_text().splitlines() if "\t" in l)
 # house-style titles (docs/HEADLINE_STYLE.md), applied before the next snapshot catches up
 RT = ROOT / "out/retitle/titles.tsv"
@@ -53,5 +53,5 @@ with tempfile.TemporaryDirectory() as td:
 assert "masaladeutsch.blogspot.com" not in body
 for d in ("2026-11-14", "2026-11-10"):
     (ROOT / f"out/update-{d}-article-index-start-here.html").write_text(body, encoding="utf-8")
-print(f"left out {len(dropped)} Phase 1 draft posts; retitled {sum(s in g for s in titles)}; "
+print(f"left out {len(dropped)} Phase 1/3 draft posts; retitled {sum(s in g for s in titles)}; "
       f"{body.count('blog.vertistratsolution.com'):,} links on the new domain")

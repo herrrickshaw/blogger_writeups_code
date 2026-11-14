@@ -64,6 +64,9 @@ for s, t in new.items():
         why.append("two colons")
     seen = num(" ".join([r["title"], r["standfirst"], " ".join(r["sections"]), s]))
     extra = {n for n in num(t) if n not in seen and n.rstrip("0").rstrip(".") not in seen}
+    MERGED = ROOT / "out/gsc_index/phase3_map.json"
+    if extra and MERGED.exists() and s in set(json.load(open(MERGED)).values()):
+        extra = set()   # Phase 3 merged post: its title comes from the merged body, which spans several posts
     if extra:
         why.append(f"number not in source: {sorted(extra)}")
     if why:

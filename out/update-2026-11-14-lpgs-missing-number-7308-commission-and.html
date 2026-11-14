@@ -1,0 +1,413 @@
+<div class="artx mdrx">
+<style>/*gs-typo-unify-v1*/
+.mdrx{font-family:Georgia,'Times New Roman',serif;line-height:1.62;color:#1a1a1a;max-width:54rem;margin:0 auto}
+.mdrx h1,.mdrx h2,.mdrx h3{line-height:1.3}
+.mdrx p,.mdrx li{max-width:38rem}
+.mdrx .eyebrow{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.72rem;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:#8a4b08;margin:0 0 .8rem}
+.mdrx h1{font-weight:400;font-size:2.15rem;letter-spacing:-.01em;margin:0 0 .9rem;max-width:24ch;color:#1a1a1a}
+.mdrx .standfirst{font-size:1.2rem;line-height:1.5;color:#4a4a4a;max-width:38rem;margin:0 0 1.4rem}
+.mdrx h2{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.75rem;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:#595959;border-top:1px solid #e2e2e2;padding-top:.8rem;margin:2.8rem 0 .35rem;max-width:38rem}
+.mdrx .h2sub{font-size:1.55rem;font-weight:400;line-height:1.26;margin:0 0 1rem;max-width:26ch;color:#1a1a1a}
+.mdrx h3{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:1rem;font-weight:600;margin:1.7rem 0 .4rem}
+.mdrx .stats{display:grid;gap:0 2rem;grid-template-columns:repeat(auto-fit,minmax(10rem,1fr));margin:1.8rem 0}
+.mdrx .stat{padding:.85rem 0;border-top:1px solid #e2e2e2}
+.mdrx .stat b{display:block;font-size:1.9rem;line-height:1;color:#8a4b08;margin-bottom:.3rem;font-weight:400}
+.mdrx .stat span{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.78rem;color:#595959;display:block;line-height:1.35}
+.mdrx .exhibit{margin:2.2rem 0}
+.mdrx .exno{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.69rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:#0a4c6a;margin:0 0 .25rem}
+.mdrx .extitle{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:1.12rem;font-weight:700;line-height:1.3;margin:0 0 .15rem;max-width:46ch}
+.mdrx .exsub{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.94rem;font-style:italic;color:#595959;margin:0 0 .8rem;max-width:52ch}
+.mdrx .exsrc{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.72rem;color:#595959;line-height:1.45;margin:.6rem 0 0}
+.mdrx .tw{overflow-x:auto}
+.mdrx table{width:auto;min-width:100%;border-collapse:collapse;font-size:.85rem;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
+.mdrx thead th{text-align:right;font-weight:600;font-size:.7rem;letter-spacing:.05em;text-transform:uppercase;color:#595959;border-bottom:1px solid #000;padding:.45rem .65rem;vertical-align:bottom}
+.mdrx thead th:first-child,.mdrx tbody td:first-child{text-align:left}
+.mdrx tbody td{text-align:right;padding:.46rem .65rem;border-bottom:1px dotted #d9d9d9;font-variant-numeric:tabular-nums}
+/* The .tw scroller only engages if the table is allowed to exceed it. With
+   width:100% the table shrank to fit and rows grew to 8 lines on a phone. */
+.mdrx th,.mdrx td{white-space:nowrap}
+.mdrx tbody tr:last-child td{border-bottom:1px solid #000}
+.mdrx tbody tr.hl td{background:#f6f4ef;font-weight:600}
+.mdrx .note,.mdrx .warn{border-left:2px solid #e2e2e2;padding:.1rem 0 .1rem 1rem;margin:1.6rem 0;font-size:.95rem;color:#4a4a4a}
+.mdrx .warn{border-left-color:#db2b27}
+.mdrx a{color:#12408f}
+.mdrx .sources{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.78rem;color:#595959;max-width:46rem;margin:2.6rem 0 0;padding-top:.9rem;border-top:1px solid #e2e2e2}
+.mdrx .revised{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.76rem;color:#595959;margin:0 0 1.2rem}
+.mdrx .disclaimer{font-size:.8rem;color:#555;margin-top:1.4rem;max-width:46rem}
+.mdrx img,.mdrx svg{max-width:100%;height:auto}
+
+/*gs-table-v1*/
+.post-body table{display:block;overflow-x:auto;max-width:100%;width:max-content;
+ min-width:100%;border-collapse:collapse;font-size:.86rem}
+.post-body thead th,.post-body tr:first-child th{background:#111;color:#fff;font-weight:700;
+ text-align:right;vertical-align:bottom;padding:.6rem .7rem;border:1px solid #111;
+ word-break:keep-all;min-width:5.5rem}
+.post-body thead th:first-child,.post-body tr:first-child th:first-child{text-align:left}
+.post-body td{border:1px solid #d9d9d9;padding:.5rem .7rem;text-align:right;
+ font-variant-numeric:tabular-nums;white-space:nowrap;color:#111;background:#fff}
+.post-body td:first-child{text-align:left;white-space:normal;min-width:8rem}
+.post-body tbody tr:nth-child(even) td{background:#fafafa}
+</style>
+
+<div class="gs-head-order" style="display:flex;flex-direction:column">
+<p style="order:4" class="standfirst">PPAC&rsquo;s record shows the commission an LPG distributor earns on a 14.2 kg domestic cylinder rising from &#8377;16.71 in 2004 to &#8377;73.08 in October 2023. In December 2025 rupees that is about what it was worth in October 2012. As a share of the &#8377;942 Delhi cylinder price it is 7.76%, about twice the petrol and diesel dealer&rsquo;s margin, so a merchant fee charged on the full UPI payment would take about half as large a share of it.</p>
+<div class="topnav-index-link" style="order:1;font-size:.82em;margin:6px 0 14px"><a href="https://blog.vertistratsolution.com/2026/08/article-index-start-here.html" style="color:#0b5394;text-decoration:none">&#8592; All Articles (Index)</a></div>
+<p style="order:2" class="eyebrow">Payments &middot; Energy &middot; LPG</p>
+<h1 style="order:3">LPG distributor commission: ₹73.08, back at its 2012 level after inflation</h1>
+</div>
+
+<figure class="gb-figure" style="margin:1.5rem 0 1.75rem;text-align:center">
+<svg role="img" style="width:100%;height:auto;max-width:700px;display:block;margin:0 auto" viewBox="0 0 700 380" xmlns="http://www.w3.org/2000/svg" font-family="Georgia, 'Times New Roman', serif">
+<rect x="0" y="0" width="700" height="380" fill="#f8f9fa" />
+<text x="40" y="42" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#1a1a1a">Regulated margin as a share of the retail ticket</text>
+<text x="40" y="64" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#595959">Three government-administered, full-ticket-fee counters</text>
+
+
+<line x1="220" y1="100" x2="220" y2="330" stroke="#c9c9c9" stroke-width="1" />
+
+
+<g stroke="#e2e2e2" stroke-width="1">
+<line x1="220" y1="100" x2="640" y2="100" />
+<line x1="220" y1="330" x2="640" y2="330" />
+</g>
+
+
+
+<text x="210" y="140" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#1a1a1a">Petrol/diesel dealer</text>
+<rect x="220" y="118" width="193.5" height="44" fill="#0b5794" />
+<text x="428" y="147" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#1a1a1a">3.87%</text>
+
+
+<text x="210" y="210" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#1a1a1a">PDS kerosene</text>
+<rect x="220" y="188" width="225" height="44" fill="#0b5794" />
+<text x="459" y="217" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#1a1a1a">4.5%</text>
+
+
+<text x="210" y="280" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#1a1a1a">Domestic LPG (14.2kg)</text>
+<rect x="220" y="258" width="388" height="44" fill="#8a4b08" />
+<text x="622" y="287" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#1a1a1a">7.76%</text>
+
+
+<g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" fill="#595959">
+<text x="220" y="348" text-anchor="middle">0%</text>
+<text x="320" y="348" text-anchor="middle">2%</text>
+<text x="420" y="348" text-anchor="middle">4%</text>
+<text x="520" y="348" text-anchor="middle">6%</text>
+<text x="620" y="348" text-anchor="middle">8%</text>
+</g>
+
+<text x="40" y="370" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="10.5" fill="#8a8a8a">Source: PPAC commission page (LPG); PPAC Ready Reckoner FY2025-26 H1 (petrol/diesel, kerosene). blog.vertistratsolution.com</text>
+</svg>
+<figcaption style="font-size:.8em;color:#868e96;font-family:-apple-system,'Segoe UI',sans-serif;margin-top:.5rem">LPG's distributor commission is 7.76% of the cylinder price — about double the petrol/diesel dealer's 3.87% margin — which is why an MDR would bite LPG roughly half as hard.</figcaption>
+</figure>
+
+<a href="#" id="gs-skip-link" class="gs-skip-link" style="position:absolute;left:-9999px;top:auto;background:#1a1a1a;color:#fff;padding:.6rem 1rem;z-index:1000;border-radius:4px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.85rem">Skip to article content</a>
+<style>.gs-skip-link:focus{left:8px!important;top:8px!important}
+.gs-a11y-bar{display:flex;align-items:center;gap:.55rem;flex-wrap:wrap;background:#f4f5f7;border:1px solid #dfe3e8;border-radius:8px;padding:.55rem .8rem;margin:10px 0 16px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
+.gs-a11y-bar .gs-a11y-label{font-size:.68rem;font-weight:700;letter-spacing:.08em;color:#666;text-transform:uppercase;margin-right:.15rem}
+.gs-a11y-bar button{cursor:pointer;border:1px solid #c7cbd1;background:#fff;color:#1a1a1a;border-radius:5px;padding:.32rem .65rem;font-family:inherit;line-height:1}
+.gs-a11y-bar button.gs-a11y-fs{font-weight:700;min-width:2rem;text-align:center}
+.gs-a11y-bar button.gs-a11y-fs[data-size="sm"]{font-size:.8rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="md"]{font-size:1rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="lg"]{font-size:1.2rem}
+.gs-a11y-bar button.gs-a11y-fs[aria-pressed="true"]{background:#1a1a1a;color:#fff;border-color:#1a1a1a}
+.gs-a11y-bar button:hover{border-color:#8a4b08}
+.gs-a11y-bar button:focus-visible{outline:2px solid #8a4b08;outline-offset:1px}
+.gs-a11y-bar .gs-a11y-sep{width:1px;align-self:stretch;background:#dfe3e8;margin:0 .1rem}</style>
+<div class="gs-a11y-bar" role="group" aria-label="Accessibility controls">
+<span class="gs-a11y-label">Text Size</span>
+<button type="button" class="gs-a11y-fs" data-size="sm" aria-pressed="false" aria-label="Small text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="md" aria-pressed="true" aria-label="Medium text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="lg" aria-pressed="false" aria-label="Large text">A</button>
+<span class="gs-a11y-sep"></span>
+<button type="button" id="gs-a11y-listen" aria-label="Read this article aloud">&#128266; Listen</button>
+<button type="button" id="gs-a11y-stop" aria-label="Stop reading aloud">&#9632; Stop</button>
+</div>
+<script>(function(){
+var KEY='gs-a11y-fontsize', SIZES={sm:'0.92',md:'1',lg:'1.15'};
+function pb(){return document.querySelector('.post-body')||document.querySelector('.artx,.mdrx');}
+function apply(sz){
+  var el=pb(); if(!el||!SIZES[sz]) return;
+  el.style.fontSize=SIZES[sz]+'em';
+  var btns=document.querySelectorAll('.gs-a11y-fs');
+  for(var i=0;i<btns.length;i++){
+    var on=btns[i].getAttribute('data-size')===sz;
+    btns[i].setAttribute('aria-pressed', on?'true':'false');
+  }
+  try{localStorage.setItem(KEY,sz);}catch(e){}
+}
+var fsBtns=document.querySelectorAll('.gs-a11y-fs');
+for(var j=0;j<fsBtns.length;j++){
+  fsBtns[j].addEventListener('click',(function(b){return function(){apply(b.getAttribute('data-size'));};})(fsBtns[j]));
+}
+var saved; try{saved=localStorage.getItem(KEY);}catch(e){}
+apply(saved&&SIZES[saved]?saved:'md');
+
+var listenBtn=document.getElementById('gs-a11y-listen'), stopBtn=document.getElementById('gs-a11y-stop');
+if(listenBtn){
+  listenBtn.addEventListener('click', function(){
+    if(!('speechSynthesis' in window)){ alert('Text-to-speech is not supported in this browser.'); return; }
+    window.speechSynthesis.cancel();
+    var src=pb(); if(!src) return;
+    var clone=src.cloneNode(true);
+    var strip=clone.querySelectorAll('script,style,svg');
+    for(var k=0;k<strip.length;k++){ strip[k].parentNode.removeChild(strip[k]); }
+    var text=clone.textContent.replace(/\s+/g,' ').trim();
+    if(!text) return;
+    var chunks=text.match(/[\s\S]{1,180}(?:[.!?]|$)/g)||[text];
+    var idx=0;
+    function speakNext(){
+      if(idx>=chunks.length) return;
+      var u=new SpeechSynthesisUtterance(chunks[idx]);
+      u.onend=function(){ idx++; speakNext(); };
+      window.speechSynthesis.speak(u);
+    }
+    speakNext();
+  });
+}
+if(stopBtn){
+  stopBtn.addEventListener('click', function(){
+    if('speechSynthesis' in window) window.speechSynthesis.cancel();
+  });
+}
+var skip=document.getElementById('gs-skip-link');
+if(skip){
+  skip.addEventListener('click', function(ev){
+    ev.preventDefault();
+    var h=document.querySelector('.post-body h1')||document.querySelector('.artx h1,.mdrx h1,h1');
+    if(h){ h.setAttribute('tabindex','-1'); h.focus(); h.scrollIntoView(); }
+  });
+}
+})();</script>
+<style>.goog-te-menu-frame{max-width:340px!important;max-height:70vh!important;overflow:auto!important;box-shadow:0 6px 24px rgba(0,0,0,.25)!important}</style><div id="google_translate_element" style="margin:8px 0 16px;"></div><script type="text/javascript">function googleTranslateElementInit(){new google.translate.TranslateElement({pageLanguage:"en",includedLanguages:"hi,bn,ta,te,mr,gu,kn,ml,pa,or,as,ur,sa,ne,sd",layout:google.translate.TranslateElement.InlineLayout.SIMPLE,autoDisplay:false},"google_translate_element");}</script><script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+
+<p class="revised" data-gs-revision-v1="1">Published <time datetime="2026-08-08" itemprop="datePublished">8 August 2026</time> &middot; v1.0.0 &middot; PPAC Dealers/Distributors Commission page, retrieved 8 August 2026 &middot; Delhi domestic cylinder price of 7 August 2026</p>
+<figure style="margin:1.6rem 0">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/LPG_Cylinders_Loading_Onto_Boat_-_River_Matla_-_Godkhali_-_South_24_Parganas_2016-07-10_4880.JPG/960px-LPG_Cylinders_Loading_Onto_Boat_-_River_Matla_-_Godkhali_-_South_24_Parganas_2016-07-10_4880.JPG" alt="LPG cylinders being loaded onto a distribution boat in West Bengal, India" loading="lazy" style="width:100%;height:auto;border-radius:6px;display:block"/>
+<figcaption class="gb-note" style="margin-top:.4rem">The distributor commission this piece tracks down covers exactly this last-mile work — moving subsidised cylinders from depot to doorstep. <a href="https://commons.wikimedia.org/wiki/File:LPG_Cylinders_Loading_Onto_Boat_-_River_Matla_-_Godkhali_-_South_24_Parganas_2016-07-10_4880.JPG" rel="noopener noreferrer">LPG Cylinders Loading Onto Boat - River Matla - Godkhali - South 24 Parganas 2016-07-10 4880.JPG</a>, Biswarup Ganguly, CC BY 3.0, via Wikimedia Commons.</figcaption>
+</figure>
+
+<div class="stats">
+<div class="stat"><b>&#8377;73.08</b><span>Distributor commission per 14.2 kg domestic cylinder since 4 October 2023, up from &#8377;16.71 in April 2004: 16 increases in 19 years</span></div>
+<div class="stat"><b>7.76%</b><span>That commission as a share of the &#8377;942 Delhi cylinder price, about twice the fuel dealer&rsquo;s 3.87% margin</span></div>
+<div class="stat"><b>&#8377;83 &rarr; &#8377;73</b><span>Real value at the October 2019 peak against December 2025, in December 2025 rupees: down 12%, and 3% above October 2012</span></div>
+<div class="stat"><b>&#8377;3,642cr</b><span>Annual distributor commission on Ujjwala refills alone (this blog&rsquo;s computation)</span></div>
+<div class="stat"><b>&#8377;150</b><span>The minimum commission distributors demanded in April 2025, about double the current rate</span></div>
+</div>
+
+<div class="warn" style="border-left:4px solid #a5402c;background:rgba(165,64,44,.07);padding:.8em 1em;margin:1.2em 0;border-radius:4px"><b>Updated 14 November 2026.</b> This piece now combines the earlier analysis of how exposed the LPG distributor commission is to a UPI merchant fee with this blog&rsquo;s October 2026 history of the commission since 2004, measured against inflation. The combined piece adds the full revision record, its value in December 2025 rupees, what the commission pays for and what distributors are asking for, alongside the margin arithmetic and the UPI fee notified in 2026.</div>
+
+<p>The commission an LPG distributor earns on a domestic cylinder is set by the government and the public-sector oil companies, and PPAC publishes every revision since April 2004. This blog&rsquo;s <a href="https://blog.vertistratsolution.com/2026/08/upi-fees-are-now-legal-petrol-pumps.html">piece on a possible UPI merchant discount rate</a> grouped LPG with petrol, diesel and PDS kerosene as &ldquo;government-administered margins, full-ticket fees,&rdquo; but stopped short of a number: <i>&ldquo;the current commission value is not in the PPAC documents used here, so it is named and not numbered.&rdquo;</i> That was true of the PPAC Ready Reckoner and Snapshot documents used for the fuel pieces. The number is on PPAC&rsquo;s dedicated commission page: &#8377;73.08 a cylinder since 4 October 2023.</p>
+
+<p>Read in current rupees, the record looks like steady progress: &#8377;16.71 a cylinder in 2004, &#8377;73.08 now, a 4.4-fold rise. Read against consumer prices, it looks different. From 2012 to 2018 each revision did little more than restore what inflation had taken. The one real raise came in three monthly steps in 2019, and inflation has since taken most of it back. In December 2025 rupees the commission is worth about what it was in October 2012. As a margin, though, it is generous: 7.76% of the cylinder price, roughly double the fuel dealer&rsquo;s, so a merchant fee charged on the full payment would take about half as large a share of it.</p>
+
+<p><b>How much to trust it.</b> The revision history to May 2022 is PPAC&rsquo;s own table, posted on 4 July 2022. The October 2023 rate of &#8377;73.08 is from PPAC&rsquo;s commission page as this blog read it on 8 August 2026; a 2024 CEEW survey report also gives &#8377;73.08. A Goa government notice of March 2024, citing the Government of India, gives &#8377;73.03, including &#8377;33.65 for home delivery. The difference is not resolved; at &#8377;73.03 the margin would be 7.75% rather than 7.76%, and the fee comparison is unchanged. Inflation is MoSPI&rsquo;s consumer price index, which in this series runs to December 2025. Cylinder prices and distributor numbers come from Parliament replies, PIB and press reports as seen in search summaries. Where this piece does its own arithmetic, it says so.</p>
+
+<h2 id="record">PPAC lists 17 rates, from &#8377;16.71 in 2004 to &#8377;73.08 in 2023</h2>
+
+<div class="exhibit">
+<p class="exno">Exhibit 1</p>
+<p class="extitle">Distributor commission on domestic LPG, every revision since 2004</p>
+<p class="exsub">Per cylinder. The last column is the 14.2 kg rate in December 2025 rupees on the day each revision took effect (this blog&rsquo;s calculation).</p>
+<div class="tw">
+<table>
+<thead><tr><th>Effective</th><th>14.2 kg, &#8377;</th><th>Change</th><th>5 kg, &#8377;</th><th>14.2 kg in Dec-2025 &#8377;</th></tr></thead>
+<tbody>
+<tr><td>1 Apr 2004</td><td>16.71</td><td></td><td>8.60</td><td>&ndash;</td></tr>
+<tr><td>1 Mar 2007</td><td>19.05</td><td>+14%</td><td>9.81</td><td>&ndash;</td></tr>
+<tr><td>4 Jun 2008</td><td>20.54</td><td>+8%</td><td>10.58</td><td>&ndash;</td></tr>
+<tr><td>30 Jun 2009</td><td>21.94</td><td>+7%</td><td>11.30</td><td>&ndash;</td></tr>
+<tr><td>1 Jul 2011</td><td>25.83</td><td>+18%</td><td>13.30</td><td>55.71</td></tr>
+<tr><td>7 Oct 2012</td><td>37.25</td><td>+44%</td><td>18.63</td><td>71.19</td></tr>
+<tr><td>11 Dec 2013</td><td>40.71</td><td>+9%</td><td>20.36</td><td>70.40</td></tr>
+<tr><td>23 Oct 2014</td><td>44.06</td><td>+8%</td><td>22.03</td><td>72.64</td></tr>
+<tr><td>9 Dec 2015</td><td>45.83</td><td>+4%</td><td>22.67</td><td>71.96</td></tr>
+<tr><td>28 Oct 2016</td><td>47.48</td><td>+4%</td><td>23.74</td><td>71.55</td></tr>
+<tr><td>30 Sep 2017</td><td>48.89</td><td>+3%</td><td>24.20</td><td>71.60</td></tr>
+<tr><td>7 Nov 2018</td><td>50.58</td><td>+3%</td><td>25.29</td><td>71.13</td></tr>
+<tr><td>1 Aug 2019</td><td>56.20</td><td>+11%</td><td>28.10</td><td>76.74</td></tr>
+<tr><td>1 Sep 2019</td><td>59.02</td><td>+5%</td><td>29.51</td><td>80.15</td></tr>
+<tr><td>1 Oct 2019</td><td>61.84</td><td>+5%</td><td>30.92</td><td>83.18</td></tr>
+<tr><td>19 May 2022</td><td>64.84</td><td>+5%</td><td>32.42</td><td>74.77</td></tr>
+<tr class="hl"><td><b>4 Oct 2023 (current)</b></td><td><b>73.08</b></td><td><b>+13%</b></td><td><b>36.54</b></td><td><b>78.09</b></td></tr>
+</tbody>
+</table>
+</div>
+<p class="exsrc">PPAC, <i>Distributor Commission on Domestic LPG</i>, table posted 4 July 2022, and PPAC&rsquo;s commission page (October 2023 rate), retrieved 8 August 2026, both sourced to MoP&amp;NG and oil-company circulars. Real values use MoSPI&rsquo;s consumer price index, which begins in 2011.</p>
+</div>
+
+<p>The 5 kg cylinder has carried exactly half the 14.2 kg rate throughout. From 7 October 2012 PPAC also lists an &ldquo;additional commission for sale at market-determined price&rdquo;, paid on non-subsidised cylinders: &#8377;0.75 to &#8377;0.82 until 2015, then reset almost every month between &#8377;0.06 and &#8377;0.63 from December 2015. It ended when the August 2019 revision took effect on 1 August 2019. PPAC&rsquo;s page shows no entry after October 2023, so this piece treats &#8377;73.08 as the current rate rather than assuming a later unannounced revision.</p>
+
+<figure class="gb-figure" style="margin:1.5rem 0">
+<svg viewBox="0 0 400 268" width="100%" role="img" aria-label="Distributor commission on a 14.2 kg domestic LPG cylinder, 2004 to 2026. In current rupees it rises in steps from 16.71 to 73.08. In December 2025 rupees it is about 56 in July 2011, holds between 70 and 73 from 2012 to 2018, peaks at 83 in October 2019 and is 73 in December 2025.">
+<text x="10" y="14" font-size="12" fill="#495057">LPG distributor commission, Rs per 14.2 kg cylinder</text>
+<rect x="10" y="21" width="10" height="3" fill="#1c5d99"/><text x="24" y="26" font-size="10" fill="#1c5d99">Current rupees</text>
+<rect x="110" y="21" width="10" height="3" fill="#2f9e8f"/><text x="124" y="26" font-size="10" fill="#2f9e8f">December 2025 rupees (from July 2011)</text>
+<line x1="34" y1="214.0" x2="392" y2="214.0" stroke="#e9ecef"/><text x="30" y="217.5" font-size="9" text-anchor="end" fill="#868e96">0</text><line x1="34" y1="174.0" x2="392" y2="174.0" stroke="#e9ecef"/><text x="30" y="177.5" font-size="9" text-anchor="end" fill="#868e96">20</text><line x1="34" y1="134.0" x2="392" y2="134.0" stroke="#e9ecef"/><text x="30" y="137.5" font-size="9" text-anchor="end" fill="#868e96">40</text><line x1="34" y1="94.0" x2="392" y2="94.0" stroke="#e9ecef"/><text x="30" y="97.5" font-size="9" text-anchor="end" fill="#868e96">60</text><line x1="34" y1="54.0" x2="392" y2="54.0" stroke="#e9ecef"/><text x="30" y="57.5" font-size="9" text-anchor="end" fill="#868e96">80</text><text x="34.0" y="227" font-size="9" text-anchor="middle" fill="#868e96">2004</text><text x="98.5" y="227" font-size="9" text-anchor="middle" fill="#868e96">2008</text><text x="163.0" y="227" font-size="9" text-anchor="middle" fill="#868e96">2012</text><text x="227.5" y="227" font-size="9" text-anchor="middle" fill="#868e96">2016</text><text x="292.0" y="227" font-size="9" text-anchor="middle" fill="#868e96">2020</text><text x="356.5" y="227" font-size="9" text-anchor="middle" fill="#868e96">2024</text>
+<polyline points="38.0,180.6 85.1,180.6 85.1,175.9 105.2,175.9 105.2,172.9 121.3,172.9 121.3,170.1 154.9,170.1 154.9,162.3 175.1,162.3 175.1,139.5 193.9,139.5 193.9,132.6 207.4,132.6 207.4,125.9 226.2,125.9 226.2,122.3 239.6,122.3 239.6,119.0 254.4,119.0 254.4,116.2 273.2,116.2 273.2,112.8 285.3,112.8 285.3,101.6 286.6,101.6 286.6,96.0 288.0,96.0 288.0,90.3 329.6,90.3 329.6,84.3 352.5,84.3 352.5,67.8 388.8,67.8" fill="none" stroke="#1c5d99" stroke-width="2"/>
+<polyline points="154.9,102.6 163.0,106.0 175.1,114.6 175.1,71.6 179.1,73.0 193.9,87.2 193.9,73.2 207.4,79.8 207.4,68.7 211.4,67.9 226.2,76.2 226.2,70.1 239.6,75.4 239.6,70.9 243.6,69.8 254.4,75.1 254.4,70.8 259.8,72.9 273.2,76.4 273.2,71.7 275.9,71.0 285.3,75.1 285.3,60.5 286.6,60.5 286.6,53.7 288.0,53.7 288.0,47.6 292.0,51.2 308.1,58.3 324.3,66.7 329.6,70.0 329.6,64.5 340.4,67.9 352.5,74.5 352.5,57.8 356.5,58.2 372.6,65.9 388.8,67.8" fill="none" stroke="#2f9e8f" stroke-width="2"/>
+<text x="37.2" y="174.6" font-size="10" fill="#1c5d99">16.71</text>
+<text x="285.6" y="41.6" font-size="10" font-weight="700" fill="#2f9e8f" text-anchor="middle">83.18 (Oct 2019)</text>
+<text x="214.6" y="61.7" font-size="10" fill="#2f9e8f" text-anchor="middle">70&#8211;73, 2012&#8211;2018</text>
+<text x="387.2" y="82.8" font-size="10" font-weight="700" fill="#1c5d99" text-anchor="end">73.08</text>
+<text x="10" y="246" font-size="9.5" fill="#6c757d">PPAC distributor-commission table (posted 4 Jul 2022) and PPAC page (Oct 2023 rate);</text>
+<text x="10" y="259" font-size="9.5" fill="#6c757d">MoSPI CPI, all-India combined, base 2012. Real values are this blog&#8217;s calculation.</text>
+</svg>
+</figure>
+
+<h2 id="inflation">In December 2025 rupees the commission is 2.7% above its October 2012 value</h2>
+<p><b>Before 2004.</b> The earliest rate found is &#8377;3.37 a cylinder from August 1972, set on the report of the Shanti Lal Shah Committee, according to a 1980 Lok Sabha reply.</p>
+<p><b>2004 to 2011: small steps.</b> Five revisions took the commission from &#8377;16.71 to &#8377;25.83, about 55% in seven years. The consumer price index used here does not reach back that far, so this phase is shown only in current rupees.</p>
+<p><b>2012 to 2018: one large step, then revisions that matched inflation.</b> October 2012 brought the largest single step in the record, 44%, from &#8377;25.83 to &#8377;37.25. Press reports at the time said the increase was passed on to consumers in the cylinder price, and the distributors&rsquo; federation still asked for &#8377;65. Six revisions followed between December 2013 and November 2018. Each looks like a raise in current rupees, but in December 2025 rupees every one of them set the commission back to between &#8377;70 and &#8377;73. A 2014 Lok Sabha reply says the revisions were made on the recommendation of the oil companies and PPAC, and a November 2018 report, as relayed in search summaries, describes the &#8377;50.58 rate as interim, pending a fresh cost study.</p>
+<p><b>2019 to now: one real raise, then erosion.</b> In August, September and October 2019 the commission rose from &#8377;50.58 to &#8377;61.84 in three steps, 22% in all, while the separate market-price commission was dropped. That lifted the real value to &#8377;83.18, the highest in the series. Then came 31 months without a revision, while consumer prices rose 16.6%. The May 2022 step of 4.9% did not close that gap, and the October 2023 step of 12.7% left the commission at &#8377;78.09 in December 2025 rupees on the day it took effect. By December 2025, with no revision found since, it was back to &#8377;73.08 in December 2025 rupees, 2.7% above October 2012.</p>
+
+<h2 id="delivery">&#8377;33.65 of the commission pays for home delivery</h2>
+<p>The commission is not all margin. The Goa notice of March 2024 says the &#8377;73.03 it quotes includes &#8377;33.65 a cylinder for home delivery, and that distributors may not charge households extra for delivery. A 2015 Lok Sabha reply put the delivery charge at &#8377;18. On the March 2024 figures, delivery takes 46% of the commission, leaving about &#8377;39 a cylinder for the showroom, godown, staff and administration. The notice says the rate is revised from time to time on the basis of a cost study by IIM Ahmedabad. A 2006 Lok Sabha reply says the oil companies had received IIM Ahmedabad&rsquo;s &ldquo;Study on Dealers Commission &amp; Marketing Expenses&rdquo;, and a later reply says a committee of the three public-sector companies&rsquo; marketing directors and a PPAC director re-examined the LPG commission from first principles, after which the October 2014 rate was split into an establishment component and a delivery component. Neither study&rsquo;s findings have been found in public.</p>
+
+<h2 id="price-share">The commission was 6.2% to 9.6% of the Delhi cylinder price from 2010 to 2026</h2>
+<p>Because the commission moves in steps and the cylinder price moves every month, the commission&rsquo;s share of what a household pays swings widely. Unlike the petrol and diesel dealer, who since 2013 (petrol) and 2014 (diesel) has been paid a fixed amount plus a percentage of the product price, the LPG distributor gets a flat amount, so a higher cylinder price passes nothing through to the distributor.</p>
+<figure class="gb-figure" style="margin:1.5rem 0">
+<svg viewBox="0 0 400 259" width="100%" role="img" aria-label="Distributor commission as a share of the Delhi domestic cylinder price: 1 Apr 2010 7.1%, 1 Dec 2018 6.2%, 1 Dec 2019 8.9%, 2 Dec 2020 9.6%, 6 Jul 2022 6.2%, 1 Dec 2023 8.1%, 7 Jun 2026 7.8%">
+<text x="10" y="14" font-size="12" fill="#495057">Commission as a share of the Delhi cylinder price</text>
+<text x="10" y="38" font-size="10.5" fill="#212529">1 Apr 2010: Rs 21.94 of Rs 310.35</text>
+<rect x="10" y="41" width="205.7" height="12" fill="#1c5d99"/>
+<text x="220.7" y="51" font-size="11" font-weight="700" fill="#1c5d99">7.1%</text>
+<text x="10" y="67" font-size="10.5" fill="#212529">1 Dec 2018: Rs 50.58 of Rs 809.50</text>
+<rect x="10" y="70" width="181.8" height="12" fill="#1c5d99"/>
+<text x="196.8" y="80" font-size="11" font-weight="700" fill="#1c5d99">6.2%</text>
+<text x="10" y="96" font-size="10.5" fill="#212529">1 Dec 2019: Rs 61.84 of Rs 695.00</text>
+<rect x="10" y="99" width="258.8" height="12" fill="#1c5d99"/>
+<text x="273.8" y="109" font-size="11" font-weight="700" fill="#1c5d99">8.9%</text>
+<text x="10" y="125" font-size="10.5" fill="#212529">2 Dec 2020: Rs 61.84 of Rs 644.00</text>
+<rect x="10" y="128" width="279.3" height="12" fill="#1c5d99"/>
+<text x="294.3" y="138" font-size="11" font-weight="700" fill="#1c5d99">9.6%</text>
+<text x="10" y="154" font-size="10.5" fill="#212529">6 Jul 2022: Rs 64.84 of Rs 1,053.00</text>
+<rect x="10" y="157" width="179.1" height="12" fill="#1c5d99"/>
+<text x="194.1" y="167" font-size="11" font-weight="700" fill="#1c5d99">6.2%</text>
+<text x="10" y="183" font-size="10.5" fill="#212529">1 Dec 2023: Rs 73.08 of Rs 903.00</text>
+<rect x="10" y="186" width="235.4" height="12" fill="#1c5d99"/>
+<text x="250.4" y="196" font-size="11" font-weight="700" fill="#1c5d99">8.1%</text>
+<text x="10" y="212" font-size="10.5" fill="#212529">7 Jun 2026: Rs 73.08 of Rs 942.00</text>
+<rect x="10" y="215" width="225.7" height="12" fill="#1c5d99"/>
+<text x="240.7" y="225" font-size="11" font-weight="700" fill="#1c5d99">7.8%</text>
+<text x="10" y="251" font-size="9.5" fill="#6c757d">Prices: PPAC (2010), Rajya Sabha reply (2018, 2019, 2023), PIB annexure (2020, 2022), press (2026).</text>
+</svg>
+</figure>
+<p>The share ran from 6.2% to 9.6% across these dates. It was lowest when the cylinder was dearest, in December 2018 and July 2022, and highest when it was cheapest, in December 2020. These are prices at the Delhi counter. Before 2015 households paid a subsidised price; since direct benefit transfer the counter price is the market price, and Ujjwala households get a subsidy credited separately.</p>
+
+<h2 id="upi-fee">LPG&rsquo;s margin is twice the fuel dealer&rsquo;s, so a UPI fee would take half the share</h2>
+<p>A domestic 14.2 kg cylinder in Delhi cost <b>&#8377;942</b> on 7 August 2026, and still did in November. Against that ticket, the &#8377;73.08 commission is a margin of <b>7.76%</b>, not the thin regulated sliver this blog assumed when it filed LPG next to fuel. The petrol dealer keeps 3.87% of the pump price; the diesel dealer, 3.5%; PDS kerosene, 4.5%. The LPG distributor keeps roughly double any of them.</p>
+
+<div class="exhibit">
+<p class="exno">Exhibit 2</p>
+<p class="extitle">Share of the regulated margin a merchant fee would take, three administered counters</p>
+<p class="exsub">Fee share of margin = MDR rate &divide; margin, for a fee charged on the full ticket.</p>
+<div class="tw">
+<table>
+<thead><tr><th>Counter</th><th>Margin, % of ticket</th><th>0.25% MDR takes, % of margin</th><th>0.30%, %</th><th>1.00%, %</th></tr></thead>
+<tbody>
+<tr><td>Petrol/diesel dealer (blended)</td><td>3.87</td><td>6.5</td><td>7.8</td><td>25.8</td></tr>
+<tr><td>PDS kerosene</td><td>4.5</td><td>5.6</td><td>6.7</td><td>22.2</td></tr>
+<tr class="hl"><td><b>Domestic LPG (14.2 kg)</b></td><td><b>7.76</b></td><td><b>3.2</b></td><td><b>3.9</b></td><td><b>12.9</b></td></tr>
+</tbody>
+</table>
+</div>
+<p class="exsrc">Author&rsquo;s computation. Fuel and kerosene margins as previously verified on this blog (PPAC Ready Reckoner FY2025-26 H1). LPG margin from Exhibit 1 and the &#8377;942 Delhi price. All three are government-administered, full-ticket-fee counters, which is why the comparison is fair; the size of the administered margin, not the fact of regulation, is what determines a fee&rsquo;s bite.</p>
+</div>
+
+<p>&ldquo;Government-administered margin, full-ticket fee&rdquo; described the <i>structure</i> LPG shares with fuel and kerosene correctly. It did not mean LPG shares their <i>exposure</i>. At a 1% MDR, fuel loses roughly a quarter of its margin and LPG loses an eighth, on the same kind of fee, because the regulator has set LPG&rsquo;s commission at a larger share of the ticket. A distributor lobby facing a fee notification would have a real argument here, but a smaller one than the petrol dealer&rsquo;s.</p>
+
+<p><b>The fee notified in 2026.</b> Since this arithmetic was first published, a UPI merchant fee has been notified, though it has not started: 0.4% on person-to-merchant payments above &#8377;2,000, with smaller payments exempt. NPCI deferred it on 13 October until after Diwali, with no new date announced as of 7 November (<a href="https://www.deccanherald.com/india/mdr-on-upi-deferred-until-after-diwali-npci-4181482">Deccan Herald</a>, <a href="https://www.moneylife.in/article/npci-defers-upi-mdr-rollout-amid-festive-season-select-merchant-payments-to-attract-charges-postdiwali/81931.html">Moneylife</a>; the schedule is set out in <a href="https://blog.vertistratsolution.com/2026/08/upi-fees-are-now-legal-petrol-pumps.html">this blog&rsquo;s petrol-pump piece</a>). A domestic 14.2 kg refill at &#8377;942 (<a href="https://www.goodreturns.in/news/gas-cylinder-prices-hike-from-november-1-2026-19-kg-commercial-lpg-prices-hiked-by-rs-10-17-diwali-1544457.html">Goodreturns</a>) is below the &#8377;2,000 threshold, so the arithmetic in Exhibit 2 would not apply to it at all. A 19 kg commercial cylinder, &#8377;2,820 in Delhi from 1 November, is above it; whether LPG falls in the flat &#8377;5 category given to fuel or pays 0.4% was not established.</p>
+
+<h2 id="pool">Commission on Ujjwala refills comes to &#8377;3,642 crore a year, and on all domestic sales about &#8377;13,649 crore</h2>
+<p>India&rsquo;s Pradhan Mantri Ujjwala Yojana had roughly <b>10.58 crore beneficiaries</b> as of July 2026, refilling at an average <b>4.71 cylinders a year</b> in FY2025-26. That alone, before counting any of India&rsquo;s roughly 31&ndash;33 crore total LPG connections outside the scheme, is enough to price.</p>
+
+<div class="exhibit">
+<p class="exno">Exhibit 3</p>
+<p class="extitle">Distributor commission on Ujjwala refills alone, one year</p>
+<p class="exsub">10.58 crore beneficiaries &times; 4.71 refills/year &times; &#8377;73.08 commission.</p>
+<div class="tw">
+<table>
+<thead><tr><th>Quantity</th><th>Value</th></tr></thead>
+<tbody>
+<tr><td>PMUY beneficiaries, July 2026, crore</td><td>10.58</td></tr>
+<tr><td>Per-beneficiary consumption, FY2025-26, cylinders/year</td><td>4.71</td></tr>
+<tr><td>Implied PMUY refills, one year, crore cylinders</td><td>~49.8</td></tr>
+<tr class="hl"><td><b>Distributor commission on those refills, &#8377; crore/year</b></td><td><b>3,642</b></td></tr>
+<tr><td>PMUY&rsquo;s own 2025-26 subsidy budget (Cabinet-approved), &#8377; crore/year</td><td>12,000</td></tr>
+</tbody>
+</table>
+</div>
+<p class="exsrc">PMUY beneficiary count and per-consumer consumption: government statements reported in press coverage, July&ndash;August 2026, cross-checked against a NITI Aayog April 2026 evaluation citing 86.6% of Ujjwala households using LPG as primary cooking fuel. Subsidy: Cabinet approval of a &#8377;300/cylinder PMUY subsidy for 2025-26 at a &#8377;12,000 crore outlay, reported August 2025. The commission figure is this blog&rsquo;s computation, not a government-published total.</p>
+</div>
+
+<p>The commission on PMUY refills alone, <b>&#8377;3,642 crore a year</b>, is about <b>30% of the scheme&rsquo;s entire subsidy outlay</b>. It is also more than eight times the &#8377;437 crore UPI incentive budget that the fuel-retail article measured the national fee pool against.</p>
+
+<p>The PMUY figure is not extended to the wider connection base because non-PMUY refill rates were not established. A national figure can instead be built from sales volume, with its own assumptions:</p>
+
+<div class="exhibit">
+<p class="exno">Exhibit 4</p>
+<p class="extitle">An average LPG distributor, and all distributors together</p>
+<p class="exsub">This blog&rsquo;s estimate from national totals, not a measured average.</p>
+<div class="tw">
+<table>
+<thead><tr><th>Item</th><th>Value</th><th>Basis</th></tr></thead>
+<tbody>
+<tr><td>LPG distributors</td><td>25,563</td><td>PPAC data as reproduced in a May 2025 industry update</td></tr>
+<tr><td>Domestic packed LPG sold by PSU companies, a year</td><td>about 26.5 million tonnes</td><td>14.9 million tonnes in Apr&ndash;Sep 2024, 89% domestic packed, doubled</td></tr>
+<tr><td>In 14.2 kg cylinders</td><td>about 187 crore</td><td>Includes 5 kg cylinders as 14.2 kg equivalents</td></tr>
+<tr><td>Per distributor, a month</td><td>about 6,089 cylinders</td><td>Implies about 5.7 refills per active customer a year, against 4.4 to 4.7 for Ujjwala homes</td></tr>
+<tr><td>Gross commission, a month</td><td>about &#8377;4.4 lakh</td><td>At &#8377;73.08 a cylinder</td></tr>
+<tr><td>Of which the delivery component</td><td>about &#8377;2.0 lakh</td><td>&#8377;33.65 a cylinder, which pays the delivery staff</td></tr>
+<tr class="hl"><td><b>All distributors, a year</b></td><td><b>about &#8377;13,649 crore</b></td><td>The national commission pool</td></tr>
+</tbody>
+</table>
+</div>
+</div>
+
+<p>On these assumptions the average distributor delivers about 6,089 cylinders a month and earns about &#8377;4.4 lakh in gross commission, of which about &#8377;2.0 lakh is the delivery component. That is close to the &#8377;4.77 lakh this blog estimated for the average petrol pump. No published study of distributor costs or net income was found. The 14.9 million tonnes is a half-year figure and doubling it ignores seasonality, the count of distributors may include ones outside the public-sector companies, and 5 kg cylinders are counted as 14.2 kg equivalents.</p>
+
+<h2 id="associations">Distributors&rsquo; associations have asked for at least &#8377;150 a cylinder</h2>
+<p>The average hides a wide spread. A CEEW telephone survey of 904 distributors of all three oil companies in six states, run from October 2022 to March 2023, found that 43% of rural distributors and 36% of urban ones sold fewer than 2,500 refills a month, the minimum the report treats as feasible. Only 52% of rural distributors said they delivered to the home of more than 90% of their customers, against 72% of urban ones. A 2019 CAG audit of Ujjwala found more than half the sampled distributors travelling 15 to 92 km to deliver, although the marketing guidelines set a 15 km radius. A flat commission per cylinder pays the same to a high-volume city agency and a thin rural one.</p>
+<p>At least three national bodies speak for distributors, and press reports do not always name them consistently:</p>
+<ul>
+<li><b>Federation of LPG Distributors of India.</b> In September 2026 its national president, P Venkateshwar Rao, said distributors get only what the oil companies allot them and cannot promise instant delivery during supply constraints, in a statement reported from Hyderabad. With the All India federation, it opposed the penalty and termination clauses of the oil companies&rsquo; Marketing Discipline Guidelines, saying they made distributors answerable for every lapse with no matching duty on the companies; a threatened strike was put off when the companies set up a committee with federation members. The reports of that dispute seen here are undated.</li>
+<li><b>All India LPG Distributors Federation</b>, reported in April 2025 as the LPG Distributors Association, president B S Sharma. At a convention in Bhopal it gave the government three months to raise the commission to at least &#8377;150 a cylinder, said oil companies were pushing commercial cylinders on distributors without demand, raised problems with Ujjwala deliveries, and threatened an indefinite national strike. No outcome was found. A 2014 Lok Sabha reply records an earlier federation request that preceded the &#8377;44.06 revision, and a 1992 reply records a federation notice of 13 demands with a threat to stop home deliveries.</li>
+<li><b>National Federation of LPG Distributors of India.</b> When the commission rose to &#8377;37.25 in October 2012, it called the increase inadequate and asked for &#8377;65 a cylinder and a single pricing policy for LPG.</li>
+</ul>
+<p>Outside the trade, CEEW recommends a differentiated commission, with a top-up for distributors serving remote or low-volume rural customers, and Prayas Energy Group has proposed performance-based incentives and a differential commission for rural distributors. A 2021 parliamentary standing committee report noted complaints that some oil companies enforced the guidelines with high penalties and linked commission revisions to wage increases for distributor staff. The associations&rsquo; own websites could not be opened for this piece, so their statements are as reported in the press.</p>
+
+<h2 id="compare">Since 2017 the LPG commission has kept its real value better than the petrol dealer&rsquo;s fixed margin</h2>
+<p>In December 2025 rupees the LPG commission was &#8377;71.60 after the September 2017 revision and is &#8377;73.08 now, up 2%. The fixed part of the petrol dealer&rsquo;s commission fell from &#8377;3.91 to &#8377;3.14 a litre over a similar span, down 20%, because it went unrevised from August 2017 to October 2024, though the petrol dealer&rsquo;s percentage component rose with prices. The wholesale commission on PDS kerosene, the third administered margin PPAC tracks, rose from &#8377;204 a kilolitre in 2004 to &#8377;1,341.88 in February 2019 and shows no revision after that in a table posted in July 2022, as PDS kerosene is phased out.</p>
+
+<h2 id="fix">What would fix this</h2>
+<ul>
+<li><b>The Ministry of Petroleum and Natural Gas should publish every LPG distributor-commission revision order as a text-searchable document linked from PPAC&rsquo;s commission page, together with the cost study behind the rate</b>, so whether &#8377;73.08 is still current can be confirmed from the order itself rather than a scanned image, and the basis for &#8377;73 and for the distributors&rsquo; &#8377;150 can be compared.</li>
+<li><b>PPAC should keep the LPG commission table current, show the delivery component separately, and state whether commercial 19 kg LPG carries a regulated distributor commission</b>, with its rate and revision history if it does.</li>
+<li><b>The Ministry of Petroleum and Natural Gas should publish annual totals of distributor commission paid on domestic LPG, split between Ujjwala and other connections, with average refills for each</b>, so pools like the &#8377;3,642 crore estimated for Ujjwala refills are official figures, not outside calculations.</li>
+<li><b>NPCI should publish UPI transaction value by merchant category, showing LPG distributors and fuel retail outlets separately, and state which fee category LPG distributors fall in under the notified merchant fee</b>, so distributors know before the fee starts whether commercial-cylinder sales pay the flat amount given to fuel or 0.4%.</li>
+<li><b>The commission could be differentiated for remote, low-volume distributors, as CEEW and Prayas have proposed, and its non-delivery part indexed to consumer prices between studies</b>, as the percentage component already does for petrol and diesel, so the real value does not depend on when the next revision comes.</li>
+</ul>
+<p>These are proposals from this blog, not recommendations any agency has adopted.</p>
+
+<h2 id="not-established">What this piece could not establish</h2>
+<ol>
+<li><b>The exact current rate.</b> &#8377;73.08 (PPAC page as read in August 2026, and CEEW 2024) against &#8377;73.03 (Goa notice, March 2024).</li>
+<li><b>Any revision after October 2023.</b> None was found. The commission-revision PDF located (MoP&amp;NG&rsquo;s &ldquo;Revision in Domestic LPG Distributors&rsquo; Commission&rdquo;) is a scanned image and could not be read as text, so PPAC&rsquo;s summary table is treated as authoritative. The April 2025 demand for &#8377;150 has no reported outcome.</li>
+<li><b>A commercial LPG commission.</b> No separate, publicly listed rate for 19 kg cylinders was found; PPAC publishes the domestic 14.2 kg and 5 kg rates.</li>
+<li><b>The cost studies.</b> Neither the IIM Ahmedabad study nor the oil companies&rsquo; first-principles review has been found in public.</li>
+<li><b>Distributor income.</b> The monthly figures in Exhibit 4 are this blog&rsquo;s estimate from national totals, not a measured average; non-PMUY refill rates were not established.</li>
+<li><b>UPI&rsquo;s share of LPG payments, and the fee category.</b> UPI&rsquo;s share of LPG-cylinder payment value is not established, nor whether commercial cylinders would pay the flat &#8377;5 given to fuel or 0.4% under the notified fee.</li>
+<li><b>Inflation in 2026.</b> The MoSPI series used here ends in December 2025; a new series on a 2024 base was not linked.</li>
+</ol>
+
+<div class="note"><b>Related on this blog &mdash; LPG, fuel and payments.</b> <a href="https://blog.vertistratsolution.com/2026/08/upi-fees-are-now-legal-petrol-pumps.html">Transaction Fees for UPI at Petrol Pumps</a> &middot; <a href="https://blog.vertistratsolution.com/2026/10/petrol-pump-margins-and-e20-one-dealer.html">Petrol-Pump Margins and E20: The First Dealer Raise in Seven Years</a> &middot; <a href="https://blog.vertistratsolution.com/2026/08/the-margin-case-why-lpg-and.html">The Margin Case: Why LPG and Petrochemicals Beat Petrol</a> &middot; <a href="https://blog.vertistratsolution.com/2026/09/india-imports-60-of-its-cooking-gas.html">India Imports 60% of Its Cooking Gas</a>.<br><b>Related &mdash; gas.</b> <a href="https://blog.vertistratsolution.com/2026/08/thermal-parity-is-dead-what-85-oil-and.html">Thermal Parity Is Dead</a> &middot; <a href="https://blog.vertistratsolution.com/2026/08/city-gas-just-became-indias-largest-gas.html">City Gas Just Became India's Largest Gas Consumer</a> &middot; <a href="https://blog.vertistratsolution.com/2026/08/europe-bought-record-amount-of-lng-and.html">Europe Bought a Record Amount of LNG</a> &middot; <a href="https://blog.vertistratsolution.com/2026/07/the-cbg-incentive-stack-every-leg-of.html">The CBG Incentive Stack</a>.<br><b>Related &mdash; fertilisers.</b> <a href="https://blog.vertistratsolution.com/2026/08/indias-fertiliser-import-bill-hits-18.html">India's Fertiliser Import Bill Hits $18 Billion</a> &middot; <a href="https://blog.vertistratsolution.com/2026/08/nature-versus-nurture-indias-fertiliser.html">Nature Versus Nurture: India's Fertiliser-Fed Food Security</a> &middot; <a href="https://blog.vertistratsolution.com/2026/08/bio-fertiliser-and-green-credits.html">Bio-Fertiliser and Green Credits: Regrowing India's Arid Land</a> &middot; <a href="https://blog.vertistratsolution.com/2026/07/indias-subsidised-imports-fertilisers.html">India's Subsidised Imports — Fertilisers Explode +76% (FY25 vs FY26)</a> &middot; <a href="https://blog.vertistratsolution.com/2026/08/imported-fertiliser-fuel-prices-diesel.html">Imported Fertiliser &amp; Fuel Prices → Diesel → CPI/WPI</a>.</div>
+
+<p class="sources"><b>Sources.</b> <b>Current rate and revision history:</b> <a href="https://ppac.gov.in/dealers-distributors-commission-on-petrol-diesel-pds-kerosene-domestic-lpg/dealers-commission-on-petrol-and-diesel">PPAC, Dealers/Distributors Commission on Petrol, Diesel, PDS Kerosene &amp; Domestic LPG</a>, retrieved 8 August 2026; PPAC, &ldquo;Distributor Commission on Domestic LPG&rdquo;, April 2004 onwards, and &ldquo;Wholesale Dealers&rsquo; Commission on PDS Kerosene&rdquo;, both posted 4 July 2022; PPAC &ldquo;Dealers&rsquo; Commission on Petrol &amp; Diesel&rdquo;, posted 3 December 2024; all sourced to MoP&amp;NG and oil-company circulars (spreadsheets supplied by the author). <b>Inflation:</b> MoSPI consumer price index, all-India combined general index, base 2012 (2011&ndash;12 from the back series). <b>Delivery component and cost study:</b> <a href="https://www.goa.gov.in/wp-content/uploads/2024/08/PUBLIC-NOTICE-FOR-LPG.pdf">Goa government public notice, March 2024</a>; the 2015 delivery charge of &#8377;18 and the 2006 IIM Ahmedabad and later first-principles replies are from Lok Sabha replies as relayed in search summaries. <b>Revisions:</b> <a href="https://eparlib.nic.in/bitstream/123456789/708863/1/7136.pdf">Lok Sabha reply on the October 2014 revision</a>; <a href="https://www.tribuneindia.com/2012/20121006/latest-news.htm">The Tribune, October 2012</a>; <a href="https://www.deccanherald.com/india/lpg-cylinders-get-pricier-2365207">Deccan Herald on the 2012 revision</a>; <a href="https://www.business-standard.com/article/economy-policy/lpg-prices-hiked-by-over-rs-2-after-govt-raised-dealers-commission-118110900577_1.html">Business Standard, November 2018</a>; <a href="https://eparlib.nic.in/bitstream/123456789/2659544/1/07_III_15-07-1980_p247_p247_u4342.pdf">Lok Sabha reply, 1980</a>; <a href="https://eparlib.nic.in/bitstream/123456789/1089626/1/10_V_17-12-1992_p7_p12_s342.pdf">Lok Sabha, 1992</a>. <b>Cylinder prices:</b> PPAC retail price table (April 2010); <a href="https://rsdebate.nic.in/bitstream/123456789/745477/1/PQ_262_18122023_U1739_p400_p401.pdf">Rajya Sabha reply, 18 December 2023</a>; <a href="https://static.pib.gov.in/WriteReadData/specificdocs/documents/2022/dec/doc20221215145001.pdf">PIB annexure, December 2022</a>; <a href="https://www.thequint.com/news/breaking-news/domestic-lpg-cylinder-price-hike-june-2026-india">The Quint, June 2026</a>; Delhi price of 7 August 2026 from the Goodreturns LPG price tracker; November 2026 prices from <a href="https://www.goodreturns.in/news/gas-cylinder-prices-hike-from-november-1-2026-19-kg-commercial-lpg-prices-hiked-by-rs-10-17-diwali-1544457.html">Goodreturns</a> (search-result summary). <b>UPI merchant fee:</b> deferral reported by <a href="https://www.deccanherald.com/india/mdr-on-upi-deferred-until-after-diwali-npci-4181482">Deccan Herald</a> and <a href="https://www.moneylife.in/article/npci-defers-upi-mdr-rollout-amid-festive-season-select-merchant-payments-to-attract-charges-postdiwali/81931.html">Moneylife</a> (13 October 2026); fuel and kerosene margins and the &#8377;437 crore UPI incentive figure as verified in this blog&rsquo;s <a href="https://blog.vertistratsolution.com/2026/08/upi-fees-are-now-legal-petrol-pumps.html">fuel-retail MDR article</a>. <b>Ujjwala:</b> PMUY beneficiary count and per-consumer consumption from government statements reported in press coverage, July&ndash;August 2026; NITI Aayog evaluation (April 2026) on Ujjwala primary-fuel usage; PMUY 2025-26 subsidy from Cabinet approval of a &#8377;300/cylinder subsidy at &#8377;12,000 crore outlay, reported by Business Standard and PIB, August 2025; total LPG connections (~31&ndash;33 crore) from multiple 2026 government statements to Parliament and press coverage, cited as a range because sources gave different as-on dates. <b>Associations and distributor studies:</b> <a href="https://www.ceew.in/node/4081">CEEW report on LPG distributors (2024)</a> and <a href="https://www.ceew.in/press-releases/new-study-ceew-and-us-mission-india-unveils-key-barriers-and-solutions-expanding">press release</a>; <a href="https://energy.prayaspune.org/images/pdf/webinar-on_the_back_burner.pdf">Prayas Energy Group, On the back burner</a>; <a href="https://www.downtoearth.org.in/governance/even-after-4-years-of-ujjwala-dealers-travel-92-km-to-deliver-cylinders-cag-68470">Down To Earth on the 2019 CAG audit</a>; <a href="https://telanganatoday.com/lpg-distributors-appeal-to-customers-amid-supply-constraints-delivery-disputes-in-hyderabad">Telangana Today, September 2026</a>; <a href="https://www.business-standard.com/india-news/lpg-distributors-threaten-strike-if-demands-not-met-seek-higher-commission-125042000277_1.html">Business Standard, April 2025</a>; <a href="https://www.businesstoday.in/india/story/lpg-distributors-issue-3-month-ultimatum-threaten-indefinite-countrywide-shutdown-if-472746-2025-04-20">Business Today, April 2025</a>; <a href="https://www.indiatvnews.com/news/india/lpg-dealers-threaten-indefinite-strike-from-tuesday-33906.html">India TV on the guidelines dispute</a>; <a href="https://PRSINDIA.org/files/policy/policy_committee_reports/SCR_Summary_LPG.pdf">PRS summary of the 2021 standing committee report</a>. <b>Distributors and volumes:</b> <a href="https://jmbaximarineservices.com/uploads/notifications/other/LIQUID%20GASES_May%20-%202025_jmbaxi.pdf">J M Baxi LPG update, May 2025, citing PPAC</a>; <a href="https://ppac.gov.in/uploads/rep_studies/1700629504_WebVersionLPGProfile01102023.pdf">PPAC LPG profile, October 2023</a>; <a href="https://constructionworld.in/amp/energy-infrastructure/oil-and-gas/pmuy-benefits-100.33-mn-and-lpg-sales-rise-5.5-in-h1-fy25-ppac/66837">Construction World on PPAC&rsquo;s H1 FY25 data</a>. Real values, shares, the margin and fee arithmetic, the &#8377;3,642 crore Ujjwala pool, the distributor month and the &#8377;13,649 crore national pool are this blog&rsquo;s own arithmetic from the inputs stated; they are not published estimates.</p>
+
+<p class="disclaimer" data-gs-ai-disclosure-v1="1"><strong>About this article:</strong> Researched, written and edited by Umashankar Triplicane Dwarakanathan, with AI research assistance; every figure is meant to trace to the primary source cited. See the <a href="https://blog.vertistratsolution.com/p/disclaimer.html">Editorial Policy</a> for how sourcing, AI use and corrections work.</p>
+
+</div>
+
+<div id="gs-idx"></div><script defer="defer" src="https://herrrickshaw.github.io/masaladeutsch/accordion.js"></script>
