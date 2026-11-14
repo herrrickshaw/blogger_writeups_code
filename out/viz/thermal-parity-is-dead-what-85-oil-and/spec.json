@@ -1,0 +1,30 @@
+{"top": [
+  ["10.8×", " India's oil-to-gas price ratio at the notified APM price, about 2.0× thermal parity."],
+  ["+0.72 to −0.17", " oil-gas price correlation before and after the 2008 break, NYMEX 2006–2014."],
+  ["$7.86", " notified domestic gas price for August 2026, against $2.64 at Henry Hub."]
+ ],
+ "sections": [
+  {"h2": "India's administered gas price sits near the 10:1 rule of thumb; US gas does not",
+   "chart": {"type":"bars", "title":"Only the administered Indian gas price sits near the 10:1 rule of thumb",
+             "sub":"Oil-to-gas price ratio: crude $/bbl divided by gas $/MMBtu.", "source":"PPAC; EIA Henry Hub spot; Mittal (2016).",
+             "unit":":1", "accent":"India, APM gas", "ref":[5.55,"Thermal parity, 5.55:1"],
+             "rows":[["Thermal parity (physics)",5.55],["Industry rule of thumb",10],["India, APM gas",10.8],["Henry Hub, US gas",32]]},
+   "means": "Only the administered Indian gas price sits near the informal 10:1 rule of thumb, while unregulated US gas sits far above it.",
+   "todo": "Check any new APM notification against thermal parity before treating it as a market price.",
+   "numbers": {"table":"T1"}},
+  {"h2": "The oil-gas price link broke after 2008 and did not return",
+   "chart": {"type":"bars", "title":"Correlation fell from +0.72 to −0.17 once the 2008 break hit",
+             "sub":"Pearson correlation, NYMEX daily spot prices, January 2006 to December 2014.", "source":"Mittal (2016), Table 3.",
+             "unit":"r", "accent":"Post-crisis", "rows":[["Pre-crisis (Jan 2006–Sep 2008)",0.72],["During crisis (Sep 2008–Apr 2009)",0.58],["Post-crisis (May 2009–Dec 2014)",-0.17]]},
+   "means": "The 2015 cointegration study found no long-run oil-gas relationship after the 2008 break, which it attributes to North American shale supply.",
+   "todo": "Until a liquid domestic gas hub exists, the ceiling is the only working decoupling lever.",
+   "numbers": {"table":"T2"}},
+  {"h2": "India's notified gas price sits well above Henry Hub's unregulated spot price",
+   "chart": {"type":"bars", "title":"Administered Indian gas costs far more than unregulated US spot gas",
+             "sub":"Gas prices, $/MMBtu.", "source":"EIA DHHNGSP via FRED; PPAC.",
+             "unit":"$/MMBtu", "accent":"Notified APM, Aug 2026",
+             "rows":[["Henry Hub spot, US (6 Aug 2026)",2.64],["Formula floor, India",4],["Notified APM, Aug 2026",7.86],["Ceiling, difficult fields",8.9]]},
+   "means": "The notified $7.86 is well above the $2.64 Henry Hub spot price, a policy outcome rather than a market one.",
+   "todo": "Any reform should name its replacement benchmark, since each of the three routes carries a real cost."}
+ ],
+ "derived": {}}

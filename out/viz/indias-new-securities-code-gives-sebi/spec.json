@@ -1,0 +1,22 @@
+{"top": [["400", " investigations SEBI took up in 2024-25, against 301 completed."], ["+244", " net rise in open investigations over 2023-24 and 2024-25."], ["Rs 77,800 crore", " in penalties and refunds classed as difficult to recover by March 2025."]],
+ "sections": [
+  {"h2": "Open investigations rose by 244 as intake outran completions",
+   "chart": {"type": "bars", "title": "Investigations taken up outpaced completions in both recent years", "sub": "SEBI investigations, cases per year. Completed includes older cases.", "source": "SEBI annual reports as reported by PTI, Business Standard, Moneylife and Factly.", "unit": "cases", "accent": "Taken up, 2024-25", "rows": [["Taken up, 2023-24", 342], ["Completed, 2023-24", 197], ["Taken up, 2024-25", 400], ["Completed, 2024-25", 301]]},
+   "means": "Intake has run ahead of completions in both recent years, so open cases keep piling up.",
+   "todo": "Add investigators so completions keep pace with the 400 cases taken up in 2024-25."},
+  {"h2": "The committee would double the 180-day deadline to one year",
+   "chart": {"type": "flow", "events": [["18 December 2025", "Code introduced with a 180-day deadline and unlimited extensions"], ["23 July 2026", "Standing Committee reports, asking for one year", true]]},
+   "means": "The committee's one-year limit is closer to real timelines, which PRS says run one to one-and-a-half years.",
+   "todo": "Adopt the one-year deadline and stop the Code allowing unlimited extensions.",
+   "numbers": {"table": "T1"}},
+  {"h2": "Settlement applications peaked at 703 in 2024-25, then fell to 439",
+   "chart": {"type": "bars", "title": "Settlement applications filed peaked in 2024-25", "sub": "Applications to SEBI to settle cases, per year.", "source": "SEBI annual reports; 2025-26 from secondary summaries of a SEBI consultation paper.", "unit": "applications", "accent": "2024-25", "rows": [["2023-24", 434], ["2024-25", 703], ["2025-26", 439]]},
+   "means": "Settlement applications peaked at 703 in 2024-25 and fell to 439 in 2025-26, by secondary summaries.",
+   "todo": "Check the 2025-26 settlement figures against SEBI's annual report before relying on them."},
+  {"h2": "Rs 77,800 crore in penalties is classed as difficult to recover",
+   "chart": {"type": "bars", "title": "Difficult-to-recover dues rose each year to March 2025", "sub": "Penalties and refunds SEBI classed as difficult to recover, Rs crore, as of each March.", "source": "SEBI annual reports; Business Standard analysis.", "unit": "Rs crore", "accent": "March 2025", "table": {"id": "T3", "label": 0, "value": 1, "rows": "top:3"}},
+   "means": "Most of the Rs 77,800 crore sits in cases before court-appointed committees, which the Code's deadlines do not reach.",
+   "todo": "Speed up the court and asset-sale routes, since the faster deadlines and appeal rights do not touch this pile.",
+   "numbers": {"table": "T3"}}
+ ],
+ "derived": {}}

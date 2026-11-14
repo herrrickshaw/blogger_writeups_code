@@ -1,0 +1,22 @@
+{"top": [["6.5% → 15%", " IndianOil's petrochemical-intensity target by 2030, the share of crude it plans to convert into chemicals."], ["₹15,000 crore", " debt raise for the 2024-25 plan, with about 30% planned in foreign currency."], ["258 → 450 MMTPA", " India's national refining capacity target for 2030."]],
+ "sections": [
+  {"h2": "IndianOil plans to lift its petrochemical share of crude from 6.5% to 15%",
+   "chart": {"type": "bars", "title": "IndianOil's target more than doubles its petrochemical intensity by 2030", "sub": "Share of crude converted into petrochemicals, %.", "source": "IOCL Q1 FY27 earnings call; S&P Global.", "unit": "%", "accent": "2030 target", "rows": [["Petrochemical intensity, company level (about today)", 6.5], ["2030 target", 15]]},
+   "means": "IndianOil's own petrochemical share is planned to rise from about 6.5% to 15% of the crude it processes by 2030, funded by a ₹1 trillion programme.",
+   "todo": "Track whether the Panipat, Gujarat and Barauni expansions finish on the FY27 timetable the company has set.",
+   "numbers": {"table": "T1"}},
+  {"h2": "BPCL's Bina project leans on a ₹31,802 crore bank loan",
+   "chart": {"type": "bars", "title": "A single syndicated loan carries most of BPCL's ₹48,926 crore Bina project", "sub": "Rupees, crore.", "source": "BPCL project disclosures, as reported.", "unit": "₹ crore", "accent": "Syndicated bank loan", "rows": [["Syndicated bank loan (SBI-led six-bank consortium)", 31802], ["Total project cost", 48926]]},
+   "means": "BPCL's refinery and petrochemical expansion at Bina is financed mainly through a project-finance consortium rather than a corporate bond issue.",
+   "todo": "Check the loan drawdowns against the project cost as the Bina complex is commissioned.",
+   "numbers": {"table": "T2"}},
+  {"h2": "About 30% of IndianOil's ₹15,000 crore raise is planned in foreign currency",
+   "chart": {"type": "bars", "title": "IndianOil's debt split is about 70% domestic bonds and 30% foreign currency", "sub": "Share of the ₹15,000 crore raise, %.", "source": "IndianOil finance director, as reported.", "unit": "%", "accent": "Foreign currency", "rows": [["Domestic bonds", 70], ["Foreign currency loans or bonds", 30]]},
+   "means": "The foreign-currency leg, sized at $500 million to $1 billion, is tied to interest rate trends, so its size can move with the rate outlook.",
+   "todo": "Watch the three-to-five-year tenor and the final size of the foreign leg once rates are set."},
+  {"h2": "India's refining target rises to 450 MMTPA by 2030 from about 258 today",
+   "chart": {"type": "bars", "title": "The national refining target is roughly 74% above today's capacity", "sub": "Refining capacity, MMTPA.", "source": "Government target, as reported in the post.", "unit": "MMTPA", "accent": "2030 target", "rows": [["Refining capacity today (about)", 258], ["2030 target", 450]]},
+   "means": "The national refining target is set at 450 MMTPA by 2030, with new refineries planned as integrated petrochemical complexes from the outset.",
+   "todo": "Compare announced petrochemical capacity against the 2030 refining target as projects are completed."}
+ ],
+ "derived": {}}

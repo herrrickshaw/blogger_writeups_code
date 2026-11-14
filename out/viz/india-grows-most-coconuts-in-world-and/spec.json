@@ -1,0 +1,49 @@
+{
+ "top": [
+  ["9,664", " nuts per hectare in Kerala, the lowest yield of the big four, on the largest coconut area of any state."],
+  ["₹56,000", " per hectare: the area-expansion grant, raised from ₹6,500 in September 2025."],
+  ["US$55.43mn", " of coconut oil-cake imports, India's largest coconut import line, while it exports refined oil."]
+ ],
+ "sections": [
+  {"h2": "Tamil Nadu out-yields Kerala per hectare on less land",
+   "chart": {"type": "bars",
+             "title": "Tamil Nadu yields most nuts per hectare; Kerala, the largest area, yields least",
+             "sub": "Productivity among the big four producing states, nuts per hectare.",
+             "source": "Coconut Development Board, as reported in secondary sources.",
+             "unit": "nuts/ha",
+             "accent": "Kerala",
+             "rows": [["Kerala", 9664, "Largest area, lowest yield of the big four"],
+                      ["Tamil Nadu", 13775, "Highest yield of the big four"]]},
+   "means": "Kerala has the most coconut area of any state but the lowest yield among the big four producing states.",
+   "todo": "Treat the gap between the best and worst major state as the expansion target, not new acreage."
+  },
+  {"h2": "The Coconut Development Board raised its area-expansion grant eightfold",
+   "chart": {"type": "bars",
+             "title": "Area-expansion grant rose from ₹6,500 to ₹56,000 per hectare",
+             "sub": "National area-expansion grant, rupees per hectare.",
+             "source": "Coconut Development Board.",
+             "unit": "₹/ha",
+             "accent": "After the revision",
+             "rows": [["Before the revision", 6500],
+                      ["After the revision", 56000]]},
+   "means": "The Board moved money, not only advice, which signals that the productivity problem needs funding.",
+   "todo": "Watch whether the new rate moves replanting, since ageing palms may remain the binding constraint."
+  },
+  {"h2": "India ships refined coconut oil abroad yet imports oil-cake and copra",
+   "chart": {"type": "bars",
+             "title": "Oil-cake is India's largest coconut import line, at US$55.43mn",
+             "sub": "FY26 imports by product line, US$mn.",
+             "source": "DGCI&S trade series, FY2025-26, as analysed in the post.",
+             "unit": "US$mn",
+             "accent": "Coconut/copra oil-cake, expeller variety",
+             "rows": [["Coconut/copra oil-cake, expeller variety", 55.43],
+                      ["Coconut-shell charcoal (of shell/nut)", 25.92],
+                      ["Desiccated coconut", 22.89],
+                      ["Copra", 14.67]]},
+   "means": "India exports refined coconut oil while importing the oil-cake left after extraction, a processing gap.",
+   "todo": "Check next year's trade data for whether oil-cake and copra imports shrink as new processing capacity comes online.",
+   "numbers": {"table": "T2"}
+  }
+ ],
+ "derived": {}
+}

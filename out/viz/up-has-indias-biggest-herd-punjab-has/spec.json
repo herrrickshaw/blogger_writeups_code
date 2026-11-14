@@ -1,0 +1,19 @@
+{"top": [["14.10 kg", " a day from each exotic or crossbred cow in Punjab, the highest yield of the states charted."], ["0.09%", " milk growth in Uttar Pradesh in 2024-25, the lowest of the states charted."]],
+ "sections": [
+  {"h2": "Punjab's cows yield the most milk per animal, from a much smaller herd",
+   "chart": {"type": "bars", "title": "Exotic and crossbred cows in Punjab yield 14.10 kg a day, the highest charted", "sub": "Exotic/crossbred cattle yield, kg/day, 2024-25.", "source": "DAHD, Basic Animal Husbandry Statistics 2025.", "unit": "kg/day", "accent": "Punjab", "table": {"id": "T2", "label": 0, "value": 3, "rows": "top:10", "sort": "desc"}},
+   "means": "Punjab's herd is a fraction of Uttar Pradesh's, yet its cows give the most milk per animal in the table.",
+   "todo": "Judge state dairy performance on yield per animal as well as on herd size.",
+   "numbers": {"table": "T2"}},
+  {"h2": "Uttar Pradesh's milk grew 0.09% in 2024-25, against 6.25% in Punjab",
+   "chart": {"type": "bars", "title": "Milk output rose 6.25% in Punjab but only 0.09% in Uttar Pradesh", "sub": "Year-on-year milk production growth, 2024-25, %.", "source": "DAHD, Basic Animal Husbandry Statistics 2025.", "unit": "%", "accent": "Uttar Pradesh", "ref": [3.58, "All India: 3.58%"], "rows": [["Punjab", 6.25], ["Uttar Pradesh", 0.09]]},
+   "means": "Uttar Pradesh's milk output is nearly flat, while Punjab's grew fastest among the states charted.",
+   "todo": "Check Uttar Pradesh's slowdown against the 21st Census once its state-wise results are published.",
+   "numbers": {"table": "T2"}},
+  {"h2": "Uttar Pradesh leads national milk output with 15.66%, more than any other state",
+   "chart": {"type": "bars", "title": "Uttar Pradesh gives 15.66% of India's milk, more than any charted state", "sub": "Share of national milk output, 2024-25, %.", "source": "DAHD, Basic Animal Husbandry Statistics 2025.", "unit": "%", "accent": "Uttar Pradesh", "rows": [["Uttar Pradesh", 15.66], ["Rajasthan", 14.82], ["Punjab", 6.00]]},
+   "means": "Uttar Pradesh leads on share of output, while Punjab produces 6.00% of the national total from far fewer animals.",
+   "todo": "Publish the 21st Livestock Census state-wise results so the 2019 headcount can be replaced.",
+   "numbers": {"table": "T2"}}
+ ],
+ "derived": {}}

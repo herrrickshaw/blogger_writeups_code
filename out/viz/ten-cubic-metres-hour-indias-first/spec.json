@@ -1,0 +1,59 @@
+{
+  "top": [
+    ["2", " successful bunkering operations come before a supplier's full-term certificate under DGS Circular 32/2025."],
+    ["10 Nm³/hour", " is the output of India's first port green-hydrogen plant, which powers streetlights, not ships."]
+  ],
+  "sections": [
+    {
+      "h2": "Singapore and Rotterdam sold more than 1.6 million tonnes of biofuel blends in 2024",
+      "chart": {
+        "type": "bars",
+        "title": "Singapore alone supplied about 0.88 million tonnes of biofuel blends in 2024",
+        "sub": "Marine biofuel bunker sales, million tonnes.",
+        "source": "Port and industry data as cited in the post.",
+        "unit": "million tonnes",
+        "accent": "Singapore, 2024",
+        "rows": [
+          ["Singapore, 2024", 0.88, "about"],
+          ["Singapore and Rotterdam, combined", 1.6, "more than"]
+        ]
+      },
+      "means": "India's first port hydrogen pilot makes 10 Nm³ an hour, far below the scale of the two established hubs.",
+      "todo": "Track India's port biofuel bunker sales against these two hubs before setting volume targets."
+    },
+    {
+      "h2": "Paradip's jetty is costed at ₹797 crore, against ₹35.34 crore for VOC's methanol facility",
+      "chart": {
+        "type": "bars",
+        "title": "The Paradip jetty is the largest of the three port green-fuel costs in the post",
+        "sub": "Cost estimates, ₹ crore.",
+        "source": "Ministry of Ports, Shipping and Waterways; the post.",
+        "unit": "₹ crore",
+        "accent": "Paradip jetty, PPP",
+        "rows": [
+          ["Paradip jetty, PPP (approved Feb 2026)", 797],
+          ["Green shipping hydrogen scheme, outlay", 115, "through FY2025-26"],
+          ["VOC green methanol bunkering facility", 35.34, "750 cubic metres storage"]
+        ]
+      },
+      "means": "The three port and shipping projects in the post carry costs from ₹35.34 crore to ₹797 crore.",
+      "todo": "Check that the Paradip jetty's PPP structure delivers the up to 4 million tonnes a year it is designed for."
+    },
+    {
+      "h2": "A supplier needs two successful bunkering operations before its five-year certificate",
+      "chart": {
+        "type": "flow",
+        "title": "Registration runs from a quality certificate to a five-year full-term certificate",
+        "events": [
+          ["Step 1", "ISO 9001:2015 certification scoped to biofuel bunkering, from an NABCB-accredited body"],
+          ["Step 2", "Live demonstration observed by IRS; interim certificate valid 6 months"],
+          ["Step 3", "IRS audit after at least 2 successful bunkering operations; full-term certificate valid 5 years", true]
+        ]
+      },
+      "means": "The interim certificate lasts 6 months and the full-term certificate 5 years.",
+      "todo": "Ports should schedule a live bunkering demonstration early, since the interim certificate depends on one.",
+      "numbers": {"table": "T2"}
+    }
+  ],
+  "derived": {}
+}

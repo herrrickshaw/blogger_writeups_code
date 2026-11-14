@@ -1,0 +1,21 @@
+{"top": [["190 bcm", " of gas a 15% share would need in 2029-30, 2.8 times what India used in 2025-26."], ["7.0%", " gas share of primary energy in 2023-24, down from 7.5% in 2014-15."], ["10.5%", " average load of India's gas power plants in 2025-26."]],
+ "sections": [
+  {"h2": "Gas's share of India's energy has slipped, not risen, since 2014-15",
+   "chart": {"type": "bars", "title": "Gas fell from 7.5% of primary energy in 2014-15 to 7.0% in 2023-24", "sub": "Gas share of India's primary energy supply, %. Fiscal years.", "source": "MoSPI energy balance; PPAC.", "unit": "%", "accent": "23-24", "rows": [["14-15", 7.5], ["15-16", 7.3], ["16-17", 7.6], ["17-18", 7.7], ["18-19", 7.4], ["19-20", 7.9], ["20-21", 8.0], ["21-22", 7.7], ["22-23", 6.7], ["23-24", 7.0]]},
+   "means": "Gas use grew more slowly than total energy supply, so its share slipped over the decade.",
+   "todo": "Publish the yearly path the target implies, so progress against 15% can be measured."},
+  {"h2": "A 15% share by 2029-30 would need 2.8 times the gas India used in 2025-26",
+   "chart": {"type": "bars", "title": "15% of primary energy in 2029-30 means about 190 bcm of gas a year", "sub": "Gas a year, billion cubic metres.", "source": "This blog's arithmetic on MoSPI, PPAC and IEA figures.", "unit": "bcm", "accent": "15% share, 2029-30", "rows": [["Used in 2025-26", 69], ["15% share, 2029-30", 190]]},
+   "means": "Almost all of the extra gas would have to be imported as LNG, at about 112 million tonnes a year.",
+   "todo": "Test the target against an import plan that India can actually finance.",
+   "numbers": {"table": "T1"}},
+  {"h2": "Idle gas power plants are a small lever, running at about a tenth of capacity",
+   "chart": {"type": "bars", "title": "Gas power plants ran at 10.5% average load in 2025-26, against about 24% in 2017-18", "sub": "Average load of India's gas-fired power fleet, %.", "source": "Central Electricity Authority.", "unit": "%", "accent": "2025-26", "rows": [["2017-18", 24], ["Target", 14.8], ["2025-26", 10.5]]},
+   "means": "Taking the fleet back to its 2017-18 load would add only about 1.0 percentage points to gas's share.",
+   "todo": "Use a flexible allocation framework so idle plants get gas at prices they can burn."},
+  {"h2": "Terminals are not the bottleneck; pipelines and gas prices are",
+   "chart": {"type": "bars", "title": "Terminals ran at 47% of capacity in 2025, down from 58% in 2024", "sub": "Utilisation of India's LNG terminals, %.", "source": "International Gas Union.", "unit": "%", "accent": "2025", "rows": [["2024", 58], ["2025", 47]]},
+   "means": "The constraint is pipeline capacity to move gas inland and the price of the gas, not the tanks.",
+   "todo": "Prefer more pipeline out of existing terminals over new terminals."}
+ ],
+ "derived": {}}

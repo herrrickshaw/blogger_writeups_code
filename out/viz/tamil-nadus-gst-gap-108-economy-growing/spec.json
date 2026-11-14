@@ -1,0 +1,17 @@
+{"top": [["−0.7%", " domestic GST growth in FY2025-26, while the state's real economy grew 10.83%."], ["38.7%", " rise in active GST-registered businesses in one year, ahead of Maharashtra and Gujarat."]],
+ "sections": [
+  {"h2": "Tamil Nadu's GST growth slid from 22.1% to −0.7% over three years",
+   "chart": {"type": "bars", "title": "Domestic GST growth decelerated for three straight years before turning negative", "sub": "Year-on-year change in Tamil Nadu domestic GST collection, %.", "source": "GSTN Statistics portal, Collections-Statewise workbooks.", "unit": "%", "accent": "FY2025-26", "rows": [["FY2022-23", 22.1], ["FY2023-24", 16.2], ["FY2024-25", 8.1], ["FY2025-26", -0.7]]},
+   "means": "Tamil Nadu's domestic GST collection grew more slowly each year and fell 0.7% in FY2025-26.",
+   "todo": "Read the four enforcement measures against monthly collection data before judging whether they are working.",
+   "numbers": {"table": "T1"}},
+  {"h2": "Real growth of 10.83% did not reach GST collection in FY2025-26",
+   "chart": {"type": "bars", "title": "The state's economy grew about 11% in real terms while GST shrank", "sub": "FY2025-26, % change.", "source": "GSTN Statistics portal; state GSDP estimates as cited in the post.", "unit": "%", "accent": "Domestic GST growth", "rows": [["Real GSDP growth", 10.83], ["Domestic GST growth", -0.7]]},
+   "means": "Real GSDP grew 10.83% and manufacturing over 15% in FY2025-26, yet GST collection fell 0.7%.",
+   "todo": "Test whether the gap is capture rather than growth by comparing manufacturing GST with e-way bill volumes."},
+  {"h2": "Tamil Nadu's registered businesses grew faster than most of its peers",
+   "chart": {"type": "bars", "title": "Registrations rose 38.7% in a year, behind only Karnataka's 45.2%", "sub": "Growth in active GST-registered businesses, April 2025 to April 2026, %.", "source": "GSTN.", "unit": "%", "accent": "Tamil Nadu", "rows": [["Karnataka", 45.2], ["Tamil Nadu", 38.7], ["Maharashtra", 36.3], ["Gujarat", 30.5]]},
+   "means": "Tamil Nadu's taxpayer base widened faster than Maharashtra and Gujarat, so the revenue gap is not a shortage of registrants.",
+   "todo": "Find a services-side compliance tool that reaches the 53% of gross state value added that goods-movement measures miss."}
+ ],
+ "derived": {}}

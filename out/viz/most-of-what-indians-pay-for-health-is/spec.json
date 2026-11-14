@@ -1,0 +1,41 @@
+{
+ "top": [
+  ["43.4%", " of India's health spending was paid out of pocket in 2022-23, up from 39.4% a year earlier."],
+  ["~70%", " of health spending goes on outpatient care, which PM-JAY does not cover."],
+  ["Rs 0.5–1.1 lakh crore", " a year: this blog's rough cost of outpatient cover for PM-JAY's 55 crore eligible people."]
+ ],
+ "sections": [
+  {"h2": "Out-of-pocket spending stopped falling and rose again in 2022-23",
+   "chart": {"type": "bars",
+             "title": "Households paid a bigger share of health costs directly in 2022-23",
+             "sub": "Out-of-pocket spending, % of total health expenditure.",
+             "source": "National Health Accounts, 2022-23.",
+             "unit": "%",
+             "accent": "2022-23",
+             "rows": [["2013-14", 64.2], ["2014-15", 62.6], ["2021-22", 39.4], ["2022-23", 43.4]]},
+   "means": "Households paid 43.4% of health spending directly in 2022-23, up from 39.4% a year earlier.",
+   "todo": "Put government health spending on the committee's time-bound path to 2.5% of GDP.",
+   "numbers": {"table": "T2"}},
+  {"h2": "Households pay more per hospital stay than PM-JAY pays per admission",
+   "chart": {"type": "bars",
+             "title": "Out-of-pocket cost of a hospital stay in 2025 exceeded the average PM-JAY payment",
+             "sub": "Rupees per hospital admission or stay.",
+             "source": "NSS 2025; PM-JAY claims data since 2018.",
+             "unit": "Rs",
+             "accent": "Out-of-pocket per hospital stay, 2025",
+             "rows": [["PM-JAY admission paid, average since 2018", 15300], ["Out-of-pocket per hospital stay, 2025", 34064]]},
+   "means": "Households paid an average of Rs 34,064 out of pocket per hospital stay in 2025, against about Rs 15,300 paid per PM-JAY admission since 2018.",
+   "todo": "Extend PM-JAY to outpatient consultations, diagnostics and medicines, as the committee proposes."},
+  {"h2": "Covering outpatient care would cost 2.1 to 4.2 times PM-JAY's hospital claims",
+   "chart": {"type": "bars",
+             "title": "Outpatient cover would cost several times the Centre's PM-JAY budget",
+             "sub": "Rs thousand crore a year. PM-JAY figures in current rupees; outpatient figures in 2022-23 prices. Illustrative estimate, not a costing.",
+             "source": "PM-JAY figures; National Health Accounts 2022-23; this blog's arithmetic.",
+             "unit": "Rs thousand crore",
+             "accent": "Outpatient cover, high estimate",
+             "rows": [["PM-JAY: Centre's budget, 2026-27", 9.5], ["PM-JAY: hospital claims a year, average since 2018", 25.4], ["Outpatient cover, low estimate", 53.2], ["Outpatient cover, high estimate", 106.4]]},
+   "means": "Covering PM-JAY's eligible people for outpatient care would cost Rs 0.5 to 1.1 lakh crore a year, 2.1 to 4.2 times what PM-JAY pays for hospital care.",
+   "todo": "Deliver outpatient care through free medicines and tests at public facilities such as Ayushman Arogya Mandirs, rather than a claim for each visit."}
+ ],
+ "derived": {}
+}

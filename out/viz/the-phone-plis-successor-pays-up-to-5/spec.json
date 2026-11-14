@@ -1,0 +1,126 @@
+{
+ "top": [
+  [
+   "2.25–5%",
+   " base incentive on eligible sales; the 2.75% headline applies only to a narrow band."
+  ],
+  [
+   "₹62,500 crore",
+   " five-year outlay in the Cabinet release; the guidelines print ₹62,300 crore."
+  ],
+  [
+   "0.20%",
+   " extra for a battery, paid only if the cell inside is made in India."
+  ]
+ ],
+ "sections": [
+  {
+   "h2": "Sales above the band earn 4–5%, so the 2.75% headline is a floor",
+   "chart": {
+    "type": "bars",
+    "title": "Sales above the band earn 5% in the first two years, falling to 4%",
+    "sub": "Para 9.1(ii) rate on sales above the band, %, by financial year.",
+    "source": "MeitY scheme guidelines, 6 October 2026, para 9.1.",
+    "unit": "%",
+    "accent": "2027-28",
+    "rows": [
+     [
+      "2026-27",
+      5
+     ],
+     [
+      "2027-28",
+      5
+     ],
+     [
+      "2028-29",
+      4.5
+     ],
+     [
+      "2029-30",
+      4.5
+     ],
+     [
+      "2030-31",
+      4
+     ]
+    ]
+   },
+   "means": "On the post's reading of the band, most eligible sales of a growing brand earn the higher rate.",
+   "todo": "MeitY should publish a worked example of the 2.75% band, as the post asks."
+  },
+  {
+   "h2": "Enclosures carry the largest component add-on, 0.50% of eligible sales",
+   "chart": {
+    "type": "bars",
+    "title": "Enclosures earn the largest add-on; battery and USB cable earn the least at 0.20%",
+    "sub": "Extra incentive, % of eligible sales, by component (para 10).",
+    "source": "MeitY scheme guidelines, 6 October 2026, para 10.",
+    "unit": "%",
+    "accent": "Enclosure",
+    "rows": [
+     [
+      "Enclosure",
+      0.5
+     ],
+     [
+      "Display module",
+      0.3
+     ],
+     [
+      "Camera module",
+      0.3
+     ],
+     [
+      "Battery (incl. cells)",
+      0.2
+     ],
+     [
+      "USB cable (incl. connectors)",
+      0.2
+     ]
+    ]
+   },
+   "means": "The five component add-ons total 1.50%, and each pays only pro rata to a localisation share that must reach 25%.",
+   "todo": "Brands should check each component against the 25% localisation minimum before committing to a line."
+  },
+  {
+   "h2": "OLED display module imports grew fastest, up 71.4% in FY2025-26",
+   "chart": {
+    "type": "bars",
+    "title": "OLED display module imports grew fastest; the other lines grew 15–56%",
+    "sub": "Change in US$ imports, FY2024-25 to FY2025-26, %.",
+    "source": "DGCI&S TradeStat, FY2025-26 (provisional).",
+    "unit": "%",
+    "accent": "OLED display modules",
+    "rows": [
+     [
+      "OLED display modules",
+      71.4
+     ],
+     [
+      "Lithium-ion accumulators",
+      56.2
+     ],
+     [
+      "LCD display modules, smartphones",
+      34.3
+     ],
+     [
+      "Flat panel display modules, all lines",
+      15.0
+     ]
+    ]
+   },
+   "means": "The lithium-ion line covers every accumulator, so it overstates what phone makers import for their cells.",
+   "todo": "Track the FY2026-27 import lines for cells and OLED modules to see whether localisation responds."
+  }
+ ],
+ "derived": {},
+ "details": [
+  {
+   "summary": "Further sources cited in the post",
+   "html": "<p><a href=\"https://www.pib.gov.in/PressReleasePage.aspx?PRID=1858066&amp;reg=3&amp;lang=2\">PIB, 4-6% rate and original outlay</a>. <a href=\"https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=1884069&amp;reg=3&amp;lang=2\">PIB, base year FY2019-20</a>. <a href=\"https://www.pib.gov.in/PressReleasePage.aspx?PRID=2247771&amp;lang=1&amp;reg=3\">PIB, 1 April 2026, domestic value addition</a>.</p>"
+  }
+ ]
+}

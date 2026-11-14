@@ -1,0 +1,19 @@
+{"top": [["5,28,760", " of 5,32,205 upcoming JJM schemes are already ongoing, and only 0.6% await a work order."], ["1,09,790", " of 6,41,995 schemes in the B15 report are formally completed."], ["₹4,17,190", " crore spent so far, against a total estimated cost of ₹8,29,181 crore."]],
+ "sections": [
+  {"h2": "Almost all upcoming JJM schemes are already under construction",
+   "chart": {"type": "bars", "title": "Only 3,445 of 5,32,205 upcoming schemes have no work order yet", "sub": "Format B15 schemes by status, all India.", "source": "Ministry of Jal Shakti, JJM Reports portal (Format B15).", "unit": "schemes", "accent": "Not yet started", "rows": [["Ongoing", 528760], ["Completed", 109790], ["Not yet started", 3445]]},
+   "means": "Of the 5,32,205 upcoming schemes nationally, 5,28,760 are ongoing and only 3,445 (0.6%) are sanctioned with no work order issued.",
+   "todo": "Watch Assam's 2,382 unstarted schemes first, since they hold most of the genuine backlog.",
+   "numbers": {"table": "T1"}},
+  {"h2": "Low completed counts reflect formal closure lag, not missing taps",
+   "chart": {"type": "bars", "title": "Four large states have completed fewer than 2.5% of their schemes", "sub": "Completed schemes; total schemes in brackets.", "source": "Ministry of Jal Shakti, JJM Reports portal (Format B15).", "unit": "schemes", "accent": "Chhattisgarh (of 32,239)", "rows": [["Uttar Pradesh (of 40,955)", 419], ["Chhattisgarh (of 32,239)", 122], ["Kerala (of 1,730)", 43], ["Jharkhand (of 97,535)", 2306]]},
+   "means": "The post reads these low counts as strict administrative and financial closure lag, since a household can have a working tap before its scheme's paperwork closes.",
+   "todo": "Read completed-scheme counts alongside household connection data before judging rural water access.",
+   "numbers": {"table": "T1"}},
+  {"h2": "The remaining ₹7.9 lakh crore is already contracted, not waiting for sanction",
+   "chart": {"type": "bars", "title": "Uttar Pradesh's upcoming estimated cost is well above the other three states", "sub": "Estimated cost of upcoming schemes, ₹ crore, for selected states.", "source": "Ministry of Jal Shakti, JJM Reports portal (Format B15, state table).", "unit": "₹ crore", "accent": "Uttar Pradesh", "rows": [["Uttar Pradesh", 153408.40], ["Madhya Pradesh", 82299.88], ["Karnataka", 68922.30], ["West Bengal", 64336.15]]},
+   "means": "Uttar Pradesh's upcoming cost is 1,53,408.40 crore, against 64,336.15 to 82,299.88 crore for the other three states shown.",
+   "todo": "Confirm that these four states' schemes are ongoing, since the lower execution-risk reading depends on it.",
+   "numbers": {"table": "T1"}}
+ ],
+ "derived": {}}

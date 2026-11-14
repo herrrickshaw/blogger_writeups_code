@@ -1,0 +1,53 @@
+{
+ "top": [
+  ["37.8 GW", " of solar-cell capacity a year is now enlisted in ALMM List-II, from 19 company names running 21 units."],
+  ["2.9x", " growth since the first list of 31 July 2025, when enlisted capacity was 13.1 GW."],
+  ["67%", " of enlisted capacity sits in Gujarat, Tamil Nadu and Telangana together."]
+ ],
+ "sections": [
+  {"h2": "Enlisted cell capacity has roughly tripled in fourteen months",
+   "chart": {"type": "bars",
+             "title": "Cumulative enlisted capacity rose from 13,067 MW to 37,796 MW across 13 revisions",
+             "sub": "Cumulative enlisted cell capacity after each revision, MW a year.",
+             "source": "MNRE, ALMM List-II revisions 0-12; author's sums.",
+             "unit": "MW a year",
+             "accent": "8 Oct 2026",
+             "table": {"id": "T4", "label": 1, "value": 2, "rows": "top:13"}},
+   "means": "The list grew in steps, with the biggest jump at the third revision on 15 December 2025.",
+   "todo": "Check the current List-II revision before ordering cells for any project that commissions after 31 December 2026."
+  },
+  {"h2": "Twelve company names hold 86% of enlisted capacity",
+   "chart": {"type": "bars",
+             "title": "Waaree and TP Solar alone hold 26% of the list, and the top five names 52%",
+             "sub": "Share of total enlisted capacity by manufacturer, %.",
+             "source": "MNRE, ALMM List-II, 12th revision (8 October 2026); author's sums.",
+             "unit": "%",
+             "accent": "Waaree Energies",
+             "table": {"id": "T1", "label": 0, "value": 4, "rows": "top:12", "sort": "desc"}},
+   "means": "Concentration is high, so a single plant's ramp-up or delay moves the national picture.",
+   "todo": "Ask suppliers which listed unit will make their cells and whether that unit is already at full output."
+  },
+  {"h2": "Gujarat and Tamil Nadu host most of the enlisted factories",
+   "chart": {"type": "bars",
+             "title": "Gujarat holds 34% of enlisted capacity and Tamil Nadu 21%",
+             "sub": "Share of total enlisted capacity by state, %.",
+             "source": "MNRE, ALMM List-II, 12th revision (8 October 2026); author's sums.",
+             "unit": "%",
+             "accent": "Gujarat",
+             "table": {"id": "T2", "label": 0, "value": 2, "rows": "top:9", "sort": "desc"}},
+   "means": "A developer in a state with no enlisted cell plant must buy from a neighbouring state.",
+   "todo": "Price cell sourcing from Gujarat, Tamil Nadu or Telangana before committing to a project site outside them."
+  },
+  {"h2": "Mono PERC still leads, but TOPCon is now 42% of the list",
+   "chart": {"type": "bars",
+             "title": "Mono PERC is 46% of the list, TOPCon 42%, and the latest additions are TOPCon",
+             "sub": "Share of total enlisted capacity by cell technology, %.",
+             "source": "MNRE, ALMM List-II, 12th revision (8 October 2026); author's sums.",
+             "unit": "%",
+             "accent": "TOPCon (N-type)",
+             "table": {"id": "T3", "label": 0, "value": 2, "rows": "top:4", "sort": "desc"}},
+   "means": "The list records manufacturer-claimed efficiency ranges, not tested values, so technology share is a capacity view only.",
+   "todo": "Ask for tested efficiency data on any cell line a project relies on, since the list does not carry it."
+  }
+ ]
+}
