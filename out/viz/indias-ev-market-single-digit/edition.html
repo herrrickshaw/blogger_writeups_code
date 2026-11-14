@@ -1,0 +1,257 @@
+<style>/*gs-typo-unify-v1*/
+.artx,.fertx,.ecx,.mapx,.idx,.wrap,.slide,.stat{font-family:Georgia,'Times New Roman',serif!important;}
+.artx p,.fertx p,.ecx p,.mapx p,.idx p,.wrap p,.slide p,.stat p,
+.artx li,.fertx li,.ecx li,.mapx li,.idx li,.wrap li,.slide li,.stat li,
+.artx td,.fertx td,.ecx td,.mapx td,.idx td,.wrap td,.slide td,.stat td,
+.artx th,.fertx th,.ecx th,.mapx th,.idx th,.wrap th,.slide th,.stat th,
+.artx blockquote,.fertx blockquote,.ecx blockquote,.mapx blockquote,.idx blockquote,.wrap blockquote,.slide blockquote,.stat blockquote
+{font-family:Georgia,'Times New Roman',serif!important;}
+.artx h1,.fertx h1,.ecx h1,.mapx h1,.idx h1,.wrap h1,.slide h1,.stat h1,
+.artx h2,.fertx h2,.ecx h2,.mapx h2,.idx h2,.wrap h2,.slide h2,.stat h2,
+.artx h3,.fertx h3,.ecx h3,.mapx h3,.idx h3,.wrap h3,.slide h3,.stat h3
+{font-family:Georgia,'Times New Roman',serif!important;line-height:1.3!important;}
+body,p,li,td,th,blockquote,h1,h2,h3{font-family:Georgia,'Times New Roman',serif;}
+
+/*gs-table-v1 — scoped to .post-body, not .artx: several posts use other
+  wrapper classes (.tblwrap among them) and an .artx-scoped rule silently did
+  nothing on them. Verified on a canary post before the batch. */
+.post-body .tw{overflow-x:auto;margin:1.1rem 0}
+/* display:block makes the table its OWN scroller, so it works whether or not
+   the post wrapped it in .tw — several posts use .tblwrap or nothing, and a
+   width:auto table with no scroller pushes the whole page sideways. */
+.post-body table{display:block;overflow-x:auto;max-width:100%;width:max-content;
+ min-width:100%;border-collapse:collapse;font-size:.86rem}
+.post-body thead th,.post-body tr:first-child th{background:#111;color:#fff;font-weight:700;
+ text-align:right;vertical-align:bottom;padding:.6rem .7rem;border:1px solid #111;
+ white-space:normal;overflow-wrap:normal;word-break:keep-all;min-width:5.5rem}
+.post-body thead th:first-child,.post-body tr:first-child th:first-child{text-align:left}
+.post-body td{border:1px solid #d9d9d9;padding:.5rem .7rem;text-align:right;
+ font-variant-numeric:tabular-nums;white-space:nowrap;color:#111;background:#fff}
+.post-body td:first-child{text-align:left;white-space:normal;min-width:8rem}
+.post-body tbody tr:nth-child(even) td{background:#fafafa}
+</style>
+<div class="artx">
+<style>
+  .artx { max-width: 900px; margin: 0 auto; background: #fff; color: #000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.65; }
+  .artx * { box-sizing: border-box; }
+  .artx a { color: #0A2D5A; }
+  .artx .ev-header { background: linear-gradient(135deg, #0A2D5A 0%, #0A5A2D 100%);
+    color: #fff; padding: 36px 30px; text-align: left; border-radius: 6px 6px 0 0; }
+  .artx .ev-header h1 { font-size: 2.1em; margin: 0 0 8px 0; font-weight: 700; color: #fff; line-height: 1.25; }
+  .artx .ev-header p.dek { font-size: 1.05em; margin: 0; color: #fff; opacity: 0.95; }
+  .artx .ev-meta { background: #f0f0f0; color: #000; padding: 12px 30px; font-size: 0.85em;
+    border-bottom: 1px solid #ccc; display: flex; flex-wrap: wrap; gap: 18px; }
+  .artx .ev-meta strong { color: #0A2D5A; }
+  .artx .ev-body { padding: 30px; border: 1px solid #ddd; border-top: none; }
+  .artx h2 { color: #0A2D5A; font-size: 1.5em; margin: 34px 0 14px 0; padding-bottom: 8px;
+    border-bottom: 3px solid #0A5A2D; }
+  .artx h2:first-child { margin-top: 0; }
+  .artx h3 { color: #0A5A2D; font-size: 1.15em; margin: 20px 0 10px 0; }
+  .artx p { color: #000; margin: 0 0 12px 0; }
+  .artx ul, .artx ol { margin: 10px 0 16px 24px; color: #000; }
+  .artx li { margin-bottom: 7px; color: #000; }
+  .artx .stat-row { display: flex; flex-wrap: wrap; gap: 14px; margin: 16px 0 22px 0; }
+  .artx .stat { flex: 1 1 150px; background: #f6f6f4; border: 1px solid #ddd; border-top: 3px solid #0A2D5A;
+    border-radius: 4px; padding: 14px 12px; text-align: center; }
+  .artx .stat b { display: block; font-size: 1.5em; color: #000; }
+  .artx .stat span { display: block; font-size: 0.8em; color: #333; margin-top: 4px; }
+  .artx table { width: 100%; border-collapse: collapse; margin: 16px 0; font-size: 0.92em; }
+  .artx th { background: #0A2D5A; color: #fff; padding: 10px 12px; text-align: left; font-weight: 600; }
+  .artx td { padding: 9px 12px; border-bottom: 1px solid #ddd; color: #000; }
+  .artx tr:nth-child(even) td { background: #f9f9f9; }
+  .artx .tblwrap { overflow-x: auto; }
+  .artx .highlight-box { background: #f0f8ff; border-left: 5px solid #0A2D5A; padding: 16px 18px;
+    margin: 16px 0; border-radius: 4px; color: #000; }
+  .artx .highlight-box.success { background: #f0fff4; border-left-color: #0A5A2D; }
+  .artx .risk-box { background: #fff5f5; border: 2px solid #b23; padding: 16px 18px; border-radius: 4px;
+    margin: 16px 0; color: #000; }
+  .artx .risk-box h3 { color: #b23; margin-top: 0; }
+  .artx .source-note { font-size: 0.82em; color: #333; margin: 6px 0 0 0; font-style: italic; }
+  .artx .two-col { display: flex; gap: 20px; flex-wrap: wrap; margin: 16px 0; }
+  .artx .two-col > div { flex: 1 1 260px; background: #f9f9f9; border: 1px solid #ddd; border-radius: 4px; padding: 16px; }
+  .artx .two-col h3 { margin-top: 0; }
+  .artx .two-col.works > div:first-child { border-top: 3px solid #0A5A2D; }
+  .artx .two-col.works > div:last-child { border-top: 3px solid #b23; }
+  .artx footer.ev-footer { background: #0A2D5A; color: #fff; padding: 22px 30px; border-radius: 0 0 6px 6px;
+    font-size: 0.88em; text-align: center; }
+  .artx footer.ev-footer p { color: #fff; margin: 4px 0; }
+  .artx .disclaimer { border: 1px solid #ccc; background: #f6f6f4; padding: 16px 18px; border-radius: 4px;
+    margin: 30px 0 0 0; font-size: 0.88em; color: #000; }
+  .artx code, .artx .mono { font-family: "SF Mono", Menlo, Consolas, monospace; font-size: 0.9em; }
+  @media (max-width: 640px) {
+    .artx .ev-header, .artx .ev-body, .artx footer.ev-footer { padding: 20px 16px; }
+    .artx .two-col { flex-direction: column; }
+  }
+.artx td,.fertx td,.ecx td,.mapx td,.idx td,.wrap td,.slide td,.stat td,.artx th,.fertx th,.ecx th,.mapx th,.idx th,.wrap th,.slide th,.stat th,td,th,.artx tr:nth-child(even) td{word-wrap:break-word;overflow-wrap:break-word;word-break:break-word;}
+</style>
+<div class="gs-head-order" style="display:flex;flex-direction:column">
+<p style="order:4" class="dek">Sales volumes, segment penetration, the auto-component supply chain, and the subsidy taper — read against a cost-per-km reality check</p>
+<div class="topnav-index-link" style="order:1;font-size:.82em;margin:6px 0 14px"><a href="https://blog.vertistratsolution.com/2026/08/article-index-start-here.html" style="color:#0b5394;text-decoration:none">← All Articles (Index)</a></div>
+<h1 style="order:3">India's EV sales: 12% of vehicles in April–September, cars in single digits</h1>
+</div>
+
+<a href="#" id="gs-skip-link" class="gs-skip-link" style="position:absolute;left:-9999px;top:auto;background:#1a1a1a;color:#fff;padding:.6rem 1rem;z-index:1000;border-radius:4px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.85rem">Skip to article content</a>
+<style>.gs-skip-link:focus{left:8px!important;top:8px!important}
+.gs-a11y-bar{display:flex;align-items:center;gap:.55rem;flex-wrap:wrap;background:#f4f5f7;border:1px solid #dfe3e8;border-radius:8px;padding:.55rem .8rem;margin:10px 0 16px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
+.gs-a11y-bar .gs-a11y-label{font-size:.68rem;font-weight:700;letter-spacing:.08em;color:#666;text-transform:uppercase;margin-right:.15rem}
+.gs-a11y-bar button{cursor:pointer;border:1px solid #c7cbd1;background:#fff;color:#1a1a1a;border-radius:5px;padding:.32rem .65rem;font-family:inherit;line-height:1}
+.gs-a11y-bar button.gs-a11y-fs{font-weight:700;min-width:2rem;text-align:center}
+.gs-a11y-bar button.gs-a11y-fs[data-size="sm"]{font-size:.8rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="md"]{font-size:1rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="lg"]{font-size:1.2rem}
+.gs-a11y-bar button.gs-a11y-fs[aria-pressed="true"]{background:#1a1a1a;color:#fff;border-color:#1a1a1a}
+.gs-a11y-bar button:hover{border-color:#8a4b08}
+.gs-a11y-bar button:focus-visible{outline:2px solid #8a4b08;outline-offset:1px}
+.gs-a11y-bar .gs-a11y-sep{width:1px;align-self:stretch;background:#dfe3e8;margin:0 .1rem}</style>
+<div class="gs-a11y-bar" role="group" aria-label="Accessibility controls">
+<span class="gs-a11y-label">Text Size</span>
+<button type="button" class="gs-a11y-fs" data-size="sm" aria-pressed="false" aria-label="Small text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="md" aria-pressed="true" aria-label="Medium text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="lg" aria-pressed="false" aria-label="Large text">A</button>
+<span class="gs-a11y-sep"></span>
+<button type="button" id="gs-a11y-listen" aria-label="Read this article aloud">&#128266; Listen</button>
+<button type="button" id="gs-a11y-stop" aria-label="Stop reading aloud">&#9632; Stop</button>
+</div>
+<script>(function(){
+var KEY='gs-a11y-fontsize', SIZES={sm:'0.92',md:'1',lg:'1.15'};
+function pb(){return document.querySelector('.post-body')||document.querySelector('.artx,.mdrx');}
+function apply(sz){
+  var el=pb(); if(!el||!SIZES[sz]) return;
+  el.style.fontSize=SIZES[sz]+'em';
+  var btns=document.querySelectorAll('.gs-a11y-fs');
+  for(var i=0;i<btns.length;i++){
+    var on=btns[i].getAttribute('data-size')===sz;
+    btns[i].setAttribute('aria-pressed', on?'true':'false');
+  }
+  try{localStorage.setItem(KEY,sz);}catch(e){}
+}
+var fsBtns=document.querySelectorAll('.gs-a11y-fs');
+for(var j=0;j<fsBtns.length;j++){
+  fsBtns[j].addEventListener('click',(function(b){return function(){apply(b.getAttribute('data-size'));};})(fsBtns[j]));
+}
+var saved; try{saved=localStorage.getItem(KEY);}catch(e){}
+apply(saved&&SIZES[saved]?saved:'md');
+
+var listenBtn=document.getElementById('gs-a11y-listen'), stopBtn=document.getElementById('gs-a11y-stop');
+if(listenBtn){
+  listenBtn.addEventListener('click', function(){
+    if(!('speechSynthesis' in window)){ alert('Text-to-speech is not supported in this browser.'); return; }
+    window.speechSynthesis.cancel();
+    var src=pb(); if(!src) return;
+    var clone=src.cloneNode(true);
+    var strip=clone.querySelectorAll('script,style,svg');
+    for(var k=0;k<strip.length;k++){ strip[k].parentNode.removeChild(strip[k]); }
+    var text=clone.textContent.replace(/\s+/g,' ').trim();
+    if(!text) return;
+    var chunks=text.match(/[\s\S]{1,180}(?:[.!?]|$)/g)||[text];
+    var idx=0;
+    function speakNext(){
+      if(idx>=chunks.length) return;
+      var u=new SpeechSynthesisUtterance(chunks[idx]);
+      u.onend=function(){ idx++; speakNext(); };
+      window.speechSynthesis.speak(u);
+    }
+    speakNext();
+  });
+}
+if(stopBtn){
+  stopBtn.addEventListener('click', function(){
+    if('speechSynthesis' in window) window.speechSynthesis.cancel();
+  });
+}
+var skip=document.getElementById('gs-skip-link');
+if(skip){
+  skip.addEventListener('click', function(ev){
+    ev.preventDefault();
+    var h=document.querySelector('.post-body h1')||document.querySelector('.artx h1,.mdrx h1,h1');
+    if(h){ h.setAttribute('tabindex','-1'); h.focus(); h.scrollIntoView(); }
+  });
+}
+})();</script>
+<style>.goog-te-menu-frame{max-width:340px!important;max-height:70vh!important;overflow:auto!important;box-shadow:0 6px 24px rgba(0,0,0,.25)!important}</style><div id="google_translate_element" style="margin:8px 0 16px;"></div><script type="text/javascript">function googleTranslateElementInit(){new google.translate.TranslateElement({pageLanguage:"en",includedLanguages:"hi,bn,ta,te,mr,gu,kn,ml,pa,or,as,ur,sa,ne,sd",layout:google.translate.TranslateElement.InlineLayout.SIMPLE,autoDisplay:false},"google_translate_element");}</script><script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+
+<style>
+.xv-top,.xv,.xv-flow,.xv-so,.xv-n{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif}
+.xv-top{border-left:4px solid #2251FF;background:#F4F7FB;padding:1rem 1.1rem;margin:1.2rem 0 1.8rem;border-radius:0 10px 10px 0}
+.xv-top .xv-eb{font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;color:#43535F;font-weight:700;margin:0 0 .6rem}
+.xv-top ul{list-style:none;margin:0;padding:0}
+.xv-top li{margin:0 0 .85rem;padding:0;line-height:1.45;color:#0B1F2D;font-size:1rem}
+.xv-top li:last-child{margin-bottom:0}
+.xv-top .xv-k{display:block;font-size:1.65rem;font-weight:800;letter-spacing:-.02em;line-height:1.15;color:#0B1F2D}
+.xv{margin:1.1rem 0 1.4rem;padding:0;max-width:640px}
+.xv figcaption{margin:0 0 .7rem}
+.xv .xv-t{display:block;font-size:1.05rem;font-weight:700;line-height:1.35;color:#0B1F2D}
+.xv .xv-u{display:block;font-size:.82rem;color:#43535F;margin-top:.15rem;line-height:1.4}
+.xv .xv-key{font-size:.8rem;color:#43535F;margin:0 0 .5rem;line-height:1.4}
+.xv .xv-key i{display:inline-block;width:2px;height:.9em;background:#0B1F2D;vertical-align:-.1em;margin-right:.35em}
+.xv .xv-r{margin:0 0 .7rem}
+.xv .xv-l{display:flex;justify-content:space-between;align-items:baseline;gap:.75rem;font-size:.88rem;line-height:1.3;color:#0B1F2D;margin:0 0 .22rem}
+.xv .xv-l>span{min-width:0}
+.xv .xv-l small{color:#43535F;font-size:.92em}
+.xv .xv-tk{position:relative;display:flex;align-items:center;min-height:16px}
+.xv .xv-b{display:block;height:14px;min-width:3px;background:#A9B4BF;border-radius:0 4px 4px 0;flex:none}
+.xv .xv-b.xv-float{border-radius:4px}
+.xv .xv-hi .xv-b{background:#2251FF}
+.xv .xv-v{font-size:.88rem;font-weight:600;color:#0B1F2D;white-space:nowrap;font-variant-numeric:tabular-nums;flex:none}
+.xv .xv-hi .xv-v{font-weight:800}
+.xv .xv-tk.xv-div{display:block;height:14px}
+.xv .xv-div .xv-b{position:absolute;top:0;border-radius:4px}
+.xv .xv-div .xv-neg{background:#7d8a96}
+.xv .xv-hi .xv-div .xv-neg,.xv .xv-hi.xv-divrow .xv-neg{background:#2251FF}
+.xv .xv-none{display:block;flex:1;height:12px;border:1.5px dashed #2251FF;background:#E9EEFF;border-radius:4px}
+.xv .xv-m{position:absolute;top:-3px;bottom:-3px;width:2px;background:#0B1F2D}
+.xv .xv-svg{display:block;width:100%;height:auto}
+.xv .xv-svg.xv-wide{display:none}
+@media (min-width:600px){.xv .xv-svg.xv-narrow{display:none}.xv .xv-svg.xv-wide{display:block}}
+.xv .xv-leg{font-size:.8rem;color:#43535F;margin:.1rem 0 .5rem}
+.xv .xv-leg span{margin-right:.9rem;white-space:nowrap}
+.xv .xv-leg i{display:inline-block;width:14px;height:3px;border-radius:2px;vertical-align:middle;margin-right:.35rem}
+.xv .xv-s{font-size:.75rem;color:#43535F;margin:.6rem 0 0;line-height:1.45}
+.xv-flow{list-style:none;margin:1rem 0 1.4rem;padding:0 0 0 18px;border-left:2px solid #D9E1E8;max-width:640px}
+.xv-flow li{position:relative;margin:0 0 1rem;padding:0 0 0 .4rem;line-height:1.45;font-size:.92rem;color:#0B1F2D}
+.xv-flow li::before{content:"";position:absolute;left:-24px;top:.3rem;width:10px;height:10px;border-radius:50%;background:#A9B4BF;box-shadow:0 0 0 3px #fff}
+.xv-flow li.xv-hi::before{background:#2251FF}
+.xv-flow b{display:block;font-size:.78rem;letter-spacing:.06em;text-transform:uppercase;color:#43535F}
+.xv-sec .xv-so{font-size:.98rem;line-height:1.55;color:#0B1F2D;background:#F4F7FB;border-radius:8px;padding:.75rem .9rem;margin:.4rem 0 1.6rem}
+.xv-sec .xv-so p{margin:0;max-width:none}
+.xv-sec .xv-so p+p{margin-top:.55rem}
+.xv-sec .xv-so b{color:#0B1F2D}
+.xv-n{margin:.2rem 0 1.4rem;font-size:.85rem}
+.xv-n summary{cursor:pointer;color:#0b5394;font-weight:600;padding:.3rem 0}
+.xv-n table{margin:.5rem 0 0}
+</style>
+<div class="xv-top"><p class="xv-eb">Top line</p><ul><li><span class="xv-k">8.5%</span> of India's vehicle sales in FY26 were electric, up from 6.8% in FY24.</li><li><span class="xv-k">4%</span> of India's car sales are electric, against 25% of car sales worldwide in 2025.</li></ul></div>
+<figure style="margin:1.6rem 0">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Electric_rickshaw_in_Meerut%2C_Uttar_Pradesh%2C_India.jpg/960px-Electric_rickshaw_in_Meerut%2C_Uttar_Pradesh%2C_India.jpg" alt="An electric rickshaw (e-rickshaw) on a street in Meerut, Uttar Pradesh, India" loading="lazy" style="width:100%;height:auto;border-radius:6px;display:block"/>
+<figcaption class="gb-note" style="margin-top:.4rem">Electric three-wheelers, like this e-rickshaw in Meerut, have already crossed the tipping point on unsubsidised economics that two-wheelers and cars have not. <a href="https://commons.wikimedia.org/wiki/File:Electric_rickshaw_in_Meerut,_Uttar_Pradesh,_India.jpg" rel="noopener noreferrer">Electric rickshaw in Meerut, Uttar Pradesh, India.jpg</a>, Libreravi, CC BY-SA 4.0, via Wikimedia Commons.</figcaption>
+</figure><div class="warn" style="border-left:4px solid #a5402c;background:rgba(165,64,44,.07);padding:.8em 1em;margin:1.2em 0;border-radius:4px"><b>Updated 9 November 2026.</b> Since this piece was written, EV penetration has moved into double digits. On Vahan registrations, India sold 17.89 lakh EVs in April&ndash;September 2026 (H1 FY2027), up 59.3% on a year earlier, and EVs were 12% of all vehicles sold, against 8% in FY2026 on the same basis (<a href="https://jmkresearch.com/driving-into-double-digits-indias-ev-penetration-reaches-12-in-h1-fy2027/">JMK Research, 7 October 2026</a>). Electric cars reached 1.83 lakh units in those six months, and their penetration rose from 4% to 7%. September 2026 set a record of about 3.34 lakh EVs, about 13% of retail sales, with e-2Ws at 11.6% (<a href="https://fada.in/images/press-release/16ac46ad2e0388FADA%20Releases%20September%202026%20Vehicle%20Retail%20Data.pdf">FADA</a>). October was higher still, at about 3.54 lakh (<a href="http://timesofindia.indiatimes.com/city/chennai/festive-oct-drives-ev-sales-to-a-record-3-5-lakh/articleshow/135435275.cms">Times of India, from Vahan</a>), while the electric share of car sales eased to 7.3% (<a href="https://auto.economictimes.indiatimes.com/news/passenger-vehicle/electric-pv-retail-sales-rise-76-47-to-37049-units-in-october-fada/135605364">ETAuto, from FADA</a>). The FY2026 figures below are unchanged. The &ldquo;single-digit&rdquo; framing now holds for cars, not for the market as a whole. The headline, which said penetration was in single digits, has been changed: that is now true for cars but not for the market as a whole.</div><div class="warn" style="border-left:4px solid #a5402c;background:rgba(165,64,44,.07);padding:.8em 1em;margin:1.2em 0;border-radius:4px"><b>Updated 28 October 2026.</b> The 12 October note below has been checked against the Gazette of India. S.O. 1617(E) of 27 March 2026 had set 31 July 2026 as the last day for the e-2W incentive; S.O. 4424(E) of 10 August 2026 extended it to 31 March 2028 at &#8377;2,500 a kWh, capped at &#8377;5,000, raised the e-2W allocation to &#8377;2,767 crore, set 31 December 2027 as the last date for claims and raised PM E-DRIVE&rsquo;s total outlay from &#8377;10,900 crore to &#8377;11,900 crore. The full chain of notifications: S.O. 4259(E) of 29 September 2024 (CG-DL-E-30092024-257594), which notified the scheme; S.O. 3626(E) of 7 August 2025 (CG-DL-E-07082025-265287), which extended it to 31 March 2028 within &#8377;10,900 crore but kept 31 March 2026 for e-2Ws and e-3Ws; S.O. 1617(E) of 27 March 2026 (CG-DL-E-27032026-271345), which moved the e-2W end date to 31 July 2026 with &#8377;1,772 crore, kept e-rickshaws and e-carts to 31 March 2028 and recorded the L5 e-3W segment closed on 26 December 2025; S.O. 3191(E) of 17 June 2026 (CG-DL-E-17062026-273533), which added e-ambulances; and S.O. 4424(E) of 10 August 2026 (CG-DL-E-10082026-275344), which raised the outlay to &#8377;11,900 crore for 1 April 2024 to 31 March 2028, extended the e-2W incentive (&#8377;2,500 a kWh, capped at &#8377;5,000) to 31 March 2028 with &#8377;2,767 crore, and set 31 December 2027 as the last date for claims; read in the Gazette of India&rsquo;s own text via the SansadSaar index of the archive.org Gazette of India collection.</div><div class="warn" style="border-left:4px solid #a5402c;background:rgba(165,64,44,.07);padding:.8em 1em;margin:1.2em 0;border-radius:4px"><b>Updated 12 October 2026.</b> On 10 August 2026 the Ministry of Heavy Industries extended the electric two-wheeler incentive to 31 March 2028, after about ten days with no subsidy. The rate is unchanged at &#8377;2,500 a kWh, capped at &#8377;5,000 a vehicle; the e-2W allocation rose from &#8377;1,772 crore to &#8377;2,767 crore, and claims must be filed by 31 December 2027 (confirmed in S.O. 4424(E) of 10 August 2026, Gazette of India, Extraordinary, CG-DL-E-10082026-275344). This article describes the subsidy as ending on 31 July 2026 and &ldquo;tapering on a fixed clock&rdquo;; that taper did not take effect, though the scheme remains limited by its funds. Sources: <a href="https://www.autocarpro.in/news/govt-extends-pm-e-drive-subsidy-for-e2ws-till-fy28-increases-allocation-134036" rel="noopener">Autocar Professional, 11 Aug 2026</a>, <a href="https://www.kotakneo.com/news/sectors/pm-e-drive-subsidy-electric-two-wheelers-extended-fy28/" rel="noopener">Kotak Neo</a>. <i>The original text below is unchanged.</i></div><p class="gb-note"><b>Updated 15 November 2026:</b> rewritten as charts; figures unchanged.</p>
+<section class="xv-sec"><h2 class="gb-h2">Electric cars are 4% of India's car sales, against 25% worldwide</h2>
+<figure class="xv" aria-labelledby="xv1"><figcaption><span class="xv-t" id="xv1">India's car market trails every major market on EV share</span><span class="xv-u">EV share of car sales, %, calendar 2025.</span></figcaption><div class="xv-r" title="China: 53%"><div class="xv-l"><span>China</span><b class="xv-v">53%</b></div><div class="xv-tk"><i class="xv-b" style="width:100.00%"></i></div></div><div class="xv-r" title="World: 25%"><div class="xv-l"><span>World</span><b class="xv-v">25%</b></div><div class="xv-tk"><i class="xv-b" style="width:47.17%"></i></div></div><div class="xv-r" title="USA: 10%"><div class="xv-l"><span>USA <small>about 10</small></span><b class="xv-v">10%</b></div><div class="xv-tk"><i class="xv-b" style="width:18.87%"></i></div></div><div class="xv-r xv-hi" title="India: 4%"><div class="xv-l"><span>India</span><b class="xv-v">4%</b></div><div class="xv-tk"><i class="xv-b" style="width:7.55%"></i></div></div><p class="xv-s">IEA Global EV Outlook 2026 Data Explorer.</p></figure>
+<div class="xv-so"><p><b>What it means:</b> Passenger cars are the segment where India is furthest behind the world average.</p><p><b>What to do:</b> Localise the component chain before car volumes arrive, as the post recommends.</p></div></section>
+<section class="xv-sec"><h2 class="gb-h2">Small vehicles carry India's electrification, at about 10% of two- and three-wheelers</h2>
+<figure class="xv" aria-labelledby="xv2"><figcaption><span class="xv-t" id="xv2">India's two- and three-wheeler electrification is near the world average</span><span class="xv-u">EV share of two- and three-wheeler sales, %, calendar 2025.</span></figcaption><div class="xv-r" title="China: 50%"><div class="xv-l"><span>China <small>about 50</small></span><b class="xv-v">50%</b></div><div class="xv-tk"><i class="xv-b" style="width:100.00%"></i></div></div><div class="xv-r" title="Viet Nam: 22%"><div class="xv-l"><span>Viet Nam</span><b class="xv-v">22%</b></div><div class="xv-tk"><i class="xv-b" style="width:44.00%"></i></div></div><div class="xv-r" title="World: 15%"><div class="xv-l"><span>World</span><b class="xv-v">15%</b></div><div class="xv-tk"><i class="xv-b" style="width:30.00%"></i></div></div><div class="xv-r xv-hi" title="India: 10%"><div class="xv-l"><span>India <small>about 10</small></span><b class="xv-v">10%</b></div><div class="xv-tk"><i class="xv-b" style="width:20.00%"></i></div></div><div class="xv-r" title="Indonesia: 1%"><div class="xv-l"><span>Indonesia</span><b class="xv-v">1%</b></div><div class="xv-tk"><i class="xv-b" style="width:2.00%"></i></div></div><p class="xv-s">IEA, calendar 2025, via the post.</p></figure>
+<div class="xv-so"><p><b>What it means:</b> Two- and three-wheelers, not cars, are where India's electrification is actually happening.</p><p><b>What to do:</b> Finish the two- and three-wheeler transition, which the post names as the near-term prize.</p></div></section>
+<section class="xv-sec"><h2 class="gb-h2">An EV hatchback runs at Rs 1.41 a km, under half the Rs 2.97 of CNG</h2>
+<figure class="xv" aria-labelledby="xv3"><figcaption><span class="xv-t" id="xv3">Running cost, not subsidy, is why commercial three-wheelers electrified first</span><span class="xv-u">Running cost per km, Rs/km, Delhi, July 2026.</span></figcaption><div class="xv-r" title="EV — scooter: 0.35 Rs/km"><div class="xv-l"><span>EV — scooter</span><b class="xv-v">0.35 Rs/km</b></div><div class="xv-tk"><i class="xv-b" style="width:4.28%"></i></div></div><div class="xv-r xv-hi" title="EV — hatchback: 1.41 Rs/km"><div class="xv-l"><span>EV — hatchback</span><b class="xv-v">1.41 Rs/km</b></div><div class="xv-tk"><i class="xv-b" style="width:17.24%"></i></div></div><div class="xv-r" title="CNG: 2.97 Rs/km"><div class="xv-l"><span>CNG</span><b class="xv-v">2.97 Rs/km</b></div><div class="xv-tk"><i class="xv-b" style="width:36.31%"></i></div></div><div class="xv-r" title="Diesel — cars: 4.33 Rs/km to 5.01 Rs/km"><div class="xv-l"><span>Diesel — cars</span><b class="xv-v">4.33&ndash;5.01 Rs/km</b></div><div class="xv-tk"><i class="xv-b xv-float" style="margin-left:52.93%;width:8.31%"></i></div></div><div class="xv-r" title="E20 petrol: 6.65 Rs/km to 8.18 Rs/km"><div class="xv-l"><span>E20 petrol</span><b class="xv-v">6.65&ndash;8.18 Rs/km</b></div><div class="xv-tk"><i class="xv-b xv-float" style="margin-left:81.30%;width:18.70%"></i></div></div><p class="xv-s">vehicle_fuel_mileage cost-per-km model.</p></figure>
+<div class="xv-so"><p><b>What it means:</b> Running cost already favours EVs over CNG, so the personal-car gap is about upfront price, financing and charging.</p><p><b>What to do:</b> Target upfront price, financing costs and charging access for personal buyers, the constraints the post identifies.</p></div></section>
+<h2 class="gb-h2" id="fixes">What would fix this</h2>
+<ul>
+<li><b>The Bureau of Energy Efficiency should publish a quarterly official count of public charging points by state, type and power rating under one stated methodology</b>, so that India’s charging network is not described as 29,000+ stations by one source and about 88,000 points by another.</li>
+<li><b>The Ministry of Heavy Industries should publish PM E-DRIVE disbursements and vehicles supported by segment, state and month</b>, so that how much of e-2W demand is pulled forward by subsidy deadlines, such as the pre-July 2026 surge, can be measured directly rather than inferred from registration spikes.</li>
+<li><b>The Ministry of Heavy Industries should maintain a public matrix of state EV incentives with each scheme’s start and end dates, benefit formula and annual fiscal cost</b>, so that the “quality and continuity vary widely” patchwork across 14+ states can be compared and its cost to states tracked over time.</li>
+<li><b>The Reserve Bank of India should publish average interest rates on new vehicle loans split by EV and internal-combustion vehicles, by segment</b>, so that the financing-cost gap named as one of four constraints on personal EV adoption is measured rather than asserted.</li>
+<li><b>The Ministry of Heavy Industries should publish the imported share of cells, power electronics and drivetrains in electric vehicles sold each year</b>, so that the localisation gap flagged in 2021 and again in 2026 is tracked as a number rather than restated as a constraint.</li>
+</ul>
+<p>These are proposals from this blog, not recommendations any agency has adopted.</p>
+<details class="xv-n"><summary>Table: 1. Sales Volumes and Growth by Segment</summary><div class="gb-tblwrap"><table class="gb-table"><thead><tr><th>Segment</th><th>FY26 volume / share</th><th>YoY growth</th><th>Segment penetration</th></tr></thead><tbody><tr><td>E-2W (two-wheelers)</td><td>1.4 Mn units, 58% of all EV sales</td><td>+22%</td><td>6.5%</td></tr><tr><td>E-3W (three-wheelers)</td><td>&gt;60% of all 3W sold are electric</td><td>—</td><td>L5 passenger EV share 30.5%</td></tr><tr><td>E-4W (passenger cars)</td><td>~1.75–1.9 lakh units</td><td>Fastest-intensifying competition</td><td>Small but contested</td></tr><tr><td>E-goods (trucks/LGV)</td><td>Under PM E-DRIVE, first-time inclusion</td><td>+172%</td><td>1.4%</td></tr></tbody></table></div></details>
+<details class="xv-n"><summary>Table: 2. Penetration: Why It Plateaus in Personal Mobility</summary><div class="gb-tblwrap"><table class="gb-table"><thead><tr><th>State</th><th>EV penetration (share of vehicle sales), %</th><th>Driver</th></tr></thead><tbody><tr><td>Tripura</td><td>16.9</td><td>Highest penetration nationally</td></tr><tr><td>Delhi</td><td>14</td><td>Metro personal-EV adoption</td></tr><tr><td>Assam</td><td>14</td><td>—</td></tr><tr><td>Kerala</td><td>12</td><td>—</td></tr><tr><td>Maharashtra</td><td>16.5 (e-2W specifically)</td><td>Affluent west, personal e-2W</td></tr><tr><td>Karnataka</td><td>12.9 (e-2W specifically)</td><td>Affluent south, personal e-2W</td></tr><tr><td>India (national avg.)</td><td>8.5</td><td>—</td></tr></tbody></table></div></details>
+<details class="xv-n"><summary>Table: 4. Policy Timeline: FAME → EMPS → PM E-DRIVE</summary><div class="gb-tblwrap"><table class="gb-table"><thead><tr><th>Scheme</th><th>What it changed</th></tr></thead><tbody><tr><td>FAME-II / EMPS (predecessors)</td><td>Earlier-generation purchase subsidies for e-2W/e-3W; EMPS ran as a bridging scheme ahead of PM E-DRIVE</td></tr><tr><td>PM E-DRIVE (Sept 2024, ₹10,900 cr/2 yrs; extended to Mar 2028 and raised to ₹11,900 cr by Aug 2026)</td><td>First scheme to formally include e-trucks; extended reduced e-2W subsidy to Jul 31, 2026 and e-3W (L3) support to Mar 2028; folded in charging-infrastructure incentives</td></tr><tr><td>PM-eBus Sewa Payment Security Mechanism (₹3,435 cr, credit guarantee)</td><td>Addresses the specific failure mode of state transport undertakings defaulting on e-bus lease payments — a demand-side de-risking tool rather than a purchase subsidy</td></tr></tbody></table></div></details>
+<details class="xv-n"><summary>Table: 5. Cost-Per-Km Reality Check</summary><div class="gb-tblwrap"><table class="gb-table"><thead><tr><th>Powertrain / vehicle class</th><th>Cost per km, ₹/km</th></tr></thead><tbody><tr><td>EV — scooter</td><td>0.35</td></tr><tr><td>EV — hatchback</td><td>1.41</td></tr><tr><td>CNG</td><td>2.97</td></tr><tr><td>Diesel — cars</td><td>4.33–5.01</td></tr><tr><td>E20 petrol</td><td>6.65–8.18</td></tr></tbody></table></div></details>
+<details class="xv-n"><summary>Table: 6. The Global Mirror: Where India Sits in IEA's 2026 EV Data</summary><div class="gb-tblwrap"><table class="gb-table"><thead><tr><th>Market</th><th>EV car sales, CY2025 (units)</th><th>EV share of car sales, %</th></tr></thead><tbody><tr><td>China</td><td>13,000,000</td><td>53</td></tr><tr><td>Europe</td><td>4,200,000</td><td>~30–35 (Germany 30%, UK 35%)</td></tr><tr><td>USA</td><td>1,500,000</td><td>~10</td></tr><tr><td>India</td><td>170,000</td><td>4</td></tr><tr><td>World</td><td>21,000,000</td><td>25</td></tr></tbody></table></div></details>
+<details class="xv-n"><summary>Sources cited in the article</summary><ul><li><a href="https://commons.wikimedia.org/wiki/File:Electric_rickshaw_in_Meerut,_Uttar_Pradesh,_India.jpg">Electric rickshaw in Meerut, Uttar Pradesh, India.jpg</a></li><li><a href="https://jmkresearch.com/driving-into-double-digits-indias-ev-penetration-reaches-12-in-h1-fy2027/">JMK Research, 7 October 2026</a></li><li><a href="https://fada.in/images/press-release/16ac46ad2e0388FADA%20Releases%20September%202026%20Vehicle%20Retail%20Data.pdf">FADA</a></li><li><a href="http://timesofindia.indiatimes.com/city/chennai/festive-oct-drives-ev-sales-to-a-record-3-5-lakh/articleshow/135435275.cms">Times of India, from Vahan</a></li><li><a href="https://auto.economictimes.indiatimes.com/news/passenger-vehicle/electric-pv-retail-sales-rise-76-47-to-37049-units-in-october-fada/135605364">ETAuto, from FADA</a></li><li><a href="https://www.autocarpro.in/news/govt-extends-pm-e-drive-subsidy-for-e2ws-till-fy28-increases-allocation-134036">Autocar Professional, 11 Aug 2026</a></li><li><a href="https://www.kotakneo.com/news/sectors/pm-e-drive-subsidy-electric-two-wheelers-extended-fy28/">Kotak Neo</a></li></ul></details>
+
+<p class="disclaimer" data-gs-ai-disclosure-v1="1"><strong>About this article:</strong> Researched, written and edited by Umashankar Triplicane Dwarakanathan, with AI research assistance; every figure is meant to trace to the primary source cited. See the <a href="https://blog.vertistratsolution.com/p/disclaimer.html">Editorial Policy</a> for how sourcing, AI use and corrections work.</p>
+</div>
+<div id="gs-idx"></div><script defer="defer" src="https://herrrickshaw.github.io/masaladeutsch/accordion.js"></script>

@@ -1,0 +1,63 @@
+{
+  "top": [
+    ["2.5 million tonnes", " of pellets and briquettes produced a year, against the 15–20 million the co-firing mandate needs."],
+    ["53%", " fall in Punjab's Kharif stubble-burning incidents between 2024 and 2025."],
+    ["70 vs 50", " gCO₂e/MJ for coal-fired and biomass-fired process steam, per distillery-side estimates."]
+  ],
+  "sections": [
+    {
+      "h2": "Co-firing needs 15–20 million tonnes a year; national output is about 2.5 million",
+      "chart": {
+        "type": "bars",
+        "title": "Pellet and briquette output falls well short of what the mandate needs",
+        "sub": "Million tonnes a year. Production is a national estimate; the need covers all obligated plants.",
+        "source": "Ministry of Power; CAQM, as cited in the post.",
+        "unit": "million tonnes",
+        "accent": "Pellet and briquette production",
+        "rows": [
+          ["Pellet and briquette production", 2.5],
+          ["Needed for mandated co-firing", [15, 20]]
+        ]
+      },
+      "means": "National pellet and briquette output is about 2.5 million tonnes a year, against the 15–20 million tonnes the mandate needs.",
+      "todo": "Fund collection and pellet capacity so the 12–17 million tonne gap between output and mandate narrows."
+    },
+    {
+      "h2": "Punjab's machinery programme cut Kharif stubble-burning incidents by 53% in one year",
+      "chart": {
+        "type": "bars",
+        "title": "Kharif stubble-burning incidents fell 53% in Punjab in a single year",
+        "sub": "Kharif-season stubble-burning incidents in Punjab, by year.",
+        "source": "Punjab state figures, as cited in the post.",
+        "unit": "incidents",
+        "accent": "2025",
+        "rows": [
+          ["2024", 10909],
+          ["2025", 5114]
+        ]
+      },
+      "means": "Punjab's ₹395 crore of CRM machinery was linked to a reported 53% drop in Kharif stubble-burning incidents, from 2024 to 2025.",
+      "todo": "Extend the machinery model beyond Punjab, since the post finds the national pellet shortfall persists.",
+      "numbers": {"table": "T1"}
+    },
+    {
+      "h2": "Biomass-fired steam is roughly 50 gCO₂e/MJ against 70 for coal, a fuel-switch credit",
+      "chart": {
+        "type": "bars",
+        "title": "Switching a distillery boiler from coal to biomass cuts steam carbon intensity",
+        "sub": "gCO₂e per MJ of process steam; distillery-side estimates, not independently verified.",
+        "source": "Distillery-side estimates as cited in the post; BEE methodology BM IN02.001.",
+        "unit": "gCO₂e/MJ",
+        "accent": "Biomass-fired process steam",
+        "rows": [
+          ["Biomass-fired process steam", 50],
+          ["Coal-fired process steam", 70]
+        ]
+      },
+      "means": "Distillery-side estimates put biomass-fired steam near 50 gCO₂e/MJ against roughly 70 for coal, a creditable fuel-switch gap under BM IN02.001.",
+      "todo": "Confirm the 50 and 70 figures against a primary source before a distillery files for credits.",
+      "numbers": {"table": "T2"}
+    }
+  ],
+  "derived": {}
+}

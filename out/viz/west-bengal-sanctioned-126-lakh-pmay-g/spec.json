@@ -1,0 +1,43 @@
+{
+ "top": [
+  ["12.1%", " of West Bengal's five-year PMAY-G target is complete, against 56.6% nationally."],
+  ["₹687.84 crore", " of central share released to West Bengal over five years, against ₹24,232.39 crore for Assam."]
+ ],
+ "sections": [
+  {"h2": "West Bengal sanctioned 99.99% of its PMAY-G target but completed 12.1%",
+   "chart": {"type": "bars",
+             "title": "Only 12.1% of West Bengal's five-year target is complete, against 56.6% nationally",
+             "sub": "% of target completed, FY2021-22 to FY2025-26.",
+             "source": "Lok Sabha, 11 Aug 2026, Annexures I and II.",
+             "unit": "%",
+             "accent": "West Bengal",
+             "rows": [["National", 56.6], ["Assam", 71.2], ["Bihar", 66.3], ["Madhya Pradesh", 56.8], ["West Bengal", 12.1]]},
+   "means": "Sanctions have kept pace with the target, so the shortfall lies between sanction and completion.",
+   "todo": "Ask the Ministry for a timeline for completing West Bengal's sanctioned houses.",
+   "numbers": {"table": "T2"}},
+  {"h2": "The Centre released ₹687.84 crore to West Bengal, the least of the states shown",
+   "chart": {"type": "bars",
+             "title": "Over five years West Bengal received the smallest central share of the states shown",
+             "sub": "Central share released, ₹ crore, FY2021-22 to FY2025-26.",
+             "source": "Lok Sabha, 11 Aug 2026, Annexure II.",
+             "unit": "₹ crore",
+             "accent": "West Bengal",
+             "rows": [["West Bengal", 687.84], ["Bihar", 15446.89], ["Madhya Pradesh", 17935.52], ["Assam", 24232.39]]},
+   "means": "Over the same five years Assam received ₹24,232.39 crore, while West Bengal's share was 0.52% of the national total.",
+   "todo": "Ask the Ministry to explain the release figure for West Bengal and when the withheld central share will be released.",
+   "numbers": {"table": "T2"}},
+  {"h2": "The Centre has withheld West Bengal's central share from FY2022-23 onward",
+   "chart": {"type": "flow",
+             "title": "The State's Action Taken Report was still under examination nearly four years after the freeze began",
+             "sub": "Sequence as stated in the 11 August 2026 Lok Sabha answer.",
+             "source": "Lok Sabha, 11 Aug 2026.",
+             "events": [
+               ["November 2022", "Targets allocated from the finalised Awaas+ 2018 survey lists"],
+               ["From FY2022-23", "Ministry withholds release of the Central share after irregularities are raised"],
+               ["11 August 2026", "State's Action Taken Report still 'currently under examination', with no resolution date", true]
+             ]},
+   "means": "Odisha's freeze ended after a satisfactory Action Taken Report, but West Bengal's has no resolution date.",
+   "todo": "Ask for a decision date on West Bengal's Action Taken Report, as Odisha's case shows a freeze can be lifted."}
+ ],
+ "derived": {}
+}

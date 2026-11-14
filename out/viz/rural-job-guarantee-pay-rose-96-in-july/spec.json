@@ -1,0 +1,42 @@
+{
+ "top": [
+  ["1.4%", " real national gain from the July 2026 rise, after prices for farm labourers rose 8.0%."],
+  ["8 of 17", " major states where the new wage buys less than the 2025-26 wage did in June 2025."]
+ ],
+ "sections": [
+  {"h2": "Prices rose 8.0% against a 9.6% wage rise, leaving only 1.4% nationally",
+   "chart": {"type": "bars",
+             "title": "Most of the 9.6% wage rise was gone once farm-labour prices rose",
+             "sub": "Percent change: wage to 1 Jul 2026; prices Jun 2025 to Sep 2026.",
+             "source": "Labour Bureau CPI-AL via MoSPI data service; S.O. 3518(E).",
+             "unit": "%",
+             "accent": "Real gain",
+             "rows": [["Wage rise", 9.6], ["Farm-labour prices", 8.0], ["Real gain", 1.4]]},
+   "means": "Prices turned up in 2026, so most of the national gain was gone within one quarter of the new rates.",
+   "todo": "Track state-level wages against CPI-AL each quarter, since the national real gain is thin.",
+   "numbers": {"table": "T1"}},
+  {"h2": "Real wages fell in 8 of 17 states, most sharply in Andhra Pradesh",
+   "chart": {"type": "bars",
+             "title": "Real wages fell in 8 of 17 states, most in Andhra Pradesh at -9.1%",
+             "sub": "Real change in the daily wage, Jun 2025 to Sep 2026, %.",
+             "source": "MoSPI CPI-AL data service; S.O. 3518(E); S.O. 1463(E).",
+             "unit": "%",
+             "accent": "Andhra Pradesh",
+             "rows": [["Andhra Pradesh", -9.1], ["Telangana", -8.5], ["Maharashtra", -6.3], ["Tamil Nadu", -4.9], ["Haryana", -4.0], ["Karnataka", -3.4], ["Punjab", -2.6], ["Gujarat", -1.6], ["Madhya Pradesh", 5.4], ["West Bengal", 8.4], ["Bihar", 8.4], ["Jharkhand", 9.4], ["Assam", 10.6], ["Uttar Pradesh", 10.9]]},
+   "means": "Telangana's wage rose just 0.3% while its farm-labour prices rose 9.7%, so its real wage fell 8.5%.",
+   "todo": "Ask the ministry how each state's rate was calculated, since the notification does not say.",
+   "numbers": {"table": "T1"}},
+  {"h2": "Wage rises ranged from 0.3% in Telangana to 19.0% in Uttar Pradesh",
+   "chart": {"type": "bars",
+             "title": "The floor lifted the poorest states most; states above it got smaller rises",
+             "sub": "Wage rise from the 2025-26 rate to the rate from 1 Jul 2026, %.",
+             "source": "S.O. 1463(E) of 27 March 2025; S.O. 3518(E) of 30 June 2026.",
+             "unit": "%",
+             "accent": "Telangana",
+             "rows": [["Telangana", 0.3], ["Andhra Pradesh", 1.6], ["Maharashtra", 1.6], ["Tamil Nadu", 2.7], ["Gujarat", 4.2], ["Goa", 7.4], ["Kerala", 8.7], ["Chhattisgarh", 14.9], ["Madhya Pradesh", 14.9], ["West Bengal", 15.4], ["Assam", 17.2], ["Bihar", 17.6], ["Jharkhand", 17.6], ["Uttar Pradesh", 19.0]]},
+   "means": "States already above the floor got 0.3-4.0% rises, apart from Goa (7.4%) and Kerala (8.7%).",
+   "todo": "Check the state rate calculations against the gazette before relying on any single state's figure.",
+   "numbers": {"table": "T1"}}
+ ],
+ "derived": {}
+}

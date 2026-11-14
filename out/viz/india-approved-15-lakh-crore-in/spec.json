@@ -1,0 +1,149 @@
+{
+ "top": [
+  [
+   "19%",
+   " of approved PLI outlay has been paid out: ₹36,754 crore by June 2026 against about ₹1.91 lakh crore."
+  ],
+  [
+   "40%",
+   " is now the central subsidy rate for new silicon fabs, down from the 50% Micron received."
+  ]
+ ],
+ "sections": [
+  {
+   "h2": "Only 19% of approved PLI outlay has been paid, with several schemes at zero",
+   "chart": {
+    "type": "bars",
+    "title": "Only PLI Pharmaceuticals has paid more than a tenth of its outlay; three schemes show zero",
+    "sub": "Share of scheme outlay paid out, %.",
+    "source": "Lok Sabha and Rajya Sabha answers; Ministry of Heavy Industries; PIB.",
+    "unit": "%",
+    "accent": "PLI Pharmaceuticals",
+    "rows": [
+     [
+      "PLI Pharmaceuticals",
+      44
+     ],
+     [
+      "PLI Auto",
+      9
+     ],
+     [
+      "PLI Medical Devices",
+      8
+     ],
+     [
+      "PLI Bulk Drugs",
+      1
+     ],
+     [
+      "PLI-ACC (batteries)",
+      0
+     ],
+     [
+      "PLI Solar",
+      0
+     ],
+     [
+      "NGHM/SIGHT (green hydrogen)",
+      0
+     ]
+    ]
+   },
+   "means": "Disbursement has climbed from ₹23,946 crore in September 2025 to ₹36,754 crore by June 2026, but the share paid is still low.",
+   "todo": "Check the date on any PLI payout figure before quoting it, because these totals move every quarter.",
+   "numbers": {
+    "table": "T1"
+   }
+  },
+  {
+   "h2": "The subsidy for new silicon fabs fell from 50% to 40% under ISM 2.0",
+   "chart": {
+    "type": "bars",
+    "title": "Micron's 50% rate is now historic; new silicon fabs get 40%",
+    "sub": "Central fiscal support as a share of project cost, %.",
+    "source": "ISM 2.0 budget announcement; BusinessToday; Policy Circle.",
+    "unit": "%",
+    "accent": "New silicon fab (ISM 2.0)",
+    "rows": [
+     [
+      "Micron, Gujarat (ISM 1.0)",
+      50
+     ],
+     [
+      "New silicon fab (ISM 2.0)",
+      40
+     ],
+     [
+      "Compound or display fab, advanced packaging",
+      35
+     ],
+     [
+      "Conventional packaging",
+      25
+     ]
+    ]
+   },
+   "means": "Under ISM 2.0 the central fiscal-support rate for new silicon fabs has fallen from the 50% Micron received to 40%.",
+   "todo": "Use the 40% rate, not the old 50%, when quoting India's semiconductor subsidy."
+  },
+  {
+   "h2": "The four PLI battery-cell beneficiaries are all domestic, and none has claimed incentive",
+   "chart": {
+    "type": "bars",
+    "title": "Ola leads the four cell-makers at 20 GWh; none has yet drawn incentive",
+    "sub": "Approved cell-making capacity, GWh.",
+    "source": "Lok Sabha and Rajya Sabha answers; Ministry of Heavy Industries.",
+    "unit": "GWh",
+    "accent": "Ola Cell Technologies (Tamil Nadu)",
+    "rows": [
+     [
+      "Ola Cell Technologies (Tamil Nadu)",
+      20
+     ],
+     [
+      "Reliance New Energy Battery (Gujarat)",
+      10
+     ],
+     [
+      "Reliance New Energy Battery Storage (Gujarat)",
+      5
+     ],
+     [
+      "ACC Energy Storage (Karnataka)",
+      5
+     ]
+    ]
+   },
+   "means": "The scheme's four approved cell-makers are all domestic, and the widely repeated $1.5 billion LG Energy Solution–JSW venture appears nowhere in government records.",
+   "todo": "Watch for quarterly payouts from Ola and Reliance, and treat any foreign cell-maker headline as unconfirmed until it appears in a government record.",
+   "numbers": {
+    "table": "T2"
+   }
+  },
+  {
+   "h2": "Medical devices is the one PLI scheme where investment has run ahead of commitment",
+   "chart": {
+    "type": "bars",
+    "title": "Actual investment of ₹1,153.07 crore slightly exceeds the ₹1,136.23 crore committed",
+    "sub": "PLI Medical Devices, 27 approved projects, ₹ crore.",
+    "source": "Department of Pharmaceuticals statements; Indian Pharma Post; Lokmat Times.",
+    "unit": "₹ crore",
+    "accent": "Actual investment",
+    "rows": [
+     [
+      "Actual investment",
+      1153.07
+     ],
+     [
+      "Committed",
+      1136.23
+     ]
+    ]
+   },
+   "means": "Of 27 approved projects, 23 are commissioned and actual investment is slightly above what was committed.",
+   "todo": "Treat PLI Medical Devices as the benchmark for execution when judging the other schemes."
+  }
+ ],
+ "derived": {}
+}

@@ -1,0 +1,20 @@
+{"top": [["83%", " rise in natural honey export value from FY2020-21 to FY2023-24, to $177.55 million."], ["1.6%", " of the colonies the climate could support are registered: 1.93 million, against an estimated 120 million."], ["6.5 kg", " of honey per Apis cerana colony a year, against 25 kg for Apis mellifera."]],
+ "sections": [
+  {"h2": "Honey export value rose 83% in three years, to $177.55 million",
+   "chart": {"type": "bars", "title": "Export value grew from $96.77 million to $177.55 million", "sub": "Natural honey export value, $ million.", "source": "PIB, National Beekeeping & Honey Mission backgrounder; APEDA/CRISIL.", "unit": "$ million", "accent": "FY2023-24", "rows": [["FY2020-21", 96.77], ["FY2023-24", 177.55]]},
+   "means": "The export figures are the scheme's main success measure, and they have grown strongly.",
+   "todo": "Report domestic retail honey testing results alongside export results, since the scheme's metrics currently track exports only."},
+  {"h2": "Registered colonies are about 1.6% of what the climate could support",
+   "chart": {"type": "bars", "title": "Only 1.93 million colonies are registered against an estimated 120 million", "sub": "Honey bee colonies, million.", "source": "APEDA (2023 registrations); research cited in the Indian Journal of Entomology.", "unit": "million colonies", "accent": "Registered, 2023", "rows": [["Registered, 2023", 1.93], ["Estimated potential", 120]]},
+   "means": "Registered colonies are a small share of the potential the post cites.",
+   "todo": "Set colony-growth targets for new beekeepers, tracked against the registered count."},
+  {"h2": "The scheme leans toward Apis mellifera, which yielded nearly four times the honey",
+   "chart": {"type": "bars", "title": "Apis mellifera colonies made 25 kg of honey a year, Apis cerana 6.5 kg", "sub": "Average honey per colony per year, kg.", "source": "Punjab comparative study, as cited in the post.", "unit": "kg per colony per year", "accent": "Apis mellifera", "rows": [["Apis mellifera", 25], ["Apis cerana", 6.5]]},
+   "means": "Apis mellifera also showed far lower colony absconding during the dearth period, which the study reports as 0% against 45%.",
+   "todo": "Weigh the honey yield gain against the temperament tradeoff when choosing bee species for subsidies."},
+  {"h2": "Pests and disease, and unregulated markets, were the main constraints for beekeepers",
+   "chart": {"type": "bars", "title": "All 52 surveyed beekeepers named pests and disease; 96.15% named low prices", "sub": "Share of 52 surveyed migratory beekeepers in Mansa district, Punjab naming each constraint, %.", "source": "Indian Journal of Entomology, 2026 survey.", "unit": "%", "accent": "Pests and disease", "rows": [["Pest and disease attack, bee death", 100], ["Unregulated markets, low honey prices", 96.15], ["Rising transport and labour costs", 38.46], ["Stopped by officials at inter-state borders", 36.54]]},
+   "means": "The survey shows that disease and market prices limit beekeepers more than migration costs do.",
+   "todo": "Regulate pesticide use near apiaries and set up market access for beekeepers."}
+ ],
+ "derived": {}}

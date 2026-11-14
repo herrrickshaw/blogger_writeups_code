@@ -1,0 +1,54 @@
+{
+ "top": [
+  ["91.46%", " of installed capacity was used on Oil India's Numaligarh–Siliguri product line in FY2024-25."],
+  ["50%", " is the PNGRB chairman's 2025 estimate of gas trunk utilisation; IEEFA's independent estimate is 41%."]
+ ],
+ "sections": [
+  {"h2": "Oil and product lines run near full, while gas estimates sit at 41 to 50%",
+   "chart": {"type": "bars",
+             "title": "Product lines are well used, but both gas-network estimates are far lower",
+             "sub": "Utilisation of capacity, %. Different bases and dates; not directly comparable.",
+             "source": "Oil India FY2024-25 annual report; PNGRB monthly register; PNGRB chairman; IEEFA.",
+             "unit": "%",
+             "accent": "IEEFA gas network estimate (FY2025)",
+             "rows": [
+               ["Oil India Numaligarh–Siliguri product line, FY2024-25", 91.46],
+               ["PNGRB multi-product lines, Apr–Nov 2025", 69.40],
+               ["Gas trunk network, PNGRB chairman (2025)", 50],
+               ["IEEFA gas network estimate (FY2025)", 41]
+             ]},
+   "means": "The 91.46% and 69.40% figures measure product lines, while the 50% and 41% gas figures come from different organisations and periods, so they are not like-for-like.",
+   "todo": "Plan expansion first where product lines already run past design capacity, which the post flags as a bottleneck risk."
+  },
+  {"h2": "Gas trunk pipelines are authorised for 34,200 km but operate about 25,400 km",
+   "chart": {"type": "bars",
+             "title": "Gas trunk lines were authorised for about 8,800 km more than they operated",
+             "sub": "Trunk gas pipeline length, km.",
+             "source": "Ministry of Petroleum & Natural Gas year-end reviews via PIB (June 2025).",
+             "unit": "km",
+             "accent": "Operational gas trunk network, June 2025",
+             "rows": [
+               ["Operational gas trunk network, June 2025", 25400],
+               ["Authorised gas trunk network, mid-2025", 34200]
+             ]},
+   "means": "The gap reflects pipeline built ahead of confirmed gas supply and demand, a pattern the post traces to LNG and domestic supply that did not fully materialise.",
+   "todo": "Connect industrial clusters near trunk lines with spurs and city gas networks, the missing regional layer the post identifies."
+  },
+  {"h2": "The 75% use benchmark that unlocks PNGRB's reserve is above both gas estimates",
+   "chart": {"type": "bars",
+             "title": "The reserve is funded only above 75% use, far above the gas averages",
+             "sub": "Utilisation benchmark and gas-network estimates, %.",
+             "source": "PNGRB NGPL Tariff Regulations amendment (July 2025); PNGRB chairman; IEEFA.",
+             "unit": "%",
+             "accent": "Pipeline Development Reserve trigger",
+             "rows": [
+               ["Pipeline Development Reserve trigger", 75],
+               ["PNGRB chairman's gas network estimate (2025)", 50],
+               ["IEEFA gas network estimate (FY2025)", 41]
+             ]},
+   "means": "A reserve built to reward crossing 75% only makes sense if most gas lines are below it, which the post reads as the regulator admitting the shortfall.",
+   "todo": "Watch whether the three-year contract requirement and the reserve move gas utilisation toward 75% in the next PNGRB reports."
+  }
+ ],
+ "derived": {"8800": "34200-25400"}
+}

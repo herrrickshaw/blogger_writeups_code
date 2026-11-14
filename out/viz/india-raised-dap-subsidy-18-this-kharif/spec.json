@@ -1,0 +1,22 @@
+{"top": [["Rs 32,787", " subsidy per tonne of DAP in kharif 2026, up 18% on kharif 2025."], ["Rs 29,733", " a tonne is the shortfall on imported DAP at May's price, after retail price and subsidy."], ["$623", " a tonne is the import price the kharif 2026 subsidy can carry; India paid $930–935."]],
+ "sections": [
+  {"h2": "The DAP subsidy rose each season, to Rs 32,787 a tonne in kharif 2026",
+   "chart": {"type": "bars", "title": "The DAP subsidy has risen each season, reaching Rs 32,787 a tonne", "sub": "Nutrient-based subsidy on one tonne of DAP 18-46-0, Rs.", "source": "Union Cabinet approval, April 2026; NBS rates.", "unit": "Rs", "accent": "Kharif 2026", "rows": [["Kharif 2025", 27800], ["Rabi 2025-26", 29805], ["Kharif 2026", 32787]]},
+   "means": "DAP's subsidy rose from Rs 27,800 a tonne in kharif 2025 to Rs 32,787 in kharif 2026, as the per-kilogram rates for phosphate and nitrogen went up.",
+   "todo": "Revise the kharif rates, as the Fertiliser Association of India has asked, given raw-material prices up 100–200% after the West Asia conflict.",
+   "numbers": {"table": "T1"}},
+  {"h2": "Imported DAP earns less than it costs, a shortfall of Rs 29,733 a tonne",
+   "chart": {"type": "bars", "title": "The shortfall on imported DAP is more than five times its rabi 2025-26 level", "sub": "Import cost less farmer price and subsidy, Rs per tonne, before handling costs.", "source": "IPL tender, May 2026; NBS rates; this blog's arithmetic.", "unit": "Rs", "accent": "Kharif 2026", "rows": [["Kharif 2025", 14000], ["Rabi 2025-26", 5640], ["Kharif 2026", 29733]]},
+   "means": "In kharif 2026 the farmer's Rs 27,000 plus the Rs 32,787 subsidy is Rs 59,787 against an import cost of about Rs 89,520 a tonne.",
+   "todo": "Publish who bears the shortfall, since it is not published and otherwise shows up only later in company results, supplementary subsidies or supply.",
+   "numbers": {"table": "T2"}},
+  {"h2": "The subsidy covers imported DAP only up to about $623 a tonne",
+   "chart": {"type": "bars", "title": "The break-even import price has stayed between $623 and $640 a tonne", "sub": "Import price that retail price plus subsidy would cover, $ per tonne.", "source": "This blog's arithmetic on DAP CFR prices.", "unit": "$/t", "accent": "Kharif 2026", "rows": [["Kharif 2025", 637], ["Rabi 2025-26", 640], ["Kharif 2026", 623]]},
+   "means": "The market moved from about $700 to more than $930 while the break-even price stayed between $623 and $640, so the gap widened.",
+   "todo": "Set the kharif rates against the import price, not only against last season's rates, so that the subsidy tracks what importers pay."},
+  {"h2": "Kharif 2026 alone commits 77% of the year's NBS subsidy budget",
+   "chart": {"type": "bars", "title": "Kharif 2026 commits Rs 41,534 crore, 12% more than a year earlier", "sub": "Season NBS budget, Rs crore.", "source": "Union Cabinet approval, April 2026.", "unit": "Rs crore", "accent": "Kharif 2026", "rows": [["Kharif 2025", 37216], ["Rabi 2025-26", 37952], ["Kharif 2026", 41534]]},
+   "means": "The provisional 2026-27 NBS allocation was about Rs 54,000 crore, and the kharif season alone has committed about 77% of it.",
+   "todo": "Expect a mid-year revision of the allocation, as 2025-26 was raised 22.5% above its provisional figure."}
+ ],
+ "derived": {}}
