@@ -1,0 +1,7 @@
+weights,spearman,top10_kept,leader
+base (45/30/25),1.0,10,"Rice straw, Punjab"
+equal (33/33/33),0.96,9,"Rice straw, Odisha"
+feedstock-heavy (60/20/20),0.983,10,"Rice straw, Punjab"
+soil-heavy (30/50/20),0.926,7,"Rice straw, Odisha"
+openness-heavy (30/20/50),0.854,7,"Rice straw, Odisha"
+no openness (60/40/0),0.821,5,"Sugarcane bagasse, Uttar Pradesh"
