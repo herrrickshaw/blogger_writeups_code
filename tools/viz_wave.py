@@ -19,6 +19,20 @@ sh = lambda *a, **k: subprocess.run(a, capture_output=True, text=True, cwd=ROOT,
 node = lambda script, *a: sh("node", str(U / script), *a)
 
 
+def handed_back(path):
+    """True once the agent has actually called SubagentHandback (a tool_use block), not merely listed it among its tools."""
+    for line in open(path, encoding="utf-8", errors="replace"):
+        if '"SubagentHandback"' not in line:
+            continue
+        try:
+            c = (json.loads(line).get("message") or {}).get("content")
+        except ValueError:
+            continue
+        if isinstance(c, list) and any(b.get("type") == "tool_use" and b.get("name") == "SubagentHandback" for b in c):
+            return True
+    return False
+
+
 def manifest(n):
     return json.loads((ROOT / f"out/viz/wave-{n}.json").read_text())
 
@@ -28,7 +42,8 @@ def prepare(n, k):
     taken = {s for f in (ROOT / "out/viz").glob("wave-*.json") for s in json.loads(f.read_text())["slugs"]}
     taken |= {s for s in json.loads((ROOT / "out/viz/triage.json").read_text()) and [x["slug"] for x in tri] if (ROOT / f"out/viz/{s}/.verified").exists()}
     w2 = ROOT / ".unlazy/viz/gates"                      # waves 1 and 2 were launched before manifests existed
-    taken |= {m.group(1) for f in w2.glob("leaf-1.*.md") for m in [re.search(r"OWNS: out/viz/([^/]+)/", f.read_text())] if m}
+    ABANDONED = ("leaf-1.3.",)                          # wave 3 was abandoned before launch
+    taken |= {m.group(1) for f in w2.glob("leaf-1.*.md") if not f.name.startswith(ABANDONED) for m in [re.search(r"OWNS: out/viz/([^/]+)/", f.read_text())] if m}
     slugs = [x["slug"] for x in tri if x["disposition"] == "rewrite" and x["slug"] not in taken][:k]
     print(sh(sys.executable, "tools/viz_plan.py", "wave", str(n), *slugs).stdout.strip())
     for s in slugs:
@@ -60,7 +75,7 @@ def collect(n):
     done = 0
     for i, (s, h) in enumerate(zip(m["slugs"], m["handles"]), 1):
         f = tasks / f"{h}.output"
-        finished = f.exists() and "SubagentHandback" in f.read_text(errors="replace")
+        finished = f.exists() and handed_back(f)
         v = sh(sys.executable, "tools/viz_verify.py", s).stdout.strip() if (ROOT / f"out/viz/{s}/edition.html").exists() else "no edition"
         st = sh(sys.executable, "tools/viz_leafstats.py", str(f)).stdout.split("turns")[-1].strip()[:60] if f.exists() else ""
         if finished:
