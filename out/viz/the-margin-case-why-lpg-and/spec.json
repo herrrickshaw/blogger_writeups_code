@@ -1,0 +1,21 @@
+{"top": [["$4–6/bbl", " was the Indian OMC gross refining margin in FY2024-25, down from $10–12/bbl a year earlier."], ["60.7%", " of LPG consumption was imported in 2021-22, up from 48.7% in 2017-18."], ["+60%", " widening in the LDPE-naphtha spread, Oct 2024–Mar 2025 vs the same window a year earlier."]],
+ "sections": [
+  {"h2": "Indian refiners' fuel margin fell to $4–6/bbl from $10–12/bbl",
+   "chart": {"type": "bars", "title": "Indian OMC refining margin fell by roughly half in one year", "sub": "Gross refining margin, $/bbl.", "source": "CareEdge tracking of the sector, as cited in the post.", "unit": "$/bbl", "accent": "FY2024-25", "rows": [["FY2023-24", [10, 12]], ["FY2024-25", [4, 6]]]},
+   "means": "Refining margin per barrel has fallen far enough to give refiners a reason to shift output toward LPG and petrochemicals.",
+   "todo": "Track the next quarters of margin data before treating the fall as lasting, since the post says these margins are cyclical."},
+  {"h2": "Imports absorbed LPG demand growth while domestic output barely moved",
+   "chart": {"type": "bars","title": "LPG import dependency rose every year, from 48.7% to 60.7%", "sub": "Imports as a share of LPG consumption, %.", "source": "PPAC Ready Reckoner, Table 7.1 \"LPG marketing at a glance\".", "unit": "%", "accent": "2021-22", "table": {"id": "T1", "label": 0, "value": 4, "rows": "top:5"}},
+   "means": "Domestic LPG production stayed flat while imports met nearly all of the rise in consumption.",
+   "todo": "Treat the growing import share as a gap that domestic LPG output from a refinery could fill.",
+   "numbers": {"table": "T1"}},
+  {"h2": "Cheaper propane and butane and state support narrowed the LPG supply gap",
+   "chart": {"type": "bars", "title": "LPG under-recovery narrowed from ₹98.6 to ₹33 per cylinder", "sub": "Gap between supply cost and recovery from consumers, ₹ per cylinder.", "source": "As cited in the post.", "unit": "₹ per cylinder", "accent": "Narrowed gap", "rows": [["Earlier gap", 98.6], ["Narrowed gap", 33]]},
+   "means": "Lower propane and butane prices and government compensation both moved in LPG's favour as its fuel margin was falling.",
+   "todo": "Check whether the narrower gap holds once the monthly government compensation stops."},
+  {"h2": "The polymer spread over naphtha widened sharply in the latest window",
+   "chart": {"type": "bars", "title": "LDPE-naphtha spread widened from $354 to $566 a tonne", "sub": "Polymer margin over feedstock cost, $/tonne, October to March.", "source": "As cited in the post.", "unit": "$/tonne", "accent": "Oct 2024–Mar 2025", "rows": [["Year earlier, Oct–Mar", 354], ["Oct 2024–Mar 2025", 566]]},
+   "means": "Over the latest six-month window the polymer side of the barrel was the steadier and wider-margin route.",
+   "todo": "Expect petrochemical spreads to be cyclical and re-check them before committing capital."}
+ ],
+ "derived": {}}

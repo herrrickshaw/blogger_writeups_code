@@ -1,0 +1,54 @@
+{
+ "top": [
+  ["€1,074 vs €558", " a tonne: operating cost of hydrogen-based EU steel against ordinary hot-rolled coil, Argus, December 2024."],
+  ["€120", " a tonne of gas to make direct-reduced iron in the EU at H1 2026 prices, against €29 at US prices."],
+  ["€595 vs €731", " imported coil at Antwerp against EU domestic coil in October 2026, before CBAM and the 50% duty."]
+ ],
+ "sections": [
+  {"h2": "Hydrogen-based EU steel costs about 1.9 times ordinary hot-rolled coil",
+   "chart": {"type": "bars",
+             "title": "Only a fully hydrogen-based plant pushes EU steel far above the market price",
+             "sub": "Operating cost, euro per tonne of steel.",
+             "source": "Argus index, December 2024.",
+             "unit": "€/t",
+             "accent": "Hydrogen-based EU plant",
+             "rows": [["Hydrogen-based EU plant, operating cost", 1074], ["NW Europe hot-rolled coil", 558]]},
+   "means": "Where hydrogen is expensive, green steel costs far more than blast-furnace steel.",
+   "todo": "Judge green steel policy by the energy prices that make it expensive, not by the border charge alone."
+  },
+  {"h2": "Gas prices set the cost of direct-reduced iron, and Europe pays the most",
+   "chart": {"type": "bars",
+             "title": "Gas alone costs a tonne of direct-reduced iron about €120 in Europe against €29 in the US",
+             "sub": "Gas per tonne of DRI (about 10 GJ), euro per tonne. Bases as labelled.",
+             "source": "This blog's arithmetic on TTF, India APM and Henry Hub prices.",
+             "unit": "€/t",
+             "accent": "EU, TTF €80/MWh (September 2026)",
+             "rows": [["EU, TTF €43/MWh (H1 2026 average)", 120], ["EU, TTF €80/MWh (September 2026)", 224], ["India, APM gas US$7/MMBtu", 58], ["US, Henry Hub US$3.50/MMBtu", 29]]},
+   "means": "The gas that a direct-reduction plant burns costs more in Europe than in India or the US.",
+   "todo": "Lower European gas and power prices would do more for green steel than a higher price on imports."
+  },
+  {"h2": "With default CBAM values, imported coil costs more than EU-made coil",
+   "chart": {"type": "bars",
+             "title": "CBAM on verified data closes most of the gap; default values reverse it",
+             "sub": "Hot-rolled coil, euro per tonne, early October 2026. CBAM for 2026 imports is paid in 2027; CIF excludes port and inland costs.",
+             "source": "Platts via EUROMETAL; Shanghai Metals Market; this blog's arithmetic.",
+             "unit": "€/t",
+             "accent": "+ CBAM, default values",
+             "rows": [["EU domestic HRC, ex-works", 731], ["Imported HRC, CIF Antwerp", 595], ["+ CBAM, verified data", 688], ["+ CBAM, default values", 865]]},
+   "means": "Imported coil is cheaper than EU coil before carbon costs, and the charge decides which side is dearer.",
+   "todo": "Allow verified plant data to count at the border so that a clean tonne is not priced as a dirty one."
+  },
+  {"h2": "A verified Indian tonne pays far less CBAM than one on default values",
+   "chart": {"type": "bars",
+             "title": "Missing data costs an Indian exporter more than the green premium Europe pays",
+             "sub": "Euro per tonne. CBAM 2026 charges on Indian blast-furnace steel, against the green premium paid in early 2026.",
+             "source": "This blog's previous CBAM piece; Fastmarkets.",
+             "unit": "€/t",
+             "accent": "CBAM, EU default values",
+             "rows": [["CBAM 2026, verified Indian data", 93], ["CBAM 2026, EU default values", 270], ["Green premium EU buyers paid, early 2026", [100, 150]]]},
+   "means": "For small exporters the cost is mostly paperwork and verifier capacity, not carbon.",
+   "todo": "Fund and simplify emissions verification for small exporters before tightening the default values."
+  }
+ ],
+ "derived": {}
+}

@@ -1,0 +1,16 @@
+{"top": [["30%", " of its 2017 peak: Cushing, the WTI delivery hub, held 21.0M bbl in July 2026."], ["US$90.16bn", " of US crude imports came from Canada in 2025, nearly ten times the next source."]],
+ "sections": [
+  {"h2": "Cushing and the SPR are far below their historical peaks",
+   "chart": {"type": "bars", "title": "Cushing stands at 30% of its 2017 peak and the SPR at 42% of its 2010 peak", "sub": "Current stock as a share of each series' historical peak, %.", "source": "US EIA weekly petroleum status and annual workbooks.", "unit": "%", "accent": "Cushing, OK", "rows": [["Cushing, OK", 30, "21.0M bbl; peak 69.4M (2017-04)"], ["Strategic Petroleum Reserve", 42, "304.8M bbl; peak 726.6M (2010-01)"], ["Commercial crude (ex-SPR)", 75, "407.0M bbl; peak 540.7M (2020-06)"], ["Total crude incl. SPR", 58, "711.8M bbl; peak 1,227.7M (2017-03)"]]},
+   "means": "Cushing and the SPR are the two physical buffers behind the crude market, and both sit well below peak.",
+   "todo": "Refresh the Cushing figure, since the post's own update says stocks have risen to about 34% of peak."},
+  {"h2": "US crude imports lean heavily on Canada, nearly ten times the next source",
+   "chart": {"type": "bars", "title": "Canada alone supplies US$90.16bn of crude, far ahead of every other partner", "sub": "US crude imports by partner, 2025, US$ bn.", "source": "US Census Bureau / USITC trade data, implied unit-value grade proxy.", "unit": "US$ bn", "accent": "Canada", "table": {"id": "T1", "label": 0, "value": 1, "rows": "top:8", "sort": "desc"}},
+   "means": "Pipeline-delivered heavy crude from Canada suits the Gulf Coast refineries that are built to run it.",
+   "todo": "Read the partner list as a grade story, not a supply-security story, when judging US crude dependence."},
+  {"h2": "Gulf producers and the US are net petroleum sellers; India is the largest net buyer",
+   "chart": {"type": "bars", "title": "Only India, Mexico and Bahrain are net buyers, and India's deficit is the largest", "sub": "US$ bn, net (exports minus imports), latest complete reported year per country. Basis differs by country.", "source": "UN Comtrade public preview (HS, reporter-declared); DGCI&S TRADESTAT for India.", "unit": "US$ bn", "accent": "USA (2025)", "rows": [["UAE (2023)", 260.8], ["Saudi Arabia (2025)", 203.0], ["USA (2025)", 92.5], ["Qatar (2024)", 77.4], ["Kuwait (2024)", 68.7], ["Oman (2024)", 44.5], ["Bahrain (2024)", -0.4], ["Mexico (2025)", -2.4], ["India (FY25-26)", -147.5]]},
+   "means": "The Gulf producers and the US export more petroleum than they import, while India is the largest net importer.",
+   "todo": "Read the Mexico position with care, because its gasoline import line does not reconcile with US export data."}
+ ],
+ "derived": {}}

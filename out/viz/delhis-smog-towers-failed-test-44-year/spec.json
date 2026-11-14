@@ -1,0 +1,39 @@
+{
+ "top": [
+  ["105 of 151", " winter days in Delhi, 2025–26, had severe or very poor air."],
+  ["48–56%", " efficiency measured near the Connaught Place smog tower, at most 17% within 100 metres."],
+  ["163µg/m³", " average PM2.5 across the season, against India's annual standard of 40µg/m³."]
+ ],
+ "sections": [
+  {"h2": "Delhi's 2025–26 winter: severe or very poor air on 105 of 151 days",
+   "chart": {"type": "bars",
+             "title": "Most winter days fell in the severe or very poor bands",
+             "sub": "Days by CPCB air-quality category, 1 Oct 2025 to 28 Feb 2026.",
+             "source": "CPCB data, analysed by CREA; The Wire.",
+             "unit": "days",
+             "accent": "Very poor",
+             "rows": [["Severe", 18], ["Very poor", 87], ["Poor", 24], ["Moderate, satisfactory or good", 22]]},
+   "means": "The season ran for five months, far longer than the few bad days around Diwali.",
+   "todo": "Judge every intervention against a full season of severe days, not a handful of bad ones."},
+  {"h2": "Connaught Place smog tower: 48–56% efficiency near it, at most 17% by 100 m",
+   "chart": {"type": "bars",
+             "title": "The tower's measured effect falls away sharply with distance",
+             "sub": "Efficiency or mitigation reported in the two assessments, %.",
+             "source": "IIT Bombay with CSIR-NEERI; Delhi Pollution Control Committee.",
+             "unit": "%",
+             "accent": "Within 20 m",
+             "rows": [["Within 20 m", [48, 56]], ["Within 100 m (DPCC)", 17]]},
+   "means": "Both independent assessments found the benefit confined to a small radius around the tower.",
+   "todo": "Require an independent efficiency study before any further street purifier is installed, as Jaipur has none yet."},
+  {"h2": "Only AlgaeTree among three algae ventures has a named public deployment",
+   "chart": {"type": "flow",
+             "title": "AlgaeTree's deployments are dated and public; its CO2 figure is company-reported",
+             "sub": "Dated public deployments of AlgaeTree's microalgae units.",
+             "source": "Press coverage; company announcements.",
+             "events": [["1 May 2026", "Solar-assisted microalgae unit inaugurated at Swami Vivekananda Park, Bhopal", true],
+                        ["July 2026", "Expanded to IOCL's Gujarat Refinery in Vadodara and Amanora Park Town, Maharashtra"]]},
+   "means": "All three ventures' CO2-capture figures are company claims, with no independent measurement found.",
+   "todo": "Ask for independent capture measurements under Delhi winter conditions before any deployment."}
+ ],
+ "derived": {"105": "18+87"}
+}

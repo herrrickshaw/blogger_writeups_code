@@ -1,0 +1,20 @@
+{"top": [["−17.7%", " median one-year return for stocks priced under ₹250, the only one of the four sub-bands below zero."], ["79.2%", " of stocks priced under ₹1,000 sit under ₹250, where the median market cap is ₹80 crore."], ["0.20", " Sharpe ratio for stocks priced ₹0–50, the lowest of the eight price sub-bands in this piece."]],
+ "sections": [
+  {"h2": "Under ₹250, the median stock lost 17.7% over the past year",
+   "chart": {"type": "bars", "title": "Only the ₹0–250 sub-band posted a negative median one-year return", "sub": "Median trailing 1-year return by price sub-band, stocks under ₹1,000, %.", "source": "Screener.in company data, 4,862 NSE/BSE stocks under ₹1,000, 11 Aug 2026.", "unit": "%", "accent": "0–250", "table": {"id": "T3", "label": 0, "value": 1, "rows": "top:4"}},
+   "means": "The median stock priced under ₹250 lost money while every higher sub-band posted a positive return.",
+   "todo": "Read the under-₹1,000 label as four separate populations rather than one bucket."},
+  {"h2": "The ₹0–50 band has the weakest risk-adjusted return of the eight bands tested",
+   "chart": {"type": "bars", "title": "Sharpe ratio is lowest in the ₹0–50 band, at 0.20, against 0.50 at ₹100–150", "sub": "Sharpe ratio by price band, equal-weighted portfolios, 2 Jan 2023 to 7 Aug 2026.", "source": "NSE/BSE weekly prices via Screener.in; 6.5% risk-free proxy.", "unit": "", "accent": "0–50", "table": {"id": "T5", "label": 0, "value": 5, "rows": "top:4"}},
+   "means": "The lowest-priced band combines the highest volatility and beta with the weakest return, giving the poorest Sharpe ratio.",
+   "todo": "Judge the cheapest stocks on market capitalisation and liquidity before judging them on price."},
+  {"h2": "Every ₹50 band under ₹250 posted a negative median one-year return",
+   "chart": {"type": "bars", "title": "Every ₹50 band under ₹250 posted a negative median one-year return", "sub": "Median 1-year return by price band within ₹0–250, %.", "source": "Screener.in company data, 11 Aug 2026.", "unit": "%", "accent": "0–50", "table": {"id": "T6", "label": 0, "value": 1, "rows": "top:4"}},
+   "means": "Returns improve at each step up in price, but all four bands under ₹250 remain below zero.",
+   "todo": "Treat the gradient inside the bottom quarter of the market as a size effect before reading it as a price effect."},
+  {"h2": "Over half of stocks priced under ₹250 sit below ₹50",
+   "chart": {"type": "bars", "title": "More than half of stocks priced under ₹250 are priced below ₹50", "sub": "Share of the under-₹250 universe by price band, %.", "source": "Screener.in company data, 11 Aug 2026.", "unit": "%", "accent": "0–50", "table": {"id": "T4", "label": 0, "value": 2, "rows": "top:4"}},
+   "means": "The 2,086 stocks priced under ₹50 make up 54.2% of the under-₹250 group.",
+   "todo": "Report the price-band split alongside the count, so the bottom band is not read as typical."}
+ ],
+ "derived": {}}

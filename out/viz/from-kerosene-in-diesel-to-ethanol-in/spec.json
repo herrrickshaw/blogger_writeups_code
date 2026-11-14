@@ -1,0 +1,16 @@
+{"top": [["11 of 14", " Karnataka petrol samples the state says were above 20% ethanol; the oil companies dispute the tests."], ["51 of 101", " pump-tampering cases found between April 2015 and June 2017 were in Uttar Pradesh."], ["1.9%", " energy loss at the average excess-ethanol reading, far below the state's 10% mileage figure."]],
+ "sections": [
+  {"h2": "Pumps: about half of the chip-tampering cases were in Uttar Pradesh",
+   "chart": {"type": "bars", "title": "Uttar Pradesh had 51 of the 101 cases the oil ministry reported", "sub": "Cases of chips or other high-tech tampering, April 2015 to June 2017.", "source": "Oil ministry, Lok Sabha reply, July 2017.", "unit": "cases", "accent": "Uttar Pradesh", "rows": [["Uttar Pradesh", 51], ["Other states", 50], ["All states", 101]]},
+   "means": "The oil ministry told the Lok Sabha that 101 cases were found, with 44 outlets terminated after joint inspections.",
+   "todo": "Customers can ask for a filter-paper evaporation test and a density check at any pump, as the post advises."},
+  {"h2": "Karnataka: 11 of 14 petrol samples read above 20% ethanol",
+   "chart": {"type": "bars", "title": "Eleven of 14 Karnataka samples were above 20%, the highest at 31.2%", "sub": "Ethanol in petrol, %. State lab results by outlet brand; the oil companies dispute them.", "source": "Karnataka Department of Legal Metrology, announced 6 November 2026; oil companies' reply.", "unit": "%", "accent": "IOCL outlet", "ref": [21, "E20 upper limit, 21%"], "rows": [["IOCL outlet", 31.2], ["HPCL outlet", 30.5], ["HPCL outlet", 27.0], ["BPCL outlet", 26.5], ["Nayara outlet", 26.1], ["Shell outlet", 25.5], ["BPCL outlet", 24.2], ["BPCL outlet", 22.6], ["HPCL outlet", 22.4], ["IOCL outlet", 20.8], ["Nayara outlet", 20.6], ["BPCL outlet", 19.9], ["MRPL outlet", 19.2], ["Shell outlet", 13.5]]},
+   "means": "On the state's figures, nine of the 14 samples were above the 21% top of the E20 band and one, at 13.5%, was below it.",
+   "todo": "A joint retest under the Control Order procedure, with witnesses and retained samples, would settle most of the dispute."},
+  {"h2": "Mileage: the state's 10% loss figure is about five times the energy shortfall",
+   "chart": {"type": "bars", "title": "At the reported readings the energy loss is 1.9% to 4.1%, against a claimed 10%", "sub": "Energy per litre lost, %. E20 against pure petrol is shown for scale.", "source": "Karnataka minister's figures; energy densities as cited in the post.", "unit": "%", "accent": "State's assumed loss", "rows": [["State's assumed loss", 10], ["Highest reading, 31.2% ethanol", 4.1], ["Average above 20%, 25.2% ethanol", 1.9], ["E20 against pure petrol", 6.7]]},
+   "means": "Per litre, the highest reading holds about 4.1% less energy than E20, and the average of the 11 readings above 20% about 1.9% less.",
+   "todo": "The Rs 62,000 crore figure should be read as a worst-case ceiling rather than an estimate, as the post argues."}
+ ],
+ "derived": {"50": "101-51", "1.9": "(25.2-20)*0.36"}}

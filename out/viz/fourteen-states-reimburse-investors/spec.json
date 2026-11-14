@@ -1,0 +1,17 @@
+{"top": [["100%", " of SGST is what Tamil Nadu, Odisha and Assam promise, but every payout is a state-budget claim, not a tax refund."], ["15 years", " is the longest payout window in the table, in Tamil Nadu and Assam; some MSME tracks pay for 5."], ["₹4,250 crore", " of Telangana incentive arrears were pending in January 2025, by the state's own account."]],
+ "sections": [
+  {"h2": "Tamil Nadu, Odisha and Assam promise the full SGST; Rajasthan and Punjab pay 75%",
+   "chart": {"type": "bars", "title": "Three states reimburse 100% of SGST, two reimburse 75%", "sub": "Share of net or gross SGST paid back to qualifying investors, %.", "source": "State industrial policy documents, as stated in this article.", "unit": "%", "accent": "Tamil Nadu", "ref": [100, "100% = all SGST paid back"], "rows": [["Tamil Nadu", 100, "One of four investor-chosen tracks"], ["Odisha", 100], ["Assam", 100], ["Rajasthan", 75], ["Punjab", 75]]},
+   "means": "Tamil Nadu's 100% applies to only one of four investor-chosen tracks, so the headline rate is not automatic.",
+   "todo": "Before committing capital, confirm which track applies and whether the SGST base is gross or net.",
+   "numbers": {"table": "T1"}},
+  {"h2": "Payment windows run from 5 years for some MSME units to 15 years",
+   "chart": {"type": "bars", "title": "Tamil Nadu and Assam pay for 15 years, the longest window listed", "sub": "Length of the reimbursement period, years.", "source": "State industrial policy documents, as stated in this article.", "unit": "years", "accent": "Tamil Nadu", "rows": [["Tamil Nadu", 15, "Investor-chosen track"], ["Assam", 15], ["Bihar", 14], ["Rajasthan", 7], ["Telangana (MSME)", 5], ["Andhra Pradesh (MSME)", 5]]},
+   "means": "The 5-year windows are MSME tracks in Andhra Pradesh and Telangana, so a large unit should not assume them.",
+   "todo": "Model the payout over the full window, and check whether a cap ends it earlier."},
+  {"h2": "Investors have had to go to court to collect in Jharkhand, and the case is still open",
+   "chart": {"type": "flow", "title": "Jharkhand's 2019 cut to a 2016 promise is still before the Supreme Court", "events": [["2016", "Policy offers 75% reimbursement of Net VAT, later Net SGST, for large projects over 7 years"], ["March 2019", "Notification cuts reimbursement if the buyer claimed input tax credit on the sale"], ["25 Sep 2025", "Supreme Court petition last heard; still pending", true]]},
+   "means": "Jharkhand shows a state can narrow terms after an investor has qualified, and the dispute is unresolved.",
+   "todo": "Get the claim terms in writing against the notified policy before building, not against a press release."}
+ ],
+ "derived": {}}

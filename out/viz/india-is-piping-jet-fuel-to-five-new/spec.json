@@ -1,0 +1,39 @@
+{
+ "top": [
+  ["6–8", " existing airport ATF pipelines by this piece's count, against six new lines authorised or bid since 2022."],
+  ["150.6%", " is the highest FY26 utilisation of an existing airport line, Chennai's, against 36.2% at Lucknow."]
+ ],
+ "sections": [
+  {"h2": "Seven of eight existing airport pipelines ran at 70% or more of nameplate capacity in FY26",
+   "chart": {"type": "bars",
+             "title": "Four of the eight existing lines ran above nameplate capacity in FY26",
+             "sub": "Actual throughput as a share of nameplate capacity, FY26, %.",
+             "source": "PNGRB Expert Committee report on petroleum-product logistics, 2026.",
+             "unit": "%",
+             "accent": "Chennai",
+             "ref": [100, "100% = nameplate capacity"],
+             "rows": [["Chennai", 150.6], ["Bengaluru", 116.2], ["Delhi (Panipat–Bijwasan)", 111.1], ["Kochi", 103.3], ["Mumbai (HPCL)", 99.3], ["Kolkata", 97.5], ["Mumbai (BPCL, Santacruz)", 70], ["Lucknow", 36.2]]},
+   "means": "Chennai's line ran at 150.6% of nameplate, the highest figure, while Lucknow's line ran at 36.2%, the lowest.",
+   "todo": "Track next year's utilisation for these lines to see whether the figures above 100% persist."},
+  {"h2": "Navi Mumbai and Jewar pipelines were authorised years before their airports opened",
+   "chart": {"type": "flow",
+             "title": "The Navi Mumbai and Jewar lines were authorised in 2022 and 2023, before their airports opened",
+             "sub": "Dates as reported in the article.",
+             "source": "PNGRB orders, company releases and trade press, as cited in the article.",
+             "events": [["August 2022", "Navi Mumbai pipeline authorised"], ["February 2023", "Noida (Jewar) pipeline authorised"], ["July 2024", "Hyderabad pipeline authorised in PNGRB order"], ["October 2025", "Navi Mumbai airport opened"], ["March 2026", "Noida (Jewar) airport inaugurated"], ["May 2026", "Second Bengaluru line reported authorised", true]]},
+   "means": "The Navi Mumbai and Jewar pipelines were authorised years before their airports opened, and the article expects their fuel demand to take years to ramp.",
+   "todo": "Watch for the first utilisation figures from the Navi Mumbai and Jewar lines, which the article says are not yet reported.",
+   "numbers": {"table": "T1"}},
+  {"h2": "Indian Oil reserved most of its Bengaluru line's capacity for its own use",
+   "chart": {"type": "bars",
+             "title": "Only 0.16 of 0.66 million tonnes was reserved as common-carrier capacity",
+             "sub": "Bengaluru line capacity split in Indian Oil's capacity filing, million tonnes a year.",
+             "source": "Indian Oil capacity filing, as cited in the article.",
+             "unit": "million tonnes",
+             "accent": "Indian Oil own use",
+             "rows": [["Common-carrier capacity", 0.16], ["Indian Oil own use", 0.44]]},
+   "means": "Indian Oil's capacity filing splits the Bengaluru line's 0.66 million tonnes between 0.16 reserved as common-carrier capacity and 0.44 for its own use.",
+   "todo": "Compare the common-carrier share of each new line with this 0.16 million-tonne reservation before treating it as open access."}
+ ],
+ "derived": {"100": "count: the 100% nameplate reference line on the axis", "4":"count: Chennai, Bengaluru, Delhi and Kochi are above 100%", "7": "count: seven of the eight lines are at or above 70%", "8": "count: eight existing lines in the chart"}
+}

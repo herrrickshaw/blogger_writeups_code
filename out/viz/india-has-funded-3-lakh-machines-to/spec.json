@@ -1,0 +1,31 @@
+{
+ "top": [
+  ["4,500", " of some 3 lakh crop-residue machines funded since 2018 are balers and rakes, the kit that collects straw."],
+  ["43 million tonnes", " of biomass would meet a 5% co-firing mandate, against a 1.5 Mt collection target for 2023-24."],
+  ["Rs 1,330", " a tonne to bale straw 15 km away, rising to Rs 2,500–3,000 if the bales travel 50 km."]
+ ],
+ "sections": [
+  {"h2": "Co-firing 5% would need about 43 million tonnes, far above the 1.5 Mt collection target",
+   "chart": {"type":"bars", "title":"The collection chain is far smaller than the demand it is meant to serve",
+             "sub":"Biomass volumes, million tonnes a year.", "source":"Crop Residue Management guidelines 2023-24; Ministry of Power annual report 2025-26; sources in the post.",
+             "unit":"Mt", "accent":"2023-24 supply-chain target",
+             "rows":[["2023-24 supply-chain target",1.5],["Biomass co-fired in coal plants, 2025",2.5],["Punjab ex-situ target, 2025",6.0],["Rice stubble burnt in NW India, Oct-Nov",23.0],["5% co-firing on FY24 power-sector coal",43.0]]},
+   "means": "Procurement targets cover a small share of what coal plants and kilns could burn, while most funded machines stay in the field.",
+   "todo": "Size collection targets to the 5% co-firing demand, not to the number of machines bought."},
+  {"h2": "4 of the 7 top surplus states lie outside the machinery scheme",
+   "chart": {"type":"bars", "title":"Surplus power sits largely in states the machinery scheme does not cover",
+             "sub":"Power potential of surplus crop residue, MW.", "source":"National Biomass Atlas of India (SSS-NIBE, for MNRE); Ministry of Power SAMARTH copy.",
+             "unit":"MW", "accent":"Gujarat",
+             "table":{"id":"T1","label":0,"value":2,"rows":"top:7","sort":"desc"}},
+   "means": "Outside the scheme the atlas shows 9,783 MW of potential, against 7,176 MW inside it.",
+   "todo": "Extend the aggregation window to Gujarat, Maharashtra, Andhra Pradesh and Madhya Pradesh, starting near coal plants and CBG plants."},
+  {"h2": "Hauling bales 50 km costs about Rs 2,500–3,000 a tonne, against Rs 1,330 at 15 km",
+   "chart": {"type":"bars", "title":"Beyond about 50 km, hauling straw is likely uneconomic",
+             "sub":"Collection and delivery cost, Rs a tonne, Punjab, CEEW 2025.", "source":"CEEW 2025 work in Punjab, as cited in the post.",
+             "unit":"Rs a tonne", "accent":"Bales delivered 50 km away",
+             "rows":[["Bales, straw bank 15 km away",1330],["Bales delivered 50 km away",[2500,3000]],["Briquettes or pellets 50 km away",[4000,5000]]]},
+   "means": "Cutting and baling make up about half of procurement cost, and storage adds 20–30% of the delivered cost.",
+   "todo": "Site aggregation machinery near buyers, not spread evenly across districts."}
+ ],
+ "derived": {"4":"count: four of the seven states in table T1 are outside the scheme", "7":"count: seven states in table T1"}
+}

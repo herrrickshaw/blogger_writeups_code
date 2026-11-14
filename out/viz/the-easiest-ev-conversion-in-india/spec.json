@@ -1,0 +1,50 @@
+{
+ "top": [
+  ["23-27%", " lower per-kilometre price than running diesel or CNG buses, before any subsidy, from CESL's pooled bus tender."],
+  ["0.6%", " of India's government-owned vehicles were electric in February 2022, the baseline any fleet claim has to start from."],
+  ["40%", " of government buses electric by 2030 is Madhya Pradesh's target, backed by a ₹10 lakh capital subsidy per bus."]
+ ],
+ "sections": [
+  {"h2": "Pooled government demand cut bus prices without any subsidy",
+   "chart": {"type": "bars",
+             "title": "Pooling five cities' orders priced e-buses below running diesel and CNG costs",
+             "sub": "Percent; ranges across the cities in the CESL tender.",
+             "source": "CESL Grand Challenge; Mercom India.",
+             "unit": "%",
+             "accent": "Per-km cost below diesel or CNG, unsubsidised",
+             "rows": [["Bidding rate cut vs FAME phase-1 prices", [28, 52]],
+                      ["Per-km cost below diesel or CNG, unsubsidised", [23, 27]]]},
+   "means": "Five cities pooled their bus orders, and bidders priced the combined volume lower than earlier tenders with no subsidy applied.",
+   "todo": "Pool government bus demand across cities before subsidising it, since the post finds pooling is what moved the price."
+  },
+  {"h2": "Madhya Pradesh sets 40% for government buses, within a 15-70% range",
+   "chart": {"type": "bars",
+             "title": "Its 2030 targets run from 15% for four-wheelers to 70% for three-wheelers",
+             "sub": "Share of new registrations or fleet electric by 2030, %.",
+             "source": "Madhya Pradesh EV Policy 2025.",
+             "unit": "%",
+             "accent": "Government buses",
+             "rows": [["Three-wheelers", 70],
+                      ["Government buses", 40],
+                      ["Two-wheelers (new registrations)", 40, "100 for commercial fleets"],
+                      ["Four-wheelers (new registrations)", 15],
+                      ["Light commercial vehicles", 15]]},
+   "means": "The 40% government-bus target is a policy goal backed by a capital subsidy, not a mandate.",
+   "todo": "Confirm the 40% bus target against the full policy PDF, since the post only checked its foreword."
+  },
+  {"h2": "Both national scheme targets exceed the 5,450 buses in CESL's tender",
+   "chart": {"type": "bars",
+             "title": "Both national scheme targets exceed the 5,450 buses in CESL's single tender",
+             "sub": "Number of electric buses.",
+             "source": "CESL; PIB press releases.",
+             "unit": "buses",
+             "accent": "PM E-DRIVE target",
+             "rows": [["CESL Grand Challenge tender", 5450],
+                      ["PM-eBus Sewa target", 10000],
+                      ["PM E-DRIVE target", 14028]]},
+   "means": "Both schemes set bus targets above the 5,450 CESL tendered, though these are targets rather than completed deliveries.",
+   "todo": "Report sanctioned and delivered bus counts against the 10,000 and 14,028 targets, since the latest PM-eBus Sewa figure is from February 2025."
+  }
+ ],
+ "derived": {}
+}

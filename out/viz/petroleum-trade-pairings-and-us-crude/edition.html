@@ -1,0 +1,179 @@
+<div class="artx ptx">
+<div class="gs-head-order" style="display:flex;flex-direction:column">
+<p style="order:4" class="sub">Where the USA, Mexico and the GCC buy and sell crude, refined products,
+  LPG and lubricants — and why US storage levels at Cushing sit underneath the whole
+  crude-slate question.</p>
+<div class="topnav-index-link" style="order:1;font-size:.82em;margin:6px 0 14px"><a href="https://blog.vertistratsolution.com/2026/08/article-index-start-here.html" style="color:#0b5394;text-decoration:none">&#8592; All Articles (Index)</a></div>
+<div style="order:2" class="eyebrow">Comtrade · EIA · DGCI&amp;S TRADESTAT</div>
+<h1 style="order:3">US crude storage and petroleum trade pairings: reserves, Cushing and OPEC output</h1>
+</div>
+
+<a href="#" id="gs-skip-link" class="gs-skip-link" style="position:absolute;left:-9999px;top:auto;background:#1a1a1a;color:#fff;padding:.6rem 1rem;z-index:1000;border-radius:4px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.85rem">Skip to article content</a>
+<style>.gs-skip-link:focus{left:8px!important;top:8px!important}
+.gs-a11y-bar{display:flex;align-items:center;gap:.55rem;flex-wrap:wrap;background:#f4f5f7;border:1px solid #dfe3e8;border-radius:8px;padding:.55rem .8rem;margin:10px 0 16px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
+.gs-a11y-bar .gs-a11y-label{font-size:.68rem;font-weight:700;letter-spacing:.08em;color:#666;text-transform:uppercase;margin-right:.15rem}
+.gs-a11y-bar button{cursor:pointer;border:1px solid #c7cbd1;background:#fff;color:#1a1a1a;border-radius:5px;padding:.32rem .65rem;font-family:inherit;line-height:1}
+.gs-a11y-bar button.gs-a11y-fs{font-weight:700;min-width:2rem;text-align:center}
+.gs-a11y-bar button.gs-a11y-fs[data-size="sm"]{font-size:.8rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="md"]{font-size:1rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="lg"]{font-size:1.2rem}
+.gs-a11y-bar button.gs-a11y-fs[aria-pressed="true"]{background:#1a1a1a;color:#fff;border-color:#1a1a1a}
+.gs-a11y-bar button:hover{border-color:#8a4b08}
+.gs-a11y-bar button:focus-visible{outline:2px solid #8a4b08;outline-offset:1px}
+.gs-a11y-bar .gs-a11y-sep{width:1px;align-self:stretch;background:#dfe3e8;margin:0 .1rem}</style>
+<div class="gs-a11y-bar" role="group" aria-label="Accessibility controls">
+<span class="gs-a11y-label">Text Size</span>
+<button type="button" class="gs-a11y-fs" data-size="sm" aria-pressed="false" aria-label="Small text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="md" aria-pressed="true" aria-label="Medium text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="lg" aria-pressed="false" aria-label="Large text">A</button>
+<span class="gs-a11y-sep"></span>
+<button type="button" id="gs-a11y-listen" aria-label="Read this article aloud">&#128266; Listen</button>
+<button type="button" id="gs-a11y-stop" aria-label="Stop reading aloud">&#9632; Stop</button>
+</div>
+<script>(function(){
+var KEY='gs-a11y-fontsize', SIZES={sm:'0.92',md:'1',lg:'1.15'};
+function pb(){return document.querySelector('.post-body')||document.querySelector('.artx,.mdrx');}
+function apply(sz){
+  var el=pb(); if(!el||!SIZES[sz]) return;
+  el.style.fontSize=SIZES[sz]+'em';
+  var btns=document.querySelectorAll('.gs-a11y-fs');
+  for(var i=0;i<btns.length;i++){
+    var on=btns[i].getAttribute('data-size')===sz;
+    btns[i].setAttribute('aria-pressed', on?'true':'false');
+  }
+  try{localStorage.setItem(KEY,sz);}catch(e){}
+}
+var fsBtns=document.querySelectorAll('.gs-a11y-fs');
+for(var j=0;j<fsBtns.length;j++){
+  fsBtns[j].addEventListener('click',(function(b){return function(){apply(b.getAttribute('data-size'));};})(fsBtns[j]));
+}
+var saved; try{saved=localStorage.getItem(KEY);}catch(e){}
+apply(saved&&SIZES[saved]?saved:'md');
+
+var listenBtn=document.getElementById('gs-a11y-listen'), stopBtn=document.getElementById('gs-a11y-stop');
+if(listenBtn){
+  listenBtn.addEventListener('click', function(){
+    if(!('speechSynthesis' in window)){ alert('Text-to-speech is not supported in this browser.'); return; }
+    window.speechSynthesis.cancel();
+    var src=pb(); if(!src) return;
+    var clone=src.cloneNode(true);
+    var strip=clone.querySelectorAll('script,style,svg');
+    for(var k=0;k<strip.length;k++){ strip[k].parentNode.removeChild(strip[k]); }
+    var text=clone.textContent.replace(/\s+/g,' ').trim();
+    if(!text) return;
+    var chunks=text.match(/[\s\S]{1,180}(?:[.!?]|$)/g)||[text];
+    var idx=0;
+    function speakNext(){
+      if(idx>=chunks.length) return;
+      var u=new SpeechSynthesisUtterance(chunks[idx]);
+      u.onend=function(){ idx++; speakNext(); };
+      window.speechSynthesis.speak(u);
+    }
+    speakNext();
+  });
+}
+if(stopBtn){
+  stopBtn.addEventListener('click', function(){
+    if('speechSynthesis' in window) window.speechSynthesis.cancel();
+  });
+}
+var skip=document.getElementById('gs-skip-link');
+if(skip){
+  skip.addEventListener('click', function(ev){
+    ev.preventDefault();
+    var h=document.querySelector('.post-body h1')||document.querySelector('.artx h1,.mdrx h1,h1');
+    if(h){ h.setAttribute('tabindex','-1'); h.focus(); h.scrollIntoView(); }
+  });
+}
+})();</script>
+<style>.goog-te-menu-frame{max-width:340px!important;max-height:70vh!important;overflow:auto!important;box-shadow:0 6px 24px rgba(0,0,0,.25)!important}</style><div id="google_translate_element" style="margin:8px 0 16px;"></div><script type="text/javascript">function googleTranslateElementInit(){new google.translate.TranslateElement({pageLanguage:"en",includedLanguages:"hi,bn,ta,te,mr,gu,kn,ml,pa,or,as,ur,sa,ne,sd",layout:google.translate.TranslateElement.InlineLayout.SIMPLE,autoDisplay:false},"google_translate_element");}</script><script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+
+<style>
+.xv-top,.xv,.xv-flow,.xv-so,.xv-n{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif}
+.xv-top{border-left:4px solid #2251FF;background:#F4F7FB;padding:1rem 1.1rem;margin:1.2rem 0 1.8rem;border-radius:0 10px 10px 0}
+.xv-top .xv-eb{font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;color:#43535F;font-weight:700;margin:0 0 .6rem}
+.xv-top ul{list-style:none;margin:0;padding:0}
+.xv-top li{margin:0 0 .85rem;padding:0;line-height:1.45;color:#0B1F2D;font-size:1rem}
+.xv-top li:last-child{margin-bottom:0}
+.xv-top .xv-k{display:block;font-size:1.65rem;font-weight:800;letter-spacing:-.02em;line-height:1.15;color:#0B1F2D}
+.xv{margin:1.1rem 0 1.4rem;padding:0;max-width:640px}
+.xv figcaption{margin:0 0 .7rem}
+.xv .xv-t{display:block;font-size:1.05rem;font-weight:700;line-height:1.35;color:#0B1F2D}
+.xv .xv-u{display:block;font-size:.82rem;color:#43535F;margin-top:.15rem;line-height:1.4}
+.xv .xv-key{font-size:.8rem;color:#43535F;margin:0 0 .5rem;line-height:1.4}
+.xv .xv-key i{display:inline-block;width:2px;height:.9em;background:#0B1F2D;vertical-align:-.1em;margin-right:.35em}
+.xv .xv-r{margin:0 0 .7rem}
+.xv .xv-l{display:flex;justify-content:space-between;align-items:baseline;gap:.75rem;font-size:.88rem;line-height:1.3;color:#0B1F2D;margin:0 0 .22rem}
+.xv .xv-l>span{min-width:0}
+.xv .xv-l small{color:#43535F;font-size:.92em}
+.xv .xv-tk{position:relative;display:flex;align-items:center;min-height:16px}
+.xv .xv-b{display:block;height:14px;min-width:3px;background:#A9B4BF;border-radius:0 4px 4px 0;flex:none}
+.xv .xv-b.xv-float{border-radius:4px}
+.xv .xv-hi .xv-b{background:#2251FF}
+.xv .xv-v{font-size:.88rem;font-weight:600;color:#0B1F2D;white-space:nowrap;font-variant-numeric:tabular-nums;flex:none}
+.xv .xv-hi .xv-v{font-weight:800}
+.xv .xv-tk.xv-div{display:block;height:14px}
+.xv .xv-div .xv-b{position:absolute;top:0;border-radius:4px}
+.xv .xv-div .xv-neg{background:#7d8a96}
+.xv .xv-hi .xv-div .xv-neg,.xv .xv-hi.xv-divrow .xv-neg{background:#2251FF}
+.xv .xv-none{display:block;flex:1;height:12px;border:1.5px dashed #2251FF;background:#E9EEFF;border-radius:4px}
+.xv .xv-m{position:absolute;top:-3px;bottom:-3px;width:2px;background:#0B1F2D}
+.xv .xv-svg{display:block;width:100%;height:auto}
+.xv .xv-svg.xv-wide{display:none}
+@media (min-width:600px){.xv .xv-svg.xv-narrow{display:none}.xv .xv-svg.xv-wide{display:block}}
+.xv .xv-leg{font-size:.8rem;color:#43535F;margin:.1rem 0 .5rem}
+.xv .xv-leg span{margin-right:.9rem;white-space:nowrap}
+.xv .xv-leg i{display:inline-block;width:14px;height:3px;border-radius:2px;vertical-align:middle;margin-right:.35rem}
+.xv .xv-s{font-size:.75rem;color:#43535F;margin:.6rem 0 0;line-height:1.45}
+.xv-flow{list-style:none;margin:1rem 0 1.4rem;padding:0 0 0 18px;border-left:2px solid #D9E1E8;max-width:640px}
+.xv-flow li{position:relative;margin:0 0 1rem;padding:0 0 0 .4rem;line-height:1.45;font-size:.92rem;color:#0B1F2D}
+.xv-flow li::before{content:"";position:absolute;left:-24px;top:.3rem;width:10px;height:10px;border-radius:50%;background:#A9B4BF;box-shadow:0 0 0 3px #fff}
+.xv-flow li.xv-hi::before{background:#2251FF}
+.xv-flow b{display:block;font-size:.78rem;letter-spacing:.06em;text-transform:uppercase;color:#43535F}
+.xv-sec .xv-so{font-size:.98rem;line-height:1.55;color:#0B1F2D;background:#F4F7FB;border-radius:8px;padding:.75rem .9rem;margin:.4rem 0 1.6rem}
+.xv-sec .xv-so p{margin:0;max-width:none}
+.xv-sec .xv-so p+p{margin-top:.55rem}
+.xv-sec .xv-so b{color:#0B1F2D}
+.xv-n{margin:.2rem 0 1.4rem;font-size:.85rem}
+.xv-n summary{cursor:pointer;color:#0b5394;font-weight:600;padding:.3rem 0}
+.xv-n table{margin:.5rem 0 0}
+</style>
+<div class="xv-top"><p class="xv-eb">Top line</p><ul><li><span class="xv-k">30%</span> of its 2017 peak: Cushing, the WTI delivery hub, held 21.0M bbl in July 2026.</li><li><span class="xv-k">US$90.16bn</span> of US crude imports came from Canada in 2025, nearly ten times the next source.</li></ul></div>
+<figure style="margin:1.6rem 0">
+<img src="https://upload.wikimedia.org/wikipedia/commons/3/32/Jamnagar_Refinery.jpg" alt="Distillation columns and flare stacks at the Jamnagar refinery complex" loading="lazy" style="width:100%;height:auto;border-radius:6px;display:block"/>
+<figcaption class="gb-note" style="margin-top:.4rem">Refined products are among India's largest single export lines. <a href="https://commons.wikimedia.org/wiki/File:Jamnagar_Refinery.jpg" rel="noopener noreferrer">Jamnagar Refinery.jpg</a>, Reliance Industries, CC BY-SA 4.0, via Wikimedia Commons.</figcaption>
+</figure><div class="warn" style="border-left:4px solid #a5402c;background:rgba(165,64,44,.07);padding:.8em 1em;margin:1.2em 0;border-radius:4px"><b>Updated 7 November 2026.</b> Two corrections and a storage refresh. The three OPEC series in Topic 06 do fall sharply in March 2026, but this page wrongly called that a change of definition: it is the Hormuz war, with OPEC crude output down 7.30 million barrels a day in March (Reuters survey) and EIA-estimated shut-ins of 10.9 million barrels a day at the May peak, 4.8 million in September. EIA weekly data for 23 October 2026 put the Strategic Petroleum Reserve at 282.6 million barrels (304.8 million in the tiles below), commercial crude at 410.6 million (407.0) and total crude including the SPR at 693.2 million (711.8); the US announced a 40-million-barrel SPR exchange on 29 September. The tiles and charts below still show 31 July 2026. Sources: <a href="https://www.reuters.com/business/energy/opec-oil-output-plunges-march-war-forces-export-cuts-reuters-survey-finds-2026-03-31">Reuters, 31 March 2026</a>; <a href="https://www.eia.gov/outlooks/steo/report/global_oil.php">EIA Short-Term Energy Outlook, October 2026</a>; <a href="https://www.eia.gov/dnav/pet/pet_stoc_wstk_dcu_nus_w.htm">EIA weekly stocks</a>.</div><p class="gb-note"><b>Updated 15 November 2026:</b> rewritten as charts; figures unchanged.</p>
+<section class="xv-sec"><h2 class="gb-h2">Cushing and the SPR are far below their historical peaks</h2>
+<figure class="xv" aria-labelledby="xv1"><figcaption><span class="xv-t" id="xv1">Cushing stands at 30% of its 2017 peak and the SPR at 42% of its 2010 peak</span><span class="xv-u">Current stock as a share of each series' historical peak, %.</span></figcaption><div class="xv-r xv-hi" title="Cushing, OK: 30%"><div class="xv-l"><span>Cushing, OK <small>21.0M bbl; peak 69.4M (2017-04)</small></span><b class="xv-v">30%</b></div><div class="xv-tk"><i class="xv-b" style="width:40.00%"></i></div></div><div class="xv-r" title="Strategic Petroleum Reserve: 42%"><div class="xv-l"><span>Strategic Petroleum Reserve <small>304.8M bbl; peak 726.6M (2010-01)</small></span><b class="xv-v">42%</b></div><div class="xv-tk"><i class="xv-b" style="width:56.00%"></i></div></div><div class="xv-r" title="Commercial crude (ex-SPR): 75%"><div class="xv-l"><span>Commercial crude (ex-SPR) <small>407.0M bbl; peak 540.7M (2020-06)</small></span><b class="xv-v">75%</b></div><div class="xv-tk"><i class="xv-b" style="width:100.00%"></i></div></div><div class="xv-r" title="Total crude incl. SPR: 58%"><div class="xv-l"><span>Total crude incl. SPR <small>711.8M bbl; peak 1,227.7M (2017-03)</small></span><b class="xv-v">58%</b></div><div class="xv-tk"><i class="xv-b" style="width:77.33%"></i></div></div><p class="xv-s">US EIA weekly petroleum status and annual workbooks.</p></figure>
+<div class="xv-so"><p><b>What it means:</b> Cushing and the SPR are the two physical buffers behind the crude market, and both sit well below peak.</p><p><b>What to do:</b> Refresh the Cushing figure, since the post's own update says stocks have risen to about 34% of peak.</p></div></section>
+<section class="xv-sec"><h2 class="gb-h2">US crude imports lean heavily on Canada, nearly ten times the next source</h2>
+<figure class="xv" aria-labelledby="xv2"><figcaption><span class="xv-t" id="xv2">Canada alone supplies US$90.16bn of crude, far ahead of every other partner</span><span class="xv-u">US crude imports by partner, 2025, US$ bn.</span></figcaption><div class="xv-r xv-hi" title="Canada: 90.16 US$ bn"><div class="xv-l"><span>Canada</span><b class="xv-v">90.16</b></div><div class="xv-tk"><i class="xv-b" style="width:100.00%"></i></div></div><div class="xv-r" title="Mexico: 9 US$ bn"><div class="xv-l"><span>Mexico</span><b class="xv-v">9.00</b></div><div class="xv-tk"><i class="xv-b" style="width:9.98%"></i></div></div><div class="xv-r" title="Saudi Arabia: 7.06 US$ bn"><div class="xv-l"><span>Saudi Arabia</span><b class="xv-v">7.06</b></div><div class="xv-tk"><i class="xv-b" style="width:7.83%"></i></div></div><div class="xv-r" title="Brazil: 5.33 US$ bn"><div class="xv-l"><span>Brazil</span><b class="xv-v">5.33</b></div><div class="xv-tk"><i class="xv-b" style="width:5.91%"></i></div></div><div class="xv-r" title="Guyana: 5.06 US$ bn"><div class="xv-l"><span>Guyana</span><b class="xv-v">5.06</b></div><div class="xv-tk"><i class="xv-b" style="width:5.61%"></i></div></div><div class="xv-r" title="Colombia: 4.89 US$ bn"><div class="xv-l"><span>Colombia</span><b class="xv-v">4.89</b></div><div class="xv-tk"><i class="xv-b" style="width:5.42%"></i></div></div><div class="xv-r" title="Iraq: 4.79 US$ bn"><div class="xv-l"><span>Iraq</span><b class="xv-v">4.79</b></div><div class="xv-tk"><i class="xv-b" style="width:5.31%"></i></div></div><div class="xv-r" title="Nigeria: 3.74 US$ bn"><div class="xv-l"><span>Nigeria</span><b class="xv-v">3.74</b></div><div class="xv-tk"><i class="xv-b" style="width:4.15%"></i></div></div><p class="xv-s">US Census Bureau / USITC trade data, implied unit-value grade proxy.</p></figure>
+<div class="xv-so"><p><b>What it means:</b> Pipeline-delivered heavy crude from Canada suits the Gulf Coast refineries that are built to run it.</p><p><b>What to do:</b> Read the partner list as a grade story, not a supply-security story, when judging US crude dependence.</p></div></section>
+<section class="xv-sec"><h2 class="gb-h2">Gulf producers and the US are net petroleum sellers; India is the largest net buyer</h2>
+<figure class="xv" aria-labelledby="xv3"><figcaption><span class="xv-t" id="xv3">Only India, Mexico and Bahrain are net buyers, and India's deficit is the largest</span><span class="xv-u">US$ bn, net (exports minus imports), latest complete reported year per country. Basis differs by country.</span></figcaption><div class="xv-r" title="UAE (2023): 260.8 US$ bn"><div class="xv-l"><span>UAE (2023)</span><b class="xv-v">260.8 US$ bn</b></div><div class="xv-tk xv-div"><i class="xv-b" style="left:36.13%;width:63.87%;border-radius:0 4px 4px 0"></i><i class="xv-m" style="left:36.13%" aria-hidden="true"></i></div></div><div class="xv-r" title="Saudi Arabia (2025): 203 US$ bn"><div class="xv-l"><span>Saudi Arabia (2025)</span><b class="xv-v">203 US$ bn</b></div><div class="xv-tk xv-div"><i class="xv-b" style="left:36.13%;width:49.72%;border-radius:0 4px 4px 0"></i><i class="xv-m" style="left:36.13%" aria-hidden="true"></i></div></div><div class="xv-r xv-hi" title="USA (2025): 92.5 US$ bn"><div class="xv-l"><span>USA (2025)</span><b class="xv-v">92.5 US$ bn</b></div><div class="xv-tk xv-div"><i class="xv-b" style="left:36.13%;width:22.65%;border-radius:0 4px 4px 0"></i><i class="xv-m" style="left:36.13%" aria-hidden="true"></i></div></div><div class="xv-r" title="Qatar (2024): 77.4 US$ bn"><div class="xv-l"><span>Qatar (2024)</span><b class="xv-v">77.4 US$ bn</b></div><div class="xv-tk xv-div"><i class="xv-b" style="left:36.13%;width:18.96%;border-radius:0 4px 4px 0"></i><i class="xv-m" style="left:36.13%" aria-hidden="true"></i></div></div><div class="xv-r" title="Kuwait (2024): 68.7 US$ bn"><div class="xv-l"><span>Kuwait (2024)</span><b class="xv-v">68.7 US$ bn</b></div><div class="xv-tk xv-div"><i class="xv-b" style="left:36.13%;width:16.83%;border-radius:0 4px 4px 0"></i><i class="xv-m" style="left:36.13%" aria-hidden="true"></i></div></div><div class="xv-r" title="Oman (2024): 44.5 US$ bn"><div class="xv-l"><span>Oman (2024)</span><b class="xv-v">44.5 US$ bn</b></div><div class="xv-tk xv-div"><i class="xv-b" style="left:36.13%;width:10.90%;border-radius:0 4px 4px 0"></i><i class="xv-m" style="left:36.13%" aria-hidden="true"></i></div></div><div class="xv-r" title="Bahrain (2024): -0.4 US$ bn"><div class="xv-l"><span>Bahrain (2024)</span><b class="xv-v">-0.4 US$ bn</b></div><div class="xv-tk xv-div"><i class="xv-b xv-neg" style="left:35.53%;width:0.60%;border-radius:4px 0 0 4px"></i><i class="xv-m" style="left:36.13%" aria-hidden="true"></i></div></div><div class="xv-r" title="Mexico (2025): -2.4 US$ bn"><div class="xv-l"><span>Mexico (2025)</span><b class="xv-v">-2.4 US$ bn</b></div><div class="xv-tk xv-div"><i class="xv-b xv-neg" style="left:35.53%;width:0.60%;border-radius:4px 0 0 4px"></i><i class="xv-m" style="left:36.13%" aria-hidden="true"></i></div></div><div class="xv-r" title="India (FY25-26): -147.5 US$ bn"><div class="xv-l"><span>India (FY25-26)</span><b class="xv-v">-147.5 US$ bn</b></div><div class="xv-tk xv-div"><i class="xv-b xv-neg" style="left:0.00%;width:36.13%;border-radius:4px 0 0 4px"></i><i class="xv-m" style="left:36.13%" aria-hidden="true"></i></div></div><p class="xv-s">UN Comtrade public preview (HS, reporter-declared); DGCI&S TRADESTAT for India.</p></figure>
+<div class="xv-so"><p><b>What it means:</b> The Gulf producers and the US export more petroleum than they import, while India is the largest net importer.</p><p><b>What to do:</b> Read the Mexico position with care, because its gasoline import line does not reconcile with US export data.</p></div></section>
+<h2 class="gb-h2" id="fixes">What would fix this</h2>
+<ul>
+<li><b>DGCI&amp;S should ensure India&rsquo;s HS-6 petroleum import data reaches UN Comtrade and matches TRADESTAT totals</b>, so India&rsquo;s net petroleum position can be built on the same basis as the other reporters rather than patched in from a different source.</li>
+<li><b>PPAC should publish India&rsquo;s crude imports by source country with average API gravity and sulphur content</b>, so the grade mix India buys, including US light crude, is reported directly rather than inferred from implied unit values per tonne.</li>
+<li><b>DGCI&amp;S should publish India&rsquo;s petroleum trade by partner at HS-6 on a calendar-year basis alongside the fiscal-year series</b>, so India can be compared with the US, Mexico and the GCC reporters, which report on calendar years, without mismatched periods.</li>
+</ul>
+<p>These are proposals from this blog, not recommendations any agency has adopted.</p>
+<details class="xv-n"><summary>Table: Topic 02 Why Cushing and US reserves drive the crude mix</summary><div class="gb-tblwrap"><table class="gb-table"><thead><tr><th>Partner</th><th>US$ bn</th><th>US$/tonne</th></tr></thead><tbody><tr><td>Canada</td><td>90.16</td><td>398</td></tr><tr><td>Mexico</td><td>9.00</td><td>412</td></tr><tr><td>Saudi Arabia</td><td>7.06</td><td>457</td></tr><tr><td>Brazil</td><td>5.33</td><td>469</td></tr><tr><td>Guyana</td><td>5.06</td><td>461</td></tr><tr><td>Colombia</td><td>4.89</td><td>444</td></tr><tr><td>Iraq</td><td>4.79</td><td>461</td></tr><tr><td>Nigeria</td><td>3.74</td><td>478</td></tr></tbody></table></div></details>
+<details class="xv-n"><summary>Table: Topic 02 Why Cushing and US reserves drive the crude mix</summary><div class="gb-tblwrap"><table class="gb-table"><thead><tr><th>Partner</th><th>US$ bn</th><th>US$/tonne</th></tr></thead><tbody><tr><td>Netherlands</td><td>22.26</td><td>433</td></tr><tr><td>Rep. of Korea</td><td>12.53</td><td>426</td></tr><tr><td>Canada</td><td>9.47</td><td>426</td></tr><tr><td>India</td><td>7.90</td><td>433</td></tr><tr><td>Other Asia, nes</td><td>5.60</td><td>444</td></tr><tr><td>United Kingdom</td><td>4.54</td><td>422</td></tr><tr><td>Spain</td><td>4.45</td><td>427</td></tr><tr><td>Thailand</td><td>3.71</td><td>433</td></tr></tbody></table></div></details>
+<details class="xv-n"><summary>Table: Topic 03 Who is long and who is short</summary><div class="gb-tblwrap"><table class="gb-table"><thead><tr><th>Country</th><th>Year</th><th>Basis used</th><th>X / M ($bn)</th></tr></thead><tbody><tr><td>USA</td><td>2025</td><td>both levels agree</td><td>308.9 / 216.4</td></tr><tr><td>Mexico</td><td>2025</td><td>HS-6 sum (chapter aggregate unreliable)</td><td>19.7 / 22.1</td></tr><tr><td>Saudi Arabia</td><td>2025</td><td>both levels agree</td><td>214.4 / 11.4</td></tr><tr><td>UAE</td><td>2023</td><td>both levels agree</td><td>282.1 / 21.3</td></tr><tr><td>Qatar</td><td>2024</td><td>chapter total (HS-6 detail incomplete)</td><td>79.6 / 2.2</td></tr><tr><td>Kuwait</td><td>2024</td><td>both levels agree</td><td>69.0 / 0.2</td></tr><tr><td>Oman</td><td>2024</td><td>HS-6 sum (chapter aggregate unreliable)</td><td>44.8 / 0.3</td></tr><tr><td>Bahrain</td><td>2024</td><td>both levels agree</td><td>0.0 / 0.4</td></tr><tr><td>India</td><td>FY25-26</td><td>DGCI&amp;S TRADESTAT (Comtrade HS-6 imports missing)</td><td>55.9 / 203.4</td></tr></tbody></table></div></details>
+<details class="xv-n"><summary>Table: Most GCC exporters do not name their customers</summary><div class="gb-tblwrap"><table class="gb-table"><thead><tr><th>Reporter</th><th>Year</th><th>Named destinations, %</th><th>Undisclosed ($bn)</th><th>Total ($bn)</th></tr></thead><tbody><tr><td>Saudi Arabia</td><td>2025</td><td>0</td><td>205.8</td><td>205.9</td></tr><tr><td>Kuwait</td><td>2024</td><td>0</td><td>68.9</td><td>69.0</td></tr><tr><td>Mexico</td><td>2025</td><td>0</td><td>14.8</td><td>14.8</td></tr><tr><td>UAE</td><td>2023</td><td>5</td><td>268.5</td><td>281.7</td></tr><tr><td>Oman</td><td>2023</td><td>14</td><td>29.1</td><td>34.1</td></tr><tr><td>Qatar</td><td>2024</td><td>92</td><td>1.1</td><td>15.0</td></tr><tr><td>India</td><td>2025</td><td>95</td><td>2.5</td><td>53.8</td></tr><tr><td>USA</td><td>2025</td><td>98</td><td>5.8</td><td>238.9</td></tr></tbody></table></div></details>
+<details class="xv-n"><summary>Table: Reading the GCC from the buyer's side instead</summary><div class="gb-tblwrap"><table class="gb-table"><thead><tr><th>Supplier</th><th>USA</th><th>India</th><th>Mexico</th><th>Total</th></tr></thead><tbody><tr><td>Canada</td><td>90.16</td><td>0.05</td><td>0.00</td><td>90.20</td></tr><tr><td>Iraq</td><td>4.79</td><td>25.33</td><td>0.00</td><td>30.12</td></tr><tr><td>United Arab Emirates</td><td>0.75</td><td>14.97</td><td>0.00</td><td>15.72</td></tr><tr><td>Mexico</td><td>9.00</td><td>0.65</td><td>0.00</td><td>9.65</td></tr><tr><td>Saudi Arabia</td><td>7.06</td><td>0.28</td><td>0.00</td><td>7.35</td></tr><tr><td>Brazil</td><td>5.33</td><td>1.80</td><td>0.00</td><td>7.13</td></tr><tr><td>Colombia</td><td>4.89</td><td>1.54</td><td>0.00</td><td>6.43</td></tr><tr><td>Guyana</td><td>5.06</td><td>0.00</td><td>0.00</td><td>5.06</td></tr></tbody></table></div></details>
+<details class="xv-n"><summary>Table: Reading the GCC from the buyer's side instead</summary><div class="gb-tblwrap"><table class="gb-table"><thead><tr><th>Supplier</th><th>USA</th><th>India</th><th>Mexico</th><th>Total</th></tr></thead><tbody><tr><td>Canada</td><td>7.49</td><td>0.00</td><td>0.00</td><td>7.49</td></tr><tr><td>Rep. of Korea</td><td>3.64</td><td>0.00</td><td>0.00</td><td>3.64</td></tr><tr><td>Mexico</td><td>3.05</td><td>0.02</td><td>0.00</td><td>3.07</td></tr><tr><td>Algeria</td><td>1.77</td><td>0.00</td><td>0.00</td><td>1.77</td></tr><tr><td>Iraq</td><td>1.65</td><td>0.00</td><td>0.00</td><td>1.65</td></tr><tr><td>Saudi Arabia</td><td>1.01</td><td>0.22</td><td>0.00</td><td>1.23</td></tr><tr><td>Colombia</td><td>1.13</td><td>0.00</td><td>0.00</td><td>1.13</td></tr><tr><td>Qatar</td><td>0.90</td><td>0.13</td><td>0.00</td><td>1.03</td></tr></tbody></table></div></details>
+<details class="xv-n"><summary>Table: Reading the GCC from the buyer's side instead</summary><div class="gb-tblwrap"><table class="gb-table"><thead><tr><th>Supplier</th><th>USA</th><th>India</th><th>Mexico</th><th>Total</th></tr></thead><tbody><tr><td>USA</td><td>0.00</td><td>0.00</td><td>2.66</td><td>2.66</td></tr><tr><td>Canada</td><td>1.68</td><td>0.00</td><td>0.01</td><td>1.69</td></tr><tr><td>Qatar</td><td>0.00</td><td>1.46</td><td>0.00</td><td>1.46</td></tr><tr><td>Kuwait</td><td>0.00</td><td>1.02</td><td>0.00</td><td>1.02</td></tr><tr><td>Equatorial Guinea</td><td>0.09</td><td>0.00</td><td>0.00</td><td>0.09</td></tr><tr><td>Bahrain</td><td>0.00</td><td>0.05</td><td>0.00</td><td>0.05</td></tr><tr><td>Russian Federation</td><td>0.00</td><td>0.04</td><td>0.00</td><td>0.04</td></tr><tr><td>Chile</td><td>0.04</td><td>0.00</td><td>0.00</td><td>0.04</td></tr></tbody></table></div></details>
+<details class="xv-n"><summary>Table: The largest pairing in the region, and why you must read it from the US side</summary><div class="gb-tblwrap"><table class="gb-table"><thead><tr><th>Product</th><th>HS</th><th>US declares (exports)</th><th>Mexico declares (imports)</th><th>Mex / US</th></tr></thead><tbody><tr><td>Gasoline / light oils</td><td>271012</td><td>15.76</td><td>1.23</td><td>0.08×</td></tr><tr><td>Diesel, jet, fuel oil</td><td>271019</td><td>11.72</td><td>9.57</td><td>0.82×</td></tr><tr><td>Propane</td><td>271112</td><td>2.47</td><td>2.67</td><td>1.08×</td></tr><tr><td>Lubricating preparations</td><td>3403</td><td>0.33</td><td>0.46</td><td>1.41×</td></tr><tr><td>Petroleum coke / bitumen</td><td>2713</td><td>0.29</td><td>0.35</td><td>1.23×</td></tr></tbody></table></div></details>
+<details class="xv-n"><summary>Table: All three OPEC series break in the same month</summary><div class="gb-tblwrap"><table class="gb-table"><thead><tr><th>Series</th><th>Break month</th><th>Step (mb/d)</th><th>Months after</th></tr></thead><tbody><tr><td>COPR_OPEC</td><td>2026-03</td><td>-7.54</td><td>5</td></tr><tr><td>PAPR_OPEC</td><td>2026-03</td><td>-8.52</td><td>5</td></tr><tr><td>COPS_SA</td><td>2026-03</td><td>-1.10</td><td>4</td></tr></tbody></table></div></details>
+<details class="xv-n"><summary>Sources cited in the article</summary><ul><li><a href="https://commons.wikimedia.org/wiki/File:Jamnagar_Refinery.jpg">Jamnagar Refinery.jpg</a></li><li><a href="https://www.reuters.com/business/energy/opec-oil-output-plunges-march-war-forces-export-cuts-reuters-survey-finds-2026-03-31">Reuters, 31 March 2026</a></li><li><a href="https://www.eia.gov/outlooks/steo/report/global_oil.php">EIA Short-Term Energy Outlook, October 2026</a></li><li><a href="https://www.eia.gov/dnav/pet/pet_stoc_wstk_dcu_nus_w.htm">EIA weekly stocks</a></li></ul></details>
+
+<p class="disclaimer" data-gs-ai-disclosure-v1="1" style="font-size:.8rem;color:#555;margin-top:1.4rem;max-width:46rem"><strong>About this article:</strong> Researched, written and edited by Umashankar Triplicane Dwarakanathan, with AI research assistance; every figure is meant to trace to the primary source cited. See the <a href="https://blog.vertistratsolution.com/p/disclaimer.html">Editorial Policy</a> for how sourcing, AI use and corrections work.</p>
+</div>
+
+<div id="gs-idx"></div><script defer="defer" src="https://herrrickshaw.github.io/masaladeutsch/accordion.js"></script>
+<style>/*gs-light-lock-v1*/:root,:root[data-theme="dark"],:root[data-theme="light"]{--bg:#FBF8F3!important;--panel:#FFFFFF!important;--ink:#231D14!important;--ink-2:#5C5245!important;--ink-3:#8A7F70!important;--line:#E3DACB!important;--accent:#B0741F!important;--accent-fade:rgba(176,116,31,.13)!important;--teal:#1E6B6B!important;--good:#4F7D4A!important;--warn:#C8862A!important;--crit:#B4442E!important;color-scheme:light!important;}</style>
+<style>/*gs-dark-panel-guard*/.gs-a11y-bar button.gs-a11y-fs[aria-pressed="true"]{background:#1a1a1a!important}.gs-a11y-bar button.gs-a11y-fs[aria-pressed="true"],.gs-a11y-bar button.gs-a11y-fs[aria-pressed="true"] *{color:#fff!important}.gs-a11y-bar button.gs-a11y-fs[aria-pressed="true"] a,.gs-a11y-bar button.gs-a11y-fs[aria-pressed="true"] a *{color:#cfe3ff!important}.pill.crit{background:rgba(180,68,46,.16)!important}.pill.crit,.pill.crit *{color:#fff!important}.pill.crit a,.pill.crit a *{color:#cfe3ff!important}.post-body thead th{background:#111!important}.post-body thead th,.post-body thead th *{color:#fff!important}.post-body thead th a,.post-body thead th a *{color:#cfe3ff!important}.post-body tr:first-child th{background:#111!important}.post-body tr:first-child th,.post-body tr:first-child th *{color:#fff!important}.post-body tr:first-child th a,.post-body tr:first-child th a *{color:#cfe3ff!important}</style>
