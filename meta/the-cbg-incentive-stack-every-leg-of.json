@@ -1,16 +1,16 @@
 {
   "id": "1157999291079244419",
-  "title": "The CBG Incentive Stack — Every Leg of a Biogas Plant De-risked",
+  "title": "Compressed biogas incentives: offtake, subsidy, feedstock, fertiliser, finance and tax",
   "url": "https://blog.vertistratsolution.com/2026/07/the-cbg-incentive-stack-every-leg-of.html",
   "slug": "the-cbg-incentive-stack-every-leg-of",
   "published": "2026-07-28T05:30:00.000+05:30",
-  "updated": "2026-11-14T13:43:28.469+05:30",
+  "updated": "2026-11-14T16:02:31.326+05:30",
   "labels": [
     "Energy & Fuels",
     "Industrial Policy"
   ],
-  "bytes": 25091,
-  "sha256": "c911fb24b808f34c99f6a5b31a39b059f0d766b3cdb2a9dec2a28a0acf6c82ac",
+  "bytes": 25114,
+  "sha256": "aae90463d36137b92e02fcd79fa4fcdc0c8b6a8ed313fa3f60314822e1d7b654",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.4.2",
+  "version": "4.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -325,6 +325,19 @@
       "bytes": [
         25079,
         25091
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "4.0.0",
+      "date": "2026-11-14T16:33:16+05:30",
+      "level": "major",
+      "reason": "section(s) removed: The CBG Incentive Stack — Every Leg of a Biogas Plant De-risked",
+      "bytes": [
+        25091,
+        25114
       ],
       "url_changed": null,
       "markers_changed": null,

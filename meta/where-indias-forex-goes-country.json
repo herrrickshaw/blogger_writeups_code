@@ -1,15 +1,15 @@
 {
   "id": "7656109891324685688",
-  "title": "Where India's Forex Goes — Country Deficits & a Decade of Policy History",
+  "title": "India's trade deficits by country: 38 countries ranked, FY2025-26, with policy history",
   "url": "https://blog.vertistratsolution.com/2026/08/where-indias-forex-goes-country.html",
   "slug": "where-indias-forex-goes-country",
   "published": "2026-08-02T13:46:53.000+05:30",
-  "updated": "2026-11-14T13:40:34.473+05:30",
+  "updated": "2026-11-14T16:14:20.751+05:30",
   "labels": [
     "Industrial Policy"
   ],
-  "bytes": 51569,
-  "sha256": "76c1af46743ad4e6b7064efec14ba88a5d7f0fb71eef37f08cd315624f956bd9",
+  "bytes": 51512,
+  "sha256": "9cea70f2b4920bf9162e8c52ea6606e40d56c24e091e091cee3df6de9d17bdac",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.2.2",
+  "version": "4.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -336,6 +336,19 @@
       "bytes": [
         51565,
         51569
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "4.0.0",
+      "date": "2026-11-14T16:33:16+05:30",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        51569,
+        51512
       ],
       "url_changed": null,
       "markers_changed": null,

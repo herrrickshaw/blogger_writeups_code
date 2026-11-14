@@ -1,15 +1,15 @@
 {
   "id": "7923442656260984117",
-  "title": "The Wage Beats the Crop — In the Survey That Leaves the Wage-Earners Out",
+  "title": "India's farm income survey: wages top source, wage-dependent households excluded",
   "url": "https://blog.vertistratsolution.com/2026/09/the-wage-beats-crop-in-survey-that.html",
   "slug": "the-wage-beats-crop-in-survey-that",
   "published": "2026-09-17T08:25:01.000+05:30",
-  "updated": "2026-11-14T12:56:03.436+05:30",
+  "updated": "2026-11-14T16:08:55.706+05:30",
   "labels": [
     "Agriculture & Fertilisers"
   ],
-  "bytes": 19100,
-  "sha256": "ee13c4ddfc074648d2f2743da540798d4696c8d8a9422a578423efc39cba4030",
+  "bytes": 19102,
+  "sha256": "80c51a10b0f5538aee074c3145a552ea93619e27abd566c4380a598f201af22c",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.3.2",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -93,6 +93,19 @@
       "bytes": [
         19094,
         19100
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-11-14T16:33:16+05:30",
+      "level": "major",
+      "reason": "section(s) removed: The Wage Beats the Crop &mdash; In the Survey That Leaves the Wage-Earners Out",
+      "bytes": [
+        19100,
+        19102
       ],
       "url_changed": null,
       "markers_changed": null,

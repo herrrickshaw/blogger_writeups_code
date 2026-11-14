@@ -1,16 +1,16 @@
 {
   "id": "1481404533544286528",
-  "title": "Uttar Pradesh's GST Puzzle: A Growing Economy That Had a Terrible Year, and Then Didn't",
+  "title": "Uttar Pradesh's GST: domestic collection fell 11.0% in FY2025-26, then recovered",
   "url": "https://blog.vertistratsolution.com/2026/08/uttar-pradeshs-gst-puzzle-growing.html",
   "slug": "uttar-pradeshs-gst-puzzle-growing",
   "published": "2026-08-12T19:19:19.000+05:30",
-  "updated": "2026-11-14T13:24:24.268+05:30",
+  "updated": "2026-11-14T16:11:52.166+05:30",
   "labels": [
     "Macroeconomics & Monetary Policy",
     "Trade & Tariffs"
   ],
-  "bytes": 32828,
-  "sha256": "0894a86307d8c2a250b94e7d5a19248318092390665a9ffed679c20d5ec73151",
+  "bytes": 32821,
+  "sha256": "a78c0ebfe8d40dfaa52e9b543d49afd8a0c2da375eb5a21f2cf79fcaf8cf96d6",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.2.2",
+  "version": "3.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -328,6 +328,19 @@
       "bytes": [
         32824,
         32828
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.0.0",
+      "date": "2026-11-14T16:33:16+05:30",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        32828,
+        32821
       ],
       "url_changed": null,
       "markers_changed": null,

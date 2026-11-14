@@ -1,16 +1,16 @@
 {
   "id": "1804150925574528068",
-  "title": "The Rule of 72, the Rule of 114, and How to Actually Check an Interest-Rate Claim",
+  "title": "Rule of 72 and Rule of 114: turning an interest rate into doubling and tripling times",
   "url": "https://blog.vertistratsolution.com/2026/08/the-rule-of-72-rule-of-114-and-how-to.html",
   "slug": "the-rule-of-72-rule-of-114-and-how-to",
   "published": "2026-08-10T06:21:23.000+05:30",
-  "updated": "2026-11-14T13:27:01.491+05:30",
+  "updated": "2026-11-14T16:07:46.731+05:30",
   "labels": [
     "Markets & Finance",
     "Personal Finance & Retail Investing Access"
   ],
-  "bytes": 30661,
-  "sha256": "c368bd1e3501756aab0ebc30590bf131c88ebb0e1d1a252e86002a0f8c42b332",
+  "bytes": 30665,
+  "sha256": "346b2f658ba1a7a84cb10f54f66becf602c6095df75a89a92851ef4202f2882f",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "4.2.2",
+  "version": "5.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -276,6 +276,19 @@
       "bytes": [
         30658,
         30661
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "5.0.0",
+      "date": "2026-11-14T16:33:16+05:30",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        30661,
+        30665
       ],
       "url_changed": null,
       "markers_changed": null,

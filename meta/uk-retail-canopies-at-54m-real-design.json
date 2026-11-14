@@ -1,16 +1,16 @@
 {
   "id": "4536759894981506393",
-  "title": "UK Retail Canopies at 5.4m: The Real Design Standard Is 5.03m, and One Approved Site Only Reached 5.1m",
+  "title": "UK retail canopies: design standard is 5.03m, one approved site reached 5.1m",
   "url": "https://blog.vertistratsolution.com/2026/08/uk-retail-canopies-at-54m-real-design.html",
   "slug": "uk-retail-canopies-at-54m-real-design",
   "published": "2026-08-30T18:07:20.000+05:30",
-  "updated": "2026-11-14T13:07:14.729+05:30",
+  "updated": "2026-11-14T16:11:11.046+05:30",
   "labels": [
     "Energy & Fuels",
     "Fuel Retail & Pricing"
   ],
-  "bytes": 30757,
-  "sha256": "2e20e4e238774a5fee61e47b6707caf939f46433e76f42761727c1df75d0411b",
+  "bytes": 30731,
+  "sha256": "ac85c3eb09ba06a5eb1472241f57b25b392d3aafd84757df17b364a62cab2fe8",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.1.2",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -133,6 +133,19 @@
       "bytes": [
         30753,
         30757
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-11-14T16:33:16+05:30",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        30757,
+        30731
       ],
       "url_changed": null,
       "markers_changed": null,

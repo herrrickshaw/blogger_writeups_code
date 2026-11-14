@@ -1,18 +1,18 @@
 {
   "id": "8573118729909566136",
-  "title": "The Hydrogen Bill Hiding Inside India's Sustainable Aviation Fuel Mandate",
+  "title": "Sustainable aviation fuel in India: hydrogen needed per litre, by pathway",
   "url": "https://blog.vertistratsolution.com/2026/08/the-hydrogen-bill-hiding-inside-indias.html",
   "slug": "the-hydrogen-bill-hiding-inside-indias",
   "published": "2026-08-26T19:10:24.000+05:30",
-  "updated": "2026-11-14T13:10:40.212+05:30",
+  "updated": "2026-11-14T16:05:06.752+05:30",
   "labels": [
     "Energy & Fuels",
     "Ethanol & Biofuels",
     "Hydrogen",
     "Industrial Policy"
   ],
-  "bytes": 46348,
-  "sha256": "3afb69c474377433b74913e458de82d0f96fcd0586f348ed79352ca3ac6cdf85",
+  "bytes": 46342,
+  "sha256": "3c91a6b284ffa40a256a7fac91c6fdda0ebf833a868db057af068f65fd1d1758",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.2",
+  "version": "3.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -161,6 +161,19 @@
       "bytes": [
         46344,
         46348
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.0.0",
+      "date": "2026-11-14T16:33:16+05:30",
+      "level": "major",
+      "reason": "section(s) removed: The Hydrogen Bill Hiding Inside India&#8217;s Sustainable Aviation Fuel Mandate",
+      "bytes": [
+        46348,
+        46342
       ],
       "url_changed": null,
       "markers_changed": null,

@@ -1,18 +1,18 @@
 {
   "id": "2298293313884828386",
-  "title": "Transaction Fees for UPI: Will Petrol Pumps Have More ATMs? A Case for Rural Financial Inclusion",
+  "title": "UPI merchant fees: petrol pumps keep ₹3.87 of every ₹100, a fee would apply to all ₹100",
   "url": "https://blog.vertistratsolution.com/2026/08/upi-fees-are-now-legal-petrol-pumps.html",
   "slug": "upi-fees-are-now-legal-petrol-pumps",
   "published": "2026-08-08T16:24:01.000+05:30",
-  "updated": "2026-11-14T13:29:57.003+05:30",
+  "updated": "2026-11-14T16:11:42.397+05:30",
   "labels": [
     "Energy & Fuels",
     "Fuel Retail & Pricing",
     "Industrial Policy",
     "Markets & Finance"
   ],
-  "bytes": 50259,
-  "sha256": "c64d0b183f3b0fa26cb0531840ede405ffd1c77eda2dc731b52edd54c1171996",
+  "bytes": 50250,
+  "sha256": "1e134dd2f7ad25bf3f88ebeda4116a93f8a72d6d6d2ad2db26d603589e38faa7",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "14.4.2",
+  "version": "15.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -447,6 +447,19 @@
       "bytes": [
         50255,
         50259
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "15.0.0",
+      "date": "2026-11-14T16:33:16+05:30",
+      "level": "major",
+      "reason": "figures changed (+1/-0 distinct numbers)",
+      "bytes": [
+        50259,
+        50250
       ],
       "url_changed": null,
       "markers_changed": null,

@@ -1,16 +1,16 @@
 {
   "id": "2240671302867117452",
-  "title": "The Rupee Fell 10% and Exports Grew 0.9%: What the Exchange Rate Actually Does to India's Trade",
+  "title": "Rupee and exports in FY2025-26: the rupee fell 10%, merchandise exports grew 0.9%",
   "url": "https://blog.vertistratsolution.com/2026/08/the-rupee-fell-10-and-exports-grew-09.html",
   "slug": "the-rupee-fell-10-and-exports-grew-09",
   "published": "2026-08-04T06:34:23.000+05:30",
-  "updated": "2026-11-14T13:36:09.498+05:30",
+  "updated": "2026-11-14T16:07:56.599+05:30",
   "labels": [
     "Markets & Finance",
     "Trade & Tariffs"
   ],
-  "bytes": 41815,
-  "sha256": "9f4a5d8aadd48eeab5db3682b9fac2568b36cc91e312da3c65e76cc94e0cc2b1",
+  "bytes": 41801,
+  "sha256": "17ba8d9c1d0609e15a68c98c509d3ab25be9b9b20190aa51a3fd2420af5a4523",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.2.2",
+  "version": "3.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -307,6 +307,19 @@
       "bytes": [
         41809,
         41815
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.0.0",
+      "date": "2026-11-14T16:33:16+05:30",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        41815,
+        41801
       ],
       "url_changed": null,
       "markers_changed": null,

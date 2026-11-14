@@ -1,13 +1,13 @@
 {
   "id": "6070588924300958693",
-  "title": "Two Open-Source Health Prototypes, an ICU Vitals Dashboard and a Capsule-Endoscopy Screener, and Why Neither Is a Medical Device",
+  "title": "Open-source health prototypes: an ICU vitals dashboard and a capsule-endoscopy screener",
   "url": "https://blog.vertistratsolution.com/2026/11/two-open-source-health-prototypes-icu.html",
   "slug": "two-open-source-health-prototypes-icu",
   "published": "2026-11-13T03:39:02.000+05:30",
-  "updated": "2026-11-14T12:21:26.092+05:30",
+  "updated": "2026-11-14T16:11:01.975+05:30",
   "labels": [],
-  "bytes": 23909,
-  "sha256": "39b8a56dff1977367cbca6724283eda653ec7eeaf2f83fd0df5ab3a5699f4fe7",
+  "bytes": 23868,
+  "sha256": "6de66f7db8f51756185f7496483553e8e8a800eabc7851482865f5c8c19f0f99",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.1",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -36,6 +36,19 @@
       "bytes": [
         23902,
         23909
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-11-14T16:33:16+05:30",
+      "level": "major",
+      "reason": "section(s) removed: Two Open-Source Health Prototypes, an ICU Vitals Dashboard and a Capsule-Endoscopy Screener, and Why Neither Is a Medical Device",
+      "bytes": [
+        23909,
+        23868
       ],
       "url_changed": null,
       "markers_changed": null,

@@ -1,16 +1,16 @@
 {
   "id": "445167875999989915",
-  "title": "The 50/30/20 Rule — and the Case for Flipping It to Save First",
+  "title": "50/30/20 budgeting rule: how it splits income, and a version that saves 50% first",
   "url": "https://blog.vertistratsolution.com/2026/08/the-503020-rule-is-elizabeth-warrens.html",
   "slug": "the-503020-rule-is-elizabeth-warrens",
   "published": "2026-08-10T06:47:21.000+05:30",
-  "updated": "2026-11-14T13:26:42.647+05:30",
+  "updated": "2026-11-14T16:01:52.073+05:30",
   "labels": [
     "Markets & Finance",
     "Personal Finance & Retail Investing Access"
   ],
-  "bytes": 25925,
-  "sha256": "d5cde2949fc98bb19053dc5ff3596462ef5fcfe8178d7e4454522e7a9104a604",
+  "bytes": 25938,
+  "sha256": "4326564d28a01776291a09041a94ddea5f31d0337e4824e9eef9b9bc2706c8b2",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "4.1.2",
+  "version": "5.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -276,6 +276,19 @@
       "bytes": [
         25922,
         25925
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "5.0.0",
+      "date": "2026-11-14T16:33:16+05:30",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        25925,
+        25938
       ],
       "url_changed": null,
       "markers_changed": null,

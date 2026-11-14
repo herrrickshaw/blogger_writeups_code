@@ -4,13 +4,13 @@
   "url": "https://blog.vertistratsolution.com/2026/10/seven-states-plan-to-borrow-above-new-3.html",
   "slug": "seven-states-plan-to-borrow-above-new-3",
   "published": "2026-10-27T19:31:59.000+05:30",
-  "updated": "2026-11-14T15:58:14.646+05:30",
+  "updated": "2026-11-14T16:29:35.537+05:30",
   "labels": [
     "Governance & Institutions",
     "Macroeconomics & Monetary Policy"
   ],
-  "bytes": 29567,
-  "sha256": "78881327d1127fb85118bb69b3b9c7a546c4427120d6053eb9e010467279c6f2",
+  "bytes": 29591,
+  "sha256": "dc2d69d9b8d26971d3a5e4f9bda6c81e91684c6d833dd744ea9954280f40d008",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.0",
+  "version": "3.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -81,6 +81,19 @@
       "bytes": [
         29584,
         29567
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.0.0",
+      "date": "2026-11-14T16:33:16+05:30",
+      "level": "major",
+      "reason": "figures changed (+2/-0 distinct numbers)",
+      "bytes": [
+        29567,
+        29591
       ],
       "url_changed": null,
       "markers_changed": null,

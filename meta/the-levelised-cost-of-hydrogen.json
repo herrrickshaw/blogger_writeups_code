@@ -1,17 +1,17 @@
 {
   "id": "5745185672239755809",
-  "title": "The Levelised Cost of Hydrogen, Explained: What It Would Actually Take to Hit India's $1.50/kg Target",
+  "title": "Levelised cost of hydrogen: what India's $1.50/kg target requires",
   "url": "https://blog.vertistratsolution.com/2026/08/the-levelised-cost-of-hydrogen.html",
   "slug": "the-levelised-cost-of-hydrogen",
   "published": "2026-08-20T06:13:26.000+05:30",
-  "updated": "2026-11-14T13:16:57.253+05:30",
+  "updated": "2026-11-14T16:05:16.659+05:30",
   "labels": [
     "Energy & Fuels",
     "Hydrogen",
     "Industrial Policy"
   ],
-  "bytes": 58137,
-  "sha256": "6f50deb9d051f0bcc405cb8cb1e45dc296e476250d2cf78ebceb56b36e77fca2",
+  "bytes": 58101,
+  "sha256": "f8d4060cccaa2ea74ef3ee061f1459a2b06cfdd5c248cf8438c3fb54857cf433",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.1.3",
+  "version": "3.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -225,6 +225,19 @@
       "bytes": [
         58133,
         58137
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.0.0",
+      "date": "2026-11-14T16:33:16+05:30",
+      "level": "major",
+      "reason": "section(s) removed: The Levelised Cost of Hydrogen, Explained: What It Would Actually Take to Hit India's $1.50/kg Target",
+      "bytes": [
+        58137,
+        58101
       ],
       "url_changed": null,
       "markers_changed": null,

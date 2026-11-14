@@ -1,17 +1,17 @@
 {
   "id": "8559473600324188999",
-  "title": "The Software Behind the Still: What's Actually Digitising India's Ethanol and Biofuel Supply Chain",
+  "title": "India's ethanol and biofuel supply chain: digitisation through ERP and lab software",
   "url": "https://blog.vertistratsolution.com/2026/08/the-software-behind-still-whats.html",
   "slug": "the-software-behind-still-whats",
   "published": "2026-08-20T09:51:31.000+05:30",
-  "updated": "2026-11-14T13:16:37.508+05:30",
+  "updated": "2026-11-14T16:08:16.134+05:30",
   "labels": [
     "AI Tools",
     "Energy & Fuels",
     "Ethanol & Biofuels"
   ],
-  "bytes": 38721,
-  "sha256": "57595c8ac0c8ed29e364d4b50db999baff05dcb297c62fecd26887ff11404569",
+  "bytes": 38706,
+  "sha256": "27ce17cda7d67ab313d53962061ffdddc4c8fd07056b2c32dee65f57b5a53410",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.3.2",
+  "version": "3.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -160,6 +160,19 @@
       "bytes": [
         38716,
         38721
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.0.0",
+      "date": "2026-11-14T16:33:16+05:30",
+      "level": "major",
+      "reason": "section(s) removed: The Software Behind the Still: What's Actually Digitising India's Ethanol and Biofuel Supply Chain",
+      "bytes": [
+        38721,
+        38706
       ],
       "url_changed": null,
       "markers_changed": null,

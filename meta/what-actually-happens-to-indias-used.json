@@ -1,17 +1,17 @@
 {
   "id": "1975857880529961487",
-  "title": "India Finally Has a Rule for Used Motor Oil. Nobody Can Price What It Costs Yet.",
+  "title": "Used motor oil in India: rules changed in 2023, the cost is not yet estimated",
   "url": "https://blog.vertistratsolution.com/2026/08/what-actually-happens-to-indias-used.html",
   "slug": "what-actually-happens-to-indias-used",
   "published": "2026-08-23T22:08:12.000+05:30",
-  "updated": "2026-11-14T13:12:29.409+05:30",
+  "updated": "2026-11-14T16:12:30.916+05:30",
   "labels": [
     "Chemicals",
     "Circularity & Waste-to-Value",
     "India"
   ],
-  "bytes": 44715,
-  "sha256": "72176e0d708c23a9071d0e5fe4dd87f6a5be666f00322b358ca5c83a1a1cc991",
+  "bytes": 44697,
+  "sha256": "1363fcc7c3689ad7ecdd136de4d0177f01427d64310e5be36624d623453963be",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.2.2",
+  "version": "4.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -173,6 +173,19 @@
       "bytes": [
         44707,
         44715
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "4.0.0",
+      "date": "2026-11-14T16:33:16+05:30",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        44715,
+        44697
       ],
       "url_changed": null,
       "markers_changed": null,

@@ -1,17 +1,17 @@
 {
   "id": "7081066539966911143",
-  "title": "The Battery Passport Was Built for Recycling. Now It's Also the Fix for Battery Fires.",
+  "title": "Battery passports: built for recycling, with a use in preventing battery fires",
   "url": "https://blog.vertistratsolution.com/2026/08/the-battery-passport-was-built-for.html",
   "slug": "the-battery-passport-was-built-for",
   "published": "2026-08-27T09:16:18.000+05:30",
-  "updated": "2026-11-14T13:10:09.794+05:30",
+  "updated": "2026-11-14T16:02:21.468+05:30",
   "labels": [
     "Circularity & Waste-to-Value",
     "Industrial Policy",
     "Mobility & EV"
   ],
-  "bytes": 37196,
-  "sha256": "7a4645faab94226a02eea3584ac05646269ece845cd0dc1f3a2cd855d208569d",
+  "bytes": 37188,
+  "sha256": "a4ca87ef77a8be3d82455a8c26ef0a145e96438ddc0cc35f275443229c7a9f7a",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.1.2",
+  "version": "4.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -160,6 +160,19 @@
       "bytes": [
         37190,
         37196
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "4.0.0",
+      "date": "2026-11-14T16:33:16+05:30",
+      "level": "major",
+      "reason": "section(s) removed: The Battery Passport Was Built for Recycling. Now It's Also the Fix for Battery Fires.",
+      "bytes": [
+        37196,
+        37188
       ],
       "url_changed": null,
       "markers_changed": null,

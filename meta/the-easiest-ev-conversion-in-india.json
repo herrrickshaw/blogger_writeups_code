@@ -1,16 +1,16 @@
 {
   "id": "493606126473388982",
-  "title": "The Easiest EV Conversion in India Hasn't Happened Yet: The Government's Own Fleet",
+  "title": "Government EV fleets in India: pooled buying made buses cheaper without subsidy",
   "url": "https://blog.vertistratsolution.com/2026/08/the-easiest-ev-conversion-in-india.html",
   "slug": "the-easiest-ev-conversion-in-india",
   "published": "2026-08-31T15:51:11.000+05:30",
-  "updated": "2026-11-14T13:06:37.397+05:30",
+  "updated": "2026-11-14T16:03:47.843+05:30",
   "labels": [
     "Industrial Policy",
     "Mobility & EV"
   ],
-  "bytes": 41441,
-  "sha256": "b5f617a3a86e7000d7b728f2dc470070a8f0d880d050f8f39f6c42da609641aa",
+  "bytes": 41438,
+  "sha256": "8aa3b1c85cde2518b558bdc93d144e80339c8290f48ad97daf36e119a7087ed2",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "4.0.2",
+  "version": "5.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -198,6 +198,19 @@
       "bytes": [
         41436,
         41441
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "5.0.0",
+      "date": "2026-11-14T16:33:16+05:30",
+      "level": "major",
+      "reason": "section(s) removed: The Easiest EV Conversion in India Hasn't Happened Yet: The Government's Own Fleet",
+      "bytes": [
+        41441,
+        41438
       ],
       "url_changed": null,
       "markers_changed": null,

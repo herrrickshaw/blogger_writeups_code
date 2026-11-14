@@ -1,16 +1,16 @@
 {
   "id": "5856131261765479806",
-  "title": "Where India's Gigawatt Data-Centre Bets Actually Land: Projects, Cables, and the $210 Billion Behind Them",
+  "title": "India's gigawatt data centres: clustered at cable landings, Chennai above all",
   "url": "https://blog.vertistratsolution.com/2026/08/where-indias-gigawatt-data-centre-bets.html",
   "slug": "where-indias-gigawatt-data-centre-bets",
   "published": "2026-08-20T21:16:29.000+05:30",
-  "updated": "2026-11-14T13:15:48.400+05:30",
+  "updated": "2026-11-14T16:14:30.694+05:30",
   "labels": [
     "Data Centres & AI Infra",
     "Infrastructure & Investment"
   ],
-  "bytes": 28806,
-  "sha256": "c1413195b73adb8b7085fd0c770ac1d1806274e748d43b3fe6a65bc9ae2c46b8",
+  "bytes": 28778,
+  "sha256": "b8326400dfeac928ffdb6ddf2bd2104c615a713e8d2ac5c4684b2fdca8e25aab",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.2.2",
+  "version": "3.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -159,6 +159,19 @@
       "bytes": [
         28801,
         28806
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.0.0",
+      "date": "2026-11-14T16:33:16+05:30",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        28806,
+        28778
       ],
       "url_changed": null,
       "markers_changed": null,

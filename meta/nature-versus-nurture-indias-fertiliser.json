@@ -4,14 +4,14 @@
   "url": "https://blog.vertistratsolution.com/2026/08/nature-versus-nurture-indias-fertiliser.html",
   "slug": "nature-versus-nurture-indias-fertiliser",
   "published": "2026-08-02T21:05:10.000+05:30",
-  "updated": "2026-11-14T15:50:17.293+05:30",
+  "updated": "2026-11-14T16:28:59.889+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Fertilisers & Soil Health",
     "Gas & LNG"
   ],
-  "bytes": 88842,
-  "sha256": "b4173e89949b19f5e8dc1e2497325c5f553154613216095cabf8f30303f5b0c4",
+  "bytes": 88844,
+  "sha256": "6f2b82e082bf59fcca42cc08bbd31fdb187400b767a1e208b3656b8eb85fd4f7",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "6.0.0",
+  "version": "6.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -342,6 +342,19 @@
       "bytes": [
         88822,
         88842
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "6.0.1",
+      "date": "2026-11-14T16:33:16+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        88842,
+        88844
       ],
       "url_changed": null,
       "markers_changed": null,

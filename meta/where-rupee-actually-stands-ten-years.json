@@ -1,15 +1,15 @@
 {
   "id": "968675767071535524",
-  "title": "Where the Rupee Actually Stands: Ten Years Against the Dollar, Yuan, Rouble, Riyal and Dirham",
+  "title": "The rupee over 10 years: against the dollar, yuan, rouble, riyal, dirham and yen",
   "url": "https://blog.vertistratsolution.com/2026/08/where-rupee-actually-stands-ten-years.html",
   "slug": "where-rupee-actually-stands-ten-years",
   "published": "2026-08-14T10:47:17.000+05:30",
-  "updated": "2026-11-14T13:21:39.768+05:30",
+  "updated": "2026-11-14T16:28:14.860+05:30",
   "labels": [
     "Macroeconomics & Monetary Policy"
   ],
-  "bytes": 51640,
-  "sha256": "5cd754d9297f13ead0c7c95a4d6a478aedbd79281311264d700265c8bdb5da53",
+  "bytes": 68844,
+  "sha256": "4cf34188058f9c4909e8395b3707e2048a00da3c1ef77082c737a1a8c0a17b3c",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.2.2",
+  "version": "3.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -171,6 +171,19 @@
       "bytes": [
         51634,
         51640
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.0.0",
+      "date": "2026-11-14T16:33:16+05:30",
+      "level": "major",
+      "reason": "figures changed (+30/-7 distinct numbers)",
+      "bytes": [
+        51640,
+        68844
       ],
       "url_changed": null,
       "markers_changed": null,

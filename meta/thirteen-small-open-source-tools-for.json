@@ -1,16 +1,16 @@
 {
   "id": "5561001801754037123",
-  "title": "Thirteen Small Open-Source Tools for Developers and AI Users, From a Local Claude Fallback to an LFS Duplicate Audit, and What Each One Is For",
+  "title": "Open-source tools for developers and AI users: 13 small tools and what each one does",
   "url": "https://blog.vertistratsolution.com/2026/11/thirteen-small-open-source-tools-for.html",
   "slug": "thirteen-small-open-source-tools-for",
   "published": "2026-11-13T03:38:03.000+05:30",
-  "updated": "2026-11-14T14:23:42.410+05:30",
+  "updated": "2026-11-14T16:09:43.286+05:30",
   "labels": [
     "Gas & LNG",
     "Industrial Policy"
   ],
-  "bytes": 44675,
-  "sha256": "aa9d5677b845fc18a37a3b47d9789f7eccd1ba7558739bdc03093495bbe555f9",
+  "bytes": 44617,
+  "sha256": "f65b82efaa3df1a9cb4fc42050f08a7e170aa0579a02dd2bf77fd6f03016ebfa",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.1",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -39,6 +39,19 @@
       "bytes": [
         44667,
         44675
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-11-14T16:33:16+05:30",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        44675,
+        44617
       ],
       "url_changed": null,
       "markers_changed": null,

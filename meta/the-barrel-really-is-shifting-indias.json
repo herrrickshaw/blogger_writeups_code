@@ -1,17 +1,17 @@
 {
   "id": "3515752825690979254",
-  "title": "The Barrel Really Is Shifting: India's Refiners Quantify the Petrochemical Pivot",
+  "title": "Indian refiners' petrochemical shift: measured by a Petrochemical Intensity Index",
   "url": "https://blog.vertistratsolution.com/2026/08/the-barrel-really-is-shifting-indias.html",
   "slug": "the-barrel-really-is-shifting-indias",
   "published": "2026-08-12T20:24:23.000+05:30",
-  "updated": "2026-11-14T13:23:36.185+05:30",
+  "updated": "2026-11-14T16:30:28.361+05:30",
   "labels": [
     "Chemicals",
     "Energy & Fuels",
     "Refining & Petrochemicals"
   ],
-  "bytes": 40113,
-  "sha256": "810a27e0b26edb3c0220a6d5da12fbf419f0b4b5db0a8d0758f19fe00057b0e3",
+  "bytes": 39989,
+  "sha256": "3ce4e6afc01ac25b1def2b3fed7a8114a9bdeffa8af578a4d23c528c942a9b4e",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.3.2",
+  "version": "3.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -342,6 +342,19 @@
       "bytes": [
         40101,
         40113
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.0.0",
+      "date": "2026-11-14T16:33:16+05:30",
+      "level": "major",
+      "reason": "figures changed (+1/-1 distinct numbers)",
+      "bytes": [
+        40113,
+        39989
       ],
       "url_changed": null,
       "markers_changed": null,

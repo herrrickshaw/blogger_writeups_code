@@ -4,12 +4,12 @@
   "url": "https://blog.vertistratsolution.com/2026/08/cow-dung-already-flew-rocket-engine.html",
   "slug": "cow-dung-already-flew-rocket-engine",
   "published": "2026-08-09T04:20:09.000+05:30",
-  "updated": "2026-11-14T15:13:13.534+05:30",
+  "updated": "2026-11-14T16:29:10.681+05:30",
   "labels": [
     "Energy & Fuels"
   ],
-  "bytes": 41502,
-  "sha256": "24d1ab0f37235f8c0a3d1ba06009a595eefa41e699c242d6d87f1e78bfa23a7b",
+  "bytes": 41504,
+  "sha256": "e5c33dfa5135ac9c6198ea79d4b1a068a692c4849c8aba976a62f0170cd6e2d5",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "5.0.0",
+  "version": "5.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -327,6 +327,19 @@
       "bytes": [
         41514,
         41502
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "5.0.1",
+      "date": "2026-11-14T16:33:16+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        41502,
+        41504
       ],
       "url_changed": null,
       "markers_changed": null,

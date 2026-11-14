@@ -4,13 +4,13 @@
   "url": "https://blog.vertistratsolution.com/2026/08/fbil-rates-vs-tradestat-volumes-does-fx.html",
   "slug": "fbil-rates-vs-tradestat-volumes-does-fx",
   "published": "2026-08-14T18:51:11.000+05:30",
-  "updated": "2026-11-14T15:18:18.726+05:30",
+  "updated": "2026-11-14T16:29:50.492+05:30",
   "labels": [
     "Currency Markets",
     "Macroeconomics & Monetary Policy"
   ],
-  "bytes": 22696,
-  "sha256": "b800461f899be82ee8e7ff878f673681cf19c053af17a6e9ddf6a594fd9e7ddf",
+  "bytes": 22532,
+  "sha256": "6d0f9384bfb682f825f0f0c24583f9c2b5bbf71636ce3db6203171534163a373",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.0",
+  "version": "3.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -172,6 +172,19 @@
       "bytes": [
         22705,
         22696
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.0.1",
+      "date": "2026-11-14T16:33:16+05:30",
+      "level": "patch",
+      "reason": "wording changed; no figures, sections or claims moved",
+      "bytes": [
+        22696,
+        22532
       ],
       "url_changed": null,
       "markers_changed": null,

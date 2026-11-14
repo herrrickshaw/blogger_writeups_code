@@ -4,14 +4,14 @@
   "url": "https://blog.vertistratsolution.com/2026/08/global-biofuels-m-bankruptcy-bolt-on.html",
   "slug": "global-biofuels-m-bankruptcy-bolt-on",
   "published": "2026-08-19T10:01:55.000+05:30",
-  "updated": "2026-11-14T15:21:39.473+05:30",
+  "updated": "2026-11-14T16:30:17.276+05:30",
   "labels": [
     "Corporate Finance & M&A",
     "Ethanol & Biofuels",
     "Markets & Finance"
   ],
-  "bytes": 29524,
-  "sha256": "9b7deda00be9bec906a317c82553cef9ee797f369c7860c5b108008f5b622269",
+  "bytes": 29527,
+  "sha256": "ece03fb6ed4077430c47c60ab4523027c9538288baaf1547c1ff08d93e55025f",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.0",
+  "version": "4.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -173,6 +173,19 @@
       "bytes": [
         29531,
         29524
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "4.0.0",
+      "date": "2026-11-14T16:33:16+05:30",
+      "level": "major",
+      "reason": "figures changed (+1/-0 distinct numbers)",
+      "bytes": [
+        29524,
+        29527
       ],
       "url_changed": null,
       "markers_changed": null,

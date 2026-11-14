@@ -4,15 +4,15 @@
   "url": "https://blog.vertistratsolution.com/2026/08/lpgs-missing-number-7308-commission-and.html",
   "slug": "lpgs-missing-number-7308-commission-and",
   "published": "2026-08-08T20:55:54.000+05:30",
-  "updated": "2026-11-14T15:48:46.344+05:30",
+  "updated": "2026-11-14T16:27:44.019+05:30",
   "labels": [
     "Energy & Fuels",
     "Fuel Retail & Pricing",
     "Industrial Policy",
     "Markets & Finance"
   ],
-  "bytes": 33073,
-  "sha256": "18dd42d7f753b9b8db6b576cfb6e5388c337071699bf6e34c525f79d44da8220",
+  "bytes": 55663,
+  "sha256": "bf840d65b551764357098375621d6d0b50c648b6fa05e8c065ff8cab57682af0",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "4.0.0",
+  "version": "5.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -291,6 +291,19 @@
       "bytes": [
         33092,
         33073
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "5.0.0",
+      "date": "2026-11-14T16:33:16+05:30",
+      "level": "major",
+      "reason": "figures changed (+121/-0 distinct numbers)",
+      "bytes": [
+        33073,
+        55663
       ],
       "url_changed": null,
       "markers_changed": null,

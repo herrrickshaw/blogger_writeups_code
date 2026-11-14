@@ -1,15 +1,15 @@
 {
   "id": "1750259390312106714",
-  "title": "The Recycling Lottery Playbook — Norway's Pantelotteriet, and a Jal Jeevan Application",
+  "title": "Norway's Pantelotteriet recycling lottery: 16+ years of use, applied to Jal Jeevan",
   "url": "https://blog.vertistratsolution.com/2026/07/the-recycling-lottery-playbook-norways.html",
   "slug": "the-recycling-lottery-playbook-norways",
   "published": "2026-07-31T05:30:00.000+05:30",
-  "updated": "2026-11-14T13:43:07.861+05:30",
+  "updated": "2026-11-14T16:07:35.800+05:30",
   "labels": [
     "Industrial Policy"
   ],
-  "bytes": 36417,
-  "sha256": "40762570eb1e7222043bb95d4eaaab1ae8cba5cb03dd09e6c63fa723ae2286fc",
+  "bytes": 36413,
+  "sha256": "2af4c163ea30653dbc7038cb27d78a8969cb68db1b756c18f374fb3098174333",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "4.1.2",
+  "version": "5.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -319,6 +319,19 @@
       "bytes": [
         36412,
         36417
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "5.0.0",
+      "date": "2026-11-14T16:33:16+05:30",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        36417,
+        36413
       ],
       "url_changed": null,
       "markers_changed": null,

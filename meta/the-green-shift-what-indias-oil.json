@@ -1,18 +1,18 @@
 {
   "id": "6177276916535921669",
-  "title": "The Green Shift: What India's Oil Ministry Thinks Global Majors Owe the Climate",
+  "title": "Oil ministry's Green Shift report: scope 1+2 emissions at about 4% of global CO₂",
   "url": "https://blog.vertistratsolution.com/2026/08/the-green-shift-what-indias-oil.html",
   "slug": "the-green-shift-what-indias-oil",
   "published": "2026-08-28T13:30:58.000+05:30",
-  "updated": "2026-11-14T13:09:28.284+05:30",
+  "updated": "2026-11-14T16:04:37.335+05:30",
   "labels": [
     "Carbon Capture & Storage",
     "Climate & Carbon",
     "Energy & Fuels",
     "India"
   ],
-  "bytes": 28220,
-  "sha256": "512a0d483d165f567fcb26332469a90ddf7a9397b677737b6719e981f42d68a0",
+  "bytes": 28221,
+  "sha256": "a129daaf34a5792e3afa4cdb75ac11b97b04a7829d8c8a468541238ac1e0db9b",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.2.2",
+  "version": "4.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -161,6 +161,19 @@
       "bytes": [
         28215,
         28220
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "4.0.0",
+      "date": "2026-11-14T16:33:16+05:30",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        28220,
+        28221
       ],
       "url_changed": null,
       "markers_changed": null,

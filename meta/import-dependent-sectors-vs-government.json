@@ -4,13 +4,13 @@
   "url": "https://blog.vertistratsolution.com/2026/08/import-dependent-sectors-vs-government.html",
   "slug": "import-dependent-sectors-vs-government",
   "published": "2026-08-02T14:03:17.000+05:30",
-  "updated": "2026-11-14T15:25:04.095+05:30",
+  "updated": "2026-11-14T16:30:47.623+05:30",
   "labels": [
     "Industrial Policy",
     "Trade & Tariffs"
   ],
-  "bytes": 32076,
-  "sha256": "ac99157a27456fbc7d5156341e023235459e9796d457e1cbc24fd2f89e8632a7",
+  "bytes": 32072,
+  "sha256": "73029bd897631b1f717aba555457cdf8f3e71ff3e43b37c9f2cb4fbc429833c2",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "4.0.0",
+  "version": "5.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -307,6 +307,19 @@
       "bytes": [
         32121,
         32076
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "5.0.0",
+      "date": "2026-11-14T16:33:16+05:30",
+      "level": "major",
+      "reason": "figures changed (+1/-0 distinct numbers)",
+      "bytes": [
+        32076,
+        32072
       ],
       "url_changed": null,
       "markers_changed": null,
