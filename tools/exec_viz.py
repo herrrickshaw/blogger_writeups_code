@@ -138,7 +138,7 @@ def bars(title, rows, *, unit="", sub="", source="", accent=None, ref=None, vmax
     vals = [x for r in rows if r[1] is not None for x in (r[1] if isinstance(r[1], tuple) else (r[1],))]
     neg = min(vals + [0]) < 0
     lo_all = min(vals + [0]) if neg else 0
-    hi_all = max(vals + ([ref[0]] if ref else []))
+    hi_all = max(vals + ([ref[0]] if ref else []) + ([0] if neg else []))      # all-negative rows: the zero line is the right edge
     top = vmax or hi_all
     span = (top - lo_all) or 1
     zero = 100 * (-lo_all) / span if neg else 0

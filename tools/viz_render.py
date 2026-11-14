@@ -53,7 +53,7 @@ def num(cell):
         v = float(m.group(0).replace(",", ""))
     except ValueError:
         return None
-    return -v if re.match(r"^\s*[−]\s*\d", cell) else v
+    return v
 
 
 def pick_rows(spec, n):
