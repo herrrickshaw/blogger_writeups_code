@@ -1,0 +1,14 @@
+# andhra-pradesh-has-approved-rs-14-lakh: checked 15 Nov 2026
+
+**Status: confirmed that newer official figures exist; they use a different basis from the post, so compare definitions before editing.**
+
+## Findings
+1. On 10 Nov 2026 the state government said it had converted 526 of 714 investment proposals received since June 2024, worth Rs 17.2 lakh crore (76% of a Rs 22.6 lakh crore pipeline), with 303 projects worth Rs 7.1 lakh crore grounded or scheduled for grounding. Sources: [Business Standard, 10 Nov 2026](https://www.business-standard.com/economy/news/andhra-pradesh-sees-74-conversion-of-22-6-trillion-investment-proposals-126111000837_1.html); [The Hindu, 10 Nov 2026](https://www.thehindu.com/news/cities/Visakhapatnam/andhra-pradesh-converts-investment-projects-worth-172-lakh-crore-ahead-of-vizag-cii-summit/article71686894.ece).
+2. At the CII Partnership Summit on 12 Nov the Chief Minister gave slightly different numbers (526 projects, Rs 17.10 lakh crore; 303 projects, Rs 7.30 lakh crore; pipeline to reach Rs 32.49 lakh crore with 303 MoUs of Rs 9.89 lakh crore expected) ([Deccan Chronicle, 12 Nov 2026](https://www.deccanchronicle.com/southern-states/andhra-pradesh/cii-summit-ap-investments-to-touch-3249-lakh-crore-investor-protection-law-planned-2003886)). The two statements differ by Rs 0.1 and Rs 0.2 lakh crore; the post should cite the government statement and say so.
+3. The anchor projects are still described as proposed or in progress: NTPC Green Energy hydrogen hub at Pudimadaka Rs 1.85 lakh crore, AM/NS India steel at Nakkapalli Rs 1.36 lakh crore, BPCL refinery-cum-petrochemical complex Rs 96,862 crore (Business Standard, Hindu). Ministry of New and Renewable Energy's Lok Sabha answer of 5 Aug 2026 lists the Pudimadaka hub at Rs 85,000 crore committed excluding renewable projects and 600 tonnes per day hydrogen planned for 2030 ([Lok Sabha question 2987](https://sansad.in/getFile/lsapps/loksabhaquestions/annex/188/AU2987_27NWXF.pdf)): a different basis from Rs 1.85 lakh crore.
+
+## Not confirmed
+- Whether the post's Rs 14 lakh crore is comparable to Rs 17.2 lakh crore (approved against converted). Needs the post's own definition checked.
+
+## Proposed dated note
+<p><strong>Update, 15 November 2026:</strong> On 10 November the Andhra Pradesh government said 526 of the 714 investment proposals received since June 2024 had been converted into projects worth Rs 17.2 lakh crore, out of a Rs 22.6 lakh crore pipeline, and that 303 projects worth Rs 7.1 lakh crore had been grounded or were scheduled for grounding. These are state-reported figures and use a different basis from the Rs 14 lakh crore above. Source: <a href="https://www.business-standard.com/economy/news/andhra-pradesh-sees-74-conversion-of-22-6-trillion-investment-proposals-126111000837_1.html">Business Standard, 10 November 2026</a>.</p>

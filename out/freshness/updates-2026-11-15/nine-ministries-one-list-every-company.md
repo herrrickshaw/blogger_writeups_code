@@ -1,0 +1,12 @@
+# nine-ministries-one-list-every-company: checked 15 Nov 2026
+
+**Status: confirmed, post is overtaken.** The post says the 10 GWh grid-scale storage tranche had bids due 13 October 2026 "and no names published yet".
+
+## Findings
+1. The Ministry of Heavy Industries received 22 bids for the 10 GWh grid-scale stationary storage capacity under the PLI ACC scheme. The last date for bids was 10 Nov 2026 and technical bids were opened on 11 Nov 2026. Source: [PIB release, 12 Nov 2026](https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2335459&reg=48&lang=2).
+2. The 22 bidders named by MHI: ACME Solar Holdings, Amara Raja Advanced Cell Technologies, Avaada Electro, Exide Energy Solutions, Fujiyama Power Systems, GK Energy, Godawari New Energy, JPM Energy Solutions, JSW Neo Energy, Lineage Power, Mahendra Sponge and Power, Megha Engineering and Infrastructures, Nsure Reliable Power Solutions, Reliance Industries, Renew Photovoltaics, Sai Bioenergy, Shirdi Sai Electricals, Sun Drops Energia, Utex New Energy, Vikram Solar, Waaree Energy Storage Solutions, Zetsol Energy (PIB).
+3. The bid date moved from 13 Oct to 10 Nov: MHI published "Addendum No. 1: Extension of bid submission date" ([heavyindustries.gov.in](https://heavyindustries.gov.in/en/addendum-no-1-extension-bid-submission-date-selection-manufacturers-setting-10-gwh-manufacturing); listing dated 13 Oct 2026; PDF not opened).
+4. Selection is a two-stage quality and cost based process; MHI has not said when financial bids open ([ESS News, 13 Nov 2026](https://www.ess-news.com/2026/11/13/indias-grid-scale-battery-cell-tender-draws-22-bids/)). Mint reports Rs 3,620 crore of incentive is available for this tranche ([Mint, 12 Nov 2026](https://www.livemint.com/news/india/reliance-waaree-among-22-shortlisted-for-battery-storage-tender-pli-scheme-cell-making-incentives-technology-11794499983710.html)), not confirmed from MHI text.
+
+## Proposed dated note
+<p><strong>Update, 15 November 2026:</strong> The Ministry of Heavy Industries received 22 bids for the 10 GWh grid-scale storage tranche. The bid deadline was extended from 13 October to 10 November, and technical bids were opened on 11 November. Bidders include Reliance Industries, JSW Neo Energy, Amara Raja Advanced Cell Technologies, Exide Energy Solutions, Waaree Energy Storage Solutions and Vikram Solar. No winners have been named; financial bids are still to be opened. Source: <a href="https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2335459&amp;reg=48&amp;lang=2">PIB, 12 November 2026</a>.</p>
