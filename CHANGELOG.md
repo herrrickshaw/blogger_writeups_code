@@ -20717,3 +20717,12 @@ scheduled sync
 - `indias-lng-trucks-grew-75-in-2025-about` — India's LNG Trucks Grew 75% in 2025 — About a Third of What the Industry Expected
 - `a-tax-play-grow-ethanol-sgst-revenue` — A Tax Play: Grow Ethanol SGST Revenue, Cut CNG VAT to Match Low-Tax States
 - `pngrbs-own-2025-committee-now-expects` — PNGRB's Own 2025 Committee Now Expects Less Gas Demand by 2040 Than a 2013 Report Predicted for 2030
+
+## 2026-11-15T09:51:46+00:00 — 508 posts live
+
+scheduled sync
+
+
+**Added**
+
+- `learning-ai-for-free-youtube-channels` **v1.0.0** — Learning AI for free: YouTube channels, courses and tools by purpose (23,966 bytes)

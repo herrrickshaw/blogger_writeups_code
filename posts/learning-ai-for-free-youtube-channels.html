@@ -1,0 +1,238 @@
+<div class="artx aitutx">
+<style>
+/* ---- typography (gs-typo-unify-v1): keep in sync across all posts ---- */
+.aitutx{font-family:Georgia,'Times New Roman',serif;line-height:1.6;color:#111}
+.aitutx h1,.aitutx h2,.aitutx h3{line-height:1.3}
+
+/* ---- palette: define every colour as a custom property here. Do not add
+       raw hex elsewhere in a post's <style> block — reference these vars, so
+       a future palette change is a 4-line edit instead of a find-and-replace
+       across every post. ----
+   --ink     #111    body text, light-locked (see below)
+   --accent  #8a4b08  eyebrow text, h2 rule, table header bg, stat numbers —
+                       the one colour that carries this post's "brand"
+   --rule    #e8dcc4  hairline borders, h2 underline, table cell borders
+   --panel   #fdf7ec  stat-card bg, even table rows — the palette's one tint
+*/
+.aitutx{--ink:#111;--accent:#8a4b08;--rule:#e8dcc4;--panel:#fdf7ec;--good:#1a7a4c;--good-soft:#eaf6ef;--bad:#a5402c;--bad-soft:#fff4f0}
+
+/* ---- mono-label convention (added 2026-09-17, borrowed from the
+       india-trade-sector-policy-recommendations design system): the eyebrow
+       kicker and the source line read as data-journalism metadata, not
+       article prose, so they get a monospace face — a system stack, not a
+       hosted webfont, so no post gains an extra network request or a
+       flash-of-unstyled-text risk. Body text (h1/p/li/table) keeps the
+       serif — this is a two-place accent, not a font-pairing overhaul. ---- */
+.aitutx{--mono:ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace}
+
+/* ---- light lock (gs-light-lock): a dark Blogger theme (and a browser/OS
+       set to prefers-color-scheme:dark) must not repaint text. Re-assert
+       the same values with !important — verified 2026-08-14 across 5 live
+       posts with the browser's colour scheme forced to dark: body/h1/p/table
+       all stayed light-background/dark-text with no low-contrast pairs.
+       Do NOT add selectors here for panels that are meant to be dark —
+       those go in the guard below. ---- */
+.aitutx,.aitutx p,.aitutx li,.aitutx td,.aitutx th{color:var(--ink)!important}
+.aitutx{background:#fff!important}
+
+/* ---- structure: title + subtitle ----
+   .eyebrow    = the small-caps kicker ABOVE the h1 — "Section · Topic ·
+                 Subtopic", sets context before the reader hits the claim
+   h1          = the headline itself. Write it as the CLAIM, not the topic
+                 ("The Rouble Is the Outlier, Not the Dollar" beats
+                 "Currency Trends Update"). font-size 1.5rem is the deliberate
+                 site-wide size — do not bump it per-post.
+   .standfirst = the one/two-sentence SUBTITLE directly under the h1. This is
+                 also what Blogger's snippet extractor and the JSON-LD meta
+                 description both read (see the gs-head-order block below) —
+                 write it as a real, complete sentence a reader could act on,
+                 not a fragment.
+*/
+.aitutx .eyebrow{font-size:.8rem;font-weight:700;letter-spacing:.04em;color:var(--accent);text-transform:uppercase;margin:0 0 6px;font-family:var(--mono)}
+.aitutx h1{margin:0 0 10px;font-size:1.5rem}
+.aitutx .standfirst{font-size:1.05rem;color:#333!important;margin:0 0 18px}
+.aitutx .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px;margin:18px 0}
+.aitutx .stat{background:var(--panel);border:1px solid var(--rule);border-radius:10px;padding:12px 14px}
+.aitutx .stat b{display:block;font-size:1.2rem;color:var(--accent)}
+.aitutx .stat span{font-size:.8rem}
+.aitutx h2{color:var(--accent);border-bottom:2px solid var(--rule);padding-bottom:6px;margin-top:30px;font-size:1.15rem}
+
+/* ---- tables: units live in the header, cells carry bare numbers.
+       .tw is the mobile-overflow fix — see the MOBILE comment above. ---- */
+.aitutx .tw{overflow-x:auto}
+.aitutx td,.aitutx th{text-align:left}
+.aitutx table{width:100%;border-collapse:collapse;margin:14px 0;font-size:.88rem}
+.aitutx th,.aitutx td{border:1px solid var(--rule);padding:7px 9px;text-align:right;word-wrap:break-word;overflow-wrap:break-word}
+.aitutx th:first-child,.aitutx td:first-child{text-align:left}
+.aitutx th{background:var(--accent);color:#fff!important;font-weight:600}
+.aitutx tr:nth-child(even){background:var(--panel)}
+
+.aitutx .note{background:#eef4ff;border-left:4px solid #2a78d6;padding:12px 16px;margin:18px 0;border-radius:0 8px 8px 0;font-size:.93rem}
+.aitutx .warn{background:var(--bad-soft);border-left:4px solid var(--bad);padding:12px 16px;margin:18px 0;border-radius:0 8px 8px 0;font-size:.93rem}
+/* ---- .good (added 2026-09-17): third semantic tier alongside .note (neutral
+       framing) and .warn (a caveat/scope limit) — for the case a caveat block
+       would otherwise get stretched to cover: confirming a figure checked out,
+       a correction that resolved cleanly, a claim that survived cross-check.
+       Same shape as .note/.warn on purpose, so all three read as one family. */
+.aitutx .good{background:var(--good-soft);border-left:4px solid var(--good);padding:12px 16px;margin:18px 0;border-radius:0 8px 8px 0;font-size:.93rem}
+/* ---- .chip (added 2026-09-17): formalises a labelling pattern several posts
+       already built ad hoc in JS (e.g. "PLI coverage: strong/partial/gap")
+       into one reusable inline component, so a new post doesn't reinvent it.
+       Use inline: <span class="chip chip-good">Strong</span>. ---- */
+.aitutx .chip{display:inline-block;font-family:var(--mono);font-size:.72rem;font-weight:700;letter-spacing:.02em;padding:.15rem .5rem;border-radius:99px;line-height:1.5}
+.aitutx .chip-good{background:var(--good-soft);color:var(--good)}
+.aitutx .chip-warn{background:var(--panel);color:var(--accent)}
+.aitutx .chip-bad{background:var(--bad-soft);color:var(--bad)}
+.aitutx .src{font-size:.84rem;font-family:var(--mono);border-top:1px solid var(--rule);padding-top:12px;margin-top:24px}
+.aitutx .disclaimer{font-size:.82rem;color:#555;margin-top:10px}
+.aitutx .revised{font-size:.8rem;color:#555!important;margin:0 0 14px}
+.aitutx .revised code{font-family:inherit;background:var(--panel);padding:1px 5px;border-radius:4px}
+</style>
+
+<div class="gs-head-order" style="display:flex;flex-direction:column">
+<p class="standfirst" style="order:4">A grouped list of widely used AI tutorial channels, free courses, books and tools, with the method each is suited to.</p>
+<div class="topnav-index-link" style="order:1;font-size:.82em;margin:6px 0 14px"><a href="https://blog.vertistratsolution.com/2026/08/article-index-start-here.html" style="color:#0b5394;text-decoration:none">&#8592; All Articles (Index)</a></div>
+<p class="eyebrow" style="order:2">Open-source tools &middot; AI learning &middot; Free resources</p>
+<h1 style="order:3">Learning AI for free: YouTube channels, courses and tools by purpose</h1>
+</div>
+
+<a href="#" id="gs-skip-link" class="gs-skip-link" style="position:absolute;left:-9999px;top:auto;background:#1a1a1a;color:#fff;padding:.6rem 1rem;z-index:1000;border-radius:4px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.85rem">Skip to article content</a>
+<style>.gs-skip-link:focus{left:8px!important;top:8px!important}
+.gs-a11y-bar{display:flex;align-items:center;gap:.55rem;flex-wrap:wrap;background:#f4f5f7;border:1px solid #dfe3e8;border-radius:8px;padding:.55rem .8rem;margin:10px 0 16px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
+.gs-a11y-bar .gs-a11y-label{font-size:.68rem;font-weight:700;letter-spacing:.08em;color:#666;text-transform:uppercase;margin-right:.15rem}
+.gs-a11y-bar button{cursor:pointer;border:1px solid #c7cbd1;background:#fff;color:#1a1a1a;border-radius:5px;padding:.32rem .65rem;font-family:inherit;line-height:1}
+.gs-a11y-bar button.gs-a11y-fs{font-weight:700;min-width:2rem;text-align:center}
+.gs-a11y-bar button.gs-a11y-fs[data-size="sm"]{font-size:.8rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="md"]{font-size:1rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="lg"]{font-size:1.2rem}
+.gs-a11y-bar button.gs-a11y-fs[aria-pressed="true"]{background:#1a1a1a;color:#fff;border-color:#1a1a1a}
+.gs-a11y-bar button:hover{border-color:#8a4b08}
+.gs-a11y-bar button:focus-visible{outline:2px solid #8a4b08;outline-offset:1px}
+.gs-a11y-bar .gs-a11y-sep{width:1px;align-self:stretch;background:#dfe3e8;margin:0 .1rem}</style>
+<div class="gs-a11y-bar" role="group" aria-label="Accessibility controls">
+<span class="gs-a11y-label">Text Size</span>
+<button type="button" class="gs-a11y-fs" data-size="sm" aria-pressed="false" aria-label="Small text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="md" aria-pressed="true" aria-label="Medium text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="lg" aria-pressed="false" aria-label="Large text">A</button>
+<span class="gs-a11y-sep"></span>
+<button type="button" id="gs-a11y-listen" aria-label="Read this article aloud">&#128266; Listen</button>
+<button type="button" id="gs-a11y-stop" aria-label="Stop reading aloud">&#9632; Stop</button>
+</div>
+<script>(function(){
+var KEY='gs-a11y-fontsize', SIZES={sm:'0.92',md:'1',lg:'1.15'};
+function pb(){return document.querySelector('.post-body')||document.querySelector('.artx,.mdrx');}
+function apply(sz){
+  var el=pb(); if(!el||!SIZES[sz]) return;
+  el.style.fontSize=SIZES[sz]+'em';
+  var btns=document.querySelectorAll('.gs-a11y-fs');
+  for(var i=0;i<btns.length;i++){
+    var on=btns[i].getAttribute('data-size')===sz;
+    btns[i].setAttribute('aria-pressed', on?'true':'false');
+  }
+  try{localStorage.setItem(KEY,sz);}catch(e){}
+}
+var fsBtns=document.querySelectorAll('.gs-a11y-fs');
+for(var j=0;j<fsBtns.length;j++){
+  fsBtns[j].addEventListener('click',(function(b){return function(){apply(b.getAttribute('data-size'));};})(fsBtns[j]));
+}
+var saved; try{saved=localStorage.getItem(KEY);}catch(e){}
+apply(saved&&SIZES[saved]?saved:'md');
+
+var listenBtn=document.getElementById('gs-a11y-listen'), stopBtn=document.getElementById('gs-a11y-stop');
+if(listenBtn){
+  listenBtn.addEventListener('click', function(){
+    if(!('speechSynthesis' in window)){ alert('Text-to-speech is not supported in this browser.'); return; }
+    window.speechSynthesis.cancel();
+    var src=pb(); if(!src) return;
+    var clone=src.cloneNode(true);
+    var strip=clone.querySelectorAll('script,style,svg');
+    for(var k=0;k<strip.length;k++){ strip[k].parentNode.removeChild(strip[k]); }
+    var text=clone.textContent.replace(/\s+/g,' ').trim();
+    if(!text) return;
+    var chunks=text.match(/[\s\S]{1,180}(?:[.!?]|$)/g)||[text];
+    var idx=0;
+    function speakNext(){
+      if(idx>=chunks.length) return;
+      var u=new SpeechSynthesisUtterance(chunks[idx]);
+      u.onend=function(){ idx++; speakNext(); };
+      window.speechSynthesis.speak(u);
+    }
+    speakNext();
+  });
+}
+if(stopBtn){
+  stopBtn.addEventListener('click', function(){
+    if('speechSynthesis' in window) window.speechSynthesis.cancel();
+  });
+}
+var skip=document.getElementById('gs-skip-link');
+if(skip){
+  skip.addEventListener('click', function(ev){
+    ev.preventDefault();
+    var h=document.querySelector('.post-body h1')||document.querySelector('.artx h1,.mdrx h1,h1');
+    if(h){ h.setAttribute('tabindex','-1'); h.focus(); h.scrollIntoView(); }
+  });
+}
+})();</script>
+<style>.goog-te-menu-frame{max-width:340px!important;max-height:70vh!important;overflow:auto!important;box-shadow:0 6px 24px rgba(0,0,0,.25)!important}</style>
+<div id="google_translate_element" style="margin:8px 0 16px;"></div><script type="text/javascript">function googleTranslateElementInit(){new google.translate.TranslateElement({pageLanguage:"en",includedLanguages:"hi,bn,ta,te,mr,gu,kn,ml,pa,or,as,ur,sa,ne,sd",layout:google.translate.TranslateElement.InlineLayout.SIMPLE,autoDisplay:false},"google_translate_element");}</script><script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+<p class="revised" data-gs-revision-v1="1">Revised
+<time datetime="2026-11-14" itemprop="dateModified">14 November 2026</time>
+&middot; <code>v1.0.0</code> &middot; <a href="#changelog">what changed</a></p>
+<div class="stats">
+<div class="stat"><b>18</b><span>YouTube channel entries, grouped by purpose</span></div>
+<div class="stat"><b>16</b><span>Free course, book, documentation and compute entries</span></div>
+<div class="stat"><b>14</b><span>Tool categories with a default choice</span></div>
+<div class="stat"><b>7</b><span>Build methods and when each applies</span></div>
+</div>
+<p>A sensible order for learning AI at no cost: concepts first (3Blue1Brown, StatQuest), then hands-on basics (fast.ai or Kaggle Learn), then building a language model (Andrej Karpathy), then applied work with provider documentation and DeepLearning.AI short courses. The tables below list the channels, resources, tools and methods that recur most often in that route.</p>
+<div class="note"><b>How the list was chosen.</b> Channels are included because they are long-standing and widely used for AI instruction, not because of a measured ranking. Subscriber and view counts were not checked for this piece, so none are given.</div>
+<h2>YouTube channels by purpose</h2>
+<div class="tw">
+<table>
+<tr><th>Channel</th><th>Category</th><th>Used for</th><th>Level</th></tr>
+<tr><td>freeCodeCamp</td><td>Full courses</td><td>Multi-hour courses on machine learning, deep learning, PyTorch, LLMs and RAG</td><td>Beginner to intermediate</td></tr><tr><td>Andrej Karpathy</td><td>Deep understanding</td><td>Building GPT from scratch: makemore, nanoGPT, reproducing GPT-2</td><td>Intermediate to advanced</td></tr><tr><td>3Blue1Brown</td><td>Concepts</td><td>Visual intuition for neural networks, backpropagation and attention</td><td>Beginner</td></tr><tr><td>StatQuest (Josh Starmer)</td><td>Fundamentals</td><td>Statistics and machine learning algorithms in plain language</td><td>Beginner</td></tr><tr><td>Sentdex</td><td>Practical Python</td><td>Neural network and machine learning code walkthroughs (older material)</td><td>Beginner to intermediate</td></tr><tr><td>Two Minute Papers</td><td>Research news</td><td>Short summaries of new papers</td><td>Any</td></tr><tr><td>Yannic Kilcher</td><td>Papers</td><td>Detailed paper walkthroughs</td><td>Advanced</td></tr><tr><td>Lex Fridman</td><td>Interviews</td><td>Long conversations with AI researchers</td><td>Any</td></tr><tr><td>Matt Wolfe, AI Explained</td><td>News and tools</td><td>Model releases and tool roundups</td><td>Any</td></tr><tr><td>Fireship</td><td>Developer news</td><td>Fast overviews of AI tools</td><td>Beginner</td></tr><tr><td>Matthew Berman</td><td>Hands-on tests</td><td>Testing models and agent frameworks</td><td>Beginner to intermediate</td></tr><tr><td>Nate Herk, Tech With Tim, NetworkChuck</td><td>Projects</td><td>Agents, automation and local LLMs</td><td>Beginner</td></tr><tr><td>Sam Witteveen, Dave Ebbelaar, Cole Medin</td><td>Applied LLM work</td><td>LangChain, RAG, agents and AI coding assistants</td><td>Intermediate</td></tr><tr><td>Stanford Online, MIT OpenCourseWare</td><td>University lectures</td><td>CS229, CS224N, CS231n and MIT Deep Learning</td><td>Intermediate to advanced</td></tr><tr><td>DeepLearning.AI (Andrew Ng)</td><td>Courses</td><td>Machine learning and LLM lectures plus short courses</td><td>Beginner to intermediate</td></tr><tr><td>Hugging Face</td><td>Transformers</td><td>NLP, transformer and diffusion tutorials</td><td>Intermediate</td></tr><tr><td>Krish Naik, CampusX, Codebasics</td><td>India-focused</td><td>Machine learning and data science, in English and Hindi</td><td>Beginner to intermediate</td></tr><tr><td>Anthropic, OpenAI, Google for Developers</td><td>Official</td><td>API walkthroughs, demos and talks</td><td>Intermediate</td></tr>
+</table>
+</div>
+<h2>Free courses, books and compute</h2>
+<div class="tw">
+<table>
+<tr><th>Type</th><th>Resource</th><th>Why it is used</th></tr>
+<tr><td>Course</td><td><a href="https://www.fast.ai/">fast.ai Practical Deep Learning</a></td><td>Code-first, top-down, free</td></tr><tr><td>Course</td><td><a href="https://www.deeplearning.ai/short-courses/">DeepLearning.AI short courses</a></td><td>Short free courses on prompting, RAG, agents and fine-tuning</td></tr><tr><td>Course</td><td><a href="https://huggingface.co/learn">Hugging Face courses</a></td><td>LLMs, agents, diffusion and audio</td></tr><tr><td>Course</td><td><a href="https://www.kaggle.com/learn">Kaggle Learn</a></td><td>Micro-courses in Python, pandas and machine learning with free notebooks</td></tr><tr><td>Course</td><td><a href="https://developers.google.com/machine-learning/crash-course">Google Machine Learning Crash Course</a></td><td>Structured machine learning basics</td></tr><tr><td>Course</td><td><a href="https://learn.microsoft.com/en-us/training/">Microsoft Learn</a> and <a href="https://github.com/microsoft/generative-ai-for-beginners">Generative AI for Beginners</a></td><td>Free learning paths and a course on GitHub</td></tr><tr><td>Course</td><td><a href="https://cs50.harvard.edu/ai/">Harvard CS50 AI</a></td><td>University-level introduction, free</td></tr><tr><td>Course</td><td><a href="https://www.elementsofai.com/">Elements of AI</a></td><td>Non-technical overview from the University of Helsinki</td></tr><tr><td>Course</td><td>Coursera and edX audit access</td><td>Many courses can be audited free; availability varies, certificates are paid</td></tr><tr><td>Book</td><td><a href="https://d2l.ai/">Dive into Deep Learning</a></td><td>Free, with runnable code</td></tr><tr><td>Book</td><td><a href="http://neuralnetworksanddeeplearning.com/">Neural Networks and Deep Learning</a> (Michael Nielsen)</td><td>Free classic introduction</td></tr><tr><td>Book</td><td><a href="https://fleuret.org/public/lbdl.pdf">The Little Book of Deep Learning</a> (François Fleuret)</td><td>Short, dense reference</td></tr><tr><td>Reading</td><td><a href="https://jalammar.github.io/illustrated-transformer/">Jay Alammar</a>, <a href="https://lilianweng.github.io/">Lilian Weng</a>, Sebastian Raschka</td><td>Illustrated transformers, agents and LLM internals</td></tr><tr><td>Documentation</td><td>Anthropic, OpenAI and Google AI Studio docs and cookbooks</td><td>Primary guidance on APIs and prompting</td></tr><tr><td>Compute</td><td><a href="https://colab.research.google.com/">Google Colab</a>, <a href="https://www.kaggle.com/code">Kaggle Notebooks</a>, Hugging Face Spaces</td><td>Free GPU notebooks and hosting, subject to usage limits</td></tr><tr><td>Papers</td><td><a href="https://arxiv.org/">arXiv</a> and <a href="https://huggingface.co/papers">Hugging Face Daily Papers</a></td><td>Newest research</td></tr>
+</table>
+</div>
+<h2>Tools by need</h2>
+<div class="tw">
+<table>
+<tr><th>Need</th><th>Common choice</th><th>Note</th></tr>
+<tr><td>Frontier LLM API</td><td>Anthropic Claude, OpenAI, Google Gemini</td><td>Start from the provider's cookbook and free or low-cost tier</td></tr><tr><td>Free or low-cost inference</td><td>Groq, OpenRouter, Gemini free tier</td><td>Suited to prototypes; limits change</td></tr><tr><td>Local models</td><td><a href="https://ollama.com/">Ollama</a>, <a href="https://lmstudio.ai/">LM Studio</a>, llama.cpp</td><td>No API cost; needs a capable laptop or GPU</td></tr><tr><td>Model hub</td><td>Hugging Face Hub and Transformers library</td><td>Models, datasets and demos</td></tr><tr><td>Agent and RAG frameworks</td><td>LangChain, LangGraph, LlamaIndex</td><td>For chains, tools and retrieval</td></tr><tr><td>Vector stores</td><td>Chroma, FAISS, pgvector, Qdrant</td><td>Chroma or FAISS locally; pgvector where Postgres is already used</td></tr><tr><td>Deep learning</td><td>PyTorch, JAX, scikit-learn</td><td>PyTorch is the default in most tutorials</td></tr><tr><td>Fine-tuning</td><td>Hugging Face PEFT and TRL, Unsloth</td><td>LoRA on a single GPU</td></tr><tr><td>Coding assistants</td><td>Claude Code, GitHub Copilot, Cursor</td><td>Speeds up building and learning</td></tr><tr><td>Notebooks and GPUs</td><td>Colab, Kaggle, Jupyter</td><td>Free GPU for experiments</td></tr><tr><td>Experiment tracking</td><td>Weights &amp; Biases, MLflow</td><td>Track and compare runs</td></tr><tr><td>Evaluation</td><td>promptfoo, Ragas, LangSmith</td><td>Test prompts and RAG quality</td></tr><tr><td>Demo front ends</td><td>Streamlit, Gradio</td><td>A model demo in minutes</td></tr><tr><td>Library documentation lookup</td><td>Context7</td><td>Current library docs inside a coding assistant</td></tr>
+</table>
+</div>
+<h2>Build methods and when each applies</h2>
+<p>The simplest method that meets the need is the usual starting point; each later row adds cost and complexity.</p>
+<div class="tw">
+<table>
+<tr><th>Method</th><th>Applies when</th><th>Typical tools</th></tr>
+<tr><td>Prompt engineering</td><td>The model already knows enough; format or tone needs control</td><td>Provider docs and prompt cookbooks</td></tr><tr><td>Structured output and tool use</td><td>Reliable JSON or actions are required</td><td>Provider APIs, function calling</td></tr><tr><td>Retrieval-augmented generation (RAG)</td><td>Answers must come from specific documents</td><td>Chroma, FAISS, pgvector, LlamaIndex</td></tr><tr><td>Agents</td><td>Multi-step tasks with tools and decisions</td><td>LangGraph, provider agent SDKs</td></tr><tr><td>Fine-tuning (LoRA)</td><td>Style or domain behaviour that prompting cannot fix</td><td>PEFT, TRL, Unsloth</td></tr><tr><td>Evaluation</td><td>Before and after every change</td><td>promptfoo, Ragas, LangSmith</td></tr><tr><td>Local inference</td><td>Privacy needs or zero API cost</td><td>Ollama, LM Studio</td></tr>
+</table>
+</div>
+<h2>Choosing by goal</h2>
+<div class="tw">
+<table>
+<tr><th>Goal</th><th>Starting point</th></tr>
+<tr><td>How transformers work</td><td>3Blue1Brown, then Karpathy</td></tr><tr><td>Machine learning with code, fast</td><td>fast.ai or Kaggle Learn</td></tr><tr><td>A chatbot over documents</td><td>DeepLearning.AI RAG course, LlamaIndex, Chroma</td></tr><tr><td>An agent</td><td>LangGraph or a provider agent SDK, with a DeepLearning.AI agents course</td></tr><tr><td>A model offline</td><td>Ollama or LM Studio</td></tr><tr><td>Practice on a free GPU</td><td>Colab or Kaggle Notebooks</td></tr><tr><td>New releases</td><td>AI Explained, Matt Wolfe, Hugging Face Daily Papers</td></tr><tr><td>Research papers</td><td>Yannic Kilcher, arXiv</td></tr><tr><td>Hindi or India-focused teaching</td><td>Krish Naik, CampusX, Codebasics</td></tr><tr><td>A non-technical overview</td><td>Elements of AI</td></tr>
+</table>
+</div>
+<h2>What this piece could not establish</h2>
+<div class="warn"><b>Scope limits.</b> The list is not exhaustive and is not a ranking. Channel audience sizes, tool versions, free-tier limits and course availability change often and were not re-checked at publication; each provider's own page is the reference. Papers with Code, a former research index, is not listed because it no longer operates as a separate site.</div>
+<p class="src">Sources: provider and course pages linked in the tables above (fast.ai, DeepLearning.AI, Hugging Face, Kaggle, Google, Microsoft, Harvard CS50, Elements of AI, d2l.ai, arXiv). YouTube channels and tools without links are named from general knowledge and were not individually verified.</p>
+<div id="changelog" class="note">
+<b>Revision history.</b>
+<ul>
+<li><b>v1.0.0</b> &mdash; 14 November 2026 &mdash; first published.</li>
+</ul>
+</div>
+<p class="disclaimer" data-gs-ai-disclosure-v1="1"><strong>About this article:</strong> Researched, written and edited by Umashankar Triplicane Dwarakanathan, with AI research assistance; every figure is meant to trace to the primary source cited. See the <a href="https://blog.vertistratsolution.com/p/disclaimer.html">Editorial Policy</a> for how sourcing, AI use and corrections work.</p>
+
+</div>
