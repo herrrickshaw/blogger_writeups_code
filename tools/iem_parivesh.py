@@ -81,8 +81,14 @@ def fetch(args):
     req = urllib.request.Request(url, headers={"Accept": "application/json",
                                                "User-Agent": "Mozilla/5.0 (masaladeutsch-archive iem_parivesh.py)"})
     print("GET", url)
-    with urllib.request.urlopen(req, timeout=600) as r:
-        body = r.read()
+    try:
+        with urllib.request.urlopen(req, timeout=600) as r:
+            body = r.read()
+    except urllib.error.HTTPError as e:
+        # advanceSearchData was withdrawn from the open API (404 on 2026-11-14). Fall back to a saved dump
+        # (`fetch --from DUMP.json`), or the anonymous central-only dashboard route; see
+        # herrrickshaw/india-ec-subsector-analysis data/library/SOURCES.md.
+        sys.exit(f"HTTP {e.code} from {url}: endpoint withdrawn. Use `fetch --from DUMP.json` or see SOURCES.md.")
     out = CACHE / f"parivesh_ec_{datetime.date.today():%Y-%m-%d}.json.gz"
     out.write_bytes(gzip.compress(body))
     print(f"{len(body):,} bytes -> {out}")
