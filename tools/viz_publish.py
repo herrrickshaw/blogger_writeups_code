@@ -24,6 +24,7 @@ import sys
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "tools"))
 from blogger_api import migrate_links  # noqa: E402
+from relink_retired import repair as repair_retired  # noqa: E402
 
 MAP = json.load(open(ROOT / "out/gsc_index/phase3_map.json"))      # folded slug -> surviving slug
 RETIRED = set(json.load(open(ROOT / "out/gsc_index/phase1_remove.json"))) | set(MAP)
@@ -47,7 +48,7 @@ def relink(html):
         path = re.sub(r"^https?://[^/]+", "", MANIFEST[folded]["url"])
         url = MANIFEST[target]["url"]
         html = re.sub(href_re(path), f'href="{url}"', html)
-    return html
+    return repair_retired(html)          # phase 1 removals: point at the surviving post, or drop the anchor
 
 
 def retired_links(html):

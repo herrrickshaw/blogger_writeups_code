@@ -1,0 +1,269 @@
+<div style="max-width:760px;margin:0 auto;font-family:Georgia,'Times New Roman',serif;color:#212529;background:#fff;line-height:1.7;font-size:17px">
+
+<style>
+.gb-card{background:#f8f9fa;border:1px solid #dee2e6;border-radius:12px;padding:1.25rem 1.5rem;margin:1.5rem 0;box-shadow:0 1px 2px rgba(0,0,0,.04)}
+.gb-table{border-collapse:collapse;width:100%;font-size:.85em;font-family:-apple-system,'Segoe UI',sans-serif;margin:1.25rem 0}
+.gb-table thead th{background:#212529;color:#fff;padding:.5rem .75rem;text-align:left;white-space:nowrap}
+.gb-table td{padding:.5rem .75rem;border-bottom:1px solid #dee2e6;color:#212529;word-wrap:break-word}
+.gb-table tbody tr:nth-child(even){background:#f8f9fa}
+.gb-tblwrap{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:0 0 1em}
+.gb-kicker{font-family:-apple-system,'Segoe UI',sans-serif;text-transform:uppercase;letter-spacing:.12em;font-size:.72em;color:#868e96;margin-bottom:.5rem}
+.gb-h2{font-family:-apple-system,'Segoe UI',sans-serif;font-weight:700;font-size:1.35em;margin:2.2rem 0 .8rem;color:#212529;letter-spacing:-.01em}
+.gb-note{font-size:.8em;color:#868e96;font-family:-apple-system,'Segoe UI',sans-serif;line-height:1.5}
+.gb-pull{border-left:4px solid #212529;padding:.25rem 0 .25rem 1.25rem;margin:1.75rem 0;font-size:1.15em;font-style:italic;color:#495057}
+.gb-related{background:#eef6ff;border:1px solid #b6d4f0;border-radius:12px;padding:1.1rem 1.4rem;margin:1.5rem 0;font-family:-apple-system,'Segoe UI',sans-serif;font-size:.9em}
+.gb-related a{color:#0b5394}
+.gb-warn{background:#fff8f0;border:1px solid #f0d9b5;border-radius:10px;padding:1rem 1.25rem;margin:1.25rem 0;font-size:.92em}
+.gb-stats{display:grid;gap:1rem;grid-template-columns:repeat(auto-fit,minmax(11rem,1fr));margin:1.4rem 0 1.8rem}
+.gb-stat{background:#f8f9fa;border:1px solid #dee2e6;border-radius:10px;padding:.9rem 1rem;font-family:-apple-system,'Segoe UI',sans-serif}
+.gb-stat b{display:block;font-size:1.35em;color:#212529;font-family:Georgia,serif}
+.gb-stat span{display:block;font-size:.76em;color:#868e96;margin-top:.2rem;line-height:1.4}
+.gb-stats>.google-auto-placed,.gb-stats>ins.adsbygoogle{grid-column:1/-1;order:99;width:100%;margin:.4rem 0}
+.gs-head-order>.google-auto-placed,.gs-head-order>ins.adsbygoogle{order:99}
+
+.post-body .tw{overflow-x:auto;margin:1.1rem 0}
+.post-body table{display:block;overflow-x:auto;max-width:100%;width:max-content;
+ min-width:100%;border-collapse:collapse;font-size:.86rem}
+.post-body thead th,.post-body tr:first-child th{background:#111;color:#fff;font-weight:700;
+ text-align:right;vertical-align:bottom;padding:.6rem .7rem;border:1px solid #111;
+ white-space:normal;overflow-wrap:normal;word-break:keep-all;min-width:5.5rem}
+.post-body thead th:first-child,.post-body tr:first-child th:first-child{text-align:left}
+.post-body td{border:1px solid #d9d9d9;padding:.5rem .7rem;text-align:right;
+ font-variant-numeric:tabular-nums;white-space:nowrap;color:#111;background:#fff}
+.post-body td:first-child{text-align:left;white-space:normal;min-width:8rem}
+.post-body tbody tr:nth-child(even) td{background:#fafafa}
+</style>
+
+<div class="gs-head-order" style="display:flex;flex-direction:column">
+<p class="standfirst" style="order:4;font-size:1.1em;color:#495057"><em>Seven free repositories cover the routine work of market research: symbol lists for 34 markets, annual fundamentals, correlation matrices, a valuation engine, a daily brief, a kdb+/q signal study and an event-driven monitor design. This guide sets out what each one does, the command to start with and its main limit; all are research tools, not investment advice.</em></p>
+<div class="topnav-index-link" style="order:1;font-size:.82em;margin:6px 0 14px"><a href="https://blog.vertistratsolution.com/2026/08/article-index-start-here.html" style="color:#0b5394;text-decoration:none">&larr; All Articles (Index)</a></div>
+<div class="gb-kicker" style="order:2">Open-Source Tools &middot; 12 November 2026</div>
+<h1 style="order:3;font-family:-apple-system,'Segoe UI',sans-serif;font-weight:800;font-size:2em;line-height:1.2;letter-spacing:-.02em;margin:.25rem 0 1rem">Stock-market research: 7 open-source tools, from ticker lists to valuation models</h1>
+</div>
+
+<a href="#" id="gs-skip-link" class="gs-skip-link" style="position:absolute;left:-9999px;top:auto;background:#1a1a1a;color:#fff;padding:.6rem 1rem;z-index:1000;border-radius:4px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.85rem">Skip to article content</a>
+<style>.gs-skip-link:focus{left:8px!important;top:8px!important}
+.gs-a11y-bar{display:flex;align-items:center;gap:.55rem;flex-wrap:wrap;background:#f4f5f7;border:1px solid #dfe3e8;border-radius:8px;padding:.55rem .8rem;margin:10px 0 16px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
+.gs-a11y-bar .gs-a11y-label{font-size:.68rem;font-weight:700;letter-spacing:.08em;color:#666;text-transform:uppercase;margin-right:.15rem}
+.gs-a11y-bar button{cursor:pointer;border:1px solid #c7cbd1;background:#fff;color:#1a1a1a;border-radius:5px;padding:.32rem .65rem;font-family:inherit;line-height:1}
+.gs-a11y-bar button.gs-a11y-fs{font-weight:700;min-width:2rem;text-align:center}
+.gs-a11y-bar button.gs-a11y-fs[data-size="sm"]{font-size:.8rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="md"]{font-size:1rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="lg"]{font-size:1.2rem}
+.gs-a11y-bar button.gs-a11y-fs[aria-pressed="true"]{background:#1a1a1a;color:#fff;border-color:#1a1a1a}
+.gs-a11y-bar button:hover{border-color:#8a4b08}
+.gs-a11y-bar button:focus-visible{outline:2px solid #8a4b08;outline-offset:1px}
+.gs-a11y-bar .gs-a11y-sep{width:1px;align-self:stretch;background:#dfe3e8;margin:0 .1rem}</style>
+<div class="gs-a11y-bar" role="group" aria-label="Accessibility controls">
+<span class="gs-a11y-label">Text Size</span>
+<button type="button" class="gs-a11y-fs" data-size="sm" aria-pressed="false" aria-label="Small text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="md" aria-pressed="true" aria-label="Medium text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="lg" aria-pressed="false" aria-label="Large text">A</button>
+<span class="gs-a11y-sep"></span>
+<button type="button" id="gs-a11y-listen" aria-label="Read this article aloud">&#128266; Listen</button>
+<button type="button" id="gs-a11y-stop" aria-label="Stop reading aloud">&#9632; Stop</button>
+</div>
+<script>(function(){
+var KEY='gs-a11y-fontsize', SIZES={sm:'0.92',md:'1',lg:'1.15'};
+function pb(){return document.querySelector('.post-body')||document.querySelector('.artx,.mdrx');}
+function apply(sz){
+  var el=pb(); if(!el||!SIZES[sz]) return;
+  el.style.fontSize=SIZES[sz]+'em';
+  var btns=document.querySelectorAll('.gs-a11y-fs');
+  for(var i=0;i<btns.length;i++){
+    var on=btns[i].getAttribute('data-size')===sz;
+    btns[i].setAttribute('aria-pressed', on?'true':'false');
+  }
+  try{localStorage.setItem(KEY,sz);}catch(e){}
+}
+var fsBtns=document.querySelectorAll('.gs-a11y-fs');
+for(var j=0;j<fsBtns.length;j++){
+  fsBtns[j].addEventListener('click',(function(b){return function(){apply(b.getAttribute('data-size'));};})(fsBtns[j]));
+}
+var saved; try{saved=localStorage.getItem(KEY);}catch(e){}
+apply(saved&&SIZES[saved]?saved:'md');
+
+var listenBtn=document.getElementById('gs-a11y-listen'), stopBtn=document.getElementById('gs-a11y-stop');
+if(listenBtn){
+  listenBtn.addEventListener('click', function(){
+    if(!('speechSynthesis' in window)){ alert('Text-to-speech is not supported in this browser.'); return; }
+    window.speechSynthesis.cancel();
+    var src=pb(); if(!src) return;
+    var clone=src.cloneNode(true);
+    var strip=clone.querySelectorAll('script,style,svg');
+    for(var k=0;k<strip.length;k++){ strip[k].parentNode.removeChild(strip[k]); }
+    var text=clone.textContent.replace(/\s+/g,' ').trim();
+    if(!text) return;
+    var chunks=text.match(/[\s\S]{1,180}(?:[.!?]|$)/g)||[text];
+    var idx=0;
+    function speakNext(){
+      if(idx>=chunks.length) return;
+      var u=new SpeechSynthesisUtterance(chunks[idx]);
+      u.onend=function(){ idx++; speakNext(); };
+      window.speechSynthesis.speak(u);
+    }
+    speakNext();
+  });
+}
+if(stopBtn){
+  stopBtn.addEventListener('click', function(){
+    if('speechSynthesis' in window) window.speechSynthesis.cancel();
+  });
+}
+var skip=document.getElementById('gs-skip-link');
+if(skip){
+  skip.addEventListener('click', function(ev){
+    ev.preventDefault();
+    var h=document.querySelector('.post-body h1')||document.querySelector('.artx h1,.mdrx h1,h1');
+    if(h){ h.setAttribute('tabindex','-1'); h.focus(); h.scrollIntoView(); }
+  });
+}
+})();</script>
+<style>.goog-te-menu-frame{max-width:340px!important;max-height:70vh!important;overflow:auto!important;box-shadow:0 6px 24px rgba(0,0,0,.25)!important}</style><div id="google_translate_element" style="margin:8px 0 16px;"></div><script type="text/javascript">function googleTranslateElementInit(){new google.translate.TranslateElement({pageLanguage:"en",includedLanguages:"hi,bn,ta,te,mr,gu,kn,ml,pa,or,as,ur,sa,ne,sd",layout:google.translate.TranslateElement.InlineLayout.SIMPLE,autoDisplay:false},"google_translate_element");}</script><script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+
+<div class="gb-stats">
+<div class="gb-stat"><b>74,239</b><span>ticker symbols across 34 markets in the committed universe file (run 19 Oct 2026)</span></div>
+<div class="gb-stat"><b>32,590</b><span>tickers in 20 market codes that the Colab fundamentals collector reads</span></div>
+<div class="gb-stat"><b>6</b><span>markets with ready-made stock correlation matrices</span></div>
+<div class="gb-stat"><b>6 of 6</b><span>kdb+/q output tables matching the Python original on synthetic data (5 Nov 2026)</span></div>
+</div>
+
+<p>Most stock-market research starts with the same chores: a list of symbols, a table of company financials, a sense of which stocks move together, and a model you can audit. The seven open-source repositories below each handle one of those chores, from a ticker list for 34 markets to a valuation engine, a one-file daily brief and a signal study written in kdb+/q.</p>
+
+<p>They are for students, analysts and hobby quants who want to see the method, not just a result, and for developers who want tested templates. Most rely on free Yahoo Finance data or on synthetic samples, and the guides say so plainly. All of them are research and teaching tools. Not investment advice: this is research and education material; nothing here is a recommendation to buy or sell anything.</p>
+
+<h2 class="gb-h2">Which tool for which job</h2>
+<div class="gb-tblwrap"><table class="gb-table"><thead><tr><th>Tool</th><th>What it does</th><th>Use it when</th></tr></thead><tbody><tr><td><a href="#tickers">global-ticker-universe</a></td><td>A committed JSON list of Yahoo-style ticker symbols per market, with a small Python helper.</td><td>You need the list of symbols for a country before you download prices or fundamentals.</td></tr><tr><td><a href="#fundamentals">colab-market-fundamentals</a></td><td>A Colab notebook that collects about five years of annual fundamentals per company through yfinance, with checkpoints and resume.</td><td>You want a free table of revenue, profit, assets, debt and cash flow for many companies.</td></tr><tr><td><a href="#correlations">market-correlation-matrices</a></td><td>Ready-made correlation matrices of daily returns for India, the US, Japan, Korea, China and Europe, with top pairs and summaries.</td><td>You want to compare how tightly stocks co-move across markets, or find a stock&rsquo;s closest peers.</td></tr><tr><td><a href="#finmodel">financial-analysis-toolkit-public</a></td><td>A command-line engine for three-statement models, discounted cash flow, leveraged buyouts and comparable-company analysis.</td><td>You want an auditable valuation model whose balance sheet balances, from a JSON input file.</td></tr><tr><td><a href="#brief">market-brief-base</a></td><td>One Python file that fetches settled closes for 15 Indian and 15 US large caps and writes an HTML brief with trend and Darvas-box labels.</td><td>You follow a few large caps and want a dated daily summary, or a template for a report that fails loudly.</td></tr><tr><td><a href="#kdb">global-market-kdb</a></td><td>A kdb+/q port of a twelve-signal equity study with Newey-West, FDR, Fama-MacBeth, cost-adjusted spreads, Deflated Sharpe and walk-forward tests.</td><td>You want to learn q from a complete, tested study, or validate a q port against a Python reference.</td></tr><tr><td><a href="#events">event-driven-stock-analysis</a></td><td>An architecture for a multi-market portfolio monitor, a FastAPI skeleton, an in-process event bus and sample price files.</td><td>You are designing an event-driven finance back end and want a documented starting point.</td></tr></tbody></table></div>
+
+<h2 class="gb-h2">The seven tools</h2>
+<p>Each section says what the tool does, where its data comes from, the one command to start with, and the main limitation its guide records. All need git and Python 3; extra software is noted where it matters.</p>
+<h3 id="tickers" style="font-family:-apple-system,'Segoe UI',sans-serif;font-weight:700;font-size:1.12em;margin:1.8rem 0 .5rem">global-ticker-universe: exchange-qualified symbols for 34 markets</h3>
+<p>The repository stores one file, <code>data/global_universe.json</code>, with Yahoo-Finance-style symbols per market, and a helper module, <code>global_tickers.py</code>. You ask for one market, several, or all; <code>tickers_for('JP')</code> returns the Japan list. Symbols carry their exchange: India comes as RELIANCE.NS or .BO, Japan as 7203.T, Germany as SAP.DE. A flat CSV with market, exchange and symbol columns is also included.</p>
+<p>In the guide&rsquo;s run of 19 October 2026, the helper loaded 74,239 symbols across 34 markets, all unique, and the 16 bundled tests passed. It needs no API key, network or extra package. It holds symbols and names only: no prices or fundamentals.</p>
+<p><strong>Start here.</strong> Print the market summary table.</p>
+<pre style="overflow-x:auto;background:#f8f9fa;border:1px solid #dee2e6;border-radius:8px;padding:.75rem 1rem;font-size:.8em;line-height:1.45;white-space:pre"><code>python3 global_tickers.py</code></pre>
+<p>A table of market code, exchange and ticker count, then the first five tickers for India, the US and Japan.</p>
+<p><strong>Code:</strong> <a href="https://github.com/herrrickshaw/global-ticker-universe">github.com/herrrickshaw/global-ticker-universe</a></p>
+<p><strong>Main limitation.</strong> It is a snapshot, and the README and the committed JSON disagree: the README says the universe was widened to 75,815 symbols, while the JSON loaded in the guide&rsquo;s run gives 74,239. Treat them as different snapshots. Some markets are small samples, China is flagged as a coverage gap, US symbols carry no exchange, and symbols are not checked for being tradable today.</p>
+
+<h3 id="fundamentals" style="font-family:-apple-system,'Segoe UI',sans-serif;font-weight:700;font-size:1.12em;margin:1.8rem 0 .5rem">colab-market-fundamentals: annual company financials for 20 markets, in Colab</h3>
+<p>You open <code>collect.ipynb</code> in Google Colab, press Run all, and download <code>fundamentals.zip</code>. The notebook reads <code>tickers.csv</code> (32,590 tickers across 20 market codes), fetches the income statement, balance sheet and cash flow for each ticker, and writes one parquet file per market, saving every three minutes. It probes first for a Yahoo block, retries, and can resume from an uploaded zip. The US set is skipped by default.</p>
+<p>Each row is one company and one fiscal year, with 13 columns, including the fields needed for a Piotroski-style score. In the guide&rsquo;s local test on 19 October 2026, three German companies returned 12 rows (four fiscal years each).</p>
+<p><strong>Start here.</strong> Test one market before a long run (cell 4 of the notebook).</p>
+<pre style="overflow-x:auto;background:#f8f9fa;border:1px solid #dee2e6;border-radius:8px;padding:.75rem 1rem;font-size:.8em;line-height:1.45;white-space:pre"><code>collect_market('DE', ['SAP.DE','SIE.DE','ALV.DE'], workers=3)</code></pre>
+<p>&lsquo;DE: 3 names with data&rsquo;. A full Run all prints progress per market and writes <code>/content/fundamentals.zip</code> every three minutes.</p>
+<p><strong>Code:</strong> <a href="https://github.com/herrrickshaw/colab-market-fundamentals">github.com/herrrickshaw/colab-market-fundamentals</a></p>
+<p><strong>Main limitation.</strong> The data comes from Yahoo Finance: third-party, unaudited, and subject to Yahoo&rsquo;s terms. The &lsquo;filed&rsquo; column is fiscal year end plus 90 days, not the real filing date, so it is not safe for point-in-time backtests. Yahoo blocks many datacentre IPs, and a full run of about 30,000 tickers was not timed. Banks and insurers return only some columns.</p>
+
+<h3 id="correlations" style="font-family:-apple-system,'Segoe UI',sans-serif;font-weight:700;font-size:1.12em;margin:1.8rem 0 .5rem">market-correlation-matrices: how closely stocks move together in six markets</h3>
+<p>For each market the repo stores three files: a dense correlation matrix (float16, with a symbol list), a table of pairs with an absolute correlation of at least 0.6, and a small summary. Correlation is the Pearson measure on daily log returns over the last 252 trading days, using the 3,000 most traded symbols. Reading the committed files needs numpy, pandas and pyarrow, no key.</p>
+<p>Rebuilding needs a DuckDB price warehouse that is not in the repo. The guide rebuilt the matrices on 23 October 2026 against a local copy of the author&rsquo;s warehouse, with a local patch for incomplete trading days; in that rebuild Korea and India were the most tightly co-moving markets and Europe the lowest. The committed snapshot&rsquo;s windows end in June and July 2026.</p>
+<p><strong>Start here.</strong> Read the per-market summaries.</p>
+<pre style="overflow-x:auto;background:#f8f9fa;border:1px solid #dee2e6;border-radius:8px;padding:.75rem 1rem;font-size:.8em;line-height:1.45;white-space:pre"><code>import json
+for m in ['IN','US','JP','KR','CN','EU']:
+    s = json.load(open(f'data/{m}/summary.json'))
+    print(m, s['window'], s['symbols'], s['mean_pairwise_corr'])</code></pre>
+<p>One line per market with the window dates, symbol count and mean correlation.</p>
+<p><strong>Code:</strong> <a href="https://github.com/herrrickshaw/market-correlation-matrices">github.com/herrrickshaw/market-correlation-matrices</a></p>
+<p><strong>Main limitation.</strong> Windows are not aligned across markets (China&rsquo;s data stops on 1 July 2026), so comparisons mix dates. The unmodified script counts thin, partial trading days as full sessions, which changed the Europe result in the guide&rsquo;s run. The highest pairs are often one company listed twice, and the India and US sets include ETFs and trusts. It is descriptive, not a trading signal.</p>
+
+<h3 id="finmodel" style="font-family:-apple-system,'Segoe UI',sans-serif;font-weight:700;font-size:1.12em;margin:1.8rem 0 .5rem">financial-analysis-toolkit-public (finmodel): three-statement, DCF, LBO and comparables</h3>
+<p>The repo ships <code>finmodel</code>, which needs Python 3.10 or newer and only openpyxl at runtime. It runs four engines from JSON inputs: <code>three-statement</code>, <code>dcf</code>, <code>lbo</code> and <code>comps</code>. Add <code>--xlsx out/model.xlsx</code> for a workbook with live formulas. The bundled examples use case-study data from CFI, so their numbers are illustrative.</p>
+<p>The guide&rsquo;s demo of 18 October 2026 reported 670 tests passing, but on the author&rsquo;s main repo; the public mirror ships the same engines, and its DCF and LBO examples gave identical headline numbers.</p>
+<p><strong>Start here.</strong> Install, then run the DCF example with a sensitivity grid.</p>
+<pre style="overflow-x:auto;background:#f8f9fa;border:1px solid #dee2e6;border-radius:8px;padding:.75rem 1rem;font-size:.8em;line-height:1.45;white-space:pre"><code>pip install -e '.[test]'
+finmodel dcf examples/cfi_dcf.json --sensitivity</code></pre>
+<p>EV=462,983, equity per share 33.63, upside 34.5%, IRR 26.3%, at a 12% discount rate and 3% perpetual growth, plus a WACC-by-growth grid. Case-study figures, illustrative only.</p>
+<p><strong>Code:</strong> <a href="https://github.com/herrrickshaw/financial-analysis-toolkit-public">github.com/herrrickshaw/financial-analysis-toolkit-public</a></p>
+<p><strong>Main limitation.</strong> A DCF that uses levered tax double counts the interest shield, so run <code>dcf-diagnostics</code> first. Bad input paths give a raw Python traceback. Running pytest rewrites timestamps in <code>catalog/*.json</code>, so run it on a copy.</p>
+
+<h3 id="brief" style="font-family:-apple-system,'Segoe UI',sans-serif;font-weight:700;font-size:1.12em;margin:1.8rem 0 .5rem">market-brief-base: a one-file daily brief for 30 large caps</h3>
+<p>For 30 hardcoded stocks, <code>brief.py</code> reports the last settled close with its bar date, the day change, a 50/200-day moving-average cross label and a Darvas box state (IN_BOX, BREAKOUT_BUY, BREAKDOWN_SELL or NO_DATA), then writes a self-contained HTML file and can optionally email it. Data comes from yfinance, with pandas and yfinance versions pinned.</p>
+<p>Its failure rules are written down: a missing price is never treated as zero, a failed market is named in the output, and if nothing fetches the script exits with an error rather than sending an empty brief. An offline self-test checks the signal logic.</p>
+<p><strong>Start here.</strong> Produce today&rsquo;s brief (after <code>pip install -r requirements.txt</code>, or let <code>./run.sh</code> build the environment).</p>
+<pre style="overflow-x:auto;background:#f8f9fa;border:1px solid #dee2e6;border-radius:8px;padding:.75rem 1rem;font-size:.8em;line-height:1.45;white-space:pre"><code>python brief.py --out brief.html</code></pre>
+<p>&lsquo;India: 15/15 priced&rsquo;, &lsquo;US: 15/15 priced&rsquo;, then &lsquo;wrote brief.html&rsquo;. The worked example below shows a full run.</p>
+<p><strong>Code:</strong> <a href="https://github.com/herrrickshaw/market-brief-base">github.com/herrrickshaw/market-brief-base</a></p>
+<p><strong>Main limitation.</strong> The labels are mechanical screen states, not recommendations. It covers only 30 stocks, with settled daily bars and no fundamentals or news. Email, the GitHub Actions schedule and the launchd job were not tested in the guide.</p>
+
+<h3 id="kdb" style="font-family:-apple-system,'Segoe UI',sans-serif;font-weight:700;font-size:1.12em;margin:1.8rem 0 .5rem">global-market-kdb: a cross-sectional signal study in kdb+/q, checked against Python</h3>
+<p>The study builds a date-partitioned database of daily bars, computes twelve signals (reversal, RSI, momentum, trend, 52-week high, low volatility, illiquidity and others) at 5, 10, 21 and 63-day horizons, and runs the statistics. The Python original is kept in <code>python/upstream/</code> as the reference, and <code>python/parity.py</code> runs both and compares every output table row by row.</p>
+<p>It needs q from KDB-X Community Edition (free but licensed) and Python 3.10 or newer. In the guide&rsquo;s run of 5 November 2026 on the bundled synthetic sample, all six output tables matched Python and pytest gave 10 passed. Every signal was rated NOISE, which is the right answer for random data.</p>
+<p><strong>Start here.</strong> Run the parity check on the synthetic sample.</p>
+<pre style="overflow-x:auto;background:#f8f9fa;border:1px solid #dee2e6;border-radius:8px;padding:.75rem 1rem;font-size:.8em;line-height:1.45;white-space:pre"><code>.venv/bin/python python/parity.py</code></pre>
+<p>It loads the CSV into a q database, runs both studies and prints a comparison table ending in PASS (about 10 seconds in the guide&rsquo;s run).</p>
+<p><strong>Code:</strong> <a href="https://github.com/herrrickshaw/global-market-kdb">github.com/herrrickshaw/global-market-kdb</a></p>
+<p><strong>Main limitation.</strong> You need a KDB-X licence to run it. The bundled data is synthetic, so no number it prints says anything about any market. The README&rsquo;s real-data parity rows were not re-run in the guide.</p>
+
+<h3 id="events" style="font-family:-apple-system,'Segoe UI',sans-serif;font-weight:700;font-size:1.12em;margin:1.8rem 0 .5rem">event-driven-stock-analysis: a portfolio-monitor design with a small event bus</h3>
+<p>This is a design-first repository. The README and its architecture documents describe a portfolio monitor with risk metrics, rebalancing and alerts. The code that exists is a FastAPI backend with portfolio, risk, rebalance, alert and report routers, and an <code>EventBus</code> with a <code>PortfolioMonitor</code> class. The sample data is compressed OHLCV files for eight markets.</p>
+<p>In the guide&rsquo;s run of 4 November 2026, feeding the Korea sample through the bus at a 1.5% move threshold produced 20 price-move events for one ticker. The sample prices turned out to be synthetic: tickers are named like KOREA_STOCK_0000 and the dates are in 2023.</p>
+<p><strong>Start here.</strong> Start the API with SQLite from <code>backend/</code>, then open <code>/docs</code>. Install FastAPI, uvicorn and the other packages first, plus pytz and psycopg, which <code>requirements.txt</code> leaves out.</p>
+<pre style="overflow-x:auto;background:#f8f9fa;border:1px solid #dee2e6;border-radius:8px;padding:.75rem 1rem;font-size:.8em;line-height:1.45;white-space:pre"><code>DATABASE_URL=sqlite:///./test.db uvicorn main:app --reload</code></pre>
+<p>The app logs &lsquo;Database initialized&rsquo; and &lsquo;API routers registered&rsquo;; GET / returns the app name and version 0.1.0.</p>
+<p><strong>Code:</strong> <a href="https://github.com/herrrickshaw/event-driven-stock-analysis">github.com/herrrickshaw/event-driven-stock-analysis</a></p>
+<p><strong>Main limitation.</strong> Treat it as a design plus a skeleton. In the guide&rsquo;s run pytest gave 0 passed and 6 errors (missing fixtures, and two packages absent from <code>requirements.txt</code>), <code>/health</code> returned 404, and the pinned package versions are old. The README&rsquo;s target returns and Sharpe ratios are design goals, not results.</p>
+
+<h2 class="gb-h2">Worked example: one daily brief, end to end (market-brief-base)</h2>
+<p>This is the run recorded in the market-brief-base guide on 6 November 2026, on Python 3.11 with the pinned versions (yfinance 0.2.66, pandas 2.3.3), in a fresh clone and a throwaway virtual environment.</p>
+<p><strong>1. Get the code and build the environment.</strong></p>
+<pre style="overflow-x:auto;background:#f8f9fa;border:1px solid #dee2e6;border-radius:8px;padding:.75rem 1rem;font-size:.8em;line-height:1.45;white-space:pre"><code>git clone https://github.com/herrrickshaw/market-brief-base.git
+cd market-brief-base
+python3 -m venv .venv &amp;&amp; source .venv/bin/activate
+pip install -r requirements.txt</code></pre>
+<p><strong>2. Check the signal logic offline.</strong> No network is needed.</p>
+<pre style="overflow-x:auto;background:#f8f9fa;border:1px solid #dee2e6;border-radius:8px;padding:.75rem 1rem;font-size:.8em;line-height:1.45;white-space:pre"><code>python brief.py --self-test
+  PASS  decisive break above the box is BREAKOUT_BUY
+  PASS  decisive break below the box is BREAKDOWN_SELL
+  PASS  a NaN final close is NO_DATA, not a fabricated zero
+  PASS  sma returns None rather than inventing a short average
+  PASS  sma ignores NaN instead of treating it as zero
+  email: not configured (SMTP_USER, SMTP_PASS, SMTP_TO) — skipping send
+  PASS  unconfigured send skips cleanly instead of raising
+  self-test: OK</code></pre>
+<p>Trimmed; there were 12 PASS lines in all.</p>
+<p><strong>3. Fetch live bars and write the brief.</strong></p>
+<pre style="overflow-x:auto;background:#f8f9fa;border:1px solid #dee2e6;border-radius:8px;padding:.75rem 1rem;font-size:.8em;line-height:1.45;white-space:pre"><code>python brief.py --out brief.html
+  India: 15/15 priced
+  US: 15/15 priced
+  wrote brief.html (7,086 bytes)</code></pre>
+<p>The run took about 7.6 seconds. Five of the 30 rows in the HTML table, for bars dated 4 and 5 November 2026:</p>
+<pre style="overflow-x:auto;background:#f8f9fa;border:1px solid #dee2e6;border-radius:8px;padding:.75rem 1rem;font-size:.8em;line-height:1.45;white-space:pre"><code>Symbol       Close      As of       Day     Trend         Darvas
+TCS.NS       2,436.00   2026-11-04  -2.52%  Death Cross   IN_BOX
+TITAN.NS     4,754.40   2026-11-04  +4.22%  Golden Cross  BREAKOUT_BUY
+AAPL         344.17     2026-11-05  -1.53%  Golden Cross  IN_BOX
+MSFT         535.93     2026-11-05  -3.58%  Golden Cross  IN_BOX
+NVDA         181.60     2026-11-05  -9.26%  Golden Cross  BREAKDOWN_SELL</code></pre>
+<p>India and US rows carry different bar dates because the markets close at different times, and the date is printed on every row. A stock can show BREAKOUT_BUY and Death Cross together, because the Darvas box and the 50/200-day cross measure different things. These are one day&rsquo;s mechanical screen states from public Yahoo Finance data, not current prices and not advice; your run will differ.</p>
+
+<h2 class="gb-h2">What these tools do not do</h2>
+<ul>
+<li><strong>They do not give investment advice.</strong> Every guide in this group says so. The labels, shortlists and model outputs are research and teaching material, not recommendations to buy or sell.</li>
+<li><strong>They do not supply audited data.</strong> The ticker list, the fundamentals collector and the daily brief rely on Yahoo Finance through yfinance: third-party, unaudited, rate-limited, and covered by Yahoo&rsquo;s terms.</li>
+<li><strong>They are not live.</strong> The ticker list&rsquo;s validated flat file is dated July 2026 in its README, the correlation windows end on different dates per market, and nothing refreshes them automatically.</li>
+<li><strong>Some samples are synthetic.</strong> The kdb+/q study&rsquo;s bundled data and the event-bus sample prices are generated; no figure from them describes a real market.</li>
+<li><strong>Some cannot be rebuilt from the repo alone.</strong> The correlation rebuild needs a price warehouse that is not included, and the kdb+/q study needs a KDB-X licence.</li>
+<li><strong>Dates in the data are not always real dates.</strong> The fundamentals &lsquo;filed&rsquo; column is an assumption, so the output is not suitable for strict point-in-time backtests.</li>
+<li><strong>Not every repo is finished.</strong> event-driven-stock-analysis is a design and a skeleton whose tests did not run in the guide&rsquo;s demo.</li>
+</ul>
+
+<h2 class="gb-h2">Sources and caveats</h2>
+<div class="gb-card">
+<p class="gb-note" style="margin:0">Code: <a href="https://github.com/herrrickshaw/global-ticker-universe">github.com/herrrickshaw/global-ticker-universe</a>; <a href="https://github.com/herrrickshaw/colab-market-fundamentals">github.com/herrrickshaw/colab-market-fundamentals</a>; <a href="https://github.com/herrrickshaw/market-correlation-matrices">github.com/herrrickshaw/market-correlation-matrices</a>; <a href="https://github.com/herrrickshaw/financial-analysis-toolkit-public">github.com/herrrickshaw/financial-analysis-toolkit-public</a>; <a href="https://github.com/herrrickshaw/market-brief-base">github.com/herrrickshaw/market-brief-base</a>; <a href="https://github.com/herrrickshaw/global-market-kdb">github.com/herrrickshaw/global-market-kdb</a>; <a href="https://github.com/herrrickshaw/event-driven-stock-analysis">github.com/herrrickshaw/event-driven-stock-analysis</a>. This page replaces the separate how-to guides for these seven repositories, written between 18 October and 6 November 2026. Every command, output and figure here is taken from those guides&rsquo; own demo runs, on the dates given in the text. Where a README and a fresh run disagreed (the ticker count; the correlation rebuild), both are noted and the run is used. The earlier five-toolkits guide also covered four non-finance toolkits; they are outside this page. Market data comes from Yahoo Finance via yfinance or from synthetic samples, as stated per tool. Not investment advice: this is research and education material; nothing here is a recommendation to buy or sell anything.</p>
+</div>
+
+<div class="gb-related">
+<strong>Related on this blog:</strong>
+<a href="https://blog.vertistratsolution.com/2026/08/what-seven-model-stock-portfolios-look.html">What Seven Model Stock Portfolios Look Like Once You Check Them Against the Index</a>
+<a href="https://blog.vertistratsolution.com/2026/10/how-to-use-five-open-toolkits-finance.html">How to use five open toolkits: finance models, documents, care audits</a>
+<a href="https://blog.vertistratsolution.com/2026/08/do-cheap-stocks-stay-cheap-price-band.html">Do Cheap Stocks Stay Cheap? Price-Band Migration and What K-Means Clustering Actually Finds</a>
+<a href="https://blog.vertistratsolution.com/2026/08/050-is-its-own-category-diving-into.html">Below ₹250 Is Where the Real Risk Lives: Splitting India&#x27;s Cheapest Stocks Four Ways</a>
+<a href="https://blog.vertistratsolution.com/2026/08/article-index-start-here.html">All articles (index)</a>
+</div>
+
+<p class="disclaimer" data-gs-ai-disclosure-v1="1"><strong>About this article:</strong> Researched, written and edited by Umashankar Triplicane Dwarakanathan, with AI research assistance; every figure is meant to trace to the primary source cited. See the <a href="https://blog.vertistratsolution.com/p/disclaimer.html">Editorial Policy</a> for how sourcing, AI use and corrections work.</p>
+
+</div>
+
+<div id="gs-idx"></div><script defer="defer" src="https://herrrickshaw.github.io/masaladeutsch/accordion.js"></script>
