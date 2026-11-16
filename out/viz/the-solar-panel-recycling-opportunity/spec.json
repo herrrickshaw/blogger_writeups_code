@@ -1,34 +1,121 @@
-{"top": [["68%", " of P1's recurring cost is buying the waste module: ₹27,300 a tonne, the same in both pathways."],
-          ["₹10,230", " a tonne is the net loss on mechanical recycling at today's input prices; chemical recycling loses ₹12,341."]],
+{
+ "top": [
+  [
+   "68%",
+   " of P1's recurring cost is buying the waste module: ₹27,300 a tonne, the same in both pathways."
+  ],
+  [
+   "₹10,230",
+   " a tonne is the net loss on mechanical recycling at today's input prices; chemical recycling loses ₹12,341."
+  ]
+ ],
  "sections": [
-  {"h2": "Buying the waste module is the largest single cost in both pathways",
-   "chart": {"type": "bars", "title": "Buying the waste module costs more than processing or collection",
-             "sub": "Cost per tonne of module waste, P1 (Mechanical), ₹.", "source": "CEEW (Kale & Tyagi, November 2025).",
-             "unit": "₹/tonne", "accent": "Waste procurement",
-             "rows": [["Waste procurement", 27300], ["Processing", 8378], ["Collection", 4454]]},
+  {
+   "h2": "Buying the waste module is the largest single cost in both pathways",
+   "chart": {
+    "type": "bars",
+    "title": "Buying the waste module costs more than processing or collection",
+    "sub": "Cost per tonne of module waste, P1 (Mechanical), ₹.",
+    "source": "CEEW (Kale & Tyagi, November 2025).",
+    "unit": "₹/tonne",
+    "accent": "Waste procurement",
+    "rows": [
+     [
+      "Waste procurement",
+      27300
+     ],
+     [
+      "Processing",
+      8378
+     ],
+     [
+      "Collection",
+      4454
+     ]
+    ]
+   },
    "means": "Waste procurement is 68% of P1's recurring cost and identical in P2, so the input price drives the loss.",
    "todo": "Treat the waste-acquisition price as the policy target, through mandated hand-over from developers and insurers rather than open bidding.",
-   "numbers": {"table": "T1"}},
-  {"h2": "Both pathways lose money on every tonne of solar waste they process",
-   "chart": {"type": "bars", "title": "Chemical recycling recovers more but still loses more per tonne",
-             "sub": "Net result per tonne of module waste, ₹.", "source": "CEEW (Kale & Tyagi, November 2025).",
-             "unit": "₹/tonne", "accent": "P2 (Chemical)",
-             "rows": [["P1 (Mechanical)", -10230], ["P2 (Chemical)", -12341]]},
+   "numbers": {
+    "table": "T1"
+   }
+  },
+  {
+   "h2": "Both pathways lose money on every tonne of solar waste they process",
+   "chart": {
+    "type": "bars",
+    "title": "Chemical recycling recovers more but still loses more per tonne",
+    "sub": "Net result per tonne of module waste, ₹.",
+    "source": "CEEW (Kale & Tyagi, November 2025).",
+    "unit": "₹/tonne",
+    "accent": "P2 (Chemical)",
+    "rows": [
+     [
+      "P1 (Mechanical)",
+      -10230
+     ],
+     [
+      "P2 (Chemical)",
+      -12341
+     ]
+    ]
+   },
    "means": "P2 recovers 23% more revenue than P1, but its processing cost is nearly double, so it still loses ₹12,341 a tonne.",
-   "todo": "Start the EPR collection-and-recycling targets from 2027, as CEEW recommends, rather than waiting for the 2034-35 storage window."},
-  {"h2": "Both pathways break even only at waste-module prices well below market",
-   "chart": {"type": "bars", "title": "The market price for waste modules sits above both break-even points",
-             "sub": "Procurement cost per waste module, ₹.", "source": "CEEW (Kale & Tyagi, November 2025).",
-             "unit": "₹/module", "accent": "Market rate for a waste module",
-             "rows": [["Market rate for a waste module", 600], ["P1 break-even", 375], ["P2 break-even", 330]]},
+   "todo": "Start the EPR collection-and-recycling targets from 2027, as CEEW recommends, rather than waiting for the 2034-35 storage window."
+  },
+  {
+   "h2": "Both pathways break even only at waste-module prices well below market",
+   "chart": {
+    "type": "bars",
+    "title": "The market price for waste modules sits above both break-even points",
+    "sub": "Procurement cost per waste module, ₹.",
+    "source": "CEEW (Kale & Tyagi, November 2025).",
+    "unit": "₹/module",
+    "accent": "Market rate for a waste module",
+    "rows": [
+     [
+      "Market rate for a waste module",
+      600
+     ],
+     [
+      "P1 break-even",
+      375
+     ],
+     [
+      "P2 break-even",
+      330
+     ]
+    ]
+   },
    "means": "P1 breaks even at ₹375 a module and P2 at ₹330, both well below the market rate of about ₹600.",
-   "todo": "Use the mechanisms CEEW models, such as extending EPR-certificate trading to copper, then silver and silicon, to close that gap."},
-  {"h2": "India's installed solar fleet has grown more than fourfold since 2019",
-   "chart": {"type": "bars", "title": "Installed solar capacity rose from about 35 GW to 164.6 GW",
-             "sub": "Installed solar capacity, GW (AC).", "source": "CEEW (Kale & Tyagi, November 2025); MNRE data via SolarQuarter; PV Waste Management in India (2021).",
-             "unit": "GW", "accent": "31 July 2026",
-             "rows": [["2019/2020 snapshot", 35], ["31 July 2026", 164.6]]},
+   "todo": "Use the mechanisms CEEW models, such as extending EPR-certificate trading to copper, then silver and silicon, to close that gap."
+  },
+  {
+   "h2": "India's installed solar fleet has grown more than fourfold since 2019",
+   "chart": {
+    "type": "bars",
+    "title": "Installed solar capacity rose from about 35 GW to 164.6 GW",
+    "sub": "Installed solar capacity, GW (AC).",
+    "source": "CEEW (Kale & Tyagi, November 2025); MNRE data via SolarQuarter; PV Waste Management in India (2021).",
+    "unit": "GW",
+    "accent": "31 July 2026",
+    "rows": [
+     [
+      "2019/2020 snapshot",
+      35
+     ],
+     [
+      "31 July 2026",
+      164.6
+     ]
+    ]
+   },
    "means": "Modules on 25–30-year hardware turn today's small waste stream into a much larger one, from a 2021 high scenario of 34 kt by 2030.",
-   "todo": "Set EPR collection and recycling targets now, before the fleet reaches end of life, as CEEW proposes."}
+   "todo": "Set EPR collection and recycling targets now, before the fleet reaches end of life, as CEEW proposes."
+  }
  ],
- "derived": {}}
+ "derived": {},
+ "update_notes": [
+  "<p><strong>Updated 16 November 2026:</strong> India's cumulative solar capacity was 1,71,051 MW on 30 September 2026 on the Ministry of New and Renewable Energy's physical progress page, as reported by <a href=\"https://spiritofchennai.com/tamil-nadu-wind-solar-capacity-2026\">Spirit of Chennai, 18 October 2026</a>. The 164.6 GW figure below is for 31 July 2026.</p>"
+ ]
+}
