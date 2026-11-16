@@ -1,0 +1,59 @@
+{
+ "top": [
+  ["18.12%", " reported rural wage growth to March 2026 on the new sample, against a break-adjusted estimate of around 4.3%."],
+  ["11%", " of sample villages now come from regions that hold 1.15% of rural population."]
+ ],
+ "sections": [
+  {"h2": "Reported rural wage growth jumped to 18.12% when the sample changed",
+   "chart": {"type": "bars",
+             "title": "Break-adjusted growth is around 4.3%, far below the reported 18.12%",
+             "sub": "Year-on-year wage growth, per cent. Same statistic, two different sets of villages.",
+             "source": "Labour Bureau; analyst break-adjusted estimate, not official.",
+             "unit": "%",
+             "accent": "New sample, year to March 2026",
+             "rows": [["Old sample, year to June 2025", 6.23],
+                      ["New sample, year to March 2026", 18.12],
+                      ["Break-adjusted, March 2026", 4.3, "analyst estimate"]]},
+   "means": "Reported all-occupation wage growth rose after the Bureau changed its sample, while the break-adjusted estimate is far lower.",
+   "todo": "Publish an official back-series on the old sample so wage growth can be compared like for like."
+  },
+  {"h2": "Newly added regions supply 11% of sample villages but hold 1.15% of rural population",
+   "chart": {"type": "bars",
+             "title": "The added regions are close to ten times over-represented in the sample",
+             "sub": "Share of total, per cent.",
+             "source": "Labour Bureau; Census 2011.",
+             "unit": "%",
+             "accent": "Sample villages, revised series",
+             "rows": [["Sample villages, revised series", 11],
+                      ["Rural population, 2011 Census", 1.15],
+                      ["Rural workforce, 2011 Census", 1.22]]},
+   "means": "A national average built on this sample rises whether or not anyone is paid more.",
+   "todo": "Publish an official back-series that weights regions by population so the average is not driven by sample design."
+  },
+  {"h2": "Agricultural labourers' measured inflation rose from 1.73% to 6.30% by September 2026",
+   "chart": {"type": "bars",
+             "title": "The 1.73% first print would justify almost no wage revision if applied mechanically",
+             "sub": "Year-on-year inflation for agricultural labourers, per cent.",
+             "source": "MoSPI; Labour Bureau.",
+             "unit": "%",
+             "accent": "CPI-AL, June 2025",
+             "rows": [["CPI-AL, June 2025", 1.73],
+                      ["CPI-AL, September 2026", 6.30]]},
+   "means": "The first CPI-AL print of 1.73% was the input a wage formula would have used, yet inflation later reached 6.30%.",
+   "todo": "Flag the sample break in the CPI-AL publication, which the post says still does not do so."
+  },
+  {"h2": "The replacement scheme's average wage is ₹327.4 a day, up from ₹298.8",
+   "chart": {"type": "bars",
+             "title": "The average scheme wage rises about 10% under VB-G RAM G",
+             "sub": "Average wage under the rural employment guarantee, ₹ per day.",
+             "source": "Ministry of Rural Development; VB-G RAM G Act, 2025.",
+             "unit": "₹ per day",
+             "accent": "VB-G RAM G, 2025",
+             "rows": [["MGNREGA, 2005", 298.8, "₹298.8/day"],
+                      ["VB-G RAM G, 2025", 327.4, "₹327.4/day"]]},
+   "means": "The average wage under the replacement scheme is ₹28.6 a day higher, but states now pay most of the wage bill.",
+   "todo": "Resolve the 60:40 funding dispute, since Punjab and Telangana have asked for more central support."
+  }
+ ],
+ "derived": {}
+}

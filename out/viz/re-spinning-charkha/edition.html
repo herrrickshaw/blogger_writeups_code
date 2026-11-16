@@ -1,0 +1,171 @@
+<div class="gs-head-order" style="display:flex;flex-direction:column">
+<p style="order:4" class="dek">Dhirubhai Ambani built one company backward from cloth to crude to escape India's yarn-import bill. Sixty years on, ethanol blending is trying to do the same thing at national scale — not for one company this time, but for an entire industry.</p>
+<div class="topnav-index-link" style="order:1;font-size:.82em;margin:6px 0 14px"><a href="https://blog.vertistratsolution.com/2026/08/article-index-start-here.html" style="color:#0b5394;text-decoration:none">← All Articles (Index)</a></div>
+<h1 style="order:3">Indian textiles and petrochemicals: the backward integration from cloth to crude</h1>
+</div>
+
+<a href="#" id="gs-skip-link" class="gs-skip-link" style="position:absolute;left:-9999px;top:auto;background:#1a1a1a;color:#fff;padding:.6rem 1rem;z-index:1000;border-radius:4px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.85rem">Skip to article content</a>
+<style>.gs-skip-link:focus{left:8px!important;top:8px!important}
+.gs-a11y-bar{display:flex;align-items:center;gap:.55rem;flex-wrap:wrap;background:#f4f5f7;border:1px solid #dfe3e8;border-radius:8px;padding:.55rem .8rem;margin:10px 0 16px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
+.gs-a11y-bar .gs-a11y-label{font-size:.68rem;font-weight:700;letter-spacing:.08em;color:#666;text-transform:uppercase;margin-right:.15rem}
+.gs-a11y-bar button{cursor:pointer;border:1px solid #c7cbd1;background:#fff;color:#1a1a1a;border-radius:5px;padding:.32rem .65rem;font-family:inherit;line-height:1}
+.gs-a11y-bar button.gs-a11y-fs{font-weight:700;min-width:2rem;text-align:center}
+.gs-a11y-bar button.gs-a11y-fs[data-size="sm"]{font-size:.8rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="md"]{font-size:1rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="lg"]{font-size:1.2rem}
+.gs-a11y-bar button.gs-a11y-fs[aria-pressed="true"]{background:#1a1a1a;color:#fff;border-color:#1a1a1a}
+.gs-a11y-bar button:hover{border-color:#8a4b08}
+.gs-a11y-bar button:focus-visible{outline:2px solid #8a4b08;outline-offset:1px}
+.gs-a11y-bar .gs-a11y-sep{width:1px;align-self:stretch;background:#dfe3e8;margin:0 .1rem}</style>
+<div class="gs-a11y-bar" role="group" aria-label="Accessibility controls">
+<span class="gs-a11y-label">Text Size</span>
+<button type="button" class="gs-a11y-fs" data-size="sm" aria-pressed="false" aria-label="Small text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="md" aria-pressed="true" aria-label="Medium text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="lg" aria-pressed="false" aria-label="Large text">A</button>
+<span class="gs-a11y-sep"></span>
+<button type="button" id="gs-a11y-listen" aria-label="Read this article aloud">&#128266; Listen</button>
+<button type="button" id="gs-a11y-stop" aria-label="Stop reading aloud">&#9632; Stop</button>
+</div>
+<script>(function(){
+var KEY='gs-a11y-fontsize', SIZES={sm:'0.92',md:'1',lg:'1.15'};
+function pb(){return document.querySelector('.post-body')||document.querySelector('.artx,.mdrx');}
+function apply(sz){
+  var el=pb(); if(!el||!SIZES[sz]) return;
+  el.style.fontSize=SIZES[sz]+'em';
+  var btns=document.querySelectorAll('.gs-a11y-fs');
+  for(var i=0;i<btns.length;i++){
+    var on=btns[i].getAttribute('data-size')===sz;
+    btns[i].setAttribute('aria-pressed', on?'true':'false');
+  }
+  try{localStorage.setItem(KEY,sz);}catch(e){}
+}
+var fsBtns=document.querySelectorAll('.gs-a11y-fs');
+for(var j=0;j<fsBtns.length;j++){
+  fsBtns[j].addEventListener('click',(function(b){return function(){apply(b.getAttribute('data-size'));};})(fsBtns[j]));
+}
+var saved; try{saved=localStorage.getItem(KEY);}catch(e){}
+apply(saved&&SIZES[saved]?saved:'md');
+
+var listenBtn=document.getElementById('gs-a11y-listen'), stopBtn=document.getElementById('gs-a11y-stop');
+if(listenBtn){
+  listenBtn.addEventListener('click', function(){
+    if(!('speechSynthesis' in window)){ alert('Text-to-speech is not supported in this browser.'); return; }
+    window.speechSynthesis.cancel();
+    var src=pb(); if(!src) return;
+    var clone=src.cloneNode(true);
+    var strip=clone.querySelectorAll('script,style,svg');
+    for(var k=0;k<strip.length;k++){ strip[k].parentNode.removeChild(strip[k]); }
+    var text=clone.textContent.replace(/\s+/g,' ').trim();
+    if(!text) return;
+    var chunks=text.match(/[\s\S]{1,180}(?:[.!?]|$)/g)||[text];
+    var idx=0;
+    function speakNext(){
+      if(idx>=chunks.length) return;
+      var u=new SpeechSynthesisUtterance(chunks[idx]);
+      u.onend=function(){ idx++; speakNext(); };
+      window.speechSynthesis.speak(u);
+    }
+    speakNext();
+  });
+}
+if(stopBtn){
+  stopBtn.addEventListener('click', function(){
+    if('speechSynthesis' in window) window.speechSynthesis.cancel();
+  });
+}
+var skip=document.getElementById('gs-skip-link');
+if(skip){
+  skip.addEventListener('click', function(ev){
+    ev.preventDefault();
+    var h=document.querySelector('.post-body h1')||document.querySelector('.artx h1,.mdrx h1,h1');
+    if(h){ h.setAttribute('tabindex','-1'); h.focus(); h.scrollIntoView(); }
+  });
+}
+})();</script>
+<style>.goog-te-menu-frame{max-width:340px!important;max-height:70vh!important;overflow:auto!important;box-shadow:0 6px 24px rgba(0,0,0,.25)!important}</style><div id="google_translate_element" style="margin:8px 0 16px;"></div><script type="text/javascript">function googleTranslateElementInit(){new google.translate.TranslateElement({pageLanguage:"en",includedLanguages:"hi,bn,ta,te,mr,gu,kn,ml,pa,or,as,ur,sa,ne,sd",layout:google.translate.TranslateElement.InlineLayout.SIMPLE},"google_translate_element");}</script><script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+<div class="artx"><style>
+.xv-top,.xv,.xv-flow,.xv-so,.xv-n{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif}
+.xv-top{border-left:4px solid #2251FF;background:#F4F7FB;padding:1rem 1.1rem;margin:1.2rem 0 1.8rem;border-radius:0 10px 10px 0}
+.xv-top .xv-eb{font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;color:#43535F;font-weight:700;margin:0 0 .6rem}
+.xv-top ul{list-style:none;margin:0;padding:0}
+.xv-top li{margin:0 0 .85rem;padding:0;line-height:1.45;color:#0B1F2D;font-size:1rem}
+.xv-top li:last-child{margin-bottom:0}
+.xv-top .xv-k{display:block;font-size:1.65rem;font-weight:800;letter-spacing:-.02em;line-height:1.15;color:#0B1F2D}
+.xv{margin:1.1rem 0 1.4rem;padding:0;max-width:640px}
+.xv figcaption{margin:0 0 .7rem}
+.xv .xv-t{display:block;font-size:1.05rem;font-weight:700;line-height:1.35;color:#0B1F2D}
+.xv .xv-u{display:block;font-size:.82rem;color:#43535F;margin-top:.15rem;line-height:1.4}
+.xv .xv-key{font-size:.8rem;color:#43535F;margin:0 0 .5rem;line-height:1.4}
+.xv .xv-key i{display:inline-block;width:2px;height:.9em;background:#0B1F2D;vertical-align:-.1em;margin-right:.35em}
+.xv .xv-r{margin:0 0 .7rem}
+.xv .xv-l{display:flex;justify-content:space-between;align-items:baseline;gap:.75rem;font-size:.88rem;line-height:1.3;color:#0B1F2D;margin:0 0 .22rem}
+.xv .xv-l>span{min-width:0}
+.xv .xv-l small{color:#43535F;font-size:.92em}
+.xv .xv-tk{position:relative;display:flex;align-items:center;min-height:16px}
+.xv .xv-b{display:block;height:14px;min-width:3px;background:#A9B4BF;border-radius:0 4px 4px 0;flex:none}
+.xv .xv-b.xv-float{border-radius:4px}
+.xv .xv-hi .xv-b{background:#2251FF}
+.xv .xv-v{font-size:.88rem;font-weight:600;color:#0B1F2D;white-space:nowrap;font-variant-numeric:tabular-nums;flex:none}
+.xv .xv-hi .xv-v{font-weight:800}
+.xv .xv-tk.xv-div{display:block;height:14px}
+.xv .xv-div .xv-b{position:absolute;top:0;border-radius:4px}
+.xv .xv-div .xv-neg{background:#7d8a96}
+.xv .xv-hi .xv-div .xv-neg,.xv .xv-hi.xv-divrow .xv-neg{background:#2251FF}
+.xv .xv-none{display:block;flex:1;height:12px;border:1.5px dashed #2251FF;background:#E9EEFF;border-radius:4px}
+.xv .xv-m{position:absolute;top:-3px;bottom:-3px;width:2px;background:#0B1F2D}
+.xv .xv-svg{display:block;width:100%;height:auto}
+.xv .xv-svg.xv-wide{display:none}
+@media (min-width:600px){.xv .xv-svg.xv-narrow{display:none}.xv .xv-svg.xv-wide{display:block}}
+.xv .xv-leg{font-size:.8rem;color:#43535F;margin:.1rem 0 .5rem}
+.xv .xv-leg span{margin-right:.9rem;white-space:nowrap}
+.xv .xv-leg i{display:inline-block;width:14px;height:3px;border-radius:2px;vertical-align:middle;margin-right:.35rem}
+.xv .xv-s{font-size:.75rem;color:#43535F;margin:.6rem 0 0;line-height:1.45}
+.xv-flow{list-style:none;margin:1rem 0 1.4rem;padding:0 0 0 18px;border-left:2px solid #D9E1E8;max-width:640px}
+.xv-flow li{position:relative;margin:0 0 1rem;padding:0 0 0 .4rem;line-height:1.45;font-size:.92rem;color:#0B1F2D}
+.xv-flow li::before{content:"";position:absolute;left:-24px;top:.3rem;width:10px;height:10px;border-radius:50%;background:#A9B4BF;box-shadow:0 0 0 3px #fff}
+.xv-flow li.xv-hi::before{background:#2251FF}
+.xv-flow b{display:block;font-size:.78rem;letter-spacing:.06em;text-transform:uppercase;color:#43535F}
+.xv-sec .xv-so{font-size:.98rem;line-height:1.55;color:#0B1F2D;background:#F4F7FB;border-radius:8px;padding:.75rem .9rem;margin:.4rem 0 1.6rem}
+.xv-sec .xv-so p{margin:0;max-width:none}
+.xv-sec .xv-so p+p{margin-top:.55rem}
+.xv-sec .xv-so b{color:#0B1F2D}
+.xv-n{margin:.2rem 0 1.4rem;font-size:.85rem}
+.xv-n summary{cursor:pointer;color:#0b5394;font-weight:600;padding:.3rem 0}
+.xv-n table{margin:.5rem 0 0}
+</style>
+<div class="xv-top"><p class="xv-eb">Top line</p><ul><li><span class="xv-k">$19.6bn</span> combined Chapter 29 and 39 deficit in FY2025-26, down from $20.4bn in FY2024-25.</li><li><span class="xv-k">45%</span> of India's organic-chemical (Chapter 29) imports in FY2025-26 came from China.</li><li><span class="xv-k">33 years</span> from Naroda's fabric mill in 1966 to the Jamnagar refinery in 1999.</li></ul></div>
+<figure style="margin:1.6rem 0">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Charkha_%28spinning_wheel%291.jpg/960px-Charkha_%28spinning_wheel%291.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail" alt="A giant wooden charkha, the traditional hand-spinning wheel that gives this piece on Reliance's backward integration its title" loading="lazy" style="width:100%;height:auto;border-radius:6px;display:block"/>
+<figcaption class="gb-note" style="margin-top:.4rem">Gandhi's charkha and Reliance's refineries share one goal, a century apart: stop paying someone else for the thread. <a href="https://commons.wikimedia.org/wiki/File:Charkha_(spinning_wheel)1.jpg" rel="noopener noreferrer">Charkha (spinning wheel)1</a>, Janak Bhatta, CC BY-SA 4.0, via Wikimedia Commons.</figcaption>
+</figure><div class="warn" style="border-left:4px solid #a5402c;background:rgba(165,64,44,.07);padding:.8em 1em;margin:1.2em 0;border-radius:4px"><b>Updated 12 November 2026.</b> Recomputed from TradeStat (DGCI&amp;S) chapter-level data, India&rsquo;s combined Chapter 29 + 39 trade deficit was <b>$19.6 billion in FY2025-26</b> and $20.4 billion in FY2024-25. This piece previously tied the $20.4 billion figure to FY2025-26 and described $19.6 billion as TradeStat&rsquo;s &ldquo;running total&rdquo;; in fact $20.4 billion is the full FY2024-25 deficit and $19.6 billion the full FY2025-26 deficit. The year labels here now match the companion post From Fuel to Fibre. Between the two years the organic-chemicals (Chapter 29) deficit narrowed from $6.5 billion to $5.0 billion while the plastics (Chapter 39) deficit widened from $14.0 billion to $14.6 billion. For April&ndash;August 2026, the latest month TradeStat has published, the combined deficit is $9.5 billion, against $9.3 billion in April&ndash;August 2025. The rounded &ldquo;$20bn&rdquo; used elsewhere in this piece holds for both years.</div><div class="warn" style="border-left:4px solid #a5402c;background:rgba(165,64,44,.07);padding:.8em 1em;margin:1.2em 0;border-radius:4px"><b>Updated 7 November 2026.</b> Provisional FY2025-26 TradeStat figures, as compiled in this blog's <a href="https://blog.vertistratsolution.com/2026/10/how-to-use-india-trade-data-analysis.html">india-trade-data-analysis dataset</a>, put Chapter 39 (plastics) imports at $22.2 billion and Chapter 29 (organic chemicals) at $25.4 billion, a combined $47.6 billion against $48.7 billion in FY2024-25. Recomputed from TradeStat on 12 November 2026, the combined deficit is $19.6 billion for FY2025-26 and $20.4 billion for FY2024-25; this piece and the companion post From Fuel to Fibre now use the same year labels. Ethanol blending has held at 20% in every month of the 2025-26 supply year, so the naphtha-freeing mechanism below is unchanged.</div><div class="warn" style="border-left:4px solid #a5402c;background:rgba(165,64,44,.07);padding:.8em 1em;margin:1.2em 0;border-radius:4px"><b>Updated 22 October 2026.</b> This piece describes all seven PM MITRA parks as still under construction. The first, the Kakatiya Mega Textile Park at Warangal in Telangana, was inaugurated by the Prime Minister on 10 May 2026, before this piece was published. Textile Excellence and others report that commercial production has started there, with about 62% of the land allotted, though Deccan Chronicle's coverage suggests work is still being completed. Apparel Resources reports that the Madhya Pradesh park has entered its execution phase with its first textile units. The point about coordinating many companies and two ministries is unchanged. Sources: <a href="https://textileexcellence.com/single-news/6941/pm-modi-inaugurates-india-s-first-operational-pm-mitra-park-in-warangal">Textile Excellence</a>, <a href="https://www.deccanchronicle.com/southern-states/telangana/centre-finalises-warangal-among-7-sites-for-pm-mitra-parks-1978319">Deccan Chronicle</a>, <a href="https://apparelresources.com/business-news/manufacturing/mp-pm-mitra-park-enters-execution-phase-first-textile-units/">Apparel Resources</a>. <i>The original text below is unchanged.</i></div><p class="gb-note"><b>Updated 15 November 2026:</b> rewritten as charts; figures unchanged.</p>
+<section class="xv-sec"><h2 class="gb-h2">The feedstock deficit barely moved, from $20.4bn to $19.6bn in a year</h2>
+<figure class="xv" aria-labelledby="xv1"><figcaption><span class="xv-t" id="xv1">Plastics deficit widened while the organic-chemicals deficit narrowed</span><span class="xv-u">Trade deficit by TradeStat chapter, $ billion.</span></figcaption><div class="xv-r" title="Organic chemicals (Ch29), FY2024-25: $6.5 bn"><div class="xv-l"><span>Organic chemicals (Ch29), FY2024-25</span><b class="xv-v">$6.5 bn</b></div><div class="xv-tk"><i class="xv-b" style="width:44.52%"></i></div></div><div class="xv-r" title="Organic chemicals (Ch29), FY2025-26: $5 bn"><div class="xv-l"><span>Organic chemicals (Ch29), FY2025-26</span><b class="xv-v">$5 bn</b></div><div class="xv-tk"><i class="xv-b" style="width:34.25%"></i></div></div><div class="xv-r" title="Plastics (Ch39), FY2024-25: $14 bn"><div class="xv-l"><span>Plastics (Ch39), FY2024-25</span><b class="xv-v">$14 bn</b></div><div class="xv-tk"><i class="xv-b" style="width:95.89%"></i></div></div><div class="xv-r xv-hi" title="Plastics (Ch39), FY2025-26: $14.6 bn"><div class="xv-l"><span>Plastics (Ch39), FY2025-26</span><b class="xv-v">$14.6 bn</b></div><div class="xv-tk"><i class="xv-b" style="width:100.00%"></i></div></div><p class="xv-s">DGCI&S TradeStat, chapter-level data.</p></figure>
+<div class="xv-so"><p><b>What it means:</b> The combined deficit eased slightly, but plastics imports rose while organic chemicals fell.</p><p><b>What to do:</b> Track the Chapter 39 deficit each month in TradeStat to see whether it keeps widening.</p></div></section>
+<section class="xv-sec"><h2 class="gb-h2">China alone supplied 45% of organic-chemical imports in FY2025-26</h2>
+<figure class="xv" aria-labelledby="xv2"><figcaption><span class="xv-t" id="xv2">China's organic-chemical imports dwarf those of any other listed supplier</span><span class="xv-u">Chapter 29 organic-chemical imports by country, FY2025-26, USD million.</span></figcaption><div class="xv-r xv-hi" title="China: 11,521.5 USD M"><div class="xv-l"><span>China</span><b class="xv-v">11,521.5</b></div><div class="xv-tk"><i class="xv-b" style="width:100.00%"></i></div></div><div class="xv-r" title="USA: 1,756.6 USD M"><div class="xv-l"><span>USA</span><b class="xv-v">1,756.6</b></div><div class="xv-tk"><i class="xv-b" style="width:15.25%"></i></div></div><div class="xv-r" title="UAE: 161.5 USD M"><div class="xv-l"><span>UAE</span><b class="xv-v">161.5</b></div><div class="xv-tk"><i class="xv-b" style="width:1.40%"></i></div></div><div class="xv-r" title="Russia: 109.3 USD M"><div class="xv-l"><span>Russia</span><b class="xv-v">109.3</b></div><div class="xv-tk"><i class="xv-b" style="width:0.95%"></i></div></div><p class="xv-s">Ministry of Commerce and Industry, TRADESTAT country-wise commodity data, FY2025-26.</p></figure>
+<details class="xv-n"><summary>Show the numbers</summary><div class="gb-tblwrap"><table class="gb-table"><thead><tr><th>Country</th><th>Ch29 Organic Chemicals, FY26 (USD M)</th><th>Ch29 Growth (%)</th><th>Ch39 Plastics, FY26 (USD M)</th><th>Notable MMF-Chapter Growth</th></tr></thead><tbody><tr><td>China</td><td>11,521.5</td><td>+0.4</td><td>6,711.5</td><td>Ch54 man-made filaments +42.5%, Ch55 MMF staple fibre +54.7%</td></tr><tr><td>USA</td><td>1,756.6</td><td>+28.1</td><td>1,438.5</td><td>Cotton (Ch52) +65.1%</td></tr><tr><td>UAE</td><td>161.5</td><td>+45.6</td><td>1,195.8</td><td>Man-made filaments +323% off a small base</td></tr><tr><td>Russia</td><td>109.3</td><td>+87.5</td><td>38.5</td><td>Negligible textile-chapter presence — the India-Russia relationship runs on crude and fertiliser, not fibre feedstock</td></tr></tbody></table></div></details>
+<div class="xv-so"><p><b>What it means:</b> China is the single largest source of the chemistry the ethanol-fed substitution is meant to replace.</p><p><b>What to do:</b> Set a supply-security target for China's share of Chapter 29 imports, reported alongside the deficit.</p></div></section>
+<section class="xv-sec"><h2 class="gb-h2">Reliance spent 33 years building the chain ethanol blending now aims to free</h2>
+<ol class="xv-flow"><li><b>1966</b>First manufacturing plant: woven fabric at Naroda (Vimal brand)</li><li><b>1982</b>Polyester filament yarn at Patalganga; stops importing its core yarn</li><li><b>1991–92</b>Naphtha cracker and fibre intermediates at Hazira</li><li class="xv-hi"><b>1999</b>27 MMTPA Jamnagar refinery, the crude-to-naphtha layer</li></ol>
+<div class="xv-so"><p><b>What it means:</b> Reliance integrated backward one link at a time, financing each plant itself.</p><p><b>What to do:</b> Check whether the post's proposed naphtha-to-fibre route can be followed by several companies in parallel rather than one.</p></div></section>
+<h2 class="gb-h2" id="fixes">What would fix this</h2>
+<ul>
+<li><b>DGCI&amp;S should publish a standing country-wise import table for the main fibre feedstocks &mdash; PTA, MEG, polyethylene, polypropylene, acrylonitrile and caprolactam &mdash; at the 8-digit level</b>, so supplier shares for these monomers come from government data rather than industry trade analytics.</li>
+<li><b>The Department of Chemicals and Petrochemicals and the Ministry of Textiles should publish a joint annual fibre-feedstock balance showing domestic production, imports and consumption of each major monomer</b>, so a chain split across two ministries has one scorecard for the $20bn deficit it is meant to close.</li>
+<li><b>PPAC should publish each year the volume of petrol-range naphtha and reformate freed by ethanol blending and how much of it went to domestic petrochemical units rather than export</b>, so the ethanol-to-fibre pathway this post describes is measured rather than inferred.</li>
+<li><b>The Ministry of Textiles should publish a dated status table for each of the seven PM MITRA parks, listing construction stage, allotted tenants and committed investment</b>, so progress on the distributed version of backward integration can be checked park by park.</li>
+</ul>
+<p>These are proposals from this blog, not recommendations any agency has adopted.</p>
+
+<p class="gb-note" style="font-size:.85em;color:#555">Sources added 7 November 2026: <a href="https://blog.vertistratsolution.com/2026/10/how-to-use-india-trade-data-analysis.html">india-trade-data-analysis dataset</a>.</p>
+<details class="xv-n"><summary>Table: 1. The Original Spin: Cloth to Crude, One License at a Time</summary><div class="gb-tblwrap"><table class="gb-table"><thead><tr><th>Year</th><th>Facility</th><th>What it added</th></tr></thead><tbody><tr><td>1966</td><td>Naroda, Gujarat</td><td>First manufacturing plant — woven &amp; knitted fabric (Vimal brand)</td></tr><tr><td>1982</td><td>Patalganga, Maharashtra</td><td>Polyester filament yarn (PFY), 10,000 tonnes, DuPont technical collaboration — Reliance stops importing its core yarn input</td></tr><tr><td>1985–86</td><td>Patalganga (expansion)</td><td>Second phase; polyester staple fibre (PSF) plant added — first petrochemicals production</td></tr><tr><td>1991–92</td><td>Hazira, Gujarat</td><td>Naphtha cracker + MEG, VCM, PVC, HDPE — the fibre-intermediate layer behind polyester itself</td></tr><tr><td>1996</td><td>Hazira (PP unit)</td><td>Polypropylene, 350 KTA</td></tr><tr><td>1999</td><td>Jamnagar, Gujarat</td><td>27 MMTPA refinery, built in ~33 months — the crude-to-naphtha layer that feeds every cracker upstream of it</td></tr></tbody></table></div></details>
+<details class="xv-n"><summary>Table: 3. The New Spin: Same Chain, Different Engine</summary><div class="gb-tblwrap"><table class="gb-table"><thead><tr><th></th><th>Then (1966–1999)</th><th>Now (2025–2030)</th></tr></thead><tbody><tr><td>Feedstock unlock mechanism</td><td>Capital: Reliance builds its own crackers and refinery</td><td>Policy: ethanol blending frees petrol-range naphtha/reformate nationally</td></tr><tr><td>Who integrates</td><td>One company (Reliance), vertically, over 33 years</td><td>Many companies (BPCL, RIL, Indorama, IOCL, PM MITRA park tenants) in parallel</td></tr><tr><td>Import problem being solved</td><td>Polyester yarn imports (single product line)</td><td>~$20bn/yr Chapter 39+29 plastics &amp; organic-chemical feedstock deficit</td></tr><tr><td>Coordinating institution</td><td>Reliance's own project-execution machine</td><td>National Fibre Mission, PLI for Textiles, PM MITRA, ethanol-blending mandate</td></tr><tr><td>End state sought</td><td>One fully integrated company, crude to cloth</td><td>A self-sufficient national fibre-feedstock base, no single owner</td></tr></tbody></table></div></details>
+<details class="xv-n"><summary>Table: 4. Where the Feedstock Actually Comes From</summary><div class="gb-tblwrap"><table class="gb-table"><thead><tr><th>Country</th><th>Ch29 Organic Chemicals, FY26 (USD M)</th><th>Ch29 Growth (%)</th><th>Ch39 Plastics, FY26 (USD M)</th><th>Notable MMF-Chapter Growth</th></tr></thead><tbody><tr><td>China</td><td>11,521.5</td><td>+0.4</td><td>6,711.5</td><td>Ch54 man-made filaments +42.5%, Ch55 MMF staple fibre +54.7%</td></tr><tr><td>USA</td><td>1,756.6</td><td>+28.1</td><td>1,438.5</td><td>Cotton (Ch52) +65.1%</td></tr><tr><td>UAE</td><td>161.5</td><td>+45.6</td><td>1,195.8</td><td>Man-made filaments +323% off a small base</td></tr><tr><td>Russia</td><td>109.3</td><td>+87.5</td><td>38.5</td><td>Negligible textile-chapter presence — the India-Russia relationship runs on crude and fertiliser, not fibre feedstock</td></tr></tbody></table></div></details>
+<details class="xv-n"><summary>Table: 4. Where the Feedstock Actually Comes From</summary><div class="gb-tblwrap"><table class="gb-table"><thead><tr><th>Feedstock</th><th>Leading suppliers (approx. share)</th></tr></thead><tbody><tr><td>Polyethylene (PE)</td><td>Middle East ~52% (Saudi Arabia, UAE), Asia-Pacific ~31%, North America ~11% (2025 YTD)</td></tr><tr><td>Purified Terephthalic Acid (PTA) — via paraxylene</td><td>South Korea ~60%, Taiwan ~23%, Japan ~12%, China ~2.5%, Spain ~1.5%</td></tr><tr><td>Polypropylene (PP)</td><td>Saudi Arabia, UAE, Singapore as leading suppliers; imports up ~16% YoY (2025 YTD)</td></tr></tbody></table></div></details>
+<details class="xv-n"><summary>Sources cited in the article</summary><ul><li><a href="https://commons.wikimedia.org/wiki/File:Charkha_(spinning_wheel)1.jpg">Charkha (spinning wheel)1</a></li><li><a href="https://textileexcellence.com/single-news/6941/pm-modi-inaugurates-india-s-first-operational-pm-mitra-park-in-warangal">Textile Excellence</a></li><li><a href="https://www.deccanchronicle.com/southern-states/telangana/centre-finalises-warangal-among-7-sites-for-pm-mitra-parks-1978319">Deccan Chronicle</a></li><li><a href="https://apparelresources.com/business-news/manufacturing/mp-pm-mitra-park-enters-execution-phase-first-textile-units/">Apparel Resources</a></li></ul></details>
+
+<p class="disclaimer" data-gs-ai-disclosure-v1="1"><strong>About this article:</strong> Researched, written and edited by Umashankar Triplicane Dwarakanathan, with AI research assistance; every figure is meant to trace to the primary source cited. See the <a href="https://blog.vertistratsolution.com/p/disclaimer.html">Editorial Policy</a> for how sourcing, AI use and corrections work.</p>
+</div>
+
+<div id="gs-idx"></div><script defer="defer" src="https://herrrickshaw.github.io/masaladeutsch/accordion.js"></script>

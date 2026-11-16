@@ -1,0 +1,41 @@
+{
+ "top": [
+  ["59-79%", " less carbon per kilogram for recycled PET than virgin PET, per commonly cited figures."],
+  ["92%", " of India's PET bottles recovered, per one industry figure; CPCB cites roughly 95% as of 2022."],
+  ["30% to 60%", " recycled content required for Category I rigid packaging by FY2028-29 under the 2026 rules."]
+ ],
+ "sections": [
+  {"h2": "Recycled PET emits 59-79% less carbon than virgin PET per kilogram",
+   "chart": {"type": "bars",
+             "title": "Recycled PET needs 1.4 kg CO2e per kg, against 3.4 kg for virgin PET",
+             "sub": "Carbon footprint of PET resin, kg CO2e per kg.",
+             "source": "Commonly cited lifecycle figures, as used in the post.",
+             "unit": "kg CO2e/kg",
+             "accent": "Recycled PET (rPET)",
+             "rows": [["Virgin PET", 3.4, "made from scratch"], ["Recycled PET (rPET)", 1.4, "commonly cited"]]},
+   "means": "Commonly cited figures put rPET at 1.4 kg CO2e per kg against 3.4 kg for virgin PET, a 59-79% reduction depending on the process comparison.",
+   "todo": "Keep recovered PET in closed-loop bottle recycling, since each reprocessed tonne avoids a tonne of virgin polymer."},
+  {"h2": "India's PET recovery is high, and informal kabadiwalas do most of the collecting",
+   "chart": {"type": "bars",
+             "title": "Industry and CPCB figures both put India's PET recovery at 92-95%",
+             "sub": "Share of PET bottles recovered, %. Both are reported figures, not audited.",
+             "source": "Industry figure; CPCB data as cited in the post.",
+             "unit": "%",
+             "accent": "Industry figure",
+             "rows": [["Industry figure (1.75 of 1.9 million tonnes)", 92], ["CPCB, roughly, as of 2022", 95]]},
+   "means": "Both figures are directional, and the high rate rests on kabadiwalas who handle an estimated 90% of solid waste collection and sorting.",
+   "todo": "Bring kabadiwalas and informal waste pickers into the formal EPR system so their collection is named and credited."},
+  {"h2": "Rigid-packaging recycled content must rise from 30% to 60% by FY2028-29",
+   "chart": {"type": "bars",
+             "title": "Recycled-content targets rise in all three rigid-packaging categories",
+             "sub": "Target share of recycled content by FY2028-29, %.",
+             "source": "Plastic Waste Management (Amendment) Rules, 2026.",
+             "unit": "%",
+             "accent": "Category I (rigid packaging)",
+             "table": {"id": "T1", "label": 0, "value": 2, "rows": "top:3"}},
+   "means": "Category I rigid packaging rises from 30% to 60%, and PET in food-grade packaging moves from 30% to 40% from 1 April 2026.",
+   "todo": "Certify recycled-content proof for food-grade PET, since collection alone cannot show what goes into new packaging.",
+   "numbers": {"table": "T1"}}
+ ],
+ "derived": {}
+}

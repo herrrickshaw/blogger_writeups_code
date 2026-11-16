@@ -1,0 +1,38 @@
+{
+ "top": [
+  ["64%", " of India's goods trade deficit is covered by net services alone, and 107% once remittances are added."],
+  ["135,000", " net hires in FY2025-26 against about 450,000 in FY2021-22, while revenue kept growing."],
+  ["27%", " above their pre-AI trend: India's other business services exports, per the measured WTO series."]
+ ],
+ "sections": [
+  {"h2": "Net services and remittances together more than cover the goods deficit",
+   "chart": {"type":"bars", "title":"Services and remittances more than cover the $337.3bn goods gap",
+             "sub":"Balance of payments, FY2025-26, US$ billion.", "source":"RBI, Developments in India's Balance of Payments, Q4 2025-26.",
+             "unit":"US$ bn", "accent":"Net services receipts",
+             "rows":[["Merchandise trade deficit",-337.3],["Net services receipts",216.6],["Net secondary income (remittances)",143.6]]},
+   "means": "Net services receipts of $216.6bn and remittances of $143.6bn together exceed the $337.3bn goods deficit.",
+   "todo": "Treat import substitution as balance-of-payments insurance while watching whether services receipts keep covering the gap."},
+  {"h2": "AI has so far lifted India's business services exports, not cut them",
+   "chart": {"type":"bars", "title":"Business services exports sit 27% above their pre-AI trend",
+             "sub":"India's other business services exports, US$ billion.", "source":"Richard Baldwin (IMD), analysis of WTO commercial services statistics, 30 July 2026.",
+             "unit":"US$ bn", "accent":"2025",
+             "rows":[["2022",121],["2025",185]]},
+   "means": "Other business services exports reached $185bn in 2025, up from $121bn in 2022, and 27% above the pre-AI trend.",
+   "todo": "Do not claim displacement has happened, since no measured export series shows it yet."},
+  {"h2": "Net hiring fell from about 450,000 in FY22 to an estimated 135,000 in FY26",
+   "chart": {"type":"bars", "title":"Revenue keeps growing, but net hiring is far below its FY22 level",
+             "sub":"Net headcount additions, Indian IT industry, people.", "source":"NASSCOM Strategic Review 2024, 2025 and 2026. FY2026 is an estimate.",
+             "unit":"people", "accent":"FY2026E",
+             "rows":[["FY2021-22 (memo)",450000,"approximate"],["FY2025",126000],["FY2026E",135000,"estimate"]]},
+   "means": "Industry revenue is expected to pass $315bn in FY2026 while net additions fell from about 450,000 in FY2021-22 to 135,000.",
+   "todo": "Watch revenue per employee and price realisation rather than headcount, which companies manage."},
+  {"h2": "TCS alone drove a large net fall in headcount among the big five",
+   "chart": {"type":"bars", "title":"Only TCS shed a large number of staff; three of the five added people",
+             "sub":"Net change in headcount, FY2025-26, by company.", "source":"Company filings (BSE; SEC Form 6-K). HCLTech headcount is press-reported.",
+             "unit":"people", "accent":"TCS",
+             "table":{"id":"T3","label":0,"value":5,"rows":"top:5","sort":"desc"}},
+   "means": "Infosys, HCLTech and Wipro added a combined 17,587 people in FY2026, while TCS's net fall of 23,460 drove the cohort's decline.",
+   "todo": "Watch the annual headcount figure rather than quarterly moves, since quarterly swings mislead."}
+ ],
+ "derived": {}
+}

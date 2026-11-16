@@ -1,0 +1,40 @@
+{
+ "top": [
+  ["50,000", " cell sites Indus has converted to run diesel-free, with solar at roughly 30,000 sites."],
+  ["₹6.06", " per kVA-hour of fuel for a gas genset, against ₹12.6 for diesel: about half the running cost."],
+  ["$1.84 million", " operating cost for a diesel rotary UPS, against $5.46 million for a battery UPS."]
+ ],
+ "sections": [
+  {"h2": "Tower operators already run tens of thousands of sites without diesel",
+   "chart": {"type": "bars",
+             "title": "Indus has converted 50,000 cell sites to diesel-free, with solar at about 30,000",
+             "sub": "Site counts as reported in the post.",
+             "source": "Indus Towers; Bharti Infratel, as reported in the post.",
+             "unit": "sites",
+             "accent": "Diesel-free cell sites (Indus)",
+             "rows": [["Diesel-free cell sites (Indus)", 50000], ["Sites with solar (Indus)", 30000], ["Towers under a litre of diesel a day (Bharti Infratel)", 31000]]},
+   "means": "Indus has converted its 50,000th cell site to run diesel-free, and has installed solar at roughly 30,000 sites.",
+   "todo": "Treat the tower operators' phase-out, where the grid is robust, as the template for data-centre backup planning."},
+  {"h2": "Gas gensets cost about half as much to fuel as diesel gensets",
+   "chart": {"type": "bars",
+             "title": "Gas genset fuel costs ₹6.06 per kVA-hour, against ₹12.6 for diesel",
+             "sub": "Operating fuel cost, rupees per kVA-hour.",
+             "source": "Centre for Science and Environment feasibility comparison.",
+             "unit": "₹/kVA-hour",
+             "accent": "Gas genset",
+             "rows": [["Diesel genset", 12.6], ["Gas genset", 6.06]]},
+   "means": "A gas genset's fuel cost is about half a diesel genset's, though its upfront cost runs about 50 per cent higher.",
+   "todo": "Sites with frequent or long outages inside PNG-served areas should price a gas genset against diesel on running cost."},
+  {"h2": "A diesel rotary UPS has about a third of a battery UPS's operating cost",
+   "chart": {"type": "bars",
+             "title": "Battery UPS operating cost is $5.46 million, against $1.84 million for DRUPS",
+             "sub": "Operating cost on a 1.5 MW system, $ million.",
+             "source": "DRUPS versus static UPS comparison cited in the post.",
+             "unit": "$ million",
+             "accent": "Diesel rotary UPS (DRUPS)",
+             "rows": [["Static UPS with battery bank (SUPS)", 5.46], ["Diesel rotary UPS (DRUPS)", 1.84]]},
+   "means": "On a 1.5 MW system the diesel rotary UPS pays back in nine months, purely on lower operating cost.",
+   "todo": "Run a DRUPS-versus-battery payback on each site's own load before fixing the backup architecture."}
+ ],
+ "derived": {}
+}

@@ -1,0 +1,96 @@
+{
+ "top": [
+  [
+   "Rs 337 crore",
+   " of central money per park: Rs 33,660 crore for 100 parks by 2031-32."
+  ],
+  [
+   "1.25 lakh",
+   " vacant plots already sit in India's 4,523 mapped industrial parks (December 2025)."
+  ]
+ ],
+ "sections": [
+  {
+   "h2": "Land is not what is missing: mapped parks already have 1.35 lakh hectares available",
+   "chart": {
+    "type": "bars",
+    "title": "BHAVYA's 0.14 lakh hectares is about 10% of the land already available",
+    "sub": "Industrial park land, lakh hectares.",
+    "source": "IILB, 23 Dec 2025 (PIB); BHAVYA, Cabinet, Mar 2026.",
+    "unit": "lakh ha",
+    "accent": "Available now",
+    "rows": [
+     [
+      "Mapped industrial park land",
+      7.7
+     ],
+     [
+      "Available now",
+      1.35
+     ],
+     [
+      "BHAVYA, 100 parks by 2031-32",
+      0.14
+     ]
+    ]
+   },
+   "means": "The government's own land bank lists 1.35 lakh hectares available, so the scheme's case rests on quality rather than quantity.",
+   "todo": "Publish occupancy of mapped parks over time so BHAVYA parks can be judged on how fast they fill.",
+   "numbers": {
+    "table": "T1"
+   }
+  },
+  {
+   "h2": "Proposals only partly follow the biggest unbuilt investment backlogs",
+   "chart": {
+    "type": "bars",
+    "title": "Karnataka and Odisha hold the second and third largest unbuilt investment backlogs",
+    "sub": "Filed but unbuilt factory investment, 2020-25, Rs crore. Proposal counts are in the text below.",
+    "source": "DPIIT IEM filings, as analysed in this blog; BHAVYA round-one proposals.",
+    "unit": "Rs crore",
+    "accent": "Karnataka",
+    "table": {
+     "id": "T2",
+     "label": 0,
+     "value": 2,
+     "rows": "top:4",
+     "sort": "desc"
+    }
+   },
+   "means": "Maharashtra leads both lists, but Karnataka and Odisha, with large unbuilt backlogs, sent five or fewer proposals each.",
+   "todo": "Score proposals on connectivity, site suitability and industrial ecosystem, so that demand from industry counts more than proposal numbers.",
+   "numbers": {
+    "table": "T2"
+   }
+  },
+  {
+   "h2": "Earlier zones filled slowly: 95 of 372 notified SEZs were not operating",
+   "chart": {
+    "type": "bars",
+    "title": "95 of 372 notified SEZs were not operating on 31 July 2026",
+    "sub": "Special Economic Zones, count.",
+    "source": "Figures as reported in this post, 31 July 2026.",
+    "unit": "SEZs",
+    "accent": "Not operating",
+    "rows": [
+     [
+      "Notified SEZs",
+      372
+     ],
+     [
+      "Not operating",
+      95
+     ]
+    ]
+   },
+   "means": "The post's SEZ count shows that earlier zones were approved faster than they were filled.",
+   "todo": "Judge BHAVYA parks on land allotted, investment and production rather than approvals, as the Finance Minister urged in August.",
+   "numbers": {
+    "table": "T3"
+   }
+  }
+ ],
+ "derived": {
+  "337": "33660/100"
+ }
+}

@@ -1,0 +1,23 @@
+{"top": [["36.3%", " of the rice harvest is procured at MSP; wheat reaches 22.6%, and no other crop passes 14.8%."], ["109%", " year-to-year swing in tur procurement, against 24% for rice."], ["29%", " below its MSP is the landed price of imported tur (CIF ₹5,659 vs ₹8,000)."]],
+ "sections": [
+  {"h2": "Rice and wheat carry the MSP guarantee; no other crop passes 15% of its harvest",
+   "chart": {"type": "bars", "title": "Only rice (36.3%) and wheat (22.6%) pass 15% of their harvest",
+             "sub": "Share of the harvest reached by procurement at MSP, %.", "source": "Procurement series cited in the post.",
+             "unit": "%", "accent": "Rice", "rows": [["Rice", 36.3, "FCI + states"], ["Wheat", 22.6, "FCI + states"], ["Ragi", 14.8, "states (PDS mandates)"], ["Mustard", 8.8, "NAFED/PSS"]]},
+   "means": "Rice and wheat are the only crops where the MSP promise has a standing buyer, so the other MSP crops are largely promises without a purchaser.",
+   "todo": "Publish a per-crop volume ratio before sowing for the crops with no standing procurement, starting with the grain book's buy rows.",
+   "numbers": {"table": "T1"}},
+  {"h2": "Rice and wheat procurement swings least; tur, bajra and maize swing most",
+   "chart": {"type": "bars", "title": "Rice and wheat vary 21-24% a year; tur, bajra and maize vary 109-120%",
+             "sub": "Year-to-year coefficient of variation of procured volume, %.", "source": "Procurement series cited in the post.",
+             "unit": "%", "accent": "Rice", "rows": [["Rice", 24], ["Wheat", 21], ["Gram", 80], ["Tur", 109], ["Bajra", 110], ["Maize", 120], ["Urad", 143], ["Soybean", 163]]},
+   "means": "A purchase guarantee whose volume swings by more than 100% a year gives a farmer no reliable basis for choosing what to sow.",
+   "todo": "Announce each crop's purchase volume before sowing, so that the guarantee holds in a bad year as well as a good one."},
+  {"h2": "Tur imports land 29% below its MSP, so tur buying needs duty coordination",
+   "chart": {"type": "bars", "title": "Tur imports land at ₹5,659 a quintal, below its ₹8,000 MSP",
+             "sub": "Tur MSP against FY26 CIF import price, ₹ per quintal.", "source": "DGCI&S; MSP as cited in the post.",
+             "unit": "₹/qtl", "accent": "Tur import CIF, FY26", "rows": [["Tur MSP", 8000, "buys at"], ["Tur import CIF, FY26", 5659, "duty-free to Mar-2026"]]},
+   "means": "Duty-free imports at ₹5,659 undercut the ₹8,000 MSP, so any domestic tur buffer would compete directly with cheaper imports.",
+   "todo": "Set tariff policy alongside any tur volume guarantee before the first quintal is bought."}
+ ],
+ "derived": {}}

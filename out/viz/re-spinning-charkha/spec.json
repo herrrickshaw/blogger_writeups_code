@@ -1,0 +1,42 @@
+{
+ "top": [
+  ["$19.6bn", " combined Chapter 29 and 39 deficit in FY2025-26, down from $20.4bn in FY2024-25."],
+  ["45%", " of India's organic-chemical (Chapter 29) imports in FY2025-26 came from China."],
+  ["33 years", " from Naroda's fabric mill in 1966 to the Jamnagar refinery in 1999."]
+ ],
+ "sections": [
+  {"h2": "The feedstock deficit barely moved, from $20.4bn to $19.6bn in a year",
+   "chart": {"type": "bars",
+             "title": "Plastics deficit widened while the organic-chemicals deficit narrowed",
+             "sub": "Trade deficit by TradeStat chapter, $ billion.",
+             "source": "DGCI&S TradeStat, chapter-level data.",
+             "unit": "$bn",
+             "accent": "Plastics (Ch39), FY2025-26",
+             "rows": [["Organic chemicals (Ch29), FY2024-25", 6.5],
+                      ["Organic chemicals (Ch29), FY2025-26", 5.0],
+                      ["Plastics (Ch39), FY2024-25", 14.0],
+                      ["Plastics (Ch39), FY2025-26", 14.6]]},
+   "means": "The combined deficit eased slightly, but plastics imports rose while organic chemicals fell.",
+   "todo": "Track the Chapter 39 deficit each month in TradeStat to see whether it keeps widening."},
+  {"h2": "China alone supplied 45% of organic-chemical imports in FY2025-26",
+   "chart": {"type": "bars",
+             "title": "China's organic-chemical imports dwarf those of any other listed supplier",
+             "sub": "Chapter 29 organic-chemical imports by country, FY2025-26, USD million.",
+             "source": "Ministry of Commerce and Industry, TRADESTAT country-wise commodity data, FY2025-26.",
+             "unit": "USD M",
+             "accent": "China",
+             "table": {"id": "T3", "label": 0, "value": 1, "rows": "top:4", "sort": "desc"}},
+   "means": "China is the single largest source of the chemistry the ethanol-fed substitution is meant to replace.",
+   "todo": "Set a supply-security target for China's share of Chapter 29 imports, reported alongside the deficit.",
+   "numbers": {"table": "T3"}},
+  {"h2": "Reliance spent 33 years building the chain ethanol blending now aims to free",
+   "chart": {"type": "flow",
+             "events": [["1966", "First manufacturing plant: woven fabric at Naroda (Vimal brand)"],
+                        ["1982", "Polyester filament yarn at Patalganga; stops importing its core yarn"],
+                        ["1991–92", "Naphtha cracker and fibre intermediates at Hazira"],
+                        ["1999", "27 MMTPA Jamnagar refinery, the crude-to-naphtha layer", true]]},
+   "means": "Reliance integrated backward one link at a time, financing each plant itself.",
+   "todo": "Check whether the post's proposed naphtha-to-fibre route can be followed by several companies in parallel rather than one."}
+ ],
+ "derived": {}
+}

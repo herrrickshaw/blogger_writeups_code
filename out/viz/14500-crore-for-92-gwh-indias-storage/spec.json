@@ -1,0 +1,24 @@
+{"top": [["44%", " of the 411 GWh needed by 2031-32 is covered even if every supported project is built."], ["₹1,576", " average support per kWh in the ₹14,500 crore scheme, against ₹9,400 approved in 2023."], ["0.5 GWh", " of battery storage under the 2023 scheme was commissioned by July 2026."]],
+ "sections": [
+  {"h2": "Support per kWh fell from ₹9,400 approved in 2023 to ₹1,576 in 2026",
+   "chart": {"type": "bars", "title": "Each round pays less per kWh, but the 2026 rate is only an average", "sub": "Government support per kWh of storage, ₹.", "source": "Cabinet and MoP decisions; 2026 is an average.", "unit": "₹/kWh", "accent": "2026 scheme, average", "rows": [["2023 scheme, as approved", 9400], ["2023 scheme, later rounds", 2700], ["2025 PSDF scheme", 1800], ["2026 scheme, average", 1576]]},
+   "means": "Support per kWh has dropped as battery prices fell, but the 2026 figure averages three technologies and is not a battery rate.",
+   "todo": "Ask for the battery and pumped-storage split of the ₹14,500 crore, since the release does not give it.",
+   "numbers": {"table": "T1"}},
+  {"h2": "Of the 2023 battery scheme's 12.7 GWh signed, only 0.5 GWh is commissioned",
+   "chart": {"type": "bars", "title": "Most signed battery capacity has not reached commissioning", "sub": "GWh of battery energy storage by stage, as of July 2026.", "source": "Rajya Sabha answer, July 2026.", "unit": "GWh", "accent": "Commissioned, 2023 scheme", "rows": [["Signed, 2023 scheme", 12.7], ["Financial closure, 2023 scheme", 6.54], ["Commissioned, 2023 scheme", 0.5], ["Financial closure, 2025 scheme", 5]]},
+   "means": "VGF is paid in stages, so low payments partly reflect timing, but commissioned capacity is still a small share of what was signed.",
+   "todo": "Report commissioned GWh and rupees paid alongside sanctioned figures for each VGF round, so the next scheme is judged on delivery.",
+   "numbers": {"table": "T2"}},
+  {"h2": "Domestic cell output is about 1.4 GWh against 40 GWh awarded under ACC",
+   "chart": {"type": "bars", "title": "Commissioned cell capacity is a fraction of the 40 GWh awarded", "sub": "GWh of lithium-ion cell capacity under the ACC PLI scheme.", "source": "ACC PLI figures as cited in the post.", "unit": "GWh", "accent": "Commissioned, ACC PLI", "rows": [["Awarded, ACC PLI", 40], ["Commissioned, ACC PLI", 1.4]]},
+   "means": "Domestic cell output is a small fraction of the awarded capacity, so the 40% content rule could bind on imported cells.",
+   "todo": "Define how the 40% domestic-content floor is measured, since the release leaves that open, before bids close."},
+  {"h2": "The supported pipeline reaches 44% of the 411 GWh needed by 2031-32",
+   "chart": {"type": "bars", "title": "Storage in place and in the pipeline still leaves about 231 GWh short", "sub": "GWh of storage: installed, pipeline and total if all is built.", "source": "IEEFA–JMK tracker; Cabinet release.", "unit": "GWh", "accent": "Total if all is built", "ref": [411, "411 GWh needed by 2031-32"], "rows": [["Installed, June 2026", 44.3], ["2026 scheme", 92], ["Total if all is built", 179.6]]},
+   "means": "Installed storage plus the undelivered pipeline reaches about 180 GWh, which is 44% of the 411 GWh needed.",
+   "todo": "Remove overlaps from the 180 GWh total and track commissioned GWh each year against the roughly 18 GWh a year the scheme needs.",
+   "numbers": {"table": "T3"}}
+ ],
+ "derived": {}
+}

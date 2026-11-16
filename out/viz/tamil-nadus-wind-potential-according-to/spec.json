@@ -1,0 +1,40 @@
+{
+ "top": [
+  ["35%", " of NIWE's 100m onshore potential in Tamil Nadu is built: about 11,938 MW of 33,799 MW."],
+  ["10–15%", " capacity utilisation for the ageing fleet, against 25–30% for modern taller turbines on the same sites."]
+ ],
+ "sections": [
+  {"h2": "Installed capacity is about 35% of NIWE's 100m onshore potential",
+   "chart": {"type": "bars",
+             "title": "Most of Tamil Nadu's assessed onshore wind potential is still unbuilt",
+             "sub": "Installed capacity against NIWE's 100m potential, MW.",
+             "source": "NIWE Wind Atlas; MNRE, as cited in the post.",
+             "unit": "MW",
+             "accent": "Installed, 31 Oct 2025",
+             "rows": [["Installed, 31 Oct 2025", 11938], ["Unbuilt at 100m", 21861]]},
+   "means": "Tamil Nadu has built roughly a third of the onshore wind that NIWE assesses at 100m hub height, so most of the resource is still unused.",
+   "todo": "Repower the oldest sites with taller turbines and close the grid and evacuation gaps that hold back new capacity.",
+   "numbers": {"table": "T1"}},
+  {"h2": "National potential rises from 302 GW to 1,163.9 GW as hub height reaches 150m",
+   "chart": {"type": "bars",
+             "title": "National assessed wind potential more than triples from 100m to 150m hub height",
+             "sub": "NIWE assessed national onshore potential by hub height, GW.",
+             "source": "NIWE atlases, as cited in the post.",
+             "unit": "GW",
+             "accent": "150m hub height",
+             "rows": [["100m hub height", 302], ["120m hub height", 695.5], ["150m hub height", 1163.9]]},
+   "means": "Taller towers reach faster, steadier wind, so the same corridors become usable at a much larger scale.",
+   "todo": "Plan repowering and new-build sites against 120m and 150m hub heights rather than the 100m assessment."},
+  {"h2": "Ageing turbines run at 10–15% capacity factor against 25–30% for modern ones",
+   "chart": {"type": "bars",
+             "title": "Repowering targets 25–30% capacity utilisation against an old fleet's 10–15%",
+             "sub": "Capacity utilisation factor, %.",
+             "source": "Post's own figures on the Tamil Nadu fleet and modern turbines.",
+             "unit": "%",
+             "accent": "Modern repowered turbines",
+             "rows": [["Ageing fleet", [10, 15]], ["Modern repowered turbines", [25, 30]]]},
+   "means": "Most of the gain from repowering comes from taller, larger-rotor turbines on the same land, not from more sites.",
+   "todo": "Fast-track the state's repowering policy by settling banking-charge, grid-connectivity and evacuation disputes first."}
+ ],
+ "derived": {"21861": "33799-11938"}
+}
