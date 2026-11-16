@@ -1,0 +1,271 @@
+<div class="artx htultmwar">
+<style>
+/* ---- typography (gs-typo-unify-v1): keep in sync across all posts ---- */
+.htultmwar{font-family:Georgia,'Times New Roman',serif;line-height:1.6;color:#111}
+.htultmwar h1,.htultmwar h2,.htultmwar h3{line-height:1.3}
+
+/* ---- palette: define every colour as a custom property here. Do not add
+       raw hex elsewhere in a post's <style> block — reference these vars, so
+       a future palette change is a 4-line edit instead of a find-and-replace
+       across every post. ----
+   --ink     #111    body text, light-locked (see below)
+   --accent  #8a4b08  eyebrow text, h2 rule, table header bg, stat numbers —
+                       the one colour that carries this post's "brand"
+   --rule    #e8dcc4  hairline borders, h2 underline, table cell borders
+   --panel   #fdf7ec  stat-card bg, even table rows — the palette's one tint
+*/
+.htultmwar{--ink:#111;--accent:#8a4b08;--rule:#e8dcc4;--panel:#fdf7ec;--good:#1a7a4c;--good-soft:#eaf6ef;--bad:#a5402c;--bad-soft:#fff4f0}
+
+/* ---- mono-label convention (added 2026-09-17, borrowed from the
+       india-trade-sector-policy-recommendations design system): the eyebrow
+       kicker and the source line read as data-journalism metadata, not
+       article prose, so they get a monospace face — a system stack, not a
+       hosted webfont, so no post gains an extra network request or a
+       flash-of-unstyled-text risk. Body text (h1/p/li/table) keeps the
+       serif — this is a two-place accent, not a font-pairing overhaul. ---- */
+.htultmwar{--mono:ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace}
+
+/* ---- light lock (gs-light-lock): a dark Blogger theme (and a browser/OS
+       set to prefers-color-scheme:dark) must not repaint text. Re-assert
+       the same values with !important — verified 2026-08-14 across 5 live
+       posts with the browser's colour scheme forced to dark: body/h1/p/table
+       all stayed light-background/dark-text with no low-contrast pairs.
+       Do NOT add selectors here for panels that are meant to be dark —
+       those go in the guard below. ---- */
+.htultmwar,.htultmwar p,.htultmwar li,.htultmwar td,.htultmwar th{color:var(--ink)!important}
+.htultmwar{background:#fff!important}
+
+/* ---- structure: title + subtitle ----
+   .eyebrow    = the small-caps kicker ABOVE the h1 — "Section · Topic ·
+                 Subtopic", sets context before the reader hits the claim
+   h1          = the headline itself. Write it as the CLAIM, not the topic
+                 ("The Rouble Is the Outlier, Not the Dollar" beats
+                 "Currency Trends Update"). font-size 1.5rem is the deliberate
+                 site-wide size — do not bump it per-post.
+   .standfirst = the one/two-sentence SUBTITLE directly under the h1. This is
+                 also what Blogger's snippet extractor and the JSON-LD meta
+                 description both read (see the gs-head-order block below) —
+                 write it as a real, complete sentence a reader could act on,
+                 not a fragment.
+*/
+.htultmwar .eyebrow{font-size:.8rem;font-weight:700;letter-spacing:.04em;color:var(--accent);text-transform:uppercase;margin:0 0 6px;font-family:var(--mono)}
+.htultmwar h1{margin:0 0 10px;font-size:1.5rem}
+.htultmwar .standfirst{font-size:1.05rem;color:#333!important;margin:0 0 18px}
+.htultmwar .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px;margin:18px 0}
+.htultmwar .stat{background:var(--panel);border:1px solid var(--rule);border-radius:10px;padding:12px 14px}
+.htultmwar .stat b{display:block;font-size:1.2rem;color:var(--accent)}
+.htultmwar .stat span{font-size:.8rem}
+.htultmwar h2{color:var(--accent);border-bottom:2px solid var(--rule);padding-bottom:6px;margin-top:30px;font-size:1.15rem}
+
+/* ---- tables: units live in the header, cells carry bare numbers.
+       .tw is the mobile-overflow fix — see the MOBILE comment above. ---- */
+.htultmwar .tw{overflow-x:auto}
+.htultmwar table{width:100%;border-collapse:collapse;margin:14px 0;font-size:.88rem}
+.htultmwar th,.htultmwar td{border:1px solid var(--rule);padding:7px 9px;text-align:right;word-wrap:break-word;overflow-wrap:break-word}
+.htultmwar th:first-child,.htultmwar td:first-child{text-align:left}
+.htultmwar th{background:var(--accent);color:#fff!important;font-weight:600}
+.htultmwar tr:nth-child(even){background:var(--panel)}
+
+.htultmwar .note{background:#eef4ff;border-left:4px solid #2a78d6;padding:12px 16px;margin:18px 0;border-radius:0 8px 8px 0;font-size:.93rem}
+.htultmwar .warn{background:var(--bad-soft);border-left:4px solid var(--bad);padding:12px 16px;margin:18px 0;border-radius:0 8px 8px 0;font-size:.93rem}
+/* ---- .good (added 2026-09-17): third semantic tier alongside .note (neutral
+       framing) and .warn (a caveat/scope limit) — for the case a caveat block
+       would otherwise get stretched to cover: confirming a figure checked out,
+       a correction that resolved cleanly, a claim that survived cross-check.
+       Same shape as .note/.warn on purpose, so all three read as one family. */
+.htultmwar .good{background:var(--good-soft);border-left:4px solid var(--good);padding:12px 16px;margin:18px 0;border-radius:0 8px 8px 0;font-size:.93rem}
+/* ---- .chip (added 2026-09-17): formalises a labelling pattern several posts
+       already built ad hoc in JS (e.g. "PLI coverage: strong/partial/gap")
+       into one reusable inline component, so a new post doesn't reinvent it.
+       Use inline: <span class="chip chip-good">Strong</span>. ---- */
+.htultmwar .chip{display:inline-block;font-family:var(--mono);font-size:.72rem;font-weight:700;letter-spacing:.02em;padding:.15rem .5rem;border-radius:99px;line-height:1.5}
+.htultmwar .chip-good{background:var(--good-soft);color:var(--good)}
+.htultmwar .chip-warn{background:var(--panel);color:var(--accent)}
+.htultmwar .chip-bad{background:var(--bad-soft);color:var(--bad)}
+.htultmwar .src{font-size:.84rem;font-family:var(--mono);border-top:1px solid var(--rule);padding-top:12px;margin-top:24px}
+.htultmwar .disclaimer{font-size:.82rem;color:#555;margin-top:10px}
+.htultmwar .revised{font-size:.8rem;color:#555!important;margin:0 0 14px}
+.htultmwar .revised code{font-family:inherit;background:var(--panel);padding:1px 5px;border-radius:4px}
+</style>
+
+
+<div class="gs-head-order" style="display:flex;flex-direction:column">
+<p class="standfirst" style="order:4">A test harness that builds a throwaway Postgres database, seeds awkward synthetic tickers, runs the backfill scripts against it and drops the database afterwards.</p>
+<div class="topnav-index-link" style="order:1;font-size:.82em;margin:6px 0 14px"><a href="https://blog.vertistratsolution.com/2026/08/article-index-start-here.html" style="color:#0b5394;text-decoration:none">&#8592; All Articles (Index)</a></div>
+<p class="eyebrow" style="order:2">Open-Source Tools · How-To · Dev &amp; ops tools</p>
+<h1 style="order:3">How to use ltm-warehouse-tests: test a Postgres price-history backfill without touching the real warehouse</h1>
+</div>
+
+
+<a href="#" id="gs-skip-link" class="gs-skip-link" style="position:absolute;left:-9999px;top:auto;background:#1a1a1a;color:#fff;padding:.6rem 1rem;z-index:1000;border-radius:4px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.85rem">Skip to article content</a>
+<style>.gs-skip-link:focus{left:8px!important;top:8px!important}
+.gs-a11y-bar{display:flex;align-items:center;gap:.55rem;flex-wrap:wrap;background:#f4f5f7;border:1px solid #dfe3e8;border-radius:8px;padding:.55rem .8rem;margin:10px 0 16px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
+.gs-a11y-bar .gs-a11y-label{font-size:.68rem;font-weight:700;letter-spacing:.08em;color:#666;text-transform:uppercase;margin-right:.15rem}
+.gs-a11y-bar button{cursor:pointer;border:1px solid #c7cbd1;background:#fff;color:#1a1a1a;border-radius:5px;padding:.32rem .65rem;font-family:inherit;line-height:1}
+.gs-a11y-bar button.gs-a11y-fs{font-weight:700;min-width:2rem;text-align:center}
+.gs-a11y-bar button.gs-a11y-fs[data-size="sm"]{font-size:.8rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="md"]{font-size:1rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="lg"]{font-size:1.2rem}
+.gs-a11y-bar button.gs-a11y-fs[aria-pressed="true"]{background:#1a1a1a;color:#fff;border-color:#1a1a1a}
+.gs-a11y-bar button:hover{border-color:#8a4b08}
+.gs-a11y-bar button:focus-visible{outline:2px solid #8a4b08;outline-offset:1px}
+.gs-a11y-bar .gs-a11y-sep{width:1px;align-self:stretch;background:#dfe3e8;margin:0 .1rem}</style>
+<div class="gs-a11y-bar" role="group" aria-label="Accessibility controls">
+<span class="gs-a11y-label">Text Size</span>
+<button type="button" class="gs-a11y-fs" data-size="sm" aria-pressed="false" aria-label="Small text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="md" aria-pressed="true" aria-label="Medium text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="lg" aria-pressed="false" aria-label="Large text">A</button>
+<span class="gs-a11y-sep"></span>
+<button type="button" id="gs-a11y-listen" aria-label="Read this article aloud">&#128266; Listen</button>
+<button type="button" id="gs-a11y-stop" aria-label="Stop reading aloud">&#9632; Stop</button>
+</div>
+<script>(function(){
+var KEY='gs-a11y-fontsize', SIZES={sm:'0.92',md:'1',lg:'1.15'};
+function pb(){return document.querySelector('.post-body')||document.querySelector('.artx,.mdrx');}
+function apply(sz){
+  var el=pb(); if(!el||!SIZES[sz]) return;
+  el.style.fontSize=SIZES[sz]+'em';
+  var btns=document.querySelectorAll('.gs-a11y-fs');
+  for(var i=0;i<btns.length;i++){
+    var on=btns[i].getAttribute('data-size')===sz;
+    btns[i].setAttribute('aria-pressed', on?'true':'false');
+  }
+  try{localStorage.setItem(KEY,sz);}catch(e){}
+}
+var fsBtns=document.querySelectorAll('.gs-a11y-fs');
+for(var j=0;j<fsBtns.length;j++){
+  fsBtns[j].addEventListener('click',(function(b){return function(){apply(b.getAttribute('data-size'));};})(fsBtns[j]));
+}
+var saved; try{saved=localStorage.getItem(KEY);}catch(e){}
+apply(saved&&SIZES[saved]?saved:'md');
+
+var listenBtn=document.getElementById('gs-a11y-listen'), stopBtn=document.getElementById('gs-a11y-stop');
+if(listenBtn){
+  listenBtn.addEventListener('click', function(){
+    if(!('speechSynthesis' in window)){ alert('Text-to-speech is not supported in this browser.'); return; }
+    window.speechSynthesis.cancel();
+    var src=pb(); if(!src) return;
+    var clone=src.cloneNode(true);
+    var strip=clone.querySelectorAll('script,style,svg');
+    for(var k=0;k<strip.length;k++){ strip[k].parentNode.removeChild(strip[k]); }
+    var text=clone.textContent.replace(/\s+/g,' ').trim();
+    if(!text) return;
+    var chunks=text.match(/[\s\S]{1,180}(?:[.!?]|$)/g)||[text];
+    var idx=0;
+    function speakNext(){
+      if(idx>=chunks.length) return;
+      var u=new SpeechSynthesisUtterance(chunks[idx]);
+      u.onend=function(){ idx++; speakNext(); };
+      window.speechSynthesis.speak(u);
+    }
+    speakNext();
+  });
+}
+if(stopBtn){
+  stopBtn.addEventListener('click', function(){
+    if('speechSynthesis' in window) window.speechSynthesis.cancel();
+  });
+}
+var skip=document.getElementById('gs-skip-link');
+if(skip){
+  skip.addEventListener('click', function(ev){
+    ev.preventDefault();
+    var h=document.querySelector('.post-body h1')||document.querySelector('.artx h1,.mdrx h1,h1');
+    if(h){ h.setAttribute('tabindex','-1'); h.focus(); h.scrollIntoView(); }
+  });
+}
+})();</script>
+<style>.goog-te-menu-frame{max-width:340px!important;max-height:70vh!important;overflow:auto!important;box-shadow:0 6px 24px rgba(0,0,0,.25)!important}</style>
+<div id="google_translate_element" style="margin:8px 0 16px;"></div><script type="text/javascript">function googleTranslateElementInit(){new google.translate.TranslateElement({pageLanguage:"en",includedLanguages:"hi,bn,ta,te,mr,gu,kn,ml,pa,or,as,ur,sa,ne,sd",layout:google.translate.TranslateElement.InlineLayout.SIMPLE,autoDisplay:false},"google_translate_element");}</script><script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+
+<p class="revised" data-gs-revision-v1="1">Revised
+<time datetime="2026-10-26" itemprop="dateModified">26 October 2026</time>
+&middot; <code>v1.0.0</code> &middot; <a href="#changelog">what changed</a></p>
+
+<style>.htultmwar pre{background:#f6f3ea!important;color:#111!important;border:1px solid var(--rule);border-radius:8px;padding:10px 12px;overflow-x:auto;font-size:.82rem;line-height:1.45}.htultmwar pre code{background:none!important;color:#111!important;font-family:var(--mono)}.htultmwar code{font-family:var(--mono);font-size:.88em}.htultmwar .vid{position:relative;padding-bottom:56.25%;height:0;margin:16px 0;max-width:100%}.htultmwar .vid iframe{position:absolute;inset:0;width:100%;height:100%;border:0}</style><div class="stats"><div class="stat"><b>3</b><span>test files, all passed</span></div><div class="stat"><b>7</b><span>checks printed OK</span></div><div class="stat"><b>6,975</b><span>synthetic price rows seeded</span></div><div class="stat"><b>4 of 7</b><span>symbols flagged as thin history</span></div></div>
+<p>Code: <a href="https://github.com/herrrickshaw/ltm-warehouse-tests">github.com/herrrickshaw/ltm-warehouse-tests</a></p>
+<h2>Watch the walkthrough</h2>
+<div class="vid"><iframe src="https://www.youtube.com/embed/gA6xuLKGHZ4" title="How to use ltm-warehouse-tests: test a Postgres price-history backfill without touching the real warehouse" allowfullscreen loading="lazy"></iframe></div><p>Watch on YouTube: <a href="https://youtu.be/gA6xuLKGHZ4">youtu.be/gA6xuLKGHZ4</a></p>
+<h2>Why it is useful</h2>
+<ul><li>Who benefits: anyone maintaining scripts that write into a price or fundamentals warehouse, who wants to re-check a change instead of trusting it.</li><li>What it replaces: running backfill scripts against live data to see what happens.</li><li>Evidence from the run: all three test files passed on a throwaway Postgres 17 on port 55432, the thin-history finder flagged 4 of 7 seeded symbols, and the dry run persisted 0 rows.</li><li>Each seeded case encodes a real past bug: ticker already carrying a suffix, a symbol tagged under two countries, an NSE series switching mid-history.</li><li>The database is created and dropped by the script, even when a test fails.</li></ul>
+<h2>What it is for</h2>
+<p>The repo verifies four maintenance scripts for an LTM (long-term) warehouse: exchange resolution (exchange_map.py), thin-history detection (find_thin_history_tickers.py), exchange-list building, and the multi-tier backfill (Yahoo, then NSE, then SerpApi estimates) in backfill_missing_history.py.</p>
+<p>run_tests.sh creates ltm_warehouse_test, applies a schema that mirrors the real tables, seeds synthetic symbols, generates a thin_history.csv fixture, runs test_backfill_logic.py, test_backfill_cli.py and test_nse_tier.py, then drops the database.</p>
+<p>Tests check deduplication against existing dates, routing (Yahoo into the fact table, SerpApi into a separate low-fidelity estimate table), that a dry run never persists, and that the NSE tier fires only for India and collapses series switches to one row per date.</p>
+<p><b>Who it is for</b></p>
+<ul><li>Data engineers who maintain market-data backfills</li><li>Anyone who wants a pattern for throwaway-database tests with Postgres</li><li>Readers learning why exchange-qualified tickers matter</li></ul>
+<div class="warn"><b>Not for.</b><ul><li>Running against your real warehouse: the point is that it never does</li><li>Testing live data quality: the data is synthetic</li><li>Investment decisions: not investment advice</li></ul></div>
+<h2>What you need</h2>
+<div class="tw"><table><tr><th>Requirement</th><th>Why</th><th>How to get it</th></tr><tr><td>PostgreSQL server and psql</td><td>the harness creates a throwaway database</td><td>brew install postgresql@17 (or any local Postgres)</td></tr><tr><td>Python 3 packages</td><td>SQLAlchemy, psycopg2, pandas, yfinance, requests, jugaad-data</td><td>pip install -r requirements.txt, but see the SQLAlchemy note under limits</td></tr><tr><td>A Postgres admin connection</td><td>to create and drop the test database</td><td>default postgresql://localhost/postgres; override with PG_ADMIN_URL</td></tr><tr><td>No API keys</td><td>the tests do not call paid services</td><td>nothing to set up</td></tr></table></div>
+<h2>Get the code and an AI assistant</h2>
+<p>You do not have to be a programmer. Get the repository, give it to an AI assistant, and ask in plain language. Any of these routes works:</p>
+<div class="tw"><table><tr><th>Tool</th><th>What you need</th><th>Best for</th></tr><tr><td><b>GitHub</b></td><td>Free account to fork or star; <code>git</code> to clone, or the green <b>Code</b> button, then <b>Download ZIP</b>, or open in <b>Codespaces</b></td><td>Getting the code and keeping up with updates</td></tr><tr><td><b>Claude Code</b></td><td>Claude subscription or API key; run <code>claude</code> inside the cloned folder</td><td>Letting the AI read and run the whole repo</td></tr><tr><td><b>Gemini CLI</b></td><td>Google account; run <code>gemini</code> inside the cloned folder</td><td>The same hands-on workflow with Gemini</td></tr><tr><td><b>Claude.ai, Gemini or ChatGPT in the browser</b></td><td>A chat account; upload <code>README.md</code> and the files you care about (or paste the output of <code>git ls-files</code>)</td><td>Understanding the project and asking questions without installing anything</td></tr><tr><td><b>Other tools</b> (Copilot Chat, Cursor, Codex CLI)</td><td>Open the cloned folder in the tool and point it at <code>README.md</code> first</td><td>Editing and extending the code</td></tr></table></div>
+<pre><code>git clone https://github.com/herrrickshaw/ltm-warehouse-tests.git
+cd ltm-warehouse-tests
+claude      # or: gemini</code></pre>
+<h2>Install</h2><ol><li>Clone the repo<pre><code>git clone https://github.com/herrrickshaw/ltm-warehouse-tests.git
+cd ltm-warehouse-tests</code></pre></li><li>Create a virtual environment and install requirements, pinning SQLAlchemy below 2.1<pre><code>python3 -m venv .venv &amp;&amp; . .venv/bin/activate
+pip install -r requirements.txt &quot;sqlalchemy&lt;2.1&quot;</code></pre></li><li>Optional: start a disposable Postgres of your own on another port so nothing shared is touched<pre><code>initdb -D ./pgdata -A trust -U tester
+pg_ctl -D ./pgdata -o &quot;-p 55432 -k /tmp/pgsock&quot; -l pg.log start</code></pre></li></ol>
+<h2>Quick start: commands and what you should see</h2>
+<p><b>Run the whole suite (default local Postgres)</b></p>
+<pre><code>./run_tests.sh</code></pre>
+<p>Creates the test database, applies the schema, seeds data, runs three test files and ends with &#x27;All tests passed.&#x27; then drops the database.</p>
+<p><b>Run against a throwaway server on port 55432</b></p>
+<pre><code>export PGPORT=55432 PGHOST=127.0.0.1 PGUSER=tester
+PG_ADMIN_URL=postgresql://tester@127.0.0.1:55432/postgres ./run_tests.sh</code></pre>
+<p>Same output. Note that run_tests.sh builds TEST_DB as postgresql://localhost/&lt;name&gt; with no port, so on a non-default port you must set the PG* variables or edit that line.</p>
+<p><b>Use another database name</b></p>
+<pre><code>TEST_DB_NAME=my_ltm_test ./run_tests.sh</code></pre>
+<p>The same flow with your name.</p>
+<h2>Sample outputs</h2><p>Real output from a run on the date shown in the sources line; trimmed to fit.</p>
+<p><b>Seeding and the thin-history finder (run 19 Oct 2026)</b></p>
+<pre><code>./run_tests.sh
+Seeded 6975 rows across 7 symbols
+Checked 7 symbols. Flagged 4 with &lt; 5.0y history or &lt; 85% day-coverage within their span.
+
+SYMBOL    COUNTRY  REASON         SPAN(y)  COVERAGE  MISSING(y)
+NEWCO     US       short_history  0.49     100.0     4.51
+OLDIN     IN       short_history  3.0      100.0     2.0
+BARC      GB       short_history  4.49     100.0     0.51
+GAPCO     US       gappy          5.98     20.1      0.0</code></pre>
+<p>Synthetic symbols, not real market data.</p>
+<p><b>Backfill logic tests</b></p>
+<pre><code>python3 tests/test_backfill_logic.py
+OK dedup_and_insert_yahoo: added 1435 new rows, rerun added 0
+OK dry_run_does_not_persist: reported 2 rows, actually persisted 0
+OK serpapi_fallback: added 2 estimate rows (overlap correctly skipped); fact table untouched (still 783 real rows)
+OK no_source_available: note=&#x27;no yahoo/nse data; no --serpapi-key given for fallback&#x27;</code></pre>
+<p>Run inside run_tests.sh.</p>
+<p><b>NSE tier tests</b></p>
+<pre><code>python3 tests/test_nse_tier.py
+OK nse_tier_used_only_for_india_and_dedups_series_switch: added 2 rows (expected 2)
+OK non_india_country_skips_nse_tier: source=&#x27;none&#x27;
+OK india_symbol_with_no_data_anywhere: note=&#x27;no yahoo/nse data; no --serpapi-key given for fallback&#x27;
+
+All NSE-tier tests passed.
+All tests passed.</code></pre>
+<p>Final lines of the same run, ending with the throwaway database being dropped.</p>
+<h2>Ways to use it</h2>
+<div class="tw"><table><tr><th>Method</th><th>How it works</th></tr><tr><td>Command line</td><td>./run_tests.sh before and after any change to scripts/*.py.</td></tr><tr><td>Colab</td><td>The README links a notebook, notebooks/colab_test.ipynb (not run for this post).</td></tr><tr><td>Add a case</td><td>When the real warehouse exposes a new edge case, add a seeded symbol in tests/seed_test_data.py and an assertion in the matching test file.</td></tr><tr><td>Via an AI assistant</td><td>Ask Claude Code or Gemini CLI to run the suite and explain any failure.</td></tr></table></div>
+<h2>Sample prompts for your AI assistant</h2><p>Copy, paste and edit the parts in [brackets].</p>
+<ul><li>Explain the ltm-warehouse-tests repository in plain English: what problem it solves, what the main files do, and what I need installed.</li><li>Run ./run_tests.sh against a throwaway Postgres on port 55432 and summarise which checks passed.</li><li>Explain what the four seeded edge cases in tests/seed_test_data.py are and which past bug each one prevents.</li><li>Add a test where a symbol already carries a .HK suffix and show me the assertion you would write.</li><li>Why does run_tests.sh build TEST_DB without a port, and how would you change it to honour PG_ADMIN_URL&#x27;s port?</li><li>Read exchange_map.py and explain how a bare ticker is resolved to an exchange-qualified one.</li></ul>
+<h2>Limits and honest caveats</h2>
+<div class="warn"><ul><li>Not investment advice. Test data is synthetic.</li><li>Bug found: with requirements.txt as written (sqlalchemy&gt;=1.4, no upper bound) a fresh install picked SQLAlchemy 2.1.5, whose default driver for postgresql:// is psycopg 3. Seeding failed with ModuleNotFoundError: No module named &#x27;psycopg&#x27;. Installing sqlalchemy&lt;2.1 (2.0.55) fixed it.</li><li>run_tests.sh hardcodes postgresql://localhost/&lt;name&gt; for the test database, so a server on a non-default port needs PGPORT/PGHOST set; the PG_ADMIN_URL port is not reused.</li><li>Postgres 17 from Homebrew also needed LC_ALL=en_US.UTF-8 for initdb and start on the test machine.</li><li>Observed, not investigated: in test_backfill_cli.py the dry run listed 1 row for NEWCO but the following --apply showed 0 for NEWCO.</li><li>Network-dependent tiers (live Yahoo, NSE, SerpApi) are not exercised; those tests use seeded data or stubs.</li><li>A temporary edit to run_tests.sh was made in the scratch clone for the run only; nothing was pushed.</li></ul></div>
+<p class="src">Sources: ltm-warehouse-tests README, run_tests.sh, tests/ and scripts/; run_tests.sh run on 19 October 2026 on a fresh clone against a throwaway Postgres 17 on port 55432 in a scratch directory (stopped and deleted afterwards), with SQLAlchemy 2.0.55 in a throwaway virtual environment. The Colab notebook was not run.</p>
+<div id="changelog" class="note">
+<b>Revision history.</b>
+<ul>
+<li><b>v1.0.0</b> &mdash; 26 October 2026 &mdash; first published.</li>
+</ul>
+</div>
+
+
+<style>/* gs-light-lock-v1 */.htultmwar{--ink:#111!important;--accent:#8a4b08!important;--rule:#e8dcc4!important;--panel:#fdf7ec!important;--good:#1a7a4c!important;--good-soft:#eaf6ef!important;--bad:#a5402c!important;--bad-soft:#fff4f0!important}</style>
+<div data-gs-access-note="1" style="border-left:4px solid #8a4b08;background:rgba(138,75,8,.07);padding:.8em 1em;margin:1.2em 0;border-radius:4px"><b>Repository and data access.</b> Need the GitHub repository or the data files behind this guide? Both are available on request: <a href="https://blog.vertistratsolution.com/p/contact.html">ask through the Contact page</a> and name the guide and what you need.</div>
+<p class="disclaimer" data-gs-ai-disclosure-v1="1"><strong>About this article:</strong> Researched, written and edited by Umashankar Triplicane Dwarakanathan, with AI research assistance; every figure is meant to trace to the primary source cited. See the <a href="https://blog.vertistratsolution.com/p/disclaimer.html">Editorial Policy</a> for how sourcing, AI use and corrections work.</p>
+
+</div>
+
+<div id="gs-idx"></div><script defer="defer" src="https://herrrickshaw.github.io/masaladeutsch/accordion.js"></script>

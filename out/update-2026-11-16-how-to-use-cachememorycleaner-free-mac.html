@@ -1,0 +1,241 @@
+<div class="artx htucachem">
+<style>
+/* ---- typography (gs-typo-unify-v1): keep in sync across all posts ---- */
+.htucachem{font-family:Georgia,'Times New Roman',serif;line-height:1.6;color:#111}
+.htucachem h1,.htucachem h2,.htucachem h3{line-height:1.3}
+
+/* ---- palette: define every colour as a custom property here. Do not add
+       raw hex elsewhere in a post's <style> block — reference these vars, so
+       a future palette change is a 4-line edit instead of a find-and-replace
+       across every post. ----
+   --ink     #111    body text, light-locked (see below)
+   --accent  #8a4b08  eyebrow text, h2 rule, table header bg, stat numbers —
+                       the one colour that carries this post's "brand"
+   --rule    #e8dcc4  hairline borders, h2 underline, table cell borders
+   --panel   #fdf7ec  stat-card bg, even table rows — the palette's one tint
+*/
+.htucachem{--ink:#111;--accent:#8a4b08;--rule:#e8dcc4;--panel:#fdf7ec;--good:#1a7a4c;--good-soft:#eaf6ef;--bad:#a5402c;--bad-soft:#fff4f0}
+
+/* ---- mono-label convention (added 2026-09-17, borrowed from the
+       india-trade-sector-policy-recommendations design system): the eyebrow
+       kicker and the source line read as data-journalism metadata, not
+       article prose, so they get a monospace face — a system stack, not a
+       hosted webfont, so no post gains an extra network request or a
+       flash-of-unstyled-text risk. Body text (h1/p/li/table) keeps the
+       serif — this is a two-place accent, not a font-pairing overhaul. ---- */
+.htucachem{--mono:ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace}
+
+/* ---- light lock (gs-light-lock): a dark Blogger theme (and a browser/OS
+       set to prefers-color-scheme:dark) must not repaint text. Re-assert
+       the same values with !important — verified 2026-08-14 across 5 live
+       posts with the browser's colour scheme forced to dark: body/h1/p/table
+       all stayed light-background/dark-text with no low-contrast pairs.
+       Do NOT add selectors here for panels that are meant to be dark —
+       those go in the guard below. ---- */
+.htucachem,.htucachem p,.htucachem li,.htucachem td,.htucachem th{color:var(--ink)!important}
+.htucachem{background:#fff!important}
+
+/* ---- structure: title + subtitle ----
+   .eyebrow    = the small-caps kicker ABOVE the h1 — "Section · Topic ·
+                 Subtopic", sets context before the reader hits the claim
+   h1          = the headline itself. Write it as the CLAIM, not the topic
+                 ("The Rouble Is the Outlier, Not the Dollar" beats
+                 "Currency Trends Update"). font-size 1.5rem is the deliberate
+                 site-wide size — do not bump it per-post.
+   .standfirst = the one/two-sentence SUBTITLE directly under the h1. This is
+                 also what Blogger's snippet extractor and the JSON-LD meta
+                 description both read (see the gs-head-order block below) —
+                 write it as a real, complete sentence a reader could act on,
+                 not a fragment.
+*/
+.htucachem .eyebrow{font-size:.8rem;font-weight:700;letter-spacing:.04em;color:var(--accent);text-transform:uppercase;margin:0 0 6px;font-family:var(--mono)}
+.htucachem h1{margin:0 0 10px;font-size:1.5rem}
+.htucachem .standfirst{font-size:1.05rem;color:#333!important;margin:0 0 18px}
+.htucachem .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px;margin:18px 0}
+.htucachem .stat{background:var(--panel);border:1px solid var(--rule);border-radius:10px;padding:12px 14px}
+.htucachem .stat b{display:block;font-size:1.2rem;color:var(--accent)}
+.htucachem .stat span{font-size:.8rem}
+.htucachem h2{color:var(--accent);border-bottom:2px solid var(--rule);padding-bottom:6px;margin-top:30px;font-size:1.15rem}
+
+/* ---- tables: units live in the header, cells carry bare numbers.
+       .tw is the mobile-overflow fix — see the MOBILE comment above. ---- */
+.htucachem .tw{overflow-x:auto}
+.htucachem table{width:100%;border-collapse:collapse;margin:14px 0;font-size:.88rem}
+.htucachem th,.htucachem td{border:1px solid var(--rule);padding:7px 9px;text-align:right;word-wrap:break-word;overflow-wrap:break-word}
+.htucachem th:first-child,.htucachem td:first-child{text-align:left}
+.htucachem th{background:var(--accent);color:#fff!important;font-weight:600}
+.htucachem tr:nth-child(even){background:var(--panel)}
+
+.htucachem .note{background:#eef4ff;border-left:4px solid #2a78d6;padding:12px 16px;margin:18px 0;border-radius:0 8px 8px 0;font-size:.93rem}
+.htucachem .warn{background:var(--bad-soft);border-left:4px solid var(--bad);padding:12px 16px;margin:18px 0;border-radius:0 8px 8px 0;font-size:.93rem}
+/* ---- .good (added 2026-09-17): third semantic tier alongside .note (neutral
+       framing) and .warn (a caveat/scope limit) — for the case a caveat block
+       would otherwise get stretched to cover: confirming a figure checked out,
+       a correction that resolved cleanly, a claim that survived cross-check.
+       Same shape as .note/.warn on purpose, so all three read as one family. */
+.htucachem .good{background:var(--good-soft);border-left:4px solid var(--good);padding:12px 16px;margin:18px 0;border-radius:0 8px 8px 0;font-size:.93rem}
+/* ---- .chip (added 2026-09-17): formalises a labelling pattern several posts
+       already built ad hoc in JS (e.g. "PLI coverage: strong/partial/gap")
+       into one reusable inline component, so a new post doesn't reinvent it.
+       Use inline: <span class="chip chip-good">Strong</span>. ---- */
+.htucachem .chip{display:inline-block;font-family:var(--mono);font-size:.72rem;font-weight:700;letter-spacing:.02em;padding:.15rem .5rem;border-radius:99px;line-height:1.5}
+.htucachem .chip-good{background:var(--good-soft);color:var(--good)}
+.htucachem .chip-warn{background:var(--panel);color:var(--accent)}
+.htucachem .chip-bad{background:var(--bad-soft);color:var(--bad)}
+.htucachem .src{font-size:.84rem;font-family:var(--mono);border-top:1px solid var(--rule);padding-top:12px;margin-top:24px}
+.htucachem .disclaimer{font-size:.82rem;color:#555;margin-top:10px}
+.htucachem .revised{font-size:.8rem;color:#555!important;margin:0 0 14px}
+.htucachem .revised code{font-family:inherit;background:var(--panel);padding:1px 5px;border-radius:4px}
+</style>
+
+
+<div class="gs-head-order" style="display:flex;flex-direction:column">
+<p class="standfirst" style="order:4">A macOS shell script that sorts any folder into five safety tiers before you delete it, and previews cache cleanup with a dry run.</p>
+<div class="topnav-index-link" style="order:1;font-size:.82em;margin:6px 0 14px"><a href="https://blog.vertistratsolution.com/2026/08/article-index-start-here.html" style="color:#0b5394;text-decoration:none">&#8592; All Articles (Index)</a></div>
+<p class="eyebrow" style="order:2">Open-source tools · How-to · Mac storage</p>
+<h1 style="order:3">How to use cache_memory_cleaner: free Mac disk space without losing data</h1>
+</div>
+
+
+<a href="#" id="gs-skip-link" class="gs-skip-link" style="position:absolute;left:-9999px;top:auto;background:#1a1a1a;color:#fff;padding:.6rem 1rem;z-index:1000;border-radius:4px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.85rem">Skip to article content</a>
+<style>.gs-skip-link:focus{left:8px!important;top:8px!important}
+.gs-a11y-bar{display:flex;align-items:center;gap:.55rem;flex-wrap:wrap;background:#f4f5f7;border:1px solid #dfe3e8;border-radius:8px;padding:.55rem .8rem;margin:10px 0 16px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
+.gs-a11y-bar .gs-a11y-label{font-size:.68rem;font-weight:700;letter-spacing:.08em;color:#666;text-transform:uppercase;margin-right:.15rem}
+.gs-a11y-bar button{cursor:pointer;border:1px solid #c7cbd1;background:#fff;color:#1a1a1a;border-radius:5px;padding:.32rem .65rem;font-family:inherit;line-height:1}
+.gs-a11y-bar button.gs-a11y-fs{font-weight:700;min-width:2rem;text-align:center}
+.gs-a11y-bar button.gs-a11y-fs[data-size="sm"]{font-size:.8rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="md"]{font-size:1rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="lg"]{font-size:1.2rem}
+.gs-a11y-bar button.gs-a11y-fs[aria-pressed="true"]{background:#1a1a1a;color:#fff;border-color:#1a1a1a}
+.gs-a11y-bar button:hover{border-color:#8a4b08}
+.gs-a11y-bar button:focus-visible{outline:2px solid #8a4b08;outline-offset:1px}
+.gs-a11y-bar .gs-a11y-sep{width:1px;align-self:stretch;background:#dfe3e8;margin:0 .1rem}</style>
+<div class="gs-a11y-bar" role="group" aria-label="Accessibility controls">
+<span class="gs-a11y-label">Text Size</span>
+<button type="button" class="gs-a11y-fs" data-size="sm" aria-pressed="false" aria-label="Small text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="md" aria-pressed="true" aria-label="Medium text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="lg" aria-pressed="false" aria-label="Large text">A</button>
+<span class="gs-a11y-sep"></span>
+<button type="button" id="gs-a11y-listen" aria-label="Read this article aloud">&#128266; Listen</button>
+<button type="button" id="gs-a11y-stop" aria-label="Stop reading aloud">&#9632; Stop</button>
+</div>
+<script>(function(){
+var KEY='gs-a11y-fontsize', SIZES={sm:'0.92',md:'1',lg:'1.15'};
+function pb(){return document.querySelector('.post-body')||document.querySelector('.artx,.mdrx');}
+function apply(sz){
+  var el=pb(); if(!el||!SIZES[sz]) return;
+  el.style.fontSize=SIZES[sz]+'em';
+  var btns=document.querySelectorAll('.gs-a11y-fs');
+  for(var i=0;i<btns.length;i++){
+    var on=btns[i].getAttribute('data-size')===sz;
+    btns[i].setAttribute('aria-pressed', on?'true':'false');
+  }
+  try{localStorage.setItem(KEY,sz);}catch(e){}
+}
+var fsBtns=document.querySelectorAll('.gs-a11y-fs');
+for(var j=0;j<fsBtns.length;j++){
+  fsBtns[j].addEventListener('click',(function(b){return function(){apply(b.getAttribute('data-size'));};})(fsBtns[j]));
+}
+var saved; try{saved=localStorage.getItem(KEY);}catch(e){}
+apply(saved&&SIZES[saved]?saved:'md');
+
+var listenBtn=document.getElementById('gs-a11y-listen'), stopBtn=document.getElementById('gs-a11y-stop');
+if(listenBtn){
+  listenBtn.addEventListener('click', function(){
+    if(!('speechSynthesis' in window)){ alert('Text-to-speech is not supported in this browser.'); return; }
+    window.speechSynthesis.cancel();
+    var src=pb(); if(!src) return;
+    var clone=src.cloneNode(true);
+    var strip=clone.querySelectorAll('script,style,svg');
+    for(var k=0;k<strip.length;k++){ strip[k].parentNode.removeChild(strip[k]); }
+    var text=clone.textContent.replace(/\s+/g,' ').trim();
+    if(!text) return;
+    var chunks=text.match(/[\s\S]{1,180}(?:[.!?]|$)/g)||[text];
+    var idx=0;
+    function speakNext(){
+      if(idx>=chunks.length) return;
+      var u=new SpeechSynthesisUtterance(chunks[idx]);
+      u.onend=function(){ idx++; speakNext(); };
+      window.speechSynthesis.speak(u);
+    }
+    speakNext();
+  });
+}
+if(stopBtn){
+  stopBtn.addEventListener('click', function(){
+    if('speechSynthesis' in window) window.speechSynthesis.cancel();
+  });
+}
+var skip=document.getElementById('gs-skip-link');
+if(skip){
+  skip.addEventListener('click', function(ev){
+    ev.preventDefault();
+    var h=document.querySelector('.post-body h1')||document.querySelector('.artx h1,.mdrx h1,h1');
+    if(h){ h.setAttribute('tabindex','-1'); h.focus(); h.scrollIntoView(); }
+  });
+}
+})();</script>
+<style>.goog-te-menu-frame{max-width:340px!important;max-height:70vh!important;overflow:auto!important;box-shadow:0 6px 24px rgba(0,0,0,.25)!important}</style>
+<div id="google_translate_element" style="margin:8px 0 16px;"></div><script type="text/javascript">function googleTranslateElementInit(){new google.translate.TranslateElement({pageLanguage:"en",includedLanguages:"hi,bn,ta,te,mr,gu,kn,ml,pa,or,as,ur,sa,ne,sd",layout:google.translate.TranslateElement.InlineLayout.SIMPLE,autoDisplay:false},"google_translate_element");}</script><script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+
+<p class="revised" data-gs-revision-v1="1">Revised
+<time datetime="2026-10-18" itemprop="dateModified">18 October 2026</time>
+&middot; <code>v1.0.0</code> &middot; <a href="#changelog">what changed</a></p>
+
+<style>.htucachem pre{background:#f6f3ea!important;color:#111!important;border:1px solid var(--rule);border-radius:8px;padding:10px 12px;overflow-x:auto;font-size:.82rem;line-height:1.45}.htucachem pre code{background:none!important;color:#111!important;font-family:var(--mono)}.htucachem code{font-family:var(--mono);font-size:.88em}.htucachem .vid{position:relative;padding-bottom:56.25%;height:0;margin:16px 0;max-width:100%}.htucachem .vid iframe{position:absolute;inset:0;width:100%;height:100%;border:0}</style><div class="stats"><div class="stat"><b>5</b><span>data tiers, from never touch to delete now</span></div><div class="stat"><b>4</b><span>classify examples run in the demo</span></div><div class="stat"><b>0</b><span>files deleted in the demo (dry run only)</span></div><div class="stat"><b>99%</b><span>disk-full session the tool came from</span></div></div>
+<p>Code: <a href="https://github.com/herrrickshaw/cache_memory_cleaner">github.com/herrrickshaw/cache_memory_cleaner</a></p>
+<h2>Watch the walkthrough</h2>
+<div class="vid"><iframe src="https://www.youtube.com/embed/W_vkQopqFUg" title="How to use cache_memory_cleaner: free Mac disk space without losing data" allowfullscreen loading="lazy"></iframe></div><p>Watch on YouTube: <a href="https://youtu.be/W_vkQopqFUg">youtu.be/W_vkQopqFUg</a></p>
+<h2>What it is for</h2>
+<p>cache_memory_cleaner came out of a real session where a Mac disk was 99% full. Its rule is to remove only what can be rebuilt or is provably backed up.</p>
+<p>The key command is classify. Give it a path and it reads git status, whether a running process has it open, whether it sits in a cloud-sync folder, whether the name looks like a personal scan, and how long since anything changed. It prints a tier and the reason. It never deletes anything.</p>
+<p>Other commands act on the tier: clean-caches removes browser and package caches (with a dry-run mode), compress-local compresses files in place, and archive-evict uploads to your cloud, checks the bytes, and only then deletes the original.</p>
+<p><b>Who it is for</b></p>
+<ul><li>Mac users with a nearly full disk who do not want to guess what is safe</li><li>Developers with old virtual environments, repos and VM folders</li><li>Anyone who wants a written reason before deleting something</li></ul>
+<div class="warn"><b>Not for.</b><ul><li>Windows or Linux: the script is for macOS</li><li>Automatic cleanup without reading the reasons. classify is a heuristic</li><li>Pointing archive-evict at a folder that another tool syncs (see limits)</li></ul></div>
+<h2>What you need</h2>
+<div class="tw"><table><tr><th>Requirement</th><th>Why</th><th>How to get it</th></tr><tr><td>macOS with a shell (zsh or bash)</td><td>the script uses macOS tools and paths</td><td>already installed</td></tr><tr><td>git</td><td>to clone the repo and for the git checks in classify</td><td>xcode-select --install or brew install git</td></tr><tr><td>rclone (only for archive-evict)</td><td>uploads archives to the cloud and verifies them</td><td>brew install rclone, then rclone config to set up your remotes</td></tr><tr><td>afsctool (only for compress-local)</td><td>transparent compression. The README warns that ditto --hfsCompression silently does nothing</td><td>brew install afsctool</td></tr><tr><td>Not needed</td><td>classify and DRY_RUN clean-caches need no cloud account, no Python and no API keys</td><td>nothing to set up</td></tr></table></div>
+<h2>Get the code and an AI assistant</h2>
+<p>You do not have to be a programmer. Get the repository, give it to an AI assistant, and ask in plain language. Any of these routes works:</p>
+<div class="tw"><table><tr><th>Tool</th><th>What you need</th><th>Best for</th></tr><tr><td><b>GitHub</b></td><td>Free account to fork or star; <code>git</code> to clone, or the green <b>Code</b> button, then <b>Download ZIP</b>, or open in <b>Codespaces</b></td><td>Getting the code and keeping up with updates</td></tr><tr><td><b>Claude Code</b></td><td>Claude subscription or API key; run <code>claude</code> inside the cloned folder</td><td>Letting the AI read and run the whole repo</td></tr><tr><td><b>Gemini CLI</b></td><td>Google account; run <code>gemini</code> inside the cloned folder</td><td>The same hands-on workflow with Gemini</td></tr><tr><td><b>Claude.ai, Gemini or ChatGPT in the browser</b></td><td>A chat account; upload <code>README.md</code> and the files you care about (or paste the output of <code>git ls-files</code>)</td><td>Understanding the project and asking questions without installing anything</td></tr><tr><td><b>Other tools</b> (Copilot Chat, Cursor, Codex CLI)</td><td>Open the cloned folder in the tool and point it at <code>README.md</code> first</td><td>Editing and extending the code</td></tr></table></div>
+<pre><code>git clone https://github.com/herrrickshaw/cache_memory_cleaner.git
+cd cache_memory_cleaner
+claude      # or: gemini</code></pre>
+<h2>Install</h2><ol><li>Clone the repo<pre><code>git clone https://github.com/herrrickshaw/cache_memory_cleaner.git
+cd cache_memory_cleaner</code></pre></li><li>Make the script executable<pre><code>chmod +x cache_memory_cleaner.sh</code></pre></li><li>Optional: install the helpers for the commands you plan to use<pre><code>brew install rclone afsctool</code></pre></li></ol>
+<h2>Quick start: commands and what you should see</h2>
+<p><b>Ask which tier a pure cache folder belongs to (read-only)</b></p>
+<pre><code>./cache_memory_cleaner.sh classify path/to/myproj/__pycache__</code></pre>
+<p>RECOMMENDATION: Tier 4, delete immediately, no backup needed, because the name matches a known cache pattern that regenerates.</p>
+<p><b>Classify a Python virtual environment</b></p>
+<pre><code>./cache_memory_cleaner.sh classify path/to/venv</code></pre>
+<p>Tier 1, permanent local, compress in place. It can be rebuilt from requirements.txt, but until then something needs it as real files.</p>
+<p><b>Classify a folder untouched for years</b></p>
+<pre><code>./cache_memory_cleaner.sh classify path/to/oldvm</code></pre>
+<p>In the demo, a folder dormant for 1,386 days and untracked came back as Tier 3: archive to the cloud, then evict. A git repo with a branch that has no upstream also got Tier 3 (git bundle). A path matching a personal scanned-document pattern got Tier 0, never touch.</p>
+<p><b>Preview cache cleanup without deleting anything</b></p>
+<pre><code>DRY_RUN=1 ./cache_memory_cleaner.sh clean-caches</code></pre>
+<p>Lines starting [dry-run] rm -rf, covering browser caches, Chrome&#x27;s on-device model caches, Chrome Service Worker and GPUCache folders, and pip caches. The demo ended with &#x27;Free space: 21GB -&gt; 21GB&#x27;, since nothing was removed.</p>
+<h2>Ways to use it</h2>
+<div class="tw"><table><tr><th>Method</th><th>How it works</th></tr><tr><td>Command line</td><td>./cache_memory_cleaner.sh &lt;command&gt;. Commands in the README: report, clean-caches, clean-packages, find-dormant, git-gc, trim-vms, archive-evict, list-archives, compress-local, classify and all.</td></tr><tr><td>Dry run</td><td>Put DRY_RUN=1 in front of any command to print what it would do.</td></tr><tr><td>Via an AI assistant</td><td>Ask the assistant to run classify on a folder and explain the reason in plain language before you act.</td></tr></table></div>
+<h2>Sample prompts for your AI assistant</h2><p>Copy, paste and edit the parts in [brackets].</p>
+<ul><li>Read README.md and cache_memory_cleaner.sh and explain the five tiers in plain English.</li><li>Run classify on [path] and tell me what each check means and what the recommendation is.</li><li>I want to free about [20] GB. Run report, then suggest which folders to classify first. Do not delete anything.</li><li>Run DRY_RUN=1 clean-caches and explain each line it would remove and whether apps rebuild it.</li><li>Explain the risk if CLEANER_REMOTES points at a folder that another rclone sync job also writes to.</li><li>Help me set up rclone and a safe archive-evict destination, and confirm the destination is not synced by anything else.</li></ul>
+<h2>Limits and honest caveats</h2>
+<div class="warn"><ul><li>classify is a heuristic. Read its reason, and the tier policy document in the repo-data-dedup repo, before acting on it.</li><li>Never point CLEANER_REMOTES at a path that another job mirrors with rclone sync. A sync job deletes remote files it does not find locally; in the author&#x27;s case this wiped four verified archives.</li><li>compress-local needs afsctool. ditto --hfsCompression silently does nothing.</li><li>archive-evict needs rclone remotes already configured. It deletes originals, so it was not run in the demo.</li><li>The demo ran only classify (on example folders) and a dry run of clean-caches. It did not run report, find-dormant, trim-vms, archive-evict or compress-local.</li><li>The demo&#x27;s classify paths were example folders, not a real system, and no files were deleted.</li></ul></div>
+<p class="src">Sources: README.md and cache_memory_cleaner.sh in github.com/herrrickshaw/cache_memory_cleaner (MIT licence); demo run on 18 October 2026.</p>
+<div id="changelog" class="note">
+<b>Revision history.</b>
+<ul>
+<li><b>v1.0.0</b> &mdash; 18 October 2026 &mdash; first published.</li>
+</ul>
+</div>
+
+
+<style>/* gs-light-lock-v1 */.htucachem{--ink:#111!important;--accent:#8a4b08!important;--rule:#e8dcc4!important;--panel:#fdf7ec!important;--good:#1a7a4c!important;--good-soft:#eaf6ef!important;--bad:#a5402c!important;--bad-soft:#fff4f0!important}</style>
+<div data-gs-access-note="1" style="border-left:4px solid #8a4b08;background:rgba(138,75,8,.07);padding:.8em 1em;margin:1.2em 0;border-radius:4px"><b>Repository and data access.</b> Need the GitHub repository or the data files behind this guide? Both are available on request: <a href="https://blog.vertistratsolution.com/p/contact.html">ask through the Contact page</a> and name the guide and what you need.</div>
+<p class="disclaimer" data-gs-ai-disclosure-v1="1"><strong>About this article:</strong> Researched, written and edited by Umashankar Triplicane Dwarakanathan, with AI research assistance; every figure is meant to trace to the primary source cited. See the <a href="https://blog.vertistratsolution.com/p/disclaimer.html">Editorial Policy</a> for how sourcing, AI use and corrections work.</p>
+
+</div>
+
+<div id="gs-idx"></div><script defer="defer" src="https://herrrickshaw.github.io/masaladeutsch/accordion.js"></script>

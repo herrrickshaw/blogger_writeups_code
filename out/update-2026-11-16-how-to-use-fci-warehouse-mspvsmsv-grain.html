@@ -1,0 +1,268 @@
+<div class="artx htufciwar">
+<style>
+/* ---- typography (gs-typo-unify-v1): keep in sync across all posts ---- */
+.htufciwar{font-family:Georgia,'Times New Roman',serif;line-height:1.6;color:#111}
+.htufciwar h1,.htufciwar h2,.htufciwar h3{line-height:1.3}
+
+/* ---- palette: define every colour as a custom property here. Do not add
+       raw hex elsewhere in a post's <style> block — reference these vars, so
+       a future palette change is a 4-line edit instead of a find-and-replace
+       across every post. ----
+   --ink     #111    body text, light-locked (see below)
+   --accent  #8a4b08  eyebrow text, h2 rule, table header bg, stat numbers —
+                       the one colour that carries this post's "brand"
+   --rule    #e8dcc4  hairline borders, h2 underline, table cell borders
+   --panel   #fdf7ec  stat-card bg, even table rows — the palette's one tint
+*/
+.htufciwar{--ink:#111;--accent:#8a4b08;--rule:#e8dcc4;--panel:#fdf7ec;--good:#1a7a4c;--good-soft:#eaf6ef;--bad:#a5402c;--bad-soft:#fff4f0}
+
+/* ---- mono-label convention (added 2026-09-17, borrowed from the
+       india-trade-sector-policy-recommendations design system): the eyebrow
+       kicker and the source line read as data-journalism metadata, not
+       article prose, so they get a monospace face — a system stack, not a
+       hosted webfont, so no post gains an extra network request or a
+       flash-of-unstyled-text risk. Body text (h1/p/li/table) keeps the
+       serif — this is a two-place accent, not a font-pairing overhaul. ---- */
+.htufciwar{--mono:ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace}
+
+/* ---- light lock (gs-light-lock): a dark Blogger theme (and a browser/OS
+       set to prefers-color-scheme:dark) must not repaint text. Re-assert
+       the same values with !important — verified 2026-08-14 across 5 live
+       posts with the browser's colour scheme forced to dark: body/h1/p/table
+       all stayed light-background/dark-text with no low-contrast pairs.
+       Do NOT add selectors here for panels that are meant to be dark —
+       those go in the guard below. ---- */
+.htufciwar,.htufciwar p,.htufciwar li,.htufciwar td,.htufciwar th{color:var(--ink)!important}
+.htufciwar{background:#fff!important}
+
+/* ---- structure: title + subtitle ----
+   .eyebrow    = the small-caps kicker ABOVE the h1 — "Section · Topic ·
+                 Subtopic", sets context before the reader hits the claim
+   h1          = the headline itself. Write it as the CLAIM, not the topic
+                 ("The Rouble Is the Outlier, Not the Dollar" beats
+                 "Currency Trends Update"). font-size 1.5rem is the deliberate
+                 site-wide size — do not bump it per-post.
+   .standfirst = the one/two-sentence SUBTITLE directly under the h1. This is
+                 also what Blogger's snippet extractor and the JSON-LD meta
+                 description both read (see the gs-head-order block below) —
+                 write it as a real, complete sentence a reader could act on,
+                 not a fragment.
+*/
+.htufciwar .eyebrow{font-size:.8rem;font-weight:700;letter-spacing:.04em;color:var(--accent);text-transform:uppercase;margin:0 0 6px;font-family:var(--mono)}
+.htufciwar h1{margin:0 0 10px;font-size:1.5rem}
+.htufciwar .standfirst{font-size:1.05rem;color:#333!important;margin:0 0 18px}
+.htufciwar .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px;margin:18px 0}
+.htufciwar .stat{background:var(--panel);border:1px solid var(--rule);border-radius:10px;padding:12px 14px}
+.htufciwar .stat b{display:block;font-size:1.2rem;color:var(--accent)}
+.htufciwar .stat span{font-size:.8rem}
+.htufciwar h2{color:var(--accent);border-bottom:2px solid var(--rule);padding-bottom:6px;margin-top:30px;font-size:1.15rem}
+
+/* ---- tables: units live in the header, cells carry bare numbers.
+       .tw is the mobile-overflow fix — see the MOBILE comment above. ---- */
+.htufciwar .tw{overflow-x:auto}
+.htufciwar table{width:100%;border-collapse:collapse;margin:14px 0;font-size:.88rem}
+.htufciwar th,.htufciwar td{border:1px solid var(--rule);padding:7px 9px;text-align:right;word-wrap:break-word;overflow-wrap:break-word}
+.htufciwar th:first-child,.htufciwar td:first-child{text-align:left}
+.htufciwar th{background:var(--accent);color:#fff!important;font-weight:600}
+.htufciwar tr:nth-child(even){background:var(--panel)}
+
+.htufciwar .note{background:#eef4ff;border-left:4px solid #2a78d6;padding:12px 16px;margin:18px 0;border-radius:0 8px 8px 0;font-size:.93rem}
+.htufciwar .warn{background:var(--bad-soft);border-left:4px solid var(--bad);padding:12px 16px;margin:18px 0;border-radius:0 8px 8px 0;font-size:.93rem}
+/* ---- .good (added 2026-09-17): third semantic tier alongside .note (neutral
+       framing) and .warn (a caveat/scope limit) — for the case a caveat block
+       would otherwise get stretched to cover: confirming a figure checked out,
+       a correction that resolved cleanly, a claim that survived cross-check.
+       Same shape as .note/.warn on purpose, so all three read as one family. */
+.htufciwar .good{background:var(--good-soft);border-left:4px solid var(--good);padding:12px 16px;margin:18px 0;border-radius:0 8px 8px 0;font-size:.93rem}
+/* ---- .chip (added 2026-09-17): formalises a labelling pattern several posts
+       already built ad hoc in JS (e.g. "PLI coverage: strong/partial/gap")
+       into one reusable inline component, so a new post doesn't reinvent it.
+       Use inline: <span class="chip chip-good">Strong</span>. ---- */
+.htufciwar .chip{display:inline-block;font-family:var(--mono);font-size:.72rem;font-weight:700;letter-spacing:.02em;padding:.15rem .5rem;border-radius:99px;line-height:1.5}
+.htufciwar .chip-good{background:var(--good-soft);color:var(--good)}
+.htufciwar .chip-warn{background:var(--panel);color:var(--accent)}
+.htufciwar .chip-bad{background:var(--bad-soft);color:var(--bad)}
+.htufciwar .src{font-size:.84rem;font-family:var(--mono);border-top:1px solid var(--rule);padding-top:12px;margin-top:24px}
+.htufciwar .disclaimer{font-size:.82rem;color:#555;margin-top:10px}
+.htufciwar .revised{font-size:.8rem;color:#555!important;margin:0 0 14px}
+.htufciwar .revised code{font-family:inherit;background:var(--panel);padding:1px 5px;border-radius:4px}
+</style>
+
+
+<div class="gs-head-order" style="display:flex;flex-direction:column">
+<p class="standfirst" style="order:4">A research and data repository on India&#x27;s foodgrain procurement: the MSP series, mandi prices against MSP, FCI stocks and storage, a dashboard, and small Python models for holding economics and grain processing.</p>
+<div class="topnav-index-link" style="order:1;font-size:.82em;margin:6px 0 14px"><a href="https://blog.vertistratsolution.com/2026/08/article-index-start-here.html" style="color:#0b5394;text-decoration:none">&#8592; All Articles (Index)</a></div>
+<p class="eyebrow" style="order:2">Open-Source Tools · How-To · Policy analysis</p>
+<h1 style="order:3">How to use FCI-warehouse-MSPvsMSV: grain procurement, MSP and mandi-price data with working models</h1>
+</div>
+
+
+<a href="#" id="gs-skip-link" class="gs-skip-link" style="position:absolute;left:-9999px;top:auto;background:#1a1a1a;color:#fff;padding:.6rem 1rem;z-index:1000;border-radius:4px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.85rem">Skip to article content</a>
+<style>.gs-skip-link:focus{left:8px!important;top:8px!important}
+.gs-a11y-bar{display:flex;align-items:center;gap:.55rem;flex-wrap:wrap;background:#f4f5f7;border:1px solid #dfe3e8;border-radius:8px;padding:.55rem .8rem;margin:10px 0 16px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
+.gs-a11y-bar .gs-a11y-label{font-size:.68rem;font-weight:700;letter-spacing:.08em;color:#666;text-transform:uppercase;margin-right:.15rem}
+.gs-a11y-bar button{cursor:pointer;border:1px solid #c7cbd1;background:#fff;color:#1a1a1a;border-radius:5px;padding:.32rem .65rem;font-family:inherit;line-height:1}
+.gs-a11y-bar button.gs-a11y-fs{font-weight:700;min-width:2rem;text-align:center}
+.gs-a11y-bar button.gs-a11y-fs[data-size="sm"]{font-size:.8rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="md"]{font-size:1rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="lg"]{font-size:1.2rem}
+.gs-a11y-bar button.gs-a11y-fs[aria-pressed="true"]{background:#1a1a1a;color:#fff;border-color:#1a1a1a}
+.gs-a11y-bar button:hover{border-color:#8a4b08}
+.gs-a11y-bar button:focus-visible{outline:2px solid #8a4b08;outline-offset:1px}
+.gs-a11y-bar .gs-a11y-sep{width:1px;align-self:stretch;background:#dfe3e8;margin:0 .1rem}</style>
+<div class="gs-a11y-bar" role="group" aria-label="Accessibility controls">
+<span class="gs-a11y-label">Text Size</span>
+<button type="button" class="gs-a11y-fs" data-size="sm" aria-pressed="false" aria-label="Small text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="md" aria-pressed="true" aria-label="Medium text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="lg" aria-pressed="false" aria-label="Large text">A</button>
+<span class="gs-a11y-sep"></span>
+<button type="button" id="gs-a11y-listen" aria-label="Read this article aloud">&#128266; Listen</button>
+<button type="button" id="gs-a11y-stop" aria-label="Stop reading aloud">&#9632; Stop</button>
+</div>
+<script>(function(){
+var KEY='gs-a11y-fontsize', SIZES={sm:'0.92',md:'1',lg:'1.15'};
+function pb(){return document.querySelector('.post-body')||document.querySelector('.artx,.mdrx');}
+function apply(sz){
+  var el=pb(); if(!el||!SIZES[sz]) return;
+  el.style.fontSize=SIZES[sz]+'em';
+  var btns=document.querySelectorAll('.gs-a11y-fs');
+  for(var i=0;i<btns.length;i++){
+    var on=btns[i].getAttribute('data-size')===sz;
+    btns[i].setAttribute('aria-pressed', on?'true':'false');
+  }
+  try{localStorage.setItem(KEY,sz);}catch(e){}
+}
+var fsBtns=document.querySelectorAll('.gs-a11y-fs');
+for(var j=0;j<fsBtns.length;j++){
+  fsBtns[j].addEventListener('click',(function(b){return function(){apply(b.getAttribute('data-size'));};})(fsBtns[j]));
+}
+var saved; try{saved=localStorage.getItem(KEY);}catch(e){}
+apply(saved&&SIZES[saved]?saved:'md');
+
+var listenBtn=document.getElementById('gs-a11y-listen'), stopBtn=document.getElementById('gs-a11y-stop');
+if(listenBtn){
+  listenBtn.addEventListener('click', function(){
+    if(!('speechSynthesis' in window)){ alert('Text-to-speech is not supported in this browser.'); return; }
+    window.speechSynthesis.cancel();
+    var src=pb(); if(!src) return;
+    var clone=src.cloneNode(true);
+    var strip=clone.querySelectorAll('script,style,svg');
+    for(var k=0;k<strip.length;k++){ strip[k].parentNode.removeChild(strip[k]); }
+    var text=clone.textContent.replace(/\s+/g,' ').trim();
+    if(!text) return;
+    var chunks=text.match(/[\s\S]{1,180}(?:[.!?]|$)/g)||[text];
+    var idx=0;
+    function speakNext(){
+      if(idx>=chunks.length) return;
+      var u=new SpeechSynthesisUtterance(chunks[idx]);
+      u.onend=function(){ idx++; speakNext(); };
+      window.speechSynthesis.speak(u);
+    }
+    speakNext();
+  });
+}
+if(stopBtn){
+  stopBtn.addEventListener('click', function(){
+    if('speechSynthesis' in window) window.speechSynthesis.cancel();
+  });
+}
+var skip=document.getElementById('gs-skip-link');
+if(skip){
+  skip.addEventListener('click', function(ev){
+    ev.preventDefault();
+    var h=document.querySelector('.post-body h1')||document.querySelector('.artx h1,.mdrx h1,h1');
+    if(h){ h.setAttribute('tabindex','-1'); h.focus(); h.scrollIntoView(); }
+  });
+}
+})();</script>
+<style>.goog-te-menu-frame{max-width:340px!important;max-height:70vh!important;overflow:auto!important;box-shadow:0 6px 24px rgba(0,0,0,.25)!important}</style>
+<div id="google_translate_element" style="margin:8px 0 16px;"></div><script type="text/javascript">function googleTranslateElementInit(){new google.translate.TranslateElement({pageLanguage:"en",includedLanguages:"hi,bn,ta,te,mr,gu,kn,ml,pa,or,as,ur,sa,ne,sd",layout:google.translate.TranslateElement.InlineLayout.SIMPLE,autoDisplay:false},"google_translate_element");}</script><script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+
+<p class="revised" data-gs-revision-v1="1">Revised
+<time datetime="2026-10-19" itemprop="dateModified">19 October 2026</time>
+&middot; <code>v1.0.0</code> &middot; <a href="#changelog">what changed</a></p>
+
+<style>.htufciwar pre{background:#f6f3ea!important;color:#111!important;border:1px solid var(--rule);border-radius:8px;padding:10px 12px;overflow-x:auto;font-size:.82rem;line-height:1.45}.htufciwar pre code{background:none!important;color:#111!important;font-family:var(--mono)}.htufciwar code{font-family:var(--mono);font-size:.88em}.htufciwar .vid{position:relative;padding-bottom:56.25%;height:0;margin:16px 0;max-width:100%}.htufciwar .vid iframe{position:absolute;inset:0;width:100%;height:100%;border:0}</style><div class="stats"><div class="stat"><b>14</b><span>crops in the MSP series, 2010-11 onward</span></div><div class="stat"><b>16</b><span>crops in the mandi-vs-MSP comparison (23 Jul 2026)</span></div><div class="stat"><b>17,247</b><span>mandi records behind that comparison</span></div><div class="stat"><b>16</b><span>commodities in the holding-economics model, all negative net of carry</span></div></div>
+<p>Code: <a href="https://github.com/herrrickshaw/FCI-warehouse-MSPvsMSV">github.com/herrrickshaw/FCI-warehouse-MSPvsMSV</a></p>
+<h2>Watch the walkthrough</h2>
+<div class="vid"><iframe src="https://www.youtube.com/embed/KdOY3vWwzuM" title="How to use FCI-warehouse-MSPvsMSV: grain procurement, MSP and mandi-price data with working models" allowfullscreen loading="lazy"></iframe></div><p>Watch on YouTube: <a href="https://youtu.be/KdOY3vWwzuM">youtu.be/KdOY3vWwzuM</a></p>
+<h2>Why it is useful</h2>
+<ul><li>Agricultural-policy analysts, journalists and students asking &#x27;does MSP actually hold in the market?&#x27; get a ready table of mandi modal prices against MSP, crop by crop, with sources recorded in a manifest.</li><li>It replaces stitching together CACP, Agmarknet, DFPD bulletins and FCI data by hand. The data/ folder holds 49 CSVs, and data/MANIFEST.md says where each came from and what is missing.</li><li>Evidence from the run: the mandi table shows 92% of bajra and 84% of moong market reports below MSP on 23 July 2026, against 19% for wheat. Two models also ran unchanged in a fresh environment.</li><li>The holding-economics model produced a clear result: for every commodity tested, estimated storage and financing cost exceeded price appreciation over 12, 24 and 36 months, which bears directly on the &#x27;why not buy and hold&#x27; question behind MSV.</li></ul>
+<h2>What it is for</h2>
+<p>FCI-warehouse-MSPvsMSV evaluates whether a Minimum Support Volume guarantee could extend effective price support beyond rice and wheat. It contains cited reports (report/), CSV data with a provenance manifest (data/), a self-contained HTML dashboard (dashboard/), a Colab notebook, and several Python models: holding economics, OMSS grain-processing unit economics, rice-bran oil savings, and a real farm income index.</p>
+<p>This post uses the MSP series, the mandi-vs-MSP table and the two models that ran cleanly.</p>
+<p><b>Who it is for</b></p>
+<ul><li>Agricultural-economics students and researchers</li><li>Journalists covering procurement, MSP and food stocks</li><li>Policy teams comparing price-support designs</li><li>Developers wanting a worked, sourced Indian agri dataset</li></ul>
+<div class="warn"><b>Not for.</b><ul><li>Investment or trading advice: this is not investment advice</li><li>Official statistics: figures are compiled from published sources and not audited</li><li>Farm-level decisions: models are stylised unit economics, not forecasts</li></ul></div>
+<h2>What you need</h2>
+<div class="tw"><table><tr><th>Requirement</th><th>Why</th><th>How to get it</th></tr><tr><td>Python 3 with pandas and numpy</td><td>holding_economics.py uses both; the processing model needs neither</td><td>pip install pandas numpy</td></tr><tr><td>git</td><td>To clone</td><td>Pre-installed on most systems</td></tr><tr><td>A web browser</td><td>To open dashboard/index.html</td><td>Any modern browser</td></tr></table></div>
+<h2>Get the code and an AI assistant</h2>
+<p>You do not have to be a programmer. Get the repository, give it to an AI assistant, and ask in plain language. Any of these routes works:</p>
+<div class="tw"><table><tr><th>Tool</th><th>What you need</th><th>Best for</th></tr><tr><td><b>GitHub</b></td><td>Free account to fork or star; <code>git</code> to clone, or the green <b>Code</b> button, then <b>Download ZIP</b>, or open in <b>Codespaces</b></td><td>Getting the code and keeping up with updates</td></tr><tr><td><b>Claude Code</b></td><td>Claude subscription or API key; run <code>claude</code> inside the cloned folder</td><td>Letting the AI read and run the whole repo</td></tr><tr><td><b>Gemini CLI</b></td><td>Google account; run <code>gemini</code> inside the cloned folder</td><td>The same hands-on workflow with Gemini</td></tr><tr><td><b>Claude.ai, Gemini or ChatGPT in the browser</b></td><td>A chat account; upload <code>README.md</code> and the files you care about (or paste the output of <code>git ls-files</code>)</td><td>Understanding the project and asking questions without installing anything</td></tr><tr><td><b>Other tools</b> (Copilot Chat, Cursor, Codex CLI)</td><td>Open the cloned folder in the tool and point it at <code>README.md</code> first</td><td>Editing and extending the code</td></tr></table></div>
+<pre><code>git clone https://github.com/herrrickshaw/FCI-warehouse-MSPvsMSV.git
+cd FCI-warehouse-MSPvsMSV
+claude      # or: gemini</code></pre>
+<h2>Install</h2><ol><li>Clone the repository<pre><code>git clone https://github.com/herrrickshaw/FCI-warehouse-MSPvsMSV.git
+cd FCI-warehouse-MSPvsMSV</code></pre></li><li>Create an environment and install dependencies<pre><code>python3 -m venv .venv &amp;&amp; source .venv/bin/activate
+pip install pandas numpy</code></pre></li></ol>
+<h2>Quick start: commands and what you should see</h2>
+<p><b>View the MSP vs mandi table</b></p>
+<pre><code>cat data/mandi_vs_msp_20260723.csv</code></pre>
+<p>16 crops with MSP, number of market reports, median modal price, share of reports below MSP and median gap.</p>
+<p><b>Run the grain-processing unit-economics model</b></p>
+<pre><code>cd data &amp;&amp; python3 omss_processing_model.py</code></pre>
+<p>EBITDA per quintal for wheat-to-atta and paddy-to-rice, plus a 300 TPD flour-mill scale case.</p>
+<p><b>Run the holding-economics model</b></p>
+<pre><code>cd data &amp;&amp; python3 holding_economics.py</code></pre>
+<p>Summary, horizon-return and post-crash-episode tables per commodity; it rewrites three CSVs next to the script, so run it in a copy if you want the repo untouched.</p>
+<h2>Sample outputs</h2><p>Real output from a run on the date shown in the sources line; trimmed to fit.</p>
+<p><b>MSP vs mandi sample table (data/mandi_vs_msp_20260723.csv)</b></p>
+<pre><code>crop     MSP 2025-26  market reports  modal median  % reports below MSP  median gap vs MSP
+wheat        2425           768         2500.0          19                 +3%
+paddy        2369           335         2385.0          36                 +1%
+gram         5650           231         5900.0          22                 +4%
+maize        2400           226         2200.0          75                 -8%
+soybean      5328           195         7050.0           2                +32%
+moong        8768           161         6901.0          84                -21%
+tur          8000           129         7531.0          70                 -6%
+bajra        2775            84         2382.0          92                -14%
+ragi         4886            14         3550.0          93                -27%</code></pre>
+<p>Prices in Rs per quintal. Trimmed from 16 crops. Built from the 23 July 2026 Agmarknet daily feed (17,247 records) per MANIFEST.md. Crops with few reports (ragi 14, sunflower 2) are thin evidence.</p>
+<p><b>Holding economics (14-year window, % per year)</b></p>
+<pre><code>commodity   price CAGR  carry cost  net annual  verdict
+paddy             4.84       20.33      -15.48  CARRY EXCEEDS APPRECIATION
+wheat             5.19       16.99      -11.80  CARRY EXCEEDS APPRECIATION
+maize             3.81       18.50      -14.69  CARRY EXCEEDS APPRECIATION
+arhar_tur         5.74       13.67       -7.93  CARRY EXCEEDS APPRECIATION
+sugar             2.33       16.59      -14.26  CARRY EXCEEDS APPRECIATION</code></pre>
+<p>Rows trimmed; all 16 commodities show the same verdict. Carry costs combine storage tariffs and financing assumptions that are cited in the repo&#x27;s report, not in this output.</p>
+<p><b>Grain-processing unit economics</b></p>
+<pre><code>python3 omss_processing_model.py
+WHEAT-&gt;ATTA OMSS-sourced: grain 2550 | revenue 2926 | gross 376 | EBITDA 196/qtl (6.7% margin)
+WHEAT-&gt;ATTA mandi-sourced: grain 2500 | revenue 2926 | gross 426 | EBITDA 246/qtl (8.4% margin)
+PADDY-&gt;RICE open-market: paddy 2385 | revenue 2520 | EBITDA -15/qtl (-0.6% margin)
+SCALE: 300 TPD flour mill | EBITDA Rs 17.6 cr | capital employed ~Rs 80 cr | ROCE ~22%</code></pre>
+<p>Deterministic model with labelled input assumptions, not a forecast.</p>
+<h2>Ways to use it</h2>
+<div class="tw"><table><tr><th>Method</th><th>How it works</th></tr><tr><td>Open the dashboard</td><td>dashboard/index.html is self-contained; open it in a browser (add ?theme=dark for dark mode).</td></tr><tr><td>Query the CSVs</td><td>Load msp_series.csv, procurement_by_year.csv or stocks_vs_norms.csv in pandas or DuckDB.</td></tr><tr><td>Colab notebook</td><td>The README links a Colab notebook that reproduces the charts.</td></tr><tr><td>Through an AI assistant</td><td>Open the clone in Claude Code or Gemini CLI, or upload README.md, MANIFEST.md and a CSV to a chat assistant.</td></tr></table></div>
+<h2>Sample prompts for your AI assistant</h2><p>Copy, paste and edit the parts in [brackets].</p>
+<ul><li>Read data/MANIFEST.md and list which datasets cover procurement, stocks, storage and prices, with their known gaps.</li><li>Using data/msp_series.csv, compute the MSP CAGR for wheat and paddy since 2010-11 and chart both.</li><li>From mandi_vs_msp_20260723.csv, which crops have more than half of market reports below MSP? Why might the sample sizes matter?</li><li>Explain the assumptions in holding_economics.py and which one the verdict is most sensitive to.</li><li>Summarise the case for and against a Minimum Support Volume from report/msp-vs-msv-main-report.md in 200 words.</li></ul>
+<h2>Limits and honest caveats</h2>
+<div class="warn"><ul><li>Not investment advice. Figures are compiled from public sources and unaudited.</li><li>Year labels differ between files. In msp_series.csv the year is the sowing year, so the rabi wheat MSP of Rs 2,425 sits under 2024-25 and Rs 2,585 under 2025-26, whereas mandi_vs_msp_20260723.csv uses the marketing-year MSP (wheat Rs 2,425 for 2025-26). Check the label before joining the two.</li><li>The mandi comparison is one day (23 July 2026) and includes crops with very few reports.</li><li>The holding-economics verdict depends on assumed carry rates (storage tariffs and financing) and WPI price series; it is not a forecast. Running it rewrites its three output CSVs.</li><li>The repo includes some company financials taken from screener.in; I did not use or reproduce them, and you should check licensing before reusing that file.</li><li>I did not run the other models (biodiesel, RBO savings, farm income index) or the dashboard, and the mandi data&#x27;s upstream collection was not re-run.</li></ul></div>
+<p class="src">Sources: the FCI-warehouse-MSPvsMSV README, data/MANIFEST.md, data/msp_series.csv, data/mandi_vs_msp_20260723.csv and the Python models; omss_processing_model.py and holding_economics.py run on 19 October 2026 on a copy of the data folder (latest commit 3 October 2026).</p>
+<div id="changelog" class="note">
+<b>Revision history.</b>
+<ul>
+<li><b>v1.0.0</b> &mdash; 19 October 2026 &mdash; first published.</li>
+</ul>
+</div>
+
+
+<style>/* gs-light-lock-v1 */.htufciwar{--ink:#111!important;--accent:#8a4b08!important;--rule:#e8dcc4!important;--panel:#fdf7ec!important;--good:#1a7a4c!important;--good-soft:#eaf6ef!important;--bad:#a5402c!important;--bad-soft:#fff4f0!important}</style>
+<div data-gs-access-note="1" style="border-left:4px solid #8a4b08;background:rgba(138,75,8,.07);padding:.8em 1em;margin:1.2em 0;border-radius:4px"><b>Repository and data access.</b> Need the GitHub repository or the data files behind this guide? Both are available on request: <a href="https://blog.vertistratsolution.com/p/contact.html">ask through the Contact page</a> and name the guide and what you need.</div>
+<p class="disclaimer" data-gs-ai-disclosure-v1="1"><strong>About this article:</strong> Researched, written and edited by Umashankar Triplicane Dwarakanathan, with AI research assistance; every figure is meant to trace to the primary source cited. See the <a href="https://blog.vertistratsolution.com/p/disclaimer.html">Editorial Policy</a> for how sourcing, AI use and corrections work.</p>
+
+</div>
+
+<div id="gs-idx"></div><script defer="defer" src="https://herrrickshaw.github.io/masaladeutsch/accordion.js"></script>

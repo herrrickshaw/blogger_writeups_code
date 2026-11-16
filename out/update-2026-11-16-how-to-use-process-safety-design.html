@@ -1,0 +1,710 @@
+<!--
+  VertiStrat Solutions post skeleton — frozen 2026-08-06, mobile/colour reference added
+  2026-08-14, mono-label/.good/.chip additions 2026-09-17. See DESIGN_LOG.md
+  for why. Replace the pstk prefix with a short
+  per-post class (rsx, ecx, fertx, mapx …) so the styles stay scoped to this
+  post. Keep the element order below. Run
+  ~/blog-consistency-check/audit.py --url <live url> --rendered before calling
+  a post done.
+
+  DO NOT COPY A PAST POST'S <div class="topnav-index-link">...<h1>How to use the process-safety design toolkit: relief, fire and dispersion checks</h1>
+  BLOCK AS A SHORTCUT. Copying an older post's raw header (rather than this
+  skeleton) is exactly how the snippet bug reappeared on three posts in
+  August 2026 — those posts had a valid-looking header that simply predated
+  this file's gs-head-order fix. Always start a new post from this file.
+
+  ---- MOBILE / RESPONSIVE (verified 2026-08-14 at 375px viewport) ----
+  Every rule below already produces zero page-level horizontal scroll on
+  mobile, verified across 5+ live posts: .tw{overflow-x:auto} makes the TABLE
+  WRAPPER, not the page, the scrolling element, so a table with many columns
+  scrolls inside its own box instead of blowing out the viewport — do not
+  remove .tw from around a <table>, and do not set a fixed px width on a
+  table or its wrapper. The .stats grid uses auto-fit/minmax so cards
+  collapse to one column on narrow screens without a media query. The a11y
+  bar and translate widget both wrap via flex-wrap. If you add any new
+  block-level element with a fixed width, wrap it in a class with
+  `max-width:100%;overflow-x:auto` the same way .tw does, or it will
+  reintroduce page-level mobile overflow.
+-->
+<div class="artx pstk">
+<style>
+/* ---- typography (gs-typo-unify-v1): keep in sync across all posts ---- */
+.pstk{font-family:Georgia,'Times New Roman',serif;line-height:1.6;color:#111}
+.pstk h1,.pstk h2,.pstk h3{line-height:1.3}
+
+/* ---- palette: define every colour as a custom property here. Do not add
+       raw hex elsewhere in a post's <style> block — reference these vars, so
+       a future palette change is a 4-line edit instead of a find-and-replace
+       across every post. ----
+   --ink     #111    body text, light-locked (see below)
+   --accent  #8a4b08  eyebrow text, h2 rule, table header bg, stat numbers —
+                       the one colour that carries this post's "brand"
+   --rule    #e8dcc4  hairline borders, h2 underline, table cell borders
+   --panel   #fdf7ec  stat-card bg, even table rows — the palette's one tint
+*/
+.pstk{--ink:#111;--accent:#8a4b08;--rule:#e8dcc4;--panel:#fdf7ec;--good:#1a7a4c;--good-soft:#eaf6ef;--bad:#a5402c;--bad-soft:#fff4f0}
+
+/* ---- mono-label convention (added 2026-09-17, borrowed from the
+       india-trade-sector-policy-recommendations design system): the eyebrow
+       kicker and the source line read as data-journalism metadata, not
+       article prose, so they get a monospace face — a system stack, not a
+       hosted webfont, so no post gains an extra network request or a
+       flash-of-unstyled-text risk. Body text (h1/p/li/table) keeps the
+       serif — this is a two-place accent, not a font-pairing overhaul. ---- */
+.pstk{--mono:ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace}
+
+/* ---- light lock (gs-light-lock): a dark Blogger theme (and a browser/OS
+       set to prefers-color-scheme:dark) must not repaint text. Re-assert
+       the same values with !important — verified 2026-08-14 across 5 live
+       posts with the browser's colour scheme forced to dark: body/h1/p/table
+       all stayed light-background/dark-text with no low-contrast pairs.
+       Do NOT add selectors here for panels that are meant to be dark —
+       those go in the guard below. ---- */
+.pstk,.pstk p,.pstk li,.pstk td,.pstk th{color:var(--ink)!important}
+.pstk{background:#fff!important}
+
+/* ---- structure: title + subtitle ----
+   .eyebrow    = the small-caps kicker ABOVE the h1 — "Section · Topic ·
+                 Subtopic", sets context before the reader hits the claim
+   h1          = the headline itself. Write it as the CLAIM, not the topic
+                 ("The Rouble Is the Outlier, Not the Dollar" beats
+                 "Currency Trends Update"). font-size 1.5rem is the deliberate
+                 site-wide size — do not bump it per-post.
+   .standfirst = the one/two-sentence SUBTITLE directly under the h1. This is
+                 also what Blogger's snippet extractor and the JSON-LD meta
+                 description both read (see the gs-head-order block below) —
+                 write it as a real, complete sentence a reader could act on,
+                 not a fragment.
+*/
+.pstk .eyebrow{font-size:.8rem;font-weight:700;letter-spacing:.04em;color:var(--accent);text-transform:uppercase;margin:0 0 6px;font-family:var(--mono)}
+.pstk h1{margin:0 0 10px;font-size:1.5rem}
+.pstk .standfirst{font-size:1.05rem;color:#333!important;margin:0 0 18px}
+.pstk .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px;margin:18px 0}
+.pstk .stat{background:var(--panel);border:1px solid var(--rule);border-radius:10px;padding:12px 14px}
+.pstk .stat b{display:block;font-size:1.2rem;color:var(--accent)}
+.pstk .stat span{font-size:.8rem}
+.pstk h2{color:var(--accent);border-bottom:2px solid var(--rule);padding-bottom:6px;margin-top:30px;font-size:1.15rem}
+
+/* ---- tables: units live in the header, cells carry bare numbers.
+       .tw is the mobile-overflow fix — see the MOBILE comment above. ---- */
+.pstk .tw{overflow-x:auto}
+.pstk table{width:100%;border-collapse:collapse;margin:14px 0;font-size:.88rem}
+.pstk th,.pstk td{border:1px solid var(--rule);padding:7px 9px;text-align:right;word-wrap:break-word;overflow-wrap:break-word}
+.pstk th:first-child,.pstk td:first-child{text-align:left}
+.pstk th{background:var(--accent);color:#fff!important;font-weight:600}
+.pstk tr:nth-child(even){background:var(--panel)}
+
+.pstk .note{background:#eef4ff;border-left:4px solid #2a78d6;padding:12px 16px;margin:18px 0;border-radius:0 8px 8px 0;font-size:.93rem}
+.pstk .warn{background:var(--bad-soft);border-left:4px solid var(--bad);padding:12px 16px;margin:18px 0;border-radius:0 8px 8px 0;font-size:.93rem}
+/* ---- .good (added 2026-09-17): third semantic tier alongside .note (neutral
+       framing) and .warn (a caveat/scope limit) — for the case a caveat block
+       would otherwise get stretched to cover: confirming a figure checked out,
+       a correction that resolved cleanly, a claim that survived cross-check.
+       Same shape as .note/.warn on purpose, so all three read as one family. */
+.pstk .good{background:var(--good-soft);border-left:4px solid var(--good);padding:12px 16px;margin:18px 0;border-radius:0 8px 8px 0;font-size:.93rem}
+/* ---- .chip (added 2026-09-17): formalises a labelling pattern several posts
+       already built ad hoc in JS (e.g. "PLI coverage: strong/partial/gap")
+       into one reusable inline component, so a new post doesn't reinvent it.
+       Use inline: <span class="chip chip-good">Strong</span>. ---- */
+.pstk .chip{display:inline-block;font-family:var(--mono);font-size:.72rem;font-weight:700;letter-spacing:.02em;padding:.15rem .5rem;border-radius:99px;line-height:1.5}
+.pstk .chip-good{background:var(--good-soft);color:var(--good)}
+.pstk .chip-warn{background:var(--panel);color:var(--accent)}
+.pstk .chip-bad{background:var(--bad-soft);color:var(--bad)}
+.pstk .src{font-size:.84rem;font-family:var(--mono);border-top:1px solid var(--rule);padding-top:12px;margin-top:24px}
+.pstk .disclaimer{font-size:.82rem;color:#555;margin-top:10px}
+.pstk .revised{font-size:.8rem;color:#555!important;margin:0 0 14px}
+.pstk .revised code{font-family:inherit;background:var(--panel);padding:1px 5px;border-radius:4px}
+/* ---- code blocks (how-to posts) ---- */
+.pstk pre{background:var(--panel);border:1px solid var(--rule);border-radius:8px;padding:10px 12px;overflow-x:auto;font-family:var(--mono);font-size:.82rem;line-height:1.45;margin:12px 0}
+.pstk pre,.pstk code{color:var(--ink)!important}
+.pstk p code,.pstk li code,.pstk td code{background:var(--panel);padding:1px 5px;border-radius:4px;font-family:var(--mono);font-size:.85em}
+</style>
+
+<!--
+  1. Header block — required on every post, and its structure matters.
+  Blogger's data:post.snippet (the "Recent analysis" home-page cards) does pure
+  server-side plain-text extraction from the raw HTML source, tags stripped, in
+  source order — it has NO awareness of CSS, so visual position never affects
+  it. If the index backlink / eyebrow / duplicate title run first in source,
+  the home page shows "All Articles (Index) Section · Topic Headline..." — nav
+  chrome, not the article. The fix: this flex wrapper puts <p class="standfirst">
+  FIRST in source (so the snippet reads real opening prose) while `order`
+  restores the normal reading layout — backlink, eyebrow, title, standfirst —
+  on screen. Do not reorder these elements back to document order; that
+  reintroduces the bug. The site's JSON-LD script (theme.xml) already relies on
+  `.standfirst` the same way for meta description, so this class must stay.
+-->
+<div class="gs-head-order" style="display:flex;flex-direction:column">
+<p class="standfirst" style="order:4">Install it, learn the habits that keep a screening result honest, then work through every command with a real output and what to do with it, from a relief valve to a full quantitative risk study.</p>
+<div class="topnav-index-link" style="order:1;font-size:.82em;margin:6px 0 14px"><a href="https://blog.vertistratsolution.com/2026/08/article-index-start-here.html" style="color:#0b5394;text-decoration:none">&#8592; All Articles (Index)</a></div>
+<p class="eyebrow" style="order:2">Engineering Tools &middot; Process Safety &middot; User Guide</p>
+<h1 style="order:3">How to Use the Process-Safety Design Toolkit: A Complete Walkthrough, Command by Command</h1>
+</div>
+
+<!--
+  2. Accessibility bar + translate widget — required on every post. Placed AFTER
+  the header block in source order for the same reason as above: keep real
+  content first, this block visually renders fine lower down (it does not need
+  to be first for its own accessibility purpose — the skip-link still works via
+  its href/focus regardless of position).
+-->
+<a href="#" id="gs-skip-link" class="gs-skip-link" style="position:absolute;left:-9999px;top:auto;background:#1a1a1a;color:#fff;padding:.6rem 1rem;z-index:1000;border-radius:4px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.85rem">Skip to article content</a>
+<style>.gs-skip-link:focus{left:8px!important;top:8px!important}
+.gs-a11y-bar{display:flex;align-items:center;gap:.55rem;flex-wrap:wrap;background:#f4f5f7;border:1px solid #dfe3e8;border-radius:8px;padding:.55rem .8rem;margin:10px 0 16px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
+.gs-a11y-bar .gs-a11y-label{font-size:.68rem;font-weight:700;letter-spacing:.08em;color:#666;text-transform:uppercase;margin-right:.15rem}
+.gs-a11y-bar button{cursor:pointer;border:1px solid #c7cbd1;background:#fff;color:#1a1a1a;border-radius:5px;padding:.32rem .65rem;font-family:inherit;line-height:1}
+.gs-a11y-bar button.gs-a11y-fs{font-weight:700;min-width:2rem;text-align:center}
+.gs-a11y-bar button.gs-a11y-fs[data-size="sm"]{font-size:.8rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="md"]{font-size:1rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="lg"]{font-size:1.2rem}
+.gs-a11y-bar button.gs-a11y-fs[aria-pressed="true"]{background:#1a1a1a;color:#fff;border-color:#1a1a1a}
+.gs-a11y-bar button:hover{border-color:#8a4b08}
+.gs-a11y-bar button:focus-visible{outline:2px solid #8a4b08;outline-offset:1px}
+.gs-a11y-bar .gs-a11y-sep{width:1px;align-self:stretch;background:#dfe3e8;margin:0 .1rem}</style>
+<div class="gs-a11y-bar" role="group" aria-label="Accessibility controls">
+<span class="gs-a11y-label">Text Size</span>
+<button type="button" class="gs-a11y-fs" data-size="sm" aria-pressed="false" aria-label="Small text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="md" aria-pressed="true" aria-label="Medium text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="lg" aria-pressed="false" aria-label="Large text">A</button>
+<span class="gs-a11y-sep"></span>
+<button type="button" id="gs-a11y-listen" aria-label="Read this article aloud">&#128266; Listen</button>
+<button type="button" id="gs-a11y-stop" aria-label="Stop reading aloud">&#9632; Stop</button>
+</div>
+<script>(function(){
+var KEY='gs-a11y-fontsize', SIZES={sm:'0.92',md:'1',lg:'1.15'};
+function pb(){return document.querySelector('.post-body')||document.querySelector('.artx,.mdrx');}
+function apply(sz){
+  var el=pb(); if(!el||!SIZES[sz]) return;
+  el.style.fontSize=SIZES[sz]+'em';
+  var btns=document.querySelectorAll('.gs-a11y-fs');
+  for(var i=0;i<btns.length;i++){
+    var on=btns[i].getAttribute('data-size')===sz;
+    btns[i].setAttribute('aria-pressed', on?'true':'false');
+  }
+  try{localStorage.setItem(KEY,sz);}catch(e){}
+}
+var fsBtns=document.querySelectorAll('.gs-a11y-fs');
+for(var j=0;j<fsBtns.length;j++){
+  fsBtns[j].addEventListener('click',(function(b){return function(){apply(b.getAttribute('data-size'));};})(fsBtns[j]));
+}
+var saved; try{saved=localStorage.getItem(KEY);}catch(e){}
+apply(saved&&SIZES[saved]?saved:'md');
+
+var listenBtn=document.getElementById('gs-a11y-listen'), stopBtn=document.getElementById('gs-a11y-stop');
+if(listenBtn){
+  listenBtn.addEventListener('click', function(){
+    if(!('speechSynthesis' in window)){ alert('Text-to-speech is not supported in this browser.'); return; }
+    window.speechSynthesis.cancel();
+    var src=pb(); if(!src) return;
+    var clone=src.cloneNode(true);
+    var strip=clone.querySelectorAll('script,style,svg');
+    for(var k=0;k<strip.length;k++){ strip[k].parentNode.removeChild(strip[k]); }
+    var text=clone.textContent.replace(/\s+/g,' ').trim();
+    if(!text) return;
+    var chunks=text.match(/[\s\S]{1,180}(?:[.!?]|$)/g)||[text];
+    var idx=0;
+    function speakNext(){
+      if(idx>=chunks.length) return;
+      var u=new SpeechSynthesisUtterance(chunks[idx]);
+      u.onend=function(){ idx++; speakNext(); };
+      window.speechSynthesis.speak(u);
+    }
+    speakNext();
+  });
+}
+if(stopBtn){
+  stopBtn.addEventListener('click', function(){
+    if('speechSynthesis' in window) window.speechSynthesis.cancel();
+  });
+}
+var skip=document.getElementById('gs-skip-link');
+if(skip){
+  skip.addEventListener('click', function(ev){
+    ev.preventDefault();
+    var h=document.querySelector('.post-body h1')||document.querySelector('.artx h1,.mdrx h1,h1');
+    if(h){ h.setAttribute('tabindex','-1'); h.focus(); h.scrollIntoView(); }
+  });
+}
+})();</script>
+<style>.goog-te-menu-frame{max-width:340px!important;max-height:70vh!important;overflow:auto!important;box-shadow:0 6px 24px rgba(0,0,0,.25)!important}</style>
+<div id="google_translate_element" style="margin:8px 0 16px;"></div><script type="text/javascript">function googleTranslateElementInit(){new google.translate.TranslateElement({pageLanguage:"en",includedLanguages:"hi,bn,ta,te,mr,gu,kn,ml,pa,or,as,ur,sa,ne,sd",layout:google.translate.TranslateElement.InlineLayout.SIMPLE,autoDisplay:false},"google_translate_element");}</script><script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+<!--
+  3. Revision line. Update BOTH the datetime attribute and the visible text on
+  every substantive edit, and keep the version in step with meta/<slug>.json in
+  the archive (tools/snapshot.py classifies the bump; see DESIGN_LOG.md).
+  MAJOR = a figure or conclusion changed · MINOR = new section · PATCH = wording,
+  styling, typo. The <time> element carries a machine-readable dateModified for
+  search engines; the visible text is what tells a reader the piece is maintained.
+-->
+<p class="revised" data-gs-revision-v1="1">Revised
+<time datetime="2026-11-10" itemprop="dateModified">10 November 2026</time>
+&middot; <code>v1.4.0</code> &middot; <a href="#changelog">what changed</a></p>
+
+<div class="stats">
+<div class="stat"><b>35</b><span>Command-line commands, from relief valves to a full risk study</span></div>
+<div class="stat"><b>173</b><span>Automated tests that pass on the current branch</span></div>
+<div class="stat"><b>0</b><span>Dependencies to install (Python standard library only)</span></div>
+<div class="stat"><b>7</b><span>JSON study tools: bow-tie, SIL, fire and gas, thermal runaway, ATEX, RAM, PHA</span></div>
+</div>
+
+<p>This is the long version of the guide. It installs the toolkit, explains the few habits that keep a screening result honest, and then goes through the commands by job: relief and venting, fire and explosion, functional safety, regulation, electrical, and the quantitative risk study. Every output below was produced by running the command on 5 November 2026 with <b>illustrative inputs</b>. An asset-specific walk-through of an LPG terminal, with every result, is in <a href="#s16">section 16</a>.</p>
+
+<p><b>Try it in the browser first.</b> A clickable design demo, <a href="https://process-safety-studio-demo.lovable.app">Process Safety Studio</a>, walks through five tasks in the same five steps the command line uses: choose a task, enter inputs with units, run, read the result with its notes and limits, and export. The tasks are a gas relief valve sized to API 520, OSHA PSM applicability, LNG terminal basics, PSM revalidation due dates and fire-and-gas detector coverage. Its results are outputs captured from the command line, not live calculations, so use it to see the workflow and install the toolkit to run your own numbers.</p>
+
+<div class="warn"><b>It is a screen, not a safety case.</b> Most of the governing standards are paywalled and were not read. Equations are derived from first principles where possible and tested against the standards&rsquo; own constants, and every remaining coefficient is flagged in the module&rsquo;s docstring. A qualified engineer owns any result, and validated software should decide real designs.</div>
+
+<div class="warn" style="border-left:4px solid #a5402c;background:rgba(165,64,44,.07);padding:.8em 1em;margin:1.2em 0;border-radius:4px"><b>Updated 10 November 2026.</b> This guide now includes the LPG-terminal worked example as <a href="#s16">section 16</a>. It was previously a separate post, &ldquo;Screen an LPG Terminal Before the Workshop, and See the Dense-Gas Gap It Cannot Close&rdquo;, which has been retired; its results, the dense-gas warning and its table of matching consultancy projects are all here now.</div>
+<h2>1. Install and orient</h2>
+
+<pre>git clone https://github.com/herrrickshaw/process-safety-design-toolkit
+cd process-safety-design-toolkit
+git checkout feature/ifluids-service-map   # until the two open pull requests merge
+python3 -m unittest discover tests         # 173 tests should pass
+python3 -m process_safety coverage         # every topic, its standards, and what is NOT implemented
+pip install -e .                           # optional: lets you run it from any folder</pre>
+
+<p>Run <code>coverage</code> first and read the lines that say &ldquo;not implemented&rdquo;. If you skip the install step and run from another folder, Python answers <code>No module named process_safety</code>; either install it with <code>pip install -e .</code> or run the commands from the repository folder.</p>
+
+<h2>2. Six habits that keep a screen honest</h2>
+
+<ol>
+<li><b>Know which numbers are yours.</b> Latent heat, set pressure, fill rate, failure frequencies and acceptance criteria are inputs. The toolkit will not invent them, and a diesel specific fuel consumption has no default for that reason.</li>
+<li><b>Check units on the command line.</b> They are in each command&rsquo;s help: <code>--p0</code> and <code>--set-g</code> are kPa, <code>blowdown --hole-d</code> is metres, <code>--wall-mm</code> is millimetres.</li>
+<li><b>Read the <code>note</code> and <code>warnings</code> fields.</b> They carry the limits of the result, such as the neutral-plume warning in <code>plume</code>.</li>
+<li><b>Trust the refusals.</b> The toolkit declines to answer outside a method&rsquo;s range instead of returning a number (examples below).</li>
+<li><b>Sample before you scale.</b> For the risk study, run <code>--sample</code> first.</li>
+<li><b>Verify against the standard you are held to.</b> The module docstring names it; <code>coverage</code> says whether its text was read.</li>
+</ol>
+
+<p>Here are two refusals, both real outputs. The arc-flash command only answers for open-air three-phase cases, and says so for enclosed equipment; the worst-case toxic release tells you when the neutral-plume model is outside its validity.</p>
+
+<pre>$ python3 -m process_safety arc-flash --kv 0.48 --ka 20 --t 0.2 --dist-mm 455 --enclosed
+{
+  &quot;applicability&quot;: {
+    &quot;ok&quot;: false,
+    &quot;why&quot;: &quot;enclosed three-phase equipment (switchgear, MCC, panels): use IEEE 1584&quot;
+  }
+}</pre>
+<pre>$ python3 -m process_safety rmp-worst chlorine --kg 1200
+  &quot;release_rate_kg_s&quot;: 2.0,
+  &quot;beyond_model_range&quot;: true,
+  &quot;warning&quot;: &quot;neutral-gas Gaussian screening is outside its validity at 1.5 m/s F-stability ...&quot;</pre>
+
+<h2>3. Relief and venting</h2>
+
+<p>The workflow is a chain. Work out the load for the scenario, then size the valve for that load. Here is a fire on a horizontal vessel (2.5 m by 8 m, liquid level 1.5 m, latent heat 330 kJ/kg), then the relief rate fed straight into the gas valve calculation for propane at 400 K and a 1,000 kPag set pressure.</p>
+
+<pre>$ python3 -m process_safety relief-fire --D 2.5 --L 8 --level 1.5 --latent 330
+  wetted_area_m2:   43.9
+  heat_input_kW:    960.6
+  relief_rate_kg_h: 10,480
+
+$ python3 -m process_safety relief-gas --W 10480 --T 400 --set-g 1000 --case fire --M 44 --k 1.13 --Z 0.9
+  required_area_mm2: 935.8
+  orifice:           K   (API 526 letter)
+  regime:            critical</pre>
+
+<p>The note on the fire result is a reminder that the fire relieving pressure is 1.21 times the set pressure plus atmospheric. The area is the minimum; pick the next API 526 orifice up.</p>
+
+<div class="tw">
+<table>
+<tr><th>Task</th><th>Command (shortened)</th><th>Key outputs (illustrative inputs)</th><th>Read it like this</th></tr>
+<tr><td>Steam valve</td><td><code>relief-steam --W 5000 --set-g 1500</code></td><td>Area 557.8 mm&sup2;, orifice J, regime napier</td><td>Note says saturated steam is assumed</td></tr><tr><td>Liquid valve</td><td><code>relief-liquid --Q 50 --rho 700 --set-g 1000 --back-g 100</code></td><td>Area 399.7 mm&sup2;, orifice H, Re 548,689</td><td>Re shows the viscosity correction is near 1</td></tr><tr><td>Atmospheric tank, normal venting</td><td><code>tank-normal --volume 5000 --fill 500 --empty 400 --volatile</code></td><td>Outbreathing 1,797 Nm&sup3;/h, inbreathing 1,163 Nm&sup3;/h</td><td>API 2000 5th edition; the notes flag cases that need engineering review</td></tr><tr><td>Atmospheric tank, fire</td><td><code>tank-fire --shape vertical --D 40 --L 16 --F bare --normal-capacity 1500</code></td><td>Wetted area 1,149 m&sup2;, emergency venting 19,897 Nm&sup3;/h, extra 18,397 beyond the normal vents</td><td>Extra vent capacity is what you must add</td></tr><tr><td>Vapour-filled vessel in a fire</td><td><code>vapour-fire --volume 15 --area 36 --D 2 --wall-mm 20 --M 20 --k 1.3 --p0-g 1000 --psv-area 500 --psv-set-g 1500</code></td><td>Rupture at 701 s, relief starts 319 s, peak 1,502 kPag, protected: false</td><td>The note says a valve alone is not enough: the wall weakens, so add depressuring or fire protection</td></tr><tr><td>Depressuring</td><td><code>depressure --volume 30 --p0 5000 --pt 1000 --T0 300 --M 20 --k 1.3 --area 800</code></td><td>301 s isothermal, 255 s adiabatic, minimum gas temperature 207 K</td><td>Two bounds; the temperature is a screen for minimum design metal temperature, not metal temperature</td></tr><tr><td>Blowdown through a hole</td><td><code>blowdown --volume 20 --p0 2000 --T0 300 --M 20 --k 1.3 --hole-d 0.025</code></td><td>Initial rate 1.58 kg/s, 288 of 321 kg released in the 600 s window</td><td>Pressure in kPa absolute, hole diameter in metres</td></tr>
+</table>
+</div>
+
+
+<h2>4. Fire, explosion and dispersion</h2>
+
+<p>These give you distances to harm levels so you can place people and equipment. All are screening models.</p>
+
+<div class="tw">
+<table>
+<tr><th>Task</th><th>Command (shortened)</th><th>Key outputs (illustrative inputs)</th><th>Read it like this</th></tr>
+<tr><td>Pool fire</td><td><code>pool-fire --area 300 --hc 44000 --hv 350 --cp 2.2 --tb 400</code></td><td>Pool diameter 19.5 m, flame height 30.9 m, heat release 1,012 MW, 37.5 kW/m&sup2; at 17.3 m, 12.5 at 37.0 m</td><td>Point-source distances; wind tilt and spreading are not modelled</td></tr><tr><td>BLEVE fireball</td><td><code>fireball --mass 20000 --hc 46</code></td><td>Diameter 157 m, duration 12.2 s, 37.5 kW/m&sup2; at 196 m, 4.0 at 663 m</td><td>Radiation only; blast and fragments are not covered</td></tr><tr><td>Flare radiation</td><td><code>flare --mass 20 --lhv 46 --mw 30 --flame-length 40</code></td><td>Heat release 920 MW, 4.73 kW/m&sup2; at about 63.8 m</td><td>It warns when a distance is under two flame lengths: the point-source result is unreliable there</td></tr><tr><td>Gas plume</td><td><code>plume --Q 100 --u 3 --H 2 --stability D --threshold-ppm 50 --M 34</code></td><td>Peak ground concentration at 24 m, above 50 ppm out to 187 m</td><td>Neutral-buoyancy only; dense gases need a dense-gas model</td></tr><tr><td>Steel in a fire</td><td><code>steel-fire --am-v 150</code></td><td>Steel reaches 550 &deg;C in about 4 min in a hydrocarbon fire</td><td>Unprotected steel fails fast; shows why passive protection is specified</td></tr>
+</table>
+</div>
+
+
+<h2>5. Functional safety and reliability</h2>
+
+<p>Layer-of-protection analysis (LOPA) tells you how much risk reduction a safety function must deliver. The probability-of-failure command then checks an architecture against it.</p>
+
+<pre>$ python3 -m process_safety lopa --ie 0.1 --ipl 0.1 0.01 --target 1e-6
+  unmitigated_per_yr: 0.1   mitigated_per_yr: 0.0001   tolerable_per_yr: 1e-06
+  required_rrf: 100   sil_needed: SIL 1
+
+$ python3 -m process_safety pfd --arch 1oo2 --lambda-du 2e-6 --ti-years 1 --beta 0.05
+  pfd_avg: 5.30e-04   rrf: 1,886   achieves: SIL 3</pre>
+
+<p>A hazard of 0.1 per year with two independent layers still leaves 1e-4 per year against a 1e-6 target, so a safety function with a risk reduction of 100 is required. A 1oo2 architecture with a dangerous undetected failure rate of 2e-6 per hour, a yearly proof test and a 5% common-cause factor gives a probability of failure of 5.3e-4, which meets the need on probability. Probability is not the whole test: the SIL tool also checks the architecture limits, and that is where a single valve usually fails (see section 9).</p>
+
+<h2>6. Regulation and management systems</h2>
+
+<div class="tw">
+<table>
+<tr><th>Task</th><th>Command (shortened)</th><th>Key outputs (illustrative inputs)</th><th>Read it like this</th></tr>
+<tr><td>OSHA PSM applicability</td><td><code>psm-check --chemical chlorine --kg 700</code></td><td>Threshold 680 kg, quantity 700 kg, covered: true</td><td>Looks the chemical up in the 134-chemical Appendix A</td></tr><tr><td>PSM due dates</td><td><code>psm-due --pha 2021-03-15 --audit 2023-06-01 --today 2026-11-05</code></td><td>PHA revalidation overdue by 235 days, compliance audit overdue by 157 days</td><td>Five-year and three-year cadences from the OSHA text</td></tr><tr><td>Seveso classification</td><td><code>seveso Chlorine:H=6 &#x27;Hydrogen sulphide:H=3&#x27;</code></td><td>Tier: lower-tier, sum 1.2 against the lower threshold</td><td>EU thresholds only; the Indian MSIHC schedules are not implemented</td></tr><tr><td>US EPA RMP threshold</td><td><code>rmp-check chlorine --kg 1200</code></td><td>Threshold 1,134 kg, covered: true</td><td>The 77 toxics and 63 flammables are parsed from the rule</td></tr><tr><td>Gas pipeline design</td><td><code>pipeline --smys 448 --wall 12.7 --od 610 --buildings 25</code></td><td>Design pressure 134.3 bar, impact radius 223 m</td><td>US 49 CFR 192 basis, natural gas only</td></tr><tr><td>LNG terminal</td><td><code>lng --tanks 160000 --heat-kw 4000 --regas-kg-s 50 --sw-dT 5</code></td><td>Impoundment 176,000 m&sup3;, boil-off 7.8 kg/s (1.0% a day), regas 44.4 MW, seawater 2.17 m&sup3;/s</td><td>Impoundment follows the US rule; siting models are not reproduced</td></tr><tr><td>LPG properties</td><td><code>lpg propane --fill-C 15 --max-C 50</code></td><td>1,616 kPag at 50 &deg;C, density 506 kg/m&sup3;, fill ceiling 88%</td><td>Codes (API 2510, OISD, IS 2825) set the practical fill limit</td></tr><tr><td>Peroxide decomposition</td><td><code>h2o2 --kg-h 500</code></td><td>Oxygen 235 kg/h, heat 401 kW, up to 640 kg/h steam</td><td>Pure H&#8322;O&#8322; basis; a first look at a tank failure case</td></tr>
+</table>
+</div>
+
+
+<h2>7. Electrical, noise and machinery</h2>
+
+<div class="tw">
+<table>
+<tr><th>Task</th><th>Command (shortened)</th><th>Key outputs (illustrative inputs)</th><th>Read it like this</th></tr>
+<tr><td>Arc flash, open air</td><td><code>arc-flash --kv 0.48 --ka 20 --t 0.2 --dist-mm 455</code></td><td>4.7 cal/cm&sup2;, boundary 905 mm</td><td>Lee method; enclosed equipment is refused and sent to IEEE 1584</td></tr><tr><td>Relay operating time</td><td><code>idmt --i 3000 --pickup 400 --tms 0.2 --curve very_inverse</code></td><td>Operates in 0.42 s at 7.5&times; pickup</td><td>Curve arithmetic; a coordination study is separate</td></tr><tr><td>Touch and step voltage</td><td><code>earthing --rho-s 3000 --t 0.5</code></td><td>Touch 902 V, step 3,117 V for a 50 kg person</td><td>IEEE 80 tolerable limits; grid design is not implemented</td></tr><tr><td>Safeguard distance</td><td><code>safeguard --stop-s 0.5 --d-mm 14</code></td><td>Minimum distance 800 mm</td><td>Pre-2024 ISO 13855 form; check your edition</td></tr><tr><td>Noise exposure</td><td><code>noise 90:8 95:2</code></td><td>Dose 150%, time-weighted average 92.9 dBA, exceeds limit: true</td><td>Items are LEVEL_dBA:HOURS; OSHA 1910.95 basis</td></tr>
+</table>
+</div>
+
+
+<h2 id="s8">8. The risk study (<code>qra</code>)</h2>
+
+<p>The risk study chains six steps: hazard identification, frequency, consequence, risk, evaluation against criteria, and mitigation. Everything is driven by one JSON file. Copy the worked example and edit it.</p>
+
+<pre>python3 -m process_safety qra example --out study.json       # copy the worked example
+python3 -m process_safety qra validate study.json            # units, sums to 1, references, provenance
+python3 -m process_safety qra hazid study.json --out hazid/  # registers for the workshop
+python3 -m process_safety qra run study.json --sample 3 --out sample/
+python3 -m process_safety qra run study.json --out qra_out/
+python3 -m process_safety qra buildings study.json --out qra_out/
+python3 -m process_safety qra emergency study.json --out qra_out/</pre>
+
+<p>The study file has these top-level blocks:</p>
+
+<div class="tw">
+<table>
+<tr><th>Key</th><th>What it holds</th></tr>
+<tr><td><code>materials</code></td><td>Properties per substance (molar mass, k, liquid density, boiling point, heat of vaporisation, heat of combustion, lower flammable limit, toxic component)</td></tr><tr><td><code>sections</code></td><td>Isolatable sections with inventory, pressure, temperature, coordinates, and equipment lists; each equipment item with its hole sizes and frequencies and the source of each</td></tr><tr><td><code>extra_scenarios</code></td><td>Scenarios that are not parts-count, such as a tanker loading failure</td></tr><tr><td><code>ignition</code>, <code>conventions</code></td><td>Ignition model and the immediate-ignition fraction (a study assumption, not data), thermal exposure time, explosion yield</td></tr><tr><td><code>weather</code>, <code>wind_rose</code></td><td>Stability class, wind speed and probability for each weather case, and the wind direction probabilities</td></tr><tr><td><code>grid</code>, <code>receptors</code>, <code>population</code></td><td>The calculation area and step, named receptors with occupancy, and population zones</td></tr><tr><td><code>indoor_vulnerability</code>, <code>buildings</code></td><td>How indoor occupants are protected, and each building with occupants and a target individual risk</td></tr><tr><td><code>criteria</code>, <code>alarp</code></td><td>The acceptance preset (UK R2P2, Dutch Bevi or custom) and the cost-benefit settings, including an illustrative value of a prevented fatality</td></tr><tr><td><code>mitigation</code></td><td>Candidate measures, each with a cost and the change it makes to the study</td></tr><tr><td><code>emergency</code></td><td>Credible-case frequency cut-off, unit radius, site boundary and toxic levels</td></tr>
+</table>
+</div>
+
+
+<div class="warn"><b>The example&rsquo;s numbers are placeholders.</b> The file says so in plain words: pump frequencies, weather, wind rose, population, indoor vulnerability, the value of a prevented fatality and measure costs are illustrative. Replace them with site data before any decision.</div>
+
+<p>On the worked example the full run takes about 13 seconds and finds 18 loss-of-containment scenarios with a total frequency of 0.0435 per year. Open <code>qra_report.html</code> first, then use the CSV files in Excel.</p>
+
+<div class="tw">
+<table>
+<tr><th>Output file</th><th>What it tells you</th></tr>
+<tr><td><code>qra_report.html</code></td><td>The summary report: risk map, F-N curve, receptors, mitigation</td></tr><tr><td><code>receptors.csv</code></td><td>Individual risk per named receptor and whether it is in the intolerable, ALARP or broadly acceptable region</td></tr><tr><td><code>fn_curve.csv</code>, <code>lsir_grid.csv</code></td><td>The F-N curve data and the location-specific individual risk grid</td></tr><tr><td><code>scenarios.csv</code></td><td>Every loss-of-containment scenario with its frequency</td></tr><tr><td><code>qra_buildings.*</code></td><td>Occupant risk, overpressure and heat exceedance per building</td></tr><tr><td><code>qra_mcls.csv</code>, <code>qra_emergency.html</code></td><td>Worst-case and credible distances and the emergency zones</td></tr><tr><td><code>mitigation.csv</code></td><td>Fatalities prevented, cost-benefit ratio and decision for each measure</td></tr><tr><td><code>hazid_register.csv</code>, <code>hazop_worksheet.csv</code></td><td>Starting registers for the workshop</td></tr>
+</table>
+</div>
+
+
+<p>How to read the headline results on the example: the loading-bay operator has the highest individual risk (6.0e-4 per year), every receptor is tolerable if ALARP, yet the F-N curve is in the intolerable region against the UK preset. The mitigation table then says what to do: a loading-hose release coupling prevents 0.046 fatalities a year at a cost-benefit ratio of 0.033, so implement; extra shutdown valves and relocating a building are not justified on cost-benefit alone.</p>
+
+<div class="note"><b>Sample first.</b> <code>--sample N</code> runs N scenarios on a coarser grid, re-runs them at double angular resolution to test convergence, and projects the full-run time. The study found two of its own bugs this way.</div>
+
+<h2>9. The JSON study tools</h2>
+
+<p>Seven further tools each read a JSON file, run input checks, and write CSV or HTML with a <code>checks</code> list. Copy an example with <code>tool example NAME</code>, run it with <code>tool NAME file.json --out folder/</code>.</p>
+
+<div class="tw">
+<table>
+<tr><th>Tool</th><th>What it does</th><th>Result on the shipped example</th></tr>
+<tr><td><code>bowtie</code></td><td>Threats, prevention barriers, top event, mitigation barriers, consequences; barrier importance and the safety-critical element list</td><td>Top event 1.7e-4 per year; the independent high-high level trip is the safety-critical element</td></tr><tr><td><code>sif</code></td><td>SIL from risk reduction, architecture limits (IEC 61511 and 61508 Route 1H), probability of failure, spurious trips, risk graph</td><td>Target SIL 2; probability meets SIL 2 but one valve with 40% safe-failure fraction caps it at SIL 1, so it fails</td></tr><tr><td><code>fg</code></td><td>2D fire and gas detector coverage and a placement optimiser</td><td>Bullet area 2-detector coverage 1.8% against 90%; optimiser adds 18 detectors and reaches 68.7%, still short</td></tr><tr><td><code>thermal</code></td><td>Runaway screening: time to maximum rate, Stoessel class, storage safety margin</td><td>Nitration batch class 3; 53.9 K margin at 35 &deg;C storage</td></tr><tr><td><code>atex</code></td><td>Zone, equipment protection level and category by release grade; dust class</td><td>Powder charging room: zone 21, EPL Db, category 2D, dust class St2</td></tr><tr><td><code>ram</code></td><td>Monte Carlo reliability and availability of a production train</td><td>Production availability about 97.5% on the example; 574 runs set by the target precision</td></tr><tr><td><code>pha</code></td><td>CHAZOP, what-if and SWIFT worksheets, action register, revalidation dates</td><td>Action closure 33%, one overdue action, one high-risk action still open</td></tr>
+</table>
+</div>
+
+
+<h2>10. Use it from Python</h2>
+
+<p>Every module is importable. This is useful for loops, spreadsheets and your own checks.</p>
+
+<pre>$ python3 -c &quot;from process_safety import datacentre as dc; print(round(dc.pue(13000, 10000), 2)); print(round(dc.k_of_n_availability(3, 4, 0.99), 6))&quot;
+1.3
+0.999408
+
+$ python3 -c &quot;from process_safety import hydraulics as h; a=h.wave_speed_m_s(1.0e9, 560, 0.35, 0.0095, 2.0e11); print(round(a,1)); print(h.surge_screen(L_m=300000, a_m_s=a, closure_s=30, rho=560, dv_m_s=1.5))&quot;
+1228.0
+{&#x27;critical_time_s&#x27;: 488.60704262757326, &#x27;joukowsky_kPa&#x27;: 1031.5037566582102, &#x27;estimated_kPa&#x27;: 1031.5037566582102, &#x27;rapid_closure&#x27;: True}</pre>
+
+<p>The second example is a surge screen: a 30-second valve closure on a long liquid line with assumed fluid and wall properties. It reports the wave speed, the critical time (489 s), and a Joukowsky pressure rise of about 1,032 kPa, in the rapid-closure regime. It is a screen, not a transient simulator.</p>
+
+<h2>11. When it goes wrong</h2>
+
+<div class="tw">
+<table>
+<tr><th>What you see</th><th>Why</th><th>Fix</th></tr>
+<tr><td><code>No module named process_safety</code></td><td>You ran it outside the repository folder without installing it</td><td><code>pip install -e .</code> or run from the repository folder</td></tr><tr><td><code>KeyError: 'flow'</code> from <code>hazop-csv</code></td><td>HAZOP parameters are case-sensitive</td><td>Use <code>Flow Pressure Temperature Level</code> (also Composition, Phase, Reaction, Utilities, Operation/Maintenance)</td></tr><tr><td>An absurd rate from <code>blowdown</code> (a million kg/s)</td><td>Pressure is in kPa absolute and the hole diameter is in metres; millimetres inflate it a thousandfold</td><td>Pass <code>--hole-d 0.025</code> for 25 mm</td></tr><tr><td><code>ok: false</code> from <code>arc-flash</code></td><td>Enclosed equipment or higher voltage is outside the method</td><td>Use an IEEE 1584 study</td></tr><tr><td><code>--gen-hours needs --sfc</code></td><td>Diesel fuel consumption is vendor data with no default</td><td>Supply <code>--sfc</code> in g/kWh</td></tr><tr><td>A result that looks too clean</td><td>Inputs are placeholders</td><td>Run <code>coverage</code> and read the module docstring before relying on it</td></tr>
+</table>
+</div>
+
+
+<h2>12. Limits, and where to go next</h2>
+
+<ul>
+<li><b>No dense-gas model.</b> Propane and chlorine clouds spread differently from the neutral plume. Feed validated footprints from a tool such as DNV Phast or RISKCURVES through the <code>overrides</code> hook. <a href="#s16">Section 16</a> shows what this means for a propane terminal.</li>
+<li><b>Paywalled standards.</b> API 752/753, IEC 60079-10-1 and IEEE 1584 were not read, so building-damage curves, zone extents and enclosed arc flash are inputs or refusals.</li>
+<li><b>No default Indian criteria.</b> The risk study ships UK and Dutch presets; supply a custom criterion for an Indian site.</li>
+<li><b>Software-class studies.</b> Load flow, harmonics, transient stability, pulsation and illumination are listed as not implemented.</li>
+</ul>
+
+<p>Read next in the repository: <code>docs/QRA.md</code> (the study file and models), <code>docs/STUDIES.md</code> (the seven JSON tools), <code>docs/ELECTRICAL_MECHANICAL.md</code> (what was read versus corroborated), <code>docs/DATACENTRE.md</code> (data-centre helpers) and <code>docs/IFLUIDS_SERVICES.md</code> (consultancy services mapped to modules).</p>
+
+<h2>13. What is new in version 0.10</h2>
+
+<p>Version 0.10 is on <a href="https://github.com/herrrickshaw/process-safety-design-toolkit/pull/3">pull request 3</a>, stacked on the two earlier pull requests, and is not yet merged: install from that branch to try it. It adds input checks, a glossary, a restructured command line and an independent cross-check. The short video shows each of them running.</p>
+
+<div style="position:relative;padding-bottom:56.25%;height:0;margin:16px 0;max-width:100%"><iframe style="position:absolute;inset:0;width:100%;height:100%;border:0" src="https://www.youtube.com/embed/zj99fY40jnw" title="Process-Safety Design Toolkit v0.10 demo" allowfullscreen></iframe></div>
+
+<h3>Inputs are checked against ranges</h3>
+<p>Each numeric input has a <b>hard range</b> (physically impossible outside it: the run stops with exit code 2) and a <b>soft range</b> (atypical: a warning on the error stream, and the run continues). The soft ranges are engineering judgement, there to catch unit slips; they are not a standard&rsquo;s limits. <code>--no-range-check</code> skips both for a deliberate extreme case.</p>
+<pre><code>$ python3 -m process_safety relief-gas --W 5000 --T 300 --set-g 1000 --M 30 --k 2.5
+warning: --k=2.5 is outside the typical range (-inf, 1.67] for Cp/Cv (isentropic exponent) (1.67 is monatomic; most process gases are 1.1 to 1.4): check the value
+{ "required_area_mm2": 415.42616954563, "orifice": "H", ... }     (exit code 0)
+
+$ python3 -m process_safety relief-gas --W 5000 --T -5 --set-g 1000 --M 30 --k 1.3
+process_safety: error: --T=-5 K is outside the possible range (0, inf) for absolute temperature     (exit code 2, no result)
+
+$ python3 -m process_safety ranges heat_capacity_ratio
+{
+  &quot;name&quot;: &quot;heat_capacity_ratio&quot;,
+  &quot;unit&quot;: &quot;-&quot;,
+  &quot;description&quot;: &quot;Cp/Cv (isentropic exponent)&quot;,
+  &quot;hard_range&quot;: &quot;(1, inf)&quot;,
+  &quot;soft_range&quot;: &quot;(-inf, 1.67]&quot;,
+  &quot;note&quot;: &quot;1.67 is monatomic; most process gases are 1.1 to 1.4&quot;
+}</code></pre>
+
+<h3>A glossary in the command line</h3>
+<p><code>python3 -m process_safety glossary TERM</code> searches about 115 terms and abbreviations; the same table generates <code>docs/GLOSSARY.md</code>. These are working definitions for orientation: the standard named in each entry governs.</p>
+<pre><code>$ python3 -m process_safety glossary BLEVE
+BLEVE (Boiling-liquid expanding-vapour explosion)
+    Sudden rupture of a vessel holding liquid above its atmospheric boiling point, usually ending in a fireball.
+    [Fire, explosion and dispersion; fireball]
+Fireball
+    The rising ball of burning vapour after a BLEVE or a large flash release; harm is by thermal radiation.
+    [Fire, explosion and dispersion; fireball]</code></pre>
+
+<h3>Cleaner structure, same numbers</h3>
+<p>The command line is now a registry with one class per command instead of a 34-branch conditional. Forty outputs captured before the change are compared after it, within 1e-9, because the last digit of a float differs between platforms. Continuous integration runs on Python 3.10 to 3.13. The lint step found two real bugs, both fixed: an f-string that was a syntax error on Python 3.10 and 3.11, and a missing import in the PSM module.</p>
+
+<h3>124 cross-checks, and the differences that remain</h3>
+<pre><code>$ python3 -m unittest discover tests
+Ran 192 tests in 7.346s
+
+OK
+$ python3 tests/crosscheck/validate.py
+checks: 124  within tolerance: 124  outside: 0  not computed: 0</code></pre>
+<p>The references are the <code>fluids</code>, <code>thermo</code> and <code>CoolProp</code> libraries and closed-form formulas from the open literature. Agreement shows the toolkit matches other implementations; it does not show a result is right for your plant. Known differences: liquid relief area runs about 4.7% below <code>fluids</code> in both cases checked and the cause is not resolved, so confirm it against vendor sizing; steam area uses the older Napier constant; and the API 2000 fire heat input has a boundary at 0.07 barg. The full list is in <code>docs/VALIDATION.md</code>.</p>
+
+<h2>14. What is new since 0.10: derogations, EU impact, insurance and legal clauses</h2>
+
+<p>These additions are on <a href="https://github.com/herrrickshaw/process-safety-design-toolkit/pull/4">pull request 4</a>, stacked on the earlier pull requests and not yet merged. The command line now has 47 commands, 342 automated tests pass and the cross-check suite has grown to 186 checks, all within tolerance. The new work answers one question: when a design departs from a <i>must</i> clause, who approves it, what does it cost the business, what does European law say about it, what does it do to the insurance, and where does the law set the limit? Every default below (tiers, approval levels, thresholds) is editable and is not any company&rsquo;s rule.</p>
+
+<div style="position:relative;padding-bottom:56.25%;height:0;margin:16px 0;max-width:100%"><iframe style="position:absolute;inset:0;width:100%;height:100%;border:0" src="https://www.youtube.com/embed/T2vICb0ieO8" title="Process-Safety Design Toolkit: derogations, EU impact, insurance and legal clauses" allowfullscreen></iframe></div>
+
+<h3>Must, should, can, and the derogation</h3>
+<p>Each clause in a standard is graded from its modal verb. A <b>must</b> (shall, must, shall not) is complied with or formally derogated. A <b>should</b> is comply-or-explain. A <b>can</b> is optional, and you record whether you adopted it. A <b>derogation</b> is a formal, approved departure from a must. It needs a justification, a risk assessment reference, at least one compensating measure, an expiry date, a consequence assessment and the sign-offs the matrix requires. A statutory clause cannot be derogated by company sign-off at all; only the regulator can exempt.</p>
+<pre><code>$ python3 -m process_safety compliance process_safety/examples/compliance.json --as-of 2026-11-06
+  "by_tier":  MUST  complied 1, derogated 3, open 0
+              SHOULD complied 0, derogated 1, open 1
+              CAN    adopted 0, not-adopted 1
+  "must_compliance": 1 of 4 satisfied (25.0%)
+  "ready_for_gate": false          (condensed from the JSON)</code></pre>
+<p>The example register is deliberately faulty, so that it fails the gate and shows each failure code. A gate that cannot fail would tell you nothing.</p>
+
+<h3>The approval matrix: TA1, TA2 and TA3</h3>
+<p>The class of a derogation is the highest of its safety severity and six management ratings (next section). The class then sets who must sign.</p>
+<div class="tw"><table>
+<thead><tr><th>Tier</th><th>low</th><th>medium</th><th>high</th><th>severe</th></tr></thead>
+<tbody><tr><td>MUST</td><td>TA2</td><td>TA2</td><td>TA1</td><td>TA1 + TA2</td></tr>
+<tr><td>SHOULD</td><td>TA3</td><td>TA3</td><td>TA2</td><td>TA1</td></tr></tbody></table></div>
+<p>TA1 is taken as the most senior level and TA3 the least: that ordering is an assumption you can edit. A higher level can stand in for a lower one, and each sign-off must come from a different person. With no consequence assessment the class defaults to severe. In the example, clause 4.2.2 is a medium must that needs TA2 but carries only a TA3 sign-off, so the review reports <code>unmet: TA2</code> and the issue <code>approval-insufficient</code>.</p>
+
+<h3>PESTLE: mapping the management consequence</h3>
+<p>For each derogation the assessor rates six lenses from 0 to 5: political, economic, social, technological, legal and environmental. 0 to 2 is low, 3 medium, 4 high and 5 severe. A rating of 3 or more needs a written management action, and a must derogation must address all six factors and describe the scenario if the derogated clause fails. In the example, clause 4.1.3 rates the economic factor 3 (a pump-house outage of about ten days) and records its action: a spare pump on site and business-interruption cover confirmed. The tool enforces completeness; the ratings themselves are the assessor&rsquo;s judgement.</p>
+
+<h3>EU impact: Seveso III</h3>
+<p>A company derogation never waives an EU or national requirement. A clause can be marked as restating an EU provision (non-derogable) or implementing one (it needs an equivalence argument and is floored to the high class). The register also records the Seveso tier and screens each derogation against the Article 11 question: is the change significant, was the authority informed, and were the notification, the major-accident prevention policy, the safety management system and, for an upper-tier site, the safety report updated?</p>
+<pre><code>"eu_compliance": { "seveso_tier": "upper", "non_derogable_eu_clauses": ["9.1"],
+  "art11_significant": ["4.1.3"], "art11_unassessed": ["4.2.2"], ... }
+issues: 4.1.3 seveso-documents-not-updated, 4.2.2 seveso-not-assessed,
+        9.1 statutory-no-exemption                       (condensed from the JSON)</code></pre>
+<p>Only the Seveso III articles are encoded. ATEX, the Pressure Equipment Directive, the Industrial Emissions Directive and your member state&rsquo;s transposition are separate checks.</p>
+
+<h3>Insurance impact, from an actuarial perspective</h3>
+<p><code>insurance</code> takes an exposure rating, scenario frequencies, loss distributions with an uncertainty (error) factor, and the deductible and limit. It computes the expected loss in the layer, its variance, a technical premium and the retained loss. Each case scales the scenario frequencies by the probability of failure on demand of the derogated safeguard. With the invented inputs shipped as an example:</p>
+<div class="tw"><table>
+<thead><tr><th>Case (USD)</th><th>Technical premium</th><th>Change</th><th>Retained expected loss</th></tr></thead>
+<tbody><tr><td>baseline</td><td>3,128,810</td><td>0%</td><td>40,346</td></tr>
+<tr><td>derogated</td><td>6,639,142</td><td>+112.2%</td><td>133,464</td></tr>
+<tr><td>derogated with compensating measure</td><td>4,205,767</td><td>+34.4%</td><td>63,617</td></tr></tbody></table></div>
+<p>In that illustration the present value of the saving from the compensating measure is about 16.8 million dollars against a measure cost of 2.5 million. The inputs are invented, so read this as a method, not a finding. A modelled premium is not a quotation, and no market rates or loss data are shipped.</p>
+
+<h3>Legal clauses across eight regimes</h3>
+<p><code>legal-clauses</code> searches 55 provisions from eight regimes: India (15), Australia at Commonwealth level (13), Singapore (6), Canada at federal level (6), South Korea (6), the EU (5), the US (3) and Great Britain (1). Each is filed under one of four topics: general duty, change, notify and exemption. <b>Grade A</b> (40 clauses) means the legal text was read. <b>Grade B</b> (15 clauses) means only guidance, a mirror or an OCR copy was seen: confirm it against the legislation. For India, the Manufacture, Storage and Import of Hazardous Chemical Rules 1989 treat a modification likely to cover major accident hazards as a new activity (rule 6) and need a further safety report at least 90 days before a material modification (rule 11), which is the central constraint on a derogation there.</p>
+<pre><code>$ python3 -m process_safety legal-clauses --region India --topic change
+IN-FA-41A    [India; change; grade A]  The Factories Act, 1948, s. 41A(1), (2), (5)
+IN-MSIHC-6   [India; change; grade B]  MSIHC Rules 1989, r. 6(2)(a)(ii)
+IN-MSIHC-11  [India; change; grade B]  MSIHC Rules 1989, r. 11(1)-(2)
+IN-MSIHC-13  [India; change; grade B]  MSIHC Rules 1989, r. 13(1)-(3)          (condensed)</code></pre>
+<p>Not yet read: China, Japan, Brazil, Norway, the Gulf states, and state or provincial law. The entries are paraphrased and are not legal advice.</p>
+
+<h2>15. What is new on 6 and 7 November: US units, input templates, a scenario suite, cost and plant tools</h2>
+
+<p>These are also on <a href="https://github.com/herrrickshaw/process-safety-design-toolkit/pull/4">pull request 4</a>, now at version 0.11.0 and still not merged. The command line has 52 commands, 364 automated tests pass, and a new official scenario suite runs 159 scenarios with 787 checks, all passing. Every output below was produced by running the command on 7 November 2026 with illustrative inputs; long JSON is condensed. The rule that runs through all of it is the same as before: no remembered number is typed into the code. Walking speeds, lux targets, unit rates, cost indices and discharge coefficients are inputs, not defaults.</p>
+
+<h3>US-customary units, and why gauge and absolute pressure will not convert</h3>
+<p>Put <code>--units us</code> before any command and type every number in US units: psig, &deg;F, ft, in, lb/h, gpm, Btu/lb. Each is converted to the command&rsquo;s working unit before the range check, and the result gains US sibling keys next to the SI ones. Every conversion factor is a legal definition (the inch, the pound, standard gravity, the 231 in&sup3; gallon, the International Table Btu), not a remembered number.</p>
+<pre><code>$ python3 -m process_safety --units us relief-gas --W 22000 --T 140 --set-g 250 --M 44.1 --k 1.13 --Z 0.85
+  "required_area_mm2": 518.3,
+  "required_area_in2": 0.803,
+  "orifice": "J",  "regime": "critical"          (condensed)</code></pre>
+<p>That is 22,000 lb/h of propane-like vapour at 140 &deg;F and a 250 psig set pressure. Two deliberate refusals protect against the commonest unit mistakes in relief work. A gauge pressure will not convert to an absolute one unless you say so, because the difference is the atmosphere:</p>
+<pre><code>$ python3 -m process_safety convert 250 psig psia
+error: cannot convert psig (pressure_gauge) to psia (pressure_abs)
+$ python3 -m process_safety convert 250 psig psia --across-atmosphere
+  "result": 264.70</code></pre>
+<p>Temperature rises are a separate dimension (dK, dF), so they cannot be pushed through the &deg;F offset by mistake, and standard volumes (scf, Nm&sup3;) are not converted at all, because sources use different reference temperatures: give a mass flow instead. <code>docs/UNITS.md</code> lists the ten differences that cause mistakes.</p>
+
+<h3>Input templates: fill in a file instead of typing flags</h3>
+<p><code>template</code> writes a fill-in JSON (or CSV) for any command, in SI or US units, with each argument&rsquo;s unit, whether it is required and its valid range. <code>run</code> executes the filled file, and the file&rsquo;s own <code>units</code> field decides how its numbers are read.</p>
+<pre><code>$ python3 -m process_safety template relief-gas --system us &gt; relief_us.json
+   ... fill W, T, set_g, M, k, Z ...
+$ python3 -m process_safety run relief_us.json
+  "required_area_in2": 0.803,  "orifice": "J"     (same answer as the flags above)</code></pre>
+<p>The templates are generated from the command definitions themselves and a test keeps them in step, so a new argument appears in its template the moment it is added.</p>
+
+<h3>Two-phase relief from real fluid data</h3>
+<p><code>twophase</code> sizes flashing relief by the omega method, and <code>--fluid</code> now reads saturated-liquid properties from a bundled table of 18 fluids at 14 pressures generated with CoolProp. <code>fluid-data</code> shows what is in it.</p>
+<pre><code>$ python3 -m process_safety twophase --P0 1500 --fluid propane
+  "G_kg_m2_s": 9025,  "omega": 5.38,  "regime": "choked",
+  "G_hem_reference_kg_m2_s": 9018
+  "note": "homogeneous equilibrium; Kb/Kc not applied; subcooled and reactive (DIERS) cases need other methods"</code></pre>
+<p>The omega flux for saturated propane at 1,500 kPa absolute is within 0.1% of a direct homogeneous-equilibrium integration; across all 252 rows of the table the two agree within 2.2%. There is no default discharge coefficient for two-phase service: to get an area you must give <code>--Kd</code> from your valve data, alongside the relief rate <code>--W</code>. Near the critical point the single-point omega degrades, and the command now warns above half the critical pressure.</p>
+
+<h3>Flame radiation by view factor</h3>
+<p><code>flame-flux</code> integrates the view factor from a target to a flat, vertical rectangular flame face and multiplies by the surface emissive power you supply.</p>
+<pre><code>$ python3 -m process_safety flame-flux --width 10 --height 15 --distance 25 --sep 60
+  "view_factor": 0.061,  "incident_kW_m2": 3.66</code></pre>
+<p>A 10 m by 15 m flame face at 60 kW/m&sup2;, seen from 25 m, delivers about 3.7 kW/m&sup2;. The toolkit&rsquo;s own use cases found that its point-source <code>pool-fire</code> distances and this solid-flame method disagree by about four times in the far field, because they imply different radiant fractions. That disagreement is documented, not hidden: use both and say which you relied on.</p>
+
+<h3>Escape time and lighting</h3>
+<p><code>egress</code> compares the required safe escape time (detection, pre-movement, then travel or queuing at the narrowest exit, whichever is longer) with the available time from your fire or toxic study. <code>illumination</code> applies the lumen method.</p>
+<pre><code>$ python3 -m process_safety egress --distance 120 --speed 1.0 --people 40 --width 1.2 \
+    --specific-flow 1.3 --detect-s 60 --premove-s 90 --aset-s 420
+  "governing": "travel distance",  "rset_s": 270,  "margin_s": 150,  "escape_before_untenable": true
+
+$ python3 -m process_safety illumination --area 600 --flux 9000 --uf 0.55 --mf 0.8 --target 200
+  "n_luminaires": 31,  "achieved_lux": 204.6</code></pre>
+<p>Walking speed, flow per metre of exit, detection and response times, utilisation and maintenance factors and the lux target are all yours to supply. They depend on the occupants and on the standard the site follows, so the toolkit does not guess them.</p>
+
+<h3>From recommendations to money: shutdown, cost and LNG capex</h3>
+<p>Four new studies follow a safety recommendation through to cost and schedule. Each takes an input JSON and ships a worked example (<code>tool example &lt;name&gt;</code> copies it), and every rate, margin and cost index in the examples is a labelled placeholder: the toolkit ships no cost data.</p>
+<ul>
+<li><b>Shutdown risk</b> (<code>tool shutdown</code>): schedule and cost risk for a turnaround by Monte Carlo on a critical-path network, with the opportunity cost of lost operating days. Worked example: a 25-day base plan comes out at 31.5 days at P50 and 35.6 days at P80. A 500-run sample was not stable enough, so the tool ran 5,753 runs; the biggest driver is activity A6.</li>
+<li><b>Recommendation cost</b> (<code>tool recs</code>): the cost of implementing study recommendations by discipline, with contingency, the effect on the shutdown and an ALARP cost-benefit test. Worked example: six recommendations, capex 616 at P50 and 656 at P80 (in cost units); the independent high-level shutdown on the feed drum passes the ALARP test; the shutdown items add about 0.1 day at P80.</li>
+<li><b>Design workflow</b> (<code>tool workflow</code>): relief screening, resizing, a bill of quantities, capex, opex and ALARP chained in one run. Worked example: the V-101 fire case needs 664 mm&sup2; against 506 mm&sup2; installed, so the PSV is resized to a J orifice, and the package passes ALARP (cost-benefit ratio 2.5 against a disproportion factor of 3).</li>
+<li><b>LNG capex</b> (<code>tool lngcost</code>): concept-stage liquefaction capex from public analogs (24 plants used, 2 excluded). Worked example: an illustrative 5 MTPA greenfield train comes out at about $11.1 billion at P50, or $2.2 billion per MTPA. A reference notebook&rsquo;s unsourced shortcut gives $5.9 billion, below every analog.</li>
+</ul>
+<p>The LNG figure is an AACE Class 5 screening number, not a budget. The cost index and location factors are the largest judgements in it, so change them and look at the sensitivity. An optional script, <code>scripts/openpytea_bridge.py</code>, turns equipment you have sized into purchased and installed cost using the open OpenPyTEA correlations, and flags sizes outside a correlation&rsquo;s range, which OpenPyTEA itself costs without warning. The package stays standard-library only; the bridge sits outside it.</p>
+
+<h3>Reading a plant: heat and mass balance, P&amp;ID registers and the PHA</h3>
+<p><code>tool plant</code> reads stream tables, equipment and instrument registers (as CSV or Proteus XML) and a PHA register, then runs six scenario types with the existing models and checks the registers against seven P&amp;ID rules. Where an input is missing it reports <code>cannot_assess</code> and names the input, instead of guessing. In the worked example it finds:</p>
+<ul>
+<li>a blocked outlet on V-101 that needs 4,398 mm&sup2; of relief area (a Q orifice) against 830 mm&sup2; installed;</li>
+<li>depressuring V-101 to atmosphere could chill the gas to about &minus;105 &deg;C against a minimum design metal temperature of &minus;20 &deg;C;</li>
+<li>drum V-102 has no relief device in the register;</li>
+<li>tank T-201&rsquo;s PSV vents propane and butane to atmosphere.</li>
+</ul>
+<p>Each finding is tied to a recommendation type, and gaps that the PHA register does not already cover are listed separately.</p>
+
+<h3>Your own documents, incidents and sources</h3>
+<p><code>requirements</code> pulls the shall, should and must statements out of standards and specifications you hold (text, Word, or PDF via pdftotext), classifies them and compares them with a PHA register. Because those documents are usually someone else&rsquo;s copyright, it prints counts unless you ask for the statements, writes only to a file you name, and refuses to write inside a git repository unless the path is ignored. <code>incidents</code> searches 17 U.S. Chemical Safety Board investigations mapped to the toolkit&rsquo;s modules, and <code>literature</code> searches an index of 93 sources, each marked with whether its content was actually read.</p>
+<pre><code>$ python3 -m process_safety incidents --module overfill
+2005-03-23  BP America Texas City refinery explosion (Texas City, TX, 15 killed)
+2009-10-23  Caribbean Petroleum (CAPECO) refinery tank explosion and fire (Bayamon, PR)
+2022-09-20  BP-Husky Oregon (Toledo) refinery chemical release and fire (Oregon, OH, 2 killed)
+                                                         (condensed: each entry also gives the lesson and the CSB link)</code></pre>
+
+<h3>The scenario suite: how the toolkit checks itself</h3>
+<p><code>scripts/run_scenarios.py</code> runs 159 scenarios covering 72 of the 77 topics in the coverage map. Each scenario carries up to five kinds of check:</p>
+<ul>
+<li><b>Bounds:</b> a physical or logical limit holds.</li>
+<li><b>Oracles:</b> an independent recomputation from first principles agrees.</li>
+<li><b>Metamorphic relations:</b> doubling the flow doubles the relief area, for example.</li>
+<li><b>SI against US:</b> the same case typed in both unit systems gives the same answer.</li>
+<li><b>Regression snapshot:</b> current values are unchanged.</li>
+</ul>
+<p>The report says plainly that the snapshot only detects drift and is not evidence of correctness. The five topics without scenarios are the ones still marked not implemented. Writing the suite found a real trap: <code>blowdown --hole-d</code> is in metres, so a hole typed as &ldquo;25&rdquo; meaning millimetres was accepted as 25 m and gave a 0.4 ms blowdown. The help text now says metres.</p>
+
+<h2 id="s16">16. Worked example: an LPG terminal, start to finish</h2>
+<p>An LPG storage and loading terminal is a good test of the toolkit: pressurised propane bullets, transfer pumps, a road-tanker loading bay, a flare, and a control room and village close enough to matter. This section walks that asset through the commands above with the actual outputs, asking the questions a process-safety workshop asks first: how big is the fire relief load, is the overfill trip good enough, where does the risk come from, and how far must emergency planning reach. The individual-risk, F-N and cost-benefit results of the same study are read in <a href="#s8">section 8</a>.</p>
+<div class="warn"><b>The terminal is hypothetical.</b> It is the toolkit&rsquo;s worked example: four sections (a propane bullet with pumps, a road-tanker loading bay, a sour fuel-gas header, a diesel tank in a bund), 60,000 kg of propane at 750 kPag and 303 K in the bullet. Pump failure frequencies, weather, wind rose, population, building vulnerability, the value of a prevented fatality and mitigation costs are <b>illustrative placeholders</b>; replace every one with site data before any decision.</div>
+<div class="tw">
+<ul style="padding-left:1.1em">
+<li style="margin:0 0 .9em"><b>How much vapour must the bullet relieve in a pool fire?</b><br><code style="white-space:normal;word-break:normal;overflow-wrap:anywhere">relief-fire --D 3.5 --L 14 --level 2.5 --latent 330</code><br>Wetted area 119 m&sup2;, heat input 2,174 kW, relief rate 23,720 kg/h. The geometry and the 330 kJ/kg latent heat are inputs.</li>
+<li style="margin:0 0 .9em"><b>What pressure and fill limit does propane set?</b><br><code style="white-space:normal;word-break:normal;overflow-wrap:anywhere">lpg propane --fill-C 15 --max-C 50</code><br>Vapour pressure 1,616 kPag at 50 &deg;C, liquid density 506 kg/m&sup3; at 15 &deg;C, a thermodynamic fill ceiling of 88%. Codes set the practical limit.</li>
+<li style="margin:0 0 .9em"><b>Is the overfill trip good enough?</b><br><code style="white-space:normal;word-break:normal;overflow-wrap:anywhere">tool sif sif.json</code><br>Target SIL 2. The PFDavg of 6.6e-3 (risk reduction 151) meets SIL 2 by probability, but a single type-A inlet shutdown valve with 40% safe-failure fraction caps the architecture at SIL 1. It fails.</li>
+<li style="margin:0 0 .9em"><b>Which barriers carry the risk?</b><br><code style="white-space:normal;word-break:normal;overflow-wrap:anywhere">tool bowtie bowtie.json</code><br>Top event 1.7e-4 per year. Given a loss of containment: 69% unignited, 21% vapour-cloud explosion or flash fire, 9% jet fire, 1% BLEVE. The independent high-high level trip is the safety-critical element.</li>
+<li style="margin:0 0 .9em"><b>Where does individual risk come from?</b><br><code style="white-space:normal;word-break:normal;overflow-wrap:anywhere">qra run study.json</code><br>Highest location risk 0.012 per year at (120, 40) m; population risk (PLL) 0.051 per year.</li>
+<li style="margin:0 0 .9em"><b>How exposed are the buildings?</b><br><span style="color:#595959">(same run as above)</span><br>Occupant risk per year: control room 5.0e-4, admin building 9.7e-5, loading-bay shelter 6.1e-3.</li>
+<li style="margin:0 0 .9em"><b>How far must emergency planning reach?</b><br><span style="color:#595959">(same run as above)</span><br>Credible case (4-inch line rupture, jet and pool fire): 58, 102 and 179 m to 37.5, 12.5 and 4 kW/m&sup2;. Worst case (bullet fireball): 296, 551 and 996 m. Vapour-cloud explosion: 621 m to 0.3 bar, 786 m to 0.1 bar.</li>
+</ul>
+</div>
+
+<p>One reading is worth pausing on. The overfill function passes on probability and fails on architecture, so the fix is a redundant or higher-integrity final element, not a shorter proof-test interval. That comes from a check the toolkit runs, not from judgement added afterwards.</p>
+
+<div class="warn"><b>The limit that matters most for propane.</b> The toolkit warns on this very study: <i>propane is heavier than air, and the flash-fire and toxic footprints use a neutral Gaussian plume, so consider a dense-gas override.</i> Dense clouds spread along the ground and reach further than a neutral plume. The vapour-cloud and flash-fire distances above (0.3 bar at 621 m, 0.1 bar at 786 m) and the risk that depends on them should therefore be treated as optimistic until footprints from a validated dense-gas tool such as DNV Phast or RISKCURVES are fed in through the <code>overrides</code> hook. The toolkit then still does the frequency, individual-risk, ALARP and mitigation bookkeeping.</div>
+
+<h3>The same questions in real projects</h3>
+<p>iFluids Engineering, a Chennai consultancy, publishes <a href="https://ifluids.com/case-studies/">case studies</a> and an <a href="https://ifluids.com/all-projects/">all-projects list</a>. Several entries are the same questions the terminal raised. The list below matches each to the toolkit module that screens it, with a real output on <b>illustrative inputs</b>. No result, input or design from any listed project is shown or implied: only the client, title and scope as the iFluids pages state them, and the toolkit is not iFluids&rsquo; method.</p>
+
+<div class="tw">
+<ul style="padding-left:1.1em">
+<li style="margin:0 0 1em"><b>GSPL: integrated QRA for LNG transport routes and regasification</b><br><span style="color:#595959">Question screened:</span> Impoundment, boil-off and regas duty at a terminal (<code>lng</code>, <code>qra</code>)<br><span style="color:#595959">Toolkit output (illustrative inputs):</span> For a 160,000 m&sup3; tank, 4,000 kW heat ingress, 50 kg/s regas and 5 K seawater rise: impoundment 176,000 m&sup3;, boil-off 7.8 kg/s (1.0% a day), regas duty 44.4 MW, seawater 2.17 m&sup3;/s<br><span style="color:#595959">Where the toolkit stops:</span> Impoundment follows the US rule (49 CFR 193.2181). Siting models and road-transport route risk are not implemented</li>
+<li style="margin:0 0 1em"><b>Kuwait Oil Company thermal testing facility; Jafurah downstream pipeline Phase II: fire and gas mapping</b><br><span style="color:#595959">Question screened:</span> Detector coverage of a hazard zone (<code>fg_mapping</code>)<br><span style="color:#595959">Toolkit output (illustrative inputs):</span> On the toolkit&rsquo;s example bullet area, two-detector coverage as drawn is 1.8% against a 90% target. The optimiser adds 18 gas detectors and reaches 68.7%, still short<br><span style="color:#595959">Where the toolkit stops:</span> 2D geographic coverage only. 3D mapping and scenario-based coverage are not implemented</li>
+<li style="margin:0 0 1em"><b>CPCL Manali refinery: PSM gap assessment against the 20 CCPS RBPS elements</b><br><span style="color:#595959">Question screened:</span> Scoring and tracking a management system (<code>psm</code>)<br><span style="color:#595959">Toolkit output (illustrative inputs):</span> Gap scoring (0 to 4 per element) and weakest-element ranking for the 14 OSHA PSM elements and AIGA 99; for dates, a PHA last done 15 Mar 2021 is overdue by 235 days on 5 Nov 2026<br><span style="color:#595959">Where the toolkit stops:</span> The 20-element RBPS scoring itself is not implemented, only the element list and a crosswalk</li>
+<li style="margin:0 0 1em"><b>NGL pipeline surge analysis (14-inch, about 300 km, in the projects list)</b><br><span style="color:#595959">Question screened:</span> Surge pressure on a fast valve closure (<code>hydraulics.surge_screen</code>)<br><span style="color:#595959">Toolkit output (illustrative inputs):</span> Assuming density 560 kg/m&sup3;, bulk modulus 1 GPa and a 9.5 mm wall: wave speed 1,228 m/s, critical time 489 s, a 1.5 m/s stop in 30 s gives 1,032 kPa (Joukowsky)<br><span style="color:#595959">Where the toolkit stops:</span> A screen, not a transient simulator: no pump trips, column separation or full pipeline model</li>
+<li style="margin:0 0 1em"><b>IOCL Mathura tank conversion (20,000 KL and 5,000 KL tanks)</b><br><span style="color:#595959">Question screened:</span> Fire venting of an atmospheric tank (<code>tank_venting</code>)<br><span style="color:#595959">Toolkit output (illustrative inputs):</span> A bare vertical tank, 40 m by 16 m (about 20,000 m&sup3;): wetted area 1,149 m&sup2;, emergency venting 19,897 Nm&sup3;/h, of which 18,397 Nm&sup3;/h is beyond a 1,500 Nm&sup3;/h normal capacity<br><span style="color:#595959">Where the toolkit stops:</span> API 2000 5th edition (1998) only; the 7th edition and vent hardware sizing are not implemented</li>
+<li style="margin:0 0 1em"><b>Essar re-HAZOP of P&amp;IDs; Oil India HAZOP and QRA; Qatar Petroleum bow-tie development</b><br><span style="color:#595959">Question screened:</span> Registers, revalidation and barrier ranking (<code>hazop</code>, <code>pha</code>, <code>bowtie</code>, <code>qra</code>)<br><span style="color:#595959">Toolkit output (illustrative inputs):</span> The terminal study above: HAZOP worksheets, barrier importance and the safety-critical element, QRA individual and societal risk<br><span style="color:#595959">Where the toolkit stops:</span> The study itself is a team exercise; the tools keep the records</li>
+<li style="margin:0 0 1em"><b>HAZID for mining standpipe infrastructure (Pilbara)</b><br><span style="color:#595959">Question screened:</span> Hazard identification checklist (<code>qra.hazid</code>)<br><span style="color:#595959">Toolkit output (illustrative inputs):</span> A HAZID register by section and a loss-of-containment list<br><span style="color:#595959">Where the toolkit stops:</span> Generic prompts, not standard text; not an oil and gas asset</li>
+</ul>
+</div>
+
+<div class="note"><b>Not computational, so not covered.</b> The iFluids pages also list safety-culture perception surveys and a behaviour-based safety programme (BCPL, Assam), an external safety audit of paint plants (Berger Paints), and an ammonia-ingress control-room pressurisation design (IFFCO Kalol). These are surveys, audits and ventilation design. The toolkit does not attempt them, and it has no indoor toxic model.</div>
+
+<h3>What this terminal needs next</h3>
+<ul>
+<li><b>Replace the placeholders.</b> Pump and equipment frequencies from a source such as the OGP 434-1 data or the UK HSE FRED rows, local weather and wind data, and the actual population around the site.</li>
+<li><b>Add a dense-gas footprint.</b> Run the propane releases in a validated tool and feed the footprints through <code>overrides</code>.</li>
+<li><b>Choose the criteria deliberately.</b> This run used the UK R2P2 preset; no single Indian tolerable-risk criterion exists in the public documents the toolkit read, so an Indian site should supply a custom one.</li>
+<li><b>Do what the toolkit lists as not implemented.</b> Layout and separation distances, hazardous-area classification extents, and fire-water design to the governing standards remain manual work.</li>
+<li><b>Hold the workshop.</b> The HAZID and HAZOP registers are a starting point; the studies are a team exercise.</li>
+</ul>
+
+<p>The same flow applies to other oil and gas assets, a gas processing plant, a refinery unit or an offshore platform, with different modules in play (relief and flare systems, hydrocarbon fire, explosion). The terminal here is only the asset the toolkit ships a worked example for.</p>
+
+<p class="src">Sources: the toolkit and its documentation, <a href="https://github.com/herrrickshaw/process-safety-design-toolkit">github.com/herrrickshaw/process-safety-design-toolkit</a>; the browser demo, <a href="https://process-safety-studio-demo.lovable.app">process-safety-studio-demo.lovable.app</a> (captured outputs, not live calculations) (open pull requests 1 and 2 hold the risk-study, study-tool and data-centre additions; pull request 3 holds version 0.10; pull request 4 holds the derogation, EU, insurance and legal-clause additions and the 6 and 7 November work in section 15). Every output above comes from running the command on 5 November 2026 (section 14: 6 November 2026; section 15: 7 November 2026, at commit b2561ae) with illustrative inputs; results are screening arithmetic and modelled, not measured, and are not a safety case. Section 16: outputs from running the commands on 5 November 2026 on the toolkit&rsquo;s hypothetical LPG terminal; client names and project scopes as stated on <a href="https://ifluids.com/case-studies/">ifluids.com/case-studies</a> and <a href="https://ifluids.com/all-projects/">ifluids.com/all-projects</a>, read on 5 November 2026 (the projects page was only partly read).</p>
+
+<!--
+  4. Revision history. Newest first. One line per published revision; say what a
+  returning reader needs to know, not what the diff looks like. Drop the whole
+  block on a post that has never been revised.
+-->
+<div id="changelog" class="note">
+<b>Revision history.</b>
+<ul>
+<li><b>v1.4.0</b> &mdash; 10 November 2026 &mdash; added section 16, the LPG-terminal worked example (relief, propane limits, the overfill trip, bow-tie, location and building risk, emergency distances, the dense-gas limit and matching consultancy projects), merged in from a separate post that has been retired.</li>
+<li><b>v1.3.0</b> &mdash; 7 November 2026 &mdash; added section 15: US-customary units and the gauge/absolute pressure guard, input templates, two-phase relief from bundled fluid data, view-factor flame radiation, escape-time and lighting checks, the shutdown, recommendation-cost, design-workflow and LNG-capex studies, plant and P&amp;ID ingestion, the requirements extractor, incident and literature search, and the 159-scenario self-check; and a link to the Process Safety Studio browser demo near the top. The toolkit is now at version 0.11.0 with 52 commands and 364 tests; counts quoted in earlier sections and the summary tiles describe the versions those sections were written for.</li>
+<li><b>v1.2.0</b> &mdash; 6 November 2026 &mdash; added section 14: derogations and compliance tiers, the TA1/TA2/TA3 approval matrix, PESTLE consequence rating, EU (Seveso III) impact, actuarial insurance impact and a 55-clause legal index, with a demo video. Sections 1 to 13 are unchanged, so counts quoted there (35 commands, 173 and 192 tests, 124 cross-checks) describe the earlier versions.</li>
+<li><b>v1.1.0</b> &mdash; 5 November 2026 &mdash; added section 13: version 0.10 (input ranges, glossary, restructured command line, 124 cross-checks) with a demo video. The earlier sections describe version 0.9 and are unchanged.</li>
+<li><b>v1.0.0</b> &mdash; 5 November 2026 &mdash; first published (complete walkthrough).</li>
+</ul>
+</div>
+
+<!--
+  5. AI disclosure — LAST, after every </script> in the document.
+  Never insert it inside a script; that breaks the JS and kills the charts.
+-->
+<div data-gs-access-note="1" style="border-left:4px solid #8a4b08;background:rgba(138,75,8,.07);padding:.8em 1em;margin:1.2em 0;border-radius:4px"><b>Repository and data access.</b> Need the GitHub repository or the data files behind this guide? Both are available on request: <a href="https://blog.vertistratsolution.com/p/contact.html">ask through the Contact page</a> and name the guide and what you need.</div>
+<p class="disclaimer" data-gs-ai-disclosure-v1="1"><strong>About this article:</strong> Researched, written and edited by Umashankar Triplicane Dwarakanathan, with AI research assistance; every figure is meant to trace to the primary source cited. See the <a href="https://blog.vertistratsolution.com/p/disclaimer.html">Editorial Policy</a> for how sourcing, AI use and corrections work.</p>
+
+</div>
+
+<div id="gs-idx"></div><script defer="defer" src="https://herrrickshaw.github.io/masaladeutsch/accordion.js"></script>

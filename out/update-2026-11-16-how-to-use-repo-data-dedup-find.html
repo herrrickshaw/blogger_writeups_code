@@ -1,0 +1,275 @@
+<div class="artx hturepoda">
+<style>
+/* ---- typography (gs-typo-unify-v1): keep in sync across all posts ---- */
+.hturepoda{font-family:Georgia,'Times New Roman',serif;line-height:1.6;color:#111}
+.hturepoda h1,.hturepoda h2,.hturepoda h3{line-height:1.3}
+
+/* ---- palette: define every colour as a custom property here. Do not add
+       raw hex elsewhere in a post's <style> block — reference these vars, so
+       a future palette change is a 4-line edit instead of a find-and-replace
+       across every post. ----
+   --ink     #111    body text, light-locked (see below)
+   --accent  #8a4b08  eyebrow text, h2 rule, table header bg, stat numbers —
+                       the one colour that carries this post's "brand"
+   --rule    #e8dcc4  hairline borders, h2 underline, table cell borders
+   --panel   #fdf7ec  stat-card bg, even table rows — the palette's one tint
+*/
+.hturepoda{--ink:#111;--accent:#8a4b08;--rule:#e8dcc4;--panel:#fdf7ec;--good:#1a7a4c;--good-soft:#eaf6ef;--bad:#a5402c;--bad-soft:#fff4f0}
+
+/* ---- mono-label convention (added 2026-09-17, borrowed from the
+       india-trade-sector-policy-recommendations design system): the eyebrow
+       kicker and the source line read as data-journalism metadata, not
+       article prose, so they get a monospace face — a system stack, not a
+       hosted webfont, so no post gains an extra network request or a
+       flash-of-unstyled-text risk. Body text (h1/p/li/table) keeps the
+       serif — this is a two-place accent, not a font-pairing overhaul. ---- */
+.hturepoda{--mono:ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace}
+
+/* ---- light lock (gs-light-lock): a dark Blogger theme (and a browser/OS
+       set to prefers-color-scheme:dark) must not repaint text. Re-assert
+       the same values with !important — verified 2026-08-14 across 5 live
+       posts with the browser's colour scheme forced to dark: body/h1/p/table
+       all stayed light-background/dark-text with no low-contrast pairs.
+       Do NOT add selectors here for panels that are meant to be dark —
+       those go in the guard below. ---- */
+.hturepoda,.hturepoda p,.hturepoda li,.hturepoda td,.hturepoda th{color:var(--ink)!important}
+.hturepoda{background:#fff!important}
+
+/* ---- structure: title + subtitle ----
+   .eyebrow    = the small-caps kicker ABOVE the h1 — "Section · Topic ·
+                 Subtopic", sets context before the reader hits the claim
+   h1          = the headline itself. Write it as the CLAIM, not the topic
+                 ("The Rouble Is the Outlier, Not the Dollar" beats
+                 "Currency Trends Update"). font-size 1.5rem is the deliberate
+                 site-wide size — do not bump it per-post.
+   .standfirst = the one/two-sentence SUBTITLE directly under the h1. This is
+                 also what Blogger's snippet extractor and the JSON-LD meta
+                 description both read (see the gs-head-order block below) —
+                 write it as a real, complete sentence a reader could act on,
+                 not a fragment.
+*/
+.hturepoda .eyebrow{font-size:.8rem;font-weight:700;letter-spacing:.04em;color:var(--accent);text-transform:uppercase;margin:0 0 6px;font-family:var(--mono)}
+.hturepoda h1{margin:0 0 10px;font-size:1.5rem}
+.hturepoda .standfirst{font-size:1.05rem;color:#333!important;margin:0 0 18px}
+.hturepoda .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px;margin:18px 0}
+.hturepoda .stat{background:var(--panel);border:1px solid var(--rule);border-radius:10px;padding:12px 14px}
+.hturepoda .stat b{display:block;font-size:1.2rem;color:var(--accent)}
+.hturepoda .stat span{font-size:.8rem}
+.hturepoda h2{color:var(--accent);border-bottom:2px solid var(--rule);padding-bottom:6px;margin-top:30px;font-size:1.15rem}
+
+/* ---- tables: units live in the header, cells carry bare numbers.
+       .tw is the mobile-overflow fix — see the MOBILE comment above. ---- */
+.hturepoda .tw{overflow-x:auto}
+.hturepoda table{width:100%;border-collapse:collapse;margin:14px 0;font-size:.88rem}
+.hturepoda th,.hturepoda td{border:1px solid var(--rule);padding:7px 9px;text-align:right;word-wrap:break-word;overflow-wrap:break-word}
+.hturepoda th:first-child,.hturepoda td:first-child{text-align:left}
+.hturepoda th{background:var(--accent);color:#fff!important;font-weight:600}
+.hturepoda tr:nth-child(even){background:var(--panel)}
+
+.hturepoda .note{background:#eef4ff;border-left:4px solid #2a78d6;padding:12px 16px;margin:18px 0;border-radius:0 8px 8px 0;font-size:.93rem}
+.hturepoda .warn{background:var(--bad-soft);border-left:4px solid var(--bad);padding:12px 16px;margin:18px 0;border-radius:0 8px 8px 0;font-size:.93rem}
+/* ---- .good (added 2026-09-17): third semantic tier alongside .note (neutral
+       framing) and .warn (a caveat/scope limit) — for the case a caveat block
+       would otherwise get stretched to cover: confirming a figure checked out,
+       a correction that resolved cleanly, a claim that survived cross-check.
+       Same shape as .note/.warn on purpose, so all three read as one family. */
+.hturepoda .good{background:var(--good-soft);border-left:4px solid var(--good);padding:12px 16px;margin:18px 0;border-radius:0 8px 8px 0;font-size:.93rem}
+/* ---- .chip (added 2026-09-17): formalises a labelling pattern several posts
+       already built ad hoc in JS (e.g. "PLI coverage: strong/partial/gap")
+       into one reusable inline component, so a new post doesn't reinvent it.
+       Use inline: <span class="chip chip-good">Strong</span>. ---- */
+.hturepoda .chip{display:inline-block;font-family:var(--mono);font-size:.72rem;font-weight:700;letter-spacing:.02em;padding:.15rem .5rem;border-radius:99px;line-height:1.5}
+.hturepoda .chip-good{background:var(--good-soft);color:var(--good)}
+.hturepoda .chip-warn{background:var(--panel);color:var(--accent)}
+.hturepoda .chip-bad{background:var(--bad-soft);color:var(--bad)}
+.hturepoda .src{font-size:.84rem;font-family:var(--mono);border-top:1px solid var(--rule);padding-top:12px;margin-top:24px}
+.hturepoda .disclaimer{font-size:.82rem;color:#555;margin-top:10px}
+.hturepoda .revised{font-size:.8rem;color:#555!important;margin:0 0 14px}
+.hturepoda .revised code{font-family:inherit;background:var(--panel);padding:1px 5px;border-radius:4px}
+</style>
+
+
+<div class="gs-head-order" style="display:flex;flex-direction:column">
+<p class="standfirst" style="order:4">An audit script that inventories every Git LFS pointer in every repo of a GitHub account, without downloading a single LFS object, and shows how much of your LFS bill is duplicates.</p>
+<div class="topnav-index-link" style="order:1;font-size:.82em;margin:6px 0 14px"><a href="https://blog.vertistratsolution.com/2026/08/article-index-start-here.html" style="color:#0b5394;text-decoration:none">&#8592; All Articles (Index)</a></div>
+<p class="eyebrow" style="order:2">Open-Source Tools · How-To · Dev &amp; ops tools</p>
+<h1 style="order:3">How to use repo-data-dedup: find duplicate LFS storage across your GitHub repos</h1>
+</div>
+
+
+<a href="#" id="gs-skip-link" class="gs-skip-link" style="position:absolute;left:-9999px;top:auto;background:#1a1a1a;color:#fff;padding:.6rem 1rem;z-index:1000;border-radius:4px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.85rem">Skip to article content</a>
+<style>.gs-skip-link:focus{left:8px!important;top:8px!important}
+.gs-a11y-bar{display:flex;align-items:center;gap:.55rem;flex-wrap:wrap;background:#f4f5f7;border:1px solid #dfe3e8;border-radius:8px;padding:.55rem .8rem;margin:10px 0 16px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
+.gs-a11y-bar .gs-a11y-label{font-size:.68rem;font-weight:700;letter-spacing:.08em;color:#666;text-transform:uppercase;margin-right:.15rem}
+.gs-a11y-bar button{cursor:pointer;border:1px solid #c7cbd1;background:#fff;color:#1a1a1a;border-radius:5px;padding:.32rem .65rem;font-family:inherit;line-height:1}
+.gs-a11y-bar button.gs-a11y-fs{font-weight:700;min-width:2rem;text-align:center}
+.gs-a11y-bar button.gs-a11y-fs[data-size="sm"]{font-size:.8rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="md"]{font-size:1rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="lg"]{font-size:1.2rem}
+.gs-a11y-bar button.gs-a11y-fs[aria-pressed="true"]{background:#1a1a1a;color:#fff;border-color:#1a1a1a}
+.gs-a11y-bar button:hover{border-color:#8a4b08}
+.gs-a11y-bar button:focus-visible{outline:2px solid #8a4b08;outline-offset:1px}
+.gs-a11y-bar .gs-a11y-sep{width:1px;align-self:stretch;background:#dfe3e8;margin:0 .1rem}</style>
+<div class="gs-a11y-bar" role="group" aria-label="Accessibility controls">
+<span class="gs-a11y-label">Text Size</span>
+<button type="button" class="gs-a11y-fs" data-size="sm" aria-pressed="false" aria-label="Small text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="md" aria-pressed="true" aria-label="Medium text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="lg" aria-pressed="false" aria-label="Large text">A</button>
+<span class="gs-a11y-sep"></span>
+<button type="button" id="gs-a11y-listen" aria-label="Read this article aloud">&#128266; Listen</button>
+<button type="button" id="gs-a11y-stop" aria-label="Stop reading aloud">&#9632; Stop</button>
+</div>
+<script>(function(){
+var KEY='gs-a11y-fontsize', SIZES={sm:'0.92',md:'1',lg:'1.15'};
+function pb(){return document.querySelector('.post-body')||document.querySelector('.artx,.mdrx');}
+function apply(sz){
+  var el=pb(); if(!el||!SIZES[sz]) return;
+  el.style.fontSize=SIZES[sz]+'em';
+  var btns=document.querySelectorAll('.gs-a11y-fs');
+  for(var i=0;i<btns.length;i++){
+    var on=btns[i].getAttribute('data-size')===sz;
+    btns[i].setAttribute('aria-pressed', on?'true':'false');
+  }
+  try{localStorage.setItem(KEY,sz);}catch(e){}
+}
+var fsBtns=document.querySelectorAll('.gs-a11y-fs');
+for(var j=0;j<fsBtns.length;j++){
+  fsBtns[j].addEventListener('click',(function(b){return function(){apply(b.getAttribute('data-size'));};})(fsBtns[j]));
+}
+var saved; try{saved=localStorage.getItem(KEY);}catch(e){}
+apply(saved&&SIZES[saved]?saved:'md');
+
+var listenBtn=document.getElementById('gs-a11y-listen'), stopBtn=document.getElementById('gs-a11y-stop');
+if(listenBtn){
+  listenBtn.addEventListener('click', function(){
+    if(!('speechSynthesis' in window)){ alert('Text-to-speech is not supported in this browser.'); return; }
+    window.speechSynthesis.cancel();
+    var src=pb(); if(!src) return;
+    var clone=src.cloneNode(true);
+    var strip=clone.querySelectorAll('script,style,svg');
+    for(var k=0;k<strip.length;k++){ strip[k].parentNode.removeChild(strip[k]); }
+    var text=clone.textContent.replace(/\s+/g,' ').trim();
+    if(!text) return;
+    var chunks=text.match(/[\s\S]{1,180}(?:[.!?]|$)/g)||[text];
+    var idx=0;
+    function speakNext(){
+      if(idx>=chunks.length) return;
+      var u=new SpeechSynthesisUtterance(chunks[idx]);
+      u.onend=function(){ idx++; speakNext(); };
+      window.speechSynthesis.speak(u);
+    }
+    speakNext();
+  });
+}
+if(stopBtn){
+  stopBtn.addEventListener('click', function(){
+    if('speechSynthesis' in window) window.speechSynthesis.cancel();
+  });
+}
+var skip=document.getElementById('gs-skip-link');
+if(skip){
+  skip.addEventListener('click', function(ev){
+    ev.preventDefault();
+    var h=document.querySelector('.post-body h1')||document.querySelector('.artx h1,.mdrx h1,h1');
+    if(h){ h.setAttribute('tabindex','-1'); h.focus(); h.scrollIntoView(); }
+  });
+}
+})();</script>
+<style>.goog-te-menu-frame{max-width:340px!important;max-height:70vh!important;overflow:auto!important;box-shadow:0 6px 24px rgba(0,0,0,.25)!important}</style>
+<div id="google_translate_element" style="margin:8px 0 16px;"></div><script type="text/javascript">function googleTranslateElementInit(){new google.translate.TranslateElement({pageLanguage:"en",includedLanguages:"hi,bn,ta,te,mr,gu,kn,ml,pa,or,as,ur,sa,ne,sd",layout:google.translate.TranslateElement.InlineLayout.SIMPLE,autoDisplay:false},"google_translate_element");}</script><script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+
+<p class="revised" data-gs-revision-v1="1">Revised
+<time datetime="2026-10-26" itemprop="dateModified">26 October 2026</time>
+&middot; <code>v1.0.0</code> &middot; <a href="#changelog">what changed</a></p>
+
+<style>.hturepoda pre{background:#f6f3ea!important;color:#111!important;border:1px solid var(--rule);border-radius:8px;padding:10px 12px;overflow-x:auto;font-size:.82rem;line-height:1.45}.hturepoda pre code{background:none!important;color:#111!important;font-family:var(--mono)}.hturepoda code{font-family:var(--mono);font-size:.88em}.hturepoda .vid{position:relative;padding-bottom:56.25%;height:0;margin:16px 0;max-width:100%}.hturepoda .vid iframe{position:absolute;inset:0;width:100%;height:100%;border:0}</style><div class="stats"><div class="stat"><b>3</b><span>synthetic repos in the demo</span></div><div class="stat"><b>1.83 GB</b><span>LFS storage counted across repos (synthetic)</span></div><div class="stat"><b>0.71 GB</b><span>unique content behind it</span></div><div class="stat"><b>0</b><span>real paths or repos touched</span></div></div>
+<p>Code: <a href="https://github.com/herrrickshaw/repo-data-dedup">github.com/herrrickshaw/repo-data-dedup</a></p>
+<h2>Watch the walkthrough</h2>
+<div class="vid"><iframe src="https://www.youtube.com/embed/IRDuMnBUxyk" title="How to use repo-data-dedup: find duplicate LFS storage across your GitHub repos" allowfullscreen loading="lazy"></iframe></div><p>Watch on YouTube: <a href="https://youtu.be/IRDuMnBUxyk">youtu.be/IRDuMnBUxyk</a></p>
+<h2>Why it is useful</h2>
+<ul><li>Who benefits: anyone whose GitHub LFS quota is exhausted or growing, and who needs to know which repos hold the bytes before deleting anything.</li><li>What it replaces: guessing from the GitHub billing page, which shows a total but not which repos duplicate each other.</li><li>Why it works when the quota is blown: it clones with a blob size filter, so it reads only the tiny pointer files, never the LFS objects themselves.</li><li>Evidence from the run: on a synthetic three-repo account it counted 1.83 GB stored against 0.71 GB unique, flagged 1.12 GB of cross-repo duplicate waste in 2 objects, and a history-only object (at_head = 0).</li><li>The repo also ships a dry-run-by-default script that lists archive-twin repos it would delete; the dry run was run and nothing was deleted.</li></ul>
+<h2>What it is for</h2>
+<p>repo-data-dedup came out of a real problem: an account whose GitHub LFS budget was used up, so every LFS download failed. LFS storage is counted per repository, so a backup copy of a repo stores every large file again.</p>
+<p>The core tool is scripts/audit_lfs.py. For every repo of an owner it makes a blobless-style clone (--filter=blob:limit=2048, no checkout), finds the LFS pointer files in the full history, and writes two CSVs: lfs_inventory.csv (every pointer, its size, and whether HEAD still references it) and repo_summary.csv (objects and bytes per repo). It then prints total stored, total unique and cross-repo duplicate waste.</p>
+<p>The repo also holds a written playbook (audit, deduplicate, compress, eliminate LFS) and helper scripts. This post only demonstrates the audit and the safe dry run, on made-up repositories.</p>
+<p><b>Who it is for</b></p>
+<ul><li>Developers and researchers whose GitHub account uses Git LFS across many repos</li><li>Anyone planning a cleanup who wants evidence of what is duplicated first</li><li>People who keep archive or backup copies of repos in the same account</li></ul>
+<div class="warn"><b>Not for.</b><ul><li>Deciding what to delete without checking: the audit counts pointers, it does not prove a copy is safe to remove</li><li>Accounts that do not use Git LFS (the numbers will be zero)</li><li>Running the destructive scripts: delete_archive_twins.sh --run deletes real repos. Read it first and run the default dry run only</li></ul></div>
+<h2>What you need</h2>
+<div class="tw"><table><tr><th>Requirement</th><th>Why</th><th>How to get it</th></tr><tr><td>Python 3</td><td>runs audit_lfs.py (standard library only)</td><td>already on macOS and most Linux; python.org otherwise</td></tr><tr><td>git</td><td>filtered clones of each repo</td><td>xcode-select --install or brew install git</td></tr><tr><td>GitHub CLI (gh), logged in</td><td>the script lists the owner&#x27;s repos with gh repo list</td><td>brew install gh, then gh auth login</td></tr><tr><td>No LFS quota needed</td><td>pointer files are tiny normal blobs</td><td>nothing to set up</td></tr></table></div>
+<h2>Get the code and an AI assistant</h2>
+<p>You do not have to be a programmer. Get the repository, give it to an AI assistant, and ask in plain language. Any of these routes works:</p>
+<div class="tw"><table><tr><th>Tool</th><th>What you need</th><th>Best for</th></tr><tr><td><b>GitHub</b></td><td>Free account to fork or star; <code>git</code> to clone, or the green <b>Code</b> button, then <b>Download ZIP</b>, or open in <b>Codespaces</b></td><td>Getting the code and keeping up with updates</td></tr><tr><td><b>Claude Code</b></td><td>Claude subscription or API key; run <code>claude</code> inside the cloned folder</td><td>Letting the AI read and run the whole repo</td></tr><tr><td><b>Gemini CLI</b></td><td>Google account; run <code>gemini</code> inside the cloned folder</td><td>The same hands-on workflow with Gemini</td></tr><tr><td><b>Claude.ai, Gemini or ChatGPT in the browser</b></td><td>A chat account; upload <code>README.md</code> and the files you care about (or paste the output of <code>git ls-files</code>)</td><td>Understanding the project and asking questions without installing anything</td></tr><tr><td><b>Other tools</b> (Copilot Chat, Cursor, Codex CLI)</td><td>Open the cloned folder in the tool and point it at <code>README.md</code> first</td><td>Editing and extending the code</td></tr></table></div>
+<pre><code>git clone https://github.com/herrrickshaw/repo-data-dedup.git
+cd repo-data-dedup
+claude      # or: gemini</code></pre>
+<h2>Install</h2><ol><li>Clone the repo<pre><code>git clone https://github.com/herrrickshaw/repo-data-dedup.git
+cd repo-data-dedup</code></pre></li><li>Check that gh is logged in<pre><code>gh auth status</code></pre></li></ol>
+<h2>Quick start: commands and what you should see</h2>
+<p><b>Audit your own account (read-only). Replace &lt;owner&gt; with your GitHub user or organisation</b></p>
+<pre><code>mkdir -p ~/lfs_audit &amp;&amp; cd ~/lfs_audit
+python3 /path/to/repo-data-dedup/scripts/audit_lfs.py &lt;owner&gt; ~/lfs_audit/clones</code></pre>
+<p>One progress line per repo, then three totals: TOTAL stored across repos, TOTAL unique content, cross-repo duplicate waste. lfs_inventory.csv and repo_summary.csv appear in the current folder.</p>
+<p><b>Preview the archive-twin deletion list (dry run is the default)</b></p>
+<pre><code>./scripts/delete_archive_twins.sh</code></pre>
+<p>35 lines starting [dry] would delete ..., then &#x27;Dry run only.&#x27; Nothing is deleted unless you pass --run, which needs the delete_repo scope. The list is hard-coded for the author&#x27;s account; edit it before using it on yours.</p>
+<p><b>Read the CSVs</b></p>
+<pre><code>column -s, -t repo_summary.csv</code></pre>
+<p>Per repo: visibility, status, LFS object count and bytes.</p>
+<h2>Sample outputs</h2><p>Real output from a run on the date shown in the sources line; trimmed to fit.</p>
+<p><b>audit_lfs.py on a synthetic account of 3 repos (run 19 Oct 2026)</b></p>
+<pre><code>python3 scripts/audit_lfs.py synthetic ./clones
+3 repos
+[1/3] demo-data (10KB)
+  LFS objects: 3  bytes: 710,000,000
+[2/3] demo-data-archive-2026-07-17 (10KB)
+  LFS objects: 2  bytes: 620,000,000
+[3/3] other (10KB)
+  LFS objects: 1  bytes: 500,000,000
+
+TOTAL stored across repos : 1.83 GB
+TOTAL unique content      : 0.71 GB
+cross-repo duplicate waste: 1.12 GB in 2 objects</code></pre>
+<p>The three repos were made-up local git repos holding fake LFS pointer files; a small gh shim and a git URL rewrite pointed the script at them. One repo is an archive twin of another, so its files are counted twice.</p>
+<p><b>lfs_inventory.csv for the synthetic run (hash column shortened)</b></p>
+<pre><code>cat lfs_inventory.csv
+repo,path_at_head,lfs_sha256,size_bytes,at_head
+demo-data,prices.parquet,&lt;sha&gt;,500000000,1
+demo-data-archive-2026-07-17,prices.parquet,&lt;sha&gt;,500000000,1
+other,prices_copy.parquet,&lt;sha&gt;,500000000,1
+demo-data,,&lt;sha&gt;,120000000,0
+demo-data-archive-2026-07-17,old.csv,&lt;sha&gt;,120000000,1
+demo-data,old.csv,&lt;sha&gt;,90000000,1</code></pre>
+<p>The same 500 MB hash appears in three repos (duplicate). The empty path with at_head 0 is an older version that HEAD no longer references, which only a history rewrite can free.</p>
+<p><b>Dry-run deletion list (first and last lines)</b></p>
+<pre><code>./scripts/delete_archive_twins.sh
+[dry] would delete herrrickshaw/BazaarTalks-archive-2026-07-17
+[dry] would delete herrrickshaw/Bazartalks_Py2Cplus-archive-2026-07-17
+[dry] would delete herrrickshaw/Merlin-archive-2026-07-17
+...
+[dry] would delete herrrickshaw/working-files-archive-2026-07-17
+Dry run only. Re-run with --run to delete. Needs: gh auth refresh -h github.com -s delete_repo</code></pre>
+<p>35 repo names printed, none deleted. These are the public author&#x27;s own archive-twin names, shown only to illustrate the output.</p>
+<h2>Ways to use it</h2>
+<div class="tw"><table><tr><th>Method</th><th>How it works</th></tr><tr><td>Command line</td><td>python3 scripts/audit_lfs.py &lt;owner&gt; &lt;workdir&gt;, then open the two CSVs in a spreadsheet or DuckDB.</td></tr><tr><td>Weekly refresh</td><td>scripts/refresh_audit.sh re-runs the audit and commits updated CSVs (the author runs it from cron). Optional.</td></tr><tr><td>Via an AI assistant</td><td>Open the cloned folder in Claude Code or Gemini CLI and ask it to run the audit and summarise which repos duplicate each other.</td></tr><tr><td>Follow the playbook</td><td>PLAYBOOK.md lists the per-repo recipe: rescue, deduplicate, rewrite history, verify, delete. Do the verify step before any delete.</td></tr></table></div>
+<h2>Sample prompts for your AI assistant</h2><p>Copy, paste and edit the parts in [brackets].</p>
+<ul><li>Explain the repo-data-dedup repository in plain English: what problem it solves, what the main files do, and what I need installed.</li><li>Run scripts/audit_lfs.py for the GitHub owner [my-username] and give me the top 10 repos by LFS bytes, in a table.</li><li>Read lfs_inventory.csv and list every LFS object that appears in more than one repo, with the repos and the wasted bytes.</li><li>From the inventory, which objects have at_head = 0? Explain why only a history rewrite frees them.</li><li>Read PLAYBOOK.md and write me a checklist for moving one repo off LFS safely, including the verify step before deleting.</li><li>Check delete_archive_twins.sh and tell me exactly what --run would do, and what I must change before using it on my own account.</li></ul>
+<h2>Limits and honest caveats</h2>
+<div class="warn"><ul><li>Not run on real repos for this post: all numbers above come from a synthetic account, so they show how the tool works, not any real saving.</li><li>Pointer sizes are what git reports; the script does not verify the objects exist on the LFS server.</li><li>delete_archive_twins.sh has a hard-coded list of the author&#x27;s own repos and --run deletes them for real. Use the dry run only unless you have checked every name.</li><li>LFS storage is only freed by deleting repositories, not by deleting files; the audit cannot change that.</li><li>A repo with a blobless-style clone can fail on private or renamed repos; those rows show CLONE_FAILED.</li></ul></div>
+<p class="src">Sources: repo-data-dedup README, scripts/audit_lfs.py and scripts/delete_archive_twins.sh; audit_lfs.py run on 19 October 2026 against three synthetic local repositories on a fresh clone; dry-run list run the same day. No real paths or repositories were audited or changed.</p>
+<div id="changelog" class="note">
+<b>Revision history.</b>
+<ul>
+<li><b>v1.0.0</b> &mdash; 26 October 2026 &mdash; first published.</li>
+</ul>
+</div>
+
+
+<style>/* gs-light-lock-v1 */.hturepoda{--ink:#111!important;--accent:#8a4b08!important;--rule:#e8dcc4!important;--panel:#fdf7ec!important;--good:#1a7a4c!important;--good-soft:#eaf6ef!important;--bad:#a5402c!important;--bad-soft:#fff4f0!important}</style>
+<div data-gs-access-note="1" style="border-left:4px solid #8a4b08;background:rgba(138,75,8,.07);padding:.8em 1em;margin:1.2em 0;border-radius:4px"><b>Repository and data access.</b> Need the GitHub repository or the data files behind this guide? Both are available on request: <a href="https://blog.vertistratsolution.com/p/contact.html">ask through the Contact page</a> and name the guide and what you need.</div>
+<p class="disclaimer" data-gs-ai-disclosure-v1="1"><strong>About this article:</strong> Researched, written and edited by Umashankar Triplicane Dwarakanathan, with AI research assistance; every figure is meant to trace to the primary source cited. See the <a href="https://blog.vertistratsolution.com/p/disclaimer.html">Editorial Policy</a> for how sourcing, AI use and corrections work.</p>
+
+</div>
+
+<div id="gs-idx"></div><script defer="defer" src="https://herrrickshaw.github.io/masaladeutsch/accordion.js"></script>

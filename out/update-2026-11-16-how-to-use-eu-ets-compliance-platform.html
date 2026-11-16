@@ -1,0 +1,277 @@
+<div class="artx htueuetsc">
+<style>
+/* ---- typography (gs-typo-unify-v1): keep in sync across all posts ---- */
+.htueuetsc{font-family:Georgia,'Times New Roman',serif;line-height:1.6;color:#111}
+.htueuetsc h1,.htueuetsc h2,.htueuetsc h3{line-height:1.3}
+
+/* ---- palette: define every colour as a custom property here. Do not add
+       raw hex elsewhere in a post's <style> block — reference these vars, so
+       a future palette change is a 4-line edit instead of a find-and-replace
+       across every post. ----
+   --ink     #111    body text, light-locked (see below)
+   --accent  #8a4b08  eyebrow text, h2 rule, table header bg, stat numbers —
+                       the one colour that carries this post's "brand"
+   --rule    #e8dcc4  hairline borders, h2 underline, table cell borders
+   --panel   #fdf7ec  stat-card bg, even table rows — the palette's one tint
+*/
+.htueuetsc{--ink:#111;--accent:#8a4b08;--rule:#e8dcc4;--panel:#fdf7ec;--good:#1a7a4c;--good-soft:#eaf6ef;--bad:#a5402c;--bad-soft:#fff4f0}
+
+/* ---- mono-label convention (added 2026-09-17, borrowed from the
+       india-trade-sector-policy-recommendations design system): the eyebrow
+       kicker and the source line read as data-journalism metadata, not
+       article prose, so they get a monospace face — a system stack, not a
+       hosted webfont, so no post gains an extra network request or a
+       flash-of-unstyled-text risk. Body text (h1/p/li/table) keeps the
+       serif — this is a two-place accent, not a font-pairing overhaul. ---- */
+.htueuetsc{--mono:ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace}
+
+/* ---- light lock (gs-light-lock): a dark Blogger theme (and a browser/OS
+       set to prefers-color-scheme:dark) must not repaint text. Re-assert
+       the same values with !important — verified 2026-08-14 across 5 live
+       posts with the browser's colour scheme forced to dark: body/h1/p/table
+       all stayed light-background/dark-text with no low-contrast pairs.
+       Do NOT add selectors here for panels that are meant to be dark —
+       those go in the guard below. ---- */
+.htueuetsc,.htueuetsc p,.htueuetsc li,.htueuetsc td,.htueuetsc th{color:var(--ink)!important}
+.htueuetsc{background:#fff!important}
+
+/* ---- structure: title + subtitle ----
+   .eyebrow    = the small-caps kicker ABOVE the h1 — "Section · Topic ·
+                 Subtopic", sets context before the reader hits the claim
+   h1          = the headline itself. Write it as the CLAIM, not the topic
+                 ("The Rouble Is the Outlier, Not the Dollar" beats
+                 "Currency Trends Update"). font-size 1.5rem is the deliberate
+                 site-wide size — do not bump it per-post.
+   .standfirst = the one/two-sentence SUBTITLE directly under the h1. This is
+                 also what Blogger's snippet extractor and the JSON-LD meta
+                 description both read (see the gs-head-order block below) —
+                 write it as a real, complete sentence a reader could act on,
+                 not a fragment.
+*/
+.htueuetsc .eyebrow{font-size:.8rem;font-weight:700;letter-spacing:.04em;color:var(--accent);text-transform:uppercase;margin:0 0 6px;font-family:var(--mono)}
+.htueuetsc h1{margin:0 0 10px;font-size:1.5rem}
+.htueuetsc .standfirst{font-size:1.05rem;color:#333!important;margin:0 0 18px}
+.htueuetsc .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px;margin:18px 0}
+.htueuetsc .stat{background:var(--panel);border:1px solid var(--rule);border-radius:10px;padding:12px 14px}
+.htueuetsc .stat b{display:block;font-size:1.2rem;color:var(--accent)}
+.htueuetsc .stat span{font-size:.8rem}
+.htueuetsc h2{color:var(--accent);border-bottom:2px solid var(--rule);padding-bottom:6px;margin-top:30px;font-size:1.15rem}
+
+/* ---- tables: units live in the header, cells carry bare numbers.
+       .tw is the mobile-overflow fix — see the MOBILE comment above. ---- */
+.htueuetsc .tw{overflow-x:auto}
+.htueuetsc table{width:100%;border-collapse:collapse;margin:14px 0;font-size:.88rem}
+.htueuetsc th,.htueuetsc td{border:1px solid var(--rule);padding:7px 9px;text-align:right;word-wrap:break-word;overflow-wrap:break-word}
+.htueuetsc th:first-child,.htueuetsc td:first-child{text-align:left}
+.htueuetsc th{background:var(--accent);color:#fff!important;font-weight:600}
+.htueuetsc tr:nth-child(even){background:var(--panel)}
+
+.htueuetsc .note{background:#eef4ff;border-left:4px solid #2a78d6;padding:12px 16px;margin:18px 0;border-radius:0 8px 8px 0;font-size:.93rem}
+.htueuetsc .warn{background:var(--bad-soft);border-left:4px solid var(--bad);padding:12px 16px;margin:18px 0;border-radius:0 8px 8px 0;font-size:.93rem}
+/* ---- .good (added 2026-09-17): third semantic tier alongside .note (neutral
+       framing) and .warn (a caveat/scope limit) — for the case a caveat block
+       would otherwise get stretched to cover: confirming a figure checked out,
+       a correction that resolved cleanly, a claim that survived cross-check.
+       Same shape as .note/.warn on purpose, so all three read as one family. */
+.htueuetsc .good{background:var(--good-soft);border-left:4px solid var(--good);padding:12px 16px;margin:18px 0;border-radius:0 8px 8px 0;font-size:.93rem}
+/* ---- .chip (added 2026-09-17): formalises a labelling pattern several posts
+       already built ad hoc in JS (e.g. "PLI coverage: strong/partial/gap")
+       into one reusable inline component, so a new post doesn't reinvent it.
+       Use inline: <span class="chip chip-good">Strong</span>. ---- */
+.htueuetsc .chip{display:inline-block;font-family:var(--mono);font-size:.72rem;font-weight:700;letter-spacing:.02em;padding:.15rem .5rem;border-radius:99px;line-height:1.5}
+.htueuetsc .chip-good{background:var(--good-soft);color:var(--good)}
+.htueuetsc .chip-warn{background:var(--panel);color:var(--accent)}
+.htueuetsc .chip-bad{background:var(--bad-soft);color:var(--bad)}
+.htueuetsc .src{font-size:.84rem;font-family:var(--mono);border-top:1px solid var(--rule);padding-top:12px;margin-top:24px}
+.htueuetsc .disclaimer{font-size:.82rem;color:#555;margin-top:10px}
+.htueuetsc .revised{font-size:.8rem;color:#555!important;margin:0 0 14px}
+.htueuetsc .revised code{font-family:inherit;background:var(--panel);padding:1px 5px;border-radius:4px}
+</style>
+
+
+<div class="gs-head-order" style="display:flex;flex-direction:column">
+<p class="standfirst" style="order:4">A multi-tenant FastAPI and React prototype that models EU ETS, shipping MRV, CBAM, carbon-credit sourcing, trading and an India CCTS module on illustrative data, useful for learning how the pieces fit together.</p>
+<div class="topnav-index-link" style="order:1;font-size:.82em;margin:6px 0 14px"><a href="https://blog.vertistratsolution.com/2026/08/article-index-start-here.html" style="color:#0b5394;text-decoration:none">&#8592; All Articles (Index)</a></div>
+<p class="eyebrow" style="order:2">Open-Source Tools · How-To · Climate &amp; compliance</p>
+<h1 style="order:3">How to use eu-ets-compliance-platform: a hands-on EU ETS and CBAM compliance prototype</h1>
+</div>
+
+
+<a href="#" id="gs-skip-link" class="gs-skip-link" style="position:absolute;left:-9999px;top:auto;background:#1a1a1a;color:#fff;padding:.6rem 1rem;z-index:1000;border-radius:4px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.85rem">Skip to article content</a>
+<style>.gs-skip-link:focus{left:8px!important;top:8px!important}
+.gs-a11y-bar{display:flex;align-items:center;gap:.55rem;flex-wrap:wrap;background:#f4f5f7;border:1px solid #dfe3e8;border-radius:8px;padding:.55rem .8rem;margin:10px 0 16px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
+.gs-a11y-bar .gs-a11y-label{font-size:.68rem;font-weight:700;letter-spacing:.08em;color:#666;text-transform:uppercase;margin-right:.15rem}
+.gs-a11y-bar button{cursor:pointer;border:1px solid #c7cbd1;background:#fff;color:#1a1a1a;border-radius:5px;padding:.32rem .65rem;font-family:inherit;line-height:1}
+.gs-a11y-bar button.gs-a11y-fs{font-weight:700;min-width:2rem;text-align:center}
+.gs-a11y-bar button.gs-a11y-fs[data-size="sm"]{font-size:.8rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="md"]{font-size:1rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="lg"]{font-size:1.2rem}
+.gs-a11y-bar button.gs-a11y-fs[aria-pressed="true"]{background:#1a1a1a;color:#fff;border-color:#1a1a1a}
+.gs-a11y-bar button:hover{border-color:#8a4b08}
+.gs-a11y-bar button:focus-visible{outline:2px solid #8a4b08;outline-offset:1px}
+.gs-a11y-bar .gs-a11y-sep{width:1px;align-self:stretch;background:#dfe3e8;margin:0 .1rem}</style>
+<div class="gs-a11y-bar" role="group" aria-label="Accessibility controls">
+<span class="gs-a11y-label">Text Size</span>
+<button type="button" class="gs-a11y-fs" data-size="sm" aria-pressed="false" aria-label="Small text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="md" aria-pressed="true" aria-label="Medium text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="lg" aria-pressed="false" aria-label="Large text">A</button>
+<span class="gs-a11y-sep"></span>
+<button type="button" id="gs-a11y-listen" aria-label="Read this article aloud">&#128266; Listen</button>
+<button type="button" id="gs-a11y-stop" aria-label="Stop reading aloud">&#9632; Stop</button>
+</div>
+<script>(function(){
+var KEY='gs-a11y-fontsize', SIZES={sm:'0.92',md:'1',lg:'1.15'};
+function pb(){return document.querySelector('.post-body')||document.querySelector('.artx,.mdrx');}
+function apply(sz){
+  var el=pb(); if(!el||!SIZES[sz]) return;
+  el.style.fontSize=SIZES[sz]+'em';
+  var btns=document.querySelectorAll('.gs-a11y-fs');
+  for(var i=0;i<btns.length;i++){
+    var on=btns[i].getAttribute('data-size')===sz;
+    btns[i].setAttribute('aria-pressed', on?'true':'false');
+  }
+  try{localStorage.setItem(KEY,sz);}catch(e){}
+}
+var fsBtns=document.querySelectorAll('.gs-a11y-fs');
+for(var j=0;j<fsBtns.length;j++){
+  fsBtns[j].addEventListener('click',(function(b){return function(){apply(b.getAttribute('data-size'));};})(fsBtns[j]));
+}
+var saved; try{saved=localStorage.getItem(KEY);}catch(e){}
+apply(saved&&SIZES[saved]?saved:'md');
+
+var listenBtn=document.getElementById('gs-a11y-listen'), stopBtn=document.getElementById('gs-a11y-stop');
+if(listenBtn){
+  listenBtn.addEventListener('click', function(){
+    if(!('speechSynthesis' in window)){ alert('Text-to-speech is not supported in this browser.'); return; }
+    window.speechSynthesis.cancel();
+    var src=pb(); if(!src) return;
+    var clone=src.cloneNode(true);
+    var strip=clone.querySelectorAll('script,style,svg');
+    for(var k=0;k<strip.length;k++){ strip[k].parentNode.removeChild(strip[k]); }
+    var text=clone.textContent.replace(/\s+/g,' ').trim();
+    if(!text) return;
+    var chunks=text.match(/[\s\S]{1,180}(?:[.!?]|$)/g)||[text];
+    var idx=0;
+    function speakNext(){
+      if(idx>=chunks.length) return;
+      var u=new SpeechSynthesisUtterance(chunks[idx]);
+      u.onend=function(){ idx++; speakNext(); };
+      window.speechSynthesis.speak(u);
+    }
+    speakNext();
+  });
+}
+if(stopBtn){
+  stopBtn.addEventListener('click', function(){
+    if('speechSynthesis' in window) window.speechSynthesis.cancel();
+  });
+}
+var skip=document.getElementById('gs-skip-link');
+if(skip){
+  skip.addEventListener('click', function(ev){
+    ev.preventDefault();
+    var h=document.querySelector('.post-body h1')||document.querySelector('.artx h1,.mdrx h1,h1');
+    if(h){ h.setAttribute('tabindex','-1'); h.focus(); h.scrollIntoView(); }
+  });
+}
+})();</script>
+<style>.goog-te-menu-frame{max-width:340px!important;max-height:70vh!important;overflow:auto!important;box-shadow:0 6px 24px rgba(0,0,0,.25)!important}</style>
+<div id="google_translate_element" style="margin:8px 0 16px;"></div><script type="text/javascript">function googleTranslateElementInit(){new google.translate.TranslateElement({pageLanguage:"en",includedLanguages:"hi,bn,ta,te,mr,gu,kn,ml,pa,or,as,ur,sa,ne,sd",layout:google.translate.TranslateElement.InlineLayout.SIMPLE,autoDisplay:false},"google_translate_element");}</script><script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+
+<p class="revised" data-gs-revision-v1="1">Revised
+<time datetime="2026-10-19" itemprop="dateModified">19 October 2026</time>
+&middot; <code>v1.0.0</code> &middot; <a href="#changelog">what changed</a></p>
+
+<style>.htueuetsc pre{background:#f6f3ea!important;color:#111!important;border:1px solid var(--rule);border-radius:8px;padding:10px 12px;overflow-x:auto;font-size:.82rem;line-height:1.45}.htueuetsc pre code{background:none!important;color:#111!important;font-family:var(--mono)}.htueuetsc code{font-family:var(--mono);font-size:.88em}.htueuetsc .vid{position:relative;padding-bottom:56.25%;height:0;margin:16px 0;max-width:100%}.htueuetsc .vid iframe{position:absolute;inset:0;width:100%;height:100%;border:0}</style><div class="stats"><div class="stat"><b>13</b><span>demo tenants seeded</span></div><div class="stat"><b>9</b><span>years in the CBAM phase-in schedule (2026 to 2034)</span></div><div class="stat"><b>2,695 t</b><span>default-value embedded direct CO2 for 1,000 t Indian hot-rolled steel</span></div><div class="stat"><b>1,900 t</b><span>same shipment with supplied actual direct emissions</span></div></div>
+<p>Code: <a href="https://github.com/herrrickshaw/eu-ets-compliance-platform">github.com/herrrickshaw/eu-ets-compliance-platform</a></p>
+<h2>Watch the walkthrough</h2>
+<div class="vid"><iframe src="https://www.youtube.com/embed/ZzHSLnBqv8M" title="How to use eu-ets-compliance-platform: a hands-on EU ETS and CBAM compliance prototype" allowfullscreen loading="lazy"></iframe></div><p>Watch on YouTube: <a href="https://youtu.be/ZzHSLnBqv8M">youtu.be/ZzHSLnBqv8M</a></p>
+<h2>Why it is useful</h2>
+<ul><li>Students, consultants and developers who need to understand how EU carbon-market obligations (ETS surrender, CBAM declarations, shipping MRV) connect get a working, inspectable system instead of PDFs.</li><li>It replaces a diagram-only explanation with an API you can call: declare imports, see default-value mark-ups applied, reconcile a quarter and watch certificates net off.</li><li>Evidence from the run: after seeding in a fresh clone, I declared three default-value consignments and one with supplied actuals over the API and reconciled Q1 2026; the numbers matched hand calculation from the default-value table.</li><li>The run shows why the choice matters in CBAM: for the same 1,000 t of Indian steel, default values gave 3,223 t of embedded CO2 versus 2,200 t with supplied actuals (illustrative data).</li></ul>
+<h2>What it is for</h2>
+<p>This is a prototype that models modules after real reference systems: EU Union Registry for ETS accounts and surrender, EMSA THETIS-MRV for shipping, the CBAM Transitional Registry for importers, and the Climate Action Data Trust for credit sourcing. An India CCTS module adds sector targets, Article 6.2 activities and carbon-price comparisons.</p>
+<p>Every tenant&#x27;s private data is isolated, while market data such as order books and credit projects is shared across tenants, as on a real marketplace.</p>
+<p><b>Who it is for</b></p>
+<ul><li>Developers and students learning how carbon-compliance systems are structured</li><li>Analysts who want to experiment with CBAM default-value versus actual-emissions effects</li><li>Teams prototyping multi-tenant compliance software</li></ul>
+<div class="warn"><b>Not for.</b><ul><li>Real EU ETS, CBAM, MRV or CCTS filings: this is not legal advice and not a certified compliance tool</li><li>Any use of the seeded numbers as real prices, emission factors or allocations</li><li>Anything relying on the India module as primary-source law; the repo says it comes from secondary reporting</li></ul></div>
+<h2>What you need</h2>
+<div class="tw"><table><tr><th>Requirement</th><th>Why</th><th>How to get it</th></tr><tr><td>Python 3.11</td><td>The README uses python3.11; dependencies are pinned (FastAPI 0.115, SQLAlchemy 2.0.35, bcrypt 4.0.1)</td><td>python.org, or brew install python@3.11</td></tr><tr><td>httpx (for the scripted API test used here)</td><td>FastAPI&#x27;s TestClient needs it; not in requirements.txt</td><td>pip install httpx</td></tr><tr><td>Node.js (optional)</td><td>Only for the React front end (npm install, npm run dev); not used in this demo</td><td>nodejs.org</td></tr><tr><td>A terminal and git</td><td>To clone and run</td><td>Terminal on macOS/Linux, or Git Bash/WSL on Windows</td></tr><tr><td>No API keys or accounts</td><td>SQLite, seeded data, no external feeds</td><td>None needed. The seed script prints demo logins; use those, never real credentials</td></tr></table></div>
+<h2>Get the code and an AI assistant</h2>
+<p>You do not have to be a programmer. Get the repository, give it to an AI assistant, and ask in plain language. Any of these routes works:</p>
+<div class="tw"><table><tr><th>Tool</th><th>What you need</th><th>Best for</th></tr><tr><td><b>GitHub</b></td><td>Free account to fork or star; <code>git</code> to clone, or the green <b>Code</b> button, then <b>Download ZIP</b>, or open in <b>Codespaces</b></td><td>Getting the code and keeping up with updates</td></tr><tr><td><b>Claude Code</b></td><td>Claude subscription or API key; run <code>claude</code> inside the cloned folder</td><td>Letting the AI read and run the whole repo</td></tr><tr><td><b>Gemini CLI</b></td><td>Google account; run <code>gemini</code> inside the cloned folder</td><td>The same hands-on workflow with Gemini</td></tr><tr><td><b>Claude.ai, Gemini or ChatGPT in the browser</b></td><td>A chat account; upload <code>README.md</code> and the files you care about (or paste the output of <code>git ls-files</code>)</td><td>Understanding the project and asking questions without installing anything</td></tr><tr><td><b>Other tools</b> (Copilot Chat, Cursor, Codex CLI)</td><td>Open the cloned folder in the tool and point it at <code>README.md</code> first</td><td>Editing and extending the code</td></tr></table></div>
+<pre><code>git clone https://github.com/herrrickshaw/eu-ets-compliance-platform.git
+cd eu-ets-compliance-platform
+claude      # or: gemini</code></pre>
+<h2>Install</h2><ol><li>Clone and enter the backend<pre><code>git clone https://github.com/herrrickshaw/eu-ets-compliance-platform.git
+cd eu-ets-compliance-platform/backend</code></pre></li><li>Create a Python 3.11 virtual environment and install pinned dependencies<pre><code>python3.11 -m venv .venv &amp;&amp; source .venv/bin/activate
+pip install -r requirements.txt</code></pre></li></ol>
+<h2>Quick start: commands and what you should see</h2>
+<p><b>Seed the illustrative data (drops and recreates the local SQLite tables)</b></p>
+<pre><code>python -m app.seed.seed_data</code></pre>
+<p>&#x27;Seed complete.&#x27; followed by a table of 13 demo tenants and their login emails, with the demo password printed.</p>
+<p><b>Start the API</b></p>
+<pre><code>uvicorn app.main:app --port 8000</code></pre>
+<p>Interactive API docs at http://127.0.0.1:8000/docs. Log in via POST /api/auth/login with a printed demo account, then use the bearer token.</p>
+<p><b>Declare a CBAM import and reconcile a quarter (shown in sample outputs)</b></p>
+<pre><code>POST /api/cbam/imports
+POST /api/cbam/declarations/{declarant_id}/{year}/{quarter}/reconcile</code></pre>
+<p>Emissions computed from default values with mark-up, or from actuals if supplied.</p>
+<h2>Sample outputs</h2><p>Real output from a run on the date shown in the sources line; trimmed to fit.</p>
+<p><b>CBAM phase-in schedule (GET /api/cbam/phase-in-schedule, seeded data)</b></p>
+<pre><code>GET /api/cbam/phase-in-schedule
+year  free_allocation_pct  cbam_factor_pct
+2026  97.5                 2.5
+2027  95.0                 5.0
+2028  90.0                 10.0
+2029  77.5                 22.5
+2030  51.5                 48.5
+2031  39.0                 61.0
+2032  26.5                 73.5
+2033  14.0                 86.0
+2034   0.0                 100.0</code></pre>
+<p>The 2030 row carries the note &#x27;Largest single-year jump in the schedule: +26 points from 2029.&#x27; Run 19 Oct 2026 against the seeded demo database.</p>
+<p><b>Declaring imports as the CBAM demo importer (POST /api/cbam/imports, 10 Feb 2026)</b></p>
+<pre><code>1,000 t hot-rolled steel, CN code 7208
+Origin  basis            direct_t  indirect_t
+IN      default value    2,695     528
+CN      default value    2,860     605
+IN      actual verified  1,900     300   (declared 11 Feb, supplied by the importer)
+
+500 t Portland cement (2523), TR: default value, direct 467.5, indirect 55</code></pre>
+<p>Default factors: India steel 2.45 direct and 0.48 indirect t CO2/t plus a 10% mark-up, so 1,000 t gives 2,695 and 528. These factors are seeded illustrative values, not official ones.</p>
+<p><b>Quarterly reconcile (POST /api/cbam/declarations/1/2026/1/reconcile)</b></p>
+<pre><code>reconcile Q1 2026
+{&quot;year&quot;: 2026, &quot;quarter&quot;: 1,
+ &quot;total_embedded_emissions_t&quot;: 17668.75,
+ &quot;certificates_surrendered_t&quot;: 2500.0,
+ &quot;status&quot;: &quot;reconciled&quot;}</code></pre>
+<p>The total includes the seeded imports as well as my four, and certificates surrendered are capped at the certificates held in the seed.</p>
+<p><b>EU ETS compliance row for the demo steelworks (GET /api/ets/compliance)</b></p>
+<pre><code>GET /api/ets/compliance
+year 2025, verified emissions 480,000 t,
+free allocation 300,000 t, surrendered 0 t,
+deadline 2026-09-30, status: open</code></pre>
+<p>Illustrative seed data for an invented operator.</p>
+<h2>Ways to use it</h2>
+<div class="tw"><table><tr><th>Method</th><th>How it works</th></tr><tr><td>Swagger UI</td><td>Start uvicorn and use /docs to log in and try each module&#x27;s endpoints.</td></tr><tr><td>React dashboard</td><td>Run npm install and npm run dev in frontend/ for a tabbed UI over the same API. Not run in this demo.</td></tr><tr><td>Scripted API calls</td><td>Use any HTTP client, or FastAPI&#x27;s TestClient as I did, to automate scenarios.</td></tr><tr><td>Through an AI assistant</td><td>Open the cloned folder in Claude Code or Gemini CLI and ask it to add a CN code, change a phase-in factor or explain a router.</td></tr></table></div>
+<h2>Sample prompts for your AI assistant</h2><p>Copy, paste and edit the parts in [brackets].</p>
+<ul><li>Explain this repository in plain English: which modules does it have, and which real systems is each one modelled on?</li><li>Walk me through what POST /api/cbam/imports does when I supply actual emissions versus when I do not.</li><li>Add a default emission factor for [CN code and good] to the seed data and show the embedded emissions for [quantity] tonnes from [country].</li><li>Read docs/INDIA_CCTS_SOURCES.md and list which India module facts are verified and which come from secondary reporting.</li><li>Review backend/app/modules/cbam/router.py against the real CBAM rules and list where the prototype simplifies them.</li></ul>
+<h2>Limits and honest caveats</h2>
+<div class="warn"><ul><li>Not legal advice and not a certified compliance tool. The README says all data is illustrative and must not be used for real filings.</li><li>I ran the backend only (seed plus API calls through a test client). The React front end and the trading, credit and verification flows were not run.</li><li>There is no automated test suite in the repo; the checks shown are my own API calls on 19 Oct 2026 against a freshly seeded database.</li><li>The reconcile step adds direct and indirect emissions for every good. Real CBAM treats indirect emissions differently by product; check the regulation before relying on totals.</li><li>Default-value factors and the CBAM phase-in schedule are seeded illustrative values, not official figures.</li><li>The India CCTS module comes from secondary reporting, not gazette text or an official API, per the repo&#x27;s own source notes.</li><li>The README states the demo password openly; this is a local demo only, so never deploy it as is.</li></ul></div>
+<p class="src">Sources: the eu-ets-compliance-platform README, backend source and seed script; backend seeded and exercised through FastAPI&#x27;s test client on 19 October 2026 on a fresh clone with Python 3.11.</p>
+<div id="changelog" class="note">
+<b>Revision history.</b>
+<ul>
+<li><b>v1.0.0</b> &mdash; 19 October 2026 &mdash; first published.</li>
+</ul>
+</div>
+
+
+<style>/* gs-light-lock-v1 */.htueuetsc{--ink:#111!important;--accent:#8a4b08!important;--rule:#e8dcc4!important;--panel:#fdf7ec!important;--good:#1a7a4c!important;--good-soft:#eaf6ef!important;--bad:#a5402c!important;--bad-soft:#fff4f0!important}</style>
+<div data-gs-access-note="1" style="border-left:4px solid #8a4b08;background:rgba(138,75,8,.07);padding:.8em 1em;margin:1.2em 0;border-radius:4px"><b>Repository and data access.</b> Need the GitHub repository or the data files behind this guide? Both are available on request: <a href="https://blog.vertistratsolution.com/p/contact.html">ask through the Contact page</a> and name the guide and what you need.</div>
+<p class="disclaimer" data-gs-ai-disclosure-v1="1"><strong>About this article:</strong> Researched, written and edited by Umashankar Triplicane Dwarakanathan, with AI research assistance; every figure is meant to trace to the primary source cited. See the <a href="https://blog.vertistratsolution.com/p/disclaimer.html">Editorial Policy</a> for how sourcing, AI use and corrections work.</p>
+
+</div>
+
+<div id="gs-idx"></div><script defer="defer" src="https://herrrickshaw.github.io/masaladeutsch/accordion.js"></script>

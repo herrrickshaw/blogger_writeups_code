@@ -1,0 +1,273 @@
+<div class="artx htuevbatt">
+<style>
+/* ---- typography (gs-typo-unify-v1): keep in sync across all posts ---- */
+.htuevbatt{font-family:Georgia,'Times New Roman',serif;line-height:1.6;color:#111}
+.htuevbatt h1,.htuevbatt h2,.htuevbatt h3{line-height:1.3}
+
+/* ---- palette: define every colour as a custom property here. Do not add
+       raw hex elsewhere in a post's <style> block — reference these vars, so
+       a future palette change is a 4-line edit instead of a find-and-replace
+       across every post. ----
+   --ink     #111    body text, light-locked (see below)
+   --accent  #8a4b08  eyebrow text, h2 rule, table header bg, stat numbers —
+                       the one colour that carries this post's "brand"
+   --rule    #e8dcc4  hairline borders, h2 underline, table cell borders
+   --panel   #fdf7ec  stat-card bg, even table rows — the palette's one tint
+*/
+.htuevbatt{--ink:#111;--accent:#8a4b08;--rule:#e8dcc4;--panel:#fdf7ec;--good:#1a7a4c;--good-soft:#eaf6ef;--bad:#a5402c;--bad-soft:#fff4f0}
+
+/* ---- mono-label convention (added 2026-09-17, borrowed from the
+       india-trade-sector-policy-recommendations design system): the eyebrow
+       kicker and the source line read as data-journalism metadata, not
+       article prose, so they get a monospace face — a system stack, not a
+       hosted webfont, so no post gains an extra network request or a
+       flash-of-unstyled-text risk. Body text (h1/p/li/table) keeps the
+       serif — this is a two-place accent, not a font-pairing overhaul. ---- */
+.htuevbatt{--mono:ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace}
+
+/* ---- light lock (gs-light-lock): a dark Blogger theme (and a browser/OS
+       set to prefers-color-scheme:dark) must not repaint text. Re-assert
+       the same values with !important — verified 2026-08-14 across 5 live
+       posts with the browser's colour scheme forced to dark: body/h1/p/table
+       all stayed light-background/dark-text with no low-contrast pairs.
+       Do NOT add selectors here for panels that are meant to be dark —
+       those go in the guard below. ---- */
+.htuevbatt,.htuevbatt p,.htuevbatt li,.htuevbatt td,.htuevbatt th{color:var(--ink)!important}
+.htuevbatt{background:#fff!important}
+
+/* ---- structure: title + subtitle ----
+   .eyebrow    = the small-caps kicker ABOVE the h1 — "Section · Topic ·
+                 Subtopic", sets context before the reader hits the claim
+   h1          = the headline itself. Write it as the CLAIM, not the topic
+                 ("The Rouble Is the Outlier, Not the Dollar" beats
+                 "Currency Trends Update"). font-size 1.5rem is the deliberate
+                 site-wide size — do not bump it per-post.
+   .standfirst = the one/two-sentence SUBTITLE directly under the h1. This is
+                 also what Blogger's snippet extractor and the JSON-LD meta
+                 description both read (see the gs-head-order block below) —
+                 write it as a real, complete sentence a reader could act on,
+                 not a fragment.
+*/
+.htuevbatt .eyebrow{font-size:.8rem;font-weight:700;letter-spacing:.04em;color:var(--accent);text-transform:uppercase;margin:0 0 6px;font-family:var(--mono)}
+.htuevbatt h1{margin:0 0 10px;font-size:1.5rem}
+.htuevbatt .standfirst{font-size:1.05rem;color:#333!important;margin:0 0 18px}
+.htuevbatt .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px;margin:18px 0}
+.htuevbatt .stat{background:var(--panel);border:1px solid var(--rule);border-radius:10px;padding:12px 14px}
+.htuevbatt .stat b{display:block;font-size:1.2rem;color:var(--accent)}
+.htuevbatt .stat span{font-size:.8rem}
+.htuevbatt h2{color:var(--accent);border-bottom:2px solid var(--rule);padding-bottom:6px;margin-top:30px;font-size:1.15rem}
+
+/* ---- tables: units live in the header, cells carry bare numbers.
+       .tw is the mobile-overflow fix — see the MOBILE comment above. ---- */
+.htuevbatt .tw{overflow-x:auto}
+.htuevbatt table{width:100%;border-collapse:collapse;margin:14px 0;font-size:.88rem}
+.htuevbatt th,.htuevbatt td{border:1px solid var(--rule);padding:7px 9px;text-align:right;word-wrap:break-word;overflow-wrap:break-word}
+.htuevbatt th:first-child,.htuevbatt td:first-child{text-align:left}
+.htuevbatt th{background:var(--accent);color:#fff!important;font-weight:600}
+.htuevbatt tr:nth-child(even){background:var(--panel)}
+
+.htuevbatt .note{background:#eef4ff;border-left:4px solid #2a78d6;padding:12px 16px;margin:18px 0;border-radius:0 8px 8px 0;font-size:.93rem}
+.htuevbatt .warn{background:var(--bad-soft);border-left:4px solid var(--bad);padding:12px 16px;margin:18px 0;border-radius:0 8px 8px 0;font-size:.93rem}
+/* ---- .good (added 2026-09-17): third semantic tier alongside .note (neutral
+       framing) and .warn (a caveat/scope limit) — for the case a caveat block
+       would otherwise get stretched to cover: confirming a figure checked out,
+       a correction that resolved cleanly, a claim that survived cross-check.
+       Same shape as .note/.warn on purpose, so all three read as one family. */
+.htuevbatt .good{background:var(--good-soft);border-left:4px solid var(--good);padding:12px 16px;margin:18px 0;border-radius:0 8px 8px 0;font-size:.93rem}
+/* ---- .chip (added 2026-09-17): formalises a labelling pattern several posts
+       already built ad hoc in JS (e.g. "PLI coverage: strong/partial/gap")
+       into one reusable inline component, so a new post doesn't reinvent it.
+       Use inline: <span class="chip chip-good">Strong</span>. ---- */
+.htuevbatt .chip{display:inline-block;font-family:var(--mono);font-size:.72rem;font-weight:700;letter-spacing:.02em;padding:.15rem .5rem;border-radius:99px;line-height:1.5}
+.htuevbatt .chip-good{background:var(--good-soft);color:var(--good)}
+.htuevbatt .chip-warn{background:var(--panel);color:var(--accent)}
+.htuevbatt .chip-bad{background:var(--bad-soft);color:var(--bad)}
+.htuevbatt .src{font-size:.84rem;font-family:var(--mono);border-top:1px solid var(--rule);padding-top:12px;margin-top:24px}
+.htuevbatt .disclaimer{font-size:.82rem;color:#555;margin-top:10px}
+.htuevbatt .revised{font-size:.8rem;color:#555!important;margin:0 0 14px}
+.htuevbatt .revised code{font-family:inherit;background:var(--panel);padding:1px 5px;border-radius:4px}
+</style>
+
+
+<div class="gs-head-order" style="display:flex;flex-direction:column">
+<p class="standfirst" style="order:4">A Python simulation of battery management for scooters, retrofitted cars and buses, plus a NASA battery-data cleaning notebook and a validation suite for six Kaggle datasets. The built-in validation runs on synthetic stand-ins; this post says so plainly. Simulation only, not engineering design.</p>
+<div class="topnav-index-link" style="order:1;font-size:.82em;margin:6px 0 14px"><a href="https://blog.vertistratsolution.com/2026/08/article-index-start-here.html" style="color:#0b5394;text-decoration:none">&#8592; All Articles (Index)</a></div>
+<p class="eyebrow" style="order:2">Open-Source Tools · How-To · Engineering sims</p>
+<h1 style="order:3">How to use ev-battery-management-sim: simulate EV battery packs and test the model on battery datasets</h1>
+</div>
+
+
+<a href="#" id="gs-skip-link" class="gs-skip-link" style="position:absolute;left:-9999px;top:auto;background:#1a1a1a;color:#fff;padding:.6rem 1rem;z-index:1000;border-radius:4px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.85rem">Skip to article content</a>
+<style>.gs-skip-link:focus{left:8px!important;top:8px!important}
+.gs-a11y-bar{display:flex;align-items:center;gap:.55rem;flex-wrap:wrap;background:#f4f5f7;border:1px solid #dfe3e8;border-radius:8px;padding:.55rem .8rem;margin:10px 0 16px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
+.gs-a11y-bar .gs-a11y-label{font-size:.68rem;font-weight:700;letter-spacing:.08em;color:#666;text-transform:uppercase;margin-right:.15rem}
+.gs-a11y-bar button{cursor:pointer;border:1px solid #c7cbd1;background:#fff;color:#1a1a1a;border-radius:5px;padding:.32rem .65rem;font-family:inherit;line-height:1}
+.gs-a11y-bar button.gs-a11y-fs{font-weight:700;min-width:2rem;text-align:center}
+.gs-a11y-bar button.gs-a11y-fs[data-size="sm"]{font-size:.8rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="md"]{font-size:1rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="lg"]{font-size:1.2rem}
+.gs-a11y-bar button.gs-a11y-fs[aria-pressed="true"]{background:#1a1a1a;color:#fff;border-color:#1a1a1a}
+.gs-a11y-bar button:hover{border-color:#8a4b08}
+.gs-a11y-bar button:focus-visible{outline:2px solid #8a4b08;outline-offset:1px}
+.gs-a11y-bar .gs-a11y-sep{width:1px;align-self:stretch;background:#dfe3e8;margin:0 .1rem}</style>
+<div class="gs-a11y-bar" role="group" aria-label="Accessibility controls">
+<span class="gs-a11y-label">Text Size</span>
+<button type="button" class="gs-a11y-fs" data-size="sm" aria-pressed="false" aria-label="Small text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="md" aria-pressed="true" aria-label="Medium text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="lg" aria-pressed="false" aria-label="Large text">A</button>
+<span class="gs-a11y-sep"></span>
+<button type="button" id="gs-a11y-listen" aria-label="Read this article aloud">&#128266; Listen</button>
+<button type="button" id="gs-a11y-stop" aria-label="Stop reading aloud">&#9632; Stop</button>
+</div>
+<script>(function(){
+var KEY='gs-a11y-fontsize', SIZES={sm:'0.92',md:'1',lg:'1.15'};
+function pb(){return document.querySelector('.post-body')||document.querySelector('.artx,.mdrx');}
+function apply(sz){
+  var el=pb(); if(!el||!SIZES[sz]) return;
+  el.style.fontSize=SIZES[sz]+'em';
+  var btns=document.querySelectorAll('.gs-a11y-fs');
+  for(var i=0;i<btns.length;i++){
+    var on=btns[i].getAttribute('data-size')===sz;
+    btns[i].setAttribute('aria-pressed', on?'true':'false');
+  }
+  try{localStorage.setItem(KEY,sz);}catch(e){}
+}
+var fsBtns=document.querySelectorAll('.gs-a11y-fs');
+for(var j=0;j<fsBtns.length;j++){
+  fsBtns[j].addEventListener('click',(function(b){return function(){apply(b.getAttribute('data-size'));};})(fsBtns[j]));
+}
+var saved; try{saved=localStorage.getItem(KEY);}catch(e){}
+apply(saved&&SIZES[saved]?saved:'md');
+
+var listenBtn=document.getElementById('gs-a11y-listen'), stopBtn=document.getElementById('gs-a11y-stop');
+if(listenBtn){
+  listenBtn.addEventListener('click', function(){
+    if(!('speechSynthesis' in window)){ alert('Text-to-speech is not supported in this browser.'); return; }
+    window.speechSynthesis.cancel();
+    var src=pb(); if(!src) return;
+    var clone=src.cloneNode(true);
+    var strip=clone.querySelectorAll('script,style,svg');
+    for(var k=0;k<strip.length;k++){ strip[k].parentNode.removeChild(strip[k]); }
+    var text=clone.textContent.replace(/\s+/g,' ').trim();
+    if(!text) return;
+    var chunks=text.match(/[\s\S]{1,180}(?:[.!?]|$)/g)||[text];
+    var idx=0;
+    function speakNext(){
+      if(idx>=chunks.length) return;
+      var u=new SpeechSynthesisUtterance(chunks[idx]);
+      u.onend=function(){ idx++; speakNext(); };
+      window.speechSynthesis.speak(u);
+    }
+    speakNext();
+  });
+}
+if(stopBtn){
+  stopBtn.addEventListener('click', function(){
+    if('speechSynthesis' in window) window.speechSynthesis.cancel();
+  });
+}
+var skip=document.getElementById('gs-skip-link');
+if(skip){
+  skip.addEventListener('click', function(ev){
+    ev.preventDefault();
+    var h=document.querySelector('.post-body h1')||document.querySelector('.artx h1,.mdrx h1,h1');
+    if(h){ h.setAttribute('tabindex','-1'); h.focus(); h.scrollIntoView(); }
+  });
+}
+})();</script>
+<style>.goog-te-menu-frame{max-width:340px!important;max-height:70vh!important;overflow:auto!important;box-shadow:0 6px 24px rgba(0,0,0,.25)!important}</style>
+<div id="google_translate_element" style="margin:8px 0 16px;"></div><script type="text/javascript">function googleTranslateElementInit(){new google.translate.TranslateElement({pageLanguage:"en",includedLanguages:"hi,bn,ta,te,mr,gu,kn,ml,pa,or,as,ur,sa,ne,sd",layout:google.translate.TranslateElement.InlineLayout.SIMPLE,autoDisplay:false},"google_translate_element");}</script><script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+
+<p class="revised" data-gs-revision-v1="1">Revised
+<time datetime="2026-10-23" itemprop="dateModified">23 October 2026</time>
+&middot; <code>v1.0.0</code> &middot; <a href="#changelog">what changed</a></p>
+
+<style>.htuevbatt pre{background:#f6f3ea!important;color:#111!important;border:1px solid var(--rule);border-radius:8px;padding:10px 12px;overflow-x:auto;font-size:.82rem;line-height:1.45}.htuevbatt pre code{background:none!important;color:#111!important;font-family:var(--mono)}.htuevbatt code{font-family:var(--mono);font-size:.88em}.htuevbatt .vid{position:relative;padding-bottom:56.25%;height:0;margin:16px 0;max-width:100%}.htuevbatt .vid iframe{position:absolute;inset:0;width:100%;height:100%;border:0}</style><div class="stats"><div class="stat"><b>112</b><span>tests passed in 4.2 s</span></div><div class="stat"><b>6</b><span>dataset checks (synthetic stand-ins)</span></div><div class="stat"><b>0.117%</b><span>charge-estimate RMSE (synthetic)</span></div><div class="stat"><b>~200</b><span>cycles to 80% health at demo fade</span></div></div>
+<p>Code: <a href="https://github.com/herrrickshaw/ev-battery-management-sim">github.com/herrrickshaw/ev-battery-management-sim</a></p>
+<h2>Watch the walkthrough</h2>
+<div class="vid"><iframe src="https://www.youtube.com/embed/e5MgJPizoEo" title="How to use ev-battery-management-sim: simulate EV battery packs and test the model on battery datasets" allowfullscreen loading="lazy"></iframe></div><p>Watch on YouTube: <a href="https://youtu.be/e5MgJPizoEo">youtu.be/e5MgJPizoEo</a></p>
+<h2>Why it is useful</h2>
+<ul><li>Who benefits: students, e-mobility analysts and engineers who want a runnable reference of a battery management system (charge estimate, ageing, balancing, thermal limits, fault handling).</li><li>What it replaces: stitching together a cell model, a Kalman filter and a wear model from scratch. The vehicle comparison, degradation, cold-weather and 10-year projection runs are one command each.</li><li>Evidence from the run: 112 tests passed in 4.2 seconds, and the dataset validation printed a five-part report in about 8 seconds on a laptop.</li><li>It also ships a cleaning notebook that turns the NASA battery .mat files into CSVs, which is useful if you download the NASA data yourself.</li></ul>
+<h2>What it is for</h2>
+<p>The bms package models a lithium or lead-acid pack: a two-RC equivalent-circuit cell, an Extended Kalman Filter for state of charge, capacity and resistance fade for state of health, passive balancing, thermal control, power limits and a supervisor that opens the contactor on faults. Run python -m bms.simulation with a flag to see each part.</p>
+<p>It is a teaching and prototyping tool. It is simulation only, not engineering design: do not use it to size or certify a real pack.</p>
+<p><b>Who it is for</b></p>
+<ul><li>Students and engineers learning how a BMS works</li><li>EV and e-mobility analysts who want a runnable reference</li><li>Non-programmers who want an AI assistant to explain each algorithm</li></ul>
+<div class="warn"><b>Not for.</b><ul><li>Running or certifying a real battery pack. This is a conceptual simulation, not firmware and not an engineering design.</li><li>Claiming real-world accuracy from the validation numbers. They come from synthetic data generated to match the schemas of the Kaggle files.</li><li>Predicting the life of a specific real cell.</li></ul></div>
+<h2>What you need</h2>
+<div class="tw"><table><tr><th>Requirement</th><th>Why</th><th>How to get it</th></tr><tr><td>Python 3 with numpy, pandas, pytest</td><td>the library and tests</td><td>pip install numpy pandas pytest. The repo has no requirements.txt, so these were installed by hand</td></tr><tr><td>scipy, matplotlib</td><td>scipy for the NASA notebook, matplotlib for --plot and notebook charts</td><td>pip install scipy matplotlib</td></tr><tr><td>Kaggle account and API token (optional)</td><td>download the six real datasets for the NASA notebook and real validation</td><td>kaggle.com, Account, API token into ~/.kaggle/ then scripts/fetch_kaggle_data.sh. I did not do this.</td></tr><tr><td>Not needed</td><td>no GPU, no hardware</td><td>runs on a laptop</td></tr></table></div>
+<h2>Get the code and an AI assistant</h2>
+<p>You do not have to be a programmer. Get the repository, give it to an AI assistant, and ask in plain language. Any of these routes works:</p>
+<div class="tw"><table><tr><th>Tool</th><th>What you need</th><th>Best for</th></tr><tr><td><b>GitHub</b></td><td>Free account to fork or star; <code>git</code> to clone, or the green <b>Code</b> button, then <b>Download ZIP</b>, or open in <b>Codespaces</b></td><td>Getting the code and keeping up with updates</td></tr><tr><td><b>Claude Code</b></td><td>Claude subscription or API key; run <code>claude</code> inside the cloned folder</td><td>Letting the AI read and run the whole repo</td></tr><tr><td><b>Gemini CLI</b></td><td>Google account; run <code>gemini</code> inside the cloned folder</td><td>The same hands-on workflow with Gemini</td></tr><tr><td><b>Claude.ai, Gemini or ChatGPT in the browser</b></td><td>A chat account; upload <code>README.md</code> and the files you care about (or paste the output of <code>git ls-files</code>)</td><td>Understanding the project and asking questions without installing anything</td></tr><tr><td><b>Other tools</b> (Copilot Chat, Cursor, Codex CLI)</td><td>Open the cloned folder in the tool and point it at <code>README.md</code> first</td><td>Editing and extending the code</td></tr></table></div>
+<pre><code>git clone https://github.com/herrrickshaw/ev-battery-management-sim.git
+cd ev-battery-management-sim
+claude      # or: gemini</code></pre>
+<h2>Install</h2><ol><li>Get the code<pre><code>git clone https://github.com/herrrickshaw/ev-battery-management-sim.git
+cd ev-battery-management-sim</code></pre></li><li>Create an environment and install<pre><code>python3 -m venv .venv &amp;&amp; source .venv/bin/activate
+pip install numpy pandas pytest scipy matplotlib</code></pre></li></ol>
+<h2>Quick start: commands and what you should see</h2>
+<p><b>Run the tests</b></p>
+<pre><code>python -m pytest -q</code></pre>
+<p>112 passed.</p>
+<p><b>Compare the vehicle classes</b></p>
+<pre><code>python -m bms.simulation --vehicle 2W</code></pre>
+<p>A comparison table of the four vehicle classes, then the scooter run.</p>
+<p><b>Run the degradation simulation</b></p>
+<pre><code>python -m bms.simulation --degradation</code></pre>
+<p>Cycle-by-cycle table of capacity and resistance fade for a scooter and a bus.</p>
+<p><b>Run the dataset validation (synthetic)</b></p>
+<pre><code>python -m bms.simulation --datasets</code></pre>
+<p>Six synthetic datasets are generated and a five-part validation report is printed.</p>
+<h2>Sample outputs</h2><p>Real output from a run on the date shown in the sources line; trimmed to fit.</p>
+<p><b>Vehicle comparison table</b></p>
+<pre><code>python -m bms.simulation
+2-Wheeler (Scooter)  LFP        15S1P   48V   1.4 kWh   1.5 kW  CC-CV
+4W Retrofit (PbA)    Lead-Acid  36S1P   72V   9.4 kWh   10 kW   CC-CV-Float
+4W Modern LFP        LFP        32S1P   102V  6.1 kWh   30 kW   CC-CV
+Electric Bus         LFP        128S2P  409V  163.8 kWh 150 kW  CC-CV</code></pre>
+<p>Trimmed columns.</p>
+<p><b>Degradation run, 48 V scooter pack (accelerated model)</b></p>
+<pre><code>python -m bms.simulation --degradation
+Cycle  SOH-Q%  Cap(Ah)  SOH-R%  R0(mOhm)  Status
+  100    90.0    90.0    90.9    2.20     OK
+  200    80.0    80.0    83.3    2.40     OK
+  250    75.0    75.0    80.0    2.50     WARNING
+  300    70.0    70.0    76.9    2.60     WARNING
+EOL at SOH=80.0% : ~200 cycles</code></pre>
+<p>A straight-line fade of 0.1% per cycle; the script itself labels it an accelerated model.</p>
+<p><b>Validation report (synthetic data matching Kaggle schemas)</b></p>
+<pre><code>python -m bms.simulation --datasets
+1. EKF SOC estimation   RMSE 0.117 %   MAE 0.113 %   PASS (target &lt; 3 %)
+2. Capacity fade        SOH RMSE 0.0504 %   fitted fade 0.1001 %/cycle   EOL cycle 199
+3. 2-RC voltage model   RMSE 1.07 mV   MAPE 0.027 %   PASS (target &lt; 20 mV)
+4. RUL estimation       RMSE 4.2 cycles   MAPE 4.28 %
+5. Multi-module health  degraded module [3], avg SOH 85.0 % vs 97.3 %
+NOTE: Results above use synthetic data matching Kaggle dataset schemas.</code></pre>
+<p>Run on 19 October 2026.</p>
+<p><b>NASA battery-life notebook</b></p>
+<pre><code>nasa-battery-life-prediction-dataset-cleaning.ipynb
+Not run. The notebook reads .mat files from /kaggle/input/nasa-battery-dataset, which needs a Kaggle login and download.</code></pre>
+<p>Its cells convert each NASA cycle into a CSV plus a metadata.csv; I read them but did not execute them.</p>
+<h2>Ways to use it</h2>
+<div class="tw"><table><tr><th>Method</th><th>How it works</th></tr><tr><td>Command line</td><td>Flags: --vehicle, --degradation, --cold, --driving, --manufacturers, --datasets, --plot.</td></tr><tr><td>Python import</td><td>Import the bms modules to build your own pack or driving profile.</td></tr><tr><td>Real data</td><td>Download the Kaggle sets with scripts/fetch_kaggle_data.sh and swap them in via bms/datasets/loaders.py.</td></tr><tr><td>Ask an AI assistant</td><td>Have it explain the EKF, or add a new chemistry in bms/chemistries.py.</td></tr></table></div>
+<h2>Sample prompts for your AI assistant</h2><p>Copy, paste and edit the parts in [brackets].</p>
+<ul><li>Claude: Read bms/soc_estimator.py and explain in plain language how the Kalman filter estimates state of charge.</li><li>Gemini: Run python -m bms.simulation --cold and describe at what temperature the first fault appears.</li><li>ChatGPT: I uploaded the output of --datasets. Which of the five checks are circular because the data were generated by the same model?</li><li>GitHub (Copilot Chat): Add a requirements.txt listing numpy, pandas, scipy, matplotlib and pytest, and check the tests still pass.</li><li>Claude: Walk me through the NASA cleaning notebook cell by cell and list what files it produces.</li></ul>
+<h2>Limits and honest caveats</h2>
+<div class="warn"><ul><li>The six &#x27;Kaggle validation&#x27; checks run on synthetic data generated to match the Kaggle file layouts, and the script prints this itself. They are not evidence of accuracy on real cells. Because the fitted fade rate (0.1001 %/cycle) matches the rate used to generate the data, check 2 is partly circular.</li><li>The NASA notebook and real-data validation need Kaggle downloads and credentials; not run here. data/kaggle/ is gitignored.</li><li>No requirements.txt: numpy, pandas, scipy, matplotlib and pytest had to be installed by hand.</li><li>Quirk found: in the distributed-BMS check, module 3 is detected as degraded (SOH 85 % versus 97.3 %) yet &#x27;Degraded alerts&#x27; is 0, so the alert path did not fire for that module.</li><li>Degradation is a linear, accelerated model; the script&#x27;s own label says 0.1 % per cycle is not a real LFP rate.</li><li>This is a conceptual simulation, not engineering design, firmware or a safety case.</li></ul></div>
+<p class="src">Sources: Ran pytest and python -m bms.simulation (default, --degradation, --datasets) from a fresh clone of github.com/herrrickshaw/ev-battery-management-sim (commit b6d37cd) in a throwaway virtualenv on 19 October 2026. The NASA notebook and Kaggle downloads were not run.</p>
+<div id="changelog" class="note">
+<b>Revision history.</b>
+<ul>
+<li><b>v1.0.0</b> &mdash; 23 October 2026 &mdash; first published.</li>
+</ul>
+</div>
+
+
+<style>/* gs-light-lock-v1 */.htuevbatt{--ink:#111!important;--accent:#8a4b08!important;--rule:#e8dcc4!important;--panel:#fdf7ec!important;--good:#1a7a4c!important;--good-soft:#eaf6ef!important;--bad:#a5402c!important;--bad-soft:#fff4f0!important}</style>
+<div data-gs-access-note="1" style="border-left:4px solid #8a4b08;background:rgba(138,75,8,.07);padding:.8em 1em;margin:1.2em 0;border-radius:4px"><b>Repository and data access.</b> Need the GitHub repository or the data files behind this guide? Both are available on request: <a href="https://blog.vertistratsolution.com/p/contact.html">ask through the Contact page</a> and name the guide and what you need.</div>
+<p class="disclaimer" data-gs-ai-disclosure-v1="1"><strong>About this article:</strong> Researched, written and edited by Umashankar Triplicane Dwarakanathan, with AI research assistance; every figure is meant to trace to the primary source cited. See the <a href="https://blog.vertistratsolution.com/p/disclaimer.html">Editorial Policy</a> for how sourcing, AI use and corrections work.</p>
+
+</div>
+
+<div id="gs-idx"></div><script defer="defer" src="https://herrrickshaw.github.io/masaladeutsch/accordion.js"></script>

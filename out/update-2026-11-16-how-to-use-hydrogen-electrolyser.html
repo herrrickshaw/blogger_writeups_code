@@ -1,0 +1,298 @@
+<div class="artx htuhydrog">
+<style>
+/* ---- typography (gs-typo-unify-v1): keep in sync across all posts ---- */
+.htuhydrog{font-family:Georgia,'Times New Roman',serif;line-height:1.6;color:#111}
+.htuhydrog h1,.htuhydrog h2,.htuhydrog h3{line-height:1.3}
+
+/* ---- palette: define every colour as a custom property here. Do not add
+       raw hex elsewhere in a post's <style> block — reference these vars, so
+       a future palette change is a 4-line edit instead of a find-and-replace
+       across every post. ----
+   --ink     #111    body text, light-locked (see below)
+   --accent  #8a4b08  eyebrow text, h2 rule, table header bg, stat numbers —
+                       the one colour that carries this post's "brand"
+   --rule    #e8dcc4  hairline borders, h2 underline, table cell borders
+   --panel   #fdf7ec  stat-card bg, even table rows — the palette's one tint
+*/
+.htuhydrog{--ink:#111;--accent:#8a4b08;--rule:#e8dcc4;--panel:#fdf7ec;--good:#1a7a4c;--good-soft:#eaf6ef;--bad:#a5402c;--bad-soft:#fff4f0}
+
+/* ---- mono-label convention (added 2026-09-17, borrowed from the
+       india-trade-sector-policy-recommendations design system): the eyebrow
+       kicker and the source line read as data-journalism metadata, not
+       article prose, so they get a monospace face — a system stack, not a
+       hosted webfont, so no post gains an extra network request or a
+       flash-of-unstyled-text risk. Body text (h1/p/li/table) keeps the
+       serif — this is a two-place accent, not a font-pairing overhaul. ---- */
+.htuhydrog{--mono:ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace}
+
+/* ---- light lock (gs-light-lock): a dark Blogger theme (and a browser/OS
+       set to prefers-color-scheme:dark) must not repaint text. Re-assert
+       the same values with !important — verified 2026-08-14 across 5 live
+       posts with the browser's colour scheme forced to dark: body/h1/p/table
+       all stayed light-background/dark-text with no low-contrast pairs.
+       Do NOT add selectors here for panels that are meant to be dark —
+       those go in the guard below. ---- */
+.htuhydrog,.htuhydrog p,.htuhydrog li,.htuhydrog td,.htuhydrog th{color:var(--ink)!important}
+.htuhydrog{background:#fff!important}
+
+/* ---- structure: title + subtitle ----
+   .eyebrow    = the small-caps kicker ABOVE the h1 — "Section · Topic ·
+                 Subtopic", sets context before the reader hits the claim
+   h1          = the headline itself. Write it as the CLAIM, not the topic
+                 ("The Rouble Is the Outlier, Not the Dollar" beats
+                 "Currency Trends Update"). font-size 1.5rem is the deliberate
+                 site-wide size — do not bump it per-post.
+   .standfirst = the one/two-sentence SUBTITLE directly under the h1. This is
+                 also what Blogger's snippet extractor and the JSON-LD meta
+                 description both read (see the gs-head-order block below) —
+                 write it as a real, complete sentence a reader could act on,
+                 not a fragment.
+*/
+.htuhydrog .eyebrow{font-size:.8rem;font-weight:700;letter-spacing:.04em;color:var(--accent);text-transform:uppercase;margin:0 0 6px;font-family:var(--mono)}
+.htuhydrog h1{margin:0 0 10px;font-size:1.5rem}
+.htuhydrog .standfirst{font-size:1.05rem;color:#333!important;margin:0 0 18px}
+.htuhydrog .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px;margin:18px 0}
+.htuhydrog .stat{background:var(--panel);border:1px solid var(--rule);border-radius:10px;padding:12px 14px}
+.htuhydrog .stat b{display:block;font-size:1.2rem;color:var(--accent)}
+.htuhydrog .stat span{font-size:.8rem}
+.htuhydrog h2{color:var(--accent);border-bottom:2px solid var(--rule);padding-bottom:6px;margin-top:30px;font-size:1.15rem}
+
+/* ---- tables: units live in the header, cells carry bare numbers.
+       .tw is the mobile-overflow fix — see the MOBILE comment above. ---- */
+.htuhydrog .tw{overflow-x:auto}
+.htuhydrog table{width:100%;border-collapse:collapse;margin:14px 0;font-size:.88rem}
+.htuhydrog th,.htuhydrog td{border:1px solid var(--rule);padding:7px 9px;text-align:right;word-wrap:break-word;overflow-wrap:break-word}
+.htuhydrog th:first-child,.htuhydrog td:first-child{text-align:left}
+.htuhydrog th{background:var(--accent);color:#fff!important;font-weight:600}
+.htuhydrog tr:nth-child(even){background:var(--panel)}
+
+.htuhydrog .note{background:#eef4ff;border-left:4px solid #2a78d6;padding:12px 16px;margin:18px 0;border-radius:0 8px 8px 0;font-size:.93rem}
+.htuhydrog .warn{background:var(--bad-soft);border-left:4px solid var(--bad);padding:12px 16px;margin:18px 0;border-radius:0 8px 8px 0;font-size:.93rem}
+/* ---- .good (added 2026-09-17): third semantic tier alongside .note (neutral
+       framing) and .warn (a caveat/scope limit) — for the case a caveat block
+       would otherwise get stretched to cover: confirming a figure checked out,
+       a correction that resolved cleanly, a claim that survived cross-check.
+       Same shape as .note/.warn on purpose, so all three read as one family. */
+.htuhydrog .good{background:var(--good-soft);border-left:4px solid var(--good);padding:12px 16px;margin:18px 0;border-radius:0 8px 8px 0;font-size:.93rem}
+/* ---- .chip (added 2026-09-17): formalises a labelling pattern several posts
+       already built ad hoc in JS (e.g. "PLI coverage: strong/partial/gap")
+       into one reusable inline component, so a new post doesn't reinvent it.
+       Use inline: <span class="chip chip-good">Strong</span>. ---- */
+.htuhydrog .chip{display:inline-block;font-family:var(--mono);font-size:.72rem;font-weight:700;letter-spacing:.02em;padding:.15rem .5rem;border-radius:99px;line-height:1.5}
+.htuhydrog .chip-good{background:var(--good-soft);color:var(--good)}
+.htuhydrog .chip-warn{background:var(--panel);color:var(--accent)}
+.htuhydrog .chip-bad{background:var(--bad-soft);color:var(--bad)}
+.htuhydrog .src{font-size:.84rem;font-family:var(--mono);border-top:1px solid var(--rule);padding-top:12px;margin-top:24px}
+.htuhydrog .disclaimer{font-size:.82rem;color:#555;margin-top:10px}
+.htuhydrog .revised{font-size:.8rem;color:#555!important;margin:0 0 14px}
+.htuhydrog .revised code{font-family:inherit;background:var(--panel);padding:1px 5px;border-radius:4px}
+</style>
+
+
+<div class="gs-head-order" style="display:flex;flex-direction:column">
+<p class="standfirst" style="order:4">A Python simulation of a hydrogen electrolyser control system: voltage and power setpoints, ramp profiles, inverter frequency, safety limits and a small REST API. This post runs it for real, shows what works and what is broken. Simulation only, not for operating real electrolysers. The repository is archived (read-only).</p>
+<div class="topnav-index-link" style="order:1;font-size:.82em;margin:6px 0 14px"><a href="https://blog.vertistratsolution.com/2026/08/article-index-start-here.html" style="color:#0b5394;text-decoration:none">&#8592; All Articles (Index)</a></div>
+<p class="eyebrow" style="order:2">Open-Source Tools · How-To · Energy &amp; fuels models</p>
+<h1 style="order:3">How to use hydrogen-electrolyser-control: a simulated PEM, AEM and alkaline electrolyser controller</h1>
+</div>
+
+
+<a href="#" id="gs-skip-link" class="gs-skip-link" style="position:absolute;left:-9999px;top:auto;background:#1a1a1a;color:#fff;padding:.6rem 1rem;z-index:1000;border-radius:4px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.85rem">Skip to article content</a>
+<style>.gs-skip-link:focus{left:8px!important;top:8px!important}
+.gs-a11y-bar{display:flex;align-items:center;gap:.55rem;flex-wrap:wrap;background:#f4f5f7;border:1px solid #dfe3e8;border-radius:8px;padding:.55rem .8rem;margin:10px 0 16px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
+.gs-a11y-bar .gs-a11y-label{font-size:.68rem;font-weight:700;letter-spacing:.08em;color:#666;text-transform:uppercase;margin-right:.15rem}
+.gs-a11y-bar button{cursor:pointer;border:1px solid #c7cbd1;background:#fff;color:#1a1a1a;border-radius:5px;padding:.32rem .65rem;font-family:inherit;line-height:1}
+.gs-a11y-bar button.gs-a11y-fs{font-weight:700;min-width:2rem;text-align:center}
+.gs-a11y-bar button.gs-a11y-fs[data-size="sm"]{font-size:.8rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="md"]{font-size:1rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="lg"]{font-size:1.2rem}
+.gs-a11y-bar button.gs-a11y-fs[aria-pressed="true"]{background:#1a1a1a;color:#fff;border-color:#1a1a1a}
+.gs-a11y-bar button:hover{border-color:#8a4b08}
+.gs-a11y-bar button:focus-visible{outline:2px solid #8a4b08;outline-offset:1px}
+.gs-a11y-bar .gs-a11y-sep{width:1px;align-self:stretch;background:#dfe3e8;margin:0 .1rem}</style>
+<div class="gs-a11y-bar" role="group" aria-label="Accessibility controls">
+<span class="gs-a11y-label">Text Size</span>
+<button type="button" class="gs-a11y-fs" data-size="sm" aria-pressed="false" aria-label="Small text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="md" aria-pressed="true" aria-label="Medium text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="lg" aria-pressed="false" aria-label="Large text">A</button>
+<span class="gs-a11y-sep"></span>
+<button type="button" id="gs-a11y-listen" aria-label="Read this article aloud">&#128266; Listen</button>
+<button type="button" id="gs-a11y-stop" aria-label="Stop reading aloud">&#9632; Stop</button>
+</div>
+<script>(function(){
+var KEY='gs-a11y-fontsize', SIZES={sm:'0.92',md:'1',lg:'1.15'};
+function pb(){return document.querySelector('.post-body')||document.querySelector('.artx,.mdrx');}
+function apply(sz){
+  var el=pb(); if(!el||!SIZES[sz]) return;
+  el.style.fontSize=SIZES[sz]+'em';
+  var btns=document.querySelectorAll('.gs-a11y-fs');
+  for(var i=0;i<btns.length;i++){
+    var on=btns[i].getAttribute('data-size')===sz;
+    btns[i].setAttribute('aria-pressed', on?'true':'false');
+  }
+  try{localStorage.setItem(KEY,sz);}catch(e){}
+}
+var fsBtns=document.querySelectorAll('.gs-a11y-fs');
+for(var j=0;j<fsBtns.length;j++){
+  fsBtns[j].addEventListener('click',(function(b){return function(){apply(b.getAttribute('data-size'));};})(fsBtns[j]));
+}
+var saved; try{saved=localStorage.getItem(KEY);}catch(e){}
+apply(saved&&SIZES[saved]?saved:'md');
+
+var listenBtn=document.getElementById('gs-a11y-listen'), stopBtn=document.getElementById('gs-a11y-stop');
+if(listenBtn){
+  listenBtn.addEventListener('click', function(){
+    if(!('speechSynthesis' in window)){ alert('Text-to-speech is not supported in this browser.'); return; }
+    window.speechSynthesis.cancel();
+    var src=pb(); if(!src) return;
+    var clone=src.cloneNode(true);
+    var strip=clone.querySelectorAll('script,style,svg');
+    for(var k=0;k<strip.length;k++){ strip[k].parentNode.removeChild(strip[k]); }
+    var text=clone.textContent.replace(/\s+/g,' ').trim();
+    if(!text) return;
+    var chunks=text.match(/[\s\S]{1,180}(?:[.!?]|$)/g)||[text];
+    var idx=0;
+    function speakNext(){
+      if(idx>=chunks.length) return;
+      var u=new SpeechSynthesisUtterance(chunks[idx]);
+      u.onend=function(){ idx++; speakNext(); };
+      window.speechSynthesis.speak(u);
+    }
+    speakNext();
+  });
+}
+if(stopBtn){
+  stopBtn.addEventListener('click', function(){
+    if('speechSynthesis' in window) window.speechSynthesis.cancel();
+  });
+}
+var skip=document.getElementById('gs-skip-link');
+if(skip){
+  skip.addEventListener('click', function(ev){
+    ev.preventDefault();
+    var h=document.querySelector('.post-body h1')||document.querySelector('.artx h1,.mdrx h1,h1');
+    if(h){ h.setAttribute('tabindex','-1'); h.focus(); h.scrollIntoView(); }
+  });
+}
+})();</script>
+<style>.goog-te-menu-frame{max-width:340px!important;max-height:70vh!important;overflow:auto!important;box-shadow:0 6px 24px rgba(0,0,0,.25)!important}</style>
+<div id="google_translate_element" style="margin:8px 0 16px;"></div><script type="text/javascript">function googleTranslateElementInit(){new google.translate.TranslateElement({pageLanguage:"en",includedLanguages:"hi,bn,ta,te,mr,gu,kn,ml,pa,or,as,ur,sa,ne,sd",layout:google.translate.TranslateElement.InlineLayout.SIMPLE,autoDisplay:false},"google_translate_element");}</script><script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+
+<p class="revised" data-gs-revision-v1="1">Revised
+<time datetime="2026-10-23" itemprop="dateModified">23 October 2026</time>
+&middot; <code>v1.0.0</code> &middot; <a href="#changelog">what changed</a></p>
+
+<style>.htuhydrog pre{background:#f6f3ea!important;color:#111!important;border:1px solid var(--rule);border-radius:8px;padding:10px 12px;overflow-x:auto;font-size:.82rem;line-height:1.45}.htuhydrog pre code{background:none!important;color:#111!important;font-family:var(--mono)}.htuhydrog code{font-family:var(--mono);font-size:.88em}.htuhydrog .vid{position:relative;padding-bottom:56.25%;height:0;margin:16px 0;max-width:100%}.htuhydrog .vid iframe{position:absolute;inset:0;width:100%;height:100%;border:0}</style><div class="stats"><div class="stat"><b>7 of 8</b><span>bundled examples ran to the end</span></div><div class="stat"><b>3</b><span>electrolyser types: PEM, AEM, alkaline</span></div><div class="stat"><b>75.0%</b><span>PEM efficiency at nominal (simulated)</span></div><div class="stat"><b>316 Nm³/h</b><span>impossible H2 rate printed for a 500 W stack</span></div></div>
+<p>Code: <a href="https://github.com/herrrickshaw/hydrogen-electrolyser-control">github.com/herrrickshaw/hydrogen-electrolyser-control</a></p>
+<h2>Watch the walkthrough</h2>
+<div class="vid"><iframe src="https://www.youtube.com/embed/1MpY6jGGDkE" title="How to use hydrogen-electrolyser-control: a simulated PEM, AEM and alkaline electrolyser controller" allowfullscreen loading="lazy"></iframe></div><p>Watch on YouTube: <a href="https://youtu.be/1MpY6jGGDkE">youtu.be/1MpY6jGGDkE</a></p>
+<h2>Why it is useful</h2>
+<ul><li>Who benefits: students and engineers who want a runnable sketch of how an electrolyser controller is structured (setpoints, ramps, safety limits, logging, an API) before touching hardware.</li><li>What it replaces: writing the plumbing yourself. One command compares three electrolyser types and another exposes control over HTTP.</li><li>Evidence from the run: 7 of 8 bundled examples completed; the PEM, AEM and alkaline comparison printed efficiencies of 75.0, 72.0 and 68.0 percent.</li><li>It also shows the limits honestly: I found a crash, a voltage setpoint that is silently clamped, and a production table that is physically wrong. Those are listed below so you do not trust the wrong numbers.</li></ul>
+<h2>What it is for</h2>
+<p>The repository holds a control system for three electrolyser types, an advanced layer with ramp profiles, data logging and safety interlocks, a Flask REST API with a Python client, and eight runnable examples. Everything runs against a software model, not a device.</p>
+<p>Its own validation notes say that every test used synthetic power profiles and that no hardware testing was done. Simulation only, not for operating real electrolysers. The repository is archived, so it will not receive fixes; treat it as a teaching reference.</p>
+<p><b>Who it is for</b></p>
+<ul><li>Students learning how electrolyser control is organised</li><li>Energy analysts who want a toy model to explain ramping and safety limits</li><li>Non-programmers who want an AI assistant to walk through each module</li></ul>
+<div class="warn"><b>Not for.</b><ul><li>Operating, commanding or commissioning a real electrolyser. This is simulation only.</li><li>Sizing, costing or certifying hydrogen plant. It is not an engineering design.</li><li>Quoting its hydrogen production numbers. The production table I ran is physically wrong (see limits).</li></ul></div>
+<h2>What you need</h2>
+<div class="tw"><table><tr><th>Requirement</th><th>Why</th><th>How to get it</th></tr><tr><td>Python 3.7 or newer</td><td>runs the modules</td><td>python.org or your package manager</td></tr><tr><td>Flask, Flask-CORS, numpy, requests</td><td>the REST API and ramp maths</td><td>pip install -r requirements.txt</td></tr><tr><td>Nothing else</td><td>no GPU, no hardware, no accounts</td><td>runs on a laptop in seconds</td></tr></table></div>
+<h2>Get the code and an AI assistant</h2>
+<p>You do not have to be a programmer. Get the repository, give it to an AI assistant, and ask in plain language. Any of these routes works:</p>
+<div class="tw"><table><tr><th>Tool</th><th>What you need</th><th>Best for</th></tr><tr><td><b>GitHub</b></td><td>Free account to fork or star; <code>git</code> to clone, or the green <b>Code</b> button, then <b>Download ZIP</b>, or open in <b>Codespaces</b></td><td>Getting the code and keeping up with updates</td></tr><tr><td><b>Claude Code</b></td><td>Claude subscription or API key; run <code>claude</code> inside the cloned folder</td><td>Letting the AI read and run the whole repo</td></tr><tr><td><b>Gemini CLI</b></td><td>Google account; run <code>gemini</code> inside the cloned folder</td><td>The same hands-on workflow with Gemini</td></tr><tr><td><b>Claude.ai, Gemini or ChatGPT in the browser</b></td><td>A chat account; upload <code>README.md</code> and the files you care about (or paste the output of <code>git ls-files</code>)</td><td>Understanding the project and asking questions without installing anything</td></tr><tr><td><b>Other tools</b> (Copilot Chat, Cursor, Codex CLI)</td><td>Open the cloned folder in the tool and point it at <code>README.md</code> first</td><td>Editing and extending the code</td></tr></table></div>
+<pre><code>git clone https://github.com/herrrickshaw/hydrogen-electrolyser-control.git
+cd hydrogen-electrolyser-control
+claude      # or: gemini</code></pre>
+<h2>Install</h2><ol><li>Get the code (the repository is archived, so you can clone it but not push)<pre><code>git clone https://github.com/herrrickshaw/hydrogen-electrolyser-control.git
+cd hydrogen-electrolyser-control</code></pre></li><li>Create an environment and install<pre><code>python3 -m venv .venv &amp;&amp; source .venv/bin/activate
+pip install -r requirements.txt</code></pre></li></ol>
+<h2>Quick start: commands and what you should see</h2>
+<p><b>Run one example. The menu is interactive, so pipe the choice in</b></p>
+<pre><code>echo 5 | python electrolyser_examples.py</code></pre>
+<p>Three runs (PEM, AEM, alkaline) and a comparison summary.</p>
+<p><b>Run the ramp profile example</b></p>
+<pre><code>echo 4 | python electrolyser_examples.py</code></pre>
+<p>A time series of voltage, power and efficiency as a ramp is applied.</p>
+<p><b>Start the REST API and drive it with curl</b></p>
+<pre><code>python electrolyser_web_api.py PEM 5000
+curl -X POST localhost:5000/api/control/start
+curl -X POST localhost:5000/api/control/voltage -H &#x27;Content-Type: application/json&#x27; -d &#x27;{&quot;voltage&quot;: 45.0}&#x27;
+curl localhost:5000/api/status</code></pre>
+<p>JSON replies. Note the README mentions a /api/production path, but the code serves /api/monitoring/production.</p>
+<p><b>Run example 7 (safety limits) to see the crash</b></p>
+<pre><code>echo 7 | python electrolyser_examples.py</code></pre>
+<p>The limits print, then an AttributeError traceback.</p>
+<h2>Sample outputs</h2><p>Real output from a run on the date shown in the sources line; trimmed to fit.</p>
+<p><b>Comparing the three electrolyser types (example 5)</b></p>
+<pre><code>echo 5 | python electrolyser_examples.py
+Type            Efficiency      H2 (Nm³)        Water (L)
+------------------------------------------------------------
+PEM             75.0%           0.0079           0.0075
+AEM             72.0%           0.0075           0.0083
+ALKALINE        68.0%           0.0071           0.0100
+
+Best Efficiency: PEM (75.0%)
+Best H2 Production: PEM (0.0079 Nm³)</code></pre>
+<p>Efficiencies are the model&#x27;s configured maxima. The hydrogen quantities are for a short simulated run.</p>
+<p><b>A power ramp (example 4, trimmed rows)</b></p>
+<pre><code>echo 4 | python electrolyser_examples.py
+   t=0.0s: V=30.3V, P=1027W, Eff=63.2%
+   t=4.0s: V=37.0V, P=1383W, Eff=64.3%
+   t=8.0s: V=44.5V, P=1987W, Eff=66.2%
+   t=12.0s: V=47.2V, P=3040W, Eff=69.5%
+   t=16.0s: V=47.2V, P=3998W, Eff=72.5%
+   t=18.0s: V=47.2V, P=3998W, Eff=72.5%</code></pre>
+<p>Voltage saturates at 47.2 V while power keeps rising, and efficiency climbs with power.</p>
+<p><b>Production at different power levels (example 8): wrong</b></p>
+<pre><code>echo 8 | python electrolyser_examples.py
+Power(W)     Voltage(V)   Current(A)   Eff(%)     H2(Nm³/h)    O2(Nm³/h)
+------------------------------------------------------------------------------
+500          0.00         0.00         61.6       316.4381     158.2191
+1000         0.00         0.00         63.1       316.4381     158.2191
+2000         0.00         0.00         66.2       316.4381     158.2191
+4000         0.00         0.00         72.5       316.4381     158.2191
+4500         0.00         0.00         74.1       316.4381     158.2191</code></pre>
+<p>The hydrogen rate is the same 316 Nm³/h at 500 W and 4,500 W, and the voltage and current columns are zero. The stack&#x27;s own spec says about 0.95 Nm³/h. Do not use this table.</p>
+<p><b>Safety limits and a crash (example 7)</b></p>
+<pre><code>echo 7 | python electrolyser_examples.py
+PEM Safety Limits:
+  Voltage: 30.0V - 60.0V
+  Current: 10.0A - 150.0A
+  Temperature: 5.0°C - 80.0°C
+  Pressure: 1.0 - 35.0 bar
+   Setting voltage to 45V (normal)...   Safe: True
+   Attempting to set voltage to 65V (exceeds 60.0V limit)...
+   Safe: False
+   Alert: Voltage too high: 65.0V &gt; 60.0V
+AttributeError: &#x27;ElectrolyserControlSystem&#x27; object has no attribute &#x27;safety_monitor&#x27;</code></pre>
+<p>The limit check itself works, then the script fails on a missing attribute.</p>
+<p><b>REST API session</b></p>
+<pre><code>curl against python electrolyser_web_api.py PEM 5077
+POST /api/control/start     -&gt; {&quot;status&quot;:&quot;started&quot;, ...}
+POST /api/control/voltage   -&gt; {&quot;success&quot;:true,&quot;voltage&quot;:45.0}
+GET  /api/status            -&gt; &quot;mode&quot;:&quot;RAMP_UP&quot;, &quot;voltage&quot;:0.0, &quot;power&quot;:0.0,
+                               &quot;safety&quot;:{&quot;alerts&quot;:[],&quot;safe&quot;:true}, &quot;type&quot;:&quot;PEM&quot;
+POST /api/control/stop      -&gt; {&quot;status&quot;:&quot;stopped&quot;, ...}</code></pre>
+<p>The voltage call reports success, yet the status afterwards shows 0.0 V in the RAMP_UP mode.</p>
+<h2>Ways to use it</h2>
+<div class="tw"><table><tr><th>Method</th><th>How it works</th></tr><tr><td>Command line</td><td>Pick an example from the menu or pipe a number into electrolyser_examples.py.</td></tr><tr><td>Python import</td><td>Create an ElectrolyserControlSystem, call start_operation, set_power, ramp_to_power and read status.</td></tr><tr><td>REST API</td><td>Run electrolyser_web_api.py and call it with curl or the ElectrolyserClient class.</td></tr><tr><td>Ask an AI assistant</td><td>Have it explain the PID voltage regulator or fix the broken examples.</td></tr></table></div>
+<h2>Sample prompts for your AI assistant</h2><p>Copy, paste and edit the parts in [brackets].</p>
+<ul><li>Claude: Read electrolyser_control_system.py and explain in plain language how the voltage regulator and the safety monitor work together.</li><li>Gemini: Run example 5 and tell me why the alkaline type produces less hydrogen than PEM in this model.</li><li>ChatGPT: I pasted the output of example 8. Why would the hydrogen rate be identical at 500 W and 4,500 W, and what should the formula depend on?</li><li>GitHub (Copilot Chat): Fix example_safety_monitoring so it no longer calls system.safety_monitor.clear(), and re-run example 7.</li><li>Claude: List every place where the README and the code disagree, for example the production endpoint path.</li></ul>
+<h2>Limits and honest caveats</h2>
+<div class="warn"><ul><li>Simulation only, not for operating real electrolysers. The repository&#x27;s own validation notes say all testing used synthetic power profiles and that no hardware testing was done.</li><li>The repository is archived: no fixes will be merged.</li><li>Example 7 crashes with AttributeError (the control system has no safety_monitor attribute). Examples 1 to 6 and 8 completed.</li><li>Setting 45 V does not take effect in the runs I did: example 1 reports 30.0 V throughout, and the log shows &#x27;Voltage 30.0V out of range&#x27; errors at start-up.</li><li>Example 8 prints 316 Nm³/h of hydrogen at every power level with 0 V and 0 A, which contradicts the 0.95 Nm³/h spec in the same code.</li><li>Example 2 prints many &#x27;Voltage too low&#x27; warnings during the ramp from near zero.</li><li>The README says &#x27;Status: Production Ready&#x27; and quotes performance figures; I did not verify those and the validation notes contradict the readiness claim.</li><li>The examples write log and CSV files into the current folder.</li></ul></div>
+<p class="src">Sources: Cloned github.com/herrrickshaw/hydrogen-electrolyser-control (archived) into a clean folder and ran electrolyser_examples.py choices 1 to 8 and electrolyser_web_api.py in a throwaway virtualenv with Python 3.14 on 23 October 2026. Output is copied from those runs and trimmed. The repository was not modified.</p>
+<div id="changelog" class="note">
+<b>Revision history.</b>
+<ul>
+<li><b>v1.0.0</b> &mdash; 23 October 2026 &mdash; first published.</li>
+</ul>
+</div>
+
+
+<style>/* gs-light-lock-v1 */.htuhydrog{--ink:#111!important;--accent:#8a4b08!important;--rule:#e8dcc4!important;--panel:#fdf7ec!important;--good:#1a7a4c!important;--good-soft:#eaf6ef!important;--bad:#a5402c!important;--bad-soft:#fff4f0!important}</style>
+<div data-gs-access-note="1" style="border-left:4px solid #8a4b08;background:rgba(138,75,8,.07);padding:.8em 1em;margin:1.2em 0;border-radius:4px"><b>Repository and data access.</b> Need the GitHub repository or the data files behind this guide? Both are available on request: <a href="https://blog.vertistratsolution.com/p/contact.html">ask through the Contact page</a> and name the guide and what you need.</div>
+<p class="disclaimer" data-gs-ai-disclosure-v1="1"><strong>About this article:</strong> Researched, written and edited by Umashankar Triplicane Dwarakanathan, with AI research assistance; every figure is meant to trace to the primary source cited. See the <a href="https://blog.vertistratsolution.com/p/disclaimer.html">Editorial Policy</a> for how sourcing, AI use and corrections work.</p>
+
+</div>
+
+<div id="gs-idx"></div><script defer="defer" src="https://herrrickshaw.github.io/masaladeutsch/accordion.js"></script>

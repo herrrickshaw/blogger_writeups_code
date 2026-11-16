@@ -1,0 +1,280 @@
+<div class="artx htufuelre">
+<style>
+/* ---- typography (gs-typo-unify-v1): keep in sync across all posts ---- */
+.htufuelre{font-family:Georgia,'Times New Roman',serif;line-height:1.6;color:#111}
+.htufuelre h1,.htufuelre h2,.htufuelre h3{line-height:1.3}
+
+/* ---- palette: define every colour as a custom property here. Do not add
+       raw hex elsewhere in a post's <style> block — reference these vars, so
+       a future palette change is a 4-line edit instead of a find-and-replace
+       across every post. ----
+   --ink     #111    body text, light-locked (see below)
+   --accent  #8a4b08  eyebrow text, h2 rule, table header bg, stat numbers —
+                       the one colour that carries this post's "brand"
+   --rule    #e8dcc4  hairline borders, h2 underline, table cell borders
+   --panel   #fdf7ec  stat-card bg, even table rows — the palette's one tint
+*/
+.htufuelre{--ink:#111;--accent:#8a4b08;--rule:#e8dcc4;--panel:#fdf7ec;--good:#1a7a4c;--good-soft:#eaf6ef;--bad:#a5402c;--bad-soft:#fff4f0}
+
+/* ---- mono-label convention (added 2026-09-17, borrowed from the
+       india-trade-sector-policy-recommendations design system): the eyebrow
+       kicker and the source line read as data-journalism metadata, not
+       article prose, so they get a monospace face — a system stack, not a
+       hosted webfont, so no post gains an extra network request or a
+       flash-of-unstyled-text risk. Body text (h1/p/li/table) keeps the
+       serif — this is a two-place accent, not a font-pairing overhaul. ---- */
+.htufuelre{--mono:ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace}
+
+/* ---- light lock (gs-light-lock): a dark Blogger theme (and a browser/OS
+       set to prefers-color-scheme:dark) must not repaint text. Re-assert
+       the same values with !important — verified 2026-08-14 across 5 live
+       posts with the browser's colour scheme forced to dark: body/h1/p/table
+       all stayed light-background/dark-text with no low-contrast pairs.
+       Do NOT add selectors here for panels that are meant to be dark —
+       those go in the guard below. ---- */
+.htufuelre,.htufuelre p,.htufuelre li,.htufuelre td,.htufuelre th{color:var(--ink)!important}
+.htufuelre{background:#fff!important}
+
+/* ---- structure: title + subtitle ----
+   .eyebrow    = the small-caps kicker ABOVE the h1 — "Section · Topic ·
+                 Subtopic", sets context before the reader hits the claim
+   h1          = the headline itself. Write it as the CLAIM, not the topic
+                 ("The Rouble Is the Outlier, Not the Dollar" beats
+                 "Currency Trends Update"). font-size 1.5rem is the deliberate
+                 site-wide size — do not bump it per-post.
+   .standfirst = the one/two-sentence SUBTITLE directly under the h1. This is
+                 also what Blogger's snippet extractor and the JSON-LD meta
+                 description both read (see the gs-head-order block below) —
+                 write it as a real, complete sentence a reader could act on,
+                 not a fragment.
+*/
+.htufuelre .eyebrow{font-size:.8rem;font-weight:700;letter-spacing:.04em;color:var(--accent);text-transform:uppercase;margin:0 0 6px;font-family:var(--mono)}
+.htufuelre h1{margin:0 0 10px;font-size:1.5rem}
+.htufuelre .standfirst{font-size:1.05rem;color:#333!important;margin:0 0 18px}
+.htufuelre .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px;margin:18px 0}
+.htufuelre .stat{background:var(--panel);border:1px solid var(--rule);border-radius:10px;padding:12px 14px}
+.htufuelre .stat b{display:block;font-size:1.2rem;color:var(--accent)}
+.htufuelre .stat span{font-size:.8rem}
+.htufuelre h2{color:var(--accent);border-bottom:2px solid var(--rule);padding-bottom:6px;margin-top:30px;font-size:1.15rem}
+
+/* ---- tables: units live in the header, cells carry bare numbers.
+       .tw is the mobile-overflow fix — see the MOBILE comment above. ---- */
+.htufuelre .tw{overflow-x:auto}
+.htufuelre table{width:100%;border-collapse:collapse;margin:14px 0;font-size:.88rem}
+.htufuelre th,.htufuelre td{border:1px solid var(--rule);padding:7px 9px;text-align:right;word-wrap:break-word;overflow-wrap:break-word}
+.htufuelre th:first-child,.htufuelre td:first-child{text-align:left}
+.htufuelre th{background:var(--accent);color:#fff!important;font-weight:600}
+.htufuelre tr:nth-child(even){background:var(--panel)}
+
+.htufuelre .note{background:#eef4ff;border-left:4px solid #2a78d6;padding:12px 16px;margin:18px 0;border-radius:0 8px 8px 0;font-size:.93rem}
+.htufuelre .warn{background:var(--bad-soft);border-left:4px solid var(--bad);padding:12px 16px;margin:18px 0;border-radius:0 8px 8px 0;font-size:.93rem}
+/* ---- .good (added 2026-09-17): third semantic tier alongside .note (neutral
+       framing) and .warn (a caveat/scope limit) — for the case a caveat block
+       would otherwise get stretched to cover: confirming a figure checked out,
+       a correction that resolved cleanly, a claim that survived cross-check.
+       Same shape as .note/.warn on purpose, so all three read as one family. */
+.htufuelre .good{background:var(--good-soft);border-left:4px solid var(--good);padding:12px 16px;margin:18px 0;border-radius:0 8px 8px 0;font-size:.93rem}
+/* ---- .chip (added 2026-09-17): formalises a labelling pattern several posts
+       already built ad hoc in JS (e.g. "PLI coverage: strong/partial/gap")
+       into one reusable inline component, so a new post doesn't reinvent it.
+       Use inline: <span class="chip chip-good">Strong</span>. ---- */
+.htufuelre .chip{display:inline-block;font-family:var(--mono);font-size:.72rem;font-weight:700;letter-spacing:.02em;padding:.15rem .5rem;border-radius:99px;line-height:1.5}
+.htufuelre .chip-good{background:var(--good-soft);color:var(--good)}
+.htufuelre .chip-warn{background:var(--panel);color:var(--accent)}
+.htufuelre .chip-bad{background:var(--bad-soft);color:var(--bad)}
+.htufuelre .src{font-size:.84rem;font-family:var(--mono);border-top:1px solid var(--rule);padding-top:12px;margin-top:24px}
+.htufuelre .disclaimer{font-size:.82rem;color:#555;margin-top:10px}
+.htufuelre .revised{font-size:.8rem;color:#555!important;margin:0 0 14px}
+.htufuelre .revised code{font-family:inherit;background:var(--panel);padding:1px 5px;border-radius:4px}
+</style>
+
+
+<div class="gs-head-order" style="display:flex;flex-direction:column">
+<p class="standfirst" style="order:4">A crawl of 104,945 petrol-pump records from a public API, plus extractors and gap-analysis maps. This post shows the one cleaning step you must do first, and the state-by-state coverage it gives you.</p>
+<div class="topnav-index-link" style="order:1;font-size:.82em;margin:6px 0 14px"><a href="https://blog.vertistratsolution.com/2026/08/article-index-start-here.html" style="color:#0b5394;text-decoration:none">&#8592; All Articles (Index)</a></div>
+<p class="eyebrow" style="order:2">Open-Source Tools · How-To · Energy &amp; fuels models</p>
+<h1 style="order:3">How to use fuel-retail-outlets: see where India&#x27;s petrol pumps are, state by state</h1>
+</div>
+
+
+<a href="#" id="gs-skip-link" class="gs-skip-link" style="position:absolute;left:-9999px;top:auto;background:#1a1a1a;color:#fff;padding:.6rem 1rem;z-index:1000;border-radius:4px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.85rem">Skip to article content</a>
+<style>.gs-skip-link:focus{left:8px!important;top:8px!important}
+.gs-a11y-bar{display:flex;align-items:center;gap:.55rem;flex-wrap:wrap;background:#f4f5f7;border:1px solid #dfe3e8;border-radius:8px;padding:.55rem .8rem;margin:10px 0 16px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
+.gs-a11y-bar .gs-a11y-label{font-size:.68rem;font-weight:700;letter-spacing:.08em;color:#666;text-transform:uppercase;margin-right:.15rem}
+.gs-a11y-bar button{cursor:pointer;border:1px solid #c7cbd1;background:#fff;color:#1a1a1a;border-radius:5px;padding:.32rem .65rem;font-family:inherit;line-height:1}
+.gs-a11y-bar button.gs-a11y-fs{font-weight:700;min-width:2rem;text-align:center}
+.gs-a11y-bar button.gs-a11y-fs[data-size="sm"]{font-size:.8rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="md"]{font-size:1rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="lg"]{font-size:1.2rem}
+.gs-a11y-bar button.gs-a11y-fs[aria-pressed="true"]{background:#1a1a1a;color:#fff;border-color:#1a1a1a}
+.gs-a11y-bar button:hover{border-color:#8a4b08}
+.gs-a11y-bar button:focus-visible{outline:2px solid #8a4b08;outline-offset:1px}
+.gs-a11y-bar .gs-a11y-sep{width:1px;align-self:stretch;background:#dfe3e8;margin:0 .1rem}</style>
+<div class="gs-a11y-bar" role="group" aria-label="Accessibility controls">
+<span class="gs-a11y-label">Text Size</span>
+<button type="button" class="gs-a11y-fs" data-size="sm" aria-pressed="false" aria-label="Small text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="md" aria-pressed="true" aria-label="Medium text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="lg" aria-pressed="false" aria-label="Large text">A</button>
+<span class="gs-a11y-sep"></span>
+<button type="button" id="gs-a11y-listen" aria-label="Read this article aloud">&#128266; Listen</button>
+<button type="button" id="gs-a11y-stop" aria-label="Stop reading aloud">&#9632; Stop</button>
+</div>
+<script>(function(){
+var KEY='gs-a11y-fontsize', SIZES={sm:'0.92',md:'1',lg:'1.15'};
+function pb(){return document.querySelector('.post-body')||document.querySelector('.artx,.mdrx');}
+function apply(sz){
+  var el=pb(); if(!el||!SIZES[sz]) return;
+  el.style.fontSize=SIZES[sz]+'em';
+  var btns=document.querySelectorAll('.gs-a11y-fs');
+  for(var i=0;i<btns.length;i++){
+    var on=btns[i].getAttribute('data-size')===sz;
+    btns[i].setAttribute('aria-pressed', on?'true':'false');
+  }
+  try{localStorage.setItem(KEY,sz);}catch(e){}
+}
+var fsBtns=document.querySelectorAll('.gs-a11y-fs');
+for(var j=0;j<fsBtns.length;j++){
+  fsBtns[j].addEventListener('click',(function(b){return function(){apply(b.getAttribute('data-size'));};})(fsBtns[j]));
+}
+var saved; try{saved=localStorage.getItem(KEY);}catch(e){}
+apply(saved&&SIZES[saved]?saved:'md');
+
+var listenBtn=document.getElementById('gs-a11y-listen'), stopBtn=document.getElementById('gs-a11y-stop');
+if(listenBtn){
+  listenBtn.addEventListener('click', function(){
+    if(!('speechSynthesis' in window)){ alert('Text-to-speech is not supported in this browser.'); return; }
+    window.speechSynthesis.cancel();
+    var src=pb(); if(!src) return;
+    var clone=src.cloneNode(true);
+    var strip=clone.querySelectorAll('script,style,svg');
+    for(var k=0;k<strip.length;k++){ strip[k].parentNode.removeChild(strip[k]); }
+    var text=clone.textContent.replace(/\s+/g,' ').trim();
+    if(!text) return;
+    var chunks=text.match(/[\s\S]{1,180}(?:[.!?]|$)/g)||[text];
+    var idx=0;
+    function speakNext(){
+      if(idx>=chunks.length) return;
+      var u=new SpeechSynthesisUtterance(chunks[idx]);
+      u.onend=function(){ idx++; speakNext(); };
+      window.speechSynthesis.speak(u);
+    }
+    speakNext();
+  });
+}
+if(stopBtn){
+  stopBtn.addEventListener('click', function(){
+    if('speechSynthesis' in window) window.speechSynthesis.cancel();
+  });
+}
+var skip=document.getElementById('gs-skip-link');
+if(skip){
+  skip.addEventListener('click', function(ev){
+    ev.preventDefault();
+    var h=document.querySelector('.post-body h1')||document.querySelector('.artx h1,.mdrx h1,h1');
+    if(h){ h.setAttribute('tabindex','-1'); h.focus(); h.scrollIntoView(); }
+  });
+}
+})();</script>
+<style>.goog-te-menu-frame{max-width:340px!important;max-height:70vh!important;overflow:auto!important;box-shadow:0 6px 24px rgba(0,0,0,.25)!important}</style>
+<div id="google_translate_element" style="margin:8px 0 16px;"></div><script type="text/javascript">function googleTranslateElementInit(){new google.translate.TranslateElement({pageLanguage:"en",includedLanguages:"hi,bn,ta,te,mr,gu,kn,ml,pa,or,as,ur,sa,ne,sd",layout:google.translate.TranslateElement.InlineLayout.SIMPLE,autoDisplay:false},"google_translate_element");}</script><script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+
+<p class="revised" data-gs-revision-v1="1">Revised
+<time datetime="2026-10-29" itemprop="dateModified">29 October 2026</time>
+&middot; <code>v1.0.0</code> &middot; <a href="#changelog">what changed</a></p>
+
+<style>.htufuelre pre{background:#f6f3ea!important;color:#111!important;border:1px solid var(--rule);border-radius:8px;padding:10px 12px;overflow-x:auto;font-size:.82rem;line-height:1.45}.htufuelre pre code{background:none!important;color:#111!important;font-family:var(--mono)}.htufuelre code{font-family:var(--mono);font-size:.88em}.htufuelre .vid{position:relative;padding-bottom:56.25%;height:0;margin:16px 0;max-width:100%}.htufuelre .vid iframe{position:absolute;inset:0;width:100%;height:100%;border:0}</style><div class="stats"><div class="stat"><b>104,945</b><span>unique ids in the 16 Oct 2026 crawl</span></div><div class="stat"><b>82,602</b><span>outlets after removing duplicate rows</span></div><div class="stat"><b>22,343</b><span>duplicate rows removed (21%)</span></div><div class="stat"><b>2.7 vs 11.5</b><span>pumps per 100,000 people: Bihar vs Punjab</span></div></div>
+<p>Code: <a href="https://github.com/herrrickshaw/fuel-retail-outlets">github.com/herrrickshaw/fuel-retail-outlets</a></p>
+<h2>Watch the walkthrough</h2>
+<div class="vid"><iframe src="https://www.youtube.com/embed/_4NBKi2NCGI" title="How to use fuel-retail-outlets: see where India&#x27;s petrol pumps are, state by state" allowfullscreen loading="lazy"></iframe></div><p>Watch on YouTube: <a href="https://youtu.be/_4NBKi2NCGI">youtu.be/_4NBKi2NCGI</a></p>
+<h2>Why it is useful</h2>
+<ul><li>Who benefits: fuel-retail, CNG and EV-charging planners, consultants and students who need a pump-level list of India with location, company and fuel type.</li><li>What it replaces: collecting listings from each oil company&#x27;s locator one by one.</li><li>Evidence from the run: counted naively, Delhi appears to have 21,939 pumps; after removing duplicate rows it has 419. The raw file also holds 22,343 duplicate rows (21.3%). If you skip the cleaning step, every state count is wrong.</li><li>After cleaning, the per-capita view shows a clear spread: Bihar 2.7, West Bengal 2.8 and Jharkhand 3.4 pumps per 100,000 people, against Punjab 11.5 and Haryana 11.3.</li></ul>
+<h2>What it is for</h2>
+<p>This repo collects Indian petrol, diesel and CNG outlet listings from public sources (the SSRI petrol-pump API, the BPCL dealership locator and CashAtPOS), with two small web apps for the map and a coverage gap-analysis heatmap.</p>
+<p>The data is indicative, for planning and visualisation. It is not an official registry. Outlet records are public business listings.</p>
+<p><b>Who it is for</b></p>
+<ul><li>Energy and mobility analysts sizing pump or charger networks</li><li>Students working on India fuel-retail geography</li><li>Anyone who needs a raw outlet list to join with district or population data</li></ul>
+<div class="warn"><b>Not for.</b><ul><li>Regulatory or legal use; it is not an official registry (PPAC publishes the official totals)</li><li>Using raw counts without removing duplicates first</li><li>Real-time prices; the prices in the crawl are a snapshot</li></ul></div>
+<h2>What you need</h2>
+<div class="tw"><table><tr><th>Requirement</th><th>Why</th><th>How to get it</th></tr><tr><td>git and a terminal</td><td>To clone the repo</td><td>Terminal on macOS/Linux, WSL/Git Bash on Windows; or GitHub Codespaces</td></tr><tr><td>Python 3 (standard library only for the steps shown)</td><td>The sample reads a gzipped JSON-lines file</td><td>python.org, or brew install python</td></tr><tr><td>Internet only if you re-crawl</td><td>crawl_ssri.py calls the public API (about 6 minutes, per the repo notes). Not needed for the sample.</td><td>pip install requests, then python api-data-integration/crawl_ssri.py</td></tr><tr><td>API keys, accounts, licences</td><td>None needed for the steps shown</td><td>Nothing to sign up for; the sample commands read files already in the repo</td></tr></table></div>
+<h2>Get the code and an AI assistant</h2>
+<p>You do not have to be a programmer. Get the repository, give it to an AI assistant, and ask in plain language. Any of these routes works:</p>
+<div class="tw"><table><tr><th>Tool</th><th>What you need</th><th>Best for</th></tr><tr><td><b>GitHub</b></td><td>Free account to fork or star; <code>git</code> to clone, or the green <b>Code</b> button, then <b>Download ZIP</b>, or open in <b>Codespaces</b></td><td>Getting the code and keeping up with updates</td></tr><tr><td><b>Claude Code</b></td><td>Claude subscription or API key; run <code>claude</code> inside the cloned folder</td><td>Letting the AI read and run the whole repo</td></tr><tr><td><b>Gemini CLI</b></td><td>Google account; run <code>gemini</code> inside the cloned folder</td><td>The same hands-on workflow with Gemini</td></tr><tr><td><b>Claude.ai, Gemini or ChatGPT in the browser</b></td><td>A chat account; upload <code>README.md</code> and the files you care about (or paste the output of <code>git ls-files</code>)</td><td>Understanding the project and asking questions without installing anything</td></tr><tr><td><b>Other tools</b> (Copilot Chat, Cursor, Codex CLI)</td><td>Open the cloned folder in the tool and point it at <code>README.md</code> first</td><td>Editing and extending the code</td></tr></table></div>
+<pre><code>git clone https://github.com/herrrickshaw/fuel-retail-outlets.git
+cd fuel-retail-outlets
+claude      # or: gemini</code></pre>
+<h2>Install</h2><ol><li>Clone the repository (needs git)<pre><code>git clone https://github.com/herrrickshaw/fuel-retail-outlets.git
+cd fuel-retail-outlets</code></pre></li><li>Nothing to install for the sample below. For the web apps, serve a folder with Python<pre><code>cd fuel-station-gap-analysis &amp;&amp; python3 -m http.server 8001</code></pre></li></ol>
+<h2>Quick start: commands and what you should see</h2>
+<p><b>Load the committed crawl and deduplicate it the way the repo&#x27;s notes describe</b></p>
+<pre><code>python3 -I - &lt;&lt;&#x27;E&#x27;
+import gzip,json,collections
+p=&#x27;api-data-integration/outlet_data_ssri_complete/ssri_pumps_raw_20261016.jsonl.gz&#x27;
+rows=[json.loads(l) for l in gzip.open(p,&#x27;rt&#x27;) if l.strip()]
+k={}
+for r in rows:
+    key=(r[&#x27;name&#x27;],r[&#x27;address&#x27;],r[&#x27;company&#x27;],r[&#x27;latitude&#x27;],r[&#x27;longitude&#x27;])
+    if key not in k or r[&#x27;id&#x27;]&gt;k[key][&#x27;id&#x27;]: k[key]=r
+u=list(k.values())
+print(len(rows),len(u),len(rows)-len(u))
+print(collections.Counter(r[&#x27;company&#x27;] for r in u).most_common(5))
+E</code></pre>
+<p>104945 82602 22343, then the company counts: BPCL 25,795, HPCL 23,543, IOCL 19,446, Nayara 9,007, Unknown 2,504.</p>
+<p><b>Open the gap-analysis heatmap</b></p>
+<pre><code>cd fuel-station-gap-analysis &amp;&amp; python3 -m http.server 8001</code></pre>
+<p>Visit http://localhost:8001 to see the state-level heatmap. The page loads its map tiles from the internet. I did not open it in this run.</p>
+<h2>Sample outputs</h2><p>Real output from a run on the date shown in the sources line; trimmed to fit.</p>
+<p><b>Why you must deduplicate: Delhi, raw versus cleaned</b></p>
+<pre><code>raw rows with state == &#x27;Delhi&#x27;  : 21,939
+  of which district &#x27;New Delhi&#x27; : 21,572, all IOCL-heavy
+  sitting on only 57 distinct coordinates (3,986 identical rows on each of several points)
+after dedup (name+address+company+lat+lon): 419</code></pre>
+<p>The repo&#x27;s own notes (SSRI_REEXTRACTION_20260712.md) document this; the 16 Oct 2026 file is still raw, so you have to apply the step yourself. My dedup gives 82,602; the note&#x27;s earlier snapshot gave 82,609.</p>
+<p><b>Pumps per 100,000 people by state (cleaned; state populations from the repo&#x27;s gap-analysis data.js)</b></p>
+<pre><code>state             pumps   per 100k people   per 1000 km2
+Uttar Pradesh      8,915        4.5              37.0
+Maharashtra        7,317        6.5              23.8
+Tamil Nadu         5,812        8.1              44.7
+Madhya Pradesh     5,320        7.3              17.3
+Karnataka          5,268        8.6              27.5
+-- lowest (states with 100+ pumps) --
+Delhi                419        2.5             282.5
+Bihar              2,779        2.7              29.5
+West Bengal        2,522        2.8              28.4
+Jharkhand          1,109        3.4              13.9
+Assam              1,108        3.6              14.1
+-- highest --
+Arunachal Pradesh    201       14.6              2.4
+Punjab             3,204       11.5              63.6
+Haryana            2,855       11.3              64.6
+Telangana          3,609       10.3              32.2</code></pre>
+<p>Delhi&#x27;s low per-capita number reflects a dense city counted against its whole population and is not a real gap; read the table as a starting screen, not a verdict.</p>
+<p><b>Data-quality check on state names</b></p>
+<pre><code>state values in the raw file: 53 spellings
+unmatched to the 35 states in data.js after dedup: 10,532 of 82,602 outlets
+  &#x27;unknown&#x27; (all Nayara): 9,007
+  &#x27;Jharkand&#x27;: 593, &#x27;Jammu And Kashmir&#x27;: 333, &#x27;Jammu &amp; Kashmir&#x27;: 230 ...
+matched: 72,070</code></pre>
+<p>Only the matched outlets feed the table above, so the table understates states with spelling variants (I mapped Jharkand, Uttrakhand and Jammu variants) and cannot place Nayara&#x27;s 9,007 outlets by state at all.</p>
+<h2>Ways to use it</h2>
+<div class="tw"><table><tr><th>Method</th><th>How it works</th></tr><tr><td>Python / pandas</td><td>Read the .jsonl.gz, deduplicate, then group by state, district or company.</td></tr><tr><td>Web maps</td><td>Serve fuel-pump-locations-map or fuel-station-gap-analysis with python3 -m http.server.</td></tr><tr><td>Re-crawl</td><td>Run api-data-integration/crawl_ssri.py for a fresh snapshot (not run here).</td></tr><tr><td>Through an AI assistant</td><td>Open the folder in Claude Code or Gemini CLI and ask it to deduplicate the crawl and rank states; or upload README.md and REBUILD_NOTE.md to a chat assistant.</td></tr></table></div>
+<h2>Sample prompts for your AI assistant</h2><p>Copy, paste and edit the parts in [brackets].</p>
+<ul><li>Claude: Read REBUILD_NOTE.md and SSRI_REEXTRACTION_20260712.md, then write a script that deduplicates the crawl and prints pumps per state.</li><li>Gemini: Using the crawl, find the ten districts with the most CNG pumps and explain how you handled spelling variants of state names.</li><li>ChatGPT: Here is a table of pumps per 100,000 people by state. Which states look under-served and which numbers are probably artefacts?</li><li>GitHub (Copilot Chat or Codespaces): Write a function that normalises the 53 state spellings in the crawl to one canonical name per state or UT.</li><li>Claude: Compare the deduplicated total with the PPAC baseline described in PPAC_RETAIL_OUTLETS_MAY2026.md and explain the gap.</li><li>Any assistant: Suggest how to join this outlet list with district population to find gaps for EV charging.</li></ul>
+<h2>Limits and honest caveats</h2>
+<div class="warn"><ul><li>Raw data contains about 21% duplicate rows; always deduplicate. In the 16 Oct 2026 file Delhi shows 21,939 rows before cleaning and 419 after.</li><li>Even after cleaning, 82,602 outlets compares with a PPAC official baseline of 103,450 (May 2026) in the repo&#x27;s notes, so coverage is roughly 80%.</li><li>State names are inconsistent (53 spellings) and all 9,007 Nayara outlets have state &#x27;unknown&#x27;, so state tables miss them unless you geocode by coordinates.</li><li>Population figures in the gap-analysis data.js are older census-based numbers; per-capita values are indicative.</li><li>Not an official registry. Prices and timings are a snapshot.</li><li>The README refers to files removed in the LFS-free rebuild (derived maps and unified DB); they must be regenerated by the scripts. I did not run the extractors, web apps or any network call; only the committed crawl was read.</li></ul></div>
+<p class="src">Sources: Read the committed crawl api-data-integration/outlet_data_ssri_complete/ssri_pumps_raw_20261016.jsonl.gz and fuel-station-gap-analysis/data.js from github.com/herrrickshaw/fuel-retail-outlets (commit 266995b) with the Python standard library on 19 October 2026. Outlet names and addresses were not reproduced; only aggregates are shown. Extractors, web apps and network crawl not run.</p>
+<div id="changelog" class="note">
+<b>Revision history.</b>
+<ul>
+<li><b>v1.0.0</b> &mdash; 29 October 2026 &mdash; first published.</li>
+</ul>
+</div>
+
+
+<style>/* gs-light-lock-v1 */.htufuelre{--ink:#111!important;--accent:#8a4b08!important;--rule:#e8dcc4!important;--panel:#fdf7ec!important;--good:#1a7a4c!important;--good-soft:#eaf6ef!important;--bad:#a5402c!important;--bad-soft:#fff4f0!important}</style>
+<div data-gs-access-note="1" style="border-left:4px solid #8a4b08;background:rgba(138,75,8,.07);padding:.8em 1em;margin:1.2em 0;border-radius:4px"><b>Repository and data access.</b> Need the GitHub repository or the data files behind this guide? Both are available on request: <a href="https://blog.vertistratsolution.com/p/contact.html">ask through the Contact page</a> and name the guide and what you need.</div>
+<p class="disclaimer" data-gs-ai-disclosure-v1="1"><strong>About this article:</strong> Researched, written and edited by Umashankar Triplicane Dwarakanathan, with AI research assistance; every figure is meant to trace to the primary source cited. See the <a href="https://blog.vertistratsolution.com/p/disclaimer.html">Editorial Policy</a> for how sourcing, AI use and corrections work.</p>
+
+</div>
+
+<div id="gs-idx"></div><script defer="defer" src="https://herrrickshaw.github.io/masaladeutsch/accordion.js"></script>
