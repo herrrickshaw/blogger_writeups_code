@@ -1,0 +1,42 @@
+{
+ "top": [
+  ["94%", " of GIFT IFSC's FY2024-25 insurance premium is reinsurance, not direct insurance."],
+  ["$2.54M", " of direct life insurance premium was written across the whole year."]
+ ],
+ "sections": [
+  {"h2": "Reinsurance is 94% of GIFT IFSC's FY2024-25 insurance book",
+   "chart": {"type": "bars",
+             "title": "Reinsurance premium dwarfs direct premium written in GIFT IFSC",
+             "sub": "Premium written in FY2024-25, $ million, summed across four quarters.",
+             "source": "IFSCA quarterly statistical bulletin, Jan-Mar 2025 edition (unaudited).",
+             "unit": "$M",
+             "accent": "Reinsurance premium",
+             "rows": [["Direct premium", 12.42], ["Reinsurance premium", 195.45]]},
+   "means": "Reinsurance is the overwhelming share of the centre's insurance business, while direct insurance is a small sideline.",
+   "todo": "Describe GIFT IFSC as a reinsurance centre rather than an offshore insurance hub until direct business grows.",
+   "numbers": {"table": "T1"}},
+  {"h2": "Direct premium peaked at $3.96M in Oct-Dec 2024 and never passed $4M",
+   "chart": {"type": "bars",
+             "title": "Direct premium stayed between $2.42M and $3.96M in every quarter",
+             "sub": "Direct premium written by IFSC Insurance Offices per quarter, $ million.",
+             "source": "IFSCA quarterly statistical bulletin, Jan-Mar 2025 edition (unaudited).",
+             "unit": "$M",
+             "accent": "Oct–Dec 2024",
+             "table": {"id": "T1", "label": 0, "value": 1, "rows": "top:4"}},
+   "means": "Direct premium is small and uneven from quarter to quarter, not a steady retail build-up.",
+   "todo": "Track direct premium quarter by quarter in the regulator's later bulletins before calling the direct segment growing.",
+   "numbers": {"table": "T1"}},
+  {"h2": "Reinsurance premium ran $44.54M to $58.15M in every quarter",
+   "chart": {"type": "bars",
+             "title": "Reinsurance premium is the bulk of premium in each quarter of FY2024-25",
+             "sub": "Reinsurance premium written by IFSC Insurance Offices per quarter, $ million.",
+             "source": "IFSCA quarterly statistical bulletin, Jan-Mar 2025 edition (unaudited).",
+             "unit": "$M",
+             "accent": "Jan–Mar 2025",
+             "table": {"id": "T1", "label": 0, "value": 2, "rows": "top:4"}},
+   "means": "Reinsurance drives the centre's insurance volume every quarter, though the Jan-Mar 2025 figure is understated by a printed footnote.",
+   "todo": "Check the Jan-Mar 2025 reinsurance figure against the regulator's revised data before quoting its exact size.",
+   "numbers": {"table": "T1"}}
+ ],
+ "derived": {}
+}

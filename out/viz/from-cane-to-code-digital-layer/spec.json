@@ -1,0 +1,137 @@
+{
+ "top": [
+  [
+   "19.2%",
+   " ethanol blending in ESY2024-25, up from 1.5% in ESY2013-14; the partial 2025-26 year touched 20.0%."
+  ],
+  [
+   "₹1.47 lakh crore",
+   " paid to farmers through the ethanol value chain, against ₹1.67 lakh crore in forex saved, per government figures."
+  ],
+  [
+   "4–8%",
+   " ethanol yield gain from AI fermentation control is a vendor-reported claim, not an audited result."
+  ]
+ ],
+ "sections": [
+  {
+   "h2": "Blending rose from 1.5% in 2013-14 to 19.2% in 2024-25",
+   "chart": {
+    "type": "bars",
+    "title": "E20 was touched in 2025-26, five years ahead of the 2030 target",
+    "sub": "Blending rate by Ethanol Supply Year, %.",
+    "source": "KPMG & ChiniMandi, June 2026, citing the India Climate & Energy Dashboard and NITI Aayog.",
+    "unit": "%",
+    "accent": "2025-26 (partial, to March)",
+    "ref": [
+     20,
+     "20% = E20 blend"
+    ],
+    "table": {
+     "id": "T1",
+     "label": 0,
+     "value": 2,
+     "rows": "top:7"
+    }
+   },
+   "means": "Blending climbed from 1.5% to 19.2% over the decade, with E20 reached in a partial 2025-26 year.",
+   "todo": "Publish the full-year ESY2025-26 blending figure to replace the partial-year reading before treating E20 as settled.",
+   "numbers": {
+    "table": "T1"
+   }
+  },
+  {
+   "h2": "Government credits the programme with ₹1.47 lakh crore paid to farmers",
+   "chart": {
+    "type": "bars",
+    "title": "Cumulative forex saved and farmer payments are of similar size",
+    "sub": "Cumulative government figures, ESY2014-15 to January 2026, ₹ lakh crore.",
+    "source": "Government of India, Rajya Sabha reply, 9 March 2026, as cited by KPMG & ChiniMandi.",
+    "unit": "₹ lakh crore",
+    "accent": "Forex saved",
+    "rows": [
+     [
+      "Forex saved",
+      1.67,
+      "to January 2026"
+     ],
+     [
+      "Paid to farmers",
+      1.47,
+      "value chain, to January 2026"
+     ]
+    ]
+   },
+   "means": "Both government totals are cumulative to January 2026 and are reported figures, not independently audited.",
+   "todo": "Reconcile the differing forex totals in the sources before quoting any one of them."
+  },
+  {
+   "h2": "AI claims lift ethanol yield 4–8% and cut farm water use 20–30%, unaudited",
+   "chart": {
+    "type": "bars",
+    "title": "Every AI gain is a vendor or trade-press claim, none independently audited",
+    "sub": "Reported gains by application, 2026, %. Steam and water rows are reductions, shown as positive ranges.",
+    "source": "ChiniMandi, 2026; BioEnergy Times interview with Findability Sciences, 2026.",
+    "unit": "%",
+    "accent": "Ethanol yield from same molasses, fermentation control (370 KLPD distillery)",
+    "rows": [
+     [
+      "Sugar recovery (percentage points), AI co-pilot in boiling/pan house (Maharashtra mill)",
+      [
+       0.5,
+       1.2
+      ]
+     ],
+     [
+      "Steam use cut, same boiling/pan-house deployment",
+      [
+       5,
+       15
+      ]
+     ],
+     [
+      "Ethanol yield from same molasses, fermentation control (370 KLPD distillery)",
+      [
+       4,
+       8
+      ]
+     ],
+     [
+      "Steam use cut, distillation column optimisation",
+      [
+       8,
+       15
+      ]
+     ],
+     [
+      "Margin from optimised feedstock routing (juice vs molasses)",
+      [
+       2,
+       3
+      ]
+     ],
+     [
+      "Farm yield, AI advisory (Super 50 AI Farmers, Jalna district)",
+      [
+       10,
+       20
+      ]
+     ],
+     [
+      "Farm water use cut, satellite-guided precision irrigation",
+      [
+       20,
+       30
+      ]
+     ]
+    ]
+   },
+   "means": "Reported gains range from a 4–8% ethanol yield lift to 20–30% less farm water use, all from vendors or trade press.",
+   "todo": "Ask the mills and pilot growers for their own before-and-after data before quoting any of these gains as results.",
+   "numbers": {
+    "table": "T2"
+   }
+  }
+ ],
+ "derived": {}
+}

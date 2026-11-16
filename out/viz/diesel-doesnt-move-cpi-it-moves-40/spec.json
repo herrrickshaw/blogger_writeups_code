@@ -1,0 +1,43 @@
+{
+ "top": [
+  ["+0.11", " correlation between diesel wholesale growth and CPI headline growth, FY2012–FY2026: no measurable pass-through at annual frequency."],
+  ["₹40", " per litre gap between direct-sales and retail diesel is pulling bulk buyers to the pump."]
+ ],
+ "sections": [
+  {"h2": "Diesel barely tracks retail inflation: r = +0.11 against headline CPI",
+   "chart": {"type":"bars", "title":"Only the wholesale link is strong; diesel against retail CPI is near zero",
+             "sub":"Pearson r of year-on-year growth, April anchor, FY2012–FY2026.",
+             "source":"DPIIT Office of the Economic Adviser (WPI, 2011-12 = 100); MoSPI (CPI); author's calculation.",
+             "unit":"r", "accent":"Diesel vs CPI headline",
+             "table":{"id":"T1","label":0,"value":1,"rows":"top:5","sort":"desc"}},
+   "means": "Diesel tracks the wholesale index almost perfectly but shows no measurable link to headline retail inflation at annual frequency.",
+   "todo": "Test pass-through at monthly frequency and control for crude before treating the freight-to-inflation story as settled.",
+   "numbers": {"table":"T1"}},
+  {"h2": "Private diesel sales fell 34.7% in May 2026 while public-sector sales rose 6.9%",
+   "chart": {"type":"bars", "title":"Private marketers' May diesel sales fell 34.7% on the year before",
+             "sub":"Diesel sales growth, May 2026 against May 2025, %.",
+             "source":"PPAC, Industry Consumption Report POL & NG, May 2026.",
+             "unit":"%", "accent":"Private OMCs",
+             "rows":[["PSU OMCs",6.9],["Private OMCs",-34.7]]},
+   "means": "The ₹40 gap between direct-sales and retail diesel draws bulk buyers to the pump and cuts private marketers' volume sharply.",
+   "todo": "Close the tax wedge on commercial fleet fuel while converting those fleets to gas, rather than cutting the retail diesel price.",
+   "numbers": {"table":"T2"}},
+  {"h2": "Every freight indicator grew faster than diesel demand's 1.6% in May 2026",
+   "chart": {"type":"bars", "title":"Freight activity grew several times faster than diesel burn",
+             "sub":"Year-on-year growth, May 2026, %.",
+             "source":"PPAC Industry Consumption Report, May 2026, drawing on GSTN, FADA and ipa.nic.in.",
+             "unit":"%", "accent":"Diesel consumption",
+             "table":{"id":"T3","label":0,"value":1,"rows":"top:5","sort":"desc"}},
+   "means": "Freight proxies ran well ahead of diesel consumption, a gap the post leaves as an open question rather than explaining away.",
+   "todo": "Establish what else is carrying freight before attributing the gap to rail or efficiency."},
+  {"h2": "CNG costs 26% less per km than diesel in a sedan and 25% less in an SUV",
+   "chart": {"type":"bars", "title":"CNG's modelled running cost is 25–26% below diesel for both car segments",
+             "sub":"Modelled running cost, CNG against diesel, %. Delhi, July 2026 basis.",
+             "source":"vehicle_fuel_mileage model on 303 ARAI-certified SIAM declarations; author's calculation.",
+             "unit":"%", "accent":"Sedan",
+             "rows":[["Sedan",-26],["Compact SUV",-25]]},
+   "means": "On the modelled four-wheeler basis CNG is cheaper per kilometre than diesel, but the figures are for passenger cars only.",
+   "todo": "Build a commercial-fleet cost model with bulk CNG pricing and real duty-cycle data before extending the switching case to trucks and buses."}
+ ],
+ "derived": {}
+}

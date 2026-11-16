@@ -1,0 +1,42 @@
+{
+ "top": [
+  ["0.29%", " of India's tea crop would match everything Japan grinds into matcha in a year, so volume is not the constraint."],
+  ["46%", " of the Japanese tencha price is what India's first commercial matcha lot fetched, at ₹3,000/kg."]
+ ],
+ "sections": [
+  {"h2": "Matching Japan's matcha would take 0.29% of India's tea and 0.58% of Assam's",
+   "chart": {"type": "bars",
+             "title": "Japan's whole matcha output needs just 0.58% of Assam's tea crop",
+             "sub": "Share of the national or state tea crop needed to match Japan's matcha output, %.",
+             "source": "Tea Board; MAFF via trade press; computed in the post.",
+             "unit": "%",
+             "accent": "Share of Assam's crop",
+             "rows": [["Share of India's crop", 0.29], ["Share of Assam's crop", 0.58]]},
+   "means": "Volume is not the constraint: about four million kg of matcha needs under one per cent of India's tea crop.",
+   "todo": "Plant Camellia sinensis cultivars selected for matcha rather than shading existing assamica bushes, since cultivar is the real constraint.",
+   "numbers": {"table": "T2"}},
+  {"h2": "Tencha auction price doubled to ₹6,539/kg, and India's first lot sold at 46% of it",
+   "chart": {"type": "bars",
+             "title": "India's first matcha lot sold at under half the Japanese tencha price",
+             "sub": "Rupee-equivalent price per kilo, 2026.",
+             "source": "MAFF via trade press; Chota Tingrai Tea Estate auction result.",
+             "unit": "₹/kg",
+             "accent": "India's first lot",
+             "ref": [6539, "Japanese tencha auction price, 2026"],
+             "rows": [["Tencha auction, 2026", 6539, "¥10,843/kg"], ["India's first lot", 3000, "5 kg, 3 July 2026"]]},
+   "means": "Auction prices roughly doubled in 2026, and India's first commercial lot fetched ₹3,000/kg, about 46 per cent of the tencha price.",
+   "todo": "Decide early whether India sells matcha as an ingredient commodity or builds a grade and origin claim, since that branding choice is hard to reverse.",
+   "numbers": {"table": "T1"}},
+  {"h2": "Powdered green tea now makes up 69% of Japan's green tea exports by weight",
+   "chart": {"type": "bars",
+             "title": "Powdered green tea is now 69% of Japan's green tea exports",
+             "sub": "Japan green tea exports, 2025, tonnes.",
+             "source": "MAFF via trade press.",
+             "unit": "t",
+             "accent": "Powdered green tea",
+             "rows": [["Powdered green tea", 8718], ["All green tea exports", 12612]]},
+   "means": "The powdered category that was once a ceremonial niche is now most of Japan's green tea export volume.",
+   "todo": "Treat bulk powder as the export format to plan for, since powdered tea is already the bulk of Japan's green tea trade."}
+ ],
+ "derived": {}
+}

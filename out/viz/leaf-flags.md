@@ -59,3 +59,24 @@ Unverified leads from the rewrite agents: each needs a human check against the p
 - `indias-military-quantum-plan-has-four`: the 2024-25 "budget 427 / revised 86" and "released 43.07" conflict with the separate 62.36 actual-spending analysis; the 1,460-1,740 range is rounded from 1,463 and 1,741.
 - `fbil-rates-vs-tradestat-volumes-does-fx`: section 3 calls Russia "5th by import value"; it is 3rd (55,363.11 vs UAE 63,888.81 and China 131,620.29).
 - `doubling-indias-csr-profit-trigger`: the 3.1% compares a 2025-26 estimate with 2024-25 spend (the post flags it).
+
+## Wave 17 (16 Nov 2026)
+- `indias-trade-story-has-three-big-wins`: the body's "5.9%" combined H1 growth is a blend the post says it did not re-derive; the dated updates replace the H1 FY26 figures with full-year and Apr-Sep 2026 data.
+- `textile-hsn-deep-dive-apparel-vs-mmf`: "207 notified codes" against "later expanded by +32 codes" is ambiguous; "Packtech 44% of the market" does not say which market.
+- `indias-epr-regime-just-got-teeth-and`: the annual-return deadline "just twelve days later" than 19 January could not be verified from the post.
+- `japan-ran-out-of-matcha-assam-just-sold`: 1,370 million kg / 4 million kg is 342.5, post says 342; tin per-kg values (Rs 97,994, Rs 22,614) do not exactly match the stated yen rate.
+- `five-open-source-control-simulators-for`: cell-guardian's comparison table shows 1.4 kWh for the scooter while its detail block prints 4.8 kWh (100 Ah); EMG online agreement 88.2% in the run against 89% in the README.
+- `the-price-and-tap-two-levers-behind`: takeaway says "roughly Rs 6 lakh crore" of CRR+OMO+swaps, but the table's figures sum to about Rs 7.3 lakh crore.
+- `pli-medical-devices-coverage-and-gaps`: dated notes cite 28 projects and Rs 1,094 crore, the July 2026 reply gives 27 projects and Rs 1,153.07 crore; section 0 says the SMDI window is "live since June 2026" but the 12 October note says it closed 23 July.
+- `two-open-source-health-prototypes-icu`: the worked example has 582 usable and 131 duplicate frames, which gives 451, not the 455 "to review".
+- `iem-conversion-historical-performance`: post calls 2024 the "best year on record" while the partial 2025 row runs higher (109.9%); the FDI comparison mixes calendar and fiscal years.
+- `indias-fertiliser-import-bill-hits-18`: thermal-parity link says 10% of an ~$85/bbl basket is $7.86/MMBtu, but 10% of $85 is $8.50.
+- `nano-urea-works-as-supplement-and-fails`: post says "the trials agree it works at a quarter substitution" but the Punjab trial tested only 50%.
+- `india-built-offshore-insurance-hub-it`: update note cites FY2025-26 figures, the body uses only FY2024-25 and says Jul-Sep 2025 is the latest it used.
+- `india-hit-e20-on-maize-and-rice-not`: "a fifth of India's petrol blend" treats 22.25% of allocated volume as a share of the blend.
+- `diesel-doesnt-move-cpi-it-moves-40`: "lost a third in a single year" is May only (-34.7%); "three to seven times faster" is loose (4.5/1.6 is about 2.8).
+- `south-africa-lost-its-gulf-fuel-supply`: T1 product rows sum to 1,883 against a 1,882 total (rounding); "roughly 6,000 nautical miles" is unverifiable from the post.
+- `jai-kisan-jai-javan-fci-based-military`: Rs 300 crore sourcing total against ~Rs 11 crore output; 4.1M units at a Rs 44 saving is ~Rs 18 crore a year, not the Rs 4.5 crore shown; Rs 8.51 crore 5-year net does not match the table lines (~Rs 10-14 crore); 18 months from Aug 2026 lands ~Feb 2028, not July 2027.
+- `from-cane-to-code-digital-layer`: forex total is Rs 1.97 lakh crore in the top bullet but Rs 1.67 lakh crore in the body; sources also cite Rs 1.90 lakh crore.
+- `epfos-pay-ceiling-rose-to-25000-after`: top callout says Rs 14,500, body says Rs 14,520 (CPI arithmetic matches 14,520).
+- `rooftop-solar-is-working-household`: "under eight days" per lakh households conflicts with 3.16 lakh in May 2026 (about 10 days per lakh).

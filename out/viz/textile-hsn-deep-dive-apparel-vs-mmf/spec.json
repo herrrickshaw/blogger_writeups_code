@@ -1,0 +1,41 @@
+{
+ "top": [
+  ["~43%", " of India's ~US$37 bn textile and apparel exports is apparel (HS Ch 61 and 62), the single largest category."],
+  ["~33%", " of the Apr–Oct FY25 export basket was cotton textiles, against ~15% for man-made textiles."]
+ ],
+ "sections": [
+  {"h2": "Apparel is about 43% of India's textile and apparel exports, led by woven Chapter 62",
+   "chart": {"type": "bars",
+             "title": "Woven (Ch 62) and knitted (Ch 61) apparel together make up the US$16 bn category",
+             "sub": "India's apparel exports by HS chapter, FY2024-25, US$ bn.",
+             "source": "DGCI&S, as cited in the post.",
+             "unit": "US$ bn",
+             "accent": "Woven, Ch 62",
+             "rows": [["Woven, Ch 62 (shirts, trousers, dresses)", 8.3, "~US$8.3 bn"], ["Knitted, Ch 61 (T-shirts, jerseys)", 7.7, "~US$7.7 bn"]]},
+   "means": "Apparel is the single largest textile and apparel category, and it is built on cotton-skewed woven and knitted lines.",
+   "todo": "Track the US and EU export shares, which the post puts at 28.5% and 19.6%, as the main tariff exposure for FY26.",
+   "numbers": {"table": "T2"}},
+  {"h2": "Cotton textiles hold a larger export share than man-made textiles, about 33% to 15%",
+   "chart": {"type": "bars",
+             "title": "Cotton textiles hold a larger export share than man-made textiles in Apr–Oct FY25",
+             "sub": "Share of the export basket, %, Apr–Oct FY25.",
+             "source": "DGCI&S, as cited in the post.",
+             "unit": "%",
+             "accent": "Cotton textiles",
+             "ref": [0, "Share of the Apr–Oct FY25 export basket"],
+             "rows": [["Cotton textiles", 33, "~33%"], ["Man-made textiles", 15, "~15%"]]},
+   "means": "Cotton textiles were ~33% of the Apr–Oct FY25 export basket against ~15% for man-made textiles, even though man-made fibres are about 70% of fibre consumption.",
+   "todo": "Track the synthetic-fibre lines the post lists, such as 610323, 610333 and 610343, as the place where India's cotton skew shows up."},
+  {"h2": "Technical textiles are 12–15% of India's value chain, against ~50% in advanced economies",
+   "chart": {"type": "bars",
+             "title": "Technical textiles are 12–15% of India's value chain against ~50% in advanced economies",
+             "sub": "Technical textiles as a share of the textile value chain, %.",
+             "source": "As cited in the post.",
+             "unit": "%",
+             "accent": "India",
+             "rows": [["India", [12, 15], "12–15%"], ["Advanced economies", 50, "~50%"]]},
+   "means": "India holds only 4–5% of the global technical-textiles market, and the post ties the gap to specialty fibres and technology it must import.",
+   "todo": "Judge the NTTM and PLI schemes by whether they close the specialty-fibre import gap in the high-value segments."}
+ ],
+ "derived": {}
+}

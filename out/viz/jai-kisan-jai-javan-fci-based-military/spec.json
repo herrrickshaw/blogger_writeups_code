@@ -1,0 +1,16 @@
+{"top": [["62%", " lower unit cost claimed for FCI-based rations, ₹71 down to ₹27 per unit."], ["50%", " of the sourcing plan runs through FCI itself, the largest of five channels."], ["53g", " daily protein target, against the 8-12g claimed for today's rations."]],
+ "sections": [
+  {"h2": "FCI-based rations would cost 62% less per unit than private vendor rations",
+   "chart": {"type": "bars", "title": "The proposed FCI route cuts unit cost from ₹71 to ₹27 on the deck's own figures", "sub": "Cost per ration unit, ₹.", "source": "Jai Kisan, Jai Javan strategy deck (proposal, unverified).", "unit": "₹", "accent": "FCI-based (proposed)", "rows": [["Private vendor (current)", 71, "Current"], ["FCI-based (proposed)", 27, "Proposed"]]},
+   "means": "The deck's own table puts the proposed FCI route at ₹27 per unit against ₹71 for private vendors, a 62% cut.",
+   "todo": "Ask the proposers to show how the ₹71 to ₹27 unit cost is derived before the ₹2.85 Cr Year-1 setup budget is approved."},
+  {"h2": "The FCI channel carries 50% of the sourcing plan, the largest of five routes",
+   "chart": {"type": "bars", "title": "FCI takes ₹150 Cr of the ₹300 Cr procurement, ahead of State Boards at ₹60 Cr", "sub": "Procurement value by channel, ₹ Cr.", "source": "Jai Kisan, Jai Javan strategy deck (proposal).", "unit": "₹ Cr", "accent": "FCI", "rows": [["FCI", 150, "50% share"], ["State Boards", 60, "20% share"], ["APMC/Direct", 45, "15% share"], ["NAFED", 30, "10% share"], ["SFAC/FPO", 15, "5% share"]]},
+   "means": "Half of the ₹300 Cr value runs through FCI, but the deck does not say whether ₹300 Cr is an annual or cumulative figure.",
+   "todo": "Direct the coordination across State Boards, APMC, NAFED and FPOs only once the ₹300 Cr total is shown year by year."},
+  {"h2": "Soya mock meat matches fish curry's 16g protein per serving at ₹32 against ₹48",
+   "chart": {"type": "bars", "title": "Animal-protein pouches top the protein chart, but soya reaches 16g for less", "sub": "Protein per serving, g.", "source": "Jai Kisan, Jai Javan strategy deck (proposal).", "unit": "g", "accent": "Soya mock meat", "table": {"id": "T3", "label": 0, "value": 1, "rows": "top:10", "sort": "desc"}},
+   "means": "Soya mock meat at ₹32 a pouch gives the same 16g as fish curry at ₹48, which suggests the protein target need not rely on non-vegetarian rations.",
+   "todo": "Run the tasting and field campaigns the deck proposes with soya and animal-protein pouches side by side before full rollout."}
+ ],
+ "derived": {}}

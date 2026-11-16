@@ -1,0 +1,94 @@
+{
+ "top": [
+  [
+   "₹78,000",
+   "central subsidy is the most a household gets, reached at 3 kW, so bigger systems earn no more."
+  ],
+  [
+   "3.16 lakh",
+   "rooftop installations in May 2026, the strongest month since the scheme launched."
+  ],
+  [
+   "₹0",
+   "central subsidy for a household battery, while grid-scale storage is backed."
+  ]
+ ],
+ "sections": [
+  {
+   "h2": "The subsidy rises in slabs to 3 kW, then stays at ₹78,000",
+   "chart": {
+    "type": "bars",
+    "title": "The subsidy stops growing at 3 kW, so bigger systems get no more",
+    "sub": "Central financial assistance per system, ₹.",
+    "source": "PM Surya Ghar Muft Bijli Yojana central financial assistance slabs.",
+    "unit": "₹",
+    "accent": "3 kW and above",
+    "table": {
+     "id": "T1",
+     "label": 0,
+     "value": 1,
+     "rows": "top:3"
+    }
+   },
+   "means": "The central subsidy is a fixed slab, so a 5 kW or 10 kW household receives the same ₹78,000 as a 3 kW one.",
+   "todo": "Check any vendor quote against the slab table, since the post notes that many quotes misstate the subsidy.",
+   "numbers": {
+    "table": "T1"
+   }
+  },
+  {
+   "h2": "Installations hit 3.16 lakh in May 2026, the strongest month yet",
+   "chart": {
+    "type": "flow",
+    "title": "Pace has risen: one lakh households now takes under eight days",
+    "events": [
+     [
+      "February 2024",
+      "PM Surya Ghar: Muft Bijli Yojana launches"
+     ],
+     [
+      "20 March 2026",
+      "9,566.89 MW of rooftop capacity added"
+     ],
+     [
+      "May 2026",
+      "3.16 lakh installations, the strongest month since launch",
+      true
+     ],
+     [
+      "December 2026",
+      "Near-term target of 75 lakh households"
+     ]
+    ]
+   },
+   "means": "Installations have accelerated, with the time to add one lakh households falling from 118 days to under eight.",
+   "todo": "Track the December 2026 target of 75 lakh households against the monthly installation pace."
+  },
+  {
+   "h2": "Rooftop under one scheme is about 8% of India's solar fleet",
+   "chart": {
+    "type": "bars",
+    "title": "Rooftop under one scheme is roughly a twelfth of the national solar fleet",
+    "sub": "Installed solar capacity, GW.",
+    "source": "Post figures: rooftop capacity May 2026; national solar fleet FY2025-26.",
+    "unit": "GW",
+    "accent": "Rooftop under PM Surya Ghar",
+    "rows": [
+     [
+      "Rooftop under PM Surya Ghar",
+      12,
+      "about 12 GW, May 2026"
+     ],
+     [
+      "Total solar fleet",
+      150.26,
+      "FY2025-26"
+     ]
+    ]
+   },
+   "means": "Rooftop under this single scheme already makes up about 8% of all solar capacity in the country, built in about two years.",
+   "todo": "Track the next rooftop capacity reading against the 150.26 GW fleet figure to see whether that share keeps growing."
+  }
+ ],
+ "derived": {}
+}

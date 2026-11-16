@@ -1,0 +1,18 @@
+{"top": [["16–19%", " yield penalty in IFFCO's own funded rice trial when nitrogen was cut by half and replaced with nano urea sprays."], ["25%", " is the nano dose the Fertiliser Control Order now allows, cut from 50% on 9 March 2026."], ["-35%", " grain protein in the Punjab rice trial at 50% substitution, the least-tracked result."]],
+ "sections": [
+  {"h2": "At half substitution, Punjab rice and wheat lost 13% and 17.2% of yield",
+   "chart": {"type": "bars", "title": "Grain protein fell further than yield in both crops", "sub": "Change against the 100% recommended nitrogen dose, %.", "source": "Punjab Agricultural University, December 2024.", "unit": "%", "accent": "Rice protein", "rows": [["Rice yield", -13], ["Wheat yield", -17.2], ["Rice protein", -35], ["Wheat protein", -24]]},
+   "means": "Both crops lost yield and grain protein when half the nitrogen was replaced by nano urea sprays.",
+   "todo": "Treat grain protein as a required outcome in any substitution trial before the protocol is promoted again.",
+   "numbers": {"table": "T1"}},
+  {"h2": "IFFCO's own funded trial also found a 16–19% yield penalty at half nitrogen",
+   "chart": {"type": "bars", "title": "Both trials show yield losses of 13 to 19 per cent at half nitrogen", "sub": "Yield loss against the 100% recommended nitrogen dose, %.", "source": "Punjab Agricultural University, December 2024; Frontiers in Sustainable Food Systems, April 2026.", "unit": "%", "accent": "IFFCO-funded rice, 50% N", "rows": [["Punjab rice, 50% substitution", 13], ["Punjab wheat, 50% substitution", 17.2], ["IFFCO-funded rice, 50% N", [16, 19]]]},
+   "means": "The manufacturer's own funded trial reaches the same 16–19% yield penalty at 50% nitrogen as the university trial.",
+   "todo": "Confirm whether a 25% substitution holds yield outside the two rice sites tested before any higher dose is allowed.",
+   "numbers": {"table": "T2"}},
+  {"h2": "The Fertiliser Control Order halved the nano dose to 25% in March 2026",
+   "chart": {"type": "flow", "events": [["July 2025", "Agriculture Minister requests legal action against coercive nano-fertiliser sales"], ["13 February 2026", "Ministry mandates fresh bio-efficacy trials across 12 major crops"], ["9 March 2026", "Nano dose cut from 50% to 25% of nutrient requirement", true], ["13 March 2026", "No forced sale of nano fertilisers by tagging them to other fertilisers"]]},
+   "means": "The 9 March amendment moved the official protocol from the level both trials show fails to the level they show works.",
+   "todo": "Track sales volumes after the 13 March tagging ban to test whether demand for nano urea was ever real."}
+ ],
+ "derived": {}}

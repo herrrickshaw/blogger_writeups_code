@@ -1,0 +1,92 @@
+{
+ "top": [
+  [
+   "$18bn",
+   " projected fertiliser import bill this fiscal year, a record and a 76% jump on the year before."
+  ],
+  [
+   "90%",
+   " of urea's production cost is natural gas, and only 26% of that gas is sourced domestically."
+  ]
+ ],
+ "sections": [
+  {
+   "h2": "India imports 100% of its potash and 95% of its phosphate requirements",
+   "chart": {
+    "type": "bars",
+    "title": "Import dependence is near total for potash and phosphate",
+    "sub": "Share of requirement, %; the gas rows show the urea link.",
+    "source": "PRS Legislative Research, summary of Standing Committee on Chemicals and Fertilisers report, 1 December 2025.",
+    "unit": "%",
+    "accent": "India's import dependence for potash requirements",
+    "table": {
+     "id": "T1",
+     "label": 0,
+     "value": 1,
+     "rows": "top:4",
+     "sort": "desc"
+    }
+   },
+   "means": "The committee puts India's import dependence at 100% for potash and 95% for phosphate.",
+   "todo": "What to do: back the committee's call for long-term supply agreements and joint ventures for phosphate and potash.",
+   "numbers": {
+    "table": "T1"
+   }
+  },
+  {
+   "h2": "Urea's cost is 90% natural gas, and 74% of that gas is not domestic",
+   "chart": {
+    "type": "bars",
+    "title": "Most of urea's gas cost is not sourced at home",
+    "sub": "Shares, %; the not-domestic share is 100 minus the domestic 26.",
+    "source": "PRS Legislative Research, summary of Standing Committee on Chemicals and Fertilisers report, 1 December 2025.",
+    "unit": "%",
+    "accent": "Natural gas share of urea cost",
+    "rows": [
+     [
+      "Natural gas share of urea cost",
+      90
+     ],
+     [
+      "Domestic share of that gas",
+      26
+     ],
+     [
+      "Gas not sourced domestically",
+      74
+     ]
+    ]
+   },
+   "means": "Natural gas makes up 90% of urea's production cost, and only 26% of that gas is sourced domestically.",
+   "todo": "What to do: rework India's gas procurement mechanism to secure steady supply at competitive prices, as the committee recommends."
+  },
+  {
+   "h2": "27 of 33 operating urea plants are more than 25 years old",
+   "chart": {
+    "type": "bars",
+    "title": "27 of 33 operating urea plants are more than 25 years old",
+    "sub": "Count of operational urea plants.",
+    "source": "PRS Legislative Research, summary of Standing Committee on Chemicals and Fertilisers report, 1 December 2025.",
+    "unit": "plants",
+    "accent": "Urea plants over 25 years old",
+    "rows": [
+     [
+      "Urea plants over 25 years old",
+      27,
+      "of 33 operational"
+     ],
+     [
+      "Other operational urea plants",
+      6
+     ]
+    ]
+   },
+   "means": "The committee says the sector needs a technology transition within five years.",
+   "todo": "What to do: set up the dedicated task force the committee proposes to upgrade, modernise and revive these plants."
+  }
+ ],
+ "derived": {
+  "74": "100-26",
+  "6": "33-27"
+ }
+}

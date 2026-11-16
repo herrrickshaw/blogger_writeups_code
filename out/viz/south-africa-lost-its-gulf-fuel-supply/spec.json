@@ -1,0 +1,39 @@
+{
+ "top": [
+  ["−32.6%", " fall in India's refined-fuel exports to South Africa in FY2025-26, before the Gulf supply stopped."],
+  ["165,000 t", " of US refined fuel landed at Durban in April 2026 alone, replacing Gulf supply."]
+ ],
+ "sections": [
+  {"h2": "India's refined-fuel sales to South Africa were already falling before the Gulf cut",
+   "chart": {"type": "bars",
+             "title": "Refined-fuel exports to South Africa fell 32.6% in one year, before the crisis",
+             "sub": "Refined-petroleum exports to South Africa, US$ million (HS 2710).",
+             "source": "DGCI&S TRADESTAT.",
+             "unit": "US$ mn",
+             "accent": "FY2025-26",
+             "rows": [["FY2024-25", 2793], ["FY2025-26", 1882]]},
+   "means": "India's refined-fuel sales to South Africa fell 32.6% in FY2025-26, a fall that predates the Hormuz disruption.",
+   "todo": "Obtain volume data for this market before judging whether India lost barrels or only value, since TRADESTAT returned no quantities.",
+   "numbers": {"table": "T1"}},
+  {"h2": "The pump-price formula is indexed to three markets, none of them Indian",
+   "chart": {"type": "bars",
+             "title": "Each pricing leg uses Mediterranean, Singapore or Arabian Gulf quotes, not Indian",
+             "sub": "Reference-market weights in the Basic Fuel Price, %.",
+             "source": "DMPR, Fuel Price Structure.",
+             "unit": "%",
+             "accent": "Diesel: Arabian Gulf",
+             "rows": [["Petrol: Mediterranean", 50], ["Petrol: Singapore", 50], ["Diesel: Mediterranean", 50], ["Diesel: Arabian Gulf", 50]]},
+   "means": "South Africa prices imported fuel off Mediterranean, Singapore and Arabian Gulf quotes, so India has no leg in the formula.",
+   "todo": "Seek an Indian assessment in the Basic Fuel Price basket while the formula is under review."},
+  {"h2": "Replacement tankers came from the United States, the farther supplier",
+   "chart": {"type": "flow",
+             "title": "Durban took US fuel in April 2026 while Indian sales had already fallen",
+             "events": [
+               ["FY2025-26", "Indian refined-fuel exports to South Africa fall 32.6% on the year"],
+               ["April 2026", "About 165,000 t of US refined fuel lands at Durban, which takes about 80% of imports", true]
+             ]},
+   "means": "Reported replacement cargoes for Durban came from the United States, even though India is roughly 6,000 nautical miles closer by sea.",
+   "todo": "Check South African trade data from April 2026 onward before claiming India captured none of the gap."}
+ ],
+ "derived": {}
+}

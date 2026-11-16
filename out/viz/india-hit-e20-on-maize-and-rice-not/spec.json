@@ -1,0 +1,94 @@
+{
+ "top": [
+  [
+   "45.68%",
+   " of allocated ethanol volume in ESY 2025-26 is maize, up from 6.2% in ESY 2022-23."
+  ],
+  [
+   "59%",
+   " of the ethanol capacity distillers offered was allocated; 728 crore litres found no buyer."
+  ],
+  [
+   "72.47%",
+   " of the allocation is grain-based, against 27.52% from cane."
+  ]
+ ],
+ "sections": [
+  {
+   "h2": "Grain now supplies 72.47% of allocated ethanol, cane 27.52%",
+   "chart": {
+    "type": "bars",
+    "title": "Surplus FCI rice outsupplies direct sugarcane juice, 22.25% against 15.82%",
+    "sub": "Share of allocated ethanol volume, ESY 2025-26 cycle 1, %.",
+    "source": "OMC allocation for ESY 2025-26 cycle 1, as reported by ChiniMandi.",
+    "unit": "%",
+    "accent": "Surplus FCI rice",
+    "table": {
+     "id": "T1",
+     "label": 0,
+     "value": 1,
+     "rows": "top:6",
+     "sort": "desc"
+    }
+   },
+   "means": "Grain-based feedstocks carry nearly three quarters of the allocated volume, so cane is now the minority supplier.",
+   "todo": "Track the FCI rice release price and the mechanism that decides how much rice goes to distilleries rather than the public distribution system.",
+   "numbers": {
+    "table": "T1"
+   }
+  },
+  {
+   "h2": "Maize rose from 6.2% to 45.68% of ethanol feedstock in three supply years",
+   "chart": {
+    "type": "bars",
+    "title": "Maize's share of ethanol feedstock climbed from 6.2% to 45.68% in three years",
+    "sub": "Maize share of allocated ethanol volume, %.",
+    "source": "Original post; OMC allocation for ESY 2025-26 cycle 1, as reported by ChiniMandi.",
+    "unit": "%",
+    "accent": "ESY 2025-26",
+    "rows": [
+     [
+      "ESY 2022-23",
+      6.2
+     ],
+     [
+      "ESY 2025-26",
+      45.68
+     ]
+    ]
+   },
+   "means": "Maize moved from a marginal feedstock to the largest one in three supply years, driven by availability rather than by a maize-specific programme.",
+   "todo": "Watch maize acreage and imports, since a domestic shortfall would turn import substitution into an import line."
+  },
+  {
+   "h2": "Distillers offered 1,776 crore litres, and 1,048 were allocated",
+   "chart": {
+    "type": "bars",
+    "title": "Allocation covered 59% of offered capacity, leaving 728 crore litres unbought",
+    "sub": "Ethanol volume for ESY 2025-26 cycle 1, crore litres.",
+    "source": "Original post; OMC allocation for ESY 2025-26 cycle 1, as reported by ChiniMandi.",
+    "unit": "crore litres",
+    "accent": "Unbought",
+    "rows": [
+     [
+      "Offered",
+      1776
+     ],
+     [
+      "Allocated",
+      1048
+     ],
+     [
+      "Unbought",
+      728
+     ]
+    ]
+   },
+   "means": "Distillers have more capacity than oil companies are buying, so the marginal plant now competes for an allocation rather than being courted for output.",
+   "todo": "Watch whether the 728 crore litres of idle capacity drives a push for a higher blending mandate before any feedstock question arises."
+  }
+ ],
+ "derived": {
+  "728": "1776-1048"
+ }
+}

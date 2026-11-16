@@ -1,0 +1,34 @@
+{
+ "top": [
+  ["105bp", " of the 125bp of RBI rate cuts reached fresh-loan lending rates, unusually high pass-through for India."],
+  ["₹3.5 lakh crore", " of OMO bond purchases in Dec 2025–Jan 2026 alone, the largest window in the cycle."]
+ ],
+ "sections": [
+  {"h2": "Fresh-loan rates fell 105bp of the 125bp cut, high pass-through by Indian standards",
+   "chart": {"type":"bars", "title":"Borrowers got most of the 125bp cut because liquidity was engineered",
+             "sub":"Basis points, as reported in the post.", "source":"Reserve Bank of India; post's own figures.",
+             "unit":"bp", "accent":"Fresh-loan lending rates (WALR) fall",
+             "rows":[["Policy repo cut (6.50% → 5.25%)",125],["Fresh-loan lending rates (WALR) fall",105]]},
+   "means": "The 125bp of cuts reached fresh borrowers as 105bp, which the post calls unusually high pass-through for India.",
+   "todo": "Judge the 7 October 2026 hike by the window operations that follow it, not by the repo move alone."
+  },
+  {"h2": "CRR, OMO and swaps carried the liquidity, with bond buying the largest at ₹3.5 lakh crore",
+   "chart": {"type":"bars", "title":"Bond buying alone, at ₹3.5 lakh crore, was the largest window in 2025-26",
+             "sub":"Approximate scale of each injection, ₹ lakh crore, as reported.", "source":"Reserve Bank of India; post's own figures.",
+             "unit":"₹ lakh crore", "accent":"OMO purchases",
+             "rows":[["CRR cut (4% → 3%)",2.5,"~₹2.5 lakh crore"],["OMO purchases",3.5,"₹3.5 lakh crore"],["Long-term forex swaps",1.3,"~₹1.3 lakh crore"]]},
+   "means": "The post names the CRR cut, OMO purchases and forex swaps as the delivery mechanism that let the repo cut transmit.",
+   "todo": "Track these window totals against FX intervention, since the post says FX sales were undoing the CRR release.",
+   "numbers": {"table":"T1"}
+  },
+  {"h2": "The RBI's corridor is only 50bp wide, so the overnight rate signal is precise",
+   "chart": {"type":"bars", "title":"Three policy rates sit 25bp apart, keeping the overnight rate tight",
+             "sub":"Policy rates after the 7 October 2026 decision, %.", "source":"Reserve Bank of India; post's own figures.",
+             "unit":"%", "accent":"Policy Repo",
+             "rows":[["SDF (floor)",5.25],["Policy Repo (signal rate)",5.50],["MSF / Bank Rate (ceiling)",5.75]]},
+   "means": "The corridor is only 50bp wide, and the Bank Rate moves automatically with the repo rather than as an independent lever.",
+   "todo": "Watch how hard the RBI uses its VRRR window, since that decides how much of the 7 October hike reaches borrowers."
+  }
+ ],
+ "derived": {}
+}
