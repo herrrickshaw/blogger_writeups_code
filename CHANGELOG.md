@@ -20726,3 +20726,16 @@ scheduled sync
 **Added**
 
 - `learning-ai-for-free-youtube-channels` **v1.0.0** — Learning AI for free: YouTube channels, courses and tools by purpose (23,966 bytes)
+
+## 2026-11-16T10:08:09+00:00 — 508 posts live
+
+scheduled sync
+
+
+**Versions**
+
+- `learning-ai-for-free-youtube-channels` **1.0.0 → 1.0.1** (PATCH) — visible text identical; only markup/styling changed
+
+**Changed**
+
+- `learning-ai-for-free-youtube-channels` — 23,966 → 24,085 bytes (+119)

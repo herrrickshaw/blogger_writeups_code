@@ -3,13 +3,13 @@
   "title": "Learning AI for free: YouTube channels, courses and tools by purpose",
   "url": "https://blog.vertistratsolution.com/2026/11/learning-ai-for-free-youtube-channels.html",
   "slug": "learning-ai-for-free-youtube-channels",
-  "published": "2026-11-14T17:35:31.374+05:30",
-  "updated": "2026-11-14T17:35:31.374+05:30",
+  "published": "2026-11-14T17:35:31.000+05:30",
+  "updated": "2026-11-16T09:05:14.692+05:30",
   "labels": [
     "Open-Source Tools & How-To"
   ],
-  "bytes": 23966,
-  "sha256": "c9d0a734e57724bb9570cc3460afd74b7f2cdc1f99783a87c8ee66d407897858",
+  "bytes": 24085,
+  "sha256": "55cca3d4e13905c26f3b7d17f04af0f9e5139597aba6e1a66e0068d4fdff97d5",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": false,
@@ -21,13 +21,26 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "version_history": [
     {
       "version": "1.0.0",
       "date": "2026-11-15T09:51:46+00:00",
       "level": "initial",
       "reason": "first snapshot",
+      "note": "scheduled sync"
+    },
+    {
+      "version": "1.0.1",
+      "date": "2026-11-16T10:08:09+00:00",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        23966,
+        24085
+      ],
+      "url_changed": null,
+      "markers_changed": null,
       "note": "scheduled sync"
     }
   ]
