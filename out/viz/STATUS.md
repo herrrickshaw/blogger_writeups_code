@@ -1,4 +1,4 @@
-# Visual-first rewrite: status (15 Nov 2026)
+# Visual-first rewrite: status (16 Nov 2026)
 
 Pipeline: `docs/VIZ_LEAF_BRIEF.md` (leaf instructions), `tools/viz_verify.py` (the oracle), `tools/viz_render.py` (spec to edition),
 `tools/viz_go.py` (render + check in one call), `tools/viz_triage.py`, `tools/viz_wave.py`, `tools/viz_publish.py`.
@@ -9,15 +9,15 @@ Run state lives in `.unlazy/viz/` (not committed: machine-specific). **Nothing i
 
 | Disposition | Posts | What happens |
 |---|---|---|
-| done | 170 | edition passes the oracle, a driver read of every chart at 375px, and a contrast check |
-| rewrite | 143 | queued; a Haiku leaf builds a spec (about 100k tokens, 40-60 s), the code renders it |
+| done | 313 | edition passes the oracle, a driver read of every chart at 375px, and a contrast check |
+| rewrite | 0 | the queue is empty: waves 1 to 18 built every eligible post |
 | walkthrough | 64 | How-to command walkthroughs; phone layout only (theme module) |
-| light | 40 | fewer than 30 distinct numbers; nothing to chart |
+| light | 41 | fewer than 30 distinct numbers; nothing to chart |
 | interactive | 31 | scripts, canvas or iframes; phone layout only |
 | frame | 19 | a template the splitter cannot cut yet |
 | pending | 15 | an unpublished update or Phase 3 merge exists; rewrite after it is published and snapshotted |
 
-Waves 1 to 10 are closed (170 editions). Each wave: `viz_wave.py prepare N 20`, 20 leaves, `seal`, `collect`, a contact sheet read
+Waves 1 to 18 are closed (313 editions). Each wave: `viz_wave.py prepare N 20`, 20 leaves, `seal`, `collect`, a contact sheet read
 (`tools/viz_sheet.js`), `tools/viz_contrast.js`, `close`, commit.
 
 ## How the oracle works (what a leaf cannot get wrong)
@@ -49,5 +49,17 @@ computes to 2.3; a count of items named that is smaller than the count claimed.
     python3 tools/viz_publish.py --limit 20    # publishes the next 20; stops at Blogger's daily write ceiling; run again tomorrow
     python3 tools/snapshot.py && git add -A && git commit -m "snapshot" && git push
 
-`viz_publish.py` holds back an edition that links to a retired post and lists it (four today: they link to How-to posts that Phase 1
-retired). Published slugs are recorded in `out/viz/published.json`.
+`viz_publish.py` holds back an edition that links to a retired post and lists it (three today: they link to How-to guides that the Phase 2 hubs replace;
+repoint after the hubs are published). Published slugs are recorded in `out/viz/published.json`.
+
+## Possible errors found in the originals
+
+`out/viz/leaf-flags.md` lists every figure a leaf flagged as inconsistent in the post it read (about 90 items from waves 14 to 18).
+They are unverified leads, one line each with the post slug: rounding slips, a headline that disagrees with its own table, a
+claim that a later dated update overtook. Nothing in `posts/` was edited.
+
+## Still to do
+
+- Publish on the Mac (steps above); the editions replace the live bodies and need `python3 tools/snapshot.py` afterwards.
+- The 15 pending, 19 frame and 31 interactive posts need hand work or a template fix; the 64 walkthroughs and 41 light posts only need the theme module.
+- The seven dated notes in `out/freshness/updates-2026-11-15/` are not yet applied to the posts or their editions.

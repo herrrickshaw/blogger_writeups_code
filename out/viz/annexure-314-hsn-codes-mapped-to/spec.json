@@ -1,0 +1,33 @@
+{
+ "top": [
+  ["83%", " of the 314 codes (261) are confirmed under Ministry of Textiles ownership in the DPIIT record."],
+  ["118", " codes sit in Indutech alone, more than the next four segments combined (110)."],
+  ["53", " codes sit under other ministries, 29 of them in Indutech and Sportech."]
+ ],
+ "sections": [
+  {"h2": "Most of the 314 codes are confirmed under Ministry of Textiles, 53 are not",
+   "chart": {"type": "bars", "title": "261 of 314 codes are confirmed under Ministry of Textiles ownership",
+             "sub": "Count of HSN codes, by ownership record.", "source": "DPIIT Guidebook on HSN mapping, Dec 2025; this annexure.",
+             "unit": "codes", "accent": "Confirmed under Ministry of Textiles",
+             "rows": [["Confirmed under Ministry of Textiles", 261], ["Under other ministries", 53]]},
+   "means": "The Ministry of Textiles owns 261 of the 314 codes across 13 labels, or 83%, and Packtech, Geotech and Clothtech confirm all of theirs (100%).",
+   "todo": "Read each 'No' code as a ministry-ownership flag, not a verdict that the product is not a technical textile."},
+  {"h2": "Indutech holds 118 of the 314 codes, more than the next four segments combined",
+   "chart": {"type": "bars", "title": "Indutech's 118 codes outnumber the next four segments together, 110",
+             "sub": "Count of HSN codes in each of the five largest segments.", "source": "Annexure segment tables; this annexure.",
+             "unit": "codes", "accent": "Indutech",
+             "rows": [["Indutech", 118], ["Sportech", 34], ["Specialty Fibres & Composites", 31], ["Meditech", 23], ["Protech", 22]]},
+   "means": "Indutech holds 118 of the 314 codes, so one segment dominates the count.",
+   "todo": "Use the Indutech table to check which of its codes fall outside Ministry of Textiles ownership before quoting segment totals.",
+   "numbers": {"table": "T2"}},
+  {"h2": "Indutech and Sportech hold 29 of the 53 codes outside Ministry of Textiles",
+   "chart": {"type": "bars", "title": "Indutech (17) and Sportech (12) have the most codes under other ministries",
+             "sub": "Codes not confirmed under Ministry of Textiles, five largest gaps.", "source": "DPIIT Guidebook on HSN mapping, Dec 2025; this annexure.",
+             "unit": "codes", "accent": "Indutech",
+             "rows": [["Indutech", 17], ["Sportech", 12], ["Meditech", 6], ["Buildtech", 5], ["Protech", 4]]},
+   "means": "Indutech has 17 codes and Sportech 12 outside Ministry of Textiles ownership, the two largest gaps in the list.",
+   "todo": "Confirm these 29 codes against the DPIIT Guidebook before relying on their segment placement."}
+ ],
+ "tables": ["T2"],
+ "derived": {"110": "34+31+23+22", "29": "118-101+34-22", "17": "118-101", "12": "34-22", "6": "23-17", "5": "10-5", "4": "22-18"}
+}

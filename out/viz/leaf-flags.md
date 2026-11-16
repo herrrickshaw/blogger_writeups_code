@@ -80,3 +80,7 @@ Unverified leads from the rewrite agents: each needs a human check against the p
 - `from-cane-to-code-digital-layer`: forex total is Rs 1.97 lakh crore in the top bullet but Rs 1.67 lakh crore in the body; sources also cite Rs 1.90 lakh crore.
 - `epfos-pay-ceiling-rose-to-25000-after`: top callout says Rs 14,500, body says Rs 14,520 (CPI arithmetic matches 14,520).
 - `rooftop-solar-is-working-household`: "under eight days" per lakh households conflicts with 3.16 lakh in May 2026 (about 10 days per lakh).
+
+## Wave 18 (16 Nov 2026)
+- `the-cbg-incentive-stack-every-leg-of`: capital assistance per tonne-day given as Rs 2 crore and as Rs 1.25 crore; the ~Rs 0.59/kg CNG effect predates the new price.
+- `annexure-314-hsn-codes-mapped-to`: the T12 table label is truncated ("Textil"); segment counts otherwise reconcile.

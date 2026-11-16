@@ -1,0 +1,95 @@
+{
+ "top": [
+  [
+   "₹2,110",
+   " per MMBtu is the administered CBG price in the update, excluding taxes and compression charges."
+  ],
+  [
+   "5%",
+   " blending floor for CNG by FY28-29, up from 1% in FY25-26, is the demand leg."
+  ]
+ ],
+ "sections": [
+  {
+   "h2": "The fertiliser leg has at least 15 of the 70 circulars",
+   "chart": {
+    "type": "bars",
+    "title": "At least 15 of the register's 70 circulars sit on the fertiliser leg",
+    "sub": "Count of GOBARdhan register circulars, by leg.",
+    "source": "GOBARdhan important-circulars register.",
+    "unit": "count",
+    "accent": "Fertiliser leg",
+    "rows": [
+     [
+      "Fertiliser leg",
+      15,
+      "at least"
+     ],
+     [
+      "Other circulars",
+      55,
+      "70 minus 15"
+     ]
+    ]
+   },
+   "means": "The post's own count puts at least 15 of its 70 circulars on the fertiliser leg, the deepest trail it traces.",
+   "todo": "What to do: check the fertiliser leg's FCO and bulk-sale notices first, since they carry the most circulars."
+  },
+  {
+   "h2": "Administered CBG price is ₹2,110 per MMBtu, against ₹1,478 before",
+   "chart": {
+    "type": "bars",
+    "title": "The update lifts the administered price from ₹1,478 to ₹2,110 per MMBtu",
+    "sub": "Administered CBG price, ₹ per MMBtu; excludes taxes and compression.",
+    "source": "PIB release of 1 October 2026, as reported; press summaries.",
+    "unit": "₹/MMBtu",
+    "accent": "Administered",
+    "rows": [
+     [
+      "Before",
+      1478,
+      "replaced"
+     ],
+     [
+      "Administered",
+      2110,
+      "excl. taxes"
+     ]
+    ]
+   },
+   "means": "The update reports the administered price rising from ₹1,478 to ₹2,110 per MMBtu, a figure the correction note says is confirmed by outlets but not by the PIB release.",
+   "todo": "What to do: confirm the price against the PIB release before relying on it, since the correction note could not open it."
+  },
+  {
+   "h2": "The blending mandate rises from 1% to 5% of CNG by FY28-29",
+   "chart": {
+    "type": "bars",
+    "title": "The blending obligation sets a demand floor, rising from 1% to 5%",
+    "sub": "CBG blending obligation share of CNG(T)/PNG(D), %.",
+    "source": "MoPNG, 27-Feb-2024.",
+    "unit": "%",
+    "accent": "FY28-29",
+    "ref": [
+     5,
+     "5% = the obligation's target level"
+    ],
+    "rows": [
+     [
+      "FY25-26",
+      1
+     ],
+     [
+      "FY28-29",
+      5,
+      "target"
+     ]
+    ]
+   },
+   "means": "The obligation makes demand for CBG mandatory, rising from 1% in FY25-26 toward 5% by FY28-29.",
+   "todo": "What to do: recheck the pump-price effect of the 5% step, since the post's ~₹0.59/kg figure predates the new price."
+  }
+ ],
+ "derived": {
+  "55": "70-15"
+ }
+}
