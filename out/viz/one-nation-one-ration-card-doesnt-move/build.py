@@ -26,7 +26,13 @@ top = top_line([
 ])
 
 updated = ('<p class="gb-note"><b>Updated 15 November 2026:</b> rewritten as four charts; figures unchanged from the '
-           '7 November 2026 update and the 25 October 2026 correction below.</p>\n')
+           '7 November 2026 update and the 25 October 2026 correction below.</p>\n'
+           '<div class="xv-upd"><p><strong>Updated 16 November 2026:</strong> on 1 October 2026 the central pool held 840.8 lakh tonnes of wheat and rice, '
+           '2.7 times the 1 October norm of 307.7 lakh tonnes (Department of Food and Public Distribution bulletin, as shown by '
+           '<a href="https://tipsheet.markets/economy/rural/food">Tipsheet</a>). Wheat was about 463 lakh tonnes '
+           '(<a href="https://www.thehindubusinessline.com/economy/agri-business/indian-millers-bid-higher-rates-to-get-fcis-wheat-offtake-100-in-many-states/article71645756.ece">Hindu BusinessLine, 30 October 2026</a>) '
+           'and rice 377.6 lakh tonnes (<a href="https://www.livemint.com/news/governments-paddy-procurement-hit-by-weather-woes-storage-constraints/amp-11793357180974.html">Mint, 30 October 2026</a>). '
+           'The 1 April 2026 stock below is an earlier reading.</p></div>\n')
 
 s1 = insight(
     "ONORC use: at most 2.4% of monthly transactions cross a state line",

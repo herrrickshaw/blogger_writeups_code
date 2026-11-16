@@ -13,7 +13,7 @@ Applied as `update_notes` on editions (re-rendered, `viz_verify` PASS): rooftop-
 
 New update file: fuel-pricing-to-crude-cost (Brent back near $93-96; secondary sources, wording says so).
 
-Not applied: one-nation-one-ration-card-doesnt-move. Newer stock figure found (840.8 lakh tonnes of wheat and rice on 1 Oct 2026, 2.7x the 307.7 norm), but the edition is hand-built (`build.py`), has no `update_notes` field, and already carries the 1 Sept figure in a dated note. Add the 1 Oct line to `build.py` if wanted.
+Applied by hand: one-nation-one-ration-card-doesnt-move (hand-built edition). The 1 Oct 2026 stock line (840.8 lakh tonnes, 2.7x the 307.7 norm) is an `xv-upd` block in `edition.html` and in `build.py`. Do not re-run `build.py` to regenerate `edition.html`: its raw output corrupts two PIB links (`&reg=` becomes a registered-mark character) and lacks later CSS, so edit `edition.html` directly.
 
 Already updated earlier: india-trade-sector-policy, indias-state-incentive-war-gujarats (PLI 30 Jun 2026), indias-trade-story-has-three-big-wins.
 
