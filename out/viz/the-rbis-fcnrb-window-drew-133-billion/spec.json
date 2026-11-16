@@ -1,18 +1,124 @@
-{"top": [["$133 billion", " of FCNR(B) deposits swapped with the RBI by 18 September, against about $27 billion in 2013."], ["$51.1 billion", " fall in reserves from the 4 September peak to 2 October, four weeks in a row."], ["$200.1 billion", " RBI net short dollar forward book at end-August, up $63.3 billion in a month."]],
+{
+ "top": [
+  [
+   "$133 billion",
+   " of FCNR(B) deposits swapped with the RBI by 18 September, against about $27 billion in 2013."
+  ],
+  [
+   "$51.1 billion",
+   " fall in reserves from the 4 September peak to 2 October, four weeks in a row."
+  ],
+  [
+   "$200.1 billion",
+   " RBI net short dollar forward book at end-August, up $63.3 billion in a month."
+  ]
+ ],
  "sections": [
-  {"h2": "The 2026 window drew $133 billion, nearly five times the 2013 scheme",
-   "chart": {"type": "bars", "title": "The 2026 FCNR(B) inflow is nearly five times the 2013 scheme's", "sub": "US$ billion of FCNR(B) deposits mobilised.", "source": "RBI figures as cited in the post.", "unit": "US$ bn", "accent": "2026 window (FCNR(B))", "rows": [["2013 scheme (FCNR(B))", 27, "about $27 billion"], ["2026 window (FCNR(B))", 133, "to 18 September"]]},
-   "means": "Banks raised about $133 billion of three-to-five-year dollar deposits between 8 June and 18 September, against about $27 billion of FCNR(B) money in 2013.",
+  {
+   "h2": "The 2026 window drew $133 billion, nearly five times the 2013 scheme",
+   "chart": {
+    "type": "bars",
+    "title": "The 2026 FCNR(B) inflow is nearly five times the 2013 scheme's",
+    "sub": "US$ billion of FCNR(B) deposits mobilised.",
+    "source": "RBI figures as cited in the post.",
+    "unit": "US$ bn",
+    "accent": "2026 window (FCNR(B))",
+    "rows": [
+     [
+      "2013 scheme (FCNR(B))",
+      27,
+      "about $27 billion"
+     ],
+     [
+      "2026 window (FCNR(B))",
+      133,
+      "to 18 September"
+     ]
+    ]
+   },
+   "means": "Banks swapped about $133 billion of three-to-five-year dollar deposits with the RBI by 18 September ($127.2 billion at the 31 August close), against about $27 billion of FCNR(B) money in 2013.",
    "todo": "Publish the tenor mix of the deposits and the renewal assumptions, which the post says are not public.",
-   "numbers": {"table": "T1"}},
-  {"h2": "Reserves fell $51.1 billion in the four weeks after their 4 September peak",
-   "chart": {"type": "bars", "title": "Reserves peaked at $785.7 billion, then fell four weeks in a row", "sub": "Weekly forex reserves, US$ billion, week ending as shown.", "source": "RBI weekly figures as cited in the post.", "unit": "US$ bn", "accent": "4 Sep", "ref": [728.5, "Previous record, 27 Feb"], "rows": [["21 Aug", 729.3], ["28 Aug", 740.8], ["4 Sep", 785.7], ["11 Sep", 780.8], ["18 Sep", 765.9], ["25 Sep", 747.6], ["2 Oct", 734.6]]},
+   "numbers": {
+    "table": "T1"
+   }
+  },
+  {
+   "h2": "Reserves fell $51.1 billion in the four weeks after their 4 September peak",
+   "chart": {
+    "type": "bars",
+    "title": "Reserves peaked at $785.7 billion, then fell four weeks in a row",
+    "sub": "Weekly forex reserves, US$ billion, week ending as shown.",
+    "source": "RBI weekly figures as cited in the post.",
+    "unit": "US$ bn",
+    "accent": "4 Sep",
+    "ref": [
+     728.5,
+     "Previous record, 27 Feb"
+    ],
+    "rows": [
+     [
+      "21 Aug",
+      729.3
+     ],
+     [
+      "28 Aug",
+      740.8
+     ],
+     [
+      "4 Sep",
+      785.7
+     ],
+     [
+      "11 Sep",
+      780.8
+     ],
+     [
+      "18 Sep",
+      765.9
+     ],
+     [
+      "25 Sep",
+      747.6
+     ],
+     [
+      "2 Oct",
+      734.6
+     ]
+    ]
+   },
    "means": "Reserves reached a record $785.7 billion on 4 September and then fell in four straight weeks to $734.6 billion.",
-   "todo": "Report the split of weekly reserve changes between dollar sales and revaluation, which the RBI does not publish."},
-  {"h2": "The RBI's net short dollar forward book rose to $200.1 billion by end-August",
-   "chart": {"type": "bars", "title": "The short forward book rose $63.3 billion in the single month to August", "sub": "RBI net short dollar forward book at month end, US$ billion.", "source": "Press reports of RBI data.", "unit": "US$ bn", "accent": "End-August", "rows": [["End-May", 106.7], ["End-July", 136.8], ["End-August", 200.1]]},
+   "todo": "Report the split of weekly reserve changes between dollar sales and revaluation, which the RBI does not publish."
+  },
+  {
+   "h2": "The RBI's net short dollar forward book rose to $200.1 billion by end-August",
+   "chart": {
+    "type": "bars",
+    "title": "The short forward book rose $63.3 billion in the single month to August",
+    "sub": "RBI net short dollar forward book at month end, US$ billion.",
+    "source": "Press reports of RBI data.",
+    "unit": "US$ bn",
+    "accent": "End-August",
+    "rows": [
+     [
+      "End-May",
+      106.7
+     ],
+     [
+      "End-July",
+      136.8
+     ],
+     [
+      "End-August",
+      200.1
+     ]
+    ]
+   },
    "means": "Each swap adds to the RBI's short position in dollar forwards, so the book grew from $136.8 billion to $200.1 billion in one month.",
    "todo": "Publish the maturity profile of the forward book each month so the repayments created by the swaps can be tracked.",
-   "numbers": {"table": "T2"}}
+   "numbers": {
+    "table": "T2"
+   }
+  }
  ],
- "derived": {}}
+ "derived": {}
+}

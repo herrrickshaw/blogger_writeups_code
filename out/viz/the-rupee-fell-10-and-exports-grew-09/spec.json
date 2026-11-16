@@ -1,35 +1,132 @@
-{"top": [["0.93%", " merchandise export growth in FY2025-26, while the rupee fell about 10.4% against the dollar."],
-          ["4.15", " world-GDP elasticity of Indian exports, against 1.07 for the real exchange rate."],
-          ["56.2%", " of merchandise exports come from industries whose import intensity is above average."]],
+{
+ "top": [
+  [
+   "0.93%",
+   " merchandise export growth in FY2025-26, while the rupee fell about 9.4% against the dollar."
+  ],
+  [
+   "4.15",
+   " world-GDP elasticity of Indian exports, against 1.07 for the real exchange rate."
+  ],
+  [
+   "56.2%",
+   " of merchandise exports come from industries whose import intensity is above average."
+  ]
+ ],
  "sections": [
-  {"h2": "Merchandise exports barely moved despite a roughly 10% weaker rupee",
-   "chart": {"type": "bars", "title": "Exports grew 0.93% while the rupee weakened about 10.4%",
-             "sub": "Merchandise export growth, FY2025-26, %.", "source": "Ministry of Commerce & Industry / PIB.",
-             "unit": "%", "accent": "All merchandise",
-             "rows": [["All merchandise", 0.93, "US$441.78 bn in FY2025-26"], ["Excluding petroleum", 3.62]]},
+  {
+   "h2": "Merchandise exports barely moved despite a roughly 10% weaker rupee",
+   "chart": {
+    "type": "bars",
+    "title": "Exports grew 0.93% while the rupee weakened about 9.4%",
+    "sub": "Merchandise export growth, FY2025-26, %.",
+    "source": "Ministry of Commerce & Industry / PIB.",
+    "unit": "%",
+    "accent": "All merchandise",
+    "rows": [
+     [
+      "All merchandise",
+      0.93,
+      "US$441.78 bn in FY2025-26"
+     ],
+     [
+      "Excluding petroleum",
+      3.62
+     ]
+    ]
+   },
    "means": "Even without petroleum, export growth stayed far below what a 10% price advantage would be expected to buy.",
-   "todo": "Judge exchange-rate policy against export volumes, not against the headline rupee move alone."},
-  {"h2": "Imported inputs absorb much of the rupee gain for most exporters",
-   "chart": {"type": "bars", "title": "Over half of exports come from industries that import heavily",
-             "sub": "Share of manufacturing and exports, %.", "source": "India Exim Bank, Occasional Paper No. 228 (2025).",
-             "unit": "%", "accent": "Exports from above-average import-intensity industries",
-             "rows": [["Raw material imported, manufacturing", 33.4, "FY2022-23"], ["Exports from above-average import-intensity industries", 56.2], ["Manufacturing sales that are exports", 6.5]]},
+   "todo": "Judge exchange-rate policy against export volumes, not against the headline rupee move alone."
+  },
+  {
+   "h2": "Imported inputs absorb much of the rupee gain for most exporters",
+   "chart": {
+    "type": "bars",
+    "title": "Over half of exports come from industries that import heavily",
+    "sub": "Share of manufacturing and exports, %.",
+    "source": "India Exim Bank, Occasional Paper No. 228 (2025).",
+    "unit": "%",
+    "accent": "Exports from above-average import-intensity industries",
+    "rows": [
+     [
+      "Raw material imported, manufacturing",
+      33.4,
+      "FY2022-23"
+     ],
+     [
+      "Exports from above-average import-intensity industries",
+      56.2
+     ],
+     [
+      "Manufacturing sales that are exports",
+      6.5
+     ]
+    ]
+   },
    "means": "When the rupee falls, firms that import heavily see input costs rise almost as fast as their rupee revenue.",
-   "todo": "Trade-intensive firms should hedge and diversify input suppliers, as the Exim Bank's sectoral advice says."},
-  {"h2": "Only food and agro gets the full textbook benefit from a weaker rupee",
-   "chart": {"type": "bars", "title": "Food and agro imports 8.7% of its raw material, far below the rest",
-             "sub": "Import intensity of raw material by sector, %.", "source": "India Exim Bank, Occasional Paper No. 228 (2025).",
-             "unit": "%", "accent": "Food & agro",
-             "rows": [["Petroleum", 80], ["Gems & jewellery", 68.4], ["Electronics", 64.0], ["Food & agro", 8.7]]},
+   "todo": "Trade-intensive firms should hedge and diversify input suppliers, as the Exim Bank's sectoral advice says."
+  },
+  {
+   "h2": "Only food and agro gets the full textbook benefit from a weaker rupee",
+   "chart": {
+    "type": "bars",
+    "title": "Food and agro imports 8.7% of its raw material, far below the rest",
+    "sub": "Import intensity of raw material by sector, %.",
+    "source": "India Exim Bank, Occasional Paper No. 228 (2025).",
+    "unit": "%",
+    "accent": "Food & agro",
+    "rows": [
+     [
+      "Petroleum",
+      80
+     ],
+     [
+      "Gems & jewellery",
+      68.4
+     ],
+     [
+      "Electronics",
+      64.0
+     ],
+     [
+      "Food & agro",
+      8.7
+     ]
+    ]
+   },
    "means": "Sector import intensity runs from 8.7% in food and agro to 80% in petroleum, which sets each sector's currency exposure.",
    "todo": "Trade-intensive sectors should hedge and diversify input suppliers before relying on a weaker rupee.",
-   "numbers": {"table": "T2"}},
-  {"h2": "Demand moves Indian exports about four times as much as the exchange rate",
-   "chart": {"type": "bars", "title": "World GDP elasticity of 4.15 dwarfs the exchange-rate effect of 1.07",
-             "sub": "Long-run export elasticities in the Exim Bank's 2025 model.", "source": "India Exim Bank, Occasional Paper No. 228 (2025).",
-             "unit": "elasticity", "accent": "World GDP",
-             "rows": [["World GDP", 4.15, "Significant at 1%"], ["Real exchange rate (REER)", 1.07, "Paper's own sign is disputed"]]},
+   "numbers": {
+    "table": "T2"
+   }
+  },
+  {
+   "h2": "Demand moves Indian exports about four times as much as the exchange rate",
+   "chart": {
+    "type": "bars",
+    "title": "World GDP elasticity of 4.15 dwarfs the exchange-rate effect of 1.07",
+    "sub": "Long-run export elasticities in the Exim Bank's 2025 model.",
+    "source": "India Exim Bank, Occasional Paper No. 228 (2025).",
+    "unit": "elasticity",
+    "accent": "World GDP",
+    "rows": [
+     [
+      "World GDP",
+      4.15,
+      "Significant at 1%"
+     ],
+     [
+      "Real exchange rate (REER)",
+      1.07,
+      "Paper's own sign is disputed"
+     ]
+    ]
+   },
    "means": "In the Exim Bank's own model, foreign demand matters far more to exports than the exchange rate does.",
-   "todo": "Exporters should push market access and buyer financing rather than rely on currency competitiveness alone."}
+   "todo": "Exporters should push market access and buyer financing rather than rely on currency competitiveness alone."
+  }
  ],
- "derived": {}}
+ "derived": {
+  "9.4": "(94.4-85.5)/94.4*10*10"
+ }
+}

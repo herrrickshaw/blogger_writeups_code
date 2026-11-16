@@ -1,19 +1,107 @@
-{"top": [["20 of 27", " EU member states ran a national export credit agency in the Commission's 2023 review."], ["€2.2bn", " of the EIB's €3.8bn India lending since 1993 went to urban rail."]],
+{
+ "top": [
+  [
+   "20 of 27",
+   " EU member states ran a national export credit agency in the Commission's 2023 review."
+  ],
+  [
+   "€2.2bn",
+   " of the EIB's €3.8bn India lending since 1993 went to urban rail."
+  ]
+ ],
  "sections": [
-  {"h2": "Urban rail is more than half of the EIB's €3.8bn India lending since 1993",
-   "chart": {"type": "bars", "title": "Urban rail alone accounts for €2.2bn of the €3.8bn EIB total", "sub": "EU-backed lending to India, €bn.", "source": "EIB press release 2025-388; European Commission COM(2024) 556 final.", "unit": "€bn", "accent": "EIB urban rail lending", "rows": [["EIB India lending since 1993, total", 3.8], ["EIB urban rail lending", 2.2], ["KfW Green Energy Corridors loan", 2.15]]},
+  {
+   "h2": "Urban rail is more than half of the EIB's €3.8bn India lending since 1993",
+   "chart": {
+    "type": "bars",
+    "title": "Urban rail alone accounts for €2.2bn of the €3.8bn EIB total",
+    "sub": "EU-backed lending to India, €bn.",
+    "source": "EIB press release 2025-388; European Commission COM(2024) 556 final.",
+    "unit": "€bn",
+    "accent": "EIB urban rail lending",
+    "rows": [
+     [
+      "EIB India lending since 1993, total",
+      3.8
+     ],
+     [
+      "EIB urban rail lending",
+      2.2
+     ],
+     [
+      "KfW Green Energy Corridors loan",
+      2.15
+     ]
+    ]
+   },
    "means": "Urban rail is the largest EIB line in the post, so the EU's India money mostly builds cities rather than factories.",
    "todo": "Readers should check whether an announced Global Gateway loan is infrastructure or manufacturing tech transfer before counting it as the latter.",
-   "numbers": {"table": "T2"}},
-  {"h2": "The two valued direct ECA deals are smaller than a single KfW infrastructure loan",
-   "chart": {"type": "bars", "title": "Priced direct deals run €372m and €950m, far below the €2.15bn KfW loan", "sub": "Direct ECA-backed India deals with a published value, €m.", "source": "Euler Hermes AG; SACE; European Commission COM(2024) 556 final.", "unit": "€m", "accent": "Euler Hermes, Reliance shopping line (2016)", "rows": [["Euler Hermes, Reliance shopping line (2016)", 950], ["SACE, REC Ltd green loan (2024)", 372], ["Euler Hermes, SMS hot strip mill (2023)", null]]},
+   "numbers": {
+    "table": "T2"
+   }
+  },
+  {
+   "h2": "The two valued direct ECA deals are smaller than a single KfW infrastructure loan",
+   "chart": {
+    "type": "bars",
+    "title": "Priced direct deals run €372m and €950m, below the €2.15bn KfW loan",
+    "sub": "Direct ECA-backed India deals with a published value, €m.",
+    "source": "Euler Hermes AG; SACE; European Commission COM(2024) 556 final.",
+    "unit": "€m",
+    "accent": "Euler Hermes, Reliance shopping line (2016)",
+    "rows": [
+     [
+      "Euler Hermes, Reliance shopping line (2016)",
+      950
+     ],
+     [
+      "SACE, REC Ltd green loan (2024)",
+      372
+     ],
+     [
+      "Euler Hermes, SMS hot strip mill (2023)",
+      null
+     ]
+    ]
+   },
    "means": "The two valued direct deals are smaller than a single KfW infrastructure loan, and the other two list no value.",
    "todo": "Any claim that ECA-backed deals drive manufacturing in India should be tested against these deal values first.",
-   "numbers": {"table": "T3"}},
-  {"h2": "20 of the EU's 27 member states run an export credit agency",
-   "chart": {"type": "bars", "title": "Seven member states have no export credit agency listed for 2023", "sub": "EU member states by export credit agency status in the 2023 return.", "source": "European Commission, annual review of member-state export credit agencies (2023 return).", "unit": "states", "accent": "Member states with an ECA", "ref": [27, "27 EU member states"], "rows": [["Member states with an ECA", 20], ["Member states without an ECA listed", 7]]},
+   "numbers": {
+    "table": "T3"
+   }
+  },
+  {
+   "h2": "20 of the EU's 27 member states run an export credit agency",
+   "chart": {
+    "type": "bars",
+    "title": "Seven member states have no export credit agency listed for 2023",
+    "sub": "EU member states by export credit agency status in the 2023 return.",
+    "source": "European Commission, annual review of member-state export credit agencies (2023 return).",
+    "unit": "states",
+    "accent": "Member states with an ECA",
+    "ref": [
+     27,
+     "27 EU member states"
+    ],
+    "rows": [
+     [
+      "Member states with an ECA",
+      20
+     ],
+     [
+      "Member states without an ECA listed",
+      7
+     ]
+    ]
+   },
    "means": "Most EU member states run an export credit agency, but the Commission's 2023 list does not include the other seven.",
    "todo": "Anyone comparing EU export finance should use the 20-agency list in the 2023 return and not assume all 27 states are covered.",
-   "numbers": {"table": "T1"}}
+   "numbers": {
+    "table": "T1"
+   }
+  }
  ],
- "derived": {"7": "27-20"}}
+ "derived": {
+  "7": "27-20"
+ }
+}
