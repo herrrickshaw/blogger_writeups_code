@@ -54,7 +54,7 @@ repoint after the hubs are published). Published slugs are recorded in `out/viz/
 
 ## Possible errors found in the originals
 
-`out/viz/leaf-flags.md` lists every figure a leaf flagged as inconsistent in the post it read (about 90 items from waves 14 to 18).
+`out/viz/leaf-flags.md` lists every figure a leaf flagged as inconsistent in the post it read (73 items from waves 14 to 18).
 They are unverified leads, one line each with the post slug: rounding slips, a headline that disagrees with its own table, a
 claim that a later dated update overtook. Nothing in `posts/` was edited.
 
