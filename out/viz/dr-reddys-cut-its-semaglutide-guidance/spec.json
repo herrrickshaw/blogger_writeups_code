@@ -1,24 +1,99 @@
-{"top": [["45%", " cut to FY27 semaglutide pen guidance, from 12 million to 6–7 million."], ["₹240 crore", " one-time provision; Q1 FY27 net profit fell 69% year on year."]],
- "sections": [
-  {"h2": "FY27 pen guidance was halved, from 12 million to 6–7 million",
-   "chart": {"type": "bars", "title": "The revised range sits 45% below the original 12 million pens",
-             "sub": "FY27 semaglutide pen-supply guidance, million pens.",
-             "source": "Dr. Reddy's Laboratories 9 July 2026 investor call and Q1 FY27 results.",
-             "unit": "million pens", "accent": "Revised FY27 guidance",
-             "rows": [["Original FY27 guidance", 12, "Set before the API impurity was disclosed"], ["Revised FY27 guidance", [6, 7], "45% cut; supply targeted from November 2026"]]},
-   "means": "The revised target covers India, Canada and partner markets combined, after a 45% cut.",
-   "todo": "Check whether commercial supply resumes from November 2026 as targeted."},
-  {"h2": "The halt cost a ₹240 crore provision and resumption slipped",
-   "chart": {"type": "flow", "events": [["9 July 2026", "Emergency investor call discloses a scale-up impurity and pauses commercial API supply", true], ["10 July 2026", "Shares fall 3.7% on the trading day after disclosure"], ["September 2026", "Testing expected to complete around the third week"], ["November 2026", "Commercial supply targeted to resume"]]},
-   "means": "The one-time ₹240 crore provision is the main reason Q1 FY27 net profit fell 69% year on year.",
-   "todo": "Confirm that supply resumes in November 2026 before treating the fix as done."},
-  {"h2": "Generics launched at ₹1,290 a month, against Novo's ₹10,000–16,000",
-   "chart": {"type": "bars", "title": "Generic launch prices sat far below Novo's Indian price",
-             "sub": "Monthly price in India, ₹.",
-             "source": "Secondary industry coverage cited in the post.",
-             "unit": "₹ a month", "accent": "Cheapest generic launch",
-             "rows": [["Novo's Indian price", [10000, 16000]], ["Cheapest generic launch", 1290]]},
-   "means": "More than five domestic makers had launched by the Monday after patent expiry, several pricing 70–90% below Novo.",
-   "todo": "Estimate how much share the five-month supply gap hands to those competitors."}
+{
+ "top": [
+  [
+   "45%",
+   " cut to FY27 semaglutide pen guidance, from 12 million to 6–7 million."
+  ],
+  [
+   "₹240 crore",
+   " one-time provision; Q1 FY27 net profit fell 69% year on year."
+  ]
  ],
- "derived": {}}
+ "sections": [
+  {
+   "h2": "FY27 pen guidance was halved, from 12 million to 6–7 million",
+   "chart": {
+    "type": "bars",
+    "title": "The revised range sits 45% below the original 12 million pens",
+    "sub": "FY27 semaglutide pen-supply guidance, million pens.",
+    "source": "Dr. Reddy's Laboratories 9 July 2026 investor call and Q1 FY27 results.",
+    "unit": "million pens",
+    "accent": "Revised FY27 guidance",
+    "rows": [
+     [
+      "Original FY27 guidance",
+      12,
+      "Set before the API impurity was disclosed"
+     ],
+     [
+      "Revised FY27 guidance",
+      [
+       6,
+       7
+      ],
+      "45% cut; supply targeted from November 2026"
+     ]
+    ]
+   },
+   "means": "The revised target covers India, Canada and partner markets combined, after a 45% cut.",
+   "todo": "Check whether commercial supply resumes from November 2026 as targeted."
+  },
+  {
+   "h2": "The halt cost a ₹240 crore provision and resumption slipped",
+   "chart": {
+    "type": "flow",
+    "events": [
+     [
+      "9 July 2026",
+      "Emergency investor call discloses a scale-up impurity and pauses commercial API supply",
+      true
+     ],
+     [
+      "10 July 2026",
+      "Shares fall 3.7% on the trading day after disclosure"
+     ],
+     [
+      "September 2026",
+      "Testing expected to complete around the third week"
+     ],
+     [
+      "November 2026",
+      "Commercial supply targeted to resume"
+     ]
+    ]
+   },
+   "means": "The one-time ₹240 crore provision is the main reason Q1 FY27 net profit fell 69% year on year.",
+   "todo": "Confirm that supply resumes in November 2026 before treating the fix as done."
+  },
+  {
+   "h2": "Generics launched at ₹1,290 a month, against Novo's ₹10,000–16,000",
+   "chart": {
+    "type": "bars",
+    "title": "Generic launch prices sat far below Novo's Indian price",
+    "sub": "Monthly price in India, ₹.",
+    "source": "Secondary industry coverage cited in the post.",
+    "unit": "₹ a month",
+    "accent": "Cheapest generic launch",
+    "rows": [
+     [
+      "Novo's Indian price",
+      [
+       10000,
+       16000
+      ]
+     ],
+     [
+      "Cheapest generic launch",
+      1290
+     ]
+    ]
+   },
+   "means": "More than five domestic makers had launched by the Monday after patent expiry, several pricing 70–90% below Novo.",
+   "todo": "Estimate how much share the five-month supply gap hands to those competitors."
+  }
+ ],
+ "derived": {},
+ "update_notes": [
+  "<p><strong>Updated 16 November 2026:</strong> In its second-quarter results on 23 October, Dr Reddy's said it was on track to resolve the semaglutide ingredient issue and planned to resume supply in November, subject to validation of the finished product, with most first volumes for Canada. It kept its FY27 guidance of 6-7 million pens. Whether supply has resumed has not been confirmed. Sources: <a href=\"https://nsearchives.nseindia.com/corporate/DRREDDY_23102026173751_SEintimation_Investor_presentation_23102026_1.pdf\">company results presentation, 23 October 2026</a>; <a href=\"http://www.thehindubusinessline.com/companies/dr-reddys-q2-fy27-net-down-36-at-925-cr/article71616661.ece\">Hindu BusinessLine, 23 October 2026</a>.</p>"
+ ]
+}

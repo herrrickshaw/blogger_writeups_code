@@ -1,31 +1,102 @@
 {
  "top": [
-  ["145", " e-bids from 40 companies for 23 Discovered Small Field (DSF) Round-II areas; 14 companies were awarded areas."],
-  ["239", " applications for 50 approvals across the first two rounds of the bulk drug scheme."],
-  ["44", " bids for 67 mines in the 10th round of commercial coal mine auctions."]
+  [
+   "145",
+   " e-bids from 40 companies for 23 Discovered Small Field (DSF) Round-II areas; 14 companies were awarded areas."
+  ],
+  [
+   "239",
+   " applications for 50 approvals across the first two rounds of the bulk drug scheme."
+  ],
+  [
+   "44",
+   " bids for 67 mines in the 10th round of commercial coal mine auctions."
+  ]
  ],
  "sections": [
-  {"h2": "Oil and gas: 14 of 40 companies that bid won areas in DSF Round-II",
-   "chart": {"type":"bars", "title":"Most companies that bid in the 2019 small-fields round won no area",
-             "sub":"Companies in DSF Round-II, March 2019, count.", "source":"PIB PRID 1567883.",
-             "unit":"companies", "accent":"Companies awarded areas",
-             "rows":[["Companies that bid",40],["Companies awarded areas",14],["Companies not awarded",26]]},
+  {
+   "h2": "Oil and gas: 14 of 40 companies that bid won areas in DSF Round-II",
+   "chart": {
+    "type": "bars",
+    "title": "Most companies that bid in the 2019 small-fields round won no area",
+    "sub": "Companies in DSF Round-II, March 2019, count.",
+    "source": "PIB PRID 1567883.",
+    "unit": "companies",
+    "accent": "Companies awarded areas",
+    "rows": [
+     [
+      "Companies that bid",
+      40
+     ],
+     [
+      "Companies awarded areas",
+      14
+     ],
+     [
+      "Companies not awarded",
+      26
+     ]
+    ]
+   },
    "means": "Of the 40 companies that bid in DSF Round-II, 14 were awarded contract areas.",
-   "todo": "Publish the full bidder list for each round alongside the winners, as the post asks of the government."},
-  {"h2": "Bulk drugs: 50 approvals from 239 applications in the first two rounds",
-   "chart": {"type":"bars", "title":"Roughly one application in five was approved in the first two bulk drug rounds",
-             "sub":"Applications to the bulk drug scheme, rounds 1 and 2, count.", "source":"PIB PRID 1779692.",
-             "unit":"applications", "accent":"Approved",
-             "rows":[["Applications received",239],["Approved",50],["Not approved",189]]},
+   "todo": "Publish the full bidder list for each round alongside the winners, as the post asks of the government."
+  },
+  {
+   "h2": "Bulk drugs: 50 approvals from 239 applications in the first two rounds",
+   "chart": {
+    "type": "bars",
+    "title": "Roughly one application in five was approved in the first two bulk drug rounds",
+    "sub": "Applications to the bulk drug scheme, rounds 1 and 2, count.",
+    "source": "PIB PRID 1779692.",
+    "unit": "applications",
+    "accent": "Approved",
+    "rows": [
+     [
+      "Applications received",
+      239
+     ],
+     [
+      "Approved",
+      50
+     ],
+     [
+      "Not approved",
+      189
+     ]
+    ]
+   },
    "means": "Combined, the two rounds received 239 applications and approved 50 of them.",
-   "todo": "Name the roughly 189 unsuccessful applicants in the scheme's release, as the approved ones are named."},
-  {"h2": "Coal mine auctions: 44 bids for 67 mines in the 10th round",
-   "chart": {"type":"bars", "title":"The 10th coal auction round drew fewer bids than mines on offer",
-             "sub":"Commercial coal mine auction, 10th round, count.", "source":"PIB PRID 2066164.",
-             "unit":"count", "accent":"Bids received",
-             "rows":[["Mines on offer",67],["Bids received",44]]},
+   "todo": "Name the roughly 189 unsuccessful applicants in the scheme's release, as the approved ones are named."
+  },
+  {
+   "h2": "Coal mine auctions: 44 bids for 67 mines in the 10th round",
+   "chart": {
+    "type": "bars",
+    "title": "The 10th coal auction round drew fewer bids than mines on offer",
+    "sub": "Commercial coal mine auction, 10th round, count.",
+    "source": "PIB PRID 2066164.",
+    "unit": "count",
+    "accent": "Bids received",
+    "rows": [
+     [
+      "Mines on offer",
+      67
+     ],
+     [
+      "Bids received",
+      44
+     ]
+    ]
+   },
    "means": "The 10th round received 44 physical bids for 67 coal mines on offer.",
-   "todo": "Publish the number of bidders per block for every round, not only for the winners."}
+   "todo": "Publish the number of bidders per block for every round, not only for the winners."
+  }
  ],
- "derived": {"26": "40-14", "189": "239-50"}
+ "derived": {
+  "26": "40-14",
+  "189": "239-50"
+ },
+ "update_notes": [
+  "<p><strong>Updated 16 November 2026:</strong> The Ministry of Heavy Industries received 22 bids for the 10 GWh grid-scale storage tranche. The bid deadline was extended from 13 October to 10 November, and technical bids were opened on 11 November. Bidders include Reliance Industries, JSW Neo Energy, Amara Raja Advanced Cell Technologies, Exide Energy Solutions, Waaree Energy Storage Solutions and Vikram Solar. No winners have been named, and the ministry has not said when financial bids open. Source: <a href=\"https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2335459&amp;reg=48&amp;lang=2\">PIB, 12 November 2026</a>.</p>"
+ ]
 }

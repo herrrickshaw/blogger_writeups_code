@@ -113,7 +113,12 @@ def verify(slug, edition=None, quiet=False):
         errs.append(f"frame: the edition leaves {container_balance(ed)} container element(s) open, the live post {container_balance(orig)}; "
                     "content would inherit an open wrapper's styling (a hero or slide). tools/viz_frame.py's bridge should prevent this")
         return errs, manual
-    new_text, old_body = visible(mid), visible(fr.body)
+    added = re.findall(r'<div class="xv-upd">(.*?)</div>', mid, re.S)
+    for n in added:         # dated notes added after the rewrite: shape is checked, numbers are not held to the original
+        if not re.match(r"\s*<p>\s*<(?:b|strong)>Updated \d{1,2} [A-Z][a-z]+ 20\d\d:", n) or 'href="http' not in n:
+            errs.append(f"update note: must open with 'Updated <date>:' and cite a source link: {visible(n)[:60]!r}")
+    mid_chk = re.sub(r'<div class="xv-upd">.*?</div>', " ", mid, flags=re.S)
+    new_text, old_body = visible(mid_chk), visible(fr.body)
 
     # ---- structure ----
     tops = re.findall(r'<div class="xv-top">.*?</div>', mid, re.S)

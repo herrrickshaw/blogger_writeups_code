@@ -62,4 +62,4 @@ claim that a later dated update overtook. Nothing in `posts/` was edited.
 
 - Publish on the Mac (steps above); the editions replace the live bodies and need `python3 tools/snapshot.py` afterwards.
 - The 15 pending, 19 frame and 31 interactive posts need hand work or a template fix; the 64 walkthroughs and 41 light posts only need the theme module.
-- The seven dated notes in `out/freshness/updates-2026-11-15/` are not yet applied to the posts or their editions.
+- Dated notes from `out/freshness/updates-2026-11-15/` are applied to six editions (spec `update_notes`, shown as `Updated 16 November 2026`). The seventh check (quality regulators) found nothing to add. Six posts that still need a check against newer news are listed in `out/consistency/2026-11-15.md`.

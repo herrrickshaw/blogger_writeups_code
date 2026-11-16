@@ -212,7 +212,10 @@ def build(slug):
         extra += f'<details class="xv-n"><summary>{esc(src_sec[0])}</summary>{src_sec[1]}</details>\n'
 
     note = (f'<p class="gb-note"><b>Updated 15 November 2026:</b> rewritten as charts; figures unchanged.</p>\n')
-    mid = STYLE + top + fr.keep_front + update_notes(fr.body) + note + "".join(secs) + extra
+    # dated notes added after the rewrite (spec "update_notes": HTML paragraphs, each "Updated <date>: ..." with a source link);
+    # the oracle does not hold their numbers to the original, because they report what happened after it was written
+    added = "".join(f'<div class="xv-upd">{n}</div>\n' for n in spec.get("update_notes", []))
+    mid = STYLE + top + fr.keep_front + update_notes(fr.body) + note + added + "".join(secs) + extra
     out = d / "edition.html"            # NOT out/update-*.html: phase3_publish.sh publishes every file with that name
     out.write_text(fr.head + fr.mid + fr.bridge + mid + "\n" + fr.tail, encoding="utf-8")
     (d / "derived.json").write_text(json.dumps(spec.get("derived", {}), indent=1) + "\n", encoding="utf-8")

@@ -1,48 +1,103 @@
 {
  "top": [
-  ["Rs 14.05 lakh crore", " approved across 387 projects, about 10 times the large factory value Andhra built in 2021–25."],
-  ["37%", " of Andhra's 2015–22 factory filings later reported production, second only to Gujarat's 48%."],
-  ["Rs 140,445 crore", " of large factories built in Andhra in 2021–25, against Rs 44,627 crore in Tamil Nadu."]
+  [
+   "Rs 14.05 lakh crore",
+   " approved across 387 projects, about 10 times the large factory value Andhra built in 2021–25."
+  ],
+  [
+   "37%",
+   " of Andhra's 2015–22 factory filings later reported production, second only to Gujarat's 48%."
+  ],
+  [
+   "Rs 140,445 crore",
+   " of large factories built in Andhra in 2021–25, against Rs 44,627 crore in Tamil Nadu."
+  ]
  ],
  "sections": [
-  {"h2": "Approvals of Rs 14.05 lakh crore are about 10 times the large factories built",
-   "chart": {"type": "bars",
-             "title": "The board's Rs 14.05 lakh crore is about 10 times what was built",
-             "sub": "Rs lakh crore; approvals are a pipeline, the built figures are commissioned factories.",
-             "source": "Andhra Pradesh State Investment Promotion Board; this blog's DPIIT IEM analysis.",
-             "unit": "Rs lakh crore",
-             "accent": "Approved by board, since mid-2024",
-             "rows": [
-              ["Approved by board, since mid-2024", 14.05, "387 projects"],
-              ["Factory projects filed, 2020–25", 1.74],
-              ["Factory projects built, 2021–25", 1.40],
-              ["Factory projects built in 2025 alone", 0.51]
-             ]},
+  {
+   "h2": "Approvals of Rs 14.05 lakh crore are about 10 times the large factories built",
+   "chart": {
+    "type": "bars",
+    "title": "The board's Rs 14.05 lakh crore is about 10 times what was built",
+    "sub": "Rs lakh crore; approvals are a pipeline, the built figures are commissioned factories.",
+    "source": "Andhra Pradesh State Investment Promotion Board; this blog's DPIIT IEM analysis.",
+    "unit": "Rs lakh crore",
+    "accent": "Approved by board, since mid-2024",
+    "rows": [
+     [
+      "Approved by board, since mid-2024",
+      14.05,
+      "387 projects"
+     ],
+     [
+      "Factory projects filed, 2020–25",
+      1.74
+     ],
+     [
+      "Factory projects built, 2021–25",
+      1.4
+     ],
+     [
+      "Factory projects built in 2025 alone",
+      0.51
+     ]
+    ]
+   },
    "means": "Approvals cover all sectors while the built figure covers only large manufacturing, so part of the gap is definitional.",
    "todo": "Track each approved project against its filing and commissioning so the headline total can be checked on the ground.",
-   "numbers": {"table": "T2"}},
-  {"h2": "Andhra's 2015–22 filings reached production at 37%, behind only Gujarat",
-   "chart": {"type": "bars",
-             "title": "Gujarat's 48% leads Andhra's 37%, and Tamil Nadu's 26% trails it",
-             "sub": "Share of IEM Part A filings from 2015–22 that later reported production, by count, %.",
-             "source": "This blog's parse of DPIIT's IEM register, 2001–2024.",
-             "unit": "%",
-             "accent": "Andhra Pradesh",
-             "table": {"id": "T2", "label": 0, "value": 5, "rows": "top:10", "sort": "desc"}},
+   "numbers": {
+    "table": "T2"
+   }
+  },
+  {
+   "h2": "Andhra's 2015–22 filings reached production at 37%, behind only Gujarat",
+   "chart": {
+    "type": "bars",
+    "title": "Gujarat's 48% leads Andhra's 37%, and Tamil Nadu's 26% trails it",
+    "sub": "Share of IEM Part A filings from 2015–22 that later reported production, by count, %.",
+    "source": "This blog's parse of DPIIT's IEM register, 2001–2024.",
+    "unit": "%",
+    "accent": "Andhra Pradesh",
+    "table": {
+     "id": "T2",
+     "label": 0,
+     "value": 5,
+     "rows": "top:10",
+     "sort": "desc"
+    }
+   },
    "means": "Andhra is among the better states at turning filings into factories, though the count undercounts projects whose Part B entry cites neither memo number nor company name.",
    "todo": "Re-run the follow-through check on filings made after 2022 once their Part B entries have had time to appear.",
-   "numbers": {"table": "T2"}},
-  {"h2": "Andhra built Rs 140,445 crore of large factories in 2021–25, Tamil Nadu Rs 44,627 crore",
-   "chart": {"type": "bars",
-             "title": "Andhra out-built Tamil Nadu in four of the five years to 2025",
-             "sub": "Value of large factory projects commissioned, 2021–25, Rs crore.",
-             "source": "This blog's state analysis of DPIIT's IEM data.",
-             "unit": "Rs crore",
-             "accent": "Andhra Pradesh",
-             "table": {"id": "T2", "label": 0, "value": 3, "rows": "top:10", "sort": "desc"}},
+   "numbers": {
+    "table": "T2"
+   }
+  },
+  {
+   "h2": "Andhra built Rs 140,445 crore of large factories in 2021–25, Tamil Nadu Rs 44,627 crore",
+   "chart": {
+    "type": "bars",
+    "title": "Andhra out-built Tamil Nadu in four of the five years to 2025",
+    "sub": "Value of large factory projects commissioned, 2021–25, Rs crore.",
+    "source": "This blog's state analysis of DPIIT's IEM data.",
+    "unit": "Rs crore",
+    "accent": "Andhra Pradesh",
+    "table": {
+     "id": "T2",
+     "label": 0,
+     "value": 3,
+     "rows": "top:10",
+     "sort": "desc"
+    }
+   },
    "means": "The shift in large manufacturing toward Andhra predates Tamil Nadu's change of government, on the factory record.",
    "todo": "Compare new large filings by state each year, since the record cannot yet show the individual cases the opposition cites.",
-   "numbers": {"table": "T2"}}
+   "numbers": {
+    "table": "T2"
+   }
+  }
  ],
- "derived": {}
+ "derived": {},
+ "update_notes": [
+  "<p><strong>Updated 16 November 2026:</strong> On 10 November the Andhra Pradesh government said 526 of the 714 investment proposals received since June 2024 had been converted into projects worth Rs 17.2 lakh crore, out of a Rs 22.6 lakh crore pipeline, and that 303 projects worth Rs 7.1 lakh crore had been grounded or were scheduled for grounding. These are state-reported figures; whether they are on the same basis as the Rs 14 lakh crore above has not been checked. Source: <a href=\"https://www.business-standard.com/economy/news/andhra-pradesh-sees-74-conversion-of-22-6-trillion-investment-proposals-126111000837_1.html\">Business Standard, 10 November 2026</a>.</p>"
+ ]
 }

@@ -1,22 +1,93 @@
-{"top": [["₹4,391cr", " of PM E-DRIVE's ₹10,900cr original outlay goes to e-bus procurement, the largest of its three budget lines."], ["1 Apr 2027", " is the new deadline for e-bus magnet and shaft fitment, while the base traction-motor build stays due 1 Sep 2026."]],
+{
+ "top": [
+  [
+   "₹4,391cr",
+   " of PM E-DRIVE's ₹10,900cr original outlay goes to e-bus procurement, the largest of its three budget lines."
+  ],
+  [
+   "1 Apr 2027",
+   " is the new deadline for e-bus magnet and shaft fitment, while the base traction-motor build stays due 1 Sep 2026."
+  ]
+ ],
  "sections": [
-  {"h2": "E-bus procurement takes ₹4,391 crore, the largest PM E-DRIVE budget line",
-   "chart": {"type": "bars", "title": "E-bus procurement support is the largest of three budget lines",
-             "sub": "Budget by PM E-DRIVE component, ₹ crore.", "source": "PMIndia press release; trade coverage, as cited in the post.",
-             "unit": "₹ crore", "accent": "e-bus procurement support",
-             "table": {"id": "T1", "label": 0, "value": 1, "rows": "top:10", "sort": "desc"}},
+  {
+   "h2": "E-bus procurement takes ₹4,391 crore, the largest PM E-DRIVE budget line",
+   "chart": {
+    "type": "bars",
+    "title": "E-bus procurement support is the largest of three budget lines",
+    "sub": "Budget by PM E-DRIVE component, ₹ crore.",
+    "source": "PMIndia press release; trade coverage, as cited in the post.",
+    "unit": "₹ crore",
+    "accent": "e-bus procurement support",
+    "table": {
+     "id": "T1",
+     "label": 0,
+     "value": 1,
+     "rows": "top:10",
+     "sort": "desc"
+    }
+   },
    "means": "The post's own budget lines put e-bus procurement at ₹4,391 crore, above both the demand incentives and the charging line.",
    "todo": "Track the e-bus procurement line first, since the post names it as the segment whose traction-motor deadline held firm.",
-   "numbers": {"table": "T1"}},
-  {"h2": "E-bus magnets and shafts slip to April 2027; the base build keeps September 2026",
-   "chart": {"type": "flow", "events": [["1 Sep 2025", "E-truck integrated motor: assembly and controller work already in force"], ["1 Sep 2026", "E-bus base traction-motor build stays due as scheduled"], ["1 Apr 2027", "E-bus magnet and shaft fitment due; standalone e-truck full build due", true]]},
+   "numbers": {
+    "table": "T1"
+   }
+  },
+  {
+   "h2": "E-bus magnets and shafts slip to April 2027; the base build keeps September 2026",
+   "chart": {
+    "type": "flow",
+    "events": [
+     [
+      "1 Sep 2025",
+      "E-truck integrated motor: assembly and controller work already in force"
+     ],
+     [
+      "1 Sep 2026",
+      "E-bus base traction-motor build stays due as scheduled"
+     ],
+     [
+      "1 Apr 2027",
+      "E-bus magnet and shaft fitment due; standalone e-truck full build due",
+      true
+     ]
+    ]
+   },
    "means": "For e-buses the base build stays due on 1 September 2026, and only the magnet and shaft fitment move to 1 April 2027.",
    "todo": "Check magnet sourcing for e-bus traction motors well before 1 April 2027, since the post says that is the input industry cannot yet source domestically.",
-   "numbers": {"table": "T3"}},
-  {"h2": "No magnet beneficiary was named by 7 November, with the April 2027 deadline still standing",
-   "chart": {"type": "flow", "events": [["April 2025", "China's licensing of seven heavy rare earths, including dysprosium, takes effect"], ["13 August", "Technical bids opened for the ₹7,280cr rare-earth magnet scheme, 20 in all"], ["7 November", "No beneficiary named yet; the 1 April 2027 magnet deadline stands", true]]},
+   "numbers": {
+    "table": "T3"
+   }
+  },
+  {
+   "h2": "No magnet beneficiary was named by 7 November, with the April 2027 deadline still standing",
+   "chart": {
+    "type": "flow",
+    "events": [
+     [
+      "April 2025",
+      "China's licensing of seven heavy rare earths, including dysprosium, takes effect"
+     ],
+     [
+      "13 August",
+      "Technical bids opened for the ₹7,280cr rare-earth magnet scheme, 20 in all"
+     ],
+     [
+      "7 November",
+      "No beneficiary named yet; the 1 April 2027 magnet deadline stands",
+      true
+     ]
+    ]
+   },
    "means": "The post reports 20 bids for the ₹7,280cr magnet scheme, but no beneficiary named by 7 November, so domestic magnet capacity has not started.",
    "todo": "Watch for a named beneficiary under the magnet scheme as the first sign that the April 2027 magnet deadline can be met.",
-   "numbers": {"table": "T2"}}
+   "numbers": {
+    "table": "T2"
+   }
+  }
  ],
- "derived": {}}
+ "derived": {},
+ "update_notes": [
+  "<p><strong>Updated 16 November 2026:</strong> China's Ministry of Commerce and Customs Administration extended the pause on the October 2025 export controls on 9 November (Announcement No. 58 of 2026). The six suspended measures now stay suspended from 11 November 2026 to 10 January 2027. The April 2025 licence requirement on seven medium and heavy rare earths, including dysprosium and terbium, is unchanged. Sources: <a href=\"https://www.spglobal.com/energy/en/news-research/latest-news/metals/110926-china-extends-rare-earth-export-suspension-to-january-2027\">S&amp;P Global, 9 November 2026</a>; <a href=\"https://www.channelnewsasia.com/east-asia/china-extends-suspensions-new-rare-earths-controls-6535736\">CNA, 9 November 2026</a>.</p>"
+ ]
+}
